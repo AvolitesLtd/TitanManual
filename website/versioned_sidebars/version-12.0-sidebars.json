@@ -1,0 +1,13 @@
+{
+  "version-12.0-docs": {
+    "Getting Started": [
+      "version-12.0-doc1"
+    ],
+    "Guides": [
+      "version-12.0-doc2"
+    ],
+    "Features": [
+      "version-12.0-doc3"
+    ]
+  }
+}
