@@ -26,7 +26,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {page: 'docs/doc1.html', label: 'Docs'},
+    {page: 'docs/quick-start-guide.html', label: 'Docs'},
     {page: 'help', label: 'Help'},
     { search: true },
   ],
@@ -78,14 +78,18 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
+  docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+  enableUpdateBy: true,
 
   // Show documentation's last update time.
   enableUpdateTime: true,
 
+  algolia: {
+      apiKey: 'my-api-key',
+      indexName: 'my-index-name'
+  },
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',

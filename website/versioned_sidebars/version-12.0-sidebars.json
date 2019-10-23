@@ -1,13 +1,63 @@
 {
   "version-12.0-docs": {
-    "Getting Started": [
-      "version-12.0-doc1"
+    "Introduction": [
+      "version-12.0-guides"
     ],
     "Guides": [
-      "version-12.0-doc2"
+      "version-12.0-quick-start-guide"
     ],
+    "Show Management": [],
+    "Patching": [
+      "version-12.0-patching/patching-fixtures",
+      "version-12.0-patching/exchange",
+      "version-12.0-patching/fixture-options"
+    ],
+    "Groups": [
+      "version-12.0-groups/basic-groups",
+      "version-12.0-groups/layout-editor"
+    ],
+    "Attributes": [
+      "version-12.0-features/attribute-editor"
+    ],
+    "Palettes": [
+      "version-12.0-palettes/palettes",
+      "version-12.0-palettes/nested-palettes"
+    ],
+    "Effects": [
+      "version-12.0-features/classic-shapes",
+      "version-12.0-features/keyframe-shapes",
+      "version-12.0-features/pixel-mapper"
+    ],
+    "Playbacks": [
+      "version-12.0-playbacks/overview",
+      {
+        "type": "subcategory",
+        "label": "Cue Lists",
+        "ids": [
+          "version-12.0-playbacks/cuelists/overview",
+          "version-12.0-playbacks/cuelists/tracking"
+        ]
+      }
+    ],
+    "Cues": [],
+    "Chases": [],
+    "Masters": [],
+    "Timecode": [],
+    "Triggers": [],
+    "System Menu": [],
+    "User Settings": [],
+    "Multiuser and Backup": [],
+    "Syntax": [],
+    "Macros": [],
     "Features": [
-      "version-12.0-doc3"
+      "version-12.0-features/align",
+      "version-12.0-features/synergy",
+      "version-12.0-features/capture-vis",
+      "version-12.0-features/report-export",
+      "version-12.0-features/scene-master",
+      "version-12.0-features/set-lists",
+      "version-12.0-features/undo",
+      "version-12.0-features/web-api"
     ]
   }
 }

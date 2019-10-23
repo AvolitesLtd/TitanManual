@@ -1,7 +1,87 @@
 {
   "docs": {
-    "Getting Started": ["doc1"],
-    "Guides": ["doc2"],
-    "Features": ["doc3"]
+    "Introduction": [
+      "guides"
+    ],
+    "Guides": [
+      "quick-start-guide"
+    ],
+    "Show Management": [
+
+    ],
+    "Patching": [
+      "patching/patching-fixtures",
+      "patching/exchange",
+      "patching/fixture-options"
+    ],
+    "Groups": [
+      "groups/basic-groups",
+      "groups/layout-editor"
+    ],
+    "Attributes": [
+      "features/attribute-editor"
+    ],
+
+    "Palettes": [
+      "palettes/palettes",
+      "palettes/nested-palettes"
+    ],
+    "Effects": [
+      "features/classic-shapes",
+      "features/keyframe-shapes",
+      "features/pixel-mapper"
+    ],
+
+    "Playbacks": [
+      "playbacks/overview",
+      {
+        "type": "subcategory",
+        "label": "Cue Lists",
+        "ids": [
+          "playbacks/cuelists/overview",
+          "playbacks/cuelists/tracking"
+        ]
+      }
+    ],
+    "Cues": [
+    ],
+
+    "Chases": [
+    ],
+    "Masters": [
+
+    ],
+    "Timecode": [
+
+    ],
+    "Triggers": [
+
+    ],
+    "System Menu": [
+
+    ],
+    "User Settings": [
+
+    ],
+    "Multiuser and Backup": [
+
+    ],
+    "Syntax": [
+
+    ],
+    "Macros": [
+
+    ],
+
+    "Features": [
+      "features/align",
+      "features/synergy",
+      "features/capture-vis",
+      "features/report-export",
+      "features/scene-master",
+      "features/set-lists",
+      "features/undo",
+      "features/web-api"
+    ]
   }
 }
