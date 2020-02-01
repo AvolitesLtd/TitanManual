@@ -76,7 +76,7 @@ The \[Master Overlap\] option similarly sets the default Overlap for
 palette recall.
 
   -------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![tip](/docs/images/image7.png){width="0.7361111111111112in" height="0.6527777777777778in"}   You can create macro buttons to set different palette fade times. Press \<Macro\>, \[Record\], press a button to store your macro on. Then press \<Palette\>, \[Master Time\], 3 (for 3 sec), \<Exit\>, \<Macro\>. Repeat these steps to create a Palette Snap button (0 sec), or a 1 sec fade button, and so on.
+  ![tip](/docs/images/image7.png)   You can create macro buttons to set different palette fade times. Press \<Macro\>, \[Record\], press a button to store your macro on. Then press \<Palette\>, \[Master Time\], 3 (for 3 sec), \<Exit\>, \<Macro\>. Repeat these steps to create a Palette Snap button (0 sec), or a 1 sec fade button, and so on.
   -------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

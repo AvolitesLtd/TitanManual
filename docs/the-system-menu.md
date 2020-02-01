@@ -14,7 +14,7 @@ because they can have serious effects on the way the console works and
 you wouldn't want to change them accidentally.
 
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   When the console is in System mode, playback control, preset controls and programming buttons are all disabled.
+  ![info](/docs/images/image6.png)   When the console is in System mode, playback control, preset controls and programming buttons are all disabled.
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------
 
 Network Settings

@@ -14,7 +14,7 @@ fixtures as pixels and uses them to output a 2D effect. See section
 5.3.2 on page 136 for details of how to layout the fixtures.
 
   -------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![tip](/docs/images/image7.png){width="0.7361111111111112in" height="0.6527777777777778in"}   At the end of this section (Section 7.6 on page 175) there are a number of step-by-step examples of creating effects with the pixel mapper. It's much easier to get to grips with if you can work through some examples.
+  ![tip](/docs/images/image7.png)   At the end of this section (Section 7.6 on page 175) there are a number of step-by-step examples of creating effects with the pixel mapper. It's much easier to get to grips with if you can work through some examples.
   -------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 You create effects with the Pixel Mapper as follows.
@@ -150,7 +150,7 @@ If you wish you can overlay further layers on the effect. Once you have
 an effect you like, you can save it to a playback.
 
   --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   When adjusting the parameter sliders, as well as using click/drag on the screen you can also use the wheels or type in a numerical value. To assign a slider to the wheels or for numerical input, click the value box to the right of the control. Double click the value to reset it to its default, or use the +/- softkey to change the sign of the value.
+  ![info](/docs/images/image6.png)   When adjusting the parameter sliders, as well as using click/drag on the screen you can also use the wheels or type in a numerical value. To assign a slider to the wheels or for numerical input, click the value box to the right of the control. Double click the value to reset it to its default, or use the +/- softkey to change the sign of the value.
   --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -   You can reorder the Pixel Mapper layers by selecting the layer to

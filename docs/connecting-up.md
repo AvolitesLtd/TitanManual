@@ -8,7 +8,7 @@ Cautions
 --------
 
   ---------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![exclamation](/docs/images/image5.png){width="0.7083333333333334in" height="0.6388888888888888in"}   Radio transmitters may affect the operation of the console and we recommend that they are not placed on, above or behind the console. If you are wearing one it is best placed in a back pocket or behind you when attached to a belt.
+  ![exclamation](/docs/images/image5.png)   Radio transmitters may affect the operation of the console and we recommend that they are not placed on, above or behind the console. If you are wearing one it is best placed in a back pocket or behind you when attached to a belt.
   ---------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Connecting mains power
@@ -59,7 +59,7 @@ Power light has gone off (about 30 seconds) before you disconnect power
 from the console.
 
   ---------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![exclamation](/docs/images/image5.png){width="0.7083333333333334in" height="0.6388888888888888in"}   If the console has a switch on the power module on the back, do not use this to turn off the console as this does not close down the software properly and you will lose any changes to your show.
+  ![exclamation](/docs/images/image5.png)   If the console has a switch on the power module on the back, do not use this to turn off the console as this does not close down the software properly and you will lose any changes to your show.
   ---------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Forced shutdown
@@ -89,7 +89,7 @@ which you do simply by running the installer file. This will make sure
 the drivers for the panel are installed.
 
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   From Titan v7, Windows XP and Vista are no longer supported. Your PC must be running a 64 bit version of Windows 7, Windows 8.1 or Windows 10.
+  ![info](/docs/images/image6.png)   From Titan v7, Windows XP and Vista are no longer supported. Your PC must be running a 64 bit version of Windows 7, Windows 8.1 or Windows 10.
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------
 
 For best usability, your PC should have a touch screen. If not you can
@@ -162,7 +162,7 @@ connection. See section 18 on page 339 for details of how to network the
 Arena console.
 
   --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   By default on a new show, the XLRs on the console are automatically connected to DMX lines starting at line 1, however if you are loading a show from a different model of console or the simulator, check the DMX Settings option to confirm how the DMX outputs are set up.
+  ![info](/docs/images/image6.png)   By default on a new show, the XLRs on the console are automatically connected to DMX lines starting at line 1, however if you are loading a show from a different model of console or the simulator, check the DMX Settings option to confirm how the DMX outputs are set up.
   --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The 5-pin XLR sockets on the console are wired like this:

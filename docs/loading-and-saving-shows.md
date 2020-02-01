@@ -9,7 +9,7 @@ console's internal hard disk. The console will also autosave the show
 periodically.
 
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   Shows created on a Titan console can be loaded into any other model of Avolites Titan console, but not to older non-Titan consoles as the showfile format is different.\
+  ![info](/docs/images/image6.png)   Shows created on a Titan console can be loaded into any other model of Avolites Titan console, but not to older non-Titan consoles as the showfile format is different.\
                                                                                                 Showfiles from newer versions of Titan may not load correctly (or at all) into consoles with older versions of Titan.
 
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -174,7 +174,7 @@ You can disable Autosave or alter the time between saves using option
 reload Autosave files using the Show Browser.
 
   --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   This option is included because Autosave used to make the console pause, however this is no longer the case and we recommend that you do not disable Autosave. If you lose power while programming Autosave will make your day a whole lot better.
+  ![info](/docs/images/image6.png)   This option is included because Autosave used to make the console pause, however this is no longer the case and we recommend that you do not disable Autosave. If you lose power while programming Autosave will make your day a whole lot better.
   --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Recover show

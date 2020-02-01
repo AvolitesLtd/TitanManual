@@ -96,7 +96,7 @@ You can also use Key Profiles to configure one of the handle buttons to
 release the cue list.
 
   --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   While the cue list remains active, any shapes/effects stored in the current cue will run even if the fader is at zero. If you are working with a cue list and have unexplained shapes occurring, check all cue lists have been killed.
+  ![info](/docs/images/image6.png)   While the cue list remains active, any shapes/effects stored in the current cue will run even if the fader is at zero. If you are working with a cue list and have unexplained shapes occurring, check all cue lists have been killed.
   --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Tracking

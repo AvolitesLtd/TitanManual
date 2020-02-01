@@ -189,7 +189,7 @@ and columns (Width).
     page 275.
 
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   You can temporarily randomize the fixture order when selecting fixtures using a group by holding down the group button and pressing \[Random Order\] which appears as a softkey option while the button is held.
+  ![info](/docs/images/image6.png)   You can temporarily randomize the fixture order when selecting fixtures using a group by holding down the group button and pressing \[Random Order\] which appears as a softkey option while the button is held.
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

@@ -189,7 +189,7 @@ palette.
 Quick record also works for groups and workspaces.
 
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   If you want to load a show from a Pearl Expert onto another Titan console, use the Groups and Palettes workspace window to access the fixtures/palettes on the blue/grey preset buttons on the Pearl. See section 3.2.4 on page 63 for more details.
+  ![info](/docs/images/image6.png)   If you want to load a show from a Pearl Expert onto another Titan console, use the Groups and Palettes workspace window to access the fixtures/palettes on the blue/grey preset buttons on the Pearl. See section 3.2.4 on page 63 for more details.
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Setting legends for palettes

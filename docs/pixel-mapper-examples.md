@@ -531,7 +531,7 @@ Now increase \'Distance Random\' to 100%. (This will make the bar draw
 at a random offset around the \'Distance\' setting, in this case making
 it anywhere within the grid.)\
 ![Displacement and Layer Properties\_Step
-8](/docs/images/image227.jpeg){width="4.375in" height="2.625in"}
+8](/docs/images/image227.jpeg)
 
 9\> Return to the Opacity animation controls and increase speed until
 you\'re happy.

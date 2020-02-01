@@ -53,7 +53,7 @@ box) and which are currently modified (blue circle).
 The appearance of the softkeys varies to indicate the type of actions
 available:
 
-  ![](/docs/images/image87.png){width="0.9305555555555556in" height="0.7083333333333334in"}                                                                                             
+  ![](/docs/images/image87.png)                                                                                             
   ------------------------------------------------------------------------------------------ -------------------------------------------------- -------------------------------------- ------------------------------------------------------------------
   Action button: console will carry out the action shown                                     Option button: cycles through a range of options   New menu button: jumps to a new menu   Text entry button: press and enter text using the touch keyboard
 
@@ -118,7 +118,7 @@ The toolbar also has a keyboard button allowing you to pop up the touch
 keyboard.
 
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   Toolbars are not provided on Titan Mobile or Titan Go as all these functions can be carried out using standard Windows operations.
+  ![info](/docs/images/image6.png)   Toolbars are not provided on Titan Mobile or Titan Go as all these functions can be carried out using standard Windows operations.
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------
 
 The Heads-Up Display (HUD)

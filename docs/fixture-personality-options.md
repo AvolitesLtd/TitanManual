@@ -202,7 +202,7 @@ console.
     Avolites website.
 
   --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   If you find a problem in a fixture personality provided by Avolites, please let us know using the bug report form in the Personality section of the website..
+  ![info](/docs/images/image6.png)   If you find a problem in a fixture personality provided by Avolites, please let us know using the bug report form in the Personality section of the website..
   --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

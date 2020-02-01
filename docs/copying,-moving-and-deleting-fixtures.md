@@ -59,7 +59,7 @@ accidentally or if you change your rig and want to use the button for
 something else.
 
   --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   All programming for the fixture is also deleted. You cannot undo deletion of a fixture or get the programming back by repatching a fixture to the same handle. If you might need the fixtures again later, move them to an unused fixture page.
+  ![info](/docs/images/image6.png)   All programming for the fixture is also deleted. You cannot undo deletion of a fixture or get the programming back by repatching a fixture to the same handle. If you might need the fixtures again later, move them to an unused fixture page.
   --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1\> Enter Patch mode by pressing the \<Patch\> button.

@@ -65,7 +65,7 @@ legends for the encoders on the screen if they are not already shown
 ![arena\_miniscreen\_1](/docs/images/image76.png)
 
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   If you assign a master to a handle with an LED, the LED will flash if the fader is at zero... just as a reminder to help you work out why no lights are coming on.
+  ![info](/docs/images/image6.png)   If you assign a master to a handle with an LED, the LED will flash if the fader is at zero... just as a reminder to help you work out why no lights are coming on.
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Speed and Size Masters
@@ -122,7 +122,7 @@ below. Tapping the blue button will also set the BPM or you can enter
 BPM on the keypad and press the blue button of the master to set it.
 
   -----------------------------------------------------------------------------------------------------------------
-  ![](/docs/images/image296.png){width="0.8888888888888888in" height="1.7083333333333333in"}   
+  ![](/docs/images/image296.png)   
   ------------------------------------------------------------------------------------------- ---------------------
   BPM master with\                                                                            BPM master with\
   BPM on fader                                                                                multiplier on fader
@@ -222,7 +222,7 @@ mode of the master will be shown.
     flash.
 
   --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   You can release all masters by pressing \<Release\> then \[Release All Masters\]. This can be useful if something is being controlled by a master but you are not sure where it is.
+  ![info](/docs/images/image6.png)   You can release all masters by pressing \<Release\> then \[Release All Masters\]. This can be useful if something is being controlled by a master but you are not sure where it is.
   --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Scene Master

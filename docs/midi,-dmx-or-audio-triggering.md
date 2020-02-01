@@ -9,7 +9,7 @@ external events. This is very useful in complex shows or when using in
 an automated setup.
 
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   Audio trigger (sound to light) requires special hardware which is currently only available on the Quartz and Arena consoles. The line in socket on other consoles cannot be used for audio trigger.
+  ![info](/docs/images/image6.png)   Audio trigger (sound to light) requires special hardware which is currently only available on the Quartz and Arena consoles. The line in socket on other consoles cannot be used for audio trigger.
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Connecting remote trigger sources

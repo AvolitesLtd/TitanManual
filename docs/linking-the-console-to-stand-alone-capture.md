@@ -16,7 +16,7 @@ there are multiple Titan consoles on the network, you can manually
 select one from the list..
 
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   For linking/sync to work properly the external Capture version must be the latest version of Nexum, or 2018. Older versions of Capture will only partially work.
+  ![info](/docs/images/image6.png)   For linking/sync to work properly the external Capture version must be the latest version of Nexum, or 2018. Older versions of Capture will only partially work.
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 While Capture is connected, the console will attempt to keep its show
@@ -49,7 +49,7 @@ position, orientation, legend and user number will sync between the
 console and stand-alone Capture.
 
   --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   Fixture Legend in Titan links to the "Unit" property on the Capture fixture, and User Number in Titan links to the "Channel" property in Capture.
+  ![info](/docs/images/image6.png)   Fixture Legend in Titan links to the "Unit" property on the Capture fixture, and User Number in Titan links to the "Channel" property in Capture.
   --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 Patching Capture fixtures onto the console

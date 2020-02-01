@@ -138,7 +138,7 @@ buttons.
 -   The **Shapes** view shows which attributes of each fixture are
     running shapes.
 
-![](/docs/images/image239.png){width="5.375in" height="2.5in"}
+![](/docs/images/image239.png)
 
 Filter which attributes you are shown using the All/IPCGBES buttons in
 the top left corner.

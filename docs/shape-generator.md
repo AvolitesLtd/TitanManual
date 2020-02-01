@@ -108,7 +108,7 @@ a particular shape.
     shape file).
 
   -------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------
-  ![tip](/docs/images/image7.png){width="0.7361111111111112in" height="0.6527777777777778in"}   When using a Rainbow colour shape, to get the full range of colours you need to set the CMY or RGB attributes to 50%.
+  ![tip](/docs/images/image7.png)   When using a Rainbow colour shape, to get the full range of colours you need to set the CMY or RGB attributes to 50%.
   -------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------
 
 Changing size and speed of a shape

@@ -244,7 +244,7 @@ working with fixture cells.
 To go back to normal, press \<Unfold\> then \[Exit Unfold\].
 
   --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   The Sub fixtures feature has to be defined in the fixture's personality. If sub fixtures does not work on your fixture you may need to obtain the latest fixture personality from Avolites.
+  ![info](/docs/images/image6.png)   The Sub fixtures feature has to be defined in the fixture's personality. If sub fixtures does not work on your fixture you may need to obtain the latest fixture personality from Avolites.
   --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Patching Active Fixtures / Media Servers
@@ -273,7 +273,7 @@ itself to match the existing DMX addresses. You can also remotely change
 modes and other settings on the fixture.
 
   --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   The fixtures need to be connected to the console by an RDM-enabled Artnet node, the XLR connectors do not support RDM. Obviously the fixtures must be equipped with RDM for this to work; many fixtures are not. Also if you have DMX buffers or splitters in your rig, they must be RDM enabled or they will block the information being sent back to the console.
+  ![info](/docs/images/image6.png)   The fixtures need to be connected to the console by an RDM-enabled Artnet node, the XLR connectors do not support RDM. Obviously the fixtures must be equipped with RDM for this to work; many fixtures are not. Also if you have DMX buffers or splitters in your rig, they must be RDM enabled or they will block the information being sent back to the console.
   --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Press \<View/Open\> then \<Patch\> to open the Patch View window then

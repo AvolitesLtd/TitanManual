@@ -9,7 +9,7 @@ as your mobile device. The app will automatically detect all the
 consoles on the network.
 
   --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   Ensure that Wifi security is enabled on the network you are using, as anyone who can connect to the wifi and has the app will be able to control the console. You don't want someone in the audience taking over the show.
+  ![info](/docs/images/image6.png)   Ensure that Wifi security is enabled on the network you are using, as anyone who can connect to the wifi and has the app will be able to control the console. You don't want someone in the audience taking over the show.
   --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -   You may experience problems with the remote if you have an internet
@@ -68,7 +68,7 @@ the access point.
 6\> Run the Titan Remote app. You should see the console listed.
 
   --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   If you are using the remote at showtime, on the Access Point you should select the option to hide the SSID. If you do not do this, every smartphone in the audience will find your wifi and try to connect to your Access Point which will make the remote operation very sluggish.
+  ![info](/docs/images/image6.png)   If you are using the remote at showtime, on the Access Point you should select the option to hide the SSID. If you do not do this, every smartphone in the audience will find your wifi and try to connect to your Access Point which will make the remote operation very sluggish.
   --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

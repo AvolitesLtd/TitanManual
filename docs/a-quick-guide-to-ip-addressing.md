@@ -89,7 +89,7 @@ Or
 Where a combination of x, y and z are unique for these fixtures.
 
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   Never set the last number of an IP address to be 255. This is a special address which will not function correctly.
+  ![info](/docs/images/image6.png)   Never set the last number of an IP address to be 255. This is a special address which will not function correctly.
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------
 
 Automatically assigning IP addresses (DHCP)

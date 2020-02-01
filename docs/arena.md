@@ -111,7 +111,7 @@ it is running on UPS, in the unlikely event of a complete lock up that
 can\'t be recovered by holding down the power switch.
 
   ---------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![exclamation](/docs/images/image5.png){width="0.7083333333333334in" height="0.6388888888888888in"}   Using the battery disconnect switch will also power down the inbuilt network switch (TNS). Be aware of this if you are running from a backup console connected via the network switch.
+  ![exclamation](/docs/images/image5.png)   Using the battery disconnect switch will also power down the inbuilt network switch (TNS). Be aware of this if you are running from a backup console connected via the network switch.
   ---------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The Arena console has adjustable legs to angle the console for easier

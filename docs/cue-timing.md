@@ -15,7 +15,7 @@ for each attribute of each fixture, or globally for the cue. Shapes in
 the cue will also be affected, depending on the fade mode.
 
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   If you enter times more than 60 seconds, Titan will automatically split the time into minutes and seconds, for example enter 115 to set 1:15 (1min 15 seconds). Entering more digits will set hours, minutes, seconds.
+  ![info](/docs/images/image6.png)   If you enter times more than 60 seconds, Titan will automatically split the time into minutes and seconds, for example enter 115 to set 1:15 (1min 15 seconds). Entering more digits will set hours, minutes, seconds.
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 You can delay the fade times between fixtures in a cue so that the cue
