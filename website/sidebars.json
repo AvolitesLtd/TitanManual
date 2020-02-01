@@ -1,87 +1,149 @@
 {
   "docs": {
     "Introduction": [
-      "guides"
+      "quick-start",
+      "patching-fixtures",
+      "controlling-fixtures",
+      "programming-cues-and-chases",
+      "programming-palettes",
+      "dmx-network-setup"
     ],
-    "Guides": [
-      "quick-start-guide"
+    "About The Consoles": [
+      "about-the-consoles",
+      "sapphire-touch",
+      "arena",
+      "tiger-touch",
+      "quartz",
+      "titan-mobile",
+      "t1andt2",
+      "tnp-(titan-net-processor)",
+      "pearl-expert-and-touch-wing",
+      "fader-wings"
     ],
-    "Show Management": [
-
+    "Connecting up and Titan basics": [
+      "connecting-up-and-titan-basics",
+      "connecting-up",
+      "workspace-windows",
+      "other-parts-of-the-touch-screen",
+      "front-panel-buttons",
+      "multi-user-operation",
+      "titan-simulator",
+      "show-library",
+      "loading-and-saving-shows",
+      "clearing-the-console",
+      "creating-reports"
     ],
-    "Patching": [
-      "patching/patching-fixtures",
-      "patching/exchange",
-      "patching/fixture-options"
+    "Patching" : [
+      "patching",
+      "patching-new-fixtures-or-dimmers",
+      "changing-the-patch",
+      "copying,-moving-and-deleting-fixtures",
+      "fixture-personality-options"
     ],
-    "Groups": [
-      "groups/basic-groups",
-      "groups/layout-editor"
+    "Controlling Dimmers": [
+      "controlling-dimmers",
+      "using-the-select-buttons-and-wheels",
+      "viewing-and-editing-fixture-values",
+      "fixture-groups",
+      "advanced-options"
     ],
-    "Attributes": [
-      "features/attribute-editor"
-    ],
-
     "Palettes": [
-      "palettes/palettes",
-      "palettes/nested-palettes"
+      "palettes",
+      "creating-palettes",
+      "using-palettes",
+      "editing-palettes",
+      "copying,-moving-and-deleting-palettes",
+      "timing-with-palettes"
     ],
-    "Effects": [
-      "features/classic-shapes",
-      "features/keyframe-shapes",
-      "features/pixel-mapper"
-    ],
-
-    "Playbacks": [
-      "playbacks/overview",
-      {
-        "type": "subcategory",
-        "label": "Cue Lists",
-        "ids": [
-          "playbacks/cuelists/overview",
-          "playbacks/cuelists/tracking"
-        ]
-      }
+    "Shapes and Pixel Mapper Effects": [
+      "shapes-and-pixel-mapper-effects",
+      "shape-generator",
+      "key-frame-shapes",
+      "pixel-mapper",
+      "editing-shapes",
+      "advanced-options",
+      "pixel-mapper-examples"
     ],
     "Cues": [
+      "cues",
+      "creating-a-cue",
+      "using-a-cue",
+      "editing-cues",
+      "copying,-moving,-linking-and-deleting"
     ],
-
     "Chases": [
+      "chases",
+      "creating-a-chase",
+      "playback",
+      "editing-a-chase",
+      "copying,-moving,-linking-and-deleting"
     ],
-    "Masters": [
-
+    "Cue Lists": [
+      "cue-lists",
+      "creating-a-cue-list",
+      "cue-list-playback",
+      "editing-cue-lists",
+      "copying,-moving,-linking-and-deleting",
+      "cue-list-timing",
+      "cue-list-options",
+      "theatre-programming"
     ],
-    "Timecode": [
-
+    "Capture Visualiser": [
+      "capture-visualiser",
+      "setting-up-the-rig",
+      "visualising-using-capture",
+      "capture-show-files",
+      "linking-the-console-to-stand-alone-capture"
     ],
-    "Triggers": [
-
+    "Synergy and Linking to AI": [
+      "synergy-and-linking-to-ai",
+      "setting-up",
+      "operating-synergy"
     ],
-    "System Menu": [
-
+    "Running The Show": [
+      "running-the-show",
+      "playback-controls",
+      "using-multiple-on-screen-workspaces",
+      "organising-the-console",
+      "set-list-window",
+      "midi,-dmx-or-audio-triggering",
+      "linking-consoles-for-multi-user-or-backup"
     ],
-    "User Settings": [
-
+    "Remote Control": [
+      "remote-control",
+      "setting-up-the-remote",
+      "operating-the-remote"
     ],
-    "Multiuser and Backup": [
-
+    "Titan Net": [
+      "titan-net",
+      "tnp-slave-mode",
+      "tnp-console-mode"
     ],
-    "Syntax": [
-
+    "System Menu and User Settings": [
+      "system-menu-and-user-settings",
+      "the-system-menu",
+      "external-dispays",
+      "key-profiles",
+      "user-settings",
+      "dmx-output-mapping",
+      "curves",
+      "upgrading-the-software",
+      "recoveringreinstalling-the-console",
+      "release-notes"
     ],
-    "Macros": [
-
+    "Fixture Personalities": [
+      "fixture-personalties"
     ],
-
-    "Features": [
-      "features/align",
-      "features/synergy",
-      "features/capture-vis",
-      "features/report-export",
-      "features/scene-master",
-      "features/set-lists",
-      "features/undo",
-      "features/web-api"
+    "Networking the Console": [
+      "connecting-the-arena-to-a-network",
+      "controlling-fixtures-over-a-network",
+      "using-active-fixtures",
+      "a-quick-guide-to-ip-addressing"
+    ],
+    "Titan Commands": [
+      "titan-commands"
     ]
+
+
   }
 }

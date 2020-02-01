@@ -9,8 +9,8 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'Unofficial Avolites Titan Manual', // Title for your website.
-  tagline: 'An unofficial manual for the Avolites Titan Software',
+  title: 'Community Avolites Titan Manual', // Title for your website.
+  tagline: 'A manual for the Avolites Titan Software',
   url: 'https://avolites.fraserstockley.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -26,7 +26,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {page: 'docs/quick-start-guide.html', label: 'Docs'},
+    {page: 'docs/quick-start', label: 'Docs'},
     {page: 'help', label: 'Help'},
     { search: true },
   ],
