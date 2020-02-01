@@ -18,8 +18,7 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
     - name: npm install, build, and test
       run: |
-        # Build and test the project, then
-        # deploy to Azure Web App.
+        cd website
         npm install
         npm run build --if-present
         npm run test --if-present
