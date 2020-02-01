@@ -98,7 +98,7 @@ button rather than a quick press, you get some more options
     save.
 
   -------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![tip](/docs/images/image7.png){width="0.7361111111111112in" height="0.6527777777777778in"}   To quickly locate without changing pan/tilt, hold \<Locate\> and press the Pan/Tilt (or Position) button, then release \<Locate\>.\
+  ![tip](/docs/images/image7.png)   To quickly locate without changing pan/tilt, hold \<Locate\> and press the Pan/Tilt (or Position) button, then release \<Locate\>.\
                                                                                                To quickly locate pan/tilt only, hold \<Locate\>, press \<Options\> (\<Attribute Options\> on some consoles), then press \<Position\> (\<Pan/Tilt\> on some consoles), then release \<Locate\>.
 
   -------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -185,7 +185,7 @@ You can use the Channel Grid window to selectively view and remove
 attributes from fixtures. See section 5.2.1 on page 132.
 
   -------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![tip](/docs/images/image7.png){width="0.7361111111111112in" height="0.6527777777777778in"}   If you type a number then press \<Clear\>, HTP values in the programmer will fade out over that time, for example 5 \<Clear\> would fade over 5 seconds. This can be very useful if you are trying to be subtle when making changes during a show.
+  ![tip](/docs/images/image7.png)   If you type a number then press \<Clear\>, HTP values in the programmer will fade out over that time, for example 5 \<Clear\> would fade over 5 seconds. This can be very useful if you are trying to be subtle when making changes during a show.
   -------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Fixtures with multiple cells/subfixtures
@@ -464,7 +464,7 @@ number using the search bar. There is a context menu button to \[Order
 Filters by Number\] or \[Order Filters by Hue\].
 
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   For LED fixtures with additional emitters for Warm/Cool white, Amber, UV, Lime or Cyan, Colour Mix will automatically control all the colour channels to obtain the colour. In versions previous to Titan v9 only RGB elements were controlled by the colour picker and other colours had to be set independently.
+  ![info](/docs/images/image6.png)   For LED fixtures with additional emitters for Warm/Cool white, Amber, UV, Lime or Cyan, Colour Mix will automatically control all the colour channels to obtain the colour. In versions previous to Titan v9 only RGB elements were controlled by the colour picker and other colours had to be set independently.
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Media servers/Active fixtures
@@ -487,7 +487,7 @@ sides of the image to control the fixture.
 ![](/docs/images/image148.png)
 
   --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   Updated personality files may be required to support the keystone/blade functions. If the functions are not shown in the Attribute View, try downloading and installing the latest personality file, then run the Update Patched Fixtures command.
+  ![info](/docs/images/image6.png)   Updated personality files may be required to support the keystone/blade functions. If the functions are not shown in the Attribute View, try downloading and installing the latest personality file, then run the Update Patched Fixtures command.
   --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Setting attributes from the softkeys
@@ -825,7 +825,7 @@ The Position window in the Attribute Editor also has a \[Flip\] button
 which does this.
 
   --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   The settings used for Flip are defined in the fixture personality. If Flip doesn't work you may need to update to the latest personality.
+  ![info](/docs/images/image6.png)   The settings used for Flip are defined in the fixture personality. If Flip doesn't work you may need to update to the latest personality.
   --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------
 
 Fan mode
@@ -885,7 +885,7 @@ Press \<Fan\> again to leave Fan mode. Any effects you have set will
 remain in the programmer.
 
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   It's all too easy to accidentally leave Fan mode turned on and be very confused about why the wheels aren't working properly, so turn it off as soon as you have completed the effect. To avoid this there is a User Setting 'Press and hold Fan'. If enabled, you have to hold down \<Fan\> to enable Fan mode. See section 16.1.6 on page 313.
+  ![info](/docs/images/image6.png)   It's all too easy to accidentally leave Fan mode turned on and be very confused about why the wheels aren't working properly, so turn it off as soon as you have completed the effect. To avoid this there is a User Setting 'Press and hold Fan'. If enabled, you have to hold down \<Fan\> to enable Fan mode. See section 16.1.6 on page 313.
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Fan Curves

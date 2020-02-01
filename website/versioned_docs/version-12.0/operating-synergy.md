@@ -128,7 +128,7 @@ adding Fx and colour.
     define the Fx names.
 
   --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   If you select layers then press \<Locate\>, the layer intensity will be set to full but all media and fx will be cleared. This is useful to get a layer back to a known state, but you don't get any output. To get some output you will need to then select a media clip.
+  ![info](/docs/images/image6.png)   If you select layers then press \<Locate\>, the layer intensity will be set to full but all media and fx will be cleared. This is useful to get a layer back to a known state, but you don't get any output. To get some output you will need to then select a media clip.
   --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -   The Clip selection window also shows you the progress of clips being
@@ -136,7 +136,7 @@ adding Fx and colour.
 
   Currently being transcoded                                                                  In the queue awaiting transcoding                                                           Transcoding failed
   ------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------
-  ![](/docs/images/image285.png){width="0.6666666666666666in" height="0.6666666666666666in"}   ![](/docs/images/image286.png){width="0.6666666666666666in" height="0.6805555555555556in"}   ![](/docs/images/image287.png){width="0.6666666666666666in" height="0.6805555555555556in"}
+  ![](/docs/images/image285.png)
 
 -   You can create palettes to control Ai, just like with any other
     fixture. So colour, zoom, position and so on can be stored in a

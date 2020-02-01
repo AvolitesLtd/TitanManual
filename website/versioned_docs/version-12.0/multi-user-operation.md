@@ -93,7 +93,7 @@ choose to connect them as multi-user, backup, or both. This is also how
 you connect TitanNet processors to expand DMX outputs.
 
   ---------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
-  ![exclamation](/docs/images/image5.png){width="0.7083333333333334in" height="0.6388888888888888in"}   All consoles to be linked must be running the same version of Titan for this to work.
+  ![exclamation](/docs/images/image5.png)   All consoles to be linked must be running the same version of Titan for this to work.
   ---------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
 
 For details of how to connect Titan consoles together on a network, see
@@ -164,7 +164,7 @@ to start the connection.
 **For Titan Mobile:**
 
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   Network Discovery must be enabled in the Windows User Profile you are using or consoles will not be able to see each other on the network. Ensure the Windows option \'Turn on network discovery\' is selected in the Network Sharing options.
+  ![info](/docs/images/image6.png)   Network Discovery must be enabled in the Windows User Profile you are using or consoles will not be able to see each other on the network. Ensure the Windows option \'Turn on network discovery\' is selected in the Network Sharing options.
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

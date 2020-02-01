@@ -22,7 +22,7 @@ Patching is the process where you tell the console
 -   Particular option settings for each fixture.
 
   -------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![tip](/docs/images/image7.png){width="0.7361111111111112in" height="0.6527777777777778in"}   Before you start rigging, you can use the console to work out the DMX addresses for the fixtures in your rig. Patch them on the console (or simulator), then press \<View/Open\>, Patch to show the Patch View window. This will use the DMX channels as efficiently as possible without leaving any gaps.
+  ![tip](/docs/images/image7.png)   Before you start rigging, you can use the console to work out the DMX addresses for the fixtures in your rig. Patch them on the console (or simulator), then press \<View/Open\>, Patch to show the Patch View window. This will use the DMX channels as efficiently as possible without leaving any gaps.
   -------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 If your fixtures are RDM equipped, the console can patch itself from the
@@ -37,7 +37,7 @@ go to the DMX Settings window in System mode -- see section 16.1.2 on
 page 313 .
 
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   If nothing is happening to the lights when you make changes on the console it is worth checking the DMX Settings window to make sure the DMX lines are allocated to outputs.
+  ![info](/docs/images/image6.png)   If nothing is happening to the lights when you make changes on the console it is worth checking the DMX Settings window to make sure the DMX lines are allocated to outputs.
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

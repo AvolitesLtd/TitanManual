@@ -93,7 +93,7 @@ You could program
     Offset 5s
 
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   To obtain the effect which was called "cue overlap" in previous versions of software, use \[Link With Previous Cue\] and set a percentage Link Offset time. Link Offset of 100% is equivalent to Cue Overlap of 0% and vice versa.
+  ![info](/docs/images/image6.png)   To obtain the effect which was called "cue overlap" in previous versions of software, use \[Link With Previous Cue\] and set a percentage Link Offset time. Link Offset of 100% is equivalent to Cue Overlap of 0% and vice versa.
   --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Individual attribute fade times

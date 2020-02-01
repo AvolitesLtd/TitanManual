@@ -113,7 +113,7 @@ windows and you can adjust the size of all the windows together. Press
 ![](/docs/images/image74.png)
 
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   If you accidentally set a window to a single grid size, you can't then get to the Window Layout button to resize it. Select the window and use the \[Min/Max\] softkey to set the window to a fixed size.
+  ![info](/docs/images/image6.png)   If you accidentally set a window to a single grid size, you can't then get to the Window Layout button to resize it. Select the window and use the \[Min/Max\] softkey to set the window to a fixed size.
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 You can move the active window between screens from the Window
@@ -254,7 +254,7 @@ colour(s) in the palette when you save it. Gobo palettes will show an
 image of the standard gobo, if the fixture personality has this
 information in it.
 
-![](/docs/images/image79.png){width="3.25in" height="2.5in"}
+![](/docs/images/image79.png)
 
 Button Halo
 -----------

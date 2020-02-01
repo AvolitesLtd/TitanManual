@@ -10,7 +10,7 @@ it set up. Just operate the console as normal and Capture will show you
 what would be happening on the stage.
 
   -------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![tip](/docs/images/image7.png){width="0.7361111111111112in" height="0.6527777777777778in"}   If you use the visualiser a lot, it's very handy to have an external monitor to show it on. Otherwise you constantly have to switch between the workspace windows and the visualiser window.
+  ![tip](/docs/images/image7.png)   If you use the visualiser a lot, it's very handy to have an external monitor to show it on. Otherwise you constantly have to switch between the workspace windows and the visualiser window.
   -------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Fixture selection

@@ -22,7 +22,7 @@ There are three types of recovery available:
   Full Erase          Recovery version                 Deleted     Recovery version   Deleted
 
   ---------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![exclamation](/docs/images/image5.png){width="0.7083333333333334in" height="0.6388888888888888in"}   Using "Factory Restore" or "Full Erase" will delete all settings and files from the console including show files and user personalities. Any files should be saved to a USB stick before continuing.
+  ![exclamation](/docs/images/image5.png)   Using "Factory Restore" or "Full Erase" will delete all settings and files from the console including show files and user personalities. Any files should be saved to a USB stick before continuing.
   ---------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Detailed instructions on creating and using a recovery stick can be

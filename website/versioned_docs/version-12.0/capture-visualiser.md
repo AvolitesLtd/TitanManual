@@ -19,7 +19,7 @@ To open the visualiser, select \[Capture Visualiser\] from the \[Open
 Workspace Window\] menu.
 
   -------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![tip](/docs/images/image7.png){width="0.7361111111111112in" height="0.6527777777777778in"}   Always pre-program using palettes, because things never quite line up the same in a visualiser as they do in the real world. Using palettes means that you just need to reprogram the palettes when you get onto the real rig, rather than having to change lots of cues separately.
+  ![tip](/docs/images/image7.png)   Always pre-program using palettes, because things never quite line up the same in a visualiser as they do in the real world. Using palettes means that you just need to reprogram the palettes when you get onto the real rig, rather than having to change lots of cues separately.
   -------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 

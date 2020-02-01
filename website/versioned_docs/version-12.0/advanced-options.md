@@ -22,7 +22,7 @@ Speed or Size Master to control the speed or size, see section 13.1.4 on
 page 280..
 
   -------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![tip](/docs/images/image7.png){width="0.7361111111111112in" height="0.6527777777777778in"}   When you use dimmer shapes, set the playback to \[Shape Size on Fader\] so that the shape fades in as you push up the fader. Otherwise the dimmer shape will snap in at full brightness when the fader passes the trigger point. From Titan v9 this is the default setting.
+  ![tip](/docs/images/image7.png)   When you use dimmer shapes, set the playback to \[Shape Size on Fader\] so that the shape fades in as you push up the fader. Otherwise the dimmer shape will snap in at full brightness when the fader passes the trigger point. From Titan v9 this is the default setting.
   -------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 To set a fixed fade in time for the shape size, press \[Edit Times\]

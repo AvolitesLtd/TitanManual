@@ -23,7 +23,7 @@ Install the Titan PC Suite software on your PC (see next chapter) before
 you plug in the dongle, to make sure the correct drivers are installed.
 
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   The older cabled version of the Titan One dongle does not include an AvoKey; a separate AvoKey must be attached to another USB port on your computer to allow use of Titan version 12 and later.
+  ![info](/docs/images/image6.png)   The older cabled version of the Titan One dongle does not include an AvoKey; a separate AvoKey must be attached to another USB port on your computer to allow use of Titan version 12 and later.
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The T1 and T2 devices use a special version of the Titan software called

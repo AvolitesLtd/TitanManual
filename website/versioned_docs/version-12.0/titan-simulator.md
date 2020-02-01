@@ -61,7 +61,7 @@ replicates the physical controls of your chosen console, and monitor
 windows for each of the monitor outputs.
 
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   The touch screen display is shown separately from the Virtual Panel. It is helpful to have two monitors to allow you to see the touch screen and the Virtual Panel at the same time.
+  ![info](/docs/images/image6.png)   The touch screen display is shown separately from the Virtual Panel. It is helpful to have two monitors to allow you to see the touch screen and the Virtual Panel at the same time.
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The Virtual Panel works exactly the same as the real panel; to hold a

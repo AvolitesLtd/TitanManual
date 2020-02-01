@@ -55,7 +55,7 @@ overlap and attribute overlap in chases.
     saved; you can change the order using Unfold.
 
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   From version 3 of Titan software, \[Cue Overlap\] is no longer available in chases. Instead use a Cue List set to "Link With Previous" and set the Offset as desired.
+  ![info](/docs/images/image6.png)   From version 3 of Titan software, \[Cue Overlap\] is no longer available in chases. Instead use a Cue List set to "Link With Previous" and set the Offset as desired.
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Individual cue times in chases
@@ -66,7 +66,7 @@ information. You can use the Playback View window, or the Unfold
 function to set individual times for cues in chases.
 
   --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   It is easier to use a Cue List rather than a chase if you need a lot of different timings or link/unlinks. Cue lists are described in the next chapter.
+  ![info](/docs/images/image6.png)   It is easier to use a Cue List rather than a chase if you need a lot of different timings or link/unlinks. Cue lists are described in the next chapter.
   --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Using the Playback View window:
