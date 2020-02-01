@@ -3,7 +3,6 @@ id: editing-shapes-and-effects
 title: Editing shapes and effects
 sidebar_label: Editing shapes and effects
 ---
-==========================
 
 Editing a live running shape
 ----------------------------

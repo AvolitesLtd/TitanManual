@@ -3,7 +3,6 @@ id: connecting-up
 title: Connecting up
 sidebar_label: Connecting up
 ---
-=============
 
 Cautions
 --------

@@ -3,7 +3,6 @@ id: curves
 title: Curves
 sidebar_label: Curves
 ---
-======
 
 The console provides a variety of curves which set how the console
 tracks fades in playbacks; either the same speed all the way (linear),

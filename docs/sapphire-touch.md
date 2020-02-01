@@ -3,7 +3,6 @@ id: sapphire-touch
 title: Sapphire Touch
 sidebar_label: Sapphire Touch
 ---
-==============
 
 ![](/docs/images/image13.jpeg)The Sapphire Touch has four main control
 areas:

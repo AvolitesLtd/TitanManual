@@ -3,7 +3,6 @@ id: viewing-and-editing-fixture-values
 title: Viewing and editing fixture values
 sidebar_label: Viewing and editing fixture values
 ---
-==================================
 
 The Channel Grid window
 -----------------------

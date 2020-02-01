@@ -3,7 +3,6 @@ id: tnp-slave-mode
 title: TNP Slave mode
 sidebar_label: TNP Slave mode
 ---
-==============
 
 Normally the TNP screen shows the "Home screen" which displays the
 connection status and IP address of the two Ethernet ports on the

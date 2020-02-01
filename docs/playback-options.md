@@ -3,7 +3,6 @@ id: playback-options
 title: Playback options
 sidebar_label: Playback options
 ---
-================
 
 To set options for a cue, chase or cue list, press \[Playback Options\]
 on the root menu, then press the select button of the playback to be

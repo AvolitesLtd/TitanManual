@@ -3,7 +3,6 @@ id: shapes-and-pixel-mapper-effects
 title: Shapes and Pixel Mapper effects
 sidebar_label: Shapes and Pixel Mapper effects
 ---
-===============================
 
 The Shape Generator in Titan (sometimes known as an Effects Generator on
 other consoles) allows you to quickly create exciting light shows using

@@ -3,7 +3,6 @@ id: editing-cues
 title: Editing cues
 sidebar_label: Editing cues
 ---
-============
 
 Editing a cue by merging
 ------------------------

@@ -3,7 +3,6 @@ id: dmx--network-setup
 title: DMX  network setup
 sidebar_label: DMX  network setup
 ---
-===================
 
 The console can output up to 16 universes of DMX (called DMX Lines)
 which may be routed to the XLR sockets on the console or over Ethernet

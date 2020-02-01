@@ -3,7 +3,6 @@ id: cue-timing
 title: Cue timing
 sidebar_label: Cue timing
 ---
-==========
 
 The console allows a wide variety of timing functions to be set for each
 cue.

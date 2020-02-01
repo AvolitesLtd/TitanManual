@@ -3,7 +3,6 @@ id: tnp-(titan-net-processor)
 title: TNP (Titan Net Processor)
 sidebar_label: TNP (Titan Net Processor)
 ---
-=========================
 
 ![](/docs/images/image47.jpeg)
 

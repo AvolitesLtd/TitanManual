@@ -3,7 +3,6 @@ id: tiger-touch
 title: Tiger Touch
 sidebar_label: Tiger Touch
 ---
-===========
 
 > ![](/docs/images/image30.jpeg){width="6.516666666666667in"
 > height="3.7125in"}

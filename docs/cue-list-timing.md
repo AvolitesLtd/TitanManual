@@ -3,7 +3,6 @@ id: cue-list-timing
 title: Cue list timing
 sidebar_label: Cue list timing
 ---
-===============
 
 Time and fade options for Cue Lists
 -----------------------------------

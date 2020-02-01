@@ -3,7 +3,6 @@ id: capture-show-files
 title: Capture Show files
 sidebar_label: Capture Show files
 ---
-==================
 
 The Capture stage is automatically saved within the Titan showfile. The
 Capture stage can also be exported and imported separately from the

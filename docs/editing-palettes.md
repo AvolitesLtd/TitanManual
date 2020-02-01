@@ -3,7 +3,6 @@ id: editing-palettes
 title: Editing palettes
 sidebar_label: Editing palettes
 ---
-================
 
 Viewing and editing the content of palettes
 -------------------------------------------

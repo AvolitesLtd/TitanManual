@@ -3,7 +3,6 @@ id: capture-visualiser
 title: Capture visualiser
 sidebar_label: Capture visualiser
 ---
-==================
 
 From Titan v10, the Capture visualiser is integrated into the console.
 This can provide a realistic simulation of your lighting which is really

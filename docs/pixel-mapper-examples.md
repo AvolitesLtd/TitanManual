@@ -3,7 +3,6 @@ id: pixel-mapper-examples
 title: Pixel Mapper examples
 sidebar_label: Pixel Mapper examples
 ---
-=====================
 
 Randomising effects
 -------------------

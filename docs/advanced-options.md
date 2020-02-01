@@ -3,7 +3,6 @@ id: advanced-options
 title: Advanced options
 sidebar_label: Advanced options
 ---
-================
 
 Fading shape size and speed
 ---------------------------

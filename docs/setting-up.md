@@ -3,7 +3,6 @@ id: setting-up
 title: Setting up
 sidebar_label: Setting up
 ---
-==========
 
 Connecting up
 -------------

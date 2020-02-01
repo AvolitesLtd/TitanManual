@@ -3,7 +3,6 @@ id: workspace-windows
 title: Workspace windows
 sidebar_label: Workspace windows
 ---
-=================
 
 The main area of the screen contains the workspace windows. These
 contain buttons for selecting fixtures, groups, palettes, playbacks and

@@ -3,7 +3,6 @@ id: setting-up-the-remote
 title: Setting up the remote
 sidebar_label: Setting up the remote
 ---
-=====================
 
 All you need to do is make sure that the console is on the same network
 as your mobile device. The app will automatically detect all the

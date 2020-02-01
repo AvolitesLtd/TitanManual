@@ -3,7 +3,6 @@ id: cue-list-options
 title: Cue list options
 sidebar_label: Cue list options
 ---
-================
 
 Cue list options are set from the Playback Options menu. You can enter
 the playback options menu by doing the following

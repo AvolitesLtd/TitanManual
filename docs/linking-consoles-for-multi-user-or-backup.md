@@ -3,7 +3,6 @@ id: linking-consoles-for-multi-user-or-backup
 title: Linking consoles for multi-user or backup
 sidebar_label: Linking consoles for multi-user or backup
 ---
-=========================================
 
 On large shows it is sometimes necessary to have multiple operators
 programming or running different aspects of the show. The Titan system

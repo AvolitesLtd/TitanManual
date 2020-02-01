@@ -3,7 +3,6 @@ id: editing-cue-lists
 title: Editing cue lists
 sidebar_label: Editing cue lists
 ---
-=================
 
 Playback View window
 --------------------

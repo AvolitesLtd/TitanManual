@@ -3,7 +3,6 @@ id: upgrading-the-software
 title: Upgrading the software
 sidebar_label: Upgrading the software
 ---
-======================
 
 The console operating software is under constant revision by the
 Avolites team. You can always download the latest version of the

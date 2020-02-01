@@ -3,7 +3,6 @@ id: timing-with-palettes
 title: Timing with palettes
 sidebar_label: Timing with palettes
 ---
-====================
 
 Palettes may be saved with timing information, or you can manually
 override the timing when recalling the palette.

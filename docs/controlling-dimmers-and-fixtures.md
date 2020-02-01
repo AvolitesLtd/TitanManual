@@ -3,7 +3,6 @@ id: controlling-dimmers-and-fixtures
 title: Controlling dimmers and fixtures
 sidebar_label: Controlling dimmers and fixtures
 ---
-================================
 
 When you are programming a show, and sometimes when you are running a
 show, you need to manually control the fixtures and dimmers to set the

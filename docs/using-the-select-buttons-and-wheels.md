@@ -3,7 +3,6 @@ id: using-the-select-buttons-and-wheels
 title: Using the select buttons and wheels
 sidebar_label: Using the select buttons and wheels
 ---
-===================================
 
 Selecting fixtures and dimmers for control
 ------------------------------------------

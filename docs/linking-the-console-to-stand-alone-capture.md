@@ -3,7 +3,6 @@ id: linking-the-console-to-stand-alone-capture
 title: Linking the console to stand-alone Capture
 sidebar_label: Linking the console to stand-alone Capture
 ---
-==========================================
 
 Sometimes the extra capabilities of the full version of Capture are
 needed, and the console is linked to a PC running full Capture. The

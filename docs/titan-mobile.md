@@ -3,7 +3,6 @@ id: titan-mobile
 title: Titan Mobile
 sidebar_label: Titan Mobile
 ---
-============
 
 Titan Mobile is a USB wing which plugs into a PC or laptop (Windows 7 or
 above, 64 bit) running the Titan software.

@@ -3,7 +3,6 @@ id: set-list-window
 title: Set List window
 sidebar_label: Set List window
 ---
-===============
 
 The Set List window is a handy way of linking playback pages to
 songs/events in your show which you can then easily step through. You

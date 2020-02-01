@@ -3,7 +3,6 @@ id: titan-simulator
 title: Titan simulator
 sidebar_label: Titan simulator
 ---
-===============
 
 Need to pre-program or tweak your show before you get to the venue? No
 problem, just run the Titan Simulator on your PC. You can then load your

@@ -3,7 +3,6 @@ id: tnp-console-mode
 title: TNP console mode
 sidebar_label: TNP console mode
 ---
-================
 
 TNP console mode allows you to use a TNP to run an unattended show, or
 to act as an emergency backup. You can create a show on a full console

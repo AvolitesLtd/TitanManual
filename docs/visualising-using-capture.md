@@ -3,7 +3,6 @@ id: visualising-using-capture
 title: Visualising using Capture
 sidebar_label: Visualising using Capture
 ---
-=========================
 
 Mostly you don't have to do anything special with Capture once you have
 it set up. Just operate the console as normal and Capture will show you

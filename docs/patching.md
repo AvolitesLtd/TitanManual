@@ -3,7 +3,6 @@ id: patching
 title: Patching
 sidebar_label: Patching
 ---
-========
 
 Patching is the process where you tell the console
 

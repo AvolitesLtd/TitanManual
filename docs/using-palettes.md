@@ -3,7 +3,6 @@ id: using-palettes
 title: Using palettes
 sidebar_label: Using palettes
 ---
-==============
 
 Recalling a palette value
 -------------------------

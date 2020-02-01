@@ -3,7 +3,6 @@ id: copying,-moving,-linking-and-deleting
 title: Copying, moving, linking and deleting
 sidebar_label: Copying, moving, linking and deleting
 ---
-=====================================
 
 The previous section also has other methods of copying and moving
 individual cues within a cue list.

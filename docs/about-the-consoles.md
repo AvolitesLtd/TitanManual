@@ -3,7 +3,6 @@ id: about-the-consoles
 title: About the consoles
 sidebar_label: About the consoles
 ---
-==================
 
 This manual is a reference guide to all the functions of Titan consoles.
 

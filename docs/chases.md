@@ -3,7 +3,6 @@ id: chases
 title: Chases
 sidebar_label: Chases
 ---
-======
 
 As well as being used to store static cues, the playback faders can also
 be used to store chases (sequences of cues). You can also store chases

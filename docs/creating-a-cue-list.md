@@ -3,7 +3,6 @@ id: creating-a-cue-list
 title: Creating a cue list
 sidebar_label: Creating a cue list
 ---
-===================
 
 Programming a cue list
 ----------------------

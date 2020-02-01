@@ -3,7 +3,6 @@ id: quick-start
 title: Quick Start
 sidebar_label: Quick Start
 ---
-===========
 
 This section is a quick guide on how to do most things on Avolites Titan
 consoles. Each section has a link to take you to the appropriate manual

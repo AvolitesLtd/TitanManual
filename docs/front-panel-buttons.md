@@ -3,7 +3,6 @@ id: front-panel-buttons
 title: Front panel buttons
 sidebar_label: Front panel buttons
 ---
-===================
 
 The blue and grey buttons associated with fader handles, and the
 macro/executor buttons are configurable and you can use them in various

@@ -3,7 +3,6 @@ id: release-notes
 title: Release notes
 sidebar_label: Release notes
 ---
-=============
 
 The Release Notes contain details about features added, improvements,
 bugs fixed and known issues in each release of the console software.

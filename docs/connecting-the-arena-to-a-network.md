@@ -3,7 +3,6 @@ id: connecting-the-arena-to-a-network
 title: Connecting the Arena to a network
 sidebar_label: Connecting the Arena to a network
 ---
-=================================
 
 The Arena console is different to the other Titan consoles because it
 has a built-in network switch and an optical network connection

@@ -3,7 +3,6 @@ id: key-profiles
 title: Key Profiles
 sidebar_label: Key Profiles
 ---
-============
 
 The console allows you to reconfigure how the front panel buttons work
 to suit your method of working. You can save your settings as a Key

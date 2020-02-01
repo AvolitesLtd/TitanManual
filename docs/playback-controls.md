@@ -3,7 +3,6 @@ id: playback-controls
 title: Playback controls
 sidebar_label: Playback controls
 ---
-=================
 
 Back up the show
 ----------------

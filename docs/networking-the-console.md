@@ -3,7 +3,6 @@ id: networking-the-console
 title: Networking the console
 sidebar_label: Networking the console
 ---
-======================
 
 There are a number of ways for the console to communicate with lighting
 fixtures beyond the traditional DMX sockets, and these are described in

@@ -3,7 +3,6 @@ id: patching-fixtures
 title: Patching fixtures
 sidebar_label: Patching fixtures
 ---
-=================
 
 Press \<Patch\>, \[Dimmers\] or \[Fixtures\].
 

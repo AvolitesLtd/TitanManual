@@ -3,7 +3,6 @@ id: controlling-fixtures
 title: Controlling fixtures
 sidebar_label: Controlling fixtures
 ---
-====================
 
 Select fixtures for control by pressing select buttons. Fixture buttons
 turn blue when selected.

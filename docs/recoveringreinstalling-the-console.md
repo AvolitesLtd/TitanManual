@@ -3,7 +3,6 @@ id: recoveringreinstalling-the-console
 title: Recoveringreinstalling the console
 sidebar_label: Recoveringreinstalling the console
 ---
-===================================
 
 The console runs on an embedded PC system, and like all computers, there
 is a possibility of system failure. The console software can be reloaded

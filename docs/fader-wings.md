@@ -3,7 +3,6 @@ id: fader-wings
 title: Fader wings
 sidebar_label: Fader wings
 ---
-===========
 
 "Wings" are additional control surfaces which can be connected to the
 console to provide more faders and buttons, and in some cases extra

@@ -3,7 +3,6 @@ id: creating-a-cue
 title: Creating a cue
 sidebar_label: Creating a cue
 ---
-==============
 
 How Titan works when programming
 --------------------------------

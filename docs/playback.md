@@ -3,7 +3,6 @@ id: playback
 title: Playback
 sidebar_label: Playback
 ---
-========
 
 Playing back a chase
 --------------------

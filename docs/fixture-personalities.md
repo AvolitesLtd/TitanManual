@@ -3,7 +3,6 @@ id: fixture-personalities
 title: Fixture Personalities
 sidebar_label: Fixture Personalities
 ---
-=====================
 
 For each type of fixture, the console has a "personality" file which
 tells it how to control the fixture, which channel is the dimmer (HTP)

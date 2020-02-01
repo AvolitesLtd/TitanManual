@@ -3,7 +3,6 @@ id: fixture-groups
 title: Fixture groups
 sidebar_label: Fixture groups
 ---
-==============
 
 Using fixture groups
 --------------------

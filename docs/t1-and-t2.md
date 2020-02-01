@@ -3,7 +3,6 @@ id: t1-and-t2
 title: T1 and T2
 sidebar_label: T1 and T2
 ---
-=========
 
 T1 and T2 are USB dongles which plug into a PC or laptop (Windows 7 or
 above, 64 bit). Both dongles include an AvoKey.

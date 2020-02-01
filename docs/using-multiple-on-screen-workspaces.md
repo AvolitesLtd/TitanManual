@@ -3,7 +3,6 @@ id: using-multiple-on-screen-workspaces
 title: Using multiple on-screen workspaces
 sidebar_label: Using multiple on-screen workspaces
 ---
-===================================
 
 On the screen you can configure different "workspaces" which store how
 the various windows are displayed. This allows you to quickly recall

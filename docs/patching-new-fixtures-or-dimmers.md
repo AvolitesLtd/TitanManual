@@ -3,7 +3,6 @@ id: patching-new-fixtures-or-dimmers
 title: Patching new fixtures or dimmers
 sidebar_label: Patching new fixtures or dimmers
 ---
-================================
 
 Fixture select buttons and handles
 ----------------------------------

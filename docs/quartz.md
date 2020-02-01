@@ -3,7 +3,6 @@ id: quartz
 title: Quartz
 sidebar_label: Quartz
 ---
-======
 
 ![](/docs/images/image34.jpeg)
 

@@ -3,7 +3,6 @@ id: pixel-mapper
 title: Pixel mapper
 sidebar_label: Pixel mapper
 ---
-============
 
 Creating Pixel Mapper effects
 -----------------------------

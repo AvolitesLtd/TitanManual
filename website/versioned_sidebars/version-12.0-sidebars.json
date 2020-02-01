@@ -1,63 +1,147 @@
 {
   "version-12.0-docs": {
     "Introduction": [
-      "version-12.0-guides"
+      "version-12.0-quick-start",
+      "version-12.0-patching-fixtures",
+      "version-12.0-controlling-fixtures",
+      "version-12.0-programming-cues-and-chases",
+      "version-12.0-programming-palettes",
+      "version-12.0-dmx-network-setup"
     ],
-    "Guides": [
-      "version-12.0-quick-start-guide"
+    "About The Consoles": [
+      "version-12.0-about-the-consoles",
+      "version-12.0-sapphire-touch",
+      "version-12.0-arena",
+      "version-12.0-tiger-touch",
+      "version-12.0-quartz",
+      "version-12.0-titan-mobile",
+      "version-12.0-t1andt2",
+      "version-12.0-tnp-(titan-net-processor)",
+      "version-12.0-pearl-expert-and-touch-wing",
+      "version-12.0-fader-wings"
     ],
-    "Show Management": [],
+    "Connecting up and Titan basics": [
+      "version-12.0-connecting-up-and-titan-basics",
+      "version-12.0-connecting-up",
+      "version-12.0-workspace-windows",
+      "version-12.0-other-parts-of-the-touch-screen",
+      "version-12.0-front-panel-buttons",
+      "version-12.0-multi-user-operation",
+      "version-12.0-titan-simulator",
+      "version-12.0-show-library",
+      "version-12.0-loading-and-saving-shows",
+      "version-12.0-clearing-the-console",
+      "version-12.0-creating-reports"
+    ],
     "Patching": [
-      "version-12.0-patching/patching-fixtures",
-      "version-12.0-patching/exchange",
-      "version-12.0-patching/fixture-options"
+      "version-12.0-patching",
+      "version-12.0-patching-new-fixtures-or-dimmers",
+      "version-12.0-changing-the-patch",
+      "version-12.0-copying,-moving-and-deleting-fixtures",
+      "version-12.0-fixture-personality-options"
     ],
-    "Groups": [
-      "version-12.0-groups/basic-groups",
-      "version-12.0-groups/layout-editor"
-    ],
-    "Attributes": [
-      "version-12.0-features/attribute-editor"
+    "Controlling Dimmers": [
+      "version-12.0-controlling-dimmers",
+      "version-12.0-using-the-select-buttons-and-wheels",
+      "version-12.0-viewing-and-editing-fixture-values",
+      "version-12.0-fixture-groups",
+      "version-12.0-advanced-options"
     ],
     "Palettes": [
-      "version-12.0-palettes/palettes",
-      "version-12.0-palettes/nested-palettes"
+      "version-12.0-palettes",
+      "version-12.0-creating-palettes",
+      "version-12.0-using-palettes",
+      "version-12.0-editing-palettes",
+      "version-12.0-copying,-moving-and-deleting-palettes",
+      "version-12.0-timing-with-palettes"
     ],
-    "Effects": [
-      "version-12.0-features/classic-shapes",
-      "version-12.0-features/keyframe-shapes",
-      "version-12.0-features/pixel-mapper"
+    "Shapes and Pixel Mapper Effects": [
+      "version-12.0-shapes-and-pixel-mapper-effects",
+      "version-12.0-shape-generator",
+      "version-12.0-key-frame-shapes",
+      "version-12.0-pixel-mapper",
+      "version-12.0-editing-shapes",
+      "version-12.0-advanced-options",
+      "version-12.0-pixel-mapper-examples"
     ],
-    "Playbacks": [
-      "version-12.0-playbacks/overview",
-      {
-        "type": "subcategory",
-        "label": "Cue Lists",
-        "ids": [
-          "version-12.0-playbacks/cuelists/overview",
-          "version-12.0-playbacks/cuelists/tracking"
-        ]
-      }
+    "Cues": [
+      "version-12.0-cues",
+      "version-12.0-creating-a-cue",
+      "version-12.0-using-a-cue",
+      "version-12.0-editing-cues",
+      "version-12.0-copying,-moving,-linking-and-deleting"
     ],
-    "Cues": [],
-    "Chases": [],
-    "Masters": [],
-    "Timecode": [],
-    "Triggers": [],
-    "System Menu": [],
-    "User Settings": [],
-    "Multiuser and Backup": [],
-    "Syntax": [],
-    "Macros": [],
-    "Features": [
-      "version-12.0-features/align",
-      "version-12.0-features/synergy",
-      "version-12.0-features/capture-vis",
-      "version-12.0-features/report-export",
-      "version-12.0-features/scene-master",
-      "version-12.0-features/set-lists",
-      "version-12.0-features/undo",
-      "version-12.0-features/web-api"
+    "Chases": [
+      "version-12.0-chases",
+      "version-12.0-creating-a-chase",
+      "version-12.0-playback",
+      "version-12.0-editing-a-chase",
+      "version-12.0-copying,-moving,-linking-and-deleting"
+    ],
+    "Cue Lists": [
+      "version-12.0-cue-lists",
+      "version-12.0-creating-a-cue-list",
+      "version-12.0-cue-list-playback",
+      "version-12.0-editing-cue-lists",
+      "version-12.0-copying,-moving,-linking-and-deleting",
+      "version-12.0-cue-list-timing",
+      "version-12.0-cue-list-options",
+      "version-12.0-theatre-programming"
+    ],
+    "Capture Visualiser": [
+      "version-12.0-capture-visualiser",
+      "version-12.0-setting-up-the-rig",
+      "version-12.0-visualising-using-capture",
+      "version-12.0-capture-show-files",
+      "version-12.0-linking-the-console-to-stand-alone-capture"
+    ],
+    "Synergy and Linking to AI": [
+      "version-12.0-synergy-and-linking-to-ai",
+      "version-12.0-setting-up",
+      "version-12.0-operating-synergy"
+    ],
+    "Running The Show": [
+      "version-12.0-running-the-show",
+      "version-12.0-playback-controls",
+      "version-12.0-using-multiple-on-screen-workspaces",
+      "version-12.0-organising-the-console",
+      "version-12.0-set-list-window",
+      "version-12.0-midi,-dmx-or-audio-triggering",
+      "version-12.0-linking-consoles-for-multi-user-or-backup"
+    ],
+    "Remote Control": [
+      "version-12.0-remote-control",
+      "version-12.0-setting-up-the-remote",
+      "version-12.0-operating-the-remote"
+    ],
+    "Titan Net": [
+      "version-12.0-titan-net",
+      "version-12.0-tnp-slave-mode",
+      "version-12.0-tnp-console-mode"
+    ],
+    "System Menu and User Settings": [
+      "version-12.0-system-menu-and-user-settings",
+      "version-12.0-the-system-menu",
+      "version-12.0-external-dispays",
+      "version-12.0-key-profiles",
+      "version-12.0-user-settings",
+      "version-12.0-dmx-output-mapping",
+      "version-12.0-curves",
+      "version-12.0-upgrading-the-software",
+      "version-12.0-recoveringreinstalling-the-console",
+      "version-12.0-release-notes"
+    ],
+    "Fixture Personalities": [
+      "version-12.0-fixture-personalties"
+    ],
+    "Networking the Console": [
+      "version-12.0-connecting-the-arena-to-a-network",
+      "version-12.0-controlling-fixtures-over-a-network",
+      "version-12.0-using-active-fixtures",
+      "version-12.0-a-quick-guide-to-ip-addressing"
+    ],
+    "Titan Commands": [
+      "version-12.0-titan-commands"
     ]
   }
 }

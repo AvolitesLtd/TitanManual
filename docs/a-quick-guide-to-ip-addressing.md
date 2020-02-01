@@ -3,7 +3,6 @@ id: a-quick-guide-to-ip-addressing
 title: A quick guide to IP addressing
 sidebar_label: A quick guide to IP addressing
 ---
-==============================
 
 This section attempts to explain the basics of IP addressing, and what
 you will need to know when setting up a lighting control network.

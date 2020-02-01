@@ -3,7 +3,6 @@ id: setting-up-the-rig
 title: Setting up the rig
 sidebar_label: Setting up the rig
 ---
-==================
 
 Setting up the stage and rigging
 --------------------------------

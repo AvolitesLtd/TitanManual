@@ -3,7 +3,6 @@ id: chase-timing
 title: Chase timing
 sidebar_label: Chase timing
 ---
-============
 
 Global timings for chases
 -------------------------

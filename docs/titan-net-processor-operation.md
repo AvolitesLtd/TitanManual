@@ -3,7 +3,6 @@ id: titan-net-processor-operation
 title: Titan Net Processor operation
 sidebar_label: Titan Net Processor operation
 ---
-=============================
 
 A TNP (TitanNet Processor) unit can operate either as a slave unit,
 producing additional DMX lines for a console, or as a simple console for

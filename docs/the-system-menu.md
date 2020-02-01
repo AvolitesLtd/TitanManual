@@ -3,7 +3,6 @@ id: the-system-menu
 title: The System menu
 sidebar_label: The System menu
 ---
-===============
 
 The System menu is accessed by holding \<Avo\> and pressing Disk. Some
 consoles are also fitted with a key switch or mode switch to select

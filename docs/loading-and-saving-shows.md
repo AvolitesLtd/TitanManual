@@ -3,7 +3,6 @@ id: loading-and-saving-shows
 title: Loading and saving shows
 sidebar_label: Loading and saving shows
 ---
-========================
 
 You can save any number of different shows on a USB drive or the
 console's internal hard disk. The console will also autosave the show

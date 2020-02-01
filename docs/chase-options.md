@@ -3,7 +3,6 @@ id: chase-options
 title: Chase options
 sidebar_label: Chase options
 ---
-=============
 
 To set options for a chase, press \[Playback Options\] on the root menu,
 then press the Select button of the playback to be edited. Options will

@@ -3,7 +3,6 @@ id: copying,-moving-and-deleting-palettes
 title: Copying, moving and deleting palettes
 sidebar_label: Copying, moving and deleting palettes
 ---
-=====================================
 
 Copying or moving a palette
 ---------------------------

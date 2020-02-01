@@ -3,7 +3,6 @@ id: creating-reports
 title: Creating reports
 sidebar_label: Creating reports
 ---
-================
 
 When preparing a show it is often useful to create a report of how the
 show is patched or programmed on the console, for example to give to a

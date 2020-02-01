@@ -3,7 +3,6 @@ id: cue-list-playback
 title: Cue List playback
 sidebar_label: Cue List playback
 ---
-=================
 
 Running a cue list
 ------------------

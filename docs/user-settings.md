@@ -3,7 +3,6 @@ id: user-settings
 title: User Settings
 sidebar_label: User Settings
 ---
-=============
 
 The User Settings menu may be accessed from the System mode menu, and
 also from Program mode: hold down the \<Avo\> Shift button and press

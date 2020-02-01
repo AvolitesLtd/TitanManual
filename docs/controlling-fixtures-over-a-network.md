@@ -3,7 +3,6 @@ id: controlling-fixtures-over-a-network
 title: Controlling fixtures over a network
 sidebar_label: Controlling fixtures over a network
 ---
-===================================
 
 Before the console can talk to another device over the network, it has
 to be given a unique network address. This is called its "IP address".

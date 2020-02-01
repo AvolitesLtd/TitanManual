@@ -3,7 +3,6 @@ id: changing-the-patch
 title: Changing the patch
 sidebar_label: Changing the patch
 ---
-==================
 
 Patch View
 ----------

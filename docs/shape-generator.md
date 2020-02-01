@@ -3,7 +3,6 @@ id: shape-generator
 title: Shape generator
 sidebar_label: Shape generator
 ---
-===============
 
 A shape is simply an automatic sequence of values which modify a
 particular attribute of a fixture. A circle shape, for example, applied

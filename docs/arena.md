@@ -3,7 +3,6 @@ id: arena
 title: Arena
 sidebar_label: Arena
 ---
-=====
 
 The Arena has five main control areas:
 

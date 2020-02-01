@@ -27,14 +27,8 @@ class Footer extends React.Component {
         <section className="sitemap">
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
+            <a href={this.docUrl('quick-start', this.props.language)}>
               Getting Started
-            </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference
             </a>
           </div>
           <div>

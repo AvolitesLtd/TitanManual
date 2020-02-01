@@ -3,7 +3,6 @@ id: creating-a-chase
 title: Creating a chase
 sidebar_label: Creating a chase
 ---
-================
 
 Programming a chase
 -------------------

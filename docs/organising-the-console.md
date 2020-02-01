@@ -3,7 +3,6 @@ id: organising-the-console
 title: Organising the console
 sidebar_label: Organising the console
 ---
-======================
 
 If the layout of the fixture buttons, palettes or playbacks has become a
 bit mixed up during programming, you can use the Move function to move

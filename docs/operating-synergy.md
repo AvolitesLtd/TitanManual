@@ -3,7 +3,6 @@ id: operating-synergy
 title: Operating Synergy
 sidebar_label: Operating Synergy
 ---
-=================
 
 Once Titan and the Ai server(s) are linked up, you can start controlling
 Ai from the console.

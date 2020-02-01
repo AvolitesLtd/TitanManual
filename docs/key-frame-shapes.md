@@ -3,7 +3,6 @@ id: key-frame-shapes
 title: Key frame shapes
 sidebar_label: Key frame shapes
 ---
-================
 
 Key frame shapes allow you to create your own shape sequences. You store
 a series of attribute settings as key frames and the shape fades between

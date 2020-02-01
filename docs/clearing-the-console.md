@@ -3,7 +3,6 @@ id: clearing-the-console
 title: Clearing the console
 sidebar_label: Clearing the console
 ---
-====================
 
 When you start a new show on Titan it is usually a good idea to clear
 the console. All programming and patching is deleted, but user options

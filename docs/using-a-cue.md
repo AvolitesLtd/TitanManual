@@ -3,7 +3,6 @@ id: using-a-cue
 title: Using a cue
 sidebar_label: Using a cue
 ---
-===========
 
 Because it's possible to play back a large number of cues at the same
 time, the console has to have rules on how it combines the output from

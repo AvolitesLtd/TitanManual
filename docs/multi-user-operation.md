@@ -3,7 +3,6 @@ id: multi-user-operation
 title: Multi-user operation
 sidebar_label: Multi-user operation
 ---
-====================
 
 You can connect multiple consoles together to work together on a show.
 You can also have multiple user setups on a show on a single console to

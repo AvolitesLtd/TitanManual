@@ -3,7 +3,6 @@ id: index
 title: Index
 sidebar_label: Index
 ---
-=====
 
 Softkey Menu items are indicated with capital letters (for example
 "Activate A Timecode Cuelist")

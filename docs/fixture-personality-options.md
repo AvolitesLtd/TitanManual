@@ -3,7 +3,6 @@ id: fixture-personality-options
 title: Fixture personality options
 sidebar_label: Fixture personality options
 ---
-===========================
 
 All of the options below can also be set from the Patch View window.
 

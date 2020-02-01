@@ -3,7 +3,6 @@ id: cues
 title: Cues
 sidebar_label: Cues
 ---
-====
 
 So you've set up a great look on the stage, and you want to save it to
 use in your show.

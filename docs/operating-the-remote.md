@@ -3,7 +3,6 @@ id: operating-the-remote
 title: Operating the remote
 sidebar_label: Operating the remote
 ---
-====================
 
 To connect to the console, open the Titan Remote app and a list of
 available consoles will be shown - hopefully if you have done the

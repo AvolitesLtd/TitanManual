@@ -3,7 +3,6 @@ id: editing-a-chase
 title: Editing a chase
 sidebar_label: Editing a chase
 ---
-===============
 
 Opening a chase for editing
 ---------------------------

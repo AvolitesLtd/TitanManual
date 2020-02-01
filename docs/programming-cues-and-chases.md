@@ -3,7 +3,6 @@ id: programming-cues-and-chases
 title: Programming cues and chases
 sidebar_label: Programming cues and chases
 ---
-===========================
 
 ### Cues
 

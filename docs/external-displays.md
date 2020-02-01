@@ -3,7 +3,6 @@ id: external-displays
 title: External displays
 sidebar_label: External displays
 ---
-=================
 
 For extra workspace you can connect another display to the DVI port(s)
 on the console (VGA on Pearl Expert and Tiger Touch mk1). The Sapphire

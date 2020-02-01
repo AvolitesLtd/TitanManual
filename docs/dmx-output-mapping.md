@@ -3,7 +3,6 @@ id: dmx-output-mapping
 title: DMX output mapping
 sidebar_label: DMX output mapping
 ---
-==================
 
 There are various ways to connect fixtures to the console. As well as
 the XLR sockets on the console, you can connect fixtures using Ethernet

@@ -3,7 +3,6 @@ id: copying,-moving-and-deleting-fixtures
 title: Copying, moving and deleting fixtures
 sidebar_label: Copying, moving and deleting fixtures
 ---
-=====================================
 
 Copying or moving a patched fixture
 -----------------------------------

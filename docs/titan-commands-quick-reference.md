@@ -3,7 +3,6 @@ id: titan-commands-quick-reference
 title: Titan Commands quick reference
 sidebar_label: Titan Commands quick reference
 ---
-==============================
 
 Please note that some commands may require \<Enter\> to complete the
 command. In this reference \<Enter\> has always been omitted for

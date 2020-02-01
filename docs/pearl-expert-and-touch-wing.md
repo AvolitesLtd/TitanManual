@@ -3,7 +3,6 @@ id: pearl-expert-and-touch-wing
 title: Pearl Expert and Touch Wing
 sidebar_label: Pearl Expert and Touch Wing
 ---
-===========================
 
 ![](/docs/images/image49.jpeg)
 

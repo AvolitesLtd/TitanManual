@@ -3,7 +3,6 @@ id: show-library
 title: Show Library
 sidebar_label: Show Library
 ---
-============
 
 The Show Library window collects all the information about your show
 into a single place. It is very useful to transfer programming when

@@ -3,7 +3,6 @@ id: theatre-programming-quick-guide
 title: Theatre programming quick guide
 sidebar_label: Theatre programming quick guide
 ---
-===============================
 
 If you are used to programming other theatre-style consoles, you will be
 more familiar with using a keypad/syntax style interface than the Titan

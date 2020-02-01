@@ -3,7 +3,6 @@ id: other-parts-of-the-touch-screen
 title: Other parts of the touch screen
 sidebar_label: Other parts of the touch screen
 ---
-===============================
 
 The Menu/Softkeys
 -----------------

@@ -3,7 +3,6 @@ id: cue-lists
 title: Cue Lists
 sidebar_label: Cue Lists
 ---
-=========
 
 Cue Lists (sometimes known as stacks or cue stacks) allow you to record
 a sequence of cues, each of which can have its own timings and can be

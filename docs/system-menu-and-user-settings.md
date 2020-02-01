@@ -3,7 +3,6 @@ id: system-menu-and-user-settings
 title: System Menu and User Settings
 sidebar_label: System Menu and User Settings
 ---
-=============================
 
 The console has a large number of options to help you set it up just the
 way you like it. Commonly used options can be set from the User Settings

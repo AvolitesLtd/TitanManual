@@ -3,7 +3,6 @@ id: remote-control
 title: Remote control
 sidebar_label: Remote control
 ---
-==============
 
 With the addition of an external Wireless Access Point, the console can
 be remote controlled using Wi-Fi from an Android or iOS mobile device

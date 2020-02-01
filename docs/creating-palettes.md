@@ -3,7 +3,6 @@ id: creating-palettes
 title: Creating palettes
 sidebar_label: Creating palettes
 ---
-=================
 
 Which attributes are stored in palettes
 ---------------------------------------

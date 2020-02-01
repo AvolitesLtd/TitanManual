@@ -29,8 +29,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {page: 'docs/quick-start', label: 'Docs'},
-    {page: 'help', label: 'Help'},
-    { search: true },
+    {page: 'help', label: 'Help'}
   ],
 
   /* path to images for header/footer */
@@ -88,10 +87,6 @@ const siteConfig = {
   // Show documentation's last update time.
   enableUpdateTime: true,
 
-  algolia: {
-      apiKey: 'my-api-key',
-      indexName: 'my-index-name'
-  },
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
