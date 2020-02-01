@@ -7,7 +7,7 @@ env:
   NODE_VERSION: '10.x'                # set this to the node version to use
 
 jobs:
-  build-and-deploy:
+  build:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
@@ -22,3 +22,13 @@ jobs:
         npm install
         npm run build --if-present
         npm run test --if-present
+    - name: Deploy
+      uses: Pendect/action-rsyncer@v1.1.0
+      env:
+        DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
+      with:
+        flags: '-avzr --delete'
+        options: ''
+        ssh_options: ''
+        src: 'build'
+        dest: 'root@176.58.122.97:/var/www/sites/avodocs'
