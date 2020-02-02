@@ -140,13 +140,13 @@ class Index extends React.Component {
             content: 'Learn about the new Synergy features in v12',
             image: `${baseUrl}img/undraw_media_player.svg`,
             imageAlign: 'top',
-            title: '<a href="/docs/synergy-and-linking-to-ai">Synergy</a>',
+            title: '<a href="/docs/synergy">Synergy</a>',
           },
           {
             content: 'Read the v12 upgrade procedure',
             image: `${baseUrl}img/undraw_update.svg`,
             imageAlign: 'top',
-            title: '<a href="/docs/upgrading-the-software">V12 Update</a>',
+            title: '<a href="/docs/system-settings/upgrading-the-software">V12 Update</a>',
           },
         ]}
       </Block>

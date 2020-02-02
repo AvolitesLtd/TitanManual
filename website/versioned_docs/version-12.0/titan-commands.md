@@ -1,8 +1,8 @@
 ---
-id: version-12.0-titan-commands-quick-reference
+id: version-12.0-titan-commands
 title: Titan Commands quick reference
 sidebar_label: Titan Commands quick reference
-original_id: titan-commands-quick-reference
+original_id: titan-commands
 ---
 
 Please note that some commands may require \<Enter\> to complete the
@@ -31,7 +31,7 @@ list of the old button names and their new equivalents.
   SET        TIME
   ---------- ----------
 
-Fixtures 
+Fixtures
 --------
 
 **\<Fixture\> 1 \<Through\> 10**\
@@ -58,7 +58,7 @@ Put group 2 at full intensity.
 **\<Group\> 2 \<@\> 75**\
 Put group 2 at full intensity.
 
-### Celled Fixtures (Sub Fixtures) 
+### Celled Fixtures (Sub Fixtures)
 
 **\<.\> m**\
 Select cell m in the selected fixtures.
@@ -101,7 +101,7 @@ sub fixtures 1-\>i of fixture n
 **n \<.\> \<Through\> i\<.\>j**\
 sub fixtures 1-\>j of fixtures n-\>i
 
-Select If 
+Select If
 ---------
 
 **\<Select If\> \<@\>\<@\>**\
@@ -113,7 +113,7 @@ Select all fixtures above 50% intensity
 **\<Select If\> \<@\> 50 \<Through\>**\
 Select all fixtures below 50% intensity
 
-Record 
+Record
 ------
 
 **\<Record\> {Cue} {Cue}**\
@@ -131,7 +131,7 @@ Merge all but position from the programmer with the live cue.
 **\<Record\> \<Options\> \<Position\> {Cue} {Cue}**\
 Merge only position from the programmer with the live cue.
 
-Copy, Move in cue list 
+Copy, Move in cue list
 ----------------------
 
 **\<Copy\> {Cue} n \<Enter\>**\
@@ -157,19 +157,19 @@ list.
 Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert at cue n in the
 target playback.
 
-Delete 
+Delete
 ------
 
 **\<Delete\> {Cue} n**\
 Delete cue n from the connected cue list.
 
-Include 
+Include
 -------
 
 **\<Include\> {Cue} n**\
 Include cue n into the programmer from the connected cue list.
 
-Times 
+Times
 -----
 
 **\<Time\> 5**\
@@ -196,7 +196,7 @@ Times
 **\<Time\> 1 \<Through\> 10**\
 times spread across fixtures according to selection order
 
-Cue Lists 
+Cue Lists
 ---------
 
 **\<Cue\> n \<Go\>**
@@ -210,5 +210,3 @@ Run the next cue with 5 sec fade instead of the programmed cue time
 **\<Cue\> 3 \<Enter\> 5 \<Go\>**
 
 Jump to cue 3 with 5 sec fade instead of the programmed cue time
-
-

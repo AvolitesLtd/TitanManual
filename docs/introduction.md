@@ -1,5 +1,5 @@
 ---
-id: quick-start 
+id: introduction 
 title: Quick Start
 sidebar_label: Quick Start
 ---
@@ -11,5 +11,3 @@ section for more details.
 Softkeys (the A-G menu buttons next to the screen) are shown in square
 brackets like \[This\]. Physical labelled buttons on the console are
 shown like \<This\>.
-
-

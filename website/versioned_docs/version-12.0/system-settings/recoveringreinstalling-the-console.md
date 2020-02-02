@@ -1,8 +1,8 @@
 ---
-id: version-12.0-recoveringreinstalling-the-console
-title: Recoveringreinstalling the console
-sidebar_label: Recoveringreinstalling the console
-original_id: recoveringreinstalling-the-console
+id: version-12.0-recovering-and-reinstalling-the-console
+title: Recovering & reinstalling the console
+sidebar_label: Recovering & reinstalling the console
+original_id: recovering-and-reinstalling-the-console
 ---
 
 The console runs on an embedded PC system, and like all computers, there
@@ -73,5 +73,3 @@ T1/T2 dongles, this allows you to use different computers without
 relicensing as long as the Avolites hardware is connected.
 
 For more details see https://www.avolites.com/avokey
-
-

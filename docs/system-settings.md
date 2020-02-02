@@ -1,5 +1,5 @@
 ---
-id: system-menu-and-user-settings 
+id: system-settings
 title: System Menu and User Settings
 sidebar_label: System Menu and User Settings
 ---
@@ -11,5 +11,3 @@ button.
 
 In this chapter there is also information on how to upgrade the
 application software.
-
-

@@ -1,8 +1,8 @@
 ---
-id: version-12.0-system-menu-and-user-settings
+id: version-12.0-system-settings
 title: System Menu and User Settings
 sidebar_label: System Menu and User Settings
-original_id: system-menu-and-user-settings
+original_id: system-settings
 ---
 
 The console has a large number of options to help you set it up just the
@@ -12,5 +12,3 @@ button.
 
 In this chapter there is also information on how to upgrade the
 application software.
-
-

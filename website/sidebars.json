@@ -1,7 +1,7 @@
 {
   "docs": {
     "Introduction": [
-      "introduction/quick-start",
+      "introduction",
       "introduction/patching-fixtures",
       "introduction/controlling-fixtures",
       "introduction/programming-cues-and-chases",
@@ -9,7 +9,7 @@
       "introduction/dmx-network-setup"
     ],
     "About The Consoles": [
-      "about-the-consoles/about-the-consoles",
+      "about-the-consoles",
       "about-the-consoles/sapphire-touch",
       "about-the-consoles/arena",
       "about-the-consoles/tiger-touch",
@@ -21,10 +21,9 @@
       "about-the-consoles/fader-wings"
     ],
     "Titan Basics": [
-      "titan-basics/connecting-up-and-titan-basics",
+      "titan-basics",
       "titan-basics/connecting-up",
       "titan-basics/controlling-dimmers-and-fixtures",
-
       "titan-basics/workspace-windows",
       "titan-basics/other-parts-of-the-touch-screen",
       "titan-basics/front-panel-buttons",
@@ -36,7 +35,7 @@
       "titan-basics/creating-reports"
     ],
     "Patching" : [
-      "patching/patching",
+      "patching",
       "patching/patching-new-fixtures-or-dimmers",
       "patching/changing-the-patch",
       "patching/copying,-moving-and-deleting-fixtures",
@@ -53,7 +52,7 @@
       "playback-options"
     ],
     "Palettes": [
-      "palettes/palettes",
+      "palettes",
       "palettes/creating-palettes",
       "palettes/using-palettes",
       "palettes/editing-palettes",
@@ -61,7 +60,7 @@
       "palettes/timing-with-palettes"
     ],
     "Effects": [
-      "effects/shapes-and-pixel-mapper-effects",
+      "effects",
       "effects/shape-generator",
       "effects/key-frame-shapes",
       "effects/pixel-mapper",
@@ -70,7 +69,7 @@
       "effects/pixel-mapper-examples"
     ],
     "Cues": [
-      "cues/cues",
+      "cues",
       "cues/creating-a-cue",
       "cues/using-a-cue",
       "cues/editing-cues",
@@ -78,7 +77,7 @@
       "cues/copying-moving-linking-and-deleting"
     ],
     "Chases": [
-      "chases/chases",
+      "chases",
       "chases/creating-a-chase",
       "chases/playback",
       "chases/editing-a-chase",
@@ -87,7 +86,7 @@
       "chases/chase-timing"
     ],
     "Cue Lists": [
-      "cue-lists/cue-lists",
+      "cue-lists",
       "cue-lists/creating-a-cue-list",
       "cue-lists/cue-list-playback",
       "cue-lists/editing-cue-lists",
@@ -97,19 +96,19 @@
       "cue-lists/theatre-programming"
     ],
     "Capture Visualiser": [
-      "capture-visualiser/capture-visualiser",
+      "capture-visualiser",
       "capture-visualiser/setting-up-the-rig",
       "capture-visualiser/visualising-using-capture",
       "capture-visualiser/capture-show-files",
       "capture-visualiser/linking-the-console-to-stand-alone-capture"
     ],
     "Synergy": [
-      "synergy/synergy-and-linking-to-ai",
+      "synergy",
       "synergy/setting-up",
       "synergy/operating-synergy"
     ],
     "Running The Show": [
-      "running-the-show/running-the-show",
+      "running-the-show",
       "running-the-show/playback-controls",
       "running-the-show/using-multiple-on-screen-workspaces",
       "running-the-show/organising-the-console",
@@ -118,17 +117,17 @@
       "running-the-show/linking-consoles-for-multi-user-or-backup"
     ],
     "Remote Control": [
-      "remote-control/remote-control",
+      "remote-control",
       "remote-control/setting-up-the-remote",
       "remote-control/operating-the-remote"
     ],
     "Titan Net": [
-      "titan-net/titan-net-processor-operation",
+      "titan-net",
       "titan-net/tnp-slave-mode",
       "titan-net/tnp-console-mode"
     ],
-    "System Menu and User Settings": [
-      "system-settings/system-menu-and-user-settings",
+    "System Settings": [
+      "system-settings",
       "system-settings/the-system-menu",
       "system-settings/external-dispays",
       "system-settings/key-profiles",
@@ -136,14 +135,14 @@
       "system-settings/dmx-output-mapping",
       "system-settings/curves",
       "system-settings/upgrading-the-software",
-      "system-settings/recoveringreinstalling-the-console",
+      "system-settings/recovering-and-reinstalling-the-console",
       "system-settings/release-notes"
     ],
     "Fixture Personalities": [
       "fixture-personalties"
     ],
     "Networking the Console": [
-      "networking/networking-the-console",
+      "networking",
       "networking/connecting-the-arena-to-a-network",
       "networking/controlling-fixtures-over-a-network",
       "networking/using-active-fixtures",

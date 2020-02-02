@@ -1,7 +1,8 @@
 ---
-id: titan-net-processor-operation 
+id: version-12.0-titan-net
 title: Titan Net Processor operation
 sidebar_label: Titan Net Processor operation
+original_id: titan-net
 ---
 
 A TNP (TitanNet Processor) unit can operate either as a slave unit,
@@ -18,5 +19,3 @@ at the top of the screen, using the Switch Software Versions option.
 TNP = slave mode
 
 Console = console mode
-
-

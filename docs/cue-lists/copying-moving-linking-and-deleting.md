@@ -1,5 +1,5 @@
 ---
-id: copying,-moving,-linking-and-deleting 
+id: copying-moving,-linking-and-deleting 
 title: Copying, moving, linking and deleting
 sidebar_label: Copying, moving, linking and deleting
 ---
@@ -81,5 +81,3 @@ delete.
 -   Press \<Menu Latch\> to keep the delete mode active. You can keep
     deleting using steps 2 and 3 without having to keep pressing the
     Delete button. Press \<Menu Latch\> to leave latched delete mode.
-
-

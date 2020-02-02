@@ -1,7 +1,8 @@
 ---
-id: shapes-and-pixel-mapper-effects 
+id: version-12.0-effects
 title: Shapes and Pixel Mapper effects
 sidebar_label: Shapes and Pixel Mapper effects
+original_id: effects
 ---
 
 The Shape Generator in Titan (sometimes known as an Effects Generator on
@@ -18,5 +19,3 @@ The Pixel Mapper is used to generate animated textures using the colour
 or intensity of a group of fixtures (often LED battens, starcloths or
 LED web type fixtures). When viewed at a distance the effect becomes
 clearly visible.
-
-

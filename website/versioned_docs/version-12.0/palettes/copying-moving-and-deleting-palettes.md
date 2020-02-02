@@ -1,8 +1,8 @@
 ---
-id: version-12.0-copying,-moving-and-deleting-palettes
+id: version-12.0-copying-moving-and-deleting-palettes
 title: Copying, moving and deleting palettes
 sidebar_label: Copying, moving and deleting palettes
-original_id: copying,-moving-and-deleting-palettes
+original_id: copying-moving-and-deleting-palettes
 ---
 
 Copying or moving a palette
@@ -65,5 +65,3 @@ Other ways to delete a palette:
 -   If you have playbacks which use the deleted palette, they will go
     back to the values which were stored in the programmer when the
     playback was recorded.
-
-

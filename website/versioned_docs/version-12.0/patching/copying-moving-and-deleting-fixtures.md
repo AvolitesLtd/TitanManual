@@ -1,7 +1,8 @@
 ---
-id: copying,-moving-and-deleting-fixtures 
+id: version-12.0-copying-moving-and-deleting-fixtures
 title: Copying, moving and deleting fixtures
 sidebar_label: Copying, moving and deleting fixtures
+original_id: copying-moving-and-deleting-fixtures
 ---
 
 Copying or moving a patched fixture
@@ -72,5 +73,3 @@ something else.
 Press the Select button again to confirm.
 
 -   You can delete a range of fixtures in one operation.
-
-

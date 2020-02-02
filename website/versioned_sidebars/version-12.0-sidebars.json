@@ -1,7 +1,7 @@
 {
   "version-12.0-docs": {
     "Introduction": [
-      "version-12.0-introduction/quick-start",
+      "version-12.0-introduction",
       "version-12.0-introduction/patching-fixtures",
       "version-12.0-introduction/controlling-fixtures",
       "version-12.0-introduction/programming-cues-and-chases",
@@ -9,7 +9,7 @@
       "version-12.0-introduction/dmx-network-setup"
     ],
     "About The Consoles": [
-      "version-12.0-about-the-consoles/about-the-consoles",
+      "version-12.0-about-the-consoles",
       "version-12.0-about-the-consoles/sapphire-touch",
       "version-12.0-about-the-consoles/arena",
       "version-12.0-about-the-consoles/tiger-touch",
@@ -21,7 +21,7 @@
       "version-12.0-about-the-consoles/fader-wings"
     ],
     "Titan Basics": [
-      "version-12.0-titan-basics/connecting-up-and-titan-basics",
+      "version-12.0-titan-basics",
       "version-12.0-titan-basics/connecting-up",
       "version-12.0-titan-basics/controlling-dimmers-and-fixtures",
       "version-12.0-titan-basics/workspace-windows",
@@ -35,7 +35,7 @@
       "version-12.0-titan-basics/creating-reports"
     ],
     "Patching": [
-      "version-12.0-patching/patching",
+      "version-12.0-patching",
       "version-12.0-patching/patching-new-fixtures-or-dimmers",
       "version-12.0-patching/changing-the-patch",
       "version-12.0-patching/copying,-moving-and-deleting-fixtures",
@@ -52,7 +52,7 @@
       "version-12.0-playback-options"
     ],
     "Palettes": [
-      "version-12.0-palettes/palettes",
+      "version-12.0-palettes",
       "version-12.0-palettes/creating-palettes",
       "version-12.0-palettes/using-palettes",
       "version-12.0-palettes/editing-palettes",
@@ -60,7 +60,7 @@
       "version-12.0-palettes/timing-with-palettes"
     ],
     "Effects": [
-      "version-12.0-effects/shapes-and-pixel-mapper-effects",
+      "version-12.0-effects",
       "version-12.0-effects/shape-generator",
       "version-12.0-effects/key-frame-shapes",
       "version-12.0-effects/pixel-mapper",
@@ -69,7 +69,7 @@
       "version-12.0-effects/pixel-mapper-examples"
     ],
     "Cues": [
-      "version-12.0-cues/cues",
+      "version-12.0-cues",
       "version-12.0-cues/creating-a-cue",
       "version-12.0-cues/using-a-cue",
       "version-12.0-cues/editing-cues",
@@ -77,7 +77,7 @@
       "version-12.0-cues/copying-moving-linking-and-deleting"
     ],
     "Chases": [
-      "version-12.0-chases/chases",
+      "version-12.0-chases",
       "version-12.0-chases/creating-a-chase",
       "version-12.0-chases/playback",
       "version-12.0-chases/editing-a-chase",
@@ -86,7 +86,7 @@
       "version-12.0-chases/chase-timing"
     ],
     "Cue Lists": [
-      "version-12.0-cue-lists/cue-lists",
+      "version-12.0-cue-lists",
       "version-12.0-cue-lists/creating-a-cue-list",
       "version-12.0-cue-lists/cue-list-playback",
       "version-12.0-cue-lists/editing-cue-lists",
@@ -96,19 +96,19 @@
       "version-12.0-cue-lists/theatre-programming"
     ],
     "Capture Visualiser": [
-      "version-12.0-capture-visualiser/capture-visualiser",
+      "version-12.0-capture-visualiser",
       "version-12.0-capture-visualiser/setting-up-the-rig",
       "version-12.0-capture-visualiser/visualising-using-capture",
       "version-12.0-capture-visualiser/capture-show-files",
       "version-12.0-capture-visualiser/linking-the-console-to-stand-alone-capture"
     ],
     "Synergy": [
-      "version-12.0-synergy/synergy-and-linking-to-ai",
+      "version-12.0-synergy",
       "version-12.0-synergy/setting-up",
       "version-12.0-synergy/operating-synergy"
     ],
     "Running The Show": [
-      "version-12.0-running-the-show/running-the-show",
+      "version-12.0-running-the-show",
       "version-12.0-running-the-show/playback-controls",
       "version-12.0-running-the-show/using-multiple-on-screen-workspaces",
       "version-12.0-running-the-show/organising-the-console",
@@ -117,17 +117,17 @@
       "version-12.0-running-the-show/linking-consoles-for-multi-user-or-backup"
     ],
     "Remote Control": [
-      "version-12.0-remote-control/remote-control",
+      "version-12.0-remote-control",
       "version-12.0-remote-control/setting-up-the-remote",
       "version-12.0-remote-control/operating-the-remote"
     ],
     "Titan Net": [
-      "version-12.0-titan-net/titan-net-processor-operation",
+      "version-12.0-titan-net",
       "version-12.0-titan-net/tnp-slave-mode",
       "version-12.0-titan-net/tnp-console-mode"
     ],
-    "System Menu and User Settings": [
-      "version-12.0-system-settings/system-menu-and-user-settings",
+    "System Settings": [
+      "version-12.0-system-settings",
       "version-12.0-system-settings/the-system-menu",
       "version-12.0-system-settings/external-dispays",
       "version-12.0-system-settings/key-profiles",
@@ -135,14 +135,14 @@
       "version-12.0-system-settings/dmx-output-mapping",
       "version-12.0-system-settings/curves",
       "version-12.0-system-settings/upgrading-the-software",
-      "version-12.0-system-settings/recoveringreinstalling-the-console",
+      "version-12.0-system-settings/recovering-and-reinstalling-the-console",
       "version-12.0-system-settings/release-notes"
     ],
     "Fixture Personalities": [
       "version-12.0-fixture-personalties"
     ],
     "Networking the Console": [
-      "version-12.0-networking/networking-the-console",
+      "version-12.0-networking",
       "version-12.0-networking/connecting-the-arena-to-a-network",
       "version-12.0-networking/controlling-fixtures-over-a-network",
       "version-12.0-networking/using-active-fixtures",

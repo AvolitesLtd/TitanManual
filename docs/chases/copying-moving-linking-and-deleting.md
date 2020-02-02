@@ -1,5 +1,5 @@
 ---
-id: copying,-moving,-linking-and-deleting 
+id: copying-moving,-linking-and-deleting 
 title: Copying, moving, linking and deleting
 sidebar_label: Copying, moving, linking and deleting
 ---
@@ -42,5 +42,3 @@ the step to be deleted.
 
 -   Alternatively you can use the Unfold function to delete a step from
     a chase.
-
-
