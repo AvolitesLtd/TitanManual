@@ -69,7 +69,7 @@ const siteConfig = {
   scripts: [
     'https://buttons.github.io/buttons.js',
     'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js',
-    '/js/js-search.min.js',
+    '/js/fuse.js',
     '/js/search.js'
   ],
 
