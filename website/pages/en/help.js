@@ -14,7 +14,7 @@ const GridBlock = CompLibrary.GridBlock;
 
 function Help(props) {
   const {config: siteConfig, language = ''} = props;
-  const {baseUrl, docsUrl} = siteConfig;
+  const {baseUrl, docsUrl, repoUrl} = siteConfig;
   const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
   const langPart = `${language ? `${language}/` : ''}`;
   const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
@@ -27,13 +27,13 @@ function Help(props) {
       title: 'Browse Docs',
     },
     {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
+      content: `Help make these docs better by becoming a contributor on [GitHub](${repoUrl})`,
+      title: 'Contribute',
     },
     {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
-    },
+      content: `For official help and support visit the [Avolites site](https://www.avolites.com/software/latest-version)`,
+      title: 'Official help and support',
+    }
   ];
 
   return (
@@ -43,7 +43,6 @@ function Help(props) {
           <header className="postHeader">
             <h1>Need help?</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>

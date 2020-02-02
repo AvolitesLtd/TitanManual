@@ -10,7 +10,7 @@
 
 const siteConfig = {
   title: 'Community Avolites Titan Manual', // Title for your website.
-  tagline: 'A manual for the Avolites Titan Software',
+  tagline: 'A community maintained manual for the Avolites Titan Software',
   url: 'https://avolites.fraserstockley.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
