@@ -4,6 +4,7 @@ title: Fixture Personalities
 sidebar_label: Fixture Personalities
 original_id: fixture-personalities
 ---
+=====================
 
 For each type of fixture, the console has a "personality" file which
 tells it how to control the fixture, which channel is the dimmer (HTP)
@@ -56,7 +57,7 @@ file by clicking on the Download link at the top of the screen, then
 clicking on "Titan Fixture Library".
 
   ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![exclamation](/docs/images/image5.png)   Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
+  ![exclamation](/docs/images/image5.png){width="0.7083333333333334in" height="0.6388888888888888in"}   Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
   ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **To update a console use the following procedure:**
@@ -102,7 +103,7 @@ behaviour of a standard personality or you have a fixture the console
 has never heard of and need to get it working quickly.
 
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   The console loads the fixture library into memory when the Patch option is first used, so after creating a new personality you need to restart the console software from the Tools menu or it will not show up.
+  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   The console loads the fixture library into memory when the Patch option is first used, so after creating a new personality you need to restart the console software from the Tools menu or it will not show up.
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 You can incorporate your custom personality into the standard fixture

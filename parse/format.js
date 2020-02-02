@@ -7,6 +7,7 @@ fs.readdir('input', function(err, filenames) {
     onError(err);
     return;
   }
+  let i = 1;
   filenames.forEach(function(filename) {
     if (filename == ".DS_Store") {
       return;
@@ -29,7 +30,7 @@ fs.readdir('input', function(err, filenames) {
       }
       console.log(filename);
       console.log(id);
-      fs.writeFile("output/" + id + ".md", output, function(err) {
+      fs.writeFile("output/" + i++ + id + ".md", output, function(err) {
         if(err) {
           return console.log(err);
       }

@@ -1,144 +1,153 @@
 {
   "docs": {
     "Introduction": [
-      "quick-start",
-      "patching-fixtures",
-      "controlling-fixtures",
-      "programming-cues-and-chases",
-      "programming-palettes",
-      "dmx-network-setup"
+      "introduction/quick-start",
+      "introduction/patching-fixtures",
+      "introduction/controlling-fixtures",
+      "introduction/programming-cues-and-chases",
+      "introduction/programming-palettes",
+      "introduction/dmx-network-setup"
     ],
     "About The Consoles": [
-      "about-the-consoles",
-      "sapphire-touch",
-      "arena",
-      "tiger-touch",
-      "quartz",
-      "titan-mobile",
-      "t1andt2",
-      "tnp-(titan-net-processor)",
-      "pearl-expert-and-touch-wing",
-      "fader-wings"
+      "about-the-consoles/about-the-consoles",
+      "about-the-consoles/sapphire-touch",
+      "about-the-consoles/arena",
+      "about-the-consoles/tiger-touch",
+      "about-the-consoles/quartz",
+      "about-the-consoles/titan-mobile",
+      "about-the-consoles/t1-and-t2",
+      "about-the-consoles/tnp",
+      "about-the-consoles/pearl-expert-and-touch-wing",
+      "about-the-consoles/fader-wings"
     ],
-    "Connecting up and Titan basics": [
-      "connecting-up-and-titan-basics",
-      "connecting-up",
-      "workspace-windows",
-      "other-parts-of-the-touch-screen",
-      "front-panel-buttons",
-      "multi-user-operation",
-      "titan-simulator",
-      "show-library",
-      "loading-and-saving-shows",
-      "clearing-the-console",
-      "creating-reports"
+    "Titan Basics": [
+      "titan-basics/connecting-up-and-titan-basics",
+      "titan-basics/connecting-up",
+      "titan-basics/controlling-dimmers-and-fixtures",
+
+      "titan-basics/workspace-windows",
+      "titan-basics/other-parts-of-the-touch-screen",
+      "titan-basics/front-panel-buttons",
+      "titan-basics/multi-user-operation",
+      "titan-basics/titan-simulator",
+      "titan-basics/show-library",
+      "titan-basics/loading-and-saving-shows",
+      "titan-basics/clearing-the-console",
+      "titan-basics/creating-reports"
     ],
     "Patching" : [
-      "patching",
-      "patching-new-fixtures-or-dimmers",
-      "changing-the-patch",
-      "copying,-moving-and-deleting-fixtures",
-      "fixture-personality-options"
+      "patching/patching",
+      "patching/patching-new-fixtures-or-dimmers",
+      "patching/changing-the-patch",
+      "patching/copying,-moving-and-deleting-fixtures",
+      "patching/fixture-personality-options"
     ],
-    "Controlling Dimmers": [
-      "controlling-dimmers",
-      "using-the-select-buttons-and-wheels",
-      "viewing-and-editing-fixture-values",
-      "fixture-groups",
-      "advanced-options"
+    "Controlling Fixtures": [
+      "controlling-fixtures/controlling-dimmers",
+      "controlling-fixtures/using-the-select-buttons-and-wheels",
+      "controlling-fixtures/viewing-and-editing-fixture-values",
+      "controlling-fixtures/fixture-groups",
+      "controlling-fixtures/advanced-options"
+    ],
+    "Playback Options": [
+      "playback-options"
     ],
     "Palettes": [
-      "palettes",
-      "creating-palettes",
-      "using-palettes",
-      "editing-palettes",
-      "copying,-moving-and-deleting-palettes",
-      "timing-with-palettes"
+      "palettes/palettes",
+      "palettes/creating-palettes",
+      "palettes/using-palettes",
+      "palettes/editing-palettes",
+      "palettes/copying-moving-and-deleting-palettes",
+      "palettes/timing-with-palettes"
     ],
-    "Shapes and Pixel Mapper Effects": [
-      "shapes-and-pixel-mapper-effects",
-      "shape-generator",
-      "key-frame-shapes",
-      "pixel-mapper",
-      "editing-shapes",
-      "advanced-options",
-      "pixel-mapper-examples"
+    "Effects": [
+      "effects/shapes-and-pixel-mapper-effects",
+      "effects/shape-generator",
+      "effects/key-frame-shapes",
+      "effects/pixel-mapper",
+      "effects/editing-shapes-and-effects",
+      "effects/advanced-options",
+      "effects/pixel-mapper-examples"
     ],
     "Cues": [
-      "cues",
-      "creating-a-cue",
-      "using-a-cue",
-      "editing-cues",
-      "copying,-moving,-linking-and-deleting"
+      "cues/cues",
+      "cues/creating-a-cue",
+      "cues/using-a-cue",
+      "cues/editing-cues",
+      "cues/cue-timing",
+      "cues/copying-moving-linking-and-deleting"
     ],
     "Chases": [
-      "chases",
-      "creating-a-chase",
-      "playback",
-      "editing-a-chase",
-      "copying,-moving,-linking-and-deleting"
+      "chases/chases",
+      "chases/creating-a-chase",
+      "chases/playback",
+      "chases/editing-a-chase",
+      "chases/copying-moving-linking-and-deleting",
+      "chases/chase-options",
+      "chases/chase-timing"
     ],
     "Cue Lists": [
-      "cue-lists",
-      "creating-a-cue-list",
-      "cue-list-playback",
-      "editing-cue-lists",
-      "copying,-moving,-linking-and-deleting",
-      "cue-list-timing",
-      "cue-list-options",
-      "theatre-programming"
+      "cue-lists/cue-lists",
+      "cue-lists/creating-a-cue-list",
+      "cue-lists/cue-list-playback",
+      "cue-lists/editing-cue-lists",
+      "cue-lists/copying-moving-linking-and-deleting",
+      "cue-lists/cue-list-timing",
+      "cue-lists/cue-list-options",
+      "cue-lists/theatre-programming"
     ],
     "Capture Visualiser": [
-      "capture-visualiser",
-      "setting-up-the-rig",
-      "visualising-using-capture",
-      "capture-show-files",
-      "linking-the-console-to-stand-alone-capture"
+      "capture-visualiser/capture-visualiser",
+      "capture-visualiser/setting-up-the-rig",
+      "capture-visualiser/visualising-using-capture",
+      "capture-visualiser/capture-show-files",
+      "capture-visualiser/linking-the-console-to-stand-alone-capture"
     ],
-    "Synergy and Linking to AI": [
-      "synergy-and-linking-to-ai",
-      "setting-up",
-      "operating-synergy"
+    "Synergy": [
+      "synergy/synergy-and-linking-to-ai",
+      "synergy/setting-up",
+      "synergy/operating-synergy"
     ],
     "Running The Show": [
-      "running-the-show",
-      "playback-controls",
-      "using-multiple-on-screen-workspaces",
-      "organising-the-console",
-      "set-list-window",
-      "midi,-dmx-or-audio-triggering",
-      "linking-consoles-for-multi-user-or-backup"
+      "running-the-show/running-the-show",
+      "running-the-show/playback-controls",
+      "running-the-show/using-multiple-on-screen-workspaces",
+      "running-the-show/organising-the-console",
+      "running-the-show/set-list-window",
+      "running-the-show/midi-dmx-or-audio-triggering",
+      "running-the-show/linking-consoles-for-multi-user-or-backup"
     ],
     "Remote Control": [
-      "remote-control",
-      "setting-up-the-remote",
-      "operating-the-remote"
+      "remote-control/remote-control",
+      "remote-control/setting-up-the-remote",
+      "remote-control/operating-the-remote"
     ],
     "Titan Net": [
-      "titan-net",
-      "tnp-slave-mode",
-      "tnp-console-mode"
+      "titan-net/titan-net-processor-operation",
+      "titan-net/tnp-slave-mode",
+      "titan-net/tnp-console-mode"
     ],
     "System Menu and User Settings": [
-      "system-menu-and-user-settings",
-      "the-system-menu",
-      "external-dispays",
-      "key-profiles",
-      "user-settings",
-      "dmx-output-mapping",
-      "curves",
-      "upgrading-the-software",
-      "recoveringreinstalling-the-console",
-      "release-notes"
+      "system-settings/system-menu-and-user-settings",
+      "system-settings/the-system-menu",
+      "system-settings/external-dispays",
+      "system-settings/key-profiles",
+      "system-settings/user-settings",
+      "system-settings/dmx-output-mapping",
+      "system-settings/curves",
+      "system-settings/upgrading-the-software",
+      "system-settings/recoveringreinstalling-the-console",
+      "system-settings/release-notes"
     ],
     "Fixture Personalities": [
       "fixture-personalties"
     ],
     "Networking the Console": [
-      "connecting-the-arena-to-a-network",
-      "controlling-fixtures-over-a-network",
-      "using-active-fixtures",
-      "a-quick-guide-to-ip-addressing"
+      "networking/networking-the-console",
+      "networking/connecting-the-arena-to-a-network",
+      "networking/controlling-fixtures-over-a-network",
+      "networking/using-active-fixtures",
+      "networking/a-quick-guide-to-ip-addressing"
     ],
     "Titan Commands": [
       "titan-commands"
