@@ -234,14 +234,10 @@ step, or to the timings using \[Edit Cue x Times\].
     following cues to the next change. \[Update Cue Only\] will just set
     the current cue.\
     \
-    ![](/docs/images/image258.png){width="1.0138888888888888in"
-    height="0.7222222222222222in"}
-    ![](/docs/images/image259.png){width="0.9861111111111112in"
-    height="0.7222222222222222in"}
-    ![](/docs/images/image260.png){width="0.9861111111111112in"
-    height="0.7361111111111112in"}
-    ![](/docs/images/image261.png){width="0.9722222222222222in"
-    height="0.7222222222222222in"}
+    ![](/docs/images/image258.png)
+    ![](/docs/images/image259.png)
+    ![](/docs/images/image260.png)
+    ![](/docs/images/image261.png)
 
 -   You can't change the cue number using this menu -- if you press
     \[Cue Number\] this will change the cue you are editing. Use

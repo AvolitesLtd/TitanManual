@@ -122,8 +122,7 @@ a palette number and press \[Store\]
     thumbnail will be used. For other attributes the last adjusted
     function value will be used for the legend, except for pan and tilt
     which will use a default legend.\
-    ![](/docs/images/image174.png){width="4.444444444444445in"
-    height="0.6527777777777778in"}
+    ![](/docs/images/image174.png)
 
 -   You can also manually set a legend for the palette while you are
     saving it using \[Provide a legend\]. See section 6.1.5 for how to
@@ -211,8 +210,7 @@ will automatically create helpful legends when you create the palette.
     legend, so for example Position palettes will show a P, colour
     palettes a C and so on. In the top right corner is shown G for
     Global, N for Normal or S for Shared palette.\
-    ![](/docs/images/image175.png){width="1.8055555555555556in"
-    height="0.9861111111111112in"}
+    ![](/docs/images/image175.png)
 
 You can create a picture legend for your palette which could for example
 represent the colour or gobo it will create. After pressing \[Set

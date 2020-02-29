@@ -1,42 +1,61 @@
 var fs = require('fs');
+var path = require('path');
+
+const walkSync = (dir, filelist = []) => {
+  fs.readdirSync(dir).forEach(file => {
+
+    filelist = fs.statSync(path.join(dir, file)).isDirectory()
+      ? walkSync(path.join(dir, file), filelist)
+      : filelist.concat(path.join(dir, file));
+
+  });
+return filelist;
+}
+let filelist = walkSync("../docs");
 
 
-
-fs.readdir('input', function(err, filenames) {
-  if (err) {
-    onError(err);
+filelist.forEach((filename) => {
+  if (filename.includes(".DS_Store")) {
     return;
   }
-  let i = 1;
-  filenames.forEach(function(filename) {
-    if (filename == ".DS_Store") {
+  fs.readFile(filename, 'utf-8', function(err, content) {
+    //what formatting changes are we doing?
+    if (!content)
       return;
-    }
-    fs.readFile('input/' + filename, 'utf-8', function(err, content) {
-      let wh = content.replace(/{width=".*"\nheight=".*"}/g, "");
-      wh = wh.replace(/media\/media/g, "/docs/images");
-
-      let lines = wh.split('\n');
-      let firstline = lines[0].split('{');
-      let title = firstline[0].trim();
-      title = title.replace('/', '');
-      let id = title.split(" ").join("-").toLowerCase();
-      let output = "---\nid: " + id + " \ntitle: " + title + "\n" + "sidebar_label: " + title + "\n---\n";
-
-      for (let i = 1; i < lines.length; i++) {
-        lines[i] =  lines[i].replace(/ {.*\.Ref_Heading.}/g, "");
-
-        output += lines[i] + "\n";
-      }
-      console.log(filename);
-      console.log(id);
-      fs.writeFile("output/" + i++ + id + ".md", output, function(err) {
+    let updated = content.replace(/{width=".*"\s*height=".*"}/g, "");
+    fs.writeFile(filename, updated, function(err) {
         if(err) {
           return console.log(err);
       }
-  });
-
-      //console.log(content);
     });
   });
 });
+
+// fs.readdir('input', function(err, filenames) {
+//   if (err) {
+//     onError(err);
+//     return;
+//   }
+//   let i = 1;
+//   filenames.forEach(function(filename) {
+//     if (filename == ".DS_Store") {
+//       return;
+//     }
+//     fs.readFile('input/' + filename, 'utf-8', function(err, content) {
+//       //what formatting changes are we doing?
+//       if (!content) {
+//         return;
+//       }
+//       console.log(filename);
+//       let updated = content.replace(/{width=".*" height=".*"}/g, "");
+//
+//       fs.writeFile("input/"+ filename, updated, function(err) {
+//         if(err) {
+//           return console.log(err);
+//       }
+//   });
+//
+//       //console.log(content);
+//     });
+//   });
+// });

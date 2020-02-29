@@ -66,8 +66,7 @@ a particular shape.
     to show only shapes for that attribute. Press the \<Dimmer\>
     attribute button to show all shapes.\
     \
-    ![](/docs/images/image182.png){width="3.236111111111111in"
-    height="1.9305555555555556in"}
+    ![](/docs/images/image182.png)
 
 -   Shapes are based on the current settings of the fixture, so a
     position circle would move around the current pan-tilt position of

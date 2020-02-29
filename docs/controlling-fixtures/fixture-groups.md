@@ -178,10 +178,8 @@ and columns (Width).
     cells in a multi-cell fixture. This is useful to get cells located
     correctly if you have some fixtures with large cell spacing and some
     with small spacing.\
-    ![](/docs/images/image169.png){width="2.1527777777777777in"
-    height="2.2222222222222223in"}
-    ![](/docs/images/image170.png){width="2.236111111111111in"
-    height="2.1944444444444446in"}
+    ![](/docs/images/image169.png)
+    ![](/docs/images/image170.png)
 
 -   The Layout Editor is described in more detail with examples in the
     Pixel Mapper section 7.6.4 on page 185. There are also some features

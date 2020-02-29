@@ -895,42 +895,35 @@ You can select different curves to use when in Fan mode. Hold down
 -   Line: Traditional fan, the first and last selected fixture are
     affected equally in opposite directions, the midpoint remains
     unchanged. This is most useful for pan.\
-    ![](/docs/images/image153.png){width="2.5555555555555554in"
-    height="1.4305555555555556in"}
+    ![](/docs/images/image153.png)
 
 -   Mirror- Divides the selection into two halves, the position in each
     half is the mirror of the other half\
-    ![](/docs/images/image154.png){width="2.5277777777777777in"
-    height="1.6111111111111112in"}
+    ![](/docs/images/image154.png)
 
 -   Wings -- Divides the selection into three parts, the positions in
     the outer two parts mirror each other and the central part does not
     change.\
-    ![](/docs/images/image155.png){width="2.5416666666666665in"
-    height="1.5833333333333333in"}
+    ![](/docs/images/image155.png)
 
 -   Arrow - The first and last selected fixture are affected equally to
     the midpoint fixture but in the opposite direction. This is useful
     for colour mixing, tilt and dimmer.\
-    ![](/docs/images/image156.png){width="2.513888888888889in"
-    height="1.4722222222222223in"}
+    ![](/docs/images/image156.png)
 
 -   Pull Middle - The first and last selected fixture remain at the
     current value, the midpoint is affected most. This is useful for
     colour mixing, tilt and dimmer.\
-    ![](/docs/images/image157.png){width="2.5833333333333335in"
-    height="1.6111111111111112in"}
+    ![](/docs/images/image157.png)
 
 -   Pull Ends - The first and last selected fixture are affected most,
     the midpoint is unchanged. This is useful for colour mixing, tilt
     and dimmer.\
-    ![](/docs/images/image158.png){width="2.5277777777777777in"
-    height="1.625in"}
+    ![](/docs/images/image158.png)
 
 -   Pull End -- Like pull ends but only from one end, the other end does
     not change\
-    ![](/docs/images/image159.png){width="2.513888888888889in"
-    height="1.6805555555555556in"}
+    ![](/docs/images/image159.png)
 
 ### Fan Parts
 

@@ -23,8 +23,7 @@ speed of the chase.
 
 -   While the chase is running, the area of the screen above the wheels
     shows details of the chase steps.\
-    ![](/docs/images/image247.png){width="2.6944444444444446in"
-    height="1.25in"}
+    ![](/docs/images/image247.png)
 
 -   You can temporarily pause the chase by pressing the Stop button near
     the wheels. Press Go to resume playback.

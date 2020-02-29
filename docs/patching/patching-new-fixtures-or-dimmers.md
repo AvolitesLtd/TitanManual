@@ -190,8 +190,7 @@ Select buttons.
     prompt area to help you check you have got the right one (if
     provided in the fixture personality; some fixtures do not include
     this information)\
-    ![](/docs/images/image115.png){width="2.4166666666666665in"
-    height="1.2083333333333333in"}
+    ![](/docs/images/image115.png)
 
 Capture Visualiser Auto Patch
 -----------------------------
@@ -211,8 +210,7 @@ fixtures if you wish -- see chapter 11.
 -   Fixture modes which will work with Auto Patch show a Capture icon in
     the button. If the icon is not shown, that fixture mode isn't
     supported in the integrated Capture.\
-    ![](/docs/images/image116.png){width="1.4861111111111112in"
-    height="2.125in"}
+    ![](/docs/images/image116.png)
 
 -   If you are using the console linked to the full version of Capture
     (Nexum or above) on an external computer, then changes to the patch

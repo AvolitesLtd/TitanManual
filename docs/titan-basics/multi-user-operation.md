@@ -127,8 +127,7 @@ to start the connection.
     legends can be changed in the System menu using the \[Console
     Legend\] option.
 
-    ![Shell Slave](/docs/images/image100.png){width="4.694444444444445in"
-    height="0.2916666666666667in"}
+    ![Shell Slave](/docs/images/image100.png)
 
     Consoles connected in a multi-user session work on the same show. If
     the same handle worlds are selected then an action on one console is

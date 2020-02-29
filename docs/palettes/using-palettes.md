@@ -25,8 +25,7 @@ to the selected fixtures.
     Settings). This makes it easier to see which palette you have
     selected.
 
-    ![activepalette](/docs/images/image178.png){width="3.0416666666666665in"
-    height="2.2222222222222223in"}
+    ![activepalette](/docs/images/image178.png)
 
 You can also recall a palette by its number by typing the number on the
 numeric keypad.

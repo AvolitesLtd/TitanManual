@@ -1,5 +1,5 @@
 ---
-id: playback-options 
+id: playback-options
 title: Playback options
 sidebar_label: Playback options
 ---
@@ -168,9 +168,9 @@ individual mask settings for this playback. Global uses the global
 release mask which is set in the Release menu (press Release).
 
 +----------------------------------+----------------------------------+
-| ![tip](/docs/images/image7.p      | Release mask is useful when      |
-| ng){width="0.7361111111111112in" | creating a temporary strobe      |
-| height="0.6527777777777778in"}   | effect on a playback. Press      |
+| ![tip](/docs/images/image7.png)  | Release mask is useful when      |
+|                                  | creating a temporary strobe      |
+|                                  | effect on a playback. Press      |
 |                                  | \[Release Mask\] then the        |
 |                                  | Intensity/Shutter attribute      |
 |                                  | button. Now when you turn off    |
@@ -190,5 +190,3 @@ release the playback.
 **Release Time:** Sets a release fade time for this playback. Enter
 blank time to return to global (Global release time is set in the User
 Settings).
-
-

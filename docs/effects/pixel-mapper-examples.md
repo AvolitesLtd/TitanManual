@@ -159,8 +159,7 @@ wipe begins off screen where we placed it when it is fired.)
 -   Note how the red fan sits on top of the white bar when they
     interact. This is because the white is on a lower layer. A higher
     layer number has priority over a lower number.\
-    ![Layers\_Preview](/docs/images/image213.jpeg){width="2.8472222222222223in"
-    height="2.888888888888889in"}
+    ![Layers\_Preview](/docs/images/image213.jpeg)
 
 Creative use of fixture layouts
 -------------------------------

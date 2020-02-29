@@ -1,5 +1,5 @@
 ---
-id: changing-the-patch 
+id: changing-the-patch
 title: Changing the patch
 sidebar_label: Changing the patch
 ---
@@ -149,8 +149,7 @@ output line number.
     any future conflicting fixtures without warning you (you can change
     this option back in the User Settings).
 
-> ![](/docs/images/image123.png){width="2.6944444444444446in"
-> height="1.7361111111111112in"}
+![](/docs/images/image123.png)
 
 Setting legends
 ---------------
@@ -388,5 +387,3 @@ console does not update fixtures which are already patched.
     to update.
 
 -   The new personality is loaded from the Titan/Personalities folder.
-
-

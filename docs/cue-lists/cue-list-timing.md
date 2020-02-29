@@ -158,8 +158,7 @@ part.
     If you press a fixture button twice, it will show X and be excluded
     from the sequence.\
     Press \<Exit\> to finish setting the fixture order.
-    ![](/docs/images/image241.png){width="3.2222222222222223in"
-    height="1.9444444444444444in"}
+    ![](/docs/images/image241.png)
 
 Running a cue list to timecode
 ------------------------------
