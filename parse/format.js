@@ -22,7 +22,9 @@ filelist.forEach((filename) => {
     //what formatting changes are we doing?
     if (!content)
       return;
-    let updated = content.replace(/{width=".*"\s*height=".*"}/g, "");
+
+    content
+    //let updated = content.replace(/^[0-9]\\>\s/g, "");
     fs.writeFile(filename, updated, function(err) {
         if(err) {
           return console.log(err);

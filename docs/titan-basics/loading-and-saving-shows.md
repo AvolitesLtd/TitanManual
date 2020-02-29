@@ -1,5 +1,5 @@
 ---
-id: loading-and-saving-shows 
+id: loading-and-saving-shows
 title: Loading and saving shows
 sidebar_label: Loading and saving shows
 ---
@@ -29,22 +29,24 @@ versions of your show if needed.
 
 To save your current show:
 
-1\> Press the \<Disk\> button.
+1. Press the \<Disk\> button.
 
-2\> Press \[Save Show\].
+2. Press \[Save Show\].
 
-3\> If you have a USB drive connected, use the softkeys to select
+3. If you have a USB drive connected, use the softkeys to select
 whether to save on \[Removable Disk\] or \[Internal hard drive\].
 
-4\> If this is a new show, enter a name for the show on the keyboard. If
+4. If this is a new show, enter a name for the show on the keyboard. If
 this is a new version of an existing show you can enter a tag to help
 identify the version, which will be shown on the Show Browser screen
 when you load shows.
 
-5\> Press \<Enter\> or \[Save\] (or \[Overwrite\] if the show already
+5. Press \<Enter\> or \[Save\] (or \[Overwrite\] if the show already
 exists). The show will be saved.
 
-6\> Press \<Exit\> or \[OK\] to leave Disk mode.
+6. Press \<Exit\> or \[OK\] to leave Disk mode.
+
+----
 
 -   To save the show under a different name, use the \[Save As\]
     softkey.
@@ -55,6 +57,8 @@ exists). The show will be saved.
 
 -   A new version of the file will be saved even if you enter the same
     tag as previously used.
+
+----
 
 If you save to hard drive, shows are saved in the folder 'D:\\Shows' (on
 Titan Mobile, Titan Go and Simulator the folder is
@@ -77,26 +81,26 @@ reload an earlier version if you need to.
 
 You can also load shows from the softkeys:
 
-1\> Press the \<Disk\> button.
+1. Press the \<Disk\> button.
 
-2\> Press \[Load Show\].
+2. Press \[Load Show\].
 
-3\> If you have a USB drive connected, select which drive you want to
+3. If you have a USB drive connected, select which drive you want to
 load from.
 
-4\> Available shows are listed on the softkeys; press the key to load
+4. Available shows are listed on the softkeys; press the key to load
 the show (the F and G keys show more pages). If you type the first few
 letters of the show name on the touch keyboard, the list will only
 include shows starting with those letters, which can make it easier to
 locate the show you want.
 
-5\> If there are multiple versions of the show stored on the disk,
+5. If there are multiple versions of the show stored on the disk,
 select the one you want.
 
-6\> Press Load Show. The console will show a loading screen as the
+6. Press Load Show. The console will show a loading screen as the
 different elements of the show load.
 
-7\> When the show has loaded the normal operating screen will reappear.
+7. When the show has loaded the normal operating screen will reappear.
 
 When loading a show you have the option to keep the existing DMX
 settings of the console, or to load the settings stored in the showfile.
@@ -122,36 +126,38 @@ workspace or panel buttons in your current show.
 
 ![](/docs/images/image108.png)
 
-1\> Press the \<Disk\> button.
+1. Press the \<Disk\> button.
 
-2\> Press \[Import Show\] (The plus button at the top right of the Show
+2. Press \[Import Show\] (The plus button at the top right of the Show
 Library window also opens this menu).
 
-3\> The Show Browser window opens. Select the show you want to import
+3. The Show Browser window opens. Select the show you want to import
 from and press \[Load Show\].
 
-4\> The Show Library window will now open. Your current show and the
+4. The Show Library window will now open. Your current show and the
 imported show will appear as buttons at the top of the show browser. You
 can import items from more than one show at once by repeating steps 1-3.
 
-5\> Click on the Mapper tab, and select your imported show.
+5. Click on the Mapper tab, and select your imported show.
 
-6\> Select a fixture in your imported show, then click the arrow beside
+6. Select a fixture in your imported show, then click the arrow beside
 the fixture it maps to in the current show. To remove a mapping, click
 the \[Clear Fixture Mapping\] context button.\
 You can select multiple target fixtures by dragging a box over the
 fixtures, or click on the source fixture again and map to another
 target.
 
-7\> When you have mapped all fixtures you want to import data from,
+7. When you have mapped all fixtures you want to import data from,
 click on the Show Library tab.
 
-8\> Select the items you want to import (single or multiple). Use the
+8. Select the items you want to import (single or multiple). Use the
 buttons on the left to select Palettes, Groups etc.
 
-9\> Select handle(s) where you want to store the imported items.
+9. Select handle(s) where you want to store the imported items.
 
-10\> When you have imported all the items you want, press \<Exit\>.
+10. When you have imported all the items you want, press \<Exit\>.
+
+---
 
 -   You can filter fixture types to make the mapping easier using the
     buttons on the left and right sides of the show browser.
@@ -162,7 +168,9 @@ buttons on the left to select Palettes, Groups etc.
 -   There is more information about the Show Library window in section
     3.7 on page 78.
 
-Autosave 
+---
+
+Autosave
 --------
 
 The console will automatically save your show to its internal hard disk
@@ -197,5 +205,3 @@ To copy an existing show file on the hard disk to a USB drive, first
 ensure your current show is saved, then use the Disk functions to load
 the existing show from hard disk, then save it to the USB drive.
 Alternatively you can use the Folders command on the Tools menu.
-
-

@@ -1,5 +1,5 @@
 ---
-id: creating-reports 
+id: creating-reports
 title: Creating reports
 sidebar_label: Creating reports
 ---
@@ -27,15 +27,15 @@ following:
 
 To generate reports:
 
-1\> Press the \<Disk\> button.
+1. Press the \<Disk\> button.
 
-2\> Press \[Reports\].
+2. Press \[Reports\].
 
-3\> Select the item(s) you want to include in the report
+3. Select the item(s) you want to include in the report
 
-4\> Select the format in which you want to output the report
+4. Select the format in which you want to output the report
 
-5\> Select the drive where you want to save the report
+5. Select the drive where you want to save the report
 
 Reports are stored in the following folders:
 
@@ -46,5 +46,3 @@ All other consoles: D:/Data/Reports
 
 When the report is complete, Titan will open the folder where the report
 is stored so you can see where it went.
-
-
