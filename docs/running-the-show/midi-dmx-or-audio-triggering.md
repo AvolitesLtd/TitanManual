@@ -9,7 +9,9 @@ external events. This is very useful in complex shows or when using in
 an automated setup.
 
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   Audio trigger (sound to light) requires special hardware which is currently only available on the Quartz and Arena consoles. The line in socket on other consoles cannot be used for audio trigger.
+  ![info](/docs/images/image6.png)
+  
+  Audio trigger (sound to light) requires special hardware which is currently only available on the Quartz and Arena consoles. The line in socket on other consoles cannot be used for audio trigger.
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Connecting remote trigger sources
@@ -37,7 +39,7 @@ Setting up remote triggering
 Enter System mode and select \[Triggers\]. The Triggers window will
 open.
 
-![](/docs/images/image304.png)
+![Triggers Window](/docs/images/image304.png)
 
 The left hand side of the window has a list of trigger sets. By default
 the following sets are provided:
@@ -88,12 +90,12 @@ for Audio.
 
 9. Press \[Add\] to add the trigger to the list.
 
-10\> The window will show the trigger stimulus and the action to be
+10. The window will show the trigger stimulus and the action to be
 carried out.
 
 You can continue to add other triggers to the mapping.
 
-![](/docs/images/image305.png)
+![Triggers Window with MIDI triggers](/docs/images/image305.png)
 
 To delete a trigger from the mapping, select it in the list and press
 the rubbish bin button at the bottom.
@@ -133,15 +135,15 @@ MIDI show control
 
 The following MIDI Show Control messages are supported:
 
-  Command   Action
-  --------- ----------------------------------------
-  GO        Fire the specified playback or cue
-  STOP      Pause the specified playback or cue
-  RESUME    Un-pause the specified playback or cue
-  LOAD      Set the playback level to full
-  ALL OFF   Release all playbacks
-  RESET     Same as ALL OFF
-  GO OFF    Same as resume
+  Command   | Action
+  --------- | ---------------------------------------
+  GO        | Fire the specified playback or cue
+  STOP      | Pause the specified playback or cue
+  RESUME    | Un-pause the specified playback or cue
+  LOAD      | Set the playback level to full
+  ALL OFF   | Release all playbacks
+  RESET     | Same as ALL OFF
+  GO OFF    | Same as resume
 
 Playbacks/Cues are identified by their User Number. To set the user
 number, press \[Set Legend\] then the select button of the cue, then
@@ -160,7 +162,7 @@ which of the bands is being used.
 
 Audio triggers are adjusted in the Audio Triggers workspace.
 
-![Adio Window](/docs/images/image306.png)
+![Audio Window](/docs/images/image306.png)
 
 If the console does not have suitable hardware a warning message is
 displayed. Currently only the Quartz and Arena consoles have the audio
