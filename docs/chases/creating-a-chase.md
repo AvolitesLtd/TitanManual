@@ -14,26 +14,26 @@ You can either set all the fixtures and dimmers manually for each cue in
 the chase, you can use Quick Build to create a state from palettes and
 cues, or you can use Include to load in cues.
 
-1\> Press \<Record\> then select \[Chase\]. (Some consoles also have a
+1. Press \<Record\> then select \[Chase\]. (Some consoles also have a
 Record Chase button).
 
-2\> Press the Swop button of the playback where you want to store the
+2. Press the Swop button of the playback where you want to store the
 chase (you can also store chases on touch buttons in the Playbacks
 window).
 
-3\> Set up the look for the first cue, either manually or by using
+3. Set up the look for the first cue, either manually or by using
 "Include" on existing cues.
 
-4\> You can change the number given to the step using \[Step Number\].
+4. You can change the number given to the step using \[Step Number\].
 
-5\> Press the Swop button of the playback to store the programmer
+5. Press the Swop button of the playback to store the programmer
 contents as a step of the chase. You can also press \[Append Step\] on
 the menu.
 
-6\> Press \<Clear\> (unless you want to re-use the contents of the
+6. Press \<Clear\> (unless you want to re-use the contents of the
 programmer), then repeat from step 3.
 
-7\> Press \<Exit\> to finish when you have stored all the cues you want.
+7. Press \<Exit\> to finish when you have stored all the cues you want.
 
 -   \[Record Mode\] lets you select Record By Fixture (all attributes of
     any modified or selected fixture are saved), Record By Channel (only

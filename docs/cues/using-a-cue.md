@@ -245,15 +245,15 @@ type of fixture, and that state will be used for all fixtures of that
 type. In Individual mode, the state of each fixture will be recorded
 individually as you have set it.
 
-1\> Set up the look you want.
+1. Set up the look you want.
 
-2\> Press \<Record\>, then \<Release\>.
+2. Press \<Record\>, then \<Release\>.
 
-3\> Select \[Shared values\] or \[Individual values\].
+3. Select \[Shared values\] or \[Individual values\].
 
-4\> Press the \[Record\] softkey.
+4. Press the \[Record\] softkey.
 
-5\> The Release state is saved.
+5. The Release state is saved.
 
 -   To test, fire some playbacks, then release them by pressing
     \<Release\> followed by the select button of the playback. The
@@ -272,14 +272,14 @@ playback. There is also a global user setting in the to enable or
 disable running playbacks on startup, which provides a way to turn off
 all startup playbacks rather than having to go and edit each playback..
 
-1\> At the top level menu press \[Playback Options\] then the Swop
+1. At the top level menu press \[Playback Options\] then the Swop
 button of the playback you want to run
 
-2\> Select \[Playback\] category.
+2. Select \[Playback\] category.
 
-3\> Set the \[Run On Startup\] option to Enabled.
+3. Set the \[Run On Startup\] option to Enabled.
 
-4\> The Release state is saved.
+4. The Release state is saved.
 
 Power on playbacks show a Power symbol watermark in the playback
 information area above the fader. If you open the Show Library window

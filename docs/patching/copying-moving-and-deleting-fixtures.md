@@ -20,16 +20,16 @@ section above)
 
 Move is useful for tidying up the console.
 
-1\> Press the \<Copy\> button.
+1. Press the \<Copy\> button.
 
-2\> Select \[Copy\] or \[Move\]. Pressing the \<Copy\> button again will
+2. Select \[Copy\] or \[Move\]. Pressing the \<Copy\> button again will
 also toggle through these options.
 
-3\> Press the Select button of the fixture you want to copy/move. You
+3. Press the Select button of the fixture you want to copy/move. You
 can select multiple fixtures -- use the \<Thro\> and \<And\> buttons to
 add more fixtures to the selection.
 
-4\> Press the empty Select button where you want it to go.
+4. Press the empty Select button where you want it to go.
 
 -   The \<Menu Latch\> button latches the Copy/Move/Link menu, so you
     can keep copying or moving things without having to keep pressing
@@ -62,13 +62,13 @@ something else.
   ![info](/docs/images/image6.png)   All programming for the fixture is also deleted. You cannot undo deletion of a fixture or get the programming back by repatching a fixture to the same handle. If you might need the fixtures again later, move them to an unused fixture page.
   --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1\> Enter Patch mode by pressing the \<Patch\> button.
+1. Enter Patch mode by pressing the \<Patch\> button.
 
-2\> Press the \<Delete\> button.
+2. Press the \<Delete\> button.
 
-3\> Press the Select button of the fixture you want to delete.
+3. Press the Select button of the fixture you want to delete.
 
-4\> The button will light up red and the console asks for confirmation.
+4. The button will light up red and the console asks for confirmation.
 Press the Select button again to confirm.
 
 -   You can delete a range of fixtures in one operation.

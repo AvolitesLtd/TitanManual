@@ -1,5 +1,5 @@
 ---
-id: controlling-fixtures-over-a-network 
+id: controlling-fixtures-over-a-network
 title: Controlling fixtures over a network
 sidebar_label: Controlling fixtures over a network
 ---
@@ -14,17 +14,17 @@ We recommend that you use the console's automatic IP setting function.
 However, if you need to you can also set the IP address using Windows
 Control Panel as shown on page 345.
 
-1\> Switch to System mode and press \[Network Settings\]
+1. Switch to System mode and press \[Network Settings\]
 
-2\> Press \[Local Area Connection\].
+2. Press \[Local Area Connection\].
 
-3\> Press \[Subnet Mask\] and ensure it is set to 255.255.255.0
+3. Press \[Subnet Mask\] and ensure it is set to 255.255.255.0
 
-4\> Press \[Set IP 2.\*.\*.\*\]
+4. Press \[Set IP 2.\*.\*.\*\]
 
-5\> Press \[Save settings\]
+5. Press \[Save settings\]
 
-6\> \<Exit\> system mode.
+6. \<Exit\> system mode.
 
 -   Some equipment may operate on IP addresses 10.\*.\*.\* (softkey D)
     -- see later in this chapter for details.
@@ -134,50 +134,50 @@ console to that address range instead of 2.x.x.x
 
 With everything connected, start the console.
 
-1\> Ensure the console has an IP in the 2.x.x.x range as described at
+1. Ensure the console has an IP in the 2.x.x.x range as described at
 the start of the chapter.
 
-2\> Switch the console to System and select \[DMX Settings\].
+2. Switch the console to System and select \[DMX Settings\].
 
-3\> The DMX Settings window should open.
+3. The DMX Settings window should open.
 
-4\> Select the Art-Net module from the node list in the left hand side
+4. Select the Art-Net module from the node list in the left hand side
 of the window.
 
-5\> Press the small 'i' button to show the node properties. Ensure that
+5. Press the small 'i' button to show the node properties. Ensure that
 the correct Network adapter is set (this may not be the Default Adapter)
 
-6\> If you wish to turn off the Art-Net output, you can unselect the
+6. If you wish to turn off the Art-Net output, you can unselect the
 \"Enable DMX output\" option. This will stop the Console from outputting
 Art-Net on any Lines.
 
-7\> Art-Net normally only sends Data when it is changed, rather than a
+7. Art-Net normally only sends Data when it is changed, rather than a
 continuous stream. There are times when it is preferable to send Art-Net
 all the time. to do this, select the \"Continuous Art-Net Data Stream\"
 option.
 
-8\> The \"Always broadcast Art-Net\" option enables you to send Art-Net
+8. The \"Always broadcast Art-Net\" option enables you to send Art-Net
 to the entire network, rather than a specific IP address.
 
-9\> Press the blue → arrow on the Art-Net node to connect it to a DMX
+9. Press the blue → arrow on the Art-Net node to connect it to a DMX
 output line.
 
-10\> Select a console DMX line from the right hand side of the window.
+10. Select a console DMX line from the right hand side of the window.
 
-11\> The DMX line will now be outputting over the selected Art-Net node.
+11. The DMX line will now be outputting over the selected Art-Net node.
 
-12\> Click 'i' on the node you have added to make sure the properties
+12. Click 'i' on the node you have added to make sure the properties
 are correct. (Problems can be caused if you attach multiple DMX lines to
 a single node.)
 
-13\> Make sure that the Universe is set to 1 for Line 1, and 2 for Line
+13. Make sure that the Universe is set to 1 for Line 1, and 2 for Line
 2.
 
 Art-Net uses a subnet mask with its universe. For Titan purposes:
 
 Titan universes 1 - 16 are subnet mask = 0, Art-Net universes = 1 -- 16
 
-14\> You can close the DMX settings window.
+14. You can close the DMX settings window.
 
 The console should now be working correctly.
 
@@ -202,5 +202,3 @@ Additional Art-Net Resources
 To find out more information about Art-Net please refer to the Art-Net
 Standard published by [Artistic
 Licence](http://www.artisticlicence.com).
-
-

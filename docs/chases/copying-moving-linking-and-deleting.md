@@ -28,17 +28,17 @@ Deleting a step from a chase
 
 To delete a single step from a chase:
 
-1\> Press \<Delete\> button.
+1. Press \<Delete\> button.
 
-2\> Press the Swop button of the chase.
+2. Press the Swop button of the chase.
 
-3\> The steps in the chase are listed on the screen. Use the left hand
+3. The steps in the chase are listed on the screen. Use the left hand
 wheel to select the step you want to delete, or type in the number of
 the step to be deleted.
 
-4\> Press \[Delete Cue x\] to delete the step.
+4. Press \[Delete Cue x\] to delete the step.
 
-5\> Press \[Confirm\] to confirm the delete.
+5. Press \[Confirm\] to confirm the delete.
 
 -   Alternatively you can use the Unfold function to delete a step from
     a chase.

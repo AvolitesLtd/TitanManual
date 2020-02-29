@@ -14,12 +14,12 @@ Using the Move function
 
 To move fixtures, palettes, groups and playbacks is very simple.
 
-1\> Press \<Copy\> then \[Move\] to select Move mode (or just press
+1. Press \<Copy\> then \[Move\] to select Move mode (or just press
 \<Move\> if the console has a button for it).
 
-2\> Press or touch the select key(s) of the item(s) to move.
+2. Press or touch the select key(s) of the item(s) to move.
 
-3\> Press or touch the select key of the destination.
+3. Press or touch the select key of the destination.
 
 When moving a range, it is possible to select a range containing
 different types of items, and there can be gaps between them. In this

@@ -13,38 +13,38 @@ You need to set up the look on the stage for each cue and then add it to
 the cue list. If you want to set fade times, you can either set them
 while saving the cues or later.
 
-1\> Press \<Record\> then \[Create Cue List\].
+1. Press \<Record\> then \[Create Cue List\].
 
-2\> Press the select button of the playback where you want to store the
+2. Press the select button of the playback where you want to store the
 Cue List (you can also store cue lists in the Playbacks window).
 
-3\> Select the Record Mode of the console: by Fixture, Channel, Stage or
+3. Select the Record Mode of the console: by Fixture, Channel, Stage or
 Quick Build; if you are using tracking, \[Record Mode Channel\] is best
 as you are sure to only record the attributes you have explicitly set,
 but you do need to make sure you have changed all the things you want to
 be recorded so they are in the programmer.
 
-4\> Set the default Fade and Delay times, and automatic cue linking,
+4. Set the default Fade and Delay times, and automatic cue linking,
 using \[Set Times\]. These settings will be allocated to every new cue.
 
-5\> Set up the look for the first cue, either manually or by using
+5. Set up the look for the first cue, either manually or by using
 \<Include\> on existing cues. You can use the Shape Generator and the
 Pixel Mapper.
 
-6\> If you require a legend for the cue, set it now using \[Legend\].
+6. If you require a legend for the cue, set it now using \[Legend\].
 You can also change this later using \<Unfold\> or Set Legend (see next
 section).
 
-7\> Press the Select button of the handle or \[Append Cue\] to store the
+7. Press the Select button of the handle or \[Append Cue\] to store the
 programmer contents as Cue 1 of the cue list.
 
-8\> Repeat from step 5 for the next cue. Do not press \<Clear\> in
+8. Repeat from step 5 for the next cue. Do not press \<Clear\> in
 between cues, unless you want levels to track through from previous
 cues, as any faders moving to zero will not be stored. If you do press
 clear, you must make sure that all channels you want to record are
 selected or in the programmer (inverted display).
 
-9\> Press \<Exit\> to finish when you have stored all the cues you want.
+9. Press \<Exit\> to finish when you have stored all the cues you want.
 
 -   \[Record Mode\] lets you select Record By Fixture (all attributes of
     any modified or selected fixture are saved), Record By Channel (only
@@ -87,19 +87,19 @@ You can set a legend for each cue, which is shown on the screen when
 running the cue list and can be helpful for keeping track of where you
 are.
 
-1\> Press \[Set Legend\] in the top level menu. If you are setting
+1. Press \[Set Legend\] in the top level menu. If you are setting
 legends for several cues, press \<Menu Latch\> to latch the Set Legend
 menu.
 
-2\> Press the Select button of the Cue List.
+2. Press the Select button of the Cue List.
 
-3\> The cues in the cue list are shown on the screen. Touch the list or
+3. The cues in the cue list are shown on the screen. Touch the list or
 use Wheel A to select the cue which is to have a legend set.
 
-5\> Press \[Cue Legend\] and type the legend on the keyboard, then press
+5. Press \[Cue Legend\] and type the legend on the keyboard, then press
 \<Enter\>.
 
-6\> If you latched the menu, you can continue to set legends for other
+6. If you latched the menu, you can continue to set legends for other
 cues, or press \<Exit\> to finish.
 
 Shape tracking in cue lists
@@ -146,29 +146,29 @@ can manually allocate Autoloads to cues.
 
 To automatically record active playbacks as Autoloads:
 
-1\> After selecting Cue List Record, turn on \[Autoload Live Playbacks\]
+1. After selecting Cue List Record, turn on \[Autoload Live Playbacks\]
 in the \[Advanced Options\] menu of the cuelist record screen.
 
-2\> Turn on the playbacks you wish to load for this cue.
+2. Turn on the playbacks you wish to load for this cue.
 
-3\> Save the cue. Active playbacks will be saved as Autoloads.
+3. Save the cue. Active playbacks will be saved as Autoloads.
 
 To manually edit autoloads use the playback view for the cue list:
 
-1\> Press \<View/Open\>
+1. Press \<View/Open\>
 
-2\> Press the blue Select button of the Cue List.
+2. Press the blue Select button of the Cue List.
 
-3\> The cues in the cue list are shown on the screen. Click on the
+3. The cues in the cue list are shown on the screen. Click on the
 Autoload you wish to change. (You will need to set the window to full
 screen size or scroll across to see the Autoload column. If the Autoload
 column is not show, click on the Show All button on the left of the
 window.)
 
-4\> Press the Select button of the playback which is to be loaded. The
+4. Press the Select button of the playback which is to be loaded. The
 playback legend appears on the softkeys.
 
-5\> You can continue to add Autoloads to other cues, or press \<Exit\>
+5. You can continue to add Autoloads to other cues, or press \<Exit\>
 to finish.
 
 ![](/docs/images/image252.png)The Autoloaded playback will be fired when
@@ -198,19 +198,19 @@ allows you to set up custom actions which can be performed when a cue in
 a cue list fires; for example you may want to lamp on your fixtures as
 the first cue in the cue list.
 
-1\> Press \[Playback Options\].
+1. Press \[Playback Options\].
 
-2\> Select the cue list.
+2. Select the cue list.
 
-3\> Select \[Macros\].
+3. Select \[Macros\].
 
-4\> In the Playback View window, select the step you want to add a macro
+4. In the Playback View window, select the step you want to add a macro
 to.
 
-5\> Press the button(s) for the macro(s) you want to attach to the step.
+5. Press the button(s) for the macro(s) you want to attach to the step.
 Or press \[Add\] and choose an action from the list.
 
-3\> The "Macros" column shows the macros you have added.
+3. The "Macros" column shows the macros you have added.
 
 -   You can remove macros by selecting the cue, pressing the softkey for
     the macro you wish to remove and then pressing \[Remove Link\].

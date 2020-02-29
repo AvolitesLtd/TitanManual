@@ -410,13 +410,13 @@ You can create instant variations by recalling palette values to modify
 your existing cues. Palette values can have fade times saved with them,
 or you can set a fade at showtime for added effect.
 
-1\> Select some fixtures which are already in use on stage.
+1. Select some fixtures which are already in use on stage.
 
-2\> Type "2" (or any time, in seconds) on the numeric keypad.
+2. Type "2" (or any time, in seconds) on the numeric keypad.
 
-3\> Touch a Palette button to recall a palette.
+3. Touch a Palette button to recall a palette.
 
-4\> The selected fixtures will change to the new palette over a time of
+4. The selected fixtures will change to the new palette over a time of
 2 seconds.
 
 If the palette contains programmed times, you can change the Key Profile

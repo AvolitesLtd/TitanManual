@@ -47,25 +47,25 @@ the mobile device and the console so that they can communicate with each
 other. In this example we use an Android smartphone but other devices
 are similar.
 
-1\> In the access point's admin screen, give the access point an IP
+1. In the access point's admin screen, give the access point an IP
 address such as 10.0.0.1, make sure wireless is switched on and enable
 the DHCP server. Take note of the name of the wireless network (SSID).
 
-2\> Connect an Ethernet cable from the back of the console to the access
+2. Connect an Ethernet cable from the back of the console to the access
 point.
 
-3\> Set the IP address of the console: Switch to System, select
+3. Set the IP address of the console: Switch to System, select
 \[Network Settings\], press \[Local Area Connection\], then press \[Set
 IP 10.\*.\*.\*\].
 
-4\> On the mobile device, go to WiFi settings or Network Settings and
+4. On the mobile device, go to WiFi settings or Network Settings and
 ensure Wi-Fi is set to on.
 
-5\> Select the wireless network from the list, the name you took note of
+5. Select the wireless network from the list, the name you took note of
 earlier. The mobile device should automatically get an IP address from
 the access point.
 
-6\> Run the Titan Remote app. You should see the console listed.
+6. Run the Titan Remote app. You should see the console listed.
 
   --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![info](/docs/images/image6.png)   If you are using the remote at showtime, on the Access Point you should select the option to hide the SSID. If you do not do this, every smartphone in the audience will find your wifi and try to connect to your Access Point which will make the remote operation very sluggish.

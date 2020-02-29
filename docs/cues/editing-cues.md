@@ -10,20 +10,20 @@ Editing a cue by merging
 You can edit any part of a cue you have already saved simply by making
 the changes and saving the new information on top of the cue.
 
-1\> Press \<Clear\> to empty the programmer.
+1. Press \<Clear\> to empty the programmer.
 
-2\> Fire the cue you want to edit, so you can see what you are doing.
+2. Fire the cue you want to edit, so you can see what you are doing.
 Kill all other cues to avoid confusion.
 
-3\> Select the fixtures you want to change, and make the changes.
+3. Select the fixtures you want to change, and make the changes.
 
-4\> Press \<Record\>.
+4. Press \<Record\>.
 
-5\> Press the Swop button for the cue you are editing.
+5. Press the Swop button for the cue you are editing.
 
-6\> Press \[Merge\] (the cue being edited is highlighted on the screen).
+6. Press \[Merge\] (the cue being edited is highlighted on the screen).
 
-7\> The console will merge the existing cue with your changes. Unchanged
+7. The console will merge the existing cue with your changes. Unchanged
 information is not affected.
 
 -   If you want to overwrite the cue entirely, use the option
@@ -49,18 +49,18 @@ either the cue itself or the palettes used in the cue.
 For instant update of a fired cue, change the fixture settings and press
 Update twice.
 
-1\> With the cue fired, select the fixtures and change them to the
+1. With the cue fired, select the fixtures and change them to the
 settings you want to store (e.g. the right green colour).
 
-2\> Press \<Update\> (on consoles without an Update button press
+2. Press \<Update\> (on consoles without an Update button press
 \<Record Cue\>, \[Update\].
 
-3\> Press \<Enter\> to immediately store the new values to the cue.
+3. Press \<Enter\> to immediately store the new values to the cue.
 
 Alternatively, the softkeys show a list of palettes and playbacks which
 can be updated. Select or deselect these as required.
 
-4\> If you have used the softkey options, press \<Enter\> to complete
+4. If you have used the softkey options, press \<Enter\> to complete
 the update.
 
 -   You can also select which palettes will be affected by pressing the
@@ -99,20 +99,20 @@ You can configure which columns are shown in the Playback View using the
 save it to a filter button which appears below the Times button on the
 left.
 
-1\> Press \[Edit Columns\] on the context menu.
+1. Press \[Edit Columns\] on the context menu.
 
-2\> Using the softkeys, enable or disable the columns to get the view
+2. Using the softkeys, enable or disable the columns to get the view
 you want.
 
-3\> Press \<Record\>. An \[Add\] button will appear at the bottom of the
+3. Press \<Record\>. An \[Add\] button will appear at the bottom of the
 screen.
 
-4\> Press the \[Add\] button to create a filter button for this view.
+4. Press the \[Add\] button to create a filter button for this view.
 
-5\> You can set a legend and colour halo for the filter button using the
+5. You can set a legend and colour halo for the filter button using the
 normal \[Set Legend\] function.
 
-6\> You can delete filter buttons by pressing \<Delete\> then the
+6. You can delete filter buttons by pressing \<Delete\> then the
 button.
 
 If you touch the View button at the right hand end of the row or the
@@ -193,29 +193,29 @@ If you Include a chase or cue list, the screen shows you a list of the
 cues within it, and you select the one you want to Include using Wheel A
 or by touching the cue. You can also type in the cue number to Include.
 
-1\> Press \<Include\>.
+1. Press \<Include\>.
 
-2\> Press \[Quick Include\] or \[Advanced mode\] if you want to change
+2. Press \[Quick Include\] or \[Advanced mode\] if you want to change
 the mode.
 
-3\> Press the Swop button of the cue you want to include into the
+3. Press the Swop button of the cue you want to include into the
 programmer. If you are in Quick Include mode, this Includes the cue and
 finishes.
 
-4\> If you are in Advanced mode, all fixtures in the cue will be
+4. If you are in Advanced mode, all fixtures in the cue will be
 selected. If you don't want them all, deselect the fixtures you don't
 want. The fixtures in the cue are highlighted on the screen and on the
 fixture buttons.
 
-5\> Use \[Set Mask\] or the Attribute Bank buttons to select which
+5. Use \[Set Mask\] or the Attribute Bank buttons to select which
 Attributes you want to include (All are included by default -- Softkey C
 turns them all off and D turns them all on). Softkey E lets you include
 or exclude Shapes from the cue.
 
-6\> Press \<Enter\>. The selected attributes of the selected fixtures
+6. Press \<Enter\>. The selected attributes of the selected fixtures
 will be loaded into the programmer.
 
-7\> Repeat from 2 to include other attributes from the same fixtures, or
+7. Repeat from 2 to include other attributes from the same fixtures, or
 repeat from 1 to include other fixtures.
 
 -   In Quick Include mode, you can set a mask for the include by
@@ -241,33 +241,33 @@ zero, since this would change the attribute when the cue was fired. It
 is the same as excluding that attribute using the mask when recording,
 so the attribute will remain unchanged when the cue is fired.
 
-1\> Press \<Off\>, then \[Off Playback Values\] followed by the playback
+1. Press \<Off\>, then \[Off Playback Values\] followed by the playback
 to be changed.
 
-2\> All fixtures in the playback will automatically select. If you only
+2. All fixtures in the playback will automatically select. If you only
 want to change some fixtures to Off, change the selection.
 
-3\> By default the attribute mask is set so all attributes will be
+3. By default the attribute mask is set so all attributes will be
 changed to Off. Press \[Set Mask\] to choose which attributes will be
 set to Off.
 
-4\> Press the \[Off\] softkey.
+4. Press the \[Off\] softkey.
 
 You can also use Include to set values to Off.
 
-1\> Use the Quick Include function (described in previous section) to
+1. Use the Quick Include function (described in previous section) to
 load the cue you want to change into the programmer.
 
-2\> Press \<Off\> to display the Off menu.
+2. Press \<Off\> to display the Off menu.
 
-3\> All fixtures in the cue will be selected. If you don't want to
+3. All fixtures in the cue will be selected. If you don't want to
 change them all, deselect the fixtures you don't want.
 
-4\> Use the Attribute Bank buttons to toggle which attributes you want
+4. Use the Attribute Bank buttons to toggle which attributes you want
 to change. Then press the \[Attributes Off\] softkey to set them to Off.
 The bottom softkeys also give options such as \[Dimmer Off\].
 
-5\> Press \<Record\>, then set the record mode to \[Replace\], and press
+5. Press \<Record\>, then set the record mode to \[Replace\], and press
 the Swop button of the cue to update it.
 
 -   To turn off all attributes of all selected fixtures, press \<Off\>

@@ -12,13 +12,13 @@ timing. This is called the global timing for the chase. If you want you
 can then set each cue to have its own timings using the Playback View
 window or Unfold. This is described in the next section.
 
-1\> Press \[Edit Times\] from the top level menu then the Swop button of
+1. Press \[Edit Times\] from the top level menu then the Swop button of
 the chase.
 
-2\> Set the Crossfade, Speed, Fixture Overlap and Attribute Overlap
+2. Set the Crossfade, Speed, Fixture Overlap and Attribute Overlap
 settings as described below.
 
-3\> Press \<Exit\> to finish.
+3. Press \<Exit\> to finish.
 
 -   To set speed, press \[Speed\] then type the new speed, then press
     \<Enter\>. The speed can be set in Beats Per Minute (BPM) or seconds
@@ -70,17 +70,17 @@ function to set individual times for cues in chases.
 
 Using the Playback View window:
 
-1\> Touch the playback display relating to the fader, or press
+1. Touch the playback display relating to the fader, or press
 \<Open/View\> then the swop button of the playback. The Playback View
 window will open.
 
 ![](/docs/images/image249.png)
 
-2\> In the grid, touch the times you want to edit.
+2. In the grid, touch the times you want to edit.
 
-3\> Use the softkey options to change the times or settings.
+3. Use the softkey options to change the times or settings.
 
-4\> Repeat from 2 to change other times or settings.
+4. Repeat from 2 to change other times or settings.
 
 -   You can change a range of cues all at once by dragging across the
     grid to select multiple cells, or you can use wheel B to select
@@ -88,15 +88,15 @@ window will open.
 
 Using Unfold:
 
-1\> Press \<Unfold\> then the Swop button of the chase to be edited.
+1. Press \<Unfold\> then the Swop button of the chase to be edited.
 
-2\> Press \[Edit Times\] then the Swop button of the unfolded cue you
+2. Press \[Edit Times\] then the Swop button of the unfolded cue you
 want to edit.
 
-3\> Set up the timing options as required. The options are described
+3. Set up the timing options as required. The options are described
 below.
 
-4\> Press \<Unfold\> to get out of unfold mode.
+4. Press \<Unfold\> to get out of unfold mode.
 
 Initially all the timing options are set to Global. You can cancel any
 individual timings and set the time back to global timings by pressing
@@ -130,23 +130,23 @@ set attribute times.
 
 To set an attribute group fade time:
 
-1\> Press \<Open/View\> or \<Unfold\>, then the Swop button of the chase
+1. Press \<Open/View\> or \<Unfold\>, then the Swop button of the chase
 to be edited.
 
-2\> Press \[Edit Times\] then touch the cue you want to edit in the
+2. Press \[Edit Times\] then touch the cue you want to edit in the
 Playback View, or if using Unfold, press the Swop button of the unfolded
 cue you want to edit.
 
-3\> Press the Attribute Options button (right hand side) for the
+3. Press the Attribute Options button (right hand side) for the
 attribute you want to change.
 
-4\> Press \[Delay\] to set delay time or \[Set fade\] to set fade time.
+4. Press \[Delay\] to set delay time or \[Set fade\] to set fade time.
 
-5\> Type the new time using the numeric keypad and press \<Enter\> to
+5. Type the new time using the numeric keypad and press \<Enter\> to
 save it, or press \[Use Global\] to delete the attribute times and go
 back to the normal times.
 
-6\> Press \<Enter\> to save the changes.
+6. Press \<Enter\> to save the changes.
 
 Rate and BPM masters
 --------------------

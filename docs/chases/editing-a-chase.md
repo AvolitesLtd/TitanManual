@@ -28,17 +28,17 @@ each cue in a chase on one of the playback faders, allowing you to fire
 and edit each cue individually as if it was a stand-alone cue. Unfold
 also allows you to set individual timing for cues in the chase.
 
-1\> Press the \<Unfold\> button, then the Swop button of the chase to be
+1. Press the \<Unfold\> button, then the Swop button of the chase to be
 edited.
 
-2\> The first 10 cues of the chase are loaded into the playback faders.
+2. The first 10 cues of the chase are loaded into the playback faders.
 
-3\> Raise a playback fader to output the contents of that cue (fade
+3. Raise a playback fader to output the contents of that cue (fade
 times will operate as programmed).
 
-4\> Various Unfold options are available, the details are below.
+4. Various Unfold options are available, the details are below.
 
-5\> Press \<Unfold\> again to get out of unfold mode.
+5. Press \<Unfold\> again to get out of unfold mode.
 
 -   To edit the contents of a cue: Press Clear to empty the programmer,
     raise the fader to output the cue, make the changes, press \[Record

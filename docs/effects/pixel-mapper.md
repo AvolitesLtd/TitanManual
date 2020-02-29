@@ -19,12 +19,12 @@ fixtures as pixels and uses them to output a 2D effect. See section
 
 You create effects with the Pixel Mapper as follows.
 
-1\> Select the group of fixtures.
+1. Select the group of fixtures.
 
-2\> From the top level menu select \[Shapes and Effects\] then \[Pixel
+2. From the top level menu select \[Shapes and Effects\] then \[Pixel
 Mapper\]
 
-3\> Select \[Create effect\]. The Pixel Mapper Editor will open with a
+3. Select \[Create effect\]. The Pixel Mapper Editor will open with a
 blank background. You can overlay your fixture layout on the window, to
 help you see where your fixtures are, by clicking on the \[Fixture
 Overlay 50/50\] context menu button.

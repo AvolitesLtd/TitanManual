@@ -82,14 +82,14 @@ the other half of the time.
 
 You set the crossfade and speed as follows:
 
-1\> Press \[Edit Times\] from the top level menu then the Swop button of
+1. Press \[Edit Times\] from the top level menu then the Swop button of
 the chase.
 
-2\> To set the crossfade, press \[Xfade\] and type the fade from 0 --
+2. To set the crossfade, press \[Xfade\] and type the fade from 0 --
 100. 0=no fade (the chase will "snap"), 100=max fade (the chase will
 move continuously from step to step).
 
-3\> To set the speed, press \[Speed\], type the new speed, then press
+3. To set the speed, press \[Speed\], type the new speed, then press
 \<Enter\>. The speed can be set in Beats Per Minute (BPM) or seconds
 depending on the User Settings.
 
@@ -127,17 +127,17 @@ Snap\], or press \<Snap\> button if the console has one.
 You can also configure the blue and grey buttons of the playback handle
 to be Stop and Go. This uses the Key Profiles function.
 
-1\> Hold \<Avo\> and press \[Edit Current Key Profile\].
+1. Hold \<Avo\> and press \[Edit Current Key Profile\].
 
-2\> If you are using the default Key Profile which is not editable, you
+2. If you are using the default Key Profile which is not editable, you
 will be prompted to add a new profile.
 
-3\> Press \[Chases\] then choose either the Blue key or the Grey key.
+3. Press \[Chases\] then choose either the Blue key or the Grey key.
 
-4\> Select Go or Stop from the list of functions. Then press \<Exit\>
+4. Select Go or Stop from the list of functions. Then press \<Exit\>
 and set the function for the other key if required.
 
-5\> Press \<Exit\> to continue using the console.
+5. Press \<Exit\> to continue using the console.
 
 Changing chase direction
 ------------------------

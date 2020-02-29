@@ -28,20 +28,20 @@ details.
 If the Groups window is not visible, you can show it by pressing
 \<View/Open\>, \<Group\> (above numeric keys).
 
-1\> Select the fixtures/dimmers you want in the group (the order in
+1. Select the fixtures/dimmers you want in the group (the order in
 which you select them will also be stored in the group).
 
-2\> Press \<Group\> (top right of the numeric keys) then \[Record
+2. Press \<Group\> (top right of the numeric keys) then \[Record
 Group\]. You can also press \<Record\> then \<Group\>.
 
-3\> Use softkey A to enter a number for the group, or B \[Provide a
+3. Use softkey A to enter a number for the group, or B \[Provide a
 legend\] to set a legend.
 
-4\> Touch an empty button in the Groups window, or press the grey button
+4. Touch an empty button in the Groups window, or press the grey button
 of a fader handle where you want to store the group (not the main
 playback faders), or press C \[Store\] to store as a numbered group.
 
-5\> Press \<Clear\> then repeat from 1 to store other groups.
+5. Press \<Clear\> then repeat from 1 to store other groups.
 
 -   You can also press \<Avo\> and \<Group\> to go directly to the
     Record Group menu, or on the screen touch the button twice to use
@@ -63,11 +63,11 @@ playback faders), or press C \[Store\] to store as a numbered group.
 
 -   You can also recall a group by its number:
 
-    1\> Press \<Group\>.
+    1. Press \<Group\>.
 
-    2\> Type in the number of the group you want to recall.
+    2. Type in the number of the group you want to recall.
 
-    3\> Press \[Recall Group\].
+    3. Press \[Recall Group\].
 
 -   The \<Group\> button also gives you facilities on the softkeys to
     edit and delete groups.
@@ -83,14 +83,14 @@ playback faders), or press C \[Store\] to store as a numbered group.
 
 To remove fixtures from a group:
 
-1\> Press \<Group\>.
+1. Press \<Group\>.
 
-2\> Press the button for the group you want to change. All fixtures
+2. Press the button for the group you want to change. All fixtures
 currently in the group will be selected.
 
-3\> Deselect the fixtures you want to remove from the group.
+3. Deselect the fixtures you want to remove from the group.
 
-4\> Press \<Exit\>.
+4. Press \<Exit\>.
 
 The group will now only contain the fixtures which remained selected.
 
@@ -114,11 +114,11 @@ patterns.
 
 To change the numerical fixture order:
 
-1\> Press \<Group\>.
+1. Press \<Group\>.
 
-2\> Select the group you want to edit.
+2. Select the group you want to edit.
 
-3\> Press \[Fixture Order\].
+3. Press \[Fixture Order\].
 
 The fixtures in the group will be shown numbered in the fixtures window.
 
@@ -130,11 +130,11 @@ show an X indicating that it is not part of the sequence.
 
 To change the 2D fixture layout:
 
-1\> Press \<Group\>
+1. Press \<Group\>
 
-2\> Select the group you want to edit.
+2. Select the group you want to edit.
 
-3\> Press \[Edit Layout\]. The Layout Editor window will open.
+3. Press \[Edit Layout\]. The Layout Editor window will open.
 
 Initially fixtures will be all in a row. You can reposition the fixtures
 anywhere on the screen by dragging them. Or press a fixture to select

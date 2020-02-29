@@ -23,8 +23,8 @@ filelist.forEach((filename) => {
     if (!content)
       return;
 
-    content
-    //let updated = content.replace(/^[0-9]\\>\s/g, "");
+
+    let updated = content.replace(/(?<=^\s*[0-9])\\>+(?=\s)/gm, ".");
     fs.writeFile(filename, updated, function(err) {
         if(err) {
           return console.log(err);

@@ -26,11 +26,11 @@ Being able to recall palettes with a manual fade allows easy \"busking\"
 of shows. When a palette is recalled in this way, a time is added and
 the palette fades in over that time.
 
-1\> Select some fixtures.
+1. Select some fixtures.
 
-2\> Type in the fade time for the palette on the numeric keypad.
+2. Type in the fade time for the palette on the numeric keypad.
 
-3\> Press a palette button to recall the palette.
+3. Press a palette button to recall the palette.
 
 -   This overrides any timing stored in the palette itself.
 
@@ -52,13 +52,13 @@ Overlap=100% means that all fixtures will change together. Fixture
 Overlap=0% means that each fixture must complete its fade before the
 next will start its fade.
 
-1\> Type in the overlap time for the palette on the numeric keypad.
+1. Type in the overlap time for the palette on the numeric keypad.
 
-2\> Press \[Set Overlap\].
+2. Press \[Set Overlap\].
 
-3\> Type in the fade time if fade is also required.
+3. Type in the fade time if fade is also required.
 
-4\> Press a palette button to recall the palette.
+4. Press a palette button to recall the palette.
 
 -   You have to re-enter the overlap each time you recall a palette. To
     use the same overlap every time, set a Master Overlap: Press

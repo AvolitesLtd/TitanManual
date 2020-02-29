@@ -62,19 +62,19 @@ Once the cue is loaded into the programmer using Include, if more than
 one shape is running in the programmer, you can select which one is
 connected to the control wheels using Shape option \[Edit\].
 
-1\> If you are not in the Shape menu, press \[Shapes and Effects\] then
+1. If you are not in the Shape menu, press \[Shapes and Effects\] then
 \[Shape Generator\] at the top menu.
 
-2\> Press \[Edit\].
+2. Press \[Edit\].
 
-3\> Press \[Select shape\]
+3. Press \[Select shape\]
 
-4\> By the softkeys is a list of the currently running shapes.
+4. By the softkeys is a list of the currently running shapes.
 
-5\> Press a softkey to make the shape active. The active shape is
+5. Press a softkey to make the shape active. The active shape is
 highlighted.
 
-6\> Press \<Enter\> to get back to the Shape Generator menu.
+6. Press \<Enter\> to get back to the Shape Generator menu.
 
 -   If you applied the same shape several times to different fixtures,
     you can change each copy of the shape independently.

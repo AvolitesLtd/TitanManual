@@ -41,19 +41,19 @@ corner of the console.
 
 To record a macro:
 
-1\> Press the \<Macro\> button (above keypad)
+1. Press the \<Macro\> button (above keypad)
 
-2\> Select \[Full Speed\] or \[Real Time\].
+2. Select \[Full Speed\] or \[Real Time\].
 
-3\> Press \[Record\]
+3. Press \[Record\]
 
-4\> Press a suitable empty button on the panel, or an empty button in
+4. Press a suitable empty button on the panel, or an empty button in
 the Macro window on the screen. Recording starts. The Insert/Macro
 button flashes during recording.
 
-5\> Press the sequence of buttons you want to record.
+5. Press the sequence of buttons you want to record.
 
-6\> Press \[Record Macro\] to finish recording.
+6. Press \[Record Macro\] to finish recording.
 
 To play back the macro, just press or touch the button where you
 recorded the macro. The macro will repeat all your button presses, with

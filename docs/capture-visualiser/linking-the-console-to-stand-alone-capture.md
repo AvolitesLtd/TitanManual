@@ -59,14 +59,14 @@ If fixtures have already been added in Capture before the console was
 linked, you can patch them on the console using Active Fixtures like
 this
 
-1\> Press \<Patch\>, \[Active Fixtures\]
+1. Press \<Patch\>, \[Active Fixtures\]
 
-2\> You should see the Capture computer as a softkey option, press it
+2. You should see the Capture computer as a softkey option, press it
 
-3\> Select an empty handle to start patching, or press \[Patch Capture @
+3. Select an empty handle to start patching, or press \[Patch Capture @
 ...\] to patch automatically
 
-4\> If any fixtures can't be patched (unsupported fixture type, or
+4. If any fixtures can't be patched (unsupported fixture type, or
 duplicate user number) then a blank handle will be left and a warning
 softkey will be shown at the end; clicking this will show a list of
 problems found.

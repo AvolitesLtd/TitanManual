@@ -37,17 +37,17 @@ However do plan ahead and think about what parts of your show will
 become inaccessible if the backup device has less faders/handles than
 the main console.
 
-1\> Connect both consoles to the same network and ensure they are set to
+1. Connect both consoles to the same network and ensure they are set to
 the same IP range (see section 18 on page 339).
 
-2\> Press Disk, \[TitanNet Sessions\], \[Backup\].
+2. Press Disk, \[TitanNet Sessions\], \[Backup\].
 
-3\> Consoles available for backup will be listed in the softkeys.
+3. Consoles available for backup will be listed in the softkeys.
 
-4\> Selecting a console will place that console into backup mode and
+4. Selecting a console will place that console into backup mode and
 sync the show to it.
 
-5\> The backup console will show a display indicating the backup status
+5. The backup console will show a display indicating the backup status
 and show name.
 
 In backup mode the backup console screen displays the current connection
