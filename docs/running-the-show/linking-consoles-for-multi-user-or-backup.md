@@ -16,7 +16,9 @@ with the main console. Should the worst happen, a single keypress can
 transfer control to the backup console.
 
   --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   Linked consoles must be running the same version of Titan. If using PC Suite (Titan Mobile, Titan Go or Simulator) you may need to disable any firewalls on the PC.
+  ![info](/docs/images/image6.png)
+  
+  Linked consoles must be running the same version of Titan. If using PC Suite (Titan Mobile, Titan Go or Simulator) you may need to disable any firewalls on the PC.
   --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Setting up consoles for multi-user
@@ -54,7 +56,9 @@ In backup mode the backup console screen displays the current connection
 and sync status including current show name.
 
 ![TitanNet Backup
-Healthy](/docs/images/image307.png)A green line between consoles represents a
+Healthy](/docs/images/image307.png)
+
+A green line between consoles represents a
 good connection. If a red line is shown there is a problem with the
 network connection. A blue line will appear during sync operations.
 
