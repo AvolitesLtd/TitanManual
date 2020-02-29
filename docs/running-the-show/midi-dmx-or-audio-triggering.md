@@ -1,5 +1,5 @@
 ---
-id: midi,-dmx-or-audio-triggering 
+id: midi-dmx-or-audio-triggering 
 title: MIDI, DMX or audio triggering
 sidebar_label: MIDI, DMX or audio triggering
 ---
