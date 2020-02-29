@@ -17,8 +17,8 @@ You can select multiple playbacks if you want to set the options the
 same on all of them. The current option settings will be shown if they
 are the same on all playbacks.
 
-Playback options -- Playback tab
---------------------------------
+## Playback tab
+
 
 **Blind:** Sets this individual playback to Blind mode. The playback
 will then output only to Visualiser, not to the stage. This can be very
@@ -100,8 +100,8 @@ continue to be output, but this option lets you create a playback that
 will override this behaviour, so if you specifically need some fixtures
 to be at 50%, this option will let you do that.
 
-Playback options -- Handle TAB
-------------------------------
+## Handle tab
+
 
 **Handle paging:** allows you to lock the playback on a handle so that
 it always appears on that handle no matter what page is selected. This
@@ -116,8 +116,7 @@ on this handle on other pages will not be accessible.
 **Key profile:** Sets the key profile individually for this playback.
 Global sets the key profile back to the global setting for playbacks.
 
-Playback options -- Fader tab
------------------------------
+## Fader tab
 
 **Fader mode:** same as in Playback tab, see above
 
@@ -137,8 +136,8 @@ in section 16.6 on page 328.
 You can also allocate a Speed Master to the cue which will allow you to
 modify the shape during playback, see section 8.2.4 on page 202.
 
-Playback options -- Effects tab
--------------------------------
+## Effects tab
+
 
 **Shape behaviour:** same as in playback tab, see above
 
@@ -155,8 +154,8 @@ playback. See section 8.2.4 on page 202.
   ![tip](/docs/images/image7.png)   If you have a cue which contains only shapes to overlay on other cues, set the cue to \[Size on Fader\] and allocate a Speed Master. You can then create lots of different looks out of the shape by varying the size and speed at show time using the playback fader and the speed master.
   -------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Playback options -- Release tab
--------------------------------
+## Release tab
+
 
 **Release Mask:** lets you specify which attributes will be released to
 the state they were in from a previously fired playback when this

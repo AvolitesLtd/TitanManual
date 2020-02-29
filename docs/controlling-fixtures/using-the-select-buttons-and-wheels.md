@@ -1,5 +1,5 @@
 ---
-id: using-the-select-buttons-and-wheels 
+id: using-the-select-buttons-and-wheels
 title: Using the select buttons and wheels
 sidebar_label: Using the select buttons and wheels
 ---
@@ -223,17 +223,45 @@ To go back to normal, press \<Unfold\> then \[Exit Unfold\].
 You can also use the numeric keypad to quickly select cells. The syntax
 is as follows: (THRO is called Through on some consoles)
 
-  .            all sub fixtures of selection                    n\.            all sub fixtures of fixture n
-  ------------ --------------------------------------------- -- -------------- ---------------------------------------------------------
-  . THRO .j    sub fixtures 1j of all selected fixtures         n\. THRO       all sub fixtures of fixture nlast consecutive of type n
-  THRO .j      shorthand for above                              n\. THRO i     sub fixtures 1i of fixture n
-  .m           sub fixture m of all selected fixtures           n\. THRO i.j   sub fixtures 1j of fixtures ni
-  .m THRO      sub fixtures mlast of all selected fixtures      n.m            sub fixture m of fixture n
-  .m THRO .j   sub fixtures mj of all selected fixtures         n.m THRO       sub fixtures mlast of fixture n
-  .m THRO j    shorthand for above                              n.m THRO i     sub fixtures mi of fixture n
-  n THRO i.    all sub fixtures of fixtures ni                  n.m THRO i.    sub fixture mlast of fixtures ni
-  n THRO i.j   sub fixture j of fixtures ni                     n.m THRO i.j   sub fixtures mj of fixtures ni
-  n THRO .j    sub fixture 1j of fixture n                      n.m THRO .j    sub fixtures mj of fixture n
+  .            all sub fixtures of selection                    
+
+  n\.            all sub fixtures of fixture n
+
+  . THRO .j    sub fixtures 1j of all selected fixtures         
+
+  n\. THRO       all sub fixtures of fixture nlast consecutive of type
+
+  n THRO .j      shorthand for above                              
+
+  n\. THRO i     sub fixtures 1i of fixture n
+
+  .m           sub fixture m of all selected fixtures           
+
+  n\. THRO i.j   sub fixtures 1j of fixtures ni
+
+  .m THRO      sub fixtures mlast of all selected fixtures      
+
+  n.m            sub fixture m of fixture n
+
+  .m THRO .j   sub fixtures mj of all selected fixtures         
+
+  n.m THRO       sub fixtures mlast of fixture n
+
+  .m THRO j    shorthand for above                              
+
+  n.m THRO i     sub fixtures mi of fixture n
+
+  n THRO i.    all sub fixtures of fixtures ni                  
+
+  n.m THRO i.    sub fixture mlast of fixtures ni
+
+  n THRO i.j   sub fixture j of fixtures ni                     
+
+  n.m THRO i.j   sub fixtures mj of fixtures ni
+
+  n THRO .j    sub fixture 1j of fixture n                      
+
+  n.m THRO .j    sub fixtures mj of fixture n
 
 -   Fixture cell selection can be saved as a group, this provides a
     quick way to select cells / sub fixtures without having to use the
@@ -416,7 +444,7 @@ controls are provided:
 -   Fine button switches to fine control mode for more precise
     positioning.
 
-### Colour mix: HSI/RGB/CMY 
+### Colour mix: HSI/RGB/CMY
 
 For fixtures which are capable of colour mixing, there are several ways
 you can select a colour which are selected by tabs at the top of the
@@ -599,7 +627,7 @@ Latch\>.
     either above or below the numeric keypad, as printed on the legend
     next to the buttons.
 
-Selecting fixtures using a pattern 
+Selecting fixtures using a pattern
 ----------------------------------
 
 When programming you will often want to select patterns of fixtures.
@@ -997,5 +1025,3 @@ such as \[Dimmer Off\].
 
 -   To remove complete fixtures, select the fixtures, press \<Off\> then
     \[Selected Fixtures Off\].
-
-
