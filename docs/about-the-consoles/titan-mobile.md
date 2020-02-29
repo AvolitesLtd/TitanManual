@@ -1,5 +1,5 @@
 ---
-id: titan-mobile 
+id: titan-mobile
 title: Titan Mobile
 sidebar_label: Titan Mobile
 ---
@@ -46,8 +46,7 @@ are shown on the screen.
 The system is designed to be used with a touch screen, but may be used
 with a mouse - just click where the manual says \'touch\'. .
 
-> ![](/docs/images/image40.png){width="5.96875in"
-> height="4.168055555555555in"}
+![](/docs/images/image40.png)
 
 Four **Workspace Windows** may be shown on the screen. These contain
 touch buttons to control fixture selection, palette selection, groups,
@@ -71,7 +70,7 @@ attributes are currently active or modified.
 The **Playback information** shows the legend and other information
 about the playbacks on the 10 faders.
 
-> **Titan Mobile Connections panel**
+**Titan Mobile Connections panel**
 
 ![](/docs/images/image42.png)All the connections required for the
 control panel are found on the right hand side. Most are
@@ -85,5 +84,3 @@ one USB socket rather than the original 2 shown in the picture above.
 
 -   The PE socket is to allow you to ground/earth the panel, which can
     help resolve DMX problems if your laptop is not earthed.
-
-

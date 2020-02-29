@@ -9,8 +9,8 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'Community Avolites Titan Manual', // Title for your website.
-  tagline: 'A community maintained manual for the Avolites Titan Software',
+  title: 'Avolites Titan Manual', // Title for your website.
+  tagline: 'Official Manual for the Avolites Titan software',
   url: 'https://avolites.fraserstockley.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -29,7 +29,8 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {page: 'docs/introduction', label: 'Docs'},
-    {page: 'help', label: 'Help'}
+    {page: 'help', label: 'Help'},
+    { href: 'https://avolites.com', label: 'Main Website'}
   ],
 
   /* path to images for header/footer */
@@ -58,7 +59,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()}`,
+  copyright: `Copyright Avolites ${new Date().getFullYear()} ©`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

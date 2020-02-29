@@ -1,11 +1,10 @@
 ---
-id: tiger-touch 
+id: tiger-touch
 title: Tiger Touch
 sidebar_label: Tiger Touch
 ---
 
-> ![](/docs/images/image30.jpeg){width="6.516666666666667in"
-> height="3.7125in"}
+![](/docs/images/image30.jpeg)
 
 The Tiger Touch has four main control areas:
 
@@ -97,5 +96,3 @@ panel. Most are self-explanatory.
     electronics if something odd happens with the switches and faders.
     The main board will continue running but the DMX output will be
     interrupted until the restart is completed.
-
-

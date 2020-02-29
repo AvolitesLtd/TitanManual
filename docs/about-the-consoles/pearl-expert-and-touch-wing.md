@@ -1,5 +1,5 @@
 ---
-id: pearl-expert-and-touch-wing 
+id: pearl-expert-and-touch-wing
 title: Pearl Expert and Touch Wing
 sidebar_label: Pearl Expert and Touch Wing
 ---
@@ -77,12 +77,12 @@ All the connections required for the console are found on the back
 panel. Most are self-explanatory.
 
 -   The Panel reset switch may be pressed to restart the front panel
-    > electronics if something odd happens with the switches and faders.
-    > The main board will continue running but the DMX output will be
-    > interrupted until the restart is completed.
+    electronics if something odd happens with the switches and faders.
+    The main board will continue running but the DMX output will be
+    interrupted until the restart is completed.
 
 -   The USB reserve sockets and switches are for future expansion. The
-    > switches should be set to \'Normal operation\'.
+    switches should be set to \'Normal operation\'.
 
 **\
 **![](/docs/images/image55.jpeg)**The Pearl Expert Touch Wing**
@@ -118,5 +118,3 @@ set the attributes to min or max.
 
 Across the bottom of the screen there is an area showing information
 about the **playbacks** on the current roller pages.
-
-

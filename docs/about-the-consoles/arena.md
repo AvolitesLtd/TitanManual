@@ -1,13 +1,12 @@
 ---
-id: arena 
+id: arena
 title: Arena
 sidebar_label: Arena
 ---
 
 The Arena has five main control areas:
 
-> ![](/docs/images/image22.jpeg){width="6.03125in"
-> height="2.852777777777778in"}
+![](/docs/images/image22.jpeg)
 
 The **Touch screen** contains fixture, palette and group select buttons.
 It also shows legends for the playback faders and shows the current menu
@@ -120,5 +119,3 @@ at each side to set the leg to the desired height. Make sure you support
 the rear of the console when adjusting the height.
 
 ![](/docs/images/image29.jpeg)
-
-
