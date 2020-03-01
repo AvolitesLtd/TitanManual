@@ -1,7 +1,7 @@
 ---
-id: theatre-programming-quick-guide 
-title: Theatre programming quick guide
-sidebar_label: Theatre programming quick guide
+id: theatre-programming
+title: Theatre programming Quick Guide
+sidebar_label: Theatre programming
 ---
 
 If you are used to programming other theatre-style consoles, you will be
@@ -161,5 +161,3 @@ easy.
 Shapes will record into cues, and will track through subsequent cues
 while they are active in the programmer, until you stop them by pressing
 \<Clear\>.
-
-

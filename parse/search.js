@@ -26,20 +26,26 @@ getFiles('../docs').then((filenames) => {
       let title = content.match(/(?<=^title: ).*$/gm)[0];
       let subtitle = "";
       let match;
-      while (match = /\n.*\n-{5,}\n\n/g.exec(content)) {
-        let section = content.substring(0, match.index);
-        output.push({filename, url, content: header + section, title, subtitle});
+      while (match = /\n.{1,}\n-{5,}\n\n|^#{1,} (?:.|\/)*/gm.exec(content)) {
+        try {
+          let section = content.substring(0, match.index);
+          output.push({filename, url, content: header + section, title, subtitle});
 
-        header = content.substring(match.index, match.index + match[0].length - 1);
-        subtitle = header.match(/[A-Za-z ]{1,}/gm)[0];
-        url = header.toLowerCase();
-        url = url.replace(/[^a-z0-9 ]/g, "");
-        url = url.trim();
-        url = url.replace(/ /g, "-");
-        url = url.replace(/--/g, "-");
-        url = filename.replace(".md", "") + "#" + url;
+          header = content.substring(match.index, match.index + match[0].length);
+          let headerRegex = header.match(/[A-Za-z \/]{1,}/gm);
+          subtitle = headerRegex[0];
+          url = header.toLowerCase();
+          url = url.replace("/", "-");
 
-        content = content.substring(match.index + match[0].length - 1, content.length - 1);
+          url = url.replace(/[^a-z0-9 -]/g, "");
+          url = url.trim();
+          url = url.replace(/ /g, "-");
+          url = url.replace(/--/g, "-");
+          url = filename.replace(".md", "") + "#" + url;
+          content = content.substring(match.index + match[0].length - 1, content.length - 1);
+        } catch (ex) {
+          console.log(ex);
+        }
       }
       output.push({filename, url, content: header + content, title, subtitle});
     }
