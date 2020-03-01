@@ -67,3 +67,8 @@
 .imageAlignTop .blockImage {
     max-width: 200px;
 }
+
+blockquote {
+  background-color: rgba(100, 188, 255, 0.3);
+  border-left: 8px solid #64b0ff;
+}
