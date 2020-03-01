@@ -1,7 +1,7 @@
 ---
 id: controlling-fixtures-over-a-network
-title: Controlling fixtures over a network
-sidebar_label: Controlling fixtures over a network
+title: Controlling Fixtures over a Network
+sidebar_label: Controlling Fixtures over a Network
 ---
 
 Before the console can talk to another device over the network, it has
@@ -18,9 +18,9 @@ Control Panel as shown on page 345.
 
 2. Press \[Local Area Connection\].
 
-3. Press \[Subnet Mask\] and ensure it is set to 255.255.255.0
+3. Press \[Subnet Mask\] and ensure it is set to `255.255.255.0`
 
-4. Press \[Set IP 2.\*.\*.\*\]
+4. Press \[Set IP `2.\*.\*.\*\`]
 
 5. Press \[Save settings\]
 

@@ -23,8 +23,8 @@ the Hippotizer directly to the console, if no other devices are being
 connected, using a crossover patch cable).
 
 2. Set up the IP addresses and subnet masks of the console and Hippo so
-that they are on the same address range, for example 192.168.0.1 and
-192.168.0.2.
+that they are on the same address range, for example `192.168.0.1` and
+`192.168.0.2`.
 
 3. If you are using Titan Mobile or Titan Simulator ensure the firewall
 on your PC is disabled. Also ensure the Hippo machine is not running a

@@ -1,7 +1,7 @@
 ---
 id: tnp-console-mode 
-title: TNP console mode
-sidebar_label: TNP console mode
+title: TNP Console Mode
+sidebar_label: TNP Console Mode
 ---
 
 TNP console mode allows you to use a TNP to run an unattended show, or
@@ -14,7 +14,7 @@ Running Playbacks
 
 Use the View command (see next section) to select Playbacks Grid mode.
 
-![PlaybackView2Screen](/docs/images/image318.png)
+![Playback View on TNP](/docs/images/image318.png)
 
 You can then run playbacks from the standard Titan playbacks window by
 touching the buttons.
@@ -26,12 +26,12 @@ In Console mode, the Home screen can be set using the View button to
 display either Network Adapters (like in slave mode), Playbacks Grid or
 Session View.
 
-![ViewScreen](/docs/images/image319.png)
+![TNP View Screen](/docs/images/image319.png)
 
 Session view shows how the TNP unit is connected to other Titan devices
 on the network.
 
-![SessionsViewScreen](/docs/images/image320.png)
+![TNP Sessions View Screem](/docs/images/image320.png)
 
 Locking the panel
 -----------------
@@ -41,7 +41,7 @@ the Lock button. If the playbacks screen is shown, the only action
 available is to fire and kill the playbacks on the screen. Touch the
 Show Keypad button to display the numeric keypad for unlocking.
 
-![LockedPlaybackViewScreen](/docs/images/image321.png)
+![TNP Locked Playback View Screen](/docs/images/image321.png)
 
 Loading and saving shows, and other Setup
 -----------------------------------------
@@ -50,16 +50,16 @@ Setup mode allows you to load and save Titan shows. You can also change
 Network Settings, Node Settings and set Monitor mode (see Slave mode
 above for details).
 
-![SetupScreen](/docs/images/image322.png)
+![TNP Setup Screen](/docs/images/image322.png)
 
 Load show presents the standard Titan loading screen. See section 3.8 on
 page 80 for details.
 
-![Setup-LoadShowScreen](/docs/images/image323.png)
+![TNP Setup/Load Show Screen](/docs/images/image323.png)
 
 Save Show allows you to save a show which you have modified on the TNP
 using a remote console.
 
-![Setup-SaveShowScreen](/docs/images/image324.png)
+![TNP Setup/Save Show Screen](/docs/images/image324.png)
 
 
