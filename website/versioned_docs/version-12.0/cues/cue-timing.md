@@ -38,28 +38,28 @@ be recorded when you save the cue.
 
 You can also edit times of a cue you have already saved like this:
 
-1\> Press \[Edit Times\] at the top level menu.
+1. Press \[Edit Times\] at the top level menu.
 
-2\> Press the Swop button of the cue.
+2. Press the Swop button of the cue.
 
-3\> Press \[Fade Mode x\] to set the cue mode. This sets how the times
+3. Press \[Fade Mode x\] to set the cue mode. This sets how the times
 are used, see below.
 
-4\> Press \[Delay time\] to set the delay before the cue starts, \[Fade
+4. Press \[Delay time\] to set the delay before the cue starts, \[Fade
 time\] to set the fade-in time of the cue, and \[Fade out time\] to set
 the fade-out time of the cue.
 
-5\> Type the new time (in seconds) using the numeric keypad and press
+5. Type the new time (in seconds) using the numeric keypad and press
 \<Enter\> to save it.
 
-6\> Press \[Fixture Overlap\] to change the overlap, then enter 0-100 on
+6. Press \[Fixture Overlap\] to change the overlap, then enter 0-100 on
 the keypad. 100% means all fixtures fade together. 0% means that the
 first fixture will finish its fade before the next one starts. 50% means
 that the 2^nd^ fixture will start fading when the first one is half way
 through its fade. The order of the fixtures is set by the order you
 selected them (but you can change this, see section 8.5.2).
 
-7\> Press \<Exit\> to get out of Edit Times mode.
+7. Press \<Exit\> to get out of Edit Times mode.
 
 -   You can also set independent times for the IPCGBES attribute groups,
     and for each individual attribute, see next section for details of
@@ -116,24 +116,24 @@ is set to the order in which you selected the fixtures when the cue was
 created, but you might want to change this (for example to pair up
 fixtures so they move together when using Overlap).
 
-1\> Press \[Edit Times\] at the top level menu.
+1. Press \[Edit Times\] at the top level menu.
 
-2\> Press the Swop button of the cue to be changed.
+2. Press the Swop button of the cue to be changed.
 
-3\> Press \[Fixture Order\].
+3. Press \[Fixture Order\].
 
-4\> Set the sequence number to start from using option A.
+4. Set the sequence number to start from using option A.
 
-5\> If you want the sequence number to increase automatically, set
+5. If you want the sequence number to increase automatically, set
 \[Autoincrement\] to On. If you want some fixtures to have the same
 sequence number, set it to Off.
 
-6\> Touch the Select buttons of the fixture(s) you want to place in that
+6. Touch the Select buttons of the fixture(s) you want to place in that
 position in the sequence. The sequence number is shown in the top right
 hand corner of the fixture select touch buttons.\
 ![](/docs/images/image241.png)
 
-7\> Press \<Exit\> to finish.
+7. Press \<Exit\> to finish.
 
 -   You can set several fixtures to have the same sequence number. This
     means, for example, when used with Overlap they will all do the same
@@ -152,20 +152,20 @@ Position). If you set a time, it overrides the normal times.
 
 To set an attribute group fade time:
 
-1\> Press \[Edit Times\] at the top level menu.
+1. Press \[Edit Times\] at the top level menu.
 
-2\> Press the Swop button of the cue to be changed.
+2. Press the Swop button of the cue to be changed.
 
-3\> Press the Attribute Bank button (right hand side) for the attribute
+3. Press the Attribute Bank button (right hand side) for the attribute
 you want to change.
 
-4\> Press \[Delay\] to set delay time or \[Set fade\] to set fade time.
+4. Press \[Delay\] to set delay time or \[Set fade\] to set fade time.
 
-5\> Type the new time using the numeric keypad and press \<Enter\> to
+5. Type the new time using the numeric keypad and press \<Enter\> to
 save it, or press \[Use Global\] to delete the attribute times and go
 back to the normal times.
 
-6\> Press \<Enter\> to save the changes.
+6. Press \<Enter\> to save the changes.
 
 You can take this even further and set individual fade times for each
 fixture. When you select the cue to be changed, you will see that all

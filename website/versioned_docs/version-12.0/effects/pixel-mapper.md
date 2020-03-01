@@ -20,12 +20,12 @@ fixtures as pixels and uses them to output a 2D effect. See section
 
 You create effects with the Pixel Mapper as follows.
 
-1\> Select the group of fixtures.
+1. Select the group of fixtures.
 
-2\> From the top level menu select \[Shapes and Effects\] then \[Pixel
+2. From the top level menu select \[Shapes and Effects\] then \[Pixel
 Mapper\]
 
-3\> Select \[Create effect\]. The Pixel Mapper Editor will open with a
+3. Select \[Create effect\]. The Pixel Mapper Editor will open with a
 blank background. You can overlay your fixture layout on the window, to
 help you see where your fixtures are, by clicking on the \[Fixture
 Overlay 50/50\] context menu button.
@@ -130,8 +130,7 @@ Start Angle / End Angle (for rotation effects only)
 -   If you specify Spawn For or Run For, the simulation will stop after
     the specified number of cycles. To restart the simulation, click the
     reset button on the top right of the Effect Editor window.\
-    ![pixmap](/docs/images/image195.png){width="1.4722222222222223in"
-    height="1.1527777777777777in"}
+    ![pixmap](/docs/images/image195.png)
 
 -   For an effect with a start point and end point, the number of cycles
     is the number of times it goes between the start and end points. For
@@ -165,8 +164,7 @@ an effect you like, you can save it to a playback.
     it will combine with other effects. Click on the effect name top
     left to set these parameters:
 
-    ![pixmasterfx](/docs/images/image200.png){width="4.763888888888889in"
-    height="3.9027777777777777in"}
+    ![pixmasterfx](/docs/images/image200.png)
 
 -   The Block Effect switch allows you to create a pixel map effect
     which will block out any pixel maps running on the selected fixtures

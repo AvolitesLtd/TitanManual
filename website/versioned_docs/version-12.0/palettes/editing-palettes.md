@@ -94,14 +94,14 @@ fire a green cue and the Green palette used turns out to be not quite
 the right colour, the Update function lets you automatically update the
 palette used in the cue.
 
-1\> With the cue fired, select the fixtures and change them to the
+1. With the cue fired, select the fixtures and change them to the
 settings you want to store (e.g. the right green colour).
 
-2\> Press \<Update\> (on Pearl Expert, \<Record Cue\>, \[Update\]).
+2. Press \<Update\> (on Pearl Expert, \<Record Cue\>, \[Update\]).
 
-3\> The cues and palettes which relate to the cue and can be updated are
+3. The cues and palettes which relate to the cue and can be updated are
 shown on the softkeys.
 
-4\> Select the items you want to update and press \<Update\> again.
+4. Select the items you want to update and press \<Update\> again.
 
 

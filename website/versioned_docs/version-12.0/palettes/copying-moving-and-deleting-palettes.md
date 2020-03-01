@@ -14,16 +14,16 @@ operation. You cannot link palette buttons.
 
 Move is useful for tidying up the console.
 
-1\> Press \<Copy\>.
+1. Press \<Copy\>.
 
-2\> Select \[Copy\] or \[Move\]. Pressing the \<Copy\> button again will
+2. Select \[Copy\] or \[Move\]. Pressing the \<Copy\> button again will
 also toggle these options. Some consoles have a \<Move\> button.
 
-3\> Press the Select button of the palette you want to copy/move. You
+3. Press the Select button of the palette you want to copy/move. You
 can select multiple palettes -- use the \<Thro\> and \<And\> buttons to
 add more to the selection -- hold down \<And\> to keep adding them..
 
-4\> Press the empty button where you want it to go.
+4. Press the empty button where you want it to go.
 
 -   The \<Menu Latch\> button latches the Copy/Move/Link menu, so you
     can keep copying, moving or linking things without having to keep

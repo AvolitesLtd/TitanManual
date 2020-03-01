@@ -10,12 +10,12 @@ Recalling a palette value
 
 To recall a palette value from a button, this is what you do:
 
-1\> Select the fixtures to be changed. Shared palettes can be set to any
+1. Select the fixtures to be changed. Shared palettes can be set to any
 fixture of the same type. Normal palettes will set individual values to
 each fixture. If no fixtures are selected, the palette will apply to all
 fixtures it is relevant to.
 
-2\> Press the Palette button you want to recall. The palette will be set
+2. Press the Palette button you want to recall. The palette will be set
 to the selected fixtures.
 
 -   You can make palettes fade over a time when you recall them, see
@@ -26,19 +26,18 @@ to the selected fixtures.
     Settings). This makes it easier to see which palette you have
     selected.
 
-    ![activepalette](/docs/images/image178.png){width="3.0416666666666665in"
-    height="2.2222222222222223in"}
+    ![activepalette](/docs/images/image178.png)
 
 You can also recall a palette by its number by typing the number on the
 numeric keypad.
 
-1\> Select some fixtures.
+1. Select some fixtures.
 
-2\> Press \<Palette\> above the numeric keypad.
+2. Press \<Palette\> above the numeric keypad.
 
-3\> Type in the number of the palette you want to recall.
+3. Type in the number of the palette you want to recall.
 
-4\> Press \<Enter\> or \[Apply Palette\].
+4. Press \<Enter\> or \[Apply Palette\].
 
 -   The \[Apply Palette\] softkey shows the legend of the palette which
     will be applied.

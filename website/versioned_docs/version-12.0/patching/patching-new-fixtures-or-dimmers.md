@@ -41,15 +41,15 @@ Each fixture button can control single or multiple dimmer channels. You
 allocate a button using the Patch menu (described below) or the Patch
 View window (see section 4.2.1).
 
-1\> Press \<Patch\>, then \[Dimmers\].
+1. Press \<Patch\>, then \[Dimmers\].
 
-2\> \[DMX Line=\] shows you which of the DMX output lines you are
+2. \[DMX Line=\] shows you which of the DMX output lines you are
 patching onto. Enter a new number to change the line. \[Address = \]
 shows the DMX address about to be patched. You can change this by typing
 in the new address on the numeric keypad and pressing \<Enter\>.\
 ![](/docs/images/image112.png)
 
-3\> To patch a single dimmer, press a Fixture touch button, a
+3. To patch a single dimmer, press a Fixture touch button, a
 Macro/Executor button or the blue Select button of a fader handle. To
 patch a sequence of dimmers each to its own button, press \[Quantity\]
 and set the number of dimmers then press the first select button.
@@ -58,11 +58,11 @@ buttons, or for physical buttons hold down the first button in the range
 and press the last button in the range. The range of dimmers will be
 patched to sequential DMX addresses.
 
-4\> A fixture button turns dark blue and shows fixture details when it
+4. A fixture button turns dark blue and shows fixture details when it
 is patched. If you patch to a fader handle the select button will light
 up dimly.
 
-5\> Repeat from step 2 for other dimmers.
+5. Repeat from step 2 for other dimmers.
 
 -   When setting the DMX address using \[Address=\], you can set the DMX
     line (universe) as well by entering {line}.{DMX}, for example 2.56
@@ -107,38 +107,38 @@ find personalities.
 You can patch either using the Patch menu (described below) or the Patch
 View window (see section 4.2.1).
 
-1\> Press \<Patch\>.
+1. Press \<Patch\>.
 
-2\> Press \[Fixtures\].
+2. Press \[Fixtures\].
 
 ![](/docs/images/image113.png)
 
-3\> Select the correct fixture manufacturer from the softkeys
+3. Select the correct fixture manufacturer from the softkeys
 (\[Previous\] and \[Next\] page through the list of manufacturers). Or
 use Quick Search and type the first few letters of the manufacturer's
 name on the keyboard to find the one you want.
 
-4\> Select correct fixture from the softkeys (F and G show other pages).
+4. Select correct fixture from the softkeys (F and G show other pages).
 You can use Quick Search here as well.
 
-5\> Select the correct fixture operating mode from the softkeys.
+5. Select the correct fixture operating mode from the softkeys.
 
-6\> \[Address =\] shows the first free DMX address. Type the new address
+6. \[Address =\] shows the first free DMX address. Type the new address
 on the numeric keypad if you want a different one. \[DMX line=xx\] lets
 you patch to a different DMX line, or you can enter the address as
 \[line\].\[address\], e.g. 2.45 would set address 45 on line 2.
 
 ![](/docs/images/image114.png)
 
-7\> Patch the fixture by pressing a Fixture touch button, a
+7. Patch the fixture by pressing a Fixture touch button, a
 Macro/Executor button or the blue Select button of a fader handle (not
 the main playback faders).
 
-8\> A fixture touch button turns dark blue and shows fixture details
+8. A fixture touch button turns dark blue and shows fixture details
 when it is patched. If you patch to a fader handle the select button
 will light up dimly.
 
-9\> Repeat from 7 to patch more of the same fixture type. The DMX
+9. Repeat from 7 to patch more of the same fixture type. The DMX
 address automatically updates so you can just keep patching by pressing
 Select buttons.
 
@@ -191,8 +191,7 @@ Select buttons.
     prompt area to help you check you have got the right one (if
     provided in the fixture personality; some fixtures do not include
     this information)\
-    ![](/docs/images/image115.png){width="2.4166666666666665in"
-    height="1.2083333333333333in"}
+    ![](/docs/images/image115.png)
 
 Capture Visualiser Auto Patch
 -----------------------------
@@ -212,8 +211,7 @@ fixtures if you wish -- see chapter 11.
 -   Fixture modes which will work with Auto Patch show a Capture icon in
     the button. If the icon is not shown, that fixture mode isn't
     supported in the integrated Capture.\
-    ![](/docs/images/image116.png){width="1.4861111111111112in"
-    height="2.125in"}
+    ![](/docs/images/image116.png)
 
 -   If you are using the console linked to the full version of Capture
     (Nexum or above) on an external computer, then changes to the patch
@@ -308,19 +306,19 @@ fixture by scrolling a "locate" state through all possible DMX
 addresses. When the fixture responds with its Locate state, you know its
 DMX address and might hopefully avoid a trip up the rig to look at it..
 
-1\> Press \<Patch\>, \[Fixture\] and select the type of fixture you are
+1. Press \<Patch\>, \[Fixture\] and select the type of fixture you are
 looking for
 
-2\> Press \[Options\], then \[Find Fixture\] to enable the Find Fixture
+2. Press \[Options\], then \[Find Fixture\] to enable the Find Fixture
 mode.
 
-3\> Turn Wheel B to go through all possible DMX addresses. Wheel A sets
+3. Turn Wheel B to go through all possible DMX addresses. Wheel A sets
 DMX lines.
 
-4\> When the fixture responds with its Locate state, you have found the
+4. When the fixture responds with its Locate state, you have found the
 correct DMX address.
 
-4\> Turn off \[Find Fixture\] mode and (if not already occupied) patch
+4. Turn off \[Find Fixture\] mode and (if not already occupied) patch
 the fixture. The DMX address/Line will be automatically set to match the
 Find Fixture settings.
 

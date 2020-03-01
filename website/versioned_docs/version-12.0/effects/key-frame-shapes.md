@@ -27,28 +27,28 @@ frame shapes for any attribute or mixture of attributes. If you create
 key frames using palettes, the key frames will update if the palette is
 changed.
 
-1\> At the main menu press \[Shapes and Effects\] then \[Key Frame
+1. At the main menu press \[Shapes and Effects\] then \[Key Frame
 Shapes\].
 
-2\> Press \[Create\] to start a new shape.
+2. Press \[Create\] to start a new shape.
 
-3\> Select fixtures and set the colours for the first key frame.
+3. Select fixtures and set the colours for the first key frame.
 
-4\> Press \[Add Frame\]. An automatic legend for the first key frame
+4. Press \[Add Frame\]. An automatic legend for the first key frame
 will show above the first playback fader. (Press \[Playbacks Display
 Visible/Hidden\] to return the playback faders to normal, if you want to
 select one in Quick Build mode).\
 ![](/docs/images/image187.png)
 
-5\> Continue to set colours and press \[Add Frame\] until you have
+5. Continue to set colours and press \[Add Frame\] until you have
 created all the steps you want.
 
-6\> Press \[Finish Recording Frames\] when you've finished.
+6. Press \[Finish Recording Frames\] when you've finished.
 
-7\> Use the Effect Editor window to change the Spread, Overlap (see
+7. Use the Effect Editor window to change the Spread, Overlap (see
 below)
 
-8\> Save the shape to a cue if you want to use it in a show (see section
+8. Save the shape to a cue if you want to use it in a show (see section
 8 on page 197).
 
 -   You can also use the \<Unfold\> button to switch the playbacks

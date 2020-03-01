@@ -14,17 +14,17 @@ This allows you to make the pan channel control tilt and the tilt
 control pan. This can be useful for fixtures rigged in strange
 orientations.
 
-1\> Press \<Patch\>.
+1. Press \<Patch\>.
 
-2\> Press \[Edit Fixtures\].
+2. Press \[Edit Fixtures\].
 
-3\> Press \[Swap Pan and Tilt\].
+3. Press \[Swap Pan and Tilt\].
 
-4\> Select the fixtures to be pan-tilt swapped. Press \[Pan and Tilt
+4. Select the fixtures to be pan-tilt swapped. Press \[Pan and Tilt
 ...\] to select either \[Swapped\] or \[Normal\] for the selected
 fixtures.
 
-5\> Press \<Exit\> when finished.
+5. Press \<Exit\> when finished.
 
 Invert attributes
 -----------------
@@ -33,18 +33,18 @@ This option inverts individual attributes of fixtures. Useful if you
 have a fixture which pans right when the rest pan left, saving a trip up
 the rig to set fixture options, but you can invert any attribute.
 
-1\> Press \<Patch\>.
+1. Press \<Patch\>.
 
-2\> Press \[Edit Fixtures\].
+2. Press \[Edit Fixtures\].
 
-3\> Press \[Invert Attribute\].
+3. Press \[Invert Attribute\].
 
-4\> Select fixture(s) to be changed.
+4. Select fixture(s) to be changed.
 
-5\> Select the attribute to invert from the softkeys. The display shows
+5. Select the attribute to invert from the softkeys. The display shows
 \[Inverted\] when the attribute is inverted.
 
-6\> Press \<Exit\> to finish.
+6. Press \<Exit\> to finish.
 
 ![](/docs/images/image129.png)
 
@@ -68,21 +68,21 @@ of the operation.
 Attribute limits are set either from the Edit Fixtures menu or using the
 Attribute Behaviour tab of the Patch View window.
 
-1\> Press \<Patch\>.
+1. Press \<Patch\>.
 
-2\> Press \[Edit Fixtures\].
+2. Press \[Edit Fixtures\].
 
-3\> Press \[Set Limits\].
+3. Press \[Set Limits\].
 
-4\> Select the fixtures to be set.
+4. Select the fixtures to be set.
 
-5\> Use the softkeys to select which attributes are to be set, then
+5. Use the softkeys to select which attributes are to be set, then
 select upper or lower limit.
 
-6\> Input a percentage value for the limit value, or press \[Set To
+6. Input a percentage value for the limit value, or press \[Set To
 Current Value\]. To remove a limit press \[Remove Limit\].
 
-7\> Press \<Exit\> when finished.
+7. Press \<Exit\> when finished.
 
 From the Attribute Behaviour tab, use the context buttons to set
 Attribute Limits.
@@ -132,18 +132,18 @@ level follows a slider, but can be applied to any attribute.
 Curves are set either from the Edit Fixtures menu or using the context
 buttons on the Attribute Behaviour tab of the Patch View window.
 
-1\> Press \<Patch\>, \[Edit Fixtures\].
+1. Press \<Patch\>, \[Edit Fixtures\].
 
-2\> Press \[Set Curve\].
+2. Press \[Set Curve\].
 
-3\> Select the fixtures to be set.
+3. Select the fixtures to be set.
 
-4\> Use the softkeys to select which attributes are to be set.
+4. Use the softkeys to select which attributes are to be set.
 
-5\> Use the softkeys to select the type of curve required. The normal
+5. Use the softkeys to select the type of curve required. The normal
 setting is Linear.
 
-6\> Press \<Exit\> when finished.
+6. Press \<Exit\> when finished.
 
 See section 16.6 on page 328 for details of the different curves
 available.
@@ -155,16 +155,16 @@ This option allows you to freeze individual attributes of a fixture, or
 to freeze the whole fixture. Attributes or fixtures which are frozen are
 not affected by playbacks or by the programmer.
 
-1\> Press \<Patch\>, \[Edit Fixtures\].
+1. Press \<Patch\>, \[Edit Fixtures\].
 
-2\> Press \[Freeze Fixture or Attribute\].
+2. Press \[Freeze Fixture or Attribute\].
 
-3\> Select the fixtures to be frozen/unfrozen.
+3. Select the fixtures to be frozen/unfrozen.
 
-4\> Use the softkeys to select which attributes are frozen, or to freeze
+4. Use the softkeys to select which attributes are frozen, or to freeze
 the whole fixture. Frozen attributes are indicated on the softkey.
 
-5\> Press \<Exit\> when finished.
+5. Press \<Exit\> when finished.
 
 -   Freeze can also be set from the Attribute Behaviour tab of the Patch
     View window.
@@ -179,16 +179,16 @@ Sometimes you may want to modify the way a fixture behaves, or you may
 find a fixture personality contains errors and needs editing. You can
 edit personalities directly on the console.
 
-1\> Press \<Patch\>, \[Edit Fixtures\], .
+1. Press \<Patch\>, \[Edit Fixtures\], .
 
-2\> Press \[Edit Personality\].
+2. Press \[Edit Personality\].
 
-3\> The softkeys show a list of all fixture types patched in your show.
+3. The softkeys show a list of all fixture types patched in your show.
 Select the fixture type to be edited.
 
-4\> Personality Builder will open allowing you to edit the personality.
+4. Personality Builder will open allowing you to edit the personality.
 
-5\> When you save changes, your show will be updated with the edited
+5. When you save changes, your show will be updated with the edited
 personality. Your changes are also saved to the fixture library on the
 console.
 

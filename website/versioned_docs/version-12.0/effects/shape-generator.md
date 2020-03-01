@@ -44,21 +44,21 @@ All Shapes.
 
 When you create a shape, it will be applied to all selected fixtures.
 
-1\> Select the fixtures the shape is to be applied to.
+1. Select the fixtures the shape is to be applied to.
 
-2\> At the main menu press \[Shapes and Effects\] then \[Shape
+2. At the main menu press \[Shapes and Effects\] then \[Shape
 Generator\].
 
-3\> Press \[Create\] to start a new shape.
+3. Press \[Create\] to start a new shape.
 
-4\> Press a softkey to select the attribute type to use in the shape or
+4. Press a softkey to select the attribute type to use in the shape or
 press \[All shapes\] for a full list.
 
-5\> Press a softkey to select a shape, or touch the desired shape in the
+5. Press a softkey to select a shape, or touch the desired shape in the
 Shapes window. You can type a search word on the keyboard to search for
 a particular shape.
 
-6\> The shape will be applied to all selected fixtures.
+6. The shape will be applied to all selected fixtures.
 
 -   If you open the Shapes window, it will remain open for instant
     selection of shapes (you don't need to select \[Shape Generator\]).
@@ -67,8 +67,7 @@ a particular shape.
     to show only shapes for that attribute. Press the \<Dimmer\>
     attribute button to show all shapes.\
     \
-    ![](/docs/images/image182.png){width="3.236111111111111in"
-    height="1.9305555555555556in"}
+    ![](/docs/images/image182.png)
 
 -   Shapes are based on the current settings of the fixture, so a
     position circle would move around the current pan-tilt position of
@@ -121,12 +120,12 @@ Offset rather than Size/Speed, press \[Adjust Speed, Size and Spread\].
 
 ![](/docs/images/image183.png)
 
-1\> Control the speed of the shape using the left hand wheel.
+1. Control the speed of the shape using the left hand wheel.
 
-2\> Control the size of the shape using the middle wheel (right hand
+2. Control the size of the shape using the middle wheel (right hand
 wheel on Pearl Expert).
 
-3\> The size and speed is shown above the wheels on the display.
+3. The size and speed is shown above the wheels on the display.
 
 Other things to know about size and speed of shapes:
 
@@ -154,10 +153,10 @@ The sequence of the shape across the fixtures is controlled by the order
 in which you selected the fixtures when you created the shape. You can
 edit the order by selecting \[Fixture Order\] in the Shape Edit menu.
 
-1\> If the right hand wheel isn't showing Spread, press \[Adjust Speed,
+1. If the right hand wheel isn't showing Spread, press \[Adjust Speed,
 Size and Spread\].
 
-2\> Control the Spread of the shape using the right hand wheel, or to
+2. Control the Spread of the shape using the right hand wheel, or to
 set in terms of Spread, press \[Adjust Spread, Phase and Offset\] and
 use the middle wheel (right hand wheel on Pearl Expert).
 

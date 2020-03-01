@@ -39,20 +39,20 @@ on page 205).
 Creating a cue
 --------------
 
-1\> Press \<Clear\> to clear the programmer. This ensures that you are
+1. Press \<Clear\> to clear the programmer. This ensures that you are
 starting with a clean slate.
 
-2\> Set up the look using the fixtures. You can save shapes in a cue.
+2. Set up the look using the fixtures. You can save shapes in a cue.
 Remember that only fixtures which are selected or have been modified
 will be saved in the cue (in Record by Fixture mode).
 
-3\> Press the \<Record\> button (\<Record Cue\> on Pearl Expert).
+3. Press the \<Record\> button (\<Record Cue\> on Pearl Expert).
 
-4\> Press the Swop button of an empty Playback to record the cue. The
+4. Press the Swop button of an empty Playback to record the cue. The
 handles where you can record the cue will flash. You can also record a
 cue onto a touch button in the Playbacks window.
 
-5\> Press \<Clear\> to clear the programmer. Repeat from 2 to program
+5. Press \<Clear\> to clear the programmer. Repeat from 2 to program
 more cues.
 
 Other useful things to know about recording cues:

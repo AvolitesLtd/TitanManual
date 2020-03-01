@@ -19,11 +19,11 @@ select the fixture.
 
 ![](/docs/images/image131.png)
 
-1\> Press the Select buttons for the fixtures you want. Touch buttons
+1. Press the Select buttons for the fixtures you want. Touch buttons
 will light up pale blue when selected, physical buttons will light
 brightly.
 
-2\> To select a range of fixtures, slide your finger across the touch
+2. To select a range of fixtures, slide your finger across the touch
 buttons to draw a selection box. For fixtures patched on faders, hold
 down the Select button for the first fixture then press the Select
 button for the last fixture.
@@ -224,17 +224,45 @@ To go back to normal, press \<Unfold\> then \[Exit Unfold\].
 You can also use the numeric keypad to quickly select cells. The syntax
 is as follows: (THRO is called Through on some consoles)
 
-  .            all sub fixtures of selection                    n\.            all sub fixtures of fixture n
-  ------------ --------------------------------------------- -- -------------- ---------------------------------------------------------
-  . THRO .j    sub fixtures 1j of all selected fixtures         n\. THRO       all sub fixtures of fixture nlast consecutive of type n
-  THRO .j      shorthand for above                              n\. THRO i     sub fixtures 1i of fixture n
-  .m           sub fixture m of all selected fixtures           n\. THRO i.j   sub fixtures 1j of fixtures ni
-  .m THRO      sub fixtures mlast of all selected fixtures      n.m            sub fixture m of fixture n
-  .m THRO .j   sub fixtures mj of all selected fixtures         n.m THRO       sub fixtures mlast of fixture n
-  .m THRO j    shorthand for above                              n.m THRO i     sub fixtures mi of fixture n
-  n THRO i.    all sub fixtures of fixtures ni                  n.m THRO i.    sub fixture mlast of fixtures ni
-  n THRO i.j   sub fixture j of fixtures ni                     n.m THRO i.j   sub fixtures mj of fixtures ni
-  n THRO .j    sub fixture 1j of fixture n                      n.m THRO .j    sub fixtures mj of fixture n
+  .            all sub fixtures of selection                    
+
+  n\.            all sub fixtures of fixture n
+
+  . THRO .j    sub fixtures 1j of all selected fixtures         
+
+  n\. THRO       all sub fixtures of fixture nlast consecutive of type
+
+  n THRO .j      shorthand for above                              
+
+  n\. THRO i     sub fixtures 1i of fixture n
+
+  .m           sub fixture m of all selected fixtures           
+
+  n\. THRO i.j   sub fixtures 1j of fixtures ni
+
+  .m THRO      sub fixtures mlast of all selected fixtures      
+
+  n.m            sub fixture m of fixture n
+
+  .m THRO .j   sub fixtures mj of all selected fixtures         
+
+  n.m THRO       sub fixtures mlast of fixture n
+
+  .m THRO j    shorthand for above                              
+
+  n.m THRO i     sub fixtures mi of fixture n
+
+  n THRO i.    all sub fixtures of fixtures ni                  
+
+  n.m THRO i.    sub fixture mlast of fixtures ni
+
+  n THRO i.j   sub fixture j of fixtures ni                     
+
+  n.m THRO i.j   sub fixtures mj of fixtures ni
+
+  n THRO .j    sub fixture 1j of fixture n                      
+
+  n.m THRO .j    sub fixtures mj of fixture n
 
 -   Fixture cell selection can be saved as a group, this provides a
     quick way to select cells / sub fixtures without having to use the
@@ -260,10 +288,10 @@ Each attribute button controls several attributes, one on each wheel. On
 Sapphire Touch the trackball always controls pan/tilt of the selected
 fixtures, with the ring controlling fine tilt.
 
-1\> With some fixtures selected, press the button for the attribute to
+1. With some fixtures selected, press the button for the attribute to
 be changed
 
-2\> Turn the wheels to set the attribute. The display above the wheels
+2. Turn the wheels to set the attribute. The display above the wheels
 shows which attributes are being controlled, and the settings which are
 available scroll up and down as you turn the wheels.
 
@@ -273,7 +301,7 @@ dimmer, touching the roller will set the attribute to full or zero.
 
 ![](/docs/images/image134.png)
 
-3\> Repeat from 1 to change other attributes of the selected fixtures.
+3. Repeat from 1 to change other attributes of the selected fixtures.
 
 Some other things to know about attributes:
 
@@ -417,7 +445,7 @@ controls are provided:
 -   Fine button switches to fine control mode for more precise
     positioning.
 
-### Colour mix: HSI/RGB/CMY 
+### Colour mix: HSI/RGB/CMY
 
 For fixtures which are capable of colour mixing, there are several ways
 you can select a colour which are selected by tabs at the top of the
@@ -600,25 +628,25 @@ Latch\>.
     either above or below the numeric keypad, as printed on the legend
     next to the buttons.
 
-Selecting fixtures using a pattern 
+Selecting fixtures using a pattern
 ----------------------------------
 
 When programming you will often want to select patterns of fixtures.
 Rather than having to individually select and deselect fixtures, Titan
 has an easy way of selecting patterns of fixtures within a range.
 
-1\> Select some fixtures.
+1. Select some fixtures.
 
-2\> Press the \<All\> button (labelled Odd/Even on some consoles).
+2. Press the \<All\> button (labelled Odd/Even on some consoles).
 
-3\> Select a pattern from the softkeys. Your selection is modified so
+3. Select a pattern from the softkeys. Your selection is modified so
 you will only be controlling, say, the odd fixtures.\
 ![](/docs/images/image151.png)
 
-4\> Press the \<Fix+1\> or \<Fix-1\> button to change the selection to
+4. Press the \<Fix+1\> or \<Fix-1\> button to change the selection to
 the next stage of the pattern (\<Next\> and \<Prev\> on some consoles).
 
-5\> To end the pattern selection, press \<All\> twice.
+5. To end the pattern selection, press \<All\> twice.
 
 -   The Direction option allows you to set the fixture selection order
     to go in a specific direction (using the group layout). This is
@@ -713,13 +741,13 @@ select each one manually.
 
 This mode uses the All/Hilight/Fix+1/Fix-1 buttons.
 
-1\> Select a range of fixtures or a group.
+1. Select a range of fixtures or a group.
 
-2\> The \<Fix+1\> and \<Fix-1\> buttons will select the fixtures in the
+2. The \<Fix+1\> and \<Fix-1\> buttons will select the fixtures in the
 range one at a time (in the order you selected them). Buttons are
 labelled \<Prev\> and \<Next\> on some consoles.
 
-3\> The \<All\> button will select all fixtures in the programmer
+3. The \<All\> button will select all fixtures in the programmer
 (everything which has been selected since \<Clear\> was last pressed).
 
 -   The Hilight function can be used to highlight the output of the
@@ -763,20 +791,20 @@ You can align multiple fixtures to others in one operation, either using
 groups or individual selection. If you are aligning different numbers of
 fixtures there are options to set how this is handled, see below.
 
-1\> Select the fixtures you want to Align either manually or using a
+1. Select the fixtures you want to Align either manually or using a
 group.
 
-2\> At the top level menu press \<Fixture Tools\>/\<ML Menu\> then
+2. At the top level menu press \<Fixture Tools\>/\<ML Menu\> then
 \[Align Fixtures\].
 
-3\> Set the mask to include the attribute groups you want to copy (using
+3. Set the mask to include the attribute groups you want to copy (using
 the Attribute Bank buttons, or using the softkey options for exclude and
 include all attributes).
 
-4\> Touch the select button of the fixture or group you want to copy the
+4. Touch the select button of the fixture or group you want to copy the
 settings from.
 
-5\> Press \[Align\]
+5. Press \[Align\]
 
 The fixture selection order is used to determine how the aligned values
 are copied.
@@ -817,9 +845,9 @@ possible yoke positions. Sometimes to get the fixture moving the same as
 other fixtures, you need to swap to the opposite yoke position and the
 Flip function lets you do that.
 
-1\> Select the fixtures you want to Flip.
+1. Select the fixtures you want to Flip.
 
-2\> At the top level menu press \<ML Menu\> then \[Flip Pan and Tilt\].
+2. At the top level menu press \<ML Menu\> then \[Flip Pan and Tilt\].
 
 The Position window in the Attribute Editor also has a \[Flip\] button
 which does this.
@@ -845,16 +873,16 @@ order you selected the fixtures when you recorded the group is used.
 The fan effect, while normally used on pan or tilt attributes, can be
 applied to any attribute.
 
-1\> Select the fixtures you want to fan.
+1. Select the fixtures you want to fan.
 
-2\> Press \<Fan\>.
+2. Press \<Fan\>.
 
-3\> Select the attribute you want to Fan using the attribute bank
+3. Select the attribute you want to Fan using the attribute bank
 buttons.
 
-4\> Set the amount of fan using the attribute wheels.
+4. Set the amount of fan using the attribute wheels.
 
-5\> Turn off Fan by pressing the Fan button again when you have
+5. Turn off Fan by pressing the Fan button again when you have
 finished. Fan will turn off automatically if you change the fixture
 selection.
 
@@ -896,42 +924,35 @@ You can select different curves to use when in Fan mode. Hold down
 -   Line: Traditional fan, the first and last selected fixture are
     affected equally in opposite directions, the midpoint remains
     unchanged. This is most useful for pan.\
-    ![](/docs/images/image153.png){width="2.5555555555555554in"
-    height="1.4305555555555556in"}
+    ![](/docs/images/image153.png)
 
 -   Mirror- Divides the selection into two halves, the position in each
     half is the mirror of the other half\
-    ![](/docs/images/image154.png){width="2.5277777777777777in"
-    height="1.6111111111111112in"}
+    ![](/docs/images/image154.png)
 
 -   Wings -- Divides the selection into three parts, the positions in
     the outer two parts mirror each other and the central part does not
     change.\
-    ![](/docs/images/image155.png){width="2.5416666666666665in"
-    height="1.5833333333333333in"}
+    ![](/docs/images/image155.png)
 
 -   Arrow - The first and last selected fixture are affected equally to
     the midpoint fixture but in the opposite direction. This is useful
     for colour mixing, tilt and dimmer.\
-    ![](/docs/images/image156.png){width="2.513888888888889in"
-    height="1.4722222222222223in"}
+    ![](/docs/images/image156.png)
 
 -   Pull Middle - The first and last selected fixture remain at the
     current value, the midpoint is affected most. This is useful for
     colour mixing, tilt and dimmer.\
-    ![](/docs/images/image157.png){width="2.5833333333333335in"
-    height="1.6111111111111112in"}
+    ![](/docs/images/image157.png)
 
 -   Pull Ends - The first and last selected fixture are affected most,
     the midpoint is unchanged. This is useful for colour mixing, tilt
     and dimmer.\
-    ![](/docs/images/image158.png){width="2.5277777777777777in"
-    height="1.625in"}
+    ![](/docs/images/image158.png)
 
 -   Pull End -- Like pull ends but only from one end, the other end does
     not change\
-    ![](/docs/images/image159.png){width="2.513888888888889in"
-    height="1.6805555555555556in"}
+    ![](/docs/images/image159.png)
 
 ### Fan Parts
 
@@ -995,15 +1016,13 @@ programmer and will be stored in any cues or palettes you create. If
 you've accidentally changed something and don't want to store it, you
 can use the Off function to remove it from the programmer.
 
-1\> Press \<Off\> to display the Off menu.
+1. Press \<Off\> to display the Off menu.
 
-2\> Use the Attribute Bank buttons to toggle which attributes you want
+2. Use the Attribute Bank buttons to toggle which attributes you want
 to change. Then press the \[Attributes Off\] softkey to set them to Off.
 
-3\> The softkeys also give you options to turn off active attributes,
+3. The softkeys also give you options to turn off active attributes,
 such as \[Dimmer Off\].
 
 -   To remove complete fixtures, select the fixtures, press \<Off\> then
     \[Selected Fixtures Off\].
-
-

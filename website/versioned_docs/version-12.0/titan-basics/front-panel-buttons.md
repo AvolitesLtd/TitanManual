@@ -42,19 +42,19 @@ corner of the console.
 
 To record a macro:
 
-1\> Press the \<Macro\> button (above keypad)
+1. Press the \<Macro\> button (above keypad)
 
-2\> Select \[Full Speed\] or \[Real Time\].
+2. Select \[Full Speed\] or \[Real Time\].
 
-3\> Press \[Record\]
+3. Press \[Record\]
 
-4\> Press a suitable empty button on the panel, or an empty button in
+4. Press a suitable empty button on the panel, or an empty button in
 the Macro window on the screen. Recording starts. The Insert/Macro
 button flashes during recording.
 
-5\> Press the sequence of buttons you want to record.
+5. Press the sequence of buttons you want to record.
 
-6\> Press \[Record Macro\] to finish recording.
+6. Press \[Record Macro\] to finish recording.
 
 To play back the macro, just press or touch the button where you
 recorded the macro. The macro will repeat all your button presses, with
@@ -78,36 +78,67 @@ Shortcuts are shown on the next page.
   F1         Open user manual           Ctrl X    Cut text
   ---------- ----------------------- -- --------- -------------------------
   F2         Activate window            Ctrl C    Copy text
+  ---------- ----------------------- -- --------- -------------------------
   F3         Minimise/Maximise          Ctrl V    Paste text
+  ---------- ----------------------- -- --------- -------------------------
   Shift F3   Next window                Ctrl A    Select all text
+  ---------- ----------------------- -- --------- -------------------------
   F4         Size/Position              Ctrl Z    Undo
+  ---------- ----------------------- -- --------- -------------------------
   Shift F4   Move to other screen       Ctrl Y    Redo
+  ---------- ----------------------- -- --------- -------------------------
   F5         Close window               Alt C     Clear
+  ---------- ----------------------- -- --------- -------------------------
   Shift F5   Close all windows          Alt R     Record menu
+  ---------- ----------------------- -- --------- -------------------------
   F6         Open Playbacks window      Alt A     Toggle Avo (shift) menu
+  ---------- ----------------------- -- --------- -------------------------
   F7         Open Fixtures window       Alt L     Locate
+  ---------- ----------------------- -- --------- -------------------------
   F8         Open Groups window         Alt P     Patch
+  ---------- ----------------------- -- --------- -------------------------
   F9         Open Colours window        Alt ⇑ D   Disk menu
+  ---------- ----------------------- -- --------- -------------------------
   F10        Open Positions window      Alt ⇑ S   System mode
+  ---------- ----------------------- -- --------- -------------------------
   F11        Gobos/Beams window         Alt V     Open/View menu
+  ---------- ----------------------- -- --------- -------------------------
   F12        Open Channel Grid          Alt G     Go
+  ---------- ----------------------- -- --------- -------------------------
   Esc        Exit menu                  Alt D     Delete
+  ---------- ----------------------- -- --------- -------------------------
   Enter      Enter                      Alt ⇑ C   Copy
+  ---------- ----------------------- -- --------- -------------------------
   Alt 1      Softkey A                  Alt M     Move
+  ---------- ----------------------- -- --------- -------------------------
   Alt 2      Softkey B                  Alt U     Unfold
+  ---------- ----------------------- -- --------- -------------------------
   Alt 3      Softkey C                  Alt I     Include
+  ---------- ----------------------- -- --------- -------------------------
   Alt 4      Softkey D                  Alt ⇑ R   Release
+  ---------- ----------------------- -- --------- -------------------------
   Alt 5      Softkey E                  Alt S     Shape
+  ---------- ----------------------- -- --------- -------------------------
   Alt 6      Softkey F                  Alt T     Fixture Tools/ML Menu
+  ---------- ----------------------- -- --------- -------------------------
   Alt 7      Softkey G                  Alt B     Blind
+  ---------- ----------------------- -- --------- -------------------------
   Alt ⇑ F    Fixture                    Alt O     Off
+  ---------- ----------------------- -- --------- -------------------------
   Alt ⇑ P    Palette                    Alt F     Fan
+  ---------- ----------------------- -- --------- -------------------------
   Alt ⇑ M    Macro                      Alt ⇑ O   Attribute options
+  ---------- ----------------------- -- --------- -------------------------
   Alt ⇑ G    Group                      Alt ⇑ L   Latch menu
+  ---------- ----------------------- -- --------- -------------------------
   / (num)    Thro                       Alt ←     Previous fixture
+  ---------- ----------------------- -- --------- -------------------------
   \* (num)   @                          Alt →     Next fixture
+  ---------- ----------------------- -- --------- -------------------------
   \- (num)   Not                        Alt ↑     All
+  ---------- ----------------------- -- --------- -------------------------
   \+ (num)   And                        Alt ↓     Highlight
+  ---------- ----------------------- -- --------- -------------------------
 
 ⇑ means shift\
 (num) means on the numeric keypad
@@ -147,5 +178,3 @@ The \[Clear\] softkey will remove the image.
 
 While the console is locked, all functions are disabled except the DMX
 outputs and currently running playbacks.
-
-

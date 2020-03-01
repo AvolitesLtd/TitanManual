@@ -57,31 +57,31 @@ file by clicking on the Download link at the top of the screen, then
 clicking on "Titan Fixture Library".
 
   ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![exclamation](/docs/images/image5.png){width="0.7083333333333334in" height="0.6388888888888888in"}   Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
+  ![exclamation](/docs/images/image5.png)   Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
   ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **To update a console use the following procedure:**
 
-1\> Copy the downloaded file TitanFixtureLibrary.exe onto a USB pen
+1. Copy the downloaded file TitanFixtureLibrary.exe onto a USB pen
 drive and plug in to the console.
 
-2\> Click the \'Tools\' menu on the toolbar, then the folder icon on the
+2. Click the \'Tools\' menu on the toolbar, then the folder icon on the
 menu.
 
-3\> Locate the downloaded file on the USB drive and double click on it
+3. Locate the downloaded file on the USB drive and double click on it
 to run it. Click \'Ok\' on the warning box.
 
-4\> Shut down and then restart the console (using the Restart Software
+4. Shut down and then restart the console (using the Restart Software
 button on the screen Tools menu is OK).
 
 **To update Titan Mobile, Titan Go or Titan Simulator:**
 
-1\> Locate the downloaded file TitanFixtureLibrary.exe and double click
+1. Locate the downloaded file TitanFixtureLibrary.exe and double click
 on it to run it. Windows may show a warning about an unrecognised file
 
-2\> Click \'Ok\' on the Windows User Account Control warning box.
+2. Click \'Ok\' on the Windows User Account Control warning box.
 
-3\> When the installation has completed, shut down and then restart the
+3. When the installation has completed, shut down and then restart the
 Titan software.
 
 -   The console caches the FixtureLibrary folder into memory when the
@@ -103,7 +103,7 @@ behaviour of a standard personality or you have a fixture the console
 has never heard of and need to get it working quickly.
 
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png){width="0.7361111111111112in" height="0.6527777777777778in"}   The console loads the fixture library into memory when the Patch option is first used, so after creating a new personality you need to restart the console software from the Tools menu or it will not show up.
+  ![info](/docs/images/image6.png)   The console loads the fixture library into memory when the Patch option is first used, so after creating a new personality you need to restart the console software from the Tools menu or it will not show up.
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 You can incorporate your custom personality into the standard fixture

@@ -53,24 +53,24 @@ This is how you save a palette value to one of the palette windows:. If
 the palette windows are not shown then press the "Groups and Palettes"
 workspace button.
 
-1\> Press \<Clear\> to clear the programmer.
+1. Press \<Clear\> to clear the programmer.
 
-2\> Select the fixtures for which you want to store palette values.
+2. Select the fixtures for which you want to store palette values.
 
-3\> Using the attribute buttons and wheels, set the attributes you want
+3. Using the attribute buttons and wheels, set the attributes you want
 in the palette entry. You can store any or all attributes of a fixture
 in each palette entry.
 
-4\> Press \<Record\> then \<Palette\> (or \<Palette\> then \[Record
+4. Press \<Record\> then \<Palette\> (or \<Palette\> then \[Record
 Palette\]). Using Quick Record (see next section) you can skip this
 step, and the palette mask is set automatically to match the window.
 
-5\> If you wish, set the palette mask -- this sets which attributes will
+5. If you wish, set the palette mask -- this sets which attributes will
 be recorded in the palette. Select attributes using the Attribute Bank
 buttons -- anything lit up will be saved. \[Set Mask\] and \[Record by\]
 softkeys also control the Mask (see below).
 
-6\> Touch a button in one of the palette windows to store the palette
+6. Touch a button in one of the palette windows to store the palette
 (if you touch a used button you will be given further options). Or enter
 a palette number and press \[Store\]
 
@@ -123,8 +123,7 @@ a palette number and press \[Store\]
     thumbnail will be used. For other attributes the last adjusted
     function value will be used for the legend, except for pan and tilt
     which will use a default legend.\
-    ![](/docs/images/image174.png){width="4.444444444444445in"
-    height="0.6527777777777778in"}
+    ![](/docs/images/image174.png)
 
 -   You can also manually set a legend for the palette while you are
     saving it using \[Provide a legend\]. See section 6.1.5 for how to
@@ -199,21 +198,20 @@ Setting legends for palettes
 You can enter a legend for each palette to tell you what it is. Titan
 will automatically create helpful legends when you create the palette.
 
-1\> Press \[Set Legend\] at the top level menu.
+1. Press \[Set Legend\] at the top level menu.
 
-2\> Press the palette button for the palette you want to legend.
+2. Press the palette button for the palette you want to legend.
 
-3\> Type the legend on the keyboard.
+3. Type the legend on the keyboard.
 
-4\> Press \<Enter\> when you have finished.
+4. Press \<Enter\> when you have finished.
 
 -   On touch buttons, the palette number is shown top left. The IPCGBES
     attribute groups contained in the palette are displayed below your
     legend, so for example Position palettes will show a P, colour
     palettes a C and so on. In the top right corner is shown G for
     Global, N for Normal or S for Shared palette.\
-    ![](/docs/images/image175.png){width="1.8055555555555556in"
-    height="0.9861111111111112in"}
+    ![](/docs/images/image175.png)
 
 You can create a picture legend for your palette which could for example
 represent the colour or gobo it will create. After pressing \[Set
@@ -247,18 +245,18 @@ as well). To achieve this you can either use the FX mask when saving the
 palette, or you can just remember not to set any other values when
 programming.
 
-1\> Press \<Clear\>, select some fixtures and locate them. If you need
+1. Press \<Clear\>, select some fixtures and locate them. If you need
 to move them so you can see what's happening, you can do that too.
 
-2\> Press \[Shapes and Effects\], \[Shape Generator\] and choose a shape
+2. Press \[Shapes and Effects\], \[Shape Generator\] and choose a shape
 to start (see section on page for more information about shapes).
 
-3\> Alter the parameters of the shape as you require.
+3. Alter the parameters of the shape as you require.
 
-4\> Press \<Record\> then \<Palette\> (you cannot use Quick Record to
+4. Press \<Record\> then \<Palette\> (you cannot use Quick Record to
 store shape/FX palettes).
 
-5\> If you moved the fixtures in step 1, press \[Set Mask\] and exclude
+5. If you moved the fixtures in step 1, press \[Set Mask\] and exclude
 everything except FX.
 
 6.  Press a palette button to store the shape palette.
@@ -276,20 +274,20 @@ set times manually. Using a time palette also means that you can go back
 and change the times once in the palette, and the changes will
 automatically apply to all cues which use the palette.
 
-1\> Press \<Clear\>, select some fixtures and locate them. If you need
+1. Press \<Clear\>, select some fixtures and locate them. If you need
 to move them so you can see what's happening, you can do that too.
 
-2\> Press \<Time\> (may be labelled Set on Mobile/Sapphire/Quartz, and
+2. Press \<Time\> (may be labelled Set on Mobile/Sapphire/Quartz, and
 Next Time on Expert/Tiger).
 
-3\> Change Fade time to 2 sec. This sets the global fade time into the
+3. Change Fade time to 2 sec. This sets the global fade time into the
 programmer.
 
-4\> Press \<Record\> then \<Palette\>.
+4. Press \<Record\> then \<Palette\>.
 
-5\> If you moved the fixtures in step 1, press \[Set Mask\] and exclude
+5. If you moved the fixtures in step 1, press \[Set Mask\] and exclude
 everything except Time.
 
-6\> Press a palette button to store the Time palette.
+6. Press a palette button to store the Time palette.
 
 

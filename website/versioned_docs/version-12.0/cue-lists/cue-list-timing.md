@@ -15,10 +15,10 @@ using Wheel A or softkey A of the Cue Times menu.
 See the diagrams in section 8.5.1 on page 211 and section 9.5.2 on page
 228 for more information about overlaps and fade times.
 
-1\> Press A \[Edit Times\] at the main Program menu then the Swop button
+1. Press A \[Edit Times\] at the main Program menu then the Swop button
 of the Cue List.
 
-2\> To change which cue you are editing, scroll through the list using
+2. To change which cue you are editing, scroll through the list using
 Wheel A or press \[Cue Number\] then type the cue number you want to
 edit and press \<Enter\>. The Chase arrow buttons to the right of the
 Connect button also step through the cues.
@@ -111,16 +111,16 @@ To set times for an attribute group, first select the Set Times menu and
 go to the cue you want to set as described above, then press G \[Next\]
 to go to the second page of options.
 
-1\> Press C \[Attribute times\].
+1. Press C \[Attribute times\].
 
-2\> All fixtures in the cue will be selected. If you don't want to
+2. All fixtures in the cue will be selected. If you don't want to
 change the times for any fixtures, deselect them now. You can press the
 ALL button (below Next Time) to select all fixtures in the cue or
 Shift+ALL to deselect all fixtures.
 
-3\> Press the softkey for the attribute group you want to change.
+3. Press the softkey for the attribute group you want to change.
 
-4\> Press A \[Delay\] to set the delay time, or press B \[Fade\] to set
+4. Press A \[Delay\] to set the delay time, or press B \[Fade\] to set
 the fade time. Press G \[Use global\] to remove the attribute group
 timing and go back to the normal delay/fade times for the cue.
 
@@ -159,8 +159,7 @@ part.
     If you press a fixture button twice, it will show X and be excluded
     from the sequence.\
     Press \<Exit\> to finish setting the fixture order.
-    ![](/docs/images/image241.png){width="3.2222222222222223in"
-    height="1.9444444444444444in"}
+    ![](/docs/images/image241.png)
 
 Running a cue list to timecode
 ------------------------------
@@ -176,22 +175,22 @@ source, from MIDI, SMPTE or from Winamp. Internal timecode is useful for
 programming a sequence which will later be triggered by an external
 timecode source.
 
-1\> Connect the cue list for which you want to set timecode.
+1. Connect the cue list for which you want to set timecode.
 
-2\> Press \[Timecode\] on the top-level menu.
+2. Press \[Timecode\] on the top-level menu.
 
-3\> Press softkey A to select Timecode 1-4, and B to select the desired
+3. Press softkey A to select Timecode 1-4, and B to select the desired
 timecode source.
 
-4\> Press \[Record\].
+4. Press \[Record\].
 
-5\> Start the timecode source. If using internal timecode, press
+5. Start the timecode source. If using internal timecode, press
 \[Play\] to start it.
 
-5\> Press the red Go button to step each cue at the time you wish the
+5. Press the red Go button to step each cue at the time you wish the
 cue to start.
 
-6\> Press \[Record\] when you have finished.
+6. Press \[Record\] when you have finished.
 
 To play back a timecoded cue list, press \[Connected Cue Lists\] on the
 Timecode menu and select the cue list which is to be played. Then press

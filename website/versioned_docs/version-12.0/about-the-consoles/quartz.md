@@ -61,17 +61,14 @@ if something odd happens with the switches and faders. The main
 processor will continue running but the DMX output will be interrupted
 until the restart is completed.
 
-> **Connections panel**
->
-> ![](/docs/images/image36.jpeg){width="6.920833333333333in"
-> height="3.626388888888889in"}
->
-> All the connections are on the rear panel. Most are self-explanatory.
-> The power switch on the rear panel is an isolator for the power supply
-> and should not be used to turn the console off. Use the switch on the
-> front panel to turn the console on and off.
->
-> The rear USB connector may be used to connect a wing or an external
-> touch screen.
+**Connections panel**
 
+![](/docs/images/image36.jpeg)
 
+All the connections are on the rear panel. Most are self-explanatory.
+The power switch on the rear panel is an isolator for the power supply
+and should not be used to turn the console off. Use the switch on the
+front panel to turn the console on and off.
+
+The rear USB connector may be used to connect a wing or an external
+touch screen.

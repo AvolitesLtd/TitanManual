@@ -116,23 +116,23 @@ As well as using the Patch View screen, you can use the Patch menu to
 re-patch a fixture to a different DMX address or a different DMX output
 line. All programming is kept.
 
-1\> Press \<Patch\> (if you're not already in Patch mode).
+1. Press \<Patch\> (if you're not already in Patch mode).
 
-2\> Press \[Repatch Fixtures\].
+2. Press \[Repatch Fixtures\].
 
-3\> Press the Select button of the fixture you want to change.
+3. Press the Select button of the fixture you want to change.
 
-4\> To change DMX press \[Address\], type the new address and press
+4. To change DMX press \[Address\], type the new address and press
 enter. If this address is already in use, a warning icon will be shown.
 
 ![](/docs/images/image122.png)
 
-5\> To change the DMX output line, press \[DMX Line=x\] and enter a new
+5. To change the DMX output line, press \[DMX Line=x\] and enter a new
 output line number.
 
-6\> Press \<Enter\> or \[Repatch\] to confirm the change.
+6. Press \<Enter\> or \[Repatch\] to confirm the change.
 
-7\> Repeat from step 3 if you want to change other fixtures.
+7. Repeat from step 3 if you want to change other fixtures.
 
 -   You can "Park" the fixture using \[Park\]. This removes the fixture
     from the DMX output map, but all programming is retained. The
@@ -150,8 +150,7 @@ output line number.
     any future conflicting fixtures without warning you (you can change
     this option back in the User Settings).
 
-> ![](/docs/images/image123.png){width="2.6944444444444446in"
-> height="1.7361111111111112in"}
+![](/docs/images/image123.png)
 
 Setting legends
 ---------------
@@ -160,13 +159,13 @@ You can set a legend for each fixture or dimmer you've patched which is
 displayed in the touch button. This can be really useful to help you
 identify the fixture.
 
-1\> At the main menu press \[Set Legend\].
+1. At the main menu press \[Set Legend\].
 
-2\> Press the Select button for the fixture you want to legend.
+2. Press the Select button for the fixture you want to legend.
 
-3\> Type the legend on the keyboard.
+3. Type the legend on the keyboard.
 
-4\> Press \<Enter\> when you have finished.
+4. Press \<Enter\> when you have finished.
 
 -   You can also choose to have a picture legend using the softkey
     options.
@@ -260,16 +259,16 @@ when faced with a new fixture.
     problems, you will easily be able to return your show to its
     previous state.
 
-    1\> Enter patch mode by pressing \<Patch\>.
+    1. Enter patch mode by pressing \<Patch\>.
 
-    2\> Select the new fixture type you wish to use.
+    2. Select the new fixture type you wish to use.
 
-    3\> Touch the select button of the fixture which is to be exchanged.
+    3. Touch the select button of the fixture which is to be exchanged.
 
-    4\> The console will warn you that the fixture is in use. Press the
+    4. The console will warn you that the fixture is in use. Press the
     \[Exchange Fixture\] option.
 
-    5\> Repeat from step 3 to exchange other fixtures with the same type
+    5. Repeat from step 3 to exchange other fixtures with the same type
     of new fixture.
 
   --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -299,32 +298,32 @@ mapping](/docs/images/image127.png)
 
 To set up mapping:
 
-1\> Press \<View/Open\> then Patch to show the Patch View screen.
+1. Press \<View/Open\> then Patch to show the Patch View screen.
 
-2\> Select the Exchange Mapping tab.
+2. Select the Exchange Mapping tab.
 
-3\> In the leftmost column, click the fixture type of the new fixture
+3. In the leftmost column, click the fixture type of the new fixture
 which you have changed to.
 
-4\> The view shows the old fixture on the left and the new fixture on
+4. The view shows the old fixture on the left and the new fixture on
 the right with attributes listed for both fixture types. You can sort
 the list either alphabetically or in DMX channel order using the
 \[Sort\] context menu option.
 
-5\> Select an attribute to show the mapping. The mapped attribute on
+5. Select an attribute to show the mapping. The mapped attribute on
 both fixtures will highlight in light blue. Brown controls are not
 mapped. The centre of the view shows the individual functions of the
 selected attribute, and coloured lines show how these map between the
 fixtures.
 
-6\> To map a function, click on a source function then a destination
+6. To map a function, click on a source function then a destination
 function. Any previous mapping will be removed. You can map multiple
 source functions to a single destination function.
 
-7\> To unmap a function, double click the source function. If there are
+7. To unmap a function, double click the source function. If there are
 multiple sources mapped, double click the destination function.
 
-8\> To move a mapping, click the existing destination, then click the
+8. To move a mapping, click the existing destination, then click the
 new destination.
 
 -   Where a fixture has been exchanged from more than one source fixture
@@ -374,20 +373,18 @@ console does not update fixtures which are already patched.
     Personalities, then you will be able to undo any changes if you
     change your mind or have problems.
 
-    1\> Enter patch mode by pressing Patch.
+    1. Enter patch mode by pressing Patch.
 
-    2\> Press \[Edit Fixtures\]
+    2. Press \[Edit Fixtures\]
 
-    3\> Press \[Update Personality\] to update an individual fixture
+    3. Press \[Update Personality\] to update an individual fixture
     type, or \[Update All\] to update all patched fixtures to the most
     recent version in the library.
 
-    4\> If updating individual fixtures, the console shows you a list of
+    4. If updating individual fixtures, the console shows you a list of
     personalities used in the show which can be updated.
 
-    5\> If updating individual fixtures, press the personality you want
+    5. If updating individual fixtures, press the personality you want
     to update.
 
 -   The new personality is loaded from the Titan/Personalities folder.
-
-

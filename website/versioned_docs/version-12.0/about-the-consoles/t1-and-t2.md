@@ -31,7 +31,4 @@ Titan Go. The operating screen is slightly different to the normal
 display as it is designed for use on a touchscreen with no physical
 control surface (actual faders or buttons).
 
-> ![titanone](/docs/images/image46.png){width="5.763888888888889in"
-> height="3.4444444444444446in"}
-
-
+![titanone](/docs/images/image46.png)

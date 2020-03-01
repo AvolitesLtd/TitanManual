@@ -33,28 +33,28 @@ methods required. The basic procedure is as follows:
 Installation Instructions
 -------------------------
 
-1\> If recovering a version earlier than v11.1, you will need to set the
+1. If recovering a version earlier than v11.1, you will need to set the
 console to boot from USB (see instructions on the Avolites website,
 which vary depending on your console)
 
-2\> Start console and wait while the memory stick boots up, this can
+2. Start console and wait while the memory stick boots up, this can
 take up to 3 minutes.
 
-3\> Once the memory stick has booted, the touch screen will display
+3. Once the memory stick has booted, the touch screen will display
 \'Welcome to (Console Name)\', touch Next to continue.
 
-4\> Please read to the bottom of the licence agreement then touch Agree
+4. Please read to the bottom of the licence agreement then touch Agree
 to accept.
 
-5\> Select the type of recovery you want to perform (see table above)
+5. Select the type of recovery you want to perform (see table above)
 
-6\> On the next screen check the serial number of the console - this is
+6. On the next screen check the serial number of the console - this is
 the number written on the back of the console and should be already
 filled in for you.
 
-7\> Touching Install will then begin the recovery
+7. Touching Install will then begin the recovery
 
-8\> Once complete unplug the memory stick and touch the Restart button.
+8. Once complete unplug the memory stick and touch the Restart button.
 
 After starting the console will install all the software and drivers
 required to run. This takes approximately 30 minutes to complete during

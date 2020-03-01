@@ -28,19 +28,19 @@ Software upgrades for consoles are installed from a USB pen drive.
 Having downloaded a new version of software, copy it to the USB drive
 and install it on the console like this:
 
-1\> Copy the installer file to a USB drive and insert into the console.
+1. Copy the installer file to a USB drive and insert into the console.
 
-2\> On the screen tools menu, stop the console software using the
+2. On the screen tools menu, stop the console software using the
 Shutdown Software button at the bottom of the list.
 
 ![](/docs/images/image91.png)
 
-3\> Open the tools menu again, touch the Folders icon and navigate to
+3. Open the tools menu again, touch the Folders icon and navigate to
 the drive where the upgrade file is found.
 
-4\> Run the installer by double clicking/double tapping.
+4. Run the installer by double clicking/double tapping.
 
-5\> When the installation has completed, shut down the console and
+5. When the installation has completed, shut down the console and
 restart it. This will allow any operating system updates to install.
 
 

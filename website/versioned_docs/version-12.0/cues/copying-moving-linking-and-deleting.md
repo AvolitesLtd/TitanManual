@@ -19,19 +19,19 @@ want a cue to appear on more than one page for ease of operation; also
 the linked cue can have different timings and playback options from the
 cue it's linked to.
 
-1\> Press \<Copy\>.
+1. Press \<Copy\>.
 
-2\> Select \[Copy\], \[Move\] or \[Link\]. Pressing \<Copy\> again will
+2. Select \[Copy\], \[Move\] or \[Link\]. Pressing \<Copy\> again will
 also toggle these options. Some consoles have a \<Move\> button to get
 straight into Move mode.
 
-3\> Press the select button of the cue you want to copy/move/link. You
+3. Press the select button of the cue you want to copy/move/link. You
 can select a range of playbacks by holding the first button while
 pressing the last in the range, or use the \<Thro\> and \<And\> buttons
 to add more playbacks to the selection -- hold down \<And\> to keep
 adding them.
 
-4\> Press the empty select button where you want it to go.
+4. Press the empty select button where you want it to go.
 
 -   The \<Menu Latch\> button latches the Copy/Move/Link menu, so you
     can keep copying, moving or linking things without having to keep
@@ -55,11 +55,11 @@ Deleting a cue
 
 To delete a cue:
 
-1\> Press the \<Delete\> button.
+1. Press the \<Delete\> button.
 
-2\> Press the select button of the cue you want to delete.
+2. Press the select button of the cue you want to delete.
 
-3\> Press the select button again (or press \<Enter\>) to confirm the
+3. Press the select button again (or press \<Enter\>) to confirm the
 delete.
 
 -   Instead of deleting the cue you can select \[Unassign\], this will

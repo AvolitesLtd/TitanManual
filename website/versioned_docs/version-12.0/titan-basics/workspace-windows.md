@@ -183,22 +183,22 @@ As an example of setting up a workspace, suppose while programming you
 wanted to be able to access fixtures, position palettes, fixture
 attributes and shapes:
 
-1\> Press \<Exit\> to get to the root menu then the \[Open Workspace
+1. Press \<Exit\> to get to the root menu then the \[Open Workspace
 Window\] menu softkey.
 
-2\> Find the \[Fixtures\] window in the list and press it.
+2. Find the \[Fixtures\] window in the list and press it.
 
-3\> If the window is not in the top left quarter, press the Size &
+3. If the window is not in the top left quarter, press the Size &
 Position button (above the numeric keys) until the window occupies the
 top left quarter.
 
-4\> Press \[Open Workspace Window\] again and select the \[Positions\]
+4. Press \[Open Workspace Window\] again and select the \[Positions\]
 window. Press the Size & Position button to position it in the desired
 location.
 
-5\> Repeat to activate the \[Attribute Control\] and \[Shapes\] windows.
+5. Repeat to activate the \[Attribute Control\] and \[Shapes\] windows.
 
-6\> Press \<View/Open\> then \[Record Workspace\], or hold \<Avo\> and
+6. Press \<View/Open\> then \[Record Workspace\], or hold \<Avo\> and
 press \<View/Open\>. Type in a name for the workspace. Then touch the
 Workspace button where you want to store this workspace layout. Or, you
 can use Quick Record -- just touch an empty workspace button and it will

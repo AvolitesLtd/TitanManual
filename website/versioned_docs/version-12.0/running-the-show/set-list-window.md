@@ -16,7 +16,7 @@ List\].
 The Set List feature works best if you arrange your playbacks to have a
 page of playbacks for each song in the show.
 
-![](/docs/images/image302.png)
+![Set List Window](/docs/images/image302.png)
 
 A set list is made up of tracks. When a track is added it automatically
 links to the current page. Pressing the play button next to the track
@@ -76,7 +76,7 @@ To view or edit the workspace links and macros, click the Workspace &
 Macros tab on the right hand half of the window. The window will then
 show a button for each programmed link.
 
-![](/docs/images/image303.png)
+![Workspace & Macros](/docs/images/image303.png)
 
 You can fire the macro or Workspace shortcut by clicking on the link
 button. Delete the button by pressing Delete then clicking the button,
@@ -93,20 +93,18 @@ button push. See section 3.4.1 on page 71 for more details.
 Some special preset macros are available to help with controlling
 playbacks when used with a Set List.
 
-\[Fire First Playback\] - fires the first playback on the current page.\
-\[Fire First Playback Page 1\] - fires the first playback on page 1,
-regardless of current page.\
-\[Fire Playback 1\] - fires the playback with user number 1.\
-\[Kill First Playback\] - kills the first playback on the current page.\
-\[Kill First Playback Page 1\] - kills the first playback on page 1,
-regardless of current page.\
-\[Kill Playback 1\] - kills the playback with user number 1.\
-\[Release First Playback\] - releases the first playback on the
-currently selected page.\
-\[Release First Playback Page 1\] - releases the first playback on page
-1, regardless of current page.\
-\[Release Playback 1\] - releases the playback with user number 1.\
-\[Release Me\] - releases the associated playback (cuelist).\
-\[Goto My Cue 1\] - go to cue 1 of the associated cuelist.
+Macro | Action
+------|-------
+\[Fire First Playback\] | Fires the first playback on the current page.
+\[Fire First Playback Page 1\] | Fires the first playback on page 1, regardless of current page.
+\[Fire Playback 1\] | Fires the playback with user number 1.\
+\[Kill First Playback\] | Kills the first playback on the current page.\
+\[Kill First Playback Page 1\] | Kills the first playback on page 1, regardless of current page.\
+\[Kill Playback 1\] | Kills the playback with user number 1.
+\[Release First Playback\] | Releases the first playback on the currently selected page.
+\[Release First Playback Page 1\] | Releases the first playback on page 1, regardless of current page.
+\[Release Playback 1\] | Releases the playback with user number 1.
+\[Release Me\] | Releases the associated playback (cuelist).\
+\[Goto My Cue 1\] | Go to cue 1 of the associated cuelist.
 
 

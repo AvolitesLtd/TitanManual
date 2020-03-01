@@ -19,21 +19,19 @@ You will need a Windows user account with Administrator privileges to
 install or run Titan Simulator. From v12, to run the Titan Simulator an
 AvoKey Simulator dongle must be connected, or a T1/T2 device.
 
-+----------------------------------+----------------------------------+
-| ![info](/docs/images/image6.p     | From v7, Windows XP and Vista    |
-| ng){width="0.7361111111111112in" | are no longer supported by Titan |
-| height="0.6527777777777778in"}   | software. Your PC must be        |
-|                                  | running a 64 bit version of      |
-|                                  | Windows 7, Windows 8.1 or        |
-|                                  | Windows 10.                      |
-|                                  |                                  |
-|                                  | Capture visualiser requires a    |
-|                                  | capable graphics card. If you    |
-|                                  | have problems with Capture,      |
-|                                  | ensure you have installed the    |
-|                                  | latest drivers for your graphics |
-|                                  | card from the manufacturer.      |
-+----------------------------------+----------------------------------+
+
+![info](/docs/images/image6.png)
+
+----------------------------------------------------------------------
+
+From v7, Windows XP and Vista are no longer supported by Titan software.
+
+Your PC must be running a 64 bit version of Windows 7, Windows 8.1 or Windows 10.                      
+
+---------------------
+
+Capture visualiser requires a capable graphics card. If you have problems with Capture,      
+ensure you have installed the latest drivers for your graphics card from the manufacturer.
 
 Simply download and run the Titan PC Suite installer from the Avolites
 website. The first time you run the Editor you will need to license the
@@ -78,5 +76,3 @@ suffering hardware problems with the real console controls.
 To show the Virtual Panel, click the Tools menu on the toolbar, then
 select Other Programs, then Virtual Panel. The Virtual Panel controls
 will work in parallel with the real controls.
-
-

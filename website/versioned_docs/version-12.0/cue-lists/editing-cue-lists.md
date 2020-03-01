@@ -89,18 +89,18 @@ The \<Unfold\> button places each cue of the cue list on one of the
 playback faders. This allows you to fire and edit each step individually
 as if it was a stand-alone cue.
 
-1\> Press \<Unfold\>, then the Select button of the cue list to be
+1. Press \<Unfold\>, then the Select button of the cue list to be
 edited.
 
-2\> Cues are loaded into the playback faders. The display shows the cue
+2. Cues are loaded into the playback faders. The display shows the cue
 numbers and legends (see more cues using softkeys F and G).
 
-3\> Raise a playback fader to output the contents of that cue (fade
+3. Raise a playback fader to output the contents of that cue (fade
 times will operate as programmed).
 
-4\> Various Unfold options are available, the details are below.
+4. Various Unfold options are available, the details are below.
 
-5\> Press \<Unfold\> again to get out of unfold mode.
+5. Press \<Unfold\> again to get out of unfold mode.
 
 -   To edit the contents of a cue: Press \<Clear\> to empty the
     programmer, raise the fader to output the cue, make the changes,
@@ -143,18 +143,18 @@ was originally set.
 The Update function will go back through the cue list from the currently
 fired cue and automatically update the correct cue.
 
-1\> With the cue list fired, select the fixtures and change them to the
+1. With the cue list fired, select the fixtures and change them to the
 settings you want to store.
 
-2\> Press \<Update\> (\<Record Cue\>, \[Update\] if the console doesn't
+2. Press \<Update\> (\<Record Cue\>, \[Update\] if the console doesn't
 have an Update button).
 
-3\> Press \<Enter\> to immediately store the new values to the cue list.
+3. Press \<Enter\> to immediately store the new values to the cue list.
 
 Alternatively, the softkeys show a list of palettes and playbacks which
 can be updated. Select or deselect these as required.
 
-4\> If you have used the softkey options, press \<Enter\> to complete
+4. If you have used the softkey options, press \<Enter\> to complete
 the update.
 
 -   If the attributes you have changed were tracked through from a
@@ -167,42 +167,42 @@ Editing a cue list which is running
 You can also edit cues in a cue list while you are running it without
 using Unfold.
 
-1\> Fire the cue list by raising its fader.
+1. Fire the cue list by raising its fader.
 
-2\> Use Wheel A to select the cue number you want to change then the
+2. Use Wheel A to select the cue number you want to change then the
 \<Go\> button to jump to it. (On Pearl Expert/TT Mk1 press the white ↔
 button above the Snap Back button instead of \<Go\>)
 
-3\> Press \<Clear\> to make sure the programmer is empty.
+3. Press \<Clear\> to make sure the programmer is empty.
 
-4\> Make the changes that you want to the current step.
+4. Make the changes that you want to the current step.
 
-5\> Press \<Record\> then \<Connect\>, then select \[Replace\],
+5. Press \<Record\> then \<Connect\>, then select \[Replace\],
 \[Merge\] or \[Insert After\] to save the changes. (On Pearl Expert and
 TT Mk1 use the Rec Step button)
 
-6\> Press the \<Go\> button (on Pearl Expert and TT Mk1 the white ↔
+6. Press the \<Go\> button (on Pearl Expert and TT Mk1 the white ↔
 button) to jump on to the next step.
 
 -   You can edit the times for a cue using the \<Live Time\> and \<Next
     Time\> buttons (not on all consoles) as follows:
 
-    1\> Fire the cue list by raising its fader.
+    1. Fire the cue list by raising its fader.
 
-    2\> Use Wheel A to select the cue number you want to change then the
+    2. Use Wheel A to select the cue number you want to change then the
     \<Go\> button to jump to it (on Pearl Expert and TT Mk1 the white ↔
     button)
 
-    3\> Press \<Live Time\> to set the times for the current step, or
+    3. Press \<Live Time\> to set the times for the current step, or
     \<Next Time\> for the next step. The Live and Next step numbers are
     shown on the display above the controller wheel.
 
-    4\> Use the softkeys to set the times, linking and overlap settings
+    4. Use the softkeys to set the times, linking and overlap settings
     you want (see section 8.5.1 on page 211 for description of the
     times). If you set the \[Link to next step\] option to On, then the
     next cue will not wait for the \<Go\> button.
 
-    5\> Press the \<Go\> button (on Pearl Expert and TT Mk1 the white ↔
+    5. Press the \<Go\> button (on Pearl Expert and TT Mk1 the white ↔
     button) to jump on to the next step.
 
 -   The Review button lets you test the live step with the new timings.
@@ -215,14 +215,14 @@ Editing a cue list while recording
 
 You can edit cues while you are in the Record Cue List menu.
 
-1\> Press \[Cue Number=x\] and type the cue number to be edited.
+1. Press \[Cue Number=x\] and type the cue number to be edited.
 
-2\> The console will jump to the cue and show the output.
+2. The console will jump to the cue and show the output.
 
-3\> Make the changes that you want to the programming of the current
+3. Make the changes that you want to the programming of the current
 step, or to the timings using \[Edit Cue x Times\].
 
-4\> Press \[Update Cue x\] or the Rec Step button to save the changes.
+4. Press \[Update Cue x\] or the Rec Step button to save the changes.
 
 -   The \[Update Mode\] softkey allows you to set how changes in the cue
     will be tracked. \[Update Mode Forwards\] updates the channels in
@@ -235,14 +235,10 @@ step, or to the timings using \[Edit Cue x Times\].
     following cues to the next change. \[Update Cue Only\] will just set
     the current cue.\
     \
-    ![](/docs/images/image258.png){width="1.0138888888888888in"
-    height="0.7222222222222222in"}
-    ![](/docs/images/image259.png){width="0.9861111111111112in"
-    height="0.7222222222222222in"}
-    ![](/docs/images/image260.png){width="0.9861111111111112in"
-    height="0.7361111111111112in"}
-    ![](/docs/images/image261.png){width="0.9722222222222222in"
-    height="0.7222222222222222in"}
+    ![](/docs/images/image258.png)
+    ![](/docs/images/image259.png)
+    ![](/docs/images/image260.png)
+    ![](/docs/images/image261.png)
 
 -   You can't change the cue number using this menu -- if you press
     \[Cue Number\] this will change the cue you are editing. Use

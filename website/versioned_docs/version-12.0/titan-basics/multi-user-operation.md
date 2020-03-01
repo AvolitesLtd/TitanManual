@@ -27,17 +27,17 @@ key profile.
 
 To change or create users, go to the Users menu.
 
-1\> Press the \<Disk\> button.
+1. Press the \<Disk\> button.
 
-2\> Press \[Users\].
+2. Press \[Users\].
 
-3\> To switch to a different user, press \[Change Current User\] and
+3. To switch to a different user, press \[Change Current User\] and
 select a new user from the list (the current user is highlighted).
 
-4\> To create a new user, press \[Add a User\], enter a name for the new
+4. To create a new user, press \[Add a User\], enter a name for the new
 user and press \[OK\].
 
-5\> You can also quickly change user from the root menu by holding
+5. You can also quickly change user from the root menu by holding
 \<Avo\> shift and pressing \[User ... \]
 
 -   If multiple consoles are connected in a collaborative session, any
@@ -62,18 +62,18 @@ world is called "Mapping World 1".
 
 Handle Worlds are managed from the Disk menu.
 
-1\> Press the \<Disk\> button.
+1. Press the \<Disk\> button.
 
-2\> Press \[Handle Worlds\].
+2. Press \[Handle Worlds\].
 
-3\> To switch to a different handle world, press \[Select Handle World\]
+3. To switch to a different handle world, press \[Select Handle World\]
 and select a new handle world from the list (the current one is
 highlighted).
 
-4\> To create a new handle world, press \[Add Handle World\], enter a
+4. To create a new handle world, press \[Add Handle World\], enter a
 name for the new world and press \[OK\].
 
-5\> \[Delete Handle World\] will delete the world, any handles used only
+5. \[Delete Handle World\] will delete the world, any handles used only
 in that world will become unassigned (and can be retrieved using the
 Show Library if needed).
 
@@ -99,16 +99,16 @@ you connect TitanNet processors to expand DMX outputs.
 For details of how to connect Titan consoles together on a network, see
 section 18 on page 339.
 
-1\> Press the \<Disk\> button.
+1. Press the \<Disk\> button.
 
-2\> Press \[TitanNet Sessions\].
+2. Press \[TitanNet Sessions\].
 
-3\> \[Sessions View\] opens a window that shows you how your console is
+3. \[Sessions View\] opens a window that shows you how your console is
 connected to others, and what other TitanNet sessions are available. You
 can touch on another console in the window and click \[Connect\] to
 start a connection, or use the other buttons to leave a session.
 
-4\> Or select \[Backup\], \[Multi-User\] or \[Backup & Multi-User\] to
+4. Or select \[Backup\], \[Multi-User\] or \[Backup & Multi-User\] to
 show a list of sessions which you can connect to. Click on the session
 to start the connection.
 
@@ -128,8 +128,7 @@ to start the connection.
     legends can be changed in the System menu using the \[Console
     Legend\] option.
 
-    ![Shell Slave](/docs/images/image100.png){width="4.694444444444445in"
-    height="0.2916666666666667in"}
+    ![Shell Slave](/docs/images/image100.png)
 
     Consoles connected in a multi-user session work on the same show. If
     the same handle worlds are selected then an action on one console is

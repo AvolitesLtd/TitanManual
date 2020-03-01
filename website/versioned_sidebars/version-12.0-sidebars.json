@@ -146,6 +146,7 @@
       "version-12.0-networking/connecting-the-arena-to-a-network",
       "version-12.0-networking/controlling-fixtures-over-a-network",
       "version-12.0-networking/using-active-fixtures",
+      "version-12.0-networking/using-active-fixtures-with-citp",
       "version-12.0-networking/a-quick-guide-to-ip-addressing"
     ],
     "Titan Commands": [

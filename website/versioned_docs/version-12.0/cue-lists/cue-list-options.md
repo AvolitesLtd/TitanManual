@@ -8,9 +8,9 @@ original_id: cue-list-options
 Cue list options are set from the Playback Options menu. You can enter
 the playback options menu by doing the following
 
-1\> At the top level menu press \[Playback Options\].
+1. At the top level menu press \[Playback Options\].
 
-2\> Press the select button for the cue list you wish to edit.
+2. Press the select button for the cue list you wish to edit.
 
 You can show the cue list options in a window by pressing \<View/Open\>
 then the Select button of the cue list, then click the Options tab.

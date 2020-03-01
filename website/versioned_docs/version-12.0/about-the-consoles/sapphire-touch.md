@@ -97,9 +97,4 @@ Right](/docs/images/image21.jpeg)
 On the right hand side are DVI/USB connections for another external
 touch screen (screen 3) and a general purpose USB connector.
 
-Power is connected in the middle of the rear panel
-
-*\
-*
-
-
+Power is connected in the middle of the rear panel.
