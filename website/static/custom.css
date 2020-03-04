@@ -72,3 +72,7 @@ blockquote {
   background-color: rgba(100, 188, 255, 0.3);
   border-left: 8px solid #64b0ff;
 }
+
+.docsNavContainer {
+  border-right: 2px solid rgb(218, 218, 218);
+}
