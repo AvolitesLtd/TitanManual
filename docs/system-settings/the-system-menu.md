@@ -1,7 +1,7 @@
 ---
 id: the-system-menu 
-title: The System menu
-sidebar_label: The System menu
+title: The System Menu
+sidebar_label: The System Menu
 ---
 
 The System menu is accessed by holding \<Avo\> and pressing Disk. Some
