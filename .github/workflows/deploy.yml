@@ -2,7 +2,7 @@ on:
   release:
     types: # This configuration does not affect the page_build event above
       - created
-        
+
 env:
   NODE_VERSION: '10.x'                # set this to the node version to use
 
@@ -32,3 +32,13 @@ jobs:
         ssh_options: ''
         src: 'website/build/Avolites\ Titan\ Documentation/'
         dest: 'root@176.58.122.97:/var/www/sites/avodocs/'
+    - name: AvoDeploy
+      uses: Pendect/action-rsyncer@v1.1.0
+      env:
+        DEPLOY_KEY: ${{secrets.AVO_DEPLOY_KEY}}
+      with:
+        flags: '-avzr --delete'
+        options: ''
+        ssh_options: ''
+        src: 'website/build/Avolites\ Titan\ Documentation/'
+        dest: 'root@51.104.240.248:/var/www/html/manuals/titan/'
