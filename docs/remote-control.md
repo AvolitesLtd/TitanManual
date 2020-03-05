@@ -15,7 +15,7 @@ device. This can be downloaded from the [Google Play store](https://play.google.
 Store](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps).
 
 > Make sure you install the correct version of the app to match the
-console software version, there are different apps for each version.
+console software version, **there are different apps for each version**.
 
 ![Titan Remote - Android App Screenshot](/docs/images/image309.png)
 
