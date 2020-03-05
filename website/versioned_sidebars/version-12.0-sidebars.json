@@ -129,7 +129,7 @@
     "System Settings": [
       "version-12.0-system-settings",
       "version-12.0-system-settings/the-system-menu",
-      "version-12.0-system-settings/external-dispays",
+      "version-12.0-system-settings/external-displays",
       "version-12.0-system-settings/key-profiles",
       "version-12.0-system-settings/user-settings",
       "version-12.0-system-settings/dmx-output-mapping",
@@ -139,7 +139,7 @@
       "version-12.0-system-settings/release-notes"
     ],
     "Fixture Personalities": [
-      "version-12.0-fixture-personalties"
+      "version-12.0-fixture-personalities"
     ],
     "Networking the Console": [
       "version-12.0-networking",

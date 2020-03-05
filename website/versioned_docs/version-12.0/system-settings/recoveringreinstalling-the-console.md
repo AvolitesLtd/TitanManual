@@ -1,67 +1,65 @@
 ---
 id: version-12.0-recovering-and-reinstalling-the-console
-title: Recovering & reinstalling the console
-sidebar_label: Recovering & reinstalling the console
+title: Recovering & Reinstalling the Console
+sidebar_label: Recovering & Reinstalling the Console
 original_id: recovering-and-reinstalling-the-console
 ---
 
 The console runs on an embedded PC system, and like all computers, there
 is a possibility of system failure. The console software can be reloaded
 using the recovery USB stick provided with the console, or you can
-download a recovery disk creator application from the "Downloads" tab on
-the Avolites website which will automatically create a recovery stick.
+download a recovery disk creator application from the [Downloads section of
+the Avolites website](https://www.avolites.com/software/latest-version) which will automatically create a recovery stick.
 
-It may take up to 60 minutes to reinstall the software on the console.
+> It may take up to 60 minutes to reinstall the software on the console.
 
 There are three types of recovery available:
 
-                      Version installed                Shows       Personalities      Licence
-  ------------------- -------------------------------- ----------- ------------------ -----------
-  Standard Recovery   Two most recent                  Preserved   Preserved          Preserved
-  Factory Restore     Recovery version + most recent   Deleted     Recovery version   Preserved
-  Full Erase          Recovery version                 Deleted     Recovery version   Deleted
+Recovery | Version installed | Shows | Personalities | Licence
+---|---|---|---|---
+Standard Recovery | Two most recent | Preserved |Preserved | Preserved
+Factory Restore | Recovery version + most recent | Deleted | Recovery version | Preserved
+Full Erase | Recovery version | Deleted | Recovery version| Deleted
 
-  ---------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![exclamation](/docs/images/image5.png)   Using "Factory Restore" or "Full Erase" will delete all settings and files from the console including show files and user personalities. Any files should be saved to a USB stick before continuing.
-  ---------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> Using **Factory Restore** or **Full Erase** will delete all settings and files from the console including show files and user personalities. Any files should be saved to a USB stick before continuing.
 
 Detailed instructions on creating and using a recovery stick can be
-found with the recovery creator on the Avolites website; depending on
+found with the recovery creator on the [Avolites website](https://www.avolites.com/software/); depending on
 the variety and age of your console there are a number of different
 methods required. The basic procedure is as follows:
 
 Installation Instructions
 -------------------------
 
-1. If recovering a version earlier than v11.1, you will need to set the
-console to boot from USB (see instructions on the Avolites website,
-which vary depending on your console)
+1. **If recovering a version earlier than v11.1**, you will need to set the
+console to boot from USB *(see instructions on the [Avolites website](https://www.avolites.com/software/),
+which vary depending on your console)*
 
 2. Start console and wait while the memory stick boots up, this can
 take up to 3 minutes.
 
 3. Once the memory stick has booted, the touch screen will display
-\'Welcome to (Console Name)\', touch Next to continue.
+\'Welcome to (Console Name)\', touch **Next** to continue.
 
-4. Please read to the bottom of the licence agreement then touch Agree
+4. Please read to the bottom of the licence agreement then touch **Agree**
 to accept.
 
-5. Select the type of recovery you want to perform (see table above)
+5. Select the type of recovery you want to perform *(see table above)*
 
 6. On the next screen check the serial number of the console - this is
 the number written on the back of the console and should be already
 filled in for you.
 
-7. Touching Install will then begin the recovery
+7. Touching **Install** will then begin the recovery
 
-8. Once complete unplug the memory stick and touch the Restart button.
+8. Once complete unplug the memory stick and touch the **Restart** button.
 
 After starting the console will install all the software and drivers
 required to run. This takes approximately 30 minutes to complete during
 which the console will reboot a number of times. Please do not switch
 off the console during this process.
 
-Software licensing
+Software Licensing
 ------------------
 
 From v12, the software is licensed using an AvoKey USB device.
