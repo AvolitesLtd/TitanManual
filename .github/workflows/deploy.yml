@@ -41,4 +41,4 @@ jobs:
         options: ''
         ssh_options: ''
         src: 'website/build/Avolites\ Titan\ Documentation/'
-        dest: 'root@51.104.240.248:/var/www/html/manuals/titan/'
+        dest: 'web@51.104.240.248:/var/www/html/manuals/titan/'
