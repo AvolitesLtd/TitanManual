@@ -91,10 +91,30 @@ The blue or grey key can be allocated to **Disabled**, **Flash**,
 
 ### Cue Lists
 
-The blue or grey key can be allocated to **Disabled**, **Flash**,
-**Swop**, **Go**, **Go Back**, **Stop**, **Preload**, **Connect**, **Next Cue +**, **Next Cue -**,
-**Review Live Cue**, **Cut Next Cue To Live**, **Snap Back**, **Flash and Go**, **Timed
-Flash and Go**, **Release**.
+These affect [playback of cue lists](../cue-lists/cue-list-playback) and can be assigned to the handle's buttons:
+
+Setting | Action
+---|---
+Disabled | The button will do nothing
+Flash | All dimmer levels in the cue will flash to programmed level, when released the levels will return to previous level
+Flash and Go | *As Flash*, but when button released the cue list will advance to the next cue
+Timed Flash | *As Flash*, but fade in and out times will follow the cue times set
+Timed Flash and Go | *As Flash and Go*, but cue list will advance on release
+Swop | *As Flash*, but all other fixtures will black out
+Latch | *As Flash*, but dimmers will remain active until button pressed again
+Go | Cue list will advance to next cue using times
+Stop | Stops all fades in the cue list at their current point
+Preload | LTP channels of non-illuminated fixtures will move to positions in next cue
+Connect | Connects this cue list to controls *(same as pressing \<Connect\> then select button of cue list)*
+Tap Tempo | Set speed parameter by tapping the button
+Next Cue - | Press repeatedly to select the next cue to be output, going backwards
+Next Cue + | Press repeatedly to select next cue to output, going forwards
+Review Live Cue | Replays the current cue using fade times
+Cut Next Cue to Live | Output the cue as selected using above
+Snap Back | Cue list will snap back to previous cue without times
+Go Back | Cue list will go back to previous cue using fade times
+Release | Release the playback using programmed release time
+Select If | Press to select all fixtures used in the current cue
 
 ### Macros
 Can be set to **Select** or **Prefer Macro** (the Macro function
@@ -134,5 +154,3 @@ playback. The Key Profile for the playback is selected using the
 \[Handles\] option on Playback Options. If the playback Key Profile is
 set to \[Global\], the default global profile for Cue / Chase / Cue List
 is used.
-
-
