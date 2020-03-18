@@ -1,5 +1,5 @@
 ---
-id: recovering-and-reinstalling-the-console 
+id: recovering-reinstalling-the-console 
 title: Recovering & Reinstalling the Console
 sidebar_label: Recovering & Reinstalling the Console
 ---

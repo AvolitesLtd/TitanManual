@@ -1,14 +1,14 @@
 ---
 id: creating-reports
-title: Creating reports
-sidebar_label: Creating reports
+title: Creating Reports
+sidebar_label: Creating Reports
 ---
 
 When preparing a show it is often useful to create a report of how the
 show is patched or programmed on the console, for example to give to a
 crew when pre-rigging fixtures, or just for your records.
 
-![](/docs/images/image110.png)
+![Exported Report](/docs/images/image110.png)
 
 Reports can be created in HTML, PDF, CSV or XML formats for the
 following:
@@ -40,9 +40,9 @@ To generate reports:
 Reports are stored in the following folders:
 
 PC suite (Editor/simulator, Titan Mobile., Titan Go):
-Documents/Titan/Reports
+`Documents/Titan/Reports`
 
-All other consoles: D:/Data/Reports
+All other consoles: `D:/Data/Reports`
 
 When the report is complete, Titan will open the folder where the report
 is stored so you can see where it went.

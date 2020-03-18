@@ -1,7 +1,7 @@
 ---
 id: clearing-the-console
-title: Clearing the console
-sidebar_label: Clearing the console
+title: Clearing the Console
+sidebar_label: Clearing the Console
 ---
 
 When you start a new show on Titan it is usually a good idea to clear
