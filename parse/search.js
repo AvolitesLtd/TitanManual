@@ -41,7 +41,10 @@ getFiles('../docs').then((filenames) => {
           url = url.trim();
           url = url.replace(/ /g, "-");
           url = url.replace(/--/g, "-");
+          url = url.replace(/-+$/g, "");
+
           url = filename.replace(".md", "") + "#" + url;
+          //console.log(url.trim("-"));
           content = content.substring(match.index + match[0].length - 1, content.length - 1);
         } catch (ex) {
           console.log(ex);
