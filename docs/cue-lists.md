@@ -1,5 +1,5 @@
 ---
-id: cue-lists 
+id: cue-lists
 title: Cue Lists
 sidebar_label: Cue Lists
 ---
@@ -28,6 +28,4 @@ To view the contents of a cue list, touch the playback screen relating
 to the fader or press \<Open/View\> then the **swop button** of the
 playback.
 
-![Playback View of Cuelist](/docs/images/image252.png)
-
-
+![Playback View of Cue List](/docs/images/image252.png)

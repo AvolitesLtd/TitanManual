@@ -137,10 +137,10 @@ cue.
 >   **100%** means all fixtures fade together *(the normal setting)*.
 >
 >   **0%** means that the first fixture will finish its fade before the next
-    one starts.
+>   one starts.
 >
 >   **50%** means that the 2^nd^ fixture will start fading when
-    the first one is half way through its fade.
+>   the first one is half way through its fade.
 
 To change the fixture order when using overlap, press \[Set Fixture
 Order\]. Normally this is the order in which you selected the

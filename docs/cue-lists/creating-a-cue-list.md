@@ -1,5 +1,5 @@
 ---
-id: creating-a-cue-list 
+id: creating-a-cue-list
 title: Creating a Cue List
 sidebar_label: Creating a Cue List
 ---
