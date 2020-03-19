@@ -76,3 +76,13 @@ blockquote {
 .docsNavContainer {
   border-right: 2px solid rgb(218, 218, 218);
 }
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}

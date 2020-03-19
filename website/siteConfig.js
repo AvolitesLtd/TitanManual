@@ -66,6 +66,12 @@ const siteConfig = {
     theme: 'default',
   },
 
+  markdownPlugins: [
+    function foo(md) {
+      md.inline.ruler.enable(['sub', 'sup']);
+    },
+  ],
+
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [
     'https://buttons.github.io/buttons.js',
