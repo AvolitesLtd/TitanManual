@@ -67,7 +67,7 @@ const siteConfig = {
   },
 
   markdownPlugins: [
-    function foo(md) {
+    function enableSubscriptAndSuperscript(md) {
       md.inline.ruler.enable(['sub', 'sup']);
     },
   ],
