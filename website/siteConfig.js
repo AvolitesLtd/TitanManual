@@ -34,7 +34,7 @@ const siteConfig = {
   ],
 
   /* path to images for header/footer */
-  headerIcon: 'img/avo.png',
+  headerIcon: 'img/Avolites_Logo_White.svg',
   footerIcon: 'img/avo.png',
   favicon: 'img/favicon.ico',
 
