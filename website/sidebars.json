@@ -22,7 +22,6 @@
     ],
     "Titan Basics": [
       "titan-basics",
-      "titan-basics/connecting-up",
       "titan-basics/controlling-dimmers-and-fixtures",
       "titan-basics/workspace-windows",
       "titan-basics/other-parts-of-the-touch-screen",
@@ -135,7 +134,7 @@
       "system-settings/dmx-output-mapping",
       "system-settings/curves",
       "system-settings/upgrading-the-software",
-      "system-settings/recovering-and-reinstalling-the-console",
+      "system-settings/recovering-reinstalling-the-console",
       "system-settings/release-notes"
     ],
     "Fixture Personalities": [

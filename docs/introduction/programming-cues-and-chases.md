@@ -1,10 +1,10 @@
 ---
-id: programming-cues-and-chases 
+id: programming-cues-and-chases
 title: Programming cues and chases
 sidebar_label: Programming cues and chases
 ---
 
-### Cues
+## Cues
 
 Set up the look to be recorded.
 
@@ -17,11 +17,11 @@ nonzero dimmer), or \[Quick Build\] (merges palettes and playbacks into
 the cue when you select them).
 
 To store, press a blue Select button on fader, or press button in
-Playbacks window. (Section 8.1.2, on p198).
+Playbacks window. (See [Creating a Cue](../cues/creating-a-cue)).
 
-### Chases
+## Chases
 
-Press \<Record\> twice (or \<Record\> then \[Create Chase\].
+Press \<Record\> twice (or \<Record\> then \[Create Chase\]).
 
 Press blue Select button on a fader, or press button in Playbacks
 window.
@@ -30,9 +30,9 @@ Set up the look for the first step, press playback select button to
 store. Repeat until all steps stored. Quick Build mode can be used to
 merge palettes and cues into chase steps.
 
-Press \<Exit\> to finish storing chase steps. (Section 9.1.1, p221).
+Press \<Exit\> to finish storing chase steps. (See [Programming Chases](../chases/creating-a-chase#programming-a-chase)).
 
-### Timings
+## Timings
 
 All times (cue times and fixture attribute times) are stored in the
 programmer and are saved when you store a cue.
@@ -53,13 +53,12 @@ together, 0%=fixture waits for previous one to complete).
 
 \[Attribute times\] sets individual fade times for different attributes.
 
-\[Fixture order\] changes sequence for shapes and Overlap. (Section 9.5,
-p227).
+\[Fixture order\] changes sequence for shapes and Overlap.
 
-### Cue Lists
+See [Cue Timing](../cues/cue-timing)
 
-Cues may be stored in a Cue List which allows a full show to be run from
-a Go button. Chases can be included using Autoload. Cue lists can run in
+## Cue Lists
+
+Cues may be stored in a [Cue List](../cue-lists/creating-a-cue-list) which allows a full show to be run from
+a Go button. Chases can be included using [Autoload](../cue-lists/creating-a-cue-list#autoloading-a-playback-within-a-cue-list). Cue lists can run in
 tracking or non-tracking mode, set from \[Playback Options\].
-
-

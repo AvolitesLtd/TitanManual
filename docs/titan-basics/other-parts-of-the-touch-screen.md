@@ -1,5 +1,5 @@
 ---
-id: other-parts-of-the-touch-screen 
+id: other-parts-of-the-touch-screen
 title: Other parts of the touch screen
 sidebar_label: Other parts of the touch screen
 ---
@@ -30,7 +30,7 @@ the background is the system prompt area which shows instructions to the
 user and information from the console. The last commands you used are
 also shown here, for use with the Undo function.
 
-![systemarea](/docs/images/image85.png)
+![Prompt Area](/docs/images/image85.png)
 
 On the screen above the control wheels, the current function of the
 wheels is shown on a simulated roller. If fixture attributes are being
@@ -43,7 +43,7 @@ the attribute to maximum/minimum.
 If a chase is being controlled, information about the chase is shown
 here.
 
-![](/docs/images/image86.png)
+![Wheels](/docs/images/image86.png)
 
 To the right of (Sapphire Touch) or above (other consoles) the roller,
 the screen shows which attribute group (IPCGBESFX or Intensity,
@@ -53,8 +53,10 @@ box) and which are currently modified (blue circle).
 The appearance of the softkeys varies to indicate the type of actions
 available:
 
-  ![](/docs/images/image87.png)                                                                                             
-  ------------------------------------------------------------------------------------------ -------------------------------------------------- -------------------------------------- ------------------------------------------------------------------
+  ![Softkey](/docs/images/image87.png)                                                                                             
+
+----------------
+
   Action button: console will carry out the action shown                                     Option button: cycles through a range of options   New menu button: jumps to a new menu   Text entry button: press and enter text using the touch keyboard
 
 The toolbar
@@ -63,12 +65,12 @@ The toolbar
 On all consoles except Sapphire Touch, across the very top of the screen
 is the toolbar.
 
-![](/docs/images/image91.png)
+![Tools Menu](/docs/images/image91.png)
 
 On Sapphire Touch the toolbars are shown vertically where the 2 screens
 meet in the middle.
 
-![](/docs/images/image92.png)
+![Sapphire Tools Menu](/docs/images/image92.png)
 
 If you click/touch on \'Tools\', you will get a menu giving you access
 to some configuration functions (these options may change slightly
@@ -84,7 +86,7 @@ the system. The \'More...\' option opens Windows Control Panel allowing
 you to change the operating system configuration.
 
 **Touch Screen Setup** (in Control Panel) opens the setup utility which
-allows you to align touch positions on the screen. See next section.
+allows you to align touch positions on the screen.
 
 **Usb Expert Console** (in Control Panel) sets up the connection between
 the front panel controls and the software. If you are having problems
@@ -100,7 +102,7 @@ screens. Touch the Centre icon to centre the window on the screen. Touch
 Close to close the program. The appearance of this window varies
 depending on the console.
 
-![](/docs/images/image93.png)
+![Switch Task](/docs/images/image93.png)
 
 **Switch Software** allows you to run different versions of Titan
 software (which you will need to install yourself, different versions
@@ -117,9 +119,7 @@ software.
 The toolbar also has a keyboard button allowing you to pop up the touch
 keyboard.
 
-  --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   Toolbars are not provided on Titan Mobile or Titan Go as all these functions can be carried out using standard Windows operations.
-  --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------
+> Toolbars are not provided on Titan Mobile or Titan Go as all these functions can be carried out using standard Windows operations.
 
 The Heads-Up Display (HUD)
 --------------------------
@@ -130,20 +130,18 @@ and buttons) on the console.
 Fixtures are highlighted in dark blue if in the programmer and in light
 blue if selected.
 
-![](/docs/images/image95.png)
+![HUD](/docs/images/image95.png)
 
 Visualiser
 ----------
 
-![](/docs/images/image96.png)
+![Visualiser](/docs/images/image96.png)
 
-Capture visualiser is integrated into Titan from v10. .
+Capture visualiser is integrated into Titan from v10.
 
-The visualiser gives you a realistic view of the stage, allowing you to
+The [visualiser](../capture-visualiser.md) gives you a realistic view of the stage, allowing you to
 pre-program or make changes to your show at home or in your hotel. It
 can also be used in Blind mode for programming during a show.
-
-The visualiser is described in detail in chapter 11 on page 257.
 
 Undo/Redo
 ---------
@@ -151,7 +149,7 @@ Undo/Redo
 A short list of recent actions is shown in the prompt area to the left
 of the menu.
 
-![systemarea](/docs/images/image85.png)
+![System Area](/docs/images/image85.png)
 
 You can undo and redo recent actions (including fixture and cue changes)
 by touching the prompt area. This will automatically open the Undo
@@ -160,7 +158,7 @@ History window which shows a more detailed list of actions you can undo.
 The current action is shown in red in the Undo window and in bold in the
 prompt.
 
-![undowindow](/docs/images/image97.png)
+![Undo Window](/docs/images/image97.png)
 
 You can touch this window to undo all actions up to the one you touch.
 Once actions have been undone they are shown greyed out, and can be
@@ -172,11 +170,9 @@ to step through the list.
 Some actions cannot be undone which is indicated with the "not allowed"
 symbol as shown below.
 
-![undocantundo](/docs/images/image98.png)
+![Undo Cant Undo](/docs/images/image98.png)
 
 If you are in multi-user mode, the Undo History can show a column for
-each user with undo points for that user -- open the Context menu and
+each user with undo points for that user - open the Context menu and
 select \[Show All Users and Consoles\]. The default setting is \[Show
 Only Current User\].
-
-

@@ -73,6 +73,20 @@ blockquote {
   border-left: 8px solid #64b0ff;
 }
 
+.docsNavContainer {
+  border-right: 2px solid rgb(218, 218, 218);
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
 .softkey, .key {
   display: inline-block;
   margin: 3px;

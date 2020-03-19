@@ -36,7 +36,7 @@ const siteConfig = {
   ],
 
   /* path to images for header/footer */
-  headerIcon: 'img/avo.png',
+  headerIcon: 'img/Avolites_Logo_White.svg',
   footerIcon: 'img/avo.png',
   favicon: 'img/favicon.ico',
 
@@ -77,6 +77,9 @@ const siteConfig = {
       md.renderer.rules.button_open = custom_rules.button_open
       md.renderer.rules.button_close = custom_rules.button_close
     },
+    function enableSubscriptAndSuperscript(md) {
+      md.inline.ruler.enable(['sub', 'sup']);
+    },
   ],
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -93,8 +96,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/undraw_online.svg',
-  twitterImage: 'img/undraw_tweetstorm.svg',
+  ogImage: 'img/avolites_share.jpg',
+  twitterImage: 'img/avolites_share.jpg',
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
