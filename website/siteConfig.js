@@ -8,6 +8,8 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
+require('./custom_rules.js');
+
 const siteConfig = {
   title: 'Avolites Titan Manual', // Title for your website.
   tagline: 'Official Manual for the Avolites Titan software',
@@ -65,6 +67,17 @@ const siteConfig = {
     // Highlight.js theme to use for syntax highlighting in code blocks.
     theme: 'default',
   },
+
+  markdownPlugins: [
+    function buttonStyling(md) {
+      md.inline.ruler.before('text',"softkey", custom_rules.softkeyRule)
+      md.renderer.rules.softkey_open = custom_rules.softkey_open
+      md.renderer.rules.softkey_close = custom_rules.softkey_close
+      md.inline.ruler.before('text',"button", custom_rules.buttonRule)
+      md.renderer.rules.button_open = custom_rules.button_open
+      md.renderer.rules.button_close = custom_rules.button_close
+    },
+  ],
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [
