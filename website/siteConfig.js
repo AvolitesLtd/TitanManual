@@ -8,7 +8,7 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
-require('./custom_rules.js');
+var custom_rules = require('./custom_rules.js');
 
 const siteConfig = {
   title: 'Avolites Titan Manual', // Title for your website.
@@ -70,10 +70,10 @@ const siteConfig = {
 
   markdownPlugins: [
     function buttonStyling(md) {
-      md.inline.ruler.before('text',"softkey", custom_rules.softkeyRule)
+      custom_rules.keyRule(md,"softkey","\\[","\\]","softkey_open","softkey_close")
       md.renderer.rules.softkey_open = custom_rules.softkey_open
       md.renderer.rules.softkey_close = custom_rules.softkey_close
-      md.inline.ruler.before('text',"button", custom_rules.buttonRule)
+      custom_rules.keyRule(md,"button","\\<","\\>","button_open","button_close")
       md.renderer.rules.button_open = custom_rules.button_open
       md.renderer.rules.button_close = custom_rules.button_close
     },
