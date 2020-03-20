@@ -97,6 +97,11 @@ sub {
   font-weight: 400;
   line-height: 1.2em;
   text-decoration: none !important;
+  font-style: normal !important;
+}
+
+a .softkey, a .key {
+  color: inherit !important;
 }
 
 .softkey {
