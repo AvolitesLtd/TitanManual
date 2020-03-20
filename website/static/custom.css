@@ -86,3 +86,34 @@ sub {
   vertical-align: sub;
   font-size: smaller;
 }
+
+.softkey, .key {
+  display: inline-block;
+  margin: 3px;
+  padding: 3px 7px;
+  border: 1px solid;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-decoration: none !important;
+  font-style: normal !important;
+}
+
+a .softkey, a .key {
+  color: inherit !important;
+}
+
+.softkey {
+  border-radius: 5px;
+  background: #ecedf9;
+  border-color: #98a0dd;
+  color: #262f73;
+}
+
+.key {
+  background: #f2f2f2;
+  border-color: #bababa;
+  color: #4d4d4d;
+  text-transform: uppercase;
+}
