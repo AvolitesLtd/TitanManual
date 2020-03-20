@@ -47,9 +47,6 @@
       "controlling-fixtures/fixture-groups",
       "controlling-fixtures/advanced-options"
     ],
-    "Playback Options": [
-      "playback-options"
-    ],
     "Palettes": [
       "palettes",
       "palettes/creating-palettes",
@@ -73,7 +70,8 @@
       "cues/using-a-cue",
       "cues/editing-cues",
       "cues/cue-timing",
-      "cues/copying-moving-linking-and-deleting"
+      "cues/copying-moving-linking-and-deleting",
+      "cues/playback-options"
     ],
     "Chases": [
       "chases",

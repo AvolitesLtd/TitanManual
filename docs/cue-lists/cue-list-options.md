@@ -4,7 +4,7 @@ title: Cue List Options
 sidebar_label: Cue List Options
 ---
 
-Cue list options are set from the [Playback Options menu](../playback-options.md). You can enter
+Cue list options are set from the [Playback Options menu](../cues/playback-options.md). You can enter
 the playback options menu by doing the following:
 
 1. At the top level menu press \[Playback Options\]
@@ -14,12 +14,12 @@ the playback options menu by doing the following:
 You can show the cue list options in a window by pressing \<View/Open\>
 then the **Select** button of the cue list, then click the **Options** tab.
 
-The Cue List options are mostly the same as for [Cues](../playback-options.md) and [Chases](../chases/chase-options.md), only
+The Cue List options are mostly the same as for [Cues](../cues/playback-options.md) and [Chases](../chases/chase-options.md), only
 the additional Cue List options are described here.
 
 ## Playback Tab
 
-Most options are described in [Playback Options](../playback-options.md), but these
+Most options are described in [Playback Options](../cues/playback-options.md), but these
 are additional options for cue lists:
 
 ### Tracking
@@ -54,7 +54,7 @@ Loop | Cue list will go back to first cue after the last.* If Move in Dark is en
 
 ## Handle Tab
 
-All these options are described in [Playback Options](../playback-options.md##handle-tab).
+All these options are described in [Playback Options](../cues/playback-options.md##handle-tab).
 
 ## Fader Tab
 
@@ -73,11 +73,11 @@ the fader is raised.
 
 ## Effects Tab
 
-All these options are described in [Playback Options](../playback-options.md#effects-tab).
+All these options are described in [Playback Options](../cues/playback-options.md#effects-tab).
 
 ## Release Tab
 
-Release Mask and Release Time are described in the [Playback Options](../playback-options.md#release-tab).
+Release Mask and Release Time are described in the [Playback Options](../cues/playback-options.md#release-tab).
 
 ### Cue Release
 Allows you to create an overlay cue list with gaps in
