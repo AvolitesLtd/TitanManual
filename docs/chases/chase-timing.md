@@ -45,7 +45,7 @@ program a chase with two cues involving several fixtures, then
 experiment with the overlap settings to see the various *"roll"* and *"peel
 off"* effects which result.
 
-The following diagram shows you the effects of cue overlap, fixture
+The following diagram shows you the effects of fixture
 overlap and attribute overlap in chases.
 
 ![Fixture Overlap and Attribute Overlap diagram for a chase](/docs/images/image250.png)
@@ -60,8 +60,6 @@ a range of fixtures.\
 fading when the first one is half way through its fade.\
 The order of the fixtures is set by the order you selected them when the cue was
 saved; you can change the order using \<Unfold\>.
-
-> From version 3 of Titan software, \[Cue Overlap\] is no longer available in chases. Instead use a Cue List set to *"Link With Previous"* and set the Offset as desired.
 
 Individual Cue Times in Chases
 ------------------------------
