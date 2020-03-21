@@ -73,8 +73,21 @@ Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to
 
 ### Run On Startup
 Sets this playback to run when the console powers
-on. This can be disabled by the [Auto Run Startup Playbacks](../system-settings/user-settings.md#run-startup-playbacks) option in
+on. This can be disabled by the 
+[Auto Run Startup Playbacks](../system-settings/user-settings.md#run-startup-playbacks) option in
 [User Settings](../system-settings/user-settings.md) *(turned on by default)*.
+
+This can be very useful for **unattended applications** to set up an 
+**initial lighting state**, or to run **lamp on macros**.
+
+Power on playbacks show a Power symbol watermark in the playback
+information area above the fader. If you open the 
+[Show Library window](../titan-basics/show-library.md)
+there is a filter tab to Show Startup
+Playbacks which allows you to list all the playbacks which are set to
+run on startup.
+
+![Power On Playback](/docs/images/image237.png)
 
 ### Speed
 Default speed for this playback in BPM. This can be
