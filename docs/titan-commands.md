@@ -1,7 +1,7 @@
 ---
 id: titan-commands
-title: Titan Commands quick reference
-sidebar_label: Titan Commands quick reference
+title: Titan Commands Quick Reference
+sidebar_label: Titan Commands Quick Reference
 ---
 
 Please note that some commands may require \<Enter\> to complete the
