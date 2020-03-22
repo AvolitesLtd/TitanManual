@@ -6,7 +6,7 @@ sidebar_label: Arena
 
 The Arena has five main control areas:
 
-![](/docs/images/image22.jpeg)
+![Arena](/docs/images/image22.jpeg)
 
 The **Touch screen** contains fixture, palette and group select buttons.
 It also shows legends for the playback faders and shows the current menu
@@ -22,9 +22,9 @@ allow storage of frequent key sequences.
 
 The **Programming and setup controls** configure and program the console
 
-![](/docs/images/image24.jpeg)
+![Arena](/docs/images/image24.jpeg)
 
-**The main controls**
+## The Main Controls
 
 The **Workspace windows** on the touch screen contain touch buttons for
 fixtures, palettes, groups, playbacks, macros and more. You can also set
@@ -81,16 +81,16 @@ using the Control wheels. The buttons have lights on to show you which
 attributes are active. The bottom (red) button allows you to locate
 fixtures, which sets them to a known start position while programming.
 
-**The back panel (shown split into 3 parts)**
+## The Back Panel
 
 USB and reset buttons\
-![Arena\_revB\_backPanel](/docs/images/image26.jpeg)
+![Arena Back Panel](/docs/images/image26.jpeg)
 
 Monitor and network\
-![Arena\_revB\_backPanel](/docs/images/image27.jpeg)
+![Arena Back Panel](/docs/images/image27.jpeg)
 
 DMX and MIDI\
-![Arena\_revB\_backPanel](/docs/images/image28.jpeg)
+![Arena Back Panel](/docs/images/image28.jpeg)
 
 All the connections required for the console are found on the back
 panel. There are 8 DMX outputs on 5-pin XLR, MIDI in/out/thru on 5-pin
@@ -109,13 +109,12 @@ The UPS battery disconnect switch cuts off the power to the console when
 it is running on UPS, in the unlikely event of a complete lock up that
 can\'t be recovered by holding down the power switch.
 
-  ---------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![exclamation](/docs/images/image5.png)   Using the battery disconnect switch will also power down the inbuilt network switch (TNS). Be aware of this if you are running from a backup console connected via the network switch.
-  ---------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  >   Using the battery disconnect switch will also power down the inbuilt network switch (TNS). Be aware of this if you are running from a backup console connected via the network switch.
+
 
 The Arena console has adjustable legs to angle the console for easier
 operation. Lift the rear of the console and press the Leg Release button
 at each side to set the leg to the desired height. Make sure you support
 the rear of the console when adjusting the height.
 
-![](/docs/images/image29.jpeg)
+![Arena Leg](/docs/images/image29.jpeg)

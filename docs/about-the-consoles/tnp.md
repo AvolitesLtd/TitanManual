@@ -1,10 +1,10 @@
 ---
-id: tnp-(titan-net-processor) 
+id: tnp
 title: TNP (Titan Net Processor)
 sidebar_label: TNP (Titan Net Processor)
 ---
 
-![](/docs/images/image47.jpeg)
+![TNP](/docs/images/image47.jpeg)
 
 The TitanNet Processor is the insides of a console without the control
 surface. It allows you to expand the number of DMX lines in a show
@@ -19,6 +19,4 @@ you can operate it using the Titan Go screen. It can load shows which
 have been created on a full console. You can also use a console in
 multi-user mode to create shows directly on the TNP.
 
-Section 15 covers the operation of TNP.
-
-
+More information about using TNPs can be found [here](../titan-net).

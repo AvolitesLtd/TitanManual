@@ -4,7 +4,7 @@ title: Tiger Touch
 sidebar_label: Tiger Touch
 ---
 
-![](/docs/images/image30.jpeg)
+![Tiger Touch](/docs/images/image30.jpeg)
 
 The Tiger Touch has four main control areas:
 
@@ -20,12 +20,12 @@ The **Preset playbacks** give you additional (unpaged) playbacks and the
 The **Programming and setup controls** configure and program the
 console.
 
-(Note: The Mk.1 version of the Tiger Touch has a slightly different
-front panel layout)
+> The Mk.1 version of the Tiger Touch has a slightly different
+front panel layout
 
-![](/docs/images/image30.jpeg)
+![Tiger Touch](/docs/images/image30.jpeg)
 
-**The main controls**
+## The Main Controls
 
 The **Workspace windows** on the touch screen contain touch buttons for
 fixtures, palettes, groups, playbacks, macros and more. You can also set
@@ -36,7 +36,7 @@ centre of the console and shows you what is going on. This part of the
 display shows various screens of information depending on what you are
 currently doing.
 
-The **Menu Softkeys** (labelled A -- G) are used to select control
+The **Menu Softkeys** (labelled A - G) are used to select control
 options. The display next to the buttons shows what each one will do.
 The options for each key change depending on what the console is doing.
 Softkey commands are shown in the manual with square brackets like this:
@@ -67,7 +67,7 @@ The **Control wheels** are used to set control values (attributes) for
 the fixtures, and to set chase speeds and fades. The touch screen above
 the wheels shows information about the attributes being controlled.
 Press the **Window Scroll Button** to switch the wheels into scroll mode
--- this is used to move a selection box around the screen when editing.
+- this is used to move a selection box around the screen when editing.
 
 The **Numeric keypad** and other control buttons are used to enter
 values and change controls on the console.
@@ -82,9 +82,9 @@ using the Control wheels. The buttons have lights on to show you which
 attributes are active. The bottom (red) button allows you to locate
 fixtures, which sets them to a known start position while programming.
 
-![](/docs/images/image32.png)
+![Tiger Touch Back Panel](/docs/images/image32.png)
 
-**The back panel**
+## The Back Panel
 
 All the connections required for the console are found on the back
 panel. Most are self-explanatory.
