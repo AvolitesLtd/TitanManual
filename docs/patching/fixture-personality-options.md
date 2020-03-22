@@ -1,12 +1,12 @@
 ---
-id: fixture-personality-options 
-title: Fixture personality options
-sidebar_label: Fixture personality options
+id: fixture-personality-options
+title: Fixture Personality Options
+sidebar_label: Fixture Personality Options
 ---
 
 All of the options below can also be set from the Patch View window.
 
-Swap pan and tilt
+Swap Pan and Tilt
 -----------------
 
 This allows you to make the pan channel control tilt and the tilt
@@ -25,7 +25,7 @@ fixtures.
 
 5. Press \<Exit\> when finished.
 
-Invert attributes
+Invert Attributes
 -----------------
 
 This option inverts individual attributes of fixtures. Useful if you
@@ -45,7 +45,7 @@ the rig to set fixture options, but you can invert any attribute.
 
 6. Press \<Exit\> to finish.
 
-![](/docs/images/image129.png)
+![Tilt Inverted](/docs/images/image129.png)
 
 -   You can change the invert on multiple fixtures by selecting more
     than one, but the "Inverted" display will not show if there is a
@@ -56,7 +56,7 @@ the rig to set fixture options, but you can invert any attribute.
 -   Invert can also be set from the Attribute Behaviour tab of the Patch
     View window.
 
-Attribute limits
+Attribute Limits
 ----------------
 
 You can set upper and lower limits for any attribute. This can be useful
@@ -144,10 +144,10 @@ setting is Linear.
 
 6. Press \<Exit\> when finished.
 
-See section 16.6 on page 328 for details of the different curves
+See the [curves section](../system-settings/curves.md) for details of the different curves
 available.
 
-Freeze fixtures or attributes
+Freeze Fixtures or Attributes
 -----------------------------
 
 This option allows you to freeze individual attributes of a fixture, or
@@ -171,7 +171,7 @@ the whole fixture. Frozen attributes are indicated on the softkey.
 -   A "Frozen" watermark is shown on the wheel display when an attribute
     is frozen.
 
-Editing the personality
+Editing the Personality
 -----------------------
 
 Sometimes you may want to modify the way a fixture behaves, or you may
@@ -201,8 +201,4 @@ console.
 -   A separate user guide for Personality Builder is available from the
     Avolites website.
 
-  --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   If you find a problem in a fixture personality provided by Avolites, please let us know using the bug report form in the Personality section of the website..
-  --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
+> If you find a problem in a fixture personality provided by Avolites, please let us know using the bug report form in the Personality section of the website.

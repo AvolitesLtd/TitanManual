@@ -1,5 +1,5 @@
 ---
-id: fixture-personalities 
+id: fixture-personalities
 title: Fixture Personalities
 sidebar_label: Fixture Personalities
 ---
@@ -26,7 +26,7 @@ been created. You should look here first if the console does not contain
 a personality for your fixture. The address is
 http://personalities.avolites.com
 
-![](/docs/images/image353.png)
+![Personality Website](/docs/images/image353.png)
 
 All available fixture personalities are listed down the left side of the
 screen. You can use the boxes on the top left to filter the list to show
@@ -100,19 +100,17 @@ software, you can create your own personality if you wish to modify the
 behaviour of a standard personality or you have a fixture the console
 has never heard of and need to get it working quickly.
 
-  --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   The console loads the fixture library into memory when the Patch option is first used, so after creating a new personality you need to restart the console software from the Tools menu or it will not show up.
-  --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> The console loads the fixture library into memory when the Patch option is first used, so after creating a new personality you need to restart the console software from the Tools menu or it will not show up.
 
 You can incorporate your custom personality into the standard fixture
 library on the console, however there is a danger that it will be
 overwritten when you next update the Fixture Library from Avolites.
 
 To avoid this the console provides a special folder for user-provided
-personalities located at D:\\Personalities
+personalities located at: `D:\Personalities`
 
 If you are using Titan Mobile, Titan Go or the Titan Simulator, the
-folder is located at \\Documents\\Titan\\Personalities
+folder is located at: `\Documents\Titan\Personalities`
 
 When patching fixtures, this folder is searched first before the
 library. If a suitable Fixture Personality is found, the console will
@@ -164,5 +162,3 @@ VDim + 4xRGB\
 VDim is a virtual overall dimmer channel for fixtures without a DMX
 dimmer control. When you use the Dimmer attribute the console will
 adjust the RGB levels accordingly.
-
-

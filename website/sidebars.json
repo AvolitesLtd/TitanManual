@@ -37,7 +37,8 @@
       "patching",
       "patching/patching-new-fixtures-or-dimmers",
       "patching/changing-the-patch",
-      "patching/copying,-moving-and-deleting-fixtures",
+      "patching/copying-moving-and-deleting-fixtures",
+      "patching/fixture-personalities",
       "patching/fixture-personality-options"
     ],
     "Controlling Fixtures": [
