@@ -41,7 +41,7 @@ in the programmer will override the playback).
     fade time is programmed the LTP channels will start to fade; if
     there is no fade time they will snap to position *(unless the cue is
     set to Mode 2 in which case they fade with the fader position; see
-    the timings section [Fader Modes](cue-timing.md#fader-modes) for details of modes)*.
+    the timings section [Fader Modes](cue-timing.md#fade-modes) for details of modes)*.
 
 -   You can **Flash** the cue by pressing the grey flash button. You can
     **Swop** (solo) the cue by pressing the blue Swop button (all other

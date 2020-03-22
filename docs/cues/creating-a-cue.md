@@ -157,8 +157,8 @@ with future cues.
 Convert Cue to Chase or Cue List
 --------------------------------
 
-If you want to convert an existing cue into [chase](../chase.md) or 
-[cue list](../cue-list.md) by adding
+If you want to convert an existing cue into [chase](../chases.md) or 
+[cue list](../cue-lists.md) by adding
 further steps, press \<Record\>, select the cue, then select \[Convert
 to Chase\] (or Cue List). The existing cue will become cue 1 and the
 contents of the programmer will become a new cue 2.

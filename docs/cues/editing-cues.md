@@ -1,5 +1,5 @@
 ---
-id: editing-cues 
+id: editing-cues
 title: Editing Cues
 sidebar_label: Editing Cues
 ---

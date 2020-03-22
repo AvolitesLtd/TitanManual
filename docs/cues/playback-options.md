@@ -11,7 +11,7 @@ will also open giving a touch-friendly version of the playback options.
 
 ![Playback Options window for cue showing playback tab](/docs/images/image244.png)
 
-Click on the **i** button for a help window on each setting.
+Click on the \[i\] button for a help window on each setting.
 
 > You can select multiple playbacks if you want to set the options the
 same on all of them. The current option settings will be shown if they
