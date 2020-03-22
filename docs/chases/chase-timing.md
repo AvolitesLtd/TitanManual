@@ -1,102 +1,107 @@
 ---
-id: chase-timing 
-title: Chase timing
-sidebar_label: Chase timing
+id: chase-timing
+title: Chase Timing
+sidebar_label: Chase Timing
 ---
 
-Global timings for chases
+Global Timings for Chases
 -------------------------
 
 When a chase is first programmed, each cue in the chase has identical
 timing. This is called the global timing for the chase. If you want you
-can then set each cue to have its own timings using the Playback View
-window or Unfold. This is described in the next section.
+can then set each cue to have its own timings using the [Playback View
+window](editing-a-chase.md#opening-a-chase-for-editing) or 
+[Unfold](editing-a-chase.md#editing-a-chase-using-unfold). This is 
+described below in [Individual Cue Times in Chases](#individual-cue-times-in-chases).
 
-1. Press \[Edit Times\] from the top level menu then the Swop button of
-the chase.
+1. Press \[Edit Times\] from the top level menu then the **Swop** button of
+the chase
 
-2. Set the Crossfade, Speed, Fixture Overlap and Attribute Overlap
-settings as described below.
+2. Set the **Crossfade**, **Speed**, **Fixture Overlap** and **Attribute Overlap**
+settings, as described below
 
-3. Press \<Exit\> to finish.
+3. Press \<Exit\> to finish
 
--   To set speed, press \[Speed\] then type the new speed, then press
+---
+
+-   To set **speed**, press \[Speed\] then type the new speed, then press
     \<Enter\>. The speed can be set in Beats Per Minute (BPM) or seconds
     depending on the user settings.
 
--   To set crossfade, press \[Xfade\] then type the fade from 0 -- 100
-    and press \<Enter\>. 0=no fade (the chase will "snap"), 100=max fade
-    (the chase will move continuously from cue to cue).
+-   To set **crossfade**, press \[Xfade\] then type the fade from **0 - 100**
+    and press \<Enter\>.\
+    *0=no fade (the chase will "snap"), 100=max fade (the chase will move
+    continuously from cue to cue).*
 
--   You can assign the blue or grey handle button to be a "tap tempo"
-    button using the Key Profiles option (see section 16.3.1 on page
-    315).
+-   You can assign the blue or grey handle button to be a **tap tempo**
+    button using the [Key Profiles](../system-settings/key-profiles.md) option.
 
-The Overlap functions allow you to offset and overlap the timing of
+### Overlap
+
+The **Overlap** functions allow you to offset and overlap the timing of
 changes in the chase. This can create really amazing visual effects with
 hardly any programming. The best way to learn about overlap is to
 program a chase with two cues involving several fixtures, then
-experiment with the overlap settings to see the various "roll" and "peel
-off" effects which result.
+experiment with the overlap settings to see the various *"roll"* and *"peel
+off"* effects which result.
 
-The following diagram shows you the effects of cue overlap, fixture
+The following diagram shows you the effects of fixture
 overlap and attribute overlap in chases.
 
-![](/docs/images/image250.png)
+![Fixture Overlap and Attribute Overlap diagram for a chase](/docs/images/image250.png)
 
--   Press \[Fixture Overlap\] then enter 0-100 on the keypad to change
-    how fixtures overlap in the cue. 100% (the normal setting) means all
-    fixtures fade together. 0% means that the first fixture will finish
-    its fade before the next one starts giving a "rolling" change across
-    a range of fixtures. 50% means that the 2^nd^ fixture will start
-    fading when the first one is half way through its fade. The order of
-    the fixtures is set by the order you selected them when the cue was
-    saved; you can change the order using Unfold.
+Press \[Fixture Overlap\] then enter **0 - 100** on the keypad to change
+how fixtures overlap in the cue.\
+**100%** *(the normal setting)* means all fixtures fade together.\
+**0%** means that the first fixture will finish
+its fade before the next one starts giving a "rolling" change across
+a range of fixtures.\
+**50%** means that the 2^nd^ fixture will start
+fading when the first one is half way through its fade.\
+The order of the fixtures is set by the order you selected them when the cue was
+saved; you can change the order using \<Unfold\>.
 
-  --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   From version 3 of Titan software, \[Cue Overlap\] is no longer available in chases. Instead use a Cue List set to "Link With Previous" and set the Offset as desired.
-  --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Individual cue times in chases
+Individual Cue Times in Chases
 ------------------------------
 
 You can configure each cue in a chase to have its own timing
 information. You can use the Playback View window, or the Unfold
 function to set individual times for cues in chases.
 
-  --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   It is easier to use a Cue List rather than a chase if you need a lot of different timings or link/unlinks. Cue lists are described in the next chapter.
-  --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------
+> It is easier to use a Cue List rather than a chase if you need a 
+lot of different timings or link/unlinks. See [Cue Lists](../cue-lists.md).
 
-Using the Playback View window:
+### Using the Playback View Window
 
 1. Touch the playback display relating to the fader, or press
-\<Open/View\> then the swop button of the playback. The Playback View
+\<Open/View\> then the **swop** button of the playback. The Playback View
 window will open.
 
-![](/docs/images/image249.png)
+![Playback View for chase](/docs/images/image249.png)
 
-2. In the grid, touch the times you want to edit.
+2. In the grid, touch the times you want to edit
 
-3. Use the softkey options to change the times or settings.
+3. Use the softkey options to change the times or settings
 
-4. Repeat from 2 to change other times or settings.
+4. Repeat steps 2 - 3 to change other times or settings.
 
--   You can change a range of cues all at once by dragging across the
-    grid to select multiple cells, or you can use wheel B to select
+> You can change a range of cues all at once by dragging across the
+    grid to select multiple cells, or you can use **wheel B** to select
     multiple cells for editing.
 
-Using Unfold:
+### Using Unfold
 
-1. Press \<Unfold\> then the Swop button of the chase to be edited.
+1. Press \<Unfold\> then the **Swop** button of the chase to be edited.
 
-2. Press \[Edit Times\] then the Swop button of the unfolded cue you
+2. Press \[Edit Times\] then the **Swop** button of the unfolded cue you
 want to edit.
 
 3. Set up the timing options as required. The options are described
 below.
 
 4. Press \<Unfold\> to get out of unfold mode.
+
+### Timing Options
 
 Initially all the timing options are set to Global. You can cancel any
 individual timings and set the time back to global timings by pressing
@@ -114,14 +119,13 @@ The timing options for the cue are:
 
 -   Link with previous step
 
--   Attribute times (see next section)
+-   Attribute times (see [next section](#setting-attribute-fade-times-for-a-cue-in-a-chase))
 
 Linking can be set to \[Link After Previous\] (the chase will run
 automatically) or \[Link Wait For Go\] which will stop the chase until
-you press Go.
+you press \<Go\>.
 
-Setting attribute fade times for a cue in a chase
--------------------------------------------------
+## Setting Attribute Fade Times for a Cue in a Chase
 
 For each cue in a chase, you can set individual fade times for each
 attribute group (such as position). If you set a time, it overrides the
@@ -130,14 +134,14 @@ set attribute times.
 
 To set an attribute group fade time:
 
-1. Press \<Open/View\> or \<Unfold\>, then the Swop button of the chase
+1. Press \<Open/View\> or \<Unfold\>, then the **Swop** button of the chase
 to be edited.
 
 2. Press \[Edit Times\] then touch the cue you want to edit in the
-Playback View, or if using Unfold, press the Swop button of the unfolded
+Playback View, or if using Unfold, press the **Swop** button of the unfolded
 cue you want to edit.
 
-3. Press the Attribute Options button (right hand side) for the
+3. Press the **Attribute Options** button (right hand side) for the
 attribute you want to change.
 
 4. Press \[Delay\] to set delay time or \[Set fade\] to set fade time.
@@ -148,24 +152,20 @@ back to the normal times.
 
 6. Press \<Enter\> to save the changes.
 
-Rate and BPM masters
---------------------
+## Rate and BPM Masters
 
-Chases can be allocated to Rate or BPM masters, allowing you to control
+Rate or BPM masters can be allocated to chases, allowing you to control
 the speed from a separate master fader. You set this by pressing
-\[Effects\] then \[Speed Source\] in the Playback Options for the chase.
-See section 13.1.4 on page 280.
+\[Effects\] then \[Speed Source\] in the [Playback Options](../cues/playback-options.md) for the chase.
+See [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
 
-Speed Multipliers
------------------
+## Speed Multipliers
 
 Speed multipliers allow you to modify the chase speed, either faster
 (for example "x4") or slower (for example "/4"). This is useful when
 running multiple chases together.
 
 Press \[Speed Multiplier\] In the Edit Times menu for the chase, or use
-the \[Speed Multiplier\] option in the Playback category of the Playback
-Options for the chase. Use the \[Multiply or Divide\] softkey to swap
+the \[Speed Multiplier\] option in the Playback category of the 
+[Playback Options](../cues/playback-options.md) for the chase. Use the \[Multiply or Divide\] softkey to swap
 the value between multiply and divide.
-
-

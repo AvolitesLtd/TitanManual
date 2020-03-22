@@ -76,7 +76,7 @@
     "Chases": [
       "chases",
       "chases/creating-a-chase",
-      "chases/playback",
+      "chases/chase-playback",
       "chases/editing-a-chase",
       "chases/copying-moving-linking-and-deleting",
       "chases/chase-options",
