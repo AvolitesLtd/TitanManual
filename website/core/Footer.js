@@ -68,6 +68,17 @@ class Footer extends React.Component {
             )}
           </div>
         </section>
+        {this.props.config.footerIcon && (
+            <a
+              href={this.props.config.copyrightUrl}
+              className="copyrightImg">
+              <img
+                className="logo"
+                src={this.props.config.baseUrl + this.props.config.footerIcon}
+                alt={this.props.config.title}
+              />
+            </a>
+          )}
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );

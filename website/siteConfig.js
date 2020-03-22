@@ -37,7 +37,7 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/Avolites_Logo_White.svg',
-  footerIcon: 'img/avo.png',
+  footerIcon: 'img/Avolites_Logo_Red.svg',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
@@ -62,6 +62,7 @@ const siteConfig = {
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright Avolites ${new Date().getFullYear()} ©`,
+  copyrightUrl: 'https://avolites.com',
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

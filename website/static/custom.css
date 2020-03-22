@@ -117,3 +117,16 @@ a .softkey, a .key {
   color: #4d4d4d;
   text-transform: uppercase;
 }
+
+footer .copyrightImg {
+  display: block;
+  margin: 1em auto 0.3em;
+  opacity: .4;
+  -webkit-transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in-out;
+  width: 170px;
+}
+
+footer .copyrightImg:hover {
+  opacity: 1;
+}
