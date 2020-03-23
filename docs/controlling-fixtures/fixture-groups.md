@@ -1,10 +1,10 @@
 ---
-id: fixture-groups 
-title: Fixture groups
-sidebar_label: Fixture groups
+id: fixture-groups
+title: Fixture Groups
+sidebar_label: Fixture Groups
 ---
 
-Using fixture groups
+Using Fixture Groups
 --------------------
 
 You can create groups of fixtures or dimmer channels, which can then be
@@ -15,15 +15,14 @@ fixture, then also group by stage left / stage right, etc.
 If you have a lot of fixtures, clever use of groups will greatly
 increase your programming speed.
 
-![](/docs/images/image166.png)
+![Groups Window](/docs/images/image166.png)
 
 Groups can be stored in the Groups window, on fader handles or on
 Macro/Executor buttons.
 
 If you assign a group to a handle with a fader, the fader becomes an
 intensity master for the group. You can also set different functions for
-the buttons using Key Profiles. See section 13.1.5 on page 282 for more
-details.
+the buttons using [Key Profiles](../system-settings/key-profiles.md).
 
 If the Groups window is not visible, you can show it by pressing
 \<View/Open\>, \<Group\> (above numeric keys).
@@ -45,19 +44,18 @@ playback faders), or press C \[Store\] to store as a numbered group.
 
 -   You can also press \<Avo\> and \<Group\> to go directly to the
     Record Group menu, or on the screen touch the button twice to use
-    Quick Record -- on the first touch the button will turn red with a
+    Quick Record - on the first touch the button will turn red with a
     +, on the second touch the group will be recorded.
 
-![](/docs/images/image78.png)
+![Quick Record](/docs/images/quick-record.png)
 
 -   To select all the fixtures/dimmers in a group, just press the button
     for the group.
 
 -   The order in which you originally selected the fixtures when
     creating the group is also stored. This takes effect when you use
-    the last fixture -- next fixture functions described in the next
-    section, and when you use Shapes, Fan mode and Fixture Overlap
-    functions. You can change this later, see the next section.\
+    the last fixture - next fixture functions described in the [next section](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups), and when you use Shapes, Fan mode and Fixture Overlap
+    functions. You can change this later, see the [next section](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).\
     You can override the selection order while recalling a group by
     holding down the group button and using the softkey options.
 
@@ -79,7 +77,7 @@ playback faders), or press C \[Store\] to store as a numbered group.
     matrix, you can select the outside edge, then use \<Select If\> with
     the odd/even group to remove the alternate pixels round the edge.
 
-### Deleting fixtures from groups
+### Deleting Fixtures from Groups
 
 To remove fixtures from a group:
 
@@ -103,7 +101,7 @@ group is created each time you patch a quantity of fixtures (for
 example, \[4 BB4\].) This function can be turned off using \[Auto
 Groups\] in the User Settings.
 
-Fixture Order and Fixture Layout in groups
+Fixture Order and Fixture Layout in Groups
 ------------------------------------------
 
 Fixtures in a group are stored with a selection order, which is used
@@ -122,7 +120,7 @@ To change the numerical fixture order:
 
 The fixtures in the group will be shown numbered in the fixtures window.
 
-![](/docs/images/image167.png)
+![Fixture Order](/docs/images/image167.png)
 
 To change the order, select \[Auto Increment\] to On, then select the
 fixtures in the order you want. If you press a fixture twice, it will
@@ -150,7 +148,7 @@ The \[Arrange Fixtures\] context command will automatically place the
 fixtures in a rectangular block, you specify the number of rows (Height)
 and columns (Width).
 
-![](/docs/images/image168.png)
+![Layout Editor](/docs/images/image168.png)
 
 -   The X-coordinate of the fixture layout is the same as the Fixture
     Order. Changing one will cause the other to change.
@@ -169,7 +167,7 @@ and columns (Width).
 
 -   To move or rotate fixtures, select and drag, or use the wheels. You
     can click on the "up" and "down" areas in the wheel display to nudge
-    the values up and down -- 1 pixel for position and 45 degrees for
+    the values up and down - 1 pixel for position and 45 degrees for
     rotate. If you press the @ button for the wheel, a window opens
     allowing you to type in the values numerically.
 
@@ -178,16 +176,13 @@ and columns (Width).
     cells in a multi-cell fixture. This is useful to get cells located
     correctly if you have some fixtures with large cell spacing and some
     with small spacing.\
-    ![](/docs/images/image169.png)
-    ![](/docs/images/image170.png)
+
+    ![Position](/docs/images/image169.png)
+
+    ![Scale](/docs/images/image170.png)
 
 -   The Layout Editor is described in more detail with examples in the
-    Pixel Mapper section 7.6.4 on page 185. There are also some features
-    to help with Synergy/Ai mapping which are in section 12.2.5 on
-    page 275.
+    [Pixel Mapper section](../effects/pixel-mapper.md). There are also some features
+    to help with [Synergy/Ai mapping](../synergy/operating-synergy.md#layout-editor-with-ai-server).
 
-  --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   You can temporarily randomize the fixture order when selecting fixtures using a group by holding down the group button and pressing \[Random Order\] which appears as a softkey option while the button is held.
-  --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
+> You can temporarily randomize the fixture order when selecting fixtures using a group by holding down the group button and pressing \[Random Order\] which appears as a softkey option while the button is held.
