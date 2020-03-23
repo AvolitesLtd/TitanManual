@@ -44,8 +44,7 @@ Softkey commands are shown in the manual with square brackets like this:
 
 The **Preset Playbacks** are used to store and play back cues or chases
 that you need frequently. These playbacks are not changed by the page
-select buttons, but you can assign macro buttons to change pages (see
-section 8.1.2 on page 198).
+select buttons, but you can assign macro buttons to change pages.
 
 The **Macro Buttons** store frequently used sequences of keypresses
 which can be replayed with a single button press. Playbacks can also be

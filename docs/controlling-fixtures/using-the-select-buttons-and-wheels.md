@@ -486,7 +486,7 @@ Active fixtures such as media servers will display a thumbnail of the
 media clip in the button. The media server must support CITP and be
 patched as an active fixture for the thumbnails to work.
 
-For Ai media servers please see Section 12 on page 265 for more details
+For Ai media servers please see the [Synergy](../synergy.md) section for more details
 of how Synergy allows you to control the setup and media playback.
 
 ![Clip Selection](/docs/images/image147.png)
@@ -586,8 +586,7 @@ Latch\>.
 
 -   The @ softkey sets a dimmer level to the selected fixtures, for
     example 1 Through 8 @ 5 \<Enter\> will set 1-8 at 50%. (You can
-    choose whether 50% is entered as "5" or "50" in the User Settings --
-    see section 16.1.6 on page 313). When you press @ there are softkey
+    choose whether 50% is entered as "5" or "50" in the [User Settings](../system-settings/user-settings) - When you press @ there are softkey
     options for Full, Off and +/- (increase or decrease brightness).
 
 -   You can work with Groups using the Group button, for example Group 1
@@ -671,8 +670,8 @@ the numeric keypad to select fixtures set to a particular intensity.\
 @ X Through Y: fixtures with intensity between X and Y\
 @@: fixtures with intensity above 0.
 
-Intensity levels may be input as 0-9 or 00-99 depending on the User
-Setting \[Channel Levels Set In\] (see section 16.1.6 on page 313).
+Intensity levels may be input as 0-9 or 00-99 depending on the [User
+Setting](../system-settings/user-settings) \[Channel Levels Set In\].
 
 ## Attribute Groups - IPCGBES-FX
 
@@ -881,7 +880,7 @@ change in fan mode.
 Press \<Fan\> again to leave Fan mode. Any effects you have set will
 remain in the programmer.
 
-> It's all too easy to accidentally leave Fan mode turned on and be very confused about why the wheels aren't working properly, so turn it off as soon as you have completed the effect. To avoid this there is a User Setting 'Press and hold Fan'. If enabled, you have to hold down \<Fan\> to enable Fan mode. See section 16.1.6 on page 313.
+> It's all too easy to accidentally leave Fan mode turned on and be very confused about why the wheels aren't working properly, so turn it off as soon as you have completed the effect. To avoid this there is a [User Setting](../system-settings/user-settings) 'Press and hold Fan'. If enabled, you have to hold down \<Fan\> to enable Fan mode.
 
 ### Fan Curves
 

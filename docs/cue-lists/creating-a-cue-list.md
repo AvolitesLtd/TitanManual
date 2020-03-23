@@ -67,10 +67,9 @@ selected or in the programmer (inverted display).
 
 -   Cue lists offer a **Move In Dark** function which will move fixtures to
     the correct position for their next cue while they are set to zero
-    intensity. See section Move In Dark (MID) functions on page 240.
+    intensity. See the [Move In Dark (MID)](../cue-lists/cue-list-playback.md#move-in-dark-mid-functions) functions section.
 
--   You can change the tracking mode of each cue. See section 10.2.3 on
-    page 239.
+-   You can change the [tracking mode](cue-lists/cue-list-options.md#tracking) of each cue.
 
 ### Record Mode
 
