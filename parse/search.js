@@ -40,7 +40,7 @@ getFiles('../docs').then((filenames) => {
           url = url.replace(/[^a-z0-9 -]/g, "");
           url = url.trim();
           url = url.replace(/ /g, "-");
-          url = url.replace(/--/g, "-");
+          url = url.replace(/-+/g, "-");
           url = url.replace(/-+$/g, "");
 
           url = filename.replace(".md", "") + "#" + url;
