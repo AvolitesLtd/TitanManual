@@ -1,8 +1,8 @@
 ---
-id: version-12.0-recovering-and-reinstalling-the-console
+id: version-12.0-recovering-reinstalling-the-console
 title: Recovering & Reinstalling the Console
 sidebar_label: Recovering & Reinstalling the Console
-original_id: recovering-and-reinstalling-the-console
+original_id: recovering-reinstalling-the-console
 ---
 
 The console runs on an embedded PC system, and like all computers, there

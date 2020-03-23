@@ -5,7 +5,7 @@ sidebar_label: Sapphire Touch
 original_id: sapphire-touch
 ---
 
-![](/docs/images/image13.jpeg)The Sapphire Touch has four main control
+![Sapphire Touch](/docs/images/image13.jpeg)The Sapphire Touch has four main control
 areas:
 
 The two **Touch screens** contain fixture, palette and group select
@@ -22,7 +22,9 @@ The **Programming and setup controls** configure and program the console
 and the **macro/executor buttons** allow storage of frequent key
 sequences, screen layouts, groups or programs.
 
-![SapphireFront](/docs/images/image15.jpeg)**The main controls**
+## The Main Controls
+
+![Sapphire Front](/docs/images/image15.jpeg)
 
 The **Workspace windows** on the touch screens contain touch buttons for
 fixtures, palettes, groups, playbacks, macros and more. You can also set
@@ -33,7 +35,7 @@ the console and shows you what is going on. This part of the display
 shows various screens of information depending on what you are currently
 doing.
 
-The **Menu Softkeys** (labelled A -- G) are used to select control
+The **Menu Softkeys** (labelled A - G) are used to select control
 options. The options for each key change depending on what the console
 is doing. Softkey commands are shown in the manual with square brackets
 like this: \[Edit Times\]
@@ -52,7 +54,7 @@ The **Playback Page Select buttons** let you change to a different page
 of playbacks. The touch screen above the faders shows information about
 each playback.
 
-![](/docs/images/image16.jpeg)
+![Sapphire Touch](/docs/images/image16.jpeg)
 
 The **Control wheels** are used to set control values (attributes) for
 the fixtures, and to set chase speeds and fades. The touch screen above
@@ -82,7 +84,7 @@ storage tray. On the left hand end is a USB socket for saving shows and
 power/disk indicator lights. Near the right hand side is the power
 switch.
 
-**The back panel**
+## The Back Panel
 
 ![Sapphire Manual Back Panel -
 Left](/docs/images/image20.jpeg)All the connections required for the

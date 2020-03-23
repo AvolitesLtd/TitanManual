@@ -9,11 +9,10 @@ You can save any number of different shows on a USB drive or the
 console's internal hard disk. The console will also autosave the show
 periodically.
 
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   Shows created on a Titan console can be loaded into any other model of Avolites Titan console, but not to older non-Titan consoles as the showfile format is different.\
-                                                                                                Showfiles from newer versions of Titan may not load correctly (or at all) into consoles with older versions of Titan.
+> Shows created on a Titan console can be loaded into any other model of Avolites Titan console, but not to older non-Titan consoles as the showfile format is different.
+>
+>Showfiles from newer versions of Titan may not load correctly (or at all) into consoles with older versions of Titan.
 
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Although your show is safe on the hard disk, it's a good idea to also
 save it to a USB pen drive which you can take with you in case something
@@ -71,7 +70,7 @@ Loading a show
 The console will automatically reload the last show when it is turned
 on.
 
-![](/docs/images/image104.png)Press the \<Disk\> button then \[Load
+![Show Browser](/docs/images/image104.png)Press the \<Disk\> button then \[Load
 Show\] to load in a new show. The Show Browser window will appear.
 
 On the top left you can select which drive is used, or show files on all
@@ -120,12 +119,12 @@ For Import Show to work, you need to map fixtures from your imported
 file to fixtures in the current show so that Titan knows where to import
 the programming to.
 
-![](/docs/images/image106.png)
+![Fixture Mapping](/docs/images/image106.png)
 
 You can then select items from the imported show and store them onto
 workspace or panel buttons in your current show.
 
-![](/docs/images/image108.png)
+![Import](/docs/images/image108.png)
 
 1. Press the \<Disk\> button.
 
@@ -166,8 +165,7 @@ buttons on the left to select Palettes, Groups etc.
 -   You can directly import shows without using the Disk menu by
     clicking the Plus button at the top right of the Show Browser.
 
--   There is more information about the Show Library window in section
-    3.7 on page 78.
+-   You can find more information about the Show Library [here](./show-library.md).
 
 ---
 
@@ -182,9 +180,7 @@ You can disable Autosave or alter the time between saves using option
 \[Auto Save\] on the Disk menu (press the \<Disk\> button). You can
 reload Autosave files using the Show Browser.
 
-  --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   This option is included because Autosave used to make the console pause, however this is no longer the case and we recommend that you do not disable Autosave. If you lose power while programming Autosave will make your day a whole lot better.
-  --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>This option is included because Autosave used to make the console pause, however this is no longer the case and we recommend that you do not disable Autosave. If you lose power while programming Autosave will make your day a whole lot better.
 
 Recover show
 ------------

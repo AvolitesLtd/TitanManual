@@ -5,7 +5,7 @@ sidebar_label: Pearl Expert and Touch Wing
 original_id: pearl-expert-and-touch-wing
 ---
 
-![](/docs/images/image49.jpeg)
+![Pearl Expert](/docs/images/image49.jpeg)
 
 The Pearl Expert has four main control areas:
 
@@ -19,9 +19,9 @@ programs
 
 The **Programming and setup controls** configure and program the console
 
-![](/docs/images/image51.jpeg)
+![Pearl Expert](/docs/images/image51.jpeg)
 
-**The main controls**
+## The Main Controls
 
 The **Preset Faders** are used to control individual dimmer channels and
 fixture intensities. Cues and chases can also be stored on these faders.
@@ -72,7 +72,9 @@ fixtures, which sets them to a known start position while programming.
 A **QWERTY keyboard** and mouse touchpad is provided in a drawer on the
 front of the console.
 
-![](/docs/images/image53.jpeg)**The back panel**
+## The Back Panel
+
+![Pearl Expert Back Panel](/docs/images/image53.jpeg)
 
 All the connections required for the console are found on the back
 panel. Most are self-explanatory.
@@ -85,8 +87,9 @@ panel. Most are self-explanatory.
 -   The USB reserve sockets and switches are for future expansion. The
     switches should be set to \'Normal operation\'.
 
-**\
-**![](/docs/images/image55.jpeg)**The Pearl Expert Touch Wing**
+## The Pearl Expert Touch Wing
+
+![Pearl Expert Touch Wing](/docs/images/image55.jpeg)
 
 The optional Pearl Expert Touch Wing uses a touch screen and additional
 wheels to provide the standard Titan interface for selecting fixtures,
@@ -110,7 +113,7 @@ window is active.
 The three **Attribute Wheels** take over attribute control from the
 wheels on the console, which are then used for speed/fade control of
 chases. Below the wheels the **Scroll Mode Button** to switch the wheels
-into scroll mode -- this is used to move a selection box around the
+into scroll mode - this is used to move a selection box around the
 screen when editing.
 
 The **Attribute Display** shows which attributes are being controlled by

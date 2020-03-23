@@ -22,7 +22,6 @@
     ],
     "Titan Basics": [
       "version-12.0-titan-basics",
-      "version-12.0-titan-basics/connecting-up",
       "version-12.0-titan-basics/controlling-dimmers-and-fixtures",
       "version-12.0-titan-basics/workspace-windows",
       "version-12.0-titan-basics/other-parts-of-the-touch-screen",
@@ -38,7 +37,8 @@
       "version-12.0-patching",
       "version-12.0-patching/patching-new-fixtures-or-dimmers",
       "version-12.0-patching/changing-the-patch",
-      "version-12.0-patching/copying,-moving-and-deleting-fixtures",
+      "version-12.0-patching/copying-moving-and-deleting-fixtures",
+      "version-12.0-patching/fixture-personalities",
       "version-12.0-patching/fixture-personality-options"
     ],
     "Controlling Fixtures": [
@@ -47,9 +47,6 @@
       "version-12.0-controlling-fixtures/viewing-and-editing-fixture-values",
       "version-12.0-controlling-fixtures/fixture-groups",
       "version-12.0-controlling-fixtures/advanced-options"
-    ],
-    "Playback Options": [
-      "version-12.0-playback-options"
     ],
     "Palettes": [
       "version-12.0-palettes",
@@ -74,12 +71,13 @@
       "version-12.0-cues/using-a-cue",
       "version-12.0-cues/editing-cues",
       "version-12.0-cues/cue-timing",
-      "version-12.0-cues/copying-moving-linking-and-deleting"
+      "version-12.0-cues/copying-moving-linking-and-deleting",
+      "version-12.0-cues/playback-options"
     ],
     "Chases": [
       "version-12.0-chases",
       "version-12.0-chases/creating-a-chase",
-      "version-12.0-chases/playback",
+      "version-12.0-chases/chase-playback",
       "version-12.0-chases/editing-a-chase",
       "version-12.0-chases/copying-moving-linking-and-deleting",
       "version-12.0-chases/chase-options",
@@ -135,7 +133,7 @@
       "version-12.0-system-settings/dmx-output-mapping",
       "version-12.0-system-settings/curves",
       "version-12.0-system-settings/upgrading-the-software",
-      "version-12.0-system-settings/recovering-and-reinstalling-the-console",
+      "version-12.0-system-settings/recovering-reinstalling-the-console",
       "version-12.0-system-settings/release-notes"
     ],
     "Fixture Personalities": [

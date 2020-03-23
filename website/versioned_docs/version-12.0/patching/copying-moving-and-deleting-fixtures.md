@@ -17,7 +17,7 @@ type you've already patched and programmed because the new copy will
 come complete with all the cues and palettes of the original fixture
 you've copied. The copied fixture will be "Parked" (have no DMX channel
 allocated) so you will need to set an address before you can use it (see
-section above)
+[changing the patch section](./changing-the-patch.md))
 
 Move is useful for tidying up the console.
 
@@ -37,7 +37,7 @@ add more fixtures to the selection.
     the Copy/Move/Link button. Press again to unlatch.
 
 -   The \[Retain Layout\] or \[Bunch Up\] option is used when copying a
-    group of fixtures with empty handles in the group -- you can either
+    group of fixtures with empty handles in the group - you can either
     keep the empty handles, or bunch up the used handles together. There
     is also a \[Bunch Up With Offset\] option which allows you to leave
     a gap in the DMX channels, if you are running a show where you need
@@ -52,16 +52,14 @@ add more fixtures to the selection.
     This is useful when rearranging buttons on a page which is nearly
     full.
 
-Deleting a patched fixture
+Deleting a Patched Fixture
 --------------------------
 
 You can delete a fixture or dimmer from a button if you patched it
 accidentally or if you change your rig and want to use the button for
 something else.
 
-  --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   All programming for the fixture is also deleted. You cannot undo deletion of a fixture or get the programming back by repatching a fixture to the same handle. If you might need the fixtures again later, move them to an unused fixture page.
-  --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> All programming for the fixture is also deleted. You cannot undo deletion of a fixture or get the programming back by repatching a fixture to the same handle. If you might need the fixtures again later, move them to an unused fixture page.
 
 1. Enter Patch mode by pressing the \<Patch\> button.
 

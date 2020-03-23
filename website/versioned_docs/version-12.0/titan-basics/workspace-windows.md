@@ -1,7 +1,7 @@
 ---
 id: version-12.0-workspace-windows
-title: Workspace windows
-sidebar_label: Workspace windows
+title: Workspace Windows
+sidebar_label: Workspace Windows
 original_id: workspace-windows
 ---
 
@@ -10,15 +10,15 @@ contain buttons for selecting fixtures, groups, palettes, playbacks and
 so on. Information windows such as Playback View and the integrated
 Visualiser application can also appear as a workspace window.
 
-![](/docs/images/image61.png)
+![Workspaces](/docs/images/image61.png)
 
 Sapphire Touch displays are slightly different:
 
 Sapphire Touch Left touch screen\
-![](/docs/images/image63.png)
+![Sapphire Left](/docs/images/image63.png)
 
 Sapphire Touch Right touch screen\
-![](/docs/images/image65.png)
+![Sapphire Right](/docs/images/image65.png)
 
 Opening and positioning workspace windows
 -----------------------------------------
@@ -64,20 +64,20 @@ Press \<View/Open\> then \<Macro\> to open the Macro window.
 At the top right of each workspace window are three or four buttons
 which access other functions for the window.
 
-![](/docs/images/image67.png)
+![Capture Settings Window](/docs/images/image67.png)
 
 The **Context Menu** button is only shown on Sapphire Touch and Titan
 Go, and gives a drop down menu at the top of the window showing the
 context menu buttons which relate to the current window.
 
-![](/docs/images/image69.png)
+![Patch View](/docs/images/image69.png)
 
 On all other consoles the context menu buttons are automatically shown
 below the prompt area on the top right of the main screen. These buttons
 change to match the active window. The picture below gives an example of
 how the context buttons appear when Patch View window is active.
 
-![](/docs/images/image70.png)
+![Context Menu](/docs/images/image70.png)
 
 The **Window Appearance Options** button (cog icon) lets you select the
 standard window sizes and positions. Buttons are also shown allowing you
@@ -86,12 +86,12 @@ window to an external monitor. The Appearance options may vary depending
 on which window it is, the setup of the console and if you have any
 external monitors.
 
-![](/docs/images/image71.png)
+![Appearance Menu](/docs/images/image71.png)
 
 The **Resize Window** button allows you to set adjustable window sizes.
 A grid screen will open.
 
-![](/docs/images/image73.png)
+![Resize](/docs/images/image73.png)
 
 With the softkey \[Edit All Windows\] set to Off, you just set the size
 of the selected window.
@@ -99,7 +99,7 @@ of the selected window.
 Touch and drag the top left or bottom right corners to resize the
 window. Touch and drag anywhere else to move the window.
 
-Tap on a corner to set a start corner position -- the window will
+Tap on a corner to set a start corner position - the window will
 highlight in red and ask you to tap to set the opposite corner position.
 
 If the softkey \[Resize Neighbours\] is set to On, surrounding windows
@@ -110,11 +110,9 @@ If \[Edit All Windows\] is set to On, corner arrows will appear in all
 windows and you can adjust the size of all the windows together. Press
 \<Enter\>, \<Exit\> or \[OK\] to finish.
 
-![](/docs/images/image74.png)
+![Resize](/docs/images/image74.png)
 
-  --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   If you accidentally set a window to a single grid size, you can't then get to the Window Layout button to resize it. Select the window and use the \[Min/Max\] softkey to set the window to a fixed size.
-  --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> If you accidentally set a window to a single grid size, you can't then get to the Window Layout button to resize it. Select the window and use the \[Min/Max\] softkey to set the window to a fixed size.
 
 You can move the active window between screens from the Window
 Appearance screen, or by pressing View then \[Window Options\] then
@@ -136,7 +134,7 @@ menu using the Cog button and set Button Size to \[Button Size Set Rows
 & Columns\]. You can then set a fixed layout using the \[Rows\] and
 \[Columns\] buttons.
 
-![](/docs/images/image75.png)
+![Rows and Columns](/docs/images/image75.png)
 
 The Rows and Columns settings are remembered even if you change the
 button size back to one of the automatic sizes, which allows you to swap
@@ -146,20 +144,21 @@ Mini Screen (Arena only)
 ------------------------
 
 The \<Display\> button below the rotary encoders toggles through four
-fixed layouts for the Mini screen:\
-\
-1-Workspace window(s) with encoder legends on the right\
-![arena\_miniscreen\_1](/docs/images/image76.png)\
-\
-2-Workspace window(s) with macro button legends below\
-![Mini Screen
-Macros](/docs/images/image77.png)\
-3-Fixed playbacks window - in this mode the first two rows of touch
+fixed layouts for the Mini screen:
+
+1. Workspace window(s) with encoder legends on the right
+![Arena Miniscreen](/docs/images/image76.png)
+
+2. Workspace window(s) with macro button legends below
+![Mini Screen Macros](/docs/images/image77.png)
+
+
+3. Fixed playbacks window - in this mode the first two rows of touch
 buttons are the same as the macro buttons below. This window cannot be
 moved to another screen, and other windows open on the Mini screen will
-move to the main screen when this layout is set.\
-\
-4-Workspace window(s) fill the full screen, no button/encoder legends
+move to the main screen when this layout is set.
+
+4. Workspace window(s) fill the full screen, no button/encoder legends
 shown.
 
 Saving workspace layout
@@ -175,7 +174,7 @@ they are down the left side of the screen). Press \<View/Open\> then
 touch an empty button twice to Quick Record. You can also save
 workspaces onto any grey handle or macro button.
 
-![](/docs/images/image78.png)
+![Workspaces](/docs/images/image78.png)
 
 Workspaces are saved with the show.
 
@@ -231,14 +230,13 @@ once with the "Palettes and groups" window selected.
 Quick record
 ------------
 
-![](/docs/images/image78.png)Some windows -- Groups, Workspaces,
+![Quick Record](/docs/images/image78.png)Some windows - Groups, Workspaces,
 Playbacks, and all the Palette windows - have a Quick Record function.
 Set up what you want to record, then touch or click an empty button
 once. The button will light up red with a + sign. At this point you can
 enter a legend. Touch or click again to store the item.
 
-The Quick Record function can be disabled using Key Profiles (see
-section 16.3.1 on page 315).
+The Quick Record function can be disabled using [Key Profiles](../system-settings/key-profiles)
 
 Legends and picture legends
 ---------------------------
@@ -263,12 +261,10 @@ You can set a custom coloured halo for fixture, group or palette
 buttons. This can be really useful for identifying different types of
 button at a glance. Select the \[Halo\] option on the Set Legends menu.
 
-![](/docs/images/image80.png)
+![Halo](/docs/images/image80.png)
 
-If you set a halo on fixture buttons, the halo colour is also used in
-other windows; fixture buttons can also have an automatic halo to help
-identify different types of fixture. There is more information on
-fixture halos in section 4.2.6 on page 99.
+If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help
+identify different types of fixture.
 
 **Trackball (Sapphire Touch only)**
 -----------------------------------
@@ -291,7 +287,7 @@ fixtures, and the ring controls fine tilt.
 At the end of the toolbar is the keyboard popup button which will open
 the touch keyboard.
 
-![](/docs/images/image81.png)
+![Keyboard Button](/docs/images/image81.png)
 
 The touch keyboard can be switched between large and small size using
 the Max/Min button and you close it using the large X button in the top
@@ -305,6 +301,4 @@ active until you change it back to "Manual".
 The small version of the keyboard (pictured) does not have some of the
 less frequently used buttons.
 
-![](/docs/images/image83.png)
-
-
+![Keyboard](/docs/images/image83.png)

@@ -1,23 +1,21 @@
 ---
 id: version-12.0-using-the-select-buttons-and-wheels
-title: Using the select buttons and wheels
-sidebar_label: Using the select buttons and wheels
+title: Using the Select Buttons and Wheels
+sidebar_label: Using the Select Buttons and Wheels
 original_id: using-the-select-buttons-and-wheels
 ---
 
-Selecting fixtures and dimmers for control
-------------------------------------------
+## Selecting Fixtures and Dimmers for Control
 
 To select the fixtures or dimmer channels that you want to control, you
 use the Fixture Select buttons to select the fixtures into the Editor.
 You can select fixtures or dimmers individually, or several at once. You
-can also use Groups to select multiple fixtures, see section 5.3.1 on
-page 135.
+can also use [Groups](../controlling-fixtures/fixture-groups.md) to select multiple fixtures.
 
 If the fixture is patched on a fader handle, press the blue button to
 select the fixture.
 
-![](/docs/images/image131.png)
+![Fixtures Window](/docs/images/image131.png)
 
 1. Press the Select buttons for the fixtures you want. Touch buttons
 will light up pale blue when selected, physical buttons will light
@@ -31,8 +29,8 @@ button for the last fixture.
 Here are some other useful things to know:
 
 -   Press \<Locate\> to light up the selected fixtures in open white and
-    move them to a central position. See the next section for more
-    Locate options.
+    move them to a central position. Locate options are described in detail in the
+    [next section](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate).
 
 -   You can deselect a fixture by pressing the select button again.
 
@@ -40,7 +38,7 @@ Here are some other useful things to know:
     fixtures are currently selected.
 
 -   Press \<Clear\> (right of numeric keys) to deselect all fixtures and
-    remove all changes from the programmer. See the next section for
+    remove all changes from the programmer. See the [next section](../controlling-fixtures/using-the-select-buttons-and-wheels.md#clearing-selection) for
     more Clear options.
 
 -   Once you have changed any attribute, pressing a Select button will
@@ -58,12 +56,11 @@ Here are some other useful things to know:
     are provided to change pages -- on the Pearl Expert these are above
     the numeric keypad, on other consoles they are next to the faders.
 
--   Using Key Profiles (see section 16.3.1 on page 315) you can set the
+-   Using [Key Profiles](../system-settings/key-profiles.md) you can set the
     fixture touch button to latch mode so that it turns the fixture's
     dimmer channel on (like putting a preset fader to full).
 
-Setting fixtures to a start position (Locate)
----------------------------------------------
+## Setting Fixtures to a Start Position (Locate)
 
 The \<Locate\> button is used to put the fixture into a known position
 with light coming out, so that you can start programming it.
@@ -97,13 +94,12 @@ button rather than a quick press, you get some more options
     programming, but the lit state will not be stored in any cues you
     save.
 
-  -------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![tip](/docs/images/image7.png)   To quickly locate without changing pan/tilt, hold \<Locate\> and press the Pan/Tilt (or Position) button, then release \<Locate\>.\
-                                                                                               To quickly locate pan/tilt only, hold \<Locate\>, press \<Options\> (\<Attribute Options\> on some consoles), then press \<Position\> (\<Pan/Tilt\> on some consoles), then release \<Locate\>.
+> To quickly locate without changing pan/tilt, hold \<Locate\> and press the Pan/Tilt (or Position) button, then release \<Locate\>.\
+>
+> To quickly locate pan/tilt only, hold \<Locate\>, press \<Options\> (\<Attribute Options\> on some consoles), then press \<Position\> (\<Pan/Tilt\> on some consoles), then release \<Locate\>.
 
-  -------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Changing the locate state**
+### Changing the Locate State
 
 You can change the default locate state of each fixture in a show by
 recording a new Locate State. This can be shared (you set the values for
@@ -114,8 +110,7 @@ change, then press \<Record\>, then \<Locate\>. Select \[Shared\] or
 \[Individual\] from the softkeys. Press \<Record\> or \<Locate\> a
 second time to confirm.
 
-Clearing selection
-------------------
+## Clearing Selection
 
 The \<Clear\> button (on the right of the numeric keypad) is used to
 remove all changes from the Programmer and deselect all fixtures. A
@@ -163,9 +158,9 @@ The options in the "Clear Options" submenu are:
     time.
 
 -   \[Leave/Zero Preset Fader Levels\] is used to set whether latched
-    fixtures are cleared (the fixture key profile can be set to "Latch"
+    fixtures are cleared (the [fixture key profile](../system-settings/key-profiles.md#creating-and-editing-key-profiles) can be set to "Latch"
     mode, which turns on the fixture dimmer channel when the fixture
-    button is touched. See section 16.3.1 on page 315.)
+    button is touched.)
 
 -   \[Freeze current values\] sets what happens to LTP (non-intensity)
     channels you have modified. If set to \[Freeze Current Values\] the
@@ -181,15 +176,12 @@ The options in the "Clear Options" submenu are:
     the cue time information from the programmer (this will not affect
     fixture attribute times in the programmer).
 
-You can use the Channel Grid window to selectively view and remove
-attributes from fixtures. See section 5.2.1 on page 132.
+You can use the [Channel Grid](../controlling-fixtures/viewing-and-editing-fixture-values.md#the-channel-grid-window) window to selectively view and remove
+attributes from fixtures.
 
-  -------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![tip](/docs/images/image7.png)   If you type a number then press \<Clear\>, HTP values in the programmer will fade out over that time, for example 5 \<Clear\> would fade over 5 seconds. This can be very useful if you are trying to be subtle when making changes during a show.
-  -------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> If you type a number then press \<Clear\>, HTP values in the programmer will fade out over that time, for example 5 \<Clear\> would fade over 5 seconds. This can be very useful if you are trying to be subtle when making changes during a show.
 
-Fixtures with multiple cells/subfixtures
-----------------------------------------
+## Fixtures with Multiple Cells/Sub-Fixtures
 
 If a fixture has multiple cells of control (for example an RGB LED
 batten) and its personality supports it, you can select and control the
@@ -204,7 +196,7 @@ window to select the main fixture, or individual cells for control (use
 the \[Open Workspace Window\] softkey to open the Attribute Editor
 window).
 
-![](/docs/images/image133.png)
+![Cell Selection](/docs/images/image133.png)
 
 You can also use \<Unfold\> to expand the cells onto individual select
 buttons. In the Fixtures workspace, the current page of fixtures will be
@@ -222,54 +214,53 @@ There are two ways to unfold fixture cells:
 To go back to normal, press \<Unfold\> then \[Exit Unfold\].
 
 You can also use the numeric keypad to quickly select cells. The syntax
-is as follows: (THRO is called Through on some consoles)
+is as follows: (\<THRO\> is called Through on some consoles)
 
   .            all sub fixtures of selection                    
 
   n\.            all sub fixtures of fixture n
 
-  . THRO .j    sub fixtures 1j of all selected fixtures         
+  . \<THRO\> .j    sub fixtures 1j of all selected fixtures         
 
-  n\. THRO       all sub fixtures of fixture nlast consecutive of type
+  n\. \<THRO\>       all sub fixtures of fixture nlast consecutive of type
 
-  n THRO .j      shorthand for above                              
+  n \<THRO\> .j      shorthand for above                              
 
-  n\. THRO i     sub fixtures 1i of fixture n
+  n\. \<THRO\> i     sub fixtures 1i of fixture n
 
   .m           sub fixture m of all selected fixtures           
 
-  n\. THRO i.j   sub fixtures 1j of fixtures ni
+  n\. \<THRO\> i.j   sub fixtures 1j of fixtures ni
 
-  .m THRO      sub fixtures mlast of all selected fixtures      
+  .m \<THRO\>      sub fixtures mlast of all selected fixtures      
 
   n.m            sub fixture m of fixture n
 
-  .m THRO .j   sub fixtures mj of all selected fixtures         
+  .m \<THRO\> .j   sub fixtures mj of all selected fixtures         
 
-  n.m THRO       sub fixtures mlast of fixture n
+  n.m \<THRO\>       sub fixtures mlast of fixture n
 
-  .m THRO j    shorthand for above                              
+  .m \<THRO\> j    shorthand for above                              
 
-  n.m THRO i     sub fixtures mi of fixture n
+  n.m \<THRO\> i     sub fixtures mi of fixture n
 
-  n THRO i.    all sub fixtures of fixtures ni                  
+  n \<THRO\> i.    all sub fixtures of fixtures ni                  
 
-  n.m THRO i.    sub fixture mlast of fixtures ni
+  n.m \<THRO\> i.    sub fixture mlast of fixtures ni
 
-  n THRO i.j   sub fixture j of fixtures ni                     
+  n \<THRO\> i.j   sub fixture j of fixtures ni                     
 
-  n.m THRO i.j   sub fixtures mj of fixtures ni
+  n.m \<THRO\> i.j   sub fixtures mj of fixtures ni
 
-  n THRO .j    sub fixture 1j of fixture n                      
+  n \<THRO\> .j    sub fixture 1j of fixture n                      
 
-  n.m THRO .j    sub fixtures mj of fixture n
+  n.m \<THRO\> .j    sub fixtures mj of fixture n
 
 -   Fixture cell selection can be saved as a group, this provides a
     quick way to select cells / sub fixtures without having to use the
     Attribute Editor or Unfold.
 
-Changing attributes using the wheels
-------------------------------------
+## Changing Attributes Using The Wheels
 
 "Attributes" are the functions of the fixture, like pan, tilt, colour,
 dimmer, etc. You select which attributes you want to modify using the
@@ -278,8 +269,8 @@ available depend on the fixture type. Dimmer channels only have a dimmer
 attribute.
 
 You can also select attributes by touching the IPCGBES buttons on the
-touch screen, and modify them using the Attribute Editor workspace
-window; this is described in the next section.
+touch screen, and modify them using the [Attribute Editor workspace
+window](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-editor-window).
 
 On the Pearl Expert the wheels on the Touch Wing are used instead of the
 wheels on the console, unless you change this using the User Settings.
@@ -299,7 +290,7 @@ You can also touch the roller image on the screen to change the
 attributes up or down by one. For continuously variable controls like a
 dimmer, touching the roller will set the attribute to full or zero.
 
-![](/docs/images/image134.png)
+![Wheels](/docs/images/image134.png)
 
 3. Repeat from 1 to change other attributes of the selected fixtures.
 
@@ -320,7 +311,7 @@ Some other things to know about attributes:
     means that there are further attributes to control. Press the
     Attribute button again to toggle through the attributes.
 
-![](/docs/images/image135.png)
+![Toggle Attributes](/docs/images/image135.png)
 
 -   The wheels operate in an "acceleration" mode. If you spin the wheel
     fast, the fixture changes in larger steps. If you move the wheel
@@ -338,13 +329,12 @@ Some other things to know about attributes:
     mastering the RGB levels when the fixture itself does not provide an
     intensity channel.
 
-Attribute wheel display
------------------------
+## Attribute Wheel Display
 
 The touch display above the wheels shows the attribute bank (Intensity,
 Position, Colour and so on) and the current values on the wheels.
 
-![](/docs/images/image134.png)
+![Wheels](/docs/images/image134.png)
 
 Touch the IPCGBESFX attribute bank buttons to change to a different
 bank. You can also use the physical attribute bank buttons as usual. The
@@ -362,8 +352,7 @@ You can touch the roller image to change the attribute to the
 next/previous value. For continuously variable controls like a dimmer,
 touching the roller will set the attribute to full or zero.
 
-Attribute editor window
------------------------
+## Attribute Editor Window
 
 For attributes with fixed values such as gobos and fixed colour wheels,
 the Attribute Editor window can be easier to work with than the wheels.
@@ -376,7 +365,7 @@ attribute name text just below the on-screen IPCGBES buttons.
 
 The buttons on the left of the window select the attribute to change.
 
-![](/docs/images/image138.png)
+![Attribute Editor](/docs/images/image138.png)
 
 The rest of the window contains buttons or controls to set the attribute
 value. For attributes such as gobos and fixed colours, a button is
@@ -392,13 +381,13 @@ attribute to the full window, displaying more buttons as shown below.
 Gobo images will be shown if the fixture personality has the information
 included (not all do).
 
-![](/docs/images/image139.png)
+![Gobo Selection](/docs/images/image139.png)
 
 If an attribute has a range of values, sliding your finger left and
 right on the button will show a horizontal slider which allows you to
 adjust the attribute.
 
-![](/docs/images/image140.png)
+![Range slider](/docs/images/image140.png)
 
 When the selected fixture has subfixtures or cells, buttons appear at
 the top of the attribute editor window allowing you to select the whole
@@ -406,20 +395,20 @@ fixture (left hand button), or individual cells for control. The layout
 of the cell buttons matches the layout set in the pixel mapper to help
 you locate the correct cell on the fixture.
 
-![](/docs/images/image133.png)
+![Cells](/docs/images/image133.png)
 
 Some types of attribute have special displays as follows:
 
 ### Intensity/Shutter
 
-![](/docs/images/image141.png)
+![Intensity Shutter](/docs/images/image141.png)
 
 Provides an easy slider for Dimmer, also buttons for 0%, 100%, up and
 down 5%, and intensity locate (affects only the intensity).
 
 ### Position
 
-![](/docs/images/image142.png)
+![Position](/docs/images/image142.png)
 
 Provides a way to set the position from the touchscreen using an X-Y
 grid. Positions of selected fixtures are shown as circles on the grid
@@ -428,8 +417,7 @@ controls are provided:
 
 -   Locate sets 50/50 position (other attributes not affected),
 
--   Flip sets a moving head to its opposite yoke position (see section
-    5.1.18 on p126)
+-   [Flip](../controlling-fixtures/using-the-select-buttons-and-wheels.md#flip) sets a moving head to its opposite yoke position.
 
 -   Align sets pan/tilt to match the settings in the programmer of the
     most recently selected fixture. For example if you want to match the
@@ -451,7 +439,7 @@ For fixtures which are capable of colour mixing, there are several ways
 you can select a colour which are selected by tabs at the top of the
 Attribute Editor window.
 
-![](/docs/images/image143.png)
+![Colour Mix](/docs/images/image143.png)
 
 HIS/RGB/CMY provides a colour wheel with interactive sliders for
 changing Hue/Saturation/Intensity, Red/Green/Blue, and
@@ -466,7 +454,7 @@ can still be controlled using the RGB or HSI sliders.
 
 ### Colour mix: Picker
 
-![](/docs/images/image144.png)
+![Colour Picker](/docs/images/image144.png)
 
 This is the classic colour picker from earlier versions of Titan which
 provides a picker for hue and saturation, with a slider on the right
@@ -474,7 +462,7 @@ hand side to set the intensity.
 
 ### Colour mix: Channel
 
-![](/docs/images/image145.png)
+![Colour Channels](/docs/images/image145.png)
 
 Provides a slider for each colour control channel in the fixture. The
 sliders shown will vary depending on what is provided in the fixture -
@@ -484,18 +472,16 @@ UV/Congo Blue which are hard to mix from a picker or colour wheel.
 
 ### Colour mix: Filters
 
-![](/docs/images/image146.png)
+![Colour Filters](/docs/images/image146.png)
 
 Lets you pick a gel/filter colour from the Lee, Roscolux or GamColor
 ranges of filters. You can search for a particular colour by name or by
 number using the search bar. There is a context menu button to \[Order
 Filters by Number\] or \[Order Filters by Hue\].
 
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   For LED fixtures with additional emitters for Warm/Cool white, Amber, UV, Lime or Cyan, Colour Mix will automatically control all the colour channels to obtain the colour. In versions previous to Titan v9 only RGB elements were controlled by the colour picker and other colours had to be set independently.
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> For LED fixtures with additional emitters for Warm/Cool white, Amber, UV, Lime or Cyan, Colour Mix will automatically control all the colour channels to obtain the colour. In versions previous to Titan v9 only RGB elements were controlled by the colour picker and other colours had to be set independently.
 
-### Media servers/Active fixtures
+### Media Servers/Active Fixtures
 
 Active fixtures such as media servers will display a thumbnail of the
 media clip in the button. The media server must support CITP and be
@@ -504,22 +490,19 @@ patched as an active fixture for the thumbnails to work.
 For Ai media servers please see Section 12 on page 265 for more details
 of how Synergy allows you to control the setup and media playback.
 
-![](/docs/images/image147.png)
+![Clip Selection](/docs/images/image147.png)
 
-### Shutter blades/Keystone
+### Shutter Blades/Keystone
 
 Fixtures which support keystoning or blades/shutters can be controlled
 graphically in the attribute window. Select and drag the corners or
 sides of the image to control the fixture.
 
-![](/docs/images/image148.png)
+![Blades](/docs/images/image148.png)
 
-  --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   Updated personality files may be required to support the keystone/blade functions. If the functions are not shown in the Attribute View, try downloading and installing the latest personality file, then run the Update Patched Fixtures command.
-  --------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> Updated personality files may be required to support the keystone/blade functions. If the functions are not shown in the Attribute View, try downloading and installing the latest personality file, then run the Update Patched Fixtures command.
 
-Setting attributes from the softkeys
-------------------------------------
+## Setting Attributes from the Softkeys
 
 You can directly enter a numeric value for the attributes which are live
 on the wheels. You must be at the main Program menu to do this (keep
@@ -529,7 +512,7 @@ Type a number on the numeric keypad then press one of the softkeys to
 set the value to the fixture. The Softkey legend will show what effect
 your value is going to have (such as \[Gobo 5\], or \[Deep Blue\]).
 
-![](/docs/images/image149.png)
+![Attribute Softkey](/docs/images/image149.png)
 
 For attributes displayed in percent, such as Dimmer, or Colour Mix, you
 enter a value from 0-100 to set the percentage output. For attributes
@@ -537,8 +520,7 @@ where the output is divided up into ranges, such as colour wheels, you
 enter the index of the range you want. For example to select the 3rd
 colour (as displayed in the list above the wheel) you would enter 3.
 
-Adjusting attributes with the @ buttons
----------------------------------------
+## Adjusting Attributes with the @ buttons
 
 Pressing the \<@\> button next to a wheel opens the Adjust Attribute
 Value menu for that attribute.
@@ -572,8 +554,7 @@ The menu gives you the following functions:
 
 -   Freeze/Unfreeze: freeze or unfreeze the attribute
 
-Selecting fixtures and dimmers by number (Channel)
---------------------------------------------------
+## Selecting Fixtures and Dimmers by number (Channel)
 
 In some situations, for example when programming lots of dimmers, it can
 be easier to type in the dimmer channels you want to program. The
@@ -618,7 +599,7 @@ Latch\>.
     locate them. For example 1 Through 4 \<Locate\> will select fixtures
     1 to 4 and locate them.
 
-![](/docs/images/image150.png)
+![Syntax Selection](/docs/images/image150.png)
 
 -   When entering a command, the command line is shown on the display.
     You can go back using the grey Back button and you can abandon the
@@ -628,8 +609,7 @@ Latch\>.
     either above or below the numeric keypad, as printed on the legend
     next to the buttons.
 
-Selecting fixtures using a pattern
-----------------------------------
+## Selecting Fixtures using a Pattern
 
 When programming you will often want to select patterns of fixtures.
 Rather than having to individually select and deselect fixtures, Titan
@@ -641,7 +621,7 @@ has an easy way of selecting patterns of fixtures within a range.
 
 3. Select a pattern from the softkeys. Your selection is modified so
 you will only be controlling, say, the odd fixtures.\
-![](/docs/images/image151.png)
+![Pattern Select](/docs/images/image151.png)
 
 4. Press the \<Fix+1\> or \<Fix-1\> button to change the selection to
 the next stage of the pattern (\<Next\> and \<Prev\> on some consoles).
@@ -673,8 +653,7 @@ the next stage of the pattern (\<Next\> and \<Prev\> on some consoles).
 -   You can also get to these options by holding down a group selection
     button for the fixtures.
 
-Selecting fixtures which are in a playback
-------------------------------------------
+## Selecting Fixtures which are in a Playback
 
 To select fixtures which are controlled by a particular playback use the
 Select If function.
@@ -696,8 +675,7 @@ the numeric keypad to select fixtures set to a particular intensity.\
 Intensity levels may be input as 0-9 or 00-99 depending on the User
 Setting \[Channel Levels Set In\] (see section 16.1.6 on page 313).
 
-Attribute groups -- IPCGBES-FX
-------------------------------
+## Attribute Groups - IPCGBES-FX
 
 To make life a bit simpler, the console groups together attributes which
 have similar effects, using the letters IPCGBES-FX.
@@ -722,7 +700,7 @@ These groups are used to select which attributes you want to work with
 in many of the functions on the console, particularly when you are
 "masking off" certain attributes from being saved.
 
-![](/docs/images/image152.png)
+![Attribute Groups](/docs/images/image152.png)
 
 Above the attributes roller on the screen, the console shows you which
 attribute group you are currently changing (the grey box). The Attribute
@@ -731,8 +709,7 @@ those attributes. For example in the image above we are currently
 changing Colour attributes, but Intensity and Special attributes have
 also been modified.
 
-Stepping through selected fixtures one at a time
-------------------------------------------------
+## Stepping through selected fixtures one at a time
 
 If you have selected a range of fixtures, or a group, the console has
 functions to step through the selected fixtures one at a time. This can
@@ -753,8 +730,7 @@ labelled \<Prev\> and \<Next\> on some consoles.
 -   The Hilight function can be used to highlight the output of the
     selected fixture (make it brighter onstage), see the next section.
 
-Highlighting the selected fixture with Prev/Next
-------------------------------------------------
+## Highlighting the Selected Fixture with Prev/Next
 
 When stepping through a fixture selection using \<Fix+1\>/\<Fix-1\>, you
 can highlight the selected fixture on stage. This makes it very easy to
@@ -771,16 +747,14 @@ selection go to a dimmed "lowlight" level.
     \<Record\> then pressing \<HiLight\>, \[Store Highlight State\] or
     \[Store Lowlight State\].
 
-Turn off unselected fixtures (Remainder Dim)
---------------------------------------------
+## Turn Off Unselected Fixtures (Remainder Dim)
 
 To turn off all unselected fixtures use the Remainder Dim function by
 pressing \<Rem Dim\> (\<Avo\>+\<All\>). The zero intensity is placed in
 the programmer and will be recorded into any cue. This is useful when
 removing fixtures from cues.
 
-Align fixtures
---------------
+## Align Fixtures
 
 You can copy attributes from one fixture to another using the Align
 Fixtures function. This is very useful, for example, if you've
@@ -837,8 +811,7 @@ are copied.
     line of the screen, there is a list of the fixtures you have
     selected.
 
-Flip
-----
+## Flip
 
 Moving head fixtures can point at the same stage position from two
 possible yoke positions. Sometimes to get the fixture moving the same as
@@ -852,12 +825,9 @@ Flip function lets you do that.
 The Position window in the Attribute Editor also has a \[Flip\] button
 which does this.
 
-  --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   The settings used for Flip are defined in the fixture personality. If Flip doesn't work you may need to update to the latest personality.
-  --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------
+> The settings used for Flip are defined in the fixture personality. If Flip doesn't work you may need to update to the latest personality.
 
-Fan mode
---------
+## Fan Mode
 
 Fan mode automatically spreads out the values on a selected range of
 fixtures. If used on pan and tilt, the result is spreading out "rays" of
@@ -912,9 +882,7 @@ change in fan mode.
 Press \<Fan\> again to leave Fan mode. Any effects you have set will
 remain in the programmer.
 
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   It's all too easy to accidentally leave Fan mode turned on and be very confused about why the wheels aren't working properly, so turn it off as soon as you have completed the effect. To avoid this there is a User Setting 'Press and hold Fan'. If enabled, you have to hold down \<Fan\> to enable Fan mode. See section 16.1.6 on page 313.
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> It's all too easy to accidentally leave Fan mode turned on and be very confused about why the wheels aren't working properly, so turn it off as soon as you have completed the effect. To avoid this there is a User Setting 'Press and hold Fan'. If enabled, you have to hold down \<Fan\> to enable Fan mode. See section 16.1.6 on page 313.
 
 ### Fan Curves
 
@@ -924,35 +892,35 @@ You can select different curves to use when in Fan mode. Hold down
 -   Line: Traditional fan, the first and last selected fixture are
     affected equally in opposite directions, the midpoint remains
     unchanged. This is most useful for pan.\
-    ![](/docs/images/image153.png)
+    ![Line Fan](/docs/images/image153.png)
 
 -   Mirror- Divides the selection into two halves, the position in each
     half is the mirror of the other half\
-    ![](/docs/images/image154.png)
+    ![Mirror Fan](/docs/images/image154.png)
 
 -   Wings -- Divides the selection into three parts, the positions in
     the outer two parts mirror each other and the central part does not
     change.\
-    ![](/docs/images/image155.png)
+    ![Wings Fan](/docs/images/image155.png)
 
 -   Arrow - The first and last selected fixture are affected equally to
     the midpoint fixture but in the opposite direction. This is useful
     for colour mixing, tilt and dimmer.\
-    ![](/docs/images/image156.png)
+    ![Arrow Fan](/docs/images/image156.png)
 
 -   Pull Middle - The first and last selected fixture remain at the
     current value, the midpoint is affected most. This is useful for
     colour mixing, tilt and dimmer.\
-    ![](/docs/images/image157.png)
+    ![Pull Middle Fan](/docs/images/image157.png)
 
 -   Pull Ends - The first and last selected fixture are affected most,
     the midpoint is unchanged. This is useful for colour mixing, tilt
     and dimmer.\
-    ![](/docs/images/image158.png)
+    ![Pull Ends Fan](/docs/images/image158.png)
 
 -   Pull End -- Like pull ends but only from one end, the other end does
     not change\
-    ![](/docs/images/image159.png)
+    ![Pull End Fan](/docs/images/image159.png)
 
 ### Fan Parts
 
@@ -962,16 +930,15 @@ the numeric keypad. The Fan will divide into that number of parts, for
 example:
 
 Normal (1):\
-![](/docs/images/image160.png)
+![1 Part](/docs/images/image160.png)
 
 2:\
-![](/docs/images/image161.png)
+![2 Parts](/docs/images/image161.png)
 
 3:\
-![](/docs/images/image162.png)
+![3 Parts](/docs/images/image162.png)
 
-Setting fixture/attribute times
--------------------------------
+## Setting Fixture/Attribute Times
 
 Fade and delay timings can be directly set for each fixture or
 individual attributes of a fixture. When you store the settings into a
@@ -1008,8 +975,7 @@ tap the \<Time\> button. (previously the \<Set\> button on Titan
 Mobile/Sapphire Touch and the \<Next Time\> button on Tiger Touch/Pearl
 Expert).
 
-Clearing attributes using "Off"
--------------------------------
+## Clearing Attributes Using "Off"
 
 Once you have changed an attribute, the value you set will be in the
 programmer and will be stored in any cues or palettes you create. If

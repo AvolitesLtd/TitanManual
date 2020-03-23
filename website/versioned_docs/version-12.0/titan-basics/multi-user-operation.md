@@ -1,7 +1,7 @@
 ---
 id: version-12.0-multi-user-operation
-title: Multi-user operation
-sidebar_label: Multi-user operation
+title: Multi-user Operation
+sidebar_label: Multi-user Operation
 original_id: multi-user-operation
 ---
 
@@ -89,15 +89,13 @@ Linking to other TitanNet sessions
 ----------------------------------
 
 If multiple Titan consoles are connected in the same network you can
-choose to connect them as multi-user, backup, or both. This is also how
+choose to connect them as multi-user, [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup), or both. This is also how
 you connect TitanNet processors to expand DMX outputs.
 
-  ---------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
-  ![exclamation](/docs/images/image5.png)   All consoles to be linked must be running the same version of Titan for this to work.
-  ---------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
+> All consoles to be linked must be running the same version of Titan for this to work.
 
 For details of how to connect Titan consoles together on a network, see
-section 18 on page 339.
+[Networking the Console](../networking.md).
 
 1. Press the \<Disk\> button.
 
@@ -149,7 +147,7 @@ to start the connection.
     local show it had loaded prior to joining. Master consoles have the
     option to \[Terminate Session\].
 
-    If a console is running as backup, it has options to \[Takeover\],
+    If a console is running as [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup), it has options to \[Takeover\],
     \[Sync now\] and \[Leave Session\]. If \[Takeover\] is selected, the
     console will immediately become the master and take over DMX output
     with the chosen user and handle worlds selected. The console which
@@ -158,12 +156,6 @@ to start the connection.
 -   Consoles must be running Titan v8 or above to join a multi-user or
     backup session with another Titan v8 console.
 
--   Backup operation is also described in section 13.6.2 on page 295.
-
 **For Titan Mobile:**
 
-  --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   Network Discovery must be enabled in the Windows User Profile you are using or consoles will not be able to see each other on the network. Ensure the Windows option \'Turn on network discovery\' is selected in the Network Sharing options.
-  --------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
+> Network Discovery must be enabled in the Windows User Profile you are using or consoles will not be able to see each other on the network. Ensure the Windows option \'Turn on network discovery\' is selected in the Network Sharing options.

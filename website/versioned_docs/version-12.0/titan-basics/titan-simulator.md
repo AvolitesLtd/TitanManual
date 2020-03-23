@@ -1,7 +1,7 @@
 ---
 id: version-12.0-titan-simulator
-title: Titan simulator
-sidebar_label: Titan simulator
+title: Titan Simulator
+sidebar_label: Titan Simulator
 original_id: titan-simulator
 ---
 
@@ -20,15 +20,8 @@ install or run Titan Simulator. From v12, to run the Titan Simulator an
 AvoKey Simulator dongle must be connected, or a T1/T2 device.
 
 
-![info](/docs/images/image6.png)
-
-----------------------------------------------------------------------
-
-From v7, Windows XP and Vista are no longer supported by Titan software.
-
-Your PC must be running a 64 bit version of Windows 7, Windows 8.1 or Windows 10.                      
-
----------------------
+> From v7, Windows XP and Vista are no longer supported by Titan software.
+> Your PC must be running a 64 bit version of Windows 7, Windows 8.1 or Windows 10.                      
 
 Capture visualiser requires a capable graphics card. If you have problems with Capture,      
 ensure you have installed the latest drivers for your graphics card from the manufacturer.
@@ -58,9 +51,7 @@ simulating. The simulator will then open a Virtual Panel, which
 replicates the physical controls of your chosen console, and monitor
 windows for each of the monitor outputs.
 
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   The touch screen display is shown separately from the Virtual Panel. It is helpful to have two monitors to allow you to see the touch screen and the Virtual Panel at the same time.
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> The touch screen display is shown separately from the Virtual Panel. It is helpful to have two monitors to allow you to see the touch screen and the Virtual Panel at the same time.
 
 The Virtual Panel works exactly the same as the real panel; to hold a
 button down so you can press a second button, right click it using the

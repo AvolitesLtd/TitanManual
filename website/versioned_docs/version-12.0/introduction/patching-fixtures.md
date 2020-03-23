@@ -15,23 +15,20 @@ if you don't change them.
 
 Press buttons in the Fixtures window to patch the fixture, or patch
 fixtures on faders (except the main playback faders) by pressing the
-blue select button (Section 4.1.3, p89).
+blue select button (See [Patching Fixtures or Dimmers](../patching/patching-new-fixtures-or-dimmers)).
 
 To patch a number of dimmers or fixtures at once, draw a selection box
 over buttons on the screen, or on physical buttons hold down first
 select button and press last in range. Or, set \[Quantity\] in the patch
 menu.
 
-To change DMX address or line, use \[Repatch Fixtures\]. (Section 4.2,
-p95).
+To change DMX address or line, use \[[Repatch Fixtures](../patching/changing-the-patch#fixture-exchange)\].
 
-### View fixture patch
+## View fixture patch
 
 To see an overview screen of how the console is patched, press
-\<View/Open\> then \<Patch\> (Section 4.2.1 , p95).
+\<View/Open\> then \<Patch\> to open [Patch View](../patching/changing-the-patch#patch-view).
 
-### Setting fixture options
+## Setting fixture options
 
 Press \<Patch\>, \[Edit Fixtures\], or use the Patch View screen.
-
-

@@ -1,7 +1,7 @@
 ---
 id: version-12.0-front-panel-buttons
-title: Front panel buttons
-sidebar_label: Front panel buttons
+title: Front Panel Buttons
+sidebar_label: Front Panel Buttons
 original_id: front-panel-buttons
 ---
 
@@ -15,9 +15,9 @@ Key profiles
 The console allows you to change the function of the blue select and
 grey flash panel buttons (and the black buttons on Sapphire Touch). You
 can also change the way some of the touch keys work. You can save your
-settings as a Key Profile. Different profiles can be selected for
+settings as a [Key Profile](../system-settings/key-profiles.md). Different profiles can be selected for
 different users or to enhance the operation of the console for a
-particular use. See section 16.3 on page 315 for details.
+particular use.
 
 Key macro buttons
 -----------------

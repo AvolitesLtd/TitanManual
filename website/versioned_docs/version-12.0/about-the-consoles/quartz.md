@@ -5,7 +5,7 @@ sidebar_label: Quartz
 original_id: quartz
 ---
 
-![](/docs/images/image34.jpeg)
+![Quartz](/docs/images/image34.jpeg)
 
 The **Workspace windows** on the touch screen contain touch buttons for
 fixtures, palettes, groups, playbacks, macros and more. You can also set
@@ -16,7 +16,7 @@ centre of the console and shows you what is going on. This part of the
 display shows various screens of information depending on what you are
 currently doing.
 
-The **Menu Softkeys** (labelled A -- G) are used to select control
+The **Menu Softkeys** (labelled A - G) are used to select control
 options. The display next to the buttons shows what each one will do.
 The options for each key change depending on what the console is doing.
 Softkey commands are shown in the manual with square brackets like this:
@@ -61,9 +61,9 @@ if something odd happens with the switches and faders. The main
 processor will continue running but the DMX output will be interrupted
 until the restart is completed.
 
-**Connections panel**
+## Connections panel
 
-![](/docs/images/image36.jpeg)
+![Quartz Connections Panel](/docs/images/image36.jpeg)
 
 All the connections are on the rear panel. Most are self-explanatory.
 The power switch on the rear panel is an isolator for the power supply

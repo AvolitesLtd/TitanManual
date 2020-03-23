@@ -1,11 +1,11 @@
 ---
 id: version-12.0-viewing-and-editing-fixture-values
-title: Viewing and editing fixture values
-sidebar_label: Viewing and editing fixture values
+title: Viewing and Editing Fixture Values
+sidebar_label: Viewing and Editing Fixture Values
 original_id: viewing-and-editing-fixture-values
 ---
 
-The Channel Grid window
+The Channel Grid Window
 -----------------------
 
 It can sometimes be useful to display and edit exactly what each fixture
@@ -13,7 +13,7 @@ is doing. The Channel Grid window allows you do to that. Display it by
 pressing \<View/Open\> then \[Open workspace window\] then \[Channel
 Grid\].
 
-![](/docs/images/image163.png)
+![Channel Grid](/docs/images/image163.png)
 
 The window can be set to different modes using the context buttons to
 the left of the menu. The modes are:
@@ -51,14 +51,14 @@ You can filter what is shown in the grid either by IPCGBES attribute
 (using the buttons top left) or by fixture type (using the buttons below
 that).
 
-Intensity window
+Intensity Window
 ----------------
 
 If you want to see at a glance the intensity setting of each fixture,
 the Intensity window is the place to be. To show the window, press
 \[Open workspace window\] then \[Intensity\].
 
-![intensityview](/docs/images/image164.png)
+![Intensity View](/docs/images/image164.png)
 
 Each fixture has a block showing the intensity as a number and as a bar
 down the left side. The header bar shows selection/programmer state like
@@ -68,7 +68,7 @@ down arrow.\
 Tracked values from previous cues are shown with a magenta equals sign.\
 In a solo or block cue a red "not permitted" symbol is shown.
 
-![](/docs/images/image165.png)
+![Solo/Block Cue](/docs/images/image165.png)
 
 If intensity levels are controlled by an effect they are shown in yellow
 with a tilde symbol (\~).
@@ -87,7 +87,7 @@ show the automatic fixture colours, see below.
     buttons on the left
 
 -   Change the display order of the fixtures using the \[Sort\] context
-    menu buttons -- User Number, Last Selected or DMX Address.
+    menu buttons - User Number, Last Selected or DMX Address.
 
 -   Click on a fixture to select it, you can then edit the intensity
     directly.
@@ -99,14 +99,14 @@ The context menu options give you settings to change how the window is
 displayed.
 
 The first option lets you only show fixtures in a particular state:\
-All -- all fixtures (default)\
-Stage -- fixtures with intensity above zero\
-Programmer -- fixtures in the programmer\
-Selected -- fixtures which are selected\
-Live cues -- only intensities coming from active cues\
-Connected cue -- only fixtures in the currently connected cue (for cue
+All - all fixtures (default)\
+Stage - fixtures with intensity above zero\
+Programmer - fixtures in the programmer\
+Selected - fixtures which are selected\
+Live cues - only intensities coming from active cues\
+Connected cue - only fixtures in the currently connected cue (for cue
 lists or chases)\
-Frozen -- fixtures with frozen intensity
+Frozen - fixtures with frozen intensity
 
 The second option changes sort order as described above
 
@@ -122,8 +122,7 @@ include all fixtures in all the cues of the chase/list. The filter
 settings are shown in a bar at the top of the window, click the X to
 remove the filter or click on the bar to change the group/playback.
 
-\[Open Channel Grid\] opens the Channel Grid window described in the
-previous section.
+\[Open Channel Grid\] opens the [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window).
 
 In the **Window Appearance Settings** (cog button) there are further
 display options. Turning off some of the options will reduce the size of
@@ -157,5 +156,3 @@ on the screen.
 -   Tracked Fixtures Shown/Hidden: (This option only appears when the
     view is filtered to Live Cue or Connected Cue). Sets whether
     fixtures with tracked intensity are shown or not.
-
-

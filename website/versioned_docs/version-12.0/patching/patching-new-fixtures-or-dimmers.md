@@ -1,11 +1,11 @@
 ---
 id: version-12.0-patching-new-fixtures-or-dimmers
-title: Patching new fixtures or dimmers
-sidebar_label: Patching new fixtures or dimmers
+title: Patching New Fixtures or Dimmers
+sidebar_label: Patching new Fixtures or Dimmers
 original_id: patching-new-fixtures-or-dimmers
 ---
 
-Fixture select buttons and handles
+Fixture Select Buttons and Handles
 ----------------------------------
 
 To control intelligent fixtures or dimmer channels, they must each be
@@ -18,7 +18,7 @@ If the Fixtures window is not shown, press \<View/Open\> then
 \<Fixture\> or press \<View/Open\> then \[Open Workspace Window\] then
 \[Fixtures\].
 
-![](/docs/images/image111.png)
+![Fixtures Window](/docs/images/image111.png)
 
 Fixture buttons can be shown either in pages with Page buttons, or you
 can use the scroll bar on the right to show different pages. Use the
@@ -30,16 +30,14 @@ You can allocate fixtures and dimmers to Groups, which allows you to
 quickly select a set of fixtures with one button. Groups are described
 in the next chapter.
 
-Once you have patched fixtures or dimmers, the Patch View screen shows
+Once you have patched fixtures or dimmers, the [Patch View](./changing-the-patch.md#patch-view) screen shows
 you an overview of what is patched where and lets you edit the patch.
-See section 4.2.1 on page 95.
 
-Patching dimmers
+Patching Dimmers
 ----------------
 
 Each fixture button can control single or multiple dimmer channels. You
-allocate a button using the Patch menu (described below) or the Patch
-View window (see section 4.2.1).
+allocate a button using the Patch menu (described below) or the [Patch View](./changing-the-patch.md#patch-view) window.
 
 1. Press \<Patch\>, then \[Dimmers\].
 
@@ -47,7 +45,7 @@ View window (see section 4.2.1).
 patching onto. Enter a new number to change the line. \[Address = \]
 shows the DMX address about to be patched. You can change this by typing
 in the new address on the numeric keypad and pressing \<Enter\>.\
-![](/docs/images/image112.png)
+![DMX Line](/docs/images/image112.png)
 
 3. To patch a single dimmer, press a Fixture touch button, a
 Macro/Executor button or the blue Select button of a fader handle. To
@@ -69,7 +67,7 @@ up dimly.
     will set DMX address 56 on DMX line 2.
 
 -   To see how DMX channels are patched, press \<View/Open\> then Patch
-    to show the Patch View window.
+    to show the [Patch View](./changing-the-patch.md#patch-view) window.
 
 -   \[User Number = xx\] allows you to set a user-defined number for
     each dimmer or fixture patched, to help you identify them later. You
@@ -86,7 +84,7 @@ up dimly.
     handle without losing programming, make a copy of the handle then
     repatch the copy to the individual dimmer address.
 
-Patching moving light fixtures
+Patching Moving Light Fixtures
 ------------------------------
 
 Moving light fixtures are more complicated to patch than dimmers because
@@ -101,17 +99,16 @@ it what attributes are available and how to control them. If the console
 does not have the personality for your fixture, you can download further
 personalities from the Avolites website, create your own using the
 Personality Builder application installed on the console, or Avolites
-can create one for you. See section 17 on page 335 for details of how to
+can create one for you. See the [personalities section](../fixture-personalities) for details of how to
 find personalities.
 
-You can patch either using the Patch menu (described below) or the Patch
-View window (see section 4.2.1).
+You can patch either using the Patch menu (described below) or the [Patch View](./changing-the-patch.md#patch-view) window.
 
 1. Press \<Patch\>.
 
 2. Press \[Fixtures\].
 
-![](/docs/images/image113.png)
+![Patch Menu](/docs/images/image113.png)
 
 3. Select the correct fixture manufacturer from the softkeys
 (\[Previous\] and \[Next\] page through the list of manufacturers). Or
@@ -128,7 +125,7 @@ on the numeric keypad if you want a different one. \[DMX line=xx\] lets
 you patch to a different DMX line, or you can enter the address as
 \[line\].\[address\], e.g. 2.45 would set address 45 on line 2.
 
-![](/docs/images/image114.png)
+![Address Input](/docs/images/image114.png)
 
 7. Patch the fixture by pressing a Fixture touch button, a
 Macro/Executor button or the blue Select button of a fader handle (not
@@ -161,7 +158,7 @@ Select buttons.
 -   If you are patching a fixture which uses a separate dimmer channel,
     such as a VL5, you can patch the dimmer channel onto the same handle
     as the moving light part of the fixture so you can control it all
-    together. This is called a Pending Dimmer (in the Patch View window
+    together. This is called a Pending Dimmer (in the [Patch View](./changing-the-patch.md#patch-view) window
     this is indicated with a flash symbol behind the user number).
 
 -   \[Options\], \[Preset Palettes\] sets whether the console will
@@ -191,7 +188,7 @@ Select buttons.
     prompt area to help you check you have got the right one (if
     provided in the fixture personality; some fixtures do not include
     this information)\
-    ![](/docs/images/image115.png)
+    ![Fixture Mode](/docs/images/image115.png)
 
 Capture Visualiser Auto Patch
 -----------------------------
@@ -202,8 +199,8 @@ consoles also have a dedicated \<Visualiser\> button. Capture will open
 in a workspace window with an automatic representation of your patch.
 
 You will see the fixtures you have patched laid out on screen in handle
-number order. You can then use the Visualiser controls to reposition the
-fixtures if you wish -- see chapter 11.
+number order. You can then use the [Visualiser controls](../capture-visualiser.md) to reposition the
+fixtures if you wish.
 
 -   You can turn off Auto Patch in the Capture Visualiser Settings
     window (Stage tab).
@@ -211,15 +208,14 @@ fixtures if you wish -- see chapter 11.
 -   Fixture modes which will work with Auto Patch show a Capture icon in
     the button. If the icon is not shown, that fixture mode isn't
     supported in the integrated Capture.\
-    ![](/docs/images/image116.png)
+    ![Fixture Modes](/docs/images/image116.png)
 
--   If you are using the console linked to the full version of Capture
+-   If you are using the [console linked to the full version of Capture](../capture-visualiser/linking-the-console-to-stand-alone-capture.md)
     (Nexum or above) on an external computer, then changes to the patch
     on the console will automatically sync to the Capture show. Also
-    changes you make in Capture will sync back to the console. See
-    section 11.4 for more details.
+    changes you make in Capture will sync back to the console.
 
-Patching fixtures with multiple cells (sub fixtures)
+Patching Fixtures with Multiple Cells (sub fixtures)
 ----------------------------------------------------
 
 Some fixtures have multiple cells of control within a single fixture
@@ -237,21 +233,18 @@ independently, use the Attribute Editor window or you can press
 workspace, the current page of fixtures will be replaced by select
 buttons for each individual fixture cell. If patched on a fader then the
 cells will start at fader 1. You can also select subfixtures from the
-numeric keypad. See section 5.1.4 on page 112 for more details of
+numeric keypad. See the [fixture control section](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fixtures-with-multiple-cells-subfixtures) for more details of
 working with fixture cells.
 
 To go back to normal, press \<Unfold\> then \[Exit Unfold\].
 
-  --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   The Sub fixtures feature has to be defined in the fixture's personality. If sub fixtures does not work on your fixture you may need to obtain the latest fixture personality from Avolites.
-  --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> The Sub fixtures feature has to be defined in the fixture's personality. If sub fixtures does not work on your fixture you may need to obtain the latest fixture personality from Avolites.
 
 Patching Active Fixtures / Media Servers
 ----------------------------------------
 
-For Ai media servers please see Section 12 on page 265 for more details
-of how Synergy allows you to connect to Ai for control of the setup and
-media playback.
+For Ai media servers see the [Synergy section](../synergy.md) which allows you
+to connect to Ai for control of the setup and media playback.
 
 Other media servers which support CITP can be patched using the \[Active
 Fixtures\] command on the Patch menu. This allows the console to
@@ -271,16 +264,14 @@ interrogate the lighting rig to find out what's there. It can then patch
 itself to match the existing DMX addresses. You can also remotely change
 modes and other settings on the fixture.
 
-  --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   The fixtures need to be connected to the console by an RDM-enabled Artnet node, the XLR connectors do not support RDM. Obviously the fixtures must be equipped with RDM for this to work; many fixtures are not. Also if you have DMX buffers or splitters in your rig, they must be RDM enabled or they will block the information being sent back to the console.
-  --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> The fixtures need to be connected to the console by an RDM-enabled Artnet node, the XLR connectors do not support RDM. Obviously the fixtures must be equipped with RDM for this to work; many fixtures are not. Also if you have DMX buffers or splitters in your rig, they must be RDM enabled or they will block the information being sent back to the console.
 
-Press \<View/Open\> then \<Patch\> to open the Patch View window then
+Press \<View/Open\> then \<Patch\> to open the [Patch View](./changing-the-patch.md#patch-view) window then
 select the RDM tab. All devices which support RDM will be listed here.
 Click the \[Full Discover\] context menu button to rescan the rig for
 RDM devices.
 
-![RDMDiscovery](/docs/images/image117.png)
+![RDM Discovery](/docs/images/image117.png)
 
 -   Select one or more fixtures in the grid and click the Patch context
     menu button to patch the devices.
@@ -295,7 +286,7 @@ RDM devices.
 -   Click on the RDM Quick Patch context menu button to automatically
     patch all RDM devices.
 
-Finding a lost fixture
+Finding a Lost Fixture
 ----------------------
 
 Sometimes a fixture may be rigged with the wrong DMX address set, or
@@ -325,5 +316,3 @@ Find Fixture settings.
 -   Wheel C (DMX Slot) jumps through DMX addresses using the fixture
     channel count (for example if a fixture uses 16 channels, it will
     jump through in 16's).
-
-

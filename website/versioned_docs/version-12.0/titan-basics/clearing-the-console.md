@@ -1,7 +1,7 @@
 ---
 id: version-12.0-clearing-the-console
-title: Clearing the console
-sidebar_label: Clearing the console
+title: Clearing the Console
+sidebar_label: Clearing the Console
 original_id: clearing-the-console
 ---
 

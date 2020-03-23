@@ -1,7 +1,7 @@
 ---
 id: version-12.0-titan-commands
-title: Titan Commands quick reference
-sidebar_label: Titan Commands quick reference
+title: Titan Commands Quick Reference
+sidebar_label: Titan Commands Quick Reference
 original_id: titan-commands
 ---
 
@@ -9,9 +9,9 @@ Please note that some commands may require \<Enter\> to complete the
 command. In this reference \<Enter\> has always been omitted for
 clarity.
 
-\[ \] means a softkey on the console.
+\[ Softkey \] formatting means a softkey on the console.
 
-\< \> means a physical labelled button
+\< Button \> formatting means a physical labelled button
 
 { } means a handle button, e.g. {Cue} means the blue button on a cue
 playback handle
@@ -25,11 +25,11 @@ provided with the same function.
 Some of the buttons in this guide have changed names and so here is a
 list of the old button names and their new equivalents.
 
-  ---------- ----------
-  Old Name   New Name
-  Connect    Cue
-  SET        TIME
-  ---------- ----------
+
+  Old Name |  New Name
+  ---------|----------
+  Connect  |  Cue
+  SET      |  TIME
 
 Fixtures
 --------
@@ -76,8 +76,8 @@ Select the second cell of fixtures 1 to 5
 **\<Through\> \<.\> j**\
 Select cells 1 to j of all selected fixtures
 
-**\<.\> m \<Through\>\
-**Cells m-\>last of all selected fixtures
+\<.\> m \<Through\>\
+Cells m-\>last of all selected fixtures
 
 **\<.\> m \<Through\> \<.\>j**\
 **\<.\> m \<Through\> i**\

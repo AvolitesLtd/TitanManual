@@ -1,7 +1,7 @@
 ---
 id: version-12.0-changing-the-patch
-title: Changing the patch
-sidebar_label: Changing the patch
+title: Changing the Patch
+sidebar_label: Changing the Patch
 original_id: changing-the-patch
 ---
 
@@ -18,7 +18,7 @@ easy to do in one operation in the Patch View.
 To show the Patch View window press \<View/Open\> then \<Patch\>, or use
 the Open Workspace Windows menu command.
 
-![patchview](/docs/images/image118.png)
+![Patch View](/docs/images/image118.png)
 
 **Fixture type:** lists the different types of fixture in your show.
 Each fixture has a unique colour code. Click on these buttons to filter
@@ -38,9 +38,7 @@ The **grid area** shows details for each patched fixture on the selected
 output line. Some parameters are editable by clicking in the grid, then
 the softkeys allow you to change the parameter.
 
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   You can change parameters for multiple fixtures by dragging a selection box over the grid, or hold the Ctrl button on the keyboard and click on the required fixtures. Then edit the parameter on the softkeys, and use the \[Set\] context button or press \<Enter\> to update the selected fixtures.
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> You can change parameters for multiple fixtures by dragging a selection box over the grid, or hold the Ctrl button on the keyboard and click on the required fixtures. Then edit the parameter on the softkeys, and use the \[Set\] context button or press \<Enter\> to update the selected fixtures.
 
 -   You can switch off some of the display columns to make the Patch
     View simpler. Press the \[Choose Columns\] context menu button and
@@ -52,14 +50,14 @@ the softkeys allow you to change the parameter.
     The tabs across the top allow you to switch the window to
     Personality List (lists all fixtures available on the console), RDM
     (allows you to patch devices using RDM) and Attribute Behaviour
-    (allows you to set invert, freeze, curve, and limit. See section
-    4.4.2 and following sections for Attribute Behaviour.
+    (allows you to set invert, freeze, curve, and limit.
+    See the [detailed fixture information section](./changing-the-patch.md#view-detailed-fixture-information) for Attribute Behaviour.
 
     A context menu option allows you to show or hide parked fixtures. If
     you show parked fixtures they will appear greyed out in the position
     they were originally patched.
 
-View detailed fixture information
+View Detailed Fixture Information
 ---------------------------------
 
 In the Patch View window click on the View button for the fixture you
@@ -69,28 +67,28 @@ including the personality and mode used to patch, and the individual DMX
 channel addresses for each attribute. Attributes can be inverted or
 frozen by clicking on the checkboxes at the right hand side.
 
-![](/docs/images/image119.png)
+![Fixture View](/docs/images/image119.png)
 
 If the fixture address is set using DIP switches, the console can show
 you how to set the switches by clicking on the DIP Switches tab.
 
-![](/docs/images/image120.png)
+![Dip Switches](/docs/images/image120.png)
 
 There is also a Personality tab (not shown in the pictures) which shows
 history information about the personality file for the fixture. This can
 be useful for checking the version of the personality file.
 
-Changing DMX addressing using Patch View
+Changing DMX Addressing using Patch View
 ----------------------------------------
 
 You can easily change the DMX address of one or more fixtures from Patch
-View. Select the DMX address cells you want to modify -- draw a
+View. Select the DMX address cells you want to modify - draw a
 selection box over multiple cells to select more than one.
 
-![](/docs/images/image121.png)
+![Change DMX Address](/docs/images/image121.png)
 
 Type the new address for the first fixture in the selection and press
-\<Enter\> (using the format Universe . Address -- if you miss out the
+\<Enter\> (using the format Universe . Address - if you miss out the
 universe part it will stay unchanged).
 
 All fixtures will be renumbered keeping the addressing offset between
@@ -106,7 +104,7 @@ Select one group, then press \[Swap Fixture Addresses\] and select the
 target group. In One for One mode the target must be the same quantity
 of fixtures or the console will display an error. In Retain Layout mode
 the console will attempt to add or remove fixtures to get the same
-quantity -- if this conflicts with other fixtures it will give you the
+quantity - if this conflicts with other fixtures it will give you the
 options to \[Park Conflicting\] or \[Cancel\].
 
 Changing DMX address using Patch menu
@@ -125,7 +123,7 @@ line. All programming is kept.
 4. To change DMX press \[Address\], type the new address and press
 enter. If this address is already in use, a warning icon will be shown.
 
-![](/docs/images/image122.png)
+![Address softkey](/docs/images/image122.png)
 
 5. To change the DMX output line, press \[DMX Line=x\] and enter a new
 output line number.
@@ -140,8 +138,8 @@ output line number.
     using the \[Unpark\] option.
 
 -   If the new DMX address already has another fixture or dimmer patched
-    on it, the console will warn you (unless this is disabled in User
-    Options, see section 16.1.6 on page 313). You can either press
+    on it, the console will warn you (unless this is disabled in [User
+    Settings](../system-settings/user-settings.md)). You can either press
     \[Select another DMX address\] to abort the change or \[Park
     Conflicting Fixtures\]. All programming for the parked fixture is
     preserved, but you need to repatch it to a free DMX address using
@@ -150,9 +148,9 @@ output line number.
     any future conflicting fixtures without warning you (you can change
     this option back in the User Settings).
 
-![](/docs/images/image123.png)
+![Fixture Conflict](/docs/images/image123.png)
 
-Setting legends
+Setting Legends
 ---------------
 
 You can set a legend for each fixture or dimmer you've patched which is
@@ -187,7 +185,7 @@ identify the fixture.
     \[Set Legend\] function from the main Program menu. The legend is
     shown on the touch button for the page and on the HUD.
 
-Fixture button halo
+Fixture Button Halo
 -------------------
 
 You can configure fixture buttons to have a "halo" colour which helps
@@ -201,7 +199,7 @@ colour picker will open to let you set the colour, or pressing \[System
 Colours\] will give you colour options on the softkeys. A \[Remove
 Halo\] softkey lets you remove the colour.
 
-![](/docs/images/image80.png)
+![Fixture Halo](/docs/images/image80.png)
 
 To enable automatic halo colours, hold \<Avo\> and select \[User
 Settings\], then \[Handles\], then set Fixture Halos to \[Auto\].
@@ -210,13 +208,13 @@ colours used in the Patch window.
 
 Halo colours are also shown in the Intensity View and Show Library
 workspace. In list views such as DMX, Channel Grid, Cue View and Palette
-view the halo colours are shown as a bar to the left of the list -- this
+view the halo colours are shown as a bar to the left of the list - this
 uses the user halo colour if one is set, otherwise the automatic colour
 is used. The User Setting does not affect this display.
 
-![](/docs/images/image124.png)
+![Cue View](/docs/images/image124.png)
 
-DMX view window
+DMX View Window
 ---------------
 
 When you're having problems getting fixtures to work it can be useful to
@@ -246,7 +244,7 @@ re-recorded, preferably using palettes.
 The pan, tilt and dimmer will always be preserved from one fixture type
 to the next. For other attributes, the console will attempt to match the
 functions between the fixtures, but you can change the details of this
-using the Exchange Mapping function (see next section). All programmed
+using the Exchange Mapping function (see [next section](./changing-the-patch.md#exchange-mapping)). All programmed
 items including palettes will be preserved, so the programming can be
 easily adjusted by updating your palettes as normal.
 
@@ -271,9 +269,7 @@ when faced with a new fixture.
     5. Repeat from step 3 to exchange other fixtures with the same type
     of new fixture.
 
-  --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)   After exchanging fixtures you need to update the palettes which used those fixtures. If you have trouble switching values off in a palette, set new values for all the attributes in the attribute group and re-record the palette. You should then be able to switch off an attribute group as required.
-  --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> After exchanging fixtures you need to update the palettes which used those fixtures. If you have trouble switching values off in a palette, set new values for all the attributes in the attribute group and re-record the palette. You should then be able to switch off an attribute group as required.
 
 Exchange Mapping
 ----------------
@@ -337,8 +333,7 @@ new destination.
     All these actions have to be confirmed by pressing the \[Confirm\]
     softkey.
 
-![exchangemap
-prompt](/docs/images/image128.png)
+![Exchange Mapping](/docs/images/image128.png)
 
 **Range mapping**
 
@@ -361,7 +356,7 @@ value.
 Once complete, click Apply then \[Confirm\] to commit the changes or
 Cancel then \[Confirm\] to forget.
 
-Updating patched personalities
+Updating Patched Personalities
 ------------------------------
 
 This option allows you to update the personality for a fixture used in
