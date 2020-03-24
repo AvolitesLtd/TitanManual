@@ -9,6 +9,7 @@
 // site configuration options.
 
 var custom_rules = require('./custom_rules.js');
+var iframify = require('@noticeable/remarkable-iframify');
 
 const siteConfig = {
   title: 'Avolites Titan Manual', // Title for your website.
@@ -70,16 +71,29 @@ const siteConfig = {
   },
 
   markdownPlugins: [
-    function buttonStyling(md) {
+    // expand MarkDown syntax
+    function customFormatting(md) {
+      // style softkey buttons
+      // e.g. \[Edit Times\]
       custom_rules.keyRule(md,"softkey","\\[","\\]","softkey_open","softkey_close")
       md.renderer.rules.softkey_open = custom_rules.softkey_open
       md.renderer.rules.softkey_close = custom_rules.softkey_close
+
+      // style physical console buttons
+      // e.g. \<Avo\>
       custom_rules.keyRule(md,"button","\\<","\\>","button_open","button_close")
       md.renderer.rules.button_open = custom_rules.button_open
       md.renderer.rules.button_close = custom_rules.button_close
-    },
-    function enableSubscriptAndSuperscript(md) {
+
+      // enable subscript and superscript
+      // e.g. ~sub~ ^sup^
       md.inline.ruler.enable(['sub', 'sup']);
+
+      // embed videos by linking to them
+      // e.g. [Patching](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+      // more details:
+      // https://github.com/noticeableapp/remarkable-iframify/
+      iframify.iframify(md)
     },
   ],
 
