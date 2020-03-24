@@ -1,0 +1,6 @@
+#Error Documents
+ErrorDocument 400 /help/
+ErrorDocument 401 /help/
+ErrorDocument 402 /help/
+ErrorDocument 403 /help/
+ErrorDocument 404 /help/
