@@ -106,7 +106,6 @@ You can patch either using the Patch menu (described below) or the [Patch View](
 1. Press \<Patch\>.
 
 2. Press \[Fixtures\].
-
 ![Patch Menu](/docs/images/image113.png)
 
 3. Select the correct fixture manufacturer from the softkeys
@@ -123,7 +122,6 @@ You can use Quick Search here as well.
 on the numeric keypad if you want a different one. \[DMX line=xx\] lets
 you patch to a different DMX line, or you can enter the address as
 \[line\].\[address\], e.g. 2.45 would set address 45 on line 2.
-
 ![Address Input](/docs/images/image114.png)
 
 7. Patch the fixture by pressing a Fixture touch button, a

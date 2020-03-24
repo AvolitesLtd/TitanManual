@@ -7,18 +7,18 @@ sidebar_label: Sapphire Touch
 ![Sapphire Touch](/docs/images/image13.jpeg)The Sapphire Touch has four main control
 areas:
 
-The two **Touch screens** contain fixture, palette and group select
+(A) The two **Touch screens** contain fixture, palette and group select
 buttons. They also show legends for the playback faders and shows the
 current menu page and softkey buttons on the top right of the right hand
 screen.
 
-The **Playback faders** select and control cues and programs
+(B) The **Playback faders** select and control cues and programs
 
-The **Preset playbacks** are used for patching fixtures or for
+(C) The **Preset playbacks** are used for patching fixtures or for
 additional playbacks.
 
-The **Programming and setup controls** configure and program the console
-and the **macro/executor buttons** allow storage of frequent key
+(D) The **Programming and setup controls** configure and program the console
+and (E) the **macro/executor buttons** allow storage of frequent key
 sequences, screen layouts, groups or programs.
 
 ## The Main Controls

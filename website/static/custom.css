@@ -68,9 +68,23 @@
     max-width: 200px;
 }
 
+ol {
+  /*border-top: 1px solid #D80029;
+  border-bottom: 1px solid #F82049;
+  font-style: italic;*/
+  background-color: rgba(216, 0, 41, 0.2);
+  border-left: 8px solid #D80029;
+  color: #555;
+}
+
 blockquote {
   background-color: rgba(100, 188, 255, 0.3);
+  background-image: url(/docs/images/image6.png);
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: 5px 10px;
   border-left: 8px solid #64b0ff;
+  padding: 5px 70px;
 }
 
 .docsNavContainer {
