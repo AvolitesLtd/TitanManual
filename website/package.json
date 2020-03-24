@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "fuse.js": "^3.4.6",
-    "js-search": "^1.4.3"
+    "js-search": "^1.4.3",
+    "@noticeable/remarkable-iframify": "2.1.1"
   }
 }
