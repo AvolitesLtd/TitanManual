@@ -1,5 +1,5 @@
 ---
-id: playback-controls 
+id: playback-controls
 title: Playback controls
 sidebar_label: Playback controls
 ---
@@ -7,7 +7,7 @@ sidebar_label: Playback controls
 Back up the show
 ----------------
 
-At regular intervals while you are programming, and when you have finished programming (or you've run out of time) and it's showtime, the most important thing is to save the show (see section 3.3.5 on page 70 for instructions). It is important to also back up the show by saving it to a USB drive, enabling you to swap to a different console if there are
+At regular intervals while you are programming, and when you have finished programming (or you've run out of time) and it's showtime, the most important thing is to [save the show](../titan-basics/loading-and-saving-shows.md#saving-the-show). It is important to also back up the show by saving it to a USB drive, enabling you to swap to a different console if there are
 problems.
 
 Label the console
@@ -47,7 +47,7 @@ it as a master. Press the Display button below the encoders to show legends for 
 
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![info](/docs/images/image6.png)
-  
+
   If you assign a master to a handle with an LED, the LED will flash if the fader is at zero... just as a reminder to help you work out why no lights are coming on.
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -105,7 +105,7 @@ You can adjust Rate and BPM masters from the wheels by pressing Connect followed
 While a wheel is connected you can touch up or down in the wheel display area to nudge the value up or down. Pressing the \<@\> button for the
 wheel opens a softkey menu where you can input a numerical value or \[Release\] the speed and multiplier to default values.
 
-> Using Key Profiles (see section 16.3 on page 315) you can set one of the buttons of the master to act as the "Connect" button.
+> Using [Key Profiles](../system-settings/key-profiles.md) you can set one of the buttons of the master to act as the "Connect" button.
 
 Group Masters
 -------------
@@ -134,7 +134,7 @@ mode of the master will be shown.
 
 When a group master is set to disabled or moved to a handle without a fader, it will become locked at the current fader level. Re-enable or move back to a fader to adjust the level.
 
-Using Key Profiles (see section 16.3 on page 315), you can set different behaviour for the buttons of a group master -- the blue and grey buttons if it is on a fader handle, or the touch button if it's on screen.
+Using [Key Profiles](../system-settings/key-profiles.md), you can set different behaviour for the buttons of a group master -- the blue and grey buttons if it is on a fader handle, or the touch button if it's on screen.
 
 -   Flash Fixtures -- flashes the dimmer level of fixtures in the group to the level set by the group master fader, while the button is held
 
@@ -149,9 +149,9 @@ Using Key Profiles (see section 16.3 on page 315), you can set different behavio
 If a Flash Master is configured, this will also master the group flash.
 
 --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  
+
 ![info](/docs/images/image6.png)
-  
+
 You can release all masters by pressing \<Release\> then \[Release All Masters\]. This can be useful if something is being controlled by a master but you are not sure where it is.
 --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -213,7 +213,7 @@ pre-programmed timings of the cue when flashing -- for normal flash mode
 the timings are ignored.
 
 You can reallocate the functions of the Flash and Swop/Select buttons on
-the console using Key Profiles -- see section 16.3 on page 315. A useful
+the console using [Key Profiles](../system-settings/key-profiles.md). A useful
 alternative function is Preload which allows you to pre-position the
 attributes of the fixtures before you raise the playback fader, which is
 handy for avoiding unwanted movements (any fixtures which are already
@@ -231,11 +231,11 @@ shows the allocated function of the blue and grey buttons.
 Playback priority
 -----------------
 
-You can set playbacks to high priority if you do not want them to be
+[You can set playbacks to high priority](../cues/playback-options.md#playback-tab) if you do not want them to be
 overridden by other playbacks using the same fixtures. For example, if
 you have a couple of fixtures acting as a spotlight, but they are also
 programmed into some colour washes, you probably want the spotlight cue
-to take priority over the colour washes. See section 8.6.1 on page 217.
+to take priority over the colour washes.
 
 Preset playbacks (Tiger Touch only)
 -----------------------------------
@@ -370,11 +370,9 @@ helps you to find them when the show is running and the pressure is on.
 If you are lighting a band, make position palettes for every person on
 stage so you can spotlight them for those unplanned solos.
 
-You can use the Off function (see section 8.3.5 on page 209) when
-programming to set some cues to only affect position, and other cues to
+You can use the [Off](../controlling-fixtures/using-the-select-buttons-and-wheels.md#clearing-attributes-using-off) function when programming to set some cues to only affect position, and other cues to
 set colours, gobos, add shapes, and so on. By combining two or more cues
 you can produce a much wider range of effects than if all your cues set
 all the attributes. However, for this to work well you need to make sure
 you know what attribute is going to be affected by each cue; as if you
 fire two "colour only" cues then nothing is going to light up.
-

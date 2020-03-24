@@ -1,5 +1,5 @@
 ---
-id: key-profiles 
+id: key-profiles
 title: Key Profiles
 sidebar_label: Key Profiles
 ---
@@ -120,7 +120,7 @@ Select If | Press to select all fixtures used in the current cue
 Can be set to **Select** or **Prefer Macro** (the Macro function
 will take precedence over other functions stored on the button).
 
-### Options:
+### Options
 
 Allows you to disable the quick record function (double tap
 on empty handles).
