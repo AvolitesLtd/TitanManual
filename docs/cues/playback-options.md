@@ -4,6 +4,8 @@ title: Playback Options
 sidebar_label: Playback Options
 ---
 
+[Video covering Playback Options](https://youtu.be/Dz_lWDHukxo?t=20)
+
 To set options for a cue, chase or cue list, press \[Playback Options\]
 on the root menu, then press the **select** button of the playback to be
 edited. A list of option categories will open on the softkeys; a window
@@ -70,6 +72,8 @@ Mode 0 | Channels fade in as set by the fade time. The Fade Out time is ignored.
 Mode 1 | HTP channels fade in and out as set by the fade out times (LTP channels fade in but then remain as set in the cue). If times are set to zero, the HTP levels will fade in and out with the fader and the LTP channels will snap when the cue is fired.
 Mode 2 | Both HTP and LTP channels follow the fader position. *Useful when used with a pan/tilt cue for manually tracking a spot across a stage or down a catwalk using the fader position or for mixing colours on RGB fixtures.*
 Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to the settings in the new cue. All other cues fade out and all other active playbacks become inactive; if you need to re-fire a playback, take the fader to zero and put it up again. *Useful for setting a video playback state.*
+
+[Video covering the different fader modes](https://youtu.be/2fwM5S8nX3k?t=20)
 
 ### Run On Startup
 Sets this playback to run when the console powers

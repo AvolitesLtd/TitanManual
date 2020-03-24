@@ -7,6 +7,8 @@ sidebar_label: Creating a Chase
 Programming a Chase
 -------------------
 
+[Video showing how to create a basic chase and change the speed and the crossfade of it](https://youtu.be/M0h5zV4S_OI?t=20)
+
 To program a chase, you have to set up the look for each cue in the
 chase, then save it.
 

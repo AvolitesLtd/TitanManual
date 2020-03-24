@@ -7,6 +7,8 @@ sidebar_label: Pixel Mapper
 Creating Pixel Mapper effects
 -----------------------------
 
+[Video guide showing how pixel mapping works](https://youtu.be/UchvGw2vvU8?t=20)
+
 The Pixel Mapper works on a group of fixtures, which you have set up
 using the 
 [Fixture Layout function](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
@@ -228,3 +230,5 @@ To enable the layer master, turn on the **Use Master** switch in the effect
 editor window.
 
 > Layer masters may require an updated personality file
+
+[Video demonstrating some of the more advanced features of the titan pixel mapper](https://youtu.be/rCIIH2-DCNM?t=20)

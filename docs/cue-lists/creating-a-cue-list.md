@@ -7,6 +7,8 @@ sidebar_label: Creating a Cue List
 Programming a Cue List
 ----------------------
 
+[Video covering Cue List Basics](https://youtu.be/Kp6XhdG6keM?t=20)
+
 Programming a cue list is similar to [recording a chase](../chases/creating-a-chase.md).
 
 You need to set up the look on the stage for each cue and then add it to
