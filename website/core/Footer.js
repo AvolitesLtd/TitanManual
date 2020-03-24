@@ -44,6 +44,7 @@ class Footer extends React.Component {
               aria-label="Star this project on GitHub">
               Star
             </a>
+            <a href={this.props.config.repoUrl + "/issues/new"}>Report an Issue</a>
             {this.props.config.twitterUsername && (
               <div className="social">
                 <a
@@ -67,19 +68,28 @@ class Footer extends React.Component {
               </div>
             )}
           </div>
+          <div>
+            <h5>Other Resources</h5>
+            <a href={this.props.config.copyrightUrl}>Main Website</a>
+            <a href="https://www.youtube.com/avolites">YouTube</a>
+            <a href="https://www.facebook.com/groups/Avolites/">Facebook Group</a>
+            <a href="https://www.avolites.de/wiki">Avolites.de Wiki</a>
+          </div>
+          <div className="copyright">
+            {this.props.config.footerIcon && (
+              <a
+                href={this.props.config.copyrightUrl}
+                className="copyrightImg">
+                <img
+                  className="logo"
+                  src={this.props.config.baseUrl + this.props.config.footerIcon}
+                  alt={this.props.config.title}
+                />
+              </a>
+            )}
+            {this.props.config.copyright}
+          </div>
         </section>
-        {this.props.config.footerIcon && (
-            <a
-              href={this.props.config.copyrightUrl}
-              className="copyrightImg">
-              <img
-                className="logo"
-                src={this.props.config.baseUrl + this.props.config.footerIcon}
-                alt={this.props.config.title}
-              />
-            </a>
-          )}
-        <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
   }
