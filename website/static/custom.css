@@ -118,13 +118,21 @@ a .softkey, a .key {
   text-transform: uppercase;
 }
 
+footer .sitemap {
+  margin-top: 1em !important;
+}
+
+footer .copyright {
+  align-self: center;
+}
+
 footer .copyrightImg {
   display: block;
-  margin: 1em auto 0.3em;
+  margin: 0em auto 0.3em !important;
   opacity: .4;
   -webkit-transition: opacity .15s ease-in-out;
   transition: opacity .15s ease-in-out;
-  width: 170px;
+  max-width: 170px;
 }
 
 footer .copyrightImg:hover {
