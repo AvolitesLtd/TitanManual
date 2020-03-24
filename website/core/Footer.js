@@ -73,7 +73,7 @@ class Footer extends React.Component {
             <a href={this.props.config.copyrightUrl}>Main Website</a>
             <a href="https://www.youtube.com/avolites">YouTube</a>
             <a href="https://www.facebook.com/groups/Avolites/">Facebook Group</a>
-            <a href="https://www.avolites.de/wiki">Avolites-Wiki</a>
+            <a href="https://www.avolites.de/wiki">Avolites.de Wiki</a>
           </div>
           <div className="copyright">
             {this.props.config.footerIcon && (
