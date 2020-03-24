@@ -3,11 +3,11 @@ Options -Indexes
 DirectoryIndex index.html
 
 #Error Documents
-ErrorDocument 400 /help/
-ErrorDocument 401 /help/
-ErrorDocument 402 /help/
-ErrorDocument 403 /help/
-ErrorDocument 404 /help/
+ErrorDocument 400 /404/
+ErrorDocument 401 /404/
+ErrorDocument 402 /404/
+ErrorDocument 403 /404/
+ErrorDocument 404 /404/
 
 <IfModule mod_rewrite.c>
     RewriteEngine on
