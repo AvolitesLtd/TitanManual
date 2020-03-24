@@ -33,10 +33,11 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Contribute</h5>
-            <a href={this.props.config.repoUrl}>GitHub</a>
+            <a href={this.props.config.repoUrl} target="_blank">GitHub</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
+              target="_blank"
               data-icon="octicon-star"
               data-count-href="/facebook/docusaurus/stargazers"
               data-show-count="true"
@@ -44,12 +45,13 @@ class Footer extends React.Component {
               aria-label="Star this project on GitHub">
               Star
             </a>
-            <a href={this.props.config.repoUrl + "/issues/new"}>Report an Issue</a>
+            <a href={this.props.config.repoUrl + "/issues/new"} target="_blank">Report an Issue</a>
             {this.props.config.twitterUsername && (
               <div className="social">
                 <a
                   href={`https://twitter.com/${this.props.config.twitterUsername}`}
-                  className="twitter-follow-button">
+                  className="twitter-follow-button"
+                  target="_blank">
                   Follow @{this.props.config.twitterUsername}
                 </a>
               </div>
@@ -70,10 +72,10 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Other Resources</h5>
-            <a href={this.props.config.copyrightUrl}>Main Website</a>
-            <a href="https://www.youtube.com/avolites">YouTube</a>
-            <a href="https://www.facebook.com/groups/Avolites/">Facebook Group</a>
-            <a href="https://www.avolites.de/wiki">Avolites.de Wiki</a>
+            <a href={this.props.config.copyrightUrl} target="_blank">Main Website</a>
+            <a href="https://www.youtube.com/avolites" target="_blank">YouTube</a>
+            <a href="https://www.facebook.com/groups/Avolites/" target="_blank">Facebook Group</a>
+            <a href="https://www.avolites.de/wiki" target="_blank">Avolites.de Wiki</a>
           </div>
           <div className="copyright">
             {this.props.config.footerIcon && (
