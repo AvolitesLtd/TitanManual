@@ -18,15 +18,25 @@ function Help(props) {
   const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
   const langPart = `${language ? `${language}/` : ''}`;
   const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
-
+  const content = [
+    {
+      content: `Browse the rest of the [documentation on this site.](${docUrl(
+        'introduction',
+      )})`,
+      title: 'Browse Docs',
+    },
+    {
+      content: `For help and support visit the [Avolites site](https://www.avolites.com/software/latest-version)`,
+      title: 'Official help and support',
+    }
+  ];
 
   return (
     <div className="docMainWrapper wrapper">
       <Container className="mainContainer documentContainer postContainer">
         <div className="post">
-          <header className="postHeader">
-            <h1>404 - Page Not Found</h1>
-          </header>
+          <h2 className="center">404 - Page Not Found</h2>
+          <GridBlock contents={content} layout="threeColumn" />
         </div>
       </Container>
     </div>
