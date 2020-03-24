@@ -71,3 +71,5 @@ T1/T2 dongles, this allows you to use different computers without
 relicensing as long as the Avolites hardware is connected.
 
 For more details see https://www.avolites.com/avokey
+
+[Licensing - Titan v12 and Above](https://youtu.be/86PcC0OzL7E)
