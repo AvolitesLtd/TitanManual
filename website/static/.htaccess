@@ -1,6 +1,22 @@
+Options -Indexes
+
+DirectoryIndex index.html
+
 #Error Documents
 ErrorDocument 400 /help/
 ErrorDocument 401 /help/
 ErrorDocument 402 /help/
 ErrorDocument 403 /help/
 ErrorDocument 404 /help/
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+
+    # CSS versioning
+    RewriteRule ^css/main\.css css/main.css?v=1 [QSA,L]
+
+    # Remove index.html from end of requests
+    RewriteRule ^index\.html$ / [R=301,L]
+    RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+</IfModule>
