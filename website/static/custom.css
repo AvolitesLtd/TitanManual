@@ -75,6 +75,9 @@ ol {
   background-color: rgba(216, 0, 41, 0.05);
   border-left: 8px solid rgba(216, 0, 41, 0.2);
   color: #555;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 blockquote {
