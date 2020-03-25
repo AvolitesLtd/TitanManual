@@ -4,7 +4,7 @@ title: Operating Synergy
 sidebar_label: Operating Synergy
 ---
 
-Once Titan and the Ai server(s) are [linked up](setting-up), you can start controlling
+Once Titan and the Ai server(s) are [linked up](setting-up.md), you can start controlling
 Ai from the console.
 
 Uploading Content with the Media browser
@@ -80,7 +80,7 @@ the stream titles at the bottom of the views.
 ![Video Multi View Window laout options](/docs/images/image282.png)
 
 You must have the **"Automatic NDI preview"** option enabled for the Ai
-server in the [Synergy Settings](setting-up#synergy-setup) window for this to work.
+server in the [Synergy Settings](setting-up.md#synergy-setup) window for this to work.
 
 The NDI streams used for video preview can use a lot of network
 bandwidth which limits how many streams you can receive at one time. The
@@ -98,9 +98,9 @@ Attribute Editor for Controlling Ai Layers
 ------------------------------------------
 
 Once you have selected one or more Ai layers to control from the [Synergy
-Fixtures window](setting-up#synergy-fixtures-window), the Attribute Editor lets you play back and manipulate
-media on those layers (you can also use the [wheels](../controlling-fixtures/using-the-select-buttons-and-wheels) and [Attribute Bank
-buttons](../controlling-fixtures/using-the-select-buttons-and-wheels/#attribute-wheel-display)).
+Fixtures window](setting-up.md#synergy-fixtures-window), the Attribute Editor lets you play back and manipulate
+media on those layers (you can also use the [wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md) and [Attribute Bank
+buttons](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-wheel-display)).
 
 > The most important attributes are **Intensity**, which set the output level
 of each layer, and **Media Selection** which lets you choose the Bank and
@@ -137,10 +137,10 @@ Currently being transcoded | In the queue awaiting transcoding | Transcoding fai
 ---|---|---
 ![Video currently transcoding in Attribute Editor for Synergy layer](/docs/images/image285.png) | ![Video queued for transcoding in Attribute Editor for Synergy layer](/docs/images/image286.png) | ![Video failed to transcode in Attribute Editor for Synergy layer](/docs/images/image287.png)
 
-You can [create palettes](../palettes/creating-palettes) to control Ai, just like with any other
+You can [create palettes](../palettes/creating-palettes.md) to control Ai, just like with any other
 fixture. So colour, zoom, position and so on can be stored in a
 palette and used to quickly modify the appearance of the media.
-[Palette fade times](../palettes/timing-with-palettes) will also operate as you would expect.
+[Palette fade times](../palettes/timing-with-palettes.md) will also operate as you would expect.
 
 Lightmap: Pixel Mapping Ai Media Content
 ----------------------------------------
@@ -153,7 +153,7 @@ individual layers or from surfaces (combined layer outputs). The surface
 outputs do not need to be connected to a physical output on the Ai
 server.
 
-> Use the [Layout Editor](../controlling-fixtures/fixture-groups/#fixture-order-and-fixture-layout-in-groups) to tell the console where the fixtures
+> Use the [Layout Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) to tell the console where the fixtures
 are positioned in the physical space so it can map the correct part of the video
 to each fixture, which is described in the [next section](#layout-editor-with-ai-server).
 
@@ -162,7 +162,7 @@ want to use.
 
 2. Select \[Shapes and Effects\], then \[Pixel Mapper\]
 
-3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups/)** to play back on
+3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups.md)** to play back on
 
 4. Add an effect using the **+** button
 
@@ -187,7 +187,7 @@ fixture outputs.
 Layout editor with Ai server
 ----------------------------
 
-The basic operation of the Layout Editor is described in [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups/#fixture-order-and-fixture-layout-in-groups).
+The basic operation of the Layout Editor is described in [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
 
 The layout editor has some additional functions in the \[Media Options\]
 context menu which are useful when setting up fixture layouts for use
@@ -245,7 +245,7 @@ effects as you can make the lights do pretty much anything in response
 to the video signal. The phase is controlled from 0-360 degrees as the
 video intensity where the fixture is located goes from 0-100%.
 
-Once your [Keyframe Shape is created](../effects/key-frame-shapes/#creating-a-key-frame-shape), go to the [Phase Master option](../effects/key-frame-shapes/#changing-shape-parameters-in-the-effect-editor) at
+Once your [Keyframe Shape is created](../effects/key-frame-shapes.md#creating-a-key-frame-shape), go to the [Phase Master option](../effects/key-frame-shapes.md#changing-shape-parameters-in-the-effect-editor) at
 the bottom of the shape options screen and select the Ai screen you want
 to use as the video source.
 

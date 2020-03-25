@@ -138,7 +138,7 @@ The console itself can output 16 universes of DMX (each 512 control
 channels). If you need to output more universes, it is recommended to
 network the console to one or more Avolites TitanNet processing nodes.
 This off-loads the DMX processing, allowing the console to control up to
-64 universes of DMX in total. See the [DMX output section](./system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
+64 universes of DMX in total. See the [DMX output section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
 
 The console has DMX outputs on 5-pin XLR for direct connection to
 fixtures and dimmers, and can send DMX over Ethernet and wireless
@@ -148,9 +148,9 @@ servers, and so on.
 When you patch a dimmer or fixture you tell Titan which of the DMX
 universes it is on. Each universe can be configured to come out of one
 or more of the standard DMX outputs on the back of the console, and/or
-over an [Ethernet protocol](./networking/controlling-fixtures-over-a-network.md).
+over an [Ethernet protocol](networking/controlling-fixtures-over-a-network.md).
 
-The [Arena includes a built-in Ethernet switch](./networking/connecting-the-arena-to-a-network.md) and has an optical network
+The [Arena includes a built-in Ethernet switch](networking/connecting-the-arena-to-a-network.md) and has an optical network
 connection.
 
 > By default on a new show, the XLRs on the console are automatically connected to DMX lines starting at line 1, however if you are loading a show from a different model of console or the simulator, check the DMX Settings option to confirm how the DMX outputs are set up.
@@ -194,7 +194,7 @@ If you need to change the monitor resolution or settings, touch
 then \'External Monitor\', then select the option to match the
 resolution of your monitor.
 
-Click [here](./system-settings/external-displays.md) for more information about
+Click [here](system-settings/external-displays.md) for more information about
 setting up an external monitor.
 
 Other Connections
@@ -235,7 +235,7 @@ Connecting Console Wings
 console to provide more faders and buttons. They connect to the console
 by USB.
 
-The Pearl Expert Touch Wing can only be used with the [Pearl Expert](./about-the-consoles/pearl-expert-and-touch-wing.md)
+The Pearl Expert Touch Wing can only be used with the [Pearl Expert](about-the-consoles/pearl-expert-and-touch-wing.md)
 console and should be connected before the console is powered up.
 
 

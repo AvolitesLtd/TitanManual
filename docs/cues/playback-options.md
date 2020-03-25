@@ -91,7 +91,7 @@ run on startup.
 
 ### Speed
 Default speed for this playback in BPM. This can be
-overridden by a [Rate or BPM master](../running-the-show/playback-controls/#speed-and-size-masters), 
+overridden by a [Rate or BPM master](../running-the-show/playback-controls.md#speed-and-size-masters), 
 or if the playback is a [chase](../chases.md), can be modified using the wheels.
 
 ### Xfade
@@ -163,7 +163,7 @@ in the [Curves](../system-settings/curves.md) section.
 ---
 
 > You can also allocate a 
-[Speed Master](../running-the-show/playback-controls/#speed-and-size-masters)
+[Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters)
 to the cue which will allow you to
 modify the shape during playback.
 
@@ -174,21 +174,21 @@ Same as in playback tab, [see above](#shape-behaviour)
 
 ### Speed Source
 Allows you to allocate a
-[Speed Master](../running-the-show/playback-controls/#speed-and-size-masters)
+[Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters)
 to this playback.
 
 ### Size Source
 Allows you to allocate a 
-[Size Master](../running-the-show/playback-controls/#speed-and-size-masters)
+[Size Master](../running-the-show/playback-controls.md#speed-and-size-masters)
 to this playback
 
 ### Shape Size
 Same as in fader tab, [see above](#shape-size)
 
 ### Shape & Effect Speed
-Same as in fader tab, [see above](h#shape--effect-speed)
+Same as in fader tab, [see above](#shape-effect-speed)
 
-> If you have a cue which contains only shapes to overlay on other cues, set the cue to \[Size on Fader\] and allocate a [Speed Master](../running-the-show/playback-controls/#speed-and-size-masters). You can then create lots of different looks out of the shape by varying the size and speed at show time using the playback fader and the speed master.
+> If you have a cue which contains only shapes to overlay on other cues, set the cue to \[Size on Fader\] and allocate a [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters). You can then create lots of different looks out of the shape by varying the size and speed at show time using the playback fader and the speed master.
 
 ## Release Tab
 

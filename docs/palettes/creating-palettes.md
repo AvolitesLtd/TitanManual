@@ -122,7 +122,7 @@ a palette number and press \[Store\]
 
 -   The console will automatically create a legend for your palette
     (unless the 
-    [User Setting \[Auto Legend\]](../system-settings/user-settings#auto-legend)
+    [User Setting \[Auto Legend\]](../system-settings/user-settings.md#auto-legend)
     is set to Off). For colour
     palettes a coloured icon is used to show the selected colour. If the
     palette contains fixtures set to different colours, a coloured bar
@@ -202,7 +202,7 @@ Quick record also works for groups and workspaces.
 > If you want to load a show from a **Pearl Expert** onto another Titan console,
 use the **Groups and Palettes workspace window** to access the fixtures/palettes
 on the blue/grey preset buttons on the Pearl. See 
-[Compatibility Windows for Pearl Expert Shows](../titan-basics/workspace-windows#compatibility-windows-for-pearl-expert-shows)
+[Compatibility Windows for Pearl Expert Shows](../titan-basics/workspace-windows.md#compatibility-windows-for-pearl-expert-shows)
 for more details.
 
 Setting Legends for Palettes

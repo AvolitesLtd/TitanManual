@@ -87,7 +87,7 @@ Once a cue list is fired, it remains active until you kill it. You do
 this by holding down the \<Avo\> button and pressing the blue Select
 button of the cue list's handle.
 
-You can change this in the [Playback Options](../playback-options.md) to make the cue list
+You can change this in the [Playback Options](../cues/playback-options.md) to make the cue list
 automatically clear when the fader reaches zero (press \[Playback
 Options\] at the program menu, then press the Select button of the cue
 list, then select \[Fader\] \[Fader Mode Intensity Kill At 0\].

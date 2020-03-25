@@ -84,7 +84,7 @@ then press \[Remove\].
 Playback Control Macros
 -----------------------
 
-[Key Macros](..titan-basics/front-panel-buttons.md#key-macro-buttons)
+[Key Macros](../titan-basics/front-panel-buttons.md#key-macro-buttons)
 allow you to record a sequence of actions on the console then
 play them back (either instantaneously or as a timed sequence). This can
 be very useful for reducing a complex sequence of actions to a single
