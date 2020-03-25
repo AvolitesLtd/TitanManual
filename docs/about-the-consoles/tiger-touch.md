@@ -4,24 +4,24 @@ title: Tiger Touch
 sidebar_label: Tiger Touch
 ---
 
-![Tiger Touch](/docs/images/image30.jpeg)
+![Tiger Touch](/docs/images/image30.png)
 
 The Tiger Touch has four main control areas:
 
-The **Touch screen** contains fixture, palette and group select buttons.
+(A) The **Touch screen** contains fixture, palette and group select buttons.
 It also shows legends for the playback faders and shows the current menu
 page and softkey buttons on the top right of the screen.
 
-The **Playback faders** select and control cues and programs
+(B) The **Playback faders** select and control cues and programs
 
-The **Preset playbacks** give you additional (unpaged) playbacks and the
+(C) The **Preset playbacks** give you additional (unpaged) playbacks and the
 **macro buttons** allow storage of frequent key sequences.
 
-The **Programming and setup controls** configure and program the
+(D) The **Programming and setup controls** configure and program the
 console.
 
 > The Mk.1 version of the Tiger Touch has a slightly different
-front panel layout
+front panel layout.
 
 ![Tiger Touch](/docs/images/image30.jpeg)
 
@@ -39,7 +39,7 @@ currently doing.
 The **Menu Softkeys** (labelled A - G) are used to select control
 options. The display next to the buttons shows what each one will do.
 The options for each key change depending on what the console is doing.
-Softkey commands are shown in the manual with square brackets like this:
+Softkey commands are shown in the manual like this:
 \[Edit Times\]
 
 The **Preset Playbacks** are used to store and play back cues or chases
