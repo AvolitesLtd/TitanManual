@@ -256,4 +256,4 @@ Storing Shapes in Palettes
 You can create palettes containing shapes. This is really useful to
 quickly call back shapes pre-configured with different spread and speed
 settings. See 
-[Creating an Effects Palette (Shape or Pixel Mapper)](../palettes/creating-palettes/#creating-an-effects-palette-shape-or-pixel-mapper).
+[Creating an Effects Palette (Shape or Pixel Mapper)](../palettes/creating-palettes.md#creating-an-effects-palette-shape-or-pixel-mapper).

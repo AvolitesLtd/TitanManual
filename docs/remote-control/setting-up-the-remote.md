@@ -26,7 +26,7 @@ console's Ethernet connection into the network.
 
 If the console is set to have a fixed IP address you will need to
 manually set a suitable IP address for the network - *consult the person
-who manages the network*, or read more about [Networking the Console](../networking/).
+who manages the network*, or read more about [Networking the Console](../networking.md).
 
 Network Setup using a Dedicated Access Point
 --------------------------------------------

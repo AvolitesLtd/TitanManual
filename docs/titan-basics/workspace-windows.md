@@ -235,7 +235,7 @@ Set up what you want to record, then touch or click an empty button
 once. The button will light up red with a + sign. At this point you can
 enter a legend. Touch or click again to store the item.
 
-The Quick Record function can be disabled using [Key Profiles](../system-settings/key-profiles)
+The Quick Record function can be disabled using [Key Profiles](../system-settings/key-profiles.md)
 
 Legends and picture legends
 ---------------------------

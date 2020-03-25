@@ -8,7 +8,7 @@ Connecting up
 -------------
 
 The Ai server(s) need to be connected by Ethernet to the Titan console.
-[Media previews](operating-synergy#media-viewer) use NDI streams which along with copying of large media
+[Media previews](operating-synergy.md#media-viewer) use NDI streams which along with copying of large media
 files can place a heavy demand on the network, so you should follow
 these tips for setting up a suitable network:
 
@@ -21,7 +21,7 @@ these tips for setting up a suitable network:
 
 If you have problems getting Titan and Ai to recognise each other, make
 sure they are on matching software versions, and both in the same IP
-address subnet range such as `2.0.0.1` and `2.0.0.2` - read more about [Networking the Console](../networking).
+address subnet range such as `2.0.0.1` and `2.0.0.2` - read more about [Networking the Console](../networking.md).
 
 Setting up the AI Show
 ----------------------
@@ -43,7 +43,7 @@ In Titan, open the **Synergy Settings** window using the Workspace button
 provided on new shows, or use the option in the Open Workspace Window
 menu.
 
-This window is a little like the [DMX settings screen](../system-settings/the-system-menu/#dmx-settings): it lets you set up
+This window is a little like the [DMX settings screen](../system-settings/the-system-menu.md#dmx-settings): it lets you set up
 how the Titan console is linked to the various outputs on the Ai
 server(s). Also, it lets you add or remove layers from each Ai surface
 and add complete new surfaces to the Ai server (though you may need to
@@ -123,9 +123,9 @@ window. You can display this using the button at the bottom of the
 
 You use these buttons to select one or more layers for control, just as
 you would select lighting fixtures to control. Once selected, use the
-[Attribute Editor](operating-synergy#attribute-editor-for-controlling-ai-layers) or [wheels](../controlling-fixtures/using-the-select-buttons-and-wheels/#changing-attributes-using-the-wheels) to control the media playback and effects on
-the Ai server. You can then [store palettes](../palettes/creating-palettes) and [playbacks](../cues/creating-a-cue#creating-a-cue) as with any
-other lighting fixture. This is described in the next section, [Operating Synergy](operating-synergy).
+[Attribute Editor](operating-synergy.md#attribute-editor-for-controlling-ai-layers) or [wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels) to control the media playback and effects on
+the Ai server. You can then [store palettes](../palettes/creating-palettes.md) and [playbacks](../cues/creating-a-cue.md#creating-a-cue) as with any
+other lighting fixture. This is described in the next section, [Operating Synergy](operating-synergy.md).
 
 > The Synergy layers are shown in their own window to keep them
 together and help you find them quickly. However if you prefer you

@@ -61,7 +61,7 @@ you can choose which chase is connected to the controls using the
     so that when the show is reloaded the speed and fade will go back to
     the previously saved settings. Go to [User Settings](../system-settings/user-settings.md)
     (\<Avo\> + \[User
-    Settings\], in the Times tab set the option **[Connected View Sets](../system-settings/user-settings/#connected-view-sets)** to
+    Settings\], in the Times tab set the option **[Connected View Sets](../system-settings/user-settings.md#connected-view-sets)** to
     **Temporary Speed**. You can still save a temporary speed by pressing
     \[Save Temporary Speed\] in the Set Times menu.
 
