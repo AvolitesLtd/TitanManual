@@ -754,6 +754,8 @@ removing fixtures from cues.
 
 ## Align Fixtures
 
+[Video covering align](https://youtu.be/xZrVhnY1hnA?t=20)
+
 You can copy attributes from one fixture to another using the Align
 Fixtures function. This is very useful, for example, if you've
 accidentally left a fixture out of a cue you can copy settings from its

@@ -164,6 +164,8 @@ Press \<Exit\> to finish setting the fixture order.
 Running a Cue List to Timecode
 ------------------------------
 
+[Video covering connecting a cue list to timecode](https://youtu.be/1abZT_ffIvs?t=20)
+
 The console can run a cue list automatically to a timecode. This is very
 useful for complex performances which must be exactly the same time
 every time, or for unattended operation. Each step in the cue list is
