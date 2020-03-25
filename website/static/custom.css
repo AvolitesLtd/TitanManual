@@ -72,8 +72,8 @@ ol {
   /*border-top: 1px solid #D80029;
   border-bottom: 1px solid #F82049;
   font-style: italic;*/
-  background-color: rgba(216, 0, 41, 0.2);
-  border-left: 8px solid #D80029;
+  background-color: rgba(216, 0, 41, 0.05);
+  border-left: 8px solid rgba(216, 0, 41, 0.2);
   color: #555;
 }
 
@@ -85,6 +85,7 @@ blockquote {
   background-position: 5px 10px;
   border-left: 8px solid #64b0ff;
   padding: 5px 70px;
+  min-height: 4.5em;
 }
 
 .docsNavContainer {
