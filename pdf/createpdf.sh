@@ -10,8 +10,14 @@ then
     VERSION="Titan V${1}"
 fi
 
-pandoc "input.md" -o "$ISODATE $VERSION Manual $DATE.pdf" \
-    --template "templates/eisvogel_avo.latex"\
+echo "Syncing docs"
+rsync -avzr --delete ../docs/ docs
+
+echo "Syncing images"
+rsync -avzr --delete ../website/static/docs/images docs/
+
+echo "Creating PDF"
+
     --highlight-style kate \
     --metadata-file header.yaml --toc \
     -M date="$DATE"\
