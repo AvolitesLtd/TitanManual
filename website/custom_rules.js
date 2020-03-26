@@ -53,5 +53,13 @@ module.exports = {
   
   button_close: function(/* tokens, idx, options, env */) {
     return '</span>';
+  },
+  
+  annotate_open: function(tokens, idx, options /*, env */) {
+    return `<span class="annotate">`;
+  },
+  
+  annotate_close: function(/* tokens, idx, options, env */) {
+    return '</span>';
   }
 }

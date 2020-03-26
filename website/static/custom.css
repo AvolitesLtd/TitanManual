@@ -105,7 +105,7 @@ sub {
   font-size: smaller;
 }
 
-.softkey, .key {
+.softkey, .key, .annotate {
   display: inline-block;
   margin: 3px;
   padding: 3px 7px;
@@ -134,6 +134,15 @@ a .softkey, a .key {
   border-color: #bababa;
   color: #4d4d4d;
   text-transform: uppercase;
+}
+
+.annotate {
+  border-radius: 5px;
+  padding: 1px 4px;
+  border-color: rgba(216, 0, 41, 0.8);
+  color: rgba(216, 0, 41, 0.8);
+  font-size: 16px;
+  font-weight: bold !important;
 }
 
 footer .sitemap {

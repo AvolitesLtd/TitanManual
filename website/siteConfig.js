@@ -85,6 +85,12 @@ const siteConfig = {
       md.renderer.rules.button_open = custom_rules.button_open
       md.renderer.rules.button_close = custom_rules.button_close
 
+      // style diagram annotation links
+      // e.g. ((A))
+	custom_rules.keyRule(md,"annotate","\\(","\\)","annotate_open","annotate_close")
+      md.renderer.rules.annotate_open = custom_rules.annotate_open
+      md.renderer.rules.annotate_close = custom_rules.annotate_close	  
+	  
       // enable subscript and superscript
       // e.g. ~sub~ ^sup^
       md.inline.ruler.enable(['sub', 'sup']);
