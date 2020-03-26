@@ -1,0 +1,27 @@
+---
+title: "Avolites User Manual"
+# subtitle: "Titan V12.0"
+# author:
+date: "26 March 2020"
+
+papersize: a4
+geometry: "left=2.54cm,right=2.54cm,top=1.91cm,bottom=1.91cm"
+
+header-left: "\\leftmark"
+# header-center: "\\hspace{1cm}"
+header-right: "Page \\thepage"
+
+# footer-left: "\\thetitle"
+# footer-center: "\\today"
+footer-right: "Avolites"
+
+toc-own-page: true
+titlepage: true
+
+titlepage-color: d80029
+titlepage-text-color: ffffff
+titlepage-rule-height: 0
+
+# more details:
+# https://github.com/Wandmalfarbe/pandoc-latex-template
+---
