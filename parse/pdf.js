@@ -70,6 +70,8 @@ getFiles('../docs').then((filenames) => {
   });
 });
 
+console.log("Producing PDF")
+
 const command = `
 DATE=$(date "+%d %B %Y")
 ISODATE=$(date "+%F %H-%M-%S")
