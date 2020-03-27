@@ -15,53 +15,80 @@ async function getFiles(dir) {
   return files.reduce((a, f) => a.concat(f), []);
 }
 
+/**
+ * Converts @filename to a MarkDown title anchor link.
+ * @param {string} filename Name of the file, e.g. cues/creating-a-cue.md
+ * @return {string} A MarkDown title anchor link, e.g. '#cues-creating-a-cue.md'
+ */
 function filenameToTitleLink(filename) {
   return "#" + filename.replace("/","-");
 }
 
-getFiles('../docs').then((filenames) => {
+/**
+ * Replaces the YAML block in the file with a heading
+ * @param {string} filename Name of the file, e.g. cues/creating-a-cue.md
+ * @param {string} content Contents of the file with YAML block in
+ * @return {string} The content with the YAML block replaced
+ */
+function replaceYaml(filename,content) {
+  return content.replace(/^---(?:[\n]|.)*title: *([\w ]*)(?:[\n]|.(?!--))*---/mgi,function (match,title) {
+    titleLink = filenameToTitleLink(filename);
+    if (filename.match("/")) {
+      // sub page, e.g.:
+      // # Cues {#cues.md}
+      return `# ${title} {${titleLink}}`;
+    }
+    else {
+      // heading page, e.g.:
+      // # {#cues.md}
+      // \part{Cues}
+      return `# {${titleLink}}\n\\part{${title}}`;
+    }
+  });
+}
+
+/**
+ * Replaces the image URIs with relative paths (not absolute paths)
+ * From ![alt](/path/to/img)
+ * To   ![alt](path/to/img)
+ * Also warns about missing alt text and images.
+ * @param {string} filename Name of the file, e.g. cues/creating-a-cue.md
+ * @param {string} content Contents of the file with the images in
+ * @return {string} The content with the images fixed
+ */
+function replaceImagePaths(filename,content) {
+  return content.replace(/!\[([^\]]*)\]\(\/(?!\/)([^\)]*)\)/mg, function (match,alt,src) {
+    src = `../website/static/${src}`;
+    if (!fs.existsSync(src)) {
+      // check image exists
+      process.emitWarning(`${filename}: Image '${src}' not found`);
+      return '';
+    }
+    if (!alt) {
+      // check alt text is defined for image
+      process.emitWarning(`${filename}: No alt text set for '${src}'`);
+    }
+    return `![${alt}](${src})`
+  });
+}
+
+getFiles('../docs/synergy').then((filenames) => {
   let output = "";
+  
   filenames.forEach(function(filename) {
     if (!filename.includes(".DS_Store")) {
       let content = fs.readFileSync(filename, 'utf-8');
       filename = filename.replace(path.resolve(__dirname + '/../docs/') + "/", "");
-      
-      // change ![alt](/path/to/img)
-      // to     ![alt](path/to/img)
-      content = content.replace(/!\[([^\]]*)\]\(\/(?!\/)([^\)]*)\)/mg, function (match,alt,src) {
-        src = `../website/static/${src}`;
-        if (!fs.existsSync(src)) {
-          // check image exists
-          process.emitWarning(`${filename}: Image '${src}' not found`);
-          return '';
-        }
-        if (!alt) {
-          // check alt text is defined for image
-          process.emitWarning(`${filename}: No alt text set for '${src}'`);
-        }
-        return `![${alt}](${src})`
-      });
 
       // replace YAML blocks with title
-      content = content.replace(/^---(?:[\n]|.)*title: *([\w ]*)(?:[\n]|.(?!--))*---/mgi,function (match,title) {
-        titleLink = filenameToTitleLink(filename);
-        if (filename.match("/")) {
-          // sub page, e.g.:
-          // # Cues {#cues.md}
-          return `# ${title} {${titleLink}}`;
-        }
-        else {
-          // heading page, e.g.:
-          // # {#cues.md}
-          // \part{Cues}
-          return `# {${titleLink}}\n\\part{${title}}`;
-        }
-      });
+      content = replaceYaml(filename,content);
+
+      // fix the absolute image paths
+      content = replaceImagePaths(filename,content);
 
       output += content + "\n\n";
     }
   });
-
 
   fs.writeFile("output/pdf.md", output, function(err) {
     if(err) {
