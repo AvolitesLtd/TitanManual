@@ -11,16 +11,36 @@ then
 fi
 
 echo "Syncing docs"
-rsync -avzr --delete ../docs/ docs
+# rsync -aPzr --delete ../docs/ tempdocs
 
 echo "Syncing images"
-rsync -avzr --delete ../website/static/docs/images docs/
+# rsync -aPzr --delete ../website/static/docs/images docs/
+
+echo "Replacing images"
+# change    ![alt](/path/to/img)
+# to        ![alt](path/to/img)
+perl -i -0pe \
+'s/!\[([^\]]*)\]\(\/([^\)]*\))/\[\1](\2)/mg' \
+tempdocs/*/*.md
+
+# Make parts
+cd tempdocs
+perl -i -0pe \
+'s/^---(?:[\n]|.)*title: *([\w ]*)(?:[\n]|.)*---/# \{#$ARGV\}\n\\part\{\1\}/mg' \
+*.md
+cd ../
 
 echo "Creating PDF"
-
+pandoc --template "templates/eisvogel_avo.latex" \
+    -o "$ISODATE $VERSION Manual $DATE.pdf" \
     --highlight-style kate \
-    --metadata-file header.yaml --toc \
-    -M date="$DATE"\
+    --metadata-file header.yaml \
+    --toc \
+    -fmarkdown-implicit_figures \
+    --self-contained \
+    -M date="$DATE" \
     -M footer-center="$DATE" \
     -M footer-left="$VERSION Manual" \
-    -M subtitle="$VERSION"
+    -M subtitle="$VERSION" \
+    $(cat "index.txt")>&1
+#    -f gfm \
