@@ -55,13 +55,13 @@ To produce a PDF version of the manual run:
 node pdf.js
 ````
 
-> Requires [node.js](#node.js), [Pandoc](#pandoc) and [its dependencies](pandoc-pdf-dependencies)
+> Requires [node.js](#nodejs), [Pandoc](#pandoc) and [its dependencies](#pandoc-pdf-dependencies)
 
 ### Troubleshooting
 
 - Producing the full manual can take a couple of minutes depending on your system, *please be patient...*
 
-- The script will bring up various errors, including broken links/images, if you would prefer not to see these use:
+- The script will bring up various node warnings, including broken links/images, if you would prefer not to see these use:
 
     ````shell
     node --no-warnings pdf.js
@@ -69,7 +69,7 @@ node pdf.js
 
 - Errors that occur during the Pandoc conversion are listed in the console between `Producing PDF` and `PDF produced in XXs`, these are generally self-explanatory, but do quote them when [creating an issue](https://github.com/Farrser/AvoDocs/issues)
 
-- If the images are not showing in the outputted PDF, try updating the LaTex packages (as [descibed above](pandoc-pdf-dependencies))
+- If the images are not showing in the outputted PDF, try updating the LaTex packages (as [descibed above](#pandoc-pdf-dependencies))
 
 # Search Index
 
@@ -79,7 +79,7 @@ To produce the `index.json` used in the search bar:
 node search.js
 ````
 
-> Requires [node.js](#node.js)
+> Requires [node.js](#nodejs)
 
 # DOCX Conversion
 
