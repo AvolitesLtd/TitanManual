@@ -19,19 +19,15 @@ try {
   process.exit(1);
 }
 
-let version = program.manversion ? program.manversion : "all";
-const section = program.section ? program.section : null;
+let version = program.manversion ? program.manversion.toLowerCase() : "all";
+const section = program.section ? program.section.toLowerCase() : null;
 
-if(version.toLowerCase() == 'all') {
+if(version == 'all') {
   for(let version of getVersions()) {
     createPDF(version, section);
   }
 }
 else {
-  if(version.toLowerCase() == 'next') {
-    // remove case of 'next'
-    version = 'next';
-  }
   createPDF(version, section);
 }
 
@@ -167,7 +163,7 @@ function formatMdFiles(docsPath, sidebar, version) {
   let sectionFound = false;
 
   for(let sec in docs) {
-    if(!section || section.toLowerCase() == sec.toLowerCase()) {
+    if(!section || section == sec.toLowerCase()) {
       sectionFound = true;
       for(let page of docs[sec]) {
         if(version != 'next') {
@@ -218,17 +214,30 @@ function formatMd(docsPath,filename) {
  * Generate a PDF version of the MarkDown file
  * @param {string} inputMdPath Path to the MD file to convert, e.g. `output/pdf.md`
  * @param {string} version Version of the manual, e.g. `12.0`
+ * @param {string} version (Optional) Which section is being exported
  */
-function generatePDF(filePath,version) {
-  console.log("Producing PDF")
+function generatePDF(filePath,version,section=null) {
+  if(version == "next") {
+    version = "Latest";
+  }
+  version = `Titan ${version}`;
+  
+  section = section ? '-' + section : '';
+  
+  const ISODate = new Date().toISOString().slice(0,19).replace(/[T:]/g,"-");
+
+  let filename = `${version}${section}-${ISODate}`;
+  // sanitize filename
+  filename = filename.replace(/[^\w]/g,"-");
+  filename += '.pdf';
+
+  console.log(`Producing PDF: ${filename}`)
 
   const command = `
 DATE=$(date "+%d %B %Y")
-ISODATE=$(date "+%F %H-%M-%S")
-VERSION="Titan ${version}"
 
 pandoc --template "PDF/eisvogel_avo.latex" \
-  -o "output/$ISODATE $VERSION Manual $DATE.pdf" \
+  -o "output/${filename}" \
   --pdf-engine=xelatex \
   --highlight-style kate \
   --metadata-file PDF/header.yaml \
@@ -237,8 +246,8 @@ pandoc --template "PDF/eisvogel_avo.latex" \
   --self-contained \
   -M date="$DATE" \
   -M footer-center="$DATE" \
-  -M footer-left="$VERSION Manual" \
-  -M subtitle="$VERSION" \
+  -M footer-left="${version} Manual" \
+  -M subtitle="${version}" \
   ${filePath}`;
 
   var hrstart = process.hrtime();
@@ -264,9 +273,10 @@ pandoc --template "PDF/eisvogel_avo.latex" \
  * Create the docs for the specified `version` & `section`
  * @param {string} version Version of the docs to produce, e.g. `12.0` or `next` to produce the latest
  * @param {string} section (Optional) Which section to output, e.g. `synergy`
+ * @returns {string} The filename of the produced PDF
  */
 function createPDF(version,section=null) {
-  console.log(`Formatting version ${version}`)
+  console.log(`Formatting version '${version}'`)
 
   // get the path of the sidebar file
   let sidebarFile = fs.readFileSync(sidebarPath(version));
@@ -279,12 +289,17 @@ function createPDF(version,section=null) {
   output = formatMdFiles(docsPath, sidebar, version);
 
   // create formatted MD file
-  fs.writeFileSync("output/pdf.md", output, function(err) {
-    if(err) {
-      return console.log(err);
-    }
-  });
+  let formattedMdPath = "output/pdf.md";
+  try {
+    fs.writeFileSync(formattedMdPath, output);
+  }
+  catch(err) {
+    throw(`Failed to write formatted MarkDown file: ${formattedMdPath}\n${err}`);
+    process.exit(3);
+  }
 
   // generate the PDF
-  generatePDF('output/pdf.md',version)
+  generatePDF(formattedMdPath,version,section);
+
+  return filename;
 }
