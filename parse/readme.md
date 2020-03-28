@@ -90,6 +90,14 @@ node pdf.js -v 12.0 -s synergy
 
 - If the images are not showing in the outputted PDF, try updating the LaTex packages (as [descibed above](#pandoc-pdf-dependencies))
 
+### Exit Codes
+
+Code | Meaning
+---- | -------
+1    | **Failed to change working directory**<br>The script tries to change the CWD to the parse folder so that relative paths work in the script
+2    | **No sections were found, this could be because of the section specified or there weren't any sections found in the sidebar**<br>Try omitting the section parameter of the command
+3    | **Failed to write formatted MarkDown file: `...`**<br>The script couldn't create the intermeadiate MarkDown file, this may be because `parse/output` folder doesn't exist
+
 # Search Index
 
 To produce the `index.json` used in the search bar:

@@ -1,11 +1,9 @@
-const { promisify } = require('util');
-const path = require('path');
+const { join } = require('path');
 const fs = require('fs');
 const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
 
-const readdir = promisify(fs.readdir);
-const stat = promisify(fs.stat);
+const versionedDocsPath = "../website/versioned_docs/";
 
 // Command line options
 program
@@ -18,17 +16,43 @@ try {
   process.chdir(__dirname);
 } catch (err) {
   throw(`Failed to change working directory:\n${err}`);
+  process.exit(1);
 }
 
 let version = program.manversion ? program.manversion : "all";
 const section = program.section ? program.section : null;
 
 if(version.toLowerCase() == 'all') {
-  // TODO: add all functionality
-  version = "next";
+  for(let version of getVersions()) {
+    createPDF(version, section);
+  }
+}
+else {
+  if(version.toLowerCase() == 'next') {
+    // remove case of 'next'
+    version = 'next';
+  }
+  createPDF(version, section);
 }
 
-createPDF(version, section);
+/**
+ * Get all of the versions of the docs found in `path` plus `next`
+ * @param {string} path Path to look for version folders, *defaults to `versionedDocsPath`*
+ * @returns {array} Array of the versions, e.g. ['12.0','13.0','next']
+ */
+function getVersions(path=versionedDocsPath) {
+  const isDirectory = source => fs.lstatSync(source).isDirectory();
+  versions = fs.readdirSync(path).map(name => join(path, name)).filter(isDirectory);
+  
+  for(let i in versions) {
+    versions[i] = versions[i].replace(`${path}version-`,"")
+  }
+
+  versions.push('next');
+
+  return versions;
+}
+
 
 /**
  * Converts `filename` to a MarkDown title anchor link.
@@ -115,12 +139,52 @@ function docsVersionPath(version) {
     return "../docs/";
   }
   else {
-    let path = `../website/versioned_docs/version-${version}/`;
+    let path = `${versionedDocsPath}version-${version}/`;
     if (!fs.existsSync(path)) {
       throw(`Could not find versioned docs: ${path}`)
     };
     return path;
   }
+}
+
+/**
+ * Formats all of the MarkDown files specified in the sidebar object
+ * @param {string} docsPath The path to the docs folder, e.g. `../docs/`
+ * @param {object} sidebar An object of the form found in the sidebars.json files
+ * @param {string} version Version of the manual, e.g. `12.0` or `next`
+ * @returns {string} The concatenated formatted files
+ */
+function formatMdFiles(docsPath, sidebar, version) {
+  let output = "";
+
+  if(version == 'next') {
+    docs = sidebar.docs;
+  }
+  else {
+    docs = sidebar[`version-${version}-docs`];
+  }
+
+  let sectionFound = false;
+
+  for(let sec in docs) {
+    if(!section || section.toLowerCase() == sec.toLowerCase()) {
+      sectionFound = true;
+      for(let page of docs[sec]) {
+        if(version != 'next') {
+          page = page.replace(`version-${version}-`,"")
+        }
+        output += formatMd(docsPath,page+'.md');
+      }
+    }
+  }
+
+  if(!sectionFound || !output) {
+    // we didn't get anything
+    throw("No sections were found, this could be because of the section specified or there weren't any sections found in the sidebar");
+    process.exit(2);
+  }
+
+  return output;
 }
 
 /**
@@ -202,23 +266,17 @@ pandoc --template "PDF/eisvogel_avo.latex" \
  * @param {string} section (Optional) Which section to output, e.g. `synergy`
  */
 function createPDF(version,section=null) {
+  console.log(`Formatting version ${version}`)
+
   // get the path of the sidebar file
   let sidebarFile = fs.readFileSync(sidebarPath(version));
   let sidebar = JSON.parse(sidebarFile);
 
   // get the path for docs of the version
-  docsPath = __dirname + docsVersionPath(version);
+  docsPath = __dirname + "/" + docsVersionPath(version);
 
   // format the files
-  let output = "";
-
-  for(let sec in sidebar.docs) {
-    if(!section || section.toLowerCase() == sec.toLowerCase()) {
-      for(let page of sidebar.docs[sec]) {
-        output += formatMd(docsPath,page+'.md');
-      }
-    }
-  }
+  output = formatMdFiles(docsPath, sidebar, version);
 
   // create formatted MD file
   fs.writeFileSync("output/pdf.md", output, function(err) {
