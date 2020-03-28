@@ -1,5 +1,10 @@
 /* your custom css */
 
+@font-face {
+  font-family: "fontawesome";
+  src: url(/css/fontawesome/webfonts/fa-solid-900.woff);
+}
+
 #results {
   position: fixed;
   background: white;
@@ -75,13 +80,33 @@ article a[target="_blank"]::after {
 
 blockquote {
   background-color: rgba(100, 188, 255, 0.3);
-  background-image: url(/docs/images/image6.png);
   background-repeat: no-repeat;
   background-size: 60px;
   background-position: 5px 10px;
-  border-left: 8px solid #64b0ff;
-  padding: 5px 70px;
+  padding: 0;
+  display: flex;
+  border-left: none;
   min-height: 4.5em;
+}
+
+blockquote:before {
+  font-size: 40px;
+  padding: 10px;
+  color: white;
+  content: "\f05a";
+  background: #64b0ff;
+  font-family: 'fontawesome';
+  display: flex;
+  align-items: center;
+
+}
+
+.wrapper blockquote > p:first-child {
+  padding-top: 10px;
+}
+
+blockquote p {
+  padding: 10px;
 }
 
 .docsNavContainer {

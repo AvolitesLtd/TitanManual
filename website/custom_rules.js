@@ -60,7 +60,7 @@ module.exports = {
   
   annotate_close: function(/* tokens, idx, options, env */) {
     return '</span>';
-  }
+  },
 
   externalLinks: function(md) {
     const originalLinkOpenRenderer = md.renderer.rules.link_open;
@@ -77,5 +77,5 @@ module.exports = {
         options.linkTarget = "";
         return originalLinkOpenRenderer(tokens, idx, options, env);
     };
-  },
+  }
 }
