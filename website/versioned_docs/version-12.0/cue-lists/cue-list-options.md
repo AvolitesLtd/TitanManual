@@ -55,7 +55,7 @@ Loop | Cue list will go back to first cue after the last.* If Move in Dark is en
 
 ## Handle Tab
 
-All these options are described in [Playback Options](../cues/playback-options.md##handle-tab).
+All these options are described in [Playback Options](../cues/playback-options.md#handle-tab).
 
 ## Fader Tab
 

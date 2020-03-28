@@ -12,7 +12,7 @@ To help you see what your rig will really look like you can add fixed
 elements of staging and rigging.
 
 Open the Capture Visualiser Settings window from the [Open Workspace
-Window menu]((../titan-basics/workspace-windows/#shortcuts-to-open-workspace-windows)), or the **Open Settings** context button in the Capture window.
+Window menu](../titan-basics/workspace-windows.md#shortcuts-to-open-workspace-windows), or the **Open Settings** context button in the Capture window.
 Click the **Stage** tab.
 
 ![Capture Visualiser Settings Window](/docs/images/image266.png)
@@ -32,22 +32,22 @@ Fixtures are automatically placed into the visualiser when they are
 patched if the Auto Update switch in the [Capture Settings](#setting-up-the-stage-and-rigging) **"Show"** window
 is set to On.
 
-If you [load a Titan show](../titan-basics/loading-and-saving-shows#loading-a-show) from a previous version, or have some patched
+If you [load a Titan show](../titan-basics/loading-and-saving-shows.md#loading-a-show) from a previous version, or have some patched
 fixtures which are not placed in Capture, use the \[Edit Fixtures\]
-\[Update Personality\] option on the [Patch menu](../patching/changing-the-patch/#patch-view) to place missing
-fixtures into the visualiser. The [Exchange Fixtures](../patching/changing-the-patch/#exchange-mapping) function may also be
+\[Update Personality\] option on the [Patch menu](../patching/changing-the-patch.md#patch-view) to place missing
+fixtures into the visualiser. The [Exchange Fixtures](../patching/changing-the-patch.md#exchange-mapping) function may also be
 used to help with this situation.
 
 Fixtures are positioned using the wheels. Select one or more fixtures
-using the [Fixture select or Group buttons](../controlling-fixtures/using-the-select-buttons-and-wheels/#selecting-fixtures-and-dimmers-for-control) and turn them on by pressing
-[Locate](../controlling-fixtures/using-the-select-buttons-and-wheels/#setting-fixtures-to-a-start-position-locate). Press the \[Position - Orientation\] context menu button to
+using the [Fixture select or Group buttons](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) and turn them on by pressing
+[Locate](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate). Press the \[Position - Orientation\] context menu button to
 switch the wheels to Visualiser mode *(or press Softkey G at the top
 level menu until the display shows Wheels-Visualiser)*.
 
 Select **Position** attribute, then use the wheels to change the X/Y/Z
 position of the fixture(s). If you select multiple fixtures, pressing
 the \[Scale-Fan\] context menu button or the **Fan** button allows you to
-evenly spread out the fixtures. The [Fan curve/group/split options](../controlling-fixtures/using-the-select-buttons-and-wheels/#fan-mode) also
+evenly spread out the fixtures. The [Fan curve/group/split options](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-mode) also
 work.
 
 Touch above or below the wheel value to nudge the setting up or down by
@@ -63,7 +63,7 @@ Axis | Action
 
 Press the **Position** button again to switch the wheels to Orientation
 mode. The wheels will now pivot the fixtures in the X/Y/Z axes. Again
-you can use the [**Fan**](../controlling-fixtures/using-the-select-buttons-and-wheels/#fan-mode) button to give a spread of angles on multiple
+you can use the [**Fan**](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-mode) button to give a spread of angles on multiple
 fixtures.
 
 The X/Y/Z rotation operates like a 3-axis camera gimbal - imagine the

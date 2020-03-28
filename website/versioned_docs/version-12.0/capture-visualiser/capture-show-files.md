@@ -35,7 +35,7 @@ the console.
 
 Some fixture types and other Capture elements may not work when you
 import a show that has been created in full Capture. We recommend you
-use the [auto-patch function](../patching/patching-new-fixtures-or-dimmers/#capture-visualiser-auto-patch) to allow the console to patch the fixtures
+use the [auto-patch function](../patching/patching-new-fixtures-or-dimmers.md#capture-visualiser-auto-patch) to allow the console to patch the fixtures
 into Capture.
 
 Clearing the Capture Show
@@ -46,5 +46,5 @@ Capture show.
 
 If you need to reload patched fixtures from your Titan show into
 Capture, select the \[Edit Fixtures\] \[Update Personality\] option on
-the [Patch menu](../patching/changing-the-patch/#patch-view). This will place all patched fixtures from the Titan show
+the [Patch menu](../patching/changing-the-patch.md#patch-view). This will place all patched fixtures from the Titan show
 into the visualiser.

@@ -8,6 +8,8 @@ original_id: creating-a-cue-list
 Programming a Cue List
 ----------------------
 
+[Video covering Cue List Basics](https://youtu.be/Kp6XhdG6keM?t=20)
+
 Programming a cue list is similar to [recording a chase](../chases/creating-a-chase.md).
 
 You need to set up the look on the stage for each cue and then add it to
@@ -29,7 +31,7 @@ be recorded so they are in the programmer.
 using \[Set Times\]. These settings will be allocated to every new cue.
 
 5. Set up the look for the first cue, either manually or by using
-[\<Include\>](../titan-commands.md/#include) on existing cues. You can use the [Shape Generator](../effects/shape-generator/) and the
+[\<Include\>](../titan-commands.md#include) on existing cues. You can use the [Shape Generator](../effects/shape-generator.md) and the
 [Pixel Mapper](../effects/pixel-mapper.md).
 
 6. If you require a **legend for the cue**, set it now using \[Legend\].

@@ -99,7 +99,7 @@ it what attributes are available and how to control them. If the console
 does not have the personality for your fixture, you can download further
 personalities from the Avolites website, create your own using the
 Personality Builder application installed on the console, or Avolites
-can create one for you. See the [personalities section](../fixture-personalities) for details of how to
+can create one for you. See the [personalities section](../fixture-personalities.md) for details of how to
 find personalities.
 
 You can patch either using the Patch menu (described below) or the [Patch View](./changing-the-patch.md#patch-view) window.

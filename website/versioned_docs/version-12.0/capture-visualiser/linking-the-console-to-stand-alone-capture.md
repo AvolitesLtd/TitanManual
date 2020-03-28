@@ -29,8 +29,8 @@ can turn off the **"Console Link"** function in Capture.
 Patching Console Fixtures into Capture
 --------------------------------------
 
-When you first connect the console to Capture, or if you [load a show](../titan-basics/loading-and-saving-shows/#loading-a-show) on
-the console or [patch a new fixture](../patching/patching-new-fixtures-or-dimmers/), the Console Patch dialog will be
+When you first connect the console to Capture, or if you [load a show](../titan-basics/loading-and-saving-shows.md#loading-a-show) on
+the console or [patch a new fixture](../patching/patching-new-fixtures-or-dimmers.md), the Console Patch dialog will be
 shown in Capture. This contains a list of the fixtures which are on the
 console and need inserting into the Capture show.
 
@@ -69,6 +69,6 @@ problems found.
 
 To fix duplicate user numbers, edit the value in the **"Channel"** field in
 Capture to be a unique number. To fix unsupported fixtures, first try
-[updating your Titan fixture library](../fixture-personalities#updating-the-personality-library-on-the-console). If this doesn't help, you can
-[submit a personality request](../fixture-personalities#requesting-a-new-fixture-personality) on the [Avolites website](https://personalities.avolites.com/?mainPage=Request%20Queue.asp&) and select "Capture
+[updating your Titan fixture library](../fixture-personalities.md#updating-the-personality-library-on-the-console). If this doesn't help, you can
+[submit a personality request](../fixture-personalities.md#requesting-a-new-fixture-personality) on the [Avolites website](https://personalities.avolites.com/?mainPage=Request%20Queue.asp&) and select "Capture
 Visualiser (.c2o)" from the Desk Type options.

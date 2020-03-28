@@ -5,6 +5,8 @@ sidebar_label: Shape Generator
 original_id: shape-generator
 ---
 
+[This video will show you how to use the softkeys to create some colour and movement shapes as well as showing how to edit them live](https://youtu.be/oTo6FxHD02o?t=20)
+
 A shape is simply an automatic sequence of values which modify a
 particular attribute of a fixture. A circle shape, for example, applied
 to the pan and tilt attributes, would cause the fixture to move its beam
@@ -255,4 +257,4 @@ Storing Shapes in Palettes
 You can create palettes containing shapes. This is really useful to
 quickly call back shapes pre-configured with different spread and speed
 settings. See 
-[Creating an Effects Palette (Shape or Pixel Mapper)](../palettes/creating-palettes/#creating-an-effects-palette-shape-or-pixel-mapper).
+[Creating an Effects Palette (Shape or Pixel Mapper)](../palettes/creating-palettes.md#creating-an-effects-palette-shape-or-pixel-mapper).

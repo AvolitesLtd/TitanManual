@@ -10,6 +10,8 @@ songs/events in your show which you can then easily step through. You
 can also make notes, handy for avoiding bits of paper lying around. You
 can have multiple set lists in a show.
 
+[Video covering Set Lists](https://youtu.be/VX5acUU-99M?t=20)
+
 To open the Set List window, click \[Open Workspace Window\] then \[Set
 List\].
 
@@ -85,7 +87,7 @@ then press \[Remove\].
 Playback Control Macros
 -----------------------
 
-[Key Macros](..titan-basics/front-panel-buttons.md#key-macro-buttons)
+[Key Macros](../titan-basics/front-panel-buttons.md#key-macro-buttons)
 allow you to record a sequence of actions on the console then
 play them back (either instantaneously or as a timed sequence). This can
 be very useful for reducing a complex sequence of actions to a single

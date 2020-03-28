@@ -25,6 +25,10 @@ If you assign a group to a handle with a fader, the fader becomes an
 intensity master for the group. You can also set different functions for
 the buttons using [Key Profiles](../system-settings/key-profiles.md).
 
+### Record a Group
+
+[Video showing how to record a group](https://youtu.be/E8QxOKT5TCA?t=20)
+
 If the Groups window is not visible, you can show it by pressing
 \<View/Open\>, \<Group\> (above numeric keys).
 
@@ -111,6 +115,10 @@ for fixtures, giving the actual physical location of fixtures for use
 with Shapes or Pixel Mapper effects or when selecting fixtures using
 patterns.
 
+### Fixture Order
+
+[Video covering Fixture Order](https://youtu.be/2TqYjvGoGXQ?t=20)
+
 To change the numerical fixture order:
 
 1. Press \<Group\>.
@@ -126,6 +134,10 @@ The fixtures in the group will be shown numbered in the fixtures window.
 To change the order, select \[Auto Increment\] to On, then select the
 fixtures in the order you want. If you press a fixture twice, it will
 show an X indicating that it is not part of the sequence.
+
+### Fixture Layout
+
+[Video covering Fixture Layout](https://youtu.be/9S5nQmVpPNs?t=20)
 
 To change the 2D fixture layout:
 

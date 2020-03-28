@@ -10,7 +10,7 @@ tracks fades in playbacks; either the same speed all the way (linear),
 or starting and ending gently but faster in the middle, and various
 other options. Curves are used in various places in the console, one
 example is in the \[Playback Options\] menu - see [Playback
-options](../playback-options).
+options](../cues/playback-options.md).
 
 ![Curve - Linear](/docs/images/image337.png)
 ![Curve - Always On](/docs/images/image338.png)

@@ -55,6 +55,8 @@ it as a master. Press the Display button below the encoders to show legends for 
 Speed and Size Masters
 ----------------------
 
+[Video covering Speed and Size Master](https://youtu.be/e5rQAmTCfs0?t=20)
+
 Playbacks can be assigned to a Speed Master and/or a Size Master which allow you to control the speed and size of shapes or effects stored in a cue (or in the case of chases, to modify the speed of the chase).
 
 There are eight possible Speed Masters and four Size Masters which allow you to separately control the parameters of different playbacks, if you need to.
@@ -158,6 +160,8 @@ You can release all masters by pressing \<Release\> then \[Release All Masters\]
 
 Scene Master
 ------------
+
+[Video covering Scene Masters](https://youtu.be/zn_jd1zba7E?t=20)
 
 The Scene Master allows you to preset an output state by firing a number of playbacks or making live changes, using the visualiser to see the effects but without anything happening on stage. When you are ready for the new state, you fade the Scene Master fader to the other end of its travel and the new state is output.
 

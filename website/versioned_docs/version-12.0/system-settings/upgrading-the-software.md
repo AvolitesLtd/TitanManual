@@ -21,7 +21,7 @@ software from the Avolites website: http://www.avolites.com.
 
 -   If you are upgrading the software from a version earlier than v12,
     you will have to obtain an AvoKey USB dongle from Avolites and
-    license the software. See the [Software Licensing](recovering-and-reinstalling-the-console#software-licensing) section for details of how to do
+    license the software. See the [Software Licensing](recovering-reinstalling-the-console.md#software-licensing) section for details of how to do
     this.
 
 ---

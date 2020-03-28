@@ -10,7 +10,7 @@ Fading Shape Size and Speed
 
 When a [shape is stored in a cue](shape-generator.md#using-shapes-in-cues),
 you can set how the shape fades in
-using the Edit Times and the [Playback Options](../cues/playback-options) settings.
+using the Edit Times and the [Playback Options](../cues/playback-options.md) settings.
 
 To set the shape size and/or speed from the fader position, press
 \[Playback Options\] from the main menu then press the select button of

@@ -20,4 +20,4 @@ you can operate it using the Titan Go screen. It can load shows which
 have been created on a full console. You can also use a console in
 multi-user mode to create shows directly on the TNP.
 
-More information about using TNPs can be found [here](../titan-net).
+See [Titan Net](../titan-net.md) for more information about using TNPs.

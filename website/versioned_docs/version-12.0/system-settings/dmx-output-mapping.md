@@ -6,14 +6,14 @@ original_id: dmx-output-mapping
 ---
 
 There are various ways to connect fixtures to the console. As well as
-the XLR sockets on the console, [you can connect fixtures using Ethernet](networking/controlling-fixtures-over-a-network)
+the XLR sockets on the console, [you can connect fixtures using Ethernet](networking/controlling-fixtures-over-a-network.md)
 and wireless links.
 
 All consoles can output up to 16 universes except **T1** which is limited to
 one single universe and **T2** to two universes.
 
 If you need to output more universes, you can network the console to one
-or more [Avolites TitanNet Processing (TNP) nodes](../titan-net). This off-loads the DMX
+or more [Avolites TitanNet Processing (TNP) nodes](../titan-net.md). This off-loads the DMX
 processing, allowing the console to control up to 64 universes of DMX in
 total.
 
@@ -25,7 +25,7 @@ the TitanNet overview.
 Configuring DMX Outputs
 -----------------------
 
-Switch the console to [System mode](the-system-menu) and select \[DMX Settings\].
+Switch the console to [System mode](the-system-menu.md) and select \[DMX Settings\].
 
 The screen will initially show the node tab relating to the console
 itself. It shows a list of available DMX *nodes* (places where you can
@@ -62,7 +62,7 @@ to set detailed properties such as IP address ranges and net masks.
 
 ![DMX Output in DMX Settings Window](/docs/images/image331.png)
 
-If you have [TNPs](../titan-net) connected, these can be individually configured using
+If you have [TNPs](../titan-net.md) connected, these can be individually configured using
 the tabs across the top of the screen.
 
  > When transferring shows between different console types, and especially when you have used the simulator, it's a good idea to check the DMX output settings to make sure the settings are what you expected. If you created a new show on the simulator, no outputs will be connected.
@@ -75,7 +75,7 @@ A module is a method of sending DMX (such as ArtNet, or sACN) and can be
 thought of as a collection of nodes.
 
 You can set properties for ArtNet or sACN by going to the DMX Settings
-window (switch to [System mode](the-system-menu) and select \[DMX Settings\]) and then
+window (switch to [System mode](the-system-menu.md) and select \[DMX Settings\]) and then
 click the cog icon at the right hand side of the module name.
 
 This allows you to adjust settings for each module, and to select which
@@ -147,7 +147,7 @@ DMX Overview
 ------------
 
 If you select the DMX Overview tab at the top of the screen, you can see
-all the [TNPs](../titan-net) which are connected and which output lines they are
+all the [TNPs](../titan-net.md) which are connected and which output lines they are
 allocated to.
 
 ![DMX Overview in DMX Settings](/docs/images/image335.png)

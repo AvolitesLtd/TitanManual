@@ -587,7 +587,7 @@ Latch\>.
 
 -   The @ softkey sets a dimmer level to the selected fixtures, for
     example 1 Through 8 @ 5 \<Enter\> will set 1-8 at 50%. (You can
-    choose whether 50% is entered as "5" or "50" in the [User Settings](../system-settings/user-settings) - When you press @ there are softkey
+    choose whether 50% is entered as "5" or "50" in the [User Settings](../system-settings/user-settings.md) - When you press @ there are softkey
     options for Full, Off and +/- (increase or decrease brightness).
 
 -   You can work with Groups using the Group button, for example Group 1
@@ -672,7 +672,7 @@ the numeric keypad to select fixtures set to a particular intensity.\
 @@: fixtures with intensity above 0.
 
 Intensity levels may be input as 0-9 or 00-99 depending on the [User
-Setting](../system-settings/user-settings) \[Channel Levels Set In\].
+Setting](../system-settings/user-settings.md) \[Channel Levels Set In\].
 
 ## Attribute Groups - IPCGBES-FX
 
@@ -754,6 +754,8 @@ the programmer and will be recorded into any cue. This is useful when
 removing fixtures from cues.
 
 ## Align Fixtures
+
+[Video covering align](https://youtu.be/xZrVhnY1hnA?t=20)
 
 You can copy attributes from one fixture to another using the Align
 Fixtures function. This is very useful, for example, if you've
@@ -881,7 +883,7 @@ change in fan mode.
 Press \<Fan\> again to leave Fan mode. Any effects you have set will
 remain in the programmer.
 
-> It's all too easy to accidentally leave Fan mode turned on and be very confused about why the wheels aren't working properly, so turn it off as soon as you have completed the effect. To avoid this there is a [User Setting](../system-settings/user-settings) 'Press and hold Fan'. If enabled, you have to hold down \<Fan\> to enable Fan mode.
+> It's all too easy to accidentally leave Fan mode turned on and be very confused about why the wheels aren't working properly, so turn it off as soon as you have completed the effect. To avoid this there is a [User Setting](../system-settings/user-settings.md) 'Press and hold Fan'. If enabled, you have to hold down \<Fan\> to enable Fan mode.
 
 ### Fan Curves
 

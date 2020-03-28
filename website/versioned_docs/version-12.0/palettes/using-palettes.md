@@ -8,6 +8,8 @@ original_id: using-palettes
 Recalling a Palette Value
 -------------------------
 
+[Video covering Palettes Playback](https://youtu.be/_bmk7JEPpQo?t=20)
+
 ### Recalling From a Button
 
 To recall a palette value from a button:

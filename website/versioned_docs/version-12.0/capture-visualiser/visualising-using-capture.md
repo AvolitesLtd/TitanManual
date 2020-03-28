@@ -14,7 +14,7 @@ what would be happening on the stage.
 Fixture Selection
 -----------------
 
-If you [select fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels/#selecting-fixtures-and-dimmers-for-control) on the console, the fixtures will highlight in
+If you [select fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) on the console, the fixtures will highlight in
 Capture so you can see where they are in real life.
 
 ![Fixtures elected on internal Capture Visualiser Window](/docs/images/image270.png)
@@ -27,8 +27,6 @@ house. Even if you're in the venue with the full rig in front of you
 this means you can see the look without having to run all over the
 venue.
 
-Set up multiple cameras as described in [the previous section](setting-up-the-rig#setting-up-cameras-views) and you can
+Set up multiple cameras as described in [the previous section](setting-up-the-rig.md#setting-up-cameras-views) and you can
 either click between them or show the 4 standard camera views as a quad
 split.
-
-
