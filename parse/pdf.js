@@ -7,32 +7,30 @@ const { program } = require("../website/node_modules/commander");
 const readdir = promisify(fs.readdir);
 const stat = promisify(fs.stat);
 
+// Command line options
+program
+  .option('-v, --manversion <version>', 'specify which version to produce, use --version next to produce the /docs folder')
+  .option('-s, --section <section>', 'specify a specific section to output, e.g. --section synergy')
+  .version('0.0.1')
+  .parse(process.argv);
+
 try {
   process.chdir(__dirname);
 } catch (err) {
   console.error(`Failed to change directory: ${err}`);
 }
 
-// Command line options
-program
-  .option('-v, --manversion <version>', 'specify which version to produce, use --version next to produce the /docs folder')
-  .option('-s, --section <path>', 'specify a specific section to output, e.g. --section synergy')
-  .version('0.0.1')
-  .parse(process.argv);
-
-async function getFiles(dir) {
-  const subdirs = await readdir(dir);
-  const files = await Promise.all(subdirs.map(async (subdir) => {
-    const res = path.resolve(dir, subdir);
-    return (await stat(res)).isDirectory() ? getFiles(res) : res;
-  }));
-  return files.reduce((a, f) => a.concat(f), []);
+if(program.section) {
+  createPDF("12.0", program.section);
+}
+else {
+  createPDF("12.0")
 }
 
 /**
- * Converts @filename to a MarkDown title anchor link.
- * @param {string} filename Name of the file, e.g. cues/creating-a-cue.md
- * @return {string} A MarkDown title anchor link, e.g. '#cues-creating-a-cue.md'
+ * Converts `filename` to a MarkDown title anchor link.
+ * @param {string} filename Name of the file, e.g. `cues/creating-a-cue.md`
+ * @return {string} A MarkDown title anchor link, e.g. `#cues-creating-a-cue.md`
  */
 function filenameToTitleLink(filename) {
   return "#" + filename.replace("/","-");
@@ -40,7 +38,7 @@ function filenameToTitleLink(filename) {
 
 /**
  * Replaces the YAML block in the file with a heading
- * @param {string} filename Name of the file, e.g. cues/creating-a-cue.md
+ * @param {string} filename Name of the file, e.g. `cues/creating-a-cue.md`
  * @param {string} content Contents of the file with YAML block in
  * @return {string} The content with the YAML block replaced
  */
@@ -66,7 +64,7 @@ function replaceYaml(filename,content) {
  * From ![alt](/path/to/img)
  * To   ![alt](path/to/img)
  * Also warns about missing alt text and images.
- * @param {string} filename Name of the file, e.g. cues/creating-a-cue.md
+ * @param {string} filename Name of the file, e.g. `cues/creating-a-cue.md`
  * @param {string} content Contents of the file with the images in
  * @return {string} The content with the images fixed
  */
@@ -86,37 +84,45 @@ function replaceImagePaths(filename,content) {
   });
 }
 
-getFiles('../docs/synergy').then((filenames) => {
-  let output = "";
+/**
+ * Format a MarkDown file ready for PDF
+ * @param {string} docsPath Path to the docs folder, e.g. `../docs/`
+ * @param {string} filename Name of the file, e.g. `cues/creating-a-cue.md`
+ * @return {string} The formatted MarkDown
+ */
+function formatMd(docsPath,filename) {
+  let filepath = docsPath + filename;
+
+  if (!fs.existsSync(filepath)) {
+    process.emitWarning(`${filename}: Not found`);
+    return '';
+  }
   
-  filenames.forEach(function(filename) {
-    if (!filename.includes(".DS_Store")) {
-      let content = fs.readFileSync(filename, 'utf-8');
-      filename = filename.replace(path.resolve(__dirname + '/../docs/') + "/", "");
+  let content = fs.readFileSync(filepath, 'utf-8');
 
-      // replace YAML blocks with title
-      content = replaceYaml(filename,content);
+  // replace YAML blocks with title
+  content = replaceYaml(filename,content);
 
-      // fix the absolute image paths
-      content = replaceImagePaths(filename,content);
+  // fix the absolute image paths
+  content = replaceImagePaths(filename,content);
 
-      output += content + "\n\n";
-    }
-  });
+  content += "\n\n";
 
-  fs.writeFile("output/pdf.md", output, function(err) {
-    if(err) {
-      return console.log(err);
-    }
-  });
-});
+  return content;
+}
 
-console.log("Producing PDF")
+/**
+ * Generate a PDF version of the MarkDown file
+ * @param {string} inputMdPath Path to the MD file to convert, e.g. `output/pdf.md`
+ * @param {string} version Version of the manual, e.g. "12.0"
+ */
+function generatePDF(filePath,version) {
+  console.log("Producing PDF")
 
-const command = `
+  const command = `
 DATE=$(date "+%d %B %Y")
 ISODATE=$(date "+%F %H-%M-%S")
-VERSION="Titan"
+VERSION="Titan ${version}"
 
 pandoc --template "PDF/eisvogel_avo.latex" \
   -o "output/$ISODATE $VERSION Manual $DATE.pdf" \
@@ -130,22 +136,59 @@ pandoc --template "PDF/eisvogel_avo.latex" \
   -M footer-center="$DATE" \
   -M footer-left="$VERSION Manual" \
   -M subtitle="$VERSION" \
-  output/pdf.md`;
+  ${filePath}`;
 
-var hrstart = process.hrtime();
+  var hrstart = process.hrtime();
 
-execSync(command, (error, stdout, stderr) => {
-  if (error) {
-      console.log(`error: ${error.message}`);
-      return;
+  execSync(command, (error, stdout, stderr) => {
+    if (error) {
+        console.log(`error: ${error.message}`);
+        return;
+    }
+    if (stderr) {
+        console.log(`stderr: ${stderr}`);
+        return;
+    }
+
+    console.log(`stdout: ${stdout}`);
+  });
+
+  var hrend = process.hrtime(hrstart);
+  console.log('PDF produced in %ds', hrend[0]);
+}
+
+/**
+ * Create the docs for the specified `version` & `section`
+ * @param {string} version Version of the docs to produce, e.g. `12.0` or `next` to produce the latest
+ * @param {string} section (Optional) Which section to output, e.g. `synergy`
+ */
+function createPDF(version,section=null) {
+  // get the path of the sidebar
+  let sidebarPath = "../website/sidebars.json";
+  let sidebarFile = fs.readFileSync(sidebarPath);
+  let sidebar = JSON.parse(sidebarFile);
+
+  // get the path for docs of the version
+  docsPath = __dirname + "/../docs/"
+
+  // format the files
+  let output = "";
+
+  for(let sec in sidebar.docs) {
+    if(!section || section.toLowerCase() == sec.toLowerCase()) {
+      for(let page of sidebar.docs[sec]) {
+        output += formatMd(docsPath,page+'.md');
+      }
+    }
   }
-  if (stderr) {
-      console.log(`stderr: ${stderr}`);
-      return;
-  }
 
-  console.log(`stdout: ${stdout}`);
-});
+  // create formatted MD file
+  fs.writeFileSync("output/pdf.md", output, function(err) {
+    if(err) {
+      return console.log(err);
+    }
+  });
 
-var hrend = process.hrtime(hrstart);
-console.log('PDF produced in %ds', hrend[0]);
+  // generate the PDF
+  generatePDF('output/pdf.md',version)
+}
