@@ -1,7 +1,7 @@
 ---
 id: version-12.0-set-list-window
-title: Set List window
-sidebar_label: Set List window
+title: Set List Window
+sidebar_label: Set List Window
 original_id: set-list-window
 ---
 
@@ -33,7 +33,7 @@ playback pages, one page per track. Build allows you to select the pages
 in the order you want them. Or you can manually add a track using the
 plus button below the track list.
 
-Configuring tracks
+Configuring Tracks
 ------------------
 
 Enter notes by selecting a track and clicking the text entry button,
@@ -82,13 +82,14 @@ You can fire the macro or Workspace shortcut by clicking on the link
 button. Delete the button by pressing Delete then clicking the button,
 then press \[Remove\].
 
-Playback control Macros
+Playback Control Macros
 -----------------------
 
-Key Macros allow you to record a sequence of actions on the console then
+[Key Macros](..titan-basics/front-panel-buttons.md#key-macro-buttons)
+allow you to record a sequence of actions on the console then
 play them back (either instantaneously or as a timed sequence). This can
 be very useful for reducing a complex sequence of actions to a single
-button push. See section 3.4.1 on page 71 for more details.
+button push.
 
 Some special preset macros are available to help with controlling
 playbacks when used with a Set List.
@@ -106,5 +107,3 @@ Macro | Action
 \[Release Playback 1\] | Releases the playback with user number 1.
 \[Release Me\] | Releases the associated playback (cuelist).\
 \[Goto My Cue 1\] | Go to cue 1 of the associated cuelist.
-
-

@@ -53,8 +53,7 @@ module.exports = {
   
   button_close: function(/* tokens, idx, options, env */) {
     return '</span>';
-  },
-  
+  },  
   annotate_open: function(tokens, idx, options /*, env */) {
     return `<span class="annotate">`;
   },
@@ -62,4 +61,21 @@ module.exports = {
   annotate_close: function(/* tokens, idx, options, env */) {
     return '</span>';
   }
+
+  externalLinks: function(md) {
+    const originalLinkOpenRenderer = md.renderer.rules.link_open;
+
+    md.renderer.rules.link_open = (tokens, idx, options, env) => {
+        const href = tokens[idx].href;
+        const match = /^((http|)s?:?\/\/|mailto:)/mi.exec(href);
+
+        if (match) {
+          options.linkTarget = "_blank";
+          return originalLinkOpenRenderer(tokens, idx, options, env)
+        }
+
+        options.linkTarget = "";
+        return originalLinkOpenRenderer(tokens, idx, options, env);
+    };
+  },
 }

@@ -38,10 +38,7 @@ Setting up DMX outputs
 The console has 64 DMX output lines, of which the console itself can
 output 16, with further lines available using networked DMX processing
 nodes. The T1 dongle is limited to one DMX line, T2 to two DMX lines The
-lines may be routed to physical DMX sockets and/or to network nodes.
-
-Section 16.5.1 on page 323 tells you how to set up this routing, and an
-example is given in section 18.2.4 on the next page.
+lines may be routed to physical DMX sockets and/or to [network nodes](../networking/controlling-fixtures-over-a-network.md).
 
 A simple Art-Net system
 -----------------------

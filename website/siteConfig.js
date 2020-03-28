@@ -93,7 +93,10 @@ const siteConfig = {
 	  
       // enable subscript and superscript
       // e.g. ~sub~ ^sup^
-      md.inline.ruler.enable(['sub', 'sup']);
+      md.inline.ruler.enable(['sub', 'sup'])
+
+      // make external links open in a new tab
+      custom_rules.externalLinks(md)
 
       // embed videos by linking to them
       // e.g. [Patching](https://www.youtube.com/watch?v=dQw4w9WgXcQ)

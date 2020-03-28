@@ -1,11 +1,11 @@
 ---
 id: version-12.0-editing-shapes-and-effects
-title: Editing shapes and effects
-sidebar_label: Editing shapes and effects
+title: Editing Shapes and Effects
+sidebar_label: Editing Shapes and Effects
 original_id: editing-shapes-and-effects
 ---
 
-Editing a live running shape
+Editing a Live Running Shape
 ----------------------------
 
 You can change the speed, size and spread of a live running shape by
@@ -13,53 +13,53 @@ pressing \<Connect\> then \<Shape\> (which will flash if any shapes are
 active). The softkeys will show a list of the currently running shapes,
 and the cue they are coming from or the programmer.
 
-![](/docs/images/image201.png)
+>   If the console does not have a \<Shape\> button you can access this
+    function using \[Shapes and Effects\], \[Shape Generator\], \[Edit\]
+
+![Shape Generator - Selecting a Shape to Edit](/docs/images/image201.png)
 
 By default all shapes are selected. Choose the shapes to control and
 press \<Enter\> or \<Shape\> to connect the shapes to the wheels to
 change the speed, size and spread. If there are more than 3 parameters
-to control, Softkey G will change the wheels to different options.
+to control, \[Softkey G\] will change the wheels to different options.
 
 -   If the shapes are in a cue, changes you make here will be
-    automatically stored in the cue (like speed and crossfade are when
-    you are running a chase).
+    automatically stored in the cue (like [speed and crossfade are when
+    you are running a chase](../chases/chase-playback.md#setting-speed-and-crossfade-for-a-chase)).
 
 -   To control other attributes using the wheels while in this mode,
     press an attribute button. To get back to shape mode press \<Shape\>
     or select the FX attribute in the wheels display.
 
--   If the console does not have a \<Shape\> button you can access this
-    function using \[Shapes and Effects\] -- \[Shape Generator\] --
-    \[Edit\].
-
-Editing shapes and effects in cues
+Editing Shapes and Effects in Cues
 ----------------------------------
 
 Shapes and pixel mapper effects stored in cues can be edited from the
 Cue View window.
 
-![](/docs/images/image202.png)
+![Playback View for Cue with Shape](/docs/images/image202.png)
 
 To view and/or edit the parameters of the shape or effect, click on the
-View Shape or View Pixel Effect button. If more than one shape or effect
-is stored, the button will show \[...\]. A Shape View window or Pixel
-Mapper Effect View window will open, listing the shapes or effects in
+**View Shape** or **View Pixel Effect** button. If more than one shape or effect
+is stored, the button will show \[...\]. A **Shape View window** or **Pixel
+Mapper Effect View window** will open, listing the shapes or effects in
 the cue. You can then edit parameters of the shape or effect by clicking
 on the parameter and editing on the softkeys.
 
-In the Shape or Effect View window you can click on View Fixtures to
+In the Shape or Effect View window you can click on **View Fixtures** to
 open a window showing a list of the fixtures on which the shape or
 effect is programmed.
 
-Editing a shape in a cue using include
+Editing a Shape in a Cue Using Include
 --------------------------------------
 
 You can only edit shapes which are in the programmer; if you fire a cue
 with a shape in it, the shape will not show up in the list of editable
 shapes. To get the shape into the programmer you need to use the Include
-function (see section 8.3.4 on page 208).
+function (see 
+[Using Parts of Existing Cues - the Include Function](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)).
 
-Once the cue is loaded into the programmer using Include, if more than
+Once the cue is loaded into the programmer using \<Include\>, if more than
 one shape is running in the programmer, you can select which one is
 connected to the control wheels using Shape option \[Edit\].
 
@@ -77,10 +77,10 @@ highlighted.
 
 6. Press \<Enter\> to get back to the Shape Generator menu.
 
--   If you applied the same shape several times to different fixtures,
+>   If you applied the same shape several times to different fixtures,
     you can change each copy of the shape independently.
 
-Resynchronise shapes
+Resynchronise Shapes
 --------------------
 
 The \[Restart Shapes\] option in the Shape Edit menu allows you to
@@ -88,39 +88,40 @@ restart all running shapes, this is useful if you have multiple shapes
 in a cue and you need to see how they will start up when the cue is
 fired.
 
-Changing fixture order in a shape
+Changing Fixture Order in a Shape
 ---------------------------------
 
 The way a shape spreads across a number of fixtures is set by the order
 in which you selected them when you create the shape. You can change
 this order using the \[Fixture Order\] function in the \[Edit\] menu.
 The current fixture order is shown in in the fixture touch keys . See
-section 8.5.2 for details on how to change the fixture order.
+[Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)
+for details on how to change the fixture order.
 
-Shapes linked to Groups
+Shapes Linked to Groups
 -----------------------
 
-If a shape is created from a group of fixtures, the fixture order or 2D
-layout in the group will be used when generating the shape. The shape
+If a shape is created from a group of fixtures, the 
+[fixture order or 2D layout](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)
+in the group will be used when generating the shape. The shape
 will contain a link to the group and any changes later made to the group
-such as changing the fixture order or layout will affect the shape. (new
-in v10.1)
+such as changing the fixture order or layout will affect the shape.
 
 If you need to add fixtures to the group without breaking the group
-link, select the fixtures then press \<Record\>, Group handle button,
+link, select the fixtures then press \<Record\>, **Group handle** button,
 \[Merge\]. To change the fixtures to a new selection, select them then
-press \<Record\>, Group handle button, \[Replace\]. You can also use
-\<Group\> \[Edit Groups\].
+press \<Record\>, **Group handle** button, \[Replace\]. You can also use
+\<Group\>, \[Edit Groups\].
 
 If you want to change the fixture order for a particular shape without
 changing the order in the group, which might affect other shapes, then
 you can break the link to the group using the \[Break Group References\]
-button in the \[Edit\] \[Edit Fixtures/Groups\] \[Fixture Order\] menu.
+button in the \[Edit\], \[Edit Fixtures/Groups\], \[Fixture Order\] menu.
 
-See section 5.3.2 on page 136 for how to edit the fixture order or
+See [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) for how to edit the fixture order or
 layout.
 
-Removing or adding fixtures
+Removing or Adding Fixtures
 ---------------------------
 
 You can add or remove individual fixtures from a shape using the
@@ -133,7 +134,7 @@ If a fixture group was used to create the shape, removing fixtures from
 the shape using this option will break the link to the group. A \[Remove
 Fixtures\] confirmation softkey will be shown to warn you of this.
 
-Reversing a shape
+Reversing a Shape
 -----------------
 
 You can reverse the direction of a shape by pressing \[Reverse Selected
@@ -141,10 +142,8 @@ Fixtures\] from the shape menu. The shape will be reversed only on
 fixtures which are selected, allowing you to run the shape forward on
 some fixtures and backwards on others.
 
-Deleting shapes
+Deleting Shapes
 ---------------
 
 You can delete a running shape by pressing \[Delete\] from the shape
-menu, then pressing the softkey for the shape you want to delete.
-
-
+menu, then pressing the \[softkey\] for the shape you want to delete.

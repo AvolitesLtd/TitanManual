@@ -42,6 +42,8 @@ cue *(although the Include function lets you do this, see
 Creating a Cue
 --------------
 
+[Video cover recording playbacks and the different modes](https://youtu.be/X5g6DMVwlZU?t=20)
+
 1. Press \<Clear\> to clear the programmer.\
 *This ensures that you are starting with a clean slate.*
 

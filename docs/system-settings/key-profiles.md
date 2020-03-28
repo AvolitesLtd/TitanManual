@@ -1,5 +1,5 @@
 ---
-id: key-profiles 
+id: key-profiles
 title: Key Profiles
 sidebar_label: Key Profiles
 ---
@@ -22,6 +22,8 @@ related to each playback fader.
 
 ## Creating and editing key profiles
 
+[Video covering Key Profiles](https://youtu.be/CxHQV4sP_sA?t=20)
+
 To create or edit a profile, switch to System mode then select \[Key
 Profiles\]. You can then use the Manage Profiles menu to View, Edit,
 Add, Delete or Rename profiles.
@@ -30,7 +32,7 @@ You can also create or edit key profiles in the \[Handle\] tab of
 Playback Options.
 
 Key Profiles can also be viewed from the Show Library window as
-described in [Show Library](../titan-basics/show-library/#key-profiles-view) section.
+described in [Show Library](../titan-basics/show-library.md#key-profiles-view) section.
 
 When Adding a new profile, you can select an existing profile to copy
 settings from.
@@ -91,7 +93,7 @@ The blue or grey key can be allocated to **Disabled**, **Flash**,
 
 ### Cue Lists
 
-These affect [playback of cue lists](../cue-lists/cue-list-playback) and can be assigned to the handle's buttons:
+These affect [playback of cue lists](../cue-lists/cue-list-playback.md) and can be assigned to the handle's buttons:
 
 Setting | Action
 ---|---
@@ -120,7 +122,7 @@ Select If | Press to select all fixtures used in the current cue
 Can be set to **Select** or **Prefer Macro** (the Macro function
 will take precedence over other functions stored on the button).
 
-### Options:
+### Options
 
 Allows you to disable the quick record function (double tap
 on empty handles).
@@ -134,7 +136,7 @@ Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, **Mult
 **Freeze**, **Connect**.
 
 These last options are for rate and BPM masters, see
-the [BPM Master Options](../playback-controls/#bpm-master-options). Freeze can be useful to temporarily pause
+the [BPM Master Options](../running-the-show/playback-controls.md#bpm-master-options). Freeze can be useful to temporarily pause
 shapes or chases, or does a blackout if used with an intensity master.
 
 For Scene Master the options are **Disabled**, **Exit scene mode**, **Enter scene

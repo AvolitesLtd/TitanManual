@@ -9,13 +9,9 @@ You can set up the console to allow most features to be triggered by
 external events. This is very useful in complex shows or when using in
 an automated setup.
 
-  --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)
-  
-  Audio trigger (sound to light) requires special hardware which is currently only available on the Quartz and Arena consoles. The line in socket on other consoles cannot be used for audio trigger.
-  --------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> Audio trigger (sound to light) requires special hardware which is currently only available on the Quartz and Arena consoles. The line in socket on other consoles cannot be used for audio trigger.
 
-Connecting remote trigger sources
+Connecting Remote Trigger Sources
 ---------------------------------
 
 To connect a MIDI source, connect it to the MIDI in connector on the
@@ -34,7 +30,7 @@ jack on the motherboard) -- available on Quartz and Arena only.
 
 > The Arena console has a switch trigger input on a jack socket.
 
-Setting up remote triggering
+Setting up Remote Triggering
 ----------------------------
 
 Enter System mode and select \[Triggers\]. The Triggers window will
@@ -86,8 +82,9 @@ details using the softkey options.
 8. For DMX triggers you can select the address for triggering. For MIDI
 triggers you can select MIDI channel, MIDI Command, Value, and Level
 (velocity) ranges. For audio triggers the \[Band\] option is used to
-select which frequency band will cause the trigger. See section 13.5.4
-for Audio.
+select which frequency band will cause the trigger.
+See the [Audio Control](./midi-dmx-or-audio-triggering.md#audio-control-sound-to-light)
+section for audio triggers.
 
 9. Press \[Add\] to add the trigger to the list.
 
@@ -131,7 +128,7 @@ the right.
 
 8. Repeat from \[3\] to add the other 9 playback faders.
 
-MIDI show control
+MIDI Show Control
 -----------------
 
 The following MIDI Show Control messages are supported:
@@ -154,7 +151,7 @@ MIDI show control devices are identified by a device ID. To set Titan's
 device ID go to System mode and select \[User Settings\], then go to the
 \[Timecode\] tab. The default setting is 0.
 
-Audio control (sound to light)
+Audio Control (Sound to Light)
 ------------------------------
 
 On supported consoles the audio input is divided into frequency bands
@@ -193,5 +190,3 @@ On the Arena console, the Audio LED (just above the power switch) will
 flash when audio is received. Note that the headphone socket on the
 Arena is linked to the motherboard audio output and can't be used for
 monitoring the audio trigger input.
-
-

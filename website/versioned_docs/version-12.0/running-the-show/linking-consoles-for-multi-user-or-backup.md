@@ -1,7 +1,7 @@
 ---
 id: version-12.0-linking-consoles-for-multi-user-or-backup
-title: Linking consoles for multi-user or backup
-sidebar_label: Linking consoles for multi-user or backup
+title: Linking Consoles for Multi-User or Backup
+sidebar_label: Linking Consoles for Multi-User or Backup
 original_id: linking-consoles-for-multi-user-or-backup
 ---
 
@@ -16,20 +16,15 @@ to run a second console over the network which it keeps synchronised
 with the main console. Should the worst happen, a single keypress can
 transfer control to the backup console.
 
-  --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)
-  
-  Linked consoles must be running the same version of Titan. If using PC Suite (Titan Mobile, Titan Go or Simulator) you may need to disable any firewalls on the PC.
-  --------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> Linked consoles must be running the same version of Titan. If using PC Suite (Titan Mobile, Titan Go or Simulator) you may need to disable any firewalls on the PC.
 
-Setting up consoles for multi-user
+Setting Up Consoles for Multi-User
 ----------------------------------
 
 Titan consoles may be connected to each other for collaborative
-programming or show operation. Multi-user operation is described in
-detail in section 3.5 on page 74.
+programming or show operation. See the [Multi-User Operation](../titan-basics/multi-user-operation.md) section for more information.
 
-Setting up consoles for backup
+Setting Up Consoles for Backup
 ------------------------------
 
 Any Titan console can act as backup for any other console, they do not
@@ -41,7 +36,7 @@ become inaccessible if the backup device has less faders/handles than
 the main console.
 
 1. Connect both consoles to the same network and ensure they are set to
-the same IP range (see section 18 on page 339).
+the same IP range. See the [networking section](../networking.md).
 
 2. Press Disk, \[TitanNet Sessions\], \[Backup\].
 
@@ -56,15 +51,13 @@ and show name.
 In backup mode the backup console screen displays the current connection
 and sync status including current show name.
 
-![TitanNet Backup
-Healthy](/docs/images/image307.png)
+![TitanNet Backup Healthy](/docs/images/image307.png)
 
 A green line between consoles represents a
 good connection. If a red line is shown there is a problem with the
 network connection. A blue line will appear during sync operations.
 
-![TitanNet Backup
-Faulted](/docs/images/image308.png)
+![TitanNet Backup Faulted](/docs/images/image308.png)
 
 -   Shows will automatically sync whenever a show is saved on the main
     console (including autosave). You can also choose to sync at any
@@ -78,5 +71,3 @@ Faulted](/docs/images/image308.png)
     touching on this prompt will open the \'\<Exit\> Safe Mode\' menu
     with a softkey option to re-enable output. On the Pearl Expert you
     can re-enable DMX output via the shift (\<Avo\>) menu.
-
-

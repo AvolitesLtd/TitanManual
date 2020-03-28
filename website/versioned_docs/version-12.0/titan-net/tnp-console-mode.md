@@ -53,8 +53,7 @@ above for details).
 
 ![TNP Setup Screen](/docs/images/image322.png)
 
-Load show presents the standard Titan loading screen. See section 3.8 on
-page 80 for details.
+Load show presents the standard [Titan loading screen](../titan-basics/loading-and-saving-shows.md).
 
 ![TNP Setup/Load Show Screen](/docs/images/image323.png)
 
@@ -62,5 +61,3 @@ Save Show allows you to save a show which you have modified on the TNP
 using a remote console.
 
 ![TNP Setup/Save Show Screen](/docs/images/image324.png)
-
-

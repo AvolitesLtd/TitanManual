@@ -32,8 +32,8 @@ Press the Plus button top right to map another showfile to allow you to
 import elements of it.
 
 Using the Mapper tab you can map similar fixtures from an imported show
-to the current show. This lets you load in your favourite programming
-from other shows. See section 3.8.3 on page 82 for more details.
+to the current show. This lets you load in your [favourite programming
+from other shows](../titan-basics/loading-and-saving-shows.md#importing-parts-of-other-shows).
 
 Users tab
 ---------

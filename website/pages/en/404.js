@@ -18,17 +18,12 @@ function Help(props) {
   const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
   const langPart = `${language ? `${language}/` : ''}`;
   const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
-
-  const supportLinks = [
+  const content = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
+      content: `Browse the rest of the [documentation on this site.](${docUrl(
         'introduction',
       )})`,
       title: 'Browse Docs',
-    },
-    {
-      content: `Help make these docs better by becoming a contributor on [GitHub](${repoUrl})`,
-      title: 'Contribute',
     },
     {
       content: `For help and support visit the [Avolites site](https://www.avolites.com/software/latest-version)`,
@@ -40,10 +35,8 @@ function Help(props) {
     <div className="docMainWrapper wrapper">
       <Container className="mainContainer documentContainer postContainer">
         <div className="post">
-          <header className="postHeader">
-            <h1>Need help?</h1>
-          </header>
-          <GridBlock contents={supportLinks} layout="threeColumn" />
+          <h2 className="center">404 - Page Not Found</h2>
+          <GridBlock contents={content} layout="threeColumn" />
         </div>
       </Container>
     </div>

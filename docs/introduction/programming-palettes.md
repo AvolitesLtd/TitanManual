@@ -16,7 +16,7 @@ storing in a palette touch button the mask is automatically set.
 Press a grey handle button to store (except on the main playbacks), or
 touch a button in one of the Colours/Positions/Gobos windows.
 
-See [Creating Palettes](../palettes/creating-palettes)
+See [Creating Palettes](../palettes/creating-palettes.md)
 
 To recall palette, select fixtures, select recall mask using Attribute
 Bank buttons, press palette button.
@@ -29,7 +29,7 @@ To set a legend, press \[Set Legend\] then the palette's button. Press
 Press an unused button in one of the palette windows - the button turns
 red with a +. Press again to save the palette. The mask is automatically
 set to match the window (e.g. Positions window is masked for only
-position attributes). See [Palettes - Quick Record](../palettes/creating-palettes#quick-record).
+position attributes). See [Palettes - Quick Record](../palettes/creating-palettes.md#quick-record).
 
 ## Busking with palettes
 
@@ -39,7 +39,7 @@ no fixtures selected, palette will recall to all applicable fixtures
 (called a Quick Palette. Quick Palettes do not go into the programmer
 so don't use when programming).
 
-To set [fixture overlap](../palettes/timing-with-palettes#manual-fixture-overlap-when-recalling-palettes), type 0-100 then press \[Set Overlap\], then
+To set [fixture overlap](../palettes/timing-with-palettes.md#manual-fixture-overlap-when-recalling-palettes), type 0-100 then press \[Set Overlap\], then
 recall the palette.
 
-To set a [fade time for all palettes](..palettes/timing-with-palettes#master-time-for-palettes), press Palette then \[Master Time\].
+To set a [fade time for all palettes](../palettes/timing-with-palettes.md#master-time-for-palettes), press Palette then \[Master Time\].
