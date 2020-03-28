@@ -90,6 +90,8 @@ node pdf.js -v 12.0 -s synergy
 
 - If the images are not showing in the outputted PDF, try updating the LaTex packages (as [descibed above](#pandoc-pdf-dependencies))
 
+- Unicode characters can cause issues and throw errors like `There is no ⇑ (U+21D1) in font...` - where possible avoid these characters but special rules can be added - [make an issue](https://github.com/Farrser/AvoDocs/issues) to request these
+
 ### Exit Codes
 
 Code | Meaning

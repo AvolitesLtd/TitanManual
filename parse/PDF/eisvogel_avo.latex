@@ -621,6 +621,10 @@ $endif$
   $endif$
 \fi
 
+\usepackage{newunicodechar}
+\newunicodechar{⇑}{\ensuremath{\mathrm{\Uparrow}}}
+\newunicodechar{↔}{\ensuremath{\mathrm{\leftrightarrow}}}
+
 %
 % heading color
 %
