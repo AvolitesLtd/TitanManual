@@ -18,6 +18,10 @@ the Titan Mobile fader wing.
 
 ![Titan Two](/docs/images/image45.png)
 
+[Intro video for T2 USB Interface](https://youtu.be/wO94RvG6agI)
+
+---
+
 Install the Titan PC Suite software on your PC (see next chapter) before
 you plug in the dongle, to make sure the correct drivers are installed.
 

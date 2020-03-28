@@ -229,6 +229,8 @@ about each DMX channel.
 Fixture Exchange
 ----------------
 
+[Video covering Fixture Exchange](https://youtu.be/a_ES6UYQRJ4?t=20)
+
 The Fixture Exchange function enables you to repatch fixtures in your
 show using alternative fixtures, retaining important elements such as
 cue times, shapes and legends. This is very useful for touring shows and
