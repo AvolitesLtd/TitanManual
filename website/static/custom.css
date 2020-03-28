@@ -1,5 +1,10 @@
 /* your custom css */
 
+@font-face {
+  font-family: "fontawesome";
+  src: url(/css/fontawesome/webfonts/fa-solid-900.woff);
+}
+
 #results {
   position: fixed;
   background: white;
@@ -75,7 +80,37 @@ article a[target="_blank"]::after {
 
 blockquote {
   background-color: rgba(100, 188, 255, 0.3);
-  border-left: 8px solid #64b0ff;
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: 5px 10px;
+  padding: 0;
+  border-left: none;
+  min-height: 4.5em;
+  position: relative;
+  padding-left: 50px;
+}
+
+blockquote:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  font-size: 40px;
+  padding: 10px;
+  color: white;
+  content: "\f05a";
+  background: #64b0ff;
+  font-family: 'fontawesome';
+  display: flex;
+  align-items: center;
+}
+
+.wrapper blockquote > p:first-child {
+  padding-top: 10px;
+}
+
+blockquote p {
+  padding: 10px;
 }
 
 .docsNavContainer {
@@ -92,7 +127,7 @@ sub {
   font-size: smaller;
 }
 
-.softkey, .key {
+.softkey, .key, .annotate {
   display: inline-block;
   margin: 3px;
   padding: 3px 7px;
@@ -123,6 +158,15 @@ a .softkey, a .key {
   text-transform: uppercase;
 }
 
+.annotate {
+  border-radius: 5px;
+  padding: 1px 4px;
+  border-color: rgba(216, 0, 41, 0.8);
+  color: rgba(216, 0, 41, 0.8);
+  font-size: 16px;
+  font-weight: bold !important;
+}
+
 footer .sitemap {
   margin-top: 1em !important;
 }
@@ -142,4 +186,8 @@ footer .copyrightImg {
 
 footer .copyrightImg:hover {
   opacity: 1;
+}
+
+ol {
+  border-left: 4px solid #d80029;
 }
