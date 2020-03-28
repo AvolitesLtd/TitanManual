@@ -1,4 +1,4 @@
-const { join } = require('path');
+const paths = require('path');
 const fs = require('fs');
 const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
@@ -34,11 +34,11 @@ else {
 /**
  * Get all of the versions of the docs found in `path` plus `next`
  * @param {string} path Path to look for version folders, *defaults to `versionedDocsPath`*
- * @returns {array} Array of the versions, e.g. ['12.0','13.0','next']
+ * @return {array} Array of the versions, e.g. ['12.0','13.0','next']
  */
 function getVersions(path=versionedDocsPath) {
   const isDirectory = source => fs.lstatSync(source).isDirectory();
-  versions = fs.readdirSync(path).map(name => join(path, name)).filter(isDirectory);
+  versions = fs.readdirSync(path).map(name => paths.join(path, name)).filter(isDirectory);
   
   for(let i in versions) {
     versions[i] = versions[i].replace(`${path}version-`,"")
@@ -62,10 +62,11 @@ function filenameToTitleLink(filename) {
 /**
  * Replaces the YAML block in the file with a heading
  * @param {string} filename Name of the file, e.g. `cues/creating-a-cue.md`
- * @param {string} content Contents of the file with YAML block in
+ * @param {string} content Contents of the .md file with YAML block in
  * @return {string} The content with the YAML block replaced
  */
 function replaceYaml(filename,content) {
+  // matches Yaml block with title
   return content.replace(/^---(?:[\n]|.)*title: *([\w ]*)(?:[\n]|.(?!--))*---/mgi,function (match,title) {
     titleLink = filenameToTitleLink(filename);
     if (filename.match("/")) {
@@ -83,15 +84,62 @@ function replaceYaml(filename,content) {
 }
 
 /**
+ * Replaces links to local MarkDown files with links to the title
+ * @param {string} filename Name of the file, e.g. `cues/creating-a-cue.md`
+ * @param {string} content Contents of the .md file with the links in
+ * @param {string} docsPath The path to the docs folder, e.g. `../docs/`
+ * @return {string} The content with the images fixed
+ */
+function replaceLinks(filename,content,docsPath) {
+  // matches all links which are to local .md files
+  return content.replace(/(?<!!)\[([^\[]*\n*)\]\((?!https?:\/\/)(?!\/\/)(?!#)([a-zA-Z0-9-\.\/]*\.md)([^)]*)\)/mgi, function (match,text,link,anchor) {
+    if(anchor) {
+      // if it's got an anchor link to a title just go to that, e.g.
+      // change [text](link.md#title)
+      // to     [text](#title)
+      return `[${text}](${anchor})`
+    }
+    
+    let filePath = filename.split("/");
+    let file = filePath.pop();
+    
+    if(filePath.length) {
+      // filename like 'cues/creating-a-cue.md'
+      filePath = filePath.join('/');
+    }
+    else {
+      // filename like 'cues.md'
+      filePath = '';
+    }
+
+    let fullFilePath = paths.resolve(paths.join(docsPath, filePath, link));
+
+    if (!fs.existsSync(fullFilePath)) {
+      // check file exists
+      process.emitWarning(`${filename}: Link to '${link}' not found`);
+
+      // remove the link
+      return text;
+    }
+
+    let titleLink = fullFilePath.replace(paths.resolve(docsPath),"").substring(1);
+    titleLink = filenameToTitleLink(titleLink);
+
+    return `[${text}](${titleLink})`
+  });
+}
+
+/**
  * Replaces the image URIs with relative paths (not absolute paths)
  * From ![alt](/path/to/img)
  * To   ![alt](path/to/img)
  * Also warns about missing alt text and images.
  * @param {string} filename Name of the file, e.g. `cues/creating-a-cue.md`
- * @param {string} content Contents of the file with the images in
+ * @param {string} content Contents of the .md file with the images in
  * @return {string} The content with the images fixed
  */
 function replaceImagePaths(filename,content) {
+  // matches all images with local sources
   return content.replace(/!\[([^\]]*)\]\(\/(?!\/)([^\)]*)\)/mg, function (match,alt,src) {
     src = `../website/static/${src}`;
     if (!fs.existsSync(src)) {
@@ -110,7 +158,7 @@ function replaceImagePaths(filename,content) {
 /**
  * Returns the path to the sidebars JSON file for the specified `version`
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
- * @returns {string} Relative path to the JSON file, e.g. `../website/sidebars.json`
+ * @return {string} Relative path to the JSON file, e.g. `../website/sidebars.json`
  */
 function sidebarPath(version) {
   if(version == "next") {
@@ -128,7 +176,7 @@ function sidebarPath(version) {
 /**
  * Returns the path to the docs folder for the specified `version`
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
- * @returns {string} Relative path to the docs folder with trailing slash, e.g. `../docs/`
+ * @return {string} Relative path to the docs folder with trailing slash, e.g. `../docs/`
  */
 function docsVersionPath(version) {
   if(version == "next") {
@@ -148,7 +196,7 @@ function docsVersionPath(version) {
  * @param {string} docsPath The path to the docs folder, e.g. `../docs/`
  * @param {object} sidebar An object of the form found in the sidebars.json files
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
- * @returns {string} The concatenated formatted files
+ * @return {string} The concatenated formatted files
  */
 function formatMdFiles(docsPath, sidebar, version) {
   let output = "";
@@ -193,7 +241,7 @@ function formatMd(docsPath,filename) {
   let filepath = docsPath + filename;
 
   if (!fs.existsSync(filepath)) {
-    process.emitWarning(`${filename}: Not found`);
+    process.emitWarning(`${filename}: File referenced in sidebar not found`);
     return '';
   }
   
@@ -201,6 +249,9 @@ function formatMd(docsPath,filename) {
 
   // replace YAML blocks with title
   content = replaceYaml(filename,content);
+
+  // replace links to md files with the title links created above
+  content = replaceLinks(filename,content,docsPath);
 
   // fix the absolute image paths
   content = replaceImagePaths(filename,content);
@@ -215,6 +266,7 @@ function formatMd(docsPath,filename) {
  * @param {string} inputMdPath Path to the MD file to convert, e.g. `output/pdf.md`
  * @param {string} version Version of the manual, e.g. `12.0`
  * @param {string} version (Optional) Which section is being exported
+ * @return {string} The filename of the produced PDF
  */
 function generatePDF(filePath,version,section=null) {
   if(version == "next") {
@@ -267,13 +319,15 @@ pandoc --template "PDF/eisvogel_avo.latex" \
 
   var hrend = process.hrtime(hrstart);
   console.log('PDF produced in %ds', hrend[0]);
+
+  return filename;
 }
 
 /**
  * Create the docs for the specified `version` & `section`
  * @param {string} version Version of the docs to produce, e.g. `12.0` or `next` to produce the latest
  * @param {string} section (Optional) Which section to output, e.g. `synergy`
- * @returns {string} The filename of the produced PDF
+ * @return {string} The filename of the produced PDF
  */
 function createPDF(version,section=null) {
   console.log(`Formatting version '${version}'`)
@@ -299,7 +353,5 @@ function createPDF(version,section=null) {
   }
 
   // generate the PDF
-  generatePDF(formattedMdPath,version,section);
-
-  return filename;
+  return generatePDF(formattedMdPath,version,section);
 }
