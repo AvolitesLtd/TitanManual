@@ -4,20 +4,24 @@ const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
 
 const versionedDocsPath = "../website/versioned_docs/";
+const outputPath = paths.join(__dirname,"output");
 const legalPath = "PDF/legal-en.md";
 
 // Command line options
 program
-  .option('-v, --manversion <version>', 'specify which version to produce, use --version next to produce the /docs folder')
-  .option('-s, --section <section>', 'specify a specific section to output, e.g. --section synergy')
+  .option('-v, --manversion <version>', 'specify which version to produce, use --v next to produce the /docs folder')
+  .option('-s, --section <section>', 'specify a specific section to output, e.g. -s synergy')
+  .option('-o, --output-dir <dir>', 'specify the directory the PDF is output to, e.g. -o ~/Desktop')
   .option('--no-legal', 'omit the legal section of the manual')
   .parse(process.argv);
+
+program.outputDir = setOutputDir(program.outputDir);
 
 try {
   process.chdir(__dirname);
 } catch (err) {
+  process.exitCode = 1;
   throw(`Failed to change working directory:\n${err}`);
-  process.exit(1);
 }
 
 let version = program.manversion ? program.manversion.toLowerCase() : "all";
@@ -25,6 +29,7 @@ const section = program.section ? program.section.toLowerCase() : null;
 
 const options = {
   legal: program.legal,
+  outputDir: program.outputDir,
 }
 
 if(version == 'all') {
@@ -54,6 +59,36 @@ function getVersions(path=versionedDocsPath) {
   return versions;
 }
 
+/**
+ * Request a path to output to, creating it if necessary
+ * @param {string} req (Optional) The path to the requested output directory
+ * @param {string} def (Optional) The default path to output to
+ * @return {string} The absolute path to the output directory without the trailing slash
+ */
+function setOutputDir(req='',def=outputPath) {
+  if(req) {
+    let userOutputPath = paths.resolve(req);
+  
+    fs.access(userOutputPath, fs.constants.W_OK, function(err) {
+      if(err){
+        req = def;
+        process.emitWarning(`Could not write to ${userOutputPath}, instead writing to ${def}`);
+      }
+  
+      req = userOutputPath;
+    });
+  }
+  else {
+    req = def
+  }
+  
+  // create the output folder if it doesn't exist
+  if(!fs.existsSync(req)) {
+    fs.mkdirSync(req);
+  }
+
+  return req;
+}
 
 /**
  * Converts `filename` to a MarkDown title anchor link.
@@ -241,8 +276,8 @@ function formatMdFiles(docsPath, sidebar, version) {
 
   if(!sectionFound || !output) {
     // we didn't get anything
+    process.exitCode = 2;
     throw("No sections were found, this could be because of the section specified or there weren't any sections found in the sidebar");
-    process.exit(2);
   }
 
   return output;
@@ -303,13 +338,15 @@ function generatePDF(filePath,version,section=null) {
   filename = filename.replace(/[^\w]/g,"-");
   filename += '.pdf';
 
+  filename = paths.join(options.outputDir, filename);
+
   console.log(`Producing PDF: ${filename}`)
 
   const command = `
 DATE=$(date "+%d %B %Y")
 
 pandoc --template "PDF/eisvogel_avo.latex" \
-  -o "output/${filename}" \
+  -o "${filename}" \
   --pdf-engine=xelatex \
   --highlight-style kate \
   --metadata-file PDF/header.yaml \
@@ -348,8 +385,9 @@ pandoc --template "PDF/eisvogel_avo.latex" \
  * @param {string} version Version of the docs to produce, e.g. `12.0` or `next` to produce the latest
  * @param {string} section (Optional) Which section to output, e.g. `synergy`
  * @param {object} options (Optional) Options include:
- *  - options.legal - whether to omit the legal section
+ *  - options.legal - whether to omit the legal section (defaults to true)
  *  - options.legalPath - the path to the legal docs (defaults to legalPath)
+ *  - options.outputDir - the output directory to write to
  * @return {string} The filename of the produced PDF
  */
 function createPDF(version,section=null, options={}) {
@@ -372,15 +410,15 @@ function createPDF(version,section=null, options={}) {
   output += formatMdFiles(docsPath, sidebar, version);
 
   // create formatted MD file
-  let formattedMdPath = "output/pdf.md";
+  let formattedMdPath = paths.join(options.outputDir, "pdf.md");
   try {
     fs.writeFileSync(formattedMdPath, output);
   }
   catch(err) {
+    process.exitCode = 3;
     throw(`Failed to write formatted MarkDown file: ${formattedMdPath}\n${err}`);
-    process.exit(3);
   }
 
   // generate the PDF
-  return generatePDF(formattedMdPath,version,section);
+  return generatePDF(formattedMdPath,version,section,options);
 }
