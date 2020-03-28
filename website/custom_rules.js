@@ -53,7 +53,14 @@ module.exports = {
   
   button_close: function(/* tokens, idx, options, env */) {
     return '</span>';
+  },  
+  annotate_open: function(tokens, idx, options /*, env */) {
+    return `<span class="annotate">`;
   },
+  
+  annotate_close: function(/* tokens, idx, options, env */) {
+    return '</span>';
+  }
 
   externalLinks: function(md) {
     const originalLinkOpenRenderer = md.renderer.rules.link_open;
