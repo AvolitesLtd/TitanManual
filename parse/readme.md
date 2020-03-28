@@ -4,8 +4,15 @@
 
 Node is used throughout this project for all scripting, [download & install for your OS](https://nodejs.org/en/download/) or [install via a package manager](https://nodejs.org/en/download/package-manager/), e.g.:
 
-````
+````shell
 brew install node
+````
+
+Then install the dependencies of this project by switching to the `website` directory and installing:
+
+````shell
+cd website
+npm install
 ````
 
 ## Pandoc
@@ -56,6 +63,18 @@ node pdf.js
 ````
 
 > Requires [node.js](#nodejs), [Pandoc](#pandoc) and [its dependencies](#pandoc-pdf-dependencies)
+
+There are various options for this command which are listed in the help:
+
+````shell
+node pdf.js --help
+````
+
+For example, to just export the Synergy section of version 12, run:
+
+````shell
+node pdf.js -v 12.0 -s synergy
+````
 
 ### Troubleshooting
 

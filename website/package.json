@@ -6,14 +6,16 @@
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
-    "rename-version": "docusaurus-rename-version"
+    "rename-version": "docusaurus-rename-version",
+    "pdf": "node ../parse/pdf.js"
   },
   "devDependencies": {
     "docusaurus": "^1.14.0"
   },
   "dependencies": {
+    "@noticeable/remarkable-iframify": "^2.1.1",
+    "commander": "^5.0.0",
     "fuse.js": "^3.4.6",
-    "js-search": "^1.4.3",
-    "@noticeable/remarkable-iframify": "2.1.1"
+    "js-search": "^1.4.3"
   }
 }

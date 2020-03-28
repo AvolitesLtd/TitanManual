@@ -2,9 +2,23 @@ const { promisify } = require('util');
 const path = require('path');
 const fs = require('fs');
 const { execSync } = require("child_process");
+const { program } = require("../website/node_modules/commander");
 
 const readdir = promisify(fs.readdir);
 const stat = promisify(fs.stat);
+
+try {
+  process.chdir(__dirname);
+} catch (err) {
+  console.error(`Failed to change directory: ${err}`);
+}
+
+// Command line options
+program
+  .option('-v, --manversion <version>', 'specify which version to produce, use --version next to produce the /docs folder')
+  .option('-s, --section <path>', 'specify a specific section to output, e.g. --section synergy')
+  .version('0.0.1')
+  .parse(process.argv);
 
 async function getFiles(dir) {
   const subdirs = await readdir(dir);
