@@ -161,6 +161,18 @@ function replaceImagePaths(filename,content) {
 }
 
 /**
+ * Add spacing before and after images
+ * @param {string} content Contents of the .md file with the images in
+ * @return {string} The content with the spacing added
+ */
+function addImageSpacing(content) {
+  // add spacing before images that don't have it
+  content = content.replace(/(?<!\n\n) *!\[[^\]]*\]\([^\)]*\)/gm,"\n\n$&");
+  // add spacing after images that don't have it
+  return content.replace(/!\[[^\]]*\]\([^\)]*\) *(?!\n\n)/gm,"$&\n\n");
+}
+
+/**
  * Returns the path to the sidebars JSON file for the specified `version`
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} Relative path to the JSON file, e.g. `../website/sidebars.json`
@@ -260,6 +272,9 @@ function formatMd(docsPath,filename) {
 
   // fix the absolute image paths
   content = replaceImagePaths(filename,content);
+
+  // fix the absolute image paths
+  content = addImageSpacing(content);
 
   content += "\n\n";
 
