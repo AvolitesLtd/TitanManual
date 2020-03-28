@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "fontawesome";
-  src: url(/css/fontawesome/webfonts/fa-solid-900.woff);
+  src: url(/fontawesome/webfonts/fa-solid-900.woff);
 }
 
 #results {
@@ -79,38 +79,26 @@ article a[target="_blank"]::after {
 }
 
 blockquote {
-  background-color: rgba(100, 188, 255, 0.3);
-  background-repeat: no-repeat;
-  background-size: 60px;
-  background-position: 5px 10px;
-  padding: 0;
-  border-left: none;
   min-height: 4.5em;
   position: relative;
-  padding-left: 50px;
+  padding-left: 80px;
+  border-left: none;
+  background-color: rgba(100, 188, 255, 0.3);
 }
 
 blockquote:before {
   position: absolute;
+  display: flex;
+  align-items: center;
   top: 0;
   left: 0;
   bottom: 0;
-  font-size: 40px;
   padding: 10px;
+  background: #64b0ff;
+  font-size: 40px;
   color: white;
   content: "\f05a";
-  background: #64b0ff;
   font-family: 'fontawesome';
-  display: flex;
-  align-items: center;
-}
-
-.wrapper blockquote > p:first-child {
-  padding-top: 10px;
-}
-
-blockquote p {
-  padding: 10px;
 }
 
 .docsNavContainer {
@@ -140,7 +128,7 @@ sub {
   font-style: normal !important;
 }
 
-a .softkey, a .key {
+a .softkey, a .key, a .annotate {
   color: inherit !important;
 }
 
@@ -161,8 +149,9 @@ a .softkey, a .key {
 .annotate {
   border-radius: 5px;
   padding: 1px 4px;
-  border-color: rgba(216, 0, 41, 0.8);
-  color: rgba(216, 0, 41, 0.8);
+  background-color: #fffdfc;
+  border-color: #D80029;
+  color: #D80029;
   font-size: 16px;
   font-weight: bold !important;
 }
@@ -189,5 +178,12 @@ footer .copyrightImg:hover {
 }
 
 ol {
-  border-left: 4px solid #d80029;
+  position: relative;
+  left: -1em;
+  border-left: 3px solid #d80029;
+  padding: 0.1em 0 0.1em 3em;
+}
+
+ol li {
+  padding-left: 0.75em;
 }
