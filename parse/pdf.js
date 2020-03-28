@@ -17,15 +17,18 @@ program
 try {
   process.chdir(__dirname);
 } catch (err) {
-  console.error(`Failed to change directory: ${err}`);
+  throw(`Failed to change working directory:\n${err}`);
 }
 
-if(program.section) {
-  createPDF("12.0", program.section);
+let version = program.manversion ? program.manversion : "all";
+const section = program.section ? program.section : null;
+
+if(version.toLowerCase() == 'all') {
+  // TODO: add all functionality
+  version = "next";
 }
-else {
-  createPDF("12.0")
-}
+
+createPDF(version, section);
 
 /**
  * Converts `filename` to a MarkDown title anchor link.
@@ -85,6 +88,42 @@ function replaceImagePaths(filename,content) {
 }
 
 /**
+ * Returns the path to the sidebars JSON file for the specified `version`
+ * @param {string} version Version of the manual, e.g. `12.0` or `next`
+ * @returns {string} Relative path to the JSON file, e.g. `../website/sidebars.json`
+ */
+function sidebarPath(version) {
+  if(version == "next") {
+    return "../website/sidebars.json";
+  }
+  else {
+    let path = `../website/versioned_sidebars/version-${version}-sidebars.json`;
+    if (!fs.existsSync(path)) {
+      throw(`Could not find sidebars JSON file: ${path}`)
+    };
+    return path;
+  }
+}
+
+/**
+ * Returns the path to the docs folder for the specified `version`
+ * @param {string} version Version of the manual, e.g. `12.0` or `next`
+ * @returns {string} Relative path to the docs folder with trailing slash, e.g. `../docs/`
+ */
+function docsVersionPath(version) {
+  if(version == "next") {
+    return "../docs/";
+  }
+  else {
+    let path = `../website/versioned_docs/version-${version}/`;
+    if (!fs.existsSync(path)) {
+      throw(`Could not find versioned docs: ${path}`)
+    };
+    return path;
+  }
+}
+
+/**
  * Format a MarkDown file ready for PDF
  * @param {string} docsPath Path to the docs folder, e.g. `../docs/`
  * @param {string} filename Name of the file, e.g. `cues/creating-a-cue.md`
@@ -114,7 +153,7 @@ function formatMd(docsPath,filename) {
 /**
  * Generate a PDF version of the MarkDown file
  * @param {string} inputMdPath Path to the MD file to convert, e.g. `output/pdf.md`
- * @param {string} version Version of the manual, e.g. "12.0"
+ * @param {string} version Version of the manual, e.g. `12.0`
  */
 function generatePDF(filePath,version) {
   console.log("Producing PDF")
@@ -163,13 +202,12 @@ pandoc --template "PDF/eisvogel_avo.latex" \
  * @param {string} section (Optional) Which section to output, e.g. `synergy`
  */
 function createPDF(version,section=null) {
-  // get the path of the sidebar
-  let sidebarPath = "../website/sidebars.json";
-  let sidebarFile = fs.readFileSync(sidebarPath);
+  // get the path of the sidebar file
+  let sidebarFile = fs.readFileSync(sidebarPath(version));
   let sidebar = JSON.parse(sidebarFile);
 
   // get the path for docs of the version
-  docsPath = __dirname + "/../docs/"
+  docsPath = __dirname + docsVersionPath(version);
 
   // format the files
   let output = "";
