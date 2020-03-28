@@ -1,14 +1,18 @@
 module.exports = {
-  keyRule: function (md,name,open,close,render_open,render_close) {
+  keyRule: function (md, name, open, close, render_open, render_close, max) {
     md.inline.ruler.before('text',name, function(state,silent) {
       const {pos: start, src, posMax} = state
       if (src.charCodeAt(start) !== open.charCodeAt(0)) return false
       if (start + 4 >= posMax) return false
       if (src.charCodeAt(start + 1) !== open.charCodeAt(1)) return false
-    
+
       state.pos = start + 2
       let found = false
-      while (state.pos + 1 < posMax && state.pos < start + 40) {
+      if (max == null) {
+        max = 100;
+      }
+
+      while (state.pos + 1 < posMax && state.pos < start + max) {
         if (src.charCodeAt(state.pos) === close.charCodeAt(0)) {
           if (src.charCodeAt(state.pos + 1) === close.charCodeAt(1)) {
             found = true
@@ -17,12 +21,12 @@ module.exports = {
         }
         state.parser.skipToken(state)
       }
-    
+
       if (!found) {
         state.pos = start
         return false
       }
-    
+
       state.posMax = state.pos
       state.pos = start + 2
       if (!silent) {
@@ -32,13 +36,13 @@ module.exports = {
         state.linkLevel--
         state.push({ type: render_close, level: --state.level })
       }
-    
+
       state.pos = state.posMax + 2
       state.posMax = posMax
       return true
     })
   },
-  
+
   softkey_open: function(tokens, idx, options /*, env */) {
     return `<span class="softkey">`;
   },
@@ -46,18 +50,18 @@ module.exports = {
   softkey_close: function(/* tokens, idx, options, env */) {
     return '</span>';
   },
-  
+
   button_open: function(tokens, idx, options /*, env */) {
     return `<span class="key">`;
   },
-  
+
   button_close: function(/* tokens, idx, options, env */) {
     return '</span>';
-  },  
+  },
   annotate_open: function(tokens, idx, options /*, env */) {
     return `<span class="annotate">`;
   },
-  
+
   annotate_close: function(/* tokens, idx, options, env */) {
     return '</span>';
   },
