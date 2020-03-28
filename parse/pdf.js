@@ -4,12 +4,13 @@ const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
 
 const versionedDocsPath = "../website/versioned_docs/";
+const legalPath = "PDF/legal-en.md";
 
 // Command line options
 program
   .option('-v, --manversion <version>', 'specify which version to produce, use --version next to produce the /docs folder')
   .option('-s, --section <section>', 'specify a specific section to output, e.g. --section synergy')
-  .version('0.0.1')
+  .option('--no-legal', 'omit the legal section of the manual')
   .parse(process.argv);
 
 try {
@@ -22,13 +23,17 @@ try {
 let version = program.manversion ? program.manversion.toLowerCase() : "all";
 const section = program.section ? program.section.toLowerCase() : null;
 
+const options = {
+  legal: program.legal,
+}
+
 if(version == 'all') {
   for(let version of getVersions()) {
-    createPDF(version, section);
+    createPDF(version, section, options);
   }
 }
 else {
-  createPDF(version, section);
+  createPDF(version, section, options);
 }
 
 /**
@@ -327,9 +332,12 @@ pandoc --template "PDF/eisvogel_avo.latex" \
  * Create the docs for the specified `version` & `section`
  * @param {string} version Version of the docs to produce, e.g. `12.0` or `next` to produce the latest
  * @param {string} section (Optional) Which section to output, e.g. `synergy`
+ * @param {object} options (Optional) Options include:
+ *  - options.legal - whether to omit the legal section
+ *  - options.legalPath - the path to the legal docs (defaults to legalPath)
  * @return {string} The filename of the produced PDF
  */
-function createPDF(version,section=null) {
+function createPDF(version,section=null, options={}) {
   console.log(`Formatting version '${version}'`)
 
   // get the path of the sidebar file
@@ -339,8 +347,14 @@ function createPDF(version,section=null) {
   // get the path for docs of the version
   docsPath = __dirname + "/" + docsVersionPath(version);
 
+  let output = '';
+  if (options.legal) {
+    output += fs.readFileSync(options.legalPath ? options.legalPath : legalPath);
+    output += "\n\n";
+  }
+
   // format the files
-  output = formatMdFiles(docsPath, sidebar, version);
+  output += formatMdFiles(docsPath, sidebar, version);
 
   // create formatted MD file
   let formattedMdPath = "output/pdf.md";
