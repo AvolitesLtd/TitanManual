@@ -84,12 +84,17 @@ blockquote {
   background-size: 60px;
   background-position: 5px 10px;
   padding: 0;
-  display: flex;
   border-left: none;
   min-height: 4.5em;
+  position: relative;
+  padding-left: 50px;
 }
 
 blockquote:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
   font-size: 40px;
   padding: 10px;
   color: white;
@@ -98,7 +103,6 @@ blockquote:before {
   font-family: 'fontawesome';
   display: flex;
   align-items: center;
-
 }
 
 .wrapper blockquote > p:first-child {
@@ -182,4 +186,8 @@ footer .copyrightImg {
 
 footer .copyrightImg:hover {
   opacity: 1;
+}
+
+ol {
+  border-left: 4px solid #d80029;
 }
