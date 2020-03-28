@@ -146,19 +146,19 @@ Mini Screen (Arena only)
 The \<Display\> button below the rotary encoders toggles through four
 fixed layouts for the Mini screen:
 
-1. Workspace window(s) with encoder legends on the right
+- Workspace window(s) with encoder legends on the right
 ![Arena Miniscreen](/docs/images/image76.png)
 
-2. Workspace window(s) with macro button legends below
+- Workspace window(s) with macro button legends below
 ![Mini Screen Macros](/docs/images/image77.png)
 
 
-3. Fixed playbacks window - in this mode the first two rows of touch
+- Fixed playbacks window - in this mode the first two rows of touch
 buttons are the same as the macro buttons below. This window cannot be
 moved to another screen, and other windows open on the Mini screen will
 move to the main screen when this layout is set.
 
-4. Workspace window(s) fill the full screen, no button/encoder legends
+- Workspace window(s) fill the full screen, no button/encoder legends
 shown.
 
 Saving workspace layout
