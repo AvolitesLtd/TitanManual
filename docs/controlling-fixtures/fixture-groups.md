@@ -65,11 +65,11 @@ playback faders), or press C \[Store\] to store as a numbered group.
 
 -   You can also recall a group by its number:
 
-    1. Press \<Group\>.
+1. Press \<Group\>.
 
-    2. Type in the number of the group you want to recall.
+2. Type in the number of the group you want to recall.
 
-    3. Press \[Recall Group\].
+3. Press \[Recall Group\].
 
 -   The \<Group\> button also gives you facilities on the softkeys to
     edit and delete groups.

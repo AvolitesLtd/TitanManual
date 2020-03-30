@@ -53,11 +53,17 @@ box) and which are currently modified (blue circle).
 The appearance of the softkeys varies to indicate the type of actions
 available:
 
-  ![Softkey](/docs/images/image87.png)                                                                                             
-
-----------------
-
-  Action button: console will carry out the action shown                                     Option button: cycles through a range of options   New menu button: jumps to a new menu   Text entry button: press and enter text using the touch keyboard
+  ![Softkey - Action](/docs/images/image87.png)                                                                      
+  **Action button** - console will carry out the action shown                                     
+  
+  ![Softkey - Option](/docs/images/softkey-option.png) 
+  **Option button** - cycles through a range of options   
+  
+  ![Softkey - New Menu](/docs/images/softkey-newmenu.png) 
+  **New menu button** - jumps to a new menu   
+  
+  ![Softkey - Text Entry](/docs/images/softkey-textentry.png) 
+  **Text entry button** - press and enter text using the touch keyboard
 
 The toolbar
 -----------

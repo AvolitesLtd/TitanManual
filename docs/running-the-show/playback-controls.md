@@ -7,7 +7,7 @@ sidebar_label: Playback controls
 Back up the show
 ----------------
 
-At regular intervals while you are programming, and when you have finished programming (or you've run out of time) and it's showtime, the most important thing is to [save the show](../titan-basics/loading-and-saving-shows.md#saving-the-show). It is important to also back up the show by saving it to a USB drive, enabling you to swap to a different console if there are
+At regular intervals while you are programming, and when you have finished programming (or you've run out of time) and it's showtime, the most important thing is to [save the show](../titan-basics/loading-and-saving-shows.md#saving-the-show). It is wise to also make a separate copy of show by saving it to a USB drive, enabling you to swap to a different console if there are
 problems.
 
 Label the console
@@ -18,21 +18,21 @@ When you are running your show you will need to know where everything is. Use th
 Grand Master fader and assignable masters
 -----------------------------------------
 
-If the console is fitted with a Grand Master Fader, this controls the intensity of all output from the console. Normally you would set this at full, and use it if you need to quickly fade out all the lights.
+If the console is fitted with a Grand Master Fader, this controls the intensity of all output from the console. Normally you would use it to quickly fade out all the lights.
 
-The Grand Master fader is disabled by default. It can be enabled in the user settings if required.
+The Grand Master fader is disabled by default. It can be enabled in the User Settings if required.
 
 The Pearl Expert has additional master faders: Swop and Flash masters control intensity of the swop/flash buttons; Preset master controls intensity of the preset faders; Playback master controls intensity of all playbacks.
 
 Any playback fader on the console can be assigned to act as a master fader, which allow you to set the overall intensity of various areas of the console. Different types of master fader are available:
 
--   Grand Master controls the intensity of all output from the console.
+-   **Grand Master** controls the intensity of all output from the console.
 
--   Swop and Flash masters control intensity of the swop/flash buttons
+-   **Swop and Flash masters** control intensity of the swop/flash buttons
 
--   Preset master controls intensity of the preset faders
+-   **Preset master** controls intensity of the preset faders
 
--   Playback master controls intensity of all playbacks.
+-   **Playback master** controls intensity of all playbacks.
 
 To assign master faders, go to System mode and select \[Assign Mastering\], or press \<Record\> then \[Create Master\].
 
@@ -45,11 +45,7 @@ it as a master. Press the Display button below the encoders to show legends for 
 
 ![Arena Miniscreen](/docs/images/image76.png)
 
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)
-
-  If you assign a master to a handle with an LED, the LED will flash if the fader is at zero... just as a reminder to help you work out why no lights are coming on.
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>  If you assign a master to a handle with an LED, the LED will flash if the fader is at zero... just as a reminder to help you work out why no lights are coming on.
 
 Speed and Size Masters
 ----------------------
@@ -58,7 +54,7 @@ Speed and Size Masters
 
 Playbacks can be assigned to a Speed Master and/or a Size Master which allow you to control the speed and size of shapes or effects stored in a cue (or in the case of chases, to modify the speed of the chase).
 
-There are eight possible Speed Masters and four Size Masters which allow you to separately control the parameters of different playbacks, if you need to.
+There are eight possible Speed Masters and four Size Masters which allow you to separately control the parameters of different playbacks, if you need to – for example Rate Master 1 could be assigned to control position shapes, Rate Master 2 to dimmer shapes, and so on.
 
 A playback is assigned to a Speed/Size Master by pressing \[Effects\] then \[Speed Source\] or \[Size Source\] in the Playback Options. The following speed sources are available:
 
@@ -81,16 +77,12 @@ Speed or Size masters can have various scales, 0-100%, 0-200% and so on. A 0-200
 
 BPM masters can have multipliers or dividers set which allows you to vary how the tapped speed relates to the effect speed. To modify the options, press \[Playback Options\] at the top level menu then press the blue button of the BPM master.
 
-Normally the BPM master fader sets the BPM, and the multiplier is shown below. Tapping the blue button will also set the BPM or you can enter BPM on the keypad and press the blue button of the master to set it.
-
-  -----------------------------------------------------------------------------------------------------------------
-  ![BPM Master on playback](/docs/images/image296.png)   
-
-  *BPM master with BPM master with BPM on fader multiplier on fader*
-
-  -----------------------------------------------------------------------------------------------------------------
-
-The \[BPM On Fader\]/\[Multiplier on Fader\] option sets the master so that the fader now controls the multiplier and the BPM is set by tapping.
+Normally the BPM master fader sets the BPM, and the multiplier is shown below. Tapping the blue button will also set the BPM or you can enter BPM on the keypad and press the blue button of the master to set it. This is how a BPM master looks
+with the BPM set by the fader:
+![BPM Master on playback](/docs/images/image296.png)   
+ 
+The \[BPM On Fader\]/\[Multiplier on Fader\] option sets the master so that the fader now controls the multiplier and the BPM is set by tapping. This is how the master looks when set to Multiplier on Fader:
+![BPM Master multiplier on fader](/docs/images/bpm-master-x2.png) 
 
 The \[Multiplier Scale\] option now allows you to set the range of multipliers/dividers which can be set on the fader -- from x2-/2 to x32-/32.
 
@@ -109,8 +101,15 @@ wheel opens a softkey menu where you can input a numerical value or \[Release\] 
 
 > Using [Key Profiles](../system-settings/key-profiles.md) you can set one of the buttons of the master to act as the "Connect" button.
 
-Group Masters
--------------
+Playback Groups
+---------------
+
+Playbacks can be assigned to groups. This allows you to create a set of playbacks which automatically switch off other playbacks in the same group. This can be useful when you have playbacks on executor buttons so only the most recent playback stays active, or to make life easier when busking so you don’t end up with lots of playbacks fired which have superseded each other.
+See section [Playback Groups](../cues/playback-groups.md)  for more details.
+
+
+Fixture Group Masters
+---------------------
 
 You can assign a fader to control the master intensity of each fixture group. To do this you simply save (or move) the group button to a handle
 with a fader.
@@ -150,12 +149,7 @@ Using [Key Profiles](../system-settings/key-profiles.md), you can set different 
 
 If a Flash Master is configured, this will also master the group flash.
 
---------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-![info](/docs/images/image6.png)
-
-You can release all masters by pressing \<Release\> then \[Release All Masters\]. This can be useful if something is being controlled by a master but you are not sure where it is.
---------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> You can release all masters by pressing \<Release\> then \[Release All Masters\]. This can be useful if something is being controlled by a master but you are not sure where it is.
 
 Scene Master
 ------------
