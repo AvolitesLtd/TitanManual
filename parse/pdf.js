@@ -1,14 +1,14 @@
-const paths = require('path');
+const path = require('path');
 const fs = require('fs');
 const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
 
-const versionedDocsPath = paths.join(__dirname,"../website/versioned_docs/");
-const outputPath = paths.join(__dirname,"output");
-const legalPath = paths.join(__dirname,"PDF/legal-en.md");
-const templatePath = paths.join(__dirname,"PDF/eisvogel_avo.latex");
-const headerPath = paths.join(__dirname,"PDF/header.yaml");
-const logoPath = paths.join(__dirname,"PDF/avo.png");
+const versionedDocsPath = path.join(__dirname,"../website/versioned_docs/");
+const outputPath = path.join(__dirname,"output");
+const legalPath = path.join(__dirname,"PDF/legal-en.md");
+const templatePath = path.join(__dirname,"PDF/eisvogel_avo.latex");
+const headerPath = path.join(__dirname,"PDF/header.yaml");
+const logoPath = path.join(__dirname,"PDF/avo.png");
 
 // Command line options
 program
@@ -39,15 +39,15 @@ else {
 
 /**
  * Get all of the versions of the docs found in `path` plus `next`
- * @param {string} path Path to look for version folders, *defaults to `versionedDocsPath`*
+ * @param {string} dir Path to look for version folders, *defaults to `versionedDocsPath`*
  * @return {array} Array of the versions, e.g. ['12.0','13.0','next']
  */
-function getVersions(path=versionedDocsPath) {
+function getVersions(dir=versionedDocsPath) {
   const isDirectory = source => fs.lstatSync(source).isDirectory();
-  versions = fs.readdirSync(path).map(name => paths.join(path, name)).filter(isDirectory);
+  versions = fs.readdirSync(dir).map(name => path.join(dir, name)).filter(isDirectory);
   
   for(let i in versions) {
-    versions[i] = versions[i].replace(`${path}version-`,"")
+    versions[i] = versions[i].replace(`${dir}version-`,"")
   }
 
   versions.push('next');
@@ -63,7 +63,7 @@ function getVersions(path=versionedDocsPath) {
  */
 function setOutputDir(req='',def=outputPath) {
   if(req) {
-    let userOutputPath = paths.resolve(req);
+    let userOutputPath = path.resolve(req);
   
     fs.access(userOutputPath, fs.constants.W_OK, function(err) {
       if(err){
@@ -141,7 +141,7 @@ function replaceLinks(filename,content,docsPath) {
       filePath = '';
     }
 
-    let fullFilePath = paths.resolve(docsPath, filePath, link);
+    let fullFilePath = path.resolve(docsPath, filePath, link);
 
     if (!fs.existsSync(fullFilePath)) {
       // check file exists
@@ -161,7 +161,7 @@ function replaceLinks(filename,content,docsPath) {
     // change the link to the title anchor created in replaceYaml, e.g.
     // change [text](link.md)
     // to     [text](#link-md)
-    let titleLink = fullFilePath.replace(paths.resolve(docsPath),"").substring(1);
+    let titleLink = fullFilePath.replace(path.resolve(docsPath),"").substring(1);
     titleLink = filenameToTitleLink(titleLink);
 
     return `[${text}](${titleLink})`
@@ -169,7 +169,7 @@ function replaceLinks(filename,content,docsPath) {
 }
 
 /**
- * Replaces the image URIs with relative paths (not absolute paths)
+ * Replaces the image URIs with relative path (not absolute path)
  * From ![alt](/path/to/img)
  * To   ![alt](path/to/img)
  * Also warns about missing alt text and images.
@@ -177,10 +177,10 @@ function replaceLinks(filename,content,docsPath) {
  * @param {string} content Contents of the .md file with the images in
  * @return {string} The content with the images fixed
  */
-function replaceImagePaths(filename,content) {
+function replaceImagepath(filename,content) {
   // matches all images with local sources
   return content.replace(/!\[([^\]]*)\]\(\/(?!\/)([^\)]*)\)/mg, function (match,alt,src) {
-    let fullSrc = paths.resolve(__dirname, `../website/static/${src}`);
+    let fullSrc = path.resolve(`../website/static/${src}`);
     if (!fs.existsSync(fullSrc)) {
       // check image exists
       process.emitWarning(`${filename}: Image '${src}' not found`);
@@ -213,14 +213,14 @@ function addImageSpacing(content) {
  */
 function sidebarPath(version) {
   if(version == "next") {
-    return paths.resolve(__dirname,"../website/sidebars.json");
+    return path.resolve("../website/sidebars.json");
   }
   else {
     let filePath = `../website/versioned_sidebars/version-${version}-sidebars.json`;
-    filePath = paths.resolve(__dirname,filePath);
+    filePath = path.resolve(filePath);
 
     if (!fs.existsSync(filePath)) {
-      throw(`Could not find '${version}' sidebars JSON file: ${path}`);
+      throw(`Could not find '${version}' sidebars JSON file: ${filePath}`);
     };
     return filePath;
   }
@@ -233,12 +233,12 @@ function sidebarPath(version) {
  */
 function docsVersionPath(version) {
   if(version == "next") {
-    return paths.resolve(__dirname,"../docs/");
+    return path.resolve("../docs/");
   }
   else {
-    let filePath = paths.join(versionedDocsPath,`version-${version}/`);
+    let filePath = path.join(versionedDocsPath,`version-${version}/`);
     if (!fs.existsSync(filePath)) {
-      throw(`Could not find versioned docs: ${path}`)
+      throw(`Could not find versioned docs: ${filePath}`)
     };
     return filePath;
   }
@@ -291,7 +291,7 @@ function formatMdFiles(docsPath, sidebar, version) {
  * @return {string} The formatted MarkDown
  */
 function formatMd(docsPath,filename) {
-  let filepath = paths.join(docsPath, filename);
+  let filepath = path.join(docsPath, filename);
 
   if (!fs.existsSync(filepath)) {
     process.emitWarning(`${filename}: File referenced in sidebar not found`);
@@ -306,10 +306,10 @@ function formatMd(docsPath,filename) {
   // replace links to md files with the title links created above
   content = replaceLinks(filename,content,docsPath);
 
-  // fix the absolute image paths
-  content = replaceImagePaths(filename,content);
+  // fix the absolute image path
+  content = replaceImagepath(filename,content);
 
-  // fix the absolute image paths
+  // fix the absolute image path
   content = addImageSpacing(content);
 
   content += "\n\n";
@@ -341,7 +341,7 @@ function generatePDF(filePath,version,section=null,options={}) {
   let filename = `${version}${section}-${ISODate}`;
   filename = filename.replace(/[^\w]/g,"-");
   filename += '.pdf';
-  filename = paths.join(options.outputDir, filename);
+  filename = path.join(options.outputDir, filename);
 
   // options
   options.templatePath = options.templatePath ? options.templatePath : templatePath;
@@ -419,7 +419,7 @@ function createPDF(version,section=null, options={}) {
   output += formatMdFiles(docsPath, sidebar, version);
 
   // create formatted MD file
-  let formattedMdPath = paths.join(options.outputDir, "pdf.md");
+  let formattedMdPath = path.join(options.outputDir, "pdf.md");
   try {
     fs.writeFileSync(formattedMdPath, output);
   }
