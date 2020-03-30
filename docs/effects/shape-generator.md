@@ -42,7 +42,6 @@ When you create a shape, it will be applied to all selected fixtures.
 Generator\]
 
 3. Press \[Create\] to start a new shape
-
 ![Shape Generator selecting a category of new shape](/docs/images/image181.png)
 
 4. Press a \[softkey\] to select the attribute type to use in the shape or
