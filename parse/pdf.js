@@ -3,9 +3,12 @@ const fs = require('fs');
 const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
 
-const versionedDocsPath = "../website/versioned_docs/";
+const versionedDocsPath = paths.join(__dirname,"../website/versioned_docs/");
 const outputPath = paths.join(__dirname,"output");
-const legalPath = "PDF/legal-en.md";
+const legalPath = paths.join(__dirname,"PDF/legal-en.md");
+const templatePath = paths.join(__dirname,"PDF/eisvogel_avo.latex");
+const headerPath = paths.join(__dirname,"PDF/header.yaml");
+const logoPath = paths.join(__dirname,"PDF/avo.png");
 
 // Command line options
 program
@@ -16,13 +19,6 @@ program
   .parse(process.argv);
 
 program.outputDir = setOutputDir(program.outputDir);
-
-try {
-  process.chdir(__dirname);
-} catch (err) {
-  process.exitCode = 1;
-  throw(`Failed to change working directory:\n${err}`);
-}
 
 let version = program.manversion ? program.manversion.toLowerCase() : "all";
 const section = program.section ? program.section.toLowerCase() : null;
@@ -145,7 +141,7 @@ function replaceLinks(filename,content,docsPath) {
       filePath = '';
     }
 
-    let fullFilePath = paths.resolve(paths.join(docsPath, filePath, link));
+    let fullFilePath = paths.resolve(docsPath, filePath, link);
 
     if (!fs.existsSync(fullFilePath)) {
       // check file exists
@@ -184,8 +180,8 @@ function replaceLinks(filename,content,docsPath) {
 function replaceImagePaths(filename,content) {
   // matches all images with local sources
   return content.replace(/!\[([^\]]*)\]\(\/(?!\/)([^\)]*)\)/mg, function (match,alt,src) {
-    src = `../website/static/${src}`;
-    if (!fs.existsSync(src)) {
+    let fullSrc = paths.resolve(__dirname, `../website/static/${src}`);
+    if (!fs.existsSync(fullSrc)) {
       // check image exists
       process.emitWarning(`${filename}: Image '${src}' not found`);
       return '';
@@ -194,7 +190,7 @@ function replaceImagePaths(filename,content) {
       // check alt text is defined for image
       process.emitWarning(`${filename}: No alt text set for '${src}'`);
     }
-    return `![${alt}](${src})`
+    return `![${alt}](${fullSrc})`
   });
 }
 
@@ -217,32 +213,34 @@ function addImageSpacing(content) {
  */
 function sidebarPath(version) {
   if(version == "next") {
-    return "../website/sidebars.json";
+    return paths.resolve(__dirname,"../website/sidebars.json");
   }
   else {
-    let path = `../website/versioned_sidebars/version-${version}-sidebars.json`;
-    if (!fs.existsSync(path)) {
-      throw(`Could not find sidebars JSON file: ${path}`)
+    let filePath = `../website/versioned_sidebars/version-${version}-sidebars.json`;
+    filePath = paths.resolve(__dirname,filePath);
+
+    if (!fs.existsSync(filePath)) {
+      throw(`Could not find '${version}' sidebars JSON file: ${path}`);
     };
-    return path;
+    return filePath;
   }
 }
 
 /**
  * Returns the path to the docs folder for the specified `version`
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
- * @return {string} Relative path to the docs folder with trailing slash, e.g. `../docs/`
+ * @return {string} Absolute path to the docs folder without the trailing slash, e.g. `/Users/user/AvoDocs/docs`
  */
 function docsVersionPath(version) {
   if(version == "next") {
-    return "../docs/";
+    return paths.resolve(__dirname,"../docs/");
   }
   else {
-    let path = `${versionedDocsPath}version-${version}/`;
-    if (!fs.existsSync(path)) {
+    let filePath = paths.join(versionedDocsPath,`version-${version}/`);
+    if (!fs.existsSync(filePath)) {
       throw(`Could not find versioned docs: ${path}`)
     };
-    return path;
+    return filePath;
   }
 }
 
@@ -293,7 +291,7 @@ function formatMdFiles(docsPath, sidebar, version) {
  * @return {string} The formatted MarkDown
  */
 function formatMd(docsPath,filename) {
-  let filepath = docsPath + filename;
+  let filepath = paths.join(docsPath, filename);
 
   if (!fs.existsSync(filepath)) {
     process.emitWarning(`${filename}: File referenced in sidebar not found`);
@@ -326,33 +324,40 @@ function formatMd(docsPath,filename) {
  * @param {string} version (Optional) Which section is being exported
  * @return {string} The filename of the produced PDF
  */
-function generatePDF(filePath,version,section=null) {
+function generatePDF(filePath,version,section=null,options={}) {
+  // format version name, e.g. "Titan 13.0"
   if(version == "next") {
     version = "Latest";
   }
   version = `Titan ${version}`;
   
+  // add a dash before the section if there is one specified
   section = section ? '-' + section : '';
   
+  // current date and time
   const ISODate = new Date().toISOString().slice(0,19).replace(/[T:]/g,"-");
 
+  // format & sanitize the filename
   let filename = `${version}${section}-${ISODate}`;
-  // sanitize filename
   filename = filename.replace(/[^\w]/g,"-");
   filename += '.pdf';
-
   filename = paths.join(options.outputDir, filename);
+
+  // options
+  options.templatePath = options.templatePath ? options.templatePath : templatePath;
+  options.headerPath = options.headerPath ? options.headerPath : headerPath;
+  options.logoPath = options.logoPath ? options.logoPath : logoPath;
 
   console.log(`Producing PDF: ${filename}`)
 
   const command = `
 DATE=$(date "+%d %B %Y")
 
-pandoc --template "PDF/eisvogel_avo.latex" \
+pandoc --template "${options.templatePath}" \
   -o "${filename}" \
   --pdf-engine=xelatex \
   --highlight-style kate \
-  --metadata-file PDF/header.yaml \
+  --metadata-file "${options.headerPath}" \
   --toc \
   -fmarkdown-implicit_figures \
   --self-contained \
@@ -360,7 +365,8 @@ pandoc --template "PDF/eisvogel_avo.latex" \
   -M footer-center="$DATE" \
   -M footer-left="${version} Manual" \
   -M subtitle="${version}" \
-  ${filePath}`;
+  -M logo="${options.logoPath}" \
+  "${filePath}"`;
 
   var hrstart = process.hrtime();
 
@@ -401,7 +407,7 @@ function createPDF(version,section=null, options={}) {
   let sidebar = JSON.parse(sidebarFile);
 
   // get the path for docs of the version
-  docsPath = __dirname + "/" + docsVersionPath(version);
+  docsPath = docsVersionPath(version);
 
   let output = '';
   if (options.legal) {
