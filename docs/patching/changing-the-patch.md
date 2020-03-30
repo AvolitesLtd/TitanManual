@@ -121,7 +121,6 @@ line. All programming is kept.
 
 4. To change DMX press \[Address\], type the new address and press
 enter. If this address is already in use, a warning icon will be shown.
-
 ![Address softkey](/docs/images/image122.png)
 
 5. To change the DMX output line, press \[DMX Line=x\] and enter a new
@@ -258,16 +257,16 @@ when faced with a new fixture.
     problems, you will easily be able to return your show to its
     previous state.
 
-    1. Enter patch mode by pressing \<Patch\>.
+1. Enter patch mode by pressing \<Patch\>.
 
-    2. Select the new fixture type you wish to use.
+2. Select the new fixture type you wish to use.
 
-    3. Touch the select button of the fixture which is to be exchanged.
+3. Touch the select button of the fixture which is to be exchanged.
 
-    4. The console will warn you that the fixture is in use. Press the
+4. The console will warn you that the fixture is in use. Press the
     \[Exchange Fixture\] option.
 
-    5. Repeat from step 3 to exchange other fixtures with the same type
+5. Repeat from step 3 to exchange other fixtures with the same type
     of new fixture.
 
 > After exchanging fixtures you need to update the palettes which used those fixtures. If you have trouble switching values off in a palette, set new values for all the attributes in the attribute group and re-record the palette. You should then be able to switch off an attribute group as required.
@@ -369,18 +368,18 @@ console does not update fixtures which are already patched.
     Personalities, then you will be able to undo any changes if you
     change your mind or have problems.
 
-    1. Enter patch mode by pressing Patch.
+1. Enter patch mode by pressing Patch.
 
-    2. Press \[Edit Fixtures\]
+2. Press \[Edit Fixtures\]
 
-    3. Press \[Update Personality\] to update an individual fixture
-    type, or \[Update All\] to update all patched fixtures to the most
+3. Press \[Update Personality\] to update an individual fixture
+   type, or \[Update All\] to update all patched fixtures to the most
     recent version in the library.
 
-    4. If updating individual fixtures, the console shows you a list of
+4. If updating individual fixtures, the console shows you a list of
     personalities used in the show which can be updated.
 
-    5. If updating individual fixtures, press the personality you want
+5. If updating individual fixtures, press the personality you want
     to update.
 
 -   The new personality is loaded from the Titan/Personalities folder.
