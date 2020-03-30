@@ -12,7 +12,7 @@ T1 provides a single universe of DMX output on a 5-pin XLR.
 ![Titan One](/docs/images/image44.png)
 
 T2 provides two universes on two 5-pin XLRs and has an input for
-Audio/LTC timecode. It also allows the use of a USB MIDI device for MIDI
+Audio/LTC timecode for external triggering. It also allows the use of a USB MIDI device for MIDI
 triggering of Titan, so you can use MIDI faders, and can be used with
 the Titan Mobile fader wing.
 
