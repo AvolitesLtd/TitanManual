@@ -69,6 +69,7 @@
       "cues",
       "cues/creating-a-cue",
       "cues/using-a-cue",
+	  "cues/playback-groups",
       "cues/editing-cues",
       "cues/cue-timing",
       "cues/copying-moving-linking-and-deleting",
@@ -112,6 +113,7 @@
       "running-the-show/organising-the-console",
       "running-the-show/set-list-window",
       "running-the-show/midi-dmx-or-audio-triggering",
+      "running-the-show/linking-pioneerdj-system-to-titan",
       "running-the-show/linking-consoles-for-multi-user-or-backup"
     ],
     "Remote Control": [
