@@ -283,12 +283,10 @@ be changed
 
 2. Turn the wheels to set the attribute. The display above the wheels
 shows which attributes are being controlled, and the settings which are
-available scroll up and down as you turn the wheels.
-
+available scroll up and down as you turn the wheels.  
 You can also touch the roller image on the screen to change the
 attributes up or down by one. For continuously variable controls like a
 dimmer, touching the roller will set the attribute to full or zero.
-
 ![Wheels](/docs/images/image134.png)
 
 3. Repeat from 1 to change other attributes of the selected fixtures.
