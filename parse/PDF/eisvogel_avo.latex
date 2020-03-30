@@ -625,6 +625,9 @@ $endif$
 \newunicodechar{⇑}{\ensuremath{\mathrm{\Uparrow}}}
 \newunicodechar{↔}{\ensuremath{\mathrm{\leftrightarrow}}}
 
+\let\oldpart\part
+\renewcommand\part{\newpage\oldpart}
+
 %
 % heading color
 %
