@@ -36,11 +36,17 @@ brew cask install basictex
 Then we use a lightly modified version of the [Eisvogel template](https://github.com/Wandmalfarbe/pandoc-latex-template) which requires [various LaTeX packages](https://github.com/Wandmalfarbe/pandoc-latex-template#required-latex-packages), e.g. on a Mac run:
 
 ````shell
-tlmgr install adjustbox babel-german background bidi collectbox csquotes everypage filehook footmisc footnotebackref framed fvextra letltxmacro ly1 mdframed mweights needspace pagecolor sourcecodepro sourcesanspro titling ucharcat ulem unicode-math upquote xecjk xurl zref
+sudo tlmgr install adjustbox babel-german background bidi collectbox csquotes everypage filehook footmisc footnotebackref framed fvextra letltxmacro ly1 mdframed mweights needspace pagecolor sourcecodepro sourcesanspro titling ucharcat ulem unicode-math upquote xecjk xurl zref
 ````
 
-It is also worth updating existing packages:
+To remap unicode characters we use newunicodechar.sty, on a Mac run:
+````shell
+tlmgr install newunicodechar
 ````
+
+
+It is also worth updating existing packages:
+````shell
 sudo tlmgr update --all
 ````
 
@@ -96,7 +102,6 @@ node pdf.js -v 12.0 -s synergy
 
 Code | Meaning
 ---- | -------
-1    | **Failed to change working directory**<br>The script tries to change the CWD to the parse folder so that relative paths work in the script
 2    | **No sections were found, this could be because of the section specified or there weren't any sections found in the sidebar**<br>Try omitting the section parameter of the command
 3    | **Failed to write formatted MarkDown file: `...`**<br>The script couldn't create the intermeadiate MarkDown file, this may be because `parse/output` folder doesn't exist
 
