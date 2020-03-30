@@ -111,7 +111,7 @@ function replaceYaml(filename,content) {
     titleLink = filenameToTitleLink(filename);
     if (filename.match("/")) {
       // sub page, e.g.:
-      // # Cues {#cues.md}
+      // # Cues {#cues/creating-a-cue.md}
       return `# ${title} {${titleLink}}`;
     }
     else {
@@ -133,13 +133,6 @@ function replaceYaml(filename,content) {
 function replaceLinks(filename,content,docsPath) {
   // matches all links which are to local .md files
   return content.replace(/(?<!!)\[([^\[]*\n*)\]\((?!https?:\/\/)(?!\/\/)(?!#)([a-zA-Z0-9-\.\/]*\.md)([^)]*)\)/mgi, function (match,text,link,anchor) {
-    if(anchor) {
-      // if it's got an anchor link to a title just go to that, e.g.
-      // change [text](link.md#title)
-      // to     [text](#title)
-      return `[${text}](${anchor})`
-    }
-    
     let filePath = filename.split("/");
     let file = filePath.pop();
     
@@ -156,12 +149,22 @@ function replaceLinks(filename,content,docsPath) {
 
     if (!fs.existsSync(fullFilePath)) {
       // check file exists
-      process.emitWarning(`${filename}: Link to '${link}' not found`);
+      process.emitWarning(`${filename}: Link to '${link}${anchor ? anchor : ''}' not found`);
 
       // remove the link
       return text;
     }
+    
+    if(anchor) {
+      // if it's got an anchor link to a title just go to that, e.g.
+      // change [text](link.md#title)
+      // to     [text](#title)
+      return `[${text}](${anchor})`
+    }
 
+    // change the link to the title anchor created in replaceYaml, e.g.
+    // change [text](link.md)
+    // to     [text](#link-md)
     let titleLink = fullFilePath.replace(paths.resolve(docsPath),"").substring(1);
     titleLink = filenameToTitleLink(titleLink);
 
