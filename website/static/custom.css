@@ -187,3 +187,33 @@ ol {
 ol li {
   padding-left: 0.75em;
 }
+
+input#search_input_react {
+  font-size: 16px;
+  position: relative;
+  height: 30px;
+}
+
+#search {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  #search {
+      top: 10px;
+      right: 10px;
+      position: absolute;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  input#search_input_react {
+    width: 100px;
+  }
+  input#search_input_react:active,
+  input#search_input_react:focus {
+    width: 120px;
+  }
+}

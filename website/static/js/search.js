@@ -26,7 +26,7 @@ $.ajax({
 
 $(document).ready(function() {
   $(".navigationWrapper .slidingNav ul.nav-site")
-    .append('<li style="align-items: center;display: flex;justify-content: center;"><input type="text" id="search_input_react" placeholder="Search" title="Search" class="aa-input" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" dir="auto" style="position: relative; height: 30px;"/></li>');
+    .append('<li id="search"><input type="text" id="search_input_react" placeholder="Search" title="Search" class="aa-input" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" dir="auto"/></li>');
 
   $("body").append(`<ul id='results'></ul>`);
 
@@ -65,7 +65,7 @@ $(document).ready(function() {
       ul.append(li);
     }
     if (results.length == 0) {
-      ul.append(`<li>No Results</li>`)
+      ul.append(`<li><div class="title">No Results</div></li>`)
     }
 
     ul.show();
