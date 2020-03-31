@@ -200,7 +200,7 @@ programmer. You could then Include position information from another cue
 into the programmer, and build up a new cue using information from
 several existing cues.
 
-If you Include a [chase](../chases.md) or [cue list](cue-lists.md), the screen shows you a list of the
+If you Include a [chase](../chases.md) or [cue list](../cue-lists.md), the screen shows you a list of the
 cues within it, and you select the one you want to Include using Wheel A
 or by touching the cue. You can also type in the cue number to Include.
 
@@ -236,7 +236,7 @@ will be loaded into the programmer.
 Removing Attributes from Cues Using "Off"
 -----------------------------------------
 
-[Video covering the Off function](https://youtu.be/p7Ffz4e4tws)
+[](https://youtu.be/p7Ffz4e4tws?t=20)
 
 The \<Off\> button allows you to remove an attribute which has been
 stored in a cue, as if you'd never recorded it.

@@ -11,7 +11,7 @@ them.
 Creating a Key Frame Shape
 --------------------------
 
-[Video covering recording a key frame shape](https://youtu.be/1nvLaipivhM?t=20)
+[](https://youtu.be/1nvLaipivhM?t=20)
 
 A key frame shape is created a bit like a [chase](../chases.md), but the shape is more
 flexible because you have lots of control over the way the attribute

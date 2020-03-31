@@ -251,7 +251,7 @@ colour(s) in the palette when you save it. Gobo palettes will show an
 image of the standard gobo, if the fixture personality has this
 information in it.
 
-![](/docs/images/image79.png)
+![Gobos and Beams Workspace Window](/docs/images/image79.png)
 
 Button Halo
 -----------

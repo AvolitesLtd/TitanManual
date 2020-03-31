@@ -17,10 +17,10 @@ you wouldn't want to change them accidentally.
 
 ---
 
-[Network Settings](networking.md)
+[Network Settings](../networking.md)
 ----------------
 
-This option sets up networking (Ethernet) parameters for the console - further details on how to [control fixtures over a network](../networking/controlling-fixtures-over-a-network.md) in the [networking section](networking.md).
+This option sets up networking (Ethernet) parameters for the console - further details on how to [control fixtures over a network](../networking/controlling-fixtures-over-a-network.md) in the [networking section](../networking.md).
 
 [DMX Settings](dmx-output-mapping.md)
 ------------
@@ -34,10 +34,10 @@ described in detail later in this chapter, in the [DMX Output Settings section](
 Allows you to select how DMX will be output across multiple consoles or
 processing nodes - [read more about DMX merge settings](dmx-output-mapping.md#dmx-merge).
 
-[Synergy Settings](synergy/setting-up.md)
+[Synergy Settings](../synergy/setting-up.md)
 ----------------
 
-Sets up the Synergy software for linking to an Ai server, see the [Synergy setup section](synergy/setting-up.md#synergy-setup).
+Sets up the Synergy software for linking to an Ai server, see the [Synergy setup section](../synergy/setting-up.md#synergy-setup).
 
 TitanNet Security
 -----------------

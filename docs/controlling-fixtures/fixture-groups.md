@@ -26,7 +26,7 @@ the buttons using [Key Profiles](../system-settings/key-profiles.md).
 
 ### Record a Group
 
-[Video showing how to record a group](https://youtu.be/E8QxOKT5TCA?t=20)
+[](https://youtu.be/E8QxOKT5TCA?t=20)
 
 If the Groups window is not visible, you can show it by pressing
 \<View/Open\>, \<Group\> (above numeric keys).
@@ -116,7 +116,7 @@ patterns.
 
 ### Fixture Order
 
-[Video covering Fixture Order](https://youtu.be/2TqYjvGoGXQ?t=20)
+[](https://youtu.be/2TqYjvGoGXQ?t=20)
 
 To change the numerical fixture order:
 
@@ -136,7 +136,7 @@ show an X indicating that it is not part of the sequence.
 
 ### Fixture Layout
 
-[Video covering Fixture Layout](https://youtu.be/9S5nQmVpPNs?t=20)
+[](https://youtu.be/9S5nQmVpPNs?t=20)
 
 To change the 2D fixture layout:
 

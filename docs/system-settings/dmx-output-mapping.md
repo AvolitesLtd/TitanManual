@@ -5,7 +5,7 @@ sidebar_label: DMX Output Mapping
 ---
 
 There are various ways to connect fixtures to the console. As well as
-the XLR sockets on the console, [you can connect fixtures using Ethernet](networking/controlling-fixtures-over-a-network.md)
+the XLR sockets on the console, [you can connect fixtures using Ethernet](../networking/controlling-fixtures-over-a-network.md)
 and wireless links.
 
 All consoles can output up to 16 universes except **T1** which is limited to
