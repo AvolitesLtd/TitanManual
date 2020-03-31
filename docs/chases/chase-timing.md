@@ -76,7 +76,6 @@ lot of different timings or link/unlinks. See [Cue Lists](../cue-lists.md).
 1. Touch the playback display relating to the fader, or press
 \<Open/View\> then the **swop** button of the playback. The Playback View
 window will open.
-
 ![Playback View for chase](/docs/images/image249.png)
 
 2. In the grid, touch the times you want to edit
