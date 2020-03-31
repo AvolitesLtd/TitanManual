@@ -201,7 +201,7 @@ programmer. You could then Include position information from another cue
 into the programmer, and build up a new cue using information from
 several existing cues.
 
-If you Include a [chase](../chases.md) or [cue list](cue-lists.md), the screen shows you a list of the
+If you Include a [chase](../chases.md) or [cue list](../cue-lists.md), the screen shows you a list of the
 cues within it, and you select the one you want to Include using Wheel A
 or by touching the cue. You can also type in the cue number to Include.
 

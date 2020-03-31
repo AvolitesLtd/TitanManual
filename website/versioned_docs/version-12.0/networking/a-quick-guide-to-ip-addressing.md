@@ -18,7 +18,7 @@ Setting your IP address
 -----------------------
 
 The console has a setup function to quickly set its IP address as
-described in the [previous section](networking/controlling-fixtures-over-a-network.md#setting-the-consoles-ip-address).
+described in the [previous section](controlling-fixtures-over-a-network.md#setting-the-consoles-ip-address).
 
 There is a strong possibility that if you set the IP address on one
 network device you will have to set it on all of them, therefore if you

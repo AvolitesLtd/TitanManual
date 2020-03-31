@@ -120,7 +120,7 @@ Every layer on the Ai server appears as a button in the Synergy Fixtures
 window. You can display this using the button at the bottom of the
 [Synergy Settings window](#synergy-setup) or from \[Open Workspace Windows\].
 
-![](/docs/images/image277.png)
+![Synergy Fixtures Workspace Window](/docs/images/image277.png)
 
 You use these buttons to select one or more layers for control, just as
 you would select lighting fixtures to control. Once selected, use the

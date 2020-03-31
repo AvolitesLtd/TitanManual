@@ -13,7 +13,7 @@ The Menu/Softkeys
 The right hand side of the touch screen is used for the operating menu
 display. These are known as the "Softkeys" and are lettered A-G.
 
-![](/docs/images/image61.png)
+![Titan Touch Screen User Interface](/docs/images/image61.png)
 
 If there are more functions than will fit on one screen, \[Previous\]
 and \[Next\] buttons are provided to page through the functions. You can

@@ -11,7 +11,7 @@ Copying or Moving a Cue
 Using the \<Copy\> button you can make a **copy** of an existing cue, **move**
 it to a new playback, or create a new playback which is **linked** to the
 existing playback. You can **copy**, **move** or **link** multiple playbacks (which
-may be cues, [chases](../chases.md) or [cue lists](cue-lists.md)) in one operation.
+may be cues, [chases](../chases.md) or [cue lists](../cue-lists.md)) in one operation.
 
 Move is useful for tidying up the console. Linked cues are handy if you
 want a cue to appear on more than one page for ease of operation; also
