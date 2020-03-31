@@ -7,7 +7,7 @@ sidebar_label: Creating a Cue List
 Programming a Cue List
 ----------------------
 
-[Video covering Cue List Basics](https://youtu.be/Kp6XhdG6keM?t=20)
+[](https://youtu.be/Kp6XhdG6keM?t=20)
 
 Programming a cue list is similar to [recording a chase](../chases/creating-a-chase.md).
 
@@ -71,7 +71,7 @@ selected or in the programmer (inverted display).
     the correct position for their next cue while they are set to zero
     intensity. See the [Move In Dark (MID)](../cue-lists/cue-list-playback.md#move-in-dark-mid-functions) functions section.
 
--   You can change the [tracking mode](cue-lists/cue-list-options.md#tracking) of each cue.
+-   You can change the [tracking mode](cue-list-options.md#tracking) of each cue.
 
 ### Record Mode
 

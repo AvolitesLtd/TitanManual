@@ -51,7 +51,7 @@ which can force the console to record palettes in **Shared** or **Normal** mode.
 Storing a Palette
 -----------------
 
-[Video covering recording palettes in Titan](https://youtu.be/Hs-xzpD5x8k?t=20)
+[](https://youtu.be/Hs-xzpD5x8k?t=20)
 
 This is how you save a palette value to one of the palette windows:. If
 the palette windows are not shown then press the **Groups and Palettes**

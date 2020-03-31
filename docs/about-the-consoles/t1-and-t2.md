@@ -18,7 +18,7 @@ the Titan Mobile fader wing.
 
 ![Titan Two](/docs/images/image45.png)
 
-[Intro video for T2 USB Interface](https://youtu.be/wO94RvG6agI)
+[](https://youtu.be/wO94RvG6agI)
 
 ---
 

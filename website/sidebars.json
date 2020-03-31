@@ -144,7 +144,7 @@
       "networking",
       "networking/connecting-the-arena-to-a-network",
       "networking/controlling-fixtures-over-a-network",
-      "networking/using-active-fixtures-with-citp",
+      "networking/using-active-fixtures",
       "networking/a-quick-guide-to-ip-addressing"
     ],
     "Titan Commands": [
@@ -153,7 +153,5 @@
     "Glossary": [
       "glossary"
     ]
-
-
   }
 }

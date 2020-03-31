@@ -219,7 +219,7 @@ When you're having problems getting fixtures to work it can be useful to
 see the actual DMX output values coming from the console. Press
 \<View/Open\>, then \[Open Workspace Window\], then select \[DMX\].
 
-![](/docs/images/image126.png)
+![DMX Workspace Window](/docs/images/image126.png)
 
 The buttons on the left let you select the different output lines from
 the console. Scrolling the window to the right shows more information
@@ -228,7 +228,7 @@ about each DMX channel.
 Fixture Exchange
 ----------------
 
-[Video covering Fixture Exchange](https://youtu.be/a_ES6UYQRJ4?t=20)
+[](https://youtu.be/a_ES6UYQRJ4?t=20)
 
 The Fixture Exchange function enables you to repatch fixtures in your
 show using alternative fixtures, retaining important elements such as

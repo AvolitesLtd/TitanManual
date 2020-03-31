@@ -7,7 +7,7 @@ sidebar_label: Using Palettes
 Recalling a Palette Value
 -------------------------
 
-[Video covering Palettes Playback](https://youtu.be/_bmk7JEPpQo?t=20)
+[](https://youtu.be/_bmk7JEPpQo?t=20)
 
 ### Recalling From a Button
 
