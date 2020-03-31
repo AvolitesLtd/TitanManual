@@ -100,7 +100,7 @@ release the cue list.
 Tracking
 --------
 
-[Video covering Tracking in Cue List](https://youtu.be/B2fTri0G2-A?t=20)
+[](https://youtu.be/B2fTri0G2-A?t=20)
 
 By default, cue lists run in tracking mode. Only changes in attributes
 are stored, everything else just continues at the level it was

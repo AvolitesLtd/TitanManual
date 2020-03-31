@@ -236,7 +236,7 @@ will be loaded into the programmer.
 Removing Attributes from Cues Using "Off"
 -----------------------------------------
 
-[Video covering the Off function](https://youtu.be/p7Ffz4e4tws)
+[](https://youtu.be/p7Ffz4e4tws?t=20)
 
 The \<Off\> button allows you to remove an attribute which has been
 stored in a cue, as if you'd never recorded it.
