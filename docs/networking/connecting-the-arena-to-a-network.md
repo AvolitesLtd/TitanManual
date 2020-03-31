@@ -50,11 +50,9 @@ To change the IP address of the TNS in the console:
 1. Open **USB Expert Console** from the **Tools** menu
 
 2. Select the TNS panel
-
 ![USB Expert Tools - TNS Panel](/docs/images/image354.png)
 
 3. In the **IP Address Dialog**, set the new IP address.
-
 ![USB Expert Tools - TNS Panel - IP Address Dialog](/docs/images/image355.png)
 
 Power and UPS behaviour 
