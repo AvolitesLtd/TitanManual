@@ -219,7 +219,7 @@ When you're having problems getting fixtures to work it can be useful to
 see the actual DMX output values coming from the console. Press
 \<View/Open\>, then \[Open Workspace Window\], then select \[DMX\].
 
-![](/docs/images/image126.png)
+![DMX Workspace Window](/docs/images/image126.png)
 
 The buttons on the left let you select the different output lines from
 the console. Scrolling the window to the right shows more information

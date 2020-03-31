@@ -206,7 +206,7 @@ Press the \<Time\> button to access this menu.
 The menu allows you to set cue times, or times for all attributes of a
 fixture, attribute groups or individual attributes.
 
-![](/docs/images/image242.png)
+![Edit Programmer Cue Times in the Titan Go interface](/docs/images/image242.png)
 
 Using the \<Time\> button there are various quick shortcuts to setting
 times.

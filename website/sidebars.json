@@ -22,7 +22,6 @@
     ],
     "Titan Basics": [
       "titan-basics",
-      "titan-basics/controlling-dimmers-and-fixtures",
       "titan-basics/workspace-windows",
       "titan-basics/other-parts-of-the-touch-screen",
       "titan-basics/front-panel-buttons",
@@ -146,13 +145,10 @@
       "networking/connecting-the-arena-to-a-network",
       "networking/controlling-fixtures-over-a-network",
       "networking/using-active-fixtures",
-      "networking/using-active-fixtures-with-citp",
       "networking/a-quick-guide-to-ip-addressing"
     ],
     "Titan Commands": [
       "titan-commands"
     ]
-
-
   }
 }

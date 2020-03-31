@@ -62,7 +62,7 @@ a particular shape.
     to show only shapes for that attribute. Press the \<Dimmer\>
     attribute button to show all shapes.\
     \
-    ![](/docs/images/image182.png)
+    ![Shapes Workspace Window](/docs/images/image182.png)
 
 -   Shapes are based on the current settings of the fixture, *so a
     position circle would move around the current pan-tilt position of

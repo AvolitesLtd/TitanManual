@@ -171,7 +171,7 @@ will attempt the movement in the nearest suitable cue instead.
 Key Profile Options for Cue Lists
 ---------------------------------
 
-Using [Key Profiles](system-settings/key-profiles.md), you can assign different functions to the blue and
+Using [Key Profiles](../system-settings/key-profiles.md), you can assign different functions to the blue and
 grey buttons of the playback handle. (*The Sapphire Touch also has a
 black button)*. If the cue list is stored on a touch button you can
 assign a function to that. See [Key Profiles](../system-settings/key-profiles.md#cue-lists) for a full list of functions.
