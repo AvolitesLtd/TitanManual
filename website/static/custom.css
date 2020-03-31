@@ -217,3 +217,8 @@ input#search_input_react {
     width: 120px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .headerTitleWithLogo {
+    display: none !important;
+  }
+}
