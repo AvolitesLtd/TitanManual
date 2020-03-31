@@ -167,11 +167,8 @@ output line.
 are correct. (Problems can be caused if you attach multiple DMX lines to
 a single node.)
 
-13. Make sure that the Universe is set to 1 for Line 1, and 2 for Line
-2.
-
-Art-Net uses a subnet mask with its universe. For Titan purposes:
-
+13. Make sure that the Universe is set to 1 for Line 1, and 2 for Line 2.  
+Art-Net uses a subnet mask with its universe. For Titan purposes:  
 Titan universes 1 - 16 are subnet mask = 0, Art-Net universes = 1 -- 16
 
 14. You can close the DMX settings window.

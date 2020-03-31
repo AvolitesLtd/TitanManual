@@ -135,7 +135,6 @@ sequence number, set it to **Off**.
 6. Touch the **Select** buttons of the fixture(s) you want to place in that
 position in the sequence. The sequence number is shown in the top right
 hand corner of the fixture select touch buttons.
-
 ![Fixtures Window setting Fixture Order](/docs/images/image241.png)
 
 7. Press \<Exit\> to finish.

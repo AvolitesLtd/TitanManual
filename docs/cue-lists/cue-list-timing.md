@@ -18,10 +18,12 @@ of the Cue List.
 
 2. To change which cue you are editing, scroll through the list using
 **Wheel A** or press \[Cue Number\] then type the cue number you want to
-edit and press \<Enter\>. *The Chase arrow buttons to the right of the
-Connect button also step through the cues.*
+edit and press \<Enter\>. 
+	
+	- The Chase arrow buttons to the right of the
+Connect button also step through the cues.
 
-> You can select a range of cues, enabling you to alter the timings of
+	- You can select a range of cues, enabling you to alter the timings of
     multiple cues all in one go, by using **Wheel B**, or in the [Playback
     View window](editing-cue-lists.md#playback-view-window), dragging across the cues you want to select in the
     grid.

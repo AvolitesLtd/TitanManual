@@ -44,9 +44,8 @@ circle into an oval if that helps.
 
 8. Select \[+\] again and choose **Displacement** from the animations that
 appear (this is represented as a few static blocks)
-![Effect Editor - Pixel Mapper - ](/docs/images/image207.png)
-
-> Note that nothing changes yet
+![Effect Editor - Pixel Mapper - ](/docs/images/image207.png)  
+Note that nothing changes yet
 
 9. Select \[+\] and this time choose **Opacity** animation (represented as
 a block fading in).
@@ -219,9 +218,8 @@ run down the odd fixtures followed by the even fixtures.
 2. Open the Layout Editor.
 
 3. Click on the vertical resize tool and drag down until the grid is at
-least twice the original height.
-
->   Note that to help with creation and manipulation of larger grids you can
+least twice the original height.  
+Note that to help with creation and manipulation of larger grids you can
     use the zoom control on the left-side of the window. Clicking on the
     magnifying glass gives a quick shortcut to zoom in/out.
 
@@ -528,8 +526,7 @@ for this animation again.
     ![Effect Editor - Pixel Mapper - Displacement Animation Direction Random Setting](/docs/images/image227.png)
 
 9. Return to the **Opacity animation** controls and increase speed until
-you're happy.
-
+you're happy.  
 At this point you may decide actually the effect would be better if
 it was a vertical bar. To make this easy we can make adjustments on the
 layer controls rather than on the individual element and animations:
