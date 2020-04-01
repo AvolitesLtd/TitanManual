@@ -14,7 +14,7 @@
   width: 400px;
   top: 50px;
   list-style: none;
-  overflow: scroll;
+  overflow-y: scroll;
   display: none;
   z-index: 10000;
   padding: 0;
