@@ -30,6 +30,9 @@ class Footer extends React.Component {
             <a href={this.docUrl('introduction', this.props.language)}>
               Getting Started
             </a>
+            <a href="https://www.avolites.com/privacy-policy">
+              Privacy Policy
+            </a>
           </div>
           <div>
             <h5>Contribute</h5>
