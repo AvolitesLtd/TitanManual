@@ -1,41 +1,54 @@
 'use strict';
 
 (function () {
-    const wrapperStyling = (className,service) => className ? `class="iframify ${service} ${className}"` : 'style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;"';
-    const iframeStyling = (className) => className ? '' : 'style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;"';
+    const IFRAMES = [
+        'videopress',
+        'vimeo',
+        'vine',
+        'wistia',
+        'youtube',
+        'youtube-playlist'
+    ];
 
-    const IFRAMES = {
-        'videopress': {
-            openTag: (className,videoId) => `<div ${wrapperStyling(className,'videopress')}>
-                <iframe src="https://videopress.com/embed/${videoId}" ${iframeStyling(className)} allowfullscreen scrolling="no">`,
-            closeTag: () => '</iframe></div>'
-        },
-        'vimeo': {
-            openTag: (className,videoId) => `<div ${wrapperStyling(className,'vimeo')}>
-                <iframe src="https://player.vimeo.com/video/${videoId}?byline=0&badge=0&portrait=0&title=0" ${iframeStyling(className)} allowfullscreen scrolling="no">`,
-            closeTag: () => '</iframe></div>'
-        },
-        'vine': {
-            openTag: (className,videoId) => `<div ${wrapperStyling(className,'vine')}>
-                <iframe src="https://vine.co/v/${videoId}/embed/simple" ${iframeStyling(className)}  allowfullscreen>`,
-            closeTag: () => '</iframe></div>'
-        },
-        'wistia': {
-            openTag: (className,videoId) => `<div ${wrapperStyling(className,'wistia')}>
-                <iframe src="https://fast.wistia.net/embed/iframe/${videoId}" ${iframeStyling(className)} allowfullscreen scrolling="no" allow="autoplay; encrypted-media">`,
-            closeTag: () => '</iframe></div>'
-        },
-        'youtube': {
-            openTag: (className,videoId) => `<div ${wrapperStyling(className,'youtube')}>
-                <iframe src="https://www.youtube.com/embed/${videoId}?rel=0&showinfo=0" ${iframeStyling(className)} allowfullscreen scrolling="no" allow="autoplay; encrypted-media">`,
-            closeTag: () => '</iframe></div>'
-        },
-        'youtube-playlist': {
-            openTag: (className,playlistId) => `<div ${wrapperStyling(className,'youtube')}>
-                <iframe src="https://www.youtube.com/embed/videoseries?list=${playlistId}" ${iframeStyling(className)}  allowfullscreen scrolling="no" allow="autoplay; encrypted-media">`,
-            closeTag: () => '</iframe></div>'
+    function openTag(video,config={}) {
+        const wrapperStyling = config.className ? 
+            `class="iframify ${video.service} ${config.className}"` : 'style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;"';
+
+        const iframeStyling = config.className ? '' : 'style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;"';
+
+        const title = `data-title="${config.title ? config.title : ''}"`;
+
+        let iframe = `<iframe src=`;
+
+        switch(video.service) {
+            case 'videopress':
+                iframe += `"https://videopress.com/embed/${video.id}" allowfullscreen scrolling="no"`;
+                break;
+            case 'vimeo':
+                iframe += `"https://player.vimeo.com/video/${video.id}?byline=0&badge=0&portrait=0&title=0" allowfullscreen scrolling="no"`;
+                break;
+            case 'vine':
+                iframe += `"https://vine.co/v/${video.id}/embed/simple" allowfullscreen`;
+                break;
+            case 'wistia':
+                iframe += `"https://fast.wistia.net/embed/iframe/${video.id}" allowfullscreen scrolling="no" allow="autoplay; encrypted-media"`;
+                break;
+            case 'youtube':
+                iframe += `"https://www.youtube.com/embed/${video.id}?rel=0&showinfo=0" allowfullscreen scrolling="no" allow="autoplay; encrypted-media"`;
+                break;
+            case 'youtube-playlist':
+                iframe += `"https://www.youtube.com/embed/videoseries?list=${video.id}" allowfullscreen scrolling="no" allow="autoplay; encrypted-media"`;
+                break;
         }
-    };
+        
+        iframe += ` ${iframeStyling}>`;
+        
+        return `<div ${wrapperStyling} ${title}>${iframe}`;
+    }
+
+    function closeTag(service) {
+        return '</iframe></div>';
+    }
 
     function iframify(md, config={}) {
         const originalLinkOpenRenderer = md.renderer.rules.link_open;
@@ -43,15 +56,13 @@
 
         md.renderer.rules.link_open = (tokens, idx, options, env) => {
             const href = tokens[idx].href;
+            const title = tokens[idx].title;
             const videoContext = parseVideoId(href);
 
-            if (videoContext) {
-                const iframe = IFRAMES[videoContext.service];
-
-                if (iframe) {
-                    env.iframe_service = videoContext.service;
-                    return iframe.openTag(config.className,videoContext.id);
-                }
+            if (videoContext && IFRAMES.includes(videoContext.service)) {
+                env.iframe_service = videoContext.service;
+                config.title = tokens[idx].title;
+                return openTag(videoContext,config);
             }
 
             return originalLinkOpenRenderer(tokens, idx, options, env);
@@ -59,9 +70,8 @@
 
         md.renderer.rules.link_close = (tokens, idx, options, env) => {
             if (env.iframe_service) {
-                const result = IFRAMES[env.iframe_service].closeTag();
                 env.iframe_service = null;
-                return result;
+                return closeTag(env.iframe_service);;
             }
 
             return originalLinkCloseRenderer(tokens, idx, options, env);
