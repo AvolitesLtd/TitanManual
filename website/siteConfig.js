@@ -8,8 +8,9 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
-var custom_rules = require('./custom_rules.js');
-var iframify = require('@noticeable/remarkable-iframify');
+const custom_rules = require('./custom_rules.js');
+//var iframify = require('@noticeable/remarkable-iframify');
+const iframify = require('./iframify.js');
 
 const siteConfig = {
   title: 'Avolites Titan Manual', // Title for your website.
@@ -88,7 +89,7 @@ const siteConfig = {
 
       // style diagram annotation links
       // e.g. (A)
-	custom_rules.keyRule(md, "annotate", "\\(", "\\)", "annotate_open", "annotate_close", 5)
+      custom_rules.keyRule(md, "annotate", "\\(", "\\)", "annotate_open", "annotate_close", 5)
       md.renderer.rules.annotate_open = custom_rules.annotate_open
       md.renderer.rules.annotate_close = custom_rules.annotate_close
 
@@ -103,7 +104,9 @@ const siteConfig = {
       // e.g. [Patching](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
       // more details:
       // https://github.com/noticeableapp/remarkable-iframify/
-      iframify.iframify(md)
+      iframify.iframify(md,{
+        className: 'embed-video'
+      })
     },
   ],
 
