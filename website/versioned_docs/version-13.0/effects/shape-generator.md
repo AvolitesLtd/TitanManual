@@ -5,7 +5,7 @@ sidebar_label: Shape Generator
 original_id: shape-generator
 ---
 
-[This video will show you how to use the softkeys to create some colour and movement shapes as well as showing how to edit them live](https://youtu.be/oTo6FxHD02o?t=20)
+[](https://youtu.be/oTo6FxHD02o?t=20)
 
 A shape is simply an automatic sequence of values which modify a
 particular attribute of a fixture. A circle shape, for example, applied
@@ -63,7 +63,7 @@ a particular shape.
     to show only shapes for that attribute. Press the \<Dimmer\>
     attribute button to show all shapes.\
     \
-    ![](/docs/images/image182.png)
+    ![Shapes Workspace Window](/docs/images/image182.png)
 
 -   Shapes are based on the current settings of the fixture, *so a
     position circle would move around the current pan-tilt position of
