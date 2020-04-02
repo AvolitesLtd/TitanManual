@@ -12,7 +12,7 @@ console, then load it into a TNP for operation, using [power-on playbacks](cues/
 touchscreen to the TNP and operate it using the Titan Go interface
 screen.
 
-![Titan Net Processor](/docs/images/image47.jpeg)
+![Titan Net Processor](/docs/images/Titan-Net-Processor.jpeg)
 
 Select the operation mode from the toolbar
 at the top of the screen, using the Switch Software Versions option:

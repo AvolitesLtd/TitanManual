@@ -12,7 +12,7 @@ on the root menu, then press the **select** button of the playback to be
 edited. A list of option categories will open on the softkeys; a window
 will also open giving a touch-friendly version of the playback options.
 
-![Playback Options window for cue showing playback tab](/docs/images/image244.png)
+![Playback Options window for cue showing playback tab](/docs/images/Playback-Options-window-for-cue-showing-playback-tab.png)
 
 Click on the \[i\] button for a help window on each setting.
 
@@ -92,7 +92,7 @@ there is a filter tab to Show Startup
 Playbacks which allows you to list all the playbacks which are set to
 run on startup.
 
-![Power On Playback](/docs/images/image237.png)
+![Power On Playback](/docs/images/Power-On-Playback.png)
 
 ### Speed
 Default speed for this playback in BPM. This can be

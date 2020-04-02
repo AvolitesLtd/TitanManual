@@ -34,7 +34,7 @@ and install it on the console like this:
 
 2. In the screen **tools menu**, stop the console software using the
 **Shutdown Software** button at the bottom of the list.
-![Tools Menu](/docs/images/image91.png)
+![Tools Menu](/docs/images/Tools-Menu.png)
 
 3. Open the **tools menu** again, touch the **Folders** icon and navigate to
 the drive where the upgrade file is found.

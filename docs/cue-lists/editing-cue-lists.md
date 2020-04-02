@@ -26,7 +26,7 @@ You can edit the value of every fixture in each cue using the Cue View
 window. Press the **View Cue** button at the right hand end of the [Playback
 View window](#playback-view-window).
 
-![Cue View Window](/docs/images/image257.png)
+![Cue View Window](/docs/images/Cue-View-Window.png)
 
 You can then click on the values you want to change and edit them using
 the softkeys.
@@ -227,10 +227,10 @@ will be tracked.
 
 Update Mode | Action
 ---|---
-**Forwards** ![Cue List Update Mode Forwards](/docs/images/image258.png) | Updates the channels in the current cue and tracks following cues until the channels are next changed. The values in cues before this one will not be changed.
-**Backwards** ![Cue List Update Mode Backwards](/docs/images/image259.png) | Updates the current cue and tracks backwards through cues until the channels were last changed.
-**Both** ![Cue List Update Mode Both](/docs/images/image260.png) | Updates the current cue, tracking backwards through previous cues from the previous change and forwards through following cues to the next change.
-**Cue Only** ![Cue List Update Mode Cue Only](/docs/images/image261.png) |  Just sets the current cue.
+**Forwards** ![Cue List Update Mode Forwards](/docs/images/Cue-List-Update-Mode-Forwards.png) | Updates the channels in the current cue and tracks following cues until the channels are next changed. The values in cues before this one will not be changed.
+**Backwards** ![Cue List Update Mode Backwards](/docs/images/Cue-List-Update-Mode-Backwards.png) | Updates the current cue and tracks backwards through cues until the channels were last changed.
+**Both** ![Cue List Update Mode Both](/docs/images/Cue-List-Update-Mode-Both.png) | Updates the current cue, tracking backwards through previous cues from the previous change and forwards through following cues to the next change.
+**Cue Only** ![Cue List Update Mode Cue Only](/docs/images/Cue-List-Update-Mode-Cue-Only.png) |  Just sets the current cue.
 
 
 > You can't change the cue number using this menu - if you press

@@ -15,7 +15,7 @@ Open the Capture Visualiser Settings window from the [Open Workspace
 Window menu](../titan-basics/workspace-windows.md#shortcuts-to-open-workspace-windows), or the **Open Settings** context button in the Capture window.
 Click the **Stage** tab.
 
-![Capture Visualiser Settings Window](/docs/images/image266.png)
+![Capture Visualiser Settings Window](/docs/images/Capture-Visualiser-Settings-Window.png)
 
 **"Floor"** and **"Back Wall"** are provided by default. You can add other
 objects by clicking the **+** button at the bottom of the list.
@@ -74,7 +74,7 @@ gimbal lock and happens when two of the "rings" are lined up with each
 other (right hand picture below). Change the Y rotation by 90 degrees to
 enable you to achieve other angles.
 
-![gimbal](/docs/images/image267.jpeg)\
+![gimbal](/docs/images/gimbal.jpeg)\
 *Illustration by MathsPoetry*
 
 Press the **Position** button a third time to switch the wheels to Rotation
@@ -91,7 +91,7 @@ more.
 
 The context menu buttons provide camera options.
 
-![Capture Visualiser Workspace Window Context Menu](/docs/images/image268.png)
+![Capture Visualiser Workspace Window Context Menu](/docs/images/Capture-Visualiser-Workspace-Window-Context-Menu.png)
 
 Camera controls are in the [Capture Visualiser Settings window](#setting-up-the-stage-and-rigging) which you
 can open using the \[Open Workspace Window\] button or using the \[Open
@@ -104,7 +104,7 @@ The top button on the left toggles between single view or quad split
 mode. If quad split is selected, the other 4 buttons select which view
 you are controlling.
 
-![Camera movements in Capture Visualiser Workspace Window](/docs/images/image67.png)
+![Camera movements in Capture Visualiser Workspace Window](/docs/images/Camera-movements-in-Capture-Visualiser-Workspace-Window.png)
 
 The left hand pad moves the camera **left and right**, and towards and away
 from the stage.

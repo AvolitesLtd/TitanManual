@@ -21,7 +21,7 @@ function newImageName(images, alt, ext, copy=0) {
   let newName = alt.replace(/[^\w]/g,"-").replace(/-{2,}/g,'-').replace(/-$/gm,'') + (copy++ ? '-'+ copy : '') + ext;
   
   for(let image in images) {
-    if(path.basename(image) == newName || path.basename(images[image].new) == newName) {
+    if(path.basename(images[image].new) == newName) {
       return newImageName(images, alt, ext, copy);
     }
   }

@@ -101,7 +101,7 @@ the speed of effects in the cue.
 The **Times** button on the left removes some of the columns, showing only
 timing related information.
 
-![Playback View for cue](/docs/images/image238.png)
+![Playback View for cue](/docs/images/Playback-View-for-cue.png)
 
 ### Filter Columns
 
@@ -151,7 +151,7 @@ buttons.
 -   The **Shapes** view shows which attributes of each fixture are
     running shapes.
 
-![Cue View](/docs/images/image239.png)
+![Cue View](/docs/images/Cue-View-2.png)
 
 Filter which **attributes** you are shown using the All/IPCGBES buttons in
 the top left corner.

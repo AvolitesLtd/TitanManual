@@ -31,7 +31,7 @@ grey buttons of preset fader handles (but not on the main playback
 faders) and on Macro/Executor buttons. You can [set a legend](palettes/creating-palettes.md#setting-legends-for-palettes)
 for each button so that you know what you're going to get.
 
-![Gobos and Beams Window and Colours Window](/docs/images/image171.png)
+![Gobos and Beams Window and Colours Window](/docs/images/Gobos-and-Beams-Window-and-Colours-Window.png)
 
 If the **Colours**, **Positions**, **Gobos & Beams** windows are not shown, press
 \<View/Open\> then \[Open Workspace Window\] then \[Groups and

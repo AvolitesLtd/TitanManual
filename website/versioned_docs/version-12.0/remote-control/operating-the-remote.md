@@ -12,7 +12,7 @@ available consoles will be shown - hopefully if you have done the
 There is also a local emulator which can be used to test or demonstrate
 the remote when no real console is connected.
 
-![Titan Remote Android App with keypad](/docs/images/image310.png)
+![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-with-keypad.png)
 
 Choose what you want to control using the row of buttons across the
 middle of the app. The Keypad button enables or disables the numeric pad
@@ -26,7 +26,7 @@ The keypad screen lets you do most common tasks in the way a
 programmer\'s remote normally works. You can turn on/Locate fixtures and
 dimmers either individually or together.
 
-![Titan Remote Android App with keypad](/docs/images/image310.png)
+![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-with-keypad.png)
 
 The User Number of the fixture or dimmer is used for control. For
 example to turn on dimmer 3 at 50% you would press:
@@ -54,7 +54,7 @@ Controlling Fixtures
 The fixture screen allows you to select fixtures exactly as you would on
 the console.
 
-![Fixture View in Titan Remote Android App](/docs/images/image309.png)
+![Fixture View in Titan Remote Android App](/docs/images/Fixture-View-in-Titan-Remote-Android-App.png)
 
 You can then use the **Palette** screens to control the fixtures, or press
 the **IPCGBES** buttons to directly control functions of the fixtures using
@@ -66,7 +66,7 @@ view the fixture pages, drag the Pages bar to the right.
 Press the **All** button to select all fixtures. Hold down the **All** button to
 step through various selection patterns (odd, even etc).
 
-![Fixture Control in Titan Remote Android App](/docs/images/image311.png)
+![Fixture Control in Titan Remote Android App](/docs/images/Fixture-Control-in-Titan-Remote-Android-App.png)
 
 The wheels show function values (such as colours or gobo names). To go
 to the next function, just touch the arrows at the top or bottom of the

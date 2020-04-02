@@ -18,7 +18,7 @@ easy to do in one operation in the Patch View.
 To show the Patch View window press \<View/Open\> then \<Patch\>, or use
 the Open Workspace Windows menu command.
 
-![Patch View](/docs/images/image118.png)
+![Patch View](/docs/images/Patch-View.png)
 
 **Fixture type:** lists the different types of fixture in your show.
 Each fixture has a unique colour code. Click on these buttons to filter
@@ -67,12 +67,12 @@ including the personality and mode used to patch, and the individual DMX
 channel addresses for each attribute. Attributes can be inverted or
 frozen by clicking on the checkboxes at the right hand side.
 
-![Fixture View](/docs/images/image119.png)
+![Fixture View](/docs/images/Fixture-View.png)
 
 If the fixture address is set using DIP switches, the console can show
 you how to set the switches by clicking on the DIP Switches tab.
 
-![Dip Switches](/docs/images/image120.png)
+![Dip Switches](/docs/images/Dip-Switches.png)
 
 There is also a Personality tab (not shown in the pictures) which shows
 history information about the personality file for the fixture. This can
@@ -85,7 +85,7 @@ You can easily change the DMX address of one or more fixtures from Patch
 View. Select the DMX address cells you want to modify - draw a
 selection box over multiple cells to select more than one.
 
-![Change DMX Address](/docs/images/image121.png)
+![Change DMX Address](/docs/images/Change-DMX-Address.png)
 
 Type the new address for the first fixture in the selection and press
 \<Enter\> (using the format Universe . Address - if you miss out the
@@ -123,7 +123,7 @@ line. All programming is kept.
 4. To change DMX press \[Address\], type the new address and press
 enter. If this address is already in use, a warning icon will be shown.
 
-![Address softkey](/docs/images/image122.png)
+![Address softkey](/docs/images/Address-softkey.png)
 
 5. To change the DMX output line, press \[DMX Line=x\] and enter a new
 output line number.
@@ -148,7 +148,7 @@ output line number.
     any future conflicting fixtures without warning you (you can change
     this option back in the User Settings).
 
-![Fixture Conflict](/docs/images/image123.png)
+![Fixture Conflict](/docs/images/Fixture-Conflict.png)
 
 Setting Legends
 ---------------
@@ -199,7 +199,7 @@ colour picker will open to let you set the colour, or pressing \[System
 Colours\] will give you colour options on the softkeys. A \[Remove
 Halo\] softkey lets you remove the colour.
 
-![Fixture Halo](/docs/images/image80.png)
+![Fixture Halo](/docs/images/Fixture-Halo.png)
 
 To enable automatic halo colours, hold \<Avo\> and select \[User
 Settings\], then \[Handles\], then set Fixture Halos to \[Auto\].
@@ -212,7 +212,7 @@ view the halo colours are shown as a bar to the left of the list - this
 uses the user halo colour if one is set, otherwise the automatic colour
 is used. The User Setting does not affect this display.
 
-![Cue View](/docs/images/image124.png)
+![Cue View](/docs/images/Cue-View.png)
 
 DMX View Window
 ---------------
@@ -221,7 +221,7 @@ When you're having problems getting fixtures to work it can be useful to
 see the actual DMX output values coming from the console. Press
 \<View/Open\>, then \[Open Workspace Window\], then select \[DMX\].
 
-![DMX Workspace Window](/docs/images/image126.png)
+![DMX Workspace Window](/docs/images/DMX-Workspace-Window.png)
 
 The buttons on the left let you select the different output lines from
 the console. Scrolling the window to the right shows more information
@@ -292,7 +292,7 @@ the future (though you can restore to factory mappings at any time
 should you need to using the \[Clear All Mappings\] softkey).
 
 ![exchange
-mapping](/docs/images/image127.png)
+mapping](/docs/images/exchange-mapping.png)
 
 To set up mapping:
 
@@ -335,7 +335,7 @@ new destination.
     All these actions have to be confirmed by pressing the \[Confirm\]
     softkey.
 
-![Exchange Mapping](/docs/images/image128.png)
+![Exchange Mapping](/docs/images/Exchange-Mapping.png)
 
 **Range mapping**
 

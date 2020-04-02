@@ -138,7 +138,7 @@ button shows the playback legend, which page they are from and which
 attributes are affected. To show the window press \<View/Open\>, \[Open
 Workspace Window\], \[Active Playbacks\].
 
-![Active Playbacks Window](/docs/images/image235.png)
+![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
 
 Click on a playback to instantly **kill** it. You can also press \[Playback
 Options\] followed by the playback in this window to change parameters
@@ -231,7 +231,7 @@ according to this mask. The default is for no attributes to release.
 To set the mask, press \<Release\> then \[Global Release Mask\]. The
 softkey shows which attributes are enabled.
 
-![Global Release Mask](/docs/images/image236.png)
+![Global Release Mask](/docs/images/Global-Release-Mask.png)
 
 ### Local Release Mask
 

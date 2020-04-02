@@ -20,7 +20,7 @@ button. This is the number **"n"** shown in the keypad commands below. You can
 change this number using the \[Set Legend\] softkey, see section [Changing the Patch](../patching/changing-the-patch.md#setting-legends).
 Groups also have a User Number.
 
-![Fixtures Window showing user numbers](/docs/images/image111.png)
+![Fixtures Window showing user numbers](/docs/images/Fixtures-Window-showing-user-numbers.png)
 
 ## Setting Dimmer/Fixture Levels
 

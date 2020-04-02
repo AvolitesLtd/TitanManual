@@ -31,7 +31,7 @@ blank background. You can overlay your fixture layout on the window, to
 help you see where your fixtures are, by clicking on the \[Fixture
 Overlay 50/50\] context menu button.
 
-![Effect Editor - Pixel Mapper - New Effect](/docs/images/image195.png)
+![Effect Editor - Pixel Mapper - New Effect](/docs/images/Effect-Editor-Pixel-Mapper-New-Effect.png)
 
 ### Elements
 
@@ -60,7 +60,7 @@ the following elements to animate:
 
 -   [Ai media server content](../synergy/operating-synergy.md#lightmap-pixel-mapping-ai-media-content)
 
-![Effect Editor - Pixel Mapper - Adding an Element](/docs/images/image196.png)
+![Effect Editor - Pixel Mapper - Adding an Element](/docs/images/Effect-Editor-Pixel-Mapper-Adding-an-Element.png)
 
 The graphic element will appear in the top part of the window and will
 be output to the fixtures. You can change it using the sliders below,
@@ -74,7 +74,7 @@ which will vary depending on the shape but may include:
 - Border width
 > To change the **colour**, click on the **layer name**
 
-![Effect Editor - Pixel Mapper - Circle on Layer](/docs/images/image197.png)
+![Effect Editor - Pixel Mapper - Circle on Layer](/docs/images/Effect-Editor-Pixel-Mapper-Circle-on-Layer.png)
 
 ### Animations
 
@@ -85,7 +85,7 @@ The animated effect will show in the black window
 and be output to the fixtures You can add multiple animations which will
 combine to give the overall effect.
 
-![Effect Editor - Pixel Mapper - Adding an Animation](/docs/images/image198.png)
+![Effect Editor - Pixel Mapper - Adding an Animation](/docs/images/Effect-Editor-Pixel-Mapper-Adding-an-Animation.png)
 
 Available animations are:
 
@@ -146,7 +146,7 @@ Some points about animations:
 -   If you specify **Spawn For** or **Run For**, the simulation will stop after
     the specified number of cycles. To restart the simulation, click the
     **reset** button on the top right of the Effect Editor window.\
-    ![Effect Editor - Pixel Mapper - Reset Button](/docs/images/image195a.png)
+    ![Effect Editor - Pixel Mapper - Reset Button](/docs/images/Effect-Editor-Pixel-Mapper-Reset-Button.png)
 
 -   For an effect with a **start point** and **end poin**t, the number of cycles
     is the number of times it goes between the start and end points. For
@@ -162,7 +162,7 @@ Preview\]. A real life view of each effect currently running is shown in
 a button at the bottom of the screen, you can select each of these by
 pressing the button.
 
-![Pixel Mapper Preview Window](/docs/images/image199.png)
+![Pixel Mapper Preview Window](/docs/images/Pixel-Mapper-Preview-Window.png)
 
 ### General Use
 
@@ -184,7 +184,7 @@ Each effect you create also has master parameters which affect how
 it will combine with other effects. Click on the effect name top
 left to set these parameters:
 
-![Effect Editor - Pixel Mapper - Effect Master Parameters](/docs/images/image200.png)
+![Effect Editor - Pixel Mapper - Effect Master Parameters](/docs/images/Effect-Editor-Pixel-Mapper-Effect-Master-Parameters.png)
 
 -   The **Block Effect** switch allows you to create a pixel map effect
     which will block out any pixel maps running on the selected fixtures

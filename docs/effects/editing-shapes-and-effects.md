@@ -15,7 +15,7 @@ and the cue they are coming from or the programmer.
 >   If the console does not have a \<Shape\> button you can access this
     function using \[Shapes and Effects\], \[Shape Generator\], \[Edit\]
 
-![Shape Generator - Selecting a Shape to Edit](/docs/images/image201.png)
+![Shape Generator - Selecting a Shape to Edit](/docs/images/Shape-Generator-Selecting-a-Shape-to-Edit.png)
 
 By default all shapes are selected. Choose the shapes to control and
 press \<Enter\> or \<Shape\> to connect the shapes to the wheels to
@@ -36,7 +36,7 @@ Editing Shapes and Effects in Cues
 Shapes and pixel mapper effects stored in cues can be edited from the
 Cue View window.
 
-![Playback View for Cue with Shape](/docs/images/image202.png)
+![Playback View for Cue with Shape](/docs/images/Playback-View-for-Cue-with-Shape.png)
 
 To view and/or edit the parameters of the shape or effect, click on the
 **View Shape** or **View Pixel Effect** button. If more than one shape or effect

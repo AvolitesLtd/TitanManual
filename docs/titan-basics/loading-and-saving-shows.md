@@ -69,7 +69,7 @@ Loading a show
 The console will automatically reload the last show when it is turned
 on.
 
-![Show Browser](/docs/images/image104.png)Press the \<Disk\> button then \[Load
+![Show Browser](/docs/images/Show-Browser.png)Press the \<Disk\> button then \[Load
 Show\] to load in a new show. The Show Browser window will appear.
 
 On the top left you can select which drive is used, or show files on all
@@ -118,12 +118,12 @@ For Import Show to work, you need to map fixtures from your imported
 file to fixtures in the current show so that Titan knows where to import
 the programming to.
 
-![Fixture Mapping](/docs/images/image106.png)
+![Fixture Mapping](/docs/images/Fixture-Mapping.png)
 
 You can then select items from the imported show and store them onto
 workspace or panel buttons in your current show.
 
-![Import](/docs/images/image108.png)
+![Import](/docs/images/Import.png)
 
 1. Press the \<Disk\> button.
 

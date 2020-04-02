@@ -8,7 +8,7 @@ When preparing a show it is often useful to create a report of how the
 show is patched or programmed on the console, for example to give to a
 crew when pre-rigging fixtures, or just for your records.
 
-![Exported Report](/docs/images/image110.png)
+![Exported Report](/docs/images/Exported-Report.png)
 
 Reports can be created in HTML, PDF, CSV or XML formats for the
 following:

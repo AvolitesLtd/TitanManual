@@ -44,10 +44,10 @@ On the Arena console, the rotary encoders on the Mini Screen are very useful as 
 it as a master. Press the Display button below the encoders to show legends for the encoders on the screen if they are not already shown
 (there are 4 display modes to cycle through).
 
-![Arena Miniscreen](/docs/images/image76.png)
+![Arena Miniscreen](/docs/images/Arena-Miniscreen.png)
 
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/image6.png)
+  ![info](/docs/images/info.png)
 
   If you assign a master to a handle with an LED, the LED will flash if the fader is at zero... just as a reminder to help you work out why no lights are coming on.
   --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -85,7 +85,7 @@ BPM masters can have multipliers or dividers set which allows you to vary how th
 Normally the BPM master fader sets the BPM, and the multiplier is shown below. Tapping the blue button will also set the BPM or you can enter BPM on the keypad and press the blue button of the master to set it.
 
   -----------------------------------------------------------------------------------------------------------------
-  ![BPM Master on playback](/docs/images/image296.png)   
+  ![BPM Master on playback](/docs/images/BPM-Master-on-playback.png)   
 
   *BPM master with BPM master with BPM on fader multiplier on fader*
 
@@ -133,7 +133,7 @@ Press \[Playback Options\] and then the blue select button above the fader to se
 If the playback fader has a display area on the screen, the level and
 mode of the master will be shown.
 
-![Group Master](/docs/images/image298.png)
+![Group Master](/docs/images/Group-Master.png)
 
 When a group master is set to disabled or moved to a handle without a fader, it will become locked at the current fader level. Re-enable or move back to a fader to adjust the level.
 
@@ -153,7 +153,7 @@ If a Flash Master is configured, this will also master the group flash.
 
 --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![info](/docs/images/image6.png)
+![info](/docs/images/info.png)
 
 You can release all masters by pressing \<Release\> then \[Release All Masters\]. This can be useful if something is being controlled by a master but you are not sure where it is.
 --------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -167,11 +167,11 @@ The Scene Master allows you to preset an output state by firing a number of play
 
 You assign a fader to be Scene Master from the \[Assign Mastering\] menu in System mode. The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
 
-![Scene Master (Live)](/docs/images/image299.png)
+![Scene Master (Live)](/docs/images/Scene-Master-Live.png)
 
 To enter preset mode, press the blue button of the Scene Master. The display above the master will show "Preset" and the background turns purple.
 
-![Scene Master (Preset)](/docs/images/image300.png)
+![Scene Master (Preset)](/docs/images/Scene-Master-Preset.png)
 
 Now any changes you make -- firing playbacks, stepping cue lists, applying palettes and so on -- will only be shown on the visualiser. Everything you change for the preset will also turn purple on its display.
 
@@ -228,7 +228,7 @@ quickly change the key profile, hold \<Avo\> Shift and press \[Edit Key
 Profile\]. The Sapphire Touch also has a configurable Black button for
 each fader.
 
-![Playback Faders with key profiles applied](/docs/images/image301.png)
+![Playback Faders with key profiles applied](/docs/images/Playback-Faders-with-key-profiles-applied.png)
 
 The screen relating to each playback fader
 shows the allocated function of the blue and grey buttons.
@@ -290,7 +290,7 @@ The top line of the button shows the page number and tells you where on
 the desk the playback is stored. The second line shows the legend, and
 the third line shows which attributes are affected by the playback.
 
-![Active Playbacks Windown](/docs/images/image235.png)
+![Active Playbacks Windown](/docs/images/Active-Playbacks-Window.png)
 
 Click on a playback to instantly kill it. You can also press \[Playback
 Options\] followed by the playback in this window to change parameters

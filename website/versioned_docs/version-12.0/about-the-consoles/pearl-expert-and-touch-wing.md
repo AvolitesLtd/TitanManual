@@ -5,7 +5,7 @@ sidebar_label: Pearl Expert and Touch Wing
 original_id: pearl-expert-and-touch-wing
 ---
 
-![Pearl Expert](/docs/images/image49.png)
+![Pearl Expert](/docs/images/Pearl-Expert.png)
 
 The Pearl Expert has four main control areas:
 
@@ -19,7 +19,7 @@ programs
 
 \(D\) The **Programming and setup controls** configure and program the console
 
-![Pearl Expert](/docs/images/image51.png)
+![Pearl Expert](/docs/images/Pearl-Expert-2.png)
 
 ## The Main Controls
 
@@ -73,7 +73,7 @@ front of the console.
 
 ## The Back Panel
 
-![Pearl Expert Back Panel](/docs/images/image53.png)
+![Pearl Expert Back Panel](/docs/images/Pearl-Expert-Back-Panel.png)
 
 All the connections required for the console are found on the back
 panel. Most are self-explanatory.
@@ -94,7 +94,7 @@ console should be used to start it up and shut it down properly.
 	
 ## The Pearl Expert Touch Wing
 
-![Pearl Expert Touch Wing](/docs/images/image55.png)
+![Pearl Expert Touch Wing](/docs/images/Pearl-Expert-Touch-Wing.png)
 
 The optional Pearl Expert Touch Wing uses a touch screen and additional
 wheels to provide the standard Titan interface for selecting fixtures,

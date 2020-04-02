@@ -15,7 +15,7 @@ can also use [Groups](../controlling-fixtures/fixture-groups.md) to select multi
 If the fixture is patched on a fader handle, press the blue button to
 select the fixture.
 
-![Fixtures Window](/docs/images/image131.png)
+![Fixtures Window](/docs/images/Fixtures-Window.png)
 
 1. Press the Select buttons for the fixtures you want. Touch buttons
 will light up pale blue when selected, physical buttons will light
@@ -196,7 +196,7 @@ window to select the main fixture, or individual cells for control (use
 the \[Open Workspace Window\] softkey to open the Attribute Editor
 window).
 
-![Cell Selection](/docs/images/image133.png)
+![Cell Selection](/docs/images/Cell-Selection.png)
 
 You can also use \<Unfold\> to expand the cells onto individual select
 buttons. In the Fixtures workspace, the current page of fixtures will be
@@ -290,7 +290,7 @@ You can also touch the roller image on the screen to change the
 attributes up or down by one. For continuously variable controls like a
 dimmer, touching the roller will set the attribute to full or zero.
 
-![Wheels](/docs/images/image134.png)
+![Wheels](/docs/images/Wheels.png)
 
 3. Repeat from 1 to change other attributes of the selected fixtures.
 
@@ -311,7 +311,7 @@ Some other things to know about attributes:
     means that there are further attributes to control. Press the
     Attribute button again to toggle through the attributes.
 
-![Toggle Attributes](/docs/images/image135.png)
+![Toggle Attributes](/docs/images/Toggle-Attributes.png)
 
 -   The wheels operate in an "acceleration" mode. If you spin the wheel
     fast, the fixture changes in larger steps. If you move the wheel
@@ -334,7 +334,7 @@ Some other things to know about attributes:
 The touch display above the wheels shows the attribute bank (Intensity,
 Position, Colour and so on) and the current values on the wheels.
 
-![Wheels](/docs/images/image134.png)
+![Wheels](/docs/images/Wheels.png)
 
 Touch the IPCGBESFX attribute bank buttons to change to a different
 bank. You can also use the physical attribute bank buttons as usual. The
@@ -365,7 +365,7 @@ attribute name text just below the on-screen IPCGBES buttons.
 
 The buttons on the left of the window select the attribute to change.
 
-![Attribute Editor](/docs/images/image138.png)
+![Attribute Editor](/docs/images/Attribute-Editor.png)
 
 The rest of the window contains buttons or controls to set the attribute
 value. For attributes such as gobos and fixed colours, a button is
@@ -381,13 +381,13 @@ attribute to the full window, displaying more buttons as shown below.
 Gobo images will be shown if the fixture personality has the information
 included (not all do).
 
-![Gobo Selection](/docs/images/image139.png)
+![Gobo Selection](/docs/images/Gobo-Selection.png)
 
 If an attribute has a range of values, sliding your finger left and
 right on the button will show a horizontal slider which allows you to
 adjust the attribute.
 
-![Range slider](/docs/images/image140.png)
+![Range slider](/docs/images/Range-slider.png)
 
 When the selected fixture has subfixtures or cells, buttons appear at
 the top of the attribute editor window allowing you to select the whole
@@ -395,20 +395,20 @@ fixture (left hand button), or individual cells for control. The layout
 of the cell buttons matches the layout set in the pixel mapper to help
 you locate the correct cell on the fixture.
 
-![Cells](/docs/images/image133.png)
+![Cells](/docs/images/Cell-Selection.png)
 
 Some types of attribute have special displays as follows:
 
 ### Intensity/Shutter
 
-![Intensity Shutter](/docs/images/image141.png)
+![Intensity Shutter](/docs/images/Intensity-Shutter.png)
 
 Provides an easy slider for Dimmer, also buttons for 0%, 100%, up and
 down 5%, and intensity locate (affects only the intensity).
 
 ### Position
 
-![Position](/docs/images/image142.png)
+![Position](/docs/images/Position.png)
 
 Provides a way to set the position from the touchscreen using an X-Y
 grid. Positions of selected fixtures are shown as circles on the grid
@@ -439,7 +439,7 @@ For fixtures which are capable of colour mixing, there are several ways
 you can select a colour which are selected by tabs at the top of the
 Attribute Editor window.
 
-![Colour Mix](/docs/images/image143.png)
+![Colour Mix](/docs/images/Colour-Mix.png)
 
 HIS/RGB/CMY provides a colour wheel with interactive sliders for
 changing Hue/Saturation/Intensity, Red/Green/Blue, and
@@ -454,7 +454,7 @@ can still be controlled using the RGB or HSI sliders.
 
 ### Colour mix: Picker
 
-![Colour Picker](/docs/images/image144.png)
+![Colour Picker](/docs/images/Colour-Picker.png)
 
 This is the classic colour picker from earlier versions of Titan which
 provides a picker for hue and saturation, with a slider on the right
@@ -462,7 +462,7 @@ hand side to set the intensity.
 
 ### Colour mix: Channel
 
-![Colour Channels](/docs/images/image145.png)
+![Colour Channels](/docs/images/Colour-Channels.png)
 
 Provides a slider for each colour control channel in the fixture. The
 sliders shown will vary depending on what is provided in the fixture -
@@ -472,7 +472,7 @@ UV/Congo Blue which are hard to mix from a picker or colour wheel.
 
 ### Colour mix: Filters
 
-![Colour Filters](/docs/images/image146.png)
+![Colour Filters](/docs/images/Colour-Filters.png)
 
 Lets you pick a gel/filter colour from the Lee, Roscolux or GamColor
 ranges of filters. You can search for a particular colour by name or by
@@ -490,7 +490,7 @@ patched as an active fixture for the thumbnails to work.
 For Ai media servers please see the [Synergy](../synergy.md) section for more details
 of how Synergy allows you to control the setup and media playback.
 
-![Clip Selection](/docs/images/image147.png)
+![Clip Selection](/docs/images/Clip-Selection.png)
 
 ### Shutter Blades/Keystone
 
@@ -498,7 +498,7 @@ Fixtures which support keystoning or blades/shutters can be controlled
 graphically in the attribute window. Select and drag the corners or
 sides of the image to control the fixture.
 
-![Blades](/docs/images/image148.png)
+![Blades](/docs/images/Blades.png)
 
 > Updated personality files may be required to support the keystone/blade functions. If the functions are not shown in the Attribute View, try downloading and installing the latest personality file, then run the Update Patched Fixtures command.
 
@@ -512,7 +512,7 @@ Type a number on the numeric keypad then press one of the softkeys to
 set the value to the fixture. The Softkey legend will show what effect
 your value is going to have (such as \[Gobo 5\], or \[Deep Blue\]).
 
-![Attribute Softkey](/docs/images/image149.png)
+![Attribute Softkey](/docs/images/Attribute-Softkey.png)
 
 For attributes displayed in percent, such as Dimmer, or Colour Mix, you
 enter a value from 0-100 to set the percentage output. For attributes
@@ -598,7 +598,7 @@ Latch\>.
     locate them. For example 1 Through 4 \<Locate\> will select fixtures
     1 to 4 and locate them.
 
-![Syntax Selection](/docs/images/image150.png)
+![Syntax Selection](/docs/images/Syntax-Selection.png)
 
 -   When entering a command, the command line is shown on the display.
     You can go back using the grey Back button and you can abandon the
@@ -620,7 +620,7 @@ has an easy way of selecting patterns of fixtures within a range.
 
 3. Select a pattern from the softkeys. Your selection is modified so
 you will only be controlling, say, the odd fixtures.\
-![Pattern Select](/docs/images/image151.png)
+![Pattern Select](/docs/images/Pattern-Select.png)
 
 4. Press the \<Fix+1\> or \<Fix-1\> button to change the selection to
 the next stage of the pattern (\<Next\> and \<Prev\> on some consoles).
@@ -699,7 +699,7 @@ These groups are used to select which attributes you want to work with
 in many of the functions on the console, particularly when you are
 "masking off" certain attributes from being saved.
 
-![Attribute Groups](/docs/images/image152.png)
+![Attribute Groups](/docs/images/Attribute-Groups.png)
 
 Above the attributes roller on the screen, the console shows you which
 attribute group you are currently changing (the grey box). The Attribute
@@ -893,35 +893,35 @@ You can select different curves to use when in Fan mode. Hold down
 -   Line: Traditional fan, the first and last selected fixture are
     affected equally in opposite directions, the midpoint remains
     unchanged. This is most useful for pan.\
-    ![Line Fan](/docs/images/image153.png)
+    ![Line Fan](/docs/images/Fan-Line.png)
 
 -   Mirror- Divides the selection into two halves, the position in each
     half is the mirror of the other half\
-    ![Mirror Fan](/docs/images/image154.png)
+    ![Mirror Fan](/docs/images/Fan-Mirror.png)
 
 -   Wings -- Divides the selection into three parts, the positions in
     the outer two parts mirror each other and the central part does not
     change.\
-    ![Wings Fan](/docs/images/image155.png)
+    ![Wings Fan](/docs/images/Fan-Wings.png)
 
 -   Arrow - The first and last selected fixture are affected equally to
     the midpoint fixture but in the opposite direction. This is useful
     for colour mixing, tilt and dimmer.\
-    ![Arrow Fan](/docs/images/image156.png)
+    ![Arrow Fan](/docs/images/Fan-Arrow.png)
 
 -   Pull Middle - The first and last selected fixture remain at the
     current value, the midpoint is affected most. This is useful for
     colour mixing, tilt and dimmer.\
-    ![Pull Middle Fan](/docs/images/image157.png)
+    ![Pull Middle Fan](/docs/images/Fan-Pull-Middle.png)
 
 -   Pull Ends - The first and last selected fixture are affected most,
     the midpoint is unchanged. This is useful for colour mixing, tilt
     and dimmer.\
-    ![Pull Ends Fan](/docs/images/image158.png)
+    ![Pull Ends Fan](/docs/images/Fan-Pull-Ends.png)
 
 -   Pull End -- Like pull ends but only from one end, the other end does
     not change\
-    ![Pull End Fan](/docs/images/image159.png)
+    ![Pull End Fan](/docs/images/FanPull-End.png)
 
 ### Fan Parts
 
@@ -931,13 +931,13 @@ the numeric keypad. The Fan will divide into that number of parts, for
 example:
 
 Normal (1):\
-![1 Part](/docs/images/image160.png)
+![1 Part](/docs/images/Fan-1-Part.png)
 
 2:\
-![2 Parts](/docs/images/image161.png)
+![2 Parts](/docs/images/Fan-2-Parts.png)
 
 3:\
-![3 Parts](/docs/images/image162.png)
+![3 Parts](/docs/images/Fan-3-Parts.png)
 
 ## Setting Fixture/Attribute Times
 

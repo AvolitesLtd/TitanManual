@@ -19,11 +19,11 @@ Run the Pro DJ Link Bridge software from the Tools \> Additional Programs menu o
 
 - You can set the Bridge software to run automatically when the console powers up using the Tools \> Control Panel \> Run on Startup menu option. This is useful in club environments where the console is always linked.
 
-![Pro-DJ link bridge command on shell menu](/docs/images/pro-dj-link-bridge-shell.png)
+![Pro-DJ link bridge command on shell menu](/docs/images/Pro-DJ-link-bridge-command-on-shell-menu-2.png)
 
 Look at the Interface tab of the bridge software to see what IP address is being used by the Pioneer equipment. You need to set the network interface on the console to use an IP address in the same range – if it is using DHCP, just set the console to DHCP as well, or if using the automatic addresses set a fixed address. For example if the bridge is set to 169.254.225.212 as in the image below, set the console to 169.254.225.1 (assuming nothing else on the network is using that address).
 
-![Pro-DJ link bridge command on shell menu](/docs/images/pro-dj-link-bridge-screen.png)
+![Pro-DJ link bridge command on shell menu](/docs/images/Pro-DJ-link-bridge-command-on-shell-menu.png)
 
 - Once you have everything connected up and have got all the IP addresses right, the bridge software should show connections for both the Titan console and the DJ mixer.
 - Some ArtNet / sACN equipment can be configured to run on the 169.254.\*.\* address range, in which case you can run everything on the same network.
@@ -39,7 +39,7 @@ Pioneer Workspace window
 
 From the \[Open Workspace Window\] menu, select the \[PioneerDJ\] option.
 
-![Pioneer Workspace window](/docs/images/pioneer-workspace-window1.png)
+![Pioneer Workspace window](/docs/images/Pioneer-Workspace-window.png)
 
 The top of the window shows a big (detail) waveform and a small (full track) waveform for the current track. Multiple tracks can be shown one above the other.
 Below that, details of the current track playing on each device is shown.
@@ -48,7 +48,7 @@ You can select which track is currently the Master by pressing the track number 
 
 Context menu buttons allow you to show or hide the big and small waveform displays, the track details and the status bar. The other elements of the window will change to fill the space.
 
-![Pioneer context menu buttons](/docs/images/pioneer-context-menu.png)
+![Pioneer context menu buttons](/docs/images/Pioneer-context-menu-buttons.png)
 
 - The \[Zoom\] button allows you to set the scale of the big waveform.  
 
@@ -70,7 +70,7 @@ Enter System mode and select \[Triggers\]. The Triggers window will open.
 6. Now you need to select which Pioneer deck will control the BPM. Select \[Deck=\] as Master, 1, 2, 3, 4. \[Master\] will use the track you have currently selected as Master (red M displayed). The 1-4 options let you fix the control to one of the decks.
 7. Press \[Add\]. The trigger should now appear as shown below.
 
-![Trigger workspace with Pioneer trigger added](/docs/images/pioneer-trigger-added.png)
+![Trigger workspace with Pioneer trigger added](/docs/images/Trigger-workspace-with-Pioneer-trigger-added.png)
 
 Now you should see the BPM master automatically change to match the BPM of the track playing which you have selected as Master (or on the selected CDJ player if you selected a fixed player number).
 

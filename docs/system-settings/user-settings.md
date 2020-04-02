@@ -8,7 +8,7 @@ The User Settings menu may be accessed from the System mode menu, and
 also from Program mode: hold down the \<Avo\> Shift button and press
 \[User Settings\].
 
-![User Settings Window](/docs/images/image327.png)
+![User Settings Window](/docs/images/User-Settings-Window.png)
 
 A window will open showing the user settings, or you can also set the
 same options using the softkey options. User Settings are individual for
@@ -17,7 +17,7 @@ each User and you can change the User from this screen.
 
 > Click on the *i* button for a help window on each setting.
 > 
-> ![i button](/docs/images/image245.png)
+> ![i button](/docs/images/i-button.png)
 
 Options are divided into categories on the softkeys or down the left
 hand side.

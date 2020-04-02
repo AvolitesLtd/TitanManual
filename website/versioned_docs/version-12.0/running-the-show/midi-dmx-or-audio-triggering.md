@@ -36,7 +36,7 @@ Setting up Remote Triggering
 Enter System mode and select \[Triggers\]. The Triggers window will
 open.
 
-![Triggers Window](/docs/images/image304.png)
+![Triggers Window](/docs/images/Triggers-Window.png)
 
 The left hand side of the window has a list of trigger sets. By default
 the following sets are provided:
@@ -93,7 +93,7 @@ carried out.
 
 You can continue to add other triggers to the mapping.
 
-![Triggers Window with MIDI triggers](/docs/images/image305.png)
+![Triggers Window with MIDI triggers](/docs/images/Triggers-Window-with-MIDI-triggers.png)
 
 To delete a trigger from the mapping, select it in the list and press
 the rubbish bin button at the bottom.
@@ -160,7 +160,7 @@ which of the bands is being used.
 
 Audio triggers are adjusted in the Audio Triggers workspace.
 
-![Audio Window](/docs/images/image306.png)
+![Audio Window](/docs/images/Audio-Window.png)
 
 If the console does not have suitable hardware a warning message is
 displayed. Currently only the Quartz and Arena consoles have the audio

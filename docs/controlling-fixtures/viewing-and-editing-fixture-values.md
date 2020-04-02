@@ -12,7 +12,7 @@ is doing. The Channel Grid window allows you do to that. Display it by
 pressing \<View/Open\> then \[Open workspace window\] then \[Channel
 Grid\].
 
-![Channel Grid](/docs/images/image163.png)
+![Channel Grid](/docs/images/Channel-Grid.png)
 
 The window can be set to different modes using the context buttons to
 the left of the menu. The modes are:
@@ -57,7 +57,7 @@ If you want to see at a glance the intensity setting of each fixture,
 the Intensity window is the place to be. To show the window, press
 \[Open workspace window\] then \[Intensity\].
 
-![Intensity View](/docs/images/image164.png)
+![Intensity View](/docs/images/Intensity-View.png)
 
 Each fixture has a block showing the intensity as a number and as a bar
 down the left side. The header bar shows selection/programmer state like
@@ -67,7 +67,7 @@ down arrow.\
 Tracked values from previous cues are shown with a magenta equals sign.\
 In a solo or block cue a red "not permitted" symbol is shown.
 
-![Solo/Block Cue](/docs/images/image165.png)
+![Solo/Block Cue](/docs/images/Solo-Block-Cue.png)
 
 If intensity levels are controlled by an effect they are shown in yellow
 with a tilde symbol (\~).

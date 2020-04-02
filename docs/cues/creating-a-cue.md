@@ -85,7 +85,7 @@ Other useful things to know about recording cues:
     the fader or button does not have an associated screen you will have
     to resort to the old fashioned method of white tape and sharpie.*
 
-![Playbacks stored on playback faders](/docs/images/image234.png)
+![Playbacks stored on playback faders](/docs/images/Playbacks-stored-on-playback-faders.png)
 
 -   A Static Playbacks workspace is available to show the contents of
     the macro/executor buttons and (on the Tiger Touch) the 10 static

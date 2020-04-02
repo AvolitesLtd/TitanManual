@@ -6,7 +6,7 @@ sidebar_label: Arena
 
 The Arena has five main control areas:
 
-![Arena](/docs/images/image22.png)
+![Arena](/docs/images/Arena.png)
 
 \(A\) The **Touch screen** contains fixture, palette and group select buttons.
 It also shows legends for the playback faders and shows the current menu
@@ -22,7 +22,7 @@ allow storage of frequent key sequences.
 
 \(F\) The **Programming and setup controls** configure and program the console
 
-![Arena controls](/docs/images/image24.png)
+![Arena controls](/docs/images/Arena-controls.png)
 
 ## The Main Controls
 
@@ -50,7 +50,7 @@ button on a handle.
 which can be replayed with a single button press. Playbacks can also be
 stored here.
 
-![Arena controls 2](/docs/images/image25.png)
+![Arena controls 2](/docs/images/Arena-controls-2.png)
 
 \(M\) The **Master fader** can be used to control the overall output of the console 
 (though it is disabled by default).
@@ -85,7 +85,7 @@ sets fixtures to a known start condition while programming.
 ## The Back Panel
 
 
-![Arena Back Panel](/docs/images/image26.png)
+![Arena Back Panel](/docs/images/Arena-Back-Panel.png)
 
 \(U\) USB and reset buttons for panel reset and internal UPS battery disconnect.
 
@@ -120,4 +120,4 @@ operation. Lift the rear of the console and press the Leg Release button
 at each side to set the leg to the desired height. Make sure you support
 the rear of the console when adjusting the height.
 
-![Arena Leg](/docs/images/image29.jpeg)
+![Arena Leg](/docs/images/Arena-Leg.jpeg)

@@ -20,7 +20,7 @@ Creating a playback group
 First open the Playback Groups workspace by pressing \[Open Workspace Window\] 
 then use the \[Next\] button (or text search box) to select \[Playback Groups\].
 
-![Empty playback groups workspace](/docs/images/playbackgroups1.png)
+![Empty playback groups workspace](/docs/images/Empty-playback-groups-workspace.png)
 
 1.	Press the + button. This creates a new empty playback group in the left pane.
 
@@ -33,7 +33,7 @@ The playbacks will appear in the workspace as you select them.
 
 5.	Press \<Exit\> when you have finished adding playbacks.
 
-![Empty playback groups workspace](/docs/images/playbackgroups2.png)
+![Empty playback groups workspace](/docs/images/Empty-playback-groups-workspace-2.png)
 
 - The playback selection toggles while in edit mode so you can remove a playback by 
   pressing its select button again. You can also remove a playback by pressing its button 
@@ -72,7 +72,7 @@ For each group you can set how playbacks in the group will behave. From the Play
 Groups workspace, select the group to be edited on the left then press the Options tab 
 at the bottom of the workspace.
 
-![Playback groups options workspace](/docs/images/playbackgroupsoptions.png)
+![Playback groups options workspace](/docs/images/Playback-groups-options-workspace.png)
 
 - **Mutually Exclusive** switches the exclusive mode on and off. This allows you to temporarily disable the exclusive action of a group without deleting the group.
 - **Kill Point** sets when other playbacks in the group will be killed when you fire a new playback:  
@@ -96,13 +96,13 @@ different display modes for the Playback Groups workspace:
 
 \[View Mode All\] – 2 panes with group buttons on the left and all the playbacks in each group shown on the right
 
-![Playback groups display mode 1](/docs/images/playbackgroupsdisplay1.png)
+![Playback groups display mode 1](/docs/images/Playback-groups-display-mode-1.png)
  
 \[View Mode Single\] – 2 panes with group buttons on the left, but only the playbacks in the currently selected group are shown on the right. Handy if you have groups with a lot of playbacks in each one.
 
-![Playback groups display mode 2](/docs/images/playbackgroupsdisplay2.png)
+![Playback groups display mode 2](/docs/images/Playback-groups-display-mode-2.png)
  
 \[View Mode Playbacks Only\] – Single pane with just the playbacks for each group shown.
 
-![Playback groups display mode 3](/docs/images/playbackgroupsdisplay3.png)
+![Playback groups display mode 3](/docs/images/Playback-groups-display-mode-3.png)
 

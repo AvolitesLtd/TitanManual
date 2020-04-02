@@ -27,7 +27,7 @@ been created. You should look here first if the console does not contain
 a personality for your fixture. The address is
 http://personalities.avolites.com
 
-[![Avolites Personalities Website](/docs/images/image353.png)](https://personalities.avolites.com/)
+[![Avolites Personalities Website](/docs/images/Avolites-Personalities-Website.png)](https://personalities.avolites.com/)
 
 All available fixture personalities are listed down the left side of the
 screen. You can use the boxes on the top left to filter the list to show

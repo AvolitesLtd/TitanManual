@@ -27,7 +27,7 @@ been created. You should look here first if the console does not contain
 a personality for your fixture. The address is
 http://personalities.avolites.com
 
-![Personality Website](/docs/images/image353.png)
+![Personality Website](/docs/images/Avolites-Personalities-Website.png)
 
 All available fixture personalities are listed down the left side of the
 screen. You can use the boxes on the top left to filter the list to show
@@ -56,7 +56,7 @@ file by clicking on the Download link at the top of the screen, then
 clicking on "Titan Fixture Library".
 
   ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![exclamation](/docs/images/image5.png)   Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
+  ![exclamation](/docs/images/exclamation.png)   Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
   ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **To update a console use the following procedure:**
