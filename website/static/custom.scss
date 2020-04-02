@@ -1,4 +1,5 @@
 /* your custom css */
+
 @font-face {
   font-family: "fontawesome";
   src: url(/fontawesome/webfonts/fa-solid-900.woff);
@@ -43,6 +44,13 @@
   font-weight: 700;
 }
 
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
 @media only screen and (max-width: 1023px) {
   #results {
     width: 100%;
@@ -51,12 +59,18 @@
   }
 }
 
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
 .container.paddingTop {
   padding-top: 20px;
 }
 
 .imageAlignTop .blockImage {
-  max-width: 200px;
+    max-width: 200px;
 }
 
 article a[target="_blank"]::after {
@@ -88,7 +102,7 @@ blockquote:before {
 }
 
 .docsNavContainer {
-  border-right: 2px solid #dadada;
+  border-right: 2px solid rgb(218, 218, 218);
 }
 
 sup {
@@ -188,9 +202,9 @@ input#search_input_react {
 
 @media only screen and (max-width: 1024px) {
   #search {
-    top: 10px;
-    right: 10px;
-    position: absolute;
+      top: 10px;
+      right: 10px;
+      position: absolute;
   }
 }
 
@@ -203,7 +217,6 @@ input#search_input_react {
     width: 120px;
   }
 }
-
 @media only screen and (max-width: 600px) {
   .headerTitleWithLogo {
     display: none !important;
