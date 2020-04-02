@@ -3,12 +3,6 @@
   src: url(/fontawesome/webfonts/fa-solid-900.woff);
 }
 
-@media only screen and (max-device-width: 736px) {
-  .headerTitleWithLogo {
-    display: none !important;
-  }
-}
-
 input#search_input_react {
   font-size: 16px;
   position: relative;
@@ -86,6 +80,73 @@ input#search_input_react {
   font-weight: 700;
 }
 
+.softkey, .key, .annotate {
+  display: inline-block;
+  margin: 3px;
+  padding: 3px 7px;
+  border: 1px solid;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-decoration: none !important;
+  font-style: normal !important;
+}
+
+a .softkey, a .key, a .annotate {
+  color: inherit !important;
+}
+
+.softkey {
+  border-radius: 5px;
+  background: #f3f9ff;
+  border-color: #0063ca;
+  color: #004a97;
+}
+
+.key {
+  background: #f3f3f3;
+  border-color: #a7afb7;
+  color: #414951;
+  text-transform: uppercase;
+}
+
+.annotate {
+  border-radius: 5px;
+  padding: 1px 4px;
+  background-color: #fffcfc;
+  border-color: #D80029;
+  color: #D80029;
+  font-weight: bold !important;
+}
+
+footer .sitemap {
+  margin-top: 1em !important;
+}
+
+footer .copyright {
+  align-self: center;
+}
+
+footer .copyrightImg {
+  display: block;
+  margin: 0em auto 0.3em !important;
+  opacity: .4;
+  -webkit-transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in-out;
+  max-width: 170px;
+}
+
+footer .copyrightImg:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-device-width: 736px) {
+  .headerTitleWithLogo {
+    display: none !important;
+  }
+}
+
 .docsNavContainer {
   border-right: 2px solid #dadada;
 }
@@ -134,47 +195,6 @@ article sub {
   font-size: smaller;
 }
 
-article .softkey, article .key, article .annotate {
-  display: inline-block;
-  margin: 3px;
-  padding: 3px 7px;
-  border: 1px solid;
-  white-space: nowrap;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.2em;
-  text-decoration: none !important;
-  font-style: normal !important;
-}
-
-a article .softkey, a article .key, a article .annotate {
-  color: inherit !important;
-}
-
-article .softkey {
-  border-radius: 5px;
-  background: #f3f9ff;
-  border-color: #007cfd;
-  color: #004a97;
-}
-
-article .key {
-  background: #f3f3f3;
-  border-color: #a7afb7;
-  color: #414951;
-  text-transform: uppercase;
-}
-
-article .annotate {
-  border-radius: 5px;
-  padding: 1px 4px;
-  background-color: #fffcfc;
-  border-color: #D80029;
-  color: #D80029;
-  font-size: 16px;
-  font-weight: bold !important;
-}
-
 article ol {
   position: relative;
   left: -1em;
@@ -205,27 +225,6 @@ article .iframify iframe {
   width: 100%;
   height: 100%;
   border: 0;
-}
-
-footer .sitemap {
-  margin-top: 1em !important;
-}
-
-footer .copyright {
-  align-self: center;
-}
-
-footer .copyrightImg {
-  display: block;
-  margin: 0em auto 0.3em !important;
-  opacity: .4;
-  -webkit-transition: opacity .15s ease-in-out;
-  transition: opacity .15s ease-in-out;
-  max-width: 170px;
-}
-
-footer .copyrightImg:hover {
-  opacity: 1;
 }
 
 .imageAlignTop .blockImage {
