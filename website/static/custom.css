@@ -1,7 +1,42 @@
-/* your custom css */
 @font-face {
   font-family: "fontawesome";
   src: url(/fontawesome/webfonts/fa-solid-900.woff);
+}
+
+@media only screen and (max-device-width: 736px) {
+  .headerTitleWithLogo {
+    display: none !important;
+  }
+}
+
+input#search_input_react {
+  font-size: 16px;
+  position: relative;
+  height: 30px;
+}
+
+#search {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1023px) {
+  #search {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-device-width: 370px) {
+  input#search_input_react {
+    width: 100px;
+  }
+  input#search_input_react:active,
+  input#search_input_react:focus {
+    width: 120px;
+  }
 }
 
 #results {
@@ -18,6 +53,14 @@
   z-index: 10000;
   padding: 0;
   box-shadow: black 7px 3px 10px;
+}
+
+@media only screen and (max-width: 1023px) {
+  #results {
+    width: 100%;
+    top: 100px;
+    height: calc(100vh - 100px);
+  }
 }
 
 #results li {
@@ -43,20 +86,12 @@
   font-weight: 700;
 }
 
-@media only screen and (max-width: 1023px) {
-  #results {
-    width: 100%;
-    top: 100px;
-    height: calc(100vh - 100px);
-  }
+.docsNavContainer {
+  border-right: 2px solid #dadada;
 }
 
 .container.paddingTop {
   padding-top: 20px;
-}
-
-.imageAlignTop .blockImage {
-  max-width: 200px;
 }
 
 article a[target="_blank"]::after {
@@ -64,15 +99,17 @@ article a[target="_blank"]::after {
   margin: 0 3px 0 5px;
 }
 
-blockquote {
-  min-height: 4.5em;
+article blockquote {
+  display: flex;
+  align-items: center;
   position: relative;
   padding-left: 80px;
   border-left: none;
-  background-color: rgba(100, 188, 255, 0.3);
+  min-height: 4.5em;
+  background-color: rgba(100, 176, 255, 0.3);
 }
 
-blockquote:before {
+article blockquote::before {
   position: absolute;
   display: flex;
   align-items: center;
@@ -87,21 +124,17 @@ blockquote:before {
   font-family: 'fontawesome';
 }
 
-.docsNavContainer {
-  border-right: 2px solid #dadada;
-}
-
-sup {
+article sup {
   vertical-align: super;
   font-size: smaller;
 }
 
-sub {
+article sub {
   vertical-align: sub;
   font-size: smaller;
 }
 
-.softkey, .key, .annotate {
+article .softkey, article .key, article .annotate {
   display: inline-block;
   margin: 3px;
   padding: 3px 7px;
@@ -114,32 +147,64 @@ sub {
   font-style: normal !important;
 }
 
-a .softkey, a .key, a .annotate {
+a article .softkey, a article .key, a article .annotate {
   color: inherit !important;
 }
 
-.softkey {
+article .softkey {
   border-radius: 5px;
-  background: #ecedf9;
-  border-color: #98a0dd;
-  color: #262f73;
+  background: #f3f9ff;
+  border-color: #007cfd;
+  color: #004a97;
 }
 
-.key {
-  background: #f2f2f2;
-  border-color: #bababa;
-  color: #4d4d4d;
+article .key {
+  background: #f3f3f3;
+  border-color: #a7afb7;
+  color: #414951;
   text-transform: uppercase;
 }
 
-.annotate {
+article .annotate {
   border-radius: 5px;
   padding: 1px 4px;
-  background-color: #fffdfc;
+  background-color: #fffcfc;
   border-color: #D80029;
   color: #D80029;
   font-size: 16px;
   font-weight: bold !important;
+}
+
+article ol {
+  position: relative;
+  left: -1em;
+  border-left: 3px solid #D80029;
+  padding-left: 3em;
+}
+
+article ol li {
+  padding-left: 0.75em;
+}
+
+article .iframify {
+  position: relative;
+  left: 0;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.2493%;
+}
+
+article .iframify.vine {
+  padding-bottom: 100%;
+}
+
+article .iframify iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 footer .sitemap {
@@ -163,70 +228,6 @@ footer .copyrightImg:hover {
   opacity: 1;
 }
 
-ol {
-  position: relative;
-  left: -1em;
-  border-left: 3px solid #d80029;
-  padding: 0.1em 0 0.1em 3em;
-}
-
-ol li {
-  padding-left: 0.75em;
-}
-
-input#search_input_react {
-  font-size: 16px;
-  position: relative;
-  height: 30px;
-}
-
-#search {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-@media only screen and (max-width: 1024px) {
-  #search {
-    top: 10px;
-    right: 10px;
-    position: absolute;
-  }
-}
-
-@media only screen and (max-width: 370px) {
-  input#search_input_react {
-    width: 100px;
-  }
-  input#search_input_react:active,
-  input#search_input_react:focus {
-    width: 120px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .headerTitleWithLogo {
-    display: none !important;
-  }
-}
-
-.iframify {
-  position: relative;
-  left: 0;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.2493%;
-}
-
-.iframify.vine {
-  padding-bottom: 100%;
-}
-
-.iframify iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
+.imageAlignTop .blockImage {
+  max-width: 200px;
 }
