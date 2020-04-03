@@ -15,7 +15,7 @@ const iframify = require('./iframify.js');
 const siteConfig = {
   title: 'Avolites Titan Manual', // Title for your website.
   tagline: 'Official Manual for the Avolites Titan software',
-  url: 'https://avolites.fraserstockley.com', // Your website URL
+  url: 'https://manual.avolites.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
