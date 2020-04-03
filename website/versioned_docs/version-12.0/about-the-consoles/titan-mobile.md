@@ -8,7 +8,7 @@ original_id: titan-mobile
 Titan Mobile is a USB wing which plugs into a PC or laptop (Windows 7 or
 above, 64 bit) running the Titan software.
 
-![Titan Mobile](/docs/images/image38.png)
+![Titan Mobile](/docs/images/Titan-Mobile.png)
 
 \(A\) The **Playback faders** are used to store and play back cues or chases.
 \(B\) The **Page Select buttons** let you change to a different page of
@@ -54,7 +54,7 @@ in the manual like this: /[Edit Times/]
 The system is designed to be used with a touch screen, but may be used
 with a mouse.
 
-![Titan Mobile Screen](/docs/images/image40.png)
+![Titan Mobile Screen](/docs/images/Titan-Mobile-Screen.png)
 
 \(K\) Four **Workspace Windows** may be shown on the screen. These contain
 touch buttons to control fixture selection, palette selection, groups,
@@ -80,7 +80,7 @@ about the playbacks on the 10 faders.
 
 ## Titan Mobile Connections panel
 
-![Titan Mobile Connections](/docs/images/image42.png)
+![Titan Mobile Connections](/docs/images/Titan-Mobile-Connections.png)
 All the connections required for the
 control panel are found on the right hand side. Most are
 self-explanatory. 

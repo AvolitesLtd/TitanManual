@@ -22,7 +22,7 @@ restored when loading a show. The default user is called "Operator" and
 the prompt area in the display shows the current user name and selected
 key profile.
 
-![systemarea](/docs/images/image85.png)
+![systemarea](/docs/images/systemarea.png)
 
 To change or create users, go to the Users menu.
 
@@ -109,7 +109,7 @@ start a connection, or use the other buttons to leave a session.
 show a list of sessions which you can connect to. Click on the session
 to start the connection.
 
-![SessionsView](/docs/images/image99.png)
+![SessionsView](/docs/images/SessionsView.png)
 
 -   A green line shows a good connection, a dotted red line shows a
     problem with a connection. Unavailable consoles are shown with a red
@@ -125,7 +125,7 @@ to start the connection.
     legends can be changed in the System menu using the \[Console
     Legend\] option.
 
-    ![Shell Slave](/docs/images/image100.png)
+    ![Shell Slave](/docs/images/Shell-Slave.png)
 
     Consoles connected in a multi-user session work on the same show. If
     the same handle worlds are selected then an action on one console is

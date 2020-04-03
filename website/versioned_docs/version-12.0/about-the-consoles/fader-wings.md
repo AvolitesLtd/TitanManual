@@ -16,7 +16,7 @@ associated legend display. The handles can be used as playbacks or to
 patch fixtures/dimmers. Each row of 15 faders has its own independent
 paging control.
 
-![Tiger Touch Wing](/docs/images/image57.png)
+![Tiger Touch Wing](/docs/images/Tiger-Touch-Wing.png)
 
 The Tiger Touch Wing connects by USB to the main console. It also needs
 a mains power connection. The Wing has a built in USB hub to provide 2
@@ -40,4 +40,4 @@ If you want to see the legends and function information for the wing
 controls, you can open the Wing View workspace window on the main
 console.
 
-![Titan Mobile Wing](/docs/images/image58.png)
+![Titan Mobile Wing](/docs/images/Titan-Mobile-Wing.png)

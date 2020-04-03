@@ -4,7 +4,7 @@ title: Sapphire Touch
 sidebar_label: Sapphire Touch
 ---
 
-![Sapphire Touch](/docs/images/image13.png)The Sapphire Touch has four main control
+![Sapphire Touch](/docs/images/Sapphire-Touch.png)The Sapphire Touch has four main control
 areas:
 
 \(A\) The two **Touch screens** contain fixture, palette and group select
@@ -23,7 +23,7 @@ sequences, screen layouts, groups or programs.
 
 ## The Main Controls
 
-![Sapphire Front](/docs/images/image14.png)
+![Sapphire Front](/docs/images/Sapphire-Front.png)
 
 \(E\) The **Workspace windows** on the touch screens contain touch buttons for
 fixtures, palettes, groups, playbacks, macros and more. You can also set
@@ -39,7 +39,7 @@ options. The options for each key change depending on what the console
 is doing. Softkey commands are shown in the manual 
 like this: \[Edit Times\]
 
-![Sapphire Front 2](/docs/images/image15.png)
+![Sapphire Front 2](/docs/images/Sapphire-Front-2.png)
 
 \(H\) The **Preset Faders** at the top are used to patch fixtures, and store
 and play back cues or chases. (I) **The Preset Page Select buttons** in the
@@ -55,7 +55,7 @@ the buttons.
 of playbacks. The touch screen above the faders shows information about
 each playback.
 
-![Sapphire Touch](/docs/images/image16.png)
+![Sapphire Touch](/docs/images/Sapphire-Touch-2.png)
 
 \(M\) The **Control wheels** are used to set control values (attributes) for
 the fixtures, and to set chase speeds and fades. The touch screen above
@@ -76,7 +76,7 @@ using the Control wheels. The buttons have lights on to show you which
 attributes are active. The Red button just below allows you to locate
 fixtures, which sets them to a known start position while programming.
 
-![Sapphire Manual Pen Tray](/docs/images/image18.png)
+![Sapphire Manual Pen Tray](/docs/images/Sapphire-Manual-Pen-Tray.png)
 
 The Wrist Rest across the front of the console lifts to reveal a handy
 storage tray. On the left hand end \(R\) is a USB socket for saving shows and
@@ -86,14 +86,14 @@ switch.
 ## The Back Panel
 
 ![Sapphire Manual Back Panel -
-Left](/docs/images/image20.jpeg)All the connections required for the
+Left](/docs/images/Sapphire-Manual-Back-Panel-Left.jpeg)All the connections required for the
 console are found on the back panel.
 
 On the left hand side are connectors for eight DMX512 outputs, MIDI,
 ethernet, and a DVI/USB connection for an external touch screen.
 
 ![Sapphire Manual Back Panel -
-Right](/docs/images/image21.jpeg)
+Right](/docs/images/Sapphire-Manual-Back-Panel-Right.jpeg)
 
 On the right hand side are DVI/USB connections for another external
 touch screen (screen 3) and a general purpose USB connector.

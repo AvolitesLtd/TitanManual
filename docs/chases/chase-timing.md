@@ -48,7 +48,7 @@ off"* effects which result.
 The following diagram shows you the effects of fixture
 overlap and attribute overlap in chases.
 
-![Fixture Overlap and Attribute Overlap diagram for a chase](/docs/images/image250.png)
+![Fixture Overlap and Attribute Overlap diagram for a chase](/docs/images/Fixture-Overlap-and-Attribute-Overlap-diagram-for-a-chase.png)
 
 Press \[Fixture Overlap\] then enter **0 - 100** on the keypad to change
 how fixtures overlap in the cue.\
@@ -76,7 +76,7 @@ lot of different timings or link/unlinks. See [Cue Lists](../cue-lists.md).
 1. Touch the playback display relating to the fader, or press
 \<Open/View\> then the **swop** button of the playback. The Playback View
 window will open.
-![Playback View for chase](/docs/images/image249.png)
+![Playback View for chase](/docs/images/Playback-View-for-chase.png)
 
 2. In the grid, touch the times you want to edit
 

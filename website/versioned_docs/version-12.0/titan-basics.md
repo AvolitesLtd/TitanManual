@@ -28,7 +28,7 @@ If an internal UPS is fitted (Sapphire Touch, Arena, optional on other
 consoles), on power loss the toolbar on the screen will turn orange and
 display how long you\'ve got before the console shuts down.
 
-![UPS Toolbar](/docs/images/image59.png)
+![UPS Toolbar](/docs/images/UPS-Toolbar.png)
 
 When the UPS battery runs low and the console is about to shut down, the
 toolbar turns red.
@@ -126,7 +126,7 @@ software for anything that might cause you problems. If any problems are
 found, a warning screen is displayed which offers the option to fix the
 problems.
 
-![Healthcheck](/docs/images/image60.png)
+![Healthcheck](/docs/images/Healthcheck.png)
 
 Only run fixes if you have plenty of time as some fixes can take up to
 an hour to complete.

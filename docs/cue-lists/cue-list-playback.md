@@ -11,13 +11,13 @@ Raise the fader of the cue list and press the **Go button** to run the first
 cue. The bottom section of the display shows the cue list; the current
 cue is highlighted in grey and the next cue has a box round it.
 
-![Connected Cue List view](/docs/images/image254.png)
+![Connected Cue List view](/docs/images/Connected-Cue-List-view.png)
 
 Also the display relating to the playback fader shows information about
 the cue list, including the current and next cue, fade progress of the
 current cue, and fade in/out times.
 
-![Playback handle of running cue list](/docs/images/image255.png)
+![Playback handle of running cue list](/docs/images/Playback-handle-of-running-cue-list.png)
 
 You can also open the Playback View window to show more details of the
 cue list by clicking the Cue List legend area or press \<View/Open\>
@@ -29,7 +29,7 @@ The option **"Auto View On Connect"** *(in the [User Settings/Wheels menu](../sy
 enabled will automatically open the relevant Playback View window when
 you fire a cue list.
 
-![Playback View of Cue List with cue fade in progress](/docs/images/image256.png)
+![Playback View of Cue List with cue fade in progress](/docs/images/Playback-View-of-Cue-List-with-cue-fade-in-progress.png)
 
 When times are in progress on a cue, green progress bars are shown in
 the Playback View window.

@@ -118,7 +118,7 @@ Playback Options for the cue list - see [Cue List Options](cue-list-options.md#c
 
 Cues containing shapes have a button for each shape.
 
-![Cue List window showing tracking shapes](/docs/images/image253.png)
+![Cue List window showing tracking shapes](/docs/images/Cue-List-window-showing-tracking-shapes.png)
 
 In the following cues where shapes are tracking, an option switch is
 shown for each active shape:
@@ -180,7 +180,7 @@ playback legend appears on the softkeys.
 5. You can continue to add Autoloads to other cues, or press \<Exit\>
 to finish.
 
-![Cue List Window with Autoload playback](/docs/images/image252.png)
+![Cue List Window with Autoload playback](/docs/images/Cue-List-Window-with-Autoload-playback.png)
 
 ---
 

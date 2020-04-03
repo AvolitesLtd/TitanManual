@@ -39,7 +39,7 @@ the Capture viewports to place it in the Capture show, the DMX address
 will be set from the Titan show. You can select and drag multiple
 fixtures.
 
-![Capture Console Patch Window](/docs/images/image271.png)
+![Capture Console Patch Window](/docs/images/Capture-Console-Patch-Window.png)
 
 Fixtures already placed in the internal Capture simulator will appear in
 the same position and orientation in the stand-alone Capture. Changes to

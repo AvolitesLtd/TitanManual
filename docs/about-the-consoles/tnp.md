@@ -4,7 +4,7 @@ title: TNP (Titan Net Processor)
 sidebar_label: TNP (Titan Net Processor)
 ---
 
-![TNP](/docs/images/image47.png)
+![TNP](/docs/images/TNP.png)
 
 The TitanNet Processor is the insides of a console without the control
 surface. It allows you to expand the number of DMX lines in a show

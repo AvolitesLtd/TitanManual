@@ -13,7 +13,7 @@ show.
 This chapter also has a section on [linking the console to an external
 full version of Capture](capture-visualiser/linking-the-console-to-stand-alone-capture.md).
 
-![Capture Visualiser Workspace Window](/docs/images/image96.png)
+![Capture Visualiser Workspace Window](/docs/images/Capture-Visualiser-Workspace-Window.png)
 
 To open the visualiser, select \[Capture Visualiser\] from the [\[Open
 Workspace Window\] menu](titan-basics/workspace-windows.md#shortcuts-to-open-workspace-windows).

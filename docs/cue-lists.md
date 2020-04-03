@@ -28,4 +28,4 @@ To view the contents of a cue list, touch the playback screen relating
 to the fader or press \<Open/View\> then the **swop button** of the
 playback.
 
-![Playback View of Cue List](/docs/images/image252.png)
+![Playback View of Cue List](/docs/images/Cue-List-Window-with-Autoload-playback.png)

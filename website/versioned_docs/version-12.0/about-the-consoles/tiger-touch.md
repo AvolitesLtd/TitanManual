@@ -5,7 +5,7 @@ sidebar_label: Tiger Touch
 original_id: tiger-touch
 ---
 
-![Tiger Touch](/docs/images/image30.png)
+![Tiger Touch](/docs/images/Tiger-Touch.png)
 
 The Tiger Touch has four main control areas:
 
@@ -27,7 +27,7 @@ front panel layout.
 
 ## The Main Controls
 
-![Tiger Touch controls](/docs/images/image31.png)
+![Tiger Touch controls](/docs/images/Tiger-Touch-controls.png)
 
 \(E\) The **Workspace windows** on the touch screen contain touch buttons for
 fixtures, palettes, groups, playbacks, macros and more. You can also set
@@ -52,7 +52,7 @@ select buttons, but you can assign macro buttons to change pages.
 which can be replayed with a single button press. Playbacks can also be
 stored here.
 
-![Tiger Touch controls 2](/docs/images/image31a.png)
+![Tiger Touch controls 2](/docs/images/Tiger-Touch-controls-2.png)
 
 \(J\) The **Master fader** can be configured to control the overall output of the console
 (it is disabled by default).
@@ -81,7 +81,7 @@ using the Control wheels. The buttons have lights on to show you which
 attributes are active. The red button in the bottom right corner of the console allows you to locate
 fixtures, which sets them to a known start position while programming.
 
-![Tiger Touch Back Panel](/docs/images/image32.png)
+![Tiger Touch Back Panel](/docs/images/Tiger-Touch-Back-Panel.png)
 
 ## The Back Panel
 

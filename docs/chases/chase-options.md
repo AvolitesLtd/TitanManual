@@ -10,7 +10,7 @@ be shown on the softkeys. To view the options window, press
 \<View/Open\> then the **Select** button of the playback, then click the
 Options tab.
 
-![Playback Options (playback tab) for a chase](/docs/images/image251.png)
+![Playback Options (playback tab) for a chase](/docs/images/Playback-Options-playback-tab-for-a-chase.png)
 
 Most of the options are the same as for Cues (see [Playback Options](../cues/playback-options.md)), only the additional Chase options are described here.
 

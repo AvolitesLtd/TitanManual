@@ -17,7 +17,7 @@ Fixture Selection
 If you [select fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) on the console, the fixtures will highlight in
 Capture so you can see where they are in real life.
 
-![Fixtures elected on internal Capture Visualiser Window](/docs/images/image270.png)
+![Fixtures elected on internal Capture Visualiser Window](/docs/images/Fixtures-elected-on-internal-Capture-Visualiser-Window.png)
 
 Camera Views
 ------------

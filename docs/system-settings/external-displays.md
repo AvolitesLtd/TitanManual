@@ -27,6 +27,6 @@ toolbar. Click \'Tools\' at the very top of the touch screen and select
 \'Control Panel\', then \'External Monitor\', then select the option to
 match the resolution of your monitor.
 
-![External Monitor Resolution](/docs/images/image325.png)
+![External Monitor Resolution](/docs/images/External-Monitor-Resolution.png)
 
 

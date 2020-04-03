@@ -4,7 +4,7 @@ title: Quartz
 sidebar_label: Quartz
 ---
 
-![Quartz](/docs/images/image34.png)
+![Quartz](/docs/images/Quartz.png)
 
 \(A\) The **Workspace windows** on the touch screen contain touch buttons for
 fixtures, palettes, groups, playbacks, macros and more. You can also set
@@ -62,7 +62,7 @@ until the restart is completed.
 
 ## Connections panel
 
-![Quartz Connections Panel](/docs/images/image36.png)
+![Quartz Connections Panel](/docs/images/Quartz-Connections-Panel.png)
 
 All the connections are on the rear panel. Most are self-explanatory.
 

@@ -24,15 +24,15 @@ Effects\], \[Pixel Mapper\], \[Create Effect\]
 option \[Fixture Overlay\] until it reads \[Fixture Overlay 50/50\]\
 *This will allow you to see the relationship of your fixtures to the
 effect as you create it*
-![Effect Editor - Pixel Mapper - Fixture Overlay 50/50](/docs/images/image203.png)
+![Effect Editor - Pixel Mapper - Fixture Overlay 50/50](/docs/images/Effect-Editor-Pixel-Mapper-Fixture-Overlay-50-50.png)
 
 5. Select \[Effect\] and drag **Background Opacity** slider to **0%**\
 *This will allow the whole effect to overlay any related intensities*
-![Effect Editor - Pixel Mapper - Setting Background Opacity of Effect](/docs/images/image204.png)
+![Effect Editor - Pixel Mapper - Setting Background Opacity of Effect](/docs/images/Effect-Editor-Pixel-Mapper-Setting-Background-Opacity-of-Effect.png)
 
 6. Select \[Layer 1\], click \[+\] at the bottom of the screen and then
 choose **Circle** from the elements that appear
-![Effect Editor - Pixel Mapper - Adding a Circle to Layer 1](/docs/images/image205.png)
+![Effect Editor - Pixel Mapper - Adding a Circle to Layer 1](/docs/images/Effect-Editor-Pixel-Mapper-Adding-a-Circle-to-Layer-1.png)
 
 7. Drag the **Zoom** slider until the circle covers approximately one
 cell. You can also use the **Width** and **Height** sliders to turn the
@@ -40,11 +40,11 @@ circle into an oval if that helps.
 
     Then drag the **X** and **Y** sliders to position the circle roughly in
     the centre of your fixtures if it is not already.
-    ![Effect Editor - Pixel Mapper - Transforming a Circle Element](/docs/images/image206.png)
+    ![Effect Editor - Pixel Mapper - Transforming a Circle Element](/docs/images/Effect-Editor-Pixel-Mapper-Transforming-a-Circle-Element.png)
 
 8. Select \[+\] again and choose **Displacement** from the animations that
 appear (this is represented as a few static blocks)
-![Effect Editor - Pixel Mapper - ](/docs/images/image207.png)  
+![Effect Editor - Pixel Mapper - ](/docs/images/Effect-Editor-Pixel-Mapper.png)  
 Note that nothing changes yet
 
 9. Select \[+\] and this time choose **Opacity** animation (represented as
@@ -62,7 +62,7 @@ a block fading in).
     run quicker and with more circles respectively. (High spawn rates are
     particularly useful for small randomised elements like this.)
 
-    ![Effect Editor - Pixel Mapper - Modify an Opacity Animation](/docs/images/image208.png)
+    ![Effect Editor - Pixel Mapper - Modify an Opacity Animation](/docs/images/Effect-Editor-Pixel-Mapper-Modify-an-Opacity-Animation.png)
 
 11. \<Record\> to a playback
 
@@ -92,7 +92,7 @@ choose Block from the elements that appear.
     Drag the **X** slider to the right until the block is just off the
     screen.
 
-    ![Effect Editor - Pixel Mapper - Transforming a Block](/docs/images/image209.png)
+    ![Effect Editor - Pixel Mapper - Transforming a Block](/docs/images/Effect-Editor-Pixel-Mapper-Transforming-a-Block.png)
 
 4. Click \[+\] again and choose **Linear Movement Animation** (represented
 as a block moving left to right).
@@ -112,7 +112,7 @@ as a block moving left to right).
     higher speed was initially useful for getting the correct spawn rate
     above.)
 
-    ![Effect Editor - Pixel Mapper - Modify a Linear Movement Animation](/docs/images/image210.png)
+    ![Effect Editor - Pixel Mapper - Modify a Linear Movement Animation](/docs/images/Effect-Editor-Pixel-Mapper-Modify-a-Linear-Movement-Animation.png)
 
 5. Click on \[Layer 2\], select \[+\] and select the Swirl element
 (represented by a **fan** shape with four arms).
@@ -128,7 +128,7 @@ as a block moving left to right).
     Increase **Border Width** to a low value so that we just have an
     outline.
 
-    ![Effect Editor - Pixel Mapper - Modifying Swirl](/docs/images/image211.png)
+    ![Effect Editor - Pixel Mapper - Modifying Swirl](/docs/images/Effect-Editor-Pixel-Mapper-Modifying-Swirl.png)
 
 6. Click on \[+\] and add a spin animation.
 
@@ -140,7 +140,7 @@ as a block moving left to right).
 
     Click and drag to the top left of the picker window to get a strong red.
 
-    ![Effect Editor - Pixel Mapper - Changing Colour of Swirl to Red](/docs/images/image212.png)
+    ![Effect Editor - Pixel Mapper - Changing Colour of Swirl to Red](/docs/images/Effect-Editor-Pixel-Mapper-Changing-Colour-of-Swirl-to-Red.png)
 
 8. Click on \[Effect\] at the top left to access the global controls.
 
@@ -153,7 +153,7 @@ as a block moving left to right).
     interact. This is because the white is on a lower layer. A higher
     layer number has priority over a lower number.
 >    
->   ![Pixel Mapper Preview Window - Overlayed Layers](/docs/images/image213.png)
+>   ![Pixel Mapper Preview Window - Overlayed Layers](/docs/images/Pixel-Mapper-Preview-Window-Overlayed-Layers.png)
 
 Creative Use of Fixture Layouts
 -------------------------------
@@ -196,14 +196,14 @@ An alternative goal might be a vertical **cascading** effect:
 
 1. Click on the **vertical resize tool** and drag down until the grid is at
 least twice the original height\
-![Layout Editor - Expanding Layout Grid](/docs/images/image214.jpeg)
+![Layout Editor - Expanding Layout Grid](/docs/images/Layout-Editor-Expanding-Layout-Grid.jpeg)
 
 2. Drag a marquee select across the **even fixtures**\
-![Layout Editor - Selecting Fixtures](/docs/images/image215.jpeg)
+![Layout Editor - Selecting Fixtures](/docs/images/Layout-Editor-Selecting-Fixtures.jpeg)
 
 3. Drag the selected fixtures so they sit directly under the odd
 fixtures\
-![Layout Editor - Moving Fixtures](/docs/images/image216.jpeg)
+![Layout Editor - Moving Fixtures](/docs/images/Layout-Editor-Moving-Fixtures.jpeg)
 
 4. Select **Crop Grid** from the Layout Editor context menu. (This will
 get rid of the unused pixels.)
@@ -234,7 +234,7 @@ layout.)
 7. **Repeat steps 4 and 5** until all the fixtures are at different heights in
 relation to one another
 
-![Layout Editor - Randomly Arranged Fixtures](/docs/images/image217.jpeg)
+![Layout Editor - Randomly Arranged Fixtures](/docs/images/Layout-Editor-Randomly-Arranged-Fixtures.jpeg)
 
 *If you create an effect using this group it will appear to be random.
 Adjustments can be made to the layout at any time to fine-tune the end
@@ -258,7 +258,7 @@ Control**. Also, on the Pearl Expert you may need to select **Adjust
 Angle** and to return wheels to controlling position select **Adjust
 X,Y**.
 
-![Layout Editor - Adjusting Angle](/docs/images/image218.jpg)
+![Layout Editor - Adjusting Angle](/docs/images/Layout-Editor-Adjusting-Angle.jpg)
 
 Note that underneath the visual representation of the fixtures the
 actual cells used are shown in light grey.
@@ -361,7 +361,7 @@ elements that appear\
     Reduce height to make a rugby ball (or American football if you
     insist)
 
-    ![Effect Editor - Pixel Mapper - Editing Height of Circle](/docs/images/image219.png)
+    ![Effect Editor - Pixel Mapper - Editing Height of Circle](/docs/images/Effect-Editor-Pixel-Mapper-Editing-Height-of-Circle.png)
 
 4. Double-click on \[Circle\] (or press \[+\]) and select the **Zoom**
 animation
@@ -385,13 +385,13 @@ animation
     Using opacity values greater than 100% will create a delay before
     fade.)
 
-    ![Effect Editor - Pixel Mapper - Opacity Animation Settings](/docs/images/image220.png)
+    ![Effect Editor - Pixel Mapper - Opacity Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Opacity-Animation-Settings.png)
 
 6. Click on \[Effect\] again and reduce **Master Speed** to your
 preference. (Adjusting the global speed control ensures the zoom and
 opacity animations are synchronised instead of having to manually match
 the individual values.)\
-    ![Effect Editor - Pixel Mapper - Effect Master Speed](/docs/images/image221.png)
+    ![Effect Editor - Pixel Mapper - Effect Master Speed](/docs/images/Effect-Editor-Pixel-Mapper-Effect-Master-Speed.png)
 
 7. \<Record\> to a playback
 
@@ -419,7 +419,7 @@ Effect\]
     Increase **Exponent** to around **25%**. (This causes the spiral to
     **expand** at a faster rate.)
     
-    ![Effect Editor - Pixel Mapper - Modifying a Spiral](/docs/images/image222.png)
+    ![Effect Editor - Pixel Mapper - Modifying a Spiral](/docs/images/Effect-Editor-Pixel-Mapper-Modifying-a-Spiral.png)
 
 4. Add a **Spin** animation for genuine psychedelic effect.
 
@@ -427,7 +427,7 @@ Effect\]
 
 5. Select the Layer to show the layer controls and change the colour to
 blue using the colour picker.\
-![Effect Editor - Pixel Mapper - Changing Colour of Spiral Layer to Blue](/docs/images/image223.png)
+![Effect Editor - Pixel Mapper - Changing Colour of Spiral Layer to Blue](/docs/images/Effect-Editor-Pixel-Mapper-Changing-Colour-of-Spiral-Layer-to-Blue.png)
 
 6. \<Record\> to a playback
 
@@ -484,7 +484,7 @@ previous examples
 4. Adjust the **width** and **height** sliders until we have a thin strip that
 covers at least one cell vertically and the whole grid horizontally.
 
-    ![Effect Editor - Pixel Mapper - Adjusting Width and Height of a Block](/docs/images/image224.png)
+    ![Effect Editor - Pixel Mapper - Adjusting Width and Height of a Block](/docs/images/Effect-Editor-Pixel-Mapper-Adjusting-Width-and-Height-of-a-Block.png)
 
 5. Reduce **Y** until the bar disappears off the top of the grid. (This is
 in preparation for adding a displacement animation.)
@@ -509,12 +509,12 @@ offset in any direction.
     the default 30%.
 
     Increase **Distance** until the bar is approximately in the centre.\
-    ![Effect Editor - Pixel Mapper - Displacement Animation Settings](/docs/images/image225.png)
+    ![Effect Editor - Pixel Mapper - Displacement Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Displacement-Animation-Settings.png)
 
 7. Add an **Opacity animation**
 
     Reduce **In Time** and **Out Time** to create a snapping effect.\
-    ![Effect Editor - Pixel Mapper - Opacity Animation Settings](/docs/images/image226.png)
+    ![Effect Editor - Pixel Mapper - Opacity Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Opacity-Animation-Settings-2.png)
 
 8. Click on **Displacement** in the Layer to get back to the controls
 for this animation again.
@@ -523,7 +523,7 @@ for this animation again.
     at a random offset around the **Distance** setting, in this case making
     it anywhere within the grid.)
 
-    ![Effect Editor - Pixel Mapper - Displacement Animation Direction Random Setting](/docs/images/image227.png)
+    ![Effect Editor - Pixel Mapper - Displacement Animation Direction Random Setting](/docs/images/Effect-Editor-Pixel-Mapper-Displacement-Animation-Direction-Random-Setting.png)
 
 9. Return to the **Opacity animation** controls and increase speed until
 you're happy.  
@@ -535,7 +535,7 @@ layer controls rather than on the individual element and animations:
 
 11. Change **Rotation** to 90 degrees by clicking on the compass button
 twice.\
-![Effect Editor - Pixel Mapper - Changing Layer Rotation](/docs/images/image228.png)
+![Effect Editor - Pixel Mapper - Changing Layer Rotation](/docs/images/Effect-Editor-Pixel-Mapper-Changing-Layer-Rotation.png)
 
 Now you have a vertical bar that draws randomly using a horizontal
 displacement. Similarly you can use the \[layer\] or \[effect\] controls
@@ -557,7 +557,7 @@ you know how it is with directors.
 
     Reduce **Zoom** so that we can fit lots of baby shurikens in the grid.
 
-    ![Effect Editor - Pixel Mapper - Modifying a Star Element](/docs/images/image229.png)
+    ![Effect Editor - Pixel Mapper - Modifying a Star Element](/docs/images/Effect-Editor-Pixel-Mapper-Modifying-a-Star-Element.png)
 
 3. Add a **Spin animation**
 
@@ -570,7 +570,7 @@ you know how it is with directors.
 5. Select the Star element again and change **X** so the shuriken
 starts further from the left and rolls along the whole grid.
 
-    ![Effect Editor - Pixel Mapper - Transforming Star Element](/docs/images/image230.png)
+    ![Effect Editor - Pixel Mapper - Transforming Star Element](/docs/images/Effect-Editor-Pixel-Mapper-Transforming-Star-Element.png)
 
 6. Add a **Displacement animation**
 
@@ -584,7 +584,7 @@ frequently a new element appears.)
     variation in the direction of travel based upon the **Direction**
     value.)
 
-    ![Effect Editor - Pixel Mapper - Linear Movement Settings](/docs/images/image231.png)
+    ![Effect Editor - Pixel Mapper - Linear Movement Settings](/docs/images/Effect-Editor-Pixel-Mapper-Linear-Movement-Settings.png)
 
 8. Add a **Zoom animation**
 
@@ -599,12 +599,12 @@ frequently a new element appears.)
 
     Slow the zoom down a bit.
 
-    ![Effect Editor - Pixel Mapper - Zoom Animation Settings](/docs/images/image232.png)
+    ![Effect Editor - Pixel Mapper - Zoom Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Zoom-Animation-Settings.png)
 
 9. Click on \[Effect\] and set **Pre-Spool** to 0%\
 *This is to demonstrate the purpose of the property.*
 
-    ![Effect Editor - Pixel Mapper - Zoom Animation Settings](/docs/images/image233.png)
+    ![Effect Editor - Pixel Mapper - Zoom Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Zoom-Animation-Settings-2.png)
 
 10. \<Record\> to a playback
 
