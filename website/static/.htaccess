@@ -14,7 +14,7 @@ ErrorDocument 404 /404/
     RewriteBase /
 
     # CSS versioning
-    RewriteRule ^css/main\.css css/main.css?v=1 [QSA,L]
+    RewriteRule ^css/main\.css css/main.css?v=2 [QSA,L]
 
     # Remove index.html from end of requests
     RewriteRule ^index\.html$ / [R=301,L]
