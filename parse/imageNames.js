@@ -15,14 +15,14 @@ function getFiles(dir) {
       : dir;
 }
 
-function newImageName(images, alt, ext, copy=0) {
+function newImageName(images, currentImage, alt, ext, copy=0) {
   // make a new name for the image that isn't already taken
 
   let newName = alt.replace(/[^\w]/g,"-").replace(/-{2,}/g,'-').replace(/-$/gm,'') + (copy++ ? '-'+ copy : '') + ext;
   
   for(let image in images) {
-    if(path.basename(images[image].new) == newName) {
-      return newImageName(images, alt, ext, copy);
+    if((image != currentImage) && (path.basename(image) == newName || path.basename(images[image].new) == newName)) {
+      return newImageName(images, currentImage, alt, ext, copy);
     }
   }
 
@@ -67,7 +67,7 @@ for(let image in images) {
           }
           else {
             // newly found
-            let newName = newImageName(images, alt, path.extname(image));
+            let newName = newImageName(images, image, alt, path.extname(image));
             images[image].new = imageWebPath.replace(path.basename(image), '') + newName;
 
             // rename the file
