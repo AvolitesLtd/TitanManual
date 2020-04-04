@@ -44,22 +44,20 @@ RUN tlmgr install \
     zref \
     newunicodechar
 
-COPY ./docs /app/docs
-COPY ./parse /app/parse
 COPY ./website /app/website
-
 WORKDIR /app/website
 RUN yarn install
 
+COPY ./docs /app/docs
+COPY ./parse /app/parse
 
+#localhost
 FROM builder AS web
-
 WORKDIR /app/website
-
 EXPOSE 3000 35729
-
 CMD ["yarn", "start"]
 
+# PDF Build
 FROM builder AS pdf
-WORKDIR /app/website
-CMD ["yarn","pdf"]
+WORKDIR /app/parse
+CMD ["node","pdf.js"]
