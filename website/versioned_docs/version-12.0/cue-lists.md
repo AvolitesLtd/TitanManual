@@ -22,11 +22,11 @@ the same state. [Chases](chases.md) on the other hand would crossfade between cu
 fading out all fixtures which have no stored information in the new cue.
 
 You can change the tracking behaviour of cue lists using the [tracking
-option](cue-lists/cue-list-playback.md/#tracking) for each cue: Block, This Cue Only and Solo - see Tracking
+option](cue-lists/cue-list-playback.md#tracking) for each cue: Block, This Cue Only and Solo - see Tracking
 in the [Cue List Playback](cue-lists/cue-list-playback.md) section).
 
 To view the contents of a cue list, touch the playback screen relating
 to the fader or press \<Open/View\> then the **swop button** of the
 playback.
 
-![Playback View of Cue List](/docs/images/image252.png)
+![Playback View of Cue List](/docs/images/Cue-List-Window-with-Autoload-playback.png)

@@ -22,7 +22,7 @@ function Help(props) {
   const supportLinks = [
     {
       content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
+        'introduction',
       )})`,
       title: 'Browse Docs',
     },
@@ -31,7 +31,7 @@ function Help(props) {
       title: 'Contribute',
     },
     {
-      content: `For official help and support visit the [Avolites site](https://www.avolites.com/software/latest-version)`,
+      content: `For help and support visit the [Avolites site](https://www.avolites.com/software/latest-version)`,
       title: 'Official help and support',
     }
   ];

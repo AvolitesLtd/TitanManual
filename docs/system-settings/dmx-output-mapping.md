@@ -5,7 +5,7 @@ sidebar_label: DMX Output Mapping
 ---
 
 There are various ways to connect fixtures to the console. As well as
-the XLR sockets on the console, [you can connect fixtures using Ethernet](networking/controlling-fixtures-over-a-network.md)
+the XLR sockets on the console, [you can connect fixtures using Ethernet](../networking/controlling-fixtures-over-a-network.md)
 and wireless links.
 
 All consoles can output up to 16 universes except **T1** which is limited to
@@ -39,7 +39,7 @@ nodes are linked to that line. The default setting on a new show is for
 the physical DMX outputs on the console to be linked to the first DMX
 lines.
 
-![DMX Settings Window](/docs/images/image328.png)
+![DMX Settings Window](/docs/images/DMX-Settings-Window.png)
 
 You can individually assign Nodes to Lines using the arrow button, or
 assign all Nodes of the same type using the group assign button. For
@@ -47,7 +47,7 @@ example, to assign each XLR output socket on the back of the console to
 a DMX line, you would click on the Group Assign button of the ExpertDMX
 nodes.
 
-![Node in DMX Settings Window](/docs/images/image329.png)
+![Node in DMX Settings Window](/docs/images/Node-in-DMX-Settings-Window.png)
 
 To assign a node to a line, click on the **arrow on the node** (the node
 will be highlighted), then click the line you want to assign to it.
@@ -59,7 +59,7 @@ You can show information about the DMX nodes, or the DMX lines, by
 clicking the **i** button. For Ethernet/network type nodes, this allows you
 to set detailed properties such as IP address ranges and net masks.
 
-![DMX Output in DMX Settings Window](/docs/images/image331.png)
+![DMX Output in DMX Settings Window](/docs/images/DMX-Output-in-DMX-Settings-Window.png)
 
 If you have [TNPs](../titan-net.md) connected, these can be individually configured using
 the tabs across the top of the screen.
@@ -86,7 +86,7 @@ both of which will be shown.
 
 ### sACN Properties
 
-![sACN DMX Module Properties](/docs/images/image333.png)
+![sACN DMX Module Properties](/docs/images/sACN-DMX-Module-Properties.png)
 
 **DMX output:** Allows you to temporarily disable the output
 
@@ -114,7 +114,7 @@ each one.
 
 ### ArtNet Properties
 
-![ArtNet DMX Module Properties](/docs/images/image334.png)
+![ArtNet DMX Module Properties](/docs/images/ArtNet-DMX-Module-Properties.png)
 
 **DMX output:** Allows you to temporarily disable the output
 
@@ -149,7 +149,7 @@ If you select the DMX Overview tab at the top of the screen, you can see
 all the [TNPs](../titan-net.md) which are connected and which output lines they are
 allocated to.
 
-![DMX Overview in DMX Settings](/docs/images/image335.png)
+![DMX Overview in DMX Settings](/docs/images/DMX-Overview-in-DMX-Settings.png)
 
 The left side of the screen shows the 64 possible DMX output lines on
 the console. To the right of this are the processing nodes which are
@@ -174,7 +174,7 @@ DMX Merge
 The DMX merge window allows you to set up where DMX will be output in a
 system where you have multiple consoles or processing nodes connected.
 
-![DMX Merge Window](/docs/images/image336.png)
+![DMX Merge Window](/docs/images/DMX-Merge-Window.png)
 
 To configure an output port, click on **Patch Titan Lines**, enter universe
 number then click on a port to assign.

@@ -100,7 +100,7 @@ the speed of effects in the cue.
 The **Times** button on the left removes some of the columns, showing only
 timing related information.
 
-![Playback View for cue](/docs/images/image238.png)
+![Playback View for cue](/docs/images/Playback-View-for-cue.png)
 
 ### Filter Columns
 
@@ -150,7 +150,7 @@ buttons.
 -   The **Shapes** view shows which attributes of each fixture are
     running shapes.
 
-![Cue View](/docs/images/image239.png)
+![Cue View](/docs/images/Cue-View-2.png)
 
 Filter which **attributes** you are shown using the All/IPCGBES buttons in
 the top left corner.
@@ -200,7 +200,7 @@ programmer. You could then Include position information from another cue
 into the programmer, and build up a new cue using information from
 several existing cues.
 
-If you Include a [chase](../chases.md) or [cue list](cue-lists.md), the screen shows you a list of the
+If you Include a [chase](../chases.md) or [cue list](../cue-lists.md), the screen shows you a list of the
 cues within it, and you select the one you want to Include using Wheel A
 or by touching the cue. You can also type in the cue number to Include.
 
@@ -236,7 +236,7 @@ will be loaded into the programmer.
 Removing Attributes from Cues Using "Off"
 -----------------------------------------
 
-[Video covering the Off function](https://youtu.be/p7Ffz4e4tws)
+[](https://youtu.be/p7Ffz4e4tws?t=20)
 
 The \<Off\> button allows you to remove an attribute which has been
 stored in a cue, as if you'd never recorded it.

@@ -57,7 +57,7 @@ console) is connected via a network hub to an Art-Net compatible dimmer
 and 2 DMX conversion boxes.
 
 ![Art Net Explanation
-general](/docs/images/image356.jpeg)
+general](/docs/images/Art-Net-Explanation-general.jpeg)
 
 Once the system is connected together, the different outputs (or Nodes)
 can be configured.
@@ -96,7 +96,7 @@ Here, the console assigns the following:
 -   Line C to Box 2 universe 2 and the dimmer rack
 
 ![Art Net Explanation Nodes to
-DMX](/docs/images/image357.jpeg)
+DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.jpeg)
 
 Setting up an Art-Net system
 ----------------------------
@@ -106,7 +106,7 @@ Art-Net DMX output box (such as an Artistic License Net-Lynx) via a
 network hub.
 
 ![Art Net Explanation Simple
-System](/docs/images/image358.jpeg)Using standard RJ45 ethernet cables,
+System](/docs/images/Art-Net-Explanation-Simple-System.jpeg)Using standard RJ45 ethernet cables,
 attach the devices together.
 
 -   If you are using a hub/switch as shown above, use straight-through
@@ -167,11 +167,8 @@ output line.
 are correct. (Problems can be caused if you attach multiple DMX lines to
 a single node.)
 
-13. Make sure that the Universe is set to 1 for Line 1, and 2 for Line
-2.
-
-Art-Net uses a subnet mask with its universe. For Titan purposes:
-
+13. Make sure that the Universe is set to 1 for Line 1, and 2 for Line 2.  
+Art-Net uses a subnet mask with its universe. For Titan purposes:  
 Titan universes 1 - 16 are subnet mask = 0, Art-Net universes = 1 -- 16
 
 14. You can close the DMX settings window.

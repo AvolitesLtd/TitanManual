@@ -9,7 +9,7 @@ The User Settings menu may be accessed from the System mode menu, and
 also from Program mode: hold down the \<Avo\> Shift button and press
 \[User Settings\].
 
-![User Settings Window](/docs/images/image327.png)
+![User Settings Window](/docs/images/User-Settings-Window.png)
 
 A window will open showing the user settings, or you can also set the
 same options using the softkey options. User Settings are individual for
@@ -18,7 +18,7 @@ each User and you can change the User from this screen.
 
 > Click on the *i* button for a help window on each setting.
 > 
-> ![i button](/docs/images/image245.png)
+> ![i button](/docs/images/i-button.png)
 
 Options are divided into categories on the softkeys or down the left
 hand side.
@@ -126,13 +126,13 @@ playback is active from another page the display area goes purple and
 the page number is shown at the top in light blue.
 
 ### Current Handle World
-Sets the handle world - read more about [Handle Worlds](../multi-user-operation/#handle-worlds).
+Sets the handle world - read more about [Handle Worlds](../titan-basics/multi-user-operation.md#handle-worlds).
 
 ---
 
 ## Key Profiles
 
-Allows you to select and edit key profiles using the softkeys. See [Key Profiles](key-profiles) for more info.
+Allows you to select and edit key profiles using the softkeys. See [Key Profiles](key-profiles.md) for more info.
 
 ---
 
@@ -221,7 +221,7 @@ Palette View.
 ## Palettes
 
 ### Quick Palettes
-Enables or disables the Quick Palette function - read more about [Using Palettes](../palettes/using-palettes/).
+Enables or disables the Quick Palette function - read more about [Using Palettes](../palettes/using-palettes.md).
 
 ### Minimum Palette Mode
 Sets whether global or shared palettes can be
@@ -247,7 +247,7 @@ to the selected fixtures will be greyed out.
 
 ### Master Palette Time
 Sets the default fade time to be used when
-recalling palettes live. See [Master Time for Palettes](../palettes/timing-with-palettes/#master-time-for-palettes) for more information.
+recalling palettes live. See [Master Time for Palettes](../palettes/timing-with-palettes.md#master-time-for-palettes) for more information.
 
 ### Master Palette Overlap
 Sets the default overlap to be used when
@@ -328,7 +328,7 @@ Sets how shapes react to Swop mode.\
 ### Shape Behaviour
 Sets whether Key frame shapes will overlay all
 other values or will work in LTP mode where later changes will override
-the shape - see [Saving a key frame shape to a cue](../effects/key-frame-shapes/#saving-a-key-frame-shape-to-a-cue).
+the shape - see [Saving a key frame shape to a cue](../effects/key-frame-shapes.md#saving-a-key-frame-shape-to-a-cue).
 
 ---
 
@@ -376,7 +376,7 @@ timecode can jump by without being seen as a glitch.
 Sets the amount of time the console should
 ignore MIDI timecode for after a glitch has been detected.
 
-> Read more about [MIDI Triggers](../running-the-show/midi-dmx-or-audio-triggering)
+> Read more about [MIDI Triggers](../running-the-show/midi-dmx-or-audio-triggering.md)
 
 ---
 

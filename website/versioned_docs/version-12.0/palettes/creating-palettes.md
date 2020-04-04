@@ -52,6 +52,8 @@ which can force the console to record palettes in **Shared** or **Normal** mode.
 Storing a Palette
 -----------------
 
+[Video covering recording palettes in Titan](https://youtu.be/Hs-xzpD5x8k?t=20)
+
 This is how you save a palette value to one of the palette windows:. If
 the palette windows are not shown then press the **Groups and Palettes**
 workspace button.
@@ -84,7 +86,7 @@ a palette number and press \[Store\]
     \<Palette\>. All buttons where you can store the palette will then
     flash, press one to store.
 
-![Recording a Palette menu](/docs/images/image172.png)
+![Recording a Palette menu](/docs/images/Recording-a-Palette-menu.png)
 
 -   The console will automatically set the palette as Global, Shared or
     Normal (by checking if the values to be stored are the same across
@@ -106,7 +108,7 @@ a palette number and press \[Store\]
 -   Press the **Attribute Options** button to toggle each mask group between
     Include and Exclude.
 
-![Setting a mask for recording a palette](/docs/images/image173.png)
+![Setting a mask for recording a palette](/docs/images/Setting-a-mask-for-recording-a-palette.png)
 
 -   \[Record By...\] allows you to control how the mask is used when
     saving the palette. The options are:
@@ -123,7 +125,7 @@ a palette number and press \[Store\]
 
 -   The console will automatically create a legend for your palette
     (unless the 
-    [User Setting \[Auto Legend\]](../system-settings/user-settings#auto-legend)
+    [User Setting \[Auto Legend\]](../system-settings/user-settings.md#auto-legend)
     is set to Off). For colour
     palettes a coloured icon is used to show the selected colour. If the
     palette contains fixtures set to different colours, a coloured bar
@@ -131,7 +133,7 @@ a palette number and press \[Store\]
     thumbnail will be used. For other attributes the last adjusted
     function value will be used for the legend, except for pan and tilt
     which will use a default legend.\
-    ![Automatic Legends set for Colour Palettes](/docs/images/image174.png)
+    ![Automatic Legends set for Colour Palettes](/docs/images/Automatic-Legends-set-for-Colour-Palettes.png)
 
 -   You can also manually set a legend for the palette while you are
     saving it using \[Provide a legend\]. See 
@@ -191,7 +193,7 @@ with a + sign. At this point you can enter a legend for the new palette
 or change mask settings. A second press on the button will save the
 palette.
 
-![Recoding a Workspace Layout](/docs/images/image78.png)
+![Recoding a Workspace Layout](/docs/images/Recoding-a-Workspace-Layout.png)
 
 When using Quick Record, the palette mask is automatically set to
 match the window - the **Position** window only stores **P**, the **Colours**
@@ -203,7 +205,7 @@ Quick record also works for groups and workspaces.
 > If you want to load a show from a **Pearl Expert** onto another Titan console,
 use the **Groups and Palettes workspace window** to access the fixtures/palettes
 on the blue/grey preset buttons on the Pearl. See 
-[Compatibility Windows for Pearl Expert Shows](../titan-basics/workspace-windows#compatibility-windows-for-pearl-expert-shows)
+[Compatibility Windows for Pearl Expert Shows](../titan-basics/workspace-windows.md#compatibility-windows-for-pearl-expert-shows)
 for more details.
 
 Setting Legends for Palettes
@@ -226,14 +228,14 @@ legend, so for example **Position** palettes will show a **P**, **colour**
 palettes a **C** and so on. In the top right corner is shown **G** for
 **Global**, **N** for **Normal** or **S** for **Shared** palette.
 
-![Shared and normal palettes stored on a touch screen](/docs/images/image175.png)
+![Shared and normal palettes stored on a touch screen](/docs/images/Shared-and-normal-palettes-stored-on-a-touch-screen.png)
 
 You can create a picture legend for your palette which could for example
 represent the colour or gobo it will create. After pressing \[Set
 Legend\] and the palette button, press \[Picture\]. The picture editor
 will open.
 
-![Setting legend of palette using draw picture editor](/docs/images/image176.png)
+![Setting legend of palette using draw picture editor](/docs/images/Setting-legend-of-palette-using-draw-picture-editor.png)
 
 The tab buttons on the top left allow you to select Keyboard entry
 (legend reverts to text), Draw, Icon Library, or Load File. On the right
@@ -245,7 +247,7 @@ If you select Library you can choose a picture from a wide range of
 pre-programmed pictures. The pictures are sorted into various folders
 which are listed on the left.
 
-![Setting legend of palette using Icon Library](/docs/images/image177.png)
+![Setting legend of palette using Icon Library](/docs/images/Setting-legend-of-palette-using-Icon-Library.png)
 
 Creating an Effects Palette (Shape or Pixel Mapper)
 ---------------------------------------------------

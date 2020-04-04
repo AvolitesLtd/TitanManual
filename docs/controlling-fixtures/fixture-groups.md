@@ -15,7 +15,7 @@ fixture, then also group by stage left / stage right, etc.
 If you have a lot of fixtures, clever use of groups will greatly
 increase your programming speed.
 
-![Groups Window](/docs/images/image166.png)
+![Groups Window](/docs/images/Groups-Window.png)
 
 Groups can be stored in the Groups window, on fader handles or on
 Macro/Executor buttons.
@@ -26,7 +26,7 @@ the buttons using [Key Profiles](../system-settings/key-profiles.md).
 
 ### Record a Group
 
-[Video showing how to record a group](https://youtu.be/E8QxOKT5TCA?t=20)
+[](https://youtu.be/E8QxOKT5TCA?t=20)
 
 If the Groups window is not visible, you can show it by pressing
 \<View/Open\>, \<Group\> (above numeric keys).
@@ -65,11 +65,11 @@ playback faders), or press C \[Store\] to store as a numbered group.
 
 -   You can also recall a group by its number:
 
-    1. Press \<Group\>.
+1. Press \<Group\>.
 
-    2. Type in the number of the group you want to recall.
+2. Type in the number of the group you want to recall.
 
-    3. Press \[Recall Group\].
+3. Press \[Recall Group\].
 
 -   The \<Group\> button also gives you facilities on the softkeys to
     edit and delete groups.
@@ -116,7 +116,7 @@ patterns.
 
 ### Fixture Order
 
-[Video covering Fixture Order](https://youtu.be/2TqYjvGoGXQ?t=20)
+[](https://youtu.be/2TqYjvGoGXQ?t=20)
 
 To change the numerical fixture order:
 
@@ -128,7 +128,7 @@ To change the numerical fixture order:
 
 The fixtures in the group will be shown numbered in the fixtures window.
 
-![Fixture Order](/docs/images/image167.png)
+![Fixture Order](/docs/images/Fixture-Order.png)
 
 To change the order, select \[Auto Increment\] to On, then select the
 fixtures in the order you want. If you press a fixture twice, it will
@@ -136,7 +136,7 @@ show an X indicating that it is not part of the sequence.
 
 ### Fixture Layout
 
-[Video covering Fixture Layout](https://youtu.be/9S5nQmVpPNs?t=20)
+[](https://youtu.be/9S5nQmVpPNs?t=20)
 
 To change the 2D fixture layout:
 
@@ -160,7 +160,7 @@ The \[Arrange Fixtures\] context command will automatically place the
 fixtures in a rectangular block, you specify the number of rows (Height)
 and columns (Width).
 
-![Layout Editor](/docs/images/image168.png)
+![Layout Editor](/docs/images/Layout-Editor.png)
 
 -   The X-coordinate of the fixture layout is the same as the Fixture
     Order. Changing one will cause the other to change.
@@ -189,9 +189,9 @@ and columns (Width).
     correctly if you have some fixtures with large cell spacing and some
     with small spacing.\
 
-    ![Position](/docs/images/image169.png)
+    ![Position](/docs/images/Position-2.png)
 
-    ![Scale](/docs/images/image170.png)
+    ![Scale](/docs/images/Scale.png)
 
 -   The Layout Editor is described in more detail with examples in the
     [Pixel Mapper section](../effects/pixel-mapper.md). There are also some features

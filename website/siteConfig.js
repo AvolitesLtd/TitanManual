@@ -8,13 +8,14 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
-var custom_rules = require('./custom_rules.js');
-var iframify = require('@noticeable/remarkable-iframify');
+const custom_rules = require('./custom_rules.js');
+//var iframify = require('@noticeable/remarkable-iframify');
+const iframify = require('./iframify.js');
 
 const siteConfig = {
   title: 'Avolites Titan Manual', // Title for your website.
   tagline: 'Official Manual for the Avolites Titan software',
-  url: 'https://avolites.fraserstockley.com', // Your website URL
+  url: 'https://manual.avolites.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -27,7 +28,8 @@ const siteConfig = {
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
-  gaTrackingId: 'UA-157551013-1',
+  gaTrackingId: 'GTM-TZMDJV5',
+  gaGtag: true,
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
@@ -85,6 +87,12 @@ const siteConfig = {
       md.renderer.rules.button_open = custom_rules.button_open
       md.renderer.rules.button_close = custom_rules.button_close
 
+      // style diagram annotation links
+      // e.g. (A)
+      custom_rules.keyRule(md, "annotate", "\\(", "\\)", "annotate_open", "annotate_close", 5)
+      md.renderer.rules.annotate_open = custom_rules.annotate_open
+      md.renderer.rules.annotate_close = custom_rules.annotate_close
+
       // enable subscript and superscript
       // e.g. ~sub~ ^sup^
       md.inline.ruler.enable(['sub', 'sup'])
@@ -96,7 +104,9 @@ const siteConfig = {
       // e.g. [Patching](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
       // more details:
       // https://github.com/noticeableapp/remarkable-iframify/
-      iframify.iframify(md)
+      iframify.iframify(md,{
+        className: 'embed-video'
+      })
     },
   ],
 

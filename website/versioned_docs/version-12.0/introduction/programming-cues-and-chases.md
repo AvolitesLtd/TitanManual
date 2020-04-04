@@ -18,7 +18,7 @@ nonzero dimmer), or \[Quick Build\] (merges palettes and playbacks into
 the cue when you select them).
 
 To store, press a blue Select button on fader, or press button in
-Playbacks window. (See [Creating a Cue](../cues/creating-a-cue)).
+Playbacks window. (See [Creating a Cue](../cues/creating-a-cue.md)).
 
 ## Chases
 
@@ -31,7 +31,7 @@ Set up the look for the first step, press playback select button to
 store. Repeat until all steps stored. Quick Build mode can be used to
 merge palettes and cues into chase steps.
 
-Press \<Exit\> to finish storing chase steps. (See [Programming Chases](../chases/creating-a-chase#programming-a-chase)).
+Press \<Exit\> to finish storing chase steps. (See [Programming Chases](../chases/creating-a-chase.md#programming-a-chase)).
 
 ## Timings
 
@@ -56,10 +56,10 @@ together, 0%=fixture waits for previous one to complete).
 
 \[Fixture order\] changes sequence for shapes and Overlap.
 
-See [Cue Timing](../cues/cue-timing)
+See [Cue Timing](../cues/cue-timing.md)
 
 ## Cue Lists
 
-Cues may be stored in a [Cue List](../cue-lists/creating-a-cue-list) which allows a full show to be run from
-a Go button. Chases can be included using [Autoload](../cue-lists/creating-a-cue-list#autoloading-a-playback-within-a-cue-list). Cue lists can run in
+Cues may be stored in a [Cue List](../cue-lists/creating-a-cue-list.md) which allows a full show to be run from
+a Go button. Chases can be included using [Autoload](../cue-lists/creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list). Cue lists can run in
 tracking or non-tracking mode, set from \[Playback Options\].

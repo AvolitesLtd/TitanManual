@@ -49,7 +49,7 @@ server(s). Also, it lets you add or remove layers from each Ai surface
 and add complete new surfaces to the Ai server (though you may need to
 configure these further on the Ai server itself).
 
-![Synergy Settings Window](/docs/images/image272.png)
+![Synergy Settings Window](/docs/images/Synergy-Settings-Window.png)
 
 On the left of the screen the available Ai
 servers are shown. In the centre of the screen, the Surfaces and Layers
@@ -62,7 +62,7 @@ Click on the **+** at the bottom and select Surface from the pop up to add a
 new surface. This will appear at the top; by default it has two layers
 but you can change this later.
 
-![Synergy Settings Window screen settings](/docs/images/image273.png)
+![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-screen-settings.png)
 
 Clicking on the top part of a Surface will
 show options on the right for the surface. These options allow you to
@@ -88,11 +88,11 @@ bottom, then click on the Screen 1 surface at the top (or you can click
 **"Link to new Surface"** to automatically create a new surface and link to
 it).
 
-![Synergy Settings Window linking a screen](/docs/images/image274.png)
+![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-linking-a-screen.png)
 
 The Screen 1 Surface will now show that it is linked to the Ai server and the unmatched server at the bottom disappears.
 
-![Synergy Settings Window with a linked screen](/docs/images/image275.png)
+![Synergy Settings Window with a linked screen](/docs/images/Synergy-Settings-Window-with-a-linked-screen.png)
 
 You can link the Screen 1 Surface to one or more different physical
 outputs on the Ai server by clicking the screen, then clicking the
@@ -103,7 +103,7 @@ Once a layer is linked, if you open the layer properties in Ai the
 **"Synergy Control"** box will show *"Enabled"*. Now you cannot control the
 screen using Ai, only from the Titan console.
 
-![Avolites Ai Layer Adjustments](/docs/images/image276.png)
+![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)
 
 To add a layer, click on the surface, then the **+** button at the bottom
 and select **Layer** from the popup.
@@ -119,7 +119,7 @@ Every layer on the Ai server appears as a button in the Synergy Fixtures
 window. You can display this using the button at the bottom of the
 [Synergy Settings window](#synergy-setup) or from \[Open Workspace Windows\].
 
-![](/docs/images/image277.png)
+![Synergy Fixtures Workspace Window](/docs/images/Synergy-Fixtures-Workspace-Window.png)
 
 You use these buttons to select one or more layers for control, just as
 you would select lighting fixtures to control. Once selected, use the

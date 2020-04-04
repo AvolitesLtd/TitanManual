@@ -5,6 +5,8 @@ sidebar_label: Shape Generator
 original_id: shape-generator
 ---
 
+[This video will show you how to use the softkeys to create some colour and movement shapes as well as showing how to edit them live](https://youtu.be/oTo6FxHD02o?t=20)
+
 A shape is simply an automatic sequence of values which modify a
 particular attribute of a fixture. A circle shape, for example, applied
 to the pan and tilt attributes, would cause the fixture to move its beam
@@ -28,7 +30,7 @@ either apply the shape identically to all the fixtures, or offset them
 so that the shape runs along the fixtures creating *"wave"* or *"ballyhoo"*
 type effects. This is called the **Phase** of the shape.
 
-![Capture Visualiser with a shape running across fixtures](/docs/images/image180.png)
+![Capture Visualiser with a shape running across fixtures](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures.png)
 
 Creating a Shape
 -----------------
@@ -42,7 +44,7 @@ Generator\]
 
 3. Press \[Create\] to start a new shape
 
-![Shape Generator selecting a category of new shape](/docs/images/image181.png)
+![Shape Generator selecting a category of new shape](/docs/images/Shape-Generator-selecting-a-category-of-new-shape.png)
 
 4. Press a \[softkey\] to select the attribute type to use in the shape or
 press \[All\] for a full list
@@ -62,7 +64,7 @@ a particular shape.
     to show only shapes for that attribute. Press the \<Dimmer\>
     attribute button to show all shapes.\
     \
-    ![](/docs/images/image182.png)
+    ![Shapes Workspace Window](/docs/images/Shapes-Workspace-Window.png)
 
 -   Shapes are based on the current settings of the fixture, *so a
     position circle would move around the current pan-tilt position of
@@ -112,7 +114,7 @@ It is easy to change the size and speed of a shape after it has first
 been created. If the display above the wheels is showing Spread and
 Offset rather than Size/Speed, press \[Adjust Speed, Size and Spread\].
 
-![Shape Wheel Attribute Controls for Speed, Size & Spread](/docs/images/image183.png)
+![Shape Wheel Attribute Controls for Speed, Size & Spread](/docs/images/Shape-Wheel-Attribute-Controls-for-Speed-Size-Spread.png)
 
 -   Control the speed of the shape using the left hand wheel
 
@@ -160,19 +162,19 @@ use the middle wheel *(right hand wheel on Pearl Expert)*.
 
 Spread = **12** *(Phase = 30 degrees)*:
 
-![Capture Visualiser with a shape running across fixtures with spread of 12](/docs/images/image184.png)
+![Capture Visualiser with a shape running across fixtures with spread of 12](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-12.png)
 
 ---
 
 Spread = **6** *(Phase = 60 degrees)*:
 
-![Capture Visualiser with a shape running across fixtures with spread of 6](/docs/images/image185.png)
+![Capture Visualiser with a shape running across fixtures with spread of 6](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-6.png)
 
 ---
 
 Spread = **2** *(Phase = 180 degrees)*:
 
-![Capture Visualiser with a shape running across fixtures with spread of 2](/docs/images/image186.png)
+![Capture Visualiser with a shape running across fixtures with spread of 2](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-2.png)
 
 In **Phase** mode, the display above the wheel shows the phase in degrees.
 For example, 180 degrees repeats every 2 fixtures, 90 degrees repeats
@@ -255,4 +257,4 @@ Storing Shapes in Palettes
 You can create palettes containing shapes. This is really useful to
 quickly call back shapes pre-configured with different spread and speed
 settings. See 
-[Creating an Effects Palette (Shape or Pixel Mapper)](../palettes/creating-palettes/#creating-an-effects-palette-shape-or-pixel-mapper).
+[Creating an Effects Palette (Shape or Pixel Mapper)](../palettes/creating-palettes.md#creating-an-effects-palette-shape-or-pixel-mapper).

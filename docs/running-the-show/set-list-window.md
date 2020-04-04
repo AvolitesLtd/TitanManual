@@ -9,7 +9,7 @@ songs/events in your show which you can then easily step through. You
 can also make notes, handy for avoiding bits of paper lying around. You
 can have multiple set lists in a show.
 
-[Video covering Set Lists](https://youtu.be/VX5acUU-99M?t=20)
+[](https://youtu.be/VX5acUU-99M?t=20)
 
 To open the Set List window, click \[Open Workspace Window\] then \[Set
 List\].
@@ -17,7 +17,7 @@ List\].
 The Set List feature works best if you arrange your playbacks to have a
 page of playbacks for each song in the show.
 
-![Set List Window](/docs/images/image302.png)
+![Set List Window](/docs/images/Set-List-Window.png)
 
 A set list is made up of tracks. When a track is added it automatically
 links to the current page. Pressing the play button next to the track
@@ -77,7 +77,7 @@ To view or edit the workspace links and macros, click the Workspace &
 Macros tab on the right hand half of the window. The window will then
 show a button for each programmed link.
 
-![Workspace & Macros](/docs/images/image303.png)
+![Workspace & Macros](/docs/images/Workspace-Macros.png)
 
 You can fire the macro or Workspace shortcut by clicking on the link
 button. Delete the button by pressing Delete then clicking the button,

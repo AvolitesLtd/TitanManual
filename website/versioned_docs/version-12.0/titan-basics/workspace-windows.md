@@ -10,15 +10,15 @@ contain buttons for selecting fixtures, groups, palettes, playbacks and
 so on. Information windows such as Playback View and the integrated
 Visualiser application can also appear as a workspace window.
 
-![Workspaces](/docs/images/image61.png)
+![Workspaces](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
 Sapphire Touch displays are slightly different:
 
 Sapphire Touch Left touch screen\
-![Sapphire Left](/docs/images/image63.png)
+![Sapphire Left](/docs/images/Sapphire-Left.png)
 
 Sapphire Touch Right touch screen\
-![Sapphire Right](/docs/images/image65.png)
+![Sapphire Right](/docs/images/Sapphire-Right.png)
 
 Opening and positioning workspace windows
 -----------------------------------------
@@ -64,20 +64,20 @@ Press \<View/Open\> then \<Macro\> to open the Macro window.
 At the top right of each workspace window are three or four buttons
 which access other functions for the window.
 
-![Capture Settings Window](/docs/images/image67.png)
+![Capture Settings Window](/docs/images/Camera-movements-in-Capture-Visualiser-Workspace-Window.png)
 
 The **Context Menu** button is only shown on Sapphire Touch and Titan
 Go, and gives a drop down menu at the top of the window showing the
 context menu buttons which relate to the current window.
 
-![Patch View](/docs/images/image69.png)
+![Patch View](/docs/images/Patch-View-2.png)
 
 On all other consoles the context menu buttons are automatically shown
 below the prompt area on the top right of the main screen. These buttons
 change to match the active window. The picture below gives an example of
 how the context buttons appear when Patch View window is active.
 
-![Context Menu](/docs/images/image70.png)
+![Context Menu](/docs/images/Context-Menu.png)
 
 The **Window Appearance Options** button (cog icon) lets you select the
 standard window sizes and positions. Buttons are also shown allowing you
@@ -86,12 +86,12 @@ window to an external monitor. The Appearance options may vary depending
 on which window it is, the setup of the console and if you have any
 external monitors.
 
-![Appearance Menu](/docs/images/image71.png)
+![Appearance Menu](/docs/images/Appearance-Menu.png)
 
 The **Resize Window** button allows you to set adjustable window sizes.
 A grid screen will open.
 
-![Resize](/docs/images/image73.png)
+![Resize](/docs/images/Resize.png)
 
 With the softkey \[Edit All Windows\] set to Off, you just set the size
 of the selected window.
@@ -110,7 +110,7 @@ If \[Edit All Windows\] is set to On, corner arrows will appear in all
 windows and you can adjust the size of all the windows together. Press
 \<Enter\>, \<Exit\> or \[OK\] to finish.
 
-![Resize](/docs/images/image74.png)
+![Resize](/docs/images/Resize-2.png)
 
 > If you accidentally set a window to a single grid size, you can't then get to the Window Layout button to resize it. Select the window and use the \[Min/Max\] softkey to set the window to a fixed size.
 
@@ -134,7 +134,7 @@ menu using the Cog button and set Button Size to \[Button Size Set Rows
 & Columns\]. You can then set a fixed layout using the \[Rows\] and
 \[Columns\] buttons.
 
-![Rows and Columns](/docs/images/image75.png)
+![Rows and Columns](/docs/images/Rows-and-Columns.png)
 
 The Rows and Columns settings are remembered even if you change the
 button size back to one of the automatic sizes, which allows you to swap
@@ -146,19 +146,19 @@ Mini Screen (Arena only)
 The \<Display\> button below the rotary encoders toggles through four
 fixed layouts for the Mini screen:
 
-1. Workspace window(s) with encoder legends on the right
-![Arena Miniscreen](/docs/images/image76.png)
+- Workspace window(s) with encoder legends on the right
+![Arena Miniscreen](/docs/images/Arena-Miniscreen.png)
 
-2. Workspace window(s) with macro button legends below
-![Mini Screen Macros](/docs/images/image77.png)
+- Workspace window(s) with macro button legends below
+![Mini Screen Macros](/docs/images/Mini-Screen-Macros.png)
 
 
-3. Fixed playbacks window - in this mode the first two rows of touch
+- Fixed playbacks window - in this mode the first two rows of touch
 buttons are the same as the macro buttons below. This window cannot be
 moved to another screen, and other windows open on the Mini screen will
 move to the main screen when this layout is set.
 
-4. Workspace window(s) fill the full screen, no button/encoder legends
+- Workspace window(s) fill the full screen, no button/encoder legends
 shown.
 
 Saving workspace layout
@@ -174,7 +174,7 @@ they are down the left side of the screen). Press \<View/Open\> then
 touch an empty button twice to Quick Record. You can also save
 workspaces onto any grey handle or macro button.
 
-![Workspaces](/docs/images/image78.png)
+![Workspaces](/docs/images/Recoding-a-Workspace-Layout.png)
 
 Workspaces are saved with the show.
 
@@ -230,13 +230,13 @@ once with the "Palettes and groups" window selected.
 Quick record
 ------------
 
-![Quick Record](/docs/images/image78.png)Some windows - Groups, Workspaces,
+![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png)Some windows - Groups, Workspaces,
 Playbacks, and all the Palette windows - have a Quick Record function.
 Set up what you want to record, then touch or click an empty button
 once. The button will light up red with a + sign. At this point you can
 enter a legend. Touch or click again to store the item.
 
-The Quick Record function can be disabled using [Key Profiles](../system-settings/key-profiles)
+The Quick Record function can be disabled using [Key Profiles](../system-settings/key-profiles.md)
 
 Legends and picture legends
 ---------------------------
@@ -252,7 +252,7 @@ colour(s) in the palette when you save it. Gobo palettes will show an
 image of the standard gobo, if the fixture personality has this
 information in it.
 
-![](/docs/images/image79.png)
+![Gobos and Beams Workspace Window](/docs/images/Gobos-and-Beams-Workspace-Window.png)
 
 Button Halo
 -----------
@@ -261,7 +261,7 @@ You can set a custom coloured halo for fixture, group or palette
 buttons. This can be really useful for identifying different types of
 button at a glance. Select the \[Halo\] option on the Set Legends menu.
 
-![Halo](/docs/images/image80.png)
+![Halo](/docs/images/Fixture-Halo.png)
 
 If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help
 identify different types of fixture.
@@ -287,7 +287,7 @@ fixtures, and the ring controls fine tilt.
 At the end of the toolbar is the keyboard popup button which will open
 the touch keyboard.
 
-![Keyboard Button](/docs/images/image81.png)
+![Keyboard Button](/docs/images/Keyboard-Button.png)
 
 The touch keyboard can be switched between large and small size using
 the Max/Min button and you close it using the large X button in the top
@@ -301,4 +301,4 @@ active until you change it back to "Manual".
 The small version of the keyboard (pictured) does not have some of the
 less frequently used buttons.
 
-![Keyboard](/docs/images/image83.png)
+![Keyboard](/docs/images/Keyboard.png)

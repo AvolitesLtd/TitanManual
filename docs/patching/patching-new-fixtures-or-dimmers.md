@@ -17,7 +17,7 @@ If the Fixtures window is not shown, press \<View/Open\> then
 \<Fixture\> or press \<View/Open\> then \[Open Workspace Window\] then
 \[Fixtures\].
 
-![Fixtures Window](/docs/images/image111.png)
+![Fixtures Window](/docs/images/Fixtures-Window-showing-user-numbers.png)
 
 Fixture buttons can be shown either in pages with Page buttons, or you
 can use the scroll bar on the right to show different pages. Use the
@@ -44,7 +44,7 @@ allocate a button using the Patch menu (described below) or the [Patch View](./c
 patching onto. Enter a new number to change the line. \[Address = \]
 shows the DMX address about to be patched. You can change this by typing
 in the new address on the numeric keypad and pressing \<Enter\>.\
-![DMX Line](/docs/images/image112.png)
+![DMX Line](/docs/images/DMX-Line.png)
 
 3. To patch a single dimmer, press a Fixture touch button, a
 Macro/Executor button or the blue Select button of a fader handle. To
@@ -106,8 +106,7 @@ You can patch either using the Patch menu (described below) or the [Patch View](
 1. Press \<Patch\>.
 
 2. Press \[Fixtures\].
-
-![Patch Menu](/docs/images/image113.png)
+![Patch Menu](/docs/images/Patch-Menu.png)
 
 3. Select the correct fixture manufacturer from the softkeys
 (\[Previous\] and \[Next\] page through the list of manufacturers). Or
@@ -123,8 +122,7 @@ You can use Quick Search here as well.
 on the numeric keypad if you want a different one. \[DMX line=xx\] lets
 you patch to a different DMX line, or you can enter the address as
 \[line\].\[address\], e.g. 2.45 would set address 45 on line 2.
-
-![Address Input](/docs/images/image114.png)
+![Address Input](/docs/images/Address-Input.png)
 
 7. Patch the fixture by pressing a Fixture touch button, a
 Macro/Executor button or the blue Select button of a fader handle (not
@@ -187,7 +185,7 @@ Select buttons.
     prompt area to help you check you have got the right one (if
     provided in the fixture personality; some fixtures do not include
     this information)\
-    ![Fixture Mode](/docs/images/image115.png)
+    ![Fixture Mode](/docs/images/Fixture-Mode.png)
 
 Capture Visualiser Auto Patch
 -----------------------------
@@ -207,7 +205,7 @@ fixtures if you wish.
 -   Fixture modes which will work with Auto Patch show a Capture icon in
     the button. If the icon is not shown, that fixture mode isn't
     supported in the integrated Capture.\
-    ![Fixture Modes](/docs/images/image116.png)
+    ![Fixture Modes](/docs/images/Fixture-Modes.png)
 
 -   If you are using the [console linked to the full version of Capture](../capture-visualiser/linking-the-console-to-stand-alone-capture.md)
     (Nexum or above) on an external computer, then changes to the patch
@@ -270,7 +268,7 @@ select the RDM tab. All devices which support RDM will be listed here.
 Click the \[Full Discover\] context menu button to rescan the rig for
 RDM devices.
 
-![RDM Discovery](/docs/images/image117.png)
+![RDM Discovery](/docs/images/RDM-Discovery.png)
 
 -   Select one or more fixtures in the grid and click the Patch context
     menu button to patch the devices.

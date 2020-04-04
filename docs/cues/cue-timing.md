@@ -27,7 +27,7 @@ how the HTP channels change. The third and fourth pictures show what
 happens to the LTP channels when fixture overlap and attribute fade are
 used.
 
-![Fade time, delay time, fixture overlap and attribute fade time diagram](/docs/images/image240.png)
+![Fade time, delay time, fixture overlap and attribute fade time diagram](/docs/images/Fade-time-delay-time-fixture-overlap-and-attribute-fade-time-diagram.png)
 
 All times which you have set while programming the fixtures/dimmers will
 be recorded when you save the cue.
@@ -135,8 +135,7 @@ sequence number, set it to **Off**.
 6. Touch the **Select** buttons of the fixture(s) you want to place in that
 position in the sequence. The sequence number is shown in the top right
 hand corner of the fixture select touch buttons.
-
-![Fixtures Window setting Fixture Order](/docs/images/image241.png)
+![Fixtures Window setting Fixture Order](/docs/images/Fixtures-Window-showing-fixture-order.png)
 
 7. Press \<Exit\> to finish.
 
@@ -206,7 +205,7 @@ Press the \<Time\> button to access this menu.
 The menu allows you to set cue times, or times for all attributes of a
 fixture, attribute groups or individual attributes.
 
-![](/docs/images/image242.png)
+![Edit Programmer Cue Times in the Titan Go interface](/docs/images/Edit-Programmer-Cue-Times-in-the-Titan-Go-interface.png)
 
 Using the \<Time\> button there are various quick shortcuts to setting
 times.
@@ -231,7 +230,7 @@ times.
 -   \<1\> \<THRO\> \<10\> = times spread across fixtures according to selection
     order
 
-[Video covering Timing SYNTHAX](https://youtu.be/GHq9b3PT8U0?t=20)
+[](https://youtu.be/GHq9b3PT8U0?t=20)
 
 Individual attribute times can also be set from the wheels, using the
 \[Wheels\] softkey option on the root menu.
@@ -241,4 +240,4 @@ the **Speed**, **Effect Multiplier**, **Speed Multiplier** and **speed source** 
 programmer. Speed and Speed Multiplier would only do anything if you
 create a [chase](../chases.md) and would have no effect in a cue.
 
-![Edit Programmer Rate Settings Menu, found by pressing Options](/docs/images/image243.png)
+![Edit Programmer Rate Settings Menu, found by pressing Options](/docs/images/Edit-Programmer-Rate-Settings-Menu-found-by-pressing-Options.png)

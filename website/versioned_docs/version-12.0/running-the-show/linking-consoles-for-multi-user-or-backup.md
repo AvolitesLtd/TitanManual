@@ -51,13 +51,13 @@ and show name.
 In backup mode the backup console screen displays the current connection
 and sync status including current show name.
 
-![TitanNet Backup Healthy](/docs/images/image307.png)
+![TitanNet Backup Healthy](/docs/images/TitanNet-Backup-Healthy.png)
 
 A green line between consoles represents a
 good connection. If a red line is shown there is a problem with the
 network connection. A blue line will appear during sync operations.
 
-![TitanNet Backup Faulted](/docs/images/image308.png)
+![TitanNet Backup Faulted](/docs/images/TitanNet-Backup-Faulted.png)
 
 -   Shows will automatically sync whenever a show is saved on the main
     console (including autosave). You can also choose to sync at any

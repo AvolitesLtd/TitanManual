@@ -22,7 +22,6 @@
     ],
     "Titan Basics": [
       "version-12.0-titan-basics",
-      "version-12.0-titan-basics/controlling-dimmers-and-fixtures",
       "version-12.0-titan-basics/workspace-windows",
       "version-12.0-titan-basics/other-parts-of-the-touch-screen",
       "version-12.0-titan-basics/front-panel-buttons",
@@ -42,11 +41,9 @@
       "version-12.0-patching/fixture-personality-options"
     ],
     "Controlling Fixtures": [
-      "version-12.0-controlling-fixtures/controlling-dimmers",
       "version-12.0-controlling-fixtures/using-the-select-buttons-and-wheels",
       "version-12.0-controlling-fixtures/viewing-and-editing-fixture-values",
-      "version-12.0-controlling-fixtures/fixture-groups",
-      "version-12.0-controlling-fixtures/advanced-options"
+      "version-12.0-controlling-fixtures/fixture-groups"
     ],
     "Palettes": [
       "version-12.0-palettes",
@@ -144,7 +141,6 @@
       "version-12.0-networking/connecting-the-arena-to-a-network",
       "version-12.0-networking/controlling-fixtures-over-a-network",
       "version-12.0-networking/using-active-fixtures",
-      "version-12.0-networking/using-active-fixtures-with-citp",
       "version-12.0-networking/a-quick-guide-to-ip-addressing"
     ],
     "Titan Commands": [

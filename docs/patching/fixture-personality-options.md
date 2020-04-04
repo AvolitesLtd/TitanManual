@@ -45,7 +45,7 @@ the rig to set fixture options, but you can invert any attribute.
 
 6. Press \<Exit\> to finish.
 
-![Tilt Inverted](/docs/images/image129.png)
+![Tilt Inverted](/docs/images/Tilt-Inverted.png)
 
 -   You can change the invert on multiple fixtures by selecting more
     than one, but the "Inverted" display will not show if there is a
@@ -90,7 +90,7 @@ It is still possible to put values into the programmer outside the
 limits. A "limited" watermark will appear on the wheel view behind an
 attribute when it is being limited.
 
-![limited](/docs/images/image130.png)
+![limited](/docs/images/limited.png)
 
 Fixture Offset
 --------------

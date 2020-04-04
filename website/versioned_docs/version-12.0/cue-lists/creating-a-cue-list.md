@@ -8,6 +8,8 @@ original_id: creating-a-cue-list
 Programming a Cue List
 ----------------------
 
+[Video covering Cue List Basics](https://youtu.be/Kp6XhdG6keM?t=20)
+
 Programming a cue list is similar to [recording a chase](../chases/creating-a-chase.md).
 
 You need to set up the look on the stage for each cue and then add it to
@@ -29,7 +31,7 @@ be recorded so they are in the programmer.
 using \[Set Times\]. These settings will be allocated to every new cue.
 
 5. Set up the look for the first cue, either manually or by using
-[\<Include\>](../titan-commands.md/#include) on existing cues. You can use the [Shape Generator](../effects/shape-generator/) and the
+[\<Include\>](../titan-commands.md#include) on existing cues. You can use the [Shape Generator](../effects/shape-generator.md) and the
 [Pixel Mapper](../effects/pixel-mapper.md).
 
 6. If you require a **legend for the cue**, set it now using \[Legend\].
@@ -70,7 +72,7 @@ selected or in the programmer (inverted display).
     the correct position for their next cue while they are set to zero
     intensity. See the [Move In Dark (MID)](../cue-lists/cue-list-playback.md#move-in-dark-mid-functions) functions section.
 
--   You can change the [tracking mode](cue-lists/cue-list-options.md#tracking) of each cue.
+-   You can change the [tracking mode](cue-list-options.md#tracking) of each cue.
 
 ### Record Mode
 
@@ -116,7 +118,7 @@ Playback Options for the cue list - see [Cue List Options](cue-list-options.md#c
 
 Cues containing shapes have a button for each shape.
 
-![Cue List window showing tracking shapes](/docs/images/image253.png)
+![Cue List window showing tracking shapes](/docs/images/Cue-List-window-showing-tracking-shapes.png)
 
 In the following cues where shapes are tracking, an option switch is
 shown for each active shape:
@@ -178,7 +180,7 @@ playback legend appears on the softkeys.
 5. You can continue to add Autoloads to other cues, or press \<Exit\>
 to finish.
 
-![Cue List Window with Autoload playback](/docs/images/image252.png)
+![Cue List Window with Autoload playback](/docs/images/Cue-List-Window-with-Autoload-playback.png)
 
 ---
 

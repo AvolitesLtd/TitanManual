@@ -12,7 +12,7 @@ To fire a chase, raise the fader of the playback. *(You can also use the
 screen relating to the playback fader shows the current cue number and
 speed of the chase.
 
-![Chase playing on a playback](/docs/images/image246.png)
+![Chase playing on a playback](/docs/images/Chase-playing-on-a-playback.png)
 
 > The HTP (intensity) channels in the chase will be controlled by the
     fader; if [fade times](chase-timing.md) are programmed, the fade will stop at the fader
@@ -24,7 +24,7 @@ speed of the chase.
 While the chase is running, the area of the screen above the wheels
 shows details of the chase steps:
 
-![Connected chase with speed and crossfade controls](/docs/images/image247.png)
+![Connected chase with speed and crossfade controls](/docs/images/Connected-chase-with-speed-and-crossfade-controls.png)
 
 You can temporarily pause the chase by pressing the \<Stop\> button near
 the wheels. Press \<Go\> to resume playback.
@@ -80,7 +80,7 @@ the fixtures spend the whole cue time fading to the next cue. With a
 crossfade of 50, the fixtures delay for half the cue time and fade for
 the other half of the time.
 
-![Chases crossfade diagram](/docs/images/image248.png)
+![Chases crossfade diagram](/docs/images/Chases-crossfade-diagram.png)
 
 You set the crossfade and speed as follows:
 

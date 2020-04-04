@@ -63,7 +63,7 @@ Link Option | Action
 **\[Link After Previous Cue\]** | The cue fires when the previous cue has finished its delay in and fade in times. A Link Offset can be set to add a delay between the previous cue finishing and this cue firing. The offset can be given as a time in seconds, or as a percentage of the fade time of the previous cue.
 **\[Link With Previous Cue\]** | The cue fires at the same time as the previous cue fires. A Link Offset can be set to add a delay between the previous cue firing and this cue firing, set either in seconds or as a percentage of the fade time of the previous cue.
 
-![Cue List Linking Diagram](/docs/images/image262.png)
+![Cue List Linking Diagram](/docs/images/Cue-List-Linking-Diagram.png)
 
 These options allow you to create complex
 self timed sequences by building up simple steps. For example if you
@@ -160,10 +160,12 @@ from the sequence.
 
 Press \<Exit\> to finish setting the fixture order.
 
-![Fixtures Window showing fixture order](/docs/images/image241.png)
+![Fixtures Window showing fixture order](/docs/images/Fixtures-Window-showing-fixture-order.png)
 
 Running a Cue List to Timecode
 ------------------------------
+
+[Video covering connecting a cue list to timecode](https://youtu.be/1abZT_ffIvs?t=20)
 
 The console can run a cue list automatically to a timecode. This is very
 useful for complex performances which must be exactly the same time
@@ -204,7 +206,7 @@ time.
 You can edit the timecode for each cue by using **Wheel A** to select the
 cue, then press \<Enter\> and type the new timecode for the cue.
 
-![Playback View Window showing timecoded cues](/docs/images/image263.png)
+![Playback View Window showing timecoded cues](/docs/images/Playback-View-Window-showing-timecoded-cues.png)
 
 While editing a time you can also use **Wheel B** to select multiple cues,
 and use the softkey options to enter a value to change the time of all
@@ -214,4 +216,4 @@ You can open a timecode display window for each of the four possible
 sources to show you the incoming timecode - press \[Open Workspace
 Window\] then \[Timecode x\] where x is 1 to 4.
 
-![Timecode 1 Workspace Window](/docs/images/image264.png)
+![Timecode 1 Workspace Window](/docs/images/Timecode-1-Workspace-Window.png)

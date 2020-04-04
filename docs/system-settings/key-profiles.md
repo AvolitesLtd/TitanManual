@@ -18,11 +18,11 @@ point.
 The current settings of the playback buttons are shown on the screen
 related to each playback fader.
 
-![Key Profiles on playback](/docs/images/image301.png)
+![Key Profiles on playback](/docs/images/Playback-Faders-with-key-profiles-applied.png)
 
 ## Creating and editing key profiles
 
-[Video covering Key Profiles](https://youtu.be/CxHQV4sP_sA?t=20)
+[](https://youtu.be/CxHQV4sP_sA?t=20)
 
 To create or edit a profile, switch to System mode then select \[Key
 Profiles\]. You can then use the Manage Profiles menu to View, Edit,
@@ -47,7 +47,7 @@ shown on the left side of the screen. Once you select a key type from
 the menu, the screen shows actions available for that type of button.
 Only the Sapphire Touch has black buttons.
 
-![Editing a Key Profile](/docs/images/image326.png)
+![Editing a Key Profile](/docs/images/Editing-a-Key-Profile.png)
 
 ## Actions for Buttons
 

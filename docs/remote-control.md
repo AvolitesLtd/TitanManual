@@ -1,11 +1,11 @@
 ---
-id: remote-control 
+id: remote-control
 title: Remote Control
 sidebar_label: Remote Control
 ---
 
 With the addition of an external Wireless Access Point, the console can
-be remote controlled using **Wi-Fi** from an [Android]((https://play.google.com/store/apps/developer?id=Avolites+Ltd)) or [iOS](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps) mobile device
+be remote controlled using **Wi-Fi** from an [Android](https://play.google.com/store/apps/developer?id=Avolites+Ltd) or [iOS](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps) mobile device
 such as a smartphone or tablet. This can be invaluable when rigging,
 testing and focusing. You can also run and store playbacks and palettes
 from the remote.
@@ -17,7 +17,7 @@ Store](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-ph
 > Make sure you install the correct version of the app to match the
 console software version, **there are different apps for each version**.
 
-![Titan Remote - Android App Screenshot](/docs/images/image309.png)
+![Titan Remote - Android App Screenshot](/docs/images/Fixture-View-in-Titan-Remote-Android-App.png)
 
 You can connect multiple remotes to the console and the console itself
 remains functional while the remote is connected. Each remote has a

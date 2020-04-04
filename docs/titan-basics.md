@@ -27,7 +27,7 @@ If an internal UPS is fitted (Sapphire Touch, Arena, optional on other
 consoles), on power loss the toolbar on the screen will turn orange and
 display how long you\'ve got before the console shuts down.
 
-![UPS Toolbar](/docs/images/image59.png)
+![UPS Toolbar](/docs/images/UPS-Toolbar.png)
 
 When the UPS battery runs low and the console is about to shut down, the
 toolbar turns red.
@@ -125,7 +125,7 @@ software for anything that might cause you problems. If any problems are
 found, a warning screen is displayed which offers the option to fix the
 problems.
 
-![Healthcheck](/docs/images/image60.png)
+![Healthcheck](/docs/images/Healthcheck.png)
 
 Only run fixes if you have plenty of time as some fixes can take up to
 an hour to complete.
@@ -239,14 +239,3 @@ The Pearl Expert Touch Wing can only be used with the [Pearl Expert](about-the-c
 console and should be connected before the console is powered up.
 
 
-Controlling Dimmers and Fixtures
---------------------------------
-
-When you are programming a show, and sometimes when you are running a
-show, you need to manually control the fixtures and dimmers to set the
-intensity, position, colour, etc. To do this you first select the
-fixtures you want to change using the select buttons, then you set the
-attributes of those fixtures using the Wheels and Attribute buttons.
-
-You can also set fade/timing information for each attribute of each
-fixture which is treated as an additional attribute of the fixture.

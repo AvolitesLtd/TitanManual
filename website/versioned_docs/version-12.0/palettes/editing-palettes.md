@@ -15,7 +15,7 @@ them. A context menu button allows you to switch to displaying **Times**.
 Press \<View/Open\>, then the button of the palette. The **Palette View
 window** will open.
 
-![Palette View window](/docs/images/image179.png)
+![Palette View window](/docs/images/Palette-View-window.png)
 
 You can filter which attributes are shown using the **All/IPCGBES** buttons
 in the top corner, or which fixtures are shown using the fixture type

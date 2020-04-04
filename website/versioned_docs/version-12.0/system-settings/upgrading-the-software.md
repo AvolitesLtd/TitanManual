@@ -21,7 +21,7 @@ software from the Avolites website: http://www.avolites.com.
 
 -   If you are upgrading the software from a version earlier than v12,
     you will have to obtain an AvoKey USB dongle from Avolites and
-    license the software. See the [Software Licensing](recovering-and-reinstalling-the-console#software-licensing) section for details of how to do
+    license the software. See the [Software Licensing](recovering-reinstalling-the-console.md#software-licensing) section for details of how to do
     this.
 
 ---
@@ -36,7 +36,7 @@ and install it on the console like this:
 2. In the screen **tools menu**, stop the console software using the
 **Shutdown Software** button at the bottom of the list.
 
-![Tools Menu](/docs/images/image91.png)
+![Tools Menu](/docs/images/Tools-Menu.png)
 
 3. Open the **tools menu** again, touch the **Folders** icon and navigate to
 the drive where the upgrade file is found.

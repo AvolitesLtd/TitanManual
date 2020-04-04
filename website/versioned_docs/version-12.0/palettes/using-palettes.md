@@ -8,6 +8,8 @@ original_id: using-palettes
 Recalling a Palette Value
 -------------------------
 
+[Video covering Palettes Playback](https://youtu.be/_bmk7JEPpQo?t=20)
+
 ### Recalling From a Button
 
 To recall a palette value from a button:
@@ -30,7 +32,7 @@ to the selected fixtures.
     Settings](../system-settings/user-settings.md#highlight-active-palettes)).
     This makes it easier to see which palette you have selected.
 
-    ![Active Palette Highlighted](/docs/images/image178.png)
+    ![Active Palette Highlighted](/docs/images/Active-Palette-Highlighted.png)
 
 ### Recalling From the Keypad
 

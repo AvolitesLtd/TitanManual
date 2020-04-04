@@ -5,7 +5,7 @@ sidebar_label: Operating Synergy
 original_id: operating-synergy
 ---
 
-Once Titan and the Ai server(s) are [linked up](setting-up), you can start controlling
+Once Titan and the Ai server(s) are [linked up](setting-up.md), you can start controlling
 Ai from the console.
 
 Uploading Content with the Media browser
@@ -17,7 +17,7 @@ the server. Media content will be automatically transcoded to the AiM
 codec as required by the Ai system. This is very handy when you are
 handed a last-minute media file at the front of house position.
 
-![Ai Media Browser Window](/docs/images/image278.png)
+![Ai Media Browser Window](/docs/images/Ai-Media-Browser-Window.png)
 
 On the left hand side of the screen, local disks available on the
 console are listed. If you plug in a USB drive it will be shown here.
@@ -41,7 +41,7 @@ If the Ai server already has files on it with the same names as files
 you have selected for transfer, the files will be highlighted in red in
 the Ai server window as a warning.
 
-![Ai Media Browser uploading content](/docs/images/image279.png)
+![Ai Media Browser uploading content](/docs/images/Ai-Media-Browser-uploading-content.png)
 
 Synergy will attempt to transfer the files as fast as it can and will
 show you a progress screen. This may slow down the network; if this will
@@ -65,23 +65,23 @@ addition you can view any other NDI streams available on the network, so
 for example at a broadcast event the broadcaster could feed you the
 program output or individual cameras to check lighting levels.
 
-![Video Multi View Window](/docs/images/image280.png)
+![Video Multi View Window](/docs/images/Video-Multi-View-Window.png)
 
 To add a stream, click on a view in the window (blank views show a plus
 symbol). A screen will pop up showing you all available streams on the
 network - either direct views of the layers, or a view of the output
 screen with the layers combined.
 
-![Video Multi View Window adding a stream](/docs/images/image281.png)
+![Video Multi View Window adding a stream](/docs/images/Video-Multi-View-Window-adding-a-stream.png)
 
 The context button \[Change Layout\] gives you various possible layouts
 of multiple screens. The \[Titles Shown\] button toggles to show or hide
 the stream titles at the bottom of the views.
 
-![Video Multi View Window laout options](/docs/images/image282.png)
+![Video Multi View Window laout options](/docs/images/Video-Multi-View-Window-laout-options.png)
 
 You must have the **"Automatic NDI preview"** option enabled for the Ai
-server in the [Synergy Settings](setting-up#synergy-setup) window for this to work.
+server in the [Synergy Settings](setting-up.md#synergy-setup) window for this to work.
 
 The NDI streams used for video preview can use a lot of network
 bandwidth which limits how many streams you can receive at one time. The
@@ -99,16 +99,16 @@ Attribute Editor for Controlling Ai Layers
 ------------------------------------------
 
 Once you have selected one or more Ai layers to control from the [Synergy
-Fixtures window](setting-up#synergy-fixtures-window), the Attribute Editor lets you play back and manipulate
-media on those layers (you can also use the [wheels](../controlling-fixtures/using-the-select-buttons-and-wheels) and [Attribute Bank
-buttons](../controlling-fixtures/using-the-select-buttons-and-wheels/#attribute-wheel-display)).
+Fixtures window](setting-up.md#synergy-fixtures-window), the Attribute Editor lets you play back and manipulate
+media on those layers (you can also use the [wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md) and [Attribute Bank
+buttons](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-wheel-display)).
 
 > The most important attributes are **Intensity**, which set the output level
 of each layer, and **Media Selection** which lets you choose the Bank and
 Clip to play. But you can also control all other functions of Ai such as
 adding FX and colour.
 
-![Clip tab of Attribute Editor for Synergy layer](/docs/images/image283.png)
+![Clip tab of Attribute Editor for Synergy layer](/docs/images/Clip-tab-of-Attribute-Editor-for-Synergy-layer.png)
 
 In the Media selection screen, in the Clip tab, if you click on the
 **T** button *(top right)* or the caption at the top of the tab, this will toggle
@@ -122,7 +122,7 @@ requiring a lot of scrolling to see all the buttons. If you click in
 the header above the buttons, the column will expand to fill the
 window, making selection easier.
 
-![FX tab of Attribute Editor for Synergy layer](/docs/images/image284.png)
+![FX tab of Attribute Editor for Synergy layer](/docs/images/FX-tab-of-Attribute-Editor-for-Synergy-layer.png)
 
 In the FX attributes, the effects names are pulled live from the Ai
 server. This means the names you are shown will always match what's
@@ -136,12 +136,12 @@ transcoded by the Ai server.
 
 Currently being transcoded | In the queue awaiting transcoding | Transcoding failed
 ---|---|---
-![Video currently transcoding in Attribute Editor for Synergy layer](/docs/images/image285.png) | ![Video queued for transcoding in Attribute Editor for Synergy layer](/docs/images/image286.png) | ![Video failed to transcode in Attribute Editor for Synergy layer](/docs/images/image287.png)
+![Video currently transcoding in Attribute Editor for Synergy layer](/docs/images/Video-currently-transcoding-in-Attribute-Editor-for-Synergy-layer.png) | ![Video queued for transcoding in Attribute Editor for Synergy layer](/docs/images/Video-queued-for-transcoding-in-Attribute-Editor-for-Synergy-layer.png) | ![Video failed to transcode in Attribute Editor for Synergy layer](/docs/images/Video-failed-to-transcode-in-Attribute-Editor-for-Synergy-layer.png)
 
-You can [create palettes](../palettes/creating-palettes) to control Ai, just like with any other
+You can [create palettes](../palettes/creating-palettes.md) to control Ai, just like with any other
 fixture. So colour, zoom, position and so on can be stored in a
 palette and used to quickly modify the appearance of the media.
-[Palette fade times](../palettes/timing-with-palettes) will also operate as you would expect.
+[Palette fade times](../palettes/timing-with-palettes.md) will also operate as you would expect.
 
 Lightmap: Pixel Mapping Ai Media Content
 ----------------------------------------
@@ -154,7 +154,7 @@ individual layers or from surfaces (combined layer outputs). The surface
 outputs do not need to be connected to a physical output on the Ai
 server.
 
-> Use the [Layout Editor](../controlling-fixtures/fixture-groups/#fixture-order-and-fixture-layout-in-groups) to tell the console where the fixtures
+> Use the [Layout Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) to tell the console where the fixtures
 are positioned in the physical space so it can map the correct part of the video
 to each fixture, which is described in the [next section](#layout-editor-with-ai-server).
 
@@ -163,19 +163,19 @@ want to use.
 
 2. Select \[Shapes and Effects\], then \[Pixel Mapper\]
 
-3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups/)** to play back on
+3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups.md)** to play back on
 
 4. Add an effect using the **+** button
 
 5. Select Ai feed using the **Ai** button
 
-![Adding an element in the Pixel Mapper Window](/docs/images/image288.png)
+![Adding an element in the Pixel Mapper Window](/docs/images/Adding-an-element-in-the-Pixel-Mapper-Window.png)
 
 6. Select the surface you want to take the media from using the **Source
 Surface** option. You can also adjust the colour balance using the
 **Red/Green/Blue sliders**.
 
-![Ai layer video overlay in Pixel Mapper Window](/docs/images/image289.png)
+![Ai layer video overlay in Pixel Mapper Window](/docs/images/Ai-layer-video-overlay-in-Pixel-Mapper-Window.png)
 
 The media clip selected in step 1 should now be playing back over the
 fixtures you selected. The pixel map effect is now linked to the Ai
@@ -183,12 +183,12 @@ surface so you can change the clip which is playing using Attribute
 Editor or from programmed cues and you will see the change on the
 fixture outputs.
 
-![Pixel Mapped fixtures with Ai screen shown in Capture Visualiser](/docs/images/image290.png)
+![Pixel Mapped fixtures with Ai screen shown in Capture Visualiser](/docs/images/Pixel-Mapped-fixtures-with-Ai-screen-shown-in-Capture-Visualiser.png)
 
 Layout editor with Ai server
 ----------------------------
 
-The basic operation of the Layout Editor is described in [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups/#fixture-order-and-fixture-layout-in-groups).
+The basic operation of the Layout Editor is described in [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
 
 The layout editor has some additional functions in the \[Media Options\]
 context menu which are useful when setting up fixture layouts for use
@@ -199,14 +199,14 @@ Select any layer or surface to be
 overlaid on the fixture layout grid to help you see where fixtures need
 to be positioned.
 
-![Show Video Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/image291.jpeg)
+![Show Video Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/Show-Video-Overlay-in-Layout-Editor-for-mapping-fixtures-to-Ai-Video-layers.jpeg)
 
 ### Sample Region Overlay
 If the AI output has sample regions defined,
 for example when areas of LED screen are interspersed with fixtures,
 this option displays the sample regions overlaid on the layout grid.
 
-![Sample Region Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/image292.png)
+![Sample Region Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/Sample-Region-Overlay-in-Layout-Editor-for-mapping-fixtures-to-Ai-Video-layers.png)
 
 ### Position Overlay
 With this option turned on, when you select a
@@ -214,7 +214,7 @@ fixture in the layout editor, crosshairs will be displayed on the actual
 Ai output. This helps you to accurately position the fixture in the
 layout editor to match where it is in real life.
 
-![Position Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/image293.png)
+![Position Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/Position-Overlay-in-Layout-Editor-for-mapping-fixtures-to-Ai-Video-layers.png)
 
 ### Match Surface Resolution
 Allows you to match the layout grid to the
@@ -228,7 +228,7 @@ other value will be automatically set to preserve the aspect ratio of
 the surface, so this function is useful to change the grid while keeping
 the correct ratio.
 
-![Match Surface Resolution in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/image294.png)
+![Match Surface Resolution in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/Match-Surface-Resolution-in-Layout-Editor-for-mapping-fixtures-to-Ai-Video-layers.png)
 
 You can also scale fixtures in the Layout Editor to reflect real life
 size, as the default cell layout from the fixture's personality might
@@ -246,11 +246,11 @@ effects as you can make the lights do pretty much anything in response
 to the video signal. The phase is controlled from 0-360 degrees as the
 video intensity where the fixture is located goes from 0-100%.
 
-Once your [Keyframe Shape is created](../effects/key-frame-shapes/#creating-a-key-frame-shape), go to the [Phase Master option](../effects/key-frame-shapes/#changing-shape-parameters-in-the-effect-editor) at
+Once your [Keyframe Shape is created](../effects/key-frame-shapes.md#creating-a-key-frame-shape), go to the [Phase Master option](../effects/key-frame-shapes.md#changing-shape-parameters-in-the-effect-editor) at
 the bottom of the shape options screen and select the Ai screen you want
 to use as the video source.
 
-![Phase Master using Ai screen in Keyframe Shape](/docs/images/image295.png)
+![Phase Master using Ai screen in Keyframe Shape](/docs/images/Phase-Master-using-Ai-screen-in-Keyframe-Shape.png)
 
 Special function bank/clip numbers
 ----------------------------------

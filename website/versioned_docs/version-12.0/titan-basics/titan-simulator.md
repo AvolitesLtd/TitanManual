@@ -10,7 +10,7 @@ problem, just run the Titan Simulator on your PC. You can then load your
 show and simulate any of the Titan consoles, using an on-screen "virtual
 panel".
 
-![titansimulator](/docs/images/image101.jpeg)
+![titansimulator](/docs/images/titansimulator.jpeg)
 
 Installing Titan Simulator
 --------------------------

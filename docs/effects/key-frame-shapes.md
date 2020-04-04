@@ -11,7 +11,7 @@ them.
 Creating a Key Frame Shape
 --------------------------
 
-[Video covering recording a key frame shape](https://youtu.be/1nvLaipivhM?t=20)
+[](https://youtu.be/1nvLaipivhM?t=20)
 
 A key frame shape is created a bit like a [chase](../chases.md), but the shape is more
 flexible because you have lots of control over the way the attribute
@@ -41,7 +41,7 @@ Shapes\]
 will show above the first playback fader. *(Press \[Playbacks Display
 Visible/Hidden\] to return the playback faders to normal, if you want to
 select one in Quick Build mode)*.\
-![Key Frame Shape - creating an effect with colour key frames](/docs/images/image187.png)
+![Key Frame Shape - creating an effect with colour key frames](/docs/images/Key-Frame-Shape-creating-an-effect-with-colour-key-frames.png)
 
 5. Continue to set colours and press \[Add Frame\] until you have
 created all the steps you want
@@ -74,7 +74,7 @@ Changing Shape Parameters in the Effect Editor
 Once you have finished creating a key frame shape it will be shown in
 the Effect Editor window.
 
-![Effect Editor Window with colour key frame shape](/docs/images/image188.png)
+![Effect Editor Window with colour key frame shape](/docs/images/Effect-Editor-Window-with-colour-key-frame-shape.png)
 
 The controls at the top of the left hand pane are the global shape
 properties which affect the whole shape, controlling speed, direction
@@ -99,7 +99,7 @@ the Phase Offset slider below)*.
 To start with *(or when you click on the Layer name)* the sliders to the
 right of the main area are independent controls for the layer.
 
-![Effect Editor key frame controls for layer/effect](/docs/images/image189.png)
+![Effect Editor key frame controls for layer/effect](/docs/images/Effect-Editor-key-frame-controls-for-layer-effect.png)
 
 You can click on the buttons to the right of the sliders
 to enter values from the keyboard, and when the button is clicked on the
@@ -147,7 +147,7 @@ for more details.
 By clicking on individual key frames on the left, you can change
 parameters for each individual frame:
 
-![Effect Editor key frame controls for individual key frame step](/docs/images/image190.png)
+![Effect Editor key frame controls for individual key frame step](/docs/images/Effect-Editor-key-frame-controls-for-individual-key-frame-step.png)
 
 -   **Timing**: use the Start Time slider or drag the step positions in the
     window
@@ -166,14 +166,14 @@ You can change the style of the fades between steps by clicking the
 curve button to the right of each step. The new curve will be shown in
 the fade graphic in the main window.
 
-![Effect Editor key frame shape changing curves for individual key frame steps](/docs/images/image191.png)
+![Effect Editor key frame shape changing curves for individual key frame steps](/docs/images/Effect-Editor-key-frame-shape-changing-curves-for-individual-key-frame-steps.png)
 
 ### Editing Frames
 
 You can also edit the sequence of the key frame shape using the Effect
 Editor window.
 
-![Effect Editor key frame shape layer with colour steps](/docs/images/image192.png)
+![Effect Editor key frame shape layer with colour steps](/docs/images/Effect-Editor-key-frame-shape-layer-with-colour-steps.png)
 
 -   To **add** more frames to a key frame shape click the **pencil** button to
     the right of the **layer name**.
@@ -198,7 +198,7 @@ simultaneously. To add another layer, click the **plus** button at the
 bottom, then select **Layers**. The new layer will appear in the list on the
 left.
 
-![Effect Editor adding an extra effect](/docs/images/image194.png)
+![Effect Editor adding an extra effect](/docs/images/Effect-Editor-adding-an-extra-effect.png)
 
 You can also add a completely separate key frame shape or a 
 [pixel map effect](pixel-mapper.md).

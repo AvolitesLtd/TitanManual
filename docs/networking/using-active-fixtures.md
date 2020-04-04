@@ -1,5 +1,5 @@
 ---
-id: using-active-fixtures-with-citp
+id: using-active-fixtures
 title: Using Active Fixtures with CITP
 sidebar_label: Using Active Fixtures with CITP
 ---

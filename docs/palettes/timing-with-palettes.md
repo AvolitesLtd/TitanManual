@@ -23,7 +23,7 @@ Ignoring Its Times\].
 Manually Overriding Palette Times
 ---------------------------------
 
-[Video covering Palette Times](https://youtu.be/FF8szWCpVkE?t=135)
+[](https://youtu.be/FF8szWCpVkE?t=135)
 
 Being able to recall palettes with a manual fade allows easy \"busking\"
 of shows. When a palette is recalled in this way, a time is added and

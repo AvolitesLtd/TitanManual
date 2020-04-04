@@ -1,16 +1,18 @@
 ---
 id: midi-dmx-or-audio-triggering
-title: MIDI, DMX or audio triggering
-sidebar_label: MIDI, DMX or audio triggering
+title: External triggering
+sidebar_label: External triggering
 ---
 
 You can set up the console to allow most features to be triggered by
 external events. This is very useful in complex shows or when using in
 an automated setup.
 
-> Audio trigger (sound to light) requires special hardware which is currently only available on the Quartz and Arena consoles. The line in socket on other consoles cannot be used for audio trigger.
+> Audio trigger (sound to light) requires special hardware which is not fitted on Sapphire Touch,
+Tiger Touch, Titan Mobile, T1 and Pearl Expert. You can plug a T2 into these consoles to provide
+audio triggering. The line in socket on other consoles cannot be used for audio trigger.
 
-Connecting Remote Trigger Sources
+Connecting External Trigger Sources
 ---------------------------------
 
 To connect a MIDI source, connect it to the MIDI in connector on the
@@ -25,26 +27,23 @@ Mobile may require an update of the USB Expert software to enable this
 function, this can be downloaded from the Avolites website.
 
 Audio input is connected to the dedicated audio in jack (not the line in
-jack on the motherboard) -- available on Quartz and Arena only.
+jack on the motherboard) -- see information box above for consoles which provide this.
 
-> The Arena console has a switch trigger input on a jack socket.
+The Arena console has a switch trigger input on a jack socket.
 
-Setting up Remote Triggering
+You can link a networked PioneerDJ system to Titan to automate BPM masters; this is described in the next section. This replaces the old “Pro DJ Tap” function.
+
+Setting up External Triggering
 ----------------------------
 
 Enter System mode and select \[Triggers\]. The Triggers window will
 open.
 
-![Triggers Window](/docs/images/image304.png)
+![Triggers Window](/docs/images/Triggers-Window.png)
 
-The left hand side of the window has a list of trigger sets. By default
-the following sets are provided:
-
--   DJ Tap allows you to sync BPM masters to network messages from TC
-    Supply\'s Pro DJ Tap device.
-
--   MIDI Show control provides standard show control messages (see next
-    section for details).
+The left hand side of the window has a list of trigger sets. A default
+sets is provided for MIDI Show Control which includes standard show control 
+messages (see next section for details).
 
 Each set of triggers can be enabled or disabled using the "power" button
 at the left hand end of the mapping name.
@@ -92,7 +91,7 @@ carried out.
 
 You can continue to add other triggers to the mapping.
 
-![Triggers Window with MIDI triggers](/docs/images/image305.png)
+![Triggers Window with MIDI triggers](/docs/images/Triggers-Window-with-MIDI-triggers.png)
 
 To delete a trigger from the mapping, select it in the list and press
 the rubbish bin button at the bottom.
@@ -159,7 +158,7 @@ which of the bands is being used.
 
 Audio triggers are adjusted in the Audio Triggers workspace.
 
-![Audio Window](/docs/images/image306.png)
+![Audio Window](/docs/images/Audio-Window.png)
 
 If the console does not have suitable hardware a warning message is
 displayed. Currently only the Quartz and Arena consoles have the audio

@@ -18,7 +18,7 @@ button of the playback). To edit any of the time settings in each cue,
 select the setting to be modified by touching or dragging in the grid,
 then use the softkey options to change the setting.
 
-![Playback View of a chase](/docs/images/image249.png)
+![Playback View of a chase](/docs/images/Playback-View-for-chase.png)
 
 Editing a Chase Using Unfold
 ----------------------------
