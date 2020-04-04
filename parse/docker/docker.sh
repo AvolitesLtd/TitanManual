@@ -1,7 +1,19 @@
-CWD=$(pwd)
+# build all docks
+docker run \
+    --rm \
+    -v `pwd`/docs:/app/docs \
+    -v `pwd`/parse:/app/parse \
+    -v `pwd`/website:/app/website \
+    --name PDF \
+    avo:pdf
+
+# run as shell
 
 docker run \
     --rm \
-    -v $CWD/output:/app/pdf/parse/output \
+    -it \
+    -v `pwd`/docs:/app/docs \
+    -v `pwd`/parse:/app/parse \
+    -v `pwd`/website:/app/website \
     --name PDF \
-    pdf:1.0
+    avo:pdf sh

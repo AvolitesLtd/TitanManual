@@ -1,3 +1,0 @@
-# Test File
-
-Some text
