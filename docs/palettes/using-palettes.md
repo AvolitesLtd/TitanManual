@@ -7,7 +7,7 @@ sidebar_label: Using Palettes
 Recalling a Palette Value
 -------------------------
 
-[](https://youtu.be/_bmk7JEPpQo?t=20)
+[](https://youtu.be/_bmk7JEPpQo?t=20 "Palettes Playback")
 
 ### Recalling From a Button
 
@@ -63,7 +63,7 @@ If you have stored palettes on physical buttons on the console, the
 \<+Page\>/\<-Page\> buttons will change to a different page of palettes.
 If you want a palette to be locked on its handle and not change when the
 page is changed, you can set a lock or transparent lock on the palette
-handle. See [Handle Paging](../cues/playback-options.md#handle-paging) 
+handle. See [Handle Paging](../cues/playback-options.md#handle-paging)
 for more details about locks.
 
 Each of the palette windows can either display pages of palettes, with

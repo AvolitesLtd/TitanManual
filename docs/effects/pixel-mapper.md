@@ -7,10 +7,10 @@ sidebar_label: Pixel Mapper
 Creating Pixel Mapper effects
 -----------------------------
 
-[](https://youtu.be/UchvGw2vvU8?t=20)
+[](https://youtu.be/UchvGw2vvU8?t=20 "Pixel Mapping")
 
 The Pixel Mapper works on a group of fixtures, which you have set up
-using the 
+using the
 [Fixture Layout function](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
 This tells the console where the
 fixtures are physically located on the stage. The console then maps the
@@ -231,4 +231,4 @@ editor window.
 
 > Layer masters may require an updated personality file
 
-[](https://youtu.be/rCIIH2-DCNM?t=20)
+[](https://youtu.be/rCIIH2-DCNM?t=20 "Advanced Pixel Mapping")

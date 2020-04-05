@@ -9,7 +9,7 @@ songs/events in your show which you can then easily step through. You
 can also make notes, handy for avoiding bits of paper lying around. You
 can have multiple set lists in a show.
 
-[](https://youtu.be/VX5acUU-99M?t=20)
+[](https://youtu.be/VX5acUU-99M?t=20 "Set Lists")
 
 To open the Set List window, click \[Open Workspace Window\] then \[Set
 List\].

@@ -228,7 +228,7 @@ about each DMX channel.
 Fixture Exchange
 ----------------
 
-[](https://youtu.be/a_ES6UYQRJ4?t=20)
+[](https://youtu.be/a_ES6UYQRJ4?t=20 "Advanced Patching")
 
 The Fixture Exchange function enables you to repatch fixtures in your
 show using alternative fixtures, retaining important elements such as

@@ -62,7 +62,7 @@ can change this, see [Changing Fixture Order](#changing-fixture-order))*.
 ---
 
 -   You can also set independent times for the **IPCGBES** attribute groups,
-    and for each individual attribute, *(see 
+    and for each individual attribute, *(see
     [Setting Attribute Fade Times for a Cue](#setting-attribute-fade-times-for-a-cue)
     for details of this)*.
 
@@ -117,7 +117,7 @@ Changing Fixture Order
 You can change the order of the fixtures stored in a cue. Normally this
 is set to the order in which you selected the fixtures when the cue was
 created, but you might want to change this *(for example to pair up
-fixtures so they move together when using 
+fixtures so they move together when using
 [Overlap](#setting-fade-times-and-overlap-for-a-cue))*.
 
 1. Press \[Edit Times\] at the top level menu
@@ -191,7 +191,7 @@ Editing Times in the Programmer
 -------------------------------
 
 You can check and edit the times which are set in the programmer before
-saving a cue. You can also set times into the programmer and 
+saving a cue. You can also set times into the programmer and
 [merge](editing-cues.md#editing-a-cue-by-merging) them
 into cues as a quick way of updating times, just like you would with
 attribute values.
@@ -230,7 +230,7 @@ times.
 -   \<1\> \<THRO\> \<10\> = times spread across fixtures according to selection
     order
 
-[](https://youtu.be/GHq9b3PT8U0?t=20)
+[](https://youtu.be/GHq9b3PT8U0?t=20 "Timing Syntax")
 
 Individual attribute times can also be set from the wheels, using the
 \[Wheels\] softkey option on the root menu.

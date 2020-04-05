@@ -11,17 +11,17 @@ them.
 Creating a Key Frame Shape
 --------------------------
 
-[](https://youtu.be/1nvLaipivhM?t=20)
+[](https://youtu.be/1nvLaipivhM?t=20 "Key Frame Shapes")
 
 A key frame shape is created a bit like a [chase](../chases.md), but the shape is more
 flexible because you have lots of control over the way the attribute
 changes between key frames, and you can change the way it spreads across
-multiple fixtures. It's also *(unlike chases)* easy to save in 
+multiple fixtures. It's also *(unlike chases)* easy to save in
 [cue lists](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists).
 
 You can create the key frames either in **Channel Mode** by manually setting
 up a state and pressing \[Add Frame\], or in **Quick Build** mode by
-selecting [palettes](../palettes.md) or 
+selecting [palettes](../palettes.md) or
 [cues](../cues.md) which will be automatically saved as a frame
 as you select them. Use the \[Record Mode\] softkey to select the mode.
 
@@ -51,7 +51,7 @@ created all the steps you want
 7. Use the Effect Editor window to change the Spread, Overlap (see
 below)
 
-8. Save the shape to a cue if you want to use it in a show *(see 
+8. Save the shape to a cue if you want to use it in a show *(see
 [Saving a Key Frame Shape to a Cue](#saving-a-key-frame-shape-to-a-cue))*
 
 ---
@@ -79,13 +79,13 @@ the Effect Editor window.
 The controls at the top of the left hand pane are the global shape
 properties which affect the whole shape, controlling speed, direction
 (using [2D group layout](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)),
-[phase/spread](shape-generator.md#changing-the-spread-of-a-shape-across-multiple-fixtures) and 
+[phase/spread](shape-generator.md#changing-the-spread-of-a-shape-across-multiple-fixtures) and
 [fixture overlap](../cues/cue-timing.md#setting-fade-times-and-overlap-for-a-cue).
 
 The **eye** icon in the top left corner *"collapses"* the shape preview in the
 effect editor window, this allows you to expand only the shape you want
 to work on if you have created multiple shapes. The **fixture icon** button
-on the right allows you to change the fixtures the key frame shape shape 
+on the right allows you to change the fixtures the key frame shape shape
 applies to.
 
 The top of the main area shows a graphical version of the fades in the
@@ -133,12 +133,12 @@ is selected, then the cycles will be set for the selected layer only.
 different numbers of cycles.*
 
 Keyframe shapes can run across **sub fixtures** (cells). This is turned \[Off\]
-by default, but you can select \[On (Group)\] which uses 
+by default, but you can select \[On (Group)\] which uses
 the [layout set for the group](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups),
 or \[On (Linear)\] which ignores the layout and just uses the cells in numerical order.
 
 The Phase Master option lets you control the phase of the shape using
-the intensity of a video layer from an Ai server. See 
+the intensity of a video layer from an Ai server. See
 [Phase Control of Keyframe Shapes from Ai](../synergy/operating-synergy.md#phase-control-of-keyframe-shapes-from-ai)
 for more details.
 
@@ -200,7 +200,7 @@ left.
 
 ![Effect Editor adding an extra effect](/docs/images/Effect-Editor-adding-an-extra-effect.png)
 
-You can also add a completely separate key frame shape or a 
+You can also add a completely separate key frame shape or a
 [pixel map effect](pixel-mapper.md).
 Pixel map effects will be shown at the top of the shape list on
 the left, you can use the **eye** icon to hide the pixel map effect when you
@@ -210,15 +210,15 @@ Saving a Key Frame Shape to a Cue
 ---------------------------------
 
 By default when a key frame shape is saved to a cue, the playback fader
-will fade the shape. If the playback is set to have 
+will fade the shape. If the playback is set to have
 [Speed on Fader](../cues/playback-options.md#shape-effect-speed), the
 fader will master the speed of all layers in the shape.
 
 When a key frame shape is running in a playback it can behave as Overlay
-or LTP. A global value for 
-[Shape Behaviour](../system-settings/user-settings.md#shape-behaviour) is in the 
+or LTP. A global value for
+[Shape Behaviour](../system-settings/user-settings.md#shape-behaviour) is in the
 [User Settings](../system-settings/user-settings.md), but
-you can also set the mode in 
+you can also set the mode in
 [Playback Options](../cues/playback-options.md#shape-behaviour) for each playback.
 
 -   In \[Overlay\] mode (default) the shape will have control of the
@@ -235,7 +235,7 @@ you can also set the mode in
     the shape output. Killing the playback will restore the shape
     output. Quick Palettes and manual changes (the programmer) have High
     priority. Setting the shape priority to **"Very High"** would prevent
-    the programmer taking over (see 
+    the programmer taking over (see
     [Priority](../cues/playback-options.md#priority) in
     [Playback Options](../cues/playback-options.md)).
 

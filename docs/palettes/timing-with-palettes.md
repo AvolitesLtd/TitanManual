@@ -10,9 +10,9 @@ or you can manually override the timing when recalling the palette.
 Palettes with Saved Times
 -------------------------
 
-If you have 
+If you have
 [saved time information in a palette](creating-palettes.md#creating-a-time-palette),
-it will normally recall with this timing information. So if you 
+it will normally recall with this timing information. So if you
 programmed a 2 second fade, the palette will recall with a 2 second fade.
 
 You can turn this off (which can be useful during programming) using the
@@ -23,7 +23,7 @@ Ignoring Its Times\].
 Manually Overriding Palette Times
 ---------------------------------
 
-[](https://youtu.be/FF8szWCpVkE?t=135)
+[](https://youtu.be/FF8szWCpVkE?t=135 "Overriding Palette Times")
 
 Being able to recall palettes with a manual fade allows easy \"busking\"
 of shows. When a palette is recalled in this way, a time is added and
@@ -82,7 +82,7 @@ The \[Master Overlap\] option similarly sets the default Overlap for
 palette recall.
 
 > You can create macro buttons to set different palette fade times. Press
-\<Macro\>, \[Record\], press a button to store your macro on. Then press 
-\<Palette\>, \[Master Time\], \<3\> (for 3 sec), \<Exit\>, \<Macro\>. 
-Repeat these steps to create a Palette Snap button (0 sec), or a 1 sec 
+\<Macro\>, \[Record\], press a button to store your macro on. Then press
+\<Palette\>, \[Master Time\], \<3\> (for 3 sec), \<Exit\>, \<Macro\>.
+Repeat these steps to create a Palette Snap button (0 sec), or a 1 sec
 fade button, and so on.

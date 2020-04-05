@@ -7,7 +7,7 @@ sidebar_label: Creating a Chase
 Programming a Chase
 -------------------
 
-[](https://youtu.be/M0h5zV4S_OI?t=20)
+[](https://youtu.be/M0h5zV4S_OI?t=20 "Recording a Chase")
 
 To program a chase, you have to set up the look for each cue in the
 chase, then save it.
@@ -15,7 +15,7 @@ chase, then save it.
 You can either set all the fixtures and dimmers manually for each cue in
 the chase, you can use [Quick Build](#creating-a-chase-with-quick-build)
 to create a state from [palettes](../palettes.md) and
-[cues](../cues.md), or you can use 
+[cues](../cues.md), or you can use
 [\<Include\>](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)
 to load in cues.
 
@@ -43,17 +43,17 @@ programmer)*, then repeat steps 3 - 5.
 
 ---
 
--   \[Record Mode\] lets you select: 
-    
+-   \[Record Mode\] lets you select:
+
     - \[Record By Fixture\] - all attributes of
     any modified or selected fixture are saved
-    
+
     - \[Record By Channel\] - only
     modified attributes are saved
-    
+
     - \[Record Stage\] - all fixtures with a
     non-zero dimmer setting are saved
-    
+
     - \[Quick Build\] - [see next section](#creating-a-chase-with-quick-build)
 
 -   The cue number currently being saved, and the total number of cues,

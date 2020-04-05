@@ -4,7 +4,7 @@ title: Shape Generator
 sidebar_label: Shape Generator
 ---
 
-[](https://youtu.be/oTo6FxHD02o?t=20)
+[](https://youtu.be/oTo6FxHD02o?t=20 "Using Shape Generator")
 
 A shape is simply an automatic sequence of values which modify a
 particular attribute of a fixture. A circle shape, for example, applied
@@ -70,7 +70,7 @@ a particular shape.
 
 -   You can change the base value of a shape (e.g. the centre of a
     circle) by changing the attributes using the wheels in the usual
-    way. You can reduce the Size to zero (see 
+    way. You can reduce the Size to zero (see
     [next section](#changing-size-and-speed-of-a-shape)) to help you
     see what the base value actually is.
 
@@ -127,7 +127,7 @@ Other things to know about size and speed of shapes:
 
 -   If you have more than one shape running, the controls operate on the
     most recent one. You can edit the parameters of any shape that's
-    running using the Edit Shape function, see 
+    running using the Edit Shape function, see
     [Editing a Shape in a Cue Using Include](editing-shapes-and-effects.md#editing-a-shape-in-a-cue-using-include).
 
 -   The minimum size is zero. This will *"hide"* the shape, and the
@@ -135,7 +135,7 @@ Other things to know about size and speed of shapes:
     still active.
 
 -   Once a shape is saved in a playback, you can use the playback fader
-    or a separate 
+    or a separate
     [Speed or Size master](../running-the-show/playback-controls.md#speed-and-size-masters)
     to control the speed and size.
 
@@ -190,7 +190,7 @@ Shape Direction
 ---------------
 
 The \[Direction\] softkey opens a menu allowing you to set a direction
-for the shape. If you have defined a 
+for the shape. If you have defined a
 [2D layout for the group](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)
 this allows you to have shapes that visibly
 move in particular directions.
@@ -236,12 +236,12 @@ Using Shapes in Cues
 --------------------
 
 When you save a shape into a cue, you can set the playback fader to
-control the size and/or speed of the shape in 
+control the size and/or speed of the shape in
 [playback options](../cues/playback-options.md) to give you more options at
-show time; you can also control the size and speed from separate 
+show time; you can also control the size and speed from separate
 [Size Master and Speed Master faders](../running-the-show/playback-controls.md#speed-and-size-masters).
 
-You can use shapes in a cue list, see 
+You can use shapes in a cue list, see
 [Shape Tracking in Cue Lists](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists)
 on how the shapes will behave as you go from cue to cue.
 
@@ -254,5 +254,5 @@ Storing Shapes in Palettes
 
 You can create palettes containing shapes. This is really useful to
 quickly call back shapes pre-configured with different spread and speed
-settings. See 
+settings. See
 [Creating an Effects Palette (Shape or Pixel Mapper)](../palettes/creating-palettes.md#creating-an-effects-palette-shape-or-pixel-mapper).

@@ -752,7 +752,7 @@ removing fixtures from cues.
 
 ## Align Fixtures
 
-[](https://youtu.be/xZrVhnY1hnA?t=20)
+[](https://youtu.be/xZrVhnY1hnA?t=20 "Align Fixtures")
 
 You can copy attributes from one fixture to another using the Align
 Fixtures function. This is very useful, for example, if you've
