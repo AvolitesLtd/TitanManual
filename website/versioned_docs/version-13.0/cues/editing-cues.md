@@ -35,7 +35,7 @@ information is not affected.
 
 -   To speed up editing, you can set the console to "Always Merge" the
     cue. This option is set in the
-    [Handles tab](../system-settings/user-settings.md#prompt-replace) of 
+    [Handles tab](../system-settings/user-settings.md#prompt-replace) of
     [User Settings](../system-settings/user-settings.md) (press
     \<Avo\> and select \[User Settings\]).
 
@@ -237,7 +237,7 @@ will be loaded into the programmer.
 Removing Attributes from Cues Using "Off"
 -----------------------------------------
 
-[](https://youtu.be/p7Ffz4e4tws?t=20)
+[](https://youtu.be/p7Ffz4e4tws?t=20 "Off")
 
 The \<Off\> button allows you to remove an attribute which has been
 stored in a cue, as if you'd never recorded it.

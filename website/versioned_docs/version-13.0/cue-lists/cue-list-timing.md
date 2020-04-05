@@ -19,8 +19,8 @@ of the Cue List.
 
 2. To change which cue you are editing, scroll through the list using
 **Wheel A** or press \[Cue Number\] then type the cue number you want to
-edit and press \<Enter\>. 
-	
+edit and press \<Enter\>.
+
 	- The Chase arrow buttons to the right of the
 Connect button also step through the cues.
 
@@ -167,7 +167,7 @@ Press \<Exit\> to finish setting the fixture order.
 Running a Cue List to Timecode
 ------------------------------
 
-[](https://youtu.be/1abZT_ffIvs?t=20)
+[](https://youtu.be/1abZT_ffIvs?t=20 "Recording Timecode")
 
 The console can run a cue list automatically to a timecode. This is very
 useful for complex performances which must be exactly the same time

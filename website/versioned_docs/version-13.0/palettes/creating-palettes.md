@@ -52,7 +52,7 @@ which can force the console to record palettes in **Shared** or **Normal** mode.
 Storing a Palette
 -----------------
 
-[](https://youtu.be/Hs-xzpD5x8k?t=20)
+[](https://youtu.be/Hs-xzpD5x8k?t=20 "Recording Palettes")
 
 This is how you save a palette value to one of the palette windows:. If
 the palette windows are not shown then press the **Groups and Palettes**
@@ -124,7 +124,7 @@ a palette number and press \[Store\]
     channel for all other controls.
 
 -   The console will automatically create a legend for your palette
-    (unless the 
+    (unless the
     [User Setting \[Auto Legend\]](../system-settings/user-settings.md#auto-legend)
     is set to Off). For colour
     palettes a coloured icon is used to show the selected colour. If the
@@ -136,7 +136,7 @@ a palette number and press \[Store\]
     ![Automatic Legends set for Colour Palettes](/docs/images/Automatic-Legends-set-for-Colour-Palettes.png)
 
 -   You can also manually set a legend for the palette while you are
-    saving it using \[Provide a legend\]. See 
+    saving it using \[Provide a legend\]. See
     [Setting Legends for Palettes](#setting-legends-for-palettes).
 
 -   If you select a Palette button which is already used, the console
@@ -204,7 +204,7 @@ Quick record also works for groups and workspaces.
 
 > If you want to load a show from a **Pearl Expert** onto another Titan console,
 use the **Groups and Palettes workspace window** to access the fixtures/palettes
-on the blue/grey preset buttons on the Pearl. See 
+on the blue/grey preset buttons on the Pearl. See
 [Compatibility Windows for Pearl Expert Shows](../titan-basics/workspace-windows.md#compatibility-windows-for-pearl-expert-shows)
 for more details.
 
@@ -279,7 +279,7 @@ everything except **FX**
 
 6.  Press a palette button to store the shape palette
 
-You can't use an effects palette as a 
+You can't use an effects palette as a
 **[Quick Palette](using-palettes.md#quick-palettes-with-no-fixtures-selected)**
 (when you recall a palette with no fixtures selected). You must have some
 fixtures selected when you recall an effects palette.

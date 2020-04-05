@@ -72,4 +72,4 @@ relicensing as long as the Avolites hardware is connected.
 
 For more details see https://www.avolites.com/avokey
 
-[](https://youtu.be/86PcC0OzL7E)
+[](https://youtu.be/86PcC0OzL7E "Licensing")

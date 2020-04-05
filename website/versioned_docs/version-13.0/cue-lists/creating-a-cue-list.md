@@ -8,7 +8,7 @@ original_id: creating-a-cue-list
 Programming a Cue List
 ----------------------
 
-[](https://youtu.be/Kp6XhdG6keM?t=20)
+[](https://youtu.be/Kp6XhdG6keM?t=20 "Cuelist Basics")
 
 Programming a cue list is similar to [recording a chase](../chases/creating-a-chase.md).
 

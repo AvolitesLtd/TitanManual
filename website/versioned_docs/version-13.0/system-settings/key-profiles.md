@@ -23,7 +23,7 @@ related to each playback fader.
 
 ## Creating and editing key profiles
 
-[](https://youtu.be/CxHQV4sP_sA?t=20)
+[](https://youtu.be/CxHQV4sP_sA?t=20 "Key Profiles")
 
 To create or edit a profile, switch to System mode then select \[Key
 Profiles\]. You can then use the Manage Profiles menu to View, Edit,

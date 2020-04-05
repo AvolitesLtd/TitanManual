@@ -5,7 +5,7 @@ sidebar_label: Playback Options
 original_id: playback-options
 ---
 
-[](https://youtu.be/Dz_lWDHukxo?t=20)
+[](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
 To set options for a cue, chase or cue list, press \[Playback Options\]
 on the root menu, then press the **select** button of the playback to be
@@ -48,7 +48,7 @@ where you want to black out everything else. If you have a position
 shape running on other fixtures, you don't want that to stop during the
 Swop, or it will look messy when you release the Swop button. So set the
 shape playback to have a higher priority than the strobe playback, and
-it will keep going during the strobe and continue smoothly when you 
+it will keep going during the strobe and continue smoothly when you
 release the Swop button.
 
 Attributes set by manually applying a palette to a fixture will
@@ -74,19 +74,19 @@ Mode 1 | HTP channels fade in and out as set by the fade out times (LTP channels
 Mode 2 | Both HTP and LTP channels follow the fader position. *Useful when used with a pan/tilt cue for manually tracking a spot across a stage or down a catwalk using the fader position or for mixing colours on RGB fixtures.*
 Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to the settings in the new cue. All other cues fade out and all other active playbacks become inactive; if you need to re-fire a playback, take the fader to zero and put it up again. *Useful for setting a video playback state.*
 
-[](https://youtu.be/2fwM5S8nX3k?t=20)
+[](https://youtu.be/2fwM5S8nX3k?t=20 "Playback Modes")
 
 ### Run On Startup
 Sets this playback to run when the console powers
-on. This can be disabled by the 
+on. This can be disabled by the
 [Auto Run Startup Playbacks](../system-settings/user-settings.md#run-startup-playbacks) option in
 [User Settings](../system-settings/user-settings.md) *(turned on by default)*.
 
-This can be very useful for **unattended applications** to set up an 
+This can be very useful for **unattended applications** to set up an
 **initial lighting state**, or to run **lamp on macros**.
 
 Power on playbacks show a Power symbol watermark in the playback
-information area above the fader. If you open the 
+information area above the fader. If you open the
 [Show Library window](../titan-basics/show-library.md)
 there is a filter tab to Show Startup
 Playbacks which allows you to list all the playbacks which are set to
@@ -96,7 +96,7 @@ run on startup.
 
 ### Speed
 Default speed for this playback in BPM. This can be
-overridden by a [Rate or BPM master](../running-the-show/playback-controls.md#speed-and-size-masters), 
+overridden by a [Rate or BPM master](../running-the-show/playback-controls.md#speed-and-size-masters),
 or if the playback is a [chase](../chases.md), can be modified using the wheels.
 
 ### Xfade
@@ -167,7 +167,7 @@ in the [Curves](../system-settings/curves.md) section.
 
 ---
 
-> You can also allocate a 
+> You can also allocate a
 [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters)
 to the cue which will allow you to
 modify the shape during playback.
@@ -183,7 +183,7 @@ Allows you to allocate a
 to this playback.
 
 ### Size Source
-Allows you to allocate a 
+Allows you to allocate a
 [Size Master](../running-the-show/playback-controls.md#speed-and-size-masters)
 to this playback
 
@@ -216,7 +216,7 @@ and the strobe will stop.
 > When using with chases you need to press \[Mask\] before
 pressing the Intensity/Shutter button.
 
-You can use [Key Profiles](../system-settings/key-profiles.md) to 
+You can use [Key Profiles](../system-settings/key-profiles.md) to
 allocate one of the handle buttons to release the playback.
 
 ### Release Time

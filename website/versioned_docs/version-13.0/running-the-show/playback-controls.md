@@ -51,7 +51,7 @@ it as a master. Press the Display button below the encoders to show legends for 
 Speed and Size Masters
 ----------------------
 
-[](https://youtu.be/e5rQAmTCfs0?t=20)
+[](https://youtu.be/e5rQAmTCfs0?t=20 "Speed and Size Masters")
 
 Playbacks can be assigned to a Speed Master and/or a Size Master which allow you to control the speed and size of shapes or effects stored in a cue (or in the case of chases, to modify the speed of the chase).
 
@@ -81,9 +81,9 @@ BPM masters can have multipliers or dividers set which allows you to vary how th
 Normally the BPM master fader sets the BPM, and the multiplier is shown below. Tapping the blue button will also set the BPM or you can enter BPM on the keypad and press the blue button of the master to set it. This is how a BPM master looks
 with the BPM set by the fader:
 ![BPM Master on playback](/docs/images/BPM-Master-on-playback.png)   
- 
+
 The \[BPM On Fader\]/\[Multiplier on Fader\] option sets the master so that the fader now controls the multiplier and the BPM is set by tapping. This is how the master looks when set to Multiplier on Fader:
-![BPM Master multiplier on fader](/docs/images/BPM-Master-multiplier-on-fader.png) 
+![BPM Master multiplier on fader](/docs/images/BPM-Master-multiplier-on-fader.png)
 
 The \[Multiplier Scale\] option now allows you to set the range of multipliers/dividers which can be set on the fader -- from x2-/2 to x32-/32.
 
@@ -155,7 +155,7 @@ If a Flash Master is configured, this will also master the group flash.
 Scene Master
 ------------
 
-[](https://youtu.be/zn_jd1zba7E?t=20)
+[](https://youtu.be/zn_jd1zba7E?t=20 "Scene Masters")
 
 The Scene Master allows you to preset an output state by firing a number of playbacks or making live changes, using the visualiser to see the effects but without anything happening on stage. When you are ready for the new state, you fade the Scene Master fader to the other end of its travel and the new state is output.
 
