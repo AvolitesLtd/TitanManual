@@ -1,0 +1,32 @@
+.video {
+  @extend .button;
+  display: block;
+  overflow: hidden;
+  height: 90px;
+  padding: 0 10px;
+  cursor: pointer;
+
+  .video-title {
+    margin: 26px 10px;
+    display: flex;
+    align-items: center;
+
+
+    &:before {
+      margin: 5px 20px 5px 5px;
+      @extend %fa-icon;
+      @extend .fas;
+      font-size: 25px;
+      content: fa-content($fa-var-video);;
+    }
+  }
+
+  .iframify {
+    display: none;
+  }
+  &.expand {
+    .iframify {
+      display: block;
+    }
+  }
+}

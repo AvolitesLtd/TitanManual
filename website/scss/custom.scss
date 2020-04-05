@@ -14,11 +14,18 @@ $colorGrey: #dfe2e5;
 $primary: $colorAvoRed;
 $secondary: darken($colorAvoRed,14%);
 
+$fa-font-path: "/fontawesome/webfonts/";
+
+
 // imports
+@import "fontawesome/fontawesome";
+@import "fontawesome/solid";
+@import "fontawesome/brands";
 @import 'mixins';
 @import 'search';
 @import 'buttons';
 @import 'footer';
+@import 'video';
 
 // header
 @include media-smaller {
@@ -52,7 +59,7 @@ article {
     border-left: none;
     min-height: 4.5em;
     background-color: rgba($colorBlue, 0.3);
-  
+
     &::before {
       position: absolute;
       display: flex;
@@ -73,7 +80,7 @@ article {
     vertical-align: super;
     font-size: smaller;
   }
-  
+
   sub {
     vertical-align: sub;
     font-size: smaller;
@@ -84,7 +91,7 @@ article {
     left: -1em;
     border-left: 3px solid $colorAvoRed;
     padding-left: 3em;
-  
+
     li {
       padding-left: 0.75em;
     }

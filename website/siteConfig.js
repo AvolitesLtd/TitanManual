@@ -115,7 +115,8 @@ const siteConfig = {
     'https://buttons.github.io/buttons.js',
     'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js',
     '/js/fuse.js',
-    '/js/search.js'
+    '/js/search.js',
+    '/js/video.js'
   ],
 
   // On page navigation for the current documentation page.

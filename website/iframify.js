@@ -11,12 +11,10 @@
     ];
 
     function openTag(video,config={}) {
-        const wrapperStyling = config.className ? 
-            `class="iframify ${video.service} ${config.className}"` : 'style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;"';
-
+        const wrapperStyling = config.className ?
+            `class="iframify ${video.service} ${config.className}"` : 'style="left: 0; width: 100%; height: 0; position: relative; margin-top: 50px; padding-bottom: 56.2493%;"';
+        const title = `${config.title ? config.title : ''}`;
         const iframeStyling = config.className ? '' : 'style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;"';
-
-        const title = `data-title="${config.title ? config.title : ''}"`;
 
         let iframe = `<iframe src=`;
 
@@ -34,20 +32,23 @@
                 iframe += `"https://fast.wistia.net/embed/iframe/${video.id}" allowfullscreen scrolling="no" allow="autoplay; encrypted-media"`;
                 break;
             case 'youtube':
-                iframe += `"https://www.youtube.com/embed/${video.id}?rel=0&showinfo=0" allowfullscreen scrolling="no" allow="autoplay; encrypted-media"`;
+                iframe += `"https://www.youtube.com/embed/${video.id}?rel=0&showinfo=0&enablejsapi=1" allowfullscreen scrolling="no" allow="autoplay; encrypted-media"`;
                 break;
             case 'youtube-playlist':
                 iframe += `"https://www.youtube.com/embed/videoseries?list=${video.id}" allowfullscreen scrolling="no" allow="autoplay; encrypted-media"`;
                 break;
         }
-        
+
         iframe += ` ${iframeStyling}>`;
-        
-        return `<div ${wrapperStyling} ${title}>${iframe}`;
+
+        return `<div class="video">
+          <div class="video-title">${title}</div>
+          <div ${wrapperStyling}>${iframe}`;
+
     }
 
     function closeTag(service) {
-        return '</iframe></div>';
+        return '</iframe></div></div>';
     }
 
     function iframify(md, config={}) {
