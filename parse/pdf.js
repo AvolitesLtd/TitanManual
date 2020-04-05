@@ -128,7 +128,7 @@ function replaceYaml(filename,content) {
  */
 function replaceLinks(filename,content,docsPath) {
   // matches all links which are to local .md files
-  return content.replace(/(?<!!)\[([^\[]*\n*)\]\((?!https?:\/\/)(?!\/\/)(?!#)([a-zA-Z0-9-\.\/]*\.md)([^)]*)\)/mgi, function (match,text,link,anchor) {
+  return content.replace(/(?<![\\!])\[(.*\n*)(?<!\\)\]\((?!https?:\/\/)(?!\/\/)(?!#)([a-zA-Z0-9-\.\/]*\.md)([^)]*)\)/mgi, function (match,text,link,anchor) {
     let filePath = filename.split("/");
     let file = filePath.pop();
     
