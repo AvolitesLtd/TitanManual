@@ -1,8 +1,10 @@
-version: "3"
+version: "3.4"
 
 services:
   docusaurus:
-    build: .
+    build:
+      context: .
+      target: web
     ports:
       - 3000:3000
       - 35729:35729
@@ -16,3 +18,12 @@ services:
       - ./website/sidebars.json:/app/website/sidebars.json
       - ./website/siteConfig.js:/app/website/siteConfig.js
     working_dir: /app/website
+
+  pdf:
+    build:
+      context: .
+      target: pdf
+    volumes:
+      - ./docs:/app/docs
+      - ./parse:/app/parse
+      - ./website:/app/website
