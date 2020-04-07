@@ -1,4 +1,8 @@
 {
+  "name": "avodocs",
+  "productName": "Avolites Titan Manual",
+  "version": "1.0.2",
+  "main": "app.js",
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "concurrently \"npm run sass\" \"docusaurus-start\"",
@@ -9,17 +13,20 @@
     "rename-version": "docusaurus-rename-version",
     "pdf": "node ../parse/pdf.js",
     "docker-pdf": "cd .. && docker-compose up --build pdf",
+    "app": "electron .",
     "sass": "node-sass scss/custom.scss static/custom.css --output-style expanded && node-sass --watch scss/custom.scss static/custom.css --output-style expanded"
   },
   "devDependencies": {
-    "docusaurus": "^1.14.0"
-  },
-  "dependencies": {
     "@noticeable/remarkable-iframify": "^2.1.1",
     "commander": "^5.0.0",
     "concurrently": "^5.1.0",
+    "docusaurus": "^1.14.0",
+    "electron": "^8.2.0",
     "fuse.js": "^3.4.6",
     "js-search": "^1.4.3",
     "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "node-static": "^0.7.11"
   }
 }

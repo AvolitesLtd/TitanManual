@@ -1,0 +1,19 @@
+.fixedHeaderContainer, .headerWrapper, header {
+  -webkit-app-region: drag;
+}
+
+header a {
+  -webkit-app-region: no-drag;
+}
+
+.nav-site.nav-site-internal li {
+  display: none;
+}
+
+.offline .video {
+  display: none;
+}
+
+footer {
+  display: none;
+}
