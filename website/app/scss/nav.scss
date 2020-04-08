@@ -40,12 +40,8 @@ body {
     color: grey;
   }
 
-  &:not(.disabled) {
-    cursor: pointer;
-
-    &:hover {
-      background-color: darken($secondary, 10%);
-    }
+  &:not(.disabled):hover {
+    background-color: darken($secondary, 10%);
   }
 
   &::before {

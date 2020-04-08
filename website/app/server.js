@@ -10,7 +10,7 @@ createServer(function (request, response) {
             if (e && (e.status === 404)) {
                 sourceServer.serve(request, response, function (e, res) {
                     if (e && (e.status === 404)) { // If the file wasn't found
-                        fileServer.serveFile('/404/index.html', 404, {}, request, response);
+                        fileServer.serveFile('/404.html', 404, {}, request, response);
                     }
                 })
             }

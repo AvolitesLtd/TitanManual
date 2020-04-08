@@ -1,5 +1,5 @@
 const {platform} = require('os');
-const { app, BrowserWindow, session, BrowserView, ipcMain } = require('electron')
+const { app, BrowserWindow, session, BrowserView, ipcMain, Menu } = require('electron')
 const { readFile } = require('fs')
 const path = require('path')
 const url = require('url');
@@ -17,6 +17,8 @@ let win, browserViewContent;
 
 function createWindow () {
 
+  Menu.setApplicationMenu(null)
+
   // Create the browser window.
   win = new BrowserWindow({
     width: 1200,
@@ -32,8 +34,6 @@ function createWindow () {
     frame: false
   })
 
-  win.setMenu(null)
-
   // content view
   browserViewContent = new BrowserView({
     backgroundColor: '#91001b',
@@ -46,8 +46,15 @@ function createWindow () {
   browserViewContent.setBounds({ x: 0, y: 25, width: curSize[0], height: curSize[1]-25 })
   browserViewContent.setAutoResize({width: true, height: true})
 
-  browserViewContent.webContents.on('did-fail-load', (e, errCode, errDesc,vUrl) => {
-    browserViewContent.webContents.loadURL('http://localhost:8000/404/index.html')
+  browserViewContent.webContents.on('did-fail-load', (e, errCode, errDesc, vUrl, isMainFrame) => {
+    if(isMainFrame) {
+      let activeIndex = browserViewContent.webContents.getActiveIndex()
+      browserViewContent.webContents.history[activeIndex] = browserViewContent.webContents.history[activeIndex-1]
+      if(errDesc == 'ERR_INTERNET_DISCONNECTED')
+        browserViewContent.webContents.loadURL('http://localhost:8000/offline.html')
+      else
+        browserViewContent.webContents.loadURL('http://localhost:8000/404.html')
+    }
   })
   
   browserViewContent.webContents.on('did-navigate', canNavigate)
@@ -102,7 +109,12 @@ bodyOnline()
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(urlFilter).then(createWindow)
 
-app.allowRendererProcessReuse = true;
+app.on('browser-window-created',function(e,window) {
+  window.setMenu(null);
+  Menu.setApplicationMenu(null)
+});
+
+app.allowRendererProcessReuse = true
 
 // Quit when all windows are closed.
 app.on('window-all-closed', () => {

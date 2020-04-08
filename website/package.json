@@ -18,6 +18,7 @@
     "app": "electron .",
     "app-build": "node-sass app/scss/nav.scss app/sources/local/nav.css --output-style compressed && npm run build",
     "app-dist": "npm run app-build && electron-builder",
+    "app-dist-no-build": "electron-builder",
     "app-sass": "node-sass app/scss/nav.scss app/sources/local/nav.css --output-style compressed && node-sass --watch app/scss/nav.scss app/sources/local/nav.css --output-style compressed",
     "sass": "node-sass scss/custom.scss static/custom.css --output-style expanded && node-sass --watch scss/custom.scss static/custom.css --output-style expanded"
   },
