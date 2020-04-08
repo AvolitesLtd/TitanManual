@@ -45,11 +45,15 @@ function createWindow () {
   let curSize = win.getSize()
   browserViewContent.setBounds({ x: 0, y: 25, width: curSize[0], height: curSize[1]-25 })
   browserViewContent.setAutoResize({width: true, height: true})
+
+  browserViewContent.webContents.on('did-fail-load', (e, errCode, errDesc,vUrl) => {
+    browserViewContent.webContents.loadURL('http://localhost:8000/404/index.html')
+  })
   
   browserViewContent.webContents.on('did-navigate', canNavigate)
 
   browserViewContent.webContents.on('did-finish-load', () => {
-    // add custom css
+      // add custom css
     readFile(path.resolve(__dirname,'app/app.css'), "utf-8", (error, data) => {
       if(!error){
         browserViewContent.webContents.insertCSS(data)
@@ -66,7 +70,9 @@ const bodyOnline = () => {
 window.addEventListener('online',  bodyOnline)
 window.addEventListener('offline',  bodyOnline)
 bodyOnline()
-    `)
+    `).catch(() => {
+      console.log("Failed to execute JS")
+    })
 
     canNavigate()
   })
