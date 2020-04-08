@@ -38,8 +38,11 @@
   "build": {
     "appId": "com.avolites.titan.manual",
     "files": [
-      "**/*",
-      "build/AvoDocs/**/*"
+      "build/AvoDocs/**/*",
+      "app/**/*",
+      "app.js",
+      "!app/icon/",
+      "!app/scss/"
     ],
     "mac": {
       "category": "public.app-category.utilities",
