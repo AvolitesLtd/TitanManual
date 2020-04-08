@@ -50,7 +50,7 @@ function createWindow () {
 
   browserViewContent.webContents.on('did-finish-load', () => {
     // add custom css
-    readFile('./app/app.css', "utf-8", (error, data) => {
+    readFile(path.resolve(__dirname,'app/app.css'), "utf-8", (error, data) => {
       if(!error){
         browserViewContent.webContents.insertCSS(data)
       }
