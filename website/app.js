@@ -59,23 +59,7 @@ function createWindow () {
   
   browserViewContent.webContents.on('did-navigate', canNavigate)
 
-  browserViewContent.webContents.on('did-finish-load', () => {
-    // add custom js
-    browserViewContent.webContents.executeJavaScript(`
-const bodyOnline = () => {
-  $('body').addClass(navigator.onLine ? 'online' : 'offline');
-  $('body').removeClass(navigator.onLine ? 'offline' : 'online')
-}
-
-window.addEventListener('online',  bodyOnline)
-window.addEventListener('offline',  bodyOnline)
-bodyOnline()
-    `).catch(() => {
-      console.log("Failed to execute JS")
-    })
-
-    canNavigate()
-  })
+  browserViewContent.webContents.on('did-finish-load', canNavigate)
 
   browserViewContent.webContents.on('new-window', (e, url) => {
     e.preventDefault()
@@ -154,7 +138,7 @@ function urlFilter() {
     },
     jquery: {
       url: '//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js',
-      file: 'remote/jquery.js'
+      file: 'remote/jquery.js?v=5'
     }
   }
 
