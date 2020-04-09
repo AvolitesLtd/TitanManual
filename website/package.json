@@ -56,7 +56,8 @@
       ]
     },
     "win": {
-      "icon": "app/icon/icon.ico"
+      "icon": "app/icon/icon.ico",
+      "deleteAppDataOnUninstall": true
     }
   }
 }
