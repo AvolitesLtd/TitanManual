@@ -77,6 +77,12 @@ bodyOnline()
     canNavigate()
   })
 
+  browserViewContent.webContents.on('new-window', (e, url) => {
+    e.preventDefault()
+    // shell.openExternal(url) (could swap to this)
+    browserViewContent.webContents.loadURL(url)
+  })
+
   // and load the index.html of the app.
   browserViewContent.webContents.loadURL('http://localhost:8000/index.html')
   win.loadURL('http://localhost:8000/nav.html')
