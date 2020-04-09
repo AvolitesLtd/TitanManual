@@ -1,0 +1,16 @@
+// include all the web styling
+@import '../../build/AvoDocs/css/main';
+
+// website variables
+@import '../../scss/variables';
+
+// import custom app styling
+@import 'offline';
+
+.offline .video {
+  display: none;
+}
+
+footer {
+  display: none;
+}

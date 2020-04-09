@@ -60,13 +60,6 @@ function createWindow () {
   browserViewContent.webContents.on('did-navigate', canNavigate)
 
   browserViewContent.webContents.on('did-finish-load', () => {
-      // add custom css
-    readFile(path.resolve(__dirname,'app/app.css'), "utf-8", (error, data) => {
-      if(!error){
-        browserViewContent.webContents.insertCSS(data)
-      }
-    })
-
     // add custom js
     browserViewContent.webContents.executeJavaScript(`
 const bodyOnline = () => {
@@ -140,6 +133,10 @@ function urlFilter() {
     video: {
       url: '/js/video.js',
       file: 'local/video.js'
+    },
+    css: {
+      url: '/css/main.css',
+      file: 'local/app.css'
     },
     highlight: {
       url: '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css',

@@ -40,16 +40,8 @@ if (window.module) module = window.module;`
 fs.readFile(path404,'utf-8',(err, contents) => {
   contents = contents.replace(/<div class="docMainWrapper wrapper">((.|\s)*)<\/footer>/mgi,function (match,page) {
     return `
-<div class="docMainWrapper wrapper">
+<div class="docMainWrapper wrapper offline404">
   <h1>Currently Offline</h1>
-  <style type="text/css">
-    h1 {
-      line-height: calc(100vh - 50px);
-      width: 100%;
-      text-align: center;
-      color: lightgrey;
-    }
-  </style>
 </div>`;
     }
   );
