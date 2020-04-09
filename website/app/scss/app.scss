@@ -7,10 +7,33 @@
 // import custom app styling
 @import 'offline';
 
-.offline .video {
-  display: none;
+header {
+  .headerTitleWithLogo {
+    // remove the 'Avolites Titan Manual' in header as in title bar already
+    display: none !important;
+  }
+
+  .nav-site.nav-site-internal li:not(#search) {
+    // remove the header links
+    display: none !important;
+  }
+}
+
+.navPusher {
+  // as header links removed, header is always 50ps
+  padding-top: 50px !important;
+}
+
+// add more space between nav list items for ease on touch screens
+li.navListItem {
+  margin: 5px 0 !important;
+}
+
+.toc-headings li {
+  margin: 8px 0 !important;
 }
 
 footer {
+  // footer is mostly external links so hide it
   display: none;
 }
