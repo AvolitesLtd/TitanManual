@@ -27,16 +27,12 @@ getFiles(buildDir).then((filenames) => {
         contents = contents.replace(/<meta property="og:url" content="(https?:\/\/.*?)\/.*?"\/>/mi,`<meta property="og:url" content="$1${webPath}"/>`)
   
         // matches first image
-        if(imageMatch = contents.match(/<article>[\s\S]*?<img.*?src="([^"]*?(?:\.png|\.jpe?g))"[^>]*?>[\s\S]*?<footer/mi)) {
+        if(imageMatch = contents.match(/<article>[\s\S]*?<img.*?src="(\/[^"]*?(?:\.png|\.jpe?g))"[^>]*?>[\s\S]*?<footer/mi)) {
           let socialImage = imageMatch[1]
 
-          if(socialImage.startsWith('/')) {
-            // replace og:image
-            contents = contents.replace(/<meta property="og:image" content="(https?:\/\/.*?)\/.*?"\/>/mi,`<meta property="og:image" content="$1${socialImage}"/>`)
-            
-            // repace twitter:image
-            contents = contents.replace(/<meta name="twitter:image" content="(https?:\/\/.*?)\/.*?"\/>/mi,`<meta property="twitter:image" content="$1${socialImage}"/>`)
-          }
+          // replace og:image & twitter:image
+          contents = contents.replace(/<meta property="og:image" content="(https?:\/\/.*?)\/.*?"\/>/mi,`<meta property="og:image" content="$1${socialImage}"/>`)
+            .replace(/<meta name="twitter:image" content="(https?:\/\/.*?)\/.*?"\/>/mi,`<meta property="twitter:image" content="$1${socialImage}"/>`)
         }
 
         fs.writeFile(filename, contents, (err) => {
