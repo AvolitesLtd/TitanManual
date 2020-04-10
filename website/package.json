@@ -10,7 +10,7 @@
     "pdf": "node ../parse/pdf.js",
     "docker-pdf": "cd .. && docker-compose up --build pdf",
     "sass": "node-sass scss/custom.scss static/custom.css --output-style expanded && node-sass --watch scss/custom.scss static/custom.css --output-style expanded",
-    "og": "node opengraph.js"
+    "og": "node ../parse/opengraph.js"
   },
   "devDependencies": {
     "docusaurus": "^1.14.0"
