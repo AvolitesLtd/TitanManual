@@ -2,6 +2,7 @@
 id: sapphire-touch
 title: Sapphire Touch
 sidebar_label: Sapphire Touch
+description: Sapphire Touch - console design and features
 ---
 
 ![Sapphire Touch](/docs/images/Sapphire-Touch.png)The Sapphire Touch has four main control
