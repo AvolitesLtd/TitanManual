@@ -57,6 +57,9 @@ function createWindow () {
     }
   })
   
+  browserViewContent.webContents.on('will-navigate', handleExternal)
+  browserViewContent.webContents.on('new-window', handleExternal)
+  
   browserViewContent.webContents.on('did-navigate', canNavigate)
 
   browserViewContent.webContents.on('did-finish-load', canNavigate)
@@ -112,6 +115,17 @@ app.on('activate', () => {
     createWindow()
   }
 })
+
+// external links
+function handleExternal(e, url)  {
+  if(!url.startsWith('http://localhost:8000')) {
+    e.preventDefault()
+    shell.openExternal(url)
+  }
+  else {
+    browserViewContent.webContents.loadURL(url)
+  }
+}
 
 // redirects
 function urlFilter() {
