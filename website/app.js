@@ -1,22 +1,20 @@
-const {platform} = require('os');
-const { app, BrowserWindow, session, BrowserView, ipcMain, Menu } = require('electron')
-const { readFile } = require('fs')
-const path = require('path')
-const url = require('url');
+//const {platform} = require('os')
+const { app, BrowserWindow, session, BrowserView, ipcMain, Menu, shell } = require('electron')
+
+const appServer = require('./app/server.js')
 
 const { fork } = require('child_process')
-const server = fork(`${__dirname}/app/server.js`)
+//const server = fork(`${__dirname}/app/server.js`)
 const localJs = fork(`${__dirname}/app/local.js`)
-
 process.on('exit', () => {
-  server.kill();
-  localJs.kill();
+  localJs.kill()
 })
 
-let win, browserViewContent;
+appServer.run()
 
-function createWindow () {
+let win, browserViewContent
 
+const createWindow = () => {
   Menu.setApplicationMenu(null)
 
   // Create the browser window.
@@ -51,9 +49,9 @@ function createWindow () {
       let activeIndex = browserViewContent.webContents.getActiveIndex()
       browserViewContent.webContents.history[activeIndex] = browserViewContent.webContents.history[activeIndex-1]
       if(errDesc == 'ERR_INTERNET_DISCONNECTED')
-        browserViewContent.webContents.loadURL('http://localhost:8000/offline.html')
+        browserViewContent.webContents.loadURL(`${appServer.details.url}/offline.html`)
       else
-        browserViewContent.webContents.loadURL('http://localhost:8000/404.html')
+        browserViewContent.webContents.loadURL(`${appServer.details.url}/404.html`)
     }
   })
   
@@ -61,28 +59,17 @@ function createWindow () {
   browserViewContent.webContents.on('new-window', handleExternal)
   
   browserViewContent.webContents.on('did-navigate', canNavigate)
-
   browserViewContent.webContents.on('did-finish-load', canNavigate)
 
-  browserViewContent.webContents.on('new-window', (e, url) => {
-    e.preventDefault()
-    // shell.openExternal(url) (could swap to this)
-    browserViewContent.webContents.loadURL(url)
-  })
-
   // and load the index.html of the app.
-  browserViewContent.webContents.loadURL('http://localhost:8000/index.html')
-  win.loadURL('http://localhost:8000/nav.html')
+  browserViewContent.webContents.loadURL(`${appServer.details.url}/index.html`)
+  win.loadURL(`${appServer.details.url}/nav.html`)
 
-  win.show();
+  browserViewContent.webContents.on('dom-ready', () => {
+    win.show()
+  });
 
-  win.on('ready-to-show',function(){
-    browserViewContent.on('ready-to-show',function(){
-      win.show();
-    })
-  })
-
-  win.on('closed', function () {
+  win.on('closed', () => {
     // Dereference the window object, usually you would store windows
     // in an array if your app supports multi windows, this is the time
     // when you should delete the corresponding element.
@@ -95,7 +82,7 @@ function createWindow () {
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(urlFilter).then(createWindow)
 
-app.on('browser-window-created',function(e,window) {
+app.on('browser-window-created', (e,window) => {
   window.setMenu(null);
   Menu.setApplicationMenu(null)
 });
@@ -117,13 +104,13 @@ app.on('activate', () => {
 })
 
 // external links
-function handleExternal(e, url)  {
-  if(!url.startsWith('http://localhost:8000')) {
+function handleExternal(e, reqUrl)  {
+  if(!reqUrl.startsWith(appServer.details.url)) {
     e.preventDefault()
-    shell.openExternal(url)
+    shell.openExternal(reqUrl)
   }
   else {
-    browserViewContent.webContents.loadURL(url)
+    browserViewContent.webContents.loadURL(reqUrl)
   }
 }
 
@@ -157,8 +144,8 @@ function urlFilter() {
   }
 
   const filter = {
-    urls: Object.values(filterUrls).map(function(item) {
-      return (item.file.startsWith('local') ? '*://localhost:*':"*:")+item.url
+    urls: Object.values(filterUrls).map((item) => {
+      return (item.file.startsWith('local') ? `*://${appServer.details.host}:*` : "*:") + item.url
     })
   }
 
@@ -167,7 +154,7 @@ function urlFilter() {
       if(details.url.endsWith(filterUrls[filterUrl].url)) {
         callback({ 
           cancel: false,
-          redirectURL: 'http://localhost:8000/' + filterUrls[filterUrl].file
+          redirectURL: appServer.details.url + '/' + filterUrls[filterUrl].file
         })
 
         return
@@ -179,35 +166,32 @@ function urlFilter() {
 }
 
 // window controls
-ipcMain.on("cntrl-back",function (event, arg) {
-  if(browserViewContent.webContents.canGoBack()) {
-    browserViewContent.webContents.goBack()
-  }
-})
-
-ipcMain.on("cntrl-forward",function (event, arg) {
-  if(browserViewContent.webContents.canGoForward()) {
-    browserViewContent.webContents.goForward()
-  }
-})
-
-ipcMain.on("cntrl-min",function (event, arg) {
-  win.minimize()
-})
-
-ipcMain.on("cntrl-max",function (event, arg) {
-  /*if(platform() == 'darwin')
-    win.setSimpleFullScreen(!win.isSimpleFullScreen())
-  else*/
-    win.isMaximized() ? win.unmaximize() : win.maximize()
-  
-})
-
-ipcMain.on("cntrl-close",function (event, arg) {
-  win.close()
-})
-
-function canNavigate() {
+const canNavigate = () => {
   win.webContents.send('cntrl-can-back', browserViewContent.webContents.canGoBack())
   win.webContents.send('cntrl-can-forward', browserViewContent.webContents.canGoForward())
 }
+
+ipcMain.on("cntrl-back",(e, arg) => {
+  if(browserViewContent.webContents.canGoBack())
+    browserViewContent.webContents.goBack()
+})
+
+ipcMain.on("cntrl-forward", (e, arg) => {
+  if(browserViewContent.webContents.canGoForward())
+    browserViewContent.webContents.goForward()
+})
+
+ipcMain.on("cntrl-min", (e, arg) => {
+  win.minimize()
+})
+
+ipcMain.on("cntrl-max", (e, arg) => {
+  /*if(platform() == 'darwin')
+    win.setSimpleFullScreen(!win.isSimpleFullScreen())
+  else*/
+  win.isMaximized() ? win.unmaximize() : win.maximize()
+})
+
+ipcMain.on("cntrl-close", (e, arg) => {
+  win.close()
+})
