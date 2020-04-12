@@ -2,6 +2,7 @@
 id: tnp
 title: TNP (Titan Net Processor)
 sidebar_label: TNP (Titan Net Processor)
+description: The TitanNet Processor is the insides of a console without the control surface.
 ---
 
 ![TNP](/docs/images/TNP.png)

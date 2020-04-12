@@ -2,6 +2,7 @@
 id: quartz
 title: Quartz
 sidebar_label: Quartz
+description: Quartz - console design and features
 ---
 
 ![Quartz](/docs/images/Quartz.png)

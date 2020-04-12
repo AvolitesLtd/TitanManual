@@ -2,6 +2,7 @@
 id: tiger-touch
 title: Tiger Touch
 sidebar_label: Tiger Touch
+description: Tiger Touch - console design and features
 ---
 
 ![Tiger Touch](/docs/images/Tiger-Touch.png)
