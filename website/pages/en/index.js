@@ -85,16 +85,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Learn about the new Synergy features in v12',
-            image: `${baseUrl}img/undraw_media_player.svg`,
+            content: 'Bring lighting and video together on one visual canvas',
+            image: `${baseUrl}img/aixtitan.png`,
             imageAlign: 'top',
             title: '<a href="/docs/synergy">Synergy</a>',
           },
           {
-            content: 'Read the v12 upgrade procedure',
-            image: `${baseUrl}img/undraw_update.svg`,
+            content: 'PioneerDJ waveform and BPM sync integration',
+            image: `${baseUrl}img/avoxpioneer.png`,
             imageAlign: 'top',
-            title: '<a href="/docs/system-settings/upgrading-the-software">V12 Update</a>',
+            title: '<a href="/docs/running-the-show/linking-pioneerdj-system-to-titan">Pioneer DJ Integration</a>',
           },
         ]}
       </Block>

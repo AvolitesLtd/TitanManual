@@ -13,7 +13,7 @@
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "concurrently \"npm run sass\" \"docusaurus-start\"",
-    "build": "node ../parse/search.js && node-sass scss/custom.scss static/custom.css --output-style expanded && docusaurus-build",
+    "build": "node ../parse/search.js && node-sass scss/custom.scss static/custom.css --output-style expanded && docusaurus-build && npm run og",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
@@ -25,7 +25,8 @@
     "app-build": "npm run app-pre-build && electron-builder",
     "app-build-no-pre": "electron-builder",
     "app-sass": "node-sass app/scss/ -o app/sources/local/ --output-style compressed && node-sass --watch app/scss/ -o app/sources/local/ --output-style compressed",
-    "sass": "node-sass scss/custom.scss static/custom.css --output-style expanded && node-sass --watch scss/custom.scss static/custom.css --output-style expanded"
+    "sass": "node-sass scss/custom.scss static/custom.css --output-style expanded && node-sass --watch scss/custom.scss static/custom.css --output-style expanded",
+    "og": "node ../parse/opengraph.js"
   },
   "devDependencies": {
     "@noticeable/remarkable-iframify": "^2.1.1",

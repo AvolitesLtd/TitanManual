@@ -7,6 +7,8 @@ original_id: linking-pioneerdj-system-to-titan
 
 Using the Pioneer Pro DJ Link Bridge software you can automate BPM masters on the Titan console from a network-equipped Pioneer DJ system. You can either run the bridge software on the console itself or on an intermediate laptop.
 
+[](https://youtu.be/vwr1DBJjBbw "PioneerDJ Integration")
+
 Connecting Titan to the Pioneer System
 --------------------------------------
 
@@ -33,7 +35,7 @@ Look at the Interface tab of the bridge software to see what IP address is being
 
 If you need to keep the Pioneer network separate to the lighting network and your console only has a single network port, or if you just prefer to have the bridge separate from the console, then you can download the bridge software from the Pioneer website and run it on a separate computer.
 If you need two separate address ranges then your computer will need two network interfaces.
-Once you have everything connected up and have got all the IP addresses right, the bridge software should show connections for both the Titan console and the DJ mixer. 
+Once you have everything connected up and have got all the IP addresses right, the bridge software should show connections for both the Titan console and the DJ mixer.
 
 Pioneer Workspace window
 ------------------------
@@ -61,8 +63,8 @@ Context menu buttons allow you to show or hide the big and small waveform displa
 Setting up BPM triggers from Pioneer
 ------------------------------------
 
-You will need a fader on the console configured as a BPM master which will be automatically controlled by the track BPM playing on the Pioneer devices. See [BPM Master](../running-the-show/playback-controls.md#bpm-master-options) section for how to set up a BPM master. 
-Enter System mode and select \[Triggers\]. The Triggers window will open. 
+You will need a fader on the console configured as a BPM master which will be automatically controlled by the track BPM playing on the Pioneer devices. See [BPM Master](../running-the-show/playback-controls.md#bpm-master-options) section for how to set up a BPM master.
+Enter System mode and select \[Triggers\]. The Triggers window will open.
 1. Add a new mapping using the + button at the bottom of the left hand column, and enter a name such as “Pioneer”.
 2. Add a trigger to the mapping using the + button in the right hand column or softkey \[Add trigger\].
 3. Select \[Trigger Type\] as \[Item\].
