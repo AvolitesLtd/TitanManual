@@ -44,6 +44,21 @@ function Help(props) {
             <h1>Need help?</h1>
           </header>
           <GridBlock contents={supportLinks} layout="threeColumn" />
+
+          <div>
+            <h2>Special Thanks To</h2>
+            <ul>
+              <li>
+                <a href="https://fraserstockley.com/" target="_blank">Fraser Stockley</a>
+              </li>
+              <li>
+                <a href="https://garethnunns.com/" target="_blank">Gareth Nunns</a>
+              </li>
+              <li>
+              <a href="http://sabretechnology.co.uk/" target="_blank">Tim Mitchell</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </Container>
     </div>

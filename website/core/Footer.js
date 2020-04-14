@@ -26,10 +26,11 @@ class Footer extends React.Component {
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
           <div>
-            <h5>Docs</h5>
+            <h5>Avolites</h5>
             <a href={this.docUrl('introduction', this.props.language)}>
               Getting Started
             </a>
+            <a href="https://www.avolites.com/software/help-desk" target="_blank">Support</a>
             <a href="https://www.avolites.com/privacy-policy">
               Privacy Policy
             </a>
@@ -48,7 +49,7 @@ class Footer extends React.Component {
               aria-label="Star this project on GitHub">
               Star
             </a>
-            <a href={this.props.config.repoUrl + "/issues/new"} target="_blank">Report an Issue</a>
+            <a href={this.props.config.repoUrl + "/issues/new/choose"} target="_blank">Report an Issue</a>
             {this.props.config.twitterUsername && (
               <div className="social">
                 <a
