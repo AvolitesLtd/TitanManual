@@ -24,12 +24,22 @@ body {
   color: white;
 
   & > div {
+    width: 25vw;
+  }
+
+  & div {
     display: flex;
   }
   
   .win-title {
+    width: 50vw;
+    justify-content: center;
     font-size: 0.5 * $wincntrlsHeight;
     line-height: $wincntrlsHeight;
+  }
+
+  #cntrl-right {
+    justify-content: flex-end;
   }
 }
 
@@ -50,11 +60,11 @@ body {
     padding: (0.2 * $wincntrlsHeight) (0.3 * $wincntrlsHeight);
     font-size: 0.6 * $wincntrlsHeight;
 
-    #cntrl-left & {
+    #cntrl-nav & {
       @extend .fas;
     }
 
-    #cntrl-right & {
+    #cntrl-win & {
       @extend .far;
     }
 
