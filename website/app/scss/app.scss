@@ -7,6 +7,20 @@
 // import custom app styling
 @import 'offline';
 
+// 
+::-webkit-scrollbar {
+  //-webkit-appearance: none;
+  width: 18px;
+  background: rgba(0,0,0,.05);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 15px;
+  border-radius: 4px;
+  background-color: rgba(0,0,0,.5);
+  box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
 header {
   .headerTitleWithLogo {
     // remove the 'Avolites Titan Manual' in header as in title bar already

@@ -22,7 +22,7 @@
     "og": "node ../parse/opengraph.js",
     "pdf": "node ../parse/pdf.js",
     "docker-pdf": "cd .. && docker-compose up --build pdf",
-    "app": "concurrently 'npm run app-sass' 'electron .'",
+    "app": "electron .",
     "app-sass": "node-sass app/scss/ -o app/sources/local/ --output-style compressed && node-sass --watch app/scss/ -o app/sources/local/ --output-style compressed",
     "app-pre-build": "node-sass app/scss/ -o app/sources/local/ --output-style compressed && npm run build",
     "app-build": "npm run app-pre-build && npm run app-build-no-pre",
