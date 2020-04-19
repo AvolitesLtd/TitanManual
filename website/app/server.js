@@ -13,10 +13,7 @@ class appServer {
     this.protocol = 'http'
     this.host = 'localhost'
 
-    this.portPromise = this.getAvailablePort(startingPort).then(port => {
-      this.port = port
-      this.serverPromise = this.run(port)
-    })
+    this.server = this.run(startingPort)
   }
 
   /**
@@ -31,64 +28,56 @@ class appServer {
 
   /**
    * Get the next available port to start a server
-   * @param {int} startingAt  Port number you would like to start looking for a free port from
+   * @param {int} startingPort  Port number you would like to start looking for a free port from
    */
-  getAvailablePort(startingAt) {
+  getAvailablePort(startingPort) {
     function getNextAvailablePort (currentPort, cb) {
-        const server = createServer()
-        server.listen(currentPort, _ => {
-            server.once('close', _ => {
-                cb(currentPort)
-            })
-            server.close()
+      const server = createServer()
+      server.listen(currentPort, _ => {
+        server.once('close', _ => {
+          cb(currentPort)
         })
-        server.on('error', _ => {
-            getNextAvailablePort(++currentPort, cb)
-        })
+        server.close()
+      })
+      server.on('error', _ => {
+        getNextAvailablePort(++currentPort, cb)
+      })
     }
   
     return new Promise(resolve => {
-        getNextAvailablePort(startingAt, resolve)
+      getNextAvailablePort(startingPort, resolve)
     })
   }
 
   /**
    * Run the server
-   * @param {int} port Port to start the server on
+   * @param {int} startingPort  Port number you would like to start looking for a free port from
    */
-  run(port = this.port) {
-    return new Promise((resolve, reject) => {
-      if(!this.port)
-        reject(new Error("Port not defined"))
-      
-      createServer((request, response) => {
-        request.addListener('end', () => {
-          fileServer.serve(request, response, (fe, fres) => {
-            if (fe && (fe.status === 404)) {
-              sourceServer.serve(request, response, (se, sres) => {
-                if (se && (se.status === 404)) { // If the file wasn't found
-                  fileServer.serveFile('/404.html', 404, {}, request, response)
-                }
-              })
-            }
-          });
-        }).resume();
-      }).listen(port, () => {
-        resolve("Server listening")
-      })
-    })
+  async run(startingPort) {
+    this.port = await this.getAvailablePort(startingPort)
+
+    createServer((request, response) => {
+      request.addListener('end', () => {
+        fileServer.serve(request, response, (fe, fres) => {
+          if (fe && (fe.status === 404)) {
+            // not found on file server
+            sourceServer.serve(request, response, (se, sres) => {
+              // look on sources folder
+              if (se && (se.status === 404)) { // file wasn't found anywhere
+                fileServer.serveFile('/404.html', 404, {}, request, response)
+              }
+            })
+          }
+        });
+      }).resume();
+    }).listen(this.port)
   }
 
   /**
    * Wait for the server to be ready
    */
-  ready() {
-    return new Promise(async (resolve) => {
-      let port = await this.portPromise
-      let server = await this.serverPromise
-
-      resolve("Server online");
-    })
+  async ready() {
+    await this.server
   }
 }
 

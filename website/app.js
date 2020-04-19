@@ -56,9 +56,10 @@ const createWindow = () => {
   browserViewContent.webContents.on('did-navigate', canNavigate)
   browserViewContent.webContents.on('did-finish-load', canNavigate)
 
-  // and load the index.html of the app.
+  // and load the homepage of the app.
   appServer.ready().then(() => {
-    browserViewContent.webContents.loadURL(`${appServer.url}/index.html`)
+    console.info(`${appServer.url}`)
+    browserViewContent.webContents.loadURL(`${appServer.url}`)
     win.loadURL(`${appServer.url}/nav.html`)
   })
 
@@ -91,7 +92,6 @@ app.allowRendererProcessReuse = true
 
 // Quit when all windows are closed.
 app.on('window-all-closed', () => {
-  server.kill();
   app.quit()
 })
 
