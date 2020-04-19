@@ -2,7 +2,7 @@
   "name": "avodocs",
   "productName": "Avolites Titan Manual",
   "description": "Official Manual for the Avolites Titan software",
-  "version": "13.1.0",
+  "version": "0.1.0",
   "homepage": "https://manual.avolites.com",
   "repository": {
     "type": "git",
@@ -12,21 +12,23 @@
   "author": "Avolites Ltd. <support@avolites.com> (https://www.avolites.com)",
   "scripts": {
     "examples": "docusaurus-examples",
-    "start": "concurrently \"npm run sass\" \"docusaurus-start\"",
+    "start": "concurrently 'npm run sass' 'docusaurus-start'",
     "build": "node ../parse/search.js && node-sass scss/custom.scss static/custom.css --output-style expanded && docusaurus-build && npm run og",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",
+    "sass": "node-sass scss/custom.scss static/custom.css --output-style expanded && node-sass --watch scss/custom.scss static/custom.css --output-style expanded",
+    "og": "node ../parse/opengraph.js",
     "pdf": "node ../parse/pdf.js",
     "docker-pdf": "cd .. && docker-compose up --build pdf",
-    "app": "electron .",
-    "app-pre-build": "node-sass app/scss/nav.scss app/sources/local/nav.css --output-style compressed && npm run build",
-    "app-build": "npm run app-pre-build && electron-builder",
-    "app-build-no-pre": "electron-builder",
+    "app": "concurrently 'npm run app-sass' 'electron .'",
     "app-sass": "node-sass app/scss/ -o app/sources/local/ --output-style compressed && node-sass --watch app/scss/ -o app/sources/local/ --output-style compressed",
-    "sass": "node-sass scss/custom.scss static/custom.css --output-style expanded && node-sass --watch scss/custom.scss static/custom.css --output-style expanded",
-    "og": "node ../parse/opengraph.js"
+    "app-pre-build": "node-sass app/scss/ -o app/sources/local/ --output-style compressed && npm run build",
+    "app-build": "npm run app-pre-build && npm run app-build-no-pre",
+    "app-build-no-pre": "electron-builder",
+    "app-build-all": "npm run app-pre-build && npm run app-build-all-no-pre",
+    "app-build-all-no-pre": "electron-builder -mwl"
   },
   "devDependencies": {
     "@noticeable/remarkable-iframify": "^2.1.1",
@@ -62,6 +64,7 @@
       ]
     },
     "win": {
+      "target": "portable",
       "icon": "app/icon/icon.ico"
     },
     "nsis": {
