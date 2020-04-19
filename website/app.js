@@ -1,16 +1,11 @@
-//const {platform} = require('os')
 const { app, BrowserWindow, session, BrowserView, ipcMain, Menu, shell } = require('electron')
-
 const appServer = require('./app/server.js')
 
 const { fork } = require('child_process')
-//const server = fork(`${__dirname}/app/server.js`)
 const localJs = fork(`${__dirname}/app/local.js`)
 process.on('exit', () => {
   localJs.kill()
 })
-
-appServer.run()
 
 let win, browserViewContent
 
@@ -49,9 +44,9 @@ const createWindow = () => {
       let activeIndex = browserViewContent.webContents.getActiveIndex()
       browserViewContent.webContents.history[activeIndex] = browserViewContent.webContents.history[activeIndex-1]
       if(errDesc == 'ERR_INTERNET_DISCONNECTED')
-        browserViewContent.webContents.loadURL(`${appServer.details.url}/offline.html`)
+        browserViewContent.webContents.loadURL(`${appServer.url}/offline.html`)
       else
-        browserViewContent.webContents.loadURL(`${appServer.details.url}/404.html`)
+        browserViewContent.webContents.loadURL(`${appServer.url}/404.html`)
     }
   })
   
@@ -62,8 +57,10 @@ const createWindow = () => {
   browserViewContent.webContents.on('did-finish-load', canNavigate)
 
   // and load the index.html of the app.
-  browserViewContent.webContents.loadURL(`${appServer.details.url}/index.html`)
-  win.loadURL(`${appServer.details.url}/nav.html`)
+  appServer.ready().then(() => {
+    browserViewContent.webContents.loadURL(`${appServer.url}/index.html`)
+    win.loadURL(`${appServer.url}/nav.html`)
+  })
 
   browserViewContent.webContents.on('dom-ready', () => {
     win.show()
@@ -80,12 +77,15 @@ const createWindow = () => {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
-app.whenReady().then(urlFilter).then(createWindow)
+app.whenReady().then(() => {
+  createWindow()
+  urlFilter()
+})
 
 app.on('browser-window-created', (e,window) => {
   window.setMenu(null);
   Menu.setApplicationMenu(null)
-});
+})
 
 app.allowRendererProcessReuse = true
 
@@ -105,7 +105,7 @@ app.on('activate', () => {
 
 // external links
 function handleExternal(e, reqUrl)  {
-  if(!reqUrl.startsWith(appServer.details.url)) {
+  if(!reqUrl.startsWith(appServer.url)) {
     e.preventDefault()
     shell.openExternal(reqUrl)
   }
@@ -145,7 +145,7 @@ function urlFilter() {
 
   const filter = {
     urls: Object.values(filterUrls).map((item) => {
-      return (item.file.startsWith('local') ? `*://${appServer.details.host}:*` : "*:") + item.url
+      return (item.file.startsWith('local') ? `*://${appServer.host}:*` : "*:") + item.url
     })
   }
 
@@ -154,7 +154,7 @@ function urlFilter() {
       if(details.url.endsWith(filterUrls[filterUrl].url)) {
         callback({ 
           cancel: false,
-          redirectURL: appServer.details.url + '/' + filterUrls[filterUrl].file
+          redirectURL: appServer.url + '/' + filterUrls[filterUrl].file
         })
 
         return
@@ -186,9 +186,6 @@ ipcMain.on("cntrl-min", (e, arg) => {
 })
 
 ipcMain.on("cntrl-max", (e, arg) => {
-  /*if(platform() == 'darwin')
-    win.setSimpleFullScreen(!win.isSimpleFullScreen())
-  else*/
   win.isMaximized() ? win.unmaximize() : win.maximize()
 })
 
