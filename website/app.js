@@ -117,14 +117,6 @@ function handleExternal(e, reqUrl)  {
 // redirects
 function urlFilter() {
   const filterUrls = {
-    search: {
-      url: '/js/search.js',
-      file: 'local/search.js'
-    },
-    video: {
-      url: '/js/video.js',
-      file: 'local/video.js'
-    },
     css: {
       url: '/css/main.css',
       file: 'local/app.css'

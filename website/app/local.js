@@ -19,6 +19,7 @@ async function getFiles(dir) {
   return files.reduce((a, f) => a.concat(f), [])
 }
 
+/* now done manually
 getFiles(webLocalJsDir).then((filenames) => {
   filenames.forEach(function(filename) {
     fs.readFile(filename,'utf-8',(err, contents) => {
@@ -36,6 +37,7 @@ if (window.module) module = window.module;`
     })
   })
 })
+*/
 
 fs.readFile(path404,'utf-8',(err, contents) => {
   contents = contents.replace(/<div class="docMainWrapper wrapper">((.|\s)*)<\/footer>/mgi,function (match,page) {

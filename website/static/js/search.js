@@ -1,3 +1,5 @@
+if (typeof module === 'object') {window.module = module; module = undefined;}
+
 var list = [];
 var options = {
   shouldSort: true,
@@ -71,3 +73,5 @@ $(document).ready(function() {
     ul.show();
   });
 });
+
+if (window.module) module = window.module;
