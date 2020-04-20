@@ -1,3 +1,5 @@
+if (typeof module === 'object') {window.module = module; module = undefined;}
+
 $(document).ready(function() {
   $(".video").click(function() {
     if ($(this).hasClass("animating")) {
@@ -29,3 +31,5 @@ $(document).ready(function() {
     }
   });
 });
+
+if (window.module) module = window.module;

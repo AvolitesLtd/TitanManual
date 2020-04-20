@@ -2,10 +2,8 @@ FROM homebrew/brew as builder
 
 RUN brew install \
     node \
-    yarn \
     pandoc \
     texlive
-
 
 # LaTeX packages
 RUN tlmgr update --self
@@ -46,7 +44,7 @@ RUN tlmgr install \
 
 COPY ./website /app/website
 WORKDIR /app/website
-RUN yarn install
+RUN npm install --unsafe-perm=true
 
 COPY ./docs /app/docs
 COPY ./parse /app/parse
@@ -55,9 +53,14 @@ COPY ./parse /app/parse
 FROM builder AS web
 WORKDIR /app/website
 EXPOSE 3000 35729
-CMD ["yarn", "start"]
+CMD ["npm", "run", "start"]
 
 # PDF Build
 FROM builder AS pdf
 WORKDIR /app/parse
 CMD ["node","pdf.js"]
+
+# app build
+FROM builder AS app
+WORKDIR /app/website
+CMD ["npm", "run", "app-build"]

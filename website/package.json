@@ -1,26 +1,74 @@
 {
+  "name": "avodocs",
+  "productName": "Avolites Titan Manual",
+  "description": "Official Manual for the Avolites Titan software",
+  "version": "0.1.0",
+  "homepage": "https://manual.avolites.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Farrser/AvoDocs"
+  },
+  "main": "app.js",
+  "author": "Avolites Ltd. <support@avolites.com> (https://www.avolites.com)",
   "scripts": {
     "examples": "docusaurus-examples",
-    "start": "concurrently \"npm run sass\" \"docusaurus-start\"",
+    "start": "concurrently 'npm run sass' 'docusaurus-start'",
     "build": "node ../parse/search.js && node-sass scss/custom.scss static/custom.css --output-style expanded && docusaurus-build && npm run og",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",
+    "sass": "node-sass scss/custom.scss static/custom.css --output-style expanded && node-sass --watch scss/custom.scss static/custom.css --output-style expanded",
+    "og": "node ../parse/opengraph.js",
     "pdf": "node ../parse/pdf.js",
     "docker-pdf": "cd .. && docker-compose up --build pdf",
-    "sass": "node-sass scss/custom.scss static/custom.css --output-style expanded && node-sass --watch scss/custom.scss static/custom.css --output-style expanded",
-    "og": "node ../parse/opengraph.js"
+    "app": "electron .",
+    "app-sass": "node-sass app/scss/ -o app/sources/local/ --output-style compressed && node-sass --watch app/scss/ -o app/sources/local/ --output-style compressed",
+    "app-pre-build": "node-sass app/scss/ -o app/sources/local/ --output-style compressed && npm run build",
+    "app-build": "npm run app-pre-build && npm run app-build-no-pre",
+    "app-build-no-pre": "electron-builder",
+    "app-build-all": "npm run app-pre-build && npm run app-build-all-no-pre",
+    "app-build-all-no-pre": "electron-builder -mwl"
   },
   "devDependencies": {
-    "docusaurus": "^1.14.0"
-  },
-  "dependencies": {
     "@noticeable/remarkable-iframify": "^2.1.1",
     "commander": "^5.0.0",
     "concurrently": "^5.1.0",
+    "docusaurus": "^1.14.0",
+    "electron": "^8.2.0",
+    "electron-builder": "^22.4.1",
     "fuse.js": "^3.4.6",
     "js-search": "^1.4.3",
     "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "node-static": "^0.7.11"
+  },
+  "build": {
+    "appId": "com.avolites.titan.manual",
+    "files": [
+      "build/AvoDocs/**/*",
+      "app/**/*",
+      "app.js",
+      "!app/icon/",
+      "!app/scss/"
+    ],
+    "mac": {
+      "category": "public.app-category.utilities",
+      "icon": "app/icon/icon.icns"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "portable",
+      "icon": "app/icon/icon.ico"
+    },
+    "nsis": {
+      "deleteAppDataOnUninstall": true
+    }
   }
 }

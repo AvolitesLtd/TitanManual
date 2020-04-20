@@ -1,0 +1,15 @@
+.offline .video {
+  display: none;
+}
+
+.offline404 {
+  display: flex;
+  align-content: center;
+  align-items: center;
+
+  h1 {
+    width: 100%;
+    color: lightgrey;
+    text-align: center;
+  }
+}
