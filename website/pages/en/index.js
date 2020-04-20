@@ -86,7 +86,7 @@ class Index extends React.Component {
         {[
           {
             content: 'Bring lighting and video together on one visual canvas',
-            image: `${baseUrl}img/aixtitan.png`,
+            image: `${baseUrl}img/synergy.png`,
             imageAlign: 'top',
             title: '<a href="/docs/synergy">Synergy</a>',
           },
