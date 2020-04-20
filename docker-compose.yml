@@ -27,3 +27,20 @@ services:
       - ./docs:/app/docs
       - ./parse:/app/parse
       - ./website:/app/website
+
+  app:
+    build:
+      context: .
+      target: app
+    volumes:
+      - ./docs:/app/docs
+      - ./parse:/app/parse
+      - ./website/app:/app/website/app
+      - ./website/blog:/app/website/blog
+      - ./website/core:/app/website/core
+      - ./website/dist:/app/website/dist
+      - ./website/i18n:/app/website/i18n
+      - ./website/pages:/app/website/pages
+      - ./website/static:/app/website/static
+      - ./website/sidebars.json:/app/website/sidebars.json
+      - ./website/siteConfig.js:/app/website/siteConfig.js

@@ -7,14 +7,7 @@
 }
 
 // variables
-$colorAvoRed: #D80029;
-$colorBlue: #64b0ff;
-$colorGrey: #dfe2e5;
-
-$primary: $colorAvoRed;
-$secondary: darken($colorAvoRed,14%);
-
-$fa-font-path: "/fontawesome/webfonts/";
+@import 'variables';
 
 
 // imports
