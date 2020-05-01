@@ -35,9 +35,7 @@ const createWindow = () => {
     }
   })
   win.addBrowserView(browserViewContent)
-  let curSize = win.getSize()
-  browserViewContent.setBounds({ x: 0, y: 25, width: curSize[0], height: curSize[1]-25 })
-  browserViewContent.setAutoResize({width: true, height: true})
+  defaultWindowSize();
 
   browserViewContent.webContents.on('did-fail-load', (e, errCode, errDesc, vUrl, isMainFrame) => {
     if(isMainFrame) {
@@ -49,10 +47,10 @@ const createWindow = () => {
         browserViewContent.webContents.loadURL(`${appServer.url}/404.html`)
     }
   })
-  
+
   browserViewContent.webContents.on('will-navigate', handleExternal)
   browserViewContent.webContents.on('new-window', handleExternal)
-  
+
   browserViewContent.webContents.on('did-navigate', canNavigate)
   browserViewContent.webContents.on('did-finish-load', canNavigate)
 
@@ -73,6 +71,26 @@ const createWindow = () => {
     // when you should delete the corresponding element.
     win = null
   })
+
+  //This ridiculous fix is needed because on windows if you maximise a frameless window then the
+  //width provided by windows assumes that it the border was there so the window renders the wrong size
+  win.on('maximize', () => {
+    const bounds = win.getBounds();
+    if (bounds['x'] == -8 && bounds['y'] == -8) {
+      bounds['width'] -= 16;
+      bounds['height'] -= 16;
+    }
+    browserViewContent.setBounds({ x: 0, y: 25, width: bounds['width'], height: bounds['height']-25 })
+    browserViewContent.setAutoResize({width: false, height: false})
+  });
+
+  win.on('unmaximize', () => {
+    defaultWindowSize();
+  });
+
+  win.on('will-resize', () => {
+    defaultWindowSize();
+  });
 }
 
 // This method will be called when Electron has finished
@@ -114,6 +132,13 @@ function handleExternal(e, reqUrl)  {
   }
 }
 
+//Sets the window to the default resize behaviour
+function defaultWindowSize() {
+  let curSize = win.getSize()
+  browserViewContent.setBounds({ x: 0, y: 25, width: curSize[0], height: curSize[1]-25 })
+  browserViewContent.setAutoResize({width: false, height: false})
+}
+
 // redirects
 function urlFilter() {
   const filterUrls = {
@@ -144,7 +169,7 @@ function urlFilter() {
   session.defaultSession.webRequest.onBeforeRequest(filter, (details, callback) => {
     for(let filterUrl in filterUrls) {
       if(details.url.endsWith(filterUrls[filterUrl].url)) {
-        callback({ 
+        callback({
           cancel: false,
           redirectURL: appServer.url + '/' + filterUrls[filterUrl].file
         })
