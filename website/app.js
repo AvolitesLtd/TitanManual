@@ -1,6 +1,5 @@
 const { app, BrowserWindow, session, BrowserView, ipcMain, Menu, shell } = require('electron')
 const appServer = require('./app/server.js')
-
 const { fork } = require('child_process')
 const localJs = fork(`${__dirname}/app/local.js`)
 process.on('exit', () => {
@@ -56,8 +55,13 @@ const createWindow = () => {
 
   // and load the homepage of the app.
   appServer.ready().then(() => {
-    console.info(`${appServer.url}`)
-    browserViewContent.webContents.loadURL(`${appServer.url}`)
+    let url = "";
+    const args = require('minimist')(process.argv.slice(1))
+    if (args['startUrl']) {
+      url = args['startUrl'];
+    }
+    console.info(`${appServer.url}${url}`)
+    browserViewContent.webContents.loadURL(`${appServer.url}${url}`)
     win.loadURL(`${appServer.url}/nav.html`)
   })
 
