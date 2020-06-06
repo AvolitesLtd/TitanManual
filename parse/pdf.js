@@ -8,7 +8,6 @@ const outputPath = path.join(__dirname,"output");
 const legalPath = path.join(__dirname,"PDF/legal-en.md");
 const templatePath = path.join(__dirname,"PDF/eisvogel_avo.latex");
 const sectionNumberFilter = path.join(__dirname,"PDF/lua-section-number-filter.lua");
-const removeHeadersFilter = path.join(__dirname,"PDF/remove-headers.hs");
 const headerPath = path.join(__dirname,"PDF/header.yaml");
 const logoPath = path.join(__dirname,"PDF/avo.png");
 
@@ -110,13 +109,13 @@ function replaceYaml(filename,content) {
     if (filename.match("/")) {
       // sub page, e.g.:
       // # Cues {#cues/creating-a-cue.md}
-      return `## ${title}`;
+      return `## ${title} {${titleLink}}`;
     }
     else {
       // heading page, e.g.:
       // # {#cues.md}
       // \part{Cues}
-      return `# ${title}`;
+      return `# ${title} {${titleLink}}`;
     }
   });
 }
