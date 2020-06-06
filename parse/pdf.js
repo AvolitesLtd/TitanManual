@@ -7,6 +7,8 @@ const versionedDocsPath = path.join(__dirname,"../website/versioned_docs/");
 const outputPath = path.join(__dirname,"output");
 const legalPath = path.join(__dirname,"PDF/legal-en.md");
 const templatePath = path.join(__dirname,"PDF/eisvogel_avo.latex");
+const sectionNumberFilter = path.join(__dirname,"PDF/lua-section-number-filter.lua");
+const removeHeadersFilter = path.join(__dirname,"PDF/remove-headers.hs");
 const headerPath = path.join(__dirname,"PDF/header.yaml");
 const logoPath = path.join(__dirname,"PDF/avo.png");
 
@@ -45,7 +47,7 @@ else {
 function getVersions(dir=versionedDocsPath) {
   const isDirectory = source => fs.lstatSync(source).isDirectory();
   versions = fs.readdirSync(dir).map(name => path.join(dir, name)).filter(isDirectory);
-  
+
   for(let i in versions) {
     versions[i] = versions[i].replace(`${dir}version-`,"")
   }
@@ -64,20 +66,20 @@ function getVersions(dir=versionedDocsPath) {
 function setOutputDir(req='',def=outputPath) {
   if(req) {
     let userOutputPath = path.resolve(req);
-  
+
     fs.access(userOutputPath, fs.constants.W_OK, function(err) {
       if(err){
         req = def;
         process.emitWarning(`Could not write to ${userOutputPath}, instead writing to ${def}`);
       }
-  
+
       req = userOutputPath;
     });
   }
   else {
     req = def
   }
-  
+
   // create the output folder if it doesn't exist
   if(!fs.existsSync(req)) {
     fs.mkdirSync(req);
@@ -108,13 +110,13 @@ function replaceYaml(filename,content) {
     if (filename.match("/")) {
       // sub page, e.g.:
       // # Cues {#cues/creating-a-cue.md}
-      return `# ${title} {${titleLink}}`;
+      return `## ${title}`;
     }
     else {
       // heading page, e.g.:
       // # {#cues.md}
       // \part{Cues}
-      return `# {${titleLink}}\n\\part{${title}}`;
+      return `# ${title}`;
     }
   });
 }
@@ -131,7 +133,7 @@ function replaceLinks(filename,content,docsPath) {
   return content.replace(/(?<![\\!])\[(.*\n*)(?<!\\)\]\((?!https?:\/\/)(?!\/\/)(?!#)([a-zA-Z0-9-\.\/]*\.md)([^)]*)\)/mgi, function (match,text,link,anchor) {
     let filePath = filename.split("/");
     let file = filePath.pop();
-    
+
     if(filePath.length) {
       // filename like 'cues/creating-a-cue.md'
       filePath = filePath.join('/');
@@ -150,7 +152,7 @@ function replaceLinks(filename,content,docsPath) {
       // remove the link
       return text;
     }
-    
+
     if(anchor) {
       // if it's got an anchor link to a title just go to that, e.g.
       // change [text](link.md#title)
@@ -297,7 +299,7 @@ function formatMd(docsPath,filename) {
     process.emitWarning(`${filename}: File referenced in sidebar not found`);
     return '';
   }
-  
+
   let content = fs.readFileSync(filepath, 'utf-8');
 
   // replace YAML blocks with title
@@ -330,10 +332,10 @@ function generatePDF(filePath,version,section=null,options={}) {
     version = "Latest";
   }
   version = `Titan ${version}`;
-  
+
   // add a dash before the section if there is one specified
   section = section ? '-' + section : '';
-  
+
   // current date and time
   const ISODate = new Date().toISOString().slice(0,19).replace(/[T:]/g,"-");
 
@@ -359,8 +361,11 @@ pandoc --template "${options.templatePath}" \
   --highlight-style kate \
   --metadata-file "${options.headerPath}" \
   --toc \
+  --number-sections \
   -fmarkdown-implicit_figures \
   --self-contained \
+  --lua-filter="${sectionNumberFilter}" \
+  -V fontsize=8pt \
   -M date="$DATE" \
   -M footer-center="$DATE" \
   -M footer-left="${version} Manual" \
