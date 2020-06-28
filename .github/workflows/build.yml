@@ -36,6 +36,7 @@ jobs:
         run: |
           cd website
           npm install
+          npm run build
 
       - name: Linux/Mac Build & Copy to artifacts
         if: matrix.os != 'windows-latest'
