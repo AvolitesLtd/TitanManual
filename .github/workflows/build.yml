@@ -19,10 +19,6 @@ jobs:
       matrix:
         os: [ubuntu-latest, windows-latest, macOS-latest]
 
-    defaults:
-      run:
-        working-directory: ./website
-
     steps:
       - name: Context
         env:
@@ -38,11 +34,13 @@ jobs:
 
       - name: Install Dependencies
         run: |
+          cd website
           npm install
 
       - name: Linux/Mac Build & Copy to artifacts
         if: matrix.os != 'windows-latest'
         run: |
+          cd website
           GH_TOKEN=${{secrets.GITHUB_TOKEN}} npm run app-build
           mkdir artifacts
           mv dist/*.zip dist/*.dmg dist/*.deb dist/*.AppImage artifacts || true
@@ -50,6 +48,7 @@ jobs:
       - name: Windows Build & Copy to artifacts
         if: matrix.os == 'windows-latest'
         run: |
+          cd website
           npm run app-build
           mkdir artifacts
           mv dist/*.exe dist/*.zip artifacts
