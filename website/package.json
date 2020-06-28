@@ -24,7 +24,7 @@
     "docker-pdf": "cd .. && docker-compose up --build pdf",
     "app": "electron .",
     "app-sass": "node-sass app/scss/ -o app/sources/local/ --output-style compressed && node-sass --watch app/scss/ -o app/sources/local/ --output-style compressed",
-    "app-pre-build": "node-sass app/scss/ -o app/sources/local/ --output-style compressed && npm run build",
+    "app-pre-build": "npm run build && node-sass app/scss/ -o app/sources/local/ --output-style compressed",
     "app-build": "npm run app-pre-build && npm run app-build-no-pre",
     "app-build-no-pre": "electron-builder",
     "app-build-all": "npm run app-pre-build && npm run app-build-all-no-pre",
