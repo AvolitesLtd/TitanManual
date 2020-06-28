@@ -21,7 +21,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: website
+        working-directory: ./website
 
     steps:
       - name: Context
@@ -45,7 +45,7 @@ jobs:
         run: |
           GH_TOKEN=${{secrets.GITHUB_TOKEN}} npm run app-build
           mkdir artifacts
-          mv dist/*.zip dist/*.dmg dist/*.dmg dist/*.AppImage artifacts || true
+          mv dist/*.zip dist/*.dmg dist/*.deb dist/*.AppImage artifacts || true
 
       - name: Windows Build & Copy to artifacts
         if: matrix.os == 'windows-latest'
