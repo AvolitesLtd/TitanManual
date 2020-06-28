@@ -8,6 +8,8 @@ process.on('exit', () => {
 
 let win, browserViewContent
 
+const navHeight = 28
+
 const createWindow = () => {
   Menu.setApplicationMenu(null)
 
@@ -84,7 +86,7 @@ const createWindow = () => {
       bounds['width'] -= 16;
       bounds['height'] -= 16;
     }
-    browserViewContent.setBounds({ x: 0, y: 25, width: bounds['width'], height: bounds['height']-25 })
+    browserViewContent.setBounds({ x: 0, y: navHeight, width: bounds['width'], height: bounds['height'] - navHeight })
     browserViewContent.setAutoResize({width: false, height: false})
   });
 
@@ -139,7 +141,7 @@ function handleExternal(e, reqUrl)  {
 //Sets the window to the default resize behaviour
 function defaultWindowSize() {
   let curSize = win.getSize()
-  browserViewContent.setBounds({ x: 0, y: 25, width: curSize[0], height: curSize[1]-25 })
+  browserViewContent.setBounds({ x: 0, y: navHeight, width: curSize[0], height: curSize[1] - navHeight })
   browserViewContent.setAutoResize({width: false, height: false})
 }
 
