@@ -80,9 +80,9 @@ jobs:
 
       - name: PDF Docker Build
         run: |
-          cd website
           docker-compose run pdf
-          mv ../parse/output/*.pdf ../downloads
+          mkdir downloads
+          mv parse/output/*.pdf downloads
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v1

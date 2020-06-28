@@ -3,7 +3,13 @@ FROM homebrew/brew as builder
 RUN brew install \
     node \
     pandoc \
-    texlive
+    texlive \
+    wget
+
+# magical fix...
+RUN wget http://mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh \
+    && chmod +x update-tlmgr-latest.sh \
+    && ./update-tlmgr-latest.sh
 
 # LaTeX packages
 RUN tlmgr update --self
@@ -55,7 +61,7 @@ WORKDIR /app/website
 EXPOSE 3000 35729
 CMD ["npm", "run", "start"]
 
-# PDF Build
+# PDF build
 FROM builder AS pdf
 WORKDIR /app/parse
 CMD ["node","pdf.js"]
