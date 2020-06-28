@@ -76,6 +76,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v2
+
       - name: PDF Docker Build
         run: |
           cd website
