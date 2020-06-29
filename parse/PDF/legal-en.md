@@ -1,5 +1,5 @@
 
-\part{Contact \& Legal}
+# Contact & Legal
 
 Useful Avolites phone numbers:
 

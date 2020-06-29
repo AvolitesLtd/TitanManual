@@ -4,8 +4,8 @@ title: "Avolites User Manual"
 # author:
 date: "26 March 2020"
 
-papersize: a4
-geometry: "left=2.54cm,right=2.54cm,top=1.91cm,bottom=1.91cm"
+papersize: a5
+geometry: "left=1.5cm,right=1.00cm,top=1.91cm,bottom=1.91cm"
 
 header-left: "\\leftmark"
 # header-center: "\\hspace{1cm}"
