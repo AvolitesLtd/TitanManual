@@ -64,10 +64,6 @@ body {
       @extend .fas;
     }
 
-    #cntrl-win & {
-      @extend .far;
-    }
-
     @at-root #cntrl-back#{&} {
       content: fa-content($fa-var-arrow-left);
     }
@@ -77,15 +73,18 @@ body {
     }
     
     @at-root #cntrl-min#{&} {
+      @extend .far;
       content: fa-content($fa-var-window-minimize);
     }
     
     @at-root #cntrl-max#{&} {
+      @extend .far;
       content: fa-content($fa-var-square);
     }
     
     @at-root #cntrl-close#{&} {
-      content: fa-content($fa-var-window-close);
+      @extend .fas;
+      content: fa-content($fa-var-times);
     }
   }
 }
