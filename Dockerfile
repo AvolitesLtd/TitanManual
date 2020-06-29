@@ -50,7 +50,6 @@ RUN tlmgr install \
 
 COPY ./website /app/website
 WORKDIR /app/website
-ENV NODE_ENV development
 RUN npm install --unsafe-perm=true
 
 COPY ./docs /app/docs
