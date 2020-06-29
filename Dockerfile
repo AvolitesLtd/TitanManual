@@ -50,7 +50,8 @@ RUN tlmgr install \
 
 COPY ./website /app/website
 WORKDIR /app/website
-RUN npm install --unsafe-perm=true
+RUN export NODE_ENV=development \
+    && npm install --unsafe-perm=true
 
 COPY ./docs /app/docs
 COPY ./parse /app/parse
