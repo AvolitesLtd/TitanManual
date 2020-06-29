@@ -10,9 +10,25 @@ let win, browserViewContent
 
 const navHeight = 28
 
-const createWindow = () => {
-  Menu.setApplicationMenu(null)
+var template = [{
+  label: "Application",
+  submenu: [
+      { label: "About", selector: "orderFrontStandardAboutPanel:" },
+      { type: "separator" },
+      { label: "Quit", accelerator: "Command+Q", click: function() { app.quit() }}
+  ]}, {
+  label: "Edit",
+  submenu: [
+      { label: "Copy", accelerator: "CmdOrCtrl+C", selector: "copy:" },
+      { type: "separator" },
+      { label: "Back", accelerator: "CmdOrCtrl+Left", click: function() { goBack() } },
+      { label: "Forward", accelerator: "CmdOrCtrl+Right", click: function() { goForward() } },
+  ]}
+];
 
+Menu.setApplicationMenu(Menu.buildFromTemplate(template));
+
+const createWindow = () => {
   // Create the browser window.
   win = new BrowserWindow({
     width: 1200,
@@ -69,6 +85,7 @@ const createWindow = () => {
 
   browserViewContent.webContents.on('dom-ready', () => {
     win.show()
+    canNavigate()
   });
 
   win.on('closed', () => {
@@ -105,11 +122,6 @@ const createWindow = () => {
 app.whenReady().then(() => {
   createWindow()
   urlFilter()
-})
-
-app.on('browser-window-created', (e,window) => {
-  window.setMenu(null);
-  Menu.setApplicationMenu(null)
 })
 
 app.allowRendererProcessReuse = true
@@ -194,14 +206,22 @@ const canNavigate = () => {
   win.webContents.send('cntrl-can-forward', browserViewContent.webContents.canGoForward())
 }
 
-ipcMain.on("cntrl-back",(e, arg) => {
+function goBack() {
   if(browserViewContent.webContents.canGoBack())
     browserViewContent.webContents.goBack()
+}
+
+function goForward() {
+  if(browserViewContent.webContents.canGoForward())
+    browserViewContent.webContents.goForward()
+}
+
+ipcMain.on("cntrl-back",(e, arg) => {
+  goBack()
 })
 
 ipcMain.on("cntrl-forward", (e, arg) => {
-  if(browserViewContent.webContents.canGoForward())
-    browserViewContent.webContents.goForward()
+  goForward()
 })
 
 ipcMain.on("cntrl-min", (e, arg) => {
