@@ -2,6 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
+const versions = require("../website/versions.json");
 
 const versionedDocsPath = path.join(__dirname,"../website/versioned_docs/");
 const outputPath = path.join(__dirname,"output");
@@ -13,7 +14,7 @@ const logoPath = path.join(__dirname,"PDF/avo.png");
 
 // Command line options
 program
-  .option('-v, --manversion <version>', 'specify which version to produce, use --v next to produce the /docs folder')
+  .option('-v, --manversion <version>', 'specify which version to produce, use "-v next" to produce the /docs folder')
   .option('-s, --section <section>', 'specify a specific section to output, e.g. -s synergy')
   .option('-o, --output-dir <dir>', 'specify the directory the PDF is output to, e.g. -o ~/Desktop')
   .option('--no-legal', 'omit the legal section of the manual')
@@ -39,21 +40,13 @@ else {
 }
 
 /**
- * Get all of the versions of the docs found in `path` plus `next`
- * @param {string} dir Path to look for version folders, *defaults to `versionedDocsPath`*
+ * Get all of the versions of the docs specified in the versions.json file, plus `next`
  * @return {array} Array of the versions, e.g. ['12.0','13.0','next']
  */
-function getVersions(dir=versionedDocsPath) {
-  const isDirectory = source => fs.lstatSync(source).isDirectory();
-  versions = fs.readdirSync(dir).map(name => path.join(dir, name)).filter(isDirectory);
-
-  for(let i in versions) {
-    versions[i] = versions[i].replace(`${dir}version-`,"")
-  }
-
-  versions.push('next');
-
-  return versions;
+function getVersions() {
+  let allVersions = versions;
+  allVersions.push('next');
+  return allVersions;
 }
 
 /**
@@ -125,9 +118,10 @@ function replaceYaml(filename,content) {
  * @param {string} filename Name of the file, e.g. `cues/creating-a-cue.md`
  * @param {string} content Contents of the .md file with the links in
  * @param {string} docsPath The path to the docs folder, e.g. `../docs/`
+ * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} The content with the images fixed
  */
-function replaceLinks(filename,content,docsPath) {
+function replaceLinks(filename,content,docsPath,version) {
   // matches all links which are to local .md files
   return content.replace(/(?<![\\!])\[(.*\n*)(?<!\\)\]\((?!https?:\/\/)(?!\/\/)(?!#)([a-zA-Z0-9-\.\/]*\.md)([^)]*)\)/mgi, function (match,text,link,anchor) {
     let filePath = filename.split("/");
@@ -144,9 +138,11 @@ function replaceLinks(filename,content,docsPath) {
 
     let fullFilePath = path.resolve(docsPath, filePath, link);
 
-    if (!fs.existsSync(fullFilePath)) {
+    let resolvedPath = resolvePageVersion(path.join(filePath, link),version)
+
+    if (!resolvedPath) {
       // check file exists
-      process.emitWarning(`${filename}: Link to '${link}${anchor ? anchor : ''}' not found`);
+      process.emitWarning(`[${version}] ${filename}: Link to '${link}${anchor ? anchor : ''}' not found`);
 
       // remove the link
       return text;
@@ -271,7 +267,7 @@ function formatMdFiles(docsPath, sidebar, version) {
         if(version != 'next') {
           page = page.replace(`version-${version}-`,"")
         }
-        output += formatMd(docsPath,page+'.md');
+        output += formatMd(docsPath,page+'.md',version);
       }
     }
   }
@@ -286,16 +282,41 @@ function formatMdFiles(docsPath, sidebar, version) {
 }
 
 /**
+ * Resolves the latest version of the file
+ * @param {string} filename Name of the file, e.g. `cues/creating-a-cue.md` 
+ * @param {string} version Version of the manual, e.g. `12.0` or `next`
+ * @return {string} Absolute file path to the latest version (null if not found)
+ */
+function resolvePageVersion(filename,version) {
+  let filepath = path.resolve(docsVersionPath(version), filename);
+
+  if (fs.existsSync(filepath)) {
+    return filepath;
+  }
+  else {
+    let currentIndex = versions.indexOf(version);
+
+    if(currentIndex == -1 || currentIndex == versions.length-1) {
+      // version not in versions.json or is the last entry
+      return null;
+    }
+
+    return resolvePageVersion(filename,versions[++currentIndex])
+  }
+}
+
+/**
  * Format a MarkDown file ready for PDF
  * @param {string} docsPath Path to the docs folder, e.g. `../docs/`
  * @param {string} filename Name of the file, e.g. `cues/creating-a-cue.md`
+ * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} The formatted MarkDown
  */
-function formatMd(docsPath,filename) {
-  let filepath = path.join(docsPath, filename);
+function formatMd(docsPath,filename,version) {
+  let filepath = resolvePageVersion(filename,version);
 
-  if (!fs.existsSync(filepath)) {
-    process.emitWarning(`${filename}: File referenced in sidebar not found`);
+  if (!filepath) {
+    process.emitWarning(`[${version}] ${filename}: File referenced in sidebar not found`);
     return '';
   }
 
@@ -305,7 +326,7 @@ function formatMd(docsPath,filename) {
   content = replaceYaml(filename,content);
 
   // replace links to md files with the title links created above
-  content = replaceLinks(filename,content,docsPath);
+  content = replaceLinks(filename,content,docsPath,version);
 
   // fix the absolute image path
   content = replaceImagepath(filename,content);
