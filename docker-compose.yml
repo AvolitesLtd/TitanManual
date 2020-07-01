@@ -27,6 +27,7 @@ services:
       - ./docs:/app/docs
       - ./parse:/app/parse
       - ./website:/app/website
+      - /app/website/node_modules
 
   app:
     build:
