@@ -125,7 +125,7 @@ The toolbar will show details of the master/slave status. Console
 legends can be changed in the System menu using the \[Console
 Legend\] option.
 
-    ![Shell Slave](/docs/images/Shell-Slave.png)
+![Shell Slave](/docs/images/Shell-Slave.png)
 
 Consoles connected in a multi-user session work on the same show. If
 the same handle worlds are selected then an action on one console is
