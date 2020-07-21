@@ -73,7 +73,10 @@
     },
     "nsis": {
       "deleteAppDataOnUninstall": true,
-      "createDesktopShortcut": false
+      "createDesktopShortcut": false,
+      "perMachine": true,
+      "guid": "Avolites\\Manual",
+      "menuCategory": "Avolites"
     }
   }
 }
