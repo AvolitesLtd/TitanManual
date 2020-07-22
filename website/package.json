@@ -35,7 +35,7 @@
     "commander": "^5.0.0",
     "concurrently": "^5.1.0",
     "docusaurus": "^1.14.0",
-    "electron": "^8.2.0",
+    "electron": "^8.2.4",
     "electron-builder": "22.3.6",
     "fuse.js": "^3.4.6",
     "js-search": "^1.4.3",
