@@ -27,6 +27,9 @@ called a **Playback**. You can store in several places:
 -   On any **fader handle** - the fader controls the intensity of
     fixtures (you can make the fader control other things using [Playback
     Options](cues/playback-options.md)).
+	
+-	On a **Virtual fader** in the [Virtual faders](running-the-show/playback-controls.md#virtual-faders) window on the touchscreen. This works exactly like
+	a physical fader.
 
 -   On a **touch button** in the Playbacks window - you can set whether
     the button latches or flashes the cue using [Key Profiles](system-settings/key-profiles.md)
