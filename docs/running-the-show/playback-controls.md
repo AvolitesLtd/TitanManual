@@ -235,6 +235,25 @@ you have a couple of fixtures acting as a spotlight, but they are also
 programmed into some colour washes, you probably want the spotlight cue
 to take priority over the colour washes.
 
+Virtual faders
+-----------------
+
+If you need more playbacks and you're happy to operate them on a touchscreen fader, you can use the
+Virtual Faders workspace window (press \[Open Workspace Window\] then select \[Virtual Faders\]). 
+This provides 10 more paged faders which work exactly the same as the hardware playback faders. 
+A roller display at the left side allows you to select different pages.
+
+![Virtual playbacks window](/docs/images/virtual-faders.png)
+
+Press the Settings (cog) button at the top of the screen to
+
+- Show or hide the page select roller
+
+- Show or hide the blue, grey and black buttons
+
+- Set how many faders are shown per page. This can be set to 5, 10 or 15 to match the playback fader
+layout on the console hardware.
+
 Preset playbacks (Tiger Touch only)
 -----------------------------------
 
