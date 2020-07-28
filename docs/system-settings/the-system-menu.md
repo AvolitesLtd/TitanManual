@@ -17,24 +17,24 @@ you wouldn't want to change them accidentally.
 
 ---
 
-[Network Settings](../networking.md)
+Network Settings
 ----------------
 
-This option sets up networking (Ethernet) parameters for the console - further details on how to [control fixtures over a network](../networking/controlling-fixtures-over-a-network.md) in the [networking section](../networking.md).
+This option sets up networking parameters for the Ethernet ports on the console - further details on how to [control fixtures over a network](../networking/controlling-fixtures-over-a-network.md) are in the [networking section](../networking/networking-introduction.md).
 
-[DMX Settings](dmx-output-mapping.md)
+DMX Settings
 ------------
 
 Allows you to configure how the console outputs DMX. This option is
 described in detail later in this chapter, in the [DMX Output Settings section](dmx-output-mapping.md#configuring-dmx-outputs).
 
-[DMX Merge Settings](dmx-output-mapping.md#dmx-merge)
+DMX Merge Settings
 ------------------
 
 Allows you to select how DMX will be output across multiple consoles or
 processing nodes - [read more about DMX merge settings](dmx-output-mapping.md#dmx-merge).
 
-[Synergy Settings](../synergy/setting-up.md)
+Synergy Settings
 ----------------
 
 Sets up the Synergy software for linking to an Ai server, see the [Synergy setup section](../synergy/setting-up.md#synergy-setup).
@@ -45,16 +45,16 @@ TitanNet Security
 This option sets how the console communicates with other Titan devices
 as a backup console, for more information see the [Linking consoles for multi-user or backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md) section.
 
-[User Settings](user-settings.md)
+User Settings
 -------------
 
 The User Settings menu may also be accessed from Program mode: hold down
 the \<Avo\> Shift button and press \[User Settings\]. See the [User Settings](user-settings.md) section.
 
-[Key Profiles](key-profiles.md)
+Key Profiles
 ------------
 
-Allows you to modify the functions of some buttons. See section the [Key Profiles](key-profiles.md)] section.
+Allows you to modify the functions of some buttons. See section the [Key Profiles](key-profiles.md) section.
 
 Wipe
 ----
@@ -66,13 +66,13 @@ Avolites users who are used to it being on the System menu.
 The \[Wipe Visualiser Patch\] option will erase all fixtures from the
 visualiser without affecting the current show.
 
-[Triggers](../running-the-show/midi-dmx-or-audio-triggering.md)
+Triggers
 --------
 
 Sets up the console for external triggering such as MIDI or DMX-in. This
 option is described in detail in the [MIDI, DMX or audio triggering](../running-the-show/midi-dmx-or-audio-triggering.md) section.
 
-[Assign Masters](../running-the-show/playback-controls.md#grand-master-fader-and-assignable-masters)
+Assign Masters
 --------------
 
 This option allows you to assign any playback fader to be a master
@@ -98,7 +98,7 @@ the software, however if you would prefer to disable it, click the
 Telemetry information will only be sent in any case if the console is
 connected to the internet.
 
-[Display Setup](external-displays.md)
+Display Setup
 -------------
 
 This option gives you a menu for enabling and disabling [external

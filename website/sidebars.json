@@ -126,7 +126,7 @@
       "titan-net/tnp-console-mode"
     ],
     "System Settings": [
-      "system-settings",
+      "system-settings/system-settings-intro",
       "system-settings/the-system-menu",
       "system-settings/external-displays",
       "system-settings/key-profiles",
