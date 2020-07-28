@@ -1,16 +1,18 @@
 ---
-id: capture-visualiser 
-title: Capture Visualiser
-sidebar_label: Capture Visualiser
+id: capture-visualiser-introduction
+title: Capture Visualiser Introduction
+sidebar_label: Capture Visualiser Introduction
 ---
 
-From Titan v10, the Capture visualiser is integrated into the console.
+The Capture visualiser engine is integrated into the Titan consoles.
 This can provide a realistic simulation of your lighting which is really
 useful for pre-programming or making changes in blind mode during a
 show.
 
 This chapter also has a section on [linking the console to an external
-full version of Capture](capture-visualiser/linking-the-console-to-stand-alone-capture.md).
+full version of Capture](capture-visualiser/linking-the-console-to-stand-alone-capture.md)
+which can be useful if you need to visualise a set or a full venue, as the internal
+Capture engine has limited modelling facilities.
 
 ![Capture Visualiser Workspace Window](/docs/images/Capture-Visualiser-Workspace-Window.png)
 
