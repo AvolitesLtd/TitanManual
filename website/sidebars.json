@@ -94,7 +94,7 @@
       "cue-lists/theatre-programming"
     ],
     "Capture Visualiser": [
-      "capture-visualiser",
+      "capture-visualiser/capture-visualiser-introduction",
       "capture-visualiser/setting-up-the-rig",
       "capture-visualiser/visualising-using-capture",
       "capture-visualiser/capture-show-files",
@@ -141,7 +141,7 @@
       "fixture-personalities"
     ],
     "Networking the Console": [
-      "networking",
+      "networking/networking-introduction",
       "networking/connecting-the-arena-to-a-network",
       "networking/controlling-fixtures-over-a-network",
       "networking/using-active-fixtures",

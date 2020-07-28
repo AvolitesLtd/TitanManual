@@ -1,5 +1,5 @@
 ---
-id: networking
+id: networking-introduction
 title: Networking the Console
 sidebar_label: Networking the Console
 ---
