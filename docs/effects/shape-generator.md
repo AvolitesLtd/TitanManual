@@ -240,7 +240,7 @@ Using Shapes in Cues
 
 When you save a shape into a cue, you can set the playback fader to
 control the size and/or speed of the shape in
-[playback options](../cues/playback-options.md) to give you more options at
+playback [Options](../cues/playback-options.md) to give you more options at
 show time; you can also control the size and speed from separate
 [Size Master and Speed Master faders](../running-the-show/playback-controls.md#speed-and-size-masters).
 
