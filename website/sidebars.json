@@ -1,12 +1,15 @@
 {
   "docs": {
     "Introduction": [
-      "introduction",
-      "introduction/patching-fixtures",
-      "introduction/controlling-fixtures",
-      "introduction/programming-cues-and-chases",
-      "introduction/programming-palettes",
-      "introduction/dmx-network-setup"
+      "introduction"
+    ],
+    "Quick Start": [
+      "quickstart",
+      "quickstart/patching-fixtures",
+      "quickstart/controlling-fixtures",
+      "quickstart/programming-cues-and-chases",
+      "quickstart/programming-palettes",
+      "quickstart/dmx-network-setup"
     ],
     "About The Consoles": [
       "about-the-consoles",
