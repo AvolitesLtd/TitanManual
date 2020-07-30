@@ -61,4 +61,4 @@ See [Cue Timing](../cues/cue-timing.md)
 
 Cues may be stored in a [Cue List](../cue-lists/creating-a-cue-list.md) which allows a full show to be run from
 a Go button. Chases can be included using [Autoload](../cue-lists/creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list). Cue lists can run in
-tracking or non-tracking mode, set from \[Playback Options\].
+tracking or non-tracking mode, set from \[Options\].

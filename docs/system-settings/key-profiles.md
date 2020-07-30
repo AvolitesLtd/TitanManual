@@ -29,7 +29,7 @@ Profiles\]. You can then use the Manage Profiles menu to View, Edit,
 Add, Delete or Rename profiles.
 
 You can also create or edit key profiles in the \[Handle\] tab of
-Playback Options.
+playback Options.
 
 Key Profiles can also be viewed from the Show Library window as
 described in [Show Library](../titan-basics/show-library.md#key-profiles-view) section.
@@ -153,6 +153,9 @@ To quickly select a Key Profile, hold the \<Avo\> Shift button and press
 Each playback can have an individual Key Profile allocated to it. This
 allows you to customise the panel button functions differently for each
 playback. The Key Profile for the playback is selected using the
-\[Handles\] option on Playback Options. If the playback Key Profile is
+\[Handles\] option on playback Options. If the playback Key Profile is
 set to \[Global\], the default global profile for Cue / Chase / Cue List
 is used.
+
+You can quickly set the Key Profile for a playback by selecting the handle while holding the \<Options\> button
+down.

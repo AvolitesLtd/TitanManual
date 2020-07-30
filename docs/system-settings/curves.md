@@ -8,7 +8,7 @@ The console provides a variety of curves which set how the console
 tracks fades in playbacks; either the same speed all the way (linear),
 or starting and ending gently but faster in the middle, and various
 other options. Curves are used in various places in the console, one
-example is in the \[Playback Options\] menu - see [Playback
+example is in the playback \[Options\] menu - see [Playback
 options](../cues/playback-options.md).
 
 ![Curve - Linear](/docs/images/Curve-Linear.png)

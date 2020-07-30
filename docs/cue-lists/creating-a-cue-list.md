@@ -113,7 +113,7 @@ Shape Tracking in Cue Lists
 Shapes can track between cues in cue lists. If shape tracking is
 enabled, a shape started in a cue will continue through following cues.
 Shape tracking is enabled using the \[Shape Tracking\] option in the
-Playback Options for the cue list - see [Cue List Options](cue-list-options.md#cue-list-options-playback-tab).
+playback Options for the cue list - see [Cue List Options](cue-list-options.md#cue-list-options-playback-tab).
 
 Cues containing shapes have a button for each shape.
 
@@ -210,7 +210,7 @@ allows you to set up custom actions which can be performed when a cue in
 a cue list fires; for example you may want to lamp on your fixtures as
 the first cue in the cue list.
 
-1. Press \[Playback Options\]
+1. Press \<Options\> (or the \[Options\] softkey on the root menu)
 
 2. Select the **cue list**
 

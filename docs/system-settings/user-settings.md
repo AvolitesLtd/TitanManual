@@ -45,7 +45,7 @@ from a tracked cue list.
 ### Run Startup Playbacks
 Allows you to globally disable startup
 playbacks from running. To enable Startup Playbacks you need to turn
-this on and set some playbacks as Startup using Playback Options.
+this on and set some playbacks as Startup using playback Options.
 
 ### System Render Rate (Hz)
 Sets the output rate of DMX frames from

@@ -23,14 +23,21 @@ Opening and positioning workspace windows
 -----------------------------------------
 
 Double press the \<View\> button (labelled \<Open\> or \<Open Window\> on some consoles)
-to show the workspace open buttons on all monitors (for the rest of this manual
+to show the workspace open buttons overlay on all monitors (for the rest of this manual
 we'll refer to this button as \<View/Open\>). On the monitor where you
 want the workspace, press the appropriate button and the window will open on that monitor.
 
 ![Workspace select buttons](/docs/images/workspace-icons.png)
 
+If the window was already open on a different monitor, it will move to the monitor you selected
+keeping the same size and position.
+
 You can also use the \[Open
 Workspace Window\] menu command on the root menu to show the workspace open buttons.
+Pressing \<View/Open\> again will close the workspace button overlay, or pressing the X
+at the top of the button overlay on any screen will close it on all screens.
+
+
 There are also button shortcuts to open some of the windows:
 
 ### Shortcuts to open workspace windows

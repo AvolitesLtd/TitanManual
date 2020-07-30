@@ -155,7 +155,7 @@ back to the normal times.
 
 Rate or BPM masters can be allocated to chases, allowing you to control
 the speed from a separate master fader. You set this by pressing
-\[Effects\] then \[Speed Source\] in the [Playback Options](../cues/playback-options.md) for the chase.
+\[Effects\] then \[Speed Source\] in the [Options](../cues/playback-options.md) for the chase.
 See [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
 
 ## Speed Multipliers
@@ -166,5 +166,5 @@ running multiple chases together.
 
 Press \[Speed Multiplier\] In the Edit Times menu for the chase, or use
 the \[Speed Multiplier\] option in the Playback category of the 
-[Playback Options](../cues/playback-options.md) for the chase. Use the \[Multiply or Divide\] softkey to swap
+[Options](../cues/playback-options.md) for the chase. Use the \[Multiply or Divide\] softkey to swap
 the value between multiply and divide.

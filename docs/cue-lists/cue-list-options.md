@@ -4,10 +4,10 @@ title: Cue List Options
 sidebar_label: Cue List Options
 ---
 
-Cue list options are set from the [Playback Options menu](../cues/playback-options.md). You can enter
+Cue list options are set from the [Options menu](../cues/playback-options.md). You can enter
 the playback options menu by doing the following:
 
-1. At the top level menu press \[Playback Options\]
+1. Press \<Options\> (or the \[Options\] softkey on the top level menu)
 
 2. Press the **select** button for the cue list you wish to edit
 
@@ -19,7 +19,7 @@ the additional Cue List options are described here.
 
 ## Playback Tab
 
-Most options are described in [Playback Options](../cues/playback-options.md), but these
+Most options are the same as for cues and are described in playback [Options](../cues/playback-options.md), but these
 are additional options for cue lists:
 
 ### Tracking
@@ -54,7 +54,7 @@ Loop | Cue list will go back to first cue after the last.* If Move in Dark is en
 
 ## Handle Tab
 
-All these options are described in [Playback Options](../cues/playback-options.md#handle-tab).
+All these options are described in playback [Options](../cues/playback-options.md#handle-tab).
 
 ## Fader Tab
 
@@ -73,11 +73,11 @@ the fader is raised.
 
 ## Effects Tab
 
-All these options are described in [Playback Options](../cues/playback-options.md#effects-tab).
+All these options are described in playback [Options](../cues/playback-options.md#effects-tab).
 
 ## Release Tab
 
-Release Mask and Release Time are described in the [Playback Options](../cues/playback-options.md#release-tab).
+Release Mask and Release Time are described in the playback [Options](../cues/playback-options.md#release-tab).
 
 ### Cue Release
 Allows you to create an overlay cue list with gaps in

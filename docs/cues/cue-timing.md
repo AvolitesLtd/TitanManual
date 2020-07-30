@@ -75,7 +75,7 @@ can change this, see [Changing Fixture Order](#changing-fixture-order))*.
 ### Fade Modes
 
 The times you enter are affected by the cue mode which is set using the
-\[Fade Mode\] option. This option can also be set from \[Playback Options\],
+\[Fade Mode\] option. This option can also be set from playback \[Options\],
 \[Fade Mode\]:
 
 -   \[Mode 0\] - Channels will fade in as set by the fade time. The Fade
