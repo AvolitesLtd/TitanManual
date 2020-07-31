@@ -54,7 +54,7 @@ the keypad.\
 **0%** means that the first fixture will finish its fade before the next one starts.\
 **50%** means that the 2^nd^ fixture will start fading when the first one is half way
 through its fade.\
-The order of the fixtures is set by the order youselected them *(but you
+The order of the fixtures is set by the order you selected them *(but you
 can change this, see [Changing Fixture Order](#changing-fixture-order))*.
 
 7. Press \<Exit\> to get out of Edit Times mode.

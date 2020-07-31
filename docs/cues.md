@@ -25,8 +25,8 @@ When a Cue, Chase or Cue List is stored on a control, the control is
 called a **Playback**. You can store in several places:
 
 -   On any **fader handle** - the fader controls the intensity of
-    fixtures (you can make the fader control other things using [Playback
-    Options](cues/playback-options.md)).
+    fixtures (you can make the fader control other things using playback
+    [Options](cues/playback-options.md)).
 	
 -	On a **Virtual fader** in the [Virtual faders](running-the-show/playback-controls.md#virtual-faders) window on the touchscreen. This works exactly like
 	a physical fader.
