@@ -4,7 +4,7 @@ title: Introduction to Avolites Titan
 sidebar_label: Introduction to Avolites Titan
 ---
 
-Welcome to Avolites Titan. This manual aims to you tell you everything
+Welcome to Avolites Titan! This manual aims to you tell you everything
 there is to know about operating your Avolites console (that's quite a lot).
 
 If you're already familiar with using lighting consoles but new to Titan, 
