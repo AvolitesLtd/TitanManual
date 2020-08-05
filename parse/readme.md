@@ -60,7 +60,12 @@ node pdf.js -v 12.0 -s synergy
 
 ## PDF with Docker
 
-For a one-off with Docker:
+To produce all the versions with Docker:
+````shell
+docker-compose run pdf
+````
+
+For a one-off:
 ````shell
 docker-compose run pdf bash -c 'node ../parse/pdf.js -v next -s synergy'
 ````

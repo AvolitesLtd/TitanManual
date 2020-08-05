@@ -1,14 +1,105 @@
+name: Release
+
 on:
   release:
-    types: # This configuration does not affect the page_build event above
+    types:
       - created
 
 env:
-  NODE_VERSION: '10.x'                # set this to the node version to use
+  NODE_VERSION: '10.x'
 
-jobs:
-  build:
-    name: Build and Deploy
+jobs:  
+  app:
+    name: App Build
+
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+
+    steps:
+      - name: Context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
+      
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install Dependencies
+        run: |
+          cd website
+          npm install
+          mkdir downloads
+
+      - name: Linux/Mac App Build & Copy to downloads
+        if: matrix.os != 'windows-latest'
+        run: |
+          cd website
+          GH_TOKEN=${{secrets.GITHUB_TOKEN}} npm run app-build
+          mv dist/*.zip dist/*.dmg dist/*.deb dist/*.AppImage downloads || true
+
+      - name: Windows App Build & Copy to downloads
+        if: matrix.os == 'windows-latest'
+        run: |
+          cd website
+          npm run app-build
+          mv dist/*.exe downloads
+          mv dist/*.zip downloads
+
+        env:
+          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: ${{matrix.os}}
+          path: website/downloads
+          
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: "website/downloads/**"
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  pdf:
+    name: PDF
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: PDF Docker Build
+        run: |
+          docker-compose run pdf
+          mkdir downloads
+          mv parse/output/*.pdf downloads
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: 'PDF'
+          path: downloads
+            
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: "downloads/**"
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  web:
+    name: Web Build and Deploy
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2

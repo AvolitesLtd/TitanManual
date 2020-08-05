@@ -8,9 +8,27 @@ process.on('exit', () => {
 
 let win, browserViewContent
 
-const createWindow = () => {
-  Menu.setApplicationMenu(null)
+const navHeight = 28
 
+var template = [{
+  label: "Application",
+  submenu: [
+      { label: "About", selector: "orderFrontStandardAboutPanel:" },
+      { type: "separator" },
+      { label: "Quit", accelerator: "Command+Q", click: function() { app.quit() }}
+  ]}, {
+  label: "Edit",
+  submenu: [
+      { label: "Copy", accelerator: "CmdOrCtrl+C", selector: "copy:" },
+      { type: "separator" },
+      { label: "Back", accelerator: "CmdOrCtrl+Left", click: function() { goBack() } },
+      { label: "Forward", accelerator: "CmdOrCtrl+Right", click: function() { goForward() } },
+  ]}
+];
+
+Menu.setApplicationMenu(Menu.buildFromTemplate(template));
+
+const createWindow = () => {
   // Create the browser window.
   win = new BrowserWindow({
     width: 1200,
@@ -55,7 +73,7 @@ const createWindow = () => {
 
   // and load the homepage of the app.
   appServer.ready().then(() => {
-    let url = "";
+    let url = "/docs/introduction/";
     const args = require('minimist')(process.argv.slice(1))
     if (args['startUrl']) {
       url = args['startUrl'];
@@ -67,6 +85,7 @@ const createWindow = () => {
 
   browserViewContent.webContents.on('dom-ready', () => {
     win.show()
+    canNavigate()
   });
 
   win.on('closed', () => {
@@ -84,7 +103,7 @@ const createWindow = () => {
       bounds['width'] -= 16;
       bounds['height'] -= 16;
     }
-    browserViewContent.setBounds({ x: 0, y: 25, width: bounds['width'], height: bounds['height']-25 })
+    browserViewContent.setBounds({ x: 0, y: navHeight, width: bounds['width'], height: bounds['height'] - navHeight })
     browserViewContent.setAutoResize({width: false, height: false})
   });
 
@@ -103,11 +122,6 @@ const createWindow = () => {
 app.whenReady().then(() => {
   createWindow()
   urlFilter()
-})
-
-app.on('browser-window-created', (e,window) => {
-  window.setMenu(null);
-  Menu.setApplicationMenu(null)
 })
 
 app.allowRendererProcessReuse = true
@@ -139,7 +153,7 @@ function handleExternal(e, reqUrl)  {
 //Sets the window to the default resize behaviour
 function defaultWindowSize() {
   let curSize = win.getSize()
-  browserViewContent.setBounds({ x: 0, y: 25, width: curSize[0], height: curSize[1]-25 })
+  browserViewContent.setBounds({ x: 0, y: navHeight, width: curSize[0], height: curSize[1] - navHeight })
   browserViewContent.setAutoResize({width: false, height: false})
 }
 
@@ -192,14 +206,22 @@ const canNavigate = () => {
   win.webContents.send('cntrl-can-forward', browserViewContent.webContents.canGoForward())
 }
 
-ipcMain.on("cntrl-back",(e, arg) => {
+function goBack() {
   if(browserViewContent.webContents.canGoBack())
     browserViewContent.webContents.goBack()
+}
+
+function goForward() {
+  if(browserViewContent.webContents.canGoForward())
+    browserViewContent.webContents.goForward()
+}
+
+ipcMain.on("cntrl-back",(e, arg) => {
+  goBack()
 })
 
 ipcMain.on("cntrl-forward", (e, arg) => {
-  if(browserViewContent.webContents.canGoForward())
-    browserViewContent.webContents.goForward()
+  goForward()
 })
 
 ipcMain.on("cntrl-min", (e, arg) => {

@@ -10,7 +10,7 @@ for controlling fixture attributes, showing cue lists, or the visualiser, in fac
 a workspace window for every feature of the console.
 
 The windows can be freely arranged and each monitor can have its own arrangement of windows.
-You can save different layouts to the Workspace select buttons 
+You can save different layouts to the Workspace select buttons
 which allows you to instantly reconfigure the console for different tasks. The
 saved layouts can change just the monitor they are on, or all monitors together.
 
@@ -62,7 +62,7 @@ At the top right of each workspace window are three or four buttons
 which access other functions for the window.
 
 The **Window Appearance Options** button (cog icon) lets you select the
-standard window sizes and positions (top left quarter, top right quarter etc.) 
+standard window sizes and positions (top left quarter, top right quarter etc.)
 Buttons are also shown allowing you
 to set the button size and the text size of the buttons in the window, and move the
 window to a different monitor. The Appearance options may vary depending
@@ -147,7 +147,7 @@ screen, or all the windows on all the screens, at the touch of a button.
 
 Workspace layouts are saved to the Workspaces touch buttons to the left
 of the A-G menu buttons and above the wheel displays (except on Sapphire Touch and Titan Go where
-they are down the left side of the screen). 
+they are down the left side of the screen).
 
 ![Workspaces](/docs/images/Recoding-a-Workspace-Layout.png)
 
@@ -195,26 +195,26 @@ store it.
     also include any windows which are hidden underneath other windows.
 
 -   \[Remove/Leave other windows on recall\] sets whether all other
-    windows will be closed when this workspace is recalled. If set to remove, 
+    windows will be closed when this workspace is recalled. If set to remove,
 	the Workspace button will show an X in the corner.
-	
+
 -   \[Screens=\] sets whether the workspace layout will record all the screens,
     or individual screens (you can select or deselect each screen).
-	
+
 -   \[Recall as Recorded / Where Selected\] only appears if the Screens option
     is set to record only a single screen, and sets whether the workspace will
 	always recall onto the screen where you recorded it (button shows the screen number)
-	, or if it will recall onto 
+	, or if it will recall onto
 	the screen where you pressed the Workspace layout recall button. (button shows a target symbol)
 
 -   To delete a workspace button, press \<View/Open\>, \<Delete\>, then
     the workspace button to be deleted.
-	
--	When recalling a workspace, if you press \<View/Open\> first then softkey buttons let you 
-	set the workspace to recall to the particular screen where it was recorded \[As Recorded\], or to a different screen 
+
+-	When recalling a workspace, if you press \<View/Open\> first then softkey buttons let you
+	set the workspace to recall to the particular screen where it was recorded \[As Recorded\], or to a different screen
 	(the other screens are listed on softkeys). This is useful when a workspace contains only a single screen,
 	allowing you to recall it onto a different screen.
-	
+
 >	On consoles with a single internal screen, that is (1) and the external screen is (2). On Arena
 	the main screen is (1), the mini screen (2) and the external screen (3). On Sapphire Touch
 	the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).
@@ -255,11 +255,25 @@ button at a glance. Select the \[Halo\] option on the Set Legends menu.
 
 ![Halo](/docs/images/Fixture-Halo.png)
 
-If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help
-identify different types of fixture, which is also used in the patch window.
+If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help identify different types of fixture, which is also used in the patch window.
+
+Trackball (Sapphire Touch only)
+-------------------------------
+
+The trackball on the right of the console can be used either to control
+the mouse pointer on the touch screens and external monitors, or to
+control fixtures.
+
+To use in mouse mode, hold the \<Assign\> button below the trackball and
+click the \'Left\' mouse button. The trackball will then control the
+mouse pointer and the ring will scroll windows up and down.
+
+To use in console mode for controlling fixtures, press the \<Assign\>
+button on its own. The trackball will control pan and tilt of selected
+fixtures, and the ring controls fine tilt.
 
 Touch Keyboard
-------------------
+--------------
 
 At the end of the toolbar is the keyboard popup button which will open
 the touch keyboard.

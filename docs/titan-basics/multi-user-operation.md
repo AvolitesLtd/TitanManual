@@ -111,49 +111,49 @@ to start the connection.
 
 ![SessionsView](/docs/images/SessionsView.png)
 
--   A green line shows a good connection, a dotted red line shows a
-    problem with a connection. Unavailable consoles are shown with a red
-    background.
+A green line shows a good connection, a dotted red line shows a
+problem with a connection. Unavailable consoles are shown with a red
+background.
 
-    Initially all consoles are "Master" consoles. If you connect to a
-    session on another console as multi-user you become a "Slave" on
-    that console. The show on the Master is transferred across the
-    network to the Slave. On the Slave you can choose to save the show
-    locally or to save changes back to the Master console.
+Initially all consoles are "Master" consoles. If you connect to a
+session on another console as multi-user you become a "Slave" on
+that console. The show on the Master is transferred across the
+network to the Slave. On the Slave you can choose to save the show
+locally or to save changes back to the Master console.
 
-    The toolbar will show details of the master/slave status. Console
-    legends can be changed in the System menu using the \[Console
-    Legend\] option.
+The toolbar will show details of the master/slave status. Console
+legends can be changed in the System menu using the \[Console
+Legend\] option.
 
-    ![Shell Slave](/docs/images/Shell-Slave.png)
+![Shell Slave](/docs/images/Shell-Slave.png)
 
-    Consoles connected in a multi-user session work on the same show. If
-    the same handle worlds are selected then an action on one console is
-    mirrored across them all, for example firing a cue on the slave
-    console will also fire the cue on the master. If the master has
-    motorised faders, the fader will move; if not, fader levels must
-    match before they can take over. If different handle worlds are
-    selected, users can work independently on their own pool of handles.
+Consoles connected in a multi-user session work on the same show. If
+the same handle worlds are selected then an action on one console is
+mirrored across them all, for example firing a cue on the slave
+console will also fire the cue on the master. If the master has
+motorised faders, the fader will move; if not, fader levels must
+match before they can take over. If different handle worlds are
+selected, users can work independently on their own pool of handles.
 
-    In all situations the master console outputs DMX and channels in a
-    remote programmer are shown with a blue dot on the touch wheel
-    views. If two or more consoles are editing the same fixture, the
-    last console to change any attribute will take over control of the
-    fixture.
+In all situations the master console outputs DMX and channels in a
+remote programmer are shown with a blue dot on the touch wheel
+views. If two or more consoles are editing the same fixture, the
+last console to change any attribute will take over control of the
+fixture.
 
-    Slaves can leave a session using the \[Leave Session\] button in the
-    Sessions View or in the TitanNet menu. The console will restore the
-    local show it had loaded prior to joining. Master consoles have the
-    option to \[Terminate Session\].
+Slaves can leave a session using the \[Leave Session\] button in the
+Sessions View or in the TitanNet menu. The console will restore the
+local show it had loaded prior to joining. Master consoles have the
+option to \[Terminate Session\].
 
-    If a console is running as [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup), it has options to \[Takeover\],
-    \[Sync now\] and \[Leave Session\]. If \[Takeover\] is selected, the
-    console will immediately become the master and take over DMX output
-    with the chosen user and handle worlds selected. The console which
-    was master will go into a dormant state with DMX disabled.
+If a console is running as [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup), it has options to \[Takeover\],
+\[Sync now\] and \[Leave Session\]. If \[Takeover\] is selected, the
+console will immediately become the master and take over DMX output
+with the chosen user and handle worlds selected. The console which
+was master will go into a dormant state with DMX disabled.
 
--   Consoles must be running Titan v8 or above to join a multi-user or
-    backup session with another Titan v8 console.
+Consoles must be running Titan v8 or above to join a multi-user or
+backup session with another Titan v8 console.
 
 **For Titan Mobile:**
 

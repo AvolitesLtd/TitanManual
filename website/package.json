@@ -2,7 +2,7 @@
   "name": "avodocs",
   "productName": "Avolites Titan Manual",
   "description": "Official Manual for the Avolites Titan software",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "homepage": "https://manual.avolites.com",
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "docker-pdf": "cd .. && docker-compose up --build pdf",
     "app": "electron .",
     "app-sass": "node-sass app/scss/ -o app/sources/local/ --output-style compressed && node-sass --watch app/scss/ -o app/sources/local/ --output-style compressed",
-    "app-pre-build": "node-sass app/scss/ -o app/sources/local/ --output-style compressed && npm run build",
+    "app-pre-build": "npm run build && node-sass app/scss/ -o app/sources/local/ --output-style compressed",
     "app-build": "npm run app-pre-build && npm run app-build-no-pre",
     "app-build-no-pre": "electron-builder",
     "app-build-all": "npm run app-pre-build && npm run app-build-all-no-pre",
@@ -36,10 +36,10 @@
     "concurrently": "^5.1.0",
     "docusaurus": "^1.14.0",
     "electron": "^8.2.0",
-    "electron-builder": "^22.4.1",
+    "electron-builder": "22.3.6",
     "fuse.js": "^3.4.6",
     "js-search": "^1.4.3",
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.14.1"
   },
   "dependencies": {
     "minimist": "^1.2.5",
@@ -65,11 +65,18 @@
       ]
     },
     "win": {
-      "target": "portable",
+      "target": [
+        "portable",
+        "nsis"
+      ],
       "icon": "app/icon/icon.ico"
     },
     "nsis": {
-      "deleteAppDataOnUninstall": true
+      "deleteAppDataOnUninstall": true,
+      "createDesktopShortcut": false,
+      "perMachine": true,
+      "guid": "Avolites\\Manual",
+      "menuCategory": "Avolites"
     }
   }
 }
