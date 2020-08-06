@@ -173,7 +173,7 @@ When you fade the Scene Master the state you preset will be faded to the output.
 Normally the Scene Master will auto-reverse so you can just keep
 presetting new states, moving the fader alternately up and down. You can
 also set it to require you to move it back to zero each time. Press
-<\Ottions\> (or \[Options\] softkey) then the Select button of the master. The options
+\<Options\> (or \[Options\] softkey) then the Select button of the master. The options
 are:
 
 -   \[Auto Commit and Invert\] Commits the changes once the fader has
