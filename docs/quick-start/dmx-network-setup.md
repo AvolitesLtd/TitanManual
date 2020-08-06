@@ -20,7 +20,7 @@ Select a Node on the left (where the DMX is going to), click the blue
 arrow. On the right, select the DMX line it will be fed by. The
 '***i***' buttons set properties for Nodes/Lines. See [DMX Output Mapping](../system-settings/dmx-output-mapping.md).
 
-To change the IP address of the console, press \[[Network Settings](../networking/networking-introduction.md)\] in
+To change the IP address of the console, press \[[Network Settings](../networking.md)\] in
 System mode.
 
 To change [User Settings](../system-settings/user-settings.md) which let you personalise how the console works,

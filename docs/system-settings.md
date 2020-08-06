@@ -1,5 +1,5 @@
 ---
-id: system-settings-intro
+id: system-settings
 title: System Menu and User Settings
 sidebar_label: System Menu and User Settings
 ---

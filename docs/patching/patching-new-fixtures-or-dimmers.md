@@ -198,7 +198,7 @@ consoles also have a dedicated \<Visualiser\> button. Capture will open
 in a workspace window with an automatic representation of your patch.
 
 You will see the fixtures you have patched laid out on screen in handle
-number order. You can then use the [Visualiser controls](../capture-visualiser/capture-visualiser-introduction.md) to reposition the
+number order. You can then use the [Visualiser controls](../capture-visualiser.md) to reposition the
 fixtures if you wish.
 
 -   You can turn off Auto Patch in the Capture Visualiser Settings

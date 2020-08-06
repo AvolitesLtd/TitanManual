@@ -1,5 +1,5 @@
 ---
-id: capture-visualiser-introduction
+id: capture-visualiser
 title: Capture Visualiser Introduction
 sidebar_label: Capture Visualiser Introduction
 ---
