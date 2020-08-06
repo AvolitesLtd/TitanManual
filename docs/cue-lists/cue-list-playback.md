@@ -145,7 +145,7 @@ fixture for the next cue when it is not lit.
 Move In Dark options can be set either for the whole cue list or for
 individual cues.
 
-Options for the whole cue list are set by pressing <\Options\> (or the \[Options\] softkey on the top level menu)
+Options for the whole cue list are set by pressing \<Options\> (or the \[Options\] softkey on the top level menu)
 then the select button for the cue list, then \[Playback\].
 
 Setting | Action
