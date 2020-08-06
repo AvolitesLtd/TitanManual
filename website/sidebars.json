@@ -4,12 +4,12 @@
       "introduction"
     ],
     "Quick Start": [
-      "quickstart",
-      "quickstart/patching-fixtures",
-      "quickstart/controlling-fixtures",
-      "quickstart/programming-cues-and-chases",
-      "quickstart/programming-palettes",
-      "quickstart/dmx-network-setup"
+      "quick-start",
+      "quick-start/patching-fixtures",
+      "quick-start/controlling-fixtures",
+      "quick-start/programming-cues-and-chases",
+      "quick-start/programming-palettes",
+      "quick-start/dmx-network-setup"
     ],
     "About The Consoles": [
       "about-the-consoles",
