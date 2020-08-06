@@ -19,4 +19,4 @@ shown on each screen which you can press to open the different windows.
 You can save different arrangements of windows to the Workspaces buttons
 (either in a block to the left of the softkeys, or down the left side of the screen,
 depending on the console).
-See [Workspace Windows](../titan-basics/workspace-windows.md) for more details.
+See [Workspace Windows](./titan-basics/workspace-windows.md) for more details.
