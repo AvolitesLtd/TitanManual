@@ -144,7 +144,7 @@ Visualiser
 
 ![Visualiser](/docs/images/Capture-Visualiser-Workspace-Window.png)
 
-Capture visualiser is integrated into Titan from v10. The [Capture Visualiser chapter](../capture-visualiser/capture-visualiser-introduction.md) deals
+Capture visualiser is integrated into Titan from v10. The [Capture Visualiser chapter](../capture-visualiser.md) deals
 with how it works.
 
 The visualiser gives you a realistic view of the stage, allowing you to

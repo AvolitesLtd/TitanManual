@@ -4,12 +4,12 @@
       "introduction"
     ],
     "Quick Start": [
-      "quickstart",
-      "quickstart/patching-fixtures",
-      "quickstart/controlling-fixtures",
-      "quickstart/programming-cues-and-chases",
-      "quickstart/programming-palettes",
-      "quickstart/dmx-network-setup"
+      "quick-start",
+      "quick-start/patching-fixtures",
+      "quick-start/controlling-fixtures",
+      "quick-start/programming-cues-and-chases",
+      "quick-start/programming-palettes",
+      "quick-start/dmx-network-setup"
     ],
     "About The Consoles": [
       "about-the-consoles",
@@ -44,7 +44,7 @@
       "patching/fixture-personality-options"
     ],
     "Controlling Fixtures": [
-      "controlling-fixtures/controlling-dimmers",
+      "controlling-fixtures",
       "controlling-fixtures/using-the-select-buttons-and-wheels",
       "controlling-fixtures/viewing-and-editing-fixture-values",
       "controlling-fixtures/fixture-groups",
@@ -97,7 +97,7 @@
       "cue-lists/theatre-programming"
     ],
     "Capture Visualiser": [
-      "capture-visualiser/capture-visualiser-introduction",
+      "capture-visualiser",
       "capture-visualiser/setting-up-the-rig",
       "capture-visualiser/visualising-using-capture",
       "capture-visualiser/capture-show-files",
@@ -129,7 +129,7 @@
       "titan-net/tnp-console-mode"
     ],
     "System Settings": [
-      "system-settings/system-settings-intro",
+      "system-settings",
       "system-settings/the-system-menu",
       "system-settings/external-displays",
       "system-settings/key-profiles",
@@ -144,7 +144,7 @@
       "fixture-personalities"
     ],
     "Networking the Console": [
-      "networking/networking-introduction",
+      "networking",
       "networking/connecting-the-arena-to-a-network",
       "networking/controlling-fixtures-over-a-network",
       "networking/using-active-fixtures",

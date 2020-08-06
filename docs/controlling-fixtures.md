@@ -1,5 +1,5 @@
 ---
-id: controlling-dimmers
+id: controlling-fixtures
 title: Controlling Dimmers and Fixtures
 sidebar_label: Controlling Dimmers and Fixtures
 ---

@@ -20,7 +20,7 @@ you wouldn't want to change them accidentally.
 Network Settings
 ----------------
 
-This option sets up networking parameters for the Ethernet ports on the console - further details on how to [control fixtures over a network](../networking/controlling-fixtures-over-a-network.md) are in the [networking section](../networking/networking-introduction.md).
+This option sets up networking parameters for the Ethernet ports on the console - further details on how to [control fixtures over a network](../networking/controlling-fixtures-over-a-network.md) are in the [networking section](../networking.md).
 
 DMX Settings
 ------------
