@@ -13,9 +13,11 @@ cue is highlighted in grey and the next cue has a box round it.
 
 ![Connected Cue List view](/docs/images/Connected-Cue-List-view.png)
 
-Also the display relating to the playback fader shows information about
-the cue list, including the current and next cue, fade progress of the
-current cue, and fade in/out times.
+Also the playback legend above the fader shows information about
+the cue list. The current cue is shown at the top in light blue, with the next cue below in dark blue.
+Fade progress of the cue is shown in a bargraph in the light blue bar. Below
+this the times for the next cue are shown - in time with up arrow and out time with down arrow,
+d for delay and f for fade. If the cue list is set to manual crossfade a red 'M' is shown.
 
 ![Playback handle of running cue list](/docs/images/Playback-handle-of-running-cue-list.png)
 
@@ -32,7 +34,8 @@ you fire a cue list.
 ![Playback View of Cue List with cue fade in progress](/docs/images/Playback-View-of-Cue-List-with-cue-fade-in-progress.png)
 
 When times are in progress on a cue, green progress bars are shown in
-the Playback View window.
+the Playback View window - the left hand column shows overall progress,
+and each timing section shows its own progress.
 
 The Playback View will autoscroll to keep the active cue onscreen. You
 can change the way the autoscroll works using the view options (click
@@ -47,7 +50,12 @@ the options/cog icon at the top of the window).
 
 -   You can **skip** to any cue in the cue list by selecting a "next" cue
     using Wheel A, or using the left/right arrow keys. When you press
-    \<Go\>, the cue list will run that cue next.
+    \<Go\>, the cue list will run that cue next. If you decide you don't want
+	to skip, you can reset the cue list (so the next cue will be the cue after the current cue)
+	by pressing the \<Prev Cue\> and \<Next Cue\> buttons together.
+	
+-	You can go back to the previous cue following fade times by pressing \<Stop\>
+	while the cue list is paused.
 
 -   You can snap back to the previous cue by pressing the \<Snap Back\>
     button *(not on all consoles)*
@@ -87,7 +95,7 @@ Once a cue list is fired, it remains active until you kill it. You do
 this by holding down the \<Avo\> button and pressing the blue Select
 button of the cue list's handle.
 
-You can change this in the [Playback Options](../cues/playback-options.md) to make the cue list
+You can change this in the playback [Options](../cues/playback-options.md) to make the cue list
 automatically clear when the fader reaches zero (press \[Playback
 Options\] at the program menu, then press the Select button of the cue
 list, then select \[Fader\] \[Fader Mode Intensity Kill At 0\].
@@ -112,7 +120,7 @@ through the other cues until a new level is stored.
 
 You can enable or disable Tracking mode globally for the whole cue list,
 or each cue can have Tracking mode set individually from the Playback
-View window (or Playback Options, \[Cue Options\]).
+View window (or Options, \[Cue Options\]).
 
 Settings are:
 
@@ -137,7 +145,7 @@ fixture for the next cue when it is not lit.
 Move In Dark options can be set either for the whole cue list or for
 individual cues.
 
-Options for the whole cue list are set by pressing \[Playback Options\]
+Options for the whole cue list are set by pressing \<Options\> (or the \[Options\] softkey on the top level menu)
 then the select button for the cue list, then \[Playback\].
 
 Setting | Action

@@ -1,7 +1,7 @@
 ---
 id: cue-lists
-title: Cue Lists
-sidebar_label: Cue Lists
+title: Cue Lists Introduction
+sidebar_label: Cue Lists Introduction
 ---
 
 Cue Lists (sometimes known as stacks or cue stacks) allow you to record

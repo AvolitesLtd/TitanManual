@@ -1,12 +1,15 @@
 {
   "docs": {
     "Introduction": [
-      "introduction",
-      "introduction/patching-fixtures",
-      "introduction/controlling-fixtures",
-      "introduction/programming-cues-and-chases",
-      "introduction/programming-palettes",
-      "introduction/dmx-network-setup"
+      "introduction"
+    ],
+    "Quick Start": [
+      "quick-start",
+      "quick-start/patching-fixtures",
+      "quick-start/controlling-fixtures",
+      "quick-start/programming-cues-and-chases",
+      "quick-start/programming-palettes",
+      "quick-start/dmx-network-setup"
     ],
     "About The Consoles": [
       "about-the-consoles",
@@ -41,7 +44,7 @@
       "patching/fixture-personality-options"
     ],
     "Controlling Fixtures": [
-      "controlling-fixtures/controlling-dimmers",
+      "controlling-fixtures",
       "controlling-fixtures/using-the-select-buttons-and-wheels",
       "controlling-fixtures/viewing-and-editing-fixture-values",
       "controlling-fixtures/fixture-groups",
@@ -55,7 +58,7 @@
       "palettes/copying-moving-and-deleting-palettes",
       "palettes/timing-with-palettes"
     ],
-    "Effects": [
+    "Shapes and Effects": [
       "effects",
       "effects/shape-generator",
       "effects/key-frame-shapes",

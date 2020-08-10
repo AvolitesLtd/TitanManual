@@ -147,7 +147,7 @@ Some points about animations:
     **reset** button on the top right of the Effect Editor window.\
     ![Effect Editor - Pixel Mapper - Reset Button](/docs/images/Effect-Editor-Pixel-Mapper-Reset-Button.png)
 
--   For an effect with a **start point** and **end poin**t, the number of cycles
+-   For an effect with a **start point** and **end point**, the number of cycles
     is the number of times it goes between the start and end points. For
     an effect with no end point the number of cycles is based on the
     master clock and animation speed.
@@ -232,3 +232,28 @@ editor window.
 > Layer masters may require an updated personality file
 
 [](https://youtu.be/rCIIH2-DCNM?t=20 "Advanced Pixel Mapping")
+
+Stopping pixel map effects with Mask FX
+--------------------------
+
+Using the Mask FX function you can create a playback which will stop the pixel map
+effect on all fixtures or on a group of fixtures.
+
+To create a Mask Effect:
+
+1.	Press \[Mask Fx\] on the Shapes and Effects menu.
+
+2.	If no fixtures are selected the mask will apply to all fixtures. If some fixtures are selected the mask will only apply to those fixtures.
+
+3.	Press \[Create Mask Pixel Map\]. (The \[Create Mask FX\] button will mask both shapes and pixel map effects.)
+
+4.	You should see the mask taking effect on the output - if you store it in a playback, the playback
+	will stop all pixel map effects while it is active (on the fixtures it was programmed for).
+	
+- The \[Clear mask from programmer\] button will remove any mask shapes or mask effects from the programmer for all fixtures.
+
+- This function replaces the **Block Effect** function of previous versions. Shows containing Block Effect from previous versions
+  will load and work as expected, but they will be renamed "Mask".
+
+- The personality library may need updating for this to work. 
+

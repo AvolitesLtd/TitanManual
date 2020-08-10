@@ -54,7 +54,7 @@ the keypad.\
 **0%** means that the first fixture will finish its fade before the next one starts.\
 **50%** means that the 2^nd^ fixture will start fading when the first one is half way
 through its fade.\
-The order of the fixtures is set by the order youselected them *(but you
+The order of the fixtures is set by the order you selected them *(but you
 can change this, see [Changing Fixture Order](#changing-fixture-order))*.
 
 7. Press \<Exit\> to get out of Edit Times mode.
@@ -75,7 +75,7 @@ can change this, see [Changing Fixture Order](#changing-fixture-order))*.
 ### Fade Modes
 
 The times you enter are affected by the cue mode which is set using the
-\[Fade Mode\] option. This option can also be set from \[Playback Options\],
+\[Fade Mode\] option. This option can also be set from playback \[Options\],
 \[Fade Mode\]:
 
 -   \[Mode 0\] - Channels will fade in as set by the fade time. The Fade

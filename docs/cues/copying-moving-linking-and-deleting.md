@@ -15,7 +15,7 @@ may be cues, [chases](../chases.md) or [cue lists](../cue-lists.md)) in one oper
 Move is useful for tidying up the console. Linked cues are handy if you
 want a cue to appear on more than one page for ease of operation; also
 the linked cue can have different [timings](cue-timing.md) and 
-[playback options](playback-options.md) from the cue it's linked to.
+playback [Options](playback-options.md) from the cue it's linked to.
 
 1. Press \<Copy\>
 

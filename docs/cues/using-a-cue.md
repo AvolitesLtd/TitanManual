@@ -74,7 +74,7 @@ in the programmer will override the playback).
     also programmed into some colour washes, you probably want the
     spotlight cue to take priority over the colour washes. See 
     [Priority](playback-options.md#priority) in
-    [Playback Options](playback-options.md).
+    playback [Options](playback-options.md).
 
 Changing Playback Pages
 -----------------------
@@ -155,7 +155,7 @@ playbacks are running at the same time.*
 
 You can also assign the fader of the playback the effect is stored in to
 control shape speed or size using the [Fader
-Settings](playback-options.md#fader-tab) in [Playback Options](playback-options.md).
+Settings](playback-options.md#fader-tab) in playback [Options](playback-options.md).
 
 See [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters)
 for more details.
@@ -180,7 +180,7 @@ can be used to release the playback using [Key Profiles](../system-settings/key-
 Channels will always release with a fade time, this defaults to 2
 seconds but you can change it using \[Master Release Time\] in the
 Release menu. You can also set an individual release time for the
-playback from the [Release tab](playback-options.md#release-tab) of [Playback Options](playback-options.md).
+playback from the [Release tab](playback-options.md#release-tab) of playback [Options](playback-options.md).
 
 -   You can instantly kill a playback by pressing \<Avo\> + the **swop**
     button of the playback.
@@ -188,7 +188,7 @@ playback from the [Release tab](playback-options.md#release-tab) of [Playback Op
 -   You can set a mask so that only certain attributes release from the
     playback when the playback is killed. This uses the 
     [\[Release Mask\] option](playback-options.md#release-mask) in 
-    [Playback Options](playback-options.md).
+    playback [Options](playback-options.md).
     Normally all attributes will remain in the state last used in the
     playback - *for cues which trigger strobing or other effects this
     might not be what you want*.

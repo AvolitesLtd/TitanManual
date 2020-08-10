@@ -15,7 +15,7 @@ in Capture. The console should link automatically, but if not or if
 there are multiple Titan consoles on the network, you can manually
 select one from the list..
 
-> For linking/sync to work properly the external Capture version must be the latest version of Nexum, or 2018. Older versions of Capture will only partially work.
+> For linking/sync to work properly the external Capture version must be 2020, 2018 or the last version of Nexum. Older versions of Capture will only partially work.
 
 While Capture is connected, the console will attempt to keep its show
 synchronised to the Capture show. If you add a fixture or change patch

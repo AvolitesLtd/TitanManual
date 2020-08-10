@@ -455,7 +455,7 @@ higher priority:
 
 1. Kill both effects
 
-2. Press [\[Playback Options\]](../cues/playback-options.md) from the root menu
+2. Press \<Options\> (or \[Options\] from the top level menu) - see [Playback Options](../cues/playback-options.md)
 
 3. **Select** the blue spiral playback
 

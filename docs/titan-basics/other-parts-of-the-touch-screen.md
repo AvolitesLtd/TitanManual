@@ -23,7 +23,8 @@ The vertical bar to the left of the softkeys shows you which menu you
 are currently in. You can \'latch\' the menu to keep the current command
 active (so that you don't have to keep reselecting it) by pressing the
 Menu Latch button (ML Menu on Pearl Expert & Tiger Touch Mk1). The menu
-bar turns red when latched.
+bar turns red when latched. This is useful for example when copying or moving
+playbacks to rearrange the console.
 
 The area to the top left of the menu buttons with an Avolites logo in
 the background is the system prompt area which shows instructions to the
@@ -143,9 +144,10 @@ Visualiser
 
 ![Visualiser](/docs/images/Capture-Visualiser-Workspace-Window.png)
 
-Capture visualiser is integrated into Titan from v10.
+Capture visualiser is integrated into Titan from v10. The [Capture Visualiser chapter](../capture-visualiser.md) deals
+with how it works.
 
-The [visualiser](../capture-visualiser.md) gives you a realistic view of the stage, allowing you to
+The visualiser gives you a realistic view of the stage, allowing you to
 pre-program or make changes to your show at home or in your hotel. It
 can also be used in Blind mode for programming during a show.
 

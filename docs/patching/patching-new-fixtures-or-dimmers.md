@@ -17,12 +17,14 @@ If the Fixtures window is not shown, press \<View/Open\> then
 \<Fixture\> or press \<View/Open\> then \[Open Workspace Window\] then
 \[Fixtures\].
 
-![Fixtures Window](/docs/images/Fixtures-Window-showing-user-numbers.png)
+![Fixtures Window](/docs/images/Fixtures-Window.png)
 
 Fixture buttons can be shown either in pages with Page buttons, or you
 can use the scroll bar on the right to show different pages. Use the
-\[Pages Show/Hide\] button on the right of the screen to select between
-page buttons and scrolling mode. You can change the fixture page at any
+\[Pages Show/Hide\] button in the context buttons on the right of the screen to select between
+page buttons and scrolling mode (these buttons drop down using the menu button in the window
+top bar for Sapphire Touch and Titan Go).
+ You can change the fixture page at any
 time.
 
 You can allocate fixtures and dimmers to Groups, which allows you to

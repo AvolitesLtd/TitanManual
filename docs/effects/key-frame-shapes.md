@@ -219,7 +219,7 @@ or LTP. A global value for
 [Shape Behaviour](../system-settings/user-settings.md#shape-behaviour) is in the
 [User Settings](../system-settings/user-settings.md), but
 you can also set the mode in
-[Playback Options](../cues/playback-options.md#shape-behaviour) for each playback.
+playback [Options](../cues/playback-options.md#shape-behaviour) for each playback.
 
 -   In \[Overlay\] mode (default) the shape will have control of the
     programmed attributes regardless of whatever else you do. For
@@ -237,7 +237,9 @@ you can also set the mode in
     priority. Setting the shape priority to **"Very High"** would prevent
     the programmer taking over (see
     [Priority](../cues/playback-options.md#priority) in
-    [Playback Options](../cues/playback-options.md)).
+    playback [Options](../cues/playback-options.md)).
 
 For details of how Key Frame Shapes behave in Cue Lists, see
 [Shape Tracking in Cue Lists](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists).
+
+- If you create a Mask Shape using the [Mask FX function](shape-generator.md#masking-shapes-using-mask-fx), this will also stop Key Frame Shapes.

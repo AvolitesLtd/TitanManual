@@ -37,7 +37,7 @@ Any playback fader on the console can be assigned to act as a master fader, whic
 To assign master faders, go to System mode and select \[Assign Mastering\], or press \<Record\> then \[Create Master\].
 
 By default, master faders are set to have a transparent lock, which makes the master fader remain in position even when the playback page is
-changed. If you don\'t want this to happen you can change it by pressing \[Playback Options\] from the root menu then press the Swop/Select button of the master.
+changed. If you don\'t want this to happen you can change it by pressing \<Options\> (or \[Options\] softkey from the root menu) then press the Swop/Select button of the master.
 
 On the Arena console, the rotary encoders on the Mini Screen are very useful as speed masters or group masters - press the encoder to select
 it as a master. Press the Display button below the encoders to show legends for the encoders on the screen if they are not already shown
@@ -56,7 +56,7 @@ Playbacks can be assigned to a Speed Master and/or a Size Master which allow you
 
 There are eight possible Speed Masters and four Size Masters which allow you to separately control the parameters of different playbacks, if you need to – for example Rate Master 1 could be assigned to control position shapes, Rate Master 2 to dimmer shapes, and so on.
 
-A playback is assigned to a Speed/Size Master by pressing \[Effects\] then \[Speed Source\] or \[Size Source\] in the Playback Options. The following speed sources are available:
+A playback is assigned to a Speed/Size Master by pressing \[Effects\] then \[Speed Source\] or \[Size Source\] in the playback Options. The following speed sources are available:
 
 -   Free Run (default - no Speed Master. Effect runs at programmed speed)
 
@@ -71,11 +71,11 @@ There is also a Rate Grand Master which, if used, proportionally controls the fo
 To use Speed or Size Masters you will need to assign some handles on the console to act as the Master faders. Switch the console to System mode and select \[Assign Mastering\]. Special key profile options are
 available for Speed Masters, BPM Masters default to Tap Tempo.
 
-Speed or Size masters can have various scales, 0-100%, 0-200% and so on. A 0-200% scale would allow you to slow down and speed up the speed to double the programmed setting. Scales are set in normal (non-system) mode by selecting \[Playback Options\] then press the Select button of the master.
+Speed or Size masters can have various scales, 0-100%, 0-200% and so on. A 0-200% scale would allow you to slow down and speed up the speed to double the programmed setting. Scales are set in normal (non-system) mode by pressing \<Options\> (or \[Options\] softkey) then press the Select button of the master.
 
 ### BPM master options
 
-BPM masters can have multipliers or dividers set which allows you to vary how the tapped speed relates to the effect speed. To modify the options, press \[Playback Options\] at the top level menu then press the blue button of the BPM master.
+BPM masters can have multipliers or dividers set which allows you to vary how the tapped speed relates to the effect speed. To modify the options, press \<Options\> (or \[Options\] softkey) at the top level menu then press the blue button of the BPM master.
 
 Normally the BPM master fader sets the BPM, and the multiplier is shown below. Tapping the blue button will also set the BPM or you can enter BPM on the keypad and press the blue button of the master to set it. This is how a BPM master looks
 with the BPM set by the fader:
@@ -116,7 +116,7 @@ with a fader.
 
 The blue button will then select fixtures in the group and holding the blue button gives you softkey options to filter the selection according to a pattern.
 
-Press \[Playback Options\] and then the blue select button above the fader to set the fader mode to the following:
+Press \<Options\> (or \[Options\] softkey) and then the blue select button above the fader to set the fader mode to the following:
 
 -   Scale master (proportional control). Scale masters can be set to variable scales of 100%, 200%, 400%, 600% and 1000%. The higher settings allow you to increase an intensity above its recorded level.
 
@@ -173,7 +173,7 @@ When you fade the Scene Master the state you preset will be faded to the output.
 Normally the Scene Master will auto-reverse so you can just keep
 presetting new states, moving the fader alternately up and down. You can
 also set it to require you to move it back to zero each time. Press
-\[Playback Options\] then the Select button of the master. The options
+\<Options\> (or \[Options\] softkey) then the Select button of the master. The options
 are:
 
 -   \[Auto Commit and Invert\] Commits the changes once the fader has
@@ -235,6 +235,25 @@ you have a couple of fixtures acting as a spotlight, but they are also
 programmed into some colour washes, you probably want the spotlight cue
 to take priority over the colour washes.
 
+Virtual faders
+-----------------
+
+If you need more playbacks and you're happy to operate them on a touchscreen fader, you can use the
+Virtual Faders workspace window (press \[Open Workspace Window\] then select \[Virtual Faders\]). 
+This provides 10 more paged faders which work exactly the same as the hardware playback faders. 
+A roller display at the left side allows you to select different pages.
+
+![Virtual playbacks window](/docs/images/virtual-faders.png)
+
+Press the Settings (cog) button at the top of the screen to
+
+- Show or hide the page select roller
+
+- Show or hide the blue, grey and black buttons
+
+- Set how many faders are shown per page. This can be set to 5, 10 or 15 to match the playback fader
+layout on the console hardware.
+
 Preset playbacks (Tiger Touch only)
 -----------------------------------
 
@@ -254,7 +273,7 @@ Locking a playback onto the same handle on every page
 
 Sometimes you might want to keep a playback accessible on a handle no
 matter which page you are on. The \[Handle Paging\] option in the
-\[Playback Options\] menu lets you do that without having to copy the
+\[Options\] menu lets you do that without having to copy the
 playback onto multiple pages.
 
 - \[Locked\] ensures the playback always appears on that handle no matter
@@ -300,7 +319,7 @@ dedicated button, hold down the \<Avo\> button and select \[Blind\]).
 To preview a playback, you need to set the playback into Blind mode --
 hold the \<Blind\> button and press the playback select button. Repeat
 this to restore the playback to Live mode. You can also set Blind mode
-in Playback Options.
+in playback Options.
 
 You can convert Blind output to Live output with a fade. This is useful
 to set up a live state in blind mode then output it without having to
