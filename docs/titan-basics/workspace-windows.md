@@ -159,25 +159,59 @@ To record, press \<View/Open\> then
 touch an empty button twice to Quick Record. You can also save
 workspaces onto any grey handle or macro button.
 
+When saving and loading workspaces, it's often useful to be able to set how existing windows
+will behave if you load more windows, and to be able to target particular windows to a certain screen on the console.
+
+-   \[Record Visible/All Windows\] lets you set whether the workspace
+    will contain only the windows which are currently visible, or will
+    also include any windows which are hidden underneath other windows.
+
+-   \[Remove/Leave other windows on recall\] sets whether all other
+    windows will be closed when this workspace is recalled. If set to remove,
+	the Workspace button will show an X in the corner.
+	
+	![Workspaces](/docs/images/Workspace-Layout-Button-Letters-X.png)
+
+-   \[Screens=\] sets whether the workspace layout will record all the screens,
+    or individual screens (you can select or deselect each screen).
+
+-   \[Recall as Recorded / Where Selected\] only appears if the Screens option
+    is set to record only a single screen, and sets whether the workspace will
+	recall onto the screen where you recorded it (button shows S + the screen number), or if it will recall onto
+	the screen where you selected it (button shows a target symbol).
+	![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
+
+-   To delete a workspace button, press \<View/Open\>, \<Delete\>, then
+    the workspace button to be deleted.
+
+-	When recalling a workspace, if you press \<View/Open\> first then softkey buttons let you
+	set the workspace to recall to the particular screen where it was recorded \[As Recorded\], or to a different screen
+	(the other screen numbers are listed on softkeys). This is useful when a workspace contains only a single screen,
+	allowing you to recall it onto a different screen.
+	
+
+>	Screen numbering:  
+	On consoles with a single internal screen, that is (1) and the external screen is (2).  
+	On Arena 	the main screen is (1), the mini screen (2) and the external screen (3).   
+	On Sapphire Touch the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).
 
 
-Workspaces are saved with the show.
 
 As an example of setting up a workspace, suppose while programming you
 wanted to be able to access fixtures, position palettes, fixture
 attributes and shapes:
 
-1. Press \<Exit\> to get to the root menu then the \[Open Workspace
+1. Double press the \<View/Open\> button. Press \<Exit\> to get to the root menu then the \[Open Workspace
 Window\] menu softkey.
 
-2. Find the \[Fixtures\] window in the list and press it.
+2. Find the \[Fixtures\] icon on the screen and press it.
 
 3. If the window is not in the top left quarter, press the \<Size &
 Position\> button (above the numeric keys) until the window occupies the
 top left quarter. Or press the Settings/Cog touch button on the window
 top bar and press the top left position button in that window.
 
-4. Press \[Open Workspace Window\] again and select the \[Positions\]
+4. Double press \<View/Open\>  again and select the \[Positions\]
 window. Press the \<Size & Position\> button to position it in the desired
 location.
 
@@ -190,34 +224,8 @@ can use Quick Record -- just touch an empty workspace button and it will
 turn red with a +. Type a name for the workspace and touch again to
 store it.
 
--   \[Record Visible/All Windows\] lets you set whether the workspace
-    will contain only the windows which are currently visible, or will
-    also include any windows which are hidden underneath other windows.
 
--   \[Remove/Leave other windows on recall\] sets whether all other
-    windows will be closed when this workspace is recalled. If set to remove,
-	the Workspace button will show an X in the corner.
 
--   \[Screens=\] sets whether the workspace layout will record all the screens,
-    or individual screens (you can select or deselect each screen).
-
--   \[Recall as Recorded / Where Selected\] only appears if the Screens option
-    is set to record only a single screen, and sets whether the workspace will
-	always recall onto the screen where you recorded it (button shows the screen number)
-	, or if it will recall onto
-	the screen where you pressed the Workspace layout recall button. (button shows a target symbol)
-
--   To delete a workspace button, press \<View/Open\>, \<Delete\>, then
-    the workspace button to be deleted.
-
--	When recalling a workspace, if you press \<View/Open\> first then softkey buttons let you
-	set the workspace to recall to the particular screen where it was recorded \[As Recorded\], or to a different screen
-	(the other screens are listed on softkeys). This is useful when a workspace contains only a single screen,
-	allowing you to recall it onto a different screen.
-
->	On consoles with a single internal screen, that is (1) and the external screen is (2). On Arena
-	the main screen is (1), the mini screen (2) and the external screen (3). On Sapphire Touch
-	the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).
 
 Quick record
 ------------
@@ -228,7 +236,9 @@ Set up what you want to record, then touch or click an empty button
 once. The button will light up red with a + sign. At this point you can
 enter a legend. Touch or click again to store the item.
 
-The Quick Record function can be disabled using [Key Profiles](../system-settings/key-profiles.md)
+The Quick Record function can be disabled for a particular button type using [Key Profiles](../system-settings/key-profiles.md).
+
+For palette buttons, the quick record function works slightly differently to pressing \<Record\> followed by the button. See [Storing a Palette](../palettes/creating-palettes#storing-a-palette).
 
 Legends and picture legends
 ---------------------------
