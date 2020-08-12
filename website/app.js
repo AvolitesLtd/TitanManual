@@ -83,6 +83,8 @@ const createWindow = () => {
     win.loadURL(`${appServer.url}/nav.html`)
   })
 
+  browserViewContent.webContents.openDevTools();
+
   browserViewContent.webContents.on('dom-ready', () => {
     win.show()
     canNavigate()
