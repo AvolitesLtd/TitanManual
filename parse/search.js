@@ -18,7 +18,7 @@ getFiles('../docs').then((filenames) => {
   filenames.forEach(function(filename) {
     if (!filename.includes(".DS_Store")) {
       let content = fs.readFileSync(filename, 'utf-8');
-      filename = filename.replace(path.resolve(__dirname + '/../docs/') + "/", "");
+      filename = filename.replace(path.resolve('../docs/') + "/", "");
       let header = "";
       let url = filename.replace(".md", "");
       let section = "";
