@@ -78,17 +78,16 @@ what action happens to it when it is triggered.
 4. Press the button or move the fader to be triggered, or containing the item to be triggered. The status area of the screen will
 update to show you what has been triggered. For Item triggers you can
 select what action the trigger will cause, using the \[Action\] softkey:
-	-	Set Level 
-	-	Fire At Level
-	-	Re-Fire at Level (see below for explanation of Set, Fire and Re-Fire)
-	-	Flash
-	-	Swop
-	-	Preload
-	-	Latch 
+	-	Set Level (sets playback level to trigger level - but see Level Match below)
+	-	Fire At Level (like Set Level but ignores Level Match and will "kill at 0" if used with a cue list)
+	-	Re-Fire at Level (any level change will re-fire the LTP values in the playback - see below)
+	-	Flash (like pressing Flash button)
+	-	Swop (like pressing Swop button)
+	-	Preload (fires only the LTP values in playback)
+	-	Latch (latches the playback on)
 	
-	The \[Level Match\] option sets what happens if the playback is already active when the trigger happens.
-	If set to **On** then the trigger must match the current playback level before it will take effect. If **Off** (default) the
-	trigger will override the playback at any level.
+	The \[Level Match\] option sets what happens if the playback has already been fired by the user when the trigger happens.
+	If set to **On** then the trigger must match the current playback level before it will take effect. If **Off** (default) the trigger will override the playback at any level.
 
 5. Press \[OK\]. You have now set up the console action which is to be
 triggered.
@@ -125,16 +124,11 @@ You can continue to add other triggers to the mapping.
 -	To delete a complete mapping, select it and press the rubbish bin button
 	at the bottom of the left hand column.
 	
--	Set Level, Fire At Level and Re-Fire At Level set how the playback behaves when fired.\
-	Set Level and Fire At Level both fire the playback at the trigger level, but once fired
-	changes in the trigger level will just adjust the intensity levels in the playback.\
-	Re-Fire At Level will cause the playback to be re-fired when the trigger level changes, so
+-	The **Re-Fire At Level** action will cause the playback to be re-fired when the trigger level changes, so
 	any LTP values in the playback will be set again. So for example if the playback sets
-	fixtures to red, but then another playback changes the colour to white, the Re-Fire option would set
-	the fixtures back to red when the trigger level changes, but the other two options would leave them
-	at white and just change the intensity.\
-	Fire At Level allows you to fire a cue at 0 which can be used to turn off a cue list, if the cue list
-	option is set to Kill At 0.
+	fixtures to red, but then another playback changes the colour to white, the Re-Fire action would set
+	the fixtures back to red when the trigger level changes, but the Set Level / Fire At Level actions would leave them
+	at white and just change the intensity.
 	
 
 ### Setting up a MIDI fader controller with T2
