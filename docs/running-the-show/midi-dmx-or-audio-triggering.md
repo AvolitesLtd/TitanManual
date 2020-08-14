@@ -13,7 +13,7 @@ The following types of trigger are available:
 - Audio (not on all console hardware)
 - DMX
 - GPIO (not on all console hardware)
-- MIDI
+- MIDI (except T1)
 - Streaming ACN
 
 > Audio trigger (sound to light) requires special hardware which is not fitted on Sapphire Touch,
@@ -42,7 +42,8 @@ connect a MIDI fader controller to give you real playback faders.
 sACN is connected using the normal Ethernet connection on the console.
 
 
-- You can link a networked PioneerDJ system to Titan to automate BPM masters; this is described in the next section. This replaces the old “Pro DJ Tap” function.
+-	You can link a networked PioneerDJ system to Titan to automate BPM masters; this is described 
+	[in the next section](./linking-pioneerdj-system-to-titan.md). This replaces the old “Pro DJ Tap” function.
 
 Setting up External Triggering
 ----------------------------
