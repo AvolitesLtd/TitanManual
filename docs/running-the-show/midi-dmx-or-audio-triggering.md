@@ -194,13 +194,24 @@ On supported consoles the audio input is divided into frequency bands
 which can be used to provide the trigger. The \[Band\] option selects
 which of the bands is being used.
 
-Audio triggers are adjusted in the Audio Triggers workspace.
+  Band	| Sound frequency
+  ------|---------------------------
+	1	| 50Hz
+	2	| 140Hz
+	3	| 380Hz
+	4	| 875Hz
+	5	| 2400Hz
+	6	| 6200Hz
+	7	| 14000Hz
+
+Audio triggers are adjusted in the Audio Triggers workspace which also
+shows the levels in the different bands of incoming audio.
 
 ![Audio Window](/docs/images/Audio-Window.png)
 
 If the console does not have suitable hardware a warning message is
-displayed. Currently only the Quartz and Arena consoles have the audio
-hardware.
+displayed (see [top of page](./midi-dmx-or-audio-triggering.md#) for list of 
+audi-enabled consoles).
 
 -   The Enable switch below the gain slider disables all audio triggers
 
@@ -222,7 +233,7 @@ hardware.
 You can quickly allocate a playback to a trigger by clicking the top
 Band button above the trigger, then select the playback to be triggered.
 
-On the Arena console, the Audio LED (just above the power switch) will
-flash when audio is received. Note that the headphone socket on the
-Arena is linked to the motherboard audio output and can't be used for
+On the Arena and Quartz consoles, the Audio LED (just above the power switch) will
+flash when audio is received. Note that the headphone socket on these
+consoles is linked to the motherboard audio output and can't be used for
 monitoring the audio trigger input.
