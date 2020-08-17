@@ -4,7 +4,7 @@
 
 lib/core/metadata.js
 lib/core/MetadataBlog.js
-website/static/index.json
+website/static/index*.json
 website/translated_docs
 website/build/
 website/dist/
