@@ -3,11 +3,8 @@ $(document).ready(function () {
 var list = [];
 var options = {
   shouldSort: true,
-  threshold: 0.2,
-  location: 0,
-  distance: 2000,
-  maxPatternLength: 32,
-  minMatchCharLength: 3,
+  threshold: 0.3,
+  distance: 10000,
   keys: [{
     name: 'title',
     weight: 0.7
@@ -61,6 +58,7 @@ $(document).ready(function() {
   $("#search_input_react").keyup(function(e){
     var input = $("#search_input_react").val();
     var results = fuse.search(input);
+    console.log(results);
     var ul = $("#results");
     ul.empty();
 

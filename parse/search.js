@@ -35,6 +35,13 @@ function getVersions() {
   return versions;
 }
 
+function formatOutput (content) {
+  let formattedContent = content;
+  formattedContent = formattedContent.replace(/\n/g," ");
+  formattedContent = formattedContent.replace(/-/g," ");
+  return formattedContent;
+}
+
 getVersions().forEach(function(version) {
   getFiles(version.path).then((filenames) => {
     let output = [];
@@ -52,7 +59,7 @@ getVersions().forEach(function(version) {
         while (match = /\n.{1,}\n-{5,}\n\n|^#{1,} (?:.|\/)*/gm.exec(content)) {
           try {
             let section = content.substring(0, match.index);
-            output.push({filename, url, content: header + section, title, subtitle});
+            output.push({filename, url, content: formatOutput(header + " " + section), title, subtitle});
 
             header = content.substring(match.index, match.index + match[0].length);
             let headerRegex = header.match(/[A-Za-z \/]{1,}/gm);
@@ -72,7 +79,7 @@ getVersions().forEach(function(version) {
             console.log(ex);
           }
         }
-        output.push({filename, url, content: header + content, title, subtitle});
+        output.push({filename, url, content: formatOutput(header + " " + content), title, subtitle});
       }
     });
 
