@@ -138,6 +138,9 @@ const siteConfig = {
   // Show documentation's last update time.
   enableUpdateTime: true,
 
+  // The default version when landing on the site
+  defaultVersionShown: "13.0",
+
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   repoUrl: 'https://github.com/Farrser/AvoDocs',
