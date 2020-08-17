@@ -48,11 +48,13 @@ getVersions().forEach(function(version) {
     filenames.forEach(function(filename) {
       if (!filename.includes(".DS_Store")) {
         let content = fs.readFileSync(filename, 'utf-8');
-        console.log(filename);
         filename = filename.replace(path.resolve(version.path) + path.sep, "");
         let header = "";
+		filename = filename.replace(/\\/g, "/");
+		
         let url = filename.replace(".md", "");
         let section = "";
+		content = content.replace(/\r\n/g, "\n");
         let title = content.match(/(?<=^title: ).*$/gm)[0];
         let subtitle = "";
         let match;
