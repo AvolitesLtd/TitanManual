@@ -28,17 +28,19 @@
     "app-build": "npm run app-pre-build && npm run app-build-no-pre",
     "app-build-no-pre": "electron-builder",
     "app-build-all": "npm run app-pre-build && npm run app-build-all-no-pre",
-    "app-build-all-no-pre": "electron-builder -mwl"
+    "app-build-all-no-pre": "electron-builder -mwl",
+    "test": "mocha '../test/**/*.js'"
   },
   "devDependencies": {
     "@noticeable/remarkable-iframify": "^2.1.1",
-    "commander": "^5.0.0",
-    "concurrently": "^5.1.0",
-    "docusaurus": "^1.14.0",
-    "electron": "^8.2.0",
+    "commander": "^5.1.0",
+    "concurrently": "^5.3.0",
+    "docusaurus": "^1.14.6",
+    "electron": "^8.5.0",
     "electron-builder": "22.3.6",
-    "fuse.js": "^3.4.6",
+    "fuse.js": "^3.6.1",
     "js-search": "^1.4.3",
+    "mocha": "^8.1.1",
     "node-sass": "^4.14.1"
   },
   "dependencies": {
