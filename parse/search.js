@@ -55,7 +55,7 @@ avoParse.getVersions().forEach(function(version) {
       }
     });
 
-    fs.writeFile(version.indexPath, JSON.stringify(output, null, 2), function(err) {
+    fs.writeFile(version.index, JSON.stringify(output, null, 2), function(err) {
       if(err) {
         return console.log(err);
       }

@@ -50,22 +50,28 @@ class avoParse {
   
     let versions = [
       {
-        dir: this.paths.docsDir,
         number: 'next',
+        dir: this.paths.docsDir,
+        sidebar: this.paths.sidebar,
+        sidebarObj: 'docs',
+        sidebarPrefix: '',
       }
     ]
   
     versionsFile.forEach((version) => {
       versions.push(
         {
+          number: version,
           dir: path.join(this.paths.versionedDocsDir, `version-${version}`),
-          number: version
+          sidebar: path.join(this.paths.versionedSideberDir, `version-${version}-sidebars.json`),
+          sidebarObj: `version-${version}-docs`,
+          sidebarPrefix: `version-${version}-`,
         }
       )
     })
 
     versions.forEach((version) => {
-      version.indexPath = path.join(this.paths.staticDir, `index-${version.number}.json`)
+      version.index = path.join(this.paths.staticDir, `index-${version.number}.json`)
     })
   
     return versions

@@ -6,7 +6,7 @@ const avoParse = require('../parse/avoParse')
 describe("Indexes exist", () => {
   avoParse.getVersions().forEach(version => {
     it(`${version.number}`, () => {
-      assert(fs.existsSync(version.indexPath),"Try running search.js")
+      assert(fs.existsSync(version.index),"Try running search.js")
     })
   })
 })
@@ -14,7 +14,7 @@ describe("Indexes exist", () => {
 
 describe("Titles", () => {
   avoParse.getVersions().forEach(version => {
-    indexFile = JSON.parse(fs.readFileSync(version.indexPath))
+    indexFile = JSON.parse(fs.readFileSync(version.index))
 
     indexFile.forEach(index => {
       it(`${version.number} - ${index.filename} title`, () => {
@@ -26,7 +26,7 @@ describe("Titles", () => {
 
 describe("Links don't 404", () => {
   avoParse.getVersions().forEach(version => {
-    indexFile = JSON.parse(fs.readFileSync(version.indexPath))
+    indexFile = JSON.parse(fs.readFileSync(version.index))
 
     indexFile.forEach(index => {
       let filePath = path.join(version.dir, index.filename)
