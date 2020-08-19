@@ -3,6 +3,7 @@ const path = require('path');
 const fs = require('fs');
 const readdir = promisify(fs.readdir);
 const stat = promisify(fs.stat);
+const avoParse = require('./avoParse')
 
 async function getFiles(dir) {
   const subdirs = await readdir(dir);
@@ -14,11 +15,11 @@ async function getFiles(dir) {
 }
 
 function getVersions() {
-  var versionsFile = JSON.parse(fs.readFileSync("../website/versions.json"));
+  var versionsFile = JSON.parse(fs.readFileSync(avoParse.paths.versions));
 
   let versions = [
     {
-      path: '../docs',
+      path: avoParse.paths.docsDir,
       number: 'next'
     }
   ];
@@ -26,7 +27,7 @@ function getVersions() {
   versionsFile.forEach(function(version) {
     versions.push(
       {
-        path: "../website/versioned_docs/version-" + version,
+        path: path.join(avoParse.paths.versionedDocsDir, `version-${version}`),
         number: version
       }
     );
@@ -42,11 +43,11 @@ getVersions().forEach(function(version) {
       if (!filename.includes(".DS_Store")) {
         let content = fs.readFileSync(filename, 'utf-8');
         console.log(filename);
-        filename = filename.replace(path.resolve(version.path) + path.sep, "");
+        filename = filename.replace(version.path + path.sep, "");
         let header = "";
         let url = filename.replace(".md", "");
         let section = "";
-        let title = content.match(/(?<=^title: ).*$/gm)[0];
+        let title = content.match(avoParse.regex.yamlBlockTitle)[0];
         let subtitle = "";
         let match;
         while (match = /\n.{1,}\n-{5,}\n\n|^#{1,} (?:.|\/)*/gm.exec(content)) {
@@ -76,7 +77,7 @@ getVersions().forEach(function(version) {
       }
     });
 
-    fs.writeFile("../website/static/index-" + version.number + ".json", JSON.stringify(output, null, 2), function(err) {
+    fs.writeFile(path.join(avoParse.paths.staticDir, `index-${version.number}.json`), JSON.stringify(output, null, 2), function(err) {
       if(err) {
         return console.log(err);
       }

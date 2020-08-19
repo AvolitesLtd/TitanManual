@@ -3,8 +3,7 @@ const path = require('path')
 const fs = require('fs')
 const readdir = promisify(fs.readdir)
 const stat = promisify(fs.stat)
-
-const buildDir = path.resolve(__dirname,'../website/build/AvoDocs')
+const avoParse = require('./avoParse')
 
 async function getFiles(dir) {
   const subdirs = await readdir(dir)
@@ -17,22 +16,22 @@ async function getFiles(dir) {
 
 console.log('Fixing OG tags');
 
-getFiles(buildDir).then((filenames) => {
+getFiles(avoParse.paths.buildDir).then((filenames) => {
   filenames.forEach(function(filename) {
     if(filename.endsWith('.html')) {
       fs.readFile(filename,'utf-8',(err, contents) => {
-        let webPath = filename.replace(buildDir,'').replace('index.html','')
+        let webPath = filename.replace(avoParse.paths.buildDir,'').replace('index.html','')
 
         // replace og:url
-        contents = contents.replace(/<meta property="og:url" content="(https?:\/\/.*?)\/.*?"\/>/mi,`<meta property="og:url" content="$1${webPath}"/>`)
+        contents = contents.replace(avoParse.regex.metaOgUrl,`<meta property="og:url" content="$1${webPath}"/>`)
   
         // matches first image
-        if(imageMatch = contents.match(/<article>[\s\S]*?<img.*?src="(\/[^"]*?(?:\.png|\.jpe?g))"[^>]*?>[\s\S]*?<footer/mi)) {
+        if(imageMatch = contents.match(avoParse.regex.firstHTMLImage)) {
           let socialImage = imageMatch[1]
 
           // replace og:image & twitter:image
-          contents = contents.replace(/<meta property="og:image" content="(https?:\/\/.*?)\/.*?"\/>/mi,`<meta property="og:image" content="$1${socialImage}"/>`)
-            .replace(/<meta name="twitter:image" content="(https?:\/\/.*?)\/.*?"\/>/mi,`<meta property="twitter:image" content="$1${socialImage}"/>`)
+          contents = contents.replace(avoParse.regex.metaOgImage,`<meta property="og:image" content="$1${socialImage}"/>`)
+                             .replace(avoParse.regex.metaTwitterImage,`<meta property="twitter:image" content="$1${socialImage}"/>`)
         }
 
         fs.writeFile(filename, contents, (err) => {
