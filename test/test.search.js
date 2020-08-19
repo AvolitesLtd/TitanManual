@@ -3,6 +3,27 @@ const path = require('path');
 const fs = require('fs');
 const avoParse = require('../parse/avoParse')
 
+describe("Indexes exist", () => {
+  avoParse.getVersions().forEach(version => {
+    it(`${version.number}`, () => {
+      assert(fs.existsSync(version.indexPath),"Try running search.js")
+    })
+  })
+})
+
+
+describe("Titles", () => {
+  avoParse.getVersions().forEach(version => {
+    indexFile = JSON.parse(fs.readFileSync(version.indexPath))
+
+    indexFile.forEach(index => {
+      it(`${version.number} - ${index.filename} title`, () => {
+        assert(index.title.trim())
+      })
+    })
+  })
+})
+
 describe("Links don't 404", () => {
   avoParse.getVersions().forEach(version => {
     indexFile = JSON.parse(fs.readFileSync(version.indexPath))

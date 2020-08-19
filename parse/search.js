@@ -35,7 +35,7 @@ avoParse.getVersions().forEach(function(version) {
 
             header = content.substring(match.index, match.index + match[0].length);
             let headerRegex = header.match(/[A-Za-z \/]{1,}/gm);
-            subtitle = headerRegex[0];
+            subtitle = headerRegex[0].trim();
             url = header.toLowerCase();
             url = url.replace("/", "-");
 
