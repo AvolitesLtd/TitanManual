@@ -14,40 +14,18 @@ async function getFiles(dir) {
   return files.reduce((a, f) => a.concat(f), []);
 }
 
-function getVersions() {
-  var versionsFile = JSON.parse(fs.readFileSync(avoParse.paths.versions));
-
-  let versions = [
-    {
-      path: avoParse.paths.docsDir,
-      number: 'next'
-    }
-  ];
-
-  versionsFile.forEach(function(version) {
-    versions.push(
-      {
-        path: path.join(avoParse.paths.versionedDocsDir, `version-${version}`),
-        number: version
-      }
-    );
-  });
-
-  return versions;
-}
-
-getVersions().forEach(function(version) {
-  getFiles(version.path).then((filenames) => {
+avoParse.getVersions().forEach(function(version) {
+  getFiles(version.dir).then((filenames) => {
     let output = [];
     filenames.forEach(function(filename) {
       if (!filename.includes(".DS_Store")) {
         let content = fs.readFileSync(filename, 'utf-8');
         console.log(filename);
-        filename = filename.replace(version.path + path.sep, "");
+        filename = filename.replace(version.dir + path.sep, "");
         let header = "";
         let url = filename.replace(".md", "");
         let section = "";
-        let title = content.match(avoParse.regex.yamlBlockTitle)[0];
+        let title = content.match(/(?<=^title: ).*$/gm)[0];
         let subtitle = "";
         let match;
         while (match = /\n.{1,}\n-{5,}\n\n|^#{1,} (?:.|\/)*/gm.exec(content)) {
@@ -77,7 +55,7 @@ getVersions().forEach(function(version) {
       }
     });
 
-    fs.writeFile(path.join(avoParse.paths.staticDir, `index-${version.number}.json`), JSON.stringify(output, null, 2), function(err) {
+    fs.writeFile(version.indexPath, JSON.stringify(output, null, 2), function(err) {
       if(err) {
         return console.log(err);
       }
