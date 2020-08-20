@@ -32,39 +32,60 @@ describe("Docs", () => {
     })
   })
 
-  describe("Links to local .md files", () => {
-    avoParse.getVersions().forEach(async version => {
-      const filenames = avoParse.getFilesSync(version.dir)
-      filenames.forEach(filename => {
-        if(filename.endsWith(".md")) {
-          let content = fs.readFileSync(filename, 'utf-8');
-          let links = [...content.matchAll(avoParse.regex.linksLocalMd)]
+  avoParse.getVersions().forEach(async version => {
+    const filenames = avoParse.getFilesSync(version.dir)
+    filenames.forEach(filename => {
+      if(filename.endsWith(".md")) {
+        describe(`${version.number} - ${filename}`, () => {
+          let content = fs.readFileSync(filename, 'utf-8')
 
-          links.forEach(link => {
-            if(link.groups.link) {
-              let filePath = filename.split("/");
-              let file = filePath.pop();
+          describe(`Links to local .md files`, () => {
+            let links = [...content.matchAll(avoParse.regex.linksLocalMd)]
 
-              if(filePath.length) {
-                // filename like 'cues/creating-a-cue.md'
-                filePath = filePath.join('/');
+            links.forEach(link => {
+              if(link.groups.link) {
+                let filePath = filename.split("/");
+                let file = filePath.pop()
+
+                if(filePath.length) {
+                  // filename like 'cues/creating-a-cue.md'
+                  filePath = filePath.join('/')
+                }
+                else {
+                  // filename like 'cues.md'
+                  filePath = '';
+                }
+
+                let fullFilePath = path.resolve(version.dir, filePath, link.groups.link)
+                
+                it(`Link to ${link.groups.link})`, () => {
+                  assert(fs.existsSync(fullFilePath), 
+                    `Could not find "${fullFilePath}"
+                    Linked from "${filename}" (with the link text "${link.groups.text}")`)
+                })
               }
-              else {
-                // filename like 'cues.md'
-                filePath = '';
-              }
-
-              let fullFilePath = path.resolve(version.dir, filePath, link.groups.link)
-              
-              it(`${version.number} - ${file} link to ${link.groups.link})`, () => {
-                assert(fs.existsSync(fullFilePath), 
-                  `Could not find "${fullFilePath}"
-                  Linked from "${filename}" (with the link text "${link.groups.text}")`)
-              })
-            }
+            })
           })
-        }
-      })
+
+          describe("Local images", () => {
+            let images = [...content.matchAll(avoParse.regex.imagesLocal)]
+
+            images.forEach(image => {
+              let filePath = path.join(avoParse.paths.staticDir, image.groups.src)
+              
+              it(`Image "${filePath}"`, () => {
+                assert(fs.existsSync(filePath), 
+                  `Could not find "${filePath}"
+                  Linked from "${filename}" (with the alt text "${image.groups.alt}")`)
+
+                assert(image.groups.alt,
+                  `No alt text set for "${image.groups.src}" in "${filename}"`)
+              })
+            })
+          })
+
+        })
+      }
     })
   })
 })

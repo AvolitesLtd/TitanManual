@@ -25,7 +25,7 @@ class avoParse {
       linksLocalMd: /(?<![\\!])\[(?<text>[^\]]*)(?<!\\)\]\((?!https?:\/\/)(?!\/\/)(?!#)(?<link>[a-zA-Z0-9-\.\/]*\.md)(?<anchor>[^)]*)\)/mgi,
   
       // matches all images with local sources
-      imagesLocal: /!\[([^\]]*)\]\(\/(?!\/)([^\)]*)\)/mg,
+      imagesLocal: /!\[(?<alt>[^\]]*)\]\(\/(?!\/)(?<src>[^\)]*)\)/mg,
   
       // matches all images without a space before
       imagesSpaceBefore: /(?<!\n\n) *!\[[^\]]*\]\([^\)]*\)/gm,
