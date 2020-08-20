@@ -58,7 +58,7 @@ describe("Docs", () => {
 
                 let fullFilePath = path.resolve(version.dir, filePath, link.groups.link)
                 
-                it(`Link to ${link.groups.link})`, () => {
+                it(`Link to ${link.groups.link}`, () => {
                   assert(fs.existsSync(fullFilePath), 
                     `Could not find "${fullFilePath}"
                     Linked from "${filename}" (with the link text "${link.groups.text}")`)
@@ -73,7 +73,7 @@ describe("Docs", () => {
             images.forEach(image => {
               let filePath = path.join(avoParse.paths.staticDir, image.groups.src)
               
-              it(`Image "${filePath}"`, () => {
+              it(`Image ${image.groups.src}`, () => {
                 assert(fs.existsSync(filePath), 
                   `Could not find "${filePath}"
                   Linked from "${filename}" (with the alt text "${image.groups.alt}")`)
