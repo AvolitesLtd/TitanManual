@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 env:
-  NODE_VERSION: '10.x'
+  NODE_VERSION: '12.x'
 
 jobs:
   build:
