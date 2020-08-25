@@ -267,20 +267,6 @@ button at a glance. Select the \[Halo\] option on the Set Legends menu.
 
 If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help identify different types of fixture, which is also used in the patch window.
 
-Trackball (Sapphire Touch only)
--------------------------------
-
-The trackball on the right of the console can be used either to control
-the mouse pointer on the touch screens and external monitors, or to
-control fixtures.
-
-To use in mouse mode, hold the \<Assign\> button below the trackball and
-click the \'Left\' mouse button. The trackball will then control the
-mouse pointer and the ring will scroll windows up and down.
-
-To use in console mode for controlling fixtures, press the \<Assign\>
-button on its own. The trackball will control pan and tilt of selected
-fixtures, and the ring controls fine tilt.
 
 Touch Keyboard
 --------------

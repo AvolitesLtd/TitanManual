@@ -1,7 +1,7 @@
 ---
 id: multi-user-operation
-title: Multi-user Operation
-sidebar_label: Multi-user Operation
+title: Multi-User Operation
+sidebar_label: Multi-User Operation
 ---
 
 You can connect multiple consoles together to work together on a show.
@@ -84,14 +84,17 @@ Show Library if needed).
     will change if a user using the same handle world on another console
     changes the page.
 
-Linking to other TitanNet sessions
+Linking to other TitanNet Sessions
 ----------------------------------
 
 If multiple Titan consoles are connected in the same network you can
-choose to connect them as multi-user, [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup), or both. This is also how
-you connect TitanNet processors to expand DMX outputs.
+choose to connect them as multi-user, 
+[backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup),
+or both. This is also how you connect [TitanNet processors](../titan-net.md)
+to expand DMX outputs.
 
-> All consoles to be linked must be running the same version of Titan for this to work.
+> All consoles to be linked must be running the same version of Titan
+for networking to work.
 
 For details of how to connect Titan consoles together on a network, see
 [Networking the Console](../networking.md).
@@ -135,6 +138,11 @@ motorised faders, the fader will move; if not, fader levels must
 match before they can take over. If different handle worlds are
 selected, users can work independently on their own pool of handles.
 
+> All consoles in a session using the same user & handle world will
+  share the same connected handle. If this is not the dersired
+  behaviour, then  the other consoles in the session will require
+  their own user/handle world.
+
 In all situations the master console outputs DMX and channels in a
 remote programmer are shown with a blue dot on the touch wheel
 views. If two or more consoles are editing the same fixture, the
@@ -142,19 +150,24 @@ last console to change any attribute will take over control of the
 fixture.
 
 Slaves can leave a session using the \[Leave Session\] button in the
-Sessions View or in the TitanNet menu. The console will restore the
+**Sessions View** or in the **TitanNet menu**. The console will restore the
 local show it had loaded prior to joining. Master consoles have the
 option to \[Terminate Session\].
 
-If a console is running as [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup), it has options to \[Takeover\],
+If a console is running as
+[backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup),
+it has options to \[Takeover\],
 \[Sync now\] and \[Leave Session\]. If \[Takeover\] is selected, the
 console will immediately become the master and take over DMX output
 with the chosen user and handle worlds selected. The console which
 was master will go into a dormant state with DMX disabled.
 
-Consoles must be running Titan v8 or above to join a multi-user or
+> Consoles must be running Titan v8 or above to join a multi-user or
 backup session with another Titan v8 console.
 
-**For Titan Mobile:**
+### Titan Mobile
 
-> Network Discovery must be enabled in the Windows User Profile you are using or consoles will not be able to see each other on the network. Ensure the Windows option \'Turn on network discovery\' is selected in the Network Sharing options.
+**Network Discovery** must be enabled in the **Windows User Profile** you
+are using or consoles will not be able to see each other on the network.
+Ensure the Windows option **'Turn on network discovery'** is selected in
+the **Network Sharing** options.
