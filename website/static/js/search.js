@@ -58,7 +58,6 @@ $(document).ready(function() {
   $("#search_input_react").keyup(function(e){
     var input = $("#search_input_react").val();
     var results = fuse.search(input);
-    console.log(results);
     var ul = $("#results");
     ul.empty();
 
