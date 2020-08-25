@@ -2,7 +2,7 @@
   "name": "avodocs",
   "productName": "Avolites Titan Manual",
   "description": "Official Manual for the Avolites Titan software",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "homepage": "https://manual.avolites.com",
   "repository": {
     "type": "git",
