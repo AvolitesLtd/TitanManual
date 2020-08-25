@@ -93,9 +93,9 @@ In the Times tab of User Settings, there is an option "Compensate for Rate Grand
 Grand Master set to less than 100%. If the option is On (default), a tapped tempo will come out at the speed you tapped and will not be scaled by the Rate Grand Master. If the option is Off, when you tap a
 tempo, it would then be scaled down by the Rate Grand Master.
 
-### Connect wheels to Rate/BPM masters
+### Adjusting masters using the wheels
 
-You can adjust Rate and BPM masters from the wheels by pressing Connect followed by the blue button of the master. For a Rate master this adjusts the rate, for a BPM master you can also adjust "Edge Sync" which allows you to nudge the synchronisation forwards or backwards.
+You can adjust Intensity, Size, Rate and BPM masters from the wheels by pressing \[Connect\] followed by the blue button of the master. This is useful for making fine adjustments to the setting of a master. For a BPM master you can also adjust "Edge Sync" which allows you to nudge the synchronisation forwards or backwards.
 
 While a wheel is connected you can touch up or down in the wheel display area to nudge the value up or down. Pressing the \<@\> button for the
 wheel opens a softkey menu where you can input a numerical value or \[Release\] the speed and multiplier to default values.

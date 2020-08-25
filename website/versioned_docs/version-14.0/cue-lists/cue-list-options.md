@@ -79,7 +79,14 @@ Setting | Action
 --- | ---
 Fader Mode Intensity Kill With Off | The fader masters the overall HTP level and the cue list remains active (connected) even when the fader is lowered to zero.
 Fader Mode Intensity Kill At 0 | The fader masters the overall HTP level and the cue list is killed when the fader is lowered to zero.
-Manual Crossfader | The fader behaves as a manual crossfade control, and the cue list will automatically step on to the next cue when the fader reaches the top or bottom of travel.
+Manual Crossfader | The fader behaves as a manual crossfade control, and the cue list will automatically step on to the next cue when the fader begins travel from top or bottom.
+
+When the fader is in **Manual Crossfader** mode:
+- A running fade can be "captured" onto the fader for manual control by matching the fader position.
+- When firing a cuelist in manual crossfade the intensity snaps to full when the fader leaves zero.
+- [Shapes](../effects/shape-generator.md) and [Pixel Mapper](../effects/pixel-mapper.md) effects will fade in with the manual crossfade, but when the fader returns to 0 they are not removed so may still affect the output.
+- [Autoloads](../cue-lists/creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list) in the cue list will use their programmed fade times, regardless of the manual crossfade performed by the fader.
+- Partially completed crossfades can be completed by pressing \[Go\].
 
 ### Fire First Cue
 Sets whether the first cue automatically fires when
