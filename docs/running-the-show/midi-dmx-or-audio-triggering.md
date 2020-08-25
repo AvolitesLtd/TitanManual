@@ -13,7 +13,7 @@ The following types of trigger are available:
 - Audio (not on all console hardware)
 - DMX
 - GPIO (not on all console hardware)
-- MIDI
+- MIDI (except T1)
 - Streaming ACN
 
 > Audio trigger (sound to light) requires special hardware which is not fitted on Sapphire Touch,
@@ -42,7 +42,8 @@ connect a MIDI fader controller to give you real playback faders.
 sACN is connected using the normal Ethernet connection on the console.
 
 
-- You can link a networked PioneerDJ system to Titan to automate BPM masters; this is described in the next section. This replaces the old “Pro DJ Tap” function.
+-	You can link a networked PioneerDJ system to Titan to automate BPM masters; this is described 
+	[in the next section](./linking-pioneerdj-system-to-titan.md). This replaces the old “Pro DJ Tap” function.
 
 Setting up External Triggering
 ----------------------------
@@ -78,17 +79,16 @@ what action happens to it when it is triggered.
 4. Press the button or move the fader to be triggered, or containing the item to be triggered. The status area of the screen will
 update to show you what has been triggered. For Item triggers you can
 select what action the trigger will cause, using the \[Action\] softkey:
-	-	Set Level 
-	-	Fire At Level
-	-	Re-Fire at Level (see below for explanation of Set, Fire and Re-Fire)
-	-	Flash
-	-	Swop
-	-	Preload
-	-	Latch 
+	-	Set Level (sets playback level to trigger level - but see Level Match below)
+	-	Fire At Level (like Set Level but ignores Level Match and will "kill at 0" if used with a cue list)
+	-	Re-Fire at Level (any level change will re-fire the LTP values in the playback - see below)
+	-	Flash (like pressing Flash button)
+	-	Swop (like pressing Swop button)
+	-	Preload (fires only the LTP values in playback)
+	-	Latch (latches the playback on)
 	
-	The \[Level Match\] option sets what happens if the playback is already active when the trigger happens.
-	If set to **On** then the trigger must match the current playback level before it will take effect. If **Off** (default) the
-	trigger will override the playback at any level.
+	The \[Level Match\] option sets what happens if the playback has already been fired by the user when the trigger happens.
+	If set to **On** then the trigger must match the current playback level before it will take effect. If **Off** (default) the trigger will override the playback at any level.
 
 5. Press \[OK\]. You have now set up the console action which is to be
 triggered.
@@ -125,16 +125,11 @@ You can continue to add other triggers to the mapping.
 -	To delete a complete mapping, select it and press the rubbish bin button
 	at the bottom of the left hand column.
 	
--	Set Level, Fire At Level and Re-Fire At Level set how the playback behaves when fired.\
-	Set Level and Fire At Level both fire the playback at the trigger level, but once fired
-	changes in the trigger level will just adjust the intensity levels in the playback.\
-	Re-Fire At Level will cause the playback to be re-fired when the trigger level changes, so
+-	The **Re-Fire At Level** action will cause the playback to be re-fired when the trigger level changes, so
 	any LTP values in the playback will be set again. So for example if the playback sets
-	fixtures to red, but then another playback changes the colour to white, the Re-Fire option would set
-	the fixtures back to red when the trigger level changes, but the other two options would leave them
-	at white and just change the intensity.\
-	Fire At Level allows you to fire a cue at 0 which can be used to turn off a cue list, if the cue list
-	option is set to Kill At 0.
+	fixtures to red, but then another playback changes the colour to white, the Re-Fire action would set
+	the fixtures back to red when the trigger level changes, but the Set Level / Fire At Level actions would leave them
+	at white and just change the intensity.
 	
 
 ### Setting up a MIDI fader controller with T2
@@ -194,13 +189,24 @@ On supported consoles the audio input is divided into frequency bands
 which can be used to provide the trigger. The \[Band\] option selects
 which of the bands is being used.
 
-Audio triggers are adjusted in the Audio Triggers workspace.
+  Band	| Sound frequency
+  ------|---------------------------
+	1	| 50Hz
+	2	| 140Hz
+	3	| 380Hz
+	4	| 875Hz
+	5	| 2400Hz
+	6	| 6200Hz
+	7	| 14000Hz
+
+Audio triggers are adjusted in the Audio Triggers workspace which also
+shows the levels in the different bands of incoming audio.
 
 ![Audio Window](/docs/images/Audio-Window.png)
 
 If the console does not have suitable hardware a warning message is
-displayed. Currently only the Quartz and Arena consoles have the audio
-hardware.
+displayed (see [top of page](./midi-dmx-or-audio-triggering.md#) for list of 
+audi-enabled consoles).
 
 -   The Enable switch below the gain slider disables all audio triggers
 
@@ -222,7 +228,7 @@ hardware.
 You can quickly allocate a playback to a trigger by clicking the top
 Band button above the trigger, then select the playback to be triggered.
 
-On the Arena console, the Audio LED (just above the power switch) will
-flash when audio is received. Note that the headphone socket on the
-Arena is linked to the motherboard audio output and can't be used for
+On the Arena and Quartz consoles, the Audio LED (just above the power switch) will
+flash when audio is received. Note that the headphone socket on these
+consoles is linked to the motherboard audio output and can't be used for
 monitoring the audio trigger input.
