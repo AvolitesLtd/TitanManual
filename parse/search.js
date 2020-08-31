@@ -1,38 +1,6 @@
-const { promisify } = require('util');
 const path = require('path');
 const fs = require('fs');
 const avoParse = require('./avoParse')
-
-async function getFiles(dir) {
-  const subdirs = await readdir(dir);
-  const files = await Promise.all(subdirs.map(async (subdir) => {
-    const res = path.resolve(dir, subdir);
-    return (await stat(res)).isDirectory() ? getFiles(res) : res;
-  }));
-  return files.reduce((a, f) => a.concat(f), []);
-}
-
-function getVersions() {
-  var versionsFile = JSON.parse(fs.readFileSync("../website/versions.json"));
-
-  let versions = [
-    {
-      path: '../docs',
-      number: 'next'
-    }
-  ];
-
-  versionsFile.forEach(function(version) {
-    versions.push(
-      {
-        path: "../website/versioned_docs/version-" + version,
-        number: version
-      }
-    );
-  });
-
-  return versions;
-}
 
 function formatOutput (content) {
   let formattedContent = content;
@@ -41,19 +9,19 @@ function formatOutput (content) {
   return formattedContent;
 }
 
-getVersions().forEach(function(version) {
-  getFiles(version.path).then((filenames) => {
+avoParse.getVersions().forEach(version => {
+  avoParse.getFiles(version.dir).then(filenames => {
     let output = [];
-    filenames.forEach(function(filename) {
+    filenames.forEach(filename => {
       if (!filename.includes(".DS_Store")) {
         let content = fs.readFileSync(filename, 'utf-8');
-        filename = filename.replace(path.resolve(version.path) + path.sep, "");
+        filename = filename.replace(version.dir + path.sep, "");
+		    filename = filename.replace(/\\/g, "/");
         let header = "";
-		filename = filename.replace(/\\/g, "/");
 
         let url = filename.replace(".md", "");
         let section = "";
-		content = content.replace(/\r\n/g, "\n");
+		    content = content.replace(/\r\n/g, "\n");
         let title = content.match(/(?<=^title: ).*$/gm)[0];
         let subtitle = "";
         let match;
