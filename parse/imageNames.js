@@ -1,19 +1,6 @@
-const { promisify } = require('util');
 const path = require('path');
 const fs = require('fs');
-const readdir = promisify(fs.readdir);
-const stat = promisify(fs.stat);
- 
-const imagesDir = path.resolve('../website/static/docs/images');
-const staticDir = path.resolve('../website/static');
-const docsDir = path.resolve('../docs');
-const versionedDir = path.resolve('../website/versioned_docs');
-
-function getFiles(dir) {
-  return fs.statSync(dir).isDirectory()
-      ? [].concat(...fs.readdirSync(dir).map(f => getFiles(path.join(dir, f))))
-      : dir;
-}
+const avoParse = require('./avoParse');
 
 function newImageName(images, currentImage, alt, ext, copy=0) {
   // make a new name for the image that isn't already taken
@@ -30,7 +17,7 @@ function newImageName(images, currentImage, alt, ext, copy=0) {
 }
 
 // convert list of files to object to keep track of changes
-const images = getFiles(imagesDir).reduce((obj, item) => {
+const images = avoParse.getFilesSync(avoParse.paths.staticImagesDir).reduce((obj, item) => {
   obj[item] = {
     original: item,
     new: '',
@@ -39,11 +26,11 @@ const images = getFiles(imagesDir).reduce((obj, item) => {
   return obj;
 }, {});
 
-const filenames = getFiles(docsDir).concat(getFiles(versionedDir));
+const filenames = avoParse.getFilesSync(avoParse.paths.docsDir).concat(avoParse.getFilesSync(avoParse.paths.versionedDocsDir));
 
 for(let image in images) {
   if (image.indexOf(".DS_Store") !== 0) {
-    imageWebPath = image.replace(staticDir,'');
+    imageWebPath = image.replace(avoParse.paths.staticDir,'');
 
     filenames.forEach((filename) => {
       if (filename.endsWith('.md')) {
@@ -80,8 +67,7 @@ for(let image in images) {
         });
 
         fs.writeFileSync(filename, content);
-
-        }
+      }
     });
 
     fs.writeFile('output/images.json', JSON.stringify(images,null,2), (err) => {

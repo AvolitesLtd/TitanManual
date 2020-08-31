@@ -14,6 +14,7 @@ class avoParse {
       outputDir: path.resolve("./output"),
       docsDir: path.resolve("../docs"),
       staticDir: path.resolve(`../website/static`),
+      staticImagesDir: path.resolve('../website/static/docs/images'),
       buildDir: path.resolve('../website/build/AvoDocs'),
     }
   
@@ -108,17 +109,9 @@ class avoParse {
    * @param {string} dir 
    */
   getFilesSync(dir) {
-    let results = []
-
-    fs.readdirSync(dir).forEach(file => {
-      file = path.join(dir,file)
-      const stat = fs.statSync(file);
-      if (stat && stat.isDirectory())
-        results = results.concat(this.getFilesSync(file));
-      else
-        results.push(file);
-    })
-    return results
+    return fs.statSync(dir).isDirectory()
+      ? [].concat(...fs.readdirSync(dir).map(f => this.getFilesSync(path.join(dir, f))))
+      : dir;
   }
 }
 
