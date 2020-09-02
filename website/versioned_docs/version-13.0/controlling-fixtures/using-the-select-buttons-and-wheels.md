@@ -431,13 +431,13 @@ controls are provided:
 -   Fine button switches to fine control mode for more precise
     positioning.
 
-### Colour mix: HSI/RGB/CMY
+### Colour Mix: HSI/RGB/CMY
 
 For fixtures which are capable of colour mixing, there are several ways
 you can select a colour which are selected by tabs at the top of the
 Attribute Editor window.
 
-![Colour Mix](/docs/images/Colour-Mix.png)
+![Attribute Editor - Colour Mix](/docs/images/Attribute-Editor-HSI-RGB-CMY.png)
 
 HIS/RGB/CMY provides a colour wheel with interactive sliders for
 changing Hue/Saturation/Intensity, Red/Green/Blue, and
@@ -450,17 +450,17 @@ without affecting the hue.
 All types of slider work for all fixtures, so a fixture with CMY mixing
 can still be controlled using the RGB or HSI sliders.
 
-### Colour mix: Picker
+### Colour Mix: Picker
 
-![Colour Picker](/docs/images/Colour-Picker.png)
+![Attribute Editor - Colour Picker](/docs/images/Attribute-Editor-Picker.png)
 
 This is the classic colour picker from earlier versions of Titan which
 provides a picker for hue and saturation, with a slider on the right
 hand side to set the intensity.
 
-### Colour mix: Channel
+### Colour Mix: Channel
 
-![Colour Channels](/docs/images/Colour-Channels.png)
+![Attribute Editor - Colour Channels](/docs/images/Attribute-Editor-Channels.png)
 
 Provides a slider for each colour control channel in the fixture. The
 sliders shown will vary depending on what is provided in the fixture -
@@ -468,9 +468,9 @@ this example is an ETC Lustr fixture which has 7 independent LED
 colours. This mode is useful to obtain colours such as tints of white or
 UV/Congo Blue which are hard to mix from a picker or colour wheel.
 
-### Colour mix: Filters
+### Colour Mix: Filters
 
-![Colour Filters](/docs/images/Colour-Filters.png)
+![Attribute Editor - Colour Filters](/docs/images/Attribute-Editor-Filters.png)
 
 Lets you pick a gel/filter colour from the Lee, Roscolux or GamColor
 ranges of filters. You can search for a particular colour by name or by
@@ -496,7 +496,7 @@ Fixtures which support keystoning or blades/shutters can be controlled
 graphically in the attribute window. Select and drag the corners or
 sides of the image to control the fixture.
 
-![Blades](/docs/images/Blades.png)
+![Attribute Editor - Blades](/docs/images/Attribute-Editor-Blades.png)
 
 > Updated personality files may be required to support the keystone/blade functions. If the functions are not shown in the Attribute View, try downloading and installing the latest personality file, then run the Update Patched Fixtures command.
 

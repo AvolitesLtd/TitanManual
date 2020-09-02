@@ -50,7 +50,7 @@ the key profile for a playback is to hold the \<Options\> button down while pres
 
 ## Playback Tab
 
-![Playback Options showing playback tab](/docs/images/playback-options-playback-tab.png)
+![Playback Options showing playback tab](/docs/images/Playback-Options-Chase-Playback-Tab.png)
 
 ### Blind
 Sets this individual playback to **Blind** mode. The playback

@@ -70,7 +70,7 @@ on which window it is, the setup of the console and if you have any
 external monitors. The Rows / Columns buttons allow you to control how buttons are
 arranged, see [Controlling button layout/grid](../titan-basics/workspace-windows.md#controlling-button-layout-/-grid)
 
-![Appearance Menu](/docs/images/window-cog-button.png)
+![Window Appearance Menu](/docs/images/Window-Appearance-Options.png)
 
 The **Resize Window** button allows you to set adjustable window sizes.
 A grid screen will open.

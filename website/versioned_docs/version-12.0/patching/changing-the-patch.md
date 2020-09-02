@@ -291,8 +291,7 @@ remembered and will be used whenever you exchange the same fixtures in
 the future (though you can restore to factory mappings at any time
 should you need to using the \[Clear All Mappings\] softkey).
 
-![exchange
-mapping](/docs/images/exchange-mapping.png)
+![Exchange Mapping](/docs/images/Exchange-Mapping.png)
 
 To set up mapping:
 
