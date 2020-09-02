@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/Farrser/AvoDocs"
   },
-  "main": "app.js",
+  "main": "desktop/main.js",
   "author": "Avolites Ltd. <support@avolites.com> (https://www.avolites.com)",
   "scripts": {
     "examples": "docusaurus-examples",
@@ -23,8 +23,8 @@
     "pdf": "node ../parse/pdf.js",
     "docker-pdf": "cd .. && docker-compose up --build pdf",
     "app": "electron .",
-    "app-sass": "node-sass app/scss/ -o app/sources/local/ --output-style compressed && node-sass --watch app/scss/ -o app/sources/local/ --output-style compressed",
-    "app-pre-build": "npm run build && node-sass app/scss/ -o app/sources/local/ --output-style compressed",
+    "app-sass": "node-sass desktop/scss/ -o desktop/sources/local/ --output-style compressed && node-sass --watch desktop/scss/ -o desktop/sources/local/ --output-style compressed",
+    "app-pre-build": "npm run build && node-sass desktop/scss/ -o desktop/sources/local/ --output-style compressed",
     "app-build": "npm run app-pre-build && npm run app-build-no-pre",
     "app-build-no-pre": "electron-builder",
     "app-build-all": "npm run app-pre-build && npm run app-build-all-no-pre",
@@ -51,14 +51,14 @@
     "appId": "com.avolites.titan.manual",
     "files": [
       "build/AvoDocs/**/*",
-      "app/**/*",
+      "desktop/**/*",
       "app.js",
-      "!app/icon/",
-      "!app/scss/"
+      "!desktop/icon/",
+      "!desktop/scss/"
     ],
     "mac": {
       "category": "public.app-category.utilities",
-      "icon": "app/icon/icon.icns"
+      "icon": "desktop/icon/icon.icns"
     },
     "linux": {
       "target": [
@@ -71,7 +71,7 @@
         "portable",
         "nsis"
       ],
-      "icon": "app/icon/icon.ico"
+      "icon": "desktop/icon/icon.ico"
     },
     "nsis": {
       "deleteAppDataOnUninstall": true,

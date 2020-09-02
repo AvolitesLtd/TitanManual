@@ -1,8 +1,6 @@
-const { promisify } = require('util')
 const path = require('path')
 const fs = require('fs')
-const readdir = promisify(fs.readdir)
-const stat = promisify(fs.stat)
+const avoParse = require('../../parse/avoParse')
 
 const webLocalJsDir = path.resolve(__dirname,'../static/js')
 const sourcesDir = path.resolve(__dirname,'sources')
@@ -10,17 +8,8 @@ const appLocalJsDir = path.join(sourcesDir,'local')
 
 const path404 = path.resolve(__dirname,'../build/AvoDocs/404.html')
 
-async function getFiles(dir) {
-  const subdirs = await readdir(dir)
-  const files = await Promise.all(subdirs.map(async (subdir) => {
-    const res = path.resolve(dir, subdir)
-    return (await stat(res)).isDirectory() ? getFiles(res) : res
-  }));
-  return files.reduce((a, f) => a.concat(f), [])
-}
-
 /* now done manually
-getFiles(webLocalJsDir).then((filenames) => {
+avoParse.getFiles(webLocalJsDir).then((filenames) => {
   filenames.forEach(function(filename) {
     fs.readFile(filename,'utf-8',(err, contents) => {
       contents = `

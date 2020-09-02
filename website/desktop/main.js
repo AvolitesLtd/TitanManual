@@ -1,10 +1,7 @@
 const { app, BrowserWindow, session, BrowserView, ipcMain, Menu, shell } = require('electron')
-const appServer = require('./app/server.js')
+const appServer = require('./server.js')
 const { fork } = require('child_process')
-const localJs = fork(`${__dirname}/app/local.js`)
-process.on('exit', () => {
-  localJs.kill()
-})
+const localJs = fork(`${__dirname}/local.js`)
 
 let win, browserViewContent
 
