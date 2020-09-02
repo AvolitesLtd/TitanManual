@@ -1,11 +1,10 @@
 const path = require('path');
 const fs = require('fs');
+const avoParse = require('./avoParse')
 const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
-const versions = require("../website/versions.json");
+const versions = require(avoParse.paths.versions);
 
-const versionedDocsPath = path.join(__dirname,"../website/versioned_docs/");
-const outputPath = path.join(__dirname,"output");
 const legalPath = path.join(__dirname,"PDF/legal-en.md");
 const templatePath = path.join(__dirname,"PDF/eisvogel_avo.latex");
 const sectionNumberFilter = path.join(__dirname,"PDF/lua-section-number-filter.lua");
@@ -55,17 +54,17 @@ function getVersions() {
  * @param {string} def (Optional) The default path to output to
  * @return {string} The absolute path to the output directory without the trailing slash
  */
-function setOutputDir(req='',def=outputPath) {
+function setOutputDir(req='',def=avoParse.paths.outputDir) {
   if(req) {
-    let userOutputPath = path.resolve(req);
+    let userOutputDir = path.resolve(req);
 
-    fs.access(userOutputPath, fs.constants.W_OK, function(err) {
+    fs.access(userOutputDir, fs.constants.W_OK, function(err) {
       if(err){
         req = def;
-        process.emitWarning(`Could not write to ${userOutputPath}, instead writing to ${def}`);
+        process.emitWarning(`Could not write to ${userOutputDir}, instead writing to ${def}`);
       }
 
-      req = userOutputPath;
+      req = userOutputDir;
     });
   }
   else {
@@ -97,7 +96,7 @@ function filenameToTitleLink(filename) {
  */
 function replaceYaml(filename,content) {
   // matches Yaml block with title
-  return content.replace(/^---(?:[\n]|.)*title: *([\w ]*)(?:[\n]|.(?!--))*---/mgi,function (match,title) {
+  return content.replace(avoParse.regex.yamlBlockTitle,function (match,title) {
     titleLink = filenameToTitleLink(filename);
     if (filename.match("/")) {
       // sub page, e.g.:
@@ -123,7 +122,7 @@ function replaceYaml(filename,content) {
  */
 function replaceLinks(filename,content,docsPath,version) {
   // matches all links which are to local .md files
-  return content.replace(/(?<![\\!])\[([^\]]*)(?<!\\)\]\((?!https?:\/\/)(?!\/\/)(?!#)([a-zA-Z0-9-\.\/]*\.md)([^)]*)\)/mgi, function (match,text,link,anchor) {
+  return content.replace(avoParse.regex.linksLocalMd, function (match,text,link,anchor) {
     let filePath = filename.split("/");
     let file = filePath.pop();
 
@@ -176,8 +175,8 @@ function replaceLinks(filename,content,docsPath,version) {
  */
 function replaceImagepath(filename,content) {
   // matches all images with local sources
-  return content.replace(/!\[([^\]]*)\]\(\/(?!\/)([^\)]*)\)/mg, function (match,alt,src) {
-    let fullSrc = path.resolve(`../website/static/${src}`);
+  return content.replace(avoParse.regex.imagesLocal, function (match,alt,src) {
+    let fullSrc = path.join(avoParse.paths.staticDir, src);
     if (!fs.existsSync(fullSrc)) {
       // check image exists
       process.emitWarning(`${filename}: Image '${src}' not found`);
@@ -198,9 +197,9 @@ function replaceImagepath(filename,content) {
  */
 function addImageSpacing(content) {
   // add spacing before images that don't have it
-  content = content.replace(/(?<!\n\n) *!\[[^\]]*\]\([^\)]*\)/gm,"\n\n$&");
+  content = content.replace(avoParse.regex.imagesSpaceBefore,"\n\n$&");
   // add spacing after images that don't have it
-  return content.replace(/!\[[^\]]*\]\([^\)]*\) *(?!\n\n)/gm,"$&\n\n");
+  return content.replace(avoParse.regex.imagesSpaceAfter,"$&\n\n");
 }
 
 /**
@@ -210,11 +209,10 @@ function addImageSpacing(content) {
  */
 function sidebarPath(version) {
   if(version == "next") {
-    return path.resolve("../website/sidebars.json");
+    return avoParse.paths.sidebar;
   }
   else {
-    let filePath = `../website/versioned_sidebars/version-${version}-sidebars.json`;
-    filePath = path.resolve(filePath);
+    let filePath = path.join(avoParse.paths.versionedSideberDir,`version-${version}-sidebars.json`)
 
     if (!fs.existsSync(filePath)) {
       throw(`Could not find '${version}' sidebars JSON file: ${filePath}`);
@@ -233,7 +231,7 @@ function docsVersionPath(version) {
     return path.resolve("../docs/");
   }
   else {
-    let filePath = path.join(versionedDocsPath,`version-${version}/`);
+    let filePath = path.join(avoParse.paths.versionedDocsDir,`version-${version}/`);
     if (!fs.existsSync(filePath)) {
       throw(`Could not find versioned docs: ${filePath}`)
     };
