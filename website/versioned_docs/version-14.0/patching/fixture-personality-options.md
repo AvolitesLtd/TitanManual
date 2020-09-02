@@ -91,7 +91,7 @@ It is still possible to put values into the programmer outside the
 limits. A "limited" watermark will appear on the wheel view behind an
 attribute when it is being limited.
 
-![limited](/docs/images/limited.png)
+![limited](/docs/images/Limited-Dimmer.png)
 
 Fixture Offset
 --------------

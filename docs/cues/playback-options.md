@@ -26,7 +26,7 @@ and no option is shown selected.
 
 ## Handle Tab
 
-![Playback Options window for cue showing handle tab](/docs/images/playback-options-handle-tab.png)
+![Playback Options window for cue showing handle tab](/docs/images/Playback-Options-Handle-Tab.png)
 
 ### Handle Paging
 Allows you to lock the playback on a handle so that
@@ -114,7 +114,7 @@ run on startup.
 
 ## Times tab
 
-![Playback Options showing times tab](/docs/images/playback-options-times-tab.png)
+![Playback Options showing times tab](/docs/images/Playback-Options-Times-Tab.png)
 
 ### Delay In / Fade In / Fade Out
 Sets the delay time before fade, and the fade in and fade out times for the playback.
@@ -146,7 +146,7 @@ overridden by a [Rate or BPM master](../running-the-show/playback-controls.md#sp
 
 ## Fader Tab
 
-![Playback Options showing fader tab](/docs/images/playback-options-fader-tab.png)
+![Playback Options showing fader tab](/docs/images/Playback-Options-Fader-Tab.png)
 
 ### Cue Fader Mode
 Sets how the fader position affects the cue output.
@@ -172,7 +172,7 @@ in the [Curves](../system-settings/curves.md) section.
 
 ## Effects Tab
 
-![Playback Options showing effects tab](/docs/images/playback-options-effects-tab.png)
+![Playback Options showing effects tab](/docs/images/Playback-Options-Effects-Tab.png)
 
 ### Effect Speed Multiplier
 Lets you modify the speed of the effects programmed into this playback.
@@ -217,7 +217,7 @@ to control the size of shapes running in this playback.
 
 ## Release Tab
 
-![Playback Options showing release tab](/docs/images/playback-options-release-tab.png)
+![Playback Options showing release tab](/docs/images/Playback-Options-Release-Tab.png)
 
 ### Release Mask
 Lets you specify which attributes will be released to

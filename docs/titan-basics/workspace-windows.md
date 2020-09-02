@@ -19,7 +19,7 @@ The picture below shows a typical arrangement of workspace windows.
 ![Workspaces](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
 
-Opening and positioning workspace windows
+Opening and Positioning Workspace Windows
 -----------------------------------------
 
 Double press the \<View\> button (labelled \<Open\> or \<Open Window\> on some consoles)
@@ -27,7 +27,7 @@ to show the workspace open buttons overlay on all monitors (for the rest of this
 we'll refer to this button as \<View/Open\>). On the monitor where you
 want the workspace, press the appropriate button and the window will open on that monitor.
 
-![Workspace select buttons](/docs/images/workspace-icons.png)
+![Workspace Window Selection](/docs/images/Workspace-Windows-Icons.png)
 
 If the window was already open on a different monitor, it will move to the monitor you selected
 keeping the same size and position.

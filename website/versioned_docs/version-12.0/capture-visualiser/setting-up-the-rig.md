@@ -74,7 +74,7 @@ gimbal lock and happens when two of the "rings" are lined up with each
 other (right hand picture below). Change the Y rotation by 90 degrees to
 enable you to achieve other angles.
 
-![gimbal](/docs/images/gimbal.jpeg)\
+![gimbal](/docs/images/Gimbal.jpeg)\
 *Illustration by MathsPoetry*
 
 Press the **Position** button a third time to switch the wheels to Rotation
