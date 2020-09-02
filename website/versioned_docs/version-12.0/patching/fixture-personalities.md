@@ -55,9 +55,9 @@ icon in the Cache column for any fixture. Alternatively you can get this
 file by clicking on the Download link at the top of the screen, then
 clicking on "Titan Fixture Library".
 
-  ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![exclamation](/docs/images/exclamation.png)   Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
-  ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> Updating will overwrite any custom personalities you have stored in the 
+library. To avoid this, store your custom personalities in the user 
+personalities folder (see next section for details).
 
 **To update a console use the following procedure:**
 
