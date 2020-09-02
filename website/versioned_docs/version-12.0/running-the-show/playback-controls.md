@@ -46,11 +46,7 @@ it as a master. Press the Display button below the encoders to show legends for 
 
 ![Arena Miniscreen](/docs/images/Arena-Miniscreen.png)
 
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![info](/docs/images/info.png)
-
-  If you assign a master to a handle with an LED, the LED will flash if the fader is at zero... just as a reminder to help you work out why no lights are coming on.
-  --------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> If you assign a master to a handle with an LED, the LED will flash if the fader is at zero... just as a reminder to help you work out why no lights are coming on.
 
 Speed and Size Masters
 ----------------------
@@ -151,12 +147,7 @@ Using [Key Profiles](../system-settings/key-profiles.md), you can set different 
 
 If a Flash Master is configured, this will also master the group flash.
 
---------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-![info](/docs/images/info.png)
-
-You can release all masters by pressing \<Release\> then \[Release All Masters\]. This can be useful if something is being controlled by a master but you are not sure where it is.
---------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> You can release all masters by pressing \<Release\> then \[Release All Masters\]. This can be useful if something is being controlled by a master but you are not sure where it is.
 
 Scene Master
 ------------

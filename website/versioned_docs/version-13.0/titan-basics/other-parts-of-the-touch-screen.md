@@ -31,7 +31,7 @@ the background is the system prompt area which shows instructions to the
 user and information from the console. The last commands you used are
 also shown here, for use with the Undo function.
 
-![Prompt Area](/docs/images/systemarea.png)
+![Prompt Area](/docs/images/System-Area.png)
 
 On the screen above the control wheels, the current function of the
 wheels is shown on a simulated roller. If fixture attributes are being
@@ -57,7 +57,7 @@ available:
   ![Softkey - Action](/docs/images/Softkey-Action.png)                                                                      
   **Action button** - console will carry out the action shown                                     
   
-  ![Softkey - Option](/docs/images/softkey-option.png) 
+  ![Softkey - Option](/docs/images/Softkey-Option.png) 
   **Option button** - cycles through a range of options   
   
   ![Softkey - New Menu](/docs/images/Softkey-New-Menu.png) 
@@ -156,7 +156,7 @@ Undo/Redo
 A short list of recent actions is shown in the prompt area to the left
 of the menu.
 
-![System Area](/docs/images/systemarea.png)
+![System Area](/docs/images/System-Area.png)
 
 You can undo and redo recent actions (including fixture and cue changes)
 by touching the prompt area. This will automatically open the Undo

@@ -86,7 +86,7 @@ window to an external monitor. The Appearance options may vary depending
 on which window it is, the setup of the console and if you have any
 external monitors.
 
-![Appearance Menu](/docs/images/Appearance-Menu.png)
+![Window Appearance Menu](/docs/images/Window-Appearance-Options.png)
 
 The **Resize Window** button allows you to set adjustable window sizes.
 A grid screen will open.

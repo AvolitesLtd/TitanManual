@@ -22,7 +22,7 @@ restored when loading a show. The default user is called "Operator" and
 the prompt area in the display shows the current user name and selected
 key profile.
 
-![systemarea](/docs/images/systemarea.png)
+![systemarea](/docs/images/System-Area.png)
 
 To change or create users, go to the Users menu.
 

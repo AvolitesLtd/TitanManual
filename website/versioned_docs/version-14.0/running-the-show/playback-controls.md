@@ -244,7 +244,7 @@ Virtual Faders workspace window (press \[Open Workspace Window\] then select \[V
 This provides 10 more paged faders which work exactly the same as the hardware playback faders. 
 A roller display at the left side allows you to select different pages.
 
-![Virtual playbacks window](/docs/images/virtual-faders.png)
+![Virtual playbacks window](/docs/images/Virtual-Faders.png)
 
 Press the Settings (cog) button at the top of the screen to
 
