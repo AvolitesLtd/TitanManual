@@ -201,7 +201,7 @@ As an example of setting up a workspace, suppose while programming you
 wanted to be able to access fixtures, position palettes, fixture
 attributes and shapes:
 
-1. Double press the \<View/Open\> button. Press \<Exit\> to get to the root menu then the \[Open Workspace
+1. Double press the \<View/Open\> button, or press \<Exit\> to get to the root menu and then the \[Open Workspace
 Window\] menu softkey.
 
 2. Find the \[Fixtures\] icon on the screen and press it.
@@ -215,7 +215,7 @@ top bar and press the top left position button in that window.
 window. Press the \<Size & Position\> button to position it in the desired
 location.
 
-5. Repeat to activate the \[Attribute Control\] and \[Shapes\] windows.
+5. Repeat to activate the \[Attribute Editor\] and \[Effects\] windows.
 
 6. Press \<View/Open\> then \[Record Workspace\], or hold \<Avo\> and
 press \<View/Open\>. Type in a name for the workspace. Then touch the
