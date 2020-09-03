@@ -1,24 +1,23 @@
-The translations process is fairly simple. You it works by basically creating a copy of the docs in your local language.
+The translations process is fairly simple. It works by basically creating a copy of the docs in your local language.
 
-If you have a basic understanding of the command line and git then you can follow the steps below to perform translations.
+If you have a basic understanding of the command line and git then you can follow the advanced steps below to perform translations.
 
-Otherwise, if you are an Avolites Distributor and need to perform translations, you can contact support@avolites.com to be provided with a folder to translate.
+Otherwise, if you are an Avolites Distributor and need to perform translations, you can follow the basic steps.
 
 # Before you start
 
 It is important that you don't edit the ids or names of the files.
 
-# Novice User steps
+# Basic User steps
 
 1. Contact Avolites Support support@avolites.com and request your language to be added.
 2. The support agent will let you know what branch to work on your translations in for example `feature/german`
 3. Create a fork of the repository
 4. On github.com navigate to
 `https://github.com/USER/TitanManual/tree/BRANCH/website/translated_docs/LANGUAGE/VERSION/`
-
 Replacing USER, BRANCH, LANGUAGE and VERSION as required.
-
 For example: `https://github.com/AvolitesLtd/TitanManual/tree/feature/translations/website/translated_docs/de/version-13.0`
+
 5. Translate the files using the edit button.
 6. Translate the file at `i18n/de.json`.
 7. Create a pull request using the button at the top of the page.
