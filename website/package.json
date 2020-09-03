@@ -29,7 +29,7 @@
     "app-build-no-pre": "electron-builder",
     "app-build-all": "npm run app-pre-build && npm run app-build-all-no-pre",
     "app-build-all-no-pre": "electron-builder -mwl",
-    "test": "mocha '../test/**/*.js'",
+    "test": "mocha '../test/**/*.js' && npm run spellcheck",
     "spellcheck": "mdspell --report --ignore-numbers --ignore-acronyms --en-gb  'versioned_docs/**/*.md' '../docs/**/*.md'"
   },
   "devDependencies": {
