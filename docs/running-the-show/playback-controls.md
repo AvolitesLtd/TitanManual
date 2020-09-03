@@ -60,7 +60,7 @@ A playback is assigned to a Speed/Size Master by pressing \[Effects\] then \[Spe
 
 -   Free Run (default - no Speed Master. Effect runs at programmed speed)
 
--   BPM 1-4 (override the local speed with a fixed value from the master)
+-   BPM 1-8 (override the local speed with a fixed value from the master)
 
 -   Rate 1-4 (proportionally modify the local speed using the master)
 
