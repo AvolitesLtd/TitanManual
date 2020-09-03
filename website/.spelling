@@ -1,0 +1,145 @@
+# Speling exempshions
+# sorted alphabetically
+# add/remove as necessary
+
+# excluded words
+autoscroll
+busked
+dialog
+gobo
+gobos
+nd
+num
+remotes
+repatch
+repatching
+showfile
+showfiles
+shuriken
+shurikens
+strobing
+subfixture
+subfixtures
+softkey
+softkeys
+swop
+th
+timecode
+timecode-controlled
+timecoded
+unpolled
+xx
+xxx
+
+# alphanumeric
+0s
+3s
+5s
+15s
+20s
+
+x1
+x2
+4x
+20x
+
+120Mbps
+200Mbps
+280Mbps
+
+1920x1080p30
+1920x1080p60
+3840x2160p30
+3840x2160p60
+
+2.x.x.x
+10.x.x.x
+
+3-pin
+5-pin
+9-pin
+
+4xRGB
+
+2.5mm
+5.5mm
+9.5mm
+
+3-axis
+800mA
+
+v1
+v2
+v3
+v4
+v5
+v6
+v7
+v8
+v9
+v10
+v11
+v11.1
+v12
+v13
+v14
+
+# words which could be hyphenated
+crossfade
+keypress
+keypresses
+multimode
+popup
+setups
+startup
+
+# words which should be hyphenated/not hyphenated (reference)
+# Art-Net
+# crossfade
+# on-screen
+# push-button
+
+# symbols
+i
+
+# case sensitive words
+Ai
+Art-Net
+AutoGroups
+Autoincrement
+Avo
+AvoKey
+Avolites
+DMX-in
+Esc
+Ethernet
+ExpertDMX
+Goto
+Healthcheck
+HiLight
+Hippotizer
+IPCGBES-FX
+Quicksave
+Lightmap
+Multi-DMX
+Nexum
+Neutrik
+Ok
+opticalCon
+PioneerDJ
+Prev
+Rec
+Roscolux
+RDM-enabled
+sACN
+Sharpie
+TitanNet
+TitanFixtureLibrary.exe
+Thro
+TNPs
+Unassign
+VDim
+WiFi
+Winamp
+Xfade
+XLRs
