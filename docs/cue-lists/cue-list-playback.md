@@ -15,7 +15,7 @@ cue is highlighted in grey and the next cue has a box round it.
 
 Also the playback legend above the fader shows information about
 the cue list. The current cue is shown at the top in light blue, with the next cue below in dark blue.
-Fade progress of the cue is shown in a bargraph in the light blue bar. Below
+Fade progress of the cue is shown in a bar graph in the light blue bar. Below
 this the times for the next cue are shown - in time with up arrow and out time with down arrow,
 d for delay and f for fade. If the cue list is set to manual crossfade a red 'M' is shown.
 
@@ -25,7 +25,7 @@ You can also open the Playback View window to show more details of the
 cue list by clicking the Cue List legend area or press \<View/Open\>
 then the **swop button** of the playback. This shows all the timings, links
 and tracking status and is very useful when running a [theatre show](theatre-programming.md) on a
-cuelist.
+cue list.
 
 The option **"Auto View On Connect"** *(in the [User Settings/Wheels menu](../system-settings/user-settings.md#auto-view-on-connect))* if
 enabled will automatically open the relevant Playback View window when
@@ -37,7 +37,7 @@ When times are in progress on a cue, green progress bars are shown in
 the Playback View window - the left hand column shows overall progress,
 and each timing section shows its own progress.
 
-The Playback View will autoscroll to keep the active cue onscreen. You
+The Playback View will autoscroll to keep the active cue on-screen. You
 can change the way the autoscroll works using the view options (click
 the options/cog icon at the top of the window).
 
@@ -63,8 +63,9 @@ the options/cog icon at the top of the window).
 -   On consoles with a \<Snap\> button *(Arena and Tiger Touch 2)*, when
     you turn on the \<Snap\> button the \<Prev\>/\<Next\> buttons will
     snap immediately to the cue rather than going to the previous/next
-    cue using the programmed times. There is also a [User Setting \[Chase
-    Snap\]](../system-settings/user-settings.md#chase-snap) which enables this mode on consoles which don't have the
+    cue using the programmed times. There is also a 
+    [User Setting \[Chase Snap\]](../system-settings/user-settings.md#chase-snap)
+    which enables this mode on consoles which don't have the
     button.
 
 -   You can jump directly to a cue by pressing \<Connect\>, then typing

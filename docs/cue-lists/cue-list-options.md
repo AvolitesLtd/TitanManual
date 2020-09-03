@@ -7,7 +7,7 @@ sidebar_label: Cue List Options
 Cue list options are set from the playback [Options](../cues/playback-options.md). 
 Press \<Options\> (or the \[Options\] softkey on the top level menu then the **select** button for the cue list you wish to edit.
 
-You can also set the cue list options from the Cuelist View window by pressing \<View/Open\>
+You can also set the cue list options from the Cue List View window by pressing \<View/Open\>
 then the **Select** button of the cue list, then click the **Options** tab.
 
 The Cue List options are mostly the same as for [Cues](../cues/playback-options.md) and [Chases](../chases/chase-options.md), only

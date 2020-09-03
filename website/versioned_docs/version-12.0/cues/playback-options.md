@@ -111,7 +111,7 @@ running multiple playbacks together
 ### Flash Fade In / Flash Fade Out
 Sets the fade in/fade out time for
 this playback when it is fired using the flash button. By default these
-are set to *"AsIn"* and *"AsOut"* which will use the fade time set for the
+are set to *"As In"* and *"As Out"* which will use the fade time set for the
 playback in the [Times menu](cue-timing.md). This option allows you to set a different
 flash action for the playback. *Note that the [Key Profile](../system-settings/key-profiles.md) for the flash
 button must be set to **Timed Flash** for this to work.*

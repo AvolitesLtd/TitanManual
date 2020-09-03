@@ -9,7 +9,7 @@ All you need to do is make sure that the console is on the same network
 as your mobile device. The app will automatically detect all the
 consoles on the network.
 
-> Ensure that WiFi security is enabled on the network you are using, as anyone who can connect to the wifi and has the app will be able to control the console. You don't want someone in the audience taking over the show.
+> Ensure that WiFi security is enabled on the network you are using, as anyone who can connect to the WiFi and has the app will be able to control the console. You don't want someone in the audience taking over the show.
 
 You may experience problems with the remote if you have an internet
 router on the network, as this may route show traffic to the
@@ -66,4 +66,4 @@ the access point.
 
 6. Run the Titan Remote app. You should see the console listed.
 
-> If you are using the remote at showtime, on the Access Point you should select the option to hide the SSID. If you do not do this, every smartphone in the audience will find your wifi and try to connect to your Access Point which will make the remote operation very sluggish.
+> If you are using the remote at show time, on the Access Point you should select the option to hide the SSID. If you do not do this, every smartphone in the audience will find your WiFi and try to connect to your Access Point which will make the remote operation very sluggish.

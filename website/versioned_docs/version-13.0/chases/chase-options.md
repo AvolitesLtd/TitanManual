@@ -49,7 +49,7 @@ Allows you to set a speed factor for the chase.\
 ### Speed
 Provides another way of setting chase speed.
 
-### XFade
+### Xfade
 Provides another way of setting chase crossfade.
 
 ### Fixture Overlap

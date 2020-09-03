@@ -24,7 +24,7 @@ Each fixture has a unique colour code. Click on these buttons to filter
 the view so it only shows one fixture type.
 
 **Line:** lists the available DMX output lines/universes. The blue
-bargraph in the button shows how much of the line is used by patched
+bar graph in the button shows how much of the line is used by patched
 fixtures and how much is free. Click a button to show the details of
 that line in the right hand side of the window.
 
@@ -136,8 +136,8 @@ output line number.
     using the \[Unpark\] option.
 
 -   If the new DMX address already has another fixture or dimmer patched
-    on it, the console will warn you (unless this is disabled in [User
-    Settings](../system-settings/user-settings.md)). You can either press
+    on it, the console will warn you (unless this is disabled in 
+    [User Settings](../system-settings/user-settings.md)). You can either press
     \[Select another DMX address\] to abort the change or \[Park
     Conflicting Fixtures\]. All programming for the parked fixture is
     preserved, but you need to repatch it to a free DMX address using

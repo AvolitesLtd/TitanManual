@@ -17,7 +17,7 @@ constantly updating the library.
 
 We recommend that you should update the library from time to time to
 take advantage of new fixtures, as well as receiving bug fixes for
-personalities and new features which may be added such as subfixtures.
+personalities and new features which may be added such as sub-fixtures.
 
 Downloading fixture personalities from Avolites
 -----------------------------------------------

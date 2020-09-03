@@ -6,8 +6,10 @@
 autoscroll
 busked
 dialog
+gimbal
 gobo
 gobos
+keystoning
 nd
 num
 remotes
@@ -18,16 +20,20 @@ showfiles
 shuriken
 shurikens
 strobing
-subfixture
-subfixtures
 softkey
 softkeys
+starcloths
 swop
 th
+thru
 timecode
 timecode-controlled
 timecoded
+unmap
+unpark
+un-pause
 unpolled
+unprogrammed
 xx
 xxx
 
@@ -35,17 +41,27 @@ xxx
 0s
 3s
 5s
+10s
 15s
 20s
+500s
+600s
+2000s
 
 x1
 x2
+x4
+x32
+
 4x
 20x
+
+5x5
 
 120Mbps
 200Mbps
 280Mbps
+480Mbps
 
 1920x1080p30
 1920x1080p60
@@ -65,9 +81,6 @@ x2
 5.5mm
 9.5mm
 
-3-axis
-800mA
-
 v1
 v2
 v3
@@ -84,20 +97,33 @@ v12
 v13
 v14
 
+3-axis
+800mA
+c2o
+
 # words which could be hyphenated
 crossfade
+crossfader
 keypress
 keypresses
 multimode
+plugins
 popup
 setups
 startup
+submenu
+submenus
 
 # words which should be hyphenated/not hyphenated (reference)
 # Art-Net
 # crossfade
+# key frame
 # on-screen
 # push-button
+# rack mount
+# show time
+# sub-fixture
+# submenu
 
 # symbols
 i
@@ -113,7 +139,10 @@ Avolites
 DMX-in
 Esc
 Ethernet
+etherCON
 ExpertDMX
+FixtureLibrary
+GamColor
 Goto
 Healthcheck
 HiLight
@@ -121,11 +150,14 @@ Hippotizer
 IPCGBES-FX
 Quicksave
 Lightmap
+LocalClock
+Lustr
+MathsPoetry
 Multi-DMX
 Nexum
 Neutrik
 Ok
-opticalCon
+opticalCON
 PioneerDJ
 Prev
 Rec
@@ -143,3 +175,16 @@ WiFi
 Winamp
 Xfade
 XLRs
+
+# using-the-select-buttons-and-wheels.md
+1j
+nlast
+1i
+i.j
+mlast
+n.m
+mj
+ni
+
+# glossary.md
+osition
