@@ -19,7 +19,7 @@ Replacing USER, BRANCH, LANGUAGE and VERSION as required.
 For example: `https://github.com/AvolitesLtd/TitanManual/tree/feature/translations/website/translated_docs/de/version-13.0`
 
 5. Translate the files using the edit button.
-6. Translate the file at `i18n/de.json`.
+6. Translate the file at `website/i18n/XX.json`. Where XX is your language code.
 7. Create a pull request using the button at the top of the page.
 7. Email support@avolites.com to let them know you are finished.
 
