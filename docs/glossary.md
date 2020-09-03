@@ -76,7 +76,7 @@ PRELOAD		| A playback button which sets the LTP channels in a cue but not the HT
 PRESET FOCUS	| The old name for Palettes on previous Avolites consoles and other consoles. See PALETTE.
 PROGRAMMER	| The part of the console which contains Attribute information which has been changed by the user, prior to recording.
 QUICK PALETTE	| If you press a palette button with no fixtures selected, the console will apply the palette to all fixtures it has programming for. This is called a Quick Palette.
-RANGE		| If an Attribute on a fixture is split into certain zones for different effects, for example if the fixture can snap to 8 gobos selected by DMX values 1-32, 33-64, 65-96 etc then the attribute is said to have Ranges.
+RANGE		| If an Attribute on a fixture is split into certain zones for different effects, for example if the fixture has rotating gobos and e.g. from DMX 128-191 you fade through clockwise rotation then the attribute is said to have Ranges.
 RDM			| Remote Device Management, a way of configuring fixtures remotely from the console. Not all fixtures support this.
 RELEASE		| How a Playback leaves the LTP channels it was controlling when it is killed. Normally the LTP channels just remain in their last state, but you can use the Release settings to get them to revert to a previous state.
 RGB / RGBW	| A system of colour mixing using LED emitters of different colours. Often more emitter colours are provided in the fixture to allow better colour rendering or mixing of pale tints. Possible colours include Red, Green, Blue, White, Amber, Lime, Cyan, UV - so you may see RGBAL fixtures or RGBAWUV.
