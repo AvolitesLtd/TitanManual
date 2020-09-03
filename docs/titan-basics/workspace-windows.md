@@ -19,7 +19,7 @@ The picture below shows a typical arrangement of workspace windows.
 ![Workspaces](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
 
-Opening and positioning workspace windows
+Opening and Positioning Workspace Windows
 -----------------------------------------
 
 Double press the \<View\> button (labelled \<Open\> or \<Open Window\> on some consoles)
@@ -27,7 +27,7 @@ to show the workspace open buttons overlay on all monitors (for the rest of this
 we'll refer to this button as \<View/Open\>). On the monitor where you
 want the workspace, press the appropriate button and the window will open on that monitor.
 
-![Workspace select buttons](/docs/images/workspace-icons.png)
+![Workspace Window Selection](/docs/images/Workspace-Windows-Icons.png)
 
 If the window was already open on a different monitor, it will move to the monitor you selected
 keeping the same size and position.
@@ -70,7 +70,7 @@ on which window it is, the setup of the console and if you have any
 external monitors. The Rows / Columns buttons allow you to control how buttons are
 arranged, see [Controlling button layout/grid](../titan-basics/workspace-windows.md#controlling-button-layout-/-grid)
 
-![Appearance Menu](/docs/images/window-cog-button.png)
+![Window Appearance Menu](/docs/images/Window-Appearance-Options.png)
 
 The **Resize Window** button allows you to set adjustable window sizes.
 A grid screen will open.
@@ -201,7 +201,7 @@ As an example of setting up a workspace, suppose while programming you
 wanted to be able to access fixtures, position palettes, fixture
 attributes and shapes:
 
-1. Double press the \<View/Open\> button. Press \<Exit\> to get to the root menu then the \[Open Workspace
+1. Double press the \<View/Open\> button, or press \<Exit\> to get to the root menu and then the \[Open Workspace
 Window\] menu softkey.
 
 2. Find the \[Fixtures\] icon on the screen and press it.
@@ -215,7 +215,7 @@ top bar and press the top left position button in that window.
 window. Press the \<Size & Position\> button to position it in the desired
 location.
 
-5. Repeat to activate the \[Attribute Control\] and \[Shapes\] windows.
+5. Repeat to activate the \[Attribute Editor\] and \[Effects\] windows.
 
 6. Press \<View/Open\> then \[Record Workspace\], or hold \<Avo\> and
 press \<View/Open\>. Type in a name for the workspace. Then touch the
@@ -267,20 +267,6 @@ button at a glance. Select the \[Halo\] option on the Set Legends menu.
 
 If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help identify different types of fixture, which is also used in the patch window.
 
-Trackball (Sapphire Touch only)
--------------------------------
-
-The trackball on the right of the console can be used either to control
-the mouse pointer on the touch screens and external monitors, or to
-control fixtures.
-
-To use in mouse mode, hold the \<Assign\> button below the trackball and
-click the \'Left\' mouse button. The trackball will then control the
-mouse pointer and the ring will scroll windows up and down.
-
-To use in console mode for controlling fixtures, press the \<Assign\>
-button on its own. The trackball will control pan and tilt of selected
-fixtures, and the ring controls fine tilt.
 
 Touch Keyboard
 --------------

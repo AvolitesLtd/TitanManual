@@ -60,7 +60,7 @@ A playback is assigned to a Speed/Size Master by pressing \[Effects\] then \[Spe
 
 -   Free Run (default - no Speed Master. Effect runs at programmed speed)
 
--   BPM 1-4 (override the local speed with a fixed value from the master)
+-   BPM 1-8 (override the local speed with a fixed value from the master)
 
 -   Rate 1-4 (proportionally modify the local speed using the master)
 
@@ -92,9 +92,9 @@ In the Times tab of User Settings, there is an option "Compensate for Rate Grand
 Grand Master set to less than 100%. If the option is On (default), a tapped tempo will come out at the speed you tapped and will not be scaled by the Rate Grand Master. If the option is Off, when you tap a
 tempo, it would then be scaled down by the Rate Grand Master.
 
-### Connect wheels to Rate/BPM masters
+### Adjusting masters using the wheels
 
-You can adjust Rate and BPM masters from the wheels by pressing Connect followed by the blue button of the master. For a Rate master this adjusts the rate, for a BPM master you can also adjust "Edge Sync" which allows you to nudge the synchronisation forwards or backwards.
+You can adjust Intensity, Size, Rate and BPM masters from the wheels by pressing \[Connect\] followed by the blue button of the master. This is useful for making fine adjustments to the setting of a master. For a BPM master you can also adjust "Edge Sync" which allows you to nudge the synchronisation forwards or backwards.
 
 While a wheel is connected you can touch up or down in the wheel display area to nudge the value up or down. Pressing the \<@\> button for the
 wheel opens a softkey menu where you can input a numerical value or \[Release\] the speed and multiplier to default values.
@@ -243,7 +243,7 @@ Virtual Faders workspace window (press \[Open Workspace Window\] then select \[V
 This provides 10 more paged faders which work exactly the same as the hardware playback faders. 
 A roller display at the left side allows you to select different pages.
 
-![Virtual playbacks window](/docs/images/virtual-faders.png)
+![Virtual playbacks window](/docs/images/Virtual-Faders.png)
 
 Press the Settings (cog) button at the top of the screen to
 

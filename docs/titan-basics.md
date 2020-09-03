@@ -25,13 +25,16 @@ console normally.
 
 If an internal UPS is fitted (Sapphire Touch, Arena, optional on other
 consoles), on power loss the toolbar on the screen will turn orange and
-display how long you've got before the console shuts down. A warning dialog
-will also pop up.
+display how long you\'ve got before the console shuts down. A warning dialog
+will also pop up on the screen and the current show will be autosaved.
 
 ![UPS Toolbar](/docs/images/UPS-Toolbar.png)
 
-When the UPS battery runs low and the console is about to shut down, the
-toolbar turns red.
+-	When the UPS battery runs low and the console is about to shut down, the
+	toolbar turns red.
+	
+-	If any console or TNP in your session is running from UPS, an error will appear
+	in the event log.
 
 **Arena only:** The Network Switch inside the Arena has an independent
 UPS system which allows the network switch to continue to run while the

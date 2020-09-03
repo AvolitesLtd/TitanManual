@@ -87,7 +87,7 @@ SEQUENCE	| Another name for a Chase on other consoles.
 SHAPE 		| A preprogrammed effect available which is applied to an Attribute. It can then be customised and stored in a cue.
 SHARED PALETTE	| A Palette in which information is only stored for one Fixture, but is available to all fixtures of that type.
 SOFTKEY		| Menu buttons marked A-J down the side of the screen, which have different functions as shown on the adjacent part of the screen depending on the currently active menu.
-SPREAD		| How a shape or effect is output across a group of fixtures – if zero, all fixtures operate in synchronisation. Also called Phase.
+SPREAD		| How a shape or effect is output across a group of fixtures – if 1, all fixtures operate in synchronisation. In conjunction with Phase.
 STACK		| Another name for a Cue List.
 SUBFIXTURE	| See Cell.
 SWOP		| Type of flash button which turns on the output being flashed and turns off all other output while the button is pressed. Sometimes called “Solo”. Also used for selecting fixtures or playbacks when programming. See also FLASH.

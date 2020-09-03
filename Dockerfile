@@ -1,5 +1,8 @@
 FROM homebrew/brew as builder
 
+# Has to be installed like this for reasons... https://github.com/Homebrew/linuxbrew-core/issues/4808
+RUN brew install -s perl
+
 RUN brew install \
     node \
     pandoc \
@@ -14,7 +17,7 @@ RUN wget http://mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh \
 # LaTeX packages
 RUN tlmgr update --self
 
-# get font files 
+# get font files
 RUN fmtutil-sys --all
 
 RUN tlmgr install \
