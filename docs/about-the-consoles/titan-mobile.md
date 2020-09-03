@@ -46,7 +46,7 @@ The right hand side of the display shows what each one will do. - if you are usi
 a touch screen computer you can touch the softkey onscreen instead of using these
 buttons. The options for each 
 key change depending on what the console is doing. Softkey commands are shown 
-in the manual like this: /[Edit Times/]
+in the manual like this: \[Edit Times\]
 
 ## The Screen
 
