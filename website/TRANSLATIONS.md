@@ -6,7 +6,16 @@ Otherwise, if you are an Avolites Distributor and need to perform translations, 
 
 # Before you start
 
-It is important that you don't edit the ids or names of the files.
+It is important that you don't edit anything in the header section of the markdown files. eg.
+
+```
+id: version-13.0-introduction
+title: Quick Start
+sidebar_label: Quick Start
+original_id: introduction
+```
+
+This data is translated in the i18n folder. Do not rename the files.
 
 # Basic User steps
 
