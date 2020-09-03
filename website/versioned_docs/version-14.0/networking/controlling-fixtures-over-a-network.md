@@ -107,7 +107,7 @@ Art-Net DMX output box (such as an Artistic License Net-Lynx) via a
 network hub.
 
 ![Art Net Explanation Simple
-System](/docs/images/Art-Net-Explanation-Simple-System.jpeg)Using standard RJ45 ethernet cables,
+System](/docs/images/Art-Net-Explanation-Simple-System.jpeg)Using standard RJ45 Ethernet cables,
 attach the devices together.
 
 -   If you are using a hub/switch as shown above, use straight-through
@@ -188,7 +188,7 @@ button.
     5th, 6th, etc universes.
 
 -   An unknown device is one which doesn't format an Art-Net poll reply
-    properly so the console doesn\'t known if it is an input or output
+    properly so the console doesn't known if it is an input or output
     device.
 
 Additional Art-Net Resources

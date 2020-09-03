@@ -58,7 +58,7 @@ point.
 IP 10.\*.\*.\*\].
 
 4. On the mobile device, go to WiFi settings or Network Settings and
-ensure Wi-Fi is set to on.
+ensure WiFi is set to on.
 
 5. Select the wireless network from the list, the name you took note of
 earlier. The mobile device should automatically get an IP address from

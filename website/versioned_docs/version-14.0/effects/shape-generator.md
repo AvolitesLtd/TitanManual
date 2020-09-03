@@ -28,7 +28,7 @@ shapes, preventing them from appearing on the lights. For example, if
 some fixtures are running a Circle shape, and then a playback is fired
 which has a Position Mask Shape programmed for some of the fixtures, those fixtures
 will stop running the circle shape. This can be very useful to modify
-playbacks at showtime. See
+playbacks at show time. See
 the [Mask FX](shape-generator.md#masking-shapes-using-mask-fx) section below for details.
 
 
@@ -90,9 +90,9 @@ a particular shape.
     shapes separately to give different directions, speeds etc (see
     [later](#changing-size-and-speed-of-a-shape))
 
--   If the selected fixture has subfixtures (cells) then you will be
+-   If the selected fixture has sub-fixtures (cells) then you will be
     given the option to run the shape on the main fixture, keeping all
-    cells identical, or spread across the subfixtures/cells. The options
+    cells identical, or spread across the sub-fixtures/cells. The options
     are:
     -   \[Run on Super Fixtures\] - cells are ignored, fixture operates as one
     block
@@ -259,13 +259,13 @@ Masking shapes using Mask FX
 It is often useful to be able to partially or completely stop a running shape, for example
 to freeze the look at the end of a song or to modify the look for different moments.
 
-The \[Mask Fx\] softkey on the Shapes and Effects menu allows you to record a mask which will
+The \[Mask FX\] softkey on the Shapes and Effects menu allows you to record a mask which will
 stop shapes (both normal shapes and key frame shapes). The mask can be set to stop all shapes on all fixtures, or only shapes controlling certain attributes. You 
 can also select certain fixtures for the mask and leave other fixtures unaffected.
 
 To create a mask:
 
-1.	Press \[Mask Fx\] on the Shapes and Effects menu.
+1.	Press \[Mask FX\] on the Shapes and Effects menu.
 
 2.	The Attribute Bank buttons (Position, Colour etc) will flash. Choose which attributes you want to mask
 	by toggling the buttons on and off.

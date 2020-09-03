@@ -13,21 +13,21 @@ Arena console.**
 Optical Connections
 -------------------
 
-The optical network connector is a Neutrik opticalCon Duo which uses
+The optical network connector is a Neutrik opticalCON Duo which uses
 multimode fibre. A single connector is fitted as standard, but a second
 can be fitted on request. The stage end of the connection normally plugs
 into the Avolites TitanNet Switch (TNS) rack unit which provides
-standard wired ethernet connections. If you want to connect to a
+standard wired Ethernet connections. If you want to connect to a
 different optical switch you should contact Avolites for advice.
 
 Wired Ethernet Outputs
 ----------------------
 
-The Arena console has an in-built 1Gb TitanNet switch (TNS) that is
+The Arena console has an in-built 1GB TitanNet switch (TNS) that is
 directly connected to the console Main board on network connection 1.
 The network switch has 4 ports available on the back of the console.
 
-The mainboard Network Connection 2 is available on the EtherCon
+The mainboard Network Connection 2 is available on the etherCON
 connector at the back of the console and marked as "secondary Ethernet"
 on the back. We recommend that this should only be used if you need to
 connect to two different networks, for example the show network and an

@@ -48,6 +48,14 @@ xxx
 600s
 2000s
 
+50Hz
+140Hz
+380Hz
+875Hz
+2400Hz
+6200Hz
+14000Hz
+
 x1
 x2
 x4
@@ -104,6 +112,7 @@ c2o
 # words which could be hyphenated
 crossfade
 crossfader
+crossfades
 keypress
 keypresses
 multimode

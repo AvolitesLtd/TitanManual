@@ -82,7 +82,7 @@ Manual Crossfader | The fader behaves as a manual crossfade control, and the cue
 
 When the fader is in **Manual Crossfader** mode:
 - A running fade can be "captured" onto the fader for manual control by matching the fader position.
-- When firing a cuelist in manual crossfade the intensity snaps to full when the fader leaves zero.
+- When firing a cue list in manual crossfade the intensity snaps to full when the fader leaves zero.
 - [Shapes](../effects/shape-generator.md) and [Pixel Mapper](../effects/pixel-mapper.md) effects will fade in with the manual crossfade, but when the fader returns to 0 they are not removed so may still affect the output.
 - [Autoloads](../cue-lists/creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list) in the cue list will use their programmed fade times, regardless of the manual crossfade performed by the fader.
 - Partially completed crossfades can be completed by pressing \[Go\].

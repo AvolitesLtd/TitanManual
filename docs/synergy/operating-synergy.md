@@ -249,7 +249,7 @@ Once your [Key Frame Shape is created](../effects/key-frame-shapes.md#creating-a
 the bottom of the shape options screen and select the Ai screen you want
 to use as the video source.
 
-![Phase Master using Ai screen in Key Frame Shape](/docs/images/Phase-Master-using-Ai-screen-in-Key Frame-Shape.png)
+![Phase Master using Ai screen in Key Frame Shape](/docs/images/Phase-Master-using-Ai-screen-in-Keyframe-Shape.png)
 
 Special function bank/clip numbers
 ----------------------------------

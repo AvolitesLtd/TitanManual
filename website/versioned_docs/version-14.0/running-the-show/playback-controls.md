@@ -8,13 +8,13 @@ original_id: playback-controls
 Back up the show
 ----------------
 
-At regular intervals while you are programming, and when you have finished programming (or you've run out of time) and it's showtime, the most important thing is to [save the show](../titan-basics/loading-and-saving-shows.md#saving-the-show). It is wise to also make a separate copy of show by saving it to a USB drive, enabling you to swap to a different console if there are
+At regular intervals while you are programming, and when you have finished programming (or you've run out of time) and it's show time, the most important thing is to [save the show](../titan-basics/loading-and-saving-shows.md#saving-the-show). It is wise to also make a separate copy of show by saving it to a USB drive, enabling you to swap to a different console if there are
 problems.
 
 Label the console
 -----------------
 
-When you are running your show you will need to know where everything is. Use the Legend functions to set onscreen labels, or you can't beat the low tech method of marker pen and tape.
+When you are running your show you will need to know where everything is. Use the Legend functions to set on screen labels, or you can't beat the low tech method of marker pen and tape.
 
 Grand Master fader and assignable masters
 -----------------------------------------
@@ -343,7 +343,7 @@ is sometimes called "busking", and is where the fun starts!
 
 You can create instant variations by recalling palette values to modify
 your existing cues. Palette values can have fade times saved with them,
-or you can set a fade at showtime for added effect.
+or you can set a fade at show time for added effect.
 
 1. Select some fixtures which are already in use on stage.
 

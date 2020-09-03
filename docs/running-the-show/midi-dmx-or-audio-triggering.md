@@ -206,7 +206,7 @@ shows the levels in the different bands of incoming audio.
 
 If the console does not have suitable hardware a warning message is
 displayed (see [top of page](./midi-dmx-or-audio-triggering.md#) for list of 
-audi-enabled consoles).
+audio-enabled consoles).
 
 -   The Enable switch below the gain slider disables all audio triggers
 

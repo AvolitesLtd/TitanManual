@@ -232,7 +232,7 @@ independently, use the Attribute Editor window or you can press
 \<Unfold\> then the select button of the fixture. In the Fixtures
 workspace, the current page of fixtures will be replaced by select
 buttons for each individual fixture cell. If patched on a fader then the
-cells will start at fader 1. You can also select subfixtures from the
+cells will start at fader 1. You can also select sub-fixtures from the
 numeric keypad. See the [fixture control section](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fixtures-with-multiple-cells-subfixtures) for more details of
 working with fixture cells.
 
@@ -264,7 +264,7 @@ interrogate the lighting rig to find out what's there. It can then patch
 itself to match the existing DMX addresses. You can also remotely change
 modes and other settings on the fixture.
 
-> The fixtures need to be connected to the console by an RDM-enabled Artnet node, the XLR connectors do not support RDM. Obviously the fixtures must be equipped with RDM for this to work; many fixtures are not. Also if you have DMX buffers or splitters in your rig, they must be RDM enabled or they will block the information being sent back to the console.
+> The fixtures need to be connected to the console by an RDM-enabled Art-Net node, the XLR connectors do not support RDM. Obviously the fixtures must be equipped with RDM for this to work; many fixtures are not. Also if you have DMX buffers or splitters in your rig, they must be RDM enabled or they will block the information being sent back to the console.
 
 Press \<View/Open\> then \<Patch\> to open the [Patch View](./changing-the-patch.md#patch-view) window then
 select the RDM tab. All devices which support RDM will be listed here.

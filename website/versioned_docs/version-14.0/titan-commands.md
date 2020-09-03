@@ -173,25 +173,25 @@ Times
 -----
 
 **\<Time\> 5**\
-5sec fade in
+5 sec fade in
 
 **\<Cue\> 3 \<Time\> 5**\
-5sec fade in on connected playback\'s cue 3
+5 sec fade in on connected playback\'s cue 3
 
 **\<Time\> \<Fixture\> 5**\
-5sec fade in for all attributes of selected fixtures
+5 sec fade in for all attributes of selected fixtures
 
 **\<Time\> \<Fixture\> \<Gobo\> 5**\
-5sec fade in for gobo attribute group of selected fixtures
+5 sec fade in for gobo attribute group of selected fixtures
 
 **\<Time\> \<Fixture\> \<@\> \<B@\> 5**\
-5sec fade in for attribute connected to wheel B on selected fixtures
+5 sec fade in for attribute connected to wheel B on selected fixtures
 
 **\<Time\> 5 \<@\> 3**\
-5sec fade in, 3 sec delay
+5 sec fade in, 3 sec delay
 
 **\<Time\> 5 \<And\> 2**\
-5sec fade in, 2sec fade out
+5 sec fade in, 2 sec fade out
 
 **\<Time\> 1 \<Through\> 10**\
 times spread across fixtures according to selection order

@@ -23,7 +23,7 @@ next to the screen.
 The vertical bar to the left of the softkeys shows you which menu you
 are currently in. You can \'latch\' the menu to keep the current command
 active (so that you don't have to keep reselecting it) by pressing the
-Menu Latch button (ML Menu on Pearl Expert & Tiger Touch Mk1). The menu
+Menu Latch button (ML Menu on Pearl Expert & Tiger Touch 1). The menu
 bar turns red when latched. This is useful for example when copying or moving
 playbacks to rearrange the console.
 
@@ -96,7 +96,7 @@ you to change the operating system configuration.
 **Touch Screen Setup** (in Control Panel) opens the setup utility which
 allows you to align touch positions on the screen.
 
-**Usb Expert Console** (in Control Panel) sets up the connection between
+**USB Expert Console** (in Control Panel) sets up the connection between
 the front panel controls and the software. If you are having problems
 this can be used to troubleshoot.
 

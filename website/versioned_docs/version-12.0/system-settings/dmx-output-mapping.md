@@ -82,7 +82,7 @@ This allows you to adjust settings for each module, and to select which
 network adapter to use to output the protocol. All consoles except
 Quartz and Expert have two network adapters, Quartz has one, and on
 Titan Mobile and Simulator this depends on your computer; many laptops
-will have a wired network adapter and also a Wi-Fi (wireless) adapter,
+will have a wired network adapter and also a WiFi (wireless) adapter,
 both of which will be shown.
 
 ### sACN Properties
