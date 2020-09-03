@@ -1,7 +1,6 @@
 import React from 'react';
-import { View } from 'react-native'
+import { Share, View } from 'react-native'
 import { WebView } from 'react-native-webview';
-import { Entypo } from '@expo/vector-icons'; 
 
 import AvoWebViewControl from './AvoWebViewControl'
 import styles from '../style/styles'
@@ -10,26 +9,39 @@ export default class AvoWebView extends React.Component {
   constructor (props) {
     super(props)
 
+    this.startingUrl = 'https://manual.avolites.com/docs/introduction/'
+
     this.state = {
       canGoBack: false,
       canGoForward: false,
+      title: 'Avolites Titan Manual',
+      url: this.startingUrl,
     }
   }
   
-  handleBackButton = () => {
+  handleBack = () => {
     if (this.state.canGoBack) 
       this.webView.goBack()
   }
   
-  handleForwardButton = () => {
+  handleForward = () => {
     if (this.state.canGoForward) 
       this.webView.goForward()
+  }
+  
+  handleShare = () => {
+    Share.share({
+      message: this.state.title,
+      url: this.state.url
+    });
   }
 
   onNavigationStateChange(navState) {
     this.setState({
       canGoBack: navState.canGoBack,
-      canGoForward: navState.canGoForward
+      canGoForward: navState.canGoForward,
+      title: navState.title,
+      url: navState.url,
     })
   }
 
@@ -39,7 +51,7 @@ export default class AvoWebView extends React.Component {
         <View
           style={styles.AvoWebViewContainer}>
           <WebView
-            source={{ uri: 'https://manual.avolites.com/docs/introduction/' }}
+            source={{ uri: this.startingUrl }}
             style={styles.AvoWebView}
             ref={webView => (this.webView = webView)}
             onNavigationStateChange={this.onNavigationStateChange.bind(this)}
@@ -49,24 +61,23 @@ export default class AvoWebView extends React.Component {
           style={styles.AvoWebViewControls}>
           <AvoWebViewControl
             symbol="chevron-left"
-            onTouchEnd={() => this.handleBackButton()}
+            onTouchEnd={() => this.handleBack()}
             enabled={this.state.canGoBack}
           />
 
           <AvoWebViewControl
             symbol="chevron-right"
-            onTouchEnd={() => this.handleForwardButton()}
+            onTouchEnd={() => this.handleForward()}
             enabled={this.state.canGoForward}
           />
 
           <AvoWebViewControl
             symbol="share"
-            onTouchEnd={() => this.handleBackButton()}
+            onTouchEnd={() => this.handleShare()}
           />
 
           <AvoWebViewControl
             symbol="menu"
-            onTouchEnd={() => this.handleBackButton()}
           />
         </View>
       </View>

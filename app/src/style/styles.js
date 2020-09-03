@@ -29,7 +29,7 @@ export default StyleSheet.create({
   AvoWebViewControls: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    padding: 10,
+    padding: 8,
   },
 
   AvoWebViewControl: {

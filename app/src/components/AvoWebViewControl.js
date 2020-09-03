@@ -13,7 +13,7 @@ export default class AvoWebViewControl extends React.Component {
         onTouchEnd={this.props.onTouchEnd}>
         <Entypo
           name={this.props.symbol}
-          size={30}
+          size={28}
           color={this.props.enabled === false ? theme.colors.grey : 'white'}
           />
       </View>
