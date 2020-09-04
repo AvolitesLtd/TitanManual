@@ -19,6 +19,13 @@ This data is translated in the i18n folder.
 
 # Basic User steps
 
+Prerequisites
+------------
+1. A github account
+
+Instructions
+------------
+
 1. Contact Avolites Support support@avolites.com and request your language to be added.
 2. The support agent will let you know what branch to work on your translations in for example `feature/german`
 3. Create a fork of the repository
@@ -35,7 +42,7 @@ For example: https://github.com/AvolitesLtd/TitanManual/tree/feature/translation
 
 # Advanced User Steps
 
-Pre Requisites
+Prerequisites
 -------------
 
 1. Node.js installed
