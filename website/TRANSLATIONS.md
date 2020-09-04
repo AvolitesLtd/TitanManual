@@ -25,7 +25,7 @@ This data is translated in the i18n folder.
 4. On github.com navigate to
 `https://github.com/USER/TitanManual/tree/BRANCH/website/translated_docs/LANGUAGE/VERSION/`
 Replacing USER, BRANCH, LANGUAGE and VERSION as required.
-For example: `https://github.com/AvolitesLtd/TitanManual/tree/feature/translations/website/translated_docs/de/version-13.0`
+For example: https://github.com/AvolitesLtd/TitanManual/tree/feature/translations/website/translated_docs/de/version-13.0
 
 5. Translate the files using the edit button.
 6. Translate the file at `website/i18n/XX.json`. Where XX is your language code.
