@@ -1,7 +1,7 @@
 ---
-id: using-a-cue
-title: Using a Cue
-sidebar_label: Using a Cue
+id: cue-playback
+title: Cue Playback
+sidebar_label: Cue Playback
 ---
 
 Because it's possible to play back a large number of cues at the same
