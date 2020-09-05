@@ -212,15 +212,15 @@ jobs:
           timeoutSeconds: 1800
 
       - name: Copy JSON download files from build
-          uses: Pendect/action-rsyncer@v1.1.0
-          env:
-            DEPLOY_KEY: ${{secrets.AVO_DEPLOY_KEY}}
-          with:
-            flags: '-avzr --include="*/" --exclude="*" --include="*.json"'
-            options: ''
-            ssh_options: ''
-            src: 'web@51.104.240.248:/var/www/html/manuals/titan/download/'
-            dest: 'website/static/download/'
+        uses: Pendect/action-rsyncer@v1.1.0
+        env:
+          DEPLOY_KEY: ${{secrets.AVO_DEPLOY_KEY}}
+        with:
+          flags: '-avzr --include="*/" --exclude="*" --include="*.json"'
+          options: ''
+          ssh_options: ''
+          src: 'web@51.104.240.248:/var/www/html/manuals/titan/download/'
+          dest: 'website/static/download/'
 
       - name: npm install & build
         run: |
