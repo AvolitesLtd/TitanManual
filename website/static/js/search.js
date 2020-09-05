@@ -11,6 +11,12 @@ var options = {
   }, {
     name: 'content',
     weight: 0.3
+  }, {
+    name: 'desc',
+    weight: 0.5
+  }, {
+    name: 'tags',
+    weight: 0.8
   }]
 };
 var fuse = new Fuse(list, options); // "list" is the item array

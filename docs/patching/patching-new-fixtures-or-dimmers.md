@@ -2,6 +2,7 @@
 id: patching-new-fixtures-or-dimmers
 title: Patching New Fixtures or Dimmers
 sidebar_label: Patching new Fixtures or Dimmers
+tags: fixture
 ---
 
 Fixture Select Buttons and Handles
