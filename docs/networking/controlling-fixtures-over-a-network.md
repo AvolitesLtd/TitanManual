@@ -20,7 +20,7 @@ Control Panel as shown on page 345.
 
 3. Press \[Subnet Mask\] and ensure it is set to `255.255.255.0`
 
-4. Press \[Set IP `2.\*.\*.\*\`]
+4. Press \[Set IP `2.*.*.*`\]
 
 5. Press \[Save settings\]
 
