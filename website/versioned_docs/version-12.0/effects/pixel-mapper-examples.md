@@ -283,7 +283,7 @@ The Layout Editor's context menu has some useful tools for laying out
 fixtures quickly.
 
 **Arrange Fixtures:** This is a very useful tool to quickly layout
-fixtures in a grid. For example you might have 20x Colourblocks across
+fixtures in a grid. For example you might have 20x colour blocks across
 four towers, each with five blocks.
 
 1. Select the fixtures and create a group

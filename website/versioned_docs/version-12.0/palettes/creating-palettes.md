@@ -253,7 +253,7 @@ Creating an Effects Palette (Shape or Pixel Mapper)
 ---------------------------------------------------
 
 Speed up your programming by creating some palettes which apply [shapes
-or pixel mapping effects](../effects.md). You can't save a keyframe shape to a palette.
+or pixel mapping effects](../effects.md). You can't save a key frame shape to a palette.
 
 For an effects palette to be useful, it needs to contain only effect
 settings (for example, for a pan/tilt circle you want it to move the

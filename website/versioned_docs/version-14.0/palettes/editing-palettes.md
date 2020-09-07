@@ -47,7 +47,7 @@ Changing the Content of Palettes
 --------------------------------
 
 To edit a palette entry, press \<Edit\> (\<Update Palette\> on Pearl
-Expert and Tiger Touch mk1), then select the palette to edit. For Normal
+Expert and Tiger Touch 1), then select the palette to edit. For Normal
 palettes this will automatically select the fixtures used in the
 palette; for Shared palettes the first fixture in the palette will be
 selected. Next, make the changes you want, then press the \[Update

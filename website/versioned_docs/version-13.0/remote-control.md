@@ -6,7 +6,7 @@ original_id: remote-control
 ---
 
 With the addition of an external Wireless Access Point, the console can
-be remote controlled using **Wi-Fi** from an [Android](https://play.google.com/store/apps/developer?id=Avolites+Ltd) or [iOS](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps) mobile device
+be remote controlled using **WiFi** from an [Android](https://play.google.com/store/apps/developer?id=Avolites+Ltd) or [iOS](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps) mobile device
 such as a smartphone or tablet. This can be invaluable when rigging,
 testing and focusing. You can also run and store playbacks and palettes
 from the remote.

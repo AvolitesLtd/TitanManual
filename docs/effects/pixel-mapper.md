@@ -122,7 +122,7 @@ may vary depending on the particular effect but may include:
 
 - Spawn Random *(adds a random factor to the spawn rate)*
 
-- Spawn For *(sets how many elements will be spawned, after this no mor
+- Spawn For *(sets how many elements will be spawned, after this no more
 will appear)*
 
 - Run For / And Then *(for each element, sets how many cycles it runs for,
@@ -241,7 +241,7 @@ effect on all fixtures or on a group of fixtures.
 
 To create a Mask Effect:
 
-1.	Press \[Mask Fx\] on the Shapes and Effects menu.
+1.	Press \[Mask FX\] on the Shapes and Effects menu.
 
 2.	If no fixtures are selected the mask will apply to all fixtures. If some fixtures are selected the mask will only apply to those fixtures.
 

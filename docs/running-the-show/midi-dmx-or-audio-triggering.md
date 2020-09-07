@@ -103,7 +103,7 @@ trigger. Select \[Trigger Type\] as Audio, DMX, GPIO, MIDI or Streaming ACN.
 	-	For Audio, set the \[Band\] (frequency band) for the trigger (see [Audio Control](./midi-dmx-or-audio-triggering.md#audio-control-sound-to-light))
 	-	For DMX, press
 		\[DMX Port\] to select which DMX port you are using for DMX input. You
-		will need to switch the DMX port to Rx mode using the menu option
+		will need to switch the DMX port to RX mode using the menu option
 		provided. Set the DMX address to act as trigger using the \[Address\] button.
 	-	For GPIO, you can \[Invert\] the trigger (to trigger on contact open rather than close).
 		The Pin option allows multiple GPIO inputs but currently no consoles support this, so it should be set to 1.
@@ -136,7 +136,7 @@ You can continue to add other triggers to the mapping.
 
 This is how to set up a MIDI fader controller to act as playback faders
 on T2. Ensure your MIDI device is connected and recognised by Windows
-(you can use a utlity such as Midi-OX to test it).
+(you can use a utility such as Midi-OX to test it).
 
 1. Enter System mode and select \[Triggers\].
 
@@ -206,7 +206,7 @@ shows the levels in the different bands of incoming audio.
 
 If the console does not have suitable hardware a warning message is
 displayed (see [top of page](./midi-dmx-or-audio-triggering.md#) for list of 
-audi-enabled consoles).
+audio-enabled consoles).
 
 -   The Enable switch below the gain slider disables all audio triggers
 

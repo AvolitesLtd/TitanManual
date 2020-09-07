@@ -8,7 +8,7 @@ original_id: effects
 The **Shape Generator** in Titan *(sometimes known as an Effects Generator on
 other consoles)* allows you to quickly create exciting light shows using
 lots of movement and changes, with the minimum of programming. A range
-of speed controls allow you to modify how the shapes appear at showtime
+of speed controls allow you to modify how the shapes appear at show time
 giving you a whole range of effects from a few basic stored [cues](cues.md).
 
 You can use the conventional 

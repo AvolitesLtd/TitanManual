@@ -126,9 +126,9 @@ window, making selection easier.
 In the FX attributes, the effects names are pulled live from the Ai
 server. This means the names you are shown will always match what's
 on the server. It's also good for generative plugins where you
-define the Fx names.
+define the FX names.
 
-> If you select layers then press \<Locate\>, the layer intensity will be set to full but all media and fx will be cleared. This is useful to get a layer back to a known state, but you don't get any output. **To get some output you will need to then select a media clip**.
+> If you select layers then press \<Locate\>, the layer intensity will be set to full but all media and FX will be cleared. This is useful to get a layer back to a known state, but you don't get any output. **To get some output you will need to then select a media clip**.
 
 The Clip selection window also shows you the progress of clips being
 transcoded by the Ai server.
@@ -209,7 +209,7 @@ this option displays the sample regions overlaid on the layout grid.
 
 ### Position Overlay
 With this option turned on, when you select a
-fixture in the layout editor, crosshairs will be displayed on the actual
+fixture in the layout editor, cross-hairs will be displayed on the actual
 Ai output. This helps you to accurately position the fixture in the
 layout editor to match where it is in real life.
 
@@ -236,20 +236,20 @@ button until it shows \[Fixture Scale\]. If a multi-celled fixture is
 scaled down to minimum size, the cells will disappear and it will act as
 a single cell.
 
-Phase control of Keyframe Shapes from Ai
+Phase control of Key Frame Shapes from Ai
 ----------------------------------------
 
-You can control the phase of Keyframe Shapes using the intensity of a
+You can control the phase of Key Frame Shapes using the intensity of a
 video layer from Ai. This allows you to create some weird and wonderful
 effects as you can make the lights do pretty much anything in response
 to the video signal. The phase is controlled from 0-360 degrees as the
 video intensity where the fixture is located goes from 0-100%.
 
-Once your [Keyframe Shape is created](../effects/key-frame-shapes.md#creating-a-key-frame-shape), go to the [Phase Master option](../effects/key-frame-shapes.md#changing-shape-parameters-in-the-effect-editor) at
+Once your [Key Frame Shape is created](../effects/key-frame-shapes.md#creating-a-key-frame-shape), go to the [Phase Master option](../effects/key-frame-shapes.md#changing-shape-parameters-in-the-effect-editor) at
 the bottom of the shape options screen and select the Ai screen you want
 to use as the video source.
 
-![Phase Master using Ai screen in Keyframe Shape](/docs/images/Phase-Master-using-Ai-screen-in-Keyframe-Shape.png)
+![Phase Master using Ai screen in Key Frame Shape](/docs/images/Phase-Master-using-Ai-screen-in-Keyframe-Shape.png)
 
 Special function bank/clip numbers
 ----------------------------------

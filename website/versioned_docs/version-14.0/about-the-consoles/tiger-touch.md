@@ -22,7 +22,7 @@ page and softkey buttons on the top right of the screen.
 \(D\) The **Programming and setup controls** configure and program the
 console.
 
-> The Mk.1 version of the Tiger Touch has a slightly different
+> The first version of the Tiger Touch has a slightly different
 front panel layout.
 
 

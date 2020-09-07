@@ -23,8 +23,8 @@ change the speed, size and spread. If there are more than 3 parameters
 to control, \[Softkey G\] will change the wheels to different options.
 
 -   If the shapes are in a cue, changes you make here will be
-    automatically stored in the cue (like [speed and crossfade are when
-    you are running a chase](../chases/chase-playback.md#setting-speed-and-crossfade-for-a-chase)).
+    automatically stored in the cue (like
+    [speed and crossfade are when you are running a chase](../chases/chase-playback.md#setting-speed-and-crossfade-for-a-chase)).
 
 -   To control other attributes using the wheels while in this mode,
     press an attribute button. To get back to shape mode press \<Shape\>

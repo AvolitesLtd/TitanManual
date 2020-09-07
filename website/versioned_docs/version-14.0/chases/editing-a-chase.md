@@ -76,6 +76,6 @@ Include. Press \<Include\>, select the chase, then enter the step number to
 be included, then press \[Include Cue\].
 
 This is useful if you want to reuse a state from a cue in another
-chase or as a standalone cue. It is also useful if you want to edit
+chase or as a stand-alone cue. It is also useful if you want to edit
 shapes/effects in a step, although you can also do this from the
 [Playback View window](#opening-a-chase-for-editing).

@@ -140,7 +140,7 @@ match before they can take over. If different handle worlds are
 selected, users can work independently on their own pool of handles.
 
 > All consoles in a session using the same user & handle world will
-  share the same connected handle. If this is not the dersired
+  share the same connected handle. If this is not the desired
   behaviour, then  the other consoles in the session will require
   their own user/handle world.
 

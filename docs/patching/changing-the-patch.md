@@ -2,6 +2,7 @@
 id: changing-the-patch
 title: Changing the Patch
 sidebar_label: Changing the Patch
+tags: park
 ---
 
 Patch View
@@ -24,7 +25,7 @@ Each fixture has a unique colour code. Click on these buttons to filter
 the view so it only shows one fixture type.
 
 **Line:** lists the available DMX output lines/universes. The blue
-bargraph in the button shows how much of the line is used by patched
+bar graph in the button shows how much of the line is used by patched
 fixtures and how much is free. Click a button to show the details of
 that line in the right hand side of the window.
 
@@ -136,8 +137,8 @@ output line number.
     using the \[Unpark\] option.
 
 -   If the new DMX address already has another fixture or dimmer patched
-    on it, the console will warn you (unless this is disabled in [User
-    Settings](../system-settings/user-settings.md)). You can either press
+    on it, the console will warn you (unless this is disabled in
+    [User Settings](../system-settings/user-settings.md)). You can either press
     \[Select another DMX address\] to abort the change or \[Park
     Conflicting Fixtures\]. All programming for the parked fixture is
     preserved, but you need to repatch it to a free DMX address using
@@ -332,9 +333,9 @@ new destination.
     All these actions have to be confirmed by pressing the \[Confirm\]
     softkey.
 
-![Exchange Mapping](/docs/images/Exchange-Mapping.png)
+### Range Mapping
 
-**Range mapping**
+![Exchange Mapping with range mapping](/docs/images/Exchange-Mapping-Range-Mapping.png)
 
 If the destination function has a range (for example 0-100%) you can
 adjust the range to which the source function is mapped.
@@ -353,7 +354,7 @@ touch consoles or by selecting the relevant softkey and entering the
 value.
 
 Once complete, click Apply then \[Confirm\] to commit the changes or
-Cancel then \[Confirm\] to forget.
+\[Cancel\] then \[Confirm\] to forget.
 
 Updating Patched Personalities
 ------------------------------

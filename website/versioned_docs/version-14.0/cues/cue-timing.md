@@ -15,7 +15,7 @@ When programming a cue, you can set a delay, fade in and fade out time
 for each attribute of each fixture, or globally for the cue. Shapes in
 the cue will also be affected, depending on the [fade mode](#fade-modes).
 
-> If you enter times more than 60 seconds, Titan will automatically split the time into minutes and seconds, for example enter **115** to set **1:15** *(1min 15 seconds)*. Entering more digits will set hours, minutes, seconds.
+> If you enter times more than 60 seconds, Titan will automatically split the time into minutes and seconds, for example enter **115** to set **1:15** *(1 min 15 seconds)*. Entering more digits will set hours, minutes, seconds.
 
 You can delay the fade times between fixtures in a cue so that the cue
 is applied sequentially to each fixture. This is called **Fixture Overlap**

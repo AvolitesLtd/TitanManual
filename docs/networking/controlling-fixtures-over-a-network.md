@@ -20,7 +20,7 @@ Control Panel as shown on page 345.
 
 3. Press \[Subnet Mask\] and ensure it is set to `255.255.255.0`
 
-4. Press \[Set IP `2.\*.\*.\*\`]
+4. Press \[Set IP `2.*.*.*`\]
 
 5. Press \[Save settings\]
 
@@ -106,7 +106,7 @@ Art-Net DMX output box (such as an Artistic License Net-Lynx) via a
 network hub.
 
 ![Art Net Explanation Simple
-System](/docs/images/Art-Net-Explanation-Simple-System.jpeg)Using standard RJ45 ethernet cables,
+System](/docs/images/Art-Net-Explanation-Simple-System.jpeg)Using standard RJ45 Ethernet cables,
 attach the devices together.
 
 -   If you are using a hub/switch as shown above, use straight-through
@@ -187,7 +187,7 @@ button.
     5th, 6th, etc universes.
 
 -   An unknown device is one which doesn't format an Art-Net poll reply
-    properly so the console doesn\'t known if it is an input or output
+    properly so the console doesn't known if it is an input or output
     device.
 
 Additional Art-Net Resources

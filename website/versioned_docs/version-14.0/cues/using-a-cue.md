@@ -140,8 +140,8 @@ Workspace Window\], \[Active Playbacks\].
 
 ![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
 
-Click on a playback to instantly **kill** it. You can also press \[Playback
-Options\] followed by the playback in this window to change parameters
+Click on a playback to instantly **kill** it. You can also press \[Options\] 
+followed by the playback in this window to change parameters
 of the playback.
 
 Speed and Size Masters

@@ -164,7 +164,7 @@ using [Unfold](#editing-a-cue-list-using-unfold).
 1. **Fire the cue list** by raising its fader.
 
 2. Use **Wheel A** to select the cue number you want to change then the
-\<Go\> button to jump to it. *(On Pearl Expert/TT Mk1 press the white ↔
+\<Go\> button to jump to it. *(On Pearl Expert/Tiger Touch 1 press the white ↔
 button above the Snap Back button instead of \<Go\>)*
 
 3. Press \<Clear\> to make sure the programmer is empty.
@@ -173,9 +173,9 @@ button above the Snap Back button instead of \<Go\>)*
 
 5. Press \<Record\> then \<Connect\>, then select \[Replace\],
 \[Merge\] or \[Insert After\] to save the changes. *(On Pearl Expert and
-TT Mk1 use the Rec Step button)*
+Tiger Touch 1 use the Rec Step button)*
 
-6. Press the \<Go\> button *(on Pearl Expert and TT Mk1 the white ↔
+6. Press the \<Go\> button *(on Pearl Expert and Tiger Touch 1 the white ↔
 button)* to jump on to the next step.
 
 ### Edit Times of a Running Cue List
@@ -186,7 +186,7 @@ Time\> buttons *(not on all consoles)* as follows:
 1. **Fire the cue list** by raising its fader.
 
 2. Use **Wheel A** to select the cue number you want to change then the
-\<Go\> button to jump to it (on Pearl Expert and TT Mk1 the white ↔
+\<Go\> button to jump to it (on Pearl Expert and Tiger Touch 1 the white ↔
 button)
 
 3. Press \<Live Time\> to set the times for the current step, or
@@ -198,7 +198,7 @@ you want (see [Cue List Timing](cue-list-timing.md) for a description of the
 times). If you set the \[Link to next step\] option to On, then the
 next cue will not wait for the \<Go\> button.
 
-5. Press the \<Go\> button *(on Pearl Expert and TT Mk1 the white ↔
+5. Press the \<Go\> button *(on Pearl Expert and Tiger Touch 1 the white ↔
 button)* to jump on to the next step.
 
 The **Review** button lets you test the live step with the new timings.
@@ -240,7 +240,7 @@ Update Mode | Action
 Updating Values in a Range of Cues
 ----------------------------------
 
-You can **merge** or **replace** values in a range of cues in a cuelist (or a
+You can **merge** or **replace** values in a range of cues in a cue list (or a
 chase). This can be done either from the keypad or from the [Playback
 View](#playback-view-window).
 

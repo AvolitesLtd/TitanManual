@@ -91,7 +91,7 @@ Left](/docs/images/Sapphire-Manual-Back-Panel-Left.jpeg)All the connections requ
 console are found on the back panel.
 
 On the left hand side are connectors for eight DMX512 outputs, MIDI,
-ethernet, and a DVI/USB connection for an external touch screen.
+Ethernet, and a DVI/USB connection for an external touch screen.
 
 ![Sapphire Manual Back Panel -
 Right](/docs/images/Sapphire-Manual-Back-Panel-Right.jpeg)

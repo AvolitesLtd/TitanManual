@@ -107,5 +107,5 @@ Macro | Action
 \[Release First Playback\] | Releases the first playback on the currently selected page.
 \[Release First Playback Page 1\] | Releases the first playback on page 1, regardless of current page.
 \[Release Playback 1\] | Releases the playback with user number 1.
-\[Release Me\] | Releases the associated playback (cuelist).\
-\[Goto My Cue 1\] | Go to cue 1 of the associated cuelist.
+\[Release Me\] | Releases the associated playback (cue list).\
+\[Goto My Cue 1\] | Go to cue 1 of the associated cue list.
