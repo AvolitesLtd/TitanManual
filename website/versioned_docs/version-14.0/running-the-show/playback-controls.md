@@ -14,7 +14,7 @@ problems.
 Label the console
 -----------------
 
-When you are running your show you will need to know where everything is. Use the Legend functions to set on screen labels, or you can't beat the low tech method of marker pen and tape.
+When you are running your show you will need to know where everything is. Use the Legend functions to set on-screen labels, or you can't beat the low tech method of marker pen and tape.
 
 Grand Master fader and assignable masters
 -----------------------------------------
@@ -61,7 +61,7 @@ A playback is assigned to a Speed/Size Master by pressing \[Effects\] then \[Spe
 
 -   Free Run (default - no Speed Master. Effect runs at programmed speed)
 
--   BPM 1-4 (override the local speed with a fixed value from the master)
+-   BPM 1-8 (override the local speed with a fixed value from the master)
 
 -   Rate 1-4 (proportionally modify the local speed using the master)
 

@@ -133,7 +133,7 @@ is selected, then the cycles will be set for the selected layer only.
 *This means you can have individual layers running continuously or for
 different numbers of cycles.*
 
-Key Frame shapes can run across **sub fixtures** (cells). This is turned \[Off\]
+Key Frame shapes can run across **sub-fixtures** (cells). This is turned \[Off\]
 by default, but you can select \[On (Group)\] which uses
 the [layout set for the group](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups),
 or \[On (Linear)\] which ignores the layout and just uses the cells in numerical order.

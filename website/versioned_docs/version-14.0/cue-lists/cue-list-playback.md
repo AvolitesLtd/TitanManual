@@ -38,7 +38,7 @@ When times are in progress on a cue, green progress bars are shown in
 the Playback View window - the left hand column shows overall progress,
 and each timing section shows its own progress.
 
-The Playback View will autoscroll to keep the active cue on screen. You
+The Playback View will autoscroll to keep the active cue on-screen. You
 can change the way the autoscroll works using the view options (click
 the options/cog icon at the top of the window).
 
@@ -98,8 +98,7 @@ this by holding down the \<Avo\> button and pressing the blue Select
 button of the cue list's handle.
 
 You can change this in the playback [Options](../cues/playback-options.md) to make the cue list
-automatically clear when the fader reaches zero (press \[Playback
-Options\] at the program menu, then press the Select button of the cue
+automatically clear when the fader reaches zero (press \<Options\> or the menu button \[Options\] at the program menu, then press the Select button of the cue
 list, then select \[Fader\] \[Fader Mode Intensity Kill At 0\].
 
 You can also use [Key Profiles](../system-settings/key-profiles.md#cue-lists) to configure one of the handle buttons to

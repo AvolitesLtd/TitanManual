@@ -63,7 +63,7 @@ cue onto a touch button in the Playbacks window.
 Other useful things to know about recording cues:
 
 -   Cues can be recorded to any fader, the macro/executor buttons or the
-    on screen Playbacks window.
+    on-screen Playbacks window.
 
 -   \[Record Mode\] lets you select:
     -   \[Record By Fixture\] - All attributes of any modified or selected

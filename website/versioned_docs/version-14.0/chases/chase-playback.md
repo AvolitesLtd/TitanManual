@@ -55,7 +55,8 @@ you can choose which chase is connected to the controls using the
 
 -   There is a further option "Auto View on Connect" in the
     [User Settings > Wheels menu](../system-settings/user-settings.md#auto-view-on-connect)
-    which will automatically open the [view window](editing-a-chase.md#opening-a-chase-for-editing)
+    which will automatically open the
+    [view window](editing-a-chase.md#opening-a-chase-for-editing)
     for a chase when you fire the playback. *This is useful to keep the
     correct chase view open as you swap between chases.*
 

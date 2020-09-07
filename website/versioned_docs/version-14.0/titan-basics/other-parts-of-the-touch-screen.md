@@ -88,7 +88,7 @@ depending on the console).
 
 **Help** shows you the online manual.
 
-**Control Panel** opens a sub-menu allowing changes to monitor settings
+**Control Panel** opens a submenu allowing changes to monitor settings
 and to the USB expert console which links the front panel controls to
 the system. The \'More...\' option opens Windows Control Panel allowing
 you to change the operating system configuration.

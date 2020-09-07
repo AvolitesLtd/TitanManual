@@ -216,48 +216,48 @@ To go back to normal, press \<Unfold\> then \[Exit Unfold\].
 You can also use the numeric keypad to quickly select cells. The syntax
 is as follows: (\<THRO\> is called Through on some consoles)
 
-  .            all sub fixtures of selection                    
+  .            all sub-fixtures of selection                    
 
-  n\.            all sub fixtures of fixture n
+  n\.            all sub-fixtures of fixture n
 
-  . \<THRO\> .j    sub fixtures 1j of all selected fixtures         
+  . \<THRO\> .j    sub-fixtures 1j of all selected fixtures         
 
-  n\. \<THRO\>       all sub fixtures of fixture nlast consecutive of type
+  n\. \<THRO\>       all sub-fixtures of fixture nlast consecutive of type
 
   n \<THRO\> .j      shorthand for above                              
 
-  n\. \<THRO\> i     sub fixtures 1i of fixture n
+  n\. \<THRO\> i     sub-fixtures 1i of fixture n
 
-  .m           sub fixture m of all selected fixtures           
+  .m           sub-fixture m of all selected fixtures           
 
-  n\. \<THRO\> i.j   sub fixtures 1j of fixtures ni
+  n\. \<THRO\> i.j   sub-fixtures 1j of fixtures ni
 
-  .m \<THRO\>      sub fixtures mlast of all selected fixtures      
+  .m \<THRO\>      sub-fixtures mlast of all selected fixtures      
 
-  n.m            sub fixture m of fixture n
+  n.m            sub-fixture m of fixture n
 
-  .m \<THRO\> .j   sub fixtures mj of all selected fixtures         
+  .m \<THRO\> .j   sub-fixtures mj of all selected fixtures         
 
-  n.m \<THRO\>       sub fixtures mlast of fixture n
+  n.m \<THRO\>       sub-fixtures mlast of fixture n
 
   .m \<THRO\> j    shorthand for above                              
 
-  n.m \<THRO\> i     sub fixtures mi of fixture n
+  n.m \<THRO\> i     sub-fixtures mi of fixture n
 
-  n \<THRO\> i.    all sub fixtures of fixtures ni                  
+  n \<THRO\> i.    all sub-fixtures of fixtures ni                  
 
-  n.m \<THRO\> i.    sub fixture mlast of fixtures ni
+  n.m \<THRO\> i.    sub-fixture mlast of fixtures ni
 
-  n \<THRO\> i.j   sub fixture j of fixtures ni                     
+  n \<THRO\> i.j   sub-fixture j of fixtures ni                     
 
-  n.m \<THRO\> i.j   sub fixtures mj of fixtures ni
+  n.m \<THRO\> i.j   sub-fixtures mj of fixtures ni
 
-  n \<THRO\> .j    sub fixture 1j of fixture n                      
+  n \<THRO\> .j    sub-fixture 1j of fixture n                      
 
-  n.m \<THRO\> .j    sub fixtures mj of fixture n
+  n.m \<THRO\> .j    sub-fixtures mj of fixture n
 
 -   Fixture cell selection can be saved as a group, this provides a
-    quick way to select cells / sub fixtures without having to use the
+    quick way to select cells / sub-fixtures without having to use the
     Attribute Editor or Unfold.
 
 ## Changing Attributes Using The Wheels
@@ -431,12 +431,12 @@ controls are provided:
 -   Fine button switches to fine control mode for more precise
     positioning.
 
-### Colour mix: Channel
+### Colour Mix: Channel
 
 The Colour mix editor has 4 different ways of selecting colours, which
 are useful in different ways.
 
-![Colour Channels](/docs/images/attrib-editor-channel.png)
+![Attribute Editor - Colour Channels](/docs/images/Attribute-Editor-Channels.png)
 
 The **Channel** tab provides a colour picker, with a slider for each colour control channel 
 in the fixture. The
@@ -445,9 +445,9 @@ this example is an ETC Lustr fixture which has 7 independent LED emitter
 colours. This mode is useful to obtain colours such as tints of white or
 UV/Congo Blue which are hard to mix from a picker or colour wheel.
 
-### Colour mix: HSI/RGB/CMY
+### Colour Mix: HSI/RGB/CMY
 
-![Colour Mix](/docs/images/attrib-editor-hsi.png)
+![Attribute Editor - Colour Mix](/docs/images/Attribute-Editor-HSI-RGB-CMY.png)
 
 HIS/RGB/CMY provides a colour wheel with interactive sliders for
 changing Hue/Saturation/Intensity, Red/Green/Blue, and
@@ -460,18 +460,18 @@ without affecting the hue.
 All types of slider work for all fixtures, so a fixture with CMY mixing
 can still be controlled using the RGB or HSI sliders.
 
-### Colour mix: Picker
+### Colour Mix: Picker
 
-![Colour Picker](/docs/images/attrib-editor-picker.png)
+![Attribute Editor - Colour Picker](/docs/images/Attribute-Editor-Picker.png)
 
 This is the classic colour picker from earlier versions of Titan which
 provides a picker for hue and saturation, with a slider on the right
 hand side to set the intensity.
 
 
-### Colour mix: Filters
+### Colour Mix: Filters
 
-![Colour Filters](/docs/images/attrib-editor-filters.png)
+![Attribute Editor - Colour Filters](/docs/images/Attribute-Editor-Filters.png)
 
 Lets you pick a gel/filter colour from the Lee, Roscolux or GamColor
 ranges of filters. You can search for a particular colour by name or by
@@ -498,7 +498,7 @@ graphically in the attribute window. Select and drag the corners or
 sides of the image to control the fixture. This control can have various
 different appearances depending on the control channels in the fixture.
 
-![Blades](/docs/images/attrib-editor-blade.png)
+![Attribute Editor - Blades](/docs/images/Attribute-Editor-Blades.png)
 
 > Updated personality files may be required to support the keystone/blade functions. If the functions are not shown in the Attribute View, try downloading and installing the latest personality file, then run the Update Patched Fixtures command.
 
@@ -955,7 +955,7 @@ There are a number of ways to set the times:
     the wheel @ keys and the \<Time\> key.
 
 -   They can also be set by selecting fixtures and entering into the
-    attribute times sub-menus from the \<Time\> key.
+    attribute times submenus from the \<Time\> key.
 
 -   There is also command syntax that allows various options to set
     attribute time values - e.g. \<Time\> \<Fixture\> \<Position\> 5 @ 3

@@ -67,7 +67,7 @@ Select cell m in the selected fixtures.
 Select all the cells in the selected fixtures.
 
 **n \<.\>**\
-all sub fixtures of fixture n
+all sub-fixtures of fixture n
 
 **1 \<Through\> 5 \<.\> 2**\
 Select the second cell of fixtures 1 to 5
@@ -81,25 +81,25 @@ Cells m-\>last of all selected fixtures
 
 **\<.\> m \<Through\> \<.\>j**\
 **\<.\> m \<Through\> i**\
-sub fixtures m-\>j or all selected fixtures
+sub-fixtures m-\>j or all selected fixtures
 
 **n \<Through\> i\<.\>**\
-all sub fixtures of fixtures n-\>i
+all sub-fixtures of fixtures n-\>i
 
 **n \<Through\> i\<.\>j**\
-sub fixture j of fixtures n-\>i
+sub-fixture j of fixtures n-\>i
 
 **n \<Through\> \<.\>j**\
-sub fixture 1-\>j of fixture n
+sub-fixture 1-\>j of fixture n
 
 **n \<.\> \<Through\>**\
-all sub fixtures of fixture n-\>last consecutive of type n
+all sub-fixtures of fixture n-\>last consecutive of type n
 
 **n \<.\> \<Through\> i**\
-sub fixtures 1-\>i of fixture n
+sub-fixtures 1-\>i of fixture n
 
 **n \<.\> \<Through\> i\<.\>j**\
-sub fixtures 1-\>j of fixtures n-\>i
+sub-fixtures 1-\>j of fixtures n-\>i
 
 Select If
 ---------

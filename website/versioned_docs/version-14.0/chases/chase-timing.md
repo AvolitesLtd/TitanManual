@@ -166,6 +166,6 @@ Speed multipliers allow you to modify the chase speed, either faster
 running multiple chases together.
 
 Press \[Speed Multiplier\] In the Edit Times menu for the chase, or use
-the \[Speed Multiplier\] option in the Playback category of the 
+the \[Speed Multiplier\] option in the Times category of the 
 [Options](../cues/playback-options.md) for the chase. Use the \[Multiply or Divide\] softkey to swap
 the value between multiply and divide.

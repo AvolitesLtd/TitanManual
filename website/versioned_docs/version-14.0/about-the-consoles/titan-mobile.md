@@ -44,10 +44,10 @@ are shown on the screen.
 
 \(J\) The **Menu Softkeys** (labelled A - G) are used to select control options. 
 The right hand side of the display shows what each one will do. - if you are using
-a touch screen computer you can touch the softkey on screen instead of using these
+a touch screen computer you can touch the softkey on-screen instead of using these
 buttons. The options for each 
 key change depending on what the console is doing. Softkey commands are shown 
-in the manual like this: /[Edit Times/]
+in the manual like this: \[Edit Times\]
 
 ## The Screen
 

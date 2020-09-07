@@ -215,19 +215,19 @@ fixtures if you wish.
     on the console will automatically sync to the Capture show. Also
     changes you make in Capture will sync back to the console.
 
-Patching Fixtures with Multiple Cells (sub fixtures)
+Patching Fixtures with Multiple Cells (sub-fixtures)
 ----------------------------------------------------
 
 Some fixtures have multiple cells of control within a single fixture
 (for example an RGB LED batten). To avoid having to patch every cell as
 a single fixture, you can patch the whole fixture as one "super fixture"
-and each cell will then appear as a "sub fixture". This is very useful
+and each cell will then appear as a "sub-fixture". This is very useful
 when laying out fixtures for use with the Pixel Mapper as it allows you
 to move and rotate the fixture as a single fixture, but keep individual
 control over the cells.
 
 If you access the fixture using the handle it is patched on, all cells
-of the fixture will be controlled together. To access the sub fixtures
+of the fixture will be controlled together. To access the sub-fixtures
 independently, use the Attribute Editor window or you can press
 \<Unfold\> then the select button of the fixture. In the Fixtures
 workspace, the current page of fixtures will be replaced by select
@@ -238,7 +238,7 @@ working with fixture cells.
 
 To go back to normal, press \<Unfold\> then \[Exit Unfold\].
 
-> The Sub fixtures feature has to be defined in the fixture's personality. If sub fixtures does not work on your fixture you may need to obtain the latest fixture personality from Avolites.
+> The Sub fixtures feature has to be defined in the fixture's personality. If sub-fixtures does not work on your fixture you may need to obtain the latest fixture personality from Avolites.
 
 Patching Active Fixtures / Media Servers
 ----------------------------------------

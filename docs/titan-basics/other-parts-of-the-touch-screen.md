@@ -95,7 +95,7 @@ you to change the operating system configuration.
 **Touch Screen Setup** (in Control Panel) opens the setup utility which
 allows you to align touch positions on the screen.
 
-USB Expert Console** (in Control Panel) sets up the connection between
+**USB Expert Console** (in Control Panel) sets up the connection between
 the front panel controls and the software. If you are having problems
 this can be used to troubleshoot.
 

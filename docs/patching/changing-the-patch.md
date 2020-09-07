@@ -136,7 +136,7 @@ output line number.
     using the \[Unpark\] option.
 
 -   If the new DMX address already has another fixture or dimmer patched
-    on it, the console will warn you (unless this is disabled in 
+    on it, the console will warn you (unless this is disabled in
     [User Settings](../system-settings/user-settings.md)). You can either press
     \[Select another DMX address\] to abort the change or \[Park
     Conflicting Fixtures\]. All programming for the parked fixture is
