@@ -99,7 +99,7 @@ Default speed for this playback in BPM. This can be
 overridden by a [Rate or BPM master](../running-the-show/playback-controls.md#speed-and-size-masters), 
 or if the playback is a [chase](../chases.md), can be modified using the wheels.
 
-### Xfade
+### XFade
 Default crossfade for this playback. If the playback is a
 [chase](../chases.md), this can be modified using the wheels and the changes will be
 saved here.

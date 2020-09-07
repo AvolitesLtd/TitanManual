@@ -91,7 +91,7 @@ You set the crossfade and speed as follows:
 1. Press \[Edit Times\] from the top level menu then the **Swop** button of
 the chase.
 
-2. To set the **crossfade**, press \[Xfade\] and type the fade from **0 - 100**.\
+2. To set the **crossfade**, press \[XFade\] and type the fade from **0 - 100**.\
 *0 = no fade (the chase will "snap"), 100 = max fade (the chase will
 move continuously from step to step).*
 

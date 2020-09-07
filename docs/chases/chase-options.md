@@ -65,7 +65,7 @@ See [Setting Speed and Crossfade for a Chase](chase-playback.md#setting-speed-an
 ### Speed multiplier
 You can set a speed factor here to speed up or slow down the chase independently of the speed setting.
 
-### Xfade
+### XFade
 Sets chase crossfade between steps. If the wheels are connected to the chase,
 the right hand wheel changes the crossfade and the value set will be shown here.
 
