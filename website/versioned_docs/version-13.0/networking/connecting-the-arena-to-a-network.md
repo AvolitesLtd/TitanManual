@@ -23,7 +23,7 @@ different optical switch you should contact Avolites for advice.
 Wired Ethernet Outputs
 ----------------------
 
-The Arena console has an in-built 1GB TitanNet switch (TNS) that is
+The Arena console has an in-built 1 Gb TitanNet switch (TNS) that is
 directly connected to the console Main board on network connection 1.
 The network switch has 4 ports available on the back of the console.
 
