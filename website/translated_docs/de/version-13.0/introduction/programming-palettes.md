@@ -5,42 +5,53 @@ sidebar_label: Programming palettes
 original_id: programming-palettes
 ---
 
-Set up the attributes to be recorded. If attribute is the same for all
-fixtures of one type (e.g. colour), only one fixture need be set up and
-palette will be "shared".
+Stellen Sie die zu speichernden Attribute wie gewünscht ein. Ist ein
+Attribut bei allen Geräten dieses Typs gleich (etwa Farben oder
+Gobos), so genügt zum Speichern ein Gerät, und die Palette wird als
+‚shared' (gemeinsam genutzt) angelegt.
 
-Press \<Record\>, \<Palette\> (See also Quick Record below).
+Drücken Sie \<Record\>, \<Palette\> (siehe auch Schnellspeichern, s.u.).
 
-Use \[Set Mask\] to choose attributes to record/exclude. If you are
-storing in a palette touch button the mask is automatically set.
+Wählen Sie \[Set Mask\], um die zu speichernden Attribute auszuwählen.
+Beim Schnell­speichern von Paletten in die jeweiligen Palettenfenster
+werden die zu speichernden Attribute automatisch gewählt.
 
-Press a grey handle button to store (except on the main playbacks), or
-touch a button in one of the Colours/Positions/Gobos windows.
+Betätigen Sie eine graue Paletten-Taste oder eine Schaltfläche in einem
+der Fenster ‚Colours', ‚Positions' oder ‚Gobos and Beams'.
 
-See [Creating Palettes](../palettes/creating-palettes.md)
+Siehe [Creating Palettes](../palettes/creating-palettes.md).
 
-To recall palette, select fixtures, select recall mask using Attribute
-Bank buttons, press palette button.
+Zum Aufrufen einer Palette wählen Sie die gewünschten Geräte aus,
+stellen nun ggf. die Maske der abzurufenden Attribute mit den
+Attribut-Tasten ein und betätigen dann die gewünschte
+Paletten-Taste/Schaltfläche.
 
-To set a legend, press \[Set Legend\] then the palette's button. Press
-\[Picture\] to draw a picture legend.
+Zum Eingeben einer Legende drücken Sie \[Set Legend\] und dann die
+Paletten-Taste/Schaltfläche. Zum Zeichnen wählen Sie \[Picture\].
 
-## Quick Record
+## Schnellspeichern
 
-Press an unused button in one of the palette windows - the button turns
-red with a +. Press again to save the palette. The mask is automatically
-set to match the window (e.g. Positions window is masked for only
-position attributes). See [Palettes - Quick Record](../palettes/creating-palettes.md#quick-record).
+Betätigen Sie eine freie Schaltfläche in einem der Paletten-Fenster;
+diese zeigt daraufhin ein ‚+' auf rotem Grund. Betätigen Sie die
+Schaltfläche zum Speichern nochmals. Die Maske wird automatisch anhand
+des Fensters gewählt (z.B. werden so im Positions-Fenster nur Positionen
+gespeichert). Siehe [Palettes - Quick Record](../palettes/creating-palettes.md#quick-record).
 
-## Busking with palettes
+## Improvisieren mit Paletten
 
-To fade palettes when busking a show, select fixtures, type fade time on
-the keypad then recall the palette (you have to do this each time). If
-no fixtures selected, palette will recall to all applicable fixtures
-(called a Quick Palette. Quick Palettes do not go into the programmer
-so don't use when programming).
+Um beim Improvisieren einer Show Paletten mit Fadezeit abzurufen, wählen
+Sie die Geräte, geben die gewünschte Überblendzeit per
+Zifferntasten ein und rufen dann die Paletten auf (die Überblendzeit
+muss bei jedem Aufruf eingegeben werden). Wurden keine Geräte
+ausgewählt, so wird die Palette auf ALLE Geräte angewendet.
 
-To set [fixture overlap](../palettes/timing-with-palettes.md#manual-fixture-overlap-when-recalling-palettes), type 0-100 then press \[Set Overlap\], then
-recall the palette.
+Um eine [Überlappung](../palettes/timing-with-palettes.md#manual-fixture-overlap-when-recalling-palettes) einzugeben, tippen Sie mit den Zifferntasten einen
+Wert von 0...100, drücken dann \[Set Overlap\] und rufen schließlich
+die Palette auf.
 
-To set a [fade time for all palettes](../palettes/timing-with-palettes.md#master-time-for-palettes), press Palette then \[Master Time\].
+Um für alle Paletten eine [generelle Einblendzeit](../palettes/timing-with-palettes.md#master-time-for-palettes) einzustellen, drücken
+Sie \<Palette\>, dann \[Master Time\].
+
+Mit Einblendzeit aufgerufene Paletten werden nicht in den
+Programmierspeicher übernommen; beim Programmieren sollte diese Option
+also nicht verwendet werden.

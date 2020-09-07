@@ -5,10 +5,10 @@ sidebar_label: Quick Start
 original_id: introduction
 ---
 
-GERMAN This section is a quick guide on how to do most things on Avolites Titan
-consoles. Each section has a link to take you to the appropriate manual
-section for more details.
+Dieser Abschnitt soll einen schnellen Einstieg in Ihr Titan-Pult
+ermöglichen; dazu sind die meisten wichtigen Arbeitsschritte kurz
+beschrieben. Jeder Abschnitt verweist dabei auf den entsprechenden
+Abschnitt im Handbuch, in dem weitere Details zu finden sind.
 
-Softkeys (the A-G menu buttons next to the screen) are shown like
-\[This\]. Physical labelled buttons on the console are
-shown like \<This\>.
+Die Menü-Tasten (Buttons) werden \[  blau  \] gezeigt. Funktions- und
+Attributtasten, also 'richtige' Tasten, werden dagegen \< schwarz \> dargestellt.

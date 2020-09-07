@@ -7,59 +7,69 @@ original_id: programming-cues-and-chases
 
 ## Cues
 
-Set up the look to be recorded.
+Stellen Sie die Geräte/Werte wie gewünscht ein.
 
-Press \<Record\>.
+Drücken Sie \<Record\>.
 
-Set \[Record Mode\] to \[Channel\] (saves only modified attributes),
-\[Fixture\] (saves all attributes of fixtures which have been modified
-or are selected), \[Stage\] (saves all attributes of all fixtures with
-nonzero dimmer), or \[Quick Build\] (merges palettes and playbacks into
-the cue when you select them).
+Stellen Sie \[Record Mode\] auf 'Channel' (es werden nur die geänderten
+Attribute gespeichert), 'Fixture' (Speichern aller Attribute der
+gewählten/geänderten Geräte), 'Stage' (Speichern sämtlicher Attribute
+aller aktiven Geräte, d.h. mit Dimmer \> 0), oder ‚Quick Build'
+(Erstellen des Cues aus Paletten oder Playbacks je nach Schaltfläche).
 
-To store, press a blue Select button on fader, or press button in
-Playbacks window. (See [Creating a Cue](../cues/creating-a-cue.md)).
+Zum Speichern drücken Sie die blaue Auswahltaste eines Faders, oder
+betätigen Sie eine Schaltfläche im ‚Playbacks'-Fenster (siehe [Creating a Cue](../cues/creating-a-cue.md)).
 
-## Chases
+## Chaser
 
-Press \<Record\> twice (or \<Record\> then \[Create Chase\]).
+Drücken Sie zweimal \<Record\> (oder \<Record\> und dann \[Create
+Chase\]).
 
-Press blue Select button on a fader, or press button in Playbacks
-window.
+Drücken Sie die blaue Auswahltaste eines Faders, oder betätigen Sie eine
+Schaltfläche im ‚Playbacks'-Fenster.
 
-Set up the look for the first step, press playback select button to
-store. Repeat until all steps stored. Quick Build mode can be used to
-merge palettes and cues into chase steps.
+Stellen Sie Geräte/Attribute für den ersten Chase-Step ein, und drücken
+Sie wieder die Taste/Schaltfläche zum Speichern, Wiederholen Sie diesen
+Vorgang für alle Chase-Schritte. Mit ‚Quick Build' können rasch aus
+einzelnen Paletten und Cues Chase-Steps erstellt werden.
 
-Press \<Exit\> to finish storing chase steps. (See [Programming Chases](../chases/creating-a-chase.md#programming-a-chase)).
+Drücken Sie zum Abschluss \<Exit\> (siehe [Programming Chases](../chases/creating-a-chase.md#programming-a-chase)).
 
 ## Timings
 
-All times (cue times and fixture attribute times) are stored in the
-programmer and are saved when you store a cue.
+Sämtliche (Fade-)Zeiten, sowohl für Cues als auch für einzelne
+Attribute, werden ebenfalls im Programmierspeicher verwaltet und ggf.
+beim Speichern eines Cues berücksichtigt.
 
-To edit times in the programmer before saving, press the \<Times\>
-button (previously labelled \<Set\> on Quartz/Titan Mobile/Sapphire
-Touch/Tiger Touch and \<Next Time\> on Pearl Expert/Tiger Touch mk1).
+Zum Einstellen der im Programmierspeicher vorgemerkten Zeiten drücken
+Sie die Taste \<Times\> (vormals \<Set\> auf dem Quartz/Titan Mobile/Sapphire
+Touch/Tiger Touch II bzw. \<Next Time\> auf dem Pearl Expert/Tiger
+Touch).
 
-For chases, speed and fade can be set with wheels A and B when the chase
-is running.
+Sobald ein Chase gestartet ist, kann Geschwindigkeit und Crossfade mit
+den Rädern A und B eingestellt werden.
 
-To edit times in a saved cue, at top level menu press \[Edit Times\]
-then the select button for the playback. Timing options are set from
-softkeys.
+Das Ändern der Zeiten bereits gespeicherter Cues erfolgt im Hauptmenü:
+drücken Sie \[Edit Times\], und dann die Auswahltaste/Schaltfläche des
+Cues/Chasers. Die Menütasten bieten nun verschiedene Timing-Optionen.
 
-\[Fixture Overlap\] sets each fixture to fade in sequence (100%=all
-together, 0%=fixture waits for previous one to complete).
+\[Fixture Overlap\] verändert das 'Überlappen' (Gleichzeitigkeit) der
+Geräte: 100% = alle fahren/blenden gleichzeitig; 0% = alle
+fahren/blenden nacheinander.
 
-\[Attribute times\] sets individual fade times for different attributes.
+Mit \[Attribute times\] lassen sich für einzelne Attribute
+unterschiedliche Zeiten vergeben.
 
-\[Fixture order\] changes sequence for shapes and Overlap.
+Mit \[Fixture order\] lässt sich die Reihenfolge der Geräte für Shapes
+sowie für das Überlappen einstellen.
 
-See [Cue Timing](../cues/cue-timing.md)
+Siehe auch [Cue Timing](../cues/cue-timing.md).
 
-## Cue Lists
+## Cuelisten
 
-Cues may be stored in a [Cue List](../cue-lists/creating-a-cue-list.md) which allows a full show to be run from
-a Go button. Chases can be included using [Autoload](../cue-lists/creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list). Cue lists can run in
-tracking or non-tracking mode, set from \[Playback Options\].
+Cues lassen sich in [Cuelisten](../cue-lists/creating-a-cue-list.md) 
+speichern, so dass die gesamte Show per Go-Taste gefahren werden kann. 
+Ebenso lassen sich Chaser per [Autoload](../cue-lists/creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list) in
+Cuelisten aufrufen. Cuelisten können im Tracking- oder
+Non-Tracking-Modus arbeiten; diese Einstellung kann in den
+\[Playback-Optionen\] der Cueliste vorgenommen werden. 
