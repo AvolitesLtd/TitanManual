@@ -7,94 +7,97 @@ original_id: tiger-touch
 
 ![Tiger Touch](/docs/images/Tiger-Touch.png)
 
-The Tiger Touch has four main control areas:
+Das Tiger Touch hat vier grundsätzliche Bedienungsbereiche:
 
-\(A\) The **Touch screen** contains fixture, palette and group select buttons.
-It also shows legends for the playback faders and shows the current menu
-page and softkey buttons on the top right of the screen.
+\(A\) Der **Touchscreen** zeigt Schaltflächen zur Auswahl von Geräten,
+Paletten und Gruppen. Ferner zeigt er Bezeichnungen der Playbacks, sowie
+-- oben rechts -- die aktuelle Menüseite und die Bezeichnungen der
+variablen Tasten.
 
-\(B\) The **Playback faders** select and control cues and programs
+\(B\) Die **Playbacks** dienen zur Auswahl und Steuerung von Bildern und
+Abläufen: Cues, Cuelisten und Chaser.
 
-\(C\) The **Preset playbacks** give you additional (unpaged) playbacks and the
-**macro buttons** allow storage of frequent key sequences.
+\(C\) Die **festen Playbacks** ermöglichen Zugriff auf weitere -- nicht
+umgeschaltete -- Speicherplätze, während mit den **Makro-Schaltern**
+häufig benutzte Tastenkombinationen automatisiert werden können.
 
-\(D\) The **Programming and setup controls** configure and program the
-console.
+\(D\) Der Bereich **Programmier- und Einstellfunktionen** enthält alle
+Steuerelemente zum Einrichten und Programmieren des Pultes.
 
-> The Mk.1 version of the Tiger Touch has a slightly different
-front panel layout.
+> Hinweis: das Tiger Touch der ersten Serie sowie das Tiger Touch Pro
+haben anders angeordnete Tasten.
 
 
-## The Main Controls
+## Bedienoberfläche
 
 ![Tiger Touch controls](/docs/images/Tiger-Touch-controls.png)
 
-\(E\) The **Workspace windows** on the touch screen contain touch buttons for
-fixtures, palettes, groups, playbacks, macros and more. You can also set
-fixture attributes and show information windows.
+\(E\) Die **Arbeitsfenster** auf dem Touchscreen zeigen Tasten für Geräte,
+Paletten, Gruppen, Speicherplätze, Makros und anderes. Ebenso lassen
+sich hier Attribute einstellen und Informationsfenster einblenden.
 
-\(F\) The **System display and menu** area of the touch screen is the nerve
-centre of the console and shows you what is going on. This part of the
-display shows various screens of information depending on what you are
-currently doing.
+\(F\) Die **Systemanzeige** ist die Schaltzentrale des Pultes und liefert
+Informationen über den jeweiligen Zustand. Hier werden diverse
+Hinweisfenster eingeblendet, abhängig vom momentanen Arbeits- und
+Programmierablauf.
 
-\(G\) The **Menu Softkeys** (labelled A - G) are used to select control
-options. The display next to the buttons shows what each one will do.
-The options for each key change depending on what the console is doing.
-Softkey commands are shown in the manual like this:
-\[Edit Times\]
+\(G\) Die **Menütasten** (bezeichnet mit A -- G) dienen zur Auswahl
+verschiedener Steuerungsoptionen. Im Display wird direkt neben jedem
+Taster die jeweilige Funktion angezeigt, abhängig vom jeweiligen Status
+des Pultes. Befehle dieser Taster sind in diesem Handbuch blau dargestellt,
+ z.B. \[Edit Times\]
 
-\(H\) The **Preset Playbacks** are used to store and play back cues or chases
-that you need frequently. These playbacks are not changed by the page
-select buttons, but you can assign macro buttons to change pages.
+\(H\) Die **festen Playbacks** dienen zum Aufruf häufig benutzter Cues etc.
+Diese Playbacks sind von der Seitenumschaltung nicht betroffen, jedoch
+lassen sie sich per Makro umschalten.
 
-\(I\) The **Macro Buttons** store frequently used sequences of keypresses
-which can be replayed with a single button press. Playbacks can also be
-stored here.
+\(I\) Auf den **Makro-Tastern** lassen sich häufig benutzte Abläufe von
+Tastendrücken abspeichern, und dann mit einem einzigen Tastendruck
+abrufen. Ebenso können hier Cues abgelegt werden.
 
 ![Tiger Touch controls 2](/docs/images/Tiger-Touch-controls-2.png)
 
-\(J\) The **Master fader** can be configured to control the overall output of the console
-(it is disabled by default).
+\(J\) Der **Master** (Hauptregler) steuert die Gesamthelligkeit aller über das
+Pult abgerufenen Szenen. Normalerweise wird man den Regler auf '100%'
+belassen. Der **DBO-Taster** dient zum unmittelbaren Dunkelschalten.
 
-\(K\) The **Playback faders** are used to store and play back cues or chases.
-\(L\) The **Page Select buttons** let you change to a different page of
-playbacks. The touch screen above the faders shows information about
-each playback.
+\(K\) Die **Playbacks** dienen zum Speichern und Abrufen von Cues und
+Chasern/Cuelisten. Mit den \(L\) **Seitenauswahltastern** kann man zu
+verschiedenen Seiten der Playbacks wechseln. Im Touchscreen werden
+oberhalb der Regler Informationen über jeden einzelnen eingeblendet.
 
-\(M\) The **Control wheels** are used to set control values (attributes) for
-the fixtures, and to set chase speeds and fades. The touch screen above
-the wheels shows information about the attributes being controlled.
-Press the **Window Scroll Button** to switch the wheels into scroll mode - this is 
-used to move a selection box around the screen when editing.
+\(M\) Mit den **Drehreglern** (Encodern) werden sowohl Attribute der Geräte,
+als auch Geschwindigkeit und Überblendung der Sequenzen eingestellt. Im
+Touchscreen oberhalb der Räder wird angezeigt, welche Parameter momentan
+mit welchem Rad verknüpft sind. Betätigen des **Bildlaufschalters**
+schaltet die Räder in den Bildlauf-Modus: damit lässt sich eine
+Auswahlbox über den Bildschirm bewegen.
 
-\(N\) The **Numeric keypad** and other control buttons are used to enter
-values and change controls on the console.
+\(N\) Mit dem **Ziffern- und Tastenfeld** lassen sich Werte eingeben sowie
+Einstellungen des Pultes ändern.
 
-\(O\) The **Function buttons** are used to carry out functions such as
-storing cues, copying, saving to disk, etc. These buttons have lights on
-to indicate when they are active.
+\(O\) Mit den **Funktionstasten** sind verschiedene Funktionen verknüpft, etwa
+Speichern, Kopieren, Speichern auf Disk.
 
-\(P\) The **Attribute select buttons** are used to select which attributes of
-a fixture (e.g. colour, gobo, pan, focus) are going to be controlled
-using the Control wheels. The buttons have lights on to show you which
-attributes are active. The red button in the bottom right corner of the console allows you to locate
-fixtures, which sets them to a known start position while programming.
+\(P\) Mit den Tastern der **Attributauswahl** werden die Attribute der Geräte
+angewählt (z.B. Farbe, Gobo, Bewegung, Fokus), welche dann durch die
+Drehregler gesteuert werden sollen. Die jeweils aktiven Taster werden
+durch LEDs angezeigt. Der untere (rote) Taster erlaubt das 'Locaten'
+von Geräten, indem sie auf eine vordefinierte Startposition gesetzt werden.
 
 ![Tiger Touch Back Panel](/docs/images/Tiger-Touch-Back-Panel.png)
 
-## The Back Panel
+## Anschlussfeld auf der Rückseite
 
-All the connections required for the console are found on the back
-panel. Most are self-explanatory.
+Sämtliche für das Pult erforderlichen Anschlüsse befinden sich auf der
+Rückseite. Die meisten davon sind selbsterklärend.
 
-\(Q\) The power switch above the mains inlet is used for isolating the
-    power supply. Do not turn the console off using this switch, use the power
-	switch on the front panel to ensure the software is correctly shut down.
+\(Q\) Der Netzschalter oberhalb des Netzanschlusses trennt das Pult
+    komplett vom Netz. Verwenden Sie diesen Schalter nicht, um das Pult
+    normal auszuschalten.
 
-\(R\) The Panel reset switch may be pressed to restart the front panel
-    electronics if something odd happens with the switches and faders.
-    The main board will continue running but the DMX output will be
-    interrupted until the restart is completed.
+\(R\) Mit dem Reset-Schalter wird die Elektronik der Bedienelemente
+    zurückgesetzt, während die Software weiterläuft. Zu beachten ist,
+    dass dabei auch die DMX-Ausgabe unterbrochen wird.
 
-\(S\) The console provides four DMX outputs on XLR, SMPTE input and MIDI in/out connections.
+\(S\) Es gibt vier XLR-DMX-Ausgänge, einen SMPTE-Eingang sowie MIDI Ein- und Ausgang.

@@ -5,14 +5,16 @@ sidebar_label: About the consoles
 original_id: about-the-consoles
 ---
 
-This manual is a reference guide to all the functions of Titan consoles.
+Diese Bedienungsanleitung dient als Referenz zu allen Funktionen der
+Titan-Pulte.
 
-We explain things in the order you're most likely to use them, so we
-start with how to set up the console, then look at patching lights,
-controlling lights and how to program cues.
+Hierbei werden alle Einzelheiten in der Reihenfolge erläutert, wie sie
+vermutlich auch verwendet werden. Am Beginn steht demnach die
+Inbetriebnahme des Pultes, darauf folgt das Patchen von Dimmern/Geräten,
+dann das Steuern und Programmieren.
 
-As this manual covers all types of console, this section has details
-about each individual console design in turn; where the controls are and
-where the connections are.
+Während dieses Handbuch für sämtliche verschiedenen Titan-Pulte
+gleichermaßen geschrieben ist, werden in diesem Kapitel die Einzelheiten
+der unterschiedlichen Pulte erläutert.
 
 
