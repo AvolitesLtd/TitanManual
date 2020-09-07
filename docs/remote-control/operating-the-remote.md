@@ -11,7 +11,7 @@ available consoles will be shown - hopefully if you have done the
 There is also a local emulator which can be used to test or demonstrate
 the remote when no real console is connected.
 
-![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-with-keypad.png)
+![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-Control-Selection.png)
 
 Choose what you want to control using the row of buttons across the
 middle of the app. The Keypad button enables or disables the numeric pad
@@ -83,7 +83,7 @@ button to kill or release an active playback.
 
 > If you update the legends of palettes or cues on the console while the remote is running, the legends on the remote will not be updated. \<Exit\> and restart the remote app to show legend changes made on the console.
 
-Recording groups and palettes
+Recording Groups and Palettes
 -----------------------------
 
 You can record groups and palettes using the **Rec** button on the remote,

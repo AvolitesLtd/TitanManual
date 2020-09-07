@@ -333,9 +333,9 @@ new destination.
     All these actions have to be confirmed by pressing the \[Confirm\]
     softkey.
 
-![Exchange Mapping](/docs/images/Exchange-Mapping.png)
+### Range Mapping
 
-**Range mapping**
+![Exchange Mapping with range mapping](/docs/images/Exchange-Mapping-Range-Mapping.png)
 
 If the destination function has a range (for example 0-100%) you can
 adjust the range to which the source function is mapped.
@@ -354,7 +354,7 @@ touch consoles or by selecting the relevant softkey and entering the
 value.
 
 Once complete, click Apply then \[Confirm\] to commit the changes or
-Cancel then \[Confirm\] to forget.
+\[Cancel\] then \[Confirm\] to forget.
 
 Updating Patched Personalities
 ------------------------------
