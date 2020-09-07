@@ -47,13 +47,16 @@ you can choose which chase is connected to the controls using the
 
 -   Disconnect a chase from the controls by double pressing \<Connect\>.
 
--   You can turn off the **"Auto Connect"** option in the [User
-    Settings > Wheels menu](../system-settings/user-settings.md#auto-connect) if you don't want to connect to a chase when
+-   You can turn off the **"Auto Connect"** option in the
+    [User Settings > Wheels menu](../system-settings/user-settings.md#auto-connect)
+    if you don't want to connect to a chase when
     you fire it. You will have to use the \<Connect\> button to control
     the chase if you do this.
 
--   There is a further option "Auto View on Connect" in the [User
-    Settings > Wheels menu](../system-settings/user-settings.md#auto-view-on-connect) which will automatically open the [view window](editing-a-chase.md#opening-a-chase-for-editing)
+-   There is a further option "Auto View on Connect" in the
+    [User Settings > Wheels menu](../system-settings/user-settings.md#auto-view-on-connect)
+    which will automatically open the
+    [view window](editing-a-chase.md#opening-a-chase-for-editing)
     for a chase when you fire the playback. *This is useful to keep the
     correct chase view open as you swap between chases.*
 
@@ -88,7 +91,7 @@ You set the crossfade and speed as follows:
 1. Press \[Edit Times\] from the top level menu then the **Swop** button of
 the chase.
 
-2. To set the **crossfade**, press \[Xfade\] and type the fade from **0 - 100**.\
+2. To set the **crossfade**, press \[XFade\] and type the fade from **0 - 100**.\
 *0 = no fade (the chase will "snap"), 100 = max fade (the chase will
 move continuously from step to step).*
 

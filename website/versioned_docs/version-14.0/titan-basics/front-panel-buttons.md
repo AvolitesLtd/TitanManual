@@ -101,7 +101,7 @@ Key | Action | | Key | Action
   Alt 7    |  Softkey G             | |    Alt B  |   Blind
   Alt ⇑ F  |  Fixture               | |    Alt O  |   Off
   Alt ⇑ P  |  Palette               | |     Alt F  |   Fan
-  Alt ⇑ M  |  Macro                 | |     Alt O |  Attribute options
+  Alt ⇑ M  |  Macro                 | |     Alt ⇑ O |  Attribute options
   Alt ⇑ G  |  Group                 | |     Alt L |  Latch menu
   / (num)  |  Thro                  | |     Alt ←  |   Previous fixture
   \* (num) |  @                     | |     Alt →  |   Next fixture

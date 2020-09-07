@@ -29,7 +29,7 @@ settings, as described below
     \<Enter\>. The speed can be set in Beats Per Minute (BPM) or seconds
     depending on the user settings.
 
--   To set **crossfade**, press \[Xfade\] then type the fade from **0 - 100**
+-   To set **crossfade**, press \[XFade\] then type the fade from **0 - 100**
     and press \<Enter\>.\
     *0=no fade (the chase will "snap"), 100=max fade (the chase will move
     continuously from cue to cue).*
@@ -166,6 +166,6 @@ Speed multipliers allow you to modify the chase speed, either faster
 running multiple chases together.
 
 Press \[Speed Multiplier\] In the Edit Times menu for the chase, or use
-the \[Speed Multiplier\] option in the Playback category of the 
+the \[Speed Multiplier\] option in the Times category of the 
 [Options](../cues/playback-options.md) for the chase. Use the \[Multiply or Divide\] softkey to swap
 the value between multiply and divide.

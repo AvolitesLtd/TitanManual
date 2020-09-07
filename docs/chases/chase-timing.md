@@ -28,7 +28,7 @@ settings, as described below
     \<Enter\>. The speed can be set in Beats Per Minute (BPM) or seconds
     depending on the user settings.
 
--   To set **crossfade**, press \[Xfade\] then type the fade from **0 - 100**
+-   To set **crossfade**, press \[XFade\] then type the fade from **0 - 100**
     and press \<Enter\>.\
     *0=no fade (the chase will "snap"), 100=max fade (the chase will move
     continuously from cue to cue).*

@@ -11,11 +11,11 @@ Using the Pioneer Pro DJ Link Bridge software you can automate BPM masters on th
 Connecting Titan to the Pioneer System
 --------------------------------------
 
-You need to get the console and the Pioneer equipment connected to the same network. The Pioneer equipment has some limitations with its network IP address - it either needs to be assigned an address using DHCP or it uses an automatic address in the range 169.254.\*.\* - which means that if you are already using networking to control the lights (ArtNet or sACN) things can get a bit complicated as many lighting products cannot use that address range.
+You need to get the console and the Pioneer equipment connected to the same network. The Pioneer equipment has some limitations with its network IP address - it either needs to be assigned an address using DHCP or it uses an automatic address in the range 169.254.\*.\* - which means that if you are already using networking to control the lights (Art-Net or sACN) things can get a bit complicated as many lighting products cannot use that address range.
 
 **Pioneer Bridge running on the console**
 
-If you aren’t using networking, or your console has two network interfaces, or you can adjust your lighting to a suitable address range, then you can run the Pioneer Bridge software on the console itself. If your console includes an ethernet switch, you can connect the “Extension” ethernet socket on the Pioneer equipment directly to the console, otherwise you need to go through an external switch.
+If you aren’t using networking, or your console has two network interfaces, or you can adjust your lighting to a suitable address range, then you can run the Pioneer Bridge software on the console itself. If your console includes an Ethernet switch, you can connect the “Extension” Ethernet socket on the Pioneer equipment directly to the console, otherwise you need to go through an external switch.
 
 Run the Pro DJ Link Bridge software from the Tools \> Additional Programs menu on the console.
 
@@ -28,7 +28,7 @@ Look at the Interface tab of the bridge software to see what IP address is being
 ![Pro-DJ link bridge command on shell menu](/docs/images/Pro-DJ-link-bridge-command-on-shell-menu.png)
 
 - Once you have everything connected up and have got all the IP addresses right, the bridge software should show connections for both the Titan console and the DJ mixer.
-- Some ArtNet / sACN equipment can be configured to run on the 169.254.\*.\* address range, in which case you can run everything on the same network.
+- Some Art-Net / sACN equipment can be configured to run on the 169.254.\*.\* address range, in which case you can run everything on the same network.
 
 **Pioneer Bridge running on separate computer**
 

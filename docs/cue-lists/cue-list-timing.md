@@ -24,8 +24,9 @@ edit and press \<Enter\>.
 Connect button also step through the cues.
 
 	- You can select a range of cues, enabling you to alter the timings of
-    multiple cues all in one go, by using **Wheel B**, or in the [Playback
-    View window](editing-cue-lists.md#playback-view-window), dragging across the cues you want to select in the
+    multiple cues all in one go, by using **Wheel B**, or in the
+    [Playback View window](editing-cue-lists.md#playback-view-window),
+    dragging across the cues you want to select in the
     grid.
 
 3. **Setting times**

@@ -42,7 +42,7 @@ For 100% you just press @ twice, for example:
 
 > To locate one or more fixtures, press Locate instead of the @ button.
 
-You can select multiple ranges of dimmers or fitures using the And
+You can select multiple ranges of dimmers or fixtures using the And
 button, for example:
 
 **`1 Thro 10 And 20 Thro 30 @ 6`**.

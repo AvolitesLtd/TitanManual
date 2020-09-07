@@ -25,7 +25,7 @@ console normally.
 
 If an internal UPS is fitted (Sapphire Touch, Arena, optional on other
 consoles), on power loss the toolbar on the screen will turn orange and
-display how long you\'ve got before the console shuts down. A warning dialog
+display how long you've got before the console shuts down. A warning dialog
 will also pop up on the screen and the current show will be autosaved.
 
 ![UPS Toolbar](/docs/images/UPS-Toolbar.png)
@@ -115,7 +115,7 @@ in the Titan Mobile panel so you can install the software on multiple
 computers but it will only run when the Titan Mobile panel is connected.
 
 **T1/T2:** The T1/T2 USB devices give you a full lighting control system
-that will output one or two universes of DMX or Artnet. The software to
+that will output one or two universes of DMX or Art-Net. The software to
 run it is called Titan Go. The first time you run Titan Go you will need
 to obtain a licence from the Avolites website which will license the
 AvoKey built into the device.
