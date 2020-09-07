@@ -5,30 +5,36 @@ sidebar_label: Patching fixtures
 original_id: patching-fixtures
 ---
 
-Press \<Patch\>, \[Dimmers\] or \[Fixtures\].
+Drücken Sie die Taste \<Patch\> und wählen dann \[Dimmers\] oder
+\[Fixtures\].
 
-For Fixtures, from the softkeys choose fixture manufacturer (type on
-keyboard to filter the list) then fixture type, then fixture mode.
+Um Movinglights zu patchen, wählen Sie mit den Menütasten den Hersteller
+(mit der Tastatur kann nach Eingabe der Anfangsbuchstaben die Liste
+entsprechend verkürzt werden), als nächstes den gewünschten Gerätetyp,
+und dann den Mode.
 
-Set \[DMX Line\] and \[Address\]. Console will automatically set these
-if you don't change them.
+Geben Sie dann die entsprechenden Werte für \[DMX Line\], \[Address\],
+\[User Number\] und \[Legend\] ein; dabei zeigt das Pult bereits eine
+passende Vorbelegung (z.B. nächste freie Adresse).
 
-Press buttons in the Fixtures window to patch the fixture, or patch
-fixtures on faders (except the main playback faders) by pressing the
-blue select button (See [Patching Fixtures or Dimmers](../patching/patching-new-fixtures-or-dimmers.md)).
+Betätigen Sie eine oder mehrere Schaltflächen im
+Geräte(Fixtures)-Fenster, um die Geräte zu patchen, oder patchen Sie mit
+den blauen Tasten direkt auf einzelne Fader.  (Siehe [Patching Fixtures or Dimmers](../patching/patching-new-fixtures-or-dimmers.md)).
 
-To patch a number of dimmers or fixtures at once, draw a selection box
-over buttons on the screen, or on physical buttons hold down first
-select button and press last in range. Or, set \[Quantity\] in the patch
-menu.
+Um mehrere gleiche Geräte oder mehrere Dimmer auf einmal zu patchen,
+wählen Sie mehrere Geräte-Schaltflächen aus, indem Sie darüber
+streichen, oder geben Sie die Anzahl mit \[Quantity\] ein. (Bei
+Fadern/Tasten: die erste Taste gedrückt halten und dazu eine weitere
+Taste drücken).
 
-To change DMX address or line, use \[[Repatch Fixtures](../patching/changing-the-patch.md#fixture-exchange)\].
+Um die DMX-Adresse oder das Universum zu ändern, wählen Sie \[[Repatch Fixtures](../patching/changing-the-patch.md#fixture-exchange)\].
 
-## View fixture patch
+## Patch anzeigen
 
-To see an overview screen of how the console is patched, press
-\<View/Open\> then \<Patch\> to open [Patch View](../patching/changing-the-patch.md#patch-view).
+Zum Anzeigen der gepatchten Geräte drücken Sie
+\<View/Open\>, dann \<Patch\> zum Öffnen der [Patch-Ansicht](../patching/changing-the-patch.md#patch-view).
 
-## Setting fixture options
+## Geräteoptionen einstellen
 
-Press \<Patch\>, \[Edit Fixtures\], or use the Patch View screen.
+Drücken Sie \<Patch\>, \[Edit Fixtures\], oder verwenden Sie die
+Patch-Ansicht.
