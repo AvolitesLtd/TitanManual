@@ -13,6 +13,10 @@ const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
+function pageUrl(doc, language) {
+  return '/docs/' + (language ? `${language}/` : '') + doc;
+}
+
 class HomeSplash extends React.Component {
   render() {
     const {siteConfig, language = ''} = this.props;
@@ -56,7 +60,7 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
-          <Button href="/docs/introduction">Get Started</Button>
+          <Button href={pageUrl("introduction", language)}>Get Started</Button>
         </div>
       </SplashContainer>
     );
@@ -88,13 +92,13 @@ class Index extends React.Component {
             content: 'Bring lighting and video together on one visual canvas',
             image: `${baseUrl}img/synergy.png`,
             imageAlign: 'top',
-            title: '<a href="/docs/synergy">Synergy</a>',
+            title: `<a href=${pageUrl("synergy", language)}>Synergy</a>`
           },
           {
             content: 'PioneerDJ waveform and BPM sync integration',
             image: `${baseUrl}img/avoxpioneer.png`,
             imageAlign: 'top',
-            title: '<a href="/docs/running-the-show/linking-pioneerdj-system-to-titan">Pioneer DJ Integration</a>',
+            title: `<a href=${pageUrl("running-the-show/linking-pioneerdj-system-to-titan", language)}>Pioneer DJ Integration</a>`,
           },
         ]}
       </Block>

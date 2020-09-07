@@ -33,8 +33,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {page: 'docs/introduction', label: 'Docs'},
-    {page: 'help', label: 'Help'},
+    { doc: 'introduction', label: 'Docs'},
+    { page: 'help', label: 'Help'},
     { href: 'https://avolites.com', label: 'Main Website'}
   ],
 
