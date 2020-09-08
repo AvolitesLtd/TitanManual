@@ -347,7 +347,7 @@ function formatMd(docsPath,filename,version) {
 function generatePDF(filePath,version,section=null,options={}) {
   // format version name, e.g. "Titan 13.0"
   if(version == "next") {
-    version = "Latest";
+    version = "Pre-Release";
   }
   version = `Titan ${version}`;
 

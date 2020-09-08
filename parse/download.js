@@ -1,121 +1,128 @@
 const avoParse = require('./avoParse')
 const fs = require('fs')
+const https = require('https')
 const path = require('path')
-const { platform } = require('process')
-const { program } = require("../website/node_modules/commander")
 
-program
-  .option('-p, --pdf', 'produce the download-pdf.json file')
-  .option('-w, --windows', 'produce the download-windows.json file')
-  .option('-l, --linux', 'produce the download-linux.json file')
-  .option('-m, --mac', 'produce the download-mac.json file')
-  .parse(process.argv);
+const options = {
+  hostname: 'api.github.com',
+  path: '/repos/AvolitesLtd/TitanManual/releases',
+  headers: { 'User-Agent': 'Downloads Page' }
+};
 
-// get a list of the generated files
-const downloadDir = path.resolve(__dirname, '../website/download')
-let filenames = avoParse.getFilesSync(downloadDir)
-filenames.forEach((filename,idx) => {
-  filenames[idx] = filename.replace(downloadDir + path.sep,"")
-})
-filenames.sort()
+https.get(options, (resp) => {
+  let data = ''
 
-let output = {}
-let outputFilename = "download-"
+  // A chunk of data has been recieved.
+  resp.on('data', (chunk) => {
+    data += chunk
+  });
 
-let os = program.windows ? 'win32' : program.mac ? 'darwin' : program.linux ? 'linux' : platform
+  // The whole response has been received. Print out the result.
+  resp.on('end', () => parseReleases(JSON.parse(data)))
 
-const versionRegex = /((?:[\d]+\.)+[\d]+)/m
+}).on("error", (err) => {
+  console.log("Error: " + err.message)
+});
 
-switch(true) {
-  case program.pdf:
-    outputFilename += "pdf.json"
-
-    filenames.forEach(pdf => {
-      if(pdf.endsWith(".pdf")) {
-        // we're in business
-        
-        if(pdf.includes("Latest")) {
-          // link to the latest pre-production PDF
-          output.latest = pdf
-        }
-        else {
-          let pdfParts = pdf.split("-",3)
-          pdfParts.shift() // remove Titan
-          let version = pdfParts.join(".")
-          output[version] = pdf
-        }
+function parseReleases(releases) {
+  let downloads = []
+  
+  releases.forEach((release) => {
+    if(release.assets.length) {
+        var download = {
+        version: release.tag_name,
+        id: release.id,
+        url: release.html_url,
+        prerelease: release.prerelease,
+        date: release.published_at,
+        downloads: parseAssets(release.assets)
       }
-    })
-    break
 
-    case os == "win32":
-      outputFilename += "windows.json"
+      downloads.push(download)
+    }
+  })
 
-      filenames.forEach(filename => {
-        if(filename.endsWith(".exe")) {
-          let version = filename.match(versionRegex)[0]
-
-          if(!output[version]) {
-            output[version] = {}
-          }
-          
-          if(filename.includes("Setup")) {
-            output[version]["installer"] = filename
-          }
-          else {
-            output[version]["stand-alone"] = filename
-          }
-        }
-      })
-      break
-
-    case os == "darwin":
-      outputFilename += "mac.json"
-
-      filenames.forEach(filename => {
-        if(filename.endsWith("-mac.zip") || filename.endsWith(".dmg")) {
-          let version = filename.match(versionRegex)[0]
-
-          if(!output[version]) {
-            output[version] = {}
-          }
-          
-          if(filename.endsWith("-mac.zip")) {
-            output[version][".zip"] = filename
-          }
-          else if(filename.endsWith(".dmg")) {
-            output[version][".dmg"] = filename
-          }
-        }
-      })
-      break
-
-    default:
-      outputFilename += "linux.json"
-
-      filenames.forEach(filename => {
-        if(filename.endsWith(".deb") || filename.endsWith(".AppImage")) {
-          let version = filename.match(versionRegex)[0]
-
-          if(!output[version]) {
-            output[version] = {}
-          }
-          
-          if(filename.endsWith(".deb")) {
-            output[version][".deb"] = filename
-          }
-          else if(filename.endsWith(".AppImage")) {
-            output[version][".AppImage"] = filename
-          }
-        }
-      })
+  saveJSON(downloads)
 }
 
-if(Object.keys(output).length) {
-  // check it found some files
-  fs.writeFile(path.join(downloadDir,outputFilename), JSON.stringify(output, null, 2), function(err) {
-    if(err) {
-      return console.log(err);
+class Download {
+  constructor(name,size,url) {
+    this.name = name,
+    this.filesize = size,
+    this.url = url
+  }
+
+  set filesize(size) {
+    size = size / 1000000
+    this.size = size.toFixed(1) + "MB"
+  }
+}
+
+function parseAssets(assets) {
+  let downloads = {
+    Windows: {},
+    Linux: {},
+    Mac: {},
+    PDF: {}
+  }
+
+  assets.forEach(asset => {
+    let name = asset.name
+
+    let download = new Download(name, asset.size, asset.browser_download_url)
+
+    switch(true) {
+      case name.endsWith(".pdf"):
+        let version = ''
+
+        if(name.includes('Pre-Release') || name.includes('Latest')) {
+          version = 'Pre-Release'
+        }
+        else {
+          let pdfParts = name.split("-",3)
+          pdfParts.shift() // remove Titan
+          version = pdfParts.join(".")
+        }
+
+        downloads.PDF[version] = download
+        break
+      
+      case name.includes("Setup"):
+        downloads.Windows["installer"] = download
+        break
+      
+      case name.endsWith(".exe"):
+        downloads.Windows["stand-alone"] = download
+        break
+      
+      case name.endsWith(".deb"):
+        downloads.Linux[".deb"] = download
+        break
+      
+      case name.endsWith(".AppImage"):
+        downloads.Linux[".AppImage"] = download
+        break
+      
+      case name.endsWith(".dmg"):
+        downloads.Mac[".dmg"] = download
+        break
+      
+      case name.endsWith(".zip"):
+        downloads.Mac[".zip"] = download
+        break
     }
-  });
+  })
+
+  return downloads
+}
+
+function saveJSON(downloads) {
+  if(downloads.length) {
+    // check we found some files
+    fs.writeFile(path.join(avoParse.paths.staticDir,"download","download.json"), JSON.stringify(downloads, null, 2), err => {
+      if(err) {
+        return console.log(err)
+      }
+    })
+  }
 }

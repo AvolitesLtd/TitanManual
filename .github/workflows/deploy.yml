@@ -35,8 +35,8 @@ jobs:
       - name: Install Dependencies
         run: |
           cd website
-          npm install
           mkdir download
+          npm install
 
       - name: Linux/Mac App Build & Copy to website/download
         if: matrix.os != 'windows-latest'
@@ -55,40 +55,11 @@ jobs:
         env:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - name: Create download JSON file
-        run: |
-          cd website
-          npm run download
-
-      - name: Transfer app to FarrserDeploy
-        uses: Pendect/action-rsyncer@v1.1.0
-        env:
-          DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
-        with:
-          flags: '-avzr'
-          options: ''
-          ssh_options: ''
-          src: 'website/download/'
-          dest: 'root@176.58.122.97:/var/www/sites/avodocs/download/'
-
-      - name: Transfer app to AvoDeploy
-        uses: Pendect/action-rsyncer@v1.1.0
-        env:
-          DEPLOY_KEY: ${{secrets.AVO_DEPLOY_KEY}}
-        with:
-          flags: '-avzr'
-          options: ''
-          ssh_options: ''
-          src: 'website/download/'
-          dest: 'web@51.104.240.248:/var/www/html/manuals/titan/download/'
-
       - name: Upload artifacts
         uses: actions/upload-artifact@v1
         with:
           name: ${{matrix.os}}
-          path: |
-            website/download
-            !website/download/*.json
+          path: website/download
           
       - name: Release
         uses: softprops/action-gh-release@v1
@@ -111,39 +82,12 @@ jobs:
           docker-compose run pdf
           mkdir website/download
           mv parse/output/*.pdf website/download
-          cd website
-          npm install
-          node ../parse/download.js --pdf
-
-      - name: Transfer PDFs to FarrserDeploy
-        uses: Pendect/action-rsyncer@v1.1.0
-        env:
-          DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
-        with:
-          flags: '-avzr'
-          options: ''
-          ssh_options: ''
-          src: 'website/download/'
-          dest: 'root@176.58.122.97:/var/www/sites/avodocs/download/'
-
-      - name: Transfer PDFs to AvoDeploy
-        uses: Pendect/action-rsyncer@v1.1.0
-        env:
-          DEPLOY_KEY: ${{secrets.AVO_DEPLOY_KEY}}
-        with:
-          flags: '-avzr'
-          options: ''
-          ssh_options: ''
-          src: 'website/download/'
-          dest: 'web@51.104.240.248:/var/www/html/manuals/titan/download/'
 
       - name: Upload artifacts to GitHub
         uses: actions/upload-artifact@v1
         with:
           name: 'PDF'
-          path: |
-            website/download
-            !website/download/*.json
+          path: website/download
             
       - name: Release
         uses: softprops/action-gh-release@v1
@@ -173,7 +117,7 @@ jobs:
       env:
         DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
       with:
-        flags: '-avzr --delete --exclude "website/build/AvoDocs/download/*"'
+        flags: '-avzr --delete'
         options: ''
         ssh_options: ''
         src: 'website/build/AvoDocs/'
@@ -183,14 +127,14 @@ jobs:
       env:
         DEPLOY_KEY: ${{secrets.AVO_DEPLOY_KEY}}
       with:
-        flags: '-avzr --delete --exclude "website/build/AvoDocs/download/*"'
+        flags: '-avzr --delete'
         options: ''
         ssh_options: ''
         src: 'website/build/AvoDocs/'
         dest: 'web@51.104.240.248:/var/www/html/manuals/titan/'
 
   download:
-    name: Download page
+    name: Versions Page
     runs-on: ubuntu-latest
 
     steps:
@@ -211,21 +155,11 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
           timeoutSeconds: 1800
 
-      - name: Copy JSON download files from build
-        uses: Pendect/action-rsyncer@v1.1.0
-        env:
-          DEPLOY_KEY: ${{secrets.AVO_DEPLOY_KEY}}
-        with:
-          flags: '-avzr --include="*/" --exclude="*" --include="*.json"'
-          options: ''
-          ssh_options: ''
-          src: 'web@51.104.240.248:/var/www/html/manuals/titan/download/'
-          dest: 'website/static/download/'
-
       - name: npm install & build
         run: |
           cd website
           npm install
+          npm run download
           npm run build
 
       - name: Deploy
