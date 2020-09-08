@@ -5,18 +5,16 @@ sidebar_label: Console hardware introduction
 original_id: about-the-consoles
 ---
 
-This manual covers all types of Avolites console, and while the operation
-of Titan is pretty much the same on all of them, the layout and connectivity
-of each console is different.
+Dieses Handbuch dient als Anleitung für alle aktuellen Avolites
+Titan-Pulte. Dabei sind die Funktionen bei allen Pulten weitgehend
+identisch, während sich das Layout und die Bedienelemente im Detail
+unterscheiden können.
 
-This section has details
-about each individual console design in turn, showing where the controls are and
-how they differ between consoles, and the various connections available on the
-back panel.
+In diesem Abschnitt werden die wichtigsten Unterschiede und
+Ausstattungsmerkmale erläutert.
 
-The USB connected T1 and T2 devices are also described, and the TNP network
-processing unit.
-
-We also look at the different console extension wings.
+Auch die per USB angeschlossenen Modelle T1, T2 und Titan Mobile, die
+TNPs (Netzwerk-Prozessoren) und die verschiedenen Wings sind hier
+berücksichtigt.
 
 

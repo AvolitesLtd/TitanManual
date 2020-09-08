@@ -8,123 +8,130 @@ original_id: pearl-expert-and-touch-wing
 
 ![Pearl Expert](/docs/images/Pearl-Expert.png)
 
-The Pearl Expert has four main control areas:
+Das Pearl Expert hat vier grundsätzliche Bedienbereiche:
 
-\(A\) The **Master faders** set overall levels on the console
+\(A\) Mit den **Masterfadern** bestimmt man den generellen Ausgangspegel.
 
-\(B\) The **Preset faders/handles** select and control individual fixtures
-(and you can store cues and chases here too)
+\(B\) Mit den Elementen der Abteilung **Preset Playbacks und Geräte** hat man
+unmittelbaren Zugriff auf die anzusteuernden Geräte, und kann hier
+einzelnen Cues/Cuelisten/Chaser etc. abspeichern.
 
-\(C\) The **Playback faders** and **rollers** select and control cues and
-programs
+\(C\) Mit **Playbacks, Walze und Seitenumschaltung** wird auf die einzelnen
+Speicherplätze zum Programmieren und Abrufen zugegriffen.
 
-\(D\) The **Programming and setup controls** configure and program the console
+\(D\) Die **Programmier- und Steuereinheit** dient zum Einrichten des Pultes
+sowie zum eigentlichen Programmieren.
 
 ![Pearl Expert](/docs/images/Pearl-Expert-2.png)
 
-## The Main Controls
+## Bedienoberfläche
 
-\(E\) The **Preset Faders** are used to control individual dimmer channels and
-fixture intensities. Cues and chases can also be stored on these faders.
-The 2 buttons below the faders are used to select and flash whatever is
-stored on the fader. Each fader and buttons is called a \'Handle\'.
+\(E\) Mit den Reglern im Bereich **Geräteanwahl/Presets** lassen sich einzelne
+Dimmer und Geräte steuern. Ebenso können hier auch komplette Bilder und
+Abläufe gespeichert werden. Mit den beiden Tasten unter jedem Regler
+wird der jeweilige Inhalt eingeblendet (Flash/Solo). Jeder Regler bildet
+mit den zugehörigen Tasten eine Bedieneinheit (\'Handle\').
 
-\(F\) The **Page select rollers** let you select different pages of playbacks,
-and you can write the playback names on the rollers so you know what's
-in them. There are 2 rollers each controlling 10 playback faders
+\(F\) Mittels der beiden **Auswahlwalzen** lässt sich die Seite für jeweils 10
+Playbacks wählen. Die einzelnen Speicherplätze lassen sich auf der Walze
+beschriften.
 
-\(G\) The **Master faders** control the overall output of the various parts of
-the console. You will normally have these set at Full.
+\(G\) Mit den **Masterfadern** lässt sich der globale Ausgangspegel des Pultes
+einstellen; normalerweise wird man diese Regler auf 100% stellen.
 
-\(H\) The **Playback faders** and flash buttons are used to play back cues or
-chases you have programmed, when you are running a show.
+\(H\) Die **Playbacks** mit den zugehörigen Flash-/Solotasten dienen zum
+Programmieren und Abrufen der einzelnen Speicherplätze.
 
-\(I\) The **Main display** is the nerve centre of the console and shows you
-what is going on. The display can show various screens of information.
+\(I\) Das **Display** ist die Schaltzentrale des Pultes, es bietet wichtige
+Informationen über den jeweiligen Status.
 
-\(J\) The **Control wheels** are used to set control values on the fixtures,
-and to set chase speeds and fades.
+\(J\) Die **Encoder (Räder)** dienen zum Einstellen bestimmter Werte, etwa von
+Attributen der Geräte, Geschwindigkeit von Chasern etc.
 
-\(K\) The **Menu softkeys** (labelled A -- G) are used to select control
-options. The display next to the buttons shows what each one will do.
-The options for each key change depending on what the console is doing.
-Softkey commands are shown in the manual like this:
-\[Edit Times\]
+\(K\) Die **Menütasten** (beschriftet mit A -- G) dienen zur Auswahl
+verschiedener Steuerungsoptionen. Im Display wird direkt neben jedem
+Taster die jeweilige Funktion angezeigt, abhängig vom jeweiligen Status
+des Pultes. Befehle dieser Taster sind in diesem Handbuch blau dargestellt, 
+z.B. \[Edit Times\].
 
-\(L\) The **Numeric keypad** and other control buttons are used to enter
-values and change controls on the console.
+\(L\) Mit den **Ziffern- und Steuertasten** lassen sich Werte eingeben sowie
+Einstellungen des Pultes ändern.
 
-\(M\) The **Fixture Page** buttons are above the keypad, and allow selection
-of 4 pages for the Preset Faders.
+\(M\) Die Tasten zur **Geräte-Seitenwahl** befinden sich oberhalb des
+Ziffernblocks und gestatten die Auswahl von 4 Seiten der
+Geräte-/Szenenregler.
 
-\(N\) The blue **Command buttons** are used to carry out functions such as
-storing cues, copying, saving to disk, etc. These buttons have lights on
-to indicate when they are active.
+\(N\) Mit den blauen **Funktionstasten** sind verschiedene Funktionen
+verknüpft, etwa Speichern von Cues, Kopieren, Speichern auf Disk. Ist
+ein solcher Taster aktiv, so wird das jeweils durch eine LED angezeigt.
 
-\(O\) The **Attribute select buttons** are used to select which attributes of
-a fixture (e.g. colour, gobo, pan, focus) are going to be controlled
-using the Control wheels. The buttons have lights on to show you which
-attributes are active. The bottom (red) button allows you to locate
-fixtures, which sets them to a known start position while programming.
+\(O\) Mit den Tastern der **Attributauswahl** werden die Attribute der Geräte
+angewählt (z.B. Farbe, Gobo, Bewegung, Fokus), welche dann durch die
+Encoder gesteuert werden sollen. Die jeweils aktiven Taster werden durch
+LEDs angezeigt. Der untere (rote) Taster erlaubt das 'Locaten'
+(Lokalisieren) von Geräten, indem sie auf eine vordefinierte
+Startposition gesetzt werden.
 
-- The main **Power switch** is on the front of the console to the left.
+- Der **Einschalter** befindet sich links vorn unter der Auflage.
 
-- A **QWERTY keyboard** and mouse touchpad is provided in a drawer on the
-front of the console.
+- Eine **Tastatur mit Touchpad** befindet sich in einer Schublade vorne am
+Pult.
 
-## The Back Panel
+## Anschlussfeld auf der Rückseite
 
 ![Pearl Expert Back Panel](/docs/images/Pearl-Expert-Back-Panel.png)
 
-All the connections required for the console are found on the back
-panel. Most are self-explanatory.
+Sämtliche für das Pult erforderlichen Anschlüsse befinden sich auf der
+Rückseite. Die meisten davon sind selbsterklärend.
 
-\(P\) Four DMX outputs are provided on XLR. MIDI in and out is provided.
+\(P\) Vier DMX-Anschlüsse sowie MIDI Ein- und Ausgang.
 
-\(Q\) The Panel reset switch may be pressed to restart the front panel
-    electronics if something odd happens with the switches and faders.
-    The main board will continue running but the DMX output will be
-    interrupted until the restart is completed.
 
-\(R\) The USB reserve sockets and switches are for future expansion. The
-    switches should be set to \'Normal operation\'.
+\(Q\) Mit dem Resettaster für die Bedienoberfläche kann die Elektronik der
+Steueroberfläche zurückgesetzt werden, wenn die Schalter und
+Regler falsch reagieren. Die Programmlogik (Hauptplatine) wird
+davon nicht betroffen, allerdings wird die DMX-Ausgabe
+unterbrochen, bis der Neustart erfolgt ist.
 
-\(S\) The power switch on the rear panel is to isolate the power supply, do 
-not switch the console off using this switch. The switch on the front edge of the 
-console should be used to start it up and shut it down properly.
+\(R\) Der reservierte USB-Anschluss und Umschalter ist für künftige
+Erweiterungen vorgesehen. Der Schalter sollte auf "Normal
+operation" belassen werden.
+
+\(S\) Der Netzschalter oberhalb des Netzanschlusses trennt das Pult
+komplett vom Netz. Verwenden Sie diesen Schalter nicht, um das Pult
+normal auszuschalten.
 	
-## The Pearl Expert Touch Wing
+## Das Pearl Expert Touch Wing
 
 ![Pearl Expert Touch Wing](/docs/images/Pearl-Expert-Touch-Wing.png)
 
-The optional Pearl Expert Touch Wing uses a touch screen and additional
-wheels to provide the standard Titan interface for selecting fixtures,
-palettes, groups and setting attributes. It can only be used with the
-Pearl Expert and connects to the DVI port and the 9-pin D connector on
-the rear of the console, just above the panel with the rear USB/network
-sockets.
+Das optionale Pearl Expert Touch Wing gestattet mit dem
+berührungs­empfindlichen Display und den zusätzlichen Rädern das
+gewohnte Arbeiten zur Auswahl von Geräten, Paletten, Gruppen und zum
+Einstellen von Attributen. Es funktioniert nur mit dem Pearl Expert und
+wird an die rückseitigen gesonderten Buchsen angeschlossen (DVI und
+Sub-D 9-pol, die aber spezielle Signale führen).
 
-\(T\) The main area of the Touch Wing shows up to 4 **workspace windows**. You
-can select the content and configure the size and layout of these
-windows using the Window Selection and Size/Position buttons below the
-screen.
+\(T\) Der Hauptbereich des Touch Wings zeigt verschiedene **Arbeitsfenster**.
+Deren Inhalt, Funktion und Größe lässt sich mit den entsprechenden
+Tasten unterhalb des Displays steuern.
 
-\(U\) The arrangement of windows can be saved and recalled using the
-**Workspaces** touch buttons on the right of the screen.
+\(U\) Die Anordnung der Fenster lässt sich als **Arbeitsumgebung** speichern
+und mit den Schaltflächen rechts wieder abrufen.
 
-Some windows have additional command buttons which are displayed in the
-**Context touch buttons** area on the top right of the screen when the
-window is active.
+Einige Fenster bieten zusätzliche Funktionen; dazu werden oben rechts im
+Display entsprechende **kontextabhängige Schaltflächen** eingeblendet.
 
-\(V\) The three **Attribute Wheels** take over attribute control from the
-wheels on the console, which are then used for speed/fade control of
-chases. Below the wheels the **Scroll Mode Button** to switch the wheels
-into scroll mode - this is used to move a selection box around the
-screen when editing.
+\(V\) Die drei **Encoder (Räder)** übernehmen die Attribut-Steuerung von den
+Rädern des Pultes, welche dann für die Steuerung von Geschwindigkeit und
+Crossfade von Chasern zur Verfügung stehen. Betätigen der
+**Bildlaufschalter** (unterhalb der Räder) schaltet die Räder in den
+Bildlauf-Modus: damit lässt sich eine Auswahlbox über den Bildschirm
+bewegen.
 
-\(W\) The **Attribute Display** shows which attributes are being controlled by
-the wheels, and the current settings. Touching the roller graphic will
-set the attributes to min or max.
+\(W\) Die **Attributanzeige** zeigt die momentan bearbeiteten Attribute mit
+ihren aktuellen Werten an. Berührt man diese Schaltflächen so wird das
+jeweilige Attribut auf seinen Minimal-/Maximalwert gesetzt.
 
-\(X\) Across the bottom of the screen there is an area showing information
-about the **playbacks** on the current roller pages.
+\(X\) Am unteren Rand des Bildschirms befindet sich der Informationsbereich
+mit Details der aktuell angewählten **Playbacks**.

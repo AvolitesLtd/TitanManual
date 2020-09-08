@@ -5,39 +5,41 @@ sidebar_label: Fader Wings
 original_id: fader-wings
 ---
 
-"Wings" are additional control surfaces which can be connected to the
-console to provide more faders and buttons, and in some cases extra
-touch screens.
+"Wings" bieten zusätzliche Bedienelemente wie Fader und Tasten, und sind
+je nach Einsatzzweck eine sinnvolle Ergänzung.
 
 ## Tiger Touch Wing
 
-The Tiger Touch wing provides 30 additional handles each with an
-associated legend display. The handles can be used as playbacks or to
-patch fixtures/dimmers. Each row of 15 faders has its own independent
-paging control.
+
+Der Tiger Touch Wing bietet 30 zusätzliche Fader/Tasten, die über ein
+kleines Display auch jeweils beschriftet werden können. Wie auf dem Pult
+auch lassen sich sowohl Geräte darauf patchen als auch Playbacks
+(Speicherplätze) darauf speichern. Jede Faderreihe lässt sich unabhängig
+auf 60 Seiten umschalten.
 
 ![Tiger Touch Wing](/docs/images/Tiger-Touch-Wing.png)
 
-The Tiger Touch Wing connects by USB to the main console. It also needs
-a mains power connection. The Wing has a built in USB hub to provide 2
-further USB sockets for a keyboard etc.
+Das Tiger Touch Wing wird über ein USB-Kabel mit dem Tiger Touch
+verbunden, außerdem ist ein separater Netzanschluss erforderlich. Das
+Wing verfügt über einen integrierten USB-Hub, so dass weitere 2
+USB-Anschlüsse etwa für eine Tastatur zur Verfügung stehen.
 
-The Tiger Touch Wing is designed to fit next to the Tiger Touch console
-but can also be used with the Pearl Expert, the Arena and the Sapphire
-Touch.
+Das Tiger Touch Wing ist optisch und mechanisch passend zum Tiger Touch
+designed worden, kann aber auch mit dem Pearl Expert oder dem Sapphire
+Touch verwendet werden.
 
 ## Titan Mobile Wing
 
-The Titan Mobile Wing adds 20 additional playback faders and 30
-macro/executor buttons to the main console. It connects by a single USB
-cable to the console or the PC running the Titan software.
+Das Titan Mobile Fader Wing stellt zusätzlich zum Pult 20 Fader sowie 30
+Macro-/Exekutor-Tasten zur Verfügung. Es wird einfach durch ein
+USB-Kabel mit dem Pult (bei Verwendung des Titan Mobile: mit dem
+Computer, auf dem die Software läuft) verbunden.
 
-It is designed to fit next to the Titan Mobile panel, but it can also be
-used with the Tiger Touch, Quartz, Arena and Sapphire Touch consoles,
-and the Titan Two dongle.
+Es hat die gleiche Form wie das Titan Mobile und passt perfekt zu
+diesem, kann aber auch mit allen größeren Pulten -- Quartz, Tiger Touch,
+Pearl Expert, Arena und Sapphire Touch -- verwendet werden.
 
-If you want to see the legends and function information for the wing
-controls, you can open the Wing View workspace window on the main
-console.
+Zur Anzeige der Belegung der Fader und Tasten gibt es das Fenster
+"Mobile Wing".
 
 ![Titan Mobile Wing](/docs/images/Titan-Mobile-Wing.png)

@@ -5,58 +5,68 @@ sidebar_label: Controlling fixtures
 original_id: controlling-fixtures
 ---
 
-Select fixtures for control by pressing select buttons. Fixture buttons
-turn blue when selected.
+Zum Steuern werden einzelne oder mehrere Geräte mit den
+Geräte-Schaltflächen ausgewählt. Die Buttons der ausgewählten Geräte
+werden hellblau dargestellt.
 
-Press \<Locate\> to "home" selected fixtures with lamp on. If fixture is
-patched on a fader, the fader controls the dimmer. Hold \<Locate\> and press attribute button to remove that
-attribute from the locate (e.g. to locate without changing pan/tilt,
-hold \<Locate\> and press \<Position\>). See the [Locate](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate) section for more information.
+Drücken Sie \<Locate\>, um die ausgewählten Geräte zu "homen" (50%
+Pan/Tilt, kein Gobo, open white), siehe [Locate](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate). Halten
+Sie die \<Locate\>-Taste gedrückt und drücken Sie dazu einzelne
+Attribute, um diese **nicht** zurückzusetzen (um z.B. Pan/Tilt nicht
+zurückzusetzen, halten Sie \<Locate\> und drücken dazu \<Position\>).
 
-Select attribute to control using attribute bank buttons (labelled
-Intensity/Dimmer, Colour, Gobo etc), then turn the wheels to set
-fixture. Display shows which attribute each wheel is controlling.
-(See [Changing Attributes Using the Wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels)).
+Wählen Sie nun einzelne Attribute zum Bearbeiten aus (Attribut-Tasten
+sind beschriftet mit Intensity/Dimmer, Colour, Gobo usw.), und stellen
+Sie die gewünschten Werte mit den Rädern ein; Attribute und Werte werden
+dabei im Display angezeigt
+(Siehe [Changing Attributes Using the Wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels)).
 
-Open Attribute window onscreen (\<View/Open\> then one of the attribute
-bank buttons such as \<Position\> or \<Intensity\>) to select attributes
-from buttons and to control subfixtures of battens/arrays.
-(See [Fixtures with Multiple Cells](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fixtures-with-multiple-cells-subfixtures)).
+Ebenso können Sie das Attribut-Fenster öffnen (\<View\>, \<Attribute
+Options\>), um Einstellungen mit den Schaltflächen auszuwählen und um
+einzelne Zellen/Subfixtures von Geräten mit mehreren Zellen zu
+beeinflussen.
+(Siehe [Fixtures with Multiple Cells](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fixtures-with-multiple-cells-subfixtures)).
 
-Use Palettes to store often-used colours, positions etc. for instant
-recall, see next page.
+Verwenden Sie Paletten, um häufig benutzte Farben, Positionen etc. zu
+speichern, siehe nächste Seite.
 
-## Fixture Groups
+## Geräte-Gruppen
 
-Fixtures may be [grouped](../controlling-fixtures/fixture-groups.md) for quick selection, press \<Group\>, \[Record
-Group\], select fixtures for group, set legend using \[Provide a
-legend\], press a handle to store. If the handle has a fader it becomes
-a master fader for the group. Order of fixture selection is remembered
-for use with shapes. Physical layout of fixtures
-in group can also be set for use with pixel mapper or shapes.
+Geräte können zur schnelleren Auswahl  [zu Gruppen zusammengefasst](../controlling-fixtures/fixture-groups.md) werden:
+drücken Sie \<Group\>, \[Record Group\], wählen die zu gruppierenden
+Geräte aus, geben ggf. eine Legende ein (mit \[Provide a legend\]), und
+klicken auf eine Gruppen-Schaltfläche oder Taste (wenn es eine
+Playback-Taste mit Fader ist, wird daraus ein Gruppen-Masterfader). Die
+Reihenfolge der Geräteauswahl etwa zur Verwendung innerhalb von
+Effekten/Shapes wird mit den Gruppen gespeichert.  Ebenso wird das Layout der Geräte pro Gruppe gespeichert und
+etwa für Pixelmapper-Effekte sowie Shapes verwendet.
 
-## Shapes & Effects
+## Shapes & Effekte
 
-Titan can use preset shapes, patterns you create yourself ([key frame
-shapes](../effects/key-frame-shapes.md)) or [pixel mapped patterns](../effects/pixel-mapper.md).
+Titan verfügt über drei Arten von Effekten: vorprogrammierte Effekte
+(Shapes), Muster die man selbst erstellt ([Keyframe-Shapes](../effects/key-frame-shapes.md)) sowie [Pixelmapper-Effekte](../effects/pixel-mapper.md).
 
-Select fixtures. The order in which you select the fixtures is used by
-shapes.
+Wählen Sie mehrere Geräte aus; dabei bestimmt die Reihenfolge der
+Auswahl die Reihenfolge innerhalb des Shapes.
 
-At top menu press \[Shapes and Effects\], \[[Shape Generator](../effects/shape-generator.md)],
-\[Create\]. Select attribute of shape then select a shape to run.
+Im Hauptmenü drücken Sie \[Shapes and Effects\], \[Shape Generator\],
+\[Create\], siehe [Shape Generator](../effects/shape-generator.md). 
+Wählen Sie das gewünschte Attribut, auf das der Effekt
+angewendet werden soll.
 
-Or from the Shape Library window (\<Open/View\>, \[Open Workspace
-Window\], \[Shape Library\]) you can select a shape directly. Filter the
-list of shapes using the attribute buttons.
+Ebenso können Sie aus der Effekt-Bibliothek (\<View/Open\>, \[Open Workspace
+Window\], \[Shape Library\]) direkt einen Effekt auswählen. Die Liste
+lässt sich mit den Attribut-Tasten filtern.
 
-Use the wheels and \[Adjust Speed, Size and Spread\]/\[Adjust Phase,
-Spread and Offset\] to configure the shape. Spread distributes the shape
-across a number of fixtures.
+Stellen Sie mit den Rädern und der Auswahl \[Adjust Speed, Size and
+Spread\]/\[Adjust Phase, Spread and Offset\] die Effekt-Parameter wie
+gewünscht ein. Dabei bestimmt ‚Spread' die Verteilung des Effekts auf
+die Geräte.
 
-[Key frame shapes](../effects/key-frame-shapes.md) are similar to a [chase](../chases.md) but you can spread the sequence
-across fixtures.
+[Keyframe-Shapes](../effects/key-frame-shapes.md) arbeiten ähnlich wie [Chaser](../chases.md). Wichtigster Unterschied
+ist, dass man den genauen Kurvenverlauf selbst bestimmen kann.
 
-To use [Pixel Mapper](../effects/pixel-mapper.md), save fixtures to a group, select the group. Use
-[Layout Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) to set the real-world layout of the fixtures. Then use
-Effects Editor to create effects on the pixels.
+Um den [Pixelmapper](../effects/pixel-mapper.md), zu verwenden, müssen 
+entsprechende Gruppen erstellt werden. Wählen Sie dann die Gruppe aus, und 
+stellen Sie mit dem [Layout-Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) die Anordnung der Geräte innerhalb der Gruppe ein, bevor
+Sie schließlich mit dem Effekt-Editor Effekte erstellen.
