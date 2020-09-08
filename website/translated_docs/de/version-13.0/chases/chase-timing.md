@@ -5,167 +5,179 @@ sidebar_label: Chase Timing
 original_id: chase-timing
 ---
 
-Global Timings for Chases
+Globale Zeiten für Chaser
 -------------------------
 
-When a chase is first programmed, each cue in the chase has identical
-timing. This is called the global timing for the chase. If you want you
-can then set each cue to have its own timings using the [Playback View
-window](editing-a-chase.md#opening-a-chase-for-editing) or 
-[Unfold](editing-a-chase.md#editing-a-chase-using-unfold). This is 
-described below in [Individual Cue Times in Chases](#individual-cue-times-in-chases).
+Wird ein Chaser erstmals programmiert, gelten für sämtliche Schritte die
+gleichen Zeiten. Dies sind die globalen Zeiten. Wenn gewünscht, lassen
+sich anschließend für jeden Schritt gesonderte Zeiten in der Ansicht
+[Playback View](editing-a-chase.md#opening-a-chase-for-editing) bzw. mit 
+der [Unfold](editing-a-chase.md#editing-a-chase-using-unfold)-Funktion 
+vergeben; das ist [im nächsten Abschnitt](#individual-cue-times-in-chases)
+ genauer beschrieben.
 
-1. Press \[Edit Times\] from the top level menu then the **Swop** button of
-the chase
+1. Drücken Sie im Hauptmenü \[Edit Times\], und anschließend die
+**Swop**-Taste des gewünschten Chasers.
 
-2. Set the **Crossfade**, **Speed**, **Fixture Overlap** and **Attribute Overlap**
-settings, as described below
+2. Stellen Sie wie unten beschrieben **Geschwindigkeit**, **Überblendung**,
+**Geräteversatz** und **Attributversatz** ein.
 
-3. Press \<Exit\> to finish
+3. Drücken Sie \<Exit\>, um den Vorgang abzuschließen.
 
 ---
 
--   To set **speed**, press \[Speed\] then type the new speed, then press
-    \<Enter\>. The speed can be set in Beats Per Minute (BPM) or seconds
-    depending on the user settings.
+-   Zum Einstellen der **Geschwindigkeit** drücken Sie \[Speed\], geben die
+    gewünschte Geschwindigkeit mit den Zifferntasten ein und schließen
+    die Eingabe mit \<Enter\> ab. Abhängig von den Benutzereinstellungen
+    kann man die Geschwindigkeit in ‚Beats Per Minute' (BPM) oder in
+    Sekunden eingeben.
 
--   To set **crossfade**, press \[Xfade\] then type the fade from **0 - 100**
-    and press \<Enter\>.\
-    *0=no fade (the chase will "snap"), 100=max fade (the chase will move
-    continuously from cue to cue).*
+-   Zum Einstellen der **Überblendung** drücken Sie \[Xfade\], geben den
+    gewünschten Wert mit den Zifferntasten ein und schließen die Eingabe
+    mit \<Enter\> ab *(0 = keine Überblendung, hartes Umschalten; 100 =
+    maximale Überblendung, ständiges Umblenden von einem Schritt zum
+    nächsten)*.
 
--   You can assign the blue or grey handle button to be a **tap tempo**
-    button using the [Key Profiles](../system-settings/key-profiles.md) option.
+-   Es gibt ein vorbereitetes Macro ‚Tap Tempo'. Kopieren Sie dieses auf
+    eine freie Taste, so wirkt diese als Tap-Taste, sobald ein Chaser
+    verbunden ist: drücken Sie diese mehrfach im gewünschten Rhythmus.
+    Ebenso lässt sich mittels [Tastenprofil (Key Profiles)](../system-settings/key-profiles.md) die blaue oder graue Taste
+    als **Tap Tempo**-Taste belegen
 
-### Overlap
+### Overlap - Überlappung
 
-The **Overlap** functions allow you to offset and overlap the timing of
-changes in the chase. This can create really amazing visual effects with
-hardly any programming. The best way to learn about overlap is to
-program a chase with two cues involving several fixtures, then
-experiment with the overlap settings to see the various *"roll"* and *"peel
-off"* effects which result.
+Die **Overlap** (Überlappen)-Funktionen erlauben Vorgaben zu Versatz und
+Überlappung der einzelnen Schritte. Damit lassen sich mit minimalem
+Programmieraufwand erstaunliche Ergebnisse erzielen. Um sich damit
+vertraut zu machen, legt man am besten einen Chaser mit zwei Schritten
+unter Verwendung mehrerer Geräte an, und experimentiert mit den
+verschiedenen Optionen.
 
-The following diagram shows you the effects of fixture
-overlap and attribute overlap in chases.
+Im nachstehenden Diagramm sind die Auswirkungen von 'Cue Overlap'
+(Schritt überlappen), 'Fixture Overlap' (Geräte überlappen), und
+‚Attribut Overlap' (Attribute überlappen) dargestellt.
 
 ![Fixture Overlap and Attribute Overlap diagram for a chase](/docs/images/Fixture-Overlap-and-Attribute-Overlap-diagram-for-a-chase.png)
 
-Press \[Fixture Overlap\] then enter **0 - 100** on the keypad to change
-how fixtures overlap in the cue.\
-**100%** *(the normal setting)* means all fixtures fade together.\
-**0%** means that the first fixture will finish
-its fade before the next one starts giving a "rolling" change across
-a range of fixtures.\
-**50%** means that the 2^nd^ fixture will start
-fading when the first one is half way through its fade.\
-The order of the fixtures is set by the order you selected them when the cue was
-saved; you can change the order using \<Unfold\>.
+Drücken Sie \[Fixture Overlap\] und geben mit den Zifferntasten
+einen Wert von **0 - 100** ein.\
+**100%** (*Standardwert*) bedeutet, dass alle Geräte gemeinsam wechseln.
+**0%** bedeutet, dass zunächst das erste Gerät komplett überblendet, bevor das nächste damit beginnt.\
+Bei **50%** wird das erste die Überblendung zunächst zur Hälfte
+abschließen, bevor das nächste damit beginnt. Die Reihenfolge der
+Geräte wird dabei durch die Reihenfolge der Geräteauswahl beim
+Erstellen des jeweiligen Schrittes vorgegeben, kann aber mit der
+\<Unfold\>-Funktion geändert werden.
 
-Individual Cue Times in Chases
-------------------------------
+Individuelle Zeiten pro Schritt
+-------------------------------
 
-You can configure each cue in a chase to have its own timing
-information. You can use the Playback View window, or the Unfold
-function to set individual times for cues in chases.
+Jeder Schritt eines Chasers lässt sich mit gesonderten Zeitvorgaben
+versehen. Dazu können Sie entweder das ‚Playback View'-Fenster oder die
+‚Unfold'-Funktion verwenden.
 
-> It is easier to use a Cue List rather than a chase if you need a 
-lot of different timings or link/unlinks. See [Cue Lists](../cue-lists.md).
+> Werden sehr komplexe Zeiten benötigt, so bietet sich die Verwendung einer Cueliste an, siehe [Cuelisten](../cue-lists.md).
 
-### Using the Playback View Window
+### Unter Verwendung des 'Playback View'-Fensters:
 
-1. Touch the playback display relating to the fader, or press
-\<Open/View\> then the **swop** button of the playback. The Playback View
-window will open.
+1. Berühren Sie das Display oberhalb des betreffenden Reglers, oder
+drücken Sie \<View / Open\> und die **Swop**-Taste des
+Speicherplatzes. Darauf öffnet sich das ‚Playback View'-Fenster.
+
 ![Playback View for chase](/docs/images/Playback-View-for-chase.png)
 
-2. In the grid, touch the times you want to edit
+2. Im Fenster können Sie durch Anklicken die zu ändernden Zeiten
+auswählen.
 
-3. Use the softkey options to change the times or settings
+3. Zum Ändern der Zeiten und Einstellungen nutzen Sie die
+entsprechenden Funktionstasten.
 
-4. Repeat steps 2 - 3 to change other times or settings.
+4. Wiederholen Sie ab Schritt 2, um weitere Änderungen vorzunehmen.
 
-> You can change a range of cues all at once by dragging across the
-    grid to select multiple cells, or you can use **wheel B** to select
-    multiple cells for editing.
+> Zum gleichzeitigen Ändern mehrerer Schritte lassen sich durch
+    'Wischen' über das Display mehrere Cues auf einmal auswählen, oder
+    man benutzt den **Encoder B** zur Mehrfachauswahl.
 
-### Using Unfold
+### Unter Verwendung der 'Unfold'-Funktion
 
-1. Press \<Unfold\> then the **Swop** button of the chase to be edited.
+1. Drücken Sie die \<Unfold\>-Taste und dann die **Swop**-Taste des zu
+editierenden Chasers.
 
-2. Press \[Edit Times\] then the **Swop** button of the unfolded cue you
-want to edit.
+2. Drücken Sie \[Edit Times\] und dann die **Swop**-Taste des
+gewünschten Schrittes.
 
-3. Set up the timing options as required. The options are described
-below.
+3. Stellen Sie die Zeiten auf die gewünschten Werte ein. Die möglichen
+Optionen sind unten beschrieben.
 
-4. Press \<Unfold\> to get out of unfold mode.
+4. Drücken Sie \<Unfold\>, um den Modus zu verlassen.
 
-### Timing Options
+### Zeit-Optionen
 
-Initially all the timing options are set to Global. You can cancel any
-individual timings and set the time back to global timings by pressing
-the softkey for the option then pressing \[Use Global\].
+Im Ausgangszustand sind sämtliche Zeitvorgaben auf die globalen Werte
+voreingestellt. Vorgenommene individuelle Einstellungen lassen sich
+rückgängig machen, indem man die Funktionstaste der entsprechenden
+Zeiteinstellung betätigt und dann \[Use Global\] wählt.
 
 The timing options for the cue are:
 
--   Delay
+-   Delay (Verzögerung)
 
--   Fade (in)
+-   Fade In (Einblenden, Überblenden)
 
--   Fade Out
+-   Fade Out (Ausblenden)
 
--   Fixture Overlap
+-   Fixture Overlap (Geräteversatz)
 
--   Link with previous step
+-   Link with previous step (mit dem vorigen Schritt verbinden)
 
--   Attribute times (see [next section](#setting-attribute-fade-times-for-a-cue-in-a-chase))
+-   Attribute times (Attribut-Zeiten, siehe [nächster Abschnitt](#setting-attribute-fade-times-for-a-cue-in-a-chase))
 
-Linking can be set to \[Link After Previous\] (the chase will run
-automatically) or \[Link Wait For Go\] which will stop the chase until
-you press \<Go\>.
+'Linking' (Verbinden) kann entweder auf \[Link After Previous\](der
+Schritt folgt unmittelbar auf den vorigen, und der Chaser läuft
+automatisch durch) oder auf \[Link Wait For Go\] (der Schritt wartet auf
+das Betätigen der \<Go\>-Taste) gestellt werden.
 
-## Setting Attribute Fade Times for a Cue in a Chase
+## Vergeben von Attribut-Zeiten für einzelne Schritte
 
-For each cue in a chase, you can set individual fade times for each
-attribute group (such as position). If you set a time, it overrides the
-normal times. You can use the Cue View window, or the Unfold function to
-set attribute times.
+Für jeden Schritt eines Chasers lassen sich ebenso verschiedene
+Überblendzeiten für die einzelnen Attribute, etwa die Position,
+vergeben. Das Vergeben solcher individueller Zeiten überschreibt die
+vorgegebenen normalen Zeiten. Zum Ändern dieser Einstellungen lässt sich
+entweder das ‚Cue View'-Fenster oder die ‚Unfold'-Funktion nutzen.
 
-To set an attribute group fade time:
+Zum Vergeben einer Überblendzeit für eine Attributgruppe:
 
-1. Press \<Open/View\> or \<Unfold\>, then the **Swop** button of the chase
-to be edited.
+1. Drücken Sie \<View / Open\> oder die \<Unfold\>-Taste, und
+danach die **Swop**-Taste des gewünschten Chasers.
 
-2. Press \[Edit Times\] then touch the cue you want to edit in the
-Playback View, or if using Unfold, press the **Swop** button of the unfolded
-cue you want to edit.
+2. Drücken Sie \[Edit Times\], und wählen danach den zu ändernden
+Schritt im 'Playback View'-Fenster, oder - bei Verwendung der
+'Unfold'-Funktion - mit der entsprechenden **Swop**-Taste aus.
 
-3. Press the **Attribute Options** button (right hand side) for the
-attribute you want to change.
+3. Drücken Sie die **Attribut-Auswahltaste** (rechts) des Attributs, das
+Sie bearbeiten möchten.
 
-4. Press \[Delay\] to set delay time or \[Set fade\] to set fade time.
+4. Drücken Sie \[Delay\], um die Verzögerung einzustellen, oder \[Set
+fade\] zum Einstellen der Überblendzeit.
 
-5. Type the new time using the numeric keypad and press \<Enter\> to
-save it, or press \[Use Global\] to delete the attribute times and go
-back to the normal times.
+5. Geben Sie die gewünschte Zeit mit den Zifferntasten, gefolgt von
+\<Enter\>, ein, oder drücken sie \[Use Global\], um die individuellen
+Einstellungen zu verwerfen und die globalen Zeiten zu verwenden.
 
-6. Press \<Enter\> to save the changes.
+6. Drücken Sie \<Enter\> zum Übernehmen der Werte.
 
-## Rate and BPM Masters
+## Rate- und BPM-Master
 
-Rate or BPM masters can be allocated to chases, allowing you to control
-the speed from a separate master fader. You set this by pressing
-\[Effects\] then \[Speed Source\] in the [Playback Options](../cues/playback-options.md) for the chase.
-See [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
+Chaser können einem Rate- oder einem BPM-Master zugewiesen werden -
+dadurch wird dann das Tempo durch einen anderen Masterregler gesteuert.
+Die Zuordnung erfolgt in den [Playback-Optionen](../cues/playback-options.md) des Chasers unter \[Effects\], dann \[Speed Source\]. Siehe Abschnitt [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
 
-## Speed Multipliers
+## Speed-Faktoren
 
-Speed multipliers allow you to modify the chase speed, either faster
-(for example "x4") or slower (for example "/4"). This is useful when
-running multiple chases together.
+Mittels Speed-Faktoren kann das Geschwindigkeits-Verhältnis zwischen
+mehreren Chasern und Effekten festgelegt werden (etwa x4 oder /2).
 
-Press \[Speed Multiplier\] In the Edit Times menu for the chase, or use
-the \[Speed Multiplier\] option in the Playback category of the 
-[Playback Options](../cues/playback-options.md) for the chase. Use the \[Multiply or Divide\] softkey to swap
-the value between multiply and divide.
+Wählen Sie \[Speed Multiplier\] im ‚Edit Times'-Menü des Chasers oder in
+[\[Playback Options\]\[Playback\]](../cues/playback-options.md), und 
+stellen Sie den gewünschten Wert mit den Menütasten ein. 
+\[Multiply or Divide\] bestimmt, ob es ein Faktor oder ein Teiler ist.

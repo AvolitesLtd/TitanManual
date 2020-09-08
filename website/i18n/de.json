@@ -975,7 +975,7 @@
       },
       "version-13.0-chases/creating-a-chase": {
         "title": "Erstellen eines Chasers",
-        "sidebar_label": "Creating a Chase"
+        "sidebar_label": "Erstellen eines Chasers"
       },
       "version-13.0-chases/editing-a-chase": {
         "title": "Editieren eines Chasers",
@@ -1823,7 +1823,7 @@
       "Synergy": "Synergy und    Verbinden mit Ai",
       "Running The Show": "Steuern der Show",
       "Remote Control": "Fernsteuerung",
-      "Titan Net": "Fernsteuerung",
+      "Titan Net": "Der Titan Network Processor (TNP)",
       "System Settings": "System- und Benutzereinstellungen",
       "Fixture Personalities": "Personalities (Gerätedateien)",
       "Networking the Console": "Netzwerkeinstellungen",
