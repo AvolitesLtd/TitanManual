@@ -13,7 +13,7 @@
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "concurrently 'npm run sass' 'docusaurus-start'",
-    "build": "node ../parse/search.js && npm run download && npm run sass-build && docusaurus-build && npm run og",
+    "build": "node ../parse/search.js && npm run sass-build && docusaurus-build && npm run og",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",

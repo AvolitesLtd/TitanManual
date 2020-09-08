@@ -159,6 +159,7 @@ jobs:
         run: |
           cd website
           npm install
+          npm run download
           npm run build
 
       - name: Deploy
