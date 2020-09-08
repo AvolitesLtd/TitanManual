@@ -5,46 +5,47 @@ sidebar_label: Capture Show Files
 original_id: capture-show-files
 ---
 
-The Capture stage is automatically saved within the Titan showfile. The
-Capture stage can also be exported and imported separately from the
-Titan show. This allows standard stages or rigs to be transferred
-between Titan shows, or to be loaded into the full version of Capture
-for further editing.
+Die Capture-Bühne wird automatisch mit in der Titan-Show gespeichert. Sie
+kann aber auch exportiert und importiert werden, um sie unabhängig von
+Titan in Capture zu verwenden. Ebenso können damit einzelne
+Capture-Shows unabhängig in mehreren Titan-Shows verwendet werden.
 
-Select the Show tab in the Capture Settings window to export and import
-shows.
+Zum Exportieren/Importieren wählen Sie den Reiter **Show** im Fenster
+\[Capture Visualiser Settings\].
 
-Exporting Shows
----------------
+Shows exportieren
+-----------------
 
-Exported Capture shows can be loaded into other Titan shows or into the
-full version of Capture for producing documentation.
+Exportierte Shows können in andere Titan-Shows importiert werden. Ebenso
+können Sie in Capture geöffnet werden, um sie weiter zu bearbeiten oder
+Unterlagen zur Dokumentation auszudrucken.
 
-Importing Shows
----------------
+Shows importieren
+-----------------
 
-Shows can be imported from the full version of Capture, this can be
-useful to import existing stage structures or rigging designs.
+Shows aus der Capture-Vollversion können importiert werden, etwa für
+größere Setups oder kompliziertes Rigging.
 
-> The internal Capture engine uses the Capture 2020 version *(in Titan v13 and v12, Capture 2018 was used; in Titan v11 and below, Capture Atlas was used)*. You will not be able to import files from newer versions of Capture - use the **"Export for Capture 2020"** function in the File menu of the full version of Capture to save the file as a version which can then be imported.
+> Der interne Capture-Visualiser in v14 verwendet Capture 2020 *(Titan v12 und v13 verwendete Capture 2018, frühere Titan-Versionen verwendeten Capture Atlas)*. Capture-Setups aus neueren Versionen können nicht importiert werden. Exportieren Sie also die richtige Version mit **Export for Capture 2020** in der Capture-Vollversion.
 
-You can import fixtures from full Capture but you need to ensure that
-fixtures are correctly patched in Capture to match the patch on the
-console. There is no way to edit an externally created Capture patch on
-the console.
+Auch Fixtures können aus Capture (Vollversion) übernommen werden, jedoch
+muss dabei sichergestellt sein, dass das Patch stimmt. Das Patch aus
+importierten Shows kann nicht im integrierten Capture-Visualiser
+verändert werden.
 
-Some fixture types and other Capture elements may not work when you
-import a show that has been created in full Capture. We recommend you
-use the [auto-patch function](../patching/patching-new-fixtures-or-dimmers.md#capture-visualiser-auto-patch) to allow the console to patch the fixtures
-into Capture.
+Einige Fixtures und andere Elemente aus dem externen Capture
+funktionieren möglicherweise nicht mit dem internen Capture-Visualiser.
+Daher empfiehlt es sich in der Regel, die Geräte wie beschrieben auf dem
+Pult bei aktivierter [Auto-Patch-Funktion](../patching/patching-new-fixtures-or-dimmers.md#capture-visualiser-auto-patch) 
+zu patchen, damit die richtigen Gerätetypen ausgewählt werden.
 
-Clearing the Capture Show
--------------------------
+Die Capture-Show löschen
+------------------------
 
-The Wipe button at the bottom of the Show tab will clear the current
-Capture show.
+Unten auf dem Reiter **Show** gibt es den Button \[Wipe\], mit dem die
+aktuelle Capture-Show gelöscht wird.
 
-If you need to reload patched fixtures from your Titan show into
-Capture, select the \[Edit Fixtures\] \[Update Personality\] option on
-the [Patch menu](../patching/changing-the-patch.md#patch-view). This will place all patched fixtures from the Titan show
-into the visualiser.
+Sollen in Titan gepatchte Geräte erneut in die Capture-Show übernommen
+werden, so wählen Sie \<Patch\> \[Edit Fixtures\] \[Update
+Personality\] aus dem [Menü Patch](../patching/changing-the-patch.md#patch-view). Damit werden die bereits gepatchten Fixtures wieder in
+Capture angezeigt.

@@ -5,147 +5,165 @@ sidebar_label: Setting up the Rig
 original_id: setting-up-the-rig
 ---
 
-Setting up the Stage and Rigging
---------------------------------
+Raum und Bühne
+--------------
 
-To help you see what your rig will really look like you can add fixed
-elements of staging and rigging.
+Für einen realistischen Eindruck und eine bessere Orientierung lassen
+sich verschiedene feste Elemente hinzufügen.
 
-Open the Capture Visualiser Settings window from the [Open Workspace
-Window menu](../titan-basics/workspace-windows.md#shortcuts-to-open-workspace-windows), or the **Open Settings** context button in the Capture window.
-Click the **Stage** tab.
+Öffnen Sie das Fenster \[Capture Visualiser Settings\] (entweder aus dem
+Menü [Open Workspace
+Window](../titan-basics/workspace-windows.md#shortcuts-to-open-workspace-windows), oder durch einen Klick auf den
+Kontext-Button **Settings** im Capture Visualiser-Fenster). Klicken Sie
+oben auf den Reiter **Stage**.
 
 ![Capture Visualiser Settings Window](/docs/images/Capture-Visualiser-Settings-Window.png)
 
-**"Floor"** and **"Back Wall"** are provided by default. You can add other
-objects by clicking the **+** button at the bottom of the list.
 
-Click on the object in the list on the left hand side to position and
-angle the object using the controls on the right. You can either type
-exact numbers by clicking on the buttons down the right hand side or use
-the sliders. You can set a legend and colour for each object.
+Die Elemente **"Floor"** (Boden) und **"Back Wall"** (Rückwand) sind bereits
+eingerichtet. Klickt man links unten auf das **+** (Pluszeichen), so
+können weitere Objekte hinzugefügt werden.
 
-Setting up Fixtures
--------------------
+Klicken Sie links auf eines der vorhandenen Objekte, so können seine
+Eigenschaften mit den Fadern und Input-Boxen rechts bearbeitet werden:
+so können Sie die Objekte positionieren und in der Größe verändern.
+Ebenso können Sie rechts oben Farbe und Bezeichnung der Objekte
+verändern.
 
-Fixtures are automatically placed into the visualiser when they are
-patched if the Auto Update switch in the [Capture Settings](#setting-up-the-stage-and-rigging) **"Show"** window
-is set to On.
+Geräte/Fixtures hinzufügen und einrichten
+-----------------------------------------
+Ist die Funktion "Auto Update" aktiviert (zu finden auf dem Reiter
+**Show** der [Capture Settings](#setting-up-the-stage-and-rigging)), 
+so werden Geräte beim Patchen in der Titan-Software automatisch zur 
+Capture-Bühne hinzugefügt.
 
-If you [load a Titan show](../titan-basics/loading-and-saving-shows.md#loading-a-show) from a previous version, or have some patched
-fixtures which are not placed in Capture, use the \[Edit Fixtures\]
-\[Update Personality\] option on the [Patch menu](../patching/changing-the-patch.md#patch-view) to place missing
-fixtures into the visualiser. The [Exchange Fixtures](../patching/changing-the-patch.md#exchange-mapping) function may also be
-used to help with this situation.
+Wird eine Show aus einer früheren Titan-Version [geladen](../titan-basics/loading-and-saving-shows.md#loading-a-show), so werden die
+Geräte/Fixtures **nicht** automatisch zu Capture hinzugefügt. Dazu ist
+zunächst ein [Updaten der Personalities](../patching/changing-the-patch.md#patch-view) erforderlich: \<Patch\> \[Edit
+Fixtures\] \[Update Personality\] \[Update All\]. Auch ein Gerätetausch ([Exchange Fixtures](../patching/changing-the-patch.md#exchange-mapping)) kann helfen.
 
-Fixtures are positioned using the wheels. Select one or more fixtures
-using the [Fixture select or Group buttons](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) and turn them on by pressing
-[Locate](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate). Press the \[Position - Orientation\] context menu button to
-switch the wheels to Visualiser mode *(or press Softkey G at the top
-level menu until the display shows Wheels-Visualiser)*.
+Geräte werden, sobald sie in Capture vorhanden sind, mit den Rädern
+(Encodern) positioniert. Wählen Sie dazu [ein oder mehrere Geräte oder
+ein Gerätegruppe](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) aus und drücken Sie [\<Locate\>](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate). Mit der Kontext-Option
+\[Position -- Orientation\] wird die Steuerung für Position und
+Orientierung der jeweils ausgewählten Geräte auf die Wheels gelegt. *Das
+Gleiche passiert, wenn man den Rad-Modus mit der Menütaste G auf „Räder
+= Visualiser" schaltet.*
 
-Select **Position** attribute, then use the wheels to change the X/Y/Z
-position of the fixture(s). If you select multiple fixtures, pressing
-the \[Scale-Fan\] context menu button or the **Fan** button allows you to
-evenly spread out the fixtures. The [Fan curve/group/split options](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-mode) also
-work.
+Wählen Sie mit den Attribut-Tasten **Position**, so können Sie nun die
+X/Y/Z-Position der gewählten Fixtures einstellen. Sind mehrere Geräte
+gewählt, so lassen sich mit der \<Fan\>-Taste oder der Option
+\[Scale-Fan\] die Geräte gleichmäßig verteilen/auffächern. Auch die
+anderen Optionen der Fan-Funktion [(Split, Curve, Group)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-mode) funktionieren
+wie gewohnt.
 
-Touch above or below the wheel value to nudge the setting up or down by
-one step. For rotation this will be 45 degrees.
+Klicken Sie auf das Display oberhalb der Encoder, so können Sie
+ebenfalls die betreffenden Werte schrittweise verändern. Für die
+Rotation erfolgt das in 45°-Schritten.
 
-If you are viewing the stage from the front then:
+Wenn man von vorn auf die Bühne schaut, so ist die Orientierung von XYZ
+wie folgt:
 
-Axis | Action
+Achse | Beschreibung
 ---|---
-**X** | moves left and right
-**Y** | moves up and down
-**Z** | moves towards and away from you
+**X** | bewegt nach rechts/links
+**Y** | bewegt nach oben/unten
+**Z** | bewegt nach vorn/hinten
 
-Press the **Position** button again to switch the wheels to Orientation
-mode. The wheels will now pivot the fixtures in the X/Y/Z axes. Again
-you can use the [**Fan**](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-mode) button to give a spread of angles on multiple
-fixtures.
+Klickt man nochmals auf **Position**, so schalten die Encoder auf
+Orientation. Damit können die Geräte um die X/Y/Z-Achse
+gedreht/geschwenkt werden. Auch hierbei kann der [Fan-Modus](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-mode) verwendet
+werden.
 
-The X/Y/Z rotation operates like a 3-axis camera gimbal - imagine the
-fixture within three pivoting rings (see left hand picture below). In
-some orientations, the X and Z rotation will seem to do the same thing
-and some rotations seem to be impossible to achieve - this is called
-gimbal lock and happens when two of the "rings" are lined up with each
-other (right hand picture below). Change the Y rotation by 90 degrees to
-enable you to achieve other angles.
+Die XYZ-Rotation kann man sich am besten vorstellen, wenn man von einer
+kardanischen Aufhängung, einem sog. Gimbal, ausgeht: drei Ringe sind
+ineinander drehbar gelagert (siehe linkes Bild unten). Dabei kann es
+dazu kommen, dass zwei Achsen scheinbar das Gleich machen, womit
+bestimmte Orientierungen nicht mehr erreicht werden können. Dieser
+Zustand ist bekannt als sog. Gimbal Lock und entsteht dann, wenn zwei
+Achsen (durch Drehung der dritten um 90°) zusammenfallen (Bild unten
+rechts). Verändern Sie in diesem Falle die dritte Achse um 90°, damit
+wieder alle Freiheitsgrade zur Verfügung stehen und alle Orientierungen
+erreicht werden können.
 
 ![gimbal](/docs/images/Gimbal.jpeg)\
 *Illustration by MathsPoetry*
 
-Press the **Position** button a third time to switch the wheels to Rotation
-mode. This is similar to Orientation but if you have multiple fixtures
-selected, the fixtures rotate as a group about the middle fixture.
+Betätigen Sie **Position** ein drittes Mal, so können Sie die Rotation
+verändern. Sind nur einzelne Geräte ausgewählt, hat das die gleiche
+Wirkung wie Orientation. Sind dagegen mehrere Geräte angewählt, so
+rotiert die Gruppe als Ganzes um ihren Mittelpunkt.
 
->It's easier to see what position fixtures are in if you change the tilt angle so they aren't pointing straight down (or up). It's always useful if you can have an actual fixture of each type connected to help you get them pointing the right way, but you can change this later if not.
+>Es empfiehlt sich, zunächst die Geräte im Tilt etwas aus der Mitte zu fahren, 
+so dass man beim Ändern der Orientierung sieht, wohin man gerade dreht. 
+Außerdem empfiehlt es sich, zumindest ein richtiges Gerät zum Vergleich 
+anzuschließen, um zu überprüfen, dass alle Richtungen und Positionierungen
+im richtigen Sinn erfolgen. 
 
-Setting up Cameras (Views)
---------------------------
+Kameras einrichten (Ansichten)
+------------------------------
 
-Four cameras (selectable views) are provided by default but you can add
-more.
+Es stehen vier Kameras -- unabhängige Ansichten- zur Verfügung, wobei
+weitere hinzugefügt werden können.
 
-The context menu buttons provide camera options.
+Die entsprechenden Optionen stehen über das Kontext-Menü zur
+Verfügung.
 
 ![Capture Visualiser Workspace Window Context Menu](/docs/images/Capture-Visualiser-Workspace-Window-Context-Menu.png)
 
-Camera controls are in the [Capture Visualiser Settings window](#setting-up-the-stage-and-rigging) which you
-can open using the \[Open Workspace Window\] button or using the \[Open
-Settings\] context button.
+Die Steuerung der Kameras erfolgt ebenfalls im Fenster [\[Capture Visualiser Settings\]](#setting-up-the-stage-and-rigging), auf dem Reiter ‚Cameras'.
 
-The view buttons across the top select the four default views *(shown below)*. Press the
-**+** button at the right hand side to add a new view.
-
-The top button on the left toggles between single view or quad split
-mode. If quad split is selected, the other 4 buttons select which view
-you are controlling.
+Mit den vier Schaltflächen oben lassen sich die verschiedenen Kameras
+umschalten *(siehe unten)*; klickt man rechts auf das **+**, kann man weitere Kameras
+hinzufügen.
 
 ![Camera movements in Capture Visualiser Workspace Window](/docs/images/Camera-movements-in-Capture-Visualiser-Workspace-Window.png)
 
-The left hand pad moves the camera **left and right**, and towards and away
-from the stage.
+Der obere Button der linken Spalte schaltet zwischen der Ansicht mit
+einer oder mit vier Kameras um. Ist die Vierer-Ansicht aktiv, so
+schalten die vier Buttons darunter zwischen den einzelnen Teilansichten
+um.
 
-The middle pad moves the camera **up and down**.
+Mit der linken Fläche kann man die Kamera **rechts/links** sowie nach
+**vorn/hinten** positionieren.
 
-The right hand pad can be set to rotate or orbit mode
+Mit der mittleren Fläche verschiebt man die Kamera nach **oben/unten**.
 
--   **Rotate:** turns the camera to face left, right, up, down
+Rechts kann man die Kamera drehen und schwenken; der jeweilige Modus wir
+mit den Buttons darunter gewählt:
 
--   **Orbit:** orbits the camera around the stage in a circular path keeping
-    it pointed at the same object.
+-   **Rotate:** dreht die Kamera nach links/rechts/oben/unten
 
-Press the \[Move Camera\] context button to link camera movement to the
-wheels. This also opens the **Set Coordinates** menu with softkeys allowing
-you to enter numeric camera positions.
+-   **Orbit:** schwenkt die Kamera im Kreis um die Bühne, wobei sie stets
+    auf den gleichen Punkt ausgerichtet bleibt.
 
-Press the \[Rotate Camera\] or \[Orbit Camera\] context buttons to link
-camera rotation or orbit to the wheels and allow numeric entry on the
-softkeys.
+Klickt man auf die Kontext-Option \[Move Camera\], so kann man die
+Kamera mit den Rädern bewegen sowie im Menü **Set Coordinates** 
+die Position/Rotation numerisch eingeben.
 
-Capture Appearance options
---------------------------
+Klickt man auf die Kontext-Option \[Rotate Camera\] oder \[Orbit
+Camera\], so kann man die Kamera mit den Rädern drehen/schwenken, sowie
+die Rotation numerisch eingeben.
 
-The Appearance tab of the [Settings window](#setting-up-the-stage-and-rigging) allows you to set the
-following parameters:
+Capture Darstellungs-Optionen
+-----------------------------
 
-- **Ambient lighting** (background light level)
+Der Reiter Appearance (Darstellung) im Fenster [Capture Visualiser Settings](#setting-up-the-stage-and-rigging)  bietet folgende Einstellmöglichkeiten:
 
-- **Smoke density** (called Atmosphere in full Capture))
+- **Ambient lighting** (Umgebungslicht)
 
-- **Smoke variation** (also called Atmosphere contrast - mix between haze
-    and moving smoke effects - 0%=all haze, 100%=all smoke)
+- **Smoke density** (Nebel/Haze; *bei Capture heißt das "Atmosphere"*)
 
-- **Smoke speed** (also called Atmosphere speed - rate of change of moving
-    smoke effect)
+- **Smoke variation** (*"Atmosphere contrast"* - Mix zwischen statischem 
+Dunst und sich bewegendem Nebel - 0%=Haze, 100%=Nebel)
 
-- **Exposure adjustment** (camera brightness control)
+- **Smoke speed** (*"Atmosphere speed"* - Nebel/Haze Geschwindigkeit)
 
-- **Bloom amount** (visible halo around lights)
+- **Exposure adjustment** (Belichtung, die Empfindlichkeit der Kamera)
 
-- **Rendering settings detail** (this affects the refresh rate of the
-    simulator. If you have a lot of beams visible you may need to change
-    this to Low to improve the refresh rate).
+- **Bloom amount** (eine Rendereinstellung, die die Darstellung heller
+    Lichtquellen beeinflusst)
+
+- **Rendering settings detail** (Render Details Stufe): Qualität der
+    Darstellung. Eine höhere Stufe erzeugt eine bessere Darstellung,
+    niedrige Stufen nehmen weniger Rechenleistung in Anspruch.

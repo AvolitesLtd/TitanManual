@@ -5,70 +5,76 @@ sidebar_label: Linking the Console to Stand-Alone Capture
 original_id: linking-the-console-to-stand-alone-capture
 ---
 
-Sometimes the extra capabilities of the full version of Capture are
-needed, and the console is linked to a PC running full Capture. The
-fixture patch details and fixture selection will sync between the
-console and Capture.
+Um in den Genuss des vollen Capture-Funktionsumfangs zu kommen, muss
+eine Capture-Vollversion auf einem separaten Computer laufen. Verbindet
+man diesen per Netzwerk mit dem Titan-Pult, so wird das Gerätepatch
+sowie die aktuelle Geräteauswahl zwischen Pult und Capture
+synchronisiert.
 
-When the PC is connected to the same network as the console, you should
-be able to see the console listed at the bottom of the **"Universes"** tab
-in Capture. The console should link automatically, but if not or if
-there are multiple Titan consoles on the network, you can manually
-select one from the list..
+Befinden sich Pult und Capture-PC im gleiche Netzwerk, so wird das Pult
+zur Auswahl unten im Reiter **Universes** in Capture angezeigt.
+Normalerweise erfolgt dies bereits vollautomatisch, aber befinden sich
+mehrere Titan-Pulte im Netzwerk, so ist eine manuelle Auswahl nötig.
 
-> For linking/sync to work properly the external Capture version must be 2020, 2018 or the last version of Nexum. Older versions of Capture will only partially work.
+> Damit die Verbindung und das Synchronisieren funktioniert, muss Capture mindestens in der Version Nexum, 2018 oder 2020 vorliegen. Mit älteren Versionen funktioniert das nicht oder nicht richtig.
 
-While Capture is connected, the console will attempt to keep its show
-synchronised to the Capture show. If you add a fixture or change patch
-details in Capture the changes will automatically be made on the
-console. If you add a fixture or make changes to the patch on the
-console, then Capture will update. Selecting a fixture on one will
-select the fixture on the other. If you don't want this to happen you
-can turn off the **"Console Link"** function in Capture.
+Solange die Netzwerkverbindung besteht, überträgt das Pult Daten zur
+Synchronisierung an Capture. Wird ein neues Gerät in Capture gepatcht,
+so wird dies auch im Pult hinzugefügt. Wird dagegen ein neues Gerät auf
+dem Pult gepatcht, so wird dies erst im Pult und dann in Capture
+hinzugefügt. Wählt man ein Gerät aus -- im Pult oder in Capture -- so
+wird diese Auswahl auch im jeweils anderen Teil angezeigt. Will man dies
+nicht, so kann man in Capture **Console Link** deaktivieren.
 
-Patching Console Fixtures into Capture
---------------------------------------
+Den Patch vom Pult nach Capture übertragen
+------------------------------------------
 
-When you first connect the console to Capture, or if you [load a show](../titan-basics/loading-and-saving-shows.md#loading-a-show) on
-the console or [patch a new fixture](../patching/patching-new-fixtures-or-dimmers.md), the Console Patch dialog will be
-shown in Capture. This contains a list of the fixtures which are on the
-console and need inserting into the Capture show.
+Wird das Pult neu mit Capture verbunden oder [eine Show geladen](../titan-basics/loading-and-saving-shows.md#loading-a-show) oder ein
+[Gerät gepatcht](../patching/patching-new-fixtures-or-dimmers.md), so 
+wird in Capture automatisch der Patch-Dialog geöffnet. Dieser zeigt 
+eine Liste der Geräte, die auf dem Pult gepatcht sind und in Capture 
+zugewiesen werden müssen.
 
-You have to drag the fixture(s) from the Console Patch window to one of
-the Capture viewports to place it in the Capture show, the DMX address
-will be set from the Titan show. You can select and drag multiple
-fixtures.
+Zum Zuweisen müssen die Geräte einfach von dieser Liste in eins der
+Capture-Fenster gezogen werden; dabei wird automatisch die in Titan
+angegebene DMX-Adresse verwendet. Es lassen sich auch mehrere Geräte
+gleichzeitig auswählen und in Capture zuweisen.
 
 ![Capture Console Patch Window](/docs/images/Capture-Console-Patch-Window.png)
 
-Fixtures already placed in the internal Capture simulator will appear in
-the same position and orientation in the stand-alone Capture. Changes to
-position, orientation, legend and user number will sync between the
-console and stand-alone Capture.
+Wurden Geräte bereits im internen Capture positioniert, so werden auch
+die Positionsdaten an das externe Capture übertragen. Änderungen in der
+Positionierung, Ausrichtung, Legende und Usernumber werden laufend
+synchronisiert.
 
-> Fixture Legend in Titan links to the **"Unit"** property on the Capture fixture, and User Number in Titan links to the **"Channel"** property in Capture.
+> Die Legende in Titan wird in Capture in der Spalte **Unit** angezeigt. 
+Die Usernumber von Titan wird in Capture als **Channel** angezeigt.
 
-Patching Capture Fixtures onto the Console
-------------------------------------------
+Den Patch von Capture ins Pult übertragen
+-----------------------------------------
 
-If fixtures have already been added in Capture before the console was
-linked, you can patch them on the console using Active Fixtures like
-this
+Wurden in Capture bereits Geräte gepatcht, bevor das Pult verbunden war,
+so können diese später im Pult mit Hilfe der Active Fixture-Funktion
+gepatcht werden:
 
-1. Press \<Patch\>, \[Active Fixtures\]
+1. Drücken Sie \<Patch\>, \[Active Fixtures\]
 
-2. You should see the Capture computer as a softkey option, press it
+2. Der Capture-Computer wird nun als eine Option auf den Menütasten
+angezeigt. Klicken Sie die entsprechende Taste an.
 
-3. Select an empty handle to start patching, or press \[Patch Capture @
-...\] to patch automatically
+3. Wählen Sie eine freie Geräte-Schaltfläche, um die Geräte ab da zu
+patchen, oder wählen Sie die Option \[Patch Capture @...\], um
+automatisch auf den nächsten freien Platz zu patchen.
 
-> If any fixtures can't be patched (unsupported fixture type, or
-duplicate user number) then a blank handle will be left and a warning
-softkey will be shown at the end; clicking this will show a list of
-problems found.
+> Konnten einzelne Geräte nicht gepatcht werden (Gerätetyp nicht
+unterstützt, oder Nummer doppelt vergeben), so bleibt die entsprechende
+Geräteschaltfläche frei, und am Schluss wird eine entsprechende
+Fehlermeldung ausgegeben. Bestätigt man diese, so werden die gefundenen
+Probleme aufgelistet.
 
-To fix duplicate user numbers, edit the value in the **"Channel"** field in
-Capture to be a unique number. To fix unsupported fixtures, first try
-[updating your Titan fixture library](../fixture-personalities.md#updating-the-personality-library-on-the-console). If this doesn't help, you can
-[submit a personality request](../fixture-personalities.md#requesting-a-new-fixture-personality) on the [Avolites website](https://personalities.avolites.com/?mainPage=Request%20Queue.asp&) and select "Capture
-Visualiser (.c2o)" from the Desk Type options.
+Zum Beheben doppelt vergebener Gerätenummern ändern Sie in Capture den
+Wert im Feld **"Channel"**. Um dagegen bisher nicht unterstützte Geräte in
+Capture zu verwenden, [aktualisieren Sie zunächst die Gerätebibliothek](../fixture-personalities.md#updating-the-personality-library-on-the-console) 
+in Titan. Hilft das nicht, so [fordern Sie eine neue Personality](../fixture-personalities.md#requesting-a-new-fixture-personality) auf
+der [Avolites Personality-Website](https://personalities.avolites.com/?mainPage=Request%20Queue.asp&) an. Wählen
+Sie dabei als Desk Type "Capture Visualiser (.c2o)".

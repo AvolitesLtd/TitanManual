@@ -934,8 +934,8 @@
         "sidebar_label": "Der TNP (Titan Net Processor)"
       },
       "version-13.0-capture-visualiser": {
-        "title": "Mit Capture visualisieren",
-        "sidebar_label": "Mit Capture visualisieren"
+        "title": "Der Capture Visualiser",
+        "sidebar_label": "Der Capture Visualiser"
       },
       "version-13.0-capture-visualiser/capture-show-files": {
         "title": "Capture Show-Daten",
@@ -1391,7 +1391,7 @@
       },
       "version-14.0-capture-visualiser/capture-show-files": {
         "title": "Capture Show-Daten",
-        "sidebar_label": "CCapture Show-Daten"
+        "sidebar_label": "Capture Show-Daten"
       },
       "version-14.0-capture-visualiser/linking-the-console-to-stand-alone-capture": {
         "title": "Mit einer externen Capture-Vollversion verbinden",
