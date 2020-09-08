@@ -5,24 +5,24 @@ sidebar_label: DMX  network setup
 original_id: dmx-network-setup
 ---
 
-The console can output up to 16 universes of DMX (called DMX Lines)
-which may be routed to the XLR sockets on the console or over Ethernet
-(The T1 dongle is limited to a single universe, T2 to 2 universes.) By
-connecting further Titan Network Processors (TNP) to the network using
-TitanNet, you can control up to 64 universes.
+Die intern verwendeten 16 DMX-Universen können über die XLR-Buchsen oder
+über Netzwerk ausgegeben werden (der T1 ist auf ein DMX-Universum
+beschränkt, der T2 auf 2 Universen). Durch Anschließen weiterer
+Netzwerk-Prozessoren (TNP, TitanNet Processor) lassen sich bis zu 64
+DMX-Universen ausgeben.
 
-Multiple consoles can be linked by Ethernet to provide a [multi-user](../titan-basics/multi-user-operation.md)
-system, or to provide automatic [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup).
+Mehrere Pulte lassen sich per Ethernet vernetzen und gestatten so den
+[Mehrbenutzerbetrieb](../titan-basics/multi-user-operation.md) sowie [Backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup).
 
-Switch to System mode (hold \<Avo\>, press \<Disk\>), press \[DMX
-Settings\].
+Schalten Sie das Pult in den 'System'-Modus (Schalter oder
+\<Avo\>+\<Disk\>) und drücken Sie \[DMX Settings\].
 
-Select a Node on the left (where the DMX is going to), click the blue
-arrow. On the right, select the DMX line it will be fed by. The
-'***i***' buttons set properties for Nodes/Lines. See [DMX Output Mapping](../system-settings/dmx-output-mapping.md).
+Wählen Sie links einen Node aus (den gewünschten Ausgabe-Anschluss), und
+klicken Sie auf den blauen Pfeil. Rechts wählen Sie nun das Universum,
+das ausgegeben werden soll. Mit dem stilisierten Zahnrad lassen sich
+verschiedene weitere Einstellungen pro Linie vornehmen (siehe [DMX Output Mapping](../system-settings/dmx-output-mapping.md)).
 
-To change the IP address of the console, press \[[Network Settings](../networking.md)\] in
-System mode.
+Zum Ändern der IP-Adresse des Pultes wählen Sie im System-Modus \[[Network Settings](../networking.md)\].
 
-To change [User Settings](../system-settings/user-settings.md) which let you personalise how the console works,
-hold down \<Avo\> and select \[User Settings\].
+Zum Ändern individueller [Benutzereinstellungen](../system-settings/user-settings.md) halten Sie die
+\<Avo\>-Taste gedrückt und drücken Sie \[User Settings\].
