@@ -1345,459 +1345,459 @@
         "title": "TNP Slave Mode",
         "sidebar_label": "TNP Slave Mode"
       },
-      "version-14.0/version-14.0-about-the-consoles": {
+      "version-14.0-version-14.0-about-the-consoles": {
         "title": "Console hardware introduction",
         "sidebar_label": "Console hardware introduction"
       },
-      "version-14.0/about-the-consoles/version-14.0-arena": {
+      "version-14.0-about-the-consoles/arena": {
         "title": "Arena",
         "sidebar_label": "Arena"
       },
-      "version-14.0/about-the-consoles/version-14.0-fader-wings": {
+      "version-14.0-about-the-consoles/fader-wings": {
         "title": "Fader Wings",
         "sidebar_label": "Fader Wings"
       },
-      "version-14.0/about-the-consoles/version-14.0-pearl-expert-and-touch-wing": {
+      "version-14.0-about-the-consoles/pearl-expert-and-touch-wing": {
         "title": "Pearl Expert and Touch Wing",
         "sidebar_label": "Pearl Expert and Touch Wing"
       },
-      "version-14.0/about-the-consoles/version-14.0-quartz": {
+      "version-14.0-about-the-consoles/quartz": {
         "title": "Quartz",
         "sidebar_label": "Quartz"
       },
-      "version-14.0/about-the-consoles/version-14.0-sapphire-touch": {
+      "version-14.0-about-the-consoles/sapphire-touch": {
         "title": "Sapphire Touch",
         "sidebar_label": "Sapphire Touch"
       },
-      "version-14.0/about-the-consoles/version-14.0-t1-and-t2": {
+      "version-14.0-about-the-consoles/t1-and-t2": {
         "title": "T1 and T2",
         "sidebar_label": "T1 and T2"
       },
-      "version-14.0/about-the-consoles/version-14.0-tiger-touch": {
+      "version-14.0-about-the-consoles/tiger-touch": {
         "title": "Tiger Touch",
         "sidebar_label": "Tiger Touch"
       },
-      "version-14.0/about-the-consoles/version-14.0-titan-mobile": {
+      "version-14.0-about-the-consoles/titan-mobile": {
         "title": "Titan Mobile",
         "sidebar_label": "Titan Mobile"
       },
-      "version-14.0/about-the-consoles/version-14.0-tnp": {
+      "version-14.0-about-the-consoles/tnp": {
         "title": "TNP (Titan Net Processor)",
         "sidebar_label": "TNP (Titan Net Processor)"
       },
-      "version-14.0/version-14.0-capture-visualiser": {
+      "version-14.0-version-14.0-capture-visualiser": {
         "title": "Capture Visualiser Introduction",
         "sidebar_label": "Capture Visualiser Introduction"
       },
-      "version-14.0/capture-visualiser/version-14.0-capture-show-files": {
+      "version-14.0-capture-visualiser/capture-show-files": {
         "title": "Capture Show Files",
         "sidebar_label": "Capture Show Files"
       },
-      "version-14.0/capture-visualiser/version-14.0-linking-the-console-to-stand-alone-capture": {
+      "version-14.0-capture-visualiser/linking-the-console-to-stand-alone-capture": {
         "title": "Linking the Console to Stand-Alone Capture",
         "sidebar_label": "Linking the Console to Stand-Alone Capture"
       },
-      "version-14.0/capture-visualiser/version-14.0-setting-up-the-rig": {
+      "version-14.0-capture-visualiser/setting-up-the-rig": {
         "title": "Setting up the Rig",
         "sidebar_label": "Setting up the Rig"
       },
-      "version-14.0/capture-visualiser/version-14.0-visualising-using-capture": {
+      "version-14.0-capture-visualiser/visualising-using-capture": {
         "title": "Visualising using Capture",
         "sidebar_label": "Visualising using Capture"
       },
-      "version-14.0/version-14.0-chases": {
+      "version-14.0-version-14.0-chases": {
         "title": "Chases",
         "sidebar_label": "Chases"
       },
-      "version-14.0/chases/version-14.0-chase-options": {
+      "version-14.0-chases/chase-options": {
         "title": "Chase Options",
         "sidebar_label": "Chase Options"
       },
-      "version-14.0/chases/version-14.0-chase-playback": {
+      "version-14.0-chases/chase-playback": {
         "title": "Chase Playback",
         "sidebar_label": "Chase Playback"
       },
-      "version-14.0/chases/version-14.0-chase-timing": {
+      "version-14.0-chases/chase-timing": {
         "title": "Chase Timing",
         "sidebar_label": "Chase Timing"
       },
-      "version-14.0/chases/version-14.0-copying-moving-linking-and-deleting": {
+      "version-14.0-chases/copying-moving-linking-and-deleting": {
         "title": "Copying, Moving, Linking and Deleting a Chase",
         "sidebar_label": "Copying, Moving, Linking and Deleting"
       },
-      "version-14.0/chases/version-14.0-creating-a-chase": {
+      "version-14.0-chases/creating-a-chase": {
         "title": "Creating a Chase",
         "sidebar_label": "Creating a Chase"
       },
-      "version-14.0/chases/version-14.0-editing-a-chase": {
+      "version-14.0-chases/editing-a-chase": {
         "title": "Editing a Chase",
         "sidebar_label": "Editing a Chase"
       },
-      "version-14.0/version-14.0-controlling-fixtures": {
+      "version-14.0-version-14.0-controlling-fixtures": {
         "title": "Controlling Dimmers and Fixtures",
         "sidebar_label": "Controlling Dimmers and Fixtures"
       },
-      "version-14.0/controlling-fixtures/version-14.0-advanced-options": {
+      "version-14.0-controlling-fixtures/advanced-options": {
         "title": "Fixture Advanced Options",
         "sidebar_label": "Fixture Advanced Options"
       },
-      "version-14.0/controlling-fixtures/version-14.0-fixture-groups": {
+      "version-14.0-controlling-fixtures/fixture-groups": {
         "title": "Fixture Groups",
         "sidebar_label": "Fixture Groups"
       },
-      "version-14.0/controlling-fixtures/version-14.0-using-the-select-buttons-and-wheels": {
+      "version-14.0-controlling-fixtures/using-the-select-buttons-and-wheels": {
         "title": "Using the Select Buttons and Wheels",
         "sidebar_label": "Using the Select Buttons and Wheels"
       },
-      "version-14.0/controlling-fixtures/version-14.0-viewing-and-editing-fixture-values": {
+      "version-14.0-controlling-fixtures/viewing-and-editing-fixture-values": {
         "title": "Viewing and Editing Fixture Values",
         "sidebar_label": "Viewing and Editing Fixture Values"
       },
-      "version-14.0/version-14.0-cue-lists": {
+      "version-14.0-version-14.0-cue-lists": {
         "title": "Cue Lists Introduction",
         "sidebar_label": "Cue Lists Introduction"
       },
-      "version-14.0/cue-lists/version-14.0-copying-moving-linking-and-deleting": {
+      "version-14.0-cue-lists/copying-moving-linking-and-deleting": {
         "title": "Copying, Moving, Linking and Deleting",
         "sidebar_label": "Copying, Moving, Linking and Deleting"
       },
-      "version-14.0/cue-lists/version-14.0-creating-a-cue-list": {
+      "version-14.0-cue-lists/creating-a-cue-list": {
         "title": "Creating a Cue List",
         "sidebar_label": "Creating a Cue List"
       },
-      "version-14.0/cue-lists/version-14.0-cue-list-options": {
+      "version-14.0-cue-lists/cue-list-options": {
         "title": "Cue List Options",
         "sidebar_label": "Cue List Options"
       },
-      "version-14.0/cue-lists/version-14.0-cue-list-playback": {
+      "version-14.0-cue-lists/cue-list-playback": {
         "title": "Cue List Playback",
         "sidebar_label": "Cue List Playback"
       },
-      "version-14.0/cue-lists/version-14.0-cue-list-timing": {
+      "version-14.0-cue-lists/cue-list-timing": {
         "title": "Cue List Timing",
         "sidebar_label": "Cue List Timing"
       },
-      "version-14.0/cue-lists/version-14.0-editing-cue-lists": {
+      "version-14.0-cue-lists/editing-cue-lists": {
         "title": "Editing Cue Lists",
         "sidebar_label": "Editing Cue Lists"
       },
-      "version-14.0/cue-lists/version-14.0-theatre-programming": {
+      "version-14.0-cue-lists/theatre-programming": {
         "title": "Theatre Programming Quick Guide",
         "sidebar_label": "Theatre Programming"
       },
-      "version-14.0/version-14.0-cues": {
+      "version-14.0-version-14.0-cues": {
         "title": "Cues",
         "sidebar_label": "Cues"
       },
-      "version-14.0/cues/version-14.0-copying-moving-linking-and-deleting": {
+      "version-14.0-cues/copying-moving-linking-and-deleting": {
         "title": "Copying, Moving, Linking and Deleting a Cue",
         "sidebar_label": "Copying, Moving, Linking and Deleting"
       },
-      "version-14.0/cues/version-14.0-creating-a-cue": {
+      "version-14.0-cues/creating-a-cue": {
         "title": "Creating a Cue",
         "sidebar_label": "Creating a Cue"
       },
-      "version-14.0/cues/version-14.0-cue-timing": {
+      "version-14.0-cues/cue-timing": {
         "title": "Cue Timing",
         "sidebar_label": "Cue Timing"
       },
-      "version-14.0/cues/version-14.0-editing-cues": {
+      "version-14.0-cues/editing-cues": {
         "title": "Editing Cues",
         "sidebar_label": "Editing Cues"
       },
-      "version-14.0/cues/version-14.0-playback-groups": {
+      "version-14.0-cues/playback-groups": {
         "title": "Playback Groups",
         "sidebar_label": "Playback Groups"
       },
-      "version-14.0/cues/version-14.0-playback-options": {
+      "version-14.0-cues/playback-options": {
         "title": "Playback Options",
         "sidebar_label": "Playback Options"
       },
-      "version-14.0/cues/version-14.0-using-a-cue": {
+      "version-14.0-cues/using-a-cue": {
         "title": "Using a Cue",
         "sidebar_label": "Using a Cue"
       },
-      "version-14.0/version-14.0-effects": {
+      "version-14.0-version-14.0-effects": {
         "title": "Shapes and Effects introduction",
         "sidebar_label": "Shapes and Effects introduction"
       },
-      "version-14.0/effects/version-14.0-advanced-options": {
+      "version-14.0-effects/advanced-options": {
         "title": "Advanced Options",
         "sidebar_label": "Advanced Options"
       },
-      "version-14.0/effects/version-14.0-editing-shapes-and-effects": {
+      "version-14.0-effects/editing-shapes-and-effects": {
         "title": "Editing Shapes and Effects",
         "sidebar_label": "Editing Shapes and Effects"
       },
-      "version-14.0/effects/version-14.0-key-frame-shapes": {
+      "version-14.0-effects/key-frame-shapes": {
         "title": "Key Frame Shapes",
         "sidebar_label": "Key Frame Shapes"
       },
-      "version-14.0/effects/version-14.0-pixel-mapper-examples": {
+      "version-14.0-effects/pixel-mapper-examples": {
         "title": "Pixel Mapper Examples",
         "sidebar_label": "Pixel Mapper Examples"
       },
-      "version-14.0/effects/version-14.0-pixel-mapper": {
+      "version-14.0-effects/pixel-mapper": {
         "title": "Pixel Mapper",
         "sidebar_label": "Pixel Mapper"
       },
-      "version-14.0/effects/version-14.0-shape-generator": {
+      "version-14.0-effects/shape-generator": {
         "title": "Shape Generator",
         "sidebar_label": "Shape Generator"
       },
-      "version-14.0/version-14.0-fixture-personalities": {
+      "version-14.0-version-14.0-fixture-personalities": {
         "title": "Fixture Personalities",
         "sidebar_label": "Fixture Personalities"
       },
-      "version-14.0/version-14.0-glossary": {
+      "version-14.0-version-14.0-glossary": {
         "title": "Glossary of Avolites terms",
         "sidebar_label": "Glossary of Avolites terms"
       },
-      "version-14.0/version-14.0-introduction": {
+      "version-14.0-introduction": {
         "title": "Introduction to Avolites Titan",
         "sidebar_label": "Introduction to Avolites Titan"
       },
-      "version-14.0/version-14.0-networking": {
+      "version-14.0-version-14.0-networking": {
         "title": "Networking the Console",
         "sidebar_label": "Networking the Console"
       },
-      "version-14.0/networking/version-14.0-a-quick-guide-to-ip-addressing": {
+      "version-14.0-networking/a-quick-guide-to-ip-addressing": {
         "title": "A quick guide to IP addressing",
         "sidebar_label": "A quick guide to IP addressing"
       },
-      "version-14.0/networking/version-14.0-connecting-the-arena-to-a-network": {
+      "version-14.0-networking/connecting-the-arena-to-a-network": {
         "title": "Connecting the Arena to a network",
         "sidebar_label": "Connecting the Arena to a network"
       },
-      "version-14.0/networking/version-14.0-controlling-fixtures-over-a-network": {
+      "version-14.0-networking/controlling-fixtures-over-a-network": {
         "title": "Controlling Fixtures over a Network",
         "sidebar_label": "Controlling Fixtures over a Network"
       },
-      "version-14.0/networking/version-14.0-using-active-fixtures": {
+      "version-14.0-networking/using-active-fixtures": {
         "title": "Using Active Fixtures with CITP",
         "sidebar_label": "Using Active Fixtures with CITP"
       },
-      "version-14.0/version-14.0-palettes": {
+      "version-14.0-version-14.0-palettes": {
         "title": "Palettes",
         "sidebar_label": "Palettes"
       },
-      "version-14.0/palettes/version-14.0-copying-moving-and-deleting-palettes": {
+      "version-14.0-palettes/copying-moving-and-deleting-palettes": {
         "title": "Copying, Moving and Deleting Palettes",
         "sidebar_label": "Copying, Moving and Deleting Palettes"
       },
-      "version-14.0/palettes/version-14.0-creating-palettes": {
+      "version-14.0-palettes/creating-palettes": {
         "title": "Creating Palettes",
         "sidebar_label": "Creating Palettes"
       },
-      "version-14.0/palettes/version-14.0-editing-palettes": {
+      "version-14.0-palettes/editing-palettes": {
         "title": "Editing Palettes",
         "sidebar_label": "Editing Palettes"
       },
-      "version-14.0/palettes/version-14.0-timing-with-palettes": {
+      "version-14.0-palettes/timing-with-palettes": {
         "title": "Timing with Palettes",
         "sidebar_label": "Timing with Palettes"
       },
-      "version-14.0/palettes/version-14.0-using-palettes": {
+      "version-14.0-palettes/using-palettes": {
         "title": "Using Palettes",
         "sidebar_label": "Using Palettes"
       },
-      "version-14.0/version-14.0-patching": {
+      "version-14.0-version-14.0-patching": {
         "title": "Patching",
         "sidebar_label": "Patching"
       },
-      "version-14.0/patching/version-14.0-changing-the-patch": {
+      "version-14.0-patching/changing-the-patch": {
         "title": "Changing the Patch",
         "sidebar_label": "Changing the Patch"
       },
-      "version-14.0/patching/version-14.0-copying-moving-and-deleting-fixtures": {
+      "version-14.0-patching/copying-moving-and-deleting-fixtures": {
         "title": "Copying, moving and deleting fixtures",
         "sidebar_label": "Copying, moving and deleting fixtures"
       },
-      "version-14.0/patching/version-14.0-fixture-personalities": {
+      "version-14.0-patching/fixture-personalities": {
         "title": "Fixture Personalities",
         "sidebar_label": "Fixture Personalities"
       },
-      "version-14.0/patching/version-14.0-fixture-personality-options": {
+      "version-14.0-patching/fixture-personality-options": {
         "title": "Fixture Personality Options",
         "sidebar_label": "Fixture Personality Options"
       },
-      "version-14.0/patching/version-14.0-patching-new-fixtures-or-dimmers": {
+      "version-14.0-patching/patching-new-fixtures-or-dimmers": {
         "title": "Patching New Fixtures or Dimmers",
         "sidebar_label": "Patching new Fixtures or Dimmers"
       },
-      "version-14.0/version-14.0-quick-start": {
+      "version-14.0-version-14.0-quick-start": {
         "title": "Quick Start",
         "sidebar_label": "Quick Start Introduction"
       },
-      "version-14.0/quick-start/version-14.0-controlling-fixtures": {
+      "version-14.0-quick-start/controlling-fixtures": {
         "title": "Controlling fixtures",
         "sidebar_label": "Controlling fixtures"
       },
-      "version-14.0/quick-start/version-14.0-dmx-network-setup": {
+      "version-14.0-quick-start/dmx-network-setup": {
         "title": "DMX  network setup",
         "sidebar_label": "DMX  network setup"
       },
-      "version-14.0/quick-start/version-14.0-patching-fixtures": {
+      "version-14.0-quick-start/patching-fixtures": {
         "title": "Patching fixtures",
         "sidebar_label": "Patching fixtures"
       },
-      "version-14.0/quick-start/version-14.0-programming-cues-and-chases": {
+      "version-14.0-quick-start/programming-cues-and-chases": {
         "title": "Programming cues and chases",
         "sidebar_label": "Programming cues and chases"
       },
-      "version-14.0/quick-start/version-14.0-programming-palettes": {
+      "version-14.0-quick-start/programming-palettes": {
         "title": "Programming palettes",
         "sidebar_label": "Programming palettes"
       },
-      "version-14.0/version-14.0-remote-control": {
+      "version-14.0-version-14.0-remote-control": {
         "title": "Remote Control",
         "sidebar_label": "Remote Control"
       },
-      "version-14.0/remote-control/version-14.0-operating-the-remote": {
+      "version-14.0-remote-control/operating-the-remote": {
         "title": "Operating the Remote",
         "sidebar_label": "Operating the Remote"
       },
-      "version-14.0/remote-control/version-14.0-setting-up-the-remote": {
+      "version-14.0-remote-control/setting-up-the-remote": {
         "title": "Setting up the Remote",
         "sidebar_label": "Setting up the Remote"
       },
-      "version-14.0/version-14.0-running-the-show": {
+      "version-14.0-version-14.0-running-the-show": {
         "title": "Running the show",
         "sidebar_label": "Running the show"
       },
-      "version-14.0/running-the-show/version-14.0-linking-consoles-for-multi-user-or-backup": {
+      "version-14.0-running-the-show/linking-consoles-for-multi-user-or-backup": {
         "title": "Linking Consoles for Multi-User or Backup",
         "sidebar_label": "Linking Consoles for Multi-User or Backup"
       },
-      "version-14.0/running-the-show/version-14.0-linking-pioneerdj-system-to-titan": {
+      "version-14.0-running-the-show/linking-pioneerdj-system-to-titan": {
         "title": "Linking PioneerDJ System to Titan",
         "sidebar_label": "Linking PioneerDJ System to Titan"
       },
-      "version-14.0/running-the-show/version-14.0-midi-dmx-or-audio-triggering": {
+      "version-14.0-running-the-show/midi-dmx-or-audio-triggering": {
         "title": "External triggering",
         "sidebar_label": "External triggering"
       },
-      "version-14.0/running-the-show/version-14.0-organising-the-console": {
+      "version-14.0-running-the-show/organising-the-console": {
         "title": "Organising the console",
         "sidebar_label": "Organising the console"
       },
-      "version-14.0/running-the-show/version-14.0-playback-controls": {
+      "version-14.0-running-the-show/playback-controls": {
         "title": "Playback controls",
         "sidebar_label": "Playback controls"
       },
-      "version-14.0/running-the-show/version-14.0-set-list-window": {
+      "version-14.0-running-the-show/set-list-window": {
         "title": "Set List Window",
         "sidebar_label": "Set List Window"
       },
-      "version-14.0/running-the-show/version-14.0-using-multiple-on-screen-workspaces": {
+      "version-14.0-running-the-show/using-multiple-on-screen-workspaces": {
         "title": "Using multiple on-screen workspaces",
         "sidebar_label": "Using multiple on-screen workspaces"
       },
-      "version-14.0/version-14.0-synergy": {
+      "version-14.0-version-14.0-synergy": {
         "title": "Synergy and Linking to AI",
         "sidebar_label": "Synergy and Linking to AI"
       },
-      "version-14.0/synergy/version-14.0-operating-synergy": {
+      "version-14.0-synergy/operating-synergy": {
         "title": "Operating Synergy",
         "sidebar_label": "Operating Synergy"
       },
-      "version-14.0/synergy/version-14.0-setting-up": {
+      "version-14.0-synergy/setting-up": {
         "title": "Setting up Synergy",
         "sidebar_label": "Setting up Synergy"
       },
-      "version-14.0/version-14.0-system-settings": {
+      "version-14.0-version-14.0-system-settings": {
         "title": "System Menu and User Settings",
         "sidebar_label": "System Menu and User Settings"
       },
-      "version-14.0/system-settings/version-14.0-curves": {
+      "version-14.0-system-settings/curves": {
         "title": "Curves",
         "sidebar_label": "Curves"
       },
-      "version-14.0/system-settings/version-14.0-dmx-output-mapping": {
+      "version-14.0-system-settings/dmx-output-mapping": {
         "title": "DMX Output Mapping",
         "sidebar_label": "DMX Output Mapping"
       },
-      "version-14.0/system-settings/version-14.0-external-displays": {
+      "version-14.0-system-settings/external-displays": {
         "title": "External Displays",
         "sidebar_label": "External Displays"
       },
-      "version-14.0/system-settings/version-14.0-key-profiles": {
+      "version-14.0-system-settings/key-profiles": {
         "title": "Key Profiles",
         "sidebar_label": "Key Profiles"
       },
-      "version-14.0/system-settings/version-14.0-recovering-reinstalling-the-console": {
+      "version-14.0-system-settings/recovering-reinstalling-the-console": {
         "title": "Recovering & Reinstalling the Console",
         "sidebar_label": "Recovering & Reinstalling the Console"
       },
-      "version-14.0/system-settings/version-14.0-release-notes": {
+      "version-14.0-system-settings/release-notes": {
         "title": "Release Notes",
         "sidebar_label": "Release Notes"
       },
-      "version-14.0/system-settings/version-14.0-the-system-menu": {
+      "version-14.0-system-settings/the-system-menu": {
         "title": "The System Menu",
         "sidebar_label": "The System Menu"
       },
-      "version-14.0/system-settings/version-14.0-upgrading-the-software": {
+      "version-14.0-system-settings/upgrading-the-software": {
         "title": "Upgrading the Software",
         "sidebar_label": "Upgrading the Software"
       },
-      "version-14.0/system-settings/version-14.0-user-settings": {
+      "version-14.0-system-settings/user-settings": {
         "title": "User Settings",
         "sidebar_label": "User Settings"
       },
-      "version-14.0/version-14.0-titan-basics": {
+      "version-14.0-version-14.0-titan-basics": {
         "title": "Connecting up and Titan basics",
         "sidebar_label": "Connecting up and Titan basics"
       },
-      "version-14.0/titan-basics/version-14.0-clearing-the-console": {
+      "version-14.0-titan-basics/clearing-the-console": {
         "title": "Clearing the Console",
         "sidebar_label": "Clearing the Console"
       },
-      "version-14.0/titan-basics/version-14.0-creating-reports": {
+      "version-14.0-titan-basics/creating-reports": {
         "title": "Creating Reports",
         "sidebar_label": "Creating Reports"
       },
-      "version-14.0/titan-basics/version-14.0-front-panel-buttons": {
+      "version-14.0-titan-basics/front-panel-buttons": {
         "title": "Front Panel Buttons",
         "sidebar_label": "Front Panel Buttons"
       },
-      "version-14.0/titan-basics/version-14.0-loading-and-saving-shows": {
+      "version-14.0-titan-basics/loading-and-saving-shows": {
         "title": "Loading and saving shows",
         "sidebar_label": "Loading and saving shows"
       },
-      "version-14.0/titan-basics/version-14.0-multi-user-operation": {
+      "version-14.0-titan-basics/multi-user-operation": {
         "title": "Multi-User Operation",
         "sidebar_label": "Multi-User Operation"
       },
-      "version-14.0/titan-basics/version-14.0-other-parts-of-the-touch-screen": {
+      "version-14.0-titan-basics/other-parts-of-the-touch-screen": {
         "title": "Other parts of the touch screen",
         "sidebar_label": "Other parts of the touch screen"
       },
-      "version-14.0/titan-basics/version-14.0-show-library": {
+      "version-14.0-titan-basics/show-library": {
         "title": "Show Library",
         "sidebar_label": "Show Library"
       },
-      "version-14.0/titan-basics/version-14.0-titan-simulator": {
+      "version-14.0-titan-basics/titan-simulator": {
         "title": "Titan Simulator",
         "sidebar_label": "Titan Simulator"
       },
-      "version-14.0/titan-basics/version-14.0-workspace-windows": {
+      "version-14.0-titan-basics/workspace-windows": {
         "title": "Workspace Windows",
         "sidebar_label": "Workspace Windows"
       },
-      "version-14.0/version-14.0-titan-commands": {
+      "version-14.0-version-14.0-titan-commands": {
         "title": "Titan Commands Quick Reference",
         "sidebar_label": "Titan Commands Quick Reference"
       },
-      "version-14.0/version-14.0-titan-net": {
+      "version-14.0-version-14.0-titan-net": {
         "title": "Titan Net Processor Operation",
         "sidebar_label": "Titan Net Processor Operation"
       },
-      "version-14.0/titan-net/version-14.0-tnp-console-mode": {
+      "version-14.0-titan-net/tnp-console-mode": {
         "title": "TNP Console Mode",
         "sidebar_label": "TNP Console Mode"
       },
-      "version-14.0/titan-net/version-14.0-tnp-slave-mode": {
+      "version-14.0-titan-net/tnp-slave-mode": {
         "title": "TNP Slave Mode",
         "sidebar_label": "TNP Slave Mode"
       }
