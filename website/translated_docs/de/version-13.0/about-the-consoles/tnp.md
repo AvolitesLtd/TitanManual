@@ -7,29 +7,31 @@ original_id: tnp
 
 ![TNP](/docs/images/TNP.png)
 
-The TitanNet Processor is the insides of a console without the control
-surface. It allows you to expand the number of DMX lines in a show
-beyond the 16 which a console can produce by offloading the processing
-into a separate unit.
+Der TitanNet Prozessor ist nichts anderes als die Elektronik eines
+Pultes ohne die fader und Tasten. Er erlaubt es, die Anzahl der
+verwendeten DMX-Linien in einer Show über die 16 Linien hinaus zu
+erweitern, die von einem Pult allein zur Verfügung gestellt werden,
+indem die Rechenarbeit über mehrere Einheiten verteilt wird.
 
-\(A\) MIDI and SMPTE connections
+\(A\) MIDI und SMPTE-Anschlüsse
 
-\(B\) Network connections.
+\(B\) Netzwerkanschlüsse
 
-\(C\) Eight DMX outputs on XLR
+\(C\) Acht DMX-Ausgänge (XLR)
 
-\(D\) Integral touch screen for local setup and control
+\(D\) Integrierter Touchscreen
 
-\(E\) Power switch
+\(E\) Netzschalter
 
-\(F\) USB for keyboard, mouse or memory stick.
+\(F\) USB für Tastatur, Maus oder Memory-Stick
 
-It is also possible to improve robustness by running the whole show from
-one or more TNP units onstage and having the console simply acting as a
-remote control. The TNP can also act as a simple stand-alone controller
-using the onboard touchscreen, or by connecting an external touchscreen
-you can operate it using the Titan Go screen. It can load shows which
-have been created on a full console. You can also use a console in
-multi-user mode to create shows directly on the TNP.
+Damit lässt sich auch die Betriebssicherheit erhöhen, indem etwa mehrere
+TNPs an der Bühne verwendet werden, während das Pult nur als deren
+Fernsteuerung arbeitet. Der TNP kann ferner auch als eigenständige
+Steuerung arbeiten und Shows laden, die auf einem anderen Titan-Pult
+erstellt wurden; dazu kann auf dem internen Display oder einem extern
+anzuschließenden Touchscreen die Titan Go-Oberfläche verwendet werden.
+Ebenso könnte man sich z.B. in einer Multiuser-Session mit dem TNP
+verbinden und diesen programmieren.
 
-See [Titan Net](../titan-net.md) for more information about using TNPs.
+Der Betrieb des TNP ist in [Titan Net](../titan-net.md) näher erklärt.

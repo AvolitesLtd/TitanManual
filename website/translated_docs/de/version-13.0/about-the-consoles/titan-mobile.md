@@ -5,94 +5,99 @@ sidebar_label: Titan Mobile
 original_id: titan-mobile
 ---
 
-Titan Mobile is a USB wing which plugs into a PC or laptop (Windows 7 or
-above, 64 bit) running the Titan software.
+Das Titan Mobile ist ein PC-Wing, der mittels USB an einen Computer
+angeschlossen wird (Windows 7 oder höher, 64 bit), auf dem die
+Titan-Software läuft.
 
 ![Titan Mobile](/docs/images/Titan-Mobile.png)
 
-\(A\) The **Playback faders** are used to store and play back cues or chases.
-\(B\) The **Page Select buttons** let you change to a different page of
-playbacks. The bottom of the screen shows information about each
-playback.
+\(A\) Die **Playbacks** (Speicherplätze, Szenenregler) dienen zum Speichern,
+zur Auswahl und zur Steuerung von Bildern und Abläufen. \(B\) Die **Tasten 
+zur Seitenumschaltung** dienen dabei zum Umschalten der Seiten der Szenenregler;
+die jeweilige Belegung wird unten am Bildschirm angezeigt.
 
-\(C\) The **Attribute Control wheels** are used to set control values
-(attributes) for the fixtures, and to set chase speeds and fades. The
-bottom right corner of the screen shows information about the attributes
-being controlled.
+\(C\) Mit den **Encodern** werden die Geräte gesteuert; ebenso
+werden etwa Zeiten und Überblendwerte eingestellt. Die jeweilige
+Belegung wird unten rechts im Bildschirm angezeigt.
 
-\(D\) The **Attribute select buttons** are used to select which attributes of
-a fixture (e.g. colour, gobo, position) are going to be controlled using
-the Control wheels. The buttons have lights on to show you which
-attributes are active. Attribute functions such as Fan and Shapes are
-also controlled here.
+\(D\) Mit den Tastern der **Attributauswahl** werden die Attribute der Geräte
+angewählt (z.B. Farbe, Gobo, Bewegung, Fokus), welche dann durch die
+Drehregler gesteuert werden sollen. Die jeweils aktiven Taster werden
+durch LEDs angezeigt. Der untere (rote) Taster erlaubt das 'Locaten'
+(Lokalisieren) von Geräten, indem sie auf eine vordefinierte
+Startposition gesetzt werden.
 
-\(E\) The **Chase and Cuelist control buttons** allow you to start and stop
-chases and cuelists, and move about in the list.
+\(E\) Mittels der **Tasten für Chaser und Cuelisten** lassen sich diese
+starten, stoppen und innerhalb derselben navigieren.
 
-\(F\) The **Numeric keypad** and other control buttons are used to enter
-values and change controls on the system.
+\(F\) Mit dem **Ziffern- und Tastenfeld** lassen sich Werte eingeben sowie
+Einstellungen des Pultes ändern.
 
-\(G\) The **Function buttons** are used to carry out functions such as storing
-cues, copying, saving to disk, etc.
+\(G\) Mit den blauen **Funktionstasten** sind verschieden Funktionen
+verknüpft, etwa Speichern von Szenen, Kopieren, Speichern auf Disk.
 
-\(H\) The **Workspaces, Macros and Executers** buttons are programmable
-buttons which can be used to store workspaces (screen layouts), button
-macros or cues.
+\(H\) Die **Macro- und Executortasten** sind frei belegbare Tasten; darauf lassen
+sich sowohl Cues als auch Makros oder Arbeitsumgebungen (Workspaces)
+speichern.
 
-\(I\) The **Workspace Window select buttons** are used to set which windows
-are shown on the screen.
+\(I\) Die **Fensterauswahltasten** dienen zum Öffnen und Umschalten der
+jeweiligen Fenster der Arbeitsumgebung.
 
-\(J\) The **Menu Softkeys** (labelled A - G) are used to select control options. 
-The right hand side of the display shows what each one will do. - if you are using
-a touch screen computer you can touch the softkey onscreen instead of using these
-buttons. The options for each 
-key change depending on what the console is doing. Softkey commands are shown 
-in the manual like this: /[Edit Times/]
+\(J\) Die **Menütasten** (bezeichnet mit A -- G) dienen zur Auswahl
+verschiedener Steuerungsoptionen. Im Bildschirm wird rechts die jeweilige
+Funktion angezeigt, abhängig vom jeweiligen Status
+des Pultes. Befehle dieser Taster sind in diesem Handbuch blau dargestellt,
+z.B. \[Edit Times\]
 
-## The Screen
+## Der Bildschirm
 
-The system is designed to be used with a touch screen, but may be used
-with a mouse.
+Das System lässt sich am komfortabelsten
+mit einem Touchscreen bedienen. Verwenden Sie hingegen eine Maus, so
+klicken Sie mit der Maus einfach auf die betreffenden Stelle, wenn im
+Handbuch ‚berühren' steht.
 
 ![Titan Mobile Screen](/docs/images/Titan-Mobile-Screen.png)
 
-\(K\) Four **Workspace Windows** may be shown on the screen. These contain
-touch buttons to control fixture selection, palette selection, groups,
-shapes, attributes, and so on. Visualiser may also be shown in a window.
+\(K\) Verschiedene **Arbeitsfenster** können auf dem Bildschirm angezeigt
+werden; diese enthalten jeweils Buttons (Schaltflächen) zur Auswahl von
+Geräten, Paletten, Gruppen, Shapes, Attributen etc. Auch der Visualiser
+wird in einem solchen Fenster angezeigt.
 
-\(L\) The system **Menu softkeys** are down the top right hand side. You can
-select these by touching or clicking them, or by using the menu buttons
-on the right hand edge of the control panel.
+\(L\) Die **Menütasten** korrespondieren mit den ‚echten' Tasten rechts auf
+dem Pult; die Schaltflächen zeigen die jeweilige Belegung an, und zum
+Betätigen kann man entweder auf die Schaltfläche klicken oder die
+jeweilige Taste drücken.
 
-\(M\) **System prompts** are shown just to the left of the menu keys. Below
-that are **Context buttons** which appear when relevant to the operation
-you are doing.
+\(M\) Links davon befindet sich der Bereich **Systemanzeige**; hier werden
+hilfreiche Hinweise zur jeweiligen Aktion eingeblendet. Darunter werden
+je nach gewähltem Fenster verschiedene **kontextabhängige Schaltflächen**
+angezeigt.
 
-\(N\) The **Workspace Buttons** allow you to quickly select and save different
-workspace screen layouts.
+\(N\) Darunter wiederum werden die **Arbeitsumgebungen** angezeigt, und mit den
+Schaltflächen lässt sich schnell zwischen diesen umschalten.
 
-\(O\) The **Wheels display** shows the current attributes available on the 3
-wheels. The **Attribute status display** above that shows which
-attributes are currently active or modified.
+\(O\) Der Bereich **Rad-Belegung** zeigt die aktuelle Funktion, Belegung und
+die Werte der Attribut-Räder. Im **Attribut-Status** wird angezeigt,
+welche Attribute gerade aktiv und welche modifiziert sind.
 
-\(P\) The **Playback information** shows the legend and other information
-about the playbacks on the 10 faders.
+\(P\) Unten links schließlich werden die momentanen Belegungen der
+**Playbacks** angezeigt.
 
-## Titan Mobile Connections panel
+## Titan Mobile Anschlussfeld
 
 ![Titan Mobile Connections](/docs/images/Titan-Mobile-Connections.png)
-All the connections required for the
-control panel are found on the right hand side. Most are
-self-explanatory. 
+Sämtliche für das Pult erforderlichen Anschlüsse befinden sich auf der
+rechten Seite. Die meisten davon sind selbsterklärend. 
 
-\(Q\) Four DMX outputs are provided on XLR, and a MIDI input.
+\(Q\) Es gibt vier DMX-Anschlüsse sowie einen MIDI-Eingang.
 
-\(R\) USB to host computer. The current version of the Titan Mobile panel has only
-one USB socket rather than the original 2 shown in the picture above.
-Normally the panel is powered via the USB connection. Some laptop
-    USB ports may not provide sufficient power for the panel, in which
-    case the DC power input \(S\) can be used to connect an external 9V DC
-    power supply, available from Avolites.
+\(R\) USB-Anschluss. Titan Mobiles der ersten Serie wurden noch mit 
+zwei USB-Buchsen ausgeliefert, von denen aber nur die obere zu verwenden 
+ist. Neuere Titan Mobiles verfügen nur noch über eine USB-Buchse. 
+Normalerweise wird das Pult über diese mit Spannung versorgt. Einige 
+Laptops liefern aber ggf. nicht genügend Strom auf den USB-Anschlüssen; 
+in diesem Fall ist ein separates Netzteil (9 V Gleichspannung) \(S\) vorzusehen. Wenden Sie sich dazu an Avolites oder Ihren Avolites-Händler.
 
-\(T\) The PE socket / stud is to allow you to ground/earth the panel, which can
-    help resolve DMX problems if your laptop is not earthed.
+\(T\) Die Erdungsbuchse (unterhalb des optionalen Netzteilanschlusses)
+erlaubt es, das Pult separat zu erden, um eventuelle DMX-Probleme zu
+beheben.

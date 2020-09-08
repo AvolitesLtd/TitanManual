@@ -5,17 +5,19 @@ sidebar_label: T1 and T2
 original_id: t1-and-t2
 ---
 
-T1 and T2 are USB dongles which plug into a PC or laptop (Windows 7 or
-above, 64 bit). Both dongles include an AvoKey.
+T1 und T2 sind USB-Dongles zum Betrieb an einem Computer (PC oder
+Laptop) mit Windows 7 oder höher (64bit). Sie enthalten jeweils den
+Lizenzkey und die DMX-Ausgabe.
 
-T1 provides a single universe of DMX output on a 5-pin XLR.
+Der T1 stellt einen DMX-Anschluss (5pol XLR) zur Ausgabe eines
+DMX-Universums zur Verfügung.
 
 ![Titan One](/docs/images/Titan-One.png)
 
-T2 provides two universes on two 5-pin XLRs and has an input for
-Audio/LTC timecode for external triggering. It also allows the use of a USB MIDI device for MIDI
-triggering of Titan, so you can use MIDI faders, and can be used with
-the Titan Mobile fader wing.
+Der T2 kann zwei Universen auf 5-poligen XLR-Buchsen ausgeben und hat
+einen Audio/LTC-Eingang. Außerdem erlaubt er die Verwendung von
+USB-MIDI-Geräten, etwa von Faderboards, und kann mit dem Titan Mobile
+Faderwing betrieben werden.
 
 ![Titan Two](/docs/images/Titan-Two.png)
 
@@ -24,14 +26,16 @@ the Titan Mobile fader wing.
 
 ---
 
-Install the Titan PC Suite software on your PC (see next chapter) before
-you plug in the dongle, to make sure the correct drivers are installed.
+Installieren Sie die Titan PC-Suite (siehe nächstes Kapitel), bevor der
+Dongle angeschlossen wird, damit die richtigen Treiber installiert und
+verwendet werden.
 
-> The older cabled version of the Titan One dongle does not include an AvoKey; a separate AvoKey must be attached to another USB port on your computer to allow use of Titan version 12 and later.
+> Die früheren Titan Ones (mit Kabel) enthalten keinen neuen Lizenzdongle. Zu ihrem Betrieb ist ab Titan Version 12 ein separater Editor AvoKey erforderlich, der parallel mit einem anderen USB-Anschluss verbunden werden muss.
 
-The T1 and T2 devices use a special version of the Titan software called
-Titan Go. The operating screen is slightly different to the normal
-display as it is designed for use on a touchscreen with no physical
-control surface (actual faders or buttons).
+Die Software für den T1 und T2 ist eine spezielle Version der
+Titan-Software mit dem Namen Titan Go und sieht etwas anders aus als
+beim Titan Mobile und den anderen Pulten, da hier auch alle
+Bedienelemente, die ansonsten auf dem auf dem physischen Pult zu finden
+wären, auf dem Bildschirm präsent sind.
 
 ![Titan One](/docs/images/Titan-One-2.png)
