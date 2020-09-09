@@ -168,7 +168,7 @@ jobs:
         env:
           DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
         with:
-          flags: '-avzr --delete --include="versions.html" --include="versions/index.html" --exclude="*"'
+          flags: '-avzr --delete'
           options: ''
           ssh_options: ''
           src: 'website/build/AvoDocs/'
@@ -179,7 +179,7 @@ jobs:
         env:
           DEPLOY_KEY: ${{secrets.AVO_DEPLOY_KEY}}
         with:
-          flags: '-avzr --delete --include="versions.html" --include="versions/index.html" --exclude="*"'
+          flags: '-avzr --delete'
           options: ''
           ssh_options: ''
           src: 'website/build/AvoDocs/'
