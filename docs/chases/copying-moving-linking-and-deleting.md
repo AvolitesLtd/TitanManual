@@ -7,7 +7,7 @@ sidebar_label: Copying, Moving, Linking and Deleting
 Copying or moving a chase
 -------------------------
 
-Chases can be copied or moved to a new playback, or you can create a
+Using the \<Copy\> and \<Move\> buttons, chases can be copied or moved to a new playback, or you can create a
 linked copy of a playback. Move is useful for tidying up the console.
 Linked chases are handy if you want a chase to appear on more than one
 page for ease of operation; the linked chase can have different timings
@@ -20,7 +20,7 @@ Deleting a chase
 ----------------
 
 You can delete an entire chase by pressing \<Delete\> followed by the
-**Swop** button of the chase to delete. Press once more to confirm.
+**Select** button of the chase to delete. Press once more to confirm.
 
 Deleting a step from a chase
 ----------------------------
@@ -29,7 +29,7 @@ To delete a single step from a chase:
 
 1. Press \<Delete\> button.
 
-2. Press the **Swop** button of the chase.
+2. Press the **Select** button of the chase.
 
 3. The steps in the chase are listed on the screen. Use **Wheel A** to select the step you
 want to delete, or type in the number of the step to be deleted.
