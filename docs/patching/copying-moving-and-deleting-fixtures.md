@@ -7,8 +7,8 @@ sidebar_label: Copying, moving and deleting fixtures
 Copying or moving a patched fixture
 -----------------------------------
 
-Using the \<Copy\> button you can make a copy of an existing fixture or
-move it to a new button. You cannot link fixture buttons. You can copy
+Using the \<Copy\> or \<Move\> buttons you can make a copy of an existing fixture or
+move it to a new handle. You cannot link fixture handle like you can with cues. You can copy
 or move multiple fixtures in one operation.
 
 Fixture copying is very useful if you need an additional fixture of a
@@ -20,16 +20,14 @@ allocated) so you will need to set an address before you can use it (see
 
 Move is useful for tidying up the console.
 
-1. Press the \<Copy\> button.
+1. Press the \<Copy\> or \<Move\> button (on consoles which don't have
+	a **Move** button press \<Avo\> and \<Copy\>).
 
-2. Select \[Copy\] or \[Move\]. Pressing the \<Copy\> button again will
-also toggle through these options.
-
-3. Press the Select button of the fixture you want to copy/move. You
+2. Press the Select button of the fixture you want to copy/move. You
 can select multiple fixtures -- use the \<Thro\> and \<And\> buttons to
 add more fixtures to the selection.
 
-4. Press the empty Select button where you want it to go.
+3. Press the empty Select button where you want it to go.
 
 -   The \<Menu Latch\> button latches the Copy/Move/Link menu, so you
     can keep copying or moving things without having to keep pressing
