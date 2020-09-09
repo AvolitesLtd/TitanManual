@@ -23,5 +23,9 @@ set up what is shown on the screen(s).
 
 -   \[Open Workspace Window\] gives a list on the softkeys of all the
     possible windows, allowing you to open the one you need.
+	
+- 	Double press \<View/Open\> to show the window select buttons. See
+	[Opening and positioning workspace windows](../titan-basics/workspace-windows.md#opening-and-positioning-workspace-windows)
+	for more details about using Workspace Windows.
 
 

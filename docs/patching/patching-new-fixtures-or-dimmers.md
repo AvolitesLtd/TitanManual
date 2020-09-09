@@ -15,8 +15,8 @@ Macro/Executor button. If the handle you patch to has a fader, the fader
 will control intensity.
 
 If the Fixtures window is not shown, press \<View/Open\> then
-\<Fixture\> or press \<View/Open\> then \[Open Workspace Window\] then
-\[Fixtures\].
+\<Fixture\> or double press \<View/Open\> then press
+\[Fixtures\] from the window select buttons.
 
 ![Fixtures Window](/docs/images/Fixtures-Window.png)
 
@@ -193,8 +193,8 @@ Select buttons.
 Capture Visualiser Auto Patch
 -----------------------------
 
-If you want to use Capture Visualiser, start it by pressing
-\<View/Open\> then \[Open Workspace Window\] then \[Visualiser\]. Some
+If you want to use Capture Visualiser, start it by double pressing
+\<View/Open\> then press \[Visualiser\] from the window select buttons. Some
 consoles also have a dedicated \<Visualiser\> button. Capture will open
 in a workspace window with an automatic representation of your patch.
 
