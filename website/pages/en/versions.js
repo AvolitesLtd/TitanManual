@@ -16,36 +16,72 @@ const CWD = process.cwd();
 
 const versions = require(`${CWD}/versions.json`);
 
-// paths
-const PDFPath = `${CWD}/static/download/download-pdf.json`;
-const windowsPath = `${CWD}/static/download/download-windows.json`;
-const linuxPath = `${CWD}/static/download/download-linux.json`;
-const macPath = `${CWD}/static/download/download-mac.json`;
-
-
-// PDFs
-let PDFs = fs.existsSync(PDFPath);
-PDFs = PDFs ? require(PDFPath) : false;
-
 // downloads
-let downloads = {
-  "os": {
-    "Windows": windowsPath,
-    "Linux": linuxPath,
-    "Mac": macPath,
-  },
-  "versions": [],
-  "length": 0
-};
+const downloadJSONPath = `${CWD}/static/download/download.json`;
+let downloads = fs.existsSync(downloadJSONPath);
+downloads = downloads ? require(downloadJSONPath) : false;
 
-Object.keys(downloads.os).forEach(os => {
-  downloads.os[os] = fs.existsSync(downloads.os[os]) ? require(downloads.os[os]) : false;
-  downloads.versions = downloads.versions.concat([...Object.keys(downloads.os[os])]);
-  downloads.length += !!downloads.os[os];
-})
+/**
+ * Returns the index of downloads which holds the latest PDF for that version
+ * @param {array} downloads 
+ * @param {string} version 
+ */
+function latestPDF(downloads, version) {
+  for (let i in downloads)
+    if(!downloads[i].prerelease && downloads[i].downloads.PDF[version])
+      return i
+  return -1
+}
 
-// remove duplicates
-downloads.versions = [...new Set(downloads.versions)].sort().reverse();
+/**
+ * 
+ * @param {array} downloads 
+ * @param {string} version 
+ */
+function PDF(downloads,version) {
+  if(latestPDF(downloads,version) > -1) {
+    let download = downloads[latestPDF(downloads,version)]
+    let pdf = download.downloads.PDF[version]
+
+    return (
+      <div>
+        <a
+          href={pdf.url} download>
+          PDF
+        </a>
+        &nbsp;&nbsp;
+        <em>{`${pdf.size} (${formatDate(download.date)})`}</em>
+      </div>
+    )
+  }
+}
+
+/**
+ * Formats date string
+ * @param {string} date 
+ */
+function formatDate(date) {
+  return date.substr(0,10).split("-",3).reverse().join("/")
+}
+
+
+/**
+ * Returns the index of downloads which is the first to have downloads for all platforms
+ * @param {array} downloads 
+ */
+function latestDownload(downloads) {
+  for (let idx = 0; idx < downloads.length; idx++) {
+    const download = downloads[idx];
+    let hasAllDownloads = true
+    
+    Object.keys(download.downloads).forEach(type => {
+      hasAllDownloads = Object.keys(download.downloads[type]).length ? hasAllDownloads : false
+    })
+    if(hasAllDownloads)
+      return idx
+  }
+  return -1
+}
 
 function Versions(props) {
   const {config: siteConfig} = props;
@@ -77,14 +113,9 @@ function Versions(props) {
                         Documentation
                       </a>
                     </td>
-                    {!!Object.keys(PDFs).length && (
+                    {downloads && (
                       <td>
-                        {PDFs[version] && (
-                          <a
-                            href={`/download/${PDFs[version]}`} download>
-                            PDF
-                          </a>
-                        )}
+                        { PDF(downloads,version) }
                       </td>
                     )}
                   </tr>
@@ -109,45 +140,62 @@ function Versions(props) {
                 <td>
                   <a href={repoUrl}>Source Code</a>
                 </td>
-                {PDFs["latest"] && (
+                {downloads && latestPDF(downloads,'Pre-Release') > -1 && (
                   <td>
-                    <a
-                      href={`/download/${PDFs["latest"]}`} download>
-                      PDF
-                    </a>
+                    { PDF(downloads,'Pre-Release') }
                   </td>
                 )}
               </tr>
             </tbody>
           </table>
 
-          {!!downloads.length && (
+          {downloads && (
             <div>
               <h3 id="download">Downloads</h3>
               <table className="versions">
-                {downloads.versions.map(version =>
-                  <tr>
+                {downloads.map((download,idx) => 
+                  <tr key={download.version}>
                     <td>
                       <strong>
-                        {version}
+                        <a
+                          href={download.url}>
+                          {download.version}
+                        </a>
                       </strong>
+                      {download.prerelease && (
+                        <div>
+                          <em>
+                            Pre-release
+                          </em>
+                        </div>
+                      )}
+                      {!download.prerelease && !idx && (
+                        <div>
+                          <em>
+                            Latest
+                          </em>
+                        </div>
+                      )}
+                      <div>
+                        {formatDate(download.date)}
+                      </div>
                     </td>
-                    {Object.keys(downloads.os).map(os =>
-                      downloads.os[os] && (
-                        <td>
-                          {downloads.os[os][version] && Object.keys(downloads.os[os][version]).map(format =>
-                            <div>
-                              <a
-                                href={`/download/${downloads.os[os][version][format]}`} download>
-                                {os} ({format})
-                              </a>
-                            </div>
-                          )}
-                        </td>
-                      )
+                    {Object.keys(download.downloads).map(type =>
+                      <td key={download.version+type}>
+                        {Object.keys(download.downloads[type]).map(format =>
+                          <div key={download.version+type+format}>
+                            <a
+                              href={download.downloads[type][format].url} download>
+                              {type} ({format})
+                            </a>
+                          </div>
+                        )}
+                      </td>
                     )}
                   </tr>
-                )}
+                ).filter((download, idx) => {
+                  return latestDownload(downloads) == -1 || idx <= (latestDownload(downloads))
+                })}
               </table>
             </div>
           )}
