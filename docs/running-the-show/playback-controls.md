@@ -362,7 +362,8 @@ palette will take precedence over a flashed cue or not. A time entered
 manually as above will always override a programmed time.
 
 When a fade time is entered on the numeric keypad, you can also change
-the Fixture Overlap using the \[Overlap\] softkey. This allows you to
+the [Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap)
+using the \[Overlap\] softkey. This allows you to
 create "roll" or "peel" effects when using a series of fixtures. With
 overlap=100%, all fixtures change at the same time. If overlap=50%, the
 second fixture will not start its fade until the first fixture is half

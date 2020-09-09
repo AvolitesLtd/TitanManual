@@ -20,7 +20,7 @@ started.
 All fixtures and attributes that have been edited since the last Clear
 are stored in the ***Programmer***. The order in which you selected the
 fixtures is also stored, and is used with [shapes](../effects.md) and the
-[Fixture Overlap](cue-timing.md#setting-fade-times-and-overlap-for-a-cue)
+[Fixture Overlap](cue-timing.md#fade-times-and-fixture-overlap)
 function. When you record a cue, the contents of the Programmer are
 saved into the cue.
 

@@ -50,12 +50,12 @@ the palette fades in over that time.
 Manual Fixture Overlap when Recalling Palettes
 ----------------------------------------------
 
-You can set a [Fixture Overlap](../cues/cue-timing.md#setting-fade-times-and-overlap-for-a-cue)
+You can set a [Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap)
 when recalling a palette, which means that
 the palette will be applied in sequence to each fixture in the group.
-This is a very quick way to busk some amazing effects.\
-Fixture Overlap = **100%** means that all fixtures will change together.\
-Fixture Overlap = **0%** means that each fixture must complete its fade before the
+This is a very quick way to busk complex effects.\
+**100%** means that all fixtures will change together.\
+**0%** means that each fixture must complete its fade before the
 next will start its fade.
 
 1. Type in the overlap time for the palette on the numeric keypad

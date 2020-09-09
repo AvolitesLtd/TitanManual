@@ -629,7 +629,8 @@ the next stage of the pattern (\<Next\> and \<Prev\> on some consoles).
 -   The Direction option allows you to set the fixture selection order
     to go in a specific direction (using the group layout). This is
     useful for selecting symmetrical pairs of fixtures and for quickly
-    creating cues using overlap.
+    creating cues using 
+    [Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
 -   Direction will return to "None" when you press Clear. You can change
     this by setting \[Clear / Maintain Direction\] in the \[Clear

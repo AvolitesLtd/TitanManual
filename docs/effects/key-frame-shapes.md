@@ -80,7 +80,7 @@ The controls at the top of the left hand pane are the global shape
 properties which affect the whole shape, controlling speed, direction
 (using [2D group layout](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)),
 [phase/spread](shape-generator.md#changing-the-spread-of-a-shape-across-multiple-fixtures) and
-[fixture overlap](../cues/cue-timing.md#setting-fade-times-and-overlap-for-a-cue).
+[fixture overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
 The **eye** icon in the top left corner *"collapses"* the shape preview in the
 effect editor window, this allows you to expand only the shape you want
