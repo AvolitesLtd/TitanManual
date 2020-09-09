@@ -228,7 +228,7 @@ is as follows: (\<THRO\> is called Through on some consoles)
 |\<.\> m \<THRO\>       |sub fixtures mlast of all selected fixtures   |   
 |n \<.\> m              |sub fixture m of fixture n  |
 |\<.\> m \<THRO\> \<.\> j   |sub fixtures m - j of all selected fixtures      |   
-|n \<.\> m \<THRO\>     |sub fixtures mlast of fixture n  |
+|n \<.\> m \<THRO\>     |sub fixtures m -last of fixture n  |
 |\<.\> m \<THRO\> j     |shorthand for above              |
 |n \<.\> m \<THRO\> i   |sub fixtures m - i of fixture n  |
 |n \<THRO\> i \<.\>     |all sub fixtures of fixtures n - i |
