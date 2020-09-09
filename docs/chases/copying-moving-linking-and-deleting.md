@@ -10,7 +10,7 @@ Copying or moving a chase
 Using the \<Copy\> and \<Move\> buttons, chases can be copied or moved to a new playback, or you can create a
 linked copy of a playback. Move is useful for tidying up the console.
 Linked chases are handy if you want a chase to appear on more than one
-page for ease of operation; the linked chase can have different timings
+page for ease of operation; also a linked chase can have different timings
 and playback options.
 
 This operation is exactly the same as for Cues and is described in
