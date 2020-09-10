@@ -5,8 +5,8 @@ sidebar_label: Copying, Moving, Linking and Deleting Cue Lists
 ---
 
 This section describes how to copy, move and delete entire cue lists. 
-The [previous section](editing-cue-lists.md) describes how you [copy, move and delete
-individual cues within a cue list](editing-cue-lists.md#moving-and-copying-cues).
+The [Editing Cue Lists](editing-cue-lists.md) section describes how you [copy, move and delete
+individual cues within a cue list](editing-cue-lists.md#moving-copying-and-deleting-individual-cues).
 
 Copying or Moving a Cue List
 ----------------------------
@@ -24,4 +24,3 @@ Deleting a Cue List
 You can delete a whole cue list by pressing \<Delete\> then the **Select**
 button of the playback to be deleted. Confirm the deletion by pressing
 the select button again, or the \[Confirm\] softkey, or \<Enter\>.
-

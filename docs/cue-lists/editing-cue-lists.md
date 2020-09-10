@@ -47,7 +47,7 @@ the softkeys.
     (values which have tracked through from another cue rather than
     being stored directly in this cue) are shown in light grey.
 
-Moving, Copying and Deleting individual Cues
+Moving, Copying and Deleting Individual Cues
 -----------------------
 
 There are several ways to copy or move cues within a cue list. You can also move cues to other cue lists.\
