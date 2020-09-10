@@ -215,7 +215,7 @@ To go back to normal, press \<Unfold\> then \[Exit Unfold\].
 You can also use the numeric keypad to quickly select cells. The syntax
 is as follows: (\<THRO\> is called Through on some consoles)
 
-|button presses         |selection                      |
+| Keypresses         | Selection                      |
 |-----------------------|-------------------------------|
 |\<.\>                   |all sub fixtures of selection  |                    
 |n \<.\>                |all sub fixtures of fixture n  |
