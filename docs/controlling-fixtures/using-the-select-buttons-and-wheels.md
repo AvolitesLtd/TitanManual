@@ -217,17 +217,17 @@ is as follows: (\<THRO\> is called Through on some consoles)
 
 | Keypresses                                   | Selection                                                               |
 |----------------------------------------------|-------------------------------------------------------------------------|
-| \<.\>                                        | All sub-fixtures of selection                                           | 
+| \<.\>                                        | All sub-fixtures of selection                                           |
 | **n** \<.\>                                  | All sub-fixtures of fixture **n**                                       |
-| \<.\> \<THRO\> \<.\> **j**                   | Sub-fixtures 1 - **j** of all selected fixtures                         |       
+| \<.\> \<THRO\> \<.\> **j**                   | Sub-fixtures 1 - **j** of all selected fixtures                         |
 | **n** \<.\> \<THRO\>                         | All sub-fixtures of fixture **n** through last consecutive of that type |
-| **n** \<THRO\> \<.\> **j**                   | Shorthand for above                                                     |                            
+| **n** \<THRO\> \<.\> **j**                   | Shorthand for above                                                     |
 | **n** \<.\> \<THRO\> **i**                   | Sub-fixtures 1 - **i** of fixture **n**                                 |
 | \<.\> **m**                                  | Sub-fixture **m** of all selected fixtures                              |
 | **n** \<.\> \<THRO\> **i** \<.\> **j**       | Sub-fixtures 1 - **j** of fixtures **n** - **i**                        |
-| \<.\> **m** \<THRO\>                         | Sub-fixtures **m** through last of all selected fixtures                |   
+| \<.\> **m** \<THRO\>                         | Sub-fixtures **m** through last of all selected fixtures                |
 | **n** \<.\> **m**                            | Sub-fixture **m** of fixture **n**                                      |
-| \<.\> **m** \<THRO\> \<.\> **j**             | Sub-fixtures **m** - **j** of all selected fixtures                     |   
+| \<.\> **m** \<THRO\> \<.\> **j**             | Sub-fixtures **m** - **j** of all selected fixtures                     |
 | **n** \<.\> **m** \<THRO\>                   | Sub-fixtures **m** through last of fixture **n**                        |
 | \<.\> **m** \<THRO\> **j**                   | Shorthand for above                                                     |
 | **n** \<.\> **m** \<THRO\> **i**             | Sub-fixtures **m** - **i** of fixture **n**                             |

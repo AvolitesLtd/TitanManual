@@ -216,45 +216,28 @@ To go back to normal, press \<Unfold\> then \[Exit Unfold\].
 You can also use the numeric keypad to quickly select cells. The syntax
 is as follows: (\<THRO\> is called Through on some consoles)
 
-  .            all sub-fixtures of selection                    
-
-  n\.            all sub-fixtures of fixture n
-
-  . \<THRO\> .j    sub-fixtures 1j of all selected fixtures         
-
-  n\. \<THRO\>       all sub-fixtures of fixture nlast consecutive of type
-
-  n \<THRO\> .j      shorthand for above                              
-
-  n\. \<THRO\> i     sub-fixtures 1i of fixture n
-
-  .m           sub-fixture m of all selected fixtures           
-
-  n\. \<THRO\> i.j   sub-fixtures 1j of fixtures ni
-
-  .m \<THRO\>      sub-fixtures mlast of all selected fixtures      
-
-  n.m            sub-fixture m of fixture n
-
-  .m \<THRO\> .j   sub-fixtures mj of all selected fixtures         
-
-  n.m \<THRO\>       sub-fixtures mlast of fixture n
-
-  .m \<THRO\> j    shorthand for above                              
-
-  n.m \<THRO\> i     sub-fixtures mi of fixture n
-
-  n \<THRO\> i.    all sub-fixtures of fixtures ni                  
-
-  n.m \<THRO\> i.    sub-fixture mlast of fixtures ni
-
-  n \<THRO\> i.j   sub-fixture j of fixtures ni                     
-
-  n.m \<THRO\> i.j   sub-fixtures mj of fixtures ni
-
-  n \<THRO\> .j    sub-fixture 1j of fixture n                      
-
-  n.m \<THRO\> .j    sub-fixtures mj of fixture n
+| Keypresses                                   | Selection                                                               |
+|----------------------------------------------|-------------------------------------------------------------------------|
+| \<.\>                                        | All sub-fixtures of selection                                           |
+| **n** \<.\>                                  | All sub-fixtures of fixture **n**                                       |
+| \<.\> \<THRO\> \<.\> **j**                   | Sub-fixtures 1 - **j** of all selected fixtures                         |
+| **n** \<.\> \<THRO\>                         | All sub-fixtures of fixture **n** through last consecutive of that type |
+| **n** \<THRO\> \<.\> **j**                   | Shorthand for above                                                     |
+| **n** \<.\> \<THRO\> **i**                   | Sub-fixtures 1 - **i** of fixture **n**                                 |
+| \<.\> **m**                                  | Sub-fixture **m** of all selected fixtures                              |
+| **n** \<.\> \<THRO\> **i** \<.\> **j**       | Sub-fixtures 1 - **j** of fixtures **n** - **i**                        |
+| \<.\> **m** \<THRO\>                         | Sub-fixtures **m** through last of all selected fixtures                |
+| **n** \<.\> **m**                            | Sub-fixture **m** of fixture **n**                                      |
+| \<.\> **m** \<THRO\> \<.\> **j**             | Sub-fixtures **m** - **j** of all selected fixtures                     |
+| **n** \<.\> **m** \<THRO\>                   | Sub-fixtures **m** through last of fixture **n**                        |
+| \<.\> **m** \<THRO\> **j**                   | Shorthand for above                                                     |
+| **n** \<.\> **m** \<THRO\> **i**             | Sub-fixtures **m** - **i** of fixture **n**                             |
+| **n** \<THRO\> **i** \<.\>                   | All sub-fixtures of fixtures **n** - **i**                              |
+| **n** \<.\> **m** \<THRO\> **i** \<.\>       | Sub-fixture **m** through last of fixtures **n** - **i**                |
+| **n** \<THRO\> **i** \<.\> **j**             | Sub-fixture **j** of fixtures **n** - **i**                             |
+| **n** \<.\> **m** \<THRO\> **i** \<.\> **j** | Sub-fixtures **m** - **j** of fixtures **n** - **i**                    |
+| **n** \<THRO\> \<.\> **j**                   | Sub-fixture 1 - **j** of fixture **n**                                  |
+| **n** \<.\> **m** \<THRO\> \<.\> **j**       | Sub-fixtures **m** - **j** of fixture **n**                             |
 
 -   Fixture cell selection can be saved as a group, this provides a
     quick way to select cells / sub-fixtures without having to use the
