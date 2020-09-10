@@ -4,6 +4,10 @@ title: Editing Cue Lists
 sidebar_label: Editing Cue Lists
 ---
 
+This section describes how to edit cues within a cue list. 
+To copy, move or delete an entire cue list see the section 
+[Copying, Moving, Linking and Deleting](../cue-lists/copying-moving-linking-and-deleting.md).
+
 Playback View Window
 --------------------
 
@@ -11,7 +15,9 @@ The easiest way to edit a cue list is using the Playback View window
 (press \<View/Open\> then the **select** button for the cue list to open
 it). This shows a grid with each cue and allows you to change most
 features of the cue. Select the item you want to change in the grid,
-and the softkeys will offer you the different options.
+and the softkeys will offer you options for what you can change.
+
+![Playback view](/docs/images/Cue-List-Window-with-Autoload-playback.png)
 
 To change multiple cues at once, draw a box across the items you want to
 change.
@@ -41,14 +47,19 @@ the softkeys.
     (values which have tracked through from another cue rather than
     being stored directly in this cue) are shown in light grey.
 
-Moving and Copying Cues
+Moving, Copying and Deleting Individual Cues
 -----------------------
 
-You can copy or move cues within a cue list or to other cue lists.
-Either click and drag the cue in the [Playback
-View window](#playback-view-window) (press
-Open/View then the **select** button for the cue list), or use **Unfold** ([next
-section](#editing-a-cue-list-using-unfold)), or you can use a `command-line` style series of keypresses.
+There are several ways to copy or move cues within a cue list. You can also move cues to other cue lists.\
+You can use **Unfold** ([as described in the next
+section](#editing-a-cue-list-using-unfold)).\
+To move a cue you can either click and drag the cue in the [Playback
+View window](#playback-view-window), or click on the cue number and use the \[Change To\] softkey
+to enter the new cue number - once you have changed the number the cue will move to
+its correct position in the list.\
+To delete a cue, select the cue in the window and press \<Delete\>, followed by \<Delete\> again or \<Enter\> to confirm.
+
+You can also use a `command-line` style series of keypresses.
 
 **Copy/Move within the same playback:**
 
@@ -62,6 +73,10 @@ section](#editing-a-cue-list-using-unfold)), or you can use a `command-line` sty
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] ENTER ENTER`
 
+**Delete cue(s)**
+
+`DELETE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] ENTER ENTER`
+
 **Copy/Move to a different playback:**
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> <cue> ENTER`
@@ -72,7 +87,7 @@ section](#editing-a-cue-list-using-unfold)), or you can use a `command-line` sty
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> <playback>`
 
-> **\<playback\>** is a playback swop key, **\<cue\>** is the cue number and
+> **<playback\>** is a playback select key, **<cue\>** is the cue number and
 sections in square brackets are optional)
 
 Editing a Cue List using Unfold
