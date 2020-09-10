@@ -240,7 +240,7 @@ Virtual faders
 
 If you need more playbacks and you're happy to operate them on a touchscreen fader, you can use the
 Virtual Faders workspace window (double press \<Open/View\> then press \[Virtual Faders\] from the window
-selec buttons). 
+select buttons). 
 This provides 10 more paged faders which work exactly the same as the hardware playback faders. 
 A roller display at the left side allows you to select different pages.
 
