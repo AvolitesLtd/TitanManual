@@ -5,28 +5,31 @@ sidebar_label: Cue Lists
 original_id: cue-lists
 ---
 
-Cue Lists (sometimes known as stacks or cue stacks) allow you to record
-a sequence of [cues](cues.md), each of which can have its own [timings](cue-lists/cue-list-timing.md) and can be
-triggered by the [Go button or run automatically to the next cue](cue-lists/cue-list-playback.md). This
-allows you to build a complete show in a single list and is ideal for
-[theatrical shows](cue-lists/theatre-programming.md) where the show must be exactly the same each time. Cue
-lists can also be useful in busked shows, especially on consoles with a
-small number of playback faders, to offer a number of different looks on
-one fader.
+Cuelisten - Szenenfolgen - gestatten das Programmieren einer Abfolge
+von [Cues](cues.md), von denen jeder eigene [Zeitvorgaben](cue-lists/cue-list-timing.md) enthalten kann und die
+entweder Schritt für Schritt mit der [\<Go\>-Taste gesteuert werden oder
+automatisch ablaufen können](cue-lists/cue-list-playback.md). Damit lassen sich selbst komplexe Shows in nur einer Liste programmieren, etwa bei 
+[Theateraufführungen](cue-lists/theatre-programming.md), wo der
+Showablauf jedes Mal exakt gleich sein muss. Cuelisten können aber auch
+bei spontan gedrückten Shows sehr hilfreich sein, insbesondere auf
+Pulten mit wenigen Fadern, indem man sich mehrere verschiedene Bilder
+auf einen Fader legt.
 
-Cue lists differ from [chases](chases.md) in the way the console handles changes
-between cues. Cue lists track fixture state from previous cues and will
-only change the fixture state if you have modified that fixture in the
-cue; if there are no changes stored for the fixture, it will remain in
-the same state. [Chases](chases.md) on the other hand would crossfade between cues,
-fading out all fixtures which have no stored information in the new cue.
+Cuelisten unterscheiden sich von [Chasern](chases.md) in der Art und Weise der
+Behandlung von Änderungen zwischen den einzelnen Schritten: während
+[Chaser](chases.md) zwischen den einzelnen Schritten überblenden (und damit nicht
+enthaltenen Geräte ausblenden), wird bei Cuelisten der aktuelle Status
+der Geräte aus den vorangegangenen Änderungen/Befehlen ermittelt
+(Tracking). Wurde ein Gerät nicht verändert, so werden auch keine
+Änderungen im jeweiligen Cue gespeichert, und das Gerät bleibt beim
+Starten des Cues unverändert.
 
-You can change the tracking behaviour of cue lists using the [tracking
-option](cue-lists/cue-list-playback.md#tracking) for each cue: Block, This Cue Only and Solo - see Tracking
-in the [Cue List Playback](cue-lists/cue-list-playback.md) section).
+Das [Tracking-Verhalten](cue-lists/cue-list-playback.md#tracking) der 
+Cueliste lässt sich detailliert steuern; dazu gehören - pro Cue - die 
+Optionen Block, This Cue Only und Solo (Siehe auch [Abrufen einer Cueliste](cue-lists/cue-list-playback.md)).
 
-To view the contents of a cue list, touch the playback screen relating
-to the fader or press \<Open/View\> then the **swop button** of the
-playback.
+Zur Anzeige des Inhalts einer Cueliste berühren Sie den Touchscreen im
+'Playback'-Bereich oberhalb des jeweiligen Reglers oder drücken \<View /
+ Open\> und die zugehörige **Swop**-Taste.
 
 ![Playback View of Cue List](/docs/images/Cue-List-Window-with-Autoload-playback.png)

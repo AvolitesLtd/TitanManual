@@ -5,39 +5,44 @@ sidebar_label: Copying, Moving, Linking and Deleting
 original_id: copying-moving-linking-and-deleting
 ---
 
-Copying or moving a chase
--------------------------
+Einen Chaser verschieben oder kopieren
+--------------------------------------
 
-Chases can be copied or moved to a new playback, or you can create a
-linked copy of a playback. Move is useful for tidying up the console.
-Linked chases are handy if you want a chase to appear on more than one
-page for ease of operation; the linked chase can have different timings
-and playback options.
+Chaser können kopiert oder auf einen anderen Speicherplatz verschoben
+werden, oder Sie können eine Verknüpfung auf einen bestehenden Chaser
+erstellen. Verschieben ist sinnvoll zum Erhalt einer aufgeräumten
+Arbeitsoberfläche. Verknüpfungen bieten sich an, wenn aus Gründen des
+Showablaufs der gleiche Chaser auf mehreren Playback-Seiten abrufbar
+sein soll; dabei enthält der verknüpfte Chaser generell die gleichen
+Informationen wie das Original, kann aber andere Zeiten und Optionen
+zugewiesen bekommen.
 
-This operation is exactly the same as for Cues and is described in
-[Copying, Moving, Linking and Deleting](../cues/copying-moving-linking-and-deleting.md).
+Das Vorgehen ist das gleiche wie beim Kopieren/Verschieben/Verknüpfen
+von Cues, und ist in Abschnitt 
+[Copying, Moving, Linking and Deleting](../cues/copying-moving-linking-and-deleting.md)genau beschrieben.
 
-Deleting a chase
-----------------
+Löschen eines Chasers
+---------------------
 
-You can delete an entire chase by pressing \<Delete\> followed by the
-**Swop** button of the chase to delete. Press once more to confirm.
+Zum Löschen eines kompletten Chasers drücken Sie \<Delete\>, dann die
+**Swop**-Taste des Chasers. Drücken Sie diese zur Bestätigung nochmals.
 
-Deleting a step from a chase
-----------------------------
+Löschen eines Schrittes aus einem Chaser
+----------------------------------------
 
-To delete a single step from a chase:
+Um einen einzelnen Schritt zu löschen:
 
-1. Press \<Delete\> button.
+1. Drücken Sie die \<Delete\>-Taste.
 
-2. Press the **Swop** button of the chase.
+2. Drücken Sie die **Swop**-Taste des Chasers.
 
-3. The steps in the chase are listed on the screen. Use **Wheel A** to select the step you
-want to delete, or type in the number of the step to be deleted.
+3. Auf dem Display werden nun die Schritte des Chasers angezeigt.
+Wählen Sie mit dem **linken Rad** den zu löschenden Schritt, oder geben Sie
+dessen Nummer mit den Zifferntasten ein.
 
-4. Press \[Delete Cue x\] to delete the step.
+4. Drücken Sie \[Delete Cue x\], um den Schritt zu löschen.
 
-5. Press \[Confirm\] to confirm the delete.
+5. Bestätigen Sie den Löschvorgang mit \[Confirm\].
 
-> Alternatively you can use the [\<Unfold\> function](editing-a-chase.md#editing-a-chase-using-unfold) to delete a step from
-    a chase.
+> Alternativ lassen sich auch einzelne Schritte mit der
+[\<Unfold\>-Funktion](editing-a-chase.md#editing-a-chase-using-unfold) löschen.

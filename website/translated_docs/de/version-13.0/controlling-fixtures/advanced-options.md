@@ -5,22 +5,42 @@ sidebar_label: Fixture Advanced Options
 original_id: advanced-options
 ---
 
-The ML Menu button
-------------------
+Die ML-Menü-Taste
+-----------------
 
-When the console is at the top level menu, this button opens the Moving Light Actions menu which contains options to Locate Fixture (same as the Locate button) and to run Macros on fixtures such as Lamp On, Lamp Off, Reset etc. The Align Fixtures and Flip functions as described above are also in this menu.
-On the Pearl Expert and Tiger Touch Mk1, this button also latches the current menu when the console is not at the top level menu. Press <Exit> to get back to the top menu so that you can access the Moving Light menu. On other consoles there is a dedicated <Latch Menu> button.
+Wenn sich das Pult im Hauptmenü befindet, kann man mit dieser Taste das
+'Moving Light Actions'-Menü (mit Funktionen für intelligente
+Scheinwerfer) aufrufen, welches spezielle Funktionen für diese Geräte
+bietet, wie etwa 'Locate' (gleiche Funktion wie mit der \<Locate\>-Taste
+aufrufbar, s.o.), Abruf von Macros zum Zurücksetzen oder
+Ein-/Ausschalten der Geräte etc. Die vorstehend beschriebenen Funktionen
+'Align' (Abgleich) und 'Flip' sind ebenfalls in diesem Menü zu finden.
 
-Lamping fixtures on and off
+Auf dem Tiger Touch I und dem Pearl Expert fixiert diese Taste das
+aktuelle Menü, wenn sich das Pult nicht im Hauptmenü befindet. Drücken
+Sie \<Exit\>, um zum Hauptmenü zurückzukehren, damit Sie das 'Moving
+Light Menu' aufrufen können. Auf neueren Pulten gibt es eigens eine
+Taste \<Menu Latch\>.
+
+Geräte ein- und ausschalten
 ---------------------------
 
-Many fixtures have a control channel which allows you to perform functions like lamp on, lamp off, fixture reset, and so on. This can be useful to shut down fixture lamps at the end of a show while the fans continue to run, or to reset a fixture which has gone haywire.
+Viele Geräte haben einen gesonderten Steuerkanal, mit dem man Funktionen
+wie 'Brenner an', 'Brenner aus', ‚Reset' etc. aufrufen kann.
 
-The console allows you to access these functions using Fixture Macros (not to be confused with keypress macros).
+Auf dem Pult lassen sich diese Funktionen als Geräte-Makros (nicht zu
+verwechseln mit den Pult-Makros) aufrufen.
 
-1.	Keep pressing <Exit> until you are at the top level menu.
-2.	Select the fixtures you wish to control. Macros may not work across groups of fixtures from different manufacturers so it’s best to do each type of fixture separately.
-3.	Press <Fixture Tools>/<ML Menu> then [Macros].
-4.	The softkeys show a list of the functions available. Press the one you want to action.
+1.  Drücken Sie so oft \<Exit\>, bis das Pult im Hauptmenü ist.
 
--	Some macros involve timed sequences and can take up to 30 seconds to execute.
+2.  Wählen Sie die zu steuernden Geräte aus. Manche Makros funktionieren
+    nicht auf Geräten unterschiedlicher Hersteller gleichzeitig, deshalb
+    bietet es sich an, jeden Gerätetyp einzeln zu steuern.
+
+3.  Drücken Sie \<Fixture Tools/Menu Latch\> und wählen \[Macros\].
+
+4.  Im Display wird eine Liste der für diese Geräte verfügbaren Makros
+    angezeigt. Wählen Sie das gewünschte aus.
+
+-   Einige Makros beinhalten bestimmte zeitliche Abläufe und können bis zu
+    30 Sekunden zum Ausführen benötigen.

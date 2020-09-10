@@ -5,28 +5,28 @@ sidebar_label: Visualising using Capture
 original_id: visualising-using-capture
 ---
 
-Mostly you don't have to do anything special with Capture once you have
-it set up. Just operate the console as normal and Capture will show you
-what would be happening on the stage.
+Es sind keine besonderen Einstellungen erforderlich, um Capture zu
+verwenden. Bedienen Sie einfach da Pult wie gewohnt, und Capture zeigt
+eine Simulation dessen, was mit Ihren Fixtures passiert.
 
->If you use the visualiser a lot, it's very handy to have an external monitor to show it on. Otherwise you constantly have to switch between the workspace windows and the visualiser window.
+>Verwenden Sie den Visualiser häufig, so empfiehlt sich die Verwendung eines externen Monitors. Ansonsten muss man ständig zwischen Capture und den anderen Fenstern hin- und herschalten.
 
-Fixture Selection
------------------
+Geräte anwählen
+---------------
 
-If you [select fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) on the console, the fixtures will highlight in
-Capture so you can see where they are in real life.
+Sobald auf dem Pult [Geräte angewählt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) sind, werden diese in Capture
+markiert, so dass man weiß, mit welchen Geräten man gerade arbeitet.
 
 ![Fixtures elected on internal Capture Visualiser Window](/docs/images/Fixtures-elected-on-internal-Capture-Visualiser-Window.png)
 
-Camera Views
-------------
+Kameras/Ansichten
+-----------------
 
-Capture lets you can see how the lighting will look from any seat in the
-house. Even if you're in the venue with the full rig in front of you
-this means you can see the look without having to run all over the
-venue.
+Mit Capture kann man sich Bühne und Beleuchtung aus verschiedenen
+Blickwinkeln anschauen. So kann man sich auch bei großen Installationen
+einen Eindruck von verschiedenen Plätzen verschaffen, ohne durch das
+ganze Venue laufen zu müssen.
 
-Set up multiple cameras as described in [the previous section](setting-up-the-rig.md#setting-up-cameras-views) and you can
-either click between them or show the 4 standard camera views as a quad
-split.
+Richten Sie sich wie [im vorigen Abschnitt beschrieben](setting-up-the-rig.md#setting-up-cameras-views) mehrere
+Kameras/Ansichten ein, so können Sie schnell zwischen diesen wechseln
+und haben alles im Überblick.

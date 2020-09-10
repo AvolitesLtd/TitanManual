@@ -5,83 +5,88 @@ sidebar_label: Chase Options
 original_id: chase-options
 ---
 
-To set options for a chase, press \[Playback Options\] on the root menu,
-then press the **Select** button of the playback to be edited. Options will
-be shown on the softkeys. To view the options window, press
-\<View/Open\> then the **Select** button of the playback, then click the
-Options tab.
+Um weitere Optionen eines Chasers zu ändern, drücken Sie im Hauptmenü
+\[Playback Options\], gefolgt von der entsprechenden **Swop**-Taste. Zur
+Anzeige aller Optionen in einem Fenster drücken Sie \<View / Open\>, dann die
+entsprechende **Swop**-Taste, und klicken links in der Playback-Ansicht
+auf \[Options\].
 
 ![Playback Options (playback tab) for a chase](/docs/images/Playback-Options-Chase-Playback-Tab.png)
 
-Most of the options are the same as for Cues (see [Playback Options](../cues/playback-options.md)), only the additional Chase options are described here.
+Die meisten Optionen sind die gleichen wie für statische Cues (siehe
+[Playback Options](../cues/playback-options.md)), sowie ein paar 
+zusätzliche für Chaser, die hier beschrieben werden.
 
-## Playback Tab
+## Chase Options -- Tab "Playback"
 
 [Blind](../cues/playback-options.md#blind), [Priority](../cues/playback-options.md#priority), 
-[Shape Behaviour](../cues/playback-options.md#shape-behaviour) are described in the Cues chapter.
+[Shape Behaviour](../cues/playback-options.md#shape-behaviour) funktionieren genauso wie im Kapitel Cues beschrieben.
 
 ### Loop Action
-Sets what happens at the end of the chase:
+bestimmt, was passiert, wenn der Chaser durchgelaufen ist:
 
-\[Stop on Final Cue\] - Chase stops at the end\
-\[Loop\] - The chase will loop back to the beginning
+\[Stop on Final Cue\] - Der Chaser stoppt, läuft also nur einmal.\
+\[Loop\] - Der Chaser läuft immer wieder von Anfang an durch -- eine
+Schleife.
 
 ### Play Order
-Sets the direction of the chase.
+stellt die Richtung des Chasers ein (forwards = vorwärts, backwards 
+= rückwärts, bounce = hin und zurück, random = zufällige Folge).
 
 ### Linking
-Sets how the cues in the chase are linked. The options
-are:
+bestimmt das Verhalten aufeinanderfolgender Schritte:
 
-\[Link according to individual steps\] - Each step in the chase will obey its 
-individual link settings which are set using the
-[Playback View window](editing-a-chase.md#opening-a-chase-for-editing)
-or the [\<Unfold\> function](editing-a-chase.md#editing-a-chase-using-unfold).\
-\[Always Link Steps\] - The chase will run on its own using the times\
-\[Never Link Steps\] - The chase will pause after every delay/fade time
-for the user to press \<Go\>
+\[Link according to individual steps\] - (Schrittfolge nach Vorgabe):
+jeder Schritt verhält sich gemäß der spezifischen Vorgaben (mit
+[\<Unfold\>](editing-a-chase.md#editing-a-chase-using-unfold) oder im [Playback View-Fenster](editing-a-chase.md#opening-a-chase-for-editing) einzustellen).\
+\[Always Link Steps\] - (Schritte stets folgen lassen): der Chaser
+läuft automatisch mit den vorgegebenen Zeiten ab.\
+\[Never Link Steps\] - (Schritte nie folgen lassen): der Chaser stoppt
+nach jeder Verzögerungs-/Überblendzeit und wartet auf das Betätigen
+der \<Go\>-Taste.
 
-> When a chase is unlinked, raising the fader does not fire the first cue, which can be a problem. To get round this, if the chase is not looped, simply link the first cue to the previous one. If the chase is looped, add a dummy step at the end with 0 sec fade, 0 sec delay and link the first step to this one.
+> Ist ein Chaser 'unlinked', d.h. wartet immer auf das manuelle ‚Go', so startet auch der erste Schritt nicht automatisch, wenn der Fader hochgezogen wird. Um dies zu umgehen, linken Sie den ersten Schritt zum vorherigen, sofern der Chaser nicht auf ‚Loop' (Wiederholung) steht. Steht er hingegen auf ‚Loop', so fügen Sie am Ende einen ‚Blindschritt' ein mit 0 Sek. Fade- und 0 Sek. Delayzeit, und linken den ersten Schritt mit diesem.
 
 ### Speed Multiplier
-Allows you to set a speed factor for the chase.\
+zum Einstellen eines Faktors für das Tempo.
 
 ### Speed
-Provides another way of setting chase speed.
+Eine weitere Möglichkeit, das Tempo des Chasers einzustellen.
 
 ### XFade
-Provides another way of setting chase crossfade.
+Eine weitere Möglichkeit, das Überblenden des Chasers
+einzustellen.
 
 ### Fixture Overlap
-Allows you to set the fixture overlap for the
-chase.
+Einstellen der Geräteüberlappung.
 
-> *See [Setting Speed and Crossfade for a Chase](chase-playback.md#setting-speed-and-crossfade-for-a-chase) for more details.*
+> *Siehe [Geschwindigkeit und Überblendung einstellen](chase-playback.md#geschwindigkeit-und-überblendung-einstellen) für weitere Details.*
 
 ## Handle Tab
 
-All options in this section are described in [Playback Options](../cues/playback-options.md#handle-tab).
+Alle Optionen dieser Rubrik funktionieren genauso wie im [Kapitel Cues](../cues/playback-options.md#handle-tab) beschrieben.
 
 ## Effects Tab
 
-All options in this section are described in [Playback Options](../cues/playback-options.md#effects-tab).
+Alle Optionen dieser Rubrik funktionieren genauso wie im [Kapitel Cues](../cues/playback-options.md#effects-tab) beschrieben.
 
 ## Release Tab
 
-[Release Mask](../cues/playback-options.md#release-mask) and 
-[Release Time](../cues/playback-options.md#release-time) are described in 
-[Playback Options](../cues/playback-options.md#release-tab).
+[Release Mask](../cues/playback-options.md#release-mask) und 
+[Release Time](../cues/playback-options.md#release-time) funktionieren genauso wie im
+[Kapitel Cues](../cues/playback-options.md#release-tab) beschrieben.
 
 ### Cue Release
-Allows you to create an overlay chase with gaps in it
-where the fixtures will return to their previous state.
+Cue Release: erlaubt es, Chaser zu erstellen, bei denen zwischen den
+einzelnen Schritten ein Release erfolgt. 
 
-*For example you could create a chase where every alternate cue sets the fixtures to
-white, with the in between cues being blank. If this option is on, the
-fixtures will bump to white then return to the colour set from a
-previous look.*
+*So lässt sich damit z.B. ein Chaser erstellen, der die Geräte einzeln 
+auf weiß einblendet und dann wieder released, also auf die vorher 
+verwendete Farbe zurücksetzt. Diesen kann man dann vor jedem anderen 
+- durch andere Cues/Paletten eingestellten - Hintergrund laufen lassen.*
 
 ## Renumber All Cues
 
-This option is only available on the softkeys, not the option screen.
-This will renumber all the cues in the chase starting from 1.
+Die Option \[Renumber All Cues\] setzt die Nummerierung der Schritte auf
+eine von 1 aufsteigende Folge zurück. Diese Option ist nur über die
+Menütasten verfügbar, nicht im Optionsfenster.

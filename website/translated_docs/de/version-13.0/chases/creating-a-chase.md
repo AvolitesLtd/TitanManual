@@ -10,87 +10,89 @@ Programming a Chase
 
 [](https://youtu.be/M0h5zV4S_OI?t=20 "Recording a Chase")
 
-To program a chase, you have to set up the look for each cue in the
-chase, then save it.
+Zum Programmieren eines Chasers stellen Sie für jeden Schritt das
+gewünschte Bild ein und speichern es.
 
-You can either set all the fixtures and dimmers manually for each cue in
-the chase, you can use [Quick Build](#creating-a-chase-with-quick-build)
-to create a state from [palettes](../palettes.md) and
-[cues](../cues.md), or you can use
-[\<Include\>](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)
-to load in cues.
+Dazu können Sie alle Geräte und Dimmer einzeln einstellen, Sie können
+per [Quick Build](#creating-a-chase-with-quick-build) einen Chaser aus 
+[Paletten](../palettes.md) und [Cues](../cues.md) zusammenstellen,
+oder Sie benutzen die [\<Include\>](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)-Funktion, um die Einstellungen aus bereits programmierten Cues zu verwenden.
 
-1. Press \<Record\> then select \[Chase\]. *(Some consoles also have a
-\<Record Chase\> button)*.
+1. Drücken Sie die Taste \<Record\>, dann \[Chase\] (oder 2x \<Record\>). 
+*(Ältere Pulte haben dafür die Taste \<Record Chase\>).*
 
-2. Press the **Swop** button of the playback where you want to store the
-chase *(you can also store chases on touch buttons in the Playbacks
-window)*.
+2. Drücken Sie die **Swop**-Taste des Playbacks, auf das Sie den Chaser
+speichern möchten *(ebenso lassen sich Chaser auf die Schaltflächen im
+'Playbacks'-Fenster speichern)*.
 
-3. Set up the look for the first cue, either manually or by using
-[\<Include\>](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)
-on existing cues.
+3. Stellen Sie das gewünschte Bild für den ersten Schritt ein, entweder
+manuell, oder unter Verwendung bestehender Cues mittels der 
+[\<Include\>](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)-Funktion
 
-4. You can change the number given to the step using \[Step Number\]
+4. Die Nummer des aktuellen Schrittes lässt sich mit \[Step Number\]
+ändern.
 
-5. Press the **Swop** button of the playback to store the programmer
-contents as a step of the chase. You can also press \[Append Step\] on
-the menu.
+5. Betätigen Sie die **Swop**-Taste des Playbacks, um den Inhalt des
+Programmierspeichers als Schritt eines Chasers zu speichern. Alternativ
+können Sie \[Append Step\] (Schritt anfügen) aus dem Menü verwenden.
 
-6. Press \<Clear\> *(unless you want to re-use the contents of the
-programmer)*, then repeat steps 3 - 5.
+6. Drücken Sie \<Clear\> *(außer wenn Sie den Inhalt des
+Programmierspeichers teilweise weiterverwenden wollen)*, und wiederholen
+den Vorgang ab Schritt 3 zum Erstellen des nächsten Chase-Schrittes.
 
-7. Press \<Exit\> to finish when you have stored all the cues you want.
+7. Drücken Sie \<Exit\> zum Beenden, wenn Sie alle gewünschten Schritte
+gespeichert haben.
 
 ---
 
--   \[Record Mode\] lets you select:
+-   Mit \[Record Mode\] wählt man zwischen:
 
-    - \[Record By Fixture\] - all attributes of
-    any modified or selected fixture are saved
+    - \[Record By Fixture\] (Speichern pro Gerät) - alle Attribute 
+	aller angewählten oder veränderten Geräte werden gespeichert
 
-    - \[Record By Channel\] - only
-    modified attributes are saved
+    - \[Record By Channel\] (Speichern pro Kanal) - nur die geänderten 
+	Attribute werden gespeichert
 
-    - \[Record Stage\] - all fixtures with a
-    non-zero dimmer setting are saved
+    - \[Record Stage\] (Bühne speichern) - alle Geräte mit
+    Helligkeit > 0 werden gespeichert
 
-    - \[Quick Build\] - [see next section](#creating-a-chase-with-quick-build)
+    - \[Quick Build\] - [siehe nächster Abschnitt](#creating-a-chase-with-quick-build)
 
--   The cue number currently being saved, and the total number of cues,
-    is shown on the top line of the display.
+-   Die aktuelle Schrittnummer sowie die Gesamtzahl der Schritte wird in
+    der oberen Zeile des Displays angezeigt.
 
--   Press \<Clear\> when you have finished recording the chase,
-    otherwise when you try to play it back the programmer will override
-    the chase and you won't see the chase properly.
+-   Drücken Sie \<Clear\>, wenn Sie mit dem Programmieren fertig sind;
+    anderenfalls überlagert der Programmierspeicher den aufgerufenen
+    Chaser, so dass nicht das gewünschte Ergebnis zu sehen ist.
 
--   You can record [shapes](../effects.md) in a chase. If the same shape is saved in
-    subsequent cues it will continue from step to step and if not it
-    will stop at the end of the cue. *(The shape is the same if you
-    didn't press \<Clear\> after the previous step, and didn't change
-    the speed, size or phase of the shape from the previous step; or if
-    you [Included](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)
-    the shape from the previous step and have not modified
-    it)*
+-   In Chasern lassen sich auch [Shapes](../effects.md) verwenden. 
+	Wird derselbe Shape in mehreren aufeinanderfolgenden Schritten 
+	verwendet, so läuft er nahtlos durch; anderenfalls endet er mit 
+	dem jeweiligen Schritt. *(‚Derselbe' Shape wird dann angenommen, 
+	wenn nach dem vorherigen Schritt nicht \<Clear\> gedrückt wurde 
+	und Größe, Geschwindigkeit und Phase des Shapes nicht verändert 
+	wurden, oder wenn der Shape per [Include](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function) 
+	aus dem vorherigen Schritt übernommen und nicht modifiziert wurde.)*
 
--   You can set a legend for the chase by pressing \[Set Legend\], then
-    pressing the **Swop** button for the chase and entering the legend, as
-    with cues.
+-   Dem Chaser kann eine Bezeichnung zugeordnet werden: drücken Sie dazu
+    \[Set Legend\], und dann die **Swop**-Taste des Chasers, um dann,
+    wie auch bei Cues, die Bezeichnung einzugeben.
 
--   There is no limit to the number of steps in a chase.
+-   Chaser können aus einer unbegrenzten Anzahl von Schritten bestehen.
 
-Creating a Chase with Quick Build
----------------------------------
+Einen Chaser mit Quick Build erstellen
+--------------------------------------
 
-Quick Build mode, as the name suggests, allows you to build a chase very
-quickly from existing palettes and playbacks.
+Mit Quick Build kann man, wie der Name schon vermuten lässt, sehr rasch
+einen Chaser aus bestehenden Cues und Paletten erstellen.
 
-Start recording a chase as described in the previous section, set
-\[Record Mode\] to Quick Build.
+Beginnen Sie wie oben beschrieben, einen Chaser zu programmieren, und
+setzen Sie den \[Record Mode\] auf ‚Quick Build'.
 
-Select any [palette](../palettes.md) or playback to insert that item as a step in the
-chase. If you select multiple palettes by selecting a range of buttons,
-each palette will be added as a separate step.
+Wählen Sie nun einen Cue oder eine [Palette](../palettes.md) aus, um einen Schritt zu
+erstellen. Werden mehrere Cues/Paletten ausgewählt, so wird jeweils ein
+neuer Schritt angefügt.
 
-To insert specific fixtures from a palette or playback, select the
-fixtures first and then select the palette or playback.
+Um nur ausgewählte Geräte aus einer Palette oder einem Playback zu
+verwenden, wählen Sie zunächst die Geräte aus, und klicken dann auf die
+Palette/das Playback.

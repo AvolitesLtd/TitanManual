@@ -5,5 +5,11 @@ sidebar_label: Controlling Dimmers and Fixtures
 original_id: controlling-dimmers
 ---
 
-When you are programming a show, and sometimes when you are running a show, you need to manually control the fixtures and dimmers to set the intensity, position, colour, etc. To do this you first select the fixtures you want to change using the select buttons, then you set the attributes of those fixtures using the Wheels and Attribute buttons.
-You can also set fade/timing information for each attribute of each fixture which is treated as an additional attribute of the fixture.
+Beim Programmieren einer Show, aber auch später beim Showablauf, müssen
+die Attribute der einzelnen Geräte, wie Helligkeit, Farbe, Position
+etc., eingestellt werden. Dazu wählt man zunächst die betreffenden
+Geräte an, und kann dann die Attribute und Parameter mit den Rädern und
+Attribut-Tasten beeinflussen.
+
+Ebenso lassen sich Überblendzeiten für jedes Attribut und jedes Gerät
+vorgeben und als zusätzliche Information speichern.

@@ -5,157 +5,169 @@ sidebar_label: Chase Playback
 original_id: chase-playback
 ---
 
-Playing Back a Chase
---------------------
+Abrufen eines Chasers
+---------------------
 
-To fire a chase, raise the fader of the playback. *(You can also use the
-**Flash** / **Swop** buttons)*. The chase will start to run. The bottom line of the
-screen relating to the playback fader shows the current cue number and
-speed of the chase.
+Zum Starten eines Chasers bewegen Sie den entsprechenden Regler nach
+oben *(oder Sie verwenden die **Swop** / **Flash**-Tasten)*. Der Chaser
+beginnt daraufhin zu laufen. Am unteren Rand des Bildschirms oberhalb
+des jeweiligen Reglers wird die Nummer des aktuellen Schritts sowie die
+Geschwindigkeit angezeigt.
 
 ![Chase playing on a playback](/docs/images/Chase-playing-on-a-playback.png)
 
-> The HTP (intensity) channels in the chase will be controlled by the
-    fader; if [fade times](chase-timing.md) are programmed, the fade will stop at the fader
-    level. The other channels (LTP) will be set as soon as the fader
-    moves above zero according to the fade times programmed in the
-    chase. You can set the point at which the LTP channels activate from
-    the [User settings](../system-settings/user-settings.md) menu.
 
-While the chase is running, the area of the screen above the wheels
-shows details of the chase steps:
+>   Die HTP-Kanäle (Helligkeit) werden durch den Fader gesteuert; sind
+    [Einblendzeiten](chase-timing.md) programmiert, so endet das Einblenden 
+	mit Erreichen des mit dem Fader eingestellten Werts. Die anderen (LTP-) Kanäle
+    beginnen mit ihrem Einblenden (abhängig von den gewählten Zeiten),
+    sobald der Regler über 0 bewegt wird.
+
+Bei einem aktiven Chaser werden im Display oberhalb der Räder
+Details der einzelnen Schritte angezeigt.:
 
 ![Connected chase with speed and crossfade controls](/docs/images/Connected-chase-with-speed-and-crossfade-controls.png)
 
-You can temporarily pause the chase by pressing the \<Stop\> button near
-the wheels. Press \<Go\> to resume playback.
+Der Chaser lässt sich mit der \<Stop\>-Taste rechts neben den Rädern
+vorübergehend anhalten. Drücken Sie \<Go\>, um den Chaser fortzusetzen.
 
-There are [many options](chase-options.md) you can set to determine the way the chase runs
-and these are described in the rest of this chapter.
+Mit einer [Vielzahl von Optionen](chase-options.md) lässt sich das Verhalten 
+von Chasern beeinflussen; diese werden im Rest dieses Kapitels erklärt.
 
-Connecting a Chase for Control
-------------------------------
+Verbinden eines Chasers mit der Steuerung
+-----------------------------------------
 
-When you fire a chase, the wheels and \<Stop\>/\<Go\> buttons are automatically
-allocated to control the speed and crossfade of the chase - this is
-called **connecting** the chase. If you have more than one chase running,
-you can choose which chase is connected to the controls using the
-\<Connect\> button.
+Wird ein Chaser aufgerufen, so ist dessen Steuerung automatisch den
+Rädern (Geschwindigkeit, Überblendung) und \<Stop\>/\<Go\>-Tasten
+zugeordnet: dies nennt sich **Connect** (Verbinden) des Chasers. Ist mehr
+als ein Chaser aktiv, so lässt sich mit der \<Connect\>-Taste wählen,
+welcher davon mit den Rädern/Tasten beeinflusst werden soll.
 
--   Connect a different chase to the controls by pressing \<Connect\>
-    then the Swop button of the chase you want to control.
+-   Zum Verbinden eines anderen Chasers drücken Sie die Taste
+    \<Connect\>, und dann die **Swop**-Taste des gewünschten Chasers.
 
--   Disconnect a chase from the controls by double pressing \<Connect\>.
+-   Zum Lösen der Zuordnung drücken Sie die \<Connect\>-Taste zweimal.
 
--   You can turn off the **"Auto Connect"** option in the [User
-    Settings > Wheels menu](../system-settings/user-settings.md#auto-connect) if you don't want to connect to a chase when
-    you fire it. You will have to use the \<Connect\> button to control
-    the chase if you do this.
+-   Das automatische Verbinden lässt sich mit der Option **"Auto Connect"**
+    im Menü [User Settings > Wheels](../system-settings/user-settings.md#auto-connect) (Benutzereinstellungen)
+    abschalten, wenn dieses Verhalten nicht erwünscht ist. In diesem
+    Fall muss immer mit der \<Connect\>-Taste die Steuerung zugeordnet
+    werden.
 
--   There is a further option "Auto View on Connect" in the [User
-    Settings > Wheels menu](../system-settings/user-settings.md#auto-view-on-connect) which will automatically open the [view window](editing-a-chase.md#opening-a-chase-for-editing)
-    for a chase when you fire the playback. *This is useful to keep the
-    correct chase view open as you swap between chases.*
+-   Es gibt außerdem die Benutzereinstellung "Auto View On Connect" in [User
+    Settings > Wheels](../system-settings/user-settings.md#auto-view-on-connect). Ist
+    dies aktiviert, so wird beim Connecten mit einem Chaser direkt die
+    [Detailansicht (Playback View)](editing-a-chase.md#opening-a-chase-for-editing) 
+	für den Chaser geöffnet. *Dies ist besonders sinnvoll, wenn man 
+	zwischen mehreren Chasern hin- und herwechselt*.
 
-> Normally if you change the speed or crossfade of a chase, the new
-    setting is saved. However you can set this change to be temporary,
-    so that when the show is reloaded the speed and fade will go back to
-    the previously saved settings. Go to [User Settings](../system-settings/user-settings.md)
-    (\<Avo\> + \[User
-    Settings\], in the Times tab set the option **[Connected View Sets](../system-settings/user-settings.md#connected-view-sets)** to
-    **Temporary Speed**. You can still save a temporary speed by pressing
-    \[Save Temporary Speed\] in the Set Times menu.
+>   Normalerweise werden Änderungen von Geschwindigkeit und Überblendung
+    gespeichert. Dies lässt sich ändern, so dass solche Änderungen nur
+    vorübergehend wirksam sind und beim Neu Laden einer Show die
+    vorherigen Einstellungen wieder aktiviert werden. Dazu rufen Sie die
+    [User Settings](../system-settings/user-settings.md) auf (\<AVO\>-Taste + \[User Settings\]) und stellen auf dem Reiter Times **[Connected View Sets](../system-settings/user-settings.md#connected-view-sets)** auf **Temporary Speed**. Dessen ungeachtet lässt sich eine geänderte Geschwindigkeit 
+	explizit speichern: drücken sie dazu im Menü \[Set Times\] die Taste \[Save
+    Temporary Speed\].
 
-Setting Speed and Crossfade for a Chase
----------------------------------------
 
-The left wheel is assigned to control the speed of the chase it is
-connected to. The speed is shown in Beats Per Minute (BPM) on the
-display. You can also enter a speed from the keypad as described below.
-The last speed you set on the wheel is always remembered, you do not
-have to tell Titan to save it.
+Geschwindigkeit und Überblendung einstellen
+-------------------------------------------
 
-**Crossfade** is the "slope" between cues; with a crossfade of 0, the
-fixtures snap instantly to the next cue, but with a crossfade of 100,
-the fixtures spend the whole cue time fading to the next cue. With a
-crossfade of 50, the fixtures delay for half the cue time and fade for
-the other half of the time.
+Das linke Rad beeinflusst die Geschwindigkeit des verbundenen Chasers.
+Die Geschwindigkeit wird im Display in 'Beats Per Minute' (BPM)
+angezeigt. Ebenso lässt sich die Geschwindigkeit über die Zifferntasten
+eingeben (s.u.). Die zuletzt gewählte Geschwindigkeit wird automatisch
+gespeichert.
+
+**Crossfade** ist die Überblendung zwischen den einzelnen Schritten. Bei
+Crossfade = 0 werden die Geräte zwischen den einzelnen Schritten hart
+umgeschaltet, bei Crossfade = 100 erfolgt ein allmähliches Überblenden
+über die Gesamtdauer des Schrittes, und bei Crossfade = 50 bleiben die
+Geräte die Hälfte der Zeit auf den eingestellten Werten, und blenden die
+andere Hälfte auf die neuen Werte über.
 
 ![Chases crossfade diagram](/docs/images/Chases-crossfade-diagram.png)
 
-You set the crossfade and speed as follows:
+Überblendung und Geschwindigkeit werden wie folgt eingestellt:
 
-1. Press \[Edit Times\] from the top level menu then the **Swop** button of
-the chase.
+1. Wählen Sie \[Edit Times\] aus dem Hauptmenü, und drücken dann die
+**Swop**-Taste des Chasers.
 
-2. To set the **crossfade**, press \[Xfade\] and type the fade from **0 - 100**.\
-*0 = no fade (the chase will "snap"), 100 = max fade (the chase will
-move continuously from step to step).*
+2. Zum Einstellen der **Überblendung** drücken Sie \[Xfade\] und geben mit
+den Zifferntasten einen Wert von **0 ... 100** ein *(0 = hartes
+Umschalten, 100 = komplettes Überblenden etc., s.o.)*.
 
-3. To set the **speed**, press \[Speed\], type the new speed, then press
-\<Enter\>.\
-*The speed can be set in Beats Per Minute (BPM) or seconds
-depending in the [User Settings](../system-settings/user-settings.md).*
+3. Zum Eingeben der **Geschwindigkeit** drücken Sie \[Speed\], geben die
+gewünschte Geschwindigkeit ein, und drücken \<Enter\>. *Abhängig von den
+[Benutzereinstellungen](../system-settings/user-settings.md) kann die Geschwindigkeit in 'Beats Per Minute'
+(BPM) oder Sekunden eingegeben werden*.
 
-There are other options you can set for the chase from this menu
-including Fixture Overlap, which are described in the [Chase Timing](chase-timing.md).
+In diesem Menü lassen sich noch weitere Optionen einstellen, etwa das
+Geräte-Überlappen. Details dazu finden sich im Abschnitt [Zeiten bei Chasern](chase-timing.md).
 
-You can set individual times for each cue in a chase and unlink cues
-from each other so they wait for you to press the Go button. This is
-done using the [Playback View](editing-a-chase.md#opening-a-chase-for-editing),
-or the [\<Unfold\> function](editing-a-chase.md#editing-a-chase-using-unfold) which is
-described in [Editing a Chase](editing-a-chase.md).
+Für jeden Schritt lassen sich getrennte Zeiten vergeben, ebenso lässt
+sich die Schrittfolge unterbrechen, so dass der nächste Schritt auf das
+Betätigen der \<Go\>-Taste wartet. Beides erfolgt entweder in der
+Ansicht [Playback View](editing-a-chase.md#opening-a-chase-for-editing)
+oder mittels der [\<Unfold\>](editing-a-chase.md#editing-a-chase-using-unfold)-Funktion, siehe auch 
+[Editieren eines Chasers](editing-a-chase.md).
 
-You can select whether the chase speed is displayed in seconds or in
-Beats Per Minute (BPM). Press \<Avo\> and \[User Settings\], then press
-\[Tempo Units\] to set the option to \[Tempo Units Seconds\] or \[Tempo
-Units Beats Per Minute (BPM)\].
+Die Anzeige der Geschwindigkeit lässt sich zwischen Sekunden und Beats
+Per Minute (BPM) umschalten. Dazu drücken Sie \<AVO\> + \[User
+Settings\], und wählen dann mit der Option \[Tempo Units\] zwischen
+\[Tempo Units Seconds\](Sekunden) und \[Tempo Units Beats Per Minute
+(BPM)\].
 
-You can also allocate a [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters)
-to the chase which will allow you
-to modify the chase speed during playback, see
-[Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
+Ferner lässt sich der Chaser einem [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters) zuordnen; 
+dies erlaubt es, direkt während der Show die Geschwindigkeit zu steuern. 
+Siehe auch [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
 
-Manually Controlling the Steps of a Chase
------------------------------------------
+Manuelle Steuerung der Schritte
+-------------------------------
 
-You can pause a chase, if the chase is connected to the wheels, by
-pressing the \<Stop\> button next to the wheels. Press the red \<Go\> button
-to resume playback of the chase.
+Ein verbundener Chaser lässt sich mit der \<Stop\>-Taste (neben den
+Rädern) anhalten, und mit der \<Go\>-Taste fortsetzen.
 
-While the chase is stopped you can use the \<Prev Step\>/\<Next Step\>
-buttons *(← and → on some consoles)* next to the \<Connect\> button to
-move to the next or previous step. The programmed fade time will be used
-when moving between steps, unless you enable the [user setting \[Chase
-Snap\]](../system-settings/user-settings.md#chase-snap), or press \<Snap\> button if the console has one.
+Ist ein Chaser angehalten, so lässt sich mit den Pfeiltasten (\<←\> und
+\<→\> bzw. \<Prev. Step\>/\<Next Step\>) bei der \<Connect\>-Taste der
+nächste/vorherige Schritt wählen. Dabei erfolgt das Überblenden jeweils
+in der eingestellten Zeit, es sei denn die [Benutzereinstellung \[Chase
+Snap\]](../system-settings/user-settings.md#chase-snap) wird aktiviert oder man verwendet die Taste \<Snap\> (sofern
+vorhanden).
 
-You can also configure the blue and grey buttons of the playback handle
-to be Stop and Go. This uses the [Key Profiles function](../system-settings/key-profiles.md).
+Ebenso lassen sich die blaue und die graue Taste des Handles mit den
+Funktionen 'Stop' und 'Go' belegen; dazu dient die Funktion [Key
+Profiles (Tastenbelegungen)](../system-settings/key-profiles.md).
 
-1. Hold \<Avo\> and press \[Edit Current Key Profile\].
+1. Halten Sie \<AVO\> gedrückt und drücken Sie \[Edit Current Key
+Profile\].
 
-2. If you are using the default [Key Profile] which is not editable, you
-will be prompted to add a new profile.
+2. Verwenden Sie momentan eines der nicht editierbaren Vorgabeprofile,
+so werden Sie zum Anlegen eines neuen aufgefordert.
 
-3. Press \[Chases\] then choose either the Blue key or the Grey key.
+3. Drücken Sie \[Chases\], und wählen dann entweder die blaue oder die
+graue Taste.
 
-4. Select \[Go\] or \[Stop\] from the list of functions. Then press \<Exit\>
-and set the function for the other key if required.
+4. Wählen Sie aus dem Funktionen-Menü entweder \[Go\] oder \[Stop\].
+Danach drücken Sie \<Exit\> und ändern ggf. noch die Funktion der
+anderen Taste.
 
-5. Press \<Exit\> to continue using the console.
+5. Drücken Sie \<Exit\>, um zum normalen Programmiermenü
+zurückzukehren.
 
-Changing Chase Direction
-------------------------
+Ändern der Richtung eines Chasers
+---------------------------------
 
-The \<Prev Step\>/\<Next Step\> (← and → on some consoles) buttons next
-to \<Connect\> set the direction of the connected chase. *If fitted*, the
-↔ double-ended arrow button sets **bounce** mode where the chase will run to
-the end then reverse. The \<Review\> key sets the chase to **random**.
+Die Tasten \<Prev Step\>/\<Next Step\> (← und → auf manchen Pulten) 
+rechts neben der \<Connect\>-Taste bestimmen die Richtung des 
+verbundenen Chasers. Der Doppelpfeil \<↔\> (wenn vorhanden) steht dabei für
+**Hin und Her**: der Chaser läuft in einer Richtung bis zum Ende, dann
+wieder zurück zum Anfang, und so fort. Die Taste \<Review\> sorgt für
+einen **zufälligen** Ablauf. 
 
-Jumping to a Step
------------------
-
-You can jump directly to a step in a chase by pressing \<Connect\>, then
-typing in the desired step number, then pressing \<Enter\> or softkey A.
-Alternatively at the top level menu you can type the step number then
-press \<Connect\>.
+Direktanwahl eines Schrittes
+----------------------------
+Man kann direkt zu einem bestimmten Schritt in einem Chaser springen:
+drücken Sie dazu \<Connect\>, geben die gewünschte Schrittnummer ein,
+und drücken \<Enter\> oder Funktionstaste A. Alternativ geben Sie im
+Hauptmenü die Schrittnummer ein und drücken \<Connect\>.
