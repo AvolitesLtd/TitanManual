@@ -5,930 +5,979 @@ sidebar_label: Using the Select Buttons and Wheels
 original_id: using-the-select-buttons-and-wheels
 ---
 
-## Selecting Fixtures and Dimmers for Control
+## Dimmer und Geräte zum Steuern auswählen
 
-To select the fixtures or dimmer channels that you want to control, you
-use the Fixture Select buttons to select the fixtures into the Editor.
-You can select fixtures or dimmers individually, or several at once. You
-can also use [Groups](../controlling-fixtures/fixture-groups.md) to select multiple fixtures.
+Um die zu steuernden Geräte und Dimmer auszuwählen, betätigen Sie die
+entsprechenden Geräte-Buttons, womit die Geräte in den Editor geladen
+werden. Es lassen sich einzelne oder mehrere verschiedene Geräte auf
+einmal anwählen. Ebenso lassen sich Gruppen verwenden, um mehrere Geräte
+auf einmal anzuwählen, siehe [Gruppen](../controlling-fixtures/fixture-groups.md).
 
-If the fixture is patched on a fader handle, press the blue button to
-select the fixture.
+Ist das Gerät/der Dimmer auf einen Fader gepatcht, so drücken Sie die zugehörige blaue Taste, um die Auswahl vorzunehmen.
 
 ![Fixtures Window](/docs/images/Fixtures-Window.png)
 
-1. Press the Select buttons for the fixtures you want. Touch buttons
-will light up pale blue when selected, physical buttons will light
-brightly.
+1. Betätigen Sie die Buttons/Tasten der gewünschten Geräte. Die
+Schaltflächen erscheinen daraufhin hellblau, bei auf Tasten gepatchten
+Geräten leuchten die LEDs hell auf.
 
-2. To select a range of fixtures, slide your finger across the touch
-buttons to draw a selection box. For fixtures patched on faders, hold
-down the Select button for the first fixture then press the Select
-button for the last fixture.
+2. Um eine größere Zahl von Geräten auszuwählen, ziehen Sie mit dem
+Finger einen entsprechenden Auswahlrahmen. Bei Tasten halten Sie die
+erste gedrückt und betätigen dazu die letzte.
 
-Here are some other useful things to know:
+Ein paar weitere wissenswerte Dinge:
 
--   Press \<Locate\> to light up the selected fixtures in open white and
-    move them to a central position. Locate options are described in detail in the
-    [next section](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate).
+-   Die Taste \<Locate\> aktiviert die angewählten Geräte weiß (ohne
+    Farbe) und in Grundstellung (Pan und Tilt jeweils 50%). Weitere
+    Optionen dazu sind im [nächsten Abschnitt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate) erläutert.
 
--   You can deselect a fixture by pressing the select button again.
+-   Um ein Gerät aus der Auswahl zu entfernen, einfach die betreffende
+    Auswahltaste erneut betätigen.
 
--   In the top bar of the screen, the console will show you which
-    fixtures are currently selected.
+-   Oben am Touchscreen, direkt oberhalb der oberen Fenster, werden die
+    momentan angewählten Geräte angezeigt.
 
--   Press \<Clear\> (right of numeric keys) to deselect all fixtures and
-    remove all changes from the programmer. See the [next section](../controlling-fixtures/using-the-select-buttons-and-wheels.md#clearing-selection) for
-    more Clear options.
+-   Drücken Sie \<Clear\> (rechts vom Zifferntastenblock), um sämtliche
+    Geräte aus der Auswahl zu entfernen und sämtliche Änderungen aus dem
+    Programmierspeicher zu löschen. Weitere Optionen dazu sind im
+    [nächsten Abschnitt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#clearing-selection) erläutert. 
 
--   Once you have changed any attribute, pressing a Select button will
-    deselect all fixtures and start the selection process again. All
-    previously selected fixtures (since you last pressed \<Clear\>) stay
-    in the programmer. Once a fixture has been edited, Fixture buttons
-    show a darker blue. The picture above shows the first two fixtures
-    selected, with the second three in the programmer and the others
-    unselected.
+-   Sobald ein Attribut verändert und wieder eine Auswahltaste betätigt
+    wurde, werden sämtliche Geräte aus der Auswahl entfernt, und der
+    Auswahlprozess startet von neuem. Alle vormals angewählten Geräte
+    (seit der letzten Betätigung von \<Clear\>) verbleiben im
+    Programmierspeicher. Sobald ein Gerät editiert wurde, erscheint die
+    betreffende Schaltfläche in Dunkelblau. Im obigen Bild sind die
+    ersten beiden Geräte angewählt, die folgenden drei im
+    Programmierspeicher, und alle anderen nicht angewählt oder editiert.
 
--   You can select fixtures on another page by touching one of the page
-    buttons to the left of the fixture buttons, if you have \'Pages\'
-    set to Show (using the context button). Otherwise you can use the
-    scroll slider to show more buttons. On fader handles, Page buttons
-    are provided to change pages -- on the Pearl Expert these are above
-    the numeric keypad, on other consoles they are next to the faders.
+-   Zur Auswahl von Geräten auf weiteren Seiten der Geräte-Auswahlliste
+    kann man entweder mit den \'Page\' (Seiten)-Tasten links der
+    Gerätetasten die Seiten umschalten, oder (sofern die \'Page\'-Tasten
+    per Kontext-Taste ausgeblendet sind) mit dem Schiebe-Reiter durch
+    die Liste navigieren. Für Fader/Tasten gibt es getrennte tasten für
+    die Seitenumschaltung: beim Pearl expert sind dies die vier Tasten
+    oberhalb des Ziffernblocks, bei den anderen Pulten die Tasten oder
+    Buttons Page+/Page- bei den Fadern.
 
--   Using [Key Profiles](../system-settings/key-profiles.md) you can set the
-    fixture touch button to latch mode so that it turns the fixture's
-    dimmer channel on (like putting a preset fader to full).
+-   Mit den [Tastenprofilen](../system-settings/key-profiles.md) lässt sich
+    die Geräte-Auswahltaste in den Einrast-Modus ('latch mode')
+    umschalten, so dass damit der Dimmerkanal des betreffenden Gerätes
+    geschaltet wird (gleiches Ergebnis wie Setzen des Faders auf 100%).
 
-## Setting Fixtures to a Start Position (Locate)
+## Geräte auf Startposition setzen (Locate)
 
-The \<Locate\> button is used to put the fixture into a known position
-with light coming out, so that you can start programming it.
+Die Taste \<Locate\> (unten rechts auf dem Pult) versetzt die
+angewählten Geräte in eine definierte Ausgangsposition mit \'Licht an\',
+um den Start des Programmierens zu vereinfachen.
 
-A quick press of the button will move all selected fixtures to a central
-position and reset all the attributes so that you get a white light.
-However you sometimes might not want to move the fixture, or may want to
-keep some other attributes unchanged. By holding down the \<Locate\>
-button rather than a quick press, you get some more options
+Ein einfaches Betätigen der Taste bewegt alle Geräte auf \'Mitte\' (50%
+Pan/Tilt) und setzt sämtliche Attribute zurück, resultierend in einfach
+weißem Licht. Dennoch ist es zuweilen wünschenswert, etwa die Geräte
+dabei nicht zu bewegen oder andere Attribute unverändert zu lassen. Dazu
+erscheinen sinnvolle Optionen, wenn man die \<Locate\>-Taste nicht einfach
+kurz drückt, sondern gedrückt hält.
 
--   You can mask off some of the Locate settings (such as only turning
-    the fixture on, but not changing its position or colour) by holding
-    down \<Locate\> and pressing \[Set Mask to Exclude All\]. Then
-    (still holding \<Locate\>) turn on the Attributes you want to change
-    using the Attribute buttons. Only the lit attributes will be changed
-    by Locate. Pressing the \<Options\>/\<Attribute Options\> button
-    will clear the mask.
+-   Sie können einige der \'Locate\'-Funktionen maskieren (z.B. nur \'das
+    Licht einschalten\', ohne Position oder Farbe zu verändern), indem
+    bei gedrückter \<Locate\>-Taste die Funktion \[Set Mask to Exclude
+    All\] gewählt wird. Darauf - bei noch gedrückt gehaltener
+    \<Locate\>-Taste - schalten Sie die einzelnen Attribute, die Sie
+    auf Startposition haben wollen, mittels der Attribut-Tasten ein. Nur
+    die so angewählten Attribute werden nun bei 'Locate' zurückgesetzt.
+    Ein Druck auf \<Attribute Options\> löscht wiederum die Maskierung.
 
--   Option \[Auto Reset Mask\] sets the mask to be automatically reset
-    to include everything each time Locate is pressed, or you can toggle
-    the option to \[Remember Mask\] which will keep the mask setting you
-    used last time.
+-   Die Option \[Auto Reset Mask\] löscht die Maskierung automatisch, so
+    dass bei jedem \'Locate\'-Vorgang wieder sämtliche Attribute
+    beeinflusst werden. Alternativ bestimmt die Option \[Remember
+    Mask\], dass die Maskierung erhalten bleibt.
 
--   Option \[Clear/Don't Clear Located Attributes\] sets whether the
-    attributes changed by the Locate function will be saved into any
-    cues you store. If the option is set to "Clear" then the Located
-    attributes will not be stored in the Programmer unless you modify
-    them using the wheels. This is useful if for example you want to
-    program a cue which sets the position of fixtures, but does not turn
-    them on. The \<Locate\> button will light up the fixtures for
-    programming, but the lit state will not be stored in any cues you
-    save.
+-   Die Option \[Clear/Don\'t Clear Located Attributes\] bestimmt, ob die
+    durch \<Locate\> gesendeten Werte beim Speichern mit übernommen
+    werden sollen. Steht die Option auf \'Clear\', so werden die Werte
+    nicht mit übernommen, sofern sie nicht manuell (etwa mit den Rädern)
+    verändert wurden. Das ist zweckmäßig etwa, wenn Sie einen Cue nur
+    mit einer Position erstellen möchten. Die Taste \<Locate\> wird dann
+    zwar die Geräte zum Programmieren \'anschalten\', aber die Information
+    \'Licht an\' wird nicht mit abgespeichert.
 
-> To quickly locate without changing pan/tilt, hold \<Locate\> and press the Pan/Tilt (or Position) button, then release \<Locate\>.\
->
-> To quickly locate pan/tilt only, hold \<Locate\>, press \<Options\> (\<Attribute Options\> on some consoles), then press \<Position\> (\<Pan/Tilt\> on some consoles), then release \<Locate\>.
+> Um schnell zu \'Locaten\', **ohne Pan/Tilt zu verändern**, drücken und halten Sie \<Locate\>, drücken dazu \<Pan/Tilt\> und lassen nun \<Locate\> los.
+
+> Um **nur Pan/Tilt zu locaten**, drücken und halten Sie \<Locate\>, drücken dazu \<Attribute Options\>, drücken dann \<Pan/Tilt\>, und lassen nun \<Locate\> los.
 
 
-### Changing the Locate State
+### Ändern des Locate-Wertes
 
-You can change the default locate state of each fixture in a show by
-recording a new Locate State. This can be shared (you set the values for
-one fixture, and then it applies to all fixtures of the same type) or
-individual (you can set different values for each individual fixture).
-To store, set up the desired locate state on the fixture(s) you want to
-change, then press \<Record\>, then \<Locate\>. Select \[Shared\] or
-\[Individual\] from the softkeys. Press \<Record\> or \<Locate\> a
-second time to confirm.
+Ebenso können Sie den Locate-Wert des Gerätes für die betreffende Show
+ändern, und zwar entweder für das eine angewählte Gerät, oder für alle
+Geräte dieses Typs. Stellen Sie dazu den gewünschten Wert für das
+entsprechende Gerät ein, drücken Sie \<Record\>, dann \<Locate\>.
+Wählen Sie nun \[Shared\] (gemeinsam = alle Lampen dieses Typs) oder
+\[Individual\] (nur einzelne Geräte). Drücken Sie schließlich nochmals
+\<Record\> oder \<Locate\>.
 
-## Clearing Selection
+## Clear -- Löschen der Auswahl
 
-The \<Clear\> button (on the right of the numeric keypad) is used to
-remove all changes from the Programmer and deselect all fixtures. A
-quick press of the \<Clear\> button just clears everything, however if
-you hold down the \<Clear\> button, then more options are available.
+Die Taste \<Clear\> (rechts vom Zifferntastenblock) löscht sämtliche
+Änderungen aus dem Programmierspeicher sowie die aktuelle Geräteauswahl.
+Ein einfaches Betätigen der Taste löscht einfach alles, hält man die
+Taste \<Clear\> hingegen gedrückt, erscheinen folgende Optionen:
 
--   You can mask which attributes are to be cleared (for example,
-    leaving the pan/tilt in the programmer but clearing everything else)
-    by holding down \<Clear\> and pressing \[Set Mask to Clear
-    Nothing\]. Then (still holding \<Clear\>) turn on the Attributes you
-    want to change using the Attribute Bank buttons down the right hand
-    side, or press \[Set Mask\] and use the softkeys. Only the lit
-    attributes will be cleared. Pressing the \<Options\>/\<Attribute
-    Options\> button will clear the mask. The Time mask option allows
-    you to clear or retain the fade/delay times in the programmer for
-    all attributes (clearing individual attributes will also clear times
-    for that attribute, for example setting a P mask will clear position
-    times).
+-   Es lassen sich einzelne Attribute zum Löschen maskieren (etwa: die
+    Position im Programmierspeicher belassen, aber alles andere
+    löschen); dazu bei gedrückter \<Clear\>-Taste die Option \[Set Mask
+    to Clear Nothing\] wählen. Darauf (noch immer \<Clear\> gedrückt
+    halten) lassen sich mit den Attribut-Tasten die zu löschenden
+    Attribute einzeln wählen, oder Sie wählen \[Set Mask\] und benutzen
+    die Kontext-Tasten. Nun werden nur die angezeigten Attribute
+    gelöscht. Ein Druck auf die Taste \[Attribute Options\] bzw. \[Options\]
+	wiederum löscht die Maskierung. Mit der Option „Time Mask" kann man
+    einstellen, ob die Fade-/Delayzeiten im Programmierspeicher für alle
+    Attribute ebenfalls gelöscht oder aber beibehalten werden sollen
+    (werden einzelne Attribute gelöscht, so werden auch die Zeiten für
+    die jeweiligen Attribute gelöscht; setzt man also die Maske auf P,
+    so werden die Zeiten für Pan/Tilt gelöscht).
 
--   Hold \<Clear\> and press \<All\> to deselect all fixtures, but leave
-    the changes in the programmer.
+-   Hält man \<Clear\> gedrückt und betätigt dazu \<All\>, so werden
+    alle Geräte deselektiert, aber die Werte verbleiben im
+    Programmierspeicher.
 
--   \[Clear Options\] opens a submenu showing some further options
-    (described below).
+-   \[Clear Options\] öffnet ein Untermenü mit weiteren, im Folgenden
+    beschriebenen Optionen.
 
--   \[Clear All Fixtures/Selected Fixtures\] sets whether all fixtures
-    will be cleared from the programmer, or if only currently selected
-    fixtures will be cleared. This is useful if you want to clear
-    specific fixtures.
+-   Mit \[Clear All Fixtures/Selected Fixtures\] bestimmen Sie, ob
+    sämtliche, oder nur die aktuell ausgewählten, Geräte aus dem
+    Programmierspeicher gelöscht werden sollen.
 
--   \[Individual Attributes\] allows you to clear individual attributes
-    from the Programmer. When you press the softkey, you are given a
-    list of attributes in the Programmer -- press the appropriate
-    softkey to clear that attribute.
+-   \[Individual Attributes\] erlaubt das Löschen einzelner Attribute
+    aus dem Programmierspeicher. Beim Betätigen dieser Taste erhalten
+    Sie eine Liste der aktuell im Programmierspeicher vorhandenen
+    Attribute, die sich mit der jeweiligen Taste einzeln löschen lassen.
 
--   \[Clear All Programmers\] will clear all programmers that are
-    currently active on the console, including Multi-user programmers
-    from other users, and the Titan Remote programmer.
+-   \[Clear All Programmers\] löscht alle zurzeit verwendeten
+    Programmierspeicher. Dies betrifft insbesondere Werte, die mit der
+    Remote, von einem anderen Pult/User in einer Multiuser-Session sowie
+    beim Erstellen von Keyframe-Shapes gesetzt wurden.
 
-The options in the "Clear Options" submenu are:
+Optionen im Untermenü "Clear Options":
 
--   \[Auto Reset Mask\] sets the mask to be automatically reset to clear
-    everything each time Clear is pressed, or you can toggle the option
-    to \[Remember Mask\] which will keep the mask setting you used last
-    time.
+-   \[Auto Reset Mask\] setzt die Maskierung bei jedem Betätigen der
+    'Clear'-Taste automatisch zurück. Alternativ bestimmt \[Remember
+    Mask\], dass die Maskierung erhalten bleibt.
 
--   \[Leave/Zero Preset Fader Levels\] is used to set whether latched
-    fixtures are cleared (the [fixture key profile](../system-settings/key-profiles.md#creating-and-editing-key-profiles) can be set to "Latch"
-    mode, which turns on the fixture dimmer channel when the fixture
-    button is touched.)
+-   \[Leave/Zero Preset Fader Levels\] bestimmt, ob Faderwerte von
+    Geräten mit \<Clear\> auf 0 gesetzt werden sollen oder nicht. (Das
+    Tastenprofil der Geräteauswahl lässt sich auf 'Einrasten' (Latch)
+    stellen, womit der Dimmerkanal des Gerätes eingeschaltet wird,
+    sobald das Gerät angewählt wird, siehe [Key Profiles](../system-settings/key-profiles.md#creating-and-editing-key-profiles)).
 
--   \[Freeze current values\] sets what happens to LTP (non-intensity)
-    channels you have modified. If set to \[Freeze Current Values\] the
-    channels remain as you set them. If set to \[Release To Playback
-    Values\] the channels will go back to how they are set in the
-    current playback. For example: you have an active playback making
-    some lights green, then you select the lights and change them to
-    red. If you press Clear with this option set to \[Freeze\] then the
-    lights remain red. If the option is \[Release\] the lights will go
-    back to green.
+-   Mit \[Freeze current values\] lässt sich festlegen, was mit
+    LTP-Kanälen (nicht Helligkeit) geschieht, deren Wert modifiziert
+    wurde. Steht diese Option auf \[Freeze Current Values\], so behalten
+    diese Kanäle die gewählten Werte. Steht die Option auf \[Release To
+    Playback Values\], so werden die Kanäle auf die Werte der aktuell
+    laufenden Cues zurückgesetzt. Beispiel: wird ein Cue aufgerufen, in
+    dem einige Geräte grün abgespeichert sind, und nun manuell deren
+    Farbe auf Rot geändert, so werden diese bei \'Clear\' und der Option
+    \[Freeze\] rot bleiben; ist hingegen die Option \[Release\]
+    angewählt, so werden die Geräte zum gespeicherten Grün
+    zurückgesetzt.
 
--   \[Clear/Maintain Cue Times\] - determines whether or not to clear
-    the cue time information from the programmer (this will not affect
-    fixture attribute times in the programmer).
+-   \[Clear/Maintain Cue Times\] bestimmt, ob Cue-Zeiten im
+    Programmierspeicher gelöscht oder aber beibehalten werden (dies ist
+    unabhängig von Attributzeiten im Speicher).
 
-You can use the [Channel Grid](../controlling-fixtures/viewing-and-editing-fixture-values.md#the-channel-grid-window) window to selectively view and remove
-attributes from fixtures.
+Mit dem Fenster [Channel Grid](../controlling-fixtures/viewing-and-editing-fixture-values.md#the-channel-grid-window) können einzelne Attribute einzelner
+Geräte selektiv gelöscht werden.
 
-> If you type a number then press \<Clear\>, HTP values in the programmer will fade out over that time, for example 5 \<Clear\> would fade over 5 seconds. This can be very useful if you are trying to be subtle when making changes during a show.
+> Geben Sie mit den Zifferntasten eine Zahl ein und drücken dann \<Clear\>, so faden im Programmer befindliche HTP-Werte in dieser Zeit (in Sekunden) aus. Gibt man etwa 5 ein und drückt \<Clear\>, so wird in 5 Sekunden ausgefadet. Damit kann man unauffällig mit dem Programmer arbeiten.
 
-## Fixtures with Multiple Cells/Sub-Fixtures
+## Geräte mit mehreren Zellen/Subfixtures
 
-If a fixture has multiple cells of control (for example an RGB LED
-batten) and its personality supports it, you can select and control the
-fixture either as a whole or as independent cells. This is particularly
-useful when using Shapes or the Pixel Mapper.
+Verfügt ein Gerät über mehrere einzeln steuerbare Bereiche (z.B.
+LED-Bars) und ist die Personality entsprechend angepasst, so kann man
+wahlweise das gesamte Gerät oder einzelne Zellen steuern. Dies empfiehlt
+sich besonders bei Verwendung von Shapes sowie dem Pixelmapper.
 
-If you select the fixture using the handle it is patched on, all cells
-of the fixture will be controlled together.
+Wird das Gerät mit der Schaltfläche angewählt, auf die es gepatcht
+wurde, so werden alle Zellen synchron gesteuert.
 
-You can use the buttons which appear at the top of the attribute editor
-window to select the main fixture, or individual cells for control (use
-the \[Open Workspace Window\] softkey to open the Attribute Editor
-window).
+Um auf die einzelnen Zellen zuzugreifen, können Sie die entsprechenden
+Reiter oben im Attribut-Editor verwenden, wobei der ganz linke Reiter
+das Gesamtgerät steuert und daneben Reiter für die einzelnen Zellen sind
+(zum Öffnen des Attribut-Editors verwenden Sie z.B. den vorgegebenen
+Workspace oder drücken \[Open Workspace Window\] und wählen den
+Attribut-Editor).
 
 ![Cell Selection](/docs/images/Cell-Selection.png)
 
-You can also use \<Unfold\> to expand the cells onto individual select
-buttons. In the Fixtures workspace, the current page of fixtures will be
-replaced by select buttons for each individual fixture cell. On fader
-handles, the unfolded fixture cells will start at handle 1.
+Ebenso können Sie dazu die Unfold-Funktion verwenden: drücken Sie
+\<Unfold\> und dann die entsprechende Geräteschaltfläche. Daraufhin
+werden im Gerätefenster Schaltflächen für die einzelnen Zellen
+angezeigt. Verwenden Sie dies auf Geräten auf Fadern/Tasten, so werden
+die Zellen ab Fader 1 eingeblendet.
 
-There are two ways to unfold fixture cells:
+Es gibt zwei Möglichkeiten für Unfold:
 
--   Press \<Unfold\> then select range of fixtures. The cells will
-    immediately appear on the handles.
+-   Drücken Sie \<Unfold\> und wählen Sie mehrere Geräte aus. Die
+    entsprechenden Schaltflächen für die Zellen erscheinen sofort im
+    Gerätefenster.
 
--   Select fixtures, press \<Unfold\>, then press \[Selected Fixtures\].
-    This method allows for non-consecutive fixtures to be unfolded.
+-   Wählen Sie die Geräte aus und drücken Sie \<Unfold\>. Wählen Sie nun
+    \[Selected Fixtures\]. Dies bietet sich insbesondere für mehrere
+    nicht unmittelbar aufeinander folgende Geräte an.
 
-To go back to normal, press \<Unfold\> then \[Exit Unfold\].
+Um in die normale Anzeige zu wechseln, wählen Sie \<Unfold\>, dann
+\[Exit Unfold\].
 
-You can also use the numeric keypad to quickly select cells. The syntax
-is as follows: (\<THRO\> is called Through on some consoles)
+Einzelne Zellen lassen sich auch über eine spezielle Syntax mit den
+Zifferntasten auswählen (\<THRO\> ist auf manchen Pulten \'Through\'):
 
-  .            all sub fixtures of selection                    
+| Tasten                                         | Auswahl                                                 |
+|------------------------------------------------|---------------------------------------------------------|
+| \<.\>  	                                     | Alle Zellen der gewählten Geräte                        |
+| **n** \<.\>                                    | Alle Zellen von Gerät **n**                             |
+| \<.\> \<THRO\> \<.\> **j**                     | Zellen 1 bis **j** aller gewählten Geräte               |     
+| **n** \<.\> \<THRO\>                           | Alle Zellen der Geräte ab Nr. **n** des jeweiligen Typs |
+| **n** \<THRO\> \<.\> **j**                     | Kurzform, s.o.                                          |
+| **n** \<.\> \<THRO\> **i**                     | Zellen 1 bis **i** von Gerät **n**                      |
+| \<.\> **m**          		                     | Zelle **m** aller ausgewählten Geräte                   |
+| **n** \<.\> \<THRO\> **i** \<.\> **j**         | Zellen 1 bis **j** der Geräte **n** bis **i**           |
+| \<.\> **m** \<THRO\>                           | Zellen ab **m** der gewählten Geräte                    |
+| **n** \<.\> **m**                              | Zelle **m** von Gerät **n**                             |
+| \<.\> **m** \<THRO\> \<.\> **j**               | Zellen **m** bis **j** aller gewählten Geräte           |    
+| **n** \<.\> **m** \<THRO\>                     | Zellen ab **m** des Gerätes **n**                       |
+| \<.\> **m** \<THRO\> **j**                     | Kurzform, s.o.                                          |
+| **n** \<.\> **m** \<THRO\> **i**               | Zellen **m** bis **i** von Gerät **n**                  |
+| **n** \<THRO\> **i** \<.\>                     | alle Zellen der Geräte **n** bis **i**                  |
+| **n** \<.\> **m** \<THRO\> **i** \<.\>         | Zellen ab **m** der Geräte **n** - **i**                |
+| **n** \<THRO\> **i** \<.\> **j**               | Zelle **j** der Geräte **n** - **i**                    |
+| **n** \<.\> **m** \<THRO\> **i** \<.\> **j**   | Zellen **m** - **j** der Geräte **n** - **i**           |
+| **n** \<THRO\> \<.\> **j**                     | Zellen 1 - **j** von Gerät **n**                        |
+| **n** \<.\> **m** \<THRO\> \<.\> **j**         | Zellen **m** - **j** von Gerät **n**                    |
 
-  n\.            all sub fixtures of fixture n
+-   Die Auswahl von Zellen kann als separate Gruppe gespeichert werden.
+    Damit können später verschiedene Zusammenstellungen von Zellen
+    aufgerufen werden, ohne jedes Mal den Attribut Editor oder Unfold
+    zu verwenden.
 
-  . \<THRO\> .j    sub fixtures 1j of all selected fixtures         
+## Einstellen von Attributen mit den Encodern
 
-  n\. \<THRO\>       all sub fixtures of fixture nlast consecutive of type
+"Attribute" sind die einzelnen Funktionen des Gerätes, wie Pan
+(Schwenken), Tilt (Neigen), Farbe, Dimmer etc. Wählen Sie die zu
+bearbeitenden Attribute mit den Attribut-Tasten, und stellen Sie den
+gewünschten Wert mit den Rädern ein. Die verfügbaren Attribute sind
+abhängig vom Gerätetyp. Dimmerkanäle besitzen nur das Attribut \'Dimmer\'.
 
-  n \<THRO\> .j      shorthand for above                              
+Attribute lassen sich ebenso mit den Schaltflächen 'IPCGBES' auf dem
+Touchscreen anwählen, und mit dem [Attribute Editor Fenster](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-editor-window) einstellen.
 
-  n\. \<THRO\> i     sub fixtures 1i of fixture n
+Auf dem Pearl Expert dienen je nach Benutzereinstellung die Encoder des
+Touchwings zum Einstellen der Attribute.
 
-  .m           sub fixture m of all selected fixtures           
+Jede einzelne Attribut-Taste kann mehrere Attribute steuern, von denen
+jedes einem Rad zugeordnet ist. Beim Sapphire Touch werden mit dem
+Trackball Pan und Tilt gesteuert; der äußere Ring dient der Steuerung
+von Tilt fein.
 
-  n\. \<THRO\> i.j   sub fixtures 1j of fixtures ni
+1. Nach der Anwahl der betreffenden Geräte betätigen Sie die Taste des
+einzustellenden Attributs.
 
-  .m \<THRO\>      sub fixtures mlast of all selected fixtures      
-
-  n.m            sub fixture m of fixture n
-
-  .m \<THRO\> .j   sub fixtures mj of all selected fixtures         
-
-  n.m \<THRO\>       sub fixtures mlast of fixture n
-
-  .m \<THRO\> j    shorthand for above                              
-
-  n.m \<THRO\> i     sub fixtures mi of fixture n
-
-  n \<THRO\> i.    all sub fixtures of fixtures ni                  
-
-  n.m \<THRO\> i.    sub fixture mlast of fixtures ni
-
-  n \<THRO\> i.j   sub fixture j of fixtures ni                     
-
-  n.m \<THRO\> i.j   sub fixtures mj of fixtures ni
-
-  n \<THRO\> .j    sub fixture 1j of fixture n                      
-
-  n.m \<THRO\> .j    sub fixtures mj of fixture n
-
--   Fixture cell selection can be saved as a group, this provides a
-    quick way to select cells / sub fixtures without having to use the
-    Attribute Editor or Unfold.
-
-## Changing Attributes Using The Wheels
-
-"Attributes" are the functions of the fixture, like pan, tilt, colour,
-dimmer, etc. You select which attributes you want to modify using the
-Attribute Bank buttons and set values using the wheels. The attributes
-available depend on the fixture type. Dimmer channels only have a dimmer
-attribute.
-
-You can also select attributes by touching the IPCGBES buttons on the
-touch screen, and modify them using the [Attribute Editor workspace
-window](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-editor-window).
-
-On the Pearl Expert the wheels on the Touch Wing are used instead of the
-wheels on the console, unless you change this using the User Settings.
-
-Each attribute button controls several attributes, one on each wheel. On
-Sapphire Touch the trackball always controls pan/tilt of the selected
-fixtures, with the ring controlling fine tilt.
-
-1. With some fixtures selected, press the button for the attribute to
-be changed
-
-2. Turn the wheels to set the attribute. The display above the wheels
-shows which attributes are being controlled, and the settings which are
-available scroll up and down as you turn the wheels.  
-You can also touch the roller image on the screen to change the
-attributes up or down by one. For continuously variable controls like a
-dimmer, touching the roller will set the attribute to full or zero.
+2. Benutzen Sie die Encoder, um den Wert des Attributs einzustellen.
+Das Display oberhalb der Räder zeigt, welche Attribute momentan
+gesteuert werden, und die verfügbaren Einstellungen lassen sich mit den
+Encoder durchschalten.\
+\
+Ebenso können die einzelnen Werte im 'Walzen'-Fenster des Touchscreens
+durchgeschaltet werden. Für stufenlos steuerbare Funktionen (etwa ein
+Dimmer) schaltet die Walze auf 100% bzw. 0.
 ![Wheels](/docs/images/Wheels.png)
 
-3. Repeat from 1 to change other attributes of the selected fixtures.
+3. Wiederholen Sie Schritt 1 und 2, um weitere Attribute der gewählten
+Geräte einzustellen.
 
-Some other things to know about attributes:
+Weitere wissenswerte Dinge zu Attributen:
 
--   If an attribute is in the programmer, it is highlighted (as shown
-    with the "Green" setting in the screen picture above). This provides
-    a quick way to see which attributes are in the programmer.
+-   Befindet sich ein Attribut im Programmierspeicher, so erscheint es
+    hervorgehoben (siehe 'Green' in obigem Bild). Dies ermöglicht einen
+    schnellen Überblick darüber, was momentan im Program­mierspeicher
+    ist.
 
--   You can also select the attribute to be changed from the softkeys by
-    pressing the "Attribute Options" button.
+-   Attribute lassen sich ebenso über die Menütasten (nach Betätigen von
+    \<Attribute Options\>) anwählen.
 
--   If the display above the wheels does not show the attribute when you
-    press the button, that attribute is not available on the selected
-    fixtures.
-
--   If the wheel display shows a small arrow next to the legends, this
-    means that there are further attributes to control. Press the
-    Attribute button again to toggle through the attributes.
+-   Wird das angewählte Attribut nicht im Display oberhalb der Räder
+    angezeigt, so ist es für die angewählten Geräte nicht verfügbar.
 
 ![Toggle Attributes](/docs/images/Toggle-Attributes.png)
 
--   The wheels operate in an "acceleration" mode. If you spin the wheel
-    fast, the fixture changes in larger steps. If you move the wheel
-    slowly, the fixture moves in its smallest increment.
+-   Erscheint im Display über den Rädern
+    ein kleiner Pfeil neben den Bezeichnern, so gibt es mehr als drei
+    Attribute zu steuern. Betätigen Sie dann den entsprechenden
+    Attribut-Taster erneut, um die gesteuerten Attribute umzuschalten.
 
--   Holding down the \<Avo\> button while turning a wheel puts the wheel
-    into "Fast" mode. When in this mode, a single rotation of the wheel
-    changes the attribute you are controlling over its full range. For
-    example, if while moving the Pan wheel you hold down \<Avo\> the
-    fixture will make a complete pan movement between end stops in one
-    rotation of the wheel.
+-   Die Räder arbeiten in einem \'Beschleunigungsmodus\'. Wird ein Rad
+    schnell bewegt, so folgt das Gerät schnell und in groben
+    Abstufungen. Wird es dagegen langsam bewegt, folgt das Gerät in
+    kleinstmöglichen Schritten.
 
--   Some LED colour mixing fixtures have a Virtual Dimmer function
-    (using the Intensity wheel) which offers intensity control by
-    mastering the RGB levels when the fixture itself does not provide an
-    intensity channel.
+-   Wird beim Drehen des Rades die \<AVO\>-Taste gedrückt, so arbeitet
+    das Rad im \'Schnell\'-Modus: eine Radumdrehung durchläuft den
+    gesamten Bereich des Attributes. Wird etwa bei gedrückter
+    \<AVO\>-Taste das Rad für Pan bewegt, so macht das Gerät bei einer
+    Radumdrehung einen kompletten Schwenk von einem Anschlag zum
+    anderen.
 
-## Attribute Wheel Display
+-   Für einige LED-Geräte mit Farbmischung gibt es eine \'virtuelle
+    Dimmerfunktion\', wenn das Gerät selbst über keinen Dimmer verfügt:
+    dazu wirkt das Intensity-Rad als Hauptregler für die einzelnen
+    Farben.
 
-The touch display above the wheels shows the attribute bank (Intensity,
-Position, Colour and so on) and the current values on the wheels.
+## Anzeige der Attributwerte
+
+Der Display-Bereich oberhalb der Encoder zeigt die Attribut-Bänke
+(Intensity, Position, Colour etc.) sowie die aktuellen Werte der mit den
+Encodern gerade verknüpften Attribute.
 
 ![Wheels](/docs/images/Wheels.png)
 
-Touch the IPCGBESFX attribute bank buttons to change to a different
-bank. You can also use the physical attribute bank buttons as usual. The
-current attribute bank is shown with a grey background.
+Um andere Attribute zu steuern, wählen Sie die entsprechende Bank mit
+einem Klick auf IPCGBESFX, oder wählen Sie die entsprechende Bank mit
+den richtigen Tasten. Die aktuelle Bank wird durch einen hellgrauen
+Hintergrund dargestellt.
 
-If attributes have been modified, the attribute button has a pale blue
-highlight.
+Wurden Attribute verändert, so wird die jeweilige Bank blau
+hervorgehoben.
 
-The Roller display shows the attributes available on each wheel. These
-may be shown as a percentage value, or named values for attributes with
-fixed positions such as a colour wheel. If the attribute has been
-modified, the current value in the programmer is highlighted in blue.
+Eine stilisierte Walze zeigt die auf jedem Rad möglichen Einstellungen,
+entweder als Wert (Prozent oder dgl.) oder - für feste Werte, etwa
+Farbräder - mit deren Bezeichnung. Wurde ein Attribut verändert, wird
+der jeweilige Wert hellblau hervorgehoben.
 
-You can touch the roller image to change the attribute to the
-next/previous value. For continuously variable controls like a dimmer,
-touching the roller will set the attribute to full or zero.
+Zum Ändern der Werte können Sie direkt auf den Bildschirm klicken: damit
+können feste Werte direkt angewählt werden; kontinuierliche Größen
+wechseln dabei etwa direkt zwischen 0 und 100% (Dimmer) oder 0, 50% und
+100% (Pan/Tilt).
 
-## Attribute Editor Window
+## Das Fenster \'Attribut-Editor\'
 
-For attributes with fixed values such as gobos and fixed colour wheels,
-the Attribute Editor window can be easier to work with than the wheels.
-It also offers a colour picker window for fixtures with RGB or CMY
-colour mixing.
+Für Attribute mit festen Werten wie Gobos oder Farbräder ist das Fenster
+'Attribut-Editor' ggf. besser geeignet als die Räder. Es bietet darüber
+hinaus einen Farbwähler für Geräte mit RGB- oder CMY-Farbmischung.
 
-Press \<View/Open\> then \[Open Workspace Window\] then \[Attribute
-Editor\] to show it. As a shortcut you can also show it by touching the
-attribute name text just below the on-screen IPCGBES buttons.
+Drücken Sie \[Open Workspace Window\], dann \[Attribute Editor\], um den
+Attribut-Editor einzublenden. Oder klicken Sie auf den Attribut-Namen
+direkt unterhalb der IPCGBES-Schaltflächen auf dem Display.
 
-The buttons on the left of the window select the attribute to change.
+Die Schaltflächen links im Fenster 'Attribut Control' wählen das zu
+ändernde Attribut.
 
 ![Attribute Editor](/docs/images/Attribute-Editor.png)
 
-The rest of the window contains buttons or controls to set the attribute
-value. For attributes such as gobos and fixed colours, a button is
-provided for each one, making selection a lot quicker than scrolling
-through on a wheel.
+Der übrige Bereich des Fensters enthält Schaltflächen und
+Steuerelemente, um den Attributwert einzustellen. Bei Attributen mit
+festen Werten (Gobos, Farben etc.) gibt es für jeden einzelnen Festwert
+eine Schaltfläche; dies ermöglicht eine deutlich schnellere Auswahl als
+mit den Rädern.
 
-When you apply an attribute, the button turns blue to show that the
-attribute is in the programmer. If you touch the button again, the
-attribute will be removed from the programmer.
+Beim Aufruf eines Wertes wird dessen Schaltfläche blau, um zu
+signalisieren, dass dieser Wert im Programmierspeicher ist. Ein erneutes
+Betätigen der Schaltfläche löscht diesen Wert aus dem
+Programmierspeicher.
 
-Touching the title of an attribute (such as "Gobo 2") expands the
-attribute to the full window, displaying more buttons as shown below.
-Gobo images will be shown if the fixture personality has the information
-included (not all do).
+Beim Anwählen des Titels einzelner Attribute (z.B. \'Gobo 2\') werden
+sämtliche Einstellmöglichkeiten dieses Attributs im gesamten Fenster
+angezeigt. Siehe nächstes Bild. Bilder der Gobos werden angezeigt,
+sofern die Personality die entsprechenden Informationen enthält.
 
 ![Gobo Selection](/docs/images/Gobo-Selection.png)
 
-If an attribute has a range of values, sliding your finger left and
-right on the button will show a horizontal slider which allows you to
-adjust the attribute.
+Für stufenlos einstellbare Attribute (z.B. Dimmer) erscheint ein Regler
+im Display, sobald die Schaltfläche gedrückt gehalten wird. Der Regler
+lässt sich einfach durch Bewegen des Fingers verstellen.
 
 ![Range slider](/docs/images/Range-slider.png)
 
-When the selected fixture has subfixtures or cells, buttons appear at
-the top of the attribute editor window allowing you to select the whole
-fixture (left hand button), or individual cells for control. The layout
-of the cell buttons matches the layout set in the pixel mapper to help
-you locate the correct cell on the fixture.
+Verfügt das gewählte Gerät über Teilgeräte (Subfixtures), so erscheinen
+oben im Attribut-Editor Schaltflächen zur Auswahl der einzelnen Zellen
+bzw. des Gesamtgerätes (links). Die Buttons der einzelnen Zellen werden
+in der Anordnung der wirklichen Zellen angezeigt.
 
 ![Cells](/docs/images/Cell-Selection.png)
 
-Some types of attribute have special displays as follows:
+Einzelne Attribute haben je nach Funktion gesonderte Anzeigen:
 
-### Intensity/Shutter
+### Dimmer/Shutter
 
 ![Intensity Shutter](/docs/images/Intensity-Shutter.png)
 
-Provides an easy slider for Dimmer, also buttons for 0%, 100%, up and
-down 5%, and intensity locate (affects only the intensity).
+Speziell unterteilter Fader und Buttons für 0%, 100%, +5%, -5% sowie
+Locate (nur Dimmer).
 
 ### Position
 
 ![Position](/docs/images/Position.png)
 
-Provides a way to set the position from the touchscreen using an X-Y
-grid. Positions of selected fixtures are shown as circles on the grid
-which is useful to check positioning or spacing of fixtures. Other
-controls are provided:
+Pan/Tilt-Steuerung per X/Y-Raster. Dabei werden die angewählten Geräte
+durch Kreis angezeigt, was die Steuerung vereinfacht. Weitere
+Steuerungmöglichkeiten:
 
--   Locate sets 50/50 position (other attributes not affected),
+-   Mit \[Locate\] wird die Position auf 50% Pan/50% Tilt gesetzt, ohne
+    andere Attribute zu verändern.
 
--   [Flip](../controlling-fixtures/using-the-select-buttons-and-wheels.md#flip) sets a moving head to its opposite yoke position.
+-   [Flip](../controlling-fixtures/using-the-select-buttons-and-wheels.md#flip) dreht
+    den Bügel von Movinglights in eine andere Position, wobei der gleiche Punkt     
+    anvisiert wird.
 
--   Align sets pan/tilt to match the settings in the programmer of the
-    most recently selected fixture. For example if you want to match the
-    tilt of 4 fixtures to the first fixture, select fixtures in the
-    order 2-3-4-1 and press \[Align\].
+-   Mit \[Align\] wird Pan/Tilt auf die Werte des zuletzt angewählten
+    Gerätes gesetzt. Möchte man z.B. alle angewählten Geräte auf den
+    Wert des ersten Gerätes bringen, so wählt man die Geräte in der
+    Reihenfolge 2-3-4-1 aus und klickt \[Align\].
 
--   Pan/Tilt lock buttons are helpful when setting positions of multiple
-    fixtures using the X-Y grid. For example if you have 10 pan-fanned
-    fixtures and you want to just move the tilt, select Pan lock.
-    Otherwise the fixtures will all move to the position you click on,
-    losing the fan effect.
+-   Mit Pan/Tilt Lock lässt sich die Bearbeitung mehrerer Geräte auf
+    einmal vereinfachen, indem entweder Pan oder Tilt kurzzeitig von der
+    Bearbeitung ausgenommen wird. Hat man z.B. die gerät in Pan
+    aufgefächert und will nur Tilt etwas nachziehen, so verhindert Pan
+    Lock, dass der bereits eingestellte Fächer verlorengeht.
 
--   Fine button switches to fine control mode for more precise
-    positioning.
+-   Mit dem Button \[Fine\] lässt sich die Auflösung verringern, so dass
+    man die gewünschte Position sehr genau ansteuern kann.
 
-### Colour mix: Channel
+### Farbmischung: Channel
 
-The Colour mix editor has 4 different ways of selecting colours, which
-are useful in different ways.
+Für Geräte mit Farbmischung gibt es mehrere Möglichkeiten, die Farbe
+einzustellen; diese sind in verschiedenen Reitern oben im
+Attribut-Editor zusammengefasst.
 
-![Colour Channels](/docs/images/attrib-editor-channel.png)
+![Attribute Editor - Colour Channels](/docs/images/Attribute-Editor-Channels.png)
 
-The **Channel** tab provides a colour picker, with a slider for each colour control channel 
-in the fixture. The
-sliders shown will vary depending on what is provided in the fixture -
-this example is an ETC Lustr fixture which has 7 independent LED emitter
-colours. This mode is useful to obtain colours such as tints of white or
-UV/Congo Blue which are hard to mix from a picker or colour wheel.
+Dieses Fadersystem bietet je einen Regler pro tatsächlich im Gerät
+vorhandenen Farb-Attribut; entsprechend hängt die Anzahl und Art der
+Fader vom gewählten Gerät ab (z.B. sieben Fader beim ETC Lustr). Dies
+bietet sich z.B. bei der gezielten Bearbeitung einzelner Farbtöne an,
+oder etwa dann, wenn man nur einzelne Kanäle (z.B. Weiß oder UV)
+speichern möchte.
 
-### Colour mix: HSI/RGB/CMY
+### Farbmischung: HSI/RGB/CMY
 
-![Colour Mix](/docs/images/attrib-editor-hsi.png)
+![Attribute Editor - Colour Mix](/docs/images/Attribute-Editor-HSI-RGB-CMY.png)
 
-HIS/RGB/CMY provides a colour wheel with interactive sliders for
-changing Hue/Saturation/Intensity, Red/Green/Blue, and
-Cyan/Magenta/Yellow. Changing any slider or clicking on the wheel will
-adjust all other sliders to match that colour, allowing you to make easy
-small adjustments of colour using whichever control is easiest; for
-example use the Saturation slider to create a pastel version of a colour
-without affecting the hue.
+HIS/RGB/CMY bietet sowohl den klassischen Colourpicker als auch Fader
+für die unterschiedlichen Farbmischsysteme, die sich sämtlich
+gegenseitig beeinflussen, abhängig davon, welchen Wert man gerade
+verändert. Klickt man in den Colourpicker, so werden alle Fader auf den
+für diese Farbe erforderlichen wert gesetzt. So lässt sich z.B. mittels
+Saturation eine Pastellfarbe erreichen, ohne den Farbton (Hue) zu
+verändern.
 
-All types of slider work for all fixtures, so a fixture with CMY mixing
-can still be controlled using the RGB or HSI sliders.
+Für Geräte mit Farbmischung funktionieren stets alle drei Fadersysteme
+parallel, unabhängig davon, nach welchem System genau das Gerät
+arbeitet.
 
-### Colour mix: Picker
+### Farbmischung: Picker
 
-![Colour Picker](/docs/images/attrib-editor-picker.png)
+![Attribute Editor - Colour Picker](/docs/images/Attribute-Editor-Picker.png)
 
-This is the classic colour picker from earlier versions of Titan which
-provides a picker for hue and saturation, with a slider on the right
-hand side to set the intensity.
+Dies ist der aus früheren Versionen gewohnte Colourpicker: in dem großen
+Feld lässt sich die gewünschte Farbe wählen (Hue und Saturation),
+während der Fader rechts daneben die Helligkeit (Intensity, I) regelt.
 
+### Farbmischung: Filters
 
-### Colour mix: Filters
+![Attribute Editor - Colour Filters](/docs/images/Attribute-Editor-Filters.png)
 
-![Colour Filters](/docs/images/attrib-editor-filters.png)
+Auswahl der Farbe nach Farbfilter-Nummer; dabei stehen die Systeme von
+Lee, Roscolux und GamColor zur Verfügung. Mit der Suchleiste oben im
+Fenster kann nach einer bestimmten Nummer gesucht werden. Per
+Kontext-Button kann zwischen \[Order Filters by Number\] (nach Nummer
+sortieren) und \[Order Filters by Hue\] (nach Farbton sortieren)
+umgeschaltet werden.
 
-Lets you pick a gel/filter colour from the Lee, Roscolux or GamColor
-ranges of filters. You can search for a particular colour by name or by
-number using the search bar. There is a context menu button to \[Order
-Filters by Number\] or \[Order Filters by Hue\].
+> Für Geräte mit RGBW, RGBA oder WW/CW-Steuerung steuert der Colourpicker auch die Kanäle für Weiß und Amber. Dies ist seit Titan Version 9 implementiert; in älteren Versionen müssen diese Attribute manuell eingestellt werden.
 
-> For LED fixtures with additional emitters for Warm/Cool white, Amber, UV, Lime or Cyan, Colour Mix will automatically control all the colour channels to obtain the colour. In versions previous to Titan v9 only RGB elements were controlled by the colour picker and other colours had to be set independently.
+### Medienserver/Active Fixtures
 
-### Media Servers/Active Fixtures
+Aktive Geräte (z.B. Medienserver) zeigen ein Vorschaubild des
+Video­clips auf der jeweiligen Schaltfläche. Dabei muss der Medienserver
+das Protokoll CITP unterstützen sowie als Aktives Gerät gepatcht sein,
+damit diese Vorschauen angezeigt werden können.
 
-Active fixtures such as media servers will display a thumbnail of the
-media clip in the button. The media server must support CITP and be
-patched as an active fixture for the thumbnails to work.
-
-For Ai media servers please see the [Synergy](../synergy.md) section for more details
-of how Synergy allows you to control the setup and media playback.
+Für Ai-Server und Synergy sei auf [Synergy](../synergy.md) verwiesen, wo
+Einrichtung und Verwendung ausführlich beschrieben sind. 
 
 ![Clip Selection](/docs/images/Clip-Selection.png)
 
-### Shutter Blades/Keystone
+### Shutterblenden/Keystone
 
-Fixtures which support keystoning or blades/shutters can be controlled
-graphically in the attribute window. Select and drag the corners or
-sides of the image to control the fixture. This control can have various
-different appearances depending on the control channels in the fixture.
+Geräte, bei denen man eine Kissenentzerrung (Keystoning) oder
+Blendenschieber per DMX steuern kann, lassen sich ebenfalls komfortabel
+per Attribut Editor steuern: ziehen Sie die Ecken bzw. Kanten auf dem
+Bildschirm einfach auf die gewünschte Position. Die genaue Darstellung
+und Funktionsweise hängt dabei vom jeweiligen Gerät ab.
 
-![Blades](/docs/images/attrib-editor-blade.png)
+![Attribute Editor - Blades](/docs/images/Attribute-Editor-Blades.png)
 
-> Updated personality files may be required to support the keystone/blade functions. If the functions are not shown in the Attribute View, try downloading and installing the latest personality file, then run the Update Patched Fixtures command.
+> Ggf. sind aktualisierte Personalities erforderlich, um die Keystone/Blendenschieber-Funktionalität zu nutzen.
 
-## Setting Attributes from the Softkeys
+## Direkte Eingabe für Attributwerte
 
-You can directly enter a numeric value for the attributes which are live
-on the wheels. You must be at the main Program menu to do this (keep
-pressing \<Exit\> until the vertical menu bar shows "Program Menu").
+Für aktuell den Rädern zugeordnete
+Attribute lassen sich direkt numerische Werte eingeben. Dazu müssen Sie
+sich im Hauptmenü befinden (drücken Sie \<Exit\>, bis die senkrechte
+Menüleiste 'Program Menu' anzeigt).
 
-Type a number on the numeric keypad then press one of the softkeys to
-set the value to the fixture. The Softkey legend will show what effect
-your value is going to have (such as \[Gobo 5\], or \[Deep Blue\]).
+Geben Sie mit den Zifferntasten eine Zahl ein und betätigen dann eine
+der Multifunktionstasten, um den Wert einem Attribut zuzuordnen. Die
+Beschriftung der Taste zeigt, wie der Wert vom Gerät dargestellt wird
+(z.B. \[Gobo 5\] oder \[Deep Blue\]).
 
 ![Attribute Softkey](/docs/images/Attribute-Softkey.png)
 
-For attributes displayed in percent, such as Dimmer, or Colour Mix, you
-enter a value from 0-100 to set the percentage output. For attributes
-where the output is divided up into ranges, such as colour wheels, you
-enter the index of the range you want. For example to select the 3rd
-colour (as displayed in the list above the wheel) you would enter 3.
+Für Attribute, deren Wert in Prozent dargestellt wird, wie etwa Dimmer
+oder Farbmischung, geben Sie einen Wert zwischen 0 und 100 ein, um den
+entsprechenden Prozentwert einzustellen. Für Attribute mit mehreren
+Festwerten, wie z.B. feste Farbräder, geben Sie den Index des
+gewünschten Wertes ein; um etwa die dritte Farbe des Farbrades
+anzuwählen (wie in der Liste über dem Rad angegeben), geben Sie eine 3
+ein.
 
-## Adjusting Attributes with the @ buttons
+## Eingeben von Attributwerten mit den @-Tasten
 
-Pressing the \<@\> button next to a wheel opens the Adjust Attribute
-Value menu for that attribute.
+Drückt man die \<@\>-Taste bei einem der Räder, so öffnet sich das Menü zum
+numerischen Eingeben der Attributwerte.
 
-You can also open this menu by touching the centre of the on-screen
-wheel view for the attribute, or by clicking on the attribute in the
-Channel Grid window.
+Dieses Menü lässt sich auch öffnen, indem man auf den mittleren Bereich
+der Anzeige der Attributwerte (oberhalb der Räder) anklickt, oder durch
+Anklicken eines Attributs im Channel Grid (Kanalübersicht).
 
-(On Tiger Touch Mk1 the three buttons between the wheels act as @
-buttons. On the Pearl Expert you will need to use the touch screen
-method.).
+(Beim Tiger Touch dienen die drei Tasten zwischen den Rädern als
+\<@\>-Tasten, beim Pearl Expert gibt es diese Tasten nicht, und man muss
+eine der anderen Varianten nutzen).
 
 The menu gives you the following functions:
 
--   Select Function: gives you shortcuts on the softkeys to the possible
-    settings for the attribute (for dimmers, a range of values is
-    provided).
+-   Select Function (Funktion wählen): damit werden die verschiedenen
+    Festwerte auf die Multifunktionstasten zur Auswahl gelegt (für
+    Dimmerkanäle gibt es eine Reihe von Abstufungen)
 
--   Touch/Clear: places the attribute in the programmer or removes the
-    attribute from the programmer
+-   Touch/Clear: lädt das Attribut in den Programmierspeicher oder
+    entfernt es daraus
 
--   Locate: locates the attribute (does not place in programmer)
+-   Locate: setzt das Attribut auf Locate-Werte (wird nicht in den
+    Programmierspeicher übernommen)
 
--   Release: releases the attribute
+-   Release: gibt das Attribut frei
 
--   Off: sets the attribute to Off. This temporarily disables the
-    attribute, though its value is stored and can be restored with On.
+-   Off: setzt das Attribut auf Off. Damit wird es vorübergehend
+    deaktiviert, der Wert bleibt aber im Programmierspeicher und kann
+    mit On wieder aktiviert werden.
 
--   On: sets the attribute to On (when merged to a cue or palette, On
-    will restore a value which has previously been set to Off)
+-   On: aktiviert das Attribut wieder zu On (wird On in einen Cue oder
+    eine Palette verschmolzen, so wird ein vorher mittels Off
+    deaktivierter Wert wieder aktiv)
 
--   Freeze/Unfreeze: freeze or unfreeze the attribute
+-   Freeze/Unfreeze: Fixieren des Attributes bzw. Fixierung aufheben
 
-## Selecting Fixtures and Dimmers by number (Channel)
+## Anwählen von Dimmern/Geräten nach (Kanal-)Nummer
 
-In some situations, for example when programming lots of dimmers, it can
-be easier to type in the dimmer channels you want to program. The
-Channel menu allows you to do this for dimmers or fixtures. To access
-the Channel menu, press the \<Fixture\> button on the top left of the
-numeric keypad. You can also simply start typing numbers on the keypad,
-when you press Through, And or @ then the Channel menu will be shown.
+In bestimmten Situationen, etwa beim Programmieren einer Vielzahl von
+Dimmern, kann es einfacher sein, die zu ändernden Kanäle anhand ihrer
+Nummer auszuwählen. Über das \'Channel\'-Menü geht das für Dimmer und
+Bewegungsscheinwerfer. Zum Aufruf des \'Channel\'-Menüs drücken Sie die
+Taste \<Fixture\> links oberhalb des Zifferntastenblocks.
 
-Through, And and @ are provided as softkey functions or (depending on
-console) are buttons adjacent to the numeric keypad.
+Ebenso können Sie einfach die entsprechenden Ziffern eingeben; enthält
+Ihre Eingabe \'Through\', \'And\' oder \'@\', so wird automatisch das
+\'Channel\'-Menü aufgerufen.
 
-Fixtures may be selected by User Number, Handle Number or DMX Address,
-as set by the option on Softkey A.
+Through, And und @ stehen je nach Pult sowohl als Menü-Taste im
+Fixtures-Menü als auch über die Pfeiltasten direkt beim Ziffernblock zur
+Verfügung.
 
-When using the Channel menu it is helpful to latch it by pressing \<Menu
-Latch\>.
+Die Geräte lassen sich anhand der Gerätenummer (User Number), der Nummer
+des Gerätebuttons (Handle Number) oder der DMX-Adresse anwählen, je nach
+Einstellung der Menütaste A.
 
--   To select a fixture, type the number and press \<Enter\>.
+Bei der Benutzung des \'Channel\'-Menüs empfiehlt es sich, dieses zu
+fixieren (Taste \<Menu Latch\>).
 
--   To select more than one fixture, press the \[And\] softkey between
-    each number. For example 1 And 2 And 5 \<Enter\> will select 1,
-    2, 5.
+-   Zum Anwählen eines Gerätes die Nummer eingeben und \<Enter\>
+    drücken.
 
--   To select a range of fixtures, press \[Through\]. For example 1
-    Through 8 \<Enter\> will select 1-8. If you miss out the last number
-    it will select all remaining fixtures of the same type.
+-   Um mehr als ein Gerät anzuwählen, drücken Sie die Funktionstaste
+    \[And\] zwischen den einzelnen Nummern. Beispiel: 1 \[And\] 2
+    \[And\] 5 \<Enter\> wählt die Geräte 1, 2, 5.
 
--   To miss out fixtures in a range, use \[Not\], for example 1 Through
-    4 Not 3 \<Enter\> will select 1, 2, and 4.
+-   Um eine Folge von Geräten anzuwählen, drücken Sie \[Thro\].
+    Beispiel: 1 \[Thro\] 8 \<Enter\> wählt 1-8. Lässt man die zweite 
+	Zahl weg, so werden alle noch folgenden Geräte des gleichen Typs angewählt.
 
--   The @ softkey sets a dimmer level to the selected fixtures, for
-    example 1 Through 8 @ 5 \<Enter\> will set 1-8 at 50%. (You can
-    choose whether 50% is entered as "5" or "50" in the [User Settings](../system-settings/user-settings.md) - When you press @ there are softkey
-    options for Full, Off and +/- (increase or decrease brightness).
+-   Um einzelne Geräte in einer Folge auszulassen, drücken Sie \[Not\].
+    Beispiel: 1 \[Through\] 4 \[Not\] 3 \<Enter\> wählt 1, 2, 4.
 
--   You can work with Groups using the Group button, for example Group 1
-    And Group 2 Not 5 \<Enter\> will select all fixtures in group 1 and
-    group 2 except for fixture 5.
+-   Die Taste \[@\] stellt den Dimmer-Wert der ausgewähl­ten Geräte ein,
+    etwa: 1 \[Through\] 8 \[@\] 5 \<Enter\> setzt Gerät 1-8 auf 50% (in den
+    Benutzereinstellungen lässt sich einstellen, ob 50% durch "5" oder
+    "50" eingegeben wird, siehe [User Settings](../system-settings/user-settings.md)). Beim Betätigen
+    der Taste \[@\] erscheinen außerdem Optionen auf den Funktionstasten
+    für \'Full\' (100%), \'Off\' (0) und +/- (schrittweise
+    erhöhen/vermindern).
 
--   You can use \<Locate\> instead of \<Enter\>, to select fixtures and
-    locate them. For example 1 Through 4 \<Locate\> will select fixtures
-    1 to 4 and locate them.
+-   Zur numerischen Anwahl von Gruppen verwenden Sie die Taste 'Group';
+    Beispiel: \<Group\> 1 \[And\] \<Group\> 2 \[Not\] 5 \<Enter\> selektiert
+    Gruppe 1 und 2 außer Gerät 5.
+
+-   Die \<Locate\>-Taste macht das Betätigen der \<Enter\>-Taste
+    überflüssig, wenn die Geräte angewählt und dann auf die
+    Startposition gebracht werden sollen: 1 \[Through\] 4 \<Locate\>
+    wählt Gerät 1 bis 4 aus und initialisiert diese.
 
 ![Syntax Selection](/docs/images/Syntax-Selection.png)
 
--   When entering a command, the command line is shown on the display.
-    You can go back using the grey Back button and you can abandon the
-    line using the grey @ button.
+-   Beim Eingeben eines Kommandos wird dieses in der Kommandozeile des
+    Displays angezeigt. Mittels der grauen ←\<Back\>Taste kann man
+    schritt­weise zurückgehen; mit der grauen →\<@\>Taste lässt sich die
+    Eingabe abbrechen.
 
--   The AND, THRO and @ functions are also provided on the grey buttons
-    either above or below the numeric keypad, as printed on the legend
-    next to the buttons.
+-   Die Funktionen AND, THRO sowie @ stehen auch auf den Pfeiltasten zur
+    Verfügung (siehe deren Beschriftung).
 
-## Selecting Fixtures using a Pattern
+## Geräteauswahl nach Muster
 
-When programming you will often want to select patterns of fixtures.
-Rather than having to individually select and deselect fixtures, Titan
-has an easy way of selecting patterns of fixtures within a range.
+Beim Programmieren einer Show ist es oftmals wünschenswert, verschiedene
+Muster von Geräten auszuwählen. Anstatt nun die Geräte einzeln aus- und
+abzuwählen, gestattet es das Pult, Geräte aus einer Gesamtauswahl nach
+einem bestimmten Muster zu selektieren.
 
-1. Select some fixtures.
+1. Selektieren Sie einige Geräte.
 
-2. Press the \<All\> button (labelled Odd/Even on some consoles).
+2. Drücken Sie die weiße Taste \<All\> (bzw. \<All/Even/Odd\>).
 
-3. Select a pattern from the softkeys. Your selection is modified so
-you will only be controlling, say, the odd fixtures.\
+3. Wählen Sie ein Muster von den Menütasten. Die gewählte Auswahl wird
+geändert, so dass z.B. nur die ungeraden (odd) Geräte ausgewählt werden.\
 ![Pattern Select](/docs/images/Pattern-Select.png)
 
-4. Press the \<Fix+1\> or \<Fix-1\> button to change the selection to
-the next stage of the pattern (\<Next\> and \<Prev\> on some consoles).
+4. Drücken Sie die Taste \<Fix+1\> oder \<Fix-1\>, um den nächsten
+Schritt im gewählten Muster anzuwählen. (auf manchen Pulten \<Next\> und \<Prev\>).
 
-5. To end the pattern selection, press \<All\> twice.
+5. Um die Musterauswahl zu beenden, drücken Sie zweimal \<All\>.
 
--   The Direction option allows you to set the fixture selection order
-    to go in a specific direction (using the group layout). This is
-    useful for selecting symmetrical pairs of fixtures and for quickly
-    creating cues using overlap.
+-   Mittels \[Direction\] (Richtung) kann eingestellt werden, dass die
+    Geräte-Reihenfolge einer bestimmten Richtung folgt; dabei wird das
+    Layout der Geräte herangezogen. Damit lassen sich z.B. sehr einfach
+    symmetrische Paare von Geräten wählen.
 
--   Direction will return to "None" when you press Clear. You can change
-    this by setting \[Clear / Maintain Direction\] in the \[Clear
-    Options\] menu (hold the Clear button down to see this option).
+-   Drückt man \<Clear\>, so wird die Richtung (Direction) wieder auf
+    \'None\' zurückgesetzt. Dies lässt sich mit \[Clear Options\] \[Clear
+    / Maintain Direction\] umstellen (halten Sie \<Clear\> gedrückt zum
+    Einstellen der Clear-Optionen).
 
--   For example, if you are programming a chase using 16 fixtures and
-    you want every 4^th^ fixture to do the same thing, you just select
-    the 16 fixtures, then press \<All\>, then \[1 in x\], then \[1 in
-    4\]. You will see that the 1^st^, 5^th^, 9^th^ and 13^th^ fixtures
-    are now selected, and you can create the look for those fixtures.
-    Then press \<Fix+1\>, and the 2^nd^, 6^th^, 10^th^ and 14^th^
-    fixtures will be selected ready for programming. After you have
-    programmed the fourth set of fixtures, the pattern will go back to
-    the first position again, until you press \<All\> twice to end.
+-   Wenn Sie etwa einen Chaser mit 16 Geräten programmieren, und dazu
+    jedes 4. synchron einstellen wollen, wählen Sie zunächst alle 16
+    Geräte aus, drücken dann \<All\>, dann \[1 in x\], und danach 
+	\[1 in 4\]. Nun sind die Geräte 1, 5, 9 und 13 aus der vorherigen 
+	Auswahl zum Bearbeiten angewählt. Drücken Sie \<Fix+1\> bzw. \<Next\>, 
+	so werden die Geräte 2, 6, 10 und 14 angewählt. Nach der Anwahl des 4. 
+	Schrittes erscheint wieder der erste Schritt des Musters, bis 
+	zweimal \<All\> betätigt wird.
 
--   You can enter your own patterns using the numeric keypad and
-    softkeys, for example "2" \[In\] "6" \<Enter\>.
+-   Sie können sehr einfach eigene Muster programmieren: geben Sie dazu
+    z.B. mit den Ziffern- und Funktionstasten "2" A \[In\] "6" \<Enter\> ein.
 
--   You can also get to these options by holding down a group selection
-    button for the fixtures.
+-   Diese Funktionen stehen ebenfalls auf den Menütasten zur Verfügung,
+    wenn man einen Gruppen-Button gedrückt hält.
 
-## Selecting Fixtures which are in a Playback
+## Auswahl von Geräten in einem Cue
 
-To select fixtures which are controlled by a particular playback use the
-Select If function.
+Zur Auswahl der Geräte, die in einem bestimmten Cue enthalten sind,
+dient die \'Select If\'-Funktion.
 
-To select fixtures used in a playback, press \<Select If\> then the
-playback button. (If the console does not have a \<Select If\> button,
-press \<Fixture\> then \[Select If\]. The \<Fixture\> button is at the
-top left of the numeric keypad and may be labelled \<Channel\> on older
-consoles.)
+Drücken Sie dazu \<Select If\> gefolgt von dem Speicherplatz. (Auf
+älteren Pulten gibt es keine gesonderte \<Select If\>-Taste; in diesem
+Fall drücken Sie \<Fixture\> und dann \[Select If\]).
 
-You can also use \<Select If\> with the \<@\> and \<Through\> buttons on
-the numeric keypad to select fixtures set to a particular intensity.\
-\@X: fixtures set to intensity X\
-@ Through X: fixtures with intensity 0 -- X\
-@ X Through: fixtures with intensity X -- Full\
-@ X Through Y: fixtures with intensity between X and Y\
-@@: fixtures with intensity above 0.
+Ebenso lässt sich \'Select If\' mit den Tasten \<@\> und \<Thro\>
+verwenden, um alle Geräte mit einer bestimmten Helligkeit anzuwählen:\
+\@X: Geräte mit der Helligkeit X\
+@ Thro X: Geräte mit der Helligkeit 0 - X\
+@ X Thro: Geräte mit der Helligkeit X - Full\
+@ X Thro Y: Geräte mit der Helligkeit zwischen X und Y\
+@@: Geräte mit der Helligkeit \> 0.
 
-Intensity levels may be input as 0-9 or 00-99 depending on the [User
-Setting](../system-settings/user-settings.md) \[Channel Levels Set In\].
+Pegelangaben können entweder in der Schreibweise 0-9 oder 00-99 gemacht
+werden, abhängig von der [Benutzereinstellung](../system-settings/user-settings.md) \[Channel Levels Set In\].
 
-## Attribute Groups - IPCGBES-FX
+## Attributgruppen -- IPCGBES-FX
 
-To make life a bit simpler, the console groups together attributes which
-have similar effects, using the letters IPCGBES-FX.
+Zur Vereinfachung sind die Attribute nach ihrer grundlegenden Funktion
+gruppiert und mit den Buchstaben IPCGBESFX versehen:
 
-I-Intensity (dimmer, strobe shutter)
+I-Intensity/Helligkeit (Dimmer, Stroboskop, Shutter)
 
-P-Position (pan, tilt)
+P-Position (Pan, Tilt)
 
-C-Colour (colour wheel, CMY mixing)
+C-Colour/Farbe (feste Farbräder, Farbmischung)
 
-G-Gobo (gobo wheels, gobo rotate, gobo position)
+G-Gobo (Goboräder, Rotation, Index)
 
-B-Beam (iris, focus, zoom, beam shaper)
+B-Beam (Iris, Fokussierung, Zoom, Beam Shaper)
 
-E-Effects (prism)
+E-Effects/Effekte (Prisma)
 
-S-Special (motor speeds)
+S-Special (Geschwindigkeit)
 
-FX-Shapes, Pixel Mapper
+FX-Shapes, Pixelmapper
 
-These groups are used to select which attributes you want to work with
-in many of the functions on the console, particularly when you are
-"masking off" certain attributes from being saved.
+Diese Gruppen werden vielfach verwendet, um die einzelnen Attribute zum
+Bearbeiten auszuwählen, insbesondere beim Maskieren der Attribute, um
+sie vom Speichern auszuschließen.
 
 ![Attribute Groups](/docs/images/Attribute-Groups.png)
 
-Above the attributes roller on the screen, the console shows you which
-attribute group you are currently changing (the grey box). The Attribute
-Group is also highlighted in blue if the programmer contains any of
-those attributes. For example in the image above we are currently
-changing Colour attributes, but Intensity and Special attributes have
-also been modified.
+Über der Attribut-Walze im Touchscreen wird die aktuell ausgewählte
+Gruppe mit einer grauen Box angezeigt. Weiter wird die Attributgruppe
+blau hinterlegt, wenn sich Attribute dieser Gruppe im
+Programmierspeicher befinden. So ist im obigen Bild die Farbe zum
+Bearbeiten angewählt, während Intensity und Special bereits verändert
+(und damit im Programmierspeicher) sind.
 
-## Stepping through selected fixtures one at a time
+## Einzeln durch die Geräte einer Auswahl durchschalten
 
-If you have selected a range of fixtures, or a group, the console has
-functions to step through the selected fixtures one at a time. This can
-make it easier to program a range of fixtures because you don't have to
-select each one manually.
+Sind mehrere Geräte oder eine Gruppe von Geräten ausgewählt, so bietet
+das Pult die Möglichkeit, einzeln durch die angewählten Geräte
+durchzuschalten. Dies vereinfacht das Programmieren, da man so nicht
+jedes Gerät einzeln selektieren muss.
 
-This mode uses the All/Hilight/Fix+1/Fix-1 buttons.
+Für diese Funktion werden die Tasten \<Fix-1\> (zurück), \<Fix+1\>
+(weiter), \<All\> (alle) und \<HiLight\> (hervorheben) genutzt.
 
-1. Select a range of fixtures or a group.
+1. Wählen Sie mehrere Geräte oder eine Gruppe von Geräten.
 
-2. The \<Fix+1\> and \<Fix-1\> buttons will select the fixtures in the
-range one at a time (in the order you selected them). Buttons are
-labelled \<Prev\> and \<Next\> on some consoles.
+2. Mit den Tasten \<Fix-1\> und \<Fix+1\> wird jeweils ein Gerät
+   ausgewählt bzw. weitergeschaltet (in der Reihenfolge der Auswahl). 
+   Auf manchen Pulten dienen dazu die Tasten \<Prev\> und \<Next\> .
 
-3. The \<All\> button will select all fixtures in the programmer
-(everything which has been selected since \<Clear\> was last pressed).
+3. Die Taste \<All\> wählt alle Geräte aus, die sich im
+   Programmierspeicher befinden (alle Geräte, die seit der letzten
+   Betätigung von \<Clear\> angewählt wurden).
 
--   The Hilight function can be used to highlight the output of the
-    selected fixture (make it brighter onstage), see the next section.
+-   Die \'HiLight\'-Funktion ermöglicht es, das aktuelle Gerät
+    hervorzuheben, siehe nächster Abschnitt.
 
-## Highlighting the Selected Fixture with Prev/Next
+## Das ausgewählte Gerät bei Fix+1/Fix-1 hervorheben
 
-When stepping through a fixture selection using \<Fix+1\>/\<Fix-1\>, you
-can highlight the selected fixture on stage. This makes it very easy to
-see which fixture you are controlling. The other fixtures in the
-selection go to a dimmed "lowlight" level.
+Beim Durchschalten durch eine Geräteauswahl mit den \<Fix+1/\
+Fix-1/All\>-Tasten lässt sich das jeweils angewählte Gerät hervor­heben.
+Dies vereinfacht es zu sehen, welches Gerät man gerade steuert. Die
+anderen Geräte in der Auswahl werden gleichzeitig heruntergedimmt
+(\'Lowlight\').
 
--   Press \<HiLight\> to enable highlight mode. Press \<HiLight\> again
-    to disable. When you are in highlight mode, the highlighted
-    attribute is overridden and any changes you make to it are not
-    stored in the programmer (so if the highlight uses intensity, you
-    cannot change the intensity of the fixture).
+-   Betätigen Sie die \<HiLight\>-Taste, um diese Funktion zu
+    aktivieren. Ein weiteres Betätigen der Taste schaltet die Funktion
+    wieder aus. Ist der Highlight-Modus aktiv, so werden die davon
+    betroffenen Attribute (z.B. der Dimmer) überschrieben und können
+    nicht editiert oder gespeichert werden.
 
--   You can change the levels used for Highlight/Lowlight by pressing
-    \<Record\> then pressing \<HiLight\>, \[Store Highlight State\] or
-    \[Store Lowlight State\].
+-   Die für Highlight/Lowlight verwendeten Werte lassen sich ändern:
+    stellen Sie den gewünschten Wert ein, drücken Sie \<Record\>, dann
+    \<HiLight\>, und wählen dann \[Store Highlight State\] oder \[Store
+    Lowlight State\].
 
-## Turn Off Unselected Fixtures (Remainder Dim)
+## Nicht ausgewählte Geräte ausblenden (Remainder Dim)
 
-To turn off all unselected fixtures use the Remainder Dim function by
-pressing \<Rem Dim\> (\<Avo\>+\<All\>). The zero intensity is placed in
-the programmer and will be recorded into any cue. This is useful when
-removing fixtures from cues.
+Mit "Remainder Dim" (\<Rem Dim\> oder \<Avo\>+\<All\>) werden die nicht
+angewählten Geräte ausgeblendet; dabei wird der Wert Intensity=0 in den
+Programmierspeicher geschrieben und entsprechend beim Speichern
+übernommen.
 
-## Align Fixtures
+## Geräte miteinander abgleichen
 
 [](https://youtu.be/xZrVhnY1hnA?t=20 "Align Fixtures")
 
-You can copy attributes from one fixture to another using the Align
-Fixtures function. This is very useful, for example, if you've
-accidentally left a fixture out of a cue you can copy settings from its
-neighbour.
+Die Werte einzelner Attribute lassen sich mit der 'Align'-Funktion von
+einem auf andere Geräte kopieren. So kann man etwa Geräte angleichen,
+die man beim Programmieren eines Cues versehentlich nicht mit angewählt
+hatte.
 
-You can align multiple fixtures to others in one operation, either using
-groups or individual selection. If you are aligning different numbers of
-fixtures there are options to set how this is handled, see below.
+Es lassen sich mehrere Geräte auf einmal abgleichen, sowohl durch
+Verwenden von Gruppen als auch durch Auswahl einzelner Geräte. Stimmt
+die Anzahl der anzugleichenden Geräte nicht mit der der ‚Ziel'-Geräte
+überein, so gibt es mehrere Optionen, die bestimmen, wie damit verfahren
+wird.
 
-1. Select the fixtures you want to Align either manually or using a
-group.
+1. Wählen Sie die anzugleichenden Geräte, entweder einzeln, oder unter
+Verwendung von Gruppen.
 
-2. At the top level menu press \<Fixture Tools\>/\<ML Menu\> then
-\[Align Fixtures\].
+2. Im Hauptmenü drücken Sie \<Fixture Tools\>/\<ML Menu\>, dann \[Align
+Fixtures\].
 
-3. Set the mask to include the attribute groups you want to copy (using
-the Attribute Bank buttons, or using the softkey options for exclude and
-include all attributes).
+3. Wählen (maskieren) Sie die zu kopierenden Attribute (mittels der
+Attribut-Tasten rechts, oder mit den Funktionstasten, um alle Attribute
+ein- oder auszuschließen)
 
-4. Touch the select button of the fixture or group you want to copy the
-settings from.
+4. Betätigen Sie die Auswahltaste des Gerätes bzw. der Gruppe, von dem
+die Attribute übernommen werden sollen.
 
-5. Press \[Align\]
+5. Drücken Sie \[Align\]
 
-The fixture selection order is used to determine how the aligned values
-are copied.
+Die Reihenfolge der Geräteauswahl bestimmt, wie die angeglichenen Werte
+übertragen werden:
 
--   The \[Auto Reset Mask\] option will always set the mask to Include
-    All whenever you enter the Align Fixtures function. The alternative
-    option \[Remember Mask\] will leave the last mask set.
+-   Ist die Option \[Auto Reset Mask\] aktiviert, so wird die
+    Attributmaske stets auf \'Alle\' zurückgesetzt, sobald man das
+    Align-Menü aufruft. Mit \[Remember Mask\] dagegen wird die
+    eingestellte Maske beibehalten.
 
--   \[Spread Attributes\] will try to spread out the attribute changes
-    if there are a different number of fixtures in the source and target
-    groups (best for positions). \[Repeat Attributes\] will repeat the
-    source selection on extra fixtures, or attempt to mirror the
-    fixtures if there are fewer.
+-   Mit \[Spread Attributes\] werden Attributwerte gleichmäßig
+    aufgeteilt, wenn die Anzahl der anzugleichenden Geräte nicht mit der
+    Anzahl der \'Ziel\'-Geräte übereinstimmt. Mit \[Repeat Attributes\]
+    dagegen werden die exakten Werte mehrfach wiederholt.
 
--   \[Align Programmer Attributes\] will only align the attributes which
-    are in the programmer, \[Align All Attributes\] will align all the
-    attributes which are enabled by the mask. So for example if you want
-    to align the tilt of some fixtures and you have set the tilt you
-    want on an example fixture, \[Align Programmer Attributes\] would
-    only change the tilt; but \[Align All Attributes\] would copy the
-    pan setting from the source fixture as well.
+-   Mit \[Align Programmer Attributes\] werden nur Attribute
+    angeglichen, die bereits im Programmer sind. Mit \[Align All
+    Attributes\] dagegen werden sämtliche Attribute der Geräte
+    angeglichen, sofern sie in der Maske angewählt sind. Hat man z.B.
+    Tilt wie gewünscht eingestellt und im Programmer, so würden mit
+    \[Align Programmer Attributes\] alle anderen Geräte nur den
+    Tilt-Wert übernehmen, mit \[Align All Attributes\] aber auch den
+    Pan-Wert.
 
--   \[Palette References Maintained\] will copy palettes from the source
-    fixtures. \[Palette References Lost\] will convert the palettes to
-    absolute values in the target fixtures.
+-   Wählt man \[Palette References Maintained\], so werden Paletten auch
+    auf den Ziel-Geräten als Referenz auf die Palette gespeichert. Mit
+    \[Palette References Lost\] dagegen werden die Referenzen gelöscht
+    und nur feste Attributwerte gespeichert.
 
--   If the fixture you are copying the settings from is also one of the
-    fixtures being aligned, it's difficult to tell what you are doing as
-    all the fixture buttons light up red. However if you look at the top
-    line of the screen, there is a list of the fixtures you have
-    selected.
+-   Überschneiden sich die Geräte der Quell- und Zielauswahl, so ist es
+    schwierig, den Überblick zu wahren, da alle Geräteschaltflächen
+    aktiviert sind. Da hilft es, dass die ausgewählten Geräte in der
+    Leiste oben am Bildschirm aufgelistet sind.
 
 ## Flip
 
-Moving head fixtures can point at the same stage position from two
-possible yoke positions. Sometimes to get the fixture moving the same as
-other fixtures, you need to swap to the opposite yoke position and the
-Flip function lets you do that.
+Kopfbewegte Scheinwerfer können den gleichen Punkt der Bühne mit zwei
+verschiedenen Kopfstellungen erreichen. Daher ist es zuweilen
+erforderlich, bei einem Gerät diese Kopfstellung zu wechseln, damit das
+Gerät synchron mit anderen läuft. Die Flip-Funktion ermöglicht das
+schnell und einfach.
 
-1. Select the fixtures you want to Flip.
+1. Wählen Sie das zu bearbeitende Gerät.
 
-2. At the top level menu press \<ML Menu\> then \[Flip Pan and Tilt\].
+2. Im Hauptmenü drücken Sie \<ML Menu\>, danach C \[Flip Pan and
+Tilt\].
 
-The Position window in the Attribute Editor also has a \[Flip\] button
-which does this.
+Auf der Positions-Seite des Attribut-Editors steht ebenfalls die
+Flip-Funktion zur Verfügung.
 
-> The settings used for Flip are defined in the fixture personality. If Flip doesn't work you may need to update to the latest personality.
+> Die Einstellungen für Flip sind in der Personality vorgegeben. 
+Sollte Flip nicht wie erwartet funktionieren, muss evtl. die 
+Personality-Bibliothek aktualisiert werden.
 
-## Fan Mode
+## Fan-Modus
 
-Fan mode automatically spreads out the values on a selected range of
-fixtures. If used on pan and tilt, the result is spreading out "rays" of
-light beams. The first and last fixtures of the range are affected most,
-and the central fixtures are affected least. The amount of fan can be
-set using the attribute wheels.
+Der Fan-Modus spreizt automatisch Attributwerte über mehrere angewählte
+Geräte. Wird er etwa für Pan und Tilt benutzt, so ergibt sich eine
+strahlenförmige Verteilung: das erste und letzte Gerät werden dabei am
+meisten beeinflusst, das mittlere Gerät am wenigsten. Das Maß der
+Spreizung lässt sich mit den Rädern ändern.
 
-As with shapes, the order in which you select the fixtures sets how the
-fan effect works. The fixtures you select first and last will be the
-ones which change most. If you use a group to select the fixtures, the
-order you selected the fixtures when you recorded the group is used.
+Wie bei Abläufen, so ist auch beim Fan-Modus die Reihenfolge der Geräte
+bei der Auswahl wesentlich. Die als erstes und als letztes ausgewählten
+Geräte werden am meisten von der Spreizung beeinflusst. Wird dazu eine
+gespeicherte Gerätegruppe verwendet, so bezieht sich das auf die
+Reihenfolge der Geräteauswahl beim Erstellen der Gruppe.
 
-The fan effect, while normally used on pan or tilt attributes, can be
-applied to any attribute.
+Der Fan-Modus ist nicht auf Pan und Tilt beschränkt, sondern kann auf
+jedes Attribut angewendet werden.
 
-1. Select the fixtures you want to fan.
+1. Wählen Sie die zu bearbeitenden Geräte.
 
-2. Press \<Fan\>.
+2. Drücken Sie die \<Fan\>-Taste.
 
-3. Select the attribute you want to Fan using the attribute bank
-buttons.
+3. Wählen Sie das Attribut, auf das der Effekt angewendet werden soll,
+mit den Attribut-Tasten.
 
-4. Set the amount of fan using the attribute wheels.
+4. Stellen Sie das gewünschte Maß von Spreizung mit den Rädern ein.
 
-5. Turn off Fan by pressing the Fan button again when you have
-finished. Fan will turn off automatically if you change the fixture
-selection.
+5. Verlassen Sie den Fan-Modus wieder durch Betätigen der
+\<Fan\>-Taste. Werden andere Geräte angewählt, wird \'Fan\' automatisch beendet.
 
-If you have selected fixtures from multiple groups, you can choose
-whether the fan effect works with or ignores the groups. For example if
-you have 12 fixtures across the stage in 3 groups of 4, you may want a
-fan of light beams spread evenly across the stage, or you may want 3
-groups of separately fanned light beams.
+Haben Sie Geräte aus verschiedenen Gruppen ausgewählt, so können Sie
+wählen, ob die Gruppenaufteilung beim Fan beachtet werden soll oder
+nicht. Haben Sie etwa 12 Geräte auf der Bühne, die in 3 Gruppen à 4
+Stück aufgeteilt sind, so können Sie entweder eine gleichmäßige
+Verteilung auf alle 12 Geräte, oder ein Aufspreizen innerhalb jeder
+Gruppe erreichen.
 
-By holding down \<Fan\> you can select:
+Während die \<Fan\>-Taste gedrückt gehalten wird, lassen sich im Menü
+verschiedene Einstellungen vornehmen:
 
--   \[Ignore Groups\] All fixtures are fanned as one large group
+-   \[Ignore Groups\]: Sämtliche ausgewählten Geräte werden als eine
+    große Gruppe behandelt.
 
--   \[Fan Group as Fixture\] All fixtures in a group take on the same
-    value.
+-   \[Fan Group as Fixture\]: alle Geräte innerhalb einer Gruppe werden
+    identisch behandelt.
 
--   \[Fan Within Group\] Fan runs across individual fixtures in each
-    group.
+-   \[Fan Within Groups\]: Die Fan-Aufspreizung erfolgt innerhalb jeder
+    einzelnen Gruppe.
 
-Holding down \<Fan\> also allows you to select the Curve used for the
-fan. The different curves allow you to obtain different fan effects.
+Ferner lässt sich bei gedrückter \<Fan\>-Taste die gewünschte Kurve
+auswählen. Mit unterschiedlichen Kurven lassen sich unterschiedliche
+Effekte erzielen.
 
-Fan mode needs to be used on at least 4 fixtures to give good effects.
-If you have an odd number of fixtures, the central fixture will not
-change in fan mode.
+Für gute Ergebnisse sind mindestens 4 Geräte erforderlich. Bei einer
+ungeraden Anzahl von Geräten wird das mittlere Gerät im Fan-Modus nicht
+beeinflusst.
 
-Press \<Fan\> again to leave Fan mode. Any effects you have set will
-remain in the programmer.
+Betätigen Sie die \<Fan\>-Taste, um den Fan-Modus zu verlassen.
+Sämtliche Einstellungen verbleiben dabei im Programmierspeicher.
 
-> It's all too easy to accidentally leave Fan mode turned on and be very confused about why the wheels aren't working properly, so turn it off as soon as you have completed the effect. To avoid this there is a [User Setting](../system-settings/user-settings.md) 'Press and hold Fan'. If enabled, you have to hold down \<Fan\> to enable Fan mode.
+> Es kann rasch passieren, dass der Fan-Modus versehentlich aktiviert bleibt, was zu der irrigen Annahme führen kann, dass die Räder nicht ordnungsgemäß funktionieren. Stellen Sie daher sicher, den Fan-Modus zu verlassen, wenn Sie mit den Einstellungen fertig sind. Um dies zu vermeiden, gibt es die [Benutzereinstellung](../system-settings/user-settings.md) \[Press and hold Fan\]. Ist diese aktiviert, muss die \<Fan\>-Taste gedrückt gehalten werden, um den Fan anzuwenden.
 
-### Fan Curves
+### Fan-Kurven
 
-You can select different curves to use when in Fan mode. Hold down
-\<Fan\> and select \[Curve\], the options are:
+Es lassen sich verschiedene Kurven definieren, die die Fan-Funktion
+beeinflussen. Halten Sie dazu \<Fan\> gedrückt und wählen \[Curve\]. Es
+stehen folgende Auswahlmöglichkeiten zur Verfügung:
 
--   Line: Traditional fan, the first and last selected fixture are
-    affected equally in opposite directions, the midpoint remains
-    unchanged. This is most useful for pan.\
+-   Line: der gewohnte Fan, das erste und letzte Gerät werden am
+    meisten, aber gegensinnig beeinflusst, das mittlere Gerät bleibt
+    unverändert. Insbesondere sinnvoll bei Pan.\
     ![Fan Line](/docs/images/Fan-Line.png)
 
--   Mirror- Divides the selection into two halves, the position in each
-    half is the mirror of the other half\
+-   Mirror- die Gesamtauswahl wird in zwei Hälften geteilt, die in
+    entgegengesetztem Sinn gesteuert werden.\
     ![Fan Mirror](/docs/images/Fan-Mirror.png)
 
--   Wings -- Divides the selection into three parts, the positions in
-    the outer two parts mirror each other and the central part does not
-    change.\
+-   Wings -- die Gesamtauswahl wird in drei Teile geteilt, deren beide
+    äußere in entgegengesetztem Sinn gesteuert werden, während der
+    Mittelteil unverändert bleibt.\
     ![Fan Wings](/docs/images/Fan-Wings.png)
 
--   Arrow - The first and last selected fixture are affected equally to
-    the midpoint fixture but in the opposite direction. This is useful
-    for colour mixing, tilt and dimmer.\
+-   Arrow -- die ersten und letzten Geräte werden ebenso beeinflusst wie
+    die mittleren, aber in entgegengesetzter Richtung. Ebenfalls
+    geeignet für Farbmischung, Tilt und Dimmer.\
     ![Fan Arrow](/docs/images/Fan-Arrow.png)
 
--   Pull Middle - The first and last selected fixture remain at the
-    current value, the midpoint is affected most. This is useful for
-    colour mixing, tilt and dimmer.\
+-   Pull Middle -- Das erste und das letzte Gerät bleiben auf dem
+    ursprünglichen Wert, das mittlere Gerät wird am meisten beeinflusst.
+    Besonders geeignet für Farbmischung, Tilt und Dimmer.\
     ![Fan Pull Middle](/docs/images/Fan-Pull-Middle.png)
 
--   Pull Ends - The first and last selected fixture are affected most,
-    the midpoint is unchanged. This is useful for colour mixing, tilt
-    and dimmer.\
+-   Pull Ends -- Wie vor, aber das mittlere Gerät bleibt unverändert,
+    die äußeren Geräte werden am meisten (aber gleichsinnig)
+    beeinflusst. Besonders geeignet für Farbmischung, Tilt und Dimmer.\
     ![Fan Pull Ends](/docs/images/Fan-Pull-Ends.png)
 
--   Pull End -- Like pull ends but only from one end, the other end does
-    not change\
+-   Pull End -- Wie vor, aber das erste Gerät bleibt unverändert, das
+    letzte Gerät wird am meisten beeinflusst.\
     ![FanPull End](/docs/images/FanPull-End.png)
 
-### Fan Parts
+### Fan-Teile
 
-When using the Fan function you can split the fan into a number of
-groups. Select all the fixtures, hold down \<Fan\> and type a number on
-the numeric keypad. The Fan will divide into that number of parts, for
-example:
+Die Fan-Funktion, d.h. das Auffächern der Veränderung, lässt sich auch
+gruppieren. Wählen Sie dazu die gewünschten Geräte aus, halten \<Fan\>
+gedrückt, und geben die Anzahl der gewünschten Gruppen mit den
+Zifferntasten ein:
 
 Normal (1):\
 ![Fan 1 Part](/docs/images/Fan-1-Part.png)
@@ -939,57 +988,64 @@ Normal (1):\
 3:\
 ![Fan 3 Parts](/docs/images/Fan-3-Parts.png)
 
-## Setting Fixture/Attribute Times
+## Speichern von Zeiten für Attribute und Geräte
 
-Fade and delay timings can be directly set for each fixture or
-individual attributes of a fixture. When you store the settings into a
-cue, the time settings will then become part of the cue.
+Fade- und Delayzeiten können direkt für einzelne Geräte oder einzelne
+Attribute gesetzt werden. Werden diese dann in einen Cue gespeichert, so
+sind auch die Zeiten Bestandteil des Cues.
 
-There are a number of ways to set the times:
+Zeiten lassen sich auf mehrere Arten einstellen:
 
--   You can set individual attribute times by switching the wheels to
-    Fade Time / Delay Time mode using the \[Wheels=\] softkey on the
-    root menu.
+-   Mit der Funktionstaste \[Wheels=\] im Hauptmenü lassen sich die
+    Räder in die entsprechende Betriebsart schalten, und man kann Zeiten
+    mit den Rädern einstellen.
 
--   Individual attribute times can also be set using a combination of
-    the wheel @ keys and the \<Time\> key.
+-   Individuelle Zeiten lassen sich auch mit den @-Tasten und der Taste
+    \<TIME\> vorgeben.
 
--   They can also be set by selecting fixtures and entering into the
-    attribute times sub-menus from the \<Time\> key.
+-   Ebenso kann man auch die Geräte auswählen und mit der \<TIME\>-Taste
+    in den jeweiligen Untermenüs individuelle Zeiten einstellen.
 
--   There is also command syntax that allows various options to set
-    attribute time values - e.g. \<Time\> \<Fixture\> \<Position\> 5 @ 3
-    would set a 5s fade, 3s delay time onto the current fixture
-    selection P group. Wheel @ keys can also be used in the syntax. Fan
-    options are also available through syntax using THRO.
+-   Schließlich gibt es auch eine Syntax, um Zeiten per Tastatur
+    einzustellen. So setzt z.B. die Tastenfolge\
+    \<TIME\> \<FIXTURE\> \<Position\> 5 \<@\> 3 
+    5s Fadezeit, 3s Delayzeit für die Positionsattribute der gerade
+    ausgewählten Geräte. Die @-Tasten lassen sich auch in der
+    Tastatursyntax verwenden, und mittels \<THRO\> ergeben sich auch
+    Optionen zum Auffächern.
 
-Setting a time attribute value will cause the \'in programmer\'
-indication to light up.
+Wird für ein Attribut eine Zeit vergeben, so wird dieses Attribut
+als \'im Programmierspeicher\' angezeigt.
 
-The Channel Grid window has a Times context menu button which allows you
-to view or edit all the attribute times currently in the programmer. You
-can set a time to Off to temporarily disable it; the On option will
-restore the previous setting.
+In der Kanalübersicht (Channel Grid) gibt es eine
+Kontext-Schaltfläche \[Times\], damit lassen sich alle momentan im
+Programmierspeicher befindlichen Zeiten anzeigen und editieren. Mit
+Off können die Zeiten temporär deaktiviert und mit Off wieder
+aktiviert werden.
 
-You can try out time settings by pressing \<Avo\> + \<Time\> or double
-tap the \<Time\> button. (previously the \<Set\> button on Titan
-Mobile/Sapphire Touch and the \<Next Time\> button on Tiger Touch/Pearl
-Expert).
+Zeiten können auch getestet werden: dazu dient die Kombination
+\<Avo\>+\<TIME\>, oder Sie drücken zweimal die Taste \<TIME\>.
 
-## Clearing Attributes Using "Off"
+Auf früheren Konsolen liegt die Funktion der Taste \<TIME\> entweder
+auf der Taste \<SET\> (Titan Mobile/Sapphire Touch) oder auf der
+Taste \<NEXT TIME\> (Tiger Touch/Pearl Expert).
 
-Once you have changed an attribute, the value you set will be in the
-programmer and will be stored in any cues or palettes you create. If
-you've accidentally changed something and don't want to store it, you
-can use the Off function to remove it from the programmer.
+## Attribute mit "Off" deaktivieren
 
-1. Press \<Off\> to display the Off menu.
+Wurde ein Attribut editiert, so ist der aktuelle Wert im Programmer, und
+kann entsprechend in Cues und Paletten gespeichert werden. Wurde ein
+Wert versehentlich editiert (und in den Programmer gebracht) und soll
+aber nicht gespeichert werden, so kann er mittels Off deaktiviert
+werden.
 
-2. Use the Attribute Bank buttons to toggle which attributes you want
-to change. Then press the \[Attributes Off\] softkey to set them to Off.
+1. Drücken Sie die Taste \<Off\>, um das Off-Menü zu öffnen.
 
-3. The softkeys also give you options to turn off active attributes,
-such as \[Dimmer Off\].
+2. Wählen Sie die Attribut-Bänke, um die entsprechenden Attribute zu
+deaktivieren. Drücken Sie dann auf \[Attributes Off\].
 
--   To remove complete fixtures, select the fixtures, press \<Off\> then
-    \[Selected Fixtures Off\].
+3. Mit den Menütasten lassen sich auch einzelne Attribute Off schalten,
+z.B. mit \[Dimmer Off\].
+
+
+-   Um komplette Geräte im Programmer zu deaktivieren, wählen Sie diese
+    an, drücken \<Off\> und dann \[Selected Fixtures Off\].

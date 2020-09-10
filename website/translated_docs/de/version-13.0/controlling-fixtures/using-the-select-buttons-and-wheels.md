@@ -233,28 +233,28 @@ Um in die normale Anzeige zu wechseln, wählen Sie \<Unfold\>, dann
 Einzelne Zellen lassen sich auch über eine spezielle Syntax mit den
 Zifferntasten auswählen (\<THRO\> ist auf manchen Pulten \'Through\'):
 
-|Tasten 	|Auswahl |
-|----   	|------  |
-|\<.\>  	|Alle Zellen der gewählten Geräte                    |
-|n \<.\>            |Alle Zellen von Gerät n |
-|\<.\> \<THRO\> \<.\> j    |Zellen 1 bis j aller gewählten Geräte    |     
-|n \<.\> \<THRO\>       |Alle Zellen der Geräte ab Nr. n des jeweiligen Typs |
-|n \<THRO\> \<.\> j      |Kurzform, s.o.                              |
-|n \<.\> \<THRO\> i     |Zellen 1 bis i von Gerät n |
-|\<.\> m          		|Zelle m aller ausgewählten Geräte           |
-|n \<.\> \<THRO\> i \<.\> j   |Zellen 1 bis j der Geräte n bis i  |
-|\<.\> m \<THRO\>      |Zellen ab m der gewählten Geräte      |
-|n \<.\> m            |Zelle m von Gerät n  |
-|\<.\> m \<THRO\> \<.\> j   |Zellen m bis j aller gewählten Geräte     |    
-|n \<.\> m \<THRO\>       |Zellen ab m des Gerätes n  |
-|\<.\> m \<THRO\> j    |Kurzform, s.o.                   |           
-|n \<.\> m \<THRO\> i     |Zellen m bis i von Gerät n  |
-|n \<THRO\> i \<.\>    |alle Zellen der Geräte n bis i  |                
-|n \<.\> m \<THRO\> i \<.\>    |Zellen ab m der Geräte n - i |
-|n \<THRO\> i \<.\> j   |Zelle j der Geräte n - i             |        
-|n \<.\> m \<THRO\> i \<.\> j   |Zellen m - j der Geräte n - i |
-|n \<THRO\> \<.\> j    |Zellen 1 - j von Gerät n         |             
-|n \<.\>m \<THRO\> \<.\> j     |Zellen m - j von Gerät n |
+| Tasten                                         | Auswahl                                                 |
+|------------------------------------------------|---------------------------------------------------------|
+| \<.\>  	                                     | Alle Zellen der gewählten Geräte                        |
+| **n** \<.\>                                    | Alle Zellen von Gerät **n**                             |
+| \<.\> \<THRO\> \<.\> **j**                     | Zellen 1 bis **j** aller gewählten Geräte               |     
+| **n** \<.\> \<THRO\>                           | Alle Zellen der Geräte ab Nr. **n** des jeweiligen Typs |
+| **n** \<THRO\> \<.\> **j**                     | Kurzform, s.o.                                          |
+| **n** \<.\> \<THRO\> **i**                     | Zellen 1 bis **i** von Gerät **n**                      |
+| \<.\> **m**          		                     | Zelle **m** aller ausgewählten Geräte                   |
+| **n** \<.\> \<THRO\> **i** \<.\> **j**         | Zellen 1 bis **j** der Geräte **n** bis **i**           |
+| \<.\> **m** \<THRO\>                           | Zellen ab **m** der gewählten Geräte                    |
+| **n** \<.\> **m**                              | Zelle **m** von Gerät **n**                             |
+| \<.\> **m** \<THRO\> \<.\> **j**               | Zellen **m** bis **j** aller gewählten Geräte           |    
+| **n** \<.\> **m** \<THRO\>                     | Zellen ab **m** des Gerätes **n**                       |
+| \<.\> **m** \<THRO\> **j**                     | Kurzform, s.o.                                          |
+| **n** \<.\> **m** \<THRO\> **i**               | Zellen **m** bis **i** von Gerät **n**                  |
+| **n** \<THRO\> **i** \<.\>                     | alle Zellen der Geräte **n** bis **i**                  |
+| **n** \<.\> **m** \<THRO\> **i** \<.\>         | Zellen ab **m** der Geräte **n** - **i**                |
+| **n** \<THRO\> **i** \<.\> **j**               | Zelle **j** der Geräte **n** - **i**                    |
+| **n** \<.\> **m** \<THRO\> **i** \<.\> **j**   | Zellen **m** - **j** der Geräte **n** - **i**           |
+| **n** \<THRO\> \<.\> **j**                     | Zellen 1 - **j** von Gerät **n**                        |
+| **n** \<.\> **m** \<THRO\> \<.\> **j**         | Zellen **m** - **j** von Gerät **n**                    |
 
 -   Die Auswahl von Zellen kann als separate Gruppe gespeichert werden.
     Damit können später verschiedene Zusammenstellungen von Zellen

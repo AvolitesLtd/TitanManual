@@ -5,197 +5,215 @@ sidebar_label: Fixture Groups
 original_id: fixture-groups
 ---
 
-Using Fixture Groups
---------------------
+Verwenden von Geräte-Gruppen
+----------------------------
 
-You can create groups of fixtures or dimmer channels, which can then be
-quickly selected together by pressing a single button or typing the
-group number. You can, for example, make a group for each type of
-fixture, then also group by stage left / stage right, etc.
+Sie können Geräte zu Gruppen zusammenfassen, um mit einem einzigen Klick
+(im Fenster ‚Groups') die so zusammengefassten Geräte auszuwählen oder
+die Gruppen numerisch anzuwählen. Beispiele wären etwa, alle Geräte
+gleichen Typs zu einer Gruppe zusammenzufassen, Gruppen für Stage
+Left/Stage Right etc.
 
-If you have a lot of fixtures, clever use of groups will greatly
-increase your programming speed.
+Beim Arbeiten mit vielen Geräten sind Gruppen eine unschätzbare
+Arbeitserleichterung.
 
 ![Groups Window](/docs/images/Groups-Window.png)
 
-Groups can be stored in the Groups window, on fader handles or on
-Macro/Executor buttons.
+Gruppen können in verschiedene Fenster (nicht nur das Gruppen-Fenster),
+auf Fader-Playbacks und auf Macro/Exekutor-Tasten gespeichert werden.
 
-If you assign a group to a handle with a fader, the fader becomes an
-intensity master for the group. You can also set different functions for
-the buttons using [Key Profiles](../system-settings/key-profiles.md).
+Wird eine Gruppe auf einen Fader gespeichert, so fungiert dieser als
+Helligkeits-Masterregler für die Gruppe. Dazu lassen sich mittels [Tastenprofil](../system-settings/key-profiles.md) verschiedene Funktionen der Tasten
+wählen. 
 
-### Record a Group
+### Eine Gruppe speichern
 
 [](https://youtu.be/E8QxOKT5TCA?t=20 "Recording Groups")
 
-If the Groups window is not visible, you can show it by pressing
-\<View/Open\>, \<Group\> (above numeric keys).
+Wird das Gruppen-Fenster nicht angezeigt so lässt es sich mit \<View /
+Open\>, \<Groups\> aufrufen.
 
-1. Select the fixtures/dimmers you want in the group (the order in
-which you select them will also be stored in the group).
+1. Wählen Sie die Geräte aus, die Sie zu einer Gruppe zusammen­fassen
+wollen (auch die Reihenfolge der Auswahl wird in der Gruppe
+gespeichert).
 
-2. Press \<Group\> (top right of the numeric keys) then \[Record
-Group\]. You can also press \<Record\> then \<Group\>.
+2. Drücken Sie die graue Taste \<Group\> (rechts oberhalb des
+Ziffernblocks), dann \[Record Group\]. Ebenso können Sie \<Record\>,
+\<Group\> drücken.
 
-3. Use softkey A to enter a number for the group, or B \[Provide a
-legend\] to set a legend.
+3. Benutzen Sie die Menütaste A, um die Gruppe mit einer Nummer zu
+versehen, oder B \[Provide a legend\], um eine Bezeichnung zu vergeben.
 
-4. Touch an empty button in the Groups window, or press the grey button
-of a fader handle where you want to store the group (not the main
-playback faders), or press C \[Store\] to store as a numbered group.
+4. Betätigen Sie eine freie Gruppen-Schaltfläche oder eine blaue
+Playback-Taste oder eine Macro/Executor-Taste, um die Gruppe zu
+speichern, oder drücken Sie C \[Store\], um die Gruppe als nummerierte
+Gruppe zu speichern.
 
-5. Press \<Clear\> then repeat from 1 to store other groups.
+5. Drücken Sie \<Clear\>, und wiederholen Sie die Schritte für weitere
+Gruppen.
 
--   You can also press \<Avo\> and \<Group\> to go directly to the
-    Record Group menu, or on the screen touch the button twice to use
-    Quick Record - on the first touch the button will turn red with a
-    +, on the second touch the group will be recorded.
+-   Ebenso kommt man mit \<AVO\>+\<Group\> direkt in das 'Record
+    Group'-Menü (um Gruppen zu speichern). Oder Sie klicken zweimal auf
+    eine freie Gruppen-Schaltfläche, um die Schnellspeicher­funktion zu
+    nutzen: beim ersten Klick wird die Schaltfläche rot mit einem +,
+    beim zweiten Klick wird die Gruppe gespeichert.
 
 ![Quick Record](/docs/images/Quick-Record.png)
 
--   To select all the fixtures/dimmers in a group, just press the button
-    for the group.
+-   Um die Geräte einer Gruppe anzuwählen, klicken Sie einfach auf die
+    Schaltfläche der Gruppe.
 
--   The order in which you originally selected the fixtures when
-    creating the group is also stored. This takes effect when you use
-    the last fixture - next fixture functions described in the [next section](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups), and when you use Shapes, Fan mode and Fixture Overlap
-    functions. You can change this later, see the [next section](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).\
-    You can override the selection order while recalling a group by
-    holding down the group button and using the softkey options.
+-   Die Reihenfolge der Auswahl der einzelnen Geräte beim Anlegen der
+    Gruppe wird ebenfalls gespeichert. Dies wirkt sich später aus bei
+    den Funktionen 'Last Fixture' -- 'Next Fixture' (siehe [nächster
+    Abschnitt](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)), beim Programmieren von Abläufen, dem Fan-Modus sowie der
+    Überlappungsfunktion.\
+	Die Reihenfolge lässt sich später auch
+    ändern, siehe [nächster Abschnitt](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).\
+    Die Reihenfolge innerhalb der Gruppe lässt sich beim Aufrufen
+    überschreiben: halten Sie dazu die jeweilige Gruppen-Taste/den
+    Button gedrückt, und wählen Sie die entsprechende Funktion mit den
+    Menütasten.
 
--   You can also recall a group by its number:
+-   Gruppen lassen sich auch anhand ihrer Nummer aufrufen:
 
-1. Press \<Group\>.
+1. Drücken Sie die graue \<Group\>-Taste.
 
-2. Type in the number of the group you want to recall.
+2. Tippen Sie die Nummer der auszuwählenden Gruppe ein.
 
-3. Press \[Recall Group\].
+3. Drücken Sie \[Recall Group\].
 
--   The \<Group\> button also gives you facilities on the softkeys to
-    edit and delete groups.
+-   Beim Betätigen der \<Group\>-Taste ergeben sich auf den Menütasten
+    Optionen zum Ändern und Löschen von Gruppen.
 
--   You can use \<Select If\> to deselect a group of fixtures from a
-    selection. This can be useful to select a subset of fixtures from a
-    group. For example if you have a group for the outside edges of a
-    5x5 matrix, and a group which selects odd and even pixels from the
-    matrix, you can select the outside edge, then use \<Select If\> with
-    the odd/even group to remove the alternate pixels round the edge.
+-   Mittels \<Select If\> lassen sich auch Gerätegruppen aus einer
+    Selektion wieder abwählen. Damit lässt sich z.B. eine Teilmenge von
+    Geräten aus einer größeren Gruppe wieder abwählen. Hat man z.B. eine
+    Gruppe von Geräten am Rand einer 5x5-Matrix sowie eine andere
+    Gruppe, die nur die ungeraden Geräte der Matrix enthält, so kann man
+    nun zuerst die Gruppe ‚Rand' auswählen, dann \<Select If\> drücken
+    und die Gruppe ‚Ungerade' wählen -- daraufhin werden die ungeraden
+    Geräte am Rand ausgewählt.
 
-### Deleting Fixtures from Groups
+### Geräte aus Gruppen entfernen
 
-To remove fixtures from a group:
+Um Geräte aus Gruppen zu löschen:
 
-1. Press \<Group\>.
+1.  Drücken Sie die graue \<Group\>-Taste.
 
-2. Press the button for the group you want to change. All fixtures
-currently in the group will be selected.
+2.  Klicken Sie die gewünschte Gruppe an. Darauf werden alle enthaltenen
+    Geräte angewählt.
 
-3. Deselect the fixtures you want to remove from the group.
+3.  Klicken Sie die Geräte an, die entfernt werden sollen, um sie
+    abzuwählen.
 
-4. Press \<Exit\>.
+4.  Verlassen Sie das Menü mit \<Exit\>.
 
-The group will now only contain the fixtures which remained selected.
+Die Gruppe enthält nun nur die Geräte, die am Schluss noch ausgewählt
+waren.
 
-### Auto Groups
+### Auto-Gruppen
 
-When patching multiple fixtures, the console automatically creates
-groups for you. A fixture type group is created which contains all
-fixtures of the same type (for example, \[All Robe Pointe\]). Another
-group is created each time you patch a quantity of fixtures (for
-example, \[4 BB4\].) This function can be turned off using \[Auto
-Groups\] in the User Settings.
+Beim Patchen mehrerer Geräte werden diese automatisch zu Gruppen
+zusammengefasst. So werden Gruppen pro Gerätetyp erstellt, die alle
+Geräte dieses Typs enthalten (z.B. \[All Robe Pointe\]). Eine weitere
+Gruppe wird pro Patchvorgang erstellt, wenn mehrere Geräte gepatcht
+werden, z.B. \[4 BB4\]. Diese Funktion kann mit der Benutzereinstellung
+\[Auto Groups\] deaktiviert werden.
 
-Fixture Order and Fixture Layout in Groups
-------------------------------------------
+Gerätereihenfolge und -anordnung in den Gruppen
+------------------------------------------------
 
-Fixtures in a group are stored with a selection order, which is used
-with Shapes, Fan, and Overlap. You can also store a 2D position layout
-for fixtures, giving the actual physical location of fixtures for use
-with Shapes or Pixel Mapper effects or when selecting fixtures using
-patterns.
+In den Gruppen werden nicht nur die ausgewählten Geräte, sondern auch
+deren Reihenfolge gespeichert, welche z.B. bei Shapes, beim Fan
+(Auffächern) sowie beim Überlappen zur Anwendung kommt. Ebenso lässt
+sich die 2D-Position speichern, um für Shapes und Pixelmapper-Effekte
+die tatsächliche Position des Geräts vorzugeben oder um diese bei der
+Auswahl nach Muster zu verwenden.
 
-### Fixture Order
+### Gerätereihenfolge
 
 [](https://youtu.be/2TqYjvGoGXQ?t=20 "Fixture Order")
 
-To change the numerical fixture order:
+Zum Ändern der numerischen Geräte-Reihenfolge:
 
-1. Press \<Group\>.
+1.  Drücken Sie die Taste \<Group\>.
 
-2. Select the group you want to edit.
+2.  Wählen Sie die Gruppe aus, die Sie editieren möchten.
 
-3. Press \[Fixture Order\].
+3.  Drücken Sie \[Fixture Order\].
 
-The fixtures in the group will be shown numbered in the fixtures window.
+Im Geräte-Fenster werden nun Zahlen für die einzelnen Geräte
+eingeblendet.
 
 ![Fixture Order](/docs/images/Fixture-Order.png)
 
-To change the order, select \[Auto Increment\] to On, then select the
-fixtures in the order you want. If you press a fixture twice, it will
-show an X indicating that it is not part of the sequence.
+Um die Reihenfolge zu ändern, schalten Sie \[Auto Increment\] auf On,
+und klicken dann in der gewünschten Reihenfolge auf die Geräte. Wird
+doppelt auf ein Gerät geklickt, so wird mit einem X angezeigt, dass es
+nicht Teil der Reihenfolge ist.
 
-### Fixture Layout
+### Geräteanordnung
 
 [](https://youtu.be/9S5nQmVpPNs?t=20 "Fixture Layout")
 
-To change the 2D fixture layout:
+Zum Ändern der 2D-Geräte-Anordnung:
 
-1. Press \<Group\>
+1.  Drücken Sie die Taste \<Group\>.
 
-2. Select the group you want to edit.
+2.  Wählen Sie die Gruppe aus, die Sie editieren möchten.
 
-3. Press \[Edit Layout\]. The Layout Editor window will open.
+3.  Drücken Sie \[Edit Layout\]. Das Fenster 'Layout Editor' öffnet
+sich.
 
-Initially fixtures will be all in a row. You can reposition the fixtures
-anywhere on the screen by dragging them. Or press a fixture to select
-then use the wheels to move it around the grid. You can resize the grid
-by dragging the bottom or right sides.
+Zunächst sind alle Geräte in einer Zeile nebeneinander angeordnet. Die
+Anordnung ändert man einfach, indem man ein Gerät auf seine neue
+Position zieht. Ebenso kann man einzelne Geräte durch Anklicken
+markieren und die Position mit den Rädern verändern. Zum Ändern der
+Gesamtgröße der Anordnung dient die rechte und untere Seite des Rasters
+- ebenfalls klicken und ziehen.
 
-Multi-celled fixtures appear showing all the cells but when moved or
-rotated, move as a block. Depending on the fixture personality,
-sometimes the cells may not match the actual physical layout of the
-cells on the fixture.
+Geräte mit mehreren Zellen werden mit allen Zellen dargestellt, können
+im Layout jedoch nur als ganzes verschoben und rotiert werden. Das
+Layout der Zellen wird in der jeweiligen Personality festgelegt.
 
-The \[Arrange Fixtures\] context command will automatically place the
-fixtures in a rectangular block, you specify the number of rows (Height)
-and columns (Width).
+Mit \[Arrange Fixtures\] werden die Geräte automatisch in einem Rechteck
+entsprechend den Vorgaben für Rows (Zeilen, Höhe) und Columns (Spalten,
+Breite) angeordnet.
 
 ![Layout Editor](/docs/images/Layout-Editor.png)
 
--   The X-coordinate of the fixture layout is the same as the Fixture
-    Order. Changing one will cause the other to change.
+-   Die X-Koordinate entspricht dabei der Geräte-Reihenfolge. Ändert man
+    das diese, so ändert sich auch die erstere.
 
--   When setting the grid size, think about leaving space between
-    fixtures to more accurately match the real world layout, and make
-    sure you have enough cells in the grid for all the cells of the
-    fixtures you need to fit in.
+-   Es empfiehlt sich, auch die Abstände zwischen den Geräten
+    maßstabsgerecht mit in das Layout zu übernehmen und die Gesamtgröße
+    entsprechend anzupassen.
 
--   It is possible to accidentally overlay one fixture on another,
-    making the bottom fixture hidden. To access overlaid fixtures, drag
-    off the fixture which is hiding it, or select the hidden fixture and
-    use the wheels to move it somewhere visible.
+-   Wenn man versehentlich mehrere Geräte genau übereinander platziert
+    hat, zieht man entweder das im Vordergrund auf eine andere Position,
+    oder man wählt das verdeckte z.B. über die Zifferntasten oder mit
+    \<Fix+1\> aus und verschiebt es mithilfe der Räder.
 
--   You can use the Fan button to evenly spread fixtures in the layout.
+-   Mit der \<Fan\>-Funktion können Geräte gleichmäßig verteilt werden.
 
--   To move or rotate fixtures, select and drag, or use the wheels. You
-    can click on the "up" and "down" areas in the wheel display to nudge
-    the values up and down - 1 pixel for position and 45 degrees for
-    rotate. If you press the @ button for the wheel, a window opens
-    allowing you to type in the values numerically.
+-   Um Geräte zu verschieben oder zu rotieren, klicken und ziehen Sie
+    auf dem Display oder verwenden die Räder. Dazu kann man auch auf die
+    betreffenden Up/Down-Flächen der Räder im Display klicken, um die
+    Werte zu ändern (+/- 1 px oder +/- 45°). Mit der @-Taste des
+    jeweiligen Rades lässt sich auch der Wert numerisch eingeben.
 
--   If you click the context menu button \[Position and Angle\] it will
-    change to \[Scale\] which allows you to spread out or compress the
-    cells in a multi-cell fixture. This is useful to get cells located
-    correctly if you have some fixtures with large cell spacing and some
-    with small spacing.\
+-   Klickt man im Kontextbereich auf \[Position and Angle\], so wechselt
+    die Funktion zu \[Scale\], und die Zellen in den betroffenen geräten
+    lassen sich auffächern. Damit lassen sich z.B. die Zellgrößen bzw.
+    Abstände unterschiedlicher Gerätetypen angleichen.\
 
     ![Position](/docs/images/Position-2.png)
 
     ![Scale](/docs/images/Scale.png)
 
--   The Layout Editor is described in more detail with examples in the
-    [Pixel Mapper section](../effects/pixel-mapper.md). There are also some features
-    to help with [Synergy/Ai mapping](../synergy/operating-synergy.md#layout-editor-with-ai-server).
+-   Weitere Details und Beispiele zum Layout-Editor gibt es im Abschnitt
+    zum [Pixel Mapper ](../effects/pixel-mapper.md). Es gibt außerdem
+    spezielle Funktionen zur Verwendung des Layouts mit [Ai/Synergy](../synergy/operating-synergy.md#layout-editor-with-ai-server).
 
-> You can temporarily randomize the fixture order when selecting fixtures using a group by holding down the group button and pressing \[Random Order\] which appears as a softkey option while the button is held.
+> Um die enthaltenen Geräte vorübergehend in zufälliger Reihenfolge auszuwählen, halten Sie den Gruppen-Button gedrückt und wählen mit den Menütasten \[Random Order\].

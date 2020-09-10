@@ -5,154 +5,165 @@ sidebar_label: Viewing and Editing Fixture Values
 original_id: viewing-and-editing-fixture-values
 ---
 
-The Channel Grid Window
------------------------
+Übersicht über die Kanäle: Das 'Channel Grid'-Fenster
+-----------------------------------------------------
 
-It can sometimes be useful to display and edit exactly what each fixture
-is doing. The Channel Grid window allows you do to that. Display it by
-pressing \<View/Open\> then \[Open workspace window\] then \[Channel
+Zuweilen ist es sinnvoll, die genauen Einstellungen jedes Gerätes
+einzeln anzeigen und ändern zu können. Das 'Channel Grid'-Fenster
+ermöglicht genau das. Aufgerufen wird es durch Betätigen der weißen
+\<Channel Grid\>-Taste, oder durch \[Open workspace window\], \[Channel
 Grid\].
 
 ![Channel Grid](/docs/images/Channel-Grid.png)
 
-The window can be set to different modes using the context buttons to
-the left of the menu. The modes are:
+Das Fenster lässt sich mit den Kontext-Schaltflächen links vom Menü in
+verschiedene Modi schalten:
 
--   All / Stage / Programmer / Selected: lets you filter which fixtures
-    are shown in the list. Stage lists all fixtures with dimmer above
-    zero.
+-   All/Stage/Programmer/Selected: Auswahl der angezeigten Geräte
+    (Alle/Mit Dimmer an/Im Programmer/In der Auswahl)
 
--   Sort: Sets the list order as User Number, Last Selected or DMX
-    Address
+-   Sort. Sortierung nach Nummer, DMX-Adresse oder zuletzt gewählt
 
--   Open Intensity View: Opens the intensity view window. You can swap
-    back to the Channel Grid by pressing the Open Channel Grid button in
-    that window which is in the same position.
+-   Open Intensity View: damit kann man direkt die das Intensity-Fenster
+    öffnen (und von dort mit der gleichen Funktion wieder
+    zurückwechseln)
 
--   Show/Hide Palettes: lets you show which palettes are allocated to
-    fixture attributes
+-   Show/Hide Palettes: Anzeigen von Paletten oder diskreten Werten
 
--   Playbacks / Levels / Shapes / Effects / Times: Only one of these
-    buttons can be selected, and sets what is displayed in the columns.
+-   Playbacks/Levels/Shapes/Effects/Times: nur einer dieser Modi kann
+    jeweils angezeigt werden.
 
-You can **select** fixtures by touching the fixture names on the left of
-the screen, or if you select any fixture values, the appropriate fixture
-will automatically be selected.
+Zur **Auswahl** von Geräten klicken Sie einfach links auf den
+Gerätenamen; wird ein Attribut ausgewählt, so wird automatisch das
+zugehörige Gerät angewählt.
 
-You can **clear** attributes in the channel grid by selecting them
-(touch or touch and drag to select multiple attributes). Then press
-\<Clear\>.
+Zum **Löschen** eines Attributwerts im 'Channel Grid'-Fenster klicken
+Sie auf den zu löschenden Wert (oder wählen mit Klicken-Ziehen mehrere
+aus) und wählen \[Clear\].
 
-You can **edit values** by selecting one or more values in the grid,
-then modify the values using the wheels, or type a new value on the
-numeric keypad and press \<Enter\>.
+Zum **Ändern** wählen Sie den oder die zu ändernden Wert(e) aus und
+ändern den Wert mit den Rädern, oder geben den gewünschten Wert mit den
+Zifferntasten ein und schließen die Eingabe mit \<Enter\> ab.
 
-You can filter what is shown in the grid either by IPCGBES attribute
-(using the buttons top left) or by fixture type (using the buttons below
-that).
+Die Anzeige lässt sich über die Schaltflächen oben links weiter filtern:
+entweder mit den Buttons IPCGBES für die einzelnen Attribute, oder mit
+den Buttons darunter nach Gerätetyp.
 
-Intensity Window
-----------------
+Das Fenster "Intensity"
+-----------------------
 
-If you want to see at a glance the intensity setting of each fixture,
-the Intensity window is the place to be. To show the window, press
-\[Open workspace window\] then \[Intensity\].
+Um einen raschen Überblick über die momentan aktiven Scheinwerfer zu
+gewinnen, dient das Fenster „Intensity" (die Intensity-Ansicht). Um
+dieses zu öffnen, drücken Sie \[Open Workspace Window\] (Fenster öffnen)
+gefolgt von \[Intensity\].
 
 ![Intensity View](/docs/images/Intensity-View.png)
 
-Each fixture has a block showing the intensity as a number and as a bar
-down the left side. The header bar shows selection/programmer state like
-fixture buttons -- blue for selected and cyan for in programmer.\
-Rising or falling intensity is shown with a blue up arrow or a green
-down arrow.\
-Tracked values from previous cues are shown with a magenta equals sign.\
-In a solo or block cue a red "not permitted" symbol is shown.
+Für jedes Gerät wird ein Button angezeigt mit einer Balkenanzeige und
+numerischer Anzeige des aktuellen Helligkeitswerts. Der Kopfbereich
+jedes Buttons zeigt wie gewohnt den Auswahl- und Programmerstatus
+(blau=angewählt, cyan=im Programmer).\
+Einfadende Werte werden durch einen blauen Pfeil nach oben, ausfadende
+Werte durch einen grünen Pfeil nach unten dargestellt.\
+Getrackte Werte erscheinen in Magenta mit einem "=".\
+Getrackte Werte in einem Solo- oder Block-Cue erscheinen rot mit einem
+Verbotszeichen.
 
 ![Solo/Block Cue](/docs/images/Solo-Block-Cue.png)
 
-If intensity levels are controlled by an effect they are shown in yellow
-with a tilde symbol (\~).
+Werte, die von einem Effekt beeinflusst werden, erscheinen gelb mit
+einer Tilde ( \~ ).
 
-If the intensity is controlled from a cue or cue list the name of the
-cue will be shown.
+Wird ein Wert von einem Playback gesteuert, so wird dieses angezeigt.
 
-The IPCGBESFX states of the fixture are also highlighted if any
-attributes have been set in the programmer.
+Ist ein Gerät im Programmer, so werden die relevanten Attribut-Bänke
+IPCGBESFX entsprechend angezeigt.
 
-If colour halos are set for the fixture buttons, the halo is also
-displayed around the fixture intensity. This option can be changed to
-show the automatic fixture colours, see below.
+Wurden für die Geräte Halos eingestellt, so werden diese auch hier
+angezeigt. Dies kann wie beschrieben so geändert werden, dass die
+automatisch vergebenen Farben angezeigt werden.
 
--   Filter the view to show only a certain type of fixture using the
-    buttons on the left
+-   Mittels der Buttons links kann nach einzelnen Gerätetypen gefiltert
+    werden.
 
--   Change the display order of the fixtures using the \[Sort\] context
-    menu buttons - User Number, Last Selected or DMX Address.
+-   Die Reihenfolge der Anzeige kann man mittels \[Sort\] verändern:
+    User Number, zuletzt gewählt, oder DMX-Adresse.
 
--   Click on a fixture to select it, you can then edit the intensity
-    directly.
+-   Jedes Gerät lässt sich direkt anklicken und man kann sofort den
+    Helligkeitswert editieren.
 
--   Press \<View/Open\> followed by a fixture button to show more
-    detailed information about the fixture.
+-   Zur Anzeige weiterer Informationen zu dem einzelnen Gerät drücken
+    Sie \<View\ / Open\> gefolgt von dem jeweiligen
+    Geräte-Button.
 
-The context menu options give you settings to change how the window is
-displayed.
+Mit den Kontext-Optionen lässt sich Inhalt und Anzeige des
+Intensity-Fensters genau steuern.
 
-The first option lets you only show fixtures in a particular state:\
-All - all fixtures (default)\
-Stage - fixtures with intensity above zero\
-Programmer - fixtures in the programmer\
-Selected - fixtures which are selected\
-Live cues - only intensities coming from active cues\
-Connected cue - only fixtures in the currently connected cue (for cue
-lists or chases)\
-Frozen - fixtures with frozen intensity
+Der erste Button steuert, welche Geräte überhaupt angezeigt werden:\
+\[All\] zeigt alle gepatchten Geräte\
+\[Stage\] zeigt alle Geräte mit Intensität >0%\
+\[Programmer\] zeigt nur die im Programmer befindlichen Geräte\
+\[Selected\] zeigt nur die aktuell ausgewählten Geräte\
+\[Live Cues\]: Anzeige der Geräte, die gerade von aktvierten Cues 
+gesteuert werden\
+\[Connected Cue\]: Geräte im gerade connected (verbundenen) Cue (bei
+Cuelisten und Chasern)\
+\[Frozen\] zeigt nur aktuell fixierte Geräte an
 
-The second option changes sort order as described above
+Mit dem zweiten Button lässt sich wie oben beschrieben die Reihenfolge
+der Anzeige umschalten.
 
-\[Search\] allows you to enter characters to search for in the legend or
-user number, matching fixtures will be shown as you type. When Search is
-active a search bar is shown at the top of the window, click the X to
-remove the search filter or click on the text to modify the search
-string.
+Klickt man auf den Button \[Search\] (Suche), so kann man ein Suchwort
+eingeben, nach dem gefiltert werden soll. Dabei wird sowohl nach der
+Gerätenummer als auch der Bezeichnung gesucht. Die Such-Eingabe wird
+oben im Intensity-Fenster angezeigt. Rechts daneben ist eine
+Schaltfläche mit einem \[X\] -- mit dieser wird die Suche
+gelöscht/abgebrochen.
 
-\[View If\] lets you click on a group and/or playback to show only the
-fixtures in that group or playback. For a chase or cue list, this will
-include all fixtures in all the cues of the chase/list. The filter
-settings are shown in a bar at the top of the window, click the X to
-remove the filter or click on the bar to change the group/playback.
+\[View If\] (Zeige wenn) zeigt nur die in einzelnen Gruppen oder
+Playbacks vorhandenen Geräte. Handelt es sich dabei um eine Cueliste
+oder einen Chaser, so gilt das für alle Cues. Der aktuelle Anzeigefilter
+wird oben im Intensity-Fenster angezeigt und kann zum Ändern einfach
+angeklickt werden. Klickt man auf das \[X\], so wird der Filter
+gelöscht.
 
-\[Open Channel Grid\] opens the [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window).
+Es gibt ferner den Kontext-Button \[Open Channel Grid\] (Öffne Channel
+Grid), mit dem direkt die Kanal-Übersicht [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window) 
+geöffnet werden kann.
 
-In the **Window Appearance Settings** (cog button) there are further
-display options. Turning off some of the options will reduce the size of
-each fixture button which may be useful if you want to get more fixtures
-on the screen.
+In den **Fenster-Einstellungen** (erreichbar über die
+Zahnrad-Schaltfläche in der Titelleiste des Fensters) gibt es weitere
+Einstellmöglichkeiten, um den Platz bestmöglich auszunutzen:
 
--   Filter Fixtures Shown/Hidden: Shows or hides the fixture selection
-    buttons on the left
+-   Fixture Filters Shown/Hidden (Geräte Filter angezeigt/verborgen)
+    blendet links eine Spalte ein/aus, mit der nach Gerätetyp gefiltert
+    werden kann.
 
--   User Number Hidden/User Number Shown/DMX Address Shown: Sets what
-    information is shown in the top left corner of the button
+-   User Number Hidden/User Number Shown/DMX Address Shown (Nummer
+    angezeigt/DMX Adresse angezeigt/Nummer verborgen) bestimmt die
+    Anzeige von DMX-Adresse oder Gerätenummer.
 
--   Legend Shown/Hidden: Sets whether the fixture legend is shown in the
-    top bar
+-   Legend Shown/Hidden (Legende angezeigt/verborgen): Anzeige der
+    Legende.
 
--   Cue Information Shown/Hidden: Sets whether the button shows the
-    current cue information
+-   Cue Information Shown/Hidden (Cue Information angezeigt/verborgen):
+    Anzeige des Playbacks, das das jeweilige Gerät momentan steuert.
 
--   Attribute Mask Shown/Hidden: Sets whether the button shows the
-    IPCGBESFX settings
+-   Attribute Mask Shown/Hidden (Attribut Maske angezeigt/verborgen):
+    Einblenden der IPCGBESFX Attributmaske zur Anzeige aktiver
+    Attribute.
 
--   Halo Colour Custom/Auto: If set to Custom, buttons will have a halo
-    colour if you have set one, otherwise they will not have a halo. If
-    set to Auto, buttons will be coloured using the automatic fixture
-    type colour used in the filter buttons on the left.
+-   Halo Colour Custom/Auto (Halo Colour Benutzer/Auto): steht dies auf
+    Auto, so wird der Rahmen für jedes Gerät, für das nicht bereits eine
+    benutzerdefinierte Farbe vorgegeben ist, durch eine Farbe pro
+    Gerätetyp dargestellt. Gibt es bereits eine benutzerdefinierte
+    Farbe, so hat diese Vorrang. Steht die Option dagegen auf
+    ‚Benutzer', so werden nur benutzerdefinierte Farben dargestellt.
 
--   Fixture Cells Shown/Hidden: If set to Shown, separate buttons are
-    shown for cells (sub-fixtures) of any multi-celled fixture, along
-    with a master intensity.
+-   Fixture Cells Shown/Hidden (Geräte Zellen angezeigt/verborgen):
+    falls aktiviert werden für vorhandene Gerätezellen jeweils eigene
+    Gerätebuttons angezeigt.
 
--   Tracked Fixtures Shown/Hidden: (This option only appears when the
-    view is filtered to Live Cue or Connected Cue). Sets whether
-    fixtures with tracked intensity are shown or not.
+-   Tracked Fixtures Shown/Hidden (getrackte Geräte
+    angezeigt/verborgen): (Nur verfügbar bei Filterung nach Live Cue
+    oder Connected Cue) Anzeige getrackter Geräte.
