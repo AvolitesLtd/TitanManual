@@ -217,7 +217,7 @@ is as follows: (\<THRO\> is called Through on some consoles)
 
 | Keypresses         | Selection                      |
 |-----------------------|-------------------------------|
-|\<.\>                   |all sub fixtures of selection  |                    
+|\<.\>                   | All sub-fixtures of selection  | 
 |n \<.\>                |all sub fixtures of fixture n  |
 |\<.\> \<THRO\> \<.\> j |sub fixtures 1 - j of all selected fixtures  |       
 |n \<.\> \<THRO\>       |all sub fixtures of fixture n through last consecutive of that type |
