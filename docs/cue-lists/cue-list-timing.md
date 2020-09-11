@@ -102,7 +102,7 @@ seconds.
 Additionally you can set individual times for each attribute so you
 could make the pan fade over a different time to the tilt.
 
-To set times for an attribute group, first select the Set Times menu and
+To set times for an attribute group, first select the \[Edit Times\] menu and
 go to the cue you want to set as [described above](#time-and-fade-options-for-cue-lists), then press G \[Next\]
 to go to the second page of options.
 
@@ -110,8 +110,8 @@ to go to the second page of options.
 
 2. All fixtures in the cue will be selected. *If you don't want to
 change the times for any fixtures, deselect them now.* You can press the
-**ALL** button (below Next Time) to select all fixtures in the cue or
-**Shift + ALL** to deselect all fixtures.
+\<ALL\> button (below Next Time) to select all fixtures in the cue or
+\<Avo\> + \<ALL\> to deselect all fixtures.
 
 3. Press the softkey for the attribute group you want to change.
 
@@ -137,13 +137,11 @@ Press \[Fixture Overlap\] *(on the second page of the [Cue Times menu](#time-and
 then enter 0-100 on the keypad to change how fixtures overlap in the
 cue.
 
->   **100%** means all fixtures fade together *(the normal setting)*.
->
->   **0%** means that the first fixture will finish its fade before the next
->   one starts.
->
->   **50%** means that the 2^nd^ fixture will start fading when
->   the first one is half way through its fade.
+Overlap | Result
+--------|-------
+100%    | All fixtures fade together *(the normal setting)*.
+  0%    | The first fixture will finish its fade before the next one starts.
+ 50%    | The 2^nd^ fixture will start fading when the first one is half way through its fade.
 
 To change the fixture order when using overlap, press \[Set Fixture
 Order\]. Normally this is the order in which you selected the
@@ -192,7 +190,7 @@ timecode source.
 5. Start the timecode source. *If using internal timecode, press
 \[Play\] to start it.*
 
-6. Press the red **Go** button to step each cue at the time you wish the
+6. Press the red \<Go\> button to step each cue at the time you wish the
 cue to start.
 
 7. Press \[Record\] when you have finished.
@@ -205,14 +203,18 @@ When you start the timecode source (or press \[Play\] if using internal
 timecode), each cue will fire as the timecode matches its programmed
 time.
 
-You can edit the timecode for each cue by using **Wheel A** to select the
-cue, then press \<Enter\> and type the new timecode for the cue.
+In order to edit a cue's timecode, select the cue's timecode cell in Playback View
+and enter the correct time, or - using the menu buttons - press A \[Edit Times\],
+enter the cue number, toggle to the 3^rd^ page of this menu with \[Next\], click
+C \[Timecode = \] and enter the new timestamp.
+
 
 ![Playback View Window showing timecoded cues](/docs/images/Playback-View-Window-showing-timecoded-cues.png)
 
 While editing a time you can also use **Wheel B** to select multiple cues,
 and use the softkey options to enter a value to change the time of all
-the cues (offset, add a fixed time or subtract a fixed time).
+the cues: \[Timecode = \] sets the timecode directly while a value set with \[Offset = \] 
+can be used in \[Add + \] or \[Subtract - \], to shift all selected timestamps by this timespan.
 
 You can open a timecode display window for each of the four possible
 sources to show you the incoming timecode - press \[Open Workspace
