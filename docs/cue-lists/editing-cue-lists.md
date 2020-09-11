@@ -22,14 +22,14 @@ and the softkeys will offer you options for what you can change.
 To change multiple cues at once, draw a box across the items you want to
 change.
 
-The [Intensity View window](../controlling-fixtures/viewing-and-editing-fixture-values.md#intensity-window) is useful for seeing the state of all
-fixtures, see [Intensity View](../controlling-fixtures/viewing-and-editing-fixture-values.md#intensity-window) in [Viewing and Editing Fixture Values](../controlling-fixtures/viewing-and-editing-fixture-values.md).
+Also, the [Intensity View window](../controlling-fixtures/viewing-and-editing-fixture-values.md#intensity-window) is useful for seeing the state of all
+fixtures.
 
 Editing Values in Cue View Window
 ---------------------------------
 
 You can edit the value of every fixture in each cue using the Cue View
-window. Press the **View Cue** button at the right hand end of the [Playback
+window. Press the **View** button in the column *View Cue* at the right hand end of the [Playback
 View window](#playback-view-window).
 
 ![Cue View Window](/docs/images/Cue-View-Window.png)
@@ -162,9 +162,8 @@ have an Update button)*.
 3. Press \<Enter\> to immediately store the new values to the cue list.
 
 > Alternatively, the softkeys show a list of palettes and playbacks which 
-can be updated. Select or deselect these as required.
->
-> If you have used the softkey options, press \<Enter\> to complete
+can be updated. Select or deselect these as required.\
+If you have used the softkey options, press \<Enter\> to complete
 the update.
 
 If the attributes you have changed were [tracked](cue-list-playback.md#tracking) through from a
@@ -210,8 +209,8 @@ shown on the display above the controller wheel.
 
 4. Use the softkeys to set the times, linking and overlap settings
 you want (see [Cue List Timing](cue-list-timing.md) for a description of the
-times). If you set the \[Link to next step\] option to On, then the
-next cue will not wait for the \<Go\> button.
+times). If you set the link option to \[Link With Previous Cue\] or \[Link after Previous Cue\] 
+then this cue will not wait for the \<Go\> button but will start automatically.
 
 5. Press the \<Go\> button *(on Pearl Expert and Tiger Touch 1 the white ↔
 button)* to jump on to the next step.
@@ -275,8 +274,8 @@ Disabling a Cue
 ---------------
 
 You can temporarily disable a cue using the **Disable** option at the right
-hand end of the [Playback View window](#playback-view-window). Select the **Disabled** box and the
-softkeys let you set \[Cue Disabled\]. When a cue is set to **Disabled** it
+hand end of the [Playback View window](#playback-view-window). Tick the **Disabled** checkbox and the
+softkeys let you set \[Cue Disabled Yes\]. When a cue is set to **Disabled** it
 will be skipped. This can be a useful way to remove a cue, but still be
 able to put it back in later.
 
