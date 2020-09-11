@@ -159,8 +159,7 @@ Einstellung | Wirkung
 \[Disabled\] | deaktiviert MID für die gesamte Cueliste, auch wenn es ggf. für einzelne Cues aktiviert ist
 \[Early\] | startet die Bewegung zum frühestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben
 \[Late\] | beginnt die Bewegung zum spätestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben
-\[Off\] *(Vorgabe)* | schaltet MID für die gesamte Cueliste ab; MID kann aber für
-    einzelne Cues aktiviert werden
+\[Off\] *(Vorgabe)* | schaltet MID für die gesamte Cueliste ab; MID kann aber für    einzelne Cues aktiviert werden
 
 Zum Einstellen der Optionen für einzelne Cues nutzen Sie hingegen das Fenster ‚Playback View' der Cueliste. Es gibt folgende Optionen:
 

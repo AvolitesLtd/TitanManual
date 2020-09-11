@@ -5,53 +5,55 @@ sidebar_label: Copying, Moving, Linking and Deleting
 original_id: copying-moving-linking-and-deleting
 ---
 
-The [previous section](editing-cue-lists.md) also has other methods of [copying and moving
-individual cues within a cue list](editing-cue-lists.md#moving-and-copying-cues).
+In diesem Abschnitt wird das Verschieben/Kopieren kompletter Cuelisten
+erläutert; zum Kopieren/Verschieben/Löschen einzelner Cues innerhalb
+einer Liste siehe [voriges Kapitel](editing-cue-lists.md#moving-and-copying-cues).
 
-Copying or Moving a Cue List
-----------------------------
+Eine Cueliste verschieben oder kopieren
+---------------------------------------
 
-Cue lists can be copied or moved to a new playback, or you can create a
-linked copy of a playback. Move is useful for tidying up the console.
+Cuelisten lassen sich kopieren oder auf ein anderes Playback
+verschieben, oder Sie können eine Verknüpfung erstellen. Verschieben ist
+sinnvoll zum Erhalt einer aufgeräumten Arbeitsoberfläche.
 
-This operation is exactly the same as for Cues and is described in
-[Copying, Moving, Linking and Deleting](../cues/copying-moving-linking-and-deleting.md).
+Die Vorgehensweise ist die gleiche wie für Cues, und ist in Abschnitt
+[Kopieren, verschieben, verlinken, löschen](../cues/copying-moving-linking-and-deleting.md) genau beschrieben.
 
-Deleting a Cue List
--------------------
+Löschen einer Cueliste
+----------------------
 
-You can delete a whole cue list by pressing \<Delete\> then the **Select**
-button of the playback to be deleted. Confirm the deletion by pressing
-the select button again, or the \[Confirm\] softkey, or \<Enter\>.
+Um eine komplette Cueliste zu löschen, drücken Sie \<Delete\>, dann die
+**Select-Taste** der zu löschenden Cueliste, und schließlich die
+Select-Taste nochmals (oder \[Confirm\] oder \<Enter\>).
 
-Moving a Cue in a Cue List
---------------------------
+Einen Cue verschieben
+---------------------
 
-You can move an individual cue in a cue list by selecting it in the
-[playback view window](editing-cue-lists.md#playback-view-window) and changing the number using the \[Change to\]
-softkey. It will then move to the right place in the list, for example
-to go between cues 14 and 15 set the number to 14.5.
+Zum Verschieben eines Cue geben Sie diesem in der [Playback-Ansicht](editing-cue-lists.md#playback-view-window) 
+mit der Menütaste \[Change to\]) eine andere - passende - Cue-Nummer, und er
+wird automatisch passend verschoben. Soll er z.B. zwischen Cue 14 und 15
+eingefügt werden, so geben Sie ihm die Nummer 14.5.
 
-See section [Moving and Copying Cues](editing-cue-lists.md#moving-and-copying-cues) for more ways to move and copy cues,
-including ways to copy cues between different cue lists.
+Im Abschnitt [Moving and Copying Cues](editing-cue-lists.md#moving-and-copying-cues) sind weitere Möglichkeiten zum Verschieben und
+Kopieren dargestellt, mit denen man auch Cues zwischen verschiedenen
+Cuelisten verschieben/kopieren kann.
 
-Deleting a Cue from a Cue List
-------------------------------
+Löschen eines Schrittes aus einer Cueliste
+------------------------------------------
 
-To delete a single cue from a cue list:
+Um einen einzelnen Schritt zu löschen:
 
-1. Press the \<Delete\> button
+1. Drücken Sie die \<Delete\>-Taste.
 
-2. Press the **Swop** button of the cue list
+2. Drücken Sie die **Select-Taste** der Cueliste.
 
-3. The cues in the cue list are listed on the screen. Use **Wheel A** to
-select the cue you want to delete, or type in the number of thecue to be
-deleted.
+3. Auf dem Display werden nun die Schritte der Cueliste angezeigt.
+Wählen Sie mit dem **Encoder A** den zu löschenden Schritt, oder geben Sie
+dessen Nummer mit den Zifferntasten ein.
 
-4. Press \[Delete Cue x\] to delete the cue
+4. Drücken Sie \[Delete Cue x\], um den Schritt zu löschen.
 
-5. Press \[Confirm\] to confirm the delete
+5. Bestätigen Sie den Löschvorgang mit \[Confirm\].
 
-> Alternatively you can use the 
-[\<Unfold\> function](editing-cue-lists.md#editing-a-cue-list-using-unfold)
-to delete a cue from a cue list.
+> Alternativ lassen sich auch einzelne Schritte mit der
+  [\<Unfold\>-Funktion](editing-cue-lists.md#editing-a-cue-list-using-unfold) löschen.

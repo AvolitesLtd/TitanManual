@@ -5,110 +5,126 @@ sidebar_label: Cue List Options
 original_id: cue-list-options
 ---
 
-Cue list options are set from the playback [Options](../cues/playback-options.md). 
-Press \<Options\> (or the \[Options\] softkey on the top level menu then the **select** button for the cue list you wish to edit.
+ 
+Über das Menü [Options](../cues/playback-options.md) sind weitere Optionen 
+verfügbar. Drücken Sie dafür die Taste \<Options\> oder im Hauptmenü die 
+Menütaste \[Options\], und wählen Sie die gewünschte Cueliste (**blaue Taste**).
 
-You can also set the cue list options from the Cuelist View window by pressing \<View/Open\>
-then the **Select** button of the cue list, then click the **Options** tab.
+Oder drücken Sie \<View / Open\>, dann die entsprechende
+**Select-Taste**, und klicken links in der Playback-Ansicht auf
+\[Options\].
 
-The Cue List options are mostly the same as for [Cues](../cues/playback-options.md) and [Chases](../chases/chase-options.md), only
-the additional Cue List options are described here.
+---
 
---- 
+## Cue List Options -- Tab "Handle"
 
-## Handle Tab
+Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#handle-tab) beschrieben.
 
-All options are the same as for a cue, see [Options](../cues/playback-options.md#handle-tab).
+---
 
---- 
+## Cue List Options -- Tab "Playback"
 
-## Playback Tab
+Blind, Cross Fade HTP, Priority, Run On Startup funktionieren genauso wie im 
+Kapitel für Cues beschrieben (siehe [Options](../cues/playback-options.md)).
 
-Blind, Cross Fade HTP, Priority, Run On Startup are the same as for a cue and described in [Playback](../cues/playback-options.md#playback-tab).
-
-### Cue Links Disabled
-Unlinks all the cues in the cue list even if they are programmed as linked, so you need to press the Go button to move to the next cue.
+### Cue Links Disabled:
+Damit lassen sich sämtliche Cues so einstellen,
+dass sie nur per Go-Taste starten (und nicht automatisch folgen).
 
 ### Loop Action
-Sets what will happen at the end of the cue list
+Damit wird bestimmt, ob die Cueliste nach dem Durchlaufen wiederholt werden soll.
 
-Setting | Action
+Einstellung | Beschreibung
 --- | ---
-Stop on final cue | Cue list will stop advancing once it reaches the last cue *(default)*
-Loop | Cue list will go back to first cue after the last.* If Move in Dark is enabled, this will also loop.*
+Stop on final cue | Die Cueliste wird nur einmal durchlaufen und stoppt beim letzten Schritt.
+Loop | Die Cueliste wird nach Erreichen des letzten Cues wieder von Cue 1 wiederholt, wobei auch Move in Dark entsprechend ermittelt wird *(Vorgabewert)*.
 
 ### Move In Dark
-Sets the mode for the whole cue list *(see [Move In Dark (MID) Functions](cue-list-playback.md#move-in-dark-mid-functions))*.
+Einstellung für die gesamte Cueliste: Vorladen von
+LTP-Werten, solange Geräte nicht benutzt werden (keinen Output
+erzeugen), siehe [Move In Dark (MID)](cue-list-playback.md#move-in-dark-mid-functions).
 
-Setting | Action
+Einstellung | Beschreibung
 --- | ---
-Off | Obeys settings for individual cues *(default option)*
-Disabled | No move in dark even if set in cues
-Early | Moves as soon as fixture intensity is 0
-Late | Moves in the last cue before the fixture is needed
+Off | Schaltet MID für die gesamte Cueliste ab; MID kann aber für einzelne Cues aktiviert werden *(Vorgabewert)*.
+Disabled | Deaktiviert MID für die gesamte Cueliste, auch wenn es ggf. für einzelne Cues aktiviert ist.
+Early | Startet die Bewegung zum frühestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben.
+Late | Beginnt die Bewegung zum spätestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben.
 
 ### Shape Tracking
-Sets how shapes are tracked between cues.
-Setting | Action
---- | ---
-Off | Shapes will stop when the next cue starts
-On | Shapes will track until stopped or changed in a cue
-Local | Follows the tracking option above *(default option)*
+Bestimmt, wie Shapes getrackt werden.
 
-### Timecode Source
-Allocates which timecode source will be used by this Cue List.
+Einstellung | Beschreibung
+--- | ---
+Off | Kein Tracking von Shapes - Shapes stoppen, wenn der Cue beendet wird.
+On  | Shapes tracken, bis sie geblockt werden.
+Local | Die allgemeine **Tracking**-Einstellung gilt. *(Vorgabewert)*
+
+### Timecode Source 
+Bestimmt, welcher Timecode diese Cueliste steuert.
 
 ### Tracking
-Enables or disables Tracking mode (where unchanged
-settings persist from the previous cues). *Enabled by default.*
+Aktivieren/Deaktivieren von Tracking (also der
+Nachverfolgung unveränderter Werte)  *Vorgabewert: aktiviert*.
 
---- 
+---
 
-## Times Tab
+## Cue List Options -- Tab "Times"
 
-All options are the same as for cues, see [Times](../cues/playback-options.md#times-tab).
+Die Times-Optionen sind die Gleichen wie für [einzelne Cues](../cues/playback-options.md#times-tab).
 
---- 
+---
 
-## Fader Tab
+## Cue List Options -- Tab "Fader"
 
-### Cue List Fader Mode
-Sets how the cue list fader behaves.
+### Fader Mode
+Bestimmt das Verhalten des Faders.
 
-Setting | Action
+Einstellung | Beschreibung
 --- | ---
-Fader Mode Intensity Kill With Off | The fader masters the overall HTP level and the cue list remains active (connected) even when the fader is lowered to zero.
-Fader Mode Intensity Kill At 0 | The fader masters the overall HTP level and the cue list is killed when the fader is lowered to zero.
-Manual Crossfader | The fader behaves as a manual crossfade control, and the cue list will automatically step on to the next cue when the fader begins travel from top or bottom.
+Fader Mode Intensity Kill With Off | Der Fader bestimmt die Werte der HTP-Kanäle, und die Cueliste bleibt aktiv, auch wenn der Regler auf '0' gestellt wird. 
+Fader Mode Intensity Kill At 0 | Der Fader ist ebenfalls für die HTP-Werte zuständig, jedoch wird die Cueliste deaktiviert, sobald der Regler auf ‚0' gestellt wird.
+Manual Crossfader | Sorgt dafür, dass der Fader als manueller Überblendregler fungiert, d.h. beim Verlassen der Reglerstellung ‚100%' oder ‚0%' wird jeweils einen Schritt weitergeschaltet. 
 
-When the fader is in **Manual Crossfader** mode:
-- A running fade can be "captured" onto the fader for manual control by matching the fader position.
-- When firing a cuelist in manual crossfade the intensity snaps to full when the fader leaves zero.
-- [Shapes](../effects/shape-generator.md) and [Pixel Mapper](../effects/pixel-mapper.md) effects will fade in with the manual crossfade, but when the fader returns to 0 they are not removed so may still affect the output.
-- [Autoloads](../cue-lists/creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list) in the cue list will use their programmed fade times, regardless of the manual crossfade performed by the fader.
-- Partially completed crossfades can be completed by pressing \[Go\].
+Bei 'Manual Crossfade' gilt außerdem folgendes:
+
+-   Eine gerade laufende Überblendung kann mit dem Fader ‚übernommen'
+    werden.
+
+-   Wird eine Cueliste mit ‚Manual Crossfader' gestartet, so springt der
+    Pegel sofort auf 100%, sobald der Fader über 0 bewegt wird.
+
+-   Shapes und Pixelmapper-Effekte werden ebenfalls mit dem Fader
+    übergeblendet. Wird der Fader auf 0 gezogen, so bleiben sie aber
+    aktiv.
+
+-   Autoloads folgen ihrer jeweiligen Fadezeit unabhängig vom Crossfade.
+
+-   Angehaltene Fades können mit \<Go\> fortgesetzt werden.
 
 ### Fire First Cue
-Sets whether the first cue automatically fires when
-the fader is raised, or if you need to press the Go button to fire it.
+Ist diese Option aktiviert, so wird mit Bedienen des
+Faders direkt Cue 1 der Cueliste gestartet. Als Vorgabewert ist diese
+Option deaktiviert. Ansonsten muss immer erst \<Go\> gedrückt werden.
 
---- 
+---
 
-## Effects Tab
+## Cue List Options -- Tab "Effects"
 
-All options are the same as for cues, see [Effects](../cues/playback-options.md#effects-tab).
+Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Effekte](../cues/playback-options.md#effects-tab) beschrieben.
 
---- 
+---
 
-## Release Tab
+## Cue List Options -- Tab "Release"
 
-Release Mask and Release Time are described for cues, see [Release](../cues/playback-options.md#release-tab).
+Release Mask und Release Time funktionieren genauso wie im Kapitel [Release](../cues/playback-options.md#release-tab) beschrieben.
 
 ### Cue Release
-Sets fixtures to release when moving to the next cue, if they are
-not programmed in the next cue. This can be useful for creating
-some effects.
 
-> The **Cue Options** which could be set here in previous versions are now set using the Playback View window,
-press \<View/Open\> then the select button for the playback. You can edit cue settings directly in the grid.
+Damit werden einzelne Werte released, wenn nicht im
+nächsten Cue Werte dafür hinterlegt sind. Damit lassen sich manche
+Effekte erstellen.
 
+> Die früher hier zu findenden **Cue Options** sind nun in der Playback-Ansicht
+ zu finden und zu editieren. Um diese zu öffnen, drücken Sie \<View / Open\> 
+ und die **Select-Taste** der Cueliste.

@@ -5,240 +5,276 @@ sidebar_label: Creating a Cue List
 original_id: creating-a-cue-list
 ---
 
-Programming a Cue List
-----------------------
+Programmieren einer Cueliste
+----------------------------
 
 [](https://youtu.be/Kp6XhdG6keM?t=20 "Cuelist Basics")
 
-Programming a cue list is similar to [recording a chase](../chases/creating-a-chase.md).
+Das Programmieren einer Cueliste gleicht dem [Programmieren eines
+Chasers](../chases/creating-a-chase.md).
 
-You need to set up the look on the stage for each cue and then add it to
-the cue list. If you want to set fade times, you can either set them
-while saving the cues or [later](cue-list-timing.md).
+Sie erstellen jeweils das gewünschte Bild und fügen dies als Schritt zu
+der Cueliste hinzu. Zeiten lassen sich entweder sofort oder [später
+hinzufügen](cue-list-timing.md).
 
-1. Press \<Record\> then \[Create Cue List\].
+1. Drücken Sie die Taste \<Record\> und wählen die Option \[Create Cue
+List\] (auf dem Tiger Touch I drücken Sie \<Record Chase or List\>
+zweimal, oder drücken Sie die Taste einmal und wählen die Option
+\[Create Cue List\]).
 
-2. Press the **select button** of the playback where you want to store the
-Cue List *(you can also store cue lists in the Playbacks window)*.
+2. Drücken Sie die blaue **Select**-Taste des gewünschten
+Speicherplatzes *(auch Cuelisten lassen sich auf die Schaltflächen im
+'Playbacks'-Fenster speichern)*.
 
-3. Select the [Record Mode](#record-mode) of the console: by Fixture, Channel, Stage or
-Quick Build; if you are using tracking, \[Record Mode Channel\] is best
-as you are sure to only record the attributes you have explicitly set,
-but you do need to make sure you have changed all the things you want to
-be recorded so they are in the programmer.
+3. Wählen Sie den gewünschten [Record Mode](#record-mode) (Speichermodus) des Pultes:
+'by Fixture' (pro Gerät), 'by Channel' (nur geänderte Kanäle), 'Record
+Stage' oder ‚Quick Build'. \[Record Mode Channel\] ist in der Regel die sicherste
+Option, da nur die tatsächlich geänderten Attribute gespeichert werden.
+Es empfiehlt sich aber in jedem Falle zu überprüfen, was denn nun genau
+abgespeichert wird (ggf. müssen weitere Attribute in den
+Programmierspeicher übernommen werden).
 
-4. Set the default Fade and Delay times, and automatic cue linking,
-using \[Set Times\]. These settings will be allocated to every new cue.
+4. Stellen sie mit \[Set Times\] die generellen Überblend- und
+Verzögerungszeiten sowie die Verknüpfung aufeinanderfolgender Schritte
+ein; diese Einstellungen gelten dann für alle neu gespeicherten
+Schritte.
 
-5. Set up the look for the first cue, either manually or by using
-[\<Include\>](../titan-commands.md#include) on existing cues. You can use the [Shape Generator](../effects/shape-generator.md) and the
-[Pixel Mapper](../effects/pixel-mapper.md).
+5. Stellen Sie das Bild für den ersten Schritt zusammen, entweder
+manuell oder unter Verwendung von [\<Include\>](../titan-commands.md#include) bestehender Cues.
+Nutzen Sie wenn gewünscht auch den [Shape Generator](../effects/shape-generator.md) oder den [Pixelmapper](../effects/pixel-mapper.md).
 
-6. If you require a **legend for the cue**, set it now using \[Legend\].
-You can also change this later using [\<Unfold\>](editing-cue-lists.md#editing-a-cue-list-using-unfold) or [Set Legend](#changing-legends-for-cues-in-a-cue-list) (see next
-section).
+6. Wollen Sie für den Schritt eine **Bezeichnung/Legende** vergeben, so drücken Sie
+dazu \[Cue Legend\]. Das lässt sich auch später nachholen oder ändern,
+entweder mit [\<Unfold\>](editing-cue-lists.md#editing-a-cue-list-using-unfold) oder mit [Set Legend](#changing-legends-for-cues-in-a-cue-list) (siehe nächster Abschnitt).
 
-7. Press the **Select button** of the handle or \[Append Cue\] to store the
-programmer contents as Cue 1 of the cue list.
+7. Drücken Sie die **Select**-Taste des Speicherplatzes, oder wählen
+Sie \[Append Cue\](Schritt anfügen), um den Inhalt des
+Programmierspeichers als Schritt 1 der Cueliste abzuspeichern.
 
-8. Repeat steps 5 - 7 for additional cues. Do not press \<Clear\> in
-between cues, unless you want levels to track through from previous
-cues, as any faders moving to zero will not be stored. If you do press
-clear, you must make sure that all channels you want to record are
-selected or in the programmer (inverted display).
+8. Wiederholen Sie ab Schritt 5 für den nächsten Schritt der Cueliste.
+Drücken Sie nicht \<Clear\>, es sei denn, Sie wollen explizit Pegel aus
+vorherigen Schritten übernehmen, da ansonsten Reglerwerte auch von ‚0'
+nicht gespeichert werden. Stellen Sie also sicher, dass alle
+Geräte/Kanäle, die im aktuellen Schritt verändert werden sollen,
+angewählt oder im Programmierspeicher sind (invertierte Anzeige).
 
-9. Press \<Exit\> to finish when you have stored all the cues
+9. Drücken Sie \<Exit\>, wenn alle gewünschten Schritte programmiert
+sind.
 
 ---
 
--   You can [reopen the cue list](editing-cue-lists.md) to add more cues by repeating the
-    procedure above; this does not affect any cues already stored in the
-    cue list.
+-   Um an eine existierende Cueliste [weitere Schritte anzufügen](editing-cue-lists.md),
+    wiederholen Sie obiges Vorgehen; bereits vorhandene Schritte werden
+    davon nicht beeinflusst. 
 
--   To add more cues to the end of the existing cues press \[Append
-    cue\].
+-   Zum Anfügen von Schritten an das Ende der Liste wählen Sie \[Append
+    Cue\].
 
--   To edit an existing cue, press \[Cue Number=\] and type the cue
-    number to edit. Make the changes then press \[Update Cue x\].
+-   Um einen bestehenden Schritt zu ändern, drücken Sie \[Cue Number=\]
+    und geben die Nummer des Schrittes mit den Zifferntasten ein. Nehmen
+    Sie die Änderungen vor und drücken Sie \[Update Cue x\].
 
--   To insert new cues, see [Editing Cue Lists](editing-cue-lists.md).
+-   Zum Einfügen neuer Schritte siehe [Editieren einer Cueliste](editing-cue-lists.md).
 
--   The **Advanced Options menu** allows you to renumber all the cues, and
-    to change the number of an existing cue.
+-   Das Menü **Advanced Options** gestattet das Neu-Nummerieren der
+    Schritte, und das Ändern der einzelnen Schrittnummern.
 
--   There is no limit to the number of cues in a cue list.
+-   In jeder Cueliste kann eine unbegrenzte Zahl von Schritten
+    gespeichert werden.
 
--   Cue lists offer a **Move In Dark** function which will move fixtures to
-    the correct position for their next cue while they are set to zero
-    intensity. See the [Move In Dark (MID)](../cue-lists/cue-list-playback.md#move-in-dark-mid-functions) functions section.
+-   Bei Cuelisten gibt es auch eine **MID (Move-In-Dark)** - Funktion:
+    damit werden Geräte bereits für den nächsten Einsatz vorbereitet
+    (positioniert etc.), solange sie aktuell nicht aktiv sind. Details
+    siehe Abschnitt [Move In Dark (MID)](../cue-lists/cue-list-playback.md#move-in-dark-mid-functions)
 
--   You can change the [tracking mode](cue-list-options.md#tracking) of each cue.
+-   Für jeden Cue lassen sich die [Tracking-Optionen](cue-list-options.md#tracking) getrennt einstellen.
 
-### Record Mode
+### Speichermodus/Record Mode
 
-\[Record Mode\] lets you select **Record By Fixture** (all attributes of
-    any modified or selected fixture are saved), **Record By Channel** (only
-    modified attributes are saved), **Record Stage** (all fixtures with a
-    non-zero dimmer channel are saved) or **Quick Build** (allows you to
-    build a cue from other playbacks or palettes; select the
-    playbacks/palettes you wish to use and press \[OK\]).
+Mit \[Record Mode\] (Speichermodus) wählt man zwischen **Record By
+Fixture** (‚Speichern pro Gerät', alle Attribute aller veränderten/
+ausgewählten Geräte werden gespeichert), **Record By Channel**
+('Speichern pro Kanal', nur die geänderten Attribute werden
+gespeichert), **Record Stage** ('Bühne speichern', alle Geräte mit
+Helligkeit > 0 werden gespeichert), oder **Quick Build** zum raschen
+Erstellen aus vorhandenen Cues und Paletten.
 
-> **Record By Channel** is useful if you want to layer this cue list with
-    other playbacks to create an effect.
+> **Record By Channel** bietet sich an, wenn sich mehrere Cuelisten -
+für unterschiedliche Attribute - gegenseitig überlagern sollen.
 
-Changing Legends for Cues in a Cue List
----------------------------------------
 
-You can set a legend for each cue, which is shown on the screen when
-running the cue list and can be helpful for keeping track of where you
-are.
+Vergeben von Bezeichnern für einzelne Schritte
+----------------------------------------------
 
-1. Press \[Set Legend\] in the top level menu. If you are setting
-legends for several cues, press \<Menu Latch\> to latch the Set Legend
-menu.
+Für jeden Schritt lässt sich eine Bezeichnung vergeben, welche beim
+Ablauf der Cueliste im Display erscheint - eine hilfreiche Sache bei der
+Navigation.
 
-2. Press the **Select button** of the Cue List.
+1.  Drücken Sie \[Set Legend\] im Hauptmenü. Wollen Sie mehrere
+    Bezeichnungen vergeben, so rasten Sie das Menü mit der Taste \<Menu
+    Latch\> ein.
 
-3. The cues in the cue list are shown on the screen. Touch the list or
-use Wheel A to select which cue is to be renamed.
+2.  Drücken Sie die **Select-Taste** der entsprechenden Cueliste.
 
-5. Press \[Cue Legend\] and type the legend on the keyboard, then press
-\<Enter\>.
+3.  Die Schritte der Cueliste werden nun auf dem Bildschirm angezeigt.
+    Klicken Sie auf den gewünschten Cue oder nutzen Sie das Rad A, um den zu
+    ändernden Schritt auszuwählen.
 
-6. If you latched the menu, you can continue to set legends for other
-cues, or press \<Exit\> to finish.
+4.  Klicken Sie \[Cue Legend\] und geben Sie die Bezeichnung mit der
+    Tastatur ein, gefolgt von \<Enter\>.
 
-Shape Tracking in Cue Lists
----------------------------
+5.  Setzen Sie den Vorgang ggf. für weitere Schritte fort, oder drücken
+    Sie \<Exit\>, um den Vorgang abzuschließen.
 
-Shapes can track between cues in cue lists. If shape tracking is
-enabled, a shape started in a cue will continue through following cues.
-Shape tracking is enabled using the \[Shape Tracking\] option in the
-playback Options for the cue list - see [Cue List Options](cue-list-options.md#cue-list-options-playback-tab).
+Tracking von Shapes in Cuelisten
+--------------------------------
 
-Cues containing shapes have a button for each shape.
+Ab Version 10 können auch Shapes innerhalb von Cuelisten tracken. Ist
+das Tracking für Shapes aktiviert, läuft ein in einem Cue gestarteter
+Shape auch in den folgenden Cues. Zum Aktivieren des Trackings für
+Shapes dient die Option \[Shape Tracking\] in den [Optionen](cue-list-options.md#cue-list-options-playback-tab) der
+Cueliste.
+
+Cues, die Shapes enthalten, verfügen für jeden Shape über einen extra
+Button.
 
 ![Cue List window showing tracking shapes](/docs/images/Cue-List-window-showing-tracking-shapes.png)
 
-In the following cues where shapes are tracking, an option switch is
-shown for each active shape:
-**T** | **Allows the shape to track to the next cue**
+In den darauffolgenden Cues gibt es für jeden getrackten Shape einen
+Schalter:
+**T** | **Shape wird in den folgenden Cue getrackt**
 ---|---
-**B** | **Blocks the shape so it will not appear in following cues**
+**B** | **Shape wird geblockt, läuft also nicht in den folgenden Cues**
 
-The cue itself can also have options set to block all shapes, see
-[Cue List Options](cue-list-options.md#cue-list-options-playback-tab).
+Für den Cue selbst gibt es dazu die Option \[Block All Shapes\], siehe
+[Cuelisten-Optionen](cue-list-options.md#cue-list-options-playback-tab).
 
-You can also block attributes for shapes independently during recording
-using the **@** menu. Select the **Attribute** using the attribute bank buttons,
-press **@** then the **FX** group button. The softkeys will then give the
-options \[Block Shape\] and \[Unblock Shape\]. If an attribute is set to
-**Blocked** the wheel display will show a *"Blocked"* watermark.
+Darüber hinaus können auch Shapes für einzelne Attribute geblockt
+werden, dies erfolgt über das **@**-Menü. Wählen Sie das zu blockende
+**Attribut**, drücken die entsprechende **@**-Taste und dann den Attribut-Button
+**FX**. Auf den Menütasten gibt es nun die Optionen \[Block Shape\] und
+\[Unblock Shape\]. Wurde ein Attribut auf **Block Shape** gesetzt, so wird
+das im Display bei den Encodern mit *"Blocked"* angezeigt.
 
-If **[Shape Tracking](cue-list-options.md#cue-list-options-playback-tab)** is not enabled, shapes in each cue are independent
-from each other. If an identical shape (with the same size and speed) is
-saved in a following cue then the shape will continue running rather
-than restarting.
+Ist das **[Shape-Tracking](cue-list-options.md#cue-list-options-playback-tab)** dagegen nicht aktiviert, so sind die Shapes in
+jedem Cue unabhängig voneinander. Wird der identische Shape - gleiche
+Parameter, Größe und Geschwindigkeit - in mehrere aufeinanderfolgende
+Cues programmiert, so läuft er einfach durch, ohne unterbrochen zu
+werden.
 
-Autoloading a Playback within a Cue List
-----------------------------------------
+Autoloading: Laden eines externen Cues
+--------------------------------------
 
-You can program a cue within a cue list to automatically load one or
-more playbacks when the cue fires. The playback can be a single cue, a
-chase or another cue list. This can be a useful way to trigger chases or
-effects from the cue list.
+Schritte einer Cueliste lassen sich auch so programmieren, dass sie
+automatisch den Inhalt eines oder mehrerer Speicherplätze -- Cues,
+Chaser oder wiederum Cuelisten -- aufrufen, wenn der jeweilige Schritt
+gestartet wird. Dies ist hilfreich, um etwa Chaser oder Effekte in die
+Cueliste zu integrieren.
 
-You can either automatically save active playbacks as **Autoloads**, or you
-can manually allocate **Autoloads** to cues.
+Man kann entweder die **Autoloads** manuell programmieren, oder automatisch
+alle aktiven Speicherplätze als **Autoload** definieren.
 
-To automatically record active playbacks as Autoloads:
+Zum automatischen Definieren gehen Sie wie folgt vor:
 
-1. After selecting **Cue List Record**, turn on \[Autoload Live Playbacks\]
-in the \[Advanced Options\] menu of the cuelist record screen.
+1.  Nach dem Aktivieren von **Cue List Record** (beim Anlegen der
+    Cueliste) wählen Sie \[Advanced Options\], dann \[Autoload Live
+    Playbacks\].
 
-2. Turn on the playbacks you wish to load for this cue.
+2.  Aktivieren Sie die Cues/Chaser/Cuelisten, die Sie als Autoload
+    einbinden möchten.
 
-3. **Save the cue**. Active playbacks will be saved as Autoloads.
+3.  **Speichern Sie den Cue**. Dabei werden die aktivierten
+    Speicherplätze automatisch als Autoload eingebunden.
 
 ---
 
-To manually edit autoloads use the playback view for the cue list:
+Das manuelle Programmieren der Autoloads erfolgt am einfachsten in der
+Playback-Ansicht der Cueliste:
 
-1. Press \<View/Open\>
+1.  Drücken Sie \<View/Open\>
 
-2. Press the **Select button** of the Cue List.
+2.  Drücken Sie die blaue **Select-Taste** der Cueliste.
 
-3. The cues in the cue list are shown on the screen. Click on the
-**Autoload** you wish to change. *(You will need to set the window to full
-screen size or scroll across to see the Autoload column. If the Autoload
-column is not shown, click on the Show All button on the left of the
-window.)*
+3.  Im Display erscheinen die Schritte der Cueliste. Klicken Sie auf die
+    betreffende **Autoload**-Zelle (Spalte Autoload des betreffenden Cues).
+    *Am besten bringen Sie dazu das Fenster in die Vollbild-Ansicht. Ist
+    die Spalte Autoload gar nicht sichtbar, klicken Sie links auf \[Show
+    All\]*.
 
-4. Press the **Select button** of the playback which is to be loaded. The
-playback legend appears on the softkeys.
+4.  Drücken Sie die **Select-Taste** des Speicherplatzes, dessen Inhalt
+    mit dem Schritt geladen werden soll. Dabei erscheint die vergebene
+    Bezeichnung auf den Funktionstasten.
 
-5. You can continue to add Autoloads to other cues, or press \<Exit\>
-to finish.
+5.  Sie können nun weitere 'Autoloads' definieren. Verlassen Sie den
+    Modus schließlich mit \<Exit\>.
 
 ![Cue List Window with Autoload playback](/docs/images/Cue-List-Window-with-Autoload-playback.png)
 
 ---
 
-The Autoloaded playback will be fired when
-the cue starts, and killed when the cue list moves on to the next cue,
-unless you have also loaded the playback into the next cue.
+Der Inhalt des mittels 'Autoload'
+verknüpften Speicherplatzes wird beim Start des jeweiligen Schrittes
+geladen, und beim Start des nächsten Schritts wieder deaktiviert, es sei
+denn, auch der nächste Schritt enthält diesen 'Autoload'.
 
-You can set options for each Autoloaded playback by pressing the softkey
-where the Autoloaded playback is shown.
+Für jeden 'Autoload' lassen sich verschiedene Optionen vergeben; rufen
+Sie diese durch die entsprechende Schaltfläche auf (dort wird jeweils
+der verknüpfte Speicherplatz angezeigt).
 
-For a cue, the only option is \[Remove this Autoload\].
+Für einfache Cues ist die einzige Option A \[Remove this Autoload\]
+(diesen Autoload löschen).
 
-For a chase or cue list, **softkey B** lets you select whether to load the
-playback from the *start*, to start at a *specific cue*, or to press *Go* on
-the target playback.
+Für Chaser und Cuelisten lässt sich mit **Option B** wählen, ob die
+jeweilige Abfolge *am Beginn* oder *bei einem bestimmten Schritt* gestartet
+werden soll, oder ob für die gewählte Folge *Go* betätigt werden soll.
 
-In the Autoload Times column you can set fade in, fade out and delay
-times for the autoloaded playback. Normally the autoload will use the
-times set for the cue, but you can also select \[Use Individual Target
-Times\] which will use the times set in the autoloaded playback, or you
-can set independent times yourself.
+Klickt man in die Spalte 'Autoload Times' des betreffenden Cues, so kann
+man für Fade-In, Fade-Out und Delay des Autoloads getrennte Zeiten
+vergeben. Normalerweise werden die Zeiten verwendet, die in der Cueliste
+für diesen Cue vergeben wurden. Alternativ kann man mit \[Use Individual
+Target Times\] die Zeiten des externen Cues/Chasers/Cueliste verwenden, 
+oder man vergibt direkt spezielle Zeiten.
 
-Running a Key Macro from a Cue List
------------------------------------
 
-You can program a cue within a cue list to trigger a key macro. This
-allows you to set up custom actions which can be performed when a cue in
-a cue list fires; for example you may want to lamp on your fixtures as
-the first cue in the cue list.
+Abrufen einer Tastenfolge (Makro) aus einer Cueliste
+----------------------------------------------------
 
-1. Press \<Options\> (or the \[Options\] softkey on the root menu)
+Es lassen sich Cues in Cuelisten programmieren, die eine vorgegebene
+Tastenfolge ausführen. Damit lassen sich spezielle Aktionen ausführen,
+sobald ein Cue gestartet wird. So lassen sich z.B. mit dem ersten Cue
+alle Geräte zünden.
 
-2. Select the **cue list**
+1.  Drücken Sie \[Options\].
 
-3. Select \[Macros\]
+2.  Wählen Sie die Cueliste aus.
 
-4. In the **Playback View window**, select the **step** you want to add a macro
-to
+3.  Drücken Sie \[Macros\]
 
-5. Press the button(s) for the macro(s) you want to attach to the step,
-or press \[Add\] and choose an action from the list.
+4.  Im Übersichtsfenster der Cueliste (Playback View) wählen Sie den
+    Schritt, dem ein Makro hinzugefügt werden soll.
 
-6. The **"Macros"** column shows the macros you have added.
+5.  Drücken Sie die Tasten/Schaltflächen der Makros, die mit diesem
+    Schritt ausgeführt werden sollen. Oder drücken Sie \[Add\] und wählen
+    ein Macro aus der Liste aus.
 
-> You can remove macros by selecting the cue, pressing the softkey for
-    the macro you wish to remove and then pressing \[Remove Link\].
+6.  Die Spalte 'Macros' zeigt die hinzugefügten Makros.
 
-Keyboard Shortcuts/Syntax for Cue Lists
----------------------------------------
+> Zum Entfernen der Makros aus dem Schritt wählen Sie den Schritt aus,
+    wählen dann das zugefügte Makro, und betätigen die Kontext-Taste
+    \[Remove Link\].
 
-The following keyboard syntax can be used for fast cue list recording
-and editing. These commands work for the selected or currently connected
-playback where **n** is the cue number.
+Tastatursyntax für Cuelisten
+----------------------------
 
-Shortcut | Action
---- | ---
-\<Record\>, \<Connect\>, **n**, \<Enter\> | Record cue **n**
-\<Copy\>, \<Connect\>, n | Copy cue **n**
-\<Delete\>, \<Connect\>, n | Delete cue **n**
-\<Include\>, \<Connect\>, n | Include cue **n**
-\<Connect\>, n, \<Go\> | Go cue **n**
+Zum schnellen Speichern und Editieren von Cuelisten stehen
+folgende Tastenkombinationen zur Verfügung; diese wirken auf die
+aktuell mit der Steuerung verbundene (connected) Cueliste; **n**
+bezeichnet die Cue-Nummer:
+
+Tasten                                    | Funktion
+----------------------------------------- | ------------------------------------------
+\<Record\>, \<Connect\>, **n**, \<Enter\> | Cue **n** speichern
+\<Copy\>, \<Connect\>, n                  | Cue **n** kopieren
+\<Delete\>, \<Connect\>, n                | Cue **n** löschen
+\<Include\>, \<Connect\>, n               | Cue **n** includen (in den Speicher laden)
+\<Connect\>, n, \<Go\>                    | Go Cue **n**
