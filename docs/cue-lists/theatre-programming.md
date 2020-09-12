@@ -107,7 +107,7 @@ Push up the fader of the cue list to make it active *("connected")*.
 
 Keypresses | Result
 -----------|----------
-\<Cue\> **{blue button}** | If another cue list is active, connect this cuelist as the current list
+\<Cue\> **{blue button}** | If another cue list is active, connect this cue list as the current list
 \<Go\> | Run next cue with programmed times
 \<Cue\> **n** \<Go\> | Go cue **n** with programmed times
 **t** \<Go\> | Next cue go with fade time **t**
