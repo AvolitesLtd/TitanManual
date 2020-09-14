@@ -9,15 +9,15 @@ Time and Fade Options for Cue Lists
 
 Time settings are independent for each cue in the cue list. The display
 shows which cue you are working with. You can select which cue is active
-using **Wheel A** or **softkey A** of the **Cue Times menu**.
+using **Wheel A** or by pressing \[Select Cue Number\] softkey in the **Edit Times** menu for the cue list.
 
 *See the [diagram below](#cue-linking--link-offset) for more information about overlaps and fade times.*
 
-1. Press **Softkey A** \[Edit Times\] at the root menu then the **Swop** button
+1. Press \[Edit Times\] at the root menu then the **Select** button
 of the Cue List.
 
 2. To change which cue you are editing, scroll through the list using
-**Wheel A** or press \[Cue Number\] then type the cue number you want to
+**Wheel A** or press \[Select Cue Number\] then type the cue number you want to
 edit and press \<Enter\>.
 
 	- The Chase arrow buttons to the right of the
@@ -115,8 +115,8 @@ change the times for any fixtures, deselect them now.* You can press the
 
 3. Press the softkey for the attribute group you want to change.
 
-4. Press A \[Delay\] to set the **delay time**, or press B \[Fade\] to set
-the **fade time**. Press G \[Use global\] to remove the attribute group
+4. Press \[Delay\] to set the **delay time**, or press \[Fade\] to set
+the **fade time**. Press \[Use Global\] to remove the attribute group
 timing and go back to the normal delay/fade times for the cue.
 
 >  You can use \[Individual Attributes\] to set times for one attribute
@@ -204,9 +204,9 @@ timecode), each cue will fire as the timecode matches its programmed
 time.
 
 In order to edit a cue's timecode, select the cue's timecode cell in Playback View
-and enter the correct time, or - using the menu buttons - press A \[Edit Times\],
+and enter the correct time, or - using the menu buttons - press \[Edit Times\],
 enter the cue number, toggle to the 3^rd^ page of this menu with \[Next\], click
-C \[Timecode = \] and enter the new timestamp.
+\[Timecode = \] and enter the new timestamp.
 
 
 ![Playback View Window showing timecoded cues](/docs/images/Playback-View-Window-showing-timecoded-cues.png)
