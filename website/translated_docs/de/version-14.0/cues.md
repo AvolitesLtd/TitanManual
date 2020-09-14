@@ -5,41 +5,41 @@ sidebar_label: Cues
 original_id: cues
 ---
 
-So you've set up a great look on the stage, and you want to save it to
-use in your show.
+Nun haben Sie das gewünschte Licht auf der Bühne erstellt und möchten
+die Einstellung gern speichern und später wieder aufrufen. Dabei gibt es
+drei verschiedene grundsätzliche Speichermöglichkeiten:
 
-There are three ways of saving looks on Titan.
+**Cues** (Szenen): dies sind einzelne Lichtstimmungen oder Bilder. Diese
+können Abläufe (Shapes) enthalten, und können mit Zeiten zum Ein- und
+Ausblenden versehen sein.
 
-**Cue:** This is a single look. It may contain movement in the form of
-shapes, and have fade in and fade out times.
+**Chaser** (Lauflichter): eine Folge mehrerer einzelner Cues, die
+automatisch abläuft.
 
-**Chase:** This is a timed sequence of cues, often used for an
-individual effect.
+**Cueliste**: eine Folge mehrerer Cues oder Chaser, die durch getrennte
+Kommandos (\<Go\>-Taste) gesteuert wird.
 
-**Cue List:** This is a linked sequence of cues, usually used to store
-and replay an entire show or an element of a show from a "go" button.
+[Chaser](chases.md) und [Cuelisten](cue-lists.md) werden in den separaten 
+Kapiteln behandelt.
 
-[Chases](chases.md) and [Cue Lists](cue-lists.md) are covered in more detail in the following
-chapters.
+Speicherplätze, auf die Cues, Cuelisten und Chaser abgelegt werden
+können, werden **Playbacks** genannt. Dafür kommen in Frage:
 
-When a Cue, Chase or Cue List is stored on a control, the control is
-called a **Playback**. You can store in several places:
-
--   On any **fader handle** - the fader controls the intensity of
-    fixtures (you can make the fader control other things using playback
-    [Options](cues/playback-options.md)).
+-   Playbacks mit **Fadern** (und zugehörigen Tasten). Dabei steuert der
+    Fader normalerwiese die Helligkeit, kann aber auch andere Parameter
+    steuern (umzustellen in den [\[Options\]](cues/playback-options.md)).
 	
--	On a **Virtual fader** in the [Virtual faders](running-the-show/playback-controls.md#virtual-faders) window on the touchscreen. This works exactly like
-	a physical fader.
+-   **Virtuelle Fader** im [Fenster 'Virtual Faders'](running-the-show/playback-controls.md#virtual-faders). Diese funktionieren
+    genauso wie echte Fader.
 
--   On a **touch button** in the Playbacks window - you can set whether
-    the button latches or flashes the cue using [Key Profiles](system-settings/key-profiles.md)
+-   **Buttons** (Schaltflächen) im Playbacks-Fenster; dabei lässt sich per
+    [Tastenprofil (Key Profile)](system-settings/key-profiles.md) einstellen, 
+	wie sich der Button verhält (einrasten, Flash, Solo).
 
--   On a **Macro/Executor button** - again you can use [Key Profiles](system-settings/key-profiles.md) to
-    set latch or flash
+-   **Macro/Exekutor-Tasten** - auch deren Verhalten lässt sich per
+    [Tastenprofil (Key Profile)](system-settings/key-profiles.md) definieren.  
 
-If you run out of faders to store playbacks, fader wings are available
-for [all consoles](about-the-consoles.md) to add more faders.
+Sollten einmal die Fader nicht ausreichen, so gibt es optionale [Faderwings](about-the-consoles.md), mit denen sich weitere Fader nachrüsten lassen.
 
-Titan's cue functions are very powerful; the first part of this section
-explains the basics of how the console uses cues.
+Die Cue-Funktionen der Titan-Pulte sind äußerst mächtig; der erste Teil
+dieses Kapitels erklärt die Grundzüge, wie Cues verwendet werden.
