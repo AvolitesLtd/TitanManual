@@ -4,11 +4,9 @@ title: Cue Timing
 sidebar_label: Cue Timing
 ---
 
-The console allows a wide variety of timing functions to be set for each
-cue.
+The console allows a wide variety of timing functions for each cue.
 
-Setting Fade Times and Overlap for a Cue
-----------------------------------------
+## Fade Times and Fixture Overlap
 
 When programming a cue, you can set a delay, fade in and fade out time
 for each attribute of each fixture, or globally for the cue. Shapes in
@@ -18,12 +16,11 @@ the cue will also be affected, depending on the [fade mode](#fade-modes).
 
 You can delay the fade times between fixtures in a cue so that the cue
 is applied sequentially to each fixture. This is called **Fixture Overlap**
-and can create some amazing *"peel off"* or *"roll"* type effects with no
-programming at all.
+and can create *"peel off"* or *"roll"* style effects.
 
-In the diagram below, the top picture shows how the LTP channels change
-when used with delay, fade and fade out times. The second picture shows
-how the HTP channels change. The third and fourth pictures show what
+In the graphic below, the top diagram shows how the LTP channels change
+when used with delay, fade and fade out times. The second diagram shows
+how the HTP channels change. The third and fourth diagrams show what
 happens to the LTP channels when fixture overlap and attribute fade are
 used.
 
@@ -118,7 +115,7 @@ You can change the order of the fixtures stored in a cue. Normally this
 is set to the order in which you selected the fixtures when the cue was
 created, but you might want to change this *(for example to pair up
 fixtures so they move together when using
-[Overlap](#setting-fade-times-and-overlap-for-a-cue))*.
+[Fixture Overlap](#fade-times-and-fixture-overlap))*.
 
 1. Press \[Edit Times\] at the top level menu
 
@@ -142,8 +139,9 @@ hand corner of the fixture select touch buttons.
 ---
 
 -   You can set several fixtures to have the same sequence number. This
-    means, for example, when used with Overlap they will all do the same
-    thing at the same time.
+    means, for example, when used with 
+    [Fixture Overlap](#fade-times-and-fixture-overlap) they will all do
+    the same thing at the same time.
 
 -   You can remove a fixture from the sequence by turning off
     \[Autoincrement\] and pressing the fixture button twice. The fixture

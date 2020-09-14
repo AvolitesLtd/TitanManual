@@ -121,14 +121,9 @@ Sets the delay time before fade, and the fade in and fade out times for the play
 These times can also be set using the \<TIME\> button.
 
 ### Fixture Overlap
-Fixture overlap creates an effect where the fixtures in the cue are changed in sequence rather than
-all at the same time. It's a quick way to make some really nice looking effects.\
-**100%** means all fixtures change together.\
-**0%** means that the first fixture will finish its change before the next one starts.\
-**50%** means that the second fixture will start changing when the first one is half way
-through its change.\
-The order in which the fixtures change is set by the order you selected them *(but you
-can change this, see [Changing Fixture Order](#changing-fixture-order))*.
+Fixture overlap creates an effect where the fixtures in the cue are changed in
+sequence rather than all at the same time. This is described in more detail in
+[Cue Timing](cue-timing.md#fade-times-and-fixture-overlap).
 
 ### Flash Fade In / Flash Fade Out
 Sets the fade in/fade out time for
