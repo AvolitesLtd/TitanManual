@@ -86,33 +86,45 @@ graphic you can jump to a page number by entering the number.
 
 >   If you have stored cues on the touch select buttons, you select
     different pages using the Playbacks page touch buttons.
+    
+---
+
+The way how playbacks behave when pages are changed while playbacks are active
+can be set with the [\[Playback Paging\] user setting](../system-settings/user-settings.md#playback-paging).
 
 ### Consoles without Motorised Faders
 
--   Playbacks which are fired when you change page remain active. If you
+-   By default, playbacks which are fired when you change page remain active. If you
     want to fire a cue on a fader which is already up from a previous
     page, lower the fader to zero then raise it again. The cue from the
     previous page will stop and the cue from the new page will fire.
+    This setting is called 'Always Hold'.
 
--   If you return to a page with an active playback, the fader will not
+-   If changed to 'Never Hold' then the behaviour allows for active faders on
+    multiple pages: if you return to a page with an active playback, the fader will not
     resume control of the playback until it matches the current level of
     the playback. This prevents the playback level jumping when the
     fader is first moved. If a playback is active from another page the
     display area is purple and shows the page number at the top in light
-    blue. You can change this behaviour using the 
-    [\[Playback Paging\] user setting](../system-settings/user-settings.md#playback-paging).
+    blue. 
+
+The setting 'Normal' refers to the default state, i.e. 'Always Hold' on consoles 
+without motorised faders.
 
 ### Consoles with Motorised Faders
 
--   Playbacks which are fired when you change page remain active, but
+-   By default, playbacks which are fired when you change page remain active, but
     thanks to the motorised faders you can then use the fader to fire a
-    playback from the new page. If you want to kill the original
+    playback from the new page (setting 'Never Hold'). If you want to kill the original
     playback you need to return to the page it is on and lower the fader
     back to zero. If a playback is active from another page the display
     area is purple and shows the page number at the top in light blue.
-    You can change this behaviour to be like consoles without motorised
-    faders using the
-    [\[Playback Paging\] user setting](../system-settings/user-settings.md#playback-paging).
+
+-   If changed to 'Always Hold' then each fader can be active only on one page 
+    at any time. This is the behaviour known from consoles without motorised faders, see above.
+
+The setting 'Normal' refers to the default state, i.e. 'Never Hold' on consoles 
+with motorised faders.
 
 ---
 
@@ -271,8 +283,9 @@ Turning Off Individual Fixtures
 -------------------------------
 
 You can turn off individual fixtures or certain attributes of them using
-the **Off** menu. This will cause the attributes/fixtures to release to
-their previous state before the playback was fired.
+the **Off** menu. The programmed values will remain in the playback but will
+not be applied when the playback is recalled. You can, however, re-enable 
+the values in the cue view.
 
 Press \<Off\> button followed by a playback to open the \'Off Playback
 with Mask\' menu. Select the fixtures to be turned off, set mask as
