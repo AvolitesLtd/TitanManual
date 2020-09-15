@@ -236,7 +236,7 @@ Deactivate Attributes from Cues Using "Off"
 
 [](https://youtu.be/p7Ffz4e4tws?t=20 "Off")
 
-The \<Off\> button allows you to temporatily deactivate an attribute which has been
+The \<Off\> button allows you to temporarily deactivate an attribute which has been
 stored in a cue, as if you'd never recorded it, but you can activate it again later.
 
 For example, suppose you recorded a cue which had fixtures at a certain
