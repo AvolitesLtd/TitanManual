@@ -93,16 +93,16 @@ override all playback priorities except Very High.
 ### Run On Startup
 Sets this playback to run when the console powers
 on. This can be globally disabled by the
-[Auto Run Startup Playbacks](../system-settings/user-settings.md#run-startup-playbacks) option in
+[Run Startup Playbacks](../system-settings/user-settings.md#run-startup-playbacks) option in
 [User Settings](../system-settings/user-settings.md) *(turned on by default)*.
 
 This can be very useful for unattended applications to set up an
-initial lighting state, or to run lamp on macros.
+initial lighting state.
 
 Power on playbacks show a Power symbol watermark in the playback
 information area above the fader. If you open the
 [Show Library window](../titan-basics/show-library.md)
-there is a filter tab to Show Startup
+there is a context button to Show Startup
 Playbacks which allows you to list all the playbacks which are set to
 run on startup.
 
