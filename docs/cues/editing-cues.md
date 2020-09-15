@@ -169,13 +169,11 @@ them - *they will be highlighted in blue*
 you can directly edit values by typing numeric values and pressing
 \<Enter\>
 
-3. You can delete the selected control(s) using the \[Delete\] softkey
-
-4. You can turn attributes On and Off using the \<Off\> button and the
+3. You can turn attributes On and Off using the \<Off\> button and the
 \[On\] softkey. Off temporarily removes a value from the cue, it can
 later be restored using \[On\].
 
-5. You can remove a fixture completely from the cue by selecting the
+4. You can remove a fixture completely from the cue by selecting the
 fixture then pressing the \[Remove Fixtures\] softkey.
 
 Any changes take immediate effect.
@@ -233,26 +231,26 @@ will be loaded into the programmer.
     pressing one or more of the attribute bank buttons before you select
     the cue to include.
 
-Removing Attributes from Cues Using "Off"
------------------------------------------
+Deactivate Attributes from Cues Using "Off"
+-------------------------------------------
 
 [](https://youtu.be/p7Ffz4e4tws?t=20 "Off")
 
-The \<Off\> button allows you to remove an attribute which has been
-stored in a cue, as if you'd never recorded it.
+The \<Off\> button allows you to temporatily deactivate an attribute which has been
+stored in a cue, as if you'd never recorded it, but you can activate it again later.
 
 For example, suppose you recorded a cue which had fixtures at a certain
 position, with the colour set to green. If you later decide that you
-don't want a colour recorded at all in the cue, so that the playback
+don't want a colour recalled at all with this cue, so that the playback
 will position the fixtures but leave the colour set by previous
 playbacks, you set the colour values to Off in the programmer, which
-when saved will remove those values from the cue. You can also use the
-Off function to remove complete fixtures from a cue.
+when saved will deactivate those values in the cue. You can also use the
+Off function to deactivate complete fixtures in a cue.
 
 Setting an attribute to **Off** is not the same as recording an attribute at
 zero, since this would change the attribute when the cue was fired. It
-is the same as excluding that attribute using the mask when recording,
-so the attribute will remain unchanged when the cue is fired.
+is the same as inactivating this attribute, so the attribute will remain 
+unchanged when the cue is fired.
 
 1. Press \<Off\>, then \[Off Playback Values\] followed by the playback
 to be changed.
@@ -282,8 +280,8 @@ change them all, deselect the fixtures you don't want.
 to change. Then press the \[Attributes Off\] softkey to set them to Off.
 The bottom softkeys also give options such as \[Dimmer Off\].
 
-5. Press \<Record\>, then set the record mode to \[Replace\], and press
-the **Swop** button of the cue to update it.
+5. Press \<Record\>,  press the **Swop** button of the cue, then select 
+\[Replace\] to update it.
 
 ---
 
