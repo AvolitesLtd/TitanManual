@@ -12,7 +12,7 @@ verschiedener Cues. Diese werden als **HTP**- und **LTP**-Regeln bezeichnet.
 HTP und LTP
 -----------
 
-Control channels are handled in two ways:
+Steuerkanäle können auf zwei Weisen verwaltet werden:
 
 -   Dimmer und Helligkeitskanäle arbeiten nach dem Prinzip **'der höchste
     Wert hat Priorität' (Highest Takes Precedence, HTP)**. Ist ein
@@ -75,7 +75,7 @@ Programmierspeicher befinden, da diese ansonsten die Werte der Playbacks
     eine höhere **Priorität**. Wenn z.B. ein paar Movinglights sowohl als
     Rednerlicht als auch als Effektlicht eingesetzt sind, so können Sie
     dem Rednerlicht-Playback eine höhere Priorität geben. Siehe [Priority](playback-options.md#priority) in
-    [Playback Options](playback-options.md).
+    [Options](playback-options.md).
 
 Wechsel der Playback-Seiten
 ---------------------------
@@ -199,7 +199,7 @@ die graue oder blaue Taste mit der Funktion ‚Release' zu belegen.
 Das Freigeben erfolgt stets mit einer Überblendzeit. Deren Vorgabewert
 sind 2s, dies kann im Release-Menü ‚(\<Release\> gedrückt halten) unter
 \[Master Release Time\] geändert werden. Ferner kann man jedem Playback 
-eine individuelle Relese-Zeit zuweisen ([Tab "Release"](playback-options.md#release-tab) der Playback-Optionen).
+eine individuelle Relese-Zeit zuweisen ([Tab "Release"](playback-options.md#release-tab) der Optionen).
 
 -   Um einen einzelnen Cue zu deaktivieren (‚Kill'), drücken Sie
     gleichzeitig die \<AVO\>-Taste und die **Swop-Taste** des Cues.

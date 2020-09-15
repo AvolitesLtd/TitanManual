@@ -12,7 +12,7 @@ verschiedener Cues. Diese werden als **HTP**- und **LTP**-Regeln bezeichnet.
 HTP und LTP
 -----------
 
-Control channels are handled in two ways:
+Steuerkanäle können auf zwei Weisen verwaltet werden:
 
 -   Dimmer und Helligkeitskanäle arbeiten nach dem Prinzip **'der höchste
     Wert hat Priorität' (Highest Takes Precedence, HTP)**. Ist ein
