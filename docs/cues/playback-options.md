@@ -241,4 +241,4 @@ allocate one of the handle buttons to release the playback.
 
 ### Release Time
 Sets a release fade time for this playback. Enter a
-blank time to return to global *([Global release time](../system-settings/user-settings.md#master-release-time) is set in the [User Settings](../system-settings/user-settings.md))*.
+blank time to return to global *([Global release time](../system-settings/user-settings.md#master-release-time) is set in the [User Settings](../system-settings/user-settings.md))*. 
