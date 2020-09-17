@@ -98,9 +98,9 @@ can be set with the [\[Playback Paging\] user setting](../system-settings/user-s
     want to fire a cue on a fader which is already up from a previous
     page, lower the fader to zero then raise it again. The cue from the
     previous page will stop and the cue from the new page will fire.
-    This setting is called 'Always Hold'.
+    This setting is called \[Always Hold\].
 
--   If changed to 'Never Hold' then the behaviour allows for active faders on
+-   If changed to \[Never Hold\] then the behaviour allows for active faders on
     multiple pages: if you return to a page with an active playback, the fader will not
     resume control of the playback until it matches the current level of
     the playback. This prevents the playback level jumping when the
@@ -108,23 +108,23 @@ can be set with the [\[Playback Paging\] user setting](../system-settings/user-s
     display area is purple and shows the page number at the top in light
     blue. 
 
-The setting 'Normal' refers to the default state, i.e. 'Always Hold' on consoles 
-without motorised faders.
+The setting \[Normal\] gives the default state, for consoles 
+without motorised faders this is \[Always Hold\].
 
 ### Consoles with Motorised Faders
 
 -   By default, playbacks which are fired when you change page remain active, but
     thanks to the motorised faders you can then use the fader to fire a
-    playback from the new page (setting 'Never Hold'). If you want to kill the original
+    playback from the new page (setting \[Never Hold\]). If you want to kill the original
     playback you need to return to the page it is on and lower the fader
     back to zero. If a playback is active from another page the display
     area is purple and shows the page number at the top in light blue.
 
--   If changed to 'Always Hold' then each fader can be active only on one page 
-    at any time. This is the behaviour known from consoles without motorised faders, see above.
+-   If changed to \[Always Hold\] then each fader can be active only on one page 
+    at any time - so the console behaves as if it did not have motorised faders, see above.
 
-The setting 'Normal' refers to the default state, i.e. 'Never Hold' on consoles 
-with motorised faders.
+The setting \[Normal\] gives the default state, for consoles 
+with motorised faders this is \[Never Hold\].
 
 ---
 
@@ -176,7 +176,7 @@ Releasing Running Playbacks
 ---------------------------
 
 You can **release** a running playback to its previous state by pressing
-\<Release\> *(\<Off\> button on Pearl Expert)*, then the **select** button of
+\<Release\> *(\<Off\> button on Pearl Expert)*, then the **Select** button of
 the playback to be released. Channels will release back to their state
 in the previous playback until no playbacks are left to be released. If
 the \[Release to Home\] setting on the Release menu is Enabled, channels
@@ -194,7 +194,7 @@ seconds but you can change it using \[Master Release Time\] in the
 Release menu. You can also set an individual release time for the
 playback from the [Release tab](playback-options.md#release-tab) of playback [Options](playback-options.md).
 
--   You can instantly kill a playback by pressing \<Avo\> + the **swop**
+-   You can instantly kill a playback by pressing \<Avo\> + the **Select**
     button of the playback.
 
 -   You can set a mask so that only certain attributes release from the
