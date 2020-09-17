@@ -89,19 +89,24 @@ graphic you can jump to a page number by entering the number.
     
 ---
 
-The way how playbacks behave when pages are changed while playbacks are active
+If you change to a new page while some playbacks are fired, the playbacks on the old page remain active.
+The way playback faders behave across different pages
 can be set with the [\[Playback Paging\] user setting](../system-settings/user-settings.md#playback-paging).
+The settings are \[Always Hold\] or \[Never Hold\], and these options work differently
+depending on whether your console has motorised faders or not.
 
 ### Consoles without Motorised Faders
 
--   By default, playbacks which are fired when you change page remain active. If you
+-   The default mode is \[Always Hold\]. If you
     want to fire a cue on a fader which is already up from a previous
     page, lower the fader to zero then raise it again. The cue from the
     previous page will stop and the cue from the new page will fire.
-    This setting is called \[Always Hold\].
 
--   If changed to \[Never Hold\] then the behaviour allows for active faders on
-    multiple pages: if you return to a page with an active playback, the fader will not
+-   If changed to \[Never Hold\] then you can have active faders on
+    multiple pages by level matching the fader. To fire a playback on a new
+    page you have to return the fader to zero (the playback on the old page will continue).
+    When you raise the fader, the playback on the new page will fire. 
+    If you return to a page with an active playback, the fader will not
     resume control of the playback until it matches the current level of
     the playback. This prevents the playback level jumping when the
     fader is first moved. If a playback is active from another page the
@@ -113,10 +118,9 @@ without motorised faders this is \[Always Hold\].
 
 ### Consoles with Motorised Faders
 
--   By default, playbacks which are fired when you change page remain active, but
-    thanks to the motorised faders you can then use the fader to fire a
-    playback from the new page (setting \[Never Hold\]). If you want to kill the original
-    playback you need to return to the page it is on and lower the fader
+-   The default mode is \[Never Hold\]. When you change pages the playback faders will move
+    to show the state of the playbacks on that page and you can directly control all playbacks on the page.
+    If you want to kill a playback on a previous page you need to return to the page it is on and lower the fader
     back to zero. If a playback is active from another page the display
     area is purple and shows the page number at the top in light blue.
 
