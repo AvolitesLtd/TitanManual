@@ -19,7 +19,7 @@ the changes and saving the new information on top of the cue.
 
 4. Press \<Record\>
 
-5. Press the **Swop** button for the cue you are editing
+5. Press the playback **Select** button for the cue you are editing
 
 6. Press \[Merge\] *(the cue being edited is highlighted on the screen)*
 
@@ -38,7 +38,7 @@ information is not affected.
     [User Settings](../system-settings/user-settings.md) (press
     \<Avo\> and select \[User Settings\]).
 
--   You can also press the **Swop** button for the cue a second time to
+-   You can also press the **Select** button for the cue a second time to
     select the **"Merge"** option (quicker than selecting the softkey \[Merge\]
     option).
 
@@ -86,7 +86,7 @@ Playback and Cue View
 ---------------------
 
 To see the current timings of the cue, touch the playbacks display for
-the fader, or press \<View/Open\> then the **swop** button of the playback
+the fader, or press \<View/Open\> then the **Select** button of the playback
 you want to view. The screen will show details of the delay, fade,
 overlap and curve settings for the cue. You can touch each item to
 enable editing.
@@ -207,7 +207,7 @@ or by touching the cue. You can also type in the cue number to Include.
 2. Press \[Quick Include\] or \[Advanced mode\] if you want to change
 the mode.
 
-3. Press the **Swop** button of the cue you want to include into the
+3. Press the **Select** button of the cue you want to include into the
 programmer. If you are in **Quick Include** mode, this Includes the cue and
 finishes.
 
@@ -237,22 +237,22 @@ Deactivate Attributes from Cues Using "Off"
 [](https://youtu.be/p7Ffz4e4tws?t=20 "Off")
 
 The \<Off\> button allows you to temporarily deactivate an attribute which has been
-stored in a cue, as if you'd never recorded it, but you can activate it again later.
+stored in a cue, as if you'd never recorded it. You can activate it again later.
 
 For example, suppose you recorded a cue which had fixtures at a certain
 position, with the colour set to green. If you later decide that you
 don't want a colour recalled at all with this cue, so that the playback
 will position the fixtures but leave the colour set by previous
-playbacks, you set the colour values to Off in the programmer, which
+playbacks, you can set the colour values to Off in the programmer, which
 when saved will deactivate those values in the cue. You can also use the
 Off function to deactivate complete fixtures in a cue.
 
 Setting an attribute to **Off** is not the same as recording an attribute at
-zero, since this would change the attribute when the cue was fired. It
-is the same as inactivating this attribute, so the attribute will remain 
+zero, since this would change the attribute when the cue was fired. You are
+just marking this attribute as deactivated, so the attribute will remain 
 unchanged when the cue is fired.
 
-1. Press \<Off\>, then \[Off Playback Values\] followed by the playback
+1. Press \<Off\>, then \[Off Playback Values\] followed by the **Select** button of the playback
 to be changed.
 
 2. All fixtures in the playback will automatically select. If you only
@@ -280,7 +280,7 @@ change them all, deselect the fixtures you don't want.
 to change. Then press the \[Attributes Off\] softkey to set them to Off.
 The bottom softkeys also give options such as \[Dimmer Off\].
 
-5. Press \<Record\>,  press the **Swop** button of the cue, then select 
+5. Press \<Record\>,  press the **Select** button of the cue, then select 
 \[Replace\] to update it.
 
 ---
