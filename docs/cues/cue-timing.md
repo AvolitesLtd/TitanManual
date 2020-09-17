@@ -33,7 +33,7 @@ You can also edit times of a cue you have already saved like this:
 
 1. Press \[Edit Times\] at the top level menu
 
-2. Press the **Swop** button of the cue
+2. Press the **Select** button of the cue
 
 3. Press \[Fade Mode x\] to set the cue mode.\
 *This sets how the times are used, [see below](#fade-modes).*
@@ -119,7 +119,7 @@ fixtures so they move together when using
 
 1. Press \[Edit Times\] at the top level menu
 
-2. Press the **Swop** button of the cue to be changed
+2. Press the **Select** button of the cue to be changed
 
 3. Press \[Fixture Order\]
 
@@ -158,7 +158,7 @@ To set an attribute group fade time:
 
 1. Press \[Edit Times\] at the top level menu
 
-2. Press the **Swop** button of the cue to be changed
+2. Press the **Select** button of the cue to be changed
 
 3. Press the Attribute Bank button (IPCGBES buttons, or attribute keys 
 on the right hand side on older consoles) for the attribute you want to change
