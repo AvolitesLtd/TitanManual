@@ -231,7 +231,7 @@ layout.)
 
 6. Use the wheel to adjust **Position Y**
 
-7. **Repeat steps 4 and 5** until all the fixtures are at different heights in
+7. **Repeat steps 5 and 6** until all the fixtures are at different heights in
 relation to one another
 
 ![Layout Editor - Randomly Arranged Fixtures](/docs/images/Layout-Editor-Randomly-Arranged-Fixtures.jpeg)
