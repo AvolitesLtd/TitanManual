@@ -5,18 +5,18 @@ sidebar_label: Shapes and Effects introduction
 original_id: effects
 ---
 
-The **Shape Generator** in Titan (sometimes known as an Effects Generator on
-other consoles) allows you to quickly create exciting light shows using
-lots of movement and changes, with the minimum of programming. A range
-of speed controls allow you to modify how the shapes appear at showtime
-giving you a whole range of effects from a few basic stored [cues](cues.md).
+Der **Shape-Generator** (auf Pulten anderer Hersteller wird das oft als
+Effekt-Generator bezeichnet) gestattet es, schnell beeindruckende Shows
+mit vielen Bewegungen und Wechseln bei minimalem Programmieraufwand
+erstellen. Diese lassen sich während der Wiedergabe über verschiedene 
+Steuerelemente für Größe und Geschwindigkeit detailliert beeinflussen, 
+so dass man schon mit wenigen [Cues](cues.md) beeindruckende Ergebnisse 
+erzielen kann.
 
-You can use the conventional 
-[Shape Generator](effects/shape-generator.md) with preset patterns, or
-the [Key Frame Shape Generator](effects/key-frame-shapes.md) which allows you to create your own custom
-patterns.
+Titan enthält sowohl den gewohnten [Shape-Generator](effects/shape-generator.md) mit
+vorgefertigten Mustern und Abläufen, als auch den
+[Keyframe-Shapegenerator](effects/key-frame-shapes.md), mit dem sich Muster, Abläufe und Effekte selbst
+erstellen lassen.
 
-The [Pixel Mapper](effects/pixel-mapper.md) is used to generate animated textures using the colour
-or intensity of a group of fixtures (often LED battens, starcloths or
-LED web type fixtures). When viewed at a distance the effect becomes
-clearly visible.
+Die [Matrixsteuerung/Pixelmapper](effects/pixel-mapper.md) ermöglicht 
+es, auf im passenden Raster angeordneten Geräten (etwa LED-Strahler oder Bars, Sternvorhänge o.ä.) abstrakte 2D-Animationen zu realisieren.

@@ -5,32 +5,33 @@ sidebar_label: Advanced Options
 original_id: advanced-options
 ---
 
-Fading Shape Size and Speed
----------------------------
+Shapes im Fadermodus
+--------------------
 
-When a [shape is stored in a cue](shape-generator.md#using-shapes-in-cues),
-you can set how the shape fades in
-using the Edit Times and the [Playback Options](../cues/playback-options.md) settings.
+Ist ein Shape [in einem Cue gespeichert](shape-generator.md#using-shapes-in-cues), 
+so lässt sich die Art und Weise, wie der Shape eingeblendet wird, mit \[Edit Times\] 
+sowie den [Playback-Optionen](../cues/playback-options.md) einstellen.
 
-To set the shape size and/or speed from the fader position, press
-\[Playback Options\] from the main menu then press the select button of
-the playback.
+Um die Größe/Geschwindigkeit abhängig vom Fader zu machen, drücken Sie
+im Hauptmenü \[Playback Options\] und wählen dann den Speicherplatz
+(Cue) aus, in dem der Shape enthalten ist.
 
-Using the \[Fader\], \[Shape Size\] and \[Shape Speed\] buttons you can
-set the shape size and speed to be fixed (how you programmed them) or to
-grow larger/speed up as the fader is pushed up. You can also allocate a
-Speed or Size Master to control the speed or size, see
+Mit den Funktionstasten \[Fader\] \[Shape Size\] und \[Fader\] \[Shape
+Speed\] können Sie Größe bzw. Geschwindigkeit auf 'fixed' (fest) oder
+'on fader' (faderabhängig) stellen. Ebenso lässt sich ein Speed Master
+oder Size Master zuweisen, siehe
 [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
 
-To set a fixed fade in time for the shape size, press \[Edit Times\]
-from the top menu, then the **playback select** button, then set the
-Delay/Fade times you want.
+Um eine feste Einfadezeit einzustellen, drücken Sie \[Edit Times\],
+wählen das Playback aus, und geben die gewünschte Fade/Delay-Zeit ein.
 
-The [Fade Mode](../cues/playback-options.md#fader-mode) allows you to set mode 0 (fade in), mode 1 (fade in and
-out) or mode 3 (crossfade). Mode 2 links fade times to the fader
-position, however we recommend you use the Playback Options listed above
-to do this for shapes, and do not use Mode 2.
+Der [Fade-Modus](../cues/playback-options.md#fader-mode) für Playbacks 
+kann auf 0 (einfaden), 1 (ein- und ausfaden) oder 3 (crossfade) gestellt 
+werden. Bei Mode 2 hängt die Fadezeit von der Reglerstellung ab; es 
+empfiehlt sich also, wenn Shapes reglerabhängig sind, das Playback nicht 
+im Mode 2 zu verwenden.
 
-If a new cue is fired which controls the same attributes (for example, a
-second shape controlling the same fixtures as a currently running
-shape), the new shape will crossfade from the running shape.
+Wird eine neuer Cue aufgerufen, der die gleichen Attribute steuert (etwa
+ein zweiter Shape auf den gleichen Geräten, die in dem vorherigen Cue
+bereits mit einem Shape gesteuert werden), so wird vom bereits laufenden
+auf den neuen Shape übergeblendet.
