@@ -7,7 +7,7 @@ sidebar_label: Playback Options
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
 To set options for a cue, chase or cue list, press \<Options\> (or the \[Options\] softkey
-on the top level menu), then press the **select** button of the playback to be
+on the top level menu), then press the **Select** button of the playback to be
 edited. The Options window will open allowing you to set a wide range
 of options for how the playback will work, including Times. (You can also set the options using the softkeys.)
 
