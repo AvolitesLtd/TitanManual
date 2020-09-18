@@ -50,7 +50,7 @@ window for that attribute.
 - \<View/Open\> then a fixture select button opens the Fixture
 View window showing patch details for that fixture.
 
-- \<View/Open\> then \<Connect\> opens the View Cue window.
+- \<View/Open\> then \<Connect\> opens the Playback View window.
 
 - \<View/Open\> then \<Off\> opens the Active Playbacks window.
 
@@ -230,8 +230,8 @@ store it.
 Quick record
 ------------
 
-![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png)Some windows - Groups, Workspaces,
-Playbacks, and all the Palette windows - have a Quick Record function.
+![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png) Some windows - Groups, Workspaces,
+and all the Palette windows - have a Quick Record function.
 Set up what you want to record, then touch or click an empty button
 once. The button will light up red with a + sign. At this point you can
 enter a legend. Touch or click again to store the item.
