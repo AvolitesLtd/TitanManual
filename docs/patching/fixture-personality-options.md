@@ -4,6 +4,14 @@ title: Fixture Personality Options
 sidebar_label: Fixture Personality Options
 ---
 
+Titan uses fixture personalities to tell the console how to operate each
+type of fixture. Avolites have created personalities for most fixture types in 
+the known universe, but as new fixtures are being created all the time, you may
+need to add a new fixture personality. 
+See the [personalities section](../fixture-personalities.md) for details of how to
+find personalities if the console does not have a personality for the fixture you are using.
+
+There are also various options you can set which affect how the fixture works.
 All of the options below can also be set from the Patch View window.
 
 Swap Pan and Tilt
