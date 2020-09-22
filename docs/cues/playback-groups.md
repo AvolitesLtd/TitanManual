@@ -62,7 +62,8 @@ using their select buttons.
 There are also softkeys to set the User Number and Legend for the group.
 
 - To delete the entire playback group, press \<Delete\> then the group button in the left 
-hand pane of the workspace.
+hand pane of the workspace. To confirm click the group button again, or click \[Confirm\]
+or press \<Enter\>.
 
 Playback Group options
 ----------------------

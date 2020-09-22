@@ -7,7 +7,7 @@ sidebar_label: Playback Options
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
 To set options for a cue, chase or cue list, press \<Options\> (or the \[Options\] softkey
-on the top level menu), then press the **select** button of the playback to be
+on the top level menu), then press the **Select** button of the playback to be
 edited. The Options window will open allowing you to set a wide range
 of options for how the playback will work, including Times. (You can also set the options using the softkeys.)
 
@@ -93,16 +93,16 @@ override all playback priorities except Very High.
 ### Run On Startup
 Sets this playback to run when the console powers
 on. This can be globally disabled by the
-[Auto Run Startup Playbacks](../system-settings/user-settings.md#run-startup-playbacks) option in
+[Run Startup Playbacks](../system-settings/user-settings.md#run-startup-playbacks) option in
 [User Settings](../system-settings/user-settings.md) *(turned on by default)*.
 
 This can be very useful for unattended applications to set up an
-initial lighting state, or to run lamp on macros.
+initial lighting state.
 
 Power on playbacks show a Power symbol watermark in the playback
 information area above the fader. If you open the
 [Show Library window](../titan-basics/show-library.md)
-there is a filter tab to Show Startup
+there is a context button to Show Startup
 Playbacks which allows you to list all the playbacks which are set to
 run on startup.
 
@@ -241,4 +241,4 @@ allocate one of the handle buttons to release the playback.
 
 ### Release Time
 Sets a release fade time for this playback. Enter a
-blank time to return to global *([Global release time](../system-settings/user-settings.md#master-release-time) is set in the [User Settings](../system-settings/user-settings.md))*.
+blank time to return to global *([Global release time](../system-settings/user-settings.md#master-release-time) is set in the [User Settings](../system-settings/user-settings.md))*. 

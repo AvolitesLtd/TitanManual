@@ -33,7 +33,7 @@ You can also edit times of a cue you have already saved like this:
 
 1. Press \[Edit Times\] at the top level menu
 
-2. Press the **Swop** button of the cue
+2. Press the **Select** button of the cue
 
 3. Press \[Fade Mode x\] to set the cue mode.\
 *This sets how the times are used, [see below](#fade-modes).*
@@ -73,7 +73,7 @@ can change this, see [Changing Fixture Order](#changing-fixture-order))*.
 
 The times you enter are affected by the cue mode which is set using the
 \[Fade Mode\] option. This option can also be set from playback \[Options\],
-\[Fade Mode\]:
+\[Fader\]:
 
 -   \[Mode 0\] - Channels will fade in as set by the fade time. The Fade
     Out time is ignored. If times are set to zero, the HTP channels fade
@@ -119,7 +119,7 @@ fixtures so they move together when using
 
 1. Press \[Edit Times\] at the top level menu
 
-2. Press the **Swop** button of the cue to be changed
+2. Press the **Select** button of the cue to be changed
 
 3. Press \[Fixture Order\]
 
@@ -158,12 +158,12 @@ To set an attribute group fade time:
 
 1. Press \[Edit Times\] at the top level menu
 
-2. Press the **Swop** button of the cue to be changed
+2. Press the **Select** button of the cue to be changed
 
-3. Press the Attribute Bank button (right hand side) for the attribute
-you want to change
+3. Press the Attribute Bank button (IPCGBES buttons, or attribute keys 
+on the right hand side on older consoles) for the attribute you want to change
 
-4. Press \[Delay\] to set delay time or \[Set fade\] to set fade time
+4. Press \[Delay = \] to set delay time or \[Fade = \] to set fade time
 
 5. Type the new time using the numeric keypad and press \<Enter\> to
 save it, or press \[Use Global\] to delete the attribute times and go
@@ -174,7 +174,7 @@ back to the normal times.
 You can take this even further and set individual fade times for each
 fixture. When you select the cue to be changed, you will see that all
 the fixtures in the cue are selected. To set attribute times for only
-certain fixtures, change the fixture selection using the **Swop** buttons.
+certain fixtures, change the fixture selection using the fixture buttons.
 
 The [Cue View window](editing-cues.md#cue-view) will display when editing cue timings to help you
 see what you are editing. You can touch fixtures or attributes in the
@@ -212,13 +212,13 @@ times.
 
 -   \<CUE\> \<3\> \<Time\> \<5\> = 5 sec fade in on connected playback's cue 3
 
--   \<Time\> **FIXTURE** \<5\> = 5 sec fade in for all attributes of selected
+-   \<Time\> \<FIXTURE\> \<5\> = 5 sec fade in for all attributes of selected
     fixtures
 
--   \<Time\> **FIXTURE** \<G\> \<5\> = 5 sec fade in for gobo attribute group of
+-   \<Time\> \<FIXTURE\> \<G\> \<5\> = 5 sec fade in for gobo attribute group of
     selected fixtures
 
--   \<Time\> **FIXTURE** \<\@B\> \<5\> = 5 sec fade in for attribute connected to wheel
+-   \<Time\> \<FIXTURE\> \<\@B\> \<5\> = 5 sec fade in for attribute connected to wheel
     B on selected fixtures
 
 -   \<5\> \<@\> \<3\> = 5 sec fade in, 3 sec delay

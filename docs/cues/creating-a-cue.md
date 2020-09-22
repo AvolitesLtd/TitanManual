@@ -20,7 +20,7 @@ started.
 All fixtures and attributes that have been edited since the last Clear
 are stored in the ***Programmer***. The order in which you selected the
 fixtures is also stored, and is used with [shapes](../effects.md) and the
-[Fixture Overlap](cue-timing.md#fade-times-and-fixture-overlap)
+[Fixture Overlap](cue-timing.md#setting-fade-times-and-overlap-for-a-cue)
 function. When you record a cue, the contents of the Programmer are
 saved into the cue.
 
@@ -75,8 +75,8 @@ Other useful things to know about recording cues:
     create an effect.
 
 -   If you are recording a lot of cues, you can press \<Menu Latch\> to
-    keep the Record Cue menu active. Press \<Exit\> to leave Record Cue
-    mode.
+    keep the Record Cue menu active. Press \<Menu Latch\> again to unlatch
+    the Record Cue menu, press \<Exit\> to leave the menu.
 
 -   The screen immediately above each fader shows a legend for the
     playback. To set this, from the top-level menu press \[Set Legend\], 
@@ -130,8 +130,8 @@ show. Your changes are still shown in the
 [Visualiser window](../capture-visualiser.md).
 
 To put the console into blind mode, just press the \<Blind\> button *(on
-consoles without a dedicated button, hold down \<Avo\> and select the
-\[Blind\] option)*.
+consoles without a dedicated button, hold down \<Avo\> and toggle the
+option between \[Blind Inactive\] and \[Blind Active\]  )*.
 
 If you want to preview a playback on the visualiser without affecting
 the stage, playbacks can be set to Blind mode using \[Playback
