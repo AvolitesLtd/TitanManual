@@ -93,9 +93,8 @@ button rather than a quick press, you get some more options
     programming, but the lit state will not be stored in any cues you
     save.
 
-> To quickly locate without changing pan/tilt, hold \<Locate\> and press the Pan/Tilt (or Position) button, then release \<Locate\>.\
->
-> To quickly locate pan/tilt only, hold \<Locate\>, press \<Options\> (\<Attribute Options\> on some consoles), then press \<Position\> (\<Pan/Tilt\> on some consoles), then release \<Locate\>.
+> To quickly locate **without changing pan/tilt**, hold \<Locate\> and press the Pan/Tilt (or Position) button, then release \<Locate\>.\
+> To quickly locate **pan/tilt only**, hold \<Locate\>, press \<Options\> (\<Attribute Options\> on some consoles), then press \<Position\> (\<Pan/Tilt\> on some consoles), then release \<Locate\>.
 
 
 ### Changing the Locate State
