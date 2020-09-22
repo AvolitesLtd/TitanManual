@@ -89,7 +89,10 @@ the first time until you have installed the Titan PC Suite software,
 which you do simply by running the installer file. This will make sure
 the drivers for the panel are installed.
 
-> From Titan v7, Windows XP and Vista are no longer supported. Your PC must be running a 64 bit version of Windows 7, Windows 8.1 or Windows 10.
+> From Titan v13, your PC must be running a 64 bit version of Windows 10. 
+  Earlier versions of Windows and virtual machines are not supported.
+  We recommend a minimum of i5 5th Gen processor with 4GB of RAM. Please
+  [see https://avolites.com/titan-pc-system-requirements](https://avolites.com/titan-pc-system-requirements/) for the full specification.
 
 For best usability, your PC should have a touch screen. If not you can
 use the mouse to select touch buttons.
