@@ -68,7 +68,7 @@ up dimly.
     line (universe) as well by entering {line}.{DMX}, for example 2.56
     will set DMX address 56 on DMX line 2.
 
--   To see how DMX channels are patched, press \<View/Open\> then Patch
+-   To see how DMX channels are patched, press \<View/Open\> then \<Patch\>
     to show the [Patch View](./changing-the-patch.md#patch-view) window.
 
 -   \[User Number = xx\] allows you to set a user-defined number for
