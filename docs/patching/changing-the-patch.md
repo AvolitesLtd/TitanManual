@@ -181,7 +181,9 @@ identify the fixture.
     fixture.
 
 -   You can set a legend for the current page of fixtures using the
-    \[Set Legend\] function from the main Program menu. The legend is
+    \[Set Legend\] function from the main Program menu, then \[Page Legends\],
+    then the page tab which you like to change (if pages are not shown you
+    can enable this int the context menu). The legend is
     shown on the touch button for the page and on the HUD.
 
 Fixture Button Halo
@@ -294,7 +296,7 @@ should you need to using the \[Clear All Mappings\] softkey).
 
 To set up mapping:
 
-1. Press \<View/Open\> then Patch to show the Patch View screen.
+1. Press \<View/Open\> then \<Patch\> to show the Patch View screen.
 
 2. Select the Exchange Mapping tab.
 
@@ -368,18 +370,18 @@ console does not update fixtures which are already patched.
     Personalities, then you will be able to undo any changes if you
     change your mind or have problems.
 
-1. Enter patch mode by pressing Patch.
+1.  Enter patch mode by pressing \<Patch\>.
 
-2. Press \[Edit Fixtures\]
+2.  Press \[Edit Fixtures\].
 
-3. Press \[Update Personality\] to update an individual fixture
-   type, or \[Update All\] to update all patched fixtures to the most
+3.  Press \[Update Personality\]. 
+
+4.  Titan shows all fixture types which are patched in the show and 
+    which it has updates for in the installed fixture library. You 
+    can select the type(s) you want to update, or you click 
+    \[Update All\] to update all patched fixture types to the most
     recent version in the library.
 
-4. If updating individual fixtures, the console shows you a list of
-    personalities used in the show which can be updated.
-
-5. If updating individual fixtures, press the personality you want
-    to update.
+-   Updating a number of fixtures may take a little while.
 
 -   The new personality is loaded from the Titan/Personalities folder.
