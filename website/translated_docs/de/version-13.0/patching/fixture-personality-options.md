@@ -5,201 +5,231 @@ sidebar_label: Fixture Personality Options
 original_id: fixture-personality-options
 ---
 
-All of the options below can also be set from the Patch View window.
+Titan benutzt ein System von 'Personalities', gerätespezifische Dateien,
+welche notwendige Informationen enthalten, wie welches Movinglight 
+gesteuert werden muss. Avolites hat für eine Vielzahl von Movinglights 
+solche Dateien erstellt. Bei ganz neuen Geräten kann es aber erforderlich 
+sein, eine neue Personality zu erstellen. Siehe [Personalities](../fixture-personalities.md) für weitere Details dazu.
 
-Swap Pan and Tilt
------------------
+Zusätzlich gibt es etliche Optionen, mit denen genau gesteuert werden kann,
+wie ein Movinglight reagiert. Die nachfolgend aufgeführten Einstellungen 
+lassen sich auch in der Patch-Ansicht vornehmen.
 
-This allows you to make the pan channel control tilt and the tilt
-control pan. This can be useful for fixtures rigged in strange
-orientations.
+Pan und Tilt vertauschen
+------------------------
 
-1. Press \<Patch\>.
+Damit wird die Zuordnung der Steuerelemente für Pan und Tilt vertauscht.
+Dies ist etwa sinnvoll bei spiegelbewegten Geräten, die seitwärts
+ausgerichtet sind.
 
-2. Press \[Edit Fixtures\].
+1.  Drücken Sie \<Patch\>.
 
-3. Press \[Swap Pan and Tilt\].
+2.  Drücken Sie \[Edit Fixtures\].
 
-4. Select the fixtures to be pan-tilt swapped. Press \[Pan and Tilt
-...\] to select either \[Swapped\] or \[Normal\] for the selected
-fixtures.
+3.  Betätigen Sie \[Swap Pan and Tilt\].
 
-5. Press \<Exit\> when finished.
+4.  Wählen Sie die Geräte aus, bei denen Pan und Tilt vertauscht werden
+soll. Drücken Sie \[Pan and Tilt ...\], um für die angewählten Geräte
+zwischen \[Swapped\] (vertauscht) und \[Normal\] umzuschalten.
 
-Invert Attributes
------------------
+5.  Drücken Sie \<Exit\>, um das Menü zu verlassen.
 
-This option inverts individual attributes of fixtures. Useful if you
-have a fixture which pans right when the rest pan left, saving a trip up
-the rig to set fixture options, but you can invert any attribute.
+Attribute invertieren
+---------------------
 
-1. Press \<Patch\>.
+Mit dieser Option lassen sich einzelne Attribute ausgewählter Geräte
+invertieren. Das ist hilfreich z.B. wenn ein Gerät nach rechts läuft,
+während alle anderen nach links laufen. Damit spart man sich mindestens
+einen Weg auf die Truss, nur um die Einstellung am Gerät selbst zu
+korrigieren.
 
-2. Press \[Edit Fixtures\].
+1.  Drücken Sie \<Patch\>.
 
-3. Press \[Invert Attribute\].
+2.  Drücken Sie \[Edit Fixtures\].
 
-4. Select fixture(s) to be changed.
+3.  Drücken Sie \[Invert Attribute\].
 
-5. Select the attribute to invert from the softkeys. The display shows
-\[Inverted\] when the attribute is inverted.
+4.  Wählen Sie die zu ändernden Geräte.
 
-6. Press \<Exit\> to finish.
+5.  Wählen Sie das zu invertierende Attribut von den
+	Menütasten. Im Display wird mit \[Inverted\] angezeigt, wenn
+	ein Attribut invertiert ist.
+
+6.  Klicken Sie \<Exit\>, um den Vorgang abzuschließen.
 
 ![Tilt Inverted](/docs/images/Tilt-Inverted.png)
 
--   You can change the invert on multiple fixtures by selecting more
-    than one, but the "Inverted" display will not show if there is a
-    mixture of inverted and non-inverted fixtures in the selection.
 
--   Some attributes cannot be inverted.
+-   Es lassen sich bei mehreren Geräten gleichzeitig Attribute
+    invertieren, indem man mehrere Geräte anwählt. Allerdings zeigt in
+    diesem Fall das Display nicht an, ob in der Auswahl manche Geräte
+    bereits invertiert sind und andere nicht.
 
--   Invert can also be set from the Attribute Behaviour tab of the Patch
-    View window.
+-   Einige Attribute können nicht invertiert werden.
 
-Attribute Limits
-----------------
+-   Attribute können auch im Attribute Behaviour-Reiter der
+    Patch-Ansicht invertiert werden.
 
-You can set upper and lower limits for any attribute. This can be useful
-for example to limit the pan/tilt movement of a fixture, or if a fixture
-has a combined dimmer/strobe function and you only want the dimmer part
-of the operation.
+Attribute limitieren
+--------------------
 
-Attribute limits are set either from the Edit Fixtures menu or using the
-Attribute Behaviour tab of the Patch View window.
+Für jedes Attribut lassen sich sowohl obere als auch untere Limits
+setzen. Damit kann etwa die Pan/Tilt-Bewegung begrenzt werden, oder bei
+Geräten mit Dimmer und Shutter auf einem Kanal kann der Shutterbereich
+gesperrt werden.
 
-1. Press \<Patch\>.
+Limits für Attribute können entweder über das Menü \<Patch\>, \[Edit
+Fixtures\], oder über den Reiter 'Attribute Behaviour' im Patch View
+gesetzt werden.
 
-2. Press \[Edit Fixtures\].
+1.  Drücken Sie die Taste \<Patch\>.
 
-3. Press \[Set Limits\].
+2.  Drücken Sie \[Edit Fixtures\].
 
-4. Select the fixtures to be set.
+3.  Wählen Sie \[Set Limits\].
 
-5. Use the softkeys to select which attributes are to be set, then
-select upper or lower limit.
+4.  Wählen Sie das/die gewünschte(n) Gerät(e) aus.
 
-6. Input a percentage value for the limit value, or press \[Set To
-Current Value\]. To remove a limit press \[Remove Limit\].
+5.  Wählen Sie über die Menütasten die zu ändernden Attribute sowie,
+	ob das obere (upper) oder das untere (lower) Limit gesetzt werden
+	soll.
 
-7. Press \<Exit\> when finished.
+6.  Geben Sie den gewünschten Wert in Prozent ein, oder wählen Sie \[Set
+	To Current Value\], um den momentanen Wert zu übernehmen. Mit \[Remove
+	Limit\] wird das Limit gelöscht.
 
-From the Attribute Behaviour tab, use the context buttons to set
-Attribute Limits.
+7.  Beenden Sie den Vorgang mit \<Exit\>.
 
-It is still possible to put values into the programmer outside the
-limits. A "limited" watermark will appear on the wheel view behind an
-attribute when it is being limited.
+Im Reiter 'Attribute Behaviour' der Patch-Ansicht setzen Sie Limits mit
+Hilfe der entsprechenden Kontext-Schaltflächen.
+
+Auch bei gesetzten Limits können Werte außerhalb derselben in den
+Programmierspeicher geschrieben werden; dies wird oberhalb des
+jeweiligen Rades mit dem Symbol "limited" angezeigt.
 
 ![limited](/docs/images/Limited-Dimmer.png)
 
-Fixture Offset
---------------
+Fixture Offset -- Geräte-Offset
+-------------------------------
 
-You can set an offset to any attribute of any fixture. The normal use
-for this is to correct pan/tilt positions when fixtures are rigged in a
-different orientation to how they were programmed. The offset is applied
-to channels just before final output.
+Für jedes Attribut jedes Gerätes lässt sich ein Offset einstellen.
+Insbesondere ist das sinnvoll, um Positionen (Pan/Tilt) anzupassen, wenn
+Geräte anders hängen, als in der Programmierung vorgesehen. Das Offset
+wird unmittelbar vor der DMX-Signalausgabe angewandt, beeinflusst dann
+also sämtliche Paletten und Cues.
 
-There are 4 ways to set an offset:
+Das Offset kann auf vier Arten eingestellt werden:
 
--   Select fixture, \<Locate\>, then adjust attributes to the desired
-    locate value. Then press \<Record\>, \<Locate\>, \[Update Offset\].
-    This does not change the actual locate value but sets the difference
-    between the locate position and your set position as the offset.
-    This is an easy visual way to set the offset.
+-   Gerät(e) auswählen, \<Locate\>, dann die Attribute so einstellen,
+    dass die ursprünglich vorgesehenen Locate-Positionen erreicht
+    werden. Nun drücken Sie \<Record\>, \<Locate\> und wählen \[Update
+    Offset\]. Damit werden nicht die Locate-Werde verändert, sondern die
+    eingestellte Abweichung wird als Offset gespeichert. Das ist ein
+    schneller visueller Weg, das Offset einzurichten.
 
--   You can also set offsets using palettes. Select fixture, apply
-    palette, adjust fixture to desired values then press \<Record\>,
-    \<Palette\>, \[Update Offset\]. Again this does not change the
-    palette, but sets the difference between the palette and the
-    position you changed it to as the offset value.
+-   Ebenso kann das Offset mittels Paletten eingestellt werden. Wählen
+    Sie das/die Gerät(e) aus, rufen Sie eine Palette ab und stellen dann
+    die Attribut-Werte manuell auf die richtigen Werte (z.B. die
+    korrekte Position). Nun drücken Sie \<Record\>, klicken wieder die Palette
+	an und wählen \[Update Offset\]. Auch hier wird nicht die Palette geändert,
+    sondern die Abweichung zwischen der Palette und der aktuellen
+    Position wird als Offset gespeichert.
 
--   In the Patch View window, in the Patched Fixtures list there are
-    cells for Pan or Tilt offset
+-   In der Patch-Ansicht gibt es für die bereits gepatchten Geräte Pan
+    und Tilt extra Zellen mit den Offset-Werten; diese werden dort
+    angezeigt und können editiert werden.
 
--   In the Patch View window, in the Attribute Behaviour tab you can
-    select \[Offset\] from the context menu buttons. This lets you view
-    or adjust offsets set by the first two methods.
+-   Ebenfalls in der Patch-Ansicht, Reiter 'Attribute Behaviour'
+    (Attribut-Verhalten) kann man die Kontext-Option \[Offset\] wählen und
+    die Werte anzeigen lassen bzw. ändern,
 
-Fixture / Attribute curves
---------------------------
+Kennlinien für Geräte und Attribute
+-----------------------------------
 
-Curves set how an attribute behaves over the full range of values. They
-are most often used for dimmer attributes to set the way the dimmer
-level follows a slider, but can be applied to any attribute.
+Kennlinien bestimmen, wie sich ein Attribut bei Änderung des DMX-Wertes
+verhält. Dies kommt vor allem zur Anwendung bei Dimmerkanälen, um den
+Helligkeitsverlauf für verschiedene Gerätearten anzugleichen, kann aber
+auf alle anderen Attribute ebenfalls angewendet werden.
 
-Curves are set either from the Edit Fixtures menu or using the context
-buttons on the Attribute Behaviour tab of the Patch View window.
+Kennlinien können entweder über das Menü \<Patch\>, \[Edit Fixtures\],
+oder über den Reiter 'Attribute Behaviour' im Patch View gesetzt werden.
 
-1. Press \<Patch\>, \[Edit Fixtures\].
+1.  Drücken Sie die Taste \<Patch\>.
 
-2. Press \[Set Curve\].
+2.  Drücken Sie \[Edit Fixtures\].
 
-3. Select the fixtures to be set.
+3.  Wählen Sie \[Set Curve\].
 
-4. Use the softkeys to select which attributes are to be set.
+4.  Wählen Sie das/die gewünschte(n) Gerät(e) aus.
 
-5. Use the softkeys to select the type of curve required. The normal
-setting is Linear.
+5.  Wählen Sie über die Menütasten die zu ändernden Attribute aus.
 
-6. Press \<Exit\> when finished.
+6.  Wählen Sie über die Menütasten die gewünschte Kennlinie
+	aus; die Vorgabe ist "Linear".
 
-See the [curves section](../system-settings/curves.md) for details of the different curves
-available.
+7.  Beenden Sie den Vorgang mit \<Exit\>.
 
-Freeze Fixtures or Attributes
------------------------------
+Die verschiedenen Kennlinien sind im Abschnitt [curves section](../system-settings/curves.md) näher erläutert.  
 
-This option allows you to freeze individual attributes of a fixture, or
-to freeze the whole fixture. Attributes or fixtures which are frozen are
-not affected by playbacks or by the programmer.
+Geräte oder Attribute fixieren (Freeze)
+---------------------------------------
 
-1. Press \<Patch\>, \[Edit Fixtures\].
+Mit dieser Funktion lassen sich einzelne Attribute oder komplette Geräte
+fixieren. Diese werden dann weder vom Programmierspeicher noch von
+programmierten Cues/Cuelisten beeinflusst.
 
-2. Press \[Freeze Fixture or Attribute\].
+1.  Drücken Sie \<Patch\>.
 
-3. Select the fixtures to be frozen/unfrozen.
+2.  Drücken Sie \[Edit Fixtures\].
 
-4. Use the softkeys to select which attributes are frozen, or to freeze
-the whole fixture. Frozen attributes are indicated on the softkey.
+3.  Drücken Sie \[Freeze Fixture or Attribute\]
 
-5. Press \<Exit\> when finished.
+4.  Wählen Sie die zu fixierenden Geräte.
 
--   Freeze can also be set from the Attribute Behaviour tab of the Patch
-    View window.
+5.  Wählen mit den Menütasten, welches Attribut oder ob das gesamte
+	Gerät fixiert werden soll. Im Display wird die gewählte Einstellung
+	angezeigt.
 
--   A "Frozen" watermark is shown on the wheel display when an attribute
-    is frozen.
+6.  Klicken Sie \<Exit\>, um den Vorgang abzuschließen.
 
-Editing the Personality
------------------------
+-   Das Fixieren kann auch im Attribute Behaviour-Reiter der
+    Patch-Ansicht erfolgen.
 
-Sometimes you may want to modify the way a fixture behaves, or you may
-find a fixture personality contains errors and needs editing. You can
-edit personalities directly on the console.
+-   Fixierte Attribute werden durch das Symbol "Frozen" bei den
+    Attributwerten oberhalb der Encoder angezeigt.
 
-1. Press \<Patch\>, \[Edit Fixtures\], .
+Die Personality editieren
+-------------------------
 
-2. Press \[Edit Personality\].
+Sollte einmal eine Personality nicht wie erwartet funktionieren
+oder will man das Verhalten gezielt ändern, so kann sie direkt
+im Pult editiert werden.
 
-3. The softkeys show a list of all fixture types patched in your show.
-Select the fixture type to be edited.
+1.  Drücken Sie \<Patch\>.
 
-4. Personality Builder will open allowing you to edit the personality.
+2.  Drücken Sie \[Edit Fixtures\].
 
-5. When you save changes, your show will be updated with the edited
-personality. Your changes are also saved to the fixture library on the
-console.
+3.  Drücken Sie \[Edit Personality\].
 
--   Edited personalities will be saved in the User/Custom personality
-    folder at D:\\Personalities (if using Titan Mobile, Titan Go or a
-    simulator, the folder is at \\Documents\\Titan\\Personalities).
-    Personalities in this folder are searched and loaded before those in
-    the library and are not overwritten when a new fixture library is
-    installed.
+4.  Im Display wird eine Liste der aktuell verwendeten
+    Personalities angezeigt. Wählen Sie die zu editierende mit der
+	entsprechenden Taste.
 
--   A separate user guide for Personality Builder is available from the
-    Avolites website.
+5.  Der Personality Builder wird nun gestartet.
 
-> If you find a problem in a fixture personality provided by Avolites, please let us know using the bug report form in the Personality section of the website.
+6.  Beim Speichern von Änderungen werden diese als benutzereigene
+	Personality gespeichert; außerdem erfolgt eine Rückfrage, ob die 
+	Änderungen direkt in die Show übernommen werden sollen.
+
+-   Von Ihnen erstellte/geänderte Personalities werden in das dafür
+    vorgesehene Verzeichnis D:\\Personalities (beim Simulator, Titan
+    Mobile und Titan One ist dies \\Eigene
+    Dokumente\\Titan\\Personalities) gespeichert. Dieses Verzeichnis
+    wird beim Patchen zuerst durchsucht, und beim Updaten der
+    allgemeinen Personalities nicht verändert.
+
+-   Für den Personality Builder gibt es auf
+    [www.avolites.com](http://www.avolites.com) ein gesondertes
+    Handbuch.
+
+> Sollten Sie auf ein Problem in einer von Avolites gelieferten Personality stoßen, so teilen Sie dies bitte über das Formular auf der [Personality-Website](https://personalities.avolites.com/) mit (Gerät raussuchen, dann ganz rechts auf den Käfer (engl. Bug ) klicken).

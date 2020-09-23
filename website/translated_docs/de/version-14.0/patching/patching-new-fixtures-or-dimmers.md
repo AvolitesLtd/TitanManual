@@ -5,314 +5,336 @@ sidebar_label: Patching new Fixtures or Dimmers
 original_id: patching-new-fixtures-or-dimmers
 ---
 
-Fixture Select Buttons and Handles
-----------------------------------
+Gerätetasten und -buttons
+-------------------------
 
-To control intelligent fixtures or dimmer channels, they must each be
-patched to a button (sometimes referred to as a "handle"). You can patch
-onto touch buttons in the Fixtures window, to a fader handle or to a
-Macro/Executor button. If the handle you patch to has a fader, the fader
-will control intensity.
+Um Movinglights oder Dimmer steuern zu können, müssen diese
+zunächst einer Schaltfläche oder Taste zugewiesen werden. Gepatcht
+werden kann auf die Buttons im Fenster 'Fixtures', auf die
+Macro/Exekutor-Tasten sowie auf die normalen Playbacks mit Fadern
+(Speicherplätze). Wird direkt auf Playbacks gepatcht, so steuert der
+Fader die Helligkeit des jeweiligen Geräts.
 
-If the Fixtures window is not shown, press \<View/Open\> then
-\<Fixture\> or press \<View/Open\> then \[Open Workspace Window\] then
-\[Fixtures\].
+Ist das Fenster 'Fixtures' nicht sichtbar, so drücken Sie \<View / Open\>, dann \<Fixture\>, oder \[Open Workspace Window\] gefolgt von
+\[Fixtures\], oder Sie rufen den Workspace \[Fixtures and Groups\] auf.
 
 ![Fixtures Window](/docs/images/Fixtures-Window.png)
 
-Fixture buttons can be shown either in pages with Page buttons, or you
-can use the scroll bar on the right to show different pages. Use the
-\[Pages Show/Hide\] button in the context buttons on the right of the screen to select between
-page buttons and scrolling mode (these buttons drop down using the menu button in the window
-top bar for Sapphire Touch and Titan Go).
- You can change the fixture page at any
-time.
+Geräteauswahltasten werden entweder seitenweise -- mit gesonderten
+Tasten zur Umschaltung der Seiten -- oder mit einer Schiebeleiste zum
+Wechseln angezeigt. Mit der Schaltfläche \[Pages Show/Hide\] im
+Kontextbereich (links neben den Menübuttons, bzw. im Kontextmenü des 
+Gerätefensters beim Sapphire Touch und Titan Go) lässt sich zwischen den 
+beiden Darstellungsarten umschalten. Zwischen einzelnen Seiten der 
+Anzeige lässt sich jederzeit wechseln.
 
-You can allocate fixtures and dimmers to Groups, which allows you to
-quickly select a set of fixtures with one button. Groups are described
-in the next chapter.
+Titan gestattet es ferner, einzelne Dimmer und Scheinwerfer zu Gruppen
+zusammenzufassen, um schnell auf eine bestimmte Zusammenstellung von
+Geräten Zugriff zu haben. Gruppen werden im nächsten Kapitel
+beschrieben.
 
-Once you have patched fixtures or dimmers, the [Patch View](./changing-the-patch.md#patch-view) screen shows
-you an overview of what is patched where and lets you edit the patch.
+Sobald Geräte gepatcht wurden, können die Details in der [Patch-Übersicht](./changing-the-patch.md#patch-view) angezeigt und geändert werden.
 
-Patching Dimmers
-----------------
+Patchen von Dimmern
+-------------------
 
-Each fixture button can control single or multiple dimmer channels. You
-allocate a button using the Patch menu (described below) or the [Patch View](./changing-the-patch.md#patch-view) window.
+Jede Gerätetaste kann einen oder mehrere Dimmer steuern. Die Zuordnung
+(das Patchen) erfolgt entweder über das Patch-Menü (s.u.) oder über das
+Fenster [Patch View](./changing-the-patch.md#patch-view).
 
-1. Press \<Patch\>, then \[Dimmers\].
+1. Drücken Sie die Taste \<Patch\>, dann \[Dimmer\].
 
-2. \[DMX Line=\] shows you which of the DMX output lines you are
-patching onto. Enter a new number to change the line. \[Address = \]
-shows the DMX address about to be patched. You can change this by typing
-in the new address on the numeric keypad and pressing \<Enter\>.\
+2. \[DMX Line=\] zeigt die aktuell zum Patchen ausgewählte DMX-Linie.
+Drücken Sie diese, und geben Sie ggf. eine neue Nummer zum Ändern der
+DMX-Linie ein. \[Address=xx\] zeigt die aktuelle DMX-Adresse an, die als
+nächstes gepatcht werden würde; zum Ändern drücken diese Taste, geben
+die neue Adresse am Zifferntastenblock ein und drücken \<Enter\>.\
 ![DMX Line](/docs/images/DMX-Line.png)
 
-3. To patch a single dimmer, press a Fixture touch button, a
-Macro/Executor button or the blue Select button of a fader handle. To
-patch a sequence of dimmers each to its own button, press \[Quantity\]
-and set the number of dimmers then press the first select button.
-Alternatively, run your finger or draw a selection box round the touch
-buttons, or for physical buttons hold down the first button in the range
-and press the last button in the range. The range of dimmers will be
-patched to sequential DMX addresses.
+3. Um einen einzelnen Dimmer zu patchen, betätigen Sie einen der
+Buttons im Fixtures-Fenster, eine Macro/Exekutor-Taste oder die blaue
+Taste bei einem Fader. Um eine Reihe von Dimmern zu patchen, geben Sie
+die gewünschte Anzahl bei \[Quantity\] ein und bestätigen die Anwahltaste
+für den ersten Dimmer (ebenso kann man einfach mit dem Finger über den
+entsprechenden Bereich von Buttons streichen, oder bei Tasten die erste
+gedrückt halten und dazu die letzte drücken). Die so angelegte Reihe von
+Dimmern wird auf fortlaufende DMX-Kanäle gepatcht.
 
-4. A fixture button turns dark blue and shows fixture details when it
-is patched. If you patch to a fader handle the select button will light
-up dimly.
+4. Die verwendeten Schaltflächen erscheinen nun dunkelblau, um
+anzuzeigen, dass sie bereits belegt sind, und zeigen einige Details der
+Geräte/Dimmer an. Wurde auf ein Playback oder eine Macro-Taste gepatcht,
+so leuchtet die jeweilige LED schwach auf, um die Belegung anzuzeigen.
 
-5. Repeat from step 2 for other dimmers.
+5. Nun wiederholen Sie den Vorgang ab Schritt 2 für weitere Dimmer.
 
--   When setting the DMX address using \[Address=\], you can set the DMX
-    line (universe) as well by entering {line}.{DMX}, for example 2.56
-    will set DMX address 56 on DMX line 2.
+-   Beim Einstellen der DMX-Adresse mit \[Address=xx\] kann man ebenso
+    die DMX-Linie (Universum) angeben: geben Sie dazu
+    {Linie}.{DMX-Adresse} ein, etwa 2.56 für Kanal 56 auf Linie 2.
 
--   To see how DMX channels are patched, press \<View/Open\> then Patch
-    to show the [Patch View](./changing-the-patch.md#patch-view) window.
+-   Zur Anzeige der gepatchten DMX-Kanäle drücken Sie \<View / Open\>, 
+	dann \<Patch\>, um die [Patch-Übersicht (Patch View)](./changing-the-patch.md#patch-view) zu öffnen.
 
--   \[User Number = xx\] allows you to set a user-defined number for
-    each dimmer or fixture patched, to help you identify them later. You
-    can also edit the User Number from the Repatch Fixture menu.
+-   \[User Number = xx\] erlaubt die Eingabe einer benutzerdefinierten
+    Nummer für jedes gepatchte Gerät, um später die Zuordnung zu
+    erleichtern. Diese Benutzernummer/Gerätenummer ('User Number')
+    lässt sich später im Menü 'Repatch Fixture' verändern.
 
--   You can patch multiple dimmer channels to a single handle. This can
-    be useful if, for example, you want to control all the lights for
-    one area together. To do this, just press the same Fixture Select
-    button again when patching the new dimmer channel. You can tell the
-    dimmer channel has patched OK because the DMX address will increase
-    by 1.
+-   Einer Anwahltaste lassen sich auch mehrere Dimmer zuordnen. Das ist
+    zweckmäßig z.B. wenn sämtliche Scheinwerfer eines Bereiches
+    gemeinsam gesteuert werden sollen. Um eine solche Zuordnung
+    vorzunehmen, betätigen Sie einfach die gleiche Anwahltaste beim
+    Patchen des nächsten Dimmers. Zur Kontrolle, ob der Patchvorgang
+    erfolgreich war, überprüfen Sie die angezeigte DMX-Adresse: mit
+    jedem gepatchten Dimmer erhöht sich diese um 1.
 
--   If you need to remove a dimmer from multiple dimmers on a single
-    handle without losing programming, make a copy of the handle then
-    repatch the copy to the individual dimmer address.
+-   Um einen Dimmer, der wie eben beschrieben gemeinsam mit mehreren auf
+    einer Schaltfläche gepatcht war, getrennt zu patchen, ohne die
+    bestehende Programmierung zu verlieren, kopieren Sie die bestehende
+    Schaltfläche und ändern das Patching der kopierten auf die
+    gewünschte Adresse.
 
-Patching Moving Light Fixtures
-------------------------------
+Patchen von Movinglights
+------------------------
 
-Moving light fixtures are more complicated to patch than dimmers because
-they have more attributes to control, such as pan, tilt and colour,
-whereas a dimmer channel just has intensity.
+Bewegungsscheinwerfer (intelligente Scheinwerfer) sind etwas
+komplizierter zu patchen als Dimmer, da hier mehr Funktionen pro Gerät
+verwaltet werden müssen (Pan, Tilt, Farbe etc.), während Dimmer nur
+einen Kanal haben.
 
-Avolites consoles use a "personality" system to control fixtures. This
-means you don't have to know how each fixture works, you just tell Titan
-what you want to do and it will send the right control commands. The
-console has built-in personalities for most types of fixture, which tell
-it what attributes are available and how to control them. If the console
-does not have the personality for your fixture, you can download further
-personalities from the Avolites website, create your own using the
-Personality Builder application installed on the console, or Avolites
-can create one for you. See the [personalities section](../fixture-personalities.md) for details of how to
-find personalities.
+Avolites-Pulte benutzen ein System von 'Personalities', um solche
+Scheinwerfer zu steuern. Das bedeutet, Sie brauchen gar nicht genau zu
+wissen, wie jedes Gerät arbeitet -- Sie teilen dem Pult einfach nur mit,
+was Sie machen möchten, und das Pult sendet die entsprechenden
+Steuersignale. Es gibt Personality-Dateien für nahezu jedes verfügbare
+Gerät; diese definieren die jeweils verfügbaren Kanäle und
+Steuermöglichkeiten. Sollte für ein bestimmtes Gerät keine Personality
+in Ihrem Tiger Touch vorhanden sein, so lassen sich weitere von der
+Avolites-Website downloaden, Sie können sich selbst eine Personality
+schreiben, oder Avolites kann die entsprechende Datei für Sie
+generieren. im Abschnitt [Personalities](../fixture-personalities.md) 
+gibt es weitere Informationen dazu.
 
-You can patch either using the Patch menu (described below) or the [Patch View](./changing-the-patch.md#patch-view) window.
+Die Zuordnung (das Patchen) erfolgt entweder über das Patch-Menü (s.u.)
+oder über das Fenster [Patch View](./changing-the-patch.md#patch-view).
 
-1. Press \<Patch\>.
+1. Drücken Sie die Taste \<Patch\>.
 
-2. Press \[Fixtures\].
+2. Drücken Sie \[Fixtures\].
 ![Patch Menu](/docs/images/Patch-Menu.png)
 
-3. Select the correct fixture manufacturer from the softkeys
-(\[Previous\] and \[Next\] page through the list of manufacturers). Or
-use Quick Search and type the first few letters of the manufacturer's
-name on the keyboard to find the one you want.
+3. Wählen Sie aus der Liste den Hersteller des Gerätes; mit
+\[Previous\] (zurück) oder \[Next\] (weiter) kann man durch die Liste
+blättern. Oder tippen Sie auf der Tastatur einfach die ersten Buchstaben
+des Herstellers, um die Suche zu vereinfachen.
 
-4. Select correct fixture from the softkeys (F and G show other pages).
-You can use Quick Search here as well.
+4. Wählen Sie das entsprechende Gerät (auch hier kann man mit F und G
+blättern, oder die ersten Buchstaben des Gerätes auf der Tastatur
+tippen).
 
-5. Select the correct fixture operating mode from the softkeys.
+5. Wählen Sie ggf. die korrekte Betriebsart (Modus) des Gerätes mit den
+Funktionstasten aus.
 
-6. \[Address =\] shows the first free DMX address. Type the new address
-on the numeric keypad if you want a different one. \[DMX line=xx\] lets
-you patch to a different DMX line, or you can enter the address as
-\[line\].\[address\], e.g. 2.45 would set address 45 on line 2.
+6. \[Address = \] zeigt die erste freie DMX-Adresse. Ändern Sie diese
+ggf. mit dem Ziffernblock. Betätigen Sie \[DMX line=xx\], um auf eine
+andere DMX-Linie zu wechseln, oder geben Sie die Adresse als
+{Linie}.{Adresse} ein (z.B. 2.45 für Kanal 45 auf Linie 2).
 ![Address Input](/docs/images/Address-Input.png)
 
-7. Patch the fixture by pressing a Fixture touch button, a
-Macro/Executor button or the blue Select button of a fader handle (not
-the main playback faders).
+7. Um das Gerät zu patchen, betätigen Sie einen der Buttons im
+Fixtures-Fenster, eine Macro/Exekutor-Taste oder die blaue Taste bei
+einem Fader.
 
-8. A fixture touch button turns dark blue and shows fixture details
-when it is patched. If you patch to a fader handle the select button
-will light up dimly.
+8. Die verwendeten Schaltflächen erscheinen nun dunkelblau, um
+anzuzeigen, dass sie bereits belegt sind, und zeigen einige Details der
+Geräte/Dimmer an. Wurde auf ein Playback oder eine Macro-Taste gepatcht,
+so leuchtet die jeweilige LED schwach auf, um die Belegung anzuzeigen.
 
-9. Repeat from 7 to patch more of the same fixture type. The DMX
-address automatically updates so you can just keep patching by pressing
-Select buttons.
+9. Wiederholen Sie den Vorgang ab Schritt 7, um weitere Geräte zu
+patchen. Die DMX-Adresse wird dabei automatisch hochgezählt.
 
--   To patch multiples of the same fixture, use the \[Quantity\] option.
-    Or you can run your finger or draw a selection box round the touch
-    buttons, or for physical buttons hold down the first button in the
-    range and press the last button in the range. The fixtures will be
-    patched to sequential blocks of DMX addresses.
+-   Um eine Reihe von gleichen Geräten zu patchen, geben Sie die Anzahl
+    mit \[Quantity\] ein und bestätigen die Anwahltaste für das ersten
+    Gerät (ebenso kann man einfach mit dem Finger über den
+    entsprechenden Bereich von Buttons streichen, oder bei Tasten die
+    erste gedrückt halten und dazu die letzte drücken). Die so angelegte
+    Reihe von Geräten wird auf fortlaufende DMX-Kanäle gepatcht.
 
--   \[Options\], \[Offset\] allows you to leave gaps in the DMX channels
-    between fixtures when patching multiple fixtures, which is useful if
-    you are planning a show which may involve exchanging fixtures. The
-    Offset number is the size of the block which will be allocated to
-    the fixture, for example if you want to allow 32 channels for each
-    fixture you would set Offset to 32.
+-   Mit \[Options\], \[Offset\] kann man Lücken in die Gerätefolge
+    einbauen, wenn mehrere Geräte gleichzeitig gepatcht werden. Dies ist
+    besonders hilfreich, wenn man bereits damit rechnet, später Geräte
+    austauschen zu müssen. Der Offset-Wert ist dabei die gesamte
+    Kanalanzahl, die man pro Gerät reservieren möchte; sollen Geräte
+    z.B. in 30er Schritten gepatcht werden, so gibt man als Offset 30
+    ein.
 
--   You cannot patch more than one fixture onto a handle. If the handle
-    is already used, the patch will fail.
+-   Es lässt sich nur ein Gerät pro Auswahltaste patchen. Ein Patchen
+    eines weiteren Gerätes auf eine bereits belegte Taste/Schaltfläche
+    ist nicht möglich.
 
--   If you are patching a fixture which uses a separate dimmer channel,
-    such as a VL5, you can patch the dimmer channel onto the same handle
-    as the moving light part of the fixture so you can control it all
-    together. This is called a Pending Dimmer (in the [Patch View](./changing-the-patch.md#patch-view) window
-    this is indicated with a flash symbol behind the user number).
+-   Zum Patchen eines Gerätes, welches einen separaten Dimmer benötigt
+    (wie etwa ein VL5), können Sie den Dimmerkanal auf die gleiche
+    Auswahltaste wie das eigentliche Gerät patchen, so dass man alles
+    gemeinsam steuern kann. Diese Funktion nennt sich 'Pending Dimmer'
+    (abhängiger Dimmer). In der [Patch-Ansicht (Patch View)](./changing-the-patch.md#patch-view) werden solche Geräte mit einem
+    Blitz-Symbol hinter der Gerätenummer angezeigt.
 
--   \[Options\], \[Preset Palettes\] sets whether the console will
-    create default colour, gobo and position palettes for the new
-    fixture. These are created in the Position, Colour and Beam
-    workspace windows.. This option is turned off by default but can
-    give you a useful starting point.
+-   \[Options\], \[Preset Palettes\] bestimmt, ob das Pult beim Patchen
+    bereits Paletten für Farbe, Gobo und Position des Gerätes anlegen
+    soll; diese werden in den entsprechenden Arbeitsfenstern angezeigt.
+    Diese Option ist als Vorgabewert deaktiviert, aber ggf. sehr
+    hilfreich, so dass es sich lohnt, diese in Erinnerung zu behalten.
 
--   \[Options\], \[AutoGroups\] sets whether the console will
-    automatically create groups from the fixtures you patch. If Enabled,
-    a group is created for all fixtures of the same type, and another if
-    you patch a quantity of fixtures.
+-   Mit \[Options\], \[AutoGroups\] lässt sich festlegen, ob das Pult
+    automatisch die gepatchten Geräte in Gruppen ordnet. Die automatisch
+    erstellten Gruppen sind eine Gruppe pro Gerätetyp sowie jeweils eine
+    Gruppe für gleichzeitig gepatchte Geräte.
 
--   To show the DMX address for fixtures, press \<View/Open\> then
-    \<Patch\>. To show patch details for a single fixture press
-    \<View/Open\> then the fixture select button. On touch buttons the
-    DMX address is displayed on the top right of the button in the
-    format {DMX line}.{Address} (this display can be disabled using the
-    context menu).
+-   Um die Belegung der DMX-Kanäle anzuzeigen, wählen Sie \<View / Open\>,
+    \<Patch\>. Um Details eines einzelnen Gerätes anzuzeigen, wählen Sie 
+	\<View / Open\> und die jeweilige Geräte-Schaltfläche. Dabei
+    wird auf den Schaltflächen die DMX-Adresse (im Format
+    {DMX-Linie}.{Adresse}) angezeigt - das lässt sich über das
+    Kontextmenü abschalten.
 
--   If a patch goes over the capacity of a DMX line, the console will
-    patch at the beginning of the next line. For example if you try to
-    patch a moving head fixture at channel 1.510, it will actually be
-    patched at 2.1.
+-   Wird beim Patchen die Kapazität einer DMX-Linie überschritten, setzt
+    Titan das Patchen am Beginn der folgenden DMX-Linie fort.
+    Versucht man etwa, ein Movinglight (mit mehr als 3 Kanälen) auf
+    Kanal 1.510 zu patchen, so wird es tatsächlich auf 2.1 gepatcht.
 
--   The console will show a picture of the fixture you select in the
-    prompt area to help you check you have got the right one (if
-    provided in the fixture personality; some fixtures do not include
-    this information)\
+-   Wenn die Personality die erforderlichen Informationen enthält, so
+    wird im Dialog-Bereich ein Symbolbild des Geräts angezeigt, so dass
+    man überprüfen kann, das richtige Modell gewählt zu haben.\
     ![Fixture Mode](/docs/images/Fixture-Mode.png)
 
-Capture Visualiser Auto Patch
------------------------------
+Automatisches Patchen in Capture
+--------------------------------
 
-If you want to use Capture Visualiser, start it by pressing
-\<View/Open\> then \[Open Workspace Window\] then \[Visualiser\]. Some
-consoles also have a dedicated \<Visualiser\> button. Capture will open
-in a workspace window with an automatic representation of your patch.
+Um den Capture Visualiser zu benutzen, drücken Sie \<View / Open\>, 
+dann \[Open Workspace Window\], dann \[Visualiser\]. Einige
+Pulte verfügen auch über eine gesonderte \<Visualiser\>-Taste. Daraufhin
+öffnet sich das Visualiser-Fenster mit einer automatisch aus dem Patch
+generierten Darstellung von Geräten.
 
-You will see the fixtures you have patched laid out on screen in handle
-number order. You can then use the [Visualiser controls](../capture-visualiser.md) to reposition the
-fixtures if you wish.
+Die gepatchten Geräte werden in der Reihenfolge dargestellt, in der sie
+gepatcht wurden. Daraufhin lässt sich das Geräte-Layout mit der
+Capture-Steuerung entsprechend anpassen, siehe [Steuerung des Visualisers](../capture-visualiser.md).
 
--   You can turn off Auto Patch in the Capture Visualiser Settings
-    window (Stage tab).
+-   Das automatische Patchen der Geräte in Capture lässt sich in den 
+    Capture-Einstellungen deaktivieren (Reiter 'Stage').
 
--   Fixture modes which will work with Auto Patch show a Capture icon in
-    the button. If the icon is not shown, that fixture mode isn't
-    supported in the integrated Capture.\
+-   Geräte-Modes, bei denen die Darstellung in Capture funktioniert,
+    werden mit einem Capture-Logo dargestellt (siehe Bild) - fehlt dieses
+	Logo, kann das Gerät nicht im integrierten Capture dargestellt werden.\
     ![Fixture Modes](/docs/images/Fixture-Modes.png)
 
--   If you are using the [console linked to the full version of Capture](../capture-visualiser/linking-the-console-to-stand-alone-capture.md)
-    (Nexum or above) on an external computer, then changes to the patch
-    on the console will automatically sync to the Capture show. Also
-    changes you make in Capture will sync back to the console.
+-   Wird die [Capture-Vollversion](../capture-visualiser/linking-the-console-to-stand-alone-capture.md) 
+    (ab Nexum) auf einem externen Computer verwendet, so werden Änderungen am 
+	Patch sowohl vom Pult zu Capture als auch in umgekehrter Richtung 
+	übertragen und automatisch synchronisiert.
 
-Patching Fixtures with Multiple Cells (sub fixtures)
-----------------------------------------------------
+Geräte mit mehreren Zellen (Sub-Fixtures)
+-----------------------------------------
 
-Some fixtures have multiple cells of control within a single fixture
-(for example an RGB LED batten). To avoid having to patch every cell as
-a single fixture, you can patch the whole fixture as one "super fixture"
-and each cell will then appear as a "sub fixture". This is very useful
-when laying out fixtures for use with the Pixel Mapper as it allows you
-to move and rotate the fixture as a single fixture, but keep individual
-control over the cells.
+Manche Geräte haben mehrere identische, unabhängig voneinander
+steuerbare Bereiche (etwa manche RGB-LED-Blinder). Um nun nicht jede
+Zelle einzeln patchen zu müssen, besteht das gesamte Gerät aus einem
+übergreifenden 'Super Fixture', das die Master-Kanäle enthält, sowie den
+entsprechenden Zellen als Teilgeräte - Sub Fixtures. Dies ist
+insbesondere beim Arbeiten mit dem Pixelmapper sinnvoll, da sich damit sehr
+einfach komplette Geräte verschieben oder rotieren lassen.
 
-If you access the fixture using the handle it is patched on, all cells
-of the fixture will be controlled together. To access the sub fixtures
-independently, use the Attribute Editor window or you can press
-\<Unfold\> then the select button of the fixture. In the Fixtures
-workspace, the current page of fixtures will be replaced by select
-buttons for each individual fixture cell. If patched on a fader then the
-cells will start at fader 1. You can also select subfixtures from the
-numeric keypad. See the [fixture control section](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fixtures-with-multiple-cells-subfixtures) for more details of
-working with fixture cells.
+Wählt man das Gesamtgerät mittels seiner Schaltfläche aus, so werden
+alle Zellen synchron beeinflusst. Um Zugriff auf die einzelnen Zellen zu
+erhalten, verwenden Sie den Attribut-Editor oder drücken Sie \<Unfold\>
+und die Auswahltaste des Geräts. Die aktuelle Seite des
+‚Fixtures'-Fensters zeigt nun die einzelnen Sub Fixtures/Zellen. Ist
+das Gerät auf einen Fader gepacht, so werden die Zellen auf den Fadern
+dieser Seite eingeblendet. Teilgeräte lassen sich auch per Tastatur-Syntax auswählen, siehe [fixture control section](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fixtures-with-multiple-cells-subfixtures).
 
-To go back to normal, press \<Unfold\> then \[Exit Unfold\].
+Um zur normalen Anzeige zurückzukehren, drücken Sie \<Unfold\> und
+wählen \[Exit Unfold\].
 
-> The Sub fixtures feature has to be defined in the fixture's personality. If sub fixtures does not work on your fixture you may need to obtain the latest fixture personality from Avolites.
+> Sub-Fixtures werden in der jeweiligen Personality definiert. Sollte also einmal ein Gerät nicht wie gewünscht arbeiten, laden Sie die aktuelle Personality-Bibliothek von Avolites herunter.
 
-Patching Active Fixtures / Media Servers
-----------------------------------------
+Aktive Geräte/Medienserver
+--------------------------
 
-For Ai media servers see the [Synergy section](../synergy.md) which allows you
-to connect to Ai for control of the setup and media playback.
+Zur Verwendung von Ai Medienservern sei auf den Abschnitt [Synergy](../synergy.md) 
+für weitere Details zu Synergy verwiesen, dem neuen System direkter
+Steuerung der Server vom Pult aus.
 
-Other media servers which support CITP can be patched using the \[Active
-Fixtures\] command on the Patch menu. This allows the console to
-retrieve thumbnail images of the media clips to display in the Attribute
-Editor when you are selecting the clip to play.
+Andere Medienserver, die CITP unterstützen, können über die Funktion
+\[Active Fixtures\] im Patch-Menü gepatcht werden. Damit lassen sich
+Vorschaubilder der Clips des Medienservers auf dem Pult anzeigen (im
+Fenster Attribut-Editor).
 
-Once the media server is connected to the network, selecting \[Active
-Fixtures\] then \[CITP Media Servers\] will display a list of the
-available display layers on the connected server(s). Each layer can then
-be patched to a fixture button for control.
+Sind Pult und Medienserver korrekt in einem Netzwerk konfiguriert, so
+drückt man \<Patch\>, \[Active Fixtures\], \[CITP Media Servers\] und
+erhält eine Liste aller im Netzwerk gefundenen Medienserver mit ihren
+Layern. Jeder Layer kann nun separat wie ein Movinglight gepatcht
+werden.
 
-Patching by RDM
----------------
+Patchen mit Hilfe von RDM
+-------------------------
 
-RDM (Remote Device Management) is a system which allows the console to
-interrogate the lighting rig to find out what's there. It can then patch
-itself to match the existing DMX addresses. You can also remotely change
-modes and other settings on the fixture.
+RDM (Remote Device Management) ist ein System, mit dem die verwendeten
+Geräte automatisch ihre jeweilige Adresse und ihren Betriebsmodus an das
+Pult melden können. Damit kann sowohl das Patchen weitgehend
+automatisiert, als auch die Betriebsart einzelner Geräte bei Bedarf
+geändert werden.
 
-> The fixtures need to be connected to the console by an RDM-enabled Artnet node, the XLR connectors do not support RDM. Obviously the fixtures must be equipped with RDM for this to work; many fixtures are not. Also if you have DMX buffers or splitters in your rig, they must be RDM enabled or they will block the information being sent back to the console.
+>  RDM funktioniert bei Titan-Pulten nur über Art-Net und RDM-fähige Nodes, nicht über die normalen DMX-Buchsen. \
+\
+RDM muss in den verwendeten Geräten eingebaut sein, was leider noch längst nicht bei allen Geräten der Fall ist. Ebenso muss die gesamte verwendete DMX-Peripherie (Splitter etc.) RDM-kompatibel sein.             
 
-Press \<View/Open\> then \<Patch\> to open the [Patch View](./changing-the-patch.md#patch-view) window then
-select the RDM tab. All devices which support RDM will be listed here.
-Click the \[Full Discover\] context menu button to rescan the rig for
-RDM devices.
+Drücken Sie die Taste \<View / Open\>, dann \<Patch\>. In der
+sich öffnenden [Patch-Anzeige (Patch View)](./changing-the-patch.md#patch-view) wählen Sie den Reiter RDM. Nun
+werden alle vom Pult per RDM gefundenen Geräte angezeigt; mit dem Befehl
+\[Full Discover\] aus dem Kontextmenü lässt sich die Liste
+aktualisieren.
 
 ![RDM Discovery](/docs/images/RDM-Discovery.png)
 
--   Select one or more fixtures in the grid and click the Patch context
-    menu button to patch the devices.
+-   Wählen Sie ein oder mehrere Gerät(e) aus und betätigen Sie den
+    Button \[Patch\] aus dem Kontextmenü.
 
--   Click on the Mode or Address cells in the grid to change these
-    settings remotely.
+-   Zum Ändern etwa von Betriebsart oder Adresse klicken Sie auf die
+    entsprechenden Tabellenzellen.
 
--   Click on the Identify button (at the right hand end of the screen,
-    you might need to scroll to see it) to turn the fixture on so you
-    can see where it is in the rig.
+-   Klicken Sie auf \[Identify\] bei einzelnen Geräten (ggf. nach rechts
+    scrollen), um einzelne Geräte zu identifizieren.
 
--   Click on the RDM Quick Patch context menu button to automatically
-    patch all RDM devices.
+-   Mit der Taste \[RDM Quick Patch\] aus dem Kontextmenü lassen sich
+    die per RDM gefundenen Geräte automatisch patchen.
 
-Finding a Lost Fixture
-----------------------
+Geräte suchen und finden
+------------------------
 
-Sometimes a fixture may be rigged with the wrong DMX address set, or
-connected to the wrong DMX line.
+Mitunter ist ein Gerät falsch adressiert oder mit der falschen DMX-Linie
+verbunden.
 
-The Find Fixture function allows you to find the start address of the
-fixture by scrolling a "locate" state through all possible DMX
-addresses. When the fixture responds with its Locate state, you know its
-DMX address and might hopefully avoid a trip up the rig to look at it..
+Mit der Funktion "Find Fixture" lassen sich derart 'verlorene' Gerät
+schnell wiederfinden; damit werden für die gewählte Adresse und
+Personality Locate-Werte gesendet. Reagiert das Gerät korrekt, so ist
+die richtige Adresse gefunden.
 
-1. Press \<Patch\>, \[Fixture\] and select the type of fixture you are
-looking for
+1. Drücken Sie die Taste \<Patch\>, wählen Sie \[Fixtures\], und wählen
+Sie den Typ des gesuchten Geräts aus.
 
-2. Press \[Options\], then \[Find Fixture\] to enable the Find Fixture
-mode.
+2. Klicken Sie auf \[Options\], dann auf \[Find Fixture\], um den
+Suchmodus zu aktivieren.
 
-3. Turn Wheel B to go through all possible DMX addresses. Wheel A sets
-DMX lines.
+3. Mit Encoder B kann man nun durch alle möglichen DMX-Adressen
+durchschalten; mit Encoder A kann man die zu verwendende DMX-Linie wählen.
 
-4. When the fixture responds with its Locate state, you have found the
-correct DMX address.
+4. Reagiert das gesuchte Gerät mit Locate-Werten, so ist die korrekte
+Adresse gefunden.
 
-4. Turn off \[Find Fixture\] mode and (if not already occupied) patch
-the fixture. The DMX address/Line will be automatically set to match the
-Find Fixture settings.
+4. Deaktivieren Sie nun \[Find Fixture\] und (wenn nicht bereits
+geschehen) patchen Sie das Gerät. Dabei wird automatisch die soeben
+gefundene DMX-Adresse vorgegeben.
 
--   Wheel C (DMX Slot) jumps through DMX addresses using the fixture
-    channel count (for example if a fixture uses 16 channels, it will
-    jump through in 16's).
+-   Mit Encoder C kann man den DMX-Slot wählen; dabei wird immer in
+    Vielfachen der vom Gerät belegten Kanalzahl vorgegangen (verwendet
+    ein Gerät z.B. 16 Kanäle, so schaltet dies die Adressen in
+    Vielfachen von 16 weiter).

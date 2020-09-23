@@ -5,69 +5,78 @@ sidebar_label: Copying, moving and deleting fixtures
 original_id: copying-moving-and-deleting-fixtures
 ---
 
-Copying or moving a patched fixture
------------------------------------
+Kopieren oder Verschieben eines gepatchten Gerätes
+--------------------------------------------------
 
-Using the \<Copy\> button you can make a copy of an existing fixture or
-move it to a new button. You cannot link fixture buttons. You can copy
-or move multiple fixtures in one operation.
+Mittels der Taste \<Copy\> lässt sich ein existierendes Gerät 
+kopieren oder auf eine andere Auswahltaste verschieben. Verknüpfungen 
+(Link) lassen sich für Geräte nicht erstellen. Mehrere Geräte lassen 
+sich in einem Schritt gemeinsam kopieren/verschieben.
 
-Fixture copying is very useful if you need an additional fixture of a
-type you've already patched and programmed because the new copy will
-come complete with all the cues and palettes of the original fixture
-you've copied. The copied fixture will be "Parked" (have no DMX channel
-allocated) so you will need to set an address before you can use it (see
-[changing the patch section](./changing-the-patch.md))
+Fixtures kann man kopieren, wenn man die Show um weitere Geräte des
+gleichen Typs bereits gepatchter und programmierter Geräte erweitern
+muss. Dabei übernehmen die kopierten Fixtures sämtliche Eigenschaften
+und Programmierungen der bereits vorhandenen Geräte, haben bereits alle
+Paletten und sind in allen Cues. Die kopierten Geräte haben noch keine
+DMX-Adresse zugewiesen, sind also 'Geparkt'. Zum Zuweisen der Adresse 
+siehe [Das Patch ändern](./changing-the-patch.md).
 
-Move is useful for tidying up the console.
+Das Verschieben ist sinnvoll, um eine übersichtliche Arbeitsoberfläche
+zu erhalten.
 
-1. Press the \<Copy\> button.
+1.  Betätigen Sie die Taste \<Copy\> zum Kopieren bzw. \<Move\> zum 
+    Verschieben (auf Pulten ohne eine **Move**-Taste dient \<Avo\> + 
+	\<Copy\> zum Verschieben).
+	
+2.  Press the Select button of the fixture you want to copy/move. You
+	can select multiple fixtures - use the \<Thro\> and \<And\> buttons to
+	add more fixtures to the selection.
 
-2. Select \[Copy\] or \[Move\]. Pressing the \<Copy\> button again will
-also toggle through these options.
+3.  Betätigen Sie eine freie Auswahltaste, auf die das Gerät
+	kopiert/verschoben werden soll.
 
-3. Press the Select button of the fixture you want to copy/move. You
-can select multiple fixtures -- use the \<Thro\> and \<And\> buttons to
-add more fixtures to the selection.
+-   Die Taste \<Menu Latch\> fixiert das Menü 'Copy' bzw. 'Move', so 
+	dass man mit dem Kopieren/Verschieben fortfahren kann, ohne ständig 
+	die Taste \<Copy\> bzw. \<Move\> betätigen zu müssen. Zum Freigeben 
+	des Menüs einfach die Taste \<Menu Latch\> nochmal betätigen.
 
-4. Press the empty Select button where you want it to go.
+-   Die Optionen \[Retain Layout\](Darstellung erhalten) bzw. \[Bunch
+    Up\](Zusammenfassen) sind sinnvoll beim Kopieren einer Gruppe von
+    Geräten mit darin enthaltenen freien Auswahltasten: diese werden
+    entweder (zur Erhaltung der Darstellung) mit übernommen, oder aber
+    entfernt (und alle Geräte ohne Lücke zusammengefügt). Falls Sie nur
+    einzelne Geräte aktualisieren wollen, wählen Sie die zu
+    aktualisierende Personality aus.
 
--   The \<Menu Latch\> button latches the Copy/Move/Link menu, so you
-    can keep copying or moving things without having to keep pressing
-    the Copy/Move/Link button. Press again to unlatch.
+-   Während des Kopierens lässt sich einstellen, ob mit \[Copy Legends\]
+    die Bezeichnungen mit kopiert werden sollen, oder aber mit \[Don't
+    copy legends\] den Geräten automatisch Standard-Bezeichner
+    zugewiesen werden sollen.
 
--   The \[Retain Layout\] or \[Bunch Up\] option is used when copying a
-    group of fixtures with empty handles in the group - you can either
-    keep the empty handles, or bunch up the used handles together. There
-    is also a \[Bunch Up With Offset\] option which allows you to leave
-    a gap in the DMX channels, if you are running a show where you need
-    to exchange fixtures to ones which use more DMX channels.
+-   Im Verschieben-Modus dient die Option \[Swap Items if Required\] zum
+    automatischen Verlagern der Geräte, die beim Verschieben im Weg
+    sind. Dies ist hilfreich beim Verschieben von Geräten auf einer
+    nahezu vollen Seite.
 
--   When in Copy mode, option \[Copy Legends\] can be changed to \[Don't
-    copy legends\] so that the copied fixtures are given default
-    legends.
+Löschen eines gepatchten Gerätes
+--------------------------------
 
--   When in Move mode, \[Swap Items if Required\] will attempt to
-    reposition any existing handles which are in the way of the move.
-    This is useful when rearranging buttons on a page which is nearly
-    full.
+Ein gepatchtes Gerät (oder Dimmer) lässt sich löschen, wenn etwa
+versehentlich ein falsches Gerät gepatcht wurde, sich die
+Bühnensituation verändert hat oder die betreffende Taste anderweitig
+benötigt wird.
 
-Deleting a Patched Fixture
---------------------------
+> Beim Löschen gehen sämtliche Programmierungen für das Gerät verloren. Das Löschen lässt sich auch nicht durch erneutes Patchen eines Gerätes auf dieselbe Auswahltaste rückgängig machen.\
+\
+Für den Fall, dass die Geräte später doch wieder gebraucht werden sollten, empfiehlt es sich, sie nicht zu löschen, sondern auf eine freie Geräte-Seite zu verschieben. 
 
-You can delete a fixture or dimmer from a button if you patched it
-accidentally or if you change your rig and want to use the button for
-something else.
+1.  Drücken Sie \<Patch\>, um in den Patch-Modus zu gelangen.
 
-> All programming for the fixture is also deleted. You cannot undo deletion of a fixture or get the programming back by repatching a fixture to the same handle. If you might need the fixtures again later, move them to an unused fixture page.
+2.  Drücken Sie die Taste \<Delete\>.
 
-1. Enter Patch mode by pressing the \<Patch\> button.
+3.  Betätigen Sie die Auswahltaste des zu löschenden Gerätes.
 
-2. Press the \<Delete\> button.
+4.  Die Auswahltaste wird rot hervorgehoben, und ein Bestätigungsdialog
+	erscheint. Betätigen Sie die Auswahltaste zur Bestätigung nochmals.
 
-3. Press the Select button of the fixture you want to delete.
-
-4. The button will light up red and the console asks for confirmation.
-Press the Select button again to confirm.
-
--   You can delete a range of fixtures in one operation.
+-   Es lassen sich auch mehrere Geräte in einem Arbeitsgang löschen.
