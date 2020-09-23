@@ -29,9 +29,9 @@ add more fixtures to the selection.
 
 3. Press the empty Select button where you want it to go.
 
--   The \<Menu Latch\> button latches the Copy/Move menu, so you
+-   The \<Menu Latch\> button latches the Copy or Move menu, so you
     can keep copying or moving things without having to keep pressing
-    the Copy/Move button. Press again to unlatch.
+    the \<Copy\> or \<Move\> button. Press again to unlatch.
 
 -   The \[Retain Layout\] or \[Bunch Up\] option is used when copying a
     group of fixtures with empty handles in the group - you can either
