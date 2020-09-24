@@ -59,36 +59,40 @@ to enter the new cue number - once you have changed the number the cue will move
 its correct position in the list.\
 To delete a cue, select the cue in the window and press \<Delete\>, followed by \<Delete\> again or \<Enter\> to confirm.
 
-You can also use a `command-line` style series of keypresses.
+You can also use a command-line style series of keypresses.
 
-**Copy/Move within the same playback:**
+- **{fader select}** is a playback fader select button, **n** is the cue number and
+  sections in square brackets are optional). The \<@\> button is the one by the numeric keypad.
+  
+- In all these commands you can **move** cues rather than **copying** by pressing \<Move\> instead of \<Copy\>.
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] @ <cue> ENTER`
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>][AND <cue>] ENTER <cue> ENTER`
+**Copy cue within the same playback:**
 
-**Copy/Move to the end of the same playback:**
+\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] \<@\> n \<Enter\>
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] @ @`
+\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n][\<And\> n] \<Enter\> n \<Enter\>
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] ENTER ENTER`
+**Copy cue to the end of the same playback:**
+
+\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] \<@\> \<@\>
+
+\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] \<Enter\> \<Enter\>
 
 **Delete cue(s)**
 
-`DELETE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] ENTER ENTER`
+\<Delete\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] \<Enter\> \<Enter\>
 
-**Copy/Move to a different playback:**
+**Copy cue to a different playback:**
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> <cue> ENTER`
+\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] [\<@\>] [\<Enter\>] {fader select} n \<Enter\>
 
-**Copy/Move to the end of a different playback:**
+**Copy cue to the end of a different playback:**
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> ENTER`
+\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] [\<@\>] [\<Enter\>] {fader select} \<Enter\>
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> <playback>`
+\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] [\<@\>] [\<Enter\>] {fader select} {fader select}
 
-> **<playback\>** is a playback select key, **<cue\>** is the cue number and
-sections in square brackets are optional)
 
 Editing a Cue List using Unfold
 -------------------------------
@@ -265,7 +269,7 @@ by touching and dragging over the required cues. Select \[Merge\] or
 be merged into all of the selected cues.
 
 From the keypad, connect the cue list (or chase) and press \<Rec Step\>.
-Then use the syntax `<n> THRU <m>` to select a range or `<n> AND
+Then use the syntax `<n> THRU <m>` to select a range or `<n> \<And\>
 <m>` to select cues which aren't together. The selected cues will
 highlight in red in the [Playback View](#playback-view-window) if you have it open. When you have
 selected all desired cues press \<Enter\>, then select \[Merge\] or
