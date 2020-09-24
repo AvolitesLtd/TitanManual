@@ -215,7 +215,7 @@ and use the softkey options to enter a value to change the time of all
 the cues (offset, add a fixed time or subtract a fixed time).
 
 You can open a timecode display window for each of the four possible
-sources to show you the incoming timecode - press \[Open Workspace
-Window\] then \[Timecode x\] where x is 1 to 4.
+sources to show you the incoming timecode - double press \<View/Open\> 
+then press \[Timecode x\] (where x is 1 to 4) from the workspace select buttons.
 
 ![Timecode 1 Workspace Window](/docs/images/Timecode-1-Workspace-Window.png)
