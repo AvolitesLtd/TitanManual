@@ -104,8 +104,8 @@ a palette number and press \[Store\]
     Beams includes IGBES. If you use the \<Record\> button then you need
     to set the mask manually.
 
--   Press the **Attribute Options** button to toggle each mask group between
-    Include and Exclude.
+-   Press the \<Attribute Options\> (or \<Options\> on newer consoles)
+    button to toggle each mask group between Include and Exclude.
 
 ![Setting a mask for recording a palette](/docs/images/Setting-a-mask-for-recording-a-palette.png)
 
