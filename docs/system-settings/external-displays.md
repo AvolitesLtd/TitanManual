@@ -10,7 +10,7 @@ Touch can have two external displays, all other consoles can have one.
 You can use touch screens, we advise using Windows Touch compatible
 monitors to avoid driver issues.
 
-Obviously for Titan Mobile and Titan Go you can connect whichever
+For Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) you can connect whichever
 external displays your computer will support.
 
 An external display is disabled by default and will show a \'disabled\'
@@ -22,7 +22,7 @@ then press \[External Display Disconnected\]. The option will change to
 using.
 
 Titan should configure its output to match your monitor. However if this
-does not work for some reason you can manually set resolution from the
+does not work for some reason, on a console you can manually set resolution from the
 toolbar. Click \'Tools\' at the very top of the touch screen and select
 \'Control Panel\', then \'External Monitor\', then select the option to
 match the resolution of your monitor.
