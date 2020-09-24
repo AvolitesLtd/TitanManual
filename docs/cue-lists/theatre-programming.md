@@ -46,7 +46,7 @@ n \<Thru\> m \<Enter\> | Select fixtures **n** to **m** for control
 Once you have selected the fixtures:
 -   Press one of the **Attribute Bank buttons** \<Colour\> \<Gobo\> etc. The
     current function of the wheels is shown bottom right on the screen.
-    Press the same Attribute Bank again to page Thruugh different
+    Press the same Attribute Bank again to page through different
     attributes *e.g. if there are 2 gobo wheels keep pressing \<Gobo\> to
     access the other attributes*.
 
@@ -134,6 +134,6 @@ easy:
 
 5. Set the *Speed*, *Size*, *Spread* using the wheels
 
-Shapes will record into cues, and will track Thruugh subsequent cues
+Shapes will record into cues, and will track through subsequent cues
 while they are active in the programmer, until you stop them by pressing
 \<Clear\>.
