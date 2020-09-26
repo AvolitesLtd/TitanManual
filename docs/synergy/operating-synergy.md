@@ -16,6 +16,9 @@ the server. Media content will be automatically transcoded to the AiM
 codec as required by the Ai system. This is very handy when you are
 handed a last-minute media file at the front of house position.
 
+As like as any other window the media browser window is opened through the
+\[Open Workspace Window\] menu.
+
 ![Ai Media Browser Window](/docs/images/Ai-Media-Browser-Window.png)
 
 On the left hand side of the screen, local disks available on the
