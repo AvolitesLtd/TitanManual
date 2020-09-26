@@ -96,7 +96,7 @@ palette recall.
 Repeat these steps to create a Palette Snap button (0 sec), or a 1 sec
 fade button, and so on.\
 \
-A number of macros for various fade times (\[Palette Fade xs\]) and overlaps
+A number of macros for various fade times (\[Palette Fade x s\]) and overlaps
 (\[Palette Overlap y%\]) are available in the macro library. To open this press \<Macro\>, 
-then the softbutton \[View All\]. Macros from the library can be copied onto buttons
+then the softkey \[View All\]. Macros from the library can be copied onto buttons
 using \<Copy\> as usual
