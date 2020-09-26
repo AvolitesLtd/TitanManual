@@ -5,85 +5,112 @@ sidebar_label: Timing with Palettes
 original_id: timing-with-palettes
 ---
 
-[Palettes may be saved with timing information](creating-palettes.md#creating-a-time-palette),
-or you can manually override the timing when recalling the palette.
+[Paletten können gleich mit Zeiten gespeichert werden](creating-palettes.md#creating-a-time-palette);
+alternativ kann beim Abruf einer Palette eine Zeit vorgegeben oder die
+gespeicherte überschrieben werden.
 
-Palettes with Saved Times
--------------------------
-
-If you have
-[saved time information in a palette](creating-palettes.md#creating-a-time-palette),
-it will normally recall with this timing information. So if you
-programmed a 2 second fade, the palette will recall with a 2 second fade.
-
-You can turn this off (which can be useful during programming) using the
-[key profile setting](../system-settings/key-profiles.md) for palette keys.
-You can set \[Palette Is Fired With Its Times\] or \[Palette Is Fired
-Ignoring Its Times\].
-
-Manually Overriding Palette Times
+Paletten mit gespeicherten Zeiten
 ---------------------------------
+
+[Enthält eine Palette auch Zeiten](creating-palettes.md#creating-a-time-palette), 
+so werden diese mit berücksichtigt,
+wenn die Palette in Playbacks verwendet wird. Wurden also z.B. 2s 
+Fadezeit mit in der Palette abgespeichert und wird diese in einem Cue 
+verwendet, so ist für diesen bereits 2s Fadezeit eingestellt.
+
+Beim direkten Palettenaufruf hingegen wird die Fadezeit zunächst **nicht** 
+berücksichtigt, um das Programmieren nicht zu behindern. Es kann aber 
+per Tastenprofil aktiviert werden, was insbesondere beim [Improvisieren
+(Busking) mit Paletten](../running-the-show/playback-controls#busking-with-palettes) 
+interessante Möglichkeiten eröffnet. Dazu ändern
+Sie die [Einstellung (Key Profiles für Paletten)](../system-settings/key-profiles.md) 
+\[Palette Is Fired Ignoring Its Times\] (Zeiten werden ignoriert) 
+in \[Palette Is Fired With Its Times\] (Palette wird
+mit Zeiten gestartet).
+
+Überschreiben von Palettenzeiten
+--------------------------------
 
 [](https://youtu.be/FF8szWCpVkE?t=135 "Overriding Palette Times")
 
-Being able to recall palettes with a manual fade allows easy \"busking\"
-of shows. When a palette is recalled in this way, a time is added and
-the palette fades in over that time.
+Das Überschreiben von Palettenzeiten ist hilfreich, um 'mal eben schnell
+eine Show zu drücken'. Wird eine Palette auf diesem Weg abgerufen, so
+wird ein Zeitparameter hinzugefügt, und die Palette blendet in der
+vorgegebenen Zeit ein.
 
-1. Select some fixtures
+1.  Wählen Sie ein oder mehrere Geräte aus.
 
-2. Type in the fade time for the palette on the numeric keypad
+2.  Tippen Sie mit den Zifferntasten die gewünschte Zeit ein.
 
-3. Press a palette button to recall the palette
+3.  Betätigen Sie die gewünschte Paletten-Schaltfläche.
 
 ---
 
--   This overrides any timing stored in the palette itself.
+-   Damit werden alle eventuell in der Palette gespeicherte Zeiten
+    überschrieben.
 
--   You have to re-enter the time each time you recall a palette. To use
-    the same fade every time, set a Master Time: Press \<Palette\>, \[Master
-    Time\]. To disable \[Master Time\] set to 0.
+-   Die Überblendzeit muss bei jedem Palettenaufruf erneut eingegeben
+    werden. Um immer die gleiche Zeit zu verwenden, geben Sie diese bei
+    \<Palette\> \[Master Time\] ein. Um diese wieder zu löschen, setzen
+    Sie die Master-Zeit auf 0.
 
--   Palette fading can be very useful when recalling a palette live
-    during a show, as you can smoothly move fixtures to a new position
-    or change colour slowly (on colour mixing fixtures).
+-   Das Einblenden von Paletten kann etwa sinnvoll sein beim Abruf von
+    Paletten während einer Show, da sich damit langsame Positions- und
+    Farbwechsel (bei Geräten mit Farbmischsystem) erreichen lassen.
 
-Manual Fixture Overlap when Recalling Palettes
-----------------------------------------------
+Manuelle Geräteüberlappung beim Palettenabruf
+---------------------------------------------
 
-You can set a [Fixture Overlap](../cues/cue-timing.md#setting-fade-times-and-overlap-for-a-cue)
-when recalling a palette, which means that
-the palette will be applied in sequence to each fixture in the group.
-This is a very quick way to busk some amazing effects.\
-Fixture Overlap = **100%** means that all fixtures will change together.\
-Fixture Overlap = **0%** means that each fixture must complete its fade before the
-next will start its fade.
+Außerdem lässt sich die [Überlappung (Fixture Overlap)](../cues/cue-timing.md#setting-fade-times-and-overlap-for-a-cue) 
+zwischen den Geräten einstellen: wenn die Palette auf eine Gruppe von 
+Geräten angewendet wird, so erfolgt das nacheinander auf die einzelnen
+Geräte. Damit lassen sich sehr einfach beeindruckende Effekte erzielen.\
+Fixture Overlap = **100%** bedeutet, dass alle Geräte gleichzeitig beeinflusst werden.\
+Fixture Overlap = **0%** bedeutet, dass ein Gerät erst voll eingeblendet 
+sein muss, bevor die Überblendung mit dem nächsten Gerät beginnt.
 
-1. Type in the overlap time for the palette on the numeric keypad
+1.  Geben Sie mit den Zifferntasten die Überlappung ein.
 
-2. Press \[Set Overlap\]
+2.  Drücken Sie \[Set Overlap\]
 
-3. Type in the fade time if fade is also required
+3.  Geben Sie die gewünschte Überblendzeit ein.
 
-4. Press a palette button to recall the palette
+4.  Rufen Sie die gewünschte Palette auf.
 
--   You have to re-enter the overlap each time you recall a palette. To
-    use the same overlap every time, set a Master Overlap: Press
-    \<Palette\>, \[Master Overlap\]. To disable \[Master Overlap\] set to 100%.
+-   Die Überlappung muss bei jedem Aufruf neu eingegeben werden. Um
+    stets die gleiche Überlappung zu verwenden, drücken Sie \<Palette\>,
+    \[Master Overlap\]. Um das zu deaktivieren, setzen Sie ‚Master
+    Overlap' auf 100%.
 
-Master Time for Palettes
+-	Der Überlappungs-Effekt ist nur sichtbar mit einer Einfadezeit.
+
+>   Berücksichtigen Sie bei der Verwendung von Fixture Overlap, 
+	globalen Paletten und dem Abruf als Quick Palette (ohne angewählte
+	Geräte), dass das Overlap ggf. auf **sehr viele** Geräte
+	nacheinander angewendet wird, was zu unerwarteten Ergebnissen
+	führen kann.
+
+Master-Zeit für Paletten
 ------------------------
 
-Option \[Master Time\] on the Palette menu (press the \<Palette\> button
-above the numeric keypad) allows you to set a default fade time. This
-fade time will be used for all palettes unless you manually type in a
-different time. This can be useful when "busking" a show with palettes.
+Mit der Option \[Master Time\] im Paletten-Menü (betätigen Sie dazu die
+Taste \<Palette\> oberhalb der Zifferntasten) lässt sich eine
+Standard-Überblendzeit vergeben, die stets genutzt wird, sofern keine
+andere Zeit manuell eingegeben wird. Das erleichtert das schnelle
+Steuern von Shows mit Paletten.
 
-The \[Master Overlap\] option similarly sets the default Overlap for
-palette recall.
+In gleicher Weise arbeitet \[Master Overlap\] für die Überlappung.
 
-> You can create macro buttons to set different palette fade times. Press
-\<Macro\>, \[Record\], press a button to store your macro on. Then press
-\<Palette\>, \[Master Time\], \<3\> (for 3 sec), \<Exit\>, \<Macro\>.
-Repeat these steps to create a Palette Snap button (0 sec), or a 1 sec
-fade button, and so on.
+>   Es lassen sich Macros erstellen, mit denen verschiedene 
+	Überblendzeiten vorgegeben werden können. Drücken Sie dazu 
+	\<Macro\>, \[Record\], dann eine Taste/Schaltfläche für das Macro. 
+	Nun drücken Sie \<Palette\>, \[Master Time\], z.B. 3 (für 3 Sek.), 
+	\<Exit\>, \<Macro\>. Wiederholen Sie diese Schritte mit 
+	unterschiedlichen Zeiten, z.B. 0 Sek. (hartes Umschalten), 5 Sek. etc.\
+	\
+	Etliche solche Macros für verschiedene Fadezeiten (\[Palette Fade xs\])
+	und Overlaps (\[Palette Overlap y%\]) sind bereits in der Macro-Library
+	enthalten. Drücken Sie dafür \<Macro\> und die Menütaste 
+	\[View All\]. Die Macros aus der Library lassen sich wie gewohnt per 
+	\<Copy\> auf beliebige Tasten kopieren, um sie rasch im Zugriff zu haben.
+
