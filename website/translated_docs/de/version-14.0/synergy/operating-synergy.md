@@ -5,264 +5,261 @@ sidebar_label: Operating Synergy
 original_id: operating-synergy
 ---
 
-Once Titan and the Ai server(s) are [linked up](setting-up.md), you can start controlling
-Ai from the console.
+Sind Titan und Ai-Server einmal [verbunden](setting-up.md), so lässt 
+sich Ai sehr einfach von Titan aus steuern.
 
-Uploading Content with the Media browser
-----------------------------------------
+Hochladen von Content mit dem Media Browser
+-------------------------------------------
 
-The Media Browser allows you to upload media content directly to the Ai
-server from the Titan console. You can also create new media banks on
-the server. Media content will be automatically transcoded to the AiM
-codec as required by the Ai system. This is very handy when you are
-handed a last-minute media file at the front of house position.
+Mit dem Media Browser lassen sich direkt von Titan aus Clips auf den
+Ai-Server laden. Ebenso lassen sich neue Media-Bänke auf dem Server
+anlegen. Neuer Content wird dabei automatisch in den von Ai bevorzugten
+AiM-Codec gewandelt. Das vereinfacht das Verwenden von Medien, die erst
+im letzten Moment angeliefert werden, sehr.
+
+Der Media Browser wird wie gewohnt mit \[Open Workspace Window\]
+(Fenster öffnen) aufgerufen.
 
 ![Ai Media Browser Window](/docs/images/Ai-Media-Browser-Window.png)
 
-On the left hand side of the screen, local disks available on the
-console are listed. If you plug in a USB drive it will be shown here.
-Shortcuts to commonly used folders are also provided.
+Links werden die am Pult/Titan-PC gefundenen Laufwerke angezeigt. Steckt
+man ein USB-Laufwerk an, erscheint dies ebenfalls. Es gibt auch
+Verknüpfungen zu üblicherweise verwendeten Ordnern.
 
-In the second column, the files/media clips available on the selected
-local disk are shown. You can navigate into folders and use the up arrow
-at the top to go back up a folder level.
+In der zweiten Spalte werden die Ordner und Medien-Dateien angezeigt,
+die im gewählten Ordner/Laufwerk vorhanden sind. Mit einem Klick auf
+einen Ordner wechselt man in diesen, ein Klick auf den Pfeil oben
+wechselt eine Verzeichnisebene höher.
 
-On the right of the screen, the media banks on the Ai server are shown.
-Clicking on the bank name will drop down the list of media clips loaded
-in the bank. Click the **+** button at the side of the bank name to add a
-new bank. At the top of this column, the available disk space and the
-path on the Ai server where the media is being stored is shown.
+Rechts sind die Medien-Bänke des Ai-Servers aufgeführt. Wählt man eine
+Bank aus, so werden alle enthaltenen Dateien/Medien angezeigt. Klickt
+man auf das \[ + \] neben der Liste der Bänke, so wird eine neue Bank 
+angelegt. Ganz oben in der rechten Spalte wird der auf dem Server 
+verfügbare Speicherplatz sowie der Pfad zum Medienverzeichnis angezeigt.
 
-To copy media files to the Ai server, select the files you want to
-transfer in the middle window, then click on the bank you want to
-transfer them to on the server.
+Um Medien auf den Ai-Server zu laden, wählt man in der mittleren Spalte
+die gewünschten Dateien aus und klickt danach rechts auf die Bank, auf
+die der Upload erfolgen soll.
 
-If the Ai server already has files on it with the same names as files
-you have selected for transfer, the files will be highlighted in red in
-the Ai server window as a warning.
+Existieren bereits Dateien gleichen Namens auf dieser Bank, so werden
+die betreffenden Dateien rot angezeigt.
 
 ![Ai Media Browser uploading content](/docs/images/Ai-Media-Browser-uploading-content.png)
 
-Synergy will attempt to transfer the files as fast as it can and will
-show you a progress screen. This may slow down the network; if this will
-be a bad thing, turn on the **"Bandwidth Saver"** switch at the bottom of
-the screen to throttle the file transfer and leave capacity on the
-network for other traffic (obviously this will slow down the file
-transfer).
+Die Dateien werden schnellstmöglich übertragen, und der
+Übertragungsfort­schritt wird angezeigt. Dabei kann das Netzwerk stark
+ausgelastet und damit verlangsamt werden. Um dies zu vermeiden, kann
+unten der Schalter **Bandwidth Saver** (Bandbreite sparen) aktiviert
+werden. Damit wird der Upload verlangsamt, und das Netzwerk wird weniger
+stark ausgelastet.
 
-You can also turn off the automatic transcoding to AiM codec, but
-normally we would recommend that this option is left on. Once the files
-are uploaded, any requiring transcoding are added to a queue in Ai. You
-can see the progress of the transcoding by viewing the clips in the
-[Attribute Editor](#attribute-editor-for-controlling-ai-layers), see below.
+Auch das automatische Umrendern (Auto Transcode) kann deaktiviert
+werden, was aber nicht zu empfehlen ist. Sobald die Dateien auf den
+Server geladen sind, erfolgt ggf. das Umrendern. Dessen Fortschritt
+zeigt sich in der Anzeige der Clips im [Attribut-Editor](#attribute-editor-for-controlling-ai-layers), siehe folgender
+Abschnitt.
 
-Media Viewer
-------------
+Vorschau mit dem Media Viewer
+-----------------------------
 
-The Video Multi View window allows you to view any of the layers being
-produced by the Ai server, or any of the combined surface outputs. In
-addition you can view any other NDI streams available on the network, so
-for example at a broadcast event the broadcaster could feed you the
-program output or individual cameras to check lighting levels.
+Das Fenster **Video Multi View** kann alle Layer einzeln sowie jedes
+Surface (Screen) als Ergebnis der kombinierten Layer als Vorschau
+anzeigen. Ebenso lassen sich damit beliebige im Netzwerk vorhandene
+NDI-Streams anzeigen, etwa einzelne Kameras oder der Live-Output bei
+Fernsehaufzeichnungen.
 
 ![Video Multi View Window](/docs/images/Video-Multi-View-Window.png)
 
-To add a stream, click on a view in the window (blank views show a plus
-symbol). A screen will pop up showing you all available streams on the
-network - either direct views of the layers, or a view of the output
-screen with the layers combined.
+Zur Auswahl eines Streams für die Anzeige klickt man auf eine Vorschau
+im Media Viewer (leere Vorschauen zeigen ein großes +). Darauf öffnet
+sich eine Liste mit allen vorhandenen Streams, und man kann den
+gewünschten auswählen.
 
 ![Video Multi View Window adding a stream](/docs/images/Video-Multi-View-Window-adding-a-stream.png)
 
-The context button \[Change Layout\] gives you various possible layouts
-of multiple screens. The \[Titles Shown\] button toggles to show or hide
-the stream titles at the bottom of the views.
+Mit der Kontext-Option \[Change Layout\] kann man die Anzahl und
+Anordnung der gezeigten Vorschaufenster wählen. \[Titles
+Shown\]/\[Titles Hidden\] bestimmt, ob die Namen der Streams als Titel
+der Vorschauen angezeigt werden.
 
 ![Video Multi View Window laout options](/docs/images/Video-Multi-View-Window-laout-options.png)
 
-You must have the **"Automatic NDI preview"** option enabled for the Ai
-server in the [Synergy Settings](setting-up.md#synergy-setup) window for this to work.
+Dabei muss die Option **"Automatic NDI preview"** in den [Synergy Settings](setting-up.md#synergy-setup)
+aktiv sein, damit die Vorschauen angezeigt werden.
 
-The NDI streams used for video preview can use a lot of network
-bandwidth which limits how many streams you can receive at one time. The
-data rate varies depending on the detail/movement in the video but a
-rough guide is:
-
-Format | Data Rate
+Format | Datenrate
 ---|---
 1920x1080p30 | 120Mbps
 1920x1080p60 | 200Mbps
 3840x2160p30 | 280Mbps
 3840x2160p60 | 480Mbps
 
-Attribute Editor for Controlling Ai Layers
-------------------------------------------
+Layer steuern mit dem Attribut-Editor
+-------------------------------------
 
-Once you have selected one or more Ai layers to control from the [Synergy
-Fixtures window](setting-up.md#synergy-fixtures-window), the Attribute Editor lets you play back and manipulate
-media on those layers (you can also use the [wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md) and [Attribute Bank
-buttons](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-wheel-display)).
+Sobald ein oder mehrere Layer ausgewählt sind (im Fenster [Synergy
+Fixtures](setting-up.md#synergy-fixtures-window)), lassen sich die darauf abzuspielenden Medien im
+Attribut-Editor wählen und manipulieren (das geht auch wie gewohnt mit
+den [Encodern](../controlling-fixtures/using-the-select-buttons-and-wheels.md) und [Attributbänken](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-wheel-display)).
 
-> The most important attributes are **Intensity**, which set the output level
-of each layer, and **Media Selection** which lets you choose the Bank and
-Clip to play. But you can also control all other functions of Ai such as
-adding FX and colour.
+> Die wichtigsten Attribute dabei sind **Intensity** zur Einstellung der
+Helligkeit sowie die **Media Selection** (Medienauswahl), um Bank und Clip
+zu wählen. Aber es lassen sich auch viele weitere Attribute einstellen,
+Effekte hinzufügen etc.
 
 ![Clip tab of Attribute Editor for Synergy layer](/docs/images/Clip-tab-of-Attribute-Editor-for-Synergy-layer.png)
 
-In the Media selection screen, in the Clip tab, if you click on the
-**T** button *(top right)* or the caption at the top of the tab, this will toggle
-the clip name display on and off. This can be useful for long names
-which obscure the picture; on the other hand if you have lots of
-clips which look similar, the name display can be useful.
+Auf der Seite Media Selection bei den Clips kann man rechts oben durch
+einen Klick auf das \[T\] die Anzeige der Namen aktivieren oder
+deaktivieren - letzteres ist etwa bei sehr langen Namen empfehlenswert.
 
-Some of the attributes, such as FX Select, have a large number of
-options which initially are shown in a vertical column of buttons
-requiring a lot of scrolling to see all the buttons. If you click in
-the header above the buttons, the column will expand to fill the
-window, making selection easier.
+Manche Attribute, z.B. Fx Select (Effekt-Auswahl) haben sehr viele
+mögliche Optionen. Diese werden zunächst in einer langen
+Scroll-Liste angezeigt. Klickt man auf die Titelleiste der
+Scroll-Liste, so wechselt die Anzeige in ein großes Fenster mit
+Raster, was ggf. übersichtlicher ist.
 
 ![FX tab of Attribute Editor for Synergy layer](/docs/images/FX-tab-of-Attribute-Editor-for-Synergy-layer.png)
 
-In the FX attributes, the effects names are pulled live from the Ai
-server. This means the names you are shown will always match what's
-on the server. It's also good for generative plugins where you
-define the Fx names.
+Bei den Fx (Effekt)-Attributen werden die Namen der Effekte direkt
+vom Ai-Server bezogen, so dass man wirklich das sieht, was auf dem
+Server angewählt ist. Dies ist auch bei Plugins für generativen
+Content der Fall, deren Namen man selbst bestimmt.
 
-> If you select layers then press \<Locate\>, the layer intensity will be set to full but all media and fx will be cleared. This is useful to get a layer back to a known state, but you don't get any output. **To get some output you will need to then select a media clip**.
+> Wird ein Layer ausgewählt und \<Locate\> gedrückt, so wird die Helligkeit
+auf 100% gesetzt, aber sämtlche Medien und Effekte werden gecleared. Damit 
+wird der Layer wieder in einen neutralen Ausgangszustand versetzt. **Um
+etwas am Output zu sehen, muss nur noch ein Clip gewählt werden.**
 
-The Clip selection window also shows you the progress of clips being
-transcoded by the Ai server.
+Die Clips zeigen auch den Status des Umkodierens:
 
-Currently being transcoded | In the queue awaiting transcoding | Transcoding failed
+Wird gerade umgerendert | Warten auf Umrendern | Umrendern fehlgeschlagen
 ---|---|---
 ![Video currently transcoding in Attribute Editor for Synergy layer](/docs/images/Video-currently-transcoding-in-Attribute-Editor-for-Synergy-layer.png) | ![Video queued for transcoding in Attribute Editor for Synergy layer](/docs/images/Video-queued-for-transcoding-in-Attribute-Editor-for-Synergy-layer.png) | ![Video failed to transcode in Attribute Editor for Synergy layer](/docs/images/Video-failed-to-transcode-in-Attribute-Editor-for-Synergy-layer.png)
 
-You can [create palettes](../palettes/creating-palettes.md) to control Ai, just like with any other
-fixture. So colour, zoom, position and so on can be stored in a
-palette and used to quickly modify the appearance of the media.
-[Palette fade times](../palettes/timing-with-palettes.md) will also operate as you would expect.
+Für Ai-Layer lassen sich wie für andere Geräte auch [Paletten anlegen](../palettes/creating-palettes.md). So lassen sich z.B. Clip-Auswahl, 
+Farbe, Position und vieles mehr in Paletten speichern, schnell aufrufen 
+und verändern. Auch [Fadezeiten](../palettes/timing-with-palettes.md)
+funktionieren wie gewohnt.
 
-Lightmap: Pixel Mapping Ai Media Content
-----------------------------------------
+Lightmap: Pixelmapping mit Ai
+-----------------------------
 
-Often you might want to output video content to lighting fixtures
-patched on the console (for example if you have LED screens with
-fixtures around or in between them). The pixel mapper can directly play
-back media clips from the Ai server. These can be sourced from
-individual layers or from surfaces (combined layer outputs). The surface
-outputs do not need to be connected to a physical output on the Ai
-server.
+Mitunter will man auf Lampen, die im Pult gepatcht sind, auch
+Video-Content wiedergeben, etwa wenn eine Wand aus vielen LED-Lampen
+zusammengesetzt ist. Der Titan-Pixelmapper kann direkt den Output von Ai
+verwenden - sowohl eines einzelnen Layers als auch eines ganzen
+Surfaces. Dabei ist es nicht erforderlich, das Titan-Surface mit einem
+Output des Servers zu verbinden.
 
-> Use the [Layout Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) to tell the console where the fixtures
-are positioned in the physical space so it can map the correct part of the video
-to each fixture, which is described in the [next section](#layout-editor-with-ai-server).
+> Im [Layout-Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) werden die Lampen/Zellen so positioniert, wie sie auch
+tatsächlich angeordnet sind, so dass jeweils der passende
+Videoausschnitt angezeigt wird, siehe [nächster Abschnitt](#layout-editor-with-ai-server).
 
-1. Using [Attribute Editor](#attribute-editor-for-controlling-ai-layers), **start a media clip playing** on the surface you
-want to use.
+1.  **Starten Sie einen Clip** auf dem gewünschten Surface, etwa mit dem [Attribut-Editor](#attribute-editor-for-controlling-ai-layers).
 
-2. Select \[Shapes and Effects\], then \[Pixel Mapper\]
+2.  Wählen Sie nun das Menü \[Shapes and Effects\], dann \[Pixel Mapper\].
 
-3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups.md)** to play back on
+3.  Wählen Sie die **[Gerätegruppe](../controlling-fixtures/fixture-groups.md)**, auf der 
+	das Video laufen soll. Daraufhin öffnet sich der Effekt-Editor.
 
-4. Add an effect using the **+** button
+4.  Klicken Sie unten links auf das \[ + \], um einen Pixelmapper-Effekt
+	hinzuzufügen.
 
-5. Select Ai feed using the **Ai** button
+5.  Klicken Sie oben rechts auf den \[Ai\] - Button.
 
 ![Adding an element in the Pixel Mapper Window](/docs/images/Adding-an-element-in-the-Pixel-Mapper-Window.png)
 
-6. Select the surface you want to take the media from using the **Source
-Surface** option. You can also adjust the colour balance using the
-**Red/Green/Blue sliders**.
+6.  Mit \[Source Surface\] kann die zu verwendende Quelle (Layer oder
+	Surface) gewählt werden; auch kann man mit den Red/Green/Blue-Reglern
+	die Farbe einstellen.
 
 ![Ai layer video overlay in Pixel Mapper Window](/docs/images/Ai-layer-video-overlay-in-Pixel-Mapper-Window.png)
 
-The media clip selected in step 1 should now be playing back over the
-fixtures you selected. The pixel map effect is now linked to the Ai
-surface so you can change the clip which is playing using Attribute
-Editor or from programmed cues and you will see the change on the
-fixture outputs.
+Der gewählte Clip wird nun auf den Lampen der gewählten Gruppe
+wiedergegeben. Dabei ist der Pixelmapper-Effekt mit dem Ai-Surface
+verknüpft, und Änderungen in diesem haben unmittelbare Auswirkung auf
+die Wiedergabe auf den Lampen.
 
 ![Pixel Mapped fixtures with Ai screen shown in Capture Visualiser](/docs/images/Pixel-Mapped-fixtures-with-Ai-screen-shown-in-Capture-Visualiser.png)
 
-Layout editor with Ai server
-----------------------------
+Verwendung des Layout-Editors mit Ai
+------------------------------------
 
-The basic operation of the Layout Editor is described in [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
+Die grundsätzliche Funktionsweise des Layout-Editors ist im Abschnitt
+[Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) beschrieben.
 
-The layout editor has some additional functions in the \[Media Options\]
-context menu which are useful when setting up fixture layouts for use
-with media content.
+Bei der Verwendung mit Synergy gibt es mit dem Kontext-Menü \[Media
+Options\] einige sinnvolle Zusatzfunktionen zur Erstellung des Layouts.
 
 ### Show Video Overlay
-Select any layer or surface to be
-overlaid on the fixture layout grid to help you see where fixtures need
-to be positioned.
+Hier lässt sich jeder beliebige Layer und jedes
+Surface über den anzuordnenden Lampen einblenden, um diese passend zu
+positionieren.
 
 ![Show Video Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/Show-Video-Overlay-in-Layout-Editor-for-mapping-fixtures-to-Ai-Video-layers.jpeg)
 
 ### Sample Region Overlay
-If the AI output has sample regions defined,
-for example when areas of LED screen are interspersed with fixtures,
-this option displays the sample regions overlaid on the layout grid.
+Sind in Ai Sample Regions definiert (Wiedergabe-Ausschnitte), etwa bei der
+gemischten Verwendung von HiRes-LED-Screens und Lampen, so werden diese 
+Regionen eingeblendet.
 
 ![Sample Region Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/Sample-Region-Overlay-in-Layout-Editor-for-mapping-fixtures-to-Ai-Video-layers.png)
 
 ### Position Overlay
-With this option turned on, when you select a
-fixture in the layout editor, crosshairs will be displayed on the actual
-Ai output. This helps you to accurately position the fixture in the
-layout editor to match where it is in real life.
+Ist diese Option aktiviert, so wird, sobald ein
+Gerät in Titan ausgewählt ist, dessen Position auf dem Ai-Output durch
+dünne Linien angezeigt, womit eine noch genauere Positionierung möglich
+ist.
 
 ![Position Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/Position-Overlay-in-Layout-Editor-for-mapping-fixtures-to-Ai-Video-layers.png)
 
 ### Match Surface Resolution
-Allows you to match the layout grid to the
-resolution or aspect ratio of a surface. When you click this, you will
-be shown a list of the Ai surfaces available. Select one of these and
-softkeys will be shown for \[Width\] and \[Height\], set to the canvas
-resolution of the surface. You will not normally want to set the layout
-grid to match the video pixels 1:1 as fixture pixels are usually much
-larger than video pixels. But if you change the Width or Height, the
-other value will be automatically set to preserve the aspect ratio of
-the surface, so this function is useful to change the grid while keeping
-the correct ratio.
+Gestattet es, das Layout-Raster an die
+Auflösung oder das Seitenverhältnis eines Surfaces (Ai-Outputs)
+anzupassen. Klickt man darauf, erscheint eine Auswahlliste der
+verfügbaren Surfaces. Wählt man eins davon aus, gibt es Buttons für
+\[Width\] (Breite) und \[Height\] (Höhe), die mit den Werten, die sich
+aus der Auflösung des Surfaces ergeben, vorbelegt sind. Normalerweise
+wird man nicht das Grid in voller Auslösung verwenden, da ja die Lampen
+deutlich größer sind. Ändert man aber Breite oder Höhe, so ändert sich
+der andere Wert entsprechend mit, damit das Seitenverhältnis erhalten
+bleibt.
 
 ![Match Surface Resolution in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/Match-Surface-Resolution-in-Layout-Editor-for-mapping-fixtures-to-Ai-Video-layers.png)
 
-You can also scale fixtures in the Layout Editor to reflect real life
-size, as the default cell layout from the fixture's personality might
-not match other fixtures. Toggle the \[Position and Angle\] context menu
-button until it shows \[Fixture Scale\]. If a multi-celled fixture is
-scaled down to minimum size, the cells will disappear and it will act as
-a single cell.
+Im Layout-Editor lassen sich Geräte auch skalieren, um die relative
+Größe an die tatsächlichen Größenverhältnisse anzupassen. Dazu klickt
+man auf den Kontext-Button \[Position and Angle\], bis dieser \[Fixture
+Scale\] zeigt. Skaliert man Geräte mit Zellen sehr klein, so
+verschwinden die einzelnen Zellen, und alle Zellen arbeiten synchron.
 
-Phase control of Keyframe Shapes from Ai
-----------------------------------------
+Phasensteuerung von Keyframe-Shapes durch Ai
+--------------------------------------------
 
-You can control the phase of Keyframe Shapes using the intensity of a
-video layer from Ai. This allows you to create some weird and wonderful
-effects as you can make the lights do pretty much anything in response
-to the video signal. The phase is controlled from 0-360 degrees as the
-video intensity where the fixture is located goes from 0-100%.
+Die Phase von Keyframe-Shapes lässt sich durch die Helligkeit eines
+Ai-Videos steuern. Damit lassen sich sehr abgefahrene Effekte erzeugen,
+da praktisch sämtliche Aspekte der Lampen durch ein Video gesteuert
+werden können. Die Helligkeit von 0 bis 100% ist dabei mit der
+Phasenlage 0 bis 360° verknüpft.
 
-Once your [Keyframe Shape is created](../effects/key-frame-shapes.md#creating-a-key-frame-shape), go to the [Phase Master option](../effects/key-frame-shapes.md#changing-shape-parameters-in-the-effect-editor) at
-the bottom of the shape options screen and select the Ai screen you want
-to use as the video source.
+Ist der [Keyframe-Shape erstellt](../effects/key-frame-shapes.md#creating-a-key-frame-shape), so gibt 
+es unten im Effekt-Editor den Button [Phase Master](../effects/key-frame-shapes.md#changing-shape-parameters-in-the-effect-editor), 
+mit dem man das gewünschte Surface als Master auswählt.
 
 ![Phase Master using Ai screen in Keyframe Shape](/docs/images/Phase-Master-using-Ai-screen-in-Keyframe-Shape.png)
 
-Special function bank/clip numbers
-----------------------------------
+Bänke und Clips mit speziellen Funktionen
+-----------------------------------------
 
-When selecting banks and clips in the attribute editor, some bank
-numbers have a special function which allows you to access other screens
-and layers on the Ai server. This is sometimes useful to obtain other
-media sources such as live camera feeds without having to process them
-onto a new screen.
+Wählt man im Attribut-Editor Bänke und Clips aus, so haben einige
+Nummern spezielle Funktionen, um direkt den Output andererScreens und
+Layer zu verknüpfen. Damit kann man das Arbeiten deutlich vereinfachen
+und ggf. auch Rechenleistung sparen, wenn der gleiche Inhalt auf
+mehreren Outputs gezeigt werden soll.
 
 Bank/Clip | Function
 ---|---
-**Bank 240 - 255** | Selects a Surface/Screen Fixture from 1-16
-**Clip 0 - 200** | Selects layer number 1-201 on that surface.
-**Clip 255** | Selects the surface output (the composite of all layers)
+**Bank 240 - 255** | Verlinkt auf Surface/Screen Fixture 1-16.
+**Clip 0 - 200** | Verlinkt auf Layer 1-201 auf diesem Surface.
+**Clip 255** | Verlinkt auf das Screen Fixture als Ganzes (alle Layer).

@@ -5,129 +5,138 @@ sidebar_label: Setting up Synergy
 original_id: setting-up
 ---
 
-Connecting up
--------------
+Verbinden
+---------
 
-The Ai server(s) need to be connected by Ethernet to the Titan console.
-[Media previews](operating-synergy.md#media-viewer) use NDI streams which along with copying of large media
-files can place a heavy demand on the network, so you should follow
-these tips for setting up a suitable network:
+Der/die Ai-Server und das Pult müssen per Ethernet miteinander verbunden
+sein. Vor allem für die [NDI-Vorschauen](operating-synergy.md#media-viewer) und beim Hochladen von Clips
+kommt es zu einem erheblichen Datenaufkommen. Daher sollten möglichst
+folgende Hinweise beachtet werden, um ein zuverlässiges Arbeiten zu
+ermöglichen:
 
--   Use at least gigabit network equipment
+-   Es sollte sich um ein Gigabit-Netzwerk handeln (1 Gbit/s).
 
--   Have a dedicated network for Synergy if possible
+-   Nach Möglichkeit ein getrenntes Netzwerk für Synergy.
 
--   If you are using Titan Mobile, make sure Windows Firewall is turned
-    off
+-   Bei der Verwendung der PC-Suite sollte die Windows Firewall
+    deaktiviert sein.
 
-If you have problems getting Titan and Ai to recognise each other, make
-sure they are on matching software versions, and both in the same IP
-address subnet range such as `2.0.0.1` and `2.0.0.2` - read more about [Networking the Console](../networking.md).
+Sollte es zu Problemen kommen, Titan und die Ai-Software miteinander zu
+verbinden, so ist insbesondere die Softwareversion (müssen identisch
+sein) sowie die Netzwerkkonfiguration (unterschiedliche IP-Adressen,
+aber im gleichen Bereich; gleiche Subnetz-Masken) zu überprüfen. Mehr dazu
+in [Einrichten des Netzwerkbetriebs](../networking.md).
 
-Setting up the AI Show
+Einrichten der Show in Ai
+-------------------------
+
+Einfache Setups mit nur einem einzelnen Display oder Projektor können
+ganz einfach direkt vom Pult aus eingerichtet werden. Starten Sie in Ai
+ein leeres Projekt und folgen Sie den Anweisungen im [nächsten Abschnitt](#synergy-setup),
+um mittels Synergy Screens und Layer anzulegen.
+
+Für kompliziertere Setups ist dagegen die Einrichtung der Screens in Ai
+vorzunehmen (siehe Ai-Handbuch). Diese werden dann in Synergy in Titan
+angezeigt, und man kann wie beschrieben Layer hinzufügen oder
+umbenennen.
+
+Einrichten von Synergy
 ----------------------
 
-A simple Ai system involving a single screen or projector can be set up
-by following the [Synergy setup](#synergy-setup) instructions in the next section. You
-just need to open a blank show in Ai and you can add Screens and Layers
-from the Titan console.
+In Titan öffnen Sie das Fenster **Synergy Settings**, entweder mit dem
+entsprechenden Workspace bei neuen Shows, oder über das Menü 'Open
+Workspace Window'.
 
-For more complicated requirements, create suitable screen fixtures in
-the Ai show - see the Ai manual for more details on how to do this. You
-can create and rename Layers from the Titan console. The screen fixtures
-you have created in Ai will then become available as Surfaces in Titan.
-
-Synergy Setup
--------------
-
-In Titan, open the **Synergy Settings** window using the Workspace button
-provided on new shows, or use the option in the Open Workspace Window
-menu.
-
-This window is a little like the [DMX settings screen](../system-settings/the-system-menu.md#dmx-settings): it lets you set up
-how the Titan console is linked to the various outputs on the Ai
-server(s). Also, it lets you add or remove layers from each Ai surface
-and add complete new surfaces to the Ai server (though you may need to
-configure these further on the Ai server itself).
+Dieses Fenster ähnelt entfernt dem der [DMX-Einstellungen](../system-settings/the-system-menu.md#dmx-settings): hier stellt
+man ein, wie Titan die einzelnen Outputs von Ai ansteuert. Ebenso kann
+man hier Layer hinzufügen oder löschen sowie komplett neue Surfaces
+anlegen (müssen ggf. in Ai noch genauer eingestellt werden).
 
 ![Synergy Settings Window](/docs/images/Synergy-Settings-Window.png)
 
-On the left of the screen the available Ai
-servers are shown. In the centre of the screen, the Surfaces and Layers
-configured in Titan are shown. Connection lines show how the Titan
-Surfaces will control the different outputs of the Ai server. At the
-bottom are Surfaces which are already configured on Ai but are not yet
-linked to Titan, these are called unmatched surfaces.
+Links sind die verfügbaren Ai-Server mit ihren Outputs aufgeführt. In
+der Mitte sind die in Titan angelegten Surfaces und Layer aufgeführt.
+Linien zwischen den Outputs und Surfaces zeigen die Zuordnung an. Unten
+tauchen die Surfaces auf, die zwar in Ai schon angelegt sind, aber noch
+nicht in Titan. Dieses sind die ‚unmatched' (nicht zugewiesenen)
+Surfaces.
 
-Click on the **+** at the bottom and select Surface from the pop up to add a
-new surface. This will appear at the top; by default it has two layers
-but you can change this later.
+Klickt man auf das \[ + \] unten und wählt aus der aufklappenden Liste
+'Surface', so wird ein neues Surface hinzugefügt. Dieses erscheint in
+der mittleren Spalte oben. Neue Surfaces haben zunächst immer zwei
+Layer.
 
 ![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-screen-settings.png)
 
-Clicking on the top part of a Surface will
-show options on the right for the surface. These options allow you to
-set the canvas resolution which can either be picked from a list of
-common resolutions, or entered numerically; at the top right the display
-halo colour of the surface can be set, and the pencil button allows you
-to change the name (you can also do this with the \[Set Legend\]
-button).
+Klickt man in der mittleren Spalte oben auf die Titelleiste eines
+Surfaces, so werden rechts die entsprechenden Optionen angezeigt. Damit
+lässt sich die Auflösung einstellen, wahlweise per Auswahl aus einer
+Liste oder per numerischer Eingabe. Ganz rechts oben kann man mit dem
+farbigen Button das Halo des Surfaces ändern sowie mit dem Stift-Icon
+die Legende (Bezeichnung) bearbeiten (beides ist auch wie gewohnt per
+\[Set Legend\] möglich).
 
-Clicking on a Layer within a Surface shows layer options on the right.
-This allows you to allocate a Rate or BPM master to the layer for speed
-control.
+Klickt man innerhalb eines Surfaces auf einen Layer, so werden rechts
+die Optionen des Layers angezeigt. Damit kann man einen Speed- oder
+BPM-Master für den Layer zuweisen.
 
-When no Surfaces or Layers are selected, the right side of the screen
-shows general information about the system. There is a switchable option
-"Automatic NDI Previews" to enable or disable NDI streams - if you are
-using the media preview window, you will need to turn this on. If not
-leave it turned off, as it causes a lot of network traffic.
+Sind weder Surfaces noch Layer angewählt, so werden rechts allgemeine
+Informationen über das System angezeigt. Es gibt die Option 'Automatic
+NDI Previews', mit der NDI-Streams ein- bzw. ausgeschaltet werden.
+Verwendet man das Vorschaufenster (Media Preview), so müssen NDI
+Previews aktiviert sein - verwendet man das nicht, so empfiehlt es
+sich, die Option zu deaktivieren, um das Netzwerk zu entlasten.
 
-Once you have created a surface in Titan, you need to match it to the Ai
-surface. Click on the Link button on the unmatched surface at the
-bottom, then click on the Screen 1 surface at the top (or you can click
-**"Link to new Surface"** to automatically create a new surface and link to
-it).
+Ist in Titan ein Surface angelegt, so muss dies einem Ai-Surface (in Ai:
+Screen Fixture) zugewiesen werden. Dazu klickt man auf den Link-Button
+des nicht zugewiesenen Ai-Surfaces unten und danach auf das
+Titan-Surface oben. Wählt man dagegen **Link to new Surface**, so wird ein
+neues Titan-Surface angelegt und verknüpft.
 
 ![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-linking-a-screen.png)
 
-The Screen 1 Surface will now show that it is linked to the Ai server and the unmatched server at the bottom disappears.
+Sind die Surfaces verknüpft, so wird dies über eine farbige Linie zum
+Server angezeigt, und das nicht verknüpfte Surface unten verschwindet.
 
 ![Synergy Settings Window with a linked screen](/docs/images/Synergy-Settings-Window-with-a-linked-screen.png)
 
-You can link the Screen 1 Surface to one or more different physical
-outputs on the Ai server by clicking the screen, then clicking the
-output to connect on the left, for example if you want to show the same
-media on several screens.
+Das Surface lässt sich auch mit mehreren Ai-Outputs verknüpfen, wenn man
+z.B. den gleichen Content auf mehreren Outputs verwenden will. Dazu
+klickt man auf das Surface in der Mitte und danach links auf den
+zusätzlichen Output.
 
-Once a layer is linked, if you open the layer properties in Ai the
-**"Synergy Control"** box will show *"Enabled"*. Now you cannot control the
-screen using Ai, only from the Titan console.
+Ist ein Layer verknüpft, so wird das in Ai in den Layer Properties mit
+**Synergy Control: Enabled** angezeigt. Dieser Layer kann nun nicht von Ai
+direkt, sondern nur über Titan/Synergy gesteuert werden.
 
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)
 
-To add a layer, click on the surface, then the **+** button at the bottom
-and select **Layer** from the popup.
+Um einen weiteren Layer hinzuzufügen, klickt man auf das Surface, dann
+auf den \[ + \] - Button unten, und wählt 'Layer'.
 
-To delete a layer or surface, select the item then click the **Trash Can**
-icon at the bottom, or press \<Delete\> then click the layer/surface. If
-linked to Ai, this will also delete the layer/surface in Ai.
+Um einen Layer oder ein Surface zu löschen, wählt man dieses aus und
+klickt unten auf das Papierkorb-Symbol, oder man drückt \<Delete\> und
+klickt dann auf das zu löschende Element. Ist dabei Ai verbunden, so
+wird der Layer bzw. das Surface (Screen Fixture) auch in Ai gelöscht.
 
-Synergy Fixtures Window
------------------------
+Das Fenster Synergy Fixtures
+----------------------------
 
-Every layer on the Ai server appears as a button in the Synergy Fixtures
-window. You can display this using the button at the bottom of the
-[Synergy Settings window](#synergy-setup) or from \[Open Workspace Windows\].
+Jeder Layer erscheint als Button im Fenster 'Synergy Fixtures'. Dies
+kann man entweder mit dem Button \[View Synergy Fixtures\] im [Synergy
+Settings-Fenster](#synergy-setup) oder wie gewohnt über \[Open Workspace
+Window\] (Fenster öffnen) aufrufen.
 
 ![Synergy Fixtures Workspace Window](/docs/images/Synergy-Fixtures-Workspace-Window.png)
 
-You use these buttons to select one or more layers for control, just as
-you would select lighting fixtures to control. Once selected, use the
-[Attribute Editor](operating-synergy.md#attribute-editor-for-controlling-ai-layers) or [wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels) to control the media playback and effects on
-the Ai server. You can then [store palettes](../palettes/creating-palettes.md) and [playbacks](../cues/creating-a-cue.md#creating-a-cue) as with any
-other lighting fixture. This is described in the next section, [Operating Synergy](operating-synergy.md).
+Durch Anklicken lassen sich einzelne oder mehrere Layer auswählen, wie
+man auch sonst Dimmer oder Movinglights zum Steuern auswählt. Sind Layer
+ausgewählt, so kann man im [Attribut-Editor](operating-synergy.md#attribute-editor-for-controlling-ai-layers) oder einfach mit den
+Attributtasten und [Encodern](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels) Medien und Effekte steuern, die darauf
+angezeigt werden. Genauso lassen sich auch [Paletten](../palettes/creating-palettes.md) oder [Playbacks](../cues/creating-a-cue.md#creating-a-cue)
+speichern, wie das mit anderen Fixtures gewohnt ist. Es wird im [folgenden Abschnitt](operating-synergy.md) näher erläutert.
 
-> The Synergy layers are shown in their own window to keep them
-together and help you find them quickly. However if you prefer you
-can move the layer buttons into the normal Fixtures window.
+>   Die Synergy-Layer werden in einem eigenen Fenster angelegt, damit
+    man eine bessere Übersicht hat. Wenn gewünscht, kann man diese
+    aber in das normale Fixture (Geräte)-Fenster verschieben, um alles
+    an einem Platz zu haben.
