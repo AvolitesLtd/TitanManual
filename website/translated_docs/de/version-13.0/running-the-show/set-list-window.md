@@ -5,107 +5,112 @@ sidebar_label: Set List Window
 original_id: set-list-window
 ---
 
-The Set List window is a handy way of linking playback pages to
-songs/events in your show which you can then easily step through. You
-can also make notes, handy for avoiding bits of paper lying around. You
-can have multiple set lists in a show.
+Das Fenster Set List bietet eine einfache Möglichkeit, Playback-Seiten
+mit bestimmten Songs oder Szenen der Bühnenshow zu verknüpfen, so dass
+man jederzeit passend zum Ablauf die richtige Seite findet. Ebenso kann
+man Notizen speichern, so dass separate Papiere überflüssig sind. Eine
+Show kann mehrere Set-Listen enthalten.
 
 [](https://youtu.be/VX5acUU-99M?t=20 "Set Lists")
 
-To open the Set List window, click \[Open Workspace Window\] then \[Set
-List\].
+Um das Fenster aufzurufen, drücken Sie \[Open Workspace Window\] und
+wählen \[Set List\].
 
-The Set List feature works best if you arrange your playbacks to have a
-page of playbacks for each song in the show.
+Am besten eignet sich dies, wenn man für jeden Song bzw. jede Szene
+eine eigene Seite von Speicherplätzen verwendet.
 
 ![Set List Window](/docs/images/Set-List-Window.png)
 
-A set list is made up of tracks. When a track is added it automatically
-links to the current page. Pressing the play button next to the track
-will automatically select the correct playback page (except on Pearl
-Expert, because the rollers cannot be moved automatically).
+Eine Set-Liste besteht aus sog. Tracks. Wird einer Setliste ein neuer
+Track hinzugefügt, so verweist dieser automatisch auf die gerade
+aktuelle Seite. Ein Klick auf die \[⏵\]-Schaltfläche neben einem
+Track schaltet sofort auf die passende Seite (auf dem Pearl Expert muss
+die Walze manuell betätigt werden).
 
-Creating a Set List
--------------------
+Erstellen einer Set-Liste
+-------------------------
 
-To create a Set List, click the plus button in the top right corner of
-the window. You can choose Empty, Pages, and Build. Pages will
-automatically create a set list using the legends of your existing
-playback pages, one page per track. Build allows you to select the pages
-in the order you want them. Or you can manually add a track using the
-plus button below the track list.
+Zum Erstellen einer neuen Set-Liste klicken Sie auf die
+\[+\]-Schaltfläche *oben rechts*, angeboten werden die Optionen \[Empty\]
+(leer), \[Pages\] (Seiten), und \[Build\]. 
+-   Mit der Option \[Pages\] wird eine Set-Liste mit den momentan 
+	verwendeten Seiten erstellt. 
+-	Wählt man \[Build\], so kann man die momentan programmierten Seiten 
+	in beliebiger Reihenfolge in eine Set-Liste einfügen. 
+-   Mit \[Empty\] starten Sie mit einer leeren Set-Liste und fügen Track 
+	für Track hinzu, indem Sie unten auf die \[+\]-Schaltfläche klicken.
 
-Configuring Tracks
-------------------
+Die Tracks konfigurieren
+------------------------
 
 Enter notes by selecting a track and clicking the text entry button,
 bottom right, or the Edit Note context menu button.
 
--   You can temporarily remove a track from the set list using the Park
-    Track context menu button.
+-   Mit dem Kontext-Menü 'Park Track' werden Tracks vorübergehend
+    deaktiviert.
 
--   If you prefer to operate by using the Page+/Page- buttons, you can
-    change the function of these buttons to step through the tracks in
-    the set list window, using the Page Mode context menu button. When
-    Page Mode is set to Set List, the Page+/Page- buttons are reassigned
-    to step through tracks in the Set List, and the playback pages will
-    automatically change as programmed in the Set List. Set Page Mode to
-    Normal to restore normal operation. (Not available on Pearl Expert).
+-   Möchten Sie lieber die Tasten \<Page+\>/\<Page-\> zum Durchschalten
+    der Tracks verwenden, so aktivieren Sie dies mit dem Kontext-Menü
+    'Page Mode'. Ist Page Mode auf 'Set List' gestellt, so können Sie
+    mit den Tasten \<Page+\>/\<Page-\> die Tracks durchschalten -- die
+    Seiten wechseln dann also in der mittels Set-Liste vorgegebenen
+    Reihenfolge. Steht Page Mode auf 'Normal', so wirken die Tasten wie
+    gewohnt auf die Seiten der Speicherplätze (nicht verfügbar auf dem
+    Pearl Expert).
 
--   You can copy, move and delete tracks using the appropriate function
-    buttons on the console.
+-   Das Kopieren, Verschieben und Löschen von Tracks erfolgt wie gewohnt
+    über die entsprechenden Befehlstasten des Pultes.
 
--   You can change the legend of the Set List or of individual tracks
-    using the \[Set Legend\] option.
+-   Zum Ändern der Bezeichnung der Set-Liste oder einzelner Tracks
+    verwenden Sie \[Set Legend\].
 
-Track Workspace and Macro links
--------------------------------
+Tracks mit Workspace und Macros verknüpfen
+------------------------------------------
 
-You can trigger macros and workspace shortcuts from tracks using the
-\[Workspace\] and \[Macro\] buttons in the bottom right hand corner of
-the window.
+Macros und Workspaces lassen sich durch Tracks aufrufen: dazu dienen die
+Buttons \[Workspace\] und \[Macro\] rechts unten im 'Set List'-Fenster.
 
-To add a workspace link to the current track, click \[Workspace\], then
-either click a workspace shortcut or press the \[Record Workspace\]
-softkey to save the current workspace.
+Um eine Verknüpfung zu einem Workspace herzustellen, klicken Sie auf
+\[Workspace\] und dann auf den gewünschten Workspace oder auf \[Record
+Workspace\], um die aktuelle Arbeitsoberfläche zu speichern.
 
-Macros can be added either to the whole Set List or just to the current
-track. Set List macros will fire every time a new track is selected,
-this is useful for setting the console to a preset state at the start of
-every song. Track macros will just fire for that individual track.
+Macros können sowohl von der gesamten Set-Liste als auch von einzelnen
+Tracks aufgerufen werden. Set-Listen-Macros werden dabei bei jedem neuen
+Track erneut getriggert. Damit kann man z.B. zu Beginn jedes neuen Songs
+einen einheitlichen Ausgangszustand herstellen. Track-Macros werden
+dagegen nur von dem jeweiligen Track aufgerufen.
 
-To view or edit the workspace links and macros, click the Workspace &
-Macros tab on the right hand half of the window. The window will then
-show a button for each programmed link.
+Um diese Macro- und Workspace-Verknüpfungen aufzurufen, klicken Sie
+rechts oben auf den Reiter 'Workspaces & Macros'. Daraufhin wird für
+jede Verknüpfung ein Button, nach Kategorien geordnet, angezeigt.
 
 ![Workspace & Macros](/docs/images/Workspace-Macros.png)
 
-You can fire the macro or Workspace shortcut by clicking on the link
-button. Delete the button by pressing Delete then clicking the button,
-then press \[Remove\].
+Klickt man auf so einen Button, so wird die entsprechende Aktion
+ausgelöst. Zum Löschen drückt man \<Delete\>, gefolgt von dem jeweiligen
+Button, und bestätigt das mit \[Remove\].
 
-Playback Control Macros
------------------------
+Macros zur Playback-Steuerung
+-----------------------------
 
-[Key Macros](../titan-basics/front-panel-buttons.md#key-macro-buttons)
-allow you to record a sequence of actions on the console then
-play them back (either instantaneously or as a timed sequence). This can
-be very useful for reducing a complex sequence of actions to a single
-button push.
+[Macros](../titan-basics/front-panel-buttons.md#key-macro-buttons)
+gestatten es, häufig wiederkehrende Folgen von Tastendrücken zu
+automatisieren. So lassen sich auch lange oder komplizierte 
+Tastenkombinationen mit nur einem Knopfdruck wiederholen.
 
-Some special preset macros are available to help with controlling
-playbacks when used with a Set List.
+Es gibt einige spezielle vorgefertigte Macros, die sich besonders zur
+Playback-Steuerung bei Verwendung von Set-Listen anbieten.
 
 Macro | Action
 ------|-------
-\[Fire First Playback\] | Fires the first playback on the current page.
-\[Fire First Playback Page 1\] | Fires the first playback on page 1, regardless of current page.
-\[Fire Playback 1\] | Fires the playback with user number 1.\
-\[Kill First Playback\] | Kills the first playback on the current page.\
-\[Kill First Playback Page 1\] | Kills the first playback on page 1, regardless of current page.\
-\[Kill Playback 1\] | Kills the playback with user number 1.
-\[Release First Playback\] | Releases the first playback on the currently selected page.
-\[Release First Playback Page 1\] | Releases the first playback on page 1, regardless of current page.
-\[Release Playback 1\] | Releases the playback with user number 1.
-\[Release Me\] | Releases the associated playback (cuelist).\
-\[Goto My Cue 1\] | Go to cue 1 of the associated cuelist.
+\[Fire First Playback\] | Startet das erste Playback der aktuellen Seite.
+\[Fire First Playback Page 1\] | Startet das erste Playback auf Seite 1, unabhängig von der gerade aktuellen Seite.
+\[Fire Playback 1\] | Startet das Playback mit der Nummer 1.
+\[Kill First Playback\] | Stoppt/killt das erste Playback der aktuellen Seite.
+\[Kill First Playback Page 1\] | Stoppt/killt das erste Playback auf Seite 1, unabhängig von der gerade aktuellen Seite.
+\[Kill Playback 1\] | Stoppt/killt das Playback mit der Nummer 1.
+\[Release First Playback\] | Releast das erste Playback der aktuellen Seite.
+\[Release First Playback Page 1\] | Releast das erste Playback auf Seite 1, unabhängig von der gerade aktuellen Seite.
+\[Release Playback 1\] | Releast das Playback mit der Nummer 1.
+\[Release Me\] | Releast das momentan verbundene Playback (Cueliste).
+\[Goto My Cue 1\] | Geht zu Cue 1 der gerade verbundenen Cueliste.

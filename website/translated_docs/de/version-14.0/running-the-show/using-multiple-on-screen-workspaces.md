@@ -5,24 +5,26 @@ sidebar_label: Using multiple on-screen workspaces
 original_id: using-multiple-on-screen-workspaces
 ---
 
-On the screen you can configure different "workspaces" which store how
-the various windows are displayed. This allows you to quickly recall
-different setups. Workspaces are stored and recalled from the touch
-buttons to the left of the menu buttons, or may be stored to any grey
-button on the console.
+Es lassen sich diverse 'workspaces' (Arbeitsumgebungen) einrichten, die
+ihrerseits die Anordnung und Anzeige der verschiedenen Fenster
+speichern. Diese Arbeitsumgebungen lassen sich mit den Schaltflächen
+links der Menütasten speichern und abrufen oder auf den grauen Tasten
+des Pultes ablegen.
 
-You can also create a Set List which will automatically recall a
-workspace layout for each song.
+Man kann auch die Workspaces per Set List passend zum jeweiligen Song
+umschalten.
 
-View menu
----------
+Das Menü View
+-------------
 
-Pressing \<View/Open\> takes you into the View menu. From here you can
-set up what is shown on the screen(s).
+Durch Betätigen der Taste \<View / Open\> gelangt man in das Menü
+'View' (Ansicht). Hier lässt sich einstellen, was auf dem Touchscreen
+(und ggf. dem externen Bildschirm) angezeigt wird.
 
--   \[Window Options\] allows you to reposition and resize windows.
+-   \[Window Options\] (Fensteroptionen) gestattet das Verschieben und
+    Vergrößern/Verkleinern der Fenster.
 
--   \[Open Workspace Window\] gives a list on the softkeys of all the
-    possible windows, allowing you to open the one you need.
+-   Mit \[Open Workspace Window\] (ein bestimmtes Fenster öffnen) lassen
+    sich alle verfügbaren Fenster aufrufen bzw. schließen.
 
 
