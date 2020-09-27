@@ -190,9 +190,9 @@ If you select the fixture using the handle it is patched on, all cells
 of the fixture will be controlled together.
 
 You can use the buttons which appear at the top of the attribute editor
-window to select the main fixture, or individual cells for control (use
-the \[Open Workspace Window\] softkey to open the Attribute Editor
-window).
+window to select the main fixture, or individual cells for control (double
+press \<Open/View\> to open the Attribute Editor window from the window
+select buttons).
 
 ![Cell Selection](/docs/images/Cell-Selection.png)
 
@@ -338,8 +338,8 @@ the Attribute Editor window can be easier to work with than the wheels.
 It also offers a colour picker window for fixtures with RGB or CMY
 colour mixing.
 
-Press \<View/Open\> then \[Open Workspace Window\] then \[Attribute
-Editor\] to show it. As a shortcut you can also show it by touching the
+Double press \<View/Open\> then \[Attribute
+Editor\] from the window select buttons to show it. As a shortcut you can also show it by touching the
 attribute name text just below the on-screen IPCGBES buttons.
 
 The buttons on the left of the window select the attribute to change.
