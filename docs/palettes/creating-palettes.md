@@ -177,11 +177,22 @@ The \[Record/Don't Record Nested Palettes\] option in the Record Palette
 menu sets whether nested palettes are recorded *(default)* or whether the
 attribute values are recorded instead.
 
-When palettes are used in cues, you can disable the nested palettes
-using the playback option \[Fire/Don't Fire Nested Palettes\]. If set to
-Don't Fire, the nested palettes are treated as the fixed values they
-held at the time the cue was recorded and won't change if the nested
-palette is updated.
+If you've created a new palette using nested palettes, you can switch the 
+palette to be non-nested (to use the values which were set at the time it 
+was recorded). This can be useful if a palette was recorded as nested, but 
+then you need to break the link to the source palettes so you can change them 
+without changing the new palette. 
+
+1.	Press \[Options\].
+
+2.	Press the handle of the palette. 
+
+3.	In the \[Palette\] tab switch off the option \[Fire Nested Palettes\]. 
+
+4.	Now when you fire the palette, it will use the values which were set when
+	you recorded it, rather than the current values in the nested palettes.
+
+-	You can reinstate the link by switching the \[Fire Nested Palettes\] option on again.
 
 Quick Record
 ------------
