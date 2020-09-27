@@ -186,7 +186,7 @@ monitors are very useful to give additional control surfaces. We advise
 you use a monitor compatible with Windows Touch to avoid problems with
 touchscreen drivers. 
 
-Titan PC Suite (Titan Mobile / Titan Go / Simulator) will also support 2 monitors if the PC
+Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) will also support 2 monitors if the PC
 you are using has the facility.
 
 An external monitor is disabled by default and will show a \'disabled\'
@@ -243,5 +243,4 @@ by USB.
 
 The Pearl Expert Touch Wing can only be used with the [Pearl Expert](about-the-consoles/pearl-expert-and-touch-wing.md)
 console and should be connected before the console is powered up.
-
 
