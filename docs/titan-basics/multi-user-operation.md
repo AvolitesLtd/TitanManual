@@ -90,11 +90,10 @@ Linking to other TitanNet Sessions
 If multiple Titan consoles are connected in the same network you can
 choose to connect them as multi-user, 
 [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup),
-or both. This is also how you connect [TitanNet processors](../titan-net.md)
-to expand DMX outputs.
+or both. 
 
 > All consoles to be linked must be running the same version of Titan
-for networking to work.
+for networking to work correctly.
 
 For details of how to connect Titan consoles together on a network, see
 [Networking the Console](../networking.md).
@@ -162,8 +161,8 @@ console will immediately become the master and take over DMX output
 with the chosen user and handle worlds selected. The console which
 was master will go into a dormant state with DMX disabled.
 
-> Consoles must be running Titan v8 or above to join a multi-user or
-backup session with another Titan v8 console.
+> Consoles must be running the same version of Titan to join a multi-user or
+backup session.
 
 ### Titan Mobile
 

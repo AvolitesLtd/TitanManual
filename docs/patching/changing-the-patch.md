@@ -382,4 +382,3 @@ console does not update fixtures which are already patched.
 5. If updating individual fixtures, press the personality you want
     to update.
 
--   The new personality is loaded from the Titan/Personalities folder.

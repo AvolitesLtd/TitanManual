@@ -5,8 +5,8 @@ sidebar_label: Clearing the Console
 ---
 
 When you start a new show on Titan it is usually a good idea to clear
-the console. All programming and patching is deleted, but user options
-are not changed.
+the console. All programming and patching is deleted, and user options
+are returned to default settings.
 
 1. Press the \<Disk\> button.
 
