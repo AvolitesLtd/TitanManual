@@ -22,11 +22,10 @@ then press \[External Display Disconnected\]. The option will change to
 using.
 
 Titan should configure its output to match your monitor. However if this
-does not work for some reason, on a console you can manually set resolution from the
+does not work for any reason, on a console you can manually set the resolution from the
 toolbar. Click \'Tools\' at the very top of the touch screen and select
 \'Control Panel\', then \'External Monitor\', then select the option to
 match the resolution of your monitor.
 
 ![External Monitor Resolution](/docs/images/External-Monitor-Resolution.png)
-
 
