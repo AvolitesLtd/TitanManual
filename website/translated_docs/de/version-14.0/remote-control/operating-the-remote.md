@@ -5,93 +5,104 @@ sidebar_label: Operating the Remote
 original_id: operating-the-remote
 ---
 
-To connect to the console, open the Titan Remote app and a list of
-available consoles will be shown - hopefully if you have done the
-[network setup](setting-up-the-remote.md) correctly, you will see your console listed.
+Um sich mit dem Pult zu verbinden, starten Sie auf dem Mobilgerät die
+Titan Remote-App; nun werden die im Netzwerk gefundenen Pulte angezeigt
+(vorausgesetzt natürlich, dass das [Netzwerk korrekt eingerichtet](setting-up-the-remote.md) ist).
 
-There is also a local emulator which can be used to test or demonstrate
-the remote when no real console is connected.
-
-![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-with-keypad.png)
-
-Choose what you want to control using the row of buttons across the
-middle of the app. The Keypad button enables or disables the numeric pad
-(the keypad overlays all the other screens, so you will need to turn it
-off to see the others).
-
-Keypad
-------
-
-The keypad screen lets you do most common tasks in the way a
-programmer\'s remote normally works. You can turn on/Locate fixtures and
-dimmers either individually or together.
+Die Remote-App enthält auch einen Emulator, mit dem die Remote lokal,
+also auch ohne Netzwerkverbindung, ausprobiert werden kann.
 
 ![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-with-keypad.png)
 
-The User Number of the fixture or dimmer is used for control. For
-example to turn on dimmer 3 at 50% you would press:
+Mit der zentralen Leiste von Schaltflächen kann man nun die zu
+steuernden Funktionen/Details wählen. Mit der Taste \[Keypad\] wird 
+eine Tastatur eingeblendet; diese überlagert ggf. andere Schaltflächen. 
+Zum Ausblenden klicken Sie wieder auf \[Keypad\].
 
-**`3 @ 5`**
+Keypad -- die Tastatursteuerung
+-------------------------------
 
-To turn on dimmers 1-10 at 80% you would press:
+Mit der Tastatur lassen sich die häufigsten Aufgaben realisieren,
+die man mit einer Remote erledigen möchte. So lassen sich z.B. einzelne
+oder mehrere Dimmer und Geräte aktivieren und auf Locate-Werte setzen.
 
-**`1 Thro 10 @ 8`**
+![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-with-keypad.png)
 
-For 100% you just press @ twice, for example:
+Die Steuerung erfolgt unter Verwendung der Gerätenummern. Möchte man
+z.B. Dimmer Nr. 3 auf 50% setzen, so lautet die Eingabe
+
+**`3 @ 5 Enter`**
+
+Um die Dimmer 1 bis 10 auf 80% zu setzen:
+
+**`1 Thro 10 @ 8 Enter`**
+
+Für 100% klicken Sie zweimal auf @, z.B.
 
 **`1 Thro 10 @ @`**
 
-> To locate one or more fixtures, press Locate instead of the @ button.
+> 	Um ein oder mehrere Geräte auf Locate-Werte zu setzen, klicken Sie statt
+	auf @ auf \[Locate\].
 
-You can select multiple ranges of dimmers or fitures using the And
-button, for example:
+Es können mehrere Bereiche von Geräten mit der AND-Taste ausgewählt
+werden, z.B.
 
-**`1 Thro 10 And 20 Thro 30 @ 6`**.
+**`1 Thro 10 And 20 Thro 30 @ 6 Enter`**.
 
-Controlling Fixtures
---------------------
+Steuern von Geräten
+-------------------
 
-The fixture screen allows you to select fixtures exactly as you would on
-the console.
+Auf der Geräte-Ansicht (mit der Schaltfläche \[Fixture\]) können Sie
+genauso arbeiten wie auf dem Pult gewohnt: wählen Sie einfach die
+gewünschten Geräte aus.
 
 ![Fixture View in Titan Remote Android App](/docs/images/Fixture-View-in-Titan-Remote-Android-App.png)
 
-You can then use the **Palette** screens to control the fixtures, or press
-the **IPCGBES** buttons to directly control functions of the fixtures using
-wheels.
+Sind Geräte ausgewählt, so können Sie auf den **Paletten**-Ansichten
+Paletten aufrufen oder mit den Schaltflächen **IPCGBES** direkt einzelne
+Attribute steuern.
 
-You can scroll the fixture screen up and down by dragging the window. To
-view the fixture pages, drag the Pages bar to the right.
+In der Geräteansicht können Sie durch Klicken und Ziehen nach oben und
+unten scrollen. Um die Seiten umzuschalten, ziehen Sie die
+Palettenanzeige vom linken Rand aus nach rechts.
 
-Press the **All** button to select all fixtures. Hold down the **All** button to
-step through various selection patterns (odd, even etc).
+Mit der Schaltfläche \<All\> wählen Sie alle Geräte im
+Programmierspeicher aus. Halten Sie die Schaltfläche länger angeklickt,
+so werden verschiedene Auswahlmuster angeboten (odd, even etc.)
 
 ![Fixture Control in Titan Remote Android App](/docs/images/Fixture-Control-in-Titan-Remote-Android-App.png)
 
-The wheels show function values (such as colours or gobo names). To go
-to the next function, just touch the arrows at the top or bottom of the
-wheel. To manually scroll the value, spin the wheel with your fingers.
-If there are more than three functions, touch the **IPCGBES** button again
-to change to the other functions.
+Die Räder zeigen auch Funktionsnamen an, z.B. für Farben oder Gobos. Zum
+Durchschalten durch die Funktionen klicken Sie auf die Pfeile ganz oben
+bzw. unten bei jedem Rad. Zum kontinuierlichen Drehen der Räder klicken
+und ziehen Sie diese. Gibt es mehr als drei Attribute in der jeweiligen
+Attributgruppe des Gerätes, klicken Sie zum Durchschalten wiederholt auf
+die entsprechende **IPCGBES**-Schaltfläche.
 
-Press the **Clear** button to clear the selection and all changes in the
-remote programmer. Hold down the **Clear** button to clear all programmers
-(for example if someone has been doing something on the console at the
-same time, this will clear the console's programmer too).
+Klicken Sie auf \[Clear\], um den Programmierspeicher der Remote zu
+löschen. Wenn Sie \[Clear\] länger anklicken, so werden alle
+Programmierspeicher gelöscht, also auch der des Pultes. Das kann
+sinnvoll sein, wenn dort versehentlich noch etwas aktiv ist, was bei der
+Verwendung der Remote stört.
 
-You can also play back cues using the **Cue** screen. Hold down a playback
-button to kill or release an active playback.
+In der **Cue**-Ansicht können auch gespeicherte Cues gestartet werden. Hält
+man die Schaltfläche eines aktiven Cues angeklickt, so kann man diesen
+deaktivieren oder releasen (freigeben).
 
-> If you update the legends of palettes or cues on the console while the remote is running, the legends on the remote will not be updated. \<Exit\> and restart the remote app to show legend changes made on the console.
+>	Werden Bezeichnungen von Paletten oder Cues auf dem Pult bei laufender 
+	Remote geändert, so erscheinen die Änderungen auf der Remote erst, 
+	wenn diese beendet und neu gestartet wurde.
 
-Recording groups and palettes
------------------------------
+Speichern von Gruppen und Paletten
+----------------------------------
 
-You can record groups and palettes using the **Rec** button on the remote,
-then click a workspace button as normal. You can also hold down an empty
-button to quick record a group or palette.
+Mit der Remote lassen sich auch Gruppen und Paletten speichern: nehmen
+Sie die gewünschten Einstellungen vor, klicken Sie auf \[Rec\] und dann
+auf eine Schaltfläche in der entsprechenden Ansicht. Ebenso kann man
+einfach eine leere Schaltfläche länger gedrückt halten (Quick Record) --
+das ist gleichbedeutend mit dem Doppelklick auf dem Pult.
 
-If you hold down a used palette button, the current programmer will be
-quick merged into the existing palette.
+Hält man eine bestehende Palette angeklickt, so wird der momentane
+Inhalt des Programmierspeichers in diese integriert (Quick Merge).
 
-*You cannot record cues using the remote.*
+*Cues können mit der Remote nicht programmiert werden.*

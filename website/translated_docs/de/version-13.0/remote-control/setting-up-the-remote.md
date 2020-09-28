@@ -5,65 +5,74 @@ sidebar_label: Setting up the Remote
 original_id: setting-up-the-remote
 ---
 
-All you need to do is make sure that the console is on the same network
-as your mobile device. The app will automatically detect all the
-consoles on the network.
+Voraussetzung ist, dass zwischen Pult und Mobilgerät eine
+Netzwerkverbindung besteht; die App erkennt dann automatisch alle im
+Netzwerk gefundenen Pulte.
 
-> Ensure that WiFi security is enabled on the network you are using, as anyone who can connect to the wifi and has the app will be able to control the console. You don't want someone in the audience taking over the show.
+>	Stellen Sie sicher, dass Ihr WLAN ordnungsgemäß abgesichert ist, 
+	da jeder mit Zugriff zum WLAN Ihr Pult steuern kann - und Sie 
+	wollen sicher nicht, dass Ihr Pult von Unbekannten aus dem 
+	Publikum gesteuert wird.
 
-You may experience problems with the remote if you have an internet
-router on the network, as this may route show traffic to the
-internet rather than between the remote and the console. If the
-remote does not work properly, disconnect your router from the
-network.
+Befindet sich im gleichen Netzwerk ein Router mit Verbindung zum
+Internet, können sich möglicherweise Probleme ergeben, da manche
+Daten nicht zwischen Remote und Pult, sondern ins Internet geroutet
+werden. Entfernen Sie in diesem Fall testweise den Router aus dem
+Netzwerk.
 
-Using an Existing Network
--------------------------
+Verwenden eines vorhandenen Netzwerks
+-------------------------------------
 
-If you are connecting to an existing network, DHCP will probably be
-enabled which will automatically set suitable IP addresses on the
-console and mobile device. All you should need to do is to plug the
-console's Ethernet connection into the network.
+Verwenden Sie ein bereits vorhandenes Netzwerk, so ist in diesem
+möglicherweise bereits die automatische Adressvergabe aktiviert (DHCP);
+damit bekommen Pult und Mobilgerät automatisch passende Adressen, sobald
+sie mit dem Netzwerk verbunden sind.
 
-If the console is set to have a fixed IP address you will need to
-manually set a suitable IP address for the network - *consult the person
-who manages the network*, or read more about [Networking the Console](../networking.md).
+Ist im Pult bereits eine feste IP-Adresse eingestellt, so stellen Sie
+sicher, dass diese in das vorhandene Netzwerk passt; ggf. halten Sie
+dazu *Rücksprache mit dem Netzwerk-Administrator*. Weitere Informationen
+dazu siehe [Einrichtung des Netzwerkbetriebs](../networking.md).
 
-Network Setup using a Dedicated Access Point
---------------------------------------------
+Netzwerkeinrichtung mit einem Access Point
+------------------------------------------
 
-This is a basic setup assuming that the console is connected directly to
-an access point. For information on setting up your Wireless Access
-Point please refer to the documentation provided with it.
+Exemplarisch wird hier der Aufbau mit einem Access Point beschrieben;
+sollen Sie Fragen zu dessen Einrichtung haben, so konsultieren Sie die
+mit dem Access Point mitgelieferte Dokumentation.
 
-> We advise using a dedicated wireless access point rather than a
-wireless router (ADSL router). Although routers are cheaper, the
-WiFi connection through to the Ethernet can be flaky. Some routers
-can be switched to an *"access point"* mode to avoid this problem.
+>   Es empfiehlt sich, nicht einen DSL-Router mit WLAN zu verwenden,
+    sondern einen richtigen WLAN **Access Point**. Zwar sind die DSL-Router
+    günstiger, aber meist auch unsicherer als Access Points. Es gibt
+    auch Router, die man explizit als Access Point betreiben kann,
+    um dieses Problem zu eliminieren.
 
-You need to set up the network settings on the Wireless Access Point,
-the mobile device and the console so that they can communicate with each
-other. In this example we use an Android smartphone but other devices
-are similar.
+Stellen Sie im Access Point, im Pult und auf dem Mobilgerät die
+Netzwerkeinstellungen so ein, dass die Geräte miteinander kommunizieren
+können. Hier wird das Vorgehen auf einem Android-Gerät beschrieben, auf
+anderen Geräten ist das Vorgehen aber ähnlich.
 
-1. In the access point's admin screen, give the access point an IP
-address such as `10.0.0.1`, make sure wireless is switched on and enable
-the DHCP server. Take note of the name of the wireless network (SSID).
+1.  Im Administrationsbereich des Access Points geben Sie diesem eine
+	Adresse wie z.B. `10.0.0.1`, aktivieren das WLAN sowie DHCP. Notieren Sie
+	sich den Namen des Netzwerks (SSID).
 
-2. Connect an Ethernet cable from the back of the console to the access
-point.
+2. 	Verbinden Sie Access Point und Pult mit einem Netzwerkkabel; die
+	Netzwerkanschlüsse sind hinten am Pult.
 
-3. Set the IP address of the console: Switch to System, select
-\[Network Settings\], press \[Local Area Connection\], then press \[Set
-IP 10.\*.\*.\*\].
+3. 	Stellen Sie auf dem Pult eine passende IP-Adresse ein: schalten Sie
+	es in den System-Modus, wählen dann \[Network Settings\], dann \[Local
+	Area Connection\], und klicken auf \[Set IP 10.\*.\*.\*\].
 
-4. On the mobile device, go to WiFi settings or Network Settings and
-ensure Wi-Fi is set to on.
+4.	Auf dem Mobilgerät überprüfen Sie, dass WLAN aktiviert ist.
 
-5. Select the wireless network from the list, the name you took note of
-earlier. The mobile device should automatically get an IP address from
-the access point.
+5.	Wählen Sie auf dem Mobilteil das WLAN des Access Points aus (SSID
+	siehe Punkt 1). Damit sollte das Mobilgerät automatisch eine geeignete
+	IP-Adresse zugewiesen bekommen.
 
-6. Run the Titan Remote app. You should see the console listed.
+6.	Starten Sie die Titan Remote App. Auf dem Startbildschirm sollte
+	jetzt das Pult aufgeführt werden.
 
-> If you are using the remote at showtime, on the Access Point you should select the option to hide the SSID. If you do not do this, every smartphone in the audience will find your wifi and try to connect to your Access Point which will make the remote operation very sluggish.
+>	Wird die Remote auch während der Show verwendet, so empfiehlt es sich 
+	unbedingt, in den Optionen des Access Points die SSID zu verbergen. 
+	Anderenfalls würde jedes Smartphone im Publikum das vorhandene WLAN 
+	finden und sich zu verbinden versuchen, womit die Remote kaum noch 
+	bedienbar ist.
