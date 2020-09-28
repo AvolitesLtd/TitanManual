@@ -5,19 +5,21 @@ sidebar_label: Titan Net Processor Operation
 original_id: titan-net
 ---
 
-A TNP (TitanNet Processor) unit can operate either as a slave unit,
-producing additional DMX lines for a console, or as a simple console for
-stand-alone operation. In console mode you can prepare a show on a full
-console, then load it into a TNP for operation, using [power-on playbacks](cues/using-a-cue.md#programming-the-release-power-on-state), or you can connect an external
-touchscreen to the TNP and operate it using the Titan Go interface
-screen.
+Ein TNP (Titan Net Processor) kann entweder als Slave weitere DMX-Linien
+für ein Titan-Pult bereitstellen, oder im Stand-Alone-Modus als kompakte
+Pult-Lösung dienen, etwa zum Steuern einer auf einem anderen Pult
+programmierten Show, z.B. mit Hilfe von [beim Show-Start aktiven
+Autoload-Playbacks](cues/using-a-cue.md#programming-the-release-power-on-state).
+Ebenso kann der TNP als eigenständiges Pult (mit der Bedienoberfläche von Titan Go)
+verwendet werden, wobei sich der Anschluss eines externen Touchscreens
+empfiehlt.
 
 ![Titan Net Processor](/docs/images/Titan-Net-Processor.jpeg)
 
-Select the operation mode from the toolbar
-at the top of the screen, using the Switch Software Versions option:
+Zum Umschalten der Betriebsart dient die Toolbar am oberen Rand des
+Bildschirms mit der Option \[Switch Software\].
 
-Mode | Meaning
+Modus | Bedeutung
 --- | ---
-TNP | Slave Mode
-Console | Console Mode
+TNP | Betrieb als Slave
+Console | Stand-Alone-Pultmodus
