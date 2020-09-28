@@ -24,12 +24,10 @@ To edit an attribute value, touch/click on it in the window. The
 softkeys will give you a list of available settings for this attribute
 or you can type in a numerical value.
 
-You cannot **Delete** a value from a palette. However, you can disable it
-so that it has no effect as like as it were deleted, with the benefit that you 
-can enable it again. To disable a value, select it and select \[Off\] from
-the softkeys, or press the \<Off\> key. If you select a value which shows
-'[Off]', the softkey will show \[On\], and would re-enable the value. The 
-\<Off\> key toggles between '[Off]' and the value.
+You cannot **Delete** a value from a palette, but you can disable it by selecting the value and
+pressing the \[Off\] softkey or \<Off\> button. If you select a value which shows
+'[Off]', the softkey will show \[On\], and would re-enable the previous value, or the 
+\<Off\> button will toggle between **Off** and the previous value.
 
 -   When the palette contains other palettes, the context menu option
     \[View/Hide Nested Palettes\] sets whether or not the view shows the
