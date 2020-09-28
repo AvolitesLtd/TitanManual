@@ -4,7 +4,7 @@ title: The System Menu
 sidebar_label: The System Menu
 ---
 
-The System menu is accessed by holding \<Avo\> and pressing Disk. Some
+The System menu is accessed by holding \<Avo\> and pressing \<Disk\>. Some
 consoles are also fitted with a key switch or mode switch to select
 System mode.
 
@@ -62,9 +62,6 @@ Wipe
 The Wipe menu erases the current show. This is the same as the \[New
 Show\] option on the Disk menu, but is provided here for old fashioned
 Avolites users who are used to it being on the System menu.
-
-The \[Wipe Visualiser Patch\] option will erase all fixtures from the
-visualiser without affecting the current show.
 
 Triggers
 --------
