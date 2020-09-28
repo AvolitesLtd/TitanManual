@@ -297,7 +297,7 @@ Viewing active playbacks
 
 The Active Playbacks window shows details of which playbacks are active.
 This provides an easy way to see what is currently running. To open this
-window press \[Open Workspace Window\], \[Active Playbacks\], or use the
+window double press \<View/Open\> then select \[Active Playbacks\], or use the
 shortcut \<View/Open\> + \<Off\>.
 
 The top line of the button shows the page number and tells you where on
