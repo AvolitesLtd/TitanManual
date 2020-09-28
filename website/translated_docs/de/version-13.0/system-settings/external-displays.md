@@ -5,28 +5,30 @@ sidebar_label: External Displays
 original_id: external-displays
 ---
 
-For extra workspace you can connect another display to the DVI port(s)
-on the console *(VGA on Pearl Expert and Tiger Touch mk1)*. The Sapphire
-Touch can have two external displays, all other consoles can have one.
-You can use touch screens, we advise using Windows Touch compatible
-monitors to avoid driver issues.
+Für mehr Platz auf dem Bildschirm (für mehr Fenster und Buttons) lässt
+sich ein externer Bildschirm anschließen: beim Tiger Touch und Pearl
+Expert per VGA, bei Quartz und Arena per DVI, und das Sapphire Touch
+unterstützt den Anschluss von zwei DVI-Displays. Es lassen sich jeweils
+Touchscreens verwenden, wobei empfohlen wird, 'Windows Touch'-kompatible
+Modelle zu verwenden.
 
-Obviously for Titan Mobile and Titan Go you can connect whichever
-external displays your computer will support.
+Auch Titan Go und das Titan Mobile unterstützen zwei Bildschirme, wobei
+die konkrete Anschlussmöglichkeit vom verwendeten Computer abhängt.
 
-An external display is disabled by default and will show a \'disabled\'
-message. To enable, switch to System mode and select \[Display Setup\]
-then press \[External Display Disconnected\]. The option will change to
-\[External Display Connected\] and the display will be enabled.
+Das externe Display ist zunächst deaktiviert und zeigt dies mit
+'disabled' an. Zum Aktivieren schalten Sie in den System-Modus
+(\<Avo\>+\<Disk\>), wählen das Menü \[Display Setup\] und klicken auf
+\[External Display Disconnected\]. Dies wechselt auf \[External Display
+Connected\], und das externe Display ist aktiviert.
 
-> For best performance of the console, disable display outputs you aren't
-using.
+>	Ist kein externes Display vorhanden, empfiehlt es sich aus
+	Performance-Gründen, den Anschluss zu deaktivieren.
 
-Titan should configure its output to match your monitor. However if this
-does not work for some reason you can manually set resolution from the
-toolbar. Click \'Tools\' at the very top of the touch screen and select
-\'Control Panel\', then \'External Monitor\', then select the option to
-match the resolution of your monitor.
+Es empfiehlt sich, alle Displays in ihrer hardwaremässigen Auflösung zu
+betreiben. Normalerweise wird das von Titan korrekt erkannt. Sollte dies
+nicht der Fall sein, so klicken Sie auf \[Tools\] in der Werkzeugleiste
+am oberen Bildschirmrand, wählen \[Control Panel\] und dann \[External
+Monitor\]. Damit kann die passende Auflösung eingestellt werden.
 
 ![External Monitor Resolution](/docs/images/External-Monitor-Resolution.png)
 
