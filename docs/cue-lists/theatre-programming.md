@@ -7,7 +7,7 @@ sidebar_label: Theatre Programming
 If you are used to programming other theatre-style consoles, you will be
 more familiar with using a keypad/syntax style interface, rather than the Titan
 touchscreen. But fear not because you can program a theatre show on
-Titan using the keypad and this is how you do it.
+Titan using keypad syntax and this is how you do it.
 
 - Labelled buttons on the console are shown like this: \<Enter\>. 
 - The \<@\> button is the one next to the numeric keypad. 
@@ -17,7 +17,7 @@ Titan using the keypad and this is how you do it.
 
 Dimmers/Fixtures have a User Number *(which is equivalent to the Channel
 Number on other consoles)*, shown in the top left corner of the fixture
-button. This is the number **"n"** shown in the keypad commands below. You can
+button. This is the number **n** shown in the keypad commands below. You can
 change this number using the \[Set Legend\] softkey, see section [Changing the Patch](../patching/changing-the-patch.md#setting-legends).
 Groups also have a User Number.
 
@@ -25,23 +25,23 @@ Groups also have a User Number.
 
 ## Setting Dimmer/Fixture Levels
 
- Keypresses | Operation
+ Keypresses | Action
 ------------|-------------------
- n \<@\> \<@\> | Set fixture **n** to 100%
- n \<@\> v \<Enter\> | Set fixture **n** to **v%** *(you need to enter 2 digits so "50" for 50%)*
- n \<Thru\> m \<@\> v \<Enter\> | Set fixtures **n - m** to **v%**
- n \<And\> m \<And\> p \<@\> v \<Enter\> | Set fixtures **n**, **m**, **p** to **v%**
- \<Group\> n \<@\> v \<Enter\> | Set fixtures in group **n** to **v%**
+ **n** \<@\> \<@\> | Set fixture **n** to 100%
+ **n** \<@\> **v** \<Enter\> | Set fixture **n** to **v%** *(you need to enter 2 digits so "50" for 50%)*
+ **n** \<Thru\> **m** \<@\> **v** \<Enter\> | Set fixtures **n - m** to **v%**
+ **n** \<And\> **m** \<And\> **p** \<@\> **v** \<Enter\> | Set fixtures **n**, **m**, **p** to **v%**
+ \<Group\> **n** \<@\> **v** \<Enter\> | Set fixtures in group **n** to **v%**
  \<Clear\> | Snap release edited channels back to programmed state - *like Cheat on ETC*
- t \<Clear\> | Release edited channels fading over time **t**
+ **t** \<Clear\> | Release edited channels fading over time **t**
 
 ## Setting Other Attributes of Intelligent Fixtures
 
- Keypresses | Operation
+ Keypresses | Action
 ------------|-------------------
-n \<Enter\> | Select fixture **n** for control
-n \<Thru\> m \<Enter\> | Select fixtures **n** to **m** for control
-\<Group\> n \<Enter\> | Select all fixtures in group **n** for control
+ **n** \<Enter\> | Select fixture **n** for control
+ **n** \<Thru\> m \<Enter\> | Select fixtures **n** to **m** for control
+ \<Group\> **n** \<Enter\> | Select all fixtures in group **n** for control
 
 Once you have selected the fixtures:
 -   Press one of the **Attribute Bank buttons** \<Colour\> \<Gobo\> etc. The
@@ -65,20 +65,25 @@ previous cue *(so if you put up another playback, that won't get
 recorded)*. To record everything with intensity above zero, switch
 \[Record Mode\] to "Record by Stage" (see [Creating a Cue](../cues/creating-a-cue.md#creating-a-cue)).
 
- Keypresses | Operation
+ Keypresses | Action
 ------------|-------------------
 \<Record\> {fader select} {fader select} | Record the next cue onto the end of the cue list on this fader
-<Record> \<Cue\> n \<Enter\> | Record cue **n** *(will prompt for merge/overwrite if it exists already)*
-\<Time\> t \<Enter\> | Set fade time into programmer *(does not affect stored cues; will save with the cue when you record it)*
-\<Cue\> n \<Time\> t \<Enter\> | Set fade time of cue **n** to **t** seconds
-\<Delete\> \<Cue\> n \<Enter\> \<Enter\> | Delete cue **n** *(2^nd^ \<Enter\> confirms)*
-\<Copy\> \<Cue\> n \<@\> \<Cue\> m \<Enter\> | Copy cue **n** to new cue **m**
-\<Copy\> \<Cue\> n \<@\> \<Enter\> | Copy cue **n** onto the end of the cue list
+<Record> \<Cue\> **n** \<Enter\> | Record cue **n** *(will prompt for merge/overwrite if it exists already)*
+\<Time\> **t** \<Enter\> | Set fade time into programmer *(does not affect stored cues; will save with the cue when you record it)*
+\<Cue\> **n** \<Time\> **t** \<Enter\> | Set fade time of cue **n** to **t** seconds
+\<Delete\> \<Cue\> **n** \<Enter\> \<Enter\> | Delete cue **n** *(2^nd^ \<Enter\> confirms)*
+\<Copy\> \<Cue\> **n** \<@\> \<Cue\> **m** \<Enter\> | Copy cue **n** to new cue **m**
+\<Copy\> \<Cue\> **n** \<@\> \<Enter\> | Copy cue **n** onto the end of the cue list
 \<View/Open\> {fader select} | Show the list of cues on screen, click on individual times to edit them
 
-- You can also use \<Move\> to move cues, and \<Thru\>, \<And\> to change multiple cues
+- For the **copy** commands, you can use \<Move\> in place of \<Copy\>to **move** cues. For consoles
+  which don't have a \<Move\> button you can press (\<Avo\> and \<Copy\>) together to get Move.
+    
+- You can select multiple cues using \<Thru\>, \<And\> and \[Not\]. For example to copy cues 3, 4 ,5 ,7, 10 
+  into a new block of cues starting at cue 20 you could do \
+  \<Copy\> {fader select} **3** \<Thru\> **7** \[Not\] **6** \<And\> **10** \<@\> **20** \<Enter\>
 
-- To make a **Block** cue (changes do not track), view the cue list as above,
+- To make a **Block** cue (changes from previous cues do not track), view the cue list as above,
 	in the Tracking column click the cell for the cue you want to change and
 	select \[Block\] from the softkeys.
 
@@ -94,13 +99,13 @@ recorded)*. To record everything with intensity above zero, switch
 Push up the fader of the cue list to make it active. Titan calls this the *connected* cue list and the control buttons
 such as Go will operate on this cue list.
 
- Keypresses | Operation
+ Keypresses | Action
 ------------|-------------------
 \<Cue\> {fader select} |If another cue list is active, connect this cue list as the current list
 \<Go\> | Run next cue with programmed times
-\<Cue\> n \<Go\> | Go cue **n** with programmed times
-t \<Go\> | Next cue go with fade time **t**
-n \<Cue\> t \<Go\> | Jump to cue **n** with fade time **t**
+\<Cue\> **n** \<Go\> | Go cue **n** with programmed times
+**t** \<Go\> | Next cue go with fade time **t**
+**n** \<Cue\> **t** \<Go\> | Jump to cue **n** with fade time **t**
 
 - If you want moving fixtures to automatically position themselves ready
 	for the next cue, enable the \[Move In Dark\] option, see [Move In Dark](../docs/next/cue-lists/cue-list-options#move-in-dark).
@@ -112,10 +117,10 @@ Often you need to make changes to cues while the cue is active in a
 running show. Press \<Clear\> before you make changes to be sure that
 the programmer does not contain any previous changes.
 
- Keypresses | Operation
+ Keypresses | Action
 ------------|-------------------
 \<Record\> \<Cue\> \<Cue\> | Update current cue by merging programmer
-\<Time\> t \<Enter\> \<Record\> \<Cue\> \<Cue\> | Set fade in time of current cue (It is probably easier to use \<View\> and click on the time on  screen to edit it)
+\<Time\> **t** \<Enter\> \<Record\> \<Cue\> \<Cue\> | Set fade in time of current cue (It is probably easier to use \<View\> and click on the time on  screen to edit it)
 
 ## Effects/Shapes
 
