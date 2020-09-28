@@ -26,7 +26,7 @@ or you can type in a numerical value.
 
 You cannot **Delete** a value from a palette. However, you can disable it
 so that it has no effect as like as it were deleted, with the benefit that you 
-can enable it again. Do disable a value select it and select \[Off\] from
+can enable it again. To disable a value, select it and select \[Off\] from
 the softkeys, or press the \<Off\> key. If you select a value which shows
 '[Off]', the softkey will show \[On\], and would re-enable the value. The 
 \<Off\> key toggles between '[Off]' and the value.
