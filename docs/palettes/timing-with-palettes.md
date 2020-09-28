@@ -99,4 +99,4 @@ fade button, and so on.\
 A number of macros for various fade times (\[Palette Fade x s\]) and overlaps
 (\[Palette Overlap y%\]) are available in the macro library. To open this press \<Macro\>, 
 then the softkey \[View All\]. Macros from the library can be copied onto buttons
-using \<Copy\> as usual
+using \<Copy\> as usual.
