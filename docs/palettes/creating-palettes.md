@@ -203,7 +203,7 @@ with a + sign. At this point you can enter a legend for the new palette
 or change mask settings. A second press on the button will save the
 palette.
 
-![Recoding a Workspace Layout](/docs/images/Recoding-a-Workspace-Layout.png)
+![Palette quick record](/docs/images/palette-quick-record.png)
 
 When using Quick Record, the palette mask is automatically set to
 match the window - the **Position** window only stores **P**, the **Colours**
