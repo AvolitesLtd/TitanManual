@@ -260,7 +260,7 @@ variable attribute, or named ranges for something like a colour or gobo wheel.
 You can also set attributes using the [Attribute Editor workspace
 window](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-editor-window).
 
--   On the Pearl Expert the wheels on the Touch Wing are used instead of the
+>   On the Pearl Expert the wheels on the Touch Wing are used instead of the
     wheels on the console, unless you change this using the User Settings.
 
 Each attribute button controls several attributes, one on each wheel. On
