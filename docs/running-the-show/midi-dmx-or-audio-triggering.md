@@ -164,7 +164,7 @@ recognise the MIDI commands and display the trigger in the prompt area.
 7. Click \[Add\]. The trigger for playback 1 is added to the list on
 the right.
 
-8. Repeat from step 3. to add the other 9 playback faders.
+8. Repeat from **step 3** to add the other 9 playback faders.
 
 MIDI Show Control
 -----------------
