@@ -53,9 +53,9 @@ Storing a Palette
 
 [](https://youtu.be/Hs-xzpD5x8k?t=20 "Recording Palettes")
 
-This is how you save a palette value to one of the palette windows:. If
-the palette windows are not shown then press the **Groups and Palettes**
-workspace button.
+This is how you save a palette value to one of the palette windows: *If
+the palette windows are not shown then press the \[Groups and Palettes\]
+workspace button.*
 
 1. Press \<Clear\> to clear the programmer
 
@@ -125,13 +125,16 @@ a palette number and press \[Store\]
 -   The console will automatically create a legend for your palette
     (unless the
     [User Setting \[Auto Legend\]](../system-settings/user-settings.md#auto-legend)
-    is set to Off). For colour
-    palettes a coloured icon is used to show the selected colour. If the
+    is set to Off).
+    -   **Colours:** a coloured icon is used to show the selected colour. If the
     palette contains fixtures set to different colours, a coloured bar
-    will be shown for each. For CITP (media server) palettes, the media
-    thumbnail will be used. For other attributes the last adjusted
-    function value will be used for the legend, except for pan and tilt
-    which will use a default legend.\
+    will be shown for each. 
+    -   **Gobos:** show the gobo image (if available in the personality - you might need to 
+    [update](../patching/changing-the-patch#updating-patched-personalities) ). 
+    -   **CITP (media server)**: show the media thumbnail. 
+    -   **Pan and tilt**: show a default legend
+    -   For **other** attributes the last adjusted function value will be used for the legend.
+
     ![Automatic Legends set for Colour Palettes](/docs/images/Automatic-Legends-set-for-Colour-Palettes.png)
 
 -   You can also manually set a legend for the palette while you are
