@@ -58,7 +58,7 @@ This is a very quick way to busk complex effects.\
 **0%** means that each fixture must complete its fade before the
 next will start its fade.
 
-- You need to also have a fade time set or Overlap does not do anything.
+- You need to also have a fade time set, otherwise Overlap has no effect.
 
 1. Type in the overlap percentage for the palette on the numeric keypad
 
