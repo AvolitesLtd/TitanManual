@@ -277,7 +277,7 @@ You can also touch the roller image on the screen to change the
 attributes up or down by one step. For continuously variable controls like a
 dimmer, touching the roller will set the attribute to full or zero.
 
-3. Repeat from 1 to change other attributes of the selected fixtures.
+3. Repeat from **step 1** to change other attributes of the selected fixtures.
 
 ---
 
