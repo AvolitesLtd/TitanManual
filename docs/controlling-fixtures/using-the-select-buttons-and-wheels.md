@@ -467,7 +467,9 @@ different appearances depending on the control channels in the fixture.
 
 ![Attribute Editor - Blades](/docs/images/Attribute-Editor-Blades.png)
 
-> Updated personality files may be required to support the keystone/blade functions. If the functions are not shown in the Attribute View, try downloading and installing the latest personality file, then run the Update Patched Fixtures command.
+>   Updated personality files may be required to support the keystone/blade functions. 
+    If the functions are not shown in the Attribute View, try downloading and installing 
+    the latest personality library, then [update the personalities](../patching/changing-the-patch#updating-patched-personalities) in the Patch menu.
 
 ## Setting Attributes from the Softkeys
 
