@@ -89,4 +89,5 @@ palette recall.
 \<Palette\>, \[Master Time\], \<3\> (for 3 sec), \<Exit\>, \<Macro\>.
 Repeat these steps to create a Palette Snap button (0 sec), or a 1 sec
 fade button, and so on. \
+
 The **Show Library** provides some pre-programmed fade times for you.
