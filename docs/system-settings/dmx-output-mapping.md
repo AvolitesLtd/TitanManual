@@ -34,7 +34,7 @@ data to one or more nodes. If you assign more than one node to a line,
 those nodes receive duplicated data. If you have Art-Net/sACN nodes or
 TNP units connected they will show on the left hand side.
 
-On the right hand side, under each DMX Line there is a list of which
+On the right hand side, under each DMX line there is a list of which
 nodes are linked to that line. The default setting on a new show is for
 the physical DMX outputs on the console to be linked to the first DMX
 lines.
@@ -51,8 +51,8 @@ the line it is assigned to.
 
 To delete a node from the DMX lines, click on the **X** button. To delete
 all nodes from a line, click on the **Group delete button** (the **X** button 
-in the very Dmx Line). To delete all nodes from all lines, click on the **X** 
-button close to the header Dmx Lines.
+in the very Dmx line). To delete all nodes from all lines, click on the **X** 
+button close to the header Dmx lines.
 
 In order to change the assignment, i.e. to assign a node to a different line,
 you need to delete it from the line it is assigned to (by clicking on the **X**)
