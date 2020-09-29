@@ -90,4 +90,4 @@ palette recall.
 Repeat these steps to create a Palette Snap button (0 sec), or a 1 sec
 fade button, and so on. \
 
-The **Show Library** provides some pre-programmed fade times for you.
+The **[Show Library](../titan-basics/show-library.md)** provides some pre-programmed fade times for you.
