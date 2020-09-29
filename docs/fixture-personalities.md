@@ -69,10 +69,9 @@ library, the actual personality library is identical in each version.
 This will list all installers - software and personalities - found in the root of 
 the stick (provided you haven't changed their name).
 
-3. Click the **TitanFixtureLibrary.exe**, and follow the instructions.
-
-  > If for whatever reason Titan doesn't show the file in the *Titan Installers* submenu
-    you can find and double-click it through Tools -> Folders.
+3. Click the **TitanFixtureLibrary.exe**, and follow the instructions.\
+   If for whatever reason Titan doesn't show the file in the *Titan Installers* submenu
+   you can find and double-click it through Tools -> Folders.
 
 4. Shut down and then restart the console *(using the Restart Software
 button on the screen Tools menu is OK)*.
