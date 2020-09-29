@@ -189,6 +189,10 @@ give the full range of colours. In this case you would set one of the
 shapes to have a Phase Offset of 180 degrees.* Without the phase offset,
 both shapes would reach full at the same time.
 
+>   After adjusting offset or phase, it is useful to **Restart** the shape so
+    you can see how it will look when fired from a cue. Press \[Restart Shapes\]
+    on the shape Edit menu.
+
 Shape Direction
 ---------------
 
