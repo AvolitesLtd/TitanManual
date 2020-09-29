@@ -252,9 +252,11 @@ You can use shapes in a cue list, see
 [Shape Tracking in Cue Lists](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists)
 on how the shapes will behave as you go from cue to cue.
 
-You can also adjust parameters of the shape at playback time using the
-\[Select Shape\] menu, which is on the \[Edit\] menu of the Shape Generator
-menu.
+There are two ways to adjust parameters of a running shape at playback time: 
+-   using the \[Select Shape\] option, which is on the \[Edit\] menu of the Shape Generator
+    menu, then select the shape to be adjusted from the list of running shapes.
+-   Pressing \<Cue\> (\<Connect\> on some consoles), then \<Shapes\> also gets you to the list
+    of running shapes which can be adjusted.
 
 Masking shapes using Mask FX
 --------------------
