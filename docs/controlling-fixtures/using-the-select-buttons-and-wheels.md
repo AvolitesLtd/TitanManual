@@ -292,9 +292,10 @@ Some other things to know about attributes:
     press \<Colour\> you would first get Red, Green, Blue on the three
     wheels, then if you press \<Colour\> again you will get Amber and White.)
 
--   If an attribute is in the programmer, it is highlighted in pale blue (as shown
-    with the "Green" setting in the screen picture above). This provides
-    a quick way to see which attributes are in the programmer.
+-   If an attribute is in the programmer, the value in the programmer is highlighted 
+    in pale blue on the wheel display and the IPCGBESFX button also has a pale
+    blue highlight. This provides a quick way to see which attributes are 
+    in the programmer.
 
 -   If the display above the wheels does not show the attribute when you
     press the button, that attribute is not available on the selected
@@ -311,6 +312,9 @@ Some other things to know about attributes:
     example, if while moving the Pan wheel you hold down \<Avo\> the
     fixture will make a complete pan movement between end stops in one
     rotation of the wheel.
+    
+-   You can also select the attribute to be changed from the softkeys by
+    pressing the \<Attribute Options\> button.
 
 -   Some LED colour mixing fixtures have a Virtual Dimmer function
     (using the Intensity wheel) which offers intensity control by
