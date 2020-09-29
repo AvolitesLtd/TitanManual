@@ -5,160 +5,176 @@ sidebar_label: Fixture Personalities
 original_id: fixture-personalities
 ---
 
-For each type of fixture, the console has a *"personality"* file which
-tells it how to control the fixture, which channel is the dimmer (HTP)
-channel, and a large amount of other fixture-specific information. When
-you patch each fixture, you tell the console which personality to use
-for it.
+Für jeden einzelnen Gerätetyp gibt es eine *'Personality'* genannte
+Gerätedatei, welche bestimmt, wie das Gerät gesteuert wird, auf welchem
+Kanal etwa der Dimmer (HTP) liegt, und die eine Menge weiterer
+Informationen enthält. Beim Patchen wird dem Pult mitgeteilt, welche
+Personality es verwenden soll.
 
-The console holds a personality library containing all commonly used
-fixtures, but new fixtures are appearing all the time and Avolites are
-constantly updating the library.
+Das Pult enthält bereits eine sehr große Auswahl solcher Gerätedateien
+im internen Speicher,aber ebenso wie ständig neue Geräte auf dem Markt
+erscheinen, aktualisiert Avolites ständig die Gerätebibliothek.
 
-We recommend that you should update the library from time to time to
-take advantage of new fixtures, as well as receiving bug fixes for
-personalities and new features which may be added such as subfixtures.
+Es empfiehlt sich also, gelegentlich das Pult zu aktualisieren, um neue
+Geräte 'im Pult' zu haben, um evtl. auch von Fehlerbehebungen zu
+profitieren, sowie um schließlich auch neu hinzugekommene Möglichkeiten
+wie z.B. die Teilgeräte (Zellen, Subfixtures) nutzen zu können.
 
-Downloading fixture personalities from Avolites
------------------------------------------------
+Herunterladen der Personalities bei Avolites
+--------------------------------------------
 
-The [Avolites website](https://personalities.avolites.com/) lists all fixtures for which personalities have
-been created. You should look here first if the console does not contain
-a personality for your fixture. The address is
-http://personalities.avolites.com
+Auf der [Website von Avolites](http://personalities.avolites.com) sind 
+sämtliche Geräte aufgeführt, für die es eine Avolites-Personality gibt. 
+Hier sollte man als erstes nachsehen, wenn man ein bestimmtes Gerät sucht. 
+Die Adresse ist http://personalities.avolites.com
 
 [![Avolites Personalities Website](/docs/images/Avolites-Personalities-Website.png)](https://personalities.avolites.com/)
 
-All available fixture personalities are listed down the left side of the
-screen. You can use the boxes on the top left to filter the list to show
-fixtures from specific manufacturers, or fixtures available for a
-certain console, or to search for a specific fixture name.
+In der Liste links sind sämtliche verfügbaren Personalities aufgeführt.
+Mit den Eingabefeldern direkt darüber lässt sich die Liste filtern, etwa
+anhand des Herstellers, des Gerätenamens, oder danach, für welches Pult
+man eine solche Datei sucht.
 
-Click on the fixture name to open the details in the right hand window.
-This shows all the personalities available for that fixture type (if you
-have entered the console type on the top left, only personalities for
-that console will be displayed).
+Klicken Sie nun auf den Gerätenamen in der Liste, um im Fenster rechts
+die Details zu überprüfen. Hier werden nun sämtliche für dieses Gerät
+verfügbaren Personalities aufgeführt (wird der obige Hinweis beachtet,
+so tauchen hier nur Dateien für Ihr Pult auf).
 
-If the personality is included in the standard library (cache) then the
-column will be ticked.
+Ist die gesuchte Personality in der Standard-Bibliothek enthalten, so
+ist die entsprechende Spalte markiert.
 
-If there is a personality listed for your fixture, the simplest thing to
-do is to update the complete personality library as described in the
-next section.
+Ist eine geeignete Personality aufgeführt, so laden Sie die komplette
+Gerätebibliothek herunter und speichern Sie sie auf einem USB-Stick.
 
-Updating the Personality Library on the Console
------------------------------------------------
+Aktualisieren des Personality-Speichers des Pultes
+--------------------------------------------------
 
-Download the current Titan personality library by clicking on **Titan
-Fixture Library** at the [personality website](https://personalities.avolites.com) home screen, or the disk
-icon in the Cache column for any fixture. Alternatively you can get this
-file by clicking on the **Download** link at the top of the screen, then
-clicking on **Titan Fixture Library**.
+Laden Sie wie oben beschrieben die aktuelle Personality-Library herunter
+(durch Klick auf **Titan Fixture Library** auf der Startseite der
+[Personalities-Seite](https://personalities.avolites.com), 
+oder über den **Download**-Link oben auf der Seite, und
+wählen danach **Titan Fixture Library**).
 
-> Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
-  ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>	Beim Updaten gehen sämtliche von Ihnen in der Library vorgenommenen Änderungen 
+	verloren. Um dies zu vermeiden, speichern Sie Ihre persönlichen Personalities im 
+	Ordner für Benutzer-Personalities, siehe nächster Abschnitt.
 
-### Console Update Procedure
+------
 
-1. Copy the downloaded file **TitanFixtureLibrary.exe** onto a USB pen
-drive and plug in to the console.
+### Updaten der Personalities eines Pultes
 
-2. Click the **Tools** menu on the toolbar, then the **folder** icon on the
-menu.
+1.	Kopieren Sie die heruntergeladene Datei **TitanFixtureLibrary.exe** 
+	auf einen USB-Stick, und verbinden Sie diesen mit dem Pult
 
-3. Locate the downloaded file on the USB drive and double click on it
-to run it. Click **Ok** on the warning box.
+2.	Klicken Sie auf **Tools** oben links auf dem Bildschirm, dann auf
+	**Control Panel** und schließlich auf **Titan Installers**.
 
-4. Shut down and then restart the console *(using the Restart Software
-button on the screen Tools menu is OK)*.
+3.	Nun werden die auf dem USB-Stick gefundenen Installer angezeigt 
+	*(im Hauptverzeichnis des USB-Sticks, Dateinamen nicht verändert)*,
+	darunter auch die TitanFixtureLibrary. Klicken Sie diese an, und
+	bestätigen Sie den Dialog mit \<OK\>.
+	
+	>	Sollte die Datei nicht in diesem Menü zu finden sein, so öffnen
+		Sie mit **Tools** > **Folders** den Explorer, navigieren zum 
+		richtigen Laufwerk und Verzeichnis und starten die Datei per
+		Doppelklick.
 
-### Titan Mobile, Titan Go or Titan Simulator Procedure
+4.	Starten Sie das Pult neu (Aus- und Einschalten, oder mit dem Befehl
+	**Restart Software** aus dem Tools-Menü).
 
-1. Locate the downloaded file **TitanFixtureLibrary.exe** and double click
-on it to run it. Windows may show a warning about an unrecognised file
+### Updaten der Personalities der Titan PC Suite
 
-2. Click **Ok** on the Windows User Account Control warning box.
+1.	Starten Sie die heruntergeladene Datei **TitanFixtureLibrary.exe** per
+	Doppelklick und bestätigen Sie den Dialog mit \[OK\]. Möglicherweise 
+	wird eine Windows-Warnung ausgegeben.
 
-3. When the installation has completed, shut down and then restart the
-Titan software.
+2.	Bestätigen Sie die Warnung der Window-Benutzerkontensteuerung mit
+	\[OK\].
 
-> The console caches the FixtureLibrary folder into memory when the
-> Patch option is first used, so you need to restart the console
-> software (from the Tools menu) to ensure new fixture personalities
-> are loaded.
+3.	Sobald die Installation der Library erfolgt ist, schließen und
+	starten Sie die Titan-Software erneut.
 
-> Once a fixture is patched, its personality is embedded in the show
-> file. Any changes to the fixture library will not affect fixtures
-> patched in the show. You can use the \[Update Personality\] option
-> in the patch menu to update patched fixtures if you need to.
+>	Das Pult speichert den Inhalt des Personality-Verzeichnisses
+    (FixtureLibrary) zwischen, sobald das Patch-Menü aufgerufen wird.
+    Daher muss die Software neu gestartet werden, sobald neue
+    Personalities eingespielt wurden (Tools -> Restart Software. Ein
+    kompletter Neustart des gesamten Pultes ist nicht erforderlich).
 
-User/Custom Personalities
--------------------------
+>	Sobald ein Gerät gepatcht wurde, wird die zugehörige Personality in
+    die Show-Datei integriert. Deshalb werden bereits gepatchte Geräte
+    durch Änderungen in der Library nicht beeinflusst. Wählen Sie ggf.
+    \[Update Personality\] aus dem Menü \<Patch\> \[Edit Fixtures\], um
+    auch bereits gepatchte Geräte zu aktualisieren.
 
-Using the Personality Builder application installed with the console
-software, you can create your own personality if you wish to modify the
-behaviour of a standard personality or you have a fixture the console
-has never heard of and need to get it working quickly.
+Selbsterstellte Gerätedateien
+-----------------------------
 
-> The console loads the fixture library into memory when the Patch option is first used, so after creating a new personality you need to **restart the console software** from the **Tools** menu or it will not show up.
+Mit dem Programm 'Personality Builder', welches mit auf dem Pult
+installiert ist, lassen sich bestehende Personalities anpassen sowie
+neue erstellen.
 
-You can incorporate your custom personality into the standard fixture
-library on the console, however there is a danger that it will be
-overwritten when you next update the Fixture Library from Avolites.
+>	Das Pult lädt neue Personalities, sobald die Software neu gestartet 
+	wird. Haben Sie eine neue Personality eingefügt, so müssen Sie die 
+	Software neu starten, um die neue Personality verwenden zu können.
 
-To avoid this the console provides a special folder for user-provided
-personalities located at `D:\Personalities`
+Sie können Ihre selbsterstellten Personalities in die normale
+Personality-Bibliothek des Pultes integrieren. Allerdings werden in 
+diesem Fall beim nächsten Aktualisieren Ihre Personalities gelöscht
+und Änderungen rückgängig gemacht werden.
 
-If you are using Titan Mobile, Titan Go or the Titan Simulator, the
-folder is located at `\Documents\Titan\Personalities`
+Um dies zu vermeiden, bietet sich ein spezielles Verzeichnis an: 
+`D:\Personalities` bzw. bei der Titan PC-Suite ist dies `\Documents\Titan\Personalities`.
 
-When patching fixtures, this folder is searched first before the
-library. If a suitable Fixture Personality is found, the console will
-use it rather than using the library. This folder is not affected when
-the personality library is updated.
+Beim Patchen wird dieser Ordner zuerst durchsucht; ist eine passende
+Personality vorhanden, so wird diese anstelle der allgemeinen Bibliothek
+verwendet. Dieser Ordner wird beim Updaten nicht überschrieben.
 
-Requesting a New Fixture Personality
-------------------------------------
+Anfordern einer neuen Gerätedatei
+---------------------------------
 
-If a personality does not exist for your fixture, Avolites will create
-one for you. Click on the [request](https://personalities.avolites.com/?mainPage=Request%20Queue.asp&) link on the [personalities site](https://personalities.avolites.com/) to submit
-your request. A list of current requests is shown, so you can check if
-someone else is asking for the same personality.
+Sollte es für ein bestimmtes Gerät noch keine Personality geben, so
+fertigt Avolites diese gern an. Klicken Sie dazu in o.g. Internetseite
+auf den Link [Request](https://personalities.avolites.com/?mainPage=Request%20Queue.asp&) auf
+der [Personalities Website](https://personalities.avolites.com/), um 
+die Einzelheiten anzugeben. Dabei sehen Sie auch eine Liste der momentan 
+offenen Anforderungen; bitte vermeiden Sie Doppel-Anfragen.
 
-Your new personality will be incorporated into the library -- to install
-the new personality, download and install the latest personality library
-[as described above](#updating-the-personality-library-on-the-console).
+Neu realisierte Personalities werden von Avolites direkt in die online
+verfügbare Library integriert: um also eine solche Personality zu
+installieren, laden Sie die Gesamtdatei und installieren diese, [wie oben
+beschrieben](#updating-the-personality-library-on-the-console.
 
-Reporting a Personality Bug to Avolites
----------------------------------------
+Fehler der Personalities an Avolites berichten
+----------------------------------------------
 
-If you find a problem with a fixture personality, Avolites would like to
-know about it so it can be fixed. Search for the personality on the
-website then click on the **Report Bug** icon on the right of the screen.
-If you click on the [Bug Reports](https://personalities.avolites.com/Bug%20Queue.asp) tab at the top of the window, a list
-is shown of currently outstanding problems, so you can check if someone
-else has already reported the problem.
+Sollten Sie einen Fehler in der Gerätedatei eines Gerätes finden, so
+wäre Avolites für eine Rückmeldung dankbar. Suchen Sie das entsprechende
+Gerät auf der Website und klicken Sie auf die Schaltfläche **Report Bug**
+rechts im Fenster. Ein Klick auf [Bug Reports](https://personalities.avolites.com/Bug%20Queue.asp) oben öffnet eine Liste
+mit den momentan ausstehenden Problemen, um zu überprüfen, ob vielleicht
+jemand anderes das gleiche oder ein ähnliches Problem schon gemeldet
+hat.
 
-In an emergency
----------------
+Im Notfall
+----------
 
-The console contains a selection of "Generic" fixtures which you can use
-in an emergency if you need to operate a fixture with no personality.
-When patching, go through the manufacturer list until you find
-\[Generic\]. In this section (among other fixtures) are the following:
+Die Pult-Software enthält auch eine Liste an 'Generic Fixtures'
+(Standardgeräten), mit denen man im Notfall auch Geräte programmieren
+kann, für die es keine Personality gibt. Dazu suchen Sie beim Patchen
+den Hersteller 'Generic'. Dort finden sich u.a. folgende Geräte:
 
-Multi-DMX: Has up to 10 DMX channels, all channels are LTP. You can
-select from 1-10 channels on the Mode screen. Press Attribute Bank and
-use the softkeys to select channels.
+Multi-DMX: bis zu 10 DMX-Kanäle, alles LTP. Wählen Sie die Anzahl der
+DMX-Kanäle im Menü ‚Modes'. Nutzen Sie die Attributbank-Tasten sowie die
+Funktionstasten, um die einzelnen Kanäle auszuwählen.
 
-Generic RGB: Allows you to control an RGB fixture such as LED colour
-changers. This offers 5 modes:
+Generic RGB: Zum Steuern von RGB-Geräten, etwa LED-Leuchten. Dabei kann
+man zwischen fünf Modi wählen:
 - 1: **Dim**,  2: **R**,  3: **G**, 4: **B**
 - ***VDim***, 1: **R**, 2: **G**, 3: **B**
 - 1: **R**, 2: **G**, 3: **B**, 4: **Dim**
 - ***VDim*** + 4x **RGB**
 - 4x **RGB**
 
-> ***VDim*** is a virtual overall dimmer channel for fixtures without a DMX
-dimmer control. When you use the Dimmer attribute the console will
-adjust the RGB levels accordingly.
+>	***VDim*** ist ein vom Pult emulierter 'virtueller' Dimmer für Geräte, die
+	über keinen solchen Gesamtkanal verfügen. Bei Verwendung dieses Kanals
+	werden automatisch die RGB-Werte entsprechend beeinflusst.

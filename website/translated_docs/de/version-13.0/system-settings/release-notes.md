@@ -5,13 +5,12 @@ sidebar_label: Release Notes
 original_id: release-notes
 ---
 
-The Release Notes contain details about features added, improvements,
-bugs fixed and known issues in each release of the console software.
+Die Release Notes sind eine Übersicht über neu hinzugefügte Features,
+Verbesserungen, behobene Fehler sowie bekannte Probleme der jeweiligen
+Software-Version.
 
-Release notes for the version of software running on your console can be
-found by clicking the **Help**, then **Release Notes** option on the toolbar.
+Die Release Notes der auf dem Pult installierten Softwareversion findet
+man mit Klick auf \[Tools\] (oben links) \[Help\] \[Release Notes\].
 
-The most up-to-date version of the Release Notes can be found on the
-[Avolites website](//avolites.com/software).
-
-
+Die aktuellsten Release Notes findet man außerdem im Downloadbereich der
+[Avolites-Website](https://www.avolites.com/software).

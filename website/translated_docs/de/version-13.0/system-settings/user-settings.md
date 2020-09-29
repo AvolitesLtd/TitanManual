@@ -129,7 +129,7 @@ Ist ein Playback von einer anderen Seite aktiv, so wird dies violett
 dargestellt; die Seitenzahl wird in hellblau angezeigt.
 
 ### Current Handle World
-ahl der Handle World. Siehe Abschnitt [Handle Worlds](../titan-basics/multi-user-operation.md#handle-worlds).
+Wahl der Handle World. Siehe Abschnitt [Handle Worlds](../titan-basics/multi-user-operation.md#handle-worlds).
 
 ---
 

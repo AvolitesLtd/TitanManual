@@ -5,71 +5,94 @@ sidebar_label: Recovering & Reinstalling the Console
 original_id: recovering-reinstalling-the-console
 ---
 
-The console runs on an embedded PC system, and like all computers, there
-is a possibility of system failure. The console software can be reloaded
-using the recovery USB stick provided with the console, or you can
-download a recovery disk creator application from the [Downloads section of
-the Avolites website](https://www.avolites.com/software/latest-version) which will automatically create a recovery stick.
+**Dieser Abschnitt gilt nicht für die Titan PC Suite, sondern nur für
+alle größeren Titan-Pulte**.
 
-> It may take up to 60 minutes to reinstall the software on the console.
+Das Pult läuft auf einer 'Embedded PC'-Plattform, und wie bei allen
+Computern lassen sich auch hier Systemfehler nicht komplett
+ausschließen. Sollte es erforderlich sein, das System neu zu
+installieren, so gehen Sie wie folgt vor:
 
-There are three types of recovery available:
+Zur Neuinstallation ist ein USB-Wiederherstellungs-Stick erforderlich,
+ein USB-Stick, von dem das System gebootet und installiert werden kann.
+Ein solcher Stick ist normalerweise mit der zum Auslieferungszeitpunkt
+aktuellen Software im Pult vorhanden. Mit dem im [Downloadbereich 
+der Avolites-Website](https://www.avolites.com/software/latest-version)
+herunterzuladenden jeweiligen Recovery Creator kann ein normaler
+USB-Stick als Recovery Stick vorbereitet werden.
 
-Recovery | Version installed | Shows | Personalities | Licence
+>	Für eine Neuinstallation sollte genügend Zeit sein: planen Sie
+	mindestens eine Stunde dafür ein!
+
+Es gibt drei Arten der Wiederherstellung; dabei werden unterschiedlich
+viele Daten gelöscht:
+
+Recovery | Installierte Version | Shows | Personalities | Lizenz 
 ---|---|---|---|---
-Standard Recovery | Two most recent | Preserved |Preserved | Preserved
-Factory Restore | Recovery version + most recent | Deleted | Recovery version | Preserved
-Full Erase | Recovery version | Deleted | Recovery version| Deleted
+Standard Recovery | Die beiden neuesten | Bleiben erhalten | Bleiben erhalten | Bleibt erhalten
+Factory Restore | Die Recovery-Version und die neueste davor | Werden gelöscht | Die der Recovery-Version | Bleibt erhalten
+Full Erase | Nur die Recovery-Version | Werden gelöscht | Die der Recovery-Version| bis v11: gelöscht; <br>ab v12/Avokey: bleibt erhalten
 
-> Using **Factory Restore** or **Full Erase** will delete all settings and files from the console including show files and user personalities. Any files should be saved to a USB stick before continuing.
+>	Bei Verwendung von **Factory Restore** sowie **Full Erase** werden 
+	sämtliche Einstellungen und Shows gelöscht. Es empfiehlt sich also, 
+	die Shows vorher auf einem anderen Stick zu speichern.
 
-Detailed instructions on creating and using a recovery stick can be
-found with the recovery creator on the [Avolites website](https://www.avolites.com/software/); depending on
-the variety and age of your console there are a number of different
-methods required. The basic procedure is as follows:
+Genauere Hinweise zum Anfertigen und zur Verwendung eines
+Recovery-Sticks sind mit auf der [Download-Seite](https://www.avolites.com/software/)
+ des Recovery Creators enthalten. Je nach Pultversion und dessen Alter sind ggf.
+unterschiedliche Schritte erforderlich. Allgemein ist das Vorgehen aber
+wie folgt:
 
-Installation Instructions
--------------------------
+Installationshinweise
+---------------------
 
-1. **If recovering a version earlier than v11.1**, you will need to set the
-console to boot from USB *(see instructions on the [Avolites website](https://www.avolites.com/software/),
-which vary depending on your console)*
+1.	**Bei Pulten, die älter als Titan Version 11.1 sind**, muss das Pult
+    im BIOS so eingestellt werden, dass es vom USB-Stick bootet.
+    Genaueres dazu steht auf der [Avolites-Website.](https://www.avolites.com/software/).
 
-2. Start console and wait while the memory stick boots up, this can
-take up to 3 minutes.
+2.	Starten Sie nun das Pult mit angestecktem Recovery-Stick.
+    Warten Sie, bis der Bootvorgang abgeschlossen ist; das kann bis zu 3 
+    Minuten dauern.
 
-3. Once the memory stick has booted, the touch screen will display
-\'Welcome to (Console Name)\', touch **Next** to continue.
+3.	Nach Abschluss des Bootvorgangs wird im Bildschirm 'Welcome
+    to...' und der Name des Pultes angezeigt: klicken Sie auf \[Next\], 
+	um den Vorgang fortzusetzen.
 
-4. Please read to the bottom of the licence agreement then touch **Agree**
-to accept.
+4.	Lesen Sie den Lizenzvertrag ganz durch, und klicken Sie auf
+    \[Agree\], um diesen anzunehmen.
 
-5. Select the type of recovery you want to perform *(see table above)*
+5.	Wählen Sie die gewünschte Wiederherstellungsart *(siehe Tabelle
+    oben)*.
 
-6. On the next screen check the serial number of the console - this is
-the number written on the back of the console and should be already
-filled in for you.
+6.	Auf der nächsten Bildschirmseite geben Sie nun mit den Zifferntasten die
+    Seriennummer des Pultes ein; diese befindet sich auf der Rückseite
+    des Pultes (die Ziffernfolge nach dem 'TT-', 'PE-', 'AR-'‚
+    etc.). Normalerweise ist der Eintrag bereits korrekt vorbelegt.
 
-7. Touching **Install** will then begin the recovery
+7.	Dann klicken Sie auf \[Install\], um den Wiederherstellungsprozess
+    zu starten.
 
-8. Once complete unplug the memory stick and touch the **Restart** button.
+8.	Nach dem Abschluss der Installation entfernen Sie den USB-Stick
+    und starten das Pult neu (mit der Schaltfläche \[Restart\]).
 
-After starting the console will install all the software and drivers
-required to run. This takes approximately 30 minutes to complete during
-which the console will reboot a number of times. Please do not switch
-off the console during this process.
+Nach dem Neustart des Pultes werden alle erforderlichen Programme und
+Treiber installiert. Dies dauert ca. 30 Minuten. Währenddessen wird das
+Pult mehrfach neu gestartet. Schalten Sie das Pult während der
+Installation nicht aus!
 
-Software Licensing
-------------------
+Software-Lizenzierung
+---------------------
 
-From v12, the software is licensed using an AvoKey USB device.
+Ab Titan Version 12 erfolgt die Lizenzierung mit dem AvoKey genannten
+USB-Lizenzdongle.
 
-The Authenticator wizard will take you through the steps to license the
-software on your console or computer. Once the license is stored on the
-AvoKey, you should not need to repeat the licensing. For Titan Mobile or
-T1/T2 dongles, this allows you to use different computers without
-relicensing as long as the Avolites hardware is connected.
+Beim ersten Start öffnet sich der Authenticator, ein Hilfsprogramm, das
+Schritt für Schritt durch den Lizenzierungsprozess führt. Sobald die
+Lizenz auf dem AvoKey gespeichert ist, ist keine neue Lizenzierung mehr
+erforderlich. Für das Titan Mobile sowie den T1 und T2 bedeutet dies,
+dass diese an beliebigen Computern ohne neue Lizenzierung verwendet
+werden können, solange sich an der Avolites-Hardware nichts ändert.
 
-For more details see https://www.avolites.com/avokey
+Für weitere Details siehe https://www.avolites.com/avokey.
 
 [](https://youtu.be/86PcC0OzL7E "Licensing")

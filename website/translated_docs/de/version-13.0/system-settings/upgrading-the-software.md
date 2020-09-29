@@ -5,42 +5,53 @@ sidebar_label: Upgrading the Software
 original_id: upgrading-the-software
 ---
 
-The console operating software is under constant revision by the
-Avolites team. You can always download the latest version of the
-software from the Avolites website: http://www.avolites.com.
+Die Software der Avo-Pulte wird fortwährend weiterentwickelt. Die
+neueste Version ist jeweils über die Internetseite
+https://www.avolites.com zum Download erhältlich.
 
 
-> From v10 it is possible to keep the older versions of Titan installed on a console when you install a new version, which is useful for backwards compatibility if you need to load a show created in an older version. To swap between versions go to Switch Software on the Tools menu.
-
----
-
--   The Titan Mobile, Titan Go and Editor/Simulator software is
-    installed simply by running the "PC Suite" installer program as with
-    any other Windows application. Please ensure you have exited the
-    Titan software before running the installer.
-
--   If you are upgrading the software from a version earlier than v12,
-    you will have to obtain an AvoKey USB dongle from Avolites and
-    license the software. See the [Software Licensing](recovering-reinstalling-the-console.md#software-licensing) section for details of how to do
-    this.
+>	Ab Titan Version 10 ist es möglich, auf den Pulten vorher installierte 
+Versionen zu behalten, so dass man auch Shows aus älteren Versionen 
+in der Version laden kann, mit der sie programmiert wurden. Der Wechsel 
+zwischen den Versionen erfolgt im Tools-Menü per \[Switch Software\].
 
 ---
 
-Software upgrades for consoles are installed from a USB pen drive.
+-   Die Software für das Titan Mobile, Titan Go und Simulator ist die
+    Titan PC Suite und wird wie ein gewöhnliches Windows-Programm
+    installiert, indem Sie das Installationsprogramm herunterladen und
+    ausführen. Beim Aktualisieren stellen Sie bitte sicher, dass die
+    bereits installierte Version nicht gerade ausgeführt wird.
 
-Having downloaded a new version of software, copy it to the USB drive
-and install it on the console like this:
+-   Erfolgt das Update ausgehend von einer früheren Version als v12, so
+    ist ab v12 ein AvoKey genannter USB-Lizenzdongle erforderlich und
+    muss entsprechend lizenziert werden. Dies ist im Abschnitt [Software Licensing](recovering-reinstalling-the-console.md#software-licensing) 
+    näher erläutert.
 
-1. Copy the installer file to a USB drive and insert into the console.
 
-2. In the screen **tools menu**, stop the console software using the
-**Shutdown Software** button at the bottom of the list.
-![Tools Menu](/docs/images/Tools-Menu.png)
+---
 
-3. Open the **tools menu** again, touch the **Folders** icon and navigate to
-the drive where the upgrade file is found.
+Zur Softwareaktualisierung muss die neue Version über einen USB-Stick
+installiert werden.
 
-4. Run the installer by double clicking/double tapping.
+Dazu ist die neue Software zunächst herunterzuladen und auf einen
+USB-Stick zu kopieren, der dann mit dem Pult zu verbinden ist (dies gilt
+für kleinere Updates, etwa Version 12.0 auf 12.1. Für größere Schritte,
+etwa Version 11 auf 12, ist eine Neuinstallation erforderlich, siehe
+nächstes Kapitel):
 
-5. When the installation has completed, shut down the console and
-restart it. This will allow any operating system updates to install.
+1.	Kopieren Sie das Installationsprogramm auf einen USB-Stick und
+	verbinden diesen mit dem Pult.
+
+2.	Im Menü **Tools** wählen Sie **Shutdown Software** (unterer Punkt), um
+	die Software des Pultes zu beenden.
+	![Tools Menu](/docs/images/Tools-Menu.png)
+
+3.	Öffnen Sie wieder das Menü **Tools**, klicken Sie auf das 
+	Verzeichnissymbol **Folders**, und navigieren Sie zum Speicherort 
+	auf dem von Ihnen gewählten Laufwerk.
+
+4.	Starten Sie per Doppelklick das Installationsprogramm.
+
+5.	Sobald die Installation abgeschlossen ist, starten Sie die Software
+	mit **Restart Software** neu.
