@@ -51,8 +51,8 @@ the line it is assigned to.
 
 To delete a node from the DMX lines, click on the **X** button. To delete
 all nodes from a line, click on the **Group delete button** (the **X** button 
-in the very Dmx line). To delete all nodes from all lines, click on the **X** 
-button close to the header Dmx lines.
+in the very DMX line). To delete all nodes from all lines, click on the **X** 
+button close to the header DMX lines.
 
 In order to change the assignment, i.e. to assign a node to a different line,
 you need to delete it from the line it is assigned to (by clicking on the **X**)
