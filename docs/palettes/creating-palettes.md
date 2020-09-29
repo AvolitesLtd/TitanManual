@@ -206,7 +206,7 @@ with a + sign. At this point you can enter a legend for the new palette
 or change mask settings. A second press on the button will save the
 palette.
 
-![Palette quick record](/docs/images/palette-quick-record.png)
+![Recording a palette with quick record](/docs/images/Palette-Quick-Record.png)
 
 When using Quick Record, the palette mask is automatically set to
 match the window - the **Position** window only stores **P**, the **Colours**
