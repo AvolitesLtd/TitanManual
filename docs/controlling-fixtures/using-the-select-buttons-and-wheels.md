@@ -257,8 +257,9 @@ On the Pearl Expert the wheels on the Touch Wing are used instead of the
 wheels on the console, unless you change this using the User Settings.
 
 Each attribute button controls several attributes, one on each wheel. On
-Sapphire Touch the trackball always controls pan/tilt of the selected
-fixtures, with the ring controlling fine tilt.
+Sapphire Touch the trackball controls pan/tilt of the selected
+fixtures, with the ring controlling dimmer by default. You can change this
+by pressing the /<Assign/> button next to the trackball.
 
 1. With some fixtures selected, press the button for the attribute to
 be changed
