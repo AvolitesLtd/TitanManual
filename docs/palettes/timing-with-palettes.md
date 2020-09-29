@@ -12,10 +12,13 @@ Palettes with Saved Times
 
 If you have
 [saved time information in a palette](creating-palettes.md#creating-a-time-palette),
-it will normally recall with this timing information. So if you
-programmed a 2 second fade, the palette will recall with a 2 second fade.
+the times will be used in any playback which is recorded using this palette. 
+So if you programmed a 2 second fade into this palette, every playback with this 
+palette will have a 2 second fade.
 
-You can turn this off (which can be useful during programming) using the
+By default these times are **not** used when the palette is called directly, to allow 
+for a fluent programming. You may however turn this on (which further enhances [busking 
+with palettes](../running-the-show/playback-controls#busking-with-palettes)) using the
 [key profile setting](../system-settings/key-profiles.md) for palette keys.
 You can set \[Palette Is Fired With Its Times\] or \[Palette Is Fired
 Ignoring Its Times\].
@@ -70,6 +73,12 @@ next will start its fade.
     use the same overlap every time, set a Master Overlap: Press
     \<Palette\>, \[Master Overlap\]. To disable \[Master Overlap\] set to 100%.
 
+-   Fixture Overlap always requires a fade time in order to have a visible effect.
+
+>   When using Fixture Overlap with global palettes without fixtures selected (Quick Palette)
+    bear in mind that Fixture Overlap may be performed on a large number of fixtures which
+    may lead to unwanted results.
+
 Master Time for Palettes
 ------------------------
 
@@ -85,4 +94,9 @@ palette recall.
 \<Macro\>, \[Record\], press a button to store your macro on. Then press
 \<Palette\>, \[Master Time\], \<3\> (for 3 sec), \<Exit\>, \<Macro\>.
 Repeat these steps to create a Palette Snap button (0 sec), or a 1 sec
-fade button, and so on.
+fade button, and so on.\
+\
+A number of macros for various fade times (\[Palette Fade x s\]) and overlaps
+(\[Palette Overlap y%\]) are available in the macro library. To open this press \<Macro\>, 
+then the softkey \[View All\]. Macros from the library can be copied onto buttons
+using \<Copy\> as usual.
