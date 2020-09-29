@@ -66,7 +66,7 @@ the fader to 0.
 ### Groups
 The blue, grey or touch key can be allocated to **Disabled**,
 **Select Group**, **Flash Fixtures**, **Timed Flash**, **Flash Master**, **Timed Flash
-Master**, **Swop Fixtures** - see [Fixture Groups](../controlling-fixtures/fixture-groups)
+Master**, **Swop Fixtures** - see [Fixture Groups](../controlling-fixtures/fixture-groups.md)
 for more details.
 
 >   The option **Group/Flash takes precedence** only applies to the Pearl Expert
@@ -78,8 +78,8 @@ for more details.
 The palette key or touch button can be allocated to **Disabled** or **Select Palette**.
 
 With **Palette is fired ignoring/with its times** you select whether to take palette
-times into account when selecting a palette, see [Timed Palettes](../palettes/timing-with-palettes).
-This setting is particularly useful when [Busking with palettes](../playback-controls#busking-with-palettes).
+times into account when selecting a palette, see [Timed Palettes](../palettes/timing-with-palettes.md).
+This setting is particularly useful when [Busking with palettes](../playback-controls.md#busking-with-palettes).
 
 >   The option **Palette/Flash takes precedence** only applies to the Pearl Expert
     where it is possible to program a playback on a fader handle and use its
