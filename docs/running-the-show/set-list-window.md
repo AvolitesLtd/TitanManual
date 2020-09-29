@@ -20,7 +20,7 @@ page of playbacks for each song in the show.
 ![Set List Window](/docs/images/Set-List-Window.png)
 
 A set list is made up of tracks. When a track is added it automatically
-links to the current page. Pressing the \[⏵\] button next to the track
+links to the current page. Pressing the Play button \[>\] to the left of the track name
 will automatically select the correct playback page (except on Pearl
 Expert, because the rollers cannot be moved automatically).
 
