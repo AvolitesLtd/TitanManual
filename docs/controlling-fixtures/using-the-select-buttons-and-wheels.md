@@ -245,53 +245,59 @@ is as follows: (\<THRO\> is called Through on some consoles)
 
 "Attributes" are the functions of the fixture, like pan, tilt, colour,
 dimmer, etc. You select which attributes you want to modify using the
-Attribute Bank buttons and set values using the wheels. The attributes
+IPCGBESFX Attribute Bank buttons and set values using the wheels. The attributes
 available depend on the fixture type. Dimmer channels only have a dimmer
 attribute.
 
-You can also select attributes by touching the IPCGBES buttons on the
-touch screen, and modify them using the [Attribute Editor workspace
+The touch display above the wheels shows the current attribute bank (grey background)
+and the current values on the wheels. The light blue circles show attributes
+which you have changed and which are in the programmer. The roller graphics show
+the different attributes which are available, which may be a percentage for a
+variable attribute, or named ranges for something like a colour or gobo wheel.
+
+![Wheels](/docs/images/Wheels.png)
+
+You can also set attributes using the [Attribute Editor workspace
 window](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-editor-window).
 
-On the Pearl Expert the wheels on the Touch Wing are used instead of the
-wheels on the console, unless you change this using the User Settings.
+-   On the Pearl Expert the wheels on the Touch Wing are used instead of the
+    wheels on the console, unless you change this using the User Settings.
 
 Each attribute button controls several attributes, one on each wheel. On
 Sapphire Touch the trackball controls pan/tilt of the selected
 fixtures, with the ring controlling dimmer by default. You can change this
-by pressing the /<Assign/> button next to the trackball.
+by pressing the \<Assign\> button next to the trackball.
 
 1. With some fixtures selected, press the button for the attribute to
 be changed
 
-2. Turn the wheels to set the attribute. The display above the wheels
-shows which attributes are being controlled, and the settings which are
-available scroll up and down as you turn the wheels.  
+2. Turn the wheels to set the attribute. The settings which are
+available scroll up and down on the wheel display as you turn the wheels.  
 You can also touch the roller image on the screen to change the
-attributes up or down by one. For continuously variable controls like a
+attributes up or down by one step. For continuously variable controls like a
 dimmer, touching the roller will set the attribute to full or zero.
-![Wheels](/docs/images/Wheels.png)
 
 3. Repeat from 1 to change other attributes of the selected fixtures.
 
 Some other things to know about attributes:
 
--   If an attribute is in the programmer, it is highlighted (as shown
+![Toggle Attributes](/docs/images/Toggle-Attributes.png)
+
+-   If the wheel display shows a small arrow next to the legends as shown above, this
+    means that there are more than three attributes to control in this bank. 
+    Press the attribute button again to toggle through the attributes (for example
+    some LED fixtures have Red, Green, Blue, Amber, White - so when you
+    press \<Colour\> you would first get Red, Green, Blue on the three
+    wheels, then if you press \<Colour\> again you will get Amber and White.)
+
+-   If an attribute is in the programmer, it is highlighted in pale blue (as shown
     with the "Green" setting in the screen picture above). This provides
     a quick way to see which attributes are in the programmer.
-
--   You can also select the attribute to be changed from the softkeys by
-    pressing the "Attribute Options" button.
 
 -   If the display above the wheels does not show the attribute when you
     press the button, that attribute is not available on the selected
     fixtures.
 
--   If the wheel display shows a small arrow next to the legends, this
-    means that there are further attributes to control. Press the
-    Attribute button again to toggle through the attributes.
-
-![Toggle Attributes](/docs/images/Toggle-Attributes.png)
 
 -   The wheels operate in an "acceleration" mode. If you spin the wheel
     fast, the fixture changes in larger steps. If you move the wheel
@@ -309,28 +315,7 @@ Some other things to know about attributes:
     mastering the RGB levels when the fixture itself does not provide an
     intensity channel.
 
-## Attribute Wheel Display
 
-The touch display above the wheels shows the attribute bank (Intensity,
-Position, Colour and so on) and the current values on the wheels.
-
-![Wheels](/docs/images/Wheels.png)
-
-Touch the IPCGBESFX attribute bank buttons to change to a different
-bank. You can also use the physical attribute bank buttons as usual. The
-current attribute bank is shown with a grey background.
-
-If attributes have been modified, the attribute button has a pale blue
-highlight.
-
-The Roller display shows the attributes available on each wheel. These
-may be shown as a percentage value, or named values for attributes with
-fixed positions such as a colour wheel. If the attribute has been
-modified, the current value in the programmer is highlighted in blue.
-
-You can touch the roller image to change the attribute to the
-next/previous value. For continuously variable controls like a dimmer,
-touching the roller will set the attribute to full or zero.
 
 ## Attribute Editor Window
 
