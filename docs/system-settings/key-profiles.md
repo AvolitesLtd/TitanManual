@@ -79,7 +79,7 @@ The palette key or touch button can be allocated to **Disabled** or **Select Pal
 
 With **Palette is fired ignoring/with its times** you select whether to take palette
 times into account when selecting a palette, see [Timed Palettes](../palettes/timing-with-palettes.md).
-This setting is particularly useful when [Busking with palettes](../playback-controls.md#busking-with-palettes).
+This setting is particularly useful when [Busking with palettes](../running-the-show/playback-controls.md#busking-with-palettes).
 
 >   The option **Palette/Flash takes precedence** only applies to the Pearl Expert
     where it is possible to program a playback on a fader handle and use its
