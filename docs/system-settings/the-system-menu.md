@@ -49,7 +49,7 @@ User Settings
 -------------
 
 The User Settings menu may also be accessed from Program mode: hold down
-the \<Avo\> Shift button and press \[User Settings\]. See the [User Settings](user-settings.md) section.
+the \<Avo\> button and press \[User Settings\]. See the [User Settings](user-settings.md) section.
 
 Key Profiles
 ------------

@@ -84,7 +84,7 @@ Key | Action | | Key | Action
   Shift F4 |  Move to other screen  | |     Ctrl Y   |   Redo
   F5       |  Close window          | |     Alt C    |   Clear
   Shift F5 |  Close all windows     | |     Alt R    |   Record menu
-  F6       |  Open Playbacks window | |     Alt A    |   Toggle Avo (shift) menu
+  F6       |  Open Playbacks window | |     Alt A    |   Toggle Avo menu
   F7       |  Open Fixtures window  | |     Alt L    |   Locate
   F8       |  Open Groups window    | |     Alt P    |   Patch
   F9       |  Open Colours window   | |     Alt ⇑ D  |   Disk menu

@@ -56,7 +56,7 @@ in the programmer will override the playback).
     other playbacks. *This is useful to avoid the fixtures visibly moving
     into position or changing colours or gobos when you raise the fader
     of the cue.*\
-    To assign Preload, hold \<Avo\> Shift and press \[Edit
+    To assign Preload, hold \<Avo\> and press \[Edit
     Key Profile\], then press the button you want to assign (also see
     [Key Profiles](../system-settings/key-profiles.md)). Note that this will assign the function
     to all buttons of the same type.
@@ -150,8 +150,8 @@ The Active Playbacks window shows details of which playbacks are active.
 When you have a number of layered playbacks with different effects, this
 provides an easy way to see which playback is causing which effect. Each
 button shows the playback legend, which page they are from and which
-attributes are affected. To show the window press \<View/Open\>, \[Open
-Workspace Window\], \[Active Playbacks\].
+attributes are affected. To show the window double press \<View/Open\> 
+then press \[Active Playbacks\] from the window select buttons which pop up.
 
 ![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
 

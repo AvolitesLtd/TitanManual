@@ -24,14 +24,14 @@ Move is useful for tidying up the console.
 	a **Move** button press \<Avo\> and \<Copy\>).
 
 2. Press the Select button of the fixture you want to copy/move. You
-can select multiple fixtures -- use the \<Thro\> and \<And\> buttons to
+can select multiple fixtures -- use the \<And\> buttons to
 add more fixtures to the selection.
 
 3. Press the empty Select button where you want it to go.
 
--   The \<Menu Latch\> button latches the Copy/Move/Link menu, so you
+-   The \<Menu Latch\> button latches the Copy or Move menu, so you
     can keep copying or moving things without having to keep pressing
-    the Copy/Move/Link button. Press again to unlatch.
+    the \<Copy\> or \<Move\> button. Press again to unlatch.
 
 -   The \[Retain Layout\] or \[Bunch Up\] option is used when copying a
     group of fixtures with empty handles in the group - you can either

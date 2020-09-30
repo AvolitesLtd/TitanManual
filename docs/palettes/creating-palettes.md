@@ -53,9 +53,9 @@ Storing a Palette
 
 [](https://youtu.be/Hs-xzpD5x8k?t=20 "Recording Palettes")
 
-This is how you save a palette value to one of the palette windows:. If
-the palette windows are not shown then press the **Groups and Palettes**
-workspace button.
+This is how you save a palette value to one of the palette windows: *If
+the palette windows are not shown then press the \[Groups and Palettes\]
+workspace button.*
 
 1. Press \<Clear\> to clear the programmer
 
@@ -104,8 +104,8 @@ a palette number and press \[Store\]
     Beams includes IGBES. If you use the \<Record\> button then you need
     to set the mask manually.
 
--   Press the **Attribute Options** button to toggle each mask group between
-    Include and Exclude.
+-   Press the \<Attribute Options\> (or \<Options\> on newer consoles)
+    button to toggle each mask group between Include and Exclude.
 
 ![Setting a mask for recording a palette](/docs/images/Setting-a-mask-for-recording-a-palette.png)
 
@@ -125,13 +125,16 @@ a palette number and press \[Store\]
 -   The console will automatically create a legend for your palette
     (unless the
     [User Setting \[Auto Legend\]](../system-settings/user-settings.md#auto-legend)
-    is set to Off). For colour
-    palettes a coloured icon is used to show the selected colour. If the
+    is set to Off).
+    -   **Colours:** a coloured icon is used to show the selected colour. If the
     palette contains fixtures set to different colours, a coloured bar
-    will be shown for each. For CITP (media server) palettes, the media
-    thumbnail will be used. For other attributes the last adjusted
-    function value will be used for the legend, except for pan and tilt
-    which will use a default legend.\
+    will be shown for each. 
+    -   **Gobos:** show the gobo image (if available in the personality - you might need to 
+    [update the patched personalities](../patching/changing-the-patch.md#updating-patched-personalities)). 
+    -   **CITP (media server)**: show the media thumbnail. 
+    -   **Pan and tilt**: show a default legend
+    -   For **other** attributes the last adjusted function value will be used for the legend.
+
     ![Automatic Legends set for Colour Palettes](/docs/images/Automatic-Legends-set-for-Colour-Palettes.png)
 
 -   You can also manually set a legend for the palette while you are
@@ -177,11 +180,22 @@ The \[Record/Don't Record Nested Palettes\] option in the Record Palette
 menu sets whether nested palettes are recorded *(default)* or whether the
 attribute values are recorded instead.
 
-When palettes are used in cues, you can disable the nested palettes
-using the playback option \[Fire/Don't Fire Nested Palettes\]. If set to
-Don't Fire, the nested palettes are treated as the fixed values they
-held at the time the cue was recorded and won't change if the nested
-palette is updated.
+If you've created a new palette using nested palettes, you can switch the 
+palette to be non-nested (to use the values which were set at the time it 
+was recorded). This can be useful if a palette was recorded as nested, but 
+then you need to break the link to the source palettes so you can change them 
+without changing the new palette. 
+
+1.	Press \[Options\].
+
+2.	Press the handle of the palette. 
+
+3.	In the \[Palette\] tab switch off the option \[Fire Nested Palettes\]. 
+
+4.	Now when you fire the palette, it will use the values which were set when
+	you recorded it, rather than the current values in the nested palettes.
+
+-	You can reinstate the link by switching the \[Fire Nested Palettes\] option on again.
 
 Quick Record
 ------------
@@ -192,7 +206,7 @@ with a + sign. At this point you can enter a legend for the new palette
 or change mask settings. A second press on the button will save the
 palette.
 
-![Recoding a Workspace Layout](/docs/images/Recoding-a-Workspace-Layout.png)
+![Recording a palette with quick record](/docs/images/Palette-Quick-Record.png)
 
 When using Quick Record, the palette mask is automatically set to
 match the window - the **Position** window only stores **P**, the **Colours**

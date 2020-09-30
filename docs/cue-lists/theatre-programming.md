@@ -69,6 +69,7 @@ recorded)*. To record everything with intensity above zero, switch
 ------------|-------------------
 \<Record\> {fader select} {fader select} | Record the next cue onto the end of the cue list on this fader
 <Record> \<Cue\> **n** \<Enter\> | Record cue **n** *(will prompt for merge/overwrite if it exists already)*
+
 \<Time\> **t** \<Enter\> | Set fade time into programmer *(does not affect stored cues; will save with the cue when you record it)*
 \<Cue\> **n** \<Time\> **t** \<Enter\> | Set fade time of cue **n** to **t** seconds
 \<Delete\> \<Cue\> **n** \<Enter\> \<Enter\> | Delete cue **n** *(2^nd^ \<Enter\> confirms)*
@@ -111,6 +112,7 @@ such as Go will operate on this cue list.
 	for the next cue, enable the \[Move In Dark\] option, see [Move In Dark](../docs/next/cue-lists/cue-list-options#move-in-dark).
 	This option is Off by default.
 
+
 ## Editing Cues While Running
 
 Often you need to make changes to cues while the cue is active in a
@@ -139,6 +141,6 @@ easy:
 
 5. Set the *Speed*, *Size*, *Spread* using the wheels
 
-Shapes will record into cues, and will track through subsequent cues
-while they are active in the programmer, until you stop them by pressing
-\<Clear\>.
+Shapes will record into cues, and will track through subsequent cues.
+You can deactivate tracked shapes in the Playback View, or set the 
+Shape Tracking in the Playback Options.

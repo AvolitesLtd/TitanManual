@@ -33,8 +33,8 @@ Sets what will happen at the end of the cue list
 
 Setting | Action
 --- | ---
-Stop on final cue | Cue list will stop advancing once it reaches the last cue *(default)*
-Loop | Cue list will go back to first cue after the last.* If Move in Dark is enabled, this will also loop.*
+Stop on final cue | Cue list will stop advancing once it reaches the last cue.
+Loop | Cue list will go back to first cue after the last.* If Move in Dark is enabled, this will also loop.*  *(default)*
 
 ### Move In Dark
 Sets the mode for the whole cue list *(see [Move In Dark (MID) Functions](cue-list-playback.md#move-in-dark-mid-functions))*.
