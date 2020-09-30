@@ -9,15 +9,15 @@ Time and Fade Options for Cue Lists
 
 Time settings are independent for each cue in the cue list. The display
 shows which cue you are working with. You can select which cue is active
-using **Wheel A** or **softkey A** of the **Cue Times menu**.
+using **Wheel A** or by pressing \[Select Cue Number\] softkey in the **Edit Times** menu for the cue list.
 
 *See the [diagram below](#cue-linking--link-offset) for more information about overlaps and fade times.*
 
-1. Press **Softkey A** \[Edit Times\] at the root menu then the **Swop** button
+1. Press \[Edit Times\] at the root menu then the **Select** button
 of the Cue List.
 
 2. To change which cue you are editing, scroll through the list using
-**Wheel A** or press \[Cue Number\] then type the cue number you want to
+**Wheel A** or press \[Select Cue Number\] then type the cue number you want to
 edit and press \<Enter\>.
 
 	- The Chase arrow buttons to the right of the
@@ -102,7 +102,7 @@ seconds.
 Additionally you can set individual times for each attribute so you
 could make the pan fade over a different time to the tilt.
 
-To set times for an attribute group, first select the Set Times menu and
+To set times for an attribute group, first select the \[Edit Times\] menu and
 go to the cue you want to set as [described above](#time-and-fade-options-for-cue-lists), then press G \[Next\]
 to go to the second page of options.
 
@@ -110,13 +110,13 @@ to go to the second page of options.
 
 2. All fixtures in the cue will be selected. *If you don't want to
 change the times for any fixtures, deselect them now.* You can press the
-**ALL** button (below Next Time) to select all fixtures in the cue or
-**Shift + ALL** to deselect all fixtures.
+\<ALL\> button (below Next Time) to select all fixtures in the cue or
+\<Avo\> + \<ALL\> to deselect all fixtures.
 
 3. Press the softkey for the attribute group you want to change.
 
-4. Press A \[Delay\] to set the **delay time**, or press B \[Fade\] to set
-the **fade time**. Press G \[Use global\] to remove the attribute group
+4. Press \[Delay\] to set the **delay time**, or press \[Fade\] to set
+the **fade time**. Press \[Use Global\] to remove the attribute group
 timing and go back to the normal delay/fade times for the cue.
 
 >  You can use \[Individual Attributes\] to set times for one attribute
@@ -127,8 +127,9 @@ timing and go back to the normal delay/fade times for the cue.
 Fixture Overlap
 ---------------
 
-Fixture overlap creates an effect where the fixtures in the cue are changed in
-sequence rather than all at the same time. This is described in more detail in
+For each cue you can set a fixture overlap, which creates an effect where 
+the fixtures in the cue are changed in sequence rather than all at the 
+same time. This is described in more detail in
 [Cue Timing](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
 Running a Cue List to Timecode
@@ -159,7 +160,7 @@ timecode source.
 5. Start the timecode source. *If using internal timecode, press
 \[Play\] to start it.*
 
-6. Press the red **Go** button to step each cue at the time you wish the
+6. Press the red \<Go\> button to step each cue at the time you wish the
 cue to start.
 
 7. Press \[Record\] when you have finished.
@@ -172,14 +173,18 @@ When you start the timecode source (or press \[Play\] if using internal
 timecode), each cue will fire as the timecode matches its programmed
 time.
 
-You can edit the timecode for each cue by using **Wheel A** to select the
-cue, then press \<Enter\> and type the new timecode for the cue.
+In order to edit a cue's timecode, select the cue's timecode cell in Playback View
+and enter the correct time, or - using the menu buttons - press \[Edit Times\],
+enter the cue number, toggle to the 3^rd^ page of this menu with \[Next\], click
+\[Timecode = \] and enter the new timestamp.
+
 
 ![Playback View Window showing timecoded cues](/docs/images/Playback-View-Window-showing-timecoded-cues.png)
 
 While editing a time you can also use **Wheel B** to select multiple cues,
 and use the softkey options to enter a value to change the time of all
-the cues (offset, add a fixed time or subtract a fixed time).
+the cues: \[Timecode = \] sets the timecode directly while a value set with \[Offset = \] 
+can be used in \[Add + \] or \[Subtract - \], to shift all selected timestamps by this timespan.
 
 You can open a timecode display window for each of the four possible
 sources to show you the incoming timecode - double press \<View/Open\> 
