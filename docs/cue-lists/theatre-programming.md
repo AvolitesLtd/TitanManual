@@ -69,7 +69,6 @@ recorded)*. To record everything with intensity above zero, switch
 ------------|-------------------
 \<Record\> {fader select} {fader select} | Record the next cue onto the end of the cue list on this fader
 <Record> \<Cue\> **n** \<Enter\> | Record cue **n** *(will prompt for merge/overwrite if it exists already)*
-
 \<Time\> **t** \<Enter\> | Set fade time into programmer *(does not affect stored cues; will save with the cue when you record it)*
 \<Cue\> **n** \<Time\> **t** \<Enter\> | Set fade time of cue **n** to **t** seconds
 \<Delete\> \<Cue\> **n** \<Enter\> \<Enter\> | Delete cue **n** *(2^nd^ \<Enter\> confirms)*
@@ -111,7 +110,6 @@ such as Go will operate on this cue list.
 - If you want moving fixtures to automatically position themselves ready
 	for the next cue, enable the \[Move In Dark\] option, see [Move In Dark](../docs/next/cue-lists/cue-list-options#move-in-dark).
 	This option is Off by default.
-
 
 ## Editing Cues While Running
 
