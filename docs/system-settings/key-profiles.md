@@ -115,7 +115,7 @@ Tap Tempo | Set speed parameter by tapping the button
 Next Cue - | Press repeatedly to select the next cue to be output, going backwards
 Next Cue + | Press repeatedly to select next cue to output, going forwards
 Review Live Cue | Replays the current cue using fade times
-Cut Next Cue to Live | Fire next cue ignoring its times
+Cut Next Cue to Live | Fire the next cue ignoring its times
 Snap Back | Cue list will snap back to previous cue without times
 Go Back | Cue list will go back to previous cue using fade times
 Release | Release the playback using programmed release time
