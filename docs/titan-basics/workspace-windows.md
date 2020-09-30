@@ -106,18 +106,23 @@ You can close the active window using the \<Close\> button (not on all
 consoles). You can close all windows by pressing \<Avo\>+\<Close\>, or
 use the \[Close All\] softkey.
 
-The **Context Menu** button is only shown on Sapphire Touch and Titan
-Go, and gives a drop down menu at the top of the window showing the
-context menu buttons which relate to the current window.
+### Context menu buttons
 
-![Patch View](/docs/images/Patch-View-2.png)
-
-On all other consoles the context menu buttons are automatically shown
-below the prompt area on the top right of the main screen. These buttons
-change to match the active window. The picture below gives an example of
+On all consoles apart from Sapphire Touch and Titan Go, **context menu 
+buttons** are automatically shown below the prompt area on the top right 
+of the main screen. These buttons contain useful functions for the current
+active window and change depending on the window. \
+The picture below gives an example of
 how the context buttons appear when Patch View window is active.
 
 ![Context Menu](/docs/images/Context-Menu.png)
+
+On Sapphire Touch and Titan Go each window has a **Context Menu button** 
+in the top window bar, which gives a drop down menu showing the
+context menu buttons for the current window.
+
+![Patch View](/docs/images/Patch-View-2.png)
+
 
 
 ### Controlling button layout / grid

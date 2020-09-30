@@ -44,7 +44,7 @@ the palette fades in over that time.
 
 -   You have to re-enter the time each time you recall a palette. To use
     the same fade every time, set a Master Time: Press \<Palette\>, \[Master
-    Time\]. To disable \[Master Time\] set to 0.
+    Time\], enter time. To disable \[Master Time\] set to 0.
 
 -   Palette fading can be very useful when recalling a palette live
     during a show, as you can smoothly move fixtures to a new position
@@ -61,7 +61,9 @@ This is a very quick way to busk complex effects.\
 **0%** means that each fixture must complete its fade before the
 next will start its fade.
 
-1. Type in the overlap time for the palette on the numeric keypad
+- You need to also have a fade time set, otherwise Overlap has no effect.
+
+1. Type in the overlap percentage for the palette on the numeric keypad
 
 2. Press \[Set Overlap\]
 
@@ -71,7 +73,8 @@ next will start its fade.
 
 -   You have to re-enter the overlap each time you recall a palette. To
     use the same overlap every time, set a Master Overlap: Press
-    \<Palette\>, \[Master Overlap\]. To disable \[Master Overlap\] set to 100%.
+    \<Palette\>, \[Master Overlap\], enter overlap percentage. 
+    To disable \[Master Overlap\] set to 100%.
 
 -   Fixture Overlap always requires a fade time in order to have a visible effect.
 
@@ -94,8 +97,8 @@ palette recall.
 \<Macro\>, \[Record\], press a button to store your macro on. Then press
 \<Palette\>, \[Master Time\], \<3\> (for 3 sec), \<Exit\>, \<Macro\>.
 Repeat these steps to create a Palette Snap button (0 sec), or a 1 sec
-fade button, and so on.\
-\
+fade button, and so on.
+
 A number of macros for various fade times (\[Palette Fade x s\]) and overlaps
 (\[Palette Overlap y%\]) are available in the macro library. To open this press \<Macro\>, 
 then the softkey \[View All\]. Macros from the library can be copied onto buttons
