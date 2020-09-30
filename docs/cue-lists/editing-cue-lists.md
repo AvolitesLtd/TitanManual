@@ -260,8 +260,8 @@ by touching and dragging over the required cues. Select \[Merge\] or
 be merged into all of the selected cues.
 
 From the keypad, connect the cue list (or chase) and press \<Rec Step\>.
-Then use the syntax `<n> THRU <m>` to select a range or `<n> \<And\>
-<m>` to select cues which aren't together. The selected cues will
+Then use the syntax **n** \<THRU\> **m** to select a range or **n** \<And\>
+**m** to select cues which aren't together. The selected cues will
 highlight in red in the [Playback View](#playback-view-window) if you have it open. When you have
 selected all desired cues press \<Enter\>, then select \[Merge\] or
 \[Replace\] (or just press \<Enter\> again to merge).
