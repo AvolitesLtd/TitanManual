@@ -59,7 +59,7 @@ you need to delete it from the line it is assigned to (by clicking on the **X**)
 first - the node now appears as unassigned on the left hand side - and can now
 assign it to a different line.
 
-When patching Art-Net and Streaming ACN nodes you can patch a number of universes
+When patching Art-Net and sACN nodes you can patch a number of universes
 in one go: select the first node you want to assign (i.e. sACN: Universe 1) on the left 
 hand side enter values for \[Universe\] and \[Quantity\] with the softkeys, and then
 click on the line from which on you want to assign this. Titan will then patch 
