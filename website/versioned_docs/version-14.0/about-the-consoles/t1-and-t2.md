@@ -10,14 +10,14 @@ above, 64 bit). Both dongles include an AvoKey.
 
 T1 provides a single universe of DMX output on a 5-pin XLR.
 
-![Titan One](/docs/images/Titan-One.png)
+![Titan One](/docs/images/T1.png)
 
 T2 provides two universes on two 5-pin XLRs and has an input for
 Audio/LTC timecode for external triggering. It also allows the use of a USB MIDI device for MIDI
 triggering of Titan, so you can use MIDI faders, and can be used with
 the Titan Mobile fader wing.
 
-![Titan Two](/docs/images/Titan-Two.png)
+![Titan Two](/docs/images/T2.png)
 
 
 [](https://youtu.be/wO94RvG6agI "T2 USB Interface")
@@ -34,4 +34,4 @@ Titan Go. The operating screen is slightly different to the normal
 display as it is designed for use on a touchscreen with no physical
 control surface (actual faders or buttons).
 
-![Titan One](/docs/images/Titan-One-2.png)
+![Titan One](/docs/images/Titan-Go-User-Interface.png)
