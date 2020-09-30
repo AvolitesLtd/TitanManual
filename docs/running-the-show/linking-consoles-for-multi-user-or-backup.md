@@ -69,4 +69,4 @@ network connection. A blue line will appear during sync operations.
     console to warn that DMX has been disabled. On touch consoles
     touching on this prompt will open the \'\<Exit\> Safe Mode\' menu
     with a softkey option to re-enable output. On the Pearl Expert you
-    can re-enable DMX output via the shift (\<Avo\>) menu.
+    can re-enable DMX output via the \<Avo\> menu.

@@ -110,8 +110,8 @@ to go to the second page of options.
 
 2. All fixtures in the cue will be selected. *If you don't want to
 change the times for any fixtures, deselect them now.* You can press the
-**ALL** button (below Next Time) to select all fixtures in the cue or
-**Shift + ALL** to deselect all fixtures.
+\<ALL\> button (below Next Time) to select all fixtures in the cue or
+\<Avo\> + \<ALL\> to deselect all fixtures.
 
 3. Press the softkey for the attribute group you want to change.
 

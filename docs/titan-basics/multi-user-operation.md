@@ -37,7 +37,7 @@ select a new user from the list (the current user is highlighted).
 user and press \[OK\].
 
 5. You can also quickly change user from the root menu by holding
-\<Avo\> shift and pressing \[User ... \]
+\<Avo\> and pressing \[User ... \]
 
 -   If multiple consoles are connected in a collaborative session, any
     user added to one of the consoles will be available on any of the

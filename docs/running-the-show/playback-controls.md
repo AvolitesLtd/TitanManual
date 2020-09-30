@@ -217,7 +217,7 @@ attributes of the fixtures before you raise the playback fader, which is
 handy for avoiding unwanted movements (any fixtures which are already
 active in another playback will not change when you use Preload). You
 can also allocate Go and Stop buttons for cue lists and chases. To
-quickly change the key profile, hold \<Avo\> Shift and press \[Edit Key
+quickly change the key profile, hold \<Avo\> and press \[Edit Key
 Profile\]. The Sapphire Touch also has a configurable Black button for
 each fader.
 
@@ -356,7 +356,7 @@ or you can set a fade at show time for added effect.
 
 If the palette contains programmed times, you can change the Key Profile
 of the palette button to set whether the programmed times will be used
-or not. (Press \<Avo\> Shift+\[Key Profiles\], then \[Palettes\] to set
+or not. (Press \<Avo\> + \[Key Profiles\], then \[Palettes\] to set
 the key profile). Options are \[Palette is fired ignoring its times\] or
 \[Palette is fired with its times\]. You can also set whether the
 palette will take precedence over a flashed cue or not. A time entered
