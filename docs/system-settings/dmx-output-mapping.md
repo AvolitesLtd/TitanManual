@@ -41,10 +41,10 @@ lines.
 
 ![DMX Settings Window](/docs/images/DMX-Settings-Window.png)
 
-To assign a node to a line click on the node on the left hand side (e.g.
+To assign a node to a line, click on the node on the left hand side (e.g.
 on **Expert DMX A**) and then on the line (right hand side) you want this 
-node to assign to. The node will disappear on the left hand side as it is 
-not unassigned any more, and will show up on the right hand side under 
+node to be assigned to. The node will be removed from the pane on the left hand side as it is 
+not unassigned any more, and will appear on the right hand side under 
 the line it is assigned to.
 
 ![Node in DMX Settings Window](/docs/images/Node-in-DMX-Settings-Window.png)
