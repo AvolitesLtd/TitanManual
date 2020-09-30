@@ -252,8 +252,8 @@ You can use shapes in a cue list, see
 [Shape Tracking in Cue Lists](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists)
 on how the shapes will behave as you go from cue to cue.
 
-You can adjust a running shape at playback time. See 
-[Editing a Live Running Shape](../effects/editing-shapes-and-effects#editing-a-live-running-shape).
+You can adjust a running shape at playback time, see 
+[Editing a Live Running Shape](editing-shapes-and-effects.md#editing-a-live-running-shape).
 
 
 Masking shapes using Mask FX

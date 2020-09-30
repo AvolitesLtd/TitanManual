@@ -130,7 +130,7 @@ a palette number and press \[Store\]
     palette contains fixtures set to different colours, a coloured bar
     will be shown for each. 
     -   **Gobos:** show the gobo image (if available in the personality - you might need to 
-    [update](../patching/changing-the-patch#updating-patched-personalities) ). 
+    [update the patched personalities](../patching/changing-the-patch.md#updating-patched-personalities)). 
     -   **CITP (media server)**: show the media thumbnail. 
     -   **Pan and tilt**: show a default legend
     -   For **other** attributes the last adjusted function value will be used for the legend.
