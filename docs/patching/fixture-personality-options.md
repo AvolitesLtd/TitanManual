@@ -38,7 +38,7 @@ Invert Attributes
 
 This option inverts individual attributes of fixtures. Useful if you
 have a fixture which pans right when the rest pan left, saving a trip up
-the rig to set fixture options, but you can invert any attribute.
+the rig to set fixture options.
 
 1. Press \<Patch\>.
 
@@ -118,9 +118,10 @@ There are 4 ways to set an offset:
 
 -   You can also set offsets using palettes. Select fixture, apply
     palette, adjust fixture to desired values then press \<Record\>,
-    \<Palette\>, \[Update Offset\]. Again this does not change the
-    palette, but sets the difference between the palette and the
-    position you changed it to as the offset value.
+    select the palette you have applied and click \[Update Offset\]. 
+    Again this does not change the palette, but sets the difference 
+    between the palette and the position you changed it to as the 
+    offset value.
 
 -   In the Patch View window, in the Patched Fixtures list there are
     cells for Pan or Tilt offset
@@ -139,18 +140,20 @@ level follows a slider, but can be applied to any attribute.
 Curves are set either from the Edit Fixtures menu or using the context
 buttons on the Attribute Behaviour tab of the Patch View window.
 
-1. Press \<Patch\>, \[Edit Fixtures\].
+1. Press \<Patch\>.
 
-2. Press \[Set Curve\].
+2. Press \[Edit Fixtures\].
 
-3. Select the fixtures to be set.
+3. Press \[Set Curve\].
 
-4. Use the softkeys to select which attributes are to be set.
+4. Select the fixtures to be set.
 
-5. Use the softkeys to select the type of curve required. The normal
+5. Use the softkeys to select which attributes are to be set.
+
+6. Use the softkeys to select the type of curve required. The normal
 setting is Linear.
 
-6. Press \<Exit\> when finished.
+7. Press \<Exit\> when finished.
 
 See the [curves section](../system-settings/curves.md) for details of the different curves
 available.
@@ -162,16 +165,18 @@ This option allows you to freeze individual attributes of a fixture, or
 to freeze the whole fixture. Attributes or fixtures which are frozen are
 not affected by playbacks or by the programmer.
 
-1. Press \<Patch\>, \[Edit Fixtures\].
+1. Press \<Patch\>.
 
-2. Press \[Freeze Fixture or Attribute\].
+2. Press \[Edit Fixtures\].
 
-3. Select the fixtures to be frozen/unfrozen.
+3. Press \[Freeze Fixture or Attribute\].
 
-4. Use the softkeys to select which attributes are frozen, or to freeze
+4. Select the fixtures to be frozen/unfrozen.
+
+5. Use the softkeys to select which attributes are frozen, or to freeze
 the whole fixture. Frozen attributes are indicated on the softkey.
 
-5. Press \<Exit\> when finished.
+6. Press \<Exit\> when finished.
 
 -   Freeze can also be set from the Attribute Behaviour tab of the Patch
     View window.
@@ -186,18 +191,20 @@ Sometimes you may want to modify the way a fixture behaves, or you may
 find a fixture personality contains errors and needs editing. You can
 edit personalities directly on the console.
 
-1. Press \<Patch\>, \[Edit Fixtures\], .
+1. Press \<Patch\>.
 
-2. Press \[Edit Personality\].
+2. Press \[Edit Fixtures\].
 
-3. The softkeys show a list of all fixture types patched in your show.
+3. Press \[Edit Personality\].
+
+4. The softkeys show a list of all fixture types patched in your show.
 Select the fixture type to be edited.
 
-4. Personality Builder will open allowing you to edit the personality.
+5. Personality Builder will open allowing you to edit the personality.
 
-5. When you save changes, your show will be updated with the edited
-personality. Your changes are also saved to the fixture library on the
-console.
+6. When you save changes, your changes are saved as user personality 
+   on the console, and you are prompted whether to apply the changes 
+   to the show.
 
 -   Edited personalities will be saved in the User/Custom personality
     folder at D:\\Personalities (if using Titan Mobile, Titan Go or a
@@ -207,6 +214,6 @@ console.
     installed.
 
 -   A separate user guide for Personality Builder is available from the
-    Avolites website.
+    [Avolites website](https://www.avolites.com).
 
-> If you find a problem in a fixture personality provided by Avolites, please let us know using the bug report form in the Personality section of the website.
+> If you find a problem in a fixture personality provided by Avolites, please let us know using the bug report form in the [Personality section of the website](https://personalities.avolites.com/).
