@@ -49,24 +49,29 @@ Updating the Personality Library on the Console
 -----------------------------------------------
 
 Download the current Titan personality library by clicking on **Titan
-Fixture Library** at the [personality website](https://personalities.avolites.com) home screen, or the disk
-icon in the Cache column for any fixture. Alternatively you can get this
-file by clicking on the **Download** link at the top of the screen, then
-clicking on **Titan Fixture Library**.
+Fixture Library** at the [personality website](https://personalities.avolites.com) 
+home screen. Alternatively you can get this file by clicking on the **Download** 
+link at the top of the screen, then clicking on **Titan Fixture Library**.
+
+There are different library installers depending on the **version of Titan 
+you are running**. This is to ensure you get the right version of the Capture
+library, the actual personality library is identical in each version.
 
 > Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
-  ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------
 
 ### Console Update Procedure
 
-1. Copy the downloaded file **TitanFixtureLibrary.exe** onto a USB pen
-drive and plug in to the console.
+1. Copy the downloaded file **TitanFixtureLibrary.exe** onto a USB stick and plug in to the console.
 
-2. Click the **Tools** menu on the toolbar, then the **folder** icon on the
-menu.
+2. Click the **Tools** menu on the toolbar, then **Control Panel**, then **Titan Installers**.
+This will list all installers - software and personalities - found in the root of 
+the stick (provided you haven't changed their name).
 
-3. Locate the downloaded file on the USB drive and double click on it
-to run it. Click **Ok** on the warning box.
+3. Click the **TitanFixtureLibrary.exe**, and follow the instructions.\
+   If for whatever reason Titan doesn't show the file in the *Titan Installers* submenu
+   you can find and double-click it through Tools -> Folders.
 
 4. Shut down and then restart the console *(using the Restart Software
 button on the screen Tools menu is OK)*.

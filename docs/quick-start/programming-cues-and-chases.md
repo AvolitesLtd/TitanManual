@@ -48,12 +48,14 @@ To edit times in a saved cue, at top level menu press \[Edit Times\]
 then the select button for the playback. Timing options are set from
 softkeys.
 
-\[Fixture Overlap\] sets each fixture to fade in sequence (100%=all
+[\[Fixture Overlap\]](../cues/cue-timing.md#fade-times-and-fixture-overlap)
+sets each fixture to fade in sequence (100%=all
 together, 0%=fixture waits for previous one to complete).
 
 \[Attribute times\] sets individual fade times for different attributes.
 
-\[Fixture order\] changes sequence for shapes and Overlap.
+\[Fixture order\] changes sequence for shapes and
+[Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
 See [Cue Timing](../cues/cue-timing.md)
 

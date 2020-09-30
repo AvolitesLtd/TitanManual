@@ -60,7 +60,7 @@ the options/cog icon at the top of the window).
 -   You can snap back to the previous cue by pressing the \<Snap Back\>
     button *(not on all consoles)*
 
--   On consoles with a \<Snap\> button *(Arena and Tiger Touch 2)*, when
+-   On consoles with a \<Snap\> button *(Arena and Tiger Touch II)*, when
     you turn on the \<Snap\> button the \<Prev\>/\<Next\> buttons will
     snap immediately to the cue rather than going to the previous/next
     cue using the programmed times. There is also a 

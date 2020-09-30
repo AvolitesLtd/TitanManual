@@ -217,8 +217,8 @@ DMX View Window
 ---------------
 
 When you're having problems getting fixtures to work it can be useful to
-see the actual DMX output values coming from the console. Press
-\<View/Open\>, then \[Open Workspace Window\], then select \[DMX\].
+see the actual DMX output values coming from the console. Double press
+\<View/Open\>, then select \[DMX\] from the window select buttons.
 
 ![DMX Workspace Window](/docs/images/DMX-Workspace-Window.png)
 
@@ -382,4 +382,3 @@ console does not update fixtures which are already patched.
 5. If updating individual fixtures, press the personality you want
     to update.
 
--   The new personality is loaded from the Titan/Personalities folder.

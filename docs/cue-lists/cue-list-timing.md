@@ -127,40 +127,10 @@ timing and go back to the normal delay/fade times for the cue.
 Fixture Overlap
 ---------------
 
-For each cue you can set a (linked together) fixture overlap, which
-causes Titan to apply the settings in the cue to each fixture
-sequentially giving a "rolling" change across the fixtures in the cue.
-This can create some great effects without much programming on your
-part.
-
-Press \[Fixture Overlap\] *(on the second page of the [Cue Times menu](#time-and-fade-options-for-cue-lists))*
-then enter 0-100 on the keypad to change how fixtures overlap in the
-cue.
-
-Overlap | Result
---------|-------
-100%    | All fixtures fade together *(the normal setting)*.
-  0%    | The first fixture will finish its fade before the next one starts.
- 50%    | The 2^nd^ fixture will start fading when the first one is half way through its fade.
-
-To change the fixture order when using overlap, press \[Set Fixture
-Order\]. Normally this is the order in which you selected the
-fixtures when you programmed the cue. The Fixture window shows the
-fixture order in large green numbers. Reorder the fixtures by
-pressing \[Step Number\] then type the start number on the numeric
-keys, then press the fixture **Select** buttons in the order you want
-them.
-
-For example, to set the order of 8 fixtures, press 1 on the
-keypad, then press the **Select** button of the fixture to be first,
-then the **Select** button for the second, and so on. You can set
-several fixtures to the same number if you want them to change
-simultaneously. If you press a fixture button twice, it will show X and be excluded
-from the sequence.
-
-Press \<Exit\> to finish setting the fixture order.
-
-![Fixtures Window showing fixture order](/docs/images/Fixtures-Window-showing-fixture-order.png)
+For each cue you can set a fixture overlap, which creates an effect where 
+the fixtures in the cue are changed in sequence rather than all at the 
+same time. This is described in more detail in
+[Cue Timing](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
 Running a Cue List to Timecode
 ------------------------------
@@ -217,7 +187,7 @@ the cues: \[Timecode = \] sets the timecode directly while a value set with \[Of
 can be used in \[Add + \] or \[Subtract - \], to shift all selected timestamps by this timespan.
 
 You can open a timecode display window for each of the four possible
-sources to show you the incoming timecode - press \[Open Workspace
-Window\] then \[Timecode x\] where x is 1 to 4.
+sources to show you the incoming timecode - double press \<View/Open\> 
+then press \[Timecode x\] (where x is 1 to 4) from the workspace select buttons.
 
 ![Timecode 1 Workspace Window](/docs/images/Timecode-1-Workspace-Window.png)

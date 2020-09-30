@@ -32,8 +32,7 @@ macro/executor buttons to the main console. It connects by a single USB
 cable to the console or the PC running the Titan software.
 
 It is designed to fit next to the Titan Mobile panel, but it can also be
-used with the Tiger Touch, Quartz, Arena and Sapphire Touch consoles,
-and the Titan Two dongle.
+used with the Tiger Touch, Quartz, Arena, Sapphire Touch and T2.
 
 If you want to see the legends and function information for the wing
 controls, you can open the Wing View workspace window on the main

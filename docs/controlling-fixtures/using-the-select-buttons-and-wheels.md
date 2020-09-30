@@ -93,9 +93,8 @@ button rather than a quick press, you get some more options
     programming, but the lit state will not be stored in any cues you
     save.
 
-> To quickly locate without changing pan/tilt, hold \<Locate\> and press the Pan/Tilt (or Position) button, then release \<Locate\>.\
->
-> To quickly locate pan/tilt only, hold \<Locate\>, press \<Options\> (\<Attribute Options\> on some consoles), then press \<Position\> (\<Pan/Tilt\> on some consoles), then release \<Locate\>.
+> To quickly locate **without changing pan/tilt**, hold \<Locate\> and press the Pan/Tilt (or Position) button, then release \<Locate\>.\
+> To quickly locate **pan/tilt only**, hold \<Locate\>, press \<Options\> (\<Attribute Options\> on some consoles), then press \<Position\> (\<Pan/Tilt\> on some consoles), then release \<Locate\>.
 
 
 ### Changing the Locate State
@@ -191,9 +190,9 @@ If you select the fixture using the handle it is patched on, all cells
 of the fixture will be controlled together.
 
 You can use the buttons which appear at the top of the attribute editor
-window to select the main fixture, or individual cells for control (use
-the \[Open Workspace Window\] softkey to open the Attribute Editor
-window).
+window to select the main fixture, or individual cells for control (double
+press \<Open/View\> to open the Attribute Editor window from the window
+select buttons).
 
 ![Cell Selection](/docs/images/Cell-Selection.png)
 
@@ -246,52 +245,62 @@ is as follows: (\<THRO\> is called Through on some consoles)
 
 "Attributes" are the functions of the fixture, like pan, tilt, colour,
 dimmer, etc. You select which attributes you want to modify using the
-Attribute Bank buttons and set values using the wheels. The attributes
+IPCGBESFX Attribute Bank buttons and set values using the wheels. The attributes
 available depend on the fixture type. Dimmer channels only have a dimmer
 attribute.
 
-You can also select attributes by touching the IPCGBES buttons on the
-touch screen, and modify them using the [Attribute Editor workspace
+The touch display above the wheels shows the current attribute bank (grey background)
+and the current values on the wheels. The light blue circles show attributes
+which you have changed and which are in the programmer. The roller graphics show
+the different attributes which are available, which may be a percentage for a
+variable attribute, or named ranges for something like a colour or gobo wheel.
+
+![Wheels](/docs/images/Wheels.png)
+
+You can also set attributes using the [Attribute Editor workspace
 window](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-editor-window).
 
-On the Pearl Expert the wheels on the Touch Wing are used instead of the
-wheels on the console, unless you change this using the User Settings.
+>   On the Pearl Expert the wheels on the Touch Wing are used instead of the
+    wheels on the console, unless you change this using the User Settings.
 
 Each attribute button controls several attributes, one on each wheel. On
-Sapphire Touch the trackball always controls pan/tilt of the selected
-fixtures, with the ring controlling fine tilt.
+Sapphire Touch the trackball controls pan/tilt of the selected
+fixtures, with the ring controlling dimmer by default. You can change this
+by pressing the \<Assign\> button next to the trackball.
 
 1. With some fixtures selected, press the button for the attribute to
 be changed
 
-2. Turn the wheels to set the attribute. The display above the wheels
-shows which attributes are being controlled, and the settings which are
-available scroll up and down as you turn the wheels.  
+2. Turn the wheels to set the attribute. The settings which are
+available scroll up and down on the wheel display as you turn the wheels.  
 You can also touch the roller image on the screen to change the
-attributes up or down by one. For continuously variable controls like a
+attributes up or down by one step. For continuously variable controls like a
 dimmer, touching the roller will set the attribute to full or zero.
-![Wheels](/docs/images/Wheels.png)
 
-3. Repeat from 1 to change other attributes of the selected fixtures.
+3. Repeat from **step 1** to change other attributes of the selected fixtures.
+
+---
 
 Some other things to know about attributes:
 
--   If an attribute is in the programmer, it is highlighted (as shown
-    with the "Green" setting in the screen picture above). This provides
-    a quick way to see which attributes are in the programmer.
+![Toggle Attributes](/docs/images/Toggle-Attributes.png)
 
--   You can also select the attribute to be changed from the softkeys by
-    pressing the "Attribute Options" button.
+-   If the wheel display shows a small arrow next to the legends as shown above, this
+    means that there are more than three attributes to control in this bank. 
+    Press the attribute button again to toggle through the attributes (for example
+    some LED fixtures have Red, Green, Blue, Amber, White - so when you
+    press \<Colour\> you would first get Red, Green, Blue on the three
+    wheels, then if you press \<Colour\> again you will get Amber and White.)
+
+-   If an attribute is in the programmer, the value in the programmer is highlighted 
+    in pale blue on the wheel display and the IPCGBESFX button also has a pale
+    blue highlight. This provides a quick way to see which attributes are 
+    in the programmer.
 
 -   If the display above the wheels does not show the attribute when you
     press the button, that attribute is not available on the selected
     fixtures.
 
--   If the wheel display shows a small arrow next to the legends, this
-    means that there are further attributes to control. Press the
-    Attribute button again to toggle through the attributes.
-
-![Toggle Attributes](/docs/images/Toggle-Attributes.png)
 
 -   The wheels operate in an "acceleration" mode. If you spin the wheel
     fast, the fixture changes in larger steps. If you move the wheel
@@ -303,34 +312,16 @@ Some other things to know about attributes:
     example, if while moving the Pan wheel you hold down \<Avo\> the
     fixture will make a complete pan movement between end stops in one
     rotation of the wheel.
+    
+-   You can also select the attribute to be changed from the softkeys by
+    pressing the \<Attribute Options\> button.
 
 -   Some LED colour mixing fixtures have a Virtual Dimmer function
     (using the Intensity wheel) which offers intensity control by
     mastering the RGB levels when the fixture itself does not provide an
     intensity channel.
 
-## Attribute Wheel Display
 
-The touch display above the wheels shows the attribute bank (Intensity,
-Position, Colour and so on) and the current values on the wheels.
-
-![Wheels](/docs/images/Wheels.png)
-
-Touch the IPCGBESFX attribute bank buttons to change to a different
-bank. You can also use the physical attribute bank buttons as usual. The
-current attribute bank is shown with a grey background.
-
-If attributes have been modified, the attribute button has a pale blue
-highlight.
-
-The Roller display shows the attributes available on each wheel. These
-may be shown as a percentage value, or named values for attributes with
-fixed positions such as a colour wheel. If the attribute has been
-modified, the current value in the programmer is highlighted in blue.
-
-You can touch the roller image to change the attribute to the
-next/previous value. For continuously variable controls like a dimmer,
-touching the roller will set the attribute to full or zero.
 
 ## Attribute Editor Window
 
@@ -339,8 +330,8 @@ the Attribute Editor window can be easier to work with than the wheels.
 It also offers a colour picker window for fixtures with RGB or CMY
 colour mixing.
 
-Press \<View/Open\> then \[Open Workspace Window\] then \[Attribute
-Editor\] to show it. As a shortcut you can also show it by touching the
+Double press \<View/Open\> then \[Attribute
+Editor\] from the window select buttons to show it. As a shortcut you can also show it by touching the
 attribute name text just below the on-screen IPCGBES buttons.
 
 The buttons on the left of the window select the attribute to change.
@@ -482,7 +473,11 @@ different appearances depending on the control channels in the fixture.
 
 ![Attribute Editor - Blades](/docs/images/Attribute-Editor-Blades.png)
 
-> Updated personality files may be required to support the keystone/blade functions. If the functions are not shown in the Attribute View, try downloading and installing the latest personality file, then run the Update Patched Fixtures command.
+>   Updated personality files may be required to support the keystone/blade functions. 
+    If the functions are not shown in the Attribute View, try downloading and installing 
+    the latest personality library, then 
+    [update the personalities](../patching/changing-the-patch.md#updating-patched-personalities)
+    in the Patch menu.
 
 ## Setting Attributes from the Softkeys
 
@@ -612,7 +607,8 @@ the next stage of the pattern (\<Next\> and \<Prev\> on some consoles).
 -   The Direction option allows you to set the fixture selection order
     to go in a specific direction (using the group layout). This is
     useful for selecting symmetrical pairs of fixtures and for quickly
-    creating cues using overlap.
+    creating cues using 
+    [Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
 -   Direction will return to "None" when you press Clear. You can change
     this by setting \[Clear / Maintain Direction\] in the \[Clear

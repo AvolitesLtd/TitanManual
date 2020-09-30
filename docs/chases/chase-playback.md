@@ -100,7 +100,8 @@ move continuously from step to step).*
 depending in the [User Settings](../system-settings/user-settings.md).*
 
 There are other options you can set for the chase from this menu
-including Fixture Overlap, which are described in the [Chase Timing](chase-timing.md).
+including [Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap),
+which are described in the [Chase Timing](chase-timing.md).
 
 You can set individual times for each cue in a chase and unlink cues
 from each other so they wait for you to press the Go button. This is
