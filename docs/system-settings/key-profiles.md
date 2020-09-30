@@ -145,7 +145,7 @@ scene mode**, **Enter or commit scene mode**.
 
 ## Selecting a Key Profile
 
-To quickly select a Key Profile, hold the \<Avo\> Shift button and press
+To quickly select a Key Profile, hold the \<Avo\> button and press
 \[Select Key Profile\].
 
 ## Individual Key Profiles for playbacks
