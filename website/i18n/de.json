@@ -1138,8 +1138,8 @@
         "sidebar_label": "Netzwerkanschlüsse beim Arena"
       },
       "version-13.0-networking/controlling-fixtures-over-a-network": {
-        "title": "Netzwerkanschlüsse beim Arena",
-        "sidebar_label": "Netzwerkanschlüsse beim Arena"
+        "title": "Steuern von Geräten über Netzwerk",
+        "sidebar_label": "Steuern von Geräten über Netzwerk"
       },
       "version-13.0-networking/using-active-fixtures": {
         "title": "Verwenden von Geräten mit CITP",
