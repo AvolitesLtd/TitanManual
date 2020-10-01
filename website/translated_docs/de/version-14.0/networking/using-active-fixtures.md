@@ -5,65 +5,65 @@ sidebar_label: Using Active Fixtures with CITP
 original_id: using-active-fixtures
 ---
 
-CITP is a standard system allowing lighting devices to communicate and
-share information. This is often used with media servers to allow the
-console to get media thumbnail images and layer information from the
-server. The thumbnail images can then be used on the console to select
-media clips.
+CITP ist ein Protokoll zur Kommunikation von Geräten miteinander. Es
+wird häufig benutzt, um etwa Thumbnails oder Informationen über
+vorhandene Layer von Medienservern an Lichtpulte zu übertragen. Damit
+kann man am Pult sehr einfach den gewünschten Clip identifizieren und
+anwählen.
 
-This section does not apply to Ai media servers which use the Synergy
-system to communicate with Titan consoles.
+Dieser Abschnitt gilt nicht für Ai-Server, die mittels Synergy mit dem
+Pult verbunden sind.
 
-Example CITP setup
-------------------
+Ein CITP-Beispiel
+-----------------
 
-This example shows how to set up a Hippotizer with Titan.
+In diesem Beispiel wird ein Hippotizer mit einem Titan-Pult verbunden.
 
-1. Connect the console and Hippotizer to the network. (You can connect
-the Hippotizer directly to the console, if no other devices are being
-connected, using a crossover patch cable).
+1.	Verbinden Sie Pult und Hippotizer netzwerkseits (per Netzwerkswitch,
+	oder ggf. mittels eines Crossover-Kabels).
 
-2. Set up the IP addresses and subnet masks of the console and Hippo so
-that they are on the same address range, for example `192.168.0.1` and
-`192.168.0.2`.
+2.	Stellen Sie die IP-Adressen so ein, dass beide nicht identisch, aber
+	in einem Bereich sind, also z.B. `192.168.0.1` und `192.168.0.2`.
 
-3. If you are using Titan Mobile or Titan Simulator ensure the firewall
-on your PC is disabled. Also ensure the Hippo machine is not running a
-firewall.
+3.	Bei der Verwendung des Titan Mobiles oder des Simulator ist ggf. die
+	Firewall zu deaktivieren; gleiches gilt für den Hippotizer.
 
-4. Run the Hippo system. Make sure the CITP component is running.
+4.	Starten Sie den Hippotizer. Überprüfen Sie, dass die CITP
+	Component geladen ist.
 
-5. Switch the console to System mode and select \[DMX Settings\].
+5.	Schalten Sie das Pult in den System-Modus und wählen Sie \[DMX
+	Settings\].
 
-6. On the left hand side under Art-Net you should see the Hippo with
-its IP address. Click on it and then on the right hand side click on the
-DMX line you want to use it with.
+6.	Links im Fenster wird nun der Hippotizer mit seiner IP-Adresse als
+	Art-Net-Knoten angezeigt. Klicken Sie darauf und ordnen Sie ihn einer
+	internen DMX-Linie zu.
 
-7. On the Hippo node on the left hand side, click the 'i' button and
-set the Universe number to match the universe setting on the Hippo.
+7. 	Klicken Sie auf Zahnrad-Symbol des zugeordneten Hippo-Knotens (rechts)
+	und überprüfen Sie, dass das eingestellte Universum mit den Einstellungen 
+	des Hippotizers übereinstimmt.
 
-8. \<Exit\> System mode back to the default menu.
+8.	Schließen Sie das Fenster mit \<Exit\> und schalten Sie wieder in
+	den Programmier-Modus.
 
-9. Restart the console software using the option on the Tools menu (for
-Titan Mobile, Titan Go or Simulator just close and restart the Titan
-software).
+9.	Starten Sie die Pult-Software neu (Schließen und neu starten, oder
+	\[Tools\], \[Restart Software\]).
 
-10. Go into Patch mode and select \[Active Fixtures\]. You should see
-the Hippo with its IP address as a softkey option.
+10.	Zum Patchen wählen Sie nun \<Patch\>, \[Active Fixtures\]. Nun
+	taucht der Hippotizer als zu patchendes Gerät auf.
 
-11. Select the Hippo, then set the DMX line to match the line you set
-in Step 6.
+11.	Wählen Sie diesen, und stellen Sie als DMX-Linie die in Schritt
+	6 gewählte ein.
 
-12. Press an empty fixture handle to patch. The console will
-automatically patch the required layers and master layer as a series of
-fixture buttons.
+12.	Klicken Sie auf eine Geräte-Schaltfläche, um den Hippotizer zu
+	patchen. Das Pult legt daraufhin automatisch die vorhandenen Layer
+	(incl. Master-Layer) als Geräte an.
 
-13. Now if you select a fixture and open the Attribute Editor window
-you should see the media thumbnails.
+13.	Wird nun eines dieser Geräte ausgewählt, so zeigt der
+	Attribut-Editor die vorhandenen Clips als Thumbnails an.
 
-The next time you start the system, ensure the Hippo is powered up
-before you start the console.
+Stellen Sie sicher, dass beim nächsten Start zuerst der Hippotizer und
+erst dann das Pult gestartet wird.
 
-If you decide to re-patch to a different DMX address you will need to
-re-start the Hippotizer software. You will also need to reset the
-Art-Net nodes if you are moving across DMX lines.
+Wird die DMX-Adresse geändert, so muss der Hippotizer neu gestartet
+werden. Ebenso müssen im Pult die Art-Net-Knoten zurückgesetzt werden,
+wenn diese neuen DMX-Linien zugeordnet werden.
