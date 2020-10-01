@@ -5,29 +5,32 @@ sidebar_label: Glossary of Avolites terms
 original_id: glossary
 ---
 
-This section explains what common lighting terminology means in Avolites Titan. In cases where other lighting equipment manufacturers use the words to mean something else, this is listed in the text.
+Hier werden die wichtigsten Fachbegriffe aufgelistet und erklärt, die
+bei der Arbeit mit Avolites-Pulten sowie in diesem Handbuch vorkommen.
+Sollten einzelne Begriffe bei anderen Herstellern eine andere Bedeutung
+haben, so wird auch dies entsprechend erläutert.
 
-word 		| meaning
+Begriff	| Bedeutung
 ------------|----
-ADDRESS		| The first DMX channel/slot of the set of channels occupied by an individual Fixture. This is set on the fixture somehow (by a menu or switches or remotely using RDM).
-ALIGN		| A means of copying Attribute characteristics from the first Fixture selected to other selected fixtures, resulting in those attributes of the fixtures being aligned to each other.
-ART-NET		| An ethernet based system allowing multiple Universes of DMX to be sent over a network.
-ATTRIBUTE	| One function of a Fixture, such as “Colour Wheel” or “Focus”.
-ATTRIBUTE GROUPS	| see IPCGBES.
-AUTOLOAD	| A Playback which is automatically fired by a Cue in a Cue List. Enables a chase to be fired by a cue list.
-BACKUPS		| Copies of a show stored to a storage device for safety.
-BPM			| Beats Per Minute. 60 BPM is equivalent to one step per second.
-BLIND		| When set to Blind mode, changes made on the console do not affect the DMX output. Useful for making programming changes during a show.
-BUSKING		| Operating the console live (usually for live music) when you do not have a complete show programmed, but instead creating effects as you go along using palettes etc.
-CELL		| Part of a Fixture which can be controlled separately within the larger fixture – for example an LED batten may have 12 cells each of which can be controlled separately, or all together. Also called Subfixture.
-CHANNEL		| Button allowing syntax / numeric style entry and operation of the console using the User Number of fixtures/dimmers.
-CHASE		| A sequence of one or more pre recorded steps which automatically run one after the other.
-COLOUR MIX / CMY	| A system of three filters (Cyan, Magenta, Yellow) that can each crossfade from white to a colour, or one colour to another. It is a feature of most Fixtures, which enables any colour to be created.
-CONNECTED CHASE	| A Chase which is linked to the Wheels by pressing the <Connect> button.
-CUE			| A single stage look programmed onto a Playback button or fader, or as part of a Cue List. Also known as MEMORY, STATE, SCENE, LOOK.
-CUE LIST	| A sequence of cues programmed onto a Playback button or fader. Each cue can have its own delay and fade times and can also start other cues or playbacks. Also known as a CUE STACK or STACK.
-CUE MODE	| A playback format programmed into a Cue which determines how the cue fades in and out. There are Cue Modes 0 - 3.
-CURVE		| A curve sets how fades and other changes on the console progress over time. A variety of different curves may be selected.
+ADDRESS		| Der erste von einem Gerät verwendete DMX-Kanal. Diese sog. Startadresse wird normalerweise am Gerät eingestellt, ggf. auch per RDM.
+ALIGN  <br>(Angleichen) | Kopieren von Attributwerten von einem auf ein oder mehrere Geräte, die dadurch den gleichen Output erzeugen.
+ART-NET		| Ethernet-basiertes System zum Übertragen mehrerer DMX-Universen über Netzwerk.
+ATTRIBUTE	| Zu steuernde Funktion eine Gerätes, z.B. 'Farbrad' oder 'Fokus'.       
+ATTRIBUTE GROUPS	| siehe IPCGBES.
+AUTOLOAD	| Playback, welches durch eine Cueliste gestartet wird. Damit können z.B. Chaser durch Cuelisten gestartet werden.                              
+BACKUPS		| Sicherungskopie einer Show, etwa auf einem USB-Stick.
+BPM			| Beats Per Minute. 60 BPM entsprechen einem Beat (Schritt) pro Sekunde.
+BLIND		| Im Blind-Modus haben Werte im Programmer keine Auswirkung auf den DMX-Ausgang. So können z.B. während der Show unbemerkt Änderungen vorgenommen werden.
+BUSKING<br> (Improvisieren)	| Spontanes, improvisiertes 'Drücken' einer Lichtshow, die also nicht komplett durchprogrammiert ist. Wichtige Hilfsmittel sind Paletten und Effekte.
+CELL <br> 	(Zelle, Teilgerät)  	| Teil eines größeren Gerätes, welches einzeln gesteuert werden kann. So kann z.B. ein LED-Fluter 12 Zellen haben, die einzeln gesteuert werden können. Auch als Subfixture (Teilgerät) bekannt.
+CHANNEL		| Mit der \<Channel\>-Taste auf älteren Pulten können Geräte per Tastensyntax angewählt werden. (auf neueren Pulten: Fixture)
+CHASE<br>(Lauflicht)   		| Sequenz von mehreren Cues, die automatisch nacheinander ablaufen.
+COLOUR MIX / CMY	| System aus drei bestimmten Farbfiltern (Cyan, Magenta, Gelb), durch deren Mischung sich das gesamte Farbspektrum abbilden lässt.
+CONNECTED CHASE	| Chaser, der mit der Steuerung (Encoder und Tasten) verbunden ist.
+CUE			| Einzelne Lichtstimmung (oder Teil davon), die auf einem Fader oder einer Taste/Button programmiert ist. Kann auch Teil einer Cueliste sein. Auch bekannt als Memory, State, Szene oder Look.
+CUE LIST <br> (Cueliste) 	| Sequenz aus mehreren Cues, die auf einen Fader oder Button programmiert ist. Jeder Cue kann individuelle Fadezeiten haben sowie auch andere Cues oder playbacks starten. Auch bekannt als Cue Stack oder einfach nur Stack. 
+CUE MODE	| Einstellung eines Playbacks zur Bestimmung der Wirkungsweise des Faders. Es gibt die Cue-Modes (Fadermodes) 0 bis 3.
+CURVE <br>(Kurve, Kennlinie)  		| Bestimmt den Verlauf des Ausgangssignals in Abhängigkeit von der Faderstellung oder der Zeit.
 DEVICE		| See FIXTURE.
 DIMMER		| Device used to control the intensity of an individual light.
 DMX	DMX512(1990) | a specification for communication between control desks and Fixtures, Originally for Dimmers it has been adopted as a control protocol for most Intelligent Fixtures. It can carry 512 different slots or channels of data per Universe, and Titan can output up to 64 universes (using additional network processors).
