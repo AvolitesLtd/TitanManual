@@ -18,8 +18,7 @@ speed of the chase.
     fader; if [fade times](chase-timing.md) are programmed, the fade will stop at the fader
     level. The other channels (LTP) will be set as soon as the fader
     moves above zero according to the fade times programmed in the
-    chase. You can set the point at which the LTP channels activate from
-    the [User settings](../system-settings/user-settings.md) menu.
+    chase. 
 
 While the chase is running, the area of the screen above the wheels
 shows details of the chase steps:
