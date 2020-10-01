@@ -5,208 +5,175 @@ sidebar_label: Titan Commands Quick Reference
 original_id: titan-commands
 ---
 
-Please note that some commands may require \<Enter\> to complete the
-command. In this reference \<Enter\> has always been omitted for
-clarity.
+Einige der hier aufgeführten Befehle müssen mit \<Enter\> abgeschlossen
+werden. Der besseren Lesbarkeit halber wurde das \<Enter\> hier jedoch
+weggelassen.
 
-\[ Softkey \] formatting means a softkey on the console.
+\<  \> bedeutet eine wirkliche Taste.
 
-\< Button \> formatting means a physical labelled button
+\[  \] bedeutet eine Schaltfläche odr Menütaste.
 
-{ } means a handle button, e.g. {Cue} means the blue button on a cue
-playback handle
+{ } ist die Auswahl eines Speicherplatzes, z.B. {Cue} ist die blaue Auswahltaste
+eines Playbacks.
 
-Numbers are typed on the numeric keypad
+Nummern/Zahlen werden mit den Zifferntasten eingegeben.
 
-The available buttons may differ depending on which console you are
-using. If your console doesn't have the button, a softkey is also
-provided with the same function.
+Die verfügbaren Tasten sind teilweise je nach Pult unterschiedlich. Ist
+eine bestimmte Taste nicht vorhanden, so steht die Funktion meist als
+Makro zur Verfügung.
 
-Some of the buttons in this guide have changed names and so here is a
-list of the old button names and their new equivalents.
+Einige der Tasten haben auf älteren Pulten abweichende Bezeichnungen;
+diese sind hier aufgeführt:
 
 
-  Old Name |  New Name
-  ---------|----------
-  Connect  |  Cue
-  SET      |  TIME
+  Alter Name |  Neuer Name
+  -----------|------------
+  Connect    |  Cue
+  SET        |  TIME
 
-Fixtures
---------
+Fixtures - Geräte
+-----------------
 
-**\<Fixture\> 1 \<Through\> 10**\
-Select fixtures 1 through to 10.
+Tastenfolge 										| Resultat
+---													| --- 
+\<Fixture\> 1 \<Through\> 10						| Auswahl der Geräte 1 bis 10.
+\<Fixture\> 1 \<Through\> 10 \<And\> 20 \<And\> 25	| Auswahl der Geräte 1 bis 10 sowie 20 und 25.
+\<Fixture\> 5 \<@\> \<@\>							| Dimmer von Gerät 5 auf 100%.	
+\<Fixture\> 1 \<Through\> 60 \<@\> 75				| Dimmer von Gerät 1 bis 60 auf 75%.
+\<Group\> 2 \<@\> \<@\>								| Dimmer von Gruppe 2 auf 100%.
+\<Group\> 2 \<@\> 75								| Dimmer von Gruppe 2 auf 75%.
 
-**\<Fixture\> 1 \<Through\> 10 \<And\> 20 \<And\> 25**\
-Select fixtures 1 to 10 and 20, 25
+### Geräte mit Zellen (Sub Fixtures)
 
-**\<Fixture\> 1 \<Through\> 10 \<And\> \<.\>2**\
-Select the second cell of fixtures 1 to 10.
+Tastenfolge 										| Resultat
+---													| --- 
+\<.\> m												| Zelle m der gewählten Geräte wählen.
+\<.\>												| Alle Zellen der gewählten Geräte wählen.
+n \<.\>												| Alle Zellen des Geräts n.
+1 \<Through\> 5 \<.\> 2								| Zweite Zelle der Geräte 1 bis 5.
+\<.\> \<Through\> \<.\> j<br>oder<br>\<Through\> \<.\> j	| <br>Zellen 1 bis j der gewählten Geräte.									
+\<.\> m \<Through\>									| Zellen ab Zelle m der gewählten Geräte.
+\<.\> m \<Through\> \<.\>j<br>oder<br>\<.\> m \<Through\> j | <br>Zellen m bis j aller angewählten Geräte.
+n \<Through\> i\<.\> 								| Alle Zellen der Geräte n bis i
+n \<Through\> i\<.\>j								| Zelle j der Geräte n bis i
+n \<Through\> \<.\>j								| Zellen 1 bis j der Geräts n
+n \<.\> \<Through\>									| Alle Zellen der Geräte gleichen Typs ab Gerät n
+n \<.\> \<Through\> i								| Zellen 1 bis i des Geräts n
+n \<.\> \<Through\> i\<.\>j							| Zellen 1 bis j der Geräte n bis i
 
-**\<Fixture\> 1 \<Through\> 10 \<And\> \<.\>2**\
-Select the second cell of fixtures 1 to 10.
+Select If -- Bedingte Auswahl
+-----------------------------
 
-**\<Fixture\> 5 \<@\> \<@\>**\
-Put fixture 5 at full intensity.
+Tastenfolge 										| Resultat
+---													| --- 
+\<Select If\> \<@\>\<@\>							| Alle Geräte mit Dimmer >0%.
+\<Select If\> \<@\> \<Through\> 50					| Alle Geräte mit Dimmer >50%.
+\<Select If\> \<@\> 50 \<Through\>					| Alle Geräte mit Dimmer <50%.
 
-**\<Fixture\> 1 \<Through\> 60 \<@\> 75**\
-Put fixtures 10 to 60 at 75% intensity.
+Record -- Speichern
+-------------------
 
-**\<Group\> 2 \<@\> \<@\>**\
-Put group 2 at full intensity.
+---
+**\<Record\> {Cueliste} {Cueliste}**\
+Anhängen an das Ende der Cueliste
+---
+**\<Record\> \<Cue\> \<Cue\>**\
+Mergen des Programmers in den gerade aktiven Cue der verbundenen Cueliste.
+---
+**\<Record\> \<Cue\> 90.1**\
+Mergen des Programmers in Cue 90.1 der verbundenen Cueliste (dieser Cue wird neu erstellt falls nicht vorhanden)
+---
+**\<Record\> \<Cue\> 1 \<Through\> 10 \<And\> 20**\
+Mergen des Programmers in Cues 1 bis 10 und 20 (nach dem \<Enter\> wählt man Kopieren/Mergen/Ersetzen oder drückt nochmals \<Enter\> zum Mergen)
+---
+**\<Record\> \<Position\> \<Cue\> \<Cue\>**\
+Mergen des Programmers (nur Position) in den gerade aktiven Cue.
+---
+**\<Record\> \<Options\> \<Position\> \<Cue\> \<Cue\>**\
+Mergen des Programmers (nur Position) in den gerade aktiven Cue.
+---
+Copy, Move -- Kopieren, Verschieben in Cuelisten
+------------------------------------------------
 
-**\<Group\> 2 \<@\> 75**\
-Put group 2 at full intensity.
-
-### Celled Fixtures (Sub Fixtures)
-
-**\<.\> m**\
-Select cell m in the selected fixtures.
-
-**\<.\>**\
-Select all the cells in the selected fixtures.
-
-**n \<.\>**\
-all sub fixtures of fixture n
-
-**1 \<Through\> 5 \<.\> 2**\
-Select the second cell of fixtures 1 to 5
-
-**\<.\> \<Through\> \<.\> j**\
-**\<Through\> \<.\> j**\
-Select cells 1 to j of all selected fixtures
-
-\<.\> m \<Through\>\
-Cells m-\>last of all selected fixtures
-
-**\<.\> m \<Through\> \<.\>j**\
-**\<.\> m \<Through\> i**\
-sub fixtures m-\>j or all selected fixtures
-
-**n \<Through\> i\<.\>**\
-all sub fixtures of fixtures n-\>i
-
-**n \<Through\> i\<.\>j**\
-sub fixture j of fixtures n-\>i
-
-**n \<Through\> \<.\>j**\
-sub fixture 1-\>j of fixture n
-
-**n \<.\> \<Through\>**\
-all sub fixtures of fixture n-\>last consecutive of type n
-
-**n \<.\> \<Through\> i**\
-sub fixtures 1-\>i of fixture n
-
-**n \<.\> \<Through\> i\<.\>j**\
-sub fixtures 1-\>j of fixtures n-\>i
-
-Select If
----------
-
-**\<Select If\> \<@\>\<@\>**\
-Select all fixtures above 0% intensity.
-
-**\<Select If\> \<@\> \<Through\> 50**\
-Select all fixtures above 50% intensity
-
-**\<Select If\> \<@\> 50 \<Through\>**\
-Select all fixtures below 50% intensity
-
-Record
-------
-
-**\<Record\> {Cue} {Cue}**\
-Merge the live cue with the programmer.
-
-**\<Record\> {Cue} 90.1**\
-Merge cue 90.1 with the programmer.
-
-**\<Record\> {Cue} 1 {Through} 10 \<And\> 20**\
-Merge programmer contents into cues 1 to 10 and 20.
-
-**\<Record\> \<Position\> {Cue} {Cue}**\
-Merge all but position from the programmer with the live cue.
-
-**\<Record\> \<Options\> \<Position\> {Cue} {Cue}**\
-Merge only position from the programmer with the live cue.
-
-Copy, Move in cue list
-----------------------
-
-**\<Copy\> {Cue} n \<Enter\>**\
-Copy cue n and append at the end of the cue list.
-
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
-n**\
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
-\<Enter\> n \<Enter\>**\
-Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert after cue n.
-
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
+---
+**\<Copy\> {Cueliste} n \<Enter\>**\
+Cue n an das Ende der Cueliste kopieren.
+---
+**\<Copy\>/\<Move\> {Cueliste} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\> n**\
+Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
+{Cueliste} und Einfügen hinter Cue n.
+---
+**<Copy\>/\<Move\> {Cueliste} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<Enter\> {target playback} n \<Enter\>**\
+Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
+{Cueliste} und Einfügen am Ende der Cueliste.
+---
+**\<Copy\>/\<Move\> {Cueliste} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
 \<@\>**\
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
+**\<Copy\>/\<Move\> {Cueliste} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
 \<Enter\> \<Enter\>**\
-Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert at the end of the cue
-list.
-
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
+Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
+{Cueliste} und Einfügen am Ende der Cueliste.
+---
+**\<Copy\>/\<Move\> {Cueliste} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
 {target playback} n**\
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
+**\<Copy\>/\<Move\> {Cueliste} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
 \<Enter\> {target playback} n \<Enter\>**\
-Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert at cue n in the
-target playback.
+Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
+{Cueliste} und Einfügen nach Cue n der Cueliste auf {target
+playback}.
+---
 
-Delete
-------
+Delete -- Löschen
+-----------------
 
-**\<Delete\> {Cue} n**\
-Delete cue n from the connected cue list.
+**\<Delete\> \<Cue\> n**\
+Cue n der gerade verbundenen Cueliste löschen.
 
-Include
--------
+Include --  in den Speicher laden
+---------------------------------
 
-**\<Include\> {Cue} n**\
-Include cue n into the programmer from the connected cue list.
+**\<Include\> \<Cue\> n**\
+Cue n der gerade verbundenen Cueliste in den Programmierspeicher
+laden.
 
-Times
------
+Times -- Zeiten
+---------------
 
 **\<Time\> 5**\
-5sec fade in
+5 Sekunden Einfadezeit.
 
 **\<Cue\> 3 \<Time\> 5**\
-5sec fade in on connected playback\'s cue 3
+5 Sekunden Einfadezeit für Cue 3 der gerade verbundenen Liste.
 
 **\<Time\> \<Fixture\> 5**\
-5sec fade in for all attributes of selected fixtures
+5 Sekunden Einfadezeit für alle Attribute der ausgewählten Geräte.
 
 **\<Time\> \<Fixture\> \<Gobo\> 5**\
-5sec fade in for gobo attribute group of selected fixtures
+5 Sekunden Einfadezeit für die Gobo-Attribute der ausgewählten Geräte.
 
 **\<Time\> \<Fixture\> \<@\> \<B@\> 5**\
-5sec fade in for attribute connected to wheel B on selected fixtures
+5 Sekunden Einfadezeit für das gerade mit Encoder B gesteuerte Attribut
+der ausgewählten Geräte.
 
 **\<Time\> 5 \<@\> 3**\
-5sec fade in, 3 sec delay
+5 Sekunden Einfadezeit, 3 Sekunden Delay.
 
 **\<Time\> 5 \<And\> 2**\
-5sec fade in, 2sec fade out
+5 Sekunden Einfadezeit, 2 Sekunden Ausfadezeit.
 
 **\<Time\> 1 \<Through\> 10**\
-times spread across fixtures according to selection order
+Fadezeit nach Geräteauswahl aufgeteilt.
 
-Cue Lists
----------
+Cue Lists -- Cuelisten
+----------------------
 
-**\<Cue\> n \<Go\>**
+**\<Cue\> n \<Go\>**\
+Direktes Starten von Cue n (in der aktuell verbundenen Cueliste).
 
-Go to cue n (in connected cue list)
+**5 \<Go\>**\
+Den nächsten Cue mit 5 Sek. Fadezeit -- statt der programmierten
+Fadezeit -- starten.
 
-**5 \<Go\>**
-
-Run the next cue with 5 sec fade instead of the programmed cue time
-
-**\<Cue\> 3 \<Enter\> 5 \<Go\>**
-
-Jump to cue 3 with 5 sec fade instead of the programmed cue time
+**\<Cue\> 3 \<Enter\> 5 \<Go\>**\
+Cue 3 mit 5 Sek. Fadezeit -- statt der programmierten Fadezeit --
+starten.
