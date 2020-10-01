@@ -119,7 +119,7 @@ Merge the live cue  of the connected cue list with the programmer.
 Merge cue 90.1 of the connected cue list with the programmer. If this cue doesn't exist it will be created.
 
 **\<Record\> \<Cue\> 1 \<Through\> 10 \<And\> 20**\
-Record/merge programmer contents into cues 1 to 10 and 20 (select  copy/merge/replace from softkeys or doublepress \<Enter\> to merge.
+Record/merge programmer contents into cues 1 to 10 and 20 (select  copy/merge/replace from softkeys or double press \<Enter\> to merge.
 
 **\<Record\> \<Position\> \<Cue\> \<Cue\>**\
 Merge only position from the programmer with the live cue.
