@@ -39,12 +39,6 @@ Select fixtures 1 through to 10.
 **\<Fixture\> 1 \<Through\> 10 \<And\> 20 \<And\> 25**\
 Select fixtures 1 to 10 and 20, 25
 
-**\<Fixture\> 1 \<Through\> 10 \<And\> \<.\>2**\
-Select the second cell of fixtures 1 to 10.
-
-**\<Fixture\> 1 \<Through\> 10 \<And\> \<.\>2**\
-Select the second cell of fixtures 1 to 10.
-
 **\<Fixture\> 5 \<@\> \<@\>**\
 Put fixture 5 at full intensity.
 
@@ -115,43 +109,46 @@ Select all fixtures below 50% intensity
 Record
 ------
 
-**\<Record\> {Cue} {Cue}**\
-Merge the live cue with the programmer.
+**\<Record\> {Cue list} {Cue list}**
+Append cue at the end of the list.
 
-**\<Record\> {Cue} 90.1**\
-Merge cue 90.1 with the programmer.
+**\<Record\> \<Cue\> \<Cue\>**\
+Merge the live cue  of the connected cue list with the programmer.
 
-**\<Record\> {Cue} 1 {Through} 10 \<And\> 20**\
-Merge programmer contents into cues 1 to 10 and 20.
+**\<Record\> \<Cue\> 90.1**\
+Merge cue 90.1 of the connected cue list with the programmer. If this cue doesn't exist it will be created.
 
-**\<Record\> \<Position\> {Cue} {Cue}**\
-Merge all but position from the programmer with the live cue.
+**\<Record\> \<Cue\> 1 \<Through\> 10 \<And\> 20**\
+Record/merge programmer contents into cues 1 to 10 and 20 (select  copy/merge/replace from softkeys or doublepress \<Enter\> to merge.
 
-**\<Record\> \<Options\> \<Position\> {Cue} {Cue}**\
+**\<Record\> \<Position\> \<Cue\> \<Cue\>**\
+Merge only position from the programmer with the live cue.
+
+**\<Record\> \<Options\> \<Position\> \<Cue\> \<Cue\>**\
 Merge only position from the programmer with the live cue.
 
 Copy, Move in cue list
 ----------------------
 
-**\<Copy\> {Cue} n \<Enter\>**\
+**\<Copy\> {Cue list} n \<Enter\>**\
 Copy cue n and append at the end of the cue list.
 
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
+**\<Copy\>/\<Move\> {Cue list} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
 n**\
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
+**\<Copy\>/\<Move\> {Cue list} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
 \<Enter\> n \<Enter\>**\
-Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert after cue n.
+Copy or move cues 1,2,3,4,6,7,8,9,10,20 from {Cue list} and insert after cue n.
 
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
+**\<Copy\>/\<Move\> {Cue list} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
 \<@\>**\
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
+**\<Copy\>/\<Move\> {Cue list} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
 \<Enter\> \<Enter\>**\
 Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert at the end of the cue
 list.
 
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
+**\<Copy\>/\<Move\> {Cue list} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
 {target playback} n**\
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
+**\<Copy\>/\<Move\> {Cue list} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
 \<Enter\> {target playback} n \<Enter\>**\
 Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert at cue n in the
 target playback.
@@ -159,13 +156,13 @@ target playback.
 Delete
 ------
 
-**\<Delete\> {Cue} n**\
+**\<Delete\> \<Cue\> n**\
 Delete cue n from the connected cue list.
 
 Include
 -------
 
-**\<Include\> {Cue} n**\
+**\<Include\> \<Cue\> n**\
 Include cue n into the programmer from the connected cue list.
 
 Times
@@ -198,12 +195,10 @@ times spread across fixtures according to selection order
 Cue Lists
 ---------
 
-**\<Cue\> n \<Go\>**
-
+**\<Cue\> n \<Go\>**\
 Go to cue n (in connected cue list)
 
-**5 \<Go\>**
-
+**5 \<Go\>**\
 Run the next cue with 5 sec fade instead of the programmed cue time
 
 **\<Cue\> 3 \<Enter\> 5 \<Go\>**
