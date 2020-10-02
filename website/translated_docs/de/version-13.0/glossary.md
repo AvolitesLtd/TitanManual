@@ -31,87 +31,82 @@ CUE			| Einzelne Lichtstimmung (oder Teil davon), die auf einem Fader oder einer
 CUE LIST <br> (Cueliste) 	| Sequenz aus mehreren Cues, die auf einen Fader oder Button programmiert ist. Jeder Cue kann individuelle Fadezeiten haben sowie auch andere Cues oder playbacks starten. Auch bekannt als Cue Stack oder einfach nur Stack. 
 CUE MODE	| Einstellung eines Playbacks zur Bestimmung der Wirkungsweise des Faders. Es gibt die Cue-Modes (Fadermodes) 0 bis 3.
 CURVE <br>(Kurve, Kennlinie)  		| Bestimmt den Verlauf des Ausgangssignals in Abhängigkeit von der Faderstellung oder der Zeit.
-DEVICE		| See FIXTURE.
-DIMMER		| Device used to control the intensity of an individual light.
-DMX	DMX512(1990) | a specification for communication between control desks and Fixtures, Originally for Dimmers it has been adopted as a control protocol for most Intelligent Fixtures. It can carry 512 different slots or channels of data per Universe, and Titan can output up to 64 universes (using additional network processors).
-EXCHANGE	| A way to swap a Fixture in a show to a different type of fixture while retaining most or all of the programming.
-FADE		| A continuous transition from one level to another.
-FAN			| A way of automatically spreading out Attributes around a central point to speed up programming.
-FIXTURE		| Any lighting instrument that is patched using a Personality. Generally refers to a moving light or colour changing light, not an individual Dimmer channel. Also called Intelligent Fixture, Device, Instrument, Moving Light.
-FIXTURE LAYOUT	| A way of telling the console where Fixtures are physically located in 2D space, for use with Shapes or the Pixel Mapper.
-FLASH		| Pushbutton which adds a playback into the existing output of the console. Historically called the ADD button. See also SWOP.
-FLIP		| A function for use with Moving Head Fixtures. They have two possible Pan and Tilt settings for each position on stage by reversing the yoke, and FLIP will alternate between them.
-FOCUS		| The library of stored positions, colours etc which are called Focuses on some consoles, are called Palettes on Titan. See PALETTE. This term may also be used in connection with moving fixtures to focus (set the sharpness) of a gobo projection.
-FX			| Refers to effects created with the Shape Generator.
-GENERIC		| Refers to a lighting instrument which only has a dimmer/intensity control. See also FIXTURE.
-GROUP		| A Group is a pre-programmed collection of Fixtures that can be selected with a single button press. Playback groups can also be created where only one playback in the group can be active at any time.
-HALO		| A special colour shown around the rim of a touch button, used to quickly identify different types of button.
-HANDLE		| A control on the console where you can store things – may just be a programmable button, or may have a fader with one or more associated buttons.
-HTP			| Highest Takes Precedence, a mechanism for determining the output level of an attribute (nearly always Intensity) being controlled by more than one Playback. The playback outputting the highest value at any given time will determine the level of the attribute. Also see LTP.
-HUD			| Heads-up-display, an information window shown on the screen.
-INCLUDE		| A means of transferring the contents of a Cue or Chase step back into the Programmer for further editing or programming.
-IPCGBESFX	| The Attribute groups, used by the console to conveniently group together similar attributes – stands for Intensity, Position, Colour, Gobo, Beam, Effect, Special, FX (shapes). For example the P(osition) group includes Pan and Tilt attributes.
-KEY FRAME SHAPE	| A self-programmed Shape where you program a set of steps which can then be spread in different ways over a set of fixtures.
-KEY PROFILE	| User setting which can be used to change the function of each type of button on the console.
-LED			| Light Emitting Diode, the source of light in many fixtures. May also refers to the small lights within the buttons on the console.
-LEGEND		| The text or image used to name a handle so you know what you stored in it.
-LINK		| Connection between cues in a Cue List or Chase enabling them to run on from one to another automatically.
-LOCATE		| Button which places selected fixtures into a default “ready” state – usually a central position with full intensity, no colour, no gobo, ready for programming.
-LOCK		| Handles can be Locked so that when you change to a different page, those handles do not change. The lock can be Transparent meaning that it is only locked if the new page doesn’t have any programming on that handle. May also refer to the system for locking the console while left unattended.
-LTP			| Latest Takes Precedence, a mechanism for passing control of an attribute from one Playback to another on the basis that the latest playback changes take over control. Usually used for all attribute types except Intensity. Also see HTP.
-MACRO		| Has two meanings in Titan. May refer to a stored sequence of button presses which allow you to recreate a complex sequence of operations from a single button. Or may refer to functions programmed into a Fixture by the manufacturer for example to lamp On/Off a fixture or reset the motors – using  DMX command sequences defined within the Personality.
-MASTER		| Fader or knob giving overall control of a number of different playbacks or attributes. Different types of Masters can be configured on the console.
-MEMORY		| The name for a Cue or playback on other consoles.
-MIDI		| A control system used for sending commands between equipment. Stands for Musical Instrument Digital Interface and originally for sending musical notes between keyboards/synths, it is now used for controlling  and linking many types of equipment.
-MENU		| List of available functions on the Softkeys.
-MENU LATCH	| Holds the current menu active – normally a menu would close when the action is completed.
-ML MENU		| Provides additional functions for control of moving lights such as lamp on/off and other control functions.
-MOVE IN DARK (MID)	| Function of Cue List to pre-position a fixture while it is turned off so that it is correctly positioned for the next cue. Called “Mark” on other consoles. 
-ON and OFF	| Any Attribute stored in a Playback can be On or Off. An attribute which is ON is changed by the playback when it is fired. An attribute which is OFF is stored in the playback for future re-use but has no effect when the playback is fired.
-OVERLAP		| Sets how the console allocates new values to a group of Fixtures. 100% means that all fixtures are updated simultaneously. 0% means that the fixtures will be updated one after the other.
-PAGE		| To provide more Handles for programming, you can change to a different Page. You can Lock handles so that they do not change when you change the page.
-PALETTE		| A term used to describe a referenced pre-defined state for an Attribute that can be recalled whenever required during programming. Each Fixture may be set to a different value in the Palette, the entries can be named, and recalled with a single button press. Called Focus by some other console manufacturers.
-PARK		| A Parked fixture is one which is patched to a handle but has no DMX Address set. This happens to a fixture when its DMX address is taken by another fixture during a later patching session; the fixture retains programming information and the Repatch function can be used to give it a new DMX address. Not the same as the “Park channel” function used to set a channel to a fixed value as found on other consoles.
-PATCH		| Set up of a show on the console, telling the console what fixtures are being used, what mode they are in, and what DMX address they are set to.
-PERSONALITY | A description of what Attributes a particular Fixture has and how the console will patch and use these. It also determines which Wheel will control which attribute. 
-PIXEL MAPPER	| Allows you to tell the console where fixtures are located in 2D space, and then to display patterns or media across those fixtures.
-PLAYBACK	| A programmed Cue, Chase or Cue List, stored on a Handle (button, touch button or fader).
-PRELOAD		| A playback button which sets the LTP channels in a cue but not the HTP channels. Used to pre-position fixtures before firing a cue. Also a cue list function which allows one cue to preload the LTP channels in another cue.
-PRESET FOCUS	| The old name for Palettes on previous Avolites consoles and other consoles. See PALETTE.
-PROGRAMMER	| The part of the console which contains Attribute information which has been changed by the user, prior to recording.
-QUICK PALETTE	| If you press a palette button with no fixtures selected, the console will apply the palette to all fixtures it has programming for. This is called a Quick Palette.
-RANGE		| If an Attribute on a fixture is split into certain zones for different effects, for example if the fixture can snap to 8 gobos selected by DMX values 1-32, 33-64, 65-96 etc then the attribute is said to have Ranges.
-RDM			| Remote Device Management, a way of configuring fixtures remotely from the console. Not all fixtures support this.
-RELEASE		| How a Playback leaves the LTP channels it was controlling when it is killed. Normally the LTP channels just remain in their last state, but you can use the Release settings to get them to revert to a previous state.
-RGB / RGBW	| A system of colour mixing using LED emitters of different colours. Often more emitter colours are provided in the fixture to allow better colour rendering or mixing of pale tints. Possible colours include Red, Green, Blue, White, Amber, Lime, Cyan, UV - so you may see RGBAL fixtures or RGBAWUV.
-sACN		| An ethernet-based system allowing multiple universes of DMX to be sent over a network.
-SELECT BUTTON	| Blue button used to select a Handle when programming.
-SELECTED	| A Fixture that is under manual control.
-SEQUENCE	| Another name for a Chase on other consoles.
-SHAPE 		| A preprogrammed effect available which is applied to an Attribute. It can then be customised and stored in a cue.
-SHARED PALETTE	| A Palette in which information is only stored for one Fixture, but is available to all fixtures of that type.
-SOFTKEY		| Menu buttons marked A-J down the side of the screen, which have different functions as shown on the adjacent part of the screen depending on the currently active menu.
-SPREAD		| How a shape or effect is output across a group of fixtures – if zero, all fixtures operate in synchronisation. Also called Phase.
-STACK		| Another name for a Cue List.
-SUBFIXTURE	| See Cell.
-SWOP		| Type of flash button which turns on the output being flashed and turns off all other output while the button is pressed. Sometimes called “Solo”. Also used for selecting fixtures or playbacks when programming. See also FLASH.
-TIMECODE	| An electronic timer signal which allows cue list playback to be synchronised to a soundtrack or other events.
-TIMES		| Many elements of programming can be timed to create effects, these together are referred to as Times.
-TNP			| Titan Network Processor, a rackmount unit to handle the processing of additional DMX Universes or to operate automatic shows.
-TRACKING	| Describes the operation of Cue Lists where attribute states follow through from previous cues unless changed by the user.
-TRIGGER POINT	| The level set in the User Settings which determines at which point a Playback fader triggers the LTP channels programmed onto it.
-UNFOLD		| A function that allows Chase steps to be laid out onto the playback faders for easy editing.
-UNIVERSE	| A full set of 512 DMX control channels/slots. Titan consoles can create up to 64 universes, 16 on the console and the rest remotely using network processing.
-UPS			| Uninterruptible Power Supply, fitted internally in some consoles, to keep the console running in case of power failure.
-USER NUMBER	| Each fixture / dimmer has a User Number which allows you to select them using the numeric keypad and <Through> button, as commonly used on other types of console.
-USER SETTINGS	| User definable desk settings. To change them, hold down the Avo button and select [User Settings].
-VIRTUAL DIMMER	| Used with LED colour mixing fixtures, these add an intensity function to the fixture which masters the RGB controls on the fixture when it does not actually have an intensity control channel.
-VISUALISER	| Software providing a lifelike 3D view of the stage and lighting, allowing virtual programming.
-WING		| An additional panel of faders or buttons which can be connected to the console to expand the number of Handles available.
-WIPEALL		| A process which clears the current show, providing a clean start. Does not affect previously saved shows.
-WHEEL		| Wheels are used on the console to set fixture Attributes and to control chases and cue lists.
-YOKE		| The U-shaped suspension mechanism for a moving head fixture.
-
-
-
-
+DEVICE	(Gerät) 	| Siehe FIXTURE.
+DIMMER		| Der Kanal zur Helligkeitssteuerung, oder Gerät zur Helligkeitssteuerung konventioneller Leuchten.
+DMX	DMX512(1990) | Signalstandard zur Kommunikation zwischen Lichtpulten und Leuchten/Geräten. Ursprünglich für Dimmer konzipiert, jetzt auch für  Moving Light verwendet. Bis zu 512 Kanäle werden in einem Universum zusammengefasst. Jedes Titan-Pult kann (ggf. mit TNPs) bis zu 64 Universen ausgeben.
+EXCHANGE (Auswechseln) 	| Tauschen eines bereits gepatchten und programmierten Geräts gegen einen anderen Typ unter Beibehaltung der Programmierung.
+FADE	(Überblenden)  	| Stetiger/allmählicher Wechsel von einem Pegel zu einem anderen Pegel.
+FAN			| Auffächern von Attributwerten ausgehend von einem Mittelwert, um das Programmieren zu erleichtern.
+FIXTURE	(Gerät)   	| Jedes Beleuchtungsgerät, das mit seinerPersonality gepatcht wird. Kann Moving Lights, Farbwechsler und anderes umfassen, jedoch normalerweise keine einzelnen Dimmerkanäle. Auch bekannt als Intelligent Fixture, Device, positionierbarer Scheinwerfer etc. 
+FIXTURE LAYOUT	| 2D-Anordnung der gepatchten Geräte im  Pult, zur Verwendung mit Shapes und dem Pixelmapper.
+FLASH		| Taste, mit der eine Lichtstimmung dem sonstigen Output hinzugefügt wird. Früher auch ‚ADD' genannt. Siehe hingegen SWOP.                        
+FLIP		| Funktion bei kopfbewegten Scheinwerfern, um mit einer anderen Kombination aus Pan und Tilt auf die gleiche Position zu fahren.
+FOCUS		| Frühere Bezeichnung von Paletten (einzelnen Positionen, Farben oder Gobos etc.).<br><br>Beschreibt auch den Fokus (Schärfe) von Moving Lights, etwa mit Gobos.
+FX			| Effekte, etwa unter Verwendung des Shape Generators.
+GENERIC		| Beschreibt reine Dimmer-Kanäle. Siehe auch FIXTURE.
+GROUP  (Gruppe)     | Zusammenstellung von gepatchten Geräten, die mit einem Klick ausgewählt werden kann. Ebenso sind Playback-Gruppen möglich, innerhalb derer jeweils nur ein Playback aktiv ist.
+HALO		| Farbiger Rand um eine Schaltfläche zur besseren Übersicht.
+HANDLE		| Speicherplatz, auf dem irgendetwas gespeichert werden kann. Kann eine Schaltfläche, ein Fader oder eine Taste sein.
+HTP			| Highest Takes Precedence, ein Mechanismus, der beschreibt, wie der Ausgangspegel durch mehrere Playbacks gesteuert wird. Üblich für Dimmer (Helligkeitswerte): der höchste Wert hat Vorrang. Siehe dagegen LTP.
+HUD			| Heads-up-display, ein Informationsfenster insbesondere für ältere Pulte.
+INCLUDE		| Laden eines Cues oder Chase-Schritts in den Programmer.
+IPCGBESFX	| Attributgruppen, wobei die Kanäle zusammengefasst werden, die systematisch zusammengehören. Die Buchstaben stehe für Intensity, Position, Colour, Gobo, Beam, Effect, Special, FX (Shapes). So enthält etwa die Gruppe P (Position) Pan und Tilt. 
+KEY FRAME SHAPE	| Effekt, bei dem verschiedene Status programmiert werden, zwischen denen jeweils die Geräte wechseln.
+KEY PROFILE (Tastenprofil) 	| Benutzereinstellung, die die Funktion der einzelnen Tasten auf dem Pult beeinflusst.
+LED			| Leuchtdiode. Heutzutage die Lichtquelle in vielen Geräten. Kann aber auch die kleinen Leuchten in den Tasten meinen.
+LEGEND		| Text, Bild oder Zeichnung, um zu markieren, was wo gespeichert ist.
+LINK (Verknüpfen)  	| Abfolge der einzelnen Cues in einer Cueliste oder einem Chaser. Oder Verweis auf ein anderes Playback unter Verwendung individueller Zeiten.
+LOCATE	(Home) 	| Taste, mit der die angewählten Geräte in eine definerte Startposition gebracht werden (normalerweise 100% Pegel, 50% Pan/Tilt, kein Gobo, keine Farbe, kein Shutter).                 
+LOCK	<br>(Sperren, Verriegeln) 	| Speicherplätze können gegen die Seitenumschaltung gesperrt werden, so dass sie nicht mit umgeschaltet werden.Wählt man dabei ‚Transparent Lock', so wirkt die Sperre nur, soweit auf den anderen Seiten nicht bereits etwas auf diesem Platz programmiert ist. <br><br> Kann auch die Sperre des Pultes gegen unbefugte Benutzung bedeuten.
+LTP			| Latest Takes Precedence, ein Mechanismus, der beschreibt, wie der Ausgangspegel durch mehrere Playbacks gesteuert wird. Insbesondere bei allen Attributen, die nicht Dimmer (Helligkeit) sind, hat der zuletzt aufgerufene Wert Vorrang. Siehe hingegen HTP.
+MACRO		| Hat bei Titan mehrere Bedeutungen: <br><br>Entweder eine programmierte Sequenz von Tastendrücken, die häufig verwendet wird und durch einen Klick aufgerufen werden kann. <br><br> Oder Abfolge von verschiedenen Attributwerten, mit der Movinglights z.B. gezündet oder resettet werden können (abhängig vom Movinglight).
+MASTER		| Fader oder Taste, mit der bestimmte Aspekte mehrerer Playbacks gesteuert werden können. Es gibt verschiedene Arten von Mastern.
+MEMORY		| Andere Bezeichnung für Cue.
+MIDI		| Musical Instrument Digital Interface. Signalstandard für Steuersignale, ursprünglich zwischen elektronischen Instrumenten, aber inzwischen für vielfältige Anwendungen im Showbereich.
+MENU (Menü) | Die verschiedenen per Menütaste verfügbaren Funktionen.
+MENU LATCH (Einrasten)	| Behält das aktuelle Menü bei. Normalerweise wird z.B. das Lösch- oder Kopier-Menü geschlossen, wenn eine Lösch- oder Kopieraktion durchgeführt wird.
+ML MENU		| Enthält spezielle Funktionen für Movinglights.
+MOVE IN DARK (MID)	| Funktion bei Cuelisten, mit der gerade inaktive Geräte bereits auf ihren nächsten Cue vorbereitet werden (Preload). Wird auf anderen Pulten auch "Mark" genannt.
+ON und OFF	| Werden gespeicherte Werte vorübergehend nicht benötigt, so können sie OFF geschaltet werden und sind damit inaktiv. Sie können später mit ON wieder aktiviert werden.
+OVERLAP		| Bestimmt, wie neue Werte auf eine Reihe von Geräten angewendet wird. Bei 100% werden alle Geräte gleichzeitig beeinflusst, bei 0% nacheinander.
+PAGE (Seite) | Zur besseren Übersicht können Playbacks und die meisten Fenster auf mehrere Seiten umgeschaltet werden. Die Seitenumschaltung kann für einzelne Handles per Lock gesperrt werden.
+PALETTE		| Gespeicherter Zustand eines oder mehrerer Attribute eines oder mehrerer Geräte. Kann zum Programmieren und für das Busking verwendet werden. Wird auch Focus oder Preset genannt.
+PARK		| Geräte, die zwar gepatcht sind, aber keinen Output erzeugen sollen, sind geparkt. Das passiert etwa beim Patchen mit überlappenden DMX-Adressen. Um ein Gerät zu entparken, gibt man diesem eine andere - gültige - Adresse. <br><br> Die auf anderen Pulten bekannte Park-Funktion, bei der einzelne Geräte oder Kanäle fixiert werden, heißt dagegen Freeze.                        
+PATCH		| Vorgang, bei dem dem Pult mitgeteilt wird, welche Geräte auf welchen DMX-Adressen anzusprechend sind. Auch das Ergebnis davon wird Patch genannt.
+PERSONALITY | Datei, die bestimmt, welches Gerät wie durch das Pult zu steuern ist, d.h. welcher Kanal welche Funktion hat und wie er angezeigt werden soll.
+PIXEL MAPPER	| Erlaubt das Positionieren von Fixtures analog zu ihrer tatsächlichen Position, um verschiedene grafische Effekte zu zeigen.
+PLAYBACK 	| Handle mit programmiertem Cue, Chaser oder Cueliste. Kann Fader, Button oder Taste sein.
+PRELOAD	(Vorladen)   	| Tastenfunktion, mit der die LTP-Kanäle eines Playbacks bereits aktiviert werden (etwa Farbe oder Position), aber kein HTP-Dimmer. Damit werden die Geräte ‚vorbereitet' und können später eingefadet werden.
+PRESET FOCUS	|  Andere Bezeichnung für Paletten (bei älteren Avolites-Pulten). Siehe PALETTE.
+PROGRAMMER (Programmierspeicher)	| Speicherbereich im Pult, der dievorgenommenen Änderungen beinhaltet, die im Anschluss gespeichert werden sollen.
+QUICK PALETTE	| Wird eine Palette abgerufen, ohne dass Geräte ausgewählt sind, so wird die Palette auf sämtliche Geräte angewendet, sofern dies möglich ist. Diese Funktion kann in den Benutzereinstellungen deaktiviert werden.
+RANGE		| Wenn ein ganzer Bereich von DMX-Werten ein bestimmtes Ergebnis erzeugt, z.B. 128-191 = Gobo Rotation, dann spricht man von einer Range (Bereich).
+RDM			| Remote Device Management, Signalprotokoll, mit dem Geräte vom Pult aus konfiguriert werden und Rückmeldung geben können. Nicht von allen Movinglights unterstützt.
+RELEASE		| Zurücksetzen der Werte, wenn ein Playback deaktiviert wird. Normalerweise bleiben LTP-Attribute auf ihren Werten, bis etwas Neues gesendet wird. Mittels Release kann das geändert werden.
+RGB / RGBW... | Additive Farbmischung mit LEDs verschiedener Farben. Während sich allein aus Rot, Grün und Blau, bereits eine Vielzahl von Farben mischen lässt, sind häufig noch LEDs mit weiteren Farben vorhanden (etwa Weiß, Amber, Lime, Cyan, UV), um noch bessere Farbtöne zu erzielen. So gibt es z.B. auch RGBAL oder RGBAWUV.
+sACN		| Ethernet-basiertes Signalprotokoll zur Übertragung mehrerer DMX-Universen über Netzwerk.
+SELECT BUTTON (Auswahltaste) | Die blaue Taste bei jedem Fader dient beim Programmieren zum Anwählen.
+SELECTED (Angewählt) | Ein Gerät, das gerade angewählt ist, um gesteuert zu werden.
+SEQUENCE	| Anderer Name für Chaser.
+SHAPE 		| Vorprogrammierter Effekt, der ein bestimmtes Attribut moduliert. Kann verändert und in Cues gespeichert werden.
+SHARED PALETTE (Gemeinsam genutzt)  | Ein Palettentyp mit Informationen für einen Gerätetyp (d.h. für alle Geräte dieses Typs).
+SOFTKEY	(Menütaste)  | Die Tasten A-J rechts neben dem Bildschirm. Ihre Funktion ist vom jeweiligen Menü abhängig und wird direkt daneben im Display angezeigt. 
+SPREAD		| Aufteilung eines Effekts auf mehrere Geräte. Bei Spread=1 laufen alle Geräte synchron. Gegenwert zu Phase.
+STACK	(Stapel) 	| Andere Bezeichnung für Cueliste.
+SUBFIXTURE	| Siehe Cell.
+SWOP		| Tastenfunktion, mit der ein Playback aktiviert und alle anderen Geräte dunkelgetastet werden. Auch "Solo" genannt. Siehe dagegen FLASH.
+TIMECODE	| Signal zur Übertragung von Zeitimpulsen. Damit können z.B. Cuelisten synchron zu einem Musik-Track laufen.
+TIMES	(Zeiten) | Viele Aspekte der Programmierung können über einen bestimmten Zeitraum laufen (ein-, ausblenden, verzögern, etc.)
+TNP			|  Titan Network Processor, Zusatzgerät im Rackformat, mit dem Rechenleistung für weitere DMX-Universen realisiert werden kann. Kann auch als eigenständiges Pult verwendet werden.                      
+TRACKING	| Arbeitsweise von Cuelisten, bei der nur Änderungen gespeichert werden.
+UNFOLD	(Ausklappen)  | Funktion, bei der die einzelnen Schritte eines Chasers oder eine Cueliste auf einzelne Fader eingeblendet werden, um das Programmieren zu vereinfachen.   
+UNIVERSE (Universum)  | Gruppe von 512 DMX-Kanälen, die über ein Kabel übertragen werden. Titan-Pulte können 64 Universen steuern (16 direkt pro Pult, weitere mit TNPs).
+UPS	(USV) 	| Uninterruptible Power Supply, Unterbrechungsfreie Stromversorgung. Bei manchen Pulten als Schutz vor Stromausfall integriert.
+USER NUMBER	| Jeder Dimmer/jedes Movinglight hat eine Nummer, mittels der man auch mit den Zifferntasten Geräte auswählen kann.
+USER SETTINGS (Benutzereinstellungen)	| Einstellungen, mit denen man Titan an die eigene Arbeitsweise anpassen kann. Um sie zu ändern, drücken Sie die \<Avo\>-Taste und wählen \[User Settings\].
+VIRTUAL DIMMER (virtuelle Dimmer) | Insbesondere einfache RGB-Lampen haben mitunter keinen separaten Dimmerkanal. Der virtuelle Dimmer wird dann vom Pult bereitgestellt und wirkt wie ein Master für die Farbkanäle.
+VISUALISER	| Software zur Darstellung der Bühnen- und Beleuchtungssituation in 3D, um das Vorprogrammieren zu erleichtern. 
+WING		| Separates Gerät mit weiteren Fadern und Tasten, um einem Pult weitere Bedienelemente hinzuzufügen.
+WIPEALL		| Komplettes Löschen des Pultes, um ganz neu zu beginnen. Bereits gespeicherte Shows bleiben erhalten.
+WHEELS (Räder, Encoder)  | Mit den Wheels (Räder, Encoder) lassensich Werte eingeben sowie in Chasern und Cuelisten navigieren.
+YOKE		| Die drehbare Aufhängung des Kopfes bei kopfbewegten Movinglights.
