@@ -95,7 +95,6 @@ TIMECODE	| An electronic timer signal which allows cue list playback to be synch
 TIMES		| Many elements of programming can be timed to create effects, these together are referred to as Times.
 TNP			| Titan Network Processor, a rack mount unit to handle the processing of additional DMX Universes or to operate automatic shows.
 TRACKING	| Describes the operation of Cue Lists where attribute states follow through from previous cues unless changed by the user.
-TRIGGER POINT	| The level set in the User Settings which determines at which point a Playback fader triggers the LTP channels programmed onto it.
 UNFOLD		| A function that allows Chase steps to be laid out onto the playback faders for easy editing.
 UNIVERSE	| A full set of 512 DMX control channels/slots. Titan consoles can create up to 64 universes, 16 on the console and the rest remotely using network processing.
 UPS			| Uninterruptible Power Supply, fitted internally in some consoles, to keep the console running in case of power failure.
