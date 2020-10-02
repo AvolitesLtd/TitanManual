@@ -90,7 +90,7 @@ Verbinden mit anderen TitanNet-Sessions
 ---------------------------------------
 
 Sind mehrere Titan-Pulte im gleichen Netzwerk miteinander
-verbunden, so können diese als Multi-User, [Backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup) oder beides
+verbunden, so können diese als Multi-User, [Backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#pulte-für-den-backup-betrieb-einrichten) oder beides
 gleichzeitig arbeiten. Auf diese Weise werden auch
 [TitanNetProcessors (TNPs)](../titan-net.md) zur Erweiterung der DMX-Ausgänge
 eingebunden.
@@ -155,7 +155,7 @@ TitanNet-Menü. Nach dem Verlassen der Session wird die Show geladen, die
 vor dem Beitritt zur Session aktiv war. Auf Master-Pulten gibt es
 hingegen die Option \[Terminate Session\] (Session beenden).
 
-Läuft ein Pult als [Backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup), so gibt es die Optionen \[Takeover\], \[Sync
+Läuft ein Pult als [Backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#pulte-für-den-backup-betrieb-einrichten), so gibt es die Optionen \[Takeover\], \[Sync
 now\] und \[Leave Session\]. Mit \[Takeover\] kann die Show übernommen
 werden: dieses Pult wird nun Master und gibt DMX aus, der am Masterpult
 aktive Benutzer und die Handle World werden nun an diesem neuen Master

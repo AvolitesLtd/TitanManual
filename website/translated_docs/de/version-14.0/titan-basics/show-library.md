@@ -38,7 +38,7 @@ zum Importieren einzelner Elemente auswählen (mappen).
 Auf dem Reiter ‚Mapper' werden dabei die Geräte der importierten auf
 Geräte der aktuellen Show zugeordnet (gemappt). Daraufhin können dann
 die programmierten Elemente - etwa Paletten, Cues, Chaser etc. - in
-die aktuelle Show [importiert werden](../titan-basics/loading-and-saving-shows.md#importing-parts-of-other-shows).
+die aktuelle Show [importiert werden](../titan-basics/loading-and-saving-shows.md#teile-aus-anderen-shows-importieren).
 
 Der Reiter Users (Benutzer)
 ---------------------------

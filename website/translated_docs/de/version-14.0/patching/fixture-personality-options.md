@@ -169,7 +169,7 @@ oder über den Reiter 'Attribute Behaviour' im Patch View gesetzt werden.
 
 7.  Beenden Sie den Vorgang mit \<Exit\>.
 
-Die verschiedenen Kennlinien sind im Abschnitt [curves section](../system-settings/curves.md) näher erläutert.  
+Die verschiedenen Kennlinien sind im Abschnitt [Curves -- Kennlinien/Kurven](../system-settings/curves.md) näher erläutert.  
 
 Geräte oder Attribute fixieren (Freeze)
 ---------------------------------------

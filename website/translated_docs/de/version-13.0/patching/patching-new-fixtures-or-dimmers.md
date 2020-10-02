@@ -248,7 +248,7 @@ erhalten, verwenden Sie den Attribut-Editor oder drücken Sie \<Unfold\>
 und die Auswahltaste des Geräts. Die aktuelle Seite des
 ‚Fixtures'-Fensters zeigt nun die einzelnen Sub Fixtures/Zellen. Ist
 das Gerät auf einen Fader gepacht, so werden die Zellen auf den Fadern
-dieser Seite eingeblendet. Teilgeräte lassen sich auch per Tastatur-Syntax auswählen, siehe [fixture control section](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fixtures-with-multiple-cells-subfixtures).
+dieser Seite eingeblendet. Teilgeräte lassen sich auch per Tastatur-Syntax auswählen, siehe [Geräte mit mehreren Zellen/Subfixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-mit-mehreren-zellensubfixtures).
 
 Um zur normalen Anzeige zurückzukehren, drücken Sie \<Unfold\> und
 wählen \[Exit Unfold\].

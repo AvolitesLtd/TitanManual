@@ -282,8 +282,8 @@
         "sidebar_label": "Erweiterte Funktionen"
       },
       "patching/patching-new-fixtures-or-dimmers": {
-        "title": "Neue Geräte oder Dimmer patchen",
-        "sidebar_label": "Neue Geräte oder Dimmer patchen"
+        "title": "Geräte und Dimmer patchen",
+        "sidebar_label": "Geräte und Dimmer patchen"
       },
       "quick-start": {
         "title": "Schnellstartanleitung",
@@ -1190,8 +1190,8 @@
         "sidebar_label": "Erweiterte Funktionen"
       },
       "version-13.0-patching/patching-new-fixtures-or-dimmers": {
-        "title": "Neue Geräte oder Dimmer patchen",
-        "sidebar_label": "Neue Geräte oder Dimmer patchen"
+        "title": "Geräte und Dimmer patchen",
+        "sidebar_label": "Geräte und Dimmer patchen"
       },
       "version-13.0-remote-control": {
         "title": "Fernsteuerung",
@@ -1622,8 +1622,8 @@
         "sidebar_label": "Erweiterte Funktionen"
       },
       "version-14.0-patching/patching-new-fixtures-or-dimmers": {
-        "title": "Neue Geräte oder Dimmer patchen",
-        "sidebar_label": "Neue Geräte oder Dimmer patchen"
+        "title": "Geräte und Dimmer patchen",
+        "sidebar_label": "Geräte und Dimmer patchen"
       },
       "version-14.0-quick-start": {
         "title": "Schnellstartanleitung",

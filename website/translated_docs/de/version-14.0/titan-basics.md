@@ -118,7 +118,7 @@ Steckverbinder, außen 5,5mm, innen 2,5mm, 9,5mm lang; Pluspol auf dem
 inneren Kontakt
 
 Bei der ersten Verwendung ist das Titan Mobile und der zugehörige AvoKey
-ggf. noch bei Avolites zu [lizenzieren](./system-settings/recovering-reinstalling-the-console.md#software-licensing) (kostenlos), um die Software
+ggf. noch bei Avolites zu [lizenzieren](./system-settings/recovering-reinstalling-the-console.md#software-lizenzierung) (kostenlos), um die Software
 verwenden zu können. Die Lizenz wird auf dem (internen oder externen)
 AvoKey fest gespeichert und bezieht sich auf das jeweilige Titan Mobile.
 Dieses kann also - mit dem entsprechenden AvoKey - ohne weitere
@@ -156,7 +156,7 @@ Die aktuellen Titan-Pulte können jeweils bis zu 16 Universen (à 512
 Kanäle) verwalten. Werden mehr Universen benötigt, so empfiehlt sich die
 Verwendung eines oder mehrerer TNPs (Titan Network Processor), um die
 erforderliche Rechenleistung bereitzustellen. Damit können bis zu 64
-DMX-Universen gesteuert werden. Mehr dazu im Abschnitt [DMX-Einstellungen](system-settings/dmx-output-mapping.md#configuring-dmx-outputs).
+DMX-Universen gesteuert werden. Mehr dazu im Abschnitt [Einrichten der DMX-Ausgänge](system-settings/dmx-output-mapping.md#einrichten-der-dmx-ausgänge).
 
 DMX kann sowohl über XLR-Buchsen (5-polig) als auch über verschiedene
 Netzwerkprotokolle (Art-Net, sACN) ausgegeben werden, um andere

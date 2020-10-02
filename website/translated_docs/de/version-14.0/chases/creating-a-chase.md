@@ -5,8 +5,8 @@ sidebar_label: Creating a Chase
 original_id: creating-a-chase
 ---
 
-Programming a Chase
--------------------
+Einen Chaser programmieren
+--------------------------
 
 [](https://youtu.be/M0h5zV4S_OI?t=20 "Recording a Chase")
 

@@ -294,7 +294,7 @@ Legenden-Menü.
 
 ![Halo](/docs/images/Fixture-Halo.png)
 
-Wird ein [Halo für Geräte-Tasten](../patching/changing-the-patch.md#fixture-button-halo) aktiviert, 
+Wird ein [Halo für Geräte-Tasten](../patching/changing-the-patch.md#halo-für-fixture-buttons) aktiviert, 
 so wird dessen Farbe auch in anderen Fenstern verwendet. Außerdem können 
 automatisch unterschiedliche Halos pro Gerätetyp vergeben werden.
 

@@ -18,7 +18,7 @@ aller aktiven Geräte, d.h. mit Dimmer \> 0), oder ‚Quick Build'
 (Erstellen des Cues aus Paletten oder Playbacks je nach Schaltfläche).
 
 Zum Speichern drücken Sie die blaue Auswahltaste eines Faders, oder
-betätigen Sie eine Schaltfläche im ‚Playbacks'-Fenster (siehe [Creating a Cue](../cues/creating-a-cue.md)).
+betätigen Sie eine Schaltfläche im ‚Playbacks'-Fenster (siehe [Erstellen eines Cues](../cues/creating-a-cue.md)).
 
 ## Chaser
 
@@ -33,7 +33,7 @@ Sie wieder die Taste/Schaltfläche zum Speichern, Wiederholen Sie diesen
 Vorgang für alle Chase-Schritte. Mit ‚Quick Build' können rasch aus
 einzelnen Paletten und Cues Chase-Steps erstellt werden.
 
-Drücken Sie zum Abschluss \<Exit\> (siehe [Programming Chases](../chases/creating-a-chase.md#programming-a-chase)).
+Drücken Sie zum Abschluss \<Exit\> (siehe [Einen Chaser programmieren](../chases/creating-a-chase.md#einen-chaser-programmieren)).
 
 ## Timings
 
@@ -63,13 +63,13 @@ unterschiedliche Zeiten vergeben.
 Mit \[Fixture order\] lässt sich die Reihenfolge der Geräte für Shapes
 sowie für das Überlappen einstellen.
 
-Siehe auch [Cue Timing](../cues/cue-timing.md).
+Siehe auch [Zeiten für Cues](../cues/cue-timing.md).
 
 ## Cuelisten
 
 Cues lassen sich in [Cuelisten](../cue-lists/creating-a-cue-list.md) 
 speichern, so dass die gesamte Show per Go-Taste gefahren werden kann. 
-Ebenso lassen sich Chaser per [Autoload](../cue-lists/creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list) in
+Ebenso lassen sich Chaser per [Autoload](../cue-lists/creating-a-cue-list.md#autoloading-laden-eines-externen-cues) in
 Cuelisten aufrufen. Cuelisten können im Tracking- oder
 Non-Tracking-Modus arbeiten; diese Einstellung kann in den
 \[Playback-Optionen\] der Cueliste vorgenommen werden. 

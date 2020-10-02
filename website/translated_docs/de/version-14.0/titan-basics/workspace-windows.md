@@ -74,9 +74,9 @@ Elemente hängen vom jeweiligen Fenster sowie der Einrichtung des Pultes
 ab, etwa davon, ob ein externer Bildschirm angeschlossen ist. Mit den
 Buttons für Rows (Zeilen) und Columns (Spalten) kann man einstellen, wie
 die Tasten in dem Fenster angezeigt werden, siehe [Einstellen von Anzahl 
-und Größe der Buttons](../titan-basics/workspace-windows.md#controlling-button-layout-/-grid)
+und Größe der Buttons](../titan-basics/workspace-windows.md#anzahl-und-grösse-der-schaltflächenraster).
 
-![Appearance Menu](/docs/images/window-cog-button.png)
+![Appearance Menu](/docs/images/Window-Appearance-Options.png)
 
 Die Fenster lassen sich sowohl in Standard-Größen und Positionen
 anordnen als auch sehr frei verändern. Dazu dient der Button **Größe
@@ -267,7 +267,7 @@ abzuschließen.
 Die Schnellspeicher-Funktion lässt sich in den [Tastenprofilen/Key Profiles](../system-settings/key-profiles.md) deaktivieren.
 
 Bei Paletten ist zu beachten, dass die Schnellspeicherfunktion etwas
-anders arbeitet als das Speichern mit der \<Record\>-Taste, siehe [Speichern von Paletten](../palettes/creating-palettes#storing-a-palette).
+anders arbeitet als das Speichern mit der \<Record\>-Taste, siehe [Speichern von Paletten](../palettes/creating-palettes#speichern-einer-palette).
 
 Legenden und Bezeichnungen
 --------------------------
@@ -296,7 +296,7 @@ Legenden-Menü.
 
 ![Halo](/docs/images/Fixture-Halo.png)
 
-Wird ein [Halo für Geräte-Tasten](../patching/changing-the-patch.md#fixture-button-halo) aktiviert, 
+Wird ein [Halo für Geräte-Tasten](../patching/changing-the-patch.md#halo-für-fixture-buttons) aktiviert, 
 so wird dessen Farbe auch in anderen Fenstern verwendet. Außerdem können 
 automatisch unterschiedliche Halos pro Gerätetyp vergeben werden, die
 dann auch in der Patch-Ansicht verwendet werden.

@@ -51,7 +51,7 @@ weitere Möglichkeiten ergeben sich durch die Multifunktionstasten.
     auf; 'RDM' erlaubt die Anzeige und das Patchen von Geräten via RDM;
     'Attribute Behaviour' gestattet es, Attribute zu fixieren, zu
     invertieren, zu limitieren oder die Kennlinie zu verändern. Weitere
-    Informationen dazu finden sich in [im nächsten Abschnitt](./changing-the-patch.md#view-detailed-fixture-information).
+    Informationen dazu finden sich in [im nächsten Abschnitt](./changing-the-patch.md#anzeige-weiterer-patch-details).
 
     Mittels Kontext-Option können geparkte Geräte angezeigt oder
     ausgeblendet werden. Werden diese angezeigt, so erscheinen sie
