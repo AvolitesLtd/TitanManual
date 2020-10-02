@@ -144,7 +144,7 @@ the start of the chapter.
 of the window.
 
 5. Press the small cog button to show the module properties. Ensure that
-the correct network adapter is set (this may not be the Default Adapter)
+the correct network adapter is set (this may not be the default adapter).
 
 6. If you wish to turn off the Art-Net output, you can disable the
 \"DMX output\" option. This will stop the console from outputting
