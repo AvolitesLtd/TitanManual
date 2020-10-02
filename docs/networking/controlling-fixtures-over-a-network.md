@@ -12,7 +12,8 @@ Setting the console's IP address
 
 We recommend that you use the console's automatic IP setting function.
 However, if you need to you can also set the IP address using Windows
-Control Panel as shown on page 345.
+Control Panel. See [Setting your IP address](a-quick-guide-to-ip-addressing.md#setting-your-ip-address) for
+details of IP addressing.
 
 1. Switch to System mode and press \[Network Settings\]
 
@@ -26,17 +27,18 @@ Control Panel as shown on page 345.
 
 6. \<Exit\> system mode.
 
--   Some equipment may operate on IP addresses 10.\*.\*.\* (softkey D)
+-   Some equipment may operate on IP addresses 10.\*.\*.\* 
     -- see later in this chapter for details.
 
--   If you need a non-standard IP address range you can use softkey A.
+-   If you need a non-standard IP address range you can press \[IP Address = ... \]
+    and enter the address with the numeric keypad.
 
 Setting up DMX outputs
 ----------------------
 
 The console has 64 DMX output lines, of which the console itself can
 output 16, with further lines available using networked DMX processing
-nodes. The T1 dongle is limited to one DMX line, T2 to two DMX lines The
+nodes. The T1 dongle is limited to one DMX line, T2 to two DMX lines. The
 lines may be routed to physical DMX sockets and/or to [network nodes](../networking/controlling-fixtures-over-a-network.md).
 
 A simple Art-Net system
@@ -73,14 +75,14 @@ The console is then used to set the DMX lines to the Art-Net nodes.
 It is important to remember:
 
 -   Each Art-Net to DMX box (or compatible Dimmer, or compatible moving
-    light) is a device,
+    light) is a device.
 
 -   Each device may have one or more nodes(i.e. the Art-Net to DMX box
     has 2 nodes, these are the 2 DMX outputs; the dimmer itself is a
-    node),
+    node).
 
 -   Each node can be set to a Universe (1-256). This universe is
-    equivalent to a 512 channel DMX line
+    equivalent to a 512 channel DMX line.
 
 You can then specify which console line is assigned to each node. A
 console line can be assigned to multiple nodes (this will duplicate the
@@ -126,8 +128,8 @@ address 2.x.x.x as default, and can be set to 10.x.x.x using an option
 jumper, so you should check what the setting of your device is.
 
 If your Art-Net devices need to be set to a non-standard IP address,
-then in steps 1 and 2 you need to use Windows Control Panel to set the
-console to that address range instead of 2.x.x.x
+then in steps 1 and 2 you need to set the console to that address range 
+instead of 2.x.x.x
 
 With everything connected, start the console.
 
@@ -141,31 +143,32 @@ the start of the chapter.
 4. Select the Art-Net module from the node list in the left hand side
 of the window.
 
-5. Press the small 'i' button to show the node properties. Ensure that
-the correct Network adapter is set (this may not be the Default Adapter)
+5. Press the small cog button to show the module properties. Ensure that
+the correct network adapter is set (this may not be the default adapter).
 
-6. If you wish to turn off the Art-Net output, you can unselect the
-\"Enable DMX output\" option. This will stop the Console from outputting
-Art-Net on any Lines.
+6. If you wish to turn off the Art-Net output, you can disable the
+\"DMX output\" option. This will stop the console from outputting
+Art-Net on any lines.
 
 7. Art-Net normally only sends Data when it is changed, rather than a
 continuous stream. There are times when it is preferable to send Art-Net
-all the time. to do this, select the \"Continuous Art-Net Data Stream\"
+all the time. to do this, select the \"Continuous Art-Net DMX\"
 option.
 
-8. The \"Always broadcast Art-Net\" option enables you to send Art-Net
+8. The \"Always Broadcast Art-Net DMX\" option enables you to send Art-Net
 to the entire network, rather than a specific IP address.
 
-9. Press the blue → arrow on the Art-Net node to connect it to a DMX
-output line.
+9. Click on the Art-Net node which you want to connect to a DMX line.
 
 10. Select a console DMX line from the right hand side of the window.
 
 11. The DMX line will now be outputting over the selected Art-Net node.
 
-12. Click 'i' on the node you have added to make sure the properties
-are correct. (Problems can be caused if you attach multiple DMX lines to
-a single node.)
+12. By clicking the little cog on the node you have added you can give it a name 
+and apply specific settings: you can set it to output live or blind signal (the 
+latter is useful when using a visualiser during a live show), you can set the
+Universe and System parameter, and you can set the target IP address to send Art-Net only
+to a specific node.
 
 13. Make sure that the Universe is set to 1 for Line 1, and 2 for Line 2.  
 Art-Net uses a subnet mask with its universe. For Titan purposes:  
@@ -175,8 +178,8 @@ Titan universes 1 - 16 are subnet mask = 0, Art-Net universes = 1 -- 16
 
 The console should now be working correctly.
 
-To remove a node from a DMX line, select the node and click the blue X
-button.
+To remove a node from a DMX line, click the small X button at the 
+assigned node.
 
 \"Unpolled\" and \"unknown\" devices may appear as Art-Net nodes.
 
