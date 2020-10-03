@@ -66,30 +66,33 @@ the fader to 0.
 ### Groups
 The blue, grey or touch key can be allocated to **Disabled**,
 **Select Group**, **Flash Fixtures**, **Timed Flash**, **Flash Master**, **Timed Flash
-Master**, **Swop Fixtures**.
+Master**, **Swop Fixtures** - see [Fixture Groups](../controlling-fixtures/fixture-groups.md)
+for more details.
 
-You can select if the group function takes
-precedence over the flash function (if a handle has both group and flash
-functions) or vice versa.
+>   The option **Group/Flash takes precedence** only applies to the Pearl Expert
+    where it is possible to program a playback on a fader handle and use its
+    flash button as group selector.
 
 ### Palettes
 
-> Only effective on Pearl Expert.
+The palette key or touch button can be allocated to **Disabled** or **Select Palette**.
 
-The palette (grey) key can
-be allocated to **Disabled** or **Select Palette**. You can select if the
-palette function takes precedence over the flash function (if a handle
-has both palette and flash functions) or vice versa.
+With **Palette is fired ignoring/with its times** you select whether to take palette
+times into account when selecting a palette, see [Timed Palettes](../palettes/timing-with-palettes.md).
+This setting is particularly useful when [Busking with palettes](../running-the-show/playback-controls.md#busking-with-palettes).
+
+>   The option **Palette/Flash takes precedence** only applies to the Pearl Expert
+    where it is possible to program a playback on a fader handle and use its
+    flash button as palette selector.
 
 ### Cues
 
-The blue or grey key can be allocated to **Disabled**, **Flash**,
-**Swop**, **Latch**, **Preload**, **Go**.
+Keys and buttons can be allocated to **Disabled**, **Flash**, **Timed Flash**, 
+**Swop**, **Latch**, **Preload**, **Go**, **Tap Tempo**, **Release**, **Select If**.
 
 ### Chases
-
-The blue or grey key can be allocated to **Disabled**, **Flash**,
-**Swop**, **Latch**, **Go**, **Stop**, **Preload**, **Connect**, **Tap Tempo**.
+Keys and buttons can be allocated to **Disabled**, **Flash**, **Timed Flash**,
+**Swop**, **Latch**, **Go**, **Stop**, **Preload**, **Connect**, **Tap Tempo**, **Release**, **Select If**.
 
 ### Cue Lists
 
@@ -112,15 +115,18 @@ Tap Tempo | Set speed parameter by tapping the button
 Next Cue - | Press repeatedly to select the next cue to be output, going backwards
 Next Cue + | Press repeatedly to select next cue to output, going forwards
 Review Live Cue | Replays the current cue using fade times
-Cut Next Cue to Live | Output the cue as selected using above
+Cut Next Cue to Live | Fire the next cue ignoring its times
 Snap Back | Cue list will snap back to previous cue without times
 Go Back | Cue list will go back to previous cue using fade times
 Release | Release the playback using programmed release time
 Select If | Press to select all fixtures used in the current cue
 
 ### Macros
-Can be set to **Select** or **Prefer Macro** (the Macro function
-will take precedence over other functions stored on the button).
+Can be set to **Select** or **Disabled**.
+
+>   The option **Macro/Flash takes precedence** only applies to the Pearl Expert
+    where it is possible to program a playback on a fader handle and use its
+    flash button as macro selector.
 
 ### Options
 

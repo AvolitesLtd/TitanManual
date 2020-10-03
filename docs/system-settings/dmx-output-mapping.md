@@ -34,29 +34,39 @@ data to one or more nodes. If you assign more than one node to a line,
 those nodes receive duplicated data. If you have Art-Net/sACN nodes or
 TNP units connected they will show on the left hand side.
 
-On the right hand side, under each DMX Line there is a list of which
+On the right hand side, under each DMX line there is a list of which
 nodes are linked to that line. The default setting on a new show is for
 the physical DMX outputs on the console to be linked to the first DMX
 lines.
 
 ![DMX Settings Window](/docs/images/DMX-Settings-Window.png)
 
-You can individually assign Nodes to Lines using the arrow button, or
-assign all Nodes of the same type using the group assign button. For
-example, to assign each XLR output socket on the back of the console to
-a DMX line, you would click on the Group Assign button of the ExpertDMX
-nodes.
+To assign a node to a line, click on the node on the left hand side (e.g.
+on **Expert DMX A**) and then on the line (right hand side) you want this 
+node to be assigned to. The node will be removed from the pane on the left hand side as it is 
+not unassigned any more, and will appear on the right hand side under 
+the line it is assigned to.
 
 ![Node in DMX Settings Window](/docs/images/Node-in-DMX-Settings-Window.png)
 
-To assign a node to a line, click on the **arrow on the node** (the node
-will be highlighted), then click the line you want to assign to it.
-
 To delete a node from the DMX lines, click on the **X** button. To delete
-all nodes from a line, click on the **Group delete button**.
+all nodes from a line, click on the **Group delete button** (the **X** button 
+in the very DMX line). To delete all nodes from all lines, click on the **X** 
+button close to the header DMX lines.
 
-You can show information about the DMX nodes, or the DMX lines, by
-clicking the **i** button. For Ethernet/network type nodes, this allows you
+In order to change the assignment, i.e. to assign a node to a different line,
+you need to delete it from the line it is assigned to (by clicking on the **X**)
+first - the node now appears as unassigned on the left hand side - and can now
+assign it to a different line.
+
+When patching Art-Net and sACN nodes you can patch a number of universes
+in one go: select the first node you want to assign (i.e. sACN: Universe 1) on the left 
+hand side enter values for \[Universe\] and \[Quantity\] with the softkeys, and then
+click on the line from which on you want to assign this. Titan will then patch 
+the number of universes on consecutive lines.
+
+You can show information about the DMX nodes once they are assigned, or the DMX output
+modules, by clicking the cog button. For Ethernet/network type nodes, this allows you
 to set detailed properties such as IP address ranges and net masks.
 
 ![DMX Output in DMX Settings Window](/docs/images/DMX-Output-in-DMX-Settings-Window.png)
