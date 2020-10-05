@@ -187,7 +187,12 @@ Tiger Touch 1 use the Rec Step button)*
 6. Press the \<Go\> button *(on Pearl Expert and Tiger Touch 1 the white ↔
 button)* to jump on to the next step.
 
-### Edit Times of a Running Cue List
+>	You can also merge your changes into the current live cue by
+	pressing \
+	\<Record\> \<Connect/Cue\> \<Connect/Cue\>.
+
+Edit Times of a Running Cue List
+--------------------------------
 
 You can edit the times for a cue using the \<Live Time\> and \<Next
 Time\> buttons *(not on all consoles)* as follows:
