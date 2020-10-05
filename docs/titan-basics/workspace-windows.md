@@ -50,7 +50,7 @@ window for that attribute.
 - \<View/Open\> then a fixture select button opens the Fixture
 View window showing patch details for that fixture.
 
-- \<View/Open\> then \<Connect\> opens the Playback View window.
+- \<View/Open\> then \<Connect/Cue\> opens the Playback View window.
 
 - \<View/Open\> then \<Off\> opens the Active Playbacks window.
 

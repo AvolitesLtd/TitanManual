@@ -180,7 +180,7 @@ button above the Snap Back button instead of \<Go\>)*
 
 4. Make the changes that you want to the current step.
 
-5. Press \<Record\> then \<Connect\>, then select \[Replace\],
+5. Press \<Record\> then \<Connect/Cue\>, then select \[Replace\],
 \[Merge\] or \[Insert After\] to save the changes. *(On Pearl Expert and
 Tiger Touch 1 use the Rec Step button)*
 
@@ -282,7 +282,7 @@ You can reload a single cue out of a cue list into the programmer using
 be included, then press \[Include Cue\].
 
 If you want to do this from the currently connected cue list, Press
-\<Include\>, \<Connect\>, type the cue number, \[Include Cue\].
+\<Include\>, \<Connect/Cue\>, type the cue number, \[Include Cue\].
 
 This is useful if you want to reuse a state from a cue list in another
 playback. It is also useful if you want to edit shapes/effects in a cue,
