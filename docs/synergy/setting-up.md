@@ -108,7 +108,7 @@ screen using Ai, only from the Titan console.
 To add a layer, click on the surface, then the **+** button at the bottom
 and select **Layer** from the popup.
 
-To delete a layer or surface, select the item then click the **Trash Can**
+To delete a layer or surface, select the item then click the **Rubbish Bin**
 icon at the bottom, or press \<Delete\> then click the layer/surface. If
 linked to Ai, this will also delete the layer/surface in Ai.
 
