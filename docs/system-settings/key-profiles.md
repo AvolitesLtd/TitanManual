@@ -24,7 +24,7 @@ related to each playback fader.
 
 [](https://youtu.be/CxHQV4sP_sA?t=20 "Key Profiles")
 
-To create or edit a profile, switch to System mode then select \[Key
+To create or edit a profile, go to the **System** menu (press \<Avo\> + \<Disk\>) then select \[Key
 Profiles\]. You can then use the Manage Profiles menu to View, Edit,
 Add, Delete or Rename profiles.
 

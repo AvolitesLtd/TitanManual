@@ -4,7 +4,7 @@ title: User Settings
 sidebar_label: User Settings
 ---
 
-The User Settings menu may be accessed from the System mode menu, and
+The User Settings menu may be accessed from the **System** menu, and
 also from Program mode: hold down the \<Avo\> button and press
 \[User Settings\].
 

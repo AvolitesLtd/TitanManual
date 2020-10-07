@@ -5,15 +5,13 @@ sidebar_label: The System Menu
 ---
 
 The System menu is accessed by holding \<Avo\> and pressing \<Disk\>. Some
-consoles are also fitted with a key switch or mode switch to select
-System mode.
+older consoles are also fitted with a key switch or mode switch to get the
+System menu.
 
 The options in this menu are separated from the other options on the
 console because you would normally only change them occasionally, or
 because they can have serious effects on the way the console works and
 you wouldn't want to change them accidentally.
-
->When the console is in System mode, playback control, preset controls and programming buttons are all disabled.
 
 ---
 

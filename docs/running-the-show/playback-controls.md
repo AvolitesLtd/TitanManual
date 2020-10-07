@@ -34,7 +34,7 @@ Any playback fader on the console can be assigned to act as a master fader, whic
 
 -   **Playback master** controls intensity of all playbacks.
 
-To assign master faders, go to System mode and select \[Assign Masters\], or press \<Record\> then \[Create Master\].
+To assign master faders, from the **System** menu select \[Assign Masters\], or press \<Record\> then \[Create Master\].
 
 By default, master faders are set to have a transparent lock, which makes the master fader remain in position even when the playback page is
 changed. If you don\'t want this to happen you can change it by pressing \<Options\> (or \[Options\] softkey from the root menu) then press the Swop/Select button of the master.
@@ -68,7 +68,7 @@ A playback is assigned to a Speed/Size Master by pressing \[Effects\] then \[Spe
 
 There is also a Rate Grand Master which, if used, proportionally controls the four Rate Masters (BPM Masters are not affected).
 
-To use Speed or Size Masters you will need to assign some handles on the console to act as the Master faders. Switch the console to System mode and select \[Assign Masters\]. Special key profile options are
+To use Speed or Size Masters you will need to assign some handles on the console to act as the Master faders. Go to the **System** menu (\<Avo\> + \<Disk\>) and select \[Assign Masters\]. Special key profile options are
 available for Speed Masters, BPM Masters default to Tap Tempo.
 
 Speed or Size masters can have various scales, 0-100%, 0-200% and so on. A 0-200% scale would allow you to slow down and speed up the speed to double the programmed setting. Scales are set in normal (non-system) mode by pressing \<Options\> (or \[Options\] softkey) then press the Select button of the master.
@@ -158,7 +158,7 @@ Scene Master
 
 The Scene Master allows you to preset an output state by firing a number of playbacks or making live changes, using the visualiser to see the effects but without anything happening on stage. When you are ready for the new state, you fade the Scene Master fader to the other end of its travel and the new state is output.
 
-You assign a fader to be Scene Master from the \[Assign Masters\] menu in System mode or by pressing \<Record\>, then \[Create Master\]. The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
+You assign a fader to be Scene Master from the \[Assign Masters\] button on the **System** menu, or by pressing \<Record\>, then \[Create Master\]. The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
 
 ![Scene Master (Live)](/docs/images/Scene-Master-Live.png)
 
