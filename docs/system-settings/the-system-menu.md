@@ -4,7 +4,8 @@ title: The System Menu
 sidebar_label: The System Menu
 ---
 
-The System menu is accessed by holding \<Avo\> and pressing \<Disk\>. Some
+The System menu is accessed by holding \<Avo\> and pressing \<Disk\>, or 
+on Titan Go you can press the \<System\> button. Some
 older consoles are also fitted with a key switch or mode switch to get the
 System menu.
 
