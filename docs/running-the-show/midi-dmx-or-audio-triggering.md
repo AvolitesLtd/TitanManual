@@ -29,9 +29,7 @@ jack on the motherboard) -- see information box above for consoles which provide
 
 DMX inputs are connected to one of the DMX output connectors using a DMX
 male to male gender changer cable. (This is a simple plug to plug cable
-with all pins wired straight through, i.e. 1-1, 2-2 and 3-3). Titan
-Mobile may require an update of the USB Expert software to enable this
-function, this can be downloaded from the Avolites website.
+with all pins wired straight through, i.e. 1-1, 2-2 and 3-3).  
 
 GPIO uses a contact closure for trigger which is connected using a dedicated jack socket, 
 currently only on the Arena, Tiger Touch II and Sapphire Touch consoles.
