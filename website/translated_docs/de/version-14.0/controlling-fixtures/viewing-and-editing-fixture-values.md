@@ -128,7 +128,7 @@ angeklickt werden. Klickt man auf das \[X\], so wird der Filter
 gelöscht.
 
 Es gibt ferner den Kontext-Button \[Open Channel Grid\] (Öffne Channel
-Grid), mit dem direkt die Kanal-Übersicht [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window) 
+Grid), mit dem direkt die Kanal-Übersicht [Channel Grid](viewing-and-editing-fixture-values.md#übersicht-über-die-kanäle-das-channel-grid-fenster) 
 geöffnet werden kann.
 
 In den **Fenster-Einstellungen** (erreichbar über die

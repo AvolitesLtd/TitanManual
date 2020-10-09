@@ -17,7 +17,7 @@ Einen Keyframe-Shape erzeugen
 Ein Keyframe-Shape wird so ähnlich wie ein [Chaser](../chases.md) erstellt, ist aber
 wesentlich flexibler, den es lässt sich sowohl der Überblend-Verlauf
 bestimmen als auch die Art der Aufteilung auf mehrere Geräte. Ferner
-lassen sich Keyframe-Shapes auch sehr einfach z.B. in [Cuelisten](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists)
+lassen sich Keyframe-Shapes auch sehr einfach z.B. in [Cuelisten](../cue-lists/creating-a-cue-list.md#tracking-von-shapes-in-cuelisten)
 einbinden.
 
 Die einzelnen Keyframes baut man entweder im **Channel (Kanal-) Modus**, indem man die
@@ -41,7 +41,7 @@ Shapes\].
 2. Klicken Sie auf \[Create\], um einen neuen Keyframe-Shape zu
 beginnen.
 
-3. [Wählen Sie die gewünschten Geräte](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) und stellen Sie die Farben für den ersten
+3. [Wählen Sie die gewünschten Geräte](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) und stellen Sie die Farben für den ersten
 Keyframe ein.
 
 4. Klicken Sie auf \[Add Frame\]. Über dem ersten Playback-Fader wird
@@ -59,7 +59,7 @@ Frame\], bis alle gewünschten Schritte erstellt wurden.
 Verteilung auf mehrere Geräte (Spread) einstellen, siehe nachfolgendes
 Bild.
 
-8. [Speichern Sie den Shape in einen Cue](#saving-a-key-frame-shape-to-a-cue), um ihn später zu verwenden.
+8. [Speichern Sie den Shape in einen Cue](#einen-keyframe-shape-in-einen-cue-speichern), um ihn später zu verwenden.
 
 ---
 
@@ -84,7 +84,7 @@ angezeigt.
 ![Effect Editor Window with colour key frame shape](/docs/images/Effect-Editor-Window-with-colour-key-frame-shape.png)
 
 Die Steuerelemente oben im linken Bereich beeinflussen den gesamten
-Shape: Speed (Geschwindigkeit), Direction (Richtung unter Verwendung des [Gruppen-Layouts](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)), [Phase/Spread](shape-generator.md#changing-the-spread-of-a-shape-across-multiple-fixtures)
+Shape: Speed (Geschwindigkeit), Direction (Richtung unter Verwendung des [Gruppen-Layouts](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen)), [Phase/Spread](shape-generator.md#ändern-der-verteilung-eines-shapes-mehrere-geräte)
 (Verteilung auf mehrere Geräte) und [Overlap](../cues/cue-timing.md#setting-fade-times-and-overlap-for-a-cue) (Überlappen benachbarter
 Geräte).
 
@@ -144,7 +144,7 @@ laufen soll*.
 
 Mit der Einstellung \[Phase Master\] kann die Phase eines Shapes durch
 die Intensität eines Videolayers (eines Ai-Servers) gesteuert werden,
-siehe [Synchronisieren eines Keyframe-Shapes zu Ai](../synergy/operating-synergy.md#phase-control-of-keyframe-shapes-from-ai).
+siehe [Synchronisieren eines Keyframe-Shapes zu Ai](../synergy/operating-synergy.md#phasensteuerung-von-keyframe-shapes-durch-ai).
 
 ### Parameter für einzelne Frames
 
@@ -213,7 +213,7 @@ Einen Keyframe-Shape in einen Cue speichern
 
 Normalerweise werden Keyframe-Shapes, die in einem Cue gespeichert sind,
 durch den zugehörigen Fader gesteuert; ist in den jeweiligen
-Playback-Optionen die Option [Speed on Fader](../cues/playback-options.md#shape-effect-speed)
+Playback-Optionen die Option [Speed on Fader](../cues/playback-options.md#shape--effect-speed)
 gewählt, so wird die Geschwindigkeit des Effekts mit dem Fader geregelt.
 
 Ferner lässt sich sowohl global in den [Benutzereinstellungen](../system-settings/user-settings.md#shape-behaviour) 
@@ -249,7 +249,7 @@ das Verhalten der Keyframe-Shapes einstellen:\
     Shape überschreibt (Details zur Priorität siehe [Priority](../cues/playback-options.md#priority)).
 
 Zum Verhalten von Keyframe-Shapes in Cuelisten siehe
-[Shape-Tracking in Cuelisten](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists).
+[Shape-Tracking in Cuelisten](../cue-lists/creating-a-cue-list.md#tracking-von-shapes-in-cuelisten).
 
 -   Wird mittels [Mask FX](shape-generator.md#masking-shapes-using-mask-fx)
 	ein Mask Shape erzeugt, so stoppt dieser auch Keyframe-Shapes.

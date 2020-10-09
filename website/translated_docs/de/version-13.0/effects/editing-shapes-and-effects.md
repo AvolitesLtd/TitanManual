@@ -26,7 +26,7 @@ Steuerung per Rad zu verbinden. Sind mehr als drei Parameter zu steuern,
 so können Sie mit Menütaste G umschalten.
 
 -   Stammen die Shapes aus einem Cue, so werden Änderungen direkt in den
-    Cue übertragen (genauso wie z.B. [Speed und Crossfade bei Chasern](../chases/chase-playback.md#setting-speed-and-crossfade-for-a-chase)).
+    Cue übertragen (genauso wie z.B. [Geschwindigkeit und Überblendung einstellen](../chases/chase-playback.md#geschwindigkeit-und-überblendung-einstellen)).
 
 -   Um währenddessen ein anderes Attribut zu steuern, betätigen Sie die
     entsprechende Attribut-Taste/Button. Um wieder zur Shape-Steuerung
@@ -59,7 +59,7 @@ Es lassen sich nur Shapes verändern, die sich im Programmierspeicher
 befinden - wird ein Shape einfach mit einem Cue gestartet, so erscheint
 er nicht in der Liste zu ändernder Shapes. Um einen Shape in einem Cue zu
 ändern, laden Sie also zunächst den Cue [per Include in den
-Programmierspeicher](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)).
+Programmierspeicher](../cues/editing-cues.md#cues-wiederverwenden---die-include-funktion)).
 
 Wurde ein Cue mittels Include geladen und sind mehrere Shapes
 gleichzeitig im Programmierspeicher, so lässt sich der mit den Encodern zu

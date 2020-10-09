@@ -77,7 +77,7 @@ Optionen klicken Sie auf den Kontext-Button **Pages Show/Hide** links der
 Menü-Schaltflächen.
 
 >   Paletten von einer beliebigen Seite lassen sich auch über ihre
-    Nummer aufrufen, siehe [voriger Abschnitt](#recalling-from-the-keypad).
+    Nummer aufrufen, siehe [voriger Abschnitt](#abrufen-per-nummersyntax).
 
 Anzeige nur der relevanten Paletten
 -----------------------------------

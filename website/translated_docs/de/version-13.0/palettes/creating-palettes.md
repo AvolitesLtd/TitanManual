@@ -20,7 +20,7 @@ Werte) verwendet. Zum Erstellen einer Farb-Palette stellen Sie einfach
 die gewünschte Farbe ein, ohne die anderen Attribute zu verändern.
 Ebenso lassen sich Paletten mit Shapes und Pixelmapper-Effekten anlegen.
 Ferner werden auch Zeiten für Attribute und Geräte in den Paletten
-gespeichert, und es lassen sich sogar [Paletten nur mit Zeiten](#creating-a-time-palette) - ohne Attributwerte - anlegen.
+gespeichert, und es lassen sich sogar [Paletten nur mit Zeiten](#erstellen-einer-palette-mit-zeiten) - ohne Attributwerte - anlegen.
 
 Sind mehrere Attribute im Programmierspeicher, so erstellen Sie eine
 Maske, mit der die zu speichernden Attribute ausgewählt werden.
@@ -66,7 +66,7 @@ Zum Speichern einer Palette gehen Sie wie folgt vor:
 
 4.  Drücken Sie \<Record\> und dann \<Palette\> oder drücken Sie
 	\<Palette\> und wählen \[Record Palette\].\
-	*Beim [Schnellspeichern von Paletten](#quick-record) ist das nicht 
+	*Beim [Schnellspeichern von Paletten](#schnellspeichern) ist das nicht 
 	erforderlich, und auch die Maske muss nicht eingestellt werden.*
 
 5.  Erstellen Sie die Palettenmaske; diese bestimmt, welche Attribute
@@ -101,7 +101,7 @@ Zum Speichern einer Palette gehen Sie wie folgt vor:
     Ist eine Attribut-Gruppe zum Speichern vorgesehen, so erscheint die
     entsprechende Funktionstaste invertiert (wie für 'Colour' in 
     Bild), und die LED der entsprechenden Attribut-Taste leuchtet. Beim
-    Verwenden der **[Schnellspeicherfunktion](#quick-record)**
+    Verwenden der **[Schnellspeicherfunktion](#schnellspeichern)**
     wird die Maske automatisch erstellt, abhängig vom Fenster, in dem
     die Palette gespeichert wird: Paletten im Fenster 'Positions'
     enthalten nur P, im Fenster 'Colours' nur C und im Fenster 'Gobos
@@ -141,7 +141,7 @@ Zum Speichern einer Palette gehen Sie wie folgt vor:
 
 -   Ebenso kann man beim Speichern mit \[Provide a legend\] der Palette
     eine Bezeichnung geben. Zum späteren Ändern der Bezeichnung siehe
-    [Setting Legends for Palettes](#setting-legends-for-palettes).
+    [Paletten beschriften und bemalen](#paletten-beschriften-und-bemalen).
 
 -   Wird eine Palette auf einen bereits belegten Speicherplatz
     gespeichert, so bietet das Pult die Optionen \[Cancel\] (Abbruch),
@@ -214,7 +214,7 @@ Schnellspeichern funktioniert auch bei Gruppen und Arbeitsumgebungen
 (Workspaces).
 
 > Wird eine Show geladen, die auf einem **Pearl Expert** programmiert wurde, so lassen sich die dort auf die Tasten programmierten Paletten über das Fenster **Groups and Palettes** erreichen, siehe
-[Compatibility Windows for Pearl Expert Shows](../titan-basics/workspace-windows.md#compatibility-windows-for-pearl-expert-shows).
+[Compatibility windows -- Die Kompatibilitäts-Fenster](../titan-basics/workspace-windows.md#compatibility-windows----die-kompatibilitäts-fenster).
 
 Paletten beschriften und bemalen
 --------------------------------
@@ -296,7 +296,7 @@ keine anderen Attributwerte in den Programmierspeicher zu schreiben.
 6.  Klicken Sie auf eine Palettenschaltfläche, um die Palette zu
 	speichern.
 
-Effekt-Paletten lassen sich nicht als **[Quick Palette](using-palettes.md#quick-palettes-with-no-fixtures-selected)** verwenden. Es müssen immer Fixtures angewählt sein, um eine 
+Effekt-Paletten lassen sich nicht als **[Quick Palette](using-palettes.md#quick-palettes----schnelle-paletten-ohne-ausgewählte-geräte)** verwenden. Es müssen immer Fixtures angewählt sein, um eine 
 Effekt-Palette anzuwenden.
 
 Erstellen einer Palette mit Zeiten

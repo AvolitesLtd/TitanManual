@@ -5,14 +5,14 @@ sidebar_label: Timing with Palettes
 original_id: timing-with-palettes
 ---
 
-[Paletten können gleich mit Zeiten gespeichert werden](creating-palettes.md#creating-a-time-palette);
+[Paletten können gleich mit Zeiten gespeichert werden](creating-palettes.md#erstellen-einer-palette-mit-zeiten);
 alternativ kann beim Abruf einer Palette eine Zeit vorgegeben oder die
 gespeicherte überschrieben werden.
 
 Paletten mit gespeicherten Zeiten
 ---------------------------------
 
-[Enthält eine Palette auch Zeiten](creating-palettes.md#creating-a-time-palette), 
+[Enthält eine Palette auch Zeiten](creating-palettes.md#erstellen-einer-palette-mit-zeiten), 
 so werden diese mit berücksichtigt,
 wenn die Palette in Playbacks verwendet wird. Wurden also z.B. 2s 
 Fadezeit mit in der Palette abgespeichert und wird diese in einem Cue 
@@ -21,9 +21,9 @@ verwendet, so ist für diesen bereits 2s Fadezeit eingestellt.
 Beim direkten Palettenaufruf hingegen wird die Fadezeit zunächst **nicht** 
 berücksichtigt, um das Programmieren nicht zu behindern. Es kann aber 
 per Tastenprofil aktiviert werden, was insbesondere beim [Improvisieren
-(Busking) mit Paletten](../running-the-show/playback-controls#busking-with-palettes) 
+(Busking) mit Paletten](../running-the-show/playback-controls#improvisieren-busking-mit-paletten) 
 interessante Möglichkeiten eröffnet. Dazu ändern
-Sie die [Einstellung (Key Profiles für Paletten)](../system-settings/key-profiles.md) 
+Sie die [Einstellung (Key Profiles für Paletten)](../system-settings/key-profiles#palettes) 
 \[Palette Is Fired Ignoring Its Times\] (Zeiten werden ignoriert) 
 in \[Palette Is Fired With Its Times\] (Palette wird
 mit Zeiten gestartet).
@@ -61,7 +61,7 @@ vorgegebenen Zeit ein.
 Manuelle Geräteüberlappung beim Palettenabruf
 ---------------------------------------------
 
-Außerdem lässt sich die [Überlappung (Fixture Overlap)](../cues/cue-timing.md#setting-fade-times-and-overlap-for-a-cue) 
+Außerdem lässt sich die [Überlappung (Fixture Overlap)](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) 
 zwischen den Geräten einstellen: wenn die Palette auf eine Gruppe von 
 Geräten angewendet wird, so erfolgt das nacheinander auf die einzelnen
 Geräte. Damit lassen sich sehr einfach beeindruckende Effekte erzielen.\

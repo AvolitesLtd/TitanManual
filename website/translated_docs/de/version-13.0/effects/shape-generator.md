@@ -37,7 +37,7 @@ Einen Shape erstellen
 Wird ein Shape ausgewählt, so wird dieser auf die zuvor angewählten
 Geräte angewendet.
 
-1. [Wählen Sie die Geräte](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control), auf die der Shape angewendet werden soll.
+1. [Wählen Sie die Geräte](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen), auf die der Shape angewendet werden soll.
 
 2. Im Hauptmenü drücken Sie \[Shape and Effects\], dann \[Shape
 Generator\].
@@ -74,7 +74,7 @@ die Suche einzugrenzen.
 -   Zum Ändern des Basiswerts eines Shapes (etwa das Zentrum eines
     Kreises) ändern Sie wie gewohnt die entsprechenden Attribute mit den
     Rädern. Ggf. stellt man dazu die Größe des Shapes auf null (siehe
-    [nächster Abschnitt](#changing-size-and-speed-of-a-shape)), um den Basiswert genau einstellen zu können.
+    [nächster Abschnitt](#ändern-von-größe-und-geschwindigkeit)), um den Basiswert genau einstellen zu können.
 
 -   Zum gleichzeitigen Abruf mehrerer Shapes wiederholen Sie einfach die
     o.g. Prozedur. Ebenso lassen sich auch mehrere Shapes auf das
@@ -87,7 +87,7 @@ die Suche einzugrenzen.
 -   Wird der gleiche Shape auf zwei verschiedene Gruppen von Geräten
     angewendet, so erscheint er doppelt in der Liste. Damit lassen sich
     die beiden Gruppen getrennt voneinander beeinflussen, etwa für
-    unterschiedliche Richtungen, Geschwindigkeiten etc. ([s.u.](#changing-size-and-speed-of-a-shape))
+    unterschiedliche Richtungen, Geschwindigkeiten etc. ([s.u.](#ändern-von-größe-und-geschwindigkeit))
 
 -   Hat das ausgewählte Gerät Teilgeräte (Zellen, Subfixtures), so kann
     man wählen, ob der Shape auf dem Hauptgerät laufen soll und alle
@@ -132,7 +132,7 @@ Weitere Dinge über Größe und Geschwindigkeit:
 -   Laufen mehrere Shapes, so sind die Encoder dem zuletzt geladenen
     zugeordnet. Die Parameter jedes einzelnen laufenden Shapes lassen
     sich mit der 'Edit Shape'-Funktion einstellen, siehe
-    [Editing a Shape in a Cue Using Include](editing-shapes-and-effects.md#editing-a-shape-in-a-cue-using-include).
+    [Ändern von Shapes mit Include](editing-shapes-and-effects.md#ändern-von-shapes-mit-include).
 
 -   Die Minimalgröße ist Null. Dies lässt den Shape *"verschwinden"*, und
     das Gerät kehrt zu den vorherigen Einstellungen zurück. Dennoch ist
@@ -140,7 +140,7 @@ Weitere Dinge über Größe und Geschwindigkeit:
 
 -   Sobald ein Shape in einem Cue gespeichert ist, können Größe und/oder
     Geschwindigkeit entweder mit dem Fader des Cues gesteuert werden,
-    oder man legt entsprechende [Masterfader](../running-the-show/playback-controls.md#speed-and-size-masters) an und verwendet diese (Rate-Master, BPM-Master, Size-Master).
+    oder man legt entsprechende [Masterfader](../running-the-show/playback-controls.md#speed--und-size-master) an und verwendet diese (Rate-Master, BPM-Master, Size-Master).
 
 Ändern der Verteilung eines Shapes (mehrere Geräte)
 ---------------------------------------------------
@@ -196,7 +196,7 @@ Shape-Richtung
 --------------
 
 Die Menüfunktion \[Direction\] erlaubt es, die Richtung des Shapes
-zu ändern; hat man ein [2D-Layout](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) erstellt, so kann man abhängig vom
+zu ändern; hat man ein [2D-Layout](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) erstellt, so kann man abhängig vom
 Shape eine gezielte Bewegung erreichen.
 
 Mit der Taste \<Menu Latch\> lässt sich das "Shape Direction"-Menü
@@ -242,12 +242,12 @@ Verwenden von Shapes in Cues
 ----------------------------
 
 Wird ein Shape in einen Cue (auf ein Playback) gespeichert, so lässt
-sich mit den [Playback Options](../cues/playback-options.md) einstellen,  
+sich mit den [Playback-Optionen](../cues/playback-options.md) einstellen,  
 dass der Fader z.B. die Größe und/oder Geschwindigkeit
-des Shapes steuert; ebenso lassen sich [Master (Size, Speed, BPM)](../running-the-show/playback-controls.md#speed-and-size-masters) für die
+des Shapes steuert; ebenso lassen sich [Master (Size, Speed, BPM)](../running-the-show/playback-controls.md#speed--und-size-master) für die
 Steuerung verwenden. 
 
-Shapes lassen sich auch in Cuelisten verwenden - in [Shape Tracking in Cue Lists](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists) ist beschrieben, wie sich die Shapes in diesem Fall verhalten.
+Shapes lassen sich auch in Cuelisten verwenden - in [Tracking von Shapes in Cuelisten](../cue-lists/creating-a-cue-list.md#tracking-von-shapes-in-cuelisten) ist beschrieben, wie sich die Shapes in diesem Fall verhalten.
 
 Laufende Shapes lassen sich zum Editieren mittels \[Select Shape\]
 auswählen - dies befindet sich im Menü \[Edit\] des Shape Generators.
@@ -257,4 +257,4 @@ Speichern von Shapes in Paletten
 
 Es lassen sich auch Paletten mit Shapes erstellen. Das ist z.B. sehr
 hilfreich mit verschiedenen Spread- oder Size-Einstellungen. Siehe
-[Effekt-Paletten](../palettes/creating-palettes.md#creating-an-effects-palette-shape-or-pixel-mapper).
+[Effekt-Paletten](../palettes/creating-palettes.md#erstellen-einer-effekt-palette).

@@ -73,7 +73,7 @@ In diesem Beispiel wird ein diagonaler Wisch-Effekt mit einem
 rotierenden roten 'Propeller' erstellt.
 
 1.  Erstellen Sie ein Gruppe von Geräten und legen Sie das Layout wie im
-[vorigen Beispiel](#randomising-effects) beschrieben fest.
+[vorigen Beispiel](#zufallseffekte) beschrieben fest.
 
 2.  Starten Sie den Effekt-Editor mit \[Shapes And Effects\], \[Pixel
 Mapper\], \[Create Effect\].
@@ -338,7 +338,7 @@ gewählte Gerät einzeln um sein Zentrum.
 
 **Media options:** Öffnet ein Untermenü für verschiedene Einstellungen
 bei Verwendung eines Ai-Servers/Synergy. Das ist ausführlich beschrieben 
-im Abschnitt [Layout Editor with Ai Server](../synergy/operating-synergy.md#layout-editor-with-ai-server).
+im Abschnitt [Verwendung des Layout-Editors mit Ai](../synergy/operating-synergy.md#verwendung-des-layout-editors-mit-ai).
 
 Reihenfolge und Priorität beim Abruf
 ------------------------------------

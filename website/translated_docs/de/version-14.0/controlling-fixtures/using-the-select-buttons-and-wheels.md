@@ -29,7 +29,7 @@ Ein paar weitere wissenswerte Dinge:
 
 -   Die Taste \<Locate\> aktiviert die angewählten Geräte weiß (ohne
     Farbe) und in Grundstellung (Pan und Tilt jeweils 50%). Weitere
-    Optionen dazu sind im [nächsten Abschnitt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate) erläutert.
+    Optionen dazu sind im [nächsten Abschnitt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate) erläutert.
 
 -   Um ein Gerät aus der Auswahl zu entfernen, einfach die betreffende
     Auswahltaste erneut betätigen.
@@ -40,7 +40,7 @@ Ein paar weitere wissenswerte Dinge:
 -   Drücken Sie \<Clear\> (rechts vom Zifferntastenblock), um sämtliche
     Geräte aus der Auswahl zu entfernen und sämtliche Änderungen aus dem
     Programmierspeicher zu löschen. Weitere Optionen dazu sind im
-    [nächsten Abschnitt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#clearing-selection) erläutert. 
+    [nächsten Abschnitt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#clear----löschen-der-auswahl) erläutert. 
 
 -   Sobald ein Attribut verändert und wieder eine Auswahltaste betätigt
     wurde, werden sämtliche Geräte aus der Auswahl entfernt, und der
@@ -169,7 +169,7 @@ Optionen im Untermenü "Clear Options":
     Geräten mit \<Clear\> auf 0 gesetzt werden sollen oder nicht. (Das
     Tastenprofil der Geräteauswahl lässt sich auf 'Einrasten' (Latch)
     stellen, womit der Dimmerkanal des Gerätes eingeschaltet wird,
-    sobald das Gerät angewählt wird, siehe [Key Profiles](../system-settings/key-profiles.md#creating-and-editing-key-profiles)).
+    sobald das Gerät angewählt wird, siehe [Key Profiles](../system-settings/key-profiles.md)).
 
 -   Mit \[Freeze current values\] lässt sich festlegen, was mit
     LTP-Kanälen (nicht Helligkeit) geschieht, deren Wert modifiziert
@@ -187,7 +187,7 @@ Optionen im Untermenü "Clear Options":
     Programmierspeicher gelöscht oder aber beibehalten werden (dies ist
     unabhängig von Attributzeiten im Speicher).
 
-Mit dem Fenster [Channel Grid](../controlling-fixtures/viewing-and-editing-fixture-values.md#the-channel-grid-window) können einzelne Attribute einzelner
+Mit dem Fenster [Channel Grid](../controlling-fixtures/viewing-and-editing-fixture-values.md#übersicht-über-die-kanäle-das-channel-grid-fenster) können einzelne Attribute einzelner
 Geräte selektiv gelöscht werden.
 
 > Geben Sie mit den Zifferntasten eine Zahl ein und drücken dann \<Clear\>, so faden im Programmer befindliche HTP-Werte in dieser Zeit (in Sekunden) aus. Gibt man etwa 5 ein und drückt \<Clear\>, so wird in 5 Sekunden ausgefadet. Damit kann man unauffällig mit dem Programmer arbeiten.
@@ -270,7 +270,7 @@ gewünschten Wert mit den Rädern ein. Die verfügbaren Attribute sind
 abhängig vom Gerätetyp. Dimmerkanäle besitzen nur das Attribut \'Dimmer\'.
 
 Attribute lassen sich ebenso mit den Schaltflächen 'IPCGBES' auf dem
-Touchscreen anwählen, und mit dem [Attribute Editor Fenster](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-editor-window) einstellen.
+Touchscreen anwählen, und mit dem [Attribute Editor Fenster](../controlling-fixtures/using-the-select-buttons-and-wheels.md#das-fenster-attribut-editor) einstellen.
 
 Auf dem Pearl Expert dienen je nach Benutzereinstellung die Encoder des
 Touchwings zum Einstellen der Attribute.
@@ -618,7 +618,7 @@ fixieren (Taste \<Menu Latch\>).
 -   Die Taste \[@\] stellt den Dimmer-Wert der ausgewähl­ten Geräte ein,
     etwa: 1 \[Through\] 8 \[@\] 5 \<Enter\> setzt Gerät 1-8 auf 50% (in den
     Benutzereinstellungen lässt sich einstellen, ob 50% durch "5" oder
-    "50" eingegeben wird, siehe [User Settings](../system-settings/user-settings.md)). Beim Betätigen
+    "50" eingegeben wird, siehe [Benutzereinstellungen](../system-settings/user-settings.md)). Beim Betätigen
     der Taste \[@\] erscheinen außerdem Optionen auf den Funktionstasten
     für \'Full\' (100%), \'Off\' (0) und +/- (schrittweise
     erhöhen/vermindern).

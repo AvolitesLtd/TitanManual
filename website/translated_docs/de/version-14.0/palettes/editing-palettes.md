@@ -91,7 +91,7 @@ Merge**.
 
 -   Zum Löschen von Attributen aus Paletten dient die Taste \<Off\>
 	sowie die Menütaste \[Off\], siehe voriger Abschnitt, sowie die
-	[\<Off\> -Funktion](../cues/editing-cues.md#removing-attributes-from-cues-using-off).
+	[\<Off\> -Funktion](../cues/editing-cues.md#deaktivieren-von-attributen-in-cues-mit-off).
 
 -   Beim Ändern einer Palette bleibt der Inhalt des Programmierspeichers
     erhalten; nach dem Speichern der modifizierten Palette wird der

@@ -11,7 +11,7 @@ Matrix-Effekte mit dem Pixelmapper erstellen
 [](https://youtu.be/UchvGw2vvU8?t=20 "Pixel Mapping")
 
 Der Pixelmapper funktioniert mit Gruppen von Geräten, die mit dem
-[Layout-Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) angeordnet wurden. Damit wird dem Pult mitgeteilt, wo sich
+[Layout-Editor](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) angeordnet wurden. Damit wird dem Pult mitgeteilt, wo sich
 die einzelnen Geräte tatsächlich auf der Bühne befinden. Daraufhin
 werden die einzelnen Pixel der Effekte passend auf die Geräte
 abgebildet, so dass der 2D-Effekt sichtbar wird. 
@@ -57,7 +57,7 @@ Es stehen folgende Elemente zur Verfügung:
 
 -   Bild aus Datei *(von der Festplatte oder einem USB-Stick)*
 
--   [Content eines Synergy-Ai-Servers](../synergy/operating-synergy.md#lightmap-pixel-mapping-ai-media-content)
+-   [Content eines Synergy-Ai-Servers](../synergy/operating-synergy.md#lightmap-pixelmapping-mit-ai)
 
 ![Effect Editor - Pixel Mapper - Adding an Element](/docs/images/Effect-Editor-Pixel-Mapper-Adding-an-Element.png)
 
@@ -184,7 +184,7 @@ gespeichert werden.
     \<Move\>), dann das zu verschiebende/kopierende Element, und
     schließlich auf das gewünschte Ziel des Kopierens.
 
-### Master-Parameters für Effekte
+### Master-Parameter für Effekte
 
 Jeder erstellte Effekt hat auch Master-Parameter, mit denen bestimmt
 wird, wie sich dieser im Zusammenspiel mit anderen Effekten verhält. Zur
