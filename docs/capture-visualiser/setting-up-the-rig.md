@@ -28,7 +28,7 @@ Setting up Fixtures
 -------------------
 
 Fixtures are automatically placed into the visualiser when they are
-patched if the Auto Update switch in the [Capture Settings](#setting-up-the-stage-and-rigging) **"Show"** window
+patched if the Auto Update switch in the [Capture Settings](#setting-up-the-stage-and-rigging) **"Show"** tab
 is set to On.
 
 If you [load a Titan show](../titan-basics/loading-and-saving-shows.md#loading-a-show) from a previous version, or have some patched

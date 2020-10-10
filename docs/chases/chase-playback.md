@@ -38,17 +38,17 @@ When you fire a chase, the wheels and \<Stop\>/\<Go\> buttons are automatically
 allocated to control the speed and crossfade of the chase - this is
 called **connecting** the chase. If you have more than one chase running,
 you can choose which chase is connected to the controls using the
-\<Connect\> button.
+\<Connect/Cue\> button (this button may also be labelled \<Connect\> or \<Cue\> depending on the console).
 
--   Connect a different chase to the controls by pressing \<Connect\>
+-   Connect a different chase to the controls by pressing \<Connect/Cue\>
     then the Swop button of the chase you want to control.
 
--   Disconnect a chase from the controls by double pressing \<Connect\>.
+-   Disconnect a chase from the controls by double pressing \<Connect/Cue\>.
 
 -   You can turn off the **"Auto Connect"** option in the
     [User Settings > Wheels menu](../system-settings/user-settings.md#auto-connect)
     if you don't want to connect to a chase when
-    you fire it. You will have to use the \<Connect\> button to control
+    you fire it. You will have to use the \<Connect/Cue\> button to control
     the chase if you do this.
 
 -   There is a further option "Auto View on Connect" in the
@@ -126,7 +126,7 @@ pressing the \<Stop\> button next to the wheels. Press the red \<Go\> button
 to resume playback of the chase.
 
 While the chase is stopped you can use the \<Prev Step\>/\<Next Step\>
-buttons *(← and → on some consoles)* next to the \<Connect\> button to
+buttons *(← and → on some consoles)* next to the \<Connect/Cue\> button to
 move to the next or previous step. The programmed fade time will be used
 when moving between steps, unless you enable the [user setting \[Chase
 Snap\]](../system-settings/user-settings.md#chase-snap), or press \<Snap\> button if the console has one.
@@ -150,14 +150,14 @@ Changing Chase Direction
 ------------------------
 
 The \<Prev Step\>/\<Next Step\> (← and → on some consoles) buttons next
-to \<Connect\> set the direction of the connected chase. *If fitted*, the
+to \<Connect/Cue\> set the direction of the connected chase. *If fitted*, the
 ↔ double-ended arrow button sets **bounce** mode where the chase will run to
 the end then reverse. The \<Review\> key sets the chase to **random**.
 
 Jumping to a Step
 -----------------
 
-You can jump directly to a step in a chase by pressing \<Connect\>, then
+You can jump directly to a step in a chase by pressing \<Connect/Cue\>, then
 typing in the desired step number, then pressing \<Enter\> or softkey A.
 Alternatively at the top level menu you can type the step number then
-press \<Connect\>.
+press \<Connect/Cue\>.
