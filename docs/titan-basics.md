@@ -85,11 +85,16 @@ Connecting up Titan Mobile and T1/T2
 ------------------------------------
 
 Do not connect the Titan Mobile panel or the T1/T2 dongle to your PC for
-the first time until you have installed the Titan PC Suite software,
+the first time until you have installed the **Titan PC Suite** software,
 which you do simply by running the installer file. This will make sure
 the drivers for the panel are installed.
 
-> From Titan v7, Windows XP and Vista are no longer supported. Your PC must be running a 64 bit version of Windows 7, Windows 8.1 or Windows 10.
+>	**PC specifications:** From Titan v14, your PC should be running Windows 10 64-bit (other versions 
+	may not work correctly and we can't provide you with support). Some users have
+	successfully used Virtual Machines to run Titan, but we don't provide support for them.
+    We recommend i5 processor with 4GB RAM as a minimum.	
+	Please
+  [see https://avolites.com/titan-pc-system-requirements](https://avolites.com/titan-pc-system-requirements/) for the full specification.
 
 For best usability, your PC should have a touch screen. If not you can
 use the mouse to select touch buttons.
@@ -99,7 +104,7 @@ for the panel (older Titan Mobile panels have two USB connectors -- you
 only need to connect port A, nearest the DC socket). If your PC asks you
 for drivers, select \'Install the Software Automatically\'. If you have
 an older Titan Mobile panel without the built-in AvoKey you also need to
-attach an AvoKey to a free USB port.
+attach an AvoKey to a free USB port to license the software.
 
 Power is normally supplied down the USB connection and the external DC
 power socket is not used, but if your PC has a lot of other USB devices
@@ -119,6 +124,9 @@ that will output one or two universes of DMX or Art-Net. The software to
 run it is called Titan Go. The first time you run Titan Go you will need
 to obtain a licence from the Avolites website which will license the
 AvoKey built into the device.
+
+-	If you are using an older Titan 1 dongle, you will need to attach an
+	AvoKey to a free USB port to license the software. 
 
 Titan Healthcheck
 -----------------
