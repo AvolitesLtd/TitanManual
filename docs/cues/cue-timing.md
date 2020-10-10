@@ -113,7 +113,8 @@ Changing Fixture Order
 
 You can change the order of the fixtures stored in a cue. Normally this
 is set to the order in which you selected the fixtures when the cue was
-created, but you might want to change this *(for example to pair up
+created, or the order stored in the group if you selected a group, but 
+you might want to change this *(for example to pair up
 fixtures so they move together when using
 [Fixture Overlap](#fade-times-and-fixture-overlap))*.
 
@@ -123,14 +124,14 @@ fixtures so they move together when using
 
 3. Press \[Fixture Order\]
 
-4. Set the sequence number to start from using \[softkey A\]
+4. Set the sequence number to start from by pressing \[Step Number\]
 
 5. If you want the sequence number to increase automatically, set
 \[Autoincrement\] to **On**. If you want some fixtures to have the same
 sequence number, set it to **Off**.
 
 6. Touch the **Select** buttons of the fixture(s) you want to place in that
-position in the sequence. The sequence number is shown in the top right
+position in the sequence. The sequence number is shown in green in the top right
 hand corner of the fixture select touch buttons.
 ![Fixtures Window setting Fixture Order](/docs/images/Fixtures-Window-showing-fixture-order.png)
 
