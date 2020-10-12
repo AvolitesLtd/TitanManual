@@ -15,7 +15,7 @@ However, if you need to you can also set the IP address using Windows
 Control Panel. See [Setting your IP address](a-quick-guide-to-ip-addressing.md#setting-your-ip-address) for
 details of IP addressing.
 
-1. Switch to System mode and press \[Network Settings\]
+1. Go to the **System** menu (\<Avo\> + \<Disk\>) and press \[Network Settings\]
 
 2. Press \[Local Area Connection\].
 
@@ -25,7 +25,7 @@ details of IP addressing.
 
 5. Press \[Save settings\]
 
-6. \<Exit\> system mode.
+6. \<Exit\> system menu.
 
 -   Some equipment may operate on IP addresses 10.\*.\*.\* 
     -- see later in this chapter for details.

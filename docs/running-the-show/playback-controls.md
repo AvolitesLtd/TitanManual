@@ -34,7 +34,7 @@ Any playback fader on the console can be assigned to act as a master fader, whic
 
 -   **Playback master** controls intensity of all playbacks.
 
-To assign master faders, go to System mode and select \[Assign Masters\], or press \<Record\> then \[Create Master\].
+To assign master faders, from the **System** menu select \[Assign Masters\], or press \<Record\> then \[Create Master\].
 
 By default, master faders are set to have a transparent lock, which makes the master fader remain in position even when the playback page is
 changed. If you don\'t want this to happen you can change it by pressing \<Options\> (or \[Options\] softkey from the root menu) then press the Swop/Select button of the master.
@@ -169,7 +169,7 @@ Scene Master
 
 The Scene Master allows you to preset an output state by firing a number of playbacks or making live changes, using the visualiser to see the effects but without anything happening on stage. When you are ready for the new state, you fade the Scene Master fader to the other end of its travel and the new state is output.
 
-You assign a handle to be Scene Master by pressing \<Record\> then \[Create Master\]. The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
+You assign a handle to be Scene Master by pressing \<Record\> then \[Create Master\] (or from the \[Assign Masters\] button on the **System** menu). The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
 
 ![Scene Master (Live)](/docs/images/Scene-Master-Live.png)
 

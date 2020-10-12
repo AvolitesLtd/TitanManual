@@ -25,11 +25,11 @@ Patching is the process where you tell the console
 If your fixtures are RDM equipped, the console can patch itself from the
 rig, see [Patching by RDM](./patching/patching-new-fixtures-or-dimmers.md#patching-by-rdm).
 
-On consoles with a System/Run/Program switch, the switch must be set to
+On older consoles with a System/Run/Program switch, the switch must be set to
 Program before you can patch.
 
 By default in a new show, each physical DMX output socket (5 pin XLR) is
 connected to a DMX line. If you want to change this or use other lines,
-go to the [DMX Settings](./system-settings/dmx-output-mapping.md) window in System mode.
+go to the [DMX Settings](./system-settings/dmx-output-mapping.md) window from the **System** menu.
 
 > If nothing is happening to the lights when you make changes on the console it is worth checking the DMX Settings window to make sure the DMX lines are allocated to outputs.

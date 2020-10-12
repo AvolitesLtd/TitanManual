@@ -198,7 +198,7 @@ Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) will also support 2 mon
 you are using has the facility.
 
 An external monitor is disabled by default and will show a \'disabled\'
-message. To enable, switch to System mode (press \<Avo\>+\<Disk\>) and
+message. To enable, switch to **System** menu (press \<Avo\> + \<Disk\>) and
 select \[Display Setup\] then press \[External Display Disconnected\].
 The option will change to \[External Display Connected\] and the display
 will be enabled.
@@ -240,7 +240,10 @@ One or two 3-pin XLR sockets for desk lamps are provided on the rear of
 the console. Suitable lamps are available from Avolites. The lamps are
 12 volt DC, wired from pins 1 (negative) and 2 (positive) of the XLR
 (not all desk lamps are wired like this and may require rewiring to
-work). You can set the brightness of the desk lamps from System mode.
+work). 
+
+- You can set the brightness of the desk lamps from the **System** menu 
+	(press \<Avo\> + \<Disk\>).
 
 Connecting Console Wings
 ------------------------

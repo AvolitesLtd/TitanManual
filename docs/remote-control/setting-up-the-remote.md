@@ -52,7 +52,7 @@ the DHCP server. Take note of the name of the wireless network (SSID).
 2. Connect an Ethernet cable from the back of the console to the access
 point.
 
-3. Set the IP address of the console: Switch to System, select
+3. Set the IP address of the console: from the **System** menu (\<Avo\> + \<Disk\>), select
 \[Network Settings\], press \[Local Area Connection\], then press \[Set
 IP 10.\*.\*.\*\].
 
@@ -65,4 +65,7 @@ the access point.
 
 6. Run the Titan Remote app. You should see the console listed.
 
-> If you are using the remote at show time, on the Access Point you should select the option to hide the SSID. If you do not do this, every smartphone in the audience will find your WiFi and try to connect to your Access Point which will make the remote operation very sluggish.
+> If you are using the remote at show time, on the Access Point you 
+should select the option to hide the SSID. If you do not do this, 
+every smartphone in the audience will find your WiFi and try to 
+connect to your Access Point which will make the remote operation very sluggish.
