@@ -24,7 +24,7 @@ related to each playback fader.
 
 [](https://youtu.be/CxHQV4sP_sA?t=20 "Key Profiles")
 
-To create or edit a profile, switch to System mode then select \[Key
+To create or edit a profile, go to the **System** menu (press \<Avo\> + \<Disk\>) then select \[Key
 Profiles\]. You can then use the Manage Profiles menu to View, Edit,
 Add, Delete or Rename profiles.
 
@@ -110,7 +110,7 @@ Latch | *As Flash*, but dimmers will remain active until button pressed again
 Go | Cue list will advance to next cue using times
 Stop | Stops all fades in the cue list at their current point
 Preload | LTP channels of non-illuminated fixtures will move to positions in next cue
-Connect | Connects this cue list to controls *(same as pressing \<Connect\> then select button of cue list)*
+Connect | Connects this cue list to controls *(same as pressing \<Connect/Cue\> then select button of cue list)*
 Tap Tempo | Set speed parameter by tapping the button
 Next Cue - | Press repeatedly to select the next cue to be output, going backwards
 Next Cue + | Press repeatedly to select next cue to output, going forwards

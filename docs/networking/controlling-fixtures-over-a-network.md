@@ -14,7 +14,7 @@ We recommend that you use the console's automatic IP setting function.
 However, if you need to you can also set a manual IP address. See [Setting your IP address](a-quick-guide-to-ip-addressing.md#setting-your-ip-address) for
 details of how IP addressing works.
 
-1. Go to the System menu (press \<Avo\> + \<Disk\>) and press \[Network Settings\]
+1. Go to the **System** menu (press \<Avo\> + \<Disk\>) and press \[Network Settings\]
 
 2. Press \[Local Area Connection\] (some consoles have more than
 	one network connection, so you may have different connections to 

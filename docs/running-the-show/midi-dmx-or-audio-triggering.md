@@ -29,9 +29,7 @@ jack on the motherboard) -- see information box above for consoles which provide
 
 DMX inputs are connected to one of the DMX output connectors using a DMX
 male to male gender changer cable. (This is a simple plug to plug cable
-with all pins wired straight through, i.e. 1-1, 2-2 and 3-3). Titan
-Mobile may require an update of the USB Expert software to enable this
-function, this can be downloaded from the Avolites website.
+with all pins wired straight through, i.e. 1-1, 2-2 and 3-3).  
 
 GPIO uses a contact closure for trigger which is connected using a dedicated jack socket, 
 currently only on the Arena, Tiger Touch II and Sapphire Touch consoles.
@@ -51,7 +49,7 @@ sACN is connected using the normal Ethernet connection on the console.
 Setting up External Triggering
 ----------------------------
 
-Enter System mode and select \[Triggers\]. The Triggers window will
+Go to the **System** menu (\<Avo\> + \<Disk\>) and select \[Triggers\]. The Triggers window will
 open.
 
 ![Triggers Window](/docs/images/Triggers-Window.png)
@@ -145,7 +143,7 @@ This is how to set up a MIDI fader controller to act as playback faders
 on T2. Ensure your MIDI device is connected and recognised by Windows
 (you can use a utility such as Midi-OX to test it).
 
-1. Enter System mode and select \[Triggers\].
+1. From the **System** menu select \[Triggers\].
 
 2. Add a new mapping using the \[+\] button at the bottom of the left hand
 column, and call it "T2 playbacks".
@@ -186,7 +184,7 @@ number, press \[Set Legend\] then the select button of the cue, then
 \[User Number\].
 
 MIDI show control devices are identified by a device ID. To set Titan's
-device ID go to System mode and select \[User Settings\], then go to the
+device ID select \[User Settings\] from the **System** menu, then go to the
 \[Timecode\] tab. The default setting is 0.
 
 Audio Control (Sound to Light)

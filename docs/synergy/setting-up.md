@@ -51,8 +51,8 @@ configure these further on the Ai server itself).
 
 ![Synergy Settings Window](/docs/images/Synergy-Settings-Window.png)
 
-On the left of the screen the available Ai
-servers are shown. In the centre of the screen, the Surfaces and Layers
+On the left of the window the available Ai
+servers are shown. In the centre of the window, the Surfaces and Layers
 configured in Titan are shown. Connection lines show how the Titan
 Surfaces will control the different outputs of the Ai server. At the
 bottom are Surfaces which are already configured on Ai but are not yet
@@ -76,7 +76,7 @@ Clicking on a Layer within a Surface shows layer options on the right.
 This allows you to allocate a Rate or BPM master to the layer for speed
 control.
 
-When no Surfaces or Layers are selected, the right side of the screen
+When no Surfaces or Layers are selected, the right side of the window
 shows general information about the system. There is a switchable option
 "Automatic NDI Previews" to enable or disable NDI streams - if you are
 using the media preview window, you will need to turn this on. If not
@@ -108,7 +108,7 @@ screen using Ai, only from the Titan console.
 To add a layer, click on the surface, then the **+** button at the bottom
 and select **Layer** from the popup.
 
-To delete a layer or surface, select the item then click the **Trash Can**
+To delete a layer or surface, select the item then click the **Rubbish Bin**
 icon at the bottom, or press \<Delete\> then click the layer/surface. If
 linked to Ai, this will also delete the layer/surface in Ai.
 

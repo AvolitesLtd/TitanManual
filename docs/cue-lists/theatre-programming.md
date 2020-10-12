@@ -11,7 +11,7 @@ Titan using keypad syntax and this is how you do it.
 
 - Labelled buttons on the console are shown like this: \<Enter\>. 
 - The \<@\> button is the one next to the numeric keypad. 
-- The \<Cue\> button is labelled \<Connect\> on some consoles. 
+- The \<Cue\> button is labelled \<Connect\> or \<Connect/Cue\> on some consoles. 
 - The \<Thru\> button is labelled \<Thru\> or \<Through\> on some consoles. 
 - The \<And\> and \<Thru\> buttons are not provided as fixed buttons on some consoles, softkey \[And\] and \[Through\] options are provided instead.
 

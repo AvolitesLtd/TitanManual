@@ -40,7 +40,7 @@ the main console.
   the same IP range.\
   See the [networking section](../networking.md) for more information.
 
-2.  Press \<Disk\>, \[TitanNet Sessions\], \[Backup\].
+2. On the console which will be the Backup, press \<Disk\>, \[TitanNet Sessions\], \[Backup\].
 
 3. Consoles available for backup will be listed in the softkeys.
 

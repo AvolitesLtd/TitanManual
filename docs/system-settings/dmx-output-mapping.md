@@ -24,7 +24,7 @@ the TitanNet overview.
 Configuring DMX Outputs
 -----------------------
 
-Switch the console to [System mode](the-system-menu.md) and select \[DMX Settings\].
+From the **System** menu (press \<Avo\> + \<Disk\>) select \[DMX Settings\].
 
 The screen will initially show the node tab relating to the console
 itself. It shows a list of available DMX *nodes* (places where you can
@@ -84,7 +84,7 @@ A module is a method of sending DMX (such as Art-Net, or sACN) and can be
 thought of as a collection of nodes.
 
 You can set properties for Art-Net or sACN by going to the DMX Settings
-window (switch to [System mode](the-system-menu.md) and select \[DMX Settings\]) and then
+window (from the **System** menu (press \<Avo\> + \<Disk\>) select \[DMX Settings\]) and then
 click the cog icon at the right hand side of the module name.
 
 This allows you to adjust settings for each module, and to select which
