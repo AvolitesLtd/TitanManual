@@ -5,6 +5,7 @@
 # excluded words
 autoscroll
 busked
+connectable
 dialog
 gimbal
 gobo
@@ -12,6 +13,7 @@ gobos
 keystoning
 nd
 num
+rackmount
 rd
 remotes
 repatch
@@ -189,6 +191,7 @@ v14
 3-axis
 800mA
 c2o
+12-way
 
 # using-the-select-buttons-and-wheels.md
 i.j
