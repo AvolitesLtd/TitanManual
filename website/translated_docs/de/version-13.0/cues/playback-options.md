@@ -93,7 +93,7 @@ gibt es einen Kontext-Button, um die automatisch aktivierten Playbacks anzuzeige
 
 ### Speed
 Vorgabe-Tempo für Effekte in diesem Cue. Kann durch
-entsprechende [Master](../running-the-show/playback-controls.md#speed-and-size-masters) 
+entsprechende [Master](../running-the-show/playback-controls.md#speed--und-size-master) 
 überschrieben werden. Der Speed laufender [Chaser](../chases.md)
 kann auch durch die Encoder geändert werden, sofern der Chaser
 mit der Steuerung verbunden ist.
@@ -167,7 +167,7 @@ Cue eingeblendet wird. Die verschiedenen Kurven sind [Curves](../system-settings
 ---
 
 > Es lässt sich auch ein 
-[Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters)
+[Speed Master](../running-the-show/playback-controls.md#speed--und-size-master)
 bestimmen, der enthaltene Shapes steuert.
 
 ## Playback Options -- Tab "Effects"
@@ -176,20 +176,20 @@ bestimmen, der enthaltene Shapes steuert.
 Gleiche Einstellung wie im Tab 'Playback', [siehe oben](#shape-behaviour).
 
 ### Speed Source
-Bestimmt einen [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters), 
+Bestimmt einen [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master), 
 der enthaltene Shapes steuert.
 
 ### Size Source
-Zuordnung eines [Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters)
+Zuordnung eines [Size Masters](../running-the-show/playback-controls.md#speed--und-size-master)
 für enthaltene Shapes
 
 ### Shape Size
 Gleiche Einstellung wie im Tab 'Fader', [siehe oben](#shape-size)
 
 ### Shape & Effect Speed
-Gleiche Einstellung wie im Tab 'Fader', [siehe oben](#shape-effect-speed)
+Gleiche Einstellung wie im Tab 'Fader', [siehe oben](#shape--effect-speed)
 
-> Haben Sie einen Cue, der nur Shapes enthält, um diese zu anderen Cues dazuzumischen, so empfiehlt es sich, für diesen die Einstellung \[Size on Fader\] vorzunehmen sowie einen [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters) zu verwenden. Damit lässt sich dann flexibel und unabhängig die Größe und die Geschwindigkeit des Shapes live verändern.
+> Haben Sie einen Cue, der nur Shapes enthält, um diese zu anderen Cues dazuzumischen, so empfiehlt es sich, für diesen die Einstellung \[Size on Fader\] vorzunehmen sowie einen [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master) zu verwenden. Damit lässt sich dann flexibel und unabhängig die Größe und die Geschwindigkeit des Shapes live verändern.
 
 ## Playback Options -- Tab "Release"
 

@@ -129,7 +129,7 @@ Flash***.
 
 ### Speed
 Vorgabe-Tempo für Effekte in diesem Cue. Kann durch
-entsprechende [Master](../running-the-show/playback-controls.md#speed-and-size-masters) 
+entsprechende [Master](../running-the-show/playback-controls.md#speed--und-size-master) 
 überschrieben werden.
 
 ---
@@ -174,7 +174,7 @@ das Tempo von 0 bis zur programmierten Geschwindigkeit stufenlos
 verändert werden. Mit dem Multiplier (s.o.) lassen sich auch höhere
 Geschwindigkeiten erzielen.
 
-> Haben Sie einen Cue, der nur Shapes enthält, um diese zu anderen Cues dazuzumischen, so empfiehlt es sich, für diesen die Einstellung \[Size on Fader\] vorzunehmen sowie einen [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters) zu verwenden. Damit lässt sich dann flexibel und unabhängig die Größe und die Geschwindigkeit des Shapes live verändern.
+> Haben Sie einen Cue, der nur Shapes enthält, um diese zu anderen Cues dazuzumischen, so empfiehlt es sich, für diesen die Einstellung \[Size on Fader\] vorzunehmen sowie einen [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master) zu verwenden. Damit lässt sich dann flexibel und unabhängig die Größe und die Geschwindigkeit des Shapes live verändern.
 
 ### Shape Behaviour
 Steuert das Verhalten von Keyframe-Shapes in diesem Playback:
@@ -196,11 +196,11 @@ Fader | die Größe aller hier programmierten Shapes wird vom Fader gesteuert
 HTP Fader | nur die Größe von Dimmer-Shapes wird durch den Fader gesteuert
 
 ### Size Source
-Zuordnung eines [Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters)
+Zuordnung eines [Size Masters](../running-the-show/playback-controls.md#speed--und-size-master)
 für enthaltene Shapes.
 
 ### Speed Source
-Bestimmt einen [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters), 
+Bestimmt einen [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master), 
 der enthaltene Shapes steuert.
 
 ---

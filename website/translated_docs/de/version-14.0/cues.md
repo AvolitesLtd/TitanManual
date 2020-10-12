@@ -29,7 +29,7 @@ können, werden **Playbacks** genannt. Dafür kommen in Frage:
     Fader normalerwiese die Helligkeit, kann aber auch andere Parameter
     steuern (umzustellen in den [\[Options\]](cues/playback-options.md)).
 	
--   **Virtuelle Fader** im [Fenster 'Virtual Faders'](running-the-show/playback-controls.md#virtual-faders). Diese funktionieren
+-   **Virtuelle Fader** im [Fenster 'Virtual Faders'](running-the-show/playback-controls.md#virtuelle-fader). Diese funktionieren
     genauso wie echte Fader.
 
 -   **Buttons** (Schaltflächen) im Playbacks-Fenster; dabei lässt sich per

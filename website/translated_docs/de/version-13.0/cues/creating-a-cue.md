@@ -8,7 +8,7 @@ original_id: creating-a-cue
 Arbeitsweise des Pultes beim Programmieren
 ------------------------------------------
 Sobald ein oder mehrere Dimmer/Geräte zum Steuern ausgewählt werden,
-werden diese in den ***Editor*** geladen. Nun lassen sich mit den [Encodern (Wheels)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels) und
+werden diese in den ***Editor*** geladen. Nun lassen sich mit den [Encodern (Wheels)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern) und
 [Paletten](../palettes.md) die Einstellungen der Geräte verändern; ebenso lassen sich
 Shapes anwenden.
 
@@ -18,7 +18,7 @@ wurden, wird die aktuelle Geräteliste im Editor geleert und eine neue begonnen.
 Alle seit der letzten Betätigung der \<Clear\>-Taste veränderten Geräte
 und Attribute werden im ***Programmer (Programmierspeicher)*** gespeichert. 
 Auch die Reihenfolge der Auswahl der Geräte wird dort gespeichert und ggf. etwa
-bei [Shapes/Effekten](../effects.md) und beim Überblenden ([Geräte-Überlappung/Fixture Overlap](cue-timing.md#setting-fade-times-and-overlap-for-a-cue)) verwendet. 
+bei [Shapes/Effekten](../effects.md) und beim Überblenden ([Geräte-Überlappung/Fixture Overlap](cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz)) verwendet. 
 Beim Speichern des Cues wird schließlich der Inhalt des Programmierspeichers 
 in das Playback geschrieben.
 
@@ -30,13 +30,13 @@ Druck auf die \<Clear\>-Taste, da sämtliche Attribute im
 Programmierspeicher die Einstellungen der Playbacks sonst überlagern.
 
 Geräte, die aktuell im Programmspeicher sind, werden auf den
-[Geräte-Schaltflächen](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) in einem mittleren Blau dargestellt. Attribute im
-Programmierer (also die geänderten Einstellungen) werden [in der Attribut-Anzeige](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-wheel-display)
+[Geräte-Schaltflächen](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) in einem mittleren Blau dargestellt. Attribute im
+Programmierer (also die geänderten Einstellungen) werden [in der Attribut-Anzeige](../controlling-fixtures/using-the-select-buttons-and-wheels.md#anzeige-der-attributwerte)
 in Cyan dargestellt.
 
 Beim Abrufen eines Cues werden dessen Werte nicht in den
 Programmierspeicher übernommen *(das lässt sich jedoch durch die
-[Include-Function](editing-cues.md#using-parts-of-existing-cues-the-include-function) erreichen)*.
+[Include-Function](editing-cues.md#cues-wiederverwenden---die-include-funktion) erreichen)*.
 
 
 Anlegen eines Cues
@@ -72,7 +72,7 @@ Schaltflächen im Fenster 'Playbacks' gespeichert werden.
 	Attribute werden gespeichert
     -   \[Record Stage\] - gesamtes Bild speichern: sämtliche
     Geräte mit nicht geschlossenem Dimmer werden gespeichert
-    -   \[Quick Build\] - siehe [nächster Abschnitt](#quick-build-cues)
+    -   \[Quick Build\] - siehe [nächster Abschnitt](#quick-build----cues-schnellspeichern)
 
 -   \[Record By Channel\] ist empfehlenswert, wenn mehrere Cues
     übereinandergelegt werden sollen, um einen bestimmten Effekt zu
@@ -102,7 +102,7 @@ Quick Build -- Cues schnellspeichern
 
 Stellt man \[Record Mode\] auf **Quick Build**, so lassen sich Cues aus
 bereits programmierten Cues und Paletten erstellen (wie auch per
-[Include](editing-cues.md#using-parts-of-existing-cues-the-include-function)).
+[Include](editing-cues.md#cues-wiederverwenden---die-include-funktion)).
 
 Nach dem Aktivieren von Quick Build wartet das Pult auf die Auswahl von
 Speicherplätzen und Paletten.
@@ -124,7 +124,7 @@ Ebenso können Sie einen Shape ohne Basiswerte speichern; ein Cue wie
 dieser kann gemeinsam mit anderen Cues abgerufen werden, überlagert dann
 die dort abgespeicherten Werte/Shapes und ergibt vielfältige
 Kombinationsmöglichkeiten. Zum Speichern eines solchen Cues nutzen Sie
-den Modus **Record by Channel** sowie die ['Off'-Funktion](editing-cues.md#removing-attributes-from-cues-using-off), um die anderen
+den Modus **Record by Channel** sowie die ['Off'-Funktion](editing-cues.md#deaktivieren-von-attributen-in-cues-mit-off), um die anderen
 Attribute aus dem Programmierspeicher zu entfernen.
 
 Blind-Modus
@@ -158,7 +158,7 @@ Attribut-Speichermaske bei Cues
 
 Beim Speichern von Cues lässt sich eine Maske erstellen, mit der die zu
 speichernden Attribute festgelegt werden. Dies funktioniert genauso wie 
-beim [Speichern von Paletten](../palettes/creating-palettes.md#storing-a-palette).
+beim [Speichern von Paletten](../palettes/creating-palettes.md#speichern-einer-palette).
 Drücken Sie \<Record\> und wählen die Option \[Set Mask\]. Wählen Sie 
 nun die zu speichernden Attribute mit den Attribut-Tasten.
 

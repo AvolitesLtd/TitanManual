@@ -285,7 +285,7 @@ Werte lassen sich auch unter Verwendung der \<Include\>-Funktion auf Off
 setzen:
 
 1. Verwenden Sie **Quick Include** (siehe [voriger
-Abschnitt](#using-parts-of-existing-cues-the-include-function)), um den Cue in den Programmierspeicher zu laden.
+Abschnitt](#cues-wiederverwenden---die-include-funktion)), um den Cue in den Programmierspeicher zu laden.
 
 2. Betätigen Sie die \<Off\>-Taste, um das 'Off'-Menü anzuzeigen.
 

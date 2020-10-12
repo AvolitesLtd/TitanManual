@@ -168,15 +168,15 @@ Master für Speed (Geschwindigkeit) und Size (Größe)
 Die einzelnen Playbacks lassen sich verschiedenen Speed- und
 Size-Masterreglern zuweisen; damit kann man das Tempo und die Größe von
 enthaltenen [Shapes und Effekten](../effects.md) zentral steuern, oder - im Fall von
-Chasern - direkt das [Chase-Tempo](../chases/chase-timing.md#rate-and-bpm-masters) 
+Chasern - direkt das [Chase-Tempo](../chases/chase-timing.md#rate--und-bpm-master) 
 beeinflussen. *Das ist sehr nützlich, um mehrere gleichzeitig laufende Cues 
 gemeinsam zu steuern*.
 
 Fader können aber auch Größe und Tempo der 'eigenen', also in diesem Cue
 gespeicherten Effekte steuern. Dies wird über die Playback-Optionen
-eingestellt, siehe [Fader Settings](playback-options.md#fader-tab)
+eingestellt, siehe [Fader Settings](playback-options.md#playback-options----tab-fader)
 
-Speed- und Size-Master sind detailliert beschrieben in [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
+Speed- und Size-Master sind detailliert beschrieben in [Speed and Size Masters](../running-the-show/playback-controls.md#speed--und-size-master).
 
 Freigeben (Release) laufender Playbacks
 ---------------------------------------
@@ -188,7 +188,7 @@ betreffenden Kanäle auf Ihre Werte vor Starten des Playbacks, auf das
 zuletzt aktive Playback, zurück. Ist die Option \[Release to Home\] im
 Release-Menü aktiviert, erfolgt das Release nach und nach bis zum
 Einschaltzustand des Pultes (kann programmiert werden, siehe [nächster
-Abschnitt](#programming-the-release-power-on-state)). Ist die Option 
+Abschnitt](#werte-für-release--power-on-programmieren)). Ist die Option 
 nicht aktiviert, so erfolgt das Release bis
 zum letzten Playback. Um alle Playbacks zu releasen, drücken Sie
 \<Release\> und wählen aus dem Menü \[Release all playbacks\].
@@ -199,7 +199,7 @@ die graue oder blaue Taste mit der Funktion ‚Release' zu belegen.
 Das Freigeben erfolgt stets mit einer Überblendzeit. Deren Vorgabewert
 sind 2s, dies kann im Release-Menü ‚(\<Release\> gedrückt halten) unter
 \[Master Release Time\] geändert werden. Ferner kann man jedem Playback 
-eine individuelle Relese-Zeit zuweisen ([Tab "Release"](playback-options.md#release-tab) der Playback-Optionen).
+eine individuelle Relese-Zeit zuweisen ([Tab "Release"](playback-options.md#playback-options----tab-release) der Playback-Optionen).
 
 -   Um einen einzelnen Cue zu deaktivieren (‚Kill'), drücken Sie
     gleichzeitig die \<AVO\>-Taste und die **Swop-Taste** des Cues.

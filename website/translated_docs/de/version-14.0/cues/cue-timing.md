@@ -60,7 +60,7 @@ haben, bevor das nächste damit beginnt.\
 wenn das vorherige seine Überblendung zur Hälfte abgeschlossen hat.\
 Die
 Reihenfolge der Geräte wird bestimmt durch die Reihenfolge beim Anwählen
-der Geräte *(kann aber später geändert werden, siehe [Ändern der Geräte-Reihenfolge](#changing-fixture-order))*.
+der Geräte *(kann aber später geändert werden, siehe [Ändern der Geräte-Reihenfolge](#ändern-der-reihenfolge-der-geräte))*.
 
 7. Drücken Sie \<Exit\> zum Verlassen des Menüs.
 
@@ -69,7 +69,7 @@ der Geräte *(kann aber später geändert werden, siehe [Ändern der Geräte-Rei
 
 -   Ebenso lassen sich sowohl für die **IPCGBES**-Attributgruppen als auch
     für jedes Attribut einzeln gesonderte Zeiten vergeben, siehe
-    [Ändern der Attribut-Fadezeit](#setting-attribute-fade-times-for-a-cue).
+    [Ändern der Attribut-Fadezeit](#eingeben-von-überblendzeiten-für-einzelne-attribute).
 
 -   Mit der Taste \<TIME\> lassen sich Zeiten sehr komfortabel mit dem
     Ziffernblock eingeben, z.B. ergibt \<TIME\> \<5\> \<AND\> \<2\> 5s Ein- und
@@ -125,7 +125,7 @@ wie folgt interpretiert (auch erreichbar über \[Options\]
 Die Reihenfolge der Geräte in einem Cue lässt sich nachträglich ändern.
 Normalerweise wird diese mit der Reihenfolge der Auswahl der Geräte beim
 Erstellen des Cues festgelegt, aber ggf. möchte man diese später ändern
-*(etwa, um Geräte bei der Nutzung von [Fixture Overlap](#setting-fade-times-and-overlap-for-a-cue) 
+*(etwa, um Geräte bei der Nutzung von [Fixture Overlap](#einstellen-von-überblendzeiten-und-geräteversatz) 
 paarweise zusammenzufassen)*.
 
 1. Drücken Sie \[Edit Times\] im Hauptmenü.
@@ -208,7 +208,7 @@ Editieren der Zeiten im Programmer
 
 Die Zeiten im Programmierspeicher lassen sich vor dem Speichern eines
 Cues überprüfen und ändern. Ebenso lassen sich Zeiten einstellen und in
-bestehende Cues verschmelzen ([mergen](editing-cues.md#editing-a-cue-by-merging)), genau wie man Attribut-Werte verschmilzt.
+bestehende Cues verschmelzen ([mergen](editing-cues.md#editieren-eines-cues-durch-verschmelzen-merge)), genau wie man Attribut-Werte verschmilzt.
 
 Drücken Sie die Taste \<TIME\>, um in dieses Menü zu gelangen.
 
