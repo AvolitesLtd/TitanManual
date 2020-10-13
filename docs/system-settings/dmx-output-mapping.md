@@ -83,16 +83,39 @@ Module Properties
 A module is a method of sending DMX (such as Art-Net, or sACN) and can be
 thought of as a collection of nodes.
 
-You can set properties for Art-Net or sACN by going to the DMX Settings
+You can set properties for DMX512 outputs, Art-Net or sACN by going to the DMX Settings
 window (from the **System** menu (press \<Avo\> + \<Disk\>) select \[DMX Settings\]) and then
 click the cog icon at the right hand side of the module name.
 
-This allows you to adjust settings for each module, and to select which
-network adapter to use to output the protocol. All consoles except
-Quartz and Expert have two network adapters, Quartz has one, and on
-Titan Mobile and Simulator this depends on your computer; many laptops
-will have a wired network adapter and also a WiFi (wireless) adapter,
-both of which will be shown.
+This allows you to adjust settings for each module, and for the network
+protocols to select which network adapter to use to output the protocol. 
+All consoles except Quartz and Expert have two network adapters, Quartz 
+has one, and on Titan Mobile and Simulator this depends on your computer; 
+many laptops will have a wired network adapter and also a WiFi (wireless) 
+adapter, both of which will be shown.
+
+### DMX Output Properties
+
+![DMX512 Module Properties](/docs/images/DMX-Module-Properties.png)
+
+**DMX output:** Allows you to temporarily disable the output
+
+**Merge Priority:** A value between 0 and 200 where higher numbers have 
+priority. Allows a node to chose which console to follow where multiple 
+consoles are transmitting to this output.
+
+**Break Length:** Adjusts the DMX spacing which can be helpful for slow
+fixtures. If fixtures or dimmers show an occasional glitch 
+try increasing this number. Some dimmers will require this to be 4000us in order to 
+work smoothly. Default 968uS.
+
+**Mark After Break Length:** Usually this will not need to be adjusted, but
+it can be increased to give fixtures a bit more time to receive the first
+DMX channel. Default 76uS.
+
+**Extra Stop Bit:** Enabling this adds an extra Stop Bit to each byte which
+gives slow fixtures a bit more time to receive the DMX data. 
+This option can sometimes solve issues where fixtures can be seen regularly glitching.
 
 ### sACN Properties
 
