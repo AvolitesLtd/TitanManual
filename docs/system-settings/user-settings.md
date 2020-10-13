@@ -53,9 +53,24 @@ Sets the output rate of DMX frames from
 1-44 frames per second *(default 40)*. You can reduce this if processing
 of a complex show is slowing down the console.
 
+---
+
+## Display
+
+### External Display
+Sets whether the external display is enabled or disabled.
+
+### External Screen Workspace Shortcuts
+When turned on, each screen has its own Workspace Shortcut buttons (shown
+down the side of the screen on external screens). This allows you to
+recall different window layouts separately on each screen rather than changing
+all screens.
+
 ### Lock Screen Background
 Sets a picture to be displayed when the
 console is locked.
+
+-  These options can also be set from **System** menu, in the Display Setup option.
 
 ---
 
