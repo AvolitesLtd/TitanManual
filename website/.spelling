@@ -8,6 +8,7 @@ busked
 connectable
 dialog
 gimbal
+glitching
 gobo
 gobos
 keystoning
@@ -130,6 +131,11 @@ XLRs
 500s
 600s
 2000s
+
+76uS
+968uS
+4000us
+
 
 50Hz
 140Hz
