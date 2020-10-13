@@ -23,7 +23,14 @@ If you have problems getting Titan and Ai to recognise each other, make
 sure they are on matching software versions, and both in the same IP
 address subnet range such as `2.0.0.1` and `2.0.0.2` - read more about [Networking the Console](../networking.md).
 
-Setting up the AI Show
+>  If you need to install/upgrade Synergy you must use
+    the correct version of the
+    Synergy upgrade installer so that it matches your Titan version.
+    You can download the installer from the 
+    [Avolites Download page](https://www.avolites.com/software/latest-version).
+
+
+Setting up the Ai Show
 ----------------------
 
 A simple Ai system involving a single screen or projector can be set up
