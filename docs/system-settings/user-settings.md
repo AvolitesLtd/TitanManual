@@ -29,7 +29,7 @@ hand side. The default setting is ***shown in bold***.
 Cue List Snap           | *On:* the \<Next Step\> and \<Prev Step\> buttons will snap to the new state in cue lists<br> ***Off:*** programmed fades will be shown.
 Clear Record Mask       | ***On:*** the record mask is cleared back to All Enabled when you enter the Record function<br> *Off:* the record mask remains as you previously set it.
 Copy Cues               | ***Copy Tracked Values:*** tracked values will copy when you copy a cue from a tracked cue list.<br> *Don't Copy Tracked Values:* only the values from the cue itself will be copied
-Run Startup Playbacks   | ***On:*** Playbacks set to Startup in Options will run on startup.<br> *Off*: Disables startub playbacks from running. This option allows you to globally disable startup playbacks.
+Run Startup Playbacks   | ***On:*** Playbacks set to Startup in Options will run on startup.<br> *Off*: Disables startup playbacks from running. This option allows you to globally disable startup playbacks.
 System Render Rate (Hz) | Sets the output rate of DMX frames from 1-44 frames per second *(default 40)*. You can reduce this if processing of a complex show is slowing down the console.
 
 <<<<<<< Updated upstream
