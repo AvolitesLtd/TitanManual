@@ -27,7 +27,7 @@ Zum Abrufen eines Wertes aus einer Palette gehen Sie wie folgt vor:
 ---
 
 -   Beim Abruf von Paletten lässt sich eine Überblendzeit einstellen,
-    siehe [Timing with Palettes](timing-with-palettes.md).
+    siehe [Arbeiten mit Zeiten in Paletten](timing-with-palettes.md).
 
 -   Ist eine Palette gerade im Programmer, so wird die entsprechende
     Schaltfläche als aktiv markiert (das lässt sich in den

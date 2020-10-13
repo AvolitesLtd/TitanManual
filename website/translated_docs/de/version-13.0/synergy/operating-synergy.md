@@ -56,7 +56,7 @@ stark ausgelastet.
 Auch das automatische Umrendern (Auto Transcode) kann deaktiviert
 werden, was aber nicht zu empfehlen ist. Sobald die Dateien auf den
 Server geladen sind, erfolgt ggf. das Umrendern. Dessen Fortschritt
-zeigt sich in der Anzeige der Clips im [Attribut-Editor](#attribute-editor-for-controlling-ai-layers), siehe folgender
+zeigt sich in der Anzeige der Clips im [Attribut-Editor](#layer-steuern-mit-dem-attribut-editor), siehe folgender
 Abschnitt.
 
 Vorschau mit dem Media Viewer
@@ -84,7 +84,7 @@ der Vorschauen angezeigt werden.
 
 ![Video Multi View Window laout options](/docs/images/Video-Multi-View-Window-laout-options.png)
 
-Dabei muss die Option **"Automatic NDI preview"** in den [Synergy Settings](setting-up.md#synergy-setup)
+Dabei muss die Option **"Automatic NDI preview"** in den [Synergy Settings](setting-up.md#einrichten-von-synergy)
 aktiv sein, damit die Vorschauen angezeigt werden.
 
 Format | Datenrate
@@ -98,9 +98,9 @@ Layer steuern mit dem Attribut-Editor
 -------------------------------------
 
 Sobald ein oder mehrere Layer ausgewählt sind (im Fenster [Synergy
-Fixtures](setting-up.md#synergy-fixtures-window)), lassen sich die darauf abzuspielenden Medien im
+Fixtures](setting-up.md#das-fenster-synergy-fixtures)), lassen sich die darauf abzuspielenden Medien im
 Attribut-Editor wählen und manipulieren (das geht auch wie gewohnt mit
-den [Encodern](../controlling-fixtures/using-the-select-buttons-and-wheels.md) und [Attributbänken](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-wheel-display)).
+den [Encodern](../controlling-fixtures/using-the-select-buttons-and-wheels.md) und [Attributbänken](../controlling-fixtures/using-the-select-buttons-and-wheels.md#anzeige-der-attributwerte)).
 
 > Die wichtigsten Attribute dabei sind **Intensity** zur Einstellung der
 Helligkeit sowie die **Media Selection** (Medienauswahl), um Bank und Clip
@@ -152,11 +152,11 @@ verwenden - sowohl eines einzelnen Layers als auch eines ganzen
 Surfaces. Dabei ist es nicht erforderlich, das Titan-Surface mit einem
 Output des Servers zu verbinden.
 
-> Im [Layout-Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) werden die Lampen/Zellen so positioniert, wie sie auch
+> Im [Layout-Editor](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) werden die Lampen/Zellen so positioniert, wie sie auch
 tatsächlich angeordnet sind, so dass jeweils der passende
-Videoausschnitt angezeigt wird, siehe [nächster Abschnitt](#layout-editor-with-ai-server).
+Videoausschnitt angezeigt wird, siehe [nächster Abschnitt](#verwendung-des-layout-editors-mit-ai).
 
-1.  **Starten Sie einen Clip** auf dem gewünschten Surface, etwa mit dem [Attribut-Editor](#attribute-editor-for-controlling-ai-layers).
+1.  **Starten Sie einen Clip** auf dem gewünschten Surface, etwa mit dem [Attribut-Editor](#layer-steuern-mit-dem-attribut-editor).
 
 2.  Wählen Sie nun das Menü \[Shapes and Effects\], dann \[Pixel Mapper\].
 
@@ -187,7 +187,7 @@ Verwendung des Layout-Editors mit Ai
 ------------------------------------
 
 Die grundsätzliche Funktionsweise des Layout-Editors ist im Abschnitt
-[Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) beschrieben.
+[Gerätereihenfolge und -anordnung in den Gruppen](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) beschrieben.
 
 Bei der Verwendung mit Synergy gibt es mit dem Kontext-Menü \[Media
 Options\] einige sinnvolle Zusatzfunktionen zur Erstellung des Layouts.
@@ -243,8 +243,8 @@ da praktisch sämtliche Aspekte der Lampen durch ein Video gesteuert
 werden können. Die Helligkeit von 0 bis 100% ist dabei mit der
 Phasenlage 0 bis 360° verknüpft.
 
-Ist der [Keyframe-Shape erstellt](../effects/key-frame-shapes.md#creating-a-key-frame-shape), so gibt 
-es unten im Effekt-Editor den Button [Phase Master](../effects/key-frame-shapes.md#changing-shape-parameters-in-the-effect-editor), 
+Ist der [Keyframe-Shape erstellt](../effects/key-frame-shapes.md#einen-keyframe-shape-erzeugen), so gibt 
+es unten im Effekt-Editor den Button [Phase Master](../effects/key-frame-shapes.md#steuerelemente-für-shape-und-layer), 
 mit dem man das gewünschte Surface als Master auswählt.
 
 ![Phase Master using Ai screen in Keyframe Shape](/docs/images/Phase-Master-using-Ai-screen-in-Keyframe-Shape.png)

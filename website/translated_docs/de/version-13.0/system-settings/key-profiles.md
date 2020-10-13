@@ -34,8 +34,8 @@ Zum Erstellen eines solchen Profils schalten Sie das Pult in den
 Key Profiles kann man ebenso in den Playback-Optionen neu anlegen sowie
 auswählen (Reiter ‚Handle').
 
-Key Profiles (Tastenbelegungen) können auch im Fenster '[Show Library](../titan-basics/show-library.md#key-profiles-view)'
-dargestellt werden.
+Key Profiles (Tastenbelegungen) können auch im Fenster '[Show Library](../titan-basics/show-library.md#der-reiter-key-profiles-tastenprofile)'
+angezeigt werden.
 
 Beim Erstellen eines neuen ('Add') lässt sich eines der bestehenden
 auswählen, das zunächst kopiert wird, um die Einstellungen von diesem zu
@@ -71,7 +71,7 @@ Die blaue, graue sowie 'touch'-Taste lassen sich als
 ### Groups
 Die blaue, graue sowie 'touch'-Taste lassen sich als **Disabled**,
 **Select Group**, **Flash Fixtures**, **Timed Flash**, **Flash Master**, **Timed Flash
-Master**, **Swop Fixtures** konfigurieren, siehe auch [Geräte-Gruppen](controlling-fixtures/fixture-groups).
+Master**, **Swop Fixtures** konfigurieren, siehe auch [Geräte-Gruppen](../controlling-fixtures/fixture-groups.md).
 
 >	Die Option **Group/Flash takes precedence** bezieht sich nur auf das 
 	Pearl Expert, bei dem es möglich ist, auf Fadern Playbacks zu speichern
@@ -85,7 +85,7 @@ Paletten-Tasten/Schaltflächen können **Disabled** (deaktiviert) sein oder mit
 Mit **Palette is fired ignoring/with its times** wird festgelegt, ob beim
 Aufrufen von Paletten gespeicherte Zeiten berücksichtigt werden oder nicht, 
 siehe [Paletten mit Zeiten](../palettes/timing-with-palettes).
-Dies ist besonders interessant beim [Improvisieren (Busking) mit Paletten](../playback-controls#busking-with-palettes).
+Dies ist besonders interessant beim [Improvisieren (Busking) mit Paletten](../running-the-show/playback-controls.md#improvisieren-busking-mit-paletten).
 
 >   Die Option **Palette/Flash takes precedence** bezieht sich nur auf das 
 	Pearl Expert, bei dem es möglich ist, auf Fadern Playbacks zu speichern
@@ -151,7 +151,7 @@ Für normale Master gibt es die Optionen **Disabled**, **Selection**, **Flash**,
 Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, **Multiplier x2**,
 **Freeze**, **Connect**.
 
-Die letzteren gelten nur für BPM-Master, siehe [BPM Master Options](../running-the-show/playback-controls.md#bpm-master-options). Mit
+Die letzteren gelten nur für BPM-Master, siehe [Optionen für BPM-Master](../running-the-show/playback-controls.md#optionen-für-bpm-master). Mit
 Freeze können Shapes und Chaser vorübergehend angehalten werden; bei
 einem Intensity-Master wirkt Freeze als Blackout.
 

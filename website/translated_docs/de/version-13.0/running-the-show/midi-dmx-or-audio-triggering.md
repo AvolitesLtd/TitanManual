@@ -106,7 +106,7 @@ Jedes dieser Trigger-Sets kann durch den stilisierten Einschalt-Button
 8.	So lässt sich für DMX-Trigger die Adresse manuell eingeben. Für
 	MIDI-Trigger kann man den MIDI-Kanal, den MIDI-Befehl, den Wert sowie
 	den Bereich für die Velocity wählen. Für Audiotrigger gibt es die Option
-	\[Band\], mit der das Frequenzband bestimmt werden kann; siehe [Audio Control](./midi-dmx-or-audio-triggering.md#audio-control-sound-to-light).
+	\[Band\], mit der das Frequenzband bestimmt werden kann; siehe [Audio Control](./midi-dmx-or-audio-triggering.md#audio-trigger-sound-to-light).
 
 9.	Klicken Sie \[Add\], um den Trigger hinzuzufügen.
 

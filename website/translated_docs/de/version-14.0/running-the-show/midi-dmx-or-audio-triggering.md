@@ -125,7 +125,7 @@ Trigger werden wie folgt eingerichtet:
 	ordnet ihn zu. Alternativ lassen sich die Daten manuell eingeben
 	
 	-   Für Audiotrigger gibt es die Option \[Band\], mit der das 
-		Frequenzband bestimmt werden kann; siehe [Audio Control](./midi-dmx-or-audio-triggering.md#audio-control-sound-to-light)
+		Frequenzband bestimmt werden kann; siehe [Audio Control](./midi-dmx-or-audio-triggering.md#audio-trigger-sound-to-light)
 	-   Falls Sie DMX verwenden möchten, stellen Sie mit \[DMX Port\] 
 		den verwendeten DMX-Anschluss ein. Sobald ein DMX-Anschluss zum
 		Triggern verwendet wird, wechselt er in die Betriebsart Rx 

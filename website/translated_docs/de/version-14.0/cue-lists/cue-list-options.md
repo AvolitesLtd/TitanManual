@@ -18,7 +18,7 @@ Oder drücken Sie \<View / Open\>, dann die entsprechende
 
 ## Cue List Options -- Tab "Handle"
 
-Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#handle-tab) beschrieben.
+Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#playback-options----tab-handle) beschrieben.
 
 ---
 
@@ -42,7 +42,7 @@ Loop | Die Cueliste wird nach Erreichen des letzten Cues wieder von Cue 1 wieder
 ### Move In Dark
 Einstellung für die gesamte Cueliste: Vorladen von
 LTP-Werten, solange Geräte nicht benutzt werden (keinen Output
-erzeugen), siehe [Move In Dark (MID)](cue-list-playback.md#move-in-dark-mid-functions).
+erzeugen), siehe [Move In Dark (MID)](cue-list-playback.md#move-in-dark-mid---funktionen).
 
 Einstellung | Beschreibung
 --- | ---
@@ -71,7 +71,7 @@ Nachverfolgung unveränderter Werte)  *Vorgabewert: aktiviert*.
 
 ## Cue List Options -- Tab "Times"
 
-Die Times-Optionen sind die Gleichen wie für [einzelne Cues](../cues/playback-options.md#times-tab).
+Die Times-Optionen sind die gleichen wie für [einzelne Cues](../cues/playback-options.md#playback-options----tab-times).
 
 ---
 
@@ -111,13 +111,13 @@ Option deaktiviert. Ansonsten muss immer erst \<Go\> gedrückt werden.
 
 ## Cue List Options -- Tab "Effects"
 
-Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Effekte](../cues/playback-options.md#effects-tab) beschrieben.
+Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Effekte](../cues/playback-options.md#playback-options----tab-effects) beschrieben.
 
 ---
 
 ## Cue List Options -- Tab "Release"
 
-Release Mask und Release Time funktionieren genauso wie im Kapitel [Release](../cues/playback-options.md#release-tab) beschrieben.
+Release Mask und Release Time funktionieren genauso wie im Kapitel [Release](../cues/playback-options.md#playback-options----tab-release) beschrieben.
 
 ### Cue Release
 

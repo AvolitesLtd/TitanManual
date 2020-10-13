@@ -26,7 +26,7 @@ zweimal, oder drücken Sie die Taste einmal und wählen die Option
 Speicherplatzes *(auch Cuelisten lassen sich auf die Schaltflächen im
 'Playbacks'-Fenster speichern)*.
 
-3. Wählen Sie den gewünschten [Record Mode](#record-mode) (Speichermodus) des Pultes:
+3. Wählen Sie den gewünschten [Record Mode](#speichermodusrecord-mode) (Speichermodus) des Pultes:
 'by Fixture' (pro Gerät), 'by Channel' (nur geänderte Kanäle), 'Record
 Stage' oder ‚Quick Build'. \[Record Mode Channel\] ist in der Regel die sicherste
 Option, da nur die tatsächlich geänderten Attribute gespeichert werden.
@@ -40,12 +40,12 @@ ein; diese Einstellungen gelten dann für alle neu gespeicherten
 Schritte.
 
 5. Stellen Sie das Bild für den ersten Schritt zusammen, entweder
-manuell oder unter Verwendung von [\<Include\>](../titan-commands.md#include) bestehender Cues.
+manuell oder unter Verwendung von [\<Include\>](../titan-commands.md#include-----in-den-speicher-laden) bestehender Cues.
 Nutzen Sie wenn gewünscht auch den [Shape Generator](../effects/shape-generator.md) oder den [Pixelmapper](../effects/pixel-mapper.md).
 
 6. Wollen Sie für den Schritt eine **Bezeichnung/Legende** vergeben, so drücken Sie
 dazu \[Cue Legend\]. Das lässt sich auch später nachholen oder ändern,
-entweder mit [\<Unfold\>](editing-cue-lists.md#editing-a-cue-list-using-unfold) oder mit [Set Legend](#changing-legends-for-cues-in-a-cue-list) (siehe nächster Abschnitt).
+entweder mit [\<Unfold\>](editing-cue-lists.md#editieren-einer-cueliste-mit-unfold) oder mit [Set Legend](#vergeben-von-bezeichnern-für-einzelne-schritte) (siehe nächster Abschnitt).
 
 7. Drücken Sie die **Select**-Taste des Speicherplatzes, oder wählen
 Sie \[Append Cue\](Schritt anfügen), um den Inhalt des
@@ -85,7 +85,7 @@ sind.
 -   Bei Cuelisten gibt es auch eine **MID (Move-In-Dark)** - Funktion:
     damit werden Geräte bereits für den nächsten Einsatz vorbereitet
     (positioniert etc.), solange sie aktuell nicht aktiv sind. Details
-    siehe Abschnitt [Move In Dark (MID)](../cue-lists/cue-list-playback.md#move-in-dark-mid-functions)
+    siehe Abschnitt [Move In Dark (MID)](../cue-lists/cue-list-playback.md#move-in-dark-mid---funktionen)
 
 -   Für jeden Cue lassen sich die [Tracking-Optionen](cue-list-options.md#tracking) getrennt einstellen.
 
@@ -132,7 +132,7 @@ Tracking von Shapes in Cuelisten
 Ab Version 10 können auch Shapes innerhalb von Cuelisten tracken. Ist
 das Tracking für Shapes aktiviert, läuft ein in einem Cue gestarteter
 Shape auch in den folgenden Cues. Zum Aktivieren des Trackings für
-Shapes dient die Option \[Shape Tracking\] in den [Playback-Optionen](cue-list-options.md#cue-list-options-playback-tab) der
+Shapes dient die Option \[Shape Tracking\] in den [Playback-Optionen](cue-list-options.md#cue-list-options----tab-playback) der
 Cueliste.
 
 Cues, die Shapes enthalten, verfügen für jeden Shape über einen extra
@@ -147,7 +147,7 @@ Schalter:
 **B** | **Shape wird geblockt, läuft also nicht in den folgenden Cues**
 
 Für den Cue selbst gibt es dazu die Option \[Block All Shapes\], siehe
-[Cuelisten-Optionen](cue-list-options.md#cue-list-options-playback-tab).
+[Cuelisten-Optionen](cue-list-options.md#cue-list-options----tab-playback).
 
 Darüber hinaus können auch Shapes für einzelne Attribute geblockt
 werden, dies erfolgt über das **@**-Menü. Wählen Sie das zu blockende
@@ -156,7 +156,7 @@ werden, dies erfolgt über das **@**-Menü. Wählen Sie das zu blockende
 \[Unblock Shape\]. Wurde ein Attribut auf **Block Shape** gesetzt, so wird
 das im Display bei den Encodern mit *"Blocked"* angezeigt.
 
-Ist das **[Shape-Tracking](cue-list-options.md#cue-list-options-playback-tab)** dagegen nicht aktiviert, so sind die Shapes in
+Ist das **[Shape-Tracking](cue-list-options.md#cue-list-options----tab-playback)** dagegen nicht aktiviert, so sind die Shapes in
 jedem Cue unabhängig voneinander. Wird der identische Shape - gleiche
 Parameter, Größe und Geschwindigkeit - in mehrere aufeinanderfolgende
 Cues programmiert, so läuft er einfach durch, ohne unterbrochen zu
@@ -273,8 +273,8 @@ bezeichnet die Cue-Nummer:
 
 Tasten                                    | Funktion
 ----------------------------------------- | ------------------------------------------
-\<Record\>, \<Connect\>, **n**, \<Enter\> | Cue **n** speichern
-\<Copy\>, \<Connect\>, n                  | Cue **n** kopieren
-\<Delete\>, \<Connect\>, n                | Cue **n** löschen
-\<Include\>, \<Connect\>, n               | Cue **n** includen (in den Speicher laden)
-\<Connect\>, n, \<Go\>                    | Go Cue **n**
+\<Record\> \<Connect\> **n** \<Enter\>    | Cue **n** speichern
+\<Copy\> \<Connect\> **n**                | Cue **n** kopieren
+\<Delete\> \<Connect\> **n**              | Cue **n** löschen
+\<Include\> \<Connect\> **n**             | Cue **n** includen (in den Speicher laden)
+\<Connect\> **n** \<Go\>                  | Go Cue **n**

@@ -88,4 +88,4 @@ Damit kann man z.B. einen Chase-Schritt in einem anderen Chaser
 wiederverwenden oder als Einzelcue speichern. Ebenso sinnvoll ist das,
 wenn man z.B. Shapes oder Effekte in diesem Schritt editieren will und
 das nicht in der Playback-Ansicht macht. Siehe 
-[Playback View window](#opening-a-chase-for-editing).
+[Playback View window](#einen-chaser-zum-editieren-öffnen).

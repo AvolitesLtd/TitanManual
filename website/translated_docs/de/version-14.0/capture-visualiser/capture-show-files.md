@@ -36,7 +36,7 @@ verändert werden.
 Einige Fixtures und andere Elemente aus dem externen Capture
 funktionieren möglicherweise nicht mit dem internen Capture-Visualiser.
 Daher empfiehlt es sich in der Regel, die Geräte wie beschrieben auf dem
-Pult bei aktivierter [Auto-Patch-Funktion](../patching/patching-new-fixtures-or-dimmers.md#capture-visualiser-auto-patch) 
+Pult bei aktivierter [Auto-Patch-Funktion](../patching/patching-new-fixtures-or-dimmers.md#automatisches-patchen-in-capture) 
 zu patchen, damit die richtigen Gerätetypen ausgewählt werden.
 
 Die Capture-Show löschen
@@ -47,5 +47,5 @@ aktuelle Capture-Show gelöscht wird.
 
 Sollen in Titan gepatchte Geräte erneut in die Capture-Show übernommen
 werden, so wählen Sie \<Patch\> \[Edit Fixtures\] \[Update
-Personality\] aus dem [Menü Patch](../patching/changing-the-patch.md#patch-view). Damit werden die bereits gepatchten Fixtures wieder in
+Personality\] aus dem [Menü Patch](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren). Damit werden die bereits gepatchten Fixtures wieder in
 Capture angezeigt.

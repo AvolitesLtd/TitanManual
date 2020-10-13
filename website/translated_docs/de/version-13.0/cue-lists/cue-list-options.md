@@ -41,7 +41,7 @@ Local | Die allgemeine **Tracking**-Einstellung gilt. *(Vorgabewert)*
 ### Move In Dark
 Einstellung für die gesamte Cueliste: Vorladen von
 LTP-Werten, solange Geräte nicht benutzt werden (keinen Output
-erzeugen), siehe [Move In Dark (MID)](cue-list-playback.md#move-in-dark-mid-functions).
+erzeugen), siehe [Move In Dark (MID)](cue-list-playback.md#move-in-dark-mid---funktionen).
 
 Einstellung | Beschreibung
 --- | ---
@@ -60,7 +60,7 @@ Loop | Die Cueliste wird nach Erreichen des letzten Cues wieder von Cue 1 wieder
 
 ## Cue List Options -- Tab "Handle"
 
-Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#handle-tab) beschrieben.
+Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#playback-options---tab-handle) beschrieben.
 
 ## Cue List Options -- Tab "Fader"
 
@@ -80,11 +80,11 @@ Option deaktiviert.
 
 ## Cue List Options -- Tab "Effects"
 
-Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#effects-tab) beschrieben.
+Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#playback-options----tab-effects) beschrieben.
 
 ## Cue List Options -- Tab "Release"
 
-Release Mask und Release Time funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#release-tab) beschrieben.
+Release Mask und Release Time funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#playback-options----tab-release) beschrieben.
 
 ### Cue Release
 
@@ -117,10 +117,10 @@ mit den Zifferntasten ein.
 
 -   \[Link\] (Verbindung) bietet die Optionen **Wait for Go** (auf \<Go\>
     warten), **With Previous Cue** (mit vorigem Schritt), und  **After
-    Previous Cue** (nach vorigem Schritt). Siehe [Cue Linking & Link Offset](cue-list-timing.md#schrittfolge-und-versatz).
+    Previous Cue** (nach vorigem Schritt). Siehe [Schrittfolge und Versatz](cue-list-timing.md#schrittfolge-und-versatz).
 
 -   \[Move In Dark\] öffnet das Menü mit den Move-In-Dark-Optionen,
-    siehe [Move in Dark (MID)](cue-list-playback.md#move-in-dark-mid-functions)
+    siehe [Move in Dark (MID)](cue-list-playback.md#move-in-dark-mid---funktionen)
 
 -   \[Move In Dark Inhibit\] deaktiviert alle Move-In-Dark-Vorgänge in
     diesem Cue.
@@ -135,7 +135,7 @@ mit den Zifferntasten ein.
     hilfreich etwa zum Szenenablauf (z.B. *verlässt vom Bär verfolgt die
     Bühne*, oder *den Spotfahrer wecken*).
 
--   \[Autoload\] siehe [Autoloading a Playback within a Cue List](creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list).
+-   \[Autoload\] siehe [Autoloading: Laden eines externen Cues](creating-a-cue-list.md#autoloading-laden-eines-externen-cues).
 
 -   \[Cue disabled\] Erlaubt es, den Cue vorübergehend deaktivieren,
-    ohne ihn zu löschen. Siehe [Disabling a Cue](editing-cue-lists.md#disabling-a-cue).
+    ohne ihn zu löschen. Siehe [Deaktivieren eines Cues](editing-cue-lists.md#deaktivieren-eines-cues).

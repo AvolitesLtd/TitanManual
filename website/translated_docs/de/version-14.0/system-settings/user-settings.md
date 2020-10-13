@@ -222,7 +222,7 @@ Palettenansicht ein.
 ## Palettes
 
 ### Quick Palettes
-Aktivieren oder Abschalten der Quick Palettes, siehe [Using Palettes](../palettes/using-palettes.md).
+Aktivieren oder Abschalten der Quick Palettes, siehe [Abrufen von Paletten](../palettes/using-palettes.md).
 
 ### Minimum Palette Mode
 Wahl des Vorgabewertes für den Palettenmodus. Damit kann festgelegt werden, 
@@ -246,7 +246,7 @@ für diese nicht gültigen Paletten ausgegraut werden sollen.
 
 ### Master Palette Time
 Die Vorgabe-Überblendzeit beim Live-Aufruf von
-Paletten, siehe [Master Time for Palettes](../palettes/timing-with-palettes.md#master-time-for-palettes).
+Paletten, siehe [Master-Zeit für Paletten](../palettes/timing-with-palettes.md#master-zeit-für-paletten).
 
 ### Master Palette Overlap
 Der Vorgabewert für die Überlappung beim
@@ -323,7 +323,7 @@ werden unterbrochen, andere Shapes laufen weiter.
 
 ### Shape Behaviour
 Steuert, ob Keyframe-Shapes eher LTP wirken (und von anderen Playbacks 
-überschrieben werden können) oder nicht. Siehe [Speichern eines Keyframe-Shapes in einem Cue](../effects/key-frame-shapes.md#saving-a-key-frame-shape-to-a-cue).
+überschrieben werden können) oder nicht. Siehe [Speichern eines Keyframe-Shapes in einem Cue](../effects/key-frame-shapes.md#einen-keyframe-shape-in-einen-cue-speichern).
 
 ---
 

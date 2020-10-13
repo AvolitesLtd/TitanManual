@@ -9,7 +9,7 @@ Sichern der Show
 ----------------
 
 Das Wichtigste während des Programmierens, am Ende des Programmierens,
-und beim Beginn der Show, ist das [Sichern der Daten](../titan-basics/loading-and-saving-shows.md#saving-the-show). 
+und beim Beginn der Show, ist das [Sichern der Daten](../titan-basics/loading-and-saving-shows.md#die-show-speichern). 
 Ein Backup kann sowohl auf der internen Festplatte als auch auf einem 
 USB-Stick gespeichert werden. Der USB-Stick empfiehlt sich
 insbesondere, um die Show auch auf ein anderes Pult transferieren zu
@@ -348,7 +348,7 @@ Tastenfunktion angezeigt.
 Priorität der Playbacks
 -----------------------
 
-Einzelnen Playbacks lässt sich eine [höhere Priorität](../cues/playback-options.md#playback-tab) zuweisen, wenn sie
+Einzelnen Playbacks lässt sich eine [höhere Priorität](../cues/playback-options.md#priority) zuweisen, wenn sie
 nicht durch andere Playbacks, die die gleichen Geräte verwenden, überlagert
 werden sollen. Werden etwa ein paar Geräte als Spot für z.B. den Sänger
 eingesetzt, sind aber ebenso in einem anderen Cue verwendet, so kann man
@@ -509,7 +509,7 @@ für den unmittelbar nächsten Palettenabruf. Sollen bis zur nächsten
 die gewünschten Werte mit den Menütasten \[Master Time\] und \[Master
 Overlap\] ein. Es gibt ferner etliche Macros für die häufig genutzten
 Werte, um Master Time und Master Overlap mit nur einem Tastendruck zu
-ändern, siehe [Master Time for Palettes](../palettes/timing-with-palettes#master-time-for-palettes).
+ändern, siehe [Master-Zeit für Paletten](../palettes/timing-with-palettes#master-zeit-für-paletten).
 
 Wird eine Palette als 'Quick Palette', also ohne Auswahl von Fixtures
 oder Gruppen, aufgerufen, so wird sie wiederum durch den nächsten Cue
@@ -528,7 +528,7 @@ Gilt es, eine Band zu beleuchten, so ist es hilfreich, sich für jeden
 Musiker eine Positionspalette anzulegen, so dass man auch auf
 unangekündigte Solos schnell reagieren kann.
 
-Die [Off-Funktion](../controlling-fixtures/using-the-select-buttons-and-wheels.md#clearing-attributes-using-off) ist nützlich, um aus
+Die [Off-Funktion](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-mit-off-deaktivieren) ist nützlich, um aus
 einem Cue z.B. nur die Position, aus einer anderen nur die Farbe etc. zu
 verwenden. Damit ergeben sich deutlich mehr Kombinationsmöglichkeiten,
 als wenn man stets sämtliche Attribute in einem Cue ablegt. Zu beachten

@@ -27,25 +27,25 @@ Hier werden die Netzwerk(Ethernet)-Parameter eingestellt, siehe [Steuern von Ger
 ------------
 
 Hier wird die DMX-Ausgabe des Pultes eingerichtet. Details zu diesem
-Menü finden sich in Abschnitt [DMX Output Settings section](dmx-output-mapping.md#configuring-dmx-outputs).
+Menü finden sich in Abschnitt [Einrichten der DMX-Ausgänge](dmx-output-mapping.md#einrichten-der-dmx-ausgänge).
 
 [DMX Merge Settings](dmx-output-mapping.md#dmx-merge)
 ------------------
 
 Hier stellt man ein, wie DMX über mehrere Pulte bzw. Netzwerk-Knoten
-hinweg ausgegeben werden soll. Siehe [DMX merge settings](dmx-output-mapping.md#dmx-merge).
+hinweg ausgegeben werden soll. Siehe [DMX Merge](dmx-output-mapping.md#dmx-merge).
 
 [Synergy Settings](../synergy/setting-up.md)
 ----------------
 
-Einstellungen zum Verbinden mit Ai-Servern, siehe [Einrichten von Synergy](../synergy/setting-up.md#synergy-setup).
+Einstellungen zum Verbinden mit Ai-Servern, siehe [Einrichten von Synergy](../synergy/setting-up.md#einrichten-von-synergy).
 
 TitanNet Security - Netzwerksicherheit
 --------------------------------------
 
 Mit dieser Einstellung wird bestimmt, wie das Pult mit anderen
 Titan-Geräten im Backup-Betrieb kommuniziert. Details zum Backup finden
-sich in Abschnitt [Linking consoles for multi-user or backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md).
+sich in Abschnitt [Backup und Mehrbenutzerbetrieb](../running-the-show/linking-consoles-for-multi-user-or-backup.md).
 
 [User Settings](user-settings.md) - Benutzereinstellungen
 -------------
@@ -73,14 +73,14 @@ finden und ist deshalb hier eingeblendet).
 --------
 
 Hier richtet man die Steuerung des Pultes z.B. über DMX oder MIDI ein.
-Details dazu finden sich in Abschnitt [MIDI, DMX or audio triggering](../running-the-show/midi-dmx-or-audio-triggering.md).
+Details dazu finden sich in Abschnitt [Externe Trigger](../running-the-show/midi-dmx-or-audio-triggering.md).
 
 [Assign Masters](../running-the-show/playback-controls.md#grand-master-fader-and-assignable-masters)
 --------------
 
 In diesem Menü lassen sich einzelne Fader bestimmten Master­funktionen
 zuweisen; verschiedene Funktionen stehen dafür zur Verfügung und sind in
-Abschnitt [Grand Master fader and assignable masters](../running-the-show/playback-controls.md#grand-master-fader-and-assignable-masters) 
+Abschnitt [Master-Fader](../running-the-show/playback-controls.md#master-fader) 
 näher beschrieben.
 
 Console Legend

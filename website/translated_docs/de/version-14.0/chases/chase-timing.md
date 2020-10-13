@@ -11,9 +11,9 @@ Globale Zeiten für Chaser
 Wird ein Chaser erstmals programmiert, gelten für sämtliche Schritte die
 gleichen Zeiten. Dies sind die globalen Zeiten. Wenn gewünscht, lassen
 sich anschließend für jeden Schritt gesonderte Zeiten in der Ansicht
-[Playback View](editing-a-chase.md#opening-a-chase-for-editing) bzw. mit 
-der [Unfold](editing-a-chase.md#editing-a-chase-using-unfold)-Funktion 
-vergeben; das ist [im nächsten Abschnitt](#individual-cue-times-in-chases)
+[Playback View](editing-a-chase.md#einen-chaser-zum-editieren-öffnen) bzw. mit 
+der [Unfold](editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion)-Funktion 
+vergeben; das ist [im nächsten Abschnitt](#individuelle-zeiten-pro-schritt)
  genauer beschrieben.
 
 1. Drücken Sie im Hauptmenü \[Edit Times\], und anschließend die
@@ -130,7 +130,7 @@ The timing options for the cue are:
 
 -   Link with previous step (mit dem vorigen Schritt verbinden)
 
--   Attribute times (Attribut-Zeiten, siehe [nächster Abschnitt](#setting-attribute-fade-times-for-a-cue-in-a-chase))
+-   Attribute times (Attribut-Zeiten, siehe [nächster Abschnitt](#vergeben-von-attribut-zeiten-für-einzelne-schritte))
 
 'Linking' (Verbinden) kann entweder auf \[Link After Previous\](der
 Schritt folgt unmittelbar auf den vorigen, und der Chaser läuft
@@ -170,7 +170,7 @@ Einstellungen zu verwerfen und die globalen Zeiten zu verwenden.
 
 Chaser können einem Rate- oder einem BPM-Master zugewiesen werden -
 dadurch wird dann das Tempo durch einen anderen Masterregler gesteuert.
-Die Zuordnung erfolgt in den [Optionen](../cues/playback-options.md) des Chasers unter \[Effects\], dann \[Speed Source\]. Siehe Abschnitt [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
+Die Zuordnung erfolgt in den [Optionen](../cues/playback-options.md) des Chasers unter \[Effects\], dann \[Speed Source\]. Siehe Abschnitt [Speed and Size Masters](../running-the-show/playback-controls.md#speed--und-size-master).
 
 ## Speed-Faktoren
 
@@ -178,6 +178,6 @@ Mittels Speed-Faktoren kann das Geschwindigkeits-Verhältnis zwischen
 mehreren Chasern und Effekten festgelegt werden (etwa x4 oder /2).
 
 Wählen Sie \[Speed Multiplier\] im ‚Edit Times'-Menü des Chasers oder in
-[\[Options\]\[Playback\]](../cues/playback-options.md), und 
+[\[Playback Options\] Tab \[Playback\]](../cues/playback-options.md#speed-multiplier), und 
 stellen Sie den gewünschten Wert mit den Menütasten ein. 
 \[Multiply or Divide\] bestimmt, ob es ein Faktor oder ein Teiler ist.

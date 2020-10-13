@@ -9,7 +9,7 @@ Verbinden
 ---------
 
 Der/die Ai-Server und das Pult müssen per Ethernet miteinander verbunden
-sein. Vor allem für die [NDI-Vorschauen](operating-synergy.md#media-viewer) und beim Hochladen von Clips
+sein. Vor allem für die [NDI-Vorschauen](operating-synergy.md#vorschau-mit-dem-media-viewer) und beim Hochladen von Clips
 kommt es zu einem erheblichen Datenaufkommen. Daher sollten möglichst
 folgende Hinweise beachtet werden, um ein zuverlässiges Arbeiten zu
 ermöglichen:
@@ -32,7 +32,7 @@ Einrichten der Show in Ai
 
 Einfache Setups mit nur einem einzelnen Display oder Projektor können
 ganz einfach direkt vom Pult aus eingerichtet werden. Starten Sie in Ai
-ein leeres Projekt und folgen Sie den Anweisungen im [nächsten Abschnitt](#synergy-setup),
+ein leeres Projekt und folgen Sie den Anweisungen im [nächsten Abschnitt](#einrichten-von-synergy),
 um mittels Synergy Screens und Layer anzulegen.
 
 Für kompliziertere Setups ist dagegen die Einrichtung der Screens in Ai
@@ -47,7 +47,7 @@ In Titan öffnen Sie das Fenster **Synergy Settings**, entweder mit dem
 entsprechenden Workspace bei neuen Shows, oder über das Menü 'Open
 Workspace Window'.
 
-Dieses Fenster ähnelt entfernt dem der [DMX-Einstellungen](../system-settings/the-system-menu.md#dmx-settings): hier stellt
+Dieses Fenster ähnelt entfernt dem der [DMX-Einstellungen](../system-settings/dmx-output-mapping): hier stellt
 man ein, wie Titan die einzelnen Outputs von Ai ansteuert. Ebenso kann
 man hier Layer hinzufügen oder löschen sowie komplett neue Surfaces
 anlegen (müssen ggf. in Ai noch genauer eingestellt werden).
@@ -124,16 +124,16 @@ Das Fenster Synergy Fixtures
 
 Jeder Layer erscheint als Button im Fenster 'Synergy Fixtures'. Dies
 kann man entweder mit dem Button \[View Synergy Fixtures\] im [Synergy
-Settings-Fenster](#synergy-setup) oder wie gewohnt über \[Open Workspace
+Settings-Fenster](#einrichten-von-synergy) oder wie gewohnt über \[Open Workspace
 Window\] (Fenster öffnen) aufrufen.
 
 ![Synergy Fixtures Workspace Window](/docs/images/Synergy-Fixtures-Workspace-Window.png)
 
 Durch Anklicken lassen sich einzelne oder mehrere Layer auswählen, wie
 man auch sonst Dimmer oder Movinglights zum Steuern auswählt. Sind Layer
-ausgewählt, so kann man im [Attribut-Editor](operating-synergy.md#attribute-editor-for-controlling-ai-layers) oder einfach mit den
-Attributtasten und [Encodern](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels) Medien und Effekte steuern, die darauf
-angezeigt werden. Genauso lassen sich auch [Paletten](../palettes/creating-palettes.md) oder [Playbacks](../cues/creating-a-cue.md#creating-a-cue)
+ausgewählt, so kann man im [Attribut-Editor](operating-synergy.md#layer-steuern-mit-dem-attribut-editor) oder einfach mit den
+Attributtasten und [Encodern](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern) Medien und Effekte steuern, die darauf
+angezeigt werden. Genauso lassen sich auch [Paletten](../palettes/creating-palettes.md) oder [Playbacks](../cues/creating-a-cue.md#anlegen-eines-cues)
 speichern, wie das mit anderen Fixtures gewohnt ist. Es wird im [folgenden Abschnitt](operating-synergy.md) näher erläutert.
 
 >   Die Synergy-Layer werden in einem eigenen Fenster angelegt, damit

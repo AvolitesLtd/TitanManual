@@ -23,7 +23,7 @@ Pulte für den Mehrbenutzerbetrieb einrichten
 --------------------------------------------
 
 Mehrere Titan-Pulte können zum Mehrbenutzerbetrieb miteinander vernetzt
-werden, Details siehe [Multi-User Operation](../titan-basics/multi-user-operation.md).
+werden, Details siehe [Mehrbenutzer-Betrieb](../titan-basics/multi-user-operation.md).
 
 Pulte für den Backup-Betrieb einrichten
 ---------------------------------------

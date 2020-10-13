@@ -29,7 +29,7 @@ nicht, so kann man in Capture **Console Link** deaktivieren.
 Den Patch vom Pult nach Capture übertragen
 ------------------------------------------
 
-Wird das Pult neu mit Capture verbunden oder [eine Show geladen](../titan-basics/loading-and-saving-shows.md#loading-a-show) oder ein
+Wird das Pult neu mit Capture verbunden oder [eine Show geladen](../titan-basics/loading-and-saving-shows.md#laden-einer-show) oder ein
 [Gerät gepatcht](../patching/patching-new-fixtures-or-dimmers.md), so 
 wird in Capture automatisch der Patch-Dialog geöffnet. Dieser zeigt 
 eine Liste der Geräte, die auf dem Pult gepatcht sind und in Capture 
@@ -74,7 +74,7 @@ Probleme aufgelistet.
 
 Zum Beheben doppelt vergebener Gerätenummern ändern Sie in Capture den
 Wert im Feld **"Channel"**. Um dagegen bisher nicht unterstützte Geräte in
-Capture zu verwenden, [aktualisieren Sie zunächst die Gerätebibliothek](../fixture-personalities.md#updating-the-personality-library-on-the-console) 
-in Titan. Hilft das nicht, so [fordern Sie eine neue Personality](../fixture-personalities.md#requesting-a-new-fixture-personality) auf
+Capture zu verwenden, [aktualisieren Sie zunächst die Gerätebibliothek](../fixture-personalities.md#aktualisieren-des-personality-speichers-des-pultes) 
+in Titan. Hilft das nicht, so [fordern Sie eine neue Personality](../fixture-personalities.md#anfordern-einer-neuen-gerätedatei) auf
 der [Avolites Personality-Website](https://personalities.avolites.com/?mainPage=Request%20Queue.asp&) an. Wählen
 Sie dabei als Desk Type "Capture Visualiser (.c2o)".

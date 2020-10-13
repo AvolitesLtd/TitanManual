@@ -93,7 +93,7 @@ Button, und bestätigt das mit \[Remove\].
 Macros zur Playback-Steuerung
 -----------------------------
 
-[Macros](../titan-basics/front-panel-buttons.md#key-macro-buttons)
+[Macros](../titan-basics/front-panel-buttons.md#macros----tastenfolgen)
 gestatten es, häufig wiederkehrende Folgen von Tastendrücken zu
 automatisieren. So lassen sich auch lange oder komplizierte 
 Tastenkombinationen mit nur einem Knopfdruck wiederholen.

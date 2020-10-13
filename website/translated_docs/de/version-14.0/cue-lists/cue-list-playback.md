@@ -90,10 +90,10 @@ Zahnrad in der Titelleiste des Fensters).
 
 -   Beim Ausblenden des Reglers einer Cueliste werden die enthaltenen
     HTP-Kanäle ausgeblendet, die Cueliste an sich bleibt jedoch aktiv.
-    [Im nächsten Abschnitt](#killing-a-cue-list) wird erläutert, wie die Cueliste deaktiviert
+    [Im nächsten Abschnitt](#eine-cueliste-deaktivieren) wird erläutert, wie die Cueliste deaktiviert
     werden kann.
 
--   Mittels **Timecode** kann eine Cueliste [automatisch gesteuert werden](cue-list-timing.md#running-a-cue-list-to-timecode).
+-   Mittels **Timecode** kann eine Cueliste [automatisch gesteuert werden](cue-list-timing.md#steuern-einer-cueliste-per-timecode).
 
 -   Die Zeit für den nächsten Schritt lässt sich einfach ändern, indem
     man mit den Zifferntasten die neue Zeit eingibt und \<Go\> drückt.

@@ -21,7 +21,7 @@ zusätzliche für Chaser, die hier beschrieben werden.
 
 ## Tab "Handle"
 
-Alle Optionen dieser Rubrik funktionieren genauso wie im [Kapitel Cues](../cues/playback-options.md#handle-tab) beschrieben.
+Alle Optionen dieser Rubrik funktionieren genauso wie im [Kapitel Cues](../cues/playback-options.md#playback-options----tab-handle) beschrieben.
 
 ---
 
@@ -39,7 +39,7 @@ bestimmt das Verhalten aufeinanderfolgender Schritte:
 
 \[Link according to individual steps\] - (Schrittfolge nach Vorgabe):
 jeder Schritt verhält sich gemäß der spezifischen Vorgaben (mit
-[\<Unfold\>](editing-a-chase.md#editing-a-chase-using-unfold) oder im [Playback View-Fenster](editing-a-chase.md#opening-a-chase-for-editing) einzustellen).\
+[\<Unfold\>](editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion) oder im [Playback View-Fenster](editing-a-chase.md#einen-chaser-zum-editieren-öffnen) einzustellen).\
 \[Always Link Steps\] - (Schritte stets folgen lassen): der Chaser
 läuft automatisch mit den vorgegebenen Zeiten ab.\
 \[Never Link Steps\] - (Schritte nie folgen lassen): der Chaser stoppt
@@ -78,7 +78,7 @@ einzustellen.
 
 ## Tab "Effects
 
-Alle Optionen dieser Rubrik funktionieren genauso wie im [Kapitel Cues](../cues/playback-options.md#effects-tab) beschrieben.
+Alle Optionen dieser Rubrik funktionieren genauso wie im [Kapitel Cues](../cues/playback-options.md#playback-options----tab-effects) beschrieben.
 
 ---
 
@@ -86,7 +86,7 @@ Alle Optionen dieser Rubrik funktionieren genauso wie im [Kapitel Cues](../cues/
 
 [Release Mask](../cues/playback-options.md#release-mask) und 
 [Release Time](../cues/playback-options.md#release-time) funktionieren genauso wie im
-[Kapitel Cues](../cues/playback-options.md#release-tab) beschrieben.
+[Kapitel Cues](../cues/playback-options.md#playback-options----tab-release) beschrieben.
 
 ### Cue Release
 Cue Release: erlaubt es, Chaser zu erstellen, bei denen zwischen den
@@ -94,5 +94,4 @@ einzelnen Schritten ein Release erfolgt.
 
 *So lässt sich damit z.B. ein Chaser erstellen, der die Geräte einzeln 
 auf weiß einblendet und dann wieder released, also auf die vorher 
-verwendete Farbe zurücksetzt. Diesen kann man dann vor jedem anderen 
-- durch andere Cues/Paletten eingestellten - Hintergrund laufen lassen.*
+verwendete Farbe zurücksetzt. Diesen kann man dann vor jedem anderen - durch andere Cues/Paletten eingestellten - Hintergrund laufen lassen.*

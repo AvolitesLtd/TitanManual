@@ -19,7 +19,7 @@ Zifferntasten.
 Dimmer und andere Geräte haben eine User Number (Benutzer-Nummer) (*entspricht  der Channel Number auf anderen Pulten*). Diese wird links oben
 in der jeweiligen Schaltfläche angezeigt. In den hier aufgeführten
 Befehlen wird die Nummer als **"n"** dargestellt. Die User Number lässt sich
-über das Menü \[Set Legend\] ändern, siehe [Legende eingeben](../patching/changing-the-patch.md#setting-legends). Auch Gruppen
+über das Menü \[Set Legend\] ändern, siehe [Legende eingeben](../patching/changing-the-patch.md#legendenbezeichnungen-eingeben). Auch Gruppen
 haben jeweils eine User Number.
 
 ![Fixtures Window showing user numbers](/docs/images/Fixtures-Window-showing-user-numbers.png)
@@ -71,7 +71,7 @@ letzten Betätigen von \<Clear\> geändert wurden, und nur, wenn sich
 gegenüber dem vorigen Cue Änderungen ergeben. Sind dagegen andere
 Playbacks aktiv, werden diese nicht mit in den Cue gespeichert. Will man
 doch alles, also alle Dimmer/Geräte, die gerade über 0% sind, speichern,
-so wechselt man den Speichermodus \[Record Mode\] auf "Record by Stage" (siehe [Creating a Cue](../cues/creating-a-cue.md#creating-a-cue)).
+so wechselt man den Speichermodus \[Record Mode\] auf "Record by Stage" (siehe [Erstellen eines Cues](../cues/creating-a-cue.md#anlegen-eines-cues)).
 
 Tasten | Ergebnis
 -------|---------
@@ -101,7 +101,7 @@ Menütasten.
 
 ---
 
-Um Cues [miteinander zu verlinken](cue-list-timing.md#cue-linking--link-offset), klickt man auf die entsprechende Zelle
+Um Cues [miteinander zu verlinken](cue-list-timing.md#schrittfolge-und-versatz), klickt man auf die entsprechende Zelle
 der Spalte ‚Link' (dort steht normalerweise ‚Wait For Go'). Dann kann
 man mit den Menütasten auf \[Link After Previous Cue\] oder \[Link With
 Previous Cue\]. Für 'Link After...' bestimmt dann der Wert für 'Delay
@@ -135,11 +135,11 @@ um nicht versehentlich unerwünschte Werte mit zu speichern.
 -   \<Record\> \<Cue\> \<Cue\> : Speichern der aktuell eingestellten
     Werte in den aktuellen Cue
 
--   \<Time\> **t** \<Enter\>, \<Record\> \<Cue\> \<Cue\> : Speichern der
+-   \<Time\> **t** \<Enter\> \<Record\> \<Cue\> \<Cue\> : Speichern der
     Fadezeit **t** in den aktuellen Cue
 
-> eine andere Möglichkeit ist, die Cueliste mit \<View\> zu öffnen
-    und dort die Änderungen vorzunehmen
+> Eine andere Möglichkeit ist, die Cueliste mit \<View\> zu öffnen
+    und dort die Änderungen vorzunehmen.
 
 
 ## Shapes und Effekte

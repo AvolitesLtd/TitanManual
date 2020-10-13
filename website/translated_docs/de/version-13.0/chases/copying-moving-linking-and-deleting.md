@@ -19,7 +19,7 @@ zugewiesen bekommen.
 
 Das Vorgehen ist das gleiche wie beim Kopieren/Verschieben/Verknüpfen
 von Cues, und ist in Abschnitt 
-[Copying, Moving, Linking and Deleting](../cues/copying-moving-linking-and-deleting.md)genau beschrieben.
+[Copying, Moving, Linking and Deleting](../cues/copying-moving-linking-and-deleting.md) genau beschrieben.
 
 Löschen eines Chasers
 ---------------------
@@ -45,4 +45,4 @@ dessen Nummer mit den Zifferntasten ein.
 5. Bestätigen Sie den Löschvorgang mit \[Confirm\].
 
 > Alternativ lassen sich auch einzelne Schritte mit der
-[\<Unfold\>-Funktion](editing-a-chase.md#editing-a-chase-using-unfold) löschen.
+[\<Unfold\>-Funktion](editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion) löschen.

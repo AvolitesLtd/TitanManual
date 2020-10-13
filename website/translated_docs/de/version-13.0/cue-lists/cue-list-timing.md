@@ -13,7 +13,7 @@ einzeln. Im Display wird angezeigt, welcher Schritt aktuell bearbeitet
 wird. Zum Auswählen des Schrittes dient **Encoder A** oder **Menütaste A** aus
 dem **Menü Cue Times**.
 
-*Weitere Details zu Überblendungen und Geräteversatz sind den [unten aufgeführten Diagrammen](#cue-linking--link-offset) zu entnehmen.*
+*Weitere Details zu Überblendungen und Geräteversatz sind den [unten aufgeführten Diagrammen](#schrittfolge-und-versatz) zu entnehmen.*
 
 1. Drücken Sie **Menütaste A** \[Edit Times\] aus dem Hauptmenü, dann die
 **Select-Taste** der Cueliste.
@@ -30,7 +30,7 @@ Zifferntasten die gewünschte Schrittnummer ein und bestätigen das mit
 	- Man kann auch eine ganze Reihe von Schritten auswählen, um deren
       Zeiten gleichzeitig zu ändern: nutzen Sie dazu **Encoder B**, 
 	  oder markieren Sie diese im Fenster [Playback
-      View](editing-cue-lists.md#playback-view-window).
+      View](editing-cue-lists.md#das-fenster-playback-view).
 
 3. **Stellen Sie die Zeiten wie gewünscht ein.**
 
@@ -130,7 +130,7 @@ normalen/allgemeinen Zeiten für den Schritt zurück.
 
 >  Nutzen Sie \[Individual Attributes\] zur Vergabe von Zeiten für
     einzelne Attribute aus einer Gruppe, etwa für ‚Pan' aus der Gruppe
-    ‚Positions'. Gleiches lässt sich mit dem Fenster [Cue View](editing-cue-lists.md#editing-values-in-cue-view-window)
+    ‚Positions'. Gleiches lässt sich mit dem Fenster [Cue View](editing-cue-lists.md#editieren-von-werten-im-fenster-cue-view)
     realisieren. 
 
 Fixture Overlap - Geräteversatz
@@ -143,7 +143,7 @@ nacheinander gesendet. Damit lassen sich ohne großen Programmieraufwand
 schöne Effekte realisieren.
 
 Drücken Sie A \[Fixture Overlap\] (*auf der zweiten Seite des Menüs
-[Cue Times](#time-and-fade-options-for-cue-lists))*, und geben Sie einen Wert von 0...100 mit den Zifferntasten ein. 
+[Cue Times](#zeit--und-überblendoptionen-für-cuelisten))*, und geben Sie einen Wert von 0...100 mit den Zifferntasten ein. 
 
 Overlap | Ergebnis
 --------|---------

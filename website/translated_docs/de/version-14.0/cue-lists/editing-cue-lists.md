@@ -23,7 +23,7 @@ verschiedene Optionen zur Auswahl.
 Um mehrere Cues auf einmal zu editieren, ziehen Sie in der Ansicht eine
 Box um die zu ändernden Zellen.
 
-Ferner bietet die [Intensity-Ansicht](../controlling-fixtures/viewing-and-editing-fixture-values.md#intensity-window) eine gute Möglichkeit, alle
+Ferner bietet die [Intensity-Ansicht](../controlling-fixtures/viewing-and-editing-fixture-values.md#das-fenster-intensity) eine gute Möglichkeit, alle
 aktiven Geräte und deren Werte zu überblicken. 
 
 Editieren von Werten im Fenster Cue View
@@ -31,7 +31,7 @@ Editieren von Werten im Fenster Cue View
 
 Jeder einzelne Attributwert jedes Gerätes kann in der Cue-Ansicht (Cue
 View) angezeigt und verändert werden. Dazu klicken Sie in der
-[Playback-Ansicht](#playback-view-window) beim gewünschten Cue auf die 
+[Playback-Ansicht](#das-fenster-playback-view) beim gewünschten Cue auf die 
 Schaltfläche **View** (Spalte *View Cue* weit rechts). 
 
 ![Cue View Window](/docs/images/Cue-View-Window.png)
@@ -54,9 +54,9 @@ Kopieren/verschieben von Cues
 
 Es lassen sich einzelne oder mehrere Cues innerhalb einer oder zwischen
 mehreren Cuelisten kopieren oder verschieben. Dazu klicken und ziehen
-Sie entweder den gewünschten Cue im [Playback View](#playback-view-window) 
+Sie entweder den gewünschten Cue im [Playback View](#das-fenster-playback-view) 
 (drücken Sie dazu \<View / Open\>, dann die Taste der gewünschten Cueliste), 
-oder verwenden Sie die **Unfold-Funktion** ([siehe nächster Abschnitt](#playback-view-window)) oder eine spezielle
+oder verwenden Sie die **Unfold-Funktion** ([siehe nächster Abschnitt](#editieren-einer-cueliste-mit-unfold)) oder eine spezielle
 Tasten-Syntax.
 
 **Kopieren/verschieben innerhalb des gleichen Playbacks:**
@@ -177,7 +177,7 @@ Editieren einer laufenden Cueliste
 -----------------------------------
 
 Ebenso lassen sich Schritte einer laufenden Cueliste ändern, ohne
-[Unfold](#editing-a-cue-list-using-unfold) nutzen zu müssen: 
+[Unfold](#editieren-einer-cueliste-mit-unfold) nutzen zu müssen: 
 
 1. **Starten Sie die Cueliste** mit dem entsprechenden Fader.
 
@@ -225,7 +225,7 @@ Die Taste \<Review\> dient zur Überprüfung des aktuellen Schritts
 mit den neuen Zeitvorgaben.
 
 *Alternativ kann man die \<Unfold\>-Funktion verwenden, um die Zeiten
-zu ändern, siehe [vorheriger Abschnitt](#editing-a-cue-list-using-unfold).*
+zu ändern, siehe [vorheriger Abschnitt](#editieren-einer-cueliste-mit-unfold).*
 
 Editieren einer Cueliste während des Programmierens
 ---------------------------------------------------
@@ -267,7 +267,7 @@ Werte in mehreren Cues gleichzeitig aktualisieren
 Werte können auch in mehreren Cues einer Cueliste/eines Chasers
 gleichzeitig aktualisiert (mittels **Merge/Verschmelzen** oder
 **Replace/Ersetzen**) werden. Dies kann sowohl mit numerischer Eingabe als
-auch in der [Playback-Ansicht](#playback-view-window) erfolgen. 
+auch in der [Playback-Ansicht](#das-fenster-playback-view) erfolgen. 
 
 In der Playback-Ansicht drücken Sie die Taste \<Record\> und klicken
 dann im Bildschirm auf den gewünschten Cue/die Cues. Wählen Sie nun
@@ -279,7 +279,7 @@ Bei Verwendung der Zifferntasten verbinden Sie zunächst die Cueliste
 mittels \<Connect\> mit der Steuerung und klicken auf \[Rec. Step\]. Nun
 verwenden Sie die Syntax `<n> THRU <m>`, um eine Folge von Cues zu
 ändern, oder `<n> AND <m>`, um mehrere Cues einzeln auszuwählen. Ist
-die [Playback-Ansicht](#playback-view-window) geöffnet, so werden die 
+die [Playback-Ansicht](#das-fenster-playback-view) geöffnet, so werden die 
 gewählten Cues rot markiert. Sind alle zu ändernden Cues ausgewählt, 
 drücken Sie \<Enter\> und wählen \[Merge\] oder \[Replace\] (nochmaliges 
 Betätigen von \<Enter\> wählt Merge).
@@ -296,7 +296,7 @@ als wäre er nicht vorhanden, kann aber später wieder aktiviert werden
 Einzelne Cues mit Include in den Programmer laden
 -------------------------------------------------
 
-Mit **[Include](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)** 
+Mit **[Include](../cues/editing-cues.md#cues-wiederverwenden---die-include-funktion)** 
 können einzelne Cues aus einer Cueliste in den Programmer
 geladen werden. Drücken Sie dazu \<Include\>, wählen die Cueliste aus, geben die Cuenummer ein und drücken \[Include Cue\].
 
@@ -306,4 +306,4 @@ wählen \[Include Cue\].
 
 Auf diese Weise kann man Cues aus Cuelisten auch anderweitig
 weiterverwenden sowie Shapes/Effekte in diesem Cue editieren (geht auch
-per [Playback View](#playback-view-window)).
+per [Playback View](#das-fenster-playback-view)).

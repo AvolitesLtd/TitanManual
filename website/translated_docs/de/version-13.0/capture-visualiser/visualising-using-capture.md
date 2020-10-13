@@ -14,7 +14,7 @@ eine Simulation dessen, was mit Ihren Fixtures passiert.
 Geräte anwählen
 ---------------
 
-Sobald auf dem Pult [Geräte angewählt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) sind, werden diese in Capture
+Sobald auf dem Pult [Geräte angewählt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) sind, werden diese in Capture
 markiert, so dass man weiß, mit welchen Geräten man gerade arbeitet.
 
 ![Fixtures elected on internal Capture Visualiser Window](/docs/images/Fixtures-elected-on-internal-Capture-Visualiser-Window.png)
@@ -27,6 +27,6 @@ Blickwinkeln anschauen. So kann man sich auch bei großen Installationen
 einen Eindruck von verschiedenen Plätzen verschaffen, ohne durch das
 ganze Venue laufen zu müssen.
 
-Richten Sie sich wie [im vorigen Abschnitt beschrieben](setting-up-the-rig.md#setting-up-cameras-views) mehrere
+Richten Sie sich wie [im vorigen Abschnitt beschrieben](setting-up-the-rig.md#kameras-einrichten-ansichten) mehrere
 Kameras/Ansichten ein, so können Sie schnell zwischen diesen wechseln
 und haben alles im Überblick.

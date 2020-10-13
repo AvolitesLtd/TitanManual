@@ -7,7 +7,7 @@ original_id: copying-moving-linking-and-deleting
 
 In diesem Abschnitt wird das Verschieben/Kopieren kompletter Cuelisten
 erläutert; zum Kopieren/Verschieben/Löschen einzelner Cues innerhalb
-einer Liste siehe [voriges Kapitel](editing-cue-lists.md#moving-and-copying-cues).
+einer Liste siehe [voriges Kapitel](editing-cue-lists.md#kopierenverschieben-von-cues).
 
 Eine Cueliste verschieben oder kopieren
 ---------------------------------------
@@ -29,13 +29,13 @@ Select-Taste nochmals (oder \[Confirm\] oder \<Enter\>).
 Einen Cue verschieben
 ---------------------
 
-Zum Verschieben eines Cue geben Sie diesem in der [Playback-Ansicht](editing-cue-lists.md#playback-view-window) 
+Zum Verschieben eines Cue geben Sie diesem in der [Playback-Ansicht](editing-cue-lists.md#das-fenster-playback-view) 
 mit der Menütaste \[Change to\]) eine andere - passende - Cue-Nummer, und er
 wird automatisch passend verschoben. Soll er z.B. zwischen Cue 14 und 15
 eingefügt werden, so geben Sie ihm die Nummer 14.5.
 
-Im Abschnitt [Moving and Copying Cues](editing-cue-lists.md#moving-and-copying-cues) sind weitere Möglichkeiten zum Verschieben und
-Kopieren dargestellt, mit denen man auch Cues zwischen verschiedenen
+Im Abschnitt [Kopieren/Verschieben von Cues](editing-cue-lists.md#kopierenverschieben-von-cues) sind weitere Möglichkeiten zum Verschieben und
+Kopieren erläutert, mit denen man auch Cues zwischen verschiedenen
 Cuelisten verschieben/kopieren kann.
 
 Löschen eines Schrittes aus einer Cueliste
@@ -56,4 +56,4 @@ dessen Nummer mit den Zifferntasten ein.
 5. Bestätigen Sie den Löschvorgang mit \[Confirm\].
 
 > Alternativ lassen sich auch einzelne Schritte mit der
-  [\<Unfold\>-Funktion](editing-cue-lists.md#editing-a-cue-list-using-unfold) löschen.
+  [\<Unfold\>-Funktion](editing-cue-lists.md#editieren-einer-cueliste-mit-unfold) löschen.
