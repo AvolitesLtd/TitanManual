@@ -136,19 +136,23 @@ on empty handles).
 
 ### Masters
 
-This is divided into Standard Masters and Scene Master.
+You can set different button options for \[Standard Masters\] and \[Scene Master\].
 
-For Standard Masters the options are **Disabled**, **Selection**, **Flash**, **Latch**, **Tap
-Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, **Multiplier x2**,
-**Freeze**, **Connect**.
+For Standard Masters the options are **Disabled**, **Selection**, **Flash**, **Latch**, 
+**Connect**, **Tap Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, 
+**Multiplier x2**, **Freeze**.
 
-These last options are for rate and BPM masters, see
-the [BPM Master Options](../running-the-show/playback-controls.md#bpm-master-options). Freeze can be useful to temporarily pause
+Some of these options only operate with particular types of master - the Multiplier options
+are only for BPM masters, see
+the [BPM Master Options](../running-the-show/playback-controls.md#bpm-master-options). 
+Freeze can be useful to temporarily pause
 shapes or chases, or does a blackout if used with an intensity master.
 
-For Scene Master the options are **Disabled**, **Exit scene mode**, **Enter scene
-mode**, **Commit changes**, **Commit changes and exit scene mode**, **Enter or Exit
-scene mode**, **Enter or commit scene mode**.
+For Scene Master the options are **Disabled**, **Preload Scene Mode**, 
+**Exit Scene Mode**, **Enter Scene Mode**, **Commit Changes**, 
+**Commit Changes and Exit Scene Mode**, **Enter or Exit Scene Mode**, 
+**Enter or Commit Scene Mode**,**Reset Scene Mode**. See 
+[Scene Master](../running-the-show/playback-controls.md/#scene-master).
 
 ## Selecting a Key Profile
 
