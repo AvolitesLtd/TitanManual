@@ -154,10 +154,11 @@ For Scene Master the options are **Disabled**, **Preload Scene Mode**,
 **Enter or Commit Scene Mode**,**Reset Scene Mode**. See 
 [Scene Master](../running-the-show/playback-controls.md/#scene-master).
 
-## Selecting a Key Profile
+## Changing the Key Profile
 
-To quickly select a Key Profile, hold the \<Avo\> button and press
-\[Select Key Profile\].
+To quickly change the Key Profile, hold the \<Avo\> button and press
+\[Select Key Profile\]. This changes the global Key Profile used for all handles,
+unless they have an individual Key Profile set as described below.
 
 ## Individual Key Profiles for playbacks
 
