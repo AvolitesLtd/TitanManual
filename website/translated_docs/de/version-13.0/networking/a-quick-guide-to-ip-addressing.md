@@ -20,7 +20,7 @@ Einstellen der IP-Adresse
 -------------------------
 
 Bei den Titan-Pulten gibt es eine Funktion, die üblichen IP-Adressen
-schnell einstellen zu können; siehe [voriger Abschnitt](controlling-fixtures-over-a-network.md#setting-the-consoles-ip-address).
+schnell einstellen zu können; siehe [voriger Abschnitt](controlling-fixtures-over-a-network.md#einstellen-der-ip-adresse-des-pultes).
 
 Es empfiehlt sich, die IP-Adressen sämtlicher Pulte und angeschlossener
 Geräte zu überprüfen. Berücksichtigen Sie, dass einige Art-Net-Geräte

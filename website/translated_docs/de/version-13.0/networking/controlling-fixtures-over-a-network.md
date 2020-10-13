@@ -14,7 +14,7 @@ Einstellen der IP-Adresse des Pultes
 
 Es wird empfohlen, die integrierte Adressvergabe des Pultes zu
 verwenden. Alternativ können Sie die Adressierung auch über die
-Windows-Systemsteuerung vornehmen. Siehe [Setting your IP address](a-quick-guide-to-ip-addressing.md#setting-your-ip-address) mit 
+Windows-Systemsteuerung vornehmen. Siehe [Einstellen der IP-Adresse](a-quick-guide-to-ip-addressing.md#einstellen-der-ip-adresse) mit 
 Details zur IP-Adressierung.
 
 1. 	Schalten Sie das Pult in den 'System'-Modus und drücken Sie

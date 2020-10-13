@@ -10,7 +10,7 @@ weitere Wege der Kommunikation mit Beleuchtungs- und anderen Geräten;
 diese werden im Folgenden beschrieben.
 
 Verfügt das Pult bzw. Der Computer über mehrere Netzwerkanschlüsse, so [kann
-DMX über jeden davon ausgegeben werden](system-settings/dmx-output-mapping.md#configuring-dmx-outputs). 
+DMX über jeden davon ausgegeben werden](system-settings/dmx-output-mapping.md#einrichten-der-dmx-ausgänge). 
 Ganz exakt lässt sich in den DMX-Einstellungen festlegen: für jeden 
 Netzwerkport lässt sich die DMX-Ausgabe explizit aktivieren oder deaktivieren.
 
