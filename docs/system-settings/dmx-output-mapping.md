@@ -96,7 +96,7 @@ adapter, both of which will be shown.
 
 ### DMX Output Properties
 
-![DMX512 Module Properties](/docs/images/DMX-Module-Properties.png)
+![DMX512 Module Properties](/docs/images/Dmx-Module-Properties.png)
 
 **DMX output:** Allows you to temporarily disable the output
 
