@@ -19,15 +19,12 @@ these tips for setting up a suitable network:
 -   If you are using Titan Mobile, make sure Windows Firewall is turned
     off
 
+> The Ai server(s) must have the correct version of Synergy installed  to match your Titan version. To upgrade Synergy on the Ai server, download the Synergy Upgrade Installer from the 
+[Avolites Download page](https://www.avolites.com/software/latest-version) and run it on the Ai server. You don't need to do anything extra on the console as the Titan installer will automatically install the latest version of Synergy on the console. 
+
 If you have problems getting Titan and Ai to recognise each other, make
 sure they are on matching software versions, and both in the same IP
 address subnet range such as `2.0.0.1` and `2.0.0.2` - read more about [Networking the Console](../networking.md).
-
->  If you need to install/upgrade Synergy you must use
-    the correct version of the
-    Synergy upgrade installer so that it matches your Titan version.
-    You can download the installer from the 
-    [Avolites Download page](https://www.avolites.com/software/latest-version).
 
 
 Setting up the Ai Show
