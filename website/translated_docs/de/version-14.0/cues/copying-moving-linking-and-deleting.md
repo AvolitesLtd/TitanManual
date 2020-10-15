@@ -5,43 +5,40 @@ sidebar_label: Copying, Moving, Linking and Deleting
 original_id: copying-moving-linking-and-deleting
 ---
 
-Kopieren oder verschieben eines Cues
-------------------------------------
+Kopieren eines Cues
+-------------------
 
-Mittels der Tasten \<Copy\> und \<Move\> (bzw. \<Copy/Move/Link\>) lässt
-sich eine **Kopie** eines Cues anfertigen, ein Cue auf einen anderen
-Speicherplatz **verschieben**, oder ein Speicherplatz als **Verknüpfung** zu
-einem bestehenden Cue anlegen. Kopieren, Verschieben und Verknüpfen
-lässt sich auch für mehrere Speicherplätze (nicht nur Cues, sondern auch
+Mittels der Taste \<Copy\> lässt sich eine **Kopie** eines Cues anfertigen
+oder ein Speicherplatz als **Verknüpfung** zu einem bestehenden Cue anlegen. 
+Es lassen sich auch mehrere Speicherplätze (nicht nur Cues, sondern auch
 [Chaser](../chases.md) or [Cuelisten](../cue-lists.md)) in einem Arbeitsgang
-erreichen.
+kopieren.
 
-Verschieben ist sinnvoll, um das Pult 'aufzuräumen'. Verknüpfungen
-bieten sich an, wenn ein Cue aus Ablaufgründen auf mehreren Seiten
+Verknüpfungen bieten sich an, wenn ein Cue aus Ablaufgründen auf mehreren Seiten
 erscheinen soll; Verknüpfungen enthalten die gleichen Informationen wie
-der originale Cue, können aber individuelle [Zeiten](cue-timing.md) und [Optionen](playback-options.md) zugewiesen bekommen.
+der originale Cue, können aber individuelle [Zeiten](cue-timing.md) und 
+[Optionen](playback-options.md) zugewiesen bekommen.
 
-1. Drücken Sie die Taste \<Copy\> bzw. \<Copy/Move/Link\>.
+1. Drücken Sie die Taste \<Copy\>.
 
-2. Wählen Sie \[Copy\](Kopieren), \[Move\](Verschieben) oder
-\[Link\](Verknüpfen). Wiederholtes Betätigen der Taste wechselt ebenfalls 
-durch diese Optionen. Manche Pulte haben eine Taste \<Move\>, mit der man 
-direkt zum Verschieben gelangt.
+2. Zum Anlegen einer Verknüpfung drücken Sie nochmals auf \<Copy\> oder wählen
+die Menütaste \[Link\].
 
-3. Drücken Sie die **Swop-Taste** des Cues, den Sie bearbeiten möchten.
-Sie können eine Reihe von Cues auswählen, indem Sie die Taste der ersten
-gedrückt halten und die Taste der letzten dazu betätigen. Ebenso können
+3. Drücken Sie die **Auswahltaste** des Cues, den Sie kopieren möchten.
+Sie können eine Reihe von Cues auswählen, indem Sie die Taste des ersten
+gedrückt halten und die Taste des letzten dazu betätigen. Ebenso können
 mit \<Thro\> und \<And\> mehrere Cues auf einmal ausgewählt werden (ggf.
 \<And\> gedrückt halten).
 
-4. Drücken Sie eine unbelegte **Swop-Taste**, zu der der Cue
-kopiert/bewegt/verknüpft werden soll.
+4. Drücken Sie eine unbelegte **Auswahltaste**, zu der der Cue
+kopiert/verknüpft werden soll; werden mehrere Playbacks kopiert, so werden 
+diese ab dort auf die folgenden freien Plätze eingefügt.
 
 ---
 
--   Die Taste \<Menu Latch\> fixiert das Menü 'Copy/Move/Link', so dass
-    man bei wiederholtem Kopieren/Verschieben die Taste \<Copy\> nicht
-    wiederholt betätigen muss. Zum Freigeben des Menüs drücken Sie
+-   Die Taste \<Menu Latch\> fixiert das Menü 'Copy', so dass
+    man bei wiederholtem Kopieren die Taste \<Copy\> nicht
+    erneut betätigen muss. Zum Freigeben des Menüs drücken Sie
     nochmals \<Menu Latch\>, zum Verlassen drücken Sie \<Exit\>.
 
 -   \[Retain Layout\](Layout erhalten) oder \[Bunch
@@ -50,10 +47,26 @@ kopiert/bewegt/verknüpft werden soll.
     sich entweder weiter als unbelegt behalten, oder die belegten
     Speicherplätze werden aufeinanderfolgend zusammengefasst.
 
--   Im Modus **Copy** (Kopieren) kann die Option \[Copy Legends\]
-    (Bezeichnungen kopieren) geändert werden in \[Don't copy legends\]
-    (Bezeichnungen nicht kopieren), so dass die kopierten Cues
-    Standardbezeichner bekommen.
+-   Die Option \[Copy Legends\] (Bezeichnungen kopieren) kann geändert 
+	werden in \[Don't copy legends\] (Bezeichnungen nicht kopieren), so 
+	dass die kopierten Cues Standardbezeichner bekommen.
+
+Verschieben eines Cues
+----------------------
+
+Mit der Taste \<Move\> lassen sich Playbacks (Cues, Chaser, Cuelisten) 
+auf andere Tasten und Fader verschieben. **Move/Verschieben** ist sinnvoll, 
+um das Pult 'aufzuräumen', Playbacks zu ordnen oder auf andere Seiten zu 
+gruppieren.
+
+Wie beim Kopieren lassen sich auch mehrere Playbacks auf einmal verschieben,
+indem Sie die Taste des ersten gedrückt halten und die Taste des letzten 
+dazu betätigen, oder sie wählen wieder mit \<Thro\> und \<And\> mehrere Cues 
+auf einmal aus. Und mit \<Menu Latch\> kann auch das **Move**-Menü fixiert werden.
+
+-   Einige Pulte haben eventuell keine Move-Taste. In diesem Fall halten
+	Sie die Taste \<Avo\> gedrückt und drücken dazu \<Copy\>, um die **Move**-Funktion 
+	zu aktivieren.
 
 -   Im Modus 'Move' (Verschieben) dient die Option \[Swap Items if
     Required\] (Tausch wenn erforderlich) dazu, bestehende Cues, die dem

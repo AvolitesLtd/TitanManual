@@ -16,20 +16,23 @@ Setup
 -----
 
 Im Setup-Menü lassen sich die IP-Adressen sowie generelle Eigenschaften
-des Nodes einstellen (Network Settings bzw. Node Settings).
+des Nodes einstellen (\[Network Settings\] bzw. \[Node Settings\] anklicken).
 
-Für die **Network Settings** (Netzwerkeinstellungen) ist zunächst der gewünschte
-Netzwerkanschluss auszuwählen.
+### Netzwerkeinstellungen
 
-![TNP - Setup - Network Settings Screen](/docs/images/TNP-Setup-Network-Settings-Screen.png)
+Die Netzwerkeinstellungen können wie folgt geändert werden:
 
-![TNP - Setup - Network Settings - IP Settings Screen](/docs/images/TNP-Setup-Network-Settings-IP-Settings-Screen.png)
+1. Wählen Sie den gewünschten Netzwerkanschluss aus.\
+   ![TNP - Setup - Network Settings Screen](/docs/images/TNP-Setup-Network-Settings-Screen.png)
 
-Als nächstes lässt sich DHCP aktivieren oder deaktivieren, die
-IP-Adresse und Subnetz-Maske einstellen oder aber eine zufällige, aber
-Artnet-kompatible Adresse wählen (2.\*.\*.\* oder 10.\*.\*.\*).
+2. Als nächstes lässt sich DHCP aktivieren oder deaktivieren, die
+   IP-Adresse und Subnetz-Maske einstellen oder aber eine zufällige, aber
+   Artnet-kompatible Adresse wählen (2.\*.\*.\* oder 10.\*.\*.\*).\
+   ![TNP - Setup - Network Settings - IP Settings Screen](/docs/images/TNP-Setup-Network-Settings-IP-Settings-Screen.png)
 
-Mit \[Save Settings\] werden die Einstellungen gespeichert.
+3. Mit \[Save Settings\] werden die Einstellungen gespeichert.
+
+### Node-Einstellungen
 
 Als **Node Settings** (Node-Einstellungen) lässt sich derzeit die auf anderen Pulten
 angezeigte Farbe des Geräts sowie der Verbindungslinien einstellen, was

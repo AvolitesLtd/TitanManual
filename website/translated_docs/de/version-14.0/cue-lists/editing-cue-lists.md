@@ -14,11 +14,13 @@ Das Fenster Playback View
 
 Am einfachsten lässt sich eine Cueliste in der Playback-Ansicht
 (Playback View) editieren, dazu drücken Sie \<View / Open\>,
-gefolgt von der **blauen Auswahltaste** der gewünschten Cueliste. Diese Ansicht
+gefolgt von der **Auswahltaste** der gewünschten Cueliste. Diese Ansicht
 besteht aus einer Tabelle, wobei jeder Cue mit seinen Details in einer
 Zeile aufgelistet ist. Durch Anklicken einzelner Zellen lassen sich die
 jeweiligen Werte verändern, und auf den Funktionstasten stehen
 verschiedene Optionen zur Auswahl.
+
+![Playback view](/docs/images/Cue-List-Window-with-Autoload-playback.png)
 
 Um mehrere Cues auf einmal zu editieren, ziehen Sie in der Ansicht eine
 Box um die zu ändernden Zellen.
@@ -49,15 +51,27 @@ Werte direkt zu ändern.
     getrackte, also aus vorherigen Cues übernommene Werte hellgrau
     hervorgehoben.
 
-Kopieren/verschieben von Cues
------------------------------
+Kopieren, Verschieben und Löschen einzelner Cues
+------------------------------------------------
 
-Es lassen sich einzelne oder mehrere Cues innerhalb einer oder zwischen
-mehreren Cuelisten kopieren oder verschieben. Dazu klicken und ziehen
+ Dazu klicken und ziehen
 Sie entweder den gewünschten Cue im [Playback View](#das-fenster-playback-view) 
 (drücken Sie dazu \<View / Open\>, dann die Taste der gewünschten Cueliste), 
 oder verwenden Sie die **Unfold-Funktion** ([siehe nächster Abschnitt](#editieren-einer-cueliste-mit-unfold)) oder eine spezielle
 Tasten-Syntax.
+
+Es lassen sich auf verschiedene Weise einzelne oder mehrere Cues innerhalb 
+einer oder zwischen mehreren Cuelisten kopieren oder verschieben:
+-   Man kann die **Unfold-Funktion** ([siehe nächster Abschnitt](#editieren-einer-cueliste-mit-unfold)) nutzen.
+-   Um einen Cue zu verschieben, kann man diesen im Fenster [Playback View](#das-fenster-playback-view) anklicken und verschieben, oder man klickt 
+auf die Nummer des Cues und ändert diese mit der Menütaste \[Change To\]
+(sobald die Nummer geändert wurde, ändert sich auch die Reihenfolge der 
+Cues).
+-   Um einen Cue zu löschen, drücken Sie die \<Delete\>-Taste, wählen 
+den Cue im Playback-View aus, und klicken zur Bestätigung den Cue nochmals 
+an oder drücken \<Enter\> oder \[Confirm\].
+
+Ebenso lässt sich eine `Tastensyntax` verwenden.
 
 **Kopieren/verschieben innerhalb des gleichen Playbacks:**
 
@@ -71,6 +85,10 @@ Tasten-Syntax.
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] ENTER ENTER`
 
+**Löschen eines oder mehrerer Cues**
+
+`DELETE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] ENTER ENTER`
+
 **Kopieren/verschieben in ein anderes Playback:**
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> <cue> ENTER`
@@ -81,7 +99,7 @@ Tasten-Syntax.
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> <playback>`
 
-> Dabei ist `<playback>` die Taste/Schaltfläche des aktuellen
+> Dabei ist `<playback>` die Auswahltaste des aktuellen
   Speicherplatzes und `<cue>` die Nummer des jeweiligen Cues; Abschnitte
   in **[eckigen Klammern]** sind optional.
 

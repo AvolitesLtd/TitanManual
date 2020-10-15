@@ -12,7 +12,7 @@ Titan Remote-App; nun werden die im Netzwerk gefundenen Pulte angezeigt
 Die Remote-App enthält auch einen Emulator, mit dem die Remote lokal,
 also auch ohne Netzwerkverbindung, ausprobiert werden kann.
 
-![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-with-keypad.png)
+![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-Control-Selection.png)
 
 Mit der zentralen Leiste von Schaltflächen kann man nun die zu
 steuernden Funktionen/Details wählen. Mit der Taste \[Keypad\] wird 

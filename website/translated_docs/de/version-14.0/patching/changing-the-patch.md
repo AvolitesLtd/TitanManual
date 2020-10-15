@@ -365,9 +365,9 @@ Das Mapping wird wie folgt eingerichtet:
     Werkseinstellungen wiederherstellen. Alle diese Befehle müssen mit
     \[Confirm\] bestätigt werden.
 
-![Exchange Mapping](/docs/images/Exchange-Mapping.png)
+![Exchange Mapping with range mapping](/docs/images/Exchange-Mapping-Range-Mapping.png)
 
-**Range mapping -- Zuweisen von Bereichen**
+### Range mapping -- Zuweisen von Bereichen
 
 Umfasst die neue Funktion einen ganzen Bereich, z.B. 0...100%, so lässt
 sich ein bestimmter Bereich daraus auswählen, auf den das Mapping
