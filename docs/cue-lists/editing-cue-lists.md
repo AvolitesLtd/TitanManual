@@ -57,7 +57,7 @@ To move a cue you can either click and drag the cue in the [Playback
 View window](#playback-view-window), or click on the cue number and use the \[Change To\] softkey
 to enter the new cue number - once you have changed the number the cue will move to
 its correct position in the list.\
-To delete a cue press \<Delete\>, select the cue in the window, and tab the cue again, or press \<Enter\> or \[Confirm\] to confirm.
+To delete a cue press \<Delete\>, select the cue in the window, and tap the cue again, or press \<Enter\> or \[Confirm\] to confirm.
 
 You can also use a command-line style series of keypresses:
 
