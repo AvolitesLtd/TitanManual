@@ -156,8 +156,8 @@ they are down the left side of the screen).
 
 ![Workspaces](/docs/images/Recoding-a-Workspace-Layout.png)
 
-External screens have their own workspace buttons down the side of the screen (these
-can be turned off in the User Settings / General options.)
+External screens can have their own workspace buttons down the side of the screen (these
+can be turned on or off in the [User Settings](../system-settings/user-settings/#display) .)
 
 To record, press \<View/Open\> then
 \[Record Workspace\], then touch one of the Workspaces buttons, or just

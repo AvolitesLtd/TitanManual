@@ -42,10 +42,11 @@ then selecting \[Edit Current Key Profile\]. If the current key profile
 is one of the non-editable system ones, you are prompted to add a new
 profile or select an existing editable profile.
 
-The current actions for the Black, Blue, Grey and Touch buttons are
+The current actions for the Black, Blue, Grey and Touch/Executor buttons are
 shown on the left side of the screen. Once you select a key type from
 the menu, the screen shows actions available for that type of button.
-Only the Sapphire Touch has black buttons.
+Only the Sapphire Touch has Black buttons, but Virtual Black buttons
+can be used with the faders in the Virtual Fader window.
 
 ![Editing a Key Profile](/docs/images/Editing-a-Key-Profile.png)
 
@@ -135,24 +136,29 @@ on empty handles).
 
 ### Masters
 
-This is divided into Standard Masters and Scene Master.
+You can set different button options for \[Standard Masters\] and \[Scene Master\].
 
-For Standard Masters the options are **Disabled**, **Selection**, **Flash**, **Latch**, **Tap
-Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, **Multiplier x2**,
-**Freeze**, **Connect**.
+For Standard Masters the options are **Disabled**, **Selection**, **Flash**, **Latch**, 
+**Connect**, **Tap Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, 
+**Multiplier x2**, **Freeze**.
 
-These last options are for rate and BPM masters, see
-the [BPM Master Options](../running-the-show/playback-controls.md#bpm-master-options). Freeze can be useful to temporarily pause
+Some of these options only operate with particular types of master - the Multiplier options
+are only for BPM masters, see
+the [BPM Master Options](../running-the-show/playback-controls.md#bpm-master-options). 
+Freeze can be useful to temporarily pause
 shapes or chases, or does a blackout if used with an intensity master.
 
-For Scene Master the options are **Disabled**, **Exit scene mode**, **Enter scene
-mode**, **Commit changes**, **Commit changes and exit scene mode**, **Enter or Exit
-scene mode**, **Enter or commit scene mode**.
+For Scene Master the options are **Disabled**, **Preload Scene Mode**, 
+**Exit Scene Mode**, **Enter Scene Mode**, **Commit Changes**, 
+**Commit Changes and Exit Scene Mode**, **Enter or Exit Scene Mode**, 
+**Enter or Commit Scene Mode**,**Reset Scene Mode**. See 
+[Scene Master](../running-the-show/playback-controls.md/#scene-master).
 
-## Selecting a Key Profile
+## Changing the Key Profile
 
-To quickly select a Key Profile, hold the \<Avo\> button and press
-\[Select Key Profile\].
+To quickly change the Key Profile, hold the \<Avo\> button and press
+\[Select Key Profile\]. This changes the global Key Profile used for all handles,
+unless they have an individual Key Profile set as described below.
 
 ## Individual Key Profiles for playbacks
 
