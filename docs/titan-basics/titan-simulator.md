@@ -19,7 +19,7 @@ install or run Titan Simulator. From v12, to run the Titan Simulator an
 AvoKey Simulator dongle must be connected, or a T1/T2 device.
 
 
-> See [minimum PC specifications](../titan-basics/#connecting-up-titan-mobile-and-t1t2) for details of the PC requirements.                    
+> See [minimum PC specifications](../titan-basics.md#connecting-up-titan-mobile-and-t1t2) for details of the PC requirements.                    
 
 - Capture visualiser requires a capable graphics card. If you have problems with Capture,      
   ensure you have installed the latest drivers for your graphics card from the manufacturer.
