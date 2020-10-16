@@ -5,9 +5,8 @@ sidebar_label: T1 and T2
 original_id: t1-and-t2
 ---
 
-T1 und T2 sind USB-Dongles zum Betrieb an einem Computer (PC oder
-Laptop) mit Windows 7 oder höher (64bit). Sie enthalten jeweils den
-Lizenzkey und die DMX-Ausgabe.
+T1 und T2 sind USB-Dongles zum Betrieb an einem Windows-Computer (PC oder
+Laptop). Zu den Systemanforderungen siehe [Inbetriebnahme von Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2). T1 und T2 enthalten jeweils den AvoKey.
 
 Der T1 stellt einen DMX-Anschluss (5pol XLR) zur Ausgabe eines
 DMX-Universums zur Verfügung.
@@ -26,7 +25,7 @@ Faderwing betrieben werden.
 
 ---
 
-Installieren Sie die Titan PC-Suite (siehe nächstes Kapitel), bevor der
+Installieren Sie die Titan PC-Suite (siehe [Inbetriebnahme von Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2)), bevor der
 Dongle angeschlossen wird, damit die richtigen Treiber installiert und
 verwendet werden.
 

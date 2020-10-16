@@ -21,16 +21,15 @@ den Simulator ein Editor AvoKey oder ein angeschlossener T1 oder T2
 erforderlich.
 
 
-> Ab Titan Version 7 wird Windows 7, 8 oder 10 (64 Bit) vorausgesetzt; 
-Windows XP oder Vista werden nicht mehr unterstützt.                        
+> 	Zu den Systemanforderungen siehe [Inbetriebnahme von Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2).                 
 
-Capture verlangt dabei eine leistungsstarke Grafikkarte. Sollten dabei 
-Probleme auftreten, stellen Sie bitte sicher, die aktuellsten Treiber
-für Ihre Grafikkarte installiert zu haben.   
+- 	Capture verlangt dabei eine leistungsstarke Grafikkarte. Sollten dabei 
+	Probleme auftreten, stellen Sie bitte sicher, die aktuellsten Treiber
+	für Ihre Grafikkarte installiert zu haben.   
 
-Laden Sie einfach die Titan PC-Suite herunter (verfügbar im
+Laden Sie einfach die **Titan PC-Suite** herunter (verfügbar im
 Download-Bereich auf www.avolites.com) und installieren sie. Beim ersten
-Programmstart muss der AvoKey lizenziert werden; folgen Sie dazu den
+Programmstart muss [der AvoKey lizenziert](../system-settings/recovering-reinstalling-the-console#software-lizenzierung) werden; folgen Sie dazu den
 Anweisungen des Authenticator-Hilfsprogramms, das automatisch startet.
 
 Once licensed, you have a choice of how Titan will operate:

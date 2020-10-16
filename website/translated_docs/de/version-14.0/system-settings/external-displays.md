@@ -12,8 +12,9 @@ unterstützt den Anschluss von zwei DVI-Displays. Es lassen sich jeweils
 Touchscreens verwenden, wobei empfohlen wird, 'Windows Touch'-kompatible
 Modelle zu verwenden.
 
-Auch Titan Go und das Titan Mobile unterstützen zwei Bildschirme, wobei
-die konkrete Anschlussmöglichkeit vom verwendeten Computer abhängt.
+Auch Titan Go, Titan Simulator und das Titan Mobile unterstützen zwei 
+Bildschirme, wobei die konkrete Anschlussmöglichkeit vom verwendeten 
+Computer abhängt.
 
 Das externe Display ist zunächst deaktiviert und zeigt dies mit
 'disabled' an. Zum Aktivieren schalten Sie in den System-Modus
@@ -26,9 +27,10 @@ Connected\], und das externe Display ist aktiviert.
 
 Es empfiehlt sich, alle Displays in ihrer hardwaremässigen Auflösung zu
 betreiben. Normalerweise wird das von Titan korrekt erkannt. Sollte dies
-nicht der Fall sein, so klicken Sie auf \[Tools\] in der Werkzeugleiste
-am oberen Bildschirmrand, wählen \[Control Panel\] und dann \[External
-Monitor\]. Damit kann die passende Auflösung eingestellt werden.
+(bei einem Pult, nicht bei der PC-Suite) nicht der Fall sein, so klicken Sie 
+auf \[Tools\] in der Werkzeugleiste am oberen Bildschirmrand, wählen 
+\[Control Panel\] und dann \[External Monitor\]. Damit kann die passende 
+Auflösung eingestellt werden.
 
 ![External Monitor Resolution](/docs/images/External-Monitor-Resolution.png)
 

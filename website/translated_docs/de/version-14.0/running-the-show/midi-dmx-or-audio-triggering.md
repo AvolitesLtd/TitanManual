@@ -24,7 +24,7 @@ Die folgenden Triggerarten (Signale) sind möglich:
 	verwendet werden. Dagegen kann der T2 als Sound-Eingang für andere Pult 
 	dienen.\
 	\
-	GPIO steht nur auf dem Arena zur Verfügung.
+	GPIO steht nur auf dem Arena, dem Tiger Touch II und dem Sapphire Touch zur Verfügung.
 
 Anschließen externer Steuerungen
 --------------------------------
@@ -41,7 +41,9 @@ Mobiles der ersten Serie ist ggf. erst ein Update der Firmware
 erforderlich, um die DMX-Trigger-Funktion zu ermöglichen.
 
 GPIO nutzt einen simplen Schließkontakt, der per Klinkenbuchse 
-angeschlossen wird (nur beim Arena verfügbar).
+angeschlossen wird (nur beim Arena, dem Tiger Touch II und dem Sapphire 
+Touch verfügbar). Für den TNP kann GPIO als Option nachgerüstet werden; 
+wenden Sie sich dazu an Avolites oder Ihren Avolites-Vertrieb.
 
 MIDI-Geräte werden einfach mit der MIDI-In-Buchse verbunden.
 USB-MIDI-Geräte, die den DirectX MIDI-Treiber unterstützen, können

@@ -21,7 +21,7 @@ vornimmt, und die neuen Einstellungen mit in den gleichen Cue speichert.
 
 4. Drücken Sie \<Record\>
 
-5. Drücken Sie die **Swop-Taste** des zu ändernden Cues.
+5. Drücken Sie die **Auswahltaste** des zu ändernden Cues.
 
 6. Drücken Sie \[Merge\] *(dabei wird der aktuell zu ändernde Cue am
 Bildschirm hervorgehoben)*.
@@ -42,7 +42,7 @@ unveränderte Werte bleiben erhalten.
     [Benutzereinstellungen](../system-settings/user-settings.md) (drücken Sie 
 	die Taste \<AVO\> und wählen im Menü \[User Settings\]).
 
--   Sie können auch die **Swop-Taste** ein zweites Mal betätigen, um die
+-   Sie können auch die **Auswahltaste** ein zweites Mal betätigen, um die
     Option **Merge** anzuwenden (schneller als die Schaltfläche \[Merge\])
 
 Aktualisieren gespeicherter Werte und Paletten
@@ -90,7 +90,7 @@ Anzeige der Cues: Playback View und Cue View
 
 Zum Anzeigen der Zeiteinstellungen des Cues klicken Sie auf das Display
 oberhalb der Regler, oder Sie drücken \<View / Open\> und dann
-die **Swop-Taste** des Cues. Im Bildschirm erscheinen daraufhin Details
+die **Auswahltaste** des Cues. Im Bildschirm erscheinen daraufhin Details
 zu Verzögerungs- und Überblendzeit, Geräteüberblenden, und Einstellung
 der Reglerkurve. Jeder Wert lässt sich durch Anklicken zum Ändern
 auswählen.
@@ -171,20 +171,20 @@ die anzuzeigenden **Geräte** auswählen.
 Es lassen sich die Werte einzelner oder mehrerer Kanäle **ändern** oder
 **löschen**:
 
-1. Klicken Sie den entsprechenden Wert an, oder fahren Sie über den
-gewünschten Bereich: *die ausgewählten Werte werden in blau
-hervorgehoben*.
+1.  Klicken Sie den entsprechenden Wert an, oder fahren Sie über den
+	gewünschten Bereich: *die ausgewählten Werte werden in blau
+	hervorgehoben*.
 
-2. Auf den Menütasten erscheinen daraufhin die für das gewählte
-Attribut verfügbaren Optionen, ferner lässt sich mit den Zifferntasten
-direkt ein numerischer Wert eingeben und mit \<Enter\> bestätigen.
+2.  Auf den Menütasten erscheinen daraufhin die für das gewählte
+	Attribut verfügbaren Optionen, ferner lässt sich mit den Zifferntasten
+	direkt ein numerischer Wert eingeben und mit \<Enter\> bestätigen.
 
-3. Einzelne Attribute lassen sich mit der Taste \<Off\> sowie den Menütasten
-   \[Off\] und \[On\] temporär deaktivieren und wieder aktivieren, 
-   ohne sie komplett aus dem Cue zu löschen.
+3.  Einzelne Attribute lassen sich mit der Taste \<Off\> sowie den Menütasten
+	\[Off\] und \[On\] temporär deaktivieren und wieder aktivieren, 
+	ohne sie komplett aus dem Cue zu löschen.
 
-4. Um ein Gerät komplett aus einem Cue zu entfernen, wählen Sie dieses aus
-und klicken auf \[Remove Fixtures\].
+4. 	Um ein Gerät komplett aus einem Cue zu entfernen, wählen Sie dieses aus
+	und klicken auf \[Remove Fixtures\].
 
 Sämtliche Änderungen werden sofort wirksam.
 
@@ -216,30 +216,30 @@ einzelnen Cues, um den gewünschten auswählen zu können (mit Encoder A,
 oder ganz einfach durch Anklicken). Ebenso kann man die Nummer des 
 gewünschten Schrittes mit den Zifferntasten eingeben.
 
-1. Drücken Sie \<Include\>.
+1.  Drücken Sie \<Include\>.
 
-2. Drücken Sie \[Quick Include\] oder \[Advanced Include\], um den Modus
-zu wechseln.
+2.  Drücken Sie \[Quick Include\] oder \[Advanced Include\], um den Modus
+	zu wechseln.
 
-3. Drücken Sie die **Swop-Taste** des Cues, den Sie in den Speicher
-laden möchten. Haben Sie den Modus **Quick Include** gewählt, so wird
-damit der Cue in den Speicher geladen, und der Vorgang ist abgeschlossen.
+3. 	Drücken Sie die **Auswahltaste** des Cues, den Sie in den Speicher
+	laden möchten. Haben Sie den Modus **Quick Include** gewählt, so wird
+	damit der Cue in den Speicher geladen, und der Vorgang ist abgeschlossen.
 
-4. Befinden Sie sich im Modus **Advanced Include**, so werden alle in dem Cue
-enthaltenen Geräte ausgewählt. Werden nicht alle gewünscht, so wählen
-Sie die übrigen nun ab. Die ausgewählten Geräte werden auf den
-Geräte-Schaltflächen und -Tasten hervorgehoben.
+4. 	Befinden Sie sich im Modus **Advanced Include**, so werden alle in dem Cue
+	enthaltenen Geräte ausgewählt. Werden nicht alle gewünscht, so wählen
+	Sie die übrigen nun ab. Die ausgewählten Geräte werden auf den
+	Geräte-Schaltflächen und -Tasten hervorgehoben.
 
-5. Verwenden Sie \[Set Mask\] oder die Attribut-Auswahltasten, um die
-zu ladenden Attribute auszuwählen *(standardmäßig sind alle ausgewählt;
-Taste \<C\> wählt alle ab, Taste \<D\> wählt alle wieder an)*. Taste
-\<E\> aktiviert oder deaktiviert das Laden von Shapes aus dem Cue.
+5. 	Verwenden Sie \[Set Mask\] oder die Attribut-Auswahltasten, um die
+	zu ladenden Attribute auszuwählen *(standardmäßig sind alle ausgewählt;
+	Taste \<C\> wählt alle ab, Taste \<D\> wählt alle wieder an)*. Taste
+	\<E\> aktiviert oder deaktiviert das Laden von Shapes aus dem Cue.
 
-6. Drücken Sie \<Enter\>. Die ausgewählten Attribute der ausge­wählten
-Geräte werden in den Programmierspeicher geladen.
+6. 	Drücken Sie \<Enter\>. Die ausgewählten Attribute der ausgewählten
+	Geräte werden in den Programmierspeicher geladen.
 
-7. Wiederholen Sie die Schritte 2 bis 6 zum Includen weiterer Attribute
-der gleichen Geräte oder ab Schritt 1 für weitere Geräte.
+7. 	Wiederholen Sie die Schritte 2 bis 6 zum Includen weiterer Attribute
+	der gleichen Geräte oder ab Schritt 1 für weitere Geräte.
 
 >   Im Modus **Quick Include** lässt sich eine Maske der zu wählenden
     Attribute erstellen; betätigen Sie dazu eine oder mehrere
@@ -268,8 +268,8 @@ bedeuten, der beim Aufruf des Cue abgerufen würde. "Off" ist vielmehr
 gleichbedeutend mit dem Deaktivieren des Attributs in diesem Cue, so dass 
 das Attribut beim Aufruf des Cues unbeeinflusst bleibt.
 
-1. Drücken Sie \<Off\>, dann \[Off Playback Values\], gefolgt von dem
-zu ändernden Cue.
+1. Drücken Sie \<Off\>, dann \[Off Playback Values\], gefolgt von der
+	**Auswahltaste** des zu ändernden Cues.
 
 2. Alle Geräte in dem Cue sind nun ausgewählt. Wählen sie ggf. Geräte
 ab, die Sie nicht Off schalten wollen.
@@ -297,7 +297,7 @@ Attributebänke und drücken Sie \[Attributes Off\]. Außerdem kann man mit
 den Menütasten auch einzelne Attribute Off schalten, z.B. \[Dimmer
 Off\].
 
-5. Drücken Sie \<Record\>, dann die **Swop-Taste** des Cues, und schließlich 
+5. Drücken Sie \<Record\>, dann die **Auswahltaste** des Cues, und schließlich 
 \[Replace\] zum Speichern der Änderungen.
 
 ---

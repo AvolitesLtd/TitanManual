@@ -91,9 +91,7 @@ Verbinden mit anderen TitanNet-Sessions
 
 Sind mehrere Titan-Pulte im gleichen Netzwerk miteinander
 verbunden, so können diese als Multi-User, [Backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#pulte-für-den-backup-betrieb-einrichten) oder beides
-gleichzeitig arbeiten. Auf diese Weise werden auch
-[TitanNetProcessors (TNPs)](../titan-net.md) zur Erweiterung der DMX-Ausgänge
-eingebunden.
+gleichzeitig arbeiten.
 
 > Alle Pulte in einer Titan-Session müssen auf der gleichen Software-Version laufen.
 
@@ -161,7 +159,8 @@ werden: dieses Pult wird nun Master und gibt DMX aus, der am Masterpult
 aktive Benutzer und die Handle World werden nun an diesem neuen Master
 aktiviert. Die DMX-Ausgabe des vorherigen Masters wird deaktiviert.
 
-> Mehrbenutzerbetrieb und Session-Backup stehen erst ab Titan Version 8 zur Verfügung, wobei alle beteiligten Pulte exakt den gleichen Versionsstand haben müssen.
+> Für Mehrbenutzerbetrieb und Session-Backup müssen alle beteiligten 
+  Pulte exakt den gleichen Versionsstand haben.
 
 **Für die PC-Suite (Titan Mobile, Titan One, Simulator):**
 

@@ -63,7 +63,7 @@ Tasten | Ergebnis
 
 Titan kann mehrere Cuelisten parallel laufen lassen. Zum Programmieren
 einer Cueliste drückt man auf \<Record\> und wählt im Menü \[Create Cue
-List\]. Dann drückt man die **blaue Taste** bei einem Fader, um dort die
+List\]. Dann drückt man die **Auswahltaste** bei einem Fader, um dort die
 Cueliste zu speichern.
 
 Titan speichert normalerweise nur die Dimmer/Geräte, die seit dem
@@ -82,30 +82,21 @@ Tasten | Ergebnis
 \<Delete\> \<Cue\> **n** \<Enter\> \<Enter\> | Löscht Cue **n** (2. \<Enter\> bestätigt)
 \<Copy\> \<Cue\> **n** \<@\> \<Cue\> **m** \<Enter\> | Kopieren von Cue **n** in neuen Cue **m**
 \<Copy\> \<Cue\> **n** \<@\> \<Enter\> | Kopieren von Cue **n** an das Ende der Cueliste
+\<View/Open\> {blaue Playbacktaste} | Azeige der Cues der Liste in tabellarischer Form. Änderungen können direkt durch Anklicken erfolgen.
 
-> Mit \<Move\> können Cues verschoben werden, mit \<Thro\> und \<And\>
-lassen sich mehrere Cues auf einmal kopieren/verschieben.
+-	Mit \<Move\> können Cues verschoben werden, mit \<Thro\> und \<And\>
+	lassen sich mehrere Cues auf einmal kopieren/verschieben.
 
----
+-	Zum Erstellen eines Block-Cues (Änderungen werden nicht getrackt) öffnet
+	man die Cueliste wie beschrieben, klickt in der Spalte 'Tracking' auf
+	die Zelle des entsprechenden Cues und wählt \[Block\] mit den
+	Menütasten.
 
-Die Liste der Cues in einer Cueliste lässt sich auf dem Bildschirm
-anzeigen, und man kann einzelne Zeiten und andere Dinge einstellen:\
-    \<View\> **{blaue Playbacktaste}**
-
----
-
-Zum Erstellen eines Block-Cues (Änderungen werden nicht getrackt) öffnet
-man die Cueliste wie beschrieben, klickt in der Spalte 'Tracking' auf
-die Zelle des entsprechenden Cues und wählt \[Block\] mit den
-Menütasten.
-
----
-
-Um Cues [miteinander zu verlinken](cue-list-timing.md#schrittfolge-und-versatz), klickt man auf die entsprechende Zelle
-der Spalte ‚Link' (dort steht normalerweise ‚Wait For Go'). Dann kann
-man mit den Menütasten auf \[Link After Previous Cue\] oder \[Link With
-Previous Cue\]. Für 'Link After...' bestimmt dann der Wert für 'Delay
-Out', wie lange nach dem vorigen der neue Cue automatisch startet.
+-	Um Cues [miteinander zu verlinken](cue-list-timing.md#schrittfolge-und-versatz), 	klickt man auf die entsprechende Zelle
+	der Spalte ‚Link' (dort steht normalerweise ‚Wait For Go'). Dann kann
+	man mit den Menütasten auf \[Link After Previous Cue\] oder \[Link With
+	Previous Cue\]. Für 'Link After...' bestimmt dann der Wert für 'Delay
+	Out', wie lange nach dem vorigen der neue Cue automatisch startet.
 
 ## Cues und Cuelisten abfahren
 
@@ -122,9 +113,9 @@ Tasten | Ergebnis
 **t** \<Go\> | Nächster Cue wird in **t** Sekunden eingeblendet
 **n** \<Cue\> **t** \<Go\> | Cue **n** wird in **t** Sekunden eingeblendet
 
-> Sollen Movinglights bereits im Off auf Position, in Gobo oder Farbe
-fahren, aktivieren Sie die Funktion \[Move In Dark\] (siehe voriger
-Abschnitt).
+-	Sollen Movinglights bereits im Off auf Position, in Gobo oder Farbe
+	fahren, aktivieren Sie die Funktion \[Move In Dark\] (siehe voriger
+	Abschnitt).
 
 ## Cues live editieren
 
@@ -132,13 +123,12 @@ Oft müssen Änderugnen an bereits programmierten Cues vorgenommen werden,
 während diese gerade live sind. Es empfiehlt sich, \<Clear\> zu drücken,
 um nicht versehentlich unerwünschte Werte mit zu speichern.
 
--   \<Record\> \<Cue\> \<Cue\> : Speichern der aktuell eingestellten
-    Werte in den aktuellen Cue
+Tasten | Ergebnis
+-------|---------
+\<Record\> \<Cue\> \<Cue\> | Speichern der aktuell eingestellten Werte in den aktuellen Cue
+\<Time\> **t** \<Enter\> \<Record\> \<Cue\> \<Cue\> | Speichern der Fadezeit **t** in den aktuellen Cue
 
--   \<Time\> **t** \<Enter\> \<Record\> \<Cue\> \<Cue\> : Speichern der
-    Fadezeit **t** in den aktuellen Cue
-
-> Eine andere Möglichkeit ist, die Cueliste mit \<View\> zu öffnen
+- 	Eine andere Möglichkeit ist, die Cueliste mit \<View\> zu öffnen
     und dort die Änderungen vorzunehmen.
 
 

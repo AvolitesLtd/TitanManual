@@ -8,7 +8,7 @@ original_id: playback-options
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
 Zum Einstellen der Optionen eines Cues, einer Cueliste oder eines
-Chasers drücken Sie \[Options\] im Hauptmenü oder die Taste \<Options\> und anschließend die **Swop-Taste** der entsprechenden Playbacks. Darauf werden 
+Chasers drücken Sie \[Options\] im Hauptmenü oder die Taste \<Options\> und anschließend die **Auswahltaste** der entsprechenden Playbacks. Darauf werden 
 alle verfügbaren Optionen übersichtlich in einem Fenster dargestellt(die Optionen können außerdem wie früher mit den Menütasten bearbeitet werden). 
 
 Auch die Zeiten lassen sich hier einstellen (auf dem Reiter \[Times\] oder mit der Taste \<Times\>).

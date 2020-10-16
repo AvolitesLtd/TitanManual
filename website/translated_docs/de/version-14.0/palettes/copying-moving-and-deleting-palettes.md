@@ -16,26 +16,23 @@ mehrere Paletten gleichzeitig verschieben oder kopieren. Verknüpfungen
 Das Verschieben von Paletten ist sinnvoll, um die Bedienoberfläche
 übersichtlich zu halten.
 
-1.  Drücken Sie die Taste \<Copy\>.
+1.  Drücken Sie die Taste \<Copy\> bzw. \<Move\> (auf Pulten ohne 
+	eine **Move**-Taste dient \<Avo\> + \<Copy\> zum Verschieben).
 
-2.  Wählen Sie \[Copy\](Kopieren) oder \[Move\](Verschieben). Mehrfaches
-	Betätigen der Taste \<Copy\> wechselt diese Optionen. Einige Pulte haben
-	eine gesonderte \<Move\>-Taste.
-
-3.  Betätigen Sie die Schaltfläche der zu kopierenden/verschiebenden 
+2.  Betätigen Sie die Schaltfläche der zu kopierenden/verschiebenden 
 	Palette; es lassen sich auch mehrere Paletten auswählen.
 	Verwenden Sie die Tasten \<Thro\> und \<And\>, um weitere Paletten
 	auszuwählen; halten Sie \<And\> gedrückt, so können Sie nacheinander
 	Paletten hinzufügen.
 
-4.  Klicken Sie auf die (freie) Schaltfläche, auf die Sie die Palette
+3.  Klicken Sie auf die (freie) Schaltfläche, auf die Sie die Palette
 	bewegen möchten.
 
 ---
 
 -   Die Taste \<Menu Latch\> fixiert das Menü 'Copy/Move/Link', so dass
     man bei wiederholtem Kopieren/Verschieben die Taste \<Copy\> nicht
-    wiederholt betätigen muss. Zum Freigeben des Menüs drücken Sie
+    erneut betätigen muss. Zum Freigeben des Menüs drücken Sie
     nochmals \<Latch Menu\>, zum Verlassen drücken Sie \<Exit\>.
 
 -   \[Retain Layout\](Darstellung beibehalten) und \[Bunch Up\]\

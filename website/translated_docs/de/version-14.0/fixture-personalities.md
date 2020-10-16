@@ -55,6 +55,10 @@ Laden Sie wie oben beschrieben die aktuelle Personality-Library herunter
 oder über den **Download**-Link oben auf der Seite, und
 wählen danach **Titan Fixture Library**).
 
+Es gibt verschiedene Download-Pakete, abhängig von der jeweiligen 
+**Titan-Version**. Diese unterscheiden sich hinsichtlich der enthaltenen 
+Capture-Library; die Titan-Personalities sind jedoch identisch.
+
 >	Beim Updaten gehen sämtliche von Ihnen in der Library vorgenommenen Änderungen 
 	verloren. Um dies zu vermeiden, speichern Sie Ihre persönlichen Personalities im 
 	Ordner für Benutzer-Personalities, siehe nächster Abschnitt.

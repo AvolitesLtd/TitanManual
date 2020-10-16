@@ -10,18 +10,18 @@ Zeit- und Überblendoptionen für Cuelisten
 
 Zeiteinstellungen erfolgen stets für jeden Schritt einer Cueliste
 einzeln. Im Display wird angezeigt, welcher Schritt aktuell bearbeitet
-wird. Zum Auswählen des Schrittes dient **Encoder A** oder **Menütaste A** aus
-dem **Menü Cue Times**.
+wird. Zum Auswählen des Schrittes dient **Encoder A** oder \[Select Cue Number\] aus
+dem Menü **Edit Times**.
 
 *Weitere Details zu Überblendungen und Geräteversatz sind den [unten aufgeführten Diagrammen](#schrittfolge-und-versatz) zu entnehmen.*
 
-1. Drücken Sie **Menütaste A** \[Edit Times\] aus dem Hauptmenü, dann die
-**Select-Taste** der Cueliste.
+1.  Drücken Sie \[Edit Times\] aus dem Hauptmenü, dann die **Select-Taste** 
+	der Cueliste.
 
-2. Zum Wechseln des zu bearbeitenden Schritts blättern Sie mit **Encoder A**
-durch die Liste der Schritte, oder drücken \[Cue Number\], geben mit den
-Zifferntasten die gewünschte Schrittnummer ein und bestätigen das mit
-\<Enter\>. 
+2.  Zum Wechseln des zu bearbeitenden Schritts blättern Sie mit **Encoder A**
+	durch die Liste der Schritte, oder drücken \[Select Cue Number\], geben mit den
+	Zifferntasten die gewünschte Schrittnummer ein und bestätigen das mit
+	\<Enter\>. 
 
 	- Mit den Pfeiltasten zur Chaser-Steuerung (‚Chase Control')
       rechts neben der \<Connect\>-Taste lässt sich ebenfalls der aktive
@@ -113,20 +113,20 @@ Zum Vorgeben von Zeiten für Attributgruppen öffnen Sie zunächst das Menü
 \[Edit Times\], gehen zu dem Schritt, den Sie bearbeiten möchten, und
 drücken G \[Next\], um auf die nächste Optionsseite umzuschalten. Siehe [voriger Abschnitt](#zeit--und-überblendoptionen-für-cuelisten).
 
-1. Drücken Sie C \[Attribute times\].
+1.  Drücken Sie C \[Attribute times\].
 
-2. Damit werden sämtliche Geräte in dem Schritt angewählt. *Wollen Sie
-die Zeiten nicht für alle Geräte einstellen, so ändern Sie jetzt die
-Selektion*. Dazu können Sie die Taste \<All\> (unterhalb von \<Next
-Time\>) benutzen, um alle Geräte anzuwählen, oder \<AVO\>+\<All\>, um
-alle abzuwählen.
+2.  Damit werden sämtliche Geräte in dem Schritt angewählt. *Wollen Sie
+	die Zeiten nicht für alle Geräte einstellen, so ändern Sie jetzt die
+	Selektion*. Dazu können Sie die Taste \<All\> (unterhalb von \<Next
+	Time\>) benutzen, um alle Geräte anzuwählen, oder \<AVO\>+\<All\>, um
+	alle abzuwählen.
 
-3. Drücken Sie die Auswahltaste der gewünschten Attributgruppe.
+3.  Drücken Sie die Auswahltaste der gewünschten Attributgruppe.
 
-4. Drücken Sie A \[Delay\] zum Einstellen der **Verzögerung**, oder B
-\[Fade\] zum Einstellen der **Überblendzeit**. Mit G \[Use Global\]
-entfernen Sie die individuellen Zeiten wieder und kehren zu den
-normalen/allgemeinen Zeiten für den Schritt zurück.
+4. 	Drücken Sie \[Delay\] zum Einstellen der **Verzögerung**, oder 
+	\[Fade\] zum Einstellen der **Überblendzeit**. Mit \[Use Global\]
+	entfernen Sie die individuellen Zeiten wieder und kehren zu den
+	normalen/allgemeinen Zeiten für den Schritt zurück.
 
 >  Nutzen Sie \[Individual Attributes\] zur Vergabe von Zeiten für
     einzelne Attribute aus einer Gruppe, etwa für ‚Pan' aus der Gruppe
@@ -222,14 +222,14 @@ zu ändernden Cue aus, wechseln mit \[Next\] auf die dritte Menüseite und
 
 ![Playback View Window showing timecoded cues](/docs/images/Playback-View-Window-showing-timecoded-cues.png)
 
-Beim Ändern einer Zeit lassen sich mit Rad B mehrere Schritte
+Beim Ändern einer Zeit lassen sich mit Encoder B mehrere Schritte
 auswählen. Mit den Menütasten lassen sich weitere Zeitänderungen
 vornehmen: gibt man bei \[Offset =\] einen Wert ein, so kann man mit 
 \[Add + ...\] bzw. \[Subtract - \] alle gewählten Zeitmarken um diesen 
 Wert nach vorn oder hinten verschieben.
 
 Zur Kontrolle des anliegenden Timecodes lässt sich jeweils für Timecode
-1 bis 4 ein extra Fenster öffnen: drücken Sie \[Open Workspace Window\]
-und dann \[Timecode x\] (wobei das x für eine Zahl 1 bis 4 steht).
+1 bis 4 ein extra Fenster öffnen: drücken Sie zweimal auf \<View / Open\>
+und dann auf \[Timecode x\] (wobei das x für eine Zahl 1 bis 4 steht).
 
 ![Timecode 1 Workspace Window](/docs/images/Timecode-1-Workspace-Window.png)

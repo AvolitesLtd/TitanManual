@@ -8,7 +8,7 @@ original_id: copying-moving-and-deleting-fixtures
 Kopieren oder Verschieben eines gepatchten Gerätes
 --------------------------------------------------
 
-Mittels der Taste \<Copy\> lässt sich ein existierendes Gerät 
+Mit den Taste \<Copy\> sowie \<Move\> lässt sich ein existierendes Gerät 
 kopieren oder auf eine andere Auswahltaste verschieben. Verknüpfungen 
 (Link) lassen sich für Geräte nicht erstellen. Mehrere Geräte lassen 
 sich in einem Schritt gemeinsam kopieren/verschieben.
@@ -28,9 +28,9 @@ zu erhalten.
     Verschieben (auf Pulten ohne eine **Move**-Taste dient \<Avo\> + 
 	\<Copy\> zum Verschieben).
 	
-2.  Press the Select button of the fixture you want to copy/move. You
-	can select multiple fixtures - use the \<Thro\> and \<And\> buttons to
-	add more fixtures to the selection.
+2.  Drücken Sie die Auswahltaste/Schaltfläche des zu kopierenden/
+	verschiebenden Gerätes. Es können auch mehrere auf einmal ausgewählt
+	werden, ggf. auch mit der Taste \<And\>.
 
 3.  Betätigen Sie eine freie Auswahltaste, auf die das Gerät
 	kopiert/verschoben werden soll.

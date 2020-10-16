@@ -37,7 +37,8 @@ Computer, auf dem die Software läuft) verbunden.
 
 Es hat die gleiche Form wie das Titan Mobile und passt perfekt zu
 diesem, kann aber auch mit allen größeren Pulten -- Quartz, Tiger Touch,
-Pearl Expert, Arena und Sapphire Touch -- verwendet werden.
+Pearl Expert, Arena und Sapphire Touch -- verwendet werden. Ebenso 
+kann es mit dem T2 betrieben werden.
 
 Zur Anzeige der Belegung der Fader und Tasten gibt es das Fenster
 "Mobile Wing".

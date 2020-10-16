@@ -88,11 +88,13 @@ Inbetriebnahme von Titan Mobile und T1/T2
 -----------------------------------------
 
 Verbinden Sie das Titan Mobile bzw. den T1/T2 erst mit Ihrem Computer,
-wenn Sie die Software installiert haben. Zur Installation führen Sie
+wenn Sie die **Titan PC-Suite** installiert haben. Zur Installation führen Sie
 einfach das Installationsprogramm aus; damit werden auch alle
 erforderlichen Treiber installiert.
 
-> Ab Titan Version 7 funktioniert die Software nur auf Computern mit Windows 7, 8 oder 10 (64bit). XP oder Vista werden nicht mehr unterstützt.
+> 	Ab Titan v13 wird Windows 10 64 Bit vorausgesetzt. Ältere Versionen 
+	sowie virtuelle Maschinen werden nicht unterstützt. Empfohlen wird 
+	mindestens ein i5 der 5. Generation mit 4 GB RAM. Auf [https://avolites.com/titan-pc-system-requirements](https://avolites.com/titan-pc-system-requirements/) gibt es weitere Angaben zu den Systemvoraussetzungen.
 
 Es empfiehlt sich die Verwendung eines Touchscreens. Ist ein solcher
 nicht vorhanden, klicken Sie mit der Maus auf die entsprechenden
@@ -129,6 +131,9 @@ bzw. zwei Universen beschränkt (der T1 kann zudem nicht per MIDI und
 WebAPI gesteuert werden). Zum Betrieb ist die Software Titan Go zu 
 starten. Auch der T1/T2 ist beim ersten Start zu lizenzieren und kann 
 danach mit jedem Computer betrieben werden. 
+
+Soll der **Titan One** mit Titan ab Version 12 verwendet werden, so muss 
+ein AvoKey parallel dazu per USB angeschlossen sein.
 
 **Titan Simulator:** auch der Titan Simulator benötigt einen AvoKey (den
 Editor AvoKey) und muss einmalig lizenziert werden.
@@ -207,10 +212,11 @@ Der externe Bildschirm ist standardmäßig deaktiviert, und zeigt das mit
 Display Disconnected\]. Damit ändert sich die Anzeige auf \[External
 Display Connected\], und der Bildschirm wird aktiviert.
 
-Zum Ändern der Bildschirmauflösung oder anderer Monitor­einstellungen
-klicken Sie oben auf 'Tools', dann auf 'Control Panel'
-(Systemsteuerung), dann auf 'External Monitor', und wählen die passende
-Auflösung (bei Titan Go erfolgt dies über die Windows-Systemsteuerung).
+Zum Ändern der Bildschirmauflösung oder anderer Monitoreinstellungen
+bei den Pulten (nicht bei der PC-Suite) klicken Sie oben auf 'Tools', 
+dann auf 'Control Panel' (Systemsteuerung), dann auf 'External Monitor', 
+und wählen die passende Auflösung. Bei der Titan PC-Suite erfolgt dies 
+über die Windows-Systemsteuerung).
 
 Weitere Details dazu sowie eine Anleitung zur Suche möglicher Fehler
 [finden Sie](system-settings/external-displays.md).

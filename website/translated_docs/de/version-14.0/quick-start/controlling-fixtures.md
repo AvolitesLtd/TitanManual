@@ -54,8 +54,8 @@ Im Hauptmenü drücken Sie \[Shapes and Effects\], \[Shape Generator\],
 Wählen Sie das gewünschte Attribut, auf das der Effekt
 angewendet werden soll.
 
-Ebenso können Sie aus der Effekt-Bibliothek (\<View/Open\>, \[Open Workspace
-Window\], \[Shape Library\]) direkt einen Effekt auswählen. Die Liste
+Ebenso können Sie aus der Effekt-Bibliothek (2 x \<View/Open\>, 
+\[Shape Library\]) direkt einen Effekt auswählen. Die Liste
 lässt sich mit den Attribut-Tasten filtern.
 
 Stellen Sie mit den Rädern und der Auswahl \[Adjust Speed, Size and

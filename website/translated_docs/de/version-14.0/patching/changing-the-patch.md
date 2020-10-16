@@ -415,7 +415,5 @@ Geräte nicht verändert werden.
 	Wählen Sie den oder die Typen, die Sie aktualisieren wollen, oder 
 	klicken Sie auf \[Update All\], um alle Gerätetypen zu aktualisieren.
 
--   Sollen viele Geräte aktualisiert geupdatet werden, so kann das eventuell
+-   Sollen viele Geräte aktualisiert/geupdatet werden, so kann das eventuell
     einige Sekunden dauern.
-
--   Die Aktualisierung erfolgt aus dem Verzeichnis Titan/Personalities.

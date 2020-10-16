@@ -185,12 +185,22 @@ Die Option \[Record/Don't Record Nested Palettes\] im Menü "Record
 Palette" bestimmt, ob der Verweis auf die Masterpalette (*Vorgabe*)
 oder aber der jeweilige absolute Wert gespeichert werden soll.
 
-Werden Paletten in Cues verwendet, so lassen sich Palettenverknüpfungen
-deaktivieren mit \[Fire/Don't Fire Nested Palettes\]. Stellt man dies
-auf 'Don't Fire', so werden die verknüpften Paletten stattdessen als
-feste Werte gespeichert, nämlich mit den Werten, die sie zu dem
-Zeitpunkt enthielten, als der Cue erstellt wurde. Damit wird dieser Cue
-nicht durch das Ändern der Masterpaletten beeinflusst.
+Wurde eine Palette mit Verknüpfungen zu anderen Paletten gespeichert, 
+so lässt sich das Aufrufen der verknüpften Paletten deaktivieren, so 
+dass nur die direkt in der Palette gespeicherten Werte verwendet werden. 
+Dies kann beim Updaten der verknüpften Paletten sinnvoll sein.
+
+1.	Drücken Sie \[Options\].
+
+2.	Wählen Sie die Palette.. 
+
+3.	Auf dem Reiter \[Palette\] der Optionen deaktivieren Sie die 
+	Einstellung \[Fire Nested Palettes\]. 
+
+4.	Wird nun die Palette aufgerufen, so werden nur die direkt in dieser 
+	gespeicherten Werte verwendet, nicht aber die aus verknüpften Paletten.
+
+-	Der vorige Zustand lässt sich wieder herstellen, indem man die Option \[Fire Nested Palettes\] wieder aktiviert.
 
 Schnellspeichern
 ----------------

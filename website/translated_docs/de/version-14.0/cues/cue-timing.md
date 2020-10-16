@@ -38,7 +38,7 @@ Gespeicherte Zeiten lassen sich wie folgt ändern:
 
 1. Drücken Sie \[Edit Times\] im Hauptmenü.
 
-2. Drücken Sie die **Swop-Taste** des Cues.
+2. Drücken Sie die **Auswahltaste** des Cues.
 
 3. Drücken Sie \[Fade Mode x\], um den 'Fade Mode' (Überblendmodus)
 einzustellen.\
@@ -130,7 +130,7 @@ paarweise zusammenzufassen)*.
 
 1. Drücken Sie \[Edit Times\] im Hauptmenü.
 
-2. Drücken Sie die **Swop-Taste** des zu ändernden Cues.
+2. Drücken Sie die **Auswahltaste** des zu ändernden Cues.
 
 3. Drücken Sie \[Fixture Order\].
 
@@ -172,7 +172,7 @@ vor:
 
 1. Drücken Sie \[Edit Times\] im Hauptmenü.
 
-2. Drücken Sie die **Swop-Taste** des jeweiligen Cues.
+2. Drücken Sie die **Auswahltaste** des jeweiligen Cues.
 
 3. Drücken Sie die Taste der Attributgruppe (IPCGBES Buttons, oder 
 rechts auf dem Pult bei älteren Pulten) des Attributes, das Sie ändern möchten.

@@ -7,7 +7,7 @@ original_id: copying-moving-linking-and-deleting
 
 In diesem Abschnitt wird das Verschieben/Kopieren kompletter Cuelisten
 erläutert; zum Kopieren/Verschieben/Löschen einzelner Cues innerhalb
-einer Liste siehe [voriges Kapitel](editing-cue-lists.md#kopierenverschieben-von-cues).
+einer Liste siehe [Kopieren, Verschieben und Löschen einzelner Cues](editing-cue-lists.md#kopieren-verschieben-und-löschen-einzelner-cues).
 
 Eine Cueliste verschieben oder kopieren
 ---------------------------------------

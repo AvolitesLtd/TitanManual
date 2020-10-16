@@ -7,8 +7,8 @@ original_id: clearing-the-console
 
 Bevor man beginnt, eine neue Show zu programmieren, empfiehlt es sich,
 den Inhalt des Pultes zu löschen. Dabei wird sowohl das Patching als
-auch die Programmierung gelöscht, die Benutzereinstellungen bleiben
-jedoch erhalten.
+auch die Programmierung gelöscht, und die Benutzereinstellungen werden
+zurückgesetzt.
 
 1.  Drücken Sie die Taste \<Disk\>.
 
