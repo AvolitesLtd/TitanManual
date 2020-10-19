@@ -4,7 +4,7 @@ title: T1 and T2
 sidebar_label: T1 and T2
 ---
 
-T1 and T2 are USB dongles which plug into a Windows PC or laptop. See [minimum PC specifications](../titan-basics/#connecting-up-titan-mobile-and-t1t2) for details of the PC requirements. Both dongles include an AvoKey.
+T1 and T2 are USB dongles which plug into a Windows PC or laptop. See [minimum PC specifications](../titan-basics.md#connecting-up-titan-mobile-and-t1t2) for details of the PC requirements. Both dongles include an AvoKey.
 
 T1 provides a single universe of DMX output on a 5-pin XLR.
 
@@ -22,7 +22,7 @@ the Titan Mobile fader wing.
 
 ---
 
-Install the Titan PC Suite software on your PC (see [Connecting up Titan Mobile and T1/T2](../titan-basics/#connecting-up-titan-mobile-and-t1t2)) before
+Install the Titan PC Suite software on your PC (see [Connecting up Titan Mobile and T1/T2](../titan-basics.md#connecting-up-titan-mobile-and-t1t2)) before
 you plug in the dongle, to make sure the correct drivers are installed.
 
 > The older cabled version of the Titan One dongle does not include an 
