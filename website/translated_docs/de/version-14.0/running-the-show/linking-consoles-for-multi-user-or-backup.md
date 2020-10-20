@@ -37,7 +37,8 @@ man im Zweifel Zugriff braucht, da manche Pulte weniger Fader/Knöpfe als
 andere haben. Gute Vorplanung ist dafür essentiell.
 
 1.	Verbinden Sie beide Pulte mit dem gleichen Netzwerk und geben Sie
-    passende IP-Adressen aus einem Bereich ein (Details siehe [Netzwerk](../networking.md).
+    passende IP-Adressen aus einem Bereich ein.\
+	Details siehe [Netzwerk](../networking.md).
 
 2.	Drücken Sie \<Disk\>, dann \[TitanNet Sessions\], dann \[Backup\].
 

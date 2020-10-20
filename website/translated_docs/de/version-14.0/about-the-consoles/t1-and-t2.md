@@ -11,14 +11,14 @@ Laptop). Zu den Systemanforderungen siehe [Inbetriebnahme von Titan Mobile und T
 Der T1 stellt einen DMX-Anschluss (5pol XLR) zur Ausgabe eines
 DMX-Universums zur Verfügung.
 
-![Titan One](/docs/images/Titan-One.png)
+![T1 USB DMX Dongle](/docs/images/T1.png)
 
 Der T2 kann zwei Universen auf 5-poligen XLR-Buchsen ausgeben und hat
 einen Audio/LTC-Eingang. Außerdem erlaubt er die Verwendung von
 USB-MIDI-Geräten, etwa von Faderboards, und kann mit dem Titan Mobile
 Faderwing betrieben werden.
 
-![Titan Two](/docs/images/Titan-Two.png)
+![T2 USB DMX Dongle](/docs/images/T2.png)
 
 
 [](https://youtu.be/wO94RvG6agI "T2 USB Interface")
@@ -37,4 +37,4 @@ beim Titan Mobile und den anderen Pulten, da hier auch alle
 Bedienelemente, die ansonsten auf dem auf dem physischen Pult zu finden
 wären, auf dem Bildschirm präsent sind.
 
-![Titan One](/docs/images/Titan-One-2.png)
+![Titan Go User Interface](/docs/images/Titan-Go-User-Interface.png)
