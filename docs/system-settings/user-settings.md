@@ -32,27 +32,6 @@ Copy Cues               | ***Copy Tracked Values:*** tracked values will copy wh
 Run Startup Playbacks   | ***On:*** Playbacks set to Startup in Options will run on startup.<br> *Off*: Disables startup playbacks from running. This option allows you to globally disable startup playbacks.
 System Render Rate (Hz) | Sets the output rate of DMX frames from 1-44 frames per second *(default 40)*. You can reduce this if processing of a complex show is slowing down the console.
 
-<<<<<<< Updated upstream
-### Copy Cues
-Sets whether tracked values will copy when you copy a cue
-from a tracked cue list.
-
-### Run Startup Playbacks
-Allows you to globally disable startup
-playbacks from running. To enable Startup Playbacks you need to turn
-this on and set some playbacks as Startup using playback Options.
-
-### System Render Rate (Hz)
-Sets the output rate of DMX frames from
-1-44 frames per second *(default 40)*. You can reduce this if processing
-of a complex show is slowing down the console.
-
-### Lock Screen Background
-Sets a picture to be displayed when the
-console is locked.
-
----
-=======
 
 ## Display
 
@@ -64,10 +43,8 @@ Lock Screen Background              | Sets a picture to be displayed when the co
 
 -  These options can also be set from **System** menu, in the **Display Setup** option.
 
->>>>>>> Stashed changes
 
-## Handles
-
+## Handles
 
  Option            | Action  
 -------------------|----------------- 
