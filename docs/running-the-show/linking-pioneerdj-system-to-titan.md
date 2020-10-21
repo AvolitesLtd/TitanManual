@@ -8,6 +8,12 @@ Using the Pioneer Pro DJ Link Bridge software you can automate BPM masters on th
 Titan console from a network-equipped Pioneer DJ system. You can either run the 
 bridge software on the console itself or on an intermediate laptop.
 
+> Pioneer DJ integration is compatible with the following Pioneer hardware:
+>    - CDJ-TOUR1
+>    - DJM-TOUR1
+>    - CDJ-2000NXS2
+>    - DJM-900NXS2 
+
 [](https://youtu.be/vwr1DBJjBbw "PioneerDJ Integration")
 
 Connecting Titan to the Pioneer System
