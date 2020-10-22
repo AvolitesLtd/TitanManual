@@ -50,12 +50,12 @@ You can filter what is shown in the grid either by IPCGBES attribute
 (using the buttons top left) or by fixture type (using the buttons below
 that).
 
-Intensity Window
-----------------
+The Intensity View Window
+-------------------------
 
 If you want to see at a glance the intensity setting of each fixture,
-the Intensity window is the place to be. To show the window, double press
-\<View/Open\> then select \[Intensity\] from the window select buttons.
+the Intensity View window is the place to be. To show the window, double press
+\<View/Open\> then select \[Intensity View\] from the window select buttons.
 
 ![Intensity View](/docs/images/Intensity-View.png)
 
