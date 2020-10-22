@@ -15,8 +15,9 @@ fixtures. If you need to change the settings of multiple fixtures (for
 example, changing the DMX address of several fixtures) then it's really
 easy to do in one operation in the Patch View.
 
-To show the Patch View window press \<View/Open\> then \<Patch\>, or use
-the Open Workspace Windows menu command.
+To show the Patch View window press \<View/Open\> then \<Patch\>, or 
+double press <View/Open> and select \[Patch View\] from the window 
+select buttons.
 
 ![Patch View](/docs/images/Patch-View.png)
 
