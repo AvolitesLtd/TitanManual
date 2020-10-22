@@ -223,11 +223,11 @@ When you're having problems getting fixtures to work it can be useful to
 see the actual DMX output values coming from the console. Double press
 \<View/Open\>, then select \[DMX\] from the window select buttons.
 
-![DMX Workspace Window](/docs/images/DMX-Workspace-Window.png)
+![DMX Workspace Window](/docs/images/DMX-Workspace-Window-With-Filters.png)
 
-The buttons on the left let you select the different output lines from
-the console. Scrolling the window to the right shows more information
-about each DMX channel.
+The buttons on the left let you filter by attribute and by fixture type 
+and select the different output lines from the console. Scrolling the window 
+to the right shows more information about each DMX channel.
 
 Fixture Exchange
 ----------------
