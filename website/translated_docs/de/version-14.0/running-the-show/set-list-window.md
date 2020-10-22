@@ -13,8 +13,9 @@ Show kann mehrere Set-Listen enthalten.
 
 [](https://youtu.be/VX5acUU-99M?t=20 "Set Lists")
 
-Um das Fenster aufzurufen, drücken Sie \[Open Workspace Window\] und
-wählen \[Set List\].
+Um das Fenster aufzurufen, drücken Sie zweimal auf 
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen \[Set List\].
 
 Am besten eignet sich dies, wenn man für jeden Song bzw. jede Szene
 eine eigene Seite von Speicherplätzen verwendet.
@@ -23,7 +24,7 @@ eine eigene Seite von Speicherplätzen verwendet.
 
 Eine Set-Liste besteht aus sog. Tracks. Wird einer Setliste ein neuer
 Track hinzugefügt, so verweist dieser automatisch auf die gerade
-aktuelle Seite. Ein Klick auf die \[⏵\]-Schaltfläche neben einem
+aktuelle Seite. Ein Klick auf die \[**>**\]-Schaltfläche neben einem
 Track schaltet sofort auf die passende Seite (auf dem Pearl Expert muss
 die Walze manuell betätigt werden).
 

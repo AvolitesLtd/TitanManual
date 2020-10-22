@@ -15,8 +15,9 @@ Macro/Exekutor-Tasten sowie auf die normalen Playbacks mit Fadern
 (Speicherplätze). Wird direkt auf Playbacks gepatcht, so steuert der
 Fader die Helligkeit des jeweiligen Geräts.
 
-Ist das Fenster 'Fixtures' nicht sichtbar, so drücken Sie \<View / Open\>, dann \<Fixture\>, oder \[Open Workspace Window\] gefolgt von
-\[Fixtures\], oder Sie rufen den Workspace \[Fixtures and Groups\] auf.
+Ist das Fenster 'Fixtures' nicht sichtbar, so drücken Sie \<View / Open\>, 
+dann \<Fixture\>, oder drücken Sie zweimal auf [\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen \[Fixtures\], oder Sie rufen den Workspace \[Fixtures and Groups\] auf.
 
 ![Fixtures Window](/docs/images/Fixtures-Window.png)
 
@@ -209,8 +210,9 @@ patchen. Die DMX-Adresse wird dabei automatisch hochgezählt.
 Automatisches Patchen in Capture
 --------------------------------
 
-Um den Capture Visualiser zu benutzen, drücken Sie \<View / Open\>, 
-dann \[Open Workspace Window\], dann \[Visualiser\]. Einige
+Um den Capture Visualiser zu benutzen, drücken Sie zweimal auf 
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen \[Capture Visualiser\]. Einige
 Pulte verfügen auch über eine gesonderte \<Visualiser\>-Taste. Daraufhin
 öffnet sich das Visualiser-Fenster mit einer automatisch aus dem Patch
 generierten Darstellung von Geräten.

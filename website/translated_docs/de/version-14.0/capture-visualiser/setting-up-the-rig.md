@@ -11,10 +11,9 @@ Raum und Bühne
 Für einen realistischen Eindruck und eine bessere Orientierung lassen
 sich verschiedene feste Elemente hinzufügen.
 
-Öffnen Sie das Fenster \[Capture Visualiser Settings\] (entweder aus dem
-Menü [Open Workspace
-Window](../titan-basics/workspace-windows.md), oder durch einen Klick auf den
-Kontext-Button **Settings** im Capture Visualiser-Fenster). Klicken Sie
+Öffnen Sie das Fenster \[Capture Visualiser Settings\] (entweder per Doppelklick auf
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster), oder durch einen Klick auf den
+Kontext-Button \[Open Settings\] im Capture Visualiser-Fenster). Klicken Sie
 oben auf den Reiter **Stage**.
 
 ![Capture Visualiser Settings Window](/docs/images/Capture-Visualiser-Settings-Window.png)

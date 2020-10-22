@@ -107,10 +107,10 @@ In gleicher Weise arbeitet \[Master Overlap\] für die Überlappung.
 	Nun drücken Sie \<Palette\>, \[Master Time\], z.B. 3 (für 3 Sek.), 
 	\<Exit\>, \<Macro\>. Wiederholen Sie diese Schritte mit 
 	unterschiedlichen Zeiten, z.B. 0 Sek. (hartes Umschalten), 5 Sek. etc.\
-	\
-	Etliche solche Macros für verschiedene Fadezeiten (\[Palette Fade xs\])
-	und Overlaps (\[Palette Overlap y%\]) sind bereits in der Macro-Library
-	enthalten. Drücken Sie dafür \<Macro\> und die Menütaste 
-	\[View All\]. Die Macros aus der Library lassen sich wie gewohnt per 
-	\<Copy\> auf beliebige Tasten kopieren, um sie rasch im Zugriff zu haben.
+	
+Etliche solche Macros für verschiedene Fadezeiten (\[Palette Fade xs\])
+und Overlaps (\[Palette Overlap y%\]) sind bereits in der Macro-Library
+enthalten. Drücken Sie dafür \<Macro\> und die Menütaste 
+\[View All\]. Die Macros aus der Library lassen sich wie gewohnt per 
+\<Copy\> auf beliebige Tasten kopieren, um sie rasch im Zugriff zu haben.
 

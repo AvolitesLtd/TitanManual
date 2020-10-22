@@ -121,18 +121,20 @@ Aktive Fenster lassen sich mit der Taste \<Close\> schließen. Zum
 gleichzeitigen Schließen aller Fenster drücken Sie \<AVO\>+\<Close\>,
 oder Sie nutzen die Menütaste \[Close All\].
 
-Die Schaltfläche für das **Kontext-Menü** gibt es nur beim Sapphire Touch
-und beim Titan Go; mit ihr wird ein zusätzliches Menü der mit diesem
-Fenster verknüpften Funktionen angezeigt.
+### Die Kontext-Schaltflächen/Buttons
 
-![Patch View](/docs/images/Patch-View-2.png)
-
-Auf allen anderen Pulten wird das Kontext-Menü des aktiven Fensters
-jeweils im Kontext-Bereich angezeigt. Die dort angezeigten Funktionen
-wechseln je nachdem welches Fenster gerade aktiv ist. Im folgenden Bild
-wird die Anzeige bei aktiviertem Patch-View-Fenster dargestellt:
+Auf allen Pulten außer dem Sapphire Touch und Titan Go werden je nach aktivem
+Fenster verschiedene Funktionsbuttons im Kontext-Bereich (rechts oben) angezeigt. 
+Die dort angezeigten Funktionen wechseln je nachdem welches Fenster gerade aktiv ist. \
+Im folgenden Bild wird die Anzeige bei aktivem Patch-View-Fenster dargestellt:
 
 ![Context Menu](/docs/images/Context-Menu.png)
+
+Beim Sapphire Touch und beim Titan Go gibt es extra eine Schaltfläche 
+in der Titelleiste jedes Fensters, mit der das **Kontext-Menü** eingeblendet 
+werden kann.
+
+![Patch View](/docs/images/Patch-View-2.png)
 
 ### Anzahl und Grösse der Schaltflächen/Raster
 

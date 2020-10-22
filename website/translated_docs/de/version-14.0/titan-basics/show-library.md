@@ -11,10 +11,10 @@ dient insbesondere zum Transferieren solcher Details zwischen mehreren
 Shows - auch auf Pulte mit weniger Fader/Tasten - , ist aber auch eine
 gute Übersicht beim Verschieben innerhalb einer Show.
 
-Zum Öffnen drücken Sie im Hauptmenü \[Open Workspace Window\] und wählen
-aus der Liste \[Show Library\] (oder - wenn man gerade in einem
-Untermenü ist: \<View / Open\>, \[Open Workspace Window\], \[Show
-Library\]).
+Zum Öffnen drücken Sie zweimal auf 
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen \[Show Library\] (im Hauptmenü können Sie auch \[Open Workspace Window\] 
+drücken und \[Show Library\] aus der Liste bei den Menütasten wählen).
 
 Der Reiter Show Library
 -----------------------

@@ -177,7 +177,7 @@ Steuern einer Cueliste per Timecode
 
 In den Titan-Pulten lässt sich auch Timecode zum Steuern einer Cueliste
 verwenden. Dies ist hilfreich etwa bei komplexen Shows, die stets
-absolut zeitgenau laufen müssen, oder bei unbeaufsich­tigten Abläufen.
+absolut zeitgenau laufen müssen, oder bei unbeaufsichtigten Abläufen.
 Dabei wird jedem Schritt der Cueliste eine Startzeit zugeordnet, zu der
 er beginnen soll.
 

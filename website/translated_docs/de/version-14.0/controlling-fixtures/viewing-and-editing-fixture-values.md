@@ -11,8 +11,9 @@ original_id: viewing-and-editing-fixture-values
 Zuweilen ist es sinnvoll, die genauen Einstellungen jedes Gerätes
 einzeln anzeigen und ändern zu können. Das 'Channel Grid'-Fenster
 ermöglicht genau das. Aufgerufen wird es durch Betätigen der weißen
-\<Channel Grid\>-Taste, oder durch \[Open workspace window\], \[Channel
-Grid\].
+\<Channel Grid\>-Taste, oder Sie drücken zweimal auf
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen \[Channel Grid\].
 
 ![Channel Grid](/docs/images/Channel-Grid.png)
 
@@ -49,13 +50,13 @@ Die Anzeige lässt sich über die Schaltflächen oben links weiter filtern:
 entweder mit den Buttons IPCGBES für die einzelnen Attribute, oder mit
 den Buttons darunter nach Gerätetyp.
 
-Das Fenster "Intensity"
------------------------
+Das Fenster "Intensity View"
+----------------------------
 
 Um einen raschen Überblick über die momentan aktiven Scheinwerfer zu
-gewinnen, dient das Fenster „Intensity" (die Intensity-Ansicht). Um
-dieses zu öffnen, drücken Sie \[Open Workspace Window\] (Fenster öffnen)
-gefolgt von \[Intensity\].
+gewinnen, dient das Fenster "Intensity View" (die Intensity-Ansicht). Um
+dieses zu öffnen, drücken Sie zweimal auf
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen \[Intensity View\].
 
 ![Intensity View](/docs/images/Intensity-View.png)
 

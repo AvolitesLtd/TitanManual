@@ -153,8 +153,9 @@ Im Fenster 'Active Playbacks' werden die aktuell laufenden Playbacks
 angezeigt. Insbesondere wenn mehrere Playbacks auf mehreren Seiten
 gestartet wurden, hat man damit einen schnellen Überblick, welche Cues
 gerade aktiv sind, wo sie gestartet wurden und welche Attribute dadurch
-gesteuert werden. Zum Aufrufen dieses Fensters wählen Sie \<View/Open\>, \[Open
-Workspace Window\], \[Active Playbacks\].
+gesteuert werden. Zum Aufrufen dieses Fensters drücken Sie zweimal auf
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen \[Active Playbacks\].
 
 ![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
 

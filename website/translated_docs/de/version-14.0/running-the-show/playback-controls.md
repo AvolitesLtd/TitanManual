@@ -360,9 +360,11 @@ Virtuelle Fader
 
 Werden mehr Fader benötigt und reichen dafür Fader auf dem Bildschirm
 aus, so kann das Fenster ‚Virtual Faders' hilfreich sein. Zum Öffnen
-dient wie immer \[Open Workspace Window\], dann \[Virtual Faders\].
+drücken Sie zweimal auf 
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen \[Virtual Faders\].
 
-Dieses zeigt 10 Fader, die genau wie die echten Fader verwendet werden
+Dieses Fenster zeigt 10 Fader, die genau wie die echten Fader verwendet werden
 können. Mit der Seitenumschaltung auf der linken Seite können auch diese
 Fader auf 60 Seiten umgeschaltet werden.
 
@@ -422,8 +424,10 @@ Anzeigen der aktiven Playbacks
 Im Fenster ‚Active Playbacks' werden die aktuell aktiven Playbacks/
 Speicherplätze angezeigt. Damit hat man einen schnellen Überblick,
 welche Cues gerade aktiv sind, wo sie gestartet wurden und welche
-Attribute dadurch gesteuert werden. Zum Aufrufen dieses Fensters wählen
-Sie \[Open Workspace Window\], \[Active Playbacks\] oder nutzen die 
+Attribute dadurch gesteuert werden. Zum Aufrufen dieses Fensters 
+drücken Sie zweimal auf 
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen \[Active Playbacks\], oder Sie nutzen die 
 Tastenkombination \<View / Open\> + \<Off\>.
 
 In der ersten Zeile jedes Buttons steht dabei, wo (in welchem 

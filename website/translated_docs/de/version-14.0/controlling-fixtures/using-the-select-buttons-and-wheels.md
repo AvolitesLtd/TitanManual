@@ -206,7 +206,8 @@ Um auf die einzelnen Zellen zuzugreifen, können Sie die entsprechenden
 Reiter oben im Attribut-Editor verwenden, wobei der ganz linke Reiter
 das Gesamtgerät steuert und daneben Reiter für die einzelnen Zellen sind
 (zum Öffnen des Attribut-Editors verwenden Sie z.B. den vorgegebenen
-Workspace oder drücken \[Open Workspace Window\] und wählen den
+Workspace oder drücken zweimal auf
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen den
 Attribut-Editor).
 
 ![Cell Selection](/docs/images/Cell-Selection.png)
@@ -265,20 +266,27 @@ Zifferntasten auswählen (\<THRO\> ist auf manchen Pulten \'Through\'):
 
 "Attribute" sind die einzelnen Funktionen des Gerätes, wie Pan
 (Schwenken), Tilt (Neigen), Farbe, Dimmer etc. Wählen Sie die zu
-bearbeitenden Attribute mit den Attribut-Tasten, und stellen Sie den
+bearbeitenden Attribute mit den IPCGBESFX Attribut-Tasten, und stellen Sie den
 gewünschten Wert mit den Rädern ein. Die verfügbaren Attribute sind
 abhängig vom Gerätetyp. Dimmerkanäle besitzen nur das Attribut \'Dimmer\'.
 
-Attribute lassen sich ebenso mit den Schaltflächen 'IPCGBES' auf dem
-Touchscreen anwählen, und mit dem [Attribute Editor Fenster](../controlling-fixtures/using-the-select-buttons-and-wheels.md#das-fenster-attribut-editor) einstellen.
+Im Display direkt über den Encodern werden die aktuelle Attributbank (hellgrau) 
+und die momentanen Werte bei den Encodern angezeigt. Ein hellblauer Kreis markiert 
+Attribute im Programmer. Die genaue Anzeige der Werte ist davon abhängig, ob 
+das Attribut kontinuierlich gesteuert werden kann (Prozent-Anzeige) oder ob 
+zwischen verschiedenen Werten umgeschaltet wird (z.B. feste Farben oder Gobos).
 
-Auf dem Pearl Expert dienen je nach Benutzereinstellung die Encoder des
-Touchwings zum Einstellen der Attribute.
+![Wheels](/docs/images/Wheels.png)
+
+Die Attribute können auch im [Attribute Editor Fenster](../controlling-fixtures/using-the-select-buttons-and-wheels.md#das-fenster-attribut-editor) eingestellt werden.
+
+-	Auf dem Pearl Expert dienen je nach Benutzereinstellung die Encoder des
+	Touchwings zum Einstellen der Attribute.
 
 Jede einzelne Attribut-Taste kann mehrere Attribute steuern, von denen
 jedes einem Rad zugeordnet ist. Beim Sapphire Touch werden mit dem
-Trackball Pan und Tilt gesteuert; der äußere Ring dient der Steuerung
-von Tilt fein.
+Trackball Pan und Tilt gesteuert; der äußere Ring steuert normalerweise 
+den Dimmer, wobei sich dies mit der Taste \<Assign\> direkt daneben ändern lässt.
 
 1. Nach der Anwahl der betreffenden Geräte betätigen Sie die Taste des
 einzustellenden Attributs.
@@ -291,30 +299,28 @@ Encoder durchschalten.\
 Ebenso können die einzelnen Werte im 'Walzen'-Fenster des Touchscreens
 durchgeschaltet werden. Für stufenlos steuerbare Funktionen (etwa ein
 Dimmer) schaltet die Walze auf 100% bzw. 0.
-![Wheels](/docs/images/Wheels.png)
 
 3. Wiederholen Sie Schritt 1 und 2, um weitere Attribute der gewählten
 Geräte einzustellen.
 
 Weitere wissenswerte Dinge zu Attributen:
 
--   Befindet sich ein Attribut im Programmierspeicher, so erscheint es
-    hervorgehoben (siehe 'Green' in obigem Bild). Dies ermöglicht einen
+![Toggle Attributes](/docs/images/Toggle-Attributes.png)
+
+-   Wird im Display rechts neben den Attributen ein kleiner Pfeil angezeigt,
+	so bedeutet das, dass auf dieser Bank mehr als drei Attribute zu steuern sind. 
+	In diesem Fall kann man durch mehrfaches Anwählen der Attributbank durch 
+	die Attribute durchschalten. Angenommen ein Scheinwerfer habe die Attribute 
+	Red, Green, Blue, Amber und White, so wird beim ersten Klicken auf \<Colour\> 
+	Red, Green und Blue gesteuert und beim nächsten Klick Amber und White.
+
+-   Befindet sich ein Attribut im Programmierspeicher, so wird es hellblau
+    angezeigt (siehe 'Green' in obigem Bild). Dies ermöglicht einen
     schnellen Überblick darüber, was momentan im Program­mierspeicher
     ist.
 
--   Attribute lassen sich ebenso über die Menütasten (nach Betätigen von
-    \<Attribute Options\>) anwählen.
-
 -   Wird das angewählte Attribut nicht im Display oberhalb der Räder
     angezeigt, so ist es für die angewählten Geräte nicht verfügbar.
-
-![Toggle Attributes](/docs/images/Toggle-Attributes.png)
-
--   Erscheint im Display über den Rädern
-    ein kleiner Pfeil neben den Bezeichnern, so gibt es mehr als drei
-    Attribute zu steuern. Betätigen Sie dann den entsprechenden
-    Attribut-Taster erneut, um die gesteuerten Attribute umzuschalten.
 
 -   Die Räder arbeiten in einem \'Beschleunigungsmodus\'. Wird ein Rad
     schnell bewegt, so folgt das Gerät schnell und in groben
@@ -333,39 +339,13 @@ Weitere wissenswerte Dinge zu Attributen:
     dazu wirkt das Intensity-Rad als Hauptregler für die einzelnen
     Farben.
 
-## Anzeige der Attributwerte
-
-Der Display-Bereich oberhalb der Encoder zeigt die Attribut-Bänke
-(Intensity, Position, Colour etc.) sowie die aktuellen Werte der mit den
-Encodern gerade verknüpften Attribute.
-
-![Wheels](/docs/images/Wheels.png)
-
-Um andere Attribute zu steuern, wählen Sie die entsprechende Bank mit
-einem Klick auf IPCGBESFX, oder wählen Sie die entsprechende Bank mit
-den richtigen Tasten. Die aktuelle Bank wird durch einen hellgrauen
-Hintergrund dargestellt.
-
-Wurden Attribute verändert, so wird die jeweilige Bank blau
-hervorgehoben.
-
-Eine stilisierte Walze zeigt die auf jedem Rad möglichen Einstellungen,
-entweder als Wert (Prozent oder dgl.) oder - für feste Werte, etwa
-Farbräder - mit deren Bezeichnung. Wurde ein Attribut verändert, wird
-der jeweilige Wert hellblau hervorgehoben.
-
-Zum Ändern der Werte können Sie direkt auf den Bildschirm klicken: damit
-können feste Werte direkt angewählt werden; kontinuierliche Größen
-wechseln dabei etwa direkt zwischen 0 und 100% (Dimmer) oder 0, 50% und
-100% (Pan/Tilt).
-
 ## Das Fenster \'Attribut-Editor\'
 
 Für Attribute mit festen Werten wie Gobos oder Farbräder ist das Fenster
-'Attribut-Editor' ggf. besser geeignet als die Räder. Es bietet darüber
+'Attribut-Editor' ggf. besser geeignet als die Encoder. Es bietet darüber
 hinaus einen Farbwähler für Geräte mit RGB- oder CMY-Farbmischung.
 
-Drücken Sie \[Open Workspace Window\], dann \[Attribute Editor\], um den
+Drücken Sie zweimal auf [\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen \[Attribute Editor\], um den
 Attribut-Editor einzublenden. Oder klicken Sie auf den Attribut-Namen
 direkt unterhalb der IPCGBES-Schaltflächen auf dem Display.
 
@@ -517,7 +497,10 @@ und Funktionsweise hängt dabei vom jeweiligen Gerät ab.
 
 ![Attribute Editor - Blades](/docs/images/Attribute-Editor-Blades.png)
 
-> Ggf. sind aktualisierte Personalities erforderlich, um die Keystone/Blendenschieber-Funktionalität zu nutzen.
+> 	Ggf. sind aktualisierte Personalities erforderlich, um die 
+	Keystone/Blendenschieber-Funktionalität zu nutzen. Laden Sie dazu 
+	die neueste [Personality-Library](../fixture-personalities.md#herunterladen-der-personalities-bei-avolites) 
+	herunter, installieren diese und [aktualisieren die bereits gepatchten Geräte](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren).
 
 ## Direkte Eingabe für Attributwerte
 

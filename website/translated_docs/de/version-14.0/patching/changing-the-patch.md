@@ -15,8 +15,9 @@ Geräte auf einmal geändert, etwa umadressiert, werden, so ist dies in
 der Patch-Ansicht besonders einfach zu realisieren.
 
 Zum Öffnen der Patch-Ansicht wählen Sie \<View / Open\>, dann
-\<Patch\>, oder wählen den entsprechenden Eintrag aus dem Menü
-'Arbeitsfenster öffnen' (Open Workspace Window).
+\<Patch\>, oder drücken Sie zweimal auf 
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen das Fenster \[Patch View\].
 
 ![Patch View](/docs/images/Patch-View.png)
 
@@ -241,11 +242,14 @@ Das Fenster 'DMX View'
 
 Insbesondere zur Fehlersuche empfiehlt es sich, die tatsächlich vom Pult
 gesendeten DMX-Werte zu überprüfen. Dazu gibt es ein gesondertes
-Fenster: drücken Sie \[Open Workspace Window\], dann \[DMX\].
+Fenster: drücken Sie zweimal auf 
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen \[DMX\].
 
-![DMX Workspace Window](/docs/images/DMX-Workspace-Window.png)
+![DMX Workspace Window](/docs/images/DMX-Workspace-Window-With-Filters.png)
 
-Mit den Schaltflächen in der linken Spalte lässt sich das anzuzeigende
+Mit den Schaltflächen in der linken Spalte lässt sich die Anzeige nach 
+Attributen und Gerätetypen filtern sowie das anzuzeigende
 DMX-Universum wählen. Durch Scrollen nach rechts lassen sich weitere
 Informationen pro Kanal anzeigen.
 

@@ -157,11 +157,12 @@ Ein paar Tipps zu den Animationen:
     der Durchläufe. Bei Effekten ohne Endpunkt bestimmt sich die Anzahl
     hingegen aus dem Master-Tempo und der Geschwindigkeit der Animation.
 
-### Pixel Mapper Preview Window
+### Das Fenster Pixel Mapper Preview
 
 Zur Vorschau, wie der Effekt später aussehen wird, öffnen Sie das
-Fenster 'Pixel Mapper Preview' mit \[Open Workspace Window\], \<View / Open\>
-\[Pixel Mapper Preview\]. Eine Vorschau der laufenden Effekte
+Fenster 'Pixel Mapper Preview': drücken Sie zweimal auf 
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen \[Pixel Mapper Preview\]. Eine Vorschau der laufenden Effekte
 erscheint; unten können Sie zwischen den einzelnen Animationen
 umschalten.
 

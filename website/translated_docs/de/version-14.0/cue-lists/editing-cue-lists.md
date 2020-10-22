@@ -71,41 +71,30 @@ Cues).
 den Cue im Playback-View aus, und klicken zur Bestätigung den Cue nochmals 
 an oder drücken \<Enter\> oder \[Confirm\].
 
-Ebenso lässt sich eine Tastensyntax verwenden. 
+Ebenso lässt sich eine Tastensyntax verwenden: 
 
 - Dabei ist **{fader select}** die Auswahltaste des aktuellen
   Speicherplatzes und **n** die Nummer des jeweiligen Cues; Abschnitte
   in **[eckigen Klammern]** sind optional. Die \<@\>-Taste ist die bei 
   den Zifferntasten.
-- Dabei kann man jeweils die Cues verschieben statt kopieren, indem man 
-  auf \<Move\> statt auf \<Copy\> drückt.	
 
-**Kopieren innerhalb des gleichen Playbacks:**
+Tastenfolge                                                  | Ergebnis
+------------                                                 |---------
+\<Copy\> {fader select} **n** \<@\> **m** \<Enter\>          | Kopieren von Cue **n** nach Cue **m** in der gleichen Cueliste
+\<Move\> {fader select} **n** \<@\> **m** \<Enter\>          | Verschieben von Cue **n** nach Cue **m** in der gleichen Cueliste
+\<Copy\> {fader select} **n** \<@\> \<@\>                    | Kopieren von Cue **n** als neuer Cue an das Ende der Cueliste
+\<Delete\> {fader select} **n** \<Enter\> \<Enter\>          | Löschen von Cue **n**
+\<Copy\> {fader select} **n** {fader select} **m** \<Enter\> | Kopieren von Cue **n** nach Cue **m** in einer anderen Cueliste
+\<Copy\> {fader select} **n** {fader select} \<Enter\>       | Kopieren von Cue **n** an das Ende einer anderen Cueliste
 
-\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] \<@\> n \<Enter\>
+-   Anstelle von \<Copy\> lässt sich \<Move\> verwenden, um Cues nicht zu 
+	kopieren, sondern zu **verschieben**. Auf älteren Pulten ohne eine 
+	 \<Move\>-Taste drücken Sie \<Avo\> und \<Copy\>.
 
-\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n][\<And\> n] \<Enter\> n \<Enter\>
-
-**Kopieren an das Ende des gleichen Playbacks:**
-
-\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] \<@\> \<@\>
-
-\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] \<Enter\> \<Enter\>
-
-**Löschen eines oder mehrerer Cues**
-
-\<Delete\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] \<Enter\> \<Enter\>
-
-**Kopieren in ein anderes Playback:**
-
-\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] [\<@\>] [\<Enter\>] {fader select} n \<Enter\>
-
-**Kopieren an das Ende eines anderen Playbacks:**
-
-\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] [\<@\>] [\<Enter\>] {fader select} \<Enter\>
-
-\<Copy\> {fader select} n [\<Thru\> n] [\[Not\] n] [\<And\> n] [\<@\>] [\<Enter\>] {fader select} {fader select}
-
+- 	Zum Kopieren/Verschieben **mehrerer** Cues verwenden Sie \<Thru\>, \<And\> 
+	und \[Not\]. Um z.B. die Cues 3, 4 ,5 ,7, 10 als neuen Block ab Cue 20 zu
+	kopieren, drücken Sie \
+    \<Copy\> {fader select} **3** \<Thru\> **7** \[Not\] **6** \<And\> **10** \<@\> **20** \<Enter\>
 
 
 Editieren einer Cueliste mit 'Unfold'

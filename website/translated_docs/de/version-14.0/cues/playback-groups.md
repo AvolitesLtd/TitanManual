@@ -17,8 +17,8 @@ Schaltflächen erscheinen als inaktiv.
 Erstellen einer Playback-Gruppe
 -------------------------------
 
-Öffnen Sie das Fenster 'Playback Groups' im Menü \[Open Workspace
-Window\] (Fenster öffnen).
+Drücken Sie zweimal auf [\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen das Fenster "Playback Groups".
 
 ![Empty playback groups workspace](/docs/images/Empty-playback-groups-workspace.png)
 

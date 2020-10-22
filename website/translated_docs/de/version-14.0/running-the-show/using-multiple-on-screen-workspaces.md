@@ -8,7 +8,7 @@ original_id: using-multiple-on-screen-workspaces
 Es lassen sich diverse **workspaces** (Arbeitsumgebungen) einrichten, die
 ihrerseits die Anordnung und Anzeige der verschiedenen Fenster
 speichern. Diese Arbeitsumgebungen lassen sich auf den Schaltflächen
-links der Menütasten linker Bildschirmrand beim Sapphire Touch und Titan 
+links der Menütasten (linker Bildschirmrand beim Sapphire Touch und Titan 
 Go sowie bei externen Displays) speichern und abrufen.
 
 Drücken Sie zweimal auf \<View/Open\>, um die Auswahl der anzuzeigenden 

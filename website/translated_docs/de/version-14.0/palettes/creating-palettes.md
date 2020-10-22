@@ -54,7 +54,9 @@ Speichern einer Palette
 
 [](https://youtu.be/Hs-xzpD5x8k?t=20 "Recording Palettes")
 
-Zum Speichern einer Palette gehen Sie wie folgt vor:
+Zum Speichern einer Palette in eines der Palettenfenster gehen Sie wie folgt vor 
+*(werden die Palettenfenster nicht angezeigt, so klicken Sie auf den 
+Workspace-Button \[Groups and Palettes\])*:
 
 1.  Drücken Sie \<Clear\>, um den Programmierspeicher zu löschen.
 
@@ -130,13 +132,13 @@ Zum Speichern einer Palette gehen Sie wie folgt vor:
 	Attributgruppen, alle anderen Kanäle jedoch einzeln.
 
 -   Das Pult vergibt automatisch eine Bezeichnung für die Palette (außer
-    die [Benutzereinstellung \[Auto Legend\]](../system-settings/user-settings.md#auto-legend) wurde deaktiviert). Für
-    Farb-Paletten werden die enthaltenen Farben angezeigt - sind
-    mehrere enthalten, so werden verschiedenfarbige Streifen angezeigt.
-    Für CITP-Paletten (von einem Medienserver) werden die übertragenen
-    Vorschaubilder angezeigt. Für alle anderen Attribute wird der
-    zuletzt veränderte Wert angezeigt. Nur für Pan und Tilt werden
-    allgemeine Bezeichner vergeben.
+    die [Benutzereinstellung \[Auto Legend\]](../system-settings/user-settings.md#auto-legend) wurde deaktiviert). 
+	-   Bei **Farb-Paletten** werden die enthaltenen Farben angezeigt - sind
+		mehrere enthalten, so werden verschiedenfarbige Streifen angezeigt.
+    -   Für **CITP-Paletten (von einem Medienserver)** werden die übertragenen
+		Vorschaubilder angezeigt. 
+	-	Für **Pan und Tilt** werden allgemeine Bezeichner vergeben.
+	-	Für **alle anderen** Attribute wird der zuletzt veränderte Wert angezeigt. 
     ![Automatic Legends set for Colour Palettes](/docs/images/Automatic-Legends-set-for-Colour-Palettes.png)
 
 -   Ebenso kann man beim Speichern mit \[Provide a legend\] der Palette
@@ -211,7 +213,7 @@ daraufhin rot und zeigt ein + -Zeichen. Nun lässt sich eine Bezeichnung
 vergeben sowie die Maskierung ändern. Mit einer weiteren Betätigung der
 Schaltfläche wird die Palette gespeichert.
 
-![Recoding a Workspace Layout](/docs/images/Recoding-a-Workspace-Layout.png)
+![Palette quick record](/docs/images/Palette-Quick-Record.png)
 
 Beim Verwenden der Schnellspeicherfunktion wird die Attributmaske
 automatisch abhängig vom jeweiligen Fenster eingestellt; so werden
