@@ -35,7 +35,7 @@ Any playback fader on the console can be assigned to act as a master fader, whic
 
 -   **Playback master** controls intensity of all playbacks.
 
-To assign master faders, go to System mode and select \[Assign Mastering\], or press \<Record\> then \[Create Master\].
+To assign master faders, from the **System** menu select \[Assign Masters\], or press \<Record\> then \[Create Master\].
 
 By default, master faders are set to have a transparent lock, which makes the master fader remain in position even when the playback page is
 changed. If you don\'t want this to happen you can change it by pressing \<Options\> (or \[Options\] softkey from the root menu) then press the Swop/Select button of the master.
@@ -53,9 +53,9 @@ Speed and Size Masters
 
 [](https://youtu.be/e5rQAmTCfs0?t=20 "Speed and Size Masters")
 
-Playbacks can be assigned to a Speed Master and/or a Size Master which allow you to control the speed and size of shapes or effects stored in a cue (or in the case of chases, to modify the speed of the chase).
+Playbacks can be assigned to a **Speed Master** and/or a **Size Master** which allow you to control the speed and size of shapes or effects stored in a cue (or in the case of chases, to modify the speed of the chase).
 
-There are eight possible Speed Masters and four Size Masters which allow you to separately control the parameters of different playbacks, if you need to – for example Rate Master 1 could be assigned to control position shapes, Rate Master 2 to dimmer shapes, and so on.
+There are twelve possible Speed Masters and four Size Masters which allow you to separately control the parameters of different playbacks, if you need to – for example Rate Master 1 could be assigned to control position shapes, Rate Master 2 to dimmer shapes, and so on.
 
 A playback is assigned to a Speed/Size Master by pressing \[Effects\] then \[Speed Source\] or \[Size Source\] in the playback Options. The following speed sources are available:
 
@@ -67,10 +67,21 @@ A playback is assigned to a Speed/Size Master by pressing \[Effects\] then \[Spe
 
 -   LocalClock - the playback is set to Tap Tempo mode and all other speed settings are ignored. Using Key Profiles you can assign one of the playback buttons to \[Tap Tempo\] mode, and then set the effect speed by tapping the button. Effects will synchronise to the tap.
 
-There is also a Rate Grand Master which, if used, proportionally controls the four Rate Masters (BPM Masters are not affected).
+There is also a **Rate Grand Master** which, if used, proportionally controls the speed of any effect or chase (whether or not they have a BPM or rate master assigned).
 
-To use Speed or Size Masters you will need to assign some handles on the console to act as the Master faders. Switch the console to System mode and select \[Assign Mastering\]. Special key profile options are
-available for Speed Masters, BPM Masters default to Tap Tempo.
+To use Speed or Size Masters you will need to assign some handles on the console to act as the Master faders:
+
+1.	Press \<Record\>.
+
+2.	Press \[Create Master\].
+
+3. 	From the softkeys select the type of master you want to create.
+
+4.	Press the **Select** button of the handle you want to be the master. 
+
+-	On Pearl Expert or Tiger Touch 1, press \<Avo\> and \<Disk\> together to switch the console to System mode and select \[Assign Masters\]. 
+
+-	Special key profile options are available to set what the buttons do on Speed Masters, BPM Masters default to Tap Tempo.
 
 Speed or Size masters can have various scales, 0-100%, 0-200% and so on. A 0-200% scale would allow you to slow down and speed up the speed to double the programmed setting. Scales are set in normal (non-system) mode by pressing \<Options\> (or \[Options\] softkey) then press the Select button of the master.
 
@@ -159,7 +170,7 @@ Scene Master
 
 The Scene Master allows you to preset an output state by firing a number of playbacks or making live changes, using the visualiser to see the effects but without anything happening on stage. When you are ready for the new state, you fade the Scene Master fader to the other end of its travel and the new state is output.
 
-You assign a fader to be Scene Master from the \[Assign Mastering\] menu in System mode. The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
+You assign a handle to be Scene Master by pressing \<Record\> then \[Create Master\] (or from the \[Assign Masters\] button on the **System** menu). The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
 
 ![Scene Master (Live)](/docs/images/Scene-Master-Live.png)
 
@@ -201,6 +212,8 @@ the options are Exit scene mode, Enter scene mode, Commit changes,
 Commit changes and exit scene mode, Enter or Exit scene mode, Enter or
 commit scene mode.
 
+- On Pearl Expert and Tiger Touch 1, you set a handle to Scene Master by switching to System mode using \<Avo\> and \<Disk\> together, then select \[Assign Masters\]. 
+
 Flash and swop buttons
 ----------------------
 
@@ -218,9 +231,9 @@ attributes of the fixtures before you raise the playback fader, which is
 handy for avoiding unwanted movements (any fixtures which are already
 active in another playback will not change when you use Preload). You
 can also allocate Go and Stop buttons for cue lists and chases. To
-quickly change the key profile, hold \<Avo\> Shift and press \[Edit Key
+quickly change the key profile, hold \<Avo\> and press \[Edit Key
 Profile\]. The Sapphire Touch also has a configurable Black button for
-each fader.
+each fader, and a virtual fader (on the touch screen) can also have a black button.
 
 ![Playback Faders with key profiles applied](/docs/images/Playback-Faders-with-key-profiles-applied.png)
 
@@ -240,7 +253,8 @@ Virtual faders
 -----------------
 
 If you need more playbacks and you're happy to operate them on a touchscreen fader, you can use the
-Virtual Faders workspace window (press \[Open Workspace Window\] then select \[Virtual Faders\]). 
+Virtual Faders workspace window (double press \<Open/View\> then press \[Virtual Faders\] from the window
+select buttons). 
 This provides 10 more paged faders which work exactly the same as the hardware playback faders. 
 A roller display at the left side allows you to select different pages.
 
@@ -297,7 +311,9 @@ Viewing active playbacks
 ------------------------
 
 The Active Playbacks window shows details of which playbacks are active.
-This provides an easy way to see what is currently running.
+This provides an easy way to see what is currently running. To open this
+window double press \<View/Open\> then select \[Active Playbacks\], or use the
+shortcut \<View/Open\> + \<Off\>.
 
 The top line of the button shows the page number and tells you where on
 the desk the playback is stored. The second line shows the legend, and
@@ -356,23 +372,26 @@ or you can set a fade at show time for added effect.
 
 If the palette contains programmed times, you can change the Key Profile
 of the palette button to set whether the programmed times will be used
-or not. (Press \<Avo\> Shift+\[Key Profiles\], then \[Palettes\] to set
+or not. (Press \<Avo\> + \[Key Profiles\], then \[Palettes\] to set
 the key profile). Options are \[Palette is fired ignoring its times\] or
-\[Palette is fired with its times\]. You can also set whether the
-palette will take precedence over a flashed cue or not. A time entered
+\[Palette is fired with its times\]. A time entered
 manually as above will always override a programmed time.
 
 When a fade time is entered on the numeric keypad, you can also change
-the Fixture Overlap using the \[Overlap\] softkey. This allows you to
+the [Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap)
+using the \[Overlap\] softkey. This allows you to
 create "roll" or "peel" effects when using a series of fixtures. With
 overlap=100%, all fixtures change at the same time. If overlap=50%, the
 second fixture will not start its fade until the first fixture is half
 way (50%) through fading. The order of the fixtures is set by the order
 in which you selected them.
 
-The palette fade time remains active while the Palette Fade menu is
-open. Press \<Exit\> to leave the menu and return to instant palette
-recall.
+If a fade time or an overlap are set this way they are applied only to 
+the immediate next palette recall. If you want to use a certain time or
+overlap for the next few palette recalls then set the values in the 
+**Palettes menu**: press \<Palette\>, and set \[Master Time\] and 
+\[Master Overlap\] with the softkeys. Also factory macros are provided
+for some most common values, see [Master Time for Palettes](../palettes/timing-with-palettes#master-time-for-palettes).
 
 If you apply a palette as a "Quick Palette" (i.e. without selecting any
 fixtures) then it will be overridden by the next cue (so if you fade to

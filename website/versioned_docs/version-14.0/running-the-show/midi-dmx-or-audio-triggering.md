@@ -11,16 +11,16 @@ an automated setup.
 
 The following types of trigger are available:
 
-- Audio (not on all console hardware)
-- DMX
-- GPIO (not on all console hardware)
-- MIDI (except T1)
-- Streaming ACN
+-	Audio (not on all console hardware)
+-	DMX
+-	GPIO (not on all console hardware)
+-  	MIDI (except T1)
+-	Streaming ACN
 
 > Audio trigger (sound to light) requires special hardware which is not fitted on Sapphire Touch,
 Tiger Touch, Titan Mobile, T1 and Pearl Expert. You can plug a T2 into these consoles to provide
 audio triggering. The motherboard "line in" socket can't be used for audio trigger.\
-GPIO trigger is only available on Arena.
+GPIO trigger is available on Arena, Tiger Touch II and Sapphire Touch.
 
 Connecting External Trigger Sources
 ---------------------------------
@@ -30,13 +30,14 @@ jack on the motherboard) -- see information box above for consoles which provide
 
 DMX inputs are connected to one of the DMX output connectors using a DMX
 male to male gender changer cable. (This is a simple plug to plug cable
-with all pins wired straight through, i.e. 1-1, 2-2 and 3-3). Titan
-Mobile may require an update of the USB Expert software to enable this
-function, this can be downloaded from the Avolites website.
+with all pins wired straight through, i.e. 1-1, 2-2 and 3-3).  
 
-GPIO uses a contact closure for trigger which is connected using a dedicated jack socket, currently only on the Arena console.
+GPIO uses a contact closure for trigger which is connected using a dedicated jack socket, 
+currently only on the Arena, Tiger Touch II and Sapphire Touch consoles.
+The TNP can optionally have a GPIO input fitted, contact Avolites.
 
-Most console hardware has a standard 5-pin MIDI connector, also USB-MIDI devices supporting the DirectX MIDI driver may be
+Most console hardware has a standard 5-pin MIDI connector, 
+also USB-MIDI devices supporting the DirectX MIDI driver may be
 used on all consoles except T1. For the T2 this allows you to
 connect a MIDI fader controller to give you real playback faders.
 
@@ -49,7 +50,7 @@ sACN is connected using the normal Ethernet connection on the console.
 Setting up External Triggering
 ----------------------------
 
-Enter System mode and select \[Triggers\]. The Triggers window will
+Go to the **System** menu (\<Avo\> + \<Disk\>) and select \[Triggers\]. The Triggers window will
 open.
 
 ![Triggers Window](/docs/images/Triggers-Window.png)
@@ -65,21 +66,22 @@ console to react in different ways and easily swap between them.
 
 This is how you set up a trigger:
 
-1. Add a new mapping using the + button at the bottom of the left hand
-column, and enter a name for it.
+1.  Add a new mapping using the \[+\] button at the bottom of the *left hand*
+    column, and enter a name for it.
 
-2. Add a trigger to the mapping using the + button in the right hand
-column or softkey \[Add trigger\].
+2.  Add a trigger to the mapping using the \[+\] button in the *right hand*
+    column or softkey \[Add trigger\].
 
-3. Select \[Trigger Type\] as \[Hardware\] or \[Item\].\
-**Hardware** triggers a physical or touch button, or fader move, and
-will use the key profile set for the button/fader, just as if the user pressed the button or moved the fader.\
-**Item** triggers a programmed item, such as a cue or chase, but you can select
-what action happens to it when it is triggered.
+3.  Select \[Trigger Type\] as \[Hardware\] or \[Item\].
+    -   **Hardware** triggers a physical or touch button, or fader move, and
+        will use the key profile set for the button/fader, just as if the user 
+		pressed the button or moved the fader.
+    -   **Item** triggers a programmed item, such as a cue or chase, but you can 
+        select what action happens to it when it is triggered.
 
-4. Press the button or move the fader to be triggered, or containing the item to be triggered. The status area of the screen will
-update to show you what has been triggered. For Item triggers you can
-select what action the trigger will cause, using the \[Action\] softkey:
+4.  Press the button or move the fader to be triggered, or containing the item to be triggered. 
+    The status area of the screen will update to show you what has been triggered. 
+	For Item triggers you can select what action the trigger will cause, using the \[Action\] softkey:
 	-	Set Level (sets playback level to trigger level - but see Level Match below)
 	-	Fire At Level (like Set Level but ignores Level Match and will "kill at 0" if used with a cue list)
 	-	Re-Fire at Level (any level change will re-fire the LTP values in the playback - see below)
@@ -88,8 +90,10 @@ select what action the trigger will cause, using the \[Action\] softkey:
 	-	Preload (fires only the LTP values in playback)
 	-	Latch (latches the playback on)
 	
-	The \[Level Match\] option sets what happens if the playback has already been fired by the user when the trigger happens.
-	If set to **On** then the trigger must match the current playback level before it will take effect. If **Off** (default) the trigger will override the playback at any level.
+	The \[Level Match\] option sets what happens if the playback has already been 
+	fired by the user when the trigger happens.	If set to **On** then the trigger 
+	must match the current playback level before it will take effect. If **Off** 
+	(default) the trigger will override the playback at any level.
 
 5. Press \[OK\]. You have now set up the console action which is to be
 triggered.
@@ -102,10 +106,11 @@ trigger. Select \[Trigger Type\] as Audio, DMX, GPIO, MIDI or Streaming ACN.
 
 	Or you can enter the trigger details using the softkey options.
 	-	For Audio, set the \[Band\] (frequency band) for the trigger (see [Audio Control](./midi-dmx-or-audio-triggering.md#audio-control-sound-to-light))
-	-	For DMX, press
-		\[DMX Port\] to select which DMX port you are using for DMX input. You
-		will need to switch the DMX port to RX mode using the menu option
-		provided. Set the DMX address to act as trigger using the \[Address\] button.
+	-	For DMX, press \[DMX Port\] to select which DMX port you are using for DMX input. As soon as a DMX port
+		is used for triggering it is switched to Rx (Receive) mode. Set the DMX address to act 
+		as trigger using the \[Address\] button.\
+		If you want to use it as output	(Tx mode) again you need to re-assign it 
+		in [DMX settings](../system-settings/dmx-output-mapping). 
 	-	For GPIO, you can \[Invert\] the trigger (to trigger on contact open rather than close).
 		The Pin option allows multiple GPIO inputs but currently no consoles support this, so it should be set to 1.
 	-	For MIDI, set the MIDI channel, MIDI Command, Value, and Level (velocity) ranges
@@ -121,10 +126,10 @@ You can continue to add other triggers to the mapping.
 ![Triggers Window with MIDI triggers](/docs/images/Triggers-Window-with-MIDI-triggers.png)
 
 -	To delete a trigger from the mapping, select it in the list and press
-	the rubbish bin button at the bottom.
+	the rubbish bin button at the *bottom of the right hand column*.
 
 -	To delete a complete mapping, select it and press the rubbish bin button
-	at the bottom of the left hand column.
+	at the *bottom of the left hand column*.
 	
 -	The **Re-Fire At Level** action will cause the playback to be re-fired when the trigger level changes, so
 	any LTP values in the playback will be set again. So for example if the playback sets
@@ -139,12 +144,12 @@ This is how to set up a MIDI fader controller to act as playback faders
 on T2. Ensure your MIDI device is connected and recognised by Windows
 (you can use a utility such as Midi-OX to test it).
 
-1. Enter System mode and select \[Triggers\].
+1. From the **System** menu select \[Triggers\].
 
-2. Add a new mapping using the + button at the bottom of the left hand
+2. Add a new mapping using the \[+\] button at the bottom of the left hand
 column, and call it "T2 playbacks".
 
-3. Add a trigger to the mapping using the + button in the right hand
+3. Add a trigger to the mapping using the \[+\] button in the right hand
 column or softkey \[Add trigger\] -- by default this is set to the
 correct Trigger Type of \[Hardware\].
 
@@ -158,7 +163,7 @@ recognise the MIDI commands and display the trigger in the prompt area.
 7. Click \[Add\]. The trigger for playback 1 is added to the list on
 the right.
 
-8. Repeat from \[3\] to add the other 9 playback faders.
+8. Repeat from **step 3** to add the other 9 playback faders.
 
 MIDI Show Control
 -----------------
@@ -180,7 +185,7 @@ number, press \[Set Legend\] then the select button of the cue, then
 \[User Number\].
 
 MIDI show control devices are identified by a device ID. To set Titan's
-device ID go to System mode and select \[User Settings\], then go to the
+device ID select \[User Settings\] from the **System** menu, then go to the
 \[Timecode\] tab. The default setting is 0.
 
 Audio Control (Sound to Light)

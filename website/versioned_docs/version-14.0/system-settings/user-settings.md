@@ -5,8 +5,9 @@ sidebar_label: User Settings
 original_id: user-settings
 ---
 
-The User Settings menu may be accessed from the System mode menu, and
-also from Program mode: hold down the \<Avo\> Shift button and press
+The User Settings menu may be accessed from the \[User Settings\] softkey
+on the **System** menu. You can also get it directly from any other
+menu by holding down the \<Avo\> button and pressing
 \[User Settings\].
 
 ![User Settings Window](/docs/images/User-Settings-Window.png)
@@ -16,8 +17,8 @@ same options using the softkey options. User Settings are individual for
 each User and you can change the User from this screen.
 
 
-> Click on the *i* button for a help window on each setting.
-> 
+> Click on the *i* button for a help window on each setting.\
+> \
 > ![i button](/docs/images/i-button.png)
 
 Options are divided into categories on the softkeys or down the left
@@ -26,12 +27,12 @@ hand side.
 ## General
 
 ### Chase Snap
-If enabled the **Next Step** and **Prev Step** buttons will snap
+If enabled the \<Next Step\> and \<Prev Step\> buttons will snap
 to the new state. If disabled, programmed fades will be shown. This is
-the same function as the Snap button which features on some consoles.
+the same function as the \<Snap\> button which features on some consoles.
 
 ### Cue List Snap
-If enabled the **Next Step** and **Prev Step** buttons will
+If enabled the \<Next Step\> and \<Prev Step\ buttons will
 snap to the new state. If disabled, programmed fades will be shown.
 
 ### Clear Record Mask
@@ -53,9 +54,24 @@ Sets the output rate of DMX frames from
 1-44 frames per second *(default 40)*. You can reduce this if processing
 of a complex show is slowing down the console.
 
+---
+
+## Display
+
+### External Display
+Sets whether the external display is enabled or disabled.
+
+### External Screen Workspace Shortcuts
+When turned on, each screen has its own Workspace Shortcut buttons (shown
+down the side of the screen on external screens). This allows you to
+recall different window layouts separately on each screen rather than changing
+all screens.
+
 ### Lock Screen Background
 Sets a picture to be displayed when the
 console is locked.
+
+-  These options can also be set from **System** menu, in the Display Setup option.
 
 ---
 

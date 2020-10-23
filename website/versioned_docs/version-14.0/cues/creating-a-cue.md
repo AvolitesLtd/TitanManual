@@ -9,25 +9,29 @@ How Titan Works When Programming
 --------------------------------
 
 When you select one or more dimmers or fixtures for control, they are
-loaded into the ***Editor***. You can then use the 
-[wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels)
-and [palettes](../palettes.md) to
-change the settings on the fixture. You can also apply shapes to it.
+loaded into the **Programmer**. You can then use the 
+[wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels),
+[palettes](../palettes.md) and [effects](../effects.md) to 
+change the attributes on the fixture and your changes will be
+stored in the Programmer.
 
-If a fixture is selected after you have changed some attributes then the
-current list of fixtures in the Editor is emptied and a new list is
-started.
-
-All fixtures and attributes that have been edited since the last Clear
-are stored in the ***Programmer***. The order in which you selected the
-fixtures is also stored, and is used with [shapes](../effects.md) and the
+The order in which you selected the
+fixtures is also stored, and is used with [effects](../effects.md) and the
 [Fixture Overlap](cue-timing.md#setting-fade-times-and-overlap-for-a-cue)
-function. When you record a cue, the contents of the Programmer are
-saved into the cue.
+function. 
 
-When you press \<Clear\>, the programmer and editor are emptied. This
+When you record a cue, the contents of the Programmer are
+saved into the cue. This might be different to what you see on stage as you
+are only saving your changes, not the output of the console. See **Record
+Mode** in the next section for different options of what gets saved.
+
+If another fixture is selected after you have changed some attributes then the
+current list of fixtures in the Programmer is emptied and a new list is
+started, but any attributes you've changed remain in the Programmer.
+
+When you press \<Clear\>, the Programmer is emptied. This
 makes sure you don't record fixtures you don't want. You also need to
-press \<Clear\> when you finish programming, because any attributes in
+press \<Clear\> when you finish programming, because intensity attributes in
 the programmer will override playbacks.
 
 Fixtures which are in the programmer are shown in mid blue on the [touch
@@ -38,7 +42,8 @@ shown in cyan on the [attribute displays](../controlling-fixtures/using-the-sele
 Firing a cue does not place the values from the cue in the programmer,
 so you can't just turn on a playback and record what you see to another
 cue *(although the Include function lets you do this, see
-[Using Parts of Existing Cues - the Include Function](editing-cues.md#using-parts-of-existing-cues-the-include-function))*.
+[Using Parts of Existing Cues - the Include Function](editing-cues.md#using-parts-of-existing-cues-the-include-function). 
+You can also use Record Stage mode to record what you see on stage*).
 
 Creating a Cue
 --------------
@@ -76,8 +81,8 @@ Other useful things to know about recording cues:
     create an effect.
 
 -   If you are recording a lot of cues, you can press \<Menu Latch\> to
-    keep the Record Cue menu active. Press \<Exit\> to leave Record Cue
-    mode.
+    keep the Record Cue menu active. Press \<Menu Latch\> again to unlatch
+    the Record Cue menu, press \<Exit\> to leave the menu.
 
 -   The screen immediately above each fader shows a legend for the
     playback. To set this, from the top-level menu press \[Set Legend\], 
@@ -131,8 +136,8 @@ show. Your changes are still shown in the
 [Visualiser window](../capture-visualiser.md).
 
 To put the console into blind mode, just press the \<Blind\> button *(on
-consoles without a dedicated button, hold down \<Avo\> and select the
-\[Blind\] option)*.
+consoles without a dedicated button, hold down \<Avo\> and toggle the
+option between \[Blind Inactive\] and \[Blind Active\]  )*.
 
 If you want to preview a playback on the visualiser without affecting
 the stage, playbacks can be set to Blind mode using \[Playback

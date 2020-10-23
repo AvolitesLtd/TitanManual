@@ -61,7 +61,7 @@ the options/cog icon at the top of the window).
 -   You can snap back to the previous cue by pressing the \<Snap Back\>
     button *(not on all consoles)*
 
--   On consoles with a \<Snap\> button *(Arena and Tiger Touch 2)*, when
+-   On consoles with a \<Snap\> button *(Arena and Tiger Touch II)*, when
     you turn on the \<Snap\> button the \<Prev\>/\<Next\> buttons will
     snap immediately to the cue rather than going to the previous/next
     cue using the programmed times. There is also a 
@@ -69,10 +69,11 @@ the options/cog icon at the top of the window).
     which enables this mode on consoles which don't have the
     button.
 
--   You can jump directly to a cue by pressing \<Connect\>, then typing
+-   You can jump directly to a cue by pressing \<Connect/Cue\>, then typing
     in the desired cue number, then pressing \<Enter\> or softkey A.
     Alternatively at the top level menu you can type the cue number then
-    press \<Connect\>.
+    press \<Connect/Cue\>. (This button may be labelled \<Connect\> or
+	\<Cue\> depending on the console).
 
 -   You can use [Key Profiles](../system-settings/key-profiles.md) to set the blue and grey buttons of the
     playback to have various functions including **Go**, **Stop**, **Connect**, **Next
@@ -87,7 +88,7 @@ the options/cog icon at the top of the window).
 
 -   You can change the time for the next cue by entering the time on the
     keypad then pressing \<Go\>. You can jump to another cue and set a
-    different time by typing the cue number then press \<Connect\>, then
+    different time by typing the cue number then press \<Connect/Cue\>, then
     type the time and press \<Go\>.
 
 Killing a Cue List

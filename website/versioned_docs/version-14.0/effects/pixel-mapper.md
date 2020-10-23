@@ -157,8 +157,8 @@ Some points about animations:
 
 If you don't have fixtures connected, you can see how the effect will
 look on the fixtures using the Pixel Mapper preview window - open it by
-pressing \<View/Open\>, \[Open Workspace Window\], \[Pixel Mapper
-Preview\]. A real life view of each effect currently running is shown in
+double pressing \<View/Open\> then press \[Pixel Mapper
+Preview\] from the window select buttons. A real life view of each effect currently running is shown in
 a button at the bottom of the screen, you can select each of these by
 pressing the button.
 
@@ -221,8 +221,9 @@ Pixel Mapper Layer Masters
 
 You can assign each of the four layers to a master. The master allows
 you to adjust the layer controls in real time. When the master is
-assigned to a fader handle using the \[Assign Masters\], \[Pixel Mapper\]
-controls, the fader will control opacity of the layer.
+assigned to a fader handle using \<Record\>, \[Create Master\], \[Pixel Mapper\],
+selecting \[Layer 1\] through \[Layer 4\] and finally pressing a handle select key,
+the fader will control opacity of the layer.
 
 This means you can create cues and palettes which can manipulate the
 layer settings of effects which are running in other cues.

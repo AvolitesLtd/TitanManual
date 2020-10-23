@@ -19,7 +19,10 @@ Recovery | Version installed | Shows | Personalities | Licence
 ---|---|---|---|---
 Standard Recovery | Two most recent | Preserved |Preserved | Preserved
 Factory Restore | Recovery version + most recent | Deleted | Recovery version | Preserved
-Full Erase | Recovery version | Deleted | Recovery version| Deleted
+Full Erase | Recovery version | Deleted | Recovery version| *Deleted/Preserved*
+
+> With software version 12 or above the licence is stored on the AvoKey, and
+  even a Full Erase Recovery doesn't delete it, [see below](#software-licensing).
 
 > Using **Factory Restore** or **Full Erase** will delete all settings and files from the console including show files and user personalities. Any files should be saved to a USB stick before continuing.
 

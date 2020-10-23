@@ -9,7 +9,7 @@ Editing a Live Running Shape
 ----------------------------
 
 You can change the speed, size and spread of a live running shape by
-pressing \<Connect\> then \<Shape\> (which will flash if any shapes are
+pressing \<Connect/Cue\> then \<Shape\> (which will flash if any shapes are
 active). The softkeys will show a list of the currently running shapes,
 and the cue they are coming from or the programmer.
 

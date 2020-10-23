@@ -46,8 +46,8 @@ shapes.
 At top menu press \[Shapes and Effects\], \[[Shape Generator](../effects/shape-generator.md)],
 \[Create\]. Select attribute of shape then select a shape to run.
 
-Or from the Shape Library window (\<Open/View\>, \[Open Workspace
-Window\], \[Shape Library\]) you can select a shape directly. Filter the
+Or from the Shape Library window (double press \<View/Open\>, 
+\[Shape Library\]) you can select a shape directly. Filter the
 list of shapes using the attribute buttons.
 
 Use the wheels and \[Adjust Speed, Size and Spread\]/\[Adjust Phase,

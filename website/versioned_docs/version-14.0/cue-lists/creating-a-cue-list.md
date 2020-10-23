@@ -237,8 +237,8 @@ playback where **n** is the cue number.
 
 Shortcut | Action
 --- | ---
-\<Record\>, \<Connect\>, **n**, \<Enter\> | Record cue **n**
-\<Copy\>, \<Connect\>, n | Copy cue **n**
-\<Delete\>, \<Connect\>, n | Delete cue **n**
-\<Include\>, \<Connect\>, n | Include cue **n**
-\<Connect\>, n, \<Go\> | Go cue **n**
+\<Record\>, \<Connect/Cue\>, **n**, \<Enter\> | Record cue **n**
+\<Copy\>, \<Connect/Cue\>, n | Copy cue **n**
+\<Delete\>, \<Connect/Cue\>, n | Delete cue **n**
+\<Include\>, \<Connect/Cue\>, n | Include cue **n**
+\<Connect/Cue\>, n, \<Go\> | Go cue **n**
