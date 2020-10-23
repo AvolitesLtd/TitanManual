@@ -194,7 +194,7 @@ Capture Visualiser Auto Patch
 -----------------------------
 
 If you want to use Capture Visualiser, start it by double pressing
-\<View/Open\> then press \[Visualiser\] from the window select buttons. Some
+\<View/Open\> then press \[Capture Visualiser\] from the window select buttons. Some
 consoles also have a dedicated \<Visualiser\> button. Capture will open
 in a workspace window with an automatic representation of your patch.
 

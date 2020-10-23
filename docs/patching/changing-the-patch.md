@@ -15,8 +15,9 @@ fixtures. If you need to change the settings of multiple fixtures (for
 example, changing the DMX address of several fixtures) then it's really
 easy to do in one operation in the Patch View.
 
-To show the Patch View window press \<View/Open\> then \<Patch\>, or use
-the Open Workspace Windows menu command.
+To show the Patch View window press \<View/Open\> then \<Patch\>, or 
+double press <View/Open> and select \[Patch View\] from the window 
+select buttons.
 
 ![Patch View](/docs/images/Patch-View.png)
 
@@ -222,11 +223,11 @@ When you're having problems getting fixtures to work it can be useful to
 see the actual DMX output values coming from the console. Double press
 \<View/Open\>, then select \[DMX\] from the window select buttons.
 
-![DMX Workspace Window](/docs/images/DMX-Workspace-Window.png)
+![DMX Workspace Window](/docs/images/DMX-Workspace-Window-With-Filters.png)
 
-The buttons on the left let you select the different output lines from
-the console. Scrolling the window to the right shows more information
-about each DMX channel.
+The buttons on the left let you filter by attribute and by fixture type 
+and select the different output lines from the console. Scrolling the window 
+to the right shows more information about each DMX channel.
 
 Fixture Exchange
 ----------------
