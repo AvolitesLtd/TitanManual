@@ -13,12 +13,13 @@
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "concurrently 'npm run sass' 'docusaurus-start'",
-    "build": "node ../parse/search.js && node-sass scss/custom.scss static/custom.css --output-style expanded && docusaurus-build && npm run og",
+    "build": "node ../parse/search.js && npm run sass-build && docusaurus-build && npm run og",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",
-    "sass": "node-sass scss/custom.scss static/custom.css --output-style expanded && node-sass --watch scss/custom.scss static/custom.css --output-style expanded",
+    "sass": "npm run sass-build && node-sass --watch scss/custom.scss static/custom.css --output-style compressed",
+    "sass-build": "node-sass scss/custom.scss static/custom.css --output-style compressed",
     "og": "node ../parse/opengraph.js",
     "pdf": "node ../parse/pdf.js",
     "docker-pdf": "cd .. && docker-compose up --build pdf",
@@ -29,7 +30,9 @@
     "app-build-no-pre": "electron-builder",
     "app-build-all": "npm run app-pre-build && npm run app-build-all-no-pre",
     "app-build-all-no-pre": "electron-builder -mwl",
-    "test": "mocha '../test/**/*.js'"
+    "download": "node ../parse/download.js",
+    "test": "mocha '../test/**/*.js' && npm run spellcheck",
+    "spellcheck": "mdspell --report --ignore-numbers --ignore-acronyms --en-gb  'versioned_docs/**/*.md' '../docs/**/*.md'"
   },
   "devDependencies": {
     "@noticeable/remarkable-iframify": "^2.1.1",
@@ -40,6 +43,7 @@
     "electron-builder": "22.3.6",
     "fuse.js": "^3.6.1",
     "js-search": "^1.4.3",
+    "markdown-spellcheck": "^1.3.1",
     "mocha": "^8.1.1",
     "node-sass": "^4.14.1"
   },

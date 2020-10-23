@@ -2,6 +2,7 @@
 id: patching-new-fixtures-or-dimmers
 title: Patching New Fixtures or Dimmers
 sidebar_label: Patching new Fixtures or Dimmers
+tags: fixture
 ---
 
 Fixture Select Buttons and Handles
@@ -14,8 +15,8 @@ Macro/Executor button. If the handle you patch to has a fader, the fader
 will control intensity.
 
 If the Fixtures window is not shown, press \<View/Open\> then
-\<Fixture\> or press \<View/Open\> then \[Open Workspace Window\] then
-\[Fixtures\].
+\<Fixture\> or double press \<View/Open\> then press
+\[Fixtures\] from the window select buttons.
 
 ![Fixtures Window](/docs/images/Fixtures-Window.png)
 
@@ -67,7 +68,7 @@ up dimly.
     line (universe) as well by entering {line}.{DMX}, for example 2.56
     will set DMX address 56 on DMX line 2.
 
--   To see how DMX channels are patched, press \<View/Open\> then Patch
+-   To see how DMX channels are patched, press \<View/Open\> then \<Patch\>
     to show the [Patch View](./changing-the-patch.md#patch-view) window.
 
 -   \[User Number = xx\] allows you to set a user-defined number for
@@ -192,8 +193,8 @@ Select buttons.
 Capture Visualiser Auto Patch
 -----------------------------
 
-If you want to use Capture Visualiser, start it by pressing
-\<View/Open\> then \[Open Workspace Window\] then \[Visualiser\]. Some
+If you want to use Capture Visualiser, start it by double pressing
+\<View/Open\> then press \[Capture Visualiser\] from the window select buttons. Some
 consoles also have a dedicated \<Visualiser\> button. Capture will open
 in a workspace window with an automatic representation of your patch.
 
@@ -214,30 +215,30 @@ fixtures if you wish.
     on the console will automatically sync to the Capture show. Also
     changes you make in Capture will sync back to the console.
 
-Patching Fixtures with Multiple Cells (sub fixtures)
+Patching Fixtures with Multiple Cells (sub-fixtures)
 ----------------------------------------------------
 
 Some fixtures have multiple cells of control within a single fixture
 (for example an RGB LED batten). To avoid having to patch every cell as
 a single fixture, you can patch the whole fixture as one "super fixture"
-and each cell will then appear as a "sub fixture". This is very useful
+and each cell will then appear as a "sub-fixture". This is very useful
 when laying out fixtures for use with the Pixel Mapper as it allows you
 to move and rotate the fixture as a single fixture, but keep individual
 control over the cells.
 
 If you access the fixture using the handle it is patched on, all cells
-of the fixture will be controlled together. To access the sub fixtures
+of the fixture will be controlled together. To access the sub-fixtures
 independently, use the Attribute Editor window or you can press
 \<Unfold\> then the select button of the fixture. In the Fixtures
 workspace, the current page of fixtures will be replaced by select
 buttons for each individual fixture cell. If patched on a fader then the
-cells will start at fader 1. You can also select subfixtures from the
+cells will start at fader 1. You can also select sub-fixtures from the
 numeric keypad. See the [fixture control section](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fixtures-with-multiple-cells-subfixtures) for more details of
 working with fixture cells.
 
 To go back to normal, press \<Unfold\> then \[Exit Unfold\].
 
-> The Sub fixtures feature has to be defined in the fixture's personality. If sub fixtures does not work on your fixture you may need to obtain the latest fixture personality from Avolites.
+> The Sub fixtures feature has to be defined in the fixture's personality. If sub-fixtures does not work on your fixture you may need to obtain the latest fixture personality from Avolites.
 
 Patching Active Fixtures / Media Servers
 ----------------------------------------
@@ -263,7 +264,7 @@ interrogate the lighting rig to find out what's there. It can then patch
 itself to match the existing DMX addresses. You can also remotely change
 modes and other settings on the fixture.
 
-> The fixtures need to be connected to the console by an RDM-enabled Artnet node, the XLR connectors do not support RDM. Obviously the fixtures must be equipped with RDM for this to work; many fixtures are not. Also if you have DMX buffers or splitters in your rig, they must be RDM enabled or they will block the information being sent back to the console.
+> The fixtures need to be connected to the console by an RDM-enabled Art-Net node, the XLR connectors do not support RDM. Obviously the fixtures must be equipped with RDM for this to work; many fixtures are not. Also if you have DMX buffers or splitters in your rig, they must be RDM enabled or they will block the information being sent back to the console.
 
 Press \<View/Open\> then \<Patch\> to open the [Patch View](./changing-the-patch.md#patch-view) window then
 select the RDM tab. All devices which support RDM will be listed here.

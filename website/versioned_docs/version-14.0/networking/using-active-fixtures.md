@@ -33,16 +33,16 @@ firewall.
 
 4. Run the Hippo system. Make sure the CITP component is running.
 
-5. Switch the console to System mode and select \[DMX Settings\].
+5. Go to the **System** menu (\<Avo\> + \<Disk\>) and select \[DMX Settings\].
 
 6. On the left hand side under Art-Net you should see the Hippo with
 its IP address. Click on it and then on the right hand side click on the
 DMX line you want to use it with.
 
-7. On the Hippo node on the left hand side, click the 'i' button and
+7. On the assigned Hippo node on the right hand side, click the cog button and
 set the Universe number to match the universe setting on the Hippo.
 
-8. \<Exit\> System mode back to the default menu.
+8. Press \<Exit\> to go back to the default menu.
 
 9. Restart the console software using the option on the Tools menu (for
 Titan Mobile, Titan Go or Simulator just close and restart the Titan

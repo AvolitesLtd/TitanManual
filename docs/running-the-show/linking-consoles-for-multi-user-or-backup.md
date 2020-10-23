@@ -15,7 +15,9 @@ to run a second console over the network which it keeps synchronised
 with the main console. Should the worst happen, a single keypress can
 transfer control to the backup console.
 
-> Linked consoles must be running the same version of Titan. If using PC Suite (Titan Mobile, Titan Go or Simulator) you may need to disable any firewalls on the PC.
+>   Linked consoles must be running the same version of Titan. If using 
+    PC Suite (Titan Mobile, Titan Go or Simulator) you may need to disable 
+    any firewalls on the PC.
 
 Setting Up Consoles for Multi-User
 ----------------------------------
@@ -35,17 +37,18 @@ become inaccessible if the backup device has less faders/handles than
 the main console.
 
 1. Connect both consoles to the same network and ensure they are set to
-the same IP range. See the [networking section](../networking.md).
+  the same IP range.\
+  See the [networking section](../networking.md) for more information.
 
-2. Press Disk, \[TitanNet Sessions\], \[Backup\].
+2. On the console which will be the Backup, press \<Disk\>, \[TitanNet Sessions\], \[Backup\].
 
 3. Consoles available for backup will be listed in the softkeys.
 
-4. Selecting a console will place that console into backup mode and
-sync the show to it.
+4. Selecting a console will place the console you are working on into
+   backup mode and sync the show to the selected console.
 
 5. The backup console will show a display indicating the backup status
-and show name.
+   and show name.
 
 In backup mode the backup console screen displays the current connection
 and sync status including current show name.
@@ -67,6 +70,6 @@ network connection. A blue line will appear during sync operations.
 -   \[Takeover\] will enable control on the backup console and disable
     DMX output on the main console. A prompt will appear on the main
     console to warn that DMX has been disabled. On touch consoles
-    touching on this prompt will open the \'\<Exit\> Safe Mode\' menu
+    touching on this prompt will open the 'Exit Safe Mode' menu
     with a softkey option to re-enable output. On the Pearl Expert you
-    can re-enable DMX output via the shift (\<Avo\>) menu.
+    can re-enable DMX output via the \<Avo\> menu.

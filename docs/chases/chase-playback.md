@@ -18,8 +18,7 @@ speed of the chase.
     fader; if [fade times](chase-timing.md) are programmed, the fade will stop at the fader
     level. The other channels (LTP) will be set as soon as the fader
     moves above zero according to the fade times programmed in the
-    chase. You can set the point at which the LTP channels activate from
-    the [User settings](../system-settings/user-settings.md) menu.
+    chase. 
 
 While the chase is running, the area of the screen above the wheels
 shows details of the chase steps:
@@ -39,20 +38,23 @@ When you fire a chase, the wheels and \<Stop\>/\<Go\> buttons are automatically
 allocated to control the speed and crossfade of the chase - this is
 called **connecting** the chase. If you have more than one chase running,
 you can choose which chase is connected to the controls using the
-\<Connect\> button.
+\<Connect/Cue\> button (this button may also be labelled \<Connect\> or \<Cue\> depending on the console).
 
--   Connect a different chase to the controls by pressing \<Connect\>
+-   Connect a different chase to the controls by pressing \<Connect/Cue\>
     then the Swop button of the chase you want to control.
 
--   Disconnect a chase from the controls by double pressing \<Connect\>.
+-   Disconnect a chase from the controls by double pressing \<Connect/Cue\>.
 
--   You can turn off the **"Auto Connect"** option in the [User
-    Settings > Wheels menu](../system-settings/user-settings.md#auto-connect) if you don't want to connect to a chase when
-    you fire it. You will have to use the \<Connect\> button to control
+-   You can turn off the **"Auto Connect"** option in the
+    [User Settings > Wheels menu](../system-settings/user-settings.md#auto-connect)
+    if you don't want to connect to a chase when
+    you fire it. You will have to use the \<Connect/Cue\> button to control
     the chase if you do this.
 
--   There is a further option "Auto View on Connect" in the [User
-    Settings > Wheels menu](../system-settings/user-settings.md#auto-view-on-connect) which will automatically open the [view window](editing-a-chase.md#opening-a-chase-for-editing)
+-   There is a further option "Auto View on Connect" in the
+    [User Settings > Wheels menu](../system-settings/user-settings.md#auto-view-on-connect)
+    which will automatically open the
+    [view window](editing-a-chase.md#opening-a-chase-for-editing)
     for a chase when you fire the playback. *This is useful to keep the
     correct chase view open as you swap between chases.*
 
@@ -87,7 +89,7 @@ You set the crossfade and speed as follows:
 1. Press \[Edit Times\] from the top level menu then the **Swop** button of
 the chase.
 
-2. To set the **crossfade**, press \[Xfade\] and type the fade from **0 - 100**.\
+2. To set the **crossfade**, press \[XFade\] and type the fade from **0 - 100**.\
 *0 = no fade (the chase will "snap"), 100 = max fade (the chase will
 move continuously from step to step).*
 
@@ -97,7 +99,8 @@ move continuously from step to step).*
 depending in the [User Settings](../system-settings/user-settings.md).*
 
 There are other options you can set for the chase from this menu
-including Fixture Overlap, which are described in the [Chase Timing](chase-timing.md).
+including [Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap),
+which are described in the [Chase Timing](chase-timing.md).
 
 You can set individual times for each cue in a chase and unlink cues
 from each other so they wait for you to press the Go button. This is
@@ -123,7 +126,7 @@ pressing the \<Stop\> button next to the wheels. Press the red \<Go\> button
 to resume playback of the chase.
 
 While the chase is stopped you can use the \<Prev Step\>/\<Next Step\>
-buttons *(← and → on some consoles)* next to the \<Connect\> button to
+buttons *(← and → on some consoles)* next to the \<Connect/Cue\> button to
 move to the next or previous step. The programmed fade time will be used
 when moving between steps, unless you enable the [user setting \[Chase
 Snap\]](../system-settings/user-settings.md#chase-snap), or press \<Snap\> button if the console has one.
@@ -147,14 +150,14 @@ Changing Chase Direction
 ------------------------
 
 The \<Prev Step\>/\<Next Step\> (← and → on some consoles) buttons next
-to \<Connect\> set the direction of the connected chase. *If fitted*, the
+to \<Connect/Cue\> set the direction of the connected chase. *If fitted*, the
 ↔ double-ended arrow button sets **bounce** mode where the chase will run to
 the end then reverse. The \<Review\> key sets the chase to **random**.
 
 Jumping to a Step
 -----------------
 
-You can jump directly to a step in a chase by pressing \<Connect\>, then
+You can jump directly to a step in a chase by pressing \<Connect/Cue\>, then
 typing in the desired step number, then pressing \<Enter\> or softkey A.
 Alternatively at the top level menu you can type the step number then
-press \<Connect\>.
+press \<Connect/Cue\>.

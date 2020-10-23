@@ -9,7 +9,8 @@ fixtures beyond the traditional DMX sockets, and these are described in
 this chapter.
 
 If the console has multiple network ports, [DMX will be output on all
-ports](system-settings/dmx-output-mapping.md#configuring-dmx-outputs). You can set this from the DMX module properties in the DMX
+ports](system-settings/dmx-output-mapping.md#configuring-dmx-outputs). 
+You can set this from the DMX module properties in the DMX
 Settings window, each port is listed with a switch to enable or disable
 it.
 

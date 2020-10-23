@@ -106,6 +106,7 @@ group is created each time you patch a quantity of fixtures (for
 example, \[4 BB4\].) This function can be turned off using \[Auto
 Groups\] in the User Settings.
 
+
 Fixture Order and Fixture Layout in Groups
 ------------------------------------------
 

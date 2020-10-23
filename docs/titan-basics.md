@@ -25,7 +25,7 @@ console normally.
 
 If an internal UPS is fitted (Sapphire Touch, Arena, optional on other
 consoles), on power loss the toolbar on the screen will turn orange and
-display how long you\'ve got before the console shuts down. A warning dialog
+display how long you've got before the console shuts down. A warning dialog
 will also pop up on the screen and the current show will be autosaved.
 
 ![UPS Toolbar](/docs/images/UPS-Toolbar.png)
@@ -85,11 +85,16 @@ Connecting up Titan Mobile and T1/T2
 ------------------------------------
 
 Do not connect the Titan Mobile panel or the T1/T2 dongle to your PC for
-the first time until you have installed the Titan PC Suite software,
+the first time until you have installed the **Titan PC Suite** software,
 which you do simply by running the installer file. This will make sure
 the drivers for the panel are installed.
 
-> From Titan v7, Windows XP and Vista are no longer supported. Your PC must be running a 64 bit version of Windows 7, Windows 8.1 or Windows 10.
+>	**PC specifications:** From Titan v14, your PC should be running Windows 10 64-bit (other versions 
+	may not work correctly and we can't provide you with support). Some users have
+	successfully used Virtual Machines to run Titan, but we don't provide support for them.
+    We recommend i5 processor with 4GB RAM as a minimum.	
+	Please
+  [see https://avolites.com/titan-pc-system-requirements](https://avolites.com/titan-pc-system-requirements/) for the full specification.
 
 For best usability, your PC should have a touch screen. If not you can
 use the mouse to select touch buttons.
@@ -99,7 +104,7 @@ for the panel (older Titan Mobile panels have two USB connectors -- you
 only need to connect port A, nearest the DC socket). If your PC asks you
 for drivers, select \'Install the Software Automatically\'. If you have
 an older Titan Mobile panel without the built-in AvoKey you also need to
-attach an AvoKey to a free USB port.
+attach an AvoKey to a free USB port to license the software.
 
 Power is normally supplied down the USB connection and the external DC
 power socket is not used, but if your PC has a lot of other USB devices
@@ -115,10 +120,13 @@ in the Titan Mobile panel so you can install the software on multiple
 computers but it will only run when the Titan Mobile panel is connected.
 
 **T1/T2:** The T1/T2 USB devices give you a full lighting control system
-that will output one or two universes of DMX or Artnet. The software to
+that will output one or two universes of DMX or Art-Net. The software to
 run it is called Titan Go. The first time you run Titan Go you will need
 to obtain a licence from the Avolites website which will license the
 AvoKey built into the device.
+
+-	If you are using an older Titan 1 dongle, you will need to attach an
+	AvoKey to a free USB port to license the software. 
 
 Titan Healthcheck
 -----------------
@@ -184,16 +192,18 @@ Sapphire Touch). This gives you extra screen space for workspace windows
 which can be handy for showing Visualiser or additional buttons. Touch
 monitors are very useful to give additional control surfaces. We advise
 you use a monitor compatible with Windows Touch to avoid problems with
-touchscreen drivers. Titan Mobile will also support 2 monitors if the PC
+touchscreen drivers. 
+
+Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) will also support 2 monitors if the PC
 you are using has the facility.
 
 An external monitor is disabled by default and will show a \'disabled\'
-message. To enable, switch to System mode (press \<Avo\>+\<Disk\>) and
+message. To enable, switch to **System** menu (press \<Avo\> + \<Disk\>) and
 select \[Display Setup\] then press \[External Display Disconnected\].
 The option will change to \[External Display Connected\] and the display
 will be enabled.
 
-If you need to change the monitor resolution or settings, touch
+If you need to change the monitor resolution or settings on a console, touch
 \'Tools\' at the very top of the screen and select \'Control Panel\',
 then \'External Monitor\', then select the option to match the
 resolution of your monitor.
@@ -230,7 +240,10 @@ One or two 3-pin XLR sockets for desk lamps are provided on the rear of
 the console. Suitable lamps are available from Avolites. The lamps are
 12 volt DC, wired from pins 1 (negative) and 2 (positive) of the XLR
 (not all desk lamps are wired like this and may require rewiring to
-work). You can set the brightness of the desk lamps from System mode.
+work). 
+
+- You can set the brightness of the desk lamps from the **System** menu 
+	(press \<Avo\> + \<Disk\>).
 
 Connecting Console Wings
 ------------------------
@@ -241,5 +254,4 @@ by USB.
 
 The Pearl Expert Touch Wing can only be used with the [Pearl Expert](about-the-consoles/pearl-expert-and-touch-wing.md)
 console and should be connected before the console is powered up.
-
 

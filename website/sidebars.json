@@ -69,30 +69,30 @@
     "Cues": [
       "cues",
       "cues/creating-a-cue",
-      "cues/using-a-cue",
-	  "cues/playback-groups",
+      "cues/cue-playback",
+	    "cues/playback-groups",
       "cues/editing-cues",
       "cues/cue-timing",
-      "cues/copying-moving-linking-and-deleting",
-      "cues/playback-options"
+      "cues/playback-options",
+      "cues/copying-moving-linking-and-deleting"
     ],
     "Chases": [
       "chases",
       "chases/creating-a-chase",
       "chases/chase-playback",
       "chases/editing-a-chase",
-      "chases/copying-moving-linking-and-deleting",
+      "chases/chase-timing",
       "chases/chase-options",
-      "chases/chase-timing"
+      "chases/copying-moving-linking-and-deleting"
     ],
     "Cue Lists": [
       "cue-lists",
       "cue-lists/creating-a-cue-list",
       "cue-lists/cue-list-playback",
       "cue-lists/editing-cue-lists",
-      "cue-lists/copying-moving-linking-and-deleting",
       "cue-lists/cue-list-timing",
       "cue-lists/cue-list-options",
+      "cue-lists/copying-moving-linking-and-deleting",
       "cue-lists/theatre-programming"
     ],
     "Capture Visualiser": [

@@ -81,7 +81,7 @@ The controls at the top of the left hand pane are the global shape
 properties which affect the whole shape, controlling speed, direction
 (using [2D group layout](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)),
 [phase/spread](shape-generator.md#changing-the-spread-of-a-shape-across-multiple-fixtures) and
-[fixture overlap](../cues/cue-timing.md#setting-fade-times-and-overlap-for-a-cue).
+[fixture overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
 The **eye** icon in the top left corner *"collapses"* the shape preview in the
 effect editor window, this allows you to expand only the shape you want
@@ -117,11 +117,11 @@ types of shapes which are running together.\
 count to be the same as the current Spread setting for the shape. This
 is useful when using dimmer shapes with movement shapes as it will make
 each fixture turn on for a full cycle of the movement shape.\
-\[Keyframe\] sets the beat count to match the number of keyframes in the
+\[Key Frame\] sets the beat count to match the number of key frames in the
 shape.\
 \[Custom\] resets the \[Value\] option to the last
 entered value.
-> Each keyframe and each layer can have its own **Beats per
+> Each key frame and each layer can have its own **Beats per
 Cycle** setting.
 
 The **Cycles** option lets you create a shape which runs for a set number of
@@ -133,14 +133,14 @@ is selected, then the cycles will be set for the selected layer only.
 *This means you can have individual layers running continuously or for
 different numbers of cycles.*
 
-Keyframe shapes can run across **sub fixtures** (cells). This is turned \[Off\]
+Key Frame shapes can run across **sub-fixtures** (cells). This is turned \[Off\]
 by default, but you can select \[On (Group)\] which uses
 the [layout set for the group](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups),
 or \[On (Linear)\] which ignores the layout and just uses the cells in numerical order.
 
 The Phase Master option lets you control the phase of the shape using
 the intensity of a video layer from an Ai server. See
-[Phase Control of Keyframe Shapes from Ai](../synergy/operating-synergy.md#phase-control-of-keyframe-shapes-from-ai)
+[Phase Control of Key Frame Shapes from Ai](../synergy/operating-synergy.md#phase-control-of-keyframe-shapes-from-ai)
 for more details.
 
 ### Parameters for Individual Frames

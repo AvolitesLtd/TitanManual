@@ -69,30 +69,30 @@
     "Cues": [
       "version-14.0-cues",
       "version-14.0-cues/creating-a-cue",
-      "version-14.0-cues/using-a-cue",
+      "version-14.0-cues/cue-playback",
       "version-14.0-cues/playback-groups",
       "version-14.0-cues/editing-cues",
       "version-14.0-cues/cue-timing",
-      "version-14.0-cues/copying-moving-linking-and-deleting",
-      "version-14.0-cues/playback-options"
+      "version-14.0-cues/playback-options",
+      "version-14.0-cues/copying-moving-linking-and-deleting"
     ],
     "Chases": [
       "version-14.0-chases",
       "version-14.0-chases/creating-a-chase",
       "version-14.0-chases/chase-playback",
       "version-14.0-chases/editing-a-chase",
-      "version-14.0-chases/copying-moving-linking-and-deleting",
+      "version-14.0-chases/chase-timing",
       "version-14.0-chases/chase-options",
-      "version-14.0-chases/chase-timing"
+      "version-14.0-chases/copying-moving-linking-and-deleting"
     ],
     "Cue Lists": [
       "version-14.0-cue-lists",
       "version-14.0-cue-lists/creating-a-cue-list",
       "version-14.0-cue-lists/cue-list-playback",
       "version-14.0-cue-lists/editing-cue-lists",
-      "version-14.0-cue-lists/copying-moving-linking-and-deleting",
       "version-14.0-cue-lists/cue-list-timing",
       "version-14.0-cue-lists/cue-list-options",
+      "version-14.0-cue-lists/copying-moving-linking-and-deleting",
       "version-14.0-cue-lists/theatre-programming"
     ],
     "Capture Visualiser": [

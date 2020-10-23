@@ -98,7 +98,7 @@ sets fixtures to a known start condition while programming.
 All the connections required for the console are found on the back
 panel. There are 8 DMX outputs on 5-pin XLR, MIDI in/out/thru on 5-pin
 DIN, two desk lamp sockets, four Ethernet sockets from the internal
-Ethernet switch, an Opticon Duo optical terminal for fibre network, a
+Ethernet switch, an opticalCON Duo optical terminal for fibre network, a
 DVI connector for external monitor, three USB sockets, SMPTE input,
 audio input on 1/4 inch jack and remote trigger terminal on 1/4 inch
 jack.

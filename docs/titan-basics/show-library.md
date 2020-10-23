@@ -10,8 +10,9 @@ importing parts of previous shows, or when moving shows to a Titan
 consoles with fewer faders, but can also be used to move items around
 within your show.
 
-Press \<View/Open\> then \[Open Workspace Window\], \[Show Library\] to
-open the window (or if in the root menu just \[Open Workspace Window\],
+Double press \<View/Open\> then press \[Show Library\] from the window
+select buttons to
+open the window (or if in the root menu, \[Open Workspace Window\],
 \[Show Library\]).
 
 Show Library tab
