@@ -55,7 +55,7 @@ Cues/Chasers. Die Menütasten bieten nun verschiedene Timing-Optionen.
 
 \[Fixture Overlap\] verändert das 'Überlappen' (Gleichzeitigkeit) der
 Geräte: 100% = alle fahren/blenden gleichzeitig; 0% = alle
-fahren/blenden nacheinander.
+fahren/blenden nacheinander, siehe [Fixture Overlap](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz).
 
 Mit \[Attribute times\] lassen sich für einzelne Attribute
 unterschiedliche Zeiten vergeben.

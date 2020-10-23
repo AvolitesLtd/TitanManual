@@ -136,39 +136,9 @@ drücken G \[Next\], um auf die nächste Optionsseite umzuschalten. Siehe [vorig
 Fixture Overlap - Geräteversatz
 -------------------------------
 
-Für jeden Schritt lässt sich, sofern dieser mit dem vorigen verbunden
-ist, ein Geräteversatz (Fixture Overlap) einstellen; damit werden die
-Daten des neuen Schrittes nicht gleichzeitig an alle Geräte, sondern
-nacheinander gesendet. Damit lassen sich ohne großen Programmieraufwand
-schöne Effekte realisieren.
-
-Drücken Sie A \[Fixture Overlap\] (*auf der zweiten Seite des Menüs
-[Cue Times](#zeit--und-überblendoptionen-für-cuelisten))*, und geben Sie einen Wert von 0...100 mit den Zifferntasten ein. 
-
-Overlap | Ergebnis
---------|---------
-100% | Alle Geräte blenden gleichzeitig über (Standardeinstellung).
-  0% | Das vorige Gerät schließt seine Überblendung erst ab, bevor das nächste damit beginnt. 
- 50% | Das zweite Gerät beginnt mit dem Wechsel, wenn das erste diesen zur Hälfte vollzogen hat.
-
-Zum Ändern der Reihenfolge der Geräte beim Nutzen des Versatzes
-drücken Sie D \[Set Fixture Order\]. Zunächst ist das die
-Reihenfolge, in der die Geräte beim Programmieren des Schrittes
-ausgewählt wurden. Im Fenster ‚Fixtures' wird die aktuelle
-Reihenfolge in großen grünen Zahlen angezeigt. Drücken Sie nun A
-\[Step Number\], geben die erste zu ändernde Nummer ein, und
-betätigen die Schaltfläche des betreffenden Gerätes.
-
-Wollen Sie etwa die Reihenfolge von 8 Geräten ändern, so drücken Sie die
-\<1\> der Zifferntasten, dann die Schaltfläche des Gerätes, welches das erste
-sein soll, dann die Schaltfläche des zweiten Gerätes und so fort. Wenn gewünscht,
-kann man mehreren Geräten die gleiche Nummer zuordnen, um diese gleichzeitig 
-wechseln zu lassen. Betätigt man eine Geräte-Schaltfläche zweimal, so wird ein X
-angezeigt, und das Gerät wird aus der Folge entfernt.
-
-Drücken Sie \<Exit\>, um das Menü zu verlassen.
-
-![Fixtures Window showing fixture order](/docs/images/Fixtures-Window-showing-fixture-order.png)
+Mit Fixture Overlap - Geräte-Überlappung - werden Änderungen von einem 
+Cue zum nächsten auf die einzelnen Fixtures nacheinander statt gleichzeitig 
+angewendet. Genauer ist dies in [Einstellen von Überblendzeiten und Geräteversatz](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) erläutert.
 
 Steuern einer Cueliste per Timecode
 -----------------------------------

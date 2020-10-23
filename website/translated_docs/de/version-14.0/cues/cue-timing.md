@@ -7,8 +7,7 @@ original_id: cue-timing
 
 Es lassen sich viele verschiedene Zeiteinstellungen für Cues vornehmen.
 
-Einstellen von Überblendzeiten und Geräteversatz
-------------------------------------------------
+## Einstellen von Überblendzeiten und Geräteversatz
 
 Beim Programmieren von Cues lassen sich Verzögerung, Ein- und
 Ausblendzeit für den Cue insgesamt oder aber für einzelne Attribute und
@@ -152,6 +151,7 @@ in den Geräte-Schaltflächen angezeigt.
 
 -   Ebenso kann man mehreren Geräten die gleichen Schrittnummern geben.
     Damit lässt sich erreichen, dass bei Verwendung des Geräteversatzes
+	([Fixture Overlap](#einstellen-von-überblendzeiten-und-geräteversatz)) 
     mehrere Geräte gleichzeitig beeinflusst werden.
 
 -   Einzelne Geräte kann man auch komplett aus der Folge entfernen;

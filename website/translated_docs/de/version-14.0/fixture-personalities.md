@@ -75,13 +75,13 @@ Capture-Library; die Titan-Personalities sind jedoch identisch.
 
 3.	Nun werden die auf dem USB-Stick gefundenen Installer angezeigt 
 	*(im Hauptverzeichnis des USB-Sticks, Dateinamen nicht verändert)*,
-	darunter auch die TitanFixtureLibrary. Klicken Sie diese an, und
-	bestätigen Sie den Dialog mit \<OK\>.
-	
-	>	Sollte die Datei nicht in diesem Menü zu finden sein, so öffnen
-		Sie mit **Tools** > **Folders** den Explorer, navigieren zum 
-		richtigen Laufwerk und Verzeichnis und starten die Datei per
-		Doppelklick.
+	darunter auch die **TitanFixtureLibrary.exe**. Klicken Sie diese an, und
+	bestätigen Sie den Dialog mit \<OK\>.\
+	\
+	Sollte die Datei nicht in diesem Menü zu finden sein, so öffnen
+	Sie mit **Tools** > **Folders** den Explorer, navigieren zum 
+	richtigen Laufwerk und Verzeichnis und starten die Datei per
+	Doppelklick.
 
 4.	Starten Sie das Pult neu (Aus- und Einschalten, oder mit dem Befehl
 	**Restart Software** aus dem Tools-Menü).

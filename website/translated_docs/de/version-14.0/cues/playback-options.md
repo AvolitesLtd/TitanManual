@@ -109,15 +109,9 @@ Hier können die jeweiligen Zeiten
 eingestellt werden. Das kann auch mit der \<Time\>-Taste erfolgen.
 
 ### Fixture Overlap
-Damit werden die einzelnen Geräte nacheinander statt gleichzeitig eingeblendet. 
-Damit lassen sich rasch interessante Effekte erzielen:
-
-**100%** bedeutet: alle Geräte werden gelichzeitig eingeblendet\
-**0%** bedeutet: das erste Gerät wird erst komplett eingeblendet, bevor
-das nächste beginnt.\
-**50%** bedeutet, dass das nächste Gerät mit dem Einblenden beginnt,
-wenn das vorige zu 50% eingeblendet wurde. Die Reihenfolge wird dabei
-von der Geräte-Reihenfolge bestimmt.
+Mit Fixture Overlap - Geräte-Überlappung - werden Änderungen von einem 
+Cue zum nächsten auf die einzelnen Fixtures nacheinander statt gleichzeitig 
+angewendet. Genauer ist dies in [Einstellen von Überblendzeiten und Geräteversatz](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) erläutert.
 
 ### Flash Fade In / Flash Fade Out
 Ein- und Ausfadezeit beim Flashen

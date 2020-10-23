@@ -191,6 +191,10 @@ Farbbereich abzudecken. Dazu stellt man einen der beiden Shapes auf
 einen ‚Phase Offset' von 180°.* Ohne diese Einstellung würden beide
 Shapes gleichzeitig 0 bzw. 100% erreichen.
 
+>   Nach dem Ändern von Offset oder Phase empfiehlt es sich, den Shape 
+	**neu zu starten**, damit alle Shapes neu synchronisiert werden. Dazu gibt 
+	es im Menü 'Edit Shape' die Menütaste \[Restart Shapes\].
+
 Shape-Richtung
 --------------
 
@@ -248,8 +252,7 @@ Steuerung verwenden.
 
 Shapes lassen sich auch in Cuelisten verwenden - in [Tracking von Shapes in Cuelisten](../cue-lists/creating-a-cue-list.md#tracking-von-shapes-in-cuelisten) ist beschrieben, wie sich die Shapes in diesem Fall verhalten.
 
-Laufende Shapes lassen sich zum Editieren mittels \[Select Shape\]
-auswählen - dies befindet sich im Menü \[Edit\] des Shape Generators.
+Zum Editieren aktuell laufender Shapes siehe [Ändern eines gerade laufenden Shapes](../effects/editing-shapes-and-effects#ändern-eines-gerade-laufenden-shapes).
 
 Shapes stoppen mit Mask FX
 --------------------------

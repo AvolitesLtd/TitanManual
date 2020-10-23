@@ -504,7 +504,8 @@ lassen sich etwa Effekte wie 'Rollen' oder 'Abziehen' realisieren. Bei
 'overlap'= 100% wechseln alle Geräte gleichzeitig; bei 'overlap'=50%
 beginnt das zweite Gerät mit dem Überblenden, sobald das erste zur
 Hälfte damit fertig ist. Die Reihenfolge, in der die Geräte wechseln,
-bestimmt sich aus der Reihenfolge, in der die Geräte ausgewählt wurden.
+bestimmt sich aus der Reihenfolge, in der die Geräte ausgewählt wurden. 
+Siehe [Fixture Overlap](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) für weitere Details.
 
 Eine so eingegebene Paletten-Fadezeit und Overlap gelten nur einmalig 
 für den unmittelbar nächsten Palettenabruf. Sollen bis zur nächsten

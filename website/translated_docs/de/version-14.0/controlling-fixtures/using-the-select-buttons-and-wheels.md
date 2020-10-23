@@ -280,7 +280,7 @@ zwischen verschiedenen Werten umgeschaltet wird (z.B. feste Farben oder Gobos).
 
 Die Attribute können auch im [Attribute Editor Fenster](../controlling-fixtures/using-the-select-buttons-and-wheels.md#das-fenster-attribut-editor) eingestellt werden.
 
--	Auf dem Pearl Expert dienen je nach Benutzereinstellung die Encoder des
+>	Auf dem Pearl Expert dienen je nach Benutzereinstellung die Encoder des
 	Touchwings zum Einstellen der Attribute.
 
 Jede einzelne Attribut-Taste kann mehrere Attribute steuern, von denen
@@ -302,6 +302,8 @@ Dimmer) schaltet die Walze auf 100% bzw. 0.
 
 3. Wiederholen Sie Schritt 1 und 2, um weitere Attribute der gewählten
 Geräte einzustellen.
+
+---
 
 Weitere wissenswerte Dinge zu Attributen:
 
@@ -537,7 +539,7 @@ Anklicken eines Attributs im Channel Grid (Kanalübersicht).
 \<@\>-Tasten, beim Pearl Expert gibt es diese Tasten nicht, und man muss
 eine der anderen Varianten nutzen).
 
-The menu gives you the following functions:
+Folgende Funktionen stehen auf den Menütasten zur Verfügung:
 
 -   Select Function (Funktion wählen): damit werden die verschiedenen
     Festwerte auf die Multifunktionstasten zur Auswahl gelegt (für
@@ -641,14 +643,16 @@ geändert, so dass z.B. nur die ungeraden (odd) Geräte ausgewählt werden.\
 ![Pattern Select](/docs/images/Pattern-Select.png)
 
 4. Drücken Sie die Taste \<Fix+1\> oder \<Fix-1\>, um den nächsten
-Schritt im gewählten Muster anzuwählen. (auf manchen Pulten \<Next\> und \<Prev\>).
+Schritt im gewählten Muster anzuwählen (auf manchen Pulten \<Next\> und \<Prev\>).
 
 5. Um die Musterauswahl zu beenden, drücken Sie zweimal \<All\>.
 
 -   Mittels \[Direction\] (Richtung) kann eingestellt werden, dass die
     Geräte-Reihenfolge einer bestimmten Richtung folgt; dabei wird das
     Layout der Geräte herangezogen. Damit lassen sich z.B. sehr einfach
-    symmetrische Paare von Geräten wählen.
+    symmetrische Paare von Geräten wählen. Auch beim Verwenden von 
+	[Fixture Overlap](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) 
+	ist die Richtung von Bedeutung.
 
 -   Drückt man \<Clear\>, so wird die Richtung (Direction) wieder auf
     \'None\' zurückgesetzt. Dies lässt sich mit \[Clear Options\] \[Clear

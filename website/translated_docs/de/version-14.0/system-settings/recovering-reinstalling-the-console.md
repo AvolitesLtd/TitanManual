@@ -33,6 +33,9 @@ Standard Recovery | Die beiden neuesten | Bleiben erhalten | Bleiben erhalten | 
 Factory Restore | Die Recovery-Version und die neueste davor | Werden gelöscht | Die der Recovery-Version | Bleibt erhalten
 Full Erase | Nur die Recovery-Version | Werden gelöscht | Die der Recovery-Version| bis v11: gelöscht; <br>ab v12/Avokey: bleibt erhalten
 
+> 	Ab Titan Version 12 wird die Lizenz auf dem AvoKey dauerhaft gespeichert
+	und auch bei einem Full Erase Recovery nicht gelöscht, [siehe unten](#software-lizenzierung).
+
 >	Bei Verwendung von **Factory Restore** sowie **Full Erase** werden 
 	sämtliche Einstellungen und Shows gelöscht. Es empfiehlt sich also, 
 	die Shows vorher auf einem anderen Stick zu speichern.
