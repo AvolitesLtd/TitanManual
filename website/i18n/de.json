@@ -177,6 +177,10 @@
         "title": "Einen Cue verwenden",
         "sidebar_label": "Einen Cue verwenden"
       },
+      "cues/cue-playback": {
+        "title": "Einen Cue verwenden",
+        "sidebar_label": "Einen Cue verwenden"
+      },
       "effects": {
         "title": "Shapes und Effekte",
         "sidebar_label": "Shapes und Effekte"
@@ -1497,6 +1501,10 @@
         "title": "Erstellen eines Cues",
         "sidebar_label": "Erstellen eines Cues"
       },
+      "version-14.0-cues/cue-playback": {
+        "title": "Abrufen eines Cues",
+        "sidebar_label": "Abrufen eines Cues"
+      },
       "version-14.0-cues/cue-timing": {
         "title": "Zeiten für Cues",
         "sidebar_label": "Zeiten für Cues"
@@ -1512,10 +1520,6 @@
       "version-14.0-cues/playback-options": {
         "title": "Playback-Optionen",
         "sidebar_label": "Playback-Optionen"
-      },
-      "version-14.0-cues/using-a-cue": {
-        "title": "Abrufen eines Cues",
-        "sidebar_label": "Abrufen eines Cues"
       },
       "version-14.0-effects": {
         "title": "Effekte",

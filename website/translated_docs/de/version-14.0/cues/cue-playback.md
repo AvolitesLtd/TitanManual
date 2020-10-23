@@ -1,8 +1,8 @@
 ---
-id: version-14.0-using-a-cue
-title: Using a Cue
-sidebar_label: Using a Cue
-original_id: using-a-cue
+id: version-14.0-cue-playback
+title: Cue Playback
+sidebar_label: Cue Playback
+original_id: cue-playback
 ---
 
 Da eine Vielzahl von Cues/Chasern gleichzeitig abgerufen werden kann,
