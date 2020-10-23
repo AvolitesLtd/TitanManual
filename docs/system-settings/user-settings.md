@@ -330,6 +330,9 @@ If *enabled*, resets direction in the programmer to
 default when Clear is pressed. If *disabled*, direction set in the
 programmer will remain.
 
+### Clear Selected Fixtures
+If *enabled*, only fixtures which are currently selected will be cleared from the programmer when Clear is pressed. If no fixtures are selected then all fixtures are cleared. If *disabled*,  all fixtures are cleared from the programmer whether any are selected or not.
+
 ---
 
 ## Effects
