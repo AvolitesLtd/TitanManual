@@ -114,12 +114,12 @@
         "sidebar_label": "Viewing and Editing Fixture Values"
       },
       "cue-lists": {
-        "title": "Cue Lists Introduction",
-        "sidebar_label": "Cue Lists Introduction"
+        "title": "Cue Lists",
+        "sidebar_label": "Cue Lists"
       },
       "cue-lists/copying-moving-linking-and-deleting": {
-        "title": "Copying, Moving, Linking and Deleting",
-        "sidebar_label": "Copying, Moving, Linking and Deleting"
+        "title": "Copying, Moving, Linking and Deleting Cue Lists",
+        "sidebar_label": "Copying, Moving, Linking and Deleting Cue Lists"
       },
       "cue-lists/creating-a-cue-list": {
         "title": "Creating a Cue List",
@@ -157,6 +157,10 @@
         "title": "Creating a Cue",
         "sidebar_label": "Creating a Cue"
       },
+      "cues/cue-playback": {
+        "title": "Cue Playback",
+        "sidebar_label": "Cue Playback"
+      },
       "cues/cue-timing": {
         "title": "Cue Timing",
         "sidebar_label": "Cue Timing"
@@ -172,10 +176,6 @@
       "cues/playback-options": {
         "title": "Playback Options",
         "sidebar_label": "Playback Options"
-      },
-      "cues/using-a-cue": {
-        "title": "Using a Cue",
-        "sidebar_label": "Using a Cue"
       },
       "effects": {
         "title": "Shapes and Effects introduction",
@@ -272,10 +272,6 @@
       "patching/copying-moving-and-deleting-fixtures": {
         "title": "Copying, moving and deleting fixtures",
         "sidebar_label": "Copying, moving and deleting fixtures"
-      },
-      "patching/fixture-personalities": {
-        "title": "Fixture Personalities",
-        "sidebar_label": "Fixture Personalities"
       },
       "patching/fixture-personality-options": {
         "title": "Fixture Personality Options",
@@ -1454,12 +1450,12 @@
         "sidebar_label": "Viewing and Editing Fixture Values"
       },
       "version-14.0/version-14.0-cue-lists": {
-        "title": "Cue Lists Introduction",
-        "sidebar_label": "Cue Lists Introduction"
+        "title": "Cue Lists",
+        "sidebar_label": "Cue Lists"
       },
       "version-14.0/cue-lists/version-14.0-copying-moving-linking-and-deleting": {
-        "title": "Copying, Moving, Linking and Deleting",
-        "sidebar_label": "Copying, Moving, Linking and Deleting"
+        "title": "Copying, Moving, Linking and Deleting Cue Lists",
+        "sidebar_label": "Copying, Moving, Linking and Deleting Cue Lists"
       },
       "version-14.0/cue-lists/version-14.0-creating-a-cue-list": {
         "title": "Creating a Cue List",
@@ -1497,6 +1493,10 @@
         "title": "Creating a Cue",
         "sidebar_label": "Creating a Cue"
       },
+      "version-14.0/cues/version-14.0-cue-playback": {
+        "title": "Cue Playback",
+        "sidebar_label": "Cue Playback"
+      },
       "version-14.0/cues/version-14.0-cue-timing": {
         "title": "Cue Timing",
         "sidebar_label": "Cue Timing"
@@ -1512,10 +1512,6 @@
       "version-14.0/cues/version-14.0-playback-options": {
         "title": "Playback Options",
         "sidebar_label": "Playback Options"
-      },
-      "version-14.0/cues/version-14.0-using-a-cue": {
-        "title": "Using a Cue",
-        "sidebar_label": "Using a Cue"
       },
       "version-14.0/version-14.0-effects": {
         "title": "Shapes and Effects introduction",
@@ -1612,10 +1608,6 @@
       "version-14.0/patching/version-14.0-copying-moving-and-deleting-fixtures": {
         "title": "Copying, moving and deleting fixtures",
         "sidebar_label": "Copying, moving and deleting fixtures"
-      },
-      "version-14.0/patching/version-14.0-fixture-personalities": {
-        "title": "Fixture Personalities",
-        "sidebar_label": "Fixture Personalities"
       },
       "version-14.0/patching/version-14.0-fixture-personality-options": {
         "title": "Fixture Personality Options",
