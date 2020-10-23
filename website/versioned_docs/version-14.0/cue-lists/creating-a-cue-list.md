@@ -154,7 +154,7 @@ can manually allocate **Autoloads** to cues.
 To automatically record active playbacks as Autoloads:
 
 1. After selecting **Cue List Record**, turn on \[Autoload Live Playbacks\]
-in the \[Advanced Options\] menu of the cuelist record screen.
+in the \[Advanced Options\] menu of the cue list record screen.
 
 2. Turn on the playbacks you wish to load for this cue.
 
@@ -237,8 +237,8 @@ playback where **n** is the cue number.
 
 Shortcut | Action
 --- | ---
-\<Record\>, \<Connect\>, **n**, \<Enter\> | Record cue **n**
-\<Copy\>, \<Connect\>, n | Copy cue **n**
-\<Delete\>, \<Connect\>, n | Delete cue **n**
-\<Include\>, \<Connect\>, n | Include cue **n**
-\<Connect\>, n, \<Go\> | Go cue **n**
+\<Record\>, \<Connect/Cue\>, **n**, \<Enter\> | Record cue **n**
+\<Copy\>, \<Connect/Cue\>, n | Copy cue **n**
+\<Delete\>, \<Connect/Cue\>, n | Delete cue **n**
+\<Include\>, \<Connect/Cue\>, n | Include cue **n**
+\<Connect/Cue\>, n, \<Go\> | Go cue **n**

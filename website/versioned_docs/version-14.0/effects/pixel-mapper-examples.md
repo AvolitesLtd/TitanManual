@@ -232,7 +232,7 @@ layout.)
 
 6. Use the wheel to adjust **Position Y**
 
-7. **Repeat steps 4 and 5** until all the fixtures are at different heights in
+7. **Repeat steps 5 and 6** until all the fixtures are at different heights in
 relation to one another
 
 ![Layout Editor - Randomly Arranged Fixtures](/docs/images/Layout-Editor-Randomly-Arranged-Fixtures.jpeg)
@@ -281,7 +281,7 @@ The Layout Editor's context menu has some useful tools for laying out
 fixtures quickly.
 
 **Arrange Fixtures:** This is a very useful tool to quickly layout
-fixtures in a grid. For example you might have 20x Colourblocks across
+fixtures in a grid. For example you might have 20x colour blocks across
 four towers, each with five blocks.
 
 1. Select the fixtures and create a group

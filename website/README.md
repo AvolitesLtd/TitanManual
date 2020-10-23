@@ -9,8 +9,9 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 * [Full Documentation](#full-documentation)
 
 # Get Started in 5 Minutes
+1. Make sure you have [yarn](https://classic.yarnpkg.com/en/docs/install) installed.
 
-1. Make sure all the dependencies for the website are installed:
+2. Install all the dependencies for the website:
 
 ```sh
 # Install dependencies
@@ -66,85 +67,6 @@ Edit me...
 ```
 
 For more information about docs, click [here](https://docusaurus.io/docs/en/navigation)
-
-## Editing an existing blog post
-
-Edit blog posts by navigating to `website/blog` and editing the corresponding post:
-
-`website/blog/post-to-be-edited.md`
-```markdown
----
-id: post-needs-edit
-title: This Blog Post Needs To Be Edited
----
-
-Edit me...
-```
-
-For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)
-
-# Adding Content
-
-## Adding a new docs page to an existing sidebar
-
-1. Create the doc as a new markdown file in `/docs`, example `docs/newly-created-doc.md`:
-
-```md
----
-id: newly-created-doc
-title: This Doc Needs To Be Edited
----
-
-My new content here..
-```
-
-1. Refer to that doc's ID in an existing sidebar in `website/sidebar.json`:
-
-```javascript
-// Add newly-created-doc to the Getting Started category of docs
-{
-  "docs": {
-    "Getting Started": [
-      "quick-start",
-      "newly-created-doc" // new doc here
-    ],
-    ...
-  },
-  ...
-}
-```
-
-For more information about adding new docs, click [here](https://docusaurus.io/docs/en/navigation)
-
-## Adding a new blog post
-
-1. Make sure there is a header link to your blog in `website/siteConfig.js`:
-
-`website/siteConfig.js`
-```javascript
-headerLinks: [
-    ...
-    { blog: true, label: 'Blog' },
-    ...
-]
-```
-
-2. Create the blog post with the format `YYYY-MM-DD-My-Blog-Post-Title.md` in `website/blog`:
-
-`website/blog/2018-05-21-New-Blog-Post.md`
-
-```markdown
----
-author: Frank Li
-authorURL: https://twitter.com/foobarbaz
-authorFBID: 503283835
-title: New Blog Post
----
-
-Lorem Ipsum...
-```
-
-For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)
 
 ## Adding items to your site's top navigation bar
 

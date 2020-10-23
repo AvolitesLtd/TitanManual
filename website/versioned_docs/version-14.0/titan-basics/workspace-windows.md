@@ -51,7 +51,7 @@ window for that attribute.
 - \<View/Open\> then a fixture select button opens the Fixture
 View window showing patch details for that fixture.
 
-- \<View/Open\> then \<Connect\> opens the View Cue window.
+- \<View/Open\> then \<Connect/Cue\> opens the Playback View window.
 
 - \<View/Open\> then \<Off\> opens the Active Playbacks window.
 
@@ -71,7 +71,7 @@ on which window it is, the setup of the console and if you have any
 external monitors. The Rows / Columns buttons allow you to control how buttons are
 arranged, see [Controlling button layout/grid](../titan-basics/workspace-windows.md#controlling-button-layout-/-grid)
 
-![Appearance Menu](/docs/images/window-cog-button.png)
+![Window Appearance Menu](/docs/images/Window-Appearance-Options.png)
 
 The **Resize Window** button allows you to set adjustable window sizes.
 A grid screen will open.
@@ -107,18 +107,23 @@ You can close the active window using the \<Close\> button (not on all
 consoles). You can close all windows by pressing \<Avo\>+\<Close\>, or
 use the \[Close All\] softkey.
 
-The **Context Menu** button is only shown on Sapphire Touch and Titan
-Go, and gives a drop down menu at the top of the window showing the
-context menu buttons which relate to the current window.
+### Context menu buttons
 
-![Patch View](/docs/images/Patch-View-2.png)
-
-On all other consoles the context menu buttons are automatically shown
-below the prompt area on the top right of the main screen. These buttons
-change to match the active window. The picture below gives an example of
+On all consoles apart from Sapphire Touch and Titan Go, **context menu 
+buttons** are automatically shown below the prompt area on the top right 
+of the main screen. These buttons contain useful functions for the current
+active window and change depending on the window. \
+The picture below gives an example of
 how the context buttons appear when Patch View window is active.
 
 ![Context Menu](/docs/images/Context-Menu.png)
+
+On Sapphire Touch and Titan Go each window has a **Context Menu button** 
+in the top window bar, which gives a drop down menu showing the
+context menu buttons for the current window.
+
+![Patch View](/docs/images/Patch-View-2.png)
+
 
 
 ### Controlling button layout / grid
@@ -152,8 +157,8 @@ they are down the left side of the screen).
 
 ![Workspaces](/docs/images/Recoding-a-Workspace-Layout.png)
 
-External screens have their own workspace buttons down the side of the screen (these
-can be turned off in the User Settings / General options.)
+External screens can have their own workspace buttons down the side of the screen (these
+can be turned on or off in the [User Settings](../system-settings/user-settings/#display) .)
 
 To record, press \<View/Open\> then
 \[Record Workspace\], then touch one of the Workspaces buttons, or just
@@ -202,7 +207,7 @@ As an example of setting up a workspace, suppose while programming you
 wanted to be able to access fixtures, position palettes, fixture
 attributes and shapes:
 
-1. Double press the \<View/Open\> button. Press \<Exit\> to get to the root menu then the \[Open Workspace
+1. Double press the \<View/Open\> button, or press \<Exit\> to get to the root menu and then the \[Open Workspace
 Window\] menu softkey.
 
 2. Find the \[Fixtures\] icon on the screen and press it.
@@ -216,7 +221,7 @@ top bar and press the top left position button in that window.
 window. Press the \<Size & Position\> button to position it in the desired
 location.
 
-5. Repeat to activate the \[Attribute Control\] and \[Shapes\] windows.
+5. Repeat to activate the \[Attribute Editor\] and \[Effects\] windows.
 
 6. Press \<View/Open\> then \[Record Workspace\], or hold \<Avo\> and
 press \<View/Open\>. Type in a name for the workspace. Then touch the
@@ -231,8 +236,8 @@ store it.
 Quick record
 ------------
 
-![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png)Some windows - Groups, Workspaces,
-Playbacks, and all the Palette windows - have a Quick Record function.
+![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png) Some windows - Groups, Workspaces,
+and all the Palette windows - have a Quick Record function.
 Set up what you want to record, then touch or click an empty button
 once. The button will light up red with a + sign. At this point you can
 enter a legend. Touch or click again to store the item.

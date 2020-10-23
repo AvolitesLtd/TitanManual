@@ -8,22 +8,20 @@ original_id: copying-moving-and-deleting-palettes
 Copying or Moving a Palette
 ---------------------------
 
-Using the \<Copy\> button you can make a copy of an existing palette or
+Using the \<Copy\> and \<Move\> buttons you can make a copy of an existing palette or
 move it to a new button. You can copy or move multiple palettes in one
-operation. You cannot link palette buttons.
+operation. You cannot link palette buttons like you can with cues.
 
 Move is useful for tidying up the console.
 
-1. Press \<Copy\>
+1. Press \<Copy\> or \<Move\> (if the console does not have a **Move** button,
+	you can get this function by holding \<Avo\> and pressing \<Copy\> ).
 
-2. Select \[Copy\] or \[Move\]. Pressing the \<Copy\> button again will
-also toggle these options. Some consoles have a \<Move\> button.
-
-3. Press the **Select** button of the palette you want to copy/move. You
+2. Press the **Select** button of the palette you want to copy/move. You
 can select multiple palettes - use the \<Thro\> and \<And\> buttons to
 add more to the selection - hold down \<And\> to keep adding them.
 
-4. Press the empty button where you want it to go
+3. Press the empty button where you want it to go
 
 ---
 

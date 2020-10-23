@@ -1,7 +1,7 @@
 ---
 id: version-14.0-cue-lists
-title: Cue Lists Introduction
-sidebar_label: Cue Lists Introduction
+title: Cue Lists
+sidebar_label: Cue Lists
 original_id: cue-lists
 ---
 

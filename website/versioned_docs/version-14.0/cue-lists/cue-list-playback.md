@@ -16,7 +16,7 @@ cue is highlighted in grey and the next cue has a box round it.
 
 Also the playback legend above the fader shows information about
 the cue list. The current cue is shown at the top in light blue, with the next cue below in dark blue.
-Fade progress of the cue is shown in a bargraph in the light blue bar. Below
+Fade progress of the cue is shown in a bar graph in the light blue bar. Below
 this the times for the next cue are shown - in time with up arrow and out time with down arrow,
 d for delay and f for fade. If the cue list is set to manual crossfade a red 'M' is shown.
 
@@ -26,7 +26,7 @@ You can also open the Playback View window to show more details of the
 cue list by clicking the Cue List legend area or press \<View/Open\>
 then the **swop button** of the playback. This shows all the timings, links
 and tracking status and is very useful when running a [theatre show](theatre-programming.md) on a
-cuelist.
+cue list.
 
 The option **"Auto View On Connect"** *(in the [User Settings/Wheels menu](../system-settings/user-settings.md#auto-view-on-connect))* if
 enabled will automatically open the relevant Playback View window when
@@ -38,7 +38,7 @@ When times are in progress on a cue, green progress bars are shown in
 the Playback View window - the left hand column shows overall progress,
 and each timing section shows its own progress.
 
-The Playback View will autoscroll to keep the active cue onscreen. You
+The Playback View will autoscroll to keep the active cue on-screen. You
 can change the way the autoscroll works using the view options (click
 the options/cog icon at the top of the window).
 
@@ -61,17 +61,19 @@ the options/cog icon at the top of the window).
 -   You can snap back to the previous cue by pressing the \<Snap Back\>
     button *(not on all consoles)*
 
--   On consoles with a \<Snap\> button *(Arena and Tiger Touch 2)*, when
+-   On consoles with a \<Snap\> button *(Arena and Tiger Touch II)*, when
     you turn on the \<Snap\> button the \<Prev\>/\<Next\> buttons will
     snap immediately to the cue rather than going to the previous/next
-    cue using the programmed times. There is also a [User Setting \[Chase
-    Snap\]](../system-settings/user-settings.md#chase-snap) which enables this mode on consoles which don't have the
+    cue using the programmed times. There is also a 
+    [User Setting \[Chase Snap\]](../system-settings/user-settings.md#chase-snap)
+    which enables this mode on consoles which don't have the
     button.
 
--   You can jump directly to a cue by pressing \<Connect\>, then typing
+-   You can jump directly to a cue by pressing \<Connect/Cue\>, then typing
     in the desired cue number, then pressing \<Enter\> or softkey A.
     Alternatively at the top level menu you can type the cue number then
-    press \<Connect\>.
+    press \<Connect/Cue\>. (This button may be labelled \<Connect\> or
+	\<Cue\> depending on the console).
 
 -   You can use [Key Profiles](../system-settings/key-profiles.md) to set the blue and grey buttons of the
     playback to have various functions including **Go**, **Stop**, **Connect**, **Next
@@ -86,7 +88,7 @@ the options/cog icon at the top of the window).
 
 -   You can change the time for the next cue by entering the time on the
     keypad then pressing \<Go\>. You can jump to another cue and set a
-    different time by typing the cue number then press \<Connect\>, then
+    different time by typing the cue number then press \<Connect/Cue\>, then
     type the time and press \<Go\>.
 
 Killing a Cue List
@@ -97,8 +99,7 @@ this by holding down the \<Avo\> button and pressing the blue Select
 button of the cue list's handle.
 
 You can change this in the playback [Options](../cues/playback-options.md) to make the cue list
-automatically clear when the fader reaches zero (press \[Playback
-Options\] at the program menu, then press the Select button of the cue
+automatically clear when the fader reaches zero (press \<Options\> or the menu button \[Options\] at the program menu, then press the Select button of the cue
 list, then select \[Fader\] \[Fader Mode Intensity Kill At 0\].
 
 You can also use [Key Profiles](../system-settings/key-profiles.md#cue-lists) to configure one of the handle buttons to

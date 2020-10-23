@@ -1,0 +1,213 @@
+# Speling exempshions
+# sorted alphabetically
+# add/remove as necessary
+
+# excluded words
+autoscroll
+busked
+connectable
+dialog
+gimbal
+glitching
+gobo
+gobos
+keystoning
+nd
+num
+rackmount
+rd
+remotes
+repatch
+repatching
+showfile
+showfiles
+shuriken
+shurikens
+strobing
+st
+softkey
+softkeys
+starcloths
+swop
+th
+thru
+timecode
+timecode-controlled
+timecoded
+timestamp
+unmap
+unpark
+un-pause
+unpolled
+unprogrammed
+xx
+xxx
+
+# words which could be hyphenated
+crossfade
+crossfader
+crossfades
+keypress
+keypresses
+multimode
+plugins
+popup
+setups
+startup
+submenu
+submenus
+
+# words which should be hyphenated/not hyphenated (reference)
+# Art-Net
+# crossfade
+# key frame
+# on-screen
+# push-button
+# rack mount
+# show time
+# sub-fixture
+# submenu
+
+# symbols
+i
+
+# case sensitive words
+Ai
+Art-Net
+AutoGroups
+Autoincrement
+Avo
+AvoKey
+Avolites
+DMX-in
+Esc
+Ethernet
+etherCON
+ExpertDMX
+FixtureLibrary
+GamColor
+Goto
+Healthcheck
+HiLight
+Hippotizer
+IPCGBES-FX
+Quicksave
+Lightmap
+LocalClock
+Lustr
+MathsPoetry
+Multi-DMX
+Nexum
+Neutrik
+Ok
+opticalCON
+PioneerDJ
+Prev
+RDM-enabled
+Rec
+Roscolux
+Rx
+sACN
+Sharpie
+TitanNet
+TitanFixtureLibrary.exe
+Thro
+TNPs
+Tx
+Unassign
+VDim
+WiFi
+Winamp
+XFade
+XLRs
+
+# alphanumeric
+0s
+3s
+5s
+10s
+15s
+20s
+500s
+600s
+2000s
+
+76uS
+968uS
+4000us
+
+
+50Hz
+140Hz
+380Hz
+875Hz
+2400Hz
+6200Hz
+14000Hz
+
+x1
+x2
+x4
+x32
+
+4x
+20x
+
+5x5
+
+120Mbps
+200Mbps
+280Mbps
+480Mbps
+
+1920x1080p30
+1920x1080p60
+3840x2160p30
+3840x2160p60
+
+2.x.x.x
+10.x.x.x
+
+3-pin
+5-pin
+9-pin
+
+4xRGB
+
+2.5mm
+5.5mm
+9.5mm
+
+v1
+v2
+v3
+v4
+v5
+v6
+v7
+v8
+v9
+v10
+v11
+v11.1
+v12
+v13
+v14
+
+3-axis
+800mA
+c2o
+12-way
+
+# product names or numbers
+CDJ-TOUR1
+DJM-TOUR1
+CDJ-2000NXS2
+DJM-900NXS2 
+
+# using-the-select-buttons-and-wheels.md
+i.j
+n.m
+
+# glossary.md
+osition

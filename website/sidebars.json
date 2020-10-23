@@ -70,10 +70,10 @@
       "cues",
       "cues/creating-a-cue",
       "cues/cue-playback",
-	  "cues/playback-groups",
+	    "cues/playback-groups",
       "cues/editing-cues",
       "cues/cue-timing",
-	  "cues/playback-options",
+      "cues/playback-options",
       "cues/copying-moving-linking-and-deleting"
     ],
     "Chases": [
@@ -81,7 +81,7 @@
       "chases/creating-a-chase",
       "chases/chase-playback",
       "chases/editing-a-chase",
-	  "chases/chase-timing",
+      "chases/chase-timing",
       "chases/chase-options",
       "chases/copying-moving-linking-and-deleting"
     ],

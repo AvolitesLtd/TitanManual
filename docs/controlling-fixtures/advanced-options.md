@@ -8,7 +8,7 @@ The ML Menu button
 ------------------
 
 When the console is at the top level menu, this button opens the Moving Light Actions menu which contains options to Locate Fixture (same as the Locate button) and to run Macros on fixtures such as Lamp On, Lamp Off, Reset etc. The Align Fixtures and Flip functions as described above are also in this menu.
-On the Pearl Expert and Tiger Touch Mk1, this button also latches the current menu when the console is not at the top level menu. Press <Exit> to get back to the top menu so that you can access the Moving Light menu. On other consoles there is a dedicated <Latch Menu> button.
+On the Pearl Expert and Tiger Touch 1, this button also latches the current menu when the console is not at the top level menu. Press <Exit> to get back to the top menu so that you can access the Moving Light menu. On other consoles there is a dedicated <Latch Menu> button.
 
 Lamping fixtures on and off
 ---------------------------

@@ -10,6 +10,7 @@ console's internal hard disk. The console will also autosave the show
 periodically.
 
 > Shows created on a Titan console can be loaded into any other model of Avolites Titan console, but not to older non-Titan consoles as the showfile format is different. \
+  \
   Showfiles from newer versions of Titan may not load correctly (or at all) into consoles with older versions of Titan.
 
 
@@ -30,7 +31,7 @@ To save your current show:
 
 1. Press the \<Disk\> button.
 
-2. Press \[Save Show\].
+2. Press \[Save\].
 
 3. If you have a USB drive connected, use the softkeys to select
 whether to save on \[Removable Disk\] or \[Internal hard drive\].

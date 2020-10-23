@@ -103,7 +103,7 @@ gewünschte Geschwindigkeit ein, und drücken \<Enter\>. *Abhängig von den
 (BPM) oder Sekunden eingegeben werden*.
 
 In diesem Menü lassen sich noch weitere Optionen einstellen, etwa das
-Geräte-Überlappen. Details dazu finden sich im Abschnitt [Zeiten bei Chasern](chase-timing.md).
+[Geräte-Überlappen](../cues/cue-timing.md#fade-times-and-fixture-overlap). Details dazu finden sich im Abschnitt [Zeiten bei Chasern](chase-timing.md).
 
 Für jeden Schritt lassen sich getrennte Zeiten vergeben, ebenso lässt
 sich die Schrittfolge unterbrechen, so dass der nächste Schritt auf das

@@ -29,7 +29,7 @@ settings, as described below
     \<Enter\>. The speed can be set in Beats Per Minute (BPM) or seconds
     depending on the user settings.
 
--   To set **crossfade**, press \[Xfade\] then type the fade from **0 - 100**
+-   To set **crossfade**, press \[XFade\] then type the fade from **0 - 100**
     and press \<Enter\>.\
     *0=no fade (the chase will "snap"), 100=max fade (the chase will move
     continuously from cue to cue).*
@@ -37,30 +37,11 @@ settings, as described below
 -   You can assign the blue or grey handle button to be a **tap tempo**
     button using the [Key Profiles](../system-settings/key-profiles.md) option.
 
-### Overlap
+### Fixture Overlap
 
-The **Overlap** functions allow you to offset and overlap the timing of
-changes in the chase. This can create really amazing visual effects with
-hardly any programming. The best way to learn about overlap is to
-program a chase with two cues involving several fixtures, then
-experiment with the overlap settings to see the various *"roll"* and *"peel
-off"* effects which result.
-
-The following diagram shows you the effects of fixture
-overlap and attribute overlap in chases.
-
-![Fixture Overlap and Attribute Overlap diagram for a chase](/docs/images/Fixture-Overlap-and-Attribute-Overlap-diagram-for-a-chase.png)
-
-Press \[Fixture Overlap\] then enter **0 - 100** on the keypad to change
-how fixtures overlap in the cue.\
-**100%** *(the normal setting)* means all fixtures fade together.\
-**0%** means that the first fixture will finish
-its fade before the next one starts giving a "rolling" change across
-a range of fixtures.\
-**50%** means that the 2^nd^ fixture will start
-fading when the first one is half way through its fade.\
-The order of the fixtures is set by the order you selected them when the cue was
-saved; you can change the order using \<Unfold\>.
+Fixture overlap creates an effect where the fixtures in the cue are changed in
+sequence rather than all at the same time. This is described in more detail in
+[Cue Timing](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
 Individual Cue Times in Chases
 ------------------------------
@@ -166,6 +147,6 @@ Speed multipliers allow you to modify the chase speed, either faster
 running multiple chases together.
 
 Press \[Speed Multiplier\] In the Edit Times menu for the chase, or use
-the \[Speed Multiplier\] option in the Playback category of the 
+the \[Speed Multiplier\] option in the Times category of the 
 [Options](../cues/playback-options.md) for the chase. Use the \[Multiply or Divide\] softkey to swap
 the value between multiply and divide.
