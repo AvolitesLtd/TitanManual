@@ -9,6 +9,10 @@ RUN brew install \
     texlive \
     wget
 
+RUN tlmgr path add
+
+RUN brew unlink texlive && brew link texlive
+
 # magical fix...
 RUN wget http://mirror.ctan.org/systems/texlive/tlnet/update-tlmgr-latest.sh \
     && chmod +x update-tlmgr-latest.sh \
