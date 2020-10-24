@@ -1,5 +1,7 @@
 FROM pandoc/latex as builder
 
+ENTRYPOINT ["/bin/sh", "-c"]
+
 RUN apk add --update \
     bash \
     lcms2-dev \
