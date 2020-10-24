@@ -1,8 +1,5 @@
 FROM blang/latex:ubuntu as builder
 
-# LaTeX packages
-RUN tlmgr update --self
-
 # get font files
 RUN fmtutil-sys --all
 
