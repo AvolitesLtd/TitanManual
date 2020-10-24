@@ -1,5 +1,16 @@
 FROM pandoc/latex as builder
 
+RUN apk add --update \
+    bash \
+    lcms2-dev \
+    libpng-dev \
+    gcc \
+    g++ \
+    make \
+    autoconf \
+    automake \
+  && rm -rf /var/cache/apk/*
+
 RUN apk add nodejs npm
 
 # get font files
