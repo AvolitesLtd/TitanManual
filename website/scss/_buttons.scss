@@ -91,7 +91,7 @@
   &.red {
     border-color: mix(darken($colorGrey,20%), $colorAvoRed, 70%);
     background-color: mix(lighten(grey,45%), $colorAvoRed, 99%);
-    color: mix(darken($colorGrey,60%), $colorAvoRed, 10%);
+    color: mix(darken($colorGrey,60%), $colorAvoRed, 15%);
   }
 }
 

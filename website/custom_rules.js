@@ -1,3 +1,5 @@
+const transButtons = require('./languages-buttons.json')
+
 module.exports = {
   keyRule: function (md, name, open, close, render_open, render_close, max) {
     md.inline.ruler.before('text',name, function(state,silent) {
@@ -68,47 +70,10 @@ module.exports = {
   context_open: function(tokens, idx, options /*, env */) {
     let keyClass = ' ';
 
-    switch (tokens[idx+1].content.toLowerCase()) {
-      case "+":
-        keyClass += "plus"
-        break;
-
-      case "i":
-        keyClass += "i"
-        break;
-
-      case "x":
-        keyClass += "key-with-icon x"
-        break;
-
-      case "sun":
-      case "sonne": // german
-        keyClass += "key-with-icon sun"
-        break;
-
-      case "rubbish bin":
-      case "mülleimer": //german
-        keyClass += "key-with-icon rubbish"
-        break;
-
-      case "pencil":
-      case "bleistift": // german
-        keyClass += "key-with-icon pencil"
-        break;
-
-      case "link":
-      case "verknüpfung": // german
-        keyClass += "key-with-icon link"
-        break;
-
-      case "cog":
-      case "zahn": // german
-        keyClass += "key-with-icon cog"
-        break;
-    
-      default:
-        break;
-    }
+    for (const [cls, trans] of Object.entries(transButtons))
+      for (const [lang, tran] of Object.entries(trans.lang))
+        if(tokens[idx+1].content.toLowerCase() == tran)
+          keyClass += cls;
 
     return `<span class="context ${keyClass}">`;
   },
