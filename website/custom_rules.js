@@ -65,6 +65,25 @@ module.exports = {
     return '</span>';
   },
 
+  context_open: function(tokens, idx, options /*, env */) {
+    let keyClass = '';
+
+    switch (tokens[idx+1].content.toLowerCase()) {
+      case "+":
+        keyClass = "plus"
+        break;
+    
+      default:
+        break;
+    }
+
+    return `<span class="context ${keyClass}">`;
+  },
+
+  context_close: function(/* tokens, idx, options, env */) {
+    return '</span>';
+  },
+
   annotate_open: function(tokens, idx, options /*, env */) {
     return `<span class="annotate">`;
   },

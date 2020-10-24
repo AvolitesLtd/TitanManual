@@ -81,6 +81,12 @@ const siteConfig = {
       md.renderer.rules.softkey_open = custom_rules.softkey_open
       md.renderer.rules.softkey_close = custom_rules.softkey_close
 
+      // style context buttons
+      // e.g. \{Move Camera\}
+      custom_rules.keyRule(md,"context","\\{","\\}","context_open","context_close")
+      md.renderer.rules.context_open = custom_rules.context_open
+      md.renderer.rules.context_close = custom_rules.context_close
+
       // style physical console keys
       // e.g. \<Avo\>
       custom_rules.keyRule(md,"key","\\<","\\>","key_open","key_close")

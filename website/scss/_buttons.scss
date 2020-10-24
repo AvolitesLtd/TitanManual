@@ -1,4 +1,4 @@
-.softkey, .key, .annotate {
+.softkey, .context, .key, .annotate {
   display: inline-block;
   margin: 3px;
   padding: 3px 7px;
@@ -19,7 +19,18 @@
   border-color: darken($colorBlue,30%);
   background: lighten($colorBlue,28%);
   color: darken($colorBlue,40%);
+  border-radius: 3px;
+}
+
+.context {
+  border-color: darken($colorGrey,5%);
+  background: linear-gradient(darken($colorGrey,18%),darken($colorGrey,25%));
+  color: white;
   border-radius: 5px;
+
+  &.plus {
+    font-weight: bold;
+  }
 }
 
 .key {
