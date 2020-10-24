@@ -123,7 +123,7 @@ remove the filter or click on the bar to change the group/playback.
 
 \[Open Channel Grid\] opens the [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window).
 
-In the **Window Appearance Settings** (cog button) there are further
+In the **Window Appearance Settings** (\{Cog\} button) there are further
 display options. Turning off some of the options will reduce the size of
 each fixture button which may be useful if you want to get more fixtures
 on the screen.

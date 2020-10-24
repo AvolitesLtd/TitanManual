@@ -77,6 +77,10 @@ module.exports = {
         keyClass += "i"
         break;
 
+      case "x":
+        keyClass += "key-with-icon x"
+        break;
+
       case "sun":
       case "sonne": // german
         keyClass += "key-with-icon sun"
@@ -95,6 +99,11 @@ module.exports = {
       case "link":
       case "verknüpfung": // german
         keyClass += "key-with-icon link"
+        break;
+
+      case "cog":
+      case "zahn": // german
+        keyClass += "key-with-icon cog"
         break;
     
       default:

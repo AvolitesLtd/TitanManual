@@ -91,7 +91,7 @@ at the bottom of the workspace.
 Playback Group workspace display options
 ----------------------------------------
 
-Using the workspace options menu (cog button at the top of the window) you can set three 
+Using the workspace options menu (\{Cog\} button at the top of the window) you can set three 
 different display modes for the Playback Groups workspace:
 
 \[View Mode All\] – 2 panes with group buttons on the left and all the playbacks in each group shown on the right

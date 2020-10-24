@@ -61,14 +61,14 @@ View window showing patch details for that fixture.
 At the top right of each workspace window are three or four buttons
 which access other functions for the window.
 
-The **Window Appearance Options** button (cog icon) lets you select the
+The **Window Appearance Options** button (\{Cog\} button) lets you select the
 standard window sizes and positions (top left quarter, top right quarter etc.)
 Buttons are also shown allowing you
 to set the button size and the text size of the buttons in the window, and move the
 window to a different monitor. The Appearance options may vary depending
 on which window it is, the setup of the console and if you have any
 external monitors. The Rows / Columns buttons allow you to control how buttons are
-arranged, see [Controlling button layout/grid](../titan-basics/workspace-windows.md#controlling-button-layout-/-grid)
+arranged, see [Controlling button layout/grid](../titan-basics/workspace-windows.md#controlling-button-layout-/-grid).
 
 ![Window Appearance Menu](/docs/images/Window-Appearance-Options.png)
 
@@ -133,7 +133,7 @@ consoles or different screens can make the number of rows and columns
 change, causing buttons to move around. If you have set a particular
 layout you want to keep (for example if you've positioned fixtures in
 the window to match the layout on stage), open the Window Appearance
-menu using the Cog button and set Button Size to \[Button Size Set Rows
+menu using the \{Cog\} button and set Button Size to \[Button Size Set Rows
 & Columns\]. You can then set a fixed layout using the \[Rows\] and
 \[Columns\] buttons.
 
@@ -213,7 +213,7 @@ Window\] menu softkey.
 
 3. If the window is not in the top left quarter, press the \<Size &
 Position\> button (above the numeric keys) until the window occupies the
-top left quarter. Or press the Settings/Cog touch button on the window
+top left quarter. Or press the \{Cog\} button on the window
 top bar and press the top left position button in that window.
 
 4. Double press \<View/Open\>  again and select the \[Positions\]

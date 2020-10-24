@@ -49,6 +49,18 @@
     font-style: italic !important;
   }
 
+  &.x {
+    padding: 3px 15px 1px 5px;
+    text-indent: -9999px;
+
+    &:before {
+      display: inline-block;
+      position:absolute;
+      text-indent: 9999px;
+      content: fa-content($fa-var-times);
+    }
+  }
+
   &.sun:before {
     content: fa-content($fa-var-sun);
   }
@@ -63,6 +75,10 @@
 
   &.link:before {
     content: fa-content($fa-var-link);
+  }
+
+  &.cog:before {
+    content: fa-content($fa-var-cog);
   }
 }
 

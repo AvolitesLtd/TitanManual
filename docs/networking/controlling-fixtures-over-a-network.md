@@ -110,7 +110,7 @@ Now on the console when you patch, you will patch the dimmer channels on address
 fixtures on the first output of the 12-way DMX node will be on addresses 2.001 - 2.512 and
 the fixtures on the second output will be on addresses 3.001 - 3.512.
 
-- Press the small cog button on the Art-Net device to show a properties window. 
+- Press the small \{Cog\} button on the Art-Net device to show a properties window. 
 	See [Art-Net settings](../system-settings/dmx-output-mapping.md#art-net-properties)
 	for an explanation of the settings.
 

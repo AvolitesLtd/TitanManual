@@ -259,7 +259,7 @@ A roller display at the left side allows you to select different pages.
 
 ![Virtual playbacks window](/docs/images/Virtual-Faders.png)
 
-Press the Settings (cog) button at the top of the screen to
+Press the \{Cog\} button at the top of the screen to
 
 - Show or hide the page select roller
 
