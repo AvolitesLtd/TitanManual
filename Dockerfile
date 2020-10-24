@@ -1,4 +1,4 @@
-FROM blang/latex:ubuntu as builder
+FROM texlive/texlive as builder
 
 # get font files
 RUN fmtutil-sys --all
