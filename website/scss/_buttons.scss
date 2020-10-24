@@ -16,10 +16,13 @@
 }
 
 .key-with-icon {
-  margin-right: 5px;
-  @extend %fa-icon;
-  @extend .fas;
   text-transform: capitalize;
+
+  &:before {
+    margin-right: 5px;
+    @extend %fa-icon;
+    @extend .fas;
+  }
 }
 
 .softkey {
@@ -47,22 +50,18 @@
   }
 
   &.sun:before {
-    @extend .key-with-icon;
-    content: fa-content($fa-var-sun); 
+    content: fa-content($fa-var-sun);
   }
 
   &.rubbish:before {
-    @extend .key-with-icon;
     content: fa-content($fa-var-trash-alt);
   }
 
   &.pencil:before {
-    @extend .key-with-icon;
     content: fa-content($fa-var-pencil-alt);
   }
 
   &.link:before {
-    @extend .key-with-icon;
     content: fa-content($fa-var-link);
   }
 }

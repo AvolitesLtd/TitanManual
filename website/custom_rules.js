@@ -79,22 +79,22 @@ module.exports = {
 
       case "sun":
       case "sonne": // german
-        keyClass += "sun"
+        keyClass += "key-with-icon sun"
         break;
 
       case "rubbish bin":
       case "mülleimer": //german
-        keyClass += "rubbish"
+        keyClass += "key-with-icon rubbish"
         break;
 
       case "pencil":
       case "bleistift": // german
-        keyClass += "pencil"
+        keyClass += "key-with-icon pencil"
         break;
 
       case "link":
       case "verknüpfung": // german
-        keyClass += "link"
+        keyClass += "key-with-icon link"
         break;
     
       default:
