@@ -1,8 +1,4 @@
-FROM texlive/texlive as builder
-
-RUN apt-get install perl \
-node \
-pandoc
+FROM pandoc/latex as builder
 
 # get font files
 RUN fmtutil-sys --all
