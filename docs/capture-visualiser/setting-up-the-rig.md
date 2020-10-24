@@ -17,7 +17,7 @@ Click the **Stage** tab.
 ![Capture Visualiser Settings Window](/docs/images/Capture-Visualiser-Settings-Window.png)
 
 **"Floor"** and **"Back Wall"** are provided by default. You can add other
-objects by clicking the **+** button at the bottom of the list.
+objects by clicking the \{+\} button at the bottom of the list.
 
 Click on the object in the list on the left hand side to position and
 angle the object using the controls on the right. You can either type

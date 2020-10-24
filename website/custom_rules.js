@@ -66,11 +66,35 @@ module.exports = {
   },
 
   context_open: function(tokens, idx, options /*, env */) {
-    let keyClass = '';
+    let keyClass = ' ';
 
     switch (tokens[idx+1].content.toLowerCase()) {
       case "+":
-        keyClass = "plus"
+        keyClass += "plus"
+        break;
+
+      case "i":
+        keyClass += "i"
+        break;
+
+      case "sun":
+      case "sonne": // german
+        keyClass += "sun"
+        break;
+
+      case "rubbish bin":
+      case "mülleimer": //german
+        keyClass += "rubbish"
+        break;
+
+      case "pencil":
+      case "bleistift": // german
+        keyClass += "pencil"
+        break;
+
+      case "link":
+      case "verknüpfung": // german
+        keyClass += "link"
         break;
     
       default:

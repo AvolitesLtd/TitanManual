@@ -62,7 +62,7 @@ Surfaces will control the different outputs of the Ai server. At the
 bottom are Surfaces which are already configured on Ai but are not yet
 linked to Titan, these are called unmatched surfaces.
 
-Click on the **+** at the bottom and select Surface from the pop up to add a
+Click on the \{+\} at the bottom and select Surface from the pop up to add a
 new surface. This will appear at the top; by default it has two layers
 but you can change this later.
 
@@ -87,7 +87,7 @@ using the media preview window, you will need to turn this on. If not
 leave it turned off, as it causes a lot of network traffic.
 
 Once you have created a surface in Titan, you need to match it to the Ai
-surface. Click on the Link button on the unmatched surface at the
+surface. Click on the \{Link\} button on the unmatched surface at the
 bottom, then click on the Screen 1 surface at the top (or you can click
 **"Link to new Surface"** to automatically create a new surface and link to
 it).
@@ -109,11 +109,11 @@ screen using Ai, only from the Titan console.
 
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)
 
-To add a layer, click on the surface, then the **+** button at the bottom
+To add a layer, click on the surface, then the \{+\} button at the bottom
 and select **Layer** from the popup.
 
-To delete a layer or surface, select the item then click the **Rubbish Bin**
-icon at the bottom, or press \<Delete\> then click the layer/surface. If
+To delete a layer or surface, select the item then click the \{Rubbish Bin\}
+button at the bottom, or press \<Delete\> then click the layer/surface. If
 linked to Ai, this will also delete the layer/surface in Ai.
 
 Synergy Fixtures Window

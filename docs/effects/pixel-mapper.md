@@ -34,9 +34,9 @@ Overlay 50/50\] context menu button.
 
 ### Elements
 
-Click on the \[+\] button at the bottom to add an effect, and choose a
+Click on the \{+\} button at the bottom to add an effect, and choose a
 graphic element. You can **remove** elements by selecting them and clicking
-on the **"rubbish bin"** icon. The graphic buttons as shown below provide
+on the \{Rubbish Bin\} button. The graphic buttons as shown below provide
 the following elements to animate:
 
 -   Square
@@ -78,7 +78,7 @@ which will vary depending on the shape but may include:
 ### Animations
 
 Then with the graphic element selected on the left hand side, click on
-the \[+\] button again and choose an **Animation** (how your graphic element
+the \{+\} button again and choose an **Animation** (how your graphic element
 will move or change) or **Visual Effect** (which change the appearance of the element).
 The animated effect will show in the black window
 and be output to the fixtures You can add multiple animations which will

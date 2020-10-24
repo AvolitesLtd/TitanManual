@@ -30,7 +30,7 @@ effect as you create it*
 *This will allow the whole effect to overlay any related intensities*
 ![Effect Editor - Pixel Mapper - Setting Background Opacity of Effect](/docs/images/Effect-Editor-Pixel-Mapper-Setting-Background-Opacity-of-Effect.png)
 
-6. Select \[Layer 1\], click \[+\] at the bottom of the screen and then
+6. Select \[Layer 1\], click \{+\} at the bottom of the screen and then
 choose **Circle** from the elements that appear
 ![Effect Editor - Pixel Mapper - Adding a Circle to Layer 1](/docs/images/Effect-Editor-Pixel-Mapper-Adding-a-Circle-to-Layer-1.png)
 
@@ -42,12 +42,12 @@ circle into an oval if that helps.
     the centre of your fixtures if it is not already.
     ![Effect Editor - Pixel Mapper - Transforming a Circle Element](/docs/images/Effect-Editor-Pixel-Mapper-Transforming-a-Circle-Element.png)
 
-8. Select \[+\] again and choose **Displacement** from the animations that
+8. Select \{+\} again and choose **Displacement** from the animations that
 appear (this is represented as a few static blocks)
 ![Effect Editor - Pixel Mapper - ](/docs/images/Effect-Editor-Pixel-Mapper.png)  
 Note that nothing changes yet
 
-9. Select \[+\] and this time choose **Opacity** animation (represented as
+9. Select \{+\} and this time choose **Opacity** animation (represented as
 a block fading in).
 
 10. Modify the effect:
@@ -78,7 +78,7 @@ example](#randomising-effects)
 2. Start creating an effect by selecting the group then \[Shapes And
 Effects\], \[Pixel Mapper\], \[Create Effect\]
 
-3. Select \[Layer 1\], click \[+\] at the bottom of the screen and then
+3. Select \[Layer 1\], click \{+\} at the bottom of the screen and then
 choose Block from the elements that appear.
 
     Drag the **Rotation** slider to the right to angle the element at
@@ -94,7 +94,7 @@ choose Block from the elements that appear.
 
     ![Effect Editor - Pixel Mapper - Transforming a Block](/docs/images/Effect-Editor-Pixel-Mapper-Transforming-a-Block.png)
 
-4. Click \[+\] again and choose **Linear Movement Animation** (represented
+4. Click \{+\} again and choose **Linear Movement Animation** (represented
 as a block moving left to right).
 
     On the right side of the **Direction** slider there is a compass button.
@@ -114,7 +114,7 @@ as a block moving left to right).
 
     ![Effect Editor - Pixel Mapper - Modify a Linear Movement Animation](/docs/images/Effect-Editor-Pixel-Mapper-Modify-a-Linear-Movement-Animation.png)
 
-5. Click on \[Layer 2\], select \[+\] and select the Swirl element
+5. Click on \[Layer 2\], select \{+\} and select the Swirl element
 (represented by a **fan** shape with four arms).
 
     Increase **Zoom** until it is as large as will fit in the screen.
@@ -130,7 +130,7 @@ as a block moving left to right).
 
     ![Effect Editor - Pixel Mapper - Modifying Swirl](/docs/images/Effect-Editor-Pixel-Mapper-Modifying-Swirl.png)
 
-6. Click on \[+\] and add a spin animation.
+6. Click on \{+\} and add a spin animation.
 
     Reduce the speed until it just causes a light breeze.
 
@@ -354,7 +354,7 @@ example and go to \[Create Effect\]
 **Background Opacity** to zero\
 *This will allow it to overlay the other playback*
 
-3. Double-Click \[Layer 1\] (or press \[+\]) and choose **Circle** from the
+3. Double-Click \[Layer 1\] (or press \{+\}) and choose **Circle** from the
 elements that appear\
 *Double-click is a shortcut to elements and animations*
 
@@ -363,7 +363,7 @@ elements that appear\
 
     ![Effect Editor - Pixel Mapper - Editing Height of Circle](/docs/images/Effect-Editor-Pixel-Mapper-Editing-Height-of-Circle.png)
 
-4. Double-click on \[Circle\] (or press \[+\]) and select the **Zoom**
+4. Double-click on \[Circle\] (or press \{+\}) and select the **Zoom**
 animation
 
     Drag **In Time** to 0% and **Out Time** to 100%. (This will make the
@@ -373,7 +373,7 @@ animation
     Increase **End Zoom** until the element begins by filling the whole
     window.
 
-5. Double-click on \[Zoom Animation\] (or press \[+\]) and select the
+5. Double-click on \[Zoom Animation\] (or press \{+\}) and select the
 **Opacity animation**
 
     Reduce **Spawn Rate** to zero. (This will ensure the opacity only works
