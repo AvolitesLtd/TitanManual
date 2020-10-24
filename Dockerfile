@@ -1,5 +1,7 @@
 FROM pandoc/latex as builder
 
+RUN apk add nodejs npm
+
 # get font files
 RUN fmtutil-sys --all
 
