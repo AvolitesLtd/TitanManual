@@ -16,38 +16,39 @@
 }
 
 .softkey {
-  border-radius: 5px;
-  background: lighten($colorBlue,28%);
   border-color: darken($colorBlue,30%);
+  background: lighten($colorBlue,28%);
   color: darken($colorBlue,40%);
+  border-radius: 5px;
 }
 
 .key {
-  background: lighten(grey,45%);
   border-color: darken($colorGrey,20%);
+  background: lighten(grey,45%);
   color: darken($colorGrey,60%);
   text-transform: uppercase;
+
+  &.red {
+    border-color: mix(darken($colorGrey,20%), $colorAvoRed, 70%);
+    background-color: mix(lighten(grey,45%), $colorAvoRed, 99%);
+    color: mix(darken($colorGrey,60%), $colorAvoRed, 10%);
+  }
 }
 
 .annotate {
-  border-radius: 5px;
   padding: 1px 4px;
-  background-color: lighten($colorAvoRed,57%);
+  border-radius: 5px;
   border-color: $colorAvoRed;
+  background-color: lighten($colorAvoRed,57%);
   color: $colorAvoRed;
   font-weight: bold !important;
 }
 
 .button {
-    border: 1px solid $colorAvoRed;
-    border-radius: 3px;
-    color: #D80029;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.2em;
     padding: 10px;
-    text-decoration: none !important;
+    border-radius: 3px;
+    border-color: $colorAvoRed;
+    color: $colorAvoRed;
     text-transform: uppercase;
-    transition: background 0.3s, color 0.3s;
+    transition: all 0.3s, color 0.3s;
 }

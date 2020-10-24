@@ -51,13 +51,20 @@ module.exports = {
     return '</span>';
   },
 
-  button_open: function(tokens, idx, options /*, env */) {
-    return `<span class="key">`;
+  key_open: function(tokens, idx, options /*, env */) {
+    const redKeys = ["avo","locate"];
+    let keyClass = '';
+    if(redKeys.includes(tokens[idx+1].content.toLowerCase())) {
+      keyClass += " red";
+    }
+
+    return `<span class="key ${keyClass}">`;
   },
 
-  button_close: function(/* tokens, idx, options, env */) {
+  key_close: function(/* tokens, idx, options, env */) {
     return '</span>';
   },
+
   annotate_open: function(tokens, idx, options /*, env */) {
     return `<span class="annotate">`;
   },
