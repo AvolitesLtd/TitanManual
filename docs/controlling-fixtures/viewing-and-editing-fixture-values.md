@@ -111,14 +111,14 @@ The second option changes sort order as described above
 
 \[Search\] allows you to enter characters to search for in the legend or
 user number, matching fixtures will be shown as you type. When Search is
-active a search bar is shown at the top of the window, click the X to
+active a search bar is shown at the top of the window, click the \{X\} to
 remove the search filter or click on the text to modify the search
 string.
 
 \[View If\] lets you click on a group and/or playback to show only the
 fixtures in that group or playback. For a chase or cue list, this will
 include all fixtures in all the cues of the chase/list. The filter
-settings are shown in a bar at the top of the window, click the X to
+settings are shown in a bar at the top of the window, click the \{X\} to
 remove the filter or click on the bar to change the group/playback.
 
 \[Open Channel Grid\] opens the [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window).

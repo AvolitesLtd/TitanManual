@@ -72,7 +72,7 @@ Clicking on the top part of a Surface will
 show options on the right for the surface. These options allow you to
 set the canvas resolution which can either be picked from a list of
 common resolutions, or entered numerically; at the top right the display
-halo colour of the surface can be set, and the pencil button allows you
+halo colour of the surface can be set, and the \{Pencil\} button allows you
 to change the name (you can also do this with the \[Set Legend\]
 button).
 

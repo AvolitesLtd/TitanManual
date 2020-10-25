@@ -28,11 +28,12 @@ Happy programming!
 Conventions used in the manual
 ------------------------------
 
-Links or cross-references to a more detailed description are shown like this: [link to a page](./introduction.md)
+Links or cross-references to a more detailed description are shown [like this](./introduction.md).
 
-To help you find buttons and controls, physical labelled buttons on the console are
-shown like \<This\> (or like \<Avo\>). Softkey options on the touchscreen are shown like 
-\[This\] and context buttons in menus like \{This\}.
+To help you find buttons and controls:
+- \<This\> indicates a physical buttons on the console *(or \<Avo\> for red keys)*
+- \[This\] indicates a softkey option on the touchscreen
+- \{This\} indicates an option in a context menu 
 
 Step-by-step guides are shown as follows:
 
