@@ -152,7 +152,7 @@ jobs:
         id: pdf
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          checkName: build
+          checkName: pdf
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
           timeoutSeconds: 1800
 

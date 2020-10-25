@@ -11,9 +11,9 @@ RUN apk add --update \
     make \
     autoconf \
     automake \
+    nodejs \
+    npm \
   && rm -rf /var/cache/apk/*
-
-RUN apk add nodejs npm
 
 # get font files
 RUN fmtutil-sys --all
@@ -56,18 +56,18 @@ RUN npm install --unsafe-perm=true
 COPY ./docs /app/docs
 COPY ./parse /app/parse
 
-#localhost
+# localhost
 FROM builder AS web
 WORKDIR /app/website
 EXPOSE 3000 35729
-CMD ["npm", "run", "start"]
+CMD ["npm run start"]
 
 # PDF build
 FROM builder AS pdf
 WORKDIR /app/parse
-CMD ["node","pdf.js"]
+CMD ["node pdf.js"]
 
 # app build
 FROM builder AS app
 WORKDIR /app/website
-CMD ["npm", "run", "app-build"]
+CMD ["npm run app-build"]
