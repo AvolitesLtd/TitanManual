@@ -1,0 +1,48 @@
+{
+  "plus": {
+    "lang": {
+      "en": "+"
+    }
+  },
+  "i": {
+    "lang": {
+      "en": "i"
+    }
+  },
+  "key-with-icon x": {
+    "lang": {
+      "en": "x"
+    }
+  },
+  "key-with-icon sun": {
+    "lang": {
+      "en": "sun",
+      "de": "sonne",
+      "es": "dom"
+    }
+  },
+  "key-with-icon rubbish": {
+    "lang": {
+      "en": "rubbish bin",
+      "de": "mülleimer"
+    }
+  },
+  "key-with-icon pencil": {
+    "lang": {
+      "en": "pencil",
+      "de": "bleistift"
+    }
+  },
+  "key-with-icon link": {
+    "lang": {
+      "en": "link",
+      "de": "verknüpfung"
+    }
+  },
+  "key-with-icon cog": {
+    "lang": {
+      "en": "cog",
+      "de": "zahn"
+    }
+  }
+}

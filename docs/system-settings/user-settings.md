@@ -16,9 +16,7 @@ same options using the softkey options. User Settings are individual for
 each User and you can change the User from this screen.
 
 
-> Click on the *i* button for a help window on each setting.\
-> \
-> ![i button](/docs/images/i-button.png)
+> Click on the \{i\} button for a help window on each setting.
 
 Options are divided into categories on the softkeys or down the left
 hand side.
@@ -31,7 +29,7 @@ to the new state. If disabled, programmed fades will be shown. This is
 the same function as the \<Snap\> button which features on some consoles.
 
 ### Cue List Snap
-If enabled the \<Next Step\> and \<Prev Step\ buttons will
+If enabled the \<Next Step\> and \<Prev Step\> buttons will
 snap to the new state. If disabled, programmed fades will be shown.
 
 ### Clear Record Mask
