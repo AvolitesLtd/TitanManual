@@ -28,13 +28,13 @@ Expert, because the rollers cannot be moved automatically).
 Creating a Set List
 -------------------
 
-To create a Set List, click the \[+\] button *in the top right corner* of
+To create a Set List, click the \{+\} button *in the top right corner* of
 the window. You can choose **Empty**, **Pages**, and **Build**: 
 -   Pages will automatically create a set list using the legends of your 
     existing playback pages, one page per track. 
 -   Build allows you to select the pages in the order you want them. 
 -   Empty: your start with an empty list and can manually add tracks 
-    using the \[+\] button *below the track list*.
+    using the \{+\} button *below the track list*.
 
 Configuring Tracks
 ------------------

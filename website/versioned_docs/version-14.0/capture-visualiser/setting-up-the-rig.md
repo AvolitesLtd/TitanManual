@@ -12,13 +12,13 @@ To help you see what your rig will really look like you can add fixed
 elements of staging and rigging.
 
 Open the Capture Visualiser Settings window from the [Open Workspace
-Window menu](../titan-basics/workspace-windows.md#shortcuts-to-open-workspace-windows), or the **Open Settings** context button in the Capture window.
+Window menu](../titan-basics/workspace-windows.md#shortcuts-to-open-workspace-windows), or the \{Open Settings\} context button in the Capture window.
 Click the **Stage** tab.
 
 ![Capture Visualiser Settings Window](/docs/images/Capture-Visualiser-Settings-Window.png)
 
 **"Floor"** and **"Back Wall"** are provided by default. You can add other
-objects by clicking the **+** button at the bottom of the list.
+objects by clicking the \{+\} button at the bottom of the list.
 
 Click on the object in the list on the left hand side to position and
 angle the object using the controls on the right. You can either type
@@ -39,14 +39,15 @@ fixtures into the visualiser. The [Exchange Fixtures](../patching/changing-the-p
 used to help with this situation.
 
 Fixtures are positioned using the wheels. Select one or more fixtures
-using the [Fixture select or Group buttons](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) and turn them on by pressing
-[Locate](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate). Press the \[Position - Orientation\] context menu button to
+using the [Fixture select or Group buttons](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control)
+and turn them on by pressing [\<Locate\>](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate).
+Press the \{Position - Orientation\} context menu button to
 switch the wheels to Visualiser mode *(or press Softkey G at the top
 level menu until the display shows Wheels-Visualiser)*.
 
 Select **Position** attribute, then use the wheels to change the X/Y/Z
 position of the fixture(s). If you select multiple fixtures, pressing
-the \[Scale-Fan\] context menu button or the **Fan** button allows you to
+the \{Scale-Fan\} context menu button or the \<Fan\> button allows you to
 evenly spread out the fixtures. The [Fan curve/group/split options](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-mode) also
 work.
 
@@ -94,11 +95,11 @@ The context menu buttons provide camera options.
 ![Capture Visualiser Workspace Window Context Menu](/docs/images/Capture-Visualiser-Workspace-Window-Context-Menu.png)
 
 Camera controls are in the [Capture Visualiser Settings window](#setting-up-the-stage-and-rigging) which you
-can open by double pressing \<Open/View\> to show the workspace window buttons, or using the \[Open
-Settings\] context button.
+can open by double pressing \<Open/View\> to show the workspace window buttons, or using the \{Open
+Settings\} context button.
 
 The view buttons across the top select the four default views *(shown below)*. Press the
-**+** button at the right hand side to add a new view.
+\{+\} button at the right hand side to add a new view.
 
 The top button on the left toggles between single view or quad split
 mode. If quad split is selected, the other 4 buttons select which view
@@ -118,11 +119,11 @@ The right hand pad can be set to rotate or orbit mode
 -   **Orbit:** orbits the camera around the stage in a circular path keeping
     it pointed at the same object.
 
-Press the \[Move Camera\] context button to link camera movement to the
+Press the \{Move Camera\} context button to link camera movement to the
 wheels. This also opens the **Set Coordinates** menu with softkeys allowing
 you to enter numeric camera positions.
 
-Press the \[Rotate Camera\] or \[Orbit Camera\] context buttons to link
+Press the \{Rotate Camera\} or \{Orbit Camera\} context buttons to link
 camera rotation or orbit to the wheels and allow numeric entry on the
 softkeys.
 

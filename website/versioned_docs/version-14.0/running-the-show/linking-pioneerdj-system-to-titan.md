@@ -113,9 +113,9 @@ automatically controlled by the track BPM playing on the Pioneer devices. See
 section for how to set up a BPM master.
 
 Go to the **System** menu (\<Avo\> + \<Disk\>) and select \[Triggers\]. The Triggers window will open.
-1.  Add a new mapping using the \[+\] button at the bottom of the *left hand* 
+1.  Add a new mapping using the \{+\} button at the bottom of the *left hand* 
     column, and enter a name such as “Pioneer”.
-2.  Add a trigger to the mapping using the \[+\] button in the *right hand* column 
+2.  Add a trigger to the mapping using the \{+\} button in the *right hand* column 
     or softkey \[Add trigger\].
 3.  Select \[Trigger Type\] as \[Item\].
 4.  Press the button for the BPM master you want to control.
