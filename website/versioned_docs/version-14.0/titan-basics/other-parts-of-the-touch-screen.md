@@ -1,7 +1,7 @@
 ---
 id: version-14.0-other-parts-of-the-touch-screen
-title: Other parts of the touch screen
-sidebar_label: Other parts of the touch screen
+title: Other Parts of the Touch Screen
+sidebar_label: Other Parts of the Touch Screen
 original_id: other-parts-of-the-touch-screen
 ---
 
@@ -23,7 +23,7 @@ next to the screen.
 The vertical bar to the left of the softkeys shows you which menu you
 are currently in. You can \'latch\' the menu to keep the current command
 active (so that you don't have to keep reselecting it) by pressing the
-Menu Latch button (ML Menu on Pearl Expert & Tiger Touch 1). The menu
+\<Menu Latch\> button (\<ML Menu\> on Pearl Expert & Tiger Touch 1). The menu
 bar turns red when latched. This is useful for example when copying or moving
 playbacks to rearrange the console.
 
@@ -67,7 +67,7 @@ available:
   ![Softkey - Text Entry](/docs/images/Softkey-Text-Entry.png) 
   **Text entry button** - press and enter text using the touch keyboard
 
-The toolbar
+The Toolbar
 -----------
 
 On all consoles except Sapphire Touch, across the very top of the screen
@@ -183,5 +183,5 @@ symbol as shown below.
 
 If you are in multi-user mode, the Undo History can show a column for
 each user with undo points for that user - open the Context menu and
-select \[Show All Users and Consoles\]. The default setting is \[Show
-Only Current User\].
+select \{Show All Users and Consoles\}. The default setting is \{Show
+Only Current User\}.
