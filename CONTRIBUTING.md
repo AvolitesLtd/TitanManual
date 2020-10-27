@@ -8,16 +8,19 @@ add extra explanation which is less important, you can *put it in italics*.
 
 Actual physical buttons on the console are rendered in the text in a
 square light grey box. This is created in the markdown using the
-following notation: \\\<Button\\\>.
+following notation: \\\<Button\\\>. 
 
-Touch buttons on the screen are rendered in the text in a light
+Menu softkey options on the screen are rendered in the text in a light
 blue rounded box. This is created in the markdown using the
 following notation: \\\[Softkey\\\]'.
 
-If the button is a menu softkey, we would say so in the 
+For extra clarity we would normally say that it's a menu softkey in the 
 description, for example "Press the \\\[Options\\\]
 softkey."
 
+Other touch buttons on the screen are rendered in the text in a light
+grey rounded box. This is created in the markdown using the
+following notation: \\\{Softkey\\\}'.
 
 ---
 
