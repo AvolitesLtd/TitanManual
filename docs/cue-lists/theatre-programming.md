@@ -107,9 +107,9 @@ such as Go will operate on this cue list.
 **t** \<Go\> | Next cue go with fade time **t**
 **n** \<Cue\> **t** \<Go\> | Jump to cue **n** with fade time **t**
 
-- If you want moving fixtures to automatically position themselves ready
-	for the next cue, enable the \[Move In Dark\] option, see [Move In Dark](../docs/next/cue-lists/cue-list-options#move-in-dark).
-	This option is Off by default.
+-   If you want moving fixtures to automatically position themselves ready
+    for the next cue, enable the \[Move In Dark\] option, see [Move In Dark](cue-list-options.md#move-in-dark).
+    This option is Off by default.
 
 ## Editing Cues While Running
 
