@@ -41,7 +41,7 @@ you can choose which chase is connected to the controls using the
 \<Connect/Cue\> button (this button may also be labelled \<Connect\> or \<Cue\> depending on the console).
 
 -   Connect a different chase to the controls by pressing \<Connect/Cue\>
-    then the Swop button of the chase you want to control.
+    then the Select button of the chase you want to control.
 
 -   Disconnect a chase from the controls by double pressing \<Connect/Cue\>.
 
@@ -86,7 +86,7 @@ the other half of the time.
 
 You set the crossfade and speed as follows:
 
-1. Press \[Edit Times\] from the top level menu then the **Swop** button of
+1. Press \[Edit Times\] from the top level menu then the **Select** button of
 the chase.
 
 2. To set the **crossfade**, press \[XFade\] and type the fade from **0 - 100**.\
