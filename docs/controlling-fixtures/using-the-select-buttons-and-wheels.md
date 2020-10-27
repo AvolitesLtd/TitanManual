@@ -312,9 +312,6 @@ Some other things to know about attributes:
     example, if while moving the Pan wheel you hold down \<Avo\> the
     fixture will make a complete pan movement between end stops in one
     rotation of the wheel.
-    
--   You can also select the attribute to be changed from the softkeys by
-    pressing the \<Attribute Options\> button.
 
 -   Some LED colour mixing fixtures have a Virtual Dimmer function
     (using the Intensity wheel) which offers intensity control by
