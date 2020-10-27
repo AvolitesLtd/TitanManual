@@ -31,8 +31,8 @@ In diesem Beispiel wird ein Hippotizer mit einem Titan-Pult verbunden.
 4.	Starten Sie den Hippotizer. Überprüfen Sie, dass die CITP
 	Component geladen ist.
 
-5.	Schalten Sie das Pult in den System-Modus und wählen Sie \[DMX
-	Settings\].
+5.	Schalten Sie das Pult in den System-Modus (mittels \<Avo\> + \<Disk\>)
+	und wählen Sie \[DMX Settings\].
 
 6.	Links im Fenster wird nun der Hippotizer mit seiner IP-Adresse als
 	Art-Net-Knoten angezeigt. Klicken Sie darauf und ordnen Sie ihn einer

@@ -77,10 +77,11 @@ Zahnrad in der Titelleiste des Fensters).
     Taste nicht haben, gibt es die Benutzereinstellungen [\[Chase Snap\]
     bzw. \[Cue List Snap\]](../system-settings/user-settings.md#chase-snap).
 
--   Zur Direktanwahl eines Schritts drücken Sie die Taste \<Connect\>,
+-   Zur Direktanwahl eines Schritts drücken Sie die Taste \<Connect / Cue\>,
     gefolgt von der Schrittnummer und \<Enter\> oder Funktionstaste A.
     Alternativ tippen Sie im Hauptmenü einfach die Schrittnummer ein und
-    drücken \<Connect\>.
+    drücken \<Connect / Cue\>. (Diese Taste heißt je nach Pult \<Connect\>
+	oder \<Cue\>).
 
 -   Mittels der [Tastenbelegungen ('Key Profiles')](../system-settings/key-profiles.md) lässt sich die
     Funktion der grauen und blauen Tasten an die Erfordernisse anpassen,
@@ -98,7 +99,7 @@ Zahnrad in der Titelleiste des Fensters).
 -   Die Zeit für den nächsten Schritt lässt sich einfach ändern, indem
     man mit den Zifferntasten die neue Zeit eingibt und \<Go\> drückt.
     Wollen Sie in einer neuen Zeit auf einen anderen Cue springen, so
-    geben Sie die Nummer des neuen Cues ein, drücken \<Connect\>, geben
+    geben Sie die Nummer des neuen Cues ein, drücken \<Connect / Cue\>, geben
     die gewünschte Zeit ein und drücken \<Go\>
 
 Eine Cueliste deaktivieren

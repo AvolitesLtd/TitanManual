@@ -123,8 +123,8 @@ wie folgt interpretiert (auch erreichbar über \[Options\]
 
 Die Reihenfolge der Geräte in einem Cue lässt sich nachträglich ändern.
 Normalerweise wird diese mit der Reihenfolge der Auswahl der Geräte beim
-Erstellen des Cues festgelegt, aber ggf. möchte man diese später ändern
-*(etwa, um Geräte bei der Nutzung von [Fixture Overlap](#einstellen-von-überblendzeiten-und-geräteversatz) 
+Erstellen des Cues oder der Gruppe, sofern eine angewählt wurde, festgelegt, 
+aber ggf. möchte man diese später ändern *(etwa, um Geräte bei der Nutzung von [Fixture Overlap](#einstellen-von-überblendzeiten-und-geräteversatz) 
 paarweise zusammenzufassen)*.
 
 1. Drücken Sie \[Edit Times\] im Hauptmenü.
@@ -134,14 +134,14 @@ paarweise zusammenzufassen)*.
 3. Drücken Sie \[Fixture Order\].
 
 4. Wählen Sie die Schrittnummer, ab der Sie beginnen möchten, mit der
-Menütaste \<A\>.
+Menütaste \[Step Number\].
 
 5. Soll die Schrittnummer automatisch erhöht werden, so stellen Sie
 \[Autoincrement\] auf **On**. Sollen mehrere Geräte die gleiche
 Schrittnummer bekommen, stellen Sie diese Option auf **Off**.
 
 6. Betätigen Sie die Schaltfläche des Gerätes, das Sie an dieser Stelle
-in der Sequenz haben möchten. Die Schrittnummer wird jeweils oben rechts
+in der Sequenz haben möchten. Die Schrittnummer wird (in grün) jeweils oben rechts
 in den Geräte-Schaltflächen angezeigt.
 ![Fixtures Window setting Fixture Order](/docs/images/Fixtures-Window-showing-fixture-order.png)
 
@@ -190,7 +190,7 @@ verwenden.
 Dies lässt sich weiter verfeinern, indem man etwa jedem einzelnen Gerät
 unterschiedliche Zeiten gibt. Sobald Sie einen Cue zum Ändern auswählen,
 sehen Sie, dass automatisch alle Geräte des Cues angewählt sind. Um nur
-einzelne Zeiten zu ändern, ändern Sie die Geräteauswahl mit den
+die Zeiten einzelner Geräte zu ändern, ändern Sie die Geräteauswahl mit den
 entsprechenden Auswahl-Schaltflächen.
 
 Das [Fenster Cue View](editing-cues.md#cue-view) erscheint, sobald die Zeiten

@@ -5,9 +5,9 @@ sidebar_label: User Settings
 original_id: user-settings
 ---
 
-Das Menü 'User Settings' (Benutzereinstellungen) lässt sich auch im
-'Program'-Modus aufrufen; dazu halten Sie die \<AVO\>-Taste gedrückt und
-betätigen die Taste \[User Settings\].
+Das Menü 'User Settings' (Benutzereinstellungen) lässt sich sowohl im
+System-Menü (\<Avo\> + \<Disk\>) als auch im 'Program'-Modus aufrufen; 
+dazu halten Sie die \<AVO\>-Taste gedrückt und betätigen die Taste \[User Settings\].
 
 ![User Settings Window](/docs/images/User-Settings-Window.png)
 

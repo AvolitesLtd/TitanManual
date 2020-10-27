@@ -327,7 +327,7 @@ Werkseinstellungen zurückkehren.
 
 Das Mapping wird wie folgt eingerichtet:
 
-1.  Drücken Sie \<View\> bzw. \<Open\>, dann \<Patch\>, um die
+1.  Drücken Sie \<View \ Open\>, dann \<Patch\>, um die
     Patch-Ansicht zu öffnen.
 
 2.  Wählen Sie den Reiter „Exchange Mapping".

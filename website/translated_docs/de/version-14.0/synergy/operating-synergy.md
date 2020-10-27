@@ -17,8 +17,8 @@ anlegen. Neuer Content wird dabei automatisch in den von Ai bevorzugten
 AiM-Codec gewandelt. Das vereinfacht das Verwenden von Medien, die erst
 im letzten Moment angeliefert werden, sehr.
 
-Der Media Browser wird wie gewohnt mit \[Open Workspace Window\]
-(Fenster öffnen) aufgerufen.
+Zum Öffnen des Media Browsers drücken Sie zweimal \<View / Open\>
+und wählen den \[Media Browser\].
 
 ![Ai Media Browser Window](/docs/images/Ai-Media-Browser-Window.png)
 

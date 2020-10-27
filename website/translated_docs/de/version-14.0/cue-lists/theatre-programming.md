@@ -11,14 +11,17 @@ an Touchscreens wie bei Titan gewöhnt. Aber keine Angst: auch bei Titan
 lässt sich eine Show mit Tasten, Nummern und Befehlen programmieren und
 fahren.
 
-'Richtige' Tasten mit Beschriftungen sind hier \<in spitzen Klammern\>
-aufgeführt, wie z.B. \<Enter\>. Die \<Cue\>-Taste heißt auf manchen
-älteren Pulten noch \<Connect\>. Die \<@\>-Taste ist die direkt bei den
-Zifferntasten.
+-	'Richtige' Tasten mit Beschriftungen sind hier als graues Rechteck
+	gezeigt, wie z.B. \<Enter\>. 
+-	Die \<@\>-Taste ist die direkt bei den Zifferntasten.
+-	Die \<Cue\>-Taste heißt auf manchen älteren Pulten noch \<Connect\> oder \<Connect\/Cue\>. 
+-	Die \<Thru\>-Taste heißt auf manchen älteren Pulten noch \<Through\>.
+- 	Die Tasten \<And\> und \<Thru\> gibt es auf manchen Pulten nicht als
+	'richtige' Taste, sondern als Funktionstaste \[And\] bzw. \[Through\].
 
 Dimmer und andere Geräte haben eine User Number (Benutzer-Nummer) (*entspricht  der Channel Number auf anderen Pulten*). Diese wird links oben
 in der jeweiligen Schaltfläche angezeigt. In den hier aufgeführten
-Befehlen wird die Nummer als **"n"** dargestellt. Die User Number lässt sich
+Befehlen wird die Nummer als **n** dargestellt. Die User Number lässt sich
 über das Menü \[Set Legend\] ändern, siehe [Legende eingeben](../patching/changing-the-patch.md#legendenbezeichnungen-eingeben). Auch Gruppen
 haben jeweils eine User Number.
 
@@ -30,7 +33,7 @@ Tasten | Ergebnis
 ---- | ----
 **n** \<@\> \<@\> | Dimmer/Gerät **n** auf 100%
 **n** \<@\> **v** \<Enter\> | Dimmer/Gerät **n** auf **v%** *(v ist 2-stellig    einzugeben, also z.B. "50" für 50%)*
-**n** \<Thro\> **m** \<@\> **v** \<Enter\> | Dimmer/Geräte **n** bis **m** auf **v%**
+**n** \<Thru\> **m** \<@\> **v** \<Enter\> | Dimmer/Geräte **n** bis **m** auf **v%**
 **n** \<And\> **m** \<And\> **p** \<@\> **v** \<Enter\> | Dimmer/Geräte **n**, **m**, **p** auf **v%**
 \<Group\> **n** \<@\> **v** \<Enter\> | Dimmer/Geräte in Gruppe **n** auf **v%**
 \<Clear\> | Sofortiges Release der editierten Kanäle auf den programmierten Status (*wie Cheat auf ETC-Pulten*)
@@ -44,7 +47,7 @@ Tasten | Ergebnis
     Tasten | Ergebnis
     ---- | ----
     **n** \<Enter\> | Gerät **n**
-    **n** \<Thro\> **m** \<Enter\> | Geräte **n** bis **m**
+    **n** \<Thru\> **m** \<Enter\> | Geräte **n** bis **m**
     \<Group\> **n** \<Enter\> | Geräte der Gruppe **n**
 
 
@@ -84,8 +87,13 @@ Tasten | Ergebnis
 \<Copy\> \<Cue\> **n** \<@\> \<Enter\> | Kopieren von Cue **n** an das Ende der Cueliste
 \<View/Open\> {blaue Playbacktaste} | Azeige der Cues der Liste in tabellarischer Form. Änderungen können direkt durch Anklicken erfolgen.
 
--	Mit \<Move\> können Cues verschoben werden, mit \<Thro\> und \<And\>
-	lassen sich mehrere Cues auf einmal kopieren/verschieben.
+-	Mit \<Move\> (statt Copy) können Cues verschoben werden.\
+	Verfügt das Pult über keine Move-Taste, drücken Sie \<Avo\> und \<Copy\>.
+
+- 	Mehrere Cues auf einmal lassen sich mit den Tasten \<Thru\>, \<And\> 
+	und \[Not\] auswählen. Um z.B. die Cues 3, 4 ,5 ,7, 10 zu kopieren und 
+	ab Cue 20 einzufügen, drücken Sie \
+	\<Copy\> {blaue Playbacktaste} **3** \<Thru\> **7** \[Not\] **6** \<And\> **10** \<@\> **20** \<Enter\>.
 
 -	Zum Erstellen eines Block-Cues (Änderungen werden nicht getrackt) öffnet
 	man die Cueliste wie beschrieben, klickt in der Spalte 'Tracking' auf
@@ -101,7 +109,7 @@ Tasten | Ergebnis
 ## Cues und Cuelisten abfahren
 
 Schiebt man den Fader einer Cueliste hoch, so wird sie mit der Steuerung
-verbunden *("connected")*.
+verbunden *("connected")* und kann z.B. mit der \<Go\>-Taste gesteuert werden.
 
 Weitere Möglichkeiten zur Steuerung (Auswahl):
 
@@ -114,8 +122,7 @@ Tasten | Ergebnis
 **n** \<Cue\> **t** \<Go\> | Cue **n** wird in **t** Sekunden eingeblendet
 
 -	Sollen Movinglights bereits im Off auf Position, in Gobo oder Farbe
-	fahren, aktivieren Sie die Funktion \[Move In Dark\] (siehe voriger
-	Abschnitt).
+	fahren, aktivieren Sie die Funktion [\[Move In Dark\]](cue-list-options.md#move-in-dark).
 
 ## Cues live editieren
 

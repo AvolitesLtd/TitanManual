@@ -25,7 +25,7 @@ Patchen ist der Prozess, mit dem Pult mitgeteilt wird
 Verfügen die Geräte über RDM, so kann das Pult diese automatisch
 erkennen und patchen, siehe [Patchen mit Hilfe von RDM](./patching/patching-new-fixtures-or-dimmers.md#patchen-mit-hilfe-von-rdm).
 
-Bei Pulten mit einem Schalter 'System/Run/Program' muss dieser zum Patchen
+Bei älteren Pulten mit einem Schalter 'System/Run/Program' muss dieser zum Patchen
 auf 'Program' stehen.
 
 In der Grundeinstellung ist den DMX-Buchsen jeweils eine DMX-Linie

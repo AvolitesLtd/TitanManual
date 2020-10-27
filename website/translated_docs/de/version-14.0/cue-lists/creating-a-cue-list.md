@@ -273,8 +273,8 @@ bezeichnet die Cue-Nummer:
 
 Tasten                                    | Funktion
 ----------------------------------------- | ------------------------------------------
-\<Record\> \<Connect\> **n** \<Enter\>    | Cue **n** speichern
-\<Copy\> \<Connect\> **n**                | Cue **n** kopieren
-\<Delete\> \<Connect\> **n**              | Cue **n** löschen
-\<Include\> \<Connect\> **n**             | Cue **n** includen (in den Speicher laden)
-\<Connect\> **n** \<Go\>                  | Go Cue **n**
+\<Record\> \<Connect / Cue\> **n** \<Enter\>    | Cue **n** speichern
+\<Copy\> \<Connect / Cue\> **n**                | Cue **n** kopieren
+\<Delete\> \<Connect / Cue\> **n**              | Cue **n** löschen
+\<Include\> \<Connect / Cue\> **n**             | Cue **n** includen (in den Speicher laden)
+\<Connect / Cue\> **n** \<Go\>                  | Go Cue **n**

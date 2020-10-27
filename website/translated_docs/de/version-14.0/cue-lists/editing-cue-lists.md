@@ -201,7 +201,7 @@ drücken Sie statt der Go-Taste die Taste \<↔\> oberhalb der Taste Snap Back)*
 
 4. Nehmen Sie die gewünschten Änderungen vor.
 
-5. Drücken Sie \<Record\>, \<Connect\> *(bzw. \<Rec. Step\> bei älteren 
+5. Drücken Sie \<Record\>, \<Connect / Cue\> *(bzw. \<Rec. Step\> bei älteren 
 Pulten)*, und wählen dann \[Replace\] (Ersetzen), \[Merge\](Zusammenfügen),
 oder \[Insert After\] (danach einfügen), um die Änderungen zu speichern (ein
 nochmaliger Druck auf \<Rec. Step\> wählt automatisch \[Merge\]).
@@ -209,7 +209,13 @@ nochmaliger Druck auf \<Rec. Step\> wählt automatisch \[Merge\]).
 6. Drücken Sie \<Go\>, um zum nächsten Schritt zu gelangen *(Beim Pearl 
 Expert/Tiger Touch Mk1 drücken Sie statt der Go-Taste die Taste \<↔\>)*.
 
-### Ändern der Zeiten einer laufenden Cueliste
+>	Die vorgenommenen Änderungen lassen sich auch wie folgt in den aktuellen 
+	Cue speichern \
+	\<Record\> \<Connect / Cue\> \<Connect / Cue\>.
+
+
+Ändern der Zeiten einer laufenden Cueliste
+------------------------------------------
 
 Die Zeiten jedes Schritts lassen sich wie folgt mit den Tasten
 \<Live Time\> und \<Next Time\> *(nicht auf allen Pulten)* ändern:
@@ -288,9 +294,9 @@ Damit wird der momentane Inhalt des Programmers in die ausgewählten Cues
 übernommen.
 
 Bei Verwendung der Zifferntasten verbinden Sie zunächst die Cueliste
-mittels \<Connect\> mit der Steuerung und klicken auf \[Rec. Step\]. Nun
-verwenden Sie die Syntax `<n> THRU <m>`, um eine Folge von Cues zu
-ändern, oder `<n> AND <m>`, um mehrere Cues einzeln auszuwählen. Ist
+mittels \<Connect / Cue\> mit der Steuerung und klicken auf \[Rec. Step\]. Nun
+verwenden Sie die Syntax **n** \<THRU\> **m**, um eine Folge von Cues zu
+ändern, oder **n** \<AND\> **m**, um mehrere Cues einzeln auszuwählen. Ist
 die [Playback-Ansicht](#das-fenster-playback-view) geöffnet, so werden die 
 gewählten Cues rot markiert. Sind alle zu ändernden Cues ausgewählt, 
 drücken Sie \<Enter\> und wählen \[Merge\] oder \[Replace\] (nochmaliges 
@@ -313,7 +319,7 @@ können einzelne Cues aus einer Cueliste in den Programmer
 geladen werden. Drücken Sie dazu \<Include\>, wählen die Cueliste aus, geben die Cuenummer ein und drücken \[Include Cue\].
 
 Soll ein Cue aus der gerade verbundenen Cueliste included werden, so
-drücken Sie \<Include\>, \<Connect\>, geben die Nummer des Cues ein und
+drücken Sie \<Include\>, \<Connect / Cue\>, geben die Nummer des Cues ein und
 wählen \[Include Cue\].
 
 Auf diese Weise kann man Cues aus Cuelisten auch anderweitig

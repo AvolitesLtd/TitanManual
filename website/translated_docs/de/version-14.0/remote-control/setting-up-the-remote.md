@@ -59,8 +59,9 @@ anderen Geräten ist das Vorgehen aber ähnlich.
 	Netzwerkanschlüsse sind hinten am Pult.
 
 3. 	Stellen Sie auf dem Pult eine passende IP-Adresse ein: schalten Sie
-	es in den System-Modus, wählen dann \[Network Settings\], dann \[Local
-	Area Connection\], und klicken auf \[Set IP 10.\*.\*.\*\].
+	es in den System-Modus (mittels \<Avo\> + \<Disk\>), wählen dann 
+	\[Network Settings\], dann \[LocalArea Connection\], und klicken 
+	auf \[Set IP 10.\*.\*.\*\].
 
 4.	Auf dem Mobilgerät überprüfen Sie, dass WLAN aktiviert ist.
 

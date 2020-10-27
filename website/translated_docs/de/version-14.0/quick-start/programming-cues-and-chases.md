@@ -61,7 +61,7 @@ Mit \[Attribute times\] lassen sich für einzelne Attribute
 unterschiedliche Zeiten vergeben.
 
 Mit \[Fixture order\] lässt sich die Reihenfolge der Geräte für Shapes
-sowie für das Überlappen einstellen.
+sowie für das [Überlappen](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) einstellen.
 
 Siehe auch [Zeiten für Cues](../cues/cue-timing.md).
 

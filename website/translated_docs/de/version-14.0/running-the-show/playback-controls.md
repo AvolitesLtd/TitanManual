@@ -77,8 +77,8 @@ Speed- und Size-Master
 
 [](https://youtu.be/e5rQAmTCfs0?t=20 "Speed and Size Masters")
 
-Die einzelnen Playbacks lassen sich verschiedenen Speed- und
-Size-Masterreglern zuweisen; damit kann man das Tempo und die Größe von
+Die einzelnen Playbacks lassen sich verschiedenen **Speed- und
+Size-Masterreglern** zuweisen; damit kann man das Tempo und die Größe von
 enthaltenen Shapes und Effekten zentral steuern, oder - im Fall von
 Chasern - direkt das Chase-Tempo beeinflussen.
 
@@ -103,15 +103,27 @@ bzw. \[Size Source\]. Folgende Optionen sind verfügbar:
 -   LocalClock (Steuerung per Tap Tempo, das ggf. per Tastenprofil auf
     einen Button gelegt werden muss)
 
-Ferner gibt es einen ‚Rate Grand Master', der wiederum die vier
-Rate-Master - nicht die BPM-Master - proportional beeinflusst.
+Ferner gibt es einen **Rate Grand Master**, der alle Chaser und Effekte 
+proportional beeinflusst unabhängig davon, ob diese einem Rate- oder BPM-Master
+zugewiesen sind.
 
 Um die Speed- bzw. Size-Master verwenden zu können, müssen diese auch
-jeweils auf einen Fader gelegt werden. Schalten Sie das Pult dazu in den
-System-Modus und wählen \[Assign Masters\]. Alternativ geht das per
-\<Record\> \[Create Master\]. Für Speedmaster stehen auch gesonderte
-Tastenprofile zur Verfügung; BPM-Master haben als Vorgabewert die
-Takt-Taste (Tap Tempo).
+jeweils auf einen Fader gelegt werden:
+
+1.	Drücken Sie \<Record\>.
+
+2. 	Drücken Sie \[Create Master\]. 
+
+3.	Wählen Sie mit den Menütasten den gewünschten Master.
+
+4.	Drücken Sie die **Auswahltaste** des Faders, auf den Sie die Masterfunktion
+	legen wollen.
+
+-	Beim Pearl Expert und beim Tiger Touch 1 drücken Sie \<Avo\> und \<Disk\>,
+	um ins System-Menü zu gelangen, und wählen dort \[ Assign Masters\].
+
+-	Für Speedmaster stehen auch gesonderte Tastenprofile zur Verfügung; 
+	BPM-Master haben als Vorgabewert die Takt-Taste (Tap Tempo).
 
 Speed- und Size-Master können verschiedene Skalen (Wertebereiche) haben:
 0-100%, 0-200% etc. So kann man z.B. mit der Skala 0-200% den Master auf
@@ -305,7 +317,7 @@ wieder auf 0 bringen muss. Dies erreicht man über \<Options\> oder
     Commits scene Mode\] (Preset-Modus aktivieren oder Szene
     aktivieren).
 
-Der Scene Master kann auch auf einer taste oder einem Button im Display
+Der Scene Master kann auch auf einer Taste oder einem Button im Display
 liegen. In diesem Fall dient die Kombination \<Avo\> + \[Scene Master\]
 bzw. \<Release\> + \[Scene Master\] zum Starten oder Verlassen des
 Preset Modus; einfaches Betätigen der Taste/des Buttons macht einen
@@ -317,6 +329,10 @@ Tastenprofil zuweisen: \[Commit Changes\] (Szene aktivieren), \[Commit
 Changes and Exit scene Mode\](Szene Aktivieren und Preset-Modus
 verlassen) oder \[Enters or Commits scene Mode\] (Preset-Modus
 aktivieren oder Szene aktivieren).	
+
+-	Beim Pearl Expert und beim Tiger Touch 1 drücken Sie zum Zuweisen des
+	Scene Masters \<Avo\> und \<Disk\>,	um ins System-Menü zu gelangen, 
+	und wählen dort \[ Assign Masters\].
 
 Flash- und Swop-Tasten
 ----------------------
@@ -338,7 +354,10 @@ selbst bewegt wird, so dass z.B. keine Bewegungen 'im On' stattfinden
 Cues/Chasern verwendet sind). Ebenso lassen sich die Funktionen 'Stop'
 und 'Go' für Cuelisten und Chaser auf diese Tasten legen. Um die
 Tastenbelegung rasch zu ändern, halten Sie die \<AVO\>-Taste gedrückt
-und betätigen die Funktion \[Edit Key Profile\].
+und betätigen die Funktion \[Edit Key Profile\]. Das Sapphire Touch verfügt
+neben den grauen und blauen Tasten pro Fader auch über eine schwarze 
+Taste, deren Funktion ebenso eingestellt werden kann, und auch die virtuellen
+Fader können schwarze Tasten haben.
 
 ![Playback Faders with key profiles applied](/docs/images/Playback-Faders-with-key-profiles-applied.png)
 

@@ -113,12 +113,12 @@ Track-Details und Statusleiste).
 BPM-Master per Pioneer DJ triggern
 ----------------------------------
 
-Dazu muss zunächst ein [BPM Master](../running-the-show/playback-controls.md#bpm-master-options) 
+Dazu muss zunächst ein [BPM Master](../running-the-show/playback-controls.md#optionen-für-bpm-master) 
 definiert werden. Für diesen kann dann wie folgt PioneerDJ als Trigger
 eingerichtet werden.
 
-Starten Sie den System-Modus und wählen das Menü \[Triggers\]. Darauf
-öffnet sich das Fenster 'Trigger'.
+Starten Sie den System-Modus (per \<Avo\> + \<Disk\>) und wählen das Menü
+ \[Triggers\]. Darauf öffnet sich das Fenster 'Trigger'.
 1.	Fügen Sie mit dem \[ + \] *unten links* ein neues Trigger-Set hinzu
 	und geben Sie diesem einen geeigneten Namen, z.B. ‚Pioneer'.
 2.	Legen Sie nun mit dem \[ + \] *unten rechts* oder mit der Menütaste

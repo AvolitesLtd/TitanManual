@@ -17,8 +17,8 @@ verwenden. Alternativ können Sie die Adressierung auch über die
 Windows-Systemsteuerung vornehmen. Siehe [Einstellen der IP-Adresse](a-quick-guide-to-ip-addressing.md#einstellen-der-ip-adresse) mit 
 Details zur IP-Adressierung.
 
-1. 	Schalten Sie das Pult in den 'System'-Modus und drücken Sie
-	\[Network Settings\].
+1. 	Schalten Sie das Pult in den 'System'-Modus (mittels \<Avo\> + \<Disk\>)
+	und drücken Sie	\[Network Settings\].
 
 2.	Drücken Sie \[Local Area Connection\].
 

@@ -135,6 +135,9 @@ Workspace-Button \[Groups and Palettes\])*:
     die [Benutzereinstellung \[Auto Legend\]](../system-settings/user-settings.md#auto-legend) wurde deaktiviert). 
 	-   Bei **Farb-Paletten** werden die enthaltenen Farben angezeigt - sind
 		mehrere enthalten, so werden verschiedenfarbige Streifen angezeigt.
+	-   Bei **Gobo-Paletten** werden die Gobos grafisch dargestellt, sofern
+		das in der Personality hinterlegt ist (ggf. müssen die [Personalities
+		aktualisiert werden](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren)).
     -   Für **CITP-Paletten (von einem Medienserver)** werden die übertragenen
 		Vorschaubilder angezeigt. 
 	-	Für **Pan und Tilt** werden allgemeine Bezeichner vergeben.

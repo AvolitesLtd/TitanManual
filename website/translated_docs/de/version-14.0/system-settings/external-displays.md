@@ -18,7 +18,7 @@ Computer abhängt.
 
 Das externe Display ist zunächst deaktiviert und zeigt dies mit
 'disabled' an. Zum Aktivieren schalten Sie in den System-Modus
-(\<Avo\>+\<Disk\>), wählen das Menü \[Display Setup\] und klicken auf
+(\<Avo\> + \<Disk\>), wählen das Menü \[Display Setup\] und klicken auf
 \[External Display Disconnected\]. Dies wechselt auf \[External Display
 Connected\], und das externe Display ist aktiviert.
 

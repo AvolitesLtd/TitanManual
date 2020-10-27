@@ -73,7 +73,7 @@ so leuchtet die jeweilige LED schwach auf, um die Belegung anzuzeigen.
     {Linie}.{DMX-Adresse} ein, etwa 2.56 für Kanal 56 auf Linie 2.
 
 -   Zur Anzeige der gepatchten DMX-Kanäle drücken Sie \<View / Open\>, 
-	dann \<Patch\>, um die [Patch-Übersicht (Patch View)](./changing-the-patch.md#patch-view) zu öffnen.
+	dann \<Patch\>, um die [Patch-Übersicht (Patch View)](./changing-the-patch.md#die-patch-ansicht-patch-view) zu öffnen.
 
 -   \[User Number = xx\] erlaubt die Eingabe einer benutzerdefinierten
     Nummer für jedes gepatchte Gerät, um später die Zuordnung zu

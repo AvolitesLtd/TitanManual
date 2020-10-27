@@ -8,22 +8,24 @@ original_id: creating-a-cue
 Arbeitsweise des Pultes beim Programmieren
 ------------------------------------------
 Sobald ein oder mehrere Dimmer/Geräte zum Steuern ausgewählt werden,
-werden diese in den ***Editor*** geladen. Nun lassen sich mit den [Encodern (Wheels)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern) und
+werden diese in den ***Programmer*** geladen. Nun lassen sich mit den [Encodern (Wheels)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern) und
 [Paletten](../palettes.md) die Einstellungen der Geräte verändern; ebenso lassen sich
-Shapes anwenden.
+[Effekte](../effects.md) anwenden. Alle so vorgenommenen Änderungen werden im Programmer gespeichert.
 
-Wird ein Gerät angewählt, nachdem bereits Änderungen vorgenom­men
-wurden, wird die aktuelle Geräteliste im Editor geleert und eine neue begonnen.
-
-Alle seit der letzten Betätigung der \<Clear\>-Taste veränderten Geräte
-und Attribute werden im ***Programmer (Programmierspeicher)*** gespeichert. 
 Auch die Reihenfolge der Auswahl der Geräte wird dort gespeichert und ggf. etwa
-bei [Shapes/Effekten](../effects.md) und beim Überblenden ([Geräte-Überlappung/Fixture Overlap](cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz)) verwendet. 
+bei [Effekten](../effects.md) und beim Überblenden ([Geräte-Überlappung/Fixture Overlap](cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz)) verwendet. 
+
 Beim Speichern des Cues wird schließlich der Inhalt des Programmierspeichers 
-in das Playback geschrieben.
+in das Playback geschrieben. Dabei wird der Inhalt des Programmers gespeichert,
+nicht der komplette Output des Pultes. Siehe der folgende Abschnitt zu den Record 
+Modes (Speichermodi).
+
+Wird ein anderes Gerät angewählt, nachdem bereits Änderungen vorgenom­men
+wurden, wird die aktuelle Geräteliste im Programmer geleert und eine neue begonnen,
+wobei die vorgenommenen Änderungen im Programmer verbleiben.
 
 Das Betätigen der Taste \<Clear\> (bei den Zifferntasten) löscht den
-Editor sowie den Programmierspeicher. Damit stellt man sicher, dass beim
+Programmierspeicher. Damit stellt man sicher, dass beim
 weiteren Programmieren keine Geräte beeinflusst werden, die man nicht
 verändern will. Auch beim Beenden des Programmierens empfiehlt sich der
 Druck auf die \<Clear\>-Taste, da sämtliche Attribute im
@@ -31,12 +33,12 @@ Programmierspeicher die Einstellungen der Playbacks sonst überlagern.
 
 Geräte, die aktuell im Programmspeicher sind, werden auf den
 [Geräte-Schaltflächen](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) in einem mittleren Blau dargestellt. Attribute im
-Programmierer (also die geänderten Einstellungen) werden [in der Attribut-Anzeige](../controlling-fixtures/using-the-select-buttons-and-wheels.md#anzeige-der-attributwerte)
+Programmierer (also die geänderten Einstellungen) werden [in der Attribut-Anzeige](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern)
 in Cyan dargestellt.
 
 Beim Abrufen eines Cues werden dessen Werte nicht in den
 Programmierspeicher übernommen *(das lässt sich jedoch durch die
-[Include-Function](editing-cues.md#cues-wiederverwenden---die-include-funktion) erreichen)*.
+[Include-Function](editing-cues.md#cues-wiederverwenden---die-include-funktion) erreichen; ebenso kann per 'Record Stage' der komplette Output gespeichert werden)*.
 
 
 Anlegen eines Cues

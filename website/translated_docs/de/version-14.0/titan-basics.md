@@ -200,8 +200,8 @@ Einen Monitor anschliessen
 Es läßt sich ein externer Monitor anschliessen (beim Tiger Touch II und
 Pearl Expert: VGA; beim Quartz, Arena, Sapphire Touch: DVI). Damit erhält
 man mehr Oberfläche zur Anzeige weiterer Fenster (etwa für den
-Visualiser oder das Channel-Grid) sowie - im Falle eines Touchscreens
-- weiterer Steuerelemente. Bei Touchscreens empfehlen sich Modelle, die
+Visualiser oder das Channel-Grid) sowie - im Falle eines Touchscreens - 
+weiterer Steuerelemente. Bei Touchscreens empfehlen sich Modelle, die
 zu Windows Touch kompatibel sind, um Probleme durch separate Treiber zu
 vermeiden. Beim Titan Mobile und Titan One/T1/T2 ist ein zweiter Bildschirm
 davon abhängig, dass der verwendete Computer dies unterstützt.
@@ -249,8 +249,10 @@ geeignete Peripherie.
 Eine oder zwei 3-polige XLR-Buchse ist als Anschluss für eine
 Pultleuchte vorgesehen. Die Belegung ist 1-Minus, 2-Plus (12V
 Gleichspannung). Ggf. muss die Belegung der verwendeten Pultleuchte
-angepasst werden, da es dafür verschiedene Systeme gibt. Bei neueren 
-Pulten lässt sich die Helligkeit der Pultleuchte im System-Menü einstellen.
+angepasst werden, da es dafür verschiedene Systeme gibt. 
+
+-	Bei neueren Pulten lässt sich die Helligkeit der Pultleuchte im 
+	System-Menü (\<Avo\> + \<Disk\>) einstellen.
 
 Verwenden von Faderwings
 ------------------------

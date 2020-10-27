@@ -124,8 +124,8 @@ Das Fenster Synergy Fixtures
 
 Jeder Layer erscheint als Button im Fenster 'Synergy Fixtures'. Dies
 kann man entweder mit dem Button \[View Synergy Fixtures\] im [Synergy
-Settings-Fenster](#einrichten-von-synergy) oder wie gewohnt über \[Open Workspace
-Window\] (Fenster öffnen) aufrufen.
+Settings-Fenster](#einrichten-von-synergy), oder Sie drücken zweimal 
+\<View / Open\> und wählen es mit den Buttons zur Fensterauswahl.
 
 ![Synergy Fixtures Workspace Window](/docs/images/Synergy-Fixtures-Workspace-Window.png)
 

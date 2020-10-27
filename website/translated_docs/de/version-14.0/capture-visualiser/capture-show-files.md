@@ -45,7 +45,9 @@ Die Capture-Show löschen
 Unten auf dem Reiter **Show** gibt es den Button \[Wipe\], mit dem die
 aktuelle Capture-Show gelöscht wird.
 
-Sollen in Titan gepatchte Geräte erneut in die Capture-Show übernommen
-werden, so wählen Sie \<Patch\> \[Edit Fixtures\] \[Update
-Personality\] aus dem [Menü Patch](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren). Damit werden die bereits gepatchten Fixtures wieder in
-Capture angezeigt.
+Ist die Option **Auto Update** aktiv (**On**, Vorgabewert), 
+so werden die in Titan gepatchten Geräte wieder neu in Capture aktiviert.
+
+Wurden Geräte gepatcht, für die erst später die Darstellung in Capture 
+hinzugefügt wurde, so wählen Sie \<Patch\> \[Edit Fixtures\] \[Update
+Personality\] aus dem [Menü Patch](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren). Damit werden die bereits gepatchten Fixtures auch in Capture angezeigt.

@@ -103,7 +103,8 @@ kurz drückt, sondern gedrückt hält.
 
 > Um schnell zu \'Locaten\', **ohne Pan/Tilt zu verändern**, drücken und halten Sie \<Locate\>, drücken dazu \<Pan/Tilt\> und lassen nun \<Locate\> los.
 
-> Um **nur Pan/Tilt zu locaten**, drücken und halten Sie \<Locate\>, drücken dazu \<Attribute Options\>, drücken dann \<Pan/Tilt\>, und lassen nun \<Locate\> los.
+> Um **nur Pan/Tilt zu locaten**, drücken und halten Sie \<Locate\>, drücken dazu
+\<Options\>  (bzw. \<Attribute Options\> auf älteren Pulten), drücken dann \<Pan/Tilt\>, und lassen nun \<Locate\> los.
 
 
 ### Ändern des Locate-Wertes
@@ -621,7 +622,7 @@ fixieren (Taste \<Menu Latch\>).
 
 -   Beim Eingeben eines Kommandos wird dieses in der Kommandozeile des
     Displays angezeigt. Mittels der grauen ←\<Back\>Taste kann man
-    schritt­weise zurückgehen; mit der grauen →\<@\>Taste lässt sich die
+    schrittweise zurückgehen; mit der grauen →\<@\>Taste lässt sich die
     Eingabe abbrechen.
 
 -   Die Funktionen AND, THRO sowie @ stehen auch auf den Pfeiltasten zur

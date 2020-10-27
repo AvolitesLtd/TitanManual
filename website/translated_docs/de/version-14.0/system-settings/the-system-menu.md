@@ -5,16 +5,14 @@ sidebar_label: The System Menu
 original_id: the-system-menu
 ---
 
-Das System-Menü erreicht man durch Umschalten des Betriebsarten-Schalters 
-in den Modus 'System' bzw. durch Drücken von \<Avo\> und (gleichzeitig) \<Disk\>. 
+Das System-Menü erreicht man durch Drücken von \<Avo\> und (gleichzeitig) 
+\<Disk\> bzw. bei älteren Pulten durch Umschalten des Betriebsarten-Schalters 
+in den Modus 'System'. Beim Titan Go gibt es extra den Button \<System\>.
 
 Die hier verfügbaren Optionen sind von den normalen Betriebsfunktionen 
 getrennt, da sie entweder nur selten benötigt werden, oder aber große 
 Auswirkungen auf die Funktion des Pultes haben, so dass ein versehentliches 
 Verstellen tunlichst vermieden werden sollte.
-
->	Wird die Betriebsart auf 'System' umgeschaltet, so ist die Steuerung der 	
-	Playbacks und die Showprogrammierung deaktiviert.
 
 ---
 

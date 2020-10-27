@@ -25,11 +25,11 @@ Touchscreen angezeigt.
 
 [](https://youtu.be/CxHQV4sP_sA?t=20 "Key Profiles")
 
-Zum Erstellen eines solchen Profils schalten Sie das Pult in den
-'System'-Modus und drücken \[Key Profiles\]. Darauf öffnet sich das Menü
-'Manage Profiles', mit dem man die verschiedenen Profile anzeigen
-('View'), ändern ('Edit'), löschen ('Delete') oder ein neues erstellen
-('Add') kann.
+Zum Erstellen eines solchen Profils schalten Sie das Pult mit \<Avo\> + 
+\<Disk\> in den 'System'-Modus und drücken \[Key Profiles\]. Darauf 
+öffnet sich das Menü 'Manage Profiles', mit dem man die verschiedenen 
+Profile anzeigen ('View'), ändern ('Edit'), löschen ('Delete') oder 
+ein neues erstellen ('Add') kann.
 
 Key Profiles kann man ebenso in den Playback-Optionen neu anlegen sowie
 auswählen (Reiter ‚Handle').
@@ -120,7 +120,7 @@ Latch | Wie Flash, aber Dimmerkanäle bleiben nach dem Loslassen bis zum erneute
 Go | Der nächste Cue wird unter Berücksichtigung der eingestellten Zeit aktiviert.
 Stop | Alle Überblendvorgänge werden angehalten.
 Preload | LTP-Kanäle von Geräten, die gerade dunkel sind, werden auf den als nächstes aktiven Wert eingestellt.
-Connect | Verbindet die Cueliste mit der Ablaufsteuerung (ebenso wie die Taste \<Connect\> gefolgt von der Anwahl der Cueliste).
+Connect | Verbindet die Cueliste mit der Ablaufsteuerung (ebenso wie die Taste \<Connect / Cue\> gefolgt von der Anwahl der Cueliste).
 Tap Tempo | Geschwindigkeitssteuerung durch Tippen im Takt.
 Next Cue - | Geht einen Cue zurück.
 Next Cue + | Geht einen Cue vorwärts.

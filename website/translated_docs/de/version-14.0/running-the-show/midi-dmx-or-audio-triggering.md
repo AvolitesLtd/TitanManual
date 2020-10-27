@@ -59,8 +59,8 @@ verwendet werden, siehe [folgender Abschnitt](./linking-pioneerdj-system-to-tita
 Einrichten der externen Steuerung
 ---------------------------------
 
-Schalten Sie das Pult in den System-Modus und wählen Sie \[Triggers\];
-darauf wird das Fenster 'Triggers' angezeigt.
+Schalten Sie das Pult in den System-Modus (mittels \<Avo\> + \<Disk\>)
+und wählen Sie \[Triggers\]; darauf wird das Fenster 'Triggers' angezeigt.
 
 ![Triggers Window](/docs/images/Triggers-Window.png)
 
@@ -171,7 +171,7 @@ Sie es per USB and den PC an, auf dem die Titan-Software läuft, und
 stellen Sie sicher, dass es ordnungsgemäß in Windows funktioniert (die
 MIDI-Werte kann man u.a. mit der Software MIDI-Ox überprüfen).
 
-1.	Öffnen Sie das System-Menü und wählen Sie \[Triggers\].
+1.	Öffnen Sie das System-Menü mit \<Avo\> + \<Disk\> und wählen Sie \[Triggers\].
 
 2.	Fügen Sie links mit dem Button \[ + \] eine neue
 	Trigger-Zusammenstellung (Mapping) hinzu und geben Sie ihr einen
@@ -208,12 +208,12 @@ Folgende MIDI Show Control-Befehle werden unterstützt:
   RESET     | Wie ALL OFF
   GO OFF    | Wie RESUME
 
-Playbacks/Cues werden durch die Benutzernummer identifiziert, Diese wird
+Playbacks/Cues werden durch die Benutzernummer identifiziert, diese wird
 über \[Set Legend\]\[User Number\] eingestellt.
 
 Geräte mit MIDI Show Control werden durch eine Geräte-ID (device id)
 identifiziert. Zum Einstellen der Geräte-ID des Titan-Pultes dient die
-Benutzereinstellung \[Timecode\]\[MIDI Device Id\]. Vorgabewert ist 0.
+[Benutzereinstellung \[Timecode\]\[MIDI Device Id\]](../system-settings/user-settings.md#midi-device-id). Vorgabewert ist 0.
 
 Audio-Trigger (Sound to Light)
 ------------------------------

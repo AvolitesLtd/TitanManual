@@ -26,7 +26,7 @@ Einrichten der DMX-Ausgänge
 ---------------------------
 
 Schalten Sie das Pult in den [System-Modus](the-system-menu.md) (normalerweise mit
-\<Avo\>+\<Disk\>) und wählen im Menü \[DMX Settings\].
+\<Avo\> + \<Disk\>) und wählen im Menü \[DMX Settings\].
 
 Das DMX-Fenster öffnet sich nun zunächst auf dem Tab mit dem Node
 (Knoten), den das Pult selbst darstellt. Es zeigt die vorhandenen
@@ -91,8 +91,7 @@ Als Modul wird hier die Art der Ausgabe des DMX-Signals bezeichnet, also
 z.B. Art-Net oder sACN - jedes Modul kann mehrere Nodes haben.
 
 Zum genauen Einstellen der Art-Net- oder sACN-Optionen öffnen Sie die
-DMX-Einstellungen (also [System-Modus](the-system-menu.md), dann 
-\[DMX Settings\]), und klicken links auf das stilisierte Zahnrad 
+DMX-Einstellungen (also \<Avo\> + \<Disk\> zum Öffnen des [System-Modus](the-system-menu.md), dann \[DMX Settings\]), und klicken links auf das stilisierte Zahnrad 
 neben dem betreffenden Modulnamen.
 
 Damit lassen sich pro Modul spezifische Einstellungen vornehmen und auch

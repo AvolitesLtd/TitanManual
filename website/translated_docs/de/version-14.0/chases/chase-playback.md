@@ -40,18 +40,18 @@ Verbinden eines Chasers mit der Steuerung
 Wird ein Chaser aufgerufen, so ist dessen Steuerung automatisch den
 Rädern (Geschwindigkeit, Überblendung) und \<Stop\>/\<Go\>-Tasten
 zugeordnet: dies nennt sich **Connect** (Verbinden) des Chasers. Ist mehr
-als ein Chaser aktiv, so lässt sich mit der \<Connect\>-Taste wählen,
+als ein Chaser aktiv, so lässt sich mit der \<Connect / Cue\>-Taste wählen,
 welcher davon mit den Rädern/Tasten beeinflusst werden soll.
 
 -   Zum Verbinden eines anderen Chasers drücken Sie die Taste
-    \<Connect\>, und dann die **Swop**-Taste des gewünschten Chasers.
+    \<Connect / Cue\>, und dann die **Auswahltaste** des gewünschten Chasers.
 
--   Zum Lösen der Zuordnung drücken Sie die \<Connect\>-Taste zweimal.
+-   Zum Lösen der Zuordnung drücken Sie die \<Connect / Cue\>-Taste zweimal.
 
 -   Das automatische Verbinden lässt sich mit der Option **"Auto Connect"**
     im Menü [User Settings > Wheels](../system-settings/user-settings.md#auto-connect) (Benutzereinstellungen)
     abschalten, wenn dieses Verhalten nicht erwünscht ist. In diesem
-    Fall muss immer mit der \<Connect\>-Taste die Steuerung zugeordnet
+    Fall muss immer mit der \<Connect / Cue\>-Taste die Steuerung zugeordnet
     werden.
 
 -   Es gibt außerdem die Benutzereinstellung "Auto View On Connect" in [User
@@ -103,7 +103,7 @@ gewünschte Geschwindigkeit ein, und drücken \<Enter\>. *Abhängig von den
 (BPM) oder Sekunden eingegeben werden*.
 
 In diesem Menü lassen sich noch weitere Optionen einstellen, etwa das
-[Geräte-Überlappen](../cues/cue-timing.md#fade-times-and-fixture-overlap). Details dazu finden sich im Abschnitt [Zeiten bei Chasern](chase-timing.md).
+[Geräte-Überlappen](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz). Details dazu finden sich im Abschnitt [Zeiten bei Chasern](chase-timing.md).
 
 Für jeden Schritt lassen sich getrennte Zeiten vergeben, ebenso lässt
 sich die Schrittfolge unterbrechen, so dass der nächste Schritt auf das
@@ -129,7 +129,7 @@ Ein verbundener Chaser lässt sich mit der \<Stop\>-Taste (neben den
 Rädern) anhalten, und mit der \<Go\>-Taste fortsetzen.
 
 Ist ein Chaser angehalten, so lässt sich mit den Pfeiltasten (\<←\> und
-\<→\> bzw. \<Prev. Step\>/\<Next Step\>) bei der \<Connect\>-Taste der
+\<→\> bzw. \<Prev. Step\>/\<Next Step\>) bei der \<Connect / Cue\>-Taste der
 nächste/vorherige Schritt wählen. Dabei erfolgt das Überblenden jeweils
 in der eingestellten Zeit, es sei denn die [Benutzereinstellung \[Chase
 Snap\]](../system-settings/user-settings.md#chase-snap) wird aktiviert oder man verwendet die Taste \<Snap\> (sofern
@@ -159,7 +159,7 @@ zurückzukehren.
 ---------------------------------
 
 Die Tasten \<Prev Step\>/\<Next Step\> (← und → auf manchen Pulten) 
-rechts neben der \<Connect\>-Taste bestimmen die Richtung des 
+rechts neben der \<Connect / Cue\>-Taste bestimmen die Richtung des 
 verbundenen Chasers. Der Doppelpfeil \<↔\> (wenn vorhanden) steht dabei für
 **Hin und Her**: der Chaser läuft in einer Richtung bis zum Ende, dann
 wieder zurück zum Anfang, und so fort. Die Taste \<Review\> sorgt für
@@ -168,6 +168,6 @@ einen **zufälligen** Ablauf.
 Direktanwahl eines Schrittes
 ----------------------------
 Man kann direkt zu einem bestimmten Schritt in einem Chaser springen:
-drücken Sie dazu \<Connect\>, geben die gewünschte Schrittnummer ein,
+drücken Sie dazu \<Connect / Cue\>, geben die gewünschte Schrittnummer ein,
 und drücken \<Enter\> oder Funktionstaste A. Alternativ geben Sie im
-Hauptmenü die Schrittnummer ein und drücken \<Connect\>.
+Hauptmenü die Schrittnummer ein und drücken \<Connect / Cue\>.

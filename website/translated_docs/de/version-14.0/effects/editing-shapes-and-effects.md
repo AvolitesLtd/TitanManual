@@ -9,7 +9,7 @@ original_id: editing-shapes-and-effects
 ------------------------------------
 
 Geschwindigkeit, Größe und Aufteilung (Spread) eines gerade laufenden
-Shapes lassen sich ändern, indem man auf \<Connect\>, gefolgt von
+Shapes lassen sich ändern, indem man auf \<Connect / Cue\>, gefolgt von
 \<Shape\> drückt (\<Shape\> blinkt, sofern Shapes gerade aktiv sind).
 Die Menütasten zeigen die gerade laufenden Shapes an sowie, aus welchem
 Cue oder ob sie aus dem Programmer kommen.

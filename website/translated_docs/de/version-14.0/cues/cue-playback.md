@@ -203,7 +203,7 @@ sind 2s, dies kann im Release-Menü ‚(\<Release\> gedrückt halten) unter
 eine individuelle Relese-Zeit zuweisen ([Tab "Release"](playback-options.md#playback-options----tab-release) der Optionen).
 
 -   Um einen einzelnen Cue zu deaktivieren (‚Kill'), drücken Sie
-    gleichzeitig die \<AVO\>-Taste und die **Swop-Taste** des Cues.
+    gleichzeitig die \<AVO\>-Taste und die **Auswahltaste** des Cues.
 
 -   Man kann eine Maske definieren, die bestimmt, welche Attribute
     released werden sollen, wenn das Playback deaktiviert (killed) wird.

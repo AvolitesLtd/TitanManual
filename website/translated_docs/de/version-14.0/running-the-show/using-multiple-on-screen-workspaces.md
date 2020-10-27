@@ -9,9 +9,10 @@ Es lassen sich diverse **workspaces** (Arbeitsumgebungen) einrichten, die
 ihrerseits die Anordnung und Anzeige der verschiedenen Fenster
 speichern. Diese Arbeitsumgebungen lassen sich auf den Schaltflächen
 links der Menütasten (linker Bildschirmrand beim Sapphire Touch und Titan 
-Go sowie bei externen Displays) speichern und abrufen.
+Go sowie bei externen Displays) speichern und abrufen. Workspaces lassen 
+sich auch auf Executor-Tasten speichern.
 
-Drücken Sie zweimal auf \<View/Open\>, um die Auswahl der anzuzeigenden 
+Drücken Sie zweimal auf \<View / Open\>, um die Auswahl der anzuzeigenden 
 Fenster einzublenden. Siehe [Auswahl und Positionierung der Arbeitsfenster](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster)
 für weitere Details zu den verschiedenen Fenstern.
 

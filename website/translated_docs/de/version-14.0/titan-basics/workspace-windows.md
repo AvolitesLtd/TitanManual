@@ -55,7 +55,7 @@ aufrufen.
 	gepatchten Gerätes, so öffnet sich die Geräteanzeige mit Details zu dem
 	jeweiligen Gerät.
 
--	\<View / Open\> + \<Connect\> öffnet das Fenster 'Playback View'.
+-	\<View / Open\> + \<Connect / Cue\> öffnet das Fenster 'Playback View'.
 
 -	\<View / Open\> + \<Off\> öffnet das Fenster 'Active Playbacks'.
 
