@@ -1,0 +1,34 @@
+git status   				--> shows the status
+
+git reset head --hard    	--> reverts to head, changing the files
+
+git status
+
+git checkout master      	--> switches to master
+
+git remote					--> list remotes (e.g. origin, upstream)
+
+git pull upstream master	--> downloads master branch from upstream
+
+git checkout feature/translations	--> switches to feature/translations
+
+git merge master			--> tries to merge master into feature/translations locally
+
+  we have conflicts which cannot be automatically merged
+  
+git merge --abort			--> abort running merge operation
+
+  solve conflicts externally
+  
+git commit					--> merge master into feature/translations
+
+git log						--> lists recent changes
+
+git checkout intermediate_renaming	--> switches branch to intermediate_renaming
+
+git merge feature/translations	--> merges feature/translations into intermediate_renaming
+
+git checkout feature/translations	--> switches to feature/translations
+
+git push					--> pushes feature/translations from local machine to online repo
+
