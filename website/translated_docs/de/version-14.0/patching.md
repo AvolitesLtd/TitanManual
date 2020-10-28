@@ -30,6 +30,6 @@ auf 'Program' stehen.
 
 In der Grundeinstellung ist den DMX-Buchsen jeweils eine DMX-Linie
 zugewiesen. Um die Zuordnung zu ändern, nehmen Sie die entsprechenden
-Einstellungen in den [DMX-Einstellungen](./system-settings/dmx-output-mapping.md) im System-Modus vor.
+Einstellungen in den [DMX-Einstellungen](./system-settings/dmx-output-mapping.md) im System-Menü vor.
 
 > Wenn Ihre angeschlossenen Geräte in keiner Weise auf irgendwelche Pult-Aktionen reagieren, überprüfen Sie, ob die DMX-Ausgänge korrekt zugewiesen und aktiviert sind.

@@ -121,6 +121,11 @@ Gruppe wird pro Patchvorgang erstellt, wenn mehrere Geräte gepatcht
 werden, z.B. \[4 BB4\]. Diese Funktion kann mit der Benutzereinstellung
 \[Auto Groups\] deaktiviert werden.
 
+-	Automatisch erzeugte 'All'-Gruppen können nicht gelöscht werden;
+	stattdessen werden Sie in die Show Library verschoben. Das passiert 
+	auch, wenn eine zu löschende Gruppe für den Pixelmapper verwendet 
+	wird. Dabei wird eine entsprechende Warnung angezeigt.
+
 Gerätereihenfolge und -anordnung in den Gruppen
 ------------------------------------------------
 

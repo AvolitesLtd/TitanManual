@@ -1,3 +1,5 @@
+Work in progress: translating and merging changes which occured to the english manual since the original branching into v14 of the German manual
+
 - PR 115 - sidebar order, Cue Lists Introduction -> Cue Lists, Using a Cue -> Cue Playback
   https://github.com/AvolitesLtd/TitanManual/commit/7ddf22568e525502cd10bf47cd46d148b7ed07a9  --> DONE with Fraser 23.10.2020
 
@@ -66,6 +68,17 @@ Stand 25.09.2020, https://github.com/AvolitesLtd/TitanManual/commits/master?befo
 - Workspaces on executor buttons					https://github.com/AvolitesLtd/TitanManual/commit/e2eacd632a4de87c415abf4cfedf331a74d91400 --> DONE
 - Update references to System Mode switch				https://github.com/AvolitesLtd/TitanManual/commit/bbce8cc76a2262728ff8df2b7a8cf8c1ce988a31 --> DONE
 - Add Titan Go 'System' button						https://github.com/AvolitesLtd/TitanManual/commit/e37e055595fdda685dedfbf8dd51831187035acf --> DONE
+- Remove USB expert update note 					https://github.com/AvolitesLtd/TitanManual/commit/ed6b527f096f69001860459420eabce67908a3d6 --> DONE
+- Add text to explain which console actions are on			https://github.com/AvolitesLtd/TitanManual/commit/5c4b68e495a35b579180195314f0087f0b959ab1 --> DONE
+- Update remote cue playback info					https://github.com/AvolitesLtd/TitanManual/commit/7eed83d8f99b45e91987544376aff707e1dbc186 --> DONE
+- Update Art Net example						https://github.com/AvolitesLtd/TitanManual/commit/0f4491150a9901a535a710b0b4a4b523581364a1 --> DONE
+- Explain about All groups not allowing delete				https://github.com/AvolitesLtd/TitanManual/commit/5e229fdb7a3cbd9fb997552d1d9218ec9a92cdb4 --> DONE
+- fix link to go to run-on-startup playbacks	(14.10)			https://github.com/AvolitesLtd/TitanManual/commit/10a0396864cf857e5fdca65383d9bc15228f7d5b --> DONE
+- Add note about upgrade installer version				https://github.com/AvolitesLtd/TitanManual/commit/281ebd0cd87220f908ae182cd5a40c169b2db85d --> DONE
+- Update key profile descriptions					https://github.com/AvolitesLtd/TitanManual/commit/77f775695aeec98d0558b12ea7310da1221e5478 --> DONE
+- Update key profiles for masters					https://github.com/AvolitesLtd/TitanManual/commit/80b35fe112a523954783c69be87ea54afb502cd2 --> DONE
+- update selecting new key profile					https://github.com/AvolitesLtd/TitanManual/commit/351f98b1251626eefbb2653242025a1491b4a1a2 --> DONE
+- Update display tab in User Settings					https://github.com/AvolitesLtd/TitanManual/commit/62180abc79b5d1dc379c4cb2842b01d632d653b8 --> DONE
 
-next: Remove USB expert update note, https://github.com/AvolitesLtd/TitanManual/commit/ed6b527f096f69001860459420eabce67908a3d6, 07.10.20
-https://github.com/AvolitesLtd/TitanManual/commits/master?before=86299888ac93c595595aea43b708a71ec33ac3b8+35&branch=master
+Next: Add DMX module settings screen, https://github.com/AvolitesLtd/TitanManual/commit/946f59bfc4401ac3db4a0cfeb92493b3f8eed1ac
+https://github.com/AvolitesLtd/TitanManual/commits/master?after=d2a0913c8a5bc00767f317b558dc1415fabeaae8+34&branch=master

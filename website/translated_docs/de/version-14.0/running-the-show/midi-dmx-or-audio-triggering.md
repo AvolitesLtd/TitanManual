@@ -36,9 +36,7 @@ als Audio-Eingang verwendet werden, siehe oben.
 
 Zur Steuerung per DMX muss eine der DMX-Buchsen als Eingang verwendet
 werden; dazu benötigt man einen simplen Stecker-Stecker-Adapter ('gender
-changer', alle Pins 1:1 belegt, also 1-1, 2-2, 3-3 etc.). Bei Titan 
-Mobiles der ersten Serie ist ggf. erst ein Update der Firmware
-erforderlich, um die DMX-Trigger-Funktion zu ermöglichen.
+changer', alle Pins 1:1 belegt, also 1-1, 2-2, 3-3 etc.).
 
 GPIO nutzt einen simplen Schließkontakt, der per Klinkenbuchse 
 angeschlossen wird (nur beim Arena, dem Tiger Touch II und dem Sapphire 
@@ -59,7 +57,7 @@ verwendet werden, siehe [folgender Abschnitt](./linking-pioneerdj-system-to-tita
 Einrichten der externen Steuerung
 ---------------------------------
 
-Schalten Sie das Pult in den System-Modus (mittels \<Avo\> + \<Disk\>)
+Öffnen Sie das System-Menü (mittels \<Avo\> + \<Disk\>)
 und wählen Sie \[Triggers\]; darauf wird das Fenster 'Triggers' angezeigt.
 
 ![Triggers Window](/docs/images/Triggers-Window.png)

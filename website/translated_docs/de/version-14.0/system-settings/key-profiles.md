@@ -25,8 +25,8 @@ Touchscreen angezeigt.
 
 [](https://youtu.be/CxHQV4sP_sA?t=20 "Key Profiles")
 
-Zum Erstellen eines solchen Profils schalten Sie das Pult mit \<Avo\> + 
-\<Disk\> in den 'System'-Modus und drücken \[Key Profiles\]. Darauf 
+Zum Erstellen eines solchen Profils öffnen Sie mit \<Avo\> + 
+\<Disk\> das System-Menü und drücken \[Key Profiles\]. Darauf 
 öffnet sich das Menü 'Manage Profiles', mit dem man die verschiedenen 
 Profile anzeigen ('View'), ändern ('Edit'), löschen ('Delete') oder 
 ein neues erstellen ('Add') kann.
@@ -49,8 +49,10 @@ bestehenden Profiles.
 
 Die aktuellen Einstellungen für die verschiedenen Tastentypen
 (\[schwarz\], \[blau\], \[grau\], und - soweit zutreffend -
-\['touch'\] (die Touchscreen-Schaltfläche)) werden links im Bildschirm
-angezeigt. Über schwarze Tasten verfügt nur das Sapphire Touch.
+\[touch\] (die Touchscreen-Schaltflächen und Executor-Tasten))
+ werden links im Bildschirm angezeigt. Über schwarze Tasten verfügt 
+ nur das Sapphire Touch, außerdem können bei den virtuellen Fadern 
+ schwarze Tasten aktiviert werden.
 
 ![Editing a Key Profile](/docs/images/Editing-a-Key-Profile.png)
 
@@ -145,24 +147,28 @@ Record') beim Doppelklick auf freie Schaltflächen deaktivieren.
 
 ### Masters
 
-Diese Sektion ist unterteilt in 'Standard Masters' und 'Scene Master'.
+Es gibt unterschiedliche Einstellungen für \[Standard Masters\] und den 
+\[Scene Master\].
 
-Für normale Master gibt es die Optionen **Disabled**, **Selection**, **Flash**, **Latch**, **Tap
-Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, **Multiplier x2**,
-**Freeze**, **Connect**.
+Für normale Master gibt es die Optionen **Disabled**, **Selection**, **Flash**, 
+**Latch**, **Connect**, **Tap Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, **Multiplier x2**, **Freeze**.
 
-Die letzteren gelten nur für BPM-Master, siehe [Optionen für BPM-Master](../running-the-show/playback-controls.md#optionen-für-bpm-master). Mit
+Manche davon gelten nur für bestimmte Master, z.B. gibt es Multiplier 
+nur für BPM-Master, siehe [Optionen für BPM-Master](../running-the-show/playback-controls.md#optionen-für-bpm-master). Mit
 Freeze können Shapes und Chaser vorübergehend angehalten werden; bei
 einem Intensity-Master wirkt Freeze als Blackout.
 
-Für den Scene Master gibt es die Optionen **Disabled**, **Exit scene mode**, 
-**Enter scene mode**, **Commit changes**, **Commit changes and exit 
-scene mode**, **Enter or Exit scene mode**, **Enter or commit scene mode**.
+Für den Scene Master gibt es die Optionen **Disabled**, **Preload Scene Mode**, 
+**Exit Scene Mode**, **Enter Scene Mode**, **Commit Changes**, 
+**Commit Changes and Exit Scene Mode**, **Enter or Exit Scene Mode**, 
+**Enter or Commit Scene Mode**,**Reset Scene Mode**. Siehe 
+[Scene Master](../running-the-show/playback-controls.md#scene-master).
 
-## Eine Tastenbelegung auswählen
+## Die Tastenbelegung wechseln
 
 Zur Auswahl einer Tastenbelegung halten Sie die \<AVO\>-Taste gedrückt
-und drücken dazu \[Select Key Profile\].
+und drücken dazu \[Select Key Profile\]. Damit wird das Key Profile für 
+alle Tasten geändert, für die nicht individuell eins ausgewählt ist.
 
 ## Tastenbelegungen für einzelne Speicherplätze
 

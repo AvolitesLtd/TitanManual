@@ -40,7 +40,8 @@ andere haben. Gute Vorplanung ist dafür essentiell.
     passende IP-Adressen aus einem Bereich ein.\
 	Details siehe [Netzwerk](../networking.md).
 
-2.	Drücken Sie \<Disk\>, dann \[TitanNet Sessions\], dann \[Backup\].
+2.	Auf dem Pult, welches als Backup verwendet werden soll, drücken Sie
+	\<Disk\>, dann \[TitanNet Sessions\], dann \[Backup\].
 
 3.	Es werden nun die im Netzwerk gefundenen Titan-Pulte aufgelistet.
 

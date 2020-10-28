@@ -168,7 +168,7 @@ linker Bildschirmrand beim Sapphire Touch und Titan Go) abspeichern.
 ![Workspaces](/docs/images/Recoding-a-Workspace-Layout.png)
 
 Auf externen Bildschirmen gibt es ebenfalls jeweils einen
-Workspace-Bereich (kann per Benutzereinstellung deaktiviert werden).
+Workspace-Bereich (kann per [Benutzereinstellung](../system-settings/user-settings/#display) deaktiviert werden).
 
 Um einen Workspace zu speichern, drücken Sie die Taste \<View / Open\>,
 dann \[Record Workspace\], und schließlich eine der

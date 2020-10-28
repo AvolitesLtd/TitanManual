@@ -13,27 +13,29 @@ Einstellen der IP-Adresse des Pultes
 ------------------------------------
 
 Es wird empfohlen, die integrierte Adressvergabe des Pultes zu
-verwenden. Alternativ können Sie die Adressierung auch über die
-Windows-Systemsteuerung vornehmen. Siehe [Einstellen der IP-Adresse](a-quick-guide-to-ip-addressing.md#einstellen-der-ip-adresse) mit 
+verwenden. Alternativ kann aber auch manuell eine Adresse vergeben werden. 
+Siehe [Einstellen der IP-Adresse](a-quick-guide-to-ip-addressing.md#einstellen-der-ip-adresse) mit 
 Details zur IP-Adressierung.
 
-1. 	Schalten Sie das Pult in den 'System'-Modus (mittels \<Avo\> + \<Disk\>)
+1. 	Öffnen Sie das System-Menü (mittels \<Avo\> + \<Disk\>)
 	und drücken Sie	\[Network Settings\].
 
-2.	Drücken Sie \[Local Area Connection\].
+2.	Drücken Sie \[Local Area Connection\]. Manche Pult verfügen über mehrere
+	Netzwerkanschlüsse - wählen Sie also hier den betreffenden aus.
 
-3.	Drücken Sie \[Subnet Mask\] und setzen Sie diese auf `255.255.255.0`.
+3.	Überprüfen Sie, dass \[Subnet Mask\] auf `255.255.255.0` steht.
 
 4.	Drücken Sie \[Set IP `2.*.*.*`\].
 
 5.	Betätigen Sie \[Save settings\].
 
-6.	Verlassen Sie den System-Modus mit \<Exit\>.
+6.	Verlassen Sie das System-Menü mit \<Exit\>.
 
-- 	Einige Geräte benötigen möglicherweise IP-Adressen aus dem 
-	Bereich `10.*.*.*` -- dazu unten mehr.
+- 	Einige Geräte haben möglicherweise feste IP-Adressen aus dem 
+	Bereich `2.*.*.*` oder `10.*.*.*` - in diesem Fall muss auch die Adresse 
+	des Pultes in diesem Bereich liegen.
 
--   Benötigen Sie einen nicht vorbelegten IP-Adressbereich, so drücken
+-   Benötigen Sie eine Adresse aus einem anderen Adressbereich, so drücken
 	Sie auf \[IP Address = ... \] und geben die Adresse mit den Zifferntasten ein.
 
 Einrichten der DMX-Ausgänge
@@ -45,155 +47,74 @@ Netzwerk-Knoten geroutet werden können. Der T1 ist auf ein, der T2 auf
 zwei Universen beschränkt. Die einzelnen Linien können sowohl über die 
 DMX-Anschlüsse als auch [über Netzwerk](../networking/controlling-fixtures-over-a-network.md) ausgegeben werden.
 
-Ein einfaches Art-Net-System
-----------------------------
+Die Zuordnung interner DMX-Linien zu Netzwerklinien erfolgt im Menü 
+[DMX Settings](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs).
+Oft wird man einfach Linie 1 auf Netzwerk-Universum 1, Linie 2 auf Universum 2 etc.
+zuweisen, aber mitunter - etwa auf Tour zur Anpassung an das vorhandene
+Netzwerk - sieht das auch ganz anders aus.
 
-Es gibt verschiedene Systeme zur Übertragung von Licht-Steuersignalen
-über Netzwerk; eines der am weitesten verbreiteten ist Art-Net.
+Beispiel für ein einfaches Art-Net-System
+-----------------------------------------
+
+Es gibt hauptsächlich zwei Systeme zur Übertragung von Licht-Steuersignalen
+über Netzwerk: Art-Net und sACN. Titan unterstützt beide Protokolle. 
+In diesem Abschnitt wird die Einrichtung eines Art-Net-Systems erläutert.
 
 Art-Net ist kein gerätespezifisches Protokoll, sondern wird von einer
 wachsenden Anzahl von Herstellern anerkannt und in immer mehr Produkte
 integriert. Viele Geräte (etwa Dimmer oder Bewegungsscheinwerfer) können
 direkt per Art-Net verbunden werden, so dass kein separater Konverter
 erforderlich ist. Benötigt man hingegen 'normales' DMX, so kann dies
-über spezielle Art-Net-DMX-Konverter realisiert werden.
+über spezielle Art-Net-DMX-Konverter (oft als **Node** bezeichnet) 
+realisiert werden.
 
 Im nachstehenden Schema ist exemplarisch ein Art-Net-fähiges Pult (wie
-etwa ein Titan-Pult) über einen Netzwerk-Hub mit einem Art-Net-fähigen
-Dimmer und zwei Konvertern verbunden.
+etwa ein Titan-Pult) über einen Netzwerk-Switch mit einem Art-Net-fähigen
+Dimmer und einem Konverter verbunden.
 
 ![Art Net Explanation
-general](/docs/images/Art-Net-Explanation-general.jpeg)
+general](/docs/images/Art-Net-Explanation-General.jpeg)
 
-Sobald das System entsprechend verkabelt ist, müssen die verschiedenen
+Sobald das System entsprechend verkabelt ist, müssen die
 Geräte (Knoten, Nodes) konfiguriert werden.
 
--   Der Dimmer erhält die Startadresse 200.
+-   Am Dimmer stellen Sie die Startadresse 1.001 ein (Universum 1, Adresse 1).
 
--   Der erste Konverter wird auf Universum 1 und 2 konfiguriert.
+-   Den Konverter/Node stellen Sie so ein, dass er ab Universum 2 arbeitet;
+	handelt es sich z.B. um einen Koverter mit 12 Universen, so wandelt er 
+	die Universen 2 bis 13 von Art-Net zu DMX.
 
--   Der zweite Konverter wird ebenfalls auf Universum 1 und 2
-    konfiguriert.
+Im Menü [DMX Settings](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs) 
+ordnen Sie die internen Linien den verschiedenen Art-Net-Universen (1-256) zu.
+Dabei kann jede interne Linie auf mehrere Art-Net-Universen sowie auch parallel 
+auf die DMX-Ausgänge des Pultes geroutet werden.
 
-Daraufhin müssen auch die DMX-Linien des Pultes den entsprechenden
-Knoten zugeordnet werden.
+Ist alles ordnungsgemäß eingerichtet, sollten der Dimmer und der Node als 
+verfügbare Ausgabegeräte auf der linken Seite des DMX-Settings-Fensters 
+auftauchen. Dabei zeigen Sie auch an, welches Universum sie verarbeiten.
 
-Art-Net-Grundlagen:
+Im Beispiel erfolgt die Zuordnung daher wie folgt:
 
--   Jede Art-Net-DMX-Box, jeder Art-Net fähige Dimmer oder
-    Bewegungsscheinwerfer ist ein Gerät.
+-   Klicken Sie links auf das erste Universum des Dimmers, und danach rechts
+	auf Linie 1.
 
--   Jedes Gerät kann einen oder mehrere 'Knoten' darstellen (so hat
-    jeder der dargestellten Art-Net-DMX-Konverter zwei DMX-Ausgänge,
-    stellt also zwei Knoten dar; der Dimmer wiederum ist ein Knoten).
+-   Klicken Sie links auf das erste Universum des Nodes, und danach rechts
+	auf Linie 2.
 
--   Jeder Knoten wird einem DMX-Universum (1-256) zugeordnet. Ein
-    Universum entspricht einer DMX-Linie mit 512 Kanälen.
+-   Klicken Sie links auf das zweite Universum des Nodes, und danach rechts
+	auf Linie 3.
 
-Entsprechend werden nun die DMX-Linien des Pultes den einzelnen Knoten
-zugeordnet. Jeder DMX-Linie lassen sich mehrere Knoten zuordnen (um
-Universen zu duplizieren), aber jeder Knoten darf nur eine Linie
-zugeordnet bekommen.
-
-Im Beispiel erfolgt die Zuordnung wie folgt:
-
--   DMX-Linie A auf Konverter 1 Universum 1 und auf Konverter 2
-    Universum 1
-
--   DMX-Linie B auf Konverter 1 Universum 2
-
--   DMX-Linie C auf Konverter 2 Universum 2 sowie zum Dimmer
 
 ![Art Net Explanation Nodes to
 DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.jpeg)
 
-Einrichten eines Art-Net-Systems
---------------------------------
+Beim Patchen in Titan geben Sie nun dem Dimmer die Adresse 1.001 - 1.024. Geräten 
+auf der ersten Linie des Nodes geben Sie die Adresse 2.001 - 2.512, Geräten 
+auf der zweiten Linie des Nodes geben Sie die Adresse 3.001 - 3.512.
 
-Im folgenden Beispiel sei das Art-Net-Pult über einen Netzwerk-Hub mit
-einem Art-Net-DMX-Konverter verbunden (z.B. Artistic License Net-Lynx):
-
-![Art Net Explanation Simple
-System](/docs/images/Art-Net-Explanation-Simple-System.jpeg)
-
-Verbinden Sie die Geräte mit normalen Netzwerkkabeln (RJ-45).
-
--   Bei der Verwendung eines Netzwerk-Hubs/Switches können Sie normale,
-    'gerade' Netzwerkkabel verwenden. Wird das Pult direkt mit einem
-    anderen Ethernet-Gerät verbunden, so sind 'Crossover'-Kabel
-    erforderlich.
-
-Stellen Sie die 'Net-Lynx' wie folgt ein:
-
--   Subnet Mask = 0
-
--   DMX A Universe = 1
-
--   DMX B Universe = 2
-
-Viele Art-Net-Geräte, wie auch die Net-Lynx, verwenden standard­mäßig
-eine IP-Adresse aus dem Bereich 2.x.x.x, und können mit einem
-Konfigurationsstecker ('Jumper') z.B. auf den Bereich 10.x.x.x
-umgestellt werden. Ziehen Sie also das entsprechende Handbuch zu Rate.
-
-Benötigen Ihre Art-Net-Geräte andere als die standardmäßigen IP-Adressen
-(2.x.x.x), so muss auch beim Pult die korrekte Adresse eingestellt werden.
-
-Verbinden Sie alles ordnungsgemäß, und starten Sie das Pult.
-
-1.	Überprüfen Sie, ob das Pult wie eingangs beschrieben eine Adresse im
-	Bereich 2.x.x.x hat.
-
-2.	Schalten Sie das Pult in den System-Modus und wählen Sie \[DMX
-	Settings\].
-
-3.	Das Fenster 'DMX Settings' öffnet sich.
-
-4.	Wählen Sie links das Modul 'Art-Net' aus.
-
-5.	Klicken Sie auf die Schaltfläche mit dem stilisierten Zahnrad beim
-	Modul 'Art-Net-'. Stellen Sie sicher, dass der richtige Netzwerkport 
-	ausgewählt ist (ggf. ist dies nicht die Standard-Netzwerkkarte).
-
-6.	Um die Art-Net-Ausgabe abzuschalten, können Sie die Option 'DMX Output' 	
-	deaktivieren. Damit wird die Ausgabe über Art-Net für sämtliche Linien
-	abgeschaltet.
-
-7.	Art-Net überträgt normalerweise Daten nur bei Änderungen, also
-	keinen kontinuierlichen Datenstrom. Mitunter ist dieser aber
-	erforderlich. In diesem Falle aktivieren Sie die Option 'Continuous
-	Art-Net Data Stream'.
-
-8.	Die Option 'Always Broadcast Art-Net DMX' veranlasst die
-	Art-Net-Übertragung ins gesamte Netzwerk ('Broadcast'), statt nur zu
-	ausgewählten Geräten/IP-Adressen.
-
-9.	Klicken Sie auf den Art-Net-Knoten, den Sie verwenden wollen, um ihn zu
-	markieren.
-
-10. Wählen Sie rechts die gewünschte DMX-Linie.
-
-11. Damit ist der gewählte Knoten dieser Linie zugeordnet, und das Pult
-	gibt Signale per Art-Net aus.
-
-12. Klickt man auf das kleine Zahnrad eines zugeordneten Nodes, so lassen 
-	sich spezifische Einstellungen vornehmen: man kann dem Node einen 
-	Namen geben, zwischen Live und Blind umschalten (letzteres ist sinnvoll,
-	wenn man bei einer Live-Show parallel einen Visualiser verwendet), es
-	lässt sich das Universum sowie der Syste-Parameter wählen sowie die 
-	Ziel-IP-Adresse einstellen, wenn nur ein spezieller Node das Signal
-	bekommen soll.
-
-13.	Stellen Sie für Linie 1 den Eintrag 'Universe' auf 1, und für Linie
-	2 auf 2. (Art-Net benutzt eine Subnetz-Maske für die Universen. Für die
-	Titan-Pulte gilt: Die Titan-Universen 1 - 16 sind Subnetz-Maske 0 und Art-Net-Universen 1 - 16).
-
-14. Schließen Sie zum Schluss mit \<Exit\> das DMX-Fenster.
-
-Das Pult ist nun korrekt konfiguriert.
-
-Um einen Knoten von einer DMX-Linie zu entfernen, klicken Sie auf die
-betreffende Schaltfläche \[X\].
+-   Für weitere Art-Net-Einstellungen klicken Sie auf das stilisierte Zahnrad 
+	beim Art-Net-Modul. Im Abschnitt [Art-Net-Einstellungen](../system-settings/dmx-output-mapping.md#art-net-eigenschaften)
+	werden diese genauer erklärt.
 
 Als mögliche Art-Net-Geräte werden ggf. auch \"Unpolled\" oder
 \"Unknown\" angezeigt:

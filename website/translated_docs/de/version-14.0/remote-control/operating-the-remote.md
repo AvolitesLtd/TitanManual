@@ -85,13 +85,13 @@ Programmierspeicher gelöscht, also auch der des Pultes. Das kann
 sinnvoll sein, wenn dort versehentlich noch etwas aktiv ist, was bei der
 Verwendung der Remote stört.
 
-In der **Cue**-Ansicht können auch gespeicherte Cues gestartet werden. Hält
-man die Schaltfläche eines aktiven Cues angeklickt, so kann man diesen
-deaktivieren oder releasen (freigeben).
+In der **Cue**-Ansicht können auch im Fenster 'Playbacks' gespeicherte 
+Cues gestartet werden. Hält man die Schaltfläche eines aktiven Cues 
+angeklickt, so kann man diesen deaktivieren oder releasen (freigeben).
 
->	Werden Bezeichnungen von Paletten oder Cues auf dem Pult bei laufender 
-	Remote geändert, so erscheinen die Änderungen auf der Remote erst, 
-	wenn diese beendet und neu gestartet wurde.
+>	Cues, die auf normalen Fader-Handles gespeichert sind, stehen in der 
+	Remote nicht zur Verfügung. Um diese verwenden zu können, kopieren/verschieben 
+	sie die gewünschten Cues ins Playbacks-Fenster.
 
 Speichern von Gruppen und Paletten
 ----------------------------------

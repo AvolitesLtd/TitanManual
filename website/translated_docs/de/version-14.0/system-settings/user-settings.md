@@ -62,8 +62,22 @@ Vorgabewert ist 40Hz*, und kann je nach Bedarf auf Werte von 1 bis
 44Hz gestellt werden. Mit kleineren Werten wird der Prozessor bei 
 Shows mit sehr vielen gesteuerten Geräten ggf. entlastet.
 
+---
+
+## Display
+
+### External Display
+Zum Aktivieren/Deaktivieren des externen Displays.
+
+### External Screen Workspace Shortcuts
+Sofern aktiviert, wird auf jedem Display ein separater Workspaces-Bereich 
+angezeigt. Damit lassen sich auf einfache weise für jeden Bildschirm getrennte 
+Einstellungen vornehmen.
+
 ### Lock Screen Background
 Einstellen eines Hintergrundbildes bei gesperrtem Pult
+
+-  Diese Optionen stehen auch im System-Menü und \[Display Setup\] zur Verfügung.
 
 ---
 

@@ -27,6 +27,12 @@ sein) sowie die Netzwerkkonfiguration (unterschiedliche IP-Adressen,
 aber im gleichen Bereich; gleiche Subnetz-Masken) zu überprüfen. Mehr dazu
 in [Einrichten des Netzwerkbetriebs](../networking.md).
 
+>	Beim Installieren oder Upgraden von Synergy ist darauf zu achten, 
+	dass das Synergy-Installationsprogramm die gleiche Version hat wie 
+	die Titan-Software des Pultes. Die Software steht auf der 
+    [Avolites Download-Seite](https://www.avolites.com/software/latest-version)
+	zum Download bereit.
+
 Einrichten der Show in Ai
 -------------------------
 

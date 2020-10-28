@@ -207,7 +207,7 @@ vermeiden. Beim Titan Mobile und Titan One/T1/T2 ist ein zweiter Bildschirm
 davon abhängig, dass der verwendete Computer dies unterstützt.
 
 Der externe Bildschirm ist standardmäßig deaktiviert, und zeigt das mit
-'Disabled' an. Um ihn zu aktivieren, schalten Sie in den 'System'-Modus
+'Disabled' an. Um ihn zu aktivieren, öffnen Sie das System-Menü
 (\<Avo\> + \<Disk\>), wählen \[Display Setup\], und drücken \[External
 Display Disconnected\]. Damit ändert sich die Anzeige auf \[External
 Display Connected\], und der Bildschirm wird aktiviert.
@@ -219,7 +219,7 @@ und wählen die passende Auflösung. Bei der Titan PC-Suite erfolgt dies
 über die Windows-Systemsteuerung).
 
 Weitere Details dazu sowie eine Anleitung zur Suche möglicher Fehler
-[finden Sie](system-settings/external-displays.md).
+[finden Sie hier](system-settings/external-displays.md).
 
 Weitere Anschlussmöglichkeiten
 ------------------------------

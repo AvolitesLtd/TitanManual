@@ -52,8 +52,8 @@ Funktionsbereiche verwendet werden:
 -   Der **Playback-Master** steuert die Gesamthelligkeit von
     vorprogrammierten Playbacks.
 
-Um einzelne Regler mit einer Master-Funktion zu belegen, schalten
-Sie in den System-Modus und wählen \[Assign Masters\]. Ebenso geht
+Um einzelne Regler mit einer Master-Funktion zu belegen, öffnen
+Sie das System-Menü und wählen \[Assign Masters\]. Ebenso geht
 dies per \<Record\> \[Create Master\].
 
 Als Voreinstellung haben Masterfader einen ‚Transparent Lock', d.h.
@@ -120,7 +120,7 @@ jeweils auf einen Fader gelegt werden:
 	legen wollen.
 
 -	Beim Pearl Expert und beim Tiger Touch 1 drücken Sie \<Avo\> und \<Disk\>,
-	um ins System-Menü zu gelangen, und wählen dort \[ Assign Masters\].
+	um das System-Menü zu öffnen, und wählen dort \[ Assign Masters\].
 
 -	Für Speedmaster stehen auch gesonderte Tastenprofile zur Verfügung; 
 	BPM-Master haben als Vorgabewert die Takt-Taste (Tap Tempo).

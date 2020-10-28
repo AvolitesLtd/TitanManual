@@ -31,7 +31,7 @@ In diesem Beispiel wird ein Hippotizer mit einem Titan-Pult verbunden.
 4.	Starten Sie den Hippotizer. Überprüfen Sie, dass die CITP
 	Component geladen ist.
 
-5.	Schalten Sie das Pult in den System-Modus (mittels \<Avo\> + \<Disk\>)
+5.	Öffnen Sie das System-Menü (mittels \<Avo\> + \<Disk\>)
 	und wählen Sie \[DMX Settings\].
 
 6.	Links im Fenster wird nun der Hippotizer mit seiner IP-Adresse als
@@ -43,7 +43,7 @@ In diesem Beispiel wird ein Hippotizer mit einem Titan-Pult verbunden.
 	des Hippotizers übereinstimmt.
 
 8.	Schließen Sie das Fenster mit \<Exit\> und schalten Sie wieder in
-	den Programmier-Modus.
+	das Programmier-Menü.
 
 9.	Starten Sie die Pult-Software neu (Schließen und neu starten, oder
 	\[Tools\], \[Restart Software\]).

@@ -58,8 +58,8 @@ anderen Geräten ist das Vorgehen aber ähnlich.
 2. 	Verbinden Sie Access Point und Pult mit einem Netzwerkkabel; die
 	Netzwerkanschlüsse sind hinten am Pult.
 
-3. 	Stellen Sie auf dem Pult eine passende IP-Adresse ein: schalten Sie
-	es in den System-Modus (mittels \<Avo\> + \<Disk\>), wählen dann 
+3. 	Stellen Sie auf dem Pult eine passende IP-Adresse ein: öffnen Sie
+	das System-Menü (mittels \<Avo\> + \<Disk\>), wählen dann 
 	\[Network Settings\], dann \[LocalArea Connection\], und klicken 
 	auf \[Set IP 10.\*.\*.\*\].
 
