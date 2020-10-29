@@ -67,7 +67,7 @@ tauchen die Surfaces auf, die zwar in Ai schon angelegt sind, aber noch
 nicht in Titan. Dieses sind die ‚unmatched' (nicht zugewiesenen)
 Surfaces.
 
-Klickt man auf das \[ + \] unten und wählt aus der aufklappenden Liste
+Klickt man auf das \{+\} unten und wählt aus der aufklappenden Liste
 'Surface', so wird ein neues Surface hinzugefügt. Dieses erscheint in
 der mittleren Spalte oben. Neue Surfaces haben zunächst immer zwei
 Layer.
@@ -78,7 +78,7 @@ Klickt man in der mittleren Spalte oben auf die Titelleiste eines
 Surfaces, so werden rechts die entsprechenden Optionen angezeigt. Damit
 lässt sich die Auflösung einstellen, wahlweise per Auswahl aus einer
 Liste oder per numerischer Eingabe. Ganz rechts oben kann man mit dem
-farbigen Button das Halo des Surfaces ändern sowie mit dem Stift-Icon
+farbigen Button das Halo des Surfaces ändern sowie mit dem \{Stift\}-Button
 die Legende (Bezeichnung) bearbeiten (beides ist auch wie gewohnt per
 \[Set Legend\] möglich).
 
@@ -94,7 +94,7 @@ Previews aktiviert sein - verwendet man das nicht, so empfiehlt es
 sich, die Option zu deaktivieren, um das Netzwerk zu entlasten.
 
 Ist in Titan ein Surface angelegt, so muss dies einem Ai-Surface (in Ai:
-Screen Fixture) zugewiesen werden. Dazu klickt man auf den Link-Button
+Screen Fixture) zugewiesen werden. Dazu klickt man auf den Button \{Link\}
 des nicht zugewiesenen Ai-Surfaces unten und danach auf das
 Titan-Surface oben. Wählt man dagegen **Link to new Surface**, so wird ein
 neues Titan-Surface angelegt und verknüpft.
@@ -118,10 +118,10 @@ direkt, sondern nur über Titan/Synergy gesteuert werden.
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)
 
 Um einen weiteren Layer hinzuzufügen, klickt man auf das Surface, dann
-auf den \[ + \] - Button unten, und wählt 'Layer'.
+auf den \{+\} - Button unten, und wählt 'Layer'.
 
 Um einen Layer oder ein Surface zu löschen, wählt man dieses aus und
-klickt unten auf das Papierkorb-Symbol, oder man drückt \<Delete\> und
+klickt unten auf den \{Papierkorb\}, oder man drückt \<Delete\> und
 klickt dann auf das zu löschende Element. Ist dabei Ai verbunden, so
 wird der Layer bzw. das Surface (Screen Fixture) auch in Ai gelöscht.
 

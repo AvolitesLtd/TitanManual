@@ -6,8 +6,8 @@
     "tagline": "Official Manual for the Avolites Titan software",
     "docs": {
       "about-the-consoles": {
-        "title": "Console hardware introduction",
-        "sidebar_label": "Console hardware introduction"
+        "title": "Console Hardware",
+        "sidebar_label": "Console Hardware Introduction"
       },
       "about-the-consoles/arena": {
         "title": "Arena",
@@ -426,8 +426,8 @@
         "sidebar_label": "Multi-User Operation"
       },
       "titan-basics/other-parts-of-the-touch-screen": {
-        "title": "Other parts of the touch screen",
-        "sidebar_label": "Other parts of the touch screen"
+        "title": "Other Parts of the Touch Screen",
+        "sidebar_label": "Other Parts of the Touch Screen"
       },
       "titan-basics/show-library": {
         "title": "Show Library",
@@ -1342,8 +1342,8 @@
         "sidebar_label": "TNP Slave Mode"
       },
       "version-14.0/version-14.0-about-the-consoles": {
-        "title": "Console hardware introduction",
-        "sidebar_label": "Console hardware introduction"
+        "title": "Console Hardware",
+        "sidebar_label": "Console Hardware Introduction"
       },
       "version-14.0/about-the-consoles/version-14.0-arena": {
         "title": "Arena",
@@ -1762,8 +1762,8 @@
         "sidebar_label": "Multi-User Operation"
       },
       "version-14.0/titan-basics/version-14.0-other-parts-of-the-touch-screen": {
-        "title": "Other parts of the touch screen",
-        "sidebar_label": "Other parts of the touch screen"
+        "title": "Other Parts of the Touch Screen",
+        "sidebar_label": "Other Parts of the Touch Screen"
       },
       "version-14.0/titan-basics/version-14.0-show-library": {
         "title": "Show Library",

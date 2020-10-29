@@ -33,7 +33,7 @@ wechselt eine Verzeichnisebene höher.
 
 Rechts sind die Medien-Bänke des Ai-Servers aufgeführt. Wählt man eine
 Bank aus, so werden alle enthaltenen Dateien/Medien angezeigt. Klickt
-man auf das \[ + \] neben der Liste der Bänke, so wird eine neue Bank 
+man auf das \{+\} neben der Liste der Bänke, so wird eine neue Bank 
 angelegt. Ganz oben in der rechten Spalte wird der auf dem Server 
 verfügbare Speicherplatz sowie der Pfad zum Medienverzeichnis angezeigt.
 
@@ -163,7 +163,7 @@ Videoausschnitt angezeigt wird, siehe [nächster Abschnitt](#verwendung-des-layo
 3.  Wählen Sie die **[Gerätegruppe](../controlling-fixtures/fixture-groups.md)**, auf der 
 	das Video laufen soll. Daraufhin öffnet sich der Effekt-Editor.
 
-4.  Klicken Sie unten links auf das \[ + \], um einen Pixelmapper-Effekt
+4.  Klicken Sie unten links auf das \{+\}, um einen Pixelmapper-Effekt
 	hinzuzufügen.
 
 5.  Klicken Sie oben rechts auf den \[Ai\] - Button.

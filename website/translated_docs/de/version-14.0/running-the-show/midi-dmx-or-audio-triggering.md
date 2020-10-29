@@ -73,11 +73,11 @@ Damit lässt sich ganz schnell die Steuerung des Pultes umkonfigurieren.
 Trigger werden wie folgt eingerichtet:
 
 1.  Beginnen Sie ein neues Trigger-Mapping, indem Sie *links unten* auf die
-	\[+\]-Schaltfläche klicken und einen Namen eingeben. 
+	\{+\}-Schaltfläche klicken und einen Namen eingeben. 
 
 2.  Zum Hinzufügen eines Triggers, also der Zuordnung eines
 	Steuersignals zu einem Pult-Ereignis, klicken Sie auf die
-	\[+\]-Schaltfläche *rechts unten* oder drücken die Menü-Taste \[Add
+	\{+\}-Schaltfläche *rechts unten* oder drücken die Menü-Taste \[Add
 	Trigger\].
 
 3.  Wählen Sie nun die Art der Steuerung (Trigger Type). 
@@ -149,10 +149,10 @@ Fügen Sie auf die gleiche Weise weitere Trigger hinzu.
 ![Triggers Window with MIDI triggers](/docs/images/Triggers-Window-with-MIDI-triggers.png)
 
 Zum Löschen eines Triggers aus der Zuordnung wählen Sie diesen und
-betätigen die Schaltfläche mit dem Papierkorb-Symbol *rechts unten*.
+betätigen die Schaltfläche mit dem \{Papierkorb\} *rechts unten*.
 
 Zum Löschen einer kompletten Zuordnungs-Tabelle (Mapping) wählen Sie
-diese und betätigen die Schaltfläche mit dem Papierkorb-Symbol *links
+diese und betätigen die Schaltfläche mit dem \{Papierkorb\} *links
 unten*.
 
 Die Trigger-Aktion "Re-Fire At Level" sorgt dafür, dass das jeweilige
@@ -171,11 +171,11 @@ MIDI-Werte kann man u.a. mit der Software MIDI-Ox überprüfen).
 
 1.	Öffnen Sie das System-Menü mit \<Avo\> + \<Disk\> und wählen Sie \[Triggers\].
 
-2.	Fügen Sie links mit dem Button \[ + \] eine neue
+2.	Fügen Sie links mit dem Button \{+\} eine neue
 	Trigger-Zusammenstellung (Mapping) hinzu und geben Sie ihr einen
 	passenden Namen, z.B. 'T2 Playbacks'.
 
-3.	Fügen Sie nun rechts mit dem Button \[ + \] oder mit der Menütaste
+3.	Fügen Sie nun rechts mit dem Button \{+\} oder mit der Menütaste
 	\[Add Trigger\] einen neuen Trigger hinzu -- dieser wird als Trigger
 	Type: Hardware angelegt.
 

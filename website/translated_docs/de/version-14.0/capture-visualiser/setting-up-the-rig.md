@@ -13,14 +13,14 @@ sich verschiedene feste Elemente hinzufügen.
 
 Öffnen Sie das Fenster \[Capture Visualiser Settings\] (entweder per Doppelklick auf
 [\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster), oder durch einen Klick auf den
-Kontext-Button \[Open Settings\] im Capture Visualiser-Fenster). Klicken Sie
+Kontext-Button \{Open Settings\} im Capture Visualiser-Fenster). Klicken Sie
 oben auf den Reiter **Stage**.
 
 ![Capture Visualiser Settings Window](/docs/images/Capture-Visualiser-Settings-Window.png)
 
 
 Die Elemente **"Floor"** (Boden) und **"Back Wall"** (Rückwand) sind bereits
-eingerichtet. Klickt man links unten auf das **+** (Pluszeichen), so
+eingerichtet. Klickt man links unten auf das \{+\} (Pluszeichen), so
 können weitere Objekte hinzugefügt werden.
 
 Klicken Sie links auf eines der vorhandenen Objekte, so können seine
@@ -43,8 +43,8 @@ Fixtures\] \[Update Personality\] \[Update All\]. Auch ein Gerätetausch ([Excha
 
 Geräte werden, sobald sie in Capture vorhanden sind, mit den Rädern
 (Encodern) positioniert. Wählen Sie dazu [ein oder mehrere Geräte oder
-ein Gerätegruppe](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) aus und drücken Sie [\<Locate\>](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate). Mit der Kontext-Option
-\[Position -- Orientation\] wird die Steuerung für Position und
+ein Gerätegruppe](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) aus und drücken Sie [\<Locate\>](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate). Mit dem Kontext-Button
+\{Position - Orientation\} wird die Steuerung für Position und
 Orientierung der jeweils ausgewählten Geräte auf die Wheels gelegt. *Das
 Gleiche passiert, wenn man den Rad-Modus mit der Menütaste G auf „Räder
 = Visualiser" schaltet.*
@@ -52,7 +52,7 @@ Gleiche passiert, wenn man den Rad-Modus mit der Menütaste G auf „Räder
 Wählen Sie mit den Attribut-Tasten **Position**, so können Sie nun die
 X/Y/Z-Position der gewählten Fixtures einstellen. Sind mehrere Geräte
 gewählt, so lassen sich mit der \<Fan\>-Taste oder der Option
-\[Scale-Fan\] die Geräte gleichmäßig verteilen/auffächern. Auch die
+\{Scale-Fan\} die Geräte gleichmäßig verteilen/auffächern. Auch die
 anderen Optionen der Fan-Funktion [(Split, Curve, Group)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-modus) funktionieren
 wie gewohnt.
 
@@ -112,12 +112,12 @@ Verfügung.
 
 Die Steuerung der Kameras erfolgt im Fenster [Capture Visualiser Settings](#setting-up-the-stage-and-rigging): zum Öffnen drücken Sie zweimal auf 
 \<View / Open\> und wählen \[Capture Settings\] von den Buttons,
-oder Sie verwenden den Kontext-Button \[Open Settings\] des Capture-Fensters.
+oder Sie verwenden den Kontext-Button \{Open Settings\} des Capture-Fensters.
 
 Die Steuerung der Kameras erfolgt ebenfalls im Fenster **Capture Visualiser Settings** auf dem Reiter 'Cameras'.
 
 Mit den vier Schaltflächen oben lassen sich die verschiedenen Kameras
-umschalten *(siehe unten)*; klickt man rechts auf das **+**, kann man weitere Kameras
+umschalten *(siehe unten)*; klickt man rechts auf das \{+\}, kann man weitere Kameras
 hinzufügen.
 
 ![Camera movements in Capture Visualiser Workspace Window](/docs/images/Camera-movements-in-Capture-Visualiser-Workspace-Window.png)
@@ -140,12 +140,12 @@ mit den Buttons darunter gewählt:
 -   **Orbit:** schwenkt die Kamera im Kreis um die Bühne, wobei sie stets
     auf den gleichen Punkt ausgerichtet bleibt.
 
-Klickt man auf die Kontext-Option \[Move Camera\], so kann man die
+Klickt man auf den Kontext-Button \{Move Camera\}, so kann man die
 Kamera mit den Rädern bewegen sowie im Menü **Set Coordinates** 
 die Position/Rotation numerisch eingeben.
 
-Klickt man auf die Kontext-Option \[Rotate Camera\] oder \[Orbit
-Camera\], so kann man die Kamera mit den Rädern drehen/schwenken, sowie
+Klickt man auf den Kontext-Button \{Rotate Camera\} oder \{Orbit
+Camera\}, so kann man die Kamera mit den Rädern drehen/schwenken, sowie
 die Rotation numerisch eingeben.
 
 Capture Darstellungs-Optionen

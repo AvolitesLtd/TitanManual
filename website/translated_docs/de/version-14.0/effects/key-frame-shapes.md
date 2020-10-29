@@ -73,7 +73,7 @@ Bild.
 
 -   Ist der Shape nicht erkennbar, weil die Geräte dunkel sind, so
     lassen sich die Dimmerkanäle der verwendeten Geräte mit der
-    Schaltfläche mit der **stilisierten Sonne** locaten.
+    Schaltfläche \{Sonne\} locaten.
 	
 Ändern von Shape-Parametern im Effekt-Editor
 --------------------------------------------
@@ -177,14 +177,14 @@ Auch die Reihenfolge der Keyframes lässt sich im Effekt-Editor ändern:
 
 ![Effect Editor key frame shape layer with colour steps](/docs/images/Effect-Editor-key-frame-shape-layer-with-colour-steps.png)
 
--   Um Frames **hinzuzufügen**, klicken Sie auf den **Stift** rechts neben dem
+-   Um Frames **hinzuzufügen**, klicken Sie auf den \{Stift\} rechts neben dem
     **Namen des Layers**.
 
--   Um einen Frame zu **editieren**, klicken Sie auf den **Stift** rechts neben
+-   Um einen Frame zu **editieren**, klicken Sie auf den \{Stift\} rechts neben
     dem **Namen des Frames**.
 
 -   Um einen Frame zu **löschen**, wählen Sie diesen aus und klicken unten
-    auf das **Papierkorb**-Symbol.
+    auf den \{Papierkorb\}.
 
 -   Um die **Reihenfolge zu ändern**, wählen Sie einen Frame aus und
     verschieben ihn mit den **Pfeiltasten**.
@@ -197,7 +197,7 @@ Auch die Reihenfolge der Keyframes lässt sich im Effekt-Editor ändern:
 
 Keyframe-Shapes können jeweils mehrere Layer (Ebenen) enthalten, so dass
 verschiedene Effekte gleichzeitig laufen können. Um einen neuen Layer
-hinzuzufügen, klicken Sie unten auf das \[**+**\] und wählen nun
+hinzuzufügen, klicken Sie unten auf das \{+\} und wählen nun
 **Layers**. Damit erscheint der neue Layer in der Liste auf der linken
 Seite.
 

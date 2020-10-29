@@ -32,14 +32,14 @@ Erstellen einer Set-Liste
 -------------------------
 
 Zum Erstellen einer neuen Set-Liste klicken Sie auf die
-\[+\]-Schaltfläche *oben rechts*, angeboten werden die Optionen \[Empty\]
+\{+\}-Schaltfläche *oben rechts*, angeboten werden die Optionen \[Empty\]
 (leer), \[Pages\] (Seiten), und \[Build\]. 
 -   Mit der Option \[Pages\] wird eine Set-Liste mit den momentan 
 	verwendeten Seiten erstellt. 
 -	Wählt man \[Build\], so kann man die momentan programmierten Seiten 
 	in beliebiger Reihenfolge in eine Set-Liste einfügen. 
 -   Mit \[Empty\] starten Sie mit einer leeren Set-Liste und fügen Track 
-	für Track hinzu, indem Sie unten auf die \[+\]-Schaltfläche klicken.
+	für Track hinzu, indem Sie unten auf die \{+\}-Schaltfläche klicken.
 
 Die Tracks konfigurieren
 ------------------------

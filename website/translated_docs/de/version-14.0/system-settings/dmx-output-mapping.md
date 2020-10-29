@@ -52,11 +52,11 @@ zugewiesenen DMX-Linie.
 ![Node in DMX Settings Window](/docs/images/Node-in-DMX-Settings-Window.png)
 
 Zum Löschen einer Zuordnung dienen die individuellen oder gruppenweisen
-**X**-Schaltflächen: pro Node, pro Linie, sowie ganz oben bei **Dmx Lines** für
+\{X\}-Schaltflächen: pro Node, pro Linie, sowie ganz oben bei **Dmx Lines** für
 sämtliche DMX-Ausgänge.
 
 Um die Zuordnung zu ändern, also etwa einen Node einer anderen Linie 
-zuzuweisen, muss dieser zunächst mit dem **X** von der aktuellen Linie 
+zuzuweisen, muss dieser zunächst mit dem \{X\} von der aktuellen Linie 
 gelöscht werden, erscheint daraufhin wieder links als nicht zugewiesen, und
 kann nun einer anderen Linie zugeordnet werden.
 
@@ -67,7 +67,7 @@ erste Universum) sowie \[Quantity\] (Anzahl) ein, und klicken auf die
 gewünschte erste Linie. Daraufhin wird die gewünschte Anzahl von Universen
 auf fortlaufende Linien zugewiesen.
 
-Mit dem stilisierten Zahnrad können weitere Details und Einstellungen pro
+Mit dem kleinen \{Zahnrad\} können weitere Details und Einstellungen pro
 Knoten (sobald er zugewiesen ist) sowie pro DMX-Modul aufgerufen werden. 
 Hiermit lassen sich auch für Netzwerk-Knoten die Adresse und Subnetz-Maske
 eingeben.
@@ -93,7 +93,7 @@ z.B. Art-Net oder sACN - jedes Modul kann mehrere Nodes haben.
 Zum genauen Einstellen der DMX-Ausgängen sowie der Art-Net- und 
 sACN-Optionen öffnen Sie die DMX-Einstellungen (also \<Avo\> + \<Disk\> 
 zum Öffnen des [System-Menüs](the-system-menu.md), dann \[DMX Settings\]), 
-und klicken links auf das stilisierte Zahnrad neben dem betreffenden Modulnamen.
+und klicken links auf das kleine \{Zahnrad\} neben dem betreffenden Modulnamen.
 
 Damit lassen sich pro Modul spezifische Einstellungen vornehmen und auch
 bestimmen, über welchen Netzwerkanschluss welches Protokoll ausgegeben

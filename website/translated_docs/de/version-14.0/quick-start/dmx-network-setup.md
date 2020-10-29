@@ -19,7 +19,7 @@ Mehrere Pulte lassen sich per Ethernet vernetzen und gestatten so den
 
 Wählen Sie links einen Node aus (den gewünschten Ausgabe-Anschluss), und
 klicken Sie auf den Pfeil. Rechts wählen Sie nun das Universum,
-das ausgegeben werden soll. Mit dem stilisierten Zahnrad lassen sich
+das ausgegeben werden soll. Mit dem kleinen \{Zahnrad\} lassen sich
 verschiedene weitere Einstellungen pro Linie vornehmen (siehe [DMX-Ausgänge einrichten](../system-settings/dmx-output-mapping.md)).
 
 Zum Ändern der IP-Adresse des Pultes wählen Sie im System-Menü \[[Netzwerkeinstellungen](../networking.md)\].

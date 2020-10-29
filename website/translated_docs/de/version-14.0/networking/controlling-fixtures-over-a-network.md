@@ -112,7 +112,7 @@ Beim Patchen in Titan geben Sie nun dem Dimmer die Adresse 1.001 - 1.024. Gerät
 auf der ersten Linie des Nodes geben Sie die Adresse 2.001 - 2.512, Geräten 
 auf der zweiten Linie des Nodes geben Sie die Adresse 3.001 - 3.512.
 
--   Für weitere Art-Net-Einstellungen klicken Sie auf das stilisierte Zahnrad 
+-   Für weitere Art-Net-Einstellungen klicken Sie auf das kleine \{Zahnrad\}
 	beim Art-Net-Modul. Im Abschnitt [Art-Net-Einstellungen](../system-settings/dmx-output-mapping.md#art-net-eigenschaften)
 	werden diese genauer erklärt.
 

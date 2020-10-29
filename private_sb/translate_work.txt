@@ -85,6 +85,11 @@ Stand 25.09.2020, https://github.com/AvolitesLtd/TitanManual/commits/master?befo
 - Update Synergy version matching / upgrade installer info		https://github.com/AvolitesLtd/TitanManual/commit/2203e08f3be4173f51f993b46f848b26590059c7 --> DONE
 - Add Clear Selected Fixtures option to clear tab			https://github.com/AvolitesLtd/TitanManual/commit/f0944878a60bb55dd5376e834f4daff0e25a60e6 --> DONE
 
+- Context buttons							https://github.com/AvolitesLtd/TitanManual/commit/e9c62fb59a9224d2e64f52e96eef9d7a013b86f1 --> DONE
+- Context buttons with icons						https://github.com/AvolitesLtd/TitanManual/commit/f6ef87357b7b7f2ca2ed6904f484679ee3ae6347 --> DONE
+- Context buttons - cog & x						https://github.com/AvolitesLtd/TitanManual/commit/2b7404e8a0b024df8e3fe933f12c283014a7f7db --> DONE
+- Button formatting							https://github.com/AvolitesLtd/TitanManual/commit/52d2c8e946b59fd8cec359c43865fa7323760904 --> DONE
+
 
 
 

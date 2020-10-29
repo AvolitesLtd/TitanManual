@@ -1,7 +1,7 @@
 ---
 id: version-14.0-other-parts-of-the-touch-screen
-title: Other parts of the touch screen
-sidebar_label: Other parts of the touch screen
+title: Other Parts of the Touch Screen
+sidebar_label: Other Parts of the Touch Screen
 original_id: other-parts-of-the-touch-screen
 ---
 
@@ -192,6 +192,6 @@ ein rotes Verbotszeichen dargestellt.
 
 Im Mehrbenutzerbetrieb kann das Fenster eine separate Spalte pro
 Benutzer zeigen, mit den jeweils letzten Aktionen des Users. Dazu dient
-die Option im Kontext-Menü dieses Fensters \[Show All Users and
-Consoles\]. Als Vorgabe wird mit \[Show Only Current User\] nur der
-aktuelle Benutzer angezeigt\].
+die Option \{Show All Users and Consoles\} im Kontext-Menü dieses Fensters. 
+Als Vorgabe wird mit \{Show Only Current User\} nur der
+aktuelle Benutzer angezeigt.

@@ -34,9 +34,10 @@ Kontext-Bereich auf \[Fixture Overlay 50/50\].
 ![Effect Editor - Pixel Mapper - New Effect](/docs/images/Effect-Editor-Pixel-Mapper-New-Effect.png)
 
 ### Elemente
-Klicken Sie unten auf die Schaltfläche \[+\], um einen Effekt zu
+
+Klicken Sie unten auf die Schaltfläche \{+\}, um einen Effekt zu
 erzeugen, und wählen Sie eine der verfügbaren Formen aus. Zum **Entfernen**
-bereits erzeugter Elemente wählen Sie diese aus und klicken auf den **Papierkorb**,
+bereits erzeugter Elemente wählen Sie diese aus und klicken auf den \{Papierkorb\},
 Es stehen folgende Elemente zur Verfügung:
 
 -   Quadrat
@@ -79,7 +80,7 @@ Element-Typ):
 ### Animationen
 
 Bei noch ausgewähltem Grafikelement (links in der Layer-Darstellung)
-klicken Sie nochmals auf \[+\] und wählen eine **Animation** (Bewegung)
+klicken Sie nochmals auf \{+\} und wählen eine **Animation** (Bewegung)
 oder einen **visuellen Effekt** (etwa das Aufzoomen oder Einblenden).
 Damit wird der Effekt auf dem schwarzen Hintergrund und den Geräten
 animiert. Es lassen sich mehrere Animationen miteinander kombinieren, um

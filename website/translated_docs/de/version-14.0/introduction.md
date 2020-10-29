@@ -33,10 +33,6 @@ Am Schluss gibt es ein [Glossar und Stichwortverzeichnis](./glossary.md),
 sowie eine Übersicht über die wichtigsten Fachbegriffe und Bezeichnungen 
 auf Pulten verschiedener Hersteller.
 
-Die Online-Fassung dieses Handbuchs verfügt über eine Suchfunktion
-(rechts oben), oder Sie arbeiten es anhand der Navigationsleiste Kapitel
-für Kapitel durch.
-
 Viel Spaß beim Programmieren!
 
 Konventionen in diesem Handbuch
@@ -46,9 +42,10 @@ Wo es möglich ist, wird zu anderen Kapitel mit genaueren Beschreibungen
 [verlinkt](./introduction.md).
 
 Um die Unterscheidung zwischen den fixen, fest beschrifteten Tasten und
-den variablen Menütasten zu erleichtern, werden fixe Tasten \<so\> 
-dargestellt, etwa \<Record\>, während Menütasten/Buttons \[so\] gezeigt 
-werden, etwa \[Edit Times\].
+den variablen Menütasten zu erleichtern, werden verschiedene Symbole benutzt:
+-	'Richtige' Tasten werden \<so\> dargestellt, z.B. \<Avo\>.
+- 	Menütasten/Buttons werden \[so\] gezeigt , etwa \[Edit Times\]. 
+-	Kontext-Buttons werden schließlich \{so\} dargestellt, z.B. \{Open Settings\}.
 
 Schrittweise Anleitungen werden Punkt für Punkt aufgeführt, etwa so:
 

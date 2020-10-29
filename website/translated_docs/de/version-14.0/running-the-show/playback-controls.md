@@ -389,7 +389,7 @@ Fader auf 60 Seiten umgeschaltet werden.
 
 ![Virtual playbacks window](/docs/images/Virtual-Faders.png)
 
-Mit den Fenstereinstellungen (das stilisierte Zahnrad) lassen sich
+Mit den Fenstereinstellungen (das kleine \{Zahnrad\} anklicken) lassen sich
 weitere Einstellungen vornehmen:
 
 -   Die Seitenumschaltung kann ein- oder ausgeblendet werden.

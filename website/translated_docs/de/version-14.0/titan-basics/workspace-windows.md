@@ -21,8 +21,7 @@ Das folgende Bild zeigt eine typische Kombination mehrerer Fenster.
 
 ![Workspaces](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
-Auswahl und Positionierung der Arbeitsfenster
----------------------------------------------
+## Auswahl und Positionierung der Arbeitsfenster
 
 Drücken Sie zweimal auf die Taste \<View\> (heißt auf manchen Pulten
 \<Open\> oder \<Open Window\> - in diesem Handbuch heißt die Taste daher
@@ -34,11 +33,11 @@ soll.
 ![Workspace Window Selection](/docs/images/Workspace-Windows-Icons.png)
 
 War das Fenster bereits auf einem anderen Display geöffnet, so wechselt
-is mit der gleichen Größe und Position auf den gewünschten Bildschirm.
+es mit der gleichen Größe und Position auf den gewünschten Bildschirm.
 
 Ebenso können Fenster mit der Menütaste \[Open Workspace Window\]
-geöffnet werden. Drück man ein weiteres Mal auf \<View / Open\>, so wird
-das Overlay wieder ausgeblendet. Dazu kann man auch auf das \[ X \]
+geöffnet werden. Drückt man ein weiteres Mal auf \<View / Open\>, so wird
+das Overlay wieder ausgeblendet. Dazu kann man auch auf das \{X\}
 rechts oben auf dem Bildschirm klicken.
 
 Die wichtigsten Fenster lassen sich zudem per Tastenkombination
@@ -66,7 +65,7 @@ aufrufen.
 Oben rechts in der Titelleiste verfügt jedes Fenster über drei oder vier
 Schaltflächen, über die weitere Funktionen erreichbar sind.
 
-Mit den **Optionen für die Arbeitsfenster** (stilisiertes Zahnrad)
+Mit den **Optionen für die Arbeitsfenster** (zu öffnen mit dem kleinen \{Zahnrad\})
 können Größe und Position der Fenster auf verschiedene Standardwerte
 gesetzt und die Größe der Schaltflächen sowie die Schriftgröße für jedes
 Fenster getrennt eingestellt werden. Die verfügbaren und angezeigten
@@ -144,10 +143,10 @@ unterschiedlichen Bildschirmgrößen die Anzahl der Buttons pro
 Zeile/Spalte - und damit ggf. die ganze Anordnung - ändert. Um dies zu
 verhindern (z.B. wenn im Geräte-Fenster die Anordnung an den
 tatsächlichen Aufbau angepasst wurde), kann man alternativ in den
-Fenster-Optionen die gewünschte Anzahl angezeigten Zeilen
-\[Columns\]/Spalten \[Rows\] fest vorgeben. Damit wird immer die
-gewünschte Anzahl an Schaltflächen angezeigt, wobei sich deren Größe
-entsprechend ändert.
+Fenster-Optionen (dazu auf das \{Zahnrad\} klicken) mit \{Button Size Set Rows
+& Columns\} die gewünschte Anzahl der angezeigten Zeilen \{Columns\} 
+und Spalten \{Rows\} fest vorgeben. Damit wird immer die gewünschte 
+Anzahl an Schaltflächen angezeigt, wobei sich deren Größe entsprechend ändert.
 
 ![Rows and Columns](/docs/images/Rows-and-Columns.png)
 
@@ -168,7 +167,7 @@ linker Bildschirmrand beim Sapphire Touch und Titan Go) abspeichern.
 ![Workspaces](/docs/images/Recoding-a-Workspace-Layout.png)
 
 Auf externen Bildschirmen gibt es ebenfalls jeweils einen
-Workspace-Bereich (kann per [Benutzereinstellung](../system-settings/user-settings/#display) deaktiviert werden).
+Workspace-Bereich (kann per [Benutzereinstellung](../system-settings/user-settings.md#display) deaktiviert werden).
 
 Um einen Workspace zu speichern, drücken Sie die Taste \<View / Open\>,
 dann \[Record Workspace\], und schließlich eine der
@@ -232,19 +231,19 @@ Attributes' (Geräteattribute) und 'Shapes' benötigt:
 \<Exit\>, um ins Hauptmenü zu gelangen, und dann die Funktionstaste
 \[Open Workspace Window\].
 
-2.  Klicken Sie auf dem eingeblendeten Overlay den Button \[Fixtures\].
+2.  Klicken Sie auf dem eingeblendeten Overlay den Button \{Fixtures\}.
 
 3.  Öffnet sich das Fenster nicht in der oberen linken Ecke des
 Touchscreens, so drücken Sie die Taste \<Size/Position\> so oft, bis es
 dort platziert ist. Oder klicken Sie in der Titelleiste des Fensters auf
-das Zahnrad und platzieren Sie damit das Fenster entsprechend.
+das kleine \{Zahnrad\} und platzieren Sie damit das Fenster entsprechend.
 
 4.  Betätigen Sie wieder zweimal \<View / Open\> und wählen den Eintrag
-\[Positions\]. Bewegen Sie dieses Fenster mit \<Size/Position\> an die
+\{Positions\}. Bewegen Sie dieses Fenster mit \<Size/Position\> an die
 gewünschte Stelle.
 
-5.  Aktivieren Sie auf die gleiche Weise die Fenster \[Attribute
-Editor\] und \[Shapes and Effects\].
+5.  Aktivieren Sie auf die gleiche Weise die Fenster \{Attribute
+Editor\} und \{Effects\}.
 
 6.  Drücken Sie \<View / Open\>, dann \[Record Workspace\], oder
 \<AVO\> + \<View / Open\>. Geben Sie einen Namen für diese Arbeitsumgebung
@@ -255,8 +254,7 @@ eine freie ‚Workspace'-Schaltfläche, woraufhin diese rot hervorgehoben
 wird und ein ‚+'-Zeichen zeigt. Geben Sie nun einen Namen ein, und
 klicken Sie erneut auf diese Schaltfläche.
 
-Schnellspeichern
-----------------
+## Schnellspeichern
 
 ![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png)
 Einige Fenster - für Gruppen, Workspaces sowie die Paletten-Fenster - besitzen eine
@@ -269,10 +267,9 @@ abzuschließen.
 Die Schnellspeicher-Funktion lässt sich in den [Tastenprofilen/Key Profiles](../system-settings/key-profiles.md) deaktivieren.
 
 Bei Paletten ist zu beachten, dass die Schnellspeicherfunktion etwas
-anders arbeitet als das Speichern mit der \<Record\>-Taste, siehe [Speichern von Paletten](../palettes/creating-palettes#speichern-einer-palette).
+anders arbeitet als das Speichern mit der \<Record\>-Taste, siehe [Speichern von Paletten](../palettes/creating-palettes.md#speichern-einer-palette).
 
-Legenden und Bezeichnungen
---------------------------
+## Legenden und Bezeichnungen
 
 Sämtliche Schaltflächen lassen sich mit frei zu definierenden Legenden
 beschriften, um die Übersicht zu behalten. Ferner lassen sich die
@@ -287,8 +284,7 @@ Personality die entsprechenden Informationen enthält.
 
 ![Gobos and Beams Workspace Window](/docs/images/Gobos-and-Beams-Workspace-Window.png)
 
-Button-Halo
------------
+## Button-Halo
 
 Sämtlichen programmierbaren Schaltflächen, etwa den Buttons für Geräte,
 Gruppen, Paletten, Playbacks etc., lassen sich farbige Ränder, sog.
@@ -303,8 +299,7 @@ so wird dessen Farbe auch in anderen Fenstern verwendet. Außerdem können
 automatisch unterschiedliche Halos pro Gerätetyp vergeben werden, die
 dann auch in der Patch-Ansicht verwendet werden.
 
-Bildschirmtastatur
-------------------
+## Bildschirmtastatur
 
 Am Ende der Werkzeugleiste (am Mittelsteg zwischen den Bildschirmen beim
 Sapphire Touch, ansonsten oben im Bildschirm) befindet sich der Button
@@ -312,13 +307,13 @@ zum Aufrufen der Bildschirmtastatur.
 
 ![Keyboard Button](/docs/images/Keyboard-Button.png)
 
-Die Bildschirmtastatur kann mit der Schaltfläche "Max/Min" zwischen großen
-und kleinen Tasten umgeschaltet werden; mit der Schaltfläche "X" wird
+Die Bildschirmtastatur kann mit der Schaltfläche \{Max/Min\} zwischen großen
+und kleinen Tasten umgeschaltet werden; mit der Schaltfläche \{X\} wird
 sie geschlossen. Per Anklicken und Ziehen des freien Bereiches oben in
 der Bildschirmtastatur lässt sich diese frei positionieren.
 
 Soll die Tastatur automatisch erscheinen, sobald eine Texteingabe
-erforderlich ist, so kann das mittels Man/Auto eingestellt werden. Diese
+erforderlich ist, so kann das mittels \{Man/Auto\} eingestellt werden. Diese
 Einstellung bleibt auch beim Schließen der Tastatur aktiv, bis sie
 wieder geändert wird.
 
@@ -327,8 +322,7 @@ einige weniger gebräuchliche Tasten.
 
 ![Keyboard](/docs/images/Keyboard.png)
 
-Trackball (nur beim Sapphire Touch)
------------------------------------
+## Trackball (nur beim Sapphire Touch)
 
 Mit dem Trackball rechts auf dem Pult lässt sich entweder die Maus
 steuern, oder die selektierten Geräte.
@@ -343,8 +337,7 @@ Um in den Modus zur Gerätesteuerung zu schalten, drücken Sie
 \<Assign\> + \<Right\>: nun steuert der Trackball Pan und Tilt, und mit
 dem Ring kann Tilt sehr fein geregelt werden.
 
-Mini-Display (Nur beim Arena)
------------------------------
+## Mini-Display (Nur beim Arena)
 
 Mit der Taste \<Display\> unterhalb der Encoder rechts oben kann man 
 zwischen vier Ansichten auf dem Mini-Display umschalten:
@@ -363,8 +356,7 @@ darunter.
 - Arbeitsfenster, ohne Legenden für Encoder oder Macrotasten.
 
 
-Compatibility windows -- die 'Kompatibilitäts-Fenster'
-------------------------------------------------------
+## Compatibility windows -- die 'Kompatibilitäts-Fenster'
 
 Die Fenster "Fixtures and Playbacks" (Geräte und Speicherplätze) und
 "Groups and Palettes" (Gruppen und Paletten) ermöglichen Zugriff auf die
@@ -372,8 +364,8 @@ Speicherplätze/Tasten, die zwar auf einem Pearl Expert, nicht aber auf
 anderen Pulten vorhanden sind. Damit lassen sich also auch auf dem
 Expert erstellte Shows laden.
 
-Ist eins dieser Fenster geöffnet, gibt es die Schaltfläche \[Move to
-workspace\] im Kontextbereich. Damit lassen sich die betreffenden
+Ist eins dieser Fenster geöffnet, gibt es die Schaltfläche \{Move to
+workspace\} im Kontextbereich. Damit lassen sich die betreffenden
 Schaltflächen in die richtigen Arbeitsfenster der anderen Titan-Pulte
 verschieben. Diesen Vorgang muss man zweimal ausführen: einmal mit
 ausgewähltem Fenster "Fixtures and Playbacks", und einmal mit "Palettes

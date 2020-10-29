@@ -38,7 +38,7 @@ In diesem Beispiel wird ein Hippotizer mit einem Titan-Pult verbunden.
 	Art-Net-Knoten angezeigt. Klicken Sie darauf und ordnen Sie ihn einer
 	internen DMX-Linie zu.
 
-7. 	Klicken Sie auf Zahnrad-Symbol des zugeordneten Hippo-Knotens (rechts)
+7. 	Klicken Sie auf kleine \{Zahnrad\} des zugeordneten Hippo-Knotens (rechts)
 	und überprüfen Sie, dass das eingestellte Universum mit den Einstellungen 
 	des Hippotizers übereinstimmt.
 

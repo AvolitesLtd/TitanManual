@@ -31,7 +31,7 @@ Erstellen des Effekts.)*
 auf **0%**. *(Damit überlagert der Effekt alle anderen Werte.)*
 ![Effect Editor - Pixel Mapper - Setting Background Opacity of Effect](/docs/images/Effect-Editor-Pixel-Mapper-Setting-Background-Opacity-of-Effect.png)
 
-6. Wählen Sie \[Layer 1\], klicken auf \[+\] am unteren Rand des
+6. Wählen Sie \[Layer 1\], klicken auf \{+\} am unteren Rand des
 Bildschirms, und wählen Sie als Form den **Kreis**.
 ![Effect Editor - Pixel Mapper - Adding a Circle to Layer 1](/docs/images/Effect-Editor-Pixel-Mapper-Adding-a-Circle-to-Layer-1.png)
 
@@ -41,13 +41,13 @@ wird. Ebenso kann man dies mit **Width** und **Height** erreichen.
     Schieben Sie den Kreis dann mit **X** und **Y** etwa in die Mitte der Fläche.
     ![Effect Editor - Pixel Mapper - Transforming a Circle Element](/docs/images/Effect-Editor-Pixel-Mapper-Transforming-a-Circle-Element.png)
 
-8. Klicken Sie wieder auf \[+\] und wählen Sie als Animation **zufällige
+8. Klicken Sie wieder auf \{+\} und wählen Sie als Animation **zufällige
 Position** (dargestellt durch mehrere kleine Blöcke).
 ![Effect Editor - Pixel Mapper - ](/docs/images/Effect-Editor-Pixel-Mapper.png)  
 (Achtung: bis jetzt
 ist noch kein Effekt zu sehen.)
 
-9. Klicken Sie \[+\] und wählen Sie diesmal **Opacity** als Effekt
+9. Klicken Sie \{+\} und wählen Sie diesmal **Opacity** als Effekt
 (dargestellt als teilweise sichtbarer Block).
 
 10. Variieren Sie nun den Effekt:
@@ -78,7 +78,7 @@ rotierenden roten 'Propeller' erstellt.
 2.  Starten Sie den Effekt-Editor mit \[Shapes And Effects\], \[Pixel
 Mapper\], \[Create Effect\].
 
-3.  Wählen Sie \[Layer 1\], klicken auf das \[+\] unten links und wählen
+3.  Wählen Sie \[Layer 1\], klicken auf das \{+\} unten links und wählen
 den Block als grafisches Element.
 
     Stellen Sie die **Rotation** auf ca. 25° nach rechts ein.
@@ -93,7 +93,7 @@ den Block als grafisches Element.
 
     ![Effect Editor - Pixel Mapper - Transforming a Block](/docs/images/Effect-Editor-Pixel-Mapper-Transforming-a-Block.png)
 
-4.  Klicken Sie wieder auf \[+\] und wählen Sie als Animation
+4.  Klicken Sie wieder auf \{+\} und wählen Sie als Animation
 	**Lineare Bewegung** (dargestellt als von links nach rechts sich bewegender
 	Block).
 
@@ -113,7 +113,7 @@ den Block als grafisches Element.
 
     ![Effect Editor - Pixel Mapper - Modify a Linear Movement Animation](/docs/images/Effect-Editor-Pixel-Mapper-Modify-a-Linear-Movement-Animation.png)
 
-5.  Klicken Sie auf \[Layer 2\], dann auf \[+\], und wählen Sie den
+5.  Klicken Sie auf \[Layer 2\], dann auf \{+\}, und wählen Sie den
 	stilisierten Propeller.
 
     Stellen Sie den **Zoom** so ein, dass die Grafik die gesamte Fläche füllt.
@@ -131,7 +131,7 @@ den Block als grafisches Element.
 
     ![Effect Editor - Pixel Mapper - Modifying Swirl](/docs/images/Effect-Editor-Pixel-Mapper-Modifying-Swirl.png)
 
-6.  Klicken Sie auf \[+\] und fügen Sie eine Rotations-Animation hinzu.
+6.  Klicken Sie auf \{+\} und fügen Sie eine Rotations-Animation hinzu.
 	
 	Verringern Sie die Geschwindigkeit.
 
@@ -358,7 +358,7 @@ den Effekt-Editor mit \[Create Effect\].
 	stellen Sie **Background Opacity** auf 0.\
 	*(Damit kann dieser Effekt zum Überlagern anderer Effekte verwendet werden)*.
 
-3.  Klicken Sie 2x auf \[Layer 1\] (oder klicken Sie auf \[+\]), und
+3.  Klicken Sie 2x auf \[Layer 1\] (oder klicken Sie auf \{+\}), und
 	wählen Sie den **Kreis** als Element.\
 	*(Der Doppelklick ruft ebenfalls Elemente und Animationen auf).*
 
@@ -366,7 +366,7 @@ den Effekt-Editor mit \[Create Effect\].
 
     ![Effect Editor - Pixel Mapper - Editing Height of Circle](/docs/images/Effect-Editor-Pixel-Mapper-Editing-Height-of-Circle.png)
 
-4.  Klicken Sie 2x auf \[Circle\] (oder klicken Sie auf \[+\]) und
+4.  Klicken Sie 2x auf \[Circle\] (oder klicken Sie auf \{+\}) und
 	wählen Sie die **Zoom**-Animation.
 
     Stellen Sie **In Time** auf 0 und **Out Time** auf 100%. (Damit beginnt
@@ -376,7 +376,7 @@ den Effekt-Editor mit \[Create Effect\].
     Vergrößern Sie **End Zoom**, bis das Oval die ganze Fläche zu füllen
 	beginnt.
 
-5.  Klicken Sie 2x auf \[Zoom Animation\] (oder klicken Sie auf \[+\])
+5.  Klicken Sie 2x auf \[Zoom Animation\] (oder klicken Sie auf \{+\})
 	und wählen Sie die Animation **Opacity**.
 
     Reduzieren Sie **Spawn Rate** auf 0. (Damit wirkt Opacity nur auf die

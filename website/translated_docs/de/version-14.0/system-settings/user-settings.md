@@ -17,10 +17,8 @@ ebenso kann man sie mit den Menütasten verändern. Die
 Benutzereinstellungen gelten jeweils pro Benutzer.
 
 
-> Ein Klick auf das Symbol *i* öffnet einen kleinen Hinweistext 
-> zu der jeweiligen Einstellung.\
-> \
-> ![i button](/docs/images/i-button.png)
+> 	Ein Klick auf das Symbol \{i\} öffnet einen kleinen Hinweistext 
+	zu der jeweiligen Einstellung.
 
 Die möglichen Einstellungen sind nach verschiedenen Kategorien sortiert.
 Diese Kategorien sind links eingeblendet. Wählen Sie dort die Kategorie,

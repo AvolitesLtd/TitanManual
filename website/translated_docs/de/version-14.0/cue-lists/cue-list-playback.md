@@ -47,7 +47,7 @@ Delayzeiten.
 Die Playback-Ansicht scrollt normalerweise mit, so dass immer der
 aktuelle Cue dargestellt wird. Dies kann in den Optionen des Fensters
 genauer eingestellt und geändert werden (klicken Sie dazu auf das kleine
-Zahnrad in der Titelleiste des Fensters).
+\{Zahnrad\} in der Titelleiste des Fensters).
 
 ---
 

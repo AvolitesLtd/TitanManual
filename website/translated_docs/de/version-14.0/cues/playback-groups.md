@@ -22,13 +22,13 @@ und wählen das Fenster "Playback Groups".
 
 ![Empty playback groups workspace](/docs/images/Empty-playback-groups-workspace.png)
 
-1.	Klicken Sie auf \[ + \] (links unten). Damit wird eine neue Gruppe
+1.	Klicken Sie auf \{+\} (links unten). Damit wird eine neue Gruppe
 erstellt und in der linken Spalte angezeigt.
 
 2.	Klicken Sie auf die neu erstellte Gruppe links, also z.B. auf
 \[Playback Group 1\].
 
-3.	Klicken Sie unten rechts auf den Stift-Button, um die Gruppe zu
+3.	Klicken Sie unten rechts auf den \{Stift\}-Button, um die Gruppe zu
     editieren.
 
 4.	Klicken Sie die Playbacks an, die Sie in dieser Gruppe
@@ -59,14 +59,13 @@ erstellt und in der linken Spalte angezeigt.
 -   Ist man nicht im Editiermodus, so können Playbacks auch über ihre
     Buttons im Playback Groups-Fenster gestartet/gestoppt werden.
 
-> Wenn ein Playback zu einer Gruppe gehört, so wird dies mit einem Stern\* bei der Playback-Legende angezeigt.
+> Wenn ein Playback zu einer Gruppe gehört, so wird dies mit einem Stern \* bei der Playback-Legende angezeigt.
 
 Ändern der Zugehörigkeit zu Playback-Gruppen
 --------------------------------------------
 
 Öffnen Sie das Playback Groups-Fenster, wählen Sie links die zu
-bearbeitende Gruppe und klicken Sie rechts unten auf den Edit-Button
-(Stift-Symbol).
+bearbeitende Gruppe und klicken Sie rechts unten auf den\{Stift\}.
 
 Die Playbacks in der Gruppe werden hervorgehoben und können jeweils ab-
 oder angewählt werden.
@@ -113,7 +112,7 @@ links die gewünschte Gruppe und klickt rechts unten auf den Reiter
 Anzeigeoptionen für das Playback Groups-Fenster
 -----------------------------------------------
 
-Mit dem Fensteroptions-Menü (Zahnrad-Button in der Titelleiste des
+Mit dem Fensteroptions-Menü (\{Zahnrad\}-Button in der Titelleiste des
 Fensters) lassen sich drei verschiedene Anzeigemodi wählen:
 
 \[View Mode All\] – zwei Spalten: links die Playback-Gruppen, rechts

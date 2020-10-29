@@ -119,9 +119,9 @@ eingerichtet werden.
 
 Öffnen Sie das System-Menü (per \<Avo\> + \<Disk\>) und wählen 
  \[Triggers\]. Darauf öffnet sich das Fenster 'Trigger'.
-1.	Fügen Sie mit dem \[ + \] *unten links* ein neues Trigger-Set hinzu
+1.	Fügen Sie mit dem \{+\} *unten links* ein neues Trigger-Set hinzu
 	und geben Sie diesem einen geeigneten Namen, z.B. ‚Pioneer'.
-2.	Legen Sie nun mit dem \[ + \] *unten rechts* oder mit der Menütaste
+2.	Legen Sie nun mit dem \{+\} *unten rechts* oder mit der Menütaste
 	\[Add Trigger\] einen neuen Trigger an.
 3.	Setzen Sie \[Trigger Type\] auf \[Item\].
 4.	Wählen Sie den zu steuernden BPM-Master (Auswahltaste/Button
