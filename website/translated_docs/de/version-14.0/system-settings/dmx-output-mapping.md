@@ -34,7 +34,7 @@ Das DMX-Fenster öffnet sich nun zunächst auf dem Tab mit dem Node
 die pultinternen *DMX-Linien* auf der rechten Seite. Jede einzelne
 DMX-Linie kann an einen oder mehrere Empfänger gesendet werden. Wird
 einer Linie mehr als ein Empfänger zugeordnet, so erhalten alle diese
-Knoten das identische Signal. Wenn Geräte per Artnet oder sACN verbunden
+Knoten das identische Signal. Wenn Geräte per Art-Net oder sACN verbunden
 sind oder TNPs im Netzwerk gefunden wurden, so erscheinen diese
 ebenfalls auf der linken Seite.
 
@@ -90,17 +90,39 @@ Modul-Eigenschaften der DMX-Ausgabe
 Als Modul wird hier die Art der Ausgabe des DMX-Signals bezeichnet, also
 z.B. Art-Net oder sACN - jedes Modul kann mehrere Nodes haben.
 
-Zum genauen Einstellen der Art-Net- oder sACN-Optionen öffnen Sie die
-DMX-Einstellungen (also \<Avo\> + \<Disk\> zum Öffnen des [System-Menüs](the-system-menu.md), dann \[DMX Settings\]), und klicken links auf das stilisierte Zahnrad 
-neben dem betreffenden Modulnamen.
+Zum genauen Einstellen der DMX-Ausgängen sowie der Art-Net- und 
+sACN-Optionen öffnen Sie die DMX-Einstellungen (also \<Avo\> + \<Disk\> 
+zum Öffnen des [System-Menüs](the-system-menu.md), dann \[DMX Settings\]), 
+und klicken links auf das stilisierte Zahnrad neben dem betreffenden Modulnamen.
 
 Damit lassen sich pro Modul spezifische Einstellungen vornehmen und auch
-bestimmen, über welchen Netzwerkanschluss dieses Protokoll ausgegeben
-wird. Ältere Pulte und das Quartz haben einen Netzwerkanschluss, Pro-Pulte
-verfügen über zwei Anschlüsse, und bei der PC-Suite hängt es von der
-Ausstattung des jeweiligen Computers ab - viele Laptops verfügen z.B.
-auch über einen WLAN-Adapter, der, sofern aktiviert, ebenfalls angezeigt
-wird.
+bestimmen, über welchen Netzwerkanschluss welches Protokoll ausgegeben
+wird. Aktuelle Pulte haben zwei Netzwerkanschlüsse, das Quartz hat einen, 
+und bei der PC-Suite hängt es von der Ausstattung des jeweiligen Computers 
+ab - viele Laptops verfügen z.B. auch über einen WLAN-Adapter, der, sofern 
+aktiviert, ebenfalls angezeigt wird.
+
+### DMX-Eigenschaften
+
+![DMX512 Module Properties](/docs/images/Dmx-Module-Properties.png)
+
+**DMX output:** Damit kann die Ausgabe für dieses Modul deaktiviert
+werden.
+
+**Merge Priority:** Dreimal darfst Du raten.
+
+**Break Length:** Zeitlicher Abstand zwischen den DMX-Paketen. Manche 
+Dimmer und Movinglights benötigen ein künstlich verlangsamtes Signal,
+um sauber zu arbeiten. Vorgabewert ist 968 µs, aber es wurden schon 
+Dimmer gefunden, bei denen dieser Wert auf 4000 µs erhöht werden musste,
+um ein sauberes Ergebnis zu erzielen.
+
+**Mark After Break Length:** Ebenfalls ein Timing-Aspekt des DMX-Signals.
+Muss normalerweise nicht verändert werden. Ist die Zeitspanne zwischen
+dem Beginn des DMX-Pakets und dem ersten Kanal. Vorgabe ist 76 µs.
+
+**Extra Stop Bit:** Weitere Möglichkeit, um das DMX-Signal etwas zu 
+verlangsamen und problematische Geräte sicherer zu betreiben.
 
 ### sACN-Eigenschaften
 
@@ -165,7 +187,7 @@ wird das identische Signal parallel gesendet.
 DMX-Overview
 ------------
 
-Schaltet man am oberen Rand auf den Tab 'DMX Overview' um, so werden
+Schaltet man am oberen Rand des Fensters auf den Tab 'DMX Overview' um, so werden
 sämtliche [TNPs](../titan-net.md) angezeigt, die momentan im Netzwerk verbunden sind.
 Dabei wird auch angezeigt, welche Linie auf welchem Knoten und Anschluss
 ausgegeben wird.
@@ -187,7 +209,7 @@ Linien zugewiesen als das Gerät Prozessorkanäle bereitstellt, so wird
 eine Warnung eingeblendet.
 
 Wird eine Show geladen, die Geräte und Linien auf Prozessor-Knoten
-enthält, die momentan nicht verbunden sind, so erscheint ein Bildschirm
+enthält, die momentan nicht verbunden sind, so erscheint eine Meldung
 mit der genauen Aufstellung sowie der Möglichkeit, die einzelnen Linien
 anderen Ausgabeports zuzuordnen.
 

@@ -21,17 +21,17 @@ ermöglichen:
 -   Bei der Verwendung der PC-Suite sollte die Windows Firewall
     deaktiviert sein.
 
+> 	Beim Installieren und Upgraden ist darauf zu achten, dass Ai/Synergy 
+	die gleiche Version haben muss wie die Titan-Software des 
+	Pultes. Die Software steht auf der [Avolites Download-Seite](https://www.avolites.com/software/latest-version)
+	zum Download bereit. Für Synergy werden ggf. kleinere Update-Pakete 
+	zur Verfügung gestellt, um Ai auf die gleiche Version wie Titan zu bringen.
+
 Sollte es zu Problemen kommen, Titan und die Ai-Software miteinander zu
 verbinden, so ist insbesondere die Softwareversion (müssen identisch
 sein) sowie die Netzwerkkonfiguration (unterschiedliche IP-Adressen,
 aber im gleichen Bereich; gleiche Subnetz-Masken) zu überprüfen. Mehr dazu
 in [Einrichten des Netzwerkbetriebs](../networking.md).
-
->	Beim Installieren oder Upgraden von Synergy ist darauf zu achten, 
-	dass das Synergy-Installationsprogramm die gleiche Version hat wie 
-	die Titan-Software des Pultes. Die Software steht auf der 
-    [Avolites Download-Seite](https://www.avolites.com/software/latest-version)
-	zum Download bereit.
 
 Einrichten der Show in Ai
 -------------------------
