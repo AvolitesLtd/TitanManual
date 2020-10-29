@@ -40,7 +40,7 @@ and each timing section shows its own progress.
 
 The Playback View will autoscroll to keep the active cue on-screen. You
 can change the way the autoscroll works using the view options (click
-the options/cog icon at the top of the window).
+the \{Cog\} button at the top of the window).
 
 ---
 

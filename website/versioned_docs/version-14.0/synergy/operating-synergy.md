@@ -32,7 +32,7 @@ at the top to go back up a folder level.
 
 On the right of the window, the media banks on the Ai server are shown.
 Clicking on the bank name will drop down the list of media clips loaded
-in the bank. Click the **+** button at the side of the bank name to add a
+in the bank. Click the \{+\} button at the side of the bank name to add a
 new bank. At the top of this column, the available disk space and the
 path on the Ai server where the media is being stored is shown.
 
@@ -168,7 +168,7 @@ want to use.
 
 3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups.md)** to play back on
 
-4. Add an effect using the **+** button
+4. Add an effect using the \{+\} button
 
 5. Select Ai feed using the **Ai** button
 

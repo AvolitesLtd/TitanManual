@@ -9,9 +9,9 @@ This section is a quick guide on how to do most things on Avolites Titan
 consoles. Each section has a link to take you to the appropriate manual
 section for more details.
 
-Softkeys (the A-G menu buttons next to the screen) are shown like 
-\[This\]. Physical labelled buttons on the console are
-shown like \<This\>.
+- \<This\> indicates a physical buttons on the console *(or \<Avo\> for red keys)*
+- \[This\] indicates a softkey option on the touchscreen (the A-G menu buttons next to the screen)
+- \{This\} indicates an option in a context menu 
 
 Most functions on Titan use the Workspace Windows shown on the touch screen(s).
 To open different windows press the \<View\> button (on some consoles this is labelled \<Open Window\> -

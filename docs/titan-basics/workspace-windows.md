@@ -19,8 +19,7 @@ The picture below shows a typical arrangement of workspace windows.
 ![Workspaces](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
 
-Opening and Positioning Workspace Windows
------------------------------------------
+## Opening and Positioning Workspace Windows
 
 Double press the \<View\> button (labelled \<Open\> or \<Open Window\> on some consoles)
 to show the workspace open buttons overlay on all monitors (for the rest of this manual
@@ -40,7 +39,7 @@ at the top of the button overlay on any screen will close it on all screens.
 
 There are also button shortcuts to open some of the windows:
 
-### Shortcuts to open workspace windows
+### Shortcuts to Open Workspace Windows
 
 - \<View/Open\> then an Attribute Bank button opens the Palette
 window for that attribute.
@@ -61,14 +60,14 @@ View window showing patch details for that fixture.
 At the top right of each workspace window are three or four buttons
 which access other functions for the window.
 
-The **Window Appearance Options** button (cog icon) lets you select the
+The **Window Appearance Options** button (\{Cog\} button) lets you select the
 standard window sizes and positions (top left quarter, top right quarter etc.)
 Buttons are also shown allowing you
 to set the button size and the text size of the buttons in the window, and move the
 window to a different monitor. The Appearance options may vary depending
 on which window it is, the setup of the console and if you have any
 external monitors. The Rows / Columns buttons allow you to control how buttons are
-arranged, see [Controlling button layout/grid](../titan-basics/workspace-windows.md#controlling-button-layout-/-grid)
+arranged, see [Controlling button layout/grid](../titan-basics/workspace-windows.md#controlling-button-layoutgrid).
 
 ![Window Appearance Menu](/docs/images/Window-Appearance-Options.png)
 
@@ -106,7 +105,7 @@ You can close the active window using the \<Close\> button (not on all
 consoles). You can close all windows by pressing \<Avo\>+\<Close\>, or
 use the \[Close All\] softkey.
 
-### Context menu buttons
+### Context Menu Buttons
 
 On all consoles apart from Sapphire Touch and Titan Go, **context menu 
 buttons** are automatically shown below the prompt area on the top right 
@@ -125,7 +124,7 @@ context menu buttons for the current window.
 
 
 
-### Controlling button layout / grid
+### Controlling Button Layout/Grid
 
 Buttons normally resize automatically to suit the screen size and
 resolution, however this means that moving shows between different
@@ -133,9 +132,9 @@ consoles or different screens can make the number of rows and columns
 change, causing buttons to move around. If you have set a particular
 layout you want to keep (for example if you've positioned fixtures in
 the window to match the layout on stage), open the Window Appearance
-menu using the Cog button and set Button Size to \[Button Size Set Rows
-& Columns\]. You can then set a fixed layout using the \[Rows\] and
-\[Columns\] buttons.
+menu using the \{Cog\} button and set Button Size to \{Button Size Set Rows
+& Columns\}. You can then set a fixed layout using the \{Rows\} and
+\{Columns\} buttons.
 
 ![Rows and Columns](/docs/images/Rows-and-Columns.png)
 
@@ -144,7 +143,7 @@ button size back to one of the automatic sizes, which allows you to swap
 between auto and fixed button size modes.
 
 
-Saving workspace layouts
+Saving Workspace Layouts
 -----------------------
 
 You can save workspace layouts, allowing you to reconfigure either all the windows on one
@@ -173,7 +172,7 @@ will behave if you load more windows, and to be able to target particular window
 
 -   \[Remove/Leave other windows on recall\] sets whether all other
     windows will be closed when this workspace is recalled. If set to remove,
-	the Workspace button will show an X in the corner.
+	the Workspace button will show an \{X\} in the corner.
 	
 	![Workspaces](/docs/images/Workspace-Layout-Button-Letters-X.png)
 
@@ -195,12 +194,10 @@ will behave if you load more windows, and to be able to target particular window
 	allowing you to recall it onto a different screen.
 	
 
->	Screen numbering:  
-	On consoles with a single internal screen, that is (1) and the external screen is (2).  
-	On Arena 	the main screen is (1), the mini screen (2) and the external screen (3).   
+>	**Screen numbering**\
+	On consoles with a single internal screen, that is (1) and the external screen is (2).
+	On Arena 	the main screen is (1), the mini screen (2) and the external screen (3). 
 	On Sapphire Touch the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).
-
-
 
 As an example of setting up a workspace, suppose while programming you
 wanted to be able to access fixtures, position palettes, fixture
@@ -209,18 +206,18 @@ attributes and shapes:
 1. Double press the \<View/Open\> button, or press \<Exit\> to get to the root menu and then the \[Open Workspace
 Window\] menu softkey.
 
-2. Find the \[Fixtures\] icon on the screen and press it.
+2. Find the \{Fixtures\} icon on the screen and press it.
 
 3. If the window is not in the top left quarter, press the \<Size &
 Position\> button (above the numeric keys) until the window occupies the
-top left quarter. Or press the Settings/Cog touch button on the window
+top left quarter. Or press the \{Cog\} button on the window
 top bar and press the top left position button in that window.
 
-4. Double press \<View/Open\>  again and select the \[Positions\]
+4. Double press \<View/Open\>  again and select the \{Positions\}
 window. Press the \<Size & Position\> button to position it in the desired
 location.
 
-5. Repeat to activate the \[Attribute Editor\] and \[Effects\] windows.
+5. Repeat to activate the \{Attribute Editor\} and \{Effects\} windows.
 
 6. Press \<View/Open\> then \[Record Workspace\], or hold \<Avo\> and
 press \<View/Open\>. Type in a name for the workspace. Then touch the
@@ -229,11 +226,7 @@ can use Quick Record -- just touch an empty workspace button and it will
 turn red with a +. Type a name for the workspace and touch again to
 store it.
 
-
-
-
-Quick record
-------------
+## Quick Record
 
 ![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png) Some windows - Groups, Workspaces,
 and all the Palette windows - have a Quick Record function.
@@ -245,8 +238,7 @@ The Quick Record function can be disabled for a particular button type using [Ke
 
 For palette buttons, the quick record function works slightly differently to pressing \<Record\> followed by the button. See [Storing a Palette](../palettes/creating-palettes#storing-a-palette).
 
-Legends and picture legends
----------------------------
+## Legends and Picture Legends
 
 All touch buttons can have legends set to remind you what they do. In
 addition, you can draw picture legends on the buttons. To do this,
@@ -261,8 +253,7 @@ information in it.
 
 ![Gobos and Beams Workspace Window](/docs/images/Gobos-and-Beams-Workspace-Window.png)
 
-Button Halo
------------
+## Button Halo
 
 You can set a custom coloured halo for fixture, group or palette
 buttons. This can be really useful for identifying different types of
@@ -273,8 +264,7 @@ button at a glance. Select the \[Halo\] option on the Set Legends menu.
 If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help identify different types of fixture, which is also used in the patch window.
 
 
-Touch Keyboard
---------------
+## Touch Keyboard
 
 At the end of the toolbar is the keyboard popup button which will open
 the touch keyboard.
@@ -282,22 +272,21 @@ the touch keyboard.
 ![Keyboard Button](/docs/images/Keyboard-Button.png)
 
 The touch keyboard can be switched between large and small size using
-the Max/Min button and you close it using the large X button in the top
+the Max/Min button and you close it using the large \{X\} button in the top
 right hand corner. You can also move it on the screen by touching and
 dragging the blank area of the keyboard at the top.
 
 If you want the keyboard to pop up automatically when text input is
-required, set the Man/Auto button to "Auto". This setting will stay
+required, set the \{Man/Auto\} button to "Auto". This setting will stay
 active until you change it back to "Manual".
 
 The small version of the keyboard (pictured) does not have some of the
 less frequently used buttons.
 
-![Keyboard](/docs/images/Keyboard.png)
+![Touch Screen Keyboard](/docs/images/Keyboard.png)
 
 
-Trackball (Sapphire Touch only)
------------------------------------
+## Trackball (Sapphire Touch only)
 
 The trackball on the right of the console can be used either to control
 the mouse pointer on the touch screens and external monitors, or to
@@ -311,8 +300,7 @@ To use in console mode for controlling fixtures, press the \<Assign\>
 button on its own. The trackball will control pan and tilt of selected
 fixtures, and the ring controls fine tilt.
 
-Mini Screen (Arena only)
-------------------------
+## Mini Screen (Arena only)
 
 The \<Display\> button below the rotary encoders toggles through four
 fixed layouts for the Mini screen:
@@ -333,15 +321,14 @@ move to the main screen when this layout is set.
 shown.
 
 
-Compatibility windows for Pearl Expert shows
---------------------------------------------
+## Compatibility Windows for Pearl Expert Shows
 
 The "Fixtures and Playbacks" and "Groups and Palettes" windows allow you
 to access the preset fader handles in shows which have been programmed
 on the Pearl Expert.
 
 When either of these windows is opened, there is a context button option
-to \[Move to workspace\]. This will move the handles from the
+to \{Move to workspace\}. This will move the handles from the
 compatibility window to the appropriate workspace window. You need to do
 this twice, once with the "Fixtures and playbacks" window selected, and
 once with the "Palettes and groups" window selected.
