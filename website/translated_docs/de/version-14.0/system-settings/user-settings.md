@@ -322,6 +322,13 @@ Clear im Programmer bleiben oder nicht.
 Reset der Direction (Richtung) im Programmer bei
 Clear oder nicht.
 
+### Clear Selected Fixtures
+Ist dies aktiviert/enabled, so werden bei Betätigen der Clear-Taste nur die
+gerade angewählten Geräte aus dem Programmer gelöscht, während die anderen 
+im Programmer verbleiben. Sind keine Geräte angewählt, so wird der Programmer 
+komplett gelöscht. Ist diese Option deaktiviert (Vorgabe), so werden stets 
+sämtliche Geräte gelöscht.
+
 ---
 
 ## Effects (Effekte)

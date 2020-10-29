@@ -79,6 +79,13 @@ Stand 25.09.2020, https://github.com/AvolitesLtd/TitanManual/commits/master?befo
 - Update key profiles for masters					https://github.com/AvolitesLtd/TitanManual/commit/80b35fe112a523954783c69be87ea54afb502cd2 --> DONE
 - update selecting new key profile					https://github.com/AvolitesLtd/TitanManual/commit/351f98b1251626eefbb2653242025a1491b4a1a2 --> DONE
 - Update display tab in User Settings					https://github.com/AvolitesLtd/TitanManual/commit/62180abc79b5d1dc379c4cb2842b01d632d653b8 --> DONE
+- Add DMX module settings screen					https://github.com/AvolitesLtd/TitanManual/commit/946f59bfc4401ac3db4a0cfeb92493b3f8eed1ac --> DONE
+- Update screen to window						https://github.com/AvolitesLtd/TitanManual/commit/2fb288c399a6ef73f019158b25b228a7d6361b2a --> DONE
+- Fix case of image filename						https://github.com/AvolitesLtd/TitanManual/commit/41b8d8e110ba6b9f7d5cb74f9921cdb11810f900 --> DONE
+- Update Synergy version matching / upgrade installer info		https://github.com/AvolitesLtd/TitanManual/commit/2203e08f3be4173f51f993b46f848b26590059c7 --> DONE
+- Add Clear Selected Fixtures option to clear tab			https://github.com/AvolitesLtd/TitanManual/commit/f0944878a60bb55dd5376e834f4daff0e25a60e6 --> DONE
 
-Next: Add DMX module settings screen, https://github.com/AvolitesLtd/TitanManual/commit/946f59bfc4401ac3db4a0cfeb92493b3f8eed1ac
+
+
+
 https://github.com/AvolitesLtd/TitanManual/commits/master?after=d2a0913c8a5bc00767f317b558dc1415fabeaae8+34&branch=master
