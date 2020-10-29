@@ -7,15 +7,15 @@ const stat = promisify(fs.stat);
 class avoParse {
   constructor() {
     this.paths = {
-      sidebar: path.resolve("../website/sidebars.json"),
-      versionedSideberDir: path.resolve("../website/versioned_sidebars"),
-      versions: path.resolve("../website/versions.json"),
-      versionedDocsDir: path.resolve("../website/versioned_docs"),
-      outputDir: path.resolve("./output"),
-      docsDir: path.resolve("../docs"),
-      staticDir: path.resolve(`../website/static`),
-      staticImagesDir: path.resolve('../website/static/docs/images'),
-      buildDir: path.resolve('../website/build/AvoDocs'),
+      sidebar: path.resolve(__dirname,"../website/sidebars.json"),
+      versionedSideberDir: path.resolve(__dirname,"../website/versioned_sidebars"),
+      versions: path.resolve(__dirname,"../website/versions.json"),
+      versionedDocsDir: path.resolve(__dirname,"../website/versioned_docs"),
+      outputDir: path.resolve(__dirname,"./output"),
+      docsDir: path.resolve(__dirname,"../docs"),
+      staticDir: path.resolve(__dirname,`../website/static`),
+      staticImagesDir: path.resolve(__dirname,'../website/static/docs/images'),
+      buildDir: path.resolve(__dirname,'../website/build/AvoDocs'),
     }
   
     this.regex = {

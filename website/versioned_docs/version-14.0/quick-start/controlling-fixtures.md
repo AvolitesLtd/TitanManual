@@ -18,9 +18,9 @@ Intensity/Dimmer, Colour, Gobo etc), then turn the wheels to set
 fixture. Display shows which attribute each wheel is controlling.
 (See [Changing Attributes Using the Wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels)).
 
-Open Attribute window onscreen (\<View/Open\> then one of the attribute
+Open Attribute window on-screen (\<View/Open\> then one of the attribute
 bank buttons such as \<Position\> or \<Intensity\>) to select attributes
-from buttons and to control subfixtures of battens/arrays.
+from buttons and to control sub-fixtures of battens/arrays.
 (See [Fixtures with Multiple Cells](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fixtures-with-multiple-cells-subfixtures)).
 
 Use Palettes to store often-used colours, positions etc. for instant
@@ -46,8 +46,8 @@ shapes.
 At top menu press \[Shapes and Effects\], \[[Shape Generator](../effects/shape-generator.md)],
 \[Create\]. Select attribute of shape then select a shape to run.
 
-Or from the Shape Library window (\<Open/View\>, \[Open Workspace
-Window\], \[Shape Library\]) you can select a shape directly. Filter the
+Or from the Shape Library window (double press \<View/Open\>, 
+\[Shape Library\]) you can select a shape directly. Filter the
 list of shapes using the attribute buttons.
 
 Use the wheels and \[Adjust Speed, Size and Spread\]/\[Adjust Phase,

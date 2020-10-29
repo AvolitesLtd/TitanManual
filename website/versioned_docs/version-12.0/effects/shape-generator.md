@@ -22,7 +22,7 @@ blocks out other shapes, preventing them from running. For example, if
 some fixtures are running a Circle shape, and then a playback is fired
 which has a Block Pan/Tilt shape on some of the fixtures, those fixtures
 will stop running the circle shape. This can be very useful to modify
-playbacks at showtime when used with the
+playbacks at show time when used with the
 [playback priority feature](../cues/playback-options.md#priority).
 
 When you use a shape with more than one fixture, you can choose to
@@ -88,9 +88,9 @@ a particular shape.
     shapes separately to give different directions, speeds etc (see
     [later](#changing-size-and-speed-of-a-shape))
 
--   If the selected fixture has subfixtures (cells) then you will be
+-   If the selected fixture has sub-fixtures (cells) then you will be
     given the option to run the shape on the main fixture, keeping all
-    cells identical, or spread across the subfixtures/cells. The options
+    cells identical, or spread across the sub-fixtures/cells. The options
     are:
     -   \[Run on Super Fixtures\] - cells are ignored, fixture operates as one
     block

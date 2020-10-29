@@ -1,7 +1,7 @@
 version: "3.4"
 
 services:
-  docusaurus:
+  web:
     build:
       context: .
       target: web

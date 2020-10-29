@@ -38,8 +38,8 @@ the Control wheels. The buttons have lights on to show you which
 attributes are active. Attribute functions such as Fan and Shapes are
 also controlled here.
 
-\(H\) The **Chase and Cuelist control buttons** allow you to start and stop
-chases and cuelists, and move about in the list.
+\(H\) The **Chase and Cue List control buttons** allow you to start and stop
+chases and cue lists, and move about in the list.
 
 \(I\) The **Numeric keypad** and other control buttons are used to enter
 values and change controls on the system.
@@ -56,7 +56,7 @@ are shown on the screen.
 
 \(N\) Near the power switch there is a small hole in the front panel. This is
 the **Panel Reset Switch** which may be pressed using the end of a
-paperclip or other pointy thing to restart the front panel electronics
+paper clip or other pointy thing to restart the front panel electronics
 if something odd happens with the switches and faders. The main
 processor will continue running but the DMX output will be interrupted
 until the restart is completed.

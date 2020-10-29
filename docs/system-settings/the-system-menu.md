@@ -4,16 +4,15 @@ title: The System Menu
 sidebar_label: The System Menu
 ---
 
-The System menu is accessed by holding \<Avo\> and pressing Disk. Some
-consoles are also fitted with a key switch or mode switch to select
-System mode.
+The System menu is accessed by holding \<Avo\> and pressing \<Disk\>, or 
+on Titan Go you can press the \<System\> button. Some
+older consoles are also fitted with a key switch or mode switch to get the
+System menu.
 
 The options in this menu are separated from the other options on the
 console because you would normally only change them occasionally, or
 because they can have serious effects on the way the console works and
 you wouldn't want to change them accidentally.
-
->When the console is in System mode, playback control, preset controls and programming buttons are all disabled.
 
 ---
 
@@ -49,7 +48,7 @@ User Settings
 -------------
 
 The User Settings menu may also be accessed from Program mode: hold down
-the \<Avo\> Shift button and press \[User Settings\]. See the [User Settings](user-settings.md) section.
+the \<Avo\> button and press \[User Settings\]. See the [User Settings](user-settings.md) section.
 
 Key Profiles
 ------------
@@ -62,9 +61,6 @@ Wipe
 The Wipe menu erases the current show. This is the same as the \[New
 Show\] option on the Disk menu, but is provided here for old fashioned
 Avolites users who are used to it being on the System menu.
-
-The \[Wipe Visualiser Patch\] option will erase all fixtures from the
-visualiser without affecting the current show.
 
 Triggers
 --------

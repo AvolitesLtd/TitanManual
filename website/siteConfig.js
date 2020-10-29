@@ -81,14 +81,20 @@ const siteConfig = {
       md.renderer.rules.softkey_open = custom_rules.softkey_open
       md.renderer.rules.softkey_close = custom_rules.softkey_close
 
-      // style physical console buttons
+      // style context buttons
+      // e.g. \{Move Camera\}
+      custom_rules.keyRule(md,"context","\\{","\\}","context_open","context_close")
+      md.renderer.rules.context_open = custom_rules.context_open
+      md.renderer.rules.context_close = custom_rules.context_close
+
+      // style physical console keys
       // e.g. \<Avo\>
-      custom_rules.keyRule(md,"button","\\<","\\>","button_open","button_close")
-      md.renderer.rules.button_open = custom_rules.button_open
-      md.renderer.rules.button_close = custom_rules.button_close
+      custom_rules.keyRule(md,"key","\\<","\\>","key_open","key_close")
+      md.renderer.rules.key_open = custom_rules.key_open
+      md.renderer.rules.key_close = custom_rules.key_close
 
       // style diagram annotation links
-      // e.g. (A)
+      // e.g. \(A\)
       custom_rules.keyRule(md, "annotate", "\\(", "\\)", "annotate_open", "annotate_close", 5)
       md.renderer.rules.annotate_open = custom_rules.annotate_open
       md.renderer.rules.annotate_close = custom_rules.annotate_close
@@ -143,7 +149,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/Farrser/AvoDocs',
+  repoUrl: 'https://github.com/AvolitesLtd/TitanManual',
 };
 
 module.exports = siteConfig;

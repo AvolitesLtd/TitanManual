@@ -24,7 +24,7 @@ You can also open the Playback View window to show more details of the
 cue list by clicking the Cue List legend area or press \<View/Open\>
 then the **swop button** of the playback. This shows all the timings, links
 and tracking status and is very useful when running a [theatre show](theatre-programming.md) on a
-cuelist.
+cue list.
 
 The option **"Auto View On Connect"** *(in the [User Settings/Wheels menu](../system-settings/user-settings.md#auto-view-on-connect))* if
 enabled will automatically open the relevant Playback View window when
@@ -35,7 +35,7 @@ you fire a cue list.
 When times are in progress on a cue, green progress bars are shown in
 the Playback View window.
 
-The Playback View will autoscroll to keep the active cue onscreen. You
+The Playback View will autoscroll to keep the active cue on-screen. You
 can change the way the autoscroll works using the view options (click
 the options/cog icon at the top of the window).
 
@@ -56,8 +56,9 @@ the options/cog icon at the top of the window).
 -   On consoles with a \<Snap\> button *(Arena and Tiger Touch 2)*, when
     you turn on the \<Snap\> button the \<Prev\>/\<Next\> buttons will
     snap immediately to the cue rather than going to the previous/next
-    cue using the programmed times. There is also a [User Setting \[Chase
-    Snap\]](../system-settings/user-settings.md#chase-snap) which enables this mode on consoles which don't have the
+    cue using the programmed times. There is also a 
+    [User Setting \[Chase Snap\]](../system-settings/user-settings.md#chase-snap)
+    which enables this mode on consoles which don't have the
     button.
 
 -   You can jump directly to a cue by pressing \<Connect\>, then typing

@@ -45,7 +45,7 @@ To delete a single cue from a cue list:
 2. Press the **Swop** button of the cue list
 
 3. The cues in the cue list are listed on the screen. Use **Wheel A** to
-select the cue you want to delete, or type in the number of thecue to be
+select the cue you want to delete, or type in the number of the cue to be
 deleted.
 
 4. Press \[Delete Cue x\] to delete the cue

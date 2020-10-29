@@ -34,9 +34,9 @@ Overlay 50/50\] context menu button.
 
 ### Elements
 
-Click on the \[+\] button at the bottom to add an effect, and choose a
+Click on the \{+\} button at the bottom to add an effect, and choose a
 graphic element. You can **remove** elements by selecting them and clicking
-on the **"rubbish bin"** icon. The graphic buttons as shown below provide
+on the \{Rubbish Bin\} button. The graphic buttons as shown below provide
 the following elements to animate:
 
 -   Square
@@ -78,7 +78,7 @@ which will vary depending on the shape but may include:
 ### Animations
 
 Then with the graphic element selected on the left hand side, click on
-the \[+\] button again and choose an **Animation** (how your graphic element
+the \{+\} button again and choose an **Animation** (how your graphic element
 will move or change) or **Visual Effect** (which change the appearance of the element).
 The animated effect will show in the black window
 and be output to the fixtures You can add multiple animations which will
@@ -122,7 +122,7 @@ may vary depending on the particular effect but may include:
 
 - Spawn Random *(adds a random factor to the spawn rate)*
 
-- Spawn For *(sets how many elements will be spawned, after this no mor
+- Spawn For *(sets how many elements will be spawned, after this no more
 will appear)*
 
 - Run For / And Then *(for each element, sets how many cycles it runs for,
@@ -156,8 +156,8 @@ Some points about animations:
 
 If you don't have fixtures connected, you can see how the effect will
 look on the fixtures using the Pixel Mapper preview window - open it by
-pressing \<View/Open\>, \[Open Workspace Window\], \[Pixel Mapper
-Preview\]. A real life view of each effect currently running is shown in
+double pressing \<View/Open\> then press \[Pixel Mapper
+Preview\] from the window select buttons. A real life view of each effect currently running is shown in
 a button at the bottom of the screen, you can select each of these by
 pressing the button.
 
@@ -220,8 +220,9 @@ Pixel Mapper Layer Masters
 
 You can assign each of the four layers to a master. The master allows
 you to adjust the layer controls in real time. When the master is
-assigned to a fader handle using the \[Assign Masters\], \[Pixel Mapper\]
-controls, the fader will control opacity of the layer.
+assigned to a fader handle using \<Record\>, \[Create Master\], \[Pixel Mapper\],
+selecting \[Layer 1\] through \[Layer 4\] and finally pressing a handle select key,
+the fader will control opacity of the layer.
 
 This means you can create cues and palettes which can manipulate the
 layer settings of effects which are running in other cues.
@@ -241,7 +242,7 @@ effect on all fixtures or on a group of fixtures.
 
 To create a Mask Effect:
 
-1.	Press \[Mask Fx\] on the Shapes and Effects menu.
+1.	Press \[Mask FX\] on the Shapes and Effects menu.
 
 2.	If no fixtures are selected the mask will apply to all fixtures. If some fixtures are selected the mask will only apply to those fixtures.
 

@@ -38,7 +38,7 @@ select a new user from the list (the current user is highlighted).
 user and press \[OK\].
 
 5. You can also quickly change user from the root menu by holding
-\<Avo\> shift and pressing \[User ... \]
+\<Avo\> and pressing \[User ... \]
 
 -   If multiple consoles are connected in a collaborative session, any
     user added to one of the consoles will be available on any of the
@@ -91,11 +91,10 @@ Linking to other TitanNet Sessions
 If multiple Titan consoles are connected in the same network you can
 choose to connect them as multi-user, 
 [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup),
-or both. This is also how you connect [TitanNet processors](../titan-net.md)
-to expand DMX outputs.
+or both. 
 
 > All consoles to be linked must be running the same version of Titan
-for networking to work.
+for networking to work correctly.
 
 For details of how to connect Titan consoles together on a network, see
 [Networking the Console](../networking.md).
@@ -140,7 +139,7 @@ match before they can take over. If different handle worlds are
 selected, users can work independently on their own pool of handles.
 
 > All consoles in a session using the same user & handle world will
-  share the same connected handle. If this is not the dersired
+  share the same connected handle. If this is not the desired
   behaviour, then  the other consoles in the session will require
   their own user/handle world.
 
@@ -163,8 +162,8 @@ console will immediately become the master and take over DMX output
 with the chosen user and handle worlds selected. The console which
 was master will go into a dormant state with DMX disabled.
 
-> Consoles must be running Titan v8 or above to join a multi-user or
-backup session with another Titan v8 console.
+> Consoles must be running the same version of Titan to join a multi-user or
+backup session.
 
 ### Titan Mobile
 

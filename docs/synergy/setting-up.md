@@ -19,11 +19,15 @@ these tips for setting up a suitable network:
 -   If you are using Titan Mobile, make sure Windows Firewall is turned
     off
 
+> The Ai server(s) must have the correct version of Synergy installed  to match your Titan version. To upgrade Synergy on the Ai server, download the Synergy Upgrade Installer from the 
+[Avolites Download page](https://www.avolites.com/software/latest-version) and run it on the Ai server. You don't need to do anything extra on the console as the Titan installer will automatically install the latest version of Synergy on the console. 
+
 If you have problems getting Titan and Ai to recognise each other, make
 sure they are on matching software versions, and both in the same IP
 address subnet range such as `2.0.0.1` and `2.0.0.2` - read more about [Networking the Console](../networking.md).
 
-Setting up the AI Show
+
+Setting up the Ai Show
 ----------------------
 
 A simple Ai system involving a single screen or projector can be set up
@@ -51,14 +55,14 @@ configure these further on the Ai server itself).
 
 ![Synergy Settings Window](/docs/images/Synergy-Settings-Window.png)
 
-On the left of the screen the available Ai
-servers are shown. In the centre of the screen, the Surfaces and Layers
+On the left of the window the available Ai
+servers are shown. In the centre of the window, the Surfaces and Layers
 configured in Titan are shown. Connection lines show how the Titan
 Surfaces will control the different outputs of the Ai server. At the
 bottom are Surfaces which are already configured on Ai but are not yet
 linked to Titan, these are called unmatched surfaces.
 
-Click on the **+** at the bottom and select Surface from the pop up to add a
+Click on the \{+\} at the bottom and select Surface from the pop up to add a
 new surface. This will appear at the top; by default it has two layers
 but you can change this later.
 
@@ -68,7 +72,7 @@ Clicking on the top part of a Surface will
 show options on the right for the surface. These options allow you to
 set the canvas resolution which can either be picked from a list of
 common resolutions, or entered numerically; at the top right the display
-halo colour of the surface can be set, and the pencil button allows you
+halo colour of the surface can be set, and the \{Pencil\} button allows you
 to change the name (you can also do this with the \[Set Legend\]
 button).
 
@@ -76,14 +80,14 @@ Clicking on a Layer within a Surface shows layer options on the right.
 This allows you to allocate a Rate or BPM master to the layer for speed
 control.
 
-When no Surfaces or Layers are selected, the right side of the screen
+When no Surfaces or Layers are selected, the right side of the window
 shows general information about the system. There is a switchable option
 "Automatic NDI Previews" to enable or disable NDI streams - if you are
 using the media preview window, you will need to turn this on. If not
 leave it turned off, as it causes a lot of network traffic.
 
 Once you have created a surface in Titan, you need to match it to the Ai
-surface. Click on the Link button on the unmatched surface at the
+surface. Click on the \{Link\} button on the unmatched surface at the
 bottom, then click on the Screen 1 surface at the top (or you can click
 **"Link to new Surface"** to automatically create a new surface and link to
 it).
@@ -105,11 +109,11 @@ screen using Ai, only from the Titan console.
 
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)
 
-To add a layer, click on the surface, then the **+** button at the bottom
+To add a layer, click on the surface, then the \{+\} button at the bottom
 and select **Layer** from the popup.
 
-To delete a layer or surface, select the item then click the **Trash Can**
-icon at the bottom, or press \<Delete\> then click the layer/surface. If
+To delete a layer or surface, select the item then click the \{Rubbish Bin\}
+button at the bottom, or press \<Delete\> then click the layer/surface. If
 linked to Ai, this will also delete the layer/surface in Ai.
 
 Synergy Fixtures Window

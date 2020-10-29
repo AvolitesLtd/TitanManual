@@ -32,10 +32,12 @@ Real Time mode is useful when you are using a macro to reproduce a
 lighting effect, for example a sequence of flash buttons. Full Speed
 mode is more useful for admin tasks such as changing console mode.
 
-Macros can be stored in the dedicated buttons on the top right of the
-panel, on the grey handle buttons, and in the Macro button window which
-can be shown in the workspace. The top right panel macro buttons
-correspond to the first 20 macros in the window (10 on Tiger Touch).
+Macros can be stored in most workspace windows, on the dedicated buttons 
+on the top right of the panel and on the grey handle buttons. There is also 
+a dedicated Macro button window which can be shown in the workspace. 
+The top right panel macro/executor/workspace buttons are shown in the 
+Static Playbacks workspace window while the designated 10 Macro buttons 
+on the old Tiger Touch correspond to the first 10 macros in the Macros window.
 
 The Arena also has two additional Macro buttons on the bottom left
 corner of the console.
@@ -75,38 +77,43 @@ the shortcut keys; changing menus will reconnect the keyboard to Titan.
 
 Key | Action | | Key | Action
 ---|---|---|----|-----
-  F1 | Open user manual | |          Ctrl X |   Cut text
-  F2 | Activate window  | |          Ctrl C |   Copy text
-  F3 | Minimise/Maximise  | |         Ctrl V |   Paste text
-  Shift F3 | Next window  | |              Ctrl A |   Select all text
-  F4       |  Size/Position         | |    Ctrl Z |   Undo
-  Shift F4 |  Move to other screen  | |     Ctrl Y |   Redo
-  F5       |  Close window          | |     Alt C  |   Clear
-  Shift F5 |  Close all windows     | |     Alt R  |   Record menu
-  F6       |  Open Playbacks window | |     Alt A  |   Toggle Avo (shift) menu
-  F7       |  Open Fixtures window  | |     Alt L  |   Locate
-  F8       |  Open Groups window    | |     Alt P  |   Patch
-  F9       |  Open Colours window   | |     Alt D |  Disk menu
-  F10      |  Open Positions window | |     Alt S |  System mode
-  F11      |  Gobos/Beams window    | |     Alt V   |  Open/View menu
-  F12      |  Open Channel Grid     | |     Alt G   |  Go
-  Esc      |  Exit menu             | |     Alt D   |  Delete
-  Enter    |  Enter                 | |     Alt C |  Copy
-  Alt 1    |  Softkey A             | |     Alt M |    Move
-  Alt 2    |  Softkey B             | |     Alt U  |   Unfold
-  Alt 3    |  Softkey C             | |     Alt I  |   Include
-  Alt 4    |  Softkey D             | |     Alt R |  Release
-  Alt 5    |  Softkey E             | |     Alt S  |   Shape
-  Alt 6    |  Softkey F             | |     Alt T  |   Fixture Tools/ML Menu
-  Alt 7    |  Softkey G             | |    Alt B  |   Blind
-  Alt ⇑ F  |  Fixture               | |    Alt O  |   Off
-  Alt ⇑ P  |  Palette               | |     Alt F  |   Fan
-  Alt ⇑ M  |  Macro                 | |     Alt O |  Attribute options
-  Alt ⇑ G  |  Group                 | |     Alt L |  Latch menu
-  / (num)  |  Thro                  | |     Alt ←  |   Previous fixture
-  \* (num) |  @                     | |     Alt →  |   Next fixture
-  \- (num) |  Not                   | |     Alt ↑  |   All
-  \+ (num) |  And                   | |     Alt ↓  |   Highlight
+  F1       |  Open user manual      | |     Ctrl X   |   Cut text
+  F2       |  Activate window       | |     Ctrl C   |   Copy text
+  F3       |  Minimise/Maximise     | |     Ctrl V   |   Paste text
+  Shift F3 |  Next window           | |     Ctrl A   |   Select all text
+  F4       |  Size/Position         | |     Ctrl Z   |   Undo
+  Shift F4 |  Move to other screen  | |     Ctrl Y   |   Redo
+  F5       |  Close window          | |     Alt C    |   Clear
+  Shift F5 |  Close all windows     | |     Alt R    |   Record menu
+  F6       |  Open Playbacks window | |     Alt A    |   Toggle Avo menu
+  F7       |  Open Fixtures window  | |     Alt L    |   Locate
+  F8       |  Open Groups window    | |     Alt P    |   Patch
+  F9       |  Open Colours window   | |     Alt ⇑ D  |   Disk menu
+  F10      |  Open Positions window | |     Alt ⇑ S  |   System menu
+  F11      |  Gobos/Beams window    | |     Alt V    |   Open/View menu
+  F12      |  Open Channel Grid     | |     Alt G    |   Go
+  Esc      |  Exit menu             | |     Alt D    |   Delete
+  Enter    |  Enter                 | |     Alt C    |   Copy
+  Alt 1    |  Softkey A             | |     Alt M    |   Move
+  Alt 2    |  Softkey B             | |     Alt U    |   Unfold
+  Alt 3    |  Softkey C             | |     Alt I    |   Include
+  Alt 4    |  Softkey D             | |     Alt ⇑ R  |   Release
+  Alt 5    |  Softkey E             | |     Alt S    |   Shape
+  Alt 6    |  Softkey F             | |     Alt ⇑ T  |   Fixture Tools/ML Menu
+  Alt 7    |  Softkey G             | |     Alt B    |   Blind
+  Alt ⇑ F  |  Fixture               | |     Alt O    |   Off
+  Alt ⇑ P  |  Palette               | |     Alt F    |   Fan
+  Alt ⇑ M  |  Macro                 | |     Alt ⇑ O  |   Attribute options
+  Alt ⇑ G  |  Group                 | |     Alt ⇑ L  |   Latch menu
+  / (num)  |  Thro                  | |     Alt Q    |   Cue/Connect
+  \* (num) |  @                     | |     Alt W    |   Open Window
+  \- (num) |  Not                   | |     Alt T    |   Times
+  \+ (num) |  And                   | |     Alt ⇑ U  |   Update
+  Alt ←    |  Previous fixture      | |     Alt ⇑ I  | Select If
+  Alt →    |  Next fixture          | |              |                  |
+  Alt ↑    |  All                   | |              |                  |
+  Alt ↓    |  Highlight             | |              |                  |
+           |                        | |              |                  |
 
 ⇑ means shift\
 (num) means on the numeric keypad
@@ -123,7 +130,7 @@ again if you press buttons or touch the screen. This is not a
 high-security lock, it's just to prevent passing idiots messing with it.
 
 You can set a background image for the lock screen from the Lock Screen
-Background option in the General tab of User Settings (hold \<Avo\>,
+Background option in the Display (v13: General) tab of User Settings (hold \<Avo\>,
 press \[User Settings\]). The image can be either loaded from a picture
 file or drawn using the touch screen.
 

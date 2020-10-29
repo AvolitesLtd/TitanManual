@@ -10,7 +10,7 @@ word 		| meaning
 ------------|----
 ADDRESS		| The first DMX channel/slot of the set of channels occupied by an individual Fixture. This is set on the fixture somehow (by a menu or switches or remotely using RDM).
 ALIGN		| A means of copying Attribute characteristics from the first Fixture selected to other selected fixtures, resulting in those attributes of the fixtures being aligned to each other.
-ART-NET		| An ethernet based system allowing multiple Universes of DMX to be sent over a network.
+ART-NET		| An Ethernet based system allowing multiple Universes of DMX to be sent over a network.
 ATTRIBUTE	| One function of a Fixture, such as “Colour Wheel” or “Focus”.
 ATTRIBUTE GROUPS	| see IPCGBES.
 AUTOLOAD	| A Playback which is automatically fired by a Cue in a Cue List. Enables a chase to be fired by a cue list.
@@ -18,7 +18,7 @@ BACKUPS		| Copies of a show stored to a storage device for safety.
 BPM			| Beats Per Minute. 60 BPM is equivalent to one step per second.
 BLIND		| When set to Blind mode, changes made on the console do not affect the DMX output. Useful for making programming changes during a show.
 BUSKING		| Operating the console live (usually for live music) when you do not have a complete show programmed, but instead creating effects as you go along using palettes etc.
-CELL		| Part of a Fixture which can be controlled separately within the larger fixture – for example an LED batten may have 12 cells each of which can be controlled separately, or all together. Also called Subfixture.
+CELL		| Part of a Fixture which can be controlled separately within the larger fixture – for example an LED batten may have 12 cells each of which can be controlled separately, or all together. Also called Sub-fixture.
 CHANNEL		| Button allowing syntax / numeric style entry and operation of the console using the User Number of fixtures/dimmers.
 CHASE		| A sequence of one or more pre recorded steps which automatically run one after the other.
 COLOUR MIX / CMY	| A system of three filters (Cyan, Magenta, Yellow) that can each crossfade from white to a colour, or one colour to another. It is a feature of most Fixtures, which enables any colour to be created.
@@ -35,7 +35,7 @@ FADE		| A continuous transition from one level to another.
 FAN			| A way of automatically spreading out Attributes around a central point to speed up programming.
 FIXTURE		| Any lighting instrument that is patched using a Personality. Generally refers to a moving light or colour changing light, not an individual Dimmer channel. Also called Intelligent Fixture, Device, Instrument, Moving Light.
 FIXTURE LAYOUT	| A way of telling the console where Fixtures are physically located in 2D space, for use with Shapes or the Pixel Mapper.
-FLASH		| Pushbutton which adds a playback into the existing output of the console. Historically called the ADD button. See also SWOP.
+FLASH		| Push button which adds a playback into the existing output of the console. Historically called the ADD button. See also SWOP.
 FLIP		| A function for use with Moving Head Fixtures. They have two possible Pan and Tilt settings for each position on stage by reversing the yoke, and FLIP will alternate between them.
 FOCUS		| The library of stored positions, colours etc which are called Focuses on some consoles, are called Palettes on Titan. See PALETTE. This term may also be used in connection with moving fixtures to focus (set the sharpness) of a gobo projection.
 FX			| Refers to effects created with the Shape Generator.
@@ -76,26 +76,25 @@ PRELOAD		| A playback button which sets the LTP channels in a cue but not the HT
 PRESET FOCUS	| The old name for Palettes on previous Avolites consoles and other consoles. See PALETTE.
 PROGRAMMER	| The part of the console which contains Attribute information which has been changed by the user, prior to recording.
 QUICK PALETTE	| If you press a palette button with no fixtures selected, the console will apply the palette to all fixtures it has programming for. This is called a Quick Palette.
-RANGE		| If an Attribute on a fixture is split into certain zones for different effects, for example if the fixture can snap to 8 gobos selected by DMX values 1-32, 33-64, 65-96 etc then the attribute is said to have Ranges.
+RANGE		| If an Attribute on a fixture is split into certain zones for different effects, for example if the fixture has rotating gobos and e.g. from DMX 128-191 you fade through clockwise rotation then the attribute is said to have Ranges.
 RDM			| Remote Device Management, a way of configuring fixtures remotely from the console. Not all fixtures support this.
 RELEASE		| How a Playback leaves the LTP channels it was controlling when it is killed. Normally the LTP channels just remain in their last state, but you can use the Release settings to get them to revert to a previous state.
 RGB / RGBW	| A system of colour mixing using LED emitters of different colours. Often more emitter colours are provided in the fixture to allow better colour rendering or mixing of pale tints. Possible colours include Red, Green, Blue, White, Amber, Lime, Cyan, UV - so you may see RGBAL fixtures or RGBAWUV.
-sACN		| An ethernet-based system allowing multiple universes of DMX to be sent over a network.
+sACN		| An Ethernet-based system allowing multiple universes of DMX to be sent over a network.
 SELECT BUTTON	| Blue button used to select a Handle when programming.
 SELECTED	| A Fixture that is under manual control.
 SEQUENCE	| Another name for a Chase on other consoles.
 SHAPE 		| A preprogrammed effect available which is applied to an Attribute. It can then be customised and stored in a cue.
 SHARED PALETTE	| A Palette in which information is only stored for one Fixture, but is available to all fixtures of that type.
 SOFTKEY		| Menu buttons marked A-J down the side of the screen, which have different functions as shown on the adjacent part of the screen depending on the currently active menu.
-SPREAD		| How a shape or effect is output across a group of fixtures – if zero, all fixtures operate in synchronisation. Also called Phase.
+SPREAD		| How a shape or effect is output across a group of fixtures – if 1, all fixtures operate in synchronisation. In conjunction with Phase.
 STACK		| Another name for a Cue List.
 SUBFIXTURE	| See Cell.
 SWOP		| Type of flash button which turns on the output being flashed and turns off all other output while the button is pressed. Sometimes called “Solo”. Also used for selecting fixtures or playbacks when programming. See also FLASH.
 TIMECODE	| An electronic timer signal which allows cue list playback to be synchronised to a soundtrack or other events.
 TIMES		| Many elements of programming can be timed to create effects, these together are referred to as Times.
-TNP			| Titan Network Processor, a rackmount unit to handle the processing of additional DMX Universes or to operate automatic shows.
+TNP			| Titan Network Processor, a rack mount unit to handle the processing of additional DMX Universes or to operate automatic shows.
 TRACKING	| Describes the operation of Cue Lists where attribute states follow through from previous cues unless changed by the user.
-TRIGGER POINT	| The level set in the User Settings which determines at which point a Playback fader triggers the LTP channels programmed onto it.
 UNFOLD		| A function that allows Chase steps to be laid out onto the playback faders for easy editing.
 UNIVERSE	| A full set of 512 DMX control channels/slots. Titan consoles can create up to 64 universes, 16 on the console and the rest remotely using network processing.
 UPS			| Uninterruptible Power Supply, fitted internally in some consoles, to keep the console running in case of power failure.

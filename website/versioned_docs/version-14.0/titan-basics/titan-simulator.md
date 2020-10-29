@@ -20,15 +20,14 @@ install or run Titan Simulator. From v12, to run the Titan Simulator an
 AvoKey Simulator dongle must be connected, or a T1/T2 device.
 
 
-> From v7, Windows XP and Vista are no longer supported by Titan software.
-> Your PC must be running a 64 bit version of Windows 7, Windows 8.1 or Windows 10.                      
+> See [minimum PC specifications](../titan-basics.md#connecting-up-titan-mobile-and-t1t2) for details of the PC requirements.                    
 
-Capture visualiser requires a capable graphics card. If you have problems with Capture,      
-ensure you have installed the latest drivers for your graphics card from the manufacturer.
+- Capture visualiser requires a capable graphics card. If you have problems with Capture,      
+  ensure you have installed the latest drivers for your graphics card from the manufacturer.
 
-Simply download and run the Titan PC Suite installer from the Avolites
-website. The first time you run the Editor you will need to license the
-software to the AvoKey; follow the instructions given on screen by the
+Simply download and run the **Titan PC Suite** installer from the Avolites
+website. The first time you run the Editor you will need to [license the
+software](../system-settings/recovering-reinstalling-the-console.md#software-licensing) to the AvoKey; follow the instructions given on screen by the
 Authenticator system.
 
 Once licensed, you have a choice of how Titan will operate:
