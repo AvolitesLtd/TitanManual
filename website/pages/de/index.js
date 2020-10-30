@@ -36,8 +36,7 @@ class HomeSplash extends React.Component {
     const ProjectTitle = () => (
       <h2 className="projectTitle">
         {siteConfig.title}
-        <small>Deutsches Handbuch für Avolites Titan-Pulte</small>
-		<small>Dies ist eine momentane Arbeitsversion, die Stück für Stück übersetzt wird.<br />Das englische Original-Handbuch gibt es auf <b><a href="https://manual.avolites.com">manual.avolites.com</a></b></small>
+        <small>{siteConfig.tagline}</small>
       </h2>
     );
 
