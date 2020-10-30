@@ -109,7 +109,8 @@ aktiviert, ebenfalls angezeigt wird.
 **DMX output:** Damit kann die Ausgabe für dieses Modul deaktiviert
 werden.
 
-**Merge Priority:** Dreimal darfst Du raten.
+**Merge Priority:** Bestimmt die Priorität des direkt von Titan zum DMX-Ausgang
+gesendeten Signals beim Verwenden von sACN/DMX-Merge.
 
 **Break Length:** Zeitlicher Abstand zwischen den DMX-Paketen. Manche 
 Dimmer und Movinglights benötigen ein künstlich verlangsamtes Signal,
