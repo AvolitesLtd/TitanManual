@@ -1,3 +1,5 @@
+const transButtons = require('./languages-buttons.json')
+
 module.exports = {
   keyRule: function (md, name, open, close, render_open, render_close, max) {
     md.inline.ruler.before('text',name, function(state,silent) {
@@ -51,13 +53,35 @@ module.exports = {
     return '</span>';
   },
 
-  button_open: function(tokens, idx, options /*, env */) {
-    return `<span class="key">`;
+  key_open: function(tokens, idx, options /*, env */) {
+    const redKeys = ["avo","locate"];
+    let keyClass = '';
+    if(redKeys.includes(tokens[idx+1].content.toLowerCase())) {
+      keyClass += " red";
+    }
+
+    return `<span class="key ${keyClass}">`;
   },
 
-  button_close: function(/* tokens, idx, options, env */) {
+  key_close: function(/* tokens, idx, options, env */) {
     return '</span>';
   },
+
+  context_open: function(tokens, idx, options /*, env */) {
+    let keyClass = ' ';
+
+    for (const [cls, trans] of Object.entries(transButtons))
+      for (const [lang, tran] of Object.entries(trans.lang))
+        if(tokens[idx+1].content.toLowerCase() == tran)
+          keyClass += cls;
+
+    return `<span class="context ${keyClass}">`;
+  },
+
+  context_close: function(/* tokens, idx, options, env */) {
+    return '</span>';
+  },
+
   annotate_open: function(tokens, idx, options /*, env */) {
     return `<span class="annotate">`;
   },

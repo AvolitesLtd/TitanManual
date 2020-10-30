@@ -5,8 +5,8 @@ sidebar_label: Titan Mobile
 original_id: titan-mobile
 ---
 
-Titan Mobile is a USB wing which plugs into a PC or laptop (Windows 7 or
-above, 64 bit) running the Titan software.
+Titan Mobile is a USB wing which plugs into a Windows PC or laptop running the Titan software.
+See [minimum PC specifications](../titan-basics.md#connecting-up-titan-mobile-and-t1t2) for details of the PC requirements.
 
 ![Titan Mobile](/docs/images/Titan-Mobile.png)
 
@@ -26,8 +26,8 @@ the Control wheels. The buttons have lights on to show you which
 attributes are active. Attribute functions such as Fan and Shapes are
 also controlled here.
 
-\(E\) The **Chase and Cuelist control buttons** allow you to start and stop
-chases and cuelists, and move about in the list.
+\(E\) The **Chase and Cue List control buttons** allow you to start and stop
+chases and cue lists, and move about in the list.
 
 \(F\) The **Numeric keypad** and other control buttons are used to enter
 values and change controls on the system.
@@ -44,10 +44,10 @@ are shown on the screen.
 
 \(J\) The **Menu Softkeys** (labelled A - G) are used to select control options. 
 The right hand side of the display shows what each one will do. - if you are using
-a touch screen computer you can touch the softkey onscreen instead of using these
+a touch screen computer you can touch the softkey on-screen instead of using these
 buttons. The options for each 
 key change depending on what the console is doing. Softkey commands are shown 
-in the manual like this: /[Edit Times/]
+in the manual like this: \[Edit Times\]
 
 ## The Screen
 

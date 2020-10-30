@@ -9,9 +9,9 @@ you will need to know when setting up a lighting control network.
 
 IP addresses will normally come in the format `w.x.y.z` where `w`, `x`, `y`
 and `z` are numbers between 0 and 255, for example `192.168.0.1`. Every
-object (or node or device) on a network should have a unique IP address.
-This is the same concept as DMX as each fixture requires a unique DMX
-address, for IP addresses the same is required.
+object (or node or device) on a network must have a unique IP address 
+(within this network). This is the same concept as DMX as each fixture 
+requires a unique DMX address, for IP addresses the same is required.
 
 Setting your IP address
 -----------------------

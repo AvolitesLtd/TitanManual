@@ -27,8 +27,8 @@ to the selected fixtures.
     [Timing with Palettes](timing-with-palettes.md).
 
 -   When a palette is used in the programmer, the touch button will
-    light up to indicate this (you can [disable this in the User
-    Settings](../system-settings/user-settings.md#highlight-active-palettes)).
+    light up to indicate this (you can
+    [disable this in the User Settings](../system-settings/user-settings.md#highlight-active-palettes)).
     This makes it easier to see which palette you have selected.
 
     ![Active Palette Highlighted](/docs/images/Active-Palette-Highlighted.png)

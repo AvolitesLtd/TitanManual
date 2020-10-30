@@ -18,9 +18,9 @@ Intensity/Dimmer, Colour, Gobo etc), then turn the wheels to set
 fixture. Display shows which attribute each wheel is controlling.
 (See [Changing Attributes Using the Wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels)).
 
-Open Attribute window onscreen (\<View/Open\> then one of the attribute
+Open Attribute window on-screen (\<View/Open\> then one of the attribute
 bank buttons such as \<Position\> or \<Intensity\>) to select attributes
-from buttons and to control subfixtures of battens/arrays.
+from buttons and to control sub-fixtures of battens/arrays.
 (See [Fixtures with Multiple Cells](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fixtures-with-multiple-cells-subfixtures)).
 
 Use Palettes to store often-used colours, positions etc. for instant

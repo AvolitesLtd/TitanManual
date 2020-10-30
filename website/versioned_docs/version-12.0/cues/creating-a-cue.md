@@ -63,7 +63,7 @@ cue onto a touch button in the Playbacks window.
 Other useful things to know about recording cues:
 
 -   Cues can be recorded to any fader, the macro/executor buttons or the
-    onscreen Playbacks window.
+    on-screen Playbacks window.
 
 -   \[Record Mode\] lets you select:
     -   \[Record By Fixture\] - All attributes of any modified or selected
@@ -84,7 +84,7 @@ Other useful things to know about recording cues:
     then the playback **Swop** button (or the touch select button), then enter a legend on the
     keyboard or draw a picture legend. Press \<Enter\> to store it. *If
     the fader or button does not have an associated screen you will have
-    to resort to the old fashioned method of white tape and sharpie.*
+    to resort to the old fashioned method of white tape and Sharpie.*
 
 ![Playbacks stored on playback faders](/docs/images/Playbacks-stored-on-playback-faders.png)
 

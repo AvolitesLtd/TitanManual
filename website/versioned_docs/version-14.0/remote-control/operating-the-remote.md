@@ -12,7 +12,7 @@ available consoles will be shown - hopefully if you have done the
 There is also a local emulator which can be used to test or demonstrate
 the remote when no real console is connected.
 
-![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-with-keypad.png)
+![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-Control-Selection.png)
 
 Choose what you want to control using the row of buttons across the
 middle of the app. The Keypad button enables or disables the numeric pad
@@ -43,7 +43,7 @@ For 100% you just press @ twice, for example:
 
 > To locate one or more fixtures, press Locate instead of the @ button.
 
-You can select multiple ranges of dimmers or fitures using the And
+You can select multiple ranges of dimmers or fixtures using the And
 button, for example:
 
 **`1 Thro 10 And 20 Thro 30 @ 6`**.
@@ -79,12 +79,16 @@ remote programmer. Hold down the **Clear** button to clear all programmers
 (for example if someone has been doing something on the console at the
 same time, this will clear the console's programmer too).
 
-You can also play back cues using the **Cue** screen. Hold down a playback
-button to kill or release an active playback.
+From the remote's **Cue** screen you can play back cues from the touch buttons 
+in the Playbacks workspace window. Hold down a playback button to kill or release 
+an active playback.
 
-> If you update the legends of palettes or cues on the console while the remote is running, the legends on the remote will not be updated. \<Exit\> and restart the remote app to show legend changes made on the console.
+- You can't play back cues from playback faders or executor buttons from the remote,
+	if you want to do this, make a copy of the cue in the Playbacks window.
 
-Recording groups and palettes
+
+
+Recording Groups and Palettes
 -----------------------------
 
 You can record groups and palettes using the **Rec** button on the remote,

@@ -216,48 +216,48 @@ To go back to normal, press \<Unfold\> then \[Exit Unfold\].
 You can also use the numeric keypad to quickly select cells. The syntax
 is as follows: (\<THRO\> is called Through on some consoles)
 
-  .            all sub fixtures of selection                    
+  .            all sub-fixtures of selection                    
 
-  n\.            all sub fixtures of fixture n
+  n\.            all sub-fixtures of fixture n
 
-  . \<THRO\> .j    sub fixtures 1j of all selected fixtures         
+  . \<THRO\> .j    sub-fixtures 1 - j of all selected fixtures         
 
-  n\. \<THRO\>       all sub fixtures of fixture nlast consecutive of type
+  n\. \<THRO\>       all sub-fixtures of fixture n - last consecutive of type
 
   n \<THRO\> .j      shorthand for above                              
 
-  n\. \<THRO\> i     sub fixtures 1i of fixture n
+  n\. \<THRO\> i     sub-fixtures 1 - i of fixture n
 
-  .m           sub fixture m of all selected fixtures           
+  .m           sub-fixture m of all selected fixtures           
 
-  n\. \<THRO\> i.j   sub fixtures 1j of fixtures ni
+  n\. \<THRO\> i.j   sub-fixtures 1 - j of fixtures n - i
 
-  .m \<THRO\>      sub fixtures mlast of all selected fixtures      
+  .m \<THRO\>      sub-fixtures m - last of all selected fixtures      
 
-  n.m            sub fixture m of fixture n
+  n.m            sub-fixture m of fixture n
 
-  .m \<THRO\> .j   sub fixtures mj of all selected fixtures         
+  .m \<THRO\> .j   sub-fixtures m - j of all selected fixtures         
 
-  n.m \<THRO\>       sub fixtures mlast of fixture n
+  n.m \<THRO\>       sub-fixtures m - last of fixture n
 
   .m \<THRO\> j    shorthand for above                              
 
-  n.m \<THRO\> i     sub fixtures mi of fixture n
+  n.m \<THRO\> i     sub-fixtures m - i of fixture n
 
-  n \<THRO\> i.    all sub fixtures of fixtures ni                  
+  n \<THRO\> i.    all sub-fixtures of fixtures n - i                  
 
-  n.m \<THRO\> i.    sub fixture mlast of fixtures ni
+  n.m \<THRO\> i.    sub-fixture m - last of fixtures n - i
 
-  n \<THRO\> i.j   sub fixture j of fixtures ni                     
+  n \<THRO\> i.j   sub-fixture j of fixtures n - i                     
 
-  n.m \<THRO\> i.j   sub fixtures mj of fixtures ni
+  n.m \<THRO\> i.j   sub-fixtures m - j of fixtures n - i
 
-  n \<THRO\> .j    sub fixture 1j of fixture n                      
+  n \<THRO\> .j    sub-fixture 1 - j of fixture n                      
 
-  n.m \<THRO\> .j    sub fixtures mj of fixture n
+  n.m \<THRO\> .j    sub-fixtures m - j of fixture n
 
 -   Fixture cell selection can be saved as a group, this provides a
-    quick way to select cells / sub fixtures without having to use the
+    quick way to select cells / sub-fixtures without having to use the
     Attribute Editor or Unfold.
 
 ## Changing Attributes Using The Wheels
@@ -389,7 +389,7 @@ adjust the attribute.
 
 ![Range slider](/docs/images/Range-slider.png)
 
-When the selected fixture has subfixtures or cells, buttons appear at
+When the selected fixture has sub-fixtures or cells, buttons appear at
 the top of the attribute editor window allowing you to select the whole
 fixture (left hand button), or individual cells for control. The layout
 of the cell buttons matches the layout set in the pixel mapper to help
@@ -529,7 +529,7 @@ You can also open this menu by touching the centre of the on-screen
 wheel view for the attribute, or by clicking on the attribute in the
 Channel Grid window.
 
-(On Tiger Touch Mk1 the three buttons between the wheels act as @
+(On Tiger Touch 1 the three buttons between the wheels act as @
 buttons. On the Pearl Expert you will need to use the touch screen
 method.).
 
@@ -622,7 +622,7 @@ has an easy way of selecting patterns of fixtures within a range.
 you will only be controlling, say, the odd fixtures.\
 ![Pattern Select](/docs/images/Pattern-Select.png)
 
-4. Press the \<Fix+1\> or \<Fix-1\> button to change the selection to
+4. Press the \<Fix +1\> or \<Fix -1\> button to change the selection to
 the next stage of the pattern (\<Next\> and \<Prev\> on some consoles).
 
 5. To end the pattern selection, press \<All\> twice.
@@ -641,7 +641,7 @@ the next stage of the pattern (\<Next\> and \<Prev\> on some consoles).
     the 16 fixtures, then press \<All\>, then \[1 in x\], then \[1 in
     4\]. You will see that the 1^st^, 5^th^, 9^th^ and 13^th^ fixtures
     are now selected, and you can create the look for those fixtures.
-    Then press \<Fix+1\>, and the 2^nd^, 6^th^, 10^th^ and 14^th^
+    Then press \<Fix +1\>, and the 2^nd^, 6^th^, 10^th^ and 14^th^
     fixtures will be selected ready for programming. After you have
     programmed the fourth set of fixtures, the pattern will go back to
     the first position again, until you press \<All\> twice to end.
@@ -715,23 +715,23 @@ functions to step through the selected fixtures one at a time. This can
 make it easier to program a range of fixtures because you don't have to
 select each one manually.
 
-This mode uses the All/Hilight/Fix+1/Fix-1 buttons.
+This mode uses the All/HiLight/Fix +1/Fix -1 buttons.
 
 1. Select a range of fixtures or a group.
 
-2. The \<Fix+1\> and \<Fix-1\> buttons will select the fixtures in the
+2. The \<Fix +1\> and \<Fix -1\> buttons will select the fixtures in the
 range one at a time (in the order you selected them). Buttons are
 labelled \<Prev\> and \<Next\> on some consoles.
 
 3. The \<All\> button will select all fixtures in the programmer
 (everything which has been selected since \<Clear\> was last pressed).
 
--   The Hilight function can be used to highlight the output of the
+-   The HiLight function can be used to highlight the output of the
     selected fixture (make it brighter onstage), see the next section.
 
 ## Highlighting the Selected Fixture with Prev/Next
 
-When stepping through a fixture selection using \<Fix+1\>/\<Fix-1\>, you
+When stepping through a fixture selection using \<Fix +1\>/\<Fix -1\>, you
 can highlight the selected fixture on stage. This makes it very easy to
 see which fixture you are controlling. The other fixtures in the
 selection go to a dimmed "lowlight" level.
@@ -955,7 +955,7 @@ There are a number of ways to set the times:
     the wheel @ keys and the \<Time\> key.
 
 -   They can also be set by selecting fixtures and entering into the
-    attribute times sub-menus from the \<Time\> key.
+    attribute times submenus from the \<Time\> key.
 
 -   There is also command syntax that allows various options to set
     attribute time values - e.g. \<Time\> \<Fixture\> \<Position\> 5 @ 3

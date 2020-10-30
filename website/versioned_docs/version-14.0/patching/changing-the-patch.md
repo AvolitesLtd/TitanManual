@@ -2,6 +2,7 @@
 id: version-14.0-changing-the-patch
 title: Changing the Patch
 sidebar_label: Changing the Patch
+tags: park
 original_id: changing-the-patch
 ---
 
@@ -15,8 +16,9 @@ fixtures. If you need to change the settings of multiple fixtures (for
 example, changing the DMX address of several fixtures) then it's really
 easy to do in one operation in the Patch View.
 
-To show the Patch View window press \<View/Open\> then \<Patch\>, or use
-the Open Workspace Windows menu command.
+To show the Patch View window press \<View/Open\> then \<Patch\>, or 
+double press <View/Open> and select \[Patch View\] from the window 
+select buttons.
 
 ![Patch View](/docs/images/Patch-View.png)
 
@@ -25,7 +27,7 @@ Each fixture has a unique colour code. Click on these buttons to filter
 the view so it only shows one fixture type.
 
 **Line:** lists the available DMX output lines/universes. The blue
-bargraph in the button shows how much of the line is used by patched
+bar graph in the button shows how much of the line is used by patched
 fixtures and how much is free. Click a button to show the details of
 that line in the right hand side of the window.
 
@@ -137,8 +139,8 @@ output line number.
     using the \[Unpark\] option.
 
 -   If the new DMX address already has another fixture or dimmer patched
-    on it, the console will warn you (unless this is disabled in [User
-    Settings](../system-settings/user-settings.md)). You can either press
+    on it, the console will warn you (unless this is disabled in
+    [User Settings](../system-settings/user-settings.md)). You can either press
     \[Select another DMX address\] to abort the change or \[Park
     Conflicting Fixtures\]. All programming for the parked fixture is
     preserved, but you need to repatch it to a free DMX address using
@@ -181,8 +183,10 @@ identify the fixture.
     fixture.
 
 -   You can set a legend for the current page of fixtures using the
-    \[Set Legend\] function from the main Program menu. The legend is
-    shown on the touch button for the page and on the HUD.
+    \[Set Legend\] function from the main Program menu, then \[Page Legends\],
+    then the page tab which you like to change (if pages are not shown you
+    can enable this in the context menu). The legend is
+    shown on the touch button for the page.
 
 Fixture Button Halo
 -------------------
@@ -217,14 +221,14 @@ DMX View Window
 ---------------
 
 When you're having problems getting fixtures to work it can be useful to
-see the actual DMX output values coming from the console. Press
-\<View/Open\>, then \[Open Workspace Window\], then select \[DMX\].
+see the actual DMX output values coming from the console. Double press
+\<View/Open\>, then select \[DMX\] from the window select buttons.
 
-![DMX Workspace Window](/docs/images/DMX-Workspace-Window.png)
+![DMX Workspace Window](/docs/images/DMX-Workspace-Window-With-Filters.png)
 
-The buttons on the left let you select the different output lines from
-the console. Scrolling the window to the right shows more information
-about each DMX channel.
+The buttons on the left let you filter by attribute and by fixture type 
+and select the different output lines from the console. Scrolling the window 
+to the right shows more information about each DMX channel.
 
 Fixture Exchange
 ----------------
@@ -294,7 +298,7 @@ should you need to using the \[Clear All Mappings\] softkey).
 
 To set up mapping:
 
-1. Press \<View/Open\> then Patch to show the Patch View screen.
+1. Press \<View/Open\> then \<Patch\> to show the Patch View screen.
 
 2. Select the Exchange Mapping tab.
 
@@ -333,9 +337,9 @@ new destination.
     All these actions have to be confirmed by pressing the \[Confirm\]
     softkey.
 
-![Exchange Mapping](/docs/images/Exchange-Mapping.png)
+### Range Mapping
 
-**Range mapping**
+![Exchange Mapping with range mapping](/docs/images/Exchange-Mapping-Range-Mapping.png)
 
 If the destination function has a range (for example 0-100%) you can
 adjust the range to which the source function is mapped.
@@ -354,7 +358,7 @@ touch consoles or by selecting the relevant softkey and entering the
 value.
 
 Once complete, click Apply then \[Confirm\] to commit the changes or
-Cancel then \[Confirm\] to forget.
+\[Cancel\] then \[Confirm\] to forget.
 
 Updating Patched Personalities
 ------------------------------
@@ -368,18 +372,17 @@ console does not update fixtures which are already patched.
     Personalities, then you will be able to undo any changes if you
     change your mind or have problems.
 
-1. Enter patch mode by pressing Patch.
+1.  Enter patch mode by pressing \<Patch\>.
 
-2. Press \[Edit Fixtures\]
+2.  Press \[Edit Fixtures\].
 
-3. Press \[Update Personality\] to update an individual fixture
-   type, or \[Update All\] to update all patched fixtures to the most
+3.  Press \[Update Personality\]. 
+
+4.  Titan shows all fixture types which are patched in the show and 
+    which it has updates for in the installed fixture library. Select 
+    the type(s) you want to update, or click 
+    \[Update All\] to update all patched fixture types to the most
     recent version in the library.
 
-4. If updating individual fixtures, the console shows you a list of
-    personalities used in the show which can be updated.
+-   Updating a number of fixtures may take a little while.
 
-5. If updating individual fixtures, press the personality you want
-    to update.
-
--   The new personality is loaded from the Titan/Personalities folder.

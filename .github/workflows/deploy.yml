@@ -6,9 +6,9 @@ on:
       - created
 
 env:
-  NODE_VERSION: '10.x'
+  NODE_VERSION: '12.x'
 
-jobs:  
+jobs:
   app:
     name: App Build
 
@@ -35,24 +35,23 @@ jobs:
       - name: Install Dependencies
         run: |
           cd website
+          mkdir download
           npm install
-          mkdir downloads
 
-      - name: Linux/Mac App Build & Copy to downloads
+      - name: Linux/Mac App Build & Copy to website/download
         if: matrix.os != 'windows-latest'
         run: |
           cd website
           GH_TOKEN=${{secrets.GITHUB_TOKEN}} npm run app-build
-          mv dist/*.zip dist/*.dmg dist/*.deb dist/*.AppImage downloads || true
+          mv dist/*.zip dist/*.dmg dist/*.deb dist/*.AppImage download || true
 
-      - name: Windows App Build & Copy to downloads
+      - name: Windows App Build & Copy to website/download
         if: matrix.os == 'windows-latest'
         run: |
           cd website
           npm run app-build
-          mv dist/*.exe downloads
-          mv dist/*.zip downloads
-
+          mv dist/*.exe download
+          mv dist/*.zip download
         env:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
@@ -60,13 +59,13 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: ${{matrix.os}}
-          path: website/downloads
+          path: website/download
           
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: "website/downloads/**"
+          files: "website/download/**"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
@@ -81,20 +80,20 @@ jobs:
       - name: PDF Docker Build
         run: |
           docker-compose run pdf
-          mkdir downloads
-          mv parse/output/*.pdf downloads
+          mkdir website/download
+          mv parse/output/*.pdf website/download
 
-      - name: Upload artifacts
+      - name: Upload artifacts to GitHub
         uses: actions/upload-artifact@v1
         with:
           name: 'PDF'
-          path: downloads
+          path: website/download
             
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: "downloads/**"
+          files: "website/download/**"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
@@ -111,6 +110,7 @@ jobs:
       run: |
         cd website
         npm install
+        npm run download
         npm run build --if-present
         npm run test --if-present
     - name: Deploy
@@ -133,3 +133,54 @@ jobs:
         ssh_options: ''
         src: 'website/build/AvoDocs/'
         dest: 'web@51.104.240.248:/var/www/html/manuals/titan/'
+
+  download:
+    name: Versions Page
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Wait for build to finish
+        uses: fountainhead/action-wait-for-check@v1.0.0
+        id: pdf
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          checkName: pdf
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          timeoutSeconds: 1800
+
+      - name: npm install & build
+        run: |
+          cd website
+          npm install
+          npm run download
+          npm run build
+
+      - name: Deploy
+        uses: Pendect/action-rsyncer@v1.1.0
+        env:
+          DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
+        with:
+          flags: '-avzr --delete'
+          options: ''
+          ssh_options: ''
+          src: 'website/build/AvoDocs/'
+          dest: 'root@176.58.122.97:/var/www/sites/avodocs/'
+
+      - name: AvoDeploy
+        uses: Pendect/action-rsyncer@v1.1.0
+        env:
+          DEPLOY_KEY: ${{secrets.AVO_DEPLOY_KEY}}
+        with:
+          flags: '-avzr --delete'
+          options: ''
+          ssh_options: ''
+          src: 'website/build/AvoDocs/'
+          dest: 'web@51.104.240.248:/var/www/html/manuals/titan/'

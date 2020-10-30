@@ -123,7 +123,7 @@ may vary depending on the particular effect but may include:
 
 - Spawn Random *(adds a random factor to the spawn rate)*
 
-- Spawn For *(sets how many elements will be spawned, after this no mor
+- Spawn For *(sets how many elements will be spawned, after this no more
 will appear)*
 
 - Run For / And Then *(for each element, sets how many cycles it runs for,
@@ -148,7 +148,7 @@ Some points about animations:
     **reset** button on the top right of the Effect Editor window.\
     ![Effect Editor - Pixel Mapper - Reset Button](/docs/images/Effect-Editor-Pixel-Mapper-Reset-Button.png)
 
--   For an effect with a **start point** and **end poin**t, the number of cycles
+-   For an effect with a **start point** and **end point**, the number of cycles
     is the number of times it goes between the start and end points. For
     an effect with no end point the number of cycles is based on the
     master clock and animation speed.

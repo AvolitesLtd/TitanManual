@@ -13,19 +13,19 @@ On a console with motorised faders, the faders for the killed playbacks will
 return to zero. Otherwise the LED in the playback’s select button will go 
 out to show that the playback is now inactive.
 
-Creating a playback group
+Creating a Playback Group
 -------------------------
 
-First open the Playback Groups workspace by pressing \[Open Workspace Window\] 
-then use the \[Next\] button (or text search box) to select \[Playback Groups\].
+First open the Playback Groups workspace by double pressing \<View/Open\> then press \[Playback Groups\]
+from the window select buttons.
 
 ![Empty playback groups workspace](/docs/images/Empty-playback-groups-workspace.png)
 
-1.	Press the + button. This creates a new empty playback group in the left pane.
+1.	Press the \{+\} button. This creates a new empty playback group in the left pane.
 
 2.	Press the new group button (if this is your first group it will be \[Playback Group 1\])
 
-3.	Press the Pencil/edit button at the bottom right of the window to place the group into edit mode.
+3.	Press the \{Pencil\} button at the bottom right of the window to place the group into edit mode.
 
 4.	Select the playbacks to include in the group by pressing their select buttons once. 
 The playbacks will appear in the workspace as you select them.
@@ -50,11 +50,11 @@ The playbacks will appear in the workspace as you select them.
 > When a playback is part of a group, an asterisk \* is shown at the end of the 
 playback legend to help you remember which playbacks are in groups.
 
-Editing which playbacks are in a playback group
+Editing Which Playbacks are in a Playback Group
 ----------------------------------------------
 
 From the Playback Groups workspace, select the group to be edited on the left then 
-press the pencil/edit button bottom right to edit it.
+press the \{Pencil\} button bottom right to edit it.
 
 The playbacks in the group highlight and you can toggle them in and out of the group 
 using their select buttons.
@@ -62,9 +62,10 @@ using their select buttons.
 There are also softkeys to set the User Number and Legend for the group.
 
 - To delete the entire playback group, press \<Delete\> then the group button in the left 
-hand pane of the workspace.
+hand pane of the workspace. To confirm click the group button again, or click \[Confirm\]
+or press \<Enter\>.
 
-Playback Group options
+Playback Group Options
 ----------------------
 
 For each group you can set how playbacks in the group will behave. From the Playback 
@@ -87,10 +88,10 @@ at the bottom of the workspace.
 - **Release Mask**, **Release Time** allow you to override the release settings for killed playbacks. 
   If set to the default of \[Playback\] then the playback’s own settings are used. 
 
-Playback Group workspace display options
+Playback Group Workspace Display Options
 ----------------------------------------
 
-Using the workspace options menu (cog button at the top of the window) you can set three 
+Using the workspace options menu (\{Cog\} button at the top of the window) you can set three 
 different display modes for the Playback Groups workspace:
 
 \[View Mode All\] – 2 panes with group buttons on the left and all the playbacks in each group shown on the right
@@ -104,4 +105,3 @@ different display modes for the Playback Groups workspace:
 \[View Mode Playbacks Only\] – Single pane with just the playbacks for each group shown.
 
 ![Playback groups display mode 3](/docs/images/Playback-groups-display-mode-3.png)
-

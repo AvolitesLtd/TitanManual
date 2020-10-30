@@ -70,7 +70,7 @@ triggered.
 6. Now you need to set up the external stimulus which will cause the
 trigger. Select \[Trigger Type\] as DMX, MIDI or Audio. For DMX, press
 \[DMX Port\] to select which DMX port you are using for DMX input. You
-will need to switch the DMX port to Rx mode using the menu option
+will need to switch the DMX port to RX mode using the menu option
 provided.
 
 7. Generate the stimulus from your device (for example play the MIDI
@@ -104,7 +104,7 @@ at the bottom of the left hand column.
 
 This is how to set up a MIDI fader controller to act as playback faders
 on T2. Ensure your MIDI device is connected and recognised by Windows
-(you can use a utlity such as Midi-OX to test it).
+(you can use a utility such as Midi-OX to test it).
 
 1. Enter System mode and select \[Triggers\].
 

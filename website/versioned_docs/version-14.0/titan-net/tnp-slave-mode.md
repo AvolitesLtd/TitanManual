@@ -16,21 +16,24 @@ Setup
 -----
 
 The setup screen allows you to configure network port settings, and node
-settings for the overall device by touching "Network Settings" or "Node
-Settings".
+settings for the overall device by tapping \[Network Settings\] or \[Node
+Settings\].
 
-For **Network Settings** you first select which Ethernet port you want
-to configure
+### Network Settings
 
-![TNP - Setup - Network Settings Screen](/docs/images/TNP-Setup-Network-Settings-Screen.png)
+To edit the TNP's network settings:
 
+1. Select which **Ethernet** port you want to configure\
+  ![TNP - Setup - Network Settings Screen](/docs/images/TNP-Setup-Network-Settings-Screen.png)
+
+2. You can then enable or disable DHCP, set IP address and Subnet mask
+using the number buttons, or set a fixed (automatically generated)
+`2.*.*.*` or `10.*.*.*` IP address.\
 ![TNP - Setup - Network Settings - IP Settings Screen](/docs/images/TNP-Setup-Network-Settings-IP-Settings-Screen.png)
 
-You can then enable or disable DHCP, set IP address and Subnet mask
-using the number buttons, or set a fixed (automatically generated)
-2.\*.\*.\* or 10.\*.\*.\* IP address.
+3. Tap \[Save Settings\] button to store the changes.
 
-Touch the "Save Settings" button to store your changes.
+### Node Settings
 
 For **Node Settings** you can change the legend of the device and the
 line colour. This is shown on the top line of the device and on all
@@ -56,5 +59,4 @@ allows you to monitor the processing load of the device. You can select
 to monitor either cycle time or render time.
 
 ![TNP - Tools - Monitor - Cycle Time Screen](/docs/images/TNP-Tools-Monitor-Cycle-Time-Screen.png)
-
 

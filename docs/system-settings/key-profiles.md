@@ -24,7 +24,7 @@ related to each playback fader.
 
 [](https://youtu.be/CxHQV4sP_sA?t=20 "Key Profiles")
 
-To create or edit a profile, switch to System mode then select \[Key
+To create or edit a profile, go to the **System** menu (press \<Avo\> + \<Disk\>) then select \[Key
 Profiles\]. You can then use the Manage Profiles menu to View, Edit,
 Add, Delete or Rename profiles.
 
@@ -42,10 +42,11 @@ then selecting \[Edit Current Key Profile\]. If the current key profile
 is one of the non-editable system ones, you are prompted to add a new
 profile or select an existing editable profile.
 
-The current actions for the Black, Blue, Grey and Touch buttons are
+The current actions for the Black, Blue, Grey and Touch/Executor buttons are
 shown on the left side of the screen. Once you select a key type from
 the menu, the screen shows actions available for that type of button.
-Only the Sapphire Touch has black buttons.
+Only the Sapphire Touch has Black buttons, but Virtual Black buttons
+can be used with the faders in the Virtual Fader window.
 
 ![Editing a Key Profile](/docs/images/Editing-a-Key-Profile.png)
 
@@ -66,30 +67,33 @@ the fader to 0.
 ### Groups
 The blue, grey or touch key can be allocated to **Disabled**,
 **Select Group**, **Flash Fixtures**, **Timed Flash**, **Flash Master**, **Timed Flash
-Master**, **Swop Fixtures**.
+Master**, **Swop Fixtures** - see [Fixture Groups](../controlling-fixtures/fixture-groups.md)
+for more details.
 
-You can select if the group function takes
-precedence over the flash function (if a handle has both group and flash
-functions) or vice versa.
+>   The option **Group/Flash takes precedence** only applies to the Pearl Expert
+    where it is possible to program a playback on a fader handle and use its
+    flash button as group selector.
 
 ### Palettes
 
-> Only effective on Pearl Expert.
+The palette key or touch button can be allocated to **Disabled** or **Select Palette**.
 
-The palette (grey) key can
-be allocated to **Disabled** or **Select Palette**. You can select if the
-palette function takes precedence over the flash function (if a handle
-has both palette and flash functions) or vice versa.
+With **Palette is fired ignoring/with its times** you select whether to take palette
+times into account when selecting a palette, see [Timed Palettes](../palettes/timing-with-palettes.md).
+This setting is particularly useful when [Busking with palettes](../running-the-show/playback-controls.md#busking-with-palettes).
+
+>   The option **Palette/Flash takes precedence** only applies to the Pearl Expert
+    where it is possible to program a playback on a fader handle and use its
+    flash button as palette selector.
 
 ### Cues
 
-The blue or grey key can be allocated to **Disabled**, **Flash**,
-**Swop**, **Latch**, **Preload**, **Go**.
+Keys and buttons can be allocated to **Disabled**, **Flash**, **Timed Flash**, 
+**Swop**, **Latch**, **Preload**, **Go**, **Tap Tempo**, **Release**, **Select If**.
 
 ### Chases
-
-The blue or grey key can be allocated to **Disabled**, **Flash**,
-**Swop**, **Latch**, **Go**, **Stop**, **Preload**, **Connect**, **Tap Tempo**.
+Keys and buttons can be allocated to **Disabled**, **Flash**, **Timed Flash**,
+**Swop**, **Latch**, **Go**, **Stop**, **Preload**, **Connect**, **Tap Tempo**, **Release**, **Select If**.
 
 ### Cue Lists
 
@@ -107,20 +111,23 @@ Latch | *As Flash*, but dimmers will remain active until button pressed again
 Go | Cue list will advance to next cue using times
 Stop | Stops all fades in the cue list at their current point
 Preload | LTP channels of non-illuminated fixtures will move to positions in next cue
-Connect | Connects this cue list to controls *(same as pressing \<Connect\> then select button of cue list)*
+Connect | Connects this cue list to controls *(same as pressing \<Connect/Cue\> then select button of cue list)*
 Tap Tempo | Set speed parameter by tapping the button
 Next Cue - | Press repeatedly to select the next cue to be output, going backwards
 Next Cue + | Press repeatedly to select next cue to output, going forwards
 Review Live Cue | Replays the current cue using fade times
-Cut Next Cue to Live | Output the cue as selected using above
+Cut Next Cue to Live | Fire the next cue ignoring its times
 Snap Back | Cue list will snap back to previous cue without times
 Go Back | Cue list will go back to previous cue using fade times
 Release | Release the playback using programmed release time
 Select If | Press to select all fixtures used in the current cue
 
 ### Macros
-Can be set to **Select** or **Prefer Macro** (the Macro function
-will take precedence over other functions stored on the button).
+Can be set to **Select** or **Disabled**.
+
+>   The option **Macro/Flash takes precedence** only applies to the Pearl Expert
+    where it is possible to program a playback on a fader handle and use its
+    flash button as macro selector.
 
 ### Options
 
@@ -129,24 +136,29 @@ on empty handles).
 
 ### Masters
 
-This is divided into Standard Masters and Scene Master.
+You can set different button options for \[Standard Masters\] and \[Scene Master\].
 
-For Standard Masters the options are **Disabled**, **Selection**, **Flash**, **Latch**, **Tap
-Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, **Multiplier x2**,
-**Freeze**, **Connect**.
+For Standard Masters the options are **Disabled**, **Selection**, **Flash**, **Latch**, 
+**Connect**, **Tap Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, 
+**Multiplier x2**, **Freeze**.
 
-These last options are for rate and BPM masters, see
-the [BPM Master Options](../running-the-show/playback-controls.md#bpm-master-options). Freeze can be useful to temporarily pause
+Some of these options only operate with particular types of master - the Multiplier options
+are only for BPM masters, see
+the [BPM Master Options](../running-the-show/playback-controls.md#bpm-master-options). 
+Freeze can be useful to temporarily pause
 shapes or chases, or does a blackout if used with an intensity master.
 
-For Scene Master the options are **Disabled**, **Exit scene mode**, **Enter scene
-mode**, **Commit changes**, **Commit changes and exit scene mode**, **Enter or Exit
-scene mode**, **Enter or commit scene mode**.
+For Scene Master the options are **Disabled**, **Preload Scene Mode**, 
+**Exit Scene Mode**, **Enter Scene Mode**, **Commit Changes**, 
+**Commit Changes and Exit Scene Mode**, **Enter or Exit Scene Mode**, 
+**Enter or Commit Scene Mode**,**Reset Scene Mode**. See 
+[Scene Master](../running-the-show/playback-controls.md/#scene-master).
 
-## Selecting a Key Profile
+## Changing the Key Profile
 
-To quickly select a Key Profile, hold the \<Avo\> Shift button and press
-\[Select Key Profile\].
+To quickly change the Key Profile, hold the \<Avo\> button and press
+\[Select Key Profile\]. This changes the global Key Profile used for all handles,
+unless they have an individual Key Profile set as described below.
 
 ## Individual Key Profiles for playbacks
 
