@@ -177,6 +177,10 @@
         "title": "Einen Cue verwenden",
         "sidebar_label": "Einen Cue verwenden"
       },
+      "cues/cue-playback": {
+        "title": "Einen Cue verwenden",
+        "sidebar_label": "Einen Cue verwenden"
+      },
       "effects": {
         "title": "Shapes und Effekte",
         "sidebar_label": "Shapes und Effekte"
@@ -282,8 +286,8 @@
         "sidebar_label": "Erweiterte Funktionen"
       },
       "patching/patching-new-fixtures-or-dimmers": {
-        "title": "Neue Geräte oder Dimmer patchen",
-        "sidebar_label": "Neue Geräte oder Dimmer patchen"
+        "title": "Geräte und Dimmer patchen",
+        "sidebar_label": "Geräte und Dimmer patchen"
       },
       "quick-start": {
         "title": "Schnellstartanleitung",
@@ -1138,8 +1142,8 @@
         "sidebar_label": "Netzwerkanschlüsse beim Arena"
       },
       "version-13.0-networking/controlling-fixtures-over-a-network": {
-        "title": "Netzwerkanschlüsse beim Arena",
-        "sidebar_label": "Netzwerkanschlüsse beim Arena"
+        "title": "Steuern von Geräten über Netzwerk",
+        "sidebar_label": "Steuern von Geräten über Netzwerk"
       },
       "version-13.0-networking/using-active-fixtures": {
         "title": "Verwenden von Geräten mit CITP",
@@ -1190,8 +1194,8 @@
         "sidebar_label": "Erweiterte Funktionen"
       },
       "version-13.0-patching/patching-new-fixtures-or-dimmers": {
-        "title": "Neue Geräte oder Dimmer patchen",
-        "sidebar_label": "Neue Geräte oder Dimmer patchen"
+        "title": "Geräte und Dimmer patchen",
+        "sidebar_label": "Geräte und Dimmer patchen"
       },
       "version-13.0-remote-control": {
         "title": "Fernsteuerung",
@@ -1497,6 +1501,10 @@
         "title": "Erstellen eines Cues",
         "sidebar_label": "Erstellen eines Cues"
       },
+      "version-14.0-cues/cue-playback": {
+        "title": "Abrufen eines Cues",
+        "sidebar_label": "Abrufen eines Cues"
+      },
       "version-14.0-cues/cue-timing": {
         "title": "Zeiten für Cues",
         "sidebar_label": "Zeiten für Cues"
@@ -1512,10 +1520,6 @@
       "version-14.0-cues/playback-options": {
         "title": "Playback-Optionen",
         "sidebar_label": "Playback-Optionen"
-      },
-      "version-14.0-cues/using-a-cue": {
-        "title": "Abrufen eines Cues",
-        "sidebar_label": "Abrufen eines Cues"
       },
       "version-14.0-effects": {
         "title": "Effekte",
@@ -1586,8 +1590,8 @@
         "sidebar_label": "Paletten kopieren, verschieben oder löschen"
       },
       "version-14.0-palettes/creating-palettes": {
-        "title": "Creating Palettes",
-        "sidebar_label": "Creating Palettes"
+        "title": "Erstellen von Paletten",
+        "sidebar_label": "Erstellen von Paletten"
       },
       "version-14.0-palettes/editing-palettes": {
         "title": "Editieren von Paletten",
@@ -1622,8 +1626,8 @@
         "sidebar_label": "Erweiterte Funktionen"
       },
       "version-14.0-patching/patching-new-fixtures-or-dimmers": {
-        "title": "Neue Geräte oder Dimmer patchen",
-        "sidebar_label": "Neue Geräte oder Dimmer patchen"
+        "title": "Geräte und Dimmer patchen",
+        "sidebar_label": "Geräte und Dimmer patchen"
       },
       "version-14.0-quick-start": {
         "title": "Schnellstartanleitung",
@@ -1690,8 +1694,8 @@
         "sidebar_label": "Das Fenster Set-Liste"
       },
       "version-14.0-running-the-show/using-multiple-on-screen-workspaces": {
-        "title": "Using multiple on-screen workspaces",
-        "sidebar_label": "Using multiple on-screen workspaces"
+        "title": "Workspaces - Arbeitsumgebungen",
+        "sidebar_label": "Workspaces - Arbeitsumgebungen"
       },
       "version-14.0-synergy": {
         "title": "Synergy und Verbinden mit Ai",

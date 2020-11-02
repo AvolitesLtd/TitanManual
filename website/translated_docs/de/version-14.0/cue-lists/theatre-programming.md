@@ -5,282 +5,156 @@ sidebar_label: Theatre Programming
 original_id: theatre-programming
 ---
 
-If you are used to programming other theatre-style consoles, you will be
-more familiar with using a keypad/syntax style interface, rather than the Titan
-touchscreen. But fear not because you can program a theatre show on
-Titan using the keypad and this is how you do it.
+Wenn Sie bereits mit anderen Theater-Lichtpulten gearbeitet haben, sind
+Sie vermutlich eher an das Arbeiten mit Tasten, Nummern und Befehlen als
+an Touchscreens wie bei Titan gewöhnt. Aber keine Angst: auch bei Titan
+lässt sich eine Show mit Tasten, Nummern und Befehlen programmieren und
+fahren.
 
-Labelled buttons on the console are shown like this: \<Enter\>. The
-\<Cue\> button is labelled \<Connect\> on some consoles. The \<@\>
-button is the one next to the numeric keypad.
+-	'Richtige' Tasten mit Beschriftungen sind hier als graues Rechteck
+	gezeigt, wie z.B. \<Enter\>. 
+-	Die \<@\>-Taste ist die direkt bei den Zifferntasten.
+-	Die \<Cue\>-Taste heißt auf manchen älteren Pulten noch \<Connect\> oder \<Connect\/Cue\>. 
+-	Die \<Thru\>-Taste heißt auf manchen älteren Pulten noch \<Through\>.
+- 	Die Tasten \<And\> und \<Thru\> gibt es auf manchen Pulten nicht als
+	'richtige' Taste, sondern als Funktionstaste \[And\] bzw. \[Through\].
 
-Dimmers/Fixtures have a User Number *(which is equivalent to the Channel
-Number on other consoles)*, shown in the top left corner of the fixture
-button. This is the number **"n"** shown in the keypad commands below. You can
-change this number using the \[Set Legend\] softkey, see section [Changing the Patch](../patching/changing-the-patch.md#setting-legends).
-Groups also have a User Number.
+Dimmer und andere Geräte haben eine User Number (Benutzer-Nummer) (*entspricht  der Channel Number auf anderen Pulten*). Diese wird links oben
+in der jeweiligen Schaltfläche angezeigt. In den hier aufgeführten
+Befehlen wird die Nummer als **n** dargestellt. Die User Number lässt sich
+über das Menü \[Set Legend\] ändern, siehe [Legende eingeben](../patching/changing-the-patch.md#legendenbezeichnungen-eingeben). Auch Gruppen
+haben jeweils eine User Number.
 
 ![Fixtures Window showing user numbers](/docs/images/Fixtures-Window-showing-user-numbers.png)
 
-## Setting Dimmer/Fixture Levels
+## Dimmerwerte setzen
+
+Tasten | Ergebnis
+---- | ----
+**n** \<@\> \<@\> | Dimmer/Gerät **n** auf 100%
+**n** \<@\> **v** \<Enter\> | Dimmer/Gerät **n** auf **v%** *(v ist 2-stellig    einzugeben, also z.B. "50" für 50%)*
+**n** \<Thru\> **m** \<@\> **v** \<Enter\> | Dimmer/Geräte **n** bis **m** auf **v%**
+**n** \<And\> **m** \<And\> **p** \<@\> **v** \<Enter\> | Dimmer/Geräte **n**, **m**, **p** auf **v%**
+\<Group\> **n** \<@\> **v** \<Enter\> | Dimmer/Geräte in Gruppe **n** auf **v%**
+\<Clear\> | Sofortiges Release der editierten Kanäle auf den programmierten Status (*wie Cheat auf ETC-Pulten*)
+**t** \<Clear\> | Release der editierten Kanäle in **t** Sekunden
+
+
+## Andere Parameter bei Movinglights etc. einstellen
+
+-   Die Geräte können mit den Tasten wie folgt angewählt werden:
+
+    Tasten | Ergebnis
+    ---- | ----
+    **n** \<Enter\> | Gerät **n**
+    **n** \<Thru\> **m** \<Enter\> | Geräte **n** bis **m**
+    \<Group\> **n** \<Enter\> | Geräte der Gruppe **n**
+
+
+-   Wählen Sie nun die  gewünschte Attributbank, z.B. \<Colour\>, \<Gobo\> etc.
+    Die jeweilige Funktion der Wheels wird unten rechts im Bildschirm
+    angezeigt. Gibt es mehrere Parameter pro Attributbank, z.B. Gobo1,
+    Gobo2, jeweils mit Rotation etc., dann kann man mit wiederholtem
+    Drücken der Attributbank-Taste durchschalten (hier also mehrfach auf
+    \<Gobo\>).
+
+-   Mit den Encoderrädern stellen Sie die gewünschten Werte ein. Alternativ drückt
+    man die blaue \<@\>-Taste bei einem Wheel und kann den Wert mit den
+    Zifferntasten eingeben.
+
+## Programmieren von Cues
+
+Titan kann mehrere Cuelisten parallel laufen lassen. Zum Programmieren
+einer Cueliste drückt man auf \<Record\> und wählt im Menü \[Create Cue
+List\]. Dann drückt man die **Auswahltaste** bei einem Fader, um dort die
+Cueliste zu speichern.
+
+Titan speichert normalerweise nur die Dimmer/Geräte, die seit dem
+letzten Betätigen von \<Clear\> geändert wurden, und nur, wenn sich
+gegenüber dem vorigen Cue Änderungen ergeben. Sind dagegen andere
+Playbacks aktiv, werden diese nicht mit in den Cue gespeichert. Will man
+doch alles, also alle Dimmer/Geräte, die gerade über 0% sind, speichern,
+so wechselt man den Speichermodus \[Record Mode\] auf "Record by Stage" (siehe [Erstellen eines Cues](../cues/creating-a-cue.md#anlegen-eines-cues)).
+
+Tasten | Ergebnis
+-------|---------
+\<Record\> {blaue Playbacktaste} {blaue Playbacktaste} | speichert den nächsten Cue an das Ende dieser Cueliste
+\<Record\> \<Cue\> **n** \<Enter\> | Speichert Cue **n** (existiert bereits ein solcher Cue, erfolgt eine Rückfrage zum Mergen/Überschreiben)
+\<Time\> **t** \<Enter\> | Setzen der Fadezeit im Programmer (wird in nachfolgend gespeicherte Cues übernommen; bereits angelegte Cues  bleiben unbeeinflusst)
+\<Cue\> **n** \<Time\> **t** \<Enter\> | Setzt Fadezeit für Cue **n** auf **t** Sekunden
+\<Delete\> \<Cue\> **n** \<Enter\> \<Enter\> | Löscht Cue **n** (2. \<Enter\> bestätigt)
+\<Copy\> \<Cue\> **n** \<@\> \<Cue\> **m** \<Enter\> | Kopieren von Cue **n** in neuen Cue **m**
+\<Copy\> \<Cue\> **n** \<@\> \<Enter\> | Kopieren von Cue **n** an das Ende der Cueliste
+\<View/Open\> {blaue Playbacktaste} | Azeige der Cues der Liste in tabellarischer Form. Änderungen können direkt durch Anklicken erfolgen.
+
+-	Mit \<Move\> (statt Copy) können Cues verschoben werden.\
+	Verfügt das Pult über keine Move-Taste, drücken Sie \<Avo\> und \<Copy\>.
+
+- 	Mehrere Cues auf einmal lassen sich mit den Tasten \<Thru\>, \<And\> 
+	und \[Not\] auswählen. Um z.B. die Cues 3, 4 ,5 ,7, 10 zu kopieren und 
+	ab Cue 20 einzufügen, drücken Sie \
+	\<Copy\> {blaue Playbacktaste} **3** \<Thru\> **7** \[Not\] **6** \<And\> **10** \<@\> **20** \<Enter\>.
+
+-	Zum Erstellen eines Block-Cues (Änderungen werden nicht getrackt) öffnet
+	man die Cueliste wie beschrieben, klickt in der Spalte 'Tracking' auf
+	die Zelle des entsprechenden Cues und wählt \[Block\] mit den
+	Menütasten.
+
+-	Um Cues [miteinander zu verlinken](cue-list-timing.md#schrittfolge-und-versatz), 	klickt man auf die entsprechende Zelle
+	der Spalte ‚Link' (dort steht normalerweise ‚Wait For Go'). Dann kann
+	man mit den Menütasten auf \[Link After Previous Cue\] oder \[Link With
+	Previous Cue\]. Für 'Link After...' bestimmt dann der Wert für 'Delay
+	Out', wie lange nach dem vorigen der neue Cue automatisch startet.
+
+## Cues und Cuelisten abfahren
+
+Schiebt man den Fader einer Cueliste hoch, so wird sie mit der Steuerung
+verbunden *("connected")* und kann z.B. mit der \<Go\>-Taste gesteuert werden.
+
+Weitere Möglichkeiten zur Steuerung (Auswahl):
+
+Tasten | Ergebnis
+-------|---------
+\<Cue\> **{blaue Playbacktaste}** | Verbinden einer anderen Cueliste
+\<Go\> | Nächster Cue wird mit den programmierten Zeiten eingeblendet
+\<Cue\> **n** \<Go\> | Cue n wird mit den programmierten Zeiten eingeblendet
+**t** \<Go\> | Nächster Cue wird in **t** Sekunden eingeblendet
+**n** \<Cue\> **t** \<Go\> | Cue **n** wird in **t** Sekunden eingeblendet
+
+-	Sollen Movinglights bereits im Off auf Position, in Gobo oder Farbe
+	fahren, aktivieren Sie die Funktion [\[Move In Dark\]](cue-list-options.md#move-in-dark).
+
+## Cues live editieren
+
+Oft müssen Änderugnen an bereits programmierten Cues vorgenommen werden,
+während diese gerade live sind. Es empfiehlt sich, \<Clear\> zu drücken,
+um nicht versehentlich unerwünschte Werte mit zu speichern.
 
-````xml
-n <@> <@>
-````
+Tasten | Ergebnis
+-------|---------
+\<Record\> \<Cue\> \<Cue\> | Speichern der aktuell eingestellten Werte in den aktuellen Cue
+\<Time\> **t** \<Enter\> \<Record\> \<Cue\> \<Cue\> | Speichern der Fadezeit **t** in den aktuellen Cue
 
-Set fixture **n** to 100%
+- 	Eine andere Möglichkeit ist, die Cueliste mit \<View\> zu öffnen
+    und dort die Änderungen vorzunehmen.
 
----
 
-````xml
-n <@> v <Enter>
-````
-
-Set fixture **n** to **v%** *(you need to enter 2 digits so "50" for 50%)*
-
----
-
-````xml
-n <Thro> m <@> v <Enter>
-````
-
-Set fixtures **n - m** to **v%**
-
----
-
-````xml
-n <And> m <And> p <@> v <Enter>
-````
-
-Set fixtures **n**, **m**, **p** to **v%**
-
----
-
-````xml
-<Group> n <@> v <Enter>
-````
-
-Set fixtures in group **n** to **v%**
-
----
-
-````xml
-<Clear>
-````
-
-Snap release edited channels back to programmed state -
-*like Cheat on ETC*
-
----
-
-````xml
-t <Clear>
-````
-
-Release edited channels fading over time **t**
-
-## Setting Other Attributes of Intelligent Fixtures
-
-Select fixtures for control using
-````xml
-n <Enter>
-
-n <Thro> m <Enter>
-
-<Group> n <Enter>
-````
-
--   Press one of the **Attribute Bank buttons** \<Colour\> \<Gobo\> etc. The
-    current function of the wheels is shown bottom right on the screen.
-    Press the same Attribute Bank again to page through different
-    attributes *e.g. if there are 2 gobo wheels keep pressing \<Gobo\> to
-    access the other attributes*.
-
--   Use the **wheels** to set the value. Or press the \<@\> button next to
-    the wheel and type in a value on the keypad.
-
-## Programming Cues
-
-Titan can have multiple cue lists. To start a cue list press \<Record\>
-then select \[Create Cue List\] from the touch screen. Then press a **blue**
-button above the fader where you want to store the cue list.
-
-Titan will record into the cue only the dimmers/fixtures you have changed
-since you last pressed \<Clear\>, and that have changed from the
-previous cue *(so if you put up another playback, that won't get
-recorded)*. To record everything with intensity above zero, switch
-\[Record Mode\] to "Record by Stage" (see [Creating a Cue](../cues/creating-a-cue.md#creating-a-cue)).
-
----
-
-````xml
-<Record> {blue fader button} {blue fader button}
-````
-
-Record the next cue onto the end of the cue list on this fader
-
----
-
-````xml
-<Record> <Cue> n <Enter>
-````
-
-Record cue **n** *(will prompt for merge/overwrite if it exists already)*
-
----
-
-````xml
-<Time> t <Enter>
-````
-
-Set fade time into programmer *(does not
-affect stored cues; will save with the cue when you record it)*
-
----
-
-````xml
-<Cue> n <Time> t <Enter>
-````
-
-Set fade time of cue **n** to **t** seconds
-
----
-
-````xml
-<Delete> <Cue> n <Enter> <Enter>
-````
-
-Delete cue **n** *(2^nd^ \<Enter\> confirms)*
-
----
-
-````xml
-<Copy> <Cue> n <@> <Cue> m <Enter>
-````
-
-Copy cue **n** to new cue **m**
-
----
-
-````xml
-<Copy> <Cue> n <@> <Enter>
-````
-
-Copy cue **n** onto the end of the cue list
-
-> Can also use \<Move\> to move cues, and \<Thro\>, \<And\> to change
-multiple cues
-
----
-
-You can show the list of cues on screen, click on individual times to
-edit them:
-
-````xml
-<View> {blue fader button}
-````
-
----
-
-To make a **Block** cue (changes do not track), view the cue list as above,
-in the Tracking column click the cell for the cue you want to change and
-select \[Block\] from the softkeys.
-
----
-
-To [link cues](cue-list-timing.md#cue-linking--link-offset), the easiest way is on the screen. Click on the "Link" cell
-(which normally shows "Wait For Go". Then select from the softkeys
-\[Link After Previous Cue\] or \[Link With Previous Cue\]. For Link
-After, set the "Delay Out" time to set how long the cue will remain
-before the next cue starts.
-
-## Running Cues
-
-Push up the fader of the cue list to make it active *("connected")*.
-
----
-
-````xml
-<Cue> {blue button}
-````
-
-If another cue list is active, connect this cue
-list as the current list
-
----
-
-````xml
-<Go>
-````
-Run next cue with programmed times
-
----
-
-````xml
-<Cue> n <Go>
-````
-Go cue **n** with programmed times
-
----
-
-````xml
-t <Go>
-````
-Next cue go with fade time **t**
-
----
-
-````xml
-n <Cue> t <Go>
-````
-Jump to cue **n** with fade time **t**
-
----
-
-> If you want moving fixtures to automatically position themselves ready
-for the next cue, enable the \[Move In Dark\] option, see previous
-section. This is Off by default.
-
-## Editing Cues While Running
-
-Often you need to make changes to cues while the cue is active in a
-running show. Press \<Clear\> before you make changes to be sure that
-the programmer does not contain any previous changes.
-
----
-
-````xml
-<Record> <Cue> <Cue>
-````
-Update current cue by merging programmer
-
----
-
-````xml
-<Time> t <Enter>, <Record> <Cue> <Cue>
-````
-Set fade in time of current cue
-
-> It is probably easier to use \<View\> and click on the time on
-    screen to edit it
-
-## Effects/Shapes
+## Shapes und Effekte
 
 You can't select Effects/Shapes from the keypad on Titan, but it's still
 easy:
 
-1. Select fixtures for control
+1.   Zu steuernde Geräte wählen
 
-2. At the top level menu press \[Shapes and Effects\], \[Shape
-    Generator\], \[Create\]
+2.   Im Hauptmenü drückt man \[Shapes and Effects\], \[Shape Generator\],
+    \[Create\]
 
-3. Select the type of shape \[Dimmer\], \[Pan/Tilt\] etc
+3.   Den gewünschten Shape-Typ wählen, z.B. \[Dimmer\], \[Pan/Tilt\] etc.
 
-4. Select a shape from the softkeys *or from the Shapes window which
-    appears*
+4.   Den gewünschten Shape wählen (Menütasten oder Shapes-Fenster)
 
-5. Set the *Speed*, *Size*, *Spread* using the wheels
+5.   Speed, Size, Spread mit den Wheels einstellen
 
-Shapes will record into cues, and will track through subsequent cues
-while they are active in the programmer, until you stop them by pressing
-\<Clear\>.
+Shapes können ganz normal in Cues gespeichert werden und tracken in
+folgende Cues. Das Shape-Tracking lässt sich In der Playbacks-Ansicht sowie
+in den Playback-Optionen getrennt deaktivieren.

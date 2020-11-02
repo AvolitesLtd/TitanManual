@@ -5,195 +5,133 @@ sidebar_label: Controlling Fixtures over a Network
 original_id: controlling-fixtures-over-a-network
 ---
 
-Before the console can talk to another device over the network, it has
-to be given a unique network address. This is called its "IP address".
+Bevor das Pult mit anderen Geräten über ein Netzwerk kommunizieren kann,
+muss es eine eindeutige Netzwerkadresse bekommen; diese wird
+'IP-Adresse' genannt.
 
-Setting the console's IP address
---------------------------------
+Einstellen der IP-Adresse des Pultes
+------------------------------------
 
-We recommend that you use the console's automatic IP setting function.
-However, if you need to you can also set the IP address using Windows
-Control Panel as shown on page 345.
+Es wird empfohlen, die integrierte Adressvergabe des Pultes zu
+verwenden. Alternativ kann aber auch manuell eine Adresse vergeben werden. 
+Siehe [Einstellen der IP-Adresse](a-quick-guide-to-ip-addressing.md#einstellen-der-ip-adresse) mit 
+Details zur IP-Adressierung.
 
-1. Switch to System mode and press \[Network Settings\]
+1. 	Öffnen Sie das System-Menü (mittels \<Avo\> + \<Disk\>)
+	und drücken Sie	\[Network Settings\].
 
-2. Press \[Local Area Connection\].
+2.	Drücken Sie \[Local Area Connection\]. Manche Pult verfügen über mehrere
+	Netzwerkanschlüsse - wählen Sie also hier den betreffenden aus.
 
-3. Press \[Subnet Mask\] and ensure it is set to `255.255.255.0`
+3.	Überprüfen Sie, dass \[Subnet Mask\] auf `255.255.255.0` steht.
 
-4. Press \[Set IP `2.\*.\*.\*\`]
+4.	Drücken Sie \[Set IP `2.*.*.*`\].
 
-5. Press \[Save settings\]
+5.	Betätigen Sie \[Save settings\].
 
-6. \<Exit\> system mode.
+6.	Verlassen Sie das System-Menü mit \<Exit\>.
 
--   Some equipment may operate on IP addresses 10.\*.\*.\* (softkey D)
-    -- see later in this chapter for details.
+- 	Einige Geräte haben möglicherweise feste IP-Adressen aus dem 
+	Bereich `2.*.*.*` oder `10.*.*.*` - in diesem Fall muss auch die Adresse 
+	des Pultes in diesem Bereich liegen.
 
--   If you need a non-standard IP address range you can use softkey A.
+-   Benötigen Sie eine Adresse aus einem anderen Adressbereich, so drücken
+	Sie auf \[IP Address = ... \] und geben die Adresse mit den Zifferntasten ein.
 
-Setting up DMX outputs
-----------------------
+Einrichten der DMX-Ausgänge
+---------------------------
 
-The console has 64 DMX output lines, of which the console itself can
-output 16, with further lines available using networked DMX processing
-nodes. The T1 dongle is limited to one DMX line, T2 to two DMX lines The
-lines may be routed to physical DMX sockets and/or to [network nodes](../networking/controlling-fixtures-over-a-network.md).
+Das Pult arbeitet intern mit max. 64 DMX-Universen (16 direkt im Pult,
+bis zu 64 mit TitanNet), die einzeln auf die DMX-Buchsen sowie über
+Netzwerk-Knoten geroutet werden können. Der T1 ist auf ein, der T2 auf
+zwei Universen beschränkt. Die einzelnen Linien können sowohl über die 
+DMX-Anschlüsse als auch [über Netzwerk](../networking/controlling-fixtures-over-a-network.md) ausgegeben werden.
 
-A simple Art-Net system
------------------------
+Die Zuordnung interner DMX-Linien zu Netzwerklinien erfolgt im Menü 
+[DMX Settings](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs).
+Oft wird man einfach Linie 1 auf Netzwerk-Universum 1, Linie 2 auf Universum 2 etc.
+zuweisen, aber mitunter - etwa auf Tour zur Anpassung an das vorhandene
+Netzwerk - sieht das auch ganz anders aus.
 
-There are various different systems for sending lighting control
-information over a network. One of the most widely supported is Art-Net.
+Beispiel für ein einfaches Art-Net-System
+-----------------------------------------
 
-Art-Net is not specific to one range of products, and is recognised and
-implemented by a growing number of manufacturers. Many products (such as
-Dimmers and Moving lights) can accept the Art-Net signal directly, so
-there is no need to convert the signal to DMX. Most people will,
-however, need to output DMX to their equipment and this can be done
-using an Art-Net to DMX converter.
+Es gibt hauptsächlich zwei Systeme zur Übertragung von Licht-Steuersignalen
+über Netzwerk: Art-Net und sACN. Titan unterstützt beide Protokolle. 
+In diesem Abschnitt wird die Einrichtung eines Art-Net-Systems erläutert.
 
-In the following diagram, an Art-Net compliant Console (such as a Titan
-console) is connected via a network hub to an Art-Net compatible dimmer
-and 2 DMX conversion boxes.
+Art-Net ist kein gerätespezifisches Protokoll, sondern wird von einer
+wachsenden Anzahl von Herstellern anerkannt und in immer mehr Produkte
+integriert. Viele Geräte (etwa Dimmer oder Bewegungsscheinwerfer) können
+direkt per Art-Net verbunden werden, so dass kein separater Konverter
+erforderlich ist. Benötigt man hingegen 'normales' DMX, so kann dies
+über spezielle Art-Net-DMX-Konverter (oft als **Node** bezeichnet) 
+realisiert werden.
+
+Im nachstehenden Schema ist exemplarisch ein Art-Net-fähiges Pult (wie
+etwa ein Titan-Pult) über einen Netzwerk-Switch mit einem Art-Net-fähigen
+Dimmer und einem Konverter verbunden.
 
 ![Art Net Explanation
-general](/docs/images/Art-Net-Explanation-general.jpeg)
+general](/docs/images/Art-Net-Explanation-General.jpeg)
 
-Once the system is connected together, the different outputs (or Nodes)
-can be configured.
+Sobald das System entsprechend verkabelt ist, müssen die
+Geräte (Knoten, Nodes) konfiguriert werden.
 
--   The dimmer is given the start address of 200
+-   Am Dimmer stellen Sie die Startadresse 1.001 ein (Universum 1, Adresse 1).
 
--   The 1st DMX box is set to universe 1 and universe 2
+-   Den Konverter/Node stellen Sie so ein, dass er ab Universum 2 arbeitet;
+	handelt es sich z.B. um einen Koverter mit 12 Universen, so wandelt er 
+	die Universen 2 bis 13 von Art-Net zu DMX.
 
--   The 2nd DMX box is also set to universe 1 and universe 2
+Im Menü [DMX Settings](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs) 
+ordnen Sie die internen Linien den verschiedenen Art-Net-Universen (1-256) zu.
+Dabei kann jede interne Linie auf mehrere Art-Net-Universen sowie auch parallel 
+auf die DMX-Ausgänge des Pultes geroutet werden.
 
-The console is then used to set the DMX lines to the Art-Net nodes.
+Ist alles ordnungsgemäß eingerichtet, sollten der Dimmer und der Node als 
+verfügbare Ausgabegeräte auf der linken Seite des DMX-Settings-Fensters 
+auftauchen. Dabei zeigen Sie auch an, welches Universum sie verarbeiten.
 
-It is important to remember:
+Im Beispiel erfolgt die Zuordnung daher wie folgt:
 
--   Each Art-Net to DMX box (or compatible Dimmer, or compatible moving
-    light) is a device,
+-   Klicken Sie links auf das erste Universum des Dimmers, und danach rechts
+	auf Linie 1.
 
--   Each device may have one or more nodes(i.e. the Art-Net to DMX box
-    has 2 nodes, these are the 2 DMX outputs; the dimmer itself is a
-    node),
+-   Klicken Sie links auf das erste Universum des Nodes, und danach rechts
+	auf Linie 2.
 
--   Each node can be set to a Universe (1-256). This universe is
-    equivalent to a 512 channel DMX line
+-   Klicken Sie links auf das zweite Universum des Nodes, und danach rechts
+	auf Linie 3.
 
-You can then specify which console line is assigned to each node. A
-console line can be assigned to multiple nodes (this will duplicate the
-DMX universe), but each node should have only one console line assigned
-to it.
-
-Here, the console assigns the following:
-
--   Line A to Box 1 universe 1 and box 2 universe 1
-
--   Line B to Box 1 universe 2
-
--   Line C to Box 2 universe 2 and the dimmer rack
 
 ![Art Net Explanation Nodes to
 DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.jpeg)
 
-Setting up an Art-Net system
-----------------------------
+Beim Patchen in Titan geben Sie nun dem Dimmer die Adresse 1.001 - 1.024. Geräten 
+auf der ersten Linie des Nodes geben Sie die Adresse 2.001 - 2.512, Geräten 
+auf der zweiten Linie des Nodes geben Sie die Adresse 3.001 - 3.512.
 
-For this example, it is assumed that you will connect the console to an
-Art-Net DMX output box (such as an Artistic License Net-Lynx) via a
-network hub.
+-   Für weitere Art-Net-Einstellungen klicken Sie auf das kleine \{Zahnrad\}
+	beim Art-Net-Modul. Im Abschnitt [Art-Net-Einstellungen](../system-settings/dmx-output-mapping.md#art-net-eigenschaften)
+	werden diese genauer erklärt.
 
-![Art Net Explanation Simple
-System](/docs/images/Art-Net-Explanation-Simple-System.jpeg)Using standard RJ45 ethernet cables,
-attach the devices together.
+Als mögliche Art-Net-Geräte werden ggf. auch \"Unpolled\" oder
+\"Unknown\" angezeigt:
 
--   If you are using a hub/switch as shown above, use straight-through
-    patch cables. If you are directly connecting the console to another
-    Ethernet device you need to use crossover cables.
+-   Unpolled, bzw. 'nicht abgefragt', sind zusätzliche Linien für Geräte
+    mit mehr als 4 Linien: die Art-Net-Spezifikation sieht nur 4
+    Linien vor, die jedes Gerät als verfügbar anzeigen darf, deshalb
+    lassen sich weitere Linien im Pulte eben als 'nicht abgefragt'
+    anzeigen und dann auch normal zuweisen.
 
-Set the Net-Lynx box as follows:
+-   Ein unbekanntes Gerät (unknown) ist hingegen ein Gerät, welches
+    seine Art-Net-Möglichkeiten nicht bekanntmacht; das Pult weiß
+    daher nicht, ob es ein Eingangs- oder Ausgangsknoten ist.
 
--   Subnet Mask = 0
+Weiterführende Informationen zu Art-Net
+---------------------------------------
 
--   DMX A Universe = 1
-
--   DMX B Universe = 2
-
-A lot of Art-Net devices, including the Net-Lynx box, are set to IP
-address 2.x.x.x as default, and can be set to 10.x.x.x using an option
-jumper, so you should check what the setting of your device is.
-
-If your Art-Net devices need to be set to a non-standard IP address,
-then in steps 1 and 2 you need to use Windows Control Panel to set the
-console to that address range instead of 2.x.x.x
-
-With everything connected, start the console.
-
-1. Ensure the console has an IP in the 2.x.x.x range as described at
-the start of the chapter.
-
-2. Switch the console to System and select \[DMX Settings\].
-
-3. The DMX Settings window should open.
-
-4. Select the Art-Net module from the node list in the left hand side
-of the window.
-
-5. Press the small 'i' button to show the node properties. Ensure that
-the correct Network adapter is set (this may not be the Default Adapter)
-
-6. If you wish to turn off the Art-Net output, you can unselect the
-\"Enable DMX output\" option. This will stop the Console from outputting
-Art-Net on any Lines.
-
-7. Art-Net normally only sends Data when it is changed, rather than a
-continuous stream. There are times when it is preferable to send Art-Net
-all the time. to do this, select the \"Continuous Art-Net Data Stream\"
-option.
-
-8. The \"Always broadcast Art-Net\" option enables you to send Art-Net
-to the entire network, rather than a specific IP address.
-
-9. Press the blue → arrow on the Art-Net node to connect it to a DMX
-output line.
-
-10. Select a console DMX line from the right hand side of the window.
-
-11. The DMX line will now be outputting over the selected Art-Net node.
-
-12. Click 'i' on the node you have added to make sure the properties
-are correct. (Problems can be caused if you attach multiple DMX lines to
-a single node.)
-
-13. Make sure that the Universe is set to 1 for Line 1, and 2 for Line 2.  
-Art-Net uses a subnet mask with its universe. For Titan purposes:  
-Titan universes 1 - 16 are subnet mask = 0, Art-Net universes = 1 -- 16
-
-14. You can close the DMX settings window.
-
-The console should now be working correctly.
-
-To remove a node from a DMX line, select the node and click the blue X
-button.
-
-\"Unpolled\" and \"unknown\" devices may appear as Art-Net nodes.
-
--   An unpolled device is a \'rolling extra\' which allows more than 4
-    connections to be made to a particular Art-Net device. The Art-Net
-    specification only allows each device to advertise a max of 4
-    universes so if you need to add more the console has to invent the
-    5th, 6th, etc universes.
-
--   An unknown device is one which doesn't format an Art-Net poll reply
-    properly so the console doesn\'t known if it is an input or output
-    device.
-
-Additional Art-Net Resources
-----------------------------
-
-To find out more information about Art-Net please refer to the Art-Net
-Standard published by [Artistic
-Licence](http://www.artisticlicence.com).
+Für weitere Informationen zum Thema Art-Net ziehen Sie am besten den
+Art-Net-Standard, veröffentlicht von der Firma [Artistic
+Licence](http://www.artisticlicence.com), heran.

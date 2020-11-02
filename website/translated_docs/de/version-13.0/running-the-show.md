@@ -5,7 +5,7 @@ sidebar_label: Running the show
 original_id: running-the-show
 ---
 
-So, it's showtime. This chapter describes the functions of the console
-which are useful when running a show.
+It's Showtime! In diesem Kapitel werden die Funktionen des Pultes
+während des Showablaufs erläutert.
 
 

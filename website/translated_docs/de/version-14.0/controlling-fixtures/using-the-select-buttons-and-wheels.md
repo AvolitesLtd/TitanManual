@@ -29,7 +29,7 @@ Ein paar weitere wissenswerte Dinge:
 
 -   Die Taste \<Locate\> aktiviert die angewählten Geräte weiß (ohne
     Farbe) und in Grundstellung (Pan und Tilt jeweils 50%). Weitere
-    Optionen dazu sind im [nächsten Abschnitt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate) erläutert.
+    Optionen dazu sind im [nächsten Abschnitt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate) erläutert.
 
 -   Um ein Gerät aus der Auswahl zu entfernen, einfach die betreffende
     Auswahltaste erneut betätigen.
@@ -40,7 +40,7 @@ Ein paar weitere wissenswerte Dinge:
 -   Drücken Sie \<Clear\> (rechts vom Zifferntastenblock), um sämtliche
     Geräte aus der Auswahl zu entfernen und sämtliche Änderungen aus dem
     Programmierspeicher zu löschen. Weitere Optionen dazu sind im
-    [nächsten Abschnitt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#clearing-selection) erläutert. 
+    [nächsten Abschnitt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#clear----löschen-der-auswahl) erläutert. 
 
 -   Sobald ein Attribut verändert und wieder eine Auswahltaste betätigt
     wurde, werden sämtliche Geräte aus der Auswahl entfernt, und der
@@ -103,7 +103,8 @@ kurz drückt, sondern gedrückt hält.
 
 > Um schnell zu \'Locaten\', **ohne Pan/Tilt zu verändern**, drücken und halten Sie \<Locate\>, drücken dazu \<Pan/Tilt\> und lassen nun \<Locate\> los.
 
-> Um **nur Pan/Tilt zu locaten**, drücken und halten Sie \<Locate\>, drücken dazu \<Attribute Options\>, drücken dann \<Pan/Tilt\>, und lassen nun \<Locate\> los.
+> Um **nur Pan/Tilt zu locaten**, drücken und halten Sie \<Locate\>, drücken dazu
+\<Options\>  (bzw. \<Attribute Options\> auf älteren Pulten), drücken dann \<Pan/Tilt\>, und lassen nun \<Locate\> los.
 
 
 ### Ändern des Locate-Wertes
@@ -169,7 +170,7 @@ Optionen im Untermenü "Clear Options":
     Geräten mit \<Clear\> auf 0 gesetzt werden sollen oder nicht. (Das
     Tastenprofil der Geräteauswahl lässt sich auf 'Einrasten' (Latch)
     stellen, womit der Dimmerkanal des Gerätes eingeschaltet wird,
-    sobald das Gerät angewählt wird, siehe [Key Profiles](../system-settings/key-profiles.md#creating-and-editing-key-profiles)).
+    sobald das Gerät angewählt wird, siehe [Key Profiles](../system-settings/key-profiles.md)).
 
 -   Mit \[Freeze current values\] lässt sich festlegen, was mit
     LTP-Kanälen (nicht Helligkeit) geschieht, deren Wert modifiziert
@@ -187,7 +188,7 @@ Optionen im Untermenü "Clear Options":
     Programmierspeicher gelöscht oder aber beibehalten werden (dies ist
     unabhängig von Attributzeiten im Speicher).
 
-Mit dem Fenster [Channel Grid](../controlling-fixtures/viewing-and-editing-fixture-values.md#the-channel-grid-window) können einzelne Attribute einzelner
+Mit dem Fenster [Channel Grid](../controlling-fixtures/viewing-and-editing-fixture-values.md#übersicht-über-die-kanäle-das-channel-grid-fenster) können einzelne Attribute einzelner
 Geräte selektiv gelöscht werden.
 
 > Geben Sie mit den Zifferntasten eine Zahl ein und drücken dann \<Clear\>, so faden im Programmer befindliche HTP-Werte in dieser Zeit (in Sekunden) aus. Gibt man etwa 5 ein und drückt \<Clear\>, so wird in 5 Sekunden ausgefadet. Damit kann man unauffällig mit dem Programmer arbeiten.
@@ -206,7 +207,8 @@ Um auf die einzelnen Zellen zuzugreifen, können Sie die entsprechenden
 Reiter oben im Attribut-Editor verwenden, wobei der ganz linke Reiter
 das Gesamtgerät steuert und daneben Reiter für die einzelnen Zellen sind
 (zum Öffnen des Attribut-Editors verwenden Sie z.B. den vorgegebenen
-Workspace oder drücken \[Open Workspace Window\] und wählen den
+Workspace oder drücken zweimal auf
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen den
 Attribut-Editor).
 
 ![Cell Selection](/docs/images/Cell-Selection.png)
@@ -265,20 +267,27 @@ Zifferntasten auswählen (\<THRO\> ist auf manchen Pulten \'Through\'):
 
 "Attribute" sind die einzelnen Funktionen des Gerätes, wie Pan
 (Schwenken), Tilt (Neigen), Farbe, Dimmer etc. Wählen Sie die zu
-bearbeitenden Attribute mit den Attribut-Tasten, und stellen Sie den
+bearbeitenden Attribute mit den IPCGBESFX Attribut-Tasten, und stellen Sie den
 gewünschten Wert mit den Rädern ein. Die verfügbaren Attribute sind
 abhängig vom Gerätetyp. Dimmerkanäle besitzen nur das Attribut \'Dimmer\'.
 
-Attribute lassen sich ebenso mit den Schaltflächen 'IPCGBES' auf dem
-Touchscreen anwählen, und mit dem [Attribute Editor Fenster](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-editor-window) einstellen.
+Im Display direkt über den Encodern werden die aktuelle Attributbank (hellgrau) 
+und die momentanen Werte bei den Encodern angezeigt. Ein hellblauer Kreis markiert 
+Attribute im Programmer. Die genaue Anzeige der Werte ist davon abhängig, ob 
+das Attribut kontinuierlich gesteuert werden kann (Prozent-Anzeige) oder ob 
+zwischen verschiedenen Werten umgeschaltet wird (z.B. feste Farben oder Gobos).
 
-Auf dem Pearl Expert dienen je nach Benutzereinstellung die Encoder des
-Touchwings zum Einstellen der Attribute.
+![Wheels](/docs/images/Wheels.png)
+
+Die Attribute können auch im [Attribute Editor Fenster](../controlling-fixtures/using-the-select-buttons-and-wheels.md#das-fenster-attribut-editor) eingestellt werden.
+
+>	Auf dem Pearl Expert dienen je nach Benutzereinstellung die Encoder des
+	Touchwings zum Einstellen der Attribute.
 
 Jede einzelne Attribut-Taste kann mehrere Attribute steuern, von denen
 jedes einem Rad zugeordnet ist. Beim Sapphire Touch werden mit dem
-Trackball Pan und Tilt gesteuert; der äußere Ring dient der Steuerung
-von Tilt fein.
+Trackball Pan und Tilt gesteuert; der äußere Ring steuert normalerweise 
+den Dimmer, wobei sich dies mit der Taste \<Assign\> direkt daneben ändern lässt.
 
 1. Nach der Anwahl der betreffenden Geräte betätigen Sie die Taste des
 einzustellenden Attributs.
@@ -291,30 +300,30 @@ Encoder durchschalten.\
 Ebenso können die einzelnen Werte im 'Walzen'-Fenster des Touchscreens
 durchgeschaltet werden. Für stufenlos steuerbare Funktionen (etwa ein
 Dimmer) schaltet die Walze auf 100% bzw. 0.
-![Wheels](/docs/images/Wheels.png)
 
 3. Wiederholen Sie Schritt 1 und 2, um weitere Attribute der gewählten
 Geräte einzustellen.
 
+---
+
 Weitere wissenswerte Dinge zu Attributen:
-
--   Befindet sich ein Attribut im Programmierspeicher, so erscheint es
-    hervorgehoben (siehe 'Green' in obigem Bild). Dies ermöglicht einen
-    schnellen Überblick darüber, was momentan im Program­mierspeicher
-    ist.
-
--   Attribute lassen sich ebenso über die Menütasten (nach Betätigen von
-    \<Attribute Options\>) anwählen.
-
--   Wird das angewählte Attribut nicht im Display oberhalb der Räder
-    angezeigt, so ist es für die angewählten Geräte nicht verfügbar.
 
 ![Toggle Attributes](/docs/images/Toggle-Attributes.png)
 
--   Erscheint im Display über den Rädern
-    ein kleiner Pfeil neben den Bezeichnern, so gibt es mehr als drei
-    Attribute zu steuern. Betätigen Sie dann den entsprechenden
-    Attribut-Taster erneut, um die gesteuerten Attribute umzuschalten.
+-   Wird im Display rechts neben den Attributen ein kleiner Pfeil angezeigt,
+	so bedeutet das, dass auf dieser Bank mehr als drei Attribute zu steuern sind. 
+	In diesem Fall kann man durch mehrfaches Anwählen der Attributbank durch 
+	die Attribute durchschalten. Angenommen ein Scheinwerfer habe die Attribute 
+	Red, Green, Blue, Amber und White, so wird beim ersten Klicken auf \<Colour\> 
+	Red, Green und Blue gesteuert und beim nächsten Klick Amber und White.
+
+-   Befindet sich ein Attribut im Programmierspeicher, so wird es hellblau
+    angezeigt (siehe 'Green' in obigem Bild). Dies ermöglicht einen
+    schnellen Überblick darüber, was momentan im Program­mierspeicher
+    ist.
+
+-   Wird das angewählte Attribut nicht im Display oberhalb der Räder
+    angezeigt, so ist es für die angewählten Geräte nicht verfügbar.
 
 -   Die Räder arbeiten in einem \'Beschleunigungsmodus\'. Wird ein Rad
     schnell bewegt, so folgt das Gerät schnell und in groben
@@ -333,39 +342,13 @@ Weitere wissenswerte Dinge zu Attributen:
     dazu wirkt das Intensity-Rad als Hauptregler für die einzelnen
     Farben.
 
-## Anzeige der Attributwerte
-
-Der Display-Bereich oberhalb der Encoder zeigt die Attribut-Bänke
-(Intensity, Position, Colour etc.) sowie die aktuellen Werte der mit den
-Encodern gerade verknüpften Attribute.
-
-![Wheels](/docs/images/Wheels.png)
-
-Um andere Attribute zu steuern, wählen Sie die entsprechende Bank mit
-einem Klick auf IPCGBESFX, oder wählen Sie die entsprechende Bank mit
-den richtigen Tasten. Die aktuelle Bank wird durch einen hellgrauen
-Hintergrund dargestellt.
-
-Wurden Attribute verändert, so wird die jeweilige Bank blau
-hervorgehoben.
-
-Eine stilisierte Walze zeigt die auf jedem Rad möglichen Einstellungen,
-entweder als Wert (Prozent oder dgl.) oder - für feste Werte, etwa
-Farbräder - mit deren Bezeichnung. Wurde ein Attribut verändert, wird
-der jeweilige Wert hellblau hervorgehoben.
-
-Zum Ändern der Werte können Sie direkt auf den Bildschirm klicken: damit
-können feste Werte direkt angewählt werden; kontinuierliche Größen
-wechseln dabei etwa direkt zwischen 0 und 100% (Dimmer) oder 0, 50% und
-100% (Pan/Tilt).
-
 ## Das Fenster \'Attribut-Editor\'
 
 Für Attribute mit festen Werten wie Gobos oder Farbräder ist das Fenster
-'Attribut-Editor' ggf. besser geeignet als die Räder. Es bietet darüber
+'Attribut-Editor' ggf. besser geeignet als die Encoder. Es bietet darüber
 hinaus einen Farbwähler für Geräte mit RGB- oder CMY-Farbmischung.
 
-Drücken Sie \[Open Workspace Window\], dann \[Attribute Editor\], um den
+Drücken Sie zweimal auf [\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen \[Attribute Editor\], um den
 Attribut-Editor einzublenden. Oder klicken Sie auf den Attribut-Namen
 direkt unterhalb der IPCGBES-Schaltflächen auf dem Display.
 
@@ -517,7 +500,10 @@ und Funktionsweise hängt dabei vom jeweiligen Gerät ab.
 
 ![Attribute Editor - Blades](/docs/images/Attribute-Editor-Blades.png)
 
-> Ggf. sind aktualisierte Personalities erforderlich, um die Keystone/Blendenschieber-Funktionalität zu nutzen.
+> 	Ggf. sind aktualisierte Personalities erforderlich, um die 
+	Keystone/Blendenschieber-Funktionalität zu nutzen. Laden Sie dazu 
+	die neueste [Personality-Library](../fixture-personalities.md#herunterladen-der-personalities-bei-avolites) 
+	herunter, installieren diese und [aktualisieren die bereits gepatchten Geräte](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren).
 
 ## Direkte Eingabe für Attributwerte
 
@@ -554,7 +540,7 @@ Anklicken eines Attributs im Channel Grid (Kanalübersicht).
 \<@\>-Tasten, beim Pearl Expert gibt es diese Tasten nicht, und man muss
 eine der anderen Varianten nutzen).
 
-The menu gives you the following functions:
+Folgende Funktionen stehen auf den Menütasten zur Verfügung:
 
 -   Select Function (Funktion wählen): damit werden die verschiedenen
     Festwerte auf die Multifunktionstasten zur Auswahl gelegt (für
@@ -618,7 +604,7 @@ fixieren (Taste \<Menu Latch\>).
 -   Die Taste \[@\] stellt den Dimmer-Wert der ausgewähl­ten Geräte ein,
     etwa: 1 \[Through\] 8 \[@\] 5 \<Enter\> setzt Gerät 1-8 auf 50% (in den
     Benutzereinstellungen lässt sich einstellen, ob 50% durch "5" oder
-    "50" eingegeben wird, siehe [User Settings](../system-settings/user-settings.md)). Beim Betätigen
+    "50" eingegeben wird, siehe [Benutzereinstellungen](../system-settings/user-settings.md)). Beim Betätigen
     der Taste \[@\] erscheinen außerdem Optionen auf den Funktionstasten
     für \'Full\' (100%), \'Off\' (0) und +/- (schrittweise
     erhöhen/vermindern).
@@ -636,7 +622,7 @@ fixieren (Taste \<Menu Latch\>).
 
 -   Beim Eingeben eines Kommandos wird dieses in der Kommandozeile des
     Displays angezeigt. Mittels der grauen ←\<Back\>Taste kann man
-    schritt­weise zurückgehen; mit der grauen →\<@\>Taste lässt sich die
+    schrittweise zurückgehen; mit der grauen →\<@\>Taste lässt sich die
     Eingabe abbrechen.
 
 -   Die Funktionen AND, THRO sowie @ stehen auch auf den Pfeiltasten zur
@@ -658,14 +644,16 @@ geändert, so dass z.B. nur die ungeraden (odd) Geräte ausgewählt werden.\
 ![Pattern Select](/docs/images/Pattern-Select.png)
 
 4. Drücken Sie die Taste \<Fix+1\> oder \<Fix-1\>, um den nächsten
-Schritt im gewählten Muster anzuwählen. (auf manchen Pulten \<Next\> und \<Prev\>).
+Schritt im gewählten Muster anzuwählen (auf manchen Pulten \<Next\> und \<Prev\>).
 
 5. Um die Musterauswahl zu beenden, drücken Sie zweimal \<All\>.
 
 -   Mittels \[Direction\] (Richtung) kann eingestellt werden, dass die
     Geräte-Reihenfolge einer bestimmten Richtung folgt; dabei wird das
     Layout der Geräte herangezogen. Damit lassen sich z.B. sehr einfach
-    symmetrische Paare von Geräten wählen.
+    symmetrische Paare von Geräten wählen. Auch beim Verwenden von 
+	[Fixture Overlap](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) 
+	ist die Richtung von Bedeutung.
 
 -   Drückt man \<Clear\>, so wird die Richtung (Direction) wieder auf
     \'None\' zurückgesetzt. Dies lässt sich mit \[Clear Options\] \[Clear

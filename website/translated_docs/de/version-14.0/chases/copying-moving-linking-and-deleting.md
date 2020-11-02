@@ -8,7 +8,8 @@ original_id: copying-moving-linking-and-deleting
 Einen Chaser verschieben oder kopieren
 --------------------------------------
 
-Chaser können kopiert oder auf einen anderen Speicherplatz verschoben
+Mit den Tasten \<Copy\> und \<Move\> können Chaser 
+kopiert oder auf einen anderen Speicherplatz verschoben
 werden, oder Sie können eine Verknüpfung auf einen bestehenden Chaser
 erstellen. Verschieben ist sinnvoll zum Erhalt einer aufgeräumten
 Arbeitsoberfläche. Verknüpfungen bieten sich an, wenn aus Gründen des
@@ -19,13 +20,13 @@ zugewiesen bekommen.
 
 Das Vorgehen ist das gleiche wie beim Kopieren/Verschieben/Verknüpfen
 von Cues, und ist in Abschnitt 
-[Copying, Moving, Linking and Deleting](../cues/copying-moving-linking-and-deleting.md)genau beschrieben.
+[Kopieren, verschieben, verlinken, löschen von Cues](../cues/copying-moving-linking-and-deleting.md) genau beschrieben.
 
 Löschen eines Chasers
 ---------------------
 
 Zum Löschen eines kompletten Chasers drücken Sie \<Delete\>, dann die
-**Swop**-Taste des Chasers. Drücken Sie diese zur Bestätigung nochmals.
+**Auswahltaste** des Chasers. Drücken Sie diese zur Bestätigung nochmals.
 
 Löschen eines Schrittes aus einem Chaser
 ----------------------------------------
@@ -34,10 +35,10 @@ Um einen einzelnen Schritt zu löschen:
 
 1. Drücken Sie die \<Delete\>-Taste.
 
-2. Drücken Sie die **Swop**-Taste des Chasers.
+2. Drücken Sie die **Auswahltaste** des Chasers.
 
 3. Auf dem Display werden nun die Schritte des Chasers angezeigt.
-Wählen Sie mit dem **linken Rad** den zu löschenden Schritt, oder geben Sie
+Wählen Sie mit dem **linken Encoder** den zu löschenden Schritt, oder geben Sie
 dessen Nummer mit den Zifferntasten ein.
 
 4. Drücken Sie \[Delete Cue x\], um den Schritt zu löschen.
@@ -45,4 +46,4 @@ dessen Nummer mit den Zifferntasten ein.
 5. Bestätigen Sie den Löschvorgang mit \[Confirm\].
 
 > Alternativ lassen sich auch einzelne Schritte mit der
-[\<Unfold\>-Funktion](editing-a-chase.md#editing-a-chase-using-unfold) löschen.
+[\<Unfold\>-Funktion](editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion) löschen.

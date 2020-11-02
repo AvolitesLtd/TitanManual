@@ -5,69 +5,72 @@ sidebar_label: Linking Consoles for Multi-User or Backup
 original_id: linking-consoles-for-multi-user-or-backup
 ---
 
-On large shows it is sometimes necessary to have multiple operators
-programming or running different aspects of the show. The Titan system
-allows a number of consoles to be connected together to give an
-integrated system with multiple control surfaces.
+Bei größeren Shows ist es mitunter nötig, mit mehreren Programmierern
+gleichzeitig an der Show zu arbeiten. Titan ermöglicht dies für mehrere
+Pulte, sowie für jeden Benutzer unterschiedliche Einstellungen
 
-In addition, on many shows it is important to have a backup console
-running in case the main console fails during the show. Titan allows you
-to run a second console over the network which it keeps synchronised
-with the main console. Should the worst happen, a single keypress can
-transfer control to the backup console.
+Mitunter ist es auch erforderlich, parallel ein Backup-Pult mitlaufen zu
+haben, um im Fehlerfall nahtlos weiterarbeiten zu können. Mit Titan kann
+ein zweites Pult per Netzwerk eingebunden werden und wird laufend mit
+dem Hauptpult synchronisiert. Im schlimmsten Falle lässt sich dann mit
+einem Tastendruck am Backup-Pult die Kontrolle übernehmen.
 
-> Linked consoles must be running the same version of Titan. If using PC Suite (Titan Mobile, Titan Go or Simulator) you may need to disable any firewalls on the PC.
+>	Alle Pulte in einer Session müssen auf der gleichen Titan-Version 
+	laufen. Für die Titan PC-Suite (Simulator, Titan Go, Titan Mobile) 
+	kann es erforderlich sein, die Firewall zu deaktivieren.
 
-Setting Up Consoles for Multi-User
-----------------------------------
+Pulte für den Mehrbenutzerbetrieb einrichten
+--------------------------------------------
 
-Titan consoles may be connected to each other for collaborative
-programming or show operation. See the [Multi-User Operation](../titan-basics/multi-user-operation.md) section for more information.
+Mehrere Titan-Pulte können zum Mehrbenutzerbetrieb miteinander vernetzt
+werden, Details siehe [Mehrbenutzer-Betrieb](../titan-basics/multi-user-operation.md).
 
-Setting Up Consoles for Backup
-------------------------------
+Pulte für den Backup-Betrieb einrichten
+---------------------------------------
 
-Any Titan console can act as backup for any other console, they do not
-have to be the same model. For example you could run Titan Mobile as
-backup. You can also in an emergency use the screen on a TNP to operate.
+Jedes Titan-Pult kann als Backup für jedes andere Titan-Pult fungieren,
+es muss sich also nicht um das gleiche Modell handeln. So kann z.B. auch
+ein Titan Mobile als Backup für ein größeres Pult verwendet werden.
 
-However do plan ahead and think about what parts of your show will
-become inaccessible if the backup device has less faders/handles than
-the main console.
+Dabei gilt es natürlich zu bedenken, auf welche Teile der Programmierung
+man im Zweifel Zugriff braucht, da manche Pulte weniger Fader/Knöpfe als
+andere haben. Gute Vorplanung ist dafür essentiell.
 
-1. Connect both consoles to the same network and ensure they are set to
-the same IP range. See the [networking section](../networking.md).
+1.	Verbinden Sie beide Pulte mit dem gleichen Netzwerk und geben Sie
+    passende IP-Adressen aus einem Bereich ein.\
+	Details siehe [Netzwerk](../networking.md).
 
-2. Press Disk, \[TitanNet Sessions\], \[Backup\].
+2.	Auf dem Pult, welches als Backup verwendet werden soll, drücken Sie
+	\<Disk\>, dann \[TitanNet Sessions\], dann \[Backup\].
 
-3. Consoles available for backup will be listed in the softkeys.
+3.	Es werden nun die im Netzwerk gefundenen Titan-Pulte aufgelistet.
 
-4. Selecting a console will place that console into backup mode and
-sync the show to it.
+4.  Wählt man eines der angezeigten Pulte aus, so wird das aktuelle Pult
+    zum Backup-Pult für das ausgewählte, und die Show von diesem wird
+    synchronisiert.
 
-5. The backup console will show a display indicating the backup status
-and show name.
-
-In backup mode the backup console screen displays the current connection
-and sync status including current show name.
+5.  Auf dem Backup-Pult wird der Backup-Status sowie der Name der Show
+    angezeigt.
 
 ![TitanNet Backup Healthy](/docs/images/TitanNet-Backup-Healthy.png)
 
-A green line between consoles represents a
-good connection. If a red line is shown there is a problem with the
-network connection. A blue line will appear during sync operations.
+Eine grüne Linie zwischen den Pulten markiert eine stabile Verbindung.
+Verbindungsprobleme werden durch eine rote Linie angezeigt. Während
+laufender Synchronisationsvorgänge erscheint die Linie in blau.
 
 ![TitanNet Backup Faulted](/docs/images/TitanNet-Backup-Faulted.png)
 
--   Shows will automatically sync whenever a show is saved on the main
-    console (including autosave). You can also choose to sync at any
-    time by selecting \[Sync Now\].
+-   Showdaten werden automatisch synchronisiert, wenn auf dem Hauptpult
+    die Show gesichert wird, ebenso bei Autosave. Außerdem kann man auf
+    dem Backup-Pult jederzeit per \[Sync Now\] die Synchronisierung
+    veranlassen.
 
--   Pressing \[Exit\] will abort backup.
+-   Mit \[Exit\] wird der Backup-Modus beendet.
 
--   \[Takeover\] will enable control on the backup console and disable
-    DMX output on the main console. A prompt will appear on the main
-    console to warn that DMX has been disabled. On touch consoles
-    touching on this prompt will open the \'\<Exit\> Safe Mode\' menu
-    with a softkey option to re-enable output. On the Pearl Expert you
-    can re-enable DMX output via the shift (\<Avo\>) menu.
+-   Mit \[Takeover\] übernimmt das Backup-Pult die Kontrolle, und die
+    DMX-Ausgänge am Hauptpult werden deaktiviert. Dabei erscheint im
+    Infobereich (oben rechts auf dem Display) eine entsprechende
+    Meldung. Auf Geräten mit Touchscreen kann man darauf klicken und
+    gelangt in das Menü "Exit Safe Mode", in dem wiederum die Ausgänge
+    wieder aktiviert werden können. Auf dem Pearl Expert findet man
+    diese Funktion im \<Avo\>-Menü.

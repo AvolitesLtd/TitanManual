@@ -5,415 +5,410 @@ sidebar_label: User Settings
 original_id: user-settings
 ---
 
-The User Settings menu may be accessed from the System mode menu, and
-also from Program mode: hold down the \<Avo\> Shift button and press
-\[User Settings\].
+Das Menü 'User Settings' (Benutzereinstellungen) lässt sich auch im
+'Program'-Modus aufrufen; dazu halten Sie die \<AVO\>-Taste gedrückt und
+betätigen die Taste \[User Settings\].
 
 ![User Settings Window](/docs/images/User-Settings-Window.png)
 
-A window will open showing the user settings, or you can also set the
-same options using the softkey options. User Settings are individual for
-each User and you can change the User from this screen.
+Es öffnet sich ein Fenster, in dem alle verfügbaren
+Benutzereinstellungen angezeigt werden und verändert werden können;
+ebenso kann man sie mit den Menütasten verändern. Die
+Benutzereinstellungen gelten jeweils pro Benutzer.
 
 
-> Click on the *i* button for a help window on each setting.
-> 
+> Ein Klick auf das Symbol *i* öffnet einen kleinen Hinweistext 
+> zu der jeweiligen Einstellung.\
+> \
 > ![i button](/docs/images/i-button.png)
 
-Options are divided into categories on the softkeys or down the left
-hand side.
+Die möglichen Einstellungen sind nach verschiedenen Kategorien sortiert.
+Diese Kategorien sind links eingeblendet. Wählen Sie dort die Kategorie,
+in der Sie eine Einstellung ändern wollen.
 
-## General
+## General (Allgemein)
 
 ### Chase Snap
-If enabled the **Next Step** and **Prev Step** buttons will snap
-to the new state. If disabled, programmed fades will be shown. This is
-the same function as the Snap button which features on some consoles.
+Falls aktiviert, wird mit den Tasten \<Next
+Step\>/\<Prev Step\> bei Chasern hart auf den nächsten Schritt
+umgeschaltet. Ist die Option dagegen deaktiviert, werden etwa
+programmierte Fadezeiten berücksichtigt. Diese Option wird auch mit der
+Taste \<Snap\> umgeschaltet, die auf einigen Pulten vorhanden ist.
 
 ### Cue List Snap
-If enabled the **Next Step** and **Prev Step** buttons will
-snap to the new state. If disabled, programmed fades will be shown.
+Falls aktiviert, wird mit den Tasten \<Next Step\>/\<Prev Step\> 
+bei Cuelisten hart auf den nächsten Schritt umgeschaltet. Ist die 
+Option dagegen deaktiviert, werden etwa programmierte Fadezeiten 
+berücksichtigt.
 
 ### Clear Record Mask
-Sets whether the record mask is cleared back to
-All Enabled when you enter the Record function, or whether it remains as
-you previously set it.
+Falls aktiviert, wird die Speichermaske (Record Mask) nach jedem 
+Speichervorgang auf 'Alle Attribute' zurückgesetzt;
+anderenfalls wird die eingestellte Maske beibehalten.
 
 ### Copy Cues
-Sets whether tracked values will copy when you copy a cue
-from a tracked cue list.
+Bestimmt, ob beim Kopieren von Cues aus Cuelisten auch
+getrackte Werte kopiert werden.
 
 ### Run Startup Playbacks
-Allows you to globally disable startup
-playbacks from running. To enable Startup Playbacks you need to turn
-this on and set some playbacks as Startup using Playback Options.
+Damit kann das automatische Starten von
+Playbacks beim Starten der Software bzw. Laden der Show generell
+aktiviert oder deaktiviert werden. Einzelne Playbacks müssen dazu in
+den Playback-Optionen entsprechend eingestellt werden.
 
 ### System Render Rate (Hz)
-Sets the output rate of DMX frames from
-1-44 frames per second *(default 40)*. You can reduce this if processing
-of a complex show is slowing down the console.
+dient zum Einstellen der generellen Systemgeschwindigkeit. *Der 
+Vorgabewert ist 40Hz*, und kann je nach Bedarf auf Werte von 1 bis 
+44Hz gestellt werden. Mit kleineren Werten wird der Prozessor bei 
+Shows mit sehr vielen gesteuerten Geräten ggf. entlastet.
 
 ### Lock Screen Background
-Sets a picture to be displayed when the
-console is locked.
+Einstellen eines Hintergrundbildes bei gesperrtem Pult
 
 ---
 
 ## Handles
 
 ### Grand Master Fader
-
-Sets whether the Grand Master fader is enabled
-or disabled (some consoles do not have this fader). This can be handy if
-it gets broken or if you wish to disable it to avoid confusing
-inexperienced operators. The default setting is *Disabled*.
+Dient zum Aktivieren/Deaktivieren des Grandmasters (sofern vorhanden),
+hilfreich insbesondere, wenn der nicht korrekt funktionieren sollte. 
+*Voreinstellung: inaktiv*.
 
 ### Delete Default
-Sets whether items are deleted when you press Delete
-and double tap them, or whether they are released from the handle and
-become unassigned. Unassigned items can be reused from the Show Library.
+Bestimmt, was die Standard-Aktion beim Löschen (\<Delete\> + Doppelklick) 
+von Elementen, also Cues, Paletten, Cuelisten und Chasern, ist. Stellt 
+man dies auf 'Unassign', so werden diese Elemente nicht gelöscht, 
+sondern nur von der Taste/Schaltfläche entfernt und sind über das 
+Show-Verzeichnis weiterhin verfügbar.
 
 ### Prompt Replace
+Bestimmt, wie sich das Pult verhält, wenn man etwas
+auf einen bereits belegten Speicherplatz speichern will.
 
-Sets the console action when you try to save to a
-handle or playback which is already used.
-
-\[Prompt for Merge or Replace\] - the console will always prompt\
-\[Always Merge\] - the console will never prompt\
-\[Palettes Always Merge\] - the console will prompt unless you are
-saving a palette
+\[Prompt for Merge or Replace\] - es erscheint jedes Mal eine Rückfrage\
+\[Always Merge\] - es erscheint nie eine Rückfrage\
+\[Palettes Always Merge\] - die Rückfrage erscheint nur, wenn es sich
+nicht um das Speichern von Paletten handelt.
 
 ### Display Halo
-
-Allows you to turn off all coloured halos on buttons.
+Dient zum Abschalten aller farbigen Halos.
 
 ### Fixture Halos
+Auswahl der darzustellenden Halos bei Fixtures (Gerätetasten):
 
-Sets how coloured halos are displayed on fixture
-buttons.
-
-\[Custom\] - Only user defined halo colours are shown.\
-\[Auto\] - Fixture buttons are coloured using automatic fixture colours
+\[Custom\] - Nur benutzerdefinierte Halos werden angezeigt.\
+\[Auto\] - Es werden automatisch farbige Halos für alle Fixtures
+angezeigt.
 
 ### Handle Buttons
-Sets the default size of the touch buttons to
-\[Small\], \[Normal\], \[Large\] or \[Super Size\]. 
+Erlaubt das Ändern der Größe der Schaltflächen auf
+dem Touchscreen: \[Small\] (klein), \[Normal\] (normal), \[Large\]
+(groß) oder \[Super Size\] (sehr groß). 
 
-This can be
-overridden separately in any window.
+Kann jeweils pro Fenster abgeändert werden.
 
 ### Text Size
 
-Sets the default size of the text used in touch buttons.
-Can be overridden in any window.
+Bestimmt die Schriftgröße auf den Schaltflächen. Kann jeweils pro 
+Fenster abgeändert werden.
 
 ### Playback Paging
+Das Verhalten aktiver Playbacks beim Seitenwechsel.
 
-\[Playback paging\] sets how the playback faders
-behave when you change page with a playback active.\
-\[Normal\] - sets the normal mode for the console type.\
-\[Always Hold\] - sets the standard behaviour for non-motorised faders
-where the fader keeps control of the active playback when the page is
-changed and has to be lowered to zero before a playback on the new page
-can be fired.\
-\[Never Hold\] - the standard behaviour for motorised faders where the
-fader always relates to the current page. To regain control of a
-playback from another page you have to go back to that page and level
-match the fader (which is done automatically by motorised fader). 
+\[Normal\] ist die für das jeweilige Pult normale Arbeitsweise.\
+\[Always Hold\] ist die traditionelle Funktionsweise, bei der das
+Playback aktiv und mit dem Regler verbunden bleibt, bis dieser - und
+damit das Playback - auf 0 gebracht wird.\
+\[Never Hold\] dagegen ist die Funktionsweise bei Pulten mit
+Motorfadern: beim Seitenwechsel bleiben aktive Playbacks aktiv, aber die
+Fader sind auf der neuen Seite. Um aktive Playbacks von einer anderen
+Seite wieder zu steuern, muss man erst auf diese Seite wechseln und den
+Fader auf den passenden Wert bringen. 
 
-When a
-playback is active from another page the display area goes purple and
-the page number is shown at the top in light blue.
+Ist ein Playback von einer anderen Seite aktiv, so wird dies violett 
+dargestellt; die Seitenzahl wird in hellblau angezeigt.
 
 ### Current Handle World
-Sets the handle world - read more about [Handle Worlds](../titan-basics/multi-user-operation.md#handle-worlds).
+Wahl der Handle World. Siehe Abschnitt [Handle Worlds](../titan-basics/multi-user-operation.md#handle-worlds).
 
 ---
 
-## Key Profiles
+## Key Profiles (Tastenprofile)
 
-Allows you to select and edit key profiles using the softkeys. See [Key Profiles](key-profiles.md) for more info.
+Auswahl/Editieren des aktuellen Tastenprofils. Siehe [Key Profiles](key-profiles.md).
 
 ---
 
-## Patching
+## Patching (Patch-Optionen)
 
 ### Warn Before Parking Fixtures
+Bestimmt das Verhalten beim Patchen von Geräten mit sich 
+überschneidenden DMX-Adressen; dabei werden die anderen Geräte jeweils 'geparkt'.
 
-Sets the console action when you patch
-a fixture which overwrites the DMX channels of another fixture. This
-causes the overwritten fixture to be "parked".
-
-\[Always\] - console will warn you.\
-\[Never\] - console will park the fixture without warning you.
+\[Always\] - es erscheint stets eine Warnmeldung.\
+\[Never\] - keine Warnung beim Parken von Geräten.
 
 ### DMX Address
-Sets whether the DMX address of fixtures is shown in
-the fixture touch buttons.
+Anzeige der DMX-Adresse auf den Fixture-Buttons aktivieren.
 
 ### Auto Groups
-Sets whether the console will automatically create new
-groups for fixtures when you patch.
+Bestimmt, ob beim Patchen von Geräten automatisch
+Gruppen angelegt werden sollen.
 
 ### Preset Palettes
-Sets whether preset palettes should be created when
-fixtures are patched. You can also turn this on when patching using the
-\[Create Preset Palettes\] softkey.\
-\[Do Not Create\] -- no palettes will be created.\
-\[Create On Workspaces\] -- palettes will be created in workspace
-windows.\
-\[Create On Presets\] -- palettes will be created on preset buttons.
+Bestimmt, ob beim Patchen von Geräten automatisch Paletten angelegt 
+werden sollen. Kann auch beim Patchen im Patch-Optionsmenü aktiviert werden.
+
+\[Do Not Create\] -- es werden keine Paletten angelegt.\
+\[Create On Workspaces\] -- es werden Paletten in den jeweiligen
+Paletten-Fenstern angelegt.\
+\[Create On Presets\] -- es werden Paletten auf den Preset-Tasten (Pearl
+Expert) angelegt.
 
 ---
 
-## Times
+## Times (Zeiten)
 
 ### Tempo Units
-Sets the units for displaying tempo. The options are
-\[Beats per Minute\] or \[Seconds\].
+Stellt die Einheiten für die Geschwindigkeit (etwa von Chasern) ein: 
+entweder \[Beats per Minute\] (BPM) oder \[Seconds\] (Sekunden).
 
 ### Connected View Sets
-Sets the console action when you change the
-speed of a connected chase.
+Bestimmt das Verhalten beim Ändern der Geschwindigkeit eines 'verbundenen' 
+(connected) Chasers.
 
-\[Connected View Sets Temporary Chase
-Speed\] means that the console will not save the modified speed, and the
-next time the chase is fired it will go back to its programmed speed.\
-\[Connected View Sets Chase Speed\] means that the console will modify
-the saved speed of the chase.
+Mit \[**Temporary** **Chase Speed**\] gilt das Tempo nur momentan, und wird
+beim nächsten Laden des Chasers wieder auf den programmierten Wert
+zurückgesetzt.\
+Mit \[**Chase Speed**\] wird das Tempo hingegen
+gespeichert und das vorher programmierte damit überschrieben.
 
 ### Preload Time
-Sets a fade time for the Preload function, normally 2
-seconds. This value would normally be set for quiet fixture movement.
+Bestimmt die Überblendzeit der 'Preload'(Vorlade-) Funktion, der 
+Standardwert sind 2 Sekunden. Dieser Wert sorgt für eine
+sanfte Bewegung der Geräte.
 
 ### Times Format
-Selects between *HH:MM:SS* format and Seconds format. In
-*HH:MM:SS* format the console will convert any number you enter into hours
-minutes and seconds.
+Wahl des Anzeige- und Eingabeformats von Zeiten.
+Mögliche Optionen: *HH:MM:SS* und Sekunden. Bei Wahl von *HH:MM:SS* wird
+automatisch jede Eingabe entsprechend umgewandelt.
 
 ### Compensate for Rate Grand Master
-If on (default), when a tempo is
-tapped on a BPM master it will not be affected by the Rate Grand Master
-being set to less than 100%.
+Ist dies aktiviert (Vorgabe), so wird ein getapptes Tempo nicht von 
+einem unter 100% gesetzten Rate Grand Master beeinflusst.
 
 ---
 
-## Formatting
+## Formatting (Formate)
 
 ### Channel Levels
-Sets how you enter channel levels when using numeric
-entry of levels.
+Definiert, wie die gewünschten Pegel über die Zifferntasten eingegeben werden.
 
-\[Channel Levels Set In Tens\] - enter one digit for the channel level,
-*i.e. 5 = 50%*.\
-\[Channel Levels Set in Units\] - enter two digits, *i.e. 50 = 50%*.
+\[Channel Levels Set In Tens\] ('Eingabe in Zehnern') - man gibt nur
+eine Ziffer ein, z.B. *5 = 50%*\
+\[Channel Levels Set in Units\] - die Eingabe erfolgt zweistellig, z.B.
+*50 = 50%*
 
 ### Number Style
-Sets how channel values are displayed in Cue View and
-Palette View.
+Stellt die Darstellung von Zahlen in der Cue- und
+Palettenansicht ein.
 
-\[Precise\] - will include all decimal places.\
-\[Rounded\] - round to nearest whole number.\
-\[Dynamic\] - show decimals where appropriate, remove trailing zeros.
+\[Precise\] - zeigt alle Dezimalstellen.\
+\[Rounded\] - rundet auf die nächste Ganzzahl.\
+\[Dynamic\] - zeigt Dezimalstellen wenn erforderlich und unterdrückt Nullen.
 
 ---
 
 ## Palettes
 
 ### Quick Palettes
-Enables or disables the Quick Palette function - read more about [Using Palettes](../palettes/using-palettes.md).
+Aktivieren oder Abschalten der Quick Palettes, siehe [Abrufen von Paletten](../palettes/using-palettes.md).
 
 ### Minimum Palette Mode
-Sets whether global or shared palettes can be
-created when recording palettes. You can use this to force the console
-to store all palettes as Shared.
+Wahl des Vorgabewertes für den Palettenmodus. Damit kann festgelegt werden, 
+dass Paletten stets als Shared oder Normal gespeichert werden sollen. 
 
 ### Add New Palette Channels
-Sets whether new channels added into
-palettes will be added to playbacks using those palettes.
+Ist diese Option aktiviert, so werden Kanäle, die bereits verwendeten 
+Paletten hinzugefügt werden, automatisch in die betreffenden Playbacks übernommen.
 
 ### Auto Legend
-Sets whether new items will automatically have legends
-generated for them (colour scribbles for colours or descriptive legends
-for other functions).
+Bestimmt, ob für neue Elemente (insbesondere Paletten)
+automatisch Legenden erstellt werden sollen oder nicht.
 
 ### Highlight Active Palettes
-Sets whether active palettes are shown as
-highlighted in the workspace windows.
+Markieren gerade aktiver - also im
+Programmer verwendeter - Paletten.
 
 ### Filter Relevant Palettes
-Sets whether palettes which do not apply
-to the selected fixtures will be greyed out.
+Bestimmt, ob bei angewählten Geräten die
+für diese nicht gültigen Paletten ausgegraut werden sollen.
 
 ### Master Palette Time
-Sets the default fade time to be used when
-recalling palettes live. See [Master Time for Palettes](../palettes/timing-with-palettes.md#master-time-for-palettes) for more information.
+Die Vorgabe-Überblendzeit beim Live-Aufruf von
+Paletten, siehe [Master-Zeit für Paletten](../palettes/timing-with-palettes.md#master-zeit-für-paletten).
 
 ### Master Palette Overlap
-Sets the default overlap to be used when
-fading palettes.
+Der Vorgabewert für die Überlappung beim
+Live-Aufruf von Paletten.
 
 ### Record Nested Palettes
-If enabled, palettes containing other source
-palettes will be updated when you change the source palette.
+Updaten von verknüpften Paletten, wenn die
+eingebetteten Paletten verändert werden.
 
 ### Preset Palettes
-This is the same as the option in the Patching
-section, [see above](#preset-palettes).
+Gleiche Funktion wie im Abschnitt Patching, [siehe oben](#preset-palettes).
 
 ---
 
 ## Release
 
-These settings can also be changed from the Release menu.
+Diese Einstellungen können auch im Release-Menü vorgenommen werden.
 
 ### Release To Home
-If *enabled*, when the last playback is released
-fixtures will return to home values. If *disabled*, LTP channels will
-remain set.
+Falls aktiviert, erfolgt das Release nach und nach
+bis zum Einschaltzustand des Pultes. Ansonsten bleiben die LTP-Werte
+des letzten Playbacks aktiv.
 
 ### Master Release Time
-Sets the default release time.
+Vorgabewert für die Release-Zeit.
 
 ### Release Priority
-The playback priority used with the Release menu
-or when running Release macros.
+Die Playback-Priorität, die per Default im
+Release-Menü sowie bei Release-Macros herangezogen wird.
 
 ---
 
 ## Clear
 
-These settings can also be changed from the Clear menu.
+Diese Einstellungen können auch im Clear-Menü vorgenommen werden.
 
 ### Auto Reset Mask
-When *enabled*, the Clear Mask will reset to include
-all attributes after every clear.
+Setzt die Maskierung bei jedem Betätigen der
+'Clear'-Taste automatisch zurück.
 
 ### Zero Preset Fader Levels
-When *enabled*, intensity levels set on
-fixtures patched to fader handles will be zeroed when Clear is pressed.
-If *disabled* the levels will remain set but will be removed from the
-programmer.
+Bestimmt, ob Faderwerte von Geräten, die direkt auf Fader gepatcht sind, mit
+\<Clear\> auf 0 gesetzt werden sollen oder nicht. Wenn deaktiviert,
+werden die Werte aus dem Programmer gelöscht, bleiben aber aktiv.
 
 ### Release to Playback Values
-If (enabled), LTP channels will release to
-the values set in the last playback when Clear is pressed. If *disabled*,
-LTP channels will not change when Clear is pressed.
+Zurücksetzen der Kanäle auf die Werte der aktuell laufenden Playbacks. 
+Wenn deaktiviert (Vorgabe), behalten LTP-Kanäle die gewählten Werte.
 
 ### Clear Cue Times
-If *enabled*, resets cue times in the programmer to
-defaults when Clear is pressed. If *disabled*, cue times set in the
-programmer will remain.
+Bestimmt, ob Cue-Zeiten im Programmierspeicher
+gelöscht oder aber beibehalten werden.
 
 ### Clear Rate Settings
-If *enabled*, resets the rate settings in the
-programmer to default when Clear is pressed. If *disabled*, rate settings
-set in the programmer will remain.
+Bestimmt, of Rate (Speed)-Einstellungen bei
+Clear im Programmer bleiben oder nicht.
 
 ### Clear Direction
-If *enabled*, resets direction in the programmer to
-default when Clear is pressed. If *disabled*, direction set in the
-programmer will remain.
+Reset der Direction (Richtung) im Programmer bei
+Clear oder nicht.
 
 ---
 
-## Effects
+## Effects (Effekte)
 
 
 ### Swop Shapes
-Sets how shapes react to Swop mode.\
-\[All Shapes\] -- All running shapes from other playbacks are stopped\
-\[Intensity Shapes\] -- Only intensity shapes from other playbacks stop
+Verhalten von Shapes bei Swop.
+
+\[All Shapes\] - Alle laufenden Shapes von anderen Playbacks werden
+unterbrochen.\
+\[Intensity Shapes\] - Nur Intensity-Shapes von anderen Playbacks
+werden unterbrochen, andere Shapes laufen weiter.
 
 ### Shape Behaviour
-Sets whether Key frame shapes will overlay all
-other values or will work in LTP mode where later changes will override
-the shape - see [Saving a key frame shape to a cue](../effects/key-frame-shapes.md#saving-a-key-frame-shape-to-a-cue).
+Steuert, ob Keyframe-Shapes eher LTP wirken (und von anderen Playbacks 
+überschrieben werden können) oder nicht. Siehe [Speichern eines Keyframe-Shapes in einem Cue](../effects/key-frame-shapes.md#einen-keyframe-shape-in-einen-cue-speichern).
 
 ---
 
 ## LEDs
 
 ### Fixture LEDs
-Sets how the button LED behaves when a fixture is
-patched to a fader handle.\
-\[Show Occupation\] -- the LED shows handle empty and selection state\
-\[Mimic Intensity\] -- the LED shows fixture intensity level.
+Dient zum Einstellen des Verhaltens der LEDs in den
+'Select'-Tasten, wenn direkt auf Fader/Tasten gepatcht wurde.\
+\[Show Occupation\] -- Anzeige der Belegung (frei/belegt).\
+\[Mimic Intensity\] -- Anzeige der Intensität/Dimmerlevel.
 
-> **The options below only function when \[Show Occupation\] is selected**
+> **Die nachfolgenden Optionen beziehen sich nur auf die Einstellung \[Show
+Occupation\].**
 
 ### LED Empty Level
-Sets level for unpatched handle.
+Helligkeit freier Tasten.
 
 ### LED Occupied Level
-Sets level for occupied but unselected handle.
+Helligkeit belegter, aber nicht ausgewählter Gerätetasten.
 
 ### LED Programmer Level
-Level if fixture is in the programmer.
+Helligkeit, wenn das Gerät im Programmer ist.
 
 ### LED Selected Level
-Level if fixture is selected.
+Helligkeit für ausgewählte Geräte (nicht im
+Programmer).
 
 ---
 
 ## Timecode
 
 ### Kill Out of Range Playbacks
-Kills the playback if the incoming timecode is outside the timecode values included in the playback.
+Playbacks werden automatisch deaktiviert, sobald der letzte im Playback 
+programmierte Timecode abgelaufen ist.
 
 ### MIDI Device ID
-Sets the Device ID when using MIDI show control
-commands.
+Einstellen der Device-ID bei Verwendung von MIDI Show Control.
 
 ### MIDI Glitch Detection
-Enables the glitch options below.
+Aktiviert die folgenden zwei Optionen.
 
 ### MIDI Glitch Tolerance
-Sets the maximum amount of time a MIDI
-timecode can jump by without being seen as a glitch.
+Max. Zeitsprünge im MIDI-Timecode, die nicht als Fehler erkannt werden.
 
 ### MIDI Glitch Timeout
-Sets the amount of time the console should
-ignore MIDI timecode for after a glitch has been detected.
+Zeit nach Erkennen eines Fehlers, in der
+MIDI-Timecode ignoriert wird.
 
-> Read more about [MIDI Triggers](../running-the-show/midi-dmx-or-audio-triggering.md)
+> Weitere Informationen zu [MIDI Triggern](../running-the-show/midi-dmx-or-audio-triggering.md)
 
 ---
 
 ## Wheels
 
 ### Wheel Sensitivity
-The sensitivity of the encoder wheels, and the
-pan/tilt threshold settings can be adjusted using this option. Wheel
-sensitivity is adjusted using **Wheel A** and the current level is shown on
-the display.
+Empfindlichkeit der Encoder, sowie Schaltschwelle
+für Pan/Tilt. Die Empfindlichkeit der Encoder lässt sich mit **Encoder A**
+einstellen, der aktuelle Wert wird im Display angezeigt.
 
 ### Pan & Tilt Threshold
-Enables or disables the pan/tilt threshold
-options below.
+Aktiviert die nachfolgenden beiden Optionen.
 
 ### Pan Threshold
-Sets the sensitivity of the Pan control if above
-option enabled. Larger numbers make Pan work slower.
+Empfindlichkeit für Pan (wenn aktiviert). Größere Werte lassen Pan träger reagieren.
 
 ### Tilt Threshold
-Sets the sensitivity of the Tilt control if above
-option enabled. Larger numbers make Tilt work slower.
+Empfindlichkeit für Tilt (wenn aktiviert). Größere Werte lassen Tilt träger reagieren.
 
 ### Auto Connect
-Sets whether Chases and Cue Lists will auto-connect to
-the wheels when the playback is fired. The options are \[Off\],
-\[Chases\], \[Lists\] and \[Chases and Lists\].
+Bestimmt, ob Chaser und Cuelisten bei ihrem Aufruf
+automatisch mit der Ablaufsteuerung (Encoder und Tasten) verbunden werden.
+Die Optionen sind \[Off\] (Aus/Nie), \[Chases\] (nur Chaser), \[Lists\]
+(nur Cuelisten), und \[Chases and Lists\] (Chaser und Cuelisten)
 
 ### Auto View on Connect
-Sets whether the view window for the playback
-will open automatically when the playback is fired. The options are
-\[Off\], \[Chases\], \[Lists\] and \[Chases and Lists\]. If both Auto
-Connect and Auto View on Connect are set to \[Chases and Lists\] then
-firing a playback will automatically connect the playback and open the
-view window for the playback.
+Wenn aktiviert, wird beim Connecten von
+Chasern und/oder Cuelisten automatisch das entsprechende
+Playback-Fenster angezeigt. Die Optionen sind Off\] (Aus/Nie),
+\[Chases\] (nur Chaser), \[Lists\] (nur Cuelisten), und \[Chases and
+Lists\] (Chaser und Cuelisten). Wird sowohl diese als auch die
+vorherige Option aktiviert, so wird beim Starten eines entsprechenden
+Playbacks sowohl die Steuerung (Encoder, Go-Taste) verbunden als auch das
+Playback-Fenster geöffnet.
 
 ### Press and Hold Fan
-\[Press and Hold Fan\] changes the Fan function
-so that it only works while the Fan button is held. This avoids the
-common user error of leaving Fan turned on accidentally.
+Ändert das Verhalten der \<Fan\>-Taste, so dass
+sie gedrückt gehalten werden muss. Damit wird das versehentliche
+Aktivieren dieser Funktion vermieden.

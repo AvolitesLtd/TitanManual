@@ -57,7 +57,7 @@ welcher davon mit den Rädern/Tasten beeinflusst werden soll.
 -   Es gibt außerdem die Benutzereinstellung "Auto View On Connect" in [User
     Settings > Wheels](../system-settings/user-settings.md#auto-view-on-connect). Ist
     dies aktiviert, so wird beim Connecten mit einem Chaser direkt die
-    [Detailansicht (Playback View)](editing-a-chase.md#opening-a-chase-for-editing) 
+    [Detailansicht (Playback View)](editing-a-chase.md#einen-chaser-zum-editieren-öffnen) 
 	für den Chaser geöffnet. *Dies ist besonders sinnvoll, wenn man 
 	zwischen mehreren Chasern hin- und herwechselt*.
 
@@ -108,8 +108,8 @@ Geräte-Überlappen. Details dazu finden sich im Abschnitt [Zeiten bei Chasern](
 Für jeden Schritt lassen sich getrennte Zeiten vergeben, ebenso lässt
 sich die Schrittfolge unterbrechen, so dass der nächste Schritt auf das
 Betätigen der \<Go\>-Taste wartet. Beides erfolgt entweder in der
-Ansicht [Playback View](editing-a-chase.md#opening-a-chase-for-editing)
-oder mittels der [\<Unfold\>](editing-a-chase.md#editing-a-chase-using-unfold)-Funktion, siehe auch 
+Ansicht [Playback View](editing-a-chase.md#einen-chaser-zum-editieren-öffnen)
+oder mittels der [\<Unfold\>](editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion)-Funktion, siehe auch 
 [Editieren eines Chasers](editing-a-chase.md).
 
 Die Anzeige der Geschwindigkeit lässt sich zwischen Sekunden und Beats
@@ -118,9 +118,9 @@ Settings\], und wählen dann mit der Option \[Tempo Units\] zwischen
 \[Tempo Units Seconds\](Sekunden) und \[Tempo Units Beats Per Minute
 (BPM)\].
 
-Ferner lässt sich der Chaser einem [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters) zuordnen; 
+Ferner lässt sich der Chaser einem [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master) zuordnen; 
 dies erlaubt es, direkt während der Show die Geschwindigkeit zu steuern. 
-Siehe auch [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
+Siehe auch [Speed and Size Masters](../running-the-show/playback-controls.md#speed--und-size-master).
 
 Manuelle Steuerung der Schritte
 -------------------------------

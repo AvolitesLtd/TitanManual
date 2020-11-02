@@ -5,65 +5,70 @@ sidebar_label: Titan Simulator
 original_id: titan-simulator
 ---
 
-Need to pre-program or tweak your show before you get to the venue? No
-problem, just run the Titan Simulator on your PC. You can then load your
-show and simulate any of the Titan consoles, using an on-screen "virtual
-panel".
+Soll vorab programmiert oder eine Show angepasst werden, ohne bereits
+ein Pult zu verwenden? Kein Problem, genau dazu dient der Titan
+Simulator. Damit lassen sich auf jedem normalen PC alle Typen von
+Titan-Pulten simulieren und Shows erstellen und verändern.
 
 ![titansimulator](/docs/images/Titan-Simulator.jpeg)
 
-Installing Titan Simulator
---------------------------
+Den Titan Simulator installieren
+--------------------------------
 
-You will need a Windows user account with Administrator privileges to
-install or run Titan Simulator. From v12, to run the Titan Simulator an
-AvoKey Simulator dongle must be connected, or a T1/T2 device.
+Sie müssen Administrator-Berechtigungen auf dem Computer haben, um den
+Titan Simulator zu installieren oder auszuführen. Ab Titan v12 ist für
+den Simulator ein Editor AvoKey oder ein angeschlossener T1 oder T2
+erforderlich.
 
 
-> From v7, Windows XP and Vista are no longer supported by Titan software.
-> Your PC must be running a 64 bit version of Windows 7, Windows 8.1 or Windows 10.                      
+> Ab Titan Version 7 wird Windows 7, 8 oder 10 (64 Bit) vorausgesetzt; 
+Windows XP oder Vista werden nicht mehr unterstützt.                        
 
-Capture visualiser requires a capable graphics card. If you have problems with Capture,      
-ensure you have installed the latest drivers for your graphics card from the manufacturer.
+Capture verlangt dabei eine leistungsstarke Grafikkarte. Sollten dabei 
+Probleme auftreten, stellen Sie bitte sicher, die aktuellsten Treiber
+für Ihre Grafikkarte installiert zu haben.   
 
-Simply download and run the Titan PC Suite installer from the Avolites
-website. The first time you run the Editor you will need to license the
-software to the AvoKey; follow the instructions given on screen by the
-Authenticator system.
+Laden Sie einfach die Titan PC-Suite herunter (verfügbar im
+Download-Bereich auf www.avolites.com) und installieren sie. Beim ersten
+Programmstart muss der AvoKey lizenziert werden; folgen Sie dazu den
+Anweisungen des Authenticator-Hilfsprogramms, das automatisch startet.
 
 Once licensed, you have a choice of how Titan will operate:
 
--   If you run Titan Go with an Editor/Simulator AvoKey, you will get
-    one universe of DMX (via Art-Net) with no spoilers. With a T1 or T2
-    connected you will get one or two universes of DMX via XLR and
-    Art-Net with no spoilers.
+-   Gestartet als Titan Go lässt sich nur mit dem Editor AvoKey ein
+    DMX-Universum über Artnet/sACN ausgeben (mit einem T1/T2 geht auch
+    eine bzw. zwei linien als DMX)
 
--   If you run a simulated console, you will get full DMX output on all
-    universes but periodically random DMX values will be sent down all
-    DMX outputs as a "spoiler", please wait for this to stop before
-    continuing programming.
+-   Gestartet als Simulator (zu erkennen an der Anzeige 'Offline' rechts
+    oberhalb der Arbeitsfenster) können sämtliche Pulte dargestellt
+    werden, auch lassen sich der Visualiser oder Art-Net-Knoten
+    verwenden. Allerdings werden in unregelmäßigen Abständen Störsignale
+    an die Ausgänge geschickt (der sog. Spoiler). Dann einfach ein paar
+    Sekunden warten, bevor mit dem Programmieren weitergemacht wird.
 
-Running Titan Simulator
------------------------
+Verwenden des Titan Simulator
+-----------------------------
 
-When you start Titan Simulator you need to select which console you are
-simulating. The simulator will then open a Virtual Panel, which
-replicates the physical controls of your chosen console, and monitor
-windows for each of the monitor outputs.
+Beim Start des Titan Simulators können Sie das zu emulierende Pult
+wählen. Daraufhin erscheint ein Fenster mit dem 'Virtual Panel'
+(virtuelle Pultoberfläche), sowie weitere Fenster mit den
+Monitorausgängen der gewählten Konsole.
 
-> The touch screen display is shown separately from the Virtual Panel. It is helpful to have two monitors to allow you to see the touch screen and the Virtual Panel at the same time.
+> Der Inhalt des Touchscreens wird jeweils in einem separaten Fenster gezeigt. Es empfiehlt sich daher, mit mehreren Monitoren zu arbeiten.
 
-The Virtual Panel works exactly the same as the real panel; to hold a
-button down so you can press a second button, right click it using the
-mouse.
+Das 'Virtual Panel' arbeitet wie die richtige Pultoberfläche. Um eine
+Taste gedrückt zu halten (für Tastenkombinationen), klicken Sie diese
+mit der rechten Maustaste.
 
-Using Virtual Panel with a console
-----------------------------------
+Verwenden des Virtuellen Panels mit dem Pult
+--------------------------------------------
 
-As well as its use with the simulator, you can also run the Virtual
-Panel on a console. This could be handy to keep things going if you are
-suffering hardware problems with the real console controls.
+Das virtuelle Panel ist nicht nur für den Visualiser wichtig, sondern
+kann auch sonst auf dem Pult hilfreich sein. Wenn etwa aus irgendwelchen
+Gründen die Pult-Hardware defekt sein sollte (auch wenn nur z.B.
+einzelne Fader oder Knöpfe betroffen sind), kann man damit immer noch
+das Pult bedienen.
 
-To show the Virtual Panel, click the Tools menu on the toolbar, then
-select Other Programs, then Virtual Panel. The Virtual Panel controls
-will work in parallel with the real controls.
+Das Virtuelle Panel wird über das Tools-Menü gestartet: Tools-\>Other
+Programs-\>Virtual Panel. Die Steuerelemente wirken parallel zu den
+'echten' Bedienelementen des Pultes.

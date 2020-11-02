@@ -5,231 +5,242 @@ sidebar_label: Pixel Mapper
 original_id: pixel-mapper
 ---
 
-Creating Pixel Mapper effects
------------------------------
+Matrix-Effekte mit dem Pixelmapper erstellen
+--------------------------------------------
 
 [](https://youtu.be/UchvGw2vvU8?t=20 "Pixel Mapping")
 
-The Pixel Mapper works on a group of fixtures, which you have set up
-using the
-[Fixture Layout function](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
-This tells the console where the
-fixtures are physically located on the stage. The console then maps the
-fixtures as pixels and uses them to output a 2D effect.
+Der Pixelmapper funktioniert mit Gruppen von Geräten, die mit dem
+[Layout-Editor](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) angeordnet wurden. Damit wird dem Pult mitgeteilt, wo sich
+die einzelnen Geräte tatsächlich auf der Bühne befinden. Daraufhin
+werden die einzelnen Pixel der Effekte passend auf die Geräte
+abgebildet, so dass der 2D-Effekt sichtbar wird. 
 
-> At the end of this section there are a number of [step-by-step examples](pixel-mapper-examples.md) of creating effects with the pixel mapper. It's much easier to get to grips with if you can work through some examples.
+> Am Ende dieses Abschnitts sind einige [Anwendungsbeispiele](pixel-mapper-examples.md) für das Arbeiten mit dem Pixelmapper aufgeführt. Das Vorgehen ist mit konkreten Beispielen deutlich einfacher zu verstehen. 
 
-You create effects with the Pixel Mapper as follows:
+Ist das Layout entsprechend eingerichtet, können Sie mit dem Pixelmapper
+wie folgt arbeiten:
 
-1. Select the group of fixtures
+1. Wählen Sie die gewünschte Gerätegruppe aus.
 
-2. From the top level menu select \[Shapes and Effects\] then \[Pixel
-Mapper\]
+2. Im Hauptmenü wählen Sie \[Shapes and Effects\] und darauf \[Pixel
+Mapper\].
 
-3. Select \[Create effect\]. The Pixel Mapper Editor will open with a
-blank background. You can overlay your fixture layout on the window, to
-help you see where your fixtures are, by clicking on the \[Fixture
-Overlay 50/50\] context menu button.
+3. Wählen Sie \[Create effect\]. Damit öffnet sich der Pixel Mapper
+Editor mit einem schwarzen Hintergrund. Wahlweise kann das Gerätelayout
+mit angezeigt werden, um genauer arbeiten zu können. Klicken Sie dazu im
+Kontext-Bereich auf \[Fixture Overlay 50/50\].
 
 ![Effect Editor - Pixel Mapper - New Effect](/docs/images/Effect-Editor-Pixel-Mapper-New-Effect.png)
 
-### Elements
+### Elemente
+Klicken Sie unten auf die Schaltfläche \[+\], um einen Effekt zu
+erzeugen, und wählen Sie eine der verfügbaren Formen aus. Zum **Entfernen**
+bereits erzeugter Elemente wählen Sie diese aus und klicken auf den **Papierkorb**,
+Es stehen folgende Elemente zur Verfügung:
 
-Click on the \[+\] button at the bottom to add an effect, and choose a
-graphic element. You can **remove** elements by selecting them and clicking
-on the **"rubbish bin"** icon. The graphic buttons as shown below provide
-the following elements to animate:
+-   Quadrat
 
--   Square
+-   Kreis
 
--   Circle
+-   Dreieck
 
--   Triangle
+-   Stern
 
--   Star
+-   Propeller (Fan)
 
--   Fan
-
--   Spiral
+-   Spirale
 
 -   Text
 
--   Scribble *(you draw an image on the touch screen)*
+-   Zeichnen *(man kann auf dem Touchscreen zeichnen)*
 
--   Image/bitmap *(loaded from disk)*
+-   Bild aus Datei *(von der Festplatte oder einem USB-Stick)*
 
--   [Ai media server content](../synergy/operating-synergy.md#lightmap-pixel-mapping-ai-media-content)
+-   [Content eines Synergy-Ai-Servers](../synergy/operating-synergy.md#lightmap-pixelmapping-mit-ai)
 
 ![Effect Editor - Pixel Mapper - Adding an Element](/docs/images/Effect-Editor-Pixel-Mapper-Adding-an-Element.png)
 
-The graphic element will appear in the top part of the window and will
-be output to the fixtures. You can change it using the sliders below,
-which will vary depending on the shape but may include:
+Nach der Auswahl wird das gewünschte Element oben rechts angezeigt und
+zu den verwendeten Geräten ausgegeben. Das Element lässt sich mit den
+Fadern unterhalb der Darstellung genauer einstellen (je nach
+Element-Typ):
 
-- Opacity
-- X, Y position
-- Width, height
+- Opacity (Sichtbarkeit)
+- X/Y-Position
+- Width, height (Breite, Höhe)
 - Zoom
 - Rotation
-- Border width
-> To change the **colour**, click on the **layer name**
+- Border width (Randstärke)
+> Zum **Ändern der Farbe** klicken Sie links auf den **Namen des Layers**.
 
 ![Effect Editor - Pixel Mapper - Circle on Layer](/docs/images/Effect-Editor-Pixel-Mapper-Circle-on-Layer.png)
 
-### Animations
+### Animationen
 
-Then with the graphic element selected on the left hand side, click on
-the \[+\] button again and choose an **Animation** (how your graphic element
-will move or change) or **Visual Effect** (which change the appearance of the element).
-The animated effect will show in the black window
-and be output to the fixtures You can add multiple animations which will
-combine to give the overall effect.
+Bei noch ausgewähltem Grafikelement (links in der Layer-Darstellung)
+klicken Sie nochmals auf \[+\] und wählen eine **Animation** (Bewegung)
+oder einen **visuellen Effekt** (etwa das Aufzoomen oder Einblenden).
+Damit wird der Effekt auf dem schwarzen Hintergrund und den Geräten
+animiert. Es lassen sich mehrere Animationen miteinander kombinieren, um
+komplexe Effekte zu erzielen.
 
 ![Effect Editor - Pixel Mapper - Adding an Animation](/docs/images/Effect-Editor-Pixel-Mapper-Adding-an-Animation.png)
 
 Available animations are:
 
--   Rotate
+Folgende Animationen stehen zur Verfügung:
 
--   Slide
+-   Rotation
+
+-   Verschieben (lineare Bewegung)
 
 -   Zoom
 
--   Opacity/Fade
+-   Einblenden/Fade (Opacity)
 
--   Random
+-   Zufall/Random
 
--   Grid Fit *(elements will accurately align with the pixel grid)*
+-   Grid Fit *(genaues Einpassen der Elemente in das Raster)*
 
--   Linear gradient
+-   Linearer Verlauf
 
--   Radial gradient
+-   Radialer Verlauf
 
--   Motion blur *(adds a trail to objects)*
+-   Motion Blur *(Bewegungsunschärfe)*
 
-The animation will move or transform the element. It can also "spawn" or
-create new copies of the element.
+Eine Animation kann das jeweilige Element verschieben oder anderweitig
+verändern. Ebenso kann sie mehrere Kopien des Elements in
+unterschiedlichen Animationsstadien erzeugen (Spawn).
 
-You can edit what the animation does by selecting the name on the left
-hand side. Sliders are provided to configure the animation, the sliders
-may vary depending on the particular effect but may include:
+Sie können die Parameter der einzelnen Animation ändern, indem Sie links
+auf deren Namen klicken. Abhängig vom Effekt werden verschiedene
+Schieberegler eingeblendet:
 
+- Speed *(Geschwindigkeit)*
 
-- Speed *(speed of the movement)*
+- Speed Random *(Zufälligkeit der Bewegung)*
 
-- Speed Random *(adds a random factor to the speed of each element)*
+- Spawn Rate *(Häufigkeit neuer Kopien des Elements)*
 
-- Spawn Rate *(sets the rate at which new elements are created)*
+- Spawn Random *(Zufälligkeit neuer Kopien)*
 
-- Spawn Random *(adds a random factor to the spawn rate)*
+- Spawn For *(Maximalwert neuer Kopien des Elements)*
 
-- Spawn For *(sets how many elements will be spawned, after this no mor
-will appear)*
+- Run For / And Then *(Anzahl der Effekt-Durchläufe und bestimmen, ob
+danach gestoppt oder auch der Effekt deaktiviert werden soll - freeze
+oder kill)*
 
-- Run For / And Then *(for each element, sets how many cycles it runs for,
-and what happens to it after that - freeze or kill)*
+- Direction / Direction Random *(Richtung und Zufälligkeit der Richtung -
+nur bei Bewegungen)*
 
-- Direction / Direction Random *(for movement effects only)*
+- Start Angle / End Angle *(Start/Endwert, nur bei Rotation)*
 
-- Start Angle / End Angle *(for rotation effects only)*
+Ein paar Tipps zu den Animationen:
 
-Some points about animations:
+-   Für das Einpassen ins Raster (**Grid Fit**) ist die Anzahl von Zeilen
+    und Spalten anzugeben.
 
--   For **Grid Fit** you need to specify the number of rows and columns in
-    the grid.
+-   Für die **Verlaufs-Animation** stellen Sie den Start- und Endwert
+    sowie den Versatz dazwischen ein. Mit Spread wählen Sie die
+    Verlaufs-Kurve: Pad ist ein einfacher, einmaliger Verlauf. Reflect
+    ist ein Verlauf, der sich immer auf- und abbaut. Repeat schließlich
+    ist eine Wiederholung in immer nur einer Richtung).
 
--   For the **gradient animations** you set the start and end opacity and
-    the offset between them; you also set the Spread which can be Pad
-    (single gradient), Reflect (repeats the gradient in and out) or
-    Repeat (snaps back to start then repeats the gradient fade)
-
--   If you specify **Spawn For** or **Run For**, the simulation will stop after
-    the specified number of cycles. To restart the simulation, click the
-    **reset** button on the top right of the Effect Editor window.\
+-   Gibt man einen Wert für \[Spawn For\] oder \[Run For\] ein, so
+    stoppt die Animation nach der entsprechenden Anzahl von Zyklen. Um
+    sie wieder zu starten, betätigen Sie den **Reset-Knopf** oben rechts im
+    Fenster des Effekt-Editors.\
     ![Effect Editor - Pixel Mapper - Reset Button](/docs/images/Effect-Editor-Pixel-Mapper-Reset-Button.png)
 
--   For an effect with a **start point** and **end poin**t, the number of cycles
-    is the number of times it goes between the start and end points. For
-    an effect with no end point the number of cycles is based on the
-    master clock and animation speed.
+-   Für Effekte mit **Start** und **Endpunkt** bestimmt \[Cycles\] die Anzahl
+    der Durchläufe. Bei Effekten ohne Endpunkt bestimmt sich die Anzahl
+    hingegen aus dem Master-Tempo und der Geschwindigkeit der Animation.
 
 ### Pixel Mapper Preview Window
 
-If you don't have fixtures connected, you can see how the effect will
-look on the fixtures using the Pixel Mapper preview window - open it by
-pressing \<View/Open\>, \[Open Workspace Window\], \[Pixel Mapper
-Preview\]. A real life view of each effect currently running is shown in
-a button at the bottom of the screen, you can select each of these by
-pressing the button.
+Zur Vorschau, wie der Effekt später aussehen wird, öffnen Sie das
+Fenster 'Pixel Mapper Preview' mit \[Open Workspace Window\], \<View / Open\>
+\[Pixel Mapper Preview\]. Eine Vorschau der laufenden Effekte
+erscheint; unten können Sie zwischen den einzelnen Animationen
+umschalten.
 
 ![Pixel Mapper Preview Window](/docs/images/Pixel-Mapper-Preview-Window.png)
 
-### General Use
+### Allgemeine Hinweise
 
-If you wish you can overlay further layers on the effect. Once you have
-an effect you like, you can save it to a playback.
+Wenn gewünscht, können mehrere Layer (Ebenen) miteinander kombiniert
+werden. Ist das gewünschte Ergebnis erzielt, so kann es als Cue
+gespeichert werden.
 
-> When adjusting the parameter sliders, as well as using click/drag on the screen you can also use the wheels or type in a numerical value. To assign a slider to the wheels or for numerical input, click the value box to the right of the control. Double click the value to reset it to its default, or use the +/- softkey to change the sign of the value.
+> Sowohl beim Einstellen der Fader auf dem Bildschirm als auch beim Klicken und Ziehen lassen sich alternativ die Werte mit den Rädern oder den Zifferntasten eingeben. Um dies für einen Wert zu aktivieren, klicken Sie auf das Feld rechts, das den jeweiligen Wert zeigt. Mit einem Doppelklick kann man den Vorgabewert wiederherstellen, und mit \[+/-\] lässt sich der Wert invertieren.
 
--   You can **reorder** the Pixel Mapper layers by selecting the layer to
-    move and clicking on the up/down arrow buttons.
+-   Die **Reihenfolge** der Layer lässt sich verändern, indem man zuerst auf
+    den zu verschiebenden Layer klickt und dann unten die Schaltflächen
+    'Pfeil hoch'/'Pfeil runter' bedient.
 
--   You can **copy** or move layers, elements and animations by pressing
-    Copy or Move, then select an element, then select a destination to
-    copy or move it to.
+-   Layer, Elemente und Animationen lassen sich mit \<Copy\> und
+    \<Move\> **kopieren** und **verschieben**: drücken Sie \<Copy\> (oder
+    \<Move\>), dann das zu verschiebende/kopierende Element, und
+    schließlich auf das gewünschte Ziel des Kopierens.
 
-### Effect Master Parameters
+### Master-Parameter für Effekte
 
-Each effect you create also has master parameters which affect how
-it will combine with other effects. Click on the effect name top
-left to set these parameters:
+Jeder erstellte Effekt hat auch Master-Parameter, mit denen bestimmt
+wird, wie sich dieser im Zusammenspiel mit anderen Effekten verhält. Zur
+Anzeige dieser Master-Parameter klicken Sie links oben auf den
+Effekt-Namen:
 
 ![Effect Editor - Pixel Mapper - Effect Master Parameters](/docs/images/Effect-Editor-Pixel-Mapper-Effect-Master-Parameters.png)
 
--   The **Block Effect** switch allows you to create a pixel map effect
-    which will block out any pixel maps running on the selected fixtures
-    (according to the [priority setting](../cues/playback-options.md#priority)).
-    This lets you create a cue
-    which will temporarily stop a pixel map effect (similar to Block
-    Shapes).
+-   Der Schalter **Block Effect** erlaubt es, einen Pixelmapper-Effekt zu
+    bauen, der andere laufende Pixelmapper-Effekte stoppt (je nach
+    [Priorität](../cues/playback-options.md#priority)). Damit ähnelt 
+	die Wirkung dem Block Shape.
 
--   **Colour** sets the background colour of the effect (Will have no effect
-    if **Back Opacity** is 0)
+-   **Colour** bestimmt die Hintergrundfarbe dieses Effekts (unwirksam,
+    falls **Back Opacity** auf 0 steht).
 
--   **Back Opacity** sets whether other effects will show through in the
-    background of this effect. By default this is 0, so other effects
-    will show through.
+-   **Back Opacity** bestimmt die Sichtbarkeit anderer Effekte durch diesen
+    hindurch. Default ist 0 -- andere Effekte werden transparent
+    hindurchgelassen.
 
--   **Opacity** sets how much other effects show through the foreground of
-    this effect.
+-   **Opacity** bestimmt die Sichtbarkeit anderer Effekte im Vordergrund
+    dieses Effekts.
 
--   **X/Y/Zoom/Rotation** let you modify the position and size of the effect
+-   **X/Y/Zoom/Rotation** bestimmen Position und Größe des Effekts.
 
--   **Master Speed** sets the overall speed of the effect, this controls
-    animation speeds and cycle counts
+-   **Master Speed** ist die generelle Geschwindigkeit des Effekts. Das
+    beeinflusst die Animationsgeschwindigkeit sowie die Anzahl der
+    Zyklen.
 
--   **Pre-Spool** makes the effect start mid-flow as if it has already been
-    running for a time. This lets you start slow-building effects in
-    their full glory.
+-   **Pre-Spool** startet der Effekt 'mittendrin', so als ob er bereits
+    eine Weile gelaufen sei. Damit lassen sich langsam aufbauende
+    Effekte gleich in ihrer ganzen Pracht starten.
 
--   **Run For** / **And Then** sets how many cycles the effect will run for, and
-    what will happen at the end (**Freeze**, **Kill** or **Stop Spawning**). **Run For**
-    defaults to **"Forever"**.
+-   **Run For** / **And Then** wie viele Zyklen der Effekt laufen und
+    was dann passieren soll (**Freeze** (Stoppen), **Kill** (Deaktivieren) 
+	oder **Stop Spawning** (keine neuen Kopien erzeugen)). Vorgabe 
+	für **Run For** ist 0, also unbegrenzt.
 
-Pixel Mapper Layer Masters
---------------------------
+Masterregler für Pixelmapper-Layer
+----------------------------------
 
-You can assign each of the four layers to a master. The master allows
-you to adjust the layer controls in real time. When the master is
-assigned to a fader handle using the \[Assign Masters\], \[Pixel Mapper\]
-controls, the fader will control opacity of the layer.
+Jedem der vier Layer (Ebenen) des Pixelmappers kann ein Masterregler
+zugewiesen werden. Mit diesem kann der jeweilige Layer dann live
+gesteuert werden. Das Zuweisen erfolgt im System-Menü oder per \<Record\>,
+\[Create Master\], \[Pixel Mapper\]. Wählen Sie \[Layer 1\] bis \[Layer 4\]
+und drücken Sie die Auswahltaste eines Faders. Darauf steuert dieser Fader die
+Sichtbarkeit (Helligkeit) des jeweiligen Layers.
 
-This means you can create cues and palettes which can manipulate the
-layer settings of effects which are running in other cues.
+Damit ist es möglich, Cues und Paletten zu erzeugen, die die
+Layer-Einstellungen von Effekten steuern, die in anderen Cues
+gespeichert sind.
 
-To enable the layer master, turn on the **Use Master** switch in the effect
-editor window.
+Die Masterregler für die Layer müssen im Effekt-Editor aktiviert werden
+(Schaltfläche \[Use Master\]).
 
-> Layer masters may require an updated personality file
+> Für Layer-Masterregler sind ggf. aktualisierte Personalities
+    erforderlich.
 
 [](https://youtu.be/rCIIH2-DCNM?t=20 "Advanced Pixel Mapping")

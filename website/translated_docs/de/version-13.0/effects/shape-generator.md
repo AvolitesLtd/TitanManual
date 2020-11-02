@@ -7,157 +7,162 @@ original_id: shape-generator
 
 [](https://youtu.be/oTo6FxHD02o?t=20 "Using Shape Generator")
 
-A shape is simply an automatic sequence of values which modify a
-particular attribute of a fixture. A circle shape, for example, applied
-to the pan and tilt attributes, would cause the fixture to move its beam
-in a circular pattern around its current position. You can set the size
-of the circle and the speed of the circle movement.
+Ein Shape ist eine automatische Folge von Werten, die verschiedene
+Attribute eines Gerätes modulieren kann. Ein Kreis-Shape (circle) etwa,
+angewendet auf Pan und Tilt, sorgt für eine Kreisbewegung des Gerätes.
+Dabei lässt sich das Zentrum des Kreises, die Größe sowie die
+Geschwindigkeit der Bewegung beeinflussen.
 
-In addition to position shapes, there are a large number of other shapes
-available in Titan. The shapes are defined for a particular attribute
-such as colour, dimmer, focus and so on.
+Außer Positions-Shapes gibt es eine große Anzahl weiterer Shapes. Diese
+sind jeweils pro Attribut definiert, etwa für Farbe, Dimmer, Fokus usw.
 
-A further category of shapes is the **Block Shape**. This type of shape
-blocks out other shapes, preventing them from running. For example, if
-some fixtures are running a Circle shape, and then a playback is fired
-which has a Block Pan/Tilt shape on some of the fixtures, those fixtures
-will stop running the circle shape. This can be very useful to modify
-playbacks at showtime when used with the
-[playback priority feature](../cues/playback-options.md#priority).
+Eine weitere Kategorie ist der **Block Shape**. Dieser Shape
+blockiert andere Shapes und verhindert deren Ablaufen. Läuft etwa auf
+einigen Geräten ein Kreis-Shape, und wird dann ein Cue aufgerufen, in
+dem auf ein paar der Geräte ein ‚Block Pan/Tilt'-Shape abgespeichert
+ist, so beenden diese Geräte ihre Kreisbewegung. Das ist hilfreich etwa
+beim Verändern von Cues während des Showablaufs, insbesondere bei
+gleichzeitiger Nutzung der [Priorität der Playbacks](../cues/playback-options.md#priority).
 
-When you use a shape with more than one fixture, you can choose to
-either apply the shape identically to all the fixtures, or offset them
-so that the shape runs along the fixtures creating *"wave"* or *"ballyhoo"*
-type effects. This is called the **Phase** of the shape.
+Wird ein Shape auf mehr als ein Gerät angewendet, so kann das entweder
+simultan erfolgen, oder mit einem Versatz zwischen den Geräten, so dass
+Effekte wie eine *'Welle'* oder schlicht ein gewolltes *'Durcheinander'*
+entstehen. Der Versatz wird als **Phase** des Shapes bezeichnet.
 
 ![Capture Visualiser with a shape running across fixtures](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures.png)
 
-Creating a Shape
------------------
+Einen Shape erstellen
+---------------------
 
-When you create a shape, it will be applied to all selected fixtures.
+Wird ein Shape ausgewählt, so wird dieser auf die zuvor angewählten
+Geräte angewendet.
 
-1. [Select the fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) the shape is to be applied to
+1. [Wählen Sie die Geräte](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen), auf die der Shape angewendet werden soll.
 
-2. At the main menu press \[Shapes and Effects\] then \[Shape
-Generator\]
+2. Im Hauptmenü drücken Sie \[Shape and Effects\], dann \[Shape
+Generator\].
 
-3. Press \[Create\] to start a new shape
+3. Klicken Sie \[Create\], um einen neuen Shape zu starten.
 ![Shape Generator selecting a category of new shape](/docs/images/Shape-Generator-selecting-a-category-of-new-shape.png)
 
-4. Press a \[softkey\] to select the attribute type to use in the shape or
-press \[All\] for a full list
+4. Betätigen Sie eine \[Menütaste\], um den Shape nach Attribut
+auszuwählen, oder drücken Sie \[All Shapes\] für eine Gesamtliste.
 
-5. Press a \[softkey\] to select a shape, or touch the desired shape in the
-**Shapes window**. You can type a search word on the keyboard to search for
-a particular shape.
+5. Klicken Sie im **Shapes-Fenster** auf den gewünschten Shape, oder
+benutzen Sie eine \[Menütaste\] zur Auswahl. Ebenso kann man mit
+der Tastatur einen Suchbegriff für einen bestimmten Shape eingeben, um
+die Suche einzugrenzen.
 
-6. The shape will be applied to all selected fixtures
+6. Der Shape wird auf die ausgewählten Geräte angewendet.
 
 ---
 
--   If you open the Shapes window, it will remain open for instant
-    selection of shapes (you don't need to select \[Shape Generator\]).
-    The window will only show shapes which are possible on the selected
-    fixtures. Pressing attribute buttons will filter the Shapes window
-    to show only shapes for that attribute. Press the \<Dimmer\>
-    attribute button to show all shapes.\
+-   Wird das **Shapes-Fenster** geöffnet, so bleibt es ständig offen, und
+    man muss nicht immer wieder \[Shape Generator\] drücken, um einen
+    Shape abzurufen. Dieses Fenster zeigt nur Shapes, die auf die
+    gewählten Geräte anwendbar sind. Wird ein Attribut ausgewählt, so
+    wird die Liste der verfügbaren Shapes weiter verkürzt auf Shapes,
+    die für dieses Attribut verfügbar sind. Zur Anzeige aller Shapes
+    wählen Sie das Attribut ‚Dimmer' aus.
     \
     ![Shapes Workspace Window](/docs/images/Shapes-Workspace-Window.png)
 
--   Shapes are based on the current settings of the fixture, *so a
-    position circle would move around the current pan-tilt position of
-    the fixture.*
+-   Der Ausgangswert für einen Shape ist die jeweilige momentane
+    Einstellung des Gerätes; *so wird z.B. ein Kreis-Shape um die
+    momentane Pan/Tilt-Position zentriert*.
 
--   You can change the base value of a shape (e.g. the centre of a
-    circle) by changing the attributes using the wheels in the usual
-    way. You can reduce the Size to zero (see
-    [next section](#changing-size-and-speed-of-a-shape)) to help you
-    see what the base value actually is.
+-   Zum Ändern des Basiswerts eines Shapes (etwa das Zentrum eines
+    Kreises) ändern Sie wie gewohnt die entsprechenden Attribute mit den
+    Rädern. Ggf. stellt man dazu die Größe des Shapes auf null (siehe
+    [nächster Abschnitt](#ändern-von-größe-und-geschwindigkeit)), um den Basiswert genau einstellen zu können.
 
--   You can run more than one shape at a time by repeating the above
-    procedure. You can run several shapes on one fixture and the output
-    will combine in interesting ways.
+-   Zum gleichzeitigen Abruf mehrerer Shapes wiederholen Sie einfach die
+    o.g. Prozedur. Ebenso lassen sich auch mehrere Shapes auf das
+    gleiche Gerät anwenden, womit weitere interessante Effekte erzielt
+    werden können.
 
--   Press \[Shapes and Effects\], \[Shape Generator\] then \[Edit\] to
-    show what shapes are running.
+-   Zur Anzeige der momentan laufenden Shapes drücken Sie \[Shapes and
+    Effects\], dann \[Shape Generator\] und dann \[Edit\].
 
--   If you apply the same shape to two different groups of fixtures, the
-    shape will appear twice on the shape list. You can edit the two
-    shapes separately to give different directions, speeds etc (see
-    [later](#changing-size-and-speed-of-a-shape))
+-   Wird der gleiche Shape auf zwei verschiedene Gruppen von Geräten
+    angewendet, so erscheint er doppelt in der Liste. Damit lassen sich
+    die beiden Gruppen getrennt voneinander beeinflussen, etwa für
+    unterschiedliche Richtungen, Geschwindigkeiten etc. ([s.u.](#ändern-von-größe-und-geschwindigkeit))
 
--   If the selected fixture has subfixtures (cells) then you will be
-    given the option to run the shape on the main fixture, keeping all
-    cells identical, or spread across the subfixtures/cells. The options
-    are:
-    -   \[Run on Super Fixtures\] - cells are ignored, fixture operates as one
-    block
-    -   \[Run on Sub Fixtures (Linear)\] - the cells are used in numerical order
-    -   \[Run on Sub Fixtures (Group)\] - the layout of the cells is used as
-    programmed in the [Layout Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) for the group
+-   Hat das ausgewählte Gerät Teilgeräte (Zellen, Subfixtures), so kann
+    man wählen, ob der Shape auf dem Hauptgerät laufen soll und alle
+    einzelnen Zellen synchron laufen, oder ob die Zellen einzeln
+    angesteuert werden. Es gibt folgende Optionen:
+    -   \[Run on Super Fixtures\] - Zellen werden ignoriert, die Geräte werden im
+    Ganzen angesteuert
+    -   \[Run on Sub Fixtures (Linear)\] - die Zellen werden gemäß ihrer internen
+    Nummerierung angesteuert
+    -   \[Run on Sub Fixtures (Group)\] - die Zellen werden gemäß ihrer Anordnung
+    (Layout-Editor für die jeweilige Gruppe) angesteuert.
 
--   Each shape is designed to work on a particular attribute. Obviously
-    if the fixtures don't have the attribute, you will not see any
-    effect if you use the shape.
+-   Jeder Shape ist für ein spezifisches Attribut konzipiert. Verfügt
+    ein Gerät nicht über dieses Attribut, so führt auch der Shape zu
+    keinem sichtbaren Effekt.
 
--   Each shape has a default size and speed setting *(defined in the
-    shape file)*.
+-   Jeder Shape hat eine Standardgröße und -geschwindigkeit *(wird in
+    der Shape-Datei definiert)*.
 
-> When using a Rainbow colour shape, to get the full range of colours you need to set the CMY or RGB attributes to **50%**.
+> Wird ein 'Rainbow'-Farbshape verwendet, so müssen die Farb-Grundwerte (CMY oder RGB) auf **50%** gestellt werden, um sämtliche Farbkombinationen zu erzielen..
 
-Changing Size and Speed of a Shape
-----------------------------------
+Ändern von Größe und Geschwindigkeit
+------------------------------------
 
-It is easy to change the size and speed of a shape after it has first
-been created. If the display above the wheels is showing Spread and
-Offset rather than Size/Speed, press \[Adjust Speed, Size and Spread\].
+Nachdem ein Shape gestartet ist, lassen sich schnell und einfach Größe
+und Geschwindigkeit ändern. Wenn im Display oberhalb der Encoder 'Spread'
+und 'Offset' steht, so drücken Sie Taste E \[Adjust Speed, Size and
+Spread\].
 
 ![Shape Wheel Attribute Controls for Speed, Size & Spread](/docs/images/Shape-Wheel-Attribute-Controls-for-Speed-Size-Spread.png)
 
--   Control the speed of the shape using the left hand wheel
+-   Der linke Encoder steuert die Geschwindigkeit des Shapes.
 
--   Control the size of the shape using the middle wheel *(right hand
-wheel on Pearl Expert)*
+-   Der mittlere Encoder steuert die Größe des Shapes. *(Pearl Expert: rechter Encoder)*
 
--   The size and speed is shown above the wheels on the display
+-   Größe und Geschwindigkeit werden im Display angezeigt.
 
 ---
 
-Other things to know about size and speed of shapes:
+Weitere Dinge über Größe und Geschwindigkeit:
 
--   If you have more than one shape running, the controls operate on the
-    most recent one. You can edit the parameters of any shape that's
-    running using the Edit Shape function, see
-    [Editing a Shape in a Cue Using Include](editing-shapes-and-effects.md#editing-a-shape-in-a-cue-using-include).
+-   Laufen mehrere Shapes, so sind die Encoder dem zuletzt geladenen
+    zugeordnet. Die Parameter jedes einzelnen laufenden Shapes lassen
+    sich mit der 'Edit Shape'-Funktion einstellen, siehe
+    [Ändern von Shapes mit Include](editing-shapes-and-effects.md#ändern-von-shapes-mit-include).
 
--   The minimum size is zero. This will *"hide"* the shape, and the
-    fixture will resume its previous settings. The shape is, however,
-    still active.
+-   Die Minimalgröße ist Null. Dies lässt den Shape *"verschwinden"*, und
+    das Gerät kehrt zu den vorherigen Einstellungen zurück. Dennoch ist
+    der Shape noch aktiv.
 
--   Once a shape is saved in a playback, you can use the playback fader
-    or a separate
-    [Speed or Size master](../running-the-show/playback-controls.md#speed-and-size-masters)
-    to control the speed and size.
+-   Sobald ein Shape in einem Cue gespeichert ist, können Größe und/oder
+    Geschwindigkeit entweder mit dem Fader des Cues gesteuert werden,
+    oder man legt entsprechende [Masterfader](../running-the-show/playback-controls.md#speed--und-size-master) an und verwendet diese (Rate-Master, BPM-Master, Size-Master).
 
-Changing the Spread of a Shape Across Multiple Fixtures
--------------------------------------------------------
+Ändern der Verteilung eines Shapes (mehrere Geräte)
+---------------------------------------------------
 
-Shapes get more interesting (and look more impressive) when you apply
-them to multiple fixtures. You can control how a shape is spread across
-several fixtures. You can also control Phase, which is a different way
-of selecting the same thing.
+Shapes wirken interessanter (und eindrucksvoller), wenn sie auf mehrere
+Geräte angewendet werden. Titan erlaubt es, den Spread (Verteilung)
+eines Shapes zwischen mehreren Geräten einzustellen. Ebenso lässt sich
+die Phasenlage (Versatz) einstellen: ein anderer Ansatz für die gleiche
+Eigenschaft.
 
-The sequence of the shape across the fixtures is controlled by the order
-in which you selected the fixtures when you created the shape. You can
-edit the order by selecting \[Fixture Order\] in the Shape Edit menu.
+Die Reihenfolge, in der der Shape auf den ausgewählten Geräten abläuft,
+hängt von der Reihenfolge ab, in der die Geräte beim Abruf des Shapes
+ausgewählt wurden. Mittels \[Fixture Order\] lässt sich die
+Geräte-Reihenfolge innerhalb des Shape-Menüs ändern.
 
-1. If the right hand wheel isn't showing Spread, press \[Adjust Speed,
-Size and Spread\]
+1. Wenn der rechte Encoder nicht gerade den Spread steuert, drücken Sie
+auf \[Adjust Speed, Size and Spread\]
 
-2. Control the **Spread** of the shape using the right hand wheel, or to
-set in terms of Phase, press \[Adjust Spread, Phase and Offset\] and
-use the middle wheel *(right hand wheel on Pearl Expert)*.
+2. Steuern Sie den **Spread** (die Verteilung) mit dem rechten Encoder, 
+oder betätigen Sie \[Adjust Spread, Phase and Offset\] und benutzen das 
+mittlere Rad, um den Geräteversatz (Phase) einzustellen *(rechtes Rad 
+beim Pearl Expert)*.
 
 Spread = **12** *(Phase = 30 degrees)*:
 
@@ -175,85 +180,81 @@ Spread = **2** *(Phase = 180 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 2](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-2.png)
 
-In **Phase** mode, the display above the wheel shows the phase in degrees.
-For example, 180 degrees repeats every 2 fixtures, 90 degrees repeats
-every 4 fixtures, 60 degrees repeats every 6 fixtures, and so on.
+Im Display wird die **Phase** in ° (Grad) angezeigt. So sorgt etwa
+Phase=180° für eine Wiederholung jedes zweiten Gerätes, 90° jedes
+vierten Gerätes, 60° jedes sechsten Gerätes usw.
 
-The **Offset** function allows you to set the starting phase of the shape,
-when more than one shape is running. *For example, if you were running a
-Cyan shape and a Magenta shape to create a mix of colours, you would
-probably want to start them with Cyan at full and Magenta at zero to
-give the full range of colours. In this case you would set one of the
-shapes to have a Phase Offset of 180 degrees.* Without the phase offset,
-both shapes would reach full at the same time.
+**Offset** ist der Startwert des Shapes im Vergleich zu anderen gleichzeitig
+laufenden Shapes. *Wenn beispielsweise gleichzeitig ein Shape auf Cyan
+und einer auf Magenta läuft, um einen Farbmix zu erzielen, so möchte man
+vielleicht mit Cyan auf 100% und Magenta auf 0 beginnen, um den gesamten
+Farbbereich abzudecken. Dazu stellt man einen der beiden Shapes auf
+einen ‚Phase Offset' von 180°.* Ohne diese Einstellung würden beide
+Shapes gleichzeitig 0 bzw. 100% erreichen.
 
-Shape Direction
----------------
+Shape-Richtung
+--------------
 
-The \[Direction\] softkey opens a menu allowing you to set a direction
-for the shape. If you have defined a
-[2D layout for the group](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)
-this allows you to have shapes that visibly
-move in particular directions.
+Die Menüfunktion \[Direction\] erlaubt es, die Richtung des Shapes
+zu ändern; hat man ein [2D-Layout](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) erstellt, so kann man abhängig vom
+Shape eine gezielte Bewegung erreichen.
 
-You can keep the shape direction menu open using the \<Menu Latch\>
-button, to allow you to try different options and see the effects.
+Mit der Taste \<Menu Latch\> lässt sich das "Shape Direction"-Menü
+einrasten, so dass man schnell die verschiedenen Einstellungen
+durchprobieren kann.
 
-Beat and Cycles
----------------
+Beat und Cycles (Durchläufe)
+----------------------------
 
-The \[Adjust Beat and Cycles\] option lets you set on the wheels how the
-programmed speed will trigger the shape, and how many times the shape
-will run.
+Die Option \[Adjust Beat and Cycles\] steuert, wie das generelle Tempo
+des Programmers das Tempo des Shapes beeinflusst und wie oft dieser
+läuft.
 
 ### Beats
 
-The Beats option defaults to \[Beats=1\] which makes the shape run at
-normal speed. Higher numbers will divide the count, for example
-\[Beats=4\] will make the shape run at quarter of the speed. This is
-really useful to synchronise different types of shapes which are running
-together.
+Vorgabewert ist \[Beats=1\]: jeder Beat entspricht einem kompletten
+Durchlauf des Shapes, wie in früheren Software-Versionen. Höhere Werte
+dagegen sorgen dafür, dass das Tempo des Shapes entsprechend reduziert
+wird. Mit z.B. \[Beats=4\] lässt sich erreichen dass für einen
+kompletten Shape-Durchlauf 4 Beats erforderlich sind -- der Shape läuft
+langsamer.
 
-Clicking the middle of the wheel roller image on screen or pressing \<@A\>
-for **Wheel A** allows you to type in a number for the Beats parameter, and
-also shows two further options for Beats: \[Match to Spread\] sets the
-beat count to be the same as the current Spread setting for the shape.
-This is useful when using dimmer shapes with movement shapes as it will
-make each fixture turn on for a full cycle of the movement shape. The
-\[Custom\] option resets the \[Value\] option to the last entered value.
+Klickt man auf den Wert des **linken Encoders** im Display oder betätigt die jeweilige
+@-Taste, so kann man die gewünschte Zahl direkt eingeben; außerdem
+werden zwei weitere Optionen angeboten: mit \[Match to Spread\] (an den
+Spread anpassen) wird der Beat Count auf den Spread-Wert des Shapes
+gesetzt, was vor allem bei Dimmer-Shapes sinnvoll ist. Klickt man
+dagegen auf \[Custom\], so kann man einen numerischen Wert eingeben.
 
 ### Cycles
 
-The cycles option sets how many times the shape will run. By default
-this is set to infinity (∞) which means the shape will continue to run
-until you stop it. If you set a fixed number, the shape will stop by
-itself after that number of cycles.
+Mit Cycles (Durchläufe) stellt man ein, wie oft der Shape laufen soll.
+Vorgabewert ist Unendlich (∞), womit der Shape läuft, bis er wieder
+gestoppt wird. Ändert man dies auf eine andere Zahl, so läuft der Shape
+nur die vorgegebene Anzahl von Zyklen und hält dann an.
 
-You can type in a number instead of using the wheels by clicking the
-middle of the wheel roller image on screen or pressing \<@B\> for **Wheel B**. If
-you are typing in a number you can enter part cycles, for example 1.5.
+Zum direkten Eingeben eines Zahlenwertes drücken Sie die entsprechende
+@-Taste oder klicken auf den Wert des **mittleren Encoder** im Bildschirm. 
+Eine Eingabe von Dezimalzahlen (z.B. 1.5) sorgt dafür, dass der letzte 
+Durchlauf nur zum Teil durchgeführt wird und dann stehenbleibt.
 
-Using Shapes in Cues
---------------------
+Verwenden von Shapes in Cues
+----------------------------
 
-When you save a shape into a cue, you can set the playback fader to
-control the size and/or speed of the shape in
-[playback options](../cues/playback-options.md) to give you more options at
-show time; you can also control the size and speed from separate
-[Size Master and Speed Master faders](../running-the-show/playback-controls.md#speed-and-size-masters).
+Wird ein Shape in einen Cue (auf ein Playback) gespeichert, so lässt
+sich mit den [Playback-Optionen](../cues/playback-options.md) einstellen,  
+dass der Fader z.B. die Größe und/oder Geschwindigkeit
+des Shapes steuert; ebenso lassen sich [Master (Size, Speed, BPM)](../running-the-show/playback-controls.md#speed--und-size-master) für die
+Steuerung verwenden. 
 
-You can use shapes in a cue list, see
-[Shape Tracking in Cue Lists](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists)
-on how the shapes will behave as you go from cue to cue.
+Shapes lassen sich auch in Cuelisten verwenden - in [Tracking von Shapes in Cuelisten](../cue-lists/creating-a-cue-list.md#tracking-von-shapes-in-cuelisten) ist beschrieben, wie sich die Shapes in diesem Fall verhalten.
 
-You can also adjust parameters of the shape at playback time using the
-\[Select Shape\] menu, which is on the \[Edit\] menu of the Shape Generator
-menu.
+Laufende Shapes lassen sich zum Editieren mittels \[Select Shape\]
+auswählen - dies befindet sich im Menü \[Edit\] des Shape Generators.
 
-Storing Shapes in Palettes
---------------------------
+Speichern von Shapes in Paletten
+--------------------------------
 
-You can create palettes containing shapes. This is really useful to
-quickly call back shapes pre-configured with different spread and speed
-settings. See
-[Creating an Effects Palette (Shape or Pixel Mapper)](../palettes/creating-palettes.md#creating-an-effects-palette-shape-or-pixel-mapper).
+Es lassen sich auch Paletten mit Shapes erstellen. Das ist z.B. sehr
+hilfreich mit verschiedenen Spread- oder Size-Einstellungen. Siehe
+[Effekt-Paletten](../palettes/creating-palettes.md#erstellen-einer-effekt-palette).

@@ -5,10 +5,11 @@ sidebar_label: System Menu and User Settings
 original_id: system-settings
 ---
 
-The console has a large number of options to help you set it up just the
-way you like it. Commonly used options can be set from the User Settings
-menu which is available on a softkey when you hold down the \<Avo\>
-button.
+Titan bietet eine Vielzahl von Optionen, um es den jeweiligen
+Anforderungen entsprechend konfigurieren zu können. Auf häufig benötigte
+Optionen kann man mit der Menütaste 'User Settings'
+(Benutzereinstellungen) zugreifen -- drücken Sie dazu \<AVO\> + \[User
+Settings\].
 
-In this chapter there is also information on how to upgrade the
-application software.
+In diesem Kapitel wird außerdem das Vorgehen zur Aktualisierung der
+Software beschrieben.

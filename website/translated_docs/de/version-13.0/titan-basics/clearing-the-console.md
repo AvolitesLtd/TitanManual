@@ -5,23 +5,24 @@ sidebar_label: Clearing the Console
 original_id: clearing-the-console
 ---
 
-When you start a new show on Titan it is usually a good idea to clear
-the console. All programming and patching is deleted, but user options
-are not changed.
+Bevor man beginnt, eine neue Show zu programmieren, empfiehlt es sich,
+den Inhalt des Pultes zu löschen. Dabei wird sowohl das Patching als
+auch die Programmierung gelöscht, die Benutzereinstellungen bleiben
+jedoch erhalten.
 
-1. Press the \<Disk\> button.
+1.  Drücken Sie die Taste \<Disk\>.
 
-2. Press \[New Show\].
+2.  Drücken Sie \[New Show\].
 
-3. Press \[OK\] to confirm.
+3.  Drücken Sie \[OK\] zur Bestätigung.
 
-4. Press \<Exit\> to leave Disk mode.
+4.  Drücken Sie \<Exit\>, um den Disk-Modus zu beenden.
 
--   When starting a new show you have the option to keep existing DMX
-    settings. This preserves the DMX/TitanNet configuration of the
-    console which determines how the XLR sockets on the back of the
-    console are used and how DMX is sent over the network.
+-   Beim Starten einer neuen Show lässt sich wählen, ob die bereits im
+    Pult vorhandenen DMX-Einstellungen übernommen oder die aus der Show
+    verwendet werden sollen; damit wird die Zuordnung der internen
+    Linien auf die DMX-Anschlüsse und Art-Net-Geräte bestimmt.
 
--   There is also an option \[Wipe\] in the System menu which has the
-    same function, this option is provided for Avolites oldies who are
-    used to the "classic" Avolites software.
+-   Im System-Menü gibt es außerdem die Option \[Wipe\], die die gleiche
+    Funktion hat; Avolites-Oldies werden dies von der Classic-Software
+    so gewohnt sein .

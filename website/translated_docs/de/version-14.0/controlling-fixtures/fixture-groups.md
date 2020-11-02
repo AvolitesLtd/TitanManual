@@ -66,10 +66,10 @@ Gruppen.
 -   Die Reihenfolge der Auswahl der einzelnen Geräte beim Anlegen der
     Gruppe wird ebenfalls gespeichert. Dies wirkt sich später aus bei
     den Funktionen 'Last Fixture' -- 'Next Fixture' (siehe [nächster
-    Abschnitt](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)), beim Programmieren von Abläufen, dem Fan-Modus sowie der
+    Abschnitt](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen)), beim Programmieren von Abläufen, dem Fan-Modus sowie der
     Überlappungsfunktion.\
 	Die Reihenfolge lässt sich später auch
-    ändern, siehe [nächster Abschnitt](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).\
+    ändern, siehe [nächster Abschnitt](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen).\
     Die Reihenfolge innerhalb der Gruppe lässt sich beim Aufrufen
     überschreiben: halten Sie dazu die jeweilige Gruppen-Taste/den
     Button gedrückt, und wählen Sie die entsprechende Funktion mit den
@@ -120,6 +120,11 @@ Geräte dieses Typs enthalten (z.B. \[All Robe Pointe\]). Eine weitere
 Gruppe wird pro Patchvorgang erstellt, wenn mehrere Geräte gepatcht
 werden, z.B. \[4 BB4\]. Diese Funktion kann mit der Benutzereinstellung
 \[Auto Groups\] deaktiviert werden.
+
+-	Automatisch erzeugte 'All'-Gruppen können nicht gelöscht werden;
+	stattdessen werden Sie in die Show Library verschoben. Das passiert 
+	auch, wenn eine zu löschende Gruppe für den Pixelmapper verwendet 
+	wird. Dabei wird eine entsprechende Warnung angezeigt.
 
 Gerätereihenfolge und -anordnung in den Gruppen
 ------------------------------------------------
@@ -214,6 +219,6 @@ Breite) angeordnet.
 
 -   Weitere Details und Beispiele zum Layout-Editor gibt es im Abschnitt
     zum [Pixel Mapper ](../effects/pixel-mapper.md). Es gibt außerdem
-    spezielle Funktionen zur Verwendung des Layouts mit [Ai/Synergy](../synergy/operating-synergy.md#layout-editor-with-ai-server).
+    spezielle Funktionen zur Verwendung des Layouts mit [Ai/Synergy](../synergy/operating-synergy.md#verwendung-des-layout-editors-mit-ai).
 
 > Um die enthaltenen Geräte vorübergehend in zufälliger Reihenfolge auszuwählen, halten Sie den Gruppen-Button gedrückt und wählen mit den Menütasten \[Random Order\].

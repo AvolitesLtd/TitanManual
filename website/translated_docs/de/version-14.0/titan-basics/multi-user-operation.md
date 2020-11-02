@@ -5,170 +5,163 @@ sidebar_label: Multi-User Operation
 original_id: multi-user-operation
 ---
 
-You can connect multiple consoles together to work together on a show.
-You can also have multiple user setups on a show on a single console to
-allow different layouts, for example for a support band LD.
+Es lassen sich mehrere Pulte zum gemeinsamen Steuern einer Show
+verbinden. Ebenso lassen sich mehrere Benutzer - auch auf ein und
+demselben Pult - anlegen, etwa mit verschiedenen Tastenanordnungen oder
+Speicherplatz-Belegungen. Das kann z.B. für Support-Bands sinnvoll sein.
 
-Users
------
+Users -- Benutzer
+-----------------
 
-Each show can have multiple users. Each user has their own user
-settings, key profiles and handle layout (known as a *handle world*).
-This provides a quick way to switch between preferred user settings and
-handle layouts, for example at a festival or other event where there are
-a number of operators.
+In jeder Show kann es mehrere Benutzer geben, von denen jeder seine
+eigenen Einstellungen, Tastenprofile und Handle Worlds verwalten kann.
+Damit lässt sich sehr schnell zwischen verschiedenen Einstellungen und
+Belegungen umschalten, etwa bei einem Festival mit mehreren Operatoren.
 
-Users are stored in the showfile and the currently selected user is
-restored when loading a show. The default user is called "Operator" and
-the prompt area in the display shows the current user name and selected
-key profile.
+Die Benutzer werden mit in der Show-Datei gespeichert; der beim
+Speichern aktive Benutzer wird beim Laden der Show wieder aktiviert. Die
+Vorgabe für den Benutzer ist "Operator"; der jeweils aktive Benutzer und
+sein Tastenprofil werden im Display angezeigt.
 
 ![systemarea](/docs/images/System-Area.png)
 
-To change or create users, go to the Users menu.
+Das Ändern und Neuanlegen von Benutzern erfolgt im Menü 'Users'
+(Benutzer).
 
-1. Press the \<Disk\> button.
+1.  Drücken Sie die Taste \<Disk\>.
 
-2. Press \[Users\].
+2.  Klicken Sie auf \[Users\].
 
-3. To switch to a different user, press \[Change Current User\] and
-select a new user from the list (the current user is highlighted).
+3.  Um zu einem anderen Benutzer zu wechseln, klicken Sie auf \[Change
+Current User\] und wählen einen anderen Benutzer (der momentan aktuelle
+Benutzer ist markiert).
 
-4. To create a new user, press \[Add a User\], enter a name for the new
-user and press \[OK\].
+4.  Um einen neuen Benutzer anzulegen, wählen Sie \[Add a User\], geben
+einen Namen ein und drücken Sie \[OK\].
 
-5. You can also quickly change user from the root menu by holding
-\<Avo\> shift and pressing \[User ... \]
+5.  Ebenso kann man schnell im Hauptmenü den Benutzer wechseln: halten
+Sie die \<Avo\>-Taste gedrückt und wählen Sie aus dem Menü \[User ... \]
 
--   If multiple consoles are connected in a collaborative session, any
-    user added to one of the consoles will be available on any of the
-    other consoles.
+-   Wird mit mehreren Konsolen gleichzeitig an der Show gearbeitet, so
+    erscheint ein neu angelegter Benutzer automatisch auch auf den
+    anderen Pulten.
 
 Handle Worlds
 -------------
 
-Each show can have multiple Handle Worlds, each having its own layout of
-handles. This allows each user to have their own layout of cues,
-palettes and chases which can be easily switched, for example when a
-support band and headline band are using the same console, or when
-multiple programmers are working collaboratively on a number of
-consoles.
+Jede Show kann mehrere Handle Worlds enthalten, wobei jede
+unterschiedliche Tastenbelegungen und Anordnungen von Schaltflächen
+speichert. Damit kann sich jeder Benutzer seine individuellen
+Bedienelemente zusammenstellen, zwischen denen dann schnell umgeschaltet
+werden kann.
 
-When a new user is selected, the handle world they were using is also
-loaded.
+Wird der Benutzer gewechselt, so wird auch die Handle World gewechselt.
 
-All handle worlds are stored within the showfile, the default handle
-world is called "Mapping World 1".
+Sämtliche Handle Worlds werden in der Showdatei gespeichert; die Vorgabe
+für die Handle World ist "Mapping World 1".
 
-Handle Worlds are managed from the Disk menu.
+Das Verwalten der Handle Worlds erfolgt ebenfalls im Menü "Disk":
 
-1. Press the \<Disk\> button.
+1.  Drücken Sie die Taste \<Disk\>.
 
-2. Press \[Handle Worlds\].
+2.  Klicken Sie auf \[Handle Worlds\].
 
-3. To switch to a different handle world, press \[Select Handle World\]
-and select a new handle world from the list (the current one is
-highlighted).
+3.  Zum Wechseln der Handle World klicken Sie \[Select Handle World\]
+und wählen aus der Liste eine andere Handle World (die momentan aktive
+ist markiert).
 
-4. To create a new handle world, press \[Add Handle World\], enter a
-name for the new world and press \[OK\].
+4.  Um eine neue Handle World anzulegen, wählen Sie \[Add Handle
+World\], geben eine Namen ein und klicken \[OK\].
 
-5. \[Delete Handle World\] will delete the world, any handles used only
-in that world will become unassigned (and can be retrieved using the
-Show Library if needed).
+5.  Mit \[Delete Handle World\] wird die Handle World gelöscht;
+Schaltflächen, die nur in dieser verwendet wurden, sind nur noch über
+das Show-Verzeichnis (Show Library) erreichbar und können bei Bedarf neu
+zugeordnet werden.
 
--   Items created in a different handle world can be accessed using the
-    Show Library workspace and assigned to handles in the current handle
-    world.
+-   Schaltflächen/Speicherplätze aus anderen Handle Worlds sind über das
+    Show-Verzeichnis (Show Library) erreichbar und können in der eigenen
+    Handle World neu zugeordnet werden.
 
--   The \[Follow World Page Change\] option sets whether the handle page
-    will change if a user using the same handle world on another console
-    changes the page.
+-   Die Option \[Follow World Page Change\] bestimmt, ob auf anderen
+    Pulten, die in der gleichen Handle World arbeiten, die Seiten der
+    Speicherplätze synchron gewechselt werden.
 
-Linking to other TitanNet Sessions
-----------------------------------
+Verbinden mit anderen TitanNet-Sessions
+---------------------------------------
 
-If multiple Titan consoles are connected in the same network you can
-choose to connect them as multi-user, 
-[backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup),
-or both. This is also how you connect [TitanNet processors](../titan-net.md)
-to expand DMX outputs.
+Sind mehrere Titan-Pulte im gleichen Netzwerk miteinander
+verbunden, so können diese als Multi-User, [Backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#pulte-für-den-backup-betrieb-einrichten) oder beides
+gleichzeitig arbeiten.
 
-> All consoles to be linked must be running the same version of Titan
-for networking to work.
+> Alle Pulte in einer Titan-Session müssen auf der gleichen Software-Version laufen.
 
-For details of how to connect Titan consoles together on a network, see
-[Networking the Console](../networking.md).
+Details zur Einrichtung des Netzwerkbetriebs mehrerer Pult siehe
+[Netzwerk einrichten](../networking.md).
 
-1. Press the \<Disk\> button.
+1.  Drücken Sie die Taste \<Disk\>.
 
-2. Press \[TitanNet Sessions\].
+2.  Klicken Sie auf \[TitanNet Sessions\].
 
-3. \[Sessions View\] opens a window that shows you how your console is
-connected to others, and what other TitanNet sessions are available. You
-can touch on another console in the window and click \[Connect\] to
-start a connection, or use the other buttons to leave a session.
+3.  Mit \[Sessions View\] erhält man ein Fenster mit einer Übersicht,
+wie das Pult gerade mit anderen Pulten verbunden ist bzw. welche
+TitanNet-Sessions verfügbar sind. Zum Verbinden klicken Sie im Display
+auf das Symbol eines anderen Pultes und wählen \[Connect\].
 
-4. Or select \[Backup\], \[Multi-User\] or \[Backup & Multi-User\] to
-show a list of sessions which you can connect to. Click on the session
-to start the connection.
+4.  Oder Sie wählen \[Backup\], \[Multi-User\] oder \[Backup &
+Multi-User\] -- auch hier werden momentan verfügbare Sessions angezeigt.
+Klicken Sie auf eine Session, um sich mit dieser zu verbinden.
 
 ![SessionsView](/docs/images/SessionsView.png)
 
-A green line shows a good connection, a dotted red line shows a
-problem with a connection. Unavailable consoles are shown with a red
-background.
+Eine grüne Linie zeigt eine gute Verbindung an, eine gepunktete rote
+Linie dagegen Verbindungsprobleme. Nicht verfügbare Pulte erscheinen
+auf rotem Hintergrund.
 
-Initially all consoles are "Master" consoles. If you connect to a
-session on another console as multi-user you become a "Slave" on
-that console. The show on the Master is transferred across the
-network to the Slave. On the Slave you can choose to save the show
-locally or to save changes back to the Master console.
+Zunächst fungieren alle Pulte als Master. Verbindet man sich nun von
+einem anderen Pult aus mit dieser Session im Mehrbenutzerbetrieb, so
+wird dieses Pult ein Slave und übernimmt den momentanen Stand der
+Show vom Master-Pult. Auf dem Slave-Pult kann man wählen, ob die
+Show lokal oder auf dem Master-Pult gespeichert werden soll.
 
-The toolbar will show details of the master/slave status. Console
-legends can be changed in the System menu using the \[Console
-Legend\] option.
+In der Titelleiste werden Details zum Master/Slave-Status angezeigt.
+Der Name des jeweiligen Pultes lässt sich mit der Option \[Console
+Legend\] ändern.
 
 ![Shell Slave](/docs/images/Shell-Slave.png)
 
-Consoles connected in a multi-user session work on the same show. If
-the same handle worlds are selected then an action on one console is
-mirrored across them all, for example firing a cue on the slave
-console will also fire the cue on the master. If the master has
-motorised faders, the fader will move; if not, fader levels must
-match before they can take over. If different handle worlds are
-selected, users can work independently on their own pool of handles.
+Im Mehrbenutzerbetrieb arbeiten Pulte gemeinsam an der gleichen Show.
+Ist auf allen die gleiche Handle World gewählt, so werden Änderungen an
+sämtliche Pulte übertragen; wird z.B. ein Cue auf einem Slave-Pult
+gestartet, so wird dieser auch auf dem Master-Pult als aktiv
+gekennzeichnet. Auf Pulten mit Motorfadern fahren diese auf den
+entsprechenden Pegel; sind keine Motorfader vorhanden, so muss der Fader
+manuell auf den aktuellen Wert gebracht werden, um die Steuerung dieses
+Cues zu übernehmen. Arbeiten die Pulte dagegen in unterschiedlichen
+Handle Worlds, so ist ein weitgehend unabhängiges Arbeiten möglich.
 
-> All consoles in a session using the same user & handle world will
-  share the same connected handle. If this is not the dersired
-  behaviour, then  the other consoles in the session will require
-  their own user/handle world.
+> Pulte mit dem gleichen Benutzer und der gleichen Handle World haben immer auch das gleiche Playback-Handle connected, also mit der Steuerung verbunden. Ist dies nicht erwünscht, so muss ein anderer benutzer und Handle World gewählt werden.
 
-In all situations the master console outputs DMX and channels in a
-remote programmer are shown with a blue dot on the touch wheel
-views. If two or more consoles are editing the same fixture, the
-last console to change any attribute will take over control of the
-fixture.
+In jedem Falle erfolgt die DMX-Ausgabe durch das Master-Pult. Kanäle,
+die auf anderen Pulten im Programmer aktiv sind, werden mit einem blauen
+Punkt bei der Anzeige der Räder markiert. Wird auf mehreren Pulten
+gleichzeitig an einem Gerät gearbeitet, so hat das Pult Priorität über
+das Gerät, an dem die letzte Änderung vorgenommen wurde.
 
-Slaves can leave a session using the \[Leave Session\] button in the
-**Sessions View** or in the **TitanNet menu**. The console will restore the
-local show it had loaded prior to joining. Master consoles have the
-option to \[Terminate Session\].
+Slave-Pulte können die Session jederzeit verlassen: entweder per
+Schaltfläche \[Leave Session\] in der Sessions-Ansicht oder im
+TitanNet-Menü. Nach dem Verlassen der Session wird die Show geladen, die
+vor dem Beitritt zur Session aktiv war. Auf Master-Pulten gibt es
+hingegen die Option \[Terminate Session\] (Session beenden).
 
-If a console is running as
-[backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup),
-it has options to \[Takeover\],
-\[Sync now\] and \[Leave Session\]. If \[Takeover\] is selected, the
-console will immediately become the master and take over DMX output
-with the chosen user and handle worlds selected. The console which
-was master will go into a dormant state with DMX disabled.
+Läuft ein Pult als [Backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#pulte-für-den-backup-betrieb-einrichten), so gibt es die Optionen \[Takeover\], \[Sync
+now\] und \[Leave Session\]. Mit \[Takeover\] kann die Show übernommen
+werden: dieses Pult wird nun Master und gibt DMX aus, der am Masterpult
+aktive Benutzer und die Handle World werden nun an diesem neuen Master
+aktiviert. Die DMX-Ausgabe des vorherigen Masters wird deaktiviert.
 
-> Consoles must be running Titan v8 or above to join a multi-user or
-backup session with another Titan v8 console.
+> Für Mehrbenutzerbetrieb und Session-Backup müssen alle beteiligten 
+  Pulte exakt den gleichen Versionsstand haben.
 
-### Titan Mobile
+**Für die PC-Suite (Titan Mobile, Titan One, Simulator):**
 
-**Network Discovery** must be enabled in the **Windows User Profile** you
-are using or consoles will not be able to see each other on the network.
-Ensure the Windows option **'Turn on network discovery'** is selected in
-the **Network Sharing** options.
+> Damit sich die verschiedenen Pulte gegenseitig im Netzwerk finden, muss auf Windows-Ebene die 'Network Discovery' aktiviert sein (Netzwerk-Einstellungen bzw. Freigabecenter).

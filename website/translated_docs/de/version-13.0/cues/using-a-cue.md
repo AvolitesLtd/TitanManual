@@ -5,282 +5,305 @@ sidebar_label: Using a Cue
 original_id: using-a-cue
 ---
 
-Because it's possible to play back a large number of cues at the same
-time, the console has to have rules on how it combines the output from
-different cues. These are called **HTP** and **LTP** rules.
+Da eine Vielzahl von Cues/Chasern gleichzeitig abgerufen werden kann,
+folgt das Pult bestimmten Regeln zur Kombination der aufgerufenen Werte
+verschiedener Cues. Diese werden als **HTP**- und **LTP**-Regeln bezeichnet.
 
-Combining Cues with HTP and LTP
--------------------------------
+HTP und LTP
+-----------
 
-Control channels are handled in two ways:
+Steuerkanäle können auf zwei Weisen verwaltet werden:
 
--   Dimmer or intensity channels work on the principle of **"Highest Takes
-    Precedence" (HTP)**. If an HTP channel is active at different levels
-    in several cues, the highest level will be output. When you fade out
-    a cue, the HTP channels fade out with it.
+-   Dimmer und Helligkeitskanäle arbeiten nach dem Prinzip **'der höchste
+    Wert hat Priorität' (Highest Takes Precedence, HTP)**. Ist ein
+    HTP-Kanal mit verschiedenen Werten in mehreren Cues aktiv, so wird
+    der höchste Wert ausgegeben. Wird ein Cue ausgeblendet, so werden
+    die zugehörigen HTP-Kanäle ausgeblendet.
 
--   All other channels work on the principle of **"Latest Takes
-    Precedence" (LTP)**. The latest change takes over from any other
-    values, so the most recent cue to be turned on is the one which is
-    output. When you fade out a cue, LTP channels retain their values
-    until changed by another cue.
+-   Alle anderen Kanäle arbeiten nach dem Prinzip **'der letzte Wert hat
+    Priorität' (Latest Takes Precedence, LTP)**. Die letzte/neueste
+    Änderung überschreibt alle vorherigen Werte, folglich wird der Wert
+    des zuletzt aufgerufenen Cues ausgegeben. Beim Ausblenden eines Cues
+    behalten LTP-Kanäle ihren Wert, bis dieser durch einen anderen Cue
+    überschrieben wird.
 
-Playing Back a Cue
+Abrufen eines Cues
 ------------------
 
-To fire (play back) a cue, raise the fader. (Make sure there are no
-values in the programmer by pressing the \<Clear\> button, because anything
-in the programmer will override the playback).
+Zum Aufrufen eines Cues bewegen Sie den jeweiligen Regler (betätigen Sie
+die \<Clear\>-Taste, um sicherzustellen, dass sich keine Werte im
+Programmierspeicher befinden, da diese ansonsten die Werte der Playbacks
+überschreiben würden).
 
--   You can fire several cues at once.
+-   Es lassen sich mehrere Cues gleichzeitig abrufen.
 
--   The HTP levels in the cue will be mastered by the fader level; for
-    example if you set the fader at 50% then all HTP levels will be 50%
-    of their programmed values.
+-   Die Werte der HTP-Kanäle werden durch den Regler beeinflusst; wird
+    dieser etwa auf 50% gestellt, so zeigen alle HTP-Kanäle 50% ihres
+    jeweils programmierten Wertes.
 
--   LTP channels are triggered as soon as the fader goes above 0%. If a
-    fade time is programmed the LTP channels will start to fade; if
-    there is no fade time they will snap to position *(unless the cue is
-    set to Mode 2 in which case they fade with the fader position; see
-    the timings section [Fader Modes](cue-timing.md#fade-modes) for details of modes)*.
+-   LTP-Kanäle werden getriggert, sobald der Regler über 0% bewegt wird.
+    Ist eine Überblendzeit programmiert, so beginnen die LTP-Kanäle mit
+    der Überblendung; ist keine solche hinterlegt, so wechseln die
+    Kanäle sofort zu der neuen Einstellung *(außer falls der Cue auf
+    ‚Mode 2' gestellt ist; siehe [Fader Modes](cue-timing.md#fade-modes))*.
 
--   You can **Flash** the cue by pressing the grey flash button. You can
-    **Swop** (solo) the cue by pressing the blue Swop button (all other
-    active cues will turn off while the button is pressed). This assumes
-    you haven't reassigned the function of the buttons using
-    [Key Profiles](../system-settings/key-profiles.md), see below.
+-   Cues lassen sich ebenso mit der grauen **Flash**-Taste aufrufen
+    (werden auf 100% geschaltet und zum sonstigen Ausgang addiert). Eine
+    Solo-Funktion ergibt sich mit der blauen **Swop**-Taste (alle anderen
+    aktiven Cues werden ausgeblendet). 'Flash' und 'Swop' funktionieren
+    nur, sofern nicht ein anderes Funktionsprofil für die Tasten
+    hinterlegt ist, siehe [Tastenprofile/Key Profiles](../system-settings/key-profiles.md).
 
--   You can **Preload** the cue by assigning the Preload function to the
-    blue or grey buttons using
-    [Key Profiles](../system-settings/key-profiles.md). Preload sets the attributes
-    of fixtures in the playback which are not currently active in any
-    other playbacks. *This is useful to avoid the fixtures visibly moving
-    into position or changing colours or gobos when you raise the fader
-    of the cue.*\
-    To assign Preload, hold \<Avo\> Shift and press \[Edit
-    Key Profile\], then press the button you want to assign (also see
-    [Key Profiles](../system-settings/key-profiles.md)). Note that this will assign the function
-    to all buttons of the same type.
+-   Cues lassen sich vorab laden, indem die **Preload**-Funktion der
+    grauen oder blauen Taste per [Tastenprofil/Key Profile](../system-settings/key-profiles.md) zugewiesen wird. *'Vorab
+    laden' (Preload) stellt die Attribute nicht anderweitig aktiver
+    Geräte auf die Werte des Cues ein, um zu verhindern, dass später
+    unerwünschte Schwenks, Gobo- oder Farbwechsel während des Aufrufs
+    des Cues sichtbar sind*. Zum Zuweisen der 'Preload'-Funktion halten
+    Sie die \<AVO\>-Taste und drücken \[Edit Key Profile\], anschließend
+    drücken Sie die Taste, die Sie ändern möchten (siehe [Tastenprofile/Key Profiles](../system-settings/key-profiles.md)). Berücksichtigen Sie, dass 
+	diese Einstellung dann ggf. für sämtliche Tasten dieses Typs gilt.
 
--   You can fire a one-shot cue with timings by assigning the Go
-    function to one of the handle buttons using
-    [Key Profiles](../system-settings/key-profiles.md). This
-    allows you to fire the cue without needing to hold down a button
-    while the timing completes. You can also fire the cue again without
-    needing to release it.
+-   Einzelne Cues lassen sich auch mittels Tasten mit ihrem Timing
+    starten, indem man der entsprechenden Taste das [Tastenprofil/Key Profile](../system-settings/key-profiles.md) "Go"
+    zuweist. Die Taste muss nicht gedrückt gehalten werden, um das
+    Fade-In zu Ende zu führen. Der gleiche Cue kann mehrfach gestartet
+    werden, ohne ihn zu releasen.
 
--   You can set playbacks to high **priority** if you do not want them to be
-    overridden by other playbacks using the same fixtures. For example,
-    if you have a couple of fixtures acting as a spotlight, but they are
-    also programmed into some colour washes, you probably want the
-    spotlight cue to take priority over the colour washes. See 
-    [Priority](playback-options.md#priority) in
+-   Wenn einzelne Playbacks nicht durch andere Playbacks für die
+    gleichen Geräte überlagert werden sollen, so geben Sie dem Playback
+    eine höhere **Priorität**. Wenn z.B. ein paar Movinglights sowohl als
+    Rednerlicht als auch als Effektlicht eingesetzt sind, so können Sie
+    dem Rednerlicht-Playback eine höhere Priorität geben. Siehe [Priority](playback-options.md#priority) in
     [Playback Options](playback-options.md).
 
-Changing Playback Pages
------------------------
+Wechsel der Playback-Seiten
+---------------------------
 
-The console allows multiple pages of playbacks. Page buttons are
-provided near the faders or you can also touch the top and bottom of the
-roller graphic on the screen. If you touch the middle of the roller
-graphic you can jump to a page number by entering the number.
+Die Playback-Seiten lassen sich mit den Tasten 'Page+1' und 'Page-1' 
+neben den Fadern sowie mit dem obere und unteren Bereich der 
+Walzen-Schaltfläche im Display umschalten. Ebenso kann man in die Mitte 
+der Walzen-Schaltfläche klicken und eine Seitennummer eingeben.
 
->   If you have stored cues on the touch select buttons, you select
-    different pages using the Playbacks page touch buttons.
-
-### Consoles without Motorised Faders
-
--   Playbacks which are fired when you change page remain active. If you
-    want to fire a cue on a fader which is already up from a previous
-    page, lower the fader to zero then raise it again. The cue from the
-    previous page will stop and the cue from the new page will fire.
-
--   If you return to a page with an active playback, the fader will not
-    resume control of the playback until it matches the current level of
-    the playback. This prevents the playback level jumping when the
-    fader is first moved. If a playback is active from another page the
-    display area is purple and shows the page number at the top in light
-    blue. You can change this behaviour using the 
-    [\[Playback Paging\] user setting](../system-settings/user-settings.md#playback-paging).
-
-### Consoles with Motorised Faders
-
--   Playbacks which are fired when you change page remain active, but
-    thanks to the motorised faders you can then use the fader to fire a
-    playback from the new page. If you want to kill the original
-    playback you need to return to the page it is on and lower the fader
-    back to zero. If a playback is active from another page the display
-    area is purple and shows the page number at the top in light blue.
-    You can change this behaviour to be like consoles without motorised
-    faders using the
-    [\[Playback Paging\] user setting](../system-settings/user-settings.md#playback-paging).
+>   Wurden Cues auf den Schaltflächen gespeichert, so lassen sich die
+    Seiten mit den 'Pages'-Schaltflächen im 'Playbacks'-Fenster wählen.
 
 ---
 
--   You can set a legend for each playback page. The legend is shown on
-    the 'Pages' roller on the screen. Use \[Set Legend\] from the main
-    Program menu then \[Page Legends\]. While in this menu you can
-    change the page to set legends for different pages.
+Die Benutzereinstellung [\[Playback Paging\]](../system-settings/user-settings.md#playback-paging) bestimmt über 
+das Verhalten der Playbacks, wenn bei aktivierten Fadern die Playback-Seiten 
+umgeschaltet werden:
 
--   If your console features the 20 executor buttons on the top right of
-    the console, they can be paged using two of the macro buttons. The
-    page change macros are part of the fixture library; if you do not
-    see the macros, download and install the latest library. The same
-    applies to the 10 static playback faders on the Tiger Touch.
+### Pulte ohne Motorfader
 
-Viewing Active Playbacks
+-   Aktuell aufgerufene Cues bleiben beim Seitenwechsel normalerweise
+    aktiviert (Playback Paging: **Always Hold**). Soll ein Cue aufgerufen 
+	werden, der sich auf einem Fader befindet, der von einer vorherigen 
+	Seite bereits aktiviert ist, so bewegen Sie diesen auf 0 und 
+	aktivieren ihn wieder. Der vorherige Cue wird damit gestoppt, und 
+	der neue aufgerufen. Jeder Fader kann somit stets nur auf einer Seite 
+	aktiv sein.
+
+-   Schaltet man die Einstellung dagegen auf **Never Hold**, dann kann jeder
+    Fader auf mehreren Seiten unabhängig voneinander aktiv sein.
+    Kehren Sie zu einer Seite zurück, von der bereits vorher ein Regler
+    aktiv ist, so erhält dieser erst wieder die Kontrolle, sobald er auf
+    dem bereits aktiven Wert steht; damit werden Sprünge bei der ersten
+    Reglerbewegung verhindert. Ist ein Playback-Regler auf einer anderen
+    Seite aktiviert, so wird das in pink angezeigt und die Seitennummer
+    eingeblendet. 
+	
+-   Die Einstellung **Normal** bezieht sich auf den Vorgabewert, also bei 
+    Pulten ohne Motorfader 'Always Hold'.
+
+### Pulte mit Motorfadern
+
+-   Voreinstellung: **Never Hold**. Cues bleiben beim Seitenwechsel aktiv, 
+	aber die Fader sind der neuen Seite zugeordnet. Zum Deaktivieren eines 
+	Cues von einer anderen Seite muss man auf diese zurückwechseln und den 
+	Fader auf 0 ziehen. Ist ein Playback-Regler auf einer anderen Seite 
+	aktiviert, so wird das in pink angezeigt und die Seitennummer eingeblendet.
+    
+-   Wechselt man die Einstellung auf **Always Hold**, so wird das von Pulten
+    ohne Motorfader bekannte Verhalten aktiviert, und jeder Fader kann nur
+	auf einer Seite aktiv sein.
+	
+-   Die Einstellung **Normal** bezieht sich auf den Vorgabewert, also bei 
+    Pulten ohne Motorfader 'Never Hold'.
+
+---
+
+-   Für jede Playbackseite lässt sich eine Bezeichnung vergeben. Die
+    Bezeichnung wird auf der auf der virtuellen Walze angezeigt. Zum Vergeben
+    der Bezeichnung nutzen Sie im Hauptmenü \[Set Legends\], dann \[Page
+    Legends\]. Solange man sich in diesem Menü befindet, lassen sich für
+    mehrere Seiten Bezeichnungen vergeben.
+
+-   Die festen Playbacks bzw. Executor-Tasten (sofern jeweils vorhanden)
+    lassen sich mittels Makros ebenfalls umschalten. Die betreffenden
+    Makros sind Teil der Personality-Bibliothek. Sollten die
+    erforderlichen Makros auf Ihrem Pult nicht zur Verfügung stehen, so
+    aktualisieren Sie zunächst die Personalities (und damit auch die
+    Makros).
+
+Anzeigen der aktuell laufenden Playbacks
 ------------------------
 
-The Active Playbacks window shows details of which playbacks are active.
-When you have a number of layered playbacks with different effects, this
-provides an easy way to see which playback is causing which effect. Each
-button shows the playback legend, which page they are from and which
-attributes are affected. To show the window press \<View/Open\>, \[Open
+Im Fenster 'Active Playbacks' werden die aktuell laufenden Playbacks
+angezeigt. Insbesondere wenn mehrere Playbacks auf mehreren Seiten
+gestartet wurden, hat man damit einen schnellen Überblick, welche Cues
+gerade aktiv sind, wo sie gestartet wurden und welche Attribute dadurch
+gesteuert werden. Zum Aufrufen dieses Fensters wählen Sie \<View/Open\>, \[Open
 Workspace Window\], \[Active Playbacks\].
 
 ![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
 
-Click on a playback to instantly **kill** it. You can also press \[Playback
-Options\] followed by the playback in this window to change parameters
-of the playback.
+Klickt man eine der Schaltflächen an, so wird das betreffende Playback
+sofort deaktiviert (**gekillt**). Betätigt man \[Playback Options\], gefolgt von einer
+der Playback-Schaltflächen, so kann man die jeweiligen Parameter ändern.
 
-Speed and Size Masters
-----------------------
+Master für Speed (Geschwindigkeit) und Size (Größe)
+---------------------------------------------------
 
-Playbacks can be assigned to Speed and Size Masters which allow you to
-modify the speed and size of [shapes or effects](../effects.md) stored in a cue using a
-separate master fader (or in the case of chases, to 
-[modify the speed of the chase](../chases/chase-timing.md#rate-and-bpm-masters)).
-*This is really useful to modify the look when several
-playbacks are running at the same time.*
+Die einzelnen Playbacks lassen sich verschiedenen Speed- und
+Size-Masterreglern zuweisen; damit kann man das Tempo und die Größe von
+enthaltenen [Shapes und Effekten](../effects.md) zentral steuern, oder - im Fall von
+Chasern - direkt das [Chase-Tempo](../chases/chase-timing.md#rate--und-bpm-master) 
+beeinflussen. *Das ist sehr nützlich, um mehrere gleichzeitig laufende Cues 
+gemeinsam zu steuern*.
 
-You can also assign the fader of the playback the effect is stored in to
-control shape speed or size using the [Fader
-Settings](playback-options.md#fader-tab) in [Playback Options](playback-options.md).
+Fader können aber auch Größe und Tempo der 'eigenen', also in diesem Cue
+gespeicherten Effekte steuern. Dies wird über die Playback-Optionen
+eingestellt, siehe [Fader Settings](playback-options.md#playback-options----tab-fader)
 
-See [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters)
-for more details.
+Speed- und Size-Master sind detailliert beschrieben in [Speed and Size Masters](../running-the-show/playback-controls.md#speed--und-size-master).
 
-Releasing Running Playbacks
----------------------------
+Freigeben (Release) laufender Playbacks
+---------------------------------------
 
-You can **release** a running playback to its previous state by pressing
-\<Release\> *(\<Off\> button on Pearl Expert)*, then the **select** button of
-the playback to be released. Channels will release back to their state
-in the previous playback until no playbacks are left to be released. If
-the \[Release to Home\] setting on the Release menu is Enabled, channels
-will go to the power-on state, which you can program (see 
-[next section](#programming-the-release-power-on-state)).
-If the option is disabled, channels will remain in the state of the last
-playback. You can release all running playbacks by pressing \<Release\>
-then \[Release all playbacks\].
+Ein aktuell laufendes Playback lässt sich freigeben (**releasen**),
+indem man die Taste \<Release\> *(auf dem Pearl Expert: \<Off\>)* drückt,
+gefolgt von der **Auswahltaste** des Playbacks. Damit kehren die
+betreffenden Kanäle auf Ihre Werte vor Starten des Playbacks, auf das
+zuletzt aktive Playback, zurück. Ist die Option \[Release to Home\] im
+Release-Menü aktiviert, erfolgt das Release nach und nach bis zum
+Einschaltzustand des Pultes (kann programmiert werden, siehe [nächster
+Abschnitt](#werte-für-release--power-on-programmieren)). Ist die Option 
+nicht aktiviert, so erfolgt das Release bis
+zum letzten Playback. Um alle Playbacks zu releasen, drücken Sie
+\<Release\> und wählen aus dem Menü \[Release all playbacks\].
 
-You can also configure the key profile so that the blue or grey buttons
-can be used to release the playback using [Key Profiles](../system-settings/key-profiles.md).
+Es ist auch möglich, per [Tastenprofil/Key Profiles](../system-settings/key-profiles.md) 
+die graue oder blaue Taste mit der Funktion ‚Release' zu belegen.
 
-Channels will always release with a fade time, this defaults to 2
-seconds but you can change it using \[Master Release Time\] in the
-Release menu. You can also set an individual release time for the
-playback from the [Release tab](playback-options.md#release-tab) of [Playback Options](playback-options.md).
+Das Freigeben erfolgt stets mit einer Überblendzeit. Deren Vorgabewert
+sind 2s, dies kann im Release-Menü ‚(\<Release\> gedrückt halten) unter
+\[Master Release Time\] geändert werden. Ferner kann man jedem Playback 
+eine individuelle Relese-Zeit zuweisen ([Tab "Release"](playback-options.md#playback-options----tab-release) der Playback-Optionen).
 
--   You can instantly kill a playback by pressing \<Avo\> + the **swop**
-    button of the playback.
+-   Um einen einzelnen Cue zu deaktivieren (‚Kill'), drücken Sie
+    gleichzeitig die \<AVO\>-Taste und die **Swop-Taste** des Cues.
 
--   You can set a mask so that only certain attributes release from the
-    playback when the playback is killed. This uses the 
-    [\[Release Mask\] option](playback-options.md#release-mask) in 
-    [Playback Options](playback-options.md).
-    Normally all attributes will remain in the state last used in the
-    playback - *for cues which trigger strobing or other effects this
-    might not be what you want*.
+-   Man kann eine Maske definieren, die bestimmt, welche Attribute
+    released werden sollen, wenn das Playback deaktiviert (killed) wird.
+    Dazu dient die Option [\[Release Mask\]](playback-options.md#release-mask) in den [\[Playback Options\]](playback-options.md). Normalerweise bleiben alle Attribute
+    auf den im Cue gespeicherten Werten. *Insbesondere für Cues mit
+    Strobes und Effekten wird man das gelegentlich ändern wollen*.
 
-Releasing a Whole Page of Playbacks
------------------------------------
+Playbacks seitenweise releasen
+------------------------------
 
-You can use the Release function to release a whole page of playbacks in
-one operation. Press \<Release\> then the \<Goto Page\> button, or touch
-the current page in the playbacks view. You will get the following
-options:
+Es können auch mehrere Playbacks auf einmal released werden. Drücken Sie
+dazu \<Release\> und \<Goto Page\>, oder \<Release\> und die aktuelle
+Seite (auf der Playback-Walze). Es gibt folgende Optionen:
 
-\[Release this Page\] - releases all active playbacks on the current page
-and playback fader group
+\[Release This Page\] released alle aktiven Playbacks der aktuellen
+Seite und Fadergruppe.
 
-\[Release Playbacks Not On This Page\] - releases any active playback on
-the same fader group from another page
+\[Release Playbacks Not On This Page\] released alle Playbacks, die
+momentan von anderen Seiten aus in dieser Fadergruppe aktiv sind -
+besonders zweckmäßig, um Playbacks zu releasen, die auf anderen Seiten
+auf dem gleichen Fader aktiv sind.
 
-\[Release All Playbacks In This Group\] - releases any active playback in
-the fader group.
+\[Release All Playbacks In This Group\] released alle Playbacks in der
+jeweiligen Fadergruppe.
 
-> **"Fader Group"** refers to a particular area of the console, for example
-the main faders below the screen on a Tiger Touch or the top row on the
-left hand side of the Arena.
+> **"Fader Group"** (Fadergruppe) bedeutet hier den jeweiligen Bereich von
+Fadern auf dem Pult, der getrennt Seiten wechseln kann. So sind etwa die
+10 Fader unterhalb des Displays auf dem Arena bzw. dem Tiger Touch eine
+Gruppe. Die 15 oberen sowie die 15 unteren Fader auf dem Tiger Touch
+Faderwing bzw. links auf dem Arena sind zwei weitere getrennte
+Fadergruppen.
 
-Release Mask
-------------
+Release Mask (Release einzelner Attribute)
+------------------------------------------
 
-You can release individual fixtures or attributes, and remove fixtures
-from shapes in playbacks using the release mask. There is a Global
-release mask which affects all release operations, or you can set a
-Local release mask which affects only the current playback.
+Mit der Release-Maske lassen sich einzelne Attribute, und Geräte
+releasen sowie Geräte aus Shapes entfernen. Es gibt eine globale
+Release-Maske, die generell gilt, sofern nicht für einzelne Cues eine
+individuelle Einstellung getroffen wurde.
 
-### Global Release Mask
+### Globale Release-Maske
 
-If no local release mask is set for the playback, attributes release
-according to this mask. The default is for no attributes to release.
+Ist für den Cue keine separate Maske erstellt worden, so erfolgt das
+Release gemäß der globalen Release-Maske. Die Vorgabe ist, dass keine
+Attribute released werden.
 
-To set the mask, press \<Release\> then \[Global Release Mask\]. The
-softkey shows which attributes are enabled.
+Um die Maske zu ändern, drücken Sie die Tastet \<Release\> und klicken
+auf \[Global Release Mask\]. Auf der Schaltfläche der Funktionstaste
+wird angezeigt, welche Attribute momentan angewählt sind.
 
 ![Global Release Mask](/docs/images/Global-Release-Mask.png)
 
-### Local Release Mask
+### Lokale (individuelle) Release-Maske
 
-To set the local release mask for a playback, select \[Playback
-Options\] and press the select button of the playback. Then press
-\[Release Mask\]. If the option is set to \[Mask Source Global\] then
-press the option again to change to \[Mask Source Local\].
+Um für das jeweilige Playback eine bestimmte Maske einzustellen, klicken
+Sie auf \[Playback Options\] und wählen das betreffende Playback aus.
+Dann wählen Sie \[Release Mask\]. Ist diese auf \[Mask Source Global\]
+eingestellt, so klicken Sie nochmals darauf; daraufhin wechselt die
+Anzeige zu \[Mask Source Local\].
 
-Programming the Release / Power On State
-----------------------------------------
+Werte für Release / Power On programmieren
+------------------------------------------
 
-You can program the state which fixtures will go to at power on, or when
-all playbacks are released. It can be useful to program this as a
-general lighting state so that there is some light on the stage when the
-console powers up, or when all playbacks are released.
+Der Status, auf den die Lampen/Geräte beim Einschalten des Pultes
+gesetzt werden bzw. zu dem sie nach dem Releasen aller Playbacks
+zurückkehren, lässt sich getrennt programmieren. So kann es sinnvoll
+sein, dafür ein Grundlicht auf der Bühne einzustellen.
 
-The release state can be programmed in Shared mode or Individual mode.
-In Shared mode you just have to set the desired state for one of each
-type of fixture, and that state will be used for all fixtures of that
-type. In Individual mode, the state of each fixture will be recorded
-individually as you have set it.
+Es lassen sich sowohl shared (gemeinsam genutzte) als auch individuelle
+Werte pro Gerät einstellen. Werden shared Werte gespeichert, so muss das
+- wie bei Paletten - nur für ein Gerät gemacht werden und gilt dann
+für alle Lampen dieses Gerätetyps. Individuelle Werte dagegen gelten
+jeweils nur für das einzelne Gerät.
 
-1. Set up the look you want
+1.  Nehmen Sie die gewünschten Einstellungen vor
 
-2. Press \<Record\>, then \<Release\>
+2.  Drücken Sie \<Record\>, dann \<Release\>.
 
-3. Select \[Shared values\] or \[Individual values\]
+3.  Wählen Sie \[Shared values\] oder \[Individual values\].
 
-4. Press the \[Record\] softkey
+4.  Klicken Sie die Funktionstaste \[Record\].
 
-5. The Release state is saved
+5.  Damit werden die Release-Werte gespeichert.
 
->   To test, fire some playbacks, then release them by pressing
-    \<Release\> followed by the select button of the playback. The
-    fixtures should return to your programmed release state.
+>   Zum Testen starten Sie ein oder mehrere Playbacks und releasen diese
+    (\<Release\> sowie die jeweiligen Playbacks). Die Geräte sollten auf
+    die programmierten Release-Werte zurückkehren.
 
-Turning Off Individual Fixtures
--------------------------------
+Deaktivieren einzelner Geräte mit Off
+-------------------------------------
 
-You can turn off individual fixtures or certain attributes of them using
-the **Off** menu. This will cause the attributes/fixtures to release to
-their previous state before the playback was fired.
+Einzelne Geräte und Attribute können über das **Off**-Menü deaktiviert werden.
+Damit bleiben die Werte zwar im Playback enthalten, werden aber nicht abgerufen.
+Die programmierten Werte verbleiben dabei im Playback und können in der 
+Playback-Ansicht wieder auf On geschaltet, also aktiviert werden.
 
-Press \<Off\> button followed by a playback to open the \'Off Playback
-with Mask\' menu. Select the fixtures to be turned off, set mask as
-required and then press \[Off\] to turn the fixtures/attributes/shapes
-off.
+Dazu drücken Sie die Taste \<Off\>, dann die **Select-Taste** des Playbacks. 
+Wählen Sie die betreffenden Geräte aus, stellen Sie im Menü die Attributmaske
+ein, und klicken Sie auf \[Off\], um wie gewünscht Attribute/Geräte/Shapes 
+Off zu schalten.
 
-On Titan consoles that do not have separate \<Release\> and \<Off\>
-buttons, pressing \<Off\> followed by a playback will release it which
-is not what you want. On these select the softkey \[Off Playback
-Values\] then select the playback.
+Auf Titan-Pulten mit **Release** und **Off** auf der gleichen Taste würde
+dies zum Releasen führen. Drücken Sie stattdessen \<Release/Off\>, dann 
+aus dem Menü \[Off Playback Values\], und wählen Sie nun das Playback aus.

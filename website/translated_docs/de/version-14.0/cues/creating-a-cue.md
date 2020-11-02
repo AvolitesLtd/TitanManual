@@ -5,163 +5,172 @@ sidebar_label: Creating a Cue
 original_id: creating-a-cue
 ---
 
-How Titan Works When Programming
---------------------------------
+Arbeitsweise des Pultes beim Programmieren
+------------------------------------------
+Sobald ein oder mehrere Dimmer/Geräte zum Steuern ausgewählt werden,
+werden diese in den ***Programmer*** geladen. Nun lassen sich mit den [Encodern (Wheels)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern) und
+[Paletten](../palettes.md) die Einstellungen der Geräte verändern; ebenso lassen sich
+[Effekte](../effects.md) anwenden. Alle so vorgenommenen Änderungen werden im Programmer gespeichert.
 
-When you select one or more dimmers or fixtures for control, they are
-loaded into the ***Editor***. You can then use the 
-[wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels)
-and [palettes](../palettes.md) to
-change the settings on the fixture. You can also apply shapes to it.
+Auch die Reihenfolge der Auswahl der Geräte wird dort gespeichert und ggf. etwa
+bei [Effekten](../effects.md) und beim Überblenden ([Geräte-Überlappung/Fixture Overlap](cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz)) verwendet. 
 
-If a fixture is selected after you have changed some attributes then the
-current list of fixtures in the Editor is emptied and a new list is
-started.
+Beim Speichern des Cues wird schließlich der Inhalt des Programmierspeichers 
+in das Playback geschrieben. Dabei wird der Inhalt des Programmers gespeichert,
+nicht der komplette Output des Pultes. Siehe der folgende Abschnitt zu den Record 
+Modes (Speichermodi).
 
-All fixtures and attributes that have been edited since the last Clear
-are stored in the ***Programmer***. The order in which you selected the
-fixtures is also stored, and is used with [shapes](../effects.md) and the
-[Fixture Overlap](cue-timing.md#setting-fade-times-and-overlap-for-a-cue)
-function. When you record a cue, the contents of the Programmer are
-saved into the cue.
+Wird ein anderes Gerät angewählt, nachdem bereits Änderungen vorgenom­men
+wurden, wird die aktuelle Geräteliste im Programmer geleert und eine neue begonnen,
+wobei die vorgenommenen Änderungen im Programmer verbleiben.
 
-When you press \<Clear\>, the programmer and editor are emptied. This
-makes sure you don't record fixtures you don't want. You also need to
-press \<Clear\> when you finish programming, because any attributes in
-the programmer will override playbacks.
+Das Betätigen der Taste \<Clear\> (bei den Zifferntasten) löscht den
+Programmierspeicher. Damit stellt man sicher, dass beim
+weiteren Programmieren keine Geräte beeinflusst werden, die man nicht
+verändern will. Auch beim Beenden des Programmierens empfiehlt sich der
+Druck auf die \<Clear\>-Taste, da sämtliche Attribute im
+Programmierspeicher die Einstellungen der Playbacks sonst überlagern.
 
-Fixtures which are in the programmer are shown in mid blue on the [touch
-buttons](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control).
-Attributes in the programmer (the things you have changed) are
-shown in cyan on the [attribute displays](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-wheel-display).
+Geräte, die aktuell im Programmspeicher sind, werden auf den
+[Geräte-Schaltflächen](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) in einem mittleren Blau dargestellt. Attribute im
+Programmierer (also die geänderten Einstellungen) werden [in der Attribut-Anzeige](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern)
+in Cyan dargestellt.
 
-Firing a cue does not place the values from the cue in the programmer,
-so you can't just turn on a playback and record what you see to another
-cue *(although the Include function lets you do this, see
-[Using Parts of Existing Cues - the Include Function](editing-cues.md#using-parts-of-existing-cues-the-include-function))*.
+Beim Abrufen eines Cues werden dessen Werte nicht in den
+Programmierspeicher übernommen *(das lässt sich jedoch durch die
+[Include-Function](editing-cues.md#cues-wiederverwenden---die-include-funktion) erreichen; ebenso kann per 'Record Stage' der komplette Output gespeichert werden)*.
 
-Creating a Cue
---------------
+
+Anlegen eines Cues
+------------------
 
 [](https://youtu.be/X5g6DMVwlZU?t=20 "Creating a Cue")
 
-1. Press \<Clear\> to clear the programmer.\
-*This ensures that you are starting with a clean slate.*
+1. Drücken Sie \<Clear\>, um den Programmierspeicher zu leeren.\
+*Damit wird eine saubere Arbeitsumgebung sichergestellt.*
 
-2. Set up the look using the fixtures. You can save shapes in a cue.
-Remember that only fixtures which are selected or have been modified
-will be saved in the cue (in \[Record by Fixture\] mode).
+2. Stellen Sie das gewünschte Bild ein. Dabei können auch Shapes
+verwendet werden. Bedenken Sie, dass nur die von Ihnen angewählten
+Geräte bzw. veränderten Attribute im Cue gespeichert werden (je nach
+Speichermodus).
 
-3. Press the \<Record\> button *(\<Record Cue\> on Pearl Expert)*.
+3. Betätigen Sie die Taste \<Record\> *(\<Record Cue\> auf älteren Pulten)*.
 
-4. Press the **Swop** button of an empty Playback to record the cue. The
-handles where you can record the cue will flash. You can also record a
-cue onto a touch button in the Playbacks window.
+4. Drücken Sie die **Swop-Taste** eines freien Playbacks; freie
+Speicherplätze werden durch blinkende LEDs angezeigt. Ebenso lässt
+sich ein Cue auf eine Schaltfläche im Fenster 'Playbacks' speichern.
 
-5. Press \<Clear\> to clear the programmer
+5. Drücken Sie \<Clear\>, um den Programmierspeicher zu leeren.
 
-Other useful things to know about recording cues:
+Wissenswerte Dinge zum Speichern von Cues:
 
--   Cues can be recorded to any fader, the macro/executor buttons or the
-    onscreen Playbacks window.
+-   Cues können auf die Fader, auf Macro/Executor-Tasten sowie auf 
+Schaltflächen im Fenster 'Playbacks' gespeichert werden.
 
--   \[Record Mode\] lets you select:
-    -   \[Record By Fixture\] - All attributes of any modified or selected
-    fixture are saved
-    -   \[Record By Channel\] - Only modified attributes are saved
-    -   \[Record Stage\] - All fixtures with a non-zero dimmer channel are saved
-    -   \[Quick Build\] - see [next section](#quick-build-cues)
+-   Die Menütaste \[Record Mode\] bietet folgende Optionen:
+    -   \[Record By Fixture\] - Speichern pro Gerät - alle Attribute 
+	der Geräte, die angewählt oder verändert wurden, werden gespeichert
+    -   \[Record By Channel\] - Speichern pro Kanal - nur die veränderten 
+	Attribute werden gespeichert
+    -   \[Record Stage\] - gesamtes Bild speichern: sämtliche
+    Geräte mit nicht geschlossenem Dimmer werden gespeichert
+    -   \[Quick Build\] - siehe [nächster Abschnitt](#quick-build----cues-schnellspeichern)
 
--   \[Record By Channel\] is useful if you want to layer multiple cues to
-    create an effect.
+-   \[Record By Channel\] ist empfehlenswert, wenn mehrere Cues
+    übereinandergelegt werden sollen, um einen bestimmten Effekt zu
+    erzielen.
 
--   If you are recording a lot of cues, you can press \<Menu Latch\> to
-    keep the Record Cue menu active. Press \<Exit\> to leave Record Cue
-    mode.
+-   Soll eine Vielzahl von Cues gespeichert werden, so lässt sich mit
+    der Taste \<Menu Latch\> das 'Record Cue'-Menu einrasten und dauerhaft
+    aktiv halten. Ein weiteres Betätigen von \<Menu Latch\> verlässt
+    diesen Modus wieder.
 
--   The screen immediately above each fader shows a legend for the
-    playback. To set this, from the top-level menu press \[Set Legend\], 
-    then the playback **Swop** button (or the touch select button), then enter a legend on the
-    keyboard or draw a picture legend. Press \<Enter\> to store it. *If
-    the fader or button does not have an associated screen you will have
-    to resort to the old fashioned method of white tape and sharpie.*
+-   Unten im Bildschirm wird eine Bezeichnung des jeweiligen Cues
+    angezeigt. Um diese einzustellen, drücken Sie \[Set Legend\], dann
+    die jeweilige **Swop-Taste** des entsprechenden Playbacks, und geben
+    die Bezeichnung über die Tastatur ein oder machen eine Skizze auf dem 
+	Bildschirm. Beenden Sie die Eingabe mit \<Enter\>. *Handelt es sich um 
+	einen Speicherplatz ohne zugehörigen Bildschirmbereich - etwa nur eine 
+	Taste - so bezeichnen Sie diesen auf hergebrachte Art mit Tape und Stift.*
 
 ![Playbacks stored on playback faders](/docs/images/Playbacks-stored-on-playback-faders.png)
 
--   A Static Playbacks workspace is available to show the contents of
-    the macro/executor buttons and (on the Tiger Touch) the 10 static
-    playback faders.
+-   Das Fenster 'Static Playbacks' zeigt die Belegung der
+    Macro-/Exekutor-Tasten sowie - auf dem Tiger Touch - der 10 festen
+    Fader.
 
-Quick Build Cues
-----------------
+Quick Build -- Cues schnellspeichern
+------------------------------------
 
-Setting \[Record Mode\] to **Quick Build** allows you to build a cue from
-existing playbacks or palettes (you can also use the
-[Include function](editing-cues.md#using-parts-of-existing-cues-the-include-function) to
-do this).
+Stellt man \[Record Mode\] auf **Quick Build**, so lassen sich Cues aus
+bereits programmierten Cues und Paletten erstellen (wie auch per
+[Include](editing-cues.md#cues-wiederverwenden---die-include-funktion)).
 
-After setting the record mode to Quick Build, the console will wait for
-you to select playbacks or palettes.
+Nach dem Aktivieren von Quick Build wartet das Pult auf die Auswahl von
+Speicherplätzen und Paletten.
 
-To insert specific fixtures from a palette or playback, select the
-fixtures first and then select the palette or playback.
+Sollen nur einige der Lampen aus einem Speicherplatz/einer Palette
+verwendet werden, wählen Sie zuerst die Geräte aus, und klicken dann auf
+das Playback/die Palette.
 
-Press \[OK\] once you have selected all the playbacks or palettes
-required.
+Drücken Sie \[OK\], wenn alle erforderlichen Playbacks/Paletten
+aufgerufen wurden.
 
-Using Shapes/Effects in Cues
+Verwenden von Shapes und Effekten in Cues
 ----------------------------
 
-As you would expect, any [shapes or Pixel Mapper effects](../effects.md) you have set up
-will be saved as part of the cue.
+Erwartungsgemäß werden auch sämtliche aktivierten [Shapes und Pixel-Effekte](../effects.md)
+als Teil des Cues abgespeichert. 
 
-You can create a cue which contains a shape with no base reference
-values; a shape cue like this can then be fired with other cues to
-overlay the shape on the cue and give you instant effects based around
-the settings in that cue. When recording the cue, use **Record by Channel**
-mode or use the ["Off" function](editing-cues.md#removing-attributes-from-cues-using-off)
-to remove the other attributes from the programmer.
+Ebenso können Sie einen Shape ohne Basiswerte speichern; ein Cue wie
+dieser kann gemeinsam mit anderen Cues abgerufen werden, überlagert dann
+die dort abgespeicherten Werte/Shapes und ergibt vielfältige
+Kombinationsmöglichkeiten. Zum Speichern eines solchen Cues nutzen Sie
+den Modus **Record by Channel** sowie die ['Off'-Funktion](editing-cues.md#deaktivieren-von-attributen-in-cues-mit-off), um die anderen
+Attribute aus dem Programmierspeicher zu entfernen.
 
-Blind Mode
-----------
+Blind-Modus
+-----------
 
-Blind mode allows you to program cues without affecting the current look
-on the stage. This can be very useful for making changes during a live
-show. Your changes are still shown in the
-[Visualiser window](../capture-visualiser.md).
+Im Blind-Modus lassen sich Änderungen an der Programmierung vornehmen,
+ohne dabei die aktuellen Ausgangssignale zu verändern; damit lassen sich
+etwa während einer laufenden Show noch 'unsichtbar' Korrekturen
+vornehmen. Diese können gleichwohl im [Visualiser](../capture-visualiser.md) zur Kontrolle angezeigt werden.
 
-To put the console into blind mode, just press the \<Blind\> button *(on
-consoles without a dedicated button, hold down \<Avo\> and select the
-\[Blind\] option)*.
+Zum Aktivieren des Blind-Modus drücken Sie auf die Taste \<Blind\> *(auf
+älteren Pulten ohne diese Taste halten Sie die \<AVO\>-Taste gedrückt
+und wählen die Option \[Blind\]; damit können Sie zwischen \[Active\]
+und \[Inactive\] umschalten)*.
 
-If you want to preview a playback on the visualiser without affecting
-the stage, playbacks can be set to Blind mode using \[Playback
-Options\]. To quickly set a playback to blind mode, hold \<Blind\> and
-press the playback **select** button. Repeat to make it Live again.
+Sollen nur einzelne Speicherplätze z.B. im Visualiser kontrolliert
+werden, ohne auf die Bühne 'rauszugehen', so können sie per \[Playback
+Options\] in den Blind-Modus geschaltet werden, oder man hält \<Blind\>
+gedrückt und drückt/klickt auf das jeweilige Playback. Wiederholt man
+das, so wird das Playback wieder ‚Live'.
 
-You can fade your blind state to the live output by typing in a fade
-time number then pressing \<Blind\>. This allows you to recall several
-palettes together, or create a live state to be output without needing
-to save it to a cue.
+Die im Blind-Modus vorgenommenen Einstellungen lassen sich in den
+Live-Modus herüberfaden: dazu tippen Sie mit den Zifferntasten eine Zeit
+(in Sekunden) ein und drücken dann \<Blind\>. Damit können z.B. mehrere
+Paletten auf einmal abgerufen werden; oder Sie bereiten Blind einen
+neuen Look vor und rufen diesen ab, ohne erst einen Cue programmieren zu
+müssen.
 
-Recording Cue with a Mask
--------------------------
+Attribut-Speichermaske bei Cues
+-------------------------------
 
-You can set a mask when recording a cue so that only certain attributes
-are recorded, the same as you can when
-[recording a palette](../palettes/creating-palettes.md#storing-a-palette). In the
-Record menu, select the \[Set Mask\] option.
+Beim Speichern von Cues lässt sich eine Maske erstellen, mit der die zu
+speichernden Attribute festgelegt werden. Dies funktioniert genauso wie 
+beim [Speichern von Paletten](../palettes/creating-palettes.md#speichern-einer-palette).
+Drücken Sie \<Record\> und wählen die Option \[Set Mask\]. Wählen Sie 
+nun die zu speichernden Attribute mit den Attribut-Tasten.
 
-There is an additional option \[Clear Record Mask\], if this is enabled
-the mask will automatically be cleared after this record operation. This
-is good to stop you accidentally leaving the mask set and causing havoc
-with future cues.
+Cues zu Chasern/Cuelisten umwandeln
+-----------------------------------
 
-Convert Cue to Chase or Cue List
---------------------------------
-
-If you want to convert an existing cue into [chase](../chases.md) or 
-[cue list](../cue-lists.md) by adding
-further steps, press \<Record\>, select the cue, then select \[Convert
-to Chase\] (or Cue List). The existing cue will become cue 1 and the
-contents of the programmer will become a new cue 2.
+Bestehende Cues lassen sich ganz einfach zu [Chasern](../chases.md) oder
+[Cuelisten](../cue-lists.md) umwandeln, indem man einen weiteren Cue 
+hinzufügt und die entsprechende Option wählt. Nehmen Sie die gewünschten
+Einstellungen (für den zweiten Step) vor, drücken Sie \<Record\>, gefolgt 
+von der blauen Taste des bereits bestehenden Cues. Wählen Sie nun die Option 
+\[Convert to Chase\] (oder Cue List). Damit wird der bestehende Cue 
+Cue 1, der neu gespeicherte Cue wird Cue 2.

@@ -5,277 +5,323 @@ sidebar_label: Editing Cue Lists
 original_id: editing-cue-lists
 ---
 
-Playback View Window
---------------------
+Dieses Kapitel beschreibt, wie Cues in Cuelisten editiert werden. 
+Geht es hingegen darum, die ganze Cueliste zu verschieben, zu kopieren oder 
+zu löschen, sei auf das Kapitel [Kopieren, verschieben, verlinken, löschen](../cue-lists/copying-moving-linking-and-deleting.md) verwiesen.
 
-The easiest way to edit a cue list is using the Playback View window
-(press \<View/Open\> then the **select** button for the cue list to open
-it). This shows a grid with each cue and allows you to change most
-features of the cue. Select the item you want to change in the grid,
-and the softkeys will offer you the different options.
+Das Fenster Playback View
+-------------------------
 
-To change multiple cues at once, draw a box across the items you want to
-change.
+Am einfachsten lässt sich eine Cueliste in der Playback-Ansicht
+(Playback View) editieren, dazu drücken Sie \<View / Open\>,
+gefolgt von der **Auswahltaste** der gewünschten Cueliste. Diese Ansicht
+besteht aus einer Tabelle, wobei jeder Cue mit seinen Details in einer
+Zeile aufgelistet ist. Durch Anklicken einzelner Zellen lassen sich die
+jeweiligen Werte verändern, und auf den Funktionstasten stehen
+verschiedene Optionen zur Auswahl.
 
-The [Intensity View window](../controlling-fixtures/viewing-and-editing-fixture-values.md#intensity-window) is useful for seeing the state of all
-fixtures, see [Intensity View](../controlling-fixtures/viewing-and-editing-fixture-values.md#intensity-window) in [Viewing and Editing Fixture Values](../controlling-fixtures/viewing-and-editing-fixture-values.md).
+![Playback view](/docs/images/Cue-List-Window-with-Autoload-playback.png)
 
-Editing Values in Cue View Window
----------------------------------
+Um mehrere Cues auf einmal zu editieren, ziehen Sie in der Ansicht eine
+Box um die zu ändernden Zellen.
 
-You can edit the value of every fixture in each cue using the Cue View
-window. Press the **View Cue** button at the right hand end of the [Playback
-View window](#playback-view-window).
+Ferner bietet die [Intensity-Ansicht](../controlling-fixtures/viewing-and-editing-fixture-values.md#das-fenster-intensity) eine gute Möglichkeit, alle
+aktiven Geräte und deren Werte zu überblicken. 
+
+Editieren von Werten im Fenster Cue View
+----------------------------------------
+
+Jeder einzelne Attributwert jedes Gerätes kann in der Cue-Ansicht (Cue
+View) angezeigt und verändert werden. Dazu klicken Sie in der
+[Playback-Ansicht](#das-fenster-playback-view) beim gewünschten Cue auf die 
+Schaltfläche **View** (Spalte *View Cue* weit rechts). 
 
 ![Cue View Window](/docs/images/Cue-View-Window.png)
 
-You can then click on the values you want to change and edit them using
-the softkeys.
+Nun können Sie wiederum einzelne oder mehrere Zellen anklicken, um die
+Werte direkt zu ändern.
 
--   The context menu buttons allow you to view levels, shapes, effects
-    and times for each attribute of each fixture in each cue.
+-   Über das Kontextmenü kann man die Anzeige von Pegeln, Shapes,
+    Effekten und Zeiten aktivieren.
 
--   If levels are set from a palette, the **View Palettes** button either
-    shows you the palette used, or the underlying value.
+-   Wenn Werte von einer Palette stammen, so schaltet **View Palettes**
+    zwischen der Anzeige der Werte und der Anzeige der Palette um.
 
--   If the **View Tracking Values** button is selected, [tracking values](cue-list-playback.md#tracking)
-    (values which have tracked through from another cue rather than
-    being stored directly in this cue) are shown in light grey.
+-   Ist die Option **View Tracking Levels** angewählt, so werden
+    getrackte, also aus vorherigen Cues übernommene Werte hellgrau
+    hervorgehoben.
 
-Moving and Copying Cues
------------------------
+Kopieren, Verschieben und Löschen einzelner Cues
+------------------------------------------------
 
-You can copy or move cues within a cue list or to other cue lists.
-Either click and drag the cue in the [Playback
-View window](#playback-view-window) (press
-Open/View then the **select** button for the cue list), or use **Unfold** ([next
-section](#editing-a-cue-list-using-unfold)), or you can use a `command-line` style series of keypresses.
+ Dazu klicken und ziehen
+Sie entweder den gewünschten Cue im [Playback View](#das-fenster-playback-view) 
+(drücken Sie dazu \<View / Open\>, dann die Taste der gewünschten Cueliste), 
+oder verwenden Sie die **Unfold-Funktion** ([siehe nächster Abschnitt](#editieren-einer-cueliste-mit-unfold)) oder eine spezielle
+Tasten-Syntax.
 
-**Copy/Move within the same playback:**
+Es lassen sich auf verschiedene Weise einzelne oder mehrere Cues innerhalb 
+einer oder zwischen mehreren Cuelisten kopieren oder verschieben:
+-   Man kann die **Unfold-Funktion** ([siehe nächster Abschnitt](#editieren-einer-cueliste-mit-unfold)) nutzen.
+-   Um einen Cue zu verschieben, kann man diesen im Fenster [Playback View](#das-fenster-playback-view) anklicken und verschieben, oder man klickt 
+auf die Nummer des Cues und ändert diese mit der Menütaste \[Change To\]
+(sobald die Nummer geändert wurde, ändert sich auch die Reihenfolge der 
+Cues).
+-   Um einen Cue zu löschen, drücken Sie die \<Delete\>-Taste, wählen 
+den Cue im Playback-View aus, und klicken zur Bestätigung den Cue nochmals 
+an oder drücken \<Enter\> oder \[Confirm\].
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] @ <cue> ENTER`
+Ebenso lässt sich eine Tastensyntax verwenden: 
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>][AND <cue>] ENTER <cue> ENTER`
+- Dabei ist **{fader select}** die Auswahltaste des aktuellen
+  Speicherplatzes und **n** die Nummer des jeweiligen Cues; Abschnitte
+  in **[eckigen Klammern]** sind optional. Die \<@\>-Taste ist die bei 
+  den Zifferntasten.
 
-**Copy/Move to the end of the same playback:**
+Tastenfolge                                                  | Ergebnis
+------------                                                 |---------
+\<Copy\> {fader select} **n** \<@\> **m** \<Enter\>          | Kopieren von Cue **n** nach Cue **m** in der gleichen Cueliste
+\<Move\> {fader select} **n** \<@\> **m** \<Enter\>          | Verschieben von Cue **n** nach Cue **m** in der gleichen Cueliste
+\<Copy\> {fader select} **n** \<@\> \<@\>                    | Kopieren von Cue **n** als neuer Cue an das Ende der Cueliste
+\<Delete\> {fader select} **n** \<Enter\> \<Enter\>          | Löschen von Cue **n**
+\<Copy\> {fader select} **n** {fader select} **m** \<Enter\> | Kopieren von Cue **n** nach Cue **m** in einer anderen Cueliste
+\<Copy\> {fader select} **n** {fader select} \<Enter\>       | Kopieren von Cue **n** an das Ende einer anderen Cueliste
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] @ @`
+-   Anstelle von \<Copy\> lässt sich \<Move\> verwenden, um Cues nicht zu 
+	kopieren, sondern zu **verschieben**. Auf älteren Pulten ohne eine 
+	 \<Move\>-Taste drücken Sie \<Avo\> und \<Copy\>.
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] ENTER ENTER`
+- 	Zum Kopieren/Verschieben **mehrerer** Cues verwenden Sie \<Thru\>, \<And\> 
+	und \[Not\]. Um z.B. die Cues 3, 4 ,5 ,7, 10 als neuen Block ab Cue 20 zu
+	kopieren, drücken Sie \
+    \<Copy\> {fader select} **3** \<Thru\> **7** \[Not\] **6** \<And\> **10** \<@\> **20** \<Enter\>
 
-**Copy/Move to a different playback:**
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> <cue> ENTER`
+Editieren einer Cueliste mit 'Unfold'
+-------------------------------------
 
-**Copy/Move to the end of a different playback:**
+Mit der Taste \<Unfold\> ('Aufklappen') wird jeder Schritt einer
+Cueliste auf einen einzelnen Regler abgebildet. Damit lässt sich jeder
+Schritt einzeln aufrufen und editieren, als wäre er ein eigener Cue.
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> ENTER`
+1. Drücken Sie die \<Unfold\>-Taste, gefolgt von der **Auswahltaste**
+der zu ändernden Cueliste.
 
-`COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> <playback>`
+2. Die ersten zehn Schritte werden auf die **Playback-Fader** gelegt. Im
+Display wird die jeweilige Schrittnummer und Bezeichnung angezeigt. 
+*(Sind mehr Cues als Fader vorhanden, so kann man mit den Menütasten 
+F und G weiterschalten)*.
 
-> **\<playback\>** is a playback swop key, **\<cue\>** is the cue number and
-sections in square brackets are optional)
+3. **Betätigen Sie einen Fader**, um den jeweiligen Schritt aufzurufen
+*(dabei werden die programmierten Überblendzeiten mit berücksichtigt)*.
 
-Editing a Cue List using Unfold
--------------------------------
+4. Es gibt diverse Optionen bei der 'Unfold'-Funktion, die Details dazu
+sind unten aufgeführt.
 
-The \<Unfold\> button places each cue of the cue list on one of the
-playback faders. This allows you to fire and edit each step individually
-as if it was a stand-alone cue.
-
-1. Press \<Unfold\>, then the **Select** button of the cue list to be
-edited.
-
-2. Cues are loaded into the **playback faders**. The display shows the cue
-numbers and legends *(see more cues using softkeys F and G)*.
-
-3. Raise a **playback fader** to output the contents of that cue *(fade
-times will operate as programmed)*.
-
-4. *Various Unfold options are available, detailed below.*
-
-5. Press \<Unfold\> again to exit unfold mode.
+5. Drücken Sie \<Unfold\> nochmals, um den Modus zu verlassen.
 
 ---
 
--   To **edit** the contents of a cue: Press \<Clear\> to empty the
-    programmer, raise the fader to output the cue, make the changes,
-    press \[Record Step\], then the **Select** button for the cue number.
+-   Zum **Editieren** eines Schrittes drücken Sie \<Clear\> zum Leeren des
+    Programmierspeichers, aktivieren den Fader des Schrittes, nehmen
+    die gewünschten Änderungen vor, drücken dann \[Record Step\] und
+    schließlich die **Select-Taste** des Schrittes.
 
--   To **merge** the programmer into the live step, double tap \[Record
-    Step\].
+-   Um den Inhalt des Programmierspeichers in den aktuellen Schritt zu
+    integrieren (**mergen**), klicken Sie zweimal auf \[Record Step\].
 
--   To change the times or cue linking for the cue, press \[Edit
-    Times\], then the **Select** button for the cue, then set the times (see
-    [Cue List Timing](cue-list-timing.md))
+-   Zum Ändern der Zeiten oder der Folge des Schrittes drücken Sie
+    \[Edit Times\], gefolgt von der **Select-Taste** des Schrittes, und
+    nehmen die Änderungen vor (siehe [Zeiten für Cuelisten](cue-list-timing.md)).
 
--   To **insert** a new cue, set up the look for the new cue, press B
-    \[Insert Step\], then press the playback button where you want the
-    new cue to go. All following cues will be shifted on by one and the
-    new cue will be given a number in between the two existing cues *(for
-    example, if you press playback 3, your new cue will be 2.5)*.
+-   Um einen neuen Schritt **einzufügen**, stellen Sie das gewünschte Bild
+    ein, drücken B \[Insert Step\], dann die Taste des Schrittes, auf
+    die dieser programmiert werden soll. Alle folgenden Schritte werden
+    um eins verschoben, und der neue Schritt erhält eine Nummer zwischen
+    den beiden existierenden Schritten (*drückt man etwa die Taste für
+    Schritt 3, so erhält dieser die Schrittnummer 2.5*).
 
--   To **move** or **copy** a cue, press the \<Move\> or \<Copy\> button, press
-    the **select** button for the cue you want to move or copy, then press
-    the **select** button where you want it to go.
+-   Zum **Verschieben** oder **Kopieren** eines Cues drücken Sie \<Copy\> (ggf.
+    mehrfach) oder \<Move\>, dann die **Auswahltaste** des gewünschten Cues,
+    und schließlich die **Auswahltaste** für den gewünschten Ziel-Cue.
 
--   To **delete** a cue, press the \<Delete\> button then the **select** button
-    for the cue you want to delete. Press the **select** button again to
-    confirm.
+-   Zum Löschen eines Schrittes drücken Sie die blaue \<Delete\>-Taste,
+    gefolgt von der **Select-Taste** des zu löschenden Schrittes.
+    Drücken Sie zur Bestätigung die **Select-Taste** nochmals.
 
--   To change the **cue legend**, press \[Set Step Legend\] then the
-    playback **select** for the step you want to change.
+-   Zum Ändern der Bezeichnung drücken Sie \[Set Step Legend\], gefolgt
+    von der **Select-Taste** des betreffenden Schrittes.
 
--   If the cue list has more cues than there are playback faders, you
-    can swop to the next page using softkeys F and G.
+-   Enthält die Cueliste mehr Schritte als Fader vorhanden sind, so
+    lässt sich mit den Funktionstasten F und G die Seite umschalten
 
-Using Update to Change Tracked Cues
+Update und Cue-Tracking
+-----------------------
+
+Da in einer Cueliste die einzelnen Werte für die einzelnen Cues
+nachverfolgt werden [Tracking](cue-list-playback.md#tracking), muss 
+beim Ändern eines bestimmten Schritts ermittelt werden, aus welchem 
+Schritt die zu ändernden Werte stammen. 
+
+Die **Update**-Funktion geht die vorherigen Schritte durch und ermittelt,
+welcher Schritt genau geändert werden muss.
+
+1. Bei gestarteter Cueliste wählen Sie die Geräte aus und ändern sie
+wie gewünscht.
+
+2. Drücken Sie \<Update\> *(auf alten Pulten \<Record Cue\>, dann
+\[Update\])*.
+
+3. Drücken Sie \<Enter\>, um die neuen Werte direkt in die Cueliste zu
+übernehmen.
+
+> Alternativ wird bei den Funktionstasten eine Liste der Paletten und
+Playbacks angezeigt, die aktualisiert werden können. Wählen Sie den
+gewünschten Eintrag.\
+Haben Sie die Funktionstasten-Option verwendet, drücken Sie
+\<Enter\>, um den Vorgang abzuschließen.
+
+Stammten die geänderten Attribute von einem vorherigen Cue, so wird
+dieser - und nicht der aktuell laufende - geändert, siehe 
+ [Tracking](cue-list-playback.md#tracking).
+
+Editieren einer laufenden Cueliste
 -----------------------------------
 
-Because fixture settings in a cue list are [tracked](cue-list-playback.md#tracking) through from previous
-cues, if you want to edit a setting you need to find the cue where it
-was originally set.
+Ebenso lassen sich Schritte einer laufenden Cueliste ändern, ohne
+[Unfold](#editieren-einer-cueliste-mit-unfold) nutzen zu müssen: 
 
-The **Update** function will go back through the cue list from the currently
-fired cue and automatically update the correct cue.
+1. **Starten Sie die Cueliste** mit dem entsprechenden Fader.
 
-1. With the cue list fired, select the fixtures and change them to the
-settings you want to store.
+2. Wählen Sie mit **Encoder A** den zu ändernden Schritt, und aktivieren Sie
+diesen mit der \<Go\>-Taste. *(Beim Pearl Expert/Tiger Touch Mk1 
+drücken Sie statt der Go-Taste die Taste \<↔\> oberhalb der Taste Snap Back)*
 
-2. Press \<Update\> *(\<Record Cue\>, \[Update\] if the console doesn't
-have an Update button)*.
+3. Drücken Sie \<Clear\>, um den Programmierspeicher zu leeren.
 
-3. Press \<Enter\> to immediately store the new values to the cue list.
+4. Nehmen Sie die gewünschten Änderungen vor.
 
-> Alternatively, the softkeys show a list of palettes and playbacks which 
-can be updated. Select or deselect these as required.
->
-> If you have used the softkey options, press \<Enter\> to complete
-the update.
+5. Drücken Sie \<Record\>, \<Connect / Cue\> *(bzw. \<Rec. Step\> bei älteren 
+Pulten)*, und wählen dann \[Replace\] (Ersetzen), \[Merge\](Zusammenfügen),
+oder \[Insert After\] (danach einfügen), um die Änderungen zu speichern (ein
+nochmaliger Druck auf \<Rec. Step\> wählt automatisch \[Merge\]).
 
-If the attributes you have changed were [tracked](cue-list-playback.md#tracking) through from a
-previous cue, Update will update that cue rather than the current one.
+6. Drücken Sie \<Go\>, um zum nächsten Schritt zu gelangen *(Beim Pearl 
+Expert/Tiger Touch Mk1 drücken Sie statt der Go-Taste die Taste \<↔\>)*.
 
-Editing a Cue List Which is Running
------------------------------------
+>	Die vorgenommenen Änderungen lassen sich auch wie folgt in den aktuellen 
+	Cue speichern \
+	\<Record\> \<Connect / Cue\> \<Connect / Cue\>.
 
-You can also edit cues in a cue list while you are running it without
-using [Unfold](#editing-a-cue-list-using-unfold).
 
-1. **Fire the cue list** by raising its fader.
+Ändern der Zeiten einer laufenden Cueliste
+------------------------------------------
 
-2. Use **Wheel A** to select the cue number you want to change then the
-\<Go\> button to jump to it. *(On Pearl Expert/TT Mk1 press the white ↔
-button above the Snap Back button instead of \<Go\>)*
+Die Zeiten jedes Schritts lassen sich wie folgt mit den Tasten
+\<Live Time\> und \<Next Time\> *(nicht auf allen Pulten)* ändern:
 
-3. Press \<Clear\> to make sure the programmer is empty.
+1.  **Starten Sie die Cueliste** mit dem entsprechenden Fader.
 
-4. Make the changes that you want to the current step.
+2.  Wählen Sie mit **Encoder A** den zu ändernden Schritt, und aktivieren
+    Sie diesen mit der \<Go\>-Taste. (Beim Pearl Expert/Tiger Touch Mk1:
+	Taste \<↔\>).
 
-5. Press \<Record\> then \<Connect\>, then select \[Replace\],
-\[Merge\] or \[Insert After\] to save the changes. *(On Pearl Expert and
-TT Mk1 use the Rec Step button)*
+3.  Drücken Sie die Taste \<Live Time\>, um die Zeiten für den
+    aktuellen, oder \<Next Time\>, um die für den nächsten Schritt
+    einzugeben. Die Schrittnummern für den aktuellen sowie den nächsten
+    Schritt werden im Display oberhalb der Räder angezeigt.
 
-6. Press the \<Go\> button *(on Pearl Expert and TT Mk1 the white ↔
-button)* to jump on to the next step.
+4.  Geben Sie die Zeiten, Schrittverknüpfung (Link) und Versatz (Overlap)
+    mit den Funktionstasten ein (siehe [Zeiten für Cuelisten](cue-list-timing.md)).
+	Ändern Sie die die Link-Option auf \[Link With Previous Cue\] oder 
+	\[Link After Previous Cue\], so wartet dieser Schritt nicht auf die 
+	\<Go\>-Taste, sondern startet automatisch.
 
-### Edit Times of a Running Cue List
+5.  Drücken Sie \<Go\> (bzw. \<↔\>), um zum nächsten Schritt zu gelangen.
 
-You can edit the times for a cue using the \<Live Time\> and \<Next
-Time\> buttons *(not on all consoles)* as follows:
+Die Taste \<Review\> dient zur Überprüfung des aktuellen Schritts
+mit den neuen Zeitvorgaben.
 
-1. **Fire the cue list** by raising its fader.
+*Alternativ kann man die \<Unfold\>-Funktion verwenden, um die Zeiten
+zu ändern, siehe [vorheriger Abschnitt](#editieren-einer-cueliste-mit-unfold).*
 
-2. Use **Wheel A** to select the cue number you want to change then the
-\<Go\> button to jump to it (on Pearl Expert and TT Mk1 the white ↔
-button)
+Editieren einer Cueliste während des Programmierens
+---------------------------------------------------
 
-3. Press \<Live Time\> to set the times for the current step, or
-\<Next Time\> for the next step. The Live and Next step numbers are
-shown on the display above the controller wheel.
+Einzelne Schritte lassen sich editieren, noch während man die Cueliste
+programmiert:
 
-4. Use the softkeys to set the times, linking and overlap settings
-you want (see [Cue List Timing](cue-list-timing.md) for a description of the
-times). If you set the \[Link to next step\] option to On, then the
-next cue will not wait for the \<Go\> button.
+1. Drücken Sie \[Cue Number=x\] und geben die Nummer des gewünschten
+Schritts an.
 
-5. Press the \<Go\> button *(on Pearl Expert and TT Mk1 the white ↔
-button)* to jump on to the next step.
+2. Der gewählte Schritt wird angezeigt.
 
-The **Review** button lets you test the live step with the new timings.
+3. Nehmen Sie die gewünschten Änderungen vor, oder ändern Sie die
+Zeiten mit \[Edit Cue x Times\]
 
-*You can also use \<Unfold\> to set the times as described in the
-[Unfold section above](#editing-a-cue-list-using-unfold).*
+4. Drücken Sie \[Update Cue x\] (bzw. \<Rec. Step\>) zum Speichern der Änderungen.
 
-Editing a Cue List While Recording
-----------------------------------
+### Update-Modus
 
-You can edit cues while you are in the Record Cue List menu.
+Mit der Menütaste \[Update Mode\] lässt sich einstellen, wie
+Änderungen getrackt werden. 
 
-1. Press \[Cue Number=x\] and type the cue number to be edited.
-
-2. The console will jump to the cue and show the output.
-
-3. Make the changes that you want to the programming of the current
-step, or to the timings using \[Edit Cue x Times\].
-
-4. Press \[Update Cue x\] or the Rec Step button to save the changes.
-
-### Update Mode
-
-The \[Update Mode\] softkey allows you to set how changes in the cue
-will be tracked. 
-
-Update Mode | Action
+Update-Modus | Beschreibung
 ---|---
-**Forwards** ![Cue List Update Mode Forwards](/docs/images/Cue-List-Update-Mode-Forwards.png) | Updates the channels in the current cue and tracks following cues until the channels are next changed. The values in cues before this one will not be changed.
-**Backwards** ![Cue List Update Mode Backwards](/docs/images/Cue-List-Update-Mode-Backwards.png) | Updates the current cue and tracks backwards through cues until the channels were last changed.
-**Both** ![Cue List Update Mode Both](/docs/images/Cue-List-Update-Mode-Both.png) | Updates the current cue, tracking backwards through previous cues from the previous change and forwards through following cues to the next change.
-**Cue Only** ![Cue List Update Mode Cue Only](/docs/images/Cue-List-Update-Mode-Cue-Only.png) |  Just sets the current cue.
+**Forwards** ![Cue List Update Mode Forwards](/docs/images/Cue-List-Update-Mode-Forwards.png) | Ändert die Werte in diesem Cue und trackt die Änderungen in alle folgenden Cues, bis die betreffenden Kanäle erneut geändert werden. Vorherige Cues werden nicht geändert.
+**Backwards** ![Cue List Update Mode Backwards](/docs/images/Cue-List-Update-Mode-Backwards.png) | Setzt die Änderungen rückwirkend bis zur letzten Änderung um.
+**Both** ![Cue List Update Mode Both](/docs/images/Cue-List-Update-Mode-Both.png) | Tracking in beide Richtungen, d.h. rückwirkend ab der letzten Änderung, sowie in allen folgenden Cues bis zur nächsten Änderung.
+**Cue Only** ![Cue List Update Mode Cue Only](/docs/images/Cue-List-Update-Mode-Cue-Only.png) | Nur der aktuelle Cue wird geändert.
 
 
-> You can't change the cue number using this menu - if you press
-\[Cue Number\] this will change the cue you are editing. Use
-\[Advanced Options\] to change cue numbers.
+> Die Schrittnummer lässt sich auf diese Weise nicht ändern; ein Druck
+  auf \[Cue Number\] ändert die Nummer des aktuell neu zu speichernden
+  Schrittes. Wählen Sie \[Advanced Options\], um die Schrittnummern zu
+  ändern.
 
-Updating Values in a Range of Cues
-----------------------------------
+Werte in mehreren Cues gleichzeitig aktualisieren
+-------------------------------------------------
 
-You can **merge** or **replace** values in a range of cues in a cuelist (or a
-chase). This can be done either from the keypad or from the [Playback
-View](#playback-view-window).
+Werte können auch in mehreren Cues einer Cueliste/eines Chasers
+gleichzeitig aktualisiert (mittels **Merge/Verschmelzen** oder
+**Replace/Ersetzen**) werden. Dies kann sowohl mit numerischer Eingabe als
+auch in der [Playback-Ansicht](#das-fenster-playback-view) erfolgen. 
 
-From [Playback View](#playback-view-window), press \<Record\> then select a cue or range of cues
-by touching and dragging over the required cues. Select \[Merge\] or
-\[Replace\] (or press \<Enter\> to merge). The current programmer will
-be merged into all of the selected cues.
+In der Playback-Ansicht drücken Sie die Taste \<Record\> und klicken
+dann im Bildschirm auf den gewünschten Cue/die Cues. Wählen Sie nun
+\[Merge\] oder \[Replace\] (oder drücken Sie \<Enter\>, um zu Mergen).
+Damit wird der momentane Inhalt des Programmers in die ausgewählten Cues
+übernommen.
 
-From the keypad, connect the cue list (or chase) and press \<Rec Step\>.
-Then use the syntax `<n> THRU <m>` to select a range or `<n> AND
-<m>` to select cues which aren't together. The selected cues will
-highlight in red in the [Playback View](#playback-view-window) if you have it open. When you have
-selected all desired cues press \<Enter\>, then select \[Merge\] or
-\[Replace\] (or just press \<Enter\> again to merge).
+Bei Verwendung der Zifferntasten verbinden Sie zunächst die Cueliste
+mittels \<Connect / Cue\> mit der Steuerung und klicken auf \[Rec. Step\]. Nun
+verwenden Sie die Syntax **n** \<THRU\> **m**, um eine Folge von Cues zu
+ändern, oder **n** \<AND\> **m**, um mehrere Cues einzeln auszuwählen. Ist
+die [Playback-Ansicht](#das-fenster-playback-view) geöffnet, so werden die 
+gewählten Cues rot markiert. Sind alle zu ändernden Cues ausgewählt, 
+drücken Sie \<Enter\> und wählen \[Merge\] oder \[Replace\] (nochmaliges 
+Betätigen von \<Enter\> wählt Merge).
 
-Disabling a Cue
----------------
+Deaktivieren eines Cues
+-----------------------
 
-You can temporarily disable a cue using the **Disable** option at the right
-hand end of the [Playback View window](#playback-view-window). Select the **Disabled** box and the
-softkeys let you set \[Cue Disabled\]. When a cue is set to **Disabled** it
-will be skipped. This can be a useful way to remove a cue, but still be
-able to put it back in later.
+Einzelne Cues können vorübergehend deaktiviert werden. Klicken Sie dazu
+auf die Zelle 'Disabled' ganz rechts beim jeweiligen Cue in der
+Playback-Ansicht. Mit den Funktionstasten wählen Sie nun \[Cue
+Disabled Yes\]. Ist ein Cue deaktiviert (disabled), so wird er übersprungen,
+als wäre er nicht vorhanden, kann aber später wieder aktiviert werden
 
-Extracting a Cue from a Cue List with Include
----------------------------------------------
+Einzelne Cues mit Include in den Programmer laden
+-------------------------------------------------
 
-You can reload a single cue out of a cue list into the programmer using
-**[Include](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)**. Press \<Include\>, select the cue list, enter the cue number to
-be included, then press \[Include Cue\].
+Mit **[Include](../cues/editing-cues.md#cues-wiederverwenden---die-include-funktion)** 
+können einzelne Cues aus einer Cueliste in den Programmer
+geladen werden. Drücken Sie dazu \<Include\>, wählen die Cueliste aus, geben die Cuenummer ein und drücken \[Include Cue\].
 
-If you want to do this from the currently connected cue list, Press
-\<Include\>, \<Connect\>, type the cue number, \[Include Cue\].
+Soll ein Cue aus der gerade verbundenen Cueliste included werden, so
+drücken Sie \<Include\>, \<Connect / Cue\>, geben die Nummer des Cues ein und
+wählen \[Include Cue\].
 
-This is useful if you want to reuse a state from a cue list in another
-playback. It is also useful if you want to edit shapes/effects in a cue,
-although you can also do this from the [Playback View window](#playback-view-window).
+Auf diese Weise kann man Cues aus Cuelisten auch anderweitig
+weiterverwenden sowie Shapes/Effekte in diesem Cue editieren (geht auch
+per [Playback View](#das-fenster-playback-view)).

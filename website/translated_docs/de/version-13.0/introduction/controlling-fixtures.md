@@ -10,7 +10,7 @@ Geräte-Schaltflächen ausgewählt. Die Buttons der ausgewählten Geräte
 werden hellblau dargestellt.
 
 Drücken Sie \<Locate\>, um die ausgewählten Geräte zu "homen" (50%
-Pan/Tilt, kein Gobo, open white), siehe [Locate](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate). Halten
+Pan/Tilt, kein Gobo, open white), siehe [Locate](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate). Halten
 Sie die \<Locate\>-Taste gedrückt und drücken Sie dazu einzelne
 Attribute, um diese **nicht** zurückzusetzen (um z.B. Pan/Tilt nicht
 zurückzusetzen, halten Sie \<Locate\> und drücken dazu \<Position\>).
@@ -19,13 +19,13 @@ Wählen Sie nun einzelne Attribute zum Bearbeiten aus (Attribut-Tasten
 sind beschriftet mit Intensity/Dimmer, Colour, Gobo usw.), und stellen
 Sie die gewünschten Werte mit den Rädern ein; Attribute und Werte werden
 dabei im Display angezeigt
-(Siehe [Changing Attributes Using the Wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels)).
+(Siehe [Einstellen von Attributen mit den Encodern](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern)).
 
 Ebenso können Sie das Attribut-Fenster öffnen (\<View\>, \<Attribute
 Options\>), um Einstellungen mit den Schaltflächen auszuwählen und um
 einzelne Zellen/Subfixtures von Geräten mit mehreren Zellen zu
 beeinflussen.
-(Siehe [Fixtures with Multiple Cells](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fixtures-with-multiple-cells-subfixtures)).
+(Siehe [Geräte mit mehreren Zellen/Subfixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-mit-mehreren-zellensubfixtures)).
 
 Verwenden Sie Paletten, um häufig benutzte Farben, Positionen etc. zu
 speichern, siehe nächste Seite.
@@ -68,5 +68,5 @@ ist, dass man den genauen Kurvenverlauf selbst bestimmen kann.
 
 Um den [Pixelmapper](../effects/pixel-mapper.md), zu verwenden, müssen 
 entsprechende Gruppen erstellt werden. Wählen Sie dann die Gruppe aus, und 
-stellen Sie mit dem [Layout-Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) die Anordnung der Geräte innerhalb der Gruppe ein, bevor
+stellen Sie mit dem [Layout-Editor](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) die Anordnung der Geräte innerhalb der Gruppe ein, bevor
 Sie schließlich mit dem Effekt-Editor Effekte erstellen.

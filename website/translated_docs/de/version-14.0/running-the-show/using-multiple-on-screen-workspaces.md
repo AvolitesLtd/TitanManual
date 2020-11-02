@@ -5,24 +5,31 @@ sidebar_label: Using multiple on-screen workspaces
 original_id: using-multiple-on-screen-workspaces
 ---
 
-On the screen you can configure different "workspaces" which store how
-the various windows are displayed. This allows you to quickly recall
-different setups. Workspaces are stored and recalled from the touch
-buttons to the left of the menu buttons, or may be stored to any grey
-button on the console.
+Es lassen sich diverse **workspaces** (Arbeitsumgebungen) einrichten, die
+ihrerseits die Anordnung und Anzeige der verschiedenen Fenster
+speichern. Diese Arbeitsumgebungen lassen sich auf den Schaltflächen
+links der Menütasten (linker Bildschirmrand beim Sapphire Touch und Titan 
+Go sowie bei externen Displays) speichern und abrufen. Workspaces lassen 
+sich auch auf Executor-Tasten speichern.
 
-You can also create a Set List which will automatically recall a
-workspace layout for each song.
+Drücken Sie zweimal auf \<View / Open\>, um die Auswahl der anzuzeigenden 
+Fenster einzublenden. Siehe [Auswahl und Positionierung der Arbeitsfenster](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster)
+für weitere Details zu den verschiedenen Fenstern.
 
-View menu
----------
+Man kann auch die Workspaces per [Set List](../running-the-show/set-list-window.md) 
+ passend zum jeweiligen Song umschalten.
 
-Pressing \<View/Open\> takes you into the View menu. From here you can
-set up what is shown on the screen(s).
+Das Menü View
+-------------
 
--   \[Window Options\] allows you to reposition and resize windows.
+Durch Betätigen der Taste \<View / Open\> gelangt man in das Menü
+'View' (Ansicht). Hier lässt sich einstellen, was auf dem Touchscreen
+(und ggf. dem externen Bildschirm) angezeigt wird.
 
--   \[Open Workspace Window\] gives a list on the softkeys of all the
-    possible windows, allowing you to open the one you need.
+-   \[Window Options\] (Fensteroptionen) gestattet das Verschieben und
+    Vergrößern/Verkleinern der Fenster.
+
+-   Mit \[Open Workspace Window\] (ein bestimmtes Fenster öffnen) lassen
+    sich auch über die Menütasten alle verfügbaren Fenster aufrufen bzw. schließen.
 
 

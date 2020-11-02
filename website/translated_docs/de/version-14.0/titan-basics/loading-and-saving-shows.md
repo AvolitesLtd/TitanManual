@@ -5,199 +5,214 @@ sidebar_label: Loading and saving shows
 original_id: loading-and-saving-shows
 ---
 
-You can save any number of different shows on a USB drive or the
-console's internal hard disk. The console will also autosave the show
-periodically.
+Eine beliebige Anzahl von Shows lässt sich sowohl auf einem externen
+USB-Speicher als auch auf der internen Festplatte abspeichern. Außerdem
+führt das Pult regelmäßig eine automatische Sicherung durch (Autosave).
 
-> Shows created on a Titan console can be loaded into any other model of Avolites Titan console, but not to older non-Titan consoles as the showfile format is different. \
-  Showfiles from newer versions of Titan may not load correctly (or at all) into consoles with older versions of Titan.
+> Shows vom Tiger Touch können auf andere Avolites TITAN-Pulte übertragen werden, nicht jedoch auf ältere Avolites-Pulte, da das Format der Dateien unterschiedlich ist.\
+> \
+Shows, die mit einer neueren Version der Titan-Software erstellt wurden, laufen in älteren Versionen möglicherweise überhaupt nicht oder nicht korrekt.  
 
+Obwohl die Show auf dem internen Laufwerk sicher aufgehoben ist,
+empfiehlt es sich sehr, die Daten auch auf externen USB-Speicher
+(USB-Stick o.ä.) zu speichern, etwa für den Fall, dass etwas
+Unvorhergesehenes mit dem Pult passiert, oder um die Show auf einem
+anderen Pult zu verwenden.
 
-Although your show is safe on the hard disk, it's a good idea to also
-save it to a USB pen drive which you can take with you in case something
-bad happens to the console or if you want to transfer a show to a
-different console.
+Die Show speichern
+------------------
 
-Saving the show
----------------
+Die aktuelle Show lässt sich jederzeit unter ihrem gegenwärtigen oder
+einem neuen Namen speichern. Wird die aktuelle Show unter ihrem
+bisherigen Namen gespeichert, so wird extra diese Version gespeichert.
+So kann man später zu einzelnen Versionen zurückkehren.
 
-You can save your show at any time either with its current name or with
-a new name. If you save your show with its current name, a new version
-of the show will be created. This allows you to go back to previous
-versions of your show if needed.
+Um die Show zu speichern, gehen Sie wie folgt vor:
 
-To save your current show:
+1.  Drücken Sie die Taste \<Disk\>.
 
-1. Press the \<Disk\> button.
+2.  Drücken Sie \[Save\].
 
-2. Press \[Save Show\].
+3.  Wenn externer USB-Speicher angeschlossen ist, wählen Sie mit den
+Tasten zwischen \[Removable Disk\] (Wechseldatenträger, USB-Speicher)
+und \[Internal hard drive\](interne Festplatte).
 
-3. If you have a USB drive connected, use the softkeys to select
-whether to save on \[Removable Disk\] or \[Internal hard drive\].
+4.  Handelt es sich um eine neue Show, so vergeben Sie mit der Tastatur
+einen Namen für die Show. Ist es dagegen eine neue Version einer bereits
+existierenden Show, so können Sie einen Namenszusatz eingeben, um später
+die Version schneller wiederfinden zu können.
 
-4. If this is a new show, enter a name for the show on the keyboard. If
-this is a new version of an existing show you can enter a tag to help
-identify the version, which will be shown on the Show Browser screen
-when you load shows.
+5.  Klicken Sie \<Enter\> oder \[Save\] (oder \[Overwrite\], falls bereits
+eine Show gleichen Namens existiert und überschrieben werden soll). Nun
+wird die Show gesichert.
 
-5. Press \<Enter\> or \[Save\] (or \[Overwrite\] if the show already
-exists). The show will be saved.
-
-6. Press \<Exit\> or \[OK\] to leave Disk mode.
-
-----
-
--   To save the show under a different name, use the \[Save As\]
-    softkey.
-
--   Pressing the \<Disk\> button twice will make the console save a
-    Quicksave version of the file. A Quicksave is just a version of the
-    show saved with the same filename.
-
--   A new version of the file will be saved even if you enter the same
-    tag as previously used.
+6.  Drücken Sie \<Exit\> oder \[OK\], um den Modus 'Disk' zu verlassen.
 
 ----
 
-If you save to hard drive, shows are saved in the folder 'D:\\Shows' (on
-Titan Mobile, Titan Go and Simulator the folder is
-'Documents\\Titan\\Shows').
+-   Zum Speichern der Show unter einem neuen Namen wählen Sie die
+    Funktion \[Save As\].
 
-Loading a show
---------------
+-   Zweimaliges Drücken der Taste \<Disk\> veranlasst ein Speichern der
+    Show als Quicksave. Quicksaves werden im gleichen Verzeichnis wie
+    die normal gesicherten Shows gespeichert.
 
-The console will automatically reload the last show when it is turned
-on.
+-   Eine neue Version wird selbst dann gespeichert, wenn man den
+    gleichen Namenszusatz wie vorher vergibt.
 
-![Show Browser](/docs/images/Show-Browser.png)Press the \<Disk\> button then \[Load
-Show\] to load in a new show. The Show Browser window will appear.
+----
 
-On the top left you can select which drive is used, or show files on all
-drives. On the bottom left you can filter the list of shows to see all
-shows, or just manual saves, quick saves or autosave files. On the right
-you can see different versions of the showfile; this allows you to
-reload an earlier version if you need to.
+Beim Speichern auf der internen Festplatte werden die Daten in das
+Verzeichnis 'D:\\Shows' gespeichert. Bei der PC-Suite werden die
+Showdaten in 'Eigene Dokumente\\Titan\\Shows' gespeichert.
 
-You can also load shows from the softkeys:
+Laden einer Show
+----------------
 
-1. Press the \<Disk\> button.
+Beim Einschalten/Starten wird automatisch die zuletzt geladene Show
+geladen.
 
-2. Press \[Load Show\].
+![Show Browser](/docs/images/Show-Browser.png)
+Zum Laden einer anderen Show betätigen Sie die Taste \<Disk\> und wählen
+die Option \[Load Show\]. Darauf wird der Show-Browser angezeigt.
 
-3. If you have a USB drive connected, select which drive you want to
-load from.
+Links oben kann man das zu verwendende Laufwerk wählen. Links unten
+lässt sich die Anzeige filtern, etwa um nur manuelle oder nur Autosaves
+anzuzeigen. Rechts werden die verschiedenen vorhandenen Versionen der
+gefundenen Show angezeigt; damit kann man schnell und einfach zu einem
+früheren Programmierstand wechseln.
 
-4. Available shows are listed on the softkeys; press the key to load
-the show (the F and G keys show more pages). If you type the first few
-letters of the show name on the touch keyboard, the list will only
-include shows starting with those letters, which can make it easier to
-locate the show you want.
+Ebenso lassen sich Shows auch über die Menütasten auswählen und
+laden:
 
-5. If there are multiple versions of the show stored on the disk,
-select the one you want.
+1.  Drücken Sie die blaue Taste \<Disk\>.
 
-6. Press Load Show. The console will show a loading screen as the
-different elements of the show load.
+2.  Drücken Sie \[Load Show\].
 
-7. When the show has loaded the normal operating screen will reappear.
+3.  Wenn ein externer USB-Speicher angeschlossen ist, wählen Sie nun das
+Laufwerk, von dem die Show geladen werden soll.
 
-When loading a show you have the option to keep the existing DMX
-settings of the console, or to load the settings stored in the showfile.
-The DMX settings determine how the XLR sockets on the back of the
-console are used and how DMX is sent over the network using TitanNet.
+4.  Momentan im angewählten Speicher vorhandene Shows werden bei den
+Menütasten A bis E angezeigt (mit F und G kann man in der Liste
+weiterblättern). Um die Auswahl einzugrenzen, geben Sie die
+Anfangsbuchstaben der gewünschten Show mit der Tastatur ein.
 
-Importing parts of other shows
-------------------------------
+5.  Gibt es mehrere Versionen der Show, so wählen Sie die gewünschte
+aus.
 
-If you are doing a show which is similar to a previous one, you might
-want to import parts of the previous showfile, for example you might
-want the palettes for some Robe Robins from another show, but not the
-other fixtures. This is where the Import Show function comes in handy.
+6.  Drücken Sie auf \[Load Show\]. Beim Laden der Show wird der
+Fortschritt für die einzelnen Elemente der Show angezeigt.
 
-For Import Show to work, you need to map fixtures from your imported
-file to fixtures in the current show so that Titan knows where to import
-the programming to.
+7.  Nachdem die Show geladen ist, kehrt die Anzeige zum normalen
+Betriebsmodus zurück.
+
+Beim Laden einer Show lässt sich wählen, ob die bereits im Pult
+vorhandenen DMX-Einstellungen übernommen oder die aus der Show verwendet
+werden sollen; damit wird die Zuordnung der internen Linien auf die
+DMX-Anschlüsse und Netzwerkgeräte bestimmt.
+
+Teile aus anderen Shows importieren
+-----------------------------------
+
+Ist eine Show ähnlich einer früheren, so möchte man vielleicht Teile aus
+dieser in der neuen verwenden; so könnte man z.B. einige Paletten, die
+damals für Robe Robins programmiert wurden, jetzt für andere Lampen
+verwenden. Genau dazu dient die Import-Funktion.
+
+Voraussetzung für das Importieren ist das Zuordnen (Mappen) von Geräten der
+importierten zu Geräten der aktuellen Show, so dass das Pult weiß, auf
+welche Geräte die importierten Daten anzuwenden sind.
 
 ![Fixture Mapping](/docs/images/Fixture-Mapping.png)
 
-You can then select items from the imported show and store them onto
-workspace or panel buttons in your current show.
+Ist dies geschehen, lassen sich Teile der älteren Show auf
+Tasten/Schaltflächen der neuen Show speichern und verwenden.
 
 ![Import](/docs/images/Import.png)
 
-1. Press the \<Disk\> button.
+1.  Drücken Sie die Taste \<Disk\>.
 
-2. Press \[Import Show\] (The plus button at the top right of the Show
-Library window also opens this menu).
+2.  Klicken Sie \[Import Show\] (Das große Plus-Zeichen oben im Fenster
+Show-Verzeichnis ruft ebenfalls diese Funktion auf).
 
-3. The Show Browser window opens. Select the show you want to import
-from and press \[Load Show\].
+3.  Darauf öffnet sich der Show-Browser. Wählen Sie die zu importierende
+Show aus und klicken Sie auf \[Load Show\].
 
-4. The Show Library window will now open. Your current show and the
-imported show will appear as buttons at the top of the show browser. You
-can import items from more than one show at once by repeating steps 1-3.
+4.  Nun öffnet sich das Fenster Show-Verzeichnis (Show Library). Die
+aktuelle sowie die zu importierende Show haben jeweils Schaltflächen
+oben im Fenster. Es lassen sich Teile aus mehreren Show gleichzeitig
+importieren, indem man Schritte 1 bis 3 wiederholt.
 
-5. Click on the Mapper tab, and select your imported show.
+5.  Klicken Sie auf den Reiter 'Mapper' und wählen Sie die importierte
+Show.
 
-6. Select a fixture in your imported show, then click the arrow beside
-the fixture it maps to in the current show. To remove a mapping, click
-the \[Clear Fixture Mapping\] context button.\
-You can select multiple target fixtures by dragging a box over the
-fixtures, or click on the source fixture again and map to another
-target.
+6.  Wählen Sie ein Gerät der importierten Show und klicken Sie dann auf
+den Pfeil bei einem Gerät der aktuellen Show, um es zuzuordnen. Um eine
+Zuordnung wieder aufzuheben, wählen Sie aus dem Kontext-Menü \[Clear
+Fixture Mapping\].
 
-7. When you have mapped all fixtures you want to import data from,
-click on the Show Library tab.
+	Um ein importiertes Gerät auf mehrere vorhandene Geräte zuzuordnen,
+	ziehen Sie um diese einen Auswahlrahmen, oder Sie klicken wiederholt auf
+	das zu importierende sowie ein vorhandenes Gerät.
 
-8. Select the items you want to import (single or multiple). Use the
-buttons on the left to select Palettes, Groups etc.
+7.  Sind alle Gerät zugeordnet, für die etwas importiert werden soll,
+klicken Sie auf den Reiter ‚Show Library'.
 
-9. Select handle(s) where you want to store the imported items.
+8.  Wählen Sie die zu importierenden Bestandteile (einzeln oder mehrere
+gleichzeitig). Mit den Schaltflächen links lassen sich einzelne
+Kategorien auswählen (z.B. Gruppen oder Paletten).
 
-10. When you have imported all the items you want, press \<Exit\>.
+9.  Wählen Sie nun Tasten oder Schaltflächen (in den jeweiligen
+Fenstern), auf die die importierten Teile gespeichert werden sollen.
 
----
-
--   You can filter fixture types to make the mapping easier using the
-    buttons on the left and right sides of the show browser.
-
--   You can directly import shows without using the Disk menu by
-    clicking the Plus button at the top right of the Show Browser.
-
--   You can find more information about the Show Library [here](./show-library.md).
+10.  Ist alles Gewünschte importiert, so beenden Sie den Vorgang mit
+\<Exit\>.
 
 ---
 
-Autosave
---------
+-   Rechts und links im Show-Browser lassen sich Filter für die
+    anzuzeigenden Gerätetypen setzen, um die Suche zu vereinfachen.
 
-The console will automatically save your show to its internal hard disk
-when you shut it down. It will also autosave the show every 30 minutes
-in case the console loses power.
+-   Wird der Show-Browser angezeigt, so kann man die Import-Funktion
+    direkt über einen Klick auf das \[+\] (Pluszeichen) aufrufen.
 
-You can disable Autosave or alter the time between saves using option
-\[Auto Save\] on the Disk menu (press the \<Disk\> button). You can
-reload Autosave files using the Show Browser.
+-   Weitere Informationen zum Show-Verzeichnis siehe [Show Library](./show-library.md).
 
->This option is included because Autosave used to make the console pause, however this is no longer the case and we recommend that you do not disable Autosave. If you lose power while programming Autosave will make your day a whole lot better.
+---
 
-Recover show
-------------
+Autosave -- Automatisches Speichern
+-----------------------------------
 
-If Titan shuts down improperly due to a crash or power failure, and when
-you restart it the most recent showfile can't be reloaded, a softkey
-option \[Recover Show\] will be displayed which will attempt to load the
-show from the temporary directory. You will also see options to start a
-new show or load a previous show.
+Die aktuelle Show wird durch das Pult beim Herunterfahren automatisch
+gespeichert. Ebenso erfolgt alle 30 Minuten eine automatische
+Speicherung etwa für den Fall eines plötzlichen Stromausfalls.
 
-Backing up existing show files to USB pen drive
------------------------------------------------
+Die Häufigkeit des automatischen Speicherns lässt sich ändern bzw. die
+Funktion ganz abschalten. Dazu wählt man die Option \[Auto Save\] aus
+dem 'Disk'-Menü (blaue Taste \<Disk\>). Autosaves lassen sich wie
+anderweitig gespeicherte Shows im Show-Browser auswählen und aufrufen.
 
-If you just want to save a copy of your current show, you can use the
-normal save function to save it to the USB drive instead of the hard
-drive.
+> Früher gab es bei langsamer Hardware die Empfehlung, während der Show Autosave zu deaktivieren, damit es nicht zu Performance-Einbußen kam. Auf aktuellen Pulten und guter Hardware gilt dies nicht mehr: lassen Sie Autosave daher aus Sicherheitsgründenaktiviert.
 
-To copy an existing show file on the hard disk to a USB drive, first
-ensure your current show is saved, then use the Disk functions to load
-the existing show from hard disk, then save it to the USB drive.
-Alternatively you can use the Folders command on the Tools menu.
+Recover -- Show Wiederherstellen
+--------------------------------
+
+Wurde Titan nicht richtig beendet, etwa durch einen Stromausfall, und
+wird dann neu gestartet, so kann der letzte Stand meist nicht direkt
+wiederhergestellt werden. In diesem Fall gibt es die Option \[Recover
+Show\], womit versucht wird, die frühere Show aus einem temporären
+Verzeichnis zu rekonstruieren. Außerdem werden auch Funktionen zum
+Starten einer neuen Show oder dem Laden einer anderen Show angeboten.
+
+Sichern existierender Shows auf USB-Sticks
+------------------------------------------
+
+Wollen Sie einfach eine Kopie der aktuellen Show anfertigen, so machen
+Sie das am besten mit der normalen Speicherfunktion ('Save'), und wählen
+das externe USB- anstelle des internen Laufwerks.
+
+Um eine auf der internen Festplatte vorhandene Show auf einen USB-Stick
+zu kopieren, stellen Sie zunächst sicher, dass die aktuelle Show
+gesichert ist. Dann laden Sie die zu kopierende Show von der Festplatte
+und speichern sie auf USB-Stick. Alternativ lässt sich das auch per
+'Folders' aus dem Tools-Menü realisieren.

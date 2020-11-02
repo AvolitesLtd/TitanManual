@@ -6,8 +6,8 @@ original_id: titan-mobile
 ---
 
 Das Titan Mobile ist ein PC-Wing, der mittels USB an einen Computer
-angeschlossen wird (Windows 7 oder höher, 64 bit), auf dem die
-Titan-Software läuft.
+angeschlossen wird, auf dem die Titan-Software läuft. Zu den 
+Systemanforderungen siehe [Inbetriebnahme von Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2).
 
 ![Titan Mobile](/docs/images/Titan-Mobile.png)
 

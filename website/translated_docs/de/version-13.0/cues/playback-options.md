@@ -7,218 +7,209 @@ original_id: playback-options
 
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
-To set options for a cue, chase or cue list, press \[Playback Options\]
-on the root menu, then press the **select** button of the playback to be
-edited. A list of option categories will open on the softkeys; a window
-will also open giving a touch-friendly version of the playback options.
+Zum Einstellen der Optionen eines Cues, einer Cueliste oder eines
+Chasers drücken Sie \[Playback Options\] im Hauptmenü und anschließend
+die **Swop-Taste** der entsprechenden Playbacks. Darauf öffnet sich eine
+Liste mit den verfügbaren Optionen auf den Menütasten. Außerdem werden 
+alle verfügbaren Optionen übersichtlich in einem Fenster dargestellt, 
+wenn man in der Playback-Ansicht links auf den Button \[Options\] klickt.
 
 ![Playback Options window for cue showing playback tab](/docs/images/Playback-Options-Playback-Tab.png)
 
-Click on the \[i\] button for a help window on each setting.
+Ein Klick auf den Button \[i\] zeigt einen kurzen Hilfetext zu der jeweiligen
+Option.
 
-> You can select multiple playbacks if you want to set the options the
-same on all of them. The current option settings will be shown if they
-are the same on all playbacks.
+> Sollen die Optionen für mehrere Playbacks auf einmal angezeigt/geändert
+werden, so kann man einfach mehrere Playbacks auswählen. Dabei werden
+Optionen als aktiv angezeigt, sofern sie auf allen Playbacks gleich
+aktiviert sind.
 
-## Playback Tab
+## Playback Options -- Tab "Playback"
 
 
 ### Blind
-Sets this individual playback to **Blind** mode. The playback
-will then output only to Visualiser, not to the stage. *This can be very
-useful if you need to program and test a cue during a live show.*
+Schaltet das jeweilige Playback in den **Blind**-Modus. Damit
+erfolgt die Ausgabe nicht an die 'Live'-DMX-Ausgänge, sondern an den
+Visualiser, *um Änderungen vornehmen zu können, ohne das aktuelle Bild zu
+stören*.
 
 ### Priority
-Allows you to configure how playbacks will behave if you
-turn on two playbacks controlling the same fixture. The priority can be
-set to **Low**, **Normal**, **High**, **Programmer** or **Very High** *(Programmer gives the
-same level as manually set attributes in the programmer)*. If a fixture
-is being controlled by a playback and you turn on a playback of the same
-or higher priority, then the new playback will take over. However, if
-the new playback is set to lower priority than the first playback, the
-fixture will not change.
+Damit lässt sich das Verhalten bestimmen, wenn mehrere
+aktive Cues gleichzeitig dieselben Geräte beeinflussen. Die Priorität
+lässt sich zwischen **Low** (niedrig), **Normal** (normal), **High** (hoch),
+**Programmer** (Programmierspeicher) und **Very High** (sehr hoch)
+umschalten *('Programmer' ist gleichwertig mit der Priorität des
+Programmierspeichers)*. Wird ein Gerät aktuell von einem Cues gesteuert,
+und dann ein Cue mit gleicher oder höherer Priorität gestartet, so
+übernimmt der neue Cue die Kontrolle. Hat hingegen der neue Cue eine
+niedrigere Priorität, so erfolgt keine Änderung am Gerät.
 
-This is useful if, for example, you've programmed looks using all your
-fixtures, then you decide you want a couple of them to spotlight a
-singer. If you set the spotlight playback to be high priority, then
-while it is active no other playback will affect the spotlight fixtures.
+Ein Anwendungsfall wäre etwa, wenn man mit sämtlichen Geräten ein
+bestimmtes Bild programmiert hat und später entscheidet, ein paar Geräte
+davon z.B. als Spot auf den Sänger zu verwenden. Setzt man nun die
+Priorität des 'Spot'-Cues höher, so werden die dafür verwendeten Geräte
+von den anderen Cues nicht beeinflusst.
 
-> Priority is useful when using **Swop** buttons for strobe-type effects
-where you want to black out everything else. If you have a position
-shape running on other fixtures, you don't want that to stop during the
-Swop, or it will look messy when you release the Swop button. So set the
-shape playback to have a higher priority than the strobe playback, and
-it will keep going during the strobe and continue smoothly when you
-release the Swop button.
 
-Attributes set by manually applying a palette to a fixture will
-override all playback priorities except Very High.
+> Priorisierung ist etwa hilfreich, wenn mit Swop-Tasten ein Strobe programmiert werden soll, das solange alle anderen Cues ausblendet. Wenn z.B. ein Positions-Shape läuft, so soll der natürlich nicht stoppen, da sonst ggf. alles ‚durcheinander' aussieht. Entsprechend empfiehlt es sich, das Playback mit dem Shape auf eine höhere Priorität zu setzen, so dass es vom Swop nicht ausgeblendet wird.
+
+Wird manuell eine Palette aufgerufen, so haben deren Werte eine
+höhere Priorität als Werte in Cues, außer in solchen mit der Priorität 'Very High'.
 
 ### Shape Behaviour
-Controls the behaviour of Key Frame Shapes in this playback:
+Steuert das Verhalten von Keyframe-Shapes in diesem Playback:
 
-Setting | Action
+Einstellung | Ergebnis
 ------: | ------
-Global | Use global setting from [User Settings](../system-settings/user-settings.md#shape-behaviour)
-Overlay | Shape continues to run over changes to attributes
-LTP | If attributes are changed, the shape will stop running on those attributes
+Global | Es gelten die globalen [Benutzereinstellungen](../system-settings/user-settings.md#shape-behaviour)
+Overlay | der Shape läuft unabhängig von etwaigen Attribut-Änderungen
+LTP | Attributänderungen beenden den Shape auf den jeweiligen Attributen
 
 ### Fader Mode
-This is the same option as set in the [\[Edit Times\]
-menu](cue-timing.md).
+Die gleiche Einstellung wie im [\[Edit Times\]](cue-timing.md)-Menu:
 
-Setting | Action
+Einstellung | Ergebnis
 ------: | ------
-Mode 0 | Channels fade in as set by the fade time. The Fade Out time is ignored. If times are set to zero, the HTP channels fade in with the 0-100% position of the playback fader and the LTP channels will snap.
-Mode 1 | HTP channels fade in and out as set by the fade out times (LTP channels fade in but then remain as set in the cue). If times are set to zero, the HTP levels will fade in and out with the fader and the LTP channels will snap when the cue is fired.
-Mode 2 | Both HTP and LTP channels follow the fader position. *Useful when used with a pan/tilt cue for manually tracking a spot across a stage or down a catwalk using the fader position or for mixing colours on RGB fixtures.*
-Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to the settings in the new cue. All other cues fade out and all other active playbacks become inactive; if you need to re-fire a playback, take the fader to zero and put it up again. *Useful for setting a video playback state.*
+Mode 0 | die Kanäle blenden in der vorgegebenen Zeit über, die Ausblendzeit wird dabei ignoriert. Stehen die Zeiten auf '0', so werden HTP-Kanäle direkt mit dem Fader eingeblendet, während LTP-Kanäle 'hart' umschalten.
+Mode 1 | die Kanäle blenden in der vorgegebenen Zeit ein, HTP Kanäle blenden in der vorgegebenen Ausblendzeit aus (LTP-Kanäle behalten ihre Werte). Stehen die Zeiten auf '0', so werden HTP-Kanäle direkt mit dem Fader eingeblendet, während LTP-Kanäle 'hart' umschalten..
+Mode 2 | sowohl HTP- als auch LTP-Werte folgen dem Faderwert. *Sinnvoll z.B. zur Anwendung mit Pan und Tilt etwa auf einem Catwalk oder zur manuellen Steuerung der Farben bei RGB-Lampen.*
+Mode 3 | Crossfade (Überblendung). Sämtliche Kanäle, einschließlich der Helligkeit, blenden zu den Einstellungen des neuen Cues über, alle anderen noch aktiven Cues werden ausgeblendet und deaktiviert. Wird eine anderer Cue wieder benötigt, so bringen Sie dessen Regler auf '0' und dann wieder auf den gewünschten Wert. *Sinnvoll z.B. für eine Präsentationsstimmung, mit der alle anderen Playbacks ausgefadet werden.*
 
 [](https://youtu.be/2fwM5S8nX3k?t=20 "Playback Modes")
 
 ### Run On Startup
-Sets this playback to run when the console powers
-on. This can be disabled by the
-[Auto Run Startup Playbacks](../system-settings/user-settings.md#run-startup-playbacks) option in
-[User Settings](../system-settings/user-settings.md) *(turned on by default)*.
+Ist dies eingeschaltet, so wird das Playback beim
+Start des Pultes bzw. Laden der Show aktiviert. Dazu gehört die
+Benutzereinstellung [Run Startup Playbacks](../system-settings/user-settings.md#run-startup-playbacks) *(Vorgabewert: ein)*.
 
-This can be very useful for **unattended applications** to set up an
-**initial lighting state**, or to run **lamp on macros**.
+Sinnvoll z.B. für Festinstallationen, wenn beim Starten des Pultes direkt 
+ein Grundlicht aktiviert werden soll.
 
-Power on playbacks show a Power symbol watermark in the playback
-information area above the fader. If you open the
-[Show Library window](../titan-basics/show-library.md)
-there is a filter tab to Show Startup
-Playbacks which allows you to list all the playbacks which are set to
-run on startup.
+Playbacks, die beim Start der Software automatisch starten, zeigen dies durch 
+ein Einschalt-Symbol an. Im [Show-Verzeichnis](../titan-basics/show-library.md) 
+gibt es einen Kontext-Button, um die automatisch aktivierten Playbacks anzuzeigen.
 
 ![Power On Playback](/docs/images/Power-On-Playback.png)
 
 ### Speed
-Default speed for this playback in BPM. This can be
-overridden by a [Rate or BPM master](../running-the-show/playback-controls.md#speed-and-size-masters),
-or if the playback is a [chase](../chases.md), can be modified using the wheels.
+Vorgabe-Tempo für Effekte in diesem Cue. Kann durch
+entsprechende [Master](../running-the-show/playback-controls.md#speed--und-size-master) 
+überschrieben werden. Der Speed laufender [Chaser](../chases.md)
+kann auch durch die Encoder geändert werden, sofern der Chaser
+mit der Steuerung verbunden ist.
 
 ### Xfade
-Default crossfade for this playback. If the playback is a
-[chase](../chases.md), this can be modified using the wheels and the changes will be
-saved here.
+Crossfade (Überblenden) für dieses Playback. Bei [Chasern](../chases.md) kann
+Crossfade auch mit dem entsprechenden Encoder eingestellt werden.
 
 ### Speed Multiplier
-Allows you to modify the speed, useful when
-running multiple playbacks together
+Damit lässt sich die Geschwindigkeit vervielfachen/teilen. Das bietet sich 
+besonders an, wenn man mehrere Chaser/Effekte gleichzeitig anwendet.
 
 ### Flash Fade In / Flash Fade Out
-Sets the fade in/fade out time for
-this playback when it is fired using the flash button. By default these
-are set to *"AsIn"* and *"AsOut"* which will use the fade time set for the
-playback in the [Times menu](cue-timing.md). This option allows you to set a different
-flash action for the playback. *Note that the [Key Profile](../system-settings/key-profiles.md) for the flash
-button must be set to **Timed Flash** for this to work.*
+Ein- und Ausfadezeit beim Flashen
+per Flash-Taste. Vorgabewerte sind *'AsIn'* und *'AsOut'*, also die normalen
+Ein-/Ausfadezeiten für den Cue. Hiermit lassen sich wenn gewünscht
+andere Flash-Fadezeiten als Fadezeiten für den Fader einstellen.
+*Voraussetzung dafür ist das [Tastenprofile/Key Profile](../system-settings/key-profiles.md) **Timed
+Flash***.
 
 ### Cross Fade HTP
-If on, makes the HTP (dimmer) channels in this cue
-override other HTP channels, obeying the [priority](#priority) settings. Normally if
-a dimmer channel was up in another cue, the highest dimmer setting would
-continue to be output, but this option lets you create a playback that
-will override this behaviour, so if you specifically need some fixtures
-to be at 50%, this option will let you do that.
+Sofern aktiviert, überschreiben HTP-Kanäle (Dimmer)
+in diesem Playback die Informationen für diese Kanäle aus anderen
+Playbacks, wobei die [Priorität](#priority) der Playbacks beachtet wird.
+Normalerweise folgen Dimmerkanäle ja der HTP-Regel, d.h. der höhere Wert
+wird ausgegeben. Doch mit dieser Option lassen sich Playbacks erstellen,
+bei denen der zuletzt gesendete - auch niedrigere - Wert
+berücksichtigt wird.
 
-## Handle Tab
+## Playback Options - Tab "Handle"
 
 ### Handle Paging
-Allows you to lock the playback on a handle so that
-it always appears on that handle no matter what page is selected. This
-is useful if you have some general playbacks you want on every page,
-without having to copy the playback onto each page.
+Mit dieser Option lässt sich ein Playback 'fixieren',
+so dass es unabhängig vom Wechsel der Seiten stets verfügbar bleibt.
+Dies bietet sich an, wenn man ein paar allgemeine Cues hat, die auf
+jeder Seite benötigt werden, ohne dass man diese extra kopieren muss.
 
-Setting | Action
+Einstellung | Ergebnis
 ------: | ------
-Unlocked | This playback will change with the pages as normal
-Transparent Lock | This playback will appear on all pages when the handle is unprogrammed
-Locked | This playback will appear on all pages. Playbacks programmed on this handle on other pages will not be accessible.
+Unlocked | Voreinstellung, das Playback wird normal umgeschaltet.
+Transparent Lock | Das Playback wird auf alle Seiten eingeblendet, auf denen nicht schon etwas anderes auf dem entsprechenden Regler programmiert ist.
+Locked | Das Playback wird auf allen Seiten auf den gleichen Regler eingeblendet. Etwa dort bereits programmierte Cues etc. sind nicht erreichbar.
 
 ### Key Profile
-Sets the [key profile](../system-settings/key-profiles.md) individually for this playback.
-Global sets the [key profile](../system-settings/key-profiles.md) back to the global setting for playbacks.
+Auswahl des [Tastenprofils/Key Profiles](../system-settings/key-profiles.md) 
+für das Playback. 'Global' stellt etwa vorhandene einzelne Einstellungen auf 
+den global gültigen Wert zurück.
 
-## Fader Tab
+## Playback Options -- Tab "Fader"
 
-### Fader Mode
-Same as in Playback tab, [see above](#fader-mode)
+### Fader-Modus
+gleiche Einstellungen wie im Tab Playback, [siehe oben](#fader-mode)
 
 ### Shape Size
-Sets whether the fader position affects the size of shapes in this
-playback
+Bestimmt, ob der Fader Einfluss auf die Größe von Shapes
+auf diesem Playback hat:
 
-Setting | Action
+Einstellung | Ergebnis
 ------: | ------
-Fixed | No effect
-Fader | Size of all types of shape set by fader position
-HTP Fader | Only dimmer shapes are controlled by fader position
+Fixed | keine Auswirkung, nur fest programmierte Werte
+Fader | die Größe aller hier programmierten Shapes wird vom Fader gesteuert
+HTP Fader | nur die Größe von Dimmer-Shapes wird durch den Fader gesteuert
 
 ### Shape & Effect Speed
-Sets whether the fader position affects the speed of shapes in this playback
+Bestimmt, ob der Fader Einfluss auf das Tempo von Shapes auf diesem Playback hat.
 
 ### Curve
-Allows you to set a different curve shape for this playback - curves
-are listed on the softkeys. The various curves are illustrated
-in the [Curves](../system-settings/curves.md) section.
+Bestimmt den Verlauf der Änderungen der Attribute, wenn der
+Cue eingeblendet wird. Die verschiedenen Kurven sind [Curves](../system-settings/curves.md) näher beschrieben.
 
 ---
 
-> You can also allocate a
-[Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters)
-to the cue which will allow you to
-modify the shape during playback.
+> Es lässt sich auch ein 
+[Speed Master](../running-the-show/playback-controls.md#speed--und-size-master)
+bestimmen, der enthaltene Shapes steuert.
 
-## Effects Tab
+## Playback Options -- Tab "Effects"
 
 ### Shape Behaviour
-Same as in playback tab, [see above](#shape-behaviour)
+Gleiche Einstellung wie im Tab 'Playback', [siehe oben](#shape-behaviour).
 
 ### Speed Source
-Allows you to allocate a
-[Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters)
-to this playback.
+Bestimmt einen [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master), 
+der enthaltene Shapes steuert.
 
 ### Size Source
-Allows you to allocate a
-[Size Master](../running-the-show/playback-controls.md#speed-and-size-masters)
-to this playback
+Zuordnung eines [Size Masters](../running-the-show/playback-controls.md#speed--und-size-master)
+für enthaltene Shapes
 
 ### Shape Size
-Same as in fader tab, [see above](#shape-size)
+Gleiche Einstellung wie im Tab 'Fader', [siehe oben](#shape-size)
 
 ### Shape & Effect Speed
-Same as in fader tab, [see above](#shape-effect-speed)
+Gleiche Einstellung wie im Tab 'Fader', [siehe oben](#shape--effect-speed)
 
-> If you have a cue which contains only shapes to overlay on other cues, set the cue to \[Size on Fader\] and allocate a [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters). You can then create lots of different looks out of the shape by varying the size and speed at show time using the playback fader and the speed master.
+> Haben Sie einen Cue, der nur Shapes enthält, um diese zu anderen Cues dazuzumischen, so empfiehlt es sich, für diesen die Einstellung \[Size on Fader\] vorzunehmen sowie einen [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master) zu verwenden. Damit lässt sich dann flexibel und unabhängig die Größe und die Geschwindigkeit des Shapes live verändern.
 
-## Release Tab
+## Playback Options -- Tab "Release"
 
 ### Release Mask
-Lets you specify which attributes will be released to
-the state they were in from a previously fired playback when this
-playback is killed (you lower the fader to zero). You can also use the
-Attribute Bank buttons to set the mask.
+Bestimmt die freizugebenden Attribute, die damit auf
+den Status vor Abruf des Cues zurückgesetzt werden, sobald der aktuelle
+beendet/ausgeblendet wird (Fader auf 0). Ebenso lassen sich dazu die
+Attribut-Tasten benutzen.
 
-The mask can be set to Global or Local. Local means you can make
-individual mask settings for this playback. Global uses the global
-release mask which is set in the **Release menu** (press Release).
+Die Maske kann auf Global oder Lokal gestellt werden. Mit 'Lokal' lassen
+sich Einstellungen nur für diesen Cue vornehmen, während 'Global' der
+Bezug auf die globale Release-Maske **Release-Menü** ist
+(drücken Sie dazu \<Release\>).
 
-> Release mask is useful when creating a temporary strobe
-effect on a playback. Press \[Release Mask\] then the
-Intensity/Shutter attribute button. Now when you turn off
-the playback the shutter will release to its previous state
-and the strobe will stop.
+> Mit der Release-Maske lässt sich z.B. ein temporärer ('flashbarer') Strobe-Effekt programmieren. Drücken Sie \[Release Mask\], und stellen Sie Intensity auf 'Include'. Wird nun das Playback ausgeblendet, kehrt der Shutter zum vorigen Wert zurück, und das Strobe stoppt. 
 
-> When using with chases you need to press \[Mask\] before
-pressing the Intensity/Shutter button.
-
-You can use [Key Profiles](../system-settings/key-profiles.md) to
-allocate one of the handle buttons to release the playback.
+Per [Tastenprofil/Key Profile](../system-settings/key-profiles.md) lässt sich die graue/blaue Taste mit der Funktion ‚Release' belegen.
 
 ### Release Time
-Sets a release fade time for this playback. Enter
-blank time to return to global *([Global release time](../system-settings/user-settings.md#master-release-time) is set in the [User Settings](../system-settings/user-settings.md))*.
+Zum Einstellen der Zeit für das Releasen; in dieser
+Zeit werden die Attribute zum vorherigen Wert übergeblendet. Wird die
+Zeit komplett gelöscht, so wechselt der Eintrag auf Global (die in den
+[Benutzereinstellungen](../system-settings/user-settings.md) eingestellte [globale Release-Zeit](../system-settings/user-settings.md#master-release-time)).

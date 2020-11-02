@@ -5,28 +5,35 @@ sidebar_label: Networking the Console
 original_id: networking
 ---
 
-There are a number of ways for the console to communicate with lighting
-fixtures beyond the traditional DMX sockets, and these are described in
-this chapter.
+Titan unterstützt über die üblichen DMX-Buchsen hinaus etliche
+weitere Wege der Kommunikation mit Beleuchtungs- und anderen Geräten;
+diese werden im Folgenden beschrieben.
 
-If the console has multiple network ports, [DMX will be output on all
-ports](system-settings/dmx-output-mapping.md#configuring-dmx-outputs). You can set this from the DMX module properties in the DMX
-Settings window, each port is listed with a switch to enable or disable
-it.
+Verfügt das Pult bzw. Der Computer über mehrere Netzwerkanschlüsse, so [kann
+DMX über jeden davon ausgegeben werden](system-settings/dmx-output-mapping.md#einrichten-der-dmx-ausgänge). 
+Ganz exakt lässt sich in den DMX-Einstellungen festlegen: für jeden 
+Netzwerkport lässt sich die DMX-Ausgabe explizit aktivieren oder deaktivieren.
 
-You can also connect to [networked processing nodes](titan-net.md), which allow you to
-control up to 64 universes of DMX.
+Ebenso lassen sich Prozessor-Knoten einbinden (TitanNet), womit die
+Gesamtzahl möglicher Universen bis auf 64 gesteigert werden kann. Auch
+können mehrere Pulte per Netzwerk im Mehrbenutzerbetrieb sowie im
+Backup-Modus betrieben werden.
 
-The console may also be networked with other Titan consoles for
-multi-user control, and for backup.
-
-
-> At the end of the chapter is a section which aims to cover [the basics of
-IP addressing](networking/a-quick-guide-to-ip-addressing.md), which is essential for various features on the console
-such as Art-Net.
+> 	Am Ende des Kapitels werden in einem separaten Abschnitt die [Grundlagen
+	der IP-Adressierung](networking/a-quick-guide-to-ip-addressing.md) 
+	erklärt, was etwa für Art-Net eine wichtige Voraussetzung ist.
 
 ---
   
-> Lighting networks need to transfer of large amounts of data. For best reliability you should use network wiring which is dedicated to the lighting system and physically isolated from other networks, and uses simple hubs rather than intelligent switches.
+>	Netzwerke für Lichttechnik übertragen große Datenmengen. Um einen 
+	zuverlässigen Betrieb zu gewährleisten, empfiehlt es sich, dafür ein 
+	separates, physikalisch von anderen Netzwerken getrenntes Netzwerk 
+	vorzusehen.
+
+Zwar kann man das Licht-Netzwerk auch mit anderen Netzwerken verbinden, 
+doch kann das zu Übertragungsproblemen sowohl bei der Licht- als auch 
+bei der anderen Peripherie führen. In einem solchen Fall sollten unbedingt 
+die [Hinweise zur IP-Adressierung](networking/a-quick-guide-to-ip-addressing.md) 
+beachtet werden. Ferner ist zu beachten, dass intelligente Netzwerk-Switches 
+ggf. Art-Net und ähnliche Protokolle blockieren können.
   
-Connecting to an existing network with other network traffic is possible but can lead to problems both with the lighting equipment and with other IT equipment on the network. Intelligent Ethernet switches may drop or block lighting data. If you need to do this please read about the IP addresses you should use in [the IP addressing guide](networking/a-quick-guide-to-ip-addressing.md).

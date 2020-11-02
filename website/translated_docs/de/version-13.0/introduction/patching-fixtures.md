@@ -19,7 +19,7 @@ passende Vorbelegung (z.B. nächste freie Adresse).
 
 Betätigen Sie eine oder mehrere Schaltflächen im
 Geräte(Fixtures)-Fenster, um die Geräte zu patchen, oder patchen Sie mit
-den blauen Tasten direkt auf einzelne Fader.  (Siehe [Patching Fixtures or Dimmers](../patching/patching-new-fixtures-or-dimmers.md)).
+den blauen Tasten direkt auf einzelne Fader.  (Siehe [Geräte und Dimmer patchen](../patching/patching-new-fixtures-or-dimmers.md)).
 
 Um mehrere gleiche Geräte oder mehrere Dimmer auf einmal zu patchen,
 wählen Sie mehrere Geräte-Schaltflächen aus, indem Sie darüber
@@ -27,12 +27,12 @@ streichen, oder geben Sie die Anzahl mit \[Quantity\] ein. (Bei
 Fadern/Tasten: die erste Taste gedrückt halten und dazu eine weitere
 Taste drücken).
 
-Um die DMX-Adresse oder das Universum zu ändern, wählen Sie \[[Repatch Fixtures](../patching/changing-the-patch.md#fixture-exchange)\].
+Um die DMX-Adresse oder das Universum zu ändern, wählen Sie \[[Repatch Fixtures](../patching/changing-the-patch.md#ändern-der-dmx-adresse-im-patch-menü)\].
 
 ## Patch anzeigen
 
 Zum Anzeigen der gepatchten Geräte drücken Sie
-\<View/Open\>, dann \<Patch\> zum Öffnen der [Patch-Ansicht](../patching/changing-the-patch.md#patch-view).
+\<View / Open\>, dann \<Patch\> zum Öffnen der [Patch-Ansicht](../patching/changing-the-patch.md#die-patch-ansicht-patch-view).
 
 ## Geräteoptionen einstellen
 

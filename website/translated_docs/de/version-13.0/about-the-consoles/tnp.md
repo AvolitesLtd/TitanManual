@@ -34,4 +34,4 @@ anzuschließenden Touchscreen die Titan Go-Oberfläche verwendet werden.
 Ebenso könnte man sich z.B. in einer Multiuser-Session mit dem TNP
 verbinden und diesen programmieren.
 
-Der Betrieb des TNP ist in [Titan Net](../titan-net.md) näher erklärt.
+Der Betrieb des TNP ist im Abschnitt [Der Titan Net Processor](../titan-net.md) näher erklärt.

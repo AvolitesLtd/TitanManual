@@ -5,102 +5,106 @@ sidebar_label: Using Palettes
 original_id: using-palettes
 ---
 
-Recalling a Palette Value
--------------------------
+Abrufen eines Palettenwertes
+----------------------------
 
 [](https://youtu.be/_bmk7JEPpQo?t=20 "Palettes Playback")
 
-### Recalling From a Button
+### Abrufen von Tasten/Schaltflächen
 
-To recall a palette value from a button:
+Zum Abrufen eines Wertes aus einer Palette gehen Sie wie folgt vor:
 
-1. Select the fixtures to be changed. Shared palettes can be set to any
-fixture of the same type. Normal palettes will set individual values to
-each fixture. If no fixtures are selected, the palette will apply to all
-fixtures it is relevant to.
+1.	Wählen Sie die zu ändernden Geräte aus. Gemeinsam genutzte Paletten
+	stellen jedes Gerät gleichen Typs auf den gleichen Wert. Normale
+	Paletten liefern unterschiedliche Werte für jedes Gerät. Sind keine
+	Geräte angewählt, so wirkt die Palette auf alle Geräte, für die sie
+	Informationen enthält.
 
-2. Press the Palette button you want to recall. The palette will be set
-to the selected fixtures.
+2.  Betätigen Sie die Schaltfläche der gewünschten Palette. Die
+	angewählten Geräte werden auf die in der Palette gespeicherten Werte
+	gesetzt.
 
 ---
 
--   You can make palettes fade over a time when you recall them, see
-    [Timing with Palettes](timing-with-palettes.md).
+-   Beim Abruf von Paletten lässt sich eine Überblendzeit einstellen,
+    siehe [Arbeiten mit Zeiten in Paletten](timing-with-palettes.md).
 
--   When a palette is used in the programmer, the touch button will
-    light up to indicate this (you can [disable this in the User
-    Settings](../system-settings/user-settings.md#highlight-active-palettes)).
-    This makes it easier to see which palette you have selected.
+-   Ist eine Palette gerade im Programmer, so wird die entsprechende
+    Schaltfläche als aktiv markiert (das lässt sich in den
+    [Benutzereinstellungen](../system-settings/user-settings.md#highlight-active-palettes)
+	deaktivieren). Damit ist einfach erkennbar, welche Paletten gerade
+	verwendet werden.
 
     ![Active Palette Highlighted](/docs/images/Active-Palette-Highlighted.png)
 
-### Recalling From the Keypad
+### Abrufen per Nummer/Syntax
 
-You can also recall a palette by its number by typing the number on the
-numeric keypad.
+Paletten lassen sich auch über ihre Nummer abrufen: geben Sie dazu die
+Nummer mit den Zifferntasten ein.
 
-1. Select some fixtures
+1.  Wählen Sie einige Geräte aus.
 
-2. Press \<Palette\> above the numeric keypad
+2.  Drücken Sie die Taste \<Palette\> oberhalb der Zifferntasten.
 
-3. Type in the number of the palette you want to recall
+3.  Geben Sie die Nummer der gewünschten Palette ein.
 
-4. Press \<Enter\> or \[Apply Palette\]
+4.  Drücken Sie \<Enter\> oder \[Apply Palette\]
 
-The \[Apply Palette\] softkey shows the legend of the palette which
-will be applied.
+Die Menütaste \[Apply Palette\] zeigt dabei die Bezeichnung der
+abzurufenden Palette.
 
->   If you want to recall multiple palettes simultaneously you can use
-    the Blind to Live function. Put the console into Blind mode (either
-    press the \<Blind\> button if provided, or hold \<Avo\> and press
-    \[Blind Inactive\]. Select the palettes you want to use. Enter a
-    fade time in seconds on the keypad (or 0 to snap), then press
-    \<Blind\> again. The palettes will fade to the live output.
+>   Sollen mehrere Paletten gleichzeitig abgerufen werden, so bietet
+    sich die ‚Blind-To-Live' Funktion an: schalten Sie das Pult in den
+    Blind-Modus (mit der \<Blind\>-Taste, oder mit \<Avo\> \[Blind
+    Inactive\], wählen die gewünschten Paletten, geben die Fadezeit 
+	(in Sekunden) ein (wenn geschaltet werden soll: 0 eingeben), und 
+	schalten durch nochmaliges Drücken der \<Blind\>-Taste das Pult 
+	in den Live-Modus. Damit wird auf die gewählten Paletten live 
+	übergeblendet.
 
-Palette Pages
--------------
+Palettenseiten
+--------------
 
-If you have stored palettes on physical buttons on the console, the
-\<+Page\>/\<-Page\> buttons will change to a different page of palettes.
-If you want a palette to be locked on its handle and not change when the
-page is changed, you can set a lock or transparent lock on the palette
-handle. See [Handle Paging](../cues/playback-options.md#handle-paging)
-for more details about locks.
+Wurden Paletten auf den Tasten des Pultes gespeichert, so kann man mit
+\<+Page\>/\<-Page\> auf verschiedene Seiten wechseln. Soll eine Palette
+stets verfügbar sein und nicht mit den Seiten umgeschaltet werden, so
+lässt sich die Seitenumschaltung sperren, siehe [Handle Paging](../cues/playback-options.md#handle-paging) für weitere Details.
 
-Each of the palette windows can either display pages of palettes, with
-page buttons on the left, or a continuous scrolling window of palettes.
-To change between pages and scrolling, touch the **Pages Show/Hide** button
-in the context button area to the left of the menu buttons, then change
-pages using the page buttons to the left of the palette buttons.
+In jedem der Palettenfenster lassen sich die Schaltflächen entweder
+seitenweise - mit Schaltflächen für die Seiten - oder als große Liste
+mit einem Schiebereiter organisieren. Zum Umschalten zwischen den beiden
+Optionen klicken Sie auf den Kontext-Button **Pages Show/Hide** links der
+Menü-Schaltflächen.
 
->   You can recall a palette from any page using its number as described
-    in the [previous section](#recalling-from-the-keypad).
+>   Paletten von einer beliebigen Seite lassen sich auch über ihre
+    Nummer aufrufen, siehe [voriger Abschnitt](#abrufen-per-nummersyntax).
 
-Only Showing Relevant Palettes
-------------------------------
+Anzeige nur der relevanten Paletten
+-----------------------------------
 
-If the [User Setting \[Filter Relevant Palettes\]](../system-settings/user-settings.md#filter-relevant-palettes)
-is enabled, when you
-select fixtures any palettes which are not applicable will grey out.
-This is very useful to see which palettes are available for the fixtures
-you are working with.
+Ist die [Benutzereinstellung \[Filter Relevant Palettes\]](../system-settings/user-settings.md#filter-relevant-palettes)
+aktiviert, so werden beim Anwählen von Geräten die Paletten, die auf 
+diese Geräte nicht anwendbar sind, ausgegraut. So sieht man  auf einen 
+Blick, welche Paletten für die angewählten Geräte zur Verfügung stehen.
 
-Quick Palettes with no Fixtures Selected
-----------------------------------------
+Quick Palettes -- Schnelle Paletten ohne ausgewählte Geräte
+-----------------------------------------------------------
 
-If you press a palette button when no fixtures are selected, the palette
-will be set to all the fixtures the palette applies to. This is called a
-Quick Palette.
+Beim Aufruf einer Palette, ohne dass Geräte ausgewählt sind, wird die
+Palette auf alle in der Palette vorhandenen Geräte angewendet; diese
+Funktion nennt sich 'Quick Palette'. 
 
-For example if you've got some colour palettes programmed
-for your MAC 2000s, pressing one of the palettes when no MAC 2000s are
-selected will set the colour to all the MAC 2000s.
+Wird z.B. eine Farbpalette aufgerufen, die für MAC 2000 programmiert 
+wurde, ohne dass MAC 2000 angewählt sind, so wird die Palette auf 
+**alle** MAC 2000 angewendet.
 
-> Effects palettes can't be recalled as Quick Palettes.
+> 	Effekt-Paletten können nicht als Quick Palettes verwendet werden -
+    für diese müssen stets Fixtures ausgewählt werden.
 
-Setting Palettes to All Fixtures in a Playback
-----------------------------------------------
+Abruf einer Palette für alle Geräte in einem Cue
+------------------------------------------------
 
-You can apply a palette to all fixtures in a particular playback. Hold
-the palette button and press the **select** button of the playback which the
-palette is to apply to.
+Sie können ebenso Paletten auf alle Geräte in einem bestimmten Cue
+anwenden. Dazu drücken und halten Sie die entsprechende
+Paletten-Schaltfläche, und betätigen dazu die Auswahltaste des Cues, auf
+den die Palette angewendet werden soll.

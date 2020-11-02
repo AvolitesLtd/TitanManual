@@ -5,105 +5,113 @@ sidebar_label: Editing Palettes
 original_id: editing-palettes
 ---
 
-Viewing and Editing the Content of Palettes
--------------------------------------------
+Anzeigen und Ändern einer Palette
+---------------------------------
 
-You can view the contents of a palette in the **Palette View window**. This
-lists all fixtures in the palette and the attribute values stored for
-them. A context menu button allows you to switch to displaying **Times**.
+Die in einer Palette gespeicherten Werte lassen sich im Fenster **Palette
+View** anzeigen. Hier werden alle Geräte aufgelistet, für die die Palette
+Werte enthält. Mit einer Kontext-Schaltfläche lassen sich gespeicherte
+**Zeiten (Times)** anzeigen.
 
-Press \<View/Open\>, then the button of the palette. The **Palette View
-window** will open.
+Drücken Sie dazu \<View / Open\> und die anzuzeigende
+Paletten-Schaltfläche. Daraufhin öffnet sich das Fenster **Palette View**.
 
 ![Palette View window](/docs/images/Palette-View-window.png)
 
-You can filter which attributes are shown using the **All/IPCGBES** buttons
-in the top corner, or which fixtures are shown using the fixture type
-buttons below that.
+Die angezeigten Attribute **All/IPCGBES** und Gerätetypen lassen sich 
+mit den Schaltflächen links auswählen/filtern.
 
-To edit an attribute value, touch/click on it in the window. The
-softkeys will give you a list of available settings for this attribute
-or you can type in a numerical value.
+Um einen Wert zu ändern, klicken Sie im Fenster darauf. Die Menütasten
+zeigen die verfügbaren Möglichkeiten; alternativ können Sie mit den
+Zifferntasten einen Wert eingeben.
 
-There is also a \[Delete\] button which allows you to remove the value
-from the attribute. This is the same as using the
-[\<Off\> function](../cues/editing-cues.md#removing-attributes-from-cues-using-off).
+Es ist nicht möglich, Werte aus Paletten komplett zu löschen. Vielmehr
+lassen sich Werte per [Off] deaktivieren und können später wieder 
+aktiviert werden. Um einen Wert zu deaktivieren, klicken Sie diesen an 
+und drücken im Menü auf \[Off\] oder die Taste \<Off\>. Um ihn wieder zu
+aktivieren, wählen Sie den Wert an (zeigt jetzt [Off]) und drücken im 
+Menü auf \[On\] oder wieder auf die Taste \<Off\> (die Taste \<Off\> 
+schaltet den Wert ein oder aus).
 
--   When the palette contains other palettes, the context menu option
-    \[View/Hide Nested Palettes\] sets whether or not the view shows the
-    actual attribute value or just the name of the nested palette.
+-   Enthält die Palette Verweise auf andere Paletten, so lässt sich mit
+    der Option \[View/Hide Nested Palettes\] einstellen, ob die
+    tatsächlichen Werte oder aber die Legende der verknüpften Palette
+    angezeigt wird.
 
--   When the palette contains shapes, the context menu option \[View
-    Shapes\] will open the Shape View showing all the shapes with their
-    parameter. Clicking **View** will open the **Shape Fixture View** which lets
-    you edit the fixtures running the shape; the **Add Fixtures** menu
-    button will add selected fixtures into the shape.
+-   Enthält die Palette Shapes, so öffnet die Schaltfläche \[View
+    Shapes\] die Shape-Anzeige mit allen enthaltenen Shapes und ihren
+    Parametern. Klickt man dort wiederum auf \[View\] ('Anzeigen'), so
+    öffnet sich die Shape-Geräteansicht **Shape Fixture View**, in der 
+	man die Parameter für einzelne Geräte ändern sowie mit **Add 
+	Fixtures** weitere Geräte hinzufügen kann.
 
--   When the palette contains effects (Pixel Mapper) the context menu
-    option \[View Effects\] will open the **Effect View window** to let you
-    edit the effect.
+-   Enthält die Palette Pixelmapper-Effekte, so lassen sich diese mit
+    \[View Effects\] öffnen, anzeigen und editieren.
 
-Changing the Content of Palettes
+Ändern des Inhalts einer Palette
 --------------------------------
 
-To edit a palette entry, press \<Edit\> (\<Update Palette\> on Pearl
-Expert and Tiger Touch mk1), then select the palette to edit. For Normal
-palettes this will automatically select the fixtures used in the
-palette; for Shared palettes the first fixture in the palette will be
-selected. Next, make the changes you want, then press the \[Update
-Palette x\] softkey to save the changes.
+Um einen Eintrag einer Palette zu ändern, betätigen Sie die Taste
+\<Edit\> (\<Update Palette\> auf dem Pearl Expert und Tiger Touch mk1),
+wählen die zu ändernde Palette (bei normalen Paletten werden
+automatisch die enthaltenen Geräte angewählt; bei Shared Paletten das
+erste Gerät des entsprechenden Typs), nehmen die gewünschten Änderungen
+vor, und betätigen die Funktionstaste \[Update Palette x\], um die
+Änderungen zu übernehmen.
 
-The \<Edit\>/\<Update Palette\> button also allows you to change the
-palette name and number.
+Mit der Taste \<Edit\> bzw. \<Update Palette\> lässt sich ebenso die 
+Bezeichnung und die Nummer der Palette ändern.
 
-You can also load the palette into some fixtures, modify the attributes
-and record the new information back on top of the existing palette
-entry. The console will give you options on the softkeys to **Replace**,
-**Merge** or **Quick Merge** the palettes. If you select **Merge**, anything you
-haven't changed will not be affected, values you have changed or added
-will be amended. **Quick Merge** will only update the attributes stored in
-the original palette and ignore others *(for example if you are merging
-with a position palette, but have also modified the colour attributes,
-the colour attributes would not be merged in)*.
+Ebenso können Sie eine Palette auch für nur einzelne oder wenige Geräte
+aufrufen, modifizieren und die geänderten Werte wieder in die bestehende
+Palette speichern. Das Pult zeigt dabei Optionen zum Ersetzen (**Replace**),
+Kombinieren (**Merge**) oder **Quick Merge** der Paletten an. Wird \[Merge\]
+gewählt, so bleiben nicht veränderte Werte unberührt, während geänderte
+Werte zur Palette hinzugefügt werden. Quick Merge dagegen aktualisiert
+nur die Attribute, die in der originalen Palette bereits enthalten
+waren. *Wendet man dies auf eine reine Positionspalette an und hat z.B.
+auch die Farb-Werte editiert, so werden diese bei Quick Merge nicht in
+die Palette gespeichert*.
 
-When double clicking a palette button to update, the default option is
-**Quick Merge**.
+Wird eine Palette zum Updaten zweimal geklickt, so erfolgt ein **Quick
+Merge**.
 
--   You can set the console to 
-    ["Always Merge"](../system-settings/user-settings.md#prompt-replace)
-    (so it doesn't ask you) using the 
-    [User Settings](../system-settings/user-settings.md).\
-    You can also press the palette button a second time to select the
-    **Merge** option.
+-   Wahlweise lässt sich die Option ["Always 
+	Merge"](../system-settings/user-settings.md#prompt-replace) 
+	(stets kombinieren) aktivieren, um die Rückfrage des Pultes zu 
+	vermeiden; dies geht in den [Benutzereinstellungen](../system-settings/user-settings.md).\
+	Ebenso kann man einfach die gewählte Paletten-Schaltfläche ein 
+	zweites Mal betätigen, um die Paletten zu kombinieren.
 
--   You can add additional fixtures to a palette without affecting
-    existing ones.\
-    *For example, if you have colour palettes for Mac
-    600s, you can add colours for your Mac 500s without affecting any
-    previously recorded values in the palette.*
+-   Weitere Geräte lassen sich zu bestehenden Paletten hinzufügen, ohne
+    die bereits programmierten zu beeinflussen.\
+	*Sind etwa bereits
+    Farbpaletten für Mac 600 vorhanden, so lassen sich Farben für Mac
+    500 hinzufügen, ohne die bereits gespeicherten Werte zu ändern.*
 
--   You can remove attributes from palettes using the
-    [\<Off\> function](../cues/editing-cues.md#removing-attributes-from-cues-using-off)
+-   Zum Löschen von Attributen aus Paletten dient die Taste \<Off\>
+	sowie die Menütaste \[Off\], siehe voriger Abschnitt, sowie die
+	[\<Off\> -Funktion](../cues/editing-cues.md#deaktivieren-von-attributen-in-cues-mit-off).
 
--   When editing a palette the state of the programmer will be
-    preserved; when the modified palette is saved, your original
-    programmer contents will be restored and the programmer will be left
-    in the same state as when you started editing the palette.
+-   Beim Ändern einer Palette bleibt der Inhalt des Programmierspeichers
+    erhalten; nach dem Speichern der modifizierten Palette wird der
+    Programmierspeicher in den Zustand vor dem Ändern der Palette
+    zurückversetzt.
 
-Updating Palettes Used in a Playback
-------------------------------------
+Aktualisieren von verwendeten Paletten
+--------------------------------------
 
-If you need to quickly update a palette during a show, for example you
-fire a green cue and the Green palette used turns out to be not quite
-the right colour, the \<Update\> function lets you automatically update the
-palette used in the cue.
+Muss eine bereits verwendete Palette während der Show verändert werden,
+wenn z.B. der Grün-Ton nicht exakt die gewünschte Farbe trifft, so lässt
+sich das einfach per \<Update\> realisieren.
 
-1. With the cue fired, select the fixtures and change them to the
-settings you want to store *(e.g. the right green colour)*
+1.  Während der Cue gestartet ist, wählen Sie die betreffenden Geräte
+    aus und stellen den gewünschten Wert ein (*z.B. das richtige Grün*).
 
-2. Press \<Update\> (on Pearl Expert, \<Record Cue\>, \[Update\])
+2.  Drücken Sie \<Update\> (Pearl Expert: \<Record Cue\>, \[Update\])
 
-3. The cues and palettes which relate to the cue and can be updated are
-shown on the softkeys
+3.  Im Bildschirm werden die Paletten und Cues, die zum gestarteten Cue
+    gehören und upgedated werden können, angezeigt.
 
-4. Select the items you want to update and press \<Update\> again
+4.  Wählen Sie mit den Menütasten, was upgedatet werden soll, und drücken 
+	Sie nochmals \<Update\>.

@@ -5,12 +5,12 @@ sidebar_label: Curves
 original_id: curves
 ---
 
-The console provides a variety of curves which set how the console
-tracks fades in playbacks; either the same speed all the way (linear),
-or starting and ending gently but faster in the middle, and various
-other options. Curves are used in various places in the console, one
-example is in the playback \[Options\] menu - see [Playback
-options](../cues/playback-options.md).
+Für verschiedene Zwecke lässt sich aus einer Vielzahl von Kennlinien
+wählen, mit denen festgelegt wird, wie die DMX-Werte den Reglerwerten
+folgen, etwa: komplett linear, oder anfangs und am Ende sanft mit
+größerer Beschleunigung in der Mitte, oder diverse andere Optionen. Das
+Zuweisen der Kennlinien erfolgt über die \[Options\] der Playbacks, 
+siehe [Playback Options](../cues/playback-options.md).
 
 ![Curve - Linear](/docs/images/Curve-Linear.png)
 ![Curve - Always On](/docs/images/Curve-Always-On.png)

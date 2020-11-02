@@ -5,22 +5,24 @@ sidebar_label: Remote Control
 original_id: remote-control
 ---
 
-With the addition of an external Wireless Access Point, the console can
-be remote controlled using **Wi-Fi** from an [Android](https://play.google.com/store/apps/developer?id=Avolites+Ltd) or [iOS](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps) mobile device
-such as a smartphone or tablet. This can be invaluable when rigging,
-testing and focusing. You can also run and store playbacks and palettes
-from the remote.
+Verwendet man einen **WLAN** Access Point (Drahtlosnetzwerk-Zugangspunkt),
+so lässt sich das Pult mit einem Mobilgerät ([Android](https://play.google.com/store/apps/developer?id=Avolites+Ltd) oder [iOS](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps)) drahtlos
+fernsteuern. Dies ist insbesondere hilfreich beim Installieren und
+Testen der Geräte und beim Einleuchten. Ebenso lassen sich mit der
+Fernsteuerung Cues und Paletten abrufen.
 
-The remote function operates using the Avolites Remote app on the mobile
-device. This can be downloaded from the [Google Play store](https://play.google.com/store/apps/developer?id=Avolites+Ltd) or [Apple App
-Store](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps).
+Für die Remote ist auf dem Mobilgerät die entsprechende App (Avolites
+Titan Remote) zu installieren; diese ist über den [Google Play Store](https://play.google.com/store/apps/developer?id=Avolites+Ltd) bzw. [Apple App
+Store](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps) erhältlich.
 
-> Make sure you install the correct version of the app to match the
-console software version, **there are different apps for each version**.
+>   Stellen Sie sicher, die richtige Version der App zu installieren. **Die
+	App muss die gleiche Version wie die Pult-Software haben**. Entsprechend 
+	gibt es verschiedene Versionen der App.
 
 ![Titan Remote - Android App Screenshot](/docs/images/Fixture-View-in-Titan-Remote-Android-App.png)
 
-You can connect multiple remotes to the console and the console itself
-remains functional while the remote is connected. Each remote has a
-**separate programmer** so an operator can continue to work on the console
-while another user programs other cues or palettes on the remote.
+Es lassen sich auch mehrere Fernsteuerungen gleichzeitig mit einem Pult
+verbinden, wobei das Pult voll funktionsfähig bleibt. Jede Remote
+verfügt über einen **eigenen Programmierspeicher**, so dass z.B. ein
+Programmierer mit der Remote und ein anderer unabhängig davon mit dem
+Pult arbeiten kann.

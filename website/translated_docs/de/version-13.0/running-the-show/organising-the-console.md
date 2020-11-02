@@ -5,37 +5,42 @@ sidebar_label: Organising the console
 original_id: organising-the-console
 ---
 
-If the layout of the fixture buttons, palettes or playbacks has become a
-bit mixed up during programming, you can use the Move function to move
-recorded items around and produce a better layout. When an item is
-moved, all links to other recorded items are retained.
+Wenn im Laufe des Programmierens die Anordnung von Paletten, Geräten und
+Speicherplätzen etwas unübersichtlich geworden ist, ist es an der Zeit,
+mit der 'Move'-Funktion wieder aufzuräumen. Beim Verschieben der
+programmierten Details bleiben sämtliche logischen Bezüge und
+Verknüpfungen selbstverständlich erhalten.
 
-Using the Move function
------------------------
+Verwenden der 'Move'-Funktion
+-----------------------------
 
-To move fixtures, palettes, groups and playbacks is very simple.
+Das Verschieben von Geräten, Paletten, Gruppen und Speicherplätzen ist
+sehr einfach:
 
-1. Press \<Copy\> then \[Move\] to select Move mode (or just press
-\<Move\> if the console has a button for it).
+1\> Drücken Sie \<Move\> (ist diese Taste nicht vorhanden dann \<AVO\> 
+und dazu die Taste \<Copy\>), um den 'Move'-Modus zu aktivieren.
 
-2. Press or touch the select key(s) of the item(s) to move.
+2\> Betätigen Sie die Tasten/Schaltflächen der zu verschiebenden Dinge.
 
-3. Press or touch the select key of the destination.
+3\> Drücken Sie die Tasten/Schaltflächen, auf die verschoben werden
+soll.
 
-When moving a range, it is possible to select a range containing
-different types of items, and there can be gaps between them. In this
-case, you can set \[Bunch Up\] mode to have all of the gaps in the range
-removed.
+Beim Verschieben eines kompletten Bereichs kann es passieren, dass
+dieser verschiedene Dinge und auch unbelegte Plätze enthält. In diesem
+Falle lässt mit den Menütasten \[Bunch Up\] (Zusammenfassen) wählen, um
+sämtliche Lücken in dem Bereich zu entfernen.
 
-\[Swap Items if Required\] will attempt to reposition any existing
-handles which are in the way of the move. This is useful when
-rearranging handles on a page which is nearly full.
+Mit \[Swap Items if Required\] (Verschieben falls erforderlich) wird
+versucht, einzelne Speicherplätze, die dem Verschieben im Wege wären,
+woandershin zu verschieben. Dies bietet sich an, wenn die aktuelle Seite
+nahezu voll ist.
 
--   If there is not enough space, (there is an item in the way or there
-    is not enough space before the end of the page) then the action will
-    not be completed.
+-   Steht nicht genügend Platz zur Verfügung (ist z.B. etwas im Weg,
+    oder ist nicht genügend Platz am Ende der Seite), so wird das
+    Verschieben scheitern.
 
--   Press \<Latch Menu\> to keep Move mode active if you have a number
-    of things to move around.
+-   Wenn Sie mehrere Dinge nacheinander verschieben wollen, können Sie die
+    Move-Funktion mit der Taste \<Latch Menu\> einrasten, um sie nicht
+    jedes Mal erneut aufrufen zu müssen.
 
 

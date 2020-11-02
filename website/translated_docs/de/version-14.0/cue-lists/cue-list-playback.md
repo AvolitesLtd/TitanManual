@@ -5,182 +5,196 @@ sidebar_label: Cue List Playback
 original_id: cue-list-playback
 ---
 
-Running a Cue List
-------------------
+Abrufen einer Cueliste
+----------------------
 
-Raise the fader of the cue list and press the **Go button** to run the first
-cue. The bottom section of the display shows the cue list; the current
-cue is highlighted in grey and the next cue has a box round it.
+Stellen Sie den Regler der Cueliste auf den gewünschten Wert und drücken
+die \<Go\>-Taste, um den ersten Schritt zu starten. Unten im Display
+erscheint die Cueliste, der aktuelle Schritt ist dabei grau
+hervorgehoben, der nächste Schritt ist durch eine Umrandung
+gekennzeichnet.
 
 ![Connected Cue List view](/docs/images/Connected-Cue-List-view.png)
 
-Also the playback legend above the fader shows information about
-the cue list. The current cue is shown at the top in light blue, with the next cue below in dark blue.
-Fade progress of the cue is shown in a bargraph in the light blue bar. Below
-this the times for the next cue are shown - in time with up arrow and out time with down arrow,
-d for delay and f for fade. If the cue list is set to manual crossfade a red 'M' is shown.
+Das Display direkt oberhalb des jeweiligen Reglers zeigt Informationen
+zur aktuellen Cueliste: der aktuellen Cue wird oben hellblau
+dargestellt, darunter der nächste dunkelblau.
+
+Die Überblendung wird durch einen Forschrittsbalken angezeigt. Zeiten
+werden durch Pfeile nach oben (Fade-In) bzw, unten (Fade-Out), mit
+Buchstaben (d = Delay, f = Fade) sowie mit einem M (bei manuellem
+Crossfade) dargestellt.
 
 ![Playback handle of running cue list](/docs/images/Playback-handle-of-running-cue-list.png)
 
-You can also open the Playback View window to show more details of the
-cue list by clicking the Cue List legend area or press \<View/Open\>
-then the **swop button** of the playback. This shows all the timings, links
-and tracking status and is very useful when running a [theatre show](theatre-programming.md) on a
-cuelist.
+Für eine bessere Übersicht können Sie auch die Playback-Ansicht der
+Cueliste öffnen (einfach im Display auf die Cueliste klicken, oder
+\<View / Open\> und die **Select-Taste** der Cueliste drücken). Hier hat man
+sämtliche Cues, Zeiten und Optionen (z.B. Autoload, Macros, MID etc.) im
+Überblick, was vor allem im [Theater](theatre-programming.md) sehr hilfreich ist.
 
-The option **"Auto View On Connect"** *(in the [User Settings/Wheels menu](../system-settings/user-settings.md#auto-view-on-connect))* if
-enabled will automatically open the relevant Playback View window when
-you fire a cue list.
+Mit der [Benutzereinstellung](../system-settings/user-settings.md#auto-view-on-connect) 
+**'Auto View On Connect'** lässt sich erreichen,
+dass beim Connecten einer Cueliste sofort deren Detail-Fenster aufgeht.
 
 ![Playback View of Cue List with cue fade in progress](/docs/images/Playback-View-of-Cue-List-with-cue-fade-in-progress.png)
 
-When times are in progress on a cue, green progress bars are shown in
-the Playback View window - the left hand column shows overall progress,
-and each timing section shows its own progress.
+Ist gerade eine zeitlich gesteuerte Aktion im Gange, dann wird dies
+durch grüne Fortschrittsbalken angezeigt - links für den gesamten Cue,
+in den einzelnen Spalten jeweils für die einzelnen Fade- und
+Delayzeiten.
 
-The Playback View will autoscroll to keep the active cue onscreen. You
-can change the way the autoscroll works using the view options (click
-the options/cog icon at the top of the window).
+Die Playback-Ansicht scrollt normalerweise mit, so dass immer der
+aktuelle Cue dargestellt wird. Dies kann in den Optionen des Fensters
+genauer eingestellt und geändert werden (klicken Sie dazu auf das kleine
+\{Zahnrad\} in der Titelleiste des Fensters).
 
 ---
 
--   The HTP levels of cues in the cue list are mastered by the fader level.
+-   Die HTP-Pegel der Schritte werden durch die Stellung des Reglers
+    bestimmt.
 
--   You can **pause** a fade by pressing the \<Stop\> button above \<Go\>.
-    Press \<Go\> again to resume the fade.
+-   Ein Überblendprozess lässt sich mit der \<Stop\>-Taste (oberhalb der
+    \<Go\>-Taste) anhalten, und mit der \<Go\>-Taste fortsetzen.
 
--   You can **skip** to any cue in the cue list by selecting a "next" cue
-    using Wheel A, or using the left/right arrow keys. When you press
-    \<Go\>, the cue list will run that cue next. If you decide you don't want
-	to skip, you can reset the cue list (so the next cue will be the cue after the current cue)
-	by pressing the \<Prev Cue\> and \<Next Cue\> buttons together.
-	
--	You can go back to the previous cue following fade times by pressing \<Stop\>
-	while the cue list is paused.
+-   Um direkt einen bestimmten Schritt anzuspringen, wählen Sie diesen
+    mit Rad A oder mit den links/rechts-Pfeilen aus. Drücken Sie nun
+    \<Go\>, um den angewählten Schritt aufzurufen. Soll der Vorgang
+    abgebrochen werden, so drücken Sie gleichzeitig \<Prev. Cue\> und
+    \<Next Cue\>.
 
--   You can snap back to the previous cue by pressing the \<Snap Back\>
-    button *(not on all consoles)*
+-   Ist die Cueliste gerade pausiert, so kann man mit \<Stop\> zum
+    vorherigen Cue incl. Einfadezeiten springen.
 
--   On consoles with a \<Snap\> button *(Arena and Tiger Touch 2)*, when
-    you turn on the \<Snap\> button the \<Prev\>/\<Next\> buttons will
-    snap immediately to the cue rather than going to the previous/next
-    cue using the programmed times. There is also a [User Setting \[Chase
-    Snap\]](../system-settings/user-settings.md#chase-snap) which enables this mode on consoles which don't have the
-    button.
+-   Auf den vorigen Schritt schalten Sie mit der Taste \<Snap back\>
+    (sofern vorhanden).
 
--   You can jump directly to a cue by pressing \<Connect\>, then typing
-    in the desired cue number, then pressing \<Enter\> or softkey A.
-    Alternatively at the top level menu you can type the cue number then
-    press \<Connect\>.
+-   Auf Pulten mit einer \<Snap\>-Taste *(Arena, Tiger Touch II)* erreicht
+    man den nächsten/vorherigen Schritt der Cueliste mit den Tasten
+    \<Prev Step\>/\<Next Step\> unter Berücksichtigung der
+    programmierten Zeiten. Aktiviert man die \<Snap\>-Taste, so werden
+    die Zeiten ignoriert und direkt umgeschaltet. Für Pulte, die diese
+    Taste nicht haben, gibt es die Benutzereinstellungen [\[Chase Snap\]
+    bzw. \[Cue List Snap\]](../system-settings/user-settings.md#chase-snap).
 
--   You can use [Key Profiles](../system-settings/key-profiles.md) to set the blue and grey buttons of the
-    playback to have various functions including **Go**, **Stop**, **Connect**, **Next
-    Cue**, **Prev Cue**, **Cut Next Cue To Live**, and **Snap Back**, see [Key Profiles](../system-settings/key-profiles.md#cue-lists).
+-   Zur Direktanwahl eines Schritts drücken Sie die Taste \<Connect / Cue\>,
+    gefolgt von der Schrittnummer und \<Enter\> oder Funktionstaste A.
+    Alternativ tippen Sie im Hauptmenü einfach die Schrittnummer ein und
+    drücken \<Connect / Cue\>. (Diese Taste heißt je nach Pult \<Connect\>
+	oder \<Cue\>).
 
--   When you lower the fader for a cue list, the HTP channels will fade
-    out, but the cue list will remain active. The section below details
-    how to [kill the cue list](#killing-a-cue-list).
+-   Mittels der [Tastenbelegungen ('Key Profiles')](../system-settings/key-profiles.md) lässt sich die
+    Funktion der grauen und blauen Tasten an die Erfordernisse anpassen,
+    etwa **Go**, **Stop**, **Connect**, **Next
+    Cue** (nächster Schritt), **Prev Cue** (voriger Schritt), **Cut Next Cue To Live** (nächsten Schritt
+    ohne Überblend-/Verzögerungszeiten aktivieren), und **Snap Back**, siehe [Key Profiles](../system-settings/key-profiles.md#cue-lists).
 
--   You can use **timecode** to play back a cue list automatically. See
-    section [Cue List Timing](cue-list-timing.md#running-a-cue-list-to-timecode).
+-   Beim Ausblenden des Reglers einer Cueliste werden die enthaltenen
+    HTP-Kanäle ausgeblendet, die Cueliste an sich bleibt jedoch aktiv.
+    [Im nächsten Abschnitt](#eine-cueliste-deaktivieren) wird erläutert, wie die Cueliste deaktiviert
+    werden kann.
 
--   You can change the time for the next cue by entering the time on the
-    keypad then pressing \<Go\>. You can jump to another cue and set a
-    different time by typing the cue number then press \<Connect\>, then
-    type the time and press \<Go\>.
+-   Mittels **Timecode** kann eine Cueliste [automatisch gesteuert werden](cue-list-timing.md#steuern-einer-cueliste-per-timecode).
 
-Killing a Cue List
-------------------
+-   Die Zeit für den nächsten Schritt lässt sich einfach ändern, indem
+    man mit den Zifferntasten die neue Zeit eingibt und \<Go\> drückt.
+    Wollen Sie in einer neuen Zeit auf einen anderen Cue springen, so
+    geben Sie die Nummer des neuen Cues ein, drücken \<Connect / Cue\>, geben
+    die gewünschte Zeit ein und drücken \<Go\>
 
-Once a cue list is fired, it remains active until you kill it. You do
-this by holding down the \<Avo\> button and pressing the blue Select
-button of the cue list's handle.
+Eine Cueliste deaktivieren
+--------------------------
 
-You can change this in the playback [Options](../cues/playback-options.md) to make the cue list
-automatically clear when the fader reaches zero (press \[Playback
-Options\] at the program menu, then press the Select button of the cue
-list, then select \[Fader\] \[Fader Mode Intensity Kill At 0\].
+Sobald eine Cueliste gestartet wurde, bleibt sie aktiv, bis sie explizit
+deaktiviert wird. Dazu halten Sie die \<AVO\>-Taste gedrückt und
+betätigen die blaue **Select-Taste** der Cueliste.
 
-You can also use [Key Profiles](../system-settings/key-profiles.md#cue-lists) to configure one of the handle buttons to
-release the cue list.
+Das Verhalten lässt sich im Menü [Options](../cues/playback-options.md) ändern, so dass die
+Cueliste automatisch entladen wird, wenn man den Regler auf '0' bringt:
+drücken Sie dazu \[Playback Options\] im Programmier-Menü, dann die
+**Select-Taste** der Cueliste, und wählen die Option \[Fader\], \[Fader
+Mode Intensity Kill At 0\].
 
-> While the cue list remains active, any shapes/effects stored in the current cue will run even if the fader is at zero. If you are working with a cue list and have unexplained shapes occurring, check all cue lists have been killed.
+Per [Tastenprofil (Key Profiles)](../system-settings/key-profiles.md#cue-lists) lässt sich auch eine der Tasten mit der
+Release-Funktion belegen.
+
+> Solange eine Cueliste aktiv ist, laufen darin programmierte Shapes und Effekte weiter - auch, wenn der Fader auf 0 steht. Stellen Sie also unerfindliche Bewegungen/Effekte fest, so überprüfen Sie, ob alle Cuelisten auch wieder deaktiviert wurden.
 
 Tracking
 --------
 
 [](https://youtu.be/B2fTri0G2-A?t=20 "Tracking in Cuelists")
 
-By default, cue lists run in tracking mode. Only changes in attributes
-are stored, everything else just continues at the level it was
-previously set to. Tracking mode is usually used for [theatrical
-performances](theatre-programming.md) because it makes editing much easier; if you need to adjust
-a dimmer level at the start of a scene, you don't have to go through and
-change the level on every cue for that scene, the change just tracks
-through the other cues until a new level is stored.
+Normalerweise laufen Cuelisten im Tracking-Betrieb. Dabei werden nur
+Änderungen einzelner Werte aufgezeichnet und wiedergegeben. Alles andere
+wird als unverändert angenommen und bleibt erhalten. Tracking ist
+insbesondere für [Theater](theatre-programming.md) die bevorzugte Arbeitsweise, da man z.B. einen
+Dimmer nur am Beginn einer Szene aktivieren und nicht in jeden einzelnen
+Cue der ganzen Szene hineinprogrammieren muss. Entsprechend schnell
+lassen sich erforderlichenfalls auch Änderungen realisieren.
 
-You can enable or disable Tracking mode globally for the whole cue list,
-or each cue can have Tracking mode set individually from the Playback
-View window (or Options, \[Cue Options\]).
+Tracking lässt sich sowohl für die komplette Cueliste aktivieren/
+deaktivieren, als auch für die einzelnen Cues der Cueliste genau
+einstellen (entweder in der Playback-Ansicht oder unter \[Options\]\[Cue Options\]).
 
-Settings are:
 
-Setting | Action
+Mögliche Einstellungen:
+
+Einstellung | Wirkung
 --- | ---
-\[Global\] *(default)* | Obeys the global setting for the cue list.
-\[Track\] | The cue will track
-\[Block\] | The cue will not take tracking states from previous cues. All subsequent cues will track from the Block cue.
-\[Solo Excluding Shapes\] | No states are tracked into or out of the cue, but shapes will track into the cue, except for dimmer shapes which will not track. This lets you have a cue that solos all levels but allows non-dimmer shapes to continue.
-\[Cue Only\] | Changes in this cue will not track to subsequent cues. Unchanged states from previous cues will be restored in subsequent cues.
-\[Solo\] | No states are tracked into or out of a solo cue. States from previous cues will track to subsequent cues but will not appear in the solo cue.
-\[Block Shapes\] | Any tracked shapes will stop from this cue. Other attributes will continue to be tracked. This lets you create a point where you can guarantee all shapes will stop.
+\[Global\] *(Vorgabe)* | es gelten die Einstellungen der gesamten Cueliste.
+\[Track\] | der Cue wird getrackt.
+\[Block\] | dieser Cue übernimmt keinerlei Tracking-Informationen; im weiteren Verlauf wird das Tracking ab diesem Cue ermittelt.
+\[Solo Excluding Shapes\] | Der Cue wird als Solo-Cue, also ohne jegliches Tracking, behandelt, allerdings werden Shapes, die keine Dimmershapes sind, getrackt. Damit kann z.B. eine Bewegung auch in einem Solo-Cue fortgesetzt werden.
+\[Cue Only\] | Änderungen in diesem Cue werden nicht auf die nachfolgenden Cues weitergegeben; unveränderte Informationen von vorherigen Cues unterliegen aber weiterhin dem Tracking.
+\[Solo\] | Dieser Cue unterliegt überhaupt nicht dem Tracking und verändert auch nicht nachfolgende Cues; Informationen aus vorherigen Cues werden unverändert an nachfolgende weitergegeben.
+\[Block Shapes\] | Sämtliche Shapes von vorherigen Cues werden geblockt, alle anderen Attribute werden normal getrackt. Damit wird sichergestellt, dass alle Shapes stoppen.
 
-Move In Dark (MID) Functions
-----------------------------
+Move In Dark (MID) - Funktionen
+-------------------------------
 
-When using moving lights in theatre, often you would like them to be
-positioned ready for the next cue so that you do not see them moving.
-The Move In Dark function does this by automatically positioning the
-fixture for the next cue when it is not lit.
+Insbesondere bei der Verwendung von Movinglights im Theater
+möchte man diese meist 'im Off' vorbereiten, also positionieren,
+solange sie nicht aktiv verwendet werden, damit die Bewegung
+nicht wahrgenommen wird. Dies lässt sich mit Move-In-Dark
+schnell und einfach automatisch erreichen.
 
-Move In Dark options can be set either for the whole cue list or for
-individual cues.
+Die Move-In-Dark-Einstellungen lassen sich wahlweise für
+einzelne Cues oder für die gesamte Cueliste vornehmen.
 
-Options for the whole cue list are set by pressing \<Options\> (or the \[Options\] softkey on the top level menu)
-then the select button for the cue list, then \[Playback\].
+Zum Festlegen der Optionen für die gesamte Cueliste drücken Sie
+\[Options\], gefolgt von der Auswahltaste der Cueliste,
+und klicken dann \[Playback\] gefolgt von \[Move In Dark\].
 
-Setting | Action
+Einstellung | Wirkung
 ---|---
-\[Disabled\] | Prevents Move In Dark functions for all cues in the cue list regardless of the individual cue settings
-\[Early\] | Will attempt to position a fixture as soon as possible unless overridden in an individual cue
-\[Late\] | Will position the fixture as late as possible
-\[Off\] *(default)* | Turns off Move In Dark unless enabled in individual cues
+\[Disabled\] | deaktiviert MID für die gesamte Cueliste, auch wenn es ggf. für einzelne Cues aktiviert ist
+\[Early\] | startet die Bewegung zum frühestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben
+\[Late\] | beginnt die Bewegung zum spätestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben
+\[Off\] *(Vorgabe)* | schaltet MID für die gesamte Cueliste ab; MID kann aber für   einzelne Cues aktiviert werden
 
-For individual cues the options are set using the Playback Window.
+Zum Einstellen der Optionen für einzelne Cues nutzen Sie hingegen das Fenster ‚Playback View' der Cueliste. Es gibt folgende Optionen:
 
-Setting | Action
+Einstellung | Wirkung
 ---|---
-\[Global\] *(default)* | Uses the cue list's global setting
-\[Cue Number\] | Specifies a cue where you would like the move to occur
-\[Cue Offset\] | Specifies a preferred number of cues in advance
-\[Disabled\] | Prevents Move In Dark for this cue
-\[Early\] | Will move as early as possible
-\[Late\] | Will move as late as possible
+\[Global\] *(Vorgabe)* | Es werden die Einstellungen der gesamten Cueliste angewendet
+\[Cue Number\] | zur Angabe eines bestimmten Cues, zu dem MID stattfinden soll
+\[Cue Offset\] | gibt eine bestimmte Anzahl von Cues vor dem aktuellen an, wann MID beginnen soll
+\[Disabled\] | deaktiviert MID für den aktuellen Cue
+\[Early\] | MID so zeitig wie möglich
+\[Late\] | MID so spät wie möglich
 
-Move In Dark delay and Move In Dark fade times can be set for the
-whole cue list or for each cue using the Set Times menu. Each cue
-also has a Move In Dark Inhibit option which prevents any movements
-during that cue (useful if you need to prevent fixture noise at a
-particular point).
+Für jeden einzelnen Cue wie auch für die gesamte Liste lassen sich für
+MID getrennt Fade- und Delayzeit einstellen. Ebenso gibt es für jeden
+Cue eine 'MID unterdrücken'-Funktion (Inhibit), um während dieses Cues
+jede andere Bewegung zu verhindern; in diesem Falle - oder falls
+anderweitig die Intensität nicht auf 0 ist - wird MID zum
+nächstmöglichen Zeitpunkt nach diesem Cue ausgeführt.
 
-If the fixture has its intensity above zero or Move In Dark is
-inhibited when the Move In Dark is supposed to occur, the console
-will attempt the movement in the nearest suitable cue instead.
 
-Key Profile Options for Cue Lists
----------------------------------
+Tastenprofile für Cuelisten
+---------------------------
 
-Using [Key Profiles](../system-settings/key-profiles.md), you can assign different functions to the blue and
-grey buttons of the playback handle. (*The Sapphire Touch also has a
-black button)*. If the cue list is stored on a touch button you can
-assign a function to that. See [Key Profiles](../system-settings/key-profiles.md#cue-lists) for a full list of functions.
+Mit [Tastenprofilen/Key Profiles](../system-settings/key-profiles.md), lassen sich der blauen und grauen Taste *(das Sapphire Touch verfügt auch über eine schwarze 
+Taste)* sowie der Schaltfläche einer Cueliste (wenn sie im Fenster 'Playbacks' 
+gespeichert ist) verschiedene Funktionen zuweisen. Im Abschnitt [Key Profiles](../system-settings/key-profiles.md#cue-lists) sind alle verfügbaren Funktionen aufgelistet.

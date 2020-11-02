@@ -5,65 +5,74 @@ sidebar_label: Copying, Moving and Deleting Palettes
 original_id: copying-moving-and-deleting-palettes
 ---
 
-Copying or Moving a Palette
----------------------------
+Kopieren oder verschieben einer Palette
+---------------------------------------
 
-Using the \<Copy\> button you can make a copy of an existing palette or
-move it to a new button. You can copy or move multiple palettes in one
-operation. You cannot link palette buttons.
+Mit der Taste \<Copy\> bzw. \<Move\> lässt sich eine Palette auf eine
+andere Schaltfläche verschieben oder kopieren. Ebenso lassen sich
+mehrere Paletten gleichzeitig verschieben oder kopieren. Verknüpfungen
+(Links) lassen sich dagegen für Paletten nicht anlegen.
 
-Move is useful for tidying up the console.
+Das Verschieben von Paletten ist sinnvoll, um die Bedienoberfläche
+übersichtlich zu halten.
 
-1. Press \<Copy\>
+1.  Drücken Sie die Taste \<Copy\> bzw. \<Move\> (auf Pulten ohne 
+	eine **Move**-Taste dient \<Avo\> + \<Copy\> zum Verschieben).
 
-2. Select \[Copy\] or \[Move\]. Pressing the \<Copy\> button again will
-also toggle these options. Some consoles have a \<Move\> button.
+2.  Betätigen Sie die Schaltfläche der zu kopierenden/verschiebenden 
+	Palette; es lassen sich auch mehrere Paletten auswählen.
+	Verwenden Sie die Tasten \<Thro\> und \<And\>, um weitere Paletten
+	auszuwählen; halten Sie \<And\> gedrückt, so können Sie nacheinander
+	Paletten hinzufügen.
 
-3. Press the **Select** button of the palette you want to copy/move. You
-can select multiple palettes - use the \<Thro\> and \<And\> buttons to
-add more to the selection - hold down \<And\> to keep adding them.
-
-4. Press the empty button where you want it to go
+3.  Klicken Sie auf die (freie) Schaltfläche, auf die Sie die Palette
+	bewegen möchten.
 
 ---
 
--   The \<Menu Latch\> button latches the **Copy/Move/Link menu**, so you
-    can keep copying, moving or linking things without having to keep
-    pressing \<Copy\>. Press \<Menu Latch\> again to unlatch.
+-   Die Taste \<Menu Latch\> fixiert das Menü 'Copy/Move/Link', so dass
+    man bei wiederholtem Kopieren/Verschieben die Taste \<Copy\> nicht
+    erneut betätigen muss. Zum Freigeben des Menüs drücken Sie
+    nochmals \<Latch Menu\>, zum Verlassen drücken Sie \<Exit\>.
 
--   \[Retain Layout\] or \[Bunch Up\] is used when copying a group of
-    palettes with empty handles in the group - you can either keep the
-    empty handles, or bunch up the used handles together.
+-   \[Retain Layout\](Darstellung beibehalten) und \[Bunch Up\]\
+    (zusammenfassen) sind von Bedeutung beim Kopieren von mehreren
+    Paletten mit eingeschlossenen freien Speicherplätzen: man kann
+    wählen, die Verteilung (mit freien Plätzen) beizubehalten oder nur
+    die wirklich verwendeten zusammenzufassen.
 
--   When in Copy mode, option \[Copy Legends\] can be changed to \[Don't
-    copy legends\] so that the copied palettes are given default
-    legends.
+-   Im Kopiermodus lässt sich die Option \[Copy Legends\]
+    (Bezeichnungen kopieren) umschalten zu \[Don't copy legends\],
+    womit den kopierten Paletten Standard-Bezeichnungen gegeben werden.
 
--   When in Move mode, \[Swap Items if Required\] will attempt to
-    reposition any existing handles which are in the way of the move.
-    This is useful when rearranging buttons on a page which is nearly
-    full.
+-   Im Move-(Verschieben)-Modus bietet sich ferner die Option \[Swap
+    Items if Required\]. Damit werden soweit möglich andere Paletten
+    umplatziert, sofern sie beim Verschieben im Weg sind. Diese Option
+    ist hilfreich beim Umgruppieren in sehr vollen Seiten.
 
-Deleting Palettes
------------------
+Löschen von Paletten
+--------------------
 
-You can delete a palette entry by pressing \<Delete\>, then pressing the
-palette's button to be deleted. Press the palette button again to
-confirm the deletion. For palettes stored on physical buttons you can
-delete a range of palettes in one go by holding down the first one while
-pressing the last one.
+Zum Löschen einer Palette drücken Sie die \<Delete\>-Taste und wählen
+danach die Schaltfläche der zu löschenden Palette. Betätigen Sie danach
+die Schaltfläche zur Bestätigung erneut. Zum Löschen mehrerer Paletten
+wählen Sie diese aus und bestätigen mit \<Enter\>. Bei Paletten auf
+Tasten halten Sie die erste gedrückt und betätigen dazu die letzte, um
+einen ganzen Bereich auszuwählen.
 
-Other ways to delete a palette:
+Weitere Möglichkeiten zum Löschen:
 
--   If the console has an \<Update Palette\> button, press it, then
-    select a palette, then use the \[Delete\] softkey option
+-   Verfügt das Pult über eine \<Update Palette\>-Taste (z.B. alte Pearl
+    Experts), so drücken sie diese, wählen die zu löschende Palette, und
+    wählen aus dem Menü \[Delete\].
 
--   Press the \<Palette\> button above the numeric keypad and use the
-    \[Delete\] option in the \[Palette Utilities\] menu
+-   Drücken Sie die Taste \<Palette\> oberhalb des Ziffernblocks, und
+    benutzen Sie die Option \[Delete\] aus dem Menü \[Palette
+    Utilities\].
 
--   Press \<Delete\> then \[Palette\], type the palette number, press
-    \<Enter\>
+-   Drücken Sie \<Delete\>, dann \[Palette\], tippen die Nummer mit den
+    Zifferntasten ein, und drücken \<Enter\>.
 
->   If you have playbacks which use the deleted palette, they will go
-    back to the values which were stored in the programmer when the
-    playback was recorded
+>   Werden Paletten gelöscht, die in Cues verwendet wurden, so werden
+    statt der Palettenwerte die zum Zeitpunkt der Programmierung des
+    Cues aktuellen Werte aktiv.

@@ -5,8 +5,8 @@ sidebar_label: Creating a Chase
 original_id: creating-a-chase
 ---
 
-Programming a Chase
--------------------
+Einen Chaser programmieren
+--------------------------
 
 [](https://youtu.be/M0h5zV4S_OI?t=20 "Recording a Chase")
 
@@ -14,9 +14,9 @@ Zum Programmieren eines Chasers stellen Sie für jeden Schritt das
 gewünschte Bild ein und speichern es.
 
 Dazu können Sie alle Geräte und Dimmer einzeln einstellen, Sie können
-per [Quick Build](#creating-a-chase-with-quick-build) einen Chaser aus 
+per [Quick Build](#einen-chaser-mit-quick-build-erstellen) einen Chaser aus 
 [Paletten](../palettes.md) und [Cues](../cues.md) zusammenstellen,
-oder Sie benutzen die [\<Include\>](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)-Funktion, um die Einstellungen aus bereits programmierten Cues zu verwenden.
+oder Sie benutzen die [\<Include\>](../cues/editing-cues.md#cues-wiederverwenden---die-include-funktion)-Funktion, um die Einstellungen aus bereits programmierten Cues zu verwenden.
 
 1. Drücken Sie die Taste \<Record\>, dann \[Chase\] (oder 2x \<Record\>). 
 *(Ältere Pulte haben dafür die Taste \<Record Chase\>).*
@@ -27,7 +27,7 @@ speichern möchten *(ebenso lassen sich Chaser auf die Schaltflächen im
 
 3. Stellen Sie das gewünschte Bild für den ersten Schritt ein, entweder
 manuell, oder unter Verwendung bestehender Cues mittels der 
-[\<Include\>](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)-Funktion
+[\<Include\>](../cues/editing-cues.md#cues-wiederverwenden---die-include-funktion)-Funktion
 
 4. Die Nummer des aktuellen Schrittes lässt sich mit \[Step Number\]
 ändern.
@@ -56,7 +56,7 @@ gespeichert haben.
     - \[Record Stage\] (Bühne speichern) - alle Geräte mit
     Helligkeit > 0 werden gespeichert
 
-    - \[Quick Build\] - [siehe nächster Abschnitt](#creating-a-chase-with-quick-build)
+    - \[Quick Build\] - [siehe nächster Abschnitt](#einen-chaser-mit-quick-build-erstellen)
 
 -   Die aktuelle Schrittnummer sowie die Gesamtzahl der Schritte wird in
     der oberen Zeile des Displays angezeigt.
@@ -71,7 +71,7 @@ gespeichert haben.
 	dem jeweiligen Schritt. *(‚Derselbe' Shape wird dann angenommen, 
 	wenn nach dem vorherigen Schritt nicht \<Clear\> gedrückt wurde 
 	und Größe, Geschwindigkeit und Phase des Shapes nicht verändert 
-	wurden, oder wenn der Shape per [Include](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function) 
+	wurden, oder wenn der Shape per [Include](../cues/editing-cues.md#cues-wiederverwenden---die-include-funktion) 
 	aus dem vorherigen Schritt übernommen und nicht modifiziert wurde.)*
 
 -   Dem Chaser kann eine Bezeichnung zugeordnet werden: drücken Sie dazu

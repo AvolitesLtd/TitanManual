@@ -5,32 +5,31 @@ sidebar_label: Patching
 original_id: patching
 ---
 
-Patching is the process where you tell the console
+Patchen ist der Prozess, mit dem Pult mitgeteilt wird
 
--   What type of lighting units you have connected to it
+-   welche Geräte (Dimmer, Movinglights etc.) angeschlossen sind
 
--   What DMX addresses they are operating at
+-   auf welche DMX-Adressen diese reagieren
 
--   Which DMX line (universe) each unit is connected to (there are 64
-    lines, but the console itself can only output 16 lines; further
-    lines can be controlled using networked DMX processors over
-    TitanNet)
+-   welches Gerät auf welcher DMX-Linie liegt; ein Pult kann selbst 16
+    DMX-Universen ausgeben, weitere - bis zu insgesamt 64 - sind mit
+    Prozessoren über TitanNet erzielbar.
 
--   Which buttons on the console you want to use to access them (either
-    physical buttons or touch buttons)
+-   mit welchen Schaltflächen/Tasten auf welches Gerät zugegriffen
+    werden soll
 
--   Particular option settings for each fixture.
+-   bestimmte weitere Optionen für die einzelnen Geräte
 
-  > Before you start rigging, you can use the console to work out the DMX addresses for the fixtures in your rig. Patch them on the console (or simulator), then press \<View/Open\>, Patch to show the Patch View window. This will use the DMX channels as efficiently as possible without leaving any gaps.
+> Es empfiehlt sich, den Lichtaufbau vor dem tatsächlichen Einbau der Geräte zu planen, um die DMX-Adressen vorher vergeben zu können. Am einfachsten patcht man zunächst die Geräte im Pult, und kann dann die vergebenen Adressen am Pult auslesen (im Patch View-Fenster, \<View / Open\>, \<Patch\>) und an den Geräten einstellen.
 
-If your fixtures are RDM equipped, the console can patch itself from the
-rig, see [Patching by RDM](./patching/patching-new-fixtures-or-dimmers.md#patching-by-rdm).
+Verfügen die Geräte über RDM, so kann das Pult diese automatisch
+erkennen und patchen, siehe [Patchen mit Hilfe von RDM](./patching/patching-new-fixtures-or-dimmers.md#patchen-mit-hilfe-von-rdm).
 
-On consoles with a System/Run/Program switch, the switch must be set to
-Program before you can patch.
+Bei Pulten mit einem Schalter 'System/Run/Program' muss dieser zum Patchen
+auf 'Program' stehen.
 
-By default in a new show, each physical DMX output socket (5 pin XLR) is
-connected to a DMX line. If you want to change this or use other lines,
-go to the [DMX Settings](./system-settings/the-system-menu.md#dmx-settingsdmx-output-mapping) window in System mode.
+In der Grundeinstellung ist den DMX-Buchsen jeweils eine DMX-Linie
+zugewiesen. Um die Zuordnung zu ändern, nehmen Sie die entsprechenden
+Einstellungen in den [DMX-Einstellungen](./system-settings/dmx-output-mapping.md) im System-Modus vor.
 
-> If nothing is happening to the lights when you make changes on the console it is worth checking the DMX Settings window to make sure the DMX lines are allocated to outputs.
+> Wenn Ihre angeschlossenen Geräte in keiner Weise auf irgendwelche Pult-Aktionen reagieren, überprüfen Sie, ob die DMX-Ausgänge korrekt zugewiesen und aktiviert sind.

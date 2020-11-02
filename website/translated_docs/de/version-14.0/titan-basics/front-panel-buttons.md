@@ -5,144 +5,150 @@ sidebar_label: Front Panel Buttons
 original_id: front-panel-buttons
 ---
 
-The blue and grey buttons associated with fader handles, and the
-macro/executor buttons are configurable and you can use them in various
-ways.
+Die den Fadern zugeordneten blauen und grauen Tasten sowie die
+Macro/Executor-Tasten sind weitgehend frei zu konfigurieren.
 
-Key profiles
-------------
+Key Profiles -- Tastenprofile
+-----------------------------
 
-The console allows you to change the function of the blue select and
-grey flash panel buttons (and the black buttons on Sapphire Touch). You
-can also change the way some of the touch keys work. You can save your
-settings as a [Key Profile](../system-settings/key-profiles.md). Different profiles can be selected for
-different users or to enhance the operation of the console for a
-particular use.
+Es ist möglich, die Funktionsweise der grauen Flash- und blauen
+Auswahl-Taster (sowie der schwarzen Tasten beim Sapphire Touch) zu
+ändern. Ebenso lässt sich die Funktion einiger Schaltflächen ändern.
+Diese Einstellungen lassen sich als [Key Profile (Tastenprofil)](../system-settings/key-profiles.md) abspeichern. Einzelne 
+Tastenprofile lassen sich einzelnen Benutzern zuordnen oder für die 
+vereinfachte Bedienung des Pultes bei bestimmten Anwendungsfällen verwenden.
 
-Key macro buttons
------------------
+Macros -- Tastenfolgen
+----------------------
 
-Lighting programming can sometimes require a repeated sequence of button
-presses. You can record sequences of keypresses and play them back with
-a single keypress -- this is called a macro. The macro can reproduce the
-timing of your button presses (Real Time mode) or just repeat the
-sequence of buttons with no timing (Full Speed mode).
+Während des Programmierens sind zuweilen bestimmte Abfolgen von
+Tastendrücken sehr oft auszuführen. Zur Vereinfachung lassen sich solche
+Tastenfolgen sehr einfach abspeichern und mit dem Betätigen einer
+einzigen Taste wieder abrufen; dies wird Makro genannt. Makros können
+die Tastendrücke mit den aufgezeichneten Pausen (Real Time) oder aber so
+schnell wie möglich (Full Speed) wiedergeben.
 
-Real Time mode is useful when you are using a macro to reproduce a
-lighting effect, for example a sequence of flash buttons. Full Speed
-mode is more useful for admin tasks such as changing console mode.
+Full Speed dient dabei insbesondere für wiederkehrende Aufgaben beim
+Programmieren, während mit Real Time auch ganze Effekte - mit ihrem
+Timing - wiedergegeben werden können.
 
-Macros can be stored in the dedicated buttons on the top right of the
-panel, on the grey handle buttons, and in the Macro button window which
-can be shown in the workspace. The top right panel macro buttons
-correspond to the first 20 macros in the window (10 on Tiger Touch).
+Makros können in den meisten Arbeitsfenstern sowie direkt auf den dafür 
+vorgesehenen Tasten rechts auf dem Pult abgelegt werden; außerdem gibt 
+es ein Fenster "Macros". Die 10 'Macro'-Tasten (altes Tiger Touch) 
+korrespondieren mit den ersten zehn Schaltflächen im 'Macros'-Fenster, 
+während die Macro/Executor/Workspace-Tasten im Fenster 'Feste Playbacks' 
+angezeigt werden.
 
-The Arena also has two additional Macro buttons on the bottom left
-corner of the console.
+Das Arena hat noch zwei weitere Macro-Tasten vorn links auf dem Pult.
 
-To record a macro:
+Ein Macro aufzeichnen
 
-1. Press the \<Macro\> button (above keypad)
+1.  Drücken Sie die blaue Taste \<Macro\> (oberhalb des Ziffernblocks)
 
-2. Select \[Full Speed\] or \[Real Time\].
+2.  Wählen Sie \[Full Speed\] oder \[Real Time\].
 
-3. Press \[Record\]
+3.  Drücken Sie \[Record\].
 
-4. Press a suitable empty button on the panel, or an empty button in
-the Macro window on the screen. Recording starts. The Insert/Macro
-button flashes during recording.
+4.  Betätigen Sie eine freie graue Taste oder Schaltfläche auf dem 
+	Touchscreen. Damit beginnt die Aufzeichnung. Währenddessen blinkt die 
+	Taste \<Macro\>.
 
-5. Press the sequence of buttons you want to record.
+5.  Führen Sie nun die aufzuzeichnende Tastenfolge aus.
 
-6. Press \[Record Macro\] to finish recording.
+6.  Klicken Sie \<Macro\> zum Beenden der Aufzeichnung.
 
-To play back the macro, just press or touch the button where you
-recorded the macro. The macro will repeat all your button presses, with
-correct timings if you selected Real Time mode.
+Zum Ausführen des aufgezeichneten Makros einfach die Taste betätigen,
+auf der das Makro gespeichert wurde. Daraufhin werden sämtliche Schritte
+der Tastenfolge automatisch ausgeführt (wahlweise mit den
+aufgezeichneten Pausen oder in schneller Folge).
 
-Keyboard shortcuts
-------------------
-
-Many features of the console can be controlled by shortcuts on the
-keyboard. These are especially useful when using Titan Mobile or Titan
-Simulator.
-
-The Titan application "captures" the keyboard on start up, meaning that
-if you try to use other applications at the same time they will not
-receive keypresses. Pressing Break on the keyboard releases the keyboard
-for other applications but disables all text entry for Titan including
-the shortcut keys; changing menus will reconnect the keyboard to Titan.
-
-Key | Action | | Key | Action
----|---|---|----|-----
-  F1 | Open user manual | |          Ctrl X |   Cut text
-  F2 | Activate window  | |          Ctrl C |   Copy text
-  F3 | Minimise/Maximise  | |         Ctrl V |   Paste text
-  Shift F3 | Next window  | |              Ctrl A |   Select all text
-  F4       |  Size/Position         | |    Ctrl Z |   Undo
-  Shift F4 |  Move to other screen  | |     Ctrl Y |   Redo
-  F5       |  Close window          | |     Alt C  |   Clear
-  Shift F5 |  Close all windows     | |     Alt R  |   Record menu
-  F6       |  Open Playbacks window | |     Alt A  |   Toggle Avo (shift) menu
-  F7       |  Open Fixtures window  | |     Alt L  |   Locate
-  F8       |  Open Groups window    | |     Alt P  |   Patch
-  F9       |  Open Colours window   | |     Alt D |  Disk menu
-  F10      |  Open Positions window | |     Alt S |  System mode
-  F11      |  Gobos/Beams window    | |     Alt V   |  Open/View menu
-  F12      |  Open Channel Grid     | |     Alt G   |  Go
-  Esc      |  Exit menu             | |     Alt D   |  Delete
-  Enter    |  Enter                 | |     Alt C |  Copy
-  Alt 1    |  Softkey A             | |     Alt M |    Move
-  Alt 2    |  Softkey B             | |     Alt U  |   Unfold
-  Alt 3    |  Softkey C             | |     Alt I  |   Include
-  Alt 4    |  Softkey D             | |     Alt R |  Release
-  Alt 5    |  Softkey E             | |     Alt S  |   Shape
-  Alt 6    |  Softkey F             | |     Alt T  |   Fixture Tools/ML Menu
-  Alt 7    |  Softkey G             | |    Alt B  |   Blind
-  Alt ⇑ F  |  Fixture               | |    Alt O  |   Off
-  Alt ⇑ P  |  Palette               | |     Alt F  |   Fan
-  Alt ⇑ M  |  Macro                 | |     Alt O |  Attribute options
-  Alt ⇑ G  |  Group                 | |     Alt L |  Latch menu
-  / (num)  |  Thro                  | |     Alt ←  |   Previous fixture
-  \* (num) |  @                     | |     Alt →  |   Next fixture
-  \- (num) |  Not                   | |     Alt ↑  |   All
-  \+ (num) |  And                   | |     Alt ↓  |   Highlight
-
-⇑ means shift\
-(num) means on the numeric keypad
-
-Locking the console
+Tastenkombinationen
 -------------------
 
-You can place a simple lock on the console controls to prevent people
-fiddling with it while you're not looking. Hold down \<Avo\> and press
-\[Lock\], then type a password (numbers or letters). To unlock, enter
-the password again, or restarting the console will also unlock it. After
-a few seconds, the "Enter password" prompt will fade out but will appear
-again if you press buttons or touch the screen. This is not a
-high-security lock, it's just to prevent passing idiots messing with it.
+Viele Funktionen des Pultes lassen sich durch Tastenkombinationen
+aufrufen; dies ist insbesondere mit dem Titan Mobile oder dem Titan
+Simulator sinnvoll.
 
-You can set a background image for the lock screen from the Lock Screen
-Background option in the General tab of User Settings (hold \<Avo\>,
-press \[User Settings\]). The image can be either loaded from a picture
-file or drawn using the touch screen.
+Dabei 'fängt' Titan (das Pult-System) die Tastendrücke ab; soll ein
+anderes Programm Zugriff auf die Tastatur haben, so muss die
+‚Break'(Pause)-Taste gedrückt werden, womit weder Tastenkombinationen
+noch Texteingabe am Pult funktionieren. Umschalten des Menüs reicht die
+Tastatur wieder an Titan durch.
+
+Taste | Aktion | | Taste | Aktion
+---|---|---|----|-----
+  F1 	   |  Hilfe (englisch) anzeigen | |  Ctrl X   |  Ausschneiden (Text)
+  F2       |  Fenster wählen            | |  Ctrl C   |  Kopieren (Text)
+  F3       |  Min/Max		            | |  Ctrl V   |  Einfügen (Text)
+  Shift F3 |  Nächstes Fenster          | |  Ctrl A   |  Alles markieren (Text)
+  F4       |  Größe/Position		    | |  Ctrl Z   |  Undo
+  Shift F4 |  Bildschirm wechseln       | |  Ctrl Y   |  Redo
+  F5       |  Fenster schließen         | |  Alt C    |  Clear
+  Shift F5 |  Alle Fenster schließen    | |  Alt R    |  Record 
+  F6       |  Fenster 'Playbacks'       | |  Alt A    |  Avo (shift) 
+  F7       |  Fenster 'Fixtures'  		| |  Alt L    |  Locate
+  F8       |  Fenster 'Groups'    		| |  Alt P    |  Patch
+  F9       |  Fenster 'Colours'   		| |  Alt ⇑ D  |  Disk
+  F10      |  Fenster 'Positions' 		| |  Alt ⇑ S  |  System-Menü
+  F11      |  Fenster 'Gobos/Beams'     | |  Alt V    |  Open/View
+  F12      |  Fenster 'Channel Grid'    | |  Alt G    |  Go
+  Esc      |  EXIT 			            | |  Alt D    |  Delete
+  Enter    |  ENTER 	                | |  Alt ⇑ C  |  Copy
+  Alt 1    |  Menütaste A               | |  Alt M    |  Move
+  Alt 2    |  Menütaste B               | |  Alt U    |  Unfold
+  Alt 3    |  Menütaste C               | |  Alt I    |  Include
+  Alt 4    |  Menütaste D               | |  Alt ⇑ R  |  Release
+  Alt 5    |  Menütaste E               | |  Alt S    |  Shape
+  Alt 6    |  Menütaste F               | |  Alt ⇑ T  |  Fixture Tools/ML Menu
+  Alt 7    |  Menütaste G               | |  Alt B    |  Blind
+  Alt ⇑ F  |  \<Fixture\>               | |  Alt O    |  Off
+  Alt ⇑ P  |  \<Palette\>               | |  Alt F    |  Fan
+  Alt ⇑ M  |  \<Macro\>                 | |  Alt ⇑ O  |  Attribute options
+  Alt ⇑ G  |  \<Group\>                 | |  Alt ⇑ L  |  Latch menu
+  / (num)  |  \<Thro\>                  | |  Alt Q    |  Cue/Connect
+  \* (num) |  \<@\>                     | |  Alt W    |  Open Window
+  \- (num) |  \<Not\>                   | |  Alt T    |  Times
+  \+ (num) |  \<And\>                   | |  Alt ⇑ U  |  Update
+   Alt ←   |  Previous fixture    	    | |  Alt ⇑ I  |  Select If
+   Alt →   |  Next fixture              | |           |  |
+   Alt ↑   |  All                       | |           |  |
+   Alt ↓   |  Highlight                 | |           |  |
+
+⇑ = Shift/Umschalt\
+(Num) = auf dem Ziffernblock
+
+Das Pult sperren
+----------------
+
+Das Pult lässt sich sperren, um unbeabsichtigte oder unbefugte Eingriffe
+zu verhindern. Halten Sie dazu \<AVO\> gedrückt, klicken Sie auf
+\[Lock\], und geben Sie nun ein Passwort ein (Buchstaben oder Ziffern).
+Zum Entsperren muss das gleiche Passwort wieder eingegeben werden; die
+Eingabeaufforderung für das Passwort wird nach einigen Sekunden der
+Inaktivität ausgeblendet, erscheint aber sofort wieder, sobald eine
+Taste betätigt oder der Bildschirm angetippt wird. Dies ist ausdrücklich
+nur eine einfache Sperre, *just to prevent idiots messing with it.*
+
+Es lässt sich eine Grafik einstellen, die bei gesperrtem Pult angezeigt
+wird. Drücken Sie dazu \<Avo\> und wählen das Menü \[User Settings\]
+(Benutzereinstellungen). Auf der Seite \[Display\] (Version 13:  \[General\])
+kann man bei \[Lock Screen Background\] ein Bild laden oder eine Grafik zeichnen.
 
 If you load a picture file, the menu option \[Scaling Mode\] sets how
 the picture will be scaled to fill the screen.
 
--   None: Image is displayed 1:1
+-   None: keine Skalierung, das Bild wird in Originalgröße angezeigt
 
--   Letterbox: scales the image until it fills either the width or
-    height of the screen, leaving black bars on the other edges of the
-    screen.
+-   Letterbox: skaliert, bis entweder Breite oder Höhe formatfüllend
+    dargestellt werden, und lässt ansonsten schwarze Ränder
 
--   Fill: scales the image until it fills the whole screen, keeping the
-    aspect ratio
+-   Fill: skaliert, bis das Bild in voller Breite oder Höhe dargestellt
+    wird.
 
--   Stretch: scales the image until it fills the whole screen, ignoring
-    the aspect ratio
+-   Stretch: Das Bild wird auf den gesamten Bildschirm aufgezogen und
+    ggf. verzerrt dargestellt
 
-The \[Clear\] softkey will remove the image.
+Mit dem Button \[Clear\] wird ein eingestelltes Bild wieder gelöscht.
 
-While the console is locked, all functions are disabled except the DMX
-outputs and currently running playbacks.
+Bei gesperrtem Pult sind sämtliche Funktionen deaktiviert, abgesehen vom
+DMX-Ausgang und den aktuell laufenden Playbacks.

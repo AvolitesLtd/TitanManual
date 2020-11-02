@@ -78,10 +78,10 @@ Zahnrad in der Titelleiste des Fensters).
 
 -   Beim Ausblenden des Reglers einer Cueliste werden die enthaltenen
     HTP-Kanäle ausgeblendet, die Cueliste an sich bleibt jedoch aktiv.
-    [Im nächsten Abschnitt](#killing-a-cue-list) wird erläutert, wie die Cueliste deaktiviert
+    [Im nächsten Abschnitt](#eine-cueliste-deaktivieren) wird erläutert, wie die Cueliste deaktiviert
     werden kann.
 
--   Mittels **Timecode** kann eine Cueliste [automatisch gesteuert werden](cue-list-timing.md#running-a-cue-list-to-timecode).
+-   Mittels **Timecode** kann eine Cueliste [automatisch gesteuert werden](cue-list-timing.md#steuern-einer-cueliste-per-timecode).
 
 -   Die Zeit für den nächsten Schritt lässt sich einfach ändern, indem
     man mit den Zifferntasten die neue Zeit eingibt und \<Go\> drückt.
@@ -159,8 +159,7 @@ Einstellung | Wirkung
 \[Disabled\] | deaktiviert MID für die gesamte Cueliste, auch wenn es ggf. für einzelne Cues aktiviert ist
 \[Early\] | startet die Bewegung zum frühestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben
 \[Late\] | beginnt die Bewegung zum spätestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben
-\[Off\] *(Vorgabe)* | schaltet MID für die gesamte Cueliste ab; MID kann aber für
-    einzelne Cues aktiviert werden
+\[Off\] *(Vorgabe)* | schaltet MID für die gesamte Cueliste ab; MID kann aber für    einzelne Cues aktiviert werden
 
 Zum Einstellen der Optionen für einzelne Cues nutzen Sie hingegen das Fenster ‚Playback View' der Cueliste. Es gibt folgende Optionen:
 

@@ -5,381 +5,417 @@ sidebar_label: Changing the Patch
 original_id: changing-the-patch
 ---
 
-Patch View
-----------
+Die Patch-Ansicht (Patch View)
+------------------------------
 
-The Patch View window gives a full overview of how all the fixtures in
-your show are patched, and allows you to patch, repatch, legend,
-renumber, invert, pan/tilt swap, freeze, exchange, park and view
-fixtures. If you need to change the settings of multiple fixtures (for
-example, changing the DMX address of several fixtures) then it's really
-easy to do in one operation in the Patch View.
+Mit der Patch-Ansicht hat man einen kompletten Überblick über die
+aktuelle gepatchten Geräte; ebenso kann man diese dort parken,
+umpatchen, invertieren, austauschen und bezeichnen. Müssen mehrere
+Geräte auf einmal geändert, etwa umadressiert, werden, so ist dies in
+der Patch-Ansicht besonders einfach zu realisieren.
 
-To show the Patch View window press \<View/Open\> then \<Patch\>, or use
-the Open Workspace Windows menu command.
+Zum Öffnen der Patch-Ansicht wählen Sie \<View / Open\>, dann
+\<Patch\>, oder wählen den entsprechenden Eintrag aus dem Menü
+'Arbeitsfenster öffnen' (Open Workspace Window).
 
 ![Patch View](/docs/images/Patch-View.png)
 
-**Fixture type:** lists the different types of fixture in your show.
-Each fixture has a unique colour code. Click on these buttons to filter
-the view so it only shows one fixture type.
+In der Spalte **Fixture Type** sind die verschiedenen Gerätetypen
+aufgelistet; dabei hat jeder Typ eine andere Farbe. Beim Klick auf diese
+Buttons werden nur Geräte dieses Typs angezeigt.
 
-**Line:** lists the available DMX output lines/universes. The blue
-bargraph in the button shows how much of the line is used by patched
-fixtures and how much is free. Click a button to show the details of
-that line in the right hand side of the window.
+**Line:** die verfügbaren DMX-Linien. Die Balkenanzeige zeigt die
+Auslastung der einzelnen Linien an. Klickt man auf die jeweilige
+Schaltfläche, werden Details der Linien angezeigt.
 
-The **coloured bar** at the top shows how fixtures are patched on the
-selected output line, using the unique colour code for each type of
-fixture. Click on a section of the bar to select those fixtures in the
-grid below.
+Der **farbige Balken** oben zeigt, wie die einzelnen Gerätetypen auf der
+aktuell ausgewählten Linie verteilt sind. Klickt man auf einen Bereich,
+so werden die betreffenden Geräte unten ausgewählt.
 
-The **grid area** shows details for each patched fixture on the selected
-output line. Some parameters are editable by clicking in the grid, then
-the softkeys allow you to change the parameter.
+In der **Tabelle** werden Details der ausgewählten Geräte angezeigt;
+einige Parameter sind direkt in der Tabelle durch Anklicken änderbar;
+weitere Möglichkeiten ergeben sich durch die Multifunktionstasten.
 
-> You can change parameters for multiple fixtures by dragging a selection box over the grid, or hold the Ctrl button on the keyboard and click on the required fixtures. Then edit the parameter on the softkeys, and use the \[Set\] context button or press \<Enter\> to update the selected fixtures.
+> Es lassen sich für mehrere Geräte gleichzeitig Änderungen vornehmen, indem man in der Tabelle den entsprechenden Bereich auswählt, oder indem man auf einer optionalen Tastatur \<Strg\> gedrückt hält und die einzelnen Geräte anklickt. Nehmen Sie dann die Änderungen mit den Multifunktionstasten vor und drücken Sie den Button \[Set\] oder die \<Enter\>-Taste.
 
--   You can switch off some of the display columns to make the Patch
-    View simpler. Press the \[Choose Columns\] context menu button and
-    then use the options on the softkeys to turn columns on and off.
+-   Zur besseren Übersicht lassen sich einzelne Tabellenspalten
+    ausblenden. Dazu dient der Eintrag \[Choose Columns\] aus dem
+    Kontextmenü. Daraufhin lassen sich einzelne Spalten aus- und wieder
+    einblenden.
 
--   You can add notes to each fixture in the Patch View. Click on the
-    Notes field and enter text using the keyboard.
+-   Einzelnen Geräten lassen sich Notizen hinzufügen. Dazu klicken Sie
+    auf die Zelle 'Notes' und geben den Text mit der Tastatur ein.
 
-    The tabs across the top allow you to switch the window to
-    Personality List (lists all fixtures available on the console), RDM
-    (allows you to patch devices using RDM) and Attribute Behaviour
-    (allows you to set invert, freeze, curve, and limit.
-    See the [detailed fixture information section](./changing-the-patch.md#view-detailed-fixture-information) for Attribute Behaviour.
+    Die Reiter am oberen Rand schalten die Anzeige wie folgt um:
+    'Personality List' listet alle im Pult vorhandenen Personalities
+    auf; 'RDM' erlaubt die Anzeige und das Patchen von Geräten via RDM;
+    'Attribute Behaviour' gestattet es, Attribute zu fixieren, zu
+    invertieren, zu limitieren oder die Kennlinie zu verändern. Weitere
+    Informationen dazu finden sich in [im nächsten Abschnitt](./changing-the-patch.md#anzeige-weiterer-patch-details).
 
-    A context menu option allows you to show or hide parked fixtures. If
-    you show parked fixtures they will appear greyed out in the position
-    they were originally patched.
+    Mittels Kontext-Option können geparkte Geräte angezeigt oder
+    ausgeblendet werden. Werden diese angezeigt, so erscheinen sie
+    ausgegraut an der Stelle, an der sie ursprünglich eingefügt waren.
 
-View Detailed Fixture Information
----------------------------------
+Anzeige weiterer Patch-Details
+------------------------------
 
-In the Patch View window click on the View button for the fixture you
-wish to view, or press \<View/Open\> followed by a fixture handle. A
-Fixture View window will open showing details for that fixture,
-including the personality and mode used to patch, and the individual DMX
-channel addresses for each attribute. Attributes can be inverted or
-frozen by clicking on the checkboxes at the right hand side.
+Zur Anzeige der Details einzelner Geräte drücken Sie in der
+Patch-Ansicht in der Tabelle auf die betreffende \[View\]-Schaltfläche,
+oder drücken \<View / Open\>, gefolgt von der entsprechenden
+Geräte-Schaltfläche. Darauf öffnet sich ein weiteres Fenster und zeigt
+die Patch-Details des jeweiligen Gerätes. Hier lassen sich z.B. auch
+einzelne Attribute invertieren oder fixieren.
 
 ![Fixture View](/docs/images/Fixture-View.png)
 
-If the fixture address is set using DIP switches, the console can show
-you how to set the switches by clicking on the DIP Switches tab.
+Wenn die Geräte über DIP-Schalter adressiert werden, so zeigt dieses
+Fenster die entsprechende Schalterstellung im Reiter 'DIP-Switches'.
 
 ![Dip Switches](/docs/images/Dip-Switches.png)
 
-There is also a Personality tab (not shown in the pictures) which shows
-history information about the personality file for the fixture. This can
-be useful for checking the version of the personality file.
+Weiter gibt es einen Reiter 'Personality' (ohne Abb.); auf diesem werden
+Details der jeweiligen Personality angezeigt. Dies ist insbesondere
+hilfreich für Geräte, die in verschiedenen Versionen verfügbar sind oder
+gepatcht werden können.
 
-Changing DMX Addressing using Patch View
+Ändern der DMX-Adresse in der Patch-Ansicht
 ----------------------------------------
 
-You can easily change the DMX address of one or more fixtures from Patch
-View. Select the DMX address cells you want to modify - draw a
-selection box over multiple cells to select more than one.
+Die Zuordnung eines Gerätes zu einer DMX-Adresse und/oder DMX-Linie kann
+in der Patch-Ansicht auf einfache Weise geändert werden. Wählen Sie dazu
+die Adress-Zellen, die Sie ändern möchten:
 
 ![Change DMX Address](/docs/images/Change-DMX-Address.png)
 
-Type the new address for the first fixture in the selection and press
-\<Enter\> (using the format Universe . Address - if you miss out the
-universe part it will stay unchanged).
+Geben Sie nun die neue Adresse des ersten ausgewählten Gerätes ein und
+drücken \<Enter\>. (Verwenden Sie bei der Eingabe das Format
+Universum.Adresse - lassen Sie Universum und den Punkt weg, so wird nur
+die Adresse geändert).
 
-All fixtures will be renumbered keeping the addressing offset between
-the fixtures the same (in other words if each fixture takes 20 channels,
-the addresses will be set with an offset of 20 channels between each
-fixture).
+Alle angewählten Geräte werden daraufhin entsprechen umadressiert, wobei
+der jeweilige Offset (also etwaige Lücken zwischen den Adressen)
+erhalten bleibt.
 
-The \[Swap Fixture Addresses\] softkey lets you swap the addressing
-between two groups of fixtures. This operates in two modes, \[One For
-One\] or \[Retain Layout\], which you can select by softkey after
-pressing \[Swap Fixture Addresses\].\
-Select one group, then press \[Swap Fixture Addresses\] and select the
-target group. In One for One mode the target must be the same quantity
-of fixtures or the console will display an error. In Retain Layout mode
-the console will attempt to add or remove fixtures to get the same
-quantity - if this conflicts with other fixtures it will give you the
-options to \[Park Conflicting\] or \[Cancel\].
+Mit der Kontext-Funktion \[Swap Fixture Addresses\] können die Adressen
+mit denen bereits gepatchter Geräte vertauscht werden, wobei zwischen
+den Modes \[One for One\] (1:1) und \[Retain Layout\] (Layout erhalten)
+gewählt werden kann. Wählen Sie wie gehabt die zu ändernden Geräte,
+klicken auf \[Swap Fixture Addresses\] und wählen die Geräte, mit denen
+getauscht werden soll.\
+Im Modus \[One to One\] (1:1) muss die Anzahl der zu tauschenden Geräte
+mit der Anzahl der Ziel-Geräte übereinstimmen, ansonsten wird eine
+Fehlermeldung ausgegeben. Im Modus \[Retain Layout\] (Layout erhalten)
+versucht die Software, durch automatisches Hinzufügen/Weglassen von
+Geräten die Anzahlen anzupassen. Funktioniert dies nicht, kann man mit
+\[Cancel\] abbrechen oder mit \[Park Conflicting\] die Geräte, die
+momentan 'im Weg' sind, parken.
 
-Changing DMX address using Patch menu
--------------------------------------
+Ändern der DMX-Adresse im Patch-Menü
+------------------------------------
 
-As well as using the Patch View screen, you can use the Patch menu to
-re-patch a fixture to a different DMX address or a different DMX output
-line. All programming is kept.
+Die Zuordnung eines Gerätes zu einer DMX-Adresse und/oder DMX-Linie kann
+auch im Patch-Menü geändert werden, wobei die Programmierung erhalten
+bleibt.
 
-1. Press \<Patch\> (if you're not already in Patch mode).
+1. Drücken Sie \<Patch\> (wenn Sie sich nicht ohnehin im Patch-Modus
+befinden).
 
-2. Press \[Repatch Fixtures\].
+2. Drücken Sie \[Repatch Fixtures\].
 
-3. Press the Select button of the fixture you want to change.
+3. Betätigen Sie die Schaltfläche des zu ändernden Gerätes.
 
-4. To change DMX press \[Address\], type the new address and press
-enter. If this address is already in use, a warning icon will be shown.
+4. Zum Ändern der DMX-Adresse drücken Sie \[Address\], geben mit den
+Ziffern­tasten die neue Adresse ein, und drücken \<Enter\>. Falls die
+neue Adresse bereits anderweitig verwendet wird, wird eine Warnung
+angezeigt.
 ![Address softkey](/docs/images/Address-softkey.png)
 
-5. To change the DMX output line, press \[DMX Line=x\] and enter a new
-output line number.
+5. Zum Ändern der DMX-Linie drücken Sie \[DMX Line=x\] und geben die
+Zahl der neuen DMX-Linie ein.
 
-6. Press \<Enter\> or \[Repatch\] to confirm the change.
+6. Drücken Sie \<Enter\> oder \[Repatch\], um die Änderungen zu
+bestätigen.
 
-7. Repeat from step 3 if you want to change other fixtures.
+7. Wiederholen Sie den Vorgang ab Schritt 3, um weitere Geräte zu
+ändern.
 
--   You can "Park" the fixture using \[Park\]. This removes the fixture
-    from the DMX output map, but all programming is retained. The
-    original DMX line and address is remembered and you can restore it
-    using the \[Unpark\] option.
+-   Sie können auch Geräte 'parken' (mit der Funktion \[Park\]). Damit
+    wird das Gerät aus dem Patch entfernt, aber die Programmierung
+    bleibt erhalten. Die ursprüngliche DMX-Linie und --Adresse werden
+    gespeichert und können mit \[Unpark\] wiederhergestellt werden.
 
--   If the new DMX address already has another fixture or dimmer patched
-    on it, the console will warn you (unless this is disabled in [User
-    Settings](../system-settings/user-settings.md)). You can either press
-    \[Select another DMX address\] to abort the change or \[Park
-    Conflicting Fixtures\]. All programming for the parked fixture is
-    preserved, but you need to repatch it to a free DMX address using
-    the above procedure before you can use it again. If you press
-    \[Always Park Conflicting Fixtures\] the console will park this and
-    any future conflicting fixtures without warning you (you can change
-    this option back in the User Settings).
+-   Wenn die neue DMX-Adresse bereits anderweitig in Verwendung ist,
+    gibt das Pult eine Warnung aus (sofern das nicht in den
+    [Benutzereinstellungen](../system-settings/user-settings.md) 
+	deaktiviert ist,). Sie können dann entweder \[Select another DMX address\]
+    (eine andere DMX-Adresse auswählen) anwählen, um den Vorgang
+    abzubrechen, oder mit \[Park Conflicting Fixtures\] das Gerät zur
+    späteren Änderung parken. Damit bleibt die existierende
+    Programmierung erhalten, aber das Gerät muss zur weiteren Verwendung
+    auf eine freie DMX-Adresse gepatcht werden (siehe oben). Mit der
+    Auswahl \[Always Park Conflicting Fixtures\] werden sämtliche Geräte
+    mit bereits belegten DMX-Adressen automatisch geparkt, ohne eine
+    Warnung auszugeben (kann in den Benutzereinstellungen geändert
+    werden).
 
 ![Fixture Conflict](/docs/images/Fixture-Conflict.png)
 
-Setting Legends
----------------
+Legenden/Bezeichnungen eingeben
+-------------------------------
 
-You can set a legend for each fixture or dimmer you've patched which is
-displayed in the touch button. This can be really useful to help you
-identify the fixture.
+Jedes gepatchte Gerät lässt sich mit einer Bezeichnung versehen, die auf
+der entsprechenden Geräte-Auswahltaste angezeigt wird, um das Gerät
+später identifizieren zu können.
 
-1. At the main menu press \[Set Legend\].
+1.  Im Hauptmenü klicken Sie \[Set Legend\].
 
-2. Press the Select button for the fixture you want to legend.
+2.  Betätigen Sie die Auswahltaste des Gerätes, für das Sie eine
+Legende vergeben wollen.
 
-3. Type the legend on the keyboard.
+3.  Geben Sie die Legende mit der (Bildschirm-)Tastatur ein.
 
-4. Press \<Enter\> when you have finished.
+4.  Klicken Sie \<Enter\>, um die Eingabe abzuschließen.
 
--   You can also choose to have a picture legend using the softkey
-    options.
+-   Es lässt sich auch eine Zeichnung oder ein Bild als Gerätelegende
+    wählen.
 
--   You can set the same legend for multiple fixtures by selecting a
-    group of fixtures after pressing \[Set Legend\].
+-   Mehrere Geräte lassen sich mit der gleichen Bezeichnung versehen;
+    dazu wählen Sie nach der Betätigung von \[Set Legend\] einfach
+    mehrere Geräte aus.
 
--   You can change the User Number for the fixture using the \[User
-    Number\] softkey on the \[Set Legend\] menu. User Numbers are used
-    when selecting fixtures from the keypad theatre-style.
+-   Die Gerätenummer lässt sich im Menü \[Set Legend\] (Legende
+    eingeben) mit der Menütaste \[User Number =...\] ändern.
+    Insbesondere bei der Verwendung der numerischen Geräteauswahl ist es
+    sinnvoll, die Gerätenummern systematisch zu vergeben.
 
--   You can automatically allocate User Numbers for multiple fixtures by
-    selecting a group of fixtures, then setting \[User Number\]. The
-    first fixture will have the User Number you entered, and the other
-    selected fixtures will be given a number increasing by 1 for each
-    fixture.
+-   Mehreren ausgewählten Geräten lassen sich automatisch Gerätenummern
+    (User Numbers) zuordnen, indem man alle Geräte auswählt und mit dem
+    o.g. Menü eine Nummer eingibt. Dem ersten Gerät der Gruppe wird die
+    eingegebene Nummer zugeordnet, und alle weiteren fortlaufend werden
+    nummeriert.
 
--   You can set a legend for the current page of fixtures using the
-    \[Set Legend\] function from the main Program menu. The legend is
-    shown on the touch button for the page and on the HUD.
+-   Ebenso lässt sich eine Bezeichnung für die aktuelle Seite im
+    Geräte-Auswahlfenster vergeben. Dazu wählen Sie \[Set Legend\] aus
+    dem Hauptmenü, dann \[Page Legends\], dann die zu ändernde Seite 
+	(wenn die Seiten nicht angezeigt werden, können Sie das im Kontextmenü
+	durch einen Klick auf \[Pages Hide\] aktivieren). Die vergebene 
+	Bezeichnung wird auf der Auswahltaste für die Seite sowie im HUD 
+	angezeigt.
 
-Fixture Button Halo
--------------------
+Halo für Fixture-Buttons
+------------------------
 
-You can configure fixture buttons to have a "halo" colour which helps
-you to find them quickly. Halo colours can be set manually for each
-fixture (the default setting), or automatically by fixture type using
-the same fixture colours used in the patch window..
+Für Fixture-Buttons (Geräte-Schaltflächen) kann ein Halo, also ein 
+farbiger Rand, eingerichtet werden, um diese noch übersichtlicher 
+darzustellen. Als Vorgabewert kann man den Halo manuell einstellen. 
+Alternativ kann der Halo automatisch die Farbe annehmen, die im 
+Patch-Fenster verwendet wird.
 
-To set a manual halo colour, click \[Set Legend\], click the fixture
-button (or select multiple buttons) then select the \[Halo\] option. A
-colour picker will open to let you set the colour, or pressing \[System
-Colours\] will give you colour options on the softkeys. A \[Remove
-Halo\] softkey lets you remove the colour.
+Um den Halo manuell einzustellen, klicken Sie auf \[Set Legend\], wählen
+das/die Fixture(s) aus und klicken auf die Option \[Halo\]. Darauf
+öffnet sich ein Colourpicker, um die Farbe auszuwählen. Mittels \[System
+Colours\] hat man Zugriff auf vordefinierte Farben, und mit \[Remove
+Halo\] lässt sich der farbige Rand wieder entfernen.
 
 ![Fixture Halo](/docs/images/Fixture-Halo.png)
 
-To enable automatic halo colours, hold \<Avo\> and select \[User
-Settings\], then \[Handles\], then set Fixture Halos to \[Auto\].
-Fixture buttons will then be coloured to match the automatic fixture
-colours used in the Patch window.
+Zum Aktivieren der automatischen Halo-Farben halten Sie die
+\<Avo\>-Taste gedrückt und wählen \[User Settings\] (Benutzereinst.),
+dann \[Handles\], und ändern schließlich die Einstellung für
+Fixture-Halos (Geräte-Halos) auf \[Auto\]. Daraufhin wird automatisch
+der Halo in der gleichen Farbe dargestellt, die auch im Fixtures-Fenster
+verwendet wird.
 
-Halo colours are also shown in the Intensity View and Show Library
-workspace. In list views such as DMX, Channel Grid, Cue View and Palette
-view the halo colours are shown as a bar to the left of the list - this
-uses the user halo colour if one is set, otherwise the automatic colour
-is used. The User Setting does not affect this display.
+Diese Geräte-Halos werden auch in der Intensity-Ansicht und in der
+Show-Library verwendet. In Listen-Ansichten wie dem DMX-Fenster, dem
+Channel Grid, der Cue- oder der Paletten-Ansicht werden diese Farben für
+die Filter links im Fenster verwendet. Ist eine Farbe manuell definiert,
+wird diese dargestellt, anderenfalls die automatische. Die o.g.
+Benutzereinstellung ist für diese Listendarstellung ohne Belang.
 
 ![Cue View](/docs/images/Cue-View.png)
 
-DMX View Window
----------------
+Das Fenster 'DMX View'
+----------------------
 
-When you're having problems getting fixtures to work it can be useful to
-see the actual DMX output values coming from the console. Press
-\<View/Open\>, then \[Open Workspace Window\], then select \[DMX\].
+Insbesondere zur Fehlersuche empfiehlt es sich, die tatsächlich vom Pult
+gesendeten DMX-Werte zu überprüfen. Dazu gibt es ein gesondertes
+Fenster: drücken Sie \[Open Workspace Window\], dann \[DMX\].
 
 ![DMX Workspace Window](/docs/images/DMX-Workspace-Window.png)
 
-The buttons on the left let you select the different output lines from
-the console. Scrolling the window to the right shows more information
-about each DMX channel.
+Mit den Schaltflächen in der linken Spalte lässt sich das anzuzeigende
+DMX-Universum wählen. Durch Scrollen nach rechts lassen sich weitere
+Informationen pro Kanal anzeigen.
 
-Fixture Exchange
-----------------
+Geräte austauschen
+------------------
 
 [](https://youtu.be/a_ES6UYQRJ4?t=20 "Advanced Patching")
 
-The Fixture Exchange function enables you to repatch fixtures in your
-show using alternative fixtures, retaining important elements such as
-cue times, shapes and legends. This is very useful for touring shows and
-venues with a high turnover of events.
+Die Funktion 'Fixture Exchange' (Geräteaustausch) erlaubt es, in einer
+bestehenden Show Geräte mit anderen Modellen zu ersetzen und dabei
+wesentliche Elemente der Programmierung (z.B. Zeiten, Bewegungsabläufe
+und Legenden) zu erhalten. Dies ist zweckmäßig etwa auf Tourneen oder
+in Hallen mit häufig wechselnden Veranstaltungen.
 
-Fixture Exchange works best if you use Palettes to create your cues.
-This allows you to adjust for position differences and so on by
-reprogramming a few position palettes, rather than having to reprogram
-every cue. Cues recorded with absolute values will need to be
-re-recorded, preferably using palettes.
+Der Austausch von Geräten funktioniert am besten, wenn die
+Programmierung über Paletten erfolgte. Damit müssen verbleibende
+kleinere Abweichungen nur in ein paar wenigen Paletten, statt in einer
+Vielzahl von einzelnen Cues vorgenommen werden. Cues mit absoluten
+Werten dagegen müssen neu programmiert werden, vorzugsweise unter
+Verwendung von Paletten.
 
-The pan, tilt and dimmer will always be preserved from one fixture type
-to the next. For other attributes, the console will attempt to match the
-functions between the fixtures, but you can change the details of this
-using the Exchange Mapping function (see [next section](./changing-the-patch.md#exchange-mapping)). All programmed
-items including palettes will be preserved, so the programming can be
-easily adjusted by updating your palettes as normal.
+Die Kanäle Pan, Tilt und Dimmer werden immer von einem Gerät auf das
+andere übernommen. Für andere Attribute versucht das Pult, eine
+sinnvolle Zuordnung zu erreichen, die per Exchange Mapping (siehe
+[nächster Abschnitt](./changing-the-patch.md#exchange-mapping))
+editiert werden kann. Alle anderen programmierten Dinge - Zeiten,
+Effekte, Paletten etc. - werden übernommen, so dass man mittels
+Aktualisieren der Paletten schnell die Show anpassen kann.
 
-Fixture exchange also gives you a powerful way to re-use an existing
-show with new lights, so you can give yourself a programming head start
-when faced with a new fixture.
+Der Geräteaustausch eröffnet ferner einen interessanten Weg, neue Geräte
+in bereits bestehenden Shows zu verwenden, was zu einer nicht
+unerheblichen Zeitersparnis führen kann.
 
--   It's a good idea to save your show before performing major changes
-    such as fixture exchange. Should you change your mind or have
-    problems, you will easily be able to return your show to its
-    previous state.
+-   Es empfiehlt sich eine Sicherung der Show vor größeren Änderungen
+    (wie dem Geräteaustausch). Sollte man sich doch anders entscheiden,
+    oder kommt es zu Problemen, so lassen sich mit einer Sicherung alle
+    Änderungen rückgängig machen.
 
-1. Enter patch mode by pressing \<Patch\>.
+1.  Drücken Sie \<Patch\>, um in den Patch-Modus zu gelangen.
 
-2. Select the new fixture type you wish to use.
+2.  Wählen Sie das neue Gerät aus, das Sie verwenden möchten.
 
-3. Touch the select button of the fixture which is to be exchanged.
+3.  Betätigen Sie die Auswahltaste des Gerätes, welches ersetzt
+    werden soll.
 
-4. The console will warn you that the fixture is in use. Press the
-    \[Exchange Fixture\] option.
+4.  Das Pult zeigt eine Warnung, dass das Gerät in Gebrauch ist.
+    Wählen Sie die Option \[Exchange Fixture\].
 
-5. Repeat from step 3 to exchange other fixtures with the same type
-    of new fixture.
+5.  Wiederholen Sie die Schritte 3 und 4 für weitere Geräte, die Sie
+    mit dem ausgewählten Typ ersetzen möchten.
 
-> After exchanging fixtures you need to update the palettes which used those fixtures. If you have trouble switching values off in a palette, set new values for all the attributes in the attribute group and re-record the palette. You should then be able to switch off an attribute group as required.
+> Nach dem Austausch von Geräten müssen die von diesen verwendeten Paletten aktualisiert werden. Ist das Deaktivieren einzelner Werte in der Palette nicht möglich, empfiehlt es sich, aktuelle Werte für alle Attribute der betreffenden Attribut-Gruppe einzustellen und die Palette neu abzuspeichern. Nun können einzelne Attribut-Gruppen deaktiviert werden.
 
 Exchange Mapping
 ----------------
 
-When you exchange fixtures the console will attempt to map the functions
-on the new fixture to the same functions on the old fixture so that your
-show does not look any different with the changed fixtures.
+Werden Geräte ausgetauscht, so werden durch das Pult die Funktionen der
+alten Geräte auf die der neuen Geräte soweit wie möglich abgebildet, um
+möglichst das gleiche Ergebnis zu erzielen.
 
-However, this may not always work out quite right, so using Exchange
-Mapping you can manually map functions between the fixtures. For example
-this allows you to map the old gobos to similar new gobos even if they
-are not in the same wheel position, and to ensure that rotation speeds
-work the same.
+Dennoch ist es möglich, dass das nicht perfekt funktioniert. In diesem
+Fall ist es möglich, mit Exchange Mapping die Zuordnung zwischen alten
+und neuen Funktionsbereichen zu bearbeiten. So lassen sich z.B. Gobos
+der alten Geräte durch Gobos der neuen Geräte ersetzen, auch wenn das
+gewünschte Gobo auf einer anderen Position des Goborades sitzt. Ebenso
+lässt sich z.B. die Geschwindigkeit der Goborotation so anpassen, dass
+die bisherigen Cues weitestgehend identisch funktionieren.
 
-Any changes made will apply immediately to the show. Mappings are
-remembered and will be used whenever you exchange the same fixtures in
-the future (though you can restore to factory mappings at any time
-should you need to using the \[Clear All Mappings\] softkey).
-
-![Exchange Mapping](/docs/images/Exchange-Mapping.png)
-
-To set up mapping:
-
-1. Press \<View/Open\> then Patch to show the Patch View screen.
-
-2. Select the Exchange Mapping tab.
-
-3. In the leftmost column, click the fixture type of the new fixture
-which you have changed to.
-
-4. The view shows the old fixture on the left and the new fixture on
-the right with attributes listed for both fixture types. You can sort
-the list either alphabetically or in DMX channel order using the
-\[Sort\] context menu option.
-
-5. Select an attribute to show the mapping. The mapped attribute on
-both fixtures will highlight in light blue. Brown controls are not
-mapped. The centre of the view shows the individual functions of the
-selected attribute, and coloured lines show how these map between the
-fixtures.
-
-6. To map a function, click on a source function then a destination
-function. Any previous mapping will be removed. You can map multiple
-source functions to a single destination function.
-
-7. To unmap a function, double click the source function. If there are
-multiple sources mapped, double click the destination function.
-
-8. To move a mapping, click the existing destination, then click the
-new destination.
-
--   Where a fixture has been exchanged from more than one source fixture
-    you can switch between them by selecting the relevant source fixture
-    under the \'exchanged from\' column.
-
--   When you change the mapping, the \'Unsaved Changes\' options will
-    pop up at the bottom of the screen. Here you can store the new
-    mappings by pressing Apply, forget the changes by pressing Cancel or
-    restore all mappings to Avolites factory default by pressing Reset.
-    All these actions have to be confirmed by pressing the \[Confirm\]
-    softkey.
+Alle Änderungen wirken sofort auf die Show. Diese Mappings werden
+gespeichert und können auch künftig verwendet werden. Natürlich kann man
+mit dem Button \[Clear All Mappings\] auch wieder zu den
+Werkseinstellungen zurückkehren.
 
 ![Exchange Mapping](/docs/images/Exchange-Mapping.png)
 
-**Range mapping**
+Das Mapping wird wie folgt eingerichtet:
 
-If the destination function has a range (for example 0-100%) you can
-adjust the range to which the source function is mapped.
+1.  Drücken Sie \<View\> bzw. \<Open\>, dann \<Patch\>, um die
+    Patch-Ansicht zu öffnen.
 
-Where multiple source functions are mapped to a single destination
-function with a range, separate destination buttons are shown allowing
-you to set a different destination range for each source function.
+2.  Wählen Sie den Reiter „Exchange Mapping".
 
-To set the range, first select a destination function, then click the
-Edit Ranges option at the bottom of the window. Then select the function
-whose range you wish to change. (Note that it is only possible to adjust
-the range of a mapped function. Any functions that are not mapped or are
-not ranges will grey out). You can then adjust the maximum and minimum
-values for the range either by wheel, by touching the wheel view on
-touch consoles or by selecting the relevant softkey and entering the
-value.
+3.  In der ganz linken Spalte wählen Sie den zu bearbeitenden Gerätetyp.
 
-Once complete, click Apply then \[Confirm\] to commit the changes or
-Cancel then \[Confirm\] to forget.
+4.  Im Hauptfenster befinden sich nun links die Funktionen und Attribute
+	der alten und rechts die der neuen Geräte. Mit der Option \[Sort\] lässt
+	sich die Sortierung zwischen alphabetisch und nach DMX-Kanal umschalten.
 
-Updating Patched Personalities
-------------------------------
+5.  Wählen Sie ein Attribut aus, um dessen Mapping zu bearbeiten. Das
+	gewählte Attribut wird nun bei beiden Geräten hellblau markiert. Braun
+	markierte Einträge sind gar nicht zugeordnet, etwa weil das andere Gerät
+	eine entsprechende Funktion nicht hat. In der Fenstermitte werden die
+	jeweils vorhandenen Attributfunktionen angezeigt, farbige Linien zeigen
+	die vorhandene Zuordnung.
 
-This option allows you to update the personality for a fixture used in
-your show. Normally a copy of each fixture personality in the show is
-saved in the showfile, so updating the personality library on the
-console does not update fixtures which are already patched.
+6.  Um eine Funktion neu zu mappen/zuzuweisen, klicken Sie auf die
+	entsprechende Funktion des alten Gerätes, dann auf die gewünschte
+	Funktion des neuen Geräts. Vorherige Zuweisungen werden dabei gelöscht.
+	Es lassen sich mehrere alte einer einzigen neuen Funktion zuweisen.
 
--   It's a good idea to save your show before using Update
-    Personalities, then you will be able to undo any changes if you
-    change your mind or have problems.
+7.  Um eine Zuweisung zu löschen, doppelklicken Sie (links) auf die
+	Funktion des alten Gerätes. Bestehen mehrere Zuweisungen, so
+	doppelklicken Sie (rechts) auf die Funktion des neuen Geräts.
 
-1. Enter patch mode by pressing Patch.
+8.  Um eine Zuweisung zu ändern, klicken Sie (rechts) auf die bisher
+	zugeordnete Funktion des neuen Geräts, dann (rechts) auf die neu
+	gewünschte Funktion.
 
-2. Press \[Edit Fixtures\]
+-   Wurden mehrere alte Gerätetypen durch den gleichen neuen Typ
+    ersetzt, so können Sie ganz links in der Spalte 'Exchanged From'
+    nach Originaltyp umschalten.
 
-3. Press \[Update Personality\] to update an individual fixture
-   type, or \[Update All\] to update all patched fixtures to the most
-    recent version in the library.
+-   Wird das Mapping geändert, so erscheint am unteren Bildschirmrand
+    die Anzeige 'Unsaved Changes' (ungesicherte Änderungen). Hier können
+    Sie mit \[Apply\] die Änderungen speichern und übernehmen, mit
+    \[Cancel\] die Bearbeitung abbrechen oder mit \[Reset\] die
+    Werkseinstellungen wiederherstellen. Alle diese Befehle müssen mit
+    \[Confirm\] bestätigt werden.
 
-4. If updating individual fixtures, the console shows you a list of
-    personalities used in the show which can be updated.
+![Exchange Mapping with range mapping](/docs/images/Exchange-Mapping-Range-Mapping.png)
 
-5. If updating individual fixtures, press the personality you want
-    to update.
+### Range mapping -- Zuweisen von Bereichen
 
--   The new personality is loaded from the Titan/Personalities folder.
+Umfasst die neue Funktion einen ganzen Bereich, z.B. 0...100%, so lässt
+sich ein bestimmter Bereich daraus auswählen, auf den das Mapping
+erfolgen soll.
+
+Sind mehrere Funktionen des alten Gerätes auf einen neuen Bereich
+zugewiesen, so werden dort mehrere 'Ziel'-Schaltflächen eingeblendet, so
+dass man für jede Ausgangsfunktion den Zielbereich einzeln festlegen
+kann.
+
+Um diese Festlegung zu treffen, wählen Sie zunächst den entsprechenden
+Ziel-Bereich. Klicken Sie dann unten auf \[Edit Ranges\] und wählen die
+Funktion aus, die Sie bearbeiten möchten. (Es lassen sich nur bereits
+erfolgte Zuweisungen bearbeiten; nicht gemappte Funktionen werden
+ausgegraut dargestellt). Es lassen sich nun die Unter- und Obergrenzen
+des Ziel-Bereiches mit den Encodern, mit den Rad-Schaltflächen oder -
+numerisch - mit den entsprechenden Funktionstasten einstellen.
+
+Sind die gewünschten Einstellungen erfolgt, so klicken Sie auf
+\[Apply\], dann auf \[Confirm\]. Mit \[Cancel\] und \[Confirm\] dagegen
+werden die Änderungen verworfen.
+
+Bereits gepatchte Personalities aktualisieren
+---------------------------------------------
+
+Mit dieser Funktion lassen sich die Personalities der in der Show
+verwendeten Geräte aktualisieren. Normalerweise sind Kopien der
+Personalities mit in der Show-Datei gespeichert, so dass beim
+Aktualisieren der Personality-Bibliothek des Pultes bereits gepatchte
+Geräte nicht verändert werden.
+
+-   Es empfiehlt sich, vor dem Aktualisieren der Personalities eine 
+	Sicherung der Show vorzunehmen. Sollte man sich doch anders
+    entscheiden, oder es kommt zu Problemen, so lassen sich mit einer
+    Sicherung alle Änderungen rückgängig machen.
+
+1.  Drücken Sie \<Patch\>, um in den Patch-Modus zu gelangen.
+
+2.  Drücken Sie \[Edit Fixtures\].
+
+3.  Drücken Sie \[Update Personality\]. 
+
+4.  Titan zeigt alle Gerätetypen, die in der Show gespeichert sind 
+    und für die Updates in der installierten Gerätebibliothek vorliegen.
+	Wählen Sie den oder die Typen, die Sie aktualisieren wollen, oder 
+	klicken Sie auf \[Update All\], um alle Gerätetypen zu aktualisieren.
+
+-   Sollen viele Geräte aktualisiert geupdatet werden, so kann das eventuell
+    einige Sekunden dauern.
+
+-   Die Aktualisierung erfolgt aus dem Verzeichnis Titan/Personalities.

@@ -5,373 +5,511 @@ sidebar_label: Playback controls
 original_id: playback-controls
 ---
 
-Back up the show
+Sichern der Show
 ----------------
 
-At regular intervals while you are programming, and when you have finished programming (or you've run out of time) and it's showtime, the most important thing is to [save the show](../titan-basics/loading-and-saving-shows.md#saving-the-show). It is wise to also make a separate copy of show by saving it to a USB drive, enabling you to swap to a different console if there are
-problems.
+Das Wichtigste während des Programmierens, am Ende des Programmierens,
+und beim Beginn der Show, ist das [Sichern der Daten](../titan-basics/loading-and-saving-shows.md#die-show-speichern). 
+Ein Backup kann sowohl auf der internen Festplatte als auch auf einem 
+USB-Stick gespeichert werden. Der USB-Stick empfiehlt sich
+insbesondere, um die Show auch auf ein anderes Pult transferieren zu
+können.
 
-Label the console
------------------
+Das Pult beschriften
+--------------------
 
-When you are running your show you will need to know where everything is. Use the Legend functions to set onscreen labels, or you can't beat the low tech method of marker pen and tape.
+Während der Show ist es wichtig zu wissen, was denn nun wo programmiert
+ist. Beschriften Sie Ihr Pult, entweder mit der elektronischen
+Beschriftung/Bemalung, oder mit Klebeband und Stift.
 
-Grand Master fader and assignable masters
------------------------------------------
+Master-Fader
+------------
 
-If the console is fitted with a Grand Master Fader, this controls the intensity of all output from the console. Normally you would use it to quickly fade out all the lights.
+Auf den größeren Pulten gibt es einen eigenen Master-Fader, der
+insgesamt den Ausgang des Pultes (für Dimmerkanäle) regelt.
+Normalerweise wird man diesen auf 100% stellen und nur zum
+gelegentlichen Ausfaden sämtlicher Geräte verwenden.
 
-The Grand Master fader is disabled by default. It can be enabled in the User Settings if required.
+In der Vorgabeeinstellung ist der Grandmaster deaktiviert und kann über
+die Benutzereinstellungen aktiviert werden.
 
-The Pearl Expert has additional master faders: Swop and Flash masters control intensity of the swop/flash buttons; Preset master controls intensity of the preset faders; Playback master controls intensity of all playbacks.
+Das Pearl Expert hat darüber hinaus getrennte Masterfader für Playbacks,
+Presets, Swop- und Flashtasten.
 
-Any playback fader on the console can be assigned to act as a master fader, which allow you to set the overall intensity of various areas of the console. Different types of master fader are available:
+Jeder Fader auf dem Pult kann auch als Masterfader für verschiedene
+Funktionsbereiche verwendet werden:
 
--   **Grand Master** controls the intensity of all output from the console.
+-   Der **Grand Master** steuert die Dimmerpegel sämtlicher angeschlossenen
+    Geräte.
 
--   **Swop and Flash masters** control intensity of the swop/flash buttons
+-   **Swop/Flash-Master** steuern die Helligkeit für Kanäle bei Bedienung
+    mit den Swop-/Flash-Tasten.
 
--   **Preset master** controls intensity of the preset faders
+-   Der **Preset-Master** steuert die Helligkeit von Kanälen, die mittels
+    der Preset-Regler (für einzelne Geräte, auf dem Pearl Expert)
+    gesteuert werden.
 
--   **Playback master** controls intensity of all playbacks.
+-   Der **Playback-Master** steuert die Gesamthelligkeit von
+    vorprogrammierten Playbacks.
 
-To assign master faders, go to System mode and select \[Assign Mastering\], or press \<Record\> then \[Create Master\].
+Um einzelne Regler mit einer Master-Funktion zu belegen, schalten
+Sie in den System-Modus und wählen \[Assign Masters\]. Ebenso geht
+dies per \<Record\> \[Create Master\].
 
-By default, master faders are set to have a transparent lock, which makes the master fader remain in position even when the playback page is
-changed. If you don\'t want this to happen you can change it by pressing \[Playback Options\] from the root menu then press the Swop/Select button of the master.
+Als Voreinstellung haben Masterfader einen ‚Transparent Lock', d.h.
+werden auf alle Seiten eingeblendet, auf denen der betreffende Fader
+nicht belegt ist. Um dies zu ändern, wählen Sie \[Playback Options\]
+und die Auswahltaste des Masterfaders, und stellen wie gewünscht um.
 
-On the Arena console, the rotary encoders on the Mini Screen are very useful as speed masters or group masters - press the encoder to select
-it as a master. Press the Display button below the encoders to show legends for the encoders on the screen if they are not already shown
-(there are 4 display modes to cycle through).
+Auf dem Arena bieten sich zudem die Dreh-Encoder beim kleinen Display
+etwa als Speed- oder Gruppen-Master an. Um diese Fader anzuwählen,
+werden drücken sie gedrückt. Mit der Taste \<Display\> unterhalb der
+Encoder kann man die Anzeige so einstellen, dass die Belegung der
+Encoder angezeigt wird (mit dieser Taste wird durch vier Anzeigemodi 
+durchgeschaltet).
 
 ![Arena Miniscreen](/docs/images/Arena-Miniscreen.png)
 
->  If you assign a master to a handle with an LED, the LED will flash if the fader is at zero... just as a reminder to help you work out why no lights are coming on.
+>  Wird ein Master auf eine Taste mit LED gelegt, so blinkt diese, wenn der Master auf 0 steht -- als kleine Erinnerung, wenn man auf der Suche danach ist, warum gerade wieder alle Lampen aus sind...
 
-Speed and Size Masters
+Speed- und Size-Master
 ----------------------
 
 [](https://youtu.be/e5rQAmTCfs0?t=20 "Speed and Size Masters")
 
-Playbacks can be assigned to a Speed Master and/or a Size Master which allow you to control the speed and size of shapes or effects stored in a cue (or in the case of chases, to modify the speed of the chase).
+Die einzelnen Playbacks lassen sich verschiedenen Speed- und
+Size-Masterreglern zuweisen; damit kann man das Tempo und die Größe von
+enthaltenen Shapes und Effekten zentral steuern, oder - im Fall von
+Chasern - direkt das Chase-Tempo beeinflussen.
 
-There are eight possible Speed Masters and four Size Masters which allow you to separately control the parameters of different playbacks, if you need to – for example Rate Master 1 could be assigned to control position shapes, Rate Master 2 to dimmer shapes, and so on.
+Zur Verfügung stehen zwölf unterschiedliche Speedmaster (4 x Speed, 8 x
+BPM) sowie vier Size-Master. So kann man z.B. eined Ratemaster für
+Positions-Shapes und einen anderen für Dimmershapes verwenden.
 
-A playback is assigned to a Speed/Size Master by pressing \[Effects\] then \[Speed Source\] or \[Size Source\] in the Playback Options. The following speed sources are available:
+Zum Zuweisen eines Playbacks zu einem Speed- oder Size-Master drücken
+Sie \[Playback Options\], wählen das jeweilige Playback (blaue Taste
+oder Schaltfläche), und drücken dann \[Effects\] und \[Speed Source\]
+bzw. \[Size Source\]. Folgende Optionen sind verfügbar:
 
--   Free Run (default - no Speed Master. Effect runs at programmed speed)
+-   Free Run (keine Steuerung über Speed-Master -- Effekte laufen so
+    schnell wie programmiert)
 
--   BPM 1-4 (override the local speed with a fixed value from the master)
+-   BPM 1-8 (das lokal eingestellte Tempo wird durch das Master-Tempo
+    komplett überschrieben)
 
--   Rate 1-4 (proportionally modify the local speed using the master)
+-   Rate 1-4 (das lokal eingestellte Tempo wird durch den Master
+    proportional vergrößert/verringert)
 
--   LocalClock - the playback is set to Tap Tempo mode and all other speed settings are ignored. Using Key Profiles you can assign one of the playback buttons to \[Tap Tempo\] mode, and then set the effect speed by tapping the button. Effects will synchronise to the tap.
+-   LocalClock (Steuerung per Tap Tempo, das ggf. per Tastenprofil auf
+    einen Button gelegt werden muss)
 
-There is also a Rate Grand Master which, if used, proportionally controls the four Rate Masters (BPM Masters are not affected).
+Ferner gibt es einen ‚Rate Grand Master', der wiederum die vier
+Rate-Master - nicht die BPM-Master - proportional beeinflusst.
 
-To use Speed or Size Masters you will need to assign some handles on the console to act as the Master faders. Switch the console to System mode and select \[Assign Mastering\]. Special key profile options are
-available for Speed Masters, BPM Masters default to Tap Tempo.
+Um die Speed- bzw. Size-Master verwenden zu können, müssen diese auch
+jeweils auf einen Fader gelegt werden. Schalten Sie das Pult dazu in den
+System-Modus und wählen \[Assign Masters\]. Alternativ geht das per
+\<Record\> \[Create Master\]. Für Speedmaster stehen auch gesonderte
+Tastenprofile zur Verfügung; BPM-Master haben als Vorgabewert die
+Takt-Taste (Tap Tempo).
 
-Speed or Size masters can have various scales, 0-100%, 0-200% and so on. A 0-200% scale would allow you to slow down and speed up the speed to double the programmed setting. Scales are set in normal (non-system) mode by selecting \[Playback Options\] then press the Select button of the master.
+Speed- und Size-Master können verschiedene Skalen (Wertebereiche) haben:
+0-100%, 0-200% etc. So kann man z.B. mit der Skala 0-200% den Master auf
+Mittelstellung bringen (100%) und davon ausgehend die beeinflussten
+Effekte größer/schneller oder langsamer/kleiner machen. Die Skala wählt
+man mit den \[Playback-Optionen\] des Masterreglers.
 
-### BPM master options
+### Optionen für BPM-Master
 
-BPM masters can have multipliers or dividers set which allows you to vary how the tapped speed relates to the effect speed. To modify the options, press \[Playback Options\] at the top level menu then press the blue button of the BPM master.
+Für BPM-Master lassen sich Faktoren/Teiler einstellen, die bestimmen,
+wie das getappte Tempo auf die BPM-Rate konvertiert wird. Um dieses
+Verhältnis zu ändern, drücken Sie \[Playback Options\] und wählen den
+Masterregler aus, den Sie ändern möchten.
 
-Normally the BPM master fader sets the BPM, and the multiplier is shown below. Tapping the blue button will also set the BPM or you can enter BPM on the keypad and press the blue button of the master to set it. This is how a BPM master looks
-with the BPM set by the fader:
+Normalerweise liegt die BPM-Rate auf dem Fader, eine der Tasten dient
+als Tap-Taste, und man kann die BPM-Rate numerisch eingeben und per
+blauer Select-Taste anwenden.
+
+BPM-Master, Fader steuert BPM:
 ![BPM Master on playback](/docs/images/BPM-Master-on-playback.png)   
 
-The \[BPM On Fader\]/\[Multiplier on Fader\] option sets the master so that the fader now controls the multiplier and the BPM is set by tapping. This is how the master looks when set to Multiplier on Fader:
+Mit der Option \[BPM On Fader\]/\[Multiplier on Fader\] steuert der
+Fader alternativ den Faktor/Teiler, und die BPM-Rate wird nur per Tap
+eingestellt. 
+
+BPM-Master, Fader steuert Teiler/Faktor:
 ![BPM Master multiplier on fader](/docs/images/BPM-Master-multiplier-on-fader.png)
 
-The \[Multiplier Scale\] option now allows you to set the range of multipliers/dividers which can be set on the fader -- from x2-/2 to x32-/32.
+Mit \[Multiplier Scale\] wird der Faderbereich für den Faktor/Teiler
+eingestellt (von x2\~/2 bis x32\~/32).
 
-The \[Keep Multiplier On Tap\]/\[Reset Multiplier On Tap\] option sets whether the multiplier should be reset to "x1" when a new speed is tapped.
+Mit \[Keep Multiplier On Tap\]/\[Reset Multiplier On Tap\] lässt sich
+einstellen, dass beim erneuten Tappen der Faktor/Teiler wieder auf x1
+zurückgesetzt wird.
 
-In the Times tab of User Settings, there is an option "Compensate for Rate Grand Master" which comes into play if you have assigned a Rate
-Grand Master set to less than 100%. If the option is On (default), a tapped tempo will come out at the speed you tapped and will not be scaled by the Rate Grand Master. If the option is Off, when you tap a
-tempo, it would then be scaled down by the Rate Grand Master.
+Im Bereich 'Times' (Zeiten) der Benutzereinstellungen gibt es die Option
+"Compensate for Rate Grand Master": dies wird wirksam, sofern der Rate
+Grand Master aktiviert und auf weniger als 100% gestellt ist. Ist nun
+die Option aktiv und wird ein Tempo getappt, so wird genau dieses Tempo
+live übernommen und nicht durch den reduzierten Grand Master verringert.
+Ist die Option dagegen deaktiviert, so wird ein getapptes Tempo durch
+den Rate Grand Master beeinflusst.
 
-### Connect wheels to Rate/BPM masters
+### Rate/BPM-Master mit den Encodern steuern
 
-You can adjust Rate and BPM masters from the wheels by pressing Connect followed by the blue button of the master. For a Rate master this adjusts the rate, for a BPM master you can also adjust "Edge Sync" which allows you to nudge the synchronisation forwards or backwards.
+Es ist möglich, die Wheels mit Rate- und BPM-Mastern zu verbinden
+(connecten). Drücken Sie \<Cue\> (bzw. \<Connect\>), gefolgt von dem
+betreffenden Master, so lässt sich die Rate (bei einem Rate Master)
+sowie BPM und "Edge Sync" (bei einem BPM-Master, zum genauen Abgleich
+auf den Beat) mit den Encodern einstellen.
 
-While a wheel is connected you can touch up or down in the wheel display area to nudge the value up or down. Pressing the \<@\> button for the
-wheel opens a softkey menu where you can input a numerical value or \[Release\] the speed and multiplier to default values.
+Auch hierbei kann man die Werte durch Klicken im Attribut-Bereich des
+Displays verändern. Ebenso steht mit den \<@\>-Tasten bei den Encodern das
+@-Menü zur Verfügung, mit dem man den gewünschten Wert numerisch
+eingeben oder mit \[Release\] wieder auf den vorher eingestellten Wert
+zurücksetzen kann.
 
-> Using [Key Profiles](../system-settings/key-profiles.md) you can set one of the buttons of the master to act as the "Connect" button.
+>   Mittels [Tastenprofilen (Key Profiles)](../system-settings/key-profiles.md)
+	kann man eine der Tasten als 'Connect' zum Verbinden mit der Steuerung
+    definieren.
 
-Playback Groups
----------------
+Playback-Gruppen
+----------------
 
-Playbacks can be assigned to groups. This allows you to create a set of playbacks which automatically switch off other playbacks in the same group. This can be useful when you have playbacks on executor buttons so only the most recent playback stays active, or to make life easier when busking so you don’t end up with lots of playbacks fired which have superseded each other.
-See section [Playback Groups](../cues/playback-groups.md)  for more details.
+Playbacks können in Gruppen zusammengefasst werden. Dies ist sinnvoll,
+wenn von mehreren Playbacks immer nur eins als aktiv angezeigt werden
+soll; wird ein anderes Playback in dieser Gruppe gestartet, werden alle
+anderen deaktiviert. Damit wird vor allem das spontane Showfahren mit
+den Executor-Buttons deutlich vereinfacht.
+
+Details dazu siehe [Playback Groups](../cues/playback-groups.md).
 
 
-Fixture Group Masters
----------------------
+Gruppenmaster
+-------------
 
-You can assign a fader to control the master intensity of each fixture group. To do this you simply save (or move) the group button to a handle
-with a fader.
+Jeder Gruppe von Geräten kann ein Fader als Masterregler zugewiesen
+werden, der dann die Helligkeit aller Geräte in der Gruppe beeinflusst.
+Dazu ist ganz einfach die Gruppe auf einen Speicherplatz mit Fader zu
+speichern (oder mit \<Move\> dorthin zu verschieben).
 
-The blue button will then select fixtures in the group and holding the blue button gives you softkey options to filter the selection according to a pattern.
+Die blaue Taste des Faders dient dann als Auswahltaste für die Gruppe;
+hält man sie gedrückt, kann man mittels der Menütasten Geräte nach
+verschiedenen Mustern auswählen.
 
-Press \[Playback Options\] and then the blue select button above the fader to set the fader mode to the following:
+Mittels \[Playback Options\], gefolgt von der entsprechenden
+Playback-Auswahltaste, kann man die genaue Arbeitsweise des
+Gruppenmasters wählen:
 
--   Scale master (proportional control). Scale masters can be set to variable scales of 100%, 200%, 400%, 600% and 1000%. The higher settings allow you to increase an intensity above its recorded level.
+-   **Scale master** (proportionale Steuerung). Dabei kann der Bereich auf
+    100%, 200%, 400%, 600% oder 1000% eingestellt werden. Damit lassen
+    sich also auch größere Werte als gerade mit den Playbacks
+    eingestellt erzielen.
 
--   HTP (override level if higher than current output)
+-   **HTP** (überschreibt den Pegel falls höher)
 
--   Limit (sets hard limit)
+-   **Limit** (absolutes Limit)
 
--   Take Over (place fixture and its intensity in programmer when level matched)
+-   **Take Over** (wenn mit dem Master die aktuellen Dimmerwerte getroffen
+    werden, werden die Geräte in den Programmierspeicher übernommen)
 
--   Disabled (ignore fader)
+-   **Disabled** (Master ist deaktiviert)
 
-If the playback fader has a display area on the screen, the level and
-mode of the master will be shown.
+Gibt es einen Bildschirmbereich für den als Gruppenmaster definierten
+Fader, so werden dort der aktuelle Wert und die Arbeitsweise angezeigt.
 
 ![Group Master](/docs/images/Group-Master.png)
 
-When a group master is set to disabled or moved to a handle without a fader, it will become locked at the current fader level. Re-enable or move back to a fader to adjust the level.
+Wird ein Gruppenmaster deaktiviert oder auf einen Speicherplatz ohne
+Fader verschoben, so wird der aktuelle Wert 'eingefroren'. Zum
+Reaktivieren verschieben Sie den Master zurück auf einen Fader.
 
-Using [Key Profiles](../system-settings/key-profiles.md), you can set different behaviour for the buttons of a group master -- the blue and grey buttons if it is on a fader handle, or the touch button if it's on screen.
+Mittels [Tastenprofilen (Key Profiles)](../system-settings/key-profiles.md) 
+ kann man den Tasten eines Gruppenmasters verschiedene Funktionen zuweisen:
 
--   Flash Fixtures -- flashes the dimmer level of fixtures in the group to the level set by the group master fader, while the button is held
+-   Flash Fixtures - blendet die Dimmer der in der Gruppe enthaltenen
+    Geräte auf, bis zum Pegel, der durch den Gruppenmaster vorgegeben ist.
 
--   Timed Flash -- as above, but fade in and out using fade times set using the "Edit Times" option for the group master
+-   Timed Flash - wie vor, unter Berücksichtigung der eingestellten
+    Fadezeiten
 
--   Flash Master -- flashes the group master fader to full
+-   Flash Master - blendet den Gruppenmaster auf 100% auf
 
--   Timed Flash Master -- as above, but fade in and out using fade times
+-   Timed Flash Master - wie vor, unter Berücksichtigung der
+    eingestellten Fadezeiten
 
--   Swop fixtures -- like Flash Fixtures, but turn off all other fixtures that aren't in the group
+-   Swop Fixtures - wie Flash Fixtures, aber alle anderen (nicht in der
+    Gruppe enthaltenen) Geräte werden auf 0 abgeblendet
 
-If a Flash Master is configured, this will also master the group flash.
+Ist ein Flash-Master definiert, so steuert dieser auch den Flash-Pegel
+für das Flashen der Gruppen-Master.
 
-> You can release all masters by pressing \<Release\> then \[Release All Masters\]. This can be useful if something is being controlled by a master but you are not sure where it is.
+>   Mit \<Release\>, \[Release All Masters\] lassen sich alle Master auf
+    einmal releasen. Das kann sinnvoll sein, wenn etwas durch einen Master
+	gesteuert wird, aber unklar ist, durch welchen.
 
 Scene Master
 ------------
 
 [](https://youtu.be/zn_jd1zba7E?t=20 "Scene Masters")
 
-The Scene Master allows you to preset an output state by firing a number of playbacks or making live changes, using the visualiser to see the effects but without anything happening on stage. When you are ready for the new state, you fade the Scene Master fader to the other end of its travel and the new state is output.
+Der Scene Master gestattet es, etwa unter Verwendung des Visualisers
+komplette Szenen vorzubereiten (unter Verwendung von Cues, Paletten
+verschiedenen Zeiten etc.) und diese dann alle auf einmal zu starten.
 
-You assign a fader to be Scene Master from the \[Assign Mastering\] menu in System mode. The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
+Der Scene Master wird wie die anderen Master auch entweder per \[Assign
+Masters\] im System-Menü oder via \<Record\>, \[Create Master\] erstellt.
+Der Scene Master befindet sich zunächst im Live-Modus, womit
+alle Steuerungen wie gewohnt arbeiten (Geräte auswählen, Paletten
+anwenden, Playbacks starten etc.).
 
 ![Scene Master (Live)](/docs/images/Scene-Master-Live.png)
 
-To enter preset mode, press the blue button of the Scene Master. The display above the master will show "Preset" and the background turns purple.
+Zum Aktivieren des Preset-Modus drücken Sie die blaue Taste des Scene
+Masters. Daraufhin wird im Display die Funktion "Preset" angezeigt, und
+das Display des Master wird violett.
 
 ![Scene Master (Preset)](/docs/images/Scene-Master-Preset.png)
 
-Now any changes you make -- firing playbacks, stepping cue lists, applying palettes and so on -- will only be shown on the visualiser. Everything you change for the preset will also turn purple on its display.
+Im Preset-Modus sind alle Steuerungen -- Starten von Playbacks, Go in
+Cuelisten, Anwenden von Paletten etc. -- nur im Visualiser sichtbar. Die
+dabei involvierten Playbacks, Paletten etc. werden ebenfalls violett
+hinterlegt.
 
-When you fade the Scene Master the state you preset will be faded to the output. If times are programmed for cues or palettes they will also run. Once the fader has reached the end of the travel, the new state is "committed" to the output, or you can press the grey button to manually commit the new state.
+Bewegt man nun den Scene Master, so wird der Output auf den so eingestellten
+Zustand übergeblendet; dabei werden auch etwa mit einprogrammierte
+Zeiten (für Cues oder Paletten) berücksichtigt. Hat der Fader 100%
+erreicht, so ist der Preset-Status komplett live, also ‚committet'.
+Ebenso lässt sich das Commit manuell per Tastendruck erreichen.
 
-Normally the Scene Master will auto-reverse so you can just keep
-presetting new states, moving the fader alternately up and down. You can
-also set it to require you to move it back to zero each time. Press
-\[Playback Options\] then the Select button of the master. The options
-are:
+Normalerweise schaltet sich die Funktionsrichtung des Scene Masters um,
+sobald er einen Endpunkt (100% oder 0%) erreicht, so dass man einfach
+den nächsten Look einstellen, dann einfaden, und von neuem beginnen
+kann. Ebenso lässt sich einstellen, dass man den Fader jedes Mal erst
+wieder auf 0 bringen muss. Dies erreicht man über \[Playback Options\]
+und wählt den Scene Master. Es gibt folgende Optionen:
 
--   \[Auto Commit and Invert\] Commits the changes once the fader has
-    reached the end of travel. You can then preset a new state and fade
-    the fader the other way to output it.
+-   \[Auto Commit and Invert\]: damit wird jeweils beim Erreichen von
+    100% und 0% Faderstellung die (nächste) vorbereitete Szene live
+    geschaltet und mit der nächsten Faderfahrt eingeblendet.
 
--   \[Auto Commit\] You always have to fade from 0 to 100% to output the
-    new state. The changes are committed at 100% and you then have to
-    lower the fader to 0% to preset the next state.
+-   \[Auto Commit\] ist ganz ähnlich, allerdings wird die nächste Szene
+    immer nur bei 0% Faderstellung aktiviert, so dass man auch von 100%
+    erst wieder herunterfaden muss.
 
--   \[Manual Commit\] The new state does not commit at 100% and if you
-    move the fader back to 0 the output state will go back to what it
-    was before. You need to manually commit the changes using the grey
-    button (the button can be changed using Key Profiles).
+-   Bei \[Manual Commit\] schließlich wird die Szene gar nicht per Fader
+    aktiviert, sondern muss per Taste aktiviert werden, wozu eine
+    entsprechende Funktion etwa mit der grauen Taste verknüpft sein muss
+    (über Tastenprofile, s.u.). etwa mit den Tastenfunktionen \[Commit
+    Changes\] (Szene aktivieren), \[Commit Changes and Exit scene
+    Mode\](Szene Aktivieren und Preset-Modus verlassen) oder \[Enters or
+    Commits scene Mode\] (Preset-Modus aktivieren oder Szene
+    aktivieren).
 
-A Scene Master can also be set on executor buttons or touch buttons in
-the Playbacks workspace. In this case, hold \<Avo\> (or Release) and
-press the button to enter or exit preset mode, and press the button on
-its own to commit the preset to the output, You can view the state of
-the Master by opening the Static Playbacks workspace.
+Der Scene Master kann auch auf einer taste oder einem Button im Display
+liegen. In diesem Fall dient die Kombination \<Avo\> + \[Scene Master\]
+bzw. \<Release\> + \[Scene Master\] zum Starten oder Verlassen des
+Preset Modus; einfaches Betätigen der Taste/des Buttons macht einen
+Commit. Der Status lässt sich im entsprechenden Fenster (z.B. Playbacks
+oder Static Playbacks) überwachen.
 
-You can assign the buttons to do different things using Key Profiles --
-the options are Exit scene mode, Enter scene mode, Commit changes,
-Commit changes and exit scene mode, Enter or Exit scene mode, Enter or
-commit scene mode.
+Den Tasten des Scene Masters lassen sich verschiedene Funktionen per
+Tastenprofil zuweisen: \[Commit Changes\] (Szene aktivieren), \[Commit
+Changes and Exit scene Mode\](Szene Aktivieren und Preset-Modus
+verlassen) oder \[Enters or Commits scene Mode\] (Preset-Modus
+aktivieren oder Szene aktivieren).	
 
-Flash and swop buttons
+Flash- und Swop-Tasten
 ----------------------
 
-The Flash and Swop buttons on a playback fader may be used at any time
-to flash and solo cues and chases. The Flash button adds the playback
-into the current output, the Swop button turns off all other output.
-The Flash button can also be set to Timed Flash which will use the
-pre-programmed timings of the cue when flashing -- for normal flash mode
-the timings are ignored.
+Die Flash- (Add) und Swop-Tasten bei jedem Regler dienen zum jederzeitigen
+Abruf von Cues und Chasern. Die \<Flash\>-Taste addiert dabei den
+jeweiligen Inhalt mit 100% zum sonstigen Output, während die
+\<Swop\>-Taste gleichzeitig alle anderen Cues/Chaser vorübergehend
+dunkeltastet (Solo-Funktion). Die \<Flash\>-Taste lässt sich auch in die
+Betriebsart 'Flash With Times' schalten: dann werden beim Flashen im Cue
+programmierte Zeiten berücksichtigt.
 
-You can reallocate the functions of the Flash and Swop/Select buttons on
-the console using [Key Profiles](../system-settings/key-profiles.md). A useful
-alternative function is Preload which allows you to pre-position the
-attributes of the fixtures before you raise the playback fader, which is
-handy for avoiding unwanted movements (any fixtures which are already
-active in another playback will not change when you use Preload). You
-can also allocate Go and Stop buttons for cue lists and chases. To
-quickly change the key profile, hold \<Avo\> Shift and press \[Edit Key
-Profile\]. The Sapphire Touch also has a configurable Black button for
-each fader.
+Die Funktionsweise der Tasten lässt sich mit den [Key Profiles 
+(Tastenbelegungen)](../system-settings/key-profiles.md) - abändern. Eine
+sinnvolle Alternative wäre etwa 'Preload', womit die Kanäle der Geräte
+bereits auf die entsprechenden Werte gestellt werden, bevor der Regler
+selbst bewegt wird, so dass z.B. keine Bewegungen 'im On' stattfinden
+(das geht nur für Geräte, die nicht gerade in anderen aktiven
+Cues/Chasern verwendet sind). Ebenso lassen sich die Funktionen 'Stop'
+und 'Go' für Cuelisten und Chaser auf diese Tasten legen. Um die
+Tastenbelegung rasch zu ändern, halten Sie die \<AVO\>-Taste gedrückt
+und betätigen die Funktion \[Edit Key Profile\].
 
 ![Playback Faders with key profiles applied](/docs/images/Playback-Faders-with-key-profiles-applied.png)
 
-The screen relating to each playback fader
-shows the allocated function of the blue and grey buttons.
+Im Touchscreen direkt oberhalb der Regler wird die aktuelle
+Tastenfunktion angezeigt.
 
-Playback priority
------------------
+Priorität der Playbacks
+-----------------------
 
-[You can set playbacks to high priority](../cues/playback-options.md#playback-tab) if you do not want them to be
-overridden by other playbacks using the same fixtures. For example, if
-you have a couple of fixtures acting as a spotlight, but they are also
-programmed into some colour washes, you probably want the spotlight cue
-to take priority over the colour washes.
+Einzelnen Playbacks lässt sich eine [höhere Priorität](../cues/playback-options.md#priority) zuweisen, wenn sie
+nicht durch andere Playbacks, die die gleichen Geräte verwenden, überlagert
+werden sollen. Werden etwa ein paar Geräte als Spot für z.B. den Sänger
+eingesetzt, sind aber ebenso in einem anderen Cue verwendet, so kann man
+die Priorität für den Cue ‚Spot' heraufsetzen, so dass der andere Cue darauf
+ohne Auswirkung bleibt.
 
-Preset playbacks (Tiger Touch only)
------------------------------------
+Feste Playbacks (Nur Tiger Touch)
+---------------------------------
 
-On the Tiger Touch, as well as the 10 playback faders across the bottom
-of the console, there are 10 further playbacks on the top right of the
-console. These are not affected by the playback page buttons and so are
-useful for memories you use a lot, such as par can washes, basic stage
-illumination or smoke machines.
+Zusätzlich zu den zehn Fadern am unteren Rand des Pultes finden sich auf dem
+Tiger Touch Pulten weitere zehn rechts oben. Diese haben normalerweise immer
+die gleiche Belegung, d.h. sie werden durch die Seitenwahl nicht
+umgeschaltet. Sie bieten sich somit an für häufig benötigte Cues, die
+Saalbeleuchtung, Blinder, oder die Nebelmaschine.
 
-You can switch to different pages for the preset playbacks using a
-factory-preloaded macro in two of the Macro/Executor buttons. This macro
-is loaded with the Personality Library, if you do not see the page
-macros you need to update the library.
+Es ist aber auch möglich, diese Fader auf Seiten umzuschalten. Dazu
+müssen entsprechende Makros auf Tasten zugeordnet werden. Sollten diese
+Makros auf dem Pult nicht zur Verfügung stehen, so muss die
+Personality-Bibliothek aktualisiert werden.
 
-Locking a playback onto the same handle on every page
------------------------------------------------------
+Verriegeln der Seitenumschaltung
+--------------------------------
 
-Sometimes you might want to keep a playback accessible on a handle no
-matter which page you are on. The \[Handle Paging\] option in the
-\[Playback Options\] menu lets you do that without having to copy the
-playback onto multiple pages.
+Mitunter möchte man einen Fader 'fixieren', so dass er unabhängig vom
+Wechsel der Seiten stets verfügbar bleibt. Dies bietet sich z.B. an,
+wenn man ein paar allgemeine Cues hat, die auf jeder Seite benötigt
+werden, ohne dass man diese extra kopieren muss. Erreicht wird dies
+über die Einstellung \[Handle Paging\] in den \[Playback Options\].
 
-- \[Locked\] ensures the playback always appears on that handle no matter
-what page is selected. Any other playbacks programmed on that handle on
-other pages will not be accessible.
+-   \[Locked\] (Verriegelt) blendet das betreffenden Playback auf sämtlichen
+	anderen Seiten ein; was ggf. anderswo auf diesen Fader programmiert
+	ist, ist damit nicht erreichbar.
 
-- \[Transparent Lock\] means the playback will appear on the current page
-only if the handle is empty on that page. If the handle is in use on the
-new page, then that playback will appear instead of the locked one. This
-can be useful if you only need the locked playback to appear on certain
-pages but wish to reuse the handle on other pages.
+-   Bei \[Transparent Lock\] erscheint das Playback an seinem Platz
+	nur auf den Seiten, auf denen der Fader nicht schon anderweitig 
+	belegt ist.
 
-You can also lock Palettes stored on the grey handle buttons, and macros
-stored on the macro/executor buttons which is useful with the Macro page
-change buttons.
+Auch die Makrotasten, Executor-Tasten und festen Playbacks lassen sich
+verriegeln; dies bietet sich an, wenn man die Umschaltung per 'Page
+Change'-Makros verwendet.
 
-Lock options are also available for master faders.
+Auch Masterregler lassen sich auf diese Weise von der Seitenumschaltung 
+ausnehmen.
 
-Viewing active playbacks
-------------------------
+Anzeigen der aktiven Playbacks
+------------------------------
 
-The Active Playbacks window shows details of which playbacks are active.
-This provides an easy way to see what is currently running.
+Im Fenster ‚Active Playbacks' werden die aktuell aktiven Playbacks/
+Speicherplätze angezeigt. Damit hat man einen schnellen Überblick,
+welche Cues gerade aktiv sind, wo sie gestartet wurden und welche
+Attribute dadurch gesteuert werden. Zum Aufrufen dieses Fensters wählen
+Sie \[Open Workspace Window\], \[Active Playbacks\] oder nutzen die 
+Tastenkombination \<View / Open\> + \<Off\>.
 
-The top line of the button shows the page number and tells you where on
-the desk the playback is stored. The second line shows the legend, and
-the third line shows which attributes are affected by the playback.
+In der ersten Zeile jedes Buttons steht dabei, wo (in welchem 
+Fenster/auf welchem Fader) das Playback zu finden ist. Die zweite 
+Zeile zeigt die Bezeichnung des Playbacks, die dritte schließlich 
+die gesteuerten Attribute.
 
 ![Active Playbacks Windown](/docs/images/Active-Playbacks-Window.png)
 
-Click on a playback to instantly kill it. You can also press \[Playback
-Options\] followed by the playback in this window to change parameters
-of the playback.
+Klickt man eine der Schaltflächen an, so wird das betreffende Playback
+sofort deaktiviert. Betätigt man \[Playback Options\], gefolgt von einer
+der Playback-Schaltflächen, so kann man die jeweiligen Parameter ändern.
 
-Blind mode
-----------
+Blind-Modus
+-----------
 
-If you want to program palettes or cues using the visualiser without
-affecting the look on the stage, you can set the console to Blind mode.
-Just press the \<Blind\> button (on consoles which don't have a
-dedicated button, hold down the \<Avo\> button and select \[Blind\]).
+Sollen noch schnell ein paar kleine Änderungen an Cues oder Paletten mit
+Hilfe des Visualisers vorgenommen werden, ohne den Live-Betrieb zu
+stören, lässt sich das Pult auch in den Blind-Modus schalten. Dazu
+drückt man die Taste \<Blind\> (ältere Pulte verfügen nicht über diese
+-- in diesem Fall hält man \<Avo\> gedrückt und wählt den Menüpunkt
+\[Blind\]).
 
-To preview a playback, you need to set the playback into Blind mode --
-hold the \<Blind\> button and press the playback select button. Repeat
-this to restore the playback to Live mode. You can also set Blind mode
-in Playback Options.
+Um ein Playback zu überprüfen, muss man das Playback selbst Blind
+schalten. Dazu hält man die \<Blind\>-Taste und drückt die blaue
+Playback-Taste. Um das Playback wieder Live zu schalten, geht man
+genauso vor. Playbacks können auch über die Playback-Optionen Blind
+geschaltet werden.
 
-You can convert Blind output to Live output with a fade. This is useful
-to set up a live state in blind mode then output it without having to
-save to a playback. It also allows you to select multiple palettes then
-fade to them all at once. (Scene Master is probably an easier way of
-doing this however).
+Dabei kann von der eingestellten Blind-Stimmung sanft in den
+Live-Betrieb übergeblendet werden, ohne dass man erst ein Playback
+speichern muss. Ebenso kann man im Blind die nächste Stimmung aus
+mehreren Paletten kombinieren und dann in diese einfaden. (Noch
+einfacher geht das mit dem Szenenmaster).
 
-To convert blind to live, type a number to set fade time then press the
-\<Blind\> button.
+Um überzublenden, tippen Sie mit den Zifferntasten die gewünschte Zeit
+in Sekunden ein und drücken die \<Blind\>-Taste.
 
-If any attribute fade times have been set in the programmer, these will
-be used instead of the fade time you type.
+Sind im Programmer Attribut-Zeiten gesetzt worden, so haben diese
+Vorrang vor der manuell eingegebenen Zeit.
 
-Busking with palettes
----------------------
+Improvisieren (Busking) mit Paletten
+------------------------------------
 
-If you have not had as much programming time as you would have liked,
-you might need to make up some additional effects during the show. This
-is sometimes called "busking", and is where the fun starts!
+Hatten Sie nicht genügend Zeit zum Programmieren, werden Sie vermutlich
+während der Show noch ein paar Effekte hinzufügen wollen. Damit wird das
+Ganze erst richtig interessant.
 
-You can create instant variations by recalling palette values to modify
-your existing cues. Palette values can have fade times saved with them,
-or you can set a fade at showtime for added effect.
+Sehr schnell lassen sich Ergebnisse erzielen, wenn man Paletten
+verwendet. Dabei lassen sich in Paletten auch Fadezeiten speichern, oder
+man gibt beim Palettenabruf eine Zeit vor.
 
-1. Select some fixtures which are already in use on stage.
+1.  Wählen Sie einige der bereits verwendeten Geräte aus.
 
-2. Type "2" (or any time, in seconds) on the numeric keypad.
+2.  Geben Sie mit den Zifferntasten einen Wert wie z.B. \<2\> ein
+	(Überblendzeit, in Sekunden).
 
-3. Touch a Palette button to recall a palette.
+3.  Drücken Sie die Schaltfläche einer Palette, um sie aufzurufen.
 
-4. The selected fixtures will change to the new palette over a time of
-2 seconds.
+4.  Die angewählten Geräte blenden nun in der angegebenen Zeit zu den
+	Einstellungen der gewählten Palette über.
 
-If the palette contains programmed times, you can change the Key Profile
-of the palette button to set whether the programmed times will be used
-or not. (Press \<Avo\> Shift+\[Key Profiles\], then \[Palettes\] to set
-the key profile). Options are \[Palette is fired ignoring its times\] or
-\[Palette is fired with its times\]. You can also set whether the
-palette will take precedence over a flashed cue or not. A time entered
-manually as above will always override a programmed time.
+Enthält eine Palette Zeitvorgaben, so kann man mittels Tastenprofil der
+Palettenschaltflächen bestimmen, ob diese Zeiten beim Improvisieren
+berücksichtigt werden sollen oder nicht. Dazu drücken Sie \<Avo\>+\[Key
+Profiles\], dann \[Palettes\]. Die möglichen Optionen sind \[Palette is
+fired ignoring its times\] und \[Palette is fired with its times\].
+Manuell eingegebene Zeiten überschreiben stets in der Palette 
+gespeicherte Zeiten.
 
-When a fade time is entered on the numeric keypad, you can also change
-the Fixture Overlap using the \[Overlap\] softkey. This allows you to
-create "roll" or "peel" effects when using a series of fixtures. With
-overlap=100%, all fixtures change at the same time. If overlap=50%, the
-second fixture will not start its fade until the first fixture is half
-way (50%) through fading. The order of the fixtures is set by the order
-in which you selected them.
+Wird manuell eine Überblendzeit eingegeben, lässt sich ebenso der
+'Geräteversatz' einstellen (mit Menütaste C \[Overlap... \]). Damit
+lassen sich etwa Effekte wie 'Rollen' oder 'Abziehen' realisieren. Bei
+'overlap'= 100% wechseln alle Geräte gleichzeitig; bei 'overlap'=50%
+beginnt das zweite Gerät mit dem Überblenden, sobald das erste zur
+Hälfte damit fertig ist. Die Reihenfolge, in der die Geräte wechseln,
+bestimmt sich aus der Reihenfolge, in der die Geräte ausgewählt wurden.
 
-The palette fade time remains active while the Palette Fade menu is
-open. Press \<Exit\> to leave the menu and return to instant palette
-recall.
+Eine so eingegebene Paletten-Fadezeit und Overlap gelten nur einmalig 
+für den unmittelbar nächsten Palettenabruf. Sollen bis zur nächsten
+Änderung Fadezeit und Overlap festgelegt werden, so erfolgt dies im 
+**Menü Palettes**: drücken Sie dazu die Taste \<Palette\> und geben Sie
+die gewünschten Werte mit den Menütasten \[Master Time\] und \[Master
+Overlap\] ein. Es gibt ferner etliche Macros für die häufig genutzten
+Werte, um Master Time und Master Overlap mit nur einem Tastendruck zu
+ändern, siehe [Master-Zeit für Paletten](../palettes/timing-with-palettes#master-zeit-für-paletten).
 
-If you apply a palette as a "Quick Palette" (i.e. without selecting any
-fixtures) then it will be overridden by the next cue (so if you fade to
-green using a Quick Palette, then fire a cue which sets those fixtures
-blue, they will go blue). If you apply a palette after selecting
-fixtures, it will go into the programmer and override any subsequent
-cues until you press \<Clear\>.
+Wird eine Palette als 'Quick Palette', also ohne Auswahl von Fixtures
+oder Gruppen, aufgerufen, so wird sie wiederum durch den nächsten Cue
+überschrieben (wird etwa eine grüne Palette aufgerufen und danach ein
+blauer Cue gestartet, so werden die Geräte blau). Werden dagegen erst
+Geräte/Gruppen ausgewählt und dann eine Palette aufgerufen, so wird sie
+im Programmierspeicher abgelegt und überlagert alle folgenden Cues
+(wird also eine grüne Palette aufgerufen, so bleiben die Geräte grün,
+bis \<Clear\> gedrückt wird).
 
-When programming your palettes, group all the colour palettes in one
-area of the console, position palettes in another area, and so on. This
-helps you to find them when the show is running and the pressure is on.
+Beim Programmieren der Paletten empfiehlt es sich, z.B. alle
+Farbpaletten in einem Bereich, alle Positionspaletten in einem anderen
+Bereich zu gruppieren etc. Damit findet man sich später besser zurecht.
 
-If you are lighting a band, make position palettes for every person on
-stage so you can spotlight them for those unplanned solos.
+Gilt es, eine Band zu beleuchten, so ist es hilfreich, sich für jeden
+Musiker eine Positionspalette anzulegen, so dass man auch auf
+unangekündigte Solos schnell reagieren kann.
 
-You can use the [Off](../controlling-fixtures/using-the-select-buttons-and-wheels.md#clearing-attributes-using-off) function when programming to set some cues to only affect position, and other cues to
-set colours, gobos, add shapes, and so on. By combining two or more cues
-you can produce a much wider range of effects than if all your cues set
-all the attributes. However, for this to work well you need to make sure
-you know what attribute is going to be affected by each cue; as if you
-fire two "colour only" cues then nothing is going to light up.
+Die [Off-Funktion](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-mit-off-deaktivieren) ist nützlich, um aus
+einem Cue z.B. nur die Position, aus einer anderen nur die Farbe etc. zu
+verwenden. Damit ergeben sich deutlich mehr Kombinationsmöglichkeiten,
+als wenn man stets sämtliche Attribute in einem Cue ablegt. Zu beachten
+ist dabei, dass man natürlich den Überblick über den tatsächlichen
+Inhalt behalten muss: startet man etwa zwei Cues, die jeder nur die Farbe
+gespeichert haben, so ergibt das noch kein Licht.

@@ -5,242 +5,263 @@ sidebar_label: Connecting up and Titan basics
 original_id: titan-basics
 ---
 
-This section covers how to connect the console up, and the basic things
-you need to know about operating Titan.
+In diesem Abschnitt wird das Anschließen des Pultes sowie die
+grundlegende Bedienung erläutert.
 
-> Radio transmitters may affect the operation of the console and we recommend that they are not placed on, above or behind the console. If you are wearing one it is best placed in a back pocket or behind you when attached to a belt.
+> Funkgeräte können die Funktion des Pultes stören. Es wird empfohlen, solche Geräte nicht unmittelbar auf, neben oder beim Pult zu verwenden oder abzulegen. Vielmehr sollten sie etwa in einer Tasche oder am Gürtel getragen werden.
 
 
-Connecting mains power
-----------------------
+Netzanschluss
+-------------
 
-You can safely connect the console to any voltage from 80 to 260V. If
-your console is not fitted with an internal UPS (uninterruptible power
-supply) we recommend that you should power the console via an external
-UPS (available from computer suppliers). If a UPS is not used, when the
-sound engineer pulls out the wrong plug and kills power to the console
-you can lose data (up to the last Autosave) and the console may want to
-check its disk on startup which can cause delays. The UPS will protect
-you from most power problems and give you chance to shut down the
-console normally.
+Die Pulte funktionieren mit Netzspannung im Bereich von 80 bis 260 V.
 
-If an internal UPS is fitted (Sapphire Touch, Arena, optional on other
-consoles), on power loss the toolbar on the screen will turn orange and
-display how long you\'ve got before the console shuts down. A warning dialog
-will also pop up on the screen and the current show will be autosaved.
+Möglicherweise ist Ihr Pult mit einer internen USV (unterbrechungsfreien
+Stromversorgung) ausgestattet. Wenn nicht, empfiehlt sich die Verwendung
+einer externen USV, die im Computerfachhandel bezogen werden kann. Bei
+plötzlichem Verlust der Netzspannung kommt es normalerweise zu
+Datenverlust (bis zum letzten Speicherpunkt), und beim Wiedereinschalten
+des Pultes werden die Festplatten überprüft, was zu Verzögerungen führt.
+Eine USV hingegen bietet Schutz gegen die meisten mit dem Strom
+verbundenen Probleme, und gibt einem die Zeit, um das Pult geordnet
+herunterzufahren.
+
+Ist Ihr Pult mit einer internen USV ausgestattet (Sapphire Touch, Arena, 
+Tiger Touch II, sowie optional andere Modelle), so wird bei
+Unterbrechung der Stromversorgung dies im Bildschirm angezeigt sowie die
+Zeit, die zum Herunterfahren des Pultes noch verbleibt. Außerdem wird
+eine Warnung angezeigt, sowie der aktuelle Stand der Show gespeichert.
 
 ![UPS Toolbar](/docs/images/UPS-Toolbar.png)
 
--	When the UPS battery runs low and the console is about to shut down, the
-	toolbar turns red.
-	
--	If any console or TNP in your session is running from UPS, an error will appear
-	in the event log.
+-   Unmittelbar vor dem Herunterfahren des Pultes wird diese Anzeige
+    schließlich rot.
+-   Wenn ein Pult oder TNP in der Session auf USV läuft, wird das in den
+	Logs vermerkt.
 
-**Arena only:** The Network Switch inside the Arena has an independent
-UPS system which allows the network switch to continue to run while the
-console is power cycled. When the console is shut down the network
-switch will continue to run for about 5 minutes. This is important when
-a backup console is running the show through the network switch in the
-Arena, as it allows the Arena to be power cycled without losing the
-network link to the stage.
+**Nur beim Arena:** Der Netzwerk-Switch im Arena verfügt über eine
+eigene USV, so dass das Pult auch abgeschaltet werden kann, ohne den
+Betrieb des Switches zu beeinträchtigen. Nach kompletter Trennung vom
+Netz läuft der Switch noch für etwa 5 Minuten weiter. Dies ist wichtig,
+wenn dieser Switch auch andere Geräte mit Signal versorgt, das Arena 
+selbst jedoch abgeschaltet oder neu gestartet werden muss. 
 
-Starting up and shutting down
------------------------------
+Einschalten und Ausschalten
+---------------------------
 
-The console runs a Windows-based operating system internally, so you
-need to make sure it is shut down properly rather than just turning off
-its power.
+Die Pulte arbeiten mit Windows als Betriebssystem, daher sollte man dies
+jeweils ordnungsgemäß herunterfahren, anstatt einfach nur die
+Netzspannung abzuschalten.
 
-**Start up** the console by pressing and releasing the Power switch on
-the face or front edge of the console (lift up the wrist rest on the
-Sapphire Touch). The console display(s) should come alive. The console
-takes up to 1 min 30 seconds to start up.
+Das **Starten** erfolgt durch kurzes Betätigen (und wieder Loslassen)
+des Hauptschalters rechts neben dem Touchscreen. Das Display sowie der
+optionale externe Bildschirm zeigen den Startprozess. Das Arena benötigt
+etwa 1:30 min für das Starten.
 
-**Shut down** the console by pressing and releasing the Power switch
-again. The console will perform a controlled shutdown. Wait until the
-Power light has gone off (about 30 seconds) before you disconnect power
-from the console.
+Das **Ausschalten** des Pultes erfolgt ebenso durch kurzes Betätigen
+(und wieder Loslassen) des Hauptschalters. Daraufhin erfolgt ein
+ordnungsgemäßes Herunterfahren. Bitte mit dem Trennen vom Netz warten,
+bis die Anzeige 'Power' erloschen ist (etwa 30 sec.)
 
-> If the console has a switch on the power module on the back, do not use this to turn off the console as this does not close down the software properly and you will lose any changes to your show.
+> Benutzen Sie nicht den Netzschalter auf der Rückseite des Pultes. Beim Betätigen dieses Schalters würde das Pult nicht geordnet heruntergefahren werden, und sämtliche Änderungen der Show gingen verloren.
 
-Forced Shutdown
----------------
+Herunterfahren erzwingen
+------------------------
 
-To carry out a **Forced Shutdown** of the console, if the normal shut
-down does not work, hold down the power switch for 5 seconds. You will
-lose any changes to your show since the last save.
+Zum **erzwungenen Ausschalten** - wenn das normale Ausschalten nicht
+funktioniert - ist der Hauptschalter für 5 Sekunden gedrückt zu halten.
+Dabei gehen sämtliche Änderungen seit dem letzten Speichern verloren.
 
-On consoles with a built-in UPS, you cannot just pull out the power to
-shut down the console if it is not possible to shutdown the console by
-any of the above means. In this case having disconnected the mains power
-you should press the Battery Disconnect switch on the rear panel.
+**Pulte mit USV:** Aufgrund der integrierten USV kann man zum harten
+Resetten nicht einfach den Netzstecker ziehen. Drücken Sie dazu bei
+abgezogenem Netzstecker den Schalter "Battery Disconnect", um auch die
+USV zu unterbrechen (beim Arena: Rückseite; beim Tiger Touch 2/Sapphire
+Touch: unter der linken Seitenwange).
 
-**Arena only:** Battery Disconnect will also shut down the internal
-network switch so be careful if you are running a backup console via the
-switch. When you shut down the Arena normally, the network switch will
-stay on for about 5 minutes then power off. There is no harm in leaving
-it to do this.
+**Achtung beim Arena**: dabei wird auch der integrierte Switch
+abgeschaltet. Das ist besonders wichtig, wenn über diesen Switch ein
+Backup-Pult angeschlossen ist! Wird das Arena normal heruntergefahren,
+so bleibt der Switch aufgrund seiner USV noch etwa 5 Minuten
+eingeschaltet.
 
-Connecting up Titan Mobile and T1/T2
-------------------------------------
+Inbetriebnahme von Titan Mobile und T1/T2
+-----------------------------------------
 
-Do not connect the Titan Mobile panel or the T1/T2 dongle to your PC for
-the first time until you have installed the Titan PC Suite software,
-which you do simply by running the installer file. This will make sure
-the drivers for the panel are installed.
+Verbinden Sie das Titan Mobile bzw. den T1/T2 erst mit Ihrem Computer,
+wenn Sie die **Titan PC-Suite** installiert haben. Zur Installation führen Sie
+einfach das Installationsprogramm aus; damit werden auch alle
+erforderlichen Treiber installiert.
 
-> From Titan v7, Windows XP and Vista are no longer supported. Your PC must be running a 64 bit version of Windows 7, Windows 8.1 or Windows 10.
+> 	Ab Titan v13 wird Windows 10 64 Bit vorausgesetzt. Ältere Versionen 
+	sowie virtuelle Maschinen werden nicht unterstützt. Empfohlen wird 
+	mindestens ein i5 der 5. Generation mit 4 GB RAM. Auf [https://avolites.com/titan-pc-system-requirements](https://avolites.com/titan-pc-system-requirements/) gibt es weitere Angaben zu den Systemvoraussetzungen.
 
-For best usability, your PC should have a touch screen. If not you can
-use the mouse to select touch buttons.
+Es empfiehlt sich die Verwendung eines Touchscreens. Ist ein solcher
+nicht vorhanden, klicken Sie mit der Maus auf die entsprechenden
+Buttons.
 
-**Titan Mobile:** Having installed the software, connect the USB cable
-for the panel (older Titan Mobile panels have two USB connectors -- you
-only need to connect port A, nearest the DC socket). If your PC asks you
-for drivers, select \'Install the Software Automatically\'. If you have
-an older Titan Mobile panel without the built-in AvoKey you also need to
-attach an AvoKey to a free USB port.
+Für den Betrieb von Titan Mobile, Titan One und dem Titan Simulator gibt
+es ein einheitliches Software-Paket: die **Avolites Titan PC-Suite**.
+Diese enthält alle genannten Programme.
 
-Power is normally supplied down the USB connection and the external DC
-power socket is not used, but if your PC has a lot of other USB devices
-plugged in, or in the case of some laptops, an external DC power supply
-may be needed. The required power supply is: 9-12 volt 800mA DC.
-Connector: 2.5mm hole, outside diameter 5.5mm, length 9.5mm, wired
-centre pin positive. Example Part number: DCPP2
+**Titan Mobile:** Sobald die Software installiert ist, können Sie das
+Titan Mobile per USB-Kabel mit Ihrem PC verbinden (sollte das Pult über
+zwei USB-Buchsen verfügen, so ist nur die obere zu verwenden). Der PC
+erkennt daraufhin neue Hardware; bei den entsprechenden Rückfragen
+wählen Sie ‚Software automatisch installieren'. Bei älteren Titan
+Mobiles, die keinen AvoKey enthalten, ist ein separater AvoKey
+erforderlich und muss parallel zum Titan Mobile an einer weiteren
+USB-Buchse angeschlossen sein.
 
-The first time you run Titan Mobile you will need to obtain a
-[licence](./system-settings/recovering-reinstalling-the-console.md#software-licensing)
-from the Avolites website. The licence is keyed to the internal AvoKey
-in the Titan Mobile panel so you can install the software on multiple
-computers but it will only run when the Titan Mobile panel is connected.
+Die Stromversorgung erfolgt über den USB-Anschluss. Optional kann ein
+separates Netzteil (9 V Gleichspannung) angeschlossen werden. Für dieses
+gelten folgende Spezifikationen: 9-12V Gleichspannung, 800mA;
+Steckverbinder, außen 5,5mm, innen 2,5mm, 9,5mm lang; Pluspol auf dem
+inneren Kontakt
 
-**T1/T2:** The T1/T2 USB devices give you a full lighting control system
-that will output one or two universes of DMX or Artnet. The software to
-run it is called Titan Go. The first time you run Titan Go you will need
-to obtain a licence from the Avolites website which will license the
-AvoKey built into the device.
+Bei der ersten Verwendung ist das Titan Mobile und der zugehörige AvoKey
+ggf. noch bei Avolites zu [lizenzieren](./system-settings/recovering-reinstalling-the-console.md#software-lizenzierung) (kostenlos), um die Software
+verwenden zu können. Die Lizenz wird auf dem (internen oder externen)
+AvoKey fest gespeichert und bezieht sich auf das jeweilige Titan Mobile.
+Dieses kann also - mit dem entsprechenden AvoKey - ohne weitere
+Lizenzierung auch an anderen Computern betrieben werden.
 
-Titan Healthcheck
------------------
+**T1/T2:** Diese bieten volle Titan-Funktionalität, sind aber auf ein 
+bzw. zwei Universen beschränkt (der T1 kann zudem nicht per MIDI und 
+WebAPI gesteuert werden). Zum Betrieb ist die Software Titan Go zu 
+starten. Auch der T1/T2 ist beim ersten Start zu lizenzieren und kann 
+danach mit jedem Computer betrieben werden. 
 
-When the Titan software starts up, it runs a small utility called Titan
-Healthcheck which checks the file system and the installed firmware and
-software for anything that might cause you problems. If any problems are
-found, a warning screen is displayed which offers the option to fix the
-problems.
+Soll der **Titan One** mit Titan ab Version 12 verwendet werden, so muss 
+ein AvoKey parallel dazu per USB angeschlossen sein.
+
+**Titan Simulator:** auch der Titan Simulator benötigt einen AvoKey (den
+Editor AvoKey) und muss einmalig lizenziert werden.
+
+Titan Healthcheck -- die Eigendiagnose
+--------------------------------------
+
+Bei Start der Titan-Software wird ein Selbsttest ausgeführt, der Titan
+Healthcheck. Dieser überprüft das Dateisystem, die Firmware
+verschiedener Baugruppen sowie weitere potentielle Fehlerquellen.
+Sollten irgendwelche Probleme festgestellt werden, so wird eine
+Fehlermeldung ausgegeben mit Hinweisen zur Fehlerbehebung.
 
 ![Healthcheck](/docs/images/Healthcheck.png)
 
-Only run fixes if you have plenty of time as some fixes can take up to
-an hour to complete.
+Die Fehlerbehebung sollte nur ausgeführt werden, wenn ausreichend Zeit
+zur Verfügung steht, da manche Module bis zu einer Stunde benötigen
+können.
 
-Connecting DMX Lines
---------------------
+DMX anschliessen
+----------------
 
-The console communicates with lighting fixtures using the DMX512 system.
-The console itself can output 16 universes of DMX (each 512 control
-channels). If you need to output more universes, it is recommended to
-network the console to one or more Avolites TitanNet processing nodes.
-This off-loads the DMX processing, allowing the console to control up to
-64 universes of DMX in total. See the [DMX output section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
+Die Kommunikation mit den Dimmern und Moving Lights erfolgt per DMX512.
+Die aktuellen Titan-Pulte können jeweils bis zu 16 Universen (à 512
+Kanäle) verwalten. Werden mehr Universen benötigt, so empfiehlt sich die
+Verwendung eines oder mehrerer TNPs (Titan Network Processor), um die
+erforderliche Rechenleistung bereitzustellen. Damit können bis zu 64
+DMX-Universen gesteuert werden. Mehr dazu im Abschnitt [Einrichten der DMX-Ausgänge](system-settings/dmx-output-mapping.md#einrichten-der-dmx-ausgänge).
 
-The console has DMX outputs on 5-pin XLR for direct connection to
-fixtures and dimmers, and can send DMX over Ethernet and wireless
-Ethernet systems to allow connection to remote DMX Ethernet nodes, media
-servers, and so on.
+DMX kann sowohl über XLR-Buchsen (5-polig) als auch über verschiedene
+Netzwerkprotokolle (Art-Net, sACN) ausgegeben werden, um andere
+DMX-Ethernet-Nodes, Medienserver und anderes zu steuern,
 
-When you patch a dimmer or fixture you tell Titan which of the DMX
-universes it is on. Each universe can be configured to come out of one
-or more of the standard DMX outputs on the back of the console, and/or
-over an [Ethernet protocol](networking/controlling-fixtures-over-a-network.md).
+Beim Patchen eines Dimmers oder Gerätes muss dem Pult mitgeteilt werden,
+auf welchem der verfügbaren DMX-Universen sich das Gerät befindet. Jedes
+einzelne der Universen kann einem oder mehreren der DMX-Anschlüsse auf
+der Rückseite des Pultes zugeordnet, oder aber per [Ethernet (Art-Net, sACN)](networking/controlling-fixtures-over-a-network.md) gesendet werden.
 
-The [Arena includes a built-in Ethernet switch](networking/connecting-the-arena-to-a-network.md) and has an optical network
-connection.
+Das [Arena enthält zusätzlich einen internen Netzwerkswitch](networking/connecting-the-arena-to-a-network.md) mit optischen
+Ausgängen (Glasfaser/OpticalCon).
 
-> By default on a new show, the XLRs on the console are automatically connected to DMX lines starting at line 1, however if you are loading a show from a different model of console or the simulator, check the DMX Settings option to confirm how the DMX outputs are set up.
+> Beim Starten einer neuen Show werden die DMX-Linien ab 1 aufsteigend den 5-poligen XLR-Buchsen auf der Rückseite des Pultes zugewiesen; wird dagegen eine bestehende Show von einem anderen System geladen, so wird die dort vorgenommene Zuordnung der Linien übernommen, und sollte ggf. überprüft werden.
 
-The 5-pin XLR sockets on the console are wired like this:
+Die 5-poligen Buchsen sind wie folgt belegt:
 
-  |   Pin #   | Use          |
+  |   Pin #   | Belegung     |
   |     ---   | ---          |
-  |   Pin 1   |   Earth      |
-  |   Pin 2   |   Data -     |
-  |   Pin 3   |   Data +     |
-  |   Pin 4   |   Not used   |
-  |   Pin 5   |   Not used   |
+  |   Pin 1   |   Erde       |
+  |   Pin 2   |   Daten -    |
+  |   Pin 3   |   Daten +    |
+  |   Pin 4   |   unbelegt   |
+  |   Pin 5   |   unbelegt   |
 
 
-Each DMX line should pass through all the fixtures to be connected on
-that line one after the other and have a DMX terminator fitted at the
-end (120 ohm resistor between pins 2 and 3). You should not split the
-DMX lines using passive splitters (Y-splits) as this can corrupt the
-data.
+Jede DMX-Linie ist durch alle Geräte, die mit dieser Linie gesteuert
+werden sollen, durchzuschleifen und sollte durch einen
+Abschlusswiderstand (120 Ohm zwischen Pin 2 und 3) abgeschlossen werden.
+Die Verwendung von passiven Splittern (Y-Splittern) kann zu Datenverlust
+führen und sollte vermieden werden.
 
-Connecting a Monitor
---------------------
+Einen Monitor anschliessen
+--------------------------
 
-You can connect an additional monitor to the console (2 monitors on
-Sapphire Touch). This gives you extra screen space for workspace windows
-which can be handy for showing Visualiser or additional buttons. Touch
-monitors are very useful to give additional control surfaces. We advise
-you use a monitor compatible with Windows Touch to avoid problems with
-touchscreen drivers. Titan Mobile will also support 2 monitors if the PC
-you are using has the facility.
+Es läßt sich ein externer Monitor anschliessen (beim Tiger Touch II und
+Pearl Expert: VGA; beim Quartz, Arena, Sapphire Touch: DVI). Damit erhält
+man mehr Oberfläche zur Anzeige weiterer Fenster (etwa für den
+Visualiser oder das Channel-Grid) sowie - im Falle eines Touchscreens - 
+weiterer Steuerelemente. Bei Touchscreens empfehlen sich Modelle, die
+zu Windows Touch kompatibel sind, um Probleme durch separate Treiber zu
+vermeiden. Beim Titan Mobile und Titan One/T1/T2 ist ein zweiter Bildschirm
+davon abhängig, dass der verwendete Computer dies unterstützt.
 
-An external monitor is disabled by default and will show a \'disabled\'
-message. To enable, switch to System mode (press \<Avo\>+\<Disk\>) and
-select \[Display Setup\] then press \[External Display Disconnected\].
-The option will change to \[External Display Connected\] and the display
-will be enabled.
+Der externe Bildschirm ist standardmäßig deaktiviert, und zeigt das mit
+'Disabled' an. Um ihn zu aktivieren, öffnen Sie das System-Menü
+(\<Avo\> + \<Disk\>), wählen \[Display Setup\], und drücken \[External
+Display Disconnected\]. Damit ändert sich die Anzeige auf \[External
+Display Connected\], und der Bildschirm wird aktiviert.
 
-If you need to change the monitor resolution or settings, touch
-\'Tools\' at the very top of the screen and select \'Control Panel\',
-then \'External Monitor\', then select the option to match the
-resolution of your monitor.
+Zum Ändern der Bildschirmauflösung oder anderer Monitoreinstellungen
+bei den Pulten (nicht bei der PC-Suite) klicken Sie oben auf 'Tools', 
+dann auf 'Control Panel' (Systemsteuerung), dann auf 'External Monitor', 
+und wählen die passende Auflösung. Bei der Titan PC-Suite erfolgt dies 
+über die Windows-Systemsteuerung).
 
-Click [here](system-settings/external-displays.md) for more information about
-setting up an external monitor.
+Weitere Details dazu sowie eine Anleitung zur Suche möglicher Fehler
+[finden Sie hier](system-settings/external-displays.md).
 
-Other Connections
------------------
+Weitere Anschlussmöglichkeiten
+------------------------------
 
-You can connect a USB keyboard and mouse to the console. If you are
-using an external non-touch monitor on a console without a built-in
-keyboard/touchpad you will need a mouse to access the buttons on it, or
-on the Sapphire Touch you can use the trackball in mouse mode.
+Es lassen sich eine USB-Tastatur sowie eine Maus anschliessen.
+Insbesondere bei der Verwendung eines externen Dispalys ohne
+Touch-Funktion ist eine Maus dringend zu empfehlen, um die Fenster und
+Funktionen darauf nutzen zu können (beim Sapphire Touch lässt sich der
+Trackball als Maus verwenden).
 
-You may need to use a small USB hub to connect additional devices if the
-console does not have enough USB sockets itself.
+Stehen nicht genügend USB-Anschlüsse zur Verfügung, so lassen sich diese
+durch einen normalen USB-Hub erweitern.
 
-All consoles provide MIDI connections which can be used to trigger
-playbacks or connect MIDI timecode to the console for
-timecode-controlled cue lists. Except for Pearl Expert, a SMPTE input is
-provided on the rear panel to allow the console to be linked to a
-timecode source. MIDI cannot be used with the T1 dongle, but can be used
-with T2 if you attach a USB-MIDI device.
+Mittels MIDI (alle Pulte außer Titan One/T1) lassen sich Playbacks triggern
+sowie per MIDI-Timecode Cuelisten steuern. Neuere Pult-Modelle verfügen
+auch über einen Eingang für SMPTE-LTC-Timecode. Der T1 kann nicht über
+MIDI gesteuert werden, der T2 ausschließlich über USB-MIDI.
 
-You can connect the console to a LAN (local area network) using the RJ45
-network socket on the rear. This allows you to operate many more
-universes of DMX using DMX network protocols, and also allows backup and
-multi-user consoles to be connected to each other. The Arena has several
-network ports and also has one or two optical fibre terminals allowing
-direct fibre connection to the control network.
+Mittels der Netzwerkbuchse(n) (RJ-45) lässt sich das Pult in ein
+Netzwerk (LAN) integrieren, womit sich viele weitere interessante
+Möglichkeiten ergeben, etwa die Ausgabe weitere Universen über
+Art-Net/sACN, das Betreiben mehrerer Pulte im Verbund (Backup,
+Multiuser) oder die Steuerung des Pultes per App. Das Arena hat außerdem
+einen integrierten Switch und Glasfaser-Anschlüsse zum Anschluss an
+geeignete Peripherie.
 
-One or two 3-pin XLR sockets for desk lamps are provided on the rear of
-the console. Suitable lamps are available from Avolites. The lamps are
-12 volt DC, wired from pins 1 (negative) and 2 (positive) of the XLR
-(not all desk lamps are wired like this and may require rewiring to
-work). You can set the brightness of the desk lamps from System mode.
+Eine oder zwei 3-polige XLR-Buchse ist als Anschluss für eine
+Pultleuchte vorgesehen. Die Belegung ist 1-Minus, 2-Plus (12V
+Gleichspannung). Ggf. muss die Belegung der verwendeten Pultleuchte
+angepasst werden, da es dafür verschiedene Systeme gibt. 
 
-Connecting Console Wings
+-	Bei neueren Pulten lässt sich die Helligkeit der Pultleuchte im 
+	System-Menü (\<Avo\> + \<Disk\>) einstellen.
+
+Verwenden von Faderwings
 ------------------------
 
-"[Wings](./about-the-consoles/fader-wings.md)" are additional control surfaces which can be connected to the
-console to provide more faders and buttons. They connect to the console
-by USB.
+"[Wings](./about-the-consoles/fader-wings.md)" bieten zusätzliche 
+Bedienelemente wie Fader und Tasten, und sind je nach Einsatzzweck eine 
+sinnvolle Ergänzung. Verbunden werden sie mit dem Pult bzw. Computer über USB.
 
-The Pearl Expert Touch Wing can only be used with the [Pearl Expert](about-the-consoles/pearl-expert-and-touch-wing.md)
-console and should be connected before the console is powered up.
+Das Pearl Expert Touch Wing funktioniert ausschließlich mit dem [Pearl Expert](about-the-consoles/pearl-expert-and-touch-wing.md). 
+Es ist mit dem Pult zu verbinden, bevor dieses gestartet wird.
 
 

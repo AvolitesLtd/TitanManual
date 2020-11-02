@@ -5,66 +5,67 @@ sidebar_label: Connecting the Arena to a network
 original_id: connecting-the-arena-to-a-network
 ---
 
-The Arena console is different to the other Titan consoles because it
-has a built-in network switch and an optical network connection
-(optionally 2 optical connections). **This section applies only to the
-Arena console.**
+Anders als die anderen Titan-Pulte verfügt das Arena über einen
+integrierten Netzwerkswitch und einen optischen Netzwerkschluss
+(optional: zwei). **Dieser Abschnitt gilt nur für das Arena!**
 
-Optical Connections
+Optische Anschlüsse
 -------------------
 
-The optical network connector is a Neutrik opticalCon Duo which uses
-multimode fibre. A single connector is fitted as standard, but a second
-can be fitted on request. The stage end of the connection normally plugs
-into the Avolites TitanNet Switch (TNS) rack unit which provides
-standard wired ethernet connections. If you want to connect to a
-different optical switch you should contact Avolites for advice.
+Der optische Netzwerkanschluss ist ein Neutrik opticalCon DUO mit
+Multimode Glasfaser; auf Nachfrage kann ein zweiter Anschluss eingebaut
+werden. Bühnenseitig empfiehlt sich ein Avolites TitanNet Switch (TNS),
+welcher wiederum RJ45, also gewohnter Netzwerkanschlüsse, bereitstellt.
+Sollen andere Glasfaserkonverter verwendet werden, halten Sie bitte mit
+Avolites Rücksprache.
 
-Wired Ethernet Outputs
-----------------------
+RJ45-Netzwerk-Anschlüsse
+------------------------
 
-The Arena console has an in-built 1Gb TitanNet switch (TNS) that is
-directly connected to the console Main board on network connection 1.
-The network switch has 4 ports available on the back of the console.
+Das Arena verfügt über einen integrierten Netzwerkswitch, der direkt mit
+Netzwerkanschluss 1 des Motherboards verbunden ist. Der Switch stellt
+vier Ethernet-Ports auf der Rückseite des Pultes bereit
 
-The mainboard Network Connection 2 is available on the EtherCon
-connector at the back of the console and marked as "secondary Ethernet"
-on the back. We recommend that this should only be used if you need to
-connect to two different networks, for example the show network and an
-office network for documentation.
+Netzwerkanschluss 2 des Motherboards ist auf einer separaten Buchse auf
+der Pultrückseite herausgeführt (Secondary Ethernet). Es empfiehlt sich,
+immer über die Switch-Ports zu arbeiten, und den zweiten Port nur zu
+verwenden, wenn man parallel in verschiedenen Netzwerken arbeitet, etwa
+eins für die Show, ein anderes zur Datensicherung oder Dokumentation.
 
-The network switch and the controller for the switch both use an IP
-address. When the controller IP address is set, the network switch will
-use the next one (for example controller `10.19.0.50`, network switch
-becomes `10.19.0.51`)
+Netzwerkswitch und dessen Controller haben zwei aufeinander folgende
+IP-Adressen: Wird der Controller auf eine Adresse gesetzt (z.B.
+`10.19.0.50`), so erhält der Switch die folgende Adresse (im Beispiel
+`10.19.0.51`).
 
-Changing the IP address of the Titan Network Switch (TNS)
----------------------------------------------------
+Ändern der IP-Adresse des Netzwerk-Switchs
+------------------------------------------
 
-The controller and network switch IP address do not need to be changed
-unless they overlap other devices on the network. The factory default is
-`10.19.aa.bb` where `aa.bb` is the serial number of the console *(e.g. `10.19.01.124` is
-serial number **379** or **255+124**)*.
+Die IP-Adressen des Netzwerkswitchs und Controllers müssen normalerweise
+nicht geändert werden, es sei denn, es besteht ein Konflikt mit anderen
+Geräten im Netzwerk. Der Vorgabewert ist `10.19.aa.bb`, wobei sich `aa.bb` 
+aus der Seriennummer des Pultes ergibt *(so ist z.B. `10.19.01.124` aus der 
+Seriennummer **379** abgeleitet: 01 steht für 255, und 255+124 = 379)*.
 
-To change the IP address of the TNS in the console:
+Um die IP-Adresse des Switchs zu ändern:
 
-1. Open **USB Expert Console** from the **Tools** menu
+1. Öffnen Sie im **Tools**-Menü, **Control Panel**, die **USB-Expert-Console**.
 
-2. Select the TNS panel
+2. Wählen Sie das TitanNet Switch Panel.
 ![USB Expert Tools - TNS Panel](/docs/images/USB-Expert-Tools-TNS-Panel.png)
 
-3. In the **IP Address Dialog**, set the new IP address.
+3. Im angezeigten **IP Address Dialog** geben Sie die neue IP-Adresse ein.
 ![USB Expert Tools - TNS Panel - IP Address Dialog](/docs/images/USB-Expert-Tools-TNS-Panel-IP-Address-Dialog.png)
 
-Power and UPS behaviour 
+Stromversorgung und USV 
 -----------------------
 
-The TitanNet switch in the console runs from the same UPS as the console
-itself, so if power fails the switch will continue working.
+Der Netzwerkswitch ist mit der gleichen unterbrechungsfreien
+Stromversorgung verbunden wie das Pult selbst. Fällt also die
+Netzspannung aus, wird der Switch weiter versorgt.
 
-When you power down the Arena, the UPS will continue to power the
-internal switch for about 5 minutes. This is to allow you to restart the
-console without interrupting the network (for example if you have
-connected a backup console via the Arena switch).
+Wird das Pult heruntergefahren, so erhält der Switch für etwa 5 Minuten
+weiter Versorgungsspannung, um etwa auch während eines Neustarts des
+Pultes keine Unterbrechung hervorzurufen (z.B. wenn ein Backup-Pult
+vorhanden ist).
 
 

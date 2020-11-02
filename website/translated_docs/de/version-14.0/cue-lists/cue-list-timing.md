@@ -5,217 +5,201 @@ sidebar_label: Cue List Timing
 original_id: cue-list-timing
 ---
 
-Time and Fade Options for Cue Lists
------------------------------------
+Zeit- und Überblendoptionen für Cuelisten
+-----------------------------------------
 
-Time settings are independent for each cue in the cue list. The display
-shows which cue you are working with. You can select which cue is active
-using **Wheel A** or **softkey A** of the **Cue Times menu**.
+Zeiteinstellungen erfolgen stets für jeden Schritt einer Cueliste
+einzeln. Im Display wird angezeigt, welcher Schritt aktuell bearbeitet
+wird. Zum Auswählen des Schrittes dient **Encoder A** oder \[Select Cue Number\] aus
+dem Menü **Edit Times**.
 
-*See the [diagram below](#cue-linking--link-offset) for more information about overlaps and fade times.*
+*Weitere Details zu Überblendungen und Geräteversatz sind den [unten aufgeführten Diagrammen](#schrittfolge-und-versatz) zu entnehmen.*
 
-1. Press **Softkey A** \[Edit Times\] at the root menu then the **Swop** button
-of the Cue List.
+1.  Drücken Sie \[Edit Times\] aus dem Hauptmenü, dann die **Select-Taste** 
+	der Cueliste.
 
-2. To change which cue you are editing, scroll through the list using
-**Wheel A** or press \[Cue Number\] then type the cue number you want to
-edit and press \<Enter\>.
+2.  Zum Wechseln des zu bearbeitenden Schritts blättern Sie mit **Encoder A**
+	durch die Liste der Schritte, oder drücken \[Select Cue Number\], geben mit den
+	Zifferntasten die gewünschte Schrittnummer ein und bestätigen das mit
+	\<Enter\>. 
 
-	- The Chase arrow buttons to the right of the
-Connect button also step through the cues.
+	- Mit den Pfeiltasten zur Chaser-Steuerung (‚Chase Control')
+      rechts neben der \<Connect\>-Taste lässt sich ebenfalls der aktive
+      Schritt umschalten.
 
-	- You can select a range of cues, enabling you to alter the timings of
-    multiple cues all in one go, by using **Wheel B**, or in the [Playback
-    View window](editing-cue-lists.md#playback-view-window), dragging across the cues you want to select in the
-    grid.
+	- Man kann auch eine ganze Reihe von Schritten auswählen, um deren
+      Zeiten gleichzeitig zu ändern: nutzen Sie dazu **Encoder B**, 
+	  oder markieren Sie diese im Fenster [Playback
+      View](editing-cue-lists.md#das-fenster-playback-view).
 
-3. **Setting times**
+3. **Stellen Sie die Zeiten wie gewünscht ein.**
 
-    -   To set the **delay time** between pressing \<Go\> and the cue starting,
-    press \[Delay In\] then type a time in seconds and press \<Enter\>.
+    -   Um die **Verzögerung** zwischen dem Betätigen der \<Go\>-Taste und dem
+    tatsächlichen Start des Schrittes einzustellen, drücken Sie \[Delay
+    In\], geben die gewünschte Zeit in Sekunden ein, und drücken
+    \<Enter\>.
 
-    -   To set the **fade in time** of the cue, press \[Fade In\] then type a
-    time in seconds and press \<Enter\>. *Both HTP and LTP channels are
-    affected by the fade.*
+    -   Zum Einstellen der **Einblendzeit** betätigen Sie \[Fade In\], geben die
+    Zeit in Sekunden ein, und drücken \<Enter\>. *Diese Zeit gilt sowohl
+    für HTP- als auch für LTP-Kanäle.*
 
-    -   The **fade out time** of the cue is set by default to be the same as the
-    fade in time. You can change the fade out time by pressing \[Fade
-    Out\], then type the time in seconds and press \<Enter\>. To set
-    equal to Fade In time, delete the time and leave the box blank.\
-    *The fade out time starts when the next cue fires, so if you set the
-    time to 1 second, the outgoing cue would start a 1 second fade out
-    as the new cue begins its fade in.*
+    -   Die **Ausblendzeit** des Schrittes ist zunächst gleich der Einblendzeit.
+    Zum Ändern der Ausblendzeit drücken Sie \[Fade Out\], geben die Zeit
+    in Sekunden ein, und drücken \<Enter\>. Um wieder den gleichen Wert
+    wie die Einblendzeit zu erhalten, löschen Sie die Ausblendzeit und
+    lassen das Eingabefeld leer. *Die Ausblendzeit beginnt, sobald der
+    nächste Cue gestartet ist. Wird sie z.B. auf 1 Sek. gestellt, so
+    wird mit dem Start des nächsten Cues dieser ein- und der alte in 1
+    Sek. ausgeblendet*.
 
-    -   The \[Delay Out\] setting of the cue would normally be used if the
-    cue links automatically to the next cue, and sets a wait time
-    before the next cue starts its fade in. So the outgoing cue would
-    start to fade out, and the delay out time would run before the new
-    cue begins its fade in.
+    -   Die **Ausschaltverzögerung** (\[Delay Out\]) wird üblicherweise
+    verwendet, wenn der nächste Schritt automatisch nach diesem folgen
+    soll, und bestimmt die Zeit bis zum Start/Einblenden des folgenden
+    Schritts. Damit würde der vorherige Cue zunächst ausblenden, und der
+    nächste Cue erst nach der Verzögerung einblenden.
 
-Cue Linking & Link Offset
--------------------------
+Schrittfolge und Versatz
+------------------------
 
-Cues in cue lists may be linked together, allowing you to build up
-complex self-timed sequences. The link options are set using the
-softkeys and are:
+Schritte in Cuelisten können miteinander verbunden werden, womit
+sich komplexe automatische Sequenzen realisieren lassen. Die
+Optionen werden mit den Funktionstasten eingestellt und
+umfassen:
 
 Link Option | Action
 ---|---
-**\[Link Wait For Go\]** | The cue waits for the Go button to be pressed then fires immediately. *Link Offset is disabled.*
-**\[Link After Previous Cue\]** | The cue fires when the previous cue has finished its delay in and fade in times. A Link Offset can be set to add a delay between the previous cue finishing and this cue firing. The offset can be given as a time in seconds, or as a percentage of the fade time of the previous cue.
-**\[Link With Previous Cue\]** | The cue fires at the same time as the previous cue fires. A Link Offset can be set to add a delay between the previous cue firing and this cue firing, set either in seconds or as a percentage of the fade time of the previous cue.
+**\[Link Wait For Go\]** | 'Warten auf Go': der Schritt wartet auf das Betätigen der \<Go\>-Taste und startet dann sofort; *ein Versatz zwischen Schritten ist nicht möglich.*
+**\[Link After Previous Cue\]** | 'Start nach vorigem Schritt': der Schritt startet, wenn der vorige seine Warte- und Überblendzeiten durchlaufen hat. Zusätzlich lässt sich ein Versatz (Offset) eingeben, als Verzögerung zwischen dem Ende des vorigen und dem Start des neuen Schritts. Der Versatz kann entweder in Sekunden, oder als Prozentsatz der Überblendzeit des vorigen Schrittes, eingegeben werden.
+**\[Link With Previous Cue\]** | 'Start mit dem vorigen Schritt': der Schritt startet gleichzeitig mit dem vorigen. Ein Versatz (Offset), anzugeben in Sekunden oder in Prozent der Überblendzeiten des vorigen Schrittes, bestimmt die Verzögerung zwischen den Schritten.
 
 ![Cue List Linking Diagram](/docs/images/Cue-List-Linking-Diagram.png)
 
-These options allow you to create complex
-self timed sequences by building up simple steps. For example if you
-wanted the following effect:
+Mit diesen Optionen lassen sich komplexe automatische Abläufe von einzelnen 
+Schritten realisieren. Ist etwa folgender Effekt gewünscht:
 
--   \<Go\> is pressed, fixture one starts fading up over 20s
+-   Nach Druck auf \<Go\> blendet Gerät 1 über 20s ein
 
--   After 10s fixture two fades up over 15s
+-   Nach 10s blendet Gerät 2 über 15s ein
 
--   Both lights stay on for 5s
+-   Beide Geräte bleiben für 5s an
 
--   Both lights go off in 3s
+-   Beide Geräte blenden über 3s aus
 
-You could program
+so könnte man das wie folgt programmieren:
 
--   **Cue 1** - Fixture 1 @ 100%, Fade In 20s, Link Wait For Go
+-   **Cue 1**: Gerät 1 @ 100%, Fade In 20s, Link Wait For Go
 
--   **Cue 2** - Fixture 2 @ 100%, Fade In 15s, Link With Previous, Link
+-   **Cue 2**: Gerät 2@ 100%, Fade In 15s, Link With Previous, Link
     Offset 10s
 
--   **Cue 3** - Fixture 1 AND 2 @ 0%, Fade Out 3s, Link After Previous, Link
-    Offset 5s
+-   **Cue 3**: Geräte 1 und 2 @ 0%, Fade Out 3s, Link After Previous,
+    Link Offset 5s
 
-> To obtain the effect which was called *"cue overlap"* in previous versions of software, use \[Link With Previous Cue\] and set a percentage Link Offset time. Link Offset of 100% is equivalent to Cue Overlap of 0% and vice versa.
+> Für einen Effekt, der als 'Cue Overlap' (Schritt-Überlappen) in früheren Versionen verfügbar war, verwenden Sie \[Link With Previous Cue\], und geben den Versatz (Offset) in % an. Link Offset = 100% ergibt ein 'Overlap' von 0% und umgekehrt.
 
-Individual Attribute Fade Times
+Individuelle Einblendzeiten für Attribute
+-----------------------------------------
+
+Für jede Attributgruppe **IPCGBES** lassen sich getrennte Einblendzeiten
+vergeben. Ebenso lässt sich bestimmen, für welches Gerät diese Zeit
+gilt. So lässt sich etwa bestimmen, dass die Position in 2s wechselt,
+der Farbwechsel aber 10s dauert.
+
+Zusätzlich lassen sich auch pro einzelnem Attribut unterschiedliche
+Zeiten vergeben, so dass etwa Pan (Schwenken) anders als Tilt (Neigen)
+überblendet.
+
+Zum Vorgeben von Zeiten für Attributgruppen öffnen Sie zunächst das Menü
+\[Edit Times\], gehen zu dem Schritt, den Sie bearbeiten möchten, und
+drücken G \[Next\], um auf die nächste Optionsseite umzuschalten. Siehe [voriger Abschnitt](#zeit--und-überblendoptionen-für-cuelisten).
+
+1.  Drücken Sie C \[Attribute times\].
+
+2.  Damit werden sämtliche Geräte in dem Schritt angewählt. *Wollen Sie
+	die Zeiten nicht für alle Geräte einstellen, so ändern Sie jetzt die
+	Selektion*. Dazu können Sie die Taste \<All\> (unterhalb von \<Next
+	Time\>) benutzen, um alle Geräte anzuwählen, oder \<AVO\>+\<All\>, um
+	alle abzuwählen.
+
+3.  Drücken Sie die Auswahltaste der gewünschten Attributgruppe.
+
+4. 	Drücken Sie \[Delay\] zum Einstellen der **Verzögerung**, oder 
+	\[Fade\] zum Einstellen der **Überblendzeit**. Mit \[Use Global\]
+	entfernen Sie die individuellen Zeiten wieder und kehren zu den
+	normalen/allgemeinen Zeiten für den Schritt zurück.
+
+>  Nutzen Sie \[Individual Attributes\] zur Vergabe von Zeiten für
+    einzelne Attribute aus einer Gruppe, etwa für ‚Pan' aus der Gruppe
+    ‚Positions'. Gleiches lässt sich mit dem Fenster [Cue View](editing-cue-lists.md#editieren-von-werten-im-fenster-cue-view)
+    realisieren. 
+
+Fixture Overlap - Geräteversatz
 -------------------------------
 
-You can set individual fade times for each **IPCGBES** attribute group. You
-can also select which fixtures this is applied to. For example you can
-make the position change take 2 seconds, but the colour change take 10
-seconds.
+Mit Fixture Overlap - Geräte-Überlappung - werden Änderungen von einem 
+Cue zum nächsten auf die einzelnen Fixtures nacheinander statt gleichzeitig 
+angewendet. Genauer ist dies in [Einstellen von Überblendzeiten und Geräteversatz](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) erläutert.
 
-Additionally you can set individual times for each attribute so you
-could make the pan fade over a different time to the tilt.
-
-To set times for an attribute group, first select the Set Times menu and
-go to the cue you want to set as [described above](#time-and-fade-options-for-cue-lists), then press G \[Next\]
-to go to the second page of options.
-
-1. Press C \[Attribute times\].
-
-2. All fixtures in the cue will be selected. *If you don't want to
-change the times for any fixtures, deselect them now.* You can press the
-**ALL** button (below Next Time) to select all fixtures in the cue or
-**Shift + ALL** to deselect all fixtures.
-
-3. Press the softkey for the attribute group you want to change.
-
-4. Press A \[Delay\] to set the **delay time**, or press B \[Fade\] to set
-the **fade time**. Press G \[Use global\] to remove the attribute group
-timing and go back to the normal delay/fade times for the cue.
-
->  You can use \[Individual Attributes\] to set times for one attribute
-    within the group, for example just Pan from within the Position
-    group. You can also use the [Cue View window](editing-cue-lists.md#editing-values-in-cue-view-window) to set times for
-    individual attributes.
-
-Fixture Overlap
----------------
-
-For each cue you can set a (linked together) fixture overlap, which
-causes Titan to apply the settings in the cue to each fixture
-sequentially giving a "rolling" change across the fixtures in the cue.
-This can create some great effects without much programming on your
-part.
-
-Press \[Fixture Overlap\] *(on the second page of the [Cue Times menu](#time-and-fade-options-for-cue-lists))*
-then enter 0-100 on the keypad to change how fixtures overlap in the
-cue.
-
->   **100%** means all fixtures fade together *(the normal setting)*.
->
->   **0%** means that the first fixture will finish its fade before the next
->   one starts.
->
->   **50%** means that the 2^nd^ fixture will start fading when
->   the first one is half way through its fade.
-
-To change the fixture order when using overlap, press \[Set Fixture
-Order\]. Normally this is the order in which you selected the
-fixtures when you programmed the cue. The Fixture window shows the
-fixture order in large green numbers. Reorder the fixtures by
-pressing \[Step Number\] then type the start number on the numeric
-keys, then press the fixture **Select** buttons in the order you want
-them.
-
-For example, to set the order of 8 fixtures, press 1 on the
-keypad, then press the **Select** button of the fixture to be first,
-then the **Select** button for the second, and so on. You can set
-several fixtures to the same number if you want them to change
-simultaneously. If you press a fixture button twice, it will show X and be excluded
-from the sequence.
-
-Press \<Exit\> to finish setting the fixture order.
-
-![Fixtures Window showing fixture order](/docs/images/Fixtures-Window-showing-fixture-order.png)
-
-Running a Cue List to Timecode
-------------------------------
+Steuern einer Cueliste per Timecode
+-----------------------------------
 
 [](https://youtu.be/1abZT_ffIvs?t=20 "Recording Timecode")
 
-The console can run a cue list automatically to a timecode. This is very
-useful for complex performances which must be exactly the same time
-every time, or for unattended operation. Each step in the cue list is
-assigned a time at which it will run.
+In den Titan-Pulten lässt sich auch Timecode zum Steuern einer Cueliste
+verwenden. Dies ist hilfreich etwa bei komplexen Shows, die stets
+absolut zeitgenau laufen müssen, oder bei unbeaufsichtigten Abläufen.
+Dabei wird jedem Schritt der Cueliste eine Startzeit zugeordnet, zu der
+er beginnen soll.
 
-The console can have up to 4 separate timecode sources. For each, the
-timecode can be read from the system clock, from an internal timecode
-source, from MIDI, SMPTE or from Winamp. Internal timecode is useful for
-programming a sequence which will later be triggered by an external
-timecode source.
+Es können vier getrennte Timecode-Quellen definiert werden. Für jede
+kann der Timecode selbst aus der Systemuhr stammen, intern generiert
+oder per MIDI, je nach Pult SMPTE oder Winamp eingespeist werden. Der
+interne Timecode ist besonders hilfreich beim Programmieren einer Show,
+die später von einem externen Timecode gesteuert werden soll.
 
-1. **Connect** the cue list for which you want to set timecode.
+1. **Connecten** Sie die Cueliste, für die Sie den Timecode aktivieren
+möchten.
 
-2. Press \[Timecode\] on the top-level menu.
+2. Wählen Sie \[Timecode\] aus dem Hauptmenü.
 
-3. Press **softkey A** to select Timecode 1-4, and **softkey B** to select the desired
-timecode source.
+3. Wählen Sie mit **Menütaste A** Timecode 1, 2, 3 oder 4, und mit
+**Taste B** die Timecode-Quelle.
 
-4. Press \[Record\].
+4. Drücken Sie \[Record\].
 
-5. Start the timecode source. *If using internal timecode, press
-\[Play\] to start it.*
+5. Starten Sie die Timecode-Quelle. *Nutzen Sie den internen Timecode,
+so drücken Sie jetzt \[Play\], um ihn zu starten*.
 
-6. Press the red **Go** button to step each cue at the time you wish the
-cue to start.
+6. Betätigen Sie die rote \<Go\>-Taste, um jeden Schritt zum
+gewünschten Zeitpunkt zu starten.
 
-7. Press \[Record\] when you have finished.
+7. Drücken Sie \[Record\], um den Vorgang abzuschließen.
 
-To play back a timecoded cue list, press \[Connected Cue Lists\] on the
-Timecode menu and select the cue list which is to be played. Then press
-\[Timer Disabled/Enabled\] to enable the timecode input.
+Zur Wiedergabe einer Timecode-gesteuerten Cueliste drücken Sie im
+Timecode-Menü \[Connected Cue Lists\] und wählen die gewünschte Cueliste
+aus. Dann drücken Sie \[Timer Disabled/Enabled\], um den jeweiligen
+Timecode-Eingang zu aktivieren.
 
-When you start the timecode source (or press \[Play\] if using internal
-timecode), each cue will fire as the timecode matches its programmed
-time.
+Sobald nun der Timecode läuft (bei internem Timecode drücken Sie dazu
+auf \[Play\]), wird jeder Schritt der Cueliste zur programmierten
+Zeitmarke gestartet.
 
-You can edit the timecode for each cue by using **Wheel A** to select the
-cue, then press \<Enter\> and type the new timecode for the cue.
+Zum Ändern einzelner Timecode-Zeiten klicken Sie entweder in der 
+Playback-Ansicht in die entsprechende Zelle und geben die korrekte Zeit 
+mit den Zifferntasten ein, oder Sie drücken \[Edit Times\], wählen den 
+zu ändernden Cue aus, wechseln mit \[Next\] auf die dritte Menüseite und 
+ändern dort den Wert bei \[Timecode = \].
 
 ![Playback View Window showing timecoded cues](/docs/images/Playback-View-Window-showing-timecoded-cues.png)
 
-While editing a time you can also use **Wheel B** to select multiple cues,
-and use the softkey options to enter a value to change the time of all
-the cues (offset, add a fixed time or subtract a fixed time).
+Beim Ändern einer Zeit lassen sich mit Encoder B mehrere Schritte
+auswählen. Mit den Menütasten lassen sich weitere Zeitänderungen
+vornehmen: gibt man bei \[Offset =\] einen Wert ein, so kann man mit 
+\[Add + ...\] bzw. \[Subtract - \] alle gewählten Zeitmarken um diesen 
+Wert nach vorn oder hinten verschieben.
 
-You can open a timecode display window for each of the four possible
-sources to show you the incoming timecode - press \[Open Workspace
-Window\] then \[Timecode x\] where x is 1 to 4.
+Zur Kontrolle des anliegenden Timecodes lässt sich jeweils für Timecode
+1 bis 4 ein extra Fenster öffnen: drücken Sie zweimal auf \<View / Open\>
+und dann auf \[Timecode x\] (wobei das x für eine Zahl 1 bis 4 steht).
 
 ![Timecode 1 Workspace Window](/docs/images/Timecode-1-Workspace-Window.png)

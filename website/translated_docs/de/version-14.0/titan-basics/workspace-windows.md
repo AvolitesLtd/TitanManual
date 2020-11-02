@@ -5,339 +5,372 @@ sidebar_label: Workspace Windows
 original_id: workspace-windows
 ---
 
-The main area of the screen contains the workspace windows. These
-contain buttons and controls for selecting fixtures, groups, palettes, and playbacks,
-for controlling fixture attributes, showing cue lists, or the visualiser, in fact there is
-a workspace window for every feature of the console.
+Der Hauptbereich der Programmoberfläche enthält die Arbeitsfenster.
+Diese wiederum enthalten Buttons (berührungsempfindliche Flächen) zur
+Auswahl von Geräten, Gruppen, Paletten, Playbacks usw. Auch der
+Visualiser wird hier gezeigt. Es gibt für so ziemlich jeden Aspekt
+spezielle Fenster.
 
-The windows can be freely arranged and each monitor can have its own arrangement of windows.
-You can save different layouts to the Workspace select buttons
-which allows you to instantly reconfigure the console for different tasks. The
-saved layouts can change just the monitor they are on, or all monitors together.
+Die Fenster können frei angeordnet werden, und es können mehrere
+Monitore verwendet werden. Die Zusammenstellung der Fenster kann als
+Workspace (Arbeitsumgebung) gespeichert werden. Arbeitsumgebungen können
+für einzelne Fenster, einzelne Bildschirme oder alles gemeinsam gelten.
+So kann man die oberfläche des Pultes durch einen Klick verändern.
 
-The picture below shows a typical arrangement of workspace windows.
+Das folgende Bild zeigt eine typische Kombination mehrerer Fenster.
 
 ![Workspaces](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
+## Auswahl und Positionierung der Arbeitsfenster
 
-Opening and Positioning Workspace Windows
------------------------------------------
-
-Double press the \<View\> button (labelled \<Open\> or \<Open Window\> on some consoles)
-to show the workspace open buttons overlay on all monitors (for the rest of this manual
-we'll refer to this button as \<View/Open\>). On the monitor where you
-want the workspace, press the appropriate button and the window will open on that monitor.
+Drücken Sie zweimal auf die Taste \<View\> (heißt auf manchen Pulten
+\<Open\> oder \<Open Window\> - in diesem Handbuch heißt die Taste daher
+\<View / Open\>). Daraufhin wird auf allen Displays ein Overlay mit
+Buttons für die einzelnen Fenster angezeigt. Klicken Sie auf den Button
+des gewünschten Fensters auf dem Display, auf dem es gezeigt werden
+soll.
 
 ![Workspace Window Selection](/docs/images/Workspace-Windows-Icons.png)
 
-If the window was already open on a different monitor, it will move to the monitor you selected
-keeping the same size and position.
+War das Fenster bereits auf einem anderen Display geöffnet, so wechselt
+es mit der gleichen Größe und Position auf den gewünschten Bildschirm.
 
-You can also use the \[Open
-Workspace Window\] menu command on the root menu to show the workspace open buttons.
-Pressing \<View/Open\> again will close the workspace button overlay, or pressing the X
-at the top of the button overlay on any screen will close it on all screens.
+Ebenso können Fenster mit der Menütaste \[Open Workspace Window\]
+geöffnet werden. Drückt man ein weiteres Mal auf \<View / Open\>, so wird
+das Overlay wieder ausgeblendet. Dazu kann man auch auf das \{X\}
+rechts oben auf dem Bildschirm klicken.
 
+Die wichtigsten Fenster lassen sich zudem per Tastenkombination
+aufrufen.
 
-There are also button shortcuts to open some of the windows:
+### Tastenkombinationen zur Fensterauswahl
 
-### Shortcuts to open workspace windows
+-   \<View / Open\> und eine Attributbank-Taste öffnet das jeweilige
+    Palettenfenster
 
-- \<View/Open\> then an Attribute Bank button opens the Palette
-window for that attribute.
+-   \<View / Open\> + \<Patch\> öffnet die Patch-Ansicht.
 
-- \<View/Open\> then \<Patch\> opens the Patch View window.
+-	Drücken Sie \<View / Open\>, gefolgt von der Schaltfläche eines
+	gepatchten Gerätes, so öffnet sich die Geräteanzeige mit Details zu dem
+	jeweiligen Gerät.
 
-- \<View/Open\> then a fixture select button opens the Fixture
-View window showing patch details for that fixture.
+-	\<View / Open\> + \<Connect / Cue\> öffnet das Fenster 'Playback View'.
 
-- \<View/Open\> then \<Connect\> opens the View Cue window.
+-	\<View / Open\> + \<Off\> öffnet das Fenster 'Active Playbacks'.
 
-- \<View/Open\> then \<Off\> opens the Active Playbacks window.
+-	\<View / Open\> + \<Macro\> öffnet das Fenster 'Macros'.
 
-- \<View/Open\> then \<Macro\> opens the Macro window.
+### Schaltflächen für die Einrichtung der Fenster
 
-### Changing window size and appearance
+Oben rechts in der Titelleiste verfügt jedes Fenster über drei oder vier
+Schaltflächen, über die weitere Funktionen erreichbar sind.
 
-At the top right of each workspace window are three or four buttons
-which access other functions for the window.
+Mit den **Optionen für die Arbeitsfenster** (zu öffnen mit dem kleinen \{Zahnrad\})
+können Größe und Position der Fenster auf verschiedene Standardwerte
+gesetzt und die Größe der Schaltflächen sowie die Schriftgröße für jedes
+Fenster getrennt eingestellt werden. Die verfügbaren und angezeigten
+Elemente hängen vom jeweiligen Fenster sowie der Einrichtung des Pultes
+ab, etwa davon, ob ein externer Bildschirm angeschlossen ist. Mit den
+Buttons für Rows (Zeilen) und Columns (Spalten) kann man einstellen, wie
+die Tasten in dem Fenster angezeigt werden, siehe [Einstellen von Anzahl 
+und Größe der Buttons](../titan-basics/workspace-windows.md#anzahl-und-grösse-der-schaltflächenraster).
 
-The **Window Appearance Options** button (cog icon) lets you select the
-standard window sizes and positions (top left quarter, top right quarter etc.)
-Buttons are also shown allowing you
-to set the button size and the text size of the buttons in the window, and move the
-window to a different monitor. The Appearance options may vary depending
-on which window it is, the setup of the console and if you have any
-external monitors. The Rows / Columns buttons allow you to control how buttons are
-arranged, see [Controlling button layout/grid](../titan-basics/workspace-windows.md#controlling-button-layout-/-grid)
+![Appearance Menu](/docs/images/Window-Appearance-Options.png)
 
-![Appearance Menu](/docs/images/window-cog-button.png)
-
-The **Resize Window** button allows you to set adjustable window sizes.
-A grid screen will open.
+Die Fenster lassen sich sowohl in Standard-Größen und Positionen
+anordnen als auch sehr frei verändern. Dazu dient der Button **Größe
+ändern**.
 
 ![Resize](/docs/images/Resize.png)
 
-With the softkey \[Edit All Windows\] set to Off, you just set the size
-of the selected window.
+Steht die Option \[Edit All Windows\] auf Off, so wird jeweils nur ein
+Fenster verändert.
 
-Touch and drag the top left or bottom right corners to resize the
-window. Touch and drag anywhere else to move the window.
+Klicken und ziehen Sie die obere linke oder die untere rechte Ecke des
+Fensters, um dessen Größe zu ändern. Klickt und zieht man dagegen
+irgendwo anders auf dem Bildschirm, so wird dort das Fenster neu
+aufgezogen
 
-Tap on a corner to set a start corner position - the window will
-highlight in red and ask you to tap to set the opposite corner position.
+Klicken Sie irgendwohin, so wird das Fenster dort platziert und rot
+dargestellt, bis zur Platzierung der gegenüberliegenden Ecke nochmals
+woanders geklickt wird.
 
-If the softkey \[Resize Neighbours\] is set to On, surrounding windows
-will resize to make room for the window you are editing. If Off, the
-other windows will stay the same size and go behind the current window.
+Steht die Option \[Resize Neighbours\] (Nachbarn anpassen) auf On
+(Vorgabe), so werden beim Ziehen einer Ecke angrenzende Fenster soweit
+wie möglich mit verändert, um Überlappungen zu vermeiden. Steht diese
+Option dagegen auf ‚Off', so wird jeweils nur das bearbeitete Fenster
+verändert, und alle anderen bleiben unverändert.
 
-If \[Edit All Windows\] is set to On, corner arrows will appear in all
-windows and you can adjust the size of all the windows together. Press
-\<Enter\>, \<Exit\> or \[OK\] to finish.
+Schaltet man \[Edit All Windows\] (Alle Fenster editieren) auf On, so
+werden bei allen Fenstern Ecken angezeigt, und man kann ein beliebiges
+Fenster verändern. Zum Abschluss drücken Sie dann wieder \<EXIT\>,
+\<ENTER\> oder \[OK\].
 
 ![Resize](/docs/images/Resize-2.png)
 
-> If you accidentally set a window to a single grid size, you can't then get to the Window Layout button to resize it. Select the window and use the \[Min/Max\] softkey to set the window to a fixed size.
+> Wurde beim freien Positionieren ein Fenster versehentlich so klein gemacht, dass der Button für die Größe nicht mehr erreichbar ist, so ist die einfachste Lösung, mit der \<Min/Max\>-Taste (bzw. Funktion) dieses Fenster wieder ganz groß zu machen und nochmals zu verändern. Bei der PC-Suite (Titan One etc.) bietet sich die Taste F4 der Computertastatur an.
 
-You can move the active window between screens from the Window
-Appearance screen, or by pressing View then \[Window Options\] then
-\[Move Screen\], or hold \<Avo\> and press the \<Size & Position\> button.
+Zum Verschieben des aktiven Fensters zwischen externem Monitor und
+Bildschirm klicken Sie in den Fenster-Optionen auf das gewünschte
+Display, oder Sie drücken Sie \<View / Open\>, dann \[Window Options\], und
+schließlich \[Move Screen\], oder Sie nutzen die Tastenkombination
+\<AVO\>+\<Size/Position\>.
 
-You can close the active window using the \<Close\> button (not on all
-consoles). You can close all windows by pressing \<Avo\>+\<Close\>, or
-use the \[Close All\] softkey.
+Aktive Fenster lassen sich mit der Taste \<Close\> schließen. Zum
+gleichzeitigen Schließen aller Fenster drücken Sie \<AVO\>+\<Close\>,
+oder Sie nutzen die Menütaste \[Close All\].
 
-The **Context Menu** button is only shown on Sapphire Touch and Titan
-Go, and gives a drop down menu at the top of the window showing the
-context menu buttons which relate to the current window.
+### Die Kontext-Schaltflächen/Buttons
 
-![Patch View](/docs/images/Patch-View-2.png)
-
-On all other consoles the context menu buttons are automatically shown
-below the prompt area on the top right of the main screen. These buttons
-change to match the active window. The picture below gives an example of
-how the context buttons appear when Patch View window is active.
+Auf allen Pulten außer dem Sapphire Touch und Titan Go werden je nach aktivem
+Fenster verschiedene Funktionsbuttons im Kontext-Bereich (rechts oben) angezeigt. 
+Die dort angezeigten Funktionen wechseln je nachdem welches Fenster gerade aktiv ist. \
+Im folgenden Bild wird die Anzeige bei aktivem Patch-View-Fenster dargestellt:
 
 ![Context Menu](/docs/images/Context-Menu.png)
 
+Beim Sapphire Touch und beim Titan Go gibt es extra eine Schaltfläche 
+in der Titelleiste jedes Fensters, mit der das **Kontext-Menü** eingeblendet 
+werden kann.
 
-### Controlling button layout / grid
+![Patch View](/docs/images/Patch-View-2.png)
 
-Buttons normally resize automatically to suit the screen size and
-resolution, however this means that moving shows between different
-consoles or different screens can make the number of rows and columns
-change, causing buttons to move around. If you have set a particular
-layout you want to keep (for example if you've positioned fixtures in
-the window to match the layout on stage), open the Window Appearance
-menu using the Cog button and set Button Size to \[Button Size Set Rows
-& Columns\]. You can then set a fixed layout using the \[Rows\] and
-\[Columns\] buttons.
+### Anzahl und Grösse der Schaltflächen/Raster
+
+Normalerweise wird die Größe der Buttons automatisch an die
+Bildschirmgröße angepasst, was z.B. dazu führt, dass sich bei
+unterschiedlichen Bildschirmgrößen die Anzahl der Buttons pro
+Zeile/Spalte - und damit ggf. die ganze Anordnung - ändert. Um dies zu
+verhindern (z.B. wenn im Geräte-Fenster die Anordnung an den
+tatsächlichen Aufbau angepasst wurde), kann man alternativ in den
+Fenster-Optionen (dazu auf das \{Zahnrad\} klicken) mit \{Button Size Set Rows
+& Columns\} die gewünschte Anzahl der angezeigten Zeilen \{Columns\} 
+und Spalten \{Rows\} fest vorgeben. Damit wird immer die gewünschte 
+Anzahl an Schaltflächen angezeigt, wobei sich deren Größe entsprechend ändert.
 
 ![Rows and Columns](/docs/images/Rows-and-Columns.png)
 
-The Rows and Columns settings are remembered even if you change the
-button size back to one of the automatic sizes, which allows you to swap
-between auto and fixed button size modes.
+Die eingegebene Anzahl von Spalten/Zeilen wird gespeichert, so dass man
+testweise zwischen einem fixen und einem variablen Layout hin- und
+herschalten kann.
 
+Speichern der Arbeitsumgebung
+-----------------------------
 
-Saving workspace layouts
------------------------
+Mit gespeicherten Arbeitsumgebungen lässt sich die Darstellung des
+gesamten Displays durch nur einen Klick ändern/wiederherstellen.
 
-You can save workspace layouts, allowing you to reconfigure either all the windows on one
-screen, or all the windows on all the screens, at the touch of a button.
-
-Workspace layouts are saved to the Workspaces touch buttons to the left
-of the A-G menu buttons and above the wheel displays (except on Sapphire Touch and Titan Go where
-they are down the left side of the screen).
+Sie können verschiedene Arbeitsumgebungen (Workspaces) zum schnellen
+Abruf auf den 'Workspace'-Schaltflächen (links vom Hauptmenü, bzw.
+linker Bildschirmrand beim Sapphire Touch und Titan Go) abspeichern.
 
 ![Workspaces](/docs/images/Recoding-a-Workspace-Layout.png)
 
-External screens have their own workspace buttons down the side of the screen (these
-can be turned off in the User Settings / General options.)
+Auf externen Bildschirmen gibt es ebenfalls jeweils einen
+Workspace-Bereich (kann per [Benutzereinstellung](../system-settings/user-settings.md#display) deaktiviert werden).
 
-To record, press \<View/Open\> then
-\[Record Workspace\], then touch one of the Workspaces buttons, or just
-touch an empty button twice to Quick Record. You can also save
-workspaces onto any grey handle or macro button.
+Um einen Workspace zu speichern, drücken Sie die Taste \<View / Open\>,
+dann \[Record Workspace\], und schließlich eine der
+'Workspace'-Schaltflächen, oder führen Sie einen Doppelklick auf einer
+solchen Schaltfläche aus. Arbeitsumgebungen/Workspaces lassen sich auch
+auf graue Tasten des Pultes sowie Macro-Tasten speichern.
 
-When saving and loading workspaces, it's often useful to be able to set how existing windows
-will behave if you load more windows, and to be able to target particular windows to a certain screen on the console.
+Dabei lässt sich sehr genau bestimmen, wie neu geöffnete mit bereits
+vorhandenen Fenstern interagieren. Außerdem können einzelne Fenster
+spezifisch für bestimmte Displays festgelegt werden.
 
--   \[Record Visible/All Windows\] lets you set whether the workspace
-    will contain only the windows which are currently visible, or will
-    also include any windows which are hidden underneath other windows.
+-   \[Record Visible/All Windows\] (sichtbare/alle Fenster speichern)
+    bestimmt, ob nur die aktiven (sichtbaren), oder aber alle (auch die
+    verborgenen) Fenster in der Arbeitsumgebung gespeichert werden
+    sollen.
 
--   \[Remove/Leave other windows on recall\] sets whether all other
-    windows will be closed when this workspace is recalled. If set to remove,
-	the Workspace button will show an X in the corner.
+-   \[Remove/Leave other windows on recall\] (beim Aufruf andere Fenster
+    schließen/behalten) definiert, ob beim Aufruf der Arbeitsumgebung
+    andere Fenster geöffnet bleiben oder geschlossen werden sollen. Ist
+    dies auf ‚Remove' (Schließen) gestellt, wird das im Workspace mit
+    einem X angezeigt.
 	
 	![Workspaces](/docs/images/Workspace-Layout-Button-Letters-X.png)
 
--   \[Screens=\] sets whether the workspace layout will record all the screens,
-    or individual screens (you can select or deselect each screen).
+-   \[Screens= \] bestimmt, ob der Workspace alle oder nur einzelne
+    Displays beinhalten soll.
 
--   \[Recall as Recorded / Where Selected\] only appears if the Screens option
-    is set to record only a single screen, and sets whether the workspace will
-	recall onto the screen where you recorded it (button shows S + the screen number), or if it will recall onto
-	the screen where you selected it (button shows a target symbol).
+-   \[Recall as Recorded/Where Selected\] erscheint nur, wenn nur
+    einzelne Displays gespeichert werden. ‚as Recorded' wird dann mit
+    einem S und einer Nummer angezeigt und bedeutet, dass die Fenster
+    auf diesem Screen gespeichert sind bzw. geöffnet werden. ‚where
+    selected' dagegen wird mit einem stilisierten Fadenkreuz angezeigt,
+    und die Fenster werden auf dem Display geöffnet, auf dem dieser
+    Workspace aufgerufen wurde.
 	![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
 
--   To delete a workspace button, press \<View/Open\>, \<Delete\>, then
-    the workspace button to be deleted.
+-   Zum Löschen einer Arbeitsumgebung drücken Sie \<View / Open\>,
+    \<Delete\>, und dann die Schaltfläche der Arbeitsumgebung.
 
--	When recalling a workspace, if you press \<View/Open\> first then softkey buttons let you
-	set the workspace to recall to the particular screen where it was recorded \[As Recorded\], or to a different screen
-	(the other screen numbers are listed on softkeys). This is useful when a workspace contains only a single screen,
-	allowing you to recall it onto a different screen.
+-   Drückt man beim Aufrufen eines Workspace zuerst auf \<View / Open\>
+    und dann auf den Workspace-Button, so kann man mit den Menütasten
+    bestimmen, ob die Fenster \[As Recorded\] (wie gespeichert) oder
+    aber auf einem bestimmten Display aufgehen sollen. Damit kann man
+    auch Workspaces, die für einen anderen Bildschirm gespeichert
+    wurden, auf dem aktuellen Display verwenden.
 	
 
->	Screen numbering:  
-	On consoles with a single internal screen, that is (1) and the external screen is (2).  
-	On Arena 	the main screen is (1), the mini screen (2) and the external screen (3).   
-	On Sapphire Touch the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).
+>	Die Bildschirme werden dabei wie folgt nummeriert:\
+\
+Bei Pulten mit einem internen Screen ist dieser Screen 1 und ein eventuell vorhandenes externes Display Screen 2.\
+\
+Beim Arena ist das große interne Display Screen 1, das kleine interne ist Screen 2, und ein eventuell vorhandenes externes ist Screen 3.\
+\
+Beim Sapphire Touch ist das rechte Display Screen 1, das linke Screen 2, und eventuell vorhandene externe Displays sind Screen 3 und 4.    
 
+Als Beispiel sei einmal angenommen, zum Programmieren seien die Fenster
+'Fixtures' (Geräte), 'Position Palettes' (Positionspaletten), 'Fixture
+Attributes' (Geräteattribute) und 'Shapes' benötigt:
 
+1.  Drücken Sie zweimal auf \<View / Open\>, oder drücken Sie ggf.
+\<Exit\>, um ins Hauptmenü zu gelangen, und dann die Funktionstaste
+\[Open Workspace Window\].
 
-As an example of setting up a workspace, suppose while programming you
-wanted to be able to access fixtures, position palettes, fixture
-attributes and shapes:
+2.  Klicken Sie auf dem eingeblendeten Overlay den Button \{Fixtures\}.
 
-1. Double press the \<View/Open\> button. Press \<Exit\> to get to the root menu then the \[Open Workspace
-Window\] menu softkey.
+3.  Öffnet sich das Fenster nicht in der oberen linken Ecke des
+Touchscreens, so drücken Sie die Taste \<Size/Position\> so oft, bis es
+dort platziert ist. Oder klicken Sie in der Titelleiste des Fensters auf
+das kleine \{Zahnrad\} und platzieren Sie damit das Fenster entsprechend.
 
-2. Find the \[Fixtures\] icon on the screen and press it.
+4.  Betätigen Sie wieder zweimal \<View / Open\> und wählen den Eintrag
+\{Positions\}. Bewegen Sie dieses Fenster mit \<Size/Position\> an die
+gewünschte Stelle.
 
-3. If the window is not in the top left quarter, press the \<Size &
-Position\> button (above the numeric keys) until the window occupies the
-top left quarter. Or press the Settings/Cog touch button on the window
-top bar and press the top left position button in that window.
+5.  Aktivieren Sie auf die gleiche Weise die Fenster \{Attribute
+Editor\} und \{Effects\}.
 
-4. Double press \<View/Open\>  again and select the \[Positions\]
-window. Press the \<Size & Position\> button to position it in the desired
-location.
+6.  Drücken Sie \<View / Open\>, dann \[Record Workspace\], oder
+\<AVO\> + \<View / Open\>. Geben Sie einen Namen für diese Arbeitsumgebung
+ein, und klicken Sie auf die 'Workspace'-Schaltfläche, auf die die
+aktuelle Arbeits­umgebung gespeichert werden soll. Alternativ nutzen Sie
+die ‚Quick Record' (Schnellspeicher)-Funktion: klicken Sie einfach auf
+eine freie ‚Workspace'-Schaltfläche, woraufhin diese rot hervorgehoben
+wird und ein ‚+'-Zeichen zeigt. Geben Sie nun einen Namen ein, und
+klicken Sie erneut auf diese Schaltfläche.
 
-5. Repeat to activate the \[Attribute Control\] and \[Shapes\] windows.
+## Schnellspeichern
 
-6. Press \<View/Open\> then \[Record Workspace\], or hold \<Avo\> and
-press \<View/Open\>. Type in a name for the workspace. Then touch the
-Workspace button where you want to store this workspace layout. Or, you
-can use Quick Record -- just touch an empty workspace button and it will
-turn red with a +. Type a name for the workspace and touch again to
-store it.
+![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png)
+Einige Fenster - für Gruppen, Workspaces sowie die Paletten-Fenster - besitzen eine
+Schnellspeicher-Funktion. Nehmen Sie Ihre Einstellungen vor, und klicken
+Sie einmal auf eine freie Schaltfläche. Diese wird nun rot und mit einem
+Pluszeichen (+) markiert. Nun lässt sich eine Bezeichnung (legend)
+eingeben. Danach nochmals die Schaltfläche betätigen, um das Speichern
+abzuschließen.
 
+Die Schnellspeicher-Funktion lässt sich in den [Tastenprofilen/Key Profiles](../system-settings/key-profiles.md) deaktivieren.
 
+Bei Paletten ist zu beachten, dass die Schnellspeicherfunktion etwas
+anders arbeitet als das Speichern mit der \<Record\>-Taste, siehe [Speichern von Paletten](../palettes/creating-palettes.md#speichern-einer-palette).
 
+## Legenden und Bezeichnungen
 
-Quick record
-------------
+Sämtliche Schaltflächen lassen sich mit frei zu definierenden Legenden
+beschriften, um die Übersicht zu behalten. Ferner lassen sich die
+Schaltflächen auch bemalen. Dazu drücken Sie zunächst \[Set Legends\]
+und wählen dann \[Picture\]; daraufhin öffnet sich ein entsprechendes
+Zeichen-Fenster. Außerdem gibt es bereits eine umfangreiche Bibliothek
+vorgefertigter Zeichnungen.
 
-![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png)Some windows - Groups, Workspaces,
-Playbacks, and all the Palette windows - have a Quick Record function.
-Set up what you want to record, then touch or click an empty button
-once. The button will light up red with a + sign. At this point you can
-enter a legend. Touch or click again to store the item.
-
-The Quick Record function can be disabled for a particular button type using [Key Profiles](../system-settings/key-profiles.md).
-
-For palette buttons, the quick record function works slightly differently to pressing \<Record\> followed by the button. See [Storing a Palette](../palettes/creating-palettes#storing-a-palette).
-
-Legends and picture legends
----------------------------
-
-All touch buttons can have legends set to remind you what they do. In
-addition, you can draw picture legends on the buttons. To do this,
-select \[Set Legend\] then press \[Picture\]. A drawing space will open
-on the touch screen for you to draw the legend. There is also a library
-of pictures to choose from including popular gobo designs.
-
-Colour palettes will automatically create a picture legend showing the
-colour(s) in the palette when you save it. Gobo palettes will show an
-image of the standard gobo, if the fixture personality has this
-information in it.
+Farb-Paletten erhalten automatisch eine Legende mit der entsprechenden
+Farbe. Ebenso erhalten Gobo-Paletten ein Bild des Gobos, sofern die
+Personality die entsprechenden Informationen enthält.
 
 ![Gobos and Beams Workspace Window](/docs/images/Gobos-and-Beams-Workspace-Window.png)
 
-Button Halo
------------
+## Button-Halo
 
-You can set a custom coloured halo for fixture, group or palette
-buttons. This can be really useful for identifying different types of
-button at a glance. Select the \[Halo\] option on the Set Legends menu.
+Sämtlichen programmierbaren Schaltflächen, etwa den Buttons für Geräte,
+Gruppen, Paletten, Playbacks etc., lassen sich farbige Ränder, sog.
+Halos, zuweisen. Damit lassen sich diese auch optisch noch besser
+unterscheiden. Zum Einstellen dieses Halos dient die Option \[Halo\] im
+Legenden-Menü.
 
 ![Halo](/docs/images/Fixture-Halo.png)
 
-If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help identify different types of fixture, which is also used in the patch window.
+Wird ein [Halo für Geräte-Tasten](../patching/changing-the-patch.md#halo-für-fixture-buttons) aktiviert, 
+so wird dessen Farbe auch in anderen Fenstern verwendet. Außerdem können 
+automatisch unterschiedliche Halos pro Gerätetyp vergeben werden, die
+dann auch in der Patch-Ansicht verwendet werden.
 
+## Bildschirmtastatur
 
-Touch Keyboard
---------------
-
-At the end of the toolbar is the keyboard popup button which will open
-the touch keyboard.
+Am Ende der Werkzeugleiste (am Mittelsteg zwischen den Bildschirmen beim
+Sapphire Touch, ansonsten oben im Bildschirm) befindet sich der Button
+zum Aufrufen der Bildschirmtastatur.
 
 ![Keyboard Button](/docs/images/Keyboard-Button.png)
 
-The touch keyboard can be switched between large and small size using
-the Max/Min button and you close it using the large X button in the top
-right hand corner. You can also move it on the screen by touching and
-dragging the blank area of the keyboard at the top.
+Die Bildschirmtastatur kann mit der Schaltfläche \{Max/Min\} zwischen großen
+und kleinen Tasten umgeschaltet werden; mit der Schaltfläche \{X\} wird
+sie geschlossen. Per Anklicken und Ziehen des freien Bereiches oben in
+der Bildschirmtastatur lässt sich diese frei positionieren.
 
-If you want the keyboard to pop up automatically when text input is
-required, set the Man/Auto button to "Auto". This setting will stay
-active until you change it back to "Manual".
+Soll die Tastatur automatisch erscheinen, sobald eine Texteingabe
+erforderlich ist, so kann das mittels \{Man/Auto\} eingestellt werden. Diese
+Einstellung bleibt auch beim Schließen der Tastatur aktiv, bis sie
+wieder geändert wird.
 
-The small version of the keyboard (pictured) does not have some of the
-less frequently used buttons.
+Die kleine Darstellung der Tastatur (siehe Abbildung) verzichtet auf
+einige weniger gebräuchliche Tasten.
 
 ![Keyboard](/docs/images/Keyboard.png)
 
+## Trackball (nur beim Sapphire Touch)
 
-Trackball (Sapphire Touch only)
------------------------------------
+Mit dem Trackball rechts auf dem Pult lässt sich entweder die Maus
+steuern, oder die selektierten Geräte.
 
-The trackball on the right of the console can be used either to control
-the mouse pointer on the touch screens and external monitors, or to
-control fixtures.
+Zur Auswahl des Maus-Modus halten Sie die Taste \<Assign\> (unterhalb
+des Trackballs) gedrückt und betätigen dazu die Taste \<Left\> (für: linke
+Maustaste). Nun steuert der Trackball die Position des Mauszeigers auf
+den Bildschirmen; mit dem Ring um den Trackball kann in den Fenstern
+gescrollt werden.
 
-To use in mouse mode, hold the \<Assign\> button below the trackball and
-click the \'Left\' mouse button. The trackball will then control the
-mouse pointer and the ring will scroll windows up and down.
+Um in den Modus zur Gerätesteuerung zu schalten, drücken Sie
+\<Assign\> + \<Right\>: nun steuert der Trackball Pan und Tilt, und mit
+dem Ring kann Tilt sehr fein geregelt werden.
 
-To use in console mode for controlling fixtures, press the \<Assign\>
-button on its own. The trackball will control pan and tilt of selected
-fixtures, and the ring controls fine tilt.
+## Mini-Display (Nur beim Arena)
 
-Mini Screen (Arena only)
-------------------------
+Mit der Taste \<Display\> unterhalb der Encoder rechts oben kann man 
+zwischen vier Ansichten auf dem Mini-Display umschalten:
 
-The \<Display\> button below the rotary encoders toggles through four
-fixed layouts for the Mini screen:
-
-- Workspace window(s) with encoder legends on the right
+- Arbeitsfenster mit Legenden für die Encoder
 ![Arena Miniscreen](/docs/images/Arena-Miniscreen.png)
 
-- Workspace window(s) with macro button legends below
+- Arbeitsfenster mit Legenden für die Macro-/Executortasten
 ![Mini Screen Macros](/docs/images/Mini-Screen-Macros.png)
 
+- Fenster "feste Playbacks" - Dieses Fenster kann nicht auf den anderen
+Bildschirm verschoben werden, und andere Fenster überlagern es nicht.
+Die ersten beiden Zeilen sind identisch mit den Macro-/Executortasten
+darunter.
 
-- Fixed playbacks window - in this mode the first two rows of touch
-buttons are the same as the macro buttons below. This window cannot be
-moved to another screen, and other windows open on the Mini screen will
-move to the main screen when this layout is set.
-
-- Workspace window(s) fill the full screen, no button/encoder legends
-shown.
+- Arbeitsfenster, ohne Legenden für Encoder oder Macrotasten.
 
 
-Compatibility windows for Pearl Expert shows
---------------------------------------------
+## Compatibility windows -- die 'Kompatibilitäts-Fenster'
 
-The "Fixtures and Playbacks" and "Groups and Palettes" windows allow you
-to access the preset fader handles in shows which have been programmed
-on the Pearl Expert.
+Die Fenster "Fixtures and Playbacks" (Geräte und Speicherplätze) und
+"Groups and Palettes" (Gruppen und Paletten) ermöglichen Zugriff auf die
+Speicherplätze/Tasten, die zwar auf einem Pearl Expert, nicht aber auf
+anderen Pulten vorhanden sind. Damit lassen sich also auch auf dem
+Expert erstellte Shows laden.
 
-When either of these windows is opened, there is a context button option
-to \[Move to workspace\]. This will move the handles from the
-compatibility window to the appropriate workspace window. You need to do
-this twice, once with the "Fixtures and playbacks" window selected, and
-once with the "Palettes and groups" window selected.
+Ist eins dieser Fenster geöffnet, gibt es die Schaltfläche \{Move to
+workspace\} im Kontextbereich. Damit lassen sich die betreffenden
+Schaltflächen in die richtigen Arbeitsfenster der anderen Titan-Pulte
+verschieben. Diesen Vorgang muss man zweimal ausführen: einmal mit
+ausgewähltem Fenster "Fixtures and Playbacks", und einmal mit "Palettes
+and Groups".
+
+
+
+

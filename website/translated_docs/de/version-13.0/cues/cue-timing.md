@@ -5,240 +5,255 @@ sidebar_label: Cue Timing
 original_id: cue-timing
 ---
 
-The console allows a wide variety of timing functions to be set for each
-cue.
+Es lassen sich viele verschiedene Zeiteinstellungen für Cues vornehmen.
 
-Setting Fade Times and Overlap for a Cue
-----------------------------------------
+Einstellen von Überblendzeiten und Geräteversatz
+------------------------------------------------
 
-When programming a cue, you can set a delay, fade in and fade out time
-for each attribute of each fixture, or globally for the cue. Shapes in
-the cue will also be affected, depending on the [fade mode](#fade-modes).
+Beim Programmieren von Cues lassen sich Verzögerung, Ein- und
+Ausblendzeit für den Cue insgesamt oder aber für einzelne Attribute und
+Geräte getrennt einstellen. Sind in dem Cue auch Shapes vorhanden, so
+werden diese, abhängig vom [Fade Mode](#fade-modes), davon auch beeinflusst.
 
-> If you enter times more than 60 seconds, Titan will automatically split the time into minutes and seconds, for example enter **115** to set **1:15** *(1min 15 seconds)*. Entering more digits will set hours, minutes, seconds.
+> Gibt man längere Zeiten als 60 Sekunden ein, so wird die Eingabe von der Software automatisch in Minuten und Sekunden aufgeteilt. Gibt man z.B. **115** ein, so wird das als **1:15** (also 1 Min 15 Sek) gewertet. Gibt man noch mehr Stellen ein, so werden diese als Stunden:Minuten:Sekunden interpretiert.
 
-You can delay the fade times between fixtures in a cue so that the cue
-is applied sequentially to each fixture. This is called **Fixture Overlap**
-and can create some amazing *"peel off"* or *"roll"* type effects with no
-programming at all.
+Die Überblendzeiten lassen sich zwischen den einzelnen Geräten
+verzögern, so dass der Cue nacheinander auf die einzelnen Geräte
+eingeblendet wird. Dies bezeichnet man als **Fixture Overlap**
+(Geräteversatz), und es gestattet, vielfältige Effekte ohne großen
+Programmieraufwand zu realisieren.
 
-In the diagram below, the top picture shows how the LTP channels change
-when used with delay, fade and fade out times. The second picture shows
-how the HTP channels change. The third and fourth pictures show what
-happens to the LTP channels when fixture overlap and attribute fade are
-used.
+Im nachfolgenden Schema zeigt das obere Bild den Wechsel eines
+LTP-Kanals unter Berücksichtigung von Verzögerungs- und Überblendzeiten.
+Das zweite Diagramm zeigt den entsprechenden Wechsel eines HTP-Kanals.
+In den beiden letzten Bildern sind 'Fixture Overlap' sowie das separate
+Faden einzelner Attribute dargestellt.
 
 ![Fade time, delay time, fixture overlap and attribute fade time diagram](/docs/images/Fade-time-delay-time-fixture-overlap-and-attribute-fade-time-diagram.png)
 
-All times which you have set while programming the fixtures/dimmers will
-be recorded when you save the cue.
+Alle beim Programmieren des Cues eingestellten Zeiten werden in den Cue
+gespeichert.
 
-You can also edit times of a cue you have already saved like this:
+Gespeicherte Zeiten lassen sich wie folgt ändern:
 
-1. Press \[Edit Times\] at the top level menu
+1. Drücken Sie \[Edit Times\] im Hauptmenü.
 
-2. Press the **Swop** button of the cue
+2. Drücken Sie die **Swop-Taste** des Cues.
 
-3. Press \[Fade Mode x\] to set the cue mode.\
-*This sets how the times are used, [see below](#fade-modes).*
+3. Drücken Sie \[Fade Mode x\], um den 'Fade Mode' (Überblendmodus)
+einzustellen.\
+*Das bestimmt, wie die Zeiten verwendet werden, [siehe unten](#fade-modes).*
 
-4. Press \[Delay time\] to set the delay before the cue starts, \[Fade
-time\] to set the fade-in time of the cue, and \[Fade out time\] to set
-the fade-out time of the cue.
+4. Drücken Sie \[Delay time\], um die Verzögerungszeit vor Beginn des
+Cues einzugeben, \[Fade time\] für die Einblendzeit, sowie \[Fade out
+time\] für die Eingabe der Ausblendzeit.
 
-5. Type the new time (in seconds) using the numeric keypad and press
-\<Enter\> to save it.
+5. Geben Sie die jeweilige Zeit mit den Zifferntasten (in Sekunden)
+ein, und schließen Sie die Eingabe mit \<Enter\> ab.
 
-6. Press \[Fixture Overlap\] to change the overlap, then enter **0 - 100** on
-the keypad.\
-**100%** means all fixtures fade together.\
-**0%** means that the first fixture will finish its fade before the next one starts.\
-**50%** means that the 2^nd^ fixture will start fading when the first one is half way
-through its fade.\
-The order of the fixtures is set by the order youselected them *(but you
-can change this, see [Changing Fixture Order](#changing-fixture-order))*.
+6. Drücken Sie \[Fixture Overlap\] zur Einstellung des Geräteversatzes,
+gefolgt von einem Wert **0...100** auf den Zifferntasten.\
+**100%** bedeutet: alle Geräte blenden gemeinsam über.\
+**0%** bedeutet: das vorherige Gerät muss die Überblendung abgeschlossen 
+haben, bevor das nächste damit beginnt.\
+**50%** bedeutet: das nächste Gerät beginnt mit der Überblendung,
+wenn das vorherige seine Überblendung zur Hälfte abgeschlossen hat.\
+Die
+Reihenfolge der Geräte wird bestimmt durch die Reihenfolge beim Anwählen
+der Geräte *(kann aber später geändert werden, siehe [Ändern der Geräte-Reihenfolge](#ändern-der-reihenfolge-der-geräte))*.
 
-7. Press \<Exit\> to get out of Edit Times mode.
+7. Drücken Sie \<Exit\> zum Verlassen des Menüs.
+
 
 ---
 
--   You can also set independent times for the **IPCGBES** attribute groups,
-    and for each individual attribute, *(see
-    [Setting Attribute Fade Times for a Cue](#setting-attribute-fade-times-for-a-cue)
-    for details of this)*.
+-   Ebenso lassen sich sowohl für die **IPCGBES**-Attributgruppen als auch
+    für jedes Attribut einzeln gesonderte Zeiten vergeben, siehe
+    [Ändern der Attribut-Fadezeit](#eingeben-von-überblendzeiten-für-einzelne-attribute).
 
--   You can quickly set times from the keypad using the \<Time\> button,
-    e.g. \<Time\> \<5\> \<And\> \<2\> sets 5 sec fade in and 2 sec fade out.
-    *(The Time button is the button previously labelled \<Set\> on Titan
-    Mobile and Sapphire Touch, and \<Next Time\> on Tiger Touch and Pearl
-    Expert)*.
+-   Mit der Taste \<TIME\> lassen sich Zeiten sehr komfortabel mit dem
+    Ziffernblock eingeben, z.B. ergibt \<TIME\> \<5\> \<AND\> \<2\> 5s Ein- und
+    2s Ausfadezeit *(auf früheren Pulten liegt die Times-Funktion auf der
+    Taste \<SET\> (Titan Mobile/Sapphire Touch) bzw. \<NEXT TIME\>
+    (Tiger Touch/Pearl Expert))*.
 
 ### Fade Modes
 
-The times you enter are affected by the cue mode which is set using the
-\[Fade Mode\] option. This option can also be set from \[Playback Options\],
-\[Fade Mode\]:
+Die eingegebenen Zeiten werden abhängig vom 'Fade Mode' (Überblendmodus)
+wie folgt interpretiert (auch erreichbar über \[Playback Options\]
+\[Fader\]):
 
--   \[Mode 0\] - Channels will fade in as set by the fade time. The Fade
-    Out time is ignored. If times are set to zero, the HTP channels fade
-    in with the 0-100% position of the playback fader and the LTP
-    channels will snap.
+-   \[Mode 0\] - die Kanäle blenden in der vorgegebenen Zeit über, die
+    Ausblendzeit wird dabei ignoriert. Stehen die Zeiten auf '0', so
+    werden HTP-Kanäle direkt mit dem Fader eingeblendet, während
+    LTP-Kanäle 'hart' umschalten.
 
--   \[Mode 1\] - Channels fade in as set by the fade time. HTP channels fade
-    out as set by the fade out times (LTP channels remain as set in the
-    cue). If times are set to zero, the HTP levels will fade in and out
-    with the fader and the LTP channels will snap when the cue is fired.
+-   \[Mode 1\] - die Kanäle blenden in der vorgegebenen Zeit ein, HTP Kanäle
+    blenden in der vorgegebenen Ausblendzeit aus (LTP-Kanäle behalten
+    ihre Werte). Stehen die Zeiten auf '0', so werden HTP-Kanäle direkt
+    mit dem Fader eingeblendet, während LTP-Kanäle 'hart' umschalten.
 
--   \[Mode 2\] - Channels will fade in as set by the fade time. The Fade
-    Out time is ignored. However, the fade will stop when the fader
-    position is reached, so if the fader is set to 50%, the attributes
-    will stop half way to their programmed position. You can reverse the
-    fade back to the original position by moving the fader back. If
-    times are set to zero, both HTP and LTP channels are controlled by
-    the fader position.\
-    In this mode LTP channels revert to their previous settings when the
-    cue is deactivated.\
-    *Mode 2 is useful when used with a pan/tilt cue for manually tracking
-    a spot across a stage or down a catwalk using the fader position, or
-    for colour mixing using RGB fixtures.*
+-   \[Mode 2\] - die Kanäle blenden in der vorgegebenen Zeit ein, die
+    Ausblendzeit wird ignoriert. Das Überblenden stoppt, sobald die
+    Position des Fader erreicht ist; steht dieser etwa auf 50%, so
+    erfolgt das Überblenden nur zur Hälfte. Bringt man den Fader wieder
+    auf '0', so kehren die Kanäle zu den vorherigen Werten zurück.
+    Stehen die Zeiten auf '0', so werden HTP- und LTP-Kanäle direkt mit
+    dem Fader gesteuert. \
+	In diesem Modus kehren LTP-Kanäle generell zu
+    den vorherigen Werten zurück, sobald der Cue deaktiviert wird.\
+    *Mit Mode 2 lässt sich z.B. auch eine manuelle Verfolgersteuerung
+    etwa für einen Laufsteg realisieren, indem der Cue nur Pan/Tilt
+    enthält und dann auf Mode 2 gestellt wird. Dieser Modus bietet sich
+    auch für die Steuerung der einzelnen Farben bei RGB-Lampen an*.
 
--   \[Mode 3\] - Crossfade cue. All channels, including intensity channels,
-    will fade to the settings in the new cue. All other cues fade out
-    and all other active playbacks become inactive; if you need to
-    re-fire a playback, take the fader to zero and put it up again.
+-   \[Mode 3\] - Crossfade (Überblendung). Sämtliche Kanäle, einschließlich
+    der Helligkeit, blenden zu den Einstellungen des neuen Cues über,
+    alle anderen noch aktiven Cues werden ausgeblendet und deaktiviert.
+    Wird ein anderer Cue wieder benötigt, so bringen Sie dessen Regler
+    auf '0' und dann wieder auf den gewünschten Wert.
 
->   If the cue includes shapes, then the shape will change with fade
-    times. The changes will be timed for a \[Mode 1\] cue and controlled by
-    the fader position for a \[Mode 2\] cue. This allows you to create a
-    shape which gets bigger or faster as you push up the fader.
+>   Enthält der Cue Shapes, so ändern sich diese mit den eingestellten
+    Überblendzeiten. Im \[Mode 1\] ändern sich die Shapes abhängig von den
+    Zeiten, in \[Mode 2\] abhängig von der Faderstellung. Damit lassen sich
+    etwa Shapes realisieren, die abhängig vom Fader schneller oder
+    größer werden.
 
-Changing Fixture Order
-----------------------
+Ändern der Reihenfolge der Geräte
+---------------------------------
 
-You can change the order of the fixtures stored in a cue. Normally this
-is set to the order in which you selected the fixtures when the cue was
-created, but you might want to change this *(for example to pair up
-fixtures so they move together when using
-[Overlap](#setting-fade-times-and-overlap-for-a-cue))*.
+Die Reihenfolge der Geräte in einem Cue lässt sich nachträglich ändern.
+Normalerweise wird diese mit der Reihenfolge der Auswahl der Geräte beim
+Erstellen des Cues festgelegt, aber ggf. möchte man diese später ändern
+*(etwa, um Geräte bei der Nutzung von [Fixture Overlap](#einstellen-von-überblendzeiten-und-geräteversatz) 
+paarweise zusammenzufassen)*.
 
-1. Press \[Edit Times\] at the top level menu
+1. Drücken Sie \[Edit Times\] im Hauptmenü.
 
-2. Press the **Swop** button of the cue to be changed
+2. Drücken Sie die **Swop-Taste** des zu ändernden Cues.
 
-3. Press \[Fixture Order\]
+3. Drücken Sie \[Fixture Order\].
 
-4. Set the sequence number to start from using \[softkey A\]
+4. Wählen Sie die Schrittnummer, ab der Sie beginnen möchten, mit der
+Menütaste \<A\>.
 
-5. If you want the sequence number to increase automatically, set
-\[Autoincrement\] to **On**. If you want some fixtures to have the same
-sequence number, set it to **Off**.
+5. Soll die Schrittnummer automatisch erhöht werden, so stellen Sie
+\[Autoincrement\] auf **On**. Sollen mehrere Geräte die gleiche
+Schrittnummer bekommen, stellen Sie diese Option auf **Off**.
 
-6. Touch the **Select** buttons of the fixture(s) you want to place in that
-position in the sequence. The sequence number is shown in the top right
-hand corner of the fixture select touch buttons.
+6. Betätigen Sie die Schaltfläche des Gerätes, das Sie an dieser Stelle
+in der Sequenz haben möchten. Die Schrittnummer wird jeweils oben rechts
+in den Geräte-Schaltflächen angezeigt.
 ![Fixtures Window setting Fixture Order](/docs/images/Fixtures-Window-showing-fixture-order.png)
 
-7. Press \<Exit\> to finish.
+7. Drücken Sie \<Exit\>, um das Menü zu beenden.
 
 ---
 
--   You can set several fixtures to have the same sequence number. This
-    means, for example, when used with Overlap they will all do the same
-    thing at the same time.
+-   Ebenso kann man mehreren Geräten die gleichen Schrittnummern geben.
+    Damit lässt sich erreichen, dass bei Verwendung des Geräteversatzes
+    mehrere Geräte gleichzeitig beeinflusst werden.
 
--   You can remove a fixture from the sequence by turning off
-    \[Autoincrement\] and pressing the fixture button twice. The fixture
-    sequence will show X. Touch the button again to put it back in the
-    sequence.
+-   Einzelne Geräte kann man auch komplett aus der Folge entfernen;
+    schalten Sie dazu \[Autoincrement\] auf 'Off' und klicken Sie die
+    Geräteschaltfläche zweimal (daraufhin wird statt der Schrittnummer ein 'X'
+    angezeigt). Betätigen Sie die Geräte-Schaltfläche nochmals, um das
+    Gerät wieder in die Folge aufzunehmen.
 
-Setting Attribute Fade Times for a Cue
---------------------------------------
+Eingeben von Überblendzeiten für einzelne Attribute
+---------------------------------------------------
 
-You can set individual fade times for each attribute group (such as
-Position). If you set a time, it overrides the normal times.
+Es lassen sich spezifische Überblendzeiten für die einzelnen
+Attributgruppen vergeben (etwa für 'Position'). Wird eine solche Zeit
+eingegeben, so überschreibt diese die allgemein vergebenen Zeiten.
 
-To set an attribute group fade time:
+Zur Eingabe der Überblendzeit für Attributgruppen gehen Sie wie folgt
+vor:
 
-1. Press \[Edit Times\] at the top level menu
+1. Drücken Sie \[Edit Times\] im Hauptmenü.
 
-2. Press the **Swop** button of the cue to be changed
+2. Drücken Sie die **Swop-Taste** des jeweiligen Cues.
 
-3. Press the Attribute Bank button (right hand side) for the attribute
-you want to change
+3. Drücken Sie die Taste der Attributgruppe (IPCGBES Buttons, oder 
+rechts auf dem Pult bei älteren Pulten) des Attributes, das Sie ändern möchten.
 
-4. Press \[Delay\] to set delay time or \[Set fade\] to set fade time
+4. Drücken Sie \[Delay = \] zur Eingabe einer Verzögerung oder \[Fade = \] 
+zur Eingabe einer Überblendzeit.
 
-5. Type the new time using the numeric keypad and press \<Enter\> to
-save it, or press \[Use Global\] to delete the attribute times and go
-back to the normal times.
+5. Geben Sie die gewünschte Zeit mit den Zifferntasten, gefolgt von
+\<Enter\>, ein, oder drücken Sie \[Use Global\], um die gesonderten
+Attributzeiten zu löschen und die allgemeinen Zeiten des Cues zu
+verwenden.
 
-6. Press \<Enter\> to save the changes.
+6. Drücken Sie \<Enter\> zum Speichern der Änderungen.
 
-You can take this even further and set individual fade times for each
-fixture. When you select the cue to be changed, you will see that all
-the fixtures in the cue are selected. To set attribute times for only
-certain fixtures, change the fixture selection using the **Swop** buttons.
+Dies lässt sich weiter verfeinern, indem man etwa jedem einzelnen Gerät
+unterschiedliche Zeiten gibt. Sobald Sie einen Cue zum Ändern auswählen,
+sehen Sie, dass automatisch alle Geräte des Cues angewählt sind. Um nur
+einzelne Zeiten zu ändern, ändern Sie die Geräteauswahl mit den
+entsprechenden Auswahl-Schaltflächen.
 
-The [Cue View window](editing-cues.md#cue-view) will display when editing cue timings to help you
-see what you are editing. You can touch fixtures or attributes in the
-grid to select which items are going to be edited.
+Das [Fenster Cue View](editing-cues.md#cue-view) erscheint, sobald die Zeiten
+editiert werden. Innerhalb dieses Fensters kann man direkt Geräte und
+Attribute zum Editieren auswählen.
 
-Press the \<All\> button to select all fixtures in the cue.
+Betätigen Sie die Taste \<ALL\>, um wieder alle Geräte in dem Cue
+auszuwählen.
 
-When you are in the Set Attribute Times menu you can only select
-fixtures which are in the cue you are editing.
+Innerhalb des Menüs 'Set Attribute Times' lassen sich nur Geräte
+auswählen, die bereits in dem Cue enthalten sind.
 
-Editing Times in the Programmer
--------------------------------
+Editieren der Zeiten im Programmer
+----------------------------------
 
-You can check and edit the times which are set in the programmer before
-saving a cue. You can also set times into the programmer and
-[merge](editing-cues.md#editing-a-cue-by-merging) them
-into cues as a quick way of updating times, just like you would with
-attribute values.
+Die Zeiten im Programmierspeicher lassen sich vor dem Speichern eines
+Cues überprüfen und ändern. Ebenso lassen sich Zeiten einstellen und in
+bestehende Cues verschmelzen ([mergen](editing-cues.md#editieren-eines-cues-durch-verschmelzen-merge)), genau wie man Attribut-Werte verschmilzt.
 
-Press the \<Time\> button to access this menu.
+Drücken Sie die Taste \<TIME\>, um in dieses Menü zu gelangen.
 
->   On Titan Mobile and Sapphire Touch, the Time button is the key above
-    \<Clear\> (previously labelled \<Set\>). On Pearl Expert and Tiger Touch
-    it is the key previously labelled \<Next Time\>.
+>   Auf dem Titan Mobile und dem Sapphire Touch liegt diese Funktion auf
+    der Taste oberhalb der \<Clear\>-Taste (Taste \<SET\>). Auf dem Tiger
+    Touch und dem Pearl Expert ist es die Taste \<NEXT TIME\>.
 
-The menu allows you to set cue times, or times for all attributes of a
-fixture, attribute groups or individual attributes.
+Es lassen sich Zeiten für den gesamten Cue, für einzelne Geräte, für
+Attributgruppen oder einzelne Attribute einstellen.
 
 ![Edit Programmer Cue Times in the Titan Go interface](/docs/images/Edit-Programmer-Cue-Times-in-the-Titan-Go-interface.png)
 
-Using the \<Time\> button there are various quick shortcuts to setting
-times.
+Unter Verwendung der Taste \<TIME\> gibt es folgende Tastatur-Syntax:
 
--   \<Time\> \<5\> = 5 sec fade in
+-   \<Time\> \<5\> = 5 s Einfadezeit.
 
--   \<CUE\> \<3\> \<Time\> \<5\> = 5 sec fade in on connected playback's cue 3
+-   \<CUE\> \<3\> \<Time\> \<5\> = 5 s Einfadezeit für Cue 3 der verbundenen
+    Cueliste.
 
--   \<Time\> **FIXTURE** \<5\> = 5 sec fade in for all attributes of selected
-    fixtures
+-   \<Time\> \<FIXTURE\> \<5\> = 5 s Einfadezeit für alle Attribute der
+    gewählten Geräte.
 
--   \<Time\> **FIXTURE** \<G\> \<5\> = 5 sec fade in for gobo attribute group of
-    selected fixtures
+-   \<Time\> \<FIXTURE\> \<G\> \<5\> = 5 s Einfadezeit für die Gobo-Kanäle der
+    gewählten Geräte.
 
--   \<Time\> **FIXTURE** \<\@B\> \<5\> = 5 sec fade in for attribute connected to wheel
-    B on selected fixtures
+-   \<Time\> \<FIXTURE\> \<\@B\> \<5\> = 5 s Einfadezeit für das momentan
+    auf Rad B liegende Attribut der gewählten Geräte.
 
--   \<5\> \<@\> \<3\> = 5 sec fade in, 3 sec delay
+-   \<5\> \<@\> \<3\> = 5 s Einfadezeit, 3 s Delay.
 
--   \<5\> \<AND\> \<2\> = 5 sec fade in, 2 sec fade out
+-   \<5\> \<AND\> \<2\> = 5 s Ein-, 2 s Ausfadezeit.
 
--   \<1\> \<THRO\> \<10\> = times spread across fixtures according to selection
-    order
+-   \<1\> \<THRO\> \<10\> = Auffächern der Zeit zwischen den gewählten Geräten
+    in der Reihenfolge deren Auswahl.
 
 [](https://youtu.be/GHq9b3PT8U0?t=20 "Timing Syntax")
 
-Individual attribute times can also be set from the wheels, using the
-\[Wheels\] softkey option on the root menu.
+Zeiten für einzelne Attribute lassen sich auch mit den Encodern
+einstellen; wählen Sie dazu mit der Funktionstaste \[Wheels\] im
+Hauptmenü die gewünschte Arbeitsweise der Räder.
 
-Using the \<Options\> button while showing the times allows you to set
-the **Speed**, **Effect Multiplier**, **Speed Multiplier** and **speed source** in the
-programmer. Speed and Speed Multiplier would only do anything if you
-create a [chase](../chases.md) and would have no effect in a cue.
+Mit der Taste \<Options\> lassen sich, während die Zeiten angezeigt
+werden, die Parameter **Speed**, **Effect Multiplier**, **Speed Multiplier** und
+**Speed Source** im Programmer, so dass sie einfach direkt in die nächsten
+Playbacks gespeichert werden können. Speed und Speed Multiplier haben nur
+Auswirkungen auf [Chaser](../chases.md), nicht auf einzelne Cues.
 
 ![Edit Programmer Rate Settings Menu, found by pressing Options](/docs/images/Edit-Programmer-Rate-Settings-Menu-found-by-pressing-Options.png)

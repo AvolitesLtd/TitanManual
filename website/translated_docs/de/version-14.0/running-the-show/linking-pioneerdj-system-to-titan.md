@@ -5,76 +5,140 @@ sidebar_label: Linking PioneerDJ System to Titan
 original_id: linking-pioneerdj-system-to-titan
 ---
 
-Using the Pioneer Pro DJ Link Bridge software you can automate BPM masters on the Titan console from a network-equipped Pioneer DJ system. You can either run the bridge software on the console itself or on an intermediate laptop.
+Mit der Software Pioneer Pro DJ Link Bridge können BPM-Master innerhalb
+von Titan durch geeignete Pioneer DJ-Systeme gesteuert werden. Die
+Bridge-Software kann dabei direkt auf dem Titan-Pult oder einem externen
+Laptop laufen.
 
 [](https://youtu.be/vwr1DBJjBbw "PioneerDJ Integration")
 
-Connecting Titan to the Pioneer System
+Titan und das Pioneer-System verbinden
 --------------------------------------
 
-You need to get the console and the Pioneer equipment connected to the same network. The Pioneer equipment has some limitations with its network IP address - it either needs to be assigned an address using DHCP or it uses an automatic address in the range 169.254.\*.\* - which means that if you are already using networking to control the lights (ArtNet or sACN) things can get a bit complicated as many lighting products cannot use that address range.
+Titan und das Pioneer-System müssen sich im gleichen Netzwerk befinden.
+Die Pioneer-Geräte gestatten keine explizite Netzwerk-Konfiguration. Es
+ist vielmehr ein DHCP-Server oder eine automatische Adressvergabe per
+mDNS erforderlich, zu erkennen an einer automatischen Adresse wie
+169.254.\*.\* Nutzt man gleichzeitig Art-Net oder sACN im gleichen
+Netzwerk, so kann die Einrichtung kompliziert werden, da viele externe
+Geräte auf bestimmte Adressbereiche festgelegt sind.
 
-**Pioneer Bridge running on the console**
+### Pioneer Bridge auf dem Pult
 
-If you aren’t using networking, or your console has two network interfaces, or you can adjust your lighting to a suitable address range, then you can run the Pioneer Bridge software on the console itself. If your console includes an ethernet switch, you can connect the “Extension” ethernet socket on the Pioneer equipment directly to the console, otherwise you need to go through an external switch.
+Verwendet man Art-Net/sACN nicht oder hat getrennte
+Netzwerkschnittstellen zur Verfügung, dann kann Pioneer Bridge direkt
+auf dem Pult laufen. Dabei sollte man unbedingt einen Netzwerk-Switch
+verwenden; hat das Pult keinen solchen eingebaut (wie etwa das Arena),
+so ist ein externer Switch erforderlich.
 
-Run the Pro DJ Link Bridge software from the Tools \> Additional Programs menu on the console.
+Starten Sie die Pro DJ Link Bridge Software über das Menü **Tools \>
+Additional Programs**.
 
-- You can set the Bridge software to run automatically when the console powers up using the Tools \> Control Panel \> Run on Startup menu option. This is useful in club environments where the console is always linked.
+-   Wenn erforderlich lässt sich dies mit **Tools \> Control Panel \> 
+	Run on Startup** automatisch starten, etwa in Clubs, wo
+    das Programm immer benötigt wird.
 
 ![Pro-DJ link bridge command on shell menu](/docs/images/Pro-DJ-link-bridge-command-on-shell-menu-2.png)
 
-Look at the Interface tab of the bridge software to see what IP address is being used by the Pioneer equipment. You need to set the network interface on the console to use an IP address in the same range – if it is using DHCP, just set the console to DHCP as well, or if using the automatic addresses set a fixed address. For example if the bridge is set to 169.254.225.212 as in the image below, set the console to 169.254.225.1 (assuming nothing else on the network is using that address).
+Auf dem Reiter 'Interface' zeigt die Bridge-Software die
+Netzwerkadresse an, die von den Pioneer-Geräten verwendet wird. Das
+Pult muss im gleichen Adressbereich sein. Verwendet man DHCP, so
+kann man auch das Pult zur Verwendung von DHCP einrichten, oder man
+vergibt eine geeignete Adresse statisch. Verwendet das
+Pioneer-System z.B. 169.254.225.212, so kann man das Pult auch
+statisch auf 169.254.225.1 setzen (wenn diese Adresse nicht
+anderweitig verwendet wird).
 
 ![Pro-DJ link bridge command on shell menu](/docs/images/Pro-DJ-link-bridge-command-on-shell-menu.png)
 
-- Once you have everything connected up and have got all the IP addresses right, the bridge software should show connections for both the Titan console and the DJ mixer.
-- Some ArtNet / sACN equipment can be configured to run on the 169.254.\*.\* address range, in which case you can run everything on the same network.
+-   Ist alles richtig eingerichtet und verbunden, so zeigt die
+    Bridge-Software grüne Symbole sowohl für das Pult als auch das/die
+    Pioneer-Geräte.
 
-**Pioneer Bridge running on separate computer**
+-   Manche Art-Net/sACN-Geräte können auch im Adressbereich
+    169.254.\*.\* betrieben werden. In diesem Fall funktioniert auch
+    Art-Net/sACN und Pioneer DJ über das gleiche Netzwerk.
 
-If you need to keep the Pioneer network separate to the lighting network and your console only has a single network port, or if you just prefer to have the bridge separate from the console, then you can download the bridge software from the Pioneer website and run it on a separate computer.
-If you need two separate address ranges then your computer will need two network interfaces.
-Once you have everything connected up and have got all the IP addresses right, the bridge software should show connections for both the Titan console and the DJ mixer.
+### Pioneer Bridge auf einem separaten Computer
 
-Pioneer Workspace window
-------------------------
+Will oder muss man die Bridge-Software auf einem separaten Computer
+laufen lassen, so kann man die Software einzeln von der Pioneer-Website
+herunterladen und installieren.
 
-From the \[Open Workspace Window\] menu, select the \[PioneerDJ\] option.
+Sind getrennte Netzwerkbereiche erforderlich, so benötigt man einen
+Computer mit zwei Netzwerkanschlüssen.
+
+Ist alles richtig eingerichtet und verbunden, so zeigt die
+Bridge-Software grüne Symbole sowohl für das Pult als auch das/die
+Pioneer-Geräte.
+
+Das PioneerDJ-Fenster
+---------------------
+
+Zum Öffnen des Fensters drücken Sie zweimal auf \<View / Open\> und klicken
+auf den Button \[PioneerDJ\].
 
 ![Pioneer Workspace window](/docs/images/Pioneer-Workspace-window.png)
 
-The top of the window shows a big (detail) waveform and a small (full track) waveform for the current track. Multiple tracks can be shown one above the other.
-Below that, details of the current track playing on each device is shown.
-At the bottom, the connection status of the Pioneer equipment is shown – green when connected.
-You can select which track is currently the Master by pressing the track number on the left or in the detail area at the bottom. A red “M” shows which track is the master. If you assign your trigger as “Master” this lets you quickly change which track is controlling the BPM.
+Im oberen Bereich wird das Signal des laufenden Tracks groß
+(detailliert) und klein (dafür der ganze Track) angezeigt. Mehrere
+Tracks können übereinander angezeigt werden.
 
-Context menu buttons allow you to show or hide the big and small waveform displays, the track details and the status bar. The other elements of the window will change to fill the space.
+Darunter werden Details zur jedem gerade laufenden Track eingeblendet.
+
+Ganz unten werden die verbundenen Pioneer-Decks grün angezeigt.
+
+Um einen Track als Master auszuwählen, klickt man links oder unten auf
+die Tracknummer. Der aktuell als Master verwendete Track wird durch ein
+rotes M angezeigt; dieser kann zum Steuern der BPM-Master verwendet
+werden.
+
+Mittel Kontextfunktinen lässt sich die Anzeige der einzelnen Elemente
+jeweils aktivieren oder abschalten (große und kleine Signalanzeige,
+Track-Details und Statusleiste).
 
 ![Pioneer context menu buttons](/docs/images/Pioneer-context-menu-buttons.png)
 
-- The \[Zoom\] button allows you to set the scale of the big waveform.  
+-	Mit \[Zoom\] wird die Vergrößerung der großen Signalanzeige eingestellt.
 
-- The \[Change Layout\] button allows you to select the view in the workspace. This is useful if you want a smaller window:  
-\[Full\] – shows all the currently playing tracks  
-\[Master\] – shows only the waveform of the master track  
-\[Condensed\] -  shows details of all the tracks at the bottom, but only shows the waveform of the master track. You can change the master track by pressing the track number in the Track Details area.  
+-	Mit \[Change Layout\] kann zwischen verschiedenen Layouts des Fensters
+	umgeschaltet werden:
+	-	\[Full\] -- Anzeige aller laufenden Tacks\
+	-	\[Master\] -- Anzeige nur des aktuellen Master-Tracks\
+	-	\[Condensed\] -- Details werden für alle Tracks angezeigt, die
+		Signalkurve aber nur für den aktuellen Master-Track. Der Master-Track
+		kann durch Anklicken der Tracknummer im Detail-Bereich (unten) gewählt
+		werden. 
 
-Setting up BPM triggers from Pioneer
-------------------------------------
+BPM-Master per Pioneer DJ triggern
+----------------------------------
 
-You will need a fader on the console configured as a BPM master which will be automatically controlled by the track BPM playing on the Pioneer devices. See [BPM Master](../running-the-show/playback-controls.md#bpm-master-options) section for how to set up a BPM master.
-Enter System mode and select \[Triggers\]. The Triggers window will open.
-1. Add a new mapping using the + button at the bottom of the left hand column, and enter a name such as “Pioneer”.
-2. Add a trigger to the mapping using the + button in the right hand column or softkey \[Add trigger\].
-3. Select \[Trigger Type\] as \[Item\].
-4. Press the button for the BPM master you want to control.
-5. The \[Action\] button will show \[PioneerDJ\] as this is currently the only action for a BPM master. Press \[OK\]. You have now set up the console action which is to be triggered.
-6. Now you need to select which Pioneer deck will control the BPM. Select \[Deck=\] as Master, 1, 2, 3, 4. \[Master\] will use the track you have currently selected as Master (red M displayed). The 1-4 options let you fix the control to one of the decks.
-7. Press \[Add\]. The trigger should now appear as shown below.
+Dazu muss zunächst ein [BPM Master](../running-the-show/playback-controls.md#optionen-für-bpm-master) 
+definiert werden. Für diesen kann dann wie folgt PioneerDJ als Trigger
+eingerichtet werden.
+
+Öffnen Sie das System-Menü (per \<Avo\> + \<Disk\>) und wählen 
+ \[Triggers\]. Darauf öffnet sich das Fenster 'Trigger'.
+1.	Fügen Sie mit dem \{+\} *unten links* ein neues Trigger-Set hinzu
+	und geben Sie diesem einen geeigneten Namen, z.B. ‚Pioneer'.
+2.	Legen Sie nun mit dem \{+\} *unten rechts* oder mit der Menütaste
+	\[Add Trigger\] einen neuen Trigger an.
+3.	Setzen Sie \[Trigger Type\] auf \[Item\].
+4.	Wählen Sie den zu steuernden BPM-Master (Auswahltaste/Button
+	betätigen).
+5.	Bei \[Action\] steht nun \[PioneerDJ\], da dies momentan die einzige
+	Option für BPM-Master ist. Bestätigen Sie das mit \[OK\].
+6.	Wählen Sie nun mit \[Deck = \], welches Pioneer-Deck als Trigger
+	verwendet werden soll. Wählt man \[Master\], so wird immer das im
+	PioneerDJ als Master definierte Deck verwendet (rotes M), wählt man
+	dagegen Deck 1, 2, 3 oder 4, so wird stets dieses verwendet.
+7.	Mit \[Add\] wird schließlich der Trigger eingerichtet und sollte
+	ähnlich wie auf dem folgenden Bild aussehen.
 
 ![Trigger workspace with Pioneer trigger added](/docs/images/Trigger-workspace-with-Pioneer-trigger-added.png)
 
-Now you should see the BPM master automatically change to match the BPM of the track playing which you have selected as Master (or on the selected CDJ player if you selected a fixed player number).
+Damit ändert sich der Wert des BPM-Masters automatisch bei Änderungen
+des steuernden Tracks.
 
-- To regain local control of the BPM master, switch off the “BPM triggers” switch at the bottom of the PioneerDJ workspace window.
+-	Um den BPM-Master wieder manuell zu steuern, kann man den Schalter
+    \[BPM Triggers\] im PioneerDJ-Fenster ausschalten.

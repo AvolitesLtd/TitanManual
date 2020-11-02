@@ -19,7 +19,7 @@ werden die zu speichernden Attribute automatisch gewählt.
 Betätigen Sie eine graue Paletten-Taste oder eine Schaltfläche in einem
 der Fenster ‚Colours', ‚Positions' oder ‚Gobos and Beams'.
 
-Siehe [Creating Palettes](../palettes/creating-palettes.md).
+Siehe [Erstellen von Paletten](../palettes/creating-palettes.md).
 
 Zum Aufrufen einer Palette wählen Sie die gewünschten Geräte aus,
 stellen nun ggf. die Maske der abzurufenden Attribute mit den
@@ -35,7 +35,7 @@ Betätigen Sie eine freie Schaltfläche in einem der Paletten-Fenster;
 diese zeigt daraufhin ein ‚+' auf rotem Grund. Betätigen Sie die
 Schaltfläche zum Speichern nochmals. Die Maske wird automatisch anhand
 des Fensters gewählt (z.B. werden so im Positions-Fenster nur Positionen
-gespeichert). Siehe [Palettes - Quick Record](../palettes/creating-palettes.md#quick-record).
+gespeichert). Siehe [Schnellspeichern von Paletten](../palettes/creating-palettes.md#schnellspeichern).
 
 ## Improvisieren mit Paletten
 
@@ -45,11 +45,11 @@ Zifferntasten ein und rufen dann die Paletten auf (die Überblendzeit
 muss bei jedem Aufruf eingegeben werden). Wurden keine Geräte
 ausgewählt, so wird die Palette auf ALLE Geräte angewendet.
 
-Um eine [Überlappung](../palettes/timing-with-palettes.md#manual-fixture-overlap-when-recalling-palettes) einzugeben, tippen Sie mit den Zifferntasten einen
+Um eine [Überlappung](../palettes/timing-with-palettes.md#manuelle-geräteüberlappung-beim-palettenabruf) einzugeben, tippen Sie mit den Zifferntasten einen
 Wert von 0...100, drücken dann \[Set Overlap\] und rufen schließlich
 die Palette auf.
 
-Um für alle Paletten eine [generelle Einblendzeit](../palettes/timing-with-palettes.md#master-time-for-palettes) einzustellen, drücken
+Um für alle Paletten eine [generelle Einblendzeit](../palettes/timing-with-palettes.md#master-zeit-für-paletten) einzustellen, drücken
 Sie \<Palette\>, dann \[Master Time\].
 
 Mit Einblendzeit aufgerufene Paletten werden nicht in den

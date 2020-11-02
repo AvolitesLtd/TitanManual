@@ -5,127 +5,137 @@ sidebar_label: Cue List Options
 original_id: cue-list-options
 ---
 
-Cue list options are set from the [Playback Options menu](../cues/playback-options.md). You can enter
-the playback options menu by doing the following:
+Über das Menü [Playback Options](../cues/playback-options.md) sind weitere 
+Optionen verfügbar. Zum Aufrufen derselben gehen Sie wie folgt vor:
 
-1. At the top level menu press \[Playback Options\]
+1. Drücken Sie im Hauptmenü \[Playback Options\].
 
-2. Press the **select** button for the cue list you wish to edit
+2. Drücken Sie die **Select-Taste** der Cueliste.
 
-You can show the cue list options in a window by pressing \<View/Open\>
-then the **Select** button of the cue list, then click the **Options** tab.
+Zur Anzeige aller Optionen in einem Fenster drücken Sie \<View / Open\>, 
+dann die entsprechende **Select-Taste**, und klicken links in der 
+Playback-Ansicht auf **Options**.
 
-The Cue List options are mostly the same as for [Cues](../cues/playback-options.md) and [Chases](../chases/chase-options.md), only
-the additional Cue List options are described here.
+Die meisten Optionen sind die gleichen wie für [statische Cues](../cues/playback-options.md) und für [Chaser](../chases/chase-options.md), 
+deshalb werden hier nur noch die spezifischen Optionen für
+Cuelisten erläutert.
 
-## Playback Tab
+## Cue List Options -- Tab "Playback"
 
-Most options are described in [Playback Options](../cues/playback-options.md), but these
-are additional options for cue lists:
+Blind, Priority, Shape Behaviour funktionieren genauso wie im Kapitel für 
+Cues beschrieben (siehe [Playback Options](../cues/playback-options.md)).
 
 ### Tracking
-Enables or disables Tracking mode (where unchanged
-settings persist from the previous cues). *Enabled by default.*
+Aktivieren/Deaktivieren von Tracking (also der
+Nachverfolgung unveränderter Werte)  *Vorgabewert: aktiviert*.
 
 ### Shape Tracking
-Sets how shapes are tracked between cues.
-Setting | Action
+Bestimmt, wie Shapes getrackt werden.
+
+Einstellung | Beschreibung
 --- | ---
-Off | Shapes will stop when the next cue starts
-On | Shapes will track until stopped or changed in a cue
-Local | Follows the tracking option above *(default option)*
+Off | Kein Tracking von Shapes - Shapes stoppen, wenn der Cue beendet wird.
+On  | Shapes tracken, bis sie geblockt werden.
+Local | Die allgemeine **Tracking**-Einstellung gilt. *(Vorgabewert)*
 
 ### Move In Dark
-Sets the mode for the whole cue list *(see [Move In Dark (MID) Functions](cue-list-playback.md#move-in-dark-mid-functions))*.
+Einstellung für die gesamte Cueliste: Vorladen von
+LTP-Werten, solange Geräte nicht benutzt werden (keinen Output
+erzeugen), siehe [Move In Dark (MID)](cue-list-playback.md#move-in-dark-mid---funktionen).
 
-Setting | Action
+Einstellung | Beschreibung
 --- | ---
-Off | Obeys settings for individual cues *(default option)*
-Disabled | No move in dark even if set in cues
-Early | Moves as soon as fixture is off
-Late | Moves in the last cue before the fixture is needed
+Off | Schaltet MID für die gesamte Cueliste ab; MID kann aber für einzelne Cues aktiviert werden *(Vorgabewert)*.
+Disabled | Deaktiviert MID für die gesamte Cueliste, auch wenn es ggf. für einzelne Cues aktiviert ist.
+Early | Startet die Bewegung zum frühestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben.
+Late | Beginnt die Bewegung zum spätestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben.
 
 ### Loop Action
-Sets what will happen at the end of the cue list
+Damit wird bestimmt, ob die Cueliste nach dem Durchlaufen wiederholt werden soll.
 
-Setting | Action
+Einstellung | Beschreibung
 --- | ---
-Stop on final cue | Cue list will stop advancing once it reaches the last cue *(default)*
-Loop | Cue list will go back to first cue after the last.* If Move in Dark is enabled, this will also loop.*
+Stop on final cue | Die Cueliste wird nur einmal durchlaufen und stoppt beim letzten Schritt.
+Loop | Die Cueliste wird nach Erreichen des letzten Cues wieder von Cue 1 wiederholt, wobei auch Move in Dark entsprechend ermittelt wird *(Vorgabewert)*.
 
-## Handle Tab
+## Cue List Options -- Tab "Handle"
 
-All these options are described in [Playback Options](../cues/playback-options.md#handle-tab).
+Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#playback-options---tab-handle) beschrieben.
 
-## Fader Tab
+## Cue List Options -- Tab "Fader"
 
 ### Fader Mode
-Sets how the cue list fader behaves.
+Bestimmt das Verhalten des Faders.
 
-Setting | Action
+Einstellung | Beschreibung
 --- | ---
-Fader Mode Intensity Kill With Off | The fader masters the overall HTP level and the cue list remains active (connected) even when the fader is lowered to zero.
-Fader Mode Intensity Kill At 0 | The fader masters the overall HTP level and the cue list is killed when the fader is lowered to zero.
-Manual Crossfader | The fader behaves as a manual crossfade control, and the cue list will automatically step on to the next cue when the fader reaches the top or bottom of travel.
+Fader Mode Intensity Kill With Off | Der Fader bestimmt die Werte der HTP-Kanäle, und die Cueliste bleibt aktiv, auch wenn der Regler auf '0' gestellt wird. 
+Fader Mode Intensity Kill At 0 | Der Fader ist ebenfalls für die HTP-Werte zuständig, jedoch wird die Cueliste deaktiviert, sobald der Regler auf ‚0' gestellt wird.
+Manual Crossfader | Sorgt dafür, dass der Fader als manueller Überblendregler fungiert, d.h. sowohl bei Reglerstellung 100% als auch bei 0% wird einen Schritt weitergeschaltet.
 
 ### Fire First Cue
-Sets whether the first cue automatically fires when
-the fader is raised.
+Ist diese Option aktiviert, so wird mit Bedienen des
+Faders direkt Cue 1 der Cueliste gestartet. Als Vorgabewert ist diese
+Option deaktiviert.
 
-## Effects Tab
+## Cue List Options -- Tab "Effects"
 
-All these options are described in [Playback Options](../cues/playback-options.md#effects-tab).
+Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#playback-options----tab-effects) beschrieben.
 
-## Release Tab
+## Cue List Options -- Tab "Release"
 
-Release Mask and Release Time are described in the [Playback Options](../cues/playback-options.md#release-tab).
+Release Mask und Release Time funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#playback-options----tab-release) beschrieben.
 
 ### Cue Release
-Allows you to create an overlay cue list with gaps in
-it where the fixtures will return to their previous state. For example
-you could create a cue list where every alternate cue sets the fixtures
-to white, with the in between cues being blank. If this option is on,
-the fixtures will bump to white then return to the colour set from a
-previous look.
+
+**Cue Release:** erlaubt es, Cuelisten zu erstellen, bei denen zwischen
+den einzelnen Schritten ein Release erfolgt. So lässt sich damit z.B.
+eine Cueliste erstellen, die die Geräte einzeln auf weiß einblendet und
+dann wieder released, also auf die vorher verwendete Farbe zurücksetzt.
+Diese kann man dann vor jedem anderen - durch andere Cues/Paletten
+eingestellten - Hintergrund laufen lassen.
 
 ## Renumber all cues
 
-Allows you to renumber the cue list if the numbering has got mixed up
-after lots of editing. *This is only available on the softkey options,
-not the touch window.*
+Die Option \[Renumber All Cues\] setzt die Nummerierung der Schritte auf
+eine von 1 aufsteigende Folge zurück. *Diese Option ist nur über die
+Menütasten sowie die Kontext-Buttons verfügbar, nicht im Optionsfenster*.
 
 ## Cue Options
 
-This option allows you to change settings for each cue in the cue list.
-To select the cue number to edit, use the **Wheel A** or press
-**softkey A** then enter the cue number on the numeric keypad.
+Hiermit lassen sich Einstellungen für jeden einzelnen Schritt der
+Cueliste ändern. Um den gewünschten Schritt zu wählen, nutzen Sie das
+linke Rad, oder Sie drücken Menütaste A \[Select Cue Number\] und geben die Schrittnummer
+mit den Zifferntasten ein.
 
--   \[Curve\] allows you to set a different fade curve for the cue; this
-    affects how the fade progresses from one cue to the other *(for
-    example you can select a fade which starts off slow, speeds up in
-    the middle and then slows down at the end)*. Press \[Curve\] then
-    select a new curve from the softkeys. The effect of the various
-    curves is described in [Curves](../system-settings/curves.md).
+-   Mit \[Curve\] (Kurve) kann man für diesen Schritt eine andere
+    Überblendkurve wählen; die beeinflusst den Übergang von einem
+    Schritt zum nächsten (*so gibt es etwa Kurven, bei denen der Übergang
+    langsam beginnt, in der Mitte schneller wird, und zum Ende hin
+    wieder verlangsamt*). Drücken Sie \[Curve\], und wählen Sie mit den
+    Funktionstasten die gewünschte Kurve. Die einzelnen Kurven sind [Curves](../system-settings/curves.md) erläutert.
 
--   \[Link\] can be set to **Wait for Go**, **With Previous Cue** or **After
-    Previous Cue**. See [Cue Linking & Link Offset](cue-list-timing.md#cue-linking--link-offset)
+-   \[Link\] (Verbindung) bietet die Optionen **Wait for Go** (auf \<Go\>
+    warten), **With Previous Cue** (mit vorigem Schritt), und  **After
+    Previous Cue** (nach vorigem Schritt). Siehe [Schrittfolge und Versatz](cue-list-timing.md#schrittfolge-und-versatz).
 
--   \[Move in Dark\] opens the menu for Move In Dark options, see
-    [Move in Dark (MID) Functions](cue-list-playback.md#move-in-dark-mid-functions)
+-   \[Move In Dark\] öffnet das Menü mit den Move-In-Dark-Optionen,
+    siehe [Move in Dark (MID)](cue-list-playback.md#move-in-dark-mid---funktionen)
 
--   \[Move In Dark Inhibit\] disables the
-    [Move In Dark](cue-list-playback.md#move-in-dark-mid-functions) function for this
-    cue
+-   \[Move In Dark Inhibit\] deaktiviert alle Move-In-Dark-Vorgänge in
+    diesem Cue.
 
--   \[Tracking\] disables or enables [tracking](cue-list-playback.md#tracking) for this cue
+-   \[Tracking\] [Tracking-Einstellungen](cue-list-playback.md#tracking) für diesen 
+    Cue.
 
--   \[Legend\] allows you to set a legend for the cue which is displayed
-    on the cue list display
+-   \[Legend\] (Bezeichnung) Gestattet die Vergabe einer Bezeichnung des
+    Schrittes; die Bezeichnung wird später im Display angezeigt.
 
--   \[Notes=\] lets you enter a note for the cue *(e.g. "Leaves stage pursued
-    by bear" or "wake up spot operator")*
+-   \[Notes=\] (Bemerkung) Dient zur Eingabe von Notizen zu dem Schritt,
+    hilfreich etwa zum Szenenablauf (z.B. *verlässt vom Bär verfolgt die
+    Bühne*, oder *den Spotfahrer wecken*).
 
--   \[Autoload\] see [Autoloading a Playback within a Cue List](creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list)
+-   \[Autoload\] siehe [Autoloading: Laden eines externen Cues](creating-a-cue-list.md#autoloading-laden-eines-externen-cues).
 
--   \[Cue disabled\] allows you to temporarily disable this cue, see
-    [Disabling a Cue](editing-cue-lists.md#disabling-a-cue)
+-   \[Cue disabled\] Erlaubt es, den Cue vorübergehend deaktivieren,
+    ohne ihn zu löschen. Siehe [Deaktivieren eines Cues](editing-cue-lists.md#deaktivieren-eines-cues).

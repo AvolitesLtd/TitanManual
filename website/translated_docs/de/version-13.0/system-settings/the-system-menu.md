@@ -5,105 +5,106 @@ sidebar_label: The System Menu
 original_id: the-system-menu
 ---
 
-The System menu is accessed by holding \<Avo\> and pressing Disk. Some
-consoles are also fitted with a key switch or mode switch to select
-System mode.
+Das System-Menü erreicht man durch Umschalten des Betriebsarten-Schalters 
+in den Modus 'System' bzw. durch Drücken von \<Avo\> und (gleichzeitig) \<Disk\>. 
 
-The options in this menu are separated from the other options on the
-console because you would normally only change them occasionally, or
-because they can have serious effects on the way the console works and
-you wouldn't want to change them accidentally.
+Die hier verfügbaren Optionen sind von den normalen Betriebsfunktionen 
+getrennt, da sie entweder nur selten benötigt werden, oder aber große 
+Auswirkungen auf die Funktion des Pultes haben, so dass ein versehentliches 
+Verstellen tunlichst vermieden werden sollte.
 
->When the console is in System mode, playback control, preset controls and programming buttons are all disabled.
+>	Wird die Betriebsart auf 'System' umgeschaltet, so ist die Steuerung der 	
+	Playbacks und die Showprogrammierung deaktiviert.
 
 ---
 
-[Network Settings](../networking.md)
-----------------
+[Network Settings - Netzwerkeinstellungen](../networking.md)
+------------------------------------------
 
-This option sets up networking (Ethernet) parameters for the console - further details on how to [control fixtures over a network](../networking/controlling-fixtures-over-a-network.md) in the [networking section](../networking.md).
+Hier werden die Netzwerk(Ethernet)-Parameter eingestellt, siehe [Steuern von Geräten über Netzwerk](../networking/controlling-fixtures-over-a-network.md).
 
 [DMX Settings](dmx-output-mapping.md)
 ------------
 
-Allows you to configure how the console outputs DMX. This option is
-described in detail later in this chapter, in the [DMX Output Settings section](dmx-output-mapping.md#configuring-dmx-outputs).
+Hier wird die DMX-Ausgabe des Pultes eingerichtet. Details zu diesem
+Menü finden sich in Abschnitt [Einrichten der DMX-Ausgänge](dmx-output-mapping.md#einrichten-der-dmx-ausgänge).
 
 [DMX Merge Settings](dmx-output-mapping.md#dmx-merge)
 ------------------
 
-Allows you to select how DMX will be output across multiple consoles or
-processing nodes - [read more about DMX merge settings](dmx-output-mapping.md#dmx-merge).
+Hier stellt man ein, wie DMX über mehrere Pulte bzw. Netzwerk-Knoten
+hinweg ausgegeben werden soll. Siehe [DMX Merge](dmx-output-mapping.md#dmx-merge).
 
 [Synergy Settings](../synergy/setting-up.md)
 ----------------
 
-Sets up the Synergy software for linking to an Ai server, see the [Synergy setup section](../synergy/setting-up.md#synergy-setup).
+Einstellungen zum Verbinden mit Ai-Servern, siehe [Einrichten von Synergy](../synergy/setting-up.md#einrichten-von-synergy).
 
-TitanNet Security
------------------
+TitanNet Security - Netzwerksicherheit
+--------------------------------------
 
-This option sets how the console communicates with other Titan devices
-as a backup console, for more information see the [Linking consoles for multi-user or backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md) section.
+Mit dieser Einstellung wird bestimmt, wie das Pult mit anderen
+Titan-Geräten im Backup-Betrieb kommuniziert. Details zum Backup finden
+sich in Abschnitt [Backup und Mehrbenutzerbetrieb](../running-the-show/linking-consoles-for-multi-user-or-backup.md).
 
-[User Settings](user-settings.md)
+[User Settings](user-settings.md) - Benutzereinstellungen
 -------------
 
-The User Settings menu may also be accessed from Program mode: hold down
-the \<Avo\> Shift button and press \[User Settings\]. See the [User Settings](user-settings.md) section.
+Das Menü 'User Settings' (Benutzereinstellungen) lässt sich auch im
+'Program'-Modus aufrufen; dazu halten Sie die \<AVO\>-Taste gedrückt und
+betätigen die Taste \[User Settings\]. Näheres zu den Einstellungen
+siehe Abschnitt [User Settings](user-settings.md).
 
-[Key Profiles](key-profiles.md)
+[Key Profiles](key-profiles.md) - Tastenprofile
 ------------
 
-Allows you to modify the functions of some buttons. See section the [Key Profiles](key-profiles.md)] section.
+Damit lässt sich die Funktion verschiedener Tasten festlegen; siehe
+Abschnitt [Key Profiles](key-profiles.md).
 
-Wipe
-----
+Wipe (Löschen)
+--------------
 
-The Wipe menu erases the current show. This is the same as the \[New
-Show\] option on the Disk menu, but is provided here for old fashioned
-Avolites users who are used to it being on the System menu.
-
-The \[Wipe Visualiser Patch\] option will erase all fixtures from the
-visualiser without affecting the current show.
+Die Funktion 'Wipe' löscht die aktuelle Show. Das Ergebnis ist das
+gleiche wie bei der Wahl der Option \[New Show\] aus dem Menü \<Disk\>.
+('Wipe' war bereits bei früheren Avolites-Pulten im System-Menü zu
+finden und ist deshalb hier eingeblendet).
 
 [Triggers](../running-the-show/midi-dmx-or-audio-triggering.md)
 --------
 
-Sets up the console for external triggering such as MIDI or DMX-in. This
-option is described in detail in the [MIDI, DMX or audio triggering](../running-the-show/midi-dmx-or-audio-triggering.md) section.
+Hier richtet man die Steuerung des Pultes z.B. über DMX oder MIDI ein.
+Details dazu finden sich in Abschnitt [Externe Trigger](../running-the-show/midi-dmx-or-audio-triggering.md).
 
 [Assign Masters](../running-the-show/playback-controls.md#grand-master-fader-and-assignable-masters)
 --------------
 
-This option allows you to assign any playback fader to be a master
-fader. Various different types of master fader may be assigned. See
-section [Grand Master fader and assignable masters](../running-the-show/playback-controls.md#grand-master-fader-and-assignable-masters) for more
-information.
+In diesem Menü lassen sich einzelne Fader bestimmten Master­funktionen
+zuweisen; verschiedene Funktionen stehen dafür zur Verfügung und sind in
+Abschnitt [Master-Fader](../running-the-show/playback-controls.md#master-fader) 
+näher beschrieben.
 
 Console Legend
 --------------
 
-Lets you set the legend of the console, this is displayed in networking
-screens when you are linking the console to others.
+Hier kann man den Namen des Pultes verändern, der im Netzwerkbetrieb auf
+anderen Pulten angezeigt wird.
 
 Titan Telemetry
 ---------------
 
-To help Avolites with software development and bug fixing, the console
-will report anonymous information to Avolites. This includes details
-about faults that occur, statistics on how long certain functions take,
-and usage of functions. This information is really useful for improving
-the software, however if you would prefer to disable it, click the
-\[Telemetry Enabled\] button to switch it to \[Telemetry Disabled\].
-Telemetry information will only be sent in any case if the console is
-connected to the internet.
+Um Avolites eine bessere Qualitätskontrolle und stetige Verbesserungen
+zu ermöglichen, wurde ein automatisches Rückmeldesystem integriert.
+Damit sendet Titan automatisch Informationen, um die Fehlersuche und
+weitere Verbesserungen zu ermöglichen. Diese enthalten aufgetretene
+Fehler, Statis-tiken über die Zeit, die die verwendeten Funktionen
+benötigen, und Ähnliches. Damit wird die weitere Softwareentwicklung
+sehr unterstützt. Ist dies aber unerwünscht, kann dies mit \[Telemetry
+Disabled\] deaktiviert werden. Daten können nur übertragen werden, wenn
+das Pult einen Internetzugang hat.
 
-[Display Setup](external-displays.md)
+[Display Setup](external-displays.md) - Bildschirmeinrichtung
 -------------
 
-This option gives you a menu for enabling and disabling [external
-monitor(s)](external-displays.md). If you don't have a monitor connected, set this option to
-"Disabled" to improve the performance of the console.
-
-
+Hier lässt sich der [externe Bildschirm](external-displays.md)
+aktivieren/deaktivieren. Ist kein solcher vorhanden, empfiehlt es sich aus 
+Performance-Gründen, den Anschluss zu deaktivieren.

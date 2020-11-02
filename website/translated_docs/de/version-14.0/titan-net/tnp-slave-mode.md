@@ -5,55 +5,56 @@ sidebar_label: TNP Slave Mode
 original_id: tnp-slave-mode
 ---
 
-Normally the TNP screen shows the "Home screen" which displays the
-connection status and IP address of the two Ethernet ports on the
-device. Buttons across the top allow you to configure the device. The
-\<Exit\> button always takes you back to the previous menu.
+Normalerweise zeigt der TNP den 'Homescreen' mit Status und IP-Adressen
+der beiden Netzwerkports. Am oberen Rand sind verschiedene Buttons
+eingeblendet, über die Funktionen zum Konfigurieren des TNP erreichbar
+sind. Dabei geht es mit \[Exit\] stets zurück in das vorige Menü.
 
 ![TNP Home Screen](/docs/images/TNP-Home-Screen.png)
 
 Setup
 -----
 
-The setup screen allows you to configure network port settings, and node
-settings for the overall device by touching "Network Settings" or "Node
-Settings".
+Im Setup-Menü lassen sich die IP-Adressen sowie generelle Eigenschaften
+des Nodes einstellen (\[Network Settings\] bzw. \[Node Settings\] anklicken).
 
-For **Network Settings** you first select which Ethernet port you want
-to configure
+### Netzwerkeinstellungen
 
-![TNP - Setup - Network Settings Screen](/docs/images/TNP-Setup-Network-Settings-Screen.png)
+Die Netzwerkeinstellungen können wie folgt geändert werden:
 
-![TNP - Setup - Network Settings - IP Settings Screen](/docs/images/TNP-Setup-Network-Settings-IP-Settings-Screen.png)
+1. Wählen Sie den gewünschten Netzwerkanschluss aus.\
+   ![TNP - Setup - Network Settings Screen](/docs/images/TNP-Setup-Network-Settings-Screen.png)
 
-You can then enable or disable DHCP, set IP address and Subnet mask
-using the number buttons, or set a fixed (automatically generated)
-2.\*.\*.\* or 10.\*.\*.\* IP address.
+2. Als nächstes lässt sich DHCP aktivieren oder deaktivieren, die
+   IP-Adresse und Subnetz-Maske einstellen oder aber eine zufällige, aber
+   Artnet-kompatible Adresse wählen (2.\*.\*.\* oder 10.\*.\*.\*).\
+   ![TNP - Setup - Network Settings - IP Settings Screen](/docs/images/TNP-Setup-Network-Settings-IP-Settings-Screen.png)
 
-Touch the "Save Settings" button to store your changes.
+3. Mit \[Save Settings\] werden die Einstellungen gespeichert.
 
-For **Node Settings** you can change the legend of the device and the
-line colour. This is shown on the top line of the device and on all
-TitanNet pages on connected devices. It helps you identify the device
-when you use the TitanNet overview on the console.
+### Node-Einstellungen
+
+Als **Node Settings** (Node-Einstellungen) lässt sich derzeit die auf anderen Pulten
+angezeigte Farbe des Geräts sowie der Verbindungslinien einstellen, was
+die Identifizierung deutlich vereinfacht.
 
 ![TNP - Setup - Node Settings - Node Line Colour Screen](/docs/images/TNP-Setup-Node-Settings-Node-Line-Colour-Screen.png)
 
-Locking the TNP
----------------
+Lock -- den TNP sperren
+-----------------------
 
-The Lock screen displays a keypad and asks you to enter a lock code.
-When the device is locked, the screen shows "Locked" and shows a keypad
-to unlock.
+Klickt man auf \[Lock\], so kann auf einem Ziffernblock ein Code
+eingegeben werden, mit dem das Gerät gesperrt wird. Zum Entsperren muss
+der gleiche Code wieder eingegeben werden.
 
 ![TNP Lock Screen](/docs/images/TNP-Lock-Screen.png)
 
 Tools
 -----
 
-Currently there is only one option on the Tools screen, "Monitor". This
-allows you to monitor the processing load of the device. You can select
-to monitor either cycle time or render time.
+Derzeit gibt es nur einen Eintrag im Tools-Menü: den **Monitor**. Dieser
+erlaubt eine Übersicht über die aktuelle Auslastung des TNPs. Dabei kann
+entweder \[Cycle Time\] oder \[Render Time\] dargestellt werden.
 
 ![TNP - Tools - Monitor - Cycle Time Screen](/docs/images/TNP-Tools-Monitor-Cycle-Time-Screen.png)
 

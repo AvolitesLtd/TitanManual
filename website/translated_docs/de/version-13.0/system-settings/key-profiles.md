@@ -5,155 +5,170 @@ sidebar_label: Key Profiles
 original_id: key-profiles
 ---
 
-The console allows you to reconfigure how the front panel buttons work
-to suit your method of working. You can save your settings as a Key
-Profile. Different profiles can be selected for different users or to
-enhance the operation of the console for a particular use.
+Die Belegung der Bedientasten des Pultes lässt sich sehr fein einstellen
+und auf die jeweilige Arbeitsweise abstimmen. Die Einstellungen lassen
+sich dann in einem sog. Profil ('Key Profile') speichern. Wird das Pult
+von mehreren Benutzern verwendet, so kann jeder, abhängig von der
+jeweiligen Aufgabe, mit einem Klick die Konfiguration ändern.
 
-There are standard Key Profiles for Run mode, Takeover Run mode, Program
-mode, Theatre mode and Nightclub mode. These standard profiles cannot be
-edited, so you always know how they will behave. You can create your own
-editable profiles using one of the standard profiles as a starting
-point.
+Es gibt Standard-Profile 'Run', Takeover', 'Program', ‚Theatre' und
+‚Night Club'. Diese Standard-Profile können nicht verändert werden, so
+dass man stets eine sinnvolle Arbeitsgrundlage hat. Hingegen kann man
+sie als Grundlage zum Erstellen eigener Profile verwenden.
 
-The current settings of the playback buttons are shown on the screen
-related to each playback fader.
+Die aktuellen Einstellungen der Playback-Tasten werden direkt darüber im
+Touchscreen angezeigt.
 
 ![Key Profiles on playback](/docs/images/Playback-Faders-with-key-profiles-applied.png)
 
-## Creating and editing key profiles
+## Erstellen und Ändern von Tastenbelegungen
 
 [](https://youtu.be/CxHQV4sP_sA?t=20 "Key Profiles")
 
-To create or edit a profile, switch to System mode then select \[Key
-Profiles\]. You can then use the Manage Profiles menu to View, Edit,
-Add, Delete or Rename profiles.
+Zum Erstellen eines solchen Profils schalten Sie das Pult in den
+'System'-Modus und drücken \[Key Profiles\]. Darauf öffnet sich das Menü
+'Manage Profiles', mit dem man die verschiedenen Profile anzeigen
+('View'), ändern ('Edit'), löschen ('Delete') oder ein neues erstellen
+('Add') kann.
 
-You can also create or edit key profiles in the \[Handle\] tab of
-Playback Options.
+Key Profiles kann man ebenso in den Playback-Optionen neu anlegen sowie
+auswählen (Reiter ‚Handle').
 
-Key Profiles can also be viewed from the Show Library window as
-described in [Show Library](../titan-basics/show-library.md#key-profiles-view) section.
+Key Profiles (Tastenbelegungen) können auch im Fenster '[Show Library](../titan-basics/show-library.md#der-reiter-key-profiles-tastenprofile)'
+angezeigt werden.
 
-When Adding a new profile, you can select an existing profile to copy
-settings from.
+Beim Erstellen eines neuen ('Add') lässt sich eines der bestehenden
+auswählen, das zunächst kopiert wird, um die Einstellungen von diesem zu
+übernehmen.
 
-You can also edit Key Profiles from Program mode by holding \<Avo\>,
-then selecting \[Edit Current Key Profile\]. If the current key profile
-is one of the non-editable system ones, you are prompted to add a new
-profile or select an existing editable profile.
+Auch im normalen 'Program'-Modus lassen sich die Profile ändern: halten
+Sie dazu \<AVO\> gedrückt und wählen \[Edit Current Key Profile\]. Ist
+das aktuelle Profil eines der schreibgeschützten, so erscheint die
+Aufforderung zur Anlage eines neuen bzw. Auswahl eines anderen
+bestehenden Profiles.
 
-The current actions for the Black, Blue, Grey and Touch buttons are
-shown on the left side of the screen. Once you select a key type from
-the menu, the screen shows actions available for that type of button.
-Only the Sapphire Touch has black buttons.
+Die aktuellen Einstellungen für die verschiedenen Tastentypen
+(\[schwarz\], \[blau\], \[grau\], und - soweit zutreffend -
+\['touch'\] (die Touchscreen-Schaltfläche)) werden links im Bildschirm
+angezeigt. Über schwarze Tasten verfügt nur das Sapphire Touch.
 
 ![Editing a Key Profile](/docs/images/Editing-a-Key-Profile.png)
 
-## Actions for Buttons
+## Tastenfunktionen
 
-The groups of keys you can set are as follows. The blue or grey
-fixture/palette buttons only exist on the Pearl Expert, on other
-consoles these settings will not do anything.
+Es lassen sich folgende Tastengruppen einzeln einstellen (graue oder
+blaue Tasten für 'Fixtures' und ‚Palettes' gibt es nur bei Pearl Expert;
+auf den anderen Pulten sind diese Optionen ohne Funktion):
 
 ### Fixtures
-The blue, grey or touch key can be allocated to **Disabled**,
-**Select**, **Flash**, **Swop**, **Latch**.
+Die blaue, graue sowie 'touch'-Taste lassen sich als
+**Disabled** (deaktiviert), **Select** (Auswahltaste), **Flash**, **Swop** und
+**Latch** (Einrasten) konfigurieren. 
 
-> The "Latch" function is equivalent to
-putting the fader to full for that fixture and touching again returns
-the fader to 0.
+>	Die 'Latch'-Funktion wirkt wie das Stellen des Faders auf 100%, und 
+	auf 0% bei der zweiten Betätigung.
 
 ### Groups
-The blue, grey or touch key can be allocated to **Disabled**,
+Die blaue, graue sowie 'touch'-Taste lassen sich als **Disabled**,
 **Select Group**, **Flash Fixtures**, **Timed Flash**, **Flash Master**, **Timed Flash
-Master**, **Swop Fixtures**.
+Master**, **Swop Fixtures** konfigurieren, siehe auch [Geräte-Gruppen](../controlling-fixtures/fixture-groups.md).
 
-You can select if the group function takes
-precedence over the flash function (if a handle has both group and flash
-functions) or vice versa.
+>	Die Option **Group/Flash takes precedence** bezieht sich nur auf das 
+	Pearl Expert, bei dem es möglich ist, auf Fadern Playbacks zu speichern
+	und auf den zugehörigen Flash-Tasten Gruppen abzulegen.
 
 ### Palettes
 
-> Only effective on Pearl Expert.
+Paletten-Tasten/Schaltflächen können **Disabled** (deaktiviert) sein oder mit
+**Select Palette** die Palette anwählen.
 
-The palette (grey) key can
-be allocated to **Disabled** or **Select Palette**. You can select if the
-palette function takes precedence over the flash function (if a handle
-has both palette and flash functions) or vice versa.
+Mit **Palette is fired ignoring/with its times** wird festgelegt, ob beim
+Aufrufen von Paletten gespeicherte Zeiten berücksichtigt werden oder nicht, 
+siehe [Paletten mit Zeiten](../palettes/timing-with-palettes).
+Dies ist besonders interessant beim [Improvisieren (Busking) mit Paletten](../running-the-show/playback-controls.md#improvisieren-busking-mit-paletten).
+
+>   Die Option **Palette/Flash takes precedence** bezieht sich nur auf das 
+	Pearl Expert, bei dem es möglich ist, auf Fadern Playbacks zu speichern
+	und auf den zugehörigen Flash-Tasten Paletten abzulegen.
 
 ### Cues
 
-The blue or grey key can be allocated to **Disabled**, **Flash**,
-**Swop**, **Latch**, **Preload**, **Go**.
+Die Tasten und Schaltflächen können belegt werden mit **Disabled**, **Flash**,
+**Timed Flash**, **Swop**, **Latch**, **Preload**, **Go**, **Tap Tempo**, 
+**Release** und **Select If**.
 
 ### Chases
 
-The blue or grey key can be allocated to **Disabled**, **Flash**,
-**Swop**, **Latch**, **Go**, **Stop**, **Preload**, **Connect**, **Tap Tempo**.
+Die Tasten und Schaltflächen können belegt werden mit **Disabled**, **Flash**,
+**Timed Flash**, **Swop**, **Latch**, **Go**, **Stop**, **Preload**, **Connect**, 
+**Tap Tempo**, **Release**, **Select If**.
 
 ### Cue Lists
 
-These affect [playback of cue lists](../cue-lists/cue-list-playback.md) and can be assigned to the handle's buttons:
+Dies betrifft das [Abrufen von Cuelisten](../cue-lists/cue-list-playback.md), und
+es stehen folgende Einstellungen für die Tasten und den Button zur Verfügung:
 
-Setting | Action
+Einstellung | Funktion
 ---|---
-Disabled | The button will do nothing
-Flash | All dimmer levels in the cue will flash to programmed level, when released the levels will return to previous level
-Flash and Go | *As Flash*, but when button released the cue list will advance to the next cue
-Timed Flash | *As Flash*, but fade in and out times will follow the cue times set
-Timed Flash and Go | *As Flash and Go*, but cue list will advance on release
-Swop | *As Flash*, but all other fixtures will black out
-Latch | *As Flash*, but dimmers will remain active until button pressed again
-Go | Cue list will advance to next cue using times
-Stop | Stops all fades in the cue list at their current point
-Preload | LTP channels of non-illuminated fixtures will move to positions in next cue
-Connect | Connects this cue list to controls *(same as pressing \<Connect\> then select button of cue list)*
-Tap Tempo | Set speed parameter by tapping the button
-Next Cue - | Press repeatedly to select the next cue to be output, going backwards
-Next Cue + | Press repeatedly to select next cue to output, going forwards
-Review Live Cue | Replays the current cue using fade times
-Cut Next Cue to Live | Output the cue as selected using above
-Snap Back | Cue list will snap back to previous cue without times
-Go Back | Cue list will go back to previous cue using fade times
-Release | Release the playback using programmed release time
-Select If | Press to select all fixtures used in the current cue
+Disabled | Die Taste hat keine Funktion.
+Flash | Alle Dimmerkanäle des Cues springen auf den programmierten Pegel und kehren danach zum vorherigen Wert zurück.
+Flash and Go | Wie Flash, aber mit Loslassen der Taste wird der nächste Cue aufgerufen.
+Timed Flash | Wie Flash, aber unter Berücksichtigung der eingestellten Fadezeiten.
+Timed Flash and Go | Flash mit Berücksichtigung der Fadezeiten sowie Weiterschalten bei Loslassen.
+Swop | Wie Flash, aber alle anderen Geräte werden solange dunkelgeschaltet.
+Latch | Wie Flash, aber Dimmerkanäle bleiben nach dem Loslassen bis zum erneuten Betätigen aktiv.
+Go | Der nächste Cue wird unter Berücksichtigung der eingestellten Zeit aktiviert.
+Stop | Alle Überblendvorgänge werden angehalten.
+Preload | LTP-Kanäle von Geräten, die gerade dunkel sind, werden auf den als nächstes aktiven Wert eingestellt.
+Connect | Verbindet die Cueliste mit der Ablaufsteuerung (ebenso wie die Taste \<Connect\> gefolgt von der Anwahl der Cueliste).
+Tap Tempo | Geschwindigkeitssteuerung durch Tippen im Takt.
+Next Cue - | Geht einen Cue zurück.
+Next Cue + | Geht einen Cue vorwärts.
+Review Live Cue | Aktuellen Cue nochmals mit Fadezeiten einblenden.
+Cut Next Cue to Live | Nächsten Cue ohne Fadezeiten aktivieren.
+Snap Back | Einen Cue zurückgehen, ohne Fadezeiten zu berücksichtigen.
+Go Back | Einen Cue zurück, mit Fadezeiten.
+Release | Playback releasen, unter Berücksichtigung der eingestellten Release-Zeit.
+Select If | Alle Geräte im aktuellen Cue auswählen.
 
 ### Macros
-Can be set to **Select** or **Prefer Macro** (the Macro function
-will take precedence over other functions stored on the button).
+Kann gesetzt werden auf **Select** (Auswahl) oder **Disabled**.
+
+>   Die Option **Macro/Flash takes precedence** bezieht sich nur auf das 
+	Pearl Expert, bei dem es möglich ist, auf Fadern Playbacks zu speichern
+	und auf den zugehörigen Flash-Tasten Macros abzulegen.
 
 ### Options
 
-Allows you to disable the quick record function (double tap
-on empty handles).
+Damit lässt sich die Schnellspeicherfunktion ('Quick
+Record') beim Doppelklick auf freie Schaltflächen deaktivieren.
 
 ### Masters
 
-This is divided into Standard Masters and Scene Master.
+Diese Sektion ist unterteilt in 'Standard Masters' und 'Scene Master'.
 
-For Standard Masters the options are **Disabled**, **Selection**, **Flash**, **Latch**, **Tap
+Für normale Master gibt es die Optionen **Disabled**, **Selection**, **Flash**, **Latch**, **Tap
 Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, **Multiplier x2**,
 **Freeze**, **Connect**.
 
-These last options are for rate and BPM masters, see
-the [BPM Master Options](../running-the-show/playback-controls.md#bpm-master-options). Freeze can be useful to temporarily pause
-shapes or chases, or does a blackout if used with an intensity master.
+Die letzteren gelten nur für BPM-Master, siehe [Optionen für BPM-Master](../running-the-show/playback-controls.md#optionen-für-bpm-master). Mit
+Freeze können Shapes und Chaser vorübergehend angehalten werden; bei
+einem Intensity-Master wirkt Freeze als Blackout.
 
-For Scene Master the options are **Disabled**, **Exit scene mode**, **Enter scene
-mode**, **Commit changes**, **Commit changes and exit scene mode**, **Enter or Exit
-scene mode**, **Enter or commit scene mode**.
+Für den Scene Master gibt es die Optionen **Disabled**, **Exit scene mode**, 
+**Enter scene mode**, **Commit changes**, **Commit changes and exit 
+scene mode**, **Enter or Exit scene mode**, **Enter or commit scene mode**.
 
-## Selecting a Key Profile
+## Eine Tastenbelegung auswählen
 
-To quickly select a Key Profile, hold the \<Avo\> Shift button and press
-\[Select Key Profile\].
+Zur Auswahl einer Tastenbelegung halten Sie die \<AVO\>-Taste gedrückt
+und drücken dazu \[Select Key Profile\].
 
-## Individual Key Profiles for playbacks
+## Tastenbelegungen für einzelne Speicherplätze
 
-Each playback can have an individual Key Profile allocated to it. This
-allows you to customise the panel button functions differently for each
-playback. The Key Profile for the playback is selected using the
-\[Handles\] option on Playback Options. If the playback Key Profile is
-set to \[Global\], the default global profile for Cue / Chase / Cue List
-is used.
+Jedem Speicherplatz lässt sich eine gesonderte Tastenbelegung zuordnen.
+Damit können die einzelnen Tasten für jeden Speicherplatz anders
+konfiguriert werden. Dazu wählt man \[Playback Options\], dann das 
+Playback, die Option \[Handle\] und dann \[Key Profile\]. Steht die 
+Auswahl auf \[Global\], so werden die allgemeinen
+Tasteneinstellungen verwendet.

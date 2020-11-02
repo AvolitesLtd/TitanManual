@@ -5,116 +5,122 @@ sidebar_label: A quick guide to IP addressing
 original_id: a-quick-guide-to-ip-addressing
 ---
 
-This section attempts to explain the basics of IP addressing, and what
-you will need to know when setting up a lighting control network.
+In diesem Abschnitt wird versucht, die Grundlagen der IP-Adressierung
+und weiteres Wissenswerte beim Aufbau von Netzwerken zur Lichtsteuerung
+übersichtlich darzustellen.
 
-IP addresses will normally come in the format `w.x.y.z` where `w`, `x`, `y`
-and `z` are numbers between 0 and 255, for example `192.168.0.1`. Every
-object (or node or device) on a network should have a unique IP address.
-This is the same concept as DMX as each fixture requires a unique DMX
-address, for IP addresses the same is required.
+IP-Adressen werden üblicherweise im Format `w.x.y.z` geschrieben, wobei
+`w`, `x`, `y` und `z` für Zahlen zwischen 0 und 255 stehen; ein Beispiel wäre
+etwa die Adresse `192.168.0.1`. Jedes Gerät in einem Netzwerk muss
+eine eindeutige (in diesem Netzwerk einmalige) IP-Adresse haben. Dies
+ist ein ähnliches Konzept wie bei DMX, wo ebenfalls jedes Gerät eine
+eindeutige Startadresse benötigt.
 
-Setting your IP address
------------------------
-
-The console has a setup function to quickly set its IP address as
-described in the [previous section](controlling-fixtures-over-a-network.md#setting-the-consoles-ip-address).
-
-There is a strong possibility that if you set the IP address on one
-network device you will have to set it on all of them, therefore if you
-manually set your IP address on the console you will have to do it on
-any TitanNet devices you are using and any Art-Net fixtures. Beware that
-some Art-Net fixtures have a fixed IP address in the range `2.x.x.x`, in
-which case you have to set the console to that range.
-
-Subnet Masks
-------------
-
-These are best kept simple. All devices or nodes on a network who wish
-to communicate with each other must have the same subnet mask. The mask
-determines which parts of the IP address are unique in that network to
-each node. If the part of the subnet mask is a 0 then the corresponding
-digit in an IP address must be unique for each fixture. If the part in a
-subnet mask is 255 then this part of the IP address needs to be the same
-for each node.
-
-Choosing an IP address and Subnet Mask
---------------------------------------
-
-This is the hardest part of setting up a network as your IP address
-totally depends on what you are using on the network and what IP
-addresses you can and cannot change. Below are a number of example
-scenarios for standard lighting networks using a Titan console and what
-IP addresses should be set. *These aren't guaranteed to work but try them
-if the scenario matches your network.*
-
-### Titan and TNP with all output operating as standard DMX
-
-Device            | IP Address        | Subnet Mask
----               | ---               | ---
-Titan Console     | `192.168.1.30`    | `255.255.255.0`
-TNP               | `192.168.1.31`    | `255.255.255.0`
-
-### Titan outputting over Art-Net Fixtures (and DMX)
-
-Device            | IP Address        | Subnet Mask
----               | ---               | ---
-Titan Console     | `2.100.100.100`   | `255.0.0.0`
-Art-Net Fixtures  | `2.x.y.z` **\***  | `255.0.0.0`
-
-*Alternatively:*
-
-Device            | IP Address        | Subnet Mask
----               | ---               | ---
-Titan Console     | `10.100.100.100`  | `255.0.0.0`
-Art-Net Fixtures  | `10.x.y.z` **\*** | `255.0.0.0`
-
-**\*** *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
-
-### Titan and TNP outputting over Art-Net (and DMX)
-
-Device            | IP Address        | Subnet Mask
----               | ---               | ---
-Titan Console     | `2.100.100.100`   | `255.0.0.0`
-TNP               | `2.100.100.101`   | `255.0.0.0`
-Art-Net Fixtures  | `2.x.y.z` **\***  | `255.0.0.0`
-
-*Alternatively:*
-
-Device            | IP Address        | Subnet Mask
----               | ---               | ---
-Titan Console     | `10.100.100.100`  | `255.0.0.0`
-TNP               | `10.100.100.101`  | `255.0.0.0`
-Art-Net Fixtures  | `10.x.y.z` **\*** | `255.0.0.0`
-
-**\*** *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
-
-> Never set the last number of an IP address to be 255. This is a special address which will not function correctly.
-
-Automatically assigning IP addresses (DHCP)
--------------------------------------------
-
-There is another way of assigning IP addresses via an automatic system
-called DHCP, where one of the computers on the network will
-automatically give other devices an IP address when it connects.
-
-Generally we would not advise using DHCP on a lighting network as many
-nodes do not support it. If you must operate on a network with DHCP,
-most DHCP servers will have a reserved range of "static" addresses
-which can be manually set. You can usually find these out from the
-DHCP server configuration.
-
-Private IP address ranges
+Einstellen der IP-Adresse
 -------------------------
 
-If your network is connected to the internet it is important to use a
-private IP address range. These are special IP addresses that will not
-be routed onto the internet. They are:
+Bei den Titan-Pulten gibt es eine Funktion, die üblichen IP-Adressen
+schnell einstellen zu können; siehe [voriger Abschnitt](controlling-fixtures-over-a-network.md#einstellen-der-ip-adresse-des-pultes).
 
-Start Address  | Final Address    | Subnet Mask
---- | --- | ---
-10.0.0.0 | 10.255.255.255 | 255.0.0.0
-172.16.0.0 | 172.31.255.255 | 255.255.0.0
-192.168.0.0 | 192.168.255.255 | 255.255.255.0
+Es empfiehlt sich, die IP-Adressen sämtlicher Pulte und angeschlossener
+Geräte zu überprüfen. Berücksichtigen Sie, dass einige Art-Net-Geräte
+feste Adressen im Bereich `2.x.x.x` verwenden, so dass in diesem Fall das
+Pult und ggf. alle anderen Geräte manuell auf eine Adresse im gleichen
+Bereich eingestellt werden müssen.
 
-> For Art-Net, the 10.x.x.x range must be used.
+Subnet Masks - Subnetzmasken
+----------------------------
+
+Diese sollten möglichst einfach gehalten werden. Sämtliche Geräte
+innerhalb eines Netzwerkes, die miteinander kommunizieren sollen, müssen
+auf die gleiche Subnetzmaske eingestellt sein. Diese Maske bestimmt,
+welcher Teil der IP-Adresse in diesem Netzwerk die eindeutige
+Gerätebezeichnung darstellt. Ist ein bestimmter Teil der Subnetzmaske 0,
+so muss der entsprechende Teil der IP-Adresse für jedes Gerät eindeutig
+(einmalig) sein. Ist ein bestimmter Teil der Maske 255, so muss der
+betreffende Teil der IP-Adresse bei allen Geräten gleich sein.
+
+Auswahl der IP-Adresse und Subnetzmaske
+---------------------------------------
+
+Dies ist der komplizierteste Teil bei der Einrichtung eines Netzwerkes,
+da hierbei zu berücksichtigen ist, welche Geräte und Protokolle im
+Netzwerk verwendet werden, und welche IP-Adressen frei vergeben werden
+oder bereits festgelegt sind. Im Folgenden sind einige beispielhafte
+Szenarien aufgeführt. *Für das Funktionieren kann keine Garantie
+übernommen werden, doch wählen Sie als Startwert am besten das Beispiel,
+welches Ihrem Netzwerk am nächsten kommt*.
+
+### Titan-Pult und TNP, alle Ausgänge Standard-DMX
+
+Gerät             | IP-Adresse        | Subnetzmaske
+---               | ---               | ---
+Titan-Pult        | `192.168.1.30`    | `255.255.255.0`
+TNP               | `192.168.1.31`    | `255.255.255.0`
+
+### Titan-Pult steuert Geräte über Art-Net (und ggf. über DMX)
+
+Gerät             | IP-Adresse        | Subnetzmaske
+---               | ---               | ---
+Titan-Pult        | `2.100.100.100`   | `255.0.0.0`
+Art-Net-Geräte    | `2.x.y.z` **\***  | `255.0.0.0`
+
+*Alternativ:*
+
+Gerät             | IP-Adresse        | Subnetzmaske
+---               | ---               | ---
+Titan-Pult        | `10.100.100.100`  | `255.0.0.0`
+Art-Net-Geräte    | `10.x.y.z` **\*** | `255.0.0.0`
+
+**\*** *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
+vergeben.*
+
+### Titan-Pult und TNP, Ausgang über Art-Net (und DMX)
+
+Gerät             | IP-Adresse        | Subnetzmaske
+---               | ---               | ---
+Titan-Pult        | `2.100.100.100`   | `255.0.0.0`
+TNP               | `2.100.100.101`   | `255.0.0.0`
+Art-Net-Geräte    | `2.x.y.z` **\***  | `255.0.0.0`
+
+*Alternativ:*
+
+Gerät             | IP-Adresse        | Subnetzmaske
+---               | ---               | ---
+Titan-Pult        | `10.100.100.100`  | `255.0.0.0`
+TNP               | `10.100.100.101`  | `255.0.0.0`
+Art-Net-Geräte    | `10.x.y.z` **\*** | `255.0.0.0`
+
+**\*** *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
+vergeben.*
+
+>	Verwenden Sie niemals '255' an letzter Stelle der IP-Adresse; dies ist eine spezielle Adresse und wird nicht funktionieren.
+
+Automatische IP-Adressvergabe (DHCP)
+------------------------------------
+
+Eine andere Möglichkeit ist die automatische IP-Adressvergabe per
+DHCP. Dafür muss eins der Geräte als sog. DHCP-Server eingerichtet
+sein, der anderen die passenden Einstellungen zuteilt.
+
+Im Allgemeinen ist dies für Netzwerke im Show-Bereich nicht zu
+empfehlen, insbesondere da etliche Gerät damit nichts anfangen können.
+Schalten Sie daher jegliche DHCP-Funktion ab, oder adressieren Sie
+Ihre Geräte in den Bereich, der von der automatischen Adressvergabe
+ausgenommen ist (lässt sich jeweils beim DHCP-Server einstellen).
+
+Private IP-Adressbereiche
+-------------------------
+
+Ist ihr Netzwerk mit dem Internet verbunden, so ist es wichtig, dass Sie
+einen 'privaten' IP-Adressbereich verwenden. Damit wird sichergestellt,
+dass der Netzwerkverkehr nicht ins Internet geroutet wird. Die privaten
+Adressbereiche sind folgende:
+
+Startadresse  | Letzte Adresse   | Subnetzmaske
+--- 		  | --- 			 | ---
+10.0.0.0 	  | 10.255.255.255 	 | 255.0.0.0
+172.16.0.0 	  | 172.31.255.255   | 255.255.0.0
+192.168.0.0   | 192.168.255.255  | 255.255.255.0
+
+>	Für Art-Net muss der Bereich 10.x.x.x verwendet werden.

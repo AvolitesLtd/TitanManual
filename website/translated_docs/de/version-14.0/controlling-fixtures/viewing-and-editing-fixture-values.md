@@ -11,8 +11,9 @@ original_id: viewing-and-editing-fixture-values
 Zuweilen ist es sinnvoll, die genauen Einstellungen jedes Gerätes
 einzeln anzeigen und ändern zu können. Das 'Channel Grid'-Fenster
 ermöglicht genau das. Aufgerufen wird es durch Betätigen der weißen
-\<Channel Grid\>-Taste, oder durch \[Open workspace window\], \[Channel
-Grid\].
+\<Channel Grid\>-Taste, oder Sie drücken zweimal auf
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen \[Channel Grid\].
 
 ![Channel Grid](/docs/images/Channel-Grid.png)
 
@@ -49,13 +50,13 @@ Die Anzeige lässt sich über die Schaltflächen oben links weiter filtern:
 entweder mit den Buttons IPCGBES für die einzelnen Attribute, oder mit
 den Buttons darunter nach Gerätetyp.
 
-Das Fenster "Intensity"
------------------------
+Das Fenster "Intensity View"
+----------------------------
 
 Um einen raschen Überblick über die momentan aktiven Scheinwerfer zu
-gewinnen, dient das Fenster „Intensity" (die Intensity-Ansicht). Um
-dieses zu öffnen, drücken Sie \[Open Workspace Window\] (Fenster öffnen)
-gefolgt von \[Intensity\].
+gewinnen, dient das Fenster "Intensity View" (die Intensity-Ansicht). Um
+dieses zu öffnen, drücken Sie zweimal auf
+[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen \[Intensity View\].
 
 ![Intensity View](/docs/images/Intensity-View.png)
 
@@ -117,23 +118,23 @@ Klickt man auf den Button \[Search\] (Suche), so kann man ein Suchwort
 eingeben, nach dem gefiltert werden soll. Dabei wird sowohl nach der
 Gerätenummer als auch der Bezeichnung gesucht. Die Such-Eingabe wird
 oben im Intensity-Fenster angezeigt. Rechts daneben ist eine
-Schaltfläche mit einem \[X\] -- mit dieser wird die Suche
+Schaltfläche mit einem \{X\} -- mit dieser wird die Suche
 gelöscht/abgebrochen.
 
 \[View If\] (Zeige wenn) zeigt nur die in einzelnen Gruppen oder
 Playbacks vorhandenen Geräte. Handelt es sich dabei um eine Cueliste
 oder einen Chaser, so gilt das für alle Cues. Der aktuelle Anzeigefilter
 wird oben im Intensity-Fenster angezeigt und kann zum Ändern einfach
-angeklickt werden. Klickt man auf das \[X\], so wird der Filter
+angeklickt werden. Klickt man auf das \{X\}, so wird der Filter
 gelöscht.
 
 Es gibt ferner den Kontext-Button \[Open Channel Grid\] (Öffne Channel
-Grid), mit dem direkt die Kanal-Übersicht [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window) 
+Grid), mit dem direkt die Kanal-Übersicht [Channel Grid](viewing-and-editing-fixture-values.md#übersicht-über-die-kanäle-das-channel-grid-fenster) 
 geöffnet werden kann.
 
-In den **Fenster-Einstellungen** (erreichbar über die
-Zahnrad-Schaltfläche in der Titelleiste des Fensters) gibt es weitere
-Einstellmöglichkeiten, um den Platz bestmöglich auszunutzen:
+In den **Fenster-Einstellungen** (klicken Sie dazu auf das \{Zahnrad\}
+in der Titelleiste des Fensters) gibt es weitere Einstellmöglichkeiten, 
+um den Platz bestmöglich auszunutzen:
 
 -   Fixture Filters Shown/Hidden (Geräte Filter angezeigt/verborgen)
     blendet links eine Spalte ein/aus, mit der nach Gerätetyp gefiltert

@@ -5,298 +5,315 @@ sidebar_label: Editing Cues
 original_id: editing-cues
 ---
 
-Editing a Cue by Merging
-------------------------
+Editieren eines Cues durch Verschmelzen (Merge)
+-----------------------------------------------
 
-You can edit any part of a cue you have already saved simply by making
-the changes and saving the new information on top of the cue.
+Jeder Cue lässt sich ganz einfach ändern, indem man die Änderungen
+vornimmt, und die neuen Einstellungen mit in den gleichen Cue speichert.
 
-1. Press \<Clear\> to empty the programmer
+1. Drücken Sie \<Clear\>, um den Programmierspeicher zu leeren.
 
-2. Fire the cue you want to edit, so you can see what you are doing.\
-*Kill all other cues to avoid confusion.*
+2. Rufen Sie den zu ändernden Cue auf, um die Änderungen sehen zu können;\
+   *deaktivieren Sie dazu andere Cues*.
 
-3. Select the fixtures you want to change, and make the changes
+3. Wählen Sie die zu ändernden Geräte, und nehmen Sie die gewünschten
+Änderungen vor.
 
-4. Press \<Record\>
+4. Drücken Sie \<Record\>
 
-5. Press the **Swop** button for the cue you are editing
+5. Drücken Sie die **Swop-Taste** des zu ändernden Cues.
 
-6. Press \[Merge\] *(the cue being edited is highlighted on the screen)*
+6. Drücken Sie \[Merge\] *(dabei wird der aktuell zu ändernde Cue am
+Bildschirm hervorgehoben)*.
 
-7. The console will merge the existing cue with your changes. Unchanged
-information is not affected.
-
----
-
--   If you want to overwrite the cue entirely, use the option
-    \[Replace\] at step 6 - but remember that unless you are in **"Record
-    by Stage"** mode, any fixtures you haven't changed won't be saved.
-
--   To speed up editing, you can set the console to "Always Merge" the
-    cue. This option is set in the
-    [Handles tab](../system-settings/user-settings.md#prompt-replace) of
-    [User Settings](../system-settings/user-settings.md) (press
-    \<Avo\> and select \[User Settings\]).
-
--   You can also press the **Swop** button for the cue a second time to
-    select the **"Merge"** option (quicker than selecting the softkey \[Merge\]
-    option).
-
-Updating Stored Values and Palettes used in a Cue
--------------------------------------------------
-
-If during a show you need to quickly update a cue, or a palette used in
-a cue *(for example you fire a green cue and the fixtures turn out to be
-not quite the right colour)* the \<Update\> function lets you quickly update
-either the cue itself or the palettes used in the cue.
-
-For instant update of a fired cue, change the fixture settings and press
-\<Update\> twice.
-
-1. With the cue fired, select the fixtures and change them to the
-settings you want to store *(e.g. the right green colour)*
-
-2. Press \<Update\> *(on consoles without an Update button press
-\<Record Cue\>, \[Update\])*
-
-3. Press \<Enter\> to immediately store the new values to the cue
+7. Das Pult fügt daraufhin die vorgenommenen Änderungen in den Cue ein;
+unveränderte Werte bleiben erhalten.
 
 ---
 
-Alternatively, the softkeys show a list of [palettes](../palettes.md) and playbacks which
-can be updated. Select or deselect these as required.
+-   Um den Cue komplett zu überschreiben, wählen Sie bei Schritt 6 die
+    Option \[Replace\] (Ersetzen). Bitte berücksichtigen: damit werden
+    Geräte, die nicht aktuell verändert wurden (und damit auch nicht im
+    Programmierspeicher sind), nicht in dem Cue gespeichert!
 
-If you have used the softkey options, press \<Enter\> to complete
-the update.
+-   Um die Arbeit zu beschleunigen, können Sie die Option 'Always Merge'
+    (immer Verschmelzen) aktivieren. Diese befindet sich auf dem 
+	[Tab 'Handles'](../system-settings/user-settings.md#prompt-replace) in den 
+    [Benutzereinstellungen](../system-settings/user-settings.md) (drücken Sie 
+	die Taste \<AVO\> und wählen im Menü \[User Settings\]).
+
+-   Sie können auch die **Swop-Taste** ein zweites Mal betätigen, um die
+    Option **Merge** anzuwenden (schneller als die Schaltfläche \[Merge\])
+
+Aktualisieren gespeicherter Werte und Paletten
+----------------------------------------------
+
+Muss ein Cue oder eine im Cue verwendete Palette während der Show
+verändert werden *(wenn z.B. der Grün-Ton nicht exakt die gewünschte
+Farbe trifft)*, so lässt sich das einfach per \<Update\> realisieren; dabei
+kann entweder der Cue oder die enthaltene Palette aktualisiert werden.
+
+Um den Cue zu aktualisieren, nehmen Sie die erforderlichen Änderungen
+vor und drücken zweimal \<Update\>.
+
+1. Während der Cue gestartet ist, wählen Sie die betreffenden Geräte
+aus und stellen den gewünschten Wert ein *(z.B. das richtige Grün)*.
+
+2. Drücken Sie \<Update\> *(auf älteren Pulten: \<Record Cue\>, dann
+\[Update\])*.
+
+3. Drücken Sie \<Enter\>, um sofort die neuen Werte im Cue zu
+speichern.
 
 ---
 
--   You can also select which palettes will be affected by pressing the
-    palette's button twice.
+Alternativ werden die [Paletten](../palettes.md) und Cues, die upgedated werden
+können, im Bildschirm angezeigt; wählen Sie die gewünschten aus.
 
--   If you manually set an attribute in the cue which was set by a
-    palette, then press \<Update\> \<Update\>, the palette will be
-    removed from the cue. If you want to update the palette, use the
-    softkey options or press the palette button.
+In diesem Fall bestätigen Sie die Auswahl mit \<Enter\>.
 
--   If you change an attribute using a different palette, the new
-    palette will be stored instead.
+---
 
-Playback and Cue View
----------------------
+-   Sie können auch die Paletten durch zweimaliges Betätigen
+    der jeweiligen Schaltfläche updaten.
 
-To see the current timings of the cue, touch the playbacks display for
-the fader, or press \<View/Open\> then the **swop** button of the playback
-you want to view. The screen will show details of the delay, fade,
-overlap and curve settings for the cue. You can touch each item to
-enable editing.
+-   Soll der vormalige Wert einer Palette mit einem manuellen Wert
+    überschrieben werden, so drücken Sie \<Update\>-\<Update\>. Soll
+    hingegen die Palette aktualisiert werden, so nutzen Sie die
+    Menütasten oder drücken die \<Palette\>-Taste.
 
-If a [shape or pixel map effect](../effects.md) is stored in the cue, you can view or
-edit the effect by clicking the button in the appropriate column.
+-   Wird ein Attribut durch eine andere Palette überschrieben, wird
+    stattdessen die neue Palette gespeichert.
 
-The **Effect Speed** column allows you to set a multiplier or divider for
-the speed of effects in the cue.
+Anzeige der Cues: Playback View und Cue View
+--------------------------------------------
 
-The **Times** button on the left removes some of the columns, showing only
-timing related information.
+Zum Anzeigen der Zeiteinstellungen des Cues klicken Sie auf das Display
+oberhalb der Regler, oder Sie drücken \<View / Open\> und dann
+die **Swop-Taste** des Cues. Im Bildschirm erscheinen daraufhin Details
+zu Verzögerungs- und Überblendzeit, Geräteüberblenden, und Einstellung
+der Reglerkurve. Jeder Wert lässt sich durch Anklicken zum Ändern
+auswählen.
+
+Ist in dem Cue ein [Shape oder Effekt](../effects.md) gespeichert, so gibt es in der
+entsprechenden Spalte extra einen Button, nach dessen Anklicken man den
+Effekt editieren kann.
+
+In der Spalte **Effect Speed** lässt sich ein Speed-Faktor für den Effekt
+in diesem Cue eintragen.
+
+Klickt man Links auf den Button **Times**, so werden einige Spalten
+ausgeblendet, so dass man nur noch die Timing-Werte angezeigt bekommt.
 
 ![Playback View for cue](/docs/images/Playback-View-for-cue.png)
 
-### Filter Columns
+### Filtern -- Nur einzelne Spalten anzeigen
 
-You can configure which columns are shown in the Playback View using the
-\[Edit Columns\] context menu button. Once you have set a view you can
-save it to a filter button which appears below the Times button on the
-left.
+Mittels der Kontext-Funktion \[Edit Columns\] lässt sich noch genauer
+einstellen, welche Spalten in der Playback-Ansicht angezeigt werden. Hat
+man seine Auswahl getroffen, lässt sich diese links als Filter
+abspeichern.
 
-1. Press \[Edit Columns\] on the context menu.
+1. Klicken Sie auf \[Edit Columns\] im Kontext-Bereich.
 
-2. Using the softkeys, enable or disable the columns to get the view
-you want.
+2. Mit den Menütasten aktivieren/deaktivieren Sie die gewünschten
+Spalten.
 
-3. Press \<Record\>. An \[Add\] button will appear at the bottom of the
-screen.
+3. Drücken Sie auf die Taste \<Record\>. Daraufhin wird am unteren Rand
+des Playback-View-Fensters ein \[Add\]-Button eingeblendet.
 
-4. Press the \[Add\] button to create a filter button for this view.
+4. Klicken Sie auf \[Add\], um einen Filter für Ihre Ansicht zu
+speichern.
 
-5. You can set a legend and colour halo for the filter button using the
-normal \[Set Legend\] function.
+5. Sie können Ihren Filter wie gewohnt mittels Set Legend umbenennen
+sowie mit einem Halo versehen.
 
-6. You can delete filter buttons by pressing \<Delete\> then the
-button.
+6. Zum Löschen Ihrer Filter drücken Sie \<Delete\> und klicken auf den
+zu löschenden Filter-Button.
 
 ### Cue View
 
-If you touch the View button at the right hand end of the row or the
-\[View Cue\] context button, the Cue View window opens, showing you
-details of the settings individual timings for all the fixtures in the
-cue.
+Betätigen Sie die Schaltfläche \[View\] am rechten Zeilenende oder die
+\[View Cue\]-Kontext-Schaltfläche, so erscheint das Fenster 'Cue View'
+mit sämtlichen Details der Einstellungen zu allen einzelnen Geräten in
+dem gewählten Cue.
 
-The Cue View has four different views: **Levels**, **Palettes**, **Times** & **Shapes**.
-Views are selected using the context buttons to the left of the menu
-buttons.
+Das Fenster 'Cue View' bietet vier unterschiedliche Anzeigen: **Levels**
+(Werte), **Palettes** (Paletten), **Times** (Zeiten) und **Shapes**. Die
+einzelnen Anzeigen lassen sich mit den Schaltflächen links der
+Menütasten umschalten.
 
--   The **Levels** view shows the individual attribute values for each
-    fixture.
+-   Die Anzeige **Levels** zeigt die Werte der einzelnen Attribute für
+    jedes Gerät.
 
--   The **Palettes** view shows which palettes have been used to record
-    the cue. Palettes are shown by their legends. Where an absolute
-    value was saved rather than a palette, the value is shown instead.
-    Again you can edit or remove the values.
+-   Die Anzeige **Palettes** zeigt die in dem Cue verwendeten Paletten
+    mit ihren Namen. Ist statt einer Palette ein absoluter Wert
+    verwendet worden, so wird dieser angezeigt. Auch hier lassen sich
+    die Werte ändern oder löschen.
 
--   The **Times** view shows individual attribute timings for fixtures.
-    If global timings are set, no times are shown in the cue view.
+-   Die Anzeige **Times** zeigt die Zeiteinstellungen für die einzelnen
+    Attribute der Geräte an. Werden globale Zeiten verwendet, so werden
+    in dieser Anzeige keine Zeiten dargestellt.
 
--   The **Shapes** view shows which attributes of each fixture are
-    running shapes.
+-   In der Anzeige **Shapes** wird dargestellt, welche Shapes auf
+    einzelnen Attributen zur Anwendung kommen.
 
 ![Cue View](/docs/images/Cue-View-2.png)
 
-Filter which **attributes** you are shown using the All/IPCGBES buttons in
-the top left corner.
+Mit den Buttons All/IPCGBES oben links können die anzuzeigenden
+**Attribute** ausgewählt werden.
 
-Filter which **fixtures** you are shown using the fixture type buttons on
-the left.
+Mit den Gerätetyp-Buttons links unterhalb der Attribut-Buttons kann man
+die anzuzeigenden **Geräte** auswählen.
 
-### Edit Values in Cue View
+### Editieren von Werten im Cue View
 
-You can **edit** or **remove** one or more individual control values in the cue:
+Es lassen sich die Werte einzelner oder mehrerer Kanäle **ändern** oder
+**löschen**:
 
-1. Touch or drag over the required control values in the grid to select
-them - *they will be highlighted in blue*
+1. Klicken Sie den entsprechenden Wert an, oder fahren Sie über den
+gewünschten Bereich: *die ausgewählten Werte werden in blau
+hervorgehoben*.
 
-2. The softkeys then give you available settings for that control value, or
-you can directly edit values by typing numeric values and pressing
-\<Enter\>
+2. Auf den Menütasten erscheinen daraufhin die für das gewählte
+Attribut verfügbaren Optionen, ferner lässt sich mit den Zifferntasten
+direkt ein numerischer Wert eingeben und mit \<Enter\> bestätigen.
 
-3. You can delete the selected control(s) using the \[Delete\] softkey
+3. Einzelne Attribute lassen sich mit der Taste \<Off\> sowie den Menütasten
+   \[Off\] und \[On\] temporär deaktivieren und wieder aktivieren, 
+   ohne sie komplett aus dem Cue zu löschen.
 
-4. You can turn attributes On and Off using the \<Off\> button and the
-\[On\] softkey. Off temporarily removes a value from the cue, it can
-later be restored using \[On\].
+4. Um ein Gerät komplett aus einem Cue zu entfernen, wählen Sie dieses aus
+und klicken auf \[Remove Fixtures\].
 
-5. You can remove a fixture completely from the cue by selecting the
-fixture then pressing the \[Remove Fixtures\] softkey.
+Sämtliche Änderungen werden sofort wirksam.
 
-Any changes take immediate effect.
+Cues wiederverwenden - die 'Include'-Funktion
+---------------------------------------------
 
-Using Parts of Existing Cues - the Include Function
----------------------------------------------------
+Mit der 'Include'-Funktion lassen sich ausgewählte Teile eines Cues
+zurück in den Programmierspeicher laden (normalerweise werden nur
+manuelle Änderungen in den Programmierspeicher geschrieben). Diese
+lassen sich dann etwa zum Anlegen eines neuen Cues verwenden. Dies ist
+sinnvoll z.B. beim Anlegen eines Cues, der einem bereits vorhandenen
+ähnlich ist, oder um einen neuen Cue aus verschiedenen Teilen mehrerer
+anderer Cues zusammenzustellen. Auch zum Editieren von Shapes in Cues
+ist Include erforderlich,
 
-The Include function lets you load selected parts of a cue back into the
-programmer. (Normally, only manual changes to fixtures are put in the
-programmer). You can then use this to make a new cue. This is useful if
-you want to make a cue which is similar to one you already have, or to
-build a new cue from various parts of other cues. It's also useful when
-editing shapes in cues.
+Es gibt zwei Arbeitsweisen: 'Quick' (Schnell) Include, und 'Advanced'
+(mit weitergehenden Optionen) Include. **Quick Include** lädt einfach den
+kompletten Cue, während bei **Advanced Include** die zu ladenden Geräte
+und Attribute einzeln ausgewählt werden können. Hat man etwa einen Cue
+mit Positions-, Farb- und Goboinformationen für 8 Geräte, so lassen sich
+mit dieser Funktion z.B. nur die Farben von vier Geräten in den
+Programmierspeicher laden. Daraufhin kann man etwa die
+Positions-Information aus einem anderen Cue laden, und so nach und nach
+einen neuen Cue aus mehreren bestehenden zusammenstellen.
 
-There are two modes, **Quick Include** and **Advanced Include**. Quick Include
-simply reloads the whole cue. Advanced Include allows you to specify
-which attributes of which fixtures you want to load into the programmer.
-So, for example, if you have a cue which contains position, colour and
-gobo information for 8 fixtures, you can use the include function to
-load only the colour information for 4 of the fixtures into the
-programmer. You could then Include position information from another cue
-into the programmer, and build up a new cue using information from
-several existing cues.
+Wird 'Include' auf einen [Chaser](../chases.md) oder eine [Cueliste](../cue-lists.md)
+angewendet, so zeigt das Display eine Liste der darin enthaltenen 
+einzelnen Cues, um den gewünschten auswählen zu können (mit Encoder A, 
+oder ganz einfach durch Anklicken). Ebenso kann man die Nummer des 
+gewünschten Schrittes mit den Zifferntasten eingeben.
 
-If you Include a [chase](../chases.md) or [cue list](../cue-lists.md), the screen shows you a list of the
-cues within it, and you select the one you want to Include using Wheel A
-or by touching the cue. You can also type in the cue number to Include.
+1. Drücken Sie \<Include\>.
 
-1. Press \<Include\>.
+2. Drücken Sie \[Quick Include\] oder \[Advanced Include\], um den Modus
+zu wechseln.
 
-2. Press \[Quick Include\] or \[Advanced mode\] if you want to change
-the mode.
+3. Drücken Sie die **Swop-Taste** des Cues, den Sie in den Speicher
+laden möchten. Haben Sie den Modus **Quick Include** gewählt, so wird
+damit der Cue in den Speicher geladen, und der Vorgang ist abgeschlossen.
 
-3. Press the **Swop** button of the cue you want to include into the
-programmer. If you are in **Quick Include** mode, this Includes the cue and
-finishes.
+4. Befinden Sie sich im Modus **Advanced Include**, so werden alle in dem Cue
+enthaltenen Geräte ausgewählt. Werden nicht alle gewünscht, so wählen
+Sie die übrigen nun ab. Die ausgewählten Geräte werden auf den
+Geräte-Schaltflächen und -Tasten hervorgehoben.
 
-4. If you are in **Advanced Include**, all fixtures in the cue will be
-selected. If you don't want them all, deselect the fixtures you don't
-want. The fixtures in the cue are highlighted on the screen and on the
-fixture buttons.
+5. Verwenden Sie \[Set Mask\] oder die Attribut-Auswahltasten, um die
+zu ladenden Attribute auszuwählen *(standardmäßig sind alle ausgewählt;
+Taste \<C\> wählt alle ab, Taste \<D\> wählt alle wieder an)*. Taste
+\<E\> aktiviert oder deaktiviert das Laden von Shapes aus dem Cue.
 
-5. Use \[Set Mask\] or the Attribute Bank buttons to select which
-Attributes you want to include *(all are included by default - \[Softkey C\]
-turns them all off and \[Softkey D\] turns them all on)*. \[Softkey E\] lets you include
-or exclude Shapes from the cue.
+6. Drücken Sie \<Enter\>. Die ausgewählten Attribute der ausge­wählten
+Geräte werden in den Programmierspeicher geladen.
 
-6. Press \<Enter\>. The selected attributes of the selected fixtures
-will be loaded into the programmer.
+7. Wiederholen Sie die Schritte 2 bis 6 zum Includen weiterer Attribute
+der gleichen Geräte oder ab Schritt 1 für weitere Geräte.
 
-7. **Repeat steps 2 - 6** to include other attributes from the same fixtures, or
-**repeat steps 1 - 6** to include other fixtures.
+>   Im Modus **Quick Include** lässt sich eine Maske der zu wählenden
+    Attribute erstellen; betätigen Sie dazu eine oder mehrere
+    Attributtasten vor der Anwahl des gewünschten Cues.
 
->   In **Quick Include** mode, you can set a mask for the include by
-    pressing one or more of the attribute bank buttons before you select
-    the cue to include.
-
-Removing Attributes from Cues Using "Off"
------------------------------------------
+Deaktivieren von Attributen in Cues mit "Off"
+---------------------------------------------
 
 [](https://youtu.be/p7Ffz4e4tws?t=20 "Off")
 
-The \<Off\> button allows you to remove an attribute which has been
-stored in a cue, as if you'd never recorded it.
+Mit der \<Off\>-Taste lässt sich ein Attribut in einem Cue deaktivieren,
+als ob es nie in diesem gespeichert gewesen wäre - es kann später wieder
+aktiviert werden.
 
-For example, suppose you recorded a cue which had fixtures at a certain
-position, with the colour set to green. If you later decide that you
-don't want a colour recorded at all in the cue, so that the playback
-will position the fixtures but leave the colour set by previous
-playbacks, you set the colour values to Off in the programmer, which
-when saved will remove those values from the cue. You can also use the
-Off function to remove complete fixtures from a cue.
+Angenommen, Sie haben einen Cue programmiert, in dem etwa ein paar
+Scanner auf einer bestimmten Position mit grün als Farbe abgespeichert
+sind. Wollen Sie nun die Farbe aus diesem Cue deaktivieren, so dass die
+Lampen die Einstellung aus dem vorher abgerufenen Cue zeigen, so setzen
+Sie die Farbwerte auf 'Off' und speichern den Cue wie gewohnt. Die 
+"Off"-Funktion lässt sich ebenso nutzen, um ganze Geräte in einem Cue 
+zu deaktivieren, indem man sämtliche Attribute auf "Off" setzt.
 
-Setting an attribute to **Off** is not the same as recording an attribute at
-zero, since this would change the attribute when the cue was fired. It
-is the same as excluding that attribute using the mask when recording,
-so the attribute will remain unchanged when the cue is fired.
+Ein Attribut auf **"Off"** zu setzen ist nicht gleichzusetzen mit dem Setzen
+des Attributes auf "0", denn das würde einen Wert für das Attribut
+bedeuten, der beim Aufruf des Cue abgerufen würde. "Off" ist vielmehr
+gleichbedeutend mit dem Deaktivieren des Attributs in diesem Cue, so dass 
+das Attribut beim Aufruf des Cues unbeeinflusst bleibt.
 
-1. Press \<Off\>, then \[Off Playback Values\] followed by the playback
-to be changed.
+1. Drücken Sie \<Off\>, dann \[Off Playback Values\], gefolgt von dem
+zu ändernden Cue.
 
-2. All fixtures in the playback will automatically select. If you only
-want to change some fixtures to **Off**, change the selection.
+2. Alle Geräte in dem Cue sind nun ausgewählt. Wählen sie ggf. Geräte
+ab, die Sie nicht Off schalten wollen.
 
-3. By default the attribute mask is set so all attributes will be
-changed to Off. Press \[Set Mask\] to choose which attributes will be
-set to **Off**.
+3. In der Attributmaske sind alle Attribute angewählt. Wählen Sie ggf.
+per \[Set Mask\] einzelne Attribute ab, die nicht Off geschaltet werden sollen.
 
-4. Press the \[Off\] softkey
-
----
-
-You can also use \<Include\> to set values to Off.
-
-1. Use the **Quick Include** function (described in [previous section](#using-parts-of-existing-cues-the-include-function)) to
-load the cue you want to change into the programmer.
-
-2. Press \<Off\> to display the Off menu.
-
-3. All fixtures in the cue will be selected. If you don't want to
-change them all, deselect the fixtures you don't want.
-
-4. Use the Attribute Bank buttons to toggle which attributes you want
-to change. Then press the \[Attributes Off\] softkey to set them to Off.
-The bottom softkeys also give options such as \[Dimmer Off\].
-
-5. Press \<Record\>, then set the record mode to \[Replace\], and press
-the **Swop** button of the cue to update it.
+4. Klicken Sie auf \[Off\].
 
 ---
 
--   To turn off all attributes of all selected fixtures, press \<Off\>
-    then \[Selected Fixtures Off\].
+Werte lassen sich auch unter Verwendung der \<Include\>-Funktion auf Off
+setzen:
 
--   You can **merge** *"Off"* attributes into a cue without including it
-    first.
+1. Verwenden Sie **Quick Include** (siehe [voriger
+Abschnitt](#cues-wiederverwenden---die-include-funktion)), um den Cue in den Programmierspeicher zu laden.
 
--   You can also remove attributes from palettes using the **Off** function.
+2. Betätigen Sie die \<Off\>-Taste, um das 'Off'-Menü anzuzeigen.
 
--   Another way to remove attributes is from the [Cue View window](#cue-view).
+3. Alle Geräte in dem Cue werden ausgewählt. Wollen Sie nicht alle
+verändern, so entfernen Sie die Geräte einzeln aus der Auswahl.
 
--   Attributes set to **Off** can be restored to their previous value using
-    the **On** function. Set the attribute to **On** and **merge** it into the cue.
+4. Wählen Sie mit den Attributbank-Buttons die Off zu schaltenden
+Attributebänke und drücken Sie \[Attributes Off\]. Außerdem kann man mit
+den Menütasten auch einzelne Attribute Off schalten, z.B. \[Dimmer
+Off\].
+
+5. Drücken Sie \<Record\>, dann die **Swop-Taste** des Cues, und schließlich 
+\[Replace\] zum Speichern der Änderungen.
+
+---
+
+-   Um alle Attribute aller angewählten Geräte Off zu schalten, drücken
+    Sie \<Off\> gefolgt von \[Selected Fixtures Off\].
+
+-   "Off"-Einstellungen lassen sich auch ohne vorheriges Includen in einen
+    Cue übernehmen (**Merge**).
+
+-   Ebenso lassen sich mit der Off-Funktion einzelne Attribute aus
+    gespeicherten Paletten entfernen.
+
+-   Eine weitere Möglichkeit zum Entfernen von Attributen ist das
+ [Cue View-Fenster](#cue-view).
+
+-   Mittels **Off** deaktivierte Attribute lassen sich wieder aktivieren.
+    Stellen Sie dazu das Attribut auf **On**, und **verschmelzen (mergen)** Sie
+    das in den bestehenden Cue.

@@ -5,145 +5,154 @@ sidebar_label: Editing Shapes and Effects
 original_id: editing-shapes-and-effects
 ---
 
-Editing a Live Running Shape
-----------------------------
+Ändern eines gerade laufenden Shapes
+------------------------------------
 
-You can change the speed, size and spread of a live running shape by
-pressing \<Connect\> then \<Shape\> (which will flash if any shapes are
-active). The softkeys will show a list of the currently running shapes,
-and the cue they are coming from or the programmer.
+Geschwindigkeit, Größe und Aufteilung (Spread) eines gerade laufenden
+Shapes lassen sich ändern, indem man auf \<Connect / Cue\>, gefolgt von
+\<Shape\> drückt (\<Shape\> blinkt, sofern Shapes gerade aktiv sind).
+Die Menütasten zeigen die gerade laufenden Shapes an sowie, aus welchem
+Cue oder ob sie aus dem Programmer kommen.
 
->   If the console does not have a \<Shape\> button you can access this
-    function using \[Shapes and Effects\], \[Shape Generator\], \[Edit\]
+>   Verfügt das Pult nicht über eine \<Shape\>-Taste, so erreichen Sie
+    diese Funktion über \[Shapes and Effects\], \[Shape Generator\], 
+    \[Edit\].
 
 ![Shape Generator - Selecting a Shape to Edit](/docs/images/Shape-Generator-Selecting-a-Shape-to-Edit.png)
 
-By default all shapes are selected. Choose the shapes to control and
-press \<Enter\> or \<Shape\> to connect the shapes to the wheels to
-change the speed, size and spread. If there are more than 3 parameters
-to control, \[Softkey G\] will change the wheels to different options.
+Zunächst sind alle aktiven Shapes angewählt. Ändern Sie dies ggf. und
+drücken Sie \<Enter\| oder nochmals \<Shape\>, um die Shapes mit der
+Steuerung per Rad zu verbinden. Sind mehr als drei Parameter zu steuern,
+so können Sie mit Menütaste G umschalten.
 
--   If the shapes are in a cue, changes you make here will be
-    automatically stored in the cue (like [speed and crossfade are when
-    you are running a chase](../chases/chase-playback.md#setting-speed-and-crossfade-for-a-chase)).
+-   Stammen die Shapes aus einem Cue, so werden Änderungen direkt in den
+    Cue übertragen (genauso wie z.B. [Geschwindigkeit und Überblendung einstellen](../chases/chase-playback.md#geschwindigkeit-und-überblendung-einstellen)).
 
--   To control other attributes using the wheels while in this mode,
-    press an attribute button. To get back to shape mode press \<Shape\>
-    or select the FX attribute in the wheels display.
+-   Um währenddessen ein anderes Attribut zu steuern, betätigen Sie die
+    entsprechende Attribut-Taste/Button. Um wieder zur Shape-Steuerung
+    zurückzukehren, klicken Sie wieder \<Shape\> oder \[FX\].
 
-Editing Shapes and Effects in Cues
-----------------------------------
+Ändern gespeicherter Shapes und Effekte
+---------------------------------------
 
-Shapes and pixel mapper effects stored in cues can be edited from the
-Cue View window.
+Shapes und Pixelmapper-Effekte, die bereits in Cues gespeichert sind,
+lassen sich über das Fenster 'Cue View' aufrufen und editieren.
 
 ![Playback View for Cue with Shape](/docs/images/Playback-View-for-Cue-with-Shape.png)
 
-To view and/or edit the parameters of the shape or effect, click on the
-**View Shape** or **View Pixel Effect** button. If more than one shape or effect
-is stored, the button will show \[...\]. A **Shape View window** or **Pixel
-Mapper Effect View window** will open, listing the shapes or effects in
-the cue. You can then edit parameters of the shape or effect by clicking
-on the parameter and editing on the softkeys.
+Um die Parameter eines Shapes/Effektes anzuzeigen oder zu editieren,
+klicken Sie auf \[View Shape\] oder \[View Pixel Effect\]. Ist mehr als
+ein Shape/Effekt in dem Cue gespeichert, wird auf der Schaltfläche
+\[\...\] angezeigt. Nach dem Anklicken öffnet sich ein entsprechendes
+Fenster (**Shape View** oder **Pixelmapper Effect View**), in dem alle
+enthaltenen Shapes/Effekte aufgeführt sind. Dort können Sie die
+gewünschten Änderungen vornehmen.
 
-In the Shape or Effect View window you can click on **View Fixtures** to
-open a window showing a list of the fixtures on which the shape or
-effect is programmed.
+In den Fenstern 'Shape View' oder 'Effect View' lässt sich ferner mit
+\[View Fixtures\] eine Liste der enthaltenen Geräte anzeigen, die in dem
+Shape/Effekt enthalten sind.
 
-Editing a Shape in a Cue Using Include
---------------------------------------
+Ändern von Shapes mit Include
+-----------------------------
 
-You can only edit shapes which are in the programmer; if you fire a cue
-with a shape in it, the shape will not show up in the list of editable
-shapes. To get the shape into the programmer you need to use the Include
-function (see 
-[Using Parts of Existing Cues - the Include Function](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)).
+Es lassen sich nur Shapes verändern, die sich im Programmierspeicher
+befinden - wird ein Shape einfach mit einem Cue gestartet, so erscheint
+er nicht in der Liste zu ändernder Shapes. Um einen Shape in einem Cue zu
+ändern, laden Sie also zunächst den Cue [per Include in den
+Programmierspeicher](../cues/editing-cues.md#cues-wiederverwenden---die-include-funktion)).
 
-Once the cue is loaded into the programmer using \<Include\>, if more than
-one shape is running in the programmer, you can select which one is
-connected to the control wheels using Shape option \[Edit\].
+Wurde ein Cue mittels Include geladen und sind mehrere Shapes
+gleichzeitig im Programmierspeicher, so lässt sich der mit den Encodern zu
+steuernde mit Taste \[Edit\] auswählen.
 
-1. If you are not in the Shape menu, press \[Shapes and Effects\] then
-\[Shape Generator\] at the top menu.
+1. Wenn das Shape-Menü noch nicht aktiv ist, so öffnen Sie es mit \[Shapes and
+Effects\], dann \[Shape Generator\] aus dem Hauptmenü.
 
-2. Press \[Edit\].
+2. Drücken Sie \[Edit\].
 
-3. Press \[Select shape\]
+3. Drücken Sie \[Select shape\].
 
-4. By the softkeys is a list of the currently running shapes.
+4. Bei den Menütasten erscheint eine Liste der laufenden Shapes.
 
-5. Press a softkey to make the shape active. The active shape is
-highlighted.
+5. Betätigen Sie eine Taste, um den jeweiligen Shape auszuwählen. Der
+ausgewählte Shape wird hervorgehoben.
 
-6. Press \<Enter\> to get back to the Shape Generator menu.
+6. Drücken Sie \<Enter\>, um zum Shape Generator-Menü zurückzukehren.
 
->   If you applied the same shape several times to different fixtures,
-    you can change each copy of the shape independently.
+>   Läuft ein Shape mehrfach auf verschiedenen Geräten, so lässt sich
+    jede laufende Kopie einzeln steuern.
 
-Resynchronise Shapes
+Shapes neu synchronisieren
+--------------------------
+
+Mit der Option \[Restart Shapes\] im Shape-Editor werden alle gerade
+laufenden Shapes neu gestartet. Das ist sinnvoll, wenn mehrere Shapes
+miteinander synchronisiert werden sollen.
+
+Ändern der Gerätereihenfolge eines Shapes
+-----------------------------------------
+
+Die Art und Weise, wie ein Shape arbeitet, wird durch die Reihenfolge
+der Auswahl der Geräte bestimmt. Diese lässt sich später mit der
+Funktion \[Fixture Order\] im Menü \[Edit\] ändern. Die aktuelle
+Gerätereihenfolge wird auf den Geräte-Schaltflächen mit großen grünen
+Zahlen angezeigt. Siehe
+[Gerätereihenfolge und -anordnung](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen)
+für weitere Details.
+
+Shapes mit Gruppen verknüpft
+----------------------------
+
+Shapes und Keyframe-Shapes, die unter Verwendung von Gruppen erstellt
+wurden, verwenden die [Gerätereihenfolge der Gruppe](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) und enthalten eine
+Verknüpfung mit der/den jeweiligen Gruppe(n). Damit werden Änderungen
+etwa am Layout bzw. der Geräte-Reihenfolge sofort in den betreffenden
+Shapes wirksam und müssen nicht manuell übernommen werden.
+
+Um Geräte zu einer Gruppe hinzuzufügen, ohne die Verknüpfung des Shapes
+aufzuheben, wählen Sie die Geräte aus, drücken \<Record\>, gefolgt von
+der Gruppenschaltfläche/Taste, und betätigen diese nochmals oder wählen
+\[Merge\] mit den Menütasten. Ebenso kann der Inhalt einer Gruppe (die
+enthaltenen Geräte) unter Erhaltung der Verknüpfungen zu Shapes und
+Effekten ersetzt werden, indem man die Geräte auswählt, \<Record\> und
+die Gruppenschaltfläche betätigt und dann \[Replace\] wählt. Geräte
+lassen sich schließlich auch durch das Ein- und Ausschalten der
+Geräteschaltflächen im Menü 'Edit Groups' zu Gruppen hinzufügen oder
+daraus entfernen: \<Group\> \[Edit Groups\] \[Gruppen-Schaltfläche\].
+
+Soll die Reihenfolge für einen bestimmten Shape geändert werden, ohne
+dies in der Gruppe zu tun und damit ggf. andere Shapes zu verändern, so
+lösen Sie die Gruppenverknüpfung mit \[Break Group References\] im Menü
+\[Edit\] \[Edit Fixtures/Groups\] \[Fixture Order\].
+
+Siehe [Gerätereihenfolge und -anordnung](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) für Details zum Editieren von Reihenfolge und Layout.
+
+Entfernen oder Hinzufügen von Geräten
+-------------------------------------
+
+Mit der Funktion \[Add/Remove Fixtures\] aus dem Menü \[Edit\] lassen
+Geräte aus einem Shape entfernen oder weitere Geräte hinzufügen; ebenso
+können Sie dazu die entsprechende Kontextfunktion aus dem Menü „Shapes
+Fixture View" verwenden. Sämtliche bereits im Shape vorhandenen Geräte
+werden als Vorauswahl angeboten, und können dann einzeln ab- oder
+angewählt werden.
+
+Ist ein Shape mit einer Gruppe verknüpft (s.o.), so wird durch das
+Entfernen von Fixtures aus dem Shape die Verknüpfung gelöst.
+Entsprechend wird eine Meldung ausgegeben, und man muss das mit \[Remove
+Fixtures\] bestätigen.
+
+Einen Shape umkehren
 --------------------
 
-The \[Restart Shapes\] option in the Shape Edit menu allows you to
-restart all running shapes, this is useful if you have multiple shapes
-in a cue and you need to see how they will start up when the cue is
-fired.
+Die Richtung eines Shapes lässt sich umkehren; dazu drückt man im
+'Shape'-Menü auf \[Reverse Selected Fixtures\]. Dadurch wird der Shape
+für die ausgewählten Geräte umgekehrt; damit lassen sich Abläufe gezielt
+nur für einzelne - oder aber für alle - Geräte umkehren.
 
-Changing Fixture Order in a Shape
----------------------------------
+Löschen von Shapes
+------------------
 
-The way a shape spreads across a number of fixtures is set by the order
-in which you selected them when you create the shape. You can change
-this order using the \[Fixture Order\] function in the \[Edit\] menu.
-The current fixture order is shown in in the fixture touch keys . See
-[Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)
-for details on how to change the fixture order.
-
-Shapes Linked to Groups
------------------------
-
-If a shape is created from a group of fixtures, the 
-[fixture order or 2D layout](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)
-in the group will be used when generating the shape. The shape
-will contain a link to the group and any changes later made to the group
-such as changing the fixture order or layout will affect the shape.
-
-If you need to add fixtures to the group without breaking the group
-link, select the fixtures then press \<Record\>, **Group handle** button,
-\[Merge\]. To change the fixtures to a new selection, select them then
-press \<Record\>, **Group handle** button, \[Replace\]. You can also use
-\<Group\>, \[Edit Groups\].
-
-If you want to change the fixture order for a particular shape without
-changing the order in the group, which might affect other shapes, then
-you can break the link to the group using the \[Break Group References\]
-button in the \[Edit\], \[Edit Fixtures/Groups\], \[Fixture Order\] menu.
-
-See [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) for how to edit the fixture order or
-layout.
-
-Removing or Adding Fixtures
----------------------------
-
-You can add or remove individual fixtures from a shape using the
-\[Add/Remove Fixtures\] option in the \[Edit\] menu, or use the context
-menu button in the Shapes Fixture view window. All fixtures currently
-included in the shape will be selected. You can select or deselect
-fixtures to add or remove them from the shape.
-
-If a fixture group was used to create the shape, removing fixtures from
-the shape using this option will break the link to the group. A \[Remove
-Fixtures\] confirmation softkey will be shown to warn you of this.
-
-Reversing a Shape
------------------
-
-You can reverse the direction of a shape by pressing \[Reverse Selected
-Fixtures\] from the shape menu. The shape will be reversed only on
-fixtures which are selected, allowing you to run the shape forward on
-some fixtures and backwards on others.
-
-Deleting Shapes
----------------
-
-You can delete a running shape by pressing \[Delete\] from the shape
-menu, then pressing the \[softkey\] for the shape you want to delete.
+Ein laufender Shape lässt sich ganz einfach löschen: dazu drücken Sie
+\[Delete\] aus dem 'Shape'-Menü, und wählen den zu löschenden Shape mit
+der entsprechenden Menütaste.

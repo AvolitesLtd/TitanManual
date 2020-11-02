@@ -1,7 +1,7 @@
 ---
 id: version-14.0-about-the-consoles
-title: Console hardware introduction
-sidebar_label: Console hardware introduction
+title: Console Hardware
+sidebar_label: Console Hardware Introduction
 original_id: about-the-consoles
 ---
 
@@ -13,8 +13,8 @@ unterscheiden können.
 In diesem Abschnitt werden die wichtigsten Unterschiede und
 Ausstattungsmerkmale erläutert.
 
-Auch die per USB angeschlossenen Modelle T1, T2 und Titan Mobile, die
-TNPs (Netzwerk-Prozessoren) und die verschiedenen Wings sind hier
-berücksichtigt.
+Auch die per USB angeschlossenen Modelle [T1, T2](about-the-consoles/t1-and-t2.md), 
+das Titan Mobile, die [TNPs (Netzwerk-Prozessoren)](about-the-consoles/tnp.md) und die 
+[verschiedenen Wings](about-the-consoles/fader-wings.md) sind hier berücksichtigt.
 
 

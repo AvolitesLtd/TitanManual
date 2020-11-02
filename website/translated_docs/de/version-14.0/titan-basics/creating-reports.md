@@ -5,45 +5,42 @@ sidebar_label: Creating Reports
 original_id: creating-reports
 ---
 
-When preparing a show it is often useful to create a report of how the
-show is patched or programmed on the console, for example to give to a
-crew when pre-rigging fixtures, or just for your records.
+Beim Vorbereiten einer Show ist es oft sinnvoll, Patchlisten oder andere
+Details der Programmierung zu exportieren, etwa um der Crew eine
+Patchliste ausdrucken zu können, oder ganz einfach zur Dokumentation.
 
 ![Exported Report](/docs/images/Exported-Report.png)
 
-Reports can be created in HTML, PDF, CSV or XML formats for the
-following:
+Reports können als HTML, PDF, CSV oder XML erstellt werden und die
+folgenden Informationen enthalten.
 
--   Fixtures
+-   Geräte
 
--   Memory (Cues)
+-   Speicherplätze (Cues)
 
--   Chases
+-   Chaser
 
--   Cue Lists
+-   Cuelisten
 
--   Palettes
+-   Paletten
 
--   Groups
+-   Gruppen
 
-To generate reports:
+Erstellen eines Reports:
 
-1. Press the \<Disk\> button.
+1.  Drücken Sie die Taste \<Disk\>.
 
-2. Press \[Reports\].
+2.  Wählen Sie \[Reports\].
 
-3. Select the item(s) you want to include in the report
+3.  Wählen Sie das/die zu exportierende(n) Detail(s).
 
-4. Select the format in which you want to output the report
+4.  Wählen Sie das Ausgabeformat.
 
-5. Select the drive where you want to save the report
+5.  Wählen Sie das Laufwerk, auf dem der Report gespeichert werden soll.
 
-Reports are stored in the following folders:
+Reports werden bei der Titan PC Suite (Titan Mobile, Titan Go, Titan
+Simulator) im Verzeichnis "Eigene Dokumente\\Titan\\Reports" erstellt. Bei
+allen Pulten sind sie im Verzeichnis "D:\\Data\\Reports" zu finden.
 
-PC suite (Editor/simulator, Titan Mobile., Titan Go):
-`Documents/Titan/Reports`
-
-All other consoles: `D:/Data/Reports`
-
-When the report is complete, Titan will open the folder where the report
-is stored so you can see where it went.
+Ist der Report fertig exportiert, so wird das jeweilige Verzeichnis
+automatisch geöffnet, um den Report schneller finden zu können.
