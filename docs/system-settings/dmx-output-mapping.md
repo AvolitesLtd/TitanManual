@@ -101,8 +101,9 @@ adapter, both of which will be shown.
 **DMX output:** Allows you to temporarily disable the output
 
 **Merge Priority:** A value between 0 and 200 where higher numbers have 
-priority. Allows a node to chose which console to follow where multiple 
-consoles are transmitting to this output.
+priority. For this DMX output, sets the priority of the DMX signal being 
+output from this Titan console over sACN being merged from other sources.
+You also need to set up [DMX Merge](#DMX-Merge).
 
 **Break Length:** Adjusts the DMX spacing which can be helpful for slow
 fixtures. If fixtures or dimmers show an occasional glitch 
@@ -123,10 +124,10 @@ This option can sometimes solve issues where fixtures can be seen regularly glit
 
 **DMX output:** Allows you to temporarily disable the output
 
-**Merge Priority:** (0-200) The sACN specification allows multiple
-consoles to send out DMX on the network. The priority value tells the
-receiving node which console to listen to if it gets DMX from more than
-one, higher values take priority. 
+**Merge Priority:** A value between 0 and 200 where higher numbers have 
+priority. For this sACN universe, sets the priority of the DMX signal being 
+output from this Titan console over sACN being merged from other sources. 
+You also need to set up [DMX Merge](#DMX-Merge).
 
 > You would normally use this to connect
 a backup console with a lower priority setting.
@@ -204,14 +205,21 @@ to reassign the lines.
 DMX Merge
 ---------
 
-The DMX merge window allows you to set up where DMX will be output in a
-system where you have multiple consoles or processing nodes connected.
+The DMX merge window allows you to set up merging of the local Titan output
+with sACN universes from other sources in a system where you have multiple 
+consoles or processing nodes connected. 
+From the **System** menu (press \<Avo\> + \<Disk\>) select \[DMX Merge Settings\].
 
 ![DMX Merge Window](/docs/images/DMX-Merge-Window.png)
 
-To configure an output port, click on **Patch Titan Lines**, enter universe
+To assign a universe to an output port, click on **Patch Titan Lines** or
+**Patch External sACN Merge**, set \[Universe\]
 number then click on a port to assign.
 
 To remove an assignment, click on **Clear sACN Merge** then select a port.
 
-The DMX Output switch can be used to disable all DMX output.
+- You can set the priority of the Titan output vs. the sACN output using the
+  Merge Priority option on each node, see [DMX Output Properties](#DMX-output-properties)
+  and [sACN Properties](#sACN-properties).
+
+- The DMX Output switch can be used to disable all DMX output.
