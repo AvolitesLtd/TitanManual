@@ -168,7 +168,8 @@ will behave if you load more windows, and to be able to target particular window
 
 -   \[Record Visible/All Windows\] lets you set whether the workspace
     will contain only the windows which are currently visible, or will
-    also include any windows which are hidden underneath other windows.
+    also include any windows which are hidden underneath other windows (this option is not
+	available when using Quick Record).
 
 -   \[Remove/Leave other windows on recall\] sets whether all other
     windows will be closed when this workspace is recalled. If set to remove,
