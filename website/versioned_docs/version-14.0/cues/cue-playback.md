@@ -1,8 +1,8 @@
 ---
-id: version-14.0-using-a-cue
-title: Using a Cue
-sidebar_label: Using a Cue
-original_id: using-a-cue
+id: version-14.0-cue-playback
+title: Cue Playback
+sidebar_label: Cue Playback
+original_id: cue-playback
 ---
 
 Because it's possible to play back a large number of cues at the same
@@ -57,7 +57,7 @@ in the programmer will override the playback).
     other playbacks. *This is useful to avoid the fixtures visibly moving
     into position or changing colours or gobos when you raise the fader
     of the cue.*\
-    To assign Preload, hold \<Avo\> Shift and press \[Edit
+    To assign Preload, hold \<Avo\> and press \[Edit
     Key Profile\], then press the button you want to assign (also see
     [Key Profiles](../system-settings/key-profiles.md)). Note that this will assign the function
     to all buttons of the same type.
@@ -87,33 +87,49 @@ graphic you can jump to a page number by entering the number.
 
 >   If you have stored cues on the touch select buttons, you select
     different pages using the Playbacks page touch buttons.
+    
+---
+
+If you change to a new page while some playbacks are fired, the playbacks on the old page remain active.
+The way playback faders behave across different pages
+can be set with the [\[Playback Paging\] user setting](../system-settings/user-settings.md#playback-paging).
+The settings are \[Always Hold\] or \[Never Hold\], and these options work differently
+depending on whether your console has motorised faders or not.
 
 ### Consoles without Motorised Faders
 
--   Playbacks which are fired when you change page remain active. If you
+-   The default mode is \[Always Hold\]. If you
     want to fire a cue on a fader which is already up from a previous
     page, lower the fader to zero then raise it again. The cue from the
     previous page will stop and the cue from the new page will fire.
 
--   If you return to a page with an active playback, the fader will not
+-   If changed to \[Never Hold\] then you can have active faders on
+    multiple pages by level matching the fader. To fire a playback on a new
+    page you have to return the fader to zero (the playback on the old page will continue).
+    When you raise the fader, the playback on the new page will fire. 
+    If you return to a page with an active playback, the fader will not
     resume control of the playback until it matches the current level of
     the playback. This prevents the playback level jumping when the
     fader is first moved. If a playback is active from another page the
     display area is purple and shows the page number at the top in light
-    blue. You can change this behaviour using the 
-    [\[Playback Paging\] user setting](../system-settings/user-settings.md#playback-paging).
+    blue. 
+
+The setting \[Normal\] gives the default state, for consoles 
+without motorised faders this is \[Always Hold\].
 
 ### Consoles with Motorised Faders
 
--   Playbacks which are fired when you change page remain active, but
-    thanks to the motorised faders you can then use the fader to fire a
-    playback from the new page. If you want to kill the original
-    playback you need to return to the page it is on and lower the fader
+-   The default mode is \[Never Hold\]. When you change pages the playback faders will move
+    to show the state of the playbacks on that page and you can directly control all playbacks on the page.
+    If you want to kill a playback on a previous page you need to return to the page it is on and lower the fader
     back to zero. If a playback is active from another page the display
     area is purple and shows the page number at the top in light blue.
-    You can change this behaviour to be like consoles without motorised
-    faders using the
-    [\[Playback Paging\] user setting](../system-settings/user-settings.md#playback-paging).
+
+-   If changed to \[Always Hold\] then each fader can be active only on one page 
+    at any time - so the console behaves as if it did not have motorised faders, see above.
+
+The setting \[Normal\] gives the default state, for consoles 
+with motorised faders this is \[Never Hold\].
 
 ---
 
@@ -135,8 +151,8 @@ The Active Playbacks window shows details of which playbacks are active.
 When you have a number of layered playbacks with different effects, this
 provides an easy way to see which playback is causing which effect. Each
 button shows the playback legend, which page they are from and which
-attributes are affected. To show the window press \<View/Open\>, \[Open
-Workspace Window\], \[Active Playbacks\].
+attributes are affected. To show the window double press \<View/Open\> 
+then press \[Active Playbacks\] from the window select buttons which pop up.
 
 ![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
 
@@ -165,7 +181,7 @@ Releasing Running Playbacks
 ---------------------------
 
 You can **release** a running playback to its previous state by pressing
-\<Release\> *(\<Off\> button on Pearl Expert)*, then the **select** button of
+\<Release\> *(\<Off\> button on Pearl Expert)*, then the **Select** button of
 the playback to be released. Channels will release back to their state
 in the previous playback until no playbacks are left to be released. If
 the \[Release to Home\] setting on the Release menu is Enabled, channels
@@ -183,7 +199,7 @@ seconds but you can change it using \[Master Release Time\] in the
 Release menu. You can also set an individual release time for the
 playback from the [Release tab](playback-options.md#release-tab) of playback [Options](playback-options.md).
 
--   You can instantly kill a playback by pressing \<Avo\> + the **swop**
+-   You can instantly kill a playback by pressing \<Avo\> + the **Select**
     button of the playback.
 
 -   You can set a mask so that only certain attributes release from the
@@ -272,8 +288,9 @@ Turning Off Individual Fixtures
 -------------------------------
 
 You can turn off individual fixtures or certain attributes of them using
-the **Off** menu. This will cause the attributes/fixtures to release to
-their previous state before the playback was fired.
+the **Off** menu. The programmed values will remain in the playback but will
+not be applied when the playback is recalled. You can, however, re-enable 
+the values in the cue view.
 
 Press \<Off\> button followed by a playback to open the \'Off Playback
 with Mask\' menu. Select the fixtures to be turned off, set mask as

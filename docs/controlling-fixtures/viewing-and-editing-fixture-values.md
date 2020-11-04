@@ -50,12 +50,12 @@ You can filter what is shown in the grid either by IPCGBES attribute
 (using the buttons top left) or by fixture type (using the buttons below
 that).
 
-Intensity Window
-----------------
+The Intensity View Window
+-------------------------
 
 If you want to see at a glance the intensity setting of each fixture,
-the Intensity window is the place to be. To show the window, double press
-\<View/Open\> then select \[Intensity\] from the window select buttons.
+the Intensity View window is the place to be. To show the window, double press
+\<View/Open\> then select \[Intensity View\] from the window select buttons.
 
 ![Intensity View](/docs/images/Intensity-View.png)
 
@@ -111,19 +111,19 @@ The second option changes sort order as described above
 
 \[Search\] allows you to enter characters to search for in the legend or
 user number, matching fixtures will be shown as you type. When Search is
-active a search bar is shown at the top of the window, click the X to
+active a search bar is shown at the top of the window, click the \{X\} to
 remove the search filter or click on the text to modify the search
 string.
 
 \[View If\] lets you click on a group and/or playback to show only the
 fixtures in that group or playback. For a chase or cue list, this will
 include all fixtures in all the cues of the chase/list. The filter
-settings are shown in a bar at the top of the window, click the X to
+settings are shown in a bar at the top of the window, click the \{X\} to
 remove the filter or click on the bar to change the group/playback.
 
 \[Open Channel Grid\] opens the [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window).
 
-In the **Window Appearance Settings** (cog button) there are further
+In the **Window Appearance Settings** (\{Cog\} button) there are further
 display options. Turning off some of the options will reduce the size of
 each fixture button which may be useful if you want to get more fixtures
 on the screen.

@@ -9,6 +9,9 @@ Issue number) and edit the .md files in the /docs folder to
 fix the problem. Then create a Pull Request to submit
 your change suggestion.
 
+If you are making edits, please see the [Titan Manual Style Guide](CONTRIBUTING.md)
+to help keep the text style consistent.
+
 To set up a local server so you can see your changes live, 
 see the readme in the /website directory.
 After you have made changes to the /docs directory you 

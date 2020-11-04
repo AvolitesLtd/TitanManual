@@ -5,8 +5,8 @@ sidebar_label: Titan Mobile
 original_id: titan-mobile
 ---
 
-Titan Mobile is a USB wing which plugs into a PC or laptop (Windows 7 or
-above, 64 bit) running the Titan software.
+Titan Mobile is a USB wing which plugs into a Windows PC or laptop running the Titan software.
+See [minimum PC specifications](../titan-basics.md#connecting-up-titan-mobile-and-t1t2) for details of the PC requirements.
 
 ![Titan Mobile](/docs/images/Titan-Mobile.png)
 

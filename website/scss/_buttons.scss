@@ -1,4 +1,4 @@
-.softkey, .key, .annotate {
+.softkey, .context, .key, .annotate, .button {
   display: inline-block;
   margin: 3px;
   padding: 3px 7px;
@@ -15,39 +15,100 @@
   }
 }
 
+.key-with-icon {
+  text-transform: capitalize;
+
+  &:before {
+    margin-right: 5px;
+    @extend %fa-icon;
+    @extend .fas;
+  }
+}
+
 .softkey {
-  border-radius: 5px;
-  background: lighten($colorBlue,28%);
   border-color: darken($colorBlue,30%);
+  background: lighten($colorBlue,28%);
   color: darken($colorBlue,40%);
+  border-radius: 3px;
+}
+
+.context {
+  border-color: darken($colorGrey,5%);
+  background: linear-gradient(darken($colorGrey,18%),darken($colorGrey,25%));
+  color: white;
+  border-radius: 5px;
+
+  &.plus {
+    font-weight: bold;
+  }
+
+  &.i {
+    padding: 3px 8px;
+    border-radius: 100%;
+    font-weight: bold;
+    font-style: italic !important;
+  }
+
+  &.x {
+    padding: 3px 15px 1px 5px;
+    text-indent: -9999px;
+
+    &:before {
+      display: inline-block;
+      position:absolute;
+      text-indent: 9999px;
+      content: fa-content($fa-var-times);
+    }
+  }
+
+  &.sun:before {
+    content: fa-content($fa-var-sun);
+  }
+
+  &.rubbish:before {
+    content: fa-content($fa-var-trash-alt);
+  }
+
+  &.pencil:before {
+    content: fa-content($fa-var-pencil-alt);
+  }
+
+  &.link:before {
+    content: fa-content($fa-var-link);
+  }
+
+  &.cog:before {
+    content: fa-content($fa-var-cog);
+  }
 }
 
 .key {
-  background: lighten(grey,45%);
   border-color: darken($colorGrey,20%);
+  background: lighten(grey,45%);
   color: darken($colorGrey,60%);
   text-transform: uppercase;
+
+  &.red {
+    border-color: mix(darken($colorGrey,20%), $colorAvoRed, 70%);
+    background-color: mix(lighten(grey,45%), $colorAvoRed, 99%);
+    color: mix(darken($colorGrey,60%), $colorAvoRed, 15%);
+  }
 }
 
 .annotate {
-  border-radius: 5px;
   padding: 1px 4px;
-  background-color: lighten($colorAvoRed,57%);
+  border-radius: 5px;
   border-color: $colorAvoRed;
+  background-color: lighten($colorAvoRed,57%);
   color: $colorAvoRed;
   font-weight: bold !important;
 }
 
 .button {
-    border: 1px solid $colorAvoRed;
-    border-radius: 3px;
-    color: #D80029;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.2em;
     padding: 10px;
-    text-decoration: none !important;
+    border-radius: 3px;
+    border-color: $colorAvoRed;
+    color: $colorAvoRed;
     text-transform: uppercase;
-    transition: background 0.3s, color 0.3s;
+    transition: all 0.3s, color 0.3s;
 }

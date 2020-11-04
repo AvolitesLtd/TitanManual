@@ -19,11 +19,15 @@ these tips for setting up a suitable network:
 -   If you are using Titan Mobile, make sure Windows Firewall is turned
     off
 
+> The Ai server(s) must have the correct version of Synergy installed  to match your Titan version. To upgrade Synergy on the Ai server, download the Synergy Upgrade Installer from the 
+[Avolites Download page](https://www.avolites.com/software/latest-version) and run it on the Ai server. You don't need to do anything extra on the console as the Titan installer will automatically install the latest version of Synergy on the console. 
+
 If you have problems getting Titan and Ai to recognise each other, make
 sure they are on matching software versions, and both in the same IP
 address subnet range such as `2.0.0.1` and `2.0.0.2` - read more about [Networking the Console](../networking.md).
 
-Setting up the AI Show
+
+Setting up the Ai Show
 ----------------------
 
 A simple Ai system involving a single screen or projector can be set up
@@ -58,7 +62,7 @@ Surfaces will control the different outputs of the Ai server. At the
 bottom are Surfaces which are already configured on Ai but are not yet
 linked to Titan, these are called unmatched surfaces.
 
-Click on the **+** at the bottom and select Surface from the pop up to add a
+Click on the \{+\} at the bottom and select Surface from the pop up to add a
 new surface. This will appear at the top; by default it has two layers
 but you can change this later.
 
@@ -68,7 +72,7 @@ Clicking on the top part of a Surface will
 show options on the right for the surface. These options allow you to
 set the canvas resolution which can either be picked from a list of
 common resolutions, or entered numerically; at the top right the display
-halo colour of the surface can be set, and the pencil button allows you
+halo colour of the surface can be set, and the \{Pencil\} button allows you
 to change the name (you can also do this with the \[Set Legend\]
 button).
 
@@ -83,7 +87,7 @@ using the media preview window, you will need to turn this on. If not
 leave it turned off, as it causes a lot of network traffic.
 
 Once you have created a surface in Titan, you need to match it to the Ai
-surface. Click on the Link button on the unmatched surface at the
+surface. Click on the \{Link\} button on the unmatched surface at the
 bottom, then click on the Screen 1 surface at the top (or you can click
 **"Link to new Surface"** to automatically create a new surface and link to
 it).
@@ -105,11 +109,11 @@ screen using Ai, only from the Titan console.
 
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)
 
-To add a layer, click on the surface, then the **+** button at the bottom
+To add a layer, click on the surface, then the \{+\} button at the bottom
 and select **Layer** from the popup.
 
-To delete a layer or surface, select the item then click the **Rubbish Bin**
-icon at the bottom, or press \<Delete\> then click the layer/surface. If
+To delete a layer or surface, select the item then click the \{Rubbish Bin\}
+button at the bottom, or press \<Delete\> then click the layer/surface. If
 linked to Ai, this will also delete the layer/surface in Ai.
 
 Synergy Fixtures Window
@@ -117,7 +121,8 @@ Synergy Fixtures Window
 
 Every layer on the Ai server appears as a button in the Synergy Fixtures
 window. You can display this using the button at the bottom of the
-[Synergy Settings window](#synergy-setup) or from \[Open Workspace Windows\].
+[Synergy Settings window](#synergy-setup) or by double tapping \<View/Open\>
+and then selecting it from the window select buttons.
 
 ![Synergy Fixtures Workspace Window](/docs/images/Synergy-Fixtures-Workspace-Window.png)
 

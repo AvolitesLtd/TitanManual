@@ -190,6 +190,10 @@ give the full range of colours. In this case you would set one of the
 shapes to have a Phase Offset of 180 degrees.* Without the phase offset,
 both shapes would reach full at the same time.
 
+>   After adjusting offset or phase, it is useful to **Restart** the shape so
+    you can see how it will look when fired from a cue. Press \[Restart Shapes\]
+    on the shape Edit menu.
+
 Shape Direction
 ---------------
 
@@ -249,9 +253,9 @@ You can use shapes in a cue list, see
 [Shape Tracking in Cue Lists](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists)
 on how the shapes will behave as you go from cue to cue.
 
-You can also adjust parameters of the shape at playback time using the
-\[Select Shape\] menu, which is on the \[Edit\] menu of the Shape Generator
-menu.
+You can adjust a running shape at playback time, see 
+[Editing a Live Running Shape](editing-shapes-and-effects.md#editing-a-live-running-shape).
+
 
 Masking shapes using Mask FX
 --------------------

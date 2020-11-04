@@ -8,6 +8,12 @@ Using the Pioneer Pro DJ Link Bridge software you can automate BPM masters on th
 Titan console from a network-equipped Pioneer DJ system. You can either run the 
 bridge software on the console itself or on an intermediate laptop.
 
+> Pioneer DJ integration is compatible with the following Pioneer hardware:
+>    - CDJ-TOUR1
+>    - DJM-TOUR1
+>    - CDJ-2000NXS2
+>    - DJM-900NXS2 
+
 [](https://youtu.be/vwr1DBJjBbw "PioneerDJ Integration")
 
 Connecting Titan to the Pioneer System
@@ -64,7 +70,8 @@ software should show connections for both the Titan console and the DJ mixer.
 Pioneer Workspace window
 ------------------------
 
-From the \[Open Workspace Window\] menu, select the \[PioneerDJ\] option.
+Open this window the usual way by double pressing \<View/Open\> and selecting 
+\[PioneerDJ\] from the window select buttons.
 
 ![Pioneer Workspace window](/docs/images/Pioneer-Workspace-window.png)
 
@@ -106,9 +113,9 @@ automatically controlled by the track BPM playing on the Pioneer devices. See
 section for how to set up a BPM master.
 
 Go to the **System** menu (\<Avo\> + \<Disk\>) and select \[Triggers\]. The Triggers window will open.
-1.  Add a new mapping using the \[+\] button at the bottom of the *left hand* 
+1.  Add a new mapping using the \{+\} button at the bottom of the *left hand* 
     column, and enter a name such as “Pioneer”.
-2.  Add a trigger to the mapping using the \[+\] button in the *right hand* column 
+2.  Add a trigger to the mapping using the \{+\} button in the *right hand* column 
     or softkey \[Add trigger\].
 3.  Select \[Trigger Type\] as \[Item\].
 4.  Press the button for the BPM master you want to control.

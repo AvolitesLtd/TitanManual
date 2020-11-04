@@ -38,7 +38,7 @@ firewall.
 its IP address. Click on it and then on the right hand side click on the
 DMX line you want to use it with.
 
-7. On the assigned Hippo node on the right hand side, click the cog button and
+7. On the assigned Hippo node on the right hand side, click the \{Cog\} button and
 set the Universe number to match the universe setting on the Hippo.
 
 8. Press \<Exit\> to go back to the default menu.

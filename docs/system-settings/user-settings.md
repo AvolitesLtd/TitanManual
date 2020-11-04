@@ -4,8 +4,9 @@ title: User Settings
 sidebar_label: User Settings
 ---
 
-The User Settings menu may be accessed from the **System** menu, and
-also from Program mode: hold down the \<Avo\> button and press
+The User Settings menu may be accessed from the \[User Settings\] softkey
+on the **System** menu. You can also get it directly from any other
+menu by holding down the \<Avo\> button and pressing
 \[User Settings\].
 
 ![User Settings Window](/docs/images/User-Settings-Window.png)
@@ -14,9 +15,7 @@ A window will open showing the user settings, or you can also set the
 same options using the softkey options. User Settings are individual for
 each User and you can change the User from this screen.
 
-> Click on the *i* button for a help window on each setting.\
-> \
-> ![i button](/docs/images/i-button.png)
+> Click on the \{i\} button for a help window on each setting.
 
 Options are divided into categories on the softkeys or in the tabs down the left
 hand side. The default setting is ***shown in bold***.
@@ -25,7 +24,7 @@ hand side. The default setting is ***shown in bold***.
 
  Option                 | Action  
 ------------------------|----------------- 
- Chase Snap             | *On:* the \<Next Step\> and \<Prev Step\> buttons will snap to the new state in chases<br> ***Off:*** programmed fades will be shown<br> This is the same function as the \<Snap\> button which features on some consoles. 
+Chase Snap              | *On:* the \<Next Step\> and \<Prev Step\> buttons will snap to the new state in chases<br> ***Off:*** programmed fades will be shown<br> This is the same function as the \<Snap\> button which features on some consoles. 
 Cue List Snap           | *On:* the \<Next Step\> and \<Prev Step\> buttons will snap to the new state in cue lists<br> ***Off:*** programmed fades will be shown.
 Clear Record Mask       | ***On:*** the record mask is cleared back to All Enabled when you enter the Record function<br> *Off:* the record mask remains as you previously set it.
 Copy Cues               | ***Copy Tracked Values:*** tracked values will copy when you copy a cue from a tracked cue list.<br> *Don't Copy Tracked Values:* only the values from the cue itself will be copied
@@ -104,7 +103,6 @@ Master Palette Overlap    | Sets the default overlap to be used when fading pale
 Record Nested Palettes    | ***On:*** Palettes containing other source palettes will be updated when you change the source palette.<br>*Off:* Nested palettes are not updated.<br>See [Nested Palettes](../palettes/creating-palettes.md#nested-palettes) for more detail.
 Preset Palettes           | This is the same as the option in the Patching section, [see above](#patching).
 
-
 ## Release
 
  Option             | Action  
@@ -114,7 +112,6 @@ Master Release Time | Sets the default release time.
 Release Priority    | The playback priority used with the Release menu or when running Release macros - *Low*, *Normal*, *High*, ***Programmer***, *Very High*.
 
 -  These settings can also be changed from the Release menu.
-
 
 ## Clear
 
@@ -129,7 +126,6 @@ Clear Direction            | ***On:*** Direction in the programmer is reset to d
 Clear Selected Fixtures    | *On:* Only fixtures which are currently selected will be cleared from the programmer when Clear is pressed. If no fixtures are selected then all fixtures are cleared.<br> ***Off:*** All fixtures are cleared from the programmer whether any are selected or not.
 
 -  These settings can also be changed from the Clear menu.
-
 
 ## Effects
 
@@ -147,7 +143,6 @@ LED Empty Level      | Sets level for unpatched handle.
 LED Occupied Level   | Sets level for occupied but unselected handle.
 LED Programmer Level | Level if fixture is in the programmer.
 LED Selected Level   | Level if fixture is selected.
-
 
 ## Timecode
 

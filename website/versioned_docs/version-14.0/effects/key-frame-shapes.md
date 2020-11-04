@@ -66,7 +66,7 @@ below)
     current frame number.
 
 -   If the shape is not visible because fixtures are not lit up, the
-    locate dimmer **"sun"** button at the bottom will light up fixtures used
+    locate dimmer \{Sun\} button at the bottom will light up fixtures used
     in the shape.
 
 Changing Shape Parameters in the Effect Editor
@@ -81,7 +81,7 @@ The controls at the top of the left hand pane are the global shape
 properties which affect the whole shape, controlling speed, direction
 (using [2D group layout](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)),
 [phase/spread](shape-generator.md#changing-the-spread-of-a-shape-across-multiple-fixtures) and
-[fixture overlap](../cues/cue-timing.md#setting-fade-times-and-overlap-for-a-cue).
+[fixture overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
 The **eye** icon in the top left corner *"collapses"* the shape preview in the
 effect editor window, this allows you to expand only the shape you want
@@ -176,14 +176,14 @@ Editor window.
 
 ![Effect Editor key frame shape layer with colour steps](/docs/images/Effect-Editor-key-frame-shape-layer-with-colour-steps.png)
 
--   To **add** more frames to a key frame shape click the **pencil** button to
+-   To **add** more frames to a key frame shape click the \{Pencil\} button to
     the right of the **layer name**.
 
--   To **edit** a key frame click the **pencil** button to the right of the
+-   To **edit** a key frame click the \{Pencil\} button to the right of the
     **frame name**.
 
 -   To **delete** a key frame select the frame in the list then click the
-    **rubbish bin** icon at the bottom
+    \{Rubbish Bin\} at the bottom
 
 -   To **change the order** of the frames, select a frame then use the up
     and down arrows at the bottom.
@@ -195,7 +195,7 @@ Editor window.
 ### Multiple Effects
 
 Key frame shapes can have multiple layers where different effects run
-simultaneously. To add another layer, click the **plus** button at the
+simultaneously. To add another layer, click the \{+\} button at the
 bottom, then select **Layers**. The new layer will appear in the list on the
 left.
 

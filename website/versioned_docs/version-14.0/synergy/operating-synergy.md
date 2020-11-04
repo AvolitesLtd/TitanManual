@@ -17,9 +17,12 @@ the server. Media content will be automatically transcoded to the AiM
 codec as required by the Ai system. This is very handy when you are
 handed a last-minute media file at the front of house position.
 
+As with other windows, the media browser window is opened from the
+Workspace Window select buttons (double press the \<View/Open\> button to show).
+
 ![Ai Media Browser Window](/docs/images/Ai-Media-Browser-Window.png)
 
-On the left hand side of the screen, local disks available on the
+On the left hand side of the window, local disks available on the
 console are listed. If you plug in a USB drive it will be shown here.
 Shortcuts to commonly used folders are also provided.
 
@@ -27,9 +30,9 @@ In the second column, the files/media clips available on the selected
 local disk are shown. You can navigate into folders and use the up arrow
 at the top to go back up a folder level.
 
-On the right of the screen, the media banks on the Ai server are shown.
+On the right of the window, the media banks on the Ai server are shown.
 Clicking on the bank name will drop down the list of media clips loaded
-in the bank. Click the **+** button at the side of the bank name to add a
+in the bank. Click the \{+\} button at the side of the bank name to add a
 new bank. At the top of this column, the available disk space and the
 path on the Ai server where the media is being stored is shown.
 
@@ -44,9 +47,9 @@ the Ai server window as a warning.
 ![Ai Media Browser uploading content](/docs/images/Ai-Media-Browser-uploading-content.png)
 
 Synergy will attempt to transfer the files as fast as it can and will
-show you a progress screen. This may slow down the network; if this will
+show you a progress dialog. This may slow down the network; if this will
 be a bad thing, turn on the **"Bandwidth Saver"** switch at the bottom of
-the screen to throttle the file transfer and leave capacity on the
+the window to throttle the file transfer and leave capacity on the
 network for other traffic (obviously this will slow down the file
 transfer).
 
@@ -68,7 +71,7 @@ program output or individual cameras to check lighting levels.
 ![Video Multi View Window](/docs/images/Video-Multi-View-Window.png)
 
 To add a stream, click on a view in the window (blank views show a plus
-symbol). A screen will pop up showing you all available streams on the
+symbol). A dialog will pop up showing you all available streams on the
 network - either direct views of the layers, or a view of the output
 screen with the layers combined.
 
@@ -110,7 +113,7 @@ adding FX and colour.
 
 ![Clip tab of Attribute Editor for Synergy layer](/docs/images/Clip-tab-of-Attribute-Editor-for-Synergy-layer.png)
 
-In the Media selection screen, in the Clip tab, if you click on the
+In the Media selection window, in the Clip tab, if you click on the
 **T** button *(top right)* or the caption at the top of the tab, this will toggle
 the clip name display on and off. This can be useful for long names
 which obscure the picture; on the other hand if you have lots of
@@ -165,7 +168,7 @@ want to use.
 
 3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups.md)** to play back on
 
-4. Add an effect using the **+** button
+4. Add an effect using the \{+\} button
 
 5. Select Ai feed using the **Ai** button
 
@@ -247,7 +250,7 @@ to the video signal. The phase is controlled from 0-360 degrees as the
 video intensity where the fixture is located goes from 0-100%.
 
 Once your [Key Frame Shape is created](../effects/key-frame-shapes.md#creating-a-key-frame-shape), go to the [Phase Master option](../effects/key-frame-shapes.md#changing-shape-parameters-in-the-effect-editor) at
-the bottom of the shape options screen and select the Ai screen you want
+the bottom of the shape options window and select the Ai screen you want
 to use as the video source.
 
 ![Phase Master using Ai screen in Key Frame Shape](/docs/images/Phase-Master-using-Ai-screen-in-Keyframe-Shape.png)

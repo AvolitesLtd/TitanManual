@@ -37,30 +37,11 @@ settings, as described below
 -   You can assign the blue or grey handle button to be a **tap tempo**
     button using the [Key Profiles](../system-settings/key-profiles.md) option.
 
-### Overlap
+### Fixture Overlap
 
-The **Overlap** functions allow you to offset and overlap the timing of
-changes in the chase. This can create really amazing visual effects with
-hardly any programming. The best way to learn about overlap is to
-program a chase with two cues involving several fixtures, then
-experiment with the overlap settings to see the various *"roll"* and *"peel
-off"* effects which result.
-
-The following diagram shows you the effects of fixture
-overlap and attribute overlap in chases.
-
-![Fixture Overlap and Attribute Overlap diagram for a chase](/docs/images/Fixture-Overlap-and-Attribute-Overlap-diagram-for-a-chase.png)
-
-Press \[Fixture Overlap\] then enter **0 - 100** on the keypad to change
-how fixtures overlap in the cue.\
-**100%** *(the normal setting)* means all fixtures fade together.\
-**0%** means that the first fixture will finish
-its fade before the next one starts giving a "rolling" change across
-a range of fixtures.\
-**50%** means that the 2^nd^ fixture will start
-fading when the first one is half way through its fade.\
-The order of the fixtures is set by the order you selected them when the cue was
-saved; you can change the order using \<Unfold\>.
+Fixture overlap creates an effect where the fixtures in the cue are changed in
+sequence rather than all at the same time. This is described in more detail in
+[Cue Timing](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
 Individual Cue Times in Chases
 ------------------------------

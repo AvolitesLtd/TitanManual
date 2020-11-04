@@ -53,5 +53,6 @@ show.
 
 You can manually reload patched fixtures from your Titan show into
 Capture by selecting the \[Edit Fixtures\] \[Update Personality\] option on
-the [Patch menu](../patching/changing-the-patch.md#patch-view). This 
-will place all patched fixtures from the Titan show into the Capture show.
+the [Patch menu](../patching/changing-the-patch.md#patch-view). 
+This is particularly useful if a capture representation is added to fixtures 
+which previously weren't available in Capture but are already patched in Titan.

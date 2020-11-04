@@ -34,8 +34,8 @@ Sets what will happen at the end of the cue list
 
 Setting | Action
 --- | ---
-Stop on final cue | Cue list will stop advancing once it reaches the last cue *(default)*
-Loop | Cue list will go back to first cue after the last.* If Move in Dark is enabled, this will also loop.*
+Stop on final cue | Cue list will stop advancing once it reaches the last cue.
+Loop | Cue list will go back to first cue after the last.* If Move in Dark is enabled, this will also loop.*  *(default)*
 
 ### Move In Dark
 Sets the mode for the whole cue list *(see [Move In Dark (MID) Functions](cue-list-playback.md#move-in-dark-mid-functions))*.
@@ -86,11 +86,11 @@ When the fader is in **Manual Crossfader** mode:
 - When firing a cue list in manual crossfade the intensity snaps to full when the fader leaves zero.
 - [Shapes](../effects/shape-generator.md) and [Pixel Mapper](../effects/pixel-mapper.md) effects will fade in with the manual crossfade, but when the fader returns to 0 they are not removed so may still affect the output.
 - [Autoloads](../cue-lists/creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list) in the cue list will use their programmed fade times, regardless of the manual crossfade performed by the fader.
-- Partially completed crossfades can be completed by pressing \[Go\].
+- Partially completed crossfades can be completed by pressing \<Go\>.
 
 ### Fire First Cue
 Sets whether the first cue automatically fires when
-the fader is raised, or if you need to press the Go button to fire it.
+the fader is raised, or if you need to press the \<Go\> button to fire it.
 
 --- 
 
