@@ -203,6 +203,15 @@ function addImageSpacing(content) {
 }
 
 /**
+ * Replace <br> tags with \newline
+ * @param {string} content Contents of the .md file with the tags in
+ * @return {string} The content with the breaks replaced
+ */
+function replaceBr(content) {
+  return content.replace(/<br>/gmi," \\newline &ZeroWidthSpace;");
+}
+
+/**
  * Returns the path to the sidebars JSON file for the specified `version`
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} Relative path to the JSON file, e.g. `../website/sidebars.json`
@@ -331,6 +340,9 @@ function formatMd(docsPath,filename,version) {
 
   // fix the absolute image path
   content = addImageSpacing(content);
+
+  // replace <br> tags
+  content = replaceBr(content);
 
   content += "\n\n";
 

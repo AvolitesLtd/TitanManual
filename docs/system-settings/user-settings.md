@@ -23,7 +23,7 @@ hand side. The default setting is ***shown in bold***.
 ## General
 
  Option                 | Action  
-------------------------|----------------- 
+---|------
 Chase Snap              | *On:* the \<Next Step\> and \<Prev Step\> buttons will snap to the new state in chases<br> ***Off:*** programmed fades will be shown<br> This is the same function as the \<Snap\> button which features on some consoles. 
 Cue List Snap           | *On:* the \<Next Step\> and \<Prev Step\> buttons will snap to the new state in cue lists<br> ***Off:*** programmed fades will be shown.
 Clear Record Mask       | ***On:*** the record mask is cleared back to All Enabled when you enter the Record function<br> *Off:* the record mask remains as you previously set it.
@@ -35,7 +35,7 @@ System Render Rate (Hz) | Sets the output rate of DMX frames from 1-44 frames pe
 ## Display
 
  Option                             | Action  
-------------------------------------|----------------- 
+---|------
 External Display                    | ***On:*** External display is enabled <br> *Off:* External display is disabled.
 External Screen Workspace Shortcuts | ***On:*** Each screen has its own Workspace Shortcut buttons (shown down the side of the screen on external screens). This allows you to recall different window layouts separately on each screen rather than changing all screens. <br>*Off:* The Workspace buttons on the main screen control all screens.
 Lock Screen Background              | Sets a picture to be displayed when the console is locked.
@@ -46,7 +46,7 @@ Lock Screen Background              | Sets a picture to be displayed when the co
 ## Handles
 
  Option            | Action  
--------------------|----------------- 
+---|------
 Grand Master Fader | *On:* Grand Master fader is enabled (some consoles do not have this fader).<br>***Off:*** Grand Master fader is disabled. This can be handy if it gets broken or if you wish to disable it to avoid confusing inexperienced operators.
 Delete Default     | ***Delete:*** Items are deleted when you press Delete and double tap them.<br>*Unassign:* items  are released from the handle and become unassigned - can be reassigned from the Show Library.
 Prompt Replace     | When you try to save to a handle or playback which is already used<br>***Always Ask:*** the console will always prompt Cancel/Replace/Merge<br>*Always Merge:* the console will never prompt and will just merge<br>*Palettes Always Merge:* the console will prompt Cancel/Replace/Merge unless you are saving a palette when it will just merge
@@ -64,7 +64,7 @@ Allows you to select and edit key profiles using the softkeys. See [Key Profiles
 ## Patching
 
  Option                      | Action  
------------------------------|----------------- 
+---|------
 Warn Before Parking Fixtures | Sets the console action when you patch a fixture which overwrites the DMX channels of another fixture. This causes the overwritten fixture to be "parked".<br> ***Always:*** console will warn you.<br>*Never:* console will park the fixture without warning you. See [Parked fixtures](../patching/patching-new-fixtures-or-dimmers.md#parked-fixtures)
 DMX Address                  | Sets whether the DMX address of fixtures is shown in the fixture touch buttons.
 Auto Groups                  | Sets whether the console will automatically create new groups for fixtures when you patch. See [Auto Groups](../controlling-fixtures/fixture-groups.md#auto-groups).
@@ -73,7 +73,7 @@ Preset Palettes              | Sets whether preset palettes should be created wh
 ## Times
 
  Option                          | Action  
----------------------------------|----------------- 
+---|------
 Tempo Units                      | Sets the units for displaying tempo, *Seconds* or ***Beats per Minute***.
 Connected View Sets              | Sets the console action when you change the speed of a connected chase.<br> ***Speed:*** The console will modify the saved speed of the chase.<br>*Temporary Speed:* The console will not save the modified speed, and the next time the chase is fired it will go back to its programmed speed.
 Preload Time                     | Sets a fade time for the Preload function, default 2 seconds. This value would normally be set for quiet fixture movement.
@@ -84,14 +84,14 @@ Compensate for Rate Grand Master | ***On:*** When a tempo is tapped on a BPM mas
 ## Formatting
 
  Option        | Action  
----------------|----------------- 
+---|------
 Channel Levels | Sets how you enter channel levels when using numeric entry of levels<br> *Set In Tens:* enter one digit for the channel level, 5 = 50%.<br>***Set in Units:*** enter two digits, 50 = 50%.
 Number Style   | Sets how channel values are displayed in Cue View and Palette View. <br> *Precise:* will include all decimal places.<br>*Rounded:* round to nearest whole number.<br>***Dynamic:*** show decimals where appropriate, remove trailing zeros.
 
 ## Palettes
 
  Option                   | Action  
---------------------------|----------------- 
+---|------
 Quick Palettes            | ***On:*** Enables the Quick Palette recall function which sets a palette to all applicable fixtures if nothing is selected - see [Quick Palettes](../palettes/using-palettes.md#quick-palettes-with-no-fixtures-selected).<br> *Off:* Quick Palettes are disabled. If no fixtures are selected, recalling a palette does nothing.
 Minimum Palette Mode      | Sets what type of palettes can be created when recording palettes.<br>***Global:*** All palettes are stored as Global.<br>*Shared:* all palettes are stored as Shared.<br>*Normal:* All palettes are stored as Normal.
 Add New Palette Channels  | ***On:*** new channels added into palettes will output in playbacks using those palettes.<br>*Off:* new channels will not output. You can use this to force palettes to output in its original unedited state.
@@ -106,7 +106,7 @@ Preset Palettes           | This is the same as the option in the Patching secti
 ## Release
 
  Option             | Action  
---------------------|----------------- 
+---|------
 Release To Home     | ***On:*** when the last active playback is released fixtures will return to home values.<br>*Off:* LTP channels will remain set.
 Master Release Time | Sets the default release time.
 Release Priority    | The playback priority used with the Release menu or when running Release macros - *Low*, *Normal*, *High*, ***Programmer***, *Very High*.
@@ -116,7 +116,7 @@ Release Priority    | The playback priority used with the Release menu or when r
 ## Clear
 
  Option                    | Action  
----------------------------|----------------- 
+---|------ 
 Auto Reset Mask            | ***On:*** The Clear Mask will reset to include all attributes after every clear.<br>*Off:* The Clear Mask will remain how you last set it.
 Zero Preset Fader Levels   | ***On:***  Intensity levels set on fixtures patched to fader handles will be zeroed and removed from the programmer when clear is pressed.<br> *Off:*  Intensity levels will be will remain set but will be removed from the programmer. 
 Release to Playback Values | *On:* LTP channels will release to the values set in the last playback when Clear is pressed.<br>***Off:*** LTP channels will not change when Clear is pressed.
@@ -130,14 +130,14 @@ Clear Selected Fixtures    | *On:* Only fixtures which are currently selected wi
 ## Effects
 
  Option         | Action  
-----------------|----------------- 
+---|------
 Swop Shapes     | Sets how shapes react to another playback being fired in Swop mode.<br>***All Shapes:*** All running shapes from other playbacks are stopped.<br>*Intensity Shapes:* Only intensity shapes from other playbacks stop.
 Shape Behaviour | Sets how Key Frame Shapes combine with other playbacks.<br>***Overlay:*** Key Frame Shapes will overlay all other values.<br>*LTP:* Key Frame Shapes will work in LTP mode where later changes will override the shape.<br>See [Saving a key frame shape to a cue](../effects/key-frame-shapes.md#saving-a-key-frame-shape-to-a-cue).
 
 ## LEDs
 
  Option              | Action  
----------------------|----------------- 
+---|------
 Fixture LEDs         | Sets how the button LED behaves when a fixture is patched to a fader handle. <br>***Show Occupation:*** The LED shows handle patched (dim) and selected (bright) state. <br>*Mimic Intensity:* The LED shows fixture intensity level.<br>**The options below only function when *Show Occupation* is selected**
 LED Empty Level      | Sets level for unpatched handle.
 LED Occupied Level   | Sets level for occupied but unselected handle.
@@ -148,7 +148,7 @@ LED Selected Level   | Level if fixture is selected.
 
 
  Option                     | Action  
-----------------------------|----------------- 
+---|------
 Kill Out of Range Playbacks | *On:* Kills the playback if the incoming timecode is outside the timecode values included in the playback.<br> ***Off:*** The playback will remain active.
 MIDI Device ID              | Sets the Device ID when using MIDI show control commands.
 MIDI Glitch Detection       | ***On:*** Enables the glitch options below.<br>*Off:* Glitch detection is disabled.
@@ -161,7 +161,7 @@ MIDI Glitch Timeout         | Sets the amount of time the console should ignore 
 ## Wheels
 
  Option                     | Action  
-----------------------|----------------- 
+---|------
 Wheel Sensitivity     | Set the sensitivity of the encoder wheels using **Wheel A**. Default ***50%***.
 Pan & Tilt Threshold  | ***On:*** Enable Pan/Tilt threshold options below.<br>*Off:* Disable Pan/Tilt threshold options below.
 Pan Threshold         | Sets the sensitivity of the Pan control if above option enabled. Larger numbers make Pan work slower. Default ***5s***.
