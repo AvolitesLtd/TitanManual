@@ -31,13 +31,13 @@
     "key-with-icon rubbish": {
       "lang": {
         "en": "rubbish bin",
-        "de": "mülleimer"
+        "de": "papierkorb"
       }
     },
     "key-with-icon pencil": {
       "lang": {
         "en": "pencil",
-        "de": "bleistift"
+        "de": "stift"
       }
     },
     "key-with-icon link": {
@@ -49,13 +49,13 @@
     "key-with-icon cog": {
       "lang": {
         "en": "cog",
-        "de": "zahn"
+        "de": "zahnrad"
       }
     },
     "key-with-icon lines": {
       "lang": {
         "en": "context menu",
-        "de": "kontext-schaltflächen"
+        "de": "kontextmenü"
       }
     },
     "key-with-icon resize": {
