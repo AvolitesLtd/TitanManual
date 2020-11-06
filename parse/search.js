@@ -10,6 +10,8 @@ function formatOutput (content) {
 }
 
 avoParse.getVersions().forEach(version => {
+  const i18n = JSON.parse(fs.readFileSync(path.join(avoParse.paths.i18nDir,`${version.lang}.json`)));
+
   avoParse.getFiles(version.dir).then(filenames => {
     let output = [];
     filenames.forEach(filename => {
@@ -21,14 +23,23 @@ avoParse.getVersions().forEach(version => {
 
         let url = filename.replace(".md", "");
         let section = "";
-		    content = content.replace(/\r\n/g, "\n");
+        content = content.replace(/\r\n/g, "\n");
         let title = content.match(/(?<=^title: ).*$/gm)[0];
+        
+        try {
+          title = i18n["localized-strings"]["docs"][`${version.sidebarPrefix}${url}`].title;
+        }
+        catch {
+          console.log(`Couldn't find "${version.lang}" translation for ${version.sidebarPrefix}${url}`)
+        }
+
+        url = version.lang + '/' + url;
 
         // description
         let desc = content.match(/(?<=^description: ).*$/gm);
         desc = desc ? desc[0] : "";
 
-        // description
+        // tags
         let tags = content.match(/(?<=^tags: ).*$/gm);
         tags = tags ? tags[0].split(",") : [];
 
@@ -57,7 +68,7 @@ avoParse.getVersions().forEach(version => {
             url = url.replace(/-+/g, "-");
             url = url.replace(/-+$/g, "");
 
-            url = filename.replace(".md", "") + "#" + url;
+            url = version.lang + '/' + filename.replace(".md", "") + "#" + url;
             content = content.substring(match.index + match[0].length - 1, content.length - 1);
           } catch (ex) {
             console.log(ex);

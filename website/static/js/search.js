@@ -21,14 +21,16 @@ var options = {
 };
 var fuse = new Fuse(list, options); // "list" is the item array
 
-let versions = $('a[href="/versions"]');
+const lang = $('html')[0].lang;
+
+let versions = $('a[href="/' + lang + '/versions"]');
 let version = versions.text();
 if (version == "") {
   version = "next";
 }
 
 $.ajax({
-  url: '/index-' + version + '.json',
+  url: '/js/index/index-' + version + '-' + lang + '.json',
   dataType: 'application/json',
   complete: function(data){
     fuse.list = JSON.parse(data.responseText);
