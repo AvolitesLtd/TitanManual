@@ -13,7 +13,7 @@ const Container = CompLibrary.Container;
 
 const CWD = process.cwd();
 
-const versions = require(`${CWD}/versions.json`);
+const versions = require(`${CWD}/versions.json`).filter(version => version != "12.0");
 
 function Versions(props) {
   const {config: siteConfig} = props;
