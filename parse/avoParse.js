@@ -21,32 +21,32 @@ class avoParse {
       transDocsDir: path.resolve(__dirname,'../website/translated_docs'),
       i18nDir: path.resolve(__dirname,'../website/i18n'),
     }
-  
+
     this.regex = {
       // matches Yaml block with title
       yamlBlockTitle: /^---(?:[\n]|.)*title: *([\w ]*)(?:[\n]|.(?!--))*---/mgi,
-  
+
       // matches all links which are to local .md files
       linksLocalMd: /(?<![\\!])\[(?<text>[^\]]*)(?<!\\)\]\((?!https?:\/\/)(?!\/\/)(?!#)(?<link>[a-zA-Z0-9-\.\/]*\.md)(?<anchor>[^)]*)\)/mgi,
-  
+
       // matches all images with local sources
       imagesLocal: /!\[(?<alt>[^\]]*)\]\(\/(?!\/)(?<src>[^\)]*)\)/mg,
-  
+
       // matches all images without a space before
       imagesSpaceBefore: /(?<!\n\n) *!\[[^\]]*\]\([^\)]*\)/gm,
-  
+
       // matches all images without a space after
       imagesSpaceAfter: /!\[[^\]]*\]\([^\)]*\) *(?!\n\n)/gm,
-  
+
       // matches og:url tag
       metaOgUrl: /<meta property="og:url" content="(https?:\/\/.*?)\/.*?"\/>/mi,
-  
+
       // matches og:image tag
       metaOgImage: /<meta property="og:image" content="(https?:\/\/.*?)\/.*?"\/>/mi,
-  
+
       // matches twitter:image tag
       metaTwitterImage: /<meta name="twitter:image" content="(https?:\/\/.*?)\/.*?"\/>/mi,
-  
+
       // matches first image in <article>
       firstHTMLImage: /<article>[\s\S]*?<img.*?src="(\/[^"]*?(?:\.png|\.jpe?g))"[^>]*?>[\s\S]*?<footer/mi,
     }
@@ -66,7 +66,7 @@ class avoParse {
       }
     }
   }
-  
+
   /**
    * Returns current versions as an array of this.Version objects
    */
@@ -82,8 +82,8 @@ class avoParse {
     ]
 
     const versionsFile = JSON.parse(fs.readFileSync(this.paths.versions))
-    const trans = [this.lang, ...fs.readdirSync(this.paths.transDocsDir)]
-  
+    const trans = [this.lang, ...fs.readdirSync(this.paths.transDocsDir)].filter(dir => dir != ".DS_Store")
+    
     trans.forEach(tran => {
       const mainLang = tran == this.lang
 
@@ -110,13 +110,13 @@ class avoParse {
         }
       })
     })
-  
+
     return versions
   }
 
   /**
    * Returns all files in the dir recursively (asynchronously)
-   * @param {string} dir 
+   * @param {string} dir
    */
   async getFiles(dir) {
     const subdirs = await readdir(dir);
@@ -129,7 +129,7 @@ class avoParse {
 
   /**
    * Returns all files in the dir recursively (synchronously)
-   * @param {string} dir 
+   * @param {string} dir
    */
   getFilesSync(dir) {
     return fs.statSync(dir).isDirectory()
