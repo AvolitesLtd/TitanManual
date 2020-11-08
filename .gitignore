@@ -4,8 +4,6 @@
 
 lib/core/metadata.js
 lib/core/MetadataBlog.js
-website/static/js/index/*
-!website/static/js/index/placeholder
 website/build/
 website/dist/
 website/yarn.lock
