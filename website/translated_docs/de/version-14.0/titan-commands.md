@@ -73,47 +73,47 @@ Tastenfolge 										| Resultat
 Record -- Speichern
 -------------------
 
----
 **\<Record\> {Cueliste} {Cueliste}**\
 Anhängen an das Ende der Cueliste
----
+
 **\<Record\> \<Cue\> \<Cue\>**\
 Mergen des Programmers in den gerade aktiven Cue der verbundenen Cueliste.
----
+
 **\<Record\> \<Cue\> 90.1**\
 Mergen des Programmers in Cue 90.1 der verbundenen Cueliste (dieser Cue wird neu erstellt falls nicht vorhanden)
----
+
 **\<Record\> \<Cue\> 1 \<Through\> 10 \<And\> 20**\
 Mergen des Programmers in Cues 1 bis 10 und 20 (nach dem \<Enter\> wählt man Kopieren/Mergen/Ersetzen oder drückt nochmals \<Enter\> zum Mergen)
----
+
 **\<Record\> \<Position\> \<Cue\> \<Cue\>**\
 Mergen des Programmers (nur Position) in den gerade aktiven Cue.
----
+
 **\<Record\> \<Options\> \<Position\> \<Cue\> \<Cue\>**\
 Mergen des Programmers (nur Position) in den gerade aktiven Cue.
----
+
 Copy, Move -- Kopieren, Verschieben in Cuelisten
 ------------------------------------------------
 
----
+
 **\<Copy\> {Cueliste} n \<Enter\>**\
 Cue n an das Ende der Cueliste kopieren.
----
+
 **\<Copy\>/\<Move\> {Cueliste} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\> n**\
 Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
 {Cueliste} und Einfügen hinter Cue n.
----
+
 **<Copy\>/\<Move\> {Cueliste} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<Enter\> {target playback} n \<Enter\>**\
 Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
 {Cueliste} und Einfügen am Ende der Cueliste.
----
+
 **\<Copy\>/\<Move\> {Cueliste} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
 \<@\>**\
+
 **\<Copy\>/\<Move\> {Cueliste} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
 \<Enter\> \<Enter\>**\
 Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
 {Cueliste} und Einfügen am Ende der Cueliste.
----
+
 **\<Copy\>/\<Move\> {Cueliste} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
 {target playback} n**\
 **\<Copy\>/\<Move\> {Cueliste} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
@@ -121,7 +121,6 @@ Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
 Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
 {Cueliste} und Einfügen nach Cue n der Cueliste auf {target
 playback}.
----
 
 Delete -- Löschen
 -----------------
