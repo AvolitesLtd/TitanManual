@@ -12,6 +12,7 @@ const CompLibrary = require('../../core/CompLibrary.js');
 const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
+const translate = require('../../server/translate.js').translate;
 
 function pageUrl(doc, language) {
   return '/docs/' + (language ? `${language}/` : '') + doc;
@@ -35,8 +36,8 @@ class HomeSplash extends React.Component {
 
     const ProjectTitle = () => (
       <h2 className="projectTitle">
-        {siteConfig.title}
-        <small>{siteConfig.tagline}</small>
+        <translate>Avolites Titan Manual</translate>
+        <small><translate>Official Manual for the Avolites Titan software</translate></small>
       </h2>
     );
 
@@ -60,7 +61,7 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
-          <Button href={pageUrl("introduction", language)}>Get Started</Button>
+          <Button href={pageUrl("introduction", language)}><translate>Get Started</translate></Button>
         </div>
       </SplashContainer>
     );
@@ -89,49 +90,20 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Bring lighting and video together on one visual canvas',
+            content: <translate>Bring lighting and video together on one visual canvas</translate>,
             image: `${baseUrl}img/synergy.png`,
             imageAlign: 'top',
-            title: `<a href=${pageUrl("synergy", language)}>Synergy</a>`
+            title: `<a href=${pageUrl("synergy", language)}>${<translate>Synergy</translate>}</a>`
           },
           {
-            content: 'PioneerDJ waveform and BPM sync integration',
+            content: <translate>PioneerDJ waveform and BPM sync integration</translate>,
             image: `${baseUrl}img/avoxpioneer.png`,
             imageAlign: 'top',
-            title: `<a href=${pageUrl("running-the-show/linking-pioneerdj-system-to-titan", language)}>Pioneer DJ Integration</a>`,
+            title: `<a href=${pageUrl("running-the-show/linking-pioneerdj-system-to-titan", language)}>${<translate>Pioneer DJ Integration</translate>}</a>`,
           },
         ]}
       </Block>
     );
-
-    const Showcase = () => {
-      if ((siteConfig.users || []).length === 0) {
-        return null;
-      }
-
-      const showcase = siteConfig.users
-        .filter(user => user.pinned)
-        .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
-          </a>
-        ));
-
-      const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
-
-      return (
-        <div className="productShowcaseSection paddingBottom">
-          <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
-          <div className="logos">{showcase}</div>
-          <div className="more-users">
-            <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
-            </a>
-          </div>
-        </div>
-      );
-    };
 
     return (
       <div>
