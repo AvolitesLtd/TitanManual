@@ -1,8 +1,8 @@
 ---
-id: version-12.0-using-active-fixtures-with-citp
+id: version-12.0-using-active-fixtures
 title: Using Active Fixtures with CITP
 sidebar_label: Using Active Fixtures with CITP
-original_id: using-active-fixtures-with-citp
+original_id: using-active-fixtures
 ---
 
 CITP is a standard system allowing lighting devices to communicate and

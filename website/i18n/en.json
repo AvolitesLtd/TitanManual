@@ -689,7 +689,7 @@
         "title": "Controlling Fixtures over a Network",
         "sidebar_label": "Controlling Fixtures over a Network"
       },
-      "version-12.0/networking/version-12.0-using-active-fixtures-with-citp": {
+      "version-12.0/networking/version-12.0-using-active-fixtures": {
         "title": "Using Active Fixtures with CITP",
         "sidebar_label": "Using Active Fixtures with CITP"
       },
