@@ -13,7 +13,7 @@ original_id: arena
 
 （B）**再生フェーダーは**、キューとプログラムを選択および制御します。 （C）**追加の再生フェーダー**は、キュー、プログラム、フィクスチャー、その他の要素を保存するための追加の位置を提供します。
 
-(D) The **Mini screen** gives you another touch screen and additional masters or playbacks using four rotary encoders. (E) The **macro buttons** allow storage of frequent key sequences.
+（D）**ミニスクリーン**は、4つのロータリーエンコーダーを使用して、別のタッチスクリーンと追加のマスターまたは再生を提供します。 （E）**マクロボタンを**使用すると、頻繁なキーシーケンスを保存できます。
 
 (F) The **Programming and setup controls** configure and program the console
 
@@ -21,27 +21,27 @@ original_id: arena
 
 ## The Main Controls
 
-(G) The **Workspace windows** on the touch screen contain touch buttons for fixtures, palettes, groups, playbacks, macros and more. You can also set fixture attributes and show information windows.
+（G）タッチスクリーンの**ワークスペースウィンドウ**には、器具、パレット、グループ、再生、マクロなどのタッチボタンが含まれています。フィクスチャ属性を設定し、情報ウィンドウを表示することもできます。
 
-(H) The **System display and menu** area of the touch screen is the nerve centre of the console and shows you what is going on. This part of the display shows various screens of information depending on what you are currently doing.
+（H）タッチスクリーンの**システムディスプレイとメニュー**領域はコンソールの神経の中心であり、何が起こっているかを示します。ディスプレイのこの部分には、現在行っていることに応じて、さまざまな情報画面が表示されます。
 
-(I) The **Menu Softkeys** (labelled A -- G) are used to select control options. The display next to the buttons shows what each one will do. The options for each key change depending on what the console is doing. Softkey commands are shown in the manual like this: [Edit Times]
+（I）**メニューソフトキー**（ラベルA-G）は、制御オプションを選択するために使用されます。ボタンの横のディスプレイは、それぞれが何をするかを示しています。各キーのオプションは、コンソールの動作に応じて変わります。ソフトキーコマンドは、次のようにマニュアルに示されています。[編集時間]
 
-(J) The **Mini screen** displays additional workspace windows. (K) The four **rotary encoders** act like normal handles and can be allocated as masters or playbacks. Pressing the encoder is like pressing the blue button on a handle.
+（J）**ミニ画面**に追加のワークスペースウィンドウが表示されます。 （K）4つの**ロータリーエンコーダー**は通常のハンドルのように機能し、マスターまたは再生として割り当てることができます。エンコーダーを押すことは、ハンドルの青いボタンを押すようなものです。
 
-(L) The **Macro Buttons** store frequently used sequences of keypresses which can be replayed with a single button press. Playbacks can also be stored here.
+（L）**マクロボタン**は、ボタンを1回押すだけで再生できる、頻繁に使用される一連のキー押下を格納します。再生はここに保存することもできます。
 
 ![Arena controls 2](/docs/images/Arena-controls-2.png)
 
-(M) The **Master fader** can be used to control the overall output of the console (though it is disabled by default).
+（M）**マスターフェーダー**を使用して、コンソールの全体的な出力を制御できます（デフォルトでは無効になっています）。
 
-(N) The **Playback faders** are used to store and play back cues or chases. (O) The **Page Select buttons** let you change to a different page of playbacks. The touch screen above the faders shows information about each playback. (P) The **Additional playback faders** in two banks of 15 allow you to store more cues and chases, or store palettes, groups, or fixtures. Each bank of 15 has separate page select buttons and displays above the faders show what they are.
+（N）**再生フェーダー**は、キューまたはチェイスを保存および再生するために使用されます。 （O）**ページ選択ボタン**を使用すると、再生の別のページに変更できます。フェーダーの上のタッチスクリーンには、各再生に関する情報が表示されます。 （P）15の2つのバンクにある**追加の再生フェーダー**を使用すると、より多くのキューとチェイスを保存したり、パレット、グループ、またはフィクスチャーを保存したりできます。 15の各バンクには個別のページ選択ボタンがあり、フェーダーの上に表示されます。
 
-(Q) The **Control wheels** are used to set control values (attributes) for the fixtures, and to set chase speeds and fades. The touch screen above the wheels shows information about the attributes being controlled. Press the **Window Scroll Button** to switch the wheels into scroll mode -- this is used to move a selection box around the screen when editing.
+（Q）**コントロールホイール**は、フィクスチャーのコントロール値（属性）を設定したり、チェイススピードやフェードを設定したりするために使用します。ホイールの上のタッチスクリーンには、制御されている属性に関する情報が表示されます。**ウィンドウスクロールボタン**を押して、ホイールをスクロールモードに切り替えます。これは、編集時に画面上で選択ボックスを移動するために使用されます。
 
-(R) The **Numeric keypad** and other control buttons are used to enter values and change controls on the console.
+（R）**テンキー**およびその他のコントロールボタンは、コンソールで値を入力したり、コントロールを変更したりするために使用されます。
 
-(S) The **Function buttons** are used to carry out functions such as storing cues, copying, saving to disk, etc. These buttons have lights on to indicate when they are active.
+（S）**機能ボタン**は、キューの保存、コピー、ディスクへの保存などの機能を実行するために使用されます。これらのボタンには、アクティブになったことを示すライトが付いています。
 
 (T) The **Attribute select buttons** are used to select which attributes of a fixture (e.g. colour, gobo, pan, focus) are going to be controlled using the Control wheels. The buttons have lights on to show you which attributes are active. In the bottom right corner of the console is the **Locate** button which sets fixtures to a known start condition while programming.
 
@@ -49,22 +49,22 @@ original_id: arena
 
 ![Arena Back Panel](/docs/images/Arena-Back-Panel.png)
 
-(U) USB and reset buttons for panel reset and internal UPS battery disconnect.
+（U）パネルリセットおよび内部UPSバッテリー切断用のUSBおよびリセットボタン。
 
-(V) Network connections, monitor output, SMPTE input and audio input.
+（V）ネットワーク接続、モニター出力、SMPTE入力およびオーディオ入力。
 
-(W) DMX outputs and MIDI in/out.
+（W）DMX出力とMIDI入力/出力。
 
-(X) Desk lamp sockets.
+（X）電気スタンドソケット。
 
-All the connections required for the console are found on the back panel. There are 8 DMX outputs on 5-pin XLR, MIDI in/out/thru on 5-pin DIN, two desk lamp sockets, four Ethernet sockets from the internal Ethernet switch, an opticalCON Duo optical terminal for fibre network, a DVI connector for external monitor, three USB sockets, SMPTE input, audio input on 1/4 inch jack and remote trigger terminal on 1/4 inch jack.
+コンソールに必要なすべての接続は、背面パネルにあります。 5ピンXLRに8つのDMX出力、5ピンDINにMIDI入力/出力/スルー、2つのデスクランプソケット、内部イーサネットスイッチからの4つのイーサネットソケット、ファイバーネットワーク用のopticCON Duo光端子、用のDVIコネクタがあります。外部モニター、3つのUSBソケット、SMPTE入力、1/4インチジャックのオーディオ入力、1/4インチジャックのリモートトリガー端子。
 
-The Panel reset switch may be pressed to restart the front panel electronics if something odd happens with the switches and faders. The main processor will continue running but the DMX output will be interrupted until the restart is completed.
+スイッチとフェーダーで何か奇妙なことが起こった場合、パネルリセットスイッチを押してフロントパネルの電子機器を再起動することができます。メインプロセッサは実行を継続しますが、DMX出力は再起動が完了するまで中断されます。
 
-The UPS battery disconnect switch cuts off the power to the console when it is running on UPS, in the unlikely event of a complete lock up that can't be recovered by holding down the power switch.
+UPSバッテリー切断スイッチは、UPSで実行されているときにコンソールへの電源を遮断します。万が一、電源スイッチを押し続けても完全にロックアップして回復できない場合に備えて。
 
-> Using the battery disconnect switch will also power down the inbuilt network switch (TNS). Be aware of this if you are running from a backup console connected via the network switch.
+> バッテリー切断スイッチを使用すると、内蔵ネットワークスイッチ（TNS）の電源もオフになります。ネットワークスイッチを介して接続されたバックアップコンソールから実行している場合は、このことに注意してください。
 
-The Arena console has adjustable legs to angle the console for easier operation. Lift the rear of the console and press the Leg Release button at each side to set the leg to the desired height. Make sure you support the rear of the console when adjusting the height.
+Arenaコンソールには、操作を簡単にするためにコンソールに角度を付けるための調整可能な脚があります。コンソールの背面を持ち上げ、両側のレッグリリースボタンを押して、レッグを希望の高さに設定します。高さを調整するときは、コンソールの背面を支えていることを確認してください。
 
 ![Arena Leg](/docs/images/Arena-Leg.jpeg)
