@@ -72,7 +72,7 @@ console) is connected via a network switch to an Art-Net compatible dimmer
 and a rackmount DMX conversion node.
 
 ![Art Net Explanation
-general](/docs/images/Art-Net-Explanation-general.png)
+general](/docs/images/Art-Net-Explanation-General.png)
 
 Once the system is connected together, the devices
 can be configured.
