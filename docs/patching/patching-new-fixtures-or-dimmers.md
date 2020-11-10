@@ -286,6 +286,18 @@ RDM devices.
 -   Click on the RDM Quick Patch context menu button to automatically
     patch all RDM devices.
 
+
+Parked Fixtures
+----------------------
+If you attempt to patch, copy or move a fixture to a DMX address where
+its control channels would overlap one or more other fixtures, the console 
+will give you the option to **Park** the conflicting fixture(s). Parked
+fixtures retain all their programming but do not output to the DMX outputs.
+
+You can re-enable a Parked fixture by giving it a new DMX address using the
+[Patch View](../patching/changing-the-patch.md#patch-view) window which has
+a button to display all parked fixtures.
+
 Finding a Lost Fixture
 ----------------------
 

@@ -156,7 +156,7 @@ they are down the left side of the screen).
 ![Workspaces](/docs/images/Recoding-a-Workspace-Layout.png)
 
 External screens can have their own workspace buttons down the side of the screen (these
-can be turned on or off in the [User Settings](../system-settings/user-settings/#display) .)
+can be turned on or off in the [User Settings](../system-settings/user-settings.md#display) .)
 
 To record, press \<View/Open\> then
 \[Record Workspace\], then touch one of the Workspaces buttons, or just
@@ -168,7 +168,8 @@ will behave if you load more windows, and to be able to target particular window
 
 -   \[Record Visible/All Windows\] lets you set whether the workspace
     will contain only the windows which are currently visible, or will
-    also include any windows which are hidden underneath other windows.
+    also include any windows which are hidden underneath other windows (this option is not
+	available when using Quick Record).
 
 -   \[Remove/Leave other windows on recall\] sets whether all other
     windows will be closed when this workspace is recalled. If set to remove,
@@ -236,7 +237,7 @@ enter a legend. Touch or click again to store the item.
 
 The Quick Record function can be disabled for a particular button type using [Key Profiles](../system-settings/key-profiles.md).
 
-For palette buttons, the quick record function works slightly differently to pressing \<Record\> followed by the button. See [Storing a Palette](../palettes/creating-palettes#storing-a-palette).
+For palette buttons, the quick record function works slightly differently to pressing \<Record\> followed by the button. See [Storing a Palette](../palettes/creating-palettes.md#storing-a-palette).
 
 ## Legends and Picture Legends
 

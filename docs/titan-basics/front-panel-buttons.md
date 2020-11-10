@@ -92,7 +92,7 @@ Key | Action | | Key | Action
   F11      |  Gobos/Beams window    | |     Alt V    |   Open/View menu
   F12      |  Open Channel Grid     | |     Alt G    |   Go
   Esc      |  Exit menu             | |     Alt D    |   Delete
-  Enter    |  Enter                 | |     Alt C    |   Copy
+  Enter    |  Enter                 | |     Alt ⇑ C  |   Copy
   Alt 1    |  Softkey A             | |     Alt M    |   Move
   Alt 2    |  Softkey B             | |     Alt U    |   Unfold
   Alt 3    |  Softkey C             | |     Alt I    |   Include
