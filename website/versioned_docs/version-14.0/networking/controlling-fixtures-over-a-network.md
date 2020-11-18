@@ -18,7 +18,7 @@ details of how IP addressing works.
 1. Go to the **System** menu (press \<Avo\> + \<Disk\>) and press \[Network Settings\]
 
 2. Press \[Local Area Connection\] (some consoles have more than
-	one network connection, so you may have different connections to 
+	one network connection, so you may have different connections to
 	choose from)
 
 3. Check \[Subnet Mask\] is set to `255.255.255.0`
@@ -34,7 +34,7 @@ details of how IP addressing works.
 	set the console within the same range, but most equipment can be set
 	to any address.
 
--   If you need an address range other than 2.\*.\*.\* or 10.\*.\*.\* 
+-   If you need an address range other than 2.\*.\*.\* or 10.\*.\*.\*
 	you can press \[IP Address = ... \] and enter the address with the numeric keypad.
 
 Setting up DMX outputs
@@ -57,7 +57,7 @@ Example of a simple Art-Net system
 -----------------------
 
 There are two main systems for sending lighting control
-information over a network, Art-Net and sACN. Titan supports both; in this 
+information over a network, Art-Net and sACN. Titan supports both; in this
 section we will describe how to set up a system using Art-Net.
 
 Art-Net is not specific to one range of products, and is recognised and
@@ -82,15 +82,15 @@ can be configured.
 -   On the DMX node, set start at universe 2 so it will convert universes 2-13 to DMX512 on its 12 outputs
 
 
-The [DMX Settings menu](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs) 
+The [DMX Settings menu](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs)
 on the console is used to set which DMX line
 on the console is output to each Art-Net universe (1-256). Each console
-line may be output to multiple universes (including the physical connectors on the 
+line may be output to multiple universes (including the physical connectors on the
 console) depending on how your devices are connected.
 
-If everything is connected right, you should see each universe of the Dimmer 
-and the DMX node show up as connectable devices on the left hand side of the 
-DMX Settings window. The devices will tell the console what universe they are 
+If everything is connected right, you should see each universe of the Dimmer
+and the DMX node show up as connectable devices on the left hand side of the
+DMX Settings window. The devices will tell the console what universe they are
 set to receive.
 
 So we do the following:
@@ -111,7 +111,7 @@ Now on the console when you patch, you will patch the dimmer channels on address
 fixtures on the first output of the 12-way DMX node will be on addresses 2.001 - 2.512 and
 the fixtures on the second output will be on addresses 3.001 - 3.512.
 
-- Press the small \{Cog\} button on the Art-Net device to show a properties window. 
+- Press the small \{Cog\} button on the Art-Net device to show a properties window.
 	See [Art-Net settings](../system-settings/dmx-output-mapping.md#art-net-properties)
 	for an explanation of the settings.
 
