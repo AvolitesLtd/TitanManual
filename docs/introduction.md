@@ -15,7 +15,9 @@ that you're most likely to need them, so we start with how to [connect up the co
 then look at [patching lights](./patching.md). After that we go through [how to control](./controlling-fixtures.md) the different
 attributes of the lights, then how to store frequently-used settings in [palettes](./palettes.md).
 Titan has some great built-in [effects](./effects.md), so we look at those, then how to build a show
-by recording [cues](./cues.md), [chases](./chases.md) and [cue lists](./cue-lists.md). Later there are sections on [Capture Visualiser](./capture-visualiser.md), 
+by recording [cues](./cues.md), [chases](./chases.md), [cue lists](./cue-lists.md)
+and [timelines](./timelines.md). 
+Later there are sections on [Capture Visualiser](./capture-visualiser.md), 
 the video integration system [Synergy](./synergy.md), help when [running a show](./running-the-show.md), [remote control](./remote-control.md) of the console from a phone or tablet,
 and [system settings](./system-settings.md) to configure how the console works. 
 
@@ -32,8 +34,8 @@ Links or cross-references to a more detailed description are shown [like this](.
 
 To help you find buttons and controls:
 - \<This\> indicates a physical buttons on the console *(or \<Avo\> for red keys)*
-- \[This\] indicates a softkey option on the touchscreen
-- \{This\} indicates an option in a context menu 
+- \[This\] indicates a softkey menu option on the touchscreen
+- \{This\} indicates an option in a context menu or a general touch button on the screen
 
 Step-by-step guides are shown as follows:
 
@@ -43,4 +45,4 @@ Step-by-step guides are shown as follows:
 
 3. Finally, do this.
 
->	Useful related information is displayed like so.
+>	Useful related information is displayed like this.

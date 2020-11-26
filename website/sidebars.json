@@ -95,6 +95,10 @@
       "cue-lists/copying-moving-linking-and-deleting",
       "cue-lists/theatre-programming"
     ],
+    "Timelines": [
+      "timelines",
+      "timelines/creating-a-timeline"
+    ],
     "Capture Visualiser": [
       "capture-visualiser",
       "capture-visualiser/setting-up-the-rig",
