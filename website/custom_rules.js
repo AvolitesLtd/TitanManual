@@ -56,7 +56,7 @@ module.exports = {
   key_open: function(tokens, idx, options /*, env */) {
     const redKeys = ["avo","locate"];
     let keyClass = '';
-    if(redKeys.includes(tokens[idx+1].content.toLowerCase())) {
+    if(transButtons.keys.red.includes(tokens[idx+1].content.toLowerCase())) {
       keyClass += " red";
     }
 
@@ -70,7 +70,7 @@ module.exports = {
   context_open: function(tokens, idx, options /*, env */) {
     let keyClass = ' ';
 
-    for (const [cls, trans] of Object.entries(transButtons))
+    for (const [cls, trans] of Object.entries(transButtons.context))
       for (const [lang, tran] of Object.entries(trans.lang))
         if(tokens[idx+1].content.toLowerCase() == tran)
           keyClass += cls;
