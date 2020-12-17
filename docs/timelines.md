@@ -20,7 +20,7 @@ or by adding cues manually at specific times. You can think of a timeline as an 
 system to push the faders and buttons on the console. The actions recorded in a timeline
 are called **triggers**.
 
-To view the timeline edit window for a playback containing a timeline, touch the playback 
+To show the Timeline View window for a playback containing a timeline, touch the playback 
 information area relating to the fader or press \<Open/View\> then the **select button** 
 of the playback.
 
