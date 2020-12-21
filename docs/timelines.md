@@ -1,7 +1,7 @@
 ---
 id: timelines
-title: Timelines
-sidebar_label: Timelines
+title: Timelines introduction
+sidebar_label: Timelines introduction
 ---
 
 Timelines allow you to create a precisely timed light show which you can either
