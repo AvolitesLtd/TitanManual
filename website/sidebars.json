@@ -97,9 +97,9 @@
     ],
     "Timelines": [
       "timelines",
-      "timelines/timeline-features",
       "timelines/creating-a-timeline",
-      "timelines/running-and-editing-timelines"
+      "timelines/running-and-editing-timelines",
+      "timelines/timeline-options"
     ],
     "Capture Visualiser": [
       "capture-visualiser",

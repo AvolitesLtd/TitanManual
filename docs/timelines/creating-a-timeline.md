@@ -19,12 +19,12 @@ This is how you program a timeline using Live Record, from playbacks which you h
 
 2. Press \<Record\>, \[Timeline\], then the **Select button** of the fader where you want to store the timeline. The Timeline View window will automatically open.
 
-3. Press the \{Record\} button in the top left of the Timeline View window. The Titan screen will be outlined in red.
+3. Press the \{Record\} button in the top left of the Timeline View window. 
 
 4. Select which track on the timeline you want to record onto using the \[Track\] softkey. 
 You can add triggers to an existing track or create a new track - by default Titan will create a new track.
 
-5. When you are ready to start, press the \[Start Live Record\] softkey. 
+5. When you are ready to start, press the \[Start Live Record\] softkey. The Titan screen will be outlined in red but recording will not begin until the timecode is started.
 
 6. For internal timecode source, press the \{>\} button in the top left of the timeline window to start the timecode running. If you are using an external timecode source, start it.
 
@@ -53,13 +53,40 @@ Adding manual triggers
 
 If you are programming a show where you have been given a list of timecodes for each cue point, you will want to enter the triggers manually at those specific times.
 
-You can manually add triggers to the timeline using the \{+\} button at the bottom of the timeline tracks. Use the buttons to select which type of trigger you want to add, then softkey options allow you to set a specific trigger time, or to enter it at the current live time.
+1.  Press \<Record\>, \[Timeline\], then the **Select button** of the fader where you want to store the timeline. The Timeline View window will automatically open.
 
-- See the [Triggers](../timelines/timeline-features.md#triggers) section for details of the different types of trigger.
+2.  Press the \{+\} button at the bottom of the timeline tracks.
 
-- You can also add a new track or a marker using this function.
+    ![Timeline add trigger window](/docs/images/Timeline-Add-Item.png)
 
-![Timeline add trigger window](/docs/images/Timeline-Add-Item.png)
+3. Select the type of trigger you want to add.
+    - **New Playback** will create a playback from the current programmer contents and trigger it at 100% for 2 seconds then off.
+    - **Existing Playback** lets you select a playback you've programmed previously, and inserts it at 100% for 2 seconds then off.
+    - **Set Level** inserts a trigger to set an existing playback to a specified level.
+    - See the [Triggers](../timelines.md#triggers) section for details of the other types of trigger.
+
+4. If you are using an existing playback, press the **Select** button of the playback you want to fire. (You can skip step 3 and just select a playback straight after pressing the \{+\} button.)
+
+5. Set the time you want the trigger to fire at. There are several ways to do this:
+    - Type in the time using the \[Reference at hh:mm:ss.ttt\] softkey and press \<Enter\>.
+    - Use the current Live Time (blue cursor position) using the \[Reference at Live Time\] softkey.
+    - Tap on the Timeline View on the screen at the place where you want the trigger (you can adjust this later).
+
+6. Repeat from Step 2 to add more triggers. 
+
+
+- The [Table View](./timelines/running-and-editing-timelines.md#table-view) can be easier to work with than the graphical timeline when entering timecodes manually as it lets you see
+the numbers you have entered.
+
+### Importing markers
+
+Using the context menu option \{Import Markers\} you can import markers from an audio editor. This can be helpful when programming to a track.
+
+- When exporting the markers ensure the audio editor is set to export Hours:Minutes:Seconds:Frames and not beats or measures.
+
+
+
+
 
 
 

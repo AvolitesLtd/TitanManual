@@ -413,9 +413,9 @@
         "title": "Running and Editing Timelines",
         "sidebar_label": "Running and Editing Timelines"
       },
-      "timelines/timeline-features": {
-        "title": "Timeline features",
-        "sidebar_label": "Timeline features"
+      "timelines/timeline-options": {
+        "title": "Timeline Options",
+        "sidebar_label": "Timeline options"
       },
       "titan-basics": {
         "title": "Connecting up and Titan basics",
