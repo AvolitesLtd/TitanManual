@@ -59,6 +59,13 @@ The timeline is split into **Tracks** which can be used to organise triggers int
 - You can lock tracks to prevent accidental changes to sections you've finished using the \{Lock\} button.
 - Tracks can be collapsed so they take up less room on the screen, using the arrow button to the left of the track name.
 
+Selecting timecode source
+------------------
+
+You can select one of the four available timecode sources to control your timeline from the [Timeline Options](./timelines/timeline-options.md#timecode-tab).
+
+To set up and enable each of the timecode sources as Internal, MIDI, Clock or SMPTE use the \[Timecode\] softkey at the top level main menu.
+
 Local timecode controls
 ------------------
 
@@ -76,11 +83,9 @@ When you are linked to a timecode (except Internal Timecode), the first four but
 
 ![Timeline external timecode controls](/docs/images/Timeline-Timecode-ExternalTransport.png)
 
-If the timecode source is disabled, the time is shown in red.
+If the timecode source is disabled in the **Timecode** menu, the time is shown in red.
 
 ![Timeline disabled](/docs/images/Timeline-Timecode-Disabled.png)
-
-See [Timeline Options](./timelines/timeline-options.md#timecode-tab) for details of how to select timecode sources for timelines.
 
 - If your timecode source starts at a big number, you can set a time offset to allow you to use zero-referenced times on your timeline.
 See [Time Offset](./timelines/timeline-options.md#time-options).
