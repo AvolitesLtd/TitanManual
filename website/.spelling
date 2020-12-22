@@ -32,6 +32,7 @@ swop
 th
 thru
 timecode
+timecodes
 timecode-controlled
 timecoded
 timestamp
@@ -199,6 +200,7 @@ v14
 800mA
 c2o
 12-way
+hh:mm:ss.ttt
 
 # product names or numbers
 CDJ-TOUR1
