@@ -47,7 +47,9 @@ Preload             | Preload the LTP values of a playback over a number of seco
 Marker              | Mark a point in the timecode for information
 Wait for go         | Pause the timeline until you press Go to resume (only on internal timecode)
 
- 
+- **Wait for go** triggers are useful when you have a preset sequence followed by an unknown delay, for
+example a win/walk-up sequence for an awards ceremony when you don't know how long the winner
+will take to reach the stage. Shapes will continue to run while the timeline is paused.
 
 Tracks
 ------------------
@@ -78,7 +80,10 @@ If the timecode source is disabled, the time is shown in red.
 
 ![Timeline disabled](/docs/images/Timeline-Timecode-Disabled.png)
 
-See [Timeline Options](../timelines/timeline-options.md#timecode-tab) for details of how to select timecode sources for timelines.
+See [Timeline Options](./timelines/timeline-options.md#timecode-tab) for details of how to select timecode sources for timelines.
+
+- If your timecode source starts at a big number, you can set a time offset to allow you to use zero-referenced times on your timeline.
+See [Time Offset](./timelines/timeline-options.md#time-options).
 
 The overview bar
 ------------------
@@ -100,7 +105,8 @@ Cursor
 -----------------
 
 The grey user cursor on the Timeline View sets the entry position for new triggers. It can also be used as a "play head" to 
-manually move the play position along the timeline while testing.
+manually move the play position along the timeline while testing. You can position the cursor by tapping the screen in the ruler
+area at the top of the Timeline View.
 
 The \{Select Cursor\} context menu option sets Wheel A to control the cursor position.
 

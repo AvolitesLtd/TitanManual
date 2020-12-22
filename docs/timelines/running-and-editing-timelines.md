@@ -19,6 +19,10 @@ The HTP (intensity) of fixtures in the timeline is controlled by the fader level
 
 - On consoles with motorised faders and on virtual faders, the faders will move as programmed.
 
+- If you are using internal timecode you can set the timecode to run automatically when you raise the fader, and/or to stop when you lower the fader. See [Timeline Options - Fader](../timelines/timeline-options.md#fader-tab).
+
+- You can set the timeline to loop (when using internal timecode), see [Timeline Options - Timecode](../timelines/timeline-options.md#timecode-tab).
+
 - If you start the timecode at a point part way through the timeline, any active triggers will fire, but previous triggers will not - this might result in fixtures starting from a different state and changing the look.
 
 ### Testing a timeline
@@ -41,6 +45,8 @@ To edit a trigger, you need to select it. There are several different ways to do
 - Click on more triggers to add them to the selection.
 
 - Draw a selection marquee box over the trigger points you want to select. Only the trigger points enclosed by the selection box will be selected, so if you want to select all points in a block they all need to be inside the box. This is a quick way to select one trigger point without having to "multi-click" on a block.
+
+- To clear all selection use the context menu button \{Clear Trigger Selection\} or click in an empty area of the Timeline View.
 
 ### Using arrow buttons to move trigger selection
 
@@ -97,6 +103,8 @@ To help you identify different tracks, you can set a halo colour for each track.
 
 - You can remove a halo colour by pressing \[Remove Halo\] at step 4.
 
+- You can also set legends on markers using the \[Set Legend\] button.
+
 ### Snap options
 
 Using the context menu option \{Snap Options\} you can configure whether new triggers will
@@ -118,7 +126,7 @@ This shows details for each trigger in time order, in the same format as a cue l
 
 ![Timeline table view](/docs/images/Timeline-Table-View.png)
 
-- You can edit any of the settings, except the trigger Action type, by clicking on the grid and using the softkey options.
+- You can edit any of the settings, except the trigger Action type, by clicking on the grid and using the softkey options to change the settings.
 
 - You can add new triggers using the \{+\} button.
 

@@ -24,7 +24,7 @@ This is how you program a timeline using Live Record, from playbacks which you h
 4. Select which track on the timeline you want to record onto using the \[Track\] softkey. 
 You can add triggers to an existing track or create a new track - by default Titan will create a new track.
 
-5. When you are ready to start, press the \[Start Live Record\] softkey. The Titan screen will be outlined in red but recording will not begin until the timecode is started.
+5. When you are ready to start, press the \[Start Live Record\] softkey. The workspaces will be outlined in red but recording will not begin until the timecode is started.
 
 6. For internal timecode source, press the \{>\} button in the top left of the timeline window to start the timecode running. If you are using an external timecode source, start it.
 
@@ -51,7 +51,7 @@ The same trigger after Auto Simplify:
 Adding manual triggers
 -----------------
 
-If you are programming a show where you have been given a list of timecodes for each cue point, you will want to enter the triggers manually at those specific times.
+If you are programming a show where you have been given a list of timecodes for each cue point, you can enter the triggers manually at those specific times.
 
 1.  Press \<Record\>, \[Timeline\], then the **Select button** of the fader where you want to store the timeline. The Timeline View window will automatically open.
 
@@ -65,10 +65,10 @@ If you are programming a show where you have been given a list of timecodes for 
     - **Set Level** inserts a trigger to set an existing playback to a specified level.
     - See the [Triggers](../timelines.md#triggers) section for details of the other types of trigger.
 
-4. If you are using an existing playback, press the **Select** button of the playback you want to fire. (You can skip step 3 and just select a playback straight after pressing the \{+\} button.)
+4. If you are using an existing playback, press the **Select** button of the playback you want to fire. (You can skip step 3 and just select a playback straight after pressing the \{+\} button, Titan will behave as if you pressed **Existing Playback**.)
 
 5. Set the time you want the trigger to fire at. There are several ways to do this:
-    - Type in the time using the \[Reference at hh:mm:ss.ttt\] softkey and press \<Enter\>.
+    - Type in the time using the \[Reference at hh:mm:ss.ttt\] softkey and press \<Enter\>. Use the \<.\> button as a separator, for example typing "1 . 05" will enter 00:01:05:000 or "2 . 2 . 20" will enter 02:02:20.00.
     - Use the current Live Time (blue cursor position) using the \[Reference at Live Time\] softkey.
     - Tap on the Timeline View on the screen at the place where you want the trigger (you can adjust this later).
 
@@ -80,9 +80,9 @@ the numbers you have entered.
 
 ### Importing markers
 
-Using the context menu option \{Import Markers\} you can import markers from an audio editor. This can be helpful when programming to a track.
+Using the context menu option \{Import Markers\} you can import markers from an audio editor. This can help you position triggers when programming to a track.
 
-- When exporting the markers ensure the audio editor is set to export Hours:Minutes:Seconds:Frames and not beats or measures.
+- When creating the exported markers file, ensure the audio editor is set to export Hours:Minutes:Seconds:Frames and not beats or measures.
 
 
 
