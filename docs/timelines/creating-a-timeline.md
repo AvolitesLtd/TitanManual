@@ -6,6 +6,8 @@ sidebar_label: Creating a Timeline
 
 You can create a timeline by using Live Record mode, by entering triggers manually at specified times, or a combination of the two.
 
+
+
 Programming a Timeline using Live Record
 ----------------------
 
@@ -75,7 +77,7 @@ If you are programming a show where you have been given a list of timecodes for 
 6. Repeat from Step 2 to add more triggers. 
 
 
-- The [Table View](./timelines/running-and-editing-timelines.md#table-view) can be easier to work with than the graphical timeline when entering timecodes manually as it lets you see
+- The [Table View](../timelines/running-and-editing-timelines.md#table-view) can be easier to work with than the graphical timeline when entering timecodes manually as it lets you see
 the numbers you have entered.
 
 ### Importing markers

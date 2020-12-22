@@ -21,7 +21,7 @@ and replay an entire show or an element of a show from a "go" button.
 **Timeline:** This is a timed sequence of cues which would usually be used to 
 replay a complex cue sequence to a piece of recorded music or a timecoded show.
 
-[Chases](chases.md), [Cue Lists](cue-lists.md) and [Timeline](timeline.md) are 
+[Chases](chases.md), [Cue Lists](cue-lists.md) and [Timelines](timelines.md) are 
 covered in more detail in the following chapters.
 
 When a Cue, Chase or Cue List is stored on a control, the control is
