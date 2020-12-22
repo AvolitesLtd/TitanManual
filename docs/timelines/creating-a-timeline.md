@@ -36,6 +36,8 @@ You can add triggers to an existing track or create a new track - by default Tit
 
 You should now see all the triggers you have created laid out on the timeline.
 
+- While you are in Live Record, the console will follow the Timeline Release settings as you've programmed them in the [Timeline Options - Release tab](../timelines/timeline-options.md#release-tab), which may make playbacks behave differently to how they are programmed. A warning is displayed in the system prompt area to show you what release settings are in effect.
+
 ### Auto Simplify
 
 Normally while you are recording, the \[Auto Simplify\] option is enabled. When you stop the recording, this will simplify your fader movements to a few fade points rather than a large number of points which are difficult to edit and can slow Titan down. If you really need to capture an exotic fader movement you can turn this option off, but to help keep playback responsive we advise to leave it on where you can.
