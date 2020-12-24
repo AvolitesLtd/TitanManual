@@ -17,30 +17,34 @@ Live record is useful to capture a busked show, where you are operating the play
 
 This is how you program a timeline using Live Record, from playbacks which you have previously programmed:
 
-1. If you want to use internal timer rather than feeding in a timecode source, ensure the "Timecode Disconnect" \{Link\} button is selected to show a broken link.
+1. If you want to use internal timecode for recording rather than feeding in a timecode source, ensure the "Timecode Disconnect" \{Link\} button is selected to show a broken link.
 
 2. Press \<Record\>, \[Timeline\], then the **Select button** of the fader where you want to store the timeline. The Timeline View window will automatically open.
 
-3. Press the \{Record\} button in the top left of the Timeline View window. 
+3. Press the \{O\} (record) button in the top left of the Timeline View window. 
 
-4. Select which track on the timeline you want to record onto using the \[Track\] softkey. 
-You can add triggers to an existing track or create a new track - by default Titan will create a new track.
+4. Select which track on the timeline you want to record onto using the \[Track\] softkey or tap on the flashing dotted area of the track you want to use. 
+You can add triggers to an existing track or create a new track by tapping on the blank area at the bottom.
 
-5. When you are ready to start, press the \[Start Live Record\] softkey. The workspaces will be outlined in red but recording will not begin until the timecode is started.
+    ![Timeline quick record dotted tracks](/docs/images/Timeline-Quickrecord-Dotted.png)
 
-6. For internal timecode source, press the \{>\} button in the top left of the timeline window to start the timecode running. If you are using an external timecode source, start it.
+5. Tap again on the track to start recording (or press the \[Start Live Record\] softkey). The workspaces will be outlined in red but recording will not begin until the timecode is started.
+
+6. For internal timecode source, press the \{>\} (play) button in the top left of the timeline window to start the timecode running. If you are using an external timecode source, start it.
 
 7. Now when you make any of the above trigger actions on the console, you will see a trigger recording appear on the timeline. The time range you have recorded is highlighted in red on the timeline view.
 
-8. When you have finished recording press the \{Record\} button again and stop the timecode.
+8. When you have finished recording press the \{O\} (record) button again and stop the timecode.
 
 You should now see all the triggers you have created laid out on the timeline.
+
+- When using internal timecode, pressing \{O\} (record) then \{>\} (play) will automatically start Live Recording.
 
 - While you are in Live Record, the console will follow the Timeline Release settings as you've programmed them in the [Timeline Options - Release tab](../timelines/timeline-options.md#release-tab), which may make playbacks behave differently to how they are programmed. A warning is displayed in the system prompt area to show you what release settings are in effect.
 
 ### Auto Simplify
 
-Normally while you are recording, the \[Auto Simplify\] option is enabled. When you stop the recording, this will simplify your fader movements to a few fade points rather than a large number of points which are difficult to edit and can slow Titan down. If you really need to capture an exotic fader movement you can turn this option off, but to help keep playback responsive we advise to leave it on where you can.
+Normally while you are recording, the \[Auto Simplify\] option is enabled. When you stop the recording, this will simplify your fader movements to a few trigger points with linear fades rather than a large number of points which are difficult to edit. If you really need to capture an exotic fader movement you can turn this option off, but to help keep your timeline easy to edit you should leave it on where you can.
 
 Trigger with multiple points during Live Record:
 

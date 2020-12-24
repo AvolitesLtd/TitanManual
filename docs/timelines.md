@@ -8,7 +8,8 @@ Timelines allow you to create a precisely timed light show which you can either
 run from the console's internal timer or synchronise to an external timecode
 source. This can be useful for an opening sequence for a corporate
 event, a complex song in a show where the song is pre-recorded or run to 
-a click track or timecode, or a multimedia event run to a playback track.
+a click track or timecode, or a multimedia event run to a playback track. You
+can also use it to create [complicated one-shot effects](./timelines/timeline-options.md#fader-tab) for busking.
 
 > You can also create timed shows by creating timecoded cues in 
 [cue-lists](./cue-lists/cue-list-timing.md#running-a-cue-list-to-timecode), but Timeline 
@@ -29,8 +30,9 @@ of the playback.
 Triggers
 ------------------
 
-To program a timeline you record actions, or **Triggers**, at specific times
-which can then be replayed by the console with the same timing.
+To program a timeline you record actions at specific times
+which can then be replayed by the console with the same timing. These
+are called **Triggers**.
 
 The following types of trigger can be recorded. You can record these actions in real time using **Live Record**
 or enter them as manual triggers at specified times using the touch screen.
@@ -66,10 +68,12 @@ You can select one of the four available timecode sources to control your timeli
 
 To set up and enable each of the timecode sources as Internal, MIDI, Clock or SMPTE use the \[Timecode\] softkey at the top level main menu.
 
-Local timecode controls
+Timecode linking and local timecode controls
 ------------------
 
-The \{Link\} button in the bottom left of the Timeline View window links or unlinks the timeline with the timecode source. Especially with external timecode, it's useful when recording and editing to be able to control the timecode yourself rather than having to continually ask the video guys to rewind the source. So when this button is set to unlinked, you can control the timeline playback using the buttons in the top left corner of the Timeline View window as you would with an audio player. If you are using Internal Timecode as a timecode source then these buttons will also operate the Internal Timecode source while linked.
+The \{Link\} button in the bottom left of the Timeline View window links or unlinks the timeline with the timecode source. Especially with external timecode, it's useful when recording and editing to be able to control the timecode yourself rather than having to continually ask the video guys to rewind the source. So when this button is set to unlinked, you can control the timeline playback using the buttons in the top left corner of the Timeline View window as you would with an audio player. 
+
+- If you are using Internal Timecode or Winamp as a timecode source then these buttons will also operate the local Timecode source while linked (and will play/pause Winamp if that is the timecode source).
 
 ![Timeline transport controls](/docs/images/Timeline-Timecode-Transport.png)
 
@@ -79,7 +83,7 @@ The \{Link\} button in the bottom left of the Timeline View window links or unli
 - \{ Stop \} stops playing and sets the live timecode back to zero.
 - \{ Record \} enters live record mode but doesn't start timecode playback.
 
-When you are linked to a timecode (except Internal Timecode), the first four buttons are replaced by the timecode source name and only the Record button is shown.
+When you are linked to a timecode (except Internal Timecode and Winamp), the first four buttons are replaced by the timecode source name and only the Record button is shown.
 
 ![Timeline external timecode controls](/docs/images/Timeline-Timecode-ExternalTransport.png)
 
@@ -100,11 +104,13 @@ The overview bar at the bottom of the screen gives you a view of the whole timel
 Moving around the timeline view with the wheels
 -----------------
 
-Using the context menu option \{Timeline Wheels\} you can set the wheels to control your view.
+Using the context menu option \{Timeline Wheels\} you can set the wheels to control your view, when no triggers are selected.
 The wheel functions are
 - Wheel A: Horizontal scroll
 - Wheel B: Vertical scroll
 - Wheel C: Zoom
+
+If any triggers are selected, the wheels control Time, Level and Fade of the selected trigger(s).
 
 Cursor
 -----------------
@@ -127,7 +133,9 @@ You can also select the tool using the \{Tool Pan\}/\{Tool Select\} context menu
 Table view
 ------------------
 
-You can switch the Timeline View to a table version which shows details for each trigger in time order, in the same format as a cue list. Buttons down the left hand side allow you to filter which tracks are shown in the list.
+Using the \{Open Table View\} context menu button, you can open the timeline as a **table** which shows details for each trigger in time order, in the same format as a cue list. Buttons down the left hand side allow you to filter which tracks are shown in the list.
 See [Table View](./timelines/running-and-editing-timelines.md#table-view).
 
 ![Timeline table view](/docs/images/Timeline-Table-View.png)
+
+- You can show both the Timeline Table View and the graphical Timeline View at the same time.

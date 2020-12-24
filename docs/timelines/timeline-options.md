@@ -19,8 +19,9 @@ All options are the same as for a cue, see [Options](../cues/playback-options.md
 
 ![Timeline Options: Times](/docs/images/Timeline-Options-Times.png)
 
-These options let you set the end time and start time of the timeline. These times set the loop points when you are using the 
-[Loop function](../timelines/timeline-options.md#timecode-tab) or can be used to set limits on the timeline so you can be sure nothing will happen if you get sent some wayward timecode.
+These options let you set the duration and start time of the timeline. These set the loop points when you are using the 
+[Loop function](../timelines/timeline-options.md#timecode-tab) or are used to fire the timeline automatically when the timecode is in the correct range.
+They can also be used to set limits on the timeline so you can be sure nothing will happen if you get sent some wayward timecode.
 
 --- 
 
@@ -36,6 +37,7 @@ Option              | Action
 Fader Raised Action | **No Action**: The internal timecode source is not changed (default).<br>Play: The internal timecode source is started.
 Fader Zero Action   | **No Action**: The internal timecode source is not changed (default).<br>Stop: The internal timecode source is stopped. <br>Pause: The internal timecode source is paused at the current time.
 
+> This option is useful for creating a complicated one-shot effect for busking. Create the effect as a timeline using internal timecode and set these options to **Play**/**Stop** - you can fire your effect just by raising the fader and when you lower the fader to zero the effect will reset.
 
 --- 
 
@@ -99,4 +101,4 @@ picture below a small offset of 45 seconds is set.
 
 ### Start Time & Duration
 
-These options are a different way of setting the Start Time / End Time options in the [Options - Times tab](../timelines/timeline-options.md#times-tab).
+These options are a different way of setting the Duration / Start Time options in the [Options - Times tab](../timelines/timeline-options.md#times-tab).
