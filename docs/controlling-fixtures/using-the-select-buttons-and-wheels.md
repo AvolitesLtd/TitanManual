@@ -6,8 +6,8 @@ sidebar_label: Using the Select Buttons and Wheels
 
 ## Selecting Fixtures and Dimmers for Control
 
-To select the fixtures or dimmer channels that you want to control, you
-use the Fixture Select buttons to select the fixtures into the Editor.
+To select which fixtures or dimmer channels you want to control, you
+use the Fixture Select buttons.
 You can select fixtures or dimmers individually, or several at once. You
 can also use [Groups](../controlling-fixtures/fixture-groups.md) to select multiple fixtures.
 
@@ -42,10 +42,10 @@ Here are some other useful things to know:
 
 -   Once you have changed any attribute, pressing a Select button will
     deselect all fixtures and start the selection process again. All
-    previously selected fixtures (since you last pressed \<Clear\>) stay
-    in the programmer. Once a fixture has been edited, Fixture buttons
+    changes you made to fixtures (since you last pressed \<Clear\>) stay
+    in the programmer. Once a fixture has been changed, Fixture buttons
     show a darker blue. The picture above shows the first two fixtures
-    selected, with the second three in the programmer and the others
+    selected, with the next three in the programmer and the others
     unselected.
 
 -   You can select fixtures on another page by touching one of the page
@@ -68,7 +68,7 @@ A quick press of the button will move all selected fixtures to a central
 position and reset all the attributes so that you get a white light.
 However you sometimes might not want to move the fixture, or may want to
 keep some other attributes unchanged. By holding down the \<Locate\>
-button rather than a quick press, you get some more options
+button rather than a quick press, you get some more options:
 
 -   You can mask off some of the Locate settings (such as only turning
     the fixture on, but not changing its position or colour) by holding
@@ -108,25 +108,41 @@ change, then press \<Record\>, then \<Locate\>. Select \[Shared\] or
 \[Individual\] from the softkeys. Press \<Record\> or \<Locate\> a
 second time to confirm.
 
-## Clearing Selection
+## Clearing the fixture selection and the programmer
 
 The \<Clear\> button (on the right of the numeric keypad) is used to
-remove all changes from the Programmer and deselect all fixtures. A
-quick press of the \<Clear\> button just clears everything, however if
-you hold down the \<Clear\> button, then more options are available.
+remove all changes from the programmer and deselect all fixtures. 
 
--   You can mask which attributes are to be cleared (for example,
-    leaving the pan/tilt in the programmer but clearing everything else)
-    by holding down \<Clear\> and pressing \[Set Mask to Clear
-    Nothing\]. Then (still holding \<Clear\>) turn on the Attributes you
-    want to change using the Attribute Bank buttons down the right hand
-    side, or press \[Set Mask\] and use the softkeys. Only the lit
-    attributes will be cleared. Pressing the \<Options\>/\<Attribute
-    Options\> button will clear the mask. The Time mask option allows
-    you to clear or retain the fade/delay times in the programmer for
-    all attributes (clearing individual attributes will also clear times
-    for that attribute, for example setting a P mask will clear position
-    times).
+Normally a **quick press** of the \<Clear\> button 
+clears the fixture selection and also clears from the programmer all the
+fixture changes you've made. 
+However you can change this so that **double presses** of the button will clear
+only the fixture selection on the first press, then the programmer on the
+second press, or the other way round. See [Action Precedence](using-the-select-buttons-and-wheels.md#clear-options-menu)
+below in the Clear Options menu.
+
+### Clear button hold-down options
+If you hold down the \<Clear\> button, then more options are available on
+the softkeys. These will take effect when you release the \<Clear\> button.
+
+The **Set Mask** options let you choose which attribute groups are to be cleared (for example,
+you could leave the pan/tilt in the programmer but clear everything else).
+The top \[Set Mask\] button lets you choose which attributes will be cleared.
+\[Set Mask to Clear Nothing\] disables all attributes from being cleared to give you a clean
+slate to start with and \[Set Mask to Clear All\] enables all attributes to be cleared.
+
+You can also clear all the mask attributes by pressing the \<Options\>/\<Attribute
+Options\> button will clear the mask. 
+
+The **Time** mask option allows
+you to clear or retain the fade/delay times in the programmer for
+all attributes (clearing individual attributes will also clear times
+for that attribute, for example setting a P mask will clear position
+times).
+
+When you release the \<Clear\> button the attributes selected in the mask will be
+cleared and the mask will reset to **Clear All** - you can change the Auto Reset Mask
+option as described below so that the mask is remembered next time you press \<Clear\>.
 
 -   Hold \<Clear\> and press \<All\> to deselect all fixtures, but leave
     the changes in the programmer.
@@ -139,14 +155,17 @@ you hold down the \<Clear\> button, then more options are available.
     fixtures will be cleared. This is useful if you want to clear
     specific fixtures.
 
--   \[Individual Attributes\] allows you to clear individual attributes
-    from the Programmer. When you press the softkey, you are given a
-    list of attributes in the Programmer -- press the appropriate
-    softkey to clear that attribute.
+-   \[Individual Attributes\] gives you a list of attributes currently 
+	in the Programmer - press the appropriate softkey to clear that attribute. This
+	lets you clear individual attributes rather than the whole group, for example
+	you could clear Pan but leave Tilt. You can press the attribute buttons to filter
+	what's shown in the list.
 
 -   \[Clear All Programmers\] will clear all programmers that are
     currently active on the console, including Multi-user programmers
     from other users, and the Titan Remote programmer.
+
+### Clear options menu
 
 The options in the "Clear Options" submenu are:
 
@@ -173,6 +192,15 @@ The options in the "Clear Options" submenu are:
 -   \[Clear/Maintain Cue Times\] - determines whether or not to clear
     the cue time information from the programmer (this will not affect
     fixture attribute times in the programmer).
+	
+-   \[Clear/Maintain Rate Settings\] - sets whether rate settings will be cleared from the programmer.	
+	
+-   \[Clear Direction\] - sets whether direction will be cleared from the programmer.	
+	
+-   \[Action Precedence\] - Sets the action for multiple presses of the \<Clear\> button:
+	- Selection With Programmer: **(default)** First press of the button clears both the fixture selection and all fixture changes in the programmer
+	- Selection Then Programmer: First press clears fixture selection, second press clears programmer
+	- Programmer Then Selection: First press clears programmer, second press clears fixture selection
 
 You can use the [Channel Grid](../controlling-fixtures/viewing-and-editing-fixture-values.md#the-channel-grid-window) window to selectively view and remove
 attributes from fixtures.
