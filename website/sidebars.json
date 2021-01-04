@@ -44,7 +44,7 @@
     ],
     "Controlling Fixtures": [
       "controlling-fixtures",
-      "controlling-fixtures/using-the-select-buttons-and-wheels",
+      "controlling-fixtures/changing-fixture-attributes",
       "controlling-fixtures/viewing-and-editing-fixture-values",
       "controlling-fixtures/fixture-groups",
       "controlling-fixtures/advanced-options"
