@@ -6,6 +6,7 @@ sidebar_label: Timeline options
 
 Timelines have a number of options which set how they operate. 
 Press \<Options\> (or the \[Options\] softkey on the top level menu) then the **select** button for the timeline you wish to edit.
+The default setting is shown in **bold**.
 
 --- 
 
@@ -34,8 +35,8 @@ timecode source is being used then this option has no effect.
 
 Option              | Action
 --------------------|---
-Fader Raised Action | **No Action**: The internal timecode source is not changed (default).<br>Play: The internal timecode source is started.
-Fader Zero Action   | **No Action**: The internal timecode source is not changed (default).<br>Stop: The internal timecode source is stopped. <br>Pause: The internal timecode source is paused at the current time.
+Fader Raised Action | **No Action**: The internal timecode source is not changed.<br>Play: The internal timecode source is started.
+Fader Zero Action   | **No Action**: The internal timecode source is not changed.<br>Stop: The internal timecode source is stopped. <br>Pause: The internal timecode source is paused at the current time.
 
 > This option is useful for creating a complicated one-shot effect for busking. Create the effect as a timeline using internal timecode and set these options to **Play**/**Stop** - you can fire your effect just by raising the fader and when you lower the fader to zero the effect will reset.
 
@@ -53,8 +54,8 @@ Option              | Action
 --------------------|---
 Override Playback Release | **Off**: The playback's own release settings are used.<br>On: The Timeline-Global release settings override the playback settings.
 Release Playbacks to Home | Off: LTP attributes are left when when killing playbacks.<br>**On**: Attributes will return to home if no previous LTP values are set.
-Timeline-Global Release Mask | Sets the Global Release Mask for playbacks triggered by the timeline (default **no attributes released**).
-Timeline-Global Release Time | Sets the Global Release Time for playbacks triggered by the timeline (default **2 seconds**).
+Timeline-Global Release Mask | Sets the Global Release Mask for playbacks triggered by the timeline (default **no attributes released**). Overrides your normal Global Release mask for items triggered by timeline - a warning is shown in the system prompt.
+Timeline-Global Release Time | Sets the Global Release Time for playbacks triggered by the timeline (default **2 seconds**).  Overrides your normal Global Release time for items triggered by timeline.
 
 --- 
 
@@ -67,7 +68,7 @@ Option              | Action
 Autoload In Range | Off: Timeline must be fired manually. <br>**On:** Timeline will be fired automatically when timecode comes within the Start/End time range.
 Kill At Zero | **Off:** Timeline will remain active when the timeline fader is zeroed. <br>On: Timeline will be killed when the timeline fader is zeroed. 
 Kill Out Of Range | Off: Timeline will remain active when the timecode goes outside the Start/End time range. <br>**On:** Timeline will be killed when the timecode goes outside the Start/End time range.
-Loop | **Off**: Internal timecode source continues to run<br>On: Internal timecode source will loop back to Start Time when it reaches End Time.
+Loop | **Off**: Internal timecode source does not loop when it reaches End Time<br>On: Internal timecode source will loop back to Start Time when it reaches End Time.
 Timecode Source | Sets the timecode source for the Timeline from 1-4 (see [Running a Cue List to Timecode](../cue-lists/cue-list-timing#running-a-cue-list-to-timecode))
 Timecode Source Unlinked | This is the same as the Link button in the timeline view - see [Local timecode controls](../timelines.md#local-timecode-controls)
 
@@ -83,7 +84,7 @@ You can also set some options from the Edit Times menu - press \<Time\> (or the 
 
 If the timecode you are using has a large offset or you have been given cue timings that don't match up
 with the timecode source, you can set an offset to make the cues match up instead of having to change
-all the timings. You can also enter small offsets if the lighting cues are not quite synchronised properly.
+all the timings. You can also enter small offsets of a few frames if the lighting cues are not quite synchronised properly.
 
 1. In the Edit Times menu press \[Set Offset\].
 
