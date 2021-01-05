@@ -76,7 +76,7 @@ If you are programming a show where you have been given a list of timecodes for 
 4. If you are using an existing playback, press the **Select** button of the playback you want to fire. (You can skip step 3 and just select a playback straight after pressing the \{+\} button, Titan will behave as if you pressed **Existing Playback**.)
 
 5. Set the time you want the trigger to fire at. There are several ways to do this:
-    - Type in the time using the \[Reference at hh:mm:ss.ttt \] softkey and press \<Enter\>. Use the \<.\> button as a separator, for example typing "1 . 05" will enter 00:01:05:000 or "2 . 2 . 20" will enter 02:02:20.00.
+    - Type in the time using the \[Reference at hh:mm:ss.fff \] softkey and press \<Enter\>. Use the \<.\> button as a separator, for example typing "1 . 05" will enter 00:01:05:000 or "2 . 2 . 20" will enter 02:02:20.00.
     - Use the current Live Time (blue cursor position) using the \[Reference at Live Time\] softkey.
     - Tap on the Timeline View on the screen at the place where you want the trigger (you can adjust this later).
 
