@@ -141,6 +141,14 @@
   &.mute:before {
     content: fa-content($fa-var-power-off);
   }
+
+  &.lines:before {
+    content: fa-content($fa-var-bars);
+  }
+
+  &.resize:before {
+    content: fa-content($fa-var-expand-alt);
+  }
 }
 
 .key {

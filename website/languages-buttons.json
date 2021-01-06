@@ -1,48 +1,68 @@
 {
-  "plus": {
-    "lang": {
-      "en": "+"
-    }
+  "keys": {
+    "red": [
+      "avo",
+      "locate"
+    ]
   },
-  "i": {
-    "lang": {
-      "en": "i"
-    }
-  },
-  "key-with-icon x": {
-    "lang": {
-      "en": "x"
-    }
-  },
-  "key-with-icon sun": {
-    "lang": {
-      "en": "sun",
-      "de": "sonne",
-      "es": "dom"
-    }
-  },
-  "key-with-icon rubbish": {
-    "lang": {
-      "en": "rubbish bin",
-      "de": "papierkorb"
-    }
-  },
-  "key-with-icon pencil": {
-    "lang": {
-      "en": "pencil",
-      "de": "stift"
-    }
-  },
-  "key-with-icon link": {
-    "lang": {
-      "en": "link",
-      "de": "verknüpfung"
-    }
-  },
-  "key-with-icon cog": {
-    "lang": {
-      "en": "cog",
-      "de": "zahnrad"
+  "context": {
+    "plus": {
+      "lang": {
+        "en": "+"
+      }
+    },
+    "i": {
+      "lang": {
+        "en": "i"
+      }
+    },
+    "key-with-icon x": {
+      "lang": {
+        "en": "x"
+      }
+    },
+    "key-with-icon sun": {
+      "lang": {
+        "en": "sun",
+        "de": "sonne",
+        "es": "dom"
+      }
+    },
+    "key-with-icon rubbish": {
+      "lang": {
+        "en": "rubbish bin",
+        "de": "papierkorb"
+      }
+    },
+    "key-with-icon pencil": {
+      "lang": {
+        "en": "pencil",
+        "de": "stift"
+      }
+    },
+    "key-with-icon link": {
+      "lang": {
+        "en": "link",
+        "de": "verknüpfung"
+      }
+    },
+    "key-with-icon cog": {
+      "lang": {
+        "en": "cog",
+        "de": "zahnrad"
+      }
+    },
+    "key-with-icon lines": {
+      "lang": {
+        "en": "context menu",
+        "de": "kontextmenü"
+      }
+    },
+    "key-with-icon resize": {
+      "lang": {
+        "en": "resize window",
+        "de": "größe ändern"
+      }
     }
   },
   "key-with-icon record": {

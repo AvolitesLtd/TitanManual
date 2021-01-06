@@ -101,8 +101,8 @@ adapter, both of which will be shown.
 **DMX output:** Allows you to temporarily disable the output
 
 **Merge Priority:** A value between 0 and 200 where higher numbers have 
-priority. For this DMX output, sets the priority of the DMX signal being 
-output from this Titan console over sACN being merged from other sources.
+priority, 100 is default. For this DMX output, sets the priority of the DMX from this 
+Titan console over incoming sACN being merged from other sources.
 You also need to set up [DMX Merge](#DMX-Merge).
 
 **Break Length:** Adjusts the DMX spacing which can be helpful for slow
@@ -125,12 +125,12 @@ This option can sometimes solve issues where fixtures can be seen regularly glit
 **DMX output:** Allows you to temporarily disable the output
 
 **Merge Priority:** A value between 0 and 200 where higher numbers have 
-priority. For this sACN universe, sets the priority of the DMX signal being 
-output from this Titan console over sACN being merged from other sources. 
-You also need to set up [DMX Merge](#DMX-Merge).
+priority, 100 is default. Sets the sACN priority parameter of this sACN universe being 
+output from Titan. The priority is used on devices receiving multiple sACN
+streams to determine which data is output. 
 
-> You would normally use this to connect
-a backup console with a lower priority setting.
+> This is often used to connect a backup console into a system
+  by giving it a lower sACN priority setting than the master.
 
 **Block RDM:** If enabled, RDM traffic is blocked on this module.
 
@@ -218,8 +218,8 @@ number then click on a port to assign.
 
 To remove an assignment, click on **Clear sACN Merge** then select a port.
 
-- You can set the priority of the Titan output vs. the sACN output using the
+- For local DMX outputs, you can set the priority of the Titan output vs. the sACN stream using the
   Merge Priority option on each node, see [DMX Output Properties](#DMX-output-properties)
-  and [sACN Properties](#sACN-properties).
+  .
 
 - The DMX Output switch can be used to disable all DMX output.

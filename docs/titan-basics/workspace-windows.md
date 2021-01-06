@@ -66,12 +66,12 @@ Buttons are also shown allowing you
 to set the button size and the text size of the buttons in the window, and move the
 window to a different monitor. The Appearance options may vary depending
 on which window it is, the setup of the console and if you have any
-external monitors. The Rows / Columns buttons allow you to control how buttons are
-arranged, see [Controlling button layout/grid](../titan-basics/workspace-windows.md#controlling-button-layoutgrid).
+external monitors. The \{Rows / Columns\} buttons allow you to control how buttons are
+arranged, see [Controlling Button Layout/Grid](#controlling-button-layoutgrid).
 
 ![Window Appearance Menu](/docs/images/Window-Appearance-Options.png)
 
-The **Resize Window** button allows you to set adjustable window sizes.
+The \{Resize Window\} button allows you to set adjustable window sizes.
 A grid screen will open.
 
 ![Resize](/docs/images/Resize.png)
@@ -116,7 +116,7 @@ how the context buttons appear when Patch View window is active.
 
 ![Context Menu](/docs/images/Context-Menu.png)
 
-On Sapphire Touch and Titan Go each window has a **Context Menu button** 
+On Sapphire Touch and Titan Go each window has a \{Context Menu\} button
 in the top window bar, which gives a drop down menu showing the
 context menu buttons for the current window.
 
