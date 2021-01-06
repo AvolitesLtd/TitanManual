@@ -4,7 +4,7 @@ title: Timelines introduction
 sidebar_label: Timelines introduction
 ---
 
-Timelines allow you to create a precisely timed light show which you can either
+Timelines allow you to create a precisely timed sequence which you can either
 run from the console's internal timer or synchronise to an external timecode
 source. This can be useful for an opening sequence for a corporate
 event, a complex song in a show where the song is pre-recorded or run to
@@ -15,15 +15,14 @@ can also use it to create [complicated one-shot effects](./timelines/timeline-op
 [cue-lists](./cue-lists/cue-list-timing.md#running-a-cue-list-to-timecode), but Timeline
 recording allows much easier creation and editing of a timed show.
 
-Timelines can be built either from cues or chases you have already recorded, or by creating
-new cues as you go along. You can record them in real time by operating the console
-or by adding cues manually at specific times. You can think of a timeline as an automatic replay
+Timelines can be built either from playbacks you have already recorded, or by creating
+new playbacks as you go along. You can record actions in real time by operating the console
+or by adding them manually at specific times. You can think of a timeline as an automatic replay
 system to push the faders and buttons on the console. The actions recorded in a timeline
 are called **triggers**.
 
-To show the Timeline View window for a playback containing a timeline, touch the playback
-information area relating to the fader or press \<Open/View\> then the **select button**
-of the playback.
+To show the **Timeline View** window for a timeline, press \<Open/View\> then the **select button**
+of the playback, or tap the playback legend area above the fader.
 
 ![Playback View of Timeline](/docs/images/Timeline-Window.png)
 
@@ -49,14 +48,14 @@ Preload             | Preload the LTP values of a playback over a number of seco
 Marker              | Mark a point in the timecode for information
 Wait for go         | Pause the timeline until you press Go to resume (only on internal timecode)
 
-- **Wait for go** triggers are useful when you have a preset sequence followed by an unknown delay, for
+- **Wait for go** triggers are useful when you have a timed sequence followed by an unknown delay, for
 example a win/walk-up sequence for an awards ceremony when you don't know how long the winner
 will take to reach the stage. Shapes will continue to run while the timeline is paused.
 
 Tracks
 ------------------
 
-The timeline is split into **Tracks** which can be used to organise triggers into different groups or sections. Each different trigger in the timeline gets its own row in the track.
+The timeline is split into **Tracks** which can be used to organise triggers into different groups or sections. Each different playback in the timeline gets its own row in the track.
 - You can mute tracks to prevent them playing back using the \{Mute\} button.
 - You can lock tracks to prevent accidental changes to sections you've finished using the \{Lock\} button.
 - Tracks can be collapsed so they take up less room on the screen, using the arrow button to the left of the track name.
@@ -66,12 +65,12 @@ Selecting timecode source
 
 You can select one of the four available timecode sources to control your timeline from the [Timeline Options](./timelines/timeline-options.md#timecode-tab).
 
-To set up and enable each of the timecode sources as Internal, MIDI, Clock or SMPTE use the \[Timecode\] softkey at the top level main menu.
+To set up and enable each of the timecode sources as Internal, MIDI, Clock or SMPTE use the \[Timecode\] softkey at the top level main menu or double press \<Open/View\> and open the appropriate **Timecode window**.
 
 Timecode linking and local timecode controls
 ------------------
 
-The \{Link\} button in the bottom left of the Timeline View window links or unlinks the timeline with the timecode source. Especially with external timecode, it's useful when recording and editing to be able to control the timecode yourself rather than having to continually ask the video guys to rewind the source. So when this button is set to unlinked, you can control the timeline playback using the buttons in the top left corner of the Timeline View window as you would with an audio player.
+The \{Link\} button at the bottom left of the Timeline View window links or unlinks the timeline with the timecode source. Especially with external timecode, it's useful when recording and editing to be able to control the timecode yourself rather than having to continually ask the video guys to rewind the source. So when this button is set to unlinked, you can control the timeline playback using the buttons in the top left corner of the Timeline View window as you would with an audio player.
 
 - If you are using Internal Timecode or Winamp as a timecode source then these buttons will also operate the local Timecode source while linked (and will play/pause Winamp if that is the timecode source).
 
