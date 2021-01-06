@@ -21,24 +21,24 @@ This is how you program a timeline using Live Record, from playbacks which you h
 
 2. Press \<Record\>, \[Timeline\], then the **Select button** of the fader where you want to store the timeline. The Timeline View window will automatically open.
 
-3. Press the \{O\} (record) button in the top left of the Timeline View window. 
+3. Press the \{Record\} button in the top left of the Timeline View window.
 
-4. Select which track on the timeline you want to record onto using the \[Track\] softkey or tap on the flashing dotted area of the track you want to use. 
+4. Select which track on the timeline you want to record onto using the \[Track\] softkey or tap on the flashing dotted area of the track you want to use.
 You can add triggers to an existing track or create a new track by tapping on the blank area at the bottom.
 
     ![Timeline quick record dotted tracks](/docs/images/Timeline-Quickrecord-Dotted.png)
 
 5. Tap again on the track to start recording (or press the \[Start Live Record\] softkey). The workspaces will be outlined in red but recording will not begin until the timecode is started.
 
-6. For internal timecode source, press the \{>\} (play) button in the top left of the timeline window to start the timecode running. If you are using an external timecode source, start it.
+6. For internal timecode source, press the \{Play\}  button in the top left of the timeline window to start the timecode running. If you are using an external timecode source, start it.
 
 7. Now when you make any of the above trigger actions on the console, you will see a trigger recording appear on the timeline. The time range you have recorded is highlighted in red on the timeline view.
 
-8. When you have finished recording press the \{O\} (record) button again and stop the timecode.
+8. When you have finished recording press the \{Record\} button again and stop the timecode.
 
 You should now see all the triggers you have created laid out on the timeline.
 
-- When using internal timecode, pressing \{O\} (record) then \{>\} (play) will automatically start Live Recording.
+- When using internal timecode, pressing \{Record\}  then \{Play\} will automatically start Live Recording.
 
 - While you are in Live Record, the console will follow the Timeline Release settings as you've programmed them in the [Timeline Options - Release tab](../timelines/timeline-options.md#release-tab), which may make playbacks behave differently to how they are programmed. A warning is displayed in the system prompt area to show you what release settings are in effect.
 
@@ -80,7 +80,7 @@ If you are programming a show where you have been given a list of timecodes for 
     - Use the current Live Time (blue cursor position) using the \[Reference at Live Time\] softkey.
     - Tap on the Timeline View on the screen at the place where you want the trigger (you can adjust this later).
 
-6. Repeat from Step 2 to add more triggers. 
+6. Repeat from Step 2 to add more triggers.
 
 
 - The [Table View](../timelines/running-and-editing-timelines.md#table-view) can be easier to work with than the graphical timeline when entering timecodes manually as it lets you see
@@ -91,13 +91,3 @@ the numbers you have entered.
 Using the context menu option \{Import Markers\} you can import markers from an audio editor. This can help you position triggers when programming to a track.
 
 - When creating the exported markers file, ensure the audio editor is set to export Hours:Minutes:Seconds:Frames and not beats or measures.
-
-
-
-
-
-
-
-
-
-

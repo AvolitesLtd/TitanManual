@@ -7,12 +7,12 @@ sidebar_label: Timelines introduction
 Timelines allow you to create a precisely timed light show which you can either
 run from the console's internal timer or synchronise to an external timecode
 source. This can be useful for an opening sequence for a corporate
-event, a complex song in a show where the song is pre-recorded or run to 
+event, a complex song in a show where the song is pre-recorded or run to
 a click track or timecode, or a multimedia event run to a playback track. You
 can also use it to create [complicated one-shot effects](./timelines/timeline-options.md#fader-tab) for busking.
 
-> You can also create timed shows by creating timecoded cues in 
-[cue-lists](./cue-lists/cue-list-timing.md#running-a-cue-list-to-timecode), but Timeline 
+> You can also create timed shows by creating timecoded cues in
+[cue-lists](./cue-lists/cue-list-timing.md#running-a-cue-list-to-timecode), but Timeline
 recording allows much easier creation and editing of a timed show.
 
 Timelines can be built either from cues or chases you have already recorded, or by creating
@@ -21,8 +21,8 @@ or by adding cues manually at specific times. You can think of a timeline as an 
 system to push the faders and buttons on the console. The actions recorded in a timeline
 are called **triggers**.
 
-To show the Timeline View window for a playback containing a timeline, touch the playback 
-information area relating to the fader or press \<Open/View\> then the **select button** 
+To show the Timeline View window for a playback containing a timeline, touch the playback
+information area relating to the fader or press \<Open/View\> then the **select button**
 of the playback.
 
 ![Playback View of Timeline](/docs/images/Timeline-Window.png)
@@ -56,8 +56,8 @@ will take to reach the stage. Shapes will continue to run while the timeline is 
 Tracks
 ------------------
 
-The timeline is split into **Tracks** which can be used to organise triggers into different groups or sections. Each different trigger in the timeline gets its own row in the track. 
-- You can mute tracks to prevent them playing back using the \{Power\} button.
+The timeline is split into **Tracks** which can be used to organise triggers into different groups or sections. Each different trigger in the timeline gets its own row in the track.
+- You can mute tracks to prevent them playing back using the \{Mute\} button.
 - You can lock tracks to prevent accidental changes to sections you've finished using the \{Lock\} button.
 - Tracks can be collapsed so they take up less room on the screen, using the arrow button to the left of the track name.
 
@@ -71,17 +71,17 @@ To set up and enable each of the timecode sources as Internal, MIDI, Clock or SM
 Timecode linking and local timecode controls
 ------------------
 
-The \{Link\} button in the bottom left of the Timeline View window links or unlinks the timeline with the timecode source. Especially with external timecode, it's useful when recording and editing to be able to control the timecode yourself rather than having to continually ask the video guys to rewind the source. So when this button is set to unlinked, you can control the timeline playback using the buttons in the top left corner of the Timeline View window as you would with an audio player. 
+The \{Link\} button in the bottom left of the Timeline View window links or unlinks the timeline with the timecode source. Especially with external timecode, it's useful when recording and editing to be able to control the timecode yourself rather than having to continually ask the video guys to rewind the source. So when this button is set to unlinked, you can control the timeline playback using the buttons in the top left corner of the Timeline View window as you would with an audio player.
 
 - If you are using Internal Timecode or Winamp as a timecode source then these buttons will also operate the local Timecode source while linked (and will play/pause Winamp if that is the timecode source).
 
 ![Timeline transport controls](/docs/images/Timeline-Timecode-Transport.png)
 
-- \{ |< \} sets the live timecode back to zero.
-- \{ |> \} starts playing from the start timecode.
-- \{ > \} and \{ || \} are play / pause controls.
-- \{ Stop \} stops playing and sets the live timecode back to zero.
-- \{ Record \} enters live record mode but doesn't start timecode playback.
+- \{Rewind\} sets the live timecode back to zero.
+- \{Play from cursor\} starts playing from the start timecode.
+- \{Play\} and \{Pause\} are play / pause controls.
+- \{Stop\} stops playing and sets the live timecode back to zero.
+- \{Record\} enters live record mode but doesn't start timecode playback.
 
 When you are linked to a timecode (except Internal Timecode and Winamp), the first four buttons are replaced by the timecode source name and only the Record button is shown.
 
@@ -115,7 +115,7 @@ If any triggers are selected, the wheels control Time, Level and Fade of the sel
 Cursor
 -----------------
 
-The grey user cursor on the Timeline View sets the entry position for new triggers. It can also be used as a "play head" to 
+The grey user cursor on the Timeline View sets the entry position for new triggers. It can also be used as a "play head" to
 manually move the play position along the timeline while testing. You can position the cursor by tapping the screen in the ruler
 area at the top of the Timeline View.
 
@@ -124,9 +124,9 @@ The \{Select Cursor\} context menu option sets Wheel A to control the cursor pos
 Selection tool types
 ------------------
 
-The \{Arrow\} and \{Hand\} buttons let you choose different selection tools for editing.
-- \{Arrow\} is for marquee editing, where you select items by drawing a marquee selection box around them (or direct clicking).
-- \{Hand\} allows you to drag the timeline left and right or select by direct clicking.
+The \{Select\} and \{Pan\} buttons let you choose different selection tools for editing.
+- \{Select\} is for marquee editing, where you select items by drawing a marquee selection box around them (or direct clicking).
+- \{Pan\} allows you to drag the timeline left and right or select by direct clicking.
 
 You can also select the tool using the \{Tool Pan\}/\{Tool Select\} context menu button.
 

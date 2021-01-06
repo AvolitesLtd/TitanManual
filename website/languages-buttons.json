@@ -44,5 +44,55 @@
       "en": "cog",
       "de": "zahnrad"
     }
+  },
+  "key-with-icon record": {
+    "lang": {
+      "en": "record"
+    }
+  },
+  "key-with-icon play": {
+    "lang": {
+      "en": "play"
+    }
+  },
+  "key-with-icon pause": {
+    "lang": {
+      "en": "pause"
+    }
+  },
+  "custom icon-play-from-cursor": {
+    "lang": {
+      "en": "play from cursor"
+    }
+  },
+  "key-with-icon rewind": {
+    "lang": {
+      "en": "rewind"
+    }
+  },
+  "key-with-icon stop": {
+    "lang": {
+      "en": "stop"
+    }
+  },
+  "key-with-icon select": {
+    "lang": {
+      "en": "select"
+    }
+  },
+  "key-with-icon pan": {
+    "lang": {
+      "en": "pan"
+    }
+  },
+  "key-with-icon lock": {
+    "lang": {
+      "en": "lock"
+    }
+  },
+  "key-with-icon mute": {
+    "lang": {
+      "en": "mute"
+    }
   }
 }
