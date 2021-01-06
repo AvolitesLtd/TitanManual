@@ -60,9 +60,9 @@ If nothing is selected, the right arrow will select the first trigger on the tra
 
 When you have one or more trigger points selected, the wheels control the timecode time, target level and fade time of those triggers (some types of trigger do not have all these parameters).
 
-- Wheel A sets the timecode time.
-- Wheel B sets the target level.
-- Wheel C sets the fade time.
+- Wheel A sets the timecode time
+- Wheel B sets the target level
+- Wheel C sets the fade time
 
 You can change multiple triggers at the same time by selecting them all and using the wheels.
 
@@ -111,10 +111,10 @@ In addition you can set different colours for the playback actions within each t
 
 Using the context menu option \{Snap Options\} you can configure whether new triggers will
 snap to existing objects when you enter them by clicking on the Timeline View.
-The snap options are
+The snap options are:
 - Snap To Triggers
 - Snap To Markers
-- Snap To Cursor.
+- Snap To Cursor
 
 
 ### Collapsing track view

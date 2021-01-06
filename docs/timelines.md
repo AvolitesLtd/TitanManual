@@ -42,7 +42,7 @@ Set Level           | Fades up a playback to a set level over a time. This has t
 Go to cue           | Go to a cue in a cue list. You can either specify a cue number or just record a *Go* trigger to run the next cue. The cue will follow the fade times programmed in the cue list.
 Flash               | Flash a playback (see [Flash and Swop](./running-the-show/playback-controls.md#flash-and-swop-buttons))
 Timed Flash         | Flash a playback with programmed fade times
-Timed Flash and Go  | Timed flash with Go, for a cue list
+Timed Flash and Go  | Timed flash followed by Go, for a cue list
 Swop                | Swop a playback (see [Flash and Swop](./running-the-show/playback-controls.md#flash-and-swop-buttons))
 Preload             | Preload the LTP values of a playback over a number of seconds (see [Preload](./running-the-show/playback-controls.md#flash-and-swop-buttons))
 Marker              | Mark a point in the timecode for information
@@ -88,7 +88,7 @@ When you are linked to a timecode (except Internal Timecode and Winamp), the fir
 
 ![Timeline external timecode controls](/docs/images/Timeline-Timecode-ExternalTransport.png)
 
-If the timecode source is disabled in the **Timecode** menu, the time is shown in red.
+If timecode is disabled in the **Timecode** menu or the Timecode windows, the time is shown in red.
 
 If the timecode time is within the [start and end times](./timelines/timeline-options#times-tab) but the timeline is not active, the time is shown in orange.
 
