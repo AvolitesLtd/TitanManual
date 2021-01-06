@@ -38,7 +38,7 @@ Option              | Action
 Fader Raised Action | **No Action**: The internal timecode source is not changed.<br>Play: The internal timecode source is started.
 Fader Zero Action   | **No Action**: The internal timecode source is not changed.<br>Stop: The internal timecode source is stopped. <br>Pause: The internal timecode source is paused at the current time.
 
-> This option is useful for creating a complicated one-shot effect for busking. Create the effect as a timeline using internal timecode and set these options to **Play**/**Stop** - you can fire your effect just by raising the fader and when you lower the fader to zero the effect will reset.
+> This option is useful for creating a complicated one-shot effect for busking. Create the effect as a timeline using internal timecode and set these options to **Play**/**Stop** - you can fire your effect just by raising the fader and when you lower the fader to zero the effect will reset. Timecode must also be unlinked to create a one-shot effect.
 
 --- 
 
@@ -65,7 +65,7 @@ Timeline-Global Release Time | Sets the Global Release Time for playbacks trigge
 
 Option              | Action
 --------------------|---
-Autoload In Range | Off: Timeline must be fired manually. <br>**On:** Timeline will be fired automatically when timecode comes within the Start/End time range.
+Activate In Range | Off: Timeline must be fired manually. <br>**On:** Timeline will be fired automatically when timecode comes within the Start/End time range.
 Kill At Zero | **Off:** Timeline will remain active when the timeline fader is zeroed. <br>On: Timeline will be killed when the timeline fader is zeroed. 
 Kill Out Of Range | Off: Timeline will remain active when the timecode goes outside the Start/End time range. <br>**On:** Timeline will be killed when the timecode goes outside the Start/End time range.
 Loop | **Off**: Internal timecode source does not loop when it reaches End Time<br>On: Internal timecode source will loop back to Start Time when it reaches End Time.

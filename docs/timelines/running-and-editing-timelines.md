@@ -8,13 +8,13 @@ sidebar_label: Running and Editing Timelines
 Running a timeline to timecode
 ------------------
 
-The HTP (intensity) of fixtures in the timeline is controlled by the fader level of the handle. The console will automatically fire the timeline playback to full when timecode is received within the range of the timeline settings (you can turn this off using the option [Autoload in Range](../timelines/timeline-options.md#timecode-tab)).
+The HTP (intensity) of fixtures in the timeline is controlled by the fader level of the handle. The console will automatically fire the timeline playback to full when timecode is received within the range of the timeline settings (you can turn this off using the option [Activate in Range](../timelines/timeline-options.md#timecode-tab)).
 
 1.  Ensure the **timecode link** button (bottom left of the timeline view) is set to **Linked**.
 
 2.  Start the timecode source. (You will need to push up the timeline fader for internal timecode or if you have disabled the autoload option described above).
 
-3.  The cues in the timeline will run when the timecode reaches their programmed times.
+3.  The triggers in the timeline will fire when the timecode reaches their programmed times.
 
 - On consoles with motorised faders and on virtual faders, the faders will move as programmed.
 
@@ -58,11 +58,11 @@ If nothing is selected, the right arrow will select the first trigger on the tra
 
 ### Using the wheels to edit triggers
 
-When you have one or more trigger points selected, the wheels control the time, level and fade of those triggers (some types of trigger do not have all these parameters).
+When you have one or more trigger points selected, the wheels control the timecode time, target level and fade time of those triggers (some types of trigger do not have all these parameters).
 
-- Wheel A sets the time.
-- Wheel B sets the level.
-- Wheel C sets the fade.
+- Wheel A sets the timecode time.
+- Wheel B sets the target level.
+- Wheel C sets the fade time.
 
 You can change multiple triggers at the same time by selecting them all and using the wheels.
 

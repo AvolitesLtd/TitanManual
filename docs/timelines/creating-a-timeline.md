@@ -17,14 +17,14 @@ Live record is useful to capture a busked show, where you are operating the play
 
 This is how you program a timeline using Live Record, from playbacks which you have previously programmed:
 
-1. If you want to use internal timecode for recording rather than feeding in a timecode source, ensure the "Timecode Disconnect" \{Link\} button is selected to show a broken link.
+1. If you have external timecode source selected but want to use internal timecode for recording, tap the "Timecode Disconnect" \{Link\} button so it shows a broken link.
 
 2. Press \<Record\>, \[Timeline\], then the **Select button** of the fader where you want to store the timeline. The Timeline View window will automatically open.
 
 3. Press the \{Record\} button in the top left of the Timeline View window.
 
 4. Select which track on the timeline you want to record onto using the \[Track\] softkey or tap on the flashing dotted area of the track you want to use.
-You can add triggers to an existing track or create a new track by tapping on the blank area at the bottom.
+You can add triggers to an existing track or create a new track by tapping on the blank area at the bottom. Or if you just press \{Record\} again then recording will start using the current track selection.
 
     ![Timeline quick record dotted tracks](/docs/images/Timeline-Quickrecord-Dotted.png)
 
@@ -40,7 +40,7 @@ You should now see all the triggers you have created laid out on the timeline.
 
 - When using internal timecode, pressing \{Record\}  then \{Play\} will automatically start Live Recording.
 
-- While you are in Live Record, the console will follow the Timeline Release settings as you've programmed them in the [Timeline Options - Release tab](../timelines/timeline-options.md#release-tab), which may make playbacks behave differently to how they are programmed. A warning is displayed in the system prompt area to show you what release settings are in effect.
+- While you are in Live Record, the console will follow the Timeline Release settings as you've programmed them in the [Timeline Options - Release tab](../timelines/timeline-options.md#release-tab), which may make playbacks behave differently to how they are programmed. A warning is displayed in the system prompt area to show you what release settings are in effect. This is because the Global Release Mask and and Global Release Time are per-user settings, and Timelines execute as their own "user", so have their own settings.
 
 ### Auto Simplify
 
@@ -73,7 +73,7 @@ If you are programming a show where you have been given a list of timecodes for 
     - **Set Level** inserts a trigger to set an existing playback to a specified level.
     - See the [Triggers](../timelines.md#triggers) section for details of the other types of trigger.
 
-4. If you are using an existing playback, press the **Select** button of the playback you want to fire. (You can skip step 3 and just select a playback straight after pressing the \{+\} button, Titan will behave as if you pressed **Existing Playback**.)
+4. If you are using an existing playback, press the **Select** button of the playback you want to fire. (You can skip step 3 and just select a playback straight after pressing the \{+\} button - Titan will behave as if you pressed **Existing Playback**.)
 
 5. Set the time you want the trigger to fire at. There are several ways to do this:
     - Type in the time using the \[Reference at hh:mm:ss.fff \] softkey and press \<Enter\>. Use the \<.\> button as a separator, for example typing "1 . 05" will enter 00:01:05:000 or "2 . 2 . 20" will enter 02:02:20.00.

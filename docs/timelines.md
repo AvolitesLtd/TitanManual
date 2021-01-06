@@ -33,18 +33,18 @@ To program a timeline you record actions at specific times
 which can then be replayed by the console with the same timing. These
 are called **Triggers**.
 
-The following types of trigger can be recorded. You can record these actions in real time using **Live Record**
+The following types of trigger can be created. You can record these actions in real time using **Live Record**
 or enter them as manual triggers at specified times using the touch screen.
 
 Trigger             | Action
 --------------------|----------
-Set Level           | Set playback to a level over a fade time. This is like pushing up the fader over 2 seconds for example.
-Go to cue           | Go to a cue in a cue list. You can either specify a cue number or just record a *Go* trigger to run the next cue, which will follow the fade times programmed in the cue list.
-Flash               | Flash a playback
+Set Level           | Fades up a playback to a set level over a time. This has the same effect as you pushing up a fader. If the playback has fade times programmed these also run.
+Go to cue           | Go to a cue in a cue list. You can either specify a cue number or just record a *Go* trigger to run the next cue. The cue will follow the fade times programmed in the cue list.
+Flash               | Flash a playback (see [Flash and Swop](./running-the-show/playback-controls.md#flash-and-swop-buttons))
 Timed Flash         | Flash a playback with programmed fade times
 Timed Flash and Go  | Timed flash with Go, for a cue list
-Swop                | Swop a playback (cancels all other playbacks while active)
-Preload             | Preload the LTP values of a playback over a number of seconds
+Swop                | Swop a playback (see [Flash and Swop](./running-the-show/playback-controls.md#flash-and-swop-buttons))
+Preload             | Preload the LTP values of a playback over a number of seconds (see [Preload](./running-the-show/playback-controls.md#flash-and-swop-buttons))
 Marker              | Mark a point in the timecode for information
 Wait for go         | Pause the timeline until you press Go to resume (only on internal timecode)
 
@@ -70,14 +70,16 @@ To set up and enable each of the timecode sources as Internal, MIDI, Clock or SM
 Timecode linking and local timecode controls
 ------------------
 
-The \{Link\} button at the bottom left of the Timeline View window links or unlinks the timeline with the timecode source. Especially with external timecode, it's useful when recording and editing to be able to control the timecode yourself rather than having to continually ask the video guys to rewind the source. So when this button is set to unlinked, you can control the timeline playback using the buttons in the top left corner of the Timeline View window as you would with an audio player.
+The \{Link\} button at the bottom left of the Timeline View window can be used to temporarily unlink the timeline from its timecode source. 
+
+When using external timecode, often the timecode source will be sent to you from elsewhere in the show and will not be under your control - in this situation it's useful to be able to temporarily control the timecode yourself when recording and editing. When this button is set to unlinked, you can control the timeline playback using the transport buttons in the top left corner of the Timeline View window as you would with an audio player.
 
 - If you are using Internal Timecode or Winamp as a timecode source then these buttons will also operate the local Timecode source while linked (and will play/pause Winamp if that is the timecode source).
 
 ![Timeline transport controls](/docs/images/Timeline-Timecode-Transport.png)
 
 - \{Rewind\} sets the live timecode back to zero.
-- \{Play from cursor\} starts playing from the start timecode.
+- \{Play from cursor\} starts playing from the cursor (or the start time if the cursor is not within the start/end times).
 - \{Play\} and \{Pause\} are play / pause controls.
 - \{Stop\} stops playing and sets the live timecode back to zero.
 - \{Record\} enters live record mode but doesn't start timecode playback.
@@ -88,15 +90,17 @@ When you are linked to a timecode (except Internal Timecode and Winamp), the fir
 
 If the timecode source is disabled in the **Timecode** menu, the time is shown in red.
 
+If the timecode time is within the [start and end times](./timelines/timeline-options#times-tab) but the timeline is not active, the time is shown in orange.
+
 ![Timeline disabled](/docs/images/Timeline-Timecode-Disabled.png)
 
-- If your timecode source starts at a big number, you can set a time offset to allow you to use zero-referenced times on your timeline.
+- If your timecode source starts at a big number, you can set a time offset to allow you to use zero-referenced times on your timeline. You can also add or subtract a few frames for synchronisation if the timecode source is slightly off.
 See [Time Offset](./timelines/timeline-options.md#time-options).
 
 The overview bar
 ------------------
 
-The overview bar at the bottom of the screen gives you a view of the whole timeline from start to end. Triggers and markers are shown in miniature on the bar. You can make the main view zoom in and out by dragging the end markers of the bar to enclose a particular section. It's a good way of moving quickly around the timeline.
+The overview bar at the bottom of the screen gives you a view of the whole timeline from start to end. Triggers and markers are shown in miniature on the bar. You can make the main view zoom in and out by dragging the end markers of the bar to enclose a particular section. It's a good way of moving quickly around the timeline. See [Using The Overview Bar](./timelines/running-and-editing-timelines.md#using-the-overview-bar) for more details.
 
 ![Timeline overview bar](/docs/images/Timeline-Overview-Bar-Cropped.png)
 
@@ -114,11 +118,11 @@ If any triggers are selected, the wheels control Time, Level and Fade of the sel
 Cursor
 -----------------
 
-The grey user cursor on the Timeline View sets the entry position for new triggers. It can also be used as a "play head" to
+The grey cursor on the Timeline View sets the entry position for new triggers. It can also be used as a "play head" to
 manually move the play position along the timeline while testing. You can position the cursor by tapping the screen in the ruler
 area at the top of the Timeline View.
 
-The \{Select Cursor\} context menu option sets Wheel A to control the cursor position.
+Tapping on the arrow at the top of the cursor, or using the \{Select Cursor\} context menu option sets **Wheel A** to control the cursor position.
 
 Selection tool types
 ------------------
