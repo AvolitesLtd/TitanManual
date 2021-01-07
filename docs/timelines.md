@@ -58,7 +58,7 @@ Tracks
 The timeline is split into **Tracks** which can be used to organise triggers into different groups or sections. Each different playback in the timeline gets its own row in the track.
 - You can mute tracks to prevent them playing back using the \{Mute\} button.
 - You can lock tracks to prevent accidental changes to sections you've finished using the \{Lock\} button.
-- Tracks can be collapsed so they take up less room on the screen, using the arrow button to the left of the track name. See [more details](../timelines/running-and-editing-timelines.md#collapsing-track-view) here.
+- Tracks can be collapsed so they take up less room on the screen, using the arrow button to the left of the track name. See [more details](./timelines/running-and-editing-timelines.md#collapsing-track-view) here.
 
 Selecting timecode source
 ------------------
