@@ -19,7 +19,7 @@ This is how you program a timeline using Live Record, from playbacks which you h
 
 1. If you have external timecode source selected but want to use internal timecode for recording, tap the "Timecode Disconnect" \{Link\} button so it shows a broken link.
 
-2. Press \<Record\>, \[Timeline\], then the **Select button** of the fader where you want to store the timeline. The Timeline View window will automatically open.
+2. Press \<Record\>, \[Timeline\], then the **Select** of the blank fader where you want to store the timeline. The Timeline View window will automatically open.
 
 3. Press the \{Record\} button in the top left of the Timeline View window.
 
@@ -38,7 +38,11 @@ You can add triggers to an existing track or create a new track by tapping on th
 
 You should now see all the triggers you have created laid out on the timeline.
 
-- When using internal timecode, pressing \{Record\}  then \{Play\} will automatically start Live Recording.
+- To add more triggers to an existing timeline you can repeat the live record by pressing \<Record\> then the **Select** button of the timeline fader.
+
+- When using internal timecode, pressing \{Record\} then \{Play\} will automatically start Live Recording.
+
+- To quickly add live record triggers to a particular track you can press \{Record\} then tap on the track you want to use in the Timeline view.
 
 - While you are in Live Record, the console will follow the Timeline Release settings as you've programmed them in the [Timeline Options - Release tab](../timelines/timeline-options.md#release-tab), which may make playbacks behave differently to how they are programmed. A warning is displayed in the system prompt area to show you what release settings are in effect. This is because the Global Release Mask and and Global Release Time are per-user settings, and Timelines execute as their own "user", so have their own settings.
 
@@ -54,7 +58,12 @@ The same trigger after Auto Simplify:
 
 ![Timeline after auto simplify](/docs/images/Timeline-Live-Record-Simplified.png)
 
-- When you select a trigger (by clicking on it), there are also context menu options in the \{Tools\} context menu to \{Simplify Selected Triggers\} and \{Smooth Selected Triggers\}. The Smooth option will smoothly fade between selected triggers using the fade time of the following trigger.
+- You can simplify triggers after recording by selecting the triggers (draw a marquee box over them) then using the \{Tools\} - \{Simplify Selected Triggers\} context menu option. 
+
+- You can also make a smooth fade between adjacent triggers by selecting the triggers and using the \{Tools\} - \{Smooth Selected Triggers\} context menu option. The picture below shows triggers before and after the smooth function has been used.
+
+![Timeline fade smoothing](/docs/images/Timeline-Smooth.png)
+
 
 Adding manual triggers
 -----------------
@@ -82,12 +91,28 @@ If you are programming a show where you have been given a list of timecodes for 
 
 6. Repeat from Step 2 to add more triggers.
 
+- You can directly add a playback by pressing \<Copy\>, the **select** button of the playback, then tapping on the Timeline track where you want the trigger to be.
 
 - The [Table View](../timelines/running-and-editing-timelines.md#table-view) can be easier to work with than the graphical timeline when entering timecodes manually as it lets you see
 the numbers you have entered.
 
 ### Importing markers
 
-Using the context menu option \{Import Markers\} you can import markers from an audio editor. This can help you position triggers when programming to a track.
+Using the context menu option \{Tools\} - \{Import Markers\} you can import markers from an audio editor. This can help you position triggers when programming to a track.
 
 - When creating the exported markers file, ensure the audio editor is set to export Hours:Minutes:Seconds:Frames and not beats or measures.
+
+This is an example of how to load markers from the audio editor software **Reaper**:
+
+
+1.   In Reaper, set the timeline to be displayed in HH:MM:SS:FF.
+
+2.   Load the audio track and create your markers as needed.
+
+3.   Open Region/Marker Manager.
+
+4.   Right-click in Region/Marker manager and select Export Project Regions/Markers, save as CSV.
+
+5.   Copy the CSV file to a USB stick and load the file using the Titan \{Import Markers\} context menu option (On Titan PC Suite copy the file to Documents\Titan folder).
+
+

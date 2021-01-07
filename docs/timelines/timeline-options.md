@@ -37,6 +37,7 @@ Option              | Action
 --------------------|---
 Fader Raised Action | **No Action**: The internal timecode source is not changed.<br>Play: The internal timecode source is started.
 Fader Zero Action   | **No Action**: The internal timecode source is not changed.<br>Stop: The internal timecode source is stopped. <br>Pause: The internal timecode source is paused at the current time.
+Kill At Zero | **Off:** Timeline will remain active when the timeline fader is zeroed. <br>On: Timeline will be killed when the timeline fader is zeroed. 
 
 > This option is useful for creating a complicated one-shot effect for busking. Create the effect as a timeline using internal timecode and set these options to **Play**/**Stop** - you can fire your effect just by raising the fader and when you lower the fader to zero the effect will reset. Timecode must also be unlinked to create a one-shot effect.
 
@@ -59,20 +60,30 @@ Timeline-Global Release Time | Sets the Global Release Time for playbacks trigge
 
 --- 
 
+## Timeline Tab
+
+![Timeline Options: Timeline](/docs/images/Timeline-Options-Timeline.png)
+
+Option              | Action
+--------------------|---
+Activate In Range | Off: Timeline must be fired manually. <br>**On:** Timeline will be fired automatically when timecode comes within the Start/End time range.
+Kill Out Of Range | Off: Timeline will remain active when the timecode goes outside the Start/End time range. <br>**On:** Timeline will be killed when the timecode goes outside the Start/End time range.
+Loop | **Off**: Internal timecode source does not loop when it reaches End Time<br>On: Internal timecode source will loop back to Start Time when it reaches End Time.
+
+- The Loop option only operates when timecode is set to an internal timecode source.
+
+--- 
+
+
 ## Timecode Tab
 
 ![Timeline Options: Timecode](/docs/images/Timeline-Options-Timecode.png)
 
 Option              | Action
 --------------------|---
-Activate In Range | Off: Timeline must be fired manually. <br>**On:** Timeline will be fired automatically when timecode comes within the Start/End time range.
-Kill At Zero | **Off:** Timeline will remain active when the timeline fader is zeroed. <br>On: Timeline will be killed when the timeline fader is zeroed. 
-Kill Out Of Range | Off: Timeline will remain active when the timecode goes outside the Start/End time range. <br>**On:** Timeline will be killed when the timecode goes outside the Start/End time range.
-Loop | **Off**: Internal timecode source does not loop when it reaches End Time<br>On: Internal timecode source will loop back to Start Time when it reaches End Time.
 Timecode Source | Sets the timecode source for the Timeline from 1-4 (see [Running a Cue List to Timecode](../cue-lists/cue-list-timing#running-a-cue-list-to-timecode))
 Timecode Source Unlinked | This is the same as the Link button in the timeline view - see [Local timecode controls](../timelines.md#local-timecode-controls)
 
-- The Loop option only operates when timecode is set to an internal timecode source.
 
 ---
 

@@ -89,7 +89,7 @@ You can also delete tracks or delete rows from tracks using this method.
 ### Setting track legends and halo colours on tracks
 
 To help you identify different tracks, you can set halo colours. This colour outlines the track and also sets the colours of the trigger blocks which makes them easier to see in the overview bar.
-In addition you can set different colours for the playback actions within each track as shown in Track 2 in the picture below.
+In addition you can set different halo colours for the each playback row within the track as shown in Track 2 in the picture below.
 
 ![Timeline halo](/docs/images/Timeline-Halo.png)
 
@@ -120,6 +120,8 @@ The snap options are:
 ### Collapsing track view
 
 If you have a lot of tracks, you can collapse them to a single line to show more tracks on the screen, by clicking the arrow button to the left of the track name.
+
+There are two levels of collapse, on the first click the arrow button moves to 45 degrees and non-overlapping triggers are combined into a single row. On the second click the arrow becomes horizontal and all of the triggers are combined into a single row.
 
 ### Table view
 

@@ -7,7 +7,7 @@ sidebar_label: Cues
 So you've set up a great look on the stage, and you want to save it to
 use in your show.
 
-There are four ways of saving looks on Titan.
+There are four ways of recording your lighting on Titan.
 
 **Cue:** This is a single look. It may contain movement in the form of
 shapes, and have fade in and fade out times.
@@ -18,7 +18,7 @@ individual effect.
 **Cue List:** This is a linked sequence of cues, usually used to store
 and replay an entire show or an element of a show from a "go" button.
 
-**Timeline:** This is a timed sequence of cues which would usually be used to 
+**Timeline:** This is a timed sequence of playbacks which would usually be used to 
 replay a complex cue sequence to a piece of recorded music or a timecoded show.
 
 [Chases](chases.md), [Cue Lists](cue-lists.md) and [Timelines](timelines.md) are 
