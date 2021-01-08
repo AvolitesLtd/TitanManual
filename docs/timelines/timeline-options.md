@@ -98,11 +98,8 @@ with the timecode source, you can set an offset to make the cues match up instea
 all the timings. You can also enter small offsets of a few frames if the lighting cues are not quite synchronised properly.
 
 1. In the Edit Times menu press \[Set Offset\].
-
 2. Using the \[Nudge Amount\] softkey enter a time amount to change the offset by.
-
 3. Press the \[Add\] or \[Subtract\] softkeys to change the current offset by the amount you set. 
-
 4. The current offset time is shown in the prompt area while you are setting it.
 
 Once an offset has been set it is shown below the main timecode display in the Timeline View. In the

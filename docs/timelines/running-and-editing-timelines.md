@@ -35,8 +35,8 @@ Timeline Editing
 ### Selecting triggers
 
 To edit a trigger, you need to select it. There are several different ways to do this.
--   Tap on a trigger block to select all the trigger points within the block. You will see selection 
-    handles appear.  Tap again on a selected trigger block to step through the
+-   Tap on a playback block to select all the trigger points within the block. You will see selection 
+    handles appear.  Tap again on a selected playback block to step through the
     trigger points within the block. 
 
 ![Timeline trigger handles](/docs/images/Timeline-Handles.png)
@@ -110,17 +110,12 @@ If a halo colour is set for a playback, that colour will be used in the Timeline
 ![Timeline halo](/docs/images/Timeline-Halo.png)
 
 1. Press \[Set Legend\] at the top level main menu.
-
 2. Tap on the Track legend or the playback row in the Timeline View.
-
 3. Change \[Legend\] to set the track legend or press \[Halo\].
-
 4. Select a halo colour from the colour picker.
 
 - You can remove a halo colour by pressing \[Remove Halo\] at step 4.
-
 - You can also set legends on markers using the \[Set Legend\] button.
-
 - You can set a halo colour for a **Wait for Go** trigger by tapping on it at step 2.
 
 ### Snap options
@@ -150,9 +145,7 @@ You can have the Table View and the Timeline View open at the same time.
 ![Timeline table view](/docs/images/Timeline-Table-View.png)
 
 - You can edit any of the settings, except the trigger Action type, by clicking on the grid and using the softkey options to change the settings.
-
 - You can add new triggers using the \{+\} button.
-
 - You can delete triggers by pressing \<Delete\> then the table row you want to delete.
 
 

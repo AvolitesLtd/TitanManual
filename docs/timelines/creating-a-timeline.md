@@ -48,7 +48,7 @@ You should now see all the triggers you have created laid out on the timeline.
 
 ### Auto Simplify
 
-Normally while you are recording, the \[Auto Simplify\] option is enabled. When you stop the recording, this will simplify your fader movements to a few trigger points with linear fades rather than a large number of points which are difficult to edit. If you really need to capture an exotic fader movement you can turn this option off, but to help keep your timeline easy to edit you should leave it on where you can.
+Normally while you are recording, the \[Auto Simplify\] softkey option is enabled. When you stop the recording, this will simplify your fader movements to a few trigger points with linear fades rather than a large number of points which are difficult to edit. If you really need to capture an exotic fader movement you can turn this option off, but to help keep your timeline easy to edit you should leave it on where you can.
 
 Trigger with multiple points during Live Record:
 
@@ -85,7 +85,7 @@ If you are programming a show where you have been given a list of timecodes for 
 4. If you are using an existing playback, press the **Select** button of the playback you want to fire. (You can skip step 3 and just select a playback straight after pressing the \{+\} button - Titan will behave as if you pressed **Existing Playback**.)
 
 5. Set the time you want the trigger to fire at. There are several ways to do this:
-    - Type in the time using the \[Reference at hh:mm:ss.fff \] softkey and press \<Enter\>. Use the \<.\> button as a separator, for example typing "1 . 05" will enter 00:01:05:000 or "2 . 2 . 20" will enter 02:02:20.00.
+    - Type in the time using the \[Reference at hh:mm:ss.fff \] softkey and press \<Enter\>. Use the \<.\> button as a separator, for example typing "1 . 05" will enter 00:01:05:000 or "2 . 2 . 20" will enter 02:02:20.00. You can also use the arrow buttons to move between fields in the time display.
     - Use the current Live Time (blue cursor position) using the \[Reference at Live Time\] softkey.
     - Tap on the Timeline View on the screen at the place where you want the trigger (you can adjust this later).
 
