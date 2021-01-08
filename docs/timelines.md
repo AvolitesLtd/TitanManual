@@ -42,15 +42,16 @@ Set Level           | Fades up a playback to a set level over a time. This has t
 Go to cue           | Go to a cue in a cue list. You can either specify a cue number or just record a *Go* trigger to run the next cue. The cue will follow the fade times programmed in the cue list.
 Flash               | Flash a playback (see [Flash and Swop](./running-the-show/playback-controls.md#flash-and-swop-buttons))
 Timed Flash         | Flash a playback with programmed fade times
-Timed Flash and Go  | Timed flash followed by Go, for a cue list
+Timed Flash and Go  | Timed flash followed by Go action, for a cue list
 Swop                | Swop a playback (see [Flash and Swop](./running-the-show/playback-controls.md#flash-and-swop-buttons))
 Preload             | Preload the LTP values of a playback over a number of seconds (see [Preload](./running-the-show/playback-controls.md#flash-and-swop-buttons))
 Marker              | Mark a point in the timecode for information
-Wait for go         | Pause the timeline until you press Go to resume (only on internal timecode)
+Wait for go         | Pause the timeline until you press \<Go\> to resume (only on internal timecode)
 
 - **Wait for go** triggers are useful when you have a timed sequence followed by an unknown delay, for
 example a win/walk-up sequence for an awards ceremony when you don't know how long the winner
-will take to reach the stage. Shapes will continue to run while the timeline is paused.
+will take to reach the stage. Shapes will continue to run while the timeline is paused. The timeline needs to be 
+[connected](./chases/chase-playback/#connecting-a-playback-for-control) for the \<Go\> button to work, if the timeline is not connected you can use the \{Play\} transport button to resume the timeline.
 
 Tracks
 ------------------

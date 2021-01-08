@@ -93,6 +93,8 @@ If you are programming a show where you have been given a list of timecodes for 
 
 - You can directly add a playback by pressing \<Copy\>, the **select** button of the playback, then tapping on the Timeline track where you want the trigger to be.
 
+- Existing Playbacks added to the timeline will be referenced (linked) copies of the playback. If you want to create a playback that you can edit separately, use the softkey option \[Create New Playbacks\] after you select the playback to be added.
+
 - The [Table View](../timelines/running-and-editing-timelines.md#table-view) can be easier to work with than the graphical timeline when entering timecodes manually as it lets you see
 the numbers you have entered.
 

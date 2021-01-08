@@ -12,7 +12,7 @@ The HTP (intensity) of fixtures in the timeline is controlled by the fader level
 
 1.  Ensure the **timecode link** button (bottom left of the timeline view) is set to **Linked**.
 
-2.  Start the timecode source. (You will need to push up the timeline fader for internal timecode or if you have disabled the autoload option described above).
+2.  Start the timecode source. (You will need to push up the timeline fader if you have disabled the **Activate in Range** option described above).
 
 3.  The triggers in the timeline will fire when the timecode reaches their programmed times.
 
@@ -80,16 +80,32 @@ The **Overview Bar** at the bottom of the Timeline View gives you a miniature vi
 
 - The current live time is shown in blue.
 
-### Deleting triggers
+### Copying and moving playbacks in a Timeline
 
-You can delete trigger blocks by pressing \<Delete\> then tapping on the block you want to delete, or drawing a marquee selection box over the triggers to be deleted.
+You can move playback blocks to a different time or a different track in the Timeline View:
+1. Press \<Move\>.
+2. Select the playback block(s) you want to move, by tapping on it or drawing a marquee selection box. 
+3. Tap in the Timeline View at the time and track where you want to move the selected playbacks - the relative timing of the triggers will be kept.
 
-You can also delete tracks or delete rows from tracks using this method.
+- You can move individual triggers within the same track by selecting them then using Wheel A to move them to the desired time.
+
+You can also copy playback blocks within the Timeline View. Copied playbacks will be a reference (linked copy) of the original, unless you change this using the softkey option \[Create New Playbacks\].
+1. Press \<Copy\>.
+2. Tap on the playback block to copy, or draw a marquee selection box over the playbacks to be copied
+3. Choose whether you want to have referenced/linked copies, using the softkey options \[Create New Playbacks\] and \[Use Referenced Playbacks\].
+4. Tap in the Timeline View at the time and track where you want to copy the selected playback(s). 
+
+### Deleting playbacks in a Timeline
+
+You can delete playback blocks by pressing \<Delete\> then tapping on the block you want to delete, or drawing a marquee selection box over the triggers to be deleted.
+
+You can also delete tracks or delete playback rows from tracks using the \<Delete\> button.
 
 ### Setting track legends and halo colours on tracks
 
 To help you identify different tracks, you can set halo colours. This colour outlines the track and also sets the colours of the trigger blocks which makes them easier to see in the overview bar.
-In addition you can set different halo colours for the each playback row within the track as shown in Track 2 in the picture below.
+
+If a halo colour is set for a playback, that colour will be used in the Timeline View as shown in Track 2 in the picture below. You can set the playback halo colour from the Timeline View by tapping on the playback row in step 2.
 
 ![Timeline halo](/docs/images/Timeline-Halo.png)
 
@@ -119,9 +135,11 @@ The snap options are:
 
 ### Collapsing track view
 
-If you have a lot of tracks, you can collapse them to a single line to show more tracks on the screen, by clicking the arrow button to the left of the track name.
+If you have a lot of tracks, you can collapse them to a smaller height to show more tracks on the screen, by clicking the arrow button to the left of the track name.
 
-There are two levels of collapse, on the first click the arrow button moves to 45 degrees and non-overlapping triggers are combined into a single row. On the second click the arrow becomes horizontal and all of the triggers are combined into a single row.
+There are two levels of collapse: 
+- On the first click the arrow button moves to 45 degrees, any triggers which don't overlap with another playback are shown on a single row. Triggers which would overlap are shown in separate rows. This lets you see more tracks but is still easy to edit.
+- On the second click the arrow becomes horizontal and all of the triggers are combined into a single row whether they overlap or not.
 
 ### Table view
 
