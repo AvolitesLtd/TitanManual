@@ -102,8 +102,8 @@ Attribute Editor for Controlling Ai Layers
 
 Once you have selected one or more Ai layers to control from the [Synergy
 Fixtures window](setting-up.md#synergy-fixtures-window), the Attribute Editor lets you play back and manipulate
-media on those layers (you can also use the [wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md) and [Attribute Bank
-buttons](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-wheel-display)).
+media on those layers (you can also use the [wheels](../controlling-fixtures/changing-fixture-attributes.md) and [Attribute Bank
+buttons](../controlling-fixtures/changing-fixture-attributes.md#attribute-wheel-display)).
 
 > The most important attributes are **Intensity**, which set the output level
 of each layer, and **Media Selection** which lets you choose the Bank and
