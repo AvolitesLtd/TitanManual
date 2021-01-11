@@ -128,7 +128,7 @@ and then selecting it from the window select buttons.
 
 You use these buttons to select one or more layers for control, just as
 you would select lighting fixtures to control. Once selected, use the
-[Attribute Editor](operating-synergy.md#attribute-editor-for-controlling-ai-layers) or [wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels) to control the media playback and effects on
+[Attribute Editor](operating-synergy.md#attribute-editor-for-controlling-ai-layers) or [wheels](../controlling-fixtures/changing-fixture-attributes.md#changing-attributes-using-the-wheels) to control the media playback and effects on
 the Ai server. You can then [store palettes](../palettes/creating-palettes.md) and [playbacks](../cues/creating-a-cue.md#creating-a-cue) as with any
 other lighting fixture. This is described in the next section, [Operating Synergy](operating-synergy.md).
 
