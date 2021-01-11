@@ -25,6 +25,17 @@
   }
 }
 
+  @font-face {
+    font-family: 'Avolites Icons';
+    font-style: normal;
+    font-weight: 900;
+    font-display: $fa-font-display;
+    src: url('#{$avolites-font-path}/icons.eot');
+    src: url('#{$avolites-font-path}/icons.woff2') format('woff2'),
+    url('#{$avolites-font-path}/icons.woff') format('woff'),
+    url('#{$avolites-font-path}/icons.ttf') format('truetype')
+  }
+
 .softkey {
   border-color: darken($colorBlue,30%);
   background: lighten($colorBlue,28%);
@@ -37,6 +48,20 @@
   background: linear-gradient(darken($colorGrey,18%),darken($colorGrey,25%));
   color: white;
   border-radius: 5px;
+
+  &.custom:before {
+    @extend %fa-icon;
+    @extend .fas;
+    font-family: 'Avolites Icons';
+    margin-right: 5px;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
   &.plus {
     font-weight: bold;
@@ -79,6 +104,42 @@
 
   &.cog:before {
     content: fa-content($fa-var-cog);
+  }
+
+  &.record:before {
+    content: fa-content($fa-var-circle);
+  }
+
+  &.play:before {
+    content: fa-content($fa-var-play);
+  }
+
+  &.pause:before {
+    content: fa-content($fa-var-pause);
+  }
+
+  &.rewind:before {
+    content: fa-content($fa-var-step-backward);
+  }
+
+  &.stop:before {
+    content: fa-content($fa-var-stop);
+  }
+
+  &.select:before {
+    content: fa-content($fa-var-mouse-pointer);
+  }
+
+  &.pan:before {
+    content: fa-content($fa-var-hand-paper);
+  }
+
+  &.lock:before {
+    content: fa-content($fa-var-lock);
+  }
+
+  &.mute:before {
+    content: fa-content($fa-var-power-off);
   }
 
   &.lines:before {

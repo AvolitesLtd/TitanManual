@@ -401,6 +401,22 @@
         "title": "User Settings",
         "sidebar_label": "User Settings"
       },
+      "timelines": {
+        "title": "Timelines introduction",
+        "sidebar_label": "Timelines introduction"
+      },
+      "timelines/creating-a-timeline": {
+        "title": "Creating a Timeline",
+        "sidebar_label": "Creating a Timeline"
+      },
+      "timelines/running-and-editing-timelines": {
+        "title": "Running and Editing Timelines",
+        "sidebar_label": "Running and Editing Timelines"
+      },
+      "timelines/timeline-options": {
+        "title": "Timeline Options",
+        "sidebar_label": "Timeline options"
+      },
       "titan-basics": {
         "title": "Connecting up and Titan basics",
         "sidebar_label": "Connecting up and Titan basics"

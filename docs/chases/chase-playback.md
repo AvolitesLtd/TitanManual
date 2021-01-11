@@ -31,34 +31,34 @@ the wheels. Press \<Go\> to resume playback.
 There are [many options](chase-options.md) you can set to determine the way the chase runs
 and these are described in the rest of this chapter.
 
-Connecting a Chase for Control
+Connecting a Playback for Control
 ------------------------------
 
-When you fire a chase, the wheels and \<Stop\>/\<Go\> buttons are automatically
-allocated to control the speed and crossfade of the chase - this is
-called **connecting** the chase. If you have more than one chase running,
-you can choose which chase is connected to the controls using the
+When you fire a chase or a cue list, the wheels and \<Stop\>/\<Go\> buttons are automatically
+allocated to control the playback - this is
+called **connecting** the playback. For a chase, the wheels control Speed and Crossfade. If you have more than one playback running,
+you can choose which one is connected to the controls using the
 \<Connect/Cue\> button (this button may also be labelled \<Connect\> or \<Cue\> depending on the console).
 
--   Connect a different chase to the controls by pressing \<Connect/Cue\>
-    then the Select button of the chase you want to control.
+-   Connect a different playback to the controls by pressing \<Connect/Cue\>
+    then the Select button of the playback you want to control.
 
--   Disconnect a chase from the controls by double pressing \<Connect/Cue\>.
+-   Disconnect a playback from the controls by double pressing \<Connect/Cue\>.
 
 -   You can turn off the **"Auto Connect"** option in the
     [User Settings > Wheels menu](../system-settings/user-settings.md#auto-connect)
-    if you don't want to connect to a chase when
-    you fire it. You will have to use the \<Connect/Cue\> button to control
-    the chase if you do this.
+    if you don't want to connect to a playback when
+    you fire it. You will have to use the \<Connect/Cue\> button to manually
+    connect the playback for control if you do this.
 
 -   There is a further option "Auto View on Connect" in the
     [User Settings > Wheels menu](../system-settings/user-settings.md#auto-view-on-connect)
     which will automatically open the
     [view window](editing-a-chase.md#opening-a-chase-for-editing)
-    for a chase when you fire the playback. *This is useful to keep the
-    correct chase view open as you swap between chases.*
+    for a playback when you fire it. *This is useful to keep the
+    correct view open as you swap between chases.*
 
-> Normally if you change the speed or crossfade of a chase, the new
+> Normally if you change the speed or crossfade of a chase on the wheels, the new
     setting is saved. However you can set this change to be temporary,
     so that when the show is reloaded the speed and fade will go back to
     the previously saved settings. Go to [User Settings](../system-settings/user-settings.md)
