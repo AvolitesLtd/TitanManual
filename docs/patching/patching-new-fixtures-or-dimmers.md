@@ -233,7 +233,7 @@ independently, use the Attribute Editor window or you can press
 workspace, the current page of fixtures will be replaced by select
 buttons for each individual fixture cell. If patched on a fader then the
 cells will start at fader 1. You can also select sub-fixtures from the
-numeric keypad. See the [fixture control section](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fixtures-with-multiple-cells-subfixtures) for more details of
+numeric keypad. See the [fixture control section](../controlling-fixtures.md#fixtures-with-multiple-cells-subfixtures) for more details of
 working with fixture cells.
 
 To go back to normal, press \<Unfold\> then \[Exit Unfold\].

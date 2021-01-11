@@ -127,7 +127,7 @@ However you can change this so that the button operates in two stages when
 some fixtures are selected, and also there are some changes in the programmer - 
 a **first press** of the button will clear
 only the fixture selection, then a **second press** will clear the contents of the 
-programmer, or the other way round. See [Action Precedence](using-the-select-buttons-and-wheels.md#clear-options-menu)
+programmer, or the other way round. See [Action Precedence](controlling-fixtures.md#clear-options-menu)
 below in the Clear Options menu.
 
 ### Clear button hold-down options
@@ -179,7 +179,7 @@ option as described below so that the mask is remembered next time you press \<C
 
 The options in the "Clear Options" submenu are as follows. These options
 are stored with your user profile and 
-can also be set in the Clear tab of the [User Settings](../system-settings/user-settings.md#clear).
+can also be set in the Clear tab of the [User Settings](./system-settings/user-settings.md#clear).
 
 -   \[Auto Reset Mask\] sets the mask to be automatically reset to clear
     everything each time Clear is pressed, or you can toggle the option

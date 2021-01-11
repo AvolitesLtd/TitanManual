@@ -13,7 +13,7 @@ what would be happening on the stage.
 Fixture Selection
 -----------------
 
-If you [select fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) on the console, the fixtures will highlight in
+If you [select fixtures](../controlling-fixtures.md#selecting-fixtures-and-dimmers-for-control) on the console, the fixtures will highlight in
 Capture so you can see where they are in real life.
 
 ![Fixtures elected on internal Capture Visualiser Window](/docs/images/Fixtures-elected-on-internal-Capture-Visualiser-Window.png)

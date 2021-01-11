@@ -9,7 +9,7 @@ How Titan Works When Programming
 
 When you select one or more dimmers or fixtures for control, they are
 loaded into the **Programmer**. You can then use the 
-[wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels),
+[wheels](../controlling-fixtures/changing-fixture-attributes.md#changing-attributes-using-the-wheels),
 [palettes](../palettes.md) and [effects](../effects.md) to 
 change the attributes on the fixture and your changes will be
 stored in the Programmer.
@@ -34,9 +34,9 @@ press \<Clear\> when you finish programming, because intensity attributes in
 the programmer will override playbacks.
 
 Fixtures which are in the programmer are shown in mid blue on the [touch
-buttons](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control).
+buttons](../controlling-fixtures.md#selecting-fixtures-and-dimmers-for-control).
 Attributes in the programmer (the things you have changed) are
-shown in cyan on the [attribute displays](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-wheel-display).
+shown in cyan on the [attribute displays](../controlling-fixtures/changing-fixture-attributes.md#attribute-wheel-display).
 
 Firing a cue does not place the values from the cue in the programmer,
 so you can't just turn on a playback and record what you see to another

@@ -10,17 +10,17 @@ turn blue when selected.
 Press \<Locate\> to "home" selected fixtures with lamp on. If fixture is
 patched on a fader, the fader controls the dimmer. Hold \<Locate\> and press attribute button to remove that
 attribute from the locate (e.g. to locate without changing pan/tilt,
-hold \<Locate\> and press \<Position\>). See the [Locate](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate) section for more information.
+hold \<Locate\> and press \<Position\>). See the [Locate](../controlling-fixtures.md#setting-fixtures-to-a-start-position-locate) section for more information.
 
 Select attribute to control using attribute bank buttons (labelled
 Intensity/Dimmer, Colour, Gobo etc), then turn the wheels to set
 fixture. Display shows which attribute each wheel is controlling.
-(See [Changing Attributes Using the Wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels)).
+(See [Changing Attributes Using the Wheels](../controlling-fixtures/changing-fixture-attributes.md#changing-attributes-using-the-wheels)).
 
-Open Attribute window on-screen (\<View/Open\> then one of the attribute
+[Open Attribute window](../controlling-fixtures/changing-fixture-attributes.md#attribute-editor-window) on-screen (\<View/Open\> then one of the attribute
 bank buttons such as \<Position\> or \<Intensity\>) to select attributes
 from buttons and to control sub-fixtures of battens/arrays.
-(See [Fixtures with Multiple Cells](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fixtures-with-multiple-cells-subfixtures)).
+(See [Fixtures with Multiple Cells](../controlling-fixtures.md#fixtures-with-multiple-cells-subfixtures)).
 
 Use Palettes to store often-used colours, positions etc. for instant
 recall, see next page.
