@@ -124,8 +124,9 @@ Clear Cue Times            | ***On:*** Cue times in the programmer are reset to 
 Clear Rate Settings        | ***On:*** The rate settings in the programmer are reset to default when Clear is pressed. <br>*Off:* Rate settings set in the programmer will remain.
 Clear Direction            | ***On:*** Direction in the programmer is reset to default when Clear is pressed.<br>*Off:* Direction set in the programmer will remain.
 Clear Selected Fixtures    | *On:* Only fixtures which are currently selected will be cleared from the programmer when Clear is pressed. If no fixtures are selected then all fixtures are cleared.<br> ***Off:*** All fixtures are cleared from the programmer whether any are selected or not.
+Action Precedence          | Sets a two-stage action for presses of the Clear button:<br>***Selection With Programmer***: Any press of the button clears both the fixture selection and all fixture changes in the programmer<br>*Selection Then Programmer*: If any fixtures are selected, fixture selection is cleared on button press. If no fixtures are selected then the programmer is cleared.<br>*Programmer Then Selection*: If there are any changes in the programmer, then the programmer is cleared on button press. If there's nothing in the programmer then fixture selection is cleared.
 
--  These settings can also be changed from the Clear menu.
+-  These settings can also be changed from the Clear menu if you hold down the \<Clear\> button.
 
 ## Effects
 
