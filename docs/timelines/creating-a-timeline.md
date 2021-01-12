@@ -58,7 +58,7 @@ The same trigger after Auto Simplify:
 
 ![Timeline after auto simplify](/docs/images/Timeline-Live-Record-Simplified.png)
 
-- You can simplify triggers after recording by selecting the triggers (draw a marquee box over them) then using the \{Tools\} - \{Simplify Selected Triggers\} context menu option. 
+- You can simplify triggers after recording by selecting the triggers (draw a marquee box over them) then using the \{Tools\} - \{Simplify Selected Triggers\} context menu option.
 
 - You can also make a smooth fade between adjacent triggers by selecting the triggers and using the \{Tools\} - \{Smooth Selected Triggers\} context menu option. The picture below shows triggers before and after the smooth function has been used.
 
@@ -115,6 +115,4 @@ This is an example of how to load markers from the audio editor software **Reape
 
 4.   Right-click in Region/Marker manager and select Export Project Regions/Markers, save as CSV.
 
-5.   Copy the CSV file to a USB stick and load the file using the Titan \{Import Markers\} context menu option (On Titan PC Suite copy the file to Documents\Titan folder).
-
-
+5.   Copy the CSV file to a USB stick and load the file using the Titan \{Import Markers\} context menu option (On Titan PC Suite copy the file to Documents\\Titan folder).
