@@ -35,7 +35,7 @@ Shapes\]
 
 2. Press \[Create\] to start a new shape
 
-3. [Select fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) and set the colours for the first key frame
+3. [Select fixtures](../controlling-fixtures.md#selecting-fixtures-and-dimmers-for-control) and set the colours for the first key frame
 
 4. Press \[Add Frame\]. An automatic legend for the first key frame
 will show above the first playback fader. *(Press \[Playbacks Display

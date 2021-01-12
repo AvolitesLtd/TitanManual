@@ -123,9 +123,11 @@ remove all changes from the programmer and deselect all fixtures.
 Normally a **quick press** of the \<Clear\> button 
 clears the fixture selection and also clears from the programmer all the
 fixture changes you've made. 
-However you can change this so that **double presses** of the button will clear
-only the fixture selection on the first press, then the programmer on the
-second press, or the other way round. See [Action Precedence](./controlling-fixtures.md#clear-options-menu)
+However you can change this so that the button operates in two stages when 
+some fixtures are selected, and also there are some changes in the programmer - 
+a **first press** of the button will clear
+only the fixture selection, then a **second press** will clear the contents of the 
+programmer, or the other way round. See [Action Precedence](controlling-fixtures.md#clear-options-menu)
 below in the Clear Options menu.
 
 ### Clear button hold-down options
@@ -134,7 +136,8 @@ the softkeys. These will take effect when you release the \<Clear\> button.
 
 The **Set Mask** options let you choose which attribute groups are to be cleared (for example,
 you could leave the pan/tilt in the programmer but clear everything else).
-The top \[Set Mask\] button lets you choose which attributes will be cleared.
+The top \[Set Mask\] button lets you choose which attributes will be cleared - or you can
+use the attribute group buttons to set the mask.
 \[Set Mask to Clear Nothing\] disables all attributes from being cleared to give you a clean
 slate to start with and \[Set Mask to Clear All\] enables all attributes to be cleared.
 
@@ -174,7 +177,9 @@ option as described below so that the mask is remembered next time you press \<C
 
 ### Clear options menu
 
-The options in the "Clear Options" submenu are:
+The options in the "Clear Options" submenu are as follows. These options
+are stored with your user profile and 
+can also be set in the Clear tab of the [User Settings](./system-settings/user-settings.md#clear).
 
 -   \[Auto Reset Mask\] sets the mask to be automatically reset to clear
     everything each time Clear is pressed, or you can toggle the option
@@ -204,10 +209,14 @@ The options in the "Clear Options" submenu are:
 	
 -   \[Clear Direction\] - sets whether direction will be cleared from the programmer.	
 	
--   \[Action Precedence\] - Sets the action for multiple presses of the \<Clear\> button:
-	- Selection With Programmer: **(default)** First press of the button clears both the fixture selection and all fixture changes in the programmer
-	- Selection Then Programmer: First press clears fixture selection, second press clears programmer
-	- Programmer Then Selection: First press clears programmer, second press clears fixture selection
+-   \[Action Precedence\] - Sets a two-stage action for presses of the \<Clear\> button:
+	- Selection With Programmer: **(default)** Any press of the button clears both the fixture selection and all fixture changes in the programmer
+	- Selection Then Programmer: If any fixtures are selected, fixture selection is cleared on button press. If no fixtures are selected then the programmer is cleared.
+	- Programmer Then Selection: If there are any changes in the programmer, then the programmer is cleared on button press. If there's nothing in the programmer then fixture selection is cleared.
+
+> If you type a number then press \<Clear\>, HTP values in the programmer will fade out over that time, for example 5 \<Clear\> would fade over 5 seconds. This can be very useful if you are trying to be subtle when making changes during a show.
+
+### Directly removing attributes from fixtures
 
 You can use the [Channel Grid](./controlling-fixtures/viewing-and-editing-fixture-values.md#the-channel-grid-window) window to selectively view and remove
 attributes from fixtures.

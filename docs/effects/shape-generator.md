@@ -39,7 +39,7 @@ Creating a Shape
 
 When you create a shape, it will be applied to all selected fixtures.
 
-1. [Select the fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) the shape is to be applied to
+1. [Select the fixtures](../controlling-fixtures.md#selecting-fixtures-and-dimmers-for-control) the shape is to be applied to
 
 2. At the main menu press \[Shapes and Effects\] then \[Shape
 Generator\]

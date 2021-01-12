@@ -406,7 +406,7 @@ helps you to find them when the show is running and the pressure is on.
 If you are lighting a band, make position palettes for every person on
 stage so you can spotlight them for those unplanned solos.
 
-You can use the [Off](../controlling-fixtures/using-the-select-buttons-and-wheels.md#clearing-attributes-using-off) function when programming to set some cues to only affect position, and other cues to
+You can use the [Off](../controlling-fixtures.md#clearing-attributes-using-off) function when programming to set some cues to only affect position, and other cues to
 set colours, gobos, add shapes, and so on. By combining two or more cues
 you can produce a much wider range of effects than if all your cues set
 all the attributes. However, for this to work well you need to make sure

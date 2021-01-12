@@ -38,8 +38,8 @@ fixtures into the visualiser. The [Exchange Fixtures](../patching/changing-the-p
 used to help with this situation.
 
 Fixtures are positioned using the wheels. Select one or more fixtures
-using the [Fixture select or Group buttons](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control)
-and turn them on by pressing [\<Locate\>](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate).
+using the [Fixture select or Group buttons](../controlling-fixtures.md#selecting-fixtures-and-dimmers-for-control)
+and turn them on by pressing [\<Locate\>](../controlling-fixtures.md#setting-fixtures-to-a-start-position-locate).
 Press the \{Position - Orientation\} context menu button to
 switch the wheels to Visualiser mode *(or press Softkey G at the top
 level menu until the display shows Wheels-Visualiser)*.
@@ -47,7 +47,7 @@ level menu until the display shows Wheels-Visualiser)*.
 Select **Position** attribute, then use the wheels to change the X/Y/Z
 position of the fixture(s). If you select multiple fixtures, pressing
 the \{Scale-Fan\} context menu button or the \<Fan\> button allows you to
-evenly spread out the fixtures. The [Fan curve/group/split options](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-mode) also
+evenly spread out the fixtures. The [Fan curve/group/split options](../controlling-fixtures/changing-fixture-attributes.md#fan-mode) also
 work.
 
 Touch above or below the wheel value to nudge the setting up or down by
@@ -63,7 +63,7 @@ Axis | Action
 
 Press the **Position** button again to switch the wheels to Orientation
 mode. The wheels will now pivot the fixtures in the X/Y/Z axes. Again
-you can use the [**Fan**](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-mode) button to give a spread of angles on multiple
+you can use the [**Fan**](../controlling-fixtures/changing-fixture-attributes.md#fan-mode) button to give a spread of angles on multiple
 fixtures.
 
 The X/Y/Z rotation operates like a 3-axis camera gimbal - imagine the
