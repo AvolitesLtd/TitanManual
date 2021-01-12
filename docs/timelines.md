@@ -37,7 +37,7 @@ The following types of trigger can be created. You can record these actions in r
 or enter them as manual triggers at specified times using the touch screen.
 
 Trigger             | Action
---------------------|----------
+---|-----
 Set Level           | Fades up a playback to a set level over a time. This has the same effect as you pushing up a fader. If the playback has fade times programmed these also run.
 Go to cue           | Go to a cue in a cue list. You can either specify a cue number or just record a *Go* trigger to run the next cue. The cue will follow the fade times programmed in the cue list.
 Flash               | Flash a playback (see [Flash and Swop](./running-the-show/playback-controls.md#flash-and-swop-buttons))
@@ -50,7 +50,7 @@ Wait for go         | Pause the timeline until you press \<Go\> to resume (only 
 
 - **Wait for go** triggers are useful when you have a timed sequence followed by an unknown delay, for
 example a win/walk-up sequence for an awards ceremony when you don't know how long the winner
-will take to reach the stage. Shapes will continue to run while the timeline is paused. The timeline needs to be 
+will take to reach the stage. Shapes will continue to run while the timeline is paused. The timeline needs to be
 [connected](./chases/chase-playback/#connecting-a-playback-for-control) for the \<Go\> button to work, if the timeline is not connected you can use the \{Play\} transport button to resume the timeline.
 
 Tracks
@@ -71,7 +71,7 @@ To set up and enable each of the timecode sources as Internal, MIDI, Clock or SM
 Timecode linking and local timecode controls
 ------------------
 
-The \{Link\} button at the bottom left of the Timeline View window can be used to temporarily unlink the timeline from its timecode source. 
+The \{Link\} button at the bottom left of the Timeline View window can be used to temporarily unlink the timeline from its timecode source.
 
 When using external timecode, often the timecode source will be sent to you from elsewhere in the show and will not be under your control - in this situation it's useful to be able to temporarily control the timecode yourself when recording and editing. When this button is set to unlinked, you can control the timeline playback using the transport buttons in the top left corner of the Timeline View window as you would with an audio player.
 
