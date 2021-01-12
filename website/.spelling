@@ -94,9 +94,11 @@ Hippotizer
 IPCGBES-FX
 Quicksave
 Lightmap
+LiveDMX
 LocalClock
 Lustr
 MathsPoetry
+mDNS
 Multi-DMX
 Nexum
 Neutrik
@@ -104,7 +106,9 @@ Ok
 opticalCON
 PioneerDJ
 Prev
+ProDJ
 RDM-enabled
+RDMNet
 Rec
 Roscolux
 Rx
@@ -115,8 +119,10 @@ TitanFixtureLibrary.exe
 Thro
 TNPs
 Tx
+UDP
 Unassign
 VDim
+WebApi
 WiFi
 Winamp
 XFade
