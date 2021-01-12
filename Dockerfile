@@ -1,4 +1,4 @@
-FROM pandoc/latex as builder
+FROM pandoc/latex:2.9.1.1 as builder
 
 ENTRYPOINT ["/bin/sh", "-c"]
 
