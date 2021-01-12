@@ -13,7 +13,10 @@ When the PC is connected to the same network as the console, you should
 be able to see the console listed at the bottom of the **"Universes"** tab
 in Capture. The console should link automatically, but if not or if
 there are multiple Titan consoles on the network, you can manually
-select one from the list..
+select one from the list.
+
+You need to have Art-Net or sACN output enabled on the console universes 
+that you want to see in Capture. See [Configuring DMX Outputs](../system-settings/dmx-output-mapping#configuring-dmx-outputs).
 
 > For linking/sync to work properly the external Capture version must be 2020, 2018 or the last version of Nexum. Older versions of Capture will only partially work.
 
@@ -23,7 +26,8 @@ details in Capture the changes will automatically be made on the
 console. If you add a fixture or make changes to the patch on the
 console, then Capture will update. Selecting a fixture on one will
 select the fixture on the other. If you don't want this to happen you
-can turn off the **"Console Link"** function in Capture.
+can turn off the **"Console Link"** function in Capture - simulation
+will continue to operate whether the console is linked or not.
 
 Patching Console Fixtures into Capture
 --------------------------------------
