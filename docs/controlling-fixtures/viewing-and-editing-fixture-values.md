@@ -97,15 +97,21 @@ show the automatic fixture colours, see below.
 The context menu options give you settings to change how the window is
 displayed.
 
-The first option lets you only show fixtures in a particular state:\
-All - all fixtures (default)\
-Stage - fixtures with intensity above zero\
-Programmer - fixtures in the programmer\
-Selected - fixtures which are selected\
-Live cues - only intensities coming from active cues\
-Connected cue - only fixtures in the currently connected cue (for cue
-lists or chases)\
-Frozen - fixtures with frozen intensity
+The first option lets you only show fixtures in a particular state:
+
+-   All - all fixtures (default)
+
+-   Stage - fixtures with intensity above zero
+
+-   Programmer - fixtures in the programmer
+
+-   Selected - fixtures which are selected
+
+-   Live cues - only intensities coming from active cues
+
+-   Connected cue - only fixtures in the currently connected cue (for cue lists or chases)
+
+-   Frozen - fixtures with frozen intensity
 
 The second option changes sort order as described above
 
