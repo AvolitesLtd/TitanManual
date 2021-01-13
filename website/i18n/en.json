@@ -94,12 +94,16 @@
         "sidebar_label": "Editing a Chase"
       },
       "controlling-fixtures": {
-        "title": "Controlling Dimmers and Fixtures",
-        "sidebar_label": "Controlling Dimmers and Fixtures"
+        "title": "Selecting Fixtures",
+        "sidebar_label": "Selecting Fixtures"
       },
       "controlling-fixtures/advanced-options": {
         "title": "Fixture Advanced Options",
         "sidebar_label": "Fixture Advanced Options"
+      },
+      "controlling-fixtures/changing-fixture-attributes": {
+        "title": "Changing Fixture Attributes",
+        "sidebar_label": "Changing Fixture Attributes"
       },
       "controlling-fixtures/fixture-groups": {
         "title": "Fixture Groups",
@@ -369,6 +373,10 @@
         "title": "System Menu and User Settings",
         "sidebar_label": "System Menu and User Settings"
       },
+      "system-settings/cleaning-the-console": {
+        "title": "Cleaning the console",
+        "sidebar_label": "Cleaning the console"
+      },
       "system-settings/curves": {
         "title": "Curves",
         "sidebar_label": "Curves"
@@ -477,7 +485,7 @@
         "title": "TNP Slave Mode",
         "sidebar_label": "TNP Slave Mode"
       },
-      "version-12.0-about-the-consoles": {
+ "version-12.0-about-the-consoles": {
         "title": "About the consoles",
         "sidebar_label": "About the consoles"
       },
