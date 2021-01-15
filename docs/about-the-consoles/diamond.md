@@ -16,16 +16,16 @@ current wheel functions at the bottom of the right hand screen.
 \(B\) The **Playback faders** and **Rotary playback faders**
  select and control cues, programs and other configurable functions.
 
-\(C\) The **System Prompt and Menu Softkeys** have their own screen.
+\(C\) The **System Prompt and Menu Softkeys** have their own touchscreen.
 
 \(D\) The **Programming and setup controls** configure and program the console,
 within which the **attribute touchscreen** shows and sets fixture attributes and 
 the **macro/executor buttons** allow storage of frequent key
 sequences, screen layouts, groups or programs. To the left of these
-controls are the cue list playback controls.
+controls are the cue list playback controls and the Scene Master T-bar.
 
 \(E\) Three **Preview screens** are provided for monitoring
-video feeds or can be used as extra touch displays.
+video feeds or can be assigned a workspace view and used as extra touch displays.
 
 
 
@@ -33,9 +33,10 @@ video feeds or can be used as extra touch displays.
 
 ![Diamond-F-G](/docs/images/Diamond-F.png)
 
-\(F\) The **Workspace windows** on the touch screens contain touch buttons for
-fixtures, palettes, groups, playbacks, macros and more in a user-configurable
-layout. You can also set fixture attributes and show information windows.
+\(F\) The **Workspace windows** on the touch screens contain a user-configurable
+layout of touch buttons for fixtures, palettes, groups, playbacks, macros and more.
+You can also show the integrated Capture visualiser, video feed monitors or a range
+of information screens such as intensity levels or DMX output levels.
 
 \(G\) The **System Prompt and Menu Softkeys** screen is the nerve centre of
 the console and shows you what is going on. This display contains touch
@@ -53,14 +54,14 @@ The rotary faders have a level indicator around them which is shown in
 a user-configurable colour (halo colour).
 The touch screen below the faders shows legends indicating their function.
 
-\(I\) **The Page Select buttons** in the
+\(I\) The **Page Select buttons** in the
 centre of the faders let you change the left or right fader banks to a different page.
 
 \(J\) Two more sets of **Rotary Faders** are provided above the Playback Faders.
 
 \(K\) The motorised **Playback faders** are the main place to store and play back cues or chases
 but can also be assigned a range of other functions. Each fader has a level indicator
-which can be set to user-configurable halo colour.
+which can be set to a user-configurable halo colour.
 The touch screen above the faders shows information about
 each playback.
 
@@ -75,7 +76,7 @@ the buttons. There is a smaller bank of 6 buttons between the playback faders wi
 their own legend screen.
 
 \(N\) The **Playback controls** are used to control the playback of cue
-lists and include a configurable T-bar for the Scene Master function and motorised A-B faders.
+lists and include a T-bar for the Scene Master function and motorised A-B faders.
 
 ## Programming controls
 
@@ -105,6 +106,11 @@ of selected fixtures.
 \(U\) The **trackball** controls pan and tilt of fixtures, and can also be
 used to control a mouse pointer for the screens.
 
+## Front edge of the console
+
+Under the armrest at the front of the console is the **Power Switch**, a
+**USB socket** for connecting USB drives, and a pull-out drawer with an 
+illuminated **Keyboard** for entering legends.
 
 ## The Back Panel
 
