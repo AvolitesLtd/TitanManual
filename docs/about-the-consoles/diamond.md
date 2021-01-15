@@ -1,0 +1,140 @@
+---
+id: diamond
+title: Diamond 9
+sidebar_label: Diamond
+description: Diamond - console design and features
+---
+
+![Diamond9](/docs/images/Diamond-Main.png)
+
+The Diamond 9 has the following main control areas:
+
+\(A\) The three main **Touch screens** contain fixture, palette and group select
+buttons. They also show legends for the playback faders and the
+current wheel functions at the bottom of the right hand screen.
+
+\(B\) The **Playback faders** and **Rotary playback faders**
+ select and control cues, programs and other configurable functions.
+
+\(C\) The **System Prompt and Menu Softkeys** have their own screen.
+
+\(D\) The **Programming and setup controls** configure and program the console,
+within which the **attribute touchscreen** shows and sets fixture attributes and 
+the **macro/executor buttons** allow storage of frequent key
+sequences, screen layouts, groups or programs. To the left of these
+controls are the cue list playback controls.
+
+\(E\) Three **Preview screens** are provided for monitoring
+video feeds or can be used as extra touch displays.
+
+
+
+## Touch screen controls
+
+![Diamond-F-G](/docs/images/Diamond-F.png)
+
+\(F\) The **Workspace windows** on the touch screens contain touch buttons for
+fixtures, palettes, groups, playbacks, macros and more in a user-configurable
+layout. You can also set fixture attributes and show information windows.
+
+\(G\) The **System Prompt and Menu Softkeys** screen is the nerve centre of
+the console and shows you what is going on. This display contains touch
+buttons for the main menu which change depending on what the console
+is doing. Softkey commands are shown in the manual 
+like this: \[Edit Times\]
+
+## Playbacks
+
+![Diamond-H](/docs/images/Diamond-H.png)
+
+\(H\) The **Rotary Faders** at the top can be used to store
+a range of program functions including cues, chases, and fixture groups.
+The rotary faders have a level indicator around them which is shown in
+a user-configurable colour (halo colour).
+The touch screen below the faders shows legends indicating their function.
+
+\(I\) **The Page Select buttons** in the
+centre of the faders let you change the left or right fader banks to a different page.
+
+\(J\) Two more sets of **Rotary Faders** are provided above the Playback Faders.
+
+\(K\) The motorised **Playback faders** are the main place to store and play back cues or chases
+but can also be assigned a range of other functions. Each fader has a level indicator
+which can be set to user-configurable halo colour.
+The touch screen above the faders shows information about
+each playback.
+
+\(L\) The **Page Select buttons** let you change the left or right
+fader banks to a different page
+of playbacks (for both the playback faders and the lower rotary faders). 
+
+\(M\) The **Macro Buttons** store frequently used sequences of keypresses
+which can be replayed with a single button press. Playbacks can also be
+stored here. The display immediately above the buttons shows legends for
+the buttons. There is a smaller bank of 6 buttons between the playback faders with
+their own legend screen.
+
+\(N\) The **Playback controls** are used to control the playback of cue
+lists and include a configurable T-bar for the Scene Master function and motorised A-B faders.
+
+## Programming controls
+
+![Diamond-N](/docs/images/Diamond-O.png)
+
+\(O\) The five  **Control wheels** are used to set control values (attributes) for
+the fixtures, and to set chase speeds and fades. The touch screen above
+the wheels shows information about the attributes being controlled.
+
+\(P\) The dedicated **Attribute Touchscreen** shows the Attribute Editor
+window giving a different way to select attributes such as colours and gobos.
+
+\(Q\) The **Function buttons** are used to carry out functions such as storing
+cues, copying, patching, saving to disk, etc.
+
+\(R\) The **Attribute Buttons** are used to select which attributes of
+a fixture (e.g. colour, gobo, pan, focus) are going to be controlled
+using the Control wheels. The buttons light up to show you which
+attributes are active.
+
+\(S\) The **Numeric keypad** and other control buttons are used to enter
+values and change controls on the console.
+
+\(T\) The dedicated **Intensity Wheel** and display controls intensity
+of selected fixtures.
+
+\(U\) The **trackball** controls pan and tilt of fixtures, and can also be
+used to control a mouse pointer for the screens.
+
+
+## The Back Panel
+
+![Diamond Back Panel](/docs/images/Diamond-Back.png)
+
+\(a\) Mains power input (Powercon TRUE-1), mains isolator and UPS interrupt switch. Do not
+power the console off using this mains isolator switch.
+
+\(b\) Additional USB sockets for general purpose use.
+
+\(c\) DMX input for data capture.
+
+\(d\) Outputs for two additional screens - HDMI and USB for touch screen.
+
+\(e\) MIDI in, thru and out.
+
+\(f\) Digital S/PDIF connection.
+
+\(g\) Work light switch. The console has integrated LED lighting around the connections panel.
+
+\(h\) Four gigabit ethercon network connections from the internal network switch.
+
+\(i\) GPIO trigger connection (D-connector and separate jack connector).
+
+\(j\) Audio input for sound triggering.
+
+\(k\) LTC Linear Timecode in and loop connections.
+
+\(m\) Additional gigabit ethercon network connection.
+
+\(n\) 10Gb quad opticalcon terminal.
+
+\(o\) Eight DMX512 outputs.

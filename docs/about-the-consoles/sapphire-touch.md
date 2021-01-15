@@ -43,7 +43,7 @@ like this: \[Edit Times\]
 ![Sapphire Front 2](/docs/images/Sapphire-Front-2.png)
 
 \(H\) The **Preset Faders** at the top are used to patch fixtures, and store
-and play back cues or chases. (I) **The Preset Page Select buttons** in the
+and play back cues or chases. \(I\) **The Preset Page Select buttons** in the
 centre of the faders let you change to a different page.
 
 \(J\) The **Macro Buttons** store frequently used sequences of keypresses

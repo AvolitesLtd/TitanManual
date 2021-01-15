@@ -13,6 +13,10 @@
         "title": "Arena",
         "sidebar_label": "Arena"
       },
+      "about-the-consoles/diamond": {
+        "title": "Diamond 9",
+        "sidebar_label": "Diamond 9"
+      },
       "about-the-consoles/fader-wings": {
         "title": "Fader Wings",
         "sidebar_label": "Fader Wings"
@@ -94,20 +98,20 @@
         "sidebar_label": "Editing a Chase"
       },
       "controlling-fixtures": {
-        "title": "Controlling Dimmers and Fixtures",
-        "sidebar_label": "Controlling Dimmers and Fixtures"
+        "title": "Selecting Fixtures",
+        "sidebar_label": "Selecting Fixtures"
       },
       "controlling-fixtures/advanced-options": {
         "title": "Fixture Advanced Options",
         "sidebar_label": "Fixture Advanced Options"
       },
+      "controlling-fixtures/changing-fixture-attributes": {
+        "title": "Changing Fixture Attributes",
+        "sidebar_label": "Changing Fixture Attributes"
+      },
       "controlling-fixtures/fixture-groups": {
         "title": "Fixture Groups",
         "sidebar_label": "Fixture Groups"
-      },
-      "controlling-fixtures/using-the-select-buttons-and-wheels": {
-        "title": "Using the Select Buttons and Wheels",
-        "sidebar_label": "Using the Select Buttons and Wheels"
       },
       "controlling-fixtures/viewing-and-editing-fixture-values": {
         "title": "Viewing and Editing Fixture Values",
