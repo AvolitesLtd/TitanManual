@@ -71,6 +71,7 @@ submenus
 
 # symbols
 i
+o
 
 # case sensitive words
 Ai
@@ -105,6 +106,7 @@ Neutrik
 Ok
 opticalCON
 PioneerDJ
+PowerCON
 Prev
 ProDJ
 RDM-enabled
@@ -118,6 +120,7 @@ TitanNet
 TitanFixtureLibrary.exe
 Thro
 TNPs
+TRUE1
 Tx
 UDP
 Unassign
@@ -167,6 +170,7 @@ x32
 200Mbps
 280Mbps
 480Mbps
+10Gb
 
 1920x1080p30
 1920x1080p60

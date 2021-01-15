@@ -110,7 +110,7 @@ used to control a mouse pointer for the screens.
 
 ![Diamond Back Panel](/docs/images/Diamond-Back.png)
 
-\(a\) Mains power input (Powercon TRUE-1), mains isolator and UPS interrupt switch. Do not
+\(a\) Mains power input (PowerCON TRUE1), mains isolator and UPS interrupt switch. Do not
 power the console off using this mains isolator switch.
 
 \(b\) Additional USB sockets for general purpose use.
@@ -125,7 +125,7 @@ power the console off using this mains isolator switch.
 
 \(g\) Work light switch. The console has integrated LED lighting around the connections panel.
 
-\(h\) Four gigabit ethercon network connections from the internal network switch.
+\(h\) Four gigabit etherCON network connections from the internal network switch.
 
 \(i\) GPIO trigger connection (D-connector and separate jack connector).
 
@@ -133,8 +133,8 @@ power the console off using this mains isolator switch.
 
 \(k\) LTC Linear Timecode in and loop connections.
 
-\(m\) Additional gigabit ethercon network connection.
+\(m\) Additional gigabit etherCON network connection.
 
-\(n\) 10Gb quad opticalcon terminal.
+\(n\) 10Gb quad opticalCON terminal.
 
 \(o\) Eight DMX512 outputs.
