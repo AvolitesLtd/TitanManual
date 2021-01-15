@@ -1,31 +1,35 @@
 ---
 id: diamond
 title: Diamond 9
-sidebar_label: Diamond
-description: Diamond - console design and features
+sidebar_label: Diamond 9
+description: Diamond 9 - console design and features
 ---
 
 ![Diamond9](/docs/images/Diamond-Main.png)
 
-The Diamond 9 has the following main control areas:
+The Diamond 9 has the following main control areas. There are two models, the 
+D9-330 as shown and the compact D9-225 which has two main touchscreens and
+fewer playback faders:
 
-\(A\) The three main **Touch screens** contain fixture, palette and group select
-buttons. They also show legends for the playback faders and the
-current wheel functions at the bottom of the right hand screen.
+\(A\) The three main **Touch screens** (two on D9-225) contain fixture, palette and group select
+buttons. At the bottom of the right-hand screen, the current wheel assignments
+are shown along with legends for the 15 Macro Keys. At the top and bottom of
+the left-hand screen(s), handle legends for the main faders and encoders are shown.
 
 \(B\) The **Playback faders** and **Rotary playback faders**
- select and control cues, programs and other configurable functions.
+ select and control cues, cue lists and chases, and other configurable functions.
+ (D9-225 only has the right hand set of faders).
 
 \(C\) The **System Prompt and Menu Softkeys** have their own touchscreen.
 
 \(D\) The **Programming and setup controls** configure and program the console,
-within which the **attribute touchscreen** shows and sets fixture attributes and 
-the **macro/executor buttons** allow storage of frequent key
-sequences, screen layouts, groups or programs. To the left of these
+within which the **editor touchscreen** shows and sets fixture attributes and 
+the **macro/executor buttons** are playback buttons allowing storage of cues or
+chases, frequent key sequences, screen layouts or groups. To the left of these
 controls are the cue list playback controls and the Scene Master T-bar.
 
-\(E\) Three **Preview screens** are provided for monitoring
-video feeds or can be assigned a workspace view and used as extra touch displays.
+\(E\) Three **Layer screens** are provided for monitoring
+video feeds via NDI, or for additional workspace window touch screens.
 
 
 
@@ -69,14 +73,15 @@ each playback.
 fader banks to a different page
 of playbacks (for both the playback faders and the lower rotary faders). 
 
-\(M\) The **Macro Buttons** store frequently used sequences of keypresses
-which can be replayed with a single button press. Playbacks can also be
-stored here. The display immediately above the buttons shows legends for
+\(M\) The **Macro Buttons** store playbacks or frequently used sequences of keypresses
+which can be replayed with a single button press. The display immediately above the buttons shows legends for
 the buttons. There is a smaller bank of 6 buttons between the playback faders with
 their own legend screen.
 
 \(N\) The **Playback controls** are used to control the playback of cue
-lists and include a T-bar for the Scene Master function and motorised A-B faders.
+lists and include a T-bar with display for the Scene Master function and 
+a motorised fader pair in the Sequence Control Section to control the 
+connected playback/master.
 
 ## Programming controls
 
@@ -84,9 +89,11 @@ lists and include a T-bar for the Scene Master function and motorised A-B faders
 
 \(O\) The five  **Control wheels** are used to set control values (attributes) for
 the fixtures, and to set chase speeds and fades. The touch screen above
-the wheels shows information about the attributes being controlled.
+the wheels shows information about the attributes being controlled. The buttons
+to the right of the wheels switch them to other functions such as fade timing,
+shape control or visualiser control.
 
-\(P\) The dedicated **Attribute Touchscreen** shows the Attribute Editor
+\(P\) The dedicated **Editor Touchscreen** shows the Attribute Editor
 window giving a different way to select attributes such as colours and gobos.
 
 \(Q\) The **Function buttons** are used to carry out functions such as storing
@@ -117,17 +124,18 @@ illuminated **Keyboard** for entering legends.
 ![Diamond Back Panel](/docs/images/Diamond-Back.png)
 
 \(a\) Mains power input (PowerCON TRUE1), mains isolator and UPS interrupt switch. Do not
-power the console off using this mains isolator switch.
+power the console off using this mains isolator switch, use the power switch at the front
+of the console.
 
 \(b\) Additional USB sockets for general purpose use.
 
-\(c\) DMX input for data capture.
+\(c\) DMX input for triggering.
 
 \(d\) Outputs for two additional screens - HDMI and USB for touch screen.
 
 \(e\) MIDI in, thru and out.
 
-\(f\) Digital S/PDIF connection.
+\(f\) Digital S/PDIF audio output.
 
 \(g\) Work light switch. The console has integrated LED lighting around the connections panel.
 

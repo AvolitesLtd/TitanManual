@@ -35,8 +35,8 @@ values and change controls on the system.
 cues, copying, saving to disk, etc.
 
 \(H\) The **Workspaces, Macros and Executers** buttons are programmable
-buttons which can be used to store workspaces (screen layouts), button
-macros or cues.
+buttons which can be used to store cues such as strobe cues, workspaces 
+(screen layouts), or button macros.
 
 \(I\) The **Workspace Window select buttons** are used to set which windows
 are shown on the screen.

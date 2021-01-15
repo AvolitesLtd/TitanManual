@@ -13,14 +13,15 @@ buttons. They also show legends for the playback faders and shows the
 current menu page and softkey buttons on the top right of the right hand
 screen.
 
-\(B\) The **Playback faders** select and control cues and programs
+\(B\) The **Playback faders** select and control cues, cue lists and chases, 
+and other configurable functions.
 
 \(C\) The **Preset playbacks** are used for patching fixtures or for
 additional playbacks.
 
 \(D\) The **Programming and setup controls** configure and program the console,
-within which the **macro/executor buttons** allow storage of frequent key
-sequences, screen layouts, groups or programs.
+within which the **macro/executor buttons** are playback buttons allowing storage of cues or
+chases, frequent key sequences, screen layouts or groups.
 
 ## The Main Controls
 
@@ -46,9 +47,8 @@ like this: \[Edit Times\]
 and play back cues or chases. \(I\) **The Preset Page Select buttons** in the
 centre of the faders let you change to a different page.
 
-\(J\) The **Macro Buttons** store frequently used sequences of keypresses
-which can be replayed with a single button press. Playbacks can also be
-stored here. The display immediately above the buttons shows legends for
+\(J\) The **Macro Buttons** store playbacks or frequently used sequences of keypresses
+which can be replayed with a single button press. The display immediately above the buttons shows legends for
 the buttons.
 
 \(K\) The **Playback faders** are used to store and play back cues or chases.
