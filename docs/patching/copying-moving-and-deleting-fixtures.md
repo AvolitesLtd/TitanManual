@@ -8,7 +8,7 @@ Copying or moving a patched fixture
 -----------------------------------
 
 Using the \<Copy\> or \<Move\> buttons you can make a copy of an existing fixture or
-move it to a new handle. You cannot link fixture handle like you can with cues. You can copy
+move it to a new handle. You cannot link fixture handles like you can with cues. You can copy
 or move multiple fixtures in one operation.
 
 Fixture copying is very useful if you need an additional fixture of a
