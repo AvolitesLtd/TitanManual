@@ -16,7 +16,7 @@ page and softkey buttons on the top right of the screen.
 \(B\) The **Playback faders** select and control cues and programs
 
 \(C\) The **Preset playbacks** give you additional (unpaged) playbacks and the
-**macro buttons** allow storage of frequent key sequences.
+**macro buttons** allow storage of playbacks such as strobe cues or frequent key sequences.
 
 \(D\) The **Programming and setup controls** configure and program the
 console.
@@ -48,9 +48,8 @@ Softkey commands are shown in the manual like this:
 that you need frequently. These playbacks are not changed by the page
 select buttons, but you can assign macro buttons to change pages.
 
-\(I\) The **Macro Buttons** store frequently used sequences of keypresses
-which can be replayed with a single button press. Playbacks can also be
-stored here.
+\(I\) The **Macro Buttons** store playbacks or frequently used sequences of keypresses
+which can be replayed with a single button press.
 
 ![Tiger Touch controls 2](/docs/images/Tiger-Touch-controls-2.png)
 

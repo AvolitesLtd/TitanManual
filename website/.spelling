@@ -72,6 +72,7 @@ submenus
 
 # symbols
 i
+o
 
 # case sensitive words
 Ai
@@ -81,6 +82,8 @@ Autoincrement
 Avo
 AvoKey
 Avolites
+D9-330
+D9-225
 DMX-in
 Esc
 Ethernet
@@ -106,6 +109,7 @@ Neutrik
 Ok
 opticalCON
 PioneerDJ
+PowerCON
 Prev
 ProDJ
 RDM-enabled
@@ -119,6 +123,7 @@ TitanNet
 TitanFixtureLibrary.exe
 Thro
 TNPs
+TRUE1
 Tx
 UDP
 Unassign
@@ -172,6 +177,7 @@ alcohol
 200Mbps
 280Mbps
 480Mbps
+10Gb
 
 1920x1080p30
 1920x1080p60

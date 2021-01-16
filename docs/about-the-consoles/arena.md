@@ -18,7 +18,8 @@ cues, programs, fixtures and other elements.
 
 \(D\) The **Mini screen** gives you another touch screen and additional
 masters or playbacks using four rotary encoders. (E) The **macro buttons**
-allow storage of frequent key sequences.
+store playbacks or frequently used sequences of keypresses
+which can be replayed with a single button press.
 
 \(F\) The **Programming and setup controls** configure and program the console
 
@@ -46,9 +47,8 @@ Softkey commands are shown in the manual like this:
 masters or playbacks. Pressing the encoder is like pressing the blue
 button on a handle.
 
-\(L\) The **Macro Buttons** store frequently used sequences of keypresses
-which can be replayed with a single button press. Playbacks can also be
-stored here.
+\(L\) The **Macro Buttons** store playbacks such as strobe cues or frequently used sequences of keypresses
+which can be replayed with a single button press.
 
 ![Arena controls 2](/docs/images/Arena-controls-2.png)
 
