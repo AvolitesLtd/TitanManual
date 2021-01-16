@@ -27,7 +27,8 @@ recall, see next page.
 
 ## Fixture Groups
 
-Fixtures may be [grouped](../controlling-fixtures/fixture-groups.md) for quick selection, press \<Group\>, \[Record
+Fixtures may be [grouped](../controlling-fixtures/fixture-groups.md) for quick selection
+of different arrangements of fixtures, press \<Group\>, \[Record
 Group\], select fixtures for group, set legend using \[Provide a
 legend\], press a handle to store. If the handle has a fader it becomes
 a master fader for the group. Order of fixture selection is remembered
