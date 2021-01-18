@@ -1,0 +1,168 @@
+{
+  "version-15.0-docs": {
+    "Introduction": [
+      "version-15.0-introduction"
+    ],
+    "Quick Start": [
+      "version-15.0-quick-start",
+      "version-15.0-quick-start/patching-fixtures",
+      "version-15.0-quick-start/controlling-fixtures",
+      "version-15.0-quick-start/programming-cues-and-chases",
+      "version-15.0-quick-start/programming-palettes",
+      "version-15.0-quick-start/dmx-network-setup"
+    ],
+    "About The Consoles": [
+      "version-15.0-about-the-consoles",
+      "version-15.0-about-the-consoles/diamond",
+      "version-15.0-about-the-consoles/sapphire-touch",
+      "version-15.0-about-the-consoles/arena",
+      "version-15.0-about-the-consoles/tiger-touch",
+      "version-15.0-about-the-consoles/quartz",
+      "version-15.0-about-the-consoles/titan-mobile",
+      "version-15.0-about-the-consoles/t1-and-t2",
+      "version-15.0-about-the-consoles/tnp",
+      "version-15.0-about-the-consoles/pearl-expert-and-touch-wing",
+      "version-15.0-about-the-consoles/fader-wings"
+    ],
+    "Titan Basics": [
+      "version-15.0-titan-basics",
+      "version-15.0-titan-basics/workspace-windows",
+      "version-15.0-titan-basics/other-parts-of-the-touch-screen",
+      "version-15.0-titan-basics/front-panel-buttons",
+      "version-15.0-titan-basics/multi-user-operation",
+      "version-15.0-titan-basics/titan-simulator",
+      "version-15.0-titan-basics/show-library",
+      "version-15.0-titan-basics/loading-and-saving-shows",
+      "version-15.0-titan-basics/clearing-the-console",
+      "version-15.0-titan-basics/creating-reports"
+    ],
+    "Patching": [
+      "version-15.0-patching",
+      "version-15.0-patching/patching-new-fixtures-or-dimmers",
+      "version-15.0-patching/changing-the-patch",
+      "version-15.0-patching/copying-moving-and-deleting-fixtures",
+      "version-15.0-patching/fixture-personality-options"
+    ],
+    "Controlling Fixtures": [
+      "version-15.0-controlling-fixtures",
+      "version-15.0-controlling-fixtures/changing-fixture-attributes",
+      "version-15.0-controlling-fixtures/viewing-and-editing-fixture-values",
+      "version-15.0-controlling-fixtures/fixture-groups",
+      "version-15.0-controlling-fixtures/advanced-options"
+    ],
+    "Palettes": [
+      "version-15.0-palettes",
+      "version-15.0-palettes/creating-palettes",
+      "version-15.0-palettes/using-palettes",
+      "version-15.0-palettes/editing-palettes",
+      "version-15.0-palettes/copying-moving-and-deleting-palettes",
+      "version-15.0-palettes/timing-with-palettes"
+    ],
+    "Shapes and Effects": [
+      "version-15.0-effects",
+      "version-15.0-effects/shape-generator",
+      "version-15.0-effects/key-frame-shapes",
+      "version-15.0-effects/pixel-mapper",
+      "version-15.0-effects/editing-shapes-and-effects",
+      "version-15.0-effects/advanced-options",
+      "version-15.0-effects/pixel-mapper-examples"
+    ],
+    "Cues": [
+      "version-15.0-cues",
+      "version-15.0-cues/creating-a-cue",
+      "version-15.0-cues/cue-playback",
+      "version-15.0-cues/playback-groups",
+      "version-15.0-cues/editing-cues",
+      "version-15.0-cues/cue-timing",
+      "version-15.0-cues/playback-options",
+      "version-15.0-cues/copying-moving-linking-and-deleting"
+    ],
+    "Chases": [
+      "version-15.0-chases",
+      "version-15.0-chases/creating-a-chase",
+      "version-15.0-chases/chase-playback",
+      "version-15.0-chases/editing-a-chase",
+      "version-15.0-chases/chase-timing",
+      "version-15.0-chases/chase-options",
+      "version-15.0-chases/copying-moving-linking-and-deleting"
+    ],
+    "Cue Lists": [
+      "version-15.0-cue-lists",
+      "version-15.0-cue-lists/creating-a-cue-list",
+      "version-15.0-cue-lists/cue-list-playback",
+      "version-15.0-cue-lists/editing-cue-lists",
+      "version-15.0-cue-lists/cue-list-timing",
+      "version-15.0-cue-lists/cue-list-options",
+      "version-15.0-cue-lists/copying-moving-linking-and-deleting",
+      "version-15.0-cue-lists/theatre-programming"
+    ],
+    "Timelines": [
+      "version-15.0-timelines",
+      "version-15.0-timelines/creating-a-timeline",
+      "version-15.0-timelines/running-and-editing-timelines",
+      "version-15.0-timelines/timeline-options"
+    ],
+    "Capture Visualiser": [
+      "version-15.0-capture-visualiser",
+      "version-15.0-capture-visualiser/setting-up-the-rig",
+      "version-15.0-capture-visualiser/visualising-using-capture",
+      "version-15.0-capture-visualiser/capture-show-files",
+      "version-15.0-capture-visualiser/linking-the-console-to-stand-alone-capture"
+    ],
+    "Synergy": [
+      "version-15.0-synergy",
+      "version-15.0-synergy/setting-up",
+      "version-15.0-synergy/operating-synergy"
+    ],
+    "Running The Show": [
+      "version-15.0-running-the-show",
+      "version-15.0-running-the-show/playback-controls",
+      "version-15.0-running-the-show/using-multiple-on-screen-workspaces",
+      "version-15.0-running-the-show/organising-the-console",
+      "version-15.0-running-the-show/set-list-window",
+      "version-15.0-running-the-show/midi-dmx-or-audio-triggering",
+      "version-15.0-running-the-show/linking-pioneerdj-system-to-titan",
+      "version-15.0-running-the-show/linking-consoles-for-multi-user-or-backup"
+    ],
+    "Remote Control": [
+      "version-15.0-remote-control",
+      "version-15.0-remote-control/setting-up-the-remote",
+      "version-15.0-remote-control/operating-the-remote"
+    ],
+    "Titan Net": [
+      "version-15.0-titan-net",
+      "version-15.0-titan-net/tnp-slave-mode",
+      "version-15.0-titan-net/tnp-console-mode"
+    ],
+    "System Settings": [
+      "version-15.0-system-settings",
+      "version-15.0-system-settings/the-system-menu",
+      "version-15.0-system-settings/external-displays",
+      "version-15.0-system-settings/key-profiles",
+      "version-15.0-system-settings/user-settings",
+      "version-15.0-system-settings/dmx-output-mapping",
+      "version-15.0-system-settings/curves",
+      "version-15.0-system-settings/upgrading-the-software",
+      "version-15.0-system-settings/recovering-reinstalling-the-console",
+      "version-15.0-system-settings/cleaning-the-console",
+      "version-15.0-system-settings/release-notes"
+    ],
+    "Fixture Personalities": [
+      "version-15.0-fixture-personalities"
+    ],
+    "Networking the Console": [
+      "version-15.0-networking",
+      "version-15.0-networking/connecting-the-arena-to-a-network",
+      "version-15.0-networking/controlling-fixtures-over-a-network",
+      "version-15.0-networking/using-active-fixtures",
+      "version-15.0-networking/ports-used-by-titan",
+      "version-15.0-networking/a-quick-guide-to-ip-addressing"
+    ],
+    "Titan Commands": [
+      "version-15.0-titan-commands"
+    ],
+    "Glossary": [
+      "version-15.0-glossary"
+    ]
+  }
+}
