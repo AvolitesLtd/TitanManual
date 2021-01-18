@@ -73,7 +73,7 @@ const createWindow = () => {
 
   // and load the homepage of the app.
   appServer.ready().then(() => {
-    let url = "/docs/introduction/";
+    let url = "/docs/en/introduction/";
     const args = require('minimist')(process.argv.slice(1))
     if (args['startUrl']) {
       url = args['startUrl'];
