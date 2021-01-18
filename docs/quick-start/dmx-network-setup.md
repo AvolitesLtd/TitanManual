@@ -13,7 +13,7 @@ TitanNet, you can control up to 64 universes.
 Multiple consoles can be linked by Ethernet to provide a [multi-user](../titan-basics/multi-user-operation.md)
 system, or to provide automatic [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup).
 
-Go to the **System** menu (\<Avo\>/\<Shift\> + \<Disk\>), press \[DMX
+Go to the **System** menu (\<Avo\> + \<Disk\>), press \[DMX
 Settings\].
 
 Select a Node on the left (where the DMX is going to). On the right, 
@@ -24,4 +24,4 @@ To change the IP address of the console, press \[[Network Settings](../networkin
 the **System** menu.
 
 To change [User Settings](../system-settings/user-settings.md) which let you personalise how the console works,
-hold down \<Avo\>/\<Shift\> and select \[User Settings\].
+hold down \<Avo\> and select \[User Settings\].

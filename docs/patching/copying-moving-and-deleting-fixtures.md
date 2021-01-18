@@ -24,7 +24,7 @@ Move is useful for tidying up the console.
 	a **Move** button press \<Avo\> and \<Copy\>).
 
 2. Press the Select button of the fixture you want to copy/move. You
-can select multiple fixtures -- use the \<And\> button to
+can select multiple fixtures - use the \<And\> button to
 add more fixtures to the selection.
 
 3. Press the empty Select button where you want it to go.
@@ -64,7 +64,7 @@ something else.
 
 3. Press the Select button of the fixture you want to delete.
 
-4. The button will light up red and the console asks for confirmation.
+4. The button (if a touch button) will light up red and the console asks for confirmation.
 Press the Select button again to confirm.
 
 -   You can delete a range of fixtures in one operation.

@@ -50,7 +50,7 @@ in the new address on the numeric keypad and pressing \<Enter\>.\
 ![DMX Line](/docs/images/DMX-Line.png)
 
 3. To patch a single dimmer, press a Fixture touch button, a
-Macro/Executor button or the blue Select button of a fader handle. To
+Macro/Executor button or the **Select** button of a fader handle. To
 patch a sequence of dimmers each to its own button, press \[Quantity\]
 and set the number of dimmers then press the first select button.
 Alternatively, run your finger or draw a selection box round the touch
@@ -128,7 +128,7 @@ you patch to a different DMX line, or you can enter the address as
 ![Address Input](/docs/images/Address-Input.png)
 
 7. Patch the fixture by pressing a Fixture touch button, a
-Macro/Executor button or the blue Select button of a fader handle (not
+Macro/Executor button or the **Select** button of a fader handle (not
 the main playback faders).
 
 8. A fixture touch button turns dark blue and shows fixture details

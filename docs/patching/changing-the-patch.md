@@ -157,7 +157,7 @@ You can set a legend for each fixture or dimmer you've patched which is
 displayed in the touch button. This can be really useful to help you
 identify the fixture.
 
-1. At the main menu press \[Set Legend\].
+1. Press \<Legend\> (D9 only) or on the main menu press softkey \[Set Legend\].
 
 2. Press the Select button for the fixture you want to legend.
 
@@ -195,7 +195,7 @@ you to find them quickly. Halo colours can be set manually for each
 fixture (the default setting), or automatically by fixture type using
 the same fixture colours used in the patch window..
 
-To set a manual halo colour, click \[Set Legend\], click the fixture
+To set a manual halo colour, press \<Legend\> or click \[Set Legend\], click the fixture
 button (or select multiple buttons) then select the \[Halo\] option. A
 colour picker will open to let you set the colour, or pressing \[System
 Colours\] will give you colour options on the softkeys. A \[Remove
