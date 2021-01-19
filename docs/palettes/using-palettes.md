@@ -38,13 +38,13 @@ to the selected fixtures.
 You can also recall a palette by its number by typing the number on the
 numeric keypad.
 
-1. Select some fixtures
+1. Select some fixtures.
 
-2. Press \<Palette\> above the numeric keypad
+2. Press \<Palette\> above the numeric keypad.
 
-3. Type in the number of the palette you want to recall
+3. Type in the number of the palette you want to recall.
 
-4. Press \<Enter\> or \[Apply Palette\]
+4. Press \<Enter\> or \[Apply Palette\].
 
 The \[Apply Palette\] softkey shows the legend of the palette which
 will be applied.
@@ -53,14 +53,14 @@ will be applied.
     the Blind to Live function. Put the console into Blind mode (either
     press the \<Blind\> button if provided, or hold \<Avo\> and press
     \[Blind Inactive\]. Select the palettes you want to use. Enter a
-    fade time in seconds on the keypad (or 0 to snap), then press
-    \<Blind\> again. The palettes will fade to the live output.
+    fade time in seconds on the keypad (or 0 to snap), then press \<Blind\> 
+    again. The palettes will fade to the live output.
 
 Palette Pages
 -------------
 
 If you have stored palettes on physical buttons on the console, the
-\<+Page\>/\<-Page\> buttons will change to a different page of palettes.
+\<Page+\>/\<Page-\> buttons will change to a different page of palettes.
 If you want a palette to be locked on its handle and not change when the
 page is changed, you can set a lock or transparent lock on the palette
 handle. See [Handle Paging](../cues/playback-options.md#handle-paging)
@@ -68,17 +68,15 @@ for more details about locks.
 
 Each of the palette windows can either display pages of palettes, with
 page buttons on the left, or a continuous scrolling window of palettes.
-To change between pages and scrolling, touch the **Pages Show/Hide** button
-in the context button area to the left of the menu buttons, then change
+To change between pages and scrolling, touch the **Pages Show/Hide** 
+context menu button, then change
 pages using the page buttons to the left of the palette buttons.
 
->   You can recall a palette from any page using its number as described
-    in the [previous section](#recalling-from-the-keypad).
 
 Only Showing Relevant Palettes
 ------------------------------
 
-If the [User Setting \[Filter Relevant Palettes\]](../system-settings/user-settings.md#filter-relevant-palettes)
+If the User Setting [Filter Relevant Palettes](../system-settings/user-settings.md#filter-relevant-palettes)
 is enabled, when you
 select fixtures any palettes which are not applicable will grey out.
 This is very useful to see which palettes are available for the fixtures
@@ -89,7 +87,7 @@ Quick Palettes with no Fixtures Selected
 
 If you press a palette button when no fixtures are selected, the palette
 will be set to all the fixtures the palette applies to. This is called a
-Quick Palette.
+**Quick Palette**.
 
 For example if you've got some colour palettes programmed
 for your MAC 2000s, pressing one of the palettes when no MAC 2000s are
@@ -101,5 +99,5 @@ Setting Palettes to All Fixtures in a Playback
 ----------------------------------------------
 
 You can apply a palette to all fixtures in a particular playback. Hold
-the palette button and press the **select** button of the playback which the
+the palette button and press the **Select** button of the playback which the
 palette is to apply to.

@@ -26,8 +26,7 @@ or you can type in a numerical value.
 
 You cannot **Delete** a value from a palette, but you can disable it by selecting the value and
 pressing the \[Off\] softkey or \<Off\> button. If you select a value which shows
-'[Off]', the softkey will show \[On\], and would re-enable the previous value, or the 
-\<Off\> button will toggle between **Off** and the previous value.
+'[Off]', the softkey will show \[On\], and would re-enable the previous value.
 
 -   When the palette contains other palettes, the context menu option
     \[View/Hide Nested Palettes\] sets whether or not the view shows the
@@ -53,7 +52,7 @@ palette; for Shared palettes the first fixture in the palette will be
 selected. Next, make the changes you want, then press the \[Update
 Palette x\] softkey to save the changes.
 
-The \<Edit\>/\<Update Palette\> button also allows you to change the
+The \<Edit\> button also allows you to change the
 palette name and number.
 
 You can also load the palette into some fixtures, modify the attributes
@@ -76,14 +75,14 @@ When double clicking a palette button to update, the default option is
     You can also press the palette button a second time to select the
     **Merge** option.
 
--   You can add additional fixtures to a palette without affecting
+-   You can add settings for additional fixture types to a palette without affecting
     existing ones.\
     *For example, if you have colour palettes for Mac
-    600s, you can add colours for your Mac 500s without affecting any
+    Auras, you can add colours for your Robe BMFLs without affecting any
     previously recorded values in the palette.*
 
 -   You can remove attributes from palettes using the
-    [\<Off\> function](../cues/editing-cues.md#removing-attributes-from-cues-using-off).
+    \<Off\> button as described above.
 
 -   When editing a palette the state of the programmer will be
     preserved; when the modified palette is saved, your original
@@ -99,11 +98,11 @@ the right colour, the \<Update\> function lets you automatically update the
 palette used in the cue.
 
 1. With the cue fired, select the fixtures and change them to the
-settings you want to store *(e.g. the right green colour)*
+settings you want to store.
 
-2. Press \<Update\> (on Pearl Expert, \<Record Cue\>, \[Update\])
+2. Press \<Update\> (on Pearl Expert, \<Record Cue\>, \[Update\]).
 
 3. The cues and palettes which relate to the cue and can be updated are
-shown on the softkeys
+shown on the softkeys.
 
-4. Select the items you want to update and press \<Update\> again
+4. Select the items you want to update and press \<Update\> again.
