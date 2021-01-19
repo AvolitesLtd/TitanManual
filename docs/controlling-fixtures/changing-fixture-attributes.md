@@ -12,7 +12,8 @@ have various options for controlling them.
 
 "Attributes" are the functions of the fixture, like pan, tilt, colour,
 dimmer, etc. You select which attributes you want to modify using the
-IPCGBESFX Attribute Bank buttons and set values using the wheels. The attributes
+**Attribute Bank** buttons - Intensity, Position, Colour, Gobo, Beam,
+Effect, Special, FX (abbreviated as IPCGBESFX) and then set values using the wheels. The attributes
 available depend on the fixture type. Dimmer channels only have a dimmer
 attribute.
 
@@ -31,12 +32,12 @@ window](../controlling-fixtures/changing-fixture-attributes.md#attribute-editor-
     wheels on the console, unless you change this using the User Settings.
 
 Each attribute button controls several attributes, one on each wheel. On
-Sapphire Touch the trackball controls pan/tilt of the selected
+Diamond 9 and Sapphire Touch the trackball controls pan/tilt of the selected
 fixtures, with the ring controlling dimmer by default. You can change this
 by pressing the \<Assign\> button next to the trackball.
 
 1. With some fixtures selected, press the button for the attribute to
-be changed
+be changed.
 
 2. Turn the wheels to set the attribute. The settings which are
 available scroll up and down on the wheel display as you turn the wheels.  
@@ -55,7 +56,8 @@ Some other things to know about attributes:
 -   If the wheel display shows a small arrow next to the legends as shown above, this
     means that there are more than three attributes to control in this bank. 
     Press the attribute button again to toggle through the attributes (for example
-    some LED fixtures have Red, Green, Blue, Amber, White - so when you
+    some LED fixtures have Red, Green, Blue, Amber, White - so on a console with three
+    wheels, when you
     press \<Colour\> you would first get Red, Green, Blue on the three
     wheels, then if you press \<Colour\> again you will get Amber and White.)
 
@@ -90,11 +92,13 @@ Some other things to know about attributes:
 ## Attribute Editor Window
 
 For attributes with fixed values such as gobos and fixed colour wheels,
-the Attribute Editor window can be easier to work with than the wheels.
+the Attribute Editor window can be easier to work with than the wheels as
+you can directly choose gobos or colour slots.
 It also offers a colour picker window for fixtures with RGB or CMY
 colour mixing.
 
-Double press \<View/Open\> then \[Attribute
+The Diamond 9 has a dedicated Editor touchscreen to show the Attribute Editor,
+on other consoles you open it as a workspace window - Double press \<View/Open\> then \[Attribute
 Editor\] from the window select buttons to show it. As a shortcut you can also show it by touching the
 attribute name text just below the on-screen IPCGBES buttons.
 
@@ -337,8 +341,8 @@ also been modified.
 [](https://youtu.be/xZrVhnY1hnA?t=20 "Align Fixtures")
 
 You can copy attributes from one fixture to another using the Align
-Fixtures function. This is very useful, for example, if you've
-accidentally left a fixture out of a cue you can copy settings from its
+Fixtures function. This is useful for example if you
+accidentally left a fixture out of a cue, you can use Align to copy settings from its
 neighbour.
 
 You can align multiple fixtures to others in one operation, either using
@@ -348,8 +352,7 @@ fixtures there are options to set how this is handled, see below.
 1. Select the fixtures you want to Align either manually or using a
 group.
 
-2. At the top level menu press \<Fixture Tools\>/\<ML Menu\> then
-\[Align Fixtures\].
+2. Press \<ML Menu\> then \[Align Fixtures\].
 
 3. Set the mask to include the attribute groups you want to copy (using
 the Attribute Bank buttons, or using the softkey options for exclude and
@@ -400,10 +403,12 @@ Flip function lets you do that.
 
 1. Select the fixtures you want to Flip.
 
-2. At the top level menu press \<ML Menu\> then \[Flip Pan and Tilt\].
+2. Press \<Fixture\> then \[Flip Pan and Tilt\].
 
-The Position window in the Attribute Editor also has a \[Flip\] button
-which does this.
+- The Position window in the Attribute Editor also has a \[Flip\] button
+which does this. 
+
+- On consoles with a \<ML Menu\> button you can also use that menu to access Flip.
 
 > The settings used for Flip are defined in the fixture personality. If Flip doesn't work you may need to update to the latest personality.
 
@@ -528,7 +533,8 @@ There are a number of ways to set the times:
 
 -   You can set individual attribute times by switching the wheels to
     Fade Time / Delay Time mode using the \[Wheels=\] softkey on the
-    root menu.
+    root menu. The Diamond 9 has a \<Fade / Delay\> button to the right
+    of the wheels to set this mode.
 
 -   Individual attribute times can also be set using a combination of
     the wheel @ keys and the \<Time\> key.
