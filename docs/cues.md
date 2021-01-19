@@ -40,8 +40,8 @@ called a **Playback**. You can store in several places:
 -   On a **Macro/Executor button** - again you can use [Key Profiles](system-settings/key-profiles.md) to
     set latch or flash
 
-If you run out of faders to store playbacks, fader wings are available
-for [all consoles](about-the-consoles.md) to add more faders.
+If you run out of faders to store playbacks, [fader wings](./about-the-consoles/fader-wings.md) are available
+for all consoles to add more faders.
 
 Titan's cue functions are very powerful; the first part of this section
 explains the basics of how the console uses cues.

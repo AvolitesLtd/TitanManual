@@ -43,14 +43,14 @@ in the programmer will override the playback).
     set to Mode 2 in which case they fade with the fader position; see
     the timings section [Fader Modes](cue-timing.md#fade-modes) for details of modes)*.
 
--   You can **Flash** the cue by pressing the grey flash button. You can
-    **Swop** (solo) the cue by pressing the blue Swop button (all other
+-   You can **Flash** the cue by pressing the Flash button. You can
+    **Swop** (solo) the cue by pressing the Select button (all other
     active cues will turn off while the button is pressed). This assumes
     you haven't reassigned the function of the buttons using
     [Key Profiles](../system-settings/key-profiles.md), see below.
 
--   You can **Preload** the cue by assigning the Preload function to the
-    blue or grey buttons using
+-   You can **Preload** the cue by assigning the Preload function to one of the
+    handle buttons using
     [Key Profiles](../system-settings/key-profiles.md). Preload sets the attributes
     of fixtures in the playback which are not currently active in any
     other playbacks. *This is useful to avoid the fixtures visibly moving
