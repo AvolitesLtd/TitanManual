@@ -7,10 +7,12 @@ sidebar_label: Other Parts of the Touch Screen
 The Menu/Softkeys
 -----------------
 
-(Except Pearl Expert, which has a dedicated display for the menu)
+*(Except Pearl Expert, which has a dedicated display for the menu)*
 
-The right hand side of the touch screen is used for the operating menu
-display. These are known as the "Softkeys" and are lettered A-G.
+The right hand side of the main touch screen is used for the operating menu
+display. These are known as the "Softkeys" and are lettered A-G. On the Diamond 9
+there is a separate touchscreen for the system prompt and the menu
+softkeys to the left of the right-hand screen.
 
 ![Titan Touch Screen User Interface](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
@@ -29,7 +31,8 @@ playbacks to rearrange the console.
 The area to the top left of the menu buttons with an Avolites logo in
 the background is the system prompt area which shows instructions to the
 user and information from the console. The last commands you used are
-also shown here, for use with the Undo function.
+also shown here, for use with the Undo function. On the Diamond 9 this is 
+displayed on the Menu screen above the menu softkeys.
 
 ![Prompt Area](/docs/images/System-Area.png)
 
@@ -46,10 +49,10 @@ here.
 
 ![Wheels](/docs/images/Wheels-2.png)
 
-To the right of (Sapphire Touch) or above (other consoles) the roller,
+Next to the roller display,
 the screen shows which attribute group (IPCGBESFX or Intensity,
 Position, Colour, Gobo, Beam, Effect, Special, FX) is selected (grey
-box) and which are currently modified (blue circle).
+box) and which are currently modified (blue circle). 
 
 The appearance of the softkeys varies to indicate the type of actions
 available:

@@ -33,7 +33,7 @@ keeping the same size and position.
 
 You can also use the \[Open
 Workspace Window\] menu command on the root menu to show the workspace open buttons.
-Pressing \<View/Open\> again will close the workspace button overlay, or pressing the X
+Pressing \<View/Open\> again will close the workspace button overlay, or pressing the \{X\}
 at the top of the button overlay on any screen will close it on all screens.
 
 
@@ -108,9 +108,11 @@ use the \[Close All\] softkey.
 ### Context Menu Buttons
 
 On all consoles apart from Sapphire Touch and Titan Go, **context menu 
-buttons** are automatically shown below the prompt area on the top right 
-of the main screen. These buttons contain useful functions for the current
+buttons** appear which contain useful functions for the current
 active window and change depending on the window. \
+On Diamond 9 the context menu buttons are in the top left hand corner of the right
+hand screen - on all other consoles they are below the prompt area on the top right 
+of the main screen. These buttons
 The picture below gives an example of
 how the context buttons appear when Patch View window is active.
 
@@ -150,8 +152,8 @@ You can save workspace layouts, allowing you to reconfigure either all the windo
 screen, or all the windows on all the screens, at the touch of a button.
 
 Workspace layouts are saved to the Workspaces touch buttons to the left
-of the A-G menu buttons and above the wheel displays (except on Sapphire Touch and Titan Go where
-they are down the left side of the screen).
+of the A-G menu buttons and above the wheel displays (except on Diamond 9, Sapphire Touch and Titan Go where
+they are on the left side of the screen).
 
 ![Workspaces](/docs/images/Recoding-a-Workspace-Layout.png)
 
@@ -196,8 +198,9 @@ will behave if you load more windows, and to be able to target particular window
 	
 
 >	**Screen numbering**\
-	On consoles with a single internal screen, that is (1) and the external screen is (2).
-	On Arena 	the main screen is (1), the mini screen (2) and the external screen (3). 
+	On consoles with a single internal screen, that is (1) and the external screen is (2).\
+	On Diamond 9 the right main screen is (1), middle is (2), left is (3), external screens are (4) and (5), Editor screen is (6), Video preview screens are (7) (8) (9).\
+	On Arena 	the main screen is (1), the mini screen (2) and the external screen (3). \
 	On Sapphire Touch the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).
 
 As an example of setting up a workspace, suppose while programming you
@@ -237,7 +240,8 @@ enter a legend. Touch or click again to store the item.
 
 The Quick Record function can be disabled for a particular button type using [Key Profiles](../system-settings/key-profiles.md).
 
-For palette buttons, the quick record function works slightly differently to pressing \<Record\> followed by the button. See [Storing a Palette](../palettes/creating-palettes.md#storing-a-palette).
+For palette buttons, the quick record function works slightly differently to pressing \<Record\> followed by the button because
+a mask is automatically applied. See [Storing a Palette](../palettes/creating-palettes.md#storing-a-palette).
 
 ## Legends and Picture Legends
 
@@ -250,19 +254,21 @@ of pictures to choose from including popular gobo designs.
 Colour palettes will automatically create a picture legend showing the
 colour(s) in the palette when you save it. Gobo palettes will show an
 image of the standard gobo, if the fixture personality has this
-information in it.
+information in it.  
 
 ![Gobos and Beams Workspace Window](/docs/images/Gobos-and-Beams-Workspace-Window.png)
 
 ## Button Halo
 
-You can set a custom coloured halo for fixture, group or palette
+You can set a custom coloured halo for fixture, group, playback or palette
 buttons. This can be really useful for identifying different types of
 button at a glance. Select the \[Halo\] option on the Set Legends menu.
 
 ![Halo](/docs/images/Fixture-Halo.png)
 
 If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help identify different types of fixture, which is also used in the patch window.
+
+On the Diamond 9, the halo colour set on playbacks is used in the level bargraph lighting and the playback indicator.
 
 
 ## Touch Keyboard
@@ -287,7 +293,7 @@ less frequently used buttons.
 ![Touch Screen Keyboard](/docs/images/Keyboard.png)
 
 
-## Trackball (Sapphire Touch only)
+## Trackball (Diamond 9 and Sapphire Touch only)
 
 The trackball on the right of the console can be used either to control
 the mouse pointer on the touch screens and external monitors, or to
@@ -301,7 +307,19 @@ To use in console mode for controlling fixtures, press the \<Assign\>
 button on its own. The trackball will control pan and tilt of selected
 fixtures, and the ring controls fine tilt.
 
+## Video preview screens (Diamond 9 only)
+
+The three preview screens on the top right of the console can be configured to show 
+NDI video streams, or can also be used as extra workspace windows.
+
+To configure the screen double press \<View/Open\> and window selection buttons will pop up
+on each screen, touch the type of window you want to configure the view.
+
 ## Mini Screen (Arena only)
+
+The mini-screen can be used as a configurable workspace display just like the main monitor.
+To configure the screen double press \<View/Open\> and window selection buttons will pop up
+on the screen, touch the type of window you want to configure the view.
 
 The \<Display\> button below the rotary encoders toggles through four
 fixed layouts for the Mini screen:

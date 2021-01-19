@@ -4,15 +4,15 @@ title: Front Panel Buttons
 sidebar_label: Front Panel Buttons
 ---
 
-The blue and grey buttons associated with fader handles, and the
+The Select and Flash buttons associated with fader handles, and the
 macro/executor buttons are configurable and you can use them in various
 ways.
 
 Key profiles
 ------------
 
-The console allows you to change the function of the blue select and
-grey flash panel buttons (and the black buttons on Sapphire Touch). You
+The console allows you to change the function of the Select and
+Flash panel buttons (and the black buttons on Sapphire Touch). You
 can also change the way some of the touch keys work. You can save your
 settings as a [Key Profile](../system-settings/key-profiles.md). Different profiles can be selected for
 different users or to enhance the operation of the console for a
@@ -31,12 +31,15 @@ Real Time mode is useful when you are using a macro to reproduce a
 lighting effect, for example a sequence of flash buttons. Full Speed
 mode is more useful for admin tasks such as changing console mode.
 
-Macros can be stored in most workspace windows, on the dedicated buttons 
-on the top right of the panel and on the grey handle buttons. There is also 
+Macros can be stored in most workspace windows, on the dedicated Macro/executor buttons 
+on the top right of the panel and on the handle buttons. There is also 
 a dedicated Macro button window which can be shown in the workspace. 
 The top right panel macro/executor/workspace buttons are shown in the 
 Static Playbacks workspace window while the designated 10 Macro buttons 
 on the old Tiger Touch correspond to the first 10 macros in the Macros window.
+
+The Diamond 9 has six macro buttons with dedicated legend display 
+in between the two banks of playback faders.
 
 The Arena also has two additional Macro buttons on the bottom left
 corner of the console.
