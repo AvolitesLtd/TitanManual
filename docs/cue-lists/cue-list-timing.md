@@ -142,6 +142,8 @@ useful for complex performances which must be exactly the same time
 every time, or for unattended operation. Each step in the cue list is
 assigned a time at which it will run.
 
+> See also [Timelines](../timelines.md) which offer a more streamlined way of producing a show to timecode.
+
 The console can have up to 4 separate timecode sources. For each, the
 timecode can be read from the system clock, from an internal timecode
 source, from MIDI, SMPTE or from Winamp. Internal timecode is useful for
