@@ -10,8 +10,8 @@ Setting up the Stage and Rigging
 To help you see what your rig will really look like you can add fixed
 elements of staging and rigging.
 
-Open the Capture Visualiser Settings window from the [Open Workspace
-Window menu](../titan-basics/workspace-windows.md#shortcuts-to-open-workspace-windows), or the \{Open Settings\} context button in the Capture window.
+Open the Capture Visualiser Settings window by double pressing \<View/Open\>,
+then select Visualiser Settings from the window select buttons (or you can use the \{Open Settings\} context button in the Capture window.)
 Click the **Stage** tab.
 
 ![Capture Visualiser Settings Window](/docs/images/Capture-Visualiser-Settings-Window.png)
@@ -44,7 +44,7 @@ Press the \{Position - Orientation\} context menu button to
 switch the wheels to Visualiser mode *(or press Softkey G at the top
 level menu until the display shows Wheels-Visualiser)*.
 
-Select **Position** attribute, then use the wheels to change the X/Y/Z
+Select <\Position\> attribute, then use the wheels to change the X/Y/Z
 position of the fixture(s). If you select multiple fixtures, pressing
 the \{Scale-Fan\} context menu button or the \<Fan\> button allows you to
 evenly spread out the fixtures. The [Fan curve/group/split options](../controlling-fixtures/changing-fixture-attributes.md#fan-mode) also
@@ -61,7 +61,7 @@ Axis | Action
 **Y** | moves up and down
 **Z** | moves towards and away from you
 
-Press the **Position** button again to switch the wheels to Orientation
+Press \<Position\> again to switch the wheels to Orientation
 mode. The wheels will now pivot the fixtures in the X/Y/Z axes. Again
 you can use the [**Fan**](../controlling-fixtures/changing-fixture-attributes.md#fan-mode) button to give a spread of angles on multiple
 fixtures.
@@ -77,7 +77,7 @@ enable you to achieve other angles.
 ![gimbal](/docs/images/Gimbal.jpeg)\
 *Illustration by MathsPoetry*
 
-Press the **Position** button a third time to switch the wheels to Rotation
+Press \<Position\> a third time to switch the wheels to Rotation
 mode. This is similar to Orientation but if you have multiple fixtures
 selected, the fixtures rotate as a group about the middle fixture.
 
@@ -94,7 +94,7 @@ The context menu buttons provide camera options.
 ![Capture Visualiser Workspace Window Context Menu](/docs/images/Capture-Visualiser-Workspace-Window-Context-Menu.png)
 
 Camera controls are in the [Capture Visualiser Settings window](#setting-up-the-stage-and-rigging) which you
-can open by double pressing \<Open/View\> to show the workspace window buttons, or using the \{Open
+can open by double pressing \<View/Open\> to show the workspace window buttons, or using the \{Open
 Settings\} context button.
 
 The view buttons across the top select the four default views *(shown below)*. Press the
