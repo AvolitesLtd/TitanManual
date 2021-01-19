@@ -8,7 +8,7 @@ You can configure different **Workspaces** which store the layout of
 the various windows displayed on the console screen(s). This allows you to quickly recall
 different setups. Workspaces are stored and recalled from the touch
 buttons to the left of the menu buttons (or down one side of the screen
-for Sapphire Touch, Titan Go, and on external screens). You can also store workspaces
+for Diamond 9, Sapphire Touch, Titan Go, and on external screens). You can also store workspaces
 to any executor button on the console.
 
 Double press \<View/Open\> to show the window select buttons. See

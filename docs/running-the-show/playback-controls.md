@@ -39,7 +39,7 @@ To assign master faders, from the **System** menu select \[Assign Masters\], or 
 By default, master faders are set to have a transparent lock, which makes the master fader remain in position even when the playback page is
 changed. If you don\'t want this to happen you can change it by pressing \<Options\> (or \[Options\] softkey from the root menu) then press the Swop/Select button of the master.
 
-On the Arena console, the rotary encoders on the Mini Screen are very useful as speed masters or group masters - press the encoder to select
+On the Diamond 9, the rotary encoders at the sides of the touchscreen (or on the Arena the rotary encoders beside the Mini Screen) are very useful as speed masters or group masters - press the encoder to select
 it as a master. Press the Display button below the encoders to show legends for the encoders on the screen if they are not already shown
 (there are 4 display modes to cycle through).
 
@@ -105,7 +105,7 @@ tempo, it would then be scaled down by the Rate Grand Master.
 
 ### Adjusting masters using the wheels
 
-You can adjust Intensity, Size, Rate and BPM masters from the wheels by pressing \[Connect\] followed by the blue button of the master. This is useful for making fine adjustments to the setting of a master. For a BPM master you can also adjust "Edge Sync" which allows you to nudge the synchronisation forwards or backwards.
+You can adjust Intensity, Size, Rate and BPM masters from the wheels by pressing \[Connect\] followed by the **Select** button of the master. This is useful for making fine adjustments to the setting of a master. For a BPM master you can also adjust "Edge Sync" which allows you to nudge the synchronisation forwards or backwards.
 
 While a wheel is connected you can touch up or down in the wheel display area to nudge the value up or down. Pressing the \<@\> button for the
 wheel opens a softkey menu where you can input a numerical value or \[Release\] the speed and multiplier to default values.
@@ -125,7 +125,7 @@ Fixture Group Masters
 You can assign a fader to control the master intensity of each fixture group. To do this you simply save (or move) the group button to a handle
 with a fader.
 
-The blue button will then select fixtures in the group and holding the blue button gives you softkey options to filter the selection according to a pattern.
+The **Select** button will then select fixtures in the group and holding down the select button gives you softkey options to filter the selection according to a pattern.
 
 Press \<Options\> (or \[Options\] softkey) and then the blue select button above the fader to set the fader mode to the following:
 
