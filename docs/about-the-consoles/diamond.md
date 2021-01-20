@@ -140,7 +140,7 @@ of the console.
 
 \(g\) Work light switch. The console has integrated LED lighting around the connections panel.
 
-\(h\) Four gigabit etherCON network connections from the internal network switch.
+\(h\) Four gigabit etherCON network connections from the internal Luminex network switch.
 
 \(i\) GPIO trigger connection (D-connector and separate jack connector).
 

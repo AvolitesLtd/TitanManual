@@ -22,7 +22,8 @@ different optical switch you should contact Avolites for advice.
 Wired Ethernet Outputs
 ----------------------
 
-The Diamond and Arena consoles have an in-built 1 Gb TitanNet switch (TNS) that is
+The Diamond console has an in-built 1Gb Luminex network switch; the 
+Arena console has an in-built 1 Gb TitanNet switch (TNS). These are
 directly connected to the console Main board on network connection 1.
 The network switch has 4 ports available on the back of the console.
 
@@ -58,7 +59,7 @@ To change the IP address of the TNS in the console:
 Power and UPS behaviour 
 -----------------------
 
-The TitanNet switch in the console runs from the same UPS as the console
+The network switch in the console runs from the same UPS as the console
 itself, so if power fails the switch will continue working.
 
 When you power down the console, the UPS will continue to power the
