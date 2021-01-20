@@ -23,7 +23,7 @@ Key macro buttons
 
 Lighting programming can sometimes require a repeated sequence of button
 presses. You can record sequences of keypresses and play them back with
-a single keypress -- this is called a macro. The macro can reproduce the
+a single keypress - this is called a **macro**. The macro can reproduce the
 timing of your button presses (Real Time mode) or just repeat the
 sequence of buttons with no timing (Full Speed mode).
 
@@ -32,16 +32,16 @@ lighting effect, for example a sequence of flash buttons. Full Speed
 mode is more useful for admin tasks such as changing console mode.
 
 Macros can be stored in most workspace windows, on the dedicated Macro/executor buttons 
-on the top right of the panel and on the handle buttons. There is also 
+and on the handle buttons. There is also 
 a dedicated Macro button window which can be shown in the workspace. 
-The top right panel macro/executor/workspace buttons are shown in the 
-Static Playbacks workspace window while the designated 10 Macro buttons 
-on the old Tiger Touch correspond to the first 10 macros in the Macros window.
+The macro/executor/workspace button legends are shown in the 
+Static Playbacks workspace window. *The 10 Macro buttons 
+on the Tiger Touch 1 correspond to the first 10 macros in the Macros window.*
 
-The Diamond 9 has six macro buttons with dedicated legend display 
+- The Diamond 9 has an additional six macro buttons with dedicated legend display 
 in between the two banks of playback faders.
 
-The Arena also has two additional Macro buttons on the bottom left
+- The Arena also has two additional Macro buttons on the bottom left
 corner of the console.
 
 To record a macro:

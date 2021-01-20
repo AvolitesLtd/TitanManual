@@ -57,6 +57,7 @@ a range of program functions including cues, chases, and fixture groups.
 The rotary faders have a level indicator around them which is shown in
 a user-configurable colour (halo colour).
 The touch screen below the faders shows legends indicating their function.
+There are additional rotary faders down the sides of the left and right touchscreens.
 
 \(I\) The **Page Select buttons** in the
 centre of the faders let you change the left or right fader banks to a different page.

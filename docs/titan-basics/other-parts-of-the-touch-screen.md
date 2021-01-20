@@ -11,7 +11,7 @@ The Menu/Softkeys
 
 The right hand side of the main touch screen is used for the operating menu
 display. These are known as the "Softkeys" and are lettered A-G. On the Diamond 9
-there is a separate touchscreen for the system prompt and the menu
+there is a separate Menu touchscreen for the system prompt and the menu
 softkeys to the left of the right-hand screen.
 
 ![Titan Touch Screen User Interface](/docs/images/Titan-Touch-Screen-User-Interface.png)
