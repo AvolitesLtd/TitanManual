@@ -66,7 +66,7 @@ Timeline-Global Release Time | Sets the Global Release Time for playbacks trigge
 
 Option              | Action
 ---|-----
-Activate In Range | Off: Timeline must be fired manually. <br>**On:** Timeline will be fired automatically when timecode comes within the Start/End time range.
+Activate In Range | **Activate at 100%**: Timeline will be fired automatically at 100% level when timecode comes within the Start/End time range.<br>Activate at 0%: Will be fired automatically but at 0% level (zero intensity)<br>Off: Timeline will not be activated until the manually fired.
 Kill Out Of Range | Off: Timeline will remain active when the timecode goes outside the Start/End time range. <br>**On:** Timeline will be killed when the timecode goes outside the Start/End time range.
 Loop | **Off**: Internal timecode source does not loop when it reaches End Time<br>On: Internal timecode source will loop back to Start Time when it reaches End Time.
 

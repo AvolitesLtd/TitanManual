@@ -8,7 +8,7 @@ sidebar_label: Running and Editing Timelines
 Running a timeline to timecode
 ------------------
 
-The HTP (intensity) of fixtures in the timeline is controlled by the fader level of the handle. The console will automatically fire the timeline playback to full when timecode is received within the range of the timeline settings (you can turn this off using the option [Activate in Range](../timelines/timeline-options.md#timecode-tab)).
+The HTP (intensity) of fixtures in the timeline is controlled by the fader level of the handle. The console will automatically fire the timeline playback to full when timecode is received within the range of the timeline settings (you can turn this off, or set the timeline to fire at zero intensity setting only LTP attributes, using the option [Activate in Range](../timelines/timeline-options.md#timecode-tab)).
 
 1.  Ensure the **timecode link** button (bottom left of the timeline view) is set to **Linked**.
 
