@@ -176,20 +176,19 @@ The Scene Master is set to Live mode by default which means that all changes are
 
 ![Scene Master (Live)](/docs/images/Scene-Master-Live.png)
 
-To enter preset mode, press the **Select** button of the Scene Master (or \<Preset\> on the D9). The display above the master will show "Preset" and the background turns purple.
+To **enter** preset mode, press the **Select** button of the Scene Master (or \<Enter/B\> below the T-bar on the Diamond 9). The display above the master will show "Preset" and the background turns purple. To **exit** preset mode and return to normal live operation, press the **Select** button again (or \<Exit/A\> below the T-bar on the Diamond 9).
 
 ![Scene Master (Preset)](/docs/images/Scene-Master-Preset.png)
 
 Now any changes you make - firing playbacks, stepping cue lists, applying palettes and so on - will only be shown on the visualiser and won't change the output. Everything you change for the preset will also turn purple on its display.
 
 You can now smoothly fade all your preset changes to the output by fading the Scene Master to the other end of its travel.
-If times are programmed for cues or palettes they will also run. Once the fader has reached the end of the travel, the new state is "committed" to the output, or you can press the grey handle button (\<Commit\> on D9) to manually commit the new state. The Scene Master will remain in Preset mode until you change back to Live mode.
+If times are programmed for cues or palettes they will also run. Once the fader has reached the end of the travel, the new state is "committed" to the output, or you can press the grey handle button (\<Commit\> on Diamond 9) to manually commit the new state. The Scene Master will remain in Preset mode until you change back to Live mode.
 
 Normally the Scene Master will auto-reverse so you can just keep
 presetting new states, moving the fader alternately up and down. You can
-also set it to require you to move it back to zero each time. Press
-\<Options\> (or \[Options\] softkey) then the **Select** button of the master. The options
-are:
+also set it to require you to move it back to zero each time - press
+\<Options\> (or \[Options\] softkey) then the **Select** button of the master to change the options:
 
 -   \[Auto Commit and Invert\] Commits the changes once the fader has
     reached the end of travel. You can then preset a new state and fade
@@ -203,6 +202,8 @@ are:
     move the fader back to 0 the output state will go back to what it
     was before. You need to manually commit the changes using the grey
     button (the button can be changed using Key Profiles).
+
+On the Diamond 9, there are additional Scene Master buttons \<Reset\> which clears all preset changes back to the current live state, and \<Preload\> which acts like a normal preload button for the preset changes, loading the LTP attributes.
 
 A Scene Master can also be set on executor buttons or touch buttons in
 the Playbacks workspace. In this case, hold \<Avo\> (or Release) and
