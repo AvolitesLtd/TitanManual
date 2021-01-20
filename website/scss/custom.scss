@@ -27,6 +27,28 @@
   }
 }
 
+@font-face {
+  font-family: 'GT America Standard Light';
+  src: url('/fonts/GT-America/GT-America-Standard-Light.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/GT-America/GT-America-Standard-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/GT-America/GT-America-Standard-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/GT-America/GT-America-Standard-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/GT-America/GT-America-Standard-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'GT America Standard Standard';
+  src: url('/fonts/GT-America/GT-America-Standard-Standard.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/GT-America/GT-America-Standard-Standard.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/GT-America/GT-America-Standard-Standard.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/GT-America/GT-America-Standard-Standard.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/GT-America/GT-America-Standard-Standard.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+body {
+  font-family: 'GT America Standard Standard', 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+}
+
 // nav
 .docsNavContainer {
   border-right: 2px solid rgb(218, 218, 218);
