@@ -169,22 +169,26 @@ Scene Master
 
 The Scene Master allows you to preset an output state by firing a number of playbacks or making live changes, using the visualiser to see the effects but without anything happening on stage. When you are ready for the new state, you fade the Scene Master fader to the other end of its travel and the new state is output.
 
-You assign a handle to be Scene Master by pressing \<Record\> then \[Create Master\] (or from the \[Assign Masters\] button on the **System** menu). The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
+You assign a handle to be Scene Master by pressing \<Record\> then \[Create Master\] (or from the \[Assign Masters\] button on the **System** menu). \
+The Diamond 9 has a dedicated T-bar control and buttons for Scene Master, with an associated display to show the status.
+
+The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
 
 ![Scene Master (Live)](/docs/images/Scene-Master-Live.png)
 
-To enter preset mode, press the blue button of the Scene Master. The display above the master will show "Preset" and the background turns purple.
+To enter preset mode, press the **Select** button of the Scene Master (or \<Preset\> on the D9). The display above the master will show "Preset" and the background turns purple.
 
 ![Scene Master (Preset)](/docs/images/Scene-Master-Preset.png)
 
-Now any changes you make -- firing playbacks, stepping cue lists, applying palettes and so on -- will only be shown on the visualiser. Everything you change for the preset will also turn purple on its display.
+Now any changes you make - firing playbacks, stepping cue lists, applying palettes and so on - will only be shown on the visualiser and won't change the output. Everything you change for the preset will also turn purple on its display.
 
-When you fade the Scene Master the state you preset will be faded to the output. If times are programmed for cues or palettes they will also run. Once the fader has reached the end of the travel, the new state is "committed" to the output, or you can press the grey button to manually commit the new state.
+You can now smoothly fade all your preset changes to the output by fading the Scene Master to the other end of its travel.
+If times are programmed for cues or palettes they will also run. Once the fader has reached the end of the travel, the new state is "committed" to the output, or you can press the grey handle button (\<Commit\> on D9) to manually commit the new state. The Scene Master will remain in Preset mode until you change back to Live mode.
 
 Normally the Scene Master will auto-reverse so you can just keep
 presetting new states, moving the fader alternately up and down. You can
 also set it to require you to move it back to zero each time. Press
-\<Options\> (or \[Options\] softkey) then the Select button of the master. The options
+\<Options\> (or \[Options\] softkey) then the **Select** button of the master. The options
 are:
 
 -   \[Auto Commit and Invert\] Commits the changes once the fader has
@@ -206,7 +210,7 @@ press the button to enter or exit preset mode, and press the button on
 its own to commit the preset to the output, You can view the state of
 the Master by opening the Static Playbacks workspace.
 
-You can assign the buttons to do different things using Key Profiles --
+You can assign the handle buttons to do different things using Key Profiles -
 the options are Exit scene mode, Enter scene mode, Commit changes,
 Commit changes and exit scene mode, Enter or Exit scene mode, Enter or
 commit scene mode.

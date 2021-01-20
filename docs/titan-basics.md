@@ -24,9 +24,10 @@ you from most power problems and give you chance to shut down the
 console normally.
 
 If an internal UPS is fitted (Diamond 9, Sapphire Touch, Arena, optional on other
-consoles), on power loss the toolbar on the screen will turn orange and
-display how long you've got before the console shuts down. A warning dialog
-will also pop up on the screen and the current show will be autosaved.
+consoles), on power loss a warning dialog
+will pop up on the screen and the current show will be autosaved.
+Except on D9, the toolbar on the screen will also turn orange and
+display how long you've got before the console shuts down. 
 
 ![UPS Toolbar](/docs/images/UPS-Toolbar.png)
 

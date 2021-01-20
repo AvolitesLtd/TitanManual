@@ -86,13 +86,13 @@ Other useful things to know about recording cues:
 -   The screen immediately above each fader shows a legend for the
     playback. To set this, from the top-level menu press \[Set Legend\], 
     then the playback **Select** button, then enter a legend on the
-    keyboard or draw a picture legend. Press \<Enter\> to store it. *If
-    the fader or button does not have an associated screen you will have
-    to resort to the old fashioned method of white tape and Sharpie.*
+    keyboard or draw a picture legend. Press \<Enter\> to store it.\
+    On the Diamond 9, setting \[Halo\] in the Legend menu will set the illumination colour 
+    of the playback fader.
 
 ![Playbacks stored on playback faders](/docs/images/Playbacks-stored-on-playback-faders.png)
 
--   A Static Playbacks workspace is available to show the contents of
+-   A **Static Playbacks** workspace is available to show the contents of
     the macro/executor buttons and (on the Tiger Touch) the 10 static
     playback faders.
 

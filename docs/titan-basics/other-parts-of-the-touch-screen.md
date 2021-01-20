@@ -7,12 +7,11 @@ sidebar_label: Other Parts of the Touch Screen
 The Menu/Softkeys
 -----------------
 
-*(Except Pearl Expert, which has a dedicated display for the menu)*
-
-The right hand side of the main touch screen is used for the operating menu
+On all consoles except Diamond 9, the right hand side of the main touch screen is used for the main menu
 display. These are known as the "Softkeys" and are lettered A-G. On the Diamond 9
 there is a separate Menu touchscreen for the system prompt and the menu
 softkeys to the left of the right-hand screen.
+*(Pearl Expert also has a separate display for the menu.)*
 
 ![Titan Touch Screen User Interface](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
@@ -72,7 +71,7 @@ available:
 The Toolbar
 -----------
 
-On all consoles except Sapphire Touch, across the very top of the screen
+On all consoles except Diamond 9 and Sapphire Touch, across the very top of the screen
 is the toolbar.
 
 ![Tools Menu](/docs/images/Tools-Menu.png)
@@ -81,6 +80,14 @@ On Sapphire Touch the toolbars are shown vertically where the 2 screens
 meet in the middle.
 
 ![Sapphire Tools Menu](/docs/images/Sapphire-Tools-Menu.png)
+
+On Diamond 9 the toolbar is replaced by a small \{Tools\} button at the top
+left of the right hand touchscreen. There is also a \<Tools\> button on the
+pull-out keyboard.
+
+![D9 Tools button](/docs/images/Tools-Button-D9.png)
+
+---
 
 If you click/touch on \'Tools\', you will get a menu giving you access
 to some configuration functions (these options may change slightly
@@ -127,7 +134,7 @@ software. You would normally only need to use these when upgrading the
 software.
 
 The toolbar also has a keyboard button allowing you to pop up the touch
-keyboard.
+keyboard. On Diamond 9 there is a button \<Keyboard\> for this.
 
 > Toolbars are not provided on Titan Mobile or Titan Go as all these functions can be carried out using standard Windows operations.
 
