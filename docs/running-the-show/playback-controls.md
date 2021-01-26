@@ -221,14 +221,17 @@ commit scene mode.
 Flash and swop buttons
 ----------------------
 
-The Flash and Swop buttons on a playback fader may be used at any time
-to flash and solo cues and chases. The Flash button adds the playback
-into the current output, the Swop button turns off all other output.
+Normally the Flash and Select buttons on a playback are set up so that
+pressing Flash will flash, and pressing Select will swop (solo) the playback. 
+
+- Flash adds the playback into the current output
+- Swop turns off all other intensity output
+
 The Flash button can also be set to Timed Flash which will use the
 pre-programmed timings of the cue when flashing -- for normal flash mode
 the timings are ignored.
 
-You can reallocate the functions of the Flash and Swop/Select buttons on
+You can reallocate the functions of the Flash and Select buttons on
 the console using [Key Profiles](../system-settings/key-profiles.md). A useful
 alternative function is Preload which allows you to pre-position the
 attributes of the fixtures before you raise the playback fader, which is

@@ -36,6 +36,8 @@ Workspace Window\] menu command on the root menu to show the workspace open butt
 Pressing \<View/Open\> again will close the workspace button overlay, or pressing the \{X\}
 at the top of the button overlay on any screen will close it on all screens.
 
+- Diamond 9 has an \<Open\> button which has the same action as double pressing \<View\>.
+
 
 There are also button shortcuts to open some of the windows:
 
@@ -312,8 +314,14 @@ fixtures, and the ring controls fine tilt.
 The three preview screens on the top right of the console can be configured to show 
 NDI video streams, or can also be used as extra workspace windows.
 
-To configure the screen double press \<View/Open\> and window selection buttons will pop up
-on each screen, touch the type of window you want to configure the view.
+![Diamond Media Preview](/docs/images/Diamond-Media-Preview.png)
+
+To configure a screen, double press \<View/Open\> and window selection buttons will pop up
+on each screen, touch the type of window you want to configure the view. For NDI Preview select
+**Video Preview** (1 2 or 3 depending which screen you are setting). To select an NDI stream,
+tap on the screen and you will then see
+thumbnails of the available NDI streams to select. See [Media Viewer](../synergy/operating-synergy.md#media-viewer)
+in the Ai section for more details.
 
 ## Mini Screen (Arena only)
 
