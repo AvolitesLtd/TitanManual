@@ -8,17 +8,17 @@ description: Diamond 9 - console design and features
 ![Diamond9](/docs/images/Diamond-Main.png)
 
 The Diamond 9 has the following main control areas. There are two models, the 
-D9-330 as shown and the compact D9-225 which has two main touchscreens and
+D9-330 as shown and the compact D9-215 which has two main touchscreens and
 fewer playback faders:
 
-\(A\) The three main **Touch screens** (two on D9-225) contain fixture, palette and group select
+\(A\) The three main **Touch screens** (two on D9-215) contain fixture, palette and group select
 buttons. At the bottom of the right-hand screen, the current wheel assignments
 are shown along with legends for the 15 Macro Keys. At the top and bottom of
 the left-hand screen(s), handle legends for the main faders and encoders are shown.
 
 \(B\) The **Playback faders** and **Rotary playback faders**
  select and control cues, cue lists and chases, and other configurable functions.
- (D9-225 only has the right hand set of faders).
+ (D9-215 only has the right hand set of faders).
 
 \(C\) The **System Prompt and Menu Softkeys** have their own touchscreen.
 
