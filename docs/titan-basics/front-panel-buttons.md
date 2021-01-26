@@ -8,6 +8,28 @@ The Select and Flash buttons associated with fader handles, and the
 macro/executor buttons are configurable and you can use them in various
 ways.
 
+Select and Flash buttons
+------------------------
+
+Each fader handle on the console has buttons associated with it. 
+
+\(A\) **Select** button
+
+\(B\) **Flash** button
+
+On the **Diamond 9** the buttons are arranged like this for the rotary faders and the linear faders:
+
+![Diamond Select and Flash](/docs/images/Diamond-Select-Flash.png)
+
+On the **Sapphire Touch** the buttons are like this for the upper and lower faders. The Sapphire Touch also has a black button with each handle which can be assigned a function using Key Profiles.
+
+![Sapphire Select and Flash](/docs/images/Sapphire-Select-Flash.png)
+
+On **all other consoles**, the buttons are arranged like this:
+
+![Arena Select and Flash](/docs/images/Arena-Select-Flash.png)
+
+
 Key profiles
 ------------
 

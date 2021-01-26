@@ -199,7 +199,7 @@ will behave if you load more windows, and to be able to target particular window
 
 >	**Screen numbering**\
 	On consoles with a single internal screen, that is (1) and the external screen is (2).\
-	On Diamond 9 the right main screen is (1), middle is (2), left is (3), external screens are (4) and (5), Editor screen is (6), Video preview screens are (7) (8) (9).\
+	On Diamond 9 the right main screen is (1), middle is (2), left (not D9-225) is (3), Editor screen is (4), Video preview screens are (7) (6) (5), external screens are left=(9) and right=(8).\
 	On Arena 	the main screen is (1), the mini screen (2) and the external screen (3). \
 	On Sapphire Touch the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).
 
