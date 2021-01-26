@@ -40,7 +40,7 @@ display how long you've got before the console shuts down.
 **Diamond 9 and Arena only:** The Network Switch inside the console has an independent
 UPS system which allows the network switch to continue to run while the
 console is power cycled. When the console is shut down the network
-switch will continue to run for about 5 minutes. This is important when
+switch will continue to run for about 5 minutes, or until mains power is removed. This is important when
 a backup console is running the show through the network switch in the
 console, as it allows the main console to be power cycled without losing the
 network link to the stage.

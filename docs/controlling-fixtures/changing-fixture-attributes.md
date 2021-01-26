@@ -91,10 +91,12 @@ Some other things to know about attributes:
 
 On the Diamond 9 a dedicated wheel is provided to set the intensity of selected
 fixtures. A display above the wheel shows the wheel display for intensity. This wheel always controls
-intensity and is not changed by the Attribute Bank buttons.
+intensity and is not changed by the Attribute Bank buttons (unless you reassign it as described below).
 
 Below the wheel is a \<Level \@\> button which shows the Adjust Attribute
-Value menu for intensity (see [Adjusting Attributes with @ button](../controlling-fixtures/changing-fixture-attributes.md#adjusting-attributes-with-the--buttons)).
+Value menu for intensity (see [Adjusting Attributes with @ button](../controlling-fixtures/changing-fixture-attributes.md#adjusting-attributes-with-the--buttons) ). 
+
+- You can assign this wheel to control a different attribute using the \<Level \@\> button. The display changes to show the controlled attribute.
 
 ## Attribute Editor Window
 
@@ -182,7 +184,7 @@ controls are provided:
 ### Colour Mix: Channel
 
 The Colour mix editor has 4 different ways of selecting colours, which
-are useful in different ways (on Diamond 9 the sliders are horizontal rather
+are useful in different ways (on Diamond 9, and on other consoles if you resize the window to a portrait shape, the sliders are horizontal rather
 than vertical as shown in the pictures.)
 
 ![Attribute Editor - Colour Channels](/docs/images/Attribute-Editor-Channels.png)

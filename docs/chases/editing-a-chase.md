@@ -54,7 +54,7 @@ times will operate as programmed)*
     new cue is inserted.
 
 -   To **insert** a new cue at the end of the chase, set up the look for the
-    new cue, press \[Insert Step\], then press the **select** button of the
+    new cue, press \[Insert Step\], then press the **Select** button of the
     first free playback.
 
 -   To **merge** the programmer into the live step, double tap \[Record

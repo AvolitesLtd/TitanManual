@@ -13,7 +13,7 @@ Many fixtures have a control channel which allows you to perform functions like 
 
 The console allows you to access these functions using Fixture Macros (not to be confused with keypress macros).
 
-1.	Keep pressing \<Exit\> until you are at the top level menu.
+1.	Keep pressing \<Exit\> until you are at the top level menu (or \<Avo\>\<Exit\> takes you straight to the top).
 2.	Select the fixtures you wish to control. Macros may not work across groups of fixtures from different manufacturers so it’s best to do each type of fixture separately.
 3.	Press \<Macro\> then \[Fixture Macros\] (for consoles with \<ML Menu\> button you can also find the \[Fixture Macros\] function there).
 4.	The softkeys show a list of the functions available. Press the one you want to action.

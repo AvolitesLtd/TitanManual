@@ -114,13 +114,14 @@ buttons** appear which contain useful functions for the current
 active window and change depending on the window. \
 On Diamond 9 the context menu buttons are in the top left hand corner of the right
 hand screen - on all other consoles they are below the prompt area on the top right 
-of the main screen. These buttons
+of the main screen. 
 The picture below gives an example of
 how the context buttons appear when Patch View window is active.
 
 ![Context Menu](/docs/images/Context-Menu.png)
 
-On Sapphire Touch and Titan Go each window has a \{Context Menu\} button
+On Sapphire Touch and Titan Go the context menu buttons are not shown on the main screen,
+each window has a \{Context Menu\} button 
 in the top window bar, which gives a drop down menu showing the
 context menu buttons for the current window.
 
