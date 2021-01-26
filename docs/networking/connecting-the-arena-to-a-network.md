@@ -15,7 +15,7 @@ Optical Connections
 The optical network connector is a Neutrik opticalCON which uses
 multimode fibre. On the Arena the connector is a Duo, a single connector is fitted as standard, but a second
 can be fitted on request. On the Diamond 9 the connector is a Quad with one of the two pairs populated as standard - if the
-optional 10GbE ethernet is fitted then the second pair is populated with a 10GbE fibre.
+optional 10GbE Ethernet is fitted then the second pair is populated with a 10GbE fibre.
 
 The stage end of the connection normally plugs
 into the Avolites TitanNet Switch (TNS) rack unit which provides
