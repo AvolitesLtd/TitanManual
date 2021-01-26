@@ -210,9 +210,9 @@ playback from the [Release tab](playback-options.md#release-tab) of playback opt
 Release Mask
 ------------
 
-You can configure which attributes will release from a playback when it is killed using the **Release Mask**. There is a Global
-release mask which affects all release operations, or you can set a
-Local release mask which affects only the current playback.
+You can configure which attributes will release from a playback when it is killed using the **Release Mask**. There is a **Global**
+release mask which affects all release operations, or you can set a **Local** release mask which affects only a particular playback.
+You can also set a **temporary** release mask which just affects the current release operation, by holding down the \<Release\> button and selecting attributes to release while the button is held.
 
 ### Global Release Mask
 
@@ -224,9 +224,11 @@ softkey shows which attributes are enabled.
 
 ![Global Release Mask](/docs/images/Global-Release-Mask.png)
 
+There are also separate Timeline release settings which override the normal release settings when playbacks are being fired by a timeline. These are set in the [options for the timeline](../timelines/timeline-options.md#release-tab).
+
 ### Local Release Mask
 
-The local release mask for a playback is set in the [Release tab](playback-options.md#release-tab) of the playback options.
+Set a local release mask if you need to have specific settings for that playback. The mask for a playback is set in the [Release tab](playback-options.md#release-tab) of the playback options.
 
 Releasing a Whole Page of Playbacks
 -----------------------------------
