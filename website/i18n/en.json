@@ -313,6 +313,10 @@
         "title": "Programming palettes",
         "sidebar_label": "Programming palettes"
       },
+      "quick-start/tips-and-tricks": {
+        "title": "Tips and tricks",
+        "sidebar_label": "Tips and tricks"
+      },
       "remote-control": {
         "title": "Remote Control",
         "sidebar_label": "Remote Control"
