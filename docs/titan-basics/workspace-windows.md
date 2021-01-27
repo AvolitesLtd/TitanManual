@@ -27,7 +27,7 @@ want the workspace, press the appropriate button and the window will open on tha
 The \<Open/View\> button is labelled differently on some consoles: 
 - Diamond 9: \<View\>. There's an additional \<Open\> button which is the same as double pressing \<View\>.
 - Quartz, Titan Mobile: \<Open\>
-- Titan Go, Tiger Touch Mk1, Pearl Expert: \<View\>
+- Titan Go, Tiger Touch 1, Pearl Expert: \<View\>
 
 ![Workspace Window Selection](/docs/images/Workspace-Windows-Icons.png)
 
