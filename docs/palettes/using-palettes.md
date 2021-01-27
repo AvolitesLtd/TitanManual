@@ -49,12 +49,7 @@ numeric keypad.
 The \[Apply Palette\] softkey shows the legend of the palette which
 will be applied.
 
->   If you want to recall multiple palettes simultaneously you can use
-    the Blind to Live function. Put the console into Blind mode (either
-    press the \<Blind\> button if provided, or hold \<Avo\> and press
-    \[Blind Inactive\]. Select the palettes you want to use. Enter a
-    fade time in seconds on the keypad (or 0 to snap), then press
-    \<Blind\> again. The palettes will fade to the live output.
+>   If you want to recall multiple palettes simultaneously you can use the Blind to Live function. Put the console into Blind mode (either press the \<Blind\> button if provided, or hold \<Avo\> and press \[Blind Inactive\]. Select the palettes you want to use. Enter a fade time in seconds on the keypad (or 0 to snap), then press \<Blind\> again. The palettes will fade to the live output.
 
 Palette Pages
 -------------
@@ -78,8 +73,8 @@ pages using the page buttons to the left of the palette buttons.
 Only Showing Relevant Palettes
 ------------------------------
 
-If the [User Setting \[Filter Relevant Palettes\]](../system-settings/user-settings.md#filter-relevant-palettes)
-is enabled, when you
+If the [User Setting](../system-settings/user-settings.md#filter-relevant-palettes) 
+\[Filter Relevant Palettes\] is enabled, when you
 select fixtures any palettes which are not applicable will grey out.
 This is very useful to see which palettes are available for the fixtures
 you are working with.

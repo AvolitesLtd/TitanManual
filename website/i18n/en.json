@@ -469,10 +469,6 @@
         "title": "Workspace Windows",
         "sidebar_label": "Workspace Windows"
       },
-      "titan-commands": {
-        "title": "Titan Commands Quick Reference",
-        "sidebar_label": "Titan Commands Quick Reference"
-      },
       "titan-net": {
         "title": "Titan Net Processor Operation",
         "sidebar_label": "Titan Net Processor Operation"
@@ -485,7 +481,15 @@
         "title": "TNP Slave Mode",
         "sidebar_label": "TNP Slave Mode"
       },
- "version-12.0-about-the-consoles": {
+      "titan-reference": {
+        "title": "Titan Commands Quick Reference",
+        "sidebar_label": "Titan Commands Quick Reference"
+      },
+      "titan-reference/button-reference": {
+        "title": "Button reference",
+        "sidebar_label": "Button reference"
+      },
+"version-12.0-about-the-consoles": {
         "title": "About the consoles",
         "sidebar_label": "About the consoles"
       },
