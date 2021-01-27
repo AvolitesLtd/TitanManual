@@ -25,7 +25,7 @@ option](cue-lists/cue-list-playback.md#tracking) for each cue: Block, This Cue O
 in the [Cue List Playback](cue-lists/cue-list-playback.md) section).
 
 To view the contents of a cue list, touch the playback screen relating
-to the fader or press \<Open/View\> then the **select** button of the
+to the fader or press \<Open/View\> then the **Select** button of the
 playback.
 
 ![Playback View of Cue List](/docs/images/Cue-List-Window-with-Autoload-playback.png)

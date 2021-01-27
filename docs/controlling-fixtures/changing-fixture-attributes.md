@@ -377,7 +377,7 @@ fixtures there are options to set how this is handled, see below.
 1. Select the fixtures you want to Align either manually or using a
 group.
 
-2. Press \<ML Menu\> then \[Align Fixtures\].
+2. Press \<ML Menu\> then \[Align Fixtures\] (on Diamond 9 press \<Align\>).
 
 3. Set the mask to include the attribute groups you want to copy (using
 the Attribute Bank buttons, or using the softkey options for exclude and
@@ -386,7 +386,7 @@ include all attributes).
 4. Touch the select button of the fixture or group you want to copy the
 settings from.
 
-5. Press \[Align\]
+5. Press \[Align\].
 
 The fixture selection order is used to determine how the aligned values
 are copied.

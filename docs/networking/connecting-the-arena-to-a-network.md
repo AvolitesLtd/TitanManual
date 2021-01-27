@@ -26,7 +26,7 @@ Wired Ethernet Outputs
 ----------------------
 
 The Diamond 9 console has an in-built 1Gb Luminex network switch; the 
-Arena console has an in-built 1 Gb TitanNet switch (TNS). These are
+Arena console has an in-built 1Gb TitanNet switch (TNS). These are
 directly connected to the console Main board on network connection 1.
 The network switch has 4 ports available on the back of the console.
 
