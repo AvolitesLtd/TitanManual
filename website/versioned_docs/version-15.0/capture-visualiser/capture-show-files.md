@@ -32,15 +32,19 @@ You will not be able to import files from newer versions of Capture - use the
 **"Export for Capture 2020"** function in the File menu of the full version of 
 Capture to save the file as a version which can then be imported.
 
-You can import fixtures from full Capture but you need to ensure that
-fixtures are correctly patched in Capture to match the patch on the
+When importing shows from full Capture you need to ensure that 
+all fixtures in the show have been correctly patched in Capture to match the patch on the
 console. There is no way to edit an externally created Capture patch on
 the console.
 
-Some fixture types and other Capture elements may not work when you
-import a show that has been created in full Capture. We recommend you
+You will need to turn off the **Auto Update** option in the Capture Settings window on Titan, otherwise Titan will move all the fixtures about according to layout settings in the Titan show.
+
+-  Some fixture types and other Capture elements may not work when you
+import a show that has been created in full Capture. You can
 use the [auto-patch function](../patching/patching-new-fixtures-or-dimmers.md#capture-visualiser-auto-patch) 
-to allow the console to patch the fixtures into Capture.
+to allow the console to patch fixtures into an imported Capture show, but you will then need to manually position them using the Titan controls.
+
+
 
 Clearing the Capture Show
 -------------------------
