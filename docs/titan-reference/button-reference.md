@@ -4,7 +4,7 @@ title: Button reference
 sidebar_label: Button reference
 ---
 
-This section lists all the physical buttons and tells you what they do. The **Links** take you to the section of the manual where the function is explained in more detail.
+This section lists all the physical buttons and tells you what they do. The **links** take you to the section of the manual where the function is explained in more detail.
 
 Button | Function
 -----|-----
@@ -19,19 +19,19 @@ Button | Function
 \<Blind\> | Switches the console into Blind mode which allows you to make changes on the visualiser while not affecting the stage output.
 \<Block\> |
 \<Chan Grid\> | (Arena only) Opens the intensity view window.
-\<Clear\> | Clears the contents of the programmer.
+\<Clear\> | Clears the contents of the programmer. See [Clearing the fixture selection and the programmer](../controlling-fixtures.md#clearing-the-fixture-selection-and-the-programmer).
 \<Close\> | Close a workspace window.
 \<Colour\> | Selects the Colour attribute group so the wheels will control colour, RGB, CMY etc
 \<Commit\> | (D9 only) Commits the Scene Master change, as if you'd pushed the master to the end of its travel.
 \<Connect\> | Connects the sequence controls (Go button etc) to a playback.
 \<Copy\> | Used to make copies of items (fixtures, playbacks etc).
 \<Cue\> | Used when selecting cues in Cue Lists.
-\<Cue +\> | (D9 only) Moves the next cue in the connected cue list on by one.
-\<Cue -\> | (D9 only) Moves the next cue in the connected cue list back by one.
+\<Cue +\> | (D9 only) Moves the next cue in the connected cue list on by one - same as \<Next Step\>.
+\<Cue -\> | (D9 only) Moves the next cue in the connected cue list back by one - same as \<Prev Step\>.
 \<Custom\> | (D9 only) Not used yet.
 \<Delete\> | Used to delete items.
 \<Direction\> | (D9 only) Used when setting direction of pixel map shapes.
-\<Disk\> | Shows disk functions such as Save Show etc. If pressed when \<Avo\> held, enters System menu.
+\<Disk\> | Shows disk functions such as Save Show etc. If pressed when \<Avo\> held, enters System menu. See [Saving the show](../titan-basics/loading-and-saving-shows.md#saving-the-show) and [The System Menu](../system-settings/the-system-menu.md).
 \<Edit\> | 
 \<Effect\> | Selects the Effect attribute group so the wheels control Prism etc
 \<Enter\> | Completes or accepts many commands
@@ -59,23 +59,23 @@ Button | Function
 \<Legend\> | (D9 only) (followed by a Select button) Set legend on an item.
 \<Levels\> | (D9 only) set wheels to Levels mode for setting attributes.
 \<Level @\> | (D9 only) Opens the @ menu for the Intensity wheel.
-\<Library\> | (Arena only) Opens the Show Library window.
+\<Library\> | (Arena only) Opens the Show Library window. See [Show Library](../titan-basics/show-library.md).
 \<Live Time\> | Sets time information for the currently live cue in a cue list.
-\<Locate\> | Sets selected fixtures to a "start" position with light coming out so you can program them.
+\<Locate\> | Sets selected fixtures to a "start" position with light coming out so you can program them. See [Setting fixtures to a Start Position (Locate)](../controlling-fixtures.md#setting-fixtures-to-a-start-position-locate).
 \<Lock Axis\> |
 \<Macro\> | Opens the Macro menu.
 \<Mask FX\> | (D9 only) Opens the Mask FX menu.
 \<Menu Latch\> | Latches the current menu so that it remains active when you complete the action. Useful for copy, move etc.
 \<Min/Max\> | Changes current workspace between minimum and maximum size.
-\<ML Menu\> | Changes current workspace between minimum and maximum size.
+\<ML Menu\> | At top level menu, opens the Moving Light menu where you can run fixture macros. Also acts as Menu Latch if pressed while in a submenu. See [The ML Menu button](../controlling-fixtures/advanced-options.md/#the-ml-menu-button).
 \<Move\> | Used to move items to different handles.
 \<Next Step\> | Moves the next cue in the connected cue list on by one.
 \<Next Time\> | Sets time information for the next cue in a connected cue list.
-\<Not\> | [Link](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel) | Used when selecting ranges of items (e.g. Fixture 1 Through 5 not 3)
+\<Not\> | Used when selecting ranges of items (e.g. Fixture 1 Through 5 not 3). See [Selecting fixtures and dimmers by number](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel)
 \<Odd/Even\> | Used to select odd/even fixtures from a range.
 \<Off\> | Used to deactivate specific attribute values from fixtures or in playbacks.
 \<Open\> | (D9 only) Open workspace window, like double pressing View. (Other consoles) Show details about item, or double press to open workspace window.
-\<Open/View\> | Show details about item, or double press to open workspace window.
+\<Open/View\> | Show details about item, or double press to open workspace window. See [Palettes](../palettes/editing-palettes.md/#viewing-and-editing-the-content-of-palettes) and [Cues](../cues/editing-cues.md/#playback-and-cue-view), or [Opening Workspace Windows](../titan-basics.md/workspace-windows/#opening-and-positioning-workspace-windows).
 \<Options\> | Show options screen for item.
 \<Page +\> | Move to next page in the fader bank (consoles with multiple fader banks may have several of these buttons).
 \<Page -\> | Move to previous page in the fader bank (consoles with multiple fader banks may have several of these buttons).
@@ -99,11 +99,11 @@ Button | Function
 \<Snap\> | Enables Snap mode which makes Prev Step / Next Step buttons snap through cues without fade times.
 \<Special\> | Selects the Special attribute group so the wheels control fixture-specific functions like modes and macros.
 \<Stop\> | Stops the current cue progression.
-\<Through\> | [Link](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel) | Used when selecting ranges of items (e.g. Fixture 1 Through 5 not 3)
+\<Through\> | Used when selecting ranges of items (e.g. Fixture 1 Through 5 not 3). See [Selecting fixtures and dimmers by number](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel).
 \<Time\> | Show the Times menu.
 \<Undo\> | Undo the last action (an Undo list is shown in the system prompt).
-\<Unfold\> | followed by playback select, splits out a cue list or chase onto the playback faders so each cue/step can be edited individually.
+\<Unfold\> | followed by playback Select, splits out a cue list or chase onto the playback faders so each cue/step can be edited individually.
 \<Update\> | Updates the current cue by merging the contents of the programmer.
-\<View\> | Shows more details for an item.
+\<View\> | followed by Select button, shows more details for an item. See [Palettes](../palettes/editing-palettes.md/#viewing-and-editing-the-content-of-palettes) and [Cues](../cues/editing-cues.md/#playback-and-cue-view) but most types of item can be viewed.
 \<Visualiser\> | Opens the Visualiser window
 \<XYZ\> | (D9 only) Sets the wheels to XYZ position mode for moving fixtures in Visualiser or Layout Editor.
