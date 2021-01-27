@@ -163,7 +163,7 @@ in the \[Advanced Options\] menu of the cue list record screen.
 
 To manually edit autoloads use the playback view for the cue list:
 
-1. Press \<View/Open\>
+1. Press \<Open/View\>
 
 2. Press the **Select button** of the Cue List.
 

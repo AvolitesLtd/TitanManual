@@ -14,7 +14,7 @@ section for more details.
 
 Most functions on Titan use the Workspace Windows shown on the touch screen(s).
 To open different windows press the \<View\> button (on some consoles this is labelled \<Open Window\> -
-the manual refers to this as the \<View/Open\> button). A selection of icons is
+the manual refers to this as the \<Open/View\> button). A selection of icons is
 shown on each screen which you can press to open the different windows.
 You can save different arrangements of windows to the Workspaces buttons
 (either in a block to the left of the softkeys, or down the side of the screen,

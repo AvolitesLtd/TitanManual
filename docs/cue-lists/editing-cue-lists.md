@@ -12,7 +12,7 @@ Playback View Window
 --------------------
 
 The easiest way to edit a cue list is using the Playback View window
-(press \<View/Open\> then the **Select** button for the cue list to open
+(press \<Open/View\> then the **Select** button for the cue list to open
 it). This shows a grid with each cue and allows you to change most
 features of the cue. Select the item you want to change in the grid,
 and the softkeys will offer you options for what you can change.

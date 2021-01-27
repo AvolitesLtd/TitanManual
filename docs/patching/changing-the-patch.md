@@ -15,7 +15,7 @@ fixtures. If you need to change the settings of multiple fixtures (for
 example, changing the DMX address of several fixtures) then it's really
 easy to do in one operation in the Patch View.
 
-To show the Patch View window press \<View/Open\> then \<Patch\>, or 
+To show the Patch View window press \<Open/View\> then \<Patch\>, or 
 double press <View/Open> and select \[Patch View\] from the window 
 select buttons.
 
@@ -62,7 +62,7 @@ View Detailed Fixture Information
 ---------------------------------
 
 In the Patch View window click on the View button for the fixture you
-wish to view, or press \<View/Open\> followed by a fixture handle. A
+wish to view, or press \<Open/View\> followed by a fixture handle. A
 Fixture View window will open showing details for that fixture,
 including the personality and mode used to patch, and the individual DMX
 channel addresses for each attribute. Attributes can be inverted or
@@ -221,7 +221,7 @@ DMX View Window
 
 When you're having problems getting fixtures to work it can be useful to
 see the actual DMX output values coming from the console. Double press
-\<View/Open\>, then select \[DMX\] from the window select buttons.
+\<Open/View\>, then select \[DMX\] from the window select buttons.
 
 ![DMX Workspace Window](/docs/images/DMX-Workspace-Window-With-Filters.png)
 
@@ -297,7 +297,7 @@ should you need to using the \[Clear All Mappings\] softkey).
 
 To set up mapping:
 
-1. Press \<View/Open\> then \<Patch\> to show the Patch View screen.
+1. Press \<Open/View\> then \<Patch\> to show the Patch View screen.
 
 2. Select the Exchange Mapping tab.
 

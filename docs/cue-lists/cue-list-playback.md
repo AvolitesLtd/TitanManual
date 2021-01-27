@@ -23,7 +23,7 @@ d for delay and f for fade. If the cue list is set to manual crossfade a red 'M'
 ![Playback handle of running cue list](/docs/images/Playback-handle-of-running-cue-list.png)
 
 You can also open the Playback View window to show more details of the
-cue list by clicking the Cue List legend area or press \<View/Open\>
+cue list by clicking the Cue List legend area or press \<Open/View\>
 then the **Select** button of the playback. This shows all the timings, links
 and tracking status and is very useful when running a [theatre show](theatre-programming.md) on a
 cue list.

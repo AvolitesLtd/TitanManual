@@ -189,7 +189,7 @@ the cues: \[Timecode = \] sets the timecode directly while a value set with \[Of
 can be used in \[Add + \] or \[Subtract - \], to shift all selected timestamps by this timespan.
 
 You can open a timecode display window for each of the four possible
-sources to show you the incoming timecode - double press \<View/Open\> 
+sources to show you the incoming timecode - double press \<Open/View\> 
 then press \[Timecode x\] (where x is 1 to 4) from the workspace select buttons.
 
 ![Timecode 1 Workspace Window](/docs/images/Timecode-1-Workspace-Window.png)

@@ -21,10 +21,13 @@ The picture below shows a typical arrangement of workspace windows.
 
 ## Opening and Positioning Workspace Windows
 
-Double press the \<View\> button (labelled \<Open\> or \<Open Window\> on some consoles)
-to show the workspace open buttons overlay on all monitors (for the rest of this manual
-we'll refer to this button as \<View/Open\>). On the monitor where you
+Double press the \<Open/View\> button to show the workspace open buttons overlay on all monitors. On the monitor where you
 want the workspace, press the appropriate button and the window will open on that monitor.
+
+The \<Open/View\> button is labelled differently on some consoles: 
+- Diamond 9: \<View\>. There's an additional \<Open\> button which is the same as double pressing \<View\>.
+- Quartz, Titan Mobile: \<Open\>
+- Titan Go, Tiger Touch Mk1, Pearl Expert: \<View\>
 
 ![Workspace Window Selection](/docs/images/Workspace-Windows-Icons.png)
 
@@ -33,29 +36,26 @@ keeping the same size and position.
 
 You can also use the \[Open
 Workspace Window\] menu command on the root menu to show the workspace open buttons.
-Pressing \<View/Open\> again will close the workspace button overlay, or pressing the \{X\}
+Pressing \<Open/View\> again will close the workspace button overlay, or pressing the \{X\}
 at the top of the button overlay on any screen will close it on all screens.
-
-- Diamond 9 has an \<Open\> button which has the same action as double pressing \<View\>.
-
 
 There are also button shortcuts to open some of the windows:
 
 ### Shortcuts to Open Workspace Windows
 
-- \<View/Open\> then an Attribute Bank button opens the Palette
+- \<Open/View\> then an Attribute Bank button opens the Palette
 window for that attribute.
 
-- \<View/Open\> then \<Patch\> opens the Patch View window.
+- \<Open/View\> then \<Patch\> opens the Patch View window.
 
-- \<View/Open\> then a fixture select button opens the Fixture
+- \<Open/View\> then a fixture select button opens the Fixture
 View window showing patch details for that fixture.
 
-- \<View/Open\> then \<Connect/Cue\> opens the Playback View window.
+- \<Open/View\> then \<Connect/Cue\> opens the Playback View window.
 
-- \<View/Open\> then \<Off\> opens the Active Playbacks window.
+- \<Open/View\> then \<Off\> opens the Active Playbacks window.
 
-- \<View/Open\> then \<Macro\> opens the Macro window.
+- \<Open/View\> then \<Macro\> opens the Macro window.
 
 ### Changing window size and appearance
 
@@ -163,7 +163,7 @@ they are on the left side of the screen).
 External screens can have their own workspace buttons down the side of the screen (these
 can be turned on or off in the [User Settings](../system-settings/user-settings.md#display) .)
 
-To record, press \<View/Open\> then
+To record, press \<Open/View\> then
 \[Record Workspace\], then touch one of the Workspaces buttons, or just
 touch an empty button twice to Quick Record. You can also save
 workspaces onto any grey handle or macro button.
@@ -191,10 +191,10 @@ will behave if you load more windows, and to be able to target particular window
 	the screen where you selected it (button shows a target symbol).
 	![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
 
--   To delete a workspace button, press \<View/Open\>, \<Delete\>, then
+-   To delete a workspace button, press \<Open/View\>, \<Delete\>, then
     the workspace button to be deleted.
 
--	When recalling a workspace, if you press \<View/Open\> first then softkey buttons let you
+-	When recalling a workspace, if you press \<Open/View\> first then softkey buttons let you
 	set the workspace to recall to the particular screen where it was recorded \[As Recorded\], or to a different screen
 	(the other screen numbers are listed on softkeys). This is useful when a workspace contains only a single screen,
 	allowing you to recall it onto a different screen.
@@ -210,7 +210,7 @@ As an example of setting up a workspace, suppose while programming you
 wanted to be able to access fixtures, position palettes, fixture
 attributes and shapes:
 
-1. Double press the \<View/Open\> button, or press \<Exit\> to get to the root menu and then the \[Open Workspace
+1. Double press the \<Open/View\> button, or press \<Exit\> to get to the root menu and then the \[Open Workspace
 Window\] menu softkey.
 
 2. Find the \{Fixtures\} icon on the screen and press it.
@@ -220,14 +220,14 @@ Position\> button (above the numeric keys) until the window occupies the
 top left quarter. Or press the \{Cog\} button on the window
 top bar and press the top left position button in that window.
 
-4. Double press \<View/Open\>  again and select the \{Positions\}
+4. Double press \<Open/View\>  again and select the \{Positions\}
 window. Press the \<Size & Position\> button to position it in the desired
 location.
 
 5. Repeat to activate the \{Attribute Editor\} and \{Effects\} windows.
 
-6. Press \<View/Open\> then \[Record Workspace\], or hold \<Avo\> and
-press \<View/Open\>. Type in a name for the workspace. Then touch the
+6. Press \<Open/View\> then \[Record Workspace\], or hold \<Avo\> and
+press \<Open/View\>. Type in a name for the workspace. Then touch the
 Workspace button where you want to store this workspace layout. Or, you
 can use Quick Record -- just touch an empty workspace button and it will
 turn red with a +. Type a name for the workspace and touch again to
@@ -317,7 +317,7 @@ NDI video streams, or can also be used as extra workspace windows.
 
 ![Diamond Media Preview](/docs/images/Diamond-Media-Preview.png)
 
-To configure a screen, double press \<View/Open\> and window selection buttons will pop up
+To configure a screen, double press \<Open/View\> and window selection buttons will pop up
 on each screen, touch the type of window you want to configure the view. For NDI Preview select
 **Video Preview** (1 2 or 3 depending which screen you are setting). To select an NDI stream,
 tap on the screen and you will then see
@@ -327,7 +327,7 @@ in the Ai section for more details.
 ## Mini Screen (Arena only)
 
 The mini-screen can be used as a configurable workspace display just like the main monitor.
-To configure the screen double press \<View/Open\> and window selection buttons will pop up
+To configure the screen double press \<Open/View\> and window selection buttons will pop up
 on the screen, touch the type of window you want to configure the view.
 
 The \<Display\> button below the rotary encoders toggles through four

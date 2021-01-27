@@ -10,7 +10,7 @@ Setting up the Stage and Rigging
 To help you see what your rig will really look like you can add fixed
 elements of staging and rigging.
 
-Open the Capture Visualiser Settings window by double pressing \<View/Open\>,
+Open the Capture Visualiser Settings window by double pressing \<Open/View\>,
 then select Visualiser Settings from the window select buttons (or you can use the \{Open Settings\} context button in the Capture window.)
 Click the **Stage** tab.
 
@@ -94,7 +94,7 @@ The context menu buttons provide camera options.
 ![Capture Visualiser Workspace Window Context Menu](/docs/images/Capture-Visualiser-Workspace-Window-Context-Menu.png)
 
 Camera controls are in the [Capture Visualiser Settings window](#setting-up-the-stage-and-rigging) which you
-can open by double pressing \<View/Open\> to show the workspace window buttons, or using the \{Open
+can open by double pressing \<Open/View\> to show the workspace window buttons, or using the \{Open
 Settings\} context button.
 
 The view buttons across the top select the four default views *(shown below)*. Press the

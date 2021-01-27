@@ -150,7 +150,7 @@ The Active Playbacks window shows details of which playbacks are active.
 When you have a number of layered playbacks with different effects, this
 provides an easy way to see which playback is causing which effect. Each
 button shows the playback legend, which page they are from and which
-attributes are affected. To show the window double press \<View/Open\> 
+attributes are affected. To show the window double press \<Open/View\> 
 then press \[Active Playbacks\] from the window select buttons which pop up.
 
 ![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)

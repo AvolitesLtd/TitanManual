@@ -11,7 +11,7 @@ You can view the contents of a palette in the **Palette View window**. This
 lists all fixtures in the palette and the attribute values stored for
 them. A context menu button allows you to switch to displaying **Times**.
 
-Press \<View/Open\>, then the button of the palette. The **Palette View
+Press \<Open/View\>, then the button of the palette. The **Palette View
 window** will open.
 
 ![Palette View window](/docs/images/Palette-View-window.png)
