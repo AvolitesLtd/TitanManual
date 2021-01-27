@@ -92,7 +92,7 @@ Some other things to know about attributes:
 The trackball normally controls Pan and Tilt of selected fixtures, with the Z-ring controlling intensity. You can assign the trackball to different attributes like this:
 
 1. Select some fixtures having the attribute you want to assign (this is just so the wheel functions are displayed on the roller view).
-2. Select the Attribute Bank you want to assign.
+2. Select the Attribute Bank you want to assign so that one of the wheels is controlling the attribute you want.
 3. Press \<Assign\>.
 4. Press the softkey for the function you want to assign, \[Track Ball X\], \[Track Ball Y\] or \[Wheel Z\].
 5. Press the \<@\> button of the wheel which has the function you want to assign.
