@@ -308,7 +308,7 @@ mouse pointer and the ring will scroll windows up and down.
 
 To use in console mode for controlling fixtures, press the \<Assign\>
 button on its own. The trackball will control pan and tilt of selected
-fixtures, and the ring controls fine tilt.
+fixtures - see [Trackball control](../controlling-fixtures/changing-fixture-attributes.md#trackball-diamond-9-and-sapphire-touch-only).
 
 ## Video preview screens (Diamond 9 only)
 

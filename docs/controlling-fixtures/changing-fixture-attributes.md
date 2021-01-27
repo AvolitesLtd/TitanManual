@@ -87,6 +87,21 @@ Some other things to know about attributes:
     mastering the RGB levels when the fixture itself does not provide an
     intensity channel.
 
+## Trackball (Diamond 9 and Sapphire Touch only)
+
+The trackball normally controls Pan and Tilt of selected fixtures, with the Z-ring controlling intensity. You can assign the trackball to different attributes like this:
+
+1. Select some fixtures having the attribute you want to assign (this is just so the wheel functions are displayed on the roller view).
+2. Select the Attribute Bank you want to assign.
+3. Press \<Assign\>.
+4. Press the softkey for the function you want to assign, \[Track Ball X\], \[Track Ball Y\] or \[Wheel Z\].
+5. Press the \<@\> button of the wheel which has the function you want to assign.
+
+The attribute is assigned and the assign menu closes. To check the assignment has worked you can press \<Assign\> again and the softkeys should show the new attribute.
+
+- You can also switch the trackball to control the mouse pointer on the touchscreens, see [Trackball (mouse control)](../titan-basics/workspace-windows.md#trackball-diamond-9-and-sapphire-touch-only).
+
+
 ## Intensity wheel (Diamond 9 only)
 
 On the Diamond 9 a dedicated wheel is provided to set the intensity of selected
@@ -96,7 +111,7 @@ intensity and is not changed by the Attribute Bank buttons (unless you reassign 
 Below the wheel is a \<Level \@\> button which shows the Adjust Attribute
 Value menu for intensity (see [Adjusting Attributes with @ button](../controlling-fixtures/changing-fixture-attributes.md#adjusting-attributes-with-the--buttons) ). 
 
-- You can assign this wheel to control a different attribute using the \<Level \@\> button. The display changes to show the controlled attribute.
+- You can assign this wheel to control a different attribute - see the trackball section above, but at step 4 use the \[Level Wheel\] softkey to assign the attribute. The display above the wheel will change to show the controlled attribute.
 
 ## Attribute Editor Window
 
