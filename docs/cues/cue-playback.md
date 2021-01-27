@@ -186,7 +186,7 @@ You can set a mask so that some attributes will automatically release from the p
 Attributes will go back to the state set in the most recent previous playback until no playbacks are left to be released. If the \[Release to Home\] setting on the Release menu is Enabled, channels will go to the power-on state, which you can program (see [Programming the Release / Power On State](#programming-the-release-power-on-state)).
 If the option is disabled, channels will remain in the state of the last playback.
 
-You can also configure the key profile so that the blue or grey buttons 
+You can also configure the key profile so that the handle buttons 
 can be used to release the playback using [Key Profiles](../system-settings/key-profiles.md).
 
 Channels will always release with a fade time, this defaults to 2 seconds but you can change it using \[Master Release Time\] in the Release menu. You can also set an individual release time for the playback from the [Release tab](playback-options.md#release-tab) of playback options.
