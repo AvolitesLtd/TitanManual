@@ -222,21 +222,15 @@ to control the size of shapes running in this playback.
 ![Playback Options showing release tab](/docs/images/Playback-Options-Release-Tab.png)
 
 ### Release Mask
-Lets you specify which attributes will be released to
-the state they were in previously when this
-playback is killed (you lower the fader to zero). 
+Lets you specify which attributes will be released to their previous state when this playback is killed (you lower the fader to zero). 
 
 Normally using the LTP rules, attributes will stay in their last state when
 you kill a playback. This is not always what you want (for example with a strobe
 cue, you don't want the strobing to carry on when you kill the cue).
 
-Click the button to toggle the mask to Local, then select which
-attribute types you want to release
-You can also use the
-Attribute Bank buttons to set the mask.
+Click the \{Global\} button to toggle the mask to \{Local\}, then select which attribute types you want to release. You can also use the Attribute Bank buttons to set the mask.
 
-Global release uses the global
-release mask which is set in the **Release menu** (press \<Release\>).
+Global release uses the [Global Release Mask](../cues/cue-playback.md#global-release-mask).
 
 > Release mask is useful when creating a temporary strobe
 effect on a playback. Set **Mask** to **Local** then **Intensity** to **Include**. Now when you turn off
@@ -244,8 +238,9 @@ the playback the shutter channel will release to its previous state
 and the strobe will stop.
 
 You can also use [Key Profiles](../system-settings/key-profiles.md) to
-allocate one of the handle buttons to release the playback.
+allocate one of the handle buttons to release this playback.
+
 
 ### Release Time
 Sets a release fade time for this playback. Enter a
-blank time to return to global *([Global release time](../system-settings/user-settings.md#master-release-time) is set in the [User Settings](../system-settings/user-settings.md))*. 
+blank time to return to global ([Global release time](../system-settings/user-settings.md#release) is set in the User Settings.) 

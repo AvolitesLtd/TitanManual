@@ -109,7 +109,9 @@ Preset Palettes           | This is the same as the option in the Patching secti
 ---|------
 Release To Home     | ***On:*** when the last active playback is released fixtures will return to home values.<br>*Off:* LTP channels will remain set.
 Master Release Time | Sets the default release time.
-Release Priority    | The playback priority used with the Release menu or when running Release macros - *Low*, *Normal*, *High*, ***Programmer***, *Very High*.
+Release Priority    | The playback priority used with the Release menu or when running Release macros - *Low*, *Normal*, *High*, ***Programmer***, *Very High*. Playbacks with priority below this level will be released by the *Release All* function (double press \<Release\>).
+
+- Setting Release Priority to **Low** can be useful to protect against accidentally turning off all playbacks by an unintended double press of \<Release\> - with this setting only playbacks set to Low Priority (if you had any running) would be released.
 
 -  These settings can also be changed from the Release menu.
 
