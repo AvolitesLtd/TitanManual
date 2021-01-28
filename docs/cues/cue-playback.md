@@ -177,7 +177,7 @@ See [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-
 for more details.
 
 Release
----------------------------
+-------
 
 Normally when you kill a playback by lowering the fader, the LTP attributes will be left in the last state set by the playback. Sometimes you don't want this, for example if you have a strobe cue, you don't want the strobing to carry on when you kill the cue. The **Release** function lets you set how attributes will return to their previous values.
 
@@ -227,7 +227,7 @@ Set a local release mask if you need to have specific settings for that playback
 If you are releasing a playback (or the programmer) using the \<Release\> button then a temporary mask is used. This starts off with everything set, so all attributes will release.
 Press the Attribute Bank buttons to set a different mask - when you press the first button all the other attribute groups will clear.
 
-- You can type a release time on the keypad before you press \<Release\> to override the default release fade time.
+- You can type a release time on the keypad before you press \<Release\> to override the global release fade time.
 
 Other release operations
 -----------------------------------
@@ -257,7 +257,9 @@ left hand side of the Arena.
 ### Releasing the programmer contents
 
 You can release the programmer contents by pressing \<Release\>, then set the attributes you want to release in the temporary mask, then press \<Clear\>.
-You can type a release time on the keypad before you press \<Release\>.
+You can type a release time on the keypad before you press \<Release\> to override the global time.
+
+You can release a single attribute on a wheel from the programmer by pressing \<Release\> then the \<Wheel @\> button. This can be useful during programming if you accidentally set a value you didn't want, or when busking a show to gently remove a temporary fixture change you made.
 
 ### Releasing a master
 
