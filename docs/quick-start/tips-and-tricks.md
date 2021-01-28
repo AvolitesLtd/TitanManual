@@ -9,7 +9,7 @@ The following section gives you some quick ways to operate Titan. ``<n>`` means 
 ## Fixture control and recording
 
 -  Select all fixtures: \<AVO\> + \<ALL\> \<ALL\> \<ALL\>
--  Select all fixtures with nonzero intensity: \<Select If\> \<Select If\>
+-  Select all fixtures with non-zero intensity: \<Select If\> \<Select If\>
 -  Set full intensity in the Programmer for selected fixtures: Tap \<@\>\<@\>
 -  Set intensity value ``<n>`` in the programmer: \<@\> ``<n>`` \<Enter\> (value as 0-99 unless you've changed the user settings)
 -  Clear over a time: ``<n>`` \<Clear\> will clear over that time
