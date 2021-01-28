@@ -57,13 +57,14 @@ fade time
 -  Window too small to Adjust: \<Open/View\> \<Min/Max\> to resize window
 -  Move Window to different screen: \<AVO\> + \<Size/Position\> Moves the currently selected window to another screen.
 -  Close All Windows: \<AVO\> + \<Close\>
--  How to delete a workspace: \<Open/View\> \<Delete\> to delete any workspace
+-  Delete a workspace select button: \<Open/View\> \<Delete\> \{Workspace button\}
+-  Move or Copy a workspace select button: \<Open/View\> \<Move\> \{Workspace button\} or \<Open/View\> \<Copy\> \{Workspace button\}
 -  Move Camera in Capture with wheels: In the Context Menu \{Camera Move\} then how you want to move the camera
 
 ## Setup, operating system and hardware
 
 -  Save the show instantly: Tap \<DISK\> \<DISK\>
--  What is the next available channel to patch: In patch view, if you need to quickly find the next available DMX address
+-  Get the next available channel to patch: In patch view, if you need to quickly find the next available DMX address
 you can click on the 'space' between the fixtures in the Bargraph and if you are patching it will automatically put
 this address as the next patch address
 -  Set the time: Click on the clock in the top bar. Always check the time zone before changing hours to prevent licensing
