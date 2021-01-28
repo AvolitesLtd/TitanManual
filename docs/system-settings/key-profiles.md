@@ -43,7 +43,8 @@ is one of the non-editable system ones, you are prompted to add a new
 profile or select an existing editable profile.
 
 The current actions for the Black, Blue, Grey and Touch/Executor buttons are
-shown on the left side of the screen. Once you select a key type from
+shown on the left side of the screen. (On Diamond 9, the Blue buttons are
+the Select buttons and the Grey buttons are the Flash buttons). Once you select a key type from
 the menu, the screen shows actions available for that type of button.
 Only the Sapphire Touch has Black buttons, but Virtual Black buttons
 can be used with the faders in the Virtual Fader window.

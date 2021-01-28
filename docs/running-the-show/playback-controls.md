@@ -39,7 +39,7 @@ To assign master faders, from the **System** menu select \[Assign Masters\], or 
 By default, master faders are set to have a transparent lock, which makes the master fader remain in position even when the playback page is
 changed. If you don\'t want this to happen you can change it by pressing \<Options\> (or \[Options\] softkey from the root menu) then press the Swop/Select button of the master.
 
-On the Arena console, the rotary encoders on the Mini Screen are very useful as speed masters or group masters - press the encoder to select
+On the Diamond 9, the rotary encoders at the sides of the touchscreen (or on the Arena the rotary encoders beside the Mini Screen) are very useful as speed masters or group masters - press the encoder to select
 it as a master. Press the Display button below the encoders to show legends for the encoders on the screen if they are not already shown
 (there are 4 display modes to cycle through).
 
@@ -105,7 +105,7 @@ tempo, it would then be scaled down by the Rate Grand Master.
 
 ### Adjusting masters using the wheels
 
-You can adjust Intensity, Size, Rate and BPM masters from the wheels by pressing \[Connect\] followed by the blue button of the master. This is useful for making fine adjustments to the setting of a master. For a BPM master you can also adjust "Edge Sync" which allows you to nudge the synchronisation forwards or backwards.
+You can adjust Intensity, Size, Rate and BPM masters from the wheels by pressing \<Connect\> followed by the **Select** button of the master. This is useful for making fine adjustments to the setting of a master. For a BPM master you can also adjust "Edge Sync" which allows you to nudge the synchronisation forwards or backwards.
 
 While a wheel is connected you can touch up or down in the wheel display area to nudge the value up or down. Pressing the \<@\> button for the
 wheel opens a softkey menu where you can input a numerical value or \[Release\] the speed and multiplier to default values.
@@ -125,7 +125,7 @@ Fixture Group Masters
 You can assign a fader to control the master intensity of each fixture group. To do this you simply save (or move) the group button to a handle
 with a fader.
 
-The blue button will then select fixtures in the group and holding the blue button gives you softkey options to filter the selection according to a pattern.
+The **Select** button will then select fixtures in the group and holding down the select button gives you softkey options to filter the selection according to a pattern.
 
 Press \<Options\> (or \[Options\] softkey) and then the blue select button above the fader to set the fader mode to the following:
 
@@ -169,23 +169,26 @@ Scene Master
 
 The Scene Master allows you to preset an output state by firing a number of playbacks or making live changes, using the visualiser to see the effects but without anything happening on stage. When you are ready for the new state, you fade the Scene Master fader to the other end of its travel and the new state is output.
 
-You assign a handle to be Scene Master by pressing \<Record\> then \[Create Master\] (or from the \[Assign Masters\] button on the **System** menu). The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
+You assign a handle to be Scene Master by pressing \<Record\> then \[Create Master\] (or from the \[Assign Masters\] button on the **System** menu). \
+The Diamond 9 has a dedicated T-bar control and buttons for Scene Master, with an associated display to show the status.
+
+The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
 
 ![Scene Master (Live)](/docs/images/Scene-Master-Live.png)
 
-To enter preset mode, press the blue button of the Scene Master. The display above the master will show "Preset" and the background turns purple.
+To **enter** preset mode, press the **Select** button of the Scene Master (or \<Enter/B\> below the T-bar on the Diamond 9). The display above the master will show "Preset" and the background turns purple. To **exit** preset mode and return to normal live operation, press the **Select** button again (or \<Exit/A\> below the T-bar on the Diamond 9).
 
 ![Scene Master (Preset)](/docs/images/Scene-Master-Preset.png)
 
-Now any changes you make -- firing playbacks, stepping cue lists, applying palettes and so on -- will only be shown on the visualiser. Everything you change for the preset will also turn purple on its display.
+Once you have entered preset mode, any changes you make - firing playbacks, stepping cue lists, applying palettes and so on - will only be shown on the visualiser and won't change the output. Everything you change for the preset will also turn purple on its display.
 
-When you fade the Scene Master the state you preset will be faded to the output. If times are programmed for cues or palettes they will also run. Once the fader has reached the end of the travel, the new state is "committed" to the output, or you can press the grey button to manually commit the new state.
+You can now smoothly fade all your preset changes to the output by fading the Scene Master to the other end of its travel.
+If times are programmed for cues or palettes they will also run. Once the fader has reached the end of the travel, the new state is "committed" to the output, or you can press the grey handle button (\<Commit\> on Diamond 9) to manually commit the new state. The Scene Master will remain in Preset mode until you change back to Live mode.
 
 Normally the Scene Master will auto-reverse so you can just keep
 presetting new states, moving the fader alternately up and down. You can
-also set it to require you to move it back to zero each time. Press
-\<Options\> (or \[Options\] softkey) then the Select button of the master. The options
-are:
+also set it to require you to move it back to zero each time - press
+\<Options\> (or \[Options\] softkey) then the **Select** button of the master to change the options:
 
 -   \[Auto Commit and Invert\] Commits the changes once the fader has
     reached the end of travel. You can then preset a new state and fade
@@ -200,13 +203,15 @@ are:
     was before. You need to manually commit the changes using the grey
     button (the button can be changed using Key Profiles).
 
+On the Diamond 9, there are additional Scene Master buttons \<Reset\> which clears all preset changes back to the current live state, and \<Preload\> which acts like a normal preload button for the preset changes, loading the LTP attributes.
+
 A Scene Master can also be set on executor buttons or touch buttons in
 the Playbacks workspace. In this case, hold \<Avo\> (or Release) and
 press the button to enter or exit preset mode, and press the button on
 its own to commit the preset to the output, You can view the state of
 the Master by opening the Static Playbacks workspace.
 
-You can assign the buttons to do different things using Key Profiles --
+You can assign the handle buttons to do different things using Key Profiles -
 the options are Exit scene mode, Enter scene mode, Commit changes,
 Commit changes and exit scene mode, Enter or Exit scene mode, Enter or
 commit scene mode.
@@ -216,14 +221,17 @@ commit scene mode.
 Flash and swop buttons
 ----------------------
 
-The Flash and Swop buttons on a playback fader may be used at any time
-to flash and solo cues and chases. The Flash button adds the playback
-into the current output, the Swop button turns off all other output.
+Normally the Flash and Select buttons on a playback are set up so that
+pressing Flash will flash, and pressing Select will swop (solo) the playback. 
+
+- Flash adds the playback into the current output
+- Swop turns off all other intensity output
+
 The Flash button can also be set to Timed Flash which will use the
 pre-programmed timings of the cue when flashing -- for normal flash mode
 the timings are ignored.
 
-You can reallocate the functions of the Flash and Swop/Select buttons on
+You can reallocate the functions of the Flash and Select buttons on
 the console using [Key Profiles](../system-settings/key-profiles.md). A useful
 alternative function is Preload which allows you to pre-position the
 attributes of the fixtures before you raise the playback fader, which is
@@ -311,8 +319,8 @@ Viewing active playbacks
 
 The Active Playbacks window shows details of which playbacks are active.
 This provides an easy way to see what is currently running. To open this
-window double press \<View/Open\> then select \[Active Playbacks\], or use the
-shortcut \<View/Open\> + \<Off\>.
+window double press \<Open/View\> then select \[Active Playbacks\], or use the
+shortcut \<Open/View\> + \<Off\>.
 
 The top line of the button shows the page number and tells you where on
 the desk the playback is stored. The second line shows the legend, and
