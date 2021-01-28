@@ -148,13 +148,12 @@ Sets how the fader position affects the cue output.
 
 Setting | Action
 ------: | ------
-Mode 0 | Channels fade in as set by the fade time. The Fade Out time is ignored. If times are set to zero, the HTP channels fade in with the 0-100% position of the playback fader and the LTP channels will snap.
+**Mode 0** | Channels fade in as set by the fade time. The Fade Out time is ignored. If times are set to zero, the HTP channels fade in with the 0-100% position of the playback fader and the LTP channels will snap.
 Mode 1 | HTP channels fade in and out as set by the fade out times (LTP channels fade in but then remain as set in the cue). If times are set to zero, the HTP levels will fade in and out with the fader and the LTP channels will snap when the cue is fired.
 Mode 2 | Both HTP and LTP channels follow the fader position. *Useful when used with a pan/tilt cue for manually tracking a spot across a stage or down a catwalk using the fader position or for mixing colours on RGB fixtures.*
 Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to the settings in the new cue. All other cues fade out and all other active playbacks become inactive; if you need to re-fire a playback, take the fader to zero and put it up again. *Useful for setting a video playback state.*
 
-This is the same option as set in the [\[Edit Times\]
-menu](cue-timing.md).
+This is the same as the [Fade Mode](cue-timing.md/#fade-modes) option in the \[Edit Times\] menu.
 
 [](https://youtu.be/2fwM5S8nX3k?t=20 "Playback Modes")
 
@@ -162,6 +161,14 @@ menu](cue-timing.md).
 Allows you to set a different curve shape for this playback - curves
 are listed on the softkeys. The various curves are illustrated
 in the [Curves](../system-settings/curves.md) section.
+
+### Kill Point
+Sets where the console will start the Release process on this cue, causing LTP channels to be released back to their previous state. Normally this is set to happen when all fades have completed so the fixture won't change until it has dimmed to zero.
+
+Setting | Action
+------: | ------
+**Fade Out Complete** | The cue is killed when all fades have completed.
+Fader at 0 | The cue is killed when the fader reaches zero.
 
 --- 
 
