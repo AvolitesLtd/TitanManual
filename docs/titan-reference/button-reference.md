@@ -6,21 +6,32 @@ sidebar_label: Button reference
 
 This section lists all the physical buttons and tells you what they do. The **links** take you to the section of the manual where the function is explained in more detail.
 
+``<n>`` means to type in a numeric value on the keypad.
+
+\<View\> \<Colour\> indicates to press a sequence of buttons.
+
+\<Avo\> + \<Clear\> with a plus symbol means to hold down the first button while pressing the second button.
+
+{Playback} means to press a playback select button.
+
+---
 
  ## \<@\> 
- (numeric keypad) Allows numeric entry of attribute values.
+ (numeric keypad) Allows numeric entry of attribute values. For the \<@\> buttons next to the wheels see [Wheel @](#wheel-).
 
  --- 
 ## \<Align\> 
- (D9 only) Allows copying of attributes between fixtures. On other consoles this function is accessed using \<ML Menu\>. See [Align Fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md/#align-fixtures).
+ (D9 only) Allows copying of attributes between fixtures. On consoles other than D9 this function is accessed using \<ML Menu\>. See [Align Fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md/#align-fixtures).
 
  --- 
 ## \<All\> 
- Used to cancel odd/even selection on a range of fixtures. See [Selecting fixtures using a pattern](../controlling-fixtures.md/#selecting-fixtures-using-a-pattern).
+ Used to end odd/even selection on a range of fixtures and reselect all fixtures in the range. See [Selecting fixtures using a pattern](../controlling-fixtures.md/#selecting-fixtures-using-a-pattern).
 
  --- 
 ## \<And\> 
- Used when selecting ranges of items using the numeric keypad (e.g. Fixture 1 Through 5 And 7). See [Selecting fixtures and dimmers by number](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel).
+ Used when selecting multiple items using the numeric keypad, can be combined with \<Through\> and \<Not\>. See [Selecting fixtures and dimmers by number](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel). Some consoles do not have this button, an \[And\] softkey is also provided.
+
+ Example:  \<Fixture\> 1 \<And\> 5 \<And\> 7
 
  --- 
 ## \<Assign\> 
@@ -52,11 +63,23 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Clear\> 
- Clears the contents of the programmer. See [Clearing the fixture selection and the programmer](../controlling-fixtures.md#clearing-the-fixture-selection-and-the-programmer).
+ Clears the contents of the programmer and deselects fixtures. See [Clearing the fixture selection and the programmer](../controlling-fixtures.md#clearing-the-fixture-selection-and-the-programmer).
 
+ Buttons | Action
+ --------|--------
+ \<Clear\> | Single press clears the programmer and deselects fixtures. (Optional 2-press sequence, see [Clear Action Precedence](../system-settings/user-settings.md#clear)) 
+ ``<n>`` \<Clear\> | Clears the programmer with a fade out time of ``<n>``
+\<Clear\> + \<All\> | Deselect all fixtures but keep changes in programmer
+\<Clear\> + \[Set Mask\] | Clears only the attribute groups specified in the mask
+\<Clear\> + \[Clear Selected Fixtures\] | Only clears the programmer for fixtures which are currently selected
+\<Clear\> + \[Individual Attributes\] | Clear individual attributes from programmer (use softkeys to select)
+\<Clear\> + \[Clear All Programmers\] | Clears programmers from other users and from the Titan Remote
+\<Clear\> + \[Clear Options\] | Show user settings for Clear, see [User settings - Clear](../system-settings/user-settings.md/#clear)
  --- 
 ## \<Close\> 
- Close a workspace window.
+ Close the currently active workspace window.
+
+ Example: (Tap window to make it active) \<Close\>
 
  --- 
 ## \<Colour\> 
@@ -401,6 +424,10 @@ This section lists all the physical buttons and tells you what they do. The **li
  --- 
 ## \<Visualiser\> 
  Opens the Visualiser window
+
+ --- 
+## \<Wheel @\> 
+(The @ buttons next to the wheels) - Open the Wheel @ menu which lets you control the attribute which is currently allocated to the wheel.
 
  --- 
 ## \<XYZ\> 
