@@ -181,7 +181,7 @@ Release
 
 Normally when you kill a playback by lowering the fader, the LTP attributes will be left in the last state set by the playback. Sometimes you don't want this, for example if you have a strobe cue, you don't want the strobing to carry on when you kill the cue. The **Release** function lets you set how attributes will return to their previous values.
 
-You can set a mask so that some attributes will automatically release from the playback when the playback is killed - see [Release Mask](#release-mask) below. For a cue this will happen when all fade times have completed, unless you change the [Kill Point](playback-options.md/#fader-tab) option in the cue options.
+You can set a mask so that some or all attributes will automatically release from the playback when the playback is killed - see [Release Mask](#release-mask) below. For a cue this will happen when all fade times have completed, unless you change the [Kill Point](playback-options.md/#fader-tab) option in the cue options.
 
 Attributes will go back to the state set in the most recent previous playback until no playbacks are left to be released. If the \[Release to Home\] setting on the Release menu is Enabled, channels will go to the power-on state, which you can program (see [Programming the Release / Power On State](#programming-the-release-power-on-state)).
 If the option is disabled, channels will remain in the state of the last playback.
@@ -191,10 +191,9 @@ can be used to release the playback using [Key Profiles](../system-settings/key-
 
 Channels will always release with a fade time, this defaults to 2 seconds but you can change it using \[Master Release Time\] in the Release menu. You can also set an individual release time for the playback from the [Release tab](playback-options.md#release-tab) of playback options.
 
--   You can instantly kill a playback (ignoring any fade out times) by pressing \<Avo\> + the **Select**
-    button of the playback. This can also be useful for Cue Lists which (depending on their options) may stay fired even when the fader is lowered to zero.
+-   You can kill a playback by pressing \<Avo\> + the **Select** button of the playback, which has the same effect as pulling the fader to zero. For a cue, the fade out times will still apply and the cue will release when the fades are completed. This can also be useful for Cue Lists which (depending on their options) may stay fired even when the fader is lowered to zero.
 
--   You can release a running playback by pressing \<Release\>, then the **Select** button of the playback to be released. This uses a [Temporary Release Mask](#temporary-release-mask) as described below.   
+-   You can instantly release a running playback by pressing \<Release\>, then the **Select** button of the playback to be released. This uses a [Temporary Release Mask](#temporary-release-mask) as described below. Fade out times of cues will be ignored. 
 
 -   You can **Release All** running playbacks by double pressing \<Release\>. The user setting [Release Priority](../system-settings/user-settings.md#release) sets which playback priority levels will be released. You can protect against unintended Release All by setting the Release Priority to Low - this would only release playbacks with Low priority, if you had any set up.
 
