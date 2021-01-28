@@ -9,21 +9,22 @@ The following section gives you some quick ways to operate Titan. ``<n>`` means 
 ## Fixture control and recording
 
 -  Select all fixtures: \<AVO\> + \<ALL\> \<ALL\> \<ALL\>
--  Add full intensity to the Programmer for selected fixtures: Tap \<@\>\<@\>
--  Add a percentage of intensity to the programmer: \<@\> ``<n>`` \<Enter\> for percentage you want.
+-  Select all fixtures with nonzero intensity: \<Select If\> \<Select If\>
+-  Set full intensity in the Programmer for selected fixtures: Tap \<@\>\<@\>
+-  Set intensity value ``<n>`` in the programmer: \<@\> ``<n>`` \<Enter\> (value as 0-99 unless you've changed the user settings)
 -  Clear over a time: ``<n>`` \<Clear\> will clear over that time
 -  \<Wheel @\> Keys: Allow fast Access to Freeze, Off, Or on for the attribute active for that wheel. Tap it twice for 100% of a percentage based attribute (such as Intensity, RGB or CMY). [(more)](../controlling-fixtures/changing-fixture-attributes.md#adjusting-attributes-with-the--buttons)
 -  How to see/select cells on multi cell fixture: Use \<Unfold\> then tap fixture.
 -  Group Pattern Selection: Click and hold \<Group\> then select from the soft keys Odd/Even etc
 -  Quick Pattern Selection: Select fixtures or Group then click \<ALL\> to select within selected fixtures a pattern such as
 odd, even, random – etc
--  \<.\> \<Enter>: Select all cells in the currently selected fixtures
+-  Select all cells in the currently selected fixtures: \<.\> \<Enter> 
 -  Quickly set record type: press \<Record\> once for Cue, twice for chase, three times for cue list, four times for timeline
--  \<AVO\> + \<Palette\> = Quick access to the record palette menu
--  \<AVO\> + \<Group\> = Quick access to the record group menu
--  \<AVO\> + \<Macro\> = Quick access to the record macro menu
--  Record time into palettes/cues: Use the \<Time\> key to put times in the programmer
--  \<AVO\> + \<COPY\> = Move
+-  Quick open record palette menu: \<AVO\> + \<Palette\> 
+-  Quick open record group menu: \<AVO\> + \<Group\>
+-  Quick open record macro menu: \<AVO\> + \<Macro\> 
+-  Record time into palettes/cues: \<Time\> key to put times in the programmer
+-  Select Move on consoles which don't have a Move button: \<AVO\> + \<COPY\>
 -  Want to Move/Copy/ Delete lots of items: Use the \<Latch Menu\> after \<COPY\>, \<MOVE\>, or \<Delete\> to stay in that
 menu
 
@@ -31,10 +32,10 @@ menu
 
 -  Set BPM/Rate directly: ``<n>`` then tap one of the master's keys (any of them) and it will set that as the BPM/Rate %
 -  Fire Macro ``<n>`` times: Type number then fire macro, macro will be played that many times
--  Change fade time of next Cue: ``<n>`` \<GO\> - fades in the next cue in a cuelist in ``<n>`` seconds, overriding the programmed
+-  Change fade time of next Cue: ``<n>`` \<GO\> - fades in the next cue in a cue list in ``<n>`` seconds, overriding the programmed
 fade time
 -  Release all running playbacks: Double tap \<Release\> to release ALL running playbacks
--  Quickly create Mask FX: Double tap \<Mask FX\> to create mask fx for selected fixtures, or all fixtures if nothing selected
+-  Quickly create Mask FX: Double tap \<Mask FX\> to create Mask FX for selected fixtures, or all fixtures if nothing selected
 -  Legend Wing Pages: Set Legend then \<Go Page\> on the wing.
 
 ## Views, menus and windows
