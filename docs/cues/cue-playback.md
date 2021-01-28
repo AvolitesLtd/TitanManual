@@ -193,7 +193,7 @@ Channels will always release with a fade time, this defaults to 2 seconds but yo
 
 -   You can kill a playback by pressing \<Avo\> + the **Select** button of the playback, which has the same effect as pulling the fader to zero. For a cue, the fade out times will still apply and the cue will release when the fades are completed. This can also be useful for Cue Lists which (depending on their options) may stay fired even when the fader is lowered to zero.
 
--   You can instantly release a running playback by pressing \<Release\>, then the **Select** button of the playback to be released. This uses a [Temporary Release Mask](#temporary-release-mask) as described below. Fade out times of cues will be ignored. 
+-   You can instantly release a running playback by pressing \<Release\>, then the **Select** button of the playback to be released. This uses a [Temporary Release Mask](#temporary-release-mask) as described below. Fade out times of cues will be ignored and the release will start immediately, but will use the set release time. 
 
 -   You can **Release All** running playbacks by double pressing \<Release\>. The user setting [Release Priority](../system-settings/user-settings.md#release) sets which playback priority levels will be released. You can protect against unintended Release All by setting the Release Priority to Low - this would only release playbacks with Low priority, if you had any set up.
 
