@@ -7,7 +7,7 @@ sidebar_label: Chase Options
 To set options for a chase, press \<Options\> or \[Options\] on the root menu,
 then press the **Select** button of the playback to be edited. Options will
 be shown on the softkeys. You can also set options from the Chase View window, press
-\<View/Open\> then the **Select** button of the playback, then click the
+\<Open/View\> then the **Select** button of the playback, then click the
 Options tab.
 
 ![Playback Options (playback tab) for a chase](/docs/images/Playback-Options-Chase-Playback-Tab.png)

@@ -14,7 +14,7 @@ small number of playback faders, to offer a number of different looks on
 one fader.
 
 Cue lists differ from [chases](chases.md) in the way the console handles changes
-between cues. Cue lists track fixture state from previous cues and will
+between cues. Cue lists **track** fixture state from previous cues and will
 only change the fixture state if you have modified that fixture in the
 cue; if there are no changes stored for the fixture, it will remain in
 the same state. [Chases](chases.md) on the other hand would crossfade between cues,
@@ -25,7 +25,7 @@ option](cue-lists/cue-list-playback.md#tracking) for each cue: Block, This Cue O
 in the [Cue List Playback](cue-lists/cue-list-playback.md) section).
 
 To view the contents of a cue list, touch the playback screen relating
-to the fader or press \<Open/View\> then the **select button** of the
+to the fader or press \<Open/View\> then the **Select** button of the
 playback.
 
 ![Playback View of Cue List](/docs/images/Cue-List-Window-with-Autoload-playback.png)

@@ -29,7 +29,7 @@ the buttons using [Key Profiles](../system-settings/key-profiles.md).
 [](https://youtu.be/E8QxOKT5TCA?t=20 "Recording Groups")
 
 If the Groups window is not visible, you can show it by pressing
-\<View/Open\>, \<Group\> (above numeric keys).
+\<Open/View\>, \<Group\> (above numeric keys).
 
 1. Select the fixtures/dimmers you want in the group (the order in
 which you select them will also be stored in the group).
@@ -40,9 +40,9 @@ Group\]. You can also press \<Record\> then \<Group\>.
 3. Use softkey A to enter a number for the group, or B \[Provide a
 legend\] to set a legend.
 
-4. Touch an empty button in the Groups window, or press the grey button
-of a fader handle where you want to store the group (not the main
-playback faders), or press C \[Store\] to store as a numbered group.
+4. Touch an empty button in the Groups window, or press the Select button
+of a fader handle where you want to store the group, or 
+press \[Store\] to store as a numbered group.
 
 5. Press \<Clear\> then repeat from 1 to store other groups.
 

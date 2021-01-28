@@ -43,14 +43,14 @@ in the programmer will override the playback).
     set to Mode 2 in which case they fade with the fader position; see
     the timings section [Fader Modes](cue-timing.md#fade-modes) for details of modes)*.
 
--   You can **Flash** the cue by pressing the grey flash button. You can
-    **Swop** (solo) the cue by pressing the blue Swop button (all other
+-   You can **Flash** the cue by pressing the Flash button. You can
+    **Swop** (solo) the cue by pressing the Select button (all other
     active cues will turn off while the button is pressed). This assumes
     you haven't reassigned the function of the buttons using
     [Key Profiles](../system-settings/key-profiles.md), see below.
 
--   You can **Preload** the cue by assigning the Preload function to the
-    blue or grey buttons using
+-   You can **Preload** the cue by assigning the Preload function to one of the
+    handle buttons using
     [Key Profiles](../system-settings/key-profiles.md). Preload sets the attributes
     of fixtures in the playback which are not currently active in any
     other playbacks. *This is useful to avoid the fixtures visibly moving
@@ -150,7 +150,7 @@ The Active Playbacks window shows details of which playbacks are active.
 When you have a number of layered playbacks with different effects, this
 provides an easy way to see which playback is causing which effect. Each
 button shows the playback legend, which page they are from and which
-attributes are affected. To show the window double press \<View/Open\> 
+attributes are affected. To show the window double press \<Open/View\> 
 then press \[Active Playbacks\] from the window select buttons which pop up.
 
 ![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
@@ -176,41 +176,62 @@ Settings](playback-options.md#fader-tab) in playback [Options](playback-options.
 See [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters)
 for more details.
 
-Releasing Running Playbacks
----------------------------
+Release
+-------
 
-You can **release** a running playback to its previous state by pressing
-\<Release\> *(\<Off\> button on Pearl Expert)*, then the **Select** button of
-the playback to be released. Channels will release back to their state
-in the previous playback until no playbacks are left to be released. If
-the \[Release to Home\] setting on the Release menu is Enabled, channels
-will go to the power-on state, which you can program (see 
-[next section](#programming-the-release-power-on-state)).
-If the option is disabled, channels will remain in the state of the last
-playback. You can release all running playbacks by pressing \<Release\>
-then \[Release all playbacks\].
+Normally when you kill a playback by lowering the fader, the LTP attributes will be left in the last state set by the playback. Sometimes you don't want this, for example if you have a strobe cue, you don't want the strobing to carry on when you kill the cue. The **Release** function lets you set how attributes will return to their previous values.
 
-You can also configure the key profile so that the blue or grey buttons
+You can set a mask so that some or all attributes will automatically release from the playback when the playback is killed - see [Release Mask](#release-mask) below. For a cue this will happen when all fade times have completed, unless you change the [Kill Point](playback-options.md/#fader-tab) option in the cue options.
+
+Attributes will go back to the state set in the most recent previous playback until no playbacks are left to be released. If the \[Release to Home\] setting on the Release menu is Enabled, channels will go to the power-on state, which you can program (see [Programming the Release / Power On State](#programming-the-release-power-on-state)).
+If the option is disabled, channels will remain in the state of the last playback.
+
+You can also configure the key profile so that the handle buttons 
 can be used to release the playback using [Key Profiles](../system-settings/key-profiles.md).
 
-Channels will always release with a fade time, this defaults to 2
-seconds but you can change it using \[Master Release Time\] in the
-Release menu. You can also set an individual release time for the
-playback from the [Release tab](playback-options.md#release-tab) of playback [Options](playback-options.md).
+Channels will always release with a fade time, this defaults to 2 seconds but you can change it using \[Master Release Time\] in the Release menu. You can also set an individual release time for the playback from the [Release tab](playback-options.md#release-tab) of playback options.
 
--   You can instantly kill a playback by pressing \<Avo\> + the **Select**
-    button of the playback.
+-   You can kill a playback by pressing \<Avo\> + the **Select** button of the playback, which has the same effect as pulling the fader to zero. For a cue, the fade out times will still apply and the cue will release when the fades are completed. This can also be useful for Cue Lists which (depending on their options) may stay fired even when the fader is lowered to zero.
 
--   You can set a mask so that only certain attributes release from the
-    playback when the playback is killed. This uses the 
-    [\[Release Mask\] option](playback-options.md#release-mask) in 
-    playback [Options](playback-options.md).
-    Normally all attributes will remain in the state last used in the
-    playback - *for cues which trigger strobing or other effects this
-    might not be what you want*.
+-   You can instantly release a running playback by pressing \<Release\>, then the **Select** button of the playback to be released. This uses a [Temporary Release Mask](#temporary-release-mask) as described below. Fade out times of cues will be ignored and the release will start immediately, but will use the set release time. 
 
-Releasing a Whole Page of Playbacks
+-   You can **Release All** running playbacks by double pressing \<Release\>. The user setting [Release Priority](../system-settings/user-settings.md#release) sets which playback priority levels will be released. You can protect against unintended Release All by setting the Release Priority to Low - this would only release playbacks with Low priority, if you had any set up.
+
+
+Release Mask
+------------
+
+You can configure which attributes will release from a playback when it is killed using the **Release Mask**. There is a **Global**
+release mask which is the default setting, or you can set a **Local** release mask which overrides the global mask for a particular playback.
+If you start a release using the \<Release\> button then a **Temporary** release mask is used which just affects the current release operation.
+
+### Global Release Mask
+
+If no local release mask is set for the playback, attributes release
+according to this mask when the playback is killed. The default is for no attributes to release, so all LTP attributes will remain at their last value.
+
+Set the Global Release Mask from the **Release Menu** by pressing \<Release\> then \[Global Release Mask\]. The
+softkey and the lit Attribute Bank buttons show which attribute groups are enabled - use the Attribute Bank buttons or the softkeys to enable or disable attribute groups.
+
+![Global Release Mask](/docs/images/Global-Release-Mask.png)
+
+There are also separate Timeline release settings which override the normal release settings (including the Local release mask) when playbacks are being fired by a timeline. These are set in the [options for the timeline](../timelines/timeline-options.md#release-tab).
+
+### Local Release Mask
+
+Set a local release mask if you need to have specific settings for that playback. The mask for a playback is set in the [Release tab](playback-options.md#release-tab) of the playback options.
+
+### Temporary Release Mask
+
+If you are releasing a playback (or the programmer) using the \<Release\> button then a temporary mask is used. This starts off with everything set, so all attributes will release.
+Press the Attribute Bank buttons to set a different mask - when you press the first button all the other attribute groups will clear.
+
+- You can type a release time on the keypad before you press \<Release\> to override the global release fade time.
+
+Other release operations
 -----------------------------------
+
+### Releasing a page of playbacks
 
 You can use the Release function to release a whole page of playbacks in
 one operation. Press \<Release\> then the \<Goto Page\> button, or touch
@@ -226,34 +247,22 @@ the same fader group from another page
 \[Release All Playbacks In This Group\] - releases any active playback in
 the fader group.
 
+The release will use the [Temporary Release Mask](#temporary-release-mask) as described above. 
+
 > **"Fader Group"** refers to a particular area of the console, for example
 the main faders below the screen on a Tiger Touch or the top row on the
 left hand side of the Arena.
 
-Release Mask
-------------
+### Releasing the programmer contents
 
-You can release individual fixtures or attributes, and remove fixtures
-from shapes in playbacks using the release mask. There is a Global
-release mask which affects all release operations, or you can set a
-Local release mask which affects only the current playback.
+You can release the programmer contents by pressing \<Release\>, then set the attributes you want to release in the temporary mask, then press \<Clear\>.
+You can type a release time on the keypad before you press \<Release\> to override the global time.
 
-### Global Release Mask
+You can release a single attribute on a wheel from the programmer by pressing \<Release\> then the \<Wheel @\> button. This can be useful during programming if you accidentally set a value you didn't want, or when busking a show to gently remove a temporary fixture change you made.
 
-If no local release mask is set for the playback, attributes release
-according to this mask. The default is for no attributes to release.
+### Releasing a master
 
-To set the mask, press \<Release\> then \[Global Release Mask\]. The
-softkey shows which attributes are enabled.
-
-![Global Release Mask](/docs/images/Global-Release-Mask.png)
-
-### Local Release Mask
-
-To set the local release mask for a playback, select \[Playback
-Options\] and press the select button of the playback. Then press
-\[Release Mask\]. If the option is set to \[Mask Source Global\] then
-press the option again to change to \[Mask Source Local\].
+You can reset a master to default state by pressing \<Release\> then the **Select** button of the master. You can reset all masters to default state by pressing \<Release\> then \[Release all Masters\]. This will set the level of the master so that it has no effect (full for intensity masters, 100% for speed masters, and so on).
 
 Programming the Release / Power On State
 ----------------------------------------
@@ -269,15 +278,15 @@ type of fixture, and that state will be used for all fixtures of that
 type. In Individual mode, the state of each fixture will be recorded
 individually as you have set it.
 
-1. Set up the look you want
+1. Set up the look you want.
 
-2. Press \<Record\>, then \<Release\>
+2. Press \<Record\>, then \<Release\>.
 
-3. Select \[Shared values\] or \[Individual values\]
+3. Select \[Shared values\] or \[Individual values\].
 
-4. Press the \[Record\] softkey
+4. Press the \[Record\] softkey.
 
-5. The Release state is saved
+5. The Release state is saved.
 
 >   To test, fire some playbacks, then release them by pressing
     \<Release\> followed by the select button of the playback. The

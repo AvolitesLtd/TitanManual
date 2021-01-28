@@ -12,7 +12,7 @@ Playback View Window
 --------------------
 
 The easiest way to edit a cue list is using the Playback View window
-(press \<View/Open\> then the **select** button for the cue list to open
+(press \<Open/View\> then the **Select** button for the cue list to open
 it). This shows a grid with each cue and allows you to change most
 features of the cue. Select the item you want to change in the grid,
 and the softkeys will offer you options for what you can change.
@@ -215,7 +215,7 @@ then this cue will not wait for the \<Go\> button but will start automatically.
 5. Press the \<Go\> button *(on Pearl Expert and Tiger Touch 1 the white ↔
 button)* to jump on to the next step.
 
-The **Review** button lets you test the live step with the new timings.
+The \<Review\> button lets you test the live step with the new timings.
 
 *You can also use \<Unfold\> to set the times as described in the
 [Unfold section above](#editing-a-cue-list-using-unfold).*

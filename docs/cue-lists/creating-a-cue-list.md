@@ -17,7 +17,7 @@ while saving the cues or [later](cue-list-timing.md).
 
 1. Press \<Record\> then \[Create Cue List\].
 
-2. Press the **select button** of the playback where you want to store the
+2. Press the **Select** button of the playback where you want to store the
 Cue List *(you can also store cue lists in the Playbacks window)*.
 
 3. Select the [Record Mode](#record-mode) of the console: by Fixture, Channel, Stage or
@@ -33,11 +33,11 @@ using \[Set Times\]. These settings will be allocated to every new cue.
 [\<Include\>](../titan-commands.md#include) on existing cues. You can use the [Shape Generator](../effects/shape-generator.md) and the
 [Pixel Mapper](../effects/pixel-mapper.md).
 
-6. If you require a **legend for the cue**, set it now using \[Legend\].
+6. If you require a **legend** for the cue, set it now using \[Legend\].
 You can also change this later using [\<Unfold\>](editing-cue-lists.md#editing-a-cue-list-using-unfold) or [Set Legend](#changing-legends-for-cues-in-a-cue-list) (see next
 section).
 
-7. Press the **Select button** of the handle or \[Append Cue\] to store the
+7. Press the **Select** button of the handle or \[Append Cue\] to store the
 programmer contents as Cue 1 of the cue list.
 
 8. Repeat steps 5 - 7 for additional cues. Do not press \<Clear\> in
@@ -46,7 +46,7 @@ cues, as any faders moving to zero will not be stored. If you do press
 clear, you must make sure that all channels you want to record are
 selected or in the programmer (inverted display).
 
-9. Press \<Exit\> to finish when you have stored all the cues
+9. Press \<Exit\> to finish when you have stored all the cues.
 
 ---
 
@@ -96,7 +96,7 @@ are.
 legends for several cues, press \<Menu Latch\> to latch the Set Legend
 menu.
 
-2. Press the **Select button** of the Cue List.
+2. Press the **Select** button of the Cue List.
 
 3. The cues in the cue list are shown on the screen. Touch the list or
 use Wheel A to select which cue is to be renamed.
@@ -163,7 +163,7 @@ in the \[Advanced Options\] menu of the cue list record screen.
 
 To manually edit autoloads use the playback view for the cue list:
 
-1. Press \<View/Open\>
+1. Press \<Open/View\>
 
 2. Press the **Select button** of the Cue List.
 
@@ -210,14 +210,14 @@ allows you to set up custom actions which can be performed when a cue in
 a cue list fires; for example you may want to lamp on your fixtures as
 the first cue in the cue list.
 
-1. Press \<Options\> (or the \[Options\] softkey on the root menu)
+1. Press \<Options\> (or the \[Options\] softkey on the root menu).
 
-2. Select the **cue list**
+2. Press the **Select** button for the cue list.
 
-3. Select \[Macros\]
+3. Select \[Macros\].
 
 4. In the **Playback View window**, select the **step** you want to add a macro
-to
+to.
 
 5. Press the button(s) for the macro(s) you want to attach to the step,
 or press \[Add\] and choose an action from the list.

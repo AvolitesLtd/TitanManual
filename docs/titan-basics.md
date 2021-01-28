@@ -23,10 +23,11 @@ check its disk on startup which can cause delays. The UPS will protect
 you from most power problems and give you chance to shut down the
 console normally.
 
-If an internal UPS is fitted (Sapphire Touch, Arena, optional on other
-consoles), on power loss the toolbar on the screen will turn orange and
-display how long you've got before the console shuts down. A warning dialog
-will also pop up on the screen and the current show will be autosaved.
+If an internal UPS is fitted (Diamond 9, Sapphire Touch, Arena, optional on other
+consoles), on power loss a warning dialog
+will pop up on the screen and the current show will be autosaved.
+Except on D9, the toolbar on the screen will also turn orange and
+display how long you've got before the console shuts down. 
 
 ![UPS Toolbar](/docs/images/UPS-Toolbar.png)
 
@@ -36,12 +37,12 @@ will also pop up on the screen and the current show will be autosaved.
 -	If any console or TNP in your session is running from UPS, an error will appear
 	in the event log.
 
-**Arena only:** The Network Switch inside the Arena has an independent
+**Diamond 9 and Arena only:** The Network Switch inside the console has an independent
 UPS system which allows the network switch to continue to run while the
 console is power cycled. When the console is shut down the network
-switch will continue to run for about 5 minutes. This is important when
+switch will continue to run for about 5 minutes, or until mains power is removed. This is important when
 a backup console is running the show through the network switch in the
-Arena, as it allows the Arena to be power cycled without losing the
+console, as it allows the main console to be power cycled without losing the
 network link to the stage.
 
 Starting up and shutting down
@@ -75,9 +76,9 @@ shut down the console if it is not possible to shutdown the console by
 any of the above means. In this case having disconnected the mains power
 you should press the Battery Disconnect switch on the rear panel.
 
-**Arena only:** Battery Disconnect will also shut down the internal
+**Diamond and Arena only:** Battery Disconnect will also shut down the internal
 network switch so be careful if you are running a backup console via the
-switch. When you shut down the Arena normally, the network switch will
+switch. When you shut down the console normally, the network switch will
 stay on for about 5 minutes then power off. There is no harm in leaving
 it to do this.
 
@@ -162,7 +163,7 @@ universes it is on. Each universe can be configured to come out of one
 or more of the standard DMX outputs on the back of the console, and/or
 over an [Ethernet protocol](networking/controlling-fixtures-over-a-network.md).
 
-The [Arena includes a built-in Ethernet switch](networking/connecting-the-arena-to-a-network.md) and has an optical network
+The Diamond 9 and Arena include a built-in [Ethernet switch](networking/connecting-the-arena-to-a-network.md) and have an optical network
 connection.
 
 > By default on a new show, the XLRs on the console are automatically connected to DMX lines starting at line 1, however if you are loading a show from a different model of console or the simulator, check the DMX Settings option to confirm how the DMX outputs are set up.
@@ -188,13 +189,13 @@ Connecting a Monitor
 --------------------
 
 You can connect an additional monitor to the console (2 monitors on
-Sapphire Touch). This gives you extra screen space for workspace windows
+Diamond 9 and Sapphire Touch). This gives you extra screen space for workspace windows
 which can be handy for showing Visualiser or additional buttons. Touch
 monitors are very useful to give additional control surfaces. We advise
 you use a monitor compatible with Windows Touch to avoid problems with
 touchscreen drivers. 
 
-Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) will also support 2 monitors if the PC
+Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) will also support 2 additional monitors if the PC
 you are using has the facility.
 
 An external monitor is disabled by default and will show a \'disabled\'
@@ -229,12 +230,10 @@ provided on the rear panel to allow the console to be linked to a
 timecode source. MIDI cannot be used with the T1 dongle, but can be used
 with T2 if you attach a USB-MIDI device.
 
-You can connect the console to a LAN (local area network) using the RJ45
-network socket on the rear. This allows you to operate many more
+You can connect the console to a LAN (local area network) using the EtherCON or RJ45
+network socket(s) on the rear. This allows you to operate many more
 universes of DMX using DMX network protocols, and also allows backup and
-multi-user consoles to be connected to each other. The Arena has several
-network ports and also has one or two optical fibre terminals allowing
-direct fibre connection to the control network.
+multi-user consoles to be connected to each other. 
 
 One or two 3-pin XLR sockets for desk lamps are provided on the rear of
 the console. Suitable lamps are available from Avolites. The lamps are

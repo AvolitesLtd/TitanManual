@@ -26,7 +26,7 @@ To change DMX address or line, use \[[Repatch Fixtures](../patching/changing-the
 ## View fixture patch
 
 To see an overview screen of how the console is patched, press
-\<View/Open\> then \<Patch\> to open [Patch View](../patching/changing-the-patch.md#patch-view).
+\<Open/View\> then \<Patch\> to open [Patch View](../patching/changing-the-patch.md#patch-view).
 
 ## Setting fixture options
 

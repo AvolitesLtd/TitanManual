@@ -121,7 +121,7 @@ Synergy Fixtures Window
 
 Every layer on the Ai server appears as a button in the Synergy Fixtures
 window. You can display this using the button at the bottom of the
-[Synergy Settings window](#synergy-setup) or by double tapping \<View/Open\>
+[Synergy Settings window](#synergy-setup) or by double tapping \<Open/View\>
 and then selecting it from the window select buttons.
 
 ![Synergy Fixtures Workspace Window](/docs/images/Synergy-Fixtures-Workspace-Window.png)
