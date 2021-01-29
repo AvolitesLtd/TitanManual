@@ -24,7 +24,8 @@ odd, even, random – etc
 -  Quick open record group menu: \<AVO\> + \<Group\>
 -  Quick open record macro menu: \<AVO\> + \<Macro\> 
 -  Record time into palettes/cues: \<Time\> key to put times in the programmer
--  Select Move on consoles which don't have a Move button: \<AVO\> + \<COPY\>
+-  Entering timecode times: Use \<Through\> and \<And\> buttons as left/right arrows to go between hours, minutes, seconds etc.
+-  Select "Move" on consoles which don't have a Move button: \<AVO\> + \<COPY\>
 -  Want to Move/Copy/ Delete lots of items: Use the \<Latch Menu\> after \<COPY\>, \<MOVE\>, or \<Delete\> to stay in that
 menu
 
