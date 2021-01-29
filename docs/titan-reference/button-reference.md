@@ -12,16 +12,23 @@ This section lists all the physical buttons and tells you what they do. The **li
 
 \<Avo\> + \<Clear\> with a plus symbol means to hold down the first button while pressing the second button.
 
-{Playback} means to press a playback select button.
+{Select} means to press a playback select button.
 
 ---
 
  ## \<@\> 
- (numeric keypad) Allows numeric entry of attribute values. For the \<@\> buttons next to the wheels see [Wheel @](#wheel-).
+ (by numeric keypad) Allows numeric entry of attribute values. For the \<@\> buttons next to the wheels see [Wheel @](#wheel-).
 
+ Example: \<Fixture\> 1 \<And\> 5 \<And\> 7 \<@\> 75 \<Enter\>
+
+  Buttons | Action
+ --------|--------
+ \<@\> ``<n>`` \<Enter\> | Set intensity of currently selected fixtures to ``<n>`` in the programmer. (``<n>`` normally 0-99, optionally can be single digit 0-9, see [Formatting](../system-settings/user-settings.md#formatting))
+ \<@\> \<@\> | Set intensity of currently selected fixtures to full in the programmer.
+  
  --- 
 ## \<Align\> 
- (D9 only) Allows copying of attributes between fixtures. On consoles other than D9 this function is accessed using \<ML Menu\>. See [Align Fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md/#align-fixtures).
+ (D9 only) Allows copying of attributes between fixtures. On consoles other than D9 this function is accessed using \<ML Menu\>. See [Align Fixtures](../controlling-fixtures/changing-fixture-attributes.md/#align-fixtures).
 
  --- 
 ## \<All\> 
@@ -35,15 +42,35 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Assign\> 
- (D9 and ST only) Allows you to reassign attributes controlled by the trackball and (on D9 only) intensity wheel.  
+ (D9 and ST only) Allows you to reassign attributes controlled by the trackball and (on D9 only) intensity wheel. See [Trackball](../controlling-fixtures/changing-fixture-attributes.md#trackball-diamond-9-and-sapphire-touch-only).
 
  --- 
 ## \<Avo\> 
- Acts as a "Shift" button when held down to give access to different functions. 
+ Acts as a "Shift" button when held down, giving access to different functions. 
+
+  Buttons | Action
+ --------|--------
+ \<Avo\> + \<All\> | Set zero intensity into programmer for unselected fixtures (same as \<Rem Dim\>), see [Turn off unselected fixtures](../controlling-fixtures.md#turn-off-unselected-fixtures-remainder-dim). Also used when setting Attribute Times to deselect all fixtures, see [Attribute Fade Times](../cue-lists/cue-list-timing.md#individual-attribute-fade-times).
+ \<Avo\> + \<Close\> | Close all workspace windows, see [Workspace windows](../titan-basics/workspace-windows.md#changing-window-size-and-appearance).
+ \<Avo\> + \<Copy\> | Same as pressing \<Move\> (for consoles which don't have a Move button, but works on all consoles)
+ \<Avo\> + \<Disk\> | Enter System menu to set up the console, see [System Menu](../system-settings/the-system-menu.md).
+ \<Avo\> + \<Exit\> | Exit menu structure back to the top level
+ \<Avo\> + \<Group\> {Select} | Record group to handle, see [Record a group](../controlling-fixtures/fixture-groups.md#record-a-group).
+ \<Avo\> + \<Open/View\> {Workspace button} | Record workspace layout, see [Saving workspace layouts](../titan-basics/workspace-windows.md#saving-workspace-layouts).
+ \<Avo\> + \<Size/Position\> | Move the active workspace window to the next screen, see [Workspace windows](../titan-basics/workspace-windows.md#changing-window-size-and-appearance).
+ \<Avo\> + \<Time\> | Preview Attribute fade time, see [Attribute Times](../controlling-fixtures/changing-fixture-attributes.md#setting-fixtureattribute-times).
+ \<Avo\> + \[Blind\] | Toggle Blind mode, same as pressing \<Blind\>.
+ \<Avo\> + \[Edit current key profile\] | Reallocate the function of the Select and Flash buttons, see [Key Profiles](../system-settings/key-profiles.md).
+ \<Avo\> + \[Lock\] | Temporarily lock console controls, see [Locking the console](../titan-basics/front-panel-buttons.md#locking-the-console).
+ \<Avo\> + \[User Settings\] | Enter the User Settings menu, see [User Settings](../system-settings/user-settings.md).
+ \<Avo\> + {Scene Master} | Enter or exit preset mode when Scene Master assigned to Macro/Executor button or touch button, see [Scene Master](../running-the-show/playback-controls.md#scene-master).
+ \<Avo\> + {Select} | Kill playback, see [Release](../cues/cue-playback.md#release).
+ \<Avo\> + Turn wheel | Wheel Turbo mode, 1 revolution goes through entire attribute range
+
 
  --- 
 ## \<Back\> 
- |
+(D9 only)
 
  --- 
 ## \<Beam\> 
@@ -51,7 +78,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Blind\> 
- Switches the console into Blind mode which allows you to make changes on the visualiser while not affecting the stage output.
+ Switches the console into Blind mode which allows you to make programming changes using the visualiser (or in your head) while not affecting the stage output. See [Blind mode](../running-the-show/playback-controls.md#blind-mode).
 
  --- 
 ## \<Block\> 
@@ -75,6 +102,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 \<Clear\> + \[Individual Attributes\] | Clear individual attributes from programmer (use softkeys to select)
 \<Clear\> + \[Clear All Programmers\] | Clears programmers from other users and from the Titan Remote
 \<Clear\> + \[Clear Options\] | Show user settings for Clear, see [User settings - Clear](../system-settings/user-settings.md/#clear)
+
  --- 
 ## \<Close\> 
  Close the currently active workspace window.
@@ -295,11 +323,13 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Open\> 
- (D9 only) Open workspace window, like double pressing View. (Other consoles) Show details about item, or double press to open workspace window.
+ (D9 only) Open workspace window, like double pressing View. \
+ (Quartz, Titan Mobile) Show details about item, or double press to open workspace window, see \<Open/View\> below.
 
  --- 
 ## \<Open/View\> 
- Show details about item, or double press to open workspace window. See [Palettes](../palettes/editing-palettes.md/#viewing-and-editing-the-content-of-palettes) and [Cues](../cues/editing-cues.md/#playback-and-cue-view), or [Opening Workspace Windows](../titan-basics.md/workspace-windows/#opening-and-positioning-workspace-windows).
+(Sapphire Touch, Arena, Tiger Touch only) \
+ Followed by **Select** button to show details about item, or double press to open workspace window. See [Palettes](../palettes/editing-palettes.md/#viewing-and-editing-the-content-of-palettes) and [Cues](../cues/editing-cues.md/#playback-and-cue-view), or [Opening Workspace Windows](../titan-basics.md/workspace-windows/#opening-and-positioning-workspace-windows).
 
  --- 
 ## \<Options\> 
@@ -419,7 +449,8 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<View\> 
- followed by Select button, shows more details for an item. See [Palettes](../palettes/editing-palettes.md/#viewing-and-editing-the-content-of-palettes) and [Cues](../cues/editing-cues.md/#playback-and-cue-view) but most types of item can be viewed.
+(D9, Titan Go, Pearl Expert, Tiger Touch 1) \
+ Followed by **Select** button to show details about item, or double press to open workspace window. See [Palettes](../palettes/editing-palettes.md/#viewing-and-editing-the-content-of-palettes) and [Cues](../cues/editing-cues.md/#playback-and-cue-view), or [Opening Workspace Windows](../titan-basics.md/workspace-windows/#opening-and-positioning-workspace-windows).
 
  --- 
 ## \<Visualiser\> 
