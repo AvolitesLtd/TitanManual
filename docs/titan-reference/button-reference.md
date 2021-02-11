@@ -86,7 +86,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Chan Grid\> 
- (Arena only) Opens the intensity view window.
+ (Arena only) Opens the Channel Grid workspace window. See [The Channel Grid Window](../controlling-fixtures/viewing-and-editing-fixture-values.md/#the-channel-grid-window).
 
  --- 
 ## \<Clear\> 
@@ -353,7 +353,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Playback\> 
- (D9)  (Arena) Opens the Playback View window
+ (D9)  (Arena) Opens the Playbacks workspace window showing touch buttons for additional playback storage. 
 
  --- 
 ## \<Playback (wheels)\> 
@@ -393,7 +393,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Review\> 
- |
+ Re-runs the fade times of the current live cue to allow you to see timing changes. See [Edit Times of a Running Cue List](../cue-lists/editing-cue-lists.md/#edit-times-of-a-running-cue-list)
 
  --- 
 ## \<Right\> 
@@ -445,7 +445,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Update\> 
- Updates the current cue by merging the contents of the programmer.
+ Updates the current cue by merging the contents of the programmer. See [Updating Stored Values and Palettes used in a Cue](../cues/editing-cues.md/#updating-stored-values-and-palettes-used-in-a-cue).
 
  --- 
 ## \<View\> 
