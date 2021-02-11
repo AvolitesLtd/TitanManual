@@ -70,7 +70,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Back\> 
-(D9 only)
+(D9 only) Backspace key for numeric entry or command line inputs.
 
  --- 
 ## \<Beam\> 
@@ -82,7 +82,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Block\> 
- (D9 only)
+ (D9 only) Not used yet.
 
  --- 
 ## \<Chan Grid\> 
@@ -155,7 +155,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Edit\> 
- 
+ Used when editing palettes. See [Changing the content of palettes](../palettes/editing-palettes.md/#changing-the-content-of-palettes).
 
  --- 
 ## \<Effect\> 
@@ -179,11 +179,11 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<FX\> 
- (D9 only) Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects.
+ (D9 only) Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects. Same as \<Shape\> on other consoles.
 
  --- 
 ## \<FX (wheels)\> 
- (D9 only) Sets the wheels into FX mode to control shape size, speed, spread.
+ (D9 only - button to the right of the wheels) Sets the wheels into FX mode to control shape size, speed, spread.
 
  --- 
 ## \<Fade/Delay\> 
