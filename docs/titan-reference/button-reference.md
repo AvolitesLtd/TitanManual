@@ -86,7 +86,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Chan Grid\> 
- (Arena only) Opens the intensity view window.
+ (Arena only) Opens the intensity view window. See [Intensity View](../controlling-fixtures/viewing-and-editing-fixture-values.md/#the-intensity-view-window)
 
  --- 
 ## \<Clear\> 
@@ -111,23 +111,31 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Colour\> 
- Selects the Colour attribute group so the wheels will control colour, RGB, CMY etc
+ Selects the Colour attribute group so the wheels will control colour, RGB, CMY etc. Also used for creating masks. See [Changing Attributes using the Wheels](../controlling-fixtures/changing-fixture-attributes.md/#changing-attributes-using-the-wheels).
 
  --- 
 ## \<Commit\> 
- (D9 only) Commits the Scene Master change, as if you'd pushed the master to the end of its travel.
+ (D9 only) Commits the Scene Master change, as if you'd pushed the master to the end of its travel. See [Scene Master](../running-the-show/playback-controls.md/#scene-master).
 
  --- 
 ## \<Connect\> 
- Connects the sequence controls (Go button etc) to a playback.
+(Labelled Cue on some consoles) Connects the sequence controls (Go button etc) to a playback. Also used to select cues when recording or playing cue lists.
+
+See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-chase-for-control), [Running a Cue List](../cue-lists/cue-list-playback.md#running-a-cue-list), [Theatre programming](../theatre-programming.md)
 
  --- 
 ## \<Copy\> 
- Used to make copies of items (fixtures, playbacks etc).
+ Used to make copies of items (fixtures, playbacks etc). Use \<Latch\> to keep the copy function active for copying multiple items.
 
+ Example: \<Copy\> {Source Playback} {Destination Playback}
+
+ Buttons | Action
+ --------|--------
+ \<Copy\> \<Copy\> | Same as pressing \<Move\>
+ 
  --- 
 ## \<Cue\> 
- Used when selecting cues in Cue Lists.
+ Used when selecting cues in Cue Lists. Labelled Connect on some consoles, see [Connect](#Connect).
 
  --- 
 ## \<Cue +\> 
@@ -143,11 +151,13 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Delete\> 
- Used to delete items.
+ Used to delete items. You usually need to press the item to be deleted a second time to confirm the delete, or press \<Enter\>. Use \<Latch\> to keep the Delete function active for deleting multiple items.
+
+ Example: \<Delete\> {Playback} {Playback}
 
  --- 
 ## \<Direction\> 
- (D9 only) Used when setting direction of pixel map shapes.
+ (D9 only) Used when setting direction of shapes. See [Shape Direction](../effects/shape-generator.md/#shape-direction)
 
  --- 
 ## \<Disk\> 
@@ -159,23 +169,27 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Effect\> 
- Selects the Effect attribute group so the wheels control Prism etc
+ Selects the Effect attribute group so the wheels control Prism etc. Also used for creating masks. See [Changing Attributes using the Wheels](../controlling-fixtures/changing-fixture-attributes.md/#changing-attributes-using-the-wheels).
 
  --- 
 ## \<Enter\> 
- Completes or accepts many commands
+ Completes or accepts many commands.
 
  --- 
 ## \<Enter/B\> 
- (D9 only) Enters Scene Master preset mode.
+ (D9 only) Enters Scene Master preset mode. See [Scene Master](../running-the-show/playback-controls.md/#scene-master).
 
  --- 
 ## \<Exit\> 
- Leaves the current menu and goes back up the menu structure.
+ Leaves the current menu and goes one level back up the menu structure.
+
+  Buttons | Action
+ --------|--------
+  \<Avo\> + \<Exit\> | Exit menu structure back to the top level
 
  --- 
 ## \<Exit/A\> 
- (D9 only) Exits Scene Master preset mode and goes back to Live.
+ (D9 only) Exits Scene Master preset mode and goes back to Live. See [Scene Master](../running-the-show/playback-controls.md/#scene-master).
 
  --- 
 ## \<FX\> 
@@ -215,7 +229,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Gobo\> 
- Selects the Gobo attribute group so the wheels control gobo select, rotation etc
+ Selects the Gobo attribute group so the wheels control gobo select, rotation etc. Also used for creating masks. See [Changing Attributes using the Wheels](../controlling-fixtures/changing-fixture-attributes.md/#changing-attributes-using-the-wheels).
 
  --- 
 ## \<Group\> 
@@ -231,7 +245,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Intensity\> 
- Selects the Intensity attribute group so the wheels control Dimmer, Shutter etc
+ Selects the Intensity attribute group so the wheels control Dimmer, Shutter etc. Also used for creating masks. See [Changing Attributes using the Wheels](../controlling-fixtures/changing-fixture-attributes.md/#changing-attributes-using-the-wheels).
 
  --- 
 ## \<Keyboard\> 
@@ -361,7 +375,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Position\> 
- Selects the Position attribute group so the wheels control pan, tilt etc
+ Selects the Position attribute group so the wheels control pan, tilt etc. Also used for creating masks. See [Changing Attributes using the Wheels](../controlling-fixtures/changing-fixture-attributes.md/#changing-attributes-using-the-wheels).
 
  --- 
 ## \<Preload/Auto\> 
@@ -421,7 +435,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Special\> 
- Selects the Special attribute group so the wheels control fixture-specific functions like modes and macros.
+ Selects the Special attribute group so the wheels control fixture-specific functions like modes and macros. Also used for creating masks. See [Changing Attributes using the Wheels](../controlling-fixtures/changing-fixture-attributes.md/#changing-attributes-using-the-wheels).
 
  --- 
 ## \<Stop\> 
