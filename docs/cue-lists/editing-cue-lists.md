@@ -215,7 +215,7 @@ then this cue will not wait for the \<Go\> button but will start automatically.
 5. Press the \<Go\> button *(on Pearl Expert and Tiger Touch 1 the white ↔
 button)* to jump on to the next step.
 
-The \<Review\> button lets you test the live step with the new timings.
+- The \<Review\> button lets you test the live step with the new timings.
 
 *You can also use \<Unfold\> to set the times as described in the
 [Unfold section above](#editing-a-cue-list-using-unfold).*

@@ -70,7 +70,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Back\> 
-(D9 only)
+(D9 only) Backspace key for numeric entry or command line inputs.
 
  --- 
 ## \<Beam\> 
@@ -82,11 +82,11 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Block\> 
- (D9 only)
+ (D9 only) Not used yet.
 
  --- 
 ## \<Chan Grid\> 
- (Arena only) Opens the intensity view window. See [Intensity View](../controlling-fixtures/viewing-and-editing-fixture-values.md/#the-intensity-view-window)
+ (Arena only) Opens the Channel Grid workspace window. See [The Channel Grid Window](../controlling-fixtures/viewing-and-editing-fixture-values.md/#the-channel-grid-window).
 
  --- 
 ## \<Clear\> 
@@ -165,7 +165,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Edit\> 
- 
+ Used when editing palettes. See [Changing the content of palettes](../palettes/editing-palettes.md/#changing-the-content-of-palettes).
 
  --- 
 ## \<Effect\> 
@@ -193,11 +193,11 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<FX\> 
- (D9 only) Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects.
+ (D9 only) Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects. Same as \<Shape\> on other consoles.
 
  --- 
 ## \<FX (wheels)\> 
- (D9 only) Sets the wheels into FX mode to control shape size, speed, spread.
+ (D9 only - button to the right of the wheels) Sets the wheels into FX mode to control shape size, speed, spread.
 
  --- 
 ## \<Fade/Delay\> 
@@ -367,7 +367,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Playback\> 
- (D9)  (Arena) Opens the Playback View window
+ (D9)  (Arena) Opens the Playbacks workspace window showing touch buttons for additional playback storage. 
 
  --- 
 ## \<Playback (wheels)\> 
@@ -407,7 +407,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Review\> 
- |
+ Re-runs the fade times of the current live cue to allow you to see timing changes. See [Edit Times of a Running Cue List](../cue-lists/editing-cue-lists.md/#edit-times-of-a-running-cue-list)
 
  --- 
 ## \<Right\> 
@@ -459,7 +459,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Update\> 
- Updates the current cue by merging the contents of the programmer.
+ Updates the current cue by merging the contents of the programmer. See [Updating Stored Values and Palettes used in a Cue](../cues/editing-cues.md/#updating-stored-values-and-palettes-used-in-a-cue).
 
  --- 
 ## \<View\> 
