@@ -9,6 +9,7 @@ busked
 connectable
 dialog
 disinfectant
+fx
 gimbal
 glitching
 gobo
@@ -200,6 +201,7 @@ alcohol
 9-pin
 15-pin
 
+
 4xRGB
 
 2.5mm
@@ -223,6 +225,7 @@ v12
 v13
 v14
 
+2-press
 3-axis
 800mA
 c2o
