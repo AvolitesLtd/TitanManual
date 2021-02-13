@@ -65,7 +65,7 @@ the \{Cog\} button at the top of the window).
     you turn on the \<Snap\> button the \<Prev\>/\<Next\> buttons will
     snap immediately to the cue rather than going to the previous/next
     cue using the programmed times. There is also a 
-    [User Setting \[Chase Snap\]](../system-settings/user-settings.md#chase-snap)
+    [User Setting](../system-settings/user-settings.md#chase-snap) \[Chase Snap\]
     which enables this mode on consoles which don't have the
     button.
 

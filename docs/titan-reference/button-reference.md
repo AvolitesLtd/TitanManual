@@ -32,7 +32,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<All\> 
- Used to end odd/even selection on a range of fixtures and reselect all fixtures in the range. See [Selecting fixtures using a pattern](../controlling-fixtures.md/#selecting-fixtures-using-a-pattern).
+ Used to start and end odd/even selection from a range of selected fixtures. See [Selecting fixtures using a pattern](../controlling-fixtures.md/#selecting-fixtures-using-a-pattern).
 
  --- 
 ## \<And\> 
@@ -121,7 +121,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 ## \<Connect\> 
 (Labelled Cue on some consoles) Connects the sequence controls (Go button etc) to a playback. Also used to select cues when recording or playing cue lists.
 
-See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-chase-for-control), [Running a Cue List](../cue-lists/cue-list-playback.md#running-a-cue-list), [Theatre programming](../theatre-programming.md)
+See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-chase-for-control), [Running a Cue List](../cue-lists/cue-list-playback.md#running-a-cue-list), [Theatre programming](../cue-lists/theatre-programming.md)
 
  --- 
 ## \<Copy\> 
@@ -151,7 +151,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Delete\> 
- Used to delete items. You usually need to press the item to be deleted a second time to confirm the delete, or press \<Enter\>. Use \<Latch\> to keep the Delete function active for deleting multiple items.
+ Used to delete items. You usually need to press the item to be deleted a second time to confirm the delete, or press \<Enter\> to confirm. Use \<Latch\> to keep the Delete function active for deleting multiple items.
 
  Example: \<Delete\> {Playback} {Playback}
 
@@ -193,7 +193,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<FX\> 
- (D9 only) Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects. Same as \<Shape\> on other consoles.
+ (D9 only) Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects. Same as \<Shape\> on other consoles. See [Shape](#Shape).
 
  --- 
 ## \<FX (wheels)\> 
@@ -205,27 +205,27 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Fan\> 
- Starts Fan mode so the wheels spread out attributes rather than setting values.
+ Starts Fan mode so the wheels spread out attributes rather than setting values. See [Fan Mode](../controlling-fixtures/changing-fixture-attributes.md/#fan-mode).
 
  --- 
 ## \<Fix +1\> 
- Selects the next fixture out of a range.
+ Selects the next fixture out of a range, used when programming to step through a range of fixtures one at a time. See [Stepping through selected fixtures](../controlling-fixtures.md/#stepping-through-selected-fixtures-one-at-a-time).
 
  --- 
 ## \<Fix -1\> 
- Selects the previous fixture out of a range.
+ Selects the previous fixture out of a range, used when programming to step through a range of fixtures one at a time. See [Stepping through selected fixtures](../controlling-fixtures.md/#stepping-through-selected-fixtures-one-at-a-time).
 
  --- 
 ## \<Fixture\> 
- Opens the fixture menu.
+ Opens the fixture/channel menu which is used when selecting fixtures from the keypad. See [Selecting fixtures and dimmers by number](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel)
 
  --- 
 ## \<Go\> 
- Runs the next cue of the connected playback.
+ Runs the next cue of the connected playback, usually used when running cues from a cue list. See [Running a Cue List](../cue-lists/cue-list-playback.md/#running-a-cue-list).
 
  --- 
 ## \<Go page\> 
- Type a number to jump to Page ``<n>`` on the associated fader bank (consoles with multiple fader banks may have several of these buttons).
+ Type a number to jump to Page ``<n>`` of the associated fader bank (consoles with multiple fader banks may have several of these buttons). See also \<Page +\> and \<Page -\>. See [Changing playback pages](../cues/cue-playback.md/#changing-playback-pages).
 
  --- 
 ## \<Gobo\> 
@@ -233,15 +233,15 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Group\> 
- Opens the group menu.
+ Opens the group menu for saving and editing fixture groups. See [Fixture Groups](../controlling-fixtures/fixture-groups.md/#using-fixture-groups).
 
  --- 
 ## \<Hi light\> 
- Starts Hi-light mode which visually shows the selected fixture on stage by increasing its intensity or setting colour.
+ Starts or ends Hi-light mode which visually shows the selected fixture(s) on stage by increasing intensity or setting a contrasting colour. Often used with \<Fix +1\> and \<Fix -1\> buttons. See [Stepping through selected fixtures](../controlling-fixtures.md/#stepping-through-selected-fixtures-one-at-a-time).
 
  --- 
 ## \<Include\> 
- (followed by playback Select) Loads the contents of a playback back into the programmer for further editing or re-use.
+ (followed by playback Select) Loads the contents of a playback back into the programmer for further editing or re-use. See [Include Function](../cues/editing-cues.md/#using-parts-of-existing-cues---the-include-function).
 
  --- 
 ## \<Intensity\> 
@@ -249,15 +249,15 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Keyboard\> 
- (D9 only) Shows the touch screen keyboard.
+ (D9 only) Shows the touch screen keyboard. On other consoles there is a button in the window title bars to open the keyboard. See [Touch Keyboard](../titan-basics/workspace-windows.md/#touch-keyboard).
 
  --- 
 ## \<Latch\> 
- (D9 only) Latches the current menu so that it remains active when you complete the action. Useful for copy, move etc.
+ (D9 only) Latches the current menu so that it remains active when you complete the action. \<Latch Menu\> on other consoles, see below.
 
  --- 
 ## \<Latch Menu\> 
- Latches the current menu so that it remains active when you complete the action. Useful for copy, move etc.
+ Latches the current menu so that it remains active when you complete the action. Useful for copy, move etc. Useful for copy, move etc. See [The Menu/Softkeys](../titan-basics/other-parts-of-the-touch-screen.md/#the-menusoftkeys).
 
  --- 
 ## \<Left\> 
@@ -265,11 +265,11 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Legend\> 
- (D9 only) (followed by a Select button) Set legend on an item.
+ (D9 only) (followed by a Select button) Set legend on an item. On other consoles use the \[Set Legend\] softkey at the top level menu. See [Legends and picture legends](../titan-basics/workspace-windows.md/#legends-and-picture-legends).
 
  --- 
 ## \<Levels\> 
- (D9 only) set wheels to Levels mode for setting attributes.
+ (D9 only) set wheels to Levels mode for setting attribute levels.
 
  --- 
 ## \<Level @\> 
@@ -281,7 +281,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Live Time\> 
- Sets time information for the currently live cue in a cue list.
+ Lets you edit timing information for the currently live cue in a cue list. See [Edit Times of a running cue list](../cue-lists/editing-cue-lists.md/#edit-times-of-a-running-cue-list).
 
  --- 
 ## \<Locate\> 
@@ -289,23 +289,23 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Lock Axis\> 
- |
+(D9 and ST only) Not currently used.
 
  --- 
 ## \<Macro\> 
- Opens the Macro menu.
+ Opens the Macro menu, which allows you to record sequences of keypresses for playback. See [Key Macro buttons](../titan-basics/front-panel-buttons.md/#key-macro-buttons).
 
  --- 
 ## \<Mask FX\> 
- (D9 only) Opens the Mask FX menu.
+ (D9 only) Opens the Mask FX menu which allows you to create masks to block running shapes. Also available as a softkey on the Shapes and Effects menu. See [Mask Fx](../effects/shape-generator.md/#masking-shapes-using-mask-fx).
 
  --- 
 ## \<Menu Latch\> 
- Latches the current menu so that it remains active when you complete the action. Useful for copy, move etc.
+ Latches the current menu so that it remains active when you complete the action. Useful for copy, move etc. Useful for copy, move etc. See [The Menu/Softkeys](../titan-basics/other-parts-of-the-touch-screen.md/#the-menusoftkeys).
 
  --- 
 ## \<Min/Max\> 
- Changes current workspace between minimum and maximum size.
+ Changes current workspace window between minimum (quarter screen) and maximum (full screen) size. See [Window Size](../titan-basics/workspace-windows.md/#changing-window-size-and-appearance).
 
  --- 
 ## \<ML Menu\> 
@@ -313,27 +313,31 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Move\> 
- Used to move items to different handles.
+ Used to move items to different handles. Use \<Latch\> to keep the Move function active for moving multiple items.
+
+ Example: \<Move\> {Source Playback} {Destination Playback}
 
  --- 
 ## \<Next Step\> 
- Moves the next cue in the connected cue list on by one.
+ Moves to the next cue in the connected cue list using programmed fade times. Labelled \<Next Cue\> or \<Cue +\> on some consoles. See [Running a cue list](../cue-lists/cue-list-playback.md/#running-a-cue-list).
 
  --- 
 ## \<Next Time\> 
- Sets time information for the next cue in a connected cue list.
+ Lets you edit timing information for the next cue in a connected cue list. See [Edit times of a running cue list](../cue-lists/editing-cue-lists.md/#edit-times-of-a-running-cue-list).
 
  --- 
 ## \<Not\> 
- Used when selecting ranges of items (e.g. Fixture 1 Through 5 not 3). See [Selecting fixtures and dimmers by number](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel)
+ Used when selecting ranges of items. See [Selecting fixtures and dimmers by number](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel).
+
+ Example: \<Fixture\> 1 \<Through\> 5 \<not\> 3 selects fixtures 1, 2, 4, 5
 
  --- 
 ## \<Odd/Even\> 
- Used to select odd/even fixtures from a range.
+ Replaced by \<All\>.  Used to start and end odd/even selection from a range of selected fixtures. See [Selecting fixtures using a pattern](../controlling-fixtures.md/#selecting-fixtures-using-a-pattern).
 
  --- 
 ## \<Off\> 
- Used to deactivate specific attribute values from fixtures or in playbacks.
+ Used to deactivate specific attribute values from fixtures or in playbacks. Attributes set to Off can later be restored to their previous values. See [Deactivate attributes using Off](../cues/editing-cues.md/#deactivate-attributes-from-cues-using-off).
 
  --- 
 ## \<Open\> 
@@ -347,27 +351,27 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Options\> 
- Show options screen for item.
+ Followed by **Select** button, shows options screen for item. Usually used with playbacks but can set options for other types of item. See [Playback Options](../cues/playback-options.md/)
 
  --- 
 ## \<Page +\> 
- Move to next page in the fader bank (consoles with multiple fader banks may have several of these buttons).
+ Move to next page in the fader bank (consoles with multiple fader banks may have several of these buttons). See also \<Go Page\>. See [Changing playback pages](../cues/cue-playback.md/#changing-playback-pages).
 
  --- 
 ## \<Page -\> 
- Move to previous page in the fader bank (consoles with multiple fader banks may have several of these buttons).
+ Move to previous page in the fader bank (consoles with multiple fader banks may have several of these buttons). See also \<Go Page\>. See [Changing playback pages](../cues/cue-playback.md/#changing-playback-pages).
 
  --- 
 ## \<Palette\> 
- Opens the Palette menu.
+ Opens the Palette menu which is used when recalling palettes by number. See [Recalling palettes](../palettes/using-palettes.md/#recalling-from-the-keypad).
 
  --- 
 ## \<Patch\> 
- Opens the Patch menu.
+ Opens the Patch menu. See [Patching new fixtures or dimmers](../patching/patching-new-fixtures-or-dimmers.md/).
 
  --- 
 ## \<Playback\> 
- (D9)  (Arena) Opens the Playbacks workspace window showing touch buttons for additional playback storage. 
+ (D9) (Arena) Opens the Playbacks workspace window showing touch buttons for additional playback storage. 
 
  --- 
 ## \<Playback (wheels)\> 
@@ -379,19 +383,19 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Preload/Auto\> 
- (D9 only) Preload the Scene Master preset.
+ (D9 only) Preload the Scene Master preset state (loads the LTP values of non-illuminated fixtures so they don't visibly move when the state is faded in). See [Scene Master](../running-the-show/playback-controls.md/#scene-master).
 
  --- 
 ## \<Prev Step\> 
- Moves the next cue in the connected cue list back by one.
+ Moves to the previous cue in the connected cue list using programmed fade times. Labelled \<Prev Cue\> or \<Cue -\> on some consoles. See [Running a cue list](../cue-lists/cue-list-playback.md/#running-a-cue-list).
 
  --- 
 ## \<Record\> 
- Enter Record mode.
+ Enter Record mode to record playbacks or palettes. See [Creating a cue](../cues/creating-a-cue.md/#creating-a-cue) and [Storing a palette](../palettes/creating-palettes.md/#storing-a-palette)
 
  --- 
 ## \<Record Step\> 
- Record the programmer into the current active cue in the connected cue list.
+ Record the programmer into the current active cue in the connected cue list. See [Editing a cue list while recording](../cue-lists/editing-cue-lists.md/#editing-a-cue-list-while-recording)
 
  --- 
 ## \<Release\> 
@@ -403,7 +407,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Reset\> 
- (D9 only) Clear the preset state of the Scene Master.
+ (D9 only) Clear the preset state of the Scene Master. See [Scene Master](../running-the-show/playback-controls.md/#scene-master).
 
  --- 
 ## \<Review\> 
@@ -411,11 +415,11 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Right\> 
- (D9 / ST only) Right mouse  button when trackball in mouse mode.
+ (D9 / ST only) Right mouse button when trackball in mouse mode.
 
  --- 
 ## \<Select If\> 
- Selects all fixtures which have intensity above zero.
+ Selects all fixtures which have intensity above zero. See [Select If](../controlling-fixtures.md/#selecting-fixtures-which-are-in-a-playback).
 
  --- 
 ## \<Set\> 
@@ -423,15 +427,15 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Shape\> 
- Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects.
+ Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects. See [Shapes and Effects](../effects.md).
 
  --- 
 ## \<Size/Position\> 
- Moves the current window around the different size and position options. If \<Avo\> held also, moves the window to the other screen.
+ Moves the currently selected workspace window around the different size and position options. If \<Avo\> held also, moves the window to the other screen.
 
  --- 
 ## \<Snap\> 
- Enables Snap mode which makes Prev Step / Next Step buttons snap through cues without fade times.
+ Enables Snap mode which makes \<Prev Step\> / \<Next Step\> buttons snap through cues without using the programmed fade times. See [Running a cue list](../cue-lists/cue-list-playback.md/#running-a-cue-list).
 
  --- 
 ## \<Special\> 
@@ -439,23 +443,25 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Stop\> 
- Stops the current cue progression.
+ Stops/freezes the current cue fades. See [Running a cue list](../cue-lists/cue-list-playback.md/#running-a-cue-list).
 
  --- 
 ## \<Through\> 
- Used when selecting ranges of items (e.g. Fixture 1 Through 5 not 3). See [Selecting fixtures and dimmers by number](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel).
+ Used when selecting ranges of items. See [Selecting fixtures and dimmers by number](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel).
+
+ Example: \<Fixture\> 1 \<Through\> 5 \<not\> 3 selects fixtures 1, 2, 4, 5
 
  --- 
 ## \<Time\> 
- Show the Times menu.
+ Show the Times menu which is used to set cue timing. See [Fade times](../cues/cue-timing.md/#fade-times-and-fixture-overlap).
 
  --- 
 ## \<Undo\> 
- Undo the last action (an Undo list is shown in the system prompt).
+ Undo the last action (an Undo list is shown in the system prompt). See [Undo/Redo](../titan-basics/other-parts-of-the-touch-screen.md/#undoredo).
 
  --- 
 ## \<Unfold\> 
- followed by playback Select, splits out a cue list or chase onto the playback faders so each cue/step can be edited individually.
+ followed by playback **Select**, splits out a cue list or chase onto the playback faders so each cue/step can be edited individually. See [Editing a chase using unfold](../chases/editing-a-chase.md/#editing-a-chase-using-unfold).
 
  --- 
 ## \<Update\> 
@@ -468,7 +474,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Visualiser\> 
- Opens the Visualiser window
+ Opens the Visualiser window. See [Capture visualiser](../capture-visualiser.md/).
 
  --- 
 ## \<Wheel @\> 
