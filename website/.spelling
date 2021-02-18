@@ -4,6 +4,7 @@
 
 # excluded words
 autoscroll
+bargraph
 busked
 connectable
 dialog
@@ -15,6 +16,7 @@ gobos
 keystoning
 nd
 num
+pushbuttons
 rackmount
 rd
 remotes
@@ -82,12 +84,14 @@ Autoincrement
 Avo
 AvoKey
 Avolites
+BMFLs
 D9-330
-D9-225
+D9-215
 DMX-in
 Esc
 Ethernet
 etherCON
+EtherCON
 ExpertDMX
 FixtureLibrary
 GamColor
@@ -98,6 +102,7 @@ Hippotizer
 IPCGBES-FX
 Quicksave
 Lightmap
+Luminex
 LiveDMX
 LocalClock
 Lustr
@@ -177,7 +182,10 @@ alcohol
 200Mbps
 280Mbps
 480Mbps
+1Gb
 10Gb
+10GbE
+
 
 1920x1080p30
 1920x1080p60
@@ -190,6 +198,7 @@ alcohol
 3-pin
 5-pin
 9-pin
+15-pin
 
 4xRGB
 

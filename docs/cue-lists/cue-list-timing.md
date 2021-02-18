@@ -142,6 +142,8 @@ useful for complex performances which must be exactly the same time
 every time, or for unattended operation. Each step in the cue list is
 assigned a time at which it will run.
 
+> See also [Timelines](../timelines.md) which offer a more streamlined way of producing a show to timecode.
+
 The console can have up to 4 separate timecode sources. For each, the
 timecode can be read from the system clock, from an internal timecode
 source, from MIDI, SMPTE or from Winamp. Internal timecode is useful for
@@ -187,7 +189,7 @@ the cues: \[Timecode = \] sets the timecode directly while a value set with \[Of
 can be used in \[Add + \] or \[Subtract - \], to shift all selected timestamps by this timespan.
 
 You can open a timecode display window for each of the four possible
-sources to show you the incoming timecode - double press \<View/Open\> 
+sources to show you the incoming timecode - double press \<Open/View\> 
 then press \[Timecode x\] (where x is 1 to 4) from the workspace select buttons.
 
 ![Timecode 1 Workspace Window](/docs/images/Timecode-1-Workspace-Window.png)

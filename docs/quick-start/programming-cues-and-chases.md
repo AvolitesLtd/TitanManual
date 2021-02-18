@@ -16,15 +16,15 @@ or are selected), \[Stage\] (saves all attributes of all fixtures with
 non-zero dimmer), or \[Quick Build\] (merges palettes and playbacks into
 the cue when you select them).
 
-To store, press a blue Select button on fader, or press button in
-Playbacks window. (See [Creating a Cue](../cues/creating-a-cue.md)).
+To store, press a fader **Select** button, a macro/executor button or a touch
+button in Playbacks window. (See [Creating a Cue](../cues/creating-a-cue.md)).
 
 ## Chases
 
 Press \<Record\> twice (or \<Record\> then \[Create Chase\]).
 
-Press blue Select button on a fader, or press button in Playbacks
-window.
+Press **Select** button, a macro/executor button or a touch
+button in Playbacks window.
 
 Set up the look for the first step, press playback select button to
 store. Repeat until all steps stored. Quick Build mode can be used to

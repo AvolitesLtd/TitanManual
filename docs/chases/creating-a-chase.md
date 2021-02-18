@@ -22,7 +22,7 @@ to load in cues.
 1. Press \<Record\> then select \[Chase\]. *(Some consoles also have a
 \<Record Chase\> button)*.
 
-2. Press the **Swop** button of the playback where you want to store the
+2. Press the **Select** button of the playback where you want to store the
 chase *(you can also store chases on touch buttons in the Playbacks
 window)*.
 
@@ -32,7 +32,7 @@ on existing cues.
 
 4. You can change the number given to the step using \[Step Number\]
 
-5. Press the **Swop** button of the playback to store the programmer
+5. Press the **Select** button of the playback to store the programmer
 contents as a step of the chase. You can also press \[Append Step\] on
 the menu.
 
@@ -73,7 +73,7 @@ programmer)*, then repeat steps 3 - 5.
     it)*
 
 -   You can set a legend for the chase by pressing \[Set Legend\], then
-    pressing the **Swop** button for the chase and entering the legend, as
+    pressing the **Select** button for the chase and entering the legend, as
     with cues.
 
 -   There is no limit to the number of steps in a chase.
