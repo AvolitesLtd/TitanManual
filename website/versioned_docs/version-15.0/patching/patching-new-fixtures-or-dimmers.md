@@ -15,8 +15,8 @@ onto touch buttons in the Fixtures window, to a fader handle or to a
 Macro/Executor button. If the handle you patch to has a fader, the fader
 will control intensity.
 
-If the Fixtures window is not shown, press \<View/Open\> then
-\<Fixture\> or double press \<View/Open\> then press
+If the Fixtures window is not shown, press \<Open/View\> then
+\<Fixture\> or double press \<Open/View\> then press
 \[Fixtures\] from the window select buttons.
 
 ![Fixtures Window](/docs/images/Fixtures-Window.png)
@@ -51,7 +51,7 @@ in the new address on the numeric keypad and pressing \<Enter\>.\
 ![DMX Line](/docs/images/DMX-Line.png)
 
 3. To patch a single dimmer, press a Fixture touch button, a
-Macro/Executor button or the blue Select button of a fader handle. To
+Macro/Executor button or the **Select** button of a fader handle. To
 patch a sequence of dimmers each to its own button, press \[Quantity\]
 and set the number of dimmers then press the first select button.
 Alternatively, run your finger or draw a selection box round the touch
@@ -69,7 +69,7 @@ up dimly.
     line (universe) as well by entering {line}.{DMX}, for example 2.56
     will set DMX address 56 on DMX line 2.
 
--   To see how DMX channels are patched, press \<View/Open\> then \<Patch\>
+-   To see how DMX channels are patched, press \<Open/View\> then \<Patch\>
     to show the [Patch View](./changing-the-patch.md#patch-view) window.
 
 -   \[User Number = xx\] allows you to set a user-defined number for
@@ -129,7 +129,7 @@ you patch to a different DMX line, or you can enter the address as
 ![Address Input](/docs/images/Address-Input.png)
 
 7. Patch the fixture by pressing a Fixture touch button, a
-Macro/Executor button or the blue Select button of a fader handle (not
+Macro/Executor button or the **Select** button of a fader handle (not
 the main playback faders).
 
 8. A fixture touch button turns dark blue and shows fixture details
@@ -173,9 +173,9 @@ Select buttons.
     a group is created for all fixtures of the same type, and another if
     you patch a quantity of fixtures.
 
--   To show the DMX address for fixtures, press \<View/Open\> then
+-   To show the DMX address for fixtures, press \<Open/View\> then
     \<Patch\>. To show patch details for a single fixture press
-    \<View/Open\> then the fixture select button. On touch buttons the
+    \<Open/View\> then the fixture select button. On touch buttons the
     DMX address is displayed on the top right of the button in the
     format {DMX line}.{Address} (this display can be disabled using the
     context menu).
@@ -195,7 +195,7 @@ Capture Visualiser Auto Patch
 -----------------------------
 
 If you want to use Capture Visualiser, start it by double pressing
-\<View/Open\> then press \[Capture Visualiser\] from the window select buttons. Some
+\<Open/View\> then press \[Capture Visualiser\] from the window select buttons. Some
 consoles also have a dedicated \<Visualiser\> button. Capture will open
 in a workspace window with an automatic representation of your patch.
 
@@ -267,7 +267,7 @@ modes and other settings on the fixture.
 
 > The fixtures need to be connected to the console by an RDM-enabled Art-Net node, the XLR connectors do not support RDM. Obviously the fixtures must be equipped with RDM for this to work; many fixtures are not. Also if you have DMX buffers or splitters in your rig, they must be RDM enabled or they will block the information being sent back to the console.
 
-Press \<View/Open\> then \<Patch\> to open the [Patch View](./changing-the-patch.md#patch-view) window then
+Press \<Open/View\> then \<Patch\> to open the [Patch View](./changing-the-patch.md#patch-view) window then
 select the RDM tab. All devices which support RDM will be listed here.
 Click the \[Full Discover\] context menu button to rescan the rig for
 RDM devices.

@@ -9,17 +9,17 @@ original_id: diamond
 ![Diamond9](/docs/images/Diamond-Main.png)
 
 The Diamond 9 has the following main control areas. There are two models, the 
-D9-330 as shown and the compact D9-225 which has two main touchscreens and
+D9-330 as shown and the compact D9-215 which has two main touchscreens and
 fewer playback faders:
 
-\(A\) The three main **Touch screens** (two on D9-225) contain fixture, palette and group select
+\(A\) The three main **Touch screens** (two on D9-215) contain fixture, palette and group select
 buttons. At the bottom of the right-hand screen, the current wheel assignments
 are shown along with legends for the 15 Macro Keys. At the top and bottom of
 the left-hand screen(s), handle legends for the main faders and encoders are shown.
 
 \(B\) The **Playback faders** and **Rotary playback faders**
  select and control cues, cue lists and chases, and other configurable functions.
- (D9-225 only has the right hand set of faders).
+ (D9-215 only has the right hand set of faders).
 
 \(C\) The **System Prompt and Menu Softkeys** have their own touchscreen.
 
@@ -58,6 +58,7 @@ a range of program functions including cues, chases, and fixture groups.
 The rotary faders have a level indicator around them which is shown in
 a user-configurable colour (halo colour).
 The touch screen below the faders shows legends indicating their function.
+There are additional rotary faders down the sides of the left and right touchscreens.
 
 \(I\) The **Page Select buttons** in the
 centre of the faders let you change the left or right fader banks to a different page.
@@ -140,7 +141,7 @@ of the console.
 
 \(g\) Work light switch. The console has integrated LED lighting around the connections panel.
 
-\(h\) Four gigabit etherCON network connections from the internal network switch.
+\(h\) Four gigabit etherCON network connections from the internal Luminex network switch.
 
 \(i\) GPIO trigger connection (D-connector and separate jack connector).
 

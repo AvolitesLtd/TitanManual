@@ -6,9 +6,9 @@ original_id: cue-list-options
 ---
 
 Cue list options are set from the playback [Options](../cues/playback-options.md). 
-Press \<Options\> (or the \[Options\] softkey on the top level menu then the **select** button for the cue list you wish to edit.
+Press \<Options\> (or the \[Options\] softkey on the top level menu) then the **Select** button for the cue list you wish to edit.
 
-You can also set the cue list options from the Cue List View window by pressing \<View/Open\>
+You can also set the cue list options from the Cue List View window by pressing \<Open/View\>
 then the **Select** button of the cue list, then click the **Options** tab.
 
 The Cue List options are mostly the same as for [Cues](../cues/playback-options.md) and [Chases](../chases/chase-options.md), only
@@ -110,5 +110,5 @@ not programmed in the next cue. This can be useful for creating
 some effects.
 
 > The **Cue Options** which could be set here in previous versions are now set using the Playback View window,
-press \<View/Open\> then the select button for the playback. You can edit cue settings directly in the grid.
+press \<Open/View\> then the select button for the playback. You can edit cue settings directly in the grid.
 

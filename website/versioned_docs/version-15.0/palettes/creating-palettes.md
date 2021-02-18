@@ -28,14 +28,14 @@ to restrict which fixture attributes will be stored in the palette.
 
 Palette information may be **Global**, **Shared** or **Normal**:
 
-- **Global** palettes work on any type of fixture
+- **Global** palettes work on any type of fixture.
 - **Shared** palettes apply the same value to all fixtures of the same type -
 *for example when setting
 colours, the "Red" palette would set the same colour values for "Red" to
-all MAC 2000 fixtures*
+all MAC 2000 fixtures*.
 - **Normal** palettes are used when each fixture
 requires its own value - *for example when programming positions, each
-fixture will have a different setting*
+fixture will have a different setting*.
 
 It is possible, by merging information into palettes, to create a
 palette which contains global, shared and normal attributes.
@@ -58,18 +58,16 @@ This is how you save a palette value to one of the palette windows: *If
 the palette windows are not shown then press the \[Groups and Palettes\]
 workspace button.*
 
-1. Press \<Clear\> to clear the programmer
+1. Press \<Clear\> to clear the programmer.
 
-2. Select the fixtures for which you want to store palette values
+2. Select the fixtures for which you want to store palette values.
 
 3. Using the attribute buttons and wheels, set the attributes you want
 in the palette entry\
-*You can store any or all attributes of a fixture in each palette entry*
+*You can store any or all attributes of a fixture in each palette entry*.
 
 4. Press \<Record\> then \<Palette\> (or \<Palette\> then \[Record
 Palette\])\
-*Using [Quick Record](#quick-record) you can skip this
-step and the palette mask is set automatically to match the window.*
 
 5. If you wish, set the palette mask - this sets which attributes will
 be recorded in the palette. Select attributes using the Attribute Bank
@@ -78,13 +76,18 @@ softkeys also control the Mask (see below).
 
 6. Touch a button in one of the palette windows to store the palette
 (if you touch a used button you will be given further options). Or enter
-a palette number and press \[Store\]
+a palette number and press \[Store\].
+
+- Using [Quick Record](../palettes/creating-palettes.md#quick-record) you can skip steps 4 and 5 - just
+double tap a blank palette button and the palette will be stored with the
+palette mask set automatically to match the window - Positions only 
+includes P, Colours only C and Beams includes IGBES.
 
 ---
 
--   If you want to record to a physical button, press \<Record\> then
-    \<Palette\>. All buttons where you can store the palette will then
-    flash, press one to store.
+If you want to record to a physical button, press \<Record\> then
+\<Palette\>. All buttons where you can store the palette will then
+flash, press one to store.
 
 ![Recording a Palette menu](/docs/images/Recording-a-Palette-menu.png)
 
@@ -95,18 +98,16 @@ a palette number and press \[Store\]
     choice works.
 
 -   \[Set Mask\] allows you to specify which attribute groups will be
-    included in the palette. You can also use the grey Attribute Bank
-    buttons on the right hand edge of the console to set the mask.\
+    included in the palette. You can also use the Attribute Bank
+    buttons by the wheels to set the mask.\
     An attribute group is included when the softkey is inverted (like
     the Colour group in the picture) and when the LED is lit on the
-    Attribute Bank button. If you use **[Quick Record](#quick-record)**
-    the mask is automatically set by the workspace window you
-    save the palette in - Positions only includes P, Colours only C and
-    Beams includes IGBES. If you use the \<Record\> button then you need
-    to set the mask manually.
+    Attribute Bank button. The mask can only be set if you use the \<Record\> button 
+    to record the palette, if you use Quick Record then it is set
+    automatically (see above).
 
 -   Press the \<Attribute Options\> (or \<Options\> on newer consoles)
-    button to toggle each mask group between Include and Exclude.
+    button to toggle all mask groups between Include and Exclude.
 
 ![Setting a mask for recording a palette](/docs/images/Setting-a-mask-for-recording-a-palette.png)
 
@@ -133,8 +134,8 @@ a palette number and press \[Store\]
     -   **Gobos:** show the gobo image (if available in the personality - you might need to 
     [update the patched personalities](../patching/changing-the-patch.md#updating-patched-personalities)). 
     -   **CITP (media server)**: show the media thumbnail. 
-    -   **Pan and tilt**: show a default legend
-    -   For **other** attributes the last adjusted function value will be used for the legend.
+    -   **Pan and tilt**: show a default legend.
+    -   For **other** attributes the legend is set to the value of the attribute you last changed.
 
     ![Automatic Legends set for Colour Palettes](/docs/images/Automatic-Legends-set-for-Colour-Palettes.png)
 
@@ -146,8 +147,8 @@ a palette number and press \[Store\]
     offers you options to \[Cancel\], \[Replace\], \[Merge\] or \[Quick
     Merge\] the existing palette.
     - \[Replace\] will erase the palette and save only the latest changes
-        you have made
-    - \[Merge\] will combine your changes with the palette
+        you have made.
+    - \[Merge\] will combine your changes with the palette.
     - \[Quick Merge\] will merge only the
     attributes which are currently stored in the palette - the button
     shows you which attributes.
@@ -277,25 +278,26 @@ palette, or you can just remember not to set any other values when
 programming.
 
 1. Press \<Clear\>, select some fixtures and \<Locate\> them\
-*If you need to move them so you can see what's happening, you can do that too*
+*If you need to move them so you can see what's happening, you can do that, and
+the position can be removed later*.
 
 2. Press \[Shapes and Effects\], \[Shape Generator\] and choose a shape
 to start\
-*See [Shape Generator](../effects/shape-generator.md) for more information about shapes*
+*See [Shape Generator](../effects/shape-generator.md) for more information about shapes*.
 
-3. Alter the parameters of the shape as you require
+3. Alter the parameters of the shape as you require.
 
 4. Press \<Record\> then \<Palette\>\
-*You cannot use Quick Record to store shape/FX palettes*
+*You cannot use Quick Record to store shape/FX palettes*.
 
 5. If you moved the fixtures in **step 1**, press \[Set Mask\] and exclude
-everything except **FX**
+everything except **FX**.
 
-6.  Press a palette button to store the shape palette
+6.  Press a palette button to store the shape palette.
 
 You can't use an effects palette as a
 **[Quick Palette](using-palettes.md#quick-palettes-with-no-fixtures-selected)**
-(when you recall a palette with no fixtures selected). You must have some
+(this is when you recall a palette with no fixtures selected). You must have some
 fixtures selected when you recall an effects palette.
 
 Creating a Time Palette
@@ -308,18 +310,18 @@ and change the times once in the palette, and the changes will
 automatically apply to all cues which use the palette.
 
 1. Press \<Clear\>, select some fixtures and \<Locate\> them\
-*If you need to move them so you can see what's happening, you can do that too*
+*If you need to move them so you can see what's happening, you can do that too.*
 
 2. Press \<Time\>\
 *May be labelled \<Set\> on Mobile/Sapphire/Quartz, and
-\<Next Time\> on Expert/Tiger*
+\<Next Time\> on Expert/Tiger*.
 
 3. Change Fade time to 2 sec. This sets the global fade time into the
 programmer.
 
-4. Press \<Record\> then \<Palette\>
+4. Press \<Record\> then \<Palette\>.
 
 5. If you moved the fixtures in step 1, press \[Set Mask\] and exclude
-everything except **Time**
+everything except **Time**.
 
-6. Press a palette button to store the Time palette
+6. Press a palette button to store the Time palette.

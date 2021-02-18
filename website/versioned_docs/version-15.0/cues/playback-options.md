@@ -149,13 +149,12 @@ Sets how the fader position affects the cue output.
 
 Setting | Action
 ------: | ------
-Mode 0 | Channels fade in as set by the fade time. The Fade Out time is ignored. If times are set to zero, the HTP channels fade in with the 0-100% position of the playback fader and the LTP channels will snap.
+**Mode 0** | Channels fade in as set by the fade time. The Fade Out time is ignored. If times are set to zero, the HTP channels fade in with the 0-100% position of the playback fader and the LTP channels will snap.
 Mode 1 | HTP channels fade in and out as set by the fade out times (LTP channels fade in but then remain as set in the cue). If times are set to zero, the HTP levels will fade in and out with the fader and the LTP channels will snap when the cue is fired.
 Mode 2 | Both HTP and LTP channels follow the fader position. *Useful when used with a pan/tilt cue for manually tracking a spot across a stage or down a catwalk using the fader position or for mixing colours on RGB fixtures.*
 Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to the settings in the new cue. All other cues fade out and all other active playbacks become inactive; if you need to re-fire a playback, take the fader to zero and put it up again. *Useful for setting a video playback state.*
 
-This is the same option as set in the [\[Edit Times\]
-menu](cue-timing.md).
+This is the same as the [Fade Mode](cue-timing.md/#fade-modes) option in the \[Edit Times\] menu.
 
 [](https://youtu.be/2fwM5S8nX3k?t=20 "Playback Modes")
 
@@ -163,6 +162,14 @@ menu](cue-timing.md).
 Allows you to set a different curve shape for this playback - curves
 are listed on the softkeys. The various curves are illustrated
 in the [Curves](../system-settings/curves.md) section.
+
+### Kill Point
+Sets where the console will start the Release process on this cue, causing LTP channels to be released back to their previous state. Normally this is set to happen when all fades have completed so the fixture won't change until it has dimmed to zero.
+
+Setting | Action
+------: | ------
+**Fade Out Complete** | The cue is killed when all fades have completed.
+Fader at 0 | The cue is killed when the fader reaches zero.
 
 --- 
 
@@ -216,21 +223,15 @@ to control the size of shapes running in this playback.
 ![Playback Options showing release tab](/docs/images/Playback-Options-Release-Tab.png)
 
 ### Release Mask
-Lets you specify which attributes will be released to
-the state they were in previously when this
-playback is killed (you lower the fader to zero). 
+Lets you specify which attributes will be released to their previous state when this playback is killed (you lower the fader to zero). 
 
 Normally using the LTP rules, attributes will stay in their last state when
 you kill a playback. This is not always what you want (for example with a strobe
 cue, you don't want the strobing to carry on when you kill the cue).
 
-Click the button to toggle the mask to Local, then select which
-attribute types you want to release
-You can also use the
-Attribute Bank buttons to set the mask.
+Click the \{Global\} button to toggle the mask to \{Local\}, then select which attribute types you want to release. You can also use the Attribute Bank buttons to set the mask.
 
-Global release uses the global
-release mask which is set in the **Release menu** (press \<Release\>).
+Global release uses the [Global Release Mask](../cues/cue-playback.md#global-release-mask).
 
 > Release mask is useful when creating a temporary strobe
 effect on a playback. Set **Mask** to **Local** then **Intensity** to **Include**. Now when you turn off
@@ -238,8 +239,9 @@ the playback the shutter channel will release to its previous state
 and the strobe will stop.
 
 You can also use [Key Profiles](../system-settings/key-profiles.md) to
-allocate one of the handle buttons to release the playback.
+allocate one of the handle buttons to release this playback.
+
 
 ### Release Time
 Sets a release fade time for this playback. Enter a
-blank time to return to global *([Global release time](../system-settings/user-settings.md#master-release-time) is set in the [User Settings](../system-settings/user-settings.md))*. 
+blank time to return to global ([Global release time](../system-settings/user-settings.md#release) is set in the User Settings.) 

@@ -18,7 +18,7 @@ Intensity/Dimmer, Colour, Gobo etc), then turn the wheels to set
 fixture. Display shows which attribute each wheel is controlling.
 (See [Changing Attributes Using the Wheels](../controlling-fixtures/changing-fixture-attributes.md#changing-attributes-using-the-wheels)).
 
-[Open Attribute window](../controlling-fixtures/changing-fixture-attributes.md#attribute-editor-window) on-screen (\<View/Open\> then one of the attribute
+[Open Attribute window](../controlling-fixtures/changing-fixture-attributes.md#attribute-editor-window) on-screen (\<Open/View\> then one of the attribute
 bank buttons such as \<Position\> or \<Intensity\>) to select attributes
 from buttons and to control sub-fixtures of battens/arrays.
 (See [Fixtures with Multiple Cells](../controlling-fixtures.md#fixtures-with-multiple-cells-subfixtures)).
@@ -28,7 +28,8 @@ recall, see next page.
 
 ## Fixture Groups
 
-Fixtures may be [grouped](../controlling-fixtures/fixture-groups.md) for quick selection, press \<Group\>, \[Record
+Fixtures may be [grouped](../controlling-fixtures/fixture-groups.md) for quick selection
+of different arrangements of fixtures, press \<Group\>, \[Record
 Group\], select fixtures for group, set legend using \[Provide a
 legend\], press a handle to store. If the handle has a fader it becomes
 a master fader for the group. Order of fixture selection is remembered
@@ -46,7 +47,7 @@ shapes.
 At top menu press \[Shapes and Effects\], \[[Shape Generator](../effects/shape-generator.md)],
 \[Create\]. Select attribute of shape then select a shape to run.
 
-Or from the Shape Library window (double press \<View/Open\>, 
+Or from the Shape Library window (double press \<Open/View\>, 
 \[Shape Library\]) you can select a shape directly. Filter the
 list of shapes using the attribute buttons.
 

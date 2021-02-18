@@ -14,8 +14,8 @@ Press \<Record\>, \<Palette\> (See also Quick Record below).
 Use \[Set Mask\] to choose attributes to record/exclude. If you are
 storing in a palette touch button the mask is automatically set.
 
-Press a grey handle button to store (except on the main playbacks), or
-touch a button in one of the Colours/Positions/Gobos windows.
+Touch a button in one of the Colours/Positions/Gobos workspace windows to
+store the palette.
 
 See [Creating Palettes](../palettes/creating-palettes.md)
 

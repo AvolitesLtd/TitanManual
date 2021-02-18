@@ -19,7 +19,7 @@ You can select fixtures or dimmers individually, or several at once. You
 can also put fixtures into [Groups](./controlling-fixtures/fixture-groups.md) which
 allow you to quickly select different combinations of fixtures.
 
-If the fixture is patched on a fader handle, press the blue button to
+If the fixture is patched on a fader handle, press the **Select** button to
 select the fixture.
 
 ![Fixtures Window](/docs/images/Fixtures-Window.png)
@@ -282,11 +282,11 @@ is as follows: (\<THRO\> is called Through on some consoles)
 | **n** \<THRO\> \<.\> **j**                   | Sub-fixture 1 - **j** of fixture **n**                                  |
 | **n** \<.\> **m** \<THRO\> \<.\> **j**       | Sub-fixtures **m** - **j** of fixture **n**                             |
 
--   Fixture cell selection can be saved as a group, this provides a
+-   Fixture cell selection state will be saved with a group, this provides a
     quick way to select cells / sub-fixtures without having to use the
     Attribute Editor or Unfold.
 	
-	## Selecting Fixtures and Dimmers by number (Channel)
+## Selecting Fixtures and Dimmers by number (Channel)
 
 In some situations, for example when programming lots of dimmers, it can
 be easier to type in the dimmer channels you want to program. The

@@ -26,9 +26,9 @@ change a master palette, the changes will track through to all the
 palettes in which it is used.
 
 Palettes are stored and selected using the buttons in the **Colours**,
-**Gobos/Beams** and **Positions** windows. You can also store palettes on the
-grey buttons of preset fader handles (but not on the main playback
-faders) and on Macro/Executor buttons. You can [set a legend](palettes/creating-palettes.md#setting-legends-for-palettes)
+**Gobos/Beams** and **Positions** windows. You can also store palettes on 
+Macro/Executor buttons or store and recall numerically from the keypad. 
+You can [set a legend](palettes/creating-palettes.md#setting-legends-for-palettes)
 for each button so that you know what you're going to get.
 
 ![Gobos and Beams Window and Colours Window](/docs/images/Gobos-and-Beams-Window-and-Colours-Window.png)

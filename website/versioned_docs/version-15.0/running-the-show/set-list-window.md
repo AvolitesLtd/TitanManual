@@ -12,7 +12,7 @@ can have multiple set lists in a show.
 
 [](https://youtu.be/VX5acUU-99M?t=20 "Set Lists")
 
-To open the Set List window, double press \<View/Open\> then press \[Set List\] from the window select buttons which pop up. Or from the top level menu press \[Open Workspace Window\] then \[Set
+To open the Set List window, double press \<Open/View\> then press \[Set List\] from the window select buttons which pop up. Or from the top level menu press \[Open Workspace Window\] then \[Set
 List\].
 
 The Set List feature works best if you arrange your playbacks to have a

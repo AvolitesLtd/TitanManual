@@ -20,7 +20,7 @@ The following types of trigger are available:
 > Audio trigger (sound to light) requires special hardware which is not fitted on Sapphire Touch,
 Tiger Touch, Titan Mobile, T1 and Pearl Expert. You can plug a T2 into these consoles to provide
 audio triggering. The motherboard "line in" socket can't be used for audio trigger.\
-GPIO trigger is available on Arena, Tiger Touch II and Sapphire Touch.
+GPIO trigger is available on Diamond 9, Arena, Tiger Touch II and Sapphire Touch.
 
 Connecting External Trigger Sources
 ---------------------------------
@@ -33,7 +33,8 @@ male to male gender changer cable. (This is a simple plug to plug cable
 with all pins wired straight through, i.e. 1-1, 2-2 and 3-3).  
 
 GPIO uses a contact closure for trigger which is connected using a dedicated jack socket, 
-currently only on the Arena, Tiger Touch II and Sapphire Touch consoles.
+currently only on the Diamond 9, Arena, Tiger Touch II and Sapphire Touch consoles. The Diamond 9
+additionally has a 15-pin D connector for GPIO trigger.
 The TNP can optionally have a GPIO input fitted, contact Avolites.
 
 Most console hardware has a standard 5-pin MIDI connector, 

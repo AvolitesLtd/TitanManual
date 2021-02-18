@@ -5,15 +5,37 @@ sidebar_label: Front Panel Buttons
 original_id: front-panel-buttons
 ---
 
-The blue and grey buttons associated with fader handles, and the
+The Select and Flash buttons associated with fader handles, and the
 macro/executor buttons are configurable and you can use them in various
 ways.
+
+Select and Flash buttons
+------------------------
+
+Each fader handle on the console has buttons associated with it. 
+
+\(A\) **Select** button
+
+\(B\) **Flash** button
+
+On the **Diamond 9** the buttons are arranged like this for the rotary faders and the linear faders:
+
+![Diamond Select and Flash](/docs/images/Diamond-Select-Flash.png)
+
+On the **Sapphire Touch** the buttons are like this for the upper and lower faders. The Sapphire Touch also has a black button with each handle which can be assigned a function using Key Profiles.
+
+![Sapphire Select and Flash](/docs/images/Sapphire-Select-Flash.png)
+
+On **all other consoles**, the buttons are arranged like this:
+
+![Arena Select and Flash](/docs/images/Arena-Select-Flash.png)
+
 
 Key profiles
 ------------
 
-The console allows you to change the function of the blue select and
-grey flash panel buttons (and the black buttons on Sapphire Touch). You
+The console allows you to change the function of the Select and
+Flash panel buttons (and the black buttons on Sapphire Touch). You
 can also change the way some of the touch keys work. You can save your
 settings as a [Key Profile](../system-settings/key-profiles.md). Different profiles can be selected for
 different users or to enhance the operation of the console for a
@@ -24,7 +46,7 @@ Key macro buttons
 
 Lighting programming can sometimes require a repeated sequence of button
 presses. You can record sequences of keypresses and play them back with
-a single keypress -- this is called a macro. The macro can reproduce the
+a single keypress - this is called a **macro**. The macro can reproduce the
 timing of your button presses (Real Time mode) or just repeat the
 sequence of buttons with no timing (Full Speed mode).
 
@@ -32,14 +54,17 @@ Real Time mode is useful when you are using a macro to reproduce a
 lighting effect, for example a sequence of flash buttons. Full Speed
 mode is more useful for admin tasks such as changing console mode.
 
-Macros can be stored in most workspace windows, on the dedicated buttons 
-on the top right of the panel and on the grey handle buttons. There is also 
+Macros can be stored in most workspace windows, on the dedicated Macro/executor buttons 
+and on the handle buttons. There is also 
 a dedicated Macro button window which can be shown in the workspace. 
-The top right panel macro/executor/workspace buttons are shown in the 
-Static Playbacks workspace window while the designated 10 Macro buttons 
-on the old Tiger Touch correspond to the first 10 macros in the Macros window.
+The macro/executor/workspace button legends are shown in the 
+Static Playbacks workspace window. *The 10 Macro buttons 
+on the Tiger Touch 1 correspond to the first 10 macros in the Macros window.*
 
-The Arena also has two additional Macro buttons on the bottom left
+- The Diamond 9 has an additional six macro buttons with dedicated legend display 
+in between the two banks of playback faders.
+
+- The Arena also has two additional Macro buttons on the bottom left
 corner of the console.
 
 To record a macro:

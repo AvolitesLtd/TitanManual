@@ -8,8 +8,8 @@ original_id: chase-playback
 Playing Back a Chase
 --------------------
 
-To fire a chase, raise the fader of the playback. *(You can also use the
-**Flash** / **Swop** buttons)*. The chase will start to run. The bottom line of the
+To fire a chase, raise the fader of the playback. *(You can also use the pushbuttons
+to **Flash** or **Swop** the chase)*. The chase will start to run. The bottom line of the
 screen relating to the playback fader shows the current cue number and
 speed of the chase.
 

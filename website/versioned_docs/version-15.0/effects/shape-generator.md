@@ -40,22 +40,22 @@ Creating a Shape
 
 When you create a shape, it will be applied to all selected fixtures.
 
-1. [Select the fixtures](../controlling-fixtures.md#selecting-fixtures-and-dimmers-for-control) the shape is to be applied to
+1. [Select the fixtures](../controlling-fixtures.md#selecting-fixtures-and-dimmers-for-control) the shape is to be applied to.
 
 2. At the main menu press \[Shapes and Effects\] then \[Shape
-Generator\]
+Generator\].
 
 3. Press \[Create\] to start a new shape
-![Shape Generator selecting a category of new shape](/docs/images/Shape-Generator-selecting-a-category-of-new-shape.png)
+![Shape Generator selecting a category of new shape](/docs/images/Shape-Generator-selecting-a-category-of-new-shape.png).
 
 4. Press a \[softkey\] to select the attribute type to use in the shape or
-press \[All\] for a full list
+press \[All\] for a full list.
 
 5. Press a \[softkey\] to select a shape, or touch the desired shape in the
 **Shapes window**. You can type a search word on the keyboard to search for
 a particular shape.
 
-6. The shape will be applied to all selected fixtures
+6. The shape will be applied to all selected fixtures.
 
 ---
 
@@ -68,7 +68,7 @@ a particular shape.
     \
     ![Shapes Workspace Window](/docs/images/Shapes-Workspace-Window.png)
 
--   Shapes are based on the current settings of the fixture, *so a
+-   Shapes are based on the current settings of the fixture, so for example *a
     position circle would move around the current pan-tilt position of
     the fixture.*
 
@@ -120,8 +120,7 @@ Offset rather than Size/Speed, press \[Adjust Speed, Size and Spread\].
 
 -   Control the speed of the shape using the left hand wheel
 
--   Control the size of the shape using the middle wheel *(right hand
-wheel on Pearl Expert)*
+-   Control the size of the shape using the middle wheel 
 
 -   The size and speed is shown above the wheels on the display
 
@@ -160,7 +159,7 @@ Size and Spread\]
 
 2. Control the **Spread** of the shape using the right hand wheel, or to
 set in terms of Phase, press \[Adjust Spread, Phase and Offset\] and
-use the middle wheel *(right hand wheel on Pearl Expert)*.
+use the middle wheel.
 
 Spread = **12** *(Phase = 30 degrees)*:
 
@@ -269,7 +268,7 @@ can also select certain fixtures for the mask and leave other fixtures unaffecte
 
 To create a mask:
 
-1.	Press \[Mask FX\] on the Shapes and Effects menu.
+1.	Press \[Mask FX\] on the Shapes and Effects menu (Diamond 9 has a dedicated \<Mask FX\> button).
 
 2.	The Attribute Bank buttons (Position, Colour etc) will flash. Choose which attributes you want to mask
 	by toggling the buttons on and off.

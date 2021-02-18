@@ -11,18 +11,18 @@ Editing a Cue by Merging
 You can edit any part of a cue you have already saved simply by making
 the changes and saving the new information on top of the cue.
 
-1. Press \<Clear\> to empty the programmer
+1. Press \<Clear\> to empty the programmer.
 
 2. Fire the cue you want to edit, so you can see what you are doing.\
 *Kill all other cues to avoid confusion.*
 
-3. Select the fixtures you want to change, and make the changes
+3. Select the fixtures you want to change, and make the changes.
 
-4. Press \<Record\>
+4. Press \<Record\>.
 
-5. Press the playback **Select** button for the cue you are editing
+5. Press the playback **Select** button for the cue you are editing.
 
-6. Press \[Merge\] *(the cue being edited is highlighted on the screen)*
+6. Press \[Merge\] *(the cue being edited is highlighted on the screen)*.
 
 7. The console will merge the existing cue with your changes. Unchanged
 information is not affected.
@@ -55,12 +55,12 @@ For instant update of a fired cue, change the fixture settings and press
 \<Update\> twice.
 
 1. With the cue fired, select the fixtures and change them to the
-settings you want to store *(e.g. the right green colour)*
+settings you want to store.
 
 2. Press \<Update\> *(on consoles without an Update button press
-\<Record Cue\>, \[Update\])*
+\<Record Cue\>, \[Update\])*.
 
-3. Press \<Enter\> to immediately store the new values to the cue
+3. Press \<Enter\> to immediately store the new values to the cue.
 
 ---
 
@@ -87,7 +87,7 @@ Playback and Cue View
 ---------------------
 
 To see the current timings of the cue, touch the playbacks display for
-the fader, or press \<View/Open\> then the **Select** button of the playback
+the fader, or press \<Open/View\> then the **Select** button of the playback
 you want to view. The screen will show details of the delay, fade,
 overlap and curve settings for the cue. You can touch each item to
 enable editing.

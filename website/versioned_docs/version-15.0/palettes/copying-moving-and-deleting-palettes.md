@@ -21,7 +21,7 @@ Move is useful for tidying up the console.
 can select multiple palettes - use the \<Thro\> and \<And\> buttons to
 add more to the selection - hold down \<And\> to keep adding them.
 
-3. Press the empty button where you want it to go
+3. Press the empty button where you want it to go.
 
 ---
 
@@ -45,8 +45,8 @@ add more to the selection - hold down \<And\> to keep adding them.
 Deleting Palettes
 -----------------
 
-You can delete a palette entry by pressing \<Delete\>, then pressing the
-palette's button to be deleted. Press the palette button again to
+You can delete a palette by pressing \<Delete\>, then pressing the
+button of the palette to be deleted. Press the palette button again to
 confirm the deletion. For palettes stored on physical buttons you can
 delete a range of palettes in one go by holding down the first one while
 pressing the last one.
@@ -64,4 +64,4 @@ Other ways to delete a palette:
 
 >   If you have playbacks which use the deleted palette, they will go
     back to the values which were stored in the programmer when the
-    playback was recorded
+    playback was recorded.

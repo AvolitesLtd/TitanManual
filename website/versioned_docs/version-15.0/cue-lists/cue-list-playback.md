@@ -8,13 +8,14 @@ original_id: cue-list-playback
 Running a Cue List
 ------------------
 
-Raise the fader of the cue list and press the **Go button** to run the first
-cue. The bottom section of the display shows the cue list; the current
-cue is highlighted in grey and the next cue has a box round it.
+Raise the fader of the cue list and press the \<Go\> button to run the first
+cue. The wheel display section of the screen shows the cue list status; the current
+cue is highlighted and the next cue has a grey box around it (On Diamond 9 the cue list status is shown at the bottom
+of the Editor screen).
 
 ![Connected Cue List view](/docs/images/Connected-Cue-List-view.png)
 
-Also the playback legend above the fader shows information about
+Also the playback legend display for the cue list shows information about
 the cue list. The current cue is shown at the top in light blue, with the next cue below in dark blue.
 Fade progress of the cue is shown in a bar graph in the light blue bar. Below
 this the times for the next cue are shown - in time with up arrow and out time with down arrow,
@@ -23,8 +24,8 @@ d for delay and f for fade. If the cue list is set to manual crossfade a red 'M'
 ![Playback handle of running cue list](/docs/images/Playback-handle-of-running-cue-list.png)
 
 You can also open the Playback View window to show more details of the
-cue list by clicking the Cue List legend area or press \<View/Open\>
-then the **swop button** of the playback. This shows all the timings, links
+cue list by clicking the Cue List legend area or press \<Open/View\>
+then the **Select** button of the playback. This shows all the timings, links
 and tracking status and is very useful when running a [theatre show](theatre-programming.md) on a
 cue list.
 
@@ -61,7 +62,7 @@ the \{Cog\} button at the top of the window).
 -   You can snap back to the previous cue by pressing the \<Snap Back\>
     button *(not on all consoles)*
 
--   On consoles with a \<Snap\> button *(Arena and Tiger Touch II)*, when
+-   On consoles with a \<Snap\> button, when
     you turn on the \<Snap\> button the \<Prev\>/\<Next\> buttons will
     snap immediately to the cue rather than going to the previous/next
     cue using the programmed times. There is also a 
@@ -75,7 +76,7 @@ the \{Cog\} button at the top of the window).
     press \<Connect/Cue\>. (This button may be labelled \<Connect\> or
 	\<Cue\> depending on the console).
 
--   You can use [Key Profiles](../system-settings/key-profiles.md) to set the blue and grey buttons of the
+-   You can use [Key Profiles](../system-settings/key-profiles.md) to set the buttons of the
     playback to have various functions including **Go**, **Stop**, **Connect**, **Next
     Cue**, **Prev Cue**, **Cut Next Cue To Live**, and **Snap Back**, see [Key Profiles](../system-settings/key-profiles.md#cue-lists).
 
@@ -181,7 +182,7 @@ will attempt the movement in the nearest suitable cue instead.
 Key Profile Options for Cue Lists
 ---------------------------------
 
-Using [Key Profiles](../system-settings/key-profiles.md), you can assign different functions to the blue and
-grey buttons of the playback handle. (*The Sapphire Touch also has a
+Using [Key Profiles](../system-settings/key-profiles.md), you can assign different functions to the buttons of the playback handle. 
+(*The Sapphire Touch also has an additional
 black button)*. If the cue list is stored on a touch button you can
 assign a function to that. See [Key Profiles](../system-settings/key-profiles.md#cue-lists) for a full list of functions.

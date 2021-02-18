@@ -17,7 +17,7 @@ out to show that the playback is now inactive.
 Creating a Playback Group
 -------------------------
 
-First open the Playback Groups workspace by double pressing \<View/Open\> then press \[Playback Groups\]
+First open the Playback Groups workspace by double pressing \<Open/View\> then press \[Playback Groups\]
 from the window select buttons.
 
 ![Empty playback groups workspace](/docs/images/Empty-playback-groups-workspace.png)

@@ -75,7 +75,7 @@ recorded)*. To record everything with intensity above zero, switch
 \<Delete\> \<Cue\> **n** \<Enter\> \<Enter\> | Delete cue **n** *(2^nd^ \<Enter\> confirms)*
 \<Copy\> \<Cue\> **n** \<@\> \<Cue\> **m** \<Enter\> | Copy cue **n** to new cue **m**
 \<Copy\> \<Cue\> **n** \<@\> \<Enter\> | Copy cue **n** onto the end of the cue list
-\<View/Open\> {fader select} | Show the list of cues on screen, click on individual times to edit them
+\<Open/View\> {fader select} | Show the list of cues on screen, click on individual times to edit them
 
 - For the **copy** commands, you can use \<Move\> in place of \<Copy\>to **move** cues. For consoles
   which don't have a \<Move\> button you can press (\<Avo\> and \<Copy\>) together to get Move.

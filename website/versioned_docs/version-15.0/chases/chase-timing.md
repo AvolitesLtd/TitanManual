@@ -15,7 +15,7 @@ window](editing-a-chase.md#opening-a-chase-for-editing) or
 [Unfold](editing-a-chase.md#editing-a-chase-using-unfold). This is 
 described below in [Individual Cue Times in Chases](#individual-cue-times-in-chases).
 
-1. Press \[Edit Times\] from the top level menu then the **Swop** button of
+1. Press \[Edit Times\] from the top level menu then the **Select** button of
 the chase
 
 2. Set the **Crossfade**, **Speed**, **Fixture Overlap** and **Attribute Overlap**
@@ -34,7 +34,7 @@ settings, as described below
     *0=no fade (the chase will "snap"), 100=max fade (the chase will move
     continuously from cue to cue).*
 
--   You can assign the blue or grey handle button to be a **tap tempo**
+-   You can assign either of the handle buttons to be a **tap tempo**
     button using the [Key Profiles](../system-settings/key-profiles.md) option.
 
 ### Fixture Overlap
@@ -56,7 +56,7 @@ lot of different timings or link/unlinks. See [Cue Lists](../cue-lists.md).
 ### Using the Playback View Window
 
 1. Touch the playback display relating to the fader, or press
-\<Open/View\> then the **swop** button of the playback. The Playback View
+\<Open/View\> then the **select** button of the playback. The Playback View
 window will open.
 ![Playback View for chase](/docs/images/Playback-View-for-chase.png)
 
@@ -72,9 +72,9 @@ window will open.
 
 ### Using Unfold
 
-1. Press \<Unfold\> then the **Swop** button of the chase to be edited.
+1. Press \<Unfold\> then the **Select** button of the chase to be edited.
 
-2. Press \[Edit Times\] then the **Swop** button of the unfolded cue you
+2. Press \[Edit Times\] then the **Select** button of the unfolded cue you
 want to edit.
 
 3. Set up the timing options as required. The options are described
@@ -115,11 +115,11 @@ set attribute times.
 
 To set an attribute group fade time:
 
-1. Press \<Open/View\> or \<Unfold\>, then the **Swop** button of the chase
+1. Press \<Open/View\> or \<Unfold\>, then the **Select** button of the chase
 to be edited.
 
 2. Press \[Edit Times\] then touch the cue you want to edit in the
-Playback View, or if using Unfold, press the **Swop** button of the unfolded
+Playback View, or if using Unfold, press the **Select** button of the unfolded
 cue you want to edit.
 
 3. Press the **Attribute Options** button (right hand side) for the

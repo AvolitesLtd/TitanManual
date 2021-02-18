@@ -1,21 +1,24 @@
 ---
 id: version-15.0-connecting-the-arena-to-a-network
-title: Connecting the Arena to a network
-sidebar_label: Connecting the Arena to a network
+title: Connecting the Diamond 9 or Arena to a network
+sidebar_label: Connecting the Diamond 9 or Arena to a network
 original_id: connecting-the-arena-to-a-network
 ---
 
-The Arena console is different to the other Titan consoles because it
-has a built-in network switch and an optical network connection
-(optionally 2 optical connections). **This section applies only to the
-Arena console.**
+The Diamond 9 and Arena consoles are different to the other Titan consoles because they
+have a built-in network switch and an optical network connection. 
+**This section applies only to the Diamond 9 and 
+Arena consoles.**
 
 Optical Connections
 -------------------
 
-The optical network connector is a Neutrik opticalCON Duo which uses
-multimode fibre. A single connector is fitted as standard, but a second
-can be fitted on request. The stage end of the connection normally plugs
+The optical network connector is a Neutrik opticalCON which uses
+multimode fibre. On the Arena the connector is a Duo, a single connector is fitted as standard, but a second
+can be fitted on request. On the Diamond 9 the connector is a Quad with one of the two pairs populated as standard - if the
+optional 10GbE Ethernet is fitted then the second pair is populated with a 10GbE fibre.
+
+The stage end of the connection normally plugs
 into the Avolites TitanNet Switch (TNS) rack unit which provides
 standard wired Ethernet connections. If you want to connect to a
 different optical switch you should contact Avolites for advice.
@@ -23,15 +26,18 @@ different optical switch you should contact Avolites for advice.
 Wired Ethernet Outputs
 ----------------------
 
-The Arena console has an in-built 1 Gb TitanNet switch (TNS) that is
+The Diamond 9 console has an in-built 1Gb Luminex network switch; the 
+Arena console has an in-built 1Gb TitanNet switch (TNS). These are
 directly connected to the console Main board on network connection 1.
 The network switch has 4 ports available on the back of the console.
 
-The mainboard Network Connection 2 is available on the etherCON
+The mainboard Network Connection 2 is available on a separate etherCON
 connector at the back of the console and marked as "secondary Ethernet"
 on the back. We recommend that this should only be used if you need to
 connect to two different networks, for example the show network and an
 office network for documentation.
+
+The Diamond 9 can be fitted with a 10GbE port as an optional extra.
 
 The network switch and the controller for the switch both use an IP
 address. When the controller IP address is set, the network switch will
@@ -59,12 +65,12 @@ To change the IP address of the TNS in the console:
 Power and UPS behaviour 
 -----------------------
 
-The TitanNet switch in the console runs from the same UPS as the console
+The network switch in the console runs from the same UPS as the console
 itself, so if power fails the switch will continue working.
 
-When you power down the Arena, the UPS will continue to power the
-internal switch for about 5 minutes. This is to allow you to restart the
+When you power down the console, the UPS will continue to power the
+internal switch for about 5 minutes, or until mains power is removed. This is to allow you to restart the
 console without interrupting the network (for example if you have
-connected a backup console via the Arena switch).
+connected a backup console via the inbuilt switch).
 
 
