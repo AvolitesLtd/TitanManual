@@ -4,7 +4,7 @@ title: Button reference
 sidebar_label: Button reference
 ---
 
-This section lists all the physical buttons and tells you what they do. The **links** take you to the section of the manual where the function is explained in more detail.
+This section lists all the physical buttons and tells you what they do. The **links** take you to the section of the manual where the function is explained in more detail. Some consoles may not have all these buttons.
 
 ``<n>`` means to type in a numeric value on the keypad.
 
@@ -17,22 +17,28 @@ This section lists all the physical buttons and tells you what they do. The **li
 ---
 
  ## \<@\> 
- (by numeric keypad) Allows numeric entry of attribute values. For the \<@\> buttons next to the wheels see [Wheel @](#wheel-).
+ (by numeric keypad) Allows numeric entry of attribute values on selected fixtures. Can also be used with \<Fixture\> or \<Group\> buttons to change selection state. For the \<@\> buttons next to the wheels see [Wheel @](#wheel-).
 
- Example: \<Fixture\> 1 \<And\> 5 \<And\> 7 \<@\> 75 \<Enter\>
+ Examples: \
+ \<Fixture\> 1 \<And\> 5 \<And\> 7 \<@\> 75 \<Enter\> (Set fixtures 1,5,7 to 75%) \
+ \<Group\> 5 \<@\> \<@\> (Set all fixtures in group 5 to full)
 
   Buttons | Action
  --------|--------
  \<@\> ``<n>`` \<Enter\> | Set intensity of currently selected fixtures to ``<n>`` in the programmer. (``<n>`` normally 0-99, optionally can be single digit 0-9, see [Formatting](../system-settings/user-settings.md#formatting))
  \<@\> \<@\> | Set intensity of currently selected fixtures to full in the programmer.
-  
+
+ --- 
+## \<@A\> \<@B\> \<@C\>
+For the \<@\> buttons next to the wheels see [Wheel @](#wheel-).
+
  --- 
 ## \<Align\> 
  (D9 only) Allows copying of attributes between fixtures. On consoles other than D9 this function is accessed using \<ML Menu\>. See [Align Fixtures](../controlling-fixtures/changing-fixture-attributes.md/#align-fixtures).
 
  --- 
 ## \<All\> 
- Used to start and end odd/even selection from a range of selected fixtures. See [Selecting fixtures using a pattern](../controlling-fixtures.md/#selecting-fixtures-using-a-pattern).
+ Used to start and end pattern selection (such as odd/even) within a range of selected fixtures. See [Selecting fixtures using a pattern](../controlling-fixtures.md/#selecting-fixtures-using-a-pattern). (On D9 labelled \<Pattern/All\>)
 
  --- 
 ## \<And\> 
@@ -40,37 +46,50 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  Example:  \<Fixture\> 1 \<And\> 5 \<And\> 7
 
+ Also when entering time or timecode values the \<And\> and \<Through\> buttons move the cursor between hours/minutes/seconds/frames.
+
  --- 
 ## \<Assign\> 
  (D9 and ST only) Allows you to reassign attributes controlled by the trackball and (on D9 only) intensity wheel. See [Trackball](../controlling-fixtures/changing-fixture-attributes.md#trackball-diamond-9-and-sapphire-touch-only).
 
  --- 
 ## \<Avo\> 
- Acts as a "Shift" button when held down, giving access to different functions. 
+ Acts as a "Shift" button when held down, giving access to different functions. Or a quick press shows a softkey menu with other functions.
 
   Buttons | Action
  --------|--------
  \<Avo\> + \<All\> | Set zero intensity into programmer for unselected fixtures (same as \<Rem Dim\>), see [Turn off unselected fixtures](../controlling-fixtures.md#turn-off-unselected-fixtures-remainder-dim). Also used when setting Attribute Times to deselect all fixtures, see [Attribute Fade Times](../cue-lists/cue-list-timing.md#individual-attribute-fade-times).
+ \<Avo\> + \<Back\> | Undo, see [Undo/Redo](../titan-basics/other-parts-of-the-touch-screen.md/#undoredo).
  \<Avo\> + \<Close\> | Close all workspace windows, see [Workspace windows](../titan-basics/workspace-windows.md#changing-window-size-and-appearance).
  \<Avo\> + \<Copy\> | Same as pressing \<Move\> (for consoles which don't have a Move button, but works on all consoles)
  \<Avo\> + \<Disk\> | Enter System menu to set up the console, see [System Menu](../system-settings/the-system-menu.md).
- \<Avo\> + \<Exit\> | Exit menu structure back to the top level
+ \<Avo\> + \<Exit\> | Exit menu structure back to the top level.
+ \<Avo\> + \<Fix +\> | Jump the pattern forward (or back with \<Fix -\>) in pattern select mode.
+ \<Avo\> + \<Flash On\> | Flash out (turn off) selected fixtures while held.
  \<Avo\> + \<Group\> {Select} | Record group to handle, see [Record a group](../controlling-fixtures/fixture-groups.md#record-a-group).
+ \<Avo\> + \<Highlight\> | Record the highlight state, see [Highlight](../controlling-fixtures.md/#highlighting-the-selected-fixture-with-prevnext)
+ \<Avo\> + \<Macro\> {Select} | Record macro to handle, see [Key Macro buttons](../titan-basics/front-panel-buttons.md/#key-macro-buttons).
+ \<Avo\> + \<Min/Max\> | Select a different workspace window to be the active window, see [Workspace windows](../titan-basics/workspace-windows.
  \<Avo\> + \<Open/View\> {Workspace button} | Record workspace layout, see [Saving workspace layouts](../titan-basics/workspace-windows.md#saving-workspace-layouts).
+ \<Avo\> + \<Release\> | Release all playbacks by priority (same as double press \<Release\>). See [Release](../cues/cue-playback.md#release).
+ \<Avo\> + \<Shape\> | 
  \<Avo\> + \<Size/Position\> | Move the active workspace window to the next screen, see [Workspace windows](../titan-basics/workspace-windows.md#changing-window-size-and-appearance).
  \<Avo\> + \<Time\> | Preview Attribute fade time, see [Attribute Times](../controlling-fixtures/changing-fixture-attributes.md#setting-fixtureattribute-times).
+ \<Avo\> + \<Undo\> or \<Avo\> + \<@\> | Redo, see [Undo/Redo](../titan-basics/other-parts-of-the-touch-screen.md/#undoredo).
  \<Avo\> + \[Blind\] | Toggle Blind mode, same as pressing \<Blind\>.
  \<Avo\> + \[Edit current key profile\] | Reallocate the function of the Select and Flash buttons, see [Key Profiles](../system-settings/key-profiles.md).
  \<Avo\> + \[Lock\] | Temporarily lock console controls, see [Locking the console](../titan-basics/front-panel-buttons.md#locking-the-console).
  \<Avo\> + \[User Settings\] | Enter the User Settings menu, see [User Settings](../system-settings/user-settings.md).
  \<Avo\> + {Scene Master} | Enter or exit preset mode when Scene Master assigned to Macro/Executor button or touch button, see [Scene Master](../running-the-show/playback-controls.md#scene-master).
- \<Avo\> + {Select} | Kill playback, see [Release](../cues/cue-playback.md#release).
+ \<Avo\> + {Master} | Releases the master to its default state (no effect on output), see [Releasing a Master](../cues/cue-playback.md#releasing-a-master).
+ \<Avo\> + {Playback} | Kill playback, see [Release](../cues/cue-playback.md#release).
  \<Avo\> + Turn wheel | Wheel Turbo mode, 1 revolution goes through entire attribute range
+ \<Avo\> + 2/4/6/8 | Cursor up, left, right, down
 
 
  --- 
 ## \<Back\> 
-(D9 only) Backspace key for numeric entry or command line inputs.
+Backspace key for numeric entry or command line inputs.
 
  --- 
 ## \<Beam\> 
@@ -119,19 +138,20 @@ This section lists all the physical buttons and tells you what they do. The **li
 
  --- 
 ## \<Connect\> 
-(Labelled Cue on some consoles) Connects the sequence controls (Go button etc) to a playback. Also used to select cues when recording or playing cue lists.
+(Labelled Connect/Cue on some consoles) Connects the sequence controls (Go button etc) to a playback. Also used to select cues when recording or playing cue lists.
 
 See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-chase-for-control), [Running a Cue List](../cue-lists/cue-list-playback.md#running-a-cue-list), [Theatre programming](../cue-lists/theatre-programming.md)
 
  --- 
 ## \<Copy\> 
- Used to make copies of items (fixtures, playbacks etc). Use \<Latch\> to keep the copy function active for copying multiple items.
+ Used to make copies of items (fixtures, playbacks etc). Use \<Latch\> to keep the copy function active for copying multiple items. Press twice to make linked copy.
 
  Example: \<Copy\> {Source Playback} {Destination Playback}
 
  Buttons | Action
  --------|--------
- \<Copy\> \<Copy\> | Same as pressing \<Move\>
+ \<Avo\> + \<Copy\> | Same as pressing \<Move\> (for consoles which don't have a Move button, but works on all consoles)
+ \<Copy\> \<Copy\> | Selects Linked Copy, same as pressing \<Copy\> \[Link\]
  
  --- 
 ## \<Cue\> 
@@ -146,8 +166,8 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
  (D9 only) Moves the next cue in the connected cue list back by one - same as \<Prev Step\>.
 
  --- 
-## \<Custom\> 
- (D9 only) Not used yet.
+## \<Custom (wheels)\> 
+ (D9 only - button to right of wheels) Not used yet.
 
  --- 
 ## \<Delete\> 
@@ -162,6 +182,12 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
  --- 
 ## \<Disk\> 
  Shows disk functions such as Save Show etc. If pressed when \<Avo\> held, enters System menu. See [Saving the show](../titan-basics/loading-and-saving-shows.md#saving-the-show) and [The System Menu](../system-settings/the-system-menu.md).
+
+Buttons | Action
+ --------|--------
+ \<Avo\> + \<Disk\> | Enter System menu
+ \<Disk\> \<Disk\> | Save the current show without asking any questions
+ 
 
  --- 
 ## \<Edit\> 
@@ -193,15 +219,17 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<FX\> 
- (D9 only) Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects. Same as \<Shape\> on other consoles. See [Shape](#Shape).
+ (D9 only) Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects. Also used to enable/disable FX attribute group when setting masks. See [Shape menu](#Shape).
+
+ Multiple presses followed by \<Enter\> will select the options in the Shape/FX menu - press twice then \<Enter\> to select Key Frame Shapes or three times then \<Enter\> to select Pixel Mapper.
 
  --- 
 ## \<FX (wheels)\> 
  (D9 only - button to the right of the wheels) Sets the wheels into FX mode to control shape size, speed, spread.
 
  --- 
-## \<Fade/Delay\> 
- (D9 only) Sets the wheels into Fade/Delay mode to control fade and delay times.
+## \<Fade/Delay (wheels)\> 
+ (D9 only - button to right of wheels) Sets the wheels into Fade/Delay mode to control fade and delay times.
 
  --- 
 ## \<Fan\> 
@@ -220,12 +248,21 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
  Opens the fixture/channel menu which is used when selecting fixtures from the keypad. See [Selecting fixtures and dimmers by number](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel)
 
  --- 
+## \<Flash On\> 
+ Flashes selected fixtures while held.
+
+ --- 
 ## \<Go\> 
  Runs the next cue of the connected playback, usually used when running cues from a cue list. See [Running a Cue List](../cue-lists/cue-list-playback.md/#running-a-cue-list).
 
  --- 
 ## \<Go page\> 
  Type a number to jump to Page ``<n>`` of the associated fader bank (consoles with multiple fader banks may have several of these buttons). See also \<Page +\> and \<Page -\>. See [Changing playback pages](../cues/cue-playback.md/#changing-playback-pages).
+  
+  Buttons | Action
+ --------|--------
+  \<Go page\> ``<n>`` | Switch fader bank to page n
+  \<Release\> \<Go page\> | Release whole page of playbacks. See [Release Page](../cues/cue-playback.md/#releasing-a-whole-page-of-playbacks).
 
  --- 
 ## \<Gobo\> 
@@ -233,7 +270,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Group\> 
- Opens the group menu for saving and editing fixture groups. See [Fixture Groups](../controlling-fixtures/fixture-groups.md/#using-fixture-groups).
+ Opens the group menu for saving and editing fixture groups. See [Fixture Groups](../controlling-fixtures/fixture-groups.md/#using-fixture-groups). Can also be used to set levels on a group, example: \<Group\> 5 \<@\> \<@\> sets all fixtures in Group 5 to full.
 
  --- 
 ## \<Hi light\> 
@@ -268,8 +305,8 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
  (D9 only) (followed by a Select button) Set legend on an item. On other consoles use the \[Set Legend\] softkey at the top level menu. See [Legends and picture legends](../titan-basics/workspace-windows.md/#legends-and-picture-legends).
 
  --- 
-## \<Levels\> 
- (D9 only) set wheels to Levels mode for setting attribute levels.
+## \<Levels (wheels)\> 
+ (D9 only - button to right of the wheels) set wheels to Levels mode for setting attribute levels.
 
  --- 
 ## \<Level @\> 
@@ -293,11 +330,18 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Macro\> 
- Opens the Macro menu, which allows you to record sequences of keypresses for playback. See [Key Macro buttons](../titan-basics/front-panel-buttons.md/#key-macro-buttons).
+ Opens the Macro menu, which allows you to record sequences of keypresses for playback. See [Key Macro buttons](../titan-basics/front-panel-buttons.md/#key-macro-buttons). 
+ 
+ You can also recall macros by number, example: \<Macro\> 5 \<Enter\>
 
  --- 
 ## \<Mask FX\> 
  (D9 only) Opens the Mask FX menu which allows you to create masks to block running shapes. Also available as a softkey on the Shapes and Effects menu. See [Mask Fx](../effects/shape-generator.md/#masking-shapes-using-mask-fx).
+
+   Buttons | Action
+ --------|--------
+  \<Mask FX\> \<Intensity\> | Create Mask FX for intensity (same for any attribute group button)
+  \<Mask FX\> \<Mask FX\> | Create Mask FX for all attribute groups
 
  --- 
 ## \<Menu Latch\> 
@@ -309,7 +353,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<ML Menu\> 
- At top level menu, opens the Moving Light menu where you can run fixture macros. Also acts as Menu Latch if pressed while in a submenu. See [The ML Menu button](../controlling-fixtures/advanced-options.md/#the-ml-menu-button).
+ At top level menu, opens the Moving Light menu where you can run fixture macros and access the \[Align\] function. Also acts as Menu Latch if pressed while in a submenu. See [The ML Menu button](../controlling-fixtures/advanced-options.md/#the-ml-menu-button). Not on D9, use \<Macro\> to run fixture macros and \<Align\> to access Align function.
 
  --- 
 ## \<Move\> 
@@ -342,12 +386,12 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
  --- 
 ## \<Open\> 
  (D9 only) Open workspace window, like double pressing View. \
- (Quartz, Titan Mobile) Show details about item, or double press to open workspace window, see \<Open/View\> below.
+ (Quartz, Titan Mobile) Show details about item, or double press to open workspace window, see [View](#view).
 
  --- 
 ## \<Open/View\> 
 (Sapphire Touch, Arena, Tiger Touch only) \
- Followed by **Select** button to show details about item, or double press to open workspace window. See [Palettes](../palettes/editing-palettes.md/#viewing-and-editing-the-content-of-palettes) and [Cues](../cues/editing-cues.md/#playback-and-cue-view), or [Opening Workspace Windows](../titan-basics.md/workspace-windows/#opening-and-positioning-workspace-windows).
+ Show details about item, or double press to open workspace window, see [View](#view).
 
  --- 
 ## \<Options\> 
@@ -369,13 +413,19 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 ## \<Patch\> 
  Opens the Patch menu. See [Patching new fixtures or dimmers](../patching/patching-new-fixtures-or-dimmers.md/).
 
+ ---
+
+ ## \<Pattern/All\> 
+ (D9 only) Used to start and end pattern selection (such as odd/even) within a range of selected fixtures. Same as \<All\> on other consoles, see [All](#All).
+
  --- 
 ## \<Playback\> 
- (D9) (Arena) Opens the Playbacks workspace window showing touch buttons for additional playback storage. 
+ (Arena) Opens the Playbacks workspace window showing touch buttons for additional playback storage. \
+ (D9) If pressed after \<View\>, opens the Playbacks workspace window.
 
  --- 
 ## \<Playback (wheels)\> 
- (D9 only) Sets the wheels to playback control mode.
+ (D9 only - button to right of wheels) Sets the wheels to playback control mode.
 
  --- 
 ## \<Position\> 
@@ -391,7 +441,15 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Record\> 
- Enter Record mode to record playbacks or palettes. See [Creating a cue](../cues/creating-a-cue.md/#creating-a-cue) and [Storing a palette](../palettes/creating-palettes.md/#storing-a-palette)
+ Enter Record mode to record playbacks or palettes. See [Creating a cue](../cues/creating-a-cue.md/#creating-a-cue) and [Storing a palette](../palettes/creating-palettes.md/#storing-a-palette). Press \<Record\> multiple times to step through Record Cue / Record Chase / Record Cue List / Record Timeline options.
+
+ Buttons | Action
+ --------|--------
+  \<Record\> {Select} | Record programmer state to cue
+  \<Record\> {Palette window button} | Record programmer state to palette
+  \<Record\> {Workspace select button} | Record current workspace state to workspace select button
+  \<Record\> \<Highlight\> | Record the highlight state, see [Highlight](../controlling-fixtures.md/#highlighting-the-selected-fixture-with-prevnext)
+  \<Record\> \<Locate\> | Record the locate state, see [Locate](../controlling-fixtures.md#changing-the-locate-state).
 
  --- 
 ## \<Record Step\> 
@@ -399,7 +457,17 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Release\> 
- Used to override the LTP behaviour of attributes when a playback is killed. See [Release](../cues/cue-playback.md/#release)
+ Used to override the LTP behaviour of attributes when a playback is killed. See [Release](../cues/cue-playback.md/#release). \
+ Can also be used to release various other items.
+
+ Buttons | Action
+ --------|--------
+  \<Release\> {Master} | Releases the master to its default state (no effect on output), see [Releasing a Master](../cues/cue-playback.md#releasing-a-master).
+  \<Release\> {Playback} | Release the playbacks by priority. See [Release](../cues/cue-playback.md#release).
+  \<Release\> \<Clear\> | Release attributes in the programmer. See [Release](../cues/cue-playback.md#releasing-the-programmer-contents).
+  \<Release\> \<Go Page\> | Release whole page of playbacks. See [Release Page](../cues/cue-playback.md/#releasing-a-whole-page-of-playbacks).
+  \<Release\> \<Release\> | Release all active playbacks by priority. See [Release](../cues/cue-playback.md#release).
+  \<Record\> \<Release\> | Record the release or power on state. See [Power On State](../cues/cue-playback#programming-the-release--power-on-state).
 
  --- 
 ## \<Rem Dim\> 
@@ -416,6 +484,10 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
  --- 
 ## \<Right\> 
  (D9 / ST only) Right mouse button when trackball in mouse mode.
+
+ --- 
+## \<Scroll\> 
+ Makes the wheels scroll the focussed zone up/down.
 
  --- 
 ## \<Select If\> 
@@ -435,7 +507,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Snap\> 
- Enables Snap mode which makes \<Prev Step\> / \<Next Step\> buttons snap through cues without using the programmed fade times. See [Running a cue list](../cue-lists/cue-list-playback.md/#running-a-cue-list).
+ Enables Snap mode which makes \<Prev Step\> / \<Next Step\> buttons snap through cues without using the programmed fade times in cue lists or chases. See [Running a cue list](../cue-lists/cue-list-playback.md/#running-a-cue-list). Sets the Chase Snap (if a chase is connected) or Cue List Snap (if a cue list is connected) user setting in [General user settings](../system-settings/user-settings.md/#chase-snap).
 
  --- 
 ## \<Special\> 
@@ -443,7 +515,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<Stop\> 
- Stops/freezes the current cue fades. See [Running a cue list](../cue-lists/cue-list-playback.md/#running-a-cue-list).
+ Stops/freezes the current cue fades. See [Running a cue list](../cue-lists/cue-list-playback.md/#running-a-cue-list). If used when already stopped, goes back a cue.
 
  --- 
 ## \<Through\> 
@@ -451,13 +523,26 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  Example: \<Fixture\> 1 \<Through\> 5 \<not\> 3 selects fixtures 1, 2, 4, 5
 
+ Also when entering time or timecode values the \<And\> and \<Through\> buttons move the cursor between hours/minutes/seconds/frames.
+
  --- 
 ## \<Time\> 
  Show the Times menu which is used to set cue timing. See [Fade times](../cues/cue-timing.md/#fade-times-and-fixture-overlap).
+ Also used to set fade times directly. See [Times](../titan-commands.md/#times):
+
+ Buttons | Action
+ --------|--------
+ \<Time\> ``n`` | Set ``n`` second fade into programmer, will record with the next cue to be recorded
+ \<Time\> \<Fixture\> ``n`` | Set ``n`` second fade into programmer for all attributes of selected fixtures
+
 
  --- 
 ## \<Undo\> 
  Undo the last action (an Undo list is shown in the system prompt). See [Undo/Redo](../titan-basics/other-parts-of-the-touch-screen.md/#undoredo).
+
+ Buttons | Action
+ --------|--------
+ \<Avo\> + \<Undo\> | Redo (revert the last Undo change)
 
  --- 
 ## \<Unfold\> 
@@ -472,6 +557,31 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 (D9, Titan Go, Pearl Expert, Tiger Touch 1) \
  Followed by **Select** button to show details about item, or double press to open workspace window. See [Palettes](../palettes/editing-palettes.md/#viewing-and-editing-the-content-of-palettes) and [Cues](../cues/editing-cues.md/#playback-and-cue-view), or [Opening Workspace Windows](../titan-basics.md/workspace-windows/#opening-and-positioning-workspace-windows).
 
+ Also gives shortcuts to opening workspace windows and editing workspaces:
+
+ Buttons | Action
+ --------|--------
+\<View\> \<Beam\> | Open Beam palettes view
+\<View\> \<Colour\> | Open Colour palettes view
+\<View\> \<Connect\> | Open Playback view for connected playback
+\<View\> \<Copy\> | Copy workspace select button
+\<View\> \<Delete\> | Delete workspace select button
+\<View\> \<Fixture\> | Open Fixtures window
+\<View\> \<FX\> | Open Shape palettes view
+\<View\> \<Gobo\> | Open Beam palettes view
+\<View\> \<Group\> | Open Groups window
+\<View\> \<Intensity\> | Open Intensity View
+\<View\> \<Macros\> | Open Macros window
+\<View\> \<Move\> | Move workspace select button
+\<View\> \<Off\> | Open Active playbacks window
+\<View\> \<Options\> | Open Attribute editor
+\<View\> \<Patch\> | Open Patch view
+\<View\> \<Playback\> | Open Playbacks view
+\<View\> \<Position\> | Open Position Palettes view
+\<View\> \<Release\> | Open Active playbacks window
+\<View\> \<Shape\> | Open Shape palettes view
+\<View\> ``n`` \<Enter\> | Recall workspace with ID number ``n``
+
  --- 
 ## \<Visualiser\> 
  Opens the Visualiser window. See [Capture visualiser](../capture-visualiser.md/).
@@ -482,4 +592,4 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 
  --- 
 ## \<XYZ\> 
- (D9 only) Sets the wheels to XYZ position mode for moving fixtures in Visualiser or Layout Editor.
+ (D9 only - button to right of wheels) Sets the wheels to XYZ position mode for moving fixtures in Visualiser or Layout Editor.
