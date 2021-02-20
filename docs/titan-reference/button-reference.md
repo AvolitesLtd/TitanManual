@@ -528,7 +528,7 @@ Buttons | Action
  --- 
 ## \<Time\> 
  Show the Times menu which is used to set cue timing. See [Fade times](../cues/cue-timing.md/#fade-times-and-fixture-overlap).
- Also used to set fade times directly. See [Times](../titan-commands.md/#times):
+ Also used to set fade times directly. See [Times](../titan-reference.md/#times).
 
  Buttons | Action
  --------|--------
