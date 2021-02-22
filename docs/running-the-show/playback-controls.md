@@ -36,8 +36,7 @@ Any playback fader on the console can be assigned to act as a master fader, whic
 
 To assign master faders, from the **System** menu select \[Assign Masters\], or press \<Record\> then \[Create Master\].
 
-By default, master faders are set to have a transparent lock, which makes the master fader remain in position even when the playback page is
-changed. If you don\'t want this to happen you can change it by pressing \<Options\> (or \[Options\] softkey from the root menu) then press the Swop/Select button of the master.
+>   By default, master faders are stored on the fader page where you created them and will not be accessible from other fader pages. It is often useful to set the master to have a lock or a transparent lock, which makes the master fader remain in position even when the playback page is changed. You can set this from the Options screen for the master, see [Handle Paging](../cues/playback-options.md/#handle-paging).
 
 On the Diamond 9, the rotary encoders at the sides of the touchscreen (or on the Arena the rotary encoders beside the Mini Screen) are very useful as speed masters or group masters - press the encoder to select
 it as a master. Press the Display button below the encoders to show legends for the encoders on the screen if they are not already shown
