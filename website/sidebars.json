@@ -159,8 +159,9 @@
       "networking/ports-used-by-titan",
       "networking/a-quick-guide-to-ip-addressing"
     ],
-    "Titan Commands": [
-      "titan-commands"
+    "Titan Reference": [
+      "titan-reference",
+      "titan-reference/button-reference"
     ],
     "Glossary": [
       "glossary"

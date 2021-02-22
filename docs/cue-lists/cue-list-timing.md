@@ -103,10 +103,10 @@ Additionally you can set individual times for each attribute so you
 could make the pan fade over a different time to the tilt.
 
 To set times for an attribute group, first select the \[Edit Times\] menu and
-go to the cue you want to set as [described above](#time-and-fade-options-for-cue-lists), then press G \[Next\]
+go to the cue you want to set as [described above](#time-and-fade-options-for-cue-lists), then press \[Next\]
 to go to the second page of options.
 
-1. Press C \[Attribute times\].
+1. Press \[Attribute times\].
 
 2. All fixtures in the cue will be selected. *If you don't want to
 change the times for any fixtures, deselect them now.* You can press the
