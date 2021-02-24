@@ -173,10 +173,6 @@
         "title": "Editing Cues",
         "sidebar_label": "Editing Cues"
       },
-      "cues/playback-groups": {
-        "title": "Playback Groups",
-        "sidebar_label": "Playback Groups"
-      },
       "cues/playback-options": {
         "title": "Playback Options",
         "sidebar_label": "Playback Options"
@@ -222,8 +218,8 @@
         "sidebar_label": "Introduction to Avolites Titan"
       },
       "networking": {
-        "title": "Networking the Console",
-        "sidebar_label": "Networking the Console"
+        "title": "Networking Consoles",
+        "sidebar_label": "Networking Consoles"
       },
       "networking/a-quick-guide-to-ip-addressing": {
         "title": "A quick guide to IP addressing",
