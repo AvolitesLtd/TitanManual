@@ -56,7 +56,7 @@ Patching Capture Fixtures onto the Console
 
 If fixtures have already been added in Capture before the console was
 linked, you can patch them on the console using Active Fixtures like
-this
+this:
 
 1. Press \<Patch\>, \[Active Fixtures\].
 
@@ -77,3 +77,17 @@ Capture to be a unique number. To fix unsupported fixtures, first try
 [updating your Titan fixture library](../fixture-personalities.md#updating-the-personality-library-on-the-console). If this doesn't help, you can
 [submit a personality request](../fixture-personalities.md#requesting-a-new-fixture-personality) on the [Avolites website](https://personalities.avolites.com/?mainPage=Request%20Queue.asp&) and select "Capture
 Visualiser (.c2o)" from the Desk Type options.
+
+## Automatic picture legends from Capture
+
+When Capture is connected using CITP, you can automatically generate picture legends for your playbacks or palettes using a snapshot of the Alpha view of Capture. This is a great way to get a miniature picture legend of the actual stage effect using the Capture rendered stage view.
+
+1. Ensure Capture is connected with CITP.
+
+2. Set up the Alpha window of Capture to be the Stage view.
+
+3. Press \[Set Legend\], **Select** button of the item to be set, \[Picture\].
+
+4. In the Picture Legend popup window, select the Network tab.
+
+5. Choose the Alpha view.
