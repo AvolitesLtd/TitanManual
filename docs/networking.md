@@ -1,7 +1,7 @@
 ---
 id: networking
-title: Networking the Console
-sidebar_label: Networking the Console
+title: Networking Consoles
+sidebar_label: Networking Consoles
 ---
 
 There are a number of ways for the console to communicate with lighting
