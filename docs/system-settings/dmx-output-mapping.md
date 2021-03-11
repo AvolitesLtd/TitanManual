@@ -176,6 +176,8 @@ this Ethernet adapter. If there are multiple adaptors in the system you
 can select more than one, and identical information will be sent out on
 each one.
 
+> ArtPoll messages can be disabled via a registry setting. This is occasionally needed for Art-Net fixtures which don't support ArtPoll. If you need to do this or if ArtPoll messages aren't being sent when they should be, contact Avolites Support for instructions on how to change this.
+
 DMX Overview
 ------------
 
