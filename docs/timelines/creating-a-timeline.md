@@ -13,7 +13,10 @@ Programming a Timeline using Live Record
 
 Live record is useful to capture a busked show, where you are operating the playbacks manually in time with music or other live cues. You can do a live record multiple times on the same timeline to build up a more complex show.
 
->  Recall of Palettes will not be recorded using timeline Live Record. You need to save looks to a playback to use them on a timeline.
+>  Live record does not record the following elements: <br>
+    Recall of **Palettes** will not be recorded. You need to save looks to a playback to use them on a timeline.<br>
+    The state of **Masters** is not recorded, so Group, BPM, Size, Rate and Intensity masters will be recorded as if at 100%. If you play back the timeline after changing masters then it could look different - you can [release all masters](../cues/cue-playback.md#releasing-a-master) before recording the timeline to see what is actually being recorded. Masters can then be used to modify the timeline playback for live/busking use.<br>
+    Actions triggered via the **Scene Master** are not recorded. 
 
 This is how you program a timeline using Live Record, from playbacks which you have previously programmed:
 

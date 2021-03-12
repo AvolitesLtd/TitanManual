@@ -30,7 +30,7 @@ be recorded so they are in the programmer.
 using \[Set Times\]. These settings will be allocated to every new cue.
 
 5. Set up the look for the first cue, either manually or by using
-[\<Include\>](../titan-commands.md#include) on existing cues. You can use the [Shape Generator](../effects/shape-generator.md) and the
+\<Include\> (see [Include Function](../cues/editing-cues.md/#using-parts-of-existing-cues---the-include-function) on existing cues. You can use the [Shape Generator](../effects/shape-generator.md) and the
 [Pixel Mapper](../effects/pixel-mapper.md).
 
 6. If you require a **legend** for the cue, set it now using \[Legend\].

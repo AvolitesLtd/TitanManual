@@ -9,6 +9,7 @@ busked
 connectable
 dialog
 disinfectant
+fx
 gimbal
 glitching
 gobo
@@ -79,6 +80,7 @@ o
 # case sensitive words
 Ai
 Art-Net
+ArtPoll
 AutoGroups
 Autoincrement
 Avo
@@ -194,11 +196,13 @@ alcohol
 
 2.x.x.x
 10.x.x.x
+10.x.y.z
 
 3-pin
 5-pin
 9-pin
 15-pin
+
 
 4xRGB
 
@@ -223,6 +227,7 @@ v12
 v13
 v14
 
+2-press
 3-axis
 800mA
 c2o

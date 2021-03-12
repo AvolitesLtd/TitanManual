@@ -1,5 +1,5 @@
 ---
-id: titan-commands
+id: titan-reference
 title: Titan Commands Quick Reference
 sidebar_label: Titan Commands Quick Reference
 ---
@@ -12,7 +12,7 @@ clarity.
 
 \< Button \> formatting means a physical labelled button
 
-{ } means a handle button, e.g. {Cue} means the blue button on a cue
+{ } means a handle button, e.g. {Cue} means the **Select** button on a cue
 playback handle
 
 Numbers are typed on the numeric keypad

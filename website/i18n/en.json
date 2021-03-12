@@ -173,10 +173,6 @@
         "title": "Editing Cues",
         "sidebar_label": "Editing Cues"
       },
-      "cues/playback-groups": {
-        "title": "Playback Groups",
-        "sidebar_label": "Playback Groups"
-      },
       "cues/playback-options": {
         "title": "Playback Options",
         "sidebar_label": "Playback Options"
@@ -222,8 +218,8 @@
         "sidebar_label": "Introduction to Avolites Titan"
       },
       "networking": {
-        "title": "Networking the Console",
-        "sidebar_label": "Networking the Console"
+        "title": "Networking Consoles",
+        "sidebar_label": "Networking Consoles"
       },
       "networking/a-quick-guide-to-ip-addressing": {
         "title": "A quick guide to IP addressing",
@@ -473,10 +469,6 @@
         "title": "Workspace Windows",
         "sidebar_label": "Workspace Windows"
       },
-      "titan-commands": {
-        "title": "Titan Commands Quick Reference",
-        "sidebar_label": "Titan Commands Quick Reference"
-      },
       "titan-net": {
         "title": "Titan Net Processor Operation",
         "sidebar_label": "Titan Net Processor Operation"
@@ -488,6 +480,14 @@
       "titan-net/tnp-slave-mode": {
         "title": "TNP Slave Mode",
         "sidebar_label": "TNP Slave Mode"
+      },
+      "titan-reference": {
+        "title": "Titan Commands Quick Reference",
+        "sidebar_label": "Titan Commands Quick Reference"
+      },
+      "titan-reference/button-reference": {
+        "title": "Button reference",
+        "sidebar_label": "Button reference"
       },
       "version-12.0/version-12.0-about-the-consoles": {
         "title": "About the consoles",
@@ -1852,8 +1852,9 @@
       "System Settings": "System Settings",
       "Fixture Personalities": "Fixture Personalities",
       "Networking the Console": "Networking the Console",
-      "Titan Commands": "Titan Commands",
+      "Titan Reference": "Titan Reference",
       "Glossary": "Glossary",
+      "Titan Commands": "Titan Commands",
       "Effects": "Effects"
     }
   },
