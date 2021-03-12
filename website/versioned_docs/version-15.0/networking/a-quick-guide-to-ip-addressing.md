@@ -5,48 +5,21 @@ sidebar_label: A quick guide to IP addressing
 original_id: a-quick-guide-to-ip-addressing
 ---
 
-This section attempts to explain the basics of IP addressing, and what
-you will need to know when setting up a lighting control network.
+Every device on a network must have a unique IP address. IP addresses have the format `w.x.y.z` where `w`, `x`, `y` and `z` are numbers between 0 and 255, for example `192.168.0.1`. The address can be set manually (this is called a **Static** IP address) or can be automatically allocated by the network (using a system called **DHCP**). In lighting networks static addressing is normally used, it takes a bit more time to set up but you then know for sure what the address is for each device.
 
-IP addresses will normally come in the format `w.x.y.z` where `w`, `x`, `y`
-and `z` are numbers between 0 and 255, for example `192.168.0.1`. Every
-object (or node or device) on a network must have a unique IP address 
-(within this network). This is the same concept as DMX as each fixture 
-requires a unique DMX address, for IP addresses the same is required.
+For devices to be able to "see" each other on the network, they must be in the same **Subnet** - this is the first part of the IP address. Each device has a **Subnet Mask** which sets the parts of the IP address which must match for the devices to be able to see each other, and which parts must be different. 
 
-Setting your IP address
------------------------
+Subnet Masks are often set to `255.255.255.0` which means that the `w` `x` and `y` numbers must match but the `z` number must be different. So if the console was set at `192.168.1.1` then the subnet would be `192.168.1.z` and all the other devices would be `192.168.1.2`, `192.168.1.3` and so on.
 
-The console has a setup function to quickly set its IP address as
-described in the [previous section](controlling-fixtures-over-a-network.md#setting-the-consoles-ip-address).
+If your IP address is allocated by DHCP then the Subnet Mask is set automatically. Subnet masks are sometimes referred to as `/24` or `/8`, this is the number of bits set to 1 in the mask. Each number in the mask is 8 bits so `255.255.255.0` can also be called `/24`, or `255.0.0.0.` would be `/8`.
 
-There is a strong possibility that if you set the IP address on one
-network device you will have to set it on all of them, therefore if you
-manually set your IP address on the console you will have to do it on
-any TitanNet devices you are using and any Art-Net fixtures. Beware that
-some Art-Net fixtures have a fixed IP address in the range `2.x.x.x`, in
-which case you have to set the console to that range.
-
-Subnet Masks
-------------
-
-These are best kept simple. All devices or nodes on a network who wish
-to communicate with each other must have the same subnet mask. The mask
-determines which parts of the IP address are unique in that network to
-each node. If the part of the subnet mask is a 0 then the corresponding
-digit in an IP address must be unique for each fixture. If the part in a
-subnet mask is 255 then this part of the IP address needs to be the same
-for each node.
 
 Choosing an IP address and Subnet Mask
 --------------------------------------
 
-This is the hardest part of setting up a network as your IP address
-totally depends on what you are using on the network and what IP
-addresses you can and cannot change. Below are a number of example
-scenarios for standard lighting networks using a Titan console and what
-IP addresses should be set. *These aren't guaranteed to work but try them
-if the scenario matches your network.*
+This is the hardest part of setting up a network as a suitable IP address totally depends on what you are using on the network and what IP addresses you can and cannot change. Some older Art-Net equipment is fixed to the address range `2.x.y.z` or `10.x.y.z` which means everything else has to use that range as well. But if none of your equipment is fixed, the address range `192.168.1.x` is often used.
+
+Below are a number of example scenarios for standard lighting networks using a Titan console and what IP addresses should be set. *These aren't guaranteed to work but try them if the scenario matches your network.*
 
 ### Titan and TNP with all output operating as standard DMX
 
@@ -59,15 +32,10 @@ TNP               | `192.168.1.31`    | `255.255.255.0`
 
 Device            | IP Address        | Subnet Mask
 ---               | ---               | ---
-Titan Console     | `2.100.100.100`   | `255.0.0.0`
-Art-Net Fixtures  | `2.x.y.z` **\***  | `255.0.0.0`
-
-*Alternatively:*
-
-Device            | IP Address        | Subnet Mask
----               | ---               | ---
 Titan Console     | `10.100.100.100`  | `255.0.0.0`
 Art-Net Fixtures  | `10.x.y.z` **\*** | `255.0.0.0`
+
+(the `2.x.y.z` range can also be used for Art-Net if required but see section on Private Address ranges below).
 
 **\*** *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
 
@@ -89,32 +57,18 @@ Art-Net Fixtures  | `10.x.y.z` **\*** | `255.0.0.0`
 
 **\*** *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
 
-> Never set the last number of an IP address to be 255. This is a special address which will not function correctly.
+> It's best to avoid using 255 in the IP address because if the unmasked part of an IP address is set to 255, this acts as a broadcast address (for example `192.168.1.255` would be a broadcast address if the mask is `255.255.255.0`, or `10.255.255.255` would be broadcast if the mask is `255.0.0.0`).
 
-Automatically assigning IP addresses (DHCP)
--------------------------------------------
-
-There is another way of assigning IP addresses via an automatic system
-called DHCP, where one of the computers on the network will
-automatically give other devices an IP address when it connects.
-
-Generally we would not advise using DHCP on a lighting network as many
-nodes do not support it. If you must operate on a network with DHCP,
-most DHCP servers will have a reserved range of "static" addresses
-which can be manually set. You can usually find these out from the
-DHCP server configuration.
-
-Private IP address ranges
+If your network is connected to the internet
 -------------------------
 
-If your network is connected to the internet it is important to use a
-private IP address range. These are special IP addresses that will not
+If at all possible you should use a dedicated network for lighting with no external connections. However if your network has to be connected to the internet it is important to use one of the following ranges of **private** IP addresses. These are special IP addresses that will not
 be routed onto the internet. They are:
 
 Start Address  | Final Address    | Subnet Mask
 --- | --- | ---
-10.0.0.0 | 10.255.255.255 | 255.0.0.0
-172.16.0.0 | 172.31.255.255 | 255.255.0.0
-192.168.0.0 | 192.168.255.255 | 255.255.255.0
+10.0.0.0 | 10.255.255.255 | 255.0.0.0 (/8)
+172.16.0.0 | 172.31.255.255 | 255.240.0.0 (/12)
+192.168.0.0 | 192.168.255.255 | 255.255.0.0 (/16)
 
-> For Art-Net, the 10.x.x.x range must be used.
+> For Art-Net, the 10.x.y.z range may need to be used if you have devices which are fixed to this address range.

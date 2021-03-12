@@ -268,7 +268,7 @@ can also select certain fixtures for the mask and leave other fixtures unaffecte
 
 To create a mask:
 
-1.	Press \[Mask FX\] on the Shapes and Effects menu (Diamond 9 has a dedicated \<Mask FX\> button).
+1.	Press \[Mask FX\] on the Shapes and Effects menu (Diamond 9 has a dedicated \<Mask FX\> button - press twice to turn all attributes on in the mask).
 
 2.	The Attribute Bank buttons (Position, Colour etc) will flash. Choose which attributes you want to mask
 	by toggling the buttons on and off.

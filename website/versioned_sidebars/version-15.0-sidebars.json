@@ -72,7 +72,6 @@
       "version-15.0-cues",
       "version-15.0-cues/creating-a-cue",
       "version-15.0-cues/cue-playback",
-      "version-15.0-cues/playback-groups",
       "version-15.0-cues/editing-cues",
       "version-15.0-cues/cue-timing",
       "version-15.0-cues/playback-options",
@@ -151,7 +150,7 @@
     "Fixture Personalities": [
       "version-15.0-fixture-personalities"
     ],
-    "Networking the Console": [
+    "Networking Consoles": [
       "version-15.0-networking",
       "version-15.0-networking/connecting-the-arena-to-a-network",
       "version-15.0-networking/controlling-fixtures-over-a-network",
@@ -159,8 +158,9 @@
       "version-15.0-networking/ports-used-by-titan",
       "version-15.0-networking/a-quick-guide-to-ip-addressing"
     ],
-    "Titan Commands": [
-      "version-15.0-titan-commands"
+    "Titan Reference": [
+      "version-15.0-titan-reference",
+      "version-15.0-titan-reference/button-reference"
     ],
     "Glossary": [
       "version-15.0-glossary"

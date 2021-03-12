@@ -310,3 +310,12 @@ On Titan consoles that do not have separate \<Release\> and \<Off\>
 buttons, pressing \<Off\> followed by a playback will release it which
 is not what you want. On these select the softkey \[Off Playback
 Values\] then select the playback.
+
+Playback Groups
+---------------
+
+Playbacks can be assigned to groups. This allows you to create a set of playbacks which automatically switch off other playbacks in the same group. This can be useful when you have playbacks setting colours on executor buttons so only the most recent playback stays active, or to make life easier when busking so you don’t end up with lots of playbacks fired which have superseded each other.
+
+This is described in detail in the chapter on Running the Show, see [Playback Groups](../running-the-show/playback-controls#playback-groups).
+
+![Playback groups window](/docs/images/Playback-groups-display-mode-1.png)

@@ -50,12 +50,7 @@ numeric keypad.
 The \[Apply Palette\] softkey shows the legend of the palette which
 will be applied.
 
->   If you want to recall multiple palettes simultaneously you can use
-    the Blind to Live function. Put the console into Blind mode (either
-    press the \<Blind\> button if provided, or hold \<Avo\> and press
-    \[Blind Inactive\]. Select the palettes you want to use. Enter a
-    fade time in seconds on the keypad (or 0 to snap), then press \<Blind\> 
-    again. The palettes will fade to the live output.
+>   If you want to recall multiple palettes simultaneously you can use the Blind to Live function. Put the console into Blind mode (either press the \<Blind\> button if provided, or hold \<Avo\> and press \[Blind Inactive\]. Select the palettes you want to use. Enter a fade time in seconds on the keypad (or 0 to snap), then press \<Blind\> again. The palettes will fade to the live output.
 
 Palette Pages
 -------------

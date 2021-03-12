@@ -342,7 +342,8 @@ Latch\>.
 
 ## Selecting Fixtures using a Pattern
 
-When programming you will often want to select patterns of fixtures.
+When programming you will often want to select patterns of fixtures from
+within a [Fixture Group](./controlling-fixtures/fixture-groups.md#using-fixture-groups) or a range of manually selected fixtures.
 Rather than having to individually select and deselect fixtures, Titan
 has an easy way of selecting patterns of fixtures within a range.
 
