@@ -15,13 +15,13 @@ can also use it to create [complicated one-shot effects](./timelines/timeline-op
 [cue-lists](./cue-lists/cue-list-timing.md#running-a-cue-list-to-timecode), but Timeline
 recording allows much easier creation and editing of a timed show.
 
-Timelines are stored on a handle using the /<Record/> button in a similar way to a cue or cue list - they can be built either from playbacks you have already recorded, or by creating
+Timelines are stored on a handle using the \<Record\> button in a similar way to a cue or cue list - they can be built either from playbacks you have already recorded, or by creating
 new playbacks as you go along. You can record actions in real time by operating the console
 or by adding them manually at specific times. You can think of a timeline as an automatic replay
 system to push the faders and buttons on the console. The actions recorded in a timeline
 are called **triggers**.
 
-Once you have recorded a timeline there is a **Timeline View** window to show and edit the triggers -  press \<Open/View\> then the **select button** of the handle containing the timeline, or tap the playback legend area above the fader.
+Once you have recorded a timeline there is a **Timeline View** window to show and edit the triggers -  press \<Open/View\> then the **select button** of the handle containing the timeline, or tap the playback legend area above the fader. The view also opens automatically when you record a new timeline.
 
 ![Playback View of Timeline](/docs/images/Timeline-Window.png)
 
