@@ -1,8 +1,8 @@
-﻿--- 
+---
 id: alpha-index
 title: Alphabetic Index
 sidebar_label: Alphabetic Index
---- 
+---
 
 
 ## A
@@ -24,7 +24,7 @@ sidebar_label: Alphabetic Index
 [Auto Simplify (timeline)](./timelines/creating-a-timeline.md#auto-simplify)\
 [Autoloading a Playback within a Cue List](./cue-lists/creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list)\
 [Autosave](./titan-basics/loading-and-saving-shows.md#autosave)
-  
+
 ## B
 [Back up the show](./running-the-show/playback-controls.md#back-up-the-show)\
 [Backing up existing show files to USB pen drive](./titan-basics/loading-and-saving-shows.md#backing-up-existing-show-files-to-usb-pen-drive)\
@@ -35,7 +35,7 @@ sidebar_label: Alphabetic Index
 [BPM master options](./running-the-show/playback-controls.md#bpm-master-options)\
 [Busking with palettes](./running-the-show/playback-controls.md#busking-with-palettes)\
 [Button Halo](./titan-basics/workspace-windows.md#button-halo)
-  
+
 ## C
 [Camera Views (visualiser)](./capture-visualiser/visualising-using-capture.md#camera-views)\
 [Capture Appearance options](./capture-visualiser/setting-up-the-rig.md#capture-appearance-options)\
@@ -127,7 +127,7 @@ sidebar_label: Alphabetic Index
 [Cursor](./timelines.md#cursor)\
 [Curve](./cues/playback-options.md#curve)\
 [Cycles](./effects/shape-generator.md#cycles)
-  
+
 ## D
 [Deactivate Attributes from Cues Using "Off"](./cues/editing-cues.md#deactivate-attributes-from-cues-using-"off")\
 [Delay In / Fade In / Fade Out](./cues/playback-options.md#delay-in-/-fade-in-/-fade-out)\
@@ -153,7 +153,7 @@ sidebar_label: Alphabetic Index
 [DMX Settings](./system-settings/the-system-menu.md#dmx-settings)\
 [DMX View Window](./patching/changing-the-patch.md#dmx-view-window)\
 [Downloading fixture personalities from Avolites](./fixture-personalities.md#downloading-fixture-personalities-from-avolites)
-  
+
 ## E
 [Edit Times of a Running Cue List](./cue-lists/editing-cue-lists.md#edit-times-of-a-running-cue-list)\
 [Edit Values in Cue View](./cues/editing-cues.md#edit-values-in-cue-view)\
@@ -185,7 +185,7 @@ sidebar_label: Alphabetic Index
 [Exporting Shows](./capture-visualiser/capture-show-files.md#exporting-shows)\
 [Extracting a Cue from a Cue List with Include](./cue-lists/editing-cue-lists.md#extracting-a-cue-from-a-cue-list-with-include)\
 [Extracting a step from a chase with Include](./chases/editing-a-chase.md#extracting-a-step-from-a-chase-with-include)
-  
+
 ## F
 [Fade Modes](./cues/cue-timing.md#fade-modes)\
 [Fade Times and Fixture Overlap](./cues/cue-timing.md#fade-times-and-fixture-overlap)\
@@ -224,7 +224,7 @@ sidebar_label: Alphabetic Index
 [Formatting](./system-settings/user-settings.md#formatting)\
 [Freeze Fixtures or Attributes](./patching/fixture-personality-options.md#freeze-fixtures-or-attributes)\
 [Front edge of the console](./about-the-consoles/diamond.md#front-edge-of-the-console)
-  
+
 ## G
 [General Use](./effects/pixel-mapper.md#general-use)\
 [General](./system-settings/user-settings.md#general)\
@@ -232,7 +232,7 @@ sidebar_label: Alphabetic Index
 [Global Timings for Chases](./chases/chase-timing.md#global-timings-for-chases)\
 [Grand Master fader and assignable masters](./running-the-show/playback-controls.md#grand-master-fader-and-assignable-masters)\
 [Groups](./system-settings/key-profiles.md#groups)
-  
+
 ## H
 [Handle Paging](./cues/playback-options.md#handle-paging)\
 [Handle Tab](./cues/playback-options.md#handle-tab)\
@@ -240,7 +240,7 @@ sidebar_label: Alphabetic Index
 [Handles (system settings)](./system-settings/user-settings.md#handles)\
 [Highlighting the Selected Fixture with Prev/Next](./controlling-fixtures.md#highlighting-the-selected-fixture-with-prev/next)\
 [How Titan Works When Programming](./cues/creating-a-cue.md#how-titan-works-when-programming)
-  
+
 ## I
 [If your network is connected to the internet](./networking/a-quick-guide-to-ip-addressing.md#if-your-network-is-connected-to-the-internet)\
 [Importing markers](./timelines/creating-a-timeline.md#importing-markers)\
@@ -256,10 +256,10 @@ sidebar_label: Alphabetic Index
 [Intensity wheel (Diamond 9 only)](./controlling-fixtures/changing-fixture-attributes.md#intensity-wheel-(diamond-9-only))\
 [Intensity/Shutter](./controlling-fixtures/changing-fixture-attributes.md#intensity/shutter)\
 [Invert Attributes](./patching/fixture-personality-options.md#invert-attributes)
-  
+
 ## J
 [Jumping to a Step](./chases/chase-playback.md#jumping-to-a-step)
-  
+
 ## K
 [Key macro buttons](./titan-basics/front-panel-buttons.md#key-macro-buttons)\
 [Key Profile Options for Cue Lists](./cue-lists/cue-list-playback.md#key-profile-options-for-cue-lists)\
@@ -273,7 +273,7 @@ sidebar_label: Alphabetic Index
 [Keypad](./remote-control/operating-the-remote.md#keypad)\
 [Kill Point](./cues/playback-options.md#kill-point)\
 [Killing a Cue List](./cue-lists/cue-list-playback.md#killing-a-cue-list)
-  
+
 ## L
 [Label the console](./running-the-show/playback-controls.md#label-the-console)\
 [Layout editor with Ai server](./synergy/operating-synergy.md#layout-editor-with-ai-server)\
@@ -290,7 +290,7 @@ sidebar_label: Alphabetic Index
 [Locking the panel](./titan-net/tnp-console-mode.md#locking-the-panel)\
 [Locking the TNP](./titan-net/tnp-slave-mode.md#locking-the-tnp)\
 [Loop Action](./cue-lists/cue-list-options.md#loop-action)
-  
+
 ## M
 [Macros](./system-settings/key-profiles.md#macros)\
 [Manual Fixture Overlap when Recalling Palettes](./palettes/timing-with-palettes.md#manual-fixture-overlap-when-recalling-palettes)\
@@ -312,13 +312,13 @@ sidebar_label: Alphabetic Index
 [Moving around the timeline view with the wheels](./timelines.md#moving-around-the-timeline-view-with-the-wheels)\
 [Moving, Copying and Deleting Individual Cues](./cue-lists/editing-cue-lists.md#moving,-copying-and-deleting-individual-cues)\
 [Multiple Effects](./effects/key-frame-shapes.md#multiple-effects)
-  
+
 ## N
 [Nested Palettes](./palettes/creating-palettes.md#nested-palettes)\
 [Network Settings](./system-settings/the-system-menu.md#network-settings)\
 [Network Setup using a Dedicated Access Point](./remote-control/setting-up-the-remote.md#network-setup-using-a-dedicated-access-point)\
 [Node Settings](./titan-net/tnp-slave-mode.md#node-settings)
-  
+
 ## O
 [Only Showing Relevant Palettes](./palettes/using-palettes.md#only-showing-relevant-palettes)\
 [Opening a Chase for Editing](./chases/editing-a-chase.md#opening-a-chase-for-editing)\
@@ -329,7 +329,7 @@ sidebar_label: Alphabetic Index
 [Other Layout Editor Tools](./effects/pixel-mapper-examples.md#other-layout-editor-tools)\
 [Other release operations](./cues/cue-playback.md#other-release-operations)\
 [Overlaying Effects](./effects/pixel-mapper-examples.md#overlaying-effects)
-  
+
 ## P
 [Palette Pages](./palettes/using-palettes.md#palette-pages)\
 [Palettes with Saved Times](./palettes/timing-with-palettes.md#palettes-with-saved-times)\
@@ -377,13 +377,13 @@ sidebar_label: Alphabetic Index
 [Programming controls](./about-the-consoles/diamond.md#programming-controls)\
 [Programming Cues](./cue-lists/theatre-programming.md#programming-cues)\
 [Programming the Release / Power On State](./cues/cue-playback.md#programming-the-release-/-power-on-state)
-  
+
 ## Q
 [Quick Build Cues](./cues/creating-a-cue.md#quick-build-cues)\
 [Quick Palettes with no Fixtures Selected](./palettes/using-palettes.md#quick-palettes-with-no-fixtures-selected)\
 [Quick Record (palette)](./palettes/creating-palettes.md#quick-record)\
 [Quick Record (workspace window)](./titan-basics/workspace-windows.md#quick-record)
-  
+
 ## R
 [Randomising Effects](./effects/pixel-mapper-examples.md#randomising-effects)\
 [Range Mapping](./patching/changing-the-patch.md#range-mapping)\
@@ -417,7 +417,7 @@ sidebar_label: Alphabetic Index
 [Running Cues](./cue-lists/theatre-programming.md#running-cues)\
 [Running Playbacks](./titan-net/tnp-console-mode.md#running-playbacks)\
 [Running Titan Simulator](./titan-basics/titan-simulator.md#running-titan-simulator)
-  
+
 ## S
 [sACN Properties](./system-settings/dmx-output-mapping.md#sacn-properties)\
 [Sample Region Overlay](./synergy/operating-synergy.md#sample-region-overlay)\
@@ -495,7 +495,7 @@ sidebar_label: Alphabetic Index
 [Synergy Fixtures Window](./synergy/setting-up.md#synergy-fixtures-window)\
 [Synergy Settings](./system-settings/the-system-menu.md#synergy-settings)\
 [Synergy Setup](./synergy/setting-up.md#synergy-setup)
-  
+
 ## T
 [Table view](./timelines.md#table-view)\
 [Temporary Release Mask](./cues/cue-playback.md#temporary-release-mask)\
@@ -544,7 +544,7 @@ sidebar_label: Alphabetic Index
 [Triggers](./timelines.md#triggers)\
 [Turn Off Unselected Fixtures (Remainder Dim)](./controlling-fixtures.md#turn-off-unselected-fixtures-(remainder-dim))\
 [Turning Off Individual Fixtures](./cues/cue-playback.md#turning-off-individual-fixtures)
-  
+
 ## U
 [Undo/Redo](./titan-basics/other-parts-of-the-touch-screen.md#undo/redo)\
 [Update Mode](./cue-lists/editing-cue-lists.md#update-mode)\
@@ -570,7 +570,7 @@ sidebar_label: Alphabetic Index
 [Using Unfold](./chases/chase-timing.md#using-unfold)\
 [Using Update to Change Tracked Cues](./cue-lists/editing-cue-lists.md#using-update-to-change-tracked-cues)\
 [Using Virtual Panel with a console](./titan-basics/titan-simulator.md#using-virtual-panel-with-a-console)
-  
+
 ## V
 [Video preview screens (Diamond 9 only)](./titan-basics/workspace-windows.md#video-preview-screens-(diamond-9-only))\
 [View Detailed Fixture Information](./patching/changing-the-patch.md#view-detailed-fixture-information)\
@@ -582,11 +582,11 @@ sidebar_label: Alphabetic Index
 [Views, menus and windows](./quick-start/tips-and-tricks.md#views,-menus-and-windows)\
 [Virtual faders](./running-the-show/playback-controls.md#virtual-faders)\
 [Visualiser](./titan-basics/other-parts-of-the-touch-screen.md#visualiser)
-  
+
 ## W
 [Wheels](./system-settings/user-settings.md#wheels)\
 [Which Attributes are Stored in Palettes](./palettes/creating-palettes.md#which-attributes-are-stored-in-palettes)\
 [Wired Ethernet Outputs](./networking/connecting-the-arena-to-a-network.md#wired-ethernet-outputs)
-  
+
 ## X
 [XFade](./chases/chase-options.md#xfade)
