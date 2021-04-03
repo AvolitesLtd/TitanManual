@@ -36,12 +36,12 @@ module.exports={
         },
         "blog": {},
         "theme": {
-          "customCss": "../src/css/customTheme.css"
+          "customCss": "../src/css/customTheme.scss"
         }
       }
     ]
   ],
-  "plugins": [],
+  "plugins": ['docusaurus-plugin-sass'],
   "themeConfig": {
     "navbar": {
       "title": "Avolites Titan Manual",
