@@ -13,7 +13,7 @@ buttons. They also show legends for the playback faders and shows the
 current menu page and softkey buttons on the top right of the right hand
 screen.
 
-\(B\) The **Playback faders** select and control cues, cue lists and chases, 
+\(B\) The **Playback faders** select and control cues, cue lists and chases,
 and other configurable functions.
 
 \(C\) The **Preset playbacks** are used for patching fixtures or for
@@ -38,7 +38,7 @@ doing.
 
 \(G\) The **Menu Softkeys** (labelled A - G) are used to select control
 options. The options for each key change depending on what the console
-is doing. Softkey commands are shown in the manual 
+is doing. Softkey commands are shown in the manual
 like this: \[Edit Times\]
 
 ![Sapphire Front 2](/docs/images/Sapphire-Front-2.png)
@@ -86,15 +86,13 @@ switch.
 
 ## The Back Panel
 
-![Sapphire Manual Back Panel -
-Left](/docs/images/Sapphire-Manual-Back-Panel-Left.jpeg)All the connections required for the
+![Sapphire Manual Back Panel - Left](/docs/images/Sapphire-Manual-Back-Panel-Left.jpeg)All the connections required for the
 console are found on the back panel.
 
 On the left hand side are connectors for eight DMX512 outputs, MIDI,
 Ethernet, and a DVI/USB connection for an external touch screen.
 
-![Sapphire Manual Back Panel -
-Right](/docs/images/Sapphire-Manual-Back-Panel-Right.jpeg)
+![Sapphire Manual Back Panel - Right](/docs/images/Sapphire-Manual-Back-Panel-Right.jpeg)
 
 On the right hand side are DVI/USB connections for another external
 touch screen (screen 3) and a general purpose USB connector.
