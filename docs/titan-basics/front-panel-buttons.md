@@ -4,6 +4,8 @@ title: Front Panel Buttons
 sidebar_label: Front Panel Buttons
 ---
 
+import Keys from '/src/components/key.ts';
+
 The Select and Flash buttons associated with fader handles, and the
 macro/executor buttons are configurable and you can use them in various
 ways.
@@ -68,7 +70,7 @@ corner of the console.
 
 To record a macro:
 
-1. Press the \<Macro\> button (above keypad)
+1. Press the <Keys.HardKey>Macro</Keys.HardKey> button (above keypad)
 
 2. Select \[Full Speed\] or \[Real Time\].
 
@@ -146,7 +148,7 @@ Locking the console
 -------------------
 
 You can place a simple lock on the console controls to prevent people
-fiddling with it while you're not looking. Hold down \<Avo\> and press
+fiddling with it while you're not looking. Hold down <Keys.HardKey>Avo</Keys.HardKey> and press
 \[Lock\], then type a password (numbers or letters). To unlock, enter
 the password again, or restarting the console will also unlock it. After
 a few seconds, the "Enter password" prompt will fade out but will appear
@@ -154,7 +156,7 @@ again if you press buttons or touch the screen. This is not a
 high-security lock, it's just to prevent passing idiots messing with it.
 
 You can set a background image for the lock screen from the Lock Screen
-Background option in the Display (v13: General) tab of User Settings (hold \<Avo\>,
+Background option in the Display (v13: General) tab of User Settings (hold <Keys.HardKey>Avo</Keys.HardKey>,
 press \[User Settings\]). The image can be either loaded from a picture
 file or drawn using the touch screen.
 

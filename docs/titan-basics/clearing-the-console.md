@@ -4,17 +4,19 @@ title: Clearing the Console
 sidebar_label: Clearing the Console
 ---
 
+import Keys from '/src/components/key.ts';
+
 When you start a new show on Titan it is usually a good idea to clear
 the console. All programming and patching is deleted, and user options
 are returned to default settings.
 
-1. Press the \<Disk\> button.
+1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
 
 2. Press \[New Show\].
 
 3. Press \[OK\] to confirm.
 
-4. Press \<Exit\> to leave Disk mode.
+4. Press <Keys.HardKey>Exit</Keys.HardKey> to leave Disk mode.
 
 -   When starting a new show you have the option to keep existing DMX
     settings. This preserves the DMX/TitanNet configuration of the

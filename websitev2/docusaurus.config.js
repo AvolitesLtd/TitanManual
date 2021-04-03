@@ -54,11 +54,11 @@ module.exports={
           "label": "Docs",
           "position": "left"
         },
-        {
-          "to": "/help",
-          "label": "Help",
-          "position": "left"
-        },
+        // {
+        //   "to": "/help",
+        //   "label": "Help",
+        //   "position": "left"
+        // },
         {
           "href": "https://avolites.com",
           "label": "Main Website",

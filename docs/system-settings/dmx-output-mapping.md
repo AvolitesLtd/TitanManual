@@ -4,6 +4,8 @@ title: DMX Output Mapping
 sidebar_label: DMX Output Mapping
 ---
 
+import Keys from '/src/components/key.ts';
+
 There are various ways to connect fixtures to the console. As well as
 the XLR sockets on the console, [you can connect fixtures using Ethernet](../networking/controlling-fixtures-over-a-network.md)
 and wireless links.
@@ -24,7 +26,7 @@ the TitanNet overview.
 Configuring DMX Outputs
 -----------------------
 
-From the **System** menu (press \<Avo\> + \<Disk\>) select \[DMX Settings\].
+From the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select \[DMX Settings\].
 
 The window will initially show the node tab relating to the console
 itself. It shows a list of available DMX *nodes* (places where you can
@@ -49,13 +51,13 @@ the line it is assigned to.
 
 ![Node in DMX Settings Window](/docs/images/Node-in-DMX-Settings-Window.png)
 
-To delete a node from the DMX lines, click on the \{X\} button. To delete
-all nodes from a line, click on the **Group delete button** (the \{X\} button 
-on the DMX line). To delete all nodes from all lines, click on the \{X\} 
+To delete a node from the DMX lines, click on the <Keys.ContextKey>X</Keys.ContextKey> button. To delete
+all nodes from a line, click on the **Group delete button** (the <Keys.ContextKey>X</Keys.ContextKey> button 
+on the DMX line). To delete all nodes from all lines, click on the <Keys.ContextKey>X</Keys.ContextKey> 
 button close to the header DMX lines.
 
 In order to change the assignment, i.e. to assign a node to a different line,
-you need to delete it from the line it is assigned to (by clicking on the \{X\})
+you need to delete it from the line it is assigned to (by clicking on the <Keys.ContextKey>X</Keys.ContextKey>)
 first - the node now appears as unassigned on the left hand side - and can now
 assign it to a different line.
 
@@ -66,7 +68,7 @@ click on the line from which on you want to assign this. Titan will then patch
 the number of universes on consecutive lines.
 
 You can show information about the DMX nodes once they are assigned, or the DMX output
-modules, by clicking the \{Cog\} button. For Ethernet/network type nodes, this allows you
+modules, by clicking the <Keys.ContextKey>Cog</Keys.ContextKey> button. For Ethernet/network type nodes, this allows you
 to set detailed properties such as IP address ranges and net masks.
 
 ![DMX Output in DMX Settings Window](/docs/images/DMX-Output-in-DMX-Settings-Window.png)
@@ -84,8 +86,8 @@ A module is a method of sending DMX (such as Art-Net, or sACN) and can be
 thought of as a collection of nodes.
 
 You can set properties for DMX512 outputs, Art-Net or sACN by going to the DMX Settings
-window (from the **System** menu (press \<Avo\> + \<Disk\>) select \[DMX Settings\]) and then
-click the \{Cog\} icon at the right hand side of the module name.
+window (from the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select \[DMX Settings\]) and then
+click the <Keys.ContextKey>Cog</Keys.ContextKey> icon at the right hand side of the module name.
 
 This allows you to adjust settings for each module, and for the network
 protocols to select which network adapter to use to output the protocol. 
@@ -210,7 +212,7 @@ DMX Merge
 The DMX merge window allows you to set up merging of the local Titan output
 with sACN universes from other sources in a system where you have multiple 
 consoles or processing nodes connected. 
-From the **System** menu (press \<Avo\> + \<Disk\>) select \[DMX Merge Settings\].
+From the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select \[DMX Merge Settings\].
 
 ![DMX Merge Window](/docs/images/DMX-Merge-Window.png)
 

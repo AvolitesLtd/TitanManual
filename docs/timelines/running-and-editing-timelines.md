@@ -4,6 +4,7 @@ title: Running and Editing Timelines
 sidebar_label: Running and Editing Timelines
 ---
 
+import Keys from '/src/components/key.ts';
 
 Running a timeline to timecode
 ------------------
@@ -49,7 +50,7 @@ To edit a trigger, you need to select it. There are several different ways to do
 
 - Draw a selection marquee box over the trigger points you want to select. Only the trigger points enclosed by the selection box will be selected, so if you want to select all points in a block they all need to be inside the box. This is a quick way to select one trigger point without having to "multi-tap" on a block.
 
-- To clear all selection use the context menu button \{Clear Trigger Selection\} or tap in an empty area of the Timeline View.
+- To clear all selection use the context menu button <Keys.ContextKey>Clear Trigger Selection</Keys.ContextKey> or tap in an empty area of the Timeline View.
 
 ### Using arrow buttons to move trigger selection
 
@@ -87,23 +88,23 @@ The **Overview Bar** at the bottom of the Timeline View gives you a miniature vi
 ### Copying and moving playbacks in a Timeline
 
 You can move playback blocks to a different time or a different track in the Timeline View:
-1. Press \<Move\>.
+1. Press <Keys.HardKey>Move</Keys.HardKey>.
 2. Select the playback block(s) you want to move, by tapping on it or drawing a marquee selection box. 
 3. Tap in the Timeline View at the time and track where you want to move the selected playbacks - the relative timing of the triggers will be kept.
 
 - You can move individual triggers within the same track by selecting them then using Wheel A to move them to the desired time.
 
 You can also copy playback blocks within the Timeline View. Copied playbacks will be a reference (linked copy) of the original, unless you change this using the softkey option \[Create New Playbacks\].
-1. Press \<Copy\>.
+1. Press <Keys.HardKey>Copy</Keys.HardKey>.
 2. Tap on the playback block to copy, or draw a marquee selection box over the playbacks to be copied
 3. Choose whether you want to have referenced/linked copies, using the softkey options \[Create New Playbacks\] and \[Use Referenced Playbacks\].
 4. Tap in the Timeline View at the time and track where you want to copy the selected playback(s). 
 
 ### Deleting playbacks in a Timeline
 
-You can delete playback blocks by pressing \<Delete\> then tapping on the block you want to delete, or drawing a marquee selection box over the triggers to be deleted.
+You can delete playback blocks by pressing <Keys.HardKey>Delete</Keys.HardKey> then tapping on the block you want to delete, or drawing a marquee selection box over the triggers to be deleted.
 
-You can also delete tracks or delete playback rows from tracks using the \<Delete\> button.
+You can also delete tracks or delete playback rows from tracks using the <Keys.HardKey>Delete</Keys.HardKey> button.
 
 ### Setting track legends and halo colours on tracks
 
@@ -124,7 +125,7 @@ If a halo colour is set for a playback, that colour will be used in the Timeline
 
 ### Snap options
 
-Using the context menu option \{Snap Options\} you can configure whether new triggers will
+Using the context menu option <Keys.ContextKey>Snap Options</Keys.ContextKey> you can configure whether new triggers will
 snap to existing objects when you enter them by clicking on the Timeline View.
 The snap options are:
 - Snap To Triggers
@@ -142,14 +143,14 @@ There are two levels of collapse:
 
 ### Table view
 
-You can show a table version of the Timeline using the \{Open Table View\} context button. 
+You can show a table version of the Timeline using the <Keys.ContextKey>Open Table View</Keys.ContextKey> context button. 
 This shows details for each trigger in time order, in the same format as a cue list. Buttons down the left hand side allow you to filter which tracks are shown in the list.
 You can have the Table View and the Timeline View open at the same time.
 
 ![Timeline table view](/docs/images/Timeline-Table-View.png)
 
 - You can edit any of the settings, except the trigger Action type, by clicking on the grid and using the softkey options to change the settings.
-- You can add new triggers using the \{+\} button.
-- You can delete triggers by pressing \<Delete\> then the table row you want to delete.
+- You can add new triggers using the <Keys.ContextKey>+</Keys.ContextKey> button.
+- You can delete triggers by pressing <Keys.HardKey>Delete</Keys.HardKey> then the table row you want to delete.
 
 

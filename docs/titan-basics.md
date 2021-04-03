@@ -4,6 +4,8 @@ title: Connecting up and Titan basics
 sidebar_label: Connecting up and Titan basics
 ---
 
+import Keys from '/src/components/key.ts';
+
 This section covers how to connect the console up, and the basic things
 you need to know about operating Titan.
 
@@ -199,7 +201,7 @@ Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) will also support 2 add
 you are using has the facility.
 
 An external monitor is disabled by default and will show a \'disabled\'
-message. To enable, switch to **System** menu (press \<Avo\> + \<Disk\>) and
+message. To enable, switch to **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and
 select \[Display Setup\] then press \[External Display Disconnected\].
 The option will change to \[External Display Connected\] and the display
 will be enabled.
@@ -242,7 +244,7 @@ the console. Suitable lamps are available from Avolites. The lamps are
 work). 
 
 - You can set the brightness of the desk lamps from the **System** menu 
-	(press \<Avo\> + \<Disk\>).
+	(press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>).
 
 Connecting Console Wings
 ------------------------

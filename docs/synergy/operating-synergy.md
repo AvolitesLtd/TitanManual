@@ -4,6 +4,8 @@ title: Operating Synergy
 sidebar_label: Operating Synergy
 ---
 
+import Keys from '/src/components/key.ts';
+
 Once Titan and the Ai server(s) are [linked up](setting-up.md), you can start controlling
 Ai from the console.
 
@@ -17,7 +19,7 @@ codec as required by the Ai system. This is very handy when you are
 handed a last-minute media file at the front of house position.
 
 As with other windows, the media browser window is opened from the
-Workspace Window select buttons (double press the \<Open/View\> button to show).
+Workspace Window select buttons (double press the <Keys.HardKey>Open/View</Keys.HardKey> button to show).
 
 ![Ai Media Browser Window](/docs/images/Ai-Media-Browser-Window.png)
 
@@ -31,7 +33,7 @@ at the top to go back up a folder level.
 
 On the right of the window, the media banks on the Ai server are shown.
 Clicking on the bank name will drop down the list of media clips loaded
-in the bank. Click the \{+\} button at the side of the bank name to add a
+in the bank. Click the <Keys.ContextKey>+</Keys.ContextKey> button at the side of the bank name to add a
 new bank. At the top of this column, the available disk space and the
 path on the Ai server where the media is being stored is shown.
 
@@ -131,7 +133,7 @@ server. This means the names you are shown will always match what's
 on the server. It's also good for generative plugins where you
 define the FX names.
 
-> If you select layers then press \<Locate\>, the layer intensity will be set to full but all media and FX will be cleared. This is useful to get a layer back to a known state, but you don't get any output. **To get some output you will need to then select a media clip**.
+> If you select layers then press <Keys.HardKey>Locate</Keys.HardKey>, the layer intensity will be set to full but all media and FX will be cleared. This is useful to get a layer back to a known state, but you don't get any output. **To get some output you will need to then select a media clip**.
 
 The Clip selection window also shows you the progress of clips being
 transcoded by the Ai server.
@@ -167,7 +169,7 @@ want to use.
 
 3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups.md)** to play back on
 
-4. Add an effect using the \{+\} button
+4. Add an effect using the <Keys.ContextKey>+</Keys.ContextKey> button
 
 5. Select Ai feed using the **Ai** button
 

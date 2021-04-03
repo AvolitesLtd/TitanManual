@@ -4,6 +4,8 @@ title: Advanced Options
 sidebar_label: Advanced Options
 ---
 
+import Keys from '/src/components/key.ts';
+
 Fading Shape Size and Speed
 ---------------------------
 
@@ -11,7 +13,7 @@ When a [shape is stored in a cue](shape-generator.md#using-shapes-in-cues),
 you can set how the shape fades in
 using the Edit Times and the playback [Options](../cues/playback-options.md) settings.
 
-To set the shape size and/or speed from the fader position, press \<Options\>
+To set the shape size and/or speed from the fader position, press <Keys.HardKey>Options</Keys.HardKey>
 (or \[Options\] softkey from the main menu) then press the select button of
 the playback.
 

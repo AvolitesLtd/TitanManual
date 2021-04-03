@@ -4,6 +4,8 @@ title: Key Frame Shapes
 sidebar_label: Key Frame Shapes
 ---
 
+import Keys from '/src/components/key.ts';
+
 Key frame shapes allow you to create your own shape sequences. You store
 a series of attribute settings as key frames and the shape fades between
 them.
@@ -56,7 +58,7 @@ below)
 
 ---
 
--   You can also use the \<Unfold\> button to switch the playbacks
+-   You can also use the <Keys.HardKey>Unfold</Keys.HardKey> button to switch the playbacks
     between normal mode and key frame display mode.
 
 -   Setting the \[Frame Number\] softkey to an existing frame number
@@ -65,7 +67,7 @@ below)
     current frame number.
 
 -   If the shape is not visible because fixtures are not lit up, the
-    locate dimmer \{Sun\} button at the bottom will light up fixtures used
+    locate dimmer <Keys.ContextKey>Sun</Keys.ContextKey> button at the bottom will light up fixtures used
     in the shape.
 
 Changing Shape Parameters in the Effect Editor
@@ -175,14 +177,14 @@ Editor window.
 
 ![Effect Editor key frame shape layer with colour steps](/docs/images/Effect-Editor-key-frame-shape-layer-with-colour-steps.png)
 
--   To **add** more frames to a key frame shape click the \{Pencil\} button to
+-   To **add** more frames to a key frame shape click the <Keys.ContextKey>Pencil</Keys.ContextKey> button to
     the right of the **layer name**.
 
--   To **edit** a key frame click the \{Pencil\} button to the right of the
+-   To **edit** a key frame click the <Keys.ContextKey>Pencil</Keys.ContextKey> button to the right of the
     **frame name**.
 
 -   To **delete** a key frame select the frame in the list then click the
-    \{Rubbish Bin\} at the bottom
+    <Keys.ContextKey>Rubbish Bin</Keys.ContextKey> at the bottom
 
 -   To **change the order** of the frames, select a frame then use the up
     and down arrows at the bottom.
@@ -194,7 +196,7 @@ Editor window.
 ### Multiple Effects
 
 Key frame shapes can have multiple layers where different effects run
-simultaneously. To add another layer, click the \{+\} button at the
+simultaneously. To add another layer, click the <Keys.ContextKey>+</Keys.ContextKey> button at the
 bottom, then select **Layers**. The new layer will appear in the list on the
 left.
 

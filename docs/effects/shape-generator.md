@@ -4,6 +4,8 @@ title: Shape Generator
 sidebar_label: Shape Generator
 ---
 
+import Keys from '/src/components/key.ts';
+
 [](https://youtu.be/oTo6FxHD02o?t=20 "Using Shape Generator")
 
 A shape is simply an automatic sequence of values which modify a
@@ -62,7 +64,7 @@ a particular shape.
     selection of shapes (you don't need to select \[Shape Generator\]).
     The window will only show shapes which are possible on the selected
     fixtures. Pressing attribute buttons will filter the Shapes window
-    to show only shapes for that attribute. Press the \<Dimmer\>
+    to show only shapes for that attribute. Press the <Keys.HardKey>Dimmer</Keys.HardKey>
     attribute button to show all shapes.\
     \
     ![Shapes Workspace Window](/docs/images/Shapes-Workspace-Window.png)
@@ -201,7 +203,7 @@ for the shape. If you have defined a
 this allows you to have shapes that visibly
 move in particular directions.
 
-You can keep the shape direction menu open using the \<Menu Latch\>
+You can keep the shape direction menu open using the <Keys.HardKey>Menu Latch</Keys.HardKey>
 button, to allow you to try different options and see the effects.
 
 Beat and Cycles
@@ -219,7 +221,7 @@ normal speed. Higher numbers will divide the count, for example
 really useful to synchronise different types of shapes which are running
 together.
 
-Clicking the middle of the wheel roller image on screen or pressing \<@A\>
+Clicking the middle of the wheel roller image on screen or pressing <Keys.HardKey>@A</Keys.HardKey>
 for **Wheel A** allows you to type in a number for the Beats parameter, and
 also shows two further options for Beats: \[Match to Spread\] sets the
 beat count to be the same as the current Spread setting for the shape.
@@ -235,7 +237,7 @@ until you stop it. If you set a fixed number, the shape will stop by
 itself after that number of cycles.
 
 You can type in a number instead of using the wheels by clicking the
-middle of the wheel roller image on screen or pressing \<@B\> for **Wheel B**. If
+middle of the wheel roller image on screen or pressing <Keys.HardKey>@B</Keys.HardKey> for **Wheel B**. If
 you are typing in a number you can enter part cycles, for example 1.5.
 
 Using Shapes in Cues
@@ -267,7 +269,7 @@ can also select certain fixtures for the mask and leave other fixtures unaffecte
 
 To create a mask:
 
-1.	Press \[Mask FX\] on the Shapes and Effects menu (Diamond 9 has a dedicated \<Mask FX\> button - press twice to turn all attributes on in the mask).
+1.	Press \[Mask FX\] on the Shapes and Effects menu (Diamond 9 has a dedicated <Keys.HardKey>Mask FX</Keys.HardKey> button - press twice to turn all attributes on in the mask).
 
 2.	The Attribute Bank buttons (Position, Colour etc) will flash. Choose which attributes you want to mask
 	by toggling the buttons on and off.

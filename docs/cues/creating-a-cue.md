@@ -4,6 +4,8 @@ title: Creating a Cue
 sidebar_label: Creating a Cue
 ---
 
+import Keys from '/src/components/key.ts';
+
 How Titan Works When Programming
 --------------------------------
 
@@ -28,9 +30,9 @@ If another fixture is selected after you have changed some attributes then the
 current list of fixtures in the Programmer is emptied and a new list is
 started, but any attributes you've changed remain in the Programmer.
 
-When you press \<Clear\>, the Programmer is emptied. This
+When you press <Keys.HardKey>Clear</Keys.HardKey>, the Programmer is emptied. This
 makes sure you don't record fixtures you don't want. You also need to
-press \<Clear\> when you finish programming, because intensity attributes in
+press <Keys.HardKey>Clear</Keys.HardKey> when you finish programming, because intensity attributes in
 the programmer will override playbacks.
 
 Fixtures which are in the programmer are shown in mid blue on the [touch
@@ -49,20 +51,20 @@ Creating a Cue
 
 [](https://youtu.be/X5g6DMVwlZU?t=20 "Creating a Cue")
 
-1. Press \<Clear\> to clear the programmer.\
+1. Press <Keys.HardKey>Clear</Keys.HardKey> to clear the programmer.\
 *This ensures that you are starting with a clean slate.*
 
 2. Set up the look using the fixtures. You can save shapes in a cue.
 Remember that only fixtures which are selected or have been modified
 will be saved in the cue (in \[Record by Fixture\] mode).
 
-3. Press the \<Record\> button.
+3. Press the <Keys.HardKey>Record</Keys.HardKey> button.
 
 4. Press the **Select** button of an empty playback to record the cue. The
 handles where you can record the cue will flash. You can also record a
 cue onto a touch button in the Playbacks window.
 
-5. Press \<Clear\> to clear the programmer
+5. Press <Keys.HardKey>Clear</Keys.HardKey> to clear the programmer
 
 Other useful things to know about recording cues:
 
@@ -79,14 +81,14 @@ Other useful things to know about recording cues:
 -   \[Record By Channel\] is useful if you want to layer multiple cues to
     create an effect.
 
--   If you are recording a lot of cues, you can press \<Menu Latch\> to
-    keep the Record Cue menu active. Press \<Menu Latch\> again to unlatch
-    the Record Cue menu, press \<Exit\> to leave the menu.
+-   If you are recording a lot of cues, you can press <Keys.HardKey>Menu Latch</Keys.HardKey> to
+    keep the Record Cue menu active. Press <Keys.HardKey>Menu Latch</Keys.HardKey> again to unlatch
+    the Record Cue menu, press <Keys.HardKey>Exit</Keys.HardKey> to leave the menu.
 
 -   The screen immediately above each fader shows a legend for the
     playback. To set this, from the top-level menu press \[Set Legend\], 
     then the playback **Select** button, then enter a legend on the
-    keyboard or draw a picture legend. Press \<Enter\> to store it.\
+    keyboard or draw a picture legend. Press <Keys.HardKey>Enter</Keys.HardKey> to store it.\
     On the Diamond 9, setting \[Halo\] in the Legend menu will set the illumination colour 
     of the playback fader.
 
@@ -134,17 +136,17 @@ on the stage. This can be very useful for making changes during a live
 show. Your changes are still shown in the
 [Visualiser window](../capture-visualiser.md).
 
-To put the console into blind mode, just press the \<Blind\> button *(on
-consoles without a dedicated button, hold down \<Avo\> and toggle the
+To put the console into blind mode, just press the <Keys.HardKey>Blind</Keys.HardKey> button *(on
+consoles without a dedicated button, hold down <Keys.HardKey>Avo</Keys.HardKey> and toggle the
 option between \[Blind Inactive\] and \[Blind Active\]  )*.
 
 If you want to preview a playback on the visualiser without affecting
 the stage, playbacks can be set to Blind mode using \[Playback
-Options\]. To quickly set a playback to blind mode, hold \<Blind\> and
+Options\]. To quickly set a playback to blind mode, hold <Keys.HardKey>Blind</Keys.HardKey> and
 press the playback **select** button. Repeat to make it Live again.
 
 You can fade your blind state to the live output by typing in a fade
-time number then pressing \<Blind\>. This allows you to recall several
+time number then pressing <Keys.HardKey>Blind</Keys.HardKey>. This allows you to recall several
 palettes together, or create a live state to be output without needing
 to save it to a cue.
 
@@ -166,6 +168,6 @@ Convert Cue to Chase or Cue List
 
 If you want to convert an existing cue into [chase](../chases.md) or 
 [cue list](../cue-lists.md) by adding
-further steps, press \<Record\>, select the cue, then select \[Convert
+further steps, press <Keys.HardKey>Record</Keys.HardKey>, select the cue, then select \[Convert
 to Chase\] (or Cue List). The existing cue will become cue 1 and the
 contents of the programmer will become a new cue 2.

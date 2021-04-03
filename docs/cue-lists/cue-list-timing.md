@@ -4,6 +4,8 @@ title: Cue List Timing
 sidebar_label: Cue List Timing
 ---
 
+import Keys from '/src/components/key.ts';
+
 Time and Fade Options for Cue Lists
 -----------------------------------
 
@@ -18,7 +20,7 @@ of the Cue List.
 
 2. To change which cue you are editing, scroll through the list using
 **Wheel A** or press \[Select Cue Number\] then type the cue number you want to
-edit and press \<Enter\>.
+edit and press <Keys.HardKey>Enter</Keys.HardKey>.
 
 	- The Chase arrow buttons to the right of the
 Connect button also step through the cues.
@@ -31,16 +33,16 @@ Connect button also step through the cues.
 
 3. **Setting times**
 
-    -   To set the **delay time** between pressing \<Go\> and the cue starting,
-    press \[Delay In\] then type a time in seconds and press \<Enter\>.
+    -   To set the **delay time** between pressing <Keys.HardKey>Go</Keys.HardKey> and the cue starting,
+    press \[Delay In\] then type a time in seconds and press <Keys.HardKey>Enter</Keys.HardKey>.
 
     -   To set the **fade in time** of the cue, press \[Fade In\] then type a
-    time in seconds and press \<Enter\>. *Both HTP and LTP channels are
+    time in seconds and press <Keys.HardKey>Enter</Keys.HardKey>. *Both HTP and LTP channels are
     affected by the fade.*
 
     -   The **fade out time** of the cue is set by default to be the same as the
     fade in time. You can change the fade out time by pressing \[Fade
-    Out\], then type the time in seconds and press \<Enter\>. To set
+    Out\], then type the time in seconds and press <Keys.HardKey>Enter</Keys.HardKey>. To set
     equal to Fade In time, delete the time and leave the box blank.\
     *The fade out time starts when the next cue fires, so if you set the
     time to 1 second, the outgoing cue would start a 1 second fade out
@@ -71,7 +73,7 @@ These options allow you to create complex
 self timed sequences by building up simple steps. For example if you
 wanted the following effect:
 
--   \<Go\> is pressed, fixture one starts fading up over 20s
+-   <Keys.HardKey>Go</Keys.HardKey> is pressed, fixture one starts fading up over 20s
 
 -   After 10s fixture two fades up over 15s
 
@@ -110,8 +112,8 @@ to go to the second page of options.
 
 2. All fixtures in the cue will be selected. *If you don't want to
 change the times for any fixtures, deselect them now.* You can press the
-\<ALL\> button (below Next Time) to select all fixtures in the cue or
-\<Avo\> + \<ALL\> to deselect all fixtures.
+<Keys.HardKey>ALL</Keys.HardKey> button (below Next Time) to select all fixtures in the cue or
+<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>ALL</Keys.HardKey> to deselect all fixtures.
 
 3. Press the softkey for the attribute group you want to change.
 
@@ -162,7 +164,7 @@ timecode source.
 5. Start the timecode source. *If using internal timecode, press
 \[Play\] to start it.*
 
-6. Press the red \<Go\> button to step each cue at the time you wish the
+6. Press the red <Keys.HardKey>Go</Keys.HardKey> button to step each cue at the time you wish the
 cue to start.
 
 7. Press \[Record\] when you have finished.
@@ -189,7 +191,7 @@ the cues: \[Timecode = \] sets the timecode directly while a value set with \[Of
 can be used in \[Add + \] or \[Subtract - \], to shift all selected timestamps by this timespan.
 
 You can open a timecode display window for each of the four possible
-sources to show you the incoming timecode - double press \<Open/View\> 
+sources to show you the incoming timecode - double press <Keys.HardKey>Open/View</Keys.HardKey> 
 then press \[Timecode x\] (where x is 1 to 4) from the workspace select buttons.
 
 ![Timecode 1 Workspace Window](/docs/images/Timecode-1-Workspace-Window.png)

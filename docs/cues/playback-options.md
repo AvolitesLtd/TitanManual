@@ -4,14 +4,16 @@ title: Playback Options
 sidebar_label: Playback Options
 ---
 
+import Keys from '/src/components/key.ts';
+
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
-To set options for a cue, chase or cue list, press \<Options\> (or the \[Options\] softkey
+To set options for a cue, chase or cue list, press <Keys.HardKey>Options</Keys.HardKey> (or the \[Options\] softkey
 on the top level menu), then press the **Select** button of the playback to be
 edited. The Options window will open allowing you to set a wide range
 of options for how the playback will work, including Times. (You can also set the options using the softkeys.)
 
-You can also [set Times for the playback](cue-timing.md), using the \<Time\> button or the \[Times\] softkey rather than Options.
+You can also [set Times for the playback](cue-timing.md), using the <Keys.HardKey>Time</Keys.HardKey> button or the \[Times\] softkey rather than Options.
 
 The options are split into different categories using tabs down the left hand side.
 Click on the \[i\] button for a help window on each setting.
@@ -43,7 +45,7 @@ Locked | This playback will appear on all pages. Playbacks programmed on this ha
 ### Key Profile
 Sets the [key profile](../system-settings/key-profiles.md) individually for this playback.
 Global sets the back to the global default setting for playbacks. A shortcut to change
-the key profile for a playback is to hold the \<Options\> button down while pressing the handle select.
+the key profile for a playback is to hold the <Keys.HardKey>Options</Keys.HardKey> button down while pressing the handle select.
 
 ---
 
@@ -118,7 +120,7 @@ run on startup.
 
 ### Delay In / Fade In / Fade Out
 Sets the delay time before fade, and the fade in and fade out times for the playback.
-These times can also be set using the \<TIME\> button.
+These times can also be set using the <Keys.HardKey>TIME</Keys.HardKey> button.
 
 ### Fixture Overlap
 Fixture overlap creates an effect where the fixtures in the cue are changed in
@@ -228,7 +230,7 @@ Normally using the LTP rules, attributes will stay in their last state when
 you kill a playback. This is not always what you want (for example with a strobe
 cue, you don't want the strobing to carry on when you kill the cue).
 
-Click the \{Global\} button to toggle the mask to \{Local\}, then select which attribute types you want to release. You can also use the Attribute Bank buttons to set the mask.
+Click the <Keys.ContextKey>Global</Keys.ContextKey> button to toggle the mask to <Keys.ContextKey>Local</Keys.ContextKey>, then select which attribute types you want to release. You can also use the Attribute Bank buttons to set the mask.
 
 Global release uses the [Global Release Mask](../cues/cue-playback.md#global-release-mask).
 

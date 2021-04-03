@@ -4,6 +4,8 @@ title: Other Parts of the Touch Screen
 sidebar_label: Other Parts of the Touch Screen
 ---
 
+import Keys from '/src/components/key.ts';
+
 The Menu/Softkeys
 -----------------
 
@@ -23,7 +25,7 @@ next to the screen.
 The vertical bar to the left of the softkeys shows you which menu you
 are currently in. You can \'latch\' the menu to keep the current command
 active (so that you don't have to keep reselecting it) by pressing the
-\<Menu Latch\> button (\<ML Menu\> on Pearl Expert & Tiger Touch 1). The menu
+<Keys.HardKey>Menu Latch</Keys.HardKey> button (<Keys.HardKey>ML Menu</Keys.HardKey> on Pearl Expert & Tiger Touch 1). The menu
 bar turns red when latched. This is useful for example when copying or moving
 playbacks to rearrange the console.
 
@@ -81,8 +83,8 @@ meet in the middle.
 
 ![Sapphire Tools Menu](/docs/images/Sapphire-Tools-Menu.png)
 
-On Diamond 9 the toolbar is replaced by a small \{Tools\} button at the top
-left of the right hand touchscreen. There is also a \<Tools\> button on the
+On Diamond 9 the toolbar is replaced by a small <Keys.ContextKey>Tools</Keys.ContextKey> button at the top
+left of the right hand touchscreen. There is also a <Keys.HardKey>Tools</Keys.HardKey> button on the
 pull-out keyboard.
 
 ![D9 Tools button](/docs/images/Tools-Button-D9.png)
@@ -134,7 +136,7 @@ software. You would normally only need to use these when upgrading the
 software.
 
 The toolbar also has a keyboard button allowing you to pop up the touch
-keyboard. On Diamond 9 there is a button \<Keyboard\> for this.
+keyboard. On Diamond 9 there is a button <Keys.HardKey>Keyboard</Keys.HardKey> for this.
 
 > Toolbars are not provided on Titan Mobile or Titan Go as all these functions can be carried out using standard Windows operations.
 
@@ -182,7 +184,7 @@ You can touch this window to undo all actions up to the one you touch.
 Once actions have been undone they are shown greyed out, and can be
 redone by touching them.
 
-You can also use the \<Undo\> and \<Redo\> buttons (not on all consoles)
+You can also use the <Keys.HardKey>Undo</Keys.HardKey> and <Keys.HardKey>Redo</Keys.HardKey> buttons (not on all consoles)
 to step through the list.
 
 Some actions cannot be undone which is indicated with the "not allowed"
@@ -192,5 +194,5 @@ symbol as shown below.
 
 If you are in multi-user mode, the Undo History can show a column for
 each user with undo points for that user - open the Context menu and
-select \{Show All Users and Consoles\}. The default setting is \{Show
+select <Keys.ContextKey>Show All Users and Consoles</Keys.ContextKey>. The default setting is \{Show
 Only Current User\}.

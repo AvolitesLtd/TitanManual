@@ -4,7 +4,9 @@ title: Patching fixtures
 sidebar_label: Patching fixtures
 ---
 
-Press \<Patch\>, \[Dimmers\] or \[Fixtures\].
+import Keys from '/src/components/key.ts';
+
+Press <Keys.HardKey>Patch</Keys.HardKey>, \[Dimmers\] or \[Fixtures\].
 
 For Fixtures, from the softkeys choose fixture manufacturer (type on
 keyboard to filter the list) then fixture type, then fixture mode.
@@ -25,9 +27,9 @@ To change DMX address or line, use \[[Repatch Fixtures](../patching/changing-the
 
 ## View fixture patch
 
-To see an overview screen of how the console is patched, press
-\<Open/View\> then \<Patch\> to open [Patch View](../patching/changing-the-patch.md#patch-view).
+To see an overview screen of how the console is patched, press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey> to open 
+[Patch View](../patching/changing-the-patch.md#patch-view).
 
 ## Setting fixture options
 
-Press \<Patch\>, \[Edit Fixtures\], or use the Patch View screen.
+Press <Keys.HardKey>Patch</Keys.HardKey>, \[Edit Fixtures\], or use the Patch View screen.

@@ -4,11 +4,13 @@ title: Programming cues and chases
 sidebar_label: Programming cues and chases
 ---
 
+import Keys from '/src/components/key.ts';
+
 ## Cues
 
 Set up the look to be recorded.
 
-Press \<Record\>.
+Press <Keys.HardKey>Record</Keys.HardKey>.
 
 Set \[Record Mode\] to \[Channel\] (saves only modified attributes),
 \[Fixture\] (saves all attributes of fixtures which have been modified
@@ -21,7 +23,7 @@ button in Playbacks window. (See [Creating a Cue](../cues/creating-a-cue.md)).
 
 ## Chases
 
-Press \<Record\> twice (or \<Record\> then \[Create Chase\]).
+Press <Keys.HardKey>Record</Keys.HardKey> twice (or <Keys.HardKey>Record</Keys.HardKey> then \[Create Chase\]).
 
 Press **Select** button, a macro/executor button or a touch
 button in Playbacks window.
@@ -30,16 +32,16 @@ Set up the look for the first step, press playback select button to
 store. Repeat until all steps stored. Quick Build mode can be used to
 merge palettes and cues into chase steps.
 
-Press \<Exit\> to finish storing chase steps. (See [Programming Chases](../chases/creating-a-chase.md#programming-a-chase)).
+Press <Keys.HardKey>Exit</Keys.HardKey> to finish storing chase steps. (See [Programming Chases](../chases/creating-a-chase.md#programming-a-chase)).
 
 ## Timings
 
 All times (cue times and fixture attribute times) are stored in the
 programmer and are saved when you store a cue.
 
-To edit times in the programmer before saving, press the \<Times\>
-button (previously labelled \<Set\> on Quartz/Titan Mobile/Sapphire
-Touch/Tiger Touch and \<Next Time\> on Pearl Expert/Tiger Touch 1).
+To edit times in the programmer before saving, press the <Keys.HardKey>Times</Keys.HardKey>
+button (previously labelled <Keys.HardKey>Set</Keys.HardKey> on Quartz/Titan Mobile/Sapphire
+Touch/Tiger Touch and <Keys.HardKey>Next Time</Keys.HardKey> on Pearl Expert/Tiger Touch 1).
 
 For chases, speed and fade can be set with wheels A and B when the chase
 is running.

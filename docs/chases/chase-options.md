@@ -4,10 +4,12 @@ title: Chase Options
 sidebar_label: Chase Options
 ---
 
-To set options for a chase, press \<Options\> or \[Options\] on the root menu,
+import Keys from '/src/components/key.ts';
+
+To set options for a chase, press <Keys.HardKey>Options</Keys.HardKey> or \[Options\] on the root menu,
 then press the **Select** button of the playback to be edited. Options will
 be shown on the softkeys. You can also set options from the Chase View window, press
-\<Open/View\> then the **Select** button of the playback, then click the
+<Keys.HardKey>Open/View</Keys.HardKey> then the **Select** button of the playback, then click the
 Options tab.
 
 ![Playback Options (playback tab) for a chase](/docs/images/Playback-Options-Chase-Playback-Tab.png)
@@ -37,10 +39,10 @@ are:
 \[Link according to individual steps\] - Each step in the chase will obey its 
 individual link settings which are set using the
 [Playback View window](editing-a-chase.md#opening-a-chase-for-editing)
-or the [\<Unfold\> function](editing-a-chase.md#editing-a-chase-using-unfold).\
+or the [<Keys.HardKey>Unfold</Keys.HardKey> function](editing-a-chase.md#editing-a-chase-using-unfold).\
 \[Always Link Steps\] - The chase will run on its own using the times\
 \[Never Link Steps\] - The chase will pause after every delay/fade time
-for the user to press \<Go\>
+for the user to press <Keys.HardKey>Go</Keys.HardKey>
 
 > When a chase is unlinked, raising the fader does not fire the first cue, which can be a problem. To get round this, if the chase is not looped, simply link the first cue to the previous one. If the chase is looped, add a dummy step at the end with 0 sec fade, 0 sec delay and link the first step to this one.
 

@@ -4,6 +4,8 @@ title: Using Palettes
 sidebar_label: Using Palettes
 ---
 
+import Keys from '/src/components/key.ts';
+
 Recalling a Palette Value
 -------------------------
 
@@ -40,22 +42,22 @@ numeric keypad.
 
 1. Select some fixtures.
 
-2. Press \<Palette\> above the numeric keypad.
+2. Press <Keys.HardKey>Palette</Keys.HardKey> above the numeric keypad.
 
 3. Type in the number of the palette you want to recall.
 
-4. Press \<Enter\> or \[Apply Palette\].
+4. Press <Keys.HardKey>Enter</Keys.HardKey> or \[Apply Palette\].
 
 The \[Apply Palette\] softkey shows the legend of the palette which
 will be applied.
 
->   If you want to recall multiple palettes simultaneously you can use the Blind to Live function. Put the console into Blind mode (either press the \<Blind\> button if provided, or hold \<Avo\> and press \[Blind Inactive\]. Select the palettes you want to use. Enter a fade time in seconds on the keypad (or 0 to snap), then press \<Blind\> again. The palettes will fade to the live output.
+>   If you want to recall multiple palettes simultaneously you can use the Blind to Live function. Put the console into Blind mode (either press the <Keys.HardKey>Blind</Keys.HardKey> button if provided, or hold <Keys.HardKey>Avo</Keys.HardKey> and press \[Blind Inactive\]. Select the palettes you want to use. Enter a fade time in seconds on the keypad (or 0 to snap), then press <Keys.HardKey>Blind</Keys.HardKey> again. The palettes will fade to the live output.
 
 Palette Pages
 -------------
 
 If you have stored palettes on physical buttons on the console, the
-\<Page+\>/\<Page-\> buttons will change to a different page of palettes.
+<Keys.HardKey>Page+</Keys.HardKey>/<Keys.HardKey>Page-</Keys.HardKey> buttons will change to a different page of palettes.
 If you want a palette to be locked on its handle and not change when the
 page is changed, you can set a lock or transparent lock on the palette
 handle. See [Handle Paging](../cues/playback-options.md#handle-paging)

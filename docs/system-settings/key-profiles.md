@@ -4,6 +4,8 @@ title: Key Profiles
 sidebar_label: Key Profiles
 ---
 
+import Keys from '/src/components/key.ts';
+
 The console allows you to reconfigure how the front panel buttons work
 to suit your method of working. You can save your settings as a Key
 Profile. Different profiles can be selected for different users or to
@@ -24,7 +26,7 @@ related to each playback fader.
 
 [](https://youtu.be/CxHQV4sP_sA?t=20 "Key Profiles")
 
-To create or edit a profile, go to the **System** menu (press \<Avo\> + \<Disk\>) then select \[Key
+To create or edit a profile, go to the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) then select \[Key
 Profiles\]. You can then use the Manage Profiles menu to View, Edit,
 Add, Delete or Rename profiles.
 
@@ -37,7 +39,7 @@ described in [Show Library](../titan-basics/show-library.md#key-profiles-view) s
 When Adding a new profile, you can select an existing profile to copy
 settings from.
 
-You can also edit Key Profiles from Program mode by holding \<Avo\>,
+You can also edit Key Profiles from Program mode by holding <Keys.HardKey>Avo</Keys.HardKey>,
 then selecting \[Edit Current Key Profile\]. If the current key profile
 is one of the non-editable system ones, you are prompted to add a new
 profile or select an existing editable profile.
@@ -112,7 +114,7 @@ Latch | *As Flash*, but dimmers will remain active until button pressed again
 Go | Cue list will advance to next cue using times
 Stop | Stops all fades in the cue list at their current point
 Preload | LTP channels of non-illuminated fixtures will move to positions in next cue
-Connect | Connects this cue list to controls *(same as pressing \<Connect/Cue\> then select button of cue list)*
+Connect | Connects this cue list to controls *(same as pressing <Keys.HardKey>Connect/Cue</Keys.HardKey> then select button of cue list)*
 Tap Tempo | Set speed parameter by tapping the button
 Next Cue - | Press repeatedly to select the next cue to be output, going backwards
 Next Cue + | Press repeatedly to select next cue to output, going forwards
@@ -157,7 +159,7 @@ For Scene Master the options are **Disabled**, **Preload Scene Mode**,
 
 ## Changing the Key Profile
 
-To quickly change the Key Profile, hold the \<Avo\> button and press
+To quickly change the Key Profile, hold the <Keys.HardKey>Avo</Keys.HardKey> button and press
 \[Select Key Profile\]. This changes the global Key Profile used for all handles,
 unless they have an individual Key Profile set as described below.
 
@@ -170,5 +172,5 @@ playback. The Key Profile for the playback is selected using the
 set to \[Global\], the default global profile for Cue / Chase / Cue List
 is used.
 
-You can quickly set the Key Profile for a playback by selecting the handle while holding the \<Options\> button
+You can quickly set the Key Profile for a playback by selecting the handle while holding the <Keys.HardKey>Options</Keys.HardKey> button
 down.

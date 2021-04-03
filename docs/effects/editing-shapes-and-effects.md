@@ -4,21 +4,23 @@ title: Editing Shapes and Effects
 sidebar_label: Editing Shapes and Effects
 ---
 
+import Keys from '/src/components/key.ts';
+
 Editing a Live Running Shape
 ----------------------------
 
 You can change the speed, size and spread of a live running shape by
-pressing \<Connect/Cue\> then \<Shape\> (which will flash if any shapes are
+pressing <Keys.HardKey>Connect/Cue</Keys.HardKey> then <Keys.HardKey>Shape</Keys.HardKey> (which will flash if any shapes are
 active). The softkeys will show a list of the currently running shapes,
 and the cue they are coming from or the programmer.
 
->   If the console does not have a \<Shape\> button you can access this
+>   If the console does not have a <Keys.HardKey>Shape</Keys.HardKey> button you can access this
     function using \[Shapes and Effects\], \[Shape Generator\], \[Edit\]
 
 ![Shape Generator - Selecting a Shape to Edit](/docs/images/Shape-Generator-Selecting-a-Shape-to-Edit.png)
 
 By default all shapes are selected. Choose the shapes to control and
-press \<Enter\> or \<Shape\> to connect the shapes to the wheels to
+press <Keys.HardKey>Enter</Keys.HardKey> or <Keys.HardKey>Shape</Keys.HardKey> to connect the shapes to the wheels to
 change the speed, size and spread. If there are more than 3 parameters
 to control, \[Softkey G\] will change the wheels to different options.
 
@@ -27,7 +29,7 @@ to control, \[Softkey G\] will change the wheels to different options.
     [speed and crossfade are when you are running a chase](../chases/chase-playback.md#setting-speed-and-crossfade-for-a-chase)).
 
 -   To control other attributes using the wheels while in this mode,
-    press an attribute button. To get back to shape mode press \<Shape\>
+    press an attribute button. To get back to shape mode press <Keys.HardKey>Shape</Keys.HardKey>
     or select the FX attribute in the wheels display.
 
 Editing Shapes and Effects in Cues
@@ -58,7 +60,7 @@ shapes. To get the shape into the programmer you need to use the Include
 function (see 
 [Using Parts of Existing Cues - the Include Function](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)).
 
-Once the cue is loaded into the programmer using \<Include\>, if more than
+Once the cue is loaded into the programmer using <Keys.HardKey>Include</Keys.HardKey>, if more than
 one shape is running in the programmer, you can select which one is
 connected to the control wheels using Shape option \[Edit\].
 
@@ -74,7 +76,7 @@ connected to the control wheels using Shape option \[Edit\].
 5. Press a softkey to make the shape active. The active shape is
 highlighted.
 
-6. Press \<Enter\> to get back to the Shape Generator menu.
+6. Press <Keys.HardKey>Enter</Keys.HardKey> to get back to the Shape Generator menu.
 
 >   If you applied the same shape several times to different fixtures,
     you can change each copy of the shape independently.
@@ -107,10 +109,10 @@ will contain a link to the group and any changes later made to the group
 such as changing the fixture order or layout will affect the shape.
 
 If you need to add fixtures to the group without breaking the group
-link, select the fixtures then press \<Record\>, **Group handle** button,
+link, select the fixtures then press <Keys.HardKey>Record</Keys.HardKey>, **Group handle** button,
 \[Merge\]. To change the fixtures to a new selection, select them then
-press \<Record\>, **Group handle** button, \[Replace\]. You can also use
-\<Group\>, \[Edit Groups\].
+press <Keys.HardKey>Record</Keys.HardKey>, **Group handle** button, \[Replace\]. You can also use
+<Keys.HardKey>Group</Keys.HardKey>, \[Edit Groups\].
 
 If you want to change the fixture order for a particular shape without
 changing the order in the group, which might affect other shapes, then

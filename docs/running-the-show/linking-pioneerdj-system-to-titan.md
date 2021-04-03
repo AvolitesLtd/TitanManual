@@ -4,6 +4,8 @@ title: Linking PioneerDJ System to Titan
 sidebar_label: Linking PioneerDJ System to Titan
 ---
 
+import Keys from '/src/components/key.ts';
+
 Using the Pioneer Pro DJ Link Bridge software you can automate BPM masters on the 
 Titan console from a network-equipped Pioneer DJ system. You can either run the 
 bridge software on the console itself or on an intermediate laptop.
@@ -70,7 +72,7 @@ software should show connections for both the Titan console and the DJ mixer.
 Pioneer Workspace window
 ------------------------
 
-Open this window the usual way by double pressing \<Open/View\> and selecting 
+Open this window the usual way by double pressing <Keys.HardKey>Open/View</Keys.HardKey> and selecting 
 \[PioneerDJ\] from the window select buttons.
 
 ![Pioneer Workspace window](/docs/images/Pioneer-Workspace-window.png)
@@ -112,10 +114,10 @@ automatically controlled by the track BPM playing on the Pioneer devices. See
 [BPM Master](../running-the-show/playback-controls.md#bpm-master-options) 
 section for how to set up a BPM master.
 
-Go to the **System** menu (\<Avo\> + \<Disk\>) and select \[Triggers\]. The Triggers window will open.
-1.  Add a new mapping using the \{+\} button at the bottom of the *left hand* 
+Go to the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select \[Triggers\]. The Triggers window will open.
+1.  Add a new mapping using the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom of the *left hand* 
     column, and enter a name such as “Pioneer”.
-2.  Add a trigger to the mapping using the \{+\} button in the *right hand* column 
+2.  Add a trigger to the mapping using the <Keys.ContextKey>+</Keys.ContextKey> button in the *right hand* column 
     or softkey \[Add trigger\].
 3.  Select \[Trigger Type\] as \[Item\].
 4.  Press the button for the BPM master you want to control.

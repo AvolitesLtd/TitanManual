@@ -4,6 +4,8 @@ title: Fixture Personality Options
 sidebar_label: Fixture Personality Options
 ---
 
+import Keys from '/src/components/key.ts';
+
 Titan uses fixture personalities to tell the console how to operate each
 type of fixture. Avolites have created personalities for most fixture types in 
 the known universe, but as new fixtures are being created all the time, you may
@@ -21,7 +23,7 @@ This allows you to make the pan channel control tilt and the tilt
 control pan. This can be useful for fixtures rigged in strange
 orientations.
 
-1. Press \<Patch\>.
+1. Press <Keys.HardKey>Patch</Keys.HardKey>.
 
 2. Press \[Edit Fixtures\].
 
@@ -31,7 +33,7 @@ orientations.
 ...\] to select either \[Swapped\] or \[Normal\] for the selected
 fixtures.
 
-5. Press \<Exit\> when finished.
+5. Press <Keys.HardKey>Exit</Keys.HardKey> when finished.
 
 Invert Attributes
 -----------------
@@ -40,7 +42,7 @@ This option inverts individual attributes of fixtures. Useful if you
 have a fixture which pans right when the rest pan left, saving a trip up
 the rig to set fixture options.
 
-1. Press \<Patch\>.
+1. Press <Keys.HardKey>Patch</Keys.HardKey>.
 
 2. Press \[Edit Fixtures\].
 
@@ -51,7 +53,7 @@ the rig to set fixture options.
 5. Select the attribute to invert from the softkeys. The display shows
 \[Inverted\] when the attribute is inverted.
 
-6. Press \<Exit\> to finish.
+6. Press <Keys.HardKey>Exit</Keys.HardKey> to finish.
 
 ![Tilt Inverted](/docs/images/Tilt-Inverted.png)
 
@@ -75,7 +77,7 @@ of the operation.
 Attribute limits are set either from the Edit Fixtures menu or using the
 Attribute Behaviour tab of the Patch View window.
 
-1. Press \<Patch\>.
+1. Press <Keys.HardKey>Patch</Keys.HardKey>.
 
 2. Press \[Edit Fixtures\].
 
@@ -89,7 +91,7 @@ select upper or lower limit.
 6. Input a percentage value for the limit value, or press \[Set To
 Current Value\]. To remove a limit press \[Remove Limit\].
 
-7. Press \<Exit\> when finished.
+7. Press <Keys.HardKey>Exit</Keys.HardKey> when finished.
 
 From the Attribute Behaviour tab, use the context buttons to set
 Attribute Limits.
@@ -110,14 +112,14 @@ to channels just before final output.
 
 There are 4 ways to set an offset:
 
--   Select fixture, \<Locate\>, then adjust attributes to the desired
-    locate value. Then press \<Record\>, \<Locate\>, \[Update Offset\].
+-   Select fixture, <Keys.HardKey>Locate</Keys.HardKey>, then adjust attributes to the desired
+    locate value. Then press <Keys.HardKey>Record</Keys.HardKey>, <Keys.HardKey>Locate</Keys.HardKey>, \[Update Offset\].
     This does not change the actual locate value but sets the difference
     between the locate position and your set position as the offset.
     This is an easy visual way to set the offset.
 
 -   You can also set offsets using palettes. Select fixture, apply
-    palette, adjust fixture to desired values then press \<Record\>,
+    palette, adjust fixture to desired values then press <Keys.HardKey>Record</Keys.HardKey>,
     select the palette you have applied and click \[Update Offset\]. 
     Again this does not change the palette, but sets the difference 
     between the palette and the position you changed it to as the 
@@ -140,7 +142,7 @@ level follows a slider, but can be applied to any attribute.
 Curves are set either from the Edit Fixtures menu or using the context
 buttons on the Attribute Behaviour tab of the Patch View window.
 
-1. Press \<Patch\>.
+1. Press <Keys.HardKey>Patch</Keys.HardKey>.
 
 2. Press \[Edit Fixtures\].
 
@@ -153,7 +155,7 @@ buttons on the Attribute Behaviour tab of the Patch View window.
 6. Use the softkeys to select the type of curve required. The normal
 setting is Linear.
 
-7. Press \<Exit\> when finished.
+7. Press <Keys.HardKey>Exit</Keys.HardKey> when finished.
 
 See the [curves section](../system-settings/curves.md) for details of the different curves
 available.
@@ -165,7 +167,7 @@ This option allows you to freeze individual attributes of a fixture, or
 to freeze the whole fixture. Attributes or fixtures which are frozen are
 not affected by playbacks or by the programmer.
 
-1. Press \<Patch\>.
+1. Press <Keys.HardKey>Patch</Keys.HardKey>.
 
 2. Press \[Edit Fixtures\].
 
@@ -176,7 +178,7 @@ not affected by playbacks or by the programmer.
 5. Use the softkeys to select which attributes are frozen, or to freeze
 the whole fixture. Frozen attributes are indicated on the softkey.
 
-6. Press \<Exit\> when finished.
+6. Press <Keys.HardKey>Exit</Keys.HardKey> when finished.
 
 -   Freeze can also be set from the Attribute Behaviour tab of the Patch
     View window.
@@ -191,7 +193,7 @@ Sometimes you may want to modify the way a fixture behaves, or you may
 find a fixture personality contains errors and needs editing. You can
 edit personalities directly on the console.
 
-1. Press \<Patch\>.
+1. Press <Keys.HardKey>Patch</Keys.HardKey>.
 
 2. Press \[Edit Fixtures\].
 

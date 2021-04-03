@@ -4,6 +4,8 @@ title: Controlling Fixtures over a Network
 sidebar_label: Controlling Fixtures over a Network
 ---
 
+import Keys from '/src/components/key.ts';
+
 Before the console can talk to another device over the network, it has
 to be given a unique network address. This is called its "IP address".
 
@@ -14,7 +16,7 @@ We recommend that you use the console's automatic IP setting function.
 However, if you need to you can also set a manual IP address. See [Setting your IP address](a-quick-guide-to-ip-addressing.md#setting-your-ip-address) for
 details of how IP addressing works.
 
-1. Go to the **System** menu (press \<Avo\> + \<Disk\>) and press \[Network Settings\]
+1. Go to the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and press \[Network Settings\]
 
 2. Press \[Local Area Connection\] (some consoles have more than
 	one network connection, so you may have different connections to
@@ -26,7 +28,7 @@ details of how IP addressing works.
 
 5. Press \[Save settings\]
 
-6. \<Exit\> the system menu.
+6. <Keys.HardKey>Exit</Keys.HardKey> the system menu.
 
 -   Some Art-Net equipment may operate on a fixed IP address range of
 	2.\*.\*.\* or 10.\*.\*.\*, in which case you will need to also
@@ -108,7 +110,7 @@ Now on the console when you patch, you will patch the dimmer channels on address
 fixtures on the first output of the 12-way DMX node will be on addresses 2.001 - 2.512 and
 the fixtures on the second output will be on addresses 3.001 - 3.512.
 
-- Press the small \{Cog\} button on the Art-Net device to show a properties window.
+- Press the small <Keys.ContextKey>Cog</Keys.ContextKey> button on the Art-Net device to show a properties window.
 	See [Art-Net settings](../system-settings/dmx-output-mapping.md#art-net-properties)
 	for an explanation of the settings.
 

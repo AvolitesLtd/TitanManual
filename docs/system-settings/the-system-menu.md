@@ -4,8 +4,10 @@ title: The System Menu
 sidebar_label: The System Menu
 ---
 
-The System menu is accessed by holding \<Avo\> and pressing \<Disk\>, or 
-on Titan Go you can press the \<System\> button. Some
+import Keys from '/src/components/key.ts';
+
+The System menu is accessed by holding <Keys.HardKey>Avo</Keys.HardKey> and pressing <Keys.HardKey>Disk</Keys.HardKey>, or 
+on Titan Go you can press the <Keys.HardKey>System</Keys.HardKey> button. Some
 older consoles are also fitted with a key switch or mode switch to get the
 System menu.
 
@@ -48,7 +50,7 @@ User Settings
 -------------
 
 The User Settings menu may also be accessed from Program mode: hold down
-the \<Avo\> button and press \[User Settings\]. See the [User Settings](user-settings.md) section.
+the <Keys.HardKey>Avo</Keys.HardKey> button and press \[User Settings\]. See the [User Settings](user-settings.md) section.
 
 Key Profiles
 ------------

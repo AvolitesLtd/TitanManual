@@ -4,6 +4,8 @@ title: Multi-User Operation
 sidebar_label: Multi-User Operation
 ---
 
+import Keys from '/src/components/key.ts';
+
 You can connect multiple consoles together to work together on a show.
 You can also have multiple user setups on a show on a single console to
 allow different layouts, for example for a support band LD.
@@ -26,7 +28,7 @@ key profile.
 
 To change or create users, go to the Users menu.
 
-1. Press the \<Disk\> button.
+1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
 
 2. Press \[Users\].
 
@@ -37,7 +39,7 @@ select a new user from the list (the current user is highlighted).
 user and press \[OK\].
 
 5. You can also quickly change user from the root menu by holding
-\<Avo\> and pressing \[User ... \]
+<Keys.HardKey>Avo</Keys.HardKey> and pressing \[User ... \]
 
 -   If multiple consoles are connected in a collaborative session, any
     user added to one of the consoles will be available on any of the
@@ -61,7 +63,7 @@ world is called "Mapping World 1".
 
 Handle Worlds are managed from the Disk menu.
 
-1. Press the \<Disk\> button.
+1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
 
 2. Press \[Handle Worlds\].
 
@@ -98,7 +100,7 @@ for networking to work correctly.
 For details of how to connect Titan consoles together on a network, see
 [Networking the Console](../networking.md).
 
-1. Press the \<Disk\> button.
+1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
 
 2. Press \[TitanNet Sessions\].
 

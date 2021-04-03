@@ -4,6 +4,8 @@ title: Chase Timing
 sidebar_label: Chase Timing
 ---
 
+import Keys from '/src/components/key.ts';
+
 Global Timings for Chases
 -------------------------
 
@@ -20,16 +22,16 @@ the chase
 2. Set the **Crossfade**, **Speed**, **Fixture Overlap** and **Attribute Overlap**
 settings, as described below
 
-3. Press \<Exit\> to finish
+3. Press <Keys.HardKey>Exit</Keys.HardKey> to finish
 
 ---
 
 -   To set **speed**, press \[Speed\] then type the new speed, then press
-    \<Enter\>. The speed can be set in Beats Per Minute (BPM) or seconds
+    <Keys.HardKey>Enter</Keys.HardKey>. The speed can be set in Beats Per Minute (BPM) or seconds
     depending on the user settings.
 
 -   To set **crossfade**, press \[XFade\] then type the fade from **0 - 100**
-    and press \<Enter\>.\
+    and press <Keys.HardKey>Enter</Keys.HardKey>.\
     *0=no fade (the chase will "snap"), 100=max fade (the chase will move
     continuously from cue to cue).*
 
@@ -55,7 +57,7 @@ lot of different timings or link/unlinks. See [Cue Lists](../cue-lists.md).
 ### Using the Playback View Window
 
 1. Touch the playback display relating to the fader, or press
-\<Open/View\> then the **select** button of the playback. The Playback View
+<Keys.HardKey>Open/View</Keys.HardKey> then the **select** button of the playback. The Playback View
 window will open.
 ![Playback View for chase](/docs/images/Playback-View-for-chase.png)
 
@@ -71,7 +73,7 @@ window will open.
 
 ### Using Unfold
 
-1. Press \<Unfold\> then the **Select** button of the chase to be edited.
+1. Press <Keys.HardKey>Unfold</Keys.HardKey> then the **Select** button of the chase to be edited.
 
 2. Press \[Edit Times\] then the **Select** button of the unfolded cue you
 want to edit.
@@ -79,7 +81,7 @@ want to edit.
 3. Set up the timing options as required. The options are described
 below.
 
-4. Press \<Unfold\> to get out of unfold mode.
+4. Press <Keys.HardKey>Unfold</Keys.HardKey> to get out of unfold mode.
 
 ### Timing Options
 
@@ -103,7 +105,7 @@ The timing options for the cue are:
 
 Linking can be set to \[Link After Previous\] (the chase will run
 automatically) or \[Link Wait For Go\] which will stop the chase until
-you press \<Go\>.
+you press <Keys.HardKey>Go</Keys.HardKey>.
 
 ## Setting Attribute Fade Times for a Cue in a Chase
 
@@ -114,7 +116,7 @@ set attribute times.
 
 To set an attribute group fade time:
 
-1. Press \<Open/View\> or \<Unfold\>, then the **Select** button of the chase
+1. Press <Keys.HardKey>Open/View</Keys.HardKey> or <Keys.HardKey>Unfold</Keys.HardKey>, then the **Select** button of the chase
 to be edited.
 
 2. Press \[Edit Times\] then touch the cue you want to edit in the
@@ -126,11 +128,11 @@ attribute you want to change.
 
 4. Press \[Delay\] to set delay time or \[Set fade\] to set fade time.
 
-5. Type the new time using the numeric keypad and press \<Enter\> to
+5. Type the new time using the numeric keypad and press <Keys.HardKey>Enter</Keys.HardKey> to
 save it, or press \[Use Global\] to delete the attribute times and go
 back to the normal times.
 
-6. Press \<Enter\> to save the changes.
+6. Press <Keys.HardKey>Enter</Keys.HardKey> to save the changes.
 
 ## Rate and BPM Masters
 

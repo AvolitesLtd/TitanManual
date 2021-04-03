@@ -4,6 +4,8 @@ title: Cue Timing
 sidebar_label: Cue Timing
 ---
 
+import Keys from '/src/components/key.ts';
+
 The console allows a wide variety of timing functions for each cue.
 
 ## Fade Times and Fixture Overlap
@@ -43,7 +45,7 @@ time\] to set the fade-in time of the cue, and \[Fade out time\] to set
 the fade-out time of the cue.
 
 5. Type the new time (in seconds) using the numeric keypad and press
-\<Enter\> to save it.
+<Keys.HardKey>Enter</Keys.HardKey> to save it.
 
 6. Press \[Fixture Overlap\] to change the overlap, then enter **0 - 100** on
 the keypad.\
@@ -54,7 +56,7 @@ through its fade.\
 The order of the fixtures is set by the order you selected them *(but you
 can change this, see [Changing Fixture Order](#changing-fixture-order))*.
 
-7. Press \<Exit\> to get out of Edit Times mode.
+7. Press <Keys.HardKey>Exit</Keys.HardKey> to get out of Edit Times mode.
 
 ---
 
@@ -63,10 +65,10 @@ can change this, see [Changing Fixture Order](#changing-fixture-order))*.
     [Setting Attribute Fade Times for a Cue](#setting-attribute-fade-times-for-a-cue)
     for details of this)*.
 
--   You can quickly set times from the keypad using the \<Time\> button,
-    e.g. \<Time\> \<5\> \<And\> \<2\> sets 5 sec fade in and 2 sec fade out.
-    *(The Time button is the button previously labelled \<Set\> on Titan
-    Mobile and Sapphire Touch, and \<Next Time\> on Tiger Touch and Pearl
+-   You can quickly set times from the keypad using the <Keys.HardKey>Time</Keys.HardKey> button,
+    e.g. <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> <Keys.HardKey>And</Keys.HardKey> <Keys.HardKey>2</Keys.HardKey> sets 5 sec fade in and 2 sec fade out.
+    *(The Time button is the button previously labelled <Keys.HardKey>Set</Keys.HardKey> on Titan
+    Mobile and Sapphire Touch, and <Keys.HardKey>Next Time</Keys.HardKey> on Tiger Touch and Pearl
     Expert)*.
 
 ### Fade Modes
@@ -135,7 +137,7 @@ position in the sequence. The sequence number is shown in green in the top right
 hand corner of the fixture select touch buttons.
 ![Fixtures Window setting Fixture Order](/docs/images/Fixtures-Window-showing-fixture-order.png)
 
-7. Press \<Exit\> to finish.
+7. Press <Keys.HardKey>Exit</Keys.HardKey> to finish.
 
 ---
 
@@ -166,11 +168,11 @@ on the right hand side on older consoles) for the attribute you want to change
 
 4. Press \[Delay = \] to set delay time or \[Fade = \] to set fade time
 
-5. Type the new time using the numeric keypad and press \<Enter\> to
+5. Type the new time using the numeric keypad and press <Keys.HardKey>Enter</Keys.HardKey> to
 save it, or press \[Use Global\] to delete the attribute times and go
 back to the normal times.
 
-6. Press \<Enter\> to save the changes.
+6. Press <Keys.HardKey>Enter</Keys.HardKey> to save the changes.
 
 You can take this even further and set individual fade times for each
 fixture. When you select the cue to be changed, you will see that all
@@ -181,7 +183,7 @@ The [Cue View window](editing-cues.md#cue-view) will display when editing cue ti
 see what you are editing. You can touch fixtures or attributes in the
 grid to select which items are going to be edited.
 
-Press the \<All\> button to select all fixtures in the cue.
+Press the <Keys.HardKey>All</Keys.HardKey> button to select all fixtures in the cue.
 
 When you are in the Set Attribute Times menu you can only select
 fixtures which are in the cue you are editing.
@@ -195,38 +197,38 @@ saving a cue. You can also set times into the programmer and
 into cues as a quick way of updating times, just like you would with
 attribute values.
 
-Press the \<Time\> button to access this menu.
+Press the <Keys.HardKey>Time</Keys.HardKey> button to access this menu.
 
 >   On Titan Mobile and Sapphire Touch, the Time button is the key above
-    \<Clear\> (previously labelled \<Set\>). On Pearl Expert and Tiger Touch
-    it is the key previously labelled \<Next Time\>.
+    <Keys.HardKey>Clear</Keys.HardKey> (previously labelled <Keys.HardKey>Set</Keys.HardKey>). On Pearl Expert and Tiger Touch
+    it is the key previously labelled <Keys.HardKey>Next Time</Keys.HardKey>.
 
 The menu allows you to set cue times, or times for all attributes of a
 fixture, attribute groups or individual attributes.
 
 ![Edit Programmer Cue Times in the Titan Go interface](/docs/images/Edit-Programmer-Cue-Times-in-the-Titan-Go-interface.png)
 
-Using the \<Time\> button there are various quick shortcuts to setting
+Using the <Keys.HardKey>Time</Keys.HardKey> button there are various quick shortcuts to setting
 times.
 
--   \<Time\> \<5\> = 5 sec fade in
+-   <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 sec fade in
 
--   \<CUE\> \<3\> \<Time\> \<5\> = 5 sec fade in on connected playback's cue 3
+-   <Keys.HardKey>CUE</Keys.HardKey> <Keys.HardKey>3</Keys.HardKey> <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 sec fade in on connected playback's cue 3
 
--   \<Time\> \<FIXTURE\> \<5\> = 5 sec fade in for all attributes of selected
+-   <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>FIXTURE</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 sec fade in for all attributes of selected
     fixtures
 
--   \<Time\> \<FIXTURE\> \<G\> \<5\> = 5 sec fade in for gobo attribute group of
+-   <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>FIXTURE</Keys.HardKey> <Keys.HardKey>G</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 sec fade in for gobo attribute group of
     selected fixtures
 
--   \<Time\> \<FIXTURE\> \<\@B\> \<5\> = 5 sec fade in for attribute connected to wheel
+-   <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>FIXTURE</Keys.HardKey> <Keys.HardKey>\@B</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 sec fade in for attribute connected to wheel
     B on selected fixtures
 
--   \<5\> \<@\> \<3\> = 5 sec fade in, 3 sec delay
+-   <Keys.HardKey>5</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>3</Keys.HardKey> = 5 sec fade in, 3 sec delay
 
--   \<5\> \<AND\> \<2\> = 5 sec fade in, 2 sec fade out
+-   <Keys.HardKey>5</Keys.HardKey> <Keys.HardKey>AND</Keys.HardKey> <Keys.HardKey>2</Keys.HardKey> = 5 sec fade in, 2 sec fade out
 
--   \<1\> \<THRO\> \<10\> = times spread across fixtures according to selection
+-   <Keys.HardKey>1</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>10</Keys.HardKey> = times spread across fixtures according to selection
     order
 
 [](https://youtu.be/GHq9b3PT8U0?t=20 "Timing Syntax")
@@ -234,7 +236,7 @@ times.
 Individual attribute times can also be set from the wheels, using the
 \[Wheels\] softkey option on the root menu.
 
-Using the \<Options\> button while showing the times allows you to set
+Using the <Keys.HardKey>Options</Keys.HardKey> button while showing the times allows you to set
 the **Speed**, **Effect Multiplier**, **Speed Multiplier** and **speed source** in the
 programmer. Speed and Speed Multiplier would only do anything if you
 create a [chase](../chases.md) and would have no effect in a cue.

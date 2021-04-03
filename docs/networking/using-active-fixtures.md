@@ -4,6 +4,8 @@ title: Using Active Fixtures with CITP
 sidebar_label: Using Active Fixtures with CITP
 ---
 
+import Keys from '/src/components/key.ts';
+
 CITP is a standard system allowing lighting devices to communicate and
 share information. This is often used with media servers to allow the
 console to get media thumbnail images and layer information from the
@@ -32,16 +34,16 @@ firewall.
 
 4. Run the Hippo system. Make sure the CITP component is running.
 
-5. Go to the **System** menu (\<Avo\> + \<Disk\>) and select \[DMX Settings\].
+5. Go to the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select \[DMX Settings\].
 
 6. On the left hand side under Art-Net you should see the Hippo with
 its IP address. Click on it and then on the right hand side click on the
 DMX line you want to use it with.
 
-7. On the assigned Hippo node on the right hand side, click the \{Cog\} button and
+7. On the assigned Hippo node on the right hand side, click the <Keys.ContextKey>Cog</Keys.ContextKey> button and
 set the Universe number to match the universe setting on the Hippo.
 
-8. Press \<Exit\> to go back to the default menu.
+8. Press <Keys.HardKey>Exit</Keys.HardKey> to go back to the default menu.
 
 9. Restart the console software using the option on the Tools menu (for
 Titan Mobile, Titan Go or Simulator just close and restart the Titan

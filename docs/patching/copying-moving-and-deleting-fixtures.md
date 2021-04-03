@@ -4,10 +4,12 @@ title: Copying, moving and deleting fixtures
 sidebar_label: Copying, moving and deleting fixtures
 ---
 
+import Keys from '/src/components/key.ts';
+
 Copying or moving a patched fixture
 -----------------------------------
 
-Using the \<Copy\> or \<Move\> buttons you can make a copy of an existing fixture or
+Using the <Keys.HardKey>Copy</Keys.HardKey> or <Keys.HardKey>Move</Keys.HardKey> buttons you can make a copy of an existing fixture or
 move it to a new handle. You cannot link fixture handles like you can with cues. You can copy
 or move multiple fixtures in one operation.
 
@@ -20,18 +22,18 @@ allocated) so you will need to set an address before you can use it (see
 
 Move is useful for tidying up the console.
 
-1. Press the \<Copy\> or \<Move\> button (on consoles which don't have
-	a **Move** button press \<Avo\> and \<Copy\>).
+1. Press the <Keys.HardKey>Copy</Keys.HardKey> or <Keys.HardKey>Move</Keys.HardKey> button (on consoles which don't have
+	a **Move** button press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Copy</Keys.HardKey>).
 
 2. Press the Select button of the fixture you want to copy/move. You
-can select multiple fixtures - use the \<And\> button to
+can select multiple fixtures - use the <Keys.HardKey>And</Keys.HardKey> button to
 add more fixtures to the selection.
 
 3. Press the empty Select button where you want it to go.
 
--   The \<Menu Latch\> button latches the Copy or Move menu, so you
+-   The <Keys.HardKey>Menu Latch</Keys.HardKey> button latches the Copy or Move menu, so you
     can keep copying or moving things without having to keep pressing
-    the \<Copy\> or \<Move\> button. Press again to unlatch.
+    the <Keys.HardKey>Copy</Keys.HardKey> or <Keys.HardKey>Move</Keys.HardKey> button. Press again to unlatch.
 
 -   The \[Retain Layout\] or \[Bunch Up\] option is used when copying a
     group of fixtures with empty handles in the group - you can either
@@ -58,9 +60,9 @@ something else.
 
 > All programming for the fixture is also deleted. You cannot undo deletion of a fixture or get the programming back by repatching a fixture to the same handle. If you might need the fixtures again later, move them to an unused fixture page.
 
-1. Enter Patch mode by pressing the \<Patch\> button.
+1. Enter Patch mode by pressing the <Keys.HardKey>Patch</Keys.HardKey> button.
 
-2. Press the \<Delete\> button.
+2. Press the <Keys.HardKey>Delete</Keys.HardKey> button.
 
 3. Press the Select button of the fixture you want to delete.
 

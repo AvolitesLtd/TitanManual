@@ -5,6 +5,8 @@ sidebar_label: Patching new Fixtures or Dimmers
 tags: fixture
 ---
 
+import Keys from '/src/components/key.ts';
+
 Fixture Select Buttons and Handles
 ----------------------------------
 
@@ -14,8 +16,8 @@ onto touch buttons in the Fixtures window, to a fader handle or to a
 Macro/Executor button. If the handle you patch to has a fader, the fader
 will control intensity.
 
-If the Fixtures window is not shown, press \<Open/View\> then
-\<Fixture\> or double press \<Open/View\> then press
+If the Fixtures window is not shown, press <Keys.HardKey>Open/View</Keys.HardKey> then
+<Keys.HardKey>Fixture</Keys.HardKey> or double press <Keys.HardKey>Open/View</Keys.HardKey> then press
 \[Fixtures\] from the window select buttons.
 
 ![Fixtures Window](/docs/images/Fixtures-Window.png)
@@ -41,12 +43,12 @@ Patching Dimmers
 Each fixture button can control single or multiple dimmer channels. You
 allocate a button using the Patch menu (described below) or the [Patch View](./changing-the-patch.md#patch-view) window.
 
-1. Press \<Patch\>, then \[Dimmers\].
+1. Press <Keys.HardKey>Patch</Keys.HardKey>, then \[Dimmers\].
 
 2. \[DMX Line=\] shows you which of the DMX output lines you are
 patching onto. Enter a new number to change the line. \[Address = \]
 shows the DMX address about to be patched. You can change this by typing
-in the new address on the numeric keypad and pressing \<Enter\>.\
+in the new address on the numeric keypad and pressing <Keys.HardKey>Enter</Keys.HardKey>.\
 ![DMX Line](/docs/images/DMX-Line.png)
 
 3. To patch a single dimmer, press a Fixture touch button, a
@@ -65,10 +67,10 @@ up dimly.
 5. Repeat from step 2 for other dimmers.
 
 -   When setting the DMX address using \[Address=\], you can set the DMX
-    line (universe) as well by entering {line}.{DMX}, for example 2.56
+    line (universe) as well by entering \{line\}.\{DMX\}, for example 2.56
     will set DMX address 56 on DMX line 2.
 
--   To see how DMX channels are patched, press \<Open/View\> then \<Patch\>
+-   To see how DMX channels are patched, press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey>
     to show the [Patch View](./changing-the-patch.md#patch-view) window.
 
 -   \[User Number = xx\] allows you to set a user-defined number for
@@ -106,7 +108,7 @@ find personalities.
 
 You can patch either using the Patch menu (described below) or the [Patch View](./changing-the-patch.md#patch-view) window.
 
-1. Press \<Patch\>.
+1. Press <Keys.HardKey>Patch</Keys.HardKey>.
 
 2. Press \[Fixtures\].
 ![Patch Menu](/docs/images/Patch-Menu.png)
@@ -172,11 +174,11 @@ Select buttons.
     a group is created for all fixtures of the same type, and another if
     you patch a quantity of fixtures.
 
--   To show the DMX address for fixtures, press \<Open/View\> then
-    \<Patch\>. To show patch details for a single fixture press
-    \<Open/View\> then the fixture select button. On touch buttons the
+-   To show the DMX address for fixtures, press <Keys.HardKey>Open/View</Keys.HardKey> then
+    <Keys.HardKey>Patch</Keys.HardKey>. To show patch details for a single fixture press
+    <Keys.HardKey>Open/View</Keys.HardKey> then the fixture select button. On touch buttons the
     DMX address is displayed on the top right of the button in the
-    format {DMX line}.{Address} (this display can be disabled using the
+    format \u123DMX line\u125.\u123Address\u125 (this display can be disabled using the
     context menu).
 
 -   If a patch goes over the capacity of a DMX line, the console will
@@ -194,8 +196,8 @@ Capture Visualiser Auto Patch
 -----------------------------
 
 If you want to use Capture Visualiser, start it by double pressing
-\<Open/View\> then press \[Capture Visualiser\] from the window select buttons. Some
-consoles also have a dedicated \<Visualiser\> button. Capture will open
+<Keys.HardKey>Open/View</Keys.HardKey> then press \[Capture Visualiser\] from the window select buttons. Some
+consoles also have a dedicated <Keys.HardKey>Visualiser</Keys.HardKey> button. Capture will open
 in a workspace window with an automatic representation of your patch.
 
 You will see the fixtures you have patched laid out on screen in handle
@@ -229,14 +231,14 @@ control over the cells.
 If you access the fixture using the handle it is patched on, all cells
 of the fixture will be controlled together. To access the sub-fixtures
 independently, use the Attribute Editor window or you can press
-\<Unfold\> then the select button of the fixture. In the Fixtures
+<Keys.HardKey>Unfold</Keys.HardKey> then the select button of the fixture. In the Fixtures
 workspace, the current page of fixtures will be replaced by select
 buttons for each individual fixture cell. If patched on a fader then the
 cells will start at fader 1. You can also select sub-fixtures from the
 numeric keypad. See the [fixture control section](../controlling-fixtures.md#fixtures-with-multiple-cells-subfixtures) for more details of
 working with fixture cells.
 
-To go back to normal, press \<Unfold\> then \[Exit Unfold\].
+To go back to normal, press <Keys.HardKey>Unfold</Keys.HardKey> then \[Exit Unfold\].
 
 > The Sub fixtures feature has to be defined in the fixture's personality. If sub-fixtures does not work on your fixture you may need to obtain the latest fixture personality from Avolites.
 
@@ -266,7 +268,7 @@ modes and other settings on the fixture.
 
 > The fixtures need to be connected to the console by an RDM-enabled Art-Net node, the XLR connectors do not support RDM. Obviously the fixtures must be equipped with RDM for this to work; many fixtures are not. Also if you have DMX buffers or splitters in your rig, they must be RDM enabled or they will block the information being sent back to the console.
 
-Press \<Open/View\> then \<Patch\> to open the [Patch View](./changing-the-patch.md#patch-view) window then
+Press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey> to open the [Patch View](./changing-the-patch.md#patch-view) window then
 select the RDM tab. All devices which support RDM will be listed here.
 Click the \[Full Discover\] context menu button to rescan the rig for
 RDM devices.
@@ -309,7 +311,7 @@ fixture by scrolling a "locate" state through all possible DMX
 addresses. When the fixture responds with its Locate state, you know its
 DMX address and might hopefully avoid a trip up the rig to look at it..
 
-1. Press \<Patch\>, \[Fixture\] and select the type of fixture you are
+1. Press <Keys.HardKey>Patch</Keys.HardKey>, \[Fixture\] and select the type of fixture you are
 looking for
 
 2. Press \[Options\], then \[Find Fixture\] to enable the Find Fixture

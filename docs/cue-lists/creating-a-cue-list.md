@@ -4,6 +4,8 @@ title: Creating a Cue List
 sidebar_label: Creating a Cue List
 ---
 
+import Keys from '/src/components/key.ts';
+
 Programming a Cue List
 ----------------------
 
@@ -15,7 +17,7 @@ You need to set up the look on the stage for each cue and then add it to
 the cue list. If you want to set fade times, you can either set them
 while saving the cues or [later](cue-list-timing.md).
 
-1. Press \<Record\> then \[Create Cue List\].
+1. Press <Keys.HardKey>Record</Keys.HardKey> then \[Create Cue List\].
 
 2. Press the **Select** button of the playback where you want to store the
 Cue List *(you can also store cue lists in the Playbacks window)*.
@@ -30,23 +32,23 @@ be recorded so they are in the programmer.
 using \[Set Times\]. These settings will be allocated to every new cue.
 
 5. Set up the look for the first cue, either manually or by using
-\<Include\> (see [Include Function](../cues/editing-cues.md/#using-parts-of-existing-cues---the-include-function) on existing cues. You can use the [Shape Generator](../effects/shape-generator.md) and the
+<Keys.HardKey>Include</Keys.HardKey> (see [Include Function](../cues/editing-cues.md/#using-parts-of-existing-cues---the-include-function) on existing cues. You can use the [Shape Generator](../effects/shape-generator.md) and the
 [Pixel Mapper](../effects/pixel-mapper.md).
 
 6. If you require a **legend** for the cue, set it now using \[Legend\].
-You can also change this later using [\<Unfold\>](editing-cue-lists.md#editing-a-cue-list-using-unfold) or [Set Legend](#changing-legends-for-cues-in-a-cue-list) (see next
+You can also change this later using [<Keys.HardKey>Unfold</Keys.HardKey>](editing-cue-lists.md#editing-a-cue-list-using-unfold) or [Set Legend](#changing-legends-for-cues-in-a-cue-list) (see next
 section).
 
 7. Press the **Select** button of the handle or \[Append Cue\] to store the
 programmer contents as Cue 1 of the cue list.
 
-8. Repeat steps 5 - 7 for additional cues. Do not press \<Clear\> in
+8. Repeat steps 5 - 7 for additional cues. Do not press <Keys.HardKey>Clear</Keys.HardKey> in
 between cues, unless you want levels to track through from previous
 cues, as any faders moving to zero will not be stored. If you do press
 clear, you must make sure that all channels you want to record are
 selected or in the programmer (inverted display).
 
-9. Press \<Exit\> to finish when you have stored all the cues.
+9. Press <Keys.HardKey>Exit</Keys.HardKey> to finish when you have stored all the cues.
 
 ---
 
@@ -93,7 +95,7 @@ running the cue list and can be helpful for keeping track of where you
 are.
 
 1. Press \[Set Legend\] in the top level menu. If you are setting
-legends for several cues, press \<Menu Latch\> to latch the Set Legend
+legends for several cues, press <Keys.HardKey>Menu Latch</Keys.HardKey> to latch the Set Legend
 menu.
 
 2. Press the **Select** button of the Cue List.
@@ -102,10 +104,10 @@ menu.
 use Wheel A to select which cue is to be renamed.
 
 5. Press \[Cue Legend\] and type the legend on the keyboard, then press
-\<Enter\>.
+<Keys.HardKey>Enter</Keys.HardKey>.
 
 6. If you latched the menu, you can continue to set legends for other
-cues, or press \<Exit\> to finish.
+cues, or press <Keys.HardKey>Exit</Keys.HardKey> to finish.
 
 Shape Tracking in Cue Lists
 ---------------------------
@@ -163,7 +165,7 @@ in the \[Advanced Options\] menu of the cue list record screen.
 
 To manually edit autoloads use the playback view for the cue list:
 
-1. Press \<Open/View\>
+1. Press <Keys.HardKey>Open/View</Keys.HardKey>
 
 2. Press the **Select button** of the Cue List.
 
@@ -176,7 +178,7 @@ window.)*
 4. Press the **Select button** of the playback which is to be loaded. The
 playback legend appears on the softkeys.
 
-5. You can continue to add Autoloads to other cues, or press \<Exit\>
+5. You can continue to add Autoloads to other cues, or press <Keys.HardKey>Exit</Keys.HardKey>
 to finish.
 
 ![Cue List Window with Autoload playback](/docs/images/Cue-List-Window-with-Autoload-playback.png)
@@ -210,7 +212,7 @@ allows you to set up custom actions which can be performed when a cue in
 a cue list fires; for example you may want to lamp on your fixtures as
 the first cue in the cue list.
 
-1. Press \<Options\> (or the \[Options\] softkey on the root menu).
+1. Press <Keys.HardKey>Options</Keys.HardKey> (or the \[Options\] softkey on the root menu).
 
 2. Press the **Select** button for the cue list.
 
@@ -236,8 +238,8 @@ playback where **n** is the cue number.
 
 Shortcut | Action
 --- | ---
-\<Record\>, \<Connect/Cue\>, **n**, \<Enter\> | Record cue **n**
-\<Copy\>, \<Connect/Cue\>, n | Copy cue **n**
-\<Delete\>, \<Connect/Cue\>, n | Delete cue **n**
-\<Include\>, \<Connect/Cue\>, n | Include cue **n**
-\<Connect/Cue\>, n, \<Go\> | Go cue **n**
+<Keys.HardKey>Record</Keys.HardKey>, <Keys.HardKey>Connect/Cue</Keys.HardKey>, **n**, <Keys.HardKey>Enter</Keys.HardKey> | Record cue **n**
+<Keys.HardKey>Copy</Keys.HardKey>, <Keys.HardKey>Connect/Cue</Keys.HardKey>, n | Copy cue **n**
+<Keys.HardKey>Delete</Keys.HardKey>, <Keys.HardKey>Connect/Cue</Keys.HardKey>, n | Delete cue **n**
+<Keys.HardKey>Include</Keys.HardKey>, <Keys.HardKey>Connect/Cue</Keys.HardKey>, n | Include cue **n**
+<Keys.HardKey>Connect/Cue</Keys.HardKey>, n, <Keys.HardKey>Go</Keys.HardKey> | Go cue **n**

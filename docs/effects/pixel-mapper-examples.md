@@ -4,6 +4,8 @@ title: Pixel Mapper Examples
 sidebar_label: Pixel Mapper Examples
 ---
 
+import Keys from '/src/components/key.ts';
+
 Randomising Effects
 -------------------
 
@@ -30,7 +32,7 @@ effect as you create it*
 *This will allow the whole effect to overlay any related intensities*
 ![Effect Editor - Pixel Mapper - Setting Background Opacity of Effect](/docs/images/Effect-Editor-Pixel-Mapper-Setting-Background-Opacity-of-Effect.png)
 
-6. Select \[Layer 1\], click \{+\} at the bottom of the screen and then
+6. Select \[Layer 1\], click <Keys.ContextKey>+</Keys.ContextKey> at the bottom of the screen and then
 choose **Circle** from the elements that appear
 ![Effect Editor - Pixel Mapper - Adding a Circle to Layer 1](/docs/images/Effect-Editor-Pixel-Mapper-Adding-a-Circle-to-Layer-1.png)
 
@@ -42,12 +44,12 @@ circle into an oval if that helps.
     the centre of your fixtures if it is not already.
     ![Effect Editor - Pixel Mapper - Transforming a Circle Element](/docs/images/Effect-Editor-Pixel-Mapper-Transforming-a-Circle-Element.png)
 
-8. Select \{+\} again and choose **Displacement** from the animations that
+8. Select <Keys.ContextKey>+</Keys.ContextKey> again and choose **Displacement** from the animations that
 appear (this is represented as a few static blocks)
 ![Effect Editor - Pixel Mapper - ](/docs/images/Effect-Editor-Pixel-Mapper.png)  
 Note that nothing changes yet
 
-9. Select \{+\} and this time choose **Opacity** animation (represented as
+9. Select <Keys.ContextKey>+</Keys.ContextKey> and this time choose **Opacity** animation (represented as
 a block fading in).
 
 10. Modify the effect:
@@ -64,7 +66,7 @@ a block fading in).
 
     ![Effect Editor - Pixel Mapper - Modify an Opacity Animation](/docs/images/Effect-Editor-Pixel-Mapper-Modify-an-Opacity-Animation.png)
 
-11. \<Record\> to a playback
+11. <Keys.HardKey>Record</Keys.HardKey> to a playback
 
 Overlaying Effects
 ------------------
@@ -78,7 +80,7 @@ example](#randomising-effects)
 2. Start creating an effect by selecting the group then \[Shapes And
 Effects\], \[Pixel Mapper\], \[Create Effect\]
 
-3. Select \[Layer 1\], click \{+\} at the bottom of the screen and then
+3. Select \[Layer 1\], click <Keys.ContextKey>+</Keys.ContextKey> at the bottom of the screen and then
 choose Block from the elements that appear.
 
     Drag the **Rotation** slider to the right to angle the element at
@@ -94,7 +96,7 @@ choose Block from the elements that appear.
 
     ![Effect Editor - Pixel Mapper - Transforming a Block](/docs/images/Effect-Editor-Pixel-Mapper-Transforming-a-Block.png)
 
-4. Click \{+\} again and choose **Linear Movement Animation** (represented
+4. Click <Keys.ContextKey>+</Keys.ContextKey> again and choose **Linear Movement Animation** (represented
 as a block moving left to right).
 
     On the right side of the **Direction** slider there is a compass button.
@@ -114,7 +116,7 @@ as a block moving left to right).
 
     ![Effect Editor - Pixel Mapper - Modify a Linear Movement Animation](/docs/images/Effect-Editor-Pixel-Mapper-Modify-a-Linear-Movement-Animation.png)
 
-5. Click on \[Layer 2\], select \{+\} and select the Swirl element
+5. Click on \[Layer 2\], select <Keys.ContextKey>+</Keys.ContextKey> and select the Swirl element
 (represented by a **fan** shape with four arms).
 
     Increase **Zoom** until it is as large as will fit in the screen.
@@ -130,7 +132,7 @@ as a block moving left to right).
 
     ![Effect Editor - Pixel Mapper - Modifying Swirl](/docs/images/Effect-Editor-Pixel-Mapper-Modifying-Swirl.png)
 
-6. Click on \{+\} and add a spin animation.
+6. Click on <Keys.ContextKey>+</Keys.ContextKey> and add a spin animation.
 
     Reduce the speed until it just causes a light breeze.
 
@@ -147,7 +149,7 @@ as a block moving left to right).
     Drag **Pre Spool** to the left until it reads 0s. *(This is to ensure the
     wipe begins off screen where we placed it when it is fired.)*
 
-9. \<Record\> to a playback
+9. <Keys.HardKey>Record</Keys.HardKey> to a playback
 
 >   Note how the red fan sits on top of the white bar when they
     interact. This is because the white is on a lower layer. A higher
@@ -169,14 +171,14 @@ effects.
 
 1. Select your fixtures
 
-2. Open the Selection Pattern menu by pressing the \<All\> key
+2. Open the Selection Pattern menu by pressing the <Keys.HardKey>All</Keys.HardKey> key
 
 3. Choose \[Odd\] from the softkey options\
 *This will select all the odd numbered fixtures according to fixture order.*
 
 4. Record a group.
 
-5. Press \<+1\> (or \<Next\>) key\
+5. Press <Keys.HardKey>+1</Keys.HardKey> (or <Keys.HardKey>Next</Keys.HardKey>) key\
 *This will select all the even numbered fixtures.*
 
 6. Merge this into the first group
@@ -226,7 +228,7 @@ Note that to help with creation and manipulation of larger grids you can
 4. Select the group again. (This will quickly select everything in the
 layout.)
 
-5. Press \<+1\> key\
+5. Press <Keys.HardKey>+1</Keys.HardKey> key\
     **This will select the first fixture**
 
 6. Use the wheel to adjust **Position Y**
@@ -269,7 +271,7 @@ to make them behave.
 
 When using the wheels to move fixtures, you can click on the "up" and
 "down" areas in the wheel display to nudge the values up and down: 1
-pixel for position and 45 degrees for rotate. If you press the \<@\> button
+pixel for position and 45 degrees for rotate. If you press the <Keys.HardKey>@</Keys.HardKey> button
 for the wheel, a window opens allowing you to type in the values
 numerically.
 
@@ -289,7 +291,7 @@ four towers, each with five blocks.
 
 3. Select **Arrange Fixtures** from the context menu
 
-4. Select the \[Height\] softkey and type \<5\>\
+4. Select the \[Height\] softkey and type <Keys.HardKey>5</Keys.HardKey>\
 *Width will automatically be calculated*
 
 5. Toggle \[Crop Grid to fixtures\] so that it is highlighted\
@@ -354,7 +356,7 @@ example and go to \[Create Effect\]
 **Background Opacity** to zero\
 *This will allow it to overlay the other playback*
 
-3. Double-Click \[Layer 1\] (or press \{+\}) and choose **Circle** from the
+3. Double-Click \[Layer 1\] (or press <Keys.ContextKey>+</Keys.ContextKey>) and choose **Circle** from the
 elements that appear\
 *Double-click is a shortcut to elements and animations*
 
@@ -363,7 +365,7 @@ elements that appear\
 
     ![Effect Editor - Pixel Mapper - Editing Height of Circle](/docs/images/Effect-Editor-Pixel-Mapper-Editing-Height-of-Circle.png)
 
-4. Double-click on \[Circle\] (or press \{+\}) and select the **Zoom**
+4. Double-click on \[Circle\] (or press <Keys.ContextKey>+</Keys.ContextKey>) and select the **Zoom**
 animation
 
     Drag **In Time** to 0% and **Out Time** to 100%. (This will make the
@@ -373,7 +375,7 @@ animation
     Increase **End Zoom** until the element begins by filling the whole
     window.
 
-5. Double-click on \[Zoom Animation\] (or press \{+\}) and select the
+5. Double-click on \[Zoom Animation\] (or press <Keys.ContextKey>+</Keys.ContextKey>) and select the
 **Opacity animation**
 
     Reduce **Spawn Rate** to zero. (This will ensure the opacity only works
@@ -393,7 +395,7 @@ opacity animations are synchronised instead of having to manually match
 the individual values.)\
     ![Effect Editor - Pixel Mapper - Effect Master Speed](/docs/images/Effect-Editor-Pixel-Mapper-Effect-Master-Speed.png)
 
-7. \<Record\> to a playback
+7. <Keys.HardKey>Record</Keys.HardKey> to a playback
 
 Next we will create the second effect:
 
@@ -429,7 +431,7 @@ Effect\]
 blue using the colour picker.\
 ![Effect Editor - Pixel Mapper - Changing Colour of Spiral Layer to Blue](/docs/images/Effect-Editor-Pixel-Mapper-Changing-Colour-of-Spiral-Layer-to-Blue.png)
 
-6. \<Record\> to a playback
+6. <Keys.HardKey>Record</Keys.HardKey> to a playback
 
 Now let's look at how they interact on the playbacks:
 
@@ -455,7 +457,7 @@ higher priority:
 
 1. Kill both effects
 
-2. Press \<Options\> (or \[Options\] from the top level menu) - see [Playback Options](../cues/playback-options.md)
+2. Press <Keys.HardKey>Options</Keys.HardKey> (or \[Options\] from the top level menu) - see [Playback Options](../cues/playback-options.md)
 
 3. **Select** the blue spiral playback
 
@@ -606,7 +608,7 @@ frequently a new element appears.)
 
     ![Effect Editor - Pixel Mapper - Zoom Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Zoom-Animation-Settings-2.png)
 
-10. \<Record\> to a playback
+10. <Keys.HardKey>Record</Keys.HardKey> to a playback
 
 11. Press clear, open the **Pixel Mapper Preview** workspace and fire the
 cue
@@ -615,14 +617,14 @@ cue
     it takes a while to build up to a nice random collection. To fix that we
     can use **Pre-Spool**.
 
-12. \<Include\> the cue and open the **Effect Editor** workspace if it is not
+12. <Keys.HardKey>Include</Keys.HardKey> the cue and open the **Effect Editor** workspace if it is not
 already open
 
 13. Select \[Effect\] and increase the **Pre-Spool** value to around
 20s. (This means the software will pretend 20 seconds has already
 elapsed when the effect is started.)
 
-14. \<Record\> to a playback, \<Clear\>, fire and view again in the **Pixel Mapper
+14. <Keys.HardKey>Record</Keys.HardKey> to a playback, <Keys.HardKey>Clear</Keys.HardKey>, fire and view again in the **Pixel Mapper
 Preview**
 
     This time there should already be plenty of shurikens on screen.

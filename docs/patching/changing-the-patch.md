@@ -5,6 +5,8 @@ sidebar_label: Changing the Patch
 tags: park
 ---
 
+import Keys from '/src/components/key.ts';
+
 Patch View
 ----------
 
@@ -15,8 +17,8 @@ fixtures. If you need to change the settings of multiple fixtures (for
 example, changing the DMX address of several fixtures) then it's really
 easy to do in one operation in the Patch View.
 
-To show the Patch View window press \<Open/View\> then \<Patch\>, or 
-double press \<Open/View\> and select \[Patch View\] from the window 
+To show the Patch View window press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey>, or 
+double press <Keys.HardKey>Open/View</Keys.HardKey> and select \[Patch View\] from the window 
 select buttons.
 
 ![Patch View](/docs/images/Patch-View.png)
@@ -39,7 +41,7 @@ The **grid area** shows details for each patched fixture on the selected
 output line. Some parameters are editable by clicking in the grid, then
 the softkeys allow you to change the parameter.
 
-> You can change parameters for multiple fixtures by dragging a selection box over the grid, or hold the Ctrl button on the keyboard and click on the required fixtures. Then edit the parameter on the softkeys, and use the \[Set\] context button or press \<Enter\> to update the selected fixtures.
+> You can change parameters for multiple fixtures by dragging a selection box over the grid, or hold the Ctrl button on the keyboard and click on the required fixtures. Then edit the parameter on the softkeys, and use the \[Set\] context button or press <Keys.HardKey>Enter</Keys.HardKey> to update the selected fixtures.
 
 -   You can switch off some of the display columns to make the Patch
     View simpler. Press the \[Choose Columns\] context menu button and
@@ -62,7 +64,7 @@ View Detailed Fixture Information
 ---------------------------------
 
 In the Patch View window click on the View button for the fixture you
-wish to view, or press \<Open/View\> followed by a fixture handle. A
+wish to view, or press <Keys.HardKey>Open/View</Keys.HardKey> followed by a fixture handle. A
 Fixture View window will open showing details for that fixture,
 including the personality and mode used to patch, and the individual DMX
 channel addresses for each attribute. Attributes can be inverted or
@@ -89,7 +91,7 @@ selection box over multiple cells to select more than one.
 ![Change DMX Address](/docs/images/Change-DMX-Address.png)
 
 Type the new address for the first fixture in the selection and press
-\<Enter\> (using the format Universe . Address - if you miss out the
+<Keys.HardKey>Enter</Keys.HardKey> (using the format Universe . Address - if you miss out the
 universe part it will stay unchanged).
 
 All fixtures will be renumbered keeping the addressing offset between
@@ -115,7 +117,7 @@ As well as using the Patch View screen, you can use the Patch menu to
 re-patch a fixture to a different DMX address or a different DMX output
 line. All programming is kept.
 
-1. Press \<Patch\> (if you're not already in Patch mode).
+1. Press <Keys.HardKey>Patch</Keys.HardKey> (if you're not already in Patch mode).
 
 2. Press \[Repatch Fixtures\].
 
@@ -128,7 +130,7 @@ enter. If this address is already in use, a warning icon will be shown.
 5. To change the DMX output line, press \[DMX Line=x\] and enter a new
 output line number.
 
-6. Press \<Enter\> or \[Repatch\] to confirm the change.
+6. Press <Keys.HardKey>Enter</Keys.HardKey> or \[Repatch\] to confirm the change.
 
 7. Repeat from step 3 if you want to change other fixtures.
 
@@ -157,13 +159,13 @@ You can set a legend for each fixture or dimmer you've patched which is
 displayed in the touch button. This can be really useful to help you
 identify the fixture.
 
-1. Press \<Legend\> (D9 only) or on the main menu press softkey \[Set Legend\].
+1. Press <Keys.HardKey>Legend</Keys.HardKey> (D9 only) or on the main menu press softkey \[Set Legend\].
 
 2. Press the Select button for the fixture you want to legend.
 
 3. Type the legend on the keyboard.
 
-4. Press \<Enter\> when you have finished.
+4. Press <Keys.HardKey>Enter</Keys.HardKey> when you have finished.
 
 -   You can also choose to have a picture legend using the softkey
     options.
@@ -195,7 +197,7 @@ you to find them quickly. Halo colours can be set manually for each
 fixture (the default setting), or automatically by fixture type using
 the same fixture colours used in the patch window..
 
-To set a manual halo colour, press \<Legend\> or click \[Set Legend\], click the fixture
+To set a manual halo colour, press <Keys.HardKey>Legend</Keys.HardKey> or click \[Set Legend\], click the fixture
 button (or select multiple buttons) then select the \[Halo\] option. A
 colour picker will open to let you set the colour, or pressing \[System
 Colours\] will give you colour options on the softkeys. A \[Remove
@@ -203,7 +205,7 @@ Halo\] softkey lets you remove the colour.
 
 ![Fixture Halo](/docs/images/Fixture-Halo.png)
 
-To enable automatic halo colours, hold \<Avo\> and select \[User
+To enable automatic halo colours, hold <Keys.HardKey>Avo</Keys.HardKey> and select \[User
 Settings\], then \[Handles\], then set Fixture Halos to \[Auto\].
 Fixture buttons will then be coloured to match the automatic fixture
 colours used in the Patch window.
@@ -221,7 +223,7 @@ DMX View Window
 
 When you're having problems getting fixtures to work it can be useful to
 see the actual DMX output values coming from the console. Double press
-\<Open/View\>, then select \[DMX\] from the window select buttons.
+<Keys.HardKey>Open/View</Keys.HardKey>, then select \[DMX\] from the window select buttons.
 
 ![DMX Workspace Window](/docs/images/DMX-Workspace-Window-With-Filters.png)
 
@@ -261,7 +263,7 @@ when faced with a new fixture.
     problems, you will easily be able to return your show to its
     previous state.
 
-1. Enter patch mode by pressing \<Patch\>.
+1. Enter patch mode by pressing <Keys.HardKey>Patch</Keys.HardKey>.
 
 2. Select the new fixture type you wish to use.
 
@@ -297,7 +299,7 @@ should you need to using the \[Clear All Mappings\] softkey).
 
 To set up mapping:
 
-1. Press \<Open/View\> then \<Patch\> to show the Patch View screen.
+1. Press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey> to show the Patch View screen.
 
 2. Select the Exchange Mapping tab.
 
@@ -371,7 +373,7 @@ console does not update fixtures which are already patched.
     Personalities, then you will be able to undo any changes if you
     change your mind or have problems.
 
-1.  Enter patch mode by pressing \<Patch\>.
+1.  Enter patch mode by pressing <Keys.HardKey>Patch</Keys.HardKey>.
 
 2.  Press \[Edit Fixtures\].
 

@@ -4,6 +4,8 @@ title: Linking Consoles for Multi-User or Backup
 sidebar_label: Linking Consoles for Multi-User or Backup
 ---
 
+import Keys from '/src/components/key.ts';
+
 On large shows it is sometimes necessary to have multiple operators
 programming or running different aspects of the show. The Titan system
 allows a number of consoles to be connected together to give an
@@ -40,7 +42,7 @@ the main console.
   the same IP range.\
   See the [networking section](../networking.md) for more information.
 
-2. On the console which will be the Backup, press \<Disk\>, \[TitanNet Sessions\], \[Backup\].
+2. On the console which will be the Backup, press <Keys.HardKey>Disk</Keys.HardKey>, \[TitanNet Sessions\], \[Backup\].
 
 3. Consoles available for backup will be listed in the softkeys.
 
@@ -72,4 +74,4 @@ network connection. A blue line will appear during sync operations.
     console to warn that DMX has been disabled. On touch consoles
     touching on this prompt will open the 'Exit Safe Mode' menu
     with a softkey option to re-enable output. On the Pearl Expert you
-    can re-enable DMX output via the \<Avo\> menu.
+    can re-enable DMX output via the <Keys.HardKey>Avo</Keys.HardKey> menu.

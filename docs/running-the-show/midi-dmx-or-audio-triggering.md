@@ -4,6 +4,8 @@ title: External triggering
 sidebar_label: External triggering
 ---
 
+import Keys from '/src/components/key.ts';
+
 You can set up the console to allow most features to be triggered by
 external events. This is very useful in complex shows or when using in
 an automated setup.
@@ -50,7 +52,7 @@ sACN is connected using the normal Ethernet connection on the console.
 Setting up External Triggering
 ----------------------------
 
-Go to the **System** menu (\<Avo\> + \<Disk\>) and select \[Triggers\]. The Triggers window will
+Go to the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select \[Triggers\]. The Triggers window will
 open.
 
 ![Triggers Window](/docs/images/Triggers-Window.png)
@@ -66,10 +68,10 @@ console to react in different ways and easily swap between them.
 
 This is how you set up a trigger:
 
-1.  Add a new mapping using the \{+\} button at the bottom of the *left hand*
+1.  Add a new mapping using the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom of the *left hand*
     column, and enter a name for it.
 
-2.  Add a trigger to the mapping using the \{+\} button in the *right hand*
+2.  Add a trigger to the mapping using the <Keys.ContextKey>+</Keys.ContextKey> button in the *right hand*
     column or softkey \[Add trigger\].
 
 3.  Select \[Trigger Type\] as \[Hardware\] or \[Item\].
@@ -126,9 +128,9 @@ You can continue to add other triggers to the mapping.
 ![Triggers Window with MIDI triggers](/docs/images/Triggers-Window-with-MIDI-triggers.png)
 
 -	To delete a trigger from the mapping, select it in the list and press
-	the \{Rubbish Bin\} button at the *bottom of the right hand column*.
+	the <Keys.ContextKey>Rubbish Bin</Keys.ContextKey> button at the *bottom of the right hand column*.
 
--	To delete a complete mapping, select it and press the \{Rubbish Bin\} button
+-	To delete a complete mapping, select it and press the <Keys.ContextKey>Rubbish Bin</Keys.ContextKey> button
 	at the *bottom of the left hand column*.
 	
 -	The **Re-Fire At Level** action will cause the playback to be re-fired when the trigger level changes, so
@@ -146,10 +148,10 @@ on T2. Ensure your MIDI device is connected and recognised by Windows
 
 1. From the **System** menu select \[Triggers\].
 
-2. Add a new mapping using the \{+\} button at the bottom of the left hand
+2. Add a new mapping using the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom of the left hand
 column, and call it "T2 playbacks".
 
-3. Add a trigger to the mapping using the \{+\} button in the right hand
+3. Add a trigger to the mapping using the <Keys.ContextKey>+</Keys.ContextKey> button in the right hand
 column or softkey \[Add trigger\] -- by default this is set to the
 correct Trigger Type of \[Hardware\].
 

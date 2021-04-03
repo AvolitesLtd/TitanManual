@@ -4,11 +4,13 @@ title: Programming palettes
 sidebar_label: Programming palettes
 ---
 
+import Keys from '/src/components/key.ts';
+
 Set up the attributes to be recorded. If attribute is the same for all
 fixtures of one type (e.g. colour), only one fixture need be set up and
 palette will be "shared".
 
-Press \<Record\>, \<Palette\> (See also Quick Record below).
+Press <Keys.HardKey>Record</Keys.HardKey>, <Keys.HardKey>Palette</Keys.HardKey> (See also Quick Record below).
 
 Use \[Set Mask\] to choose attributes to record/exclude. If you are
 storing in a palette touch button the mask is automatically set.

@@ -4,6 +4,8 @@ title: Cue Playback
 sidebar_label: Cue Playback
 ---
 
+import Keys from '/src/components/key.ts';
+
 Because it's possible to play back a large number of cues at the same
 time, the console has to have rules on how it combines the output from
 different cues. These are called **HTP** and **LTP** rules.
@@ -28,7 +30,7 @@ Playing Back a Cue
 ------------------
 
 To fire (play back) a cue, raise the fader. (Make sure there are no
-values in the programmer by pressing the \<Clear\> button, because anything
+values in the programmer by pressing the <Keys.HardKey>Clear</Keys.HardKey> button, because anything
 in the programmer will override the playback).
 
 -   You can fire several cues at once.
@@ -56,7 +58,7 @@ in the programmer will override the playback).
     other playbacks. *This is useful to avoid the fixtures visibly moving
     into position or changing colours or gobos when you raise the fader
     of the cue.*\
-    To assign Preload, hold \<Avo\> and press \[Edit
+    To assign Preload, hold <Keys.HardKey>Avo</Keys.HardKey> and press \[Edit
     Key Profile\], then press the button you want to assign (also see
     [Key Profiles](../system-settings/key-profiles.md)). Note that this will assign the function
     to all buttons of the same type.
@@ -150,7 +152,7 @@ The Active Playbacks window shows details of which playbacks are active.
 When you have a number of layered playbacks with different effects, this
 provides an easy way to see which playback is causing which effect. Each
 button shows the playback legend, which page they are from and which
-attributes are affected. To show the window double press \<Open/View\> 
+attributes are affected. To show the window double press <Keys.HardKey>Open/View</Keys.HardKey> 
 then press \[Active Playbacks\] from the window select buttons which pop up.
 
 ![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
@@ -191,11 +193,11 @@ can be used to release the playback using [Key Profiles](../system-settings/key-
 
 Channels will always release with a fade time, this defaults to 2 seconds but you can change it using \[Master Release Time\] in the Release menu. You can also set an individual release time for the playback from the [Release tab](playback-options.md#release-tab) of playback options.
 
--   You can kill a playback by pressing \<Avo\> + the **Select** button of the playback, which has the same effect as pulling the fader to zero. For a cue, the fade out times will still apply and the cue will release when the fades are completed. This can also be useful for Cue Lists which (depending on their options) may stay fired even when the fader is lowered to zero.
+-   You can kill a playback by pressing <Keys.HardKey>Avo</Keys.HardKey> + the **Select** button of the playback, which has the same effect as pulling the fader to zero. For a cue, the fade out times will still apply and the cue will release when the fades are completed. This can also be useful for Cue Lists which (depending on their options) may stay fired even when the fader is lowered to zero.
 
--   You can instantly release a running playback by pressing \<Release\>, then the **Select** button of the playback to be released. This uses a [Temporary Release Mask](#temporary-release-mask) as described below. Fade out times of cues will be ignored and the release will start immediately, but will use the set release time. 
+-   You can instantly release a running playback by pressing <Keys.HardKey>Release</Keys.HardKey>, then the **Select** button of the playback to be released. This uses a [Temporary Release Mask](#temporary-release-mask) as described below. Fade out times of cues will be ignored and the release will start immediately, but will use the set release time. 
 
--   You can **Release All** running playbacks by double pressing \<Release\>. The user setting [Release Priority](../system-settings/user-settings.md#release) sets which playback priority levels will be released. You can protect against unintended Release All by setting the Release Priority to Low - this would only release playbacks with Low priority, if you had any set up.
+-   You can **Release All** running playbacks by double pressing <Keys.HardKey>Release</Keys.HardKey>. The user setting [Release Priority](../system-settings/user-settings.md#release) sets which playback priority levels will be released. You can protect against unintended Release All by setting the Release Priority to Low - this would only release playbacks with Low priority, if you had any set up.
 
 
 Release Mask
@@ -203,14 +205,14 @@ Release Mask
 
 You can configure which attributes will release from a playback when it is killed using the **Release Mask**. There is a **Global**
 release mask which is the default setting, or you can set a **Local** release mask which overrides the global mask for a particular playback.
-If you start a release using the \<Release\> button then a **Temporary** release mask is used which just affects the current release operation.
+If you start a release using the <Keys.HardKey>Release</Keys.HardKey> button then a **Temporary** release mask is used which just affects the current release operation.
 
 ### Global Release Mask
 
 If no local release mask is set for the playback, attributes release
 according to this mask when the playback is killed. The default is for no attributes to release, so all LTP attributes will remain at their last value.
 
-Set the Global Release Mask from the **Release Menu** by pressing \<Release\> then \[Global Release Mask\]. The
+Set the Global Release Mask from the **Release Menu** by pressing <Keys.HardKey>Release</Keys.HardKey> then \[Global Release Mask\]. The
 softkey and the lit Attribute Bank buttons show which attribute groups are enabled - use the Attribute Bank buttons or the softkeys to enable or disable attribute groups.
 
 ![Global Release Mask](/docs/images/Global-Release-Mask.png)
@@ -223,10 +225,10 @@ Set a local release mask if you need to have specific settings for that playback
 
 ### Temporary Release Mask
 
-If you are releasing a playback (or the programmer) using the \<Release\> button then a temporary mask is used. This starts off with everything set, so all attributes will release.
+If you are releasing a playback (or the programmer) using the <Keys.HardKey>Release</Keys.HardKey> button then a temporary mask is used. This starts off with everything set, so all attributes will release.
 Press the Attribute Bank buttons to set a different mask - when you press the first button all the other attribute groups will clear.
 
-- You can type a release time on the keypad before you press \<Release\> to override the global release fade time.
+- You can type a release time on the keypad before you press <Keys.HardKey>Release</Keys.HardKey> to override the global release fade time.
 
 Other release operations
 -----------------------------------
@@ -234,7 +236,7 @@ Other release operations
 ### Releasing a page of playbacks
 
 You can use the Release function to release a whole page of playbacks in
-one operation. Press \<Release\> then the \<Goto Page\> button, or touch
+one operation. Press <Keys.HardKey>Release</Keys.HardKey> then the <Keys.HardKey>Goto Page</Keys.HardKey> button, or touch
 the current page in the playbacks view. You will get the following
 options:
 
@@ -255,14 +257,14 @@ left hand side of the Arena.
 
 ### Releasing the programmer contents
 
-You can release the programmer contents by pressing \<Release\>, then set the attributes you want to release in the temporary mask, then press \<Clear\>.
-You can type a release time on the keypad before you press \<Release\> to override the global time.
+You can release the programmer contents by pressing <Keys.HardKey>Release</Keys.HardKey>, then set the attributes you want to release in the temporary mask, then press <Keys.HardKey>Clear</Keys.HardKey>.
+You can type a release time on the keypad before you press <Keys.HardKey>Release</Keys.HardKey> to override the global time.
 
-You can release a single attribute on a wheel from the programmer by pressing \<Release\> then the \<Wheel @\> button. This can be useful during programming if you accidentally set a value you didn't want, or when busking a show to gently remove a temporary fixture change you made.
+You can release a single attribute on a wheel from the programmer by pressing <Keys.HardKey>Release</Keys.HardKey> then the <Keys.HardKey>Wheel @</Keys.HardKey> button. This can be useful during programming if you accidentally set a value you didn't want, or when busking a show to gently remove a temporary fixture change you made.
 
 ### Releasing a master
 
-You can reset a master to default state by pressing \<Release\> then the **Select** button of the master. You can reset all masters to default state by pressing \<Release\> then \[Release all Masters\]. This will set the level of the master so that it has no effect (full for intensity masters, 100% for speed masters, and so on).
+You can reset a master to default state by pressing <Keys.HardKey>Release</Keys.HardKey> then the **Select** button of the master. You can reset all masters to default state by pressing <Keys.HardKey>Release</Keys.HardKey> then \[Release all Masters\]. This will set the level of the master so that it has no effect (full for intensity masters, 100% for speed masters, and so on).
 
 Programming the Release / Power On State
 ----------------------------------------
@@ -280,7 +282,7 @@ individually as you have set it.
 
 1. Set up the look you want.
 
-2. Press \<Record\>, then \<Release\>.
+2. Press <Keys.HardKey>Record</Keys.HardKey>, then <Keys.HardKey>Release</Keys.HardKey>.
 
 3. Select \[Shared values\] or \[Individual values\].
 
@@ -289,7 +291,7 @@ individually as you have set it.
 5. The Release state is saved.
 
 >   To test, fire some playbacks, then release them by pressing
-    \<Release\> followed by the select button of the playback. The
+    <Keys.HardKey>Release</Keys.HardKey> followed by the select button of the playback. The
     fixtures should return to your programmed release state.
 
 Turning Off Individual Fixtures
@@ -300,13 +302,13 @@ the **Off** menu. The programmed values will remain in the playback but will
 not be applied when the playback is recalled. You can, however, re-enable 
 the values in the cue view.
 
-Press \<Off\> button followed by a playback to open the \'Off Playback
+Press <Keys.HardKey>Off</Keys.HardKey> button followed by a playback to open the \'Off Playback
 with Mask\' menu. Select the fixtures to be turned off, set mask as
 required and then press \[Off\] to turn the fixtures/attributes/shapes
 off.
 
-On Titan consoles that do not have separate \<Release\> and \<Off\>
-buttons, pressing \<Off\> followed by a playback will release it which
+On Titan consoles that do not have separate <Keys.HardKey>Release</Keys.HardKey> and <Keys.HardKey>Off</Keys.HardKey>
+buttons, pressing <Keys.HardKey>Off</Keys.HardKey> followed by a playback will release it which
 is not what you want. On these select the softkey \[Off Playback
 Values\] then select the playback.
 

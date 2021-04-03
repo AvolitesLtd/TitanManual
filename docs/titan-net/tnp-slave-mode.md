@@ -4,10 +4,12 @@ title: TNP Slave Mode
 sidebar_label: TNP Slave Mode
 ---
 
+import Keys from '/src/components/key.ts';
+
 Normally the TNP screen shows the "Home screen" which displays the
 connection status and IP address of the two Ethernet ports on the
 device. Buttons across the top allow you to configure the device. The
-\<Exit\> button always takes you back to the previous menu.
+<Keys.HardKey>Exit</Keys.HardKey> button always takes you back to the previous menu.
 
 ![TNP Home Screen](/docs/images/TNP-Home-Screen.png)
 

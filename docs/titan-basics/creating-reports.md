@@ -4,6 +4,8 @@ title: Creating Reports
 sidebar_label: Creating Reports
 ---
 
+import Keys from '/src/components/key.ts';
+
 When preparing a show it is often useful to create a report of how the
 show is patched or programmed on the console, for example to give to a
 crew when pre-rigging fixtures, or just for your records.
@@ -27,7 +29,7 @@ following:
 
 To generate reports:
 
-1. Press the \<Disk\> button.
+1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
 
 2. Press \[Reports\].
 

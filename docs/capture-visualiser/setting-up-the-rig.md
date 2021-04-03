@@ -4,20 +4,22 @@ title: Setting up the Rig
 sidebar_label: Setting up the Rig
 ---
 
+import Keys from '/src/components/key.ts';
+
 Setting up the Stage and Rigging
 --------------------------------
 
 To help you see what your rig will really look like you can add fixed
 elements of staging and rigging.
 
-Open the Capture Visualiser Settings window by double pressing \<Open/View\>,
-then select Visualiser Settings from the window select buttons (or you can use the \{Open Settings\} context button in the Capture window.)
+Open the Capture Visualiser Settings window by double pressing <Keys.HardKey>Open/View</Keys.HardKey>,
+then select Visualiser Settings from the window select buttons (or you can use the <Keys.ContextKey>Open Settings</Keys.ContextKey> context button in the Capture window.)
 Click the **Stage** tab.
 
 ![Capture Visualiser Settings Window](/docs/images/Capture-Visualiser-Settings-Window.png)
 
 **"Floor"** and **"Back Wall"** are provided by default. You can add other
-objects by clicking the \{+\} button at the bottom of the list.
+objects by clicking the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom of the list.
 
 Click on the object in the list on the left hand side to position and
 angle the object using the controls on the right. You can either type
@@ -39,14 +41,14 @@ used to help with this situation.
 
 Fixtures are positioned using the wheels. Select one or more fixtures
 using the [Fixture select or Group buttons](../controlling-fixtures.md#selecting-fixtures-and-dimmers-for-control)
-and turn them on by pressing [\<Locate\>](../controlling-fixtures.md#setting-fixtures-to-a-start-position-locate).
-Press the \{Position - Orientation\} context menu button to
+and turn them on by pressing [<Keys.HardKey>Locate</Keys.HardKey>](../controlling-fixtures.md#setting-fixtures-to-a-start-position-locate).
+Press the <Keys.ContextKey>Position - Orientation</Keys.ContextKey> context menu button to
 switch the wheels to Visualiser mode *(or press Softkey G at the top
 level menu until the display shows Wheels-Visualiser)*.
 
 Select <\Position\> attribute, then use the wheels to change the X/Y/Z
 position of the fixture(s). If you select multiple fixtures, pressing
-the \{Scale-Fan\} context menu button or the \<Fan\> button allows you to
+the <Keys.ContextKey>Scale-Fan</Keys.ContextKey> context menu button or the <Keys.HardKey>Fan</Keys.HardKey> button allows you to
 evenly spread out the fixtures. The [Fan curve/group/split options](../controlling-fixtures/changing-fixture-attributes.md#fan-mode) also
 work.
 
@@ -61,7 +63,7 @@ Axis | Action
 **Y** | moves up and down
 **Z** | moves towards and away from you
 
-Press \<Position\> again to switch the wheels to Orientation
+Press <Keys.HardKey>Position</Keys.HardKey> again to switch the wheels to Orientation
 mode. The wheels will now pivot the fixtures in the X/Y/Z axes. Again
 you can use the [**Fan**](../controlling-fixtures/changing-fixture-attributes.md#fan-mode) button to give a spread of angles on multiple
 fixtures.
@@ -77,7 +79,7 @@ enable you to achieve other angles.
 ![gimbal](/docs/images/Gimbal.jpeg)\
 *Illustration by MathsPoetry*
 
-Press \<Position\> a third time to switch the wheels to Rotation
+Press <Keys.HardKey>Position</Keys.HardKey> a third time to switch the wheels to Rotation
 mode. This is similar to Orientation but if you have multiple fixtures
 selected, the fixtures rotate as a group about the middle fixture.
 
@@ -94,11 +96,11 @@ The context menu buttons provide camera options.
 ![Capture Visualiser Workspace Window Context Menu](/docs/images/Capture-Visualiser-Workspace-Window-Context-Menu.png)
 
 Camera controls are in the [Capture Visualiser Settings window](#setting-up-the-stage-and-rigging) which you
-can open by double pressing \<Open/View\> to show the workspace window buttons, or using the \{Open
+can open by double pressing <Keys.HardKey>Open/View</Keys.HardKey> to show the workspace window buttons, or using the \{Open
 Settings\} context button.
 
 The view buttons across the top select the four default views *(shown below)*. Press the
-\{+\} button at the right hand side to add a new view.
+<Keys.ContextKey>+</Keys.ContextKey> button at the right hand side to add a new view.
 
 The top button on the left toggles between single view or quad split
 mode. If quad split is selected, the other 4 buttons select which view
@@ -118,11 +120,11 @@ The right hand pad can be set to rotate or orbit mode
 -   **Orbit:** orbits the camera around the stage in a circular path keeping
     it pointed at the same object.
 
-Press the \{Move Camera\} context button to link camera movement to the
+Press the <Keys.ContextKey>Move Camera</Keys.ContextKey> context button to link camera movement to the
 wheels. This also opens the **Set Coordinates** menu with softkeys allowing
 you to enter numeric camera positions.
 
-Press the \{Rotate Camera\} or \{Orbit Camera\} context buttons to link
+Press the <Keys.ContextKey>Rotate Camera</Keys.ContextKey> or <Keys.ContextKey>Orbit Camera</Keys.ContextKey> context buttons to link
 camera rotation or orbit to the wheels and allow numeric entry on the
 softkeys.
 

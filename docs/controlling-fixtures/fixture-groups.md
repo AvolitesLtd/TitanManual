@@ -4,6 +4,8 @@ title: Fixture Groups
 sidebar_label: Fixture Groups
 ---
 
+import Keys from '/src/components/key.ts';
+
 Using Fixture Groups
 --------------------
 
@@ -29,13 +31,13 @@ the buttons using [Key Profiles](../system-settings/key-profiles.md).
 [](https://youtu.be/E8QxOKT5TCA?t=20 "Recording Groups")
 
 If the Groups window is not visible, you can show it by pressing
-\<Open/View\>, \<Group\> (above numeric keys).
+<Keys.HardKey>Open/View</Keys.HardKey>, <Keys.HardKey>Group</Keys.HardKey> (above numeric keys).
 
 1. Select the fixtures/dimmers you want in the group (the order in
 which you select them will also be stored in the group).
 
-2. Press \<Group\> (top right of the numeric keys) then \[Record
-Group\]. You can also press \<Record\> then \<Group\>.
+2. Press <Keys.HardKey>Group</Keys.HardKey> (top right of the numeric keys) then \[Record
+Group\]. You can also press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Group</Keys.HardKey>.
 
 3. Use softkey A to enter a number for the group, or B \[Provide a
 legend\] to set a legend.
@@ -44,9 +46,9 @@ legend\] to set a legend.
 of a fader handle where you want to store the group, or 
 press \[Store\] to store as a numbered group.
 
-5. Press \<Clear\> then repeat from 1 to store other groups.
+5. Press <Keys.HardKey>Clear</Keys.HardKey> then repeat from 1 to store other groups.
 
--   You can also press \<Avo\> and \<Group\> to go directly to the
+-   You can also press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Group</Keys.HardKey> to go directly to the
     Record Group menu, or on the screen touch the button twice to use
     Quick Record - on the first touch the button will turn red with a
     +, on the second touch the group will be recorded.
@@ -65,34 +67,34 @@ press \[Store\] to store as a numbered group.
 
 -   You can also recall a group by its number:
 
-1. Press \<Group\>.
+1. Press <Keys.HardKey>Group</Keys.HardKey>.
 
 2. Type in the number of the group you want to recall.
 
 3. Press \[Recall Group\].
 
--   The \<Group\> button also gives you facilities on the softkeys to
+-   The <Keys.HardKey>Group</Keys.HardKey> button also gives you facilities on the softkeys to
     edit and delete groups.
 
--   You can use \<Select If\> to deselect a group of fixtures from a
+-   You can use <Keys.HardKey>Select If</Keys.HardKey> to deselect a group of fixtures from a
     selection. This can be useful to select a subset of fixtures from a
     group. For example if you have a group for the outside edges of a
     5x5 matrix, and a group which selects odd and even pixels from the
-    matrix, you can select the outside edge, then use \<Select If\> with
+    matrix, you can select the outside edge, then use <Keys.HardKey>Select If</Keys.HardKey> with
     the odd/even group to remove the alternate pixels round the edge.
 
 ### Deleting Fixtures from Groups
 
 To remove fixtures from a group:
 
-1. Press \<Group\>.
+1. Press <Keys.HardKey>Group</Keys.HardKey>.
 
 2. Press the button for the group you want to change. All fixtures
 currently in the group will be selected.
 
 3. Deselect the fixtures you want to remove from the group.
 
-4. Press \<Exit\>.
+4. Press <Keys.HardKey>Exit</Keys.HardKey>.
 
 The group will now only contain the fixtures which remained selected.
 
@@ -125,7 +127,7 @@ patterns.
 
 To change the numerical fixture order:
 
-1. Press \<Group\>.
+1. Press <Keys.HardKey>Group</Keys.HardKey>.
 
 2. Select the group you want to edit.
 
@@ -145,7 +147,7 @@ show an X indicating that it is not part of the sequence.
 
 To change the 2D fixture layout:
 
-1. Press \<Group\>
+1. Press <Keys.HardKey>Group</Keys.HardKey>
 
 2. Select the group you want to edit.
 

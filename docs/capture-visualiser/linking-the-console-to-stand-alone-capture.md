@@ -4,6 +4,8 @@ title: Linking the Console to Stand-Alone Capture
 sidebar_label: Linking the Console to Stand-Alone Capture
 ---
 
+import Keys from '/src/components/key.ts';
+
 Sometimes the extra capabilities of the full version of Capture are
 needed, and the console is linked to a PC running full Capture. The
 fixture patch details and fixture selection will sync between the
@@ -58,7 +60,7 @@ If fixtures have already been added in Capture before the console was
 linked, you can patch them on the console using Active Fixtures like
 this
 
-1. Press \<Patch\>, \[Active Fixtures\].
+1. Press <Keys.HardKey>Patch</Keys.HardKey>, \[Active Fixtures\].
 
 2. Select \[CITP Visualisers\].
 

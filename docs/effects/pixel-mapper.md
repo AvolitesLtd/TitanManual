@@ -4,6 +4,8 @@ title: Pixel Mapper
 sidebar_label: Pixel Mapper
 ---
 
+import Keys from '/src/components/key.ts';
+
 Creating Pixel Mapper effects
 -----------------------------
 
@@ -34,9 +36,9 @@ Overlay 50/50\] context menu button.
 
 ### Elements
 
-Click on the \{+\} button at the bottom to add an effect, and choose a
+Click on the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom to add an effect, and choose a
 graphic element. You can **remove** elements by selecting them and clicking
-on the \{Rubbish Bin\} button. The graphic buttons as shown below provide
+on the <Keys.ContextKey>Rubbish Bin</Keys.ContextKey> button. The graphic buttons as shown below provide
 the following elements to animate:
 
 -   Square
@@ -78,7 +80,7 @@ which will vary depending on the shape but may include:
 ### Animations
 
 Then with the graphic element selected on the left hand side, click on
-the \{+\} button again and choose an **Animation** (how your graphic element
+the <Keys.ContextKey>+</Keys.ContextKey> button again and choose an **Animation** (how your graphic element
 will move or change) or **Visual Effect** (which change the appearance of the element).
 The animated effect will show in the black window
 and be output to the fixtures You can add multiple animations which will
@@ -156,7 +158,7 @@ Some points about animations:
 
 If you don't have fixtures connected, you can see how the effect will
 look on the fixtures using the Pixel Mapper preview window - open it by
-double pressing \<Open/View\> then press \[Pixel Mapper
+double pressing <Keys.HardKey>Open/View</Keys.HardKey> then press \[Pixel Mapper
 Preview\] from the window select buttons. A real life view of each effect currently running is shown in
 a button at the bottom of the screen, you can select each of these by
 pressing the button.
@@ -220,7 +222,7 @@ Pixel Mapper Layer Masters
 
 You can assign each of the four layers to a master. The master allows
 you to adjust the layer controls in real time. When the master is
-assigned to a fader handle using \<Record\>, \[Create Master\], \[Pixel Mapper\],
+assigned to a fader handle using <Keys.HardKey>Record</Keys.HardKey>, \[Create Master\], \[Pixel Mapper\],
 selecting \[Layer 1\] through \[Layer 4\] and finally pressing a handle select key,
 the fader will control opacity of the layer.
 
