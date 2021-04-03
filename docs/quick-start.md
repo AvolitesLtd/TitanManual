@@ -11,7 +11,7 @@ consoles. Each section has a link to take you to the appropriate manual
 section for more details.
 
 - <Keys.HardKey>This</Keys.HardKey> indicates a physical buttons on the console *(or <Keys.HardKey>Avo</Keys.HardKey> for red keys)*
-- \[This\] indicates a softkey option on the touchscreen (the A-G menu buttons)
+- <Keys.SoftKey>This</Keys.SoftKey> indicates a softkey option on the touchscreen (the A-G menu buttons)
 - <Keys.ContextKey>This</Keys.ContextKey> indicates an option in a context menu 
 
 Most functions on Titan use the Workspace Windows shown on the touch screen(s).

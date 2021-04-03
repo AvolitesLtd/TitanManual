@@ -55,7 +55,7 @@ the DHCP server. Take note of the name of the wireless network (SSID).
 point.
 
 3. Set the IP address of the console: from the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), select
-\[Network Settings\], press \[Local Area Connection\], then press \[Set
+<Keys.SoftKey>Network Settings</Keys.SoftKey>, press <Keys.SoftKey>Local Area Connection</Keys.SoftKey>, then press \[Set
 IP 10.\*.\*.\*\].
 
 4. On the mobile device, go to WiFi settings or Network Settings and

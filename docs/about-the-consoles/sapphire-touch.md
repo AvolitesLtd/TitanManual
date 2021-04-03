@@ -5,6 +5,8 @@ sidebar_label: Sapphire Touch
 description: Sapphire Touch - console design and features
 ---
 
+import Keys from '/src/components/key.ts';
+
 ![Sapphire Touch](/docs/images/Sapphire-Touch.png)The Sapphire Touch has four main control
 areas:
 
@@ -39,7 +41,7 @@ doing.
 \(G\) The **Menu Softkeys** (labelled A - G) are used to select control
 options. The options for each key change depending on what the console
 is doing. Softkey commands are shown in the manual
-like this: \[Edit Times\]
+like this: <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 ![Sapphire Front 2](/docs/images/Sapphire-Front-2.png)
 

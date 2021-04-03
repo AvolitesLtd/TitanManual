@@ -15,12 +15,12 @@ Titan using keypad syntax and this is how you do it.
 - The <Keys.HardKey>@</Keys.HardKey> button is the one next to the numeric keypad.
 - The <Keys.HardKey>Cue</Keys.HardKey> button is labelled <Keys.HardKey>Connect</Keys.HardKey> or <Keys.HardKey>Connect/Cue</Keys.HardKey> on some consoles.
 - The <Keys.HardKey>Thru</Keys.HardKey> button is labelled <Keys.HardKey>Thru</Keys.HardKey> or <Keys.HardKey>Through</Keys.HardKey> on some consoles.
-- The <Keys.HardKey>And</Keys.HardKey> and <Keys.HardKey>Thru</Keys.HardKey> buttons are not provided as fixed buttons on some consoles, softkey \[And\] and \[Through\] options are provided instead.
+- The <Keys.HardKey>And</Keys.HardKey> and <Keys.HardKey>Thru</Keys.HardKey> buttons are not provided as fixed buttons on some consoles, softkey <Keys.SoftKey>And</Keys.SoftKey> and <Keys.SoftKey>Through</Keys.SoftKey> options are provided instead.
 
 Dimmers/Fixtures have a User Number *(which is equivalent to the Channel
 Number on other consoles)*, shown in the top left corner of the fixture
 button. This is the number **n** shown in the keypad commands below. You can
-change this number using the \[Set Legend\] softkey, see section [Changing the Patch](../patching/changing-the-patch.md#setting-legends).
+change this number using the <Keys.SoftKey>Set Legend</Keys.SoftKey> softkey, see section [Changing the Patch](../patching/changing-the-patch.md#setting-legends).
 Groups also have a User Number.
 
 ![Fixtures Window showing user numbers](/docs/images/Fixtures-Window-showing-user-numbers.png)
@@ -58,14 +58,14 @@ Once you have selected the fixtures:
 ## Programming Cues
 
 Titan can have multiple cue lists. To start a cue list press <Keys.HardKey>Record</Keys.HardKey>
-then select \[Create Cue List\] from the touch screen. Then press a **Select**
+then select <Keys.SoftKey>Create Cue List</Keys.SoftKey> from the touch screen. Then press a **Select**
 button above the fader where you want to store the cue list.
 
 Titan will record into the cue only the dimmers/fixtures you have changed
 since you last pressed <Keys.HardKey>Clear</Keys.HardKey>, and that have changed from the
 previous cue *(so if you put up another playback, that won't get
 recorded)*. To record everything with intensity above zero, switch
-\[Record Mode\] to "Record by Stage" (see [Creating a Cue](../cues/creating-a-cue.md#creating-a-cue)).
+<Keys.SoftKey>Record Mode</Keys.SoftKey> to "Record by Stage" (see [Creating a Cue](../cues/creating-a-cue.md#creating-a-cue)).
 
  Keypresses | Action
 ------------|-------------------
@@ -81,18 +81,18 @@ recorded)*. To record everything with intensity above zero, switch
 - For the **copy** commands, you can use <Keys.HardKey>Move</Keys.HardKey> in place of <Keys.HardKey>Copy</Keys.HardKey>to **move** cues. For consoles
   which don't have a <Keys.HardKey>Move</Keys.HardKey> button you can press (<Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Copy</Keys.HardKey>) together to get Move.
 
-- You can select multiple cues using <Keys.HardKey>Thru</Keys.HardKey>, <Keys.HardKey>And</Keys.HardKey> and \[Not\]. For example to copy cues 3, 4 ,5 ,7, 10
+- You can select multiple cues using <Keys.HardKey>Thru</Keys.HardKey>, <Keys.HardKey>And</Keys.HardKey> and <Keys.SoftKey>Not</Keys.SoftKey>. For example to copy cues 3, 4 ,5 ,7, 10
   into a new block of cues starting at cue 20 you could do \
-  <Keys.HardKey>Copy</Keys.HardKey> <Keys.ContextKey>fader select</Keys.ContextKey> **3** <Keys.HardKey>Thru</Keys.HardKey> **7** \[Not\] **6** <Keys.HardKey>And</Keys.HardKey> **10** <Keys.HardKey>@</Keys.HardKey> **20** <Keys.HardKey>Enter</Keys.HardKey>
+  <Keys.HardKey>Copy</Keys.HardKey> <Keys.ContextKey>fader select</Keys.ContextKey> **3** <Keys.HardKey>Thru</Keys.HardKey> **7** <Keys.SoftKey>Not</Keys.SoftKey> **6** <Keys.HardKey>And</Keys.HardKey> **10** <Keys.HardKey>@</Keys.HardKey> **20** <Keys.HardKey>Enter</Keys.HardKey>
 
 - To make a **Block** cue (changes from previous cues do not track), view the cue list as above,
 	in the Tracking column click the cell for the cue you want to change and
-	select \[Block\] from the softkeys.
+	select <Keys.SoftKey>Block</Keys.SoftKey> from the softkeys.
 
 - To [link cues](cue-list-timing.md#cue-linking--link-offset) so they automatically run after each other,
 	the easiest way is on the screen. Click on the "Link" cell
 	(which normally shows "Wait For Go". Then select from the softkeys
-	\[Link After Previous Cue\] or \[Link With Previous Cue\]. For Link
+	<Keys.SoftKey>Link After Previous Cue</Keys.SoftKey> or <Keys.SoftKey>Link With Previous Cue</Keys.SoftKey>. For Link
 	After, set the "Delay Out" time to set how long the cue will remain
 	before the next cue starts.
 
@@ -110,7 +110,7 @@ such as Go will operate on this cue list.
 **n** <Keys.HardKey>Cue</Keys.HardKey> **t** <Keys.HardKey>Go</Keys.HardKey> | Jump to cue **n** with fade time **t**
 
 -   If you want moving fixtures to automatically position themselves ready
-    for the next cue, enable the \[Move In Dark\] option, see [Move In Dark](cue-list-options.md#move-in-dark).
+    for the next cue, enable the <Keys.SoftKey>Move In Dark</Keys.SoftKey> option, see [Move In Dark](cue-list-options.md#move-in-dark).
     This option is Off by default.
 
 ## Editing Cues While Running
@@ -131,10 +131,10 @@ easy:
 
 1. Select fixtures for control
 
-2. At the top level menu press \[Shapes and Effects\], \[Shape
-    Generator\], \[Create\]
+2. At the top level menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, \[Shape
+    Generator\], <Keys.SoftKey>Create</Keys.SoftKey>
 
-3. Select the type of shape \[Dimmer\], \[Pan/Tilt\] etc
+3. Select the type of shape <Keys.SoftKey>Dimmer</Keys.SoftKey>, <Keys.SoftKey>Pan/Tilt</Keys.SoftKey> etc
 
 4. Select a shape from the softkeys *or from the Shapes window which
     appears*

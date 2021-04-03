@@ -35,18 +35,18 @@ add more fixtures to the selection.
     can keep copying or moving things without having to keep pressing
     the <Keys.HardKey>Copy</Keys.HardKey> or <Keys.HardKey>Move</Keys.HardKey> button. Press again to unlatch.
 
--   The \[Retain Layout\] or \[Bunch Up\] option is used when copying a
+-   The <Keys.SoftKey>Retain Layout</Keys.SoftKey> or <Keys.SoftKey>Bunch Up</Keys.SoftKey> option is used when copying a
     group of fixtures with empty handles in the group - you can either
     keep the empty handles, or bunch up the used handles together. There
-    is also a \[Bunch Up With Offset\] option which allows you to leave
+    is also a <Keys.SoftKey>Bunch Up With Offset</Keys.SoftKey> option which allows you to leave
     a gap in the DMX channels, if you are running a show where you need
     to exchange fixtures to ones which use more DMX channels.
 
--   When in Copy mode, option \[Copy Legends\] can be changed to \[Don't
+-   When in Copy mode, option <Keys.SoftKey>Copy Legends</Keys.SoftKey> can be changed to \[Don't
     copy legends\] so that the copied fixtures are given default
     legends.
 
--   When in Move mode, \[Swap Items if Required\] will attempt to
+-   When in Move mode, <Keys.SoftKey>Swap Items if Required</Keys.SoftKey> will attempt to
     reposition any existing handles which are in the way of the move.
     This is useful when rearranging buttons on a page which is nearly
     full.

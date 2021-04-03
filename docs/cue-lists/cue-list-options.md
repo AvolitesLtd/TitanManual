@@ -7,7 +7,7 @@ sidebar_label: Cue List Options
 import Keys from '/src/components/key.ts';
 
 Cue list options are set from the playback [Options](../cues/playback-options.md). 
-Press <Keys.HardKey>Options</Keys.HardKey> (or the \[Options\] softkey on the top level menu) then the **Select** button for the cue list you wish to edit.
+Press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey on the top level menu) then the **Select** button for the cue list you wish to edit.
 
 You can also set the cue list options from the Cue List View window by pressing <Keys.HardKey>Open/View</Keys.HardKey>
 then the **Select** button of the cue list, then click the **Options** tab.

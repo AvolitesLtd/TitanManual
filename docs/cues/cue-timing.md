@@ -33,21 +33,21 @@ be recorded when you save the cue.
 
 You can also edit times of a cue you have already saved like this:
 
-1. Press \[Edit Times\] at the top level menu
+1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> at the top level menu
 
 2. Press the **Select** button of the cue
 
-3. Press \[Fade Mode x\] to set the cue mode.\
+3. Press <Keys.SoftKey>Fade Mode x</Keys.SoftKey> to set the cue mode.\
 *This sets how the times are used, [see below](#fade-modes).*
 
-4. Press \[Delay time\] to set the delay before the cue starts, \[Fade
-time\] to set the fade-in time of the cue, and \[Fade out time\] to set
+4. Press <Keys.SoftKey>Delay time</Keys.SoftKey> to set the delay before the cue starts, \[Fade
+time\] to set the fade-in time of the cue, and <Keys.SoftKey>Fade out time</Keys.SoftKey> to set
 the fade-out time of the cue.
 
 5. Type the new time (in seconds) using the numeric keypad and press
 <Keys.HardKey>Enter</Keys.HardKey> to save it.
 
-6. Press \[Fixture Overlap\] to change the overlap, then enter **0 - 100** on
+6. Press <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> to change the overlap, then enter **0 - 100** on
 the keypad.\
 **100%** means all fixtures fade together.\
 **0%** means that the first fixture will finish its fade before the next one starts.\
@@ -74,20 +74,20 @@ can change this, see [Changing Fixture Order](#changing-fixture-order))*.
 ### Fade Modes
 
 The times you enter are affected by the cue mode which is set using the
-\[Fade Mode\] option. This option can also be set from playback \[Options\],
-\[Fader\]:
+<Keys.SoftKey>Fade Mode</Keys.SoftKey> option. This option can also be set from playback <Keys.SoftKey>Options</Keys.SoftKey>,
+<Keys.SoftKey>Fader</Keys.SoftKey>:
 
--   \[Mode 0\] - Channels will fade in as set by the fade time. The Fade
+-   <Keys.SoftKey>Mode 0</Keys.SoftKey> - Channels will fade in as set by the fade time. The Fade
     Out time is ignored. If times are set to zero, the HTP channels fade
     in with the 0-100% position of the playback fader and the LTP
     channels will snap.
 
--   \[Mode 1\] - Channels fade in as set by the fade time. HTP channels fade
+-   <Keys.SoftKey>Mode 1</Keys.SoftKey> - Channels fade in as set by the fade time. HTP channels fade
     out as set by the fade out times (LTP channels remain as set in the
     cue). If times are set to zero, the HTP levels will fade in and out
     with the fader and the LTP channels will snap when the cue is fired.
 
--   \[Mode 2\] - Channels will fade in as set by the fade time. The Fade
+-   <Keys.SoftKey>Mode 2</Keys.SoftKey> - Channels will fade in as set by the fade time. The Fade
     Out time is ignored. However, the fade will stop when the fader
     position is reached, so if the fader is set to 50%, the attributes
     will stop half way to their programmed position. You can reverse the
@@ -100,14 +100,14 @@ The times you enter are affected by the cue mode which is set using the
     a spot across a stage or down a catwalk using the fader position, or
     for colour mixing using RGB fixtures.*
 
--   \[Mode 3\] - Crossfade cue. All channels, including intensity channels,
+-   <Keys.SoftKey>Mode 3</Keys.SoftKey> - Crossfade cue. All channels, including intensity channels,
     will fade to the settings in the new cue. All other cues fade out
     and all other active playbacks become inactive; if you need to
     re-fire a playback, take the fader to zero and put it up again.
 
 >   If the cue includes shapes, then the shape will change with fade
-    times. The changes will be timed for a \[Mode 1\] cue and controlled by
-    the fader position for a \[Mode 2\] cue. This allows you to create a
+    times. The changes will be timed for a <Keys.SoftKey>Mode 1</Keys.SoftKey> cue and controlled by
+    the fader position for a <Keys.SoftKey>Mode 2</Keys.SoftKey> cue. This allows you to create a
     shape which gets bigger or faster as you push up the fader.
 
 Changing Fixture Order
@@ -120,16 +120,16 @@ you might want to change this *(for example to pair up
 fixtures so they move together when using
 [Fixture Overlap](#fade-times-and-fixture-overlap))*.
 
-1. Press \[Edit Times\] at the top level menu
+1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> at the top level menu
 
 2. Press the **Select** button of the cue to be changed
 
-3. Press \[Fixture Order\]
+3. Press <Keys.SoftKey>Fixture Order</Keys.SoftKey>
 
-4. Set the sequence number to start from by pressing \[Step Number\]
+4. Set the sequence number to start from by pressing <Keys.SoftKey>Step Number</Keys.SoftKey>
 
 5. If you want the sequence number to increase automatically, set
-\[Autoincrement\] to **On**. If you want some fixtures to have the same
+<Keys.SoftKey>Autoincrement</Keys.SoftKey> to **On**. If you want some fixtures to have the same
 sequence number, set it to **Off**.
 
 6. Touch the **Select** buttons of the fixture(s) you want to place in that
@@ -147,7 +147,7 @@ hand corner of the fixture select touch buttons.
     the same thing at the same time.
 
 -   You can remove a fixture from the sequence by turning off
-    \[Autoincrement\] and pressing the fixture button twice. The fixture
+    <Keys.SoftKey>Autoincrement</Keys.SoftKey> and pressing the fixture button twice. The fixture
     sequence will show X. Touch the button again to put it back in the
     sequence.
 
@@ -159,17 +159,17 @@ Position). If you set a time, it overrides the normal times.
 
 To set an attribute group fade time:
 
-1. Press \[Edit Times\] at the top level menu
+1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> at the top level menu
 
 2. Press the **Select** button of the cue to be changed
 
 3. Press the Attribute Bank button (IPCGBES buttons, or attribute keys 
 on the right hand side on older consoles) for the attribute you want to change
 
-4. Press \[Delay = \] to set delay time or \[Fade = \] to set fade time
+4. Press <Keys.SoftKey>Delay = </Keys.SoftKey> to set delay time or <Keys.SoftKey>Fade = </Keys.SoftKey> to set fade time
 
 5. Type the new time using the numeric keypad and press <Keys.HardKey>Enter</Keys.HardKey> to
-save it, or press \[Use Global\] to delete the attribute times and go
+save it, or press <Keys.SoftKey>Use Global</Keys.SoftKey> to delete the attribute times and go
 back to the normal times.
 
 6. Press <Keys.HardKey>Enter</Keys.HardKey> to save the changes.
@@ -234,7 +234,7 @@ times.
 [](https://youtu.be/GHq9b3PT8U0?t=20 "Timing Syntax")
 
 Individual attribute times can also be set from the wheels, using the
-\[Wheels\] softkey option on the root menu.
+<Keys.SoftKey>Wheels</Keys.SoftKey> softkey option on the root menu.
 
 Using the <Keys.HardKey>Options</Keys.HardKey> button while showing the times allows you to set
 the **Speed**, **Effect Multiplier**, **Speed Multiplier** and **speed source** in the

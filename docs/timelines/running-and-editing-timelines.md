@@ -94,10 +94,10 @@ You can move playback blocks to a different time or a different track in the Tim
 
 - You can move individual triggers within the same track by selecting them then using Wheel A to move them to the desired time.
 
-You can also copy playback blocks within the Timeline View. Copied playbacks will be a reference (linked copy) of the original, unless you change this using the softkey option \[Create New Playbacks\].
+You can also copy playback blocks within the Timeline View. Copied playbacks will be a reference (linked copy) of the original, unless you change this using the softkey option <Keys.SoftKey>Create New Playbacks</Keys.SoftKey>.
 1. Press <Keys.HardKey>Copy</Keys.HardKey>.
 2. Tap on the playback block to copy, or draw a marquee selection box over the playbacks to be copied
-3. Choose whether you want to have referenced/linked copies, using the softkey options \[Create New Playbacks\] and \[Use Referenced Playbacks\].
+3. Choose whether you want to have referenced/linked copies, using the softkey options <Keys.SoftKey>Create New Playbacks</Keys.SoftKey> and <Keys.SoftKey>Use Referenced Playbacks</Keys.SoftKey>.
 4. Tap in the Timeline View at the time and track where you want to copy the selected playback(s). 
 
 ### Deleting playbacks in a Timeline
@@ -114,13 +114,13 @@ If a halo colour is set for a playback, that colour will be used in the Timeline
 
 ![Timeline halo](/docs/images/Timeline-Halo.png)
 
-1. Press \[Set Legend\] at the top level main menu.
+1. Press <Keys.SoftKey>Set Legend</Keys.SoftKey> at the top level main menu.
 2. Tap on the Track legend or the playback row in the Timeline View.
-3. Change \[Legend\] to set the track legend or press \[Halo\].
+3. Change <Keys.SoftKey>Legend</Keys.SoftKey> to set the track legend or press <Keys.SoftKey>Halo</Keys.SoftKey>.
 4. Select a halo colour from the colour picker.
 
-- You can remove a halo colour by pressing \[Remove Halo\] at step 4.
-- You can also set legends on markers using the \[Set Legend\] button.
+- You can remove a halo colour by pressing <Keys.SoftKey>Remove Halo</Keys.SoftKey> at step 4.
+- You can also set legends on markers using the <Keys.SoftKey>Set Legend</Keys.SoftKey> button.
 - You can set a halo colour for a **Wait for Go** trigger by tapping on it at step 2.
 
 ### Snap options

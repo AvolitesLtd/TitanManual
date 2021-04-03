@@ -6,10 +6,10 @@ sidebar_label: User Settings
 
 import Keys from '/src/components/key.ts';
 
-The User Settings menu may be accessed from the \[User Settings\] softkey
+The User Settings menu may be accessed from the <Keys.SoftKey>User Settings</Keys.SoftKey> softkey
 on the **System** menu. You can also get it directly from any other
 menu by holding down the <Keys.HardKey>Avo</Keys.HardKey> button and pressing
-\[User Settings\].
+<Keys.SoftKey>User Settings</Keys.SoftKey>.
 
 ![User Settings Window](/docs/images/User-Settings-Window.png)
 
@@ -70,7 +70,7 @@ Allows you to select and edit key profiles using the softkeys. See [Key Profiles
 Warn Before Parking Fixtures | Sets the console action when you patch a fixture which overwrites the DMX channels of another fixture. This causes the overwritten fixture to be "parked".<br/> ***Always:*** console will warn you.<br/>*Never:* console will park the fixture without warning you. See [Parked fixtures](../patching/patching-new-fixtures-or-dimmers.md#parked-fixtures)
 DMX Address                  | Sets whether the DMX address of fixtures is shown in the fixture touch buttons.
 Auto Groups                  | Sets whether the console will automatically create new groups for fixtures when you patch. See [Auto Groups](../controlling-fixtures/fixture-groups.md#auto-groups).
-Preset Palettes              | Sets whether preset palettes should be created when fixtures are patched. You can also turn this on when patching using the \[Create Preset Palettes\] softkey.<br/>***Do Not Create:*** no palettes will be created.<br/>*Create On Workspaces:* palettes will be created in Colour/Gobo/Position workspace windows.<br/>*Create On Presets:* palettes will be created on preset buttons. This option only works for Pearl Expert.
+Preset Palettes              | Sets whether preset palettes should be created when fixtures are patched. You can also turn this on when patching using the <Keys.SoftKey>Create Preset Palettes</Keys.SoftKey> softkey.<br/>***Do Not Create:*** no palettes will be created.<br/>*Create On Workspaces:* palettes will be created in Colour/Gobo/Position workspace windows.<br/>*Create On Presets:* palettes will be created on preset buttons. This option only works for Pearl Expert.
 
 ## Times
 

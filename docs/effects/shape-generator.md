@@ -43,16 +43,16 @@ When you create a shape, it will be applied to all selected fixtures.
 
 1. [Select the fixtures](../controlling-fixtures.md#selecting-fixtures-and-dimmers-for-control) the shape is to be applied to.
 
-2. At the main menu press \[Shapes and Effects\] then \[Shape
+2. At the main menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then \[Shape
 Generator\].
 
-3. Press \[Create\] to start a new shape
+3. Press <Keys.SoftKey>Create</Keys.SoftKey> to start a new shape
 ![Shape Generator selecting a category of new shape](/docs/images/Shape-Generator-selecting-a-category-of-new-shape.png).
 
-4. Press a \[softkey\] to select the attribute type to use in the shape or
-press \[All\] for a full list.
+4. Press a <Keys.SoftKey>softkey</Keys.SoftKey> to select the attribute type to use in the shape or
+press <Keys.SoftKey>All</Keys.SoftKey> for a full list.
 
-5. Press a \[softkey\] to select a shape, or touch the desired shape in the
+5. Press a <Keys.SoftKey>softkey</Keys.SoftKey> to select a shape, or touch the desired shape in the
 **Shapes window**. You can type a search word on the keyboard to search for
 a particular shape.
 
@@ -61,7 +61,7 @@ a particular shape.
 ---
 
 -   If you open the Shapes window, it will remain open for instant
-    selection of shapes (you don't need to select \[Shape Generator\]).
+    selection of shapes (you don't need to select <Keys.SoftKey>Shape Generator</Keys.SoftKey>).
     The window will only show shapes which are possible on the selected
     fixtures. Pressing attribute buttons will filter the Shapes window
     to show only shapes for that attribute. Press the <Keys.HardKey>Dimmer</Keys.HardKey>
@@ -83,7 +83,7 @@ a particular shape.
     procedure. You can run several shapes on one fixture and the output
     will combine in interesting ways.
 
--   Press \[Shapes and Effects\], \[Shape Generator\] then \[Edit\] to
+-   Press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, <Keys.SoftKey>Shape Generator</Keys.SoftKey> then <Keys.SoftKey>Edit</Keys.SoftKey> to
     show what shapes are running.
 
 -   If you apply the same shape to two different groups of fixtures, the
@@ -95,10 +95,10 @@ a particular shape.
     given the option to run the shape on the main fixture, keeping all
     cells identical, or spread across the sub-fixtures/cells. The options
     are:
-    -   \[Run on Super Fixtures\] - cells are ignored, fixture operates as one
+    -   <Keys.SoftKey>Run on Super Fixtures</Keys.SoftKey> - cells are ignored, fixture operates as one
     block
-    -   \[Run on Sub Fixtures (Linear)\] - the cells are used in numerical order
-    -   \[Run on Sub Fixtures (Group)\] - the layout of the cells is used as
+    -   <Keys.SoftKey>Run on Sub Fixtures (Linear)</Keys.SoftKey> - the cells are used in numerical order
+    -   <Keys.SoftKey>Run on Sub Fixtures (Group)</Keys.SoftKey> - the layout of the cells is used as
     programmed in the [Layout Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) for the group
 
 -   Each shape is designed to work on a particular attribute. Obviously
@@ -115,7 +115,7 @@ Changing Size and Speed of a Shape
 
 It is easy to change the size and speed of a shape after it has first
 been created. If the display above the wheels is showing Spread and
-Offset rather than Size/Speed, press \[Adjust Speed, Size and Spread\].
+Offset rather than Size/Speed, press <Keys.SoftKey>Adjust Speed, Size and Spread</Keys.SoftKey>.
 
 ![Shape Wheel Attribute Controls for Speed, Size & Spread](/docs/images/Shape-Wheel-Attribute-Controls-for-Speed-Size-Spread.png)
 
@@ -153,13 +153,13 @@ of selecting the same thing.
 
 The sequence of the shape across the fixtures is controlled by the order
 in which you selected the fixtures when you created the shape. You can
-edit the order by selecting \[Fixture Order\] in the Shape Edit menu.
+edit the order by selecting <Keys.SoftKey>Fixture Order</Keys.SoftKey> in the Shape Edit menu.
 
 1. If the right hand wheel isn't showing Spread, press \[Adjust Speed,
 Size and Spread\]
 
 2. Control the **Spread** of the shape using the right hand wheel, or to
-set in terms of Phase, press \[Adjust Spread, Phase and Offset\] and
+set in terms of Phase, press <Keys.SoftKey>Adjust Spread, Phase and Offset</Keys.SoftKey> and
 use the middle wheel.
 
 Spread = **12** *(Phase = 30 degrees)*:
@@ -191,13 +191,13 @@ shapes to have a Phase Offset of 180 degrees.* Without the phase offset,
 both shapes would reach full at the same time.
 
 >   After adjusting offset or phase, it is useful to **Restart** the shape so
-    you can see how it will look when fired from a cue. Press \[Restart Shapes\]
+    you can see how it will look when fired from a cue. Press <Keys.SoftKey>Restart Shapes</Keys.SoftKey>
     on the shape Edit menu.
 
 Shape Direction
 ---------------
 
-The \[Direction\] softkey opens a menu allowing you to set a direction
+The <Keys.SoftKey>Direction</Keys.SoftKey> softkey opens a menu allowing you to set a direction
 for the shape. If you have defined a
 [2D layout for the group](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)
 this allows you to have shapes that visibly
@@ -209,25 +209,25 @@ button, to allow you to try different options and see the effects.
 Beat and Cycles
 ---------------
 
-The \[Adjust Beat and Cycles\] option lets you set on the wheels how the
+The <Keys.SoftKey>Adjust Beat and Cycles</Keys.SoftKey> option lets you set on the wheels how the
 programmed speed will trigger the shape, and how many times the shape
 will run.
 
 ### Beats
 
-The Beats option defaults to \[Beats=1\] which makes the shape run at
+The Beats option defaults to <Keys.SoftKey>Beats=1</Keys.SoftKey> which makes the shape run at
 normal speed. Higher numbers will divide the count, for example
-\[Beats=4\] will make the shape run at quarter of the speed. This is
+<Keys.SoftKey>Beats=4</Keys.SoftKey> will make the shape run at quarter of the speed. This is
 really useful to synchronise different types of shapes which are running
 together.
 
 Clicking the middle of the wheel roller image on screen or pressing <Keys.HardKey>@A</Keys.HardKey>
 for **Wheel A** allows you to type in a number for the Beats parameter, and
-also shows two further options for Beats: \[Match to Spread\] sets the
+also shows two further options for Beats: <Keys.SoftKey>Match to Spread</Keys.SoftKey> sets the
 beat count to be the same as the current Spread setting for the shape.
 This is useful when using dimmer shapes with movement shapes as it will
 make each fixture turn on for a full cycle of the movement shape. The
-\[Custom\] option resets the \[Value\] option to the last entered value.
+<Keys.SoftKey>Custom</Keys.SoftKey> option resets the <Keys.SoftKey>Value</Keys.SoftKey> option to the last entered value.
 
 ### Cycles
 
@@ -263,25 +263,25 @@ Masking shapes using Mask FX
 It is often useful to be able to partially or completely stop a running shape, for example
 to freeze the look at the end of a song or to modify the look for different moments.
 
-The \[Mask FX\] softkey on the Shapes and Effects menu allows you to record a mask which will
+The <Keys.SoftKey>Mask FX</Keys.SoftKey> softkey on the Shapes and Effects menu allows you to record a mask which will
 stop shapes (both normal shapes and key frame shapes). The mask can be set to stop all shapes on all fixtures, or only shapes controlling certain attributes. You 
 can also select certain fixtures for the mask and leave other fixtures unaffected.
 
 To create a mask:
 
-1.	Press \[Mask FX\] on the Shapes and Effects menu (Diamond 9 has a dedicated <Keys.HardKey>Mask FX</Keys.HardKey> button - press twice to turn all attributes on in the mask).
+1.	Press <Keys.SoftKey>Mask FX</Keys.SoftKey> on the Shapes and Effects menu (Diamond 9 has a dedicated <Keys.HardKey>Mask FX</Keys.HardKey> button - press twice to turn all attributes on in the mask).
 
 2.	The Attribute Bank buttons (Position, Colour etc) will flash. Choose which attributes you want to mask
 	by toggling the buttons on and off.
 	
 3.	If no fixtures are selected the mask will apply to all fixtures. If you only want it to apply to certain fixtures, select them now.
 
-4.	Press \[Create Mask Shape\]. (The \[Create Mask FX\] button will mask both shapes and pixel map effects.)
+4.	Press <Keys.SoftKey>Create Mask Shape</Keys.SoftKey>. (The <Keys.SoftKey>Create Mask FX</Keys.SoftKey> button will mask both shapes and pixel map effects.)
 
 5.	You should see the mask taking effect on the output - if you store it in a playback, the playback
 	will stop the shapes it's set to mask while it is active.
 	
-- The \[Clear mask from programmer\] button will remove any mask shapes or mask effects from the programmer for all fixtures.
+- The <Keys.SoftKey>Clear mask from programmer</Keys.SoftKey> button will remove any mask shapes or mask effects from the programmer for all fixtures.
 
 - This function replaces the **Block Shapes** function of previous versions. Shows containing Block Shapes from previous versions
   will load and work as expected, but the block shapes will be renamed "Mask".

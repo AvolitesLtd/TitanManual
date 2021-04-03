@@ -23,7 +23,7 @@ the changes and saving the new information on top of the cue.
 
 5. Press the playback **Select** button for the cue you are editing.
 
-6. Press \[Merge\] *(the cue being edited is highlighted on the screen)*.
+6. Press <Keys.SoftKey>Merge</Keys.SoftKey> *(the cue being edited is highlighted on the screen)*.
 
 7. The console will merge the existing cue with your changes. Unchanged
 information is not affected.
@@ -31,17 +31,17 @@ information is not affected.
 ---
 
 -   If you want to overwrite the cue entirely, use the option
-    \[Replace\] at step 6 - but remember that unless you are in **"Record
+    <Keys.SoftKey>Replace</Keys.SoftKey> at step 6 - but remember that unless you are in **"Record
     by Stage"** mode, any fixtures you haven't changed won't be saved.
 
 -   To speed up editing, you can set the console to "Always Merge" the
     cue. This option is set in the
     [Handles tab](../system-settings/user-settings.md#prompt-replace) of
     [User Settings](../system-settings/user-settings.md) (press
-    <Keys.HardKey>Avo</Keys.HardKey> and select \[User Settings\]).
+    <Keys.HardKey>Avo</Keys.HardKey> and select <Keys.SoftKey>User Settings</Keys.SoftKey>).
 
 -   You can also press the **Select** button for the cue a second time to
-    select the **"Merge"** option (quicker than selecting the softkey \[Merge\]
+    select the **"Merge"** option (quicker than selecting the softkey <Keys.SoftKey>Merge</Keys.SoftKey>
     option).
 
 Updating Stored Values and Palettes used in a Cue
@@ -59,7 +59,7 @@ For instant update of a fired cue, change the fixture settings and press
 settings you want to store.
 
 2. Press <Keys.HardKey>Update</Keys.HardKey> *(on consoles without an Update button press
-<Keys.HardKey>Record Cue</Keys.HardKey>, \[Update\])*.
+<Keys.HardKey>Record Cue</Keys.HardKey>, <Keys.SoftKey>Update</Keys.SoftKey>)*.
 
 3. Press <Keys.HardKey>Enter</Keys.HardKey> to immediately store the new values to the cue.
 
@@ -107,22 +107,22 @@ timing related information.
 ### Filter Columns
 
 You can configure which columns are shown in the Playback View using the
-\[Edit Columns\] context menu button. Once you have set a view you can
+<Keys.SoftKey>Edit Columns</Keys.SoftKey> context menu button. Once you have set a view you can
 save it to a filter button which appears below the Times button on the
 left.
 
-1. Press \[Edit Columns\] on the context menu.
+1. Press <Keys.SoftKey>Edit Columns</Keys.SoftKey> on the context menu.
 
 2. Using the softkeys, enable or disable the columns to get the view
 you want.
 
-3. Press <Keys.HardKey>Record</Keys.HardKey>. An \[Add\] button will appear at the bottom of the
+3. Press <Keys.HardKey>Record</Keys.HardKey>. An <Keys.SoftKey>Add</Keys.SoftKey> button will appear at the bottom of the
 screen.
 
-4. Press the \[Add\] button to create a filter button for this view.
+4. Press the <Keys.SoftKey>Add</Keys.SoftKey> button to create a filter button for this view.
 
 5. You can set a legend and colour halo for the filter button using the
-normal \[Set Legend\] function.
+normal <Keys.SoftKey>Set Legend</Keys.SoftKey> function.
 
 6. You can delete filter buttons by pressing <Keys.HardKey>Delete</Keys.HardKey> then the
 button.
@@ -130,7 +130,7 @@ button.
 ### Cue View
 
 If you touch the View button at the right hand end of the row or the
-\[View Cue\] context button, the Cue View window opens, showing you
+<Keys.SoftKey>View Cue</Keys.SoftKey> context button, the Cue View window opens, showing you
 details of the settings individual timings for all the fixtures in the
 cue.
 
@@ -172,11 +172,11 @@ you can directly edit values by typing numeric values and pressing
 <Keys.HardKey>Enter</Keys.HardKey>
 
 3. You can turn attributes On and Off using the <Keys.HardKey>Off</Keys.HardKey> button and the
-\[On\] softkey. Off temporarily removes a value from the cue, it can
-later be restored using \[On\].
+<Keys.SoftKey>On</Keys.SoftKey> softkey. Off temporarily removes a value from the cue, it can
+later be restored using <Keys.SoftKey>On</Keys.SoftKey>.
 
 4. You can remove a fixture completely from the cue by selecting the
-fixture then pressing the \[Remove Fixtures\] softkey.
+fixture then pressing the <Keys.SoftKey>Remove Fixtures</Keys.SoftKey> softkey.
 
 Any changes take immediate effect.
 
@@ -206,7 +206,7 @@ or by touching the cue. You can also type in the cue number to Include.
 
 1. Press <Keys.HardKey>Include</Keys.HardKey>.
 
-2. Press \[Quick Include\] or \[Advanced mode\] if you want to change
+2. Press <Keys.SoftKey>Quick Include</Keys.SoftKey> or <Keys.SoftKey>Advanced mode</Keys.SoftKey> if you want to change
 the mode.
 
 3. Press the **Select** button of the cue you want to include into the
@@ -218,9 +218,9 @@ selected. If you don't want them all, deselect the fixtures you don't
 want. The fixtures in the cue are highlighted on the screen and on the
 fixture buttons.
 
-5. Use \[Set Mask\] or the Attribute Bank buttons to select which
-Attributes you want to include *(all are included by default - \[Softkey C\]
-turns them all off and \[Softkey D\] turns them all on)*. \[Softkey E\] lets you include
+5. Use <Keys.SoftKey>Set Mask</Keys.SoftKey> or the Attribute Bank buttons to select which
+Attributes you want to include *(all are included by default - <Keys.SoftKey>Softkey C</Keys.SoftKey>
+turns them all off and <Keys.SoftKey>Softkey D</Keys.SoftKey> turns them all on)*. <Keys.SoftKey>Softkey E</Keys.SoftKey> lets you include
 or exclude Shapes from the cue.
 
 6. Press <Keys.HardKey>Enter</Keys.HardKey>. The selected attributes of the selected fixtures
@@ -254,17 +254,17 @@ zero, since this would change the attribute when the cue was fired. You are
 just marking this attribute as deactivated, so the attribute will remain 
 unchanged when the cue is fired.
 
-1. Press <Keys.HardKey>Off</Keys.HardKey>, then \[Off Playback Values\] followed by the **Select** button of the playback
+1. Press <Keys.HardKey>Off</Keys.HardKey>, then <Keys.SoftKey>Off Playback Values</Keys.SoftKey> followed by the **Select** button of the playback
 to be changed.
 
 2. All fixtures in the playback will automatically select. If you only
 want to change some fixtures to **Off**, change the selection.
 
 3. By default the attribute mask is set so all attributes will be
-changed to Off. Press \[Set Mask\] to choose which attributes will be
+changed to Off. Press <Keys.SoftKey>Set Mask</Keys.SoftKey> to choose which attributes will be
 set to **Off**.
 
-4. Press the \[Off\] softkey
+4. Press the <Keys.SoftKey>Off</Keys.SoftKey> softkey
 
 ---
 
@@ -279,16 +279,16 @@ load the cue you want to change into the programmer.
 change them all, deselect the fixtures you don't want.
 
 4. Use the Attribute Bank buttons to toggle which attributes you want
-to change. Then press the \[Attributes Off\] softkey to set them to Off.
-The bottom softkeys also give options such as \[Dimmer Off\].
+to change. Then press the <Keys.SoftKey>Attributes Off</Keys.SoftKey> softkey to set them to Off.
+The bottom softkeys also give options such as <Keys.SoftKey>Dimmer Off</Keys.SoftKey>.
 
 5. Press <Keys.HardKey>Record</Keys.HardKey>,  press the **Select** button of the cue, then select 
-\[Replace\] to update it.
+<Keys.SoftKey>Replace</Keys.SoftKey> to update it.
 
 ---
 
 -   To turn off all attributes of all selected fixtures, press <Keys.HardKey>Off</Keys.HardKey>
-    then \[Selected Fixtures Off\].
+    then <Keys.SoftKey>Selected Fixtures Off</Keys.SoftKey>.
 
 -   You can **merge** *"Off"* attributes into a cue without including it
     first.

@@ -17,22 +17,22 @@ intensities.
 this first if they are not already*
 
 2. Adjust the layout of the fixtures in the group using \[Shapes And
-Effects\], \[Pixel Mapper\], \[Edit Group Layout\], *(select group)*
+Effects\], <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Edit Group Layout</Keys.SoftKey>, *(select group)*
 
 3. Start creating an effect by selecting the group then \[Shapes And
-Effects\], \[Pixel Mapper\], \[Create Effect\]
+Effects\], <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Create Effect</Keys.SoftKey>
 
 4. In the Pixel Mapper Effect Editor window toggle the context menu
-option \[Fixture Overlay\] until it reads \[Fixture Overlay 50/50\]\
+option <Keys.SoftKey>Fixture Overlay</Keys.SoftKey> until it reads <Keys.SoftKey>Fixture Overlay 50/50</Keys.SoftKey>\
 *This will allow you to see the relationship of your fixtures to the
 effect as you create it*
 ![Effect Editor - Pixel Mapper - Fixture Overlay 50/50](/docs/images/Effect-Editor-Pixel-Mapper-Fixture-Overlay-50-50.png)
 
-5. Select \[Effect\] and drag **Background Opacity** slider to **0%**\
+5. Select <Keys.SoftKey>Effect</Keys.SoftKey> and drag **Background Opacity** slider to **0%**\
 *This will allow the whole effect to overlay any related intensities*
 ![Effect Editor - Pixel Mapper - Setting Background Opacity of Effect](/docs/images/Effect-Editor-Pixel-Mapper-Setting-Background-Opacity-of-Effect.png)
 
-6. Select \[Layer 1\], click <Keys.ContextKey>+</Keys.ContextKey> at the bottom of the screen and then
+6. Select <Keys.SoftKey>Layer 1</Keys.SoftKey>, click <Keys.ContextKey>+</Keys.ContextKey> at the bottom of the screen and then
 choose **Circle** from the elements that appear
 ![Effect Editor - Pixel Mapper - Adding a Circle to Layer 1](/docs/images/Effect-Editor-Pixel-Mapper-Adding-a-Circle-to-Layer-1.png)
 
@@ -78,9 +78,9 @@ rotating red fan on top.
 example](#randomising-effects)
 
 2. Start creating an effect by selecting the group then \[Shapes And
-Effects\], \[Pixel Mapper\], \[Create Effect\]
+Effects\], <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Create Effect</Keys.SoftKey>
 
-3. Select \[Layer 1\], click <Keys.ContextKey>+</Keys.ContextKey> at the bottom of the screen and then
+3. Select <Keys.SoftKey>Layer 1</Keys.SoftKey>, click <Keys.ContextKey>+</Keys.ContextKey> at the bottom of the screen and then
 choose Block from the elements that appear.
 
     Drag the **Rotation** slider to the right to angle the element at
@@ -116,7 +116,7 @@ as a block moving left to right).
 
     ![Effect Editor - Pixel Mapper - Modify a Linear Movement Animation](/docs/images/Effect-Editor-Pixel-Mapper-Modify-a-Linear-Movement-Animation.png)
 
-5. Click on \[Layer 2\], select <Keys.ContextKey>+</Keys.ContextKey> and select the Swirl element
+5. Click on <Keys.SoftKey>Layer 2</Keys.SoftKey>, select <Keys.ContextKey>+</Keys.ContextKey> and select the Swirl element
 (represented by a **fan** shape with four arms).
 
     Increase **Zoom** until it is as large as will fit in the screen.
@@ -144,7 +144,7 @@ as a block moving left to right).
 
     ![Effect Editor - Pixel Mapper - Changing Colour of Swirl to Red](/docs/images/Effect-Editor-Pixel-Mapper-Changing-Colour-of-Swirl-to-Red.png)
 
-8. Click on \[Effect\] at the top left to access the global controls.
+8. Click on <Keys.SoftKey>Effect</Keys.SoftKey> at the top left to access the global controls.
 
     Drag **Pre Spool** to the left until it reads 0s. *(This is to ensure the
     wipe begins off screen where we placed it when it is fired.)*
@@ -173,7 +173,7 @@ effects.
 
 2. Open the Selection Pattern menu by pressing the <Keys.HardKey>All</Keys.HardKey> key
 
-3. Choose \[Odd\] from the softkey options\
+3. Choose <Keys.SoftKey>Odd</Keys.SoftKey> from the softkey options\
 *This will select all the odd numbered fixtures according to fixture order.*
 
 4. Record a group.
@@ -183,8 +183,8 @@ effects.
 
 6. Merge this into the first group
 
-7. Open the Layout Editor \[Shapes And Effects\], 
-\[Pixel Mapper\], \[Edit Group Layout\], (**select group**)
+7. Open the Layout Editor <Keys.SoftKey>Shapes And Effects</Keys.SoftKey>, 
+<Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Edit Group Layout</Keys.SoftKey>, (**select group**)
 
 By doing the above you should be able to see how we have quickly created
 a layout where the all the odd fixtures are arranged together on the
@@ -291,20 +291,20 @@ four towers, each with five blocks.
 
 3. Select **Arrange Fixtures** from the context menu
 
-4. Select the \[Height\] softkey and type <Keys.HardKey>5</Keys.HardKey>\
+4. Select the <Keys.SoftKey>Height</Keys.SoftKey> softkey and type <Keys.HardKey>5</Keys.HardKey>\
 *Width will automatically be calculated*
 
-5. Toggle \[Crop Grid to fixtures\] so that it is highlighted\
+5. Toggle <Keys.SoftKey>Crop Grid to fixtures</Keys.SoftKey> so that it is highlighted\
 *This will make the grid adjust to fit*
 
-6. Toggle \[Arrange in...\] to **Columns** or **Rows**\
+6. Toggle <Keys.SoftKey>Arrange in...</Keys.SoftKey> to **Columns** or **Rows**\
 **Rows** will arrange fixtures left to right and **Columns** will arrange top to
 bottom.
 
-7. The \[Shape\] option allows you to arrange in Rectangle, Oval or
+7. The <Keys.SoftKey>Shape</Keys.SoftKey> option allows you to arrange in Rectangle, Oval or
 Triangle
 
-8. Select \[OK\] to complete
+8. Select <Keys.SoftKey>OK</Keys.SoftKey> to complete
 
 **Highlight:** When enabled this will highlight selected fixtures live
 on stage. This can be useful to see which fixture you are positioning in
@@ -350,13 +350,13 @@ use playback priorities to make them always layer the same way
 To create first effect:
 
 1. Select a group containing a fixture layout as described in previous
-example and go to \[Create Effect\]
+example and go to <Keys.SoftKey>Create Effect</Keys.SoftKey>
 
-2. Select \[Effect\] to access the global effect controls and change
+2. Select <Keys.SoftKey>Effect</Keys.SoftKey> to access the global effect controls and change
 **Background Opacity** to zero\
 *This will allow it to overlay the other playback*
 
-3. Double-Click \[Layer 1\] (or press <Keys.ContextKey>+</Keys.ContextKey>) and choose **Circle** from the
+3. Double-Click <Keys.SoftKey>Layer 1</Keys.SoftKey> (or press <Keys.ContextKey>+</Keys.ContextKey>) and choose **Circle** from the
 elements that appear\
 *Double-click is a shortcut to elements and animations*
 
@@ -365,7 +365,7 @@ elements that appear\
 
     ![Effect Editor - Pixel Mapper - Editing Height of Circle](/docs/images/Effect-Editor-Pixel-Mapper-Editing-Height-of-Circle.png)
 
-4. Double-click on \[Circle\] (or press <Keys.ContextKey>+</Keys.ContextKey>) and select the **Zoom**
+4. Double-click on <Keys.SoftKey>Circle</Keys.SoftKey> (or press <Keys.ContextKey>+</Keys.ContextKey>) and select the **Zoom**
 animation
 
     Drag **In Time** to 0% and **Out Time** to 100%. (This will make the
@@ -375,7 +375,7 @@ animation
     Increase **End Zoom** until the element begins by filling the whole
     window.
 
-5. Double-click on \[Zoom Animation\] (or press <Keys.ContextKey>+</Keys.ContextKey>) and select the
+5. Double-click on <Keys.SoftKey>Zoom Animation</Keys.SoftKey> (or press <Keys.ContextKey>+</Keys.ContextKey>) and select the
 **Opacity animation**
 
     Reduce **Spawn Rate** to zero. (This will ensure the opacity only works
@@ -389,7 +389,7 @@ animation
 
     ![Effect Editor - Pixel Mapper - Opacity Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Opacity-Animation-Settings.png)
 
-6. Click on \[Effect\] again and reduce **Master Speed** to your
+6. Click on <Keys.SoftKey>Effect</Keys.SoftKey> again and reduce **Master Speed** to your
 preference. (Adjusting the global speed control ensures the zoom and
 opacity animations are synchronised instead of having to manually match
 the individual values.)\
@@ -402,9 +402,9 @@ Next we will create the second effect:
 1. Select the same group as used for the first effect and \[Create
 Effect\]
 
-2. Select \[Effect\] and change **Background Opacity** to zero.
+2. Select <Keys.SoftKey>Effect</Keys.SoftKey> and change **Background Opacity** to zero.
 
-3. Select \[Layer 1\] and this time add a **Spiral** element
+3. Select <Keys.SoftKey>Layer 1</Keys.SoftKey> and this time add a **Spiral** element
 
     Increase **Zoom** so that it's nice and big.
 
@@ -457,12 +457,12 @@ higher priority:
 
 1. Kill both effects
 
-2. Press <Keys.HardKey>Options</Keys.HardKey> (or \[Options\] from the top level menu) - see [Playback Options](../cues/playback-options.md)
+2. Press <Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> from the top level menu) - see [Playback Options](../cues/playback-options.md)
 
 3. **Select** the blue spiral playback
 
-4. Press \[Previous\] or \[Next\] until you can see \[Priority Normal\]
-    on the softkeys. Press this to toggle it to \[Priority High\].
+4. Press <Keys.SoftKey>Previous</Keys.SoftKey> or <Keys.SoftKey>Next</Keys.SoftKey> until you can see <Keys.SoftKey>Priority Normal</Keys.SoftKey>
+    on the softkeys. Press this to toggle it to <Keys.SoftKey>Priority High</Keys.SoftKey>.
 
 5. Now fire the blue spiral followed by the white pulse.
 
@@ -481,7 +481,7 @@ previous examples
 
 2. Select this group and begin creating an effect
 
-3. Select \[Layer 1\] and add a **Block** element.
+3. Select <Keys.SoftKey>Layer 1</Keys.SoftKey> and add a **Block** element.
 
 4. Adjust the **width** and **height** sliders until we have a thin strip that
 covers at least one cell vertically and the whole grid horizontally.
@@ -533,14 +533,14 @@ At this point you may decide actually the effect would be better if
 it was a vertical bar. To make this easy we can make adjustments on the
 layer controls rather than on the individual element and animations:
 
-10. Select \[Layer 1\] to bring up the layer controls.
+10. Select <Keys.SoftKey>Layer 1</Keys.SoftKey> to bring up the layer controls.
 
 11. Change **Rotation** to 90 degrees by clicking on the compass button
 twice.\
 ![Effect Editor - Pixel Mapper - Changing Layer Rotation](/docs/images/Effect-Editor-Pixel-Mapper-Changing-Layer-Rotation.png)
 
 Now you have a vertical bar that draws randomly using a horizontal
-displacement. Similarly you can use the \[layer\] or \[effect\] controls
+displacement. Similarly you can use the <Keys.SoftKey>layer</Keys.SoftKey> or <Keys.SoftKey>effect</Keys.SoftKey> controls
 to make global changes to **X/Y position** and **Zoom** allowing quick
 manipulation of entire effects.
 
@@ -603,7 +603,7 @@ frequently a new element appears.)
 
     ![Effect Editor - Pixel Mapper - Zoom Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Zoom-Animation-Settings.png)
 
-9. Click on \[Effect\] and set **Pre-Spool** to 0%\
+9. Click on <Keys.SoftKey>Effect</Keys.SoftKey> and set **Pre-Spool** to 0%\
 *This is to demonstrate the purpose of the property.*
 
     ![Effect Editor - Pixel Mapper - Zoom Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Zoom-Animation-Settings-2.png)
@@ -620,7 +620,7 @@ cue
 12. <Keys.HardKey>Include</Keys.HardKey> the cue and open the **Effect Editor** workspace if it is not
 already open
 
-13. Select \[Effect\] and increase the **Pre-Spool** value to around
+13. Select <Keys.SoftKey>Effect</Keys.SoftKey> and increase the **Pre-Spool** value to around
 20s. (This means the software will pretend 20 seconds has already
 elapsed when the effect is started.)
 

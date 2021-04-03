@@ -34,7 +34,7 @@ firewall.
 
 4. Run the Hippo system. Make sure the CITP component is running.
 
-5. Go to the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select \[DMX Settings\].
+5. Go to the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
 
 6. On the left hand side under Art-Net you should see the Hippo with
 its IP address. Click on it and then on the right hand side click on the
@@ -49,7 +49,7 @@ set the Universe number to match the universe setting on the Hippo.
 Titan Mobile, Titan Go or Simulator just close and restart the Titan
 software).
 
-10. Go into Patch mode and select \[Active Fixtures\]. You should see
+10. Go into Patch mode and select <Keys.SoftKey>Active Fixtures</Keys.SoftKey>. You should see
 the Hippo with its IP address as a softkey option.
 
 11. Select the Hippo, then set the DMX line to match the line you set

@@ -21,7 +21,7 @@ By default these times are **not** used when the palette is called directly, to 
 for fluent programming. You may however turn this on (which further enhances [busking 
 with palettes](../running-the-show/playback-controls#busking-with-palettes)) using the
 palette key setting in the [Key Profile](../system-settings/key-profiles.md).
-You can set \[Palette Is Fired With Its Times\] or \[Palette Is Fired
+You can set <Keys.SoftKey>Palette Is Fired With Its Times</Keys.SoftKey> or \[Palette Is Fired
 Ignoring Its Times\].
 
 Manually Overriding Palette Times
@@ -65,7 +65,7 @@ next will start its fade.
 
 1. Type in the overlap percentage for the palette on the numeric keypad
 
-2. Press \[Set Overlap\]
+2. Press <Keys.SoftKey>Set Overlap</Keys.SoftKey>
 
 3. Type in the fade time if fade is also required
 
@@ -83,22 +83,22 @@ next will start its fade.
 Master Time and Overlap for Palettes
 ------------------------
 
-Option \[Master Time\] on the Palette menu (press the <Keys.HardKey>Palette</Keys.HardKey> button
+Option <Keys.SoftKey>Master Time</Keys.SoftKey> on the Palette menu (press the <Keys.HardKey>Palette</Keys.HardKey> button
 above the numeric keypad) allows you to set a default fade time. This
 fade time will be used for all palettes unless you manually type in a
 different time. This can be useful when "busking" a show with palettes.
 Set Master Time to zero to disable.
 
-The \[Master Overlap\] option similarly sets the default Overlap for
+The <Keys.SoftKey>Master Overlap</Keys.SoftKey> option similarly sets the default Overlap for
 palette recall. Set Master Overlap to 100% to disable it.
 
 > You can create macro buttons to set different palette fade times. Press
-<Keys.HardKey>Macro</Keys.HardKey>, \[Record\], press a button to store your macro on. Then press
-<Keys.HardKey>Palette</Keys.HardKey>, \[Master Time\], <Keys.HardKey>3</Keys.HardKey> (for 3 sec), <Keys.HardKey>Exit</Keys.HardKey>, <Keys.HardKey>Macro</Keys.HardKey>.
+<Keys.HardKey>Macro</Keys.HardKey>, <Keys.SoftKey>Record</Keys.SoftKey>, press a button to store your macro on. Then press
+<Keys.HardKey>Palette</Keys.HardKey>, <Keys.SoftKey>Master Time</Keys.SoftKey>, <Keys.HardKey>3</Keys.HardKey> (for 3 sec), <Keys.HardKey>Exit</Keys.HardKey>, <Keys.HardKey>Macro</Keys.HardKey>.
 Repeat these steps to create a Palette Snap button (0 sec), or a 1 sec
 fade button, and so on.
 
-A number of macros for various fade times (\[Palette Fade x s\]) and overlaps
-(\[Palette Overlap y%\]) are available in the macro library. To open this press <Keys.HardKey>Macro</Keys.HardKey>, 
-then the softkey \[View All\]. Macros from the library can be copied onto buttons
+A number of macros for various fade times (<Keys.SoftKey>Palette Fade x s</Keys.SoftKey>) and overlaps
+(<Keys.SoftKey>Palette Overlap y%</Keys.SoftKey>) are available in the macro library. To open this press <Keys.HardKey>Macro</Keys.HardKey>, 
+then the softkey <Keys.SoftKey>View All</Keys.SoftKey>. Macros from the library can be copied onto buttons
 using <Keys.HardKey>Copy</Keys.HardKey> as usual.

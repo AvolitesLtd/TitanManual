@@ -57,7 +57,7 @@ The Intensity View Window
 
 If you want to see at a glance the intensity setting of each fixture,
 the Intensity View window is the place to be. To show the window, double press
-<Keys.HardKey>Open/View</Keys.HardKey> then select \[Intensity View\] from the window select buttons.
+<Keys.HardKey>Open/View</Keys.HardKey> then select <Keys.SoftKey>Intensity View</Keys.SoftKey> from the window select buttons.
 
 ![Intensity View](/docs/images/Intensity-View.png)
 
@@ -87,7 +87,7 @@ show the automatic fixture colours, see below.
 -   Filter the view to show only a certain type of fixture using the
     buttons on the left
 
--   Change the display order of the fixtures using the \[Sort\] context
+-   Change the display order of the fixtures using the <Keys.SoftKey>Sort</Keys.SoftKey> context
     menu buttons - User Number, Last Selected or DMX Address.
 
 -   Click on a fixture to select it, you can then edit the intensity
@@ -117,19 +117,19 @@ The first option lets you only show fixtures in a particular state:
 
 The second option changes sort order as described above
 
-\[Search\] allows you to enter characters to search for in the legend or
+<Keys.SoftKey>Search</Keys.SoftKey> allows you to enter characters to search for in the legend or
 user number, matching fixtures will be shown as you type. When Search is
 active a search bar is shown at the top of the window, click the <Keys.ContextKey>X</Keys.ContextKey> to
 remove the search filter or click on the text to modify the search
 string.
 
-\[View If\] lets you click on a group and/or playback to show only the
+<Keys.SoftKey>View If</Keys.SoftKey> lets you click on a group and/or playback to show only the
 fixtures in that group or playback. For a chase or cue list, this will
 include all fixtures in all the cues of the chase/list. The filter
 settings are shown in a bar at the top of the window, click the <Keys.ContextKey>X</Keys.ContextKey> to
 remove the filter or click on the bar to change the group/playback.
 
-\[Open Channel Grid\] opens the [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window).
+<Keys.SoftKey>Open Channel Grid</Keys.SoftKey> opens the [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window).
 
 In the **Window Appearance Settings** (<Keys.ContextKey>Cog</Keys.ContextKey> button) there are further
 display options. Turning off some of the options will reduce the size of

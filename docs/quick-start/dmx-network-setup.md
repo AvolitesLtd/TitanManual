@@ -22,8 +22,8 @@ Select a Node on the left (where the DMX is going to). On the right,
 select the DMX line it will be fed by. The small <Keys.ContextKey>Cog</Keys.ContextKey> buttons set 
 properties for Nodes/Lines. See [DMX Output Mapping](../system-settings/dmx-output-mapping.md).
 
-To change the IP address of the console, press \[[Network Settings](../networking.md)\] on
+To change the IP address of the console, press <Keys.SoftKey>[Network Settings](../networking.md)</Keys.SoftKey> on
 the **System** menu.
 
 To change [User Settings](../system-settings/user-settings.md) which let you personalise how the console works,
-hold down <Keys.HardKey>Avo</Keys.HardKey> and select \[User Settings\].
+hold down <Keys.HardKey>Avo</Keys.HardKey> and select <Keys.SoftKey>User Settings</Keys.SoftKey>.

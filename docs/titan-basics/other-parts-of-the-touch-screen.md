@@ -17,8 +17,8 @@ softkeys to the left of the right-hand screen.
 
 ![Titan Touch Screen User Interface](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
-If there are more functions than will fit on one screen, \[Previous\]
-and \[Next\] buttons are provided to page through the functions. You can
+If there are more functions than will fit on one screen, <Keys.SoftKey>Previous</Keys.SoftKey>
+and <Keys.SoftKey>Next</Keys.SoftKey> buttons are provided to page through the functions. You can
 either touch the key on screen, or most consoles provide real buttons
 next to the screen.
 

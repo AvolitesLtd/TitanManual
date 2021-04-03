@@ -12,10 +12,10 @@ Set up the look to be recorded.
 
 Press <Keys.HardKey>Record</Keys.HardKey>.
 
-Set \[Record Mode\] to \[Channel\] (saves only modified attributes),
-\[Fixture\] (saves all attributes of fixtures which have been modified
-or are selected), \[Stage\] (saves all attributes of all fixtures with
-non-zero dimmer), or \[Quick Build\] (merges palettes and playbacks into
+Set <Keys.SoftKey>Record Mode</Keys.SoftKey> to <Keys.SoftKey>Channel</Keys.SoftKey> (saves only modified attributes),
+<Keys.SoftKey>Fixture</Keys.SoftKey> (saves all attributes of fixtures which have been modified
+or are selected), <Keys.SoftKey>Stage</Keys.SoftKey> (saves all attributes of all fixtures with
+non-zero dimmer), or <Keys.SoftKey>Quick Build</Keys.SoftKey> (merges palettes and playbacks into
 the cue when you select them).
 
 To store, press a fader **Select** button, a macro/executor button or a touch
@@ -23,7 +23,7 @@ button in Playbacks window. (See [Creating a Cue](../cues/creating-a-cue.md)).
 
 ## Chases
 
-Press <Keys.HardKey>Record</Keys.HardKey> twice (or <Keys.HardKey>Record</Keys.HardKey> then \[Create Chase\]).
+Press <Keys.HardKey>Record</Keys.HardKey> twice (or <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Chase</Keys.SoftKey>).
 
 Press **Select** button, a macro/executor button or a touch
 button in Playbacks window.
@@ -46,17 +46,17 @@ Touch/Tiger Touch and <Keys.HardKey>Next Time</Keys.HardKey> on Pearl Expert/Tig
 For chases, speed and fade can be set with wheels A and B when the chase
 is running.
 
-To edit times in a saved cue, at top level menu press \[Edit Times\]
+To edit times in a saved cue, at top level menu press <Keys.SoftKey>Edit Times</Keys.SoftKey>
 then the select button for the playback. Timing options are set from
 softkeys.
 
-[\[Fixture Overlap\]](../cues/cue-timing.md#fade-times-and-fixture-overlap)
+[<Keys.SoftKey>Fixture Overlap</Keys.SoftKey>](../cues/cue-timing.md#fade-times-and-fixture-overlap)
 sets each fixture to fade in sequence (100%=all
 together, 0%=fixture waits for previous one to complete).
 
-\[Attribute times\] sets individual fade times for different attributes.
+<Keys.SoftKey>Attribute times</Keys.SoftKey> sets individual fade times for different attributes.
 
-\[Fixture order\] changes sequence for shapes and
+<Keys.SoftKey>Fixture order</Keys.SoftKey> changes sequence for shapes and
 [Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
 See [Cue Timing](../cues/cue-timing.md)
@@ -65,4 +65,4 @@ See [Cue Timing](../cues/cue-timing.md)
 
 Cues may be stored in a [Cue List](../cue-lists/creating-a-cue-list.md) which allows a full show to be run from
 a Go button. Chases can be included using [Autoload](../cue-lists/creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list). Cue lists can run in
-tracking or non-tracking mode, set from \[Options\].
+tracking or non-tracking mode, set from <Keys.SoftKey>Options</Keys.SoftKey>.

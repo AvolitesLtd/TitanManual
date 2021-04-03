@@ -21,7 +21,7 @@ to create a state from [palettes](../palettes.md) and
 [<Keys.HardKey>Include</Keys.HardKey>](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)
 to load in cues.
 
-1. Press <Keys.HardKey>Record</Keys.HardKey> then select \[Chase\]. *(Some consoles also have a
+1. Press <Keys.HardKey>Record</Keys.HardKey> then select <Keys.SoftKey>Chase</Keys.SoftKey>. *(Some consoles also have a
 <Keys.HardKey>Record Chase</Keys.HardKey> button)*.
 
 2. Press the **Select** button of the playback where you want to store the
@@ -32,10 +32,10 @@ window)*.
 [<Keys.HardKey>Include</Keys.HardKey>](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)
 on existing cues.
 
-4. You can change the number given to the step using \[Step Number\]
+4. You can change the number given to the step using <Keys.SoftKey>Step Number</Keys.SoftKey>
 
 5. Press the **Select** button of the playback to store the programmer
-contents as a step of the chase. You can also press \[Append Step\] on
+contents as a step of the chase. You can also press <Keys.SoftKey>Append Step</Keys.SoftKey> on
 the menu.
 
 6. Press <Keys.HardKey>Clear</Keys.HardKey> *(unless you want to re-use the contents of the
@@ -45,18 +45,18 @@ programmer)*, then repeat steps 3 - 5.
 
 ---
 
--   \[Record Mode\] lets you select:
+-   <Keys.SoftKey>Record Mode</Keys.SoftKey> lets you select:
 
-    - \[Record By Fixture\] - all attributes of
+    - <Keys.SoftKey>Record By Fixture</Keys.SoftKey> - all attributes of
     any modified or selected fixture are saved
 
-    - \[Record By Channel\] - only
+    - <Keys.SoftKey>Record By Channel</Keys.SoftKey> - only
     modified attributes are saved
 
-    - \[Record Stage\] - all fixtures with a
+    - <Keys.SoftKey>Record Stage</Keys.SoftKey> - all fixtures with a
     non-zero dimmer setting are saved
 
-    - \[Quick Build\] - [see next section](#creating-a-chase-with-quick-build)
+    - <Keys.SoftKey>Quick Build</Keys.SoftKey> - [see next section](#creating-a-chase-with-quick-build)
 
 -   The cue number currently being saved, and the total number of cues,
     is shown on the top line of the display.
@@ -74,7 +74,7 @@ programmer)*, then repeat steps 3 - 5.
     the shape from the previous step and have not modified
     it)*
 
--   You can set a legend for the chase by pressing \[Set Legend\], then
+-   You can set a legend for the chase by pressing <Keys.SoftKey>Set Legend</Keys.SoftKey>, then
     pressing the **Select** button for the chase and entering the legend, as
     with cues.
 
@@ -87,7 +87,7 @@ Quick Build mode, as the name suggests, allows you to build a chase very
 quickly from existing palettes and playbacks.
 
 Start recording a chase as described in the previous section, set
-\[Record Mode\] to Quick Build.
+<Keys.SoftKey>Record Mode</Keys.SoftKey> to Quick Build.
 
 Select any [palette](../palettes.md) or playback to insert that item as a step in the
 chase. If you select multiple palettes by selecting a range of buttons,

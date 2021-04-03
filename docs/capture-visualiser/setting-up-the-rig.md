@@ -34,8 +34,8 @@ patched if the Auto Update switch in the [Capture Settings](#setting-up-the-stag
 is set to On.
 
 If you [load a Titan show](../titan-basics/loading-and-saving-shows.md#loading-a-show) from a previous version, or have some patched
-fixtures which are not placed in Capture, use the \[Edit Fixtures\]
-\[Update Personality\] option on the [Patch menu](../patching/changing-the-patch.md#patch-view) to place missing
+fixtures which are not placed in Capture, use the <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>
+<Keys.SoftKey>Update Personality</Keys.SoftKey> option on the [Patch menu](../patching/changing-the-patch.md#patch-view) to place missing
 fixtures into the visualiser. The [Exchange Fixtures](../patching/changing-the-patch.md#exchange-mapping) function may also be
 used to help with this situation.
 

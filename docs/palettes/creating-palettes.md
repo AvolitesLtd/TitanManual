@@ -56,7 +56,7 @@ Storing a Palette
 [](https://youtu.be/Hs-xzpD5x8k?t=20 "Recording Palettes")
 
 This is how you save a palette value to one of the palette windows: *If
-the palette windows are not shown then press the \[Groups and Palettes\]
+the palette windows are not shown then press the <Keys.SoftKey>Groups and Palettes</Keys.SoftKey>
 workspace button.*
 
 1. Press <Keys.HardKey>Clear</Keys.HardKey> to clear the programmer.
@@ -72,12 +72,12 @@ Palette\])\
 
 5. If you wish, set the palette mask - this sets which attributes will
 be recorded in the palette. Select attributes using the Attribute Bank
-buttons - anything lit up will be saved. \[Set Mask\] and \[Record by\]
+buttons - anything lit up will be saved. <Keys.SoftKey>Set Mask</Keys.SoftKey> and <Keys.SoftKey>Record by</Keys.SoftKey>
 softkeys also control the Mask (see below).
 
 6. Touch a button in one of the palette windows to store the palette
 (if you touch a used button you will be given further options). Or enter
-a palette number and press \[Store\].
+a palette number and press <Keys.SoftKey>Store</Keys.SoftKey>.
 
 - Using [Quick Record](../palettes/creating-palettes.md#quick-record) you can skip steps 4 and 5 - just
 double tap a blank palette button and the palette will be stored with the
@@ -95,10 +95,10 @@ flash, press one to store.
 -   The console will automatically set the palette as Global, Shared or
     Normal (by checking if the values to be stored are the same across
     all fixtures of the same type). You can override the setting by
-    pressing \[softkey C\]. See below for more details of how this automatic
+    pressing <Keys.SoftKey>softkey C</Keys.SoftKey>. See below for more details of how this automatic
     choice works.
 
--   \[Set Mask\] allows you to specify which attribute groups will be
+-   <Keys.SoftKey>Set Mask</Keys.SoftKey> allows you to specify which attribute groups will be
     included in the palette. You can also use the Attribute Bank
     buttons by the wheels to set the mask.\
     An attribute group is included when the softkey is inverted (like
@@ -112,22 +112,22 @@ flash, press one to store.
 
 ![Setting a mask for recording a palette](/docs/images/Setting-a-mask-for-recording-a-palette.png)
 
--   \[Record By...\] allows you to control how the mask is used when
+-   <Keys.SoftKey>Record By...</Keys.SoftKey> allows you to control how the mask is used when
     saving the palette. The options are:
-    -   \[Channel in programmer\] records only channels which are in the
+    -   <Keys.SoftKey>Channel in programmer</Keys.SoftKey> records only channels which are in the
     programmer (ones which you have changed)
-    -    \[Group in programmer\] records all channels in any attribute group
+    -    <Keys.SoftKey>Group in programmer</Keys.SoftKey> records all channels in any attribute group
     which has one or more channels in the programmer. *For example if
     Cyan is in the programmer, all colour channel settings will be
     recorded even if not in the programmer.*
-    -   \[Group in mask\] records everything included by the mask set on the
+    -   <Keys.SoftKey>Group in mask</Keys.SoftKey> records everything included by the mask set on the
     attribute buttons
-    -   \[Mixed\] records by attribute group for **Position** and **Colour** but by
+    -   <Keys.SoftKey>Mixed</Keys.SoftKey> records by attribute group for **Position** and **Colour** but by
     channel for all other controls.
 
 -   The console will automatically create a legend for your palette
     (unless the
-    [User Setting \[Auto Legend\]](../system-settings/user-settings.md#auto-legend)
+    [User Setting <Keys.SoftKey>Auto Legend</Keys.SoftKey>](../system-settings/user-settings.md#auto-legend)
     is set to Off).
     -   **Colours:** a coloured icon is used to show the selected colour. If the
     palette contains fixtures set to different colours, a coloured bar
@@ -141,16 +141,16 @@ flash, press one to store.
     ![Automatic Legends set for Colour Palettes](/docs/images/Automatic-Legends-set-for-Colour-Palettes.png)
 
 -   You can also manually set a legend for the palette while you are
-    saving it using \[Provide a legend\]. See
+    saving it using <Keys.SoftKey>Provide a legend</Keys.SoftKey>. See
     [Setting Legends for Palettes](#setting-legends-for-palettes).
 
 -   If you select a Palette button which is already used, the console
-    offers you options to \[Cancel\], \[Replace\], \[Merge\] or \[Quick
+    offers you options to <Keys.SoftKey>Cancel</Keys.SoftKey>, <Keys.SoftKey>Replace</Keys.SoftKey>, <Keys.SoftKey>Merge</Keys.SoftKey> or \[Quick
     Merge\] the existing palette.
-    - \[Replace\] will erase the palette and save only the latest changes
+    - <Keys.SoftKey>Replace</Keys.SoftKey> will erase the palette and save only the latest changes
         you have made.
-    - \[Merge\] will combine your changes with the palette.
-    - \[Quick Merge\] will merge only the
+    - <Keys.SoftKey>Merge</Keys.SoftKey> will combine your changes with the palette.
+    - <Keys.SoftKey>Quick Merge</Keys.SoftKey> will merge only the
     attributes which are currently stored in the palette - the button
     shows you which attributes.
 
@@ -179,7 +179,7 @@ odd/even colour palette could be created using two other colour palettes
 as the masters. If you wanted to change the colours, changing the master
 colour palettes would also change the odd/even colours.
 
-The \[Record/Don't Record Nested Palettes\] option in the Record Palette
+The <Keys.SoftKey>Record/Don't Record Nested Palettes</Keys.SoftKey> option in the Record Palette
 menu sets whether nested palettes are recorded *(default)* or whether the
 attribute values are recorded instead.
 
@@ -189,16 +189,16 @@ was recorded). This can be useful if a palette was recorded as nested, but
 then you need to break the link to the source palettes so you can change them 
 without changing the new palette. 
 
-1.	Press \[Options\].
+1.	Press <Keys.SoftKey>Options</Keys.SoftKey>.
 
 2.	Press the handle of the palette. 
 
-3.	In the \[Palette\] tab switch off the option \[Fire Nested Palettes\]. 
+3.	In the <Keys.SoftKey>Palette</Keys.SoftKey> tab switch off the option <Keys.SoftKey>Fire Nested Palettes</Keys.SoftKey>. 
 
 4.	Now when you fire the palette, it will use the values which were set when
 	you recorded it, rather than the current values in the nested palettes.
 
--	You can reinstate the link by switching the \[Fire Nested Palettes\] option on again.
+-	You can reinstate the link by switching the <Keys.SoftKey>Fire Nested Palettes</Keys.SoftKey> option on again.
 
 Quick Record
 ------------
@@ -230,7 +230,7 @@ Setting Legends for Palettes
 You can enter a legend for each palette to tell you what it is. Titan
 will automatically create helpful legends when you create the palette.
 
-1. Press \[Set Legend\] at the top level menu
+1. Press <Keys.SoftKey>Set Legend</Keys.SoftKey> at the top level menu
 
 2. Press the palette button for the palette you want to legend
 
@@ -248,7 +248,7 @@ palettes a **C** and so on. In the top right corner is shown **G** for
 
 You can create a picture legend for your palette which could for example
 represent the colour or gobo it will create. After pressing \[Set
-Legend\] and the palette button, press \[Picture\]. The picture editor
+Legend\] and the palette button, press <Keys.SoftKey>Picture</Keys.SoftKey>. The picture editor
 will open.
 
 ![Setting legend of palette using draw picture editor](/docs/images/Setting-legend-of-palette-using-draw-picture-editor.png)
@@ -282,7 +282,7 @@ programming.
 *If you need to move them so you can see what's happening, you can do that, and
 the position can be removed later*.
 
-2. Press \[Shapes and Effects\], \[Shape Generator\] and choose a shape
+2. Press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, <Keys.SoftKey>Shape Generator</Keys.SoftKey> and choose a shape
 to start\
 *See [Shape Generator](../effects/shape-generator.md) for more information about shapes*.
 
@@ -291,7 +291,7 @@ to start\
 4. Press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Palette</Keys.HardKey>\
 *You cannot use Quick Record to store shape/FX palettes*.
 
-5. If you moved the fixtures in **step 1**, press \[Set Mask\] and exclude
+5. If you moved the fixtures in **step 1**, press <Keys.SoftKey>Set Mask</Keys.SoftKey> and exclude
 everything except **FX**.
 
 6.  Press a palette button to store the shape palette.
@@ -322,7 +322,7 @@ programmer.
 
 4. Press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Palette</Keys.HardKey>.
 
-5. If you moved the fixtures in step 1, press \[Set Mask\] and exclude
+5. If you moved the fixtures in step 1, press <Keys.SoftKey>Set Mask</Keys.SoftKey> and exclude
 everything except **Time**.
 
 6. Press a palette button to store the Time palette.

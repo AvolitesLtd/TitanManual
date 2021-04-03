@@ -27,11 +27,11 @@ softkeys will give you a list of available settings for this attribute
 or you can type in a numerical value.
 
 You cannot **Delete** a value from a palette, but you can disable it by selecting the value and
-pressing the \[Off\] softkey or <Keys.HardKey>Off</Keys.HardKey> button. If you select a value which shows
-'[Off]', the softkey will show \[On\], and would re-enable the previous value.
+pressing the <Keys.SoftKey>Off</Keys.SoftKey> softkey or <Keys.HardKey>Off</Keys.HardKey> button. If you select a value which shows
+'[Off]', the softkey will show <Keys.SoftKey>On</Keys.SoftKey>, and would re-enable the previous value.
 
 -   When the palette contains other palettes, the context menu option
-    \[View/Hide Nested Palettes\] sets whether or not the view shows the
+    <Keys.SoftKey>View/Hide Nested Palettes</Keys.SoftKey> sets whether or not the view shows the
     actual attribute value or just the name of the nested palette.
 
 -   When the palette contains shapes, the context menu option \[View
@@ -41,7 +41,7 @@ pressing the \[Off\] softkey or <Keys.HardKey>Off</Keys.HardKey> button. If you 
     button will add selected fixtures into the shape.
 
 -   When the palette contains effects (Pixel Mapper) the context menu
-    option \[View Effects\] will open the **Effect View window** to let you
+    option <Keys.SoftKey>View Effects</Keys.SoftKey> will open the **Effect View window** to let you
     edit the effect.
 
 Changing the Content of Palettes
@@ -102,7 +102,7 @@ palette used in the cue.
 1. With the cue fired, select the fixtures and change them to the
 settings you want to store.
 
-2. Press <Keys.HardKey>Update</Keys.HardKey> (on Pearl Expert, <Keys.HardKey>Record Cue</Keys.HardKey>, \[Update\]).
+2. Press <Keys.HardKey>Update</Keys.HardKey> (on Pearl Expert, <Keys.HardKey>Record Cue</Keys.HardKey>, <Keys.SoftKey>Update</Keys.SoftKey>).
 
 3. The cues and palettes which relate to the cue and can be updated are
 shown on the softkeys.

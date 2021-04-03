@@ -15,7 +15,7 @@ The console allows you to access these functions using Fixture Macros (not to be
 
 1.	Keep pressing <Keys.HardKey>Exit</Keys.HardKey> until you are at the top level menu (or <Keys.HardKey>Avo</Keys.HardKey><Keys.HardKey>Exit</Keys.HardKey> takes you straight to the top).
 2.	Select the fixtures you wish to control. Macros may not work across groups of fixtures from different manufacturers so it’s best to do each type of fixture separately.
-3.	Press <Keys.HardKey>Macro</Keys.HardKey> then \[Fixture Macros\] (for consoles with <Keys.HardKey>ML Menu</Keys.HardKey> button you can also find the \[Fixture Macros\] function there).
+3.	Press <Keys.HardKey>Macro</Keys.HardKey> then <Keys.SoftKey>Fixture Macros</Keys.SoftKey> (for consoles with <Keys.HardKey>ML Menu</Keys.HardKey> button you can also find the <Keys.SoftKey>Fixture Macros</Keys.SoftKey> function there).
 4.	The softkeys show a list of the functions available. Press the one you want to action.
 
 -	Some macros involve timed sequences and can take up to 30 seconds to execute.

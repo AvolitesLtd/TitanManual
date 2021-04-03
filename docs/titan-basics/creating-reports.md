@@ -31,7 +31,7 @@ To generate reports:
 
 1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
 
-2. Press \[Reports\].
+2. Press <Keys.SoftKey>Reports</Keys.SoftKey>.
 
 3. Select the item(s) you want to include in the report
 

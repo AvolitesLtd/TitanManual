@@ -50,7 +50,7 @@ User Settings
 -------------
 
 The User Settings menu may also be accessed from Program mode: hold down
-the <Keys.HardKey>Avo</Keys.HardKey> button and press \[User Settings\]. See the [User Settings](user-settings.md) section.
+the <Keys.HardKey>Avo</Keys.HardKey> button and press <Keys.SoftKey>User Settings</Keys.SoftKey>. See the [User Settings](user-settings.md) section.
 
 Key Profiles
 ------------
@@ -92,7 +92,7 @@ will report anonymous information to Avolites. This includes details
 about faults that occur, statistics on how long certain functions take,
 and usage of functions. This information is really useful for improving
 the software, however if you would prefer to disable it, click the
-\[Telemetry Enabled\] button to switch it to \[Telemetry Disabled\].
+<Keys.SoftKey>Telemetry Enabled</Keys.SoftKey> button to switch it to <Keys.SoftKey>Telemetry Disabled</Keys.SoftKey>.
 Telemetry information will only be sent in any case if the console is
 connected to the internet.
 

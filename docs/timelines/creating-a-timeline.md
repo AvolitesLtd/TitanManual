@@ -24,16 +24,16 @@ This is how you program a timeline using Live Record, from playbacks which you h
 
 1. If you have external timecode source selected but want to use internal timecode for recording, tap the "Timecode Disconnect" <Keys.ContextKey>Link</Keys.ContextKey> button so it shows a broken link.
 
-2. Press <Keys.HardKey>Record</Keys.HardKey>, \[Timeline\], then the **Select** of the blank fader where you want to store the timeline. The Timeline View window will automatically open.
+2. Press <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Timeline</Keys.SoftKey>, then the **Select** of the blank fader where you want to store the timeline. The Timeline View window will automatically open.
 
 3. Press the <Keys.ContextKey>Record</Keys.ContextKey> button in the top left of the Timeline View window.
 
-4. Select which track on the timeline you want to record onto using the \[Track\] softkey or tap on the flashing dotted area of the track you want to use.
+4. Select which track on the timeline you want to record onto using the <Keys.SoftKey>Track</Keys.SoftKey> softkey or tap on the flashing dotted area of the track you want to use.
 You can add triggers to an existing track or create a new track by tapping on the blank area at the bottom. Or if you just press <Keys.ContextKey>Record</Keys.ContextKey> again then recording will start using the current track selection.
 
     ![Timeline quick record dotted tracks](/docs/images/Timeline-Quickrecord-Dotted.png)
 
-5. Tap again on the track to start recording (or press the \[Start Live Record\] softkey). The workspaces will be outlined in red but recording will not begin until the timecode is started.
+5. Tap again on the track to start recording (or press the <Keys.SoftKey>Start Live Record</Keys.SoftKey> softkey). The workspaces will be outlined in red but recording will not begin until the timecode is started.
 
 6. For internal timecode source, press the <Keys.ContextKey>Play</Keys.ContextKey>  button in the top left of the timeline window to start the timecode running. If you are using an external timecode source, start it.
 
@@ -53,7 +53,7 @@ You should now see all the triggers you have created laid out on the timeline.
 
 ### Auto Simplify
 
-Normally while you are recording, the \[Auto Simplify\] softkey option is enabled. When you stop the recording, this will simplify your fader movements to a few trigger points with linear fades rather than a large number of points which are difficult to edit. If you really need to capture an exotic fader movement you can turn this option off, but to help keep your timeline easy to edit you should leave it on where you can.
+Normally while you are recording, the <Keys.SoftKey>Auto Simplify</Keys.SoftKey> softkey option is enabled. When you stop the recording, this will simplify your fader movements to a few trigger points with linear fades rather than a large number of points which are difficult to edit. If you really need to capture an exotic fader movement you can turn this option off, but to help keep your timeline easy to edit you should leave it on where you can.
 
 Trigger with multiple points during Live Record:
 
@@ -75,7 +75,7 @@ Adding manual triggers
 
 If you are programming a show where you have been given a list of timecodes for each cue point, you can enter the triggers manually at those specific times.
 
-1.  Press <Keys.HardKey>Record</Keys.HardKey>, \[Timeline\], then the **Select button** of the fader where you want to store the timeline. The Timeline View window will automatically open.
+1.  Press <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Timeline</Keys.SoftKey>, then the **Select button** of the fader where you want to store the timeline. The Timeline View window will automatically open.
 
 2.  Press the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom of the timeline tracks.
 
@@ -90,15 +90,15 @@ If you are programming a show where you have been given a list of timecodes for 
 4. If you are using an existing playback, press the **Select** button of the playback you want to fire. (You can skip step 3 and just select a playback straight after pressing the <Keys.ContextKey>+</Keys.ContextKey> button - Titan will behave as if you pressed **Existing Playback**.)
 
 5. Set the time you want the trigger to fire at. There are several ways to do this:
-    - Type in the time using the \[Reference at hh:mm:ss.fff \] softkey and press <Keys.HardKey>Enter</Keys.HardKey>. Use the <Keys.HardKey>.</Keys.HardKey> button as a separator, for example typing "1 . 05" will enter 00:01:05:000 or "2 . 2 . 20" will enter 02:02:20.00. You can also use the arrow buttons to move between fields in the time display.
-    - Use the current Live Time (blue cursor position) using the \[Reference at Live Time\] softkey.
+    - Type in the time using the <Keys.SoftKey>Reference at hh:mm:ss.fff </Keys.SoftKey> softkey and press <Keys.HardKey>Enter</Keys.HardKey>. Use the <Keys.HardKey>.</Keys.HardKey> button as a separator, for example typing "1 . 05" will enter 00:01:05:000 or "2 . 2 . 20" will enter 02:02:20.00. You can also use the arrow buttons to move between fields in the time display.
+    - Use the current Live Time (blue cursor position) using the <Keys.SoftKey>Reference at Live Time</Keys.SoftKey> softkey.
     - Tap on the Timeline View on the screen at the place where you want the trigger (you can adjust this later).
 
 6. Repeat from Step 2 to add more triggers.
 
 - You can directly add a playback by pressing <Keys.HardKey>Copy</Keys.HardKey>, the **select** button of the playback, then tapping on the Timeline track where you want the trigger to be.
 
-- Existing Playbacks added to the timeline will be referenced (linked) copies of the playback. If you want to create a playback that you can edit separately, use the softkey option \[Create New Playbacks\] after you select the playback to be added.
+- Existing Playbacks added to the timeline will be referenced (linked) copies of the playback. If you want to create a playback that you can edit separately, use the softkey option <Keys.SoftKey>Create New Playbacks</Keys.SoftKey> after you select the playback to be added.
 
 - The [Table View](../timelines/running-and-editing-timelines.md#table-view) can be easier to work with than the graphical timeline when entering timecodes manually as it lets you see
 the numbers you have entered.

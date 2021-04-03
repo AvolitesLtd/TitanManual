@@ -80,7 +80,7 @@ A grid screen will open.
 
 ![Resize](/docs/images/Resize.png)
 
-With the softkey \[Edit All Windows\] set to Off, you just set the size
+With the softkey <Keys.SoftKey>Edit All Windows</Keys.SoftKey> set to Off, you just set the size
 of the selected window.
 
 Touch and drag the top left or bottom right corners to resize the
@@ -89,25 +89,25 @@ window. Touch and drag anywhere else to move the window.
 Tap on a corner to set a start corner position - the window will
 highlight in red and ask you to tap to set the opposite corner position.
 
-If the softkey \[Resize Neighbours\] is set to On, surrounding windows
+If the softkey <Keys.SoftKey>Resize Neighbours</Keys.SoftKey> is set to On, surrounding windows
 will resize to make room for the window you are editing. If Off, the
 other windows will stay the same size and go behind the current window.
 
-If \[Edit All Windows\] is set to On, corner arrows will appear in all
+If <Keys.SoftKey>Edit All Windows</Keys.SoftKey> is set to On, corner arrows will appear in all
 windows and you can adjust the size of all the windows together. Press
-<Keys.HardKey>Enter</Keys.HardKey>, <Keys.HardKey>Exit</Keys.HardKey> or \[OK\] to finish.
+<Keys.HardKey>Enter</Keys.HardKey>, <Keys.HardKey>Exit</Keys.HardKey> or <Keys.SoftKey>OK</Keys.SoftKey> to finish.
 
 ![Resize](/docs/images/Resize-2.png)
 
-> If you accidentally set a window to a single grid size, you can't then get to the Window Layout button to resize it. Select the window and use the \[Min/Max\] softkey to set the window to a fixed size.
+> If you accidentally set a window to a single grid size, you can't then get to the Window Layout button to resize it. Select the window and use the <Keys.SoftKey>Min/Max</Keys.SoftKey> softkey to set the window to a fixed size.
 
 You can move the active window between screens from the Window
-Appearance screen, or by pressing View then \[Window Options\] then
-\[Move Screen\], or hold <Keys.HardKey>Avo</Keys.HardKey> and press the <Keys.HardKey>Size & Position</Keys.HardKey> button.
+Appearance screen, or by pressing View then <Keys.SoftKey>Window Options</Keys.SoftKey> then
+<Keys.SoftKey>Move Screen</Keys.SoftKey>, or hold <Keys.HardKey>Avo</Keys.HardKey> and press the <Keys.HardKey>Size & Position</Keys.HardKey> button.
 
 You can close the active window using the <Keys.HardKey>Close</Keys.HardKey> button (not on all
 consoles). You can close all windows by pressing <Keys.HardKey>Avo</Keys.HardKey>+<Keys.HardKey>Close</Keys.HardKey>, or
-use the \[Close All\] softkey.
+use the <Keys.SoftKey>Close All</Keys.SoftKey> softkey.
 
 ### Context Menu Buttons
 
@@ -166,28 +166,28 @@ External screens can have their own workspace buttons down the side of the scree
 can be turned on or off in the [User Settings](../system-settings/user-settings.md#display) .)
 
 To record, press <Keys.HardKey>Open/View</Keys.HardKey> then
-\[Record Workspace\], then touch one of the Workspaces buttons, or just
+<Keys.SoftKey>Record Workspace</Keys.SoftKey>, then touch one of the Workspaces buttons, or just
 touch an empty button twice to Quick Record. You can also save
 workspaces onto any grey handle or macro button.
 
 When saving and loading workspaces, it's often useful to be able to set how existing windows
 will behave if you load more windows, and to be able to target particular windows to a certain screen on the console.
 
--   \[Record Visible/All Windows\] lets you set whether the workspace
+-   <Keys.SoftKey>Record Visible/All Windows</Keys.SoftKey> lets you set whether the workspace
     will contain only the windows which are currently visible, or will
     also include any windows which are hidden underneath other windows (this option is not
 	available when using Quick Record).
 
--   \[Remove/Leave other windows on recall\] sets whether all other
+-   <Keys.SoftKey>Remove/Leave other windows on recall</Keys.SoftKey> sets whether all other
     windows will be closed when this workspace is recalled. If set to remove,
 	the Workspace button will show an <Keys.ContextKey>X</Keys.ContextKey> in the corner.
 	
 	![Workspaces](/docs/images/Workspace-Layout-Button-Letters-X.png)
 
--   \[Screens=\] sets whether the workspace layout will record all the screens,
+-   <Keys.SoftKey>Screens=</Keys.SoftKey> sets whether the workspace layout will record all the screens,
     or individual screens (you can select or deselect each screen).
 
--   \[Recall as Recorded / Where Selected\] only appears if the Screens option
+-   <Keys.SoftKey>Recall as Recorded / Where Selected</Keys.SoftKey> only appears if the Screens option
     is set to record only a single screen, and sets whether the workspace will
 	recall onto the screen where you recorded it (button shows S + the screen number), or if it will recall onto
 	the screen where you selected it (button shows a target symbol).
@@ -197,7 +197,7 @@ will behave if you load more windows, and to be able to target particular window
     the workspace button to be deleted.
 
 -	When recalling a workspace, if you press <Keys.HardKey>Open/View</Keys.HardKey> first then softkey buttons let you
-	set the workspace to recall to the particular screen where it was recorded \[As Recorded\], or to a different screen
+	set the workspace to recall to the particular screen where it was recorded <Keys.SoftKey>As Recorded</Keys.SoftKey>, or to a different screen
 	(the other screen numbers are listed on softkeys). This is useful when a workspace contains only a single screen,
 	allowing you to recall it onto a different screen.
 	
@@ -228,7 +228,7 @@ location.
 
 5. Repeat to activate the <Keys.ContextKey>Attribute Editor</Keys.ContextKey> and <Keys.ContextKey>Effects</Keys.ContextKey> windows.
 
-6. Press <Keys.HardKey>Open/View</Keys.HardKey> then \[Record Workspace\], or hold <Keys.HardKey>Avo</Keys.HardKey> and
+6. Press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.SoftKey>Record Workspace</Keys.SoftKey>, or hold <Keys.HardKey>Avo</Keys.HardKey> and
 press <Keys.HardKey>Open/View</Keys.HardKey>. Type in a name for the workspace. Then touch the
 Workspace button where you want to store this workspace layout. Or, you
 can use Quick Record -- just touch an empty workspace button and it will
@@ -252,7 +252,7 @@ a mask is automatically applied. See [Storing a Palette](../palettes/creating-pa
 
 All touch buttons can have legends set to remind you what they do. In
 addition, you can draw picture legends on the buttons. To do this,
-select \[Set Legend\] then press \[Picture\]. A drawing space will open
+select <Keys.SoftKey>Set Legend</Keys.SoftKey> then press <Keys.SoftKey>Picture</Keys.SoftKey>. A drawing space will open
 on the touch screen for you to draw the legend. There is also a library
 of pictures to choose from including popular gobo designs.
 
@@ -267,7 +267,7 @@ information in it.
 
 You can set a custom coloured halo for fixture, group, playback or palette
 buttons. This can be really useful for identifying different types of
-button at a glance. Select the \[Halo\] option on the Set Legends menu.
+button at a glance. Select the <Keys.SoftKey>Halo</Keys.SoftKey> option on the Set Legends menu.
 
 ![Halo](/docs/images/Fixture-Halo.png)
 

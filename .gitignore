@@ -10,3 +10,4 @@ website/yarn.lock
 
 websitev2/.docusaurus
 websitev2/yarn.lock
+websitev2/build/

@@ -14,16 +14,16 @@ you can set how the shape fades in
 using the Edit Times and the playback [Options](../cues/playback-options.md) settings.
 
 To set the shape size and/or speed from the fader position, press <Keys.HardKey>Options</Keys.HardKey>
-(or \[Options\] softkey from the main menu) then press the select button of
+(or <Keys.SoftKey>Options</Keys.SoftKey> softkey from the main menu) then press the select button of
 the playback.
 
-Using the \[Fader\], \[Shape Size\] and \[Shape Speed\] buttons you can
+Using the <Keys.SoftKey>Fader</Keys.SoftKey>, <Keys.SoftKey>Shape Size</Keys.SoftKey> and <Keys.SoftKey>Shape Speed</Keys.SoftKey> buttons you can
 set the shape size and speed to be fixed (how you programmed them) or to
 grow larger/speed up as the fader is pushed up. You can also allocate a
 Speed or Size Master to control the speed or size, see
 [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
 
-To set a fixed fade in time for the shape size, press \[Edit Times\]
+To set a fixed fade in time for the shape size, press <Keys.SoftKey>Edit Times</Keys.SoftKey>
 from the top menu, then the **playback select** button, then set the
 Delay/Fade times you want.
 

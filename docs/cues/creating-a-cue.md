@@ -56,7 +56,7 @@ Creating a Cue
 
 2. Set up the look using the fixtures. You can save shapes in a cue.
 Remember that only fixtures which are selected or have been modified
-will be saved in the cue (in \[Record by Fixture\] mode).
+will be saved in the cue (in <Keys.SoftKey>Record by Fixture</Keys.SoftKey> mode).
 
 3. Press the <Keys.HardKey>Record</Keys.HardKey> button.
 
@@ -71,14 +71,14 @@ Other useful things to know about recording cues:
 -   Cues can be recorded to any fader, the macro/executor buttons or the
     on-screen Playbacks window.
 
--   \[Record Mode\] lets you select:
-    -   \[Record By Fixture\] - All attributes of any modified or selected
+-   <Keys.SoftKey>Record Mode</Keys.SoftKey> lets you select:
+    -   <Keys.SoftKey>Record By Fixture</Keys.SoftKey> - All attributes of any modified or selected
     fixture are saved
-    -   \[Record By Channel\] - Only modified attributes are saved
-    -   \[Record Stage\] - All fixtures with a non-zero dimmer channel are saved
-    -   \[Quick Build\] - see [next section](#quick-build-cues)
+    -   <Keys.SoftKey>Record By Channel</Keys.SoftKey> - Only modified attributes are saved
+    -   <Keys.SoftKey>Record Stage</Keys.SoftKey> - All fixtures with a non-zero dimmer channel are saved
+    -   <Keys.SoftKey>Quick Build</Keys.SoftKey> - see [next section](#quick-build-cues)
 
--   \[Record By Channel\] is useful if you want to layer multiple cues to
+-   <Keys.SoftKey>Record By Channel</Keys.SoftKey> is useful if you want to layer multiple cues to
     create an effect.
 
 -   If you are recording a lot of cues, you can press <Keys.HardKey>Menu Latch</Keys.HardKey> to
@@ -86,10 +86,10 @@ Other useful things to know about recording cues:
     the Record Cue menu, press <Keys.HardKey>Exit</Keys.HardKey> to leave the menu.
 
 -   The screen immediately above each fader shows a legend for the
-    playback. To set this, from the top-level menu press \[Set Legend\], 
+    playback. To set this, from the top-level menu press <Keys.SoftKey>Set Legend</Keys.SoftKey>, 
     then the playback **Select** button, then enter a legend on the
     keyboard or draw a picture legend. Press <Keys.HardKey>Enter</Keys.HardKey> to store it.\
-    On the Diamond 9, setting \[Halo\] in the Legend menu will set the illumination colour 
+    On the Diamond 9, setting <Keys.SoftKey>Halo</Keys.SoftKey> in the Legend menu will set the illumination colour 
     of the playback fader.
 
 ![Playbacks stored on playback faders](/docs/images/Playbacks-stored-on-playback-faders.png)
@@ -101,7 +101,7 @@ Other useful things to know about recording cues:
 Quick Build Cues
 ----------------
 
-Setting \[Record Mode\] to **Quick Build** allows you to build a cue from
+Setting <Keys.SoftKey>Record Mode</Keys.SoftKey> to **Quick Build** allows you to build a cue from
 existing playbacks or palettes (you can also use the
 [Include function](editing-cues.md#using-parts-of-existing-cues-the-include-function) to
 do this).
@@ -112,7 +112,7 @@ you to select playbacks or palettes.
 To insert specific fixtures from a palette or playback, select the
 fixtures first and then select the palette or playback.
 
-Press \[OK\] once you have selected all the playbacks or palettes
+Press <Keys.SoftKey>OK</Keys.SoftKey> once you have selected all the playbacks or palettes
 required.
 
 Using Shapes/Effects in Cues
@@ -138,7 +138,7 @@ show. Your changes are still shown in the
 
 To put the console into blind mode, just press the <Keys.HardKey>Blind</Keys.HardKey> button *(on
 consoles without a dedicated button, hold down <Keys.HardKey>Avo</Keys.HardKey> and toggle the
-option between \[Blind Inactive\] and \[Blind Active\]  )*.
+option between <Keys.SoftKey>Blind Inactive</Keys.SoftKey> and <Keys.SoftKey>Blind Active</Keys.SoftKey>  )*.
 
 If you want to preview a playback on the visualiser without affecting
 the stage, playbacks can be set to Blind mode using \[Playback
@@ -156,9 +156,9 @@ Recording Cue with a Mask
 You can set a mask when recording a cue so that only certain attributes
 are recorded, the same as you can when
 [recording a palette](../palettes/creating-palettes.md#storing-a-palette). In the
-Record menu, select the \[Set Mask\] option.
+Record menu, select the <Keys.SoftKey>Set Mask</Keys.SoftKey> option.
 
-There is an additional option \[Clear Record Mask\], if this is enabled
+There is an additional option <Keys.SoftKey>Clear Record Mask</Keys.SoftKey>, if this is enabled
 the mask will automatically be cleared after this record operation. This
 is good to stop you accidentally leaving the mask set and causing havoc
 with future cues.

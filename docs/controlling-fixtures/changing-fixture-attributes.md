@@ -96,7 +96,7 @@ The trackball normally controls Pan and Tilt of selected fixtures, with the Z-ri
 1. Select some fixtures having the attribute you want to assign (this is just so the wheel functions are displayed on the roller view).
 2. Select an Attribute Bank so that one of the wheels is controlling the attribute you want to assign.
 3. Press <Keys.HardKey>Assign</Keys.HardKey>.
-4. Press the softkey for the function you want to assign, \[Track Ball X\], \[Track Ball Y\] or \[Wheel Z\].
+4. Press the softkey for the function you want to assign, <Keys.SoftKey>Track Ball X</Keys.SoftKey>, <Keys.SoftKey>Track Ball Y</Keys.SoftKey> or <Keys.SoftKey>Wheel Z</Keys.SoftKey>.
 5. Press the <Keys.HardKey>@</Keys.HardKey> button of the wheel which has the function you want to assign.
 
 The attribute is assigned and the assign menu closes. To check the assignment has worked you can press <Keys.HardKey>Assign</Keys.HardKey> again and the softkeys should show the new attribute.
@@ -113,7 +113,7 @@ intensity and is not changed by the Attribute Bank buttons (unless you reassign 
 Below the wheel is a <Keys.HardKey>Level \@</Keys.HardKey> button which shows the Adjust Attribute
 Value menu for intensity (see [Adjusting Attributes with @ button](../controlling-fixtures/changing-fixture-attributes.md#adjusting-attributes-with-the--buttons) ). 
 
-- You can assign this wheel to control a different attribute - see the trackball section above, but at step 4 use the \[Level Wheel\] softkey to assign the attribute. The display above the wheel will change to show the controlled attribute.
+- You can assign this wheel to control a different attribute - see the trackball section above, but at step 4 use the <Keys.SoftKey>Level Wheel</Keys.SoftKey> softkey to assign the attribute. The display above the wheel will change to show the controlled attribute.
 
 ## Attribute Editor Window
 
@@ -187,7 +187,7 @@ controls are provided:
 -   Align sets pan/tilt to match the settings in the programmer of the
     most recently selected fixture. For example if you want to match the
     tilt of 4 fixtures to the first fixture, select fixtures in the
-    order 2-3-4-1 and press \[Align\].
+    order 2-3-4-1 and press <Keys.SoftKey>Align</Keys.SoftKey>.
 
 -   Pan/Tilt lock buttons are helpful when setting positions of multiple
     fixtures using the X-Y grid. For example if you have 10 pan-fanned
@@ -244,7 +244,7 @@ hand side to set the intensity.
 Lets you pick a gel/filter colour from the Lee, Roscolux or GamColor
 ranges of filters. You can search for a particular colour by name or by
 number using the search bar. There is a context menu button to \[Order
-Filters by Number\] or \[Order Filters by Hue\].
+Filters by Number\] or <Keys.SoftKey>Order Filters by Hue</Keys.SoftKey>.
 
 > For LED fixtures with additional emitters for Warm/Cool white, Amber, UV, Lime or Cyan, Colour Mix will automatically control all the colour channels to obtain the colour. In versions previous to Titan v9 only RGB elements were controlled by the colour picker and other colours had to be set independently.
 
@@ -282,7 +282,7 @@ pressing <Keys.HardKey>Exit</Keys.HardKey> until the vertical menu bar shows "Pr
 
 Type a number on the numeric keypad then press one of the softkeys to
 set the value to the fixture. The Softkey legend will show what effect
-your value is going to have (such as \[Gobo 5\], or \[Deep Blue\]).
+your value is going to have (such as <Keys.SoftKey>Gobo 5</Keys.SoftKey>, or <Keys.SoftKey>Deep Blue</Keys.SoftKey>).
 
 ![Attribute Softkey](/docs/images/Attribute-Softkey.png)
 
@@ -379,7 +379,7 @@ fixtures there are options to set how this is handled, see below.
 1. Select the fixtures you want to Align either manually or using a
 group.
 
-2. Press <Keys.HardKey>ML Menu</Keys.HardKey> then \[Align Fixtures\] (on Diamond 9 press <Keys.HardKey>Align</Keys.HardKey>).
+2. Press <Keys.HardKey>ML Menu</Keys.HardKey> then <Keys.SoftKey>Align Fixtures</Keys.SoftKey> (on Diamond 9 press <Keys.HardKey>Align</Keys.HardKey>).
 
 3. Set the mask to include the attribute groups you want to copy (using
 the Attribute Bank buttons, or using the softkey options for exclude and
@@ -388,31 +388,31 @@ include all attributes).
 4. Touch the select button of the fixture or group you want to copy the
 settings from.
 
-5. Press \[Align\].
+5. Press <Keys.SoftKey>Align</Keys.SoftKey>.
 
 The fixture selection order is used to determine how the aligned values
 are copied.
 
--   The \[Auto Reset Mask\] option will always set the mask to Include
+-   The <Keys.SoftKey>Auto Reset Mask</Keys.SoftKey> option will always set the mask to Include
     All whenever you enter the Align Fixtures function. The alternative
-    option \[Remember Mask\] will leave the last mask set.
+    option <Keys.SoftKey>Remember Mask</Keys.SoftKey> will leave the last mask set.
 
--   \[Spread Attributes\] will try to spread out the attribute changes
+-   <Keys.SoftKey>Spread Attributes</Keys.SoftKey> will try to spread out the attribute changes
     if there are a different number of fixtures in the source and target
-    groups (best for positions). \[Repeat Attributes\] will repeat the
+    groups (best for positions). <Keys.SoftKey>Repeat Attributes</Keys.SoftKey> will repeat the
     source selection on extra fixtures, or attempt to mirror the
     fixtures if there are fewer.
 
--   \[Align Programmer Attributes\] will only align the attributes which
-    are in the programmer, \[Align All Attributes\] will align all the
+-   <Keys.SoftKey>Align Programmer Attributes</Keys.SoftKey> will only align the attributes which
+    are in the programmer, <Keys.SoftKey>Align All Attributes</Keys.SoftKey> will align all the
     attributes which are enabled by the mask. So for example if you want
     to align the tilt of some fixtures and you have set the tilt you
-    want on an example fixture, \[Align Programmer Attributes\] would
-    only change the tilt; but \[Align All Attributes\] would copy the
+    want on an example fixture, <Keys.SoftKey>Align Programmer Attributes</Keys.SoftKey> would
+    only change the tilt; but <Keys.SoftKey>Align All Attributes</Keys.SoftKey> would copy the
     pan setting from the source fixture as well.
 
--   \[Palette References Maintained\] will copy palettes from the source
-    fixtures. \[Palette References Lost\] will convert the palettes to
+-   <Keys.SoftKey>Palette References Maintained</Keys.SoftKey> will copy palettes from the source
+    fixtures. <Keys.SoftKey>Palette References Lost</Keys.SoftKey> will convert the palettes to
     absolute values in the target fixtures.
 
 -   If the fixture you are copying the settings from is also one of the
@@ -430,9 +430,9 @@ Flip function lets you do that.
 
 1. Select the fixtures you want to Flip.
 
-2. Press <Keys.HardKey>Fixture</Keys.HardKey> then \[Flip Pan and Tilt\].
+2. Press <Keys.HardKey>Fixture</Keys.HardKey> then <Keys.SoftKey>Flip Pan and Tilt</Keys.SoftKey>.
 
-- The Position window in the Attribute Editor also has a \[Flip\] button
+- The Position window in the Attribute Editor also has a <Keys.SoftKey>Flip</Keys.SoftKey> button
 which does this. 
 
 - On consoles with a <Keys.HardKey>ML Menu</Keys.HardKey> button you can also use that menu to access Flip.
@@ -476,12 +476,12 @@ groups of separately fanned light beams.
 
 By holding down <Keys.HardKey>Fan</Keys.HardKey> you can select:
 
--   \[Ignore Groups\] All fixtures are fanned as one large group
+-   <Keys.SoftKey>Ignore Groups</Keys.SoftKey> All fixtures are fanned as one large group
 
--   \[Fan Group as Fixture\] All fixtures in a group take on the same
+-   <Keys.SoftKey>Fan Group as Fixture</Keys.SoftKey> All fixtures in a group take on the same
     value.
 
--   \[Fan Within Group\] Fan runs across individual fixtures in each
+-   <Keys.SoftKey>Fan Within Group</Keys.SoftKey> Fan runs across individual fixtures in each
     group.
 
 Holding down <Keys.HardKey>Fan</Keys.HardKey> also allows you to select the Curve used for the
@@ -499,7 +499,7 @@ remain in the programmer.
 ### Fan Curves
 
 You can select different curves to use when in Fan mode. Hold down
-<Keys.HardKey>Fan</Keys.HardKey> and select \[Curve\], the options are:
+<Keys.HardKey>Fan</Keys.HardKey> and select <Keys.SoftKey>Curve</Keys.SoftKey>, the options are:
 
 -   Line: Traditional fan, the first and last selected fixture are
     affected equally in opposite directions, the midpoint remains
@@ -559,7 +559,7 @@ cue, the time settings will then become part of the cue.
 There are a number of ways to set the times:
 
 -   You can set individual attribute times by switching the wheels to
-    Fade Time / Delay Time mode using the \[Wheels=\] softkey on the
+    Fade Time / Delay Time mode using the <Keys.SoftKey>Wheels=</Keys.SoftKey> softkey on the
     root menu. The Diamond 9 has a <Keys.HardKey>Fade / Delay</Keys.HardKey> button to the right
     of the wheels to set this mode.
 
@@ -598,10 +598,10 @@ can use the Off function to remove it from the programmer.
 1. Press <Keys.HardKey>Off</Keys.HardKey> to display the Off menu.
 
 2. Use the Attribute Bank buttons to toggle which attributes you want
-to change. Then press the \[Attributes Off\] softkey to set them to Off.
+to change. Then press the <Keys.SoftKey>Attributes Off</Keys.SoftKey> softkey to set them to Off.
 
 3. The softkeys also give you options to turn off active attributes,
-such as \[Dimmer Off\].
+such as <Keys.SoftKey>Dimmer Off</Keys.SoftKey>.
 
 -   To remove complete fixtures, select the fixtures, press <Keys.HardKey>Off</Keys.HardKey> then
-    \[Selected Fixtures Off\].
+    <Keys.SoftKey>Selected Fixtures Off</Keys.SoftKey>.

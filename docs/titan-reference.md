@@ -10,7 +10,7 @@ Please note that some commands may require <Keys.HardKey>Enter</Keys.HardKey> to
 command. In this reference <Keys.HardKey>Enter</Keys.HardKey> has always been omitted for
 clarity.
 
-\[ Softkey \] formatting means a softkey on the console.
+<Keys.SoftKey> Softkey </Keys.SoftKey> formatting means a softkey on the console.
 
 <Keys.HardKey> Button </Keys.HardKey> formatting means a physical labelled button
 
@@ -135,22 +135,22 @@ Copy, Move in cue list
 **<Keys.HardKey>Copy</Keys.HardKey> \u123Cue list\u125 n <Keys.HardKey>Enter</Keys.HardKey>**\
 Copy cue n and append at the end of the cue list.
 
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue list\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 \[NOT\] 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue list\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
 n**\
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue list\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 \[NOT\] 5 <Keys.HardKey>And</Keys.HardKey> 20
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue list\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
 <Keys.HardKey>Enter</Keys.HardKey> n <Keys.HardKey>Enter</Keys.HardKey>**\
 Copy or move cues 1,2,3,4,6,7,8,9,10,20 from \u123Cue list\u125 and insert after cue n.
 
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue list\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 \[NOT\] 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue list\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
 <Keys.HardKey>@</Keys.HardKey>**\
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue list\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 \[NOT\] 5 <Keys.HardKey>And</Keys.HardKey> 20
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue list\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
 <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey>**\
 Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert at the end of the cue
 list.
 
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue list\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 \[NOT\] 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue list\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
 \u123target playback\u125 n**\
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue list\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 \[NOT\] 5 <Keys.HardKey>And</Keys.HardKey> 20
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue list\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
 <Keys.HardKey>Enter</Keys.HardKey> \u123target playback\u125 n <Keys.HardKey>Enter</Keys.HardKey>**\
 Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert at cue n in the
 target playback.

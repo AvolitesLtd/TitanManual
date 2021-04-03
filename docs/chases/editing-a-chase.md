@@ -50,24 +50,24 @@ times will operate as programmed)*
     Step\], then the **Select** button for the cue number.
 
 -   To **insert** a cue between two other cues, set up the look for the new
-    cue, press \[Insert Step\], then type the cue number for the new cue
+    cue, press <Keys.SoftKey>Insert Step</Keys.SoftKey>, then type the cue number for the new cue
     (such as 1.5 to go between 1 and 2). If this cue number already
     exists it will be merged with the look you have created. Otherwise a
     new cue is inserted.
 
 -   To **insert** a new cue at the end of the chase, set up the look for the
-    new cue, press \[Insert Step\], then press the **Select** button of the
+    new cue, press <Keys.SoftKey>Insert Step</Keys.SoftKey>, then press the **Select** button of the
     first free playback.
 
 -   To **merge** the programmer into the live step, double tap \[Record
     Step\].
 
--   To change individual times for the cue, press \[Edit Times\], then
+-   To change individual times for the cue, press <Keys.SoftKey>Edit Times</Keys.SoftKey>, then
     the **Select** button for the cue (or type the cue number), then set the
     times. This is described in detail in [Chase Timing](chase-timing.md).
 
 -   If the chase has more steps than there are playback faders, you can
-    go between pages using the \[Previous Page\] and \[Next Page\]
+    go between pages using the <Keys.SoftKey>Previous Page</Keys.SoftKey> and <Keys.SoftKey>Next Page</Keys.SoftKey>
     buttons.
 
 Extracting a step from a chase with Include
@@ -75,7 +75,7 @@ Extracting a step from a chase with Include
 
 You can reload a single cue/step from a chase into the programmer using
 Include. Press <Keys.HardKey>Include</Keys.HardKey>, select the chase, then enter the step number to
-be included, then press \[Include Cue\].
+be included, then press <Keys.SoftKey>Include Cue</Keys.SoftKey>.
 
 This is useful if you want to reuse a state from a cue in another
 chase or as a stand-alone cue. It is also useful if you want to edit

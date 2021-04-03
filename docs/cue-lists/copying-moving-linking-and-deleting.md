@@ -25,4 +25,4 @@ Deleting a Cue List
 
 You can delete a whole cue list by pressing <Keys.HardKey>Delete</Keys.HardKey> then the **Select**
 button of the playback to be deleted. Confirm the deletion by pressing
-the select button again, or the \[Confirm\] softkey, or <Keys.HardKey>Enter</Keys.HardKey>.
+the select button again, or the <Keys.SoftKey>Confirm</Keys.SoftKey> softkey, or <Keys.HardKey>Enter</Keys.HardKey>.

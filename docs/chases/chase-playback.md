@@ -67,7 +67,7 @@ you can choose which one is connected to the controls using the
     (<Keys.HardKey>Avo</Keys.HardKey> + \[User
     Settings\], in the Times tab set the option **[Connected View Sets](../system-settings/user-settings.md#connected-view-sets)** to
     **Temporary Speed**. You can still save a temporary speed by pressing
-    \[Save Temporary Speed\] in the Set Times menu.
+    <Keys.SoftKey>Save Temporary Speed</Keys.SoftKey> in the Set Times menu.
 
 Setting Speed and Crossfade for a Chase
 ---------------------------------------
@@ -88,14 +88,14 @@ the other half of the time.
 
 You set the crossfade and speed as follows:
 
-1. Press \[Edit Times\] from the top level menu then the **Select** button of
+1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> from the top level menu then the **Select** button of
 the chase.
 
-2. To set the **crossfade**, press \[XFade\] and type the fade from **0 - 100**.\
+2. To set the **crossfade**, press <Keys.SoftKey>XFade</Keys.SoftKey> and type the fade from **0 - 100**.\
 *0 = no fade (the chase will "snap"), 100 = max fade (the chase will
 move continuously from step to step).*
 
-3. To set the **speed**, press \[Speed\], type the new speed, then press
+3. To set the **speed**, press <Keys.SoftKey>Speed</Keys.SoftKey>, type the new speed, then press
 <Keys.HardKey>Enter</Keys.HardKey>.\
 *The speed can be set in Beats Per Minute (BPM) or seconds
 depending in the [User Settings](../system-settings/user-settings.md).*
@@ -111,8 +111,8 @@ or the [<Keys.HardKey>Unfold</Keys.HardKey> function](editing-a-chase.md#editing
 described in [Editing a Chase](editing-a-chase.md).
 
 You can select whether the chase speed is displayed in seconds or in
-Beats Per Minute (BPM). Press <Keys.HardKey>Avo</Keys.HardKey> and \[User Settings\], then press
-\[Tempo Units\] to set the option to \[Tempo Units Seconds\] or \[Tempo
+Beats Per Minute (BPM). Press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.SoftKey>User Settings</Keys.SoftKey>, then press
+<Keys.SoftKey>Tempo Units</Keys.SoftKey> to set the option to <Keys.SoftKey>Tempo Units Seconds</Keys.SoftKey> or \[Tempo
 Units Beats Per Minute (BPM)\].
 
 You can also allocate a [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters)
@@ -136,14 +136,14 @@ Snap\]](../system-settings/user-settings.md#chase-snap), or press <Keys.HardKey>
 You can also configure the blue and grey buttons of the playback handle
 to be Stop and Go. This uses the [Key Profiles function](../system-settings/key-profiles.md).
 
-1. Hold <Keys.HardKey>Avo</Keys.HardKey> and press \[Edit Current Key Profile\].
+1. Hold <Keys.HardKey>Avo</Keys.HardKey> and press <Keys.SoftKey>Edit Current Key Profile</Keys.SoftKey>.
 
 2. If you are using the default [Key Profile] which is not editable, you
 will be prompted to add a new profile.
 
-3. Press \[Chases\] then choose either the Blue key or the Grey key.
+3. Press <Keys.SoftKey>Chases</Keys.SoftKey> then choose either the Blue key or the Grey key.
 
-4. Select \[Go\] or \[Stop\] from the list of functions. Then press <Keys.HardKey>Exit</Keys.HardKey>
+4. Select <Keys.SoftKey>Go</Keys.SoftKey> or <Keys.SoftKey>Stop</Keys.SoftKey> from the list of functions. Then press <Keys.HardKey>Exit</Keys.HardKey>
 and set the function for the other key if required.
 
 5. Press <Keys.HardKey>Exit</Keys.HardKey> to continue using the console.

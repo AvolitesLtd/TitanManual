@@ -44,7 +44,7 @@ legend\] to set a legend.
 
 4. Touch an empty button in the Groups window, or press the Select button
 of a fader handle where you want to store the group, or 
-press \[Store\] to store as a numbered group.
+press <Keys.SoftKey>Store</Keys.SoftKey> to store as a numbered group.
 
 5. Press <Keys.HardKey>Clear</Keys.HardKey> then repeat from 1 to store other groups.
 
@@ -71,7 +71,7 @@ press \[Store\] to store as a numbered group.
 
 2. Type in the number of the group you want to recall.
 
-3. Press \[Recall Group\].
+3. Press <Keys.SoftKey>Recall Group</Keys.SoftKey>.
 
 -   The <Keys.HardKey>Group</Keys.HardKey> button also gives you facilities on the softkeys to
     edit and delete groups.
@@ -102,9 +102,9 @@ The group will now only contain the fixtures which remained selected.
 
 When patching multiple fixtures, the console automatically creates
 groups for you. A fixture type group is created which contains all
-fixtures of the same type (for example, \[All Robe Pointe\]). Another
+fixtures of the same type (for example, <Keys.SoftKey>All Robe Pointe</Keys.SoftKey>). Another
 group is created each time you patch a quantity of fixtures (for
-example, \[4 BB4\].) This function can be turned off using \[Auto
+example, <Keys.SoftKey>4 BB4</Keys.SoftKey>.) This function can be turned off using \[Auto
 Groups\] in the User Settings.
 
 -  "All" fixture type groups can't be deleted - when you press Delete
@@ -131,13 +131,13 @@ To change the numerical fixture order:
 
 2. Select the group you want to edit.
 
-3. Press \[Fixture Order\].
+3. Press <Keys.SoftKey>Fixture Order</Keys.SoftKey>.
 
 The fixtures in the group will be shown numbered in the fixtures window.
 
 ![Fixture Order](/docs/images/Fixture-Order.png)
 
-To change the order, select \[Auto Increment\] to On, then select the
+To change the order, select <Keys.SoftKey>Auto Increment</Keys.SoftKey> to On, then select the
 fixtures in the order you want. If you press a fixture twice, it will
 show an X indicating that it is not part of the sequence.
 
@@ -151,7 +151,7 @@ To change the 2D fixture layout:
 
 2. Select the group you want to edit.
 
-3. Press \[Edit Layout\]. The Layout Editor window will open.
+3. Press <Keys.SoftKey>Edit Layout</Keys.SoftKey>. The Layout Editor window will open.
 
 Initially fixtures will be all in a row. You can reposition the fixtures
 anywhere on the screen by dragging them. Or press a fixture to select
@@ -163,7 +163,7 @@ rotated, move as a block. Depending on the fixture personality,
 sometimes the cells may not match the actual physical layout of the
 cells on the fixture.
 
-The \[Arrange Fixtures\] context command will automatically place the
+The <Keys.SoftKey>Arrange Fixtures</Keys.SoftKey> context command will automatically place the
 fixtures in a rectangular block, you specify the number of rows (Height)
 and columns (Width).
 
@@ -190,8 +190,8 @@ and columns (Width).
     rotate. If you press the @ button for the wheel, a window opens
     allowing you to type in the values numerically.
 
--   If you click the context menu button \[Position and Angle\] it will
-    change to \[Scale\] which allows you to spread out or compress the
+-   If you click the context menu button <Keys.SoftKey>Position and Angle</Keys.SoftKey> it will
+    change to <Keys.SoftKey>Scale</Keys.SoftKey> which allows you to spread out or compress the
     cells in a multi-cell fixture. This is useful to get cells located
     correctly if you have some fixtures with large cell spacing and some
     with small spacing.\
@@ -204,4 +204,4 @@ and columns (Width).
     [Pixel Mapper section](../effects/pixel-mapper.md). There are also some features
     to help with [Synergy/Ai mapping](../synergy/operating-synergy.md#layout-editor-with-ai-server).
 
-> You can temporarily randomize the fixture order when selecting fixtures using a group by holding down the group button and pressing \[Random Order\] which appears as a softkey option while the button is held.
+> You can temporarily randomize the fixture order when selecting fixtures using a group by holding down the group button and pressing <Keys.SoftKey>Random Order</Keys.SoftKey> which appears as a softkey option while the button is held.

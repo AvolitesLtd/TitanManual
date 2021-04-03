@@ -30,7 +30,7 @@ To create or edit a profile, go to the **System** menu (press <Keys.HardKey>Avo<
 Profiles\]. You can then use the Manage Profiles menu to View, Edit,
 Add, Delete or Rename profiles.
 
-You can also create or edit key profiles in the \[Handle\] tab of
+You can also create or edit key profiles in the <Keys.SoftKey>Handle</Keys.SoftKey> tab of
 playback Options.
 
 Key Profiles can also be viewed from the Show Library window as
@@ -40,7 +40,7 @@ When Adding a new profile, you can select an existing profile to copy
 settings from.
 
 You can also edit Key Profiles from Program mode by holding <Keys.HardKey>Avo</Keys.HardKey>,
-then selecting \[Edit Current Key Profile\]. If the current key profile
+then selecting <Keys.SoftKey>Edit Current Key Profile</Keys.SoftKey>. If the current key profile
 is one of the non-editable system ones, you are prompted to add a new
 profile or select an existing editable profile.
 
@@ -139,7 +139,7 @@ on empty handles).
 
 ### Masters
 
-You can set different button options for \[Standard Masters\] and \[Scene Master\].
+You can set different button options for <Keys.SoftKey>Standard Masters</Keys.SoftKey> and <Keys.SoftKey>Scene Master</Keys.SoftKey>.
 
 For Standard Masters the options are **Disabled**, **Selection**, **Flash**, **Latch**, 
 **Connect**, **Tap Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, 
@@ -160,7 +160,7 @@ For Scene Master the options are **Disabled**, **Preload Scene Mode**,
 ## Changing the Key Profile
 
 To quickly change the Key Profile, hold the <Keys.HardKey>Avo</Keys.HardKey> button and press
-\[Select Key Profile\]. This changes the global Key Profile used for all handles,
+<Keys.SoftKey>Select Key Profile</Keys.SoftKey>. This changes the global Key Profile used for all handles,
 unless they have an individual Key Profile set as described below.
 
 ## Individual Key Profiles for playbacks
@@ -168,8 +168,8 @@ unless they have an individual Key Profile set as described below.
 Each playback can have an individual Key Profile allocated to it. This
 allows you to customise the panel button functions differently for each
 playback. The Key Profile for the playback is selected using the
-\[Handles\] option on playback Options. If the playback Key Profile is
-set to \[Global\], the default global profile for Cue / Chase / Cue List
+<Keys.SoftKey>Handles</Keys.SoftKey> option on playback Options. If the playback Key Profile is
+set to <Keys.SoftKey>Global</Keys.SoftKey>, the default global profile for Cue / Chase / Cue List
 is used.
 
 You can quickly set the Key Profile for a playback by selecting the handle while holding the <Keys.HardKey>Options</Keys.HardKey> button

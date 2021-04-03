@@ -67,7 +67,7 @@ Selecting timecode source
 
 You can select one of the four available timecode sources to control your timeline from the [Timeline Options](./timelines/timeline-options.md#timecode-tab).
 
-To set up and enable each of the timecode sources as Internal, MIDI, Clock or SMPTE use the \[Timecode\] softkey at the top level main menu or double press <Keys.HardKey>Open/View</Keys.HardKey> and open the appropriate **Timecode window**.
+To set up and enable each of the timecode sources as Internal, MIDI, Clock or SMPTE use the <Keys.SoftKey>Timecode</Keys.SoftKey> softkey at the top level main menu or double press <Keys.HardKey>Open/View</Keys.HardKey> and open the appropriate **Timecode window**.
 
 Timecode linking and local timecode controls
 ------------------

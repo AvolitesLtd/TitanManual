@@ -26,7 +26,7 @@ the TitanNet overview.
 Configuring DMX Outputs
 -----------------------
 
-From the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select \[DMX Settings\].
+From the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
 
 The window will initially show the node tab relating to the console
 itself. It shows a list of available DMX *nodes* (places where you can
@@ -63,7 +63,7 @@ assign it to a different line.
 
 When patching Art-Net and sACN nodes you can patch a number of universes
 in one go: select the first node you want to assign (i.e. sACN: Universe 1) on the left 
-hand side enter values for \[Universe\] and \[Quantity\] with the softkeys, and then
+hand side enter values for <Keys.SoftKey>Universe</Keys.SoftKey> and <Keys.SoftKey>Quantity</Keys.SoftKey> with the softkeys, and then
 click on the line from which on you want to assign this. Titan will then patch 
 the number of universes on consecutive lines.
 
@@ -86,7 +86,7 @@ A module is a method of sending DMX (such as Art-Net, or sACN) and can be
 thought of as a collection of nodes.
 
 You can set properties for DMX512 outputs, Art-Net or sACN by going to the DMX Settings
-window (from the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select \[DMX Settings\]) and then
+window (from the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Settings</Keys.SoftKey>) and then
 click the <Keys.ContextKey>Cog</Keys.ContextKey> icon at the right hand side of the module name.
 
 This allows you to adjust settings for each module, and for the network
@@ -212,12 +212,12 @@ DMX Merge
 The DMX merge window allows you to set up merging of the local Titan output
 with sACN universes from other sources in a system where you have multiple 
 consoles or processing nodes connected. 
-From the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select \[DMX Merge Settings\].
+From the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Merge Settings</Keys.SoftKey>.
 
 ![DMX Merge Window](/docs/images/DMX-Merge-Window.png)
 
 To assign a universe to an output port, click on **Patch Titan Lines** or
-**Patch External sACN Merge**, set \[Universe\]
+**Patch External sACN Merge**, set <Keys.SoftKey>Universe</Keys.SoftKey>
 number then click on a port to assign.
 
 To remove an assignment, click on **Clear sACN Merge** then select a port.

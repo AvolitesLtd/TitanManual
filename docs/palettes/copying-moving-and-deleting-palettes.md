@@ -30,15 +30,15 @@ add more to the selection - hold down <Keys.HardKey>And</Keys.HardKey> to keep a
     can keep copying, moving or linking things without having to keep
     pressing <Keys.HardKey>Copy</Keys.HardKey>. Press <Keys.HardKey>Menu Latch</Keys.HardKey> again to unlatch.
 
--   \[Retain Layout\] or \[Bunch Up\] is used when copying a group of
+-   <Keys.SoftKey>Retain Layout</Keys.SoftKey> or <Keys.SoftKey>Bunch Up</Keys.SoftKey> is used when copying a group of
     palettes with empty handles in the group - you can either keep the
     empty handles, or bunch up the used handles together.
 
--   When in Copy mode, option \[Copy Legends\] can be changed to \[Don't
+-   When in Copy mode, option <Keys.SoftKey>Copy Legends</Keys.SoftKey> can be changed to \[Don't
     copy legends\] so that the copied palettes are given default
     legends.
 
--   When in Move mode, \[Swap Items if Required\] will attempt to
+-   When in Move mode, <Keys.SoftKey>Swap Items if Required</Keys.SoftKey> will attempt to
     reposition any existing handles which are in the way of the move.
     This is useful when rearranging buttons on a page which is nearly
     full.
@@ -55,12 +55,12 @@ pressing the last one.
 Other ways to delete a palette:
 
 -   If the console has an <Keys.HardKey>Update Palette</Keys.HardKey> button, press it, then
-    select a palette, then use the \[Delete\] softkey option
+    select a palette, then use the <Keys.SoftKey>Delete</Keys.SoftKey> softkey option
 
 -   Press the <Keys.HardKey>Palette</Keys.HardKey> button above the numeric keypad and use the
-    \[Delete\] option in the \[Palette Utilities\] menu
+    <Keys.SoftKey>Delete</Keys.SoftKey> option in the <Keys.SoftKey>Palette Utilities</Keys.SoftKey> menu
 
--   Press <Keys.HardKey>Delete</Keys.HardKey> then \[Palette\], type the palette number, press
+-   Press <Keys.HardKey>Delete</Keys.HardKey> then <Keys.SoftKey>Palette</Keys.SoftKey>, type the palette number, press
     <Keys.HardKey>Enter</Keys.HardKey>
 
 >   If you have playbacks which use the deleted palette, they will go

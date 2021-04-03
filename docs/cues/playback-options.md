@@ -8,15 +8,15 @@ import Keys from '/src/components/key.ts';
 
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
-To set options for a cue, chase or cue list, press <Keys.HardKey>Options</Keys.HardKey> (or the \[Options\] softkey
+To set options for a cue, chase or cue list, press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey
 on the top level menu), then press the **Select** button of the playback to be
 edited. The Options window will open allowing you to set a wide range
 of options for how the playback will work, including Times. (You can also set the options using the softkeys.)
 
-You can also [set Times for the playback](cue-timing.md), using the <Keys.HardKey>Time</Keys.HardKey> button or the \[Times\] softkey rather than Options.
+You can also [set Times for the playback](cue-timing.md), using the <Keys.HardKey>Time</Keys.HardKey> button or the <Keys.SoftKey>Times</Keys.SoftKey> softkey rather than Options.
 
 The options are split into different categories using tabs down the left hand side.
-Click on the \[i\] button for a help window on each setting.
+Click on the <Keys.SoftKey>i</Keys.SoftKey> button for a help window on each setting.
 The options shown below in the pictures are for a normal cue, for cue lists and chases the options are different (and are described
 in the Cue List chapter and the Chases chapter).
 
@@ -155,7 +155,7 @@ Mode 1 | HTP channels fade in and out as set by the fade out times (LTP channels
 Mode 2 | Both HTP and LTP channels follow the fader position. *Useful when used with a pan/tilt cue for manually tracking a spot across a stage or down a catwalk using the fader position or for mixing colours on RGB fixtures.*
 Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to the settings in the new cue. All other cues fade out and all other active playbacks become inactive; if you need to re-fire a playback, take the fader to zero and put it up again. *Useful for setting a video playback state.*
 
-This is the same as the [Fade Mode](cue-timing.md/#fade-modes) option in the \[Edit Times\] menu.
+This is the same as the [Fade Mode](cue-timing.md/#fade-modes) option in the <Keys.SoftKey>Edit Times</Keys.SoftKey> menu.
 
 [](https://youtu.be/2fwM5S8nX3k?t=20 "Playback Modes")
 
@@ -182,10 +182,10 @@ Fader at 0 | The cue is killed when the fader reaches zero.
 Lets you modify the speed of the effects programmed into this playback.
 
 ### Shape & Effect Speed
-Sets whether the fader position modifies the speed of shapes in this playback. If set to \[On Fader\] then the speed will change from 0 with the fader at 0, up to the programmed
+Sets whether the fader position modifies the speed of shapes in this playback. If set to <Keys.SoftKey>On Fader</Keys.SoftKey> then the speed will change from 0 with the fader at 0, up to the programmed
 speed with the fader at full. You can use the multiplier option above to get faster speeds than the programmed speed.
 
-> If you have a cue which contains only shapes to overlay on other cues, set the cue to \[Size on Fader\] and allocate a [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters). You can then create lots of different looks out of the shape by varying the size and speed at show time using the playback fader and the speed master.
+> If you have a cue which contains only shapes to overlay on other cues, set the cue to <Keys.SoftKey>Size on Fader</Keys.SoftKey> and allocate a [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters). You can then create lots of different looks out of the shape by varying the size and speed at show time using the playback fader and the speed master.
 
 ### Shape Behaviour
 Controls the behaviour of Key Frame Shapes in this playback:

@@ -16,7 +16,7 @@ window](editing-a-chase.md#opening-a-chase-for-editing) or
 [Unfold](editing-a-chase.md#editing-a-chase-using-unfold). This is 
 described below in [Individual Cue Times in Chases](#individual-cue-times-in-chases).
 
-1. Press \[Edit Times\] from the top level menu then the **Select** button of
+1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> from the top level menu then the **Select** button of
 the chase
 
 2. Set the **Crossfade**, **Speed**, **Fixture Overlap** and **Attribute Overlap**
@@ -26,11 +26,11 @@ settings, as described below
 
 ---
 
--   To set **speed**, press \[Speed\] then type the new speed, then press
+-   To set **speed**, press <Keys.SoftKey>Speed</Keys.SoftKey> then type the new speed, then press
     <Keys.HardKey>Enter</Keys.HardKey>. The speed can be set in Beats Per Minute (BPM) or seconds
     depending on the user settings.
 
--   To set **crossfade**, press \[XFade\] then type the fade from **0 - 100**
+-   To set **crossfade**, press <Keys.SoftKey>XFade</Keys.SoftKey> then type the fade from **0 - 100**
     and press <Keys.HardKey>Enter</Keys.HardKey>.\
     *0=no fade (the chase will "snap"), 100=max fade (the chase will move
     continuously from cue to cue).*
@@ -75,7 +75,7 @@ window will open.
 
 1. Press <Keys.HardKey>Unfold</Keys.HardKey> then the **Select** button of the chase to be edited.
 
-2. Press \[Edit Times\] then the **Select** button of the unfolded cue you
+2. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> then the **Select** button of the unfolded cue you
 want to edit.
 
 3. Set up the timing options as required. The options are described
@@ -87,7 +87,7 @@ below.
 
 Initially all the timing options are set to Global. You can cancel any
 individual timings and set the time back to global timings by pressing
-the softkey for the option then pressing \[Use Global\].
+the softkey for the option then pressing <Keys.SoftKey>Use Global</Keys.SoftKey>.
 
 The timing options for the cue are:
 
@@ -103,8 +103,8 @@ The timing options for the cue are:
 
 -   Attribute times (see [next section](#setting-attribute-fade-times-for-a-cue-in-a-chase))
 
-Linking can be set to \[Link After Previous\] (the chase will run
-automatically) or \[Link Wait For Go\] which will stop the chase until
+Linking can be set to <Keys.SoftKey>Link After Previous</Keys.SoftKey> (the chase will run
+automatically) or <Keys.SoftKey>Link Wait For Go</Keys.SoftKey> which will stop the chase until
 you press <Keys.HardKey>Go</Keys.HardKey>.
 
 ## Setting Attribute Fade Times for a Cue in a Chase
@@ -119,17 +119,17 @@ To set an attribute group fade time:
 1. Press <Keys.HardKey>Open/View</Keys.HardKey> or <Keys.HardKey>Unfold</Keys.HardKey>, then the **Select** button of the chase
 to be edited.
 
-2. Press \[Edit Times\] then touch the cue you want to edit in the
+2. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> then touch the cue you want to edit in the
 Playback View, or if using Unfold, press the **Select** button of the unfolded
 cue you want to edit.
 
 3. Press the **Attribute Options** button (right hand side) for the
 attribute you want to change.
 
-4. Press \[Delay\] to set delay time or \[Set fade\] to set fade time.
+4. Press <Keys.SoftKey>Delay</Keys.SoftKey> to set delay time or <Keys.SoftKey>Set fade</Keys.SoftKey> to set fade time.
 
 5. Type the new time using the numeric keypad and press <Keys.HardKey>Enter</Keys.HardKey> to
-save it, or press \[Use Global\] to delete the attribute times and go
+save it, or press <Keys.SoftKey>Use Global</Keys.SoftKey> to delete the attribute times and go
 back to the normal times.
 
 6. Press <Keys.HardKey>Enter</Keys.HardKey> to save the changes.
@@ -138,7 +138,7 @@ back to the normal times.
 
 Rate or BPM masters can be allocated to chases, allowing you to control
 the speed from a separate master fader. You set this by pressing
-\[Effects\] then \[Speed Source\] in the [Options](../cues/playback-options.md) for the chase.
+<Keys.SoftKey>Effects</Keys.SoftKey> then <Keys.SoftKey>Speed Source</Keys.SoftKey> in the [Options](../cues/playback-options.md) for the chase.
 See [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
 
 ## Speed Multipliers
@@ -147,7 +147,7 @@ Speed multipliers allow you to modify the chase speed, either faster
 (for example "x4") or slower (for example "/4"). This is useful when
 running multiple chases together.
 
-Press \[Speed Multiplier\] In the Edit Times menu for the chase, or use
-the \[Speed Multiplier\] option in the Times category of the 
-[Options](../cues/playback-options.md) for the chase. Use the \[Multiply or Divide\] softkey to swap
+Press <Keys.SoftKey>Speed Multiplier</Keys.SoftKey> In the Edit Times menu for the chase, or use
+the <Keys.SoftKey>Speed Multiplier</Keys.SoftKey> option in the Times category of the 
+[Options](../cues/playback-options.md) for the chase. Use the <Keys.SoftKey>Multiply or Divide</Keys.SoftKey> softkey to swap
 the value between multiply and divide.

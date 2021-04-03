@@ -46,12 +46,12 @@ numeric keypad.
 
 3. Type in the number of the palette you want to recall.
 
-4. Press <Keys.HardKey>Enter</Keys.HardKey> or \[Apply Palette\].
+4. Press <Keys.HardKey>Enter</Keys.HardKey> or <Keys.SoftKey>Apply Palette</Keys.SoftKey>.
 
-The \[Apply Palette\] softkey shows the legend of the palette which
+The <Keys.SoftKey>Apply Palette</Keys.SoftKey> softkey shows the legend of the palette which
 will be applied.
 
->   If you want to recall multiple palettes simultaneously you can use the Blind to Live function. Put the console into Blind mode (either press the <Keys.HardKey>Blind</Keys.HardKey> button if provided, or hold <Keys.HardKey>Avo</Keys.HardKey> and press \[Blind Inactive\]. Select the palettes you want to use. Enter a fade time in seconds on the keypad (or 0 to snap), then press <Keys.HardKey>Blind</Keys.HardKey> again. The palettes will fade to the live output.
+>   If you want to recall multiple palettes simultaneously you can use the Blind to Live function. Put the console into Blind mode (either press the <Keys.HardKey>Blind</Keys.HardKey> button if provided, or hold <Keys.HardKey>Avo</Keys.HardKey> and press <Keys.SoftKey>Blind Inactive</Keys.SoftKey>. Select the palettes you want to use. Enter a fade time in seconds on the keypad (or 0 to snap), then press <Keys.HardKey>Blind</Keys.HardKey> again. The palettes will fade to the live output.
 
 Palette Pages
 -------------

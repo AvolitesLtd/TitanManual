@@ -6,7 +6,7 @@ sidebar_label: Chase Options
 
 import Keys from '/src/components/key.ts';
 
-To set options for a chase, press <Keys.HardKey>Options</Keys.HardKey> or \[Options\] on the root menu,
+To set options for a chase, press <Keys.HardKey>Options</Keys.HardKey> or <Keys.SoftKey>Options</Keys.SoftKey> on the root menu,
 then press the **Select** button of the playback to be edited. Options will
 be shown on the softkeys. You can also set options from the Chase View window, press
 <Keys.HardKey>Open/View</Keys.HardKey> then the **Select** button of the playback, then click the
@@ -36,12 +36,12 @@ Unlinks all the steps in the chase so you need to press the Go button to move to
 Sets how the cues in the chase are linked. The options
 are:
 
-\[Link according to individual steps\] - Each step in the chase will obey its 
+<Keys.SoftKey>Link according to individual steps</Keys.SoftKey> - Each step in the chase will obey its 
 individual link settings which are set using the
 [Playback View window](editing-a-chase.md#opening-a-chase-for-editing)
 or the [<Keys.HardKey>Unfold</Keys.HardKey> function](editing-a-chase.md#editing-a-chase-using-unfold).\
-\[Always Link Steps\] - The chase will run on its own using the times\
-\[Never Link Steps\] - The chase will pause after every delay/fade time
+<Keys.SoftKey>Always Link Steps</Keys.SoftKey> - The chase will run on its own using the times\
+<Keys.SoftKey>Never Link Steps</Keys.SoftKey> - The chase will pause after every delay/fade time
 for the user to press <Keys.HardKey>Go</Keys.HardKey>
 
 > When a chase is unlinked, raising the fader does not fire the first cue, which can be a problem. To get round this, if the chase is not looped, simply link the first cue to the previous one. If the chase is looped, add a dummy step at the end with 0 sec fade, 0 sec delay and link the first step to this one.
@@ -49,8 +49,8 @@ for the user to press <Keys.HardKey>Go</Keys.HardKey>
 ### Loop Action
 Sets what happens at the end of the chase:
 
-\[Stop on Final Cue\] - Chase stops at the end\
-\[Loop\] - The chase will loop back to the beginning
+<Keys.SoftKey>Stop on Final Cue</Keys.SoftKey> - Chase stops at the end\
+<Keys.SoftKey>Loop</Keys.SoftKey> - The chase will loop back to the beginning
 
 ### Play Order
 Sets the direction of the chase.

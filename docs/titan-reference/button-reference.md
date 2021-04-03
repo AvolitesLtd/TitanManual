@@ -44,7 +44,7 @@ For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](
 
  --- 
 ## <Keys.HardKey>And</Keys.HardKey> 
- Used when selecting multiple items using the numeric keypad, can be combined with <Keys.HardKey>Through</Keys.HardKey> and <Keys.HardKey>Not</Keys.HardKey>. See [Selecting fixtures and dimmers by number](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel). Some consoles do not have this button, an \[And\] softkey is also provided.
+ Used when selecting multiple items using the numeric keypad, can be combined with <Keys.HardKey>Through</Keys.HardKey> and <Keys.HardKey>Not</Keys.HardKey>. See [Selecting fixtures and dimmers by number](../controlling-fixtures.md/#selecting-fixtures-and-dimmers-by-number-channel). Some consoles do not have this button, an <Keys.SoftKey>And</Keys.SoftKey> softkey is also provided.
 
  Example:  <Keys.HardKey>Fixture</Keys.HardKey> 1 <Keys.HardKey>And</Keys.HardKey> 5 <Keys.HardKey>And</Keys.HardKey> 7
 
@@ -78,10 +78,10 @@ For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Size/Position</Keys.HardKey> | Move the active workspace window to the next screen, see [Workspace windows](../titan-basics/workspace-windows.md#changing-window-size-and-appearance).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Time</Keys.HardKey> | Preview Attribute fade time, see [Attribute Times](../controlling-fixtures/changing-fixture-attributes.md#setting-fixtureattribute-times).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Undo</Keys.HardKey> or <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>@</Keys.HardKey> | Redo, see [Undo/Redo](../titan-basics/other-parts-of-the-touch-screen.md/#undoredo).
- <Keys.HardKey>Avo</Keys.HardKey> + \[Blind\] | Toggle Blind mode, same as pressing <Keys.HardKey>Blind</Keys.HardKey>.
- <Keys.HardKey>Avo</Keys.HardKey> + \[Edit current key profile\] | Reallocate the function of the Select and Flash buttons, see [Key Profiles](../system-settings/key-profiles.md).
- <Keys.HardKey>Avo</Keys.HardKey> + \[Lock\] | Temporarily lock console controls, see [Locking the console](../titan-basics/front-panel-buttons.md#locking-the-console).
- <Keys.HardKey>Avo</Keys.HardKey> + \[User Settings\] | Enter the User Settings menu, see [User Settings](../system-settings/user-settings.md).
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Blind</Keys.SoftKey> | Toggle Blind mode, same as pressing <Keys.HardKey>Blind</Keys.HardKey>.
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Edit current key profile</Keys.SoftKey> | Reallocate the function of the Select and Flash buttons, see [Key Profiles](../system-settings/key-profiles.md).
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Lock</Keys.SoftKey> | Temporarily lock console controls, see [Locking the console](../titan-basics/front-panel-buttons.md#locking-the-console).
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>User Settings</Keys.SoftKey> | Enter the User Settings menu, see [User Settings](../system-settings/user-settings.md).
  <Keys.HardKey>Avo</Keys.HardKey> + {Scene Master} | Enter or exit preset mode when Scene Master assigned to Macro/Executor button or touch button, see [Scene Master](../running-the-show/playback-controls.md#scene-master).
  <Keys.HardKey>Avo</Keys.HardKey> + {Master} | Releases the master to its default state (no effect on output), see [Releasing a Master](../cues/cue-playback.md#releasing-a-master).
  <Keys.HardKey>Avo</Keys.HardKey> + {Playback} | Kill playback, see [Release](../cues/cue-playback.md#release).
@@ -118,11 +118,11 @@ Backspace key for numeric entry or command line inputs.
  <Keys.HardKey>Clear</Keys.HardKey> | Single press clears the programmer and deselects fixtures. (Optional 2-press sequence, see [Clear Action Precedence](../system-settings/user-settings.md#clear)) 
  ``<n>`` <Keys.HardKey>Clear</Keys.HardKey> | Clears the programmer with a fade out time of ``<n>``
 <Keys.HardKey>Clear</Keys.HardKey> + <Keys.HardKey>All</Keys.HardKey> | Deselect all fixtures but keep changes in programmer
-<Keys.HardKey>Clear</Keys.HardKey> + \[Set Mask\] | Clears only the attribute groups specified in the mask
-<Keys.HardKey>Clear</Keys.HardKey> + \[Clear Selected Fixtures\] | Only clears the programmer for fixtures which are currently selected
-<Keys.HardKey>Clear</Keys.HardKey> + \[Individual Attributes\] | Clear individual attributes from programmer (use softkeys to select)
-<Keys.HardKey>Clear</Keys.HardKey> + \[Clear All Programmers\] | Clears programmers from other users and from the Titan Remote
-<Keys.HardKey>Clear</Keys.HardKey> + \[Clear Options\] | Show user settings for Clear, see [User settings - Clear](../system-settings/user-settings.md/#clear)
+<Keys.HardKey>Clear</Keys.HardKey> + <Keys.SoftKey>Set Mask</Keys.SoftKey> | Clears only the attribute groups specified in the mask
+<Keys.HardKey>Clear</Keys.HardKey> + <Keys.SoftKey>Clear Selected Fixtures</Keys.SoftKey> | Only clears the programmer for fixtures which are currently selected
+<Keys.HardKey>Clear</Keys.HardKey> + <Keys.SoftKey>Individual Attributes</Keys.SoftKey> | Clear individual attributes from programmer (use softkeys to select)
+<Keys.HardKey>Clear</Keys.HardKey> + <Keys.SoftKey>Clear All Programmers</Keys.SoftKey> | Clears programmers from other users and from the Titan Remote
+<Keys.HardKey>Clear</Keys.HardKey> + <Keys.SoftKey>Clear Options</Keys.SoftKey> | Show user settings for Clear, see [User settings - Clear](../system-settings/user-settings.md/#clear)
 
  --- 
 ## <Keys.HardKey>Close</Keys.HardKey> 
@@ -153,7 +153,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
  Buttons | Action
  --------|--------
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Copy</Keys.HardKey> | Same as pressing <Keys.HardKey>Move</Keys.HardKey> (for consoles which don't have a Move button, but works on all consoles)
- <Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Copy</Keys.HardKey> | Selects Linked Copy, same as pressing <Keys.HardKey>Copy</Keys.HardKey> \[Link\]
+ <Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Copy</Keys.HardKey> | Selects Linked Copy, same as pressing <Keys.HardKey>Copy</Keys.HardKey> <Keys.SoftKey>Link</Keys.SoftKey>
  
  --- 
 ## <Keys.HardKey>Cue</Keys.HardKey> 
@@ -304,7 +304,7 @@ Buttons | Action
 
  --- 
 ## <Keys.HardKey>Legend</Keys.HardKey> 
- (D9 only) (followed by a Select button) Set legend on an item. On other consoles use the \[Set Legend\] softkey at the top level menu. See [Legends and picture legends](../titan-basics/workspace-windows.md/#legends-and-picture-legends).
+ (D9 only) (followed by a Select button) Set legend on an item. On other consoles use the <Keys.SoftKey>Set Legend</Keys.SoftKey> softkey at the top level menu. See [Legends and picture legends](../titan-basics/workspace-windows.md/#legends-and-picture-legends).
 
  --- 
 ## <Keys.HardKey>Levels (wheels)</Keys.HardKey> 
@@ -355,7 +355,7 @@ Buttons | Action
 
  --- 
 ## <Keys.HardKey>ML Menu</Keys.HardKey> 
- At top level menu, opens the Moving Light menu where you can run fixture macros and access the \[Align\] function. Also acts as Menu Latch if pressed while in a submenu. See [The ML Menu button](../controlling-fixtures/advanced-options.md/#the-ml-menu-button). Not on D9, use <Keys.HardKey>Macro</Keys.HardKey> to run fixture macros and <Keys.HardKey>Align</Keys.HardKey> to access Align function.
+ At top level menu, opens the Moving Light menu where you can run fixture macros and access the <Keys.SoftKey>Align</Keys.SoftKey> function. Also acts as Menu Latch if pressed while in a submenu. See [The ML Menu button](../controlling-fixtures/advanced-options.md/#the-ml-menu-button). Not on D9, use <Keys.HardKey>Macro</Keys.HardKey> to run fixture macros and <Keys.HardKey>Align</Keys.HardKey> to access Align function.
 
  --- 
 ## <Keys.HardKey>Move</Keys.HardKey> 

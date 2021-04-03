@@ -75,7 +75,7 @@ show options on the right for the surface. These options allow you to
 set the canvas resolution which can either be picked from a list of
 common resolutions, or entered numerically; at the top right the display
 halo colour of the surface can be set, and the <Keys.ContextKey>Pencil</Keys.ContextKey> button allows you
-to change the name (you can also do this with the \[Set Legend\]
+to change the name (you can also do this with the <Keys.SoftKey>Set Legend</Keys.SoftKey>
 button).
 
 Clicking on a Layer within a Surface shows layer options on the right.

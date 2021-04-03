@@ -26,9 +26,9 @@ View menu
 Pressing <Keys.HardKey>Open/View</Keys.HardKey> takes you into the View menu. From here you can
 set up what is shown on the screen(s).
 
--   \[Window Options\] allows you to reposition and resize windows.
+-   <Keys.SoftKey>Window Options</Keys.SoftKey> allows you to reposition and resize windows.
 
--   \[Open Workspace Window\] also gives a list on the softkeys of all the
+-   <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> also gives a list on the softkeys of all the
     possible windows, allowing you to open the one you need.
 	
 

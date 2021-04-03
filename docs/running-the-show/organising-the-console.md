@@ -25,10 +25,10 @@ To move fixtures, palettes, groups and playbacks is very simple.
 
 When moving a range, it is possible to select a range containing
 different types of items, and there can be gaps between them. In this
-case, you can set \[Bunch Up\] mode to have all of the gaps in the range
+case, you can set <Keys.SoftKey>Bunch Up</Keys.SoftKey> mode to have all of the gaps in the range
 removed.
 
-\[Swap Items if Required\] will attempt to reposition any existing
+<Keys.SoftKey>Swap Items if Required</Keys.SoftKey> will attempt to reposition any existing
 handles which are in the way of the move. This is useful when
 rearranging handles on a page which is nearly full.
 

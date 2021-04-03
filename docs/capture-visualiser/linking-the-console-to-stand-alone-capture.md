@@ -60,9 +60,9 @@ If fixtures have already been added in Capture before the console was
 linked, you can patch them on the console using Active Fixtures like
 this
 
-1. Press <Keys.HardKey>Patch</Keys.HardKey>, \[Active Fixtures\].
+1. Press <Keys.HardKey>Patch</Keys.HardKey>, <Keys.SoftKey>Active Fixtures</Keys.SoftKey>.
 
-2. Select \[CITP Visualisers\].
+2. Select <Keys.SoftKey>CITP Visualisers</Keys.SoftKey>.
 
 3. You should see the Capture computer as a softkey option, press it.
 
