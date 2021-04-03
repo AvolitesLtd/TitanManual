@@ -3,7 +3,7 @@ module.exports={
   "tagline": "Official Manual for the Avolites Titan software",
   "url": "https://manual.avolites.com",
   "baseUrl": "/",
-  "organizationName": "Farrser",
+  "organizationName": "Avolites",
   "projectName": "AvoDocs",
   "scripts": [
     "https://buttons.github.io/buttons.js",
@@ -46,7 +46,7 @@ module.exports={
     "navbar": {
       "title": "Avolites Titan Manual",
       "logo": {
-        "src": "img/Avolites_Logo_White.svg"
+        "src": "img/Avolites_Logo_Red.svg"
       },
       "items": [
         {
@@ -83,7 +83,7 @@ module.exports={
               "to": "docs/12.0/"
             },
             {
-              "label": "Master/Unreleased",
+              "label": "v15.0 Beta",
               "to": "docs/next/",
               "activeBaseRegex": "docs/next/(?!support|team|resources)"
             }
