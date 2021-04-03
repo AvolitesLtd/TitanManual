@@ -1,9 +1,16 @@
 import React, {ReactNode} from 'react';
+const transButtons = require('../../languages-buttons.json')
 
 
 const Key = (tag: string): ReactNode => {
     return function (props) {
-      return React.createElement('span', {className: `${tag}`, ...props});
+      let extraClass = '';
+      for (const [cls, trans] of Object.entries(transButtons.context))
+        for (const [lang, tran] of Object.entries(trans['lang']))
+         if(props.children.toLowerCase() == tran)
+           extraClass += cls;
+
+      return React.createElement('span', {className: `${tag} ${extraClass}`, ...props});
     };
   };
 

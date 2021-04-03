@@ -36,7 +36,7 @@ module.exports={
         },
         "blog": {},
         "theme": {
-          "customCss": "../src/css/customTheme.scss"
+          "customCss": ["../static/avolites-icons/icons.css", "../src/css/customTheme.scss"]
         }
       }
     ]
