@@ -7,3 +7,6 @@ lib/core/MetadataBlog.js
 website/build/
 website/dist/
 website/yarn.lock
+
+websitev2/.docusaurus
+websitev2/yarn.lock
