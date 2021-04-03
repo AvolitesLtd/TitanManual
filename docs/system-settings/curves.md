@@ -1,5 +1,5 @@
 ---
-id: curves 
+id: curves
 title: Curves
 sidebar_label: Curves
 ---

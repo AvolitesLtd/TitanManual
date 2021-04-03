@@ -1,5 +1,5 @@
 ---
-id: setting-up-the-rig 
+id: setting-up-the-rig
 title: Setting up the Rig
 sidebar_label: Setting up the Rig
 ---

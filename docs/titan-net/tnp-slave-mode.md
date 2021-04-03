@@ -1,5 +1,5 @@
 ---
-id: tnp-slave-mode 
+id: tnp-slave-mode
 title: TNP Slave Mode
 sidebar_label: TNP Slave Mode
 ---

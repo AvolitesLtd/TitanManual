@@ -1,5 +1,5 @@
 ---
-id: setting-up 
+id: setting-up
 title: Setting up Synergy
 sidebar_label: Setting up Synergy
 ---

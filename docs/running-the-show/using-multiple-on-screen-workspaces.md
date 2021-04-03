@@ -1,5 +1,5 @@
 ---
-id: using-multiple-on-screen-workspaces 
+id: using-multiple-on-screen-workspaces
 title: Using multiple on-screen workspaces
 sidebar_label: Using multiple on-screen workspaces
 ---

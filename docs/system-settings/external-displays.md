@@ -1,5 +1,5 @@
 ---
-id: external-displays 
+id: external-displays
 title: External Displays
 sidebar_label: External Displays
 ---

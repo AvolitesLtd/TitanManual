@@ -1,5 +1,5 @@
 ---
-id: user-settings 
+id: user-settings
 title: User Settings
 sidebar_label: User Settings
 ---

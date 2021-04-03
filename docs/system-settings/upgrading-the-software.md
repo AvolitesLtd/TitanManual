@@ -1,5 +1,5 @@
 ---
-id: upgrading-the-software 
+id: upgrading-the-software
 title: Upgrading the Software
 sidebar_label: Upgrading the Software
 ---

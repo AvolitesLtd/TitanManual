@@ -1,5 +1,5 @@
 ---
-id: dmx-output-mapping 
+id: dmx-output-mapping
 title: DMX Output Mapping
 sidebar_label: DMX Output Mapping
 ---

@@ -1,5 +1,5 @@
 ---
-id: operating-synergy 
+id: operating-synergy
 title: Operating Synergy
 sidebar_label: Operating Synergy
 ---

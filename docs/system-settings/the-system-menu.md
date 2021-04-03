@@ -1,5 +1,5 @@
 ---
-id: the-system-menu 
+id: the-system-menu
 title: The System Menu
 sidebar_label: The System Menu
 ---

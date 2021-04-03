@@ -1,5 +1,5 @@
 ---
-id: setting-up-the-remote 
+id: setting-up-the-remote
 title: Setting up the Remote
 sidebar_label: Setting up the Remote
 ---

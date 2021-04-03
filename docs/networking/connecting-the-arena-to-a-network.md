@@ -1,5 +1,5 @@
 ---
-id: connecting-the-arena-to-a-network 
+id: connecting-the-arena-to-a-network
 title: Connecting the Diamond 9 or Arena to a network
 sidebar_label: Connecting the Diamond 9 or Arena to a network
 ---

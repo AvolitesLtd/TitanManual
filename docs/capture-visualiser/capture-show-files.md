@@ -1,5 +1,5 @@
 ---
-id: capture-show-files 
+id: capture-show-files
 title: Capture Show Files
 sidebar_label: Capture Show Files
 ---

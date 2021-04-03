@@ -1,5 +1,5 @@
 ---
-id: organising-the-console 
+id: organising-the-console
 title: Organising the console
 sidebar_label: Organising the console
 ---

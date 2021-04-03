@@ -1,5 +1,5 @@
 ---
-id: linking-the-console-to-stand-alone-capture 
+id: linking-the-console-to-stand-alone-capture
 title: Linking the Console to Stand-Alone Capture
 sidebar_label: Linking the Console to Stand-Alone Capture
 ---
