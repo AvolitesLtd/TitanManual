@@ -59,7 +59,7 @@ library, the actual personality library is identical in each version.
 
 > Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
 
-------
+---
 
 ### Console Update Procedure
 
