@@ -23,7 +23,7 @@ CELL		| Part of a Fixture which can be controlled separately within the larger f
 CHANNEL		| Button allowing syntax / numeric style entry and operation of the console using the User Number of fixtures/dimmers.
 CHASE		| A sequence of one or more pre recorded steps which automatically run one after the other.
 COLOUR MIX / CMY	| A system of three filters (Cyan, Magenta, Yellow) that can each crossfade from white to a colour, or one colour to another. It is a feature of most Fixtures, which enables any colour to be created.
-CONNECTED CHASE	| A Chase which is linked to the Wheels by pressing the <Connect> button.
+CONNECTED CHASE	| A Chase which is linked to the Wheels by pressing the \<Connect\> button.
 CUE			| A single stage look programmed onto a Playback button or fader, or as part of a Cue List. Also known as MEMORY, STATE, SCENE, LOOK.
 CUE LIST	| A sequence of cues programmed onto a Playback button or fader. Each cue can have its own delay and fade times and can also start other cues or playbacks. Also known as a CUE STACK or STACK.
 CUE MODE	| A playback format programmed into a Cue which determines how the cue fades in and out. There are Cue Modes 0 - 3.
@@ -63,14 +63,14 @@ MIDI		| A control system used for sending commands between equipment. Stands for
 MENU		| List of available functions on the Softkeys.
 MENU LATCH	| Holds the current menu active – normally a menu would close when the action is completed.
 ML MENU		| Provides additional functions for control of moving lights such as lamp on/off and other control functions.
-MOVE IN DARK (MID)	| Function of Cue List to pre-position a fixture while it is turned off so that it is correctly positioned for the next cue. Called “Mark” on other consoles. 
+MOVE IN DARK (MID)	| Function of Cue List to pre-position a fixture while it is turned off so that it is correctly positioned for the next cue. Called “Mark” on other consoles.
 ON and OFF	| Any Attribute stored in a Playback can be On or Off. An attribute which is ON is changed by the playback when it is fired. An attribute which is OFF is stored in the playback for future re-use but has no effect when the playback is fired.
 OVERLAP		| Sets how the console allocates new values to a group of Fixtures. 100% means that all fixtures are updated simultaneously. 0% means that the fixtures will be updated one after the other.
 PAGE		| To provide more Handles for programming, you can change to a different Page. You can Lock handles so that they do not change when you change the page.
 PALETTE		| A term used to describe a referenced pre-defined state for an Attribute that can be recalled whenever required during programming. Each Fixture may be set to a different value in the Palette, the entries can be named, and recalled with a single button press. Called Focus by some other console manufacturers.
 PARK		| A Parked fixture is one which is patched to a handle but has no DMX Address set. This happens to a fixture when its DMX address is taken by another fixture during a later patching session; the fixture retains programming information and the Repatch function can be used to give it a new DMX address. Not the same as the “Park channel” function used to set a channel to a fixed value as found on other consoles.
 PATCH		| Set up of a show on the console, telling the console what fixtures are being used, what mode they are in, and what DMX address they are set to.
-PERSONALITY | A description of what Attributes a particular Fixture has and how the console will patch and use these. It also determines which Wheel will control which attribute. 
+PERSONALITY | A description of what Attributes a particular Fixture has and how the console will patch and use these. It also determines which Wheel will control which attribute.
 PIXEL MAPPER	| Allows you to tell the console where fixtures are located in 2D space, and then to display patterns or media across those fixtures.
 PLAYBACK	| A programmed Cue, Chase or Cue List, stored on a Handle (button, touch button or fader).
 PRELOAD		| A playback button which sets the LTP channels in a cue but not the HTP channels. Used to pre-position fixtures before firing a cue. Also a cue list function which allows one cue to preload the LTP channels in another cue.
@@ -99,7 +99,7 @@ TRACKING	| Describes the operation of Cue Lists where attribute states follow th
 UNFOLD		| A function that allows Chase steps to be laid out onto the playback faders for easy editing.
 UNIVERSE	| A full set of 512 DMX control channels/slots. Titan consoles can create up to 64 universes, 16 on the console and the rest remotely using network processing.
 UPS			| Uninterruptible Power Supply, fitted internally in some consoles, to keep the console running in case of power failure.
-USER NUMBER	| Each fixture / dimmer has a User Number which allows you to select them using the numeric keypad and <Through> button, as commonly used on other types of console.
+USER NUMBER	| Each fixture / dimmer has a User Number which allows you to select them using the numeric keypad and \<Through\> button, as commonly used on other types of console.
 USER SETTINGS	| User definable desk settings. To change them, hold down the Avo button and select [User Settings].
 VIRTUAL DIMMER	| Used with LED colour mixing fixtures, these add an intensity function to the fixture which masters the RGB controls on the fixture when it does not actually have an intensity control channel.
 VISUALISER	| Software providing a lifelike 3D view of the stage and lighting, allowing virtual programming.
@@ -107,7 +107,3 @@ WING		| An additional panel of faders or buttons which can be connected to the c
 WIPEALL		| A process which clears the current show, providing a clean start. Does not affect previously saved shows.
 WHEEL		| Wheels are used on the console to set fixture Attributes and to control chases and cue lists.
 YOKE		| The U-shaped suspension mechanism for a moving head fixture.
-
-
-
-

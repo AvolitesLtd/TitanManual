@@ -10,10 +10,10 @@ more familiar with using a keypad/syntax style interface, rather than the Titan
 touchscreen. But fear not because you can program a theatre show on
 Titan using keypad syntax and this is how you do it.
 
-- Labelled buttons on the console are shown like this: \<Enter\>. 
-- The \<@\> button is the one next to the numeric keypad. 
-- The \<Cue\> button is labelled \<Connect\> or \<Connect/Cue\> on some consoles. 
-- The \<Thru\> button is labelled \<Thru\> or \<Through\> on some consoles. 
+- Labelled buttons on the console are shown like this: \<Enter\>.
+- The \<@\> button< is the one next to the numeric keypad.
+- The \<Cue\> button is labelled \<Connect\> or \<Connect/Cue\> on some consoles.
+- The \<Thru\> button is labelled \<Thru\> or \<Through\> on some consoles.
 - The \<And\> and \<Thru\> buttons are not provided as fixed buttons on some consoles, softkey \[And\] and \[Through\] options are provided instead.
 
 Dimmers/Fixtures have a User Number *(which is equivalent to the Channel
@@ -69,7 +69,7 @@ recorded)*. To record everything with intensity above zero, switch
  Keypresses | Action
 ------------|-------------------
 \<Record\> {fader select} {fader select} | Record the next cue onto the end of the cue list on this fader
-<Record> \<Cue\> **n** \<Enter\> | Record cue **n** *(will prompt for merge/overwrite if it exists already)*
+\<Record\> \<Cue\> **n** \<Enter\> | Record cue **n** *(will prompt for merge/overwrite if it exists already)*
 \<Time\> **t** \<Enter\> | Set fade time into programmer *(does not affect stored cues; will save with the cue when you record it)*
 \<Cue\> **n** \<Time\> **t** \<Enter\> | Set fade time of cue **n** to **t** seconds
 \<Delete\> \<Cue\> **n** \<Enter\> \<Enter\> | Delete cue **n** *(2^nd^ \<Enter\> confirms)*
@@ -79,8 +79,8 @@ recorded)*. To record everything with intensity above zero, switch
 
 - For the **copy** commands, you can use \<Move\> in place of \<Copy\>to **move** cues. For consoles
   which don't have a \<Move\> button you can press (\<Avo\> and \<Copy\>) together to get Move.
-    
-- You can select multiple cues using \<Thru\>, \<And\> and \[Not\]. For example to copy cues 3, 4 ,5 ,7, 10 
+
+- You can select multiple cues using \<Thru\>, \<And\> and \[Not\]. For example to copy cues 3, 4 ,5 ,7, 10
   into a new block of cues starting at cue 20 you could do \
   \<Copy\> {fader select} **3** \<Thru\> **7** \[Not\] **6** \<And\> **10** \<@\> **20** \<Enter\>
 
@@ -88,7 +88,7 @@ recorded)*. To record everything with intensity above zero, switch
 	in the Tracking column click the cell for the cue you want to change and
 	select \[Block\] from the softkeys.
 
-- To [link cues](cue-list-timing.md#cue-linking--link-offset) so they automatically run after each other, 
+- To [link cues](cue-list-timing.md#cue-linking--link-offset) so they automatically run after each other,
 	the easiest way is on the screen. Click on the "Link" cell
 	(which normally shows "Wait For Go". Then select from the softkeys
 	\[Link After Previous Cue\] or \[Link With Previous Cue\]. For Link
@@ -141,5 +141,5 @@ easy:
 5. Set the *Speed*, *Size*, *Spread* using the wheels
 
 Shapes will record into cues, and will track through subsequent cues.
-You can deactivate tracked shapes in the Playback View, or set the 
+You can deactivate tracked shapes in the Playback View, or set the
 Shape Tracking in the Playback Options.

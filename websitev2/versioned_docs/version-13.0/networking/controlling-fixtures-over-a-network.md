@@ -57,8 +57,7 @@ In the following diagram, an Art-Net compliant Console (such as a Titan
 console) is connected via a network hub to an Art-Net compatible dimmer
 and 2 DMX conversion boxes.
 
-![Art Net Explanation
-general](/docs/images/Art-Net-Explanation-general.jpeg)
+![Art Net Explanation general](/docs/images/Art-Net-Explanation-general.jpeg)
 
 Once the system is connected together, the different outputs (or Nodes)
 can be configured.
@@ -96,8 +95,7 @@ Here, the console assigns the following:
 
 -   Line C to Box 2 universe 2 and the dimmer rack
 
-![Art Net Explanation Nodes to
-DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.jpeg)
+![Art Net Explanation Nodes to DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.jpeg)
 
 Setting up an Art-Net system
 ----------------------------
@@ -106,8 +104,7 @@ For this example, it is assumed that you will connect the console to an
 Art-Net DMX output box (such as an Artistic License Net-Lynx) via a
 network hub.
 
-![Art Net Explanation Simple
-System](/docs/images/Art-Net-Explanation-Simple-System.jpeg)Using standard RJ45 Ethernet cables,
+![Art Net Explanation Simple System](/docs/images/Art-Net-Explanation-Simple-System.jpeg)Using standard RJ45 Ethernet cables,
 attach the devices together.
 
 -   If you are using a hub/switch as shown above, use straight-through
@@ -195,5 +192,4 @@ Additional Art-Net Resources
 ----------------------------
 
 To find out more information about Art-Net please refer to the Art-Net
-Standard published by [Artistic
-Licence](http://www.artisticlicence.com).
+Standard published by [Artistic Licence](http://www.artisticlicence.com).

@@ -18,11 +18,11 @@ The following section gives you some quick ways to operate Titan. ``<n>`` means 
 -  Group Pattern Selection: Click and hold \<Group\> then select from the soft keys Odd/Even etc
 -  Quick Pattern Selection: Select fixtures or Group then click \<ALL\> to select within selected fixtures a pattern such as
 odd, even, random – etc
--  Select all cells in the currently selected fixtures: \<.\> \<Enter> 
+-  Select all cells in the currently selected fixtures: \<.\> \<Enter\> 
 -  Quickly set record type: press \<Record\> once for Cue, twice for chase, three times for cue list, four times for timeline
--  Quick open record palette menu: \<AVO\> + \<Palette\> 
+-  Quick open record palette menu: \<AVO\> + \<Palette\>
 -  Quick open record group menu: \<AVO\> + \<Group\>
--  Quick open record macro menu: \<AVO\> + \<Macro\> 
+-  Quick open record macro menu: \<AVO\> + \<Macro\>
 -  Record time into palettes/cues: \<Time\> key to put times in the programmer
 -  Entering timecode times: Use \<Through\> and \<And\> buttons as left/right arrows to go between hours, minutes, seconds etc.
 -  Select "Move" on consoles which don't have a Move button: \<AVO\> + \<COPY\>
@@ -74,4 +74,3 @@ issues
 -  Set Desk Lamp or Screen Brightness: Enter the system menu (\<AVO\> + \<DISK\>) use wheels to adjust ( only some
 consoles have brightness control)
 -  Hard Key Not Working: Use the Virtual Panel from the {Tools} menu to get you thru till it can be repaired.
-

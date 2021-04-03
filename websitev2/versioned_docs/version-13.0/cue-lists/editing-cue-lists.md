@@ -147,7 +147,7 @@ have an Update button)*.
 
 3. Press \<Enter\> to immediately store the new values to the cue list.
 
-> Alternatively, the softkeys show a list of palettes and playbacks which 
+> Alternatively, the softkeys show a list of palettes and playbacks which
 can be updated. Select or deselect these as required.
 >
 > If you have used the softkey options, press \<Enter\> to complete
@@ -224,7 +224,7 @@ step, or to the timings using \[Edit Cue x Times\].
 ### Update Mode
 
 The \[Update Mode\] softkey allows you to set how changes in the cue
-will be tracked. 
+will be tracked.
 
 Update Mode | Action
 ---|---
@@ -251,8 +251,8 @@ by touching and dragging over the required cues. Select \[Merge\] or
 be merged into all of the selected cues.
 
 From the keypad, connect the cue list (or chase) and press \<Rec Step\>.
-Then use the syntax `<n> THRU <m>` to select a range or `<n> AND
-<m>` to select cues which aren't together. The selected cues will
+Then use the syntax `\<n\> THRU \<m\>` to select a range or `\<n\> AND
+\<m\>` to select cues which aren't together. The selected cues will
 highlight in red in the [Playback View](#playback-view-window) if you have it open. When you have
 selected all desired cues press \<Enter\>, then select \[Merge\] or
 \[Replace\] (or just press \<Enter\> again to merge).

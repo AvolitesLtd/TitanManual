@@ -71,8 +71,7 @@ In the following diagram, an Art-Net compliant Console (such as a Titan
 console) is connected via a network switch to an Art-Net compatible dimmer
 and a rackmount DMX conversion node.
 
-![Art Net Explanation
-general](/docs/images/Art-Net-Explanation-General.png)
+![Art Net Explanation general](/docs/images/Art-Net-Explanation-General.png)
 
 Once the system is connected together, the devices
 can be configured.
@@ -104,8 +103,7 @@ So we do the following:
 -   Click on the second universe of the DMX node on the left of the window,
 	then click Line 3 on the right to connect it.
 
-![Art Net Explanation Nodes to
-DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.png)
+![Art Net Explanation Nodes to DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.png)
 
 Now on the console when you patch, you will patch the dimmer channels on addresses 1.001 - 1.024, the
 fixtures on the first output of the 12-way DMX node will be on addresses 2.001 - 2.512 and
@@ -131,5 +129,4 @@ Additional Art-Net Resources
 ----------------------------
 
 To find out more information about Art-Net please refer to the Art-Net
-Standard published by [Artistic
-Licence](http://www.artisticlicence.com).
+Standard published by [Artistic Licence](http://www.artisticlicence.com).
