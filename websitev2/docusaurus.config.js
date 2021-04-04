@@ -41,7 +41,23 @@ module.exports={
       }
     ]
   ],
-  "plugins": ['docusaurus-plugin-sass'],
+  "plugins": [
+    'docusaurus-plugin-sass',
+    [
+      require.resolve("./docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+        // When applying `zh` in language, please install `nodejieba` in your project.
+        docsDir: "../docs"
+      },
+    ]
+  ],
   "themeConfig": {
     "navbar": {
       "title": "Avolites Titan Manual",
