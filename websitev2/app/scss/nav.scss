@@ -1,0 +1,90 @@
+@import '../../scss/variables';
+@import "../../scss/fontawesome/fontawesome";
+@import "../../scss/fontawesome/regular";
+@import "../../scss/fontawesome/solid";
+@import "../../scss/fontawesome/brands";
+
+$wincntrlsHeight: 28px;
+
+body {
+  overflow: hidden;
+}
+
+::selection {
+  background-color: transparent;
+  color: white;
+}
+
+#win-cntrl {
+  -webkit-app-region: drag;
+  display: flex;
+  justify-content: space-between;
+  height: $wincntrlsHeight;
+  background-color: $secondary;
+  color: white;
+
+  & > div {
+    width: 25vw;
+  }
+
+  & div {
+    display: flex;
+  }
+  
+  .win-title {
+    width: 50vw;
+    justify-content: center;
+    font-size: 0.5 * $wincntrlsHeight;
+    line-height: $wincntrlsHeight;
+  }
+
+  #cntrl-right {
+    justify-content: flex-end;
+  }
+}
+
+.cntrl-btn {
+  -webkit-app-region: no-drag;
+
+  &.disabled {
+    color: grey;
+  }
+
+  &:not(.disabled):hover {
+    background-color: darken($secondary, 10%);
+  }
+
+  &::before {
+    @extend %fa-icon;
+    @extend .fa-fw;
+    padding: (0.2 * $wincntrlsHeight) (0.3 * $wincntrlsHeight);
+    font-size: 0.6 * $wincntrlsHeight;
+
+    #cntrl-nav & {
+      @extend .fas;
+    }
+
+    @at-root #cntrl-back#{&} {
+      content: fa-content($fa-var-arrow-left);
+    }
+
+    @at-root #cntrl-forward#{&} {
+      content: fa-content($fa-var-arrow-right);
+    }
+    
+    @at-root #cntrl-min#{&} {
+      @extend .far;
+      content: fa-content($fa-var-window-minimize);
+    }
+    
+    @at-root #cntrl-max#{&} {
+      @extend .far;
+      content: fa-content($fa-var-square);
+    }
+    
+    @at-root #cntrl-close#{&} {
+      @extend .fas;
+      content: fa-content($fa-var-times);
+    }
+  }
+}
