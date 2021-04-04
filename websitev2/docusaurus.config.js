@@ -60,6 +60,18 @@ module.exports={
       },
     ]
   ],
+  "i18n": {
+    defaultLocale: 'en',
+    locales: ['en', 'de'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      de: {
+        label: 'German',
+      },
+    },
+  },
   "themeConfig": {
     "navbar": {
       "title": "Avolites Titan Manual",
@@ -81,6 +93,10 @@ module.exports={
           "href": "https://avolites.com",
           "label": "Main Website",
           "position": "left"
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
         },
         {
           "label": "Version",

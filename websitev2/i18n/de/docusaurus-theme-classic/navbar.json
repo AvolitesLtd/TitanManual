@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "Avolites Titan Manual",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Main Website": {
+    "message": "Main Website",
+    "description": "Navbar item with label Main Website"
+  },
+  "item.label.Version": {
+    "message": "Version",
+    "description": "Navbar item with label Version"
+  },
+  "item.label.14.0": {
+    "message": "14.0",
+    "description": "Navbar item with label 14.0"
+  },
+  "item.label.13.0": {
+    "message": "13.0",
+    "description": "Navbar item with label 13.0"
+  },
+  "item.label.12.0": {
+    "message": "12.0",
+    "description": "Navbar item with label 12.0"
+  },
+  "item.label.v15.0 Beta": {
+    "message": "v15.0 Beta",
+    "description": "Navbar item with label v15.0 Beta"
+  }
+}
