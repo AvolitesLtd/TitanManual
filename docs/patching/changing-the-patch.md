@@ -17,8 +17,8 @@ fixtures. If you need to change the settings of multiple fixtures (for
 example, changing the DMX address of several fixtures) then it's really
 easy to do in one operation in the Patch View.
 
-To show the Patch View window press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey>, or 
-double press <Keys.HardKey>Open/View</Keys.HardKey> and select <Keys.SoftKey>Patch View</Keys.SoftKey> from the window 
+To show the Patch View window press <Keys.HardKey>Open\/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey>, or 
+double press <Keys.HardKey>Open\/View</Keys.HardKey> and select <Keys.SoftKey>Patch View</Keys.SoftKey> from the window 
 select buttons.
 
 ![Patch View](/docs/images/Patch-View.png)
@@ -64,7 +64,7 @@ View Detailed Fixture Information
 ---------------------------------
 
 In the Patch View window click on the View button for the fixture you
-wish to view, or press <Keys.HardKey>Open/View</Keys.HardKey> followed by a fixture handle. A
+wish to view, or press <Keys.HardKey>Open\/View</Keys.HardKey> followed by a fixture handle. A
 Fixture View window will open showing details for that fixture,
 including the personality and mode used to patch, and the individual DMX
 channel addresses for each attribute. Attributes can be inverted or
@@ -223,7 +223,7 @@ DMX View Window
 
 When you're having problems getting fixtures to work it can be useful to
 see the actual DMX output values coming from the console. Double press
-<Keys.HardKey>Open/View</Keys.HardKey>, then select <Keys.SoftKey>DMX</Keys.SoftKey> from the window select buttons.
+<Keys.HardKey>Open\/View</Keys.HardKey>, then select <Keys.SoftKey>DMX</Keys.SoftKey> from the window select buttons.
 
 ![DMX Workspace Window](/docs/images/DMX-Workspace-Window-With-Filters.png)
 
@@ -299,7 +299,7 @@ should you need to using the <Keys.SoftKey>Clear All Mappings</Keys.SoftKey> sof
 
 To set up mapping:
 
-1. Press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey> to show the Patch View screen.
+1. Press <Keys.HardKey>Open\/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey> to show the Patch View screen.
 
 2. Select the Exchange Mapping tab.
 

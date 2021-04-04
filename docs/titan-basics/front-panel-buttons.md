@@ -116,7 +116,7 @@ Key | Action | | Key | Action
   F8       |  Open Groups window    | |     Alt P    |   Patch
   F9       |  Open Colours window   | |     Alt ⇑ D  |   Disk menu
   F10      |  Open Positions window | |     Alt ⇑ S  |   System menu
-  F11      |  Gobos/Beams window    | |     Alt V    |   Open/View menu
+  F11      |  Gobos/Beams window    | |     Alt V    |   Open\/View menu
   F12      |  Open Channel Grid     | |     Alt G    |   Go
   Esc      |  Exit menu             | |     Alt D    |   Delete
   Enter    |  Enter                 | |     Alt ⇑ C  |   Copy

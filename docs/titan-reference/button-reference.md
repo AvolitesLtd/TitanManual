@@ -72,7 +72,7 @@ For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Highlight</Keys.HardKey> | Record the highlight state, see [Highlight](../controlling-fixtures.md/#highlighting-the-selected-fixture-with-prevnext)
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Macro</Keys.HardKey> {Select} | Record macro to handle, see [Key Macro buttons](../titan-basics/front-panel-buttons.md/#key-macro-buttons).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Min/Max</Keys.HardKey> | Select a different workspace window to be the active window, see [Workspace windows](../titan-basics/workspace-windows.
- <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Open/View</Keys.HardKey> {Workspace button} | Record workspace layout, see [Saving workspace layouts](../titan-basics/workspace-windows.md#saving-workspace-layouts).
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Open\/View</Keys.HardKey> {Workspace button} | Record workspace layout, see [Saving workspace layouts](../titan-basics/workspace-windows.md#saving-workspace-layouts).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Release</Keys.HardKey> | Release all playbacks by priority (same as double press <Keys.HardKey>Release</Keys.HardKey>). See [Release](../cues/cue-playback.md#release).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Shape</Keys.HardKey> | 
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Size/Position</Keys.HardKey> | Move the active workspace window to the next screen, see [Workspace windows](../titan-basics/workspace-windows.md#changing-window-size-and-appearance).
@@ -391,7 +391,7 @@ Buttons | Action
  (Quartz, Titan Mobile) Show details about item, or double press to open workspace window, see [View](#view).
 
  --- 
-## <Keys.HardKey>Open/View</Keys.HardKey> 
+## <Keys.HardKey>Open\/View</Keys.HardKey> 
 (Sapphire Touch, Arena, Tiger Touch only) \
  Show details about item, or double press to open workspace window, see [View](#view).
 

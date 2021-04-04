@@ -76,7 +76,7 @@ recorded)*. To record everything with intensity above zero, switch
 <Keys.HardKey>Delete</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Delete cue **n** *(2^nd^ <Keys.HardKey>Enter</Keys.HardKey> confirms)*
 <Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **m** <Keys.HardKey>Enter</Keys.HardKey> | Copy cue **n** to new cue **m**
 <Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Copy cue **n** onto the end of the cue list
-<Keys.HardKey>Open/View</Keys.HardKey> <Keys.ContextKey>fader select</Keys.ContextKey> | Show the list of cues on screen, click on individual times to edit them
+<Keys.HardKey>Open\/View</Keys.HardKey> <Keys.ContextKey>fader select</Keys.ContextKey> | Show the list of cues on screen, click on individual times to edit them
 
 - For the **copy** commands, you can use <Keys.HardKey>Move</Keys.HardKey> in place of <Keys.HardKey>Copy</Keys.HardKey>to **move** cues. For consoles
   which don't have a <Keys.HardKey>Move</Keys.HardKey> button you can press (<Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Copy</Keys.HardKey>) together to get Move.

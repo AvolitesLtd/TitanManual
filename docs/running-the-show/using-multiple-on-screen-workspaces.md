@@ -13,7 +13,7 @@ buttons to the left of the menu buttons (or down one side of the screen
 for Diamond 9, Sapphire Touch, Titan Go, and on external screens). You can also store workspaces
 to any executor button on the console.
 
-Double press <Keys.HardKey>Open/View</Keys.HardKey> to show the window select buttons. See
+Double press <Keys.HardKey>Open\/View</Keys.HardKey> to show the window select buttons. See
 [Opening and positioning workspace windows](../titan-basics/workspace-windows.md#opening-and-positioning-workspace-windows)
 for more details about using Workspace Windows.
 
@@ -23,7 +23,7 @@ workspace layout for each song.
 View menu
 ---------
 
-Pressing <Keys.HardKey>Open/View</Keys.HardKey> takes you into the View menu. From here you can
+Pressing <Keys.HardKey>Open\/View</Keys.HardKey> takes you into the View menu. From here you can
 set up what is shown on the screen(s).
 
 -   <Keys.SoftKey>Window Options</Keys.SoftKey> allows you to reposition and resize windows.

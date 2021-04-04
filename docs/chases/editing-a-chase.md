@@ -15,7 +15,7 @@ the chase. You can then save new cues at the end by pressing the Select
 button just like normal recording.
 
 To see a list of the cues in the chase, use Playback view (touch the
-playback display above the fader or press <Keys.HardKey>Open/View</Keys.HardKey> then the **Select**
+playback display above the fader or press <Keys.HardKey>Open\/View</Keys.HardKey> then the **Select**
 button of the playback). To edit any of the time settings in each cue,
 select the setting to be modified by touching or dragging in the grid,
 then use the softkey options to change the setting.

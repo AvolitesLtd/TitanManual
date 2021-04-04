@@ -12,7 +12,7 @@ Setting up the Stage and Rigging
 To help you see what your rig will really look like you can add fixed
 elements of staging and rigging.
 
-Open the Capture Visualiser Settings window by double pressing <Keys.HardKey>Open/View</Keys.HardKey>,
+Open the Capture Visualiser Settings window by double pressing <Keys.HardKey>Open\/View</Keys.HardKey>,
 then select Visualiser Settings from the window select buttons (or you can use the <Keys.ContextKey>Open Settings</Keys.ContextKey> context button in the Capture window.)
 Click the **Stage** tab.
 
@@ -46,7 +46,7 @@ Press the <Keys.ContextKey>Position - Orientation</Keys.ContextKey> context menu
 switch the wheels to Visualiser mode *(or press Softkey G at the top
 level menu until the display shows Wheels-Visualiser)*.
 
-Select <\Position\> attribute, then use the wheels to change the X/Y/Z
+Select <Keys.HardKey>Position</Keys.HardKey> attribute, then use the wheels to change the X/Y/Z
 position of the fixture(s). If you select multiple fixtures, pressing
 the <Keys.ContextKey>Scale-Fan</Keys.ContextKey> context menu button or the <Keys.HardKey>Fan</Keys.HardKey> button allows you to
 evenly spread out the fixtures. The [Fan curve/group/split options](../controlling-fixtures/changing-fixture-attributes.md#fan-mode) also
@@ -96,7 +96,7 @@ The context menu buttons provide camera options.
 ![Capture Visualiser Workspace Window Context Menu](/docs/images/Capture-Visualiser-Workspace-Window-Context-Menu.png)
 
 Camera controls are in the [Capture Visualiser Settings window](#setting-up-the-stage-and-rigging) which you
-can open by double pressing <Keys.HardKey>Open/View</Keys.HardKey> to show the workspace window buttons, or using the \{Open
+can open by double pressing <Keys.HardKey>Open\/View</Keys.HardKey> to show the workspace window buttons, or using the \{Open
 Settings\} context button.
 
 The view buttons across the top select the four default views *(shown below)*. Press the

@@ -23,10 +23,10 @@ The picture below shows a typical arrangement of workspace windows.
 
 ## Opening and Positioning Workspace Windows
 
-Double press the <Keys.HardKey>Open/View</Keys.HardKey> button to show the workspace open buttons overlay on all monitors. On the monitor where you
+Double press the <Keys.HardKey>Open\/View</Keys.HardKey> button to show the workspace open buttons overlay on all monitors. On the monitor where you
 want the workspace, press the appropriate button and the window will open on that monitor.
 
-The <Keys.HardKey>Open/View</Keys.HardKey> button is labelled differently on some consoles: 
+The <Keys.HardKey>Open\/View</Keys.HardKey> button is labelled differently on some consoles: 
 - Diamond 9: <Keys.HardKey>View</Keys.HardKey>. There's an additional <Keys.HardKey>Open</Keys.HardKey> button which is the same as double pressing <Keys.HardKey>View</Keys.HardKey>.
 - Quartz, Titan Mobile: <Keys.HardKey>Open</Keys.HardKey>
 - Titan Go, Tiger Touch 1, Pearl Expert: <Keys.HardKey>View</Keys.HardKey>
@@ -38,26 +38,26 @@ keeping the same size and position.
 
 You can also use the \[Open
 Workspace Window\] menu command on the root menu to show the workspace open buttons.
-Pressing <Keys.HardKey>Open/View</Keys.HardKey> again will close the workspace button overlay, or pressing the <Keys.ContextKey>X</Keys.ContextKey>
+Pressing <Keys.HardKey>Open\/View</Keys.HardKey> again will close the workspace button overlay, or pressing the <Keys.ContextKey>X</Keys.ContextKey>
 at the top of the button overlay on any screen will close it on all screens.
 
 There are also button shortcuts to open some of the windows:
 
 ### Shortcuts to Open Workspace Windows
 
-- <Keys.HardKey>Open/View</Keys.HardKey> then an Attribute Bank button opens the Palette
+- <Keys.HardKey>Open\/View</Keys.HardKey> then an Attribute Bank button opens the Palette
 window for that attribute.
 
-- <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey> opens the Patch View window.
+- <Keys.HardKey>Open\/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey> opens the Patch View window.
 
-- <Keys.HardKey>Open/View</Keys.HardKey> then a fixture select button opens the Fixture
+- <Keys.HardKey>Open\/View</Keys.HardKey> then a fixture select button opens the Fixture
 View window showing patch details for that fixture.
 
-- <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Connect/Cue</Keys.HardKey> opens the Playback View window.
+- <Keys.HardKey>Open\/View</Keys.HardKey> then <Keys.HardKey>Connect/Cue</Keys.HardKey> opens the Playback View window.
 
-- <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Off</Keys.HardKey> opens the Active Playbacks window.
+- <Keys.HardKey>Open\/View</Keys.HardKey> then <Keys.HardKey>Off</Keys.HardKey> opens the Active Playbacks window.
 
-- <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Macro</Keys.HardKey> opens the Macro window.
+- <Keys.HardKey>Open\/View</Keys.HardKey> then <Keys.HardKey>Macro</Keys.HardKey> opens the Macro window.
 
 ### Changing window size and appearance
 
@@ -165,7 +165,7 @@ they are on the left side of the screen).
 External screens can have their own workspace buttons down the side of the screen (these
 can be turned on or off in the [User Settings](../system-settings/user-settings.md#display) .)
 
-To record, press <Keys.HardKey>Open/View</Keys.HardKey> then
+To record, press <Keys.HardKey>Open\/View</Keys.HardKey> then
 <Keys.SoftKey>Record Workspace</Keys.SoftKey>, then touch one of the Workspaces buttons, or just
 touch an empty button twice to Quick Record. You can also save
 workspaces onto any grey handle or macro button.
@@ -193,10 +193,10 @@ will behave if you load more windows, and to be able to target particular window
 	the screen where you selected it (button shows a target symbol).
 	![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
 
--   To delete a workspace button, press <Keys.HardKey>Open/View</Keys.HardKey>, <Keys.HardKey>Delete</Keys.HardKey>, then
+-   To delete a workspace button, press <Keys.HardKey>Open\/View</Keys.HardKey>, <Keys.HardKey>Delete</Keys.HardKey>, then
     the workspace button to be deleted.
 
--	When recalling a workspace, if you press <Keys.HardKey>Open/View</Keys.HardKey> first then softkey buttons let you
+-	When recalling a workspace, if you press <Keys.HardKey>Open\/View</Keys.HardKey> first then softkey buttons let you
 	set the workspace to recall to the particular screen where it was recorded <Keys.SoftKey>As Recorded</Keys.SoftKey>, or to a different screen
 	(the other screen numbers are listed on softkeys). This is useful when a workspace contains only a single screen,
 	allowing you to recall it onto a different screen.
@@ -212,7 +212,7 @@ As an example of setting up a workspace, suppose while programming you
 wanted to be able to access fixtures, position palettes, fixture
 attributes and shapes:
 
-1. Double press the <Keys.HardKey>Open/View</Keys.HardKey> button, or press <Keys.HardKey>Exit</Keys.HardKey> to get to the root menu and then the \[Open Workspace
+1. Double press the <Keys.HardKey>Open\/View</Keys.HardKey> button, or press <Keys.HardKey>Exit</Keys.HardKey> to get to the root menu and then the \[Open Workspace
 Window\] menu softkey.
 
 2. Find the <Keys.ContextKey>Fixtures</Keys.ContextKey> icon on the screen and press it.
@@ -222,14 +222,14 @@ Position\> button (above the numeric keys) until the window occupies the
 top left quarter. Or press the <Keys.ContextKey>Cog</Keys.ContextKey> button on the window
 top bar and press the top left position button in that window.
 
-4. Double press <Keys.HardKey>Open/View</Keys.HardKey>  again and select the <Keys.ContextKey>Positions</Keys.ContextKey>
+4. Double press <Keys.HardKey>Open\/View</Keys.HardKey>  again and select the <Keys.ContextKey>Positions</Keys.ContextKey>
 window. Press the <Keys.HardKey>Size & Position</Keys.HardKey> button to position it in the desired
 location.
 
 5. Repeat to activate the <Keys.ContextKey>Attribute Editor</Keys.ContextKey> and <Keys.ContextKey>Effects</Keys.ContextKey> windows.
 
-6. Press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.SoftKey>Record Workspace</Keys.SoftKey>, or hold <Keys.HardKey>Avo</Keys.HardKey> and
-press <Keys.HardKey>Open/View</Keys.HardKey>. Type in a name for the workspace. Then touch the
+6. Press <Keys.HardKey>Open\/View</Keys.HardKey> then <Keys.SoftKey>Record Workspace</Keys.SoftKey>, or hold <Keys.HardKey>Avo</Keys.HardKey> and
+press <Keys.HardKey>Open\/View</Keys.HardKey>. Type in a name for the workspace. Then touch the
 Workspace button where you want to store this workspace layout. Or, you
 can use Quick Record -- just touch an empty workspace button and it will
 turn red with a +. Type a name for the workspace and touch again to
@@ -319,7 +319,7 @@ NDI video streams, or can also be used as extra workspace windows.
 
 ![Diamond Media Preview](/docs/images/Diamond-Media-Preview.png)
 
-To configure a screen, double press <Keys.HardKey>Open/View</Keys.HardKey> and window selection buttons will pop up
+To configure a screen, double press <Keys.HardKey>Open\/View</Keys.HardKey> and window selection buttons will pop up
 on each screen, touch the type of window you want to configure the view. For NDI Preview select
 **Video Preview** (1 2 or 3 depending which screen you are setting). To select an NDI stream,
 tap on the screen and you will then see
@@ -329,7 +329,7 @@ in the Ai section for more details.
 ## Mini Screen (Arena only)
 
 The mini-screen can be used as a configurable workspace display just like the main monitor.
-To configure the screen double press <Keys.HardKey>Open/View</Keys.HardKey> and window selection buttons will pop up
+To configure the screen double press <Keys.HardKey>Open\/View</Keys.HardKey> and window selection buttons will pop up
 on the screen, touch the type of window you want to configure the view.
 
 The <Keys.HardKey>Display</Keys.HardKey> button below the rotary encoders toggles through four

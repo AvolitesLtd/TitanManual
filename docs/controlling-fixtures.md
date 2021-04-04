@@ -237,7 +237,7 @@ of the fixture will be controlled together.
 
 You can use the buttons which appear at the top of the attribute editor
 window to select the main fixture, or individual cells for control (double
-press <Keys.HardKey>Open/View</Keys.HardKey> to open the Attribute Editor window from the window
+press <Keys.HardKey>Open\/View</Keys.HardKey> to open the Attribute Editor window from the window
 select buttons).
 
 ![Cell Selection](/docs/images/Cell-Selection.png)

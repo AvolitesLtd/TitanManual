@@ -191,7 +191,7 @@ the cues: <Keys.SoftKey>Timecode = </Keys.SoftKey> sets the timecode directly wh
 can be used in <Keys.SoftKey>Add + </Keys.SoftKey> or <Keys.SoftKey>Subtract - </Keys.SoftKey>, to shift all selected timestamps by this timespan.
 
 You can open a timecode display window for each of the four possible
-sources to show you the incoming timecode - double press <Keys.HardKey>Open/View</Keys.HardKey> 
+sources to show you the incoming timecode - double press <Keys.HardKey>Open\/View</Keys.HardKey> 
 then press <Keys.SoftKey>Timecode x</Keys.SoftKey> (where x is 1 to 4) from the workspace select buttons.
 
 ![Timecode 1 Workspace Window](/docs/images/Timecode-1-Workspace-Window.png)

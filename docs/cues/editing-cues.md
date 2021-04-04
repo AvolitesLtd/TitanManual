@@ -88,7 +88,7 @@ Playback and Cue View
 ---------------------
 
 To see the current timings of the cue, touch the playbacks display for
-the fader, or press <Keys.HardKey>Open/View</Keys.HardKey> then the **Select** button of the playback
+the fader, or press <Keys.HardKey>Open\/View</Keys.HardKey> then the **Select** button of the playback
 you want to view. The screen will show details of the delay, fade,
 overlap and curve settings for the cue. You can touch each item to
 enable editing.

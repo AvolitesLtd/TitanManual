@@ -124,7 +124,7 @@ It also offers a colour picker window for fixtures with RGB or CMY
 colour mixing.
 
 The Diamond 9 has a dedicated Editor touchscreen to show the Attribute Editor,
-on other consoles you open it as a workspace window - Double press <Keys.HardKey>Open/View</Keys.HardKey> then \[Attribute
+on other consoles you open it as a workspace window - Double press <Keys.HardKey>Open\/View</Keys.HardKey> then \[Attribute
 Editor\] from the window select buttons to show it. As a shortcut you can also show it by touching the
 attribute name text just below the on-screen IPCGBES buttons.
 

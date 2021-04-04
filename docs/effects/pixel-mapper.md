@@ -158,7 +158,7 @@ Some points about animations:
 
 If you don't have fixtures connected, you can see how the effect will
 look on the fixtures using the Pixel Mapper preview window - open it by
-double pressing <Keys.HardKey>Open/View</Keys.HardKey> then press \[Pixel Mapper
+double pressing <Keys.HardKey>Open\/View</Keys.HardKey> then press \[Pixel Mapper
 Preview\] from the window select buttons. A real life view of each effect currently running is shown in
 a button at the bottom of the screen, you can select each of these by
 pressing the button.

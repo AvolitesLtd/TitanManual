@@ -208,7 +208,20 @@ function addImageSpacing(content) {
  * @return {string} The content with the breaks replaced
  */
 function replaceBr(content) {
-  return content.replace(/<br>/gmi," \\newline &ZeroWidthSpace;");
+  return content.replace(/<br\\>/gmi," \\newline &ZeroWidthSpace;");
+}
+
+/**
+ * Replace key tags with normal tags
+ * @param {string} content Contents of the .md file with the tags in
+ * @return {string} The content with the breaks replaced
+ */
+ function replaceJSX(content) {
+  content = content.replace(/<Keys\.ContextKey>(.*?)<\/Keys\.ContextKey>/gmi,"{$1}");
+  content = content.replace(/<Keys\.HardKey>(.*?)<\/Keys\.HardKey>/gmi,"\<$1\>");
+  content = content.replace(/<Keys\.SoftKey>(.*?)<\/Keys\.SoftKey>/gmi,"[$1]");
+  content = content.replace(/import .*? from '.*?';\n/gmi,"");
+  return content;
 }
 
 /**
@@ -343,6 +356,8 @@ function formatMd(docsPath,filename,version) {
 
   // replace <br> tags
   content = replaceBr(content);
+
+  content = replaceJSX(content);
 
   content += "\n\n";
 

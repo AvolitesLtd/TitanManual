@@ -43,26 +43,26 @@ fade time
 
 ## Views, menus and windows
 
--  Quick open Patch View: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Patch</Keys.HardKey>
--  Quick Open Fixtures Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey>
--  Quick Open Groups Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Group</Keys.HardKey>
--  Quick Open Macros Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Macro</Keys.HardKey>
--  Quick Open Attribute Editor: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Options</Keys.HardKey>
--  Quick Open Active Playbacks: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Off</Keys.HardKey>
--  Quick Open Position Palettes Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey>
--  Quick Open Colour Palettes Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Colour</Keys.HardKey>
--  Quick Open Gobo and Beam Palettes Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Gobo</Keys.HardKey> (or <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Beam</Keys.HardKey>)
--  Quick Open Shape Palettes Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Shape</Keys.HardKey>
--  Quick Open Intensity View: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Intensity</Keys.HardKey>
--  Quick Open Cue List View of connected Cue List: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Connect/Cue</Keys.HardKey>
+-  Quick open Patch View: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Patch</Keys.HardKey>
+-  Quick Open Fixtures Window: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey>
+-  Quick Open Groups Window: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Group</Keys.HardKey>
+-  Quick Open Macros Window: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Macro</Keys.HardKey>
+-  Quick Open Attribute Editor: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Options</Keys.HardKey>
+-  Quick Open Active Playbacks: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Off</Keys.HardKey>
+-  Quick Open Position Palettes Window: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey>
+-  Quick Open Colour Palettes Window: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Colour</Keys.HardKey>
+-  Quick Open Gobo and Beam Palettes Window: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Gobo</Keys.HardKey> (or <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Beam</Keys.HardKey>)
+-  Quick Open Shape Palettes Window: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Shape</Keys.HardKey>
+-  Quick Open Intensity View: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Intensity</Keys.HardKey>
+-  Quick Open Cue List View of connected Cue List: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Connect/Cue</Keys.HardKey>
 -  Quick exit menus to the top: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>EXIT</Keys.HardKey>, this will also exit the Unfold Menu
 -  Search deep in menus: use the search box to find menu options faster.
 -  Options missing in a Menu: Check to see if you have typed in the search box in the prompt area by accident
--  Window too small to Adjust: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Min/Max</Keys.HardKey> to resize window
+-  Window too small to Adjust: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Min/Max</Keys.HardKey> to resize window
 -  Move Window to different screen: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Size/Position</Keys.HardKey> Moves the currently selected window to another screen.
 -  Close All Windows: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Close</Keys.HardKey>
--  Delete a workspace select button: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Delete</Keys.HardKey> <Keys.ContextKey>Workspace button</Keys.ContextKey>
--  Move or Copy a workspace select button: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Move</Keys.HardKey> <Keys.ContextKey>Workspace button</Keys.ContextKey> or <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Copy</Keys.HardKey> <Keys.ContextKey>Workspace button</Keys.ContextKey>
+-  Delete a workspace select button: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Delete</Keys.HardKey> <Keys.ContextKey>Workspace button</Keys.ContextKey>
+-  Move or Copy a workspace select button: <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Move</Keys.HardKey> <Keys.ContextKey>Workspace button</Keys.ContextKey> or <Keys.HardKey>Open\/View</Keys.HardKey> <Keys.HardKey>Copy</Keys.HardKey> <Keys.ContextKey>Workspace button</Keys.ContextKey>
 -  Move Camera in Capture with wheels: In the Context Menu <Keys.ContextKey>Camera Move</Keys.ContextKey> then how you want to move the camera
 
 ## Setup, operating system and hardware

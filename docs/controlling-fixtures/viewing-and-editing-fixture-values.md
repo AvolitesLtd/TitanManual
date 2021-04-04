@@ -11,7 +11,7 @@ The Channel Grid Window
 
 It can sometimes be useful to display and edit exactly what each fixture
 is doing. The Channel Grid window allows you do to that. Display it by
-double pressing <Keys.HardKey>Open/View</Keys.HardKey> then \[Channel
+double pressing <Keys.HardKey>Open\/View</Keys.HardKey> then \[Channel
 Grid\] from the window select buttons.
 
 ![Channel Grid](/docs/images/Channel-Grid.png)
@@ -57,7 +57,7 @@ The Intensity View Window
 
 If you want to see at a glance the intensity setting of each fixture,
 the Intensity View window is the place to be. To show the window, double press
-<Keys.HardKey>Open/View</Keys.HardKey> then select <Keys.SoftKey>Intensity View</Keys.SoftKey> from the window select buttons.
+<Keys.HardKey>Open\/View</Keys.HardKey> then select <Keys.SoftKey>Intensity View</Keys.SoftKey> from the window select buttons.
 
 ![Intensity View](/docs/images/Intensity-View.png)
 
@@ -93,7 +93,7 @@ show the automatic fixture colours, see below.
 -   Click on a fixture to select it, you can then edit the intensity
     directly.
 
--   Press <Keys.HardKey>Open/View</Keys.HardKey> followed by a fixture button to show more
+-   Press <Keys.HardKey>Open\/View</Keys.HardKey> followed by a fixture button to show more
     detailed information about the fixture.
 
 The context menu options give you settings to change how the window is
