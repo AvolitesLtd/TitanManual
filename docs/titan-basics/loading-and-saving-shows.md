@@ -4,7 +4,7 @@ title: Loading and saving shows
 sidebar_label: Loading and saving shows
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 You can save any number of different shows on a USB drive or the
 console's internal hard disk. The console will also autosave the show

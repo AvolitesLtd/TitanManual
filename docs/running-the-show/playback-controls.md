@@ -4,7 +4,7 @@ title: Playback controls
 sidebar_label: Playback controls
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Back up the show
 ----------------

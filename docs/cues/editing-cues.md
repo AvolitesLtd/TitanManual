@@ -4,7 +4,7 @@ title: Editing Cues
 sidebar_label: Editing Cues
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Editing a Cue by Merging
 ------------------------

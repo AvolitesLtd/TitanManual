@@ -4,7 +4,7 @@ title: Linking the Console to Stand-Alone Capture
 sidebar_label: Linking the Console to Stand-Alone Capture
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Sometimes the extra capabilities of the full version of Capture are
 needed, and the console is linked to a PC running full Capture. The

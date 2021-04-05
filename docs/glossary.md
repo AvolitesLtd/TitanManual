@@ -4,7 +4,7 @@ title: Glossary of Avolites terms
 sidebar_label: Glossary of Avolites terms
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 This section explains what common lighting terminology means in Avolites Titan. In cases where other lighting equipment manufacturers use the words to mean something else, this is listed in the text.
 

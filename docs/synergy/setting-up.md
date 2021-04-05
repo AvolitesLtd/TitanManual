@@ -4,7 +4,7 @@ title: Setting up Synergy
 sidebar_label: Setting up Synergy
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Connecting up
 -------------

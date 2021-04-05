@@ -4,7 +4,7 @@ title: Creating a Chase
 sidebar_label: Creating a Chase
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Programming a Chase
 -------------------

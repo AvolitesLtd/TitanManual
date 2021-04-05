@@ -4,7 +4,7 @@ title: Creating Reports
 sidebar_label: Creating Reports
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 When preparing a show it is often useful to create a report of how the
 show is patched or programmed on the console, for example to give to a

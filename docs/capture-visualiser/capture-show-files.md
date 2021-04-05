@@ -4,7 +4,7 @@ title: Capture Show Files
 sidebar_label: Capture Show Files
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 The Capture stage is automatically saved within the Titan showfile. The
 Capture stage can also be exported and imported separately from the

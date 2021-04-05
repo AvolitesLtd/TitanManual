@@ -4,7 +4,7 @@ title: Cue Playback
 sidebar_label: Cue Playback
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Because it's possible to play back a large number of cues at the same
 time, the console has to have rules on how it combines the output from

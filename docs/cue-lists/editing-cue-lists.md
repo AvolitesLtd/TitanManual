@@ -4,7 +4,7 @@ title: Editing Cue Lists
 sidebar_label: Editing Cue Lists
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 This section describes how to edit cues within a cue list. 
 To copy, move or delete an entire cue list see the section 

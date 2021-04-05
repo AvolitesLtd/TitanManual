@@ -4,7 +4,7 @@ title: Editing a Chase
 sidebar_label: Editing a Chase
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Opening a Chase for Editing
 ---------------------------

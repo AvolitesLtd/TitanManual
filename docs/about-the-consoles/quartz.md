@@ -5,7 +5,7 @@ sidebar_label: Quartz
 description: Quartz - console design and features
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 ![Quartz](/docs/images/Quartz.png)
 

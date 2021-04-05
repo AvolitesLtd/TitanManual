@@ -4,7 +4,7 @@ title: Fixture Advanced Options
 sidebar_label: Fixture Advanced Options
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Fixture macros and Lamping fixtures on and off
 ---------------------------

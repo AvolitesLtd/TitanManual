@@ -4,7 +4,7 @@ title: Editing Palettes
 sidebar_label: Editing Palettes
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Viewing and Editing the Content of Palettes
 -------------------------------------------

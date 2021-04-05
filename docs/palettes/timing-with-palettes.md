@@ -4,7 +4,7 @@ title: Timing with Palettes
 sidebar_label: Timing with Palettes
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Palettes may be created with timing information,
 or you can manually override the timing when recalling the palette.

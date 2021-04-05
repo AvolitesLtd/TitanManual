@@ -4,7 +4,7 @@ title: Titan Mobile
 sidebar_label: Titan Mobile
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Titan Mobile is a USB wing which plugs into a Windows PC or laptop running the Titan software.
 See [minimum PC specifications](../titan-basics.md#connecting-up-titan-mobile-and-t1t2) for details of the PC requirements.

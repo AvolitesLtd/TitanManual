@@ -4,7 +4,7 @@ title: Connecting up and Titan basics
 sidebar_label: Connecting up and Titan basics
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 This section covers how to connect the console up, and the basic things
 you need to know about operating Titan.

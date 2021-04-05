@@ -4,7 +4,7 @@ title: Button reference
 sidebar_label: Button reference
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 This section lists all the physical buttons and tells you what they do. The **links** take you to the section of the manual where the function is explained in more detail. Some consoles may not have all these buttons.
 

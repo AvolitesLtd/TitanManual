@@ -4,7 +4,7 @@ title: Patching
 sidebar_label: Patching
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Patching is the process where you tell the console
 

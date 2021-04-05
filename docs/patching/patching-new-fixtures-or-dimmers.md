@@ -5,7 +5,7 @@ sidebar_label: Patching new Fixtures or Dimmers
 tags: fixture
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Fixture Select Buttons and Handles
 ----------------------------------

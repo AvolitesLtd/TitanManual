@@ -4,7 +4,7 @@ title: Set List Window
 sidebar_label: Set List Window
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 The Set List window is a handy way of linking playback pages to
 songs/events in your show which you can then easily step through. You

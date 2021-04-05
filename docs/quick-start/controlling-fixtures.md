@@ -4,7 +4,7 @@ title: Controlling fixtures
 sidebar_label: Controlling fixtures
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Select fixtures for control by pressing select buttons. Fixture buttons
 turn blue when selected.

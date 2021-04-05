@@ -4,7 +4,7 @@ title: Chase Options
 sidebar_label: Chase Options
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 To set options for a chase, press <Keys.HardKey>Options</Keys.HardKey> or <Keys.SoftKey>Options</Keys.SoftKey> on the root menu,
 then press the **Select** button of the playback to be edited. Options will

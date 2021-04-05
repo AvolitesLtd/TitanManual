@@ -4,7 +4,7 @@ title: Multi-User Operation
 sidebar_label: Multi-User Operation
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 You can connect multiple consoles together to work together on a show.
 You can also have multiple user setups on a show on a single console to

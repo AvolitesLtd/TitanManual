@@ -5,7 +5,7 @@ sidebar_label: Diamond 9
 description: Diamond 9 - console design and features
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 ![Diamond9](/docs/images/Diamond-Main.png)
 

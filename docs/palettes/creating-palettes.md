@@ -4,7 +4,7 @@ title: Creating Palettes
 sidebar_label: Creating Palettes
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Which Attributes are Stored in Palettes
 ---------------------------------------

@@ -4,7 +4,7 @@ title: Creating a Cue
 sidebar_label: Creating a Cue
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 How Titan Works When Programming
 --------------------------------

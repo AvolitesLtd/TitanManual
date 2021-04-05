@@ -4,7 +4,7 @@ title: Copying, Moving, Linking and Deleting a Chase
 sidebar_label: Copying, Moving, Linking and Deleting
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Copying or moving a chase
 -------------------------

@@ -4,7 +4,7 @@ title: Key Frame Shapes
 sidebar_label: Key Frame Shapes
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Key frame shapes allow you to create your own shape sequences. You store
 a series of attribute settings as key frames and the shape fades between

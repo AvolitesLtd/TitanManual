@@ -4,7 +4,7 @@ title: Selecting Fixtures
 sidebar_label: Selecting Fixtures
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 When you are programming a show, and sometimes when you are running a show, you need to 
 manually control the fixtures and dimmers to set the intensity, position, colour, etc. 

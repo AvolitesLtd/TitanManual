@@ -4,7 +4,7 @@ title: Changing Fixture Attributes
 sidebar_label: Changing Fixture Attributes
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Once you have selected the fixtures you want to operate, you then
 have various options for controlling them.

@@ -4,7 +4,7 @@ title: Programming cues and chases
 sidebar_label: Programming cues and chases
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 ## Cues
 

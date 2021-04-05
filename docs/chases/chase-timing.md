@@ -4,7 +4,7 @@ title: Chase Timing
 sidebar_label: Chase Timing
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Global Timings for Chases
 -------------------------

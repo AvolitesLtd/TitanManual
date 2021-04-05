@@ -4,7 +4,7 @@ title: Editing Shapes and Effects
 sidebar_label: Editing Shapes and Effects
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Editing a Live Running Shape
 ----------------------------

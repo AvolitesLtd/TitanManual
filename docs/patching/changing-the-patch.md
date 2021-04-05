@@ -5,7 +5,7 @@ sidebar_label: Changing the Patch
 tags: park
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Patch View
 ----------

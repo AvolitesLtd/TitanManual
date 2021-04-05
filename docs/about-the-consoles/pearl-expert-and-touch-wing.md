@@ -5,7 +5,7 @@ sidebar_label: Pearl Expert and Touch Wing
 description: Pearl Expert and Touch Wing - console design and features
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 ![Pearl Expert](/docs/images/Pearl-Expert.png)
 

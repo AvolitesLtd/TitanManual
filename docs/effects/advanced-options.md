@@ -4,7 +4,7 @@ title: Advanced Options
 sidebar_label: Advanced Options
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Fading Shape Size and Speed
 ---------------------------

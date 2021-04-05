@@ -4,7 +4,7 @@ title: Cue List Playback
 sidebar_label: Cue List Playback
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Running a Cue List
 ------------------

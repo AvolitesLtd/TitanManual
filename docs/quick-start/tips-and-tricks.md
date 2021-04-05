@@ -4,7 +4,7 @@ title: Tips and tricks
 sidebar_label: Tips and tricks
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 The following section gives you some quick ways to operate Titan. ``<n>`` means type a number on the keypad. "<Keys.HardKey>Avo</Keys.HardKey> + " means hold down the first button.
 

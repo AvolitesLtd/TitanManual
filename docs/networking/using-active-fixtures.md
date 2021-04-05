@@ -4,7 +4,7 @@ title: Using Active Fixtures with CITP
 sidebar_label: Using Active Fixtures with CITP
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 CITP is a standard system allowing lighting devices to communicate and
 share information. This is often used with media servers to allow the

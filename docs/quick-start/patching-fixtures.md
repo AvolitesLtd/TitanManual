@@ -4,7 +4,7 @@ title: Patching fixtures
 sidebar_label: Patching fixtures
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Press <Keys.HardKey>Patch</Keys.HardKey>, <Keys.SoftKey>Dimmers</Keys.SoftKey> or <Keys.SoftKey>Fixtures</Keys.SoftKey>.
 

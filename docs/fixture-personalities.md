@@ -4,7 +4,7 @@ title: Fixture Personalities
 sidebar_label: Fixture Personalities
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 For each type of fixture, the console has a *"personality"* file which
 tells it how to control the fixture, which channel is the dimmer (HTP)

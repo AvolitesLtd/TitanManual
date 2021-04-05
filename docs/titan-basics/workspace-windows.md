@@ -4,7 +4,7 @@ title: Workspace Windows
 sidebar_label: Workspace Windows
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 The main area of the screen contains the workspace windows. These
 contain buttons and controls for selecting fixtures, groups, palettes, and playbacks,

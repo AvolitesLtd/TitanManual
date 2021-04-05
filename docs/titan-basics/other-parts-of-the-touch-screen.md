@@ -4,7 +4,7 @@ title: Other Parts of the Touch Screen
 sidebar_label: Other Parts of the Touch Screen
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 The Menu/Softkeys
 -----------------

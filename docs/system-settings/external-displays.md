@@ -4,7 +4,7 @@ title: External Displays
 sidebar_label: External Displays
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 For extra workspace you can connect external monitors to the monitor ports
 provided on the console (HDMI on Diamond 9, DVI on other consoles, except Pearl Expert and Tiger Touch 1

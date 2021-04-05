@@ -4,7 +4,7 @@ title: Capture Visualiser Introduction
 sidebar_label: Capture Visualiser Introduction
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 The Capture visualiser engine is integrated into the Titan consoles.
 This can provide a realistic simulation of your lighting which is really

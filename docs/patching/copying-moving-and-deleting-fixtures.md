@@ -4,7 +4,7 @@ title: Copying, moving and deleting fixtures
 sidebar_label: Copying, moving and deleting fixtures
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Copying or moving a patched fixture
 -----------------------------------

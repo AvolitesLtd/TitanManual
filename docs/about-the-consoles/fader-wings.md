@@ -4,7 +4,7 @@ title: Fader Wings
 sidebar_label: Fader Wings
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 "Wings" are additional control surfaces which can be connected to the
 console to provide more faders and buttons, and in some cases extra

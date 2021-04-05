@@ -4,7 +4,7 @@ title: Using multiple on-screen workspaces
 sidebar_label: Using multiple on-screen workspaces
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 You can configure different **Workspaces** which store the layout of
 the various windows displayed on the console screen(s). This allows you to quickly recall

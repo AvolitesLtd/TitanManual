@@ -4,7 +4,7 @@ title: Linking Consoles for Multi-User or Backup
 sidebar_label: Linking Consoles for Multi-User or Backup
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 On large shows it is sometimes necessary to have multiple operators
 programming or running different aspects of the show. The Titan system

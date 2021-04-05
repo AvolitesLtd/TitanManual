@@ -4,7 +4,7 @@ title: Curves
 sidebar_label: Curves
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 The console provides a variety of curves which set how the console
 tracks fades in playbacks; either the same speed all the way (linear),

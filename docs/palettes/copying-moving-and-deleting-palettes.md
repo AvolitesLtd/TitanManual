@@ -4,7 +4,7 @@ title: Copying, Moving and Deleting Palettes
 sidebar_label: Copying, Moving and Deleting Palettes
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Copying or Moving a Palette
 ---------------------------

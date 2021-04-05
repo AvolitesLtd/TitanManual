@@ -4,7 +4,7 @@ title: Operating Synergy
 sidebar_label: Operating Synergy
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Once Titan and the Ai server(s) are [linked up](setting-up.md), you can start controlling
 Ai from the console.

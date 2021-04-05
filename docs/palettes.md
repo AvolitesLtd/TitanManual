@@ -4,7 +4,7 @@ title: Palettes
 sidebar_label: Palettes
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 When programming a show you will find that you frequently use certain
 positions, colours, etc. The console lets you store these settings so

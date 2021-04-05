@@ -4,7 +4,7 @@ title: Using Palettes
 sidebar_label: Using Palettes
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Recalling a Palette Value
 -------------------------

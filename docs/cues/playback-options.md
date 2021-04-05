@@ -4,7 +4,7 @@ title: Playback Options
 sidebar_label: Playback Options
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 

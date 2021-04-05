@@ -4,7 +4,7 @@ title: Shape Generator
 sidebar_label: Shape Generator
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 [](https://youtu.be/oTo6FxHD02o?t=20 "Using Shape Generator")
 

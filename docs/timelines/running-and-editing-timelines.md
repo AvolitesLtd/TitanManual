@@ -4,7 +4,7 @@ title: Running and Editing Timelines
 sidebar_label: Running and Editing Timelines
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Running a timeline to timecode
 ------------------

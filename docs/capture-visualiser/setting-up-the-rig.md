@@ -4,7 +4,7 @@ title: Setting up the Rig
 sidebar_label: Setting up the Rig
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Setting up the Stage and Rigging
 --------------------------------

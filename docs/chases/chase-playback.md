@@ -4,7 +4,7 @@ title: Chase Playback
 sidebar_label: Chase Playback
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Playing Back a Chase
 --------------------

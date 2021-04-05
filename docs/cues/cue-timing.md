@@ -4,7 +4,7 @@ title: Cue Timing
 sidebar_label: Cue Timing
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 The console allows a wide variety of timing functions for each cue.
 

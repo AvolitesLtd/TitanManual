@@ -4,7 +4,7 @@ title: Cue List Timing
 sidebar_label: Cue List Timing
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Time and Fade Options for Cue Lists
 -----------------------------------

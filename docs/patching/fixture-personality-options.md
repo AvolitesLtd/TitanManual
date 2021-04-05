@@ -4,7 +4,7 @@ title: Fixture Personality Options
 sidebar_label: Fixture Personality Options
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Titan uses fixture personalities to tell the console how to operate each
 type of fixture. Avolites have created personalities for most fixture types in 

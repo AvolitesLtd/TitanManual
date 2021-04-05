@@ -4,7 +4,7 @@ title: Copying, Moving, Linking and Deleting a Cue
 sidebar_label: Copying, Moving, Linking and Deleting
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Copying a Cue
 -----------------------

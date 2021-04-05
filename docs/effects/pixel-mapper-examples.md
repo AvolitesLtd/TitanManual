@@ -4,7 +4,7 @@ title: Pixel Mapper Examples
 sidebar_label: Pixel Mapper Examples
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Randomising Effects
 -------------------

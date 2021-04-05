@@ -4,7 +4,7 @@ title: Pixel Mapper
 sidebar_label: Pixel Mapper
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Creating Pixel Mapper effects
 -----------------------------

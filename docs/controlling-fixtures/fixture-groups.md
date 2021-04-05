@@ -4,7 +4,7 @@ title: Fixture Groups
 sidebar_label: Fixture Groups
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 Using Fixture Groups
 --------------------

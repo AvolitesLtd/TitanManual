@@ -5,7 +5,7 @@ sidebar_label: Tiger Touch
 description: Tiger Touch - console design and features
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 ![Tiger Touch](/docs/images/Tiger-Touch.png)
 

@@ -4,7 +4,7 @@ title: Viewing and Editing Fixture Values
 sidebar_label: Viewing and Editing Fixture Values
 ---
 
-import Keys from '/src/components/key.ts';
+import Keys from '@site/src/components/key.ts';
 
 The Channel Grid Window
 -----------------------
