@@ -5,6 +5,8 @@ sidebar_label: Other parts of the touch screen
 original_id: other-parts-of-the-touch-screen
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The Menu/Softkeys
 -----------------
 
@@ -15,8 +17,8 @@ display. These are known as the "Softkeys" and are lettered A-G.
 
 ![Titan Touch Screen User Interface](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
-If there are more functions than will fit on one screen, \[Previous\]
-and \[Next\] buttons are provided to page through the functions. You can
+If there are more functions than will fit on one screen, <Keys.SoftKey>Previous</Keys.SoftKey>
+and <Keys.SoftKey>Next</Keys.SoftKey> buttons are provided to page through the functions. You can
 either touch the key on screen, or most consoles provide real buttons
 next to the screen.
 
@@ -171,7 +173,7 @@ You can touch this window to undo all actions up to the one you touch.
 Once actions have been undone they are shown greyed out, and can be
 redone by touching them.
 
-You can also use the \<Undo\> and \<Redo\> buttons (not on all consoles)
+You can also use the <Keys.HardKey>Undo</Keys.HardKey> and <Keys.HardKey>Redo</Keys.HardKey> buttons (not on all consoles)
 to step through the list.
 
 Some actions cannot be undone which is indicated with the "not allowed"
@@ -181,5 +183,5 @@ symbol as shown below.
 
 If you are in multi-user mode, the Undo History can show a column for
 each user with undo points for that user - open the Context menu and
-select \[Show All Users and Consoles\]. The default setting is \[Show
+select <Keys.SoftKey>Show All Users and Consoles</Keys.SoftKey>. The default setting is \[Show
 Only Current User\].

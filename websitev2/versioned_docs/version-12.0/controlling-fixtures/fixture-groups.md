@@ -5,6 +5,8 @@ sidebar_label: Fixture Groups
 original_id: fixture-groups
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Using Fixture Groups
 --------------------
 
@@ -30,24 +32,24 @@ the buttons using [Key Profiles](../system-settings/key-profiles.md).
 [Video showing how to record a group](https://youtu.be/E8QxOKT5TCA?t=20)
 
 If the Groups window is not visible, you can show it by pressing
-\<View/Open\>, \<Group\> (above numeric keys).
+<Keys.HardKey>View/Open</Keys.HardKey>, <Keys.HardKey>Group</Keys.HardKey> (above numeric keys).
 
 1. Select the fixtures/dimmers you want in the group (the order in
 which you select them will also be stored in the group).
 
-2. Press \<Group\> (top right of the numeric keys) then \[Record
-Group\]. You can also press \<Record\> then \<Group\>.
+2. Press <Keys.HardKey>Group</Keys.HardKey> (top right of the numeric keys) then \[Record
+Group\]. You can also press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Group</Keys.HardKey>.
 
 3. Use softkey A to enter a number for the group, or B \[Provide a
 legend\] to set a legend.
 
 4. Touch an empty button in the Groups window, or press the grey button
 of a fader handle where you want to store the group (not the main
-playback faders), or press C \[Store\] to store as a numbered group.
+playback faders), or press C <Keys.SoftKey>Store</Keys.SoftKey> to store as a numbered group.
 
-5. Press \<Clear\> then repeat from 1 to store other groups.
+5. Press <Keys.HardKey>Clear</Keys.HardKey> then repeat from 1 to store other groups.
 
--   You can also press \<Avo\> and \<Group\> to go directly to the
+-   You can also press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Group</Keys.HardKey> to go directly to the
     Record Group menu, or on the screen touch the button twice to use
     Quick Record - on the first touch the button will turn red with a
     +, on the second touch the group will be recorded.
@@ -66,34 +68,34 @@ playback faders), or press C \[Store\] to store as a numbered group.
 
 -   You can also recall a group by its number:
 
-    1. Press \<Group\>.
+    1. Press <Keys.HardKey>Group</Keys.HardKey>.
 
     2. Type in the number of the group you want to recall.
 
-    3. Press \[Recall Group\].
+    3. Press <Keys.SoftKey>Recall Group</Keys.SoftKey>.
 
--   The \<Group\> button also gives you facilities on the softkeys to
+-   The <Keys.HardKey>Group</Keys.HardKey> button also gives you facilities on the softkeys to
     edit and delete groups.
 
--   You can use \<Select If\> to deselect a group of fixtures from a
+-   You can use <Keys.HardKey>Select If</Keys.HardKey> to deselect a group of fixtures from a
     selection. This can be useful to select a subset of fixtures from a
     group. For example if you have a group for the outside edges of a
     5x5 matrix, and a group which selects odd and even pixels from the
-    matrix, you can select the outside edge, then use \<Select If\> with
+    matrix, you can select the outside edge, then use <Keys.HardKey>Select If</Keys.HardKey> with
     the odd/even group to remove the alternate pixels round the edge.
 
 ### Deleting Fixtures from Groups
 
 To remove fixtures from a group:
 
-1. Press \<Group\>.
+1. Press <Keys.HardKey>Group</Keys.HardKey>.
 
 2. Press the button for the group you want to change. All fixtures
 currently in the group will be selected.
 
 3. Deselect the fixtures you want to remove from the group.
 
-4. Press \<Exit\>.
+4. Press <Keys.HardKey>Exit</Keys.HardKey>.
 
 The group will now only contain the fixtures which remained selected.
 
@@ -101,9 +103,9 @@ The group will now only contain the fixtures which remained selected.
 
 When patching multiple fixtures, the console automatically creates
 groups for you. A fixture type group is created which contains all
-fixtures of the same type (for example, \[All Robe Pointe\]). Another
+fixtures of the same type (for example, <Keys.SoftKey>All Robe Pointe</Keys.SoftKey>). Another
 group is created each time you patch a quantity of fixtures (for
-example, \[4 BB4\].) This function can be turned off using \[Auto
+example, <Keys.SoftKey>4 BB4</Keys.SoftKey>.) This function can be turned off using \[Auto
 Groups\] in the User Settings.
 
 
@@ -122,17 +124,17 @@ patterns.
 
 To change the numerical fixture order:
 
-1. Press \<Group\>.
+1. Press <Keys.HardKey>Group</Keys.HardKey>.
 
 2. Select the group you want to edit.
 
-3. Press \[Fixture Order\].
+3. Press <Keys.SoftKey>Fixture Order</Keys.SoftKey>.
 
 The fixtures in the group will be shown numbered in the fixtures window.
 
 ![Fixture Order](/docs/images/Fixture-Order.png)
 
-To change the order, select \[Auto Increment\] to On, then select the
+To change the order, select <Keys.SoftKey>Auto Increment</Keys.SoftKey> to On, then select the
 fixtures in the order you want. If you press a fixture twice, it will
 show an X indicating that it is not part of the sequence.
 
@@ -142,11 +144,11 @@ show an X indicating that it is not part of the sequence.
 
 To change the 2D fixture layout:
 
-1. Press \<Group\>
+1. Press <Keys.HardKey>Group</Keys.HardKey>
 
 2. Select the group you want to edit.
 
-3. Press \[Edit Layout\]. The Layout Editor window will open.
+3. Press <Keys.SoftKey>Edit Layout</Keys.SoftKey>. The Layout Editor window will open.
 
 Initially fixtures will be all in a row. You can reposition the fixtures
 anywhere on the screen by dragging them. Or press a fixture to select
@@ -158,7 +160,7 @@ rotated, move as a block. Depending on the fixture personality,
 sometimes the cells may not match the actual physical layout of the
 cells on the fixture.
 
-The \[Arrange Fixtures\] context command will automatically place the
+The <Keys.SoftKey>Arrange Fixtures</Keys.SoftKey> context command will automatically place the
 fixtures in a rectangular block, you specify the number of rows (Height)
 and columns (Width).
 
@@ -185,8 +187,8 @@ and columns (Width).
     rotate. If you press the @ button for the wheel, a window opens
     allowing you to type in the values numerically.
 
--   If you click the context menu button \[Position and Angle\] it will
-    change to \[Scale\] which allows you to spread out or compress the
+-   If you click the context menu button <Keys.SoftKey>Position and Angle</Keys.SoftKey> it will
+    change to <Keys.SoftKey>Scale</Keys.SoftKey> which allows you to spread out or compress the
     cells in a multi-cell fixture. This is useful to get cells located
     correctly if you have some fixtures with large cell spacing and some
     with small spacing.\
@@ -199,4 +201,4 @@ and columns (Width).
     [Pixel Mapper section](../effects/pixel-mapper.md). There are also some features
     to help with [Synergy/Ai mapping](../synergy/operating-synergy.md#layout-editor-with-ai-server).
 
-> You can temporarily randomize the fixture order when selecting fixtures using a group by holding down the group button and pressing \[Random Order\] which appears as a softkey option while the button is held.
+> You can temporarily randomize the fixture order when selecting fixtures using a group by holding down the group button and pressing <Keys.SoftKey>Random Order</Keys.SoftKey> which appears as a softkey option while the button is held.

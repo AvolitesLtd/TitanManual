@@ -5,6 +5,8 @@ sidebar_label: Glossary of Avolites terms
 original_id: glossary
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Hier werden die wichtigsten Fachbegriffe aufgelistet und erklärt, die
 bei der Arbeit mit Avolites-Pulten sowie in diesem Handbuch vorkommen.
 Sollten einzelne Begriffe bei anderen Herstellern eine andere Bedeutung
@@ -23,7 +25,7 @@ BPM			| Beats Per Minute. 60 BPM entsprechen einem Beat (Schritt) pro Sekunde.
 BLIND		| Im Blind-Modus haben Werte im Programmer keine Auswirkung auf den DMX-Ausgang. So können z.B. während der Show unbemerkt Änderungen vorgenommen werden.
 BUSKING<br/> (Improvisieren)	| Spontanes, improvisiertes 'Drücken' einer Lichtshow, die also nicht komplett durchprogrammiert ist. Wichtige Hilfsmittel sind Paletten und Effekte.
 CELL <br/> 	(Zelle, Teilgerät)  	| Teil eines größeren Gerätes, welches einzeln gesteuert werden kann. So kann z.B. ein LED-Fluter 12 Zellen haben, die einzeln gesteuert werden können. Auch als Subfixture (Teilgerät) bekannt.
-CHANNEL		| Mit der \<Channel\>-Taste auf älteren Pulten können Geräte per Tastensyntax angewählt werden. (auf neueren Pulten: Fixture)
+CHANNEL		| Mit der <Keys.HardKey>Channel</Keys.HardKey>-Taste auf älteren Pulten können Geräte per Tastensyntax angewählt werden. (auf neueren Pulten: Fixture)
 CHASE<br/>(Lauflicht)   		| Sequenz von mehreren Cues, die automatisch nacheinander ablaufen.
 COLOUR MIX / CMY	| System aus drei bestimmten Farbfiltern (Cyan, Magenta, Gelb), durch deren Mischung sich das gesamte Farbspektrum abbilden lässt.
 CONNECTED CHASE	| Chaser, der mit der Steuerung (Encoder und Tasten) verbunden ist.
@@ -103,7 +105,7 @@ UNFOLD	(Ausklappen)  | Funktion, bei der die einzelnen Schritte eines Chasers od
 UNIVERSE (Universum)  | Gruppe von 512 DMX-Kanälen, die über ein Kabel übertragen werden. Titan-Pulte können 64 Universen steuern (16 direkt pro Pult, weitere mit TNPs).
 UPS	(USV) 	| Uninterruptible Power Supply, Unterbrechungsfreie Stromversorgung. Bei manchen Pulten als Schutz vor Stromausfall integriert.
 USER NUMBER	| Jeder Dimmer/jedes Movinglight hat eine Nummer, mittels der man auch mit den Zifferntasten Geräte auswählen kann.
-USER SETTINGS (Benutzereinstellungen)	| Einstellungen, mit denen man Titan an die eigene Arbeitsweise anpassen kann. Um sie zu ändern, drücken Sie die \<Avo\>-Taste und wählen \[User Settings\].
+USER SETTINGS (Benutzereinstellungen)	| Einstellungen, mit denen man Titan an die eigene Arbeitsweise anpassen kann. Um sie zu ändern, drücken Sie die <Keys.HardKey>Avo</Keys.HardKey>-Taste und wählen <Keys.SoftKey>User Settings</Keys.SoftKey>.
 VIRTUAL DIMMER (virtuelle Dimmer) | Insbesondere einfache RGB-Lampen haben mitunter keinen separaten Dimmerkanal. Der virtuelle Dimmer wird dann vom Pult bereitgestellt und wirkt wie ein Master für die Farbkanäle.
 VISUALISER	| Software zur Darstellung der Bühnen- und Beleuchtungssituation in 3D, um das Vorprogrammieren zu erleichtern. 
 WING		| Separates Gerät mit weiteren Fadern und Tasten, um einem Pult weitere Bedienelemente hinzuzufügen.

@@ -5,6 +5,8 @@ sidebar_label: Operating Synergy
 original_id: operating-synergy
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Sind Titan und Ai-Server einmal [verbunden](setting-up.md), so lässt 
 sich Ai sehr einfach von Titan aus steuern.
 
@@ -17,7 +19,7 @@ anlegen. Neuer Content wird dabei automatisch in den von Ai bevorzugten
 AiM-Codec gewandelt. Das vereinfacht das Verwenden von Medien, die erst
 im letzten Moment angeliefert werden, sehr.
 
-Der Media Browser wird wie gewohnt mit \[Open Workspace Window\]
+Der Media Browser wird wie gewohnt mit <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>
 (Fenster öffnen) aufgerufen.
 
 ![Ai Media Browser Window](/docs/images/Ai-Media-Browser-Window.png)
@@ -33,7 +35,7 @@ wechselt eine Verzeichnisebene höher.
 
 Rechts sind die Medien-Bänke des Ai-Servers aufgeführt. Wählt man eine
 Bank aus, so werden alle enthaltenen Dateien/Medien angezeigt. Klickt
-man auf das \[ + \] neben der Liste der Bänke, so wird eine neue Bank 
+man auf das <Keys.SoftKey> + </Keys.SoftKey> neben der Liste der Bänke, so wird eine neue Bank 
 angelegt. Ganz oben in der rechten Spalte wird der auf dem Server 
 verfügbare Speicherplatz sowie der Pfad zum Medienverzeichnis angezeigt.
 
@@ -77,9 +79,9 @@ gewünschten auswählen.
 
 ![Video Multi View Window adding a stream](/docs/images/Video-Multi-View-Window-adding-a-stream.png)
 
-Mit der Kontext-Option \[Change Layout\] kann man die Anzahl und
+Mit der Kontext-Option <Keys.SoftKey>Change Layout</Keys.SoftKey> kann man die Anzahl und
 Anordnung der gezeigten Vorschaufenster wählen. \[Titles
-Shown\]/\[Titles Hidden\] bestimmt, ob die Namen der Streams als Titel
+Shown\]/<Keys.SoftKey>Titles Hidden</Keys.SoftKey> bestimmt, ob die Namen der Streams als Titel
 der Vorschauen angezeigt werden.
 
 ![Video Multi View Window laout options](/docs/images/Video-Multi-View-Window-laout-options.png)
@@ -110,7 +112,7 @@ Effekte hinzufügen etc.
 ![Clip tab of Attribute Editor for Synergy layer](/docs/images/Clip-tab-of-Attribute-Editor-for-Synergy-layer.png)
 
 Auf der Seite Media Selection bei den Clips kann man rechts oben durch
-einen Klick auf das \[T\] die Anzeige der Namen aktivieren oder
+einen Klick auf das <Keys.SoftKey>T</Keys.SoftKey> die Anzeige der Namen aktivieren oder
 deaktivieren - letzteres ist etwa bei sehr langen Namen empfehlenswert.
 
 Manche Attribute, z.B. Fx Select (Effekt-Auswahl) haben sehr viele
@@ -126,7 +128,7 @@ vom Ai-Server bezogen, so dass man wirklich das sieht, was auf dem
 Server angewählt ist. Dies ist auch bei Plugins für generativen
 Content der Fall, deren Namen man selbst bestimmt.
 
-> Wird ein Layer ausgewählt und \<Locate\> gedrückt, so wird die Helligkeit
+> Wird ein Layer ausgewählt und <Keys.HardKey>Locate</Keys.HardKey> gedrückt, so wird die Helligkeit
 auf 100% gesetzt, aber sämtlche Medien und Effekte werden gecleared. Damit 
 wird der Layer wieder in einen neutralen Ausgangszustand versetzt. **Um
 etwas am Output zu sehen, muss nur noch ein Clip gewählt werden.**
@@ -158,19 +160,19 @@ Videoausschnitt angezeigt wird, siehe [nächster Abschnitt](#verwendung-des-layo
 
 1.  **Starten Sie einen Clip** auf dem gewünschten Surface, etwa mit dem [Attribut-Editor](#layer-steuern-mit-dem-attribut-editor).
 
-2.  Wählen Sie nun das Menü \[Shapes and Effects\], dann \[Pixel Mapper\].
+2.  Wählen Sie nun das Menü <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, dann <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>.
 
 3.  Wählen Sie die **[Gerätegruppe](../controlling-fixtures/fixture-groups.md)**, auf der 
 	das Video laufen soll. Daraufhin öffnet sich der Effekt-Editor.
 
-4.  Klicken Sie unten links auf das \[ + \], um einen Pixelmapper-Effekt
+4.  Klicken Sie unten links auf das <Keys.SoftKey> + </Keys.SoftKey>, um einen Pixelmapper-Effekt
 	hinzuzufügen.
 
-5.  Klicken Sie oben rechts auf den \[Ai\] - Button.
+5.  Klicken Sie oben rechts auf den <Keys.SoftKey>Ai</Keys.SoftKey> - Button.
 
 ![Adding an element in the Pixel Mapper Window](/docs/images/Adding-an-element-in-the-Pixel-Mapper-Window.png)
 
-6.  Mit \[Source Surface\] kann die zu verwendende Quelle (Layer oder
+6.  Mit <Keys.SoftKey>Source Surface</Keys.SoftKey> kann die zu verwendende Quelle (Layer oder
 	Surface) gewählt werden; auch kann man mit den Red/Green/Blue-Reglern
 	die Farbe einstellen.
 
@@ -219,7 +221,7 @@ Gestattet es, das Layout-Raster an die
 Auflösung oder das Seitenverhältnis eines Surfaces (Ai-Outputs)
 anzupassen. Klickt man darauf, erscheint eine Auswahlliste der
 verfügbaren Surfaces. Wählt man eins davon aus, gibt es Buttons für
-\[Width\] (Breite) und \[Height\] (Höhe), die mit den Werten, die sich
+<Keys.SoftKey>Width</Keys.SoftKey> (Breite) und <Keys.SoftKey>Height</Keys.SoftKey> (Höhe), die mit den Werten, die sich
 aus der Auflösung des Surfaces ergeben, vorbelegt sind. Normalerweise
 wird man nicht das Grid in voller Auslösung verwenden, da ja die Lampen
 deutlich größer sind. Ändert man aber Breite oder Höhe, so ändert sich
@@ -230,7 +232,7 @@ bleibt.
 
 Im Layout-Editor lassen sich Geräte auch skalieren, um die relative
 Größe an die tatsächlichen Größenverhältnisse anzupassen. Dazu klickt
-man auf den Kontext-Button \[Position and Angle\], bis dieser \[Fixture
+man auf den Kontext-Button <Keys.SoftKey>Position and Angle</Keys.SoftKey>, bis dieser \[Fixture
 Scale\] zeigt. Skaliert man Geräte mit Zellen sehr klein, so
 verschwinden die einzelnen Zellen, und alle Zellen arbeiten synchron.
 

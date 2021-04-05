@@ -5,6 +5,8 @@ sidebar_label: Linking PioneerDJ System to Titan
 original_id: linking-pioneerdj-system-to-titan
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Using the Pioneer Pro DJ Link Bridge software you can automate BPM masters on the Titan console from a network-equipped Pioneer DJ system. You can either run the bridge software on the console itself or on an intermediate laptop.
 
 [](https://youtu.be/vwr1DBJjBbw "PioneerDJ Integration")
@@ -40,7 +42,7 @@ Once you have everything connected up and have got all the IP addresses right, t
 Pioneer Workspace window
 ------------------------
 
-From the \[Open Workspace Window\] menu, select the \[PioneerDJ\] option.
+From the <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> menu, select the <Keys.SoftKey>PioneerDJ</Keys.SoftKey> option.
 
 ![Pioneer Workspace window](/docs/images/Pioneer-Workspace-window.png)
 
@@ -53,25 +55,25 @@ Context menu buttons allow you to show or hide the big and small waveform displa
 
 ![Pioneer context menu buttons](/docs/images/Pioneer-context-menu-buttons.png)
 
-- The \[Zoom\] button allows you to set the scale of the big waveform.  
+- The <Keys.SoftKey>Zoom</Keys.SoftKey> button allows you to set the scale of the big waveform.  
 
-- The \[Change Layout\] button allows you to select the view in the workspace. This is useful if you want a smaller window:  
-\[Full\] – shows all the currently playing tracks  
-\[Master\] – shows only the waveform of the master track  
-\[Condensed\] -  shows details of all the tracks at the bottom, but only shows the waveform of the master track. You can change the master track by pressing the track number in the Track Details area.  
+- The <Keys.SoftKey>Change Layout</Keys.SoftKey> button allows you to select the view in the workspace. This is useful if you want a smaller window:  
+<Keys.SoftKey>Full</Keys.SoftKey> – shows all the currently playing tracks  
+<Keys.SoftKey>Master</Keys.SoftKey> – shows only the waveform of the master track  
+<Keys.SoftKey>Condensed</Keys.SoftKey> -  shows details of all the tracks at the bottom, but only shows the waveform of the master track. You can change the master track by pressing the track number in the Track Details area.  
 
 Setting up BPM triggers from Pioneer
 ------------------------------------
 
 You will need a fader on the console configured as a BPM master which will be automatically controlled by the track BPM playing on the Pioneer devices. See [BPM Master](../running-the-show/playback-controls.md#bpm-master-options) section for how to set up a BPM master.
-Enter System mode and select \[Triggers\]. The Triggers window will open.
+Enter System mode and select <Keys.SoftKey>Triggers</Keys.SoftKey>. The Triggers window will open.
 1. Add a new mapping using the + button at the bottom of the left hand column, and enter a name such as “Pioneer”.
-2. Add a trigger to the mapping using the + button in the right hand column or softkey \[Add trigger\].
-3. Select \[Trigger Type\] as \[Item\].
+2. Add a trigger to the mapping using the + button in the right hand column or softkey <Keys.SoftKey>Add trigger</Keys.SoftKey>.
+3. Select <Keys.SoftKey>Trigger Type</Keys.SoftKey> as <Keys.SoftKey>Item</Keys.SoftKey>.
 4. Press the button for the BPM master you want to control.
-5. The \[Action\] button will show \[PioneerDJ\] as this is currently the only action for a BPM master. Press \[OK\]. You have now set up the console action which is to be triggered.
-6. Now you need to select which Pioneer deck will control the BPM. Select \[Deck=\] as Master, 1, 2, 3, 4. \[Master\] will use the track you have currently selected as Master (red M displayed). The 1-4 options let you fix the control to one of the decks.
-7. Press \[Add\]. The trigger should now appear as shown below.
+5. The <Keys.SoftKey>Action</Keys.SoftKey> button will show <Keys.SoftKey>PioneerDJ</Keys.SoftKey> as this is currently the only action for a BPM master. Press <Keys.SoftKey>OK</Keys.SoftKey>. You have now set up the console action which is to be triggered.
+6. Now you need to select which Pioneer deck will control the BPM. Select <Keys.SoftKey>Deck=</Keys.SoftKey> as Master, 1, 2, 3, 4. <Keys.SoftKey>Master</Keys.SoftKey> will use the track you have currently selected as Master (red M displayed). The 1-4 options let you fix the control to one of the decks.
+7. Press <Keys.SoftKey>Add</Keys.SoftKey>. The trigger should now appear as shown below.
 
 ![Trigger workspace with Pioneer trigger added](/docs/images/Trigger-workspace-with-Pioneer-trigger-added.png)
 

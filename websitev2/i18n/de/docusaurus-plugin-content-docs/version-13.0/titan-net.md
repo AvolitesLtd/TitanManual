@@ -5,6 +5,8 @@ sidebar_label: Titan Net Processor Operation
 original_id: titan-net
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Ein TNP (Titan Net Processor) kann entweder als Slave weitere DMX-Linien
 für ein Titan-Pult bereitstellen, oder im Stand-Alone-Modus als kompakte
 Pult-Lösung dienen, etwa zum Steuern einer auf einem anderen Pult
@@ -17,7 +19,7 @@ empfiehlt.
 ![Titan Net Processor](/docs/images/Titan-Net-Processor.jpeg)
 
 Zum Umschalten der Betriebsart dient die Toolbar am oberen Rand des
-Bildschirms mit der Option \[Switch Software\].
+Bildschirms mit der Option <Keys.SoftKey>Switch Software</Keys.SoftKey>.
 
 Modus | Bedeutung
 --- | ---

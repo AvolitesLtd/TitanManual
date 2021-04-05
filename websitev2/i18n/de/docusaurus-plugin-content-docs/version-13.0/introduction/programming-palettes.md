@@ -5,14 +5,16 @@ sidebar_label: Programming palettes
 original_id: programming-palettes
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Stellen Sie die zu speichernden Attribute wie gewünscht ein. Ist ein
 Attribut bei allen Geräten dieses Typs gleich (etwa Farben oder
 Gobos), so genügt zum Speichern ein Gerät, und die Palette wird als
 ‚shared' (gemeinsam genutzt) angelegt.
 
-Drücken Sie \<Record\>, \<Palette\> (siehe auch Schnellspeichern, s.u.).
+Drücken Sie <Keys.HardKey>Record</Keys.HardKey>, <Keys.HardKey>Palette</Keys.HardKey> (siehe auch Schnellspeichern, s.u.).
 
-Wählen Sie \[Set Mask\], um die zu speichernden Attribute auszuwählen.
+Wählen Sie <Keys.SoftKey>Set Mask</Keys.SoftKey>, um die zu speichernden Attribute auszuwählen.
 Beim Schnell­speichern von Paletten in die jeweiligen Palettenfenster
 werden die zu speichernden Attribute automatisch gewählt.
 
@@ -26,8 +28,8 @@ stellen nun ggf. die Maske der abzurufenden Attribute mit den
 Attribut-Tasten ein und betätigen dann die gewünschte
 Paletten-Taste/Schaltfläche.
 
-Zum Eingeben einer Legende drücken Sie \[Set Legend\] und dann die
-Paletten-Taste/Schaltfläche. Zum Zeichnen wählen Sie \[Picture\].
+Zum Eingeben einer Legende drücken Sie <Keys.SoftKey>Set Legend</Keys.SoftKey> und dann die
+Paletten-Taste/Schaltfläche. Zum Zeichnen wählen Sie <Keys.SoftKey>Picture</Keys.SoftKey>.
 
 ## Schnellspeichern
 
@@ -46,11 +48,11 @@ muss bei jedem Aufruf eingegeben werden). Wurden keine Geräte
 ausgewählt, so wird die Palette auf ALLE Geräte angewendet.
 
 Um eine [Überlappung](../palettes/timing-with-palettes.md#manuelle-geräteüberlappung-beim-palettenabruf) einzugeben, tippen Sie mit den Zifferntasten einen
-Wert von 0...100, drücken dann \[Set Overlap\] und rufen schließlich
+Wert von 0...100, drücken dann <Keys.SoftKey>Set Overlap</Keys.SoftKey> und rufen schließlich
 die Palette auf.
 
 Um für alle Paletten eine [generelle Einblendzeit](../palettes/timing-with-palettes.md#master-zeit-für-paletten) einzustellen, drücken
-Sie \<Palette\>, dann \[Master Time\].
+Sie <Keys.HardKey>Palette</Keys.HardKey>, dann <Keys.SoftKey>Master Time</Keys.SoftKey>.
 
 Mit Einblendzeit aufgerufene Paletten werden nicht in den
 Programmierspeicher übernommen; beim Programmieren sollte diese Option

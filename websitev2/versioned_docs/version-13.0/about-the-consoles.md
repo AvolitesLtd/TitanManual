@@ -5,6 +5,8 @@ sidebar_label: About the consoles
 original_id: about-the-consoles
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 This manual is a reference guide to all the functions of Titan consoles.
 
 We explain things in the order you're most likely to use them, so we

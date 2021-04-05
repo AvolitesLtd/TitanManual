@@ -5,6 +5,8 @@ sidebar_label: Controlling Dimmers and Fixtures
 original_id: controlling-fixtures
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Beim Programmieren einer Show, aber auch später beim Showablauf, müssen
 die Attribute der einzelnen Geräte, wie Helligkeit, Farbe, Position
 etc., eingestellt werden. Dazu wählt man zunächst die betreffenden

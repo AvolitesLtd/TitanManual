@@ -5,6 +5,8 @@ sidebar_label: Operating Synergy
 original_id: operating-synergy
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Once Titan and the Ai server(s) are [linked up](setting-up.md), you can start controlling
 Ai from the console.
 
@@ -74,8 +76,8 @@ screen with the layers combined.
 
 ![Video Multi View Window adding a stream](/docs/images/Video-Multi-View-Window-adding-a-stream.png)
 
-The context button \[Change Layout\] gives you various possible layouts
-of multiple screens. The \[Titles Shown\] button toggles to show or hide
+The context button <Keys.SoftKey>Change Layout</Keys.SoftKey> gives you various possible layouts
+of multiple screens. The <Keys.SoftKey>Titles Shown</Keys.SoftKey> button toggles to show or hide
 the stream titles at the bottom of the views.
 
 ![Video Multi View Window laout options](/docs/images/Video-Multi-View-Window-laout-options.png)
@@ -129,7 +131,7 @@ server. This means the names you are shown will always match what's
 on the server. It's also good for generative plugins where you
 define the FX names.
 
-> If you select layers then press \<Locate\>, the layer intensity will be set to full but all media and FX will be cleared. This is useful to get a layer back to a known state, but you don't get any output. **To get some output you will need to then select a media clip**.
+> If you select layers then press <Keys.HardKey>Locate</Keys.HardKey>, the layer intensity will be set to full but all media and FX will be cleared. This is useful to get a layer back to a known state, but you don't get any output. **To get some output you will need to then select a media clip**.
 
 The Clip selection window also shows you the progress of clips being
 transcoded by the Ai server.
@@ -161,7 +163,7 @@ to each fixture, which is described in the [next section](#layout-editor-with-ai
 1. Using [Attribute Editor](#attribute-editor-for-controlling-ai-layers), **start a media clip playing** on the surface you
 want to use.
 
-2. Select \[Shapes and Effects\], then \[Pixel Mapper\]
+2. Select <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, then <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>
 
 3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups.md)** to play back on
 
@@ -190,7 +192,7 @@ Layout editor with Ai server
 
 The basic operation of the Layout Editor is described in [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
 
-The layout editor has some additional functions in the \[Media Options\]
+The layout editor has some additional functions in the <Keys.SoftKey>Media Options</Keys.SoftKey>
 context menu which are useful when setting up fixture layouts for use
 with media content.
 
@@ -220,7 +222,7 @@ layout editor to match where it is in real life.
 Allows you to match the layout grid to the
 resolution or aspect ratio of a surface. When you click this, you will
 be shown a list of the Ai surfaces available. Select one of these and
-softkeys will be shown for \[Width\] and \[Height\], set to the canvas
+softkeys will be shown for <Keys.SoftKey>Width</Keys.SoftKey> and <Keys.SoftKey>Height</Keys.SoftKey>, set to the canvas
 resolution of the surface. You will not normally want to set the layout
 grid to match the video pixels 1:1 as fixture pixels are usually much
 larger than video pixels. But if you change the Width or Height, the
@@ -232,8 +234,8 @@ the correct ratio.
 
 You can also scale fixtures in the Layout Editor to reflect real life
 size, as the default cell layout from the fixture's personality might
-not match other fixtures. Toggle the \[Position and Angle\] context menu
-button until it shows \[Fixture Scale\]. If a multi-celled fixture is
+not match other fixtures. Toggle the <Keys.SoftKey>Position and Angle</Keys.SoftKey> context menu
+button until it shows <Keys.SoftKey>Fixture Scale</Keys.SoftKey>. If a multi-celled fixture is
 scaled down to minimum size, the cells will disappear and it will act as
 a single cell.
 

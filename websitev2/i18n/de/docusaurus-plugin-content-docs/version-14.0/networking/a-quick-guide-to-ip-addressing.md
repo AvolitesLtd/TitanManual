@@ -5,6 +5,8 @@ sidebar_label: A quick guide to IP addressing
 original_id: a-quick-guide-to-ip-addressing
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 In diesem Abschnitt wird versucht, die Grundlagen der IP-Adressierung
 und weiteres Wissenswerte beim Aufbau von Netzwerken zur Lichtsteuerung
 übersichtlich darzustellen.

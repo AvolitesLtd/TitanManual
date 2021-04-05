@@ -5,6 +5,8 @@ sidebar_label: Palettes
 original_id: palettes
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Beim Programmieren einer Show wird man häufig auf gleiche Positionen,
 Farben etc. zurückgreifen. Beim Tiger Touch kann man diese
 Ein­stellungen abspei­chern, so dass sie sich mit einem einfachen Klick

@@ -43,7 +43,7 @@ currently doing.
 options. The display next to the buttons shows what each one will do.
 The options for each key change depending on what the console is doing.
 Softkey commands are shown in the manual like this:
-\[Edit Times\]
+<Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 \(H\) The **Preset Playbacks** are used to store and play back cues or chases
 that you need frequently. These playbacks are not changed by the page

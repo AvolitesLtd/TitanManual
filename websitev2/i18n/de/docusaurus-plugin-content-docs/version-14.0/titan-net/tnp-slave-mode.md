@@ -5,10 +5,12 @@ sidebar_label: TNP Slave Mode
 original_id: tnp-slave-mode
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Normalerweise zeigt der TNP den 'Homescreen' mit Status und IP-Adressen
 der beiden Netzwerkports. Am oberen Rand sind verschiedene Buttons
 eingeblendet, über die Funktionen zum Konfigurieren des TNP erreichbar
-sind. Dabei geht es mit \[Exit\] stets zurück in das vorige Menü.
+sind. Dabei geht es mit <Keys.SoftKey>Exit</Keys.SoftKey> stets zurück in das vorige Menü.
 
 ![TNP Home Screen](/docs/images/TNP-Home-Screen.png)
 
@@ -16,7 +18,7 @@ Setup
 -----
 
 Im Setup-Menü lassen sich die IP-Adressen sowie generelle Eigenschaften
-des Nodes einstellen (\[Network Settings\] bzw. \[Node Settings\] anklicken).
+des Nodes einstellen (<Keys.SoftKey>Network Settings</Keys.SoftKey> bzw. <Keys.SoftKey>Node Settings</Keys.SoftKey> anklicken).
 
 ### Netzwerkeinstellungen
 
@@ -30,7 +32,7 @@ Die Netzwerkeinstellungen können wie folgt geändert werden:
    Artnet-kompatible Adresse wählen (2.\*.\*.\* oder 10.\*.\*.\*).\
    ![TNP - Setup - Network Settings - IP Settings Screen](/docs/images/TNP-Setup-Network-Settings-IP-Settings-Screen.png)
 
-3. Mit \[Save Settings\] werden die Einstellungen gespeichert.
+3. Mit <Keys.SoftKey>Save Settings</Keys.SoftKey> werden die Einstellungen gespeichert.
 
 ### Node-Einstellungen
 
@@ -43,7 +45,7 @@ die Identifizierung deutlich vereinfacht.
 Lock -- den TNP sperren
 -----------------------
 
-Klickt man auf \[Lock\], so kann auf einem Ziffernblock ein Code
+Klickt man auf <Keys.SoftKey>Lock</Keys.SoftKey>, so kann auf einem Ziffernblock ein Code
 eingegeben werden, mit dem das Gerät gesperrt wird. Zum Entsperren muss
 der gleiche Code wieder eingegeben werden.
 
@@ -54,7 +56,7 @@ Tools
 
 Derzeit gibt es nur einen Eintrag im Tools-Menü: den **Monitor**. Dieser
 erlaubt eine Übersicht über die aktuelle Auslastung des TNPs. Dabei kann
-entweder \[Cycle Time\] oder \[Render Time\] dargestellt werden.
+entweder <Keys.SoftKey>Cycle Time</Keys.SoftKey> oder <Keys.SoftKey>Render Time</Keys.SoftKey> dargestellt werden.
 
 ![TNP - Tools - Monitor - Cycle Time Screen](/docs/images/TNP-Tools-Monitor-Cycle-Time-Screen.png)
 

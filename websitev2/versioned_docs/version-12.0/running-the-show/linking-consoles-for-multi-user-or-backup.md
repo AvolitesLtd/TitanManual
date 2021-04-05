@@ -5,6 +5,8 @@ sidebar_label: Linking Consoles for Multi-User or Backup
 original_id: linking-consoles-for-multi-user-or-backup
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 On large shows it is sometimes necessary to have multiple operators
 programming or running different aspects of the show. The Titan system
 allows a number of consoles to be connected together to give an
@@ -38,7 +40,7 @@ the main console.
 1. Connect both consoles to the same network and ensure they are set to
 the same IP range. See the [networking section](../networking.md).
 
-2. Press Disk, \[TitanNet Sessions\], \[Backup\].
+2. Press Disk, <Keys.SoftKey>TitanNet Sessions</Keys.SoftKey>, <Keys.SoftKey>Backup</Keys.SoftKey>.
 
 3. Consoles available for backup will be listed in the softkeys.
 
@@ -61,13 +63,13 @@ network connection. A blue line will appear during sync operations.
 
 -   Shows will automatically sync whenever a show is saved on the main
     console (including autosave). You can also choose to sync at any
-    time by selecting \[Sync Now\].
+    time by selecting <Keys.SoftKey>Sync Now</Keys.SoftKey>.
 
--   Pressing \[Exit\] will abort backup.
+-   Pressing <Keys.SoftKey>Exit</Keys.SoftKey> will abort backup.
 
--   \[Takeover\] will enable control on the backup console and disable
+-   <Keys.SoftKey>Takeover</Keys.SoftKey> will enable control on the backup console and disable
     DMX output on the main console. A prompt will appear on the main
     console to warn that DMX has been disabled. On touch consoles
-    touching on this prompt will open the \'\<Exit\> Safe Mode\' menu
+    touching on this prompt will open the \'<Keys.HardKey>Exit</Keys.HardKey> Safe Mode\' menu
     with a softkey option to re-enable output. On the Pearl Expert you
-    can re-enable DMX output via the shift (\<Avo\>) menu.
+    can re-enable DMX output via the shift (<Keys.HardKey>Avo</Keys.HardKey>) menu.

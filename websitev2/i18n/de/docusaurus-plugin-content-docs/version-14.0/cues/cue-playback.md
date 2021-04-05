@@ -5,6 +5,8 @@ sidebar_label: Cue Playback
 original_id: cue-playback
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Da eine Vielzahl von Cues/Chasern gleichzeitig abgerufen werden kann,
 folgt das Pult bestimmten Regeln zur Kombination der aufgerufenen Werte
 verschiedener Cues. Diese werden als **HTP**- und **LTP**-Regeln bezeichnet.
@@ -31,7 +33,7 @@ Abrufen eines Cues
 ------------------
 
 Zum Aufrufen eines Cues bewegen Sie den jeweiligen Regler (betätigen Sie
-die \<Clear\>-Taste, um sicherzustellen, dass sich keine Werte im
+die <Keys.HardKey>Clear</Keys.HardKey>-Taste, um sicherzustellen, dass sich keine Werte im
 Programmierspeicher befinden, da diese ansonsten die Werte der Playbacks
 überschreiben würden).
 
@@ -60,7 +62,7 @@ Programmierspeicher befinden, da diese ansonsten die Werte der Playbacks
     Geräte auf die Werte des Cues ein, um zu verhindern, dass später
     unerwünschte Schwenks, Gobo- oder Farbwechsel während des Aufrufs
     des Cues sichtbar sind*. Zum Zuweisen der 'Preload'-Funktion halten
-    Sie die \<AVO\>-Taste und drücken \[Edit Key Profile\], anschließend
+    Sie die <Keys.HardKey>AVO</Keys.HardKey>-Taste und drücken <Keys.SoftKey>Edit Key Profile</Keys.SoftKey>, anschließend
     drücken Sie die Taste, die Sie ändern möchten (siehe [Tastenprofile/Key Profiles](../system-settings/key-profiles.md)). Berücksichtigen Sie, dass 
 	diese Einstellung dann ggf. für sämtliche Tasten dieses Typs gilt.
 
@@ -90,7 +92,7 @@ der Walzen-Schaltfläche klicken und eine Seitennummer eingeben.
 
 ---
 
-Die Benutzereinstellung [\[Playback Paging\]](../system-settings/user-settings.md#playback-paging) bestimmt über 
+Die Benutzereinstellung [<Keys.SoftKey>Playback Paging</Keys.SoftKey>](../system-settings/user-settings.md#playback-paging) bestimmt über 
 das Verhalten der Playbacks, wenn bei aktivierten Fadern die Playback-Seiten 
 umgeschaltet werden:
 
@@ -135,7 +137,7 @@ umgeschaltet werden:
 
 -   Für jede Playbackseite lässt sich eine Bezeichnung vergeben. Die
     Bezeichnung wird auf der auf der virtuellen Walze angezeigt. Zum Vergeben
-    der Bezeichnung nutzen Sie im Hauptmenü \[Set Legends\], dann \[Page
+    der Bezeichnung nutzen Sie im Hauptmenü <Keys.SoftKey>Set Legends</Keys.SoftKey>, dann \[Page
     Legends\]. Solange man sich in diesem Menü befindet, lassen sich für
     mehrere Seiten Bezeichnungen vergeben.
 
@@ -154,13 +156,13 @@ angezeigt. Insbesondere wenn mehrere Playbacks auf mehreren Seiten
 gestartet wurden, hat man damit einen schnellen Überblick, welche Cues
 gerade aktiv sind, wo sie gestartet wurden und welche Attribute dadurch
 gesteuert werden. Zum Aufrufen dieses Fensters drücken Sie zweimal auf
-[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
-und wählen \[Active Playbacks\].
+[<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen <Keys.SoftKey>Active Playbacks</Keys.SoftKey>.
 
 ![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
 
 Klickt man eine der Schaltflächen an, so wird das betreffende Playback
-sofort deaktiviert (**gekillt**). Betätigt man \[Playback Options\], gefolgt von einer
+sofort deaktiviert (**gekillt**). Betätigt man <Keys.SoftKey>Playback Options</Keys.SoftKey>, gefolgt von einer
 der Playback-Schaltflächen, so kann man die jeweiligen Parameter ändern.
 
 Master für Speed (Geschwindigkeit) und Size (Größe)
@@ -183,31 +185,31 @@ Freigeben (Release) laufender Playbacks
 ---------------------------------------
 
 Ein aktuell laufendes Playback lässt sich freigeben (**releasen**),
-indem man die Taste \<Release\> *(auf dem Pearl Expert: \<Off\>)* drückt,
+indem man die Taste <Keys.HardKey>Release</Keys.HardKey> *(auf dem Pearl Expert: <Keys.HardKey>Off</Keys.HardKey>)* drückt,
 gefolgt von der **Auswahltaste** des Playbacks. Damit kehren die
 betreffenden Kanäle auf Ihre Werte vor Starten des Playbacks, auf das
-zuletzt aktive Playback, zurück. Ist die Option \[Release to Home\] im
+zuletzt aktive Playback, zurück. Ist die Option <Keys.SoftKey>Release to Home</Keys.SoftKey> im
 Release-Menü aktiviert, erfolgt das Release nach und nach bis zum
 Einschaltzustand des Pultes (kann programmiert werden, siehe [nächster
 Abschnitt](#werte-für-release--power-on-programmieren)). Ist die Option 
 nicht aktiviert, so erfolgt das Release bis
 zum letzten Playback. Um alle Playbacks zu releasen, drücken Sie
-\<Release\> und wählen aus dem Menü \[Release all playbacks\].
+<Keys.HardKey>Release</Keys.HardKey> und wählen aus dem Menü <Keys.SoftKey>Release all playbacks</Keys.SoftKey>.
 
 Es ist auch möglich, per [Tastenprofil/Key Profiles](../system-settings/key-profiles.md) 
 die graue oder blaue Taste mit der Funktion ‚Release' zu belegen.
 
 Das Freigeben erfolgt stets mit einer Überblendzeit. Deren Vorgabewert
-sind 2s, dies kann im Release-Menü ‚(\<Release\> gedrückt halten) unter
-\[Master Release Time\] geändert werden. Ferner kann man jedem Playback 
+sind 2s, dies kann im Release-Menü ‚(<Keys.HardKey>Release</Keys.HardKey> gedrückt halten) unter
+<Keys.SoftKey>Master Release Time</Keys.SoftKey> geändert werden. Ferner kann man jedem Playback 
 eine individuelle Relese-Zeit zuweisen ([Tab "Release"](playback-options.md#playback-options----tab-release) der Optionen).
 
 -   Um einen einzelnen Cue zu deaktivieren (‚Kill'), drücken Sie
-    gleichzeitig die \<AVO\>-Taste und die **Auswahltaste** des Cues.
+    gleichzeitig die <Keys.HardKey>AVO</Keys.HardKey>-Taste und die **Auswahltaste** des Cues.
 
 -   Man kann eine Maske definieren, die bestimmt, welche Attribute
     released werden sollen, wenn das Playback deaktiviert (killed) wird.
-    Dazu dient die Option [\[Release Mask\]](playback-options.md#release-mask) in den [\[Playback Options\]](playback-options.md). Normalerweise bleiben alle Attribute
+    Dazu dient die Option [<Keys.SoftKey>Release Mask</Keys.SoftKey>](playback-options.md#release-mask) in den [<Keys.SoftKey>Playback Options</Keys.SoftKey>](playback-options.md). Normalerweise bleiben alle Attribute
     auf den im Cue gespeicherten Werten. *Insbesondere für Cues mit
     Strobes und Effekten wird man das gelegentlich ändern wollen*.
 
@@ -215,18 +217,18 @@ Playbacks seitenweise releasen
 ------------------------------
 
 Es können auch mehrere Playbacks auf einmal released werden. Drücken Sie
-dazu \<Release\> und \<Goto Page\>, oder \<Release\> und die aktuelle
+dazu <Keys.HardKey>Release</Keys.HardKey> und <Keys.HardKey>Goto Page</Keys.HardKey>, oder <Keys.HardKey>Release</Keys.HardKey> und die aktuelle
 Seite (auf der Playback-Walze). Es gibt folgende Optionen:
 
-\[Release This Page\] released alle aktiven Playbacks der aktuellen
+<Keys.SoftKey>Release This Page</Keys.SoftKey> released alle aktiven Playbacks der aktuellen
 Seite und Fadergruppe.
 
-\[Release Playbacks Not On This Page\] released alle Playbacks, die
+<Keys.SoftKey>Release Playbacks Not On This Page</Keys.SoftKey> released alle Playbacks, die
 momentan von anderen Seiten aus in dieser Fadergruppe aktiv sind -
 besonders zweckmäßig, um Playbacks zu releasen, die auf anderen Seiten
 auf dem gleichen Fader aktiv sind.
 
-\[Release All Playbacks In This Group\] released alle Playbacks in der
+<Keys.SoftKey>Release All Playbacks In This Group</Keys.SoftKey> released alle Playbacks in der
 jeweiligen Fadergruppe.
 
 > **"Fader Group"** (Fadergruppe) bedeutet hier den jeweiligen Bereich von
@@ -250,8 +252,8 @@ Ist für den Cue keine separate Maske erstellt worden, so erfolgt das
 Release gemäß der globalen Release-Maske. Die Vorgabe ist, dass keine
 Attribute released werden.
 
-Um die Maske zu ändern, drücken Sie die Tastet \<Release\> und klicken
-auf \[Global Release Mask\]. Auf der Schaltfläche der Funktionstaste
+Um die Maske zu ändern, drücken Sie die Tastet <Keys.HardKey>Release</Keys.HardKey> und klicken
+auf <Keys.SoftKey>Global Release Mask</Keys.SoftKey>. Auf der Schaltfläche der Funktionstaste
 wird angezeigt, welche Attribute momentan angewählt sind.
 
 ![Global Release Mask](/docs/images/Global-Release-Mask.png)
@@ -259,10 +261,10 @@ wird angezeigt, welche Attribute momentan angewählt sind.
 ### Lokale (individuelle) Release-Maske
 
 Um für das jeweilige Playback eine bestimmte Maske einzustellen, klicken
-Sie auf \[Playback Options\] und wählen das betreffende Playback aus.
-Dann wählen Sie \[Release Mask\]. Ist diese auf \[Mask Source Global\]
+Sie auf <Keys.SoftKey>Playback Options</Keys.SoftKey> und wählen das betreffende Playback aus.
+Dann wählen Sie <Keys.SoftKey>Release Mask</Keys.SoftKey>. Ist diese auf <Keys.SoftKey>Mask Source Global</Keys.SoftKey>
 eingestellt, so klicken Sie nochmals darauf; daraufhin wechselt die
-Anzeige zu \[Mask Source Local\].
+Anzeige zu <Keys.SoftKey>Mask Source Local</Keys.SoftKey>.
 
 Werte für Release / Power On programmieren
 ------------------------------------------
@@ -280,16 +282,16 @@ jeweils nur für das einzelne Gerät.
 
 1.  Nehmen Sie die gewünschten Einstellungen vor
 
-2.  Drücken Sie \<Record\>, dann \<Release\>.
+2.  Drücken Sie <Keys.HardKey>Record</Keys.HardKey>, dann <Keys.HardKey>Release</Keys.HardKey>.
 
-3.  Wählen Sie \[Shared values\] oder \[Individual values\].
+3.  Wählen Sie <Keys.SoftKey>Shared values</Keys.SoftKey> oder <Keys.SoftKey>Individual values</Keys.SoftKey>.
 
-4.  Klicken Sie die Funktionstaste \[Record\].
+4.  Klicken Sie die Funktionstaste <Keys.SoftKey>Record</Keys.SoftKey>.
 
 5.  Damit werden die Release-Werte gespeichert.
 
 >   Zum Testen starten Sie ein oder mehrere Playbacks und releasen diese
-    (\<Release\> sowie die jeweiligen Playbacks). Die Geräte sollten auf
+    (<Keys.HardKey>Release</Keys.HardKey> sowie die jeweiligen Playbacks). Die Geräte sollten auf
     die programmierten Release-Werte zurückkehren.
 
 Deaktivieren einzelner Geräte mit Off
@@ -300,11 +302,11 @@ Damit bleiben die Werte zwar im Playback enthalten, werden aber nicht abgerufen.
 Die programmierten Werte verbleiben dabei im Playback und können in der 
 Playback-Ansicht wieder auf On geschaltet, also aktiviert werden.
 
-Dazu drücken Sie die Taste \<Off\>, dann die **Select-Taste** des Playbacks. 
+Dazu drücken Sie die Taste <Keys.HardKey>Off</Keys.HardKey>, dann die **Select-Taste** des Playbacks. 
 Wählen Sie die betreffenden Geräte aus, stellen Sie im Menü die Attributmaske
-ein, und klicken Sie auf \[Off\], um wie gewünscht Attribute/Geräte/Shapes 
+ein, und klicken Sie auf <Keys.SoftKey>Off</Keys.SoftKey>, um wie gewünscht Attribute/Geräte/Shapes 
 Off zu schalten.
 
 Auf Titan-Pulten mit **Release** und **Off** auf der gleichen Taste würde
-dies zum Releasen führen. Drücken Sie stattdessen \<Release/Off\>, dann 
-aus dem Menü \[Off Playback Values\], und wählen Sie nun das Playback aus.
+dies zum Releasen führen. Drücken Sie stattdessen <Keys.HardKey>Release/Off</Keys.HardKey>, dann 
+aus dem Menü <Keys.SoftKey>Off Playback Values</Keys.SoftKey>, und wählen Sie nun das Playback aus.

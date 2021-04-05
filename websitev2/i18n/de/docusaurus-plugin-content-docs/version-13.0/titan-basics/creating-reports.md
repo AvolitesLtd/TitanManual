@@ -5,6 +5,8 @@ sidebar_label: Creating Reports
 original_id: creating-reports
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Beim Vorbereiten einer Show ist es oft sinnvoll, Patchlisten oder andere
 Details der Programmierung zu exportieren, etwa um der Crew eine
 Patchliste ausdrucken zu können, oder ganz einfach zur Dokumentation.
@@ -28,9 +30,9 @@ folgenden Informationen enthalten.
 
 Erstellen eines Reports:
 
-1.  Drücken Sie die Taste \<Disk\>.
+1.  Drücken Sie die Taste <Keys.HardKey>Disk</Keys.HardKey>.
 
-2.  Wählen Sie \[Reports\].
+2.  Wählen Sie <Keys.SoftKey>Reports</Keys.SoftKey>.
 
 3.  Wählen Sie das/die zu exportierende(n) Detail(s).
 

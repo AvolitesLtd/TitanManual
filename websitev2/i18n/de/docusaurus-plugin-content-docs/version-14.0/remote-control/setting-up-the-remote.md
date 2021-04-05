@@ -5,6 +5,8 @@ sidebar_label: Setting up the Remote
 original_id: setting-up-the-remote
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Voraussetzung ist, dass zwischen Pult und Mobilgerät eine
 Netzwerkverbindung besteht; die App erkennt dann automatisch alle im
 Netzwerk gefundenen Pulte.
@@ -59,9 +61,9 @@ anderen Geräten ist das Vorgehen aber ähnlich.
 	Netzwerkanschlüsse sind hinten am Pult.
 
 3. 	Stellen Sie auf dem Pult eine passende IP-Adresse ein: öffnen Sie
-	das System-Menü (mittels \<Avo\> + \<Disk\>), wählen dann 
-	\[Network Settings\], dann \[LocalArea Connection\], und klicken 
-	auf \[Set IP 10.\*.\*.\*\].
+	das System-Menü (mittels <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), wählen dann 
+	<Keys.SoftKey>Network Settings</Keys.SoftKey>, dann <Keys.SoftKey>LocalArea Connection</Keys.SoftKey>, und klicken 
+	auf <Keys.SoftKey>Set IP 10.\*.\*.\*</Keys.SoftKey>.
 
 4.	Auf dem Mobilgerät überprüfen Sie, dass WLAN aktiviert ist.
 

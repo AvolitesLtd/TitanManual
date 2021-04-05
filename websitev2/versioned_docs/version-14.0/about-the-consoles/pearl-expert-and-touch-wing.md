@@ -49,7 +49,7 @@ and to set chase speeds and fades.
 options. The display next to the buttons shows what each one will do.
 The options for each key change depending on what the console is doing.
 Softkey commands are shown in the manual like this:
-\[Edit Times\]
+<Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 \(L\) The **Numeric keypad** and other control buttons are used to enter
 values and change controls on the console.

@@ -5,6 +5,8 @@ sidebar_label: Capture Show Files
 original_id: capture-show-files
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The Capture stage is automatically saved within the Titan showfile. The
 Capture stage can also be exported and imported separately from the
 Titan show. This allows standard stages or rigs to be transferred
@@ -53,6 +55,6 @@ then the Capture show will be repopulated with the fixtures in the Titan
 show.
 
 You can manually reload patched fixtures from your Titan show into
-Capture by selecting the \[Edit Fixtures\] \[Update Personality\] option on
+Capture by selecting the <Keys.SoftKey>Edit Fixtures</Keys.SoftKey> <Keys.SoftKey>Update Personality</Keys.SoftKey> option on
 the [Patch menu](../patching/changing-the-patch.md#patch-view). This 
 will place all patched fixtures from the Titan show into the Capture show.

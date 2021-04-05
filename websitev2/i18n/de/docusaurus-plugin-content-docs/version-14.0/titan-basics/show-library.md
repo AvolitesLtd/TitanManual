@@ -5,6 +5,8 @@ sidebar_label: Show Library
 original_id: show-library
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Im Fenster 'Show Library' (Show-Verzeichnis) werden sämtliche Details
 und Bestandteile der programmierten Show übersichtlich angezeigt. Dies
 dient insbesondere zum Transferieren solcher Details zwischen mehreren
@@ -12,9 +14,9 @@ Shows - auch auf Pulte mit weniger Fader/Tasten - , ist aber auch eine
 gute Übersicht beim Verschieben innerhalb einer Show.
 
 Zum Öffnen drücken Sie zweimal auf 
-[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
-und wählen \[Show Library\] (im Hauptmenü können Sie auch \[Open Workspace Window\] 
-drücken und \[Show Library\] aus der Liste bei den Menütasten wählen).
+[<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+und wählen <Keys.SoftKey>Show Library</Keys.SoftKey> (im Hauptmenü können Sie auch <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> 
+drücken und <Keys.SoftKey>Show Library</Keys.SoftKey> aus der Liste bei den Menütasten wählen).
 
 Der Reiter Show Library
 -----------------------
@@ -44,7 +46,7 @@ Der Reiter Users (Benutzer)
 ---------------------------
 
 Damit können Benutzer angelegt/ausgewählt werden. Identisch mit der
-Option \[Users\] im \<Disk\>-Menü.
+Option <Keys.SoftKey>Users</Keys.SoftKey> im <Keys.HardKey>Disk</Keys.HardKey>-Menü.
 
 Der Reiter Key Profiles (Tastenprofile)
 ---------------------------------------

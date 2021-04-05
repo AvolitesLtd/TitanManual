@@ -5,6 +5,8 @@ sidebar_label: Pixel Mapper
 original_id: pixel-mapper
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Creating Pixel Mapper effects
 -----------------------------
 
@@ -23,10 +25,10 @@ You create effects with the Pixel Mapper as follows:
 
 1. Select the group of fixtures
 
-2. From the top level menu select \[Shapes and Effects\] then \[Pixel
+2. From the top level menu select <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then \[Pixel
 Mapper\]
 
-3. Select \[Create effect\]. The Pixel Mapper Editor will open with a
+3. Select <Keys.SoftKey>Create effect</Keys.SoftKey>. The Pixel Mapper Editor will open with a
 blank background. You can overlay your fixture layout on the window, to
 help you see where your fixtures are, by clicking on the \[Fixture
 Overlay 50/50\] context menu button.
@@ -35,7 +37,7 @@ Overlay 50/50\] context menu button.
 
 ### Elements
 
-Click on the \[+\] button at the bottom to add an effect, and choose a
+Click on the <Keys.SoftKey>+</Keys.SoftKey> button at the bottom to add an effect, and choose a
 graphic element. You can **remove** elements by selecting them and clicking
 on the **"rubbish bin"** icon. The graphic buttons as shown below provide
 the following elements to animate:
@@ -79,7 +81,7 @@ which will vary depending on the shape but may include:
 ### Animations
 
 Then with the graphic element selected on the left hand side, click on
-the \[+\] button again and choose an **Animation** (how your graphic element
+the <Keys.SoftKey>+</Keys.SoftKey> button again and choose an **Animation** (how your graphic element
 will move or change) or **Visual Effect** (which change the appearance of the element).
 The animated effect will show in the black window
 and be output to the fixtures You can add multiple animations which will
@@ -157,7 +159,7 @@ Some points about animations:
 
 If you don't have fixtures connected, you can see how the effect will
 look on the fixtures using the Pixel Mapper preview window - open it by
-pressing \<View/Open\>, \[Open Workspace Window\], \[Pixel Mapper
+pressing <Keys.HardKey>View/Open</Keys.HardKey>, <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>, \[Pixel Mapper
 Preview\]. A real life view of each effect currently running is shown in
 a button at the bottom of the screen, you can select each of these by
 pressing the button.
@@ -221,7 +223,7 @@ Pixel Mapper Layer Masters
 
 You can assign each of the four layers to a master. The master allows
 you to adjust the layer controls in real time. When the master is
-assigned to a fader handle using the \[Assign Masters\], \[Pixel Mapper\]
+assigned to a fader handle using the <Keys.SoftKey>Assign Masters</Keys.SoftKey>, <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>
 controls, the fader will control opacity of the layer.
 
 This means you can create cues and palettes which can manipulate the

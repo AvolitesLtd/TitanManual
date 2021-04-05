@@ -5,6 +5,8 @@ sidebar_label: Setting up the Remote
 original_id: setting-up-the-remote
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 All you need to do is make sure that the console is on the same network
 as your mobile device. The app will automatically detect all the
 consoles on the network.
@@ -53,8 +55,8 @@ the DHCP server. Take note of the name of the wireless network (SSID).
 2. Connect an Ethernet cable from the back of the console to the access
 point.
 
-3. Set the IP address of the console: from the **System** menu (\<Avo\> + \<Disk\>), select
-\[Network Settings\], press \[Local Area Connection\], then press \[Set
+3. Set the IP address of the console: from the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), select
+<Keys.SoftKey>Network Settings</Keys.SoftKey>, press <Keys.SoftKey>Local Area Connection</Keys.SoftKey>, then press \[Set
 IP 10.\*.\*.\*\].
 
 4. On the mobile device, go to WiFi settings or Network Settings and

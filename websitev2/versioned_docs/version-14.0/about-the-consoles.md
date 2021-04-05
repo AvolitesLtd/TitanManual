@@ -5,6 +5,8 @@ sidebar_label: Console Hardware Introduction
 original_id: about-the-consoles
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 This manual covers all types of Avolites console, and while the operation
 of Titan is pretty much the same on all of them, the layout and connectivity
 of each console is different.

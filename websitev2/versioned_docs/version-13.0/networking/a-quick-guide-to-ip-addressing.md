@@ -5,6 +5,8 @@ sidebar_label: A quick guide to IP addressing
 original_id: a-quick-guide-to-ip-addressing
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 This section attempts to explain the basics of IP addressing, and what
 you will need to know when setting up a lighting control network.
 

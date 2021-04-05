@@ -5,6 +5,8 @@ sidebar_label: Sapphire Touch
 original_id: sapphire-touch
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 ![Sapphire Touch](/docs/images/Sapphire-Touch.png)Das Sapphire Touch hat vier grundsätzliche Bedienungsbereiche:
 
 \(A\) Die **Touchscreens** zeigen Schaltflächen zur Auswahl von Geräten,
@@ -41,7 +43,7 @@ Programmierablauf.
 Steuerungsoptionen. Im Display wird direkt neben jedem Taster die
 jeweilige Funktion angezeigt, abhängig vom jeweiligen Status des
 Pultes. Befehle dieser Taster sind in diesem Handbuch blau dargestellt,
- z.B. \[Edit Times\]
+ z.B. <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 ![Sapphire Front 2](/docs/images/Sapphire-Front-2.png)
 

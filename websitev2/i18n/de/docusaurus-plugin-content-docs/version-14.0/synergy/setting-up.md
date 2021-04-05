@@ -5,6 +5,8 @@ sidebar_label: Setting up Synergy
 original_id: setting-up
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Verbinden
 ---------
 
@@ -67,7 +69,7 @@ tauchen die Surfaces auf, die zwar in Ai schon angelegt sind, aber noch
 nicht in Titan. Dieses sind die ‚unmatched' (nicht zugewiesenen)
 Surfaces.
 
-Klickt man auf das \{+\} unten und wählt aus der aufklappenden Liste
+Klickt man auf das <Keys.ContextKey>+</Keys.ContextKey> unten und wählt aus der aufklappenden Liste
 'Surface', so wird ein neues Surface hinzugefügt. Dieses erscheint in
 der mittleren Spalte oben. Neue Surfaces haben zunächst immer zwei
 Layer.
@@ -78,9 +80,9 @@ Klickt man in der mittleren Spalte oben auf die Titelleiste eines
 Surfaces, so werden rechts die entsprechenden Optionen angezeigt. Damit
 lässt sich die Auflösung einstellen, wahlweise per Auswahl aus einer
 Liste oder per numerischer Eingabe. Ganz rechts oben kann man mit dem
-farbigen Button das Halo des Surfaces ändern sowie mit dem \{Stift\}-Button
+farbigen Button das Halo des Surfaces ändern sowie mit dem <Keys.ContextKey>Stift</Keys.ContextKey>-Button
 die Legende (Bezeichnung) bearbeiten (beides ist auch wie gewohnt per
-\[Set Legend\] möglich).
+<Keys.SoftKey>Set Legend</Keys.SoftKey> möglich).
 
 Klickt man innerhalb eines Surfaces auf einen Layer, so werden rechts
 die Optionen des Layers angezeigt. Damit kann man einen Speed- oder
@@ -94,7 +96,7 @@ Previews aktiviert sein - verwendet man das nicht, so empfiehlt es
 sich, die Option zu deaktivieren, um das Netzwerk zu entlasten.
 
 Ist in Titan ein Surface angelegt, so muss dies einem Ai-Surface (in Ai:
-Screen Fixture) zugewiesen werden. Dazu klickt man auf den Button \{Link\}
+Screen Fixture) zugewiesen werden. Dazu klickt man auf den Button <Keys.ContextKey>Link</Keys.ContextKey>
 des nicht zugewiesenen Ai-Surfaces unten und danach auf das
 Titan-Surface oben. Wählt man dagegen **Link to new Surface**, so wird ein
 neues Titan-Surface angelegt und verknüpft.
@@ -118,10 +120,10 @@ direkt, sondern nur über Titan/Synergy gesteuert werden.
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)
 
 Um einen weiteren Layer hinzuzufügen, klickt man auf das Surface, dann
-auf den \{+\} - Button unten, und wählt 'Layer'.
+auf den <Keys.ContextKey>+</Keys.ContextKey> - Button unten, und wählt 'Layer'.
 
 Um einen Layer oder ein Surface zu löschen, wählt man dieses aus und
-klickt unten auf den \{Papierkorb\}, oder man drückt \<Delete\> und
+klickt unten auf den <Keys.ContextKey>Papierkorb</Keys.ContextKey>, oder man drückt <Keys.HardKey>Delete</Keys.HardKey> und
 klickt dann auf das zu löschende Element. Ist dabei Ai verbunden, so
 wird der Layer bzw. das Surface (Screen Fixture) auch in Ai gelöscht.
 
@@ -129,9 +131,9 @@ Das Fenster Synergy Fixtures
 ----------------------------
 
 Jeder Layer erscheint als Button im Fenster 'Synergy Fixtures'. Dies
-kann man entweder mit dem Button \[View Synergy Fixtures\] im [Synergy
+kann man entweder mit dem Button <Keys.SoftKey>View Synergy Fixtures</Keys.SoftKey> im [Synergy
 Settings-Fenster](#einrichten-von-synergy), oder Sie drücken zweimal 
-\<View / Open\> und wählen es mit den Buttons zur Fensterauswahl.
+<Keys.HardKey>View / Open</Keys.HardKey> und wählen es mit den Buttons zur Fensterauswahl.
 
 ![Synergy Fixtures Workspace Window](/docs/images/Synergy-Fixtures-Workspace-Window.png)
 

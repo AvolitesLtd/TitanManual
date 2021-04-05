@@ -5,6 +5,8 @@ sidebar_label: Arena
 original_id: arena
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The Arena has five main control areas:
 
 ![Arena](/docs/images/Arena.png)
@@ -40,7 +42,7 @@ currently doing.
 options. The display next to the buttons shows what each one will do.
 The options for each key change depending on what the console is doing.
 Softkey commands are shown in the manual like this:
-\[Edit Times\]
+<Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 \(J\) The **Mini screen** displays additional workspace windows. \(K\) The four
 **rotary encoders** act like normal handles and can be allocated as

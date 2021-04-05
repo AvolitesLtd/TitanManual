@@ -5,24 +5,26 @@ sidebar_label: Advanced Options
 original_id: advanced-options
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Shapes im Fadermodus
 --------------------
 
 Ist ein Shape [in einem Cue gespeichert](shape-generator.md#verwenden-von-shapes-in-cues), 
-so lässt sich die Art und Weise, wie der Shape eingeblendet wird, mit \[Edit Times\] 
+so lässt sich die Art und Weise, wie der Shape eingeblendet wird, mit <Keys.SoftKey>Edit Times</Keys.SoftKey> 
 sowie den [Optionen](../cues/playback-options.md) einstellen.
 
 Um die Größe/Geschwindigkeit abhängig vom Fader zu machen, drücken Sie
-im Hauptmenü \<Options\> (oder die Menütaste \[Options\]) und wählen dann 
+im Hauptmenü <Keys.HardKey>Options</Keys.HardKey> (oder die Menütaste <Keys.SoftKey>Options</Keys.SoftKey>) und wählen dann 
 den Speicherplatz (Cue) aus, in dem der Shape enthalten ist.
 
-Mit den Funktionstasten \[Fader\] \[Shape Size\] und \[Fader\] \[Shape
+Mit den Funktionstasten <Keys.SoftKey>Fader</Keys.SoftKey> <Keys.SoftKey>Shape Size</Keys.SoftKey> und <Keys.SoftKey>Fader</Keys.SoftKey> \[Shape
 Speed\] können Sie Größe bzw. Geschwindigkeit auf 'fixed' (fest) oder
 'on fader' (faderabhängig) stellen. Ebenso lässt sich ein Speed Master
 oder Size Master zuweisen, siehe
 [Speed- und Size-Master](../running-the-show/playback-controls.md#speed--und-size-master).
 
-Um eine feste Einfadezeit einzustellen, drücken Sie \[Edit Times\],
+Um eine feste Einfadezeit einzustellen, drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey>,
 wählen das Playback aus, und geben die gewünschte Fade/Delay-Zeit ein.
 
 Der [Fader-Modus](../cues/playback-options.md#fader-mode) für Playbacks 

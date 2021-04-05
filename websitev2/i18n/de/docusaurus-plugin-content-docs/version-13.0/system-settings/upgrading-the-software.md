@@ -5,6 +5,8 @@ sidebar_label: Upgrading the Software
 original_id: upgrading-the-software
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Die Software der Avo-Pulte wird fortwährend weiterentwickelt. Die
 neueste Version ist jeweils über die Internetseite
 https://www.avolites.com zum Download erhältlich.
@@ -13,7 +15,7 @@ https://www.avolites.com zum Download erhältlich.
 >	Ab Titan Version 10 ist es möglich, auf den Pulten vorher installierte 
 Versionen zu behalten, so dass man auch Shows aus älteren Versionen 
 in der Version laden kann, mit der sie programmiert wurden. Der Wechsel 
-zwischen den Versionen erfolgt im Tools-Menü per \[Switch Software\].
+zwischen den Versionen erfolgt im Tools-Menü per <Keys.SoftKey>Switch Software</Keys.SoftKey>.
 
 ---
 

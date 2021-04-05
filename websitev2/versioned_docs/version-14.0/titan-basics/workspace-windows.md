@@ -5,6 +5,8 @@ sidebar_label: Workspace Windows
 original_id: workspace-windows
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The main area of the screen contains the workspace windows. These
 contain buttons and controls for selecting fixtures, groups, palettes, and playbacks,
 for controlling fixture attributes, showing cue lists, or the visualiser, in fact there is
@@ -22,9 +24,9 @@ The picture below shows a typical arrangement of workspace windows.
 
 ## Opening and Positioning Workspace Windows
 
-Double press the \<View\> button (labelled \<Open\> or \<Open Window\> on some consoles)
+Double press the <Keys.HardKey>View</Keys.HardKey> button (labelled <Keys.HardKey>Open</Keys.HardKey> or <Keys.HardKey>Open Window</Keys.HardKey> on some consoles)
 to show the workspace open buttons overlay on all monitors (for the rest of this manual
-we'll refer to this button as \<View/Open\>). On the monitor where you
+we'll refer to this button as <Keys.HardKey>View/Open</Keys.HardKey>). On the monitor where you
 want the workspace, press the appropriate button and the window will open on that monitor.
 
 ![Workspace Window Selection](/docs/images/Workspace-Windows-Icons.png)
@@ -34,7 +36,7 @@ keeping the same size and position.
 
 You can also use the \[Open
 Workspace Window\] menu command on the root menu to show the workspace open buttons.
-Pressing \<View/Open\> again will close the workspace button overlay, or pressing the X
+Pressing <Keys.HardKey>View/Open</Keys.HardKey> again will close the workspace button overlay, or pressing the X
 at the top of the button overlay on any screen will close it on all screens.
 
 
@@ -42,26 +44,26 @@ There are also button shortcuts to open some of the windows:
 
 ### Shortcuts to Open Workspace Windows
 
-- \<View/Open\> then an Attribute Bank button opens the Palette
+- <Keys.HardKey>View/Open</Keys.HardKey> then an Attribute Bank button opens the Palette
 window for that attribute.
 
-- \<View/Open\> then \<Patch\> opens the Patch View window.
+- <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey> opens the Patch View window.
 
-- \<View/Open\> then a fixture select button opens the Fixture
+- <Keys.HardKey>View/Open</Keys.HardKey> then a fixture select button opens the Fixture
 View window showing patch details for that fixture.
 
-- \<View/Open\> then \<Connect/Cue\> opens the Playback View window.
+- <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.HardKey>Connect/Cue</Keys.HardKey> opens the Playback View window.
 
-- \<View/Open\> then \<Off\> opens the Active Playbacks window.
+- <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.HardKey>Off</Keys.HardKey> opens the Active Playbacks window.
 
-- \<View/Open\> then \<Macro\> opens the Macro window.
+- <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.HardKey>Macro</Keys.HardKey> opens the Macro window.
 
 ### Changing window size and appearance
 
 At the top right of each workspace window are three or four buttons
 which access other functions for the window.
 
-The **Window Appearance Options** button (\{Cog\} button) lets you select the
+The **Window Appearance Options** button (<Keys.ContextKey>Cog</Keys.ContextKey> button) lets you select the
 standard window sizes and positions (top left quarter, top right quarter etc.)
 Buttons are also shown allowing you
 to set the button size and the text size of the buttons in the window, and move the
@@ -77,7 +79,7 @@ A grid screen will open.
 
 ![Resize](/docs/images/Resize.png)
 
-With the softkey \[Edit All Windows\] set to Off, you just set the size
+With the softkey <Keys.SoftKey>Edit All Windows</Keys.SoftKey> set to Off, you just set the size
 of the selected window.
 
 Touch and drag the top left or bottom right corners to resize the
@@ -86,25 +88,25 @@ window. Touch and drag anywhere else to move the window.
 Tap on a corner to set a start corner position - the window will
 highlight in red and ask you to tap to set the opposite corner position.
 
-If the softkey \[Resize Neighbours\] is set to On, surrounding windows
+If the softkey <Keys.SoftKey>Resize Neighbours</Keys.SoftKey> is set to On, surrounding windows
 will resize to make room for the window you are editing. If Off, the
 other windows will stay the same size and go behind the current window.
 
-If \[Edit All Windows\] is set to On, corner arrows will appear in all
+If <Keys.SoftKey>Edit All Windows</Keys.SoftKey> is set to On, corner arrows will appear in all
 windows and you can adjust the size of all the windows together. Press
-\<Enter\>, \<Exit\> or \[OK\] to finish.
+<Keys.HardKey>Enter</Keys.HardKey>, <Keys.HardKey>Exit</Keys.HardKey> or <Keys.SoftKey>OK</Keys.SoftKey> to finish.
 
 ![Resize](/docs/images/Resize-2.png)
 
-> If you accidentally set a window to a single grid size, you can't then get to the Window Layout button to resize it. Select the window and use the \[Min/Max\] softkey to set the window to a fixed size.
+> If you accidentally set a window to a single grid size, you can't then get to the Window Layout button to resize it. Select the window and use the <Keys.SoftKey>Min/Max</Keys.SoftKey> softkey to set the window to a fixed size.
 
 You can move the active window between screens from the Window
-Appearance screen, or by pressing View then \[Window Options\] then
-\[Move Screen\], or hold \<Avo\> and press the \<Size & Position\> button.
+Appearance screen, or by pressing View then <Keys.SoftKey>Window Options</Keys.SoftKey> then
+<Keys.SoftKey>Move Screen</Keys.SoftKey>, or hold <Keys.HardKey>Avo</Keys.HardKey> and press the <Keys.HardKey>Size & Position</Keys.HardKey> button.
 
-You can close the active window using the \<Close\> button (not on all
-consoles). You can close all windows by pressing \<Avo\>+\<Close\>, or
-use the \[Close All\] softkey.
+You can close the active window using the <Keys.HardKey>Close</Keys.HardKey> button (not on all
+consoles). You can close all windows by pressing <Keys.HardKey>Avo</Keys.HardKey>+<Keys.HardKey>Close</Keys.HardKey>, or
+use the <Keys.SoftKey>Close All</Keys.SoftKey> softkey.
 
 ### Context Menu Buttons
 
@@ -133,9 +135,9 @@ consoles or different screens can make the number of rows and columns
 change, causing buttons to move around. If you have set a particular
 layout you want to keep (for example if you've positioned fixtures in
 the window to match the layout on stage), open the Window Appearance
-menu using the \{Cog\} button and set Button Size to \{Button Size Set Rows
-& Columns\}. You can then set a fixed layout using the \{Rows\} and
-\{Columns\} buttons.
+menu using the <Keys.ContextKey>Cog</Keys.ContextKey> button and set Button Size to \\u123Button Size Set Rows
+& Columns\\u125. You can then set a fixed layout using the <Keys.ContextKey>Rows</Keys.ContextKey> and
+<Keys.ContextKey>Columns</Keys.ContextKey> buttons.
 
 ![Rows and Columns](/docs/images/Rows-and-Columns.png)
 
@@ -159,38 +161,38 @@ they are down the left side of the screen).
 External screens can have their own workspace buttons down the side of the screen (these
 can be turned on or off in the [User Settings](../system-settings/user-settings/#display) .)
 
-To record, press \<View/Open\> then
-\[Record Workspace\], then touch one of the Workspaces buttons, or just
+To record, press <Keys.HardKey>View/Open</Keys.HardKey> then
+<Keys.SoftKey>Record Workspace</Keys.SoftKey>, then touch one of the Workspaces buttons, or just
 touch an empty button twice to Quick Record. You can also save
 workspaces onto any grey handle or macro button.
 
 When saving and loading workspaces, it's often useful to be able to set how existing windows
 will behave if you load more windows, and to be able to target particular windows to a certain screen on the console.
 
--   \[Record Visible/All Windows\] lets you set whether the workspace
+-   <Keys.SoftKey>Record Visible/All Windows</Keys.SoftKey> lets you set whether the workspace
     will contain only the windows which are currently visible, or will
     also include any windows which are hidden underneath other windows.
 
--   \[Remove/Leave other windows on recall\] sets whether all other
+-   <Keys.SoftKey>Remove/Leave other windows on recall</Keys.SoftKey> sets whether all other
     windows will be closed when this workspace is recalled. If set to remove,
-	the Workspace button will show an \{X\} in the corner.
+	the Workspace button will show an <Keys.ContextKey>X</Keys.ContextKey> in the corner.
 	
 	![Workspaces](/docs/images/Workspace-Layout-Button-Letters-X.png)
 
--   \[Screens=\] sets whether the workspace layout will record all the screens,
+-   <Keys.SoftKey>Screens=</Keys.SoftKey> sets whether the workspace layout will record all the screens,
     or individual screens (you can select or deselect each screen).
 
--   \[Recall as Recorded / Where Selected\] only appears if the Screens option
+-   <Keys.SoftKey>Recall as Recorded / Where Selected</Keys.SoftKey> only appears if the Screens option
     is set to record only a single screen, and sets whether the workspace will
 	recall onto the screen where you recorded it (button shows S + the screen number), or if it will recall onto
 	the screen where you selected it (button shows a target symbol).
 	![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
 
--   To delete a workspace button, press \<View/Open\>, \<Delete\>, then
+-   To delete a workspace button, press <Keys.HardKey>View/Open</Keys.HardKey>, <Keys.HardKey>Delete</Keys.HardKey>, then
     the workspace button to be deleted.
 
--	When recalling a workspace, if you press \<View/Open\> first then softkey buttons let you
-	set the workspace to recall to the particular screen where it was recorded \[As Recorded\], or to a different screen
+-	When recalling a workspace, if you press <Keys.HardKey>View/Open</Keys.HardKey> first then softkey buttons let you
+	set the workspace to recall to the particular screen where it was recorded <Keys.SoftKey>As Recorded</Keys.SoftKey>, or to a different screen
 	(the other screen numbers are listed on softkeys). This is useful when a workspace contains only a single screen,
 	allowing you to recall it onto a different screen.
 	
@@ -204,24 +206,24 @@ As an example of setting up a workspace, suppose while programming you
 wanted to be able to access fixtures, position palettes, fixture
 attributes and shapes:
 
-1. Double press the \<View/Open\> button, or press \<Exit\> to get to the root menu and then the \[Open Workspace
+1. Double press the <Keys.HardKey>View/Open</Keys.HardKey> button, or press <Keys.HardKey>Exit</Keys.HardKey> to get to the root menu and then the \[Open Workspace
 Window\] menu softkey.
 
-2. Find the \{Fixtures\} icon on the screen and press it.
+2. Find the <Keys.ContextKey>Fixtures</Keys.ContextKey> icon on the screen and press it.
 
 3. If the window is not in the top left quarter, press the \<Size &
 Position\> button (above the numeric keys) until the window occupies the
-top left quarter. Or press the \{Cog\} button on the window
+top left quarter. Or press the <Keys.ContextKey>Cog</Keys.ContextKey> button on the window
 top bar and press the top left position button in that window.
 
-4. Double press \<View/Open\>  again and select the \{Positions\}
-window. Press the \<Size & Position\> button to position it in the desired
+4. Double press <Keys.HardKey>View/Open</Keys.HardKey>  again and select the <Keys.ContextKey>Positions</Keys.ContextKey>
+window. Press the <Keys.HardKey>Size & Position</Keys.HardKey> button to position it in the desired
 location.
 
-5. Repeat to activate the \{Attribute Editor\} and \{Effects\} windows.
+5. Repeat to activate the <Keys.ContextKey>Attribute Editor</Keys.ContextKey> and <Keys.ContextKey>Effects</Keys.ContextKey> windows.
 
-6. Press \<View/Open\> then \[Record Workspace\], or hold \<Avo\> and
-press \<View/Open\>. Type in a name for the workspace. Then touch the
+6. Press <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.SoftKey>Record Workspace</Keys.SoftKey>, or hold <Keys.HardKey>Avo</Keys.HardKey> and
+press <Keys.HardKey>View/Open</Keys.HardKey>. Type in a name for the workspace. Then touch the
 Workspace button where you want to store this workspace layout. Or, you
 can use Quick Record -- just touch an empty workspace button and it will
 turn red with a +. Type a name for the workspace and touch again to
@@ -237,13 +239,13 @@ enter a legend. Touch or click again to store the item.
 
 The Quick Record function can be disabled for a particular button type using [Key Profiles](../system-settings/key-profiles.md).
 
-For palette buttons, the quick record function works slightly differently to pressing \<Record\> followed by the button. See [Storing a Palette](../palettes/creating-palettes#storing-a-palette).
+For palette buttons, the quick record function works slightly differently to pressing <Keys.HardKey>Record</Keys.HardKey> followed by the button. See [Storing a Palette](../palettes/creating-palettes#storing-a-palette).
 
 ## Legends and Picture Legends
 
 All touch buttons can have legends set to remind you what they do. In
 addition, you can draw picture legends on the buttons. To do this,
-select \[Set Legend\] then press \[Picture\]. A drawing space will open
+select <Keys.SoftKey>Set Legend</Keys.SoftKey> then press <Keys.SoftKey>Picture</Keys.SoftKey>. A drawing space will open
 on the touch screen for you to draw the legend. There is also a library
 of pictures to choose from including popular gobo designs.
 
@@ -258,7 +260,7 @@ information in it.
 
 You can set a custom coloured halo for fixture, group or palette
 buttons. This can be really useful for identifying different types of
-button at a glance. Select the \[Halo\] option on the Set Legends menu.
+button at a glance. Select the <Keys.SoftKey>Halo</Keys.SoftKey> option on the Set Legends menu.
 
 ![Halo](/docs/images/Fixture-Halo.png)
 
@@ -273,12 +275,12 @@ the touch keyboard.
 ![Keyboard Button](/docs/images/Keyboard-Button.png)
 
 The touch keyboard can be switched between large and small size using
-the Max/Min button and you close it using the large \{X\} button in the top
+the Max/Min button and you close it using the large <Keys.ContextKey>X</Keys.ContextKey> button in the top
 right hand corner. You can also move it on the screen by touching and
 dragging the blank area of the keyboard at the top.
 
 If you want the keyboard to pop up automatically when text input is
-required, set the \{Man/Auto\} button to "Auto". This setting will stay
+required, set the <Keys.ContextKey>Man/Auto</Keys.ContextKey> button to "Auto". This setting will stay
 active until you change it back to "Manual".
 
 The small version of the keyboard (pictured) does not have some of the
@@ -293,17 +295,17 @@ The trackball on the right of the console can be used either to control
 the mouse pointer on the touch screens and external monitors, or to
 control fixtures.
 
-To use in mouse mode, hold the \<Assign\> button below the trackball and
+To use in mouse mode, hold the <Keys.HardKey>Assign</Keys.HardKey> button below the trackball and
 click the \'Left\' mouse button. The trackball will then control the
 mouse pointer and the ring will scroll windows up and down.
 
-To use in console mode for controlling fixtures, press the \<Assign\>
+To use in console mode for controlling fixtures, press the <Keys.HardKey>Assign</Keys.HardKey>
 button on its own. The trackball will control pan and tilt of selected
 fixtures, and the ring controls fine tilt.
 
 ## Mini Screen (Arena only)
 
-The \<Display\> button below the rotary encoders toggles through four
+The <Keys.HardKey>Display</Keys.HardKey> button below the rotary encoders toggles through four
 fixed layouts for the Mini screen:
 
 - Workspace window(s) with encoder legends on the right
@@ -329,7 +331,7 @@ to access the preset fader handles in shows which have been programmed
 on the Pearl Expert.
 
 When either of these windows is opened, there is a context button option
-to \{Move to workspace\}. This will move the handles from the
+to <Keys.ContextKey>Move to workspace</Keys.ContextKey>. This will move the handles from the
 compatibility window to the appropriate workspace window. You need to do
 this twice, once with the "Fixtures and playbacks" window selected, and
 once with the "Palettes and groups" window selected.

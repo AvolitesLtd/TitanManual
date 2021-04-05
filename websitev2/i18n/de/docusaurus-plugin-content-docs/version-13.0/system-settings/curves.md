@@ -5,11 +5,13 @@ sidebar_label: Curves
 original_id: curves
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Für verschiedene Zwecke lässt sich aus einer Vielzahl von Kennlinien
 wählen, mit denen festgelegt wird, wie die DMX-Werte den Reglerwerten
 folgen, etwa: komplett linear, oder anfangs und am Ende sanft mit
 größerer Beschleunigung in der Mitte, oder diverse andere Optionen. Das
-Zuweisen der Kennlinien erfolgt über \[Playback Options\], siehe [Playback
+Zuweisen der Kennlinien erfolgt über <Keys.SoftKey>Playback Options</Keys.SoftKey>, siehe [Playback
 Options](../cues/playback-options.md).
 
 ![Curve - Linear](/docs/images/Curve-Linear.png)

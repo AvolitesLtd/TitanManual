@@ -5,6 +5,8 @@ sidebar_label: Remote Control
 original_id: remote-control
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Verwendet man einen **WLAN** Access Point (Drahtlosnetzwerk-Zugangspunkt),
 so lässt sich das Pult mit einem Mobilgerät ([Android](https://play.google.com/store/apps/developer?id=Avolites+Ltd) oder [iOS](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps)) drahtlos
 fernsteuern. Dies ist insbesondere hilfreich beim Installieren und

@@ -5,6 +5,8 @@ sidebar_label: Titan Mobile
 original_id: titan-mobile
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Titan Mobile is a USB wing which plugs into a PC or laptop (Windows 7 or
 above, 64 bit) running the Titan software.
 

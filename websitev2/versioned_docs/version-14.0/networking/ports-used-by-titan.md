@@ -4,6 +4,8 @@ title: Network Ports used by Titan
 sidebar_label: Network ports used by Titan
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Titan uses the following ports over the network. If your network
 includes firewalls you might need to know these so you can set up rules for them.
 

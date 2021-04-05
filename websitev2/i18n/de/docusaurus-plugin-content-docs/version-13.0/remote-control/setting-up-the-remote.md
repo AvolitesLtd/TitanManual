@@ -5,6 +5,8 @@ sidebar_label: Setting up the Remote
 original_id: setting-up-the-remote
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Voraussetzung ist, dass zwischen Pult und Mobilgerät eine
 Netzwerkverbindung besteht; die App erkennt dann automatisch alle im
 Netzwerk gefundenen Pulte.
@@ -59,8 +61,8 @@ anderen Geräten ist das Vorgehen aber ähnlich.
 	Netzwerkanschlüsse sind hinten am Pult.
 
 3. 	Stellen Sie auf dem Pult eine passende IP-Adresse ein: schalten Sie
-	es in den System-Modus, wählen dann \[Network Settings\], dann \[Local
-	Area Connection\], und klicken auf \[Set IP 10.\*.\*.\*\].
+	es in den System-Modus, wählen dann <Keys.SoftKey>Network Settings</Keys.SoftKey>, dann \[Local
+	Area Connection\], und klicken auf <Keys.SoftKey>Set IP 10.\*.\*.\*</Keys.SoftKey>.
 
 4.	Auf dem Mobilgerät überprüfen Sie, dass WLAN aktiviert ist.
 

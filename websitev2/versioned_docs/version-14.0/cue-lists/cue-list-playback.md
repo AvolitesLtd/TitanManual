@@ -5,6 +5,8 @@ sidebar_label: Cue List Playback
 original_id: cue-list-playback
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Running a Cue List
 ------------------
 
@@ -23,7 +25,7 @@ d for delay and f for fade. If the cue list is set to manual crossfade a red 'M'
 ![Playback handle of running cue list](/docs/images/Playback-handle-of-running-cue-list.png)
 
 You can also open the Playback View window to show more details of the
-cue list by clicking the Cue List legend area or press \<View/Open\>
+cue list by clicking the Cue List legend area or press <Keys.HardKey>View/Open</Keys.HardKey>
 then the **swop button** of the playback. This shows all the timings, links
 and tracking status and is very useful when running a [theatre show](theatre-programming.md) on a
 cue list.
@@ -40,40 +42,40 @@ and each timing section shows its own progress.
 
 The Playback View will autoscroll to keep the active cue on-screen. You
 can change the way the autoscroll works using the view options (click
-the \{Cog\} button at the top of the window).
+the <Keys.ContextKey>Cog</Keys.ContextKey> button at the top of the window).
 
 ---
 
 -   The HTP levels of cues in the cue list are mastered by the fader level.
 
--   You can **pause** a fade by pressing the \<Stop\> button above \<Go\>.
-    Press \<Go\> again to resume the fade.
+-   You can **pause** a fade by pressing the <Keys.HardKey>Stop</Keys.HardKey> button above <Keys.HardKey>Go</Keys.HardKey>.
+    Press <Keys.HardKey>Go</Keys.HardKey> again to resume the fade.
 
 -   You can **skip** to any cue in the cue list by selecting a "next" cue
     using Wheel A, or using the left/right arrow keys. When you press
-    \<Go\>, the cue list will run that cue next. If you decide you don't want
+    <Keys.HardKey>Go</Keys.HardKey>, the cue list will run that cue next. If you decide you don't want
 	to skip, you can reset the cue list (so the next cue will be the cue after the current cue)
-	by pressing the \<Prev Cue\> and \<Next Cue\> buttons together.
+	by pressing the <Keys.HardKey>Prev Cue</Keys.HardKey> and <Keys.HardKey>Next Cue</Keys.HardKey> buttons together.
 	
--	You can go back to the previous cue following fade times by pressing \<Stop\>
+-	You can go back to the previous cue following fade times by pressing <Keys.HardKey>Stop</Keys.HardKey>
 	while the cue list is paused.
 
--   You can snap back to the previous cue by pressing the \<Snap Back\>
+-   You can snap back to the previous cue by pressing the <Keys.HardKey>Snap Back</Keys.HardKey>
     button *(not on all consoles)*
 
--   On consoles with a \<Snap\> button *(Arena and Tiger Touch II)*, when
-    you turn on the \<Snap\> button the \<Prev\>/\<Next\> buttons will
+-   On consoles with a <Keys.HardKey>Snap</Keys.HardKey> button *(Arena and Tiger Touch II)*, when
+    you turn on the <Keys.HardKey>Snap</Keys.HardKey> button the <Keys.HardKey>Prev</Keys.HardKey>/<Keys.HardKey>Next</Keys.HardKey> buttons will
     snap immediately to the cue rather than going to the previous/next
     cue using the programmed times. There is also a 
-    [User Setting \[Chase Snap\]](../system-settings/user-settings.md#chase-snap)
+    [User Setting <Keys.SoftKey>Chase Snap</Keys.SoftKey>](../system-settings/user-settings.md#chase-snap)
     which enables this mode on consoles which don't have the
     button.
 
--   You can jump directly to a cue by pressing \<Connect/Cue\>, then typing
-    in the desired cue number, then pressing \<Enter\> or softkey A.
+-   You can jump directly to a cue by pressing <Keys.HardKey>Connect/Cue</Keys.HardKey>, then typing
+    in the desired cue number, then pressing <Keys.HardKey>Enter</Keys.HardKey> or softkey A.
     Alternatively at the top level menu you can type the cue number then
-    press \<Connect/Cue\>. (This button may be labelled \<Connect\> or
-	\<Cue\> depending on the console).
+    press <Keys.HardKey>Connect/Cue</Keys.HardKey>. (This button may be labelled <Keys.HardKey>Connect</Keys.HardKey> or
+	<Keys.HardKey>Cue</Keys.HardKey> depending on the console).
 
 -   You can use [Key Profiles](../system-settings/key-profiles.md) to set the blue and grey buttons of the
     playback to have various functions including **Go**, **Stop**, **Connect**, **Next
@@ -87,20 +89,20 @@ the \{Cog\} button at the top of the window).
     section [Cue List Timing](cue-list-timing.md#running-a-cue-list-to-timecode).
 
 -   You can change the time for the next cue by entering the time on the
-    keypad then pressing \<Go\>. You can jump to another cue and set a
-    different time by typing the cue number then press \<Connect/Cue\>, then
-    type the time and press \<Go\>.
+    keypad then pressing <Keys.HardKey>Go</Keys.HardKey>. You can jump to another cue and set a
+    different time by typing the cue number then press <Keys.HardKey>Connect/Cue</Keys.HardKey>, then
+    type the time and press <Keys.HardKey>Go</Keys.HardKey>.
 
 Killing a Cue List
 ------------------
 
 Once a cue list is fired, it remains active until you kill it. You do
-this by holding down the \<Avo\> button and pressing the blue Select
+this by holding down the <Keys.HardKey>Avo</Keys.HardKey> button and pressing the blue Select
 button of the cue list's handle.
 
 You can change this in the playback [Options](../cues/playback-options.md) to make the cue list
-automatically clear when the fader reaches zero (press \<Options\> or the menu button \[Options\] at the program menu, then press the Select button of the cue
-list, then select \[Fader\] \[Fader Mode Intensity Kill At 0\].
+automatically clear when the fader reaches zero (press <Keys.HardKey>Options</Keys.HardKey> or the menu button <Keys.SoftKey>Options</Keys.SoftKey> at the program menu, then press the Select button of the cue
+list, then select <Keys.SoftKey>Fader</Keys.SoftKey> <Keys.SoftKey>Fader Mode Intensity Kill At 0</Keys.SoftKey>.
 
 You can also use [Key Profiles](../system-settings/key-profiles.md#cue-lists) to configure one of the handle buttons to
 release the cue list.
@@ -122,19 +124,19 @@ through the other cues until a new level is stored.
 
 You can enable or disable Tracking mode globally for the whole cue list,
 or each cue can have Tracking mode set individually from the Playback
-View window (or Options, \[Cue Options\]).
+View window (or Options, <Keys.SoftKey>Cue Options</Keys.SoftKey>).
 
 Settings are:
 
 Setting | Action
 --- | ---
-\[Global\] *(default)* | Obeys the global setting for the cue list.
-\[Track\] | The cue will track
-\[Block\] | The cue will not take tracking states from previous cues. All subsequent cues will track from the Block cue.
-\[Solo Excluding Shapes\] | No states are tracked into or out of the cue, but shapes will track into the cue, except for dimmer shapes which will not track. This lets you have a cue that solos all levels but allows non-dimmer shapes to continue.
-\[Cue Only\] | Changes in this cue will not track to subsequent cues. Unchanged states from previous cues will be restored in subsequent cues.
-\[Solo\] | No states are tracked into or out of a solo cue. States from previous cues will track to subsequent cues but will not appear in the solo cue.
-\[Block Shapes\] | Any tracked shapes will stop from this cue. Other attributes will continue to be tracked. This lets you create a point where you can guarantee all shapes will stop.
+<Keys.SoftKey>Global</Keys.SoftKey> *(default)* | Obeys the global setting for the cue list.
+<Keys.SoftKey>Track</Keys.SoftKey> | The cue will track
+<Keys.SoftKey>Block</Keys.SoftKey> | The cue will not take tracking states from previous cues. All subsequent cues will track from the Block cue.
+<Keys.SoftKey>Solo Excluding Shapes</Keys.SoftKey> | No states are tracked into or out of the cue, but shapes will track into the cue, except for dimmer shapes which will not track. This lets you have a cue that solos all levels but allows non-dimmer shapes to continue.
+<Keys.SoftKey>Cue Only</Keys.SoftKey> | Changes in this cue will not track to subsequent cues. Unchanged states from previous cues will be restored in subsequent cues.
+<Keys.SoftKey>Solo</Keys.SoftKey> | No states are tracked into or out of a solo cue. States from previous cues will track to subsequent cues but will not appear in the solo cue.
+<Keys.SoftKey>Block Shapes</Keys.SoftKey> | Any tracked shapes will stop from this cue. Other attributes will continue to be tracked. This lets you create a point where you can guarantee all shapes will stop.
 
 Move In Dark (MID) Functions
 ----------------------------
@@ -147,26 +149,26 @@ fixture for the next cue when it is not lit.
 Move In Dark options can be set either for the whole cue list or for
 individual cues.
 
-Options for the whole cue list are set by pressing \<Options\> (or the \[Options\] softkey on the top level menu)
-then the select button for the cue list, then \[Playback\].
+Options for the whole cue list are set by pressing <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey on the top level menu)
+then the select button for the cue list, then <Keys.SoftKey>Playback</Keys.SoftKey>.
 
 Setting | Action
 ---|---
-\[Disabled\] | Prevents Move In Dark functions for all cues in the cue list regardless of the individual cue settings
-\[Early\] | Will attempt to position a fixture as soon as possible unless overridden in an individual cue
-\[Late\] | Will position the fixture as late as possible
-\[Off\] *(default)* | Turns off Move In Dark unless enabled in individual cues
+<Keys.SoftKey>Disabled</Keys.SoftKey> | Prevents Move In Dark functions for all cues in the cue list regardless of the individual cue settings
+<Keys.SoftKey>Early</Keys.SoftKey> | Will attempt to position a fixture as soon as possible unless overridden in an individual cue
+<Keys.SoftKey>Late</Keys.SoftKey> | Will position the fixture as late as possible
+<Keys.SoftKey>Off</Keys.SoftKey> *(default)* | Turns off Move In Dark unless enabled in individual cues
 
 For individual cues the options are set using the Playback Window.
 
 Setting | Action
 ---|---
-\[Global\] *(default)* | Uses the cue list's global setting
-\[Cue Number\] | Specifies a cue where you would like the move to occur
-\[Cue Offset\] | Specifies a preferred number of cues in advance
-\[Disabled\] | Prevents Move In Dark for this cue
-\[Early\] | Will move as early as possible
-\[Late\] | Will move as late as possible
+<Keys.SoftKey>Global</Keys.SoftKey> *(default)* | Uses the cue list's global setting
+<Keys.SoftKey>Cue Number</Keys.SoftKey> | Specifies a cue where you would like the move to occur
+<Keys.SoftKey>Cue Offset</Keys.SoftKey> | Specifies a preferred number of cues in advance
+<Keys.SoftKey>Disabled</Keys.SoftKey> | Prevents Move In Dark for this cue
+<Keys.SoftKey>Early</Keys.SoftKey> | Will move as early as possible
+<Keys.SoftKey>Late</Keys.SoftKey> | Will move as late as possible
 
 Move In Dark delay and Move In Dark fade times can be set for the
 whole cue list or for each cue using the Set Times menu. Each cue

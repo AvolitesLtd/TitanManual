@@ -5,6 +5,8 @@ sidebar_label: Titan Simulator
 original_id: titan-simulator
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Need to pre-program or tweak your show before you get to the venue? No
 problem, just run the Titan Simulator on your PC. You can then load your
 show and simulate any of the Titan consoles, using an on-screen "virtual

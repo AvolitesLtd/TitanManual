@@ -5,6 +5,8 @@ sidebar_label: Glossary of Avolites terms
 original_id: glossary
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 This section explains what common lighting terminology means in Avolites Titan. In cases where other lighting equipment manufacturers use the words to mean something else, this is listed in the text.
 
 word 		| meaning
@@ -23,7 +25,7 @@ CELL		| Part of a Fixture which can be controlled separately within the larger f
 CHANNEL		| Button allowing syntax / numeric style entry and operation of the console using the User Number of fixtures/dimmers.
 CHASE		| A sequence of one or more pre recorded steps which automatically run one after the other.
 COLOUR MIX / CMY	| A system of three filters (Cyan, Magenta, Yellow) that can each crossfade from white to a colour, or one colour to another. It is a feature of most Fixtures, which enables any colour to be created.
-CONNECTED CHASE	| A Chase which is linked to the Wheels by pressing the \<Connect\> button.
+CONNECTED CHASE	| A Chase which is linked to the Wheels by pressing the <Keys.HardKey>Connect</Keys.HardKey> button.
 CUE			| A single stage look programmed onto a Playback button or fader, or as part of a Cue List. Also known as MEMORY, STATE, SCENE, LOOK.
 CUE LIST	| A sequence of cues programmed onto a Playback button or fader. Each cue can have its own delay and fade times and can also start other cues or playbacks. Also known as a CUE STACK or STACK.
 CUE MODE	| A playback format programmed into a Cue which determines how the cue fades in and out. There are Cue Modes 0 - 3.
@@ -100,7 +102,7 @@ TRIGGER POINT	| The level set in the User Settings which determines at which poi
 UNFOLD		| A function that allows Chase steps to be laid out onto the playback faders for easy editing.
 UNIVERSE	| A full set of 512 DMX control channels/slots. Titan consoles can create up to 64 universes, 16 on the console and the rest remotely using network processing.
 UPS			| Uninterruptible Power Supply, fitted internally in some consoles, to keep the console running in case of power failure.
-USER NUMBER	| Each fixture / dimmer has a User Number which allows you to select them using the numeric keypad and \<Through\> button, as commonly used on other types of console.
+USER NUMBER	| Each fixture / dimmer has a User Number which allows you to select them using the numeric keypad and <Keys.HardKey>Through</Keys.HardKey> button, as commonly used on other types of console.
 USER SETTINGS	| User definable desk settings. To change them, hold down the Avo button and select [User Settings].
 VIRTUAL DIMMER	| Used with LED colour mixing fixtures, these add an intensity function to the fixture which masters the RGB controls on the fixture when it does not actually have an intensity control channel.
 VISUALISER	| Software providing a lifelike 3D view of the stage and lighting, allowing virtual programming.

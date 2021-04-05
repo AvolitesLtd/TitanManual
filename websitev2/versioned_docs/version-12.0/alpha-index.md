@@ -4,6 +4,8 @@ title: Alphabetic Index
 sidebar_label: Alphabetic Index
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 ## A
 [Actions for Buttons *(in "Key Profiles")*](./system-settings/key-profiles.md#actions-for-buttons)\
 [Adding manual triggers *(in "Creating a Timeline")*](./timelines/creating-a-timeline.md#adding-manual-triggers)\

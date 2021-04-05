@@ -5,6 +5,8 @@ sidebar_label: Cues
 original_id: cues
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 So you've set up a great look on the stage, and you want to save it to
 use in your show.
 

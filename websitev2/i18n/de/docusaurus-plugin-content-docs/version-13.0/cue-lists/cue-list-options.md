@@ -5,14 +5,16 @@ sidebar_label: Cue List Options
 original_id: cue-list-options
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Über das Menü [Playback Options](../cues/playback-options.md) sind weitere 
 Optionen verfügbar. Zum Aufrufen derselben gehen Sie wie folgt vor:
 
-1. Drücken Sie im Hauptmenü \[Playback Options\].
+1. Drücken Sie im Hauptmenü <Keys.SoftKey>Playback Options</Keys.SoftKey>.
 
 2. Drücken Sie die **Select-Taste** der Cueliste.
 
-Zur Anzeige aller Optionen in einem Fenster drücken Sie \<View / Open\>, 
+Zur Anzeige aller Optionen in einem Fenster drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, 
 dann die entsprechende **Select-Taste**, und klicken links in der 
 Playback-Ansicht auf **Options**.
 
@@ -97,7 +99,7 @@ eingestellten - Hintergrund laufen lassen.
 
 ## Renumber all cues
 
-Die Option \[Renumber All Cues\] setzt die Nummerierung der Schritte auf
+Die Option <Keys.SoftKey>Renumber All Cues</Keys.SoftKey> setzt die Nummerierung der Schritte auf
 eine von 1 aufsteigende Folge zurück. *Diese Option ist nur über die
 Menütasten sowie die Kontext-Buttons verfügbar, nicht im Optionsfenster*.
 
@@ -105,37 +107,37 @@ Menütasten sowie die Kontext-Buttons verfügbar, nicht im Optionsfenster*.
 
 Hiermit lassen sich Einstellungen für jeden einzelnen Schritt der
 Cueliste ändern. Um den gewünschten Schritt zu wählen, nutzen Sie das
-linke Rad, oder Sie drücken Menütaste A \[Select Cue Number\] und geben die Schrittnummer
+linke Rad, oder Sie drücken Menütaste A <Keys.SoftKey>Select Cue Number</Keys.SoftKey> und geben die Schrittnummer
 mit den Zifferntasten ein.
 
--   Mit \[Curve\] (Kurve) kann man für diesen Schritt eine andere
+-   Mit <Keys.SoftKey>Curve</Keys.SoftKey> (Kurve) kann man für diesen Schritt eine andere
     Überblendkurve wählen; die beeinflusst den Übergang von einem
     Schritt zum nächsten (*so gibt es etwa Kurven, bei denen der Übergang
     langsam beginnt, in der Mitte schneller wird, und zum Ende hin
-    wieder verlangsamt*). Drücken Sie \[Curve\], und wählen Sie mit den
+    wieder verlangsamt*). Drücken Sie <Keys.SoftKey>Curve</Keys.SoftKey>, und wählen Sie mit den
     Funktionstasten die gewünschte Kurve. Die einzelnen Kurven sind [Curves](../system-settings/curves.md) erläutert.
 
--   \[Link\] (Verbindung) bietet die Optionen **Wait for Go** (auf \<Go\>
+-   <Keys.SoftKey>Link</Keys.SoftKey> (Verbindung) bietet die Optionen **Wait for Go** (auf <Keys.HardKey>Go</Keys.HardKey>
     warten), **With Previous Cue** (mit vorigem Schritt), und  **After
     Previous Cue** (nach vorigem Schritt). Siehe [Schrittfolge und Versatz](cue-list-timing.md#schrittfolge-und-versatz).
 
--   \[Move In Dark\] öffnet das Menü mit den Move-In-Dark-Optionen,
+-   <Keys.SoftKey>Move In Dark</Keys.SoftKey> öffnet das Menü mit den Move-In-Dark-Optionen,
     siehe [Move in Dark (MID)](cue-list-playback.md#move-in-dark-mid---funktionen)
 
--   \[Move In Dark Inhibit\] deaktiviert alle Move-In-Dark-Vorgänge in
+-   <Keys.SoftKey>Move In Dark Inhibit</Keys.SoftKey> deaktiviert alle Move-In-Dark-Vorgänge in
     diesem Cue.
 
--   \[Tracking\] [Tracking-Einstellungen](cue-list-playback.md#tracking) für diesen 
+-   <Keys.SoftKey>Tracking</Keys.SoftKey> [Tracking-Einstellungen](cue-list-playback.md#tracking) für diesen 
     Cue.
 
--   \[Legend\] (Bezeichnung) Gestattet die Vergabe einer Bezeichnung des
+-   <Keys.SoftKey>Legend</Keys.SoftKey> (Bezeichnung) Gestattet die Vergabe einer Bezeichnung des
     Schrittes; die Bezeichnung wird später im Display angezeigt.
 
--   \[Notes=\] (Bemerkung) Dient zur Eingabe von Notizen zu dem Schritt,
+-   <Keys.SoftKey>Notes=</Keys.SoftKey> (Bemerkung) Dient zur Eingabe von Notizen zu dem Schritt,
     hilfreich etwa zum Szenenablauf (z.B. *verlässt vom Bär verfolgt die
     Bühne*, oder *den Spotfahrer wecken*).
 
--   \[Autoload\] siehe [Autoloading: Laden eines externen Cues](creating-a-cue-list.md#autoloading-laden-eines-externen-cues).
+-   <Keys.SoftKey>Autoload</Keys.SoftKey> siehe [Autoloading: Laden eines externen Cues](creating-a-cue-list.md#autoloading-laden-eines-externen-cues).
 
--   \[Cue disabled\] Erlaubt es, den Cue vorübergehend deaktivieren,
+-   <Keys.SoftKey>Cue disabled</Keys.SoftKey> Erlaubt es, den Cue vorübergehend deaktivieren,
     ohne ihn zu löschen. Siehe [Deaktivieren eines Cues](editing-cue-lists.md#deaktivieren-eines-cues).

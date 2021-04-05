@@ -5,6 +5,8 @@ sidebar_label: Shape Generator
 original_id: shape-generator
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 [](https://youtu.be/oTo6FxHD02o?t=20 "Using Shape Generator")
 
 Ein Shape ist eine automatische Folge von Werten, die verschiedene
@@ -39,17 +41,17 @@ Geräte angewendet.
 
 1. [Wählen Sie die Geräte](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen), auf die der Shape angewendet werden soll.
 
-2. Im Hauptmenü drücken Sie \[Shape and Effects\], dann \[Shape
+2. Im Hauptmenü drücken Sie <Keys.SoftKey>Shape and Effects</Keys.SoftKey>, dann \[Shape
 Generator\].
 
-3. Klicken Sie \[Create\], um einen neuen Shape zu starten.
+3. Klicken Sie <Keys.SoftKey>Create</Keys.SoftKey>, um einen neuen Shape zu starten.
 ![Shape Generator selecting a category of new shape](/docs/images/Shape-Generator-selecting-a-category-of-new-shape.png)
 
-4. Betätigen Sie eine \[Menütaste\], um den Shape nach Attribut
-auszuwählen, oder drücken Sie \[All Shapes\] für eine Gesamtliste.
+4. Betätigen Sie eine <Keys.SoftKey>Menütaste</Keys.SoftKey>, um den Shape nach Attribut
+auszuwählen, oder drücken Sie <Keys.SoftKey>All Shapes</Keys.SoftKey> für eine Gesamtliste.
 
 5. Klicken Sie im **Shapes-Fenster** auf den gewünschten Shape, oder
-benutzen Sie eine \[Menütaste\] zur Auswahl. Ebenso kann man mit
+benutzen Sie eine <Keys.SoftKey>Menütaste</Keys.SoftKey> zur Auswahl. Ebenso kann man mit
 der Tastatur einen Suchbegriff für einen bestimmten Shape eingeben, um
 die Suche einzugrenzen.
 
@@ -58,7 +60,7 @@ die Suche einzugrenzen.
 ---
 
 -   Wird das **Shapes-Fenster** geöffnet, so bleibt es ständig offen, und
-    man muss nicht immer wieder \[Shape Generator\] drücken, um einen
+    man muss nicht immer wieder <Keys.SoftKey>Shape Generator</Keys.SoftKey> drücken, um einen
     Shape abzurufen. Dieses Fenster zeigt nur Shapes, die auf die
     gewählten Geräte anwendbar sind. Wird ein Attribut ausgewählt, so
     wird die Liste der verfügbaren Shapes weiter verkürzt auf Shapes,
@@ -82,7 +84,7 @@ die Suche einzugrenzen.
     werden können.
 
 -   Zur Anzeige der momentan laufenden Shapes drücken Sie \[Shapes and
-    Effects\], dann \[Shape Generator\] und dann \[Edit\].
+    Effects\], dann <Keys.SoftKey>Shape Generator</Keys.SoftKey> und dann <Keys.SoftKey>Edit</Keys.SoftKey>.
 
 -   Wird der gleiche Shape auf zwei verschiedene Gruppen von Geräten
     angewendet, so erscheint er doppelt in der Liste. Damit lassen sich
@@ -93,11 +95,11 @@ die Suche einzugrenzen.
     man wählen, ob der Shape auf dem Hauptgerät laufen soll und alle
     einzelnen Zellen synchron laufen, oder ob die Zellen einzeln
     angesteuert werden. Es gibt folgende Optionen:
-    -   \[Run on Super Fixtures\] - Zellen werden ignoriert, die Geräte werden im
+    -   <Keys.SoftKey>Run on Super Fixtures</Keys.SoftKey> - Zellen werden ignoriert, die Geräte werden im
     Ganzen angesteuert
-    -   \[Run on Sub Fixtures (Linear)\] - die Zellen werden gemäß ihrer internen
+    -   <Keys.SoftKey>Run on Sub Fixtures (Linear)</Keys.SoftKey> - die Zellen werden gemäß ihrer internen
     Nummerierung angesteuert
-    -   \[Run on Sub Fixtures (Group)\] - die Zellen werden gemäß ihrer Anordnung
+    -   <Keys.SoftKey>Run on Sub Fixtures (Group)</Keys.SoftKey> - die Zellen werden gemäß ihrer Anordnung
     (Layout-Editor für die jeweilige Gruppe) angesteuert.
 
 -   Jeder Shape ist für ein spezifisches Attribut konzipiert. Verfügt
@@ -153,14 +155,14 @@ Eigenschaft.
 
 Die Reihenfolge, in der der Shape auf den ausgewählten Geräten abläuft,
 hängt von der Reihenfolge ab, in der die Geräte beim Abruf des Shapes
-ausgewählt wurden. Mittels \[Fixture Order\] lässt sich die
+ausgewählt wurden. Mittels <Keys.SoftKey>Fixture Order</Keys.SoftKey> lässt sich die
 Geräte-Reihenfolge innerhalb des Shape-Menüs ändern.
 
 1. Wenn der rechte Encoder nicht gerade den Spread steuert, drücken Sie
-auf \[Adjust Speed, Size and Spread\]
+auf <Keys.SoftKey>Adjust Speed, Size and Spread</Keys.SoftKey>
 
 2. Steuern Sie den **Spread** (die Verteilung) mit dem rechten Encoder, 
-oder betätigen Sie \[Adjust Spread, Phase and Offset\] und benutzen das 
+oder betätigen Sie <Keys.SoftKey>Adjust Spread, Phase and Offset</Keys.SoftKey> und benutzen das 
 mittlere Rad, um den Geräteversatz (Phase) einzustellen *(rechtes Rad 
 beim Pearl Expert)*.
 
@@ -195,36 +197,36 @@ Shapes gleichzeitig 0 bzw. 100% erreichen.
 Shape-Richtung
 --------------
 
-Die Menüfunktion \[Direction\] erlaubt es, die Richtung des Shapes
+Die Menüfunktion <Keys.SoftKey>Direction</Keys.SoftKey> erlaubt es, die Richtung des Shapes
 zu ändern; hat man ein [2D-Layout](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) erstellt, so kann man abhängig vom
 Shape eine gezielte Bewegung erreichen.
 
-Mit der Taste \<Menu Latch\> lässt sich das "Shape Direction"-Menü
+Mit der Taste <Keys.HardKey>Menu Latch</Keys.HardKey> lässt sich das "Shape Direction"-Menü
 einrasten, so dass man schnell die verschiedenen Einstellungen
 durchprobieren kann.
 
 Beat und Cycles (Durchläufe)
 ----------------------------
 
-Die Option \[Adjust Beat and Cycles\] steuert, wie das generelle Tempo
+Die Option <Keys.SoftKey>Adjust Beat and Cycles</Keys.SoftKey> steuert, wie das generelle Tempo
 des Programmers das Tempo des Shapes beeinflusst und wie oft dieser
 läuft.
 
 ### Beats
 
-Vorgabewert ist \[Beats=1\]: jeder Beat entspricht einem kompletten
+Vorgabewert ist <Keys.SoftKey>Beats=1</Keys.SoftKey>: jeder Beat entspricht einem kompletten
 Durchlauf des Shapes, wie in früheren Software-Versionen. Höhere Werte
 dagegen sorgen dafür, dass das Tempo des Shapes entsprechend reduziert
-wird. Mit z.B. \[Beats=4\] lässt sich erreichen dass für einen
+wird. Mit z.B. <Keys.SoftKey>Beats=4</Keys.SoftKey> lässt sich erreichen dass für einen
 kompletten Shape-Durchlauf 4 Beats erforderlich sind -- der Shape läuft
 langsamer.
 
 Klickt man auf den Wert des **linken Encoders** im Display oder betätigt die jeweilige
 @-Taste, so kann man die gewünschte Zahl direkt eingeben; außerdem
-werden zwei weitere Optionen angeboten: mit \[Match to Spread\] (an den
+werden zwei weitere Optionen angeboten: mit <Keys.SoftKey>Match to Spread</Keys.SoftKey> (an den
 Spread anpassen) wird der Beat Count auf den Spread-Wert des Shapes
 gesetzt, was vor allem bei Dimmer-Shapes sinnvoll ist. Klickt man
-dagegen auf \[Custom\], so kann man einen numerischen Wert eingeben.
+dagegen auf <Keys.SoftKey>Custom</Keys.SoftKey>, so kann man einen numerischen Wert eingeben.
 
 ### Cycles
 
@@ -249,8 +251,8 @@ Steuerung verwenden.
 
 Shapes lassen sich auch in Cuelisten verwenden - in [Tracking von Shapes in Cuelisten](../cue-lists/creating-a-cue-list.md#tracking-von-shapes-in-cuelisten) ist beschrieben, wie sich die Shapes in diesem Fall verhalten.
 
-Laufende Shapes lassen sich zum Editieren mittels \[Select Shape\]
-auswählen - dies befindet sich im Menü \[Edit\] des Shape Generators.
+Laufende Shapes lassen sich zum Editieren mittels <Keys.SoftKey>Select Shape</Keys.SoftKey>
+auswählen - dies befindet sich im Menü <Keys.SoftKey>Edit</Keys.SoftKey> des Shape Generators.
 
 Speichern von Shapes in Paletten
 --------------------------------

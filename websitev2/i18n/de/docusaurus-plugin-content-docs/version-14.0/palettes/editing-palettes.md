@@ -5,6 +5,8 @@ sidebar_label: Editing Palettes
 original_id: editing-palettes
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Anzeigen und Ändern einer Palette
 ---------------------------------
 
@@ -13,7 +15,7 @@ View** anzeigen. Hier werden alle Geräte aufgelistet, für die die Palette
 Werte enthält. Mit einer Kontext-Schaltfläche lassen sich gespeicherte
 **Zeiten (Times)** anzeigen.
 
-Drücken Sie dazu \<View / Open\> und die anzuzeigende
+Drücken Sie dazu <Keys.HardKey>View / Open</Keys.HardKey> und die anzuzeigende
 Paletten-Schaltfläche. Daraufhin öffnet sich das Fenster **Palette View**.
 
 ![Palette View window](/docs/images/Palette-View-window.png)
@@ -28,44 +30,44 @@ Zifferntasten einen Wert eingeben.
 Es ist nicht möglich, Werte aus Paletten komplett zu löschen. Vielmehr
 lassen sich Werte per [Off] deaktivieren und können später wieder 
 aktiviert werden. Um einen Wert zu deaktivieren, klicken Sie diesen an 
-und drücken im Menü auf \[Off\] oder die Taste \<Off\>. Um ihn wieder zu
+und drücken im Menü auf <Keys.SoftKey>Off</Keys.SoftKey> oder die Taste <Keys.HardKey>Off</Keys.HardKey>. Um ihn wieder zu
 aktivieren, wählen Sie den Wert an (zeigt jetzt [Off]) und drücken im 
-Menü auf \[On\] oder wieder auf die Taste \<Off\> (die Taste \<Off\> 
+Menü auf <Keys.SoftKey>On</Keys.SoftKey> oder wieder auf die Taste <Keys.HardKey>Off</Keys.HardKey> (die Taste <Keys.HardKey>Off</Keys.HardKey> 
 schaltet den Wert ein oder aus).
 
 -   Enthält die Palette Verweise auf andere Paletten, so lässt sich mit
-    der Option \[View/Hide Nested Palettes\] einstellen, ob die
+    der Option <Keys.SoftKey>View/Hide Nested Palettes</Keys.SoftKey> einstellen, ob die
     tatsächlichen Werte oder aber die Legende der verknüpften Palette
     angezeigt wird.
 
 -   Enthält die Palette Shapes, so öffnet die Schaltfläche \[View
     Shapes\] die Shape-Anzeige mit allen enthaltenen Shapes und ihren
-    Parametern. Klickt man dort wiederum auf \[View\] ('Anzeigen'), so
+    Parametern. Klickt man dort wiederum auf <Keys.SoftKey>View</Keys.SoftKey> ('Anzeigen'), so
     öffnet sich die Shape-Geräteansicht **Shape Fixture View**, in der 
 	man die Parameter für einzelne Geräte ändern sowie mit **Add 
 	Fixtures** weitere Geräte hinzufügen kann.
 
 -   Enthält die Palette Pixelmapper-Effekte, so lassen sich diese mit
-    \[View Effects\] öffnen, anzeigen und editieren.
+    <Keys.SoftKey>View Effects</Keys.SoftKey> öffnen, anzeigen und editieren.
 
 Ändern des Inhalts einer Palette
 --------------------------------
 
 Um einen Eintrag einer Palette zu ändern, betätigen Sie die Taste
-\<Edit\> (\<Update Palette\> auf dem Pearl Expert und Tiger Touch mk1),
+<Keys.HardKey>Edit</Keys.HardKey> (<Keys.HardKey>Update Palette</Keys.HardKey> auf dem Pearl Expert und Tiger Touch mk1),
 wählen die zu ändernde Palette (bei normalen Paletten werden
 automatisch die enthaltenen Geräte angewählt; bei Shared Paletten das
 erste Gerät des entsprechenden Typs), nehmen die gewünschten Änderungen
-vor, und betätigen die Funktionstaste \[Update Palette x\], um die
+vor, und betätigen die Funktionstaste <Keys.SoftKey>Update Palette x</Keys.SoftKey>, um die
 Änderungen zu übernehmen.
 
-Mit der Taste \<Edit\> bzw. \<Update Palette\> lässt sich ebenso die 
+Mit der Taste <Keys.HardKey>Edit</Keys.HardKey> bzw. <Keys.HardKey>Update Palette</Keys.HardKey> lässt sich ebenso die 
 Bezeichnung und die Nummer der Palette ändern.
 
 Ebenso können Sie eine Palette auch für nur einzelne oder wenige Geräte
 aufrufen, modifizieren und die geänderten Werte wieder in die bestehende
 Palette speichern. Das Pult zeigt dabei Optionen zum Ersetzen (**Replace**),
-Kombinieren (**Merge**) oder **Quick Merge** der Paletten an. Wird \[Merge\]
+Kombinieren (**Merge**) oder **Quick Merge** der Paletten an. Wird <Keys.SoftKey>Merge</Keys.SoftKey>
 gewählt, so bleiben nicht veränderte Werte unberührt, während geänderte
 Werte zur Palette hinzugefügt werden. Quick Merge dagegen aktualisiert
 nur die Attribute, die in der originalen Palette bereits enthalten
@@ -89,9 +91,9 @@ Merge**.
     Farbpaletten für Mac 600 vorhanden, so lassen sich Farben für Mac
     500 hinzufügen, ohne die bereits gespeicherten Werte zu ändern.*
 
--   Zum Löschen von Attributen aus Paletten dient die Taste \<Off\>
-	sowie die Menütaste \[Off\], siehe voriger Abschnitt, sowie die
-	[\<Off\> -Funktion](../cues/editing-cues.md#deaktivieren-von-attributen-in-cues-mit-off).
+-   Zum Löschen von Attributen aus Paletten dient die Taste <Keys.HardKey>Off</Keys.HardKey>
+	sowie die Menütaste <Keys.SoftKey>Off</Keys.SoftKey>, siehe voriger Abschnitt, sowie die
+	[<Keys.HardKey>Off</Keys.HardKey> -Funktion](../cues/editing-cues.md#deaktivieren-von-attributen-in-cues-mit-off).
 
 -   Beim Ändern einer Palette bleibt der Inhalt des Programmierspeichers
     erhalten; nach dem Speichern der modifizierten Palette wird der
@@ -103,15 +105,15 @@ Aktualisieren von verwendeten Paletten
 
 Muss eine bereits verwendete Palette während der Show verändert werden,
 wenn z.B. der Grün-Ton nicht exakt die gewünschte Farbe trifft, so lässt
-sich das einfach per \<Update\> realisieren.
+sich das einfach per <Keys.HardKey>Update</Keys.HardKey> realisieren.
 
 1.  Während der Cue gestartet ist, wählen Sie die betreffenden Geräte
     aus und stellen den gewünschten Wert ein (*z.B. das richtige Grün*).
 
-2.  Drücken Sie \<Update\> (Pearl Expert: \<Record Cue\>, \[Update\])
+2.  Drücken Sie <Keys.HardKey>Update</Keys.HardKey> (Pearl Expert: <Keys.HardKey>Record Cue</Keys.HardKey>, <Keys.SoftKey>Update</Keys.SoftKey>)
 
 3.  Im Bildschirm werden die Paletten und Cues, die zum gestarteten Cue
     gehören und upgedated werden können, angezeigt.
 
 4.  Wählen Sie mit den Menütasten, was upgedatet werden soll, und drücken 
-	Sie nochmals \<Update\>.
+	Sie nochmals <Keys.HardKey>Update</Keys.HardKey>.

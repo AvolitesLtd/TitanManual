@@ -5,6 +5,8 @@ sidebar_label: Controlling Fixtures over a Network
 original_id: controlling-fixtures-over-a-network
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Bevor das Pult mit anderen Geräten über ein Netzwerk kommunizieren kann,
 muss es eine eindeutige Netzwerkadresse bekommen; diese wird
 'IP-Adresse' genannt.
@@ -18,23 +20,23 @@ Windows-Systemsteuerung vornehmen. Siehe [Einstellen der IP-Adresse](a-quick-gui
 Details zur IP-Adressierung.
 
 1. 	Schalten Sie das Pult in den 'System'-Modus und drücken Sie
-	\[Network Settings\].
+	<Keys.SoftKey>Network Settings</Keys.SoftKey>.
 
-2.	Drücken Sie \[Local Area Connection\].
+2.	Drücken Sie <Keys.SoftKey>Local Area Connection</Keys.SoftKey>.
 
-3.	Drücken Sie \[Subnet Mask\] und setzen Sie diese auf `255.255.255.0`.
+3.	Drücken Sie <Keys.SoftKey>Subnet Mask</Keys.SoftKey> und setzen Sie diese auf `255.255.255.0`.
 
-4.	Drücken Sie \[Set IP `2.*.*.*`\].
+4.	Drücken Sie <Keys.SoftKey>Set IP `2.*.*.*`</Keys.SoftKey>.
 
-5.	Betätigen Sie \[Save settings\].
+5.	Betätigen Sie <Keys.SoftKey>Save settings</Keys.SoftKey>.
 
-6.	Verlassen Sie den System-Modus mit \<Exit\>.
+6.	Verlassen Sie den System-Modus mit <Keys.HardKey>Exit</Keys.HardKey>.
 
 - 	Einige Geräte benötigen möglicherweise IP-Adressen aus dem 
 	Bereich `10.*.*.*` -- dazu unten mehr.
 
 -   Benötigen Sie einen nicht vorbelegten IP-Adressbereich, so drücken
-	Sie auf \[IP Address = ... \] und geben die Adresse mit den Zifferntasten ein.
+	Sie auf <Keys.SoftKey>IP Address = ... </Keys.SoftKey> und geben die Adresse mit den Zifferntasten ein.
 
 Einrichten der DMX-Ausgänge
 ---------------------------
@@ -185,12 +187,12 @@ Verbinden Sie alles ordnungsgemäß, und starten Sie das Pult.
 	2 auf 2. (Art-Net benutzt eine Subnetz-Maske für die Universen. Für die
 	Titan-Pulte gilt: Die Titan-Universen 1 - 16 sind Subnetz-Maske 0 und Art-Net-Universen 1 - 16).
 
-14. Schließen Sie zum Schluss mit \<Exit\> das DMX-Fenster.
+14. Schließen Sie zum Schluss mit <Keys.HardKey>Exit</Keys.HardKey> das DMX-Fenster.
 
 Das Pult ist nun korrekt konfiguriert.
 
 Um einen Knoten von einer DMX-Linie zu entfernen, klicken Sie auf die
-betreffende Schaltfläche \[X\].
+betreffende Schaltfläche <Keys.SoftKey>X</Keys.SoftKey>.
 
 Als mögliche Art-Net-Geräte werden ggf. auch \"Unpolled\" oder
 \"Unknown\" angezeigt:

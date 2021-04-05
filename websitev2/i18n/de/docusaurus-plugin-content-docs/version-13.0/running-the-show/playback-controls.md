@@ -5,6 +5,8 @@ sidebar_label: Playback controls
 original_id: playback-controls
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Sichern der Show
 ----------------
 
@@ -53,17 +55,17 @@ Funktionsbereiche verwendet werden:
     vorprogrammierten Playbacks.
 
 Um einzelne Regler mit einer Master-Funktion zu belegen, schalten
-Sie in den System-Modus und wählen \[Assign Masters\]. Ebenso geht
-dies per \<Record\> \[Create Master\].
+Sie in den System-Modus und wählen <Keys.SoftKey>Assign Masters</Keys.SoftKey>. Ebenso geht
+dies per <Keys.HardKey>Record</Keys.HardKey> <Keys.SoftKey>Create Master</Keys.SoftKey>.
 
 Als Voreinstellung haben Masterfader einen ‚Transparent Lock', d.h.
 werden auf alle Seiten eingeblendet, auf denen der betreffende Fader
-nicht belegt ist. Um dies zu ändern, wählen Sie \[Playback Options\]
+nicht belegt ist. Um dies zu ändern, wählen Sie <Keys.SoftKey>Playback Options</Keys.SoftKey>
 und die Auswahltaste des Masterfaders, und stellen wie gewünscht um.
 
 Auf dem Arena bieten sich zudem die Dreh-Encoder beim kleinen Display
 etwa als Speed- oder Gruppen-Master an. Um diese Fader anzuwählen,
-werden drücken sie gedrückt. Mit der Taste \<Display\> unterhalb der
+werden drücken sie gedrückt. Mit der Taste <Keys.HardKey>Display</Keys.HardKey> unterhalb der
 Encoder kann man die Anzeige so einstellen, dass die Belegung der
 Encoder angezeigt wird (mit dieser Taste wird durch vier Anzeigemodi 
 durchgeschaltet).
@@ -87,9 +89,9 @@ BPM) sowie vier Size-Master. So kann man z.B. eined Ratemaster für
 Positions-Shapes und einen anderen für Dimmershapes verwenden.
 
 Zum Zuweisen eines Playbacks zu einem Speed- oder Size-Master drücken
-Sie \[Playback Options\], wählen das jeweilige Playback (blaue Taste
-oder Schaltfläche), und drücken dann \[Effects\] und \[Speed Source\]
-bzw. \[Size Source\]. Folgende Optionen sind verfügbar:
+Sie <Keys.SoftKey>Playback Options</Keys.SoftKey>, wählen das jeweilige Playback (blaue Taste
+oder Schaltfläche), und drücken dann <Keys.SoftKey>Effects</Keys.SoftKey> und <Keys.SoftKey>Speed Source</Keys.SoftKey>
+bzw. <Keys.SoftKey>Size Source</Keys.SoftKey>. Folgende Optionen sind verfügbar:
 
 -   Free Run (keine Steuerung über Speed-Master -- Effekte laufen so
     schnell wie programmiert)
@@ -108,8 +110,8 @@ Rate-Master - nicht die BPM-Master - proportional beeinflusst.
 
 Um die Speed- bzw. Size-Master verwenden zu können, müssen diese auch
 jeweils auf einen Fader gelegt werden. Schalten Sie das Pult dazu in den
-System-Modus und wählen \[Assign Masters\]. Alternativ geht das per
-\<Record\> \[Create Master\]. Für Speedmaster stehen auch gesonderte
+System-Modus und wählen <Keys.SoftKey>Assign Masters</Keys.SoftKey>. Alternativ geht das per
+<Keys.HardKey>Record</Keys.HardKey> <Keys.SoftKey>Create Master</Keys.SoftKey>. Für Speedmaster stehen auch gesonderte
 Tastenprofile zur Verfügung; BPM-Master haben als Vorgabewert die
 Takt-Taste (Tap Tempo).
 
@@ -117,13 +119,13 @@ Speed- und Size-Master können verschiedene Skalen (Wertebereiche) haben:
 0-100%, 0-200% etc. So kann man z.B. mit der Skala 0-200% den Master auf
 Mittelstellung bringen (100%) und davon ausgehend die beeinflussten
 Effekte größer/schneller oder langsamer/kleiner machen. Die Skala wählt
-man mit den \[Playback-Optionen\] des Masterreglers.
+man mit den <Keys.SoftKey>Playback-Optionen</Keys.SoftKey> des Masterreglers.
 
 ### Optionen für BPM-Master
 
 Für BPM-Master lassen sich Faktoren/Teiler einstellen, die bestimmen,
 wie das getappte Tempo auf die BPM-Rate konvertiert wird. Um dieses
-Verhältnis zu ändern, drücken Sie \[Playback Options\] und wählen den
+Verhältnis zu ändern, drücken Sie <Keys.SoftKey>Playback Options</Keys.SoftKey> und wählen den
 Masterregler aus, den Sie ändern möchten.
 
 Normalerweise liegt die BPM-Rate auf dem Fader, eine der Tasten dient
@@ -133,17 +135,17 @@ blauer Select-Taste anwenden.
 BPM-Master, Fader steuert BPM:
 ![BPM Master on playback](/docs/images/BPM-Master-on-playback.png)   
 
-Mit der Option \[BPM On Fader\]/\[Multiplier on Fader\] steuert der
+Mit der Option <Keys.SoftKey>BPM On Fader</Keys.SoftKey>/<Keys.SoftKey>Multiplier on Fader</Keys.SoftKey> steuert der
 Fader alternativ den Faktor/Teiler, und die BPM-Rate wird nur per Tap
 eingestellt. 
 
 BPM-Master, Fader steuert Teiler/Faktor:
 ![BPM Master multiplier on fader](/docs/images/BPM-Master-multiplier-on-fader.png)
 
-Mit \[Multiplier Scale\] wird der Faderbereich für den Faktor/Teiler
+Mit <Keys.SoftKey>Multiplier Scale</Keys.SoftKey> wird der Faderbereich für den Faktor/Teiler
 eingestellt (von x2\~/2 bis x32\~/32).
 
-Mit \[Keep Multiplier On Tap\]/\[Reset Multiplier On Tap\] lässt sich
+Mit <Keys.SoftKey>Keep Multiplier On Tap</Keys.SoftKey>/<Keys.SoftKey>Reset Multiplier On Tap</Keys.SoftKey> lässt sich
 einstellen, dass beim erneuten Tappen der Faktor/Teiler wieder auf x1
 zurückgesetzt wird.
 
@@ -158,15 +160,15 @@ den Rate Grand Master beeinflusst.
 ### Rate/BPM-Master mit den Encodern steuern
 
 Es ist möglich, die Wheels mit Rate- und BPM-Mastern zu verbinden
-(connecten). Drücken Sie \<Cue\> (bzw. \<Connect\>), gefolgt von dem
+(connecten). Drücken Sie <Keys.HardKey>Cue</Keys.HardKey> (bzw. <Keys.HardKey>Connect</Keys.HardKey>), gefolgt von dem
 betreffenden Master, so lässt sich die Rate (bei einem Rate Master)
 sowie BPM und "Edge Sync" (bei einem BPM-Master, zum genauen Abgleich
 auf den Beat) mit den Encodern einstellen.
 
 Auch hierbei kann man die Werte durch Klicken im Attribut-Bereich des
-Displays verändern. Ebenso steht mit den \<@\>-Tasten bei den Encodern das
+Displays verändern. Ebenso steht mit den <Keys.HardKey>@</Keys.HardKey>-Tasten bei den Encodern das
 @-Menü zur Verfügung, mit dem man den gewünschten Wert numerisch
-eingeben oder mit \[Release\] wieder auf den vorher eingestellten Wert
+eingeben oder mit <Keys.SoftKey>Release</Keys.SoftKey> wieder auf den vorher eingestellten Wert
 zurücksetzen kann.
 
 >   Mittels [Tastenprofilen (Key Profiles)](../system-settings/key-profiles.md)
@@ -191,13 +193,13 @@ Gruppenmaster
 Jeder Gruppe von Geräten kann ein Fader als Masterregler zugewiesen
 werden, der dann die Helligkeit aller Geräte in der Gruppe beeinflusst.
 Dazu ist ganz einfach die Gruppe auf einen Speicherplatz mit Fader zu
-speichern (oder mit \<Move\> dorthin zu verschieben).
+speichern (oder mit <Keys.HardKey>Move</Keys.HardKey> dorthin zu verschieben).
 
 Die blaue Taste des Faders dient dann als Auswahltaste für die Gruppe;
 hält man sie gedrückt, kann man mittels der Menütasten Geräte nach
 verschiedenen Mustern auswählen.
 
-Mittels \[Playback Options\], gefolgt von der entsprechenden
+Mittels <Keys.SoftKey>Playback Options</Keys.SoftKey>, gefolgt von der entsprechenden
 Playback-Auswahltaste, kann man die genaue Arbeitsweise des
 Gruppenmasters wählen:
 
@@ -244,7 +246,7 @@ Mittels [Tastenprofilen (Key Profiles)](../system-settings/key-profiles.md)
 Ist ein Flash-Master definiert, so steuert dieser auch den Flash-Pegel
 für das Flashen der Gruppen-Master.
 
->   Mit \<Release\>, \[Release All Masters\] lassen sich alle Master auf
+>   Mit <Keys.HardKey>Release</Keys.HardKey>, <Keys.SoftKey>Release All Masters</Keys.SoftKey> lassen sich alle Master auf
     einmal releasen. Das kann sinnvoll sein, wenn etwas durch einen Master
 	gesteuert wird, aber unklar ist, durch welchen.
 
@@ -258,7 +260,7 @@ komplette Szenen vorzubereiten (unter Verwendung von Cues, Paletten
 verschiedenen Zeiten etc.) und diese dann alle auf einmal zu starten.
 
 Der Scene Master wird wie die anderen Master auch entweder per \[Assign
-Masters\] im System-Menü oder via \<Record\>, \[Create Master\] erstellt.
+Masters\] im System-Menü oder via <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Create Master</Keys.SoftKey> erstellt.
 Der Scene Master befindet sich zunächst im Live-Modus, womit
 alle Steuerungen wie gewohnt arbeiten (Geräte auswählen, Paletten
 anwenden, Playbacks starten etc.).
@@ -286,18 +288,18 @@ Normalerweise schaltet sich die Funktionsrichtung des Scene Masters um,
 sobald er einen Endpunkt (100% oder 0%) erreicht, so dass man einfach
 den nächsten Look einstellen, dann einfaden, und von neuem beginnen
 kann. Ebenso lässt sich einstellen, dass man den Fader jedes Mal erst
-wieder auf 0 bringen muss. Dies erreicht man über \[Playback Options\]
+wieder auf 0 bringen muss. Dies erreicht man über <Keys.SoftKey>Playback Options</Keys.SoftKey>
 und wählt den Scene Master. Es gibt folgende Optionen:
 
--   \[Auto Commit and Invert\]: damit wird jeweils beim Erreichen von
+-   <Keys.SoftKey>Auto Commit and Invert</Keys.SoftKey>: damit wird jeweils beim Erreichen von
     100% und 0% Faderstellung die (nächste) vorbereitete Szene live
     geschaltet und mit der nächsten Faderfahrt eingeblendet.
 
--   \[Auto Commit\] ist ganz ähnlich, allerdings wird die nächste Szene
+-   <Keys.SoftKey>Auto Commit</Keys.SoftKey> ist ganz ähnlich, allerdings wird die nächste Szene
     immer nur bei 0% Faderstellung aktiviert, so dass man auch von 100%
     erst wieder herunterfaden muss.
 
--   Bei \[Manual Commit\] schließlich wird die Szene gar nicht per Fader
+-   Bei <Keys.SoftKey>Manual Commit</Keys.SoftKey> schließlich wird die Szene gar nicht per Fader
     aktiviert, sondern muss per Taste aktiviert werden, wozu eine
     entsprechende Funktion etwa mit der grauen Taste verknüpft sein muss
     (über Tastenprofile, s.u.). etwa mit den Tastenfunktionen \[Commit
@@ -307,26 +309,26 @@ und wählt den Scene Master. Es gibt folgende Optionen:
     aktivieren).
 
 Der Scene Master kann auch auf einer taste oder einem Button im Display
-liegen. In diesem Fall dient die Kombination \<Avo\> + \[Scene Master\]
-bzw. \<Release\> + \[Scene Master\] zum Starten oder Verlassen des
+liegen. In diesem Fall dient die Kombination <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Scene Master</Keys.SoftKey>
+bzw. <Keys.HardKey>Release</Keys.HardKey> + <Keys.SoftKey>Scene Master</Keys.SoftKey> zum Starten oder Verlassen des
 Preset Modus; einfaches Betätigen der Taste/des Buttons macht einen
 Commit. Der Status lässt sich im entsprechenden Fenster (z.B. Playbacks
 oder Static Playbacks) überwachen.
 
 Den Tasten des Scene Masters lassen sich verschiedene Funktionen per
-Tastenprofil zuweisen: \[Commit Changes\] (Szene aktivieren), \[Commit
+Tastenprofil zuweisen: <Keys.SoftKey>Commit Changes</Keys.SoftKey> (Szene aktivieren), \[Commit
 Changes and Exit scene Mode\](Szene Aktivieren und Preset-Modus
-verlassen) oder \[Enters or Commits scene Mode\] (Preset-Modus
+verlassen) oder <Keys.SoftKey>Enters or Commits scene Mode</Keys.SoftKey> (Preset-Modus
 aktivieren oder Szene aktivieren).	
 
 Flash- und Swop-Tasten
 ----------------------
 
 Die Flash- (Add) und Swop-Tasten bei jedem Regler dienen zum jederzeitigen
-Abruf von Cues und Chasern. Die \<Flash\>-Taste addiert dabei den
+Abruf von Cues und Chasern. Die <Keys.HardKey>Flash</Keys.HardKey>-Taste addiert dabei den
 jeweiligen Inhalt mit 100% zum sonstigen Output, während die
-\<Swop\>-Taste gleichzeitig alle anderen Cues/Chaser vorübergehend
-dunkeltastet (Solo-Funktion). Die \<Flash\>-Taste lässt sich auch in die
+<Keys.HardKey>Swop</Keys.HardKey>-Taste gleichzeitig alle anderen Cues/Chaser vorübergehend
+dunkeltastet (Solo-Funktion). Die <Keys.HardKey>Flash</Keys.HardKey>-Taste lässt sich auch in die
 Betriebsart 'Flash With Times' schalten: dann werden beim Flashen im Cue
 programmierte Zeiten berücksichtigt.
 
@@ -338,8 +340,8 @@ selbst bewegt wird, so dass z.B. keine Bewegungen 'im On' stattfinden
 (das geht nur für Geräte, die nicht gerade in anderen aktiven
 Cues/Chasern verwendet sind). Ebenso lassen sich die Funktionen 'Stop'
 und 'Go' für Cuelisten und Chaser auf diese Tasten legen. Um die
-Tastenbelegung rasch zu ändern, halten Sie die \<AVO\>-Taste gedrückt
-und betätigen die Funktion \[Edit Key Profile\].
+Tastenbelegung rasch zu ändern, halten Sie die <Keys.HardKey>AVO</Keys.HardKey>-Taste gedrückt
+und betätigen die Funktion <Keys.SoftKey>Edit Key Profile</Keys.SoftKey>.
 
 ![Playback Faders with key profiles applied](/docs/images/Playback-Faders-with-key-profiles-applied.png)
 
@@ -377,13 +379,13 @@ Mitunter möchte man einen Fader 'fixieren', so dass er unabhängig vom
 Wechsel der Seiten stets verfügbar bleibt. Dies bietet sich z.B. an,
 wenn man ein paar allgemeine Cues hat, die auf jeder Seite benötigt
 werden, ohne dass man diese extra kopieren muss. Erreicht wird dies
-über die Einstellung \[Handle Paging\] in den \[Playback Options\].
+über die Einstellung <Keys.SoftKey>Handle Paging</Keys.SoftKey> in den <Keys.SoftKey>Playback Options</Keys.SoftKey>.
 
--   \[Locked\] (Verriegelt) blendet das betreffenden Playback auf sämtlichen
+-   <Keys.SoftKey>Locked</Keys.SoftKey> (Verriegelt) blendet das betreffenden Playback auf sämtlichen
 	anderen Seiten ein; was ggf. anderswo auf diesen Fader programmiert
 	ist, ist damit nicht erreichbar.
 
--   Bei \[Transparent Lock\] erscheint das Playback an seinem Platz
+-   Bei <Keys.SoftKey>Transparent Lock</Keys.SoftKey> erscheint das Playback an seinem Platz
 	nur auf den Seiten, auf denen der Fader nicht schon anderweitig 
 	belegt ist.
 
@@ -401,8 +403,8 @@ Im Fenster ‚Active Playbacks' werden die aktuell aktiven Playbacks/
 Speicherplätze angezeigt. Damit hat man einen schnellen Überblick,
 welche Cues gerade aktiv sind, wo sie gestartet wurden und welche
 Attribute dadurch gesteuert werden. Zum Aufrufen dieses Fensters wählen
-Sie \[Open Workspace Window\], \[Active Playbacks\] oder nutzen die 
-Tastenkombination \<View / Open\> + \<Off\>.
+Sie <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>, <Keys.SoftKey>Active Playbacks</Keys.SoftKey> oder nutzen die 
+Tastenkombination <Keys.HardKey>View / Open</Keys.HardKey> + <Keys.HardKey>Off</Keys.HardKey>.
 
 In der ersten Zeile jedes Buttons steht dabei, wo (in welchem 
 Fenster/auf welchem Fader) das Playback zu finden ist. Die zweite 
@@ -412,7 +414,7 @@ die gesteuerten Attribute.
 ![Active Playbacks Windown](/docs/images/Active-Playbacks-Window.png)
 
 Klickt man eine der Schaltflächen an, so wird das betreffende Playback
-sofort deaktiviert. Betätigt man \[Playback Options\], gefolgt von einer
+sofort deaktiviert. Betätigt man <Keys.SoftKey>Playback Options</Keys.SoftKey>, gefolgt von einer
 der Playback-Schaltflächen, so kann man die jeweiligen Parameter ändern.
 
 Blind-Modus
@@ -421,12 +423,12 @@ Blind-Modus
 Sollen noch schnell ein paar kleine Änderungen an Cues oder Paletten mit
 Hilfe des Visualisers vorgenommen werden, ohne den Live-Betrieb zu
 stören, lässt sich das Pult auch in den Blind-Modus schalten. Dazu
-drückt man die Taste \<Blind\> (ältere Pulte verfügen nicht über diese
--- in diesem Fall hält man \<Avo\> gedrückt und wählt den Menüpunkt
-\[Blind\]).
+drückt man die Taste <Keys.HardKey>Blind</Keys.HardKey> (ältere Pulte verfügen nicht über diese
+-- in diesem Fall hält man <Keys.HardKey>Avo</Keys.HardKey> gedrückt und wählt den Menüpunkt
+<Keys.SoftKey>Blind</Keys.SoftKey>).
 
 Um ein Playback zu überprüfen, muss man das Playback selbst Blind
-schalten. Dazu hält man die \<Blind\>-Taste und drückt die blaue
+schalten. Dazu hält man die <Keys.HardKey>Blind</Keys.HardKey>-Taste und drückt die blaue
 Playback-Taste. Um das Playback wieder Live zu schalten, geht man
 genauso vor. Playbacks können auch über die Playback-Optionen Blind
 geschaltet werden.
@@ -438,7 +440,7 @@ mehreren Paletten kombinieren und dann in diese einfaden. (Noch
 einfacher geht das mit dem Szenenmaster).
 
 Um überzublenden, tippen Sie mit den Zifferntasten die gewünschte Zeit
-in Sekunden ein und drücken die \<Blind\>-Taste.
+in Sekunden ein und drücken die <Keys.HardKey>Blind</Keys.HardKey>-Taste.
 
 Sind im Programmer Attribut-Zeiten gesetzt worden, so haben diese
 Vorrang vor der manuell eingegebenen Zeit.
@@ -456,7 +458,7 @@ man gibt beim Palettenabruf eine Zeit vor.
 
 1.  Wählen Sie einige der bereits verwendeten Geräte aus.
 
-2.  Geben Sie mit den Zifferntasten einen Wert wie z.B. \<2\> ein
+2.  Geben Sie mit den Zifferntasten einen Wert wie z.B. <Keys.HardKey>2</Keys.HardKey> ein
 	(Überblendzeit, in Sekunden).
 
 3.  Drücken Sie die Schaltfläche einer Palette, um sie aufzurufen.
@@ -466,14 +468,14 @@ man gibt beim Palettenabruf eine Zeit vor.
 
 Enthält eine Palette Zeitvorgaben, so kann man mittels Tastenprofil der
 Palettenschaltflächen bestimmen, ob diese Zeiten beim Improvisieren
-berücksichtigt werden sollen oder nicht. Dazu drücken Sie \<Avo\>+\[Key
-Profiles\], dann \[Palettes\]. Die möglichen Optionen sind \[Palette is
-fired ignoring its times\] und \[Palette is fired with its times\].
+berücksichtigt werden sollen oder nicht. Dazu drücken Sie <Keys.HardKey>Avo</Keys.HardKey>+\[Key
+Profiles\], dann <Keys.SoftKey>Palettes</Keys.SoftKey>. Die möglichen Optionen sind \[Palette is
+fired ignoring its times\] und <Keys.SoftKey>Palette is fired with its times</Keys.SoftKey>.
 Manuell eingegebene Zeiten überschreiben stets in der Palette 
 gespeicherte Zeiten.
 
 Wird manuell eine Überblendzeit eingegeben, lässt sich ebenso der
-'Geräteversatz' einstellen (mit Menütaste C \[Overlap... \]). Damit
+'Geräteversatz' einstellen (mit Menütaste C <Keys.SoftKey>Overlap... </Keys.SoftKey>). Damit
 lassen sich etwa Effekte wie 'Rollen' oder 'Abziehen' realisieren. Bei
 'overlap'= 100% wechseln alle Geräte gleichzeitig; bei 'overlap'=50%
 beginnt das zweite Gerät mit dem Überblenden, sobald das erste zur
@@ -483,8 +485,8 @@ bestimmt sich aus der Reihenfolge, in der die Geräte ausgewählt wurden.
 Eine so eingegebene Paletten-Fadezeit und Overlap gelten nur einmalig 
 für den unmittelbar nächsten Palettenabruf. Sollen bis zur nächsten
 Änderung Fadezeit und Overlap festgelegt werden, so erfolgt dies im 
-**Menü Palettes**: drücken Sie dazu die Taste \<Palette\> und geben Sie
-die gewünschten Werte mit den Menütasten \[Master Time\] und \[Master
+**Menü Palettes**: drücken Sie dazu die Taste <Keys.HardKey>Palette</Keys.HardKey> und geben Sie
+die gewünschten Werte mit den Menütasten <Keys.SoftKey>Master Time</Keys.SoftKey> und \[Master
 Overlap\] ein. Es gibt ferner etliche Macros für die häufig genutzten
 Werte, um Master Time und Master Overlap mit nur einem Tastendruck zu
 ändern, siehe [Master-Zeit für Paletten](../palettes/timing-with-palettes#master-zeit-für-paletten).
@@ -496,7 +498,7 @@ blauer Cue gestartet, so werden die Geräte blau). Werden dagegen erst
 Geräte/Gruppen ausgewählt und dann eine Palette aufgerufen, so wird sie
 im Programmierspeicher abgelegt und überlagert alle folgenden Cues
 (wird also eine grüne Palette aufgerufen, so bleiben die Geräte grün,
-bis \<Clear\> gedrückt wird).
+bis <Keys.HardKey>Clear</Keys.HardKey> gedrückt wird).
 
 Beim Programmieren der Paletten empfiehlt es sich, z.B. alle
 Farbpaletten in einem Bereich, alle Positionspaletten in einem anderen

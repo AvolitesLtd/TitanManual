@@ -5,6 +5,8 @@ sidebar_label: Titan Simulator
 original_id: titan-simulator
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Soll vorab programmiert oder eine Show angepasst werden, ohne bereits
 ein Pult zu verwenden? Kein Problem, genau dazu dient der Titan
 Simulator. Damit lassen sich auf jedem normalen PC alle Typen von

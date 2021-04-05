@@ -5,6 +5,8 @@ sidebar_label: Multi-user Operation
 original_id: multi-user-operation
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Es lassen sich mehrere Pulte zum gemeinsamen Steuern einer Show
 verbinden. Ebenso lassen sich mehrere Benutzer - auch auf ein und
 demselben Pult - anlegen, etwa mit verschiedenen Tastenanordnungen oder
@@ -28,19 +30,19 @@ sein Tastenprofil werden im Display angezeigt.
 Das Ändern und Neuanlegen von Benutzern erfolgt im Menü 'Users'
 (Benutzer).
 
-1.  Drücken Sie die Taste \<Disk\>.
+1.  Drücken Sie die Taste <Keys.HardKey>Disk</Keys.HardKey>.
 
-2.  Klicken Sie auf \[Users\].
+2.  Klicken Sie auf <Keys.SoftKey>Users</Keys.SoftKey>.
 
 3.  Um zu einem anderen Benutzer zu wechseln, klicken Sie auf \[Change
 Current User\] und wählen einen anderen Benutzer (der momentan aktuelle
 Benutzer ist markiert).
 
-4.  Um einen neuen Benutzer anzulegen, wählen Sie \[Add a User\], geben
-einen Namen ein und drücken Sie \[OK\].
+4.  Um einen neuen Benutzer anzulegen, wählen Sie <Keys.SoftKey>Add a User</Keys.SoftKey>, geben
+einen Namen ein und drücken Sie <Keys.SoftKey>OK</Keys.SoftKey>.
 
 5.  Ebenso kann man schnell im Hauptmenü den Benutzer wechseln: halten
-Sie die \<Avo\>-Taste gedrückt und wählen Sie aus dem Menü \[User ... \]
+Sie die <Keys.HardKey>Avo</Keys.HardKey>-Taste gedrückt und wählen Sie aus dem Menü <Keys.SoftKey>User ... </Keys.SoftKey>
 
 -   Wird mit mehreren Konsolen gleichzeitig an der Show gearbeitet, so
     erscheint ein neu angelegter Benutzer automatisch auch auf den
@@ -62,18 +64,18 @@ für die Handle World ist "Mapping World 1".
 
 Das Verwalten der Handle Worlds erfolgt ebenfalls im Menü "Disk":
 
-1.  Drücken Sie die Taste \<Disk\>.
+1.  Drücken Sie die Taste <Keys.HardKey>Disk</Keys.HardKey>.
 
-2.  Klicken Sie auf \[Handle Worlds\].
+2.  Klicken Sie auf <Keys.SoftKey>Handle Worlds</Keys.SoftKey>.
 
-3.  Zum Wechseln der Handle World klicken Sie \[Select Handle World\]
+3.  Zum Wechseln der Handle World klicken Sie <Keys.SoftKey>Select Handle World</Keys.SoftKey>
 und wählen aus der Liste eine andere Handle World (die momentan aktive
 ist markiert).
 
 4.  Um eine neue Handle World anzulegen, wählen Sie \[Add Handle
-World\], geben eine Namen ein und klicken \[OK\].
+World\], geben eine Namen ein und klicken <Keys.SoftKey>OK</Keys.SoftKey>.
 
-5.  Mit \[Delete Handle World\] wird die Handle World gelöscht;
+5.  Mit <Keys.SoftKey>Delete Handle World</Keys.SoftKey> wird die Handle World gelöscht;
 Schaltflächen, die nur in dieser verwendet wurden, sind nur noch über
 das Show-Verzeichnis (Show Library) erreichbar und können bei Bedarf neu
 zugeordnet werden.
@@ -82,7 +84,7 @@ zugeordnet werden.
     Show-Verzeichnis (Show Library) erreichbar und können in der eigenen
     Handle World neu zugeordnet werden.
 
--   Die Option \[Follow World Page Change\] bestimmt, ob auf anderen
+-   Die Option <Keys.SoftKey>Follow World Page Change</Keys.SoftKey> bestimmt, ob auf anderen
     Pulten, die in der gleichen Handle World arbeiten, die Seiten der
     Speicherplätze synchron gewechselt werden.
 
@@ -100,16 +102,16 @@ eingebunden.
 Details zur Einrichtung des Netzwerkbetriebs mehrerer Pult siehe
 [Netzwerk einrichten](../networking.md).
 
-1.  Drücken Sie die Taste \<Disk\>.
+1.  Drücken Sie die Taste <Keys.HardKey>Disk</Keys.HardKey>.
 
-2.  Klicken Sie auf \[TitanNet Sessions\].
+2.  Klicken Sie auf <Keys.SoftKey>TitanNet Sessions</Keys.SoftKey>.
 
-3.  Mit \[Sessions View\] erhält man ein Fenster mit einer Übersicht,
+3.  Mit <Keys.SoftKey>Sessions View</Keys.SoftKey> erhält man ein Fenster mit einer Übersicht,
 wie das Pult gerade mit anderen Pulten verbunden ist bzw. welche
 TitanNet-Sessions verfügbar sind. Zum Verbinden klicken Sie im Display
-auf das Symbol eines anderen Pultes und wählen \[Connect\].
+auf das Symbol eines anderen Pultes und wählen <Keys.SoftKey>Connect</Keys.SoftKey>.
 
-4.  Oder Sie wählen \[Backup\], \[Multi-User\] oder \[Backup &
+4.  Oder Sie wählen <Keys.SoftKey>Backup</Keys.SoftKey>, <Keys.SoftKey>Multi-User</Keys.SoftKey> oder \[Backup &
 Multi-User\] -- auch hier werden momentan verfügbare Sessions angezeigt.
 Klicken Sie auf eine Session, um sich mit dieser zu verbinden.
 
@@ -148,13 +150,13 @@ Klicken Sie auf eine Session, um sich mit dieser zu verbinden.
 	das Gerät, an dem die letzte Änderung vorgenommen wurde.
 
 	Slave-Pulte können die Session jederzeit verlassen: entweder per
-	Schaltfläche \[Leave Session\] in der Sessions-Ansicht oder im
+	Schaltfläche <Keys.SoftKey>Leave Session</Keys.SoftKey> in der Sessions-Ansicht oder im
 	TitanNet-Menü. Nach dem Verlassen der Session wird die Show geladen, die
 	vor dem Beitritt zur Session aktiv war. Auf Master-Pulten gibt es
-	hingegen die Option \[Terminate Session\] (Session beenden).
+	hingegen die Option <Keys.SoftKey>Terminate Session</Keys.SoftKey> (Session beenden).
 
-	Läuft ein Pult als [Backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#pulte-für-den-backup-betrieb-einrichten), so gibt es die Optionen \[Takeover\], \[Sync
-	now\] und \[Leave Session\]. Mit \[Takeover\] kann die Show übernommen
+	Läuft ein Pult als [Backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#pulte-für-den-backup-betrieb-einrichten), so gibt es die Optionen <Keys.SoftKey>Takeover</Keys.SoftKey>, \[Sync
+	now\] und <Keys.SoftKey>Leave Session</Keys.SoftKey>. Mit <Keys.SoftKey>Takeover</Keys.SoftKey> kann die Show übernommen
 	werden: dieses Pult wird nun Master und gibt DMX aus, der am Masterpult
 	aktive Benutzer und die Handle World werden nun an diesem neuen Master
 	aktiviert. Die DMX-Ausgabe des vorherigen Masters wird deaktiviert.

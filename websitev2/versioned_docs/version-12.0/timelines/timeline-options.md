@@ -4,8 +4,10 @@ title: Timeline Options
 sidebar_label: Timeline options
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Timelines have a number of options which set how they operate.
-Press \<Options\> (or the \[Options\] softkey on the top level menu) then the **select** button for the timeline you wish to edit.
+Press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey on the top level menu) then the **select** button for the timeline you wish to edit.
 The default setting is shown in **bold**.
 
 ---
@@ -89,7 +91,7 @@ Timecode Source Unlinked | This is the same as the Link button in the timeline v
 
 ## Time options
 
-You can also set some options from the Edit Times menu - press \<Time\> (or the \[Edit Times\] softkey on the top level menu) then the **select** button for the timeline you wish to edit.
+You can also set some options from the Edit Times menu - press <Keys.HardKey>Time</Keys.HardKey> (or the <Keys.SoftKey>Edit Times</Keys.SoftKey> softkey on the top level menu) then the **select** button for the timeline you wish to edit.
 
 ### Set Offset
 
@@ -97,9 +99,9 @@ If the timecode you are using has a large offset or you have been given cue timi
 with the timecode source, you can set an offset to make the cues match up instead of having to change
 all the timings. You can also enter small offsets of a few frames if the lighting cues are not quite synchronised properly.
 
-1. In the Edit Times menu press \[Set Offset\].
-2. Using the \[Nudge Amount\] softkey enter a time amount to change the offset by.
-3. Press the \[Add\] or \[Subtract\] softkeys to change the current offset by the amount you set.
+1. In the Edit Times menu press <Keys.SoftKey>Set Offset</Keys.SoftKey>.
+2. Using the <Keys.SoftKey>Nudge Amount</Keys.SoftKey> softkey enter a time amount to change the offset by.
+3. Press the <Keys.SoftKey>Add</Keys.SoftKey> or <Keys.SoftKey>Subtract</Keys.SoftKey> softkeys to change the current offset by the amount you set.
 4. The current offset time is shown in the prompt area while you are setting it.
 
 Once an offset has been set it is shown below the main timecode display in the Timeline View. In the

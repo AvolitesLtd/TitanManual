@@ -5,6 +5,8 @@ sidebar_label: Timing with Palettes
 original_id: timing-with-palettes
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 [Paletten können gleich mit Zeiten gespeichert werden](creating-palettes.md#erstellen-einer-palette-mit-zeiten);
 alternativ kann beim Abruf einer Palette eine Zeit vorgegeben oder die
 gespeicherte überschrieben werden.
@@ -24,8 +26,8 @@ per Tastenprofil aktiviert werden, was insbesondere beim [Improvisieren
 (Busking) mit Paletten](../running-the-show/playback-controls#improvisieren-busking-mit-paletten) 
 interessante Möglichkeiten eröffnet. Dazu ändern
 Sie die [Einstellung (Key Profiles für Paletten)](../system-settings/key-profiles#palettes) 
-\[Palette Is Fired Ignoring Its Times\] (Zeiten werden ignoriert) 
-in \[Palette Is Fired With Its Times\] (Palette wird
+<Keys.SoftKey>Palette Is Fired Ignoring Its Times</Keys.SoftKey> (Zeiten werden ignoriert) 
+in <Keys.SoftKey>Palette Is Fired With Its Times</Keys.SoftKey> (Palette wird
 mit Zeiten gestartet).
 
 Überschreiben von Palettenzeiten
@@ -51,7 +53,7 @@ vorgegebenen Zeit ein.
 
 -   Die Überblendzeit muss bei jedem Palettenaufruf erneut eingegeben
     werden. Um immer die gleiche Zeit zu verwenden, geben Sie diese bei
-    \<Palette\> \[Master Time\] ein. Um diese wieder zu löschen, setzen
+    <Keys.HardKey>Palette</Keys.HardKey> <Keys.SoftKey>Master Time</Keys.SoftKey> ein. Um diese wieder zu löschen, setzen
     Sie die Master-Zeit auf 0.
 
 -   Das Einblenden von Paletten kann etwa sinnvoll sein beim Abruf von
@@ -71,15 +73,15 @@ sein muss, bevor die Überblendung mit dem nächsten Gerät beginnt.
 
 1.  Geben Sie mit den Zifferntasten die Überlappung ein.
 
-2.  Drücken Sie \[Set Overlap\]
+2.  Drücken Sie <Keys.SoftKey>Set Overlap</Keys.SoftKey>
 
 3.  Geben Sie die gewünschte Überblendzeit ein.
 
 4.  Rufen Sie die gewünschte Palette auf.
 
 -   Die Überlappung muss bei jedem Aufruf neu eingegeben werden. Um
-    stets die gleiche Überlappung zu verwenden, drücken Sie \<Palette\>,
-    \[Master Overlap\]. Um das zu deaktivieren, setzen Sie ‚Master
+    stets die gleiche Überlappung zu verwenden, drücken Sie <Keys.HardKey>Palette</Keys.HardKey>,
+    <Keys.SoftKey>Master Overlap</Keys.SoftKey>. Um das zu deaktivieren, setzen Sie ‚Master
     Overlap' auf 100%.
 
 -	Der Überlappungs-Effekt ist nur sichtbar mit einer Einfadezeit.
@@ -93,24 +95,24 @@ sein muss, bevor die Überblendung mit dem nächsten Gerät beginnt.
 Master-Zeit für Paletten
 ------------------------
 
-Mit der Option \[Master Time\] im Paletten-Menü (betätigen Sie dazu die
-Taste \<Palette\> oberhalb der Zifferntasten) lässt sich eine
+Mit der Option <Keys.SoftKey>Master Time</Keys.SoftKey> im Paletten-Menü (betätigen Sie dazu die
+Taste <Keys.HardKey>Palette</Keys.HardKey> oberhalb der Zifferntasten) lässt sich eine
 Standard-Überblendzeit vergeben, die stets genutzt wird, sofern keine
 andere Zeit manuell eingegeben wird. Das erleichtert das schnelle
 Steuern von Shows mit Paletten.
 
-In gleicher Weise arbeitet \[Master Overlap\] für die Überlappung.
+In gleicher Weise arbeitet <Keys.SoftKey>Master Overlap</Keys.SoftKey> für die Überlappung.
 
 >   Es lassen sich Macros erstellen, mit denen verschiedene 
 	Überblendzeiten vorgegeben werden können. Drücken Sie dazu 
-	\<Macro\>, \[Record\], dann eine Taste/Schaltfläche für das Macro. 
-	Nun drücken Sie \<Palette\>, \[Master Time\], z.B. 3 (für 3 Sek.), 
-	\<Exit\>, \<Macro\>. Wiederholen Sie diese Schritte mit 
+	<Keys.HardKey>Macro</Keys.HardKey>, <Keys.SoftKey>Record</Keys.SoftKey>, dann eine Taste/Schaltfläche für das Macro. 
+	Nun drücken Sie <Keys.HardKey>Palette</Keys.HardKey>, <Keys.SoftKey>Master Time</Keys.SoftKey>, z.B. 3 (für 3 Sek.), 
+	<Keys.HardKey>Exit</Keys.HardKey>, <Keys.HardKey>Macro</Keys.HardKey>. Wiederholen Sie diese Schritte mit 
 	unterschiedlichen Zeiten, z.B. 0 Sek. (hartes Umschalten), 5 Sek. etc.\
 	\
-	Etliche solche Macros für verschiedene Fadezeiten (\[Palette Fade xs\])
-	und Overlaps (\[Palette Overlap y%\]) sind bereits in der Macro-Library
-	enthalten. Drücken Sie dafür \<Macro\> und die Menütaste 
-	\[View All\]. Die Macros aus der Library lassen sich wie gewohnt per 
-	\<Copy\> auf beliebige Tasten kopieren, um sie rasch im Zugriff zu haben.
+	Etliche solche Macros für verschiedene Fadezeiten (<Keys.SoftKey>Palette Fade xs</Keys.SoftKey>)
+	und Overlaps (<Keys.SoftKey>Palette Overlap y%</Keys.SoftKey>) sind bereits in der Macro-Library
+	enthalten. Drücken Sie dafür <Keys.HardKey>Macro</Keys.HardKey> und die Menütaste 
+	<Keys.SoftKey>View All</Keys.SoftKey>. Die Macros aus der Library lassen sich wie gewohnt per 
+	<Keys.HardKey>Copy</Keys.HardKey> auf beliebige Tasten kopieren, um sie rasch im Zugriff zu haben.
 

@@ -4,6 +4,8 @@ title: Cleaning the console
 sidebar_label: Cleaning the console
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Disconnect the console from the mains supply before cleaning.
 
 To clean the laminated panels, use a non-alcoholic disinfectant solution:

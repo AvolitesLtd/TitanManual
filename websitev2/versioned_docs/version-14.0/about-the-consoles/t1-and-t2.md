@@ -5,6 +5,8 @@ sidebar_label: T1 and T2
 original_id: t1-and-t2
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 T1 and T2 are USB dongles which plug into a Windows PC or laptop. See [minimum PC specifications](../titan-basics.md#connecting-up-titan-mobile-and-t1t2) for details of the PC requirements. Both dongles include an AvoKey.
 
 T1 provides a single universe of DMX output on a 5-pin XLR.

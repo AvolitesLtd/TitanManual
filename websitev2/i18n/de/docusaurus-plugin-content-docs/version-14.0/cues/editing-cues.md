@@ -5,13 +5,15 @@ sidebar_label: Editing Cues
 original_id: editing-cues
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Editieren eines Cues durch Verschmelzen (Merge)
 -----------------------------------------------
 
 Jeder Cue lässt sich ganz einfach ändern, indem man die Änderungen
 vornimmt, und die neuen Einstellungen mit in den gleichen Cue speichert.
 
-1. Drücken Sie \<Clear\>, um den Programmierspeicher zu leeren.
+1. Drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, um den Programmierspeicher zu leeren.
 
 2. Rufen Sie den zu ändernden Cue auf, um die Änderungen sehen zu können;\
    *deaktivieren Sie dazu andere Cues*.
@@ -19,11 +21,11 @@ vornimmt, und die neuen Einstellungen mit in den gleichen Cue speichert.
 3. Wählen Sie die zu ändernden Geräte, und nehmen Sie die gewünschten
 Änderungen vor.
 
-4. Drücken Sie \<Record\>
+4. Drücken Sie <Keys.HardKey>Record</Keys.HardKey>
 
 5. Drücken Sie die **Auswahltaste** des zu ändernden Cues.
 
-6. Drücken Sie \[Merge\] *(dabei wird der aktuell zu ändernde Cue am
+6. Drücken Sie <Keys.SoftKey>Merge</Keys.SoftKey> *(dabei wird der aktuell zu ändernde Cue am
 Bildschirm hervorgehoben)*.
 
 7. Das Pult fügt daraufhin die vorgenommenen Änderungen in den Cue ein;
@@ -32,7 +34,7 @@ unveränderte Werte bleiben erhalten.
 ---
 
 -   Um den Cue komplett zu überschreiben, wählen Sie bei Schritt 6 die
-    Option \[Replace\] (Ersetzen). Bitte berücksichtigen: damit werden
+    Option <Keys.SoftKey>Replace</Keys.SoftKey> (Ersetzen). Bitte berücksichtigen: damit werden
     Geräte, die nicht aktuell verändert wurden (und damit auch nicht im
     Programmierspeicher sind), nicht in dem Cue gespeichert!
 
@@ -40,29 +42,29 @@ unveränderte Werte bleiben erhalten.
     (immer Verschmelzen) aktivieren. Diese befindet sich auf dem 
 	[Tab 'Handles'](../system-settings/user-settings.md#prompt-replace) in den 
     [Benutzereinstellungen](../system-settings/user-settings.md) (drücken Sie 
-	die Taste \<AVO\> und wählen im Menü \[User Settings\]).
+	die Taste <Keys.HardKey>AVO</Keys.HardKey> und wählen im Menü <Keys.SoftKey>User Settings</Keys.SoftKey>).
 
 -   Sie können auch die **Auswahltaste** ein zweites Mal betätigen, um die
-    Option **Merge** anzuwenden (schneller als die Schaltfläche \[Merge\])
+    Option **Merge** anzuwenden (schneller als die Schaltfläche <Keys.SoftKey>Merge</Keys.SoftKey>)
 
 Aktualisieren gespeicherter Werte und Paletten
 ----------------------------------------------
 
 Muss ein Cue oder eine im Cue verwendete Palette während der Show
 verändert werden *(wenn z.B. der Grün-Ton nicht exakt die gewünschte
-Farbe trifft)*, so lässt sich das einfach per \<Update\> realisieren; dabei
+Farbe trifft)*, so lässt sich das einfach per <Keys.HardKey>Update</Keys.HardKey> realisieren; dabei
 kann entweder der Cue oder die enthaltene Palette aktualisiert werden.
 
 Um den Cue zu aktualisieren, nehmen Sie die erforderlichen Änderungen
-vor und drücken zweimal \<Update\>.
+vor und drücken zweimal <Keys.HardKey>Update</Keys.HardKey>.
 
 1. Während der Cue gestartet ist, wählen Sie die betreffenden Geräte
 aus und stellen den gewünschten Wert ein *(z.B. das richtige Grün)*.
 
-2. Drücken Sie \<Update\> *(auf älteren Pulten: \<Record Cue\>, dann
-\[Update\])*.
+2. Drücken Sie <Keys.HardKey>Update</Keys.HardKey> *(auf älteren Pulten: <Keys.HardKey>Record Cue</Keys.HardKey>, dann
+<Keys.SoftKey>Update</Keys.SoftKey>)*.
 
-3. Drücken Sie \<Enter\>, um sofort die neuen Werte im Cue zu
+3. Drücken Sie <Keys.HardKey>Enter</Keys.HardKey>, um sofort die neuen Werte im Cue zu
 speichern.
 
 ---
@@ -70,7 +72,7 @@ speichern.
 Alternativ werden die [Paletten](../palettes.md) und Cues, die upgedated werden
 können, im Bildschirm angezeigt; wählen Sie die gewünschten aus.
 
-In diesem Fall bestätigen Sie die Auswahl mit \<Enter\>.
+In diesem Fall bestätigen Sie die Auswahl mit <Keys.HardKey>Enter</Keys.HardKey>.
 
 ---
 
@@ -78,9 +80,9 @@ In diesem Fall bestätigen Sie die Auswahl mit \<Enter\>.
     der jeweiligen Schaltfläche updaten.
 
 -   Soll der vormalige Wert einer Palette mit einem manuellen Wert
-    überschrieben werden, so drücken Sie \<Update\>-\<Update\>. Soll
+    überschrieben werden, so drücken Sie <Keys.HardKey>Update</Keys.HardKey>-<Keys.HardKey>Update</Keys.HardKey>. Soll
     hingegen die Palette aktualisiert werden, so nutzen Sie die
-    Menütasten oder drücken die \<Palette\>-Taste.
+    Menütasten oder drücken die <Keys.HardKey>Palette</Keys.HardKey>-Taste.
 
 -   Wird ein Attribut durch eine andere Palette überschrieben, wird
     stattdessen die neue Palette gespeichert.
@@ -89,7 +91,7 @@ Anzeige der Cues: Playback View und Cue View
 --------------------------------------------
 
 Zum Anzeigen der Zeiteinstellungen des Cues klicken Sie auf das Display
-oberhalb der Regler, oder Sie drücken \<View / Open\> und dann
+oberhalb der Regler, oder Sie drücken <Keys.HardKey>View / Open</Keys.HardKey> und dann
 die **Auswahltaste** des Cues. Im Bildschirm erscheinen daraufhin Details
 zu Verzögerungs- und Überblendzeit, Geräteüberblenden, und Einstellung
 der Reglerkurve. Jeder Wert lässt sich durch Anklicken zum Ändern
@@ -109,32 +111,32 @@ ausgeblendet, so dass man nur noch die Timing-Werte angezeigt bekommt.
 
 ### Filtern -- Nur einzelne Spalten anzeigen
 
-Mittels der Kontext-Funktion \[Edit Columns\] lässt sich noch genauer
+Mittels der Kontext-Funktion <Keys.SoftKey>Edit Columns</Keys.SoftKey> lässt sich noch genauer
 einstellen, welche Spalten in der Playback-Ansicht angezeigt werden. Hat
 man seine Auswahl getroffen, lässt sich diese links als Filter
 abspeichern.
 
-1. Klicken Sie auf \[Edit Columns\] im Kontext-Bereich.
+1. Klicken Sie auf <Keys.SoftKey>Edit Columns</Keys.SoftKey> im Kontext-Bereich.
 
 2. Mit den Menütasten aktivieren/deaktivieren Sie die gewünschten
 Spalten.
 
-3. Drücken Sie auf die Taste \<Record\>. Daraufhin wird am unteren Rand
-des Playback-View-Fensters ein \[Add\]-Button eingeblendet.
+3. Drücken Sie auf die Taste <Keys.HardKey>Record</Keys.HardKey>. Daraufhin wird am unteren Rand
+des Playback-View-Fensters ein <Keys.SoftKey>Add</Keys.SoftKey>-Button eingeblendet.
 
-4. Klicken Sie auf \[Add\], um einen Filter für Ihre Ansicht zu
+4. Klicken Sie auf <Keys.SoftKey>Add</Keys.SoftKey>, um einen Filter für Ihre Ansicht zu
 speichern.
 
 5. Sie können Ihren Filter wie gewohnt mittels Set Legend umbenennen
 sowie mit einem Halo versehen.
 
-6. Zum Löschen Ihrer Filter drücken Sie \<Delete\> und klicken auf den
+6. Zum Löschen Ihrer Filter drücken Sie <Keys.HardKey>Delete</Keys.HardKey> und klicken auf den
 zu löschenden Filter-Button.
 
 ### Cue View
 
-Betätigen Sie die Schaltfläche \[View\] am rechten Zeilenende oder die
-\[View Cue\]-Kontext-Schaltfläche, so erscheint das Fenster 'Cue View'
+Betätigen Sie die Schaltfläche <Keys.SoftKey>View</Keys.SoftKey> am rechten Zeilenende oder die
+<Keys.SoftKey>View Cue</Keys.SoftKey>-Kontext-Schaltfläche, so erscheint das Fenster 'Cue View'
 mit sämtlichen Details der Einstellungen zu allen einzelnen Geräten in
 dem gewählten Cue.
 
@@ -177,14 +179,14 @@ Es lassen sich die Werte einzelner oder mehrerer Kanäle **ändern** oder
 
 2.  Auf den Menütasten erscheinen daraufhin die für das gewählte
 	Attribut verfügbaren Optionen, ferner lässt sich mit den Zifferntasten
-	direkt ein numerischer Wert eingeben und mit \<Enter\> bestätigen.
+	direkt ein numerischer Wert eingeben und mit <Keys.HardKey>Enter</Keys.HardKey> bestätigen.
 
-3.  Einzelne Attribute lassen sich mit der Taste \<Off\> sowie den Menütasten
-	\[Off\] und \[On\] temporär deaktivieren und wieder aktivieren, 
+3.  Einzelne Attribute lassen sich mit der Taste <Keys.HardKey>Off</Keys.HardKey> sowie den Menütasten
+	<Keys.SoftKey>Off</Keys.SoftKey> und <Keys.SoftKey>On</Keys.SoftKey> temporär deaktivieren und wieder aktivieren, 
 	ohne sie komplett aus dem Cue zu löschen.
 
 4. 	Um ein Gerät komplett aus einem Cue zu entfernen, wählen Sie dieses aus
-	und klicken auf \[Remove Fixtures\].
+	und klicken auf <Keys.SoftKey>Remove Fixtures</Keys.SoftKey>.
 
 Sämtliche Änderungen werden sofort wirksam.
 
@@ -216,9 +218,9 @@ einzelnen Cues, um den gewünschten auswählen zu können (mit Encoder A,
 oder ganz einfach durch Anklicken). Ebenso kann man die Nummer des 
 gewünschten Schrittes mit den Zifferntasten eingeben.
 
-1.  Drücken Sie \<Include\>.
+1.  Drücken Sie <Keys.HardKey>Include</Keys.HardKey>.
 
-2.  Drücken Sie \[Quick Include\] oder \[Advanced Include\], um den Modus
+2.  Drücken Sie <Keys.SoftKey>Quick Include</Keys.SoftKey> oder <Keys.SoftKey>Advanced Include</Keys.SoftKey>, um den Modus
 	zu wechseln.
 
 3. 	Drücken Sie die **Auswahltaste** des Cues, den Sie in den Speicher
@@ -230,12 +232,12 @@ gewünschten Schrittes mit den Zifferntasten eingeben.
 	Sie die übrigen nun ab. Die ausgewählten Geräte werden auf den
 	Geräte-Schaltflächen und -Tasten hervorgehoben.
 
-5. 	Verwenden Sie \[Set Mask\] oder die Attribut-Auswahltasten, um die
+5. 	Verwenden Sie <Keys.SoftKey>Set Mask</Keys.SoftKey> oder die Attribut-Auswahltasten, um die
 	zu ladenden Attribute auszuwählen *(standardmäßig sind alle ausgewählt;
-	Taste \<C\> wählt alle ab, Taste \<D\> wählt alle wieder an)*. Taste
-	\<E\> aktiviert oder deaktiviert das Laden von Shapes aus dem Cue.
+	Taste <Keys.HardKey>C</Keys.HardKey> wählt alle ab, Taste <Keys.HardKey>D</Keys.HardKey> wählt alle wieder an)*. Taste
+	<Keys.HardKey>E</Keys.HardKey> aktiviert oder deaktiviert das Laden von Shapes aus dem Cue.
 
-6. 	Drücken Sie \<Enter\>. Die ausgewählten Attribute der ausgewählten
+6. 	Drücken Sie <Keys.HardKey>Enter</Keys.HardKey>. Die ausgewählten Attribute der ausgewählten
 	Geräte werden in den Programmierspeicher geladen.
 
 7. 	Wiederholen Sie die Schritte 2 bis 6 zum Includen weiterer Attribute
@@ -250,7 +252,7 @@ Deaktivieren von Attributen in Cues mit "Off"
 
 [](https://youtu.be/p7Ffz4e4tws?t=20 "Off")
 
-Mit der \<Off\>-Taste lässt sich ein Attribut in einem Cue deaktivieren,
+Mit der <Keys.HardKey>Off</Keys.HardKey>-Taste lässt sich ein Attribut in einem Cue deaktivieren,
 als ob es nie in diesem gespeichert gewesen wäre - es kann später wieder
 aktiviert werden.
 
@@ -268,42 +270,42 @@ bedeuten, der beim Aufruf des Cue abgerufen würde. "Off" ist vielmehr
 gleichbedeutend mit dem Deaktivieren des Attributs in diesem Cue, so dass 
 das Attribut beim Aufruf des Cues unbeeinflusst bleibt.
 
-1. Drücken Sie \<Off\>, dann \[Off Playback Values\], gefolgt von der
+1. Drücken Sie <Keys.HardKey>Off</Keys.HardKey>, dann <Keys.SoftKey>Off Playback Values</Keys.SoftKey>, gefolgt von der
 	**Auswahltaste** des zu ändernden Cues.
 
 2. Alle Geräte in dem Cue sind nun ausgewählt. Wählen sie ggf. Geräte
 ab, die Sie nicht Off schalten wollen.
 
 3. In der Attributmaske sind alle Attribute angewählt. Wählen Sie ggf.
-per \[Set Mask\] einzelne Attribute ab, die nicht Off geschaltet werden sollen.
+per <Keys.SoftKey>Set Mask</Keys.SoftKey> einzelne Attribute ab, die nicht Off geschaltet werden sollen.
 
-4. Klicken Sie auf \[Off\].
+4. Klicken Sie auf <Keys.SoftKey>Off</Keys.SoftKey>.
 
 ---
 
-Werte lassen sich auch unter Verwendung der \<Include\>-Funktion auf Off
+Werte lassen sich auch unter Verwendung der <Keys.HardKey>Include</Keys.HardKey>-Funktion auf Off
 setzen:
 
 1. Verwenden Sie **Quick Include** (siehe [voriger
 Abschnitt](#cues-wiederverwenden---die-include-funktion)), um den Cue in den Programmierspeicher zu laden.
 
-2. Betätigen Sie die \<Off\>-Taste, um das 'Off'-Menü anzuzeigen.
+2. Betätigen Sie die <Keys.HardKey>Off</Keys.HardKey>-Taste, um das 'Off'-Menü anzuzeigen.
 
 3. Alle Geräte in dem Cue werden ausgewählt. Wollen Sie nicht alle
 verändern, so entfernen Sie die Geräte einzeln aus der Auswahl.
 
 4. Wählen Sie mit den Attributbank-Buttons die Off zu schaltenden
-Attributebänke und drücken Sie \[Attributes Off\]. Außerdem kann man mit
+Attributebänke und drücken Sie <Keys.SoftKey>Attributes Off</Keys.SoftKey>. Außerdem kann man mit
 den Menütasten auch einzelne Attribute Off schalten, z.B. \[Dimmer
 Off\].
 
-5. Drücken Sie \<Record\>, dann die **Auswahltaste** des Cues, und schließlich 
-\[Replace\] zum Speichern der Änderungen.
+5. Drücken Sie <Keys.HardKey>Record</Keys.HardKey>, dann die **Auswahltaste** des Cues, und schließlich 
+<Keys.SoftKey>Replace</Keys.SoftKey> zum Speichern der Änderungen.
 
 ---
 
 -   Um alle Attribute aller angewählten Geräte Off zu schalten, drücken
-    Sie \<Off\> gefolgt von \[Selected Fixtures Off\].
+    Sie <Keys.HardKey>Off</Keys.HardKey> gefolgt von <Keys.SoftKey>Selected Fixtures Off</Keys.SoftKey>.
 
 -   "Off"-Einstellungen lassen sich auch ohne vorheriges Includen in einen
     Cue übernehmen (**Merge**).

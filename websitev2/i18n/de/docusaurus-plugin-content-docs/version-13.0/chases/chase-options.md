@@ -5,11 +5,13 @@ sidebar_label: Chase Options
 original_id: chase-options
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Um weitere Optionen eines Chasers zu ändern, drücken Sie im Hauptmenü
-\[Playback Options\], gefolgt von der entsprechenden **Swop**-Taste. Zur
-Anzeige aller Optionen in einem Fenster drücken Sie \<View / Open\>, dann die
+<Keys.SoftKey>Playback Options</Keys.SoftKey>, gefolgt von der entsprechenden **Swop**-Taste. Zur
+Anzeige aller Optionen in einem Fenster drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, dann die
 entsprechende **Swop**-Taste, und klicken links in der Playback-Ansicht
-auf \[Options\].
+auf <Keys.SoftKey>Options</Keys.SoftKey>.
 
 ![Playback Options (playback tab) for a chase](/docs/images/Playback-Options-Chase-Playback-Tab.png)
 
@@ -25,8 +27,8 @@ zusätzliche für Chaser, die hier beschrieben werden.
 ### Loop Action
 bestimmt, was passiert, wenn der Chaser durchgelaufen ist:
 
-\[Stop on Final Cue\] - Der Chaser stoppt, läuft also nur einmal.\
-\[Loop\] - Der Chaser läuft immer wieder von Anfang an durch -- eine
+<Keys.SoftKey>Stop on Final Cue</Keys.SoftKey> - Der Chaser stoppt, läuft also nur einmal.\
+<Keys.SoftKey>Loop</Keys.SoftKey> - Der Chaser läuft immer wieder von Anfang an durch -- eine
 Schleife.
 
 ### Play Order
@@ -36,14 +38,14 @@ stellt die Richtung des Chasers ein (forwards = vorwärts, backwards
 ### Linking
 bestimmt das Verhalten aufeinanderfolgender Schritte:
 
-\[Link according to individual steps\] - (Schrittfolge nach Vorgabe):
+<Keys.SoftKey>Link according to individual steps</Keys.SoftKey> - (Schrittfolge nach Vorgabe):
 jeder Schritt verhält sich gemäß der spezifischen Vorgaben (mit
-[\<Unfold\>](editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion) oder im [Playback View-Fenster](editing-a-chase.md#einen-chaser-zum-editieren-öffnen) einzustellen).\
-\[Always Link Steps\] - (Schritte stets folgen lassen): der Chaser
+[<Keys.HardKey>Unfold</Keys.HardKey>](editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion) oder im [Playback View-Fenster](editing-a-chase.md#einen-chaser-zum-editieren-öffnen) einzustellen).\
+<Keys.SoftKey>Always Link Steps</Keys.SoftKey> - (Schritte stets folgen lassen): der Chaser
 läuft automatisch mit den vorgegebenen Zeiten ab.\
-\[Never Link Steps\] - (Schritte nie folgen lassen): der Chaser stoppt
+<Keys.SoftKey>Never Link Steps</Keys.SoftKey> - (Schritte nie folgen lassen): der Chaser stoppt
 nach jeder Verzögerungs-/Überblendzeit und wartet auf das Betätigen
-der \<Go\>-Taste.
+der <Keys.HardKey>Go</Keys.HardKey>-Taste.
 
 > Ist ein Chaser 'unlinked', d.h. wartet immer auf das manuelle ‚Go', so startet auch der erste Schritt nicht automatisch, wenn der Fader hochgezogen wird. Um dies zu umgehen, linken Sie den ersten Schritt zum vorherigen, sofern der Chaser nicht auf ‚Loop' (Wiederholung) steht. Steht er hingegen auf ‚Loop', so fügen Sie am Ende einen ‚Blindschritt' ein mit 0 Sek. Fade- und 0 Sek. Delayzeit, und linken den ersten Schritt mit diesem.
 
@@ -87,6 +89,6 @@ verwendete Farbe zurücksetzt. Diesen kann man dann vor jedem anderen -
 
 ## Renumber All Cues
 
-Die Option \[Renumber All Cues\] setzt die Nummerierung der Schritte auf
+Die Option <Keys.SoftKey>Renumber All Cues</Keys.SoftKey> setzt die Nummerierung der Schritte auf
 eine von 1 aufsteigende Folge zurück. Diese Option ist nur über die
 Menütasten verfügbar, nicht im Optionsfenster.

@@ -5,13 +5,15 @@ sidebar_label: Capture Show Files
 original_id: capture-show-files
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Die Capture-Bühne wird automatisch mit in der Titan-Show gespeichert. Sie
 kann aber auch exportiert und importiert werden, um sie unabhängig von
 Titan in Capture zu verwenden. Ebenso können damit einzelne
 Capture-Shows unabhängig in mehreren Titan-Shows verwendet werden.
 
 Zum Exportieren/Importieren wählen Sie den Reiter **Show** im Fenster
-\[Capture Visualiser Settings\].
+<Keys.SoftKey>Capture Visualiser Settings</Keys.SoftKey>.
 
 Shows exportieren
 -----------------
@@ -42,10 +44,10 @@ zu patchen, damit die richtigen Gerätetypen ausgewählt werden.
 Die Capture-Show löschen
 ------------------------
 
-Unten auf dem Reiter **Show** gibt es den Button \[Wipe\], mit dem die
+Unten auf dem Reiter **Show** gibt es den Button <Keys.SoftKey>Wipe</Keys.SoftKey>, mit dem die
 aktuelle Capture-Show gelöscht wird.
 
 Sollen in Titan gepatchte Geräte erneut in die Capture-Show übernommen
-werden, so wählen Sie \<Patch\> \[Edit Fixtures\] \[Update
+werden, so wählen Sie <Keys.HardKey>Patch</Keys.HardKey> <Keys.SoftKey>Edit Fixtures</Keys.SoftKey> \[Update
 Personality\] aus dem [Menü Patch](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren). Damit werden die bereits gepatchten Fixtures wieder in
 Capture angezeigt.

@@ -5,6 +5,8 @@ sidebar_label: Other Parts of the Touch Screen
 original_id: other-parts-of-the-touch-screen
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The Menu/Softkeys
 -----------------
 
@@ -15,15 +17,15 @@ display. These are known as the "Softkeys" and are lettered A-G.
 
 ![Titan Touch Screen User Interface](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
-If there are more functions than will fit on one screen, \[Previous\]
-and \[Next\] buttons are provided to page through the functions. You can
+If there are more functions than will fit on one screen, <Keys.SoftKey>Previous</Keys.SoftKey>
+and <Keys.SoftKey>Next</Keys.SoftKey> buttons are provided to page through the functions. You can
 either touch the key on screen, or most consoles provide real buttons
 next to the screen.
 
 The vertical bar to the left of the softkeys shows you which menu you
 are currently in. You can \'latch\' the menu to keep the current command
 active (so that you don't have to keep reselecting it) by pressing the
-\<Menu Latch\> button (\<ML Menu\> on Pearl Expert & Tiger Touch 1). The menu
+<Keys.HardKey>Menu Latch</Keys.HardKey> button (<Keys.HardKey>ML Menu</Keys.HardKey> on Pearl Expert & Tiger Touch 1). The menu
 bar turns red when latched. This is useful for example when copying or moving
 playbacks to rearrange the console.
 
@@ -173,7 +175,7 @@ You can touch this window to undo all actions up to the one you touch.
 Once actions have been undone they are shown greyed out, and can be
 redone by touching them.
 
-You can also use the \<Undo\> and \<Redo\> buttons (not on all consoles)
+You can also use the <Keys.HardKey>Undo</Keys.HardKey> and <Keys.HardKey>Redo</Keys.HardKey> buttons (not on all consoles)
 to step through the list.
 
 Some actions cannot be undone which is indicated with the "not allowed"
@@ -183,5 +185,5 @@ symbol as shown below.
 
 If you are in multi-user mode, the Undo History can show a column for
 each user with undo points for that user - open the Context menu and
-select \{Show All Users and Consoles\}. The default setting is \{Show
-Only Current User\}.
+select <Keys.ContextKey>Show All Users and Consoles</Keys.ContextKey>. The default setting is \\u123Show
+Only Current User\\u125.

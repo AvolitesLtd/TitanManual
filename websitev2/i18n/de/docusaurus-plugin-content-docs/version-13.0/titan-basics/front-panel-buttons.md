@@ -5,6 +5,8 @@ sidebar_label: Front Panel Buttons
 original_id: front-panel-buttons
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Die den Fadern zugeordneten blauen und grauen Tasten sowie die
 Macro/Executor-Tasten sind weitgehend frei zu konfigurieren.
 
@@ -43,19 +45,19 @@ Das Arena hat noch zwei weitere Macro-Tasten vorn links auf dem Pult.
 
 Ein Macro aufzeichnen
 
-1.  Drücken Sie die blaue Taste \<Macro\> (oberhalb des Ziffernblocks)
+1.  Drücken Sie die blaue Taste <Keys.HardKey>Macro</Keys.HardKey> (oberhalb des Ziffernblocks)
 
-2.  Wählen Sie \[Full Speed\] oder \[Real Time\].
+2.  Wählen Sie <Keys.SoftKey>Full Speed</Keys.SoftKey> oder <Keys.SoftKey>Real Time</Keys.SoftKey>.
 
-3.  Drücken Sie \[Record\].
+3.  Drücken Sie <Keys.SoftKey>Record</Keys.SoftKey>.
 
 4.  Betätigen Sie eine freie graue Taste oder Schaltfläche auf dem 
 	Touchscreen. Damit beginnt die Aufzeichnung. Währenddessen blinkt die 
-	Taste \<Macro\>.
+	Taste <Keys.HardKey>Macro</Keys.HardKey>.
 
 5.  Führen Sie nun die aufzuzeichnende Tastenfolge aus.
 
-6.  Klicken Sie \<Macro\> zum Beenden der Aufzeichnung.
+6.  Klicken Sie <Keys.HardKey>Macro</Keys.HardKey> zum Beenden der Aufzeichnung.
 
 Zum Ausführen des aufgezeichneten Makros einfach die Taste betätigen,
 auf der das Makro gespeichert wurde. Daraufhin werden sämtliche Schritte
@@ -101,14 +103,14 @@ Taste | Aktion | | Taste | Aktion
   Alt 5    |  Menütaste E               | |  Alt S    |  Shape
   Alt 6    |  Menütaste F               | |  Alt ⇑ T  |  Fixture Tools/ML Menu
   Alt 7    |  Menütaste G               | |  Alt B    |  Blind
-  Alt ⇑ F  |  \<Fixture\>               | |  Alt O    |  Off
-  Alt ⇑ P  |  \<Palette\>               | |  Alt F    |  Fan
-  Alt ⇑ M  |  \<Macro\>                 | |  Alt ⇑ O  |  Attribute options
-  Alt ⇑ G  |  \<Group\>                 | |  Alt ⇑ L  |  Latch menu
-  / (num)  |  \<Thro\>                  | |  Alt Q    |  Cue/Connect
-  \* (num) |  \<@\>                     | |  Alt W    |  Open Window
-  \- (num) |  \<Not\>                   | |  Alt T    |  Times
-  \+ (num) |  \<And\>                   | |  Alt ⇑ U  |  Update
+  Alt ⇑ F  |  <Keys.HardKey>Fixture</Keys.HardKey>               | |  Alt O    |  Off
+  Alt ⇑ P  |  <Keys.HardKey>Palette</Keys.HardKey>               | |  Alt F    |  Fan
+  Alt ⇑ M  |  <Keys.HardKey>Macro</Keys.HardKey>                 | |  Alt ⇑ O  |  Attribute options
+  Alt ⇑ G  |  <Keys.HardKey>Group</Keys.HardKey>                 | |  Alt ⇑ L  |  Latch menu
+  / (num)  |  <Keys.HardKey>Thro</Keys.HardKey>                  | |  Alt Q    |  Cue/Connect
+  \* (num) |  <Keys.HardKey>@</Keys.HardKey>                     | |  Alt W    |  Open Window
+  \- (num) |  <Keys.HardKey>Not</Keys.HardKey>                   | |  Alt T    |  Times
+  \+ (num) |  <Keys.HardKey>And</Keys.HardKey>                   | |  Alt ⇑ U  |  Update
    Alt ←   |  Previous fixture    	    | |  Alt ⇑ I  |  Select If
    Alt →   |  Next fixture              | |           |  |
    Alt ↑   |  All                       | |           |  |
@@ -121,8 +123,8 @@ Das Pult sperren
 ----------------
 
 Das Pult lässt sich sperren, um unbeabsichtigte oder unbefugte Eingriffe
-zu verhindern. Halten Sie dazu \<AVO\> gedrückt, klicken Sie auf
-\[Lock\], und geben Sie nun ein Passwort ein (Buchstaben oder Ziffern).
+zu verhindern. Halten Sie dazu <Keys.HardKey>AVO</Keys.HardKey> gedrückt, klicken Sie auf
+<Keys.SoftKey>Lock</Keys.SoftKey>, und geben Sie nun ein Passwort ein (Buchstaben oder Ziffern).
 Zum Entsperren muss das gleiche Passwort wieder eingegeben werden; die
 Eingabeaufforderung für das Passwort wird nach einigen Sekunden der
 Inaktivität ausgeblendet, erscheint aber sofort wieder, sobald eine
@@ -130,11 +132,11 @@ Taste betätigt oder der Bildschirm angetippt wird. Dies ist ausdrücklich
 nur eine einfache Sperre, *just to prevent idiots messing with it.*
 
 Es lässt sich eine Grafik einstellen, die bei gesperrtem Pult angezeigt
-wird. Drücken Sie dazu \<Avo\> und wählen das Menü \[User Settings\]
-(Benutzereinstellungen). Auf der Seite \[Display\] (Version 13:  \[General\])
-kann man bei \[Lock Screen Background\] ein Bild laden oder eine Grafik zeichnen.
+wird. Drücken Sie dazu <Keys.HardKey>Avo</Keys.HardKey> und wählen das Menü <Keys.SoftKey>User Settings</Keys.SoftKey>
+(Benutzereinstellungen). Auf der Seite <Keys.SoftKey>Display</Keys.SoftKey> (Version 13:  <Keys.SoftKey>General</Keys.SoftKey>)
+kann man bei <Keys.SoftKey>Lock Screen Background</Keys.SoftKey> ein Bild laden oder eine Grafik zeichnen.
 
-If you load a picture file, the menu option \[Scaling Mode\] sets how
+If you load a picture file, the menu option <Keys.SoftKey>Scaling Mode</Keys.SoftKey> sets how
 the picture will be scaled to fill the screen.
 
 -   None: keine Skalierung, das Bild wird in Originalgröße angezeigt
@@ -148,7 +150,7 @@ the picture will be scaled to fill the screen.
 -   Stretch: Das Bild wird auf den gesamten Bildschirm aufgezogen und
     ggf. verzerrt dargestellt
 
-Mit dem Button \[Clear\] wird ein eingestelltes Bild wieder gelöscht.
+Mit dem Button <Keys.SoftKey>Clear</Keys.SoftKey> wird ein eingestelltes Bild wieder gelöscht.
 
 Bei gesperrtem Pult sind sämtliche Funktionen deaktiviert, abgesehen vom
 DMX-Ausgang und den aktuell laufenden Playbacks.

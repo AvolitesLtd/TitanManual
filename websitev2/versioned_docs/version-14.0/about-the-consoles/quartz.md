@@ -21,7 +21,7 @@ currently doing.
 options. The display next to the buttons shows what each one will do.
 The options for each key change depending on what the console is doing.
 Softkey commands are shown in the manual like this:
-\[Edit Times\]
+<Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 \(D\) The **Playback faders** are used to store and play back cues or chases.
 \(E\) The **Page Select buttons** let you change to a different page of

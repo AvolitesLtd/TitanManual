@@ -5,9 +5,11 @@ sidebar_label: Cue Lists
 original_id: cue-lists
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Cuelisten - Szenenfolgen - gestatten das Programmieren einer Abfolge
 von [Cues](cues.md), von denen jeder eigene [Zeitvorgaben](cue-lists/cue-list-timing.md) enthalten kann und die
-entweder Schritt für Schritt mit der [\<Go\>-Taste gesteuert werden oder
+entweder Schritt für Schritt mit der [<Keys.HardKey>Go</Keys.HardKey>-Taste gesteuert werden oder
 automatisch ablaufen können](cue-lists/cue-list-playback.md). Damit lassen sich selbst komplexe Shows in nur einer Liste programmieren, etwa bei 
 [Theateraufführungen](cue-lists/theatre-programming.md), wo der
 Showablauf jedes Mal exakt gleich sein muss. Cuelisten können aber auch

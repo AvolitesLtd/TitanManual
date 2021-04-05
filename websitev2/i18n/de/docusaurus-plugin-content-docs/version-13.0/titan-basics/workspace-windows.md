@@ -5,6 +5,8 @@ sidebar_label: Workspace Windows
 original_id: workspace-windows
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Der Hauptbereich der Programmoberfläche
 enthält die Arbeitsfenster. Diese wiederum enthalten Buttons
 (berührungsempfindliche Flächen) zur Auswahl von Geräten, Gruppen,
@@ -26,43 +28,43 @@ Auswahl und Positionierung der Arbeitsfenster
 ---------------------------------------------
 
 Die gewünschten Fenster des Arbeitsbereichs lassen sich per Befehl
-\[Open Workspace Window\] aus dem Hauptmenü öffnen. Außerdem
-lässt sich die Funktion \[Open Workspace Window\] durch Betätigen der
-\<View\> bzw. \<Open\>-Taste erreichen. Ferner stehen
+<Keys.SoftKey>Open Workspace Window</Keys.SoftKey> aus dem Hauptmenü öffnen. Außerdem
+lässt sich die Funktion <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> durch Betätigen der
+<Keys.HardKey>View</Keys.HardKey> bzw. <Keys.HardKey>Open</Keys.HardKey>-Taste erreichen. Ferner stehen
 Tastenkombinationen zum Aufrufen der wichtigsten Fenster zur Verfügung
 (siehe nächster Abschnitt). **In diesem Manual wird diese Taste als
-\<View/Open\> bezeichnet, um beide Tastenbezeichnungen einzubeziehen**.
+<Keys.HardKey>View/Open</Keys.HardKey> bezeichnet, um beide Tastenbezeichnungen einzubeziehen**.
 
 Zum Ändern von Größe und Position der Fenster dienen die
 Fenster-Steuertasten ('Window-Control') oberhalb des Zifferntastenblocks
 sowie die Schaltfläche mit dem Zahnrad in der Titelleiste jedes
 Fensters; weitere Details siehe nächster Abschnitt. Die Taste
-\<min/max\> schaltet das jeweils aktive Fenster zwischen Vollbildschirm
-und einem Viertel des Bildschirms um. Die Taste \<size/position\> bewegt
+<Keys.HardKey>min/max</Keys.HardKey> schaltet das jeweils aktive Fenster zwischen Vollbildschirm
+und einem Viertel des Bildschirms um. Die Taste <Keys.HardKey>size/position</Keys.HardKey> bewegt
 das aktive Fenster durch die möglichen Positionen. Zum Aktivieren
 (Auswählen) eines Fensters berührt man einfach dessen Titelleiste.
 
 Um das aktive Fenster auf den externen Monitor zu verschieben, drückt
-man bei gedrückter \<AVO\>-Taste die Taste \<Size/Position\>, oder
-betätigt die Taste \<View / Open\>, dann \[Window Options\], dann
-\[Move Screen\].
+man bei gedrückter <Keys.HardKey>AVO</Keys.HardKey>-Taste die Taste <Keys.HardKey>Size/Position</Keys.HardKey>, oder
+betätigt die Taste <Keys.HardKey>View / Open</Keys.HardKey>, dann <Keys.SoftKey>Window Options</Keys.SoftKey>, dann
+<Keys.SoftKey>Move Screen</Keys.SoftKey>.
 
 ### Tastenkombinationen zur Fensterauswahl
 
-\<View / Open\> und eine Attributbank-Taste öffnet das jeweilige
+<Keys.HardKey>View / Open</Keys.HardKey> und eine Attributbank-Taste öffnet das jeweilige
 Palettenfenster.
 
-Mit \<View / Open\> + \<Patch\> können Sie die Patch-Ansicht öffnen.
+Mit <Keys.HardKey>View / Open</Keys.HardKey> + <Keys.HardKey>Patch</Keys.HardKey> können Sie die Patch-Ansicht öffnen.
 
-Drücken Sie \<View / Open\>, gefolgt von der Schaltfläche eines
+Drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, gefolgt von der Schaltfläche eines
 gepatchten Gerätes, so öffnet sich die Geräteanzeige mit Details zu dem
 jeweiligen Gerät.
 
-\<View / Open\> + \<Connect\> öffnet das Fenster 'Playback View'.
+<Keys.HardKey>View / Open</Keys.HardKey> + <Keys.HardKey>Connect</Keys.HardKey> öffnet das Fenster 'Playback View'.
 
-\<View / Open\> + \<Off\> öffnet das Fenster 'Active Playbacks'.
+<Keys.HardKey>View / Open</Keys.HardKey> + <Keys.HardKey>Off</Keys.HardKey> öffnet das Fenster 'Active Playbacks'.
 
-\<View / Open\> + \<Macro\> öffnet das Fenster 'Macros'.
+<Keys.HardKey>View / Open</Keys.HardKey> + <Keys.HardKey>Macro</Keys.HardKey> öffnet das Fenster 'Macros'.
 
 ### Schaltflächen für die Einrichtung der Fenster
 
@@ -99,7 +101,7 @@ anordnen als auch sehr frei verändern. Dazu dient der Button **Größe
 
 ![Resize](/docs/images/Resize.png)
 
-Steht die Option \[Edit All Windows\] auf Off, so wird jeweils nur ein
+Steht die Option <Keys.SoftKey>Edit All Windows</Keys.SoftKey> auf Off, so wird jeweils nur ein
 Fenster verändert.
 
 Klicken und ziehen Sie die obere linke oder die untere rechte Ecke des
@@ -111,30 +113,30 @@ Klicken Sie irgendwohin, so wird das Fenster dort platziert und rot
 dargestellt, bis zur Platzierung der gegenüberliegenden Ecke nochmals
 woanders geklickt wird.
 
-Steht die Option \[Resize Neighbours\] (Nachbarn anpassen) auf On
+Steht die Option <Keys.SoftKey>Resize Neighbours</Keys.SoftKey> (Nachbarn anpassen) auf On
 (Vorgabe), so werden beim Ziehen einer Ecke angrenzende Fenster soweit
 wie möglich mit verändert, um Überlappungen zu vermeiden. Steht diese
 Option dagegen auf ‚Off', so wird jeweils nur das bearbeitete Fenster
 verändert, und alle anderen bleiben unverändert.
 
-Schaltet man \[Edit All Windows\] (Alle Fenster editieren) auf On, so
+Schaltet man <Keys.SoftKey>Edit All Windows</Keys.SoftKey> (Alle Fenster editieren) auf On, so
 werden bei allen Fenstern Ecken angezeigt, und man kann ein beliebiges
-Fenster verändern. Zum Abschluss drücken Sie dann wieder \<EXIT\>,
-\<ENTER\> oder \[OK\].
+Fenster verändern. Zum Abschluss drücken Sie dann wieder <Keys.HardKey>EXIT</Keys.HardKey>,
+<Keys.HardKey>ENTER</Keys.HardKey> oder <Keys.SoftKey>OK</Keys.SoftKey>.
 
 ![Resize](/docs/images/Resize-2.png)
 
-> Wurde beim freien Positionieren ein Fenster versehentlich so klein gemacht, dass der Button für die Größe nicht mehr erreichbar ist, so ist die einfachste Lösung, mit der \<Min/Max\>-Taste (bzw. Funktion) dieses Fenster wieder ganz groß zu machen und nochmals zu verändern. Bei der PC-Suite (Titan One etc.) bietet sich die Taste F4 der Computertastatur an.
+> Wurde beim freien Positionieren ein Fenster versehentlich so klein gemacht, dass der Button für die Größe nicht mehr erreichbar ist, so ist die einfachste Lösung, mit der <Keys.HardKey>Min/Max</Keys.HardKey>-Taste (bzw. Funktion) dieses Fenster wieder ganz groß zu machen und nochmals zu verändern. Bei der PC-Suite (Titan One etc.) bietet sich die Taste F4 der Computertastatur an.
 
 Zum Verschieben des aktiven Fensters zwischen externem Monitor und
 Bildschirm klicken Sie in den Fenster-Optionen auf das gewünschte
-Display, oder Sie drücken Sie \<View / Open\>, dann \[Window Options\], und
-schließlich \[Move Screen\], oder Sie nutzen die Tastenkombination
-\<AVO\>+\<Size/Position\>.
+Display, oder Sie drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, dann <Keys.SoftKey>Window Options</Keys.SoftKey>, und
+schließlich <Keys.SoftKey>Move Screen</Keys.SoftKey>, oder Sie nutzen die Tastenkombination
+<Keys.HardKey>AVO</Keys.HardKey>+<Keys.HardKey>Size/Position</Keys.HardKey>.
 
-Aktive Fenster lassen sich mit der Taste \<Close\> schließen. Zum
-gleichzeitigen Schließen aller Fenster drücken Sie \<AVO\>+\<Close\>,
-oder Sie nutzen die Menütaste \[Close All\].
+Aktive Fenster lassen sich mit der Taste <Keys.HardKey>Close</Keys.HardKey> schließen. Zum
+gleichzeitigen Schließen aller Fenster drücken Sie <Keys.HardKey>AVO</Keys.HardKey>+<Keys.HardKey>Close</Keys.HardKey>,
+oder Sie nutzen die Menütaste <Keys.SoftKey>Close All</Keys.SoftKey>.
 
 ### Anzahl und Grösse der Schaltflächen/Raster
 
@@ -145,7 +147,7 @@ Zeile/Spalte - und damit ggf. die ganze Anordnung - ändert. Um dies zu
 verhindern (z.B. wenn im Geräte-Fenster die Anordnung an den
 tatsächlichen Aufbau angepasst wurde), kann man alternativ in den
 Fenster-Optionen die gewünschte Anzahl angezeigten Zeilen
-\[Columns\]/Spalten \[Rows\] fest vorgeben. Damit wird immer die
+<Keys.SoftKey>Columns</Keys.SoftKey>/Spalten <Keys.SoftKey>Rows</Keys.SoftKey> fest vorgeben. Damit wird immer die
 gewünschte Anzahl an Schaltflächen angezeigt, wobei sich deren Größe
 entsprechend ändert.
 
@@ -158,7 +160,7 @@ herschalten kann.
 Mini-Display (Nur beim Arena)
 -----------------------------
 
-Mit der Taste \<Display\> unterhalb der Encoder rechts oben kann man 
+Mit der Taste <Keys.HardKey>Display</Keys.HardKey> unterhalb der Encoder rechts oben kann man 
 zwischen vier Ansichten auf dem Mini-Display umschalten:
 
 - Arbeitsfenster mit Legenden für die Encoder
@@ -184,7 +186,7 @@ gesamten Displays durch nur einen Klick ändern/wiederherstellen.
 Sie können verschiedene Arbeitsumgebungen (Workspaces) zum schnellen
 Abruf auf den 'Workspace'-Schaltflächen (links vom Hauptmenü, bzw.
 linker Bildschirmrand beim Sapphire Touch und Titan Go) abspeichern: die
-Taste \<View / Open\> drücken, dann \[Record Workspace\], dann eine
+Taste <Keys.HardKey>View / Open</Keys.HardKey> drücken, dann <Keys.SoftKey>Record Workspace</Keys.SoftKey>, dann eine
 der 'Workspace'-Schaltflächen betätigen, oder führen Sie einen
 Doppelklick auf einer solchen Schaltfläche aus.
 Arbeitsumgebungen/Workspaces lassen sich auch auf graue Tasten des
@@ -199,25 +201,25 @@ Als Beispiel sei einmal angenommen, zum Programmieren seien die Fenster
 'Fixtures' (Geräte), 'Position Palettes' (Positionspaletten), 'Fixture
 Attributes' (Geräteattribute) und 'Shapes' benötigt:
 
-1. Drücken Sie ggf. \<Exit\>, um ins Hauptmenü zu gelangen, und dann
-die Funktionstaste \[Open Workspace Window\].
+1. Drücken Sie ggf. <Keys.HardKey>Exit</Keys.HardKey>, um ins Hauptmenü zu gelangen, und dann
+die Funktionstaste <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>.
 
 2. Aktivieren Sie aus der eingeblendeten Liste den Eintrag
-\[Fixtures\].
+<Keys.SoftKey>Fixtures</Keys.SoftKey>.
 
 3. Öffnet sich das Fenster nicht in der oberen linken Ecke des
-Touchscreens, so drücken Sie die Taste \<Size/Position\> so oft, bis es
+Touchscreens, so drücken Sie die Taste <Keys.HardKey>Size/Position</Keys.HardKey> so oft, bis es
 dort platziert ist.
 
-4. Betätigen Sie wieder \[Open Workspace Window\] und wählen den
-Eintrag \[Positions\]. Bewegen Sie dieses Fenster mit \<Size/Position\>
+4. Betätigen Sie wieder <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> und wählen den
+Eintrag <Keys.SoftKey>Positions</Keys.SoftKey>. Bewegen Sie dieses Fenster mit <Keys.HardKey>Size/Position</Keys.HardKey>
 an die gewünschte Stelle.
 
 5. Aktivieren Sie auf die gleiche Weise die Fenster \[Attribute
-Control\] und \[Shapes\].
+Control\] und <Keys.SoftKey>Shapes</Keys.SoftKey>.
 
-6. Drücken Sie \<View / Open\>, dann \[Record Workspace\], oder
-\<AVO\>+\<View / Open\>. Geben Sie einen Namen für diese
+6. Drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, dann <Keys.SoftKey>Record Workspace</Keys.SoftKey>, oder
+<Keys.HardKey>AVO</Keys.HardKey>+<Keys.HardKey>View / Open</Keys.HardKey>. Geben Sie einen Namen für diese
 Arbeitsumgebung ein, und klicken Sie auf die 'Workspace'-Schaltfläche,
 auf die die aktuelle Arbeitsumgebung gespeichert werden soll.
 Alternativ nutzen Sie die 'Quick Record' (Schnellspeicher)-Funktion:
@@ -225,17 +227,17 @@ klicken Sie einfach auf eine freie 'Workspace'-Schaltfläche, woraufhin
 diese rot hervorgehoben wird und ein '+'-Zeichen zeigt. Geben Sie nun
 einen Namen ein, und klicken Sie erneut auf diese Schaltfläche.
 
--   \[Record Visible/All Windows\] (sichtbare/alle Fenster speichern)
+-   <Keys.SoftKey>Record Visible/All Windows</Keys.SoftKey> (sichtbare/alle Fenster speichern)
     bestimmt, ob nur die aktiven (sichtbaren), oder aber alle (auch die
     verborgenen) Fenster in der Arbeitsumgebung gespeichert werden
     sollen.
 
--   \[Remove/Leave other windows on recall\] (beim Aufruf andere Fenster
+-   <Keys.SoftKey>Remove/Leave other windows on recall</Keys.SoftKey> (beim Aufruf andere Fenster
     schließen/behalten) definiert, ob beim Aufruf der Arbeitsumgebung
     andere Fenster geöffnet bleiben oder geschlossen werden sollen.
 
--   Zum Löschen einer Arbeitsumgebung drücken Sie \<View / Open\>, 
-	\<Delete\>, und dann die Schaltfläche der Arbeitsumgebung.
+-   Zum Löschen einer Arbeitsumgebung drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, 
+	<Keys.HardKey>Delete</Keys.HardKey>, und dann die Schaltfläche der Arbeitsumgebung.
 
 Compatibility windows -- die 'Kompatibilitäts-Fenster'
 ------------------------------------------------------
@@ -272,8 +274,8 @@ Legenden und Bezeichnungen
 
 Sämtliche Schaltflächen lassen sich mit frei zu definierenden Legenden
 beschriften, um die Übersicht zu behalten. Ferner lassen sich die
-Schaltflächen auch bemalen. Dazu drücken Sie zunächst \[Set Legends\]
-und wählen dann \[Picture\]; daraufhin öffnet sich ein entsprechendes
+Schaltflächen auch bemalen. Dazu drücken Sie zunächst <Keys.SoftKey>Set Legends</Keys.SoftKey>
+und wählen dann <Keys.SoftKey>Picture</Keys.SoftKey>; daraufhin öffnet sich ein entsprechendes
 Zeichen-Fenster. Außerdem gibt es bereits eine umfangreiche Bibliothek
 vorgefertigter Zeichnungen.
 
@@ -289,7 +291,7 @@ Button-Halo
 Sämtlichen programmierbaren Schaltflächen, etwa den Buttons für Geräte,
 Gruppen, Paletten, Playbacks etc., lassen sich farbige Ränder, sog.
 Halos, zuweisen. Damit lassen sich diese auch optisch noch besser
-unterscheiden. Zum Einstellen dieses Halos dient die Option \[Halo\] im
+unterscheiden. Zum Einstellen dieses Halos dient die Option <Keys.SoftKey>Halo</Keys.SoftKey> im
 Legenden-Menü.
 
 ![Halo](/docs/images/Fixture-Halo.png)
@@ -304,14 +306,14 @@ automatisch unterschiedliche Halos pro Gerätetyp vergeben werden.
 Mit dem Trackball rechts auf dem Pult lässt sich entweder die Maus
 steuern, oder die selektierten Geräte.
 
-Zur Auswahl des Maus-Modus halten Sie die Taste \<Assign\> (unterhalb
-des Trackballs) gedrückt und betätigen dazu die Taste \<Left\> (für: linke
+Zur Auswahl des Maus-Modus halten Sie die Taste <Keys.HardKey>Assign</Keys.HardKey> (unterhalb
+des Trackballs) gedrückt und betätigen dazu die Taste <Keys.HardKey>Left</Keys.HardKey> (für: linke
 Maustaste). Nun steuert der Trackball die Position des Mauszeigers auf
 den Bildschirmen; mit dem Ring um den Trackball kann in den Fenstern
 gescrollt werden.
 
 Um in den Modus zur Gerätesteuerung zu schalten, drücken Sie
-\<Assign\> + \<Right\>: nun steuert der Trackball Pan und Tilt, und mit
+<Keys.HardKey>Assign</Keys.HardKey> + <Keys.HardKey>Right</Keys.HardKey>: nun steuert der Trackball Pan und Tilt, und mit
 dem Ring kann Tilt sehr fein geregelt werden.
 
 **Bildschirmtastatur**

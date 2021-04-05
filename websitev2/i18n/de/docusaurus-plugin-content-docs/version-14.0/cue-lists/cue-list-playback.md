@@ -5,11 +5,13 @@ sidebar_label: Cue List Playback
 original_id: cue-list-playback
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Abrufen einer Cueliste
 ----------------------
 
 Stellen Sie den Regler der Cueliste auf den gewünschten Wert und drücken
-die \<Go\>-Taste, um den ersten Schritt zu starten. Unten im Display
+die <Keys.HardKey>Go</Keys.HardKey>-Taste, um den ersten Schritt zu starten. Unten im Display
 erscheint die Cueliste, der aktuelle Schritt ist dabei grau
 hervorgehoben, der nächste Schritt ist durch eine Umrandung
 gekennzeichnet.
@@ -29,7 +31,7 @@ Crossfade) dargestellt.
 
 Für eine bessere Übersicht können Sie auch die Playback-Ansicht der
 Cueliste öffnen (einfach im Display auf die Cueliste klicken, oder
-\<View / Open\> und die **Select-Taste** der Cueliste drücken). Hier hat man
+<Keys.HardKey>View / Open</Keys.HardKey> und die **Select-Taste** der Cueliste drücken). Hier hat man
 sämtliche Cues, Zeiten und Optionen (z.B. Autoload, Macros, MID etc.) im
 Überblick, was vor allem im [Theater](theatre-programming.md) sehr hilfreich ist.
 
@@ -47,41 +49,41 @@ Delayzeiten.
 Die Playback-Ansicht scrollt normalerweise mit, so dass immer der
 aktuelle Cue dargestellt wird. Dies kann in den Optionen des Fensters
 genauer eingestellt und geändert werden (klicken Sie dazu auf das kleine
-\{Zahnrad\} in der Titelleiste des Fensters).
+<Keys.ContextKey>Zahnrad</Keys.ContextKey> in der Titelleiste des Fensters).
 
 ---
 
 -   Die HTP-Pegel der Schritte werden durch die Stellung des Reglers
     bestimmt.
 
--   Ein Überblendprozess lässt sich mit der \<Stop\>-Taste (oberhalb der
-    \<Go\>-Taste) anhalten, und mit der \<Go\>-Taste fortsetzen.
+-   Ein Überblendprozess lässt sich mit der <Keys.HardKey>Stop</Keys.HardKey>-Taste (oberhalb der
+    <Keys.HardKey>Go</Keys.HardKey>-Taste) anhalten, und mit der <Keys.HardKey>Go</Keys.HardKey>-Taste fortsetzen.
 
 -   Um direkt einen bestimmten Schritt anzuspringen, wählen Sie diesen
     mit Rad A oder mit den links/rechts-Pfeilen aus. Drücken Sie nun
-    \<Go\>, um den angewählten Schritt aufzurufen. Soll der Vorgang
-    abgebrochen werden, so drücken Sie gleichzeitig \<Prev. Cue\> und
-    \<Next Cue\>.
+    <Keys.HardKey>Go</Keys.HardKey>, um den angewählten Schritt aufzurufen. Soll der Vorgang
+    abgebrochen werden, so drücken Sie gleichzeitig <Keys.HardKey>Prev. Cue</Keys.HardKey> und
+    <Keys.HardKey>Next Cue</Keys.HardKey>.
 
--   Ist die Cueliste gerade pausiert, so kann man mit \<Stop\> zum
+-   Ist die Cueliste gerade pausiert, so kann man mit <Keys.HardKey>Stop</Keys.HardKey> zum
     vorherigen Cue incl. Einfadezeiten springen.
 
--   Auf den vorigen Schritt schalten Sie mit der Taste \<Snap back\>
+-   Auf den vorigen Schritt schalten Sie mit der Taste <Keys.HardKey>Snap back</Keys.HardKey>
     (sofern vorhanden).
 
--   Auf Pulten mit einer \<Snap\>-Taste *(Arena, Tiger Touch II)* erreicht
+-   Auf Pulten mit einer <Keys.HardKey>Snap</Keys.HardKey>-Taste *(Arena, Tiger Touch II)* erreicht
     man den nächsten/vorherigen Schritt der Cueliste mit den Tasten
-    \<Prev Step\>/\<Next Step\> unter Berücksichtigung der
-    programmierten Zeiten. Aktiviert man die \<Snap\>-Taste, so werden
+    <Keys.HardKey>Prev Step</Keys.HardKey>/<Keys.HardKey>Next Step</Keys.HardKey> unter Berücksichtigung der
+    programmierten Zeiten. Aktiviert man die <Keys.HardKey>Snap</Keys.HardKey>-Taste, so werden
     die Zeiten ignoriert und direkt umgeschaltet. Für Pulte, die diese
-    Taste nicht haben, gibt es die Benutzereinstellungen [\[Chase Snap\]
-    bzw. \[Cue List Snap\]](../system-settings/user-settings.md#chase-snap).
+    Taste nicht haben, gibt es die Benutzereinstellungen [<Keys.SoftKey>Chase Snap</Keys.SoftKey>
+    bzw. <Keys.SoftKey>Cue List Snap</Keys.SoftKey>](../system-settings/user-settings.md#chase-snap).
 
--   Zur Direktanwahl eines Schritts drücken Sie die Taste \<Connect / Cue\>,
-    gefolgt von der Schrittnummer und \<Enter\> oder Funktionstaste A.
+-   Zur Direktanwahl eines Schritts drücken Sie die Taste <Keys.HardKey>Connect / Cue</Keys.HardKey>,
+    gefolgt von der Schrittnummer und <Keys.HardKey>Enter</Keys.HardKey> oder Funktionstaste A.
     Alternativ tippen Sie im Hauptmenü einfach die Schrittnummer ein und
-    drücken \<Connect / Cue\>. (Diese Taste heißt je nach Pult \<Connect\>
-	oder \<Cue\>).
+    drücken <Keys.HardKey>Connect / Cue</Keys.HardKey>. (Diese Taste heißt je nach Pult <Keys.HardKey>Connect</Keys.HardKey>
+	oder <Keys.HardKey>Cue</Keys.HardKey>).
 
 -   Mittels der [Tastenbelegungen ('Key Profiles')](../system-settings/key-profiles.md) lässt sich die
     Funktion der grauen und blauen Tasten an die Erfordernisse anpassen,
@@ -97,22 +99,22 @@ genauer eingestellt und geändert werden (klicken Sie dazu auf das kleine
 -   Mittels **Timecode** kann eine Cueliste [automatisch gesteuert werden](cue-list-timing.md#steuern-einer-cueliste-per-timecode).
 
 -   Die Zeit für den nächsten Schritt lässt sich einfach ändern, indem
-    man mit den Zifferntasten die neue Zeit eingibt und \<Go\> drückt.
+    man mit den Zifferntasten die neue Zeit eingibt und <Keys.HardKey>Go</Keys.HardKey> drückt.
     Wollen Sie in einer neuen Zeit auf einen anderen Cue springen, so
-    geben Sie die Nummer des neuen Cues ein, drücken \<Connect / Cue\>, geben
-    die gewünschte Zeit ein und drücken \<Go\>
+    geben Sie die Nummer des neuen Cues ein, drücken <Keys.HardKey>Connect / Cue</Keys.HardKey>, geben
+    die gewünschte Zeit ein und drücken <Keys.HardKey>Go</Keys.HardKey>
 
 Eine Cueliste deaktivieren
 --------------------------
 
 Sobald eine Cueliste gestartet wurde, bleibt sie aktiv, bis sie explizit
-deaktiviert wird. Dazu halten Sie die \<AVO\>-Taste gedrückt und
+deaktiviert wird. Dazu halten Sie die <Keys.HardKey>AVO</Keys.HardKey>-Taste gedrückt und
 betätigen die blaue **Select-Taste** der Cueliste.
 
 Das Verhalten lässt sich im Menü [Options](../cues/playback-options.md) ändern, so dass die
 Cueliste automatisch entladen wird, wenn man den Regler auf '0' bringt:
-drücken Sie dazu \[Playback Options\] im Programmier-Menü, dann die
-**Select-Taste** der Cueliste, und wählen die Option \[Fader\], \[Fader
+drücken Sie dazu <Keys.SoftKey>Playback Options</Keys.SoftKey> im Programmier-Menü, dann die
+**Select-Taste** der Cueliste, und wählen die Option <Keys.SoftKey>Fader</Keys.SoftKey>, \[Fader
 Mode Intensity Kill At 0\].
 
 Per [Tastenprofil (Key Profiles)](../system-settings/key-profiles.md#cue-lists) lässt sich auch eine der Tasten mit der
@@ -135,20 +137,20 @@ lassen sich erforderlichenfalls auch Änderungen realisieren.
 
 Tracking lässt sich sowohl für die komplette Cueliste aktivieren/
 deaktivieren, als auch für die einzelnen Cues der Cueliste genau
-einstellen (entweder in der Playback-Ansicht oder unter \[Options\]\[Cue Options\]).
+einstellen (entweder in der Playback-Ansicht oder unter <Keys.SoftKey>Options</Keys.SoftKey><Keys.SoftKey>Cue Options</Keys.SoftKey>).
 
 
 Mögliche Einstellungen:
 
 Einstellung | Wirkung
 --- | ---
-\[Global\] *(Vorgabe)* | es gelten die Einstellungen der gesamten Cueliste.
-\[Track\] | der Cue wird getrackt.
-\[Block\] | dieser Cue übernimmt keinerlei Tracking-Informationen; im weiteren Verlauf wird das Tracking ab diesem Cue ermittelt.
-\[Solo Excluding Shapes\] | Der Cue wird als Solo-Cue, also ohne jegliches Tracking, behandelt, allerdings werden Shapes, die keine Dimmershapes sind, getrackt. Damit kann z.B. eine Bewegung auch in einem Solo-Cue fortgesetzt werden.
-\[Cue Only\] | Änderungen in diesem Cue werden nicht auf die nachfolgenden Cues weitergegeben; unveränderte Informationen von vorherigen Cues unterliegen aber weiterhin dem Tracking.
-\[Solo\] | Dieser Cue unterliegt überhaupt nicht dem Tracking und verändert auch nicht nachfolgende Cues; Informationen aus vorherigen Cues werden unverändert an nachfolgende weitergegeben.
-\[Block Shapes\] | Sämtliche Shapes von vorherigen Cues werden geblockt, alle anderen Attribute werden normal getrackt. Damit wird sichergestellt, dass alle Shapes stoppen.
+<Keys.SoftKey>Global</Keys.SoftKey> *(Vorgabe)* | es gelten die Einstellungen der gesamten Cueliste.
+<Keys.SoftKey>Track</Keys.SoftKey> | der Cue wird getrackt.
+<Keys.SoftKey>Block</Keys.SoftKey> | dieser Cue übernimmt keinerlei Tracking-Informationen; im weiteren Verlauf wird das Tracking ab diesem Cue ermittelt.
+<Keys.SoftKey>Solo Excluding Shapes</Keys.SoftKey> | Der Cue wird als Solo-Cue, also ohne jegliches Tracking, behandelt, allerdings werden Shapes, die keine Dimmershapes sind, getrackt. Damit kann z.B. eine Bewegung auch in einem Solo-Cue fortgesetzt werden.
+<Keys.SoftKey>Cue Only</Keys.SoftKey> | Änderungen in diesem Cue werden nicht auf die nachfolgenden Cues weitergegeben; unveränderte Informationen von vorherigen Cues unterliegen aber weiterhin dem Tracking.
+<Keys.SoftKey>Solo</Keys.SoftKey> | Dieser Cue unterliegt überhaupt nicht dem Tracking und verändert auch nicht nachfolgende Cues; Informationen aus vorherigen Cues werden unverändert an nachfolgende weitergegeben.
+<Keys.SoftKey>Block Shapes</Keys.SoftKey> | Sämtliche Shapes von vorherigen Cues werden geblockt, alle anderen Attribute werden normal getrackt. Damit wird sichergestellt, dass alle Shapes stoppen.
 
 Move In Dark (MID) - Funktionen
 -------------------------------
@@ -163,26 +165,26 @@ Die Move-In-Dark-Einstellungen lassen sich wahlweise für
 einzelne Cues oder für die gesamte Cueliste vornehmen.
 
 Zum Festlegen der Optionen für die gesamte Cueliste drücken Sie
-\[Options\], gefolgt von der Auswahltaste der Cueliste,
-und klicken dann \[Playback\] gefolgt von \[Move In Dark\].
+<Keys.SoftKey>Options</Keys.SoftKey>, gefolgt von der Auswahltaste der Cueliste,
+und klicken dann <Keys.SoftKey>Playback</Keys.SoftKey> gefolgt von <Keys.SoftKey>Move In Dark</Keys.SoftKey>.
 
 Einstellung | Wirkung
 ---|---
-\[Disabled\] | deaktiviert MID für die gesamte Cueliste, auch wenn es ggf. für einzelne Cues aktiviert ist
-\[Early\] | startet die Bewegung zum frühestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben
-\[Late\] | beginnt die Bewegung zum spätestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben
-\[Off\] *(Vorgabe)* | schaltet MID für die gesamte Cueliste ab; MID kann aber für   einzelne Cues aktiviert werden
+<Keys.SoftKey>Disabled</Keys.SoftKey> | deaktiviert MID für die gesamte Cueliste, auch wenn es ggf. für einzelne Cues aktiviert ist
+<Keys.SoftKey>Early</Keys.SoftKey> | startet die Bewegung zum frühestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben
+<Keys.SoftKey>Late</Keys.SoftKey> | beginnt die Bewegung zum spätestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben
+<Keys.SoftKey>Off</Keys.SoftKey> *(Vorgabe)* | schaltet MID für die gesamte Cueliste ab; MID kann aber für   einzelne Cues aktiviert werden
 
 Zum Einstellen der Optionen für einzelne Cues nutzen Sie hingegen das Fenster ‚Playback View' der Cueliste. Es gibt folgende Optionen:
 
 Einstellung | Wirkung
 ---|---
-\[Global\] *(Vorgabe)* | Es werden die Einstellungen der gesamten Cueliste angewendet
-\[Cue Number\] | zur Angabe eines bestimmten Cues, zu dem MID stattfinden soll
-\[Cue Offset\] | gibt eine bestimmte Anzahl von Cues vor dem aktuellen an, wann MID beginnen soll
-\[Disabled\] | deaktiviert MID für den aktuellen Cue
-\[Early\] | MID so zeitig wie möglich
-\[Late\] | MID so spät wie möglich
+<Keys.SoftKey>Global</Keys.SoftKey> *(Vorgabe)* | Es werden die Einstellungen der gesamten Cueliste angewendet
+<Keys.SoftKey>Cue Number</Keys.SoftKey> | zur Angabe eines bestimmten Cues, zu dem MID stattfinden soll
+<Keys.SoftKey>Cue Offset</Keys.SoftKey> | gibt eine bestimmte Anzahl von Cues vor dem aktuellen an, wann MID beginnen soll
+<Keys.SoftKey>Disabled</Keys.SoftKey> | deaktiviert MID für den aktuellen Cue
+<Keys.SoftKey>Early</Keys.SoftKey> | MID so zeitig wie möglich
+<Keys.SoftKey>Late</Keys.SoftKey> | MID so spät wie möglich
 
 Für jeden einzelnen Cue wie auch für die gesamte Liste lassen sich für
 MID getrennt Fade- und Delayzeit einstellen. Ebenso gibt es für jeden

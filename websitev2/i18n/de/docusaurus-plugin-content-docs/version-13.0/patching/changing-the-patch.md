@@ -5,6 +5,8 @@ sidebar_label: Changing the Patch
 original_id: changing-the-patch
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Die Patch-Ansicht (Patch View)
 ------------------------------
 
@@ -14,8 +16,8 @@ umpatchen, invertieren, austauschen und bezeichnen. Müssen mehrere
 Geräte auf einmal geändert, etwa umadressiert, werden, so ist dies in
 der Patch-Ansicht besonders einfach zu realisieren.
 
-Zum Öffnen der Patch-Ansicht wählen Sie \<View / Open\>, dann
-\<Patch\>, oder wählen den entsprechenden Eintrag aus dem Menü
+Zum Öffnen der Patch-Ansicht wählen Sie <Keys.HardKey>View / Open</Keys.HardKey>, dann
+<Keys.HardKey>Patch</Keys.HardKey>, oder wählen den entsprechenden Eintrag aus dem Menü
 'Arbeitsfenster öffnen' (Open Workspace Window).
 
 ![Patch View](/docs/images/Patch-View.png)
@@ -36,10 +38,10 @@ In der **Tabelle** werden Details der ausgewählten Geräte angezeigt;
 einige Parameter sind direkt in der Tabelle durch Anklicken änderbar;
 weitere Möglichkeiten ergeben sich durch die Multifunktionstasten.
 
-> Es lassen sich für mehrere Geräte gleichzeitig Änderungen vornehmen, indem man in der Tabelle den entsprechenden Bereich auswählt, oder indem man auf einer optionalen Tastatur \<Strg\> gedrückt hält und die einzelnen Geräte anklickt. Nehmen Sie dann die Änderungen mit den Multifunktionstasten vor und drücken Sie den Button \[Set\] oder die \<Enter\>-Taste.
+> Es lassen sich für mehrere Geräte gleichzeitig Änderungen vornehmen, indem man in der Tabelle den entsprechenden Bereich auswählt, oder indem man auf einer optionalen Tastatur <Keys.HardKey>Strg</Keys.HardKey> gedrückt hält und die einzelnen Geräte anklickt. Nehmen Sie dann die Änderungen mit den Multifunktionstasten vor und drücken Sie den Button <Keys.SoftKey>Set</Keys.SoftKey> oder die <Keys.HardKey>Enter</Keys.HardKey>-Taste.
 
 -   Zur besseren Übersicht lassen sich einzelne Tabellenspalten
-    ausblenden. Dazu dient der Eintrag \[Choose Columns\] aus dem
+    ausblenden. Dazu dient der Eintrag <Keys.SoftKey>Choose Columns</Keys.SoftKey> aus dem
     Kontextmenü. Daraufhin lassen sich einzelne Spalten aus- und wieder
     einblenden.
 
@@ -61,8 +63,8 @@ Anzeige weiterer Patch-Details
 ------------------------------
 
 Zur Anzeige der Details einzelner Geräte drücken Sie in der
-Patch-Ansicht in der Tabelle auf die betreffende \[View\]-Schaltfläche,
-oder drücken \<View / Open\>, gefolgt von der entsprechenden
+Patch-Ansicht in der Tabelle auf die betreffende <Keys.SoftKey>View</Keys.SoftKey>-Schaltfläche,
+oder drücken <Keys.HardKey>View / Open</Keys.HardKey>, gefolgt von der entsprechenden
 Geräte-Schaltfläche. Darauf öffnet sich ein weiteres Fenster und zeigt
 die Patch-Details des jeweiligen Gerätes. Hier lassen sich z.B. auch
 einzelne Attribute invertieren oder fixieren.
@@ -89,7 +91,7 @@ die Adress-Zellen, die Sie ändern möchten:
 ![Change DMX Address](/docs/images/Change-DMX-Address.png)
 
 Geben Sie nun die neue Adresse des ersten ausgewählten Gerätes ein und
-drücken \<Enter\>. (Verwenden Sie bei der Eingabe das Format
+drücken <Keys.HardKey>Enter</Keys.HardKey>. (Verwenden Sie bei der Eingabe das Format
 Universum.Adresse - lassen Sie Universum und den Punkt weg, so wird nur
 die Adresse geändert).
 
@@ -97,18 +99,18 @@ Alle angewählten Geräte werden daraufhin entsprechen umadressiert, wobei
 der jeweilige Offset (also etwaige Lücken zwischen den Adressen)
 erhalten bleibt.
 
-Mit der Kontext-Funktion \[Swap Fixture Addresses\] können die Adressen
+Mit der Kontext-Funktion <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey> können die Adressen
 mit denen bereits gepatchter Geräte vertauscht werden, wobei zwischen
-den Modes \[One for One\] (1:1) und \[Retain Layout\] (Layout erhalten)
+den Modes <Keys.SoftKey>One for One</Keys.SoftKey> (1:1) und <Keys.SoftKey>Retain Layout</Keys.SoftKey> (Layout erhalten)
 gewählt werden kann. Wählen Sie wie gehabt die zu ändernden Geräte,
-klicken auf \[Swap Fixture Addresses\] und wählen die Geräte, mit denen
+klicken auf <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey> und wählen die Geräte, mit denen
 getauscht werden soll.\
-Im Modus \[One to One\] (1:1) muss die Anzahl der zu tauschenden Geräte
+Im Modus <Keys.SoftKey>One to One</Keys.SoftKey> (1:1) muss die Anzahl der zu tauschenden Geräte
 mit der Anzahl der Ziel-Geräte übereinstimmen, ansonsten wird eine
-Fehlermeldung ausgegeben. Im Modus \[Retain Layout\] (Layout erhalten)
+Fehlermeldung ausgegeben. Im Modus <Keys.SoftKey>Retain Layout</Keys.SoftKey> (Layout erhalten)
 versucht die Software, durch automatisches Hinzufügen/Weglassen von
 Geräten die Anzahlen anzupassen. Funktioniert dies nicht, kann man mit
-\[Cancel\] abbrechen oder mit \[Park Conflicting\] die Geräte, die
+<Keys.SoftKey>Cancel</Keys.SoftKey> abbrechen oder mit <Keys.SoftKey>Park Conflicting</Keys.SoftKey> die Geräte, die
 momentan 'im Weg' sind, parken.
 
 Ändern der DMX-Adresse im Patch-Menü
@@ -118,43 +120,43 @@ Die Zuordnung eines Gerätes zu einer DMX-Adresse und/oder DMX-Linie kann
 auch im Patch-Menü geändert werden, wobei die Programmierung erhalten
 bleibt.
 
-1. Drücken Sie \<Patch\> (wenn Sie sich nicht ohnehin im Patch-Modus
+1. Drücken Sie <Keys.HardKey>Patch</Keys.HardKey> (wenn Sie sich nicht ohnehin im Patch-Modus
 befinden).
 
-2. Drücken Sie \[Repatch Fixtures\].
+2. Drücken Sie <Keys.SoftKey>Repatch Fixtures</Keys.SoftKey>.
 
 3. Betätigen Sie die Schaltfläche des zu ändernden Gerätes.
 
-4. Zum Ändern der DMX-Adresse drücken Sie \[Address\], geben mit den
-Ziffern­tasten die neue Adresse ein, und drücken \<Enter\>. Falls die
+4. Zum Ändern der DMX-Adresse drücken Sie <Keys.SoftKey>Address</Keys.SoftKey>, geben mit den
+Ziffern­tasten die neue Adresse ein, und drücken <Keys.HardKey>Enter</Keys.HardKey>. Falls die
 neue Adresse bereits anderweitig verwendet wird, wird eine Warnung
 angezeigt.
 ![Address softkey](/docs/images/Address-softkey.png)
 
-5. Zum Ändern der DMX-Linie drücken Sie \[DMX Line=x\] und geben die
+5. Zum Ändern der DMX-Linie drücken Sie <Keys.SoftKey>DMX Line=x</Keys.SoftKey> und geben die
 Zahl der neuen DMX-Linie ein.
 
-6. Drücken Sie \<Enter\> oder \[Repatch\], um die Änderungen zu
+6. Drücken Sie <Keys.HardKey>Enter</Keys.HardKey> oder <Keys.SoftKey>Repatch</Keys.SoftKey>, um die Änderungen zu
 bestätigen.
 
 7. Wiederholen Sie den Vorgang ab Schritt 3, um weitere Geräte zu
 ändern.
 
--   Sie können auch Geräte 'parken' (mit der Funktion \[Park\]). Damit
+-   Sie können auch Geräte 'parken' (mit der Funktion <Keys.SoftKey>Park</Keys.SoftKey>). Damit
     wird das Gerät aus dem Patch entfernt, aber die Programmierung
     bleibt erhalten. Die ursprüngliche DMX-Linie und --Adresse werden
-    gespeichert und können mit \[Unpark\] wiederhergestellt werden.
+    gespeichert und können mit <Keys.SoftKey>Unpark</Keys.SoftKey> wiederhergestellt werden.
 
 -   Wenn die neue DMX-Adresse bereits anderweitig in Verwendung ist,
     gibt das Pult eine Warnung aus (sofern das nicht in den
     [Benutzereinstellungen](../system-settings/user-settings.md) 
-	deaktiviert ist,). Sie können dann entweder \[Select another DMX address\]
+	deaktiviert ist,). Sie können dann entweder <Keys.SoftKey>Select another DMX address</Keys.SoftKey>
     (eine andere DMX-Adresse auswählen) anwählen, um den Vorgang
-    abzubrechen, oder mit \[Park Conflicting Fixtures\] das Gerät zur
+    abzubrechen, oder mit <Keys.SoftKey>Park Conflicting Fixtures</Keys.SoftKey> das Gerät zur
     späteren Änderung parken. Damit bleibt die existierende
     Programmierung erhalten, aber das Gerät muss zur weiteren Verwendung
     auf eine freie DMX-Adresse gepatcht werden (siehe oben). Mit der
-    Auswahl \[Always Park Conflicting Fixtures\] werden sämtliche Geräte
+    Auswahl <Keys.SoftKey>Always Park Conflicting Fixtures</Keys.SoftKey> werden sämtliche Geräte
     mit bereits belegten DMX-Adressen automatisch geparkt, ohne eine
     Warnung auszugeben (kann in den Benutzereinstellungen geändert
     werden).
@@ -168,24 +170,24 @@ Jedes gepatchte Gerät lässt sich mit einer Bezeichnung versehen, die auf
 der entsprechenden Geräte-Auswahltaste angezeigt wird, um das Gerät
 später identifizieren zu können.
 
-1.  Im Hauptmenü klicken Sie \[Set Legend\].
+1.  Im Hauptmenü klicken Sie <Keys.SoftKey>Set Legend</Keys.SoftKey>.
 
 2.  Betätigen Sie die Auswahltaste des Gerätes, für das Sie eine
 Legende vergeben wollen.
 
 3.  Geben Sie die Legende mit der (Bildschirm-)Tastatur ein.
 
-4.  Klicken Sie \<Enter\>, um die Eingabe abzuschließen.
+4.  Klicken Sie <Keys.HardKey>Enter</Keys.HardKey>, um die Eingabe abzuschließen.
 
 -   Es lässt sich auch eine Zeichnung oder ein Bild als Gerätelegende
     wählen.
 
 -   Mehrere Geräte lassen sich mit der gleichen Bezeichnung versehen;
-    dazu wählen Sie nach der Betätigung von \[Set Legend\] einfach
+    dazu wählen Sie nach der Betätigung von <Keys.SoftKey>Set Legend</Keys.SoftKey> einfach
     mehrere Geräte aus.
 
--   Die Gerätenummer lässt sich im Menü \[Set Legend\] (Legende
-    eingeben) mit der Menütaste \[User Number =...\] ändern.
+-   Die Gerätenummer lässt sich im Menü <Keys.SoftKey>Set Legend</Keys.SoftKey> (Legende
+    eingeben) mit der Menütaste <Keys.SoftKey>User Number =...</Keys.SoftKey> ändern.
     Insbesondere bei der Verwendung der numerischen Geräteauswahl ist es
     sinnvoll, die Gerätenummern systematisch zu vergeben.
 
@@ -196,10 +198,10 @@ Legende vergeben wollen.
     nummeriert.
 
 -   Ebenso lässt sich eine Bezeichnung für die aktuelle Seite im
-    Geräte-Auswahlfenster vergeben. Dazu wählen Sie \[Set Legend\] aus
-    dem Hauptmenü, dann \[Page Legends\], dann die zu ändernde Seite 
+    Geräte-Auswahlfenster vergeben. Dazu wählen Sie <Keys.SoftKey>Set Legend</Keys.SoftKey> aus
+    dem Hauptmenü, dann <Keys.SoftKey>Page Legends</Keys.SoftKey>, dann die zu ändernde Seite 
 	(wenn die Seiten nicht angezeigt werden, können Sie das im Kontextmenü
-	durch einen Klick auf \[Pages Hide\] aktivieren). Die vergebene 
+	durch einen Klick auf <Keys.SoftKey>Pages Hide</Keys.SoftKey> aktivieren). Die vergebene 
 	Bezeichnung wird auf der Auswahltaste für die Seite sowie im HUD 
 	angezeigt.
 
@@ -212,8 +214,8 @@ darzustellen. Als Vorgabewert kann man den Halo manuell einstellen.
 Alternativ kann der Halo automatisch die Farbe annehmen, die im 
 Patch-Fenster verwendet wird.
 
-Um den Halo manuell einzustellen, klicken Sie auf \[Set Legend\], wählen
-das/die Fixture(s) aus und klicken auf die Option \[Halo\]. Darauf
+Um den Halo manuell einzustellen, klicken Sie auf <Keys.SoftKey>Set Legend</Keys.SoftKey>, wählen
+das/die Fixture(s) aus und klicken auf die Option <Keys.SoftKey>Halo</Keys.SoftKey>. Darauf
 öffnet sich ein Colourpicker, um die Farbe auszuwählen. Mittels \[System
 Colours\] hat man Zugriff auf vordefinierte Farben, und mit \[Remove
 Halo\] lässt sich der farbige Rand wieder entfernen.
@@ -221,9 +223,9 @@ Halo\] lässt sich der farbige Rand wieder entfernen.
 ![Fixture Halo](/docs/images/Fixture-Halo.png)
 
 Zum Aktivieren der automatischen Halo-Farben halten Sie die
-\<Avo\>-Taste gedrückt und wählen \[User Settings\] (Benutzereinst.),
-dann \[Handles\], und ändern schließlich die Einstellung für
-Fixture-Halos (Geräte-Halos) auf \[Auto\]. Daraufhin wird automatisch
+<Keys.HardKey>Avo</Keys.HardKey>-Taste gedrückt und wählen <Keys.SoftKey>User Settings</Keys.SoftKey> (Benutzereinst.),
+dann <Keys.SoftKey>Handles</Keys.SoftKey>, und ändern schließlich die Einstellung für
+Fixture-Halos (Geräte-Halos) auf <Keys.SoftKey>Auto</Keys.SoftKey>. Daraufhin wird automatisch
 der Halo in der gleichen Farbe dargestellt, die auch im Fixtures-Fenster
 verwendet wird.
 
@@ -241,7 +243,7 @@ Das Fenster 'DMX View'
 
 Insbesondere zur Fehlersuche empfiehlt es sich, die tatsächlich vom Pult
 gesendeten DMX-Werte zu überprüfen. Dazu gibt es ein gesondertes
-Fenster: drücken Sie \[Open Workspace Window\], dann \[DMX\].
+Fenster: drücken Sie <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>, dann <Keys.SoftKey>DMX</Keys.SoftKey>.
 
 ![DMX Workspace Window](/docs/images/DMX-Workspace-Window.png)
 
@@ -284,7 +286,7 @@ unerheblichen Zeitersparnis führen kann.
     oder kommt es zu Problemen, so lassen sich mit einer Sicherung alle
     Änderungen rückgängig machen.
 
-1.  Drücken Sie \<Patch\>, um in den Patch-Modus zu gelangen.
+1.  Drücken Sie <Keys.HardKey>Patch</Keys.HardKey>, um in den Patch-Modus zu gelangen.
 
 2.  Wählen Sie das neue Gerät aus, das Sie verwenden möchten.
 
@@ -292,7 +294,7 @@ unerheblichen Zeitersparnis führen kann.
     werden soll.
 
 4.  Das Pult zeigt eine Warnung, dass das Gerät in Gebrauch ist.
-    Wählen Sie die Option \[Exchange Fixture\].
+    Wählen Sie die Option <Keys.SoftKey>Exchange Fixture</Keys.SoftKey>.
 
 5.  Wiederholen Sie die Schritte 3 und 4 für weitere Geräte, die Sie
     mit dem ausgewählten Typ ersetzen möchten.
@@ -316,14 +318,14 @@ die bisherigen Cues weitestgehend identisch funktionieren.
 
 Alle Änderungen wirken sofort auf die Show. Diese Mappings werden
 gespeichert und können auch künftig verwendet werden. Natürlich kann man
-mit dem Button \[Clear All Mappings\] auch wieder zu den
+mit dem Button <Keys.SoftKey>Clear All Mappings</Keys.SoftKey> auch wieder zu den
 Werkseinstellungen zurückkehren.
 
 ![Exchange Mapping](/docs/images/Exchange-Mapping.png)
 
 Das Mapping wird wie folgt eingerichtet:
 
-1.  Drücken Sie \<View\> bzw. \<Open\>, dann \<Patch\>, um die
+1.  Drücken Sie <Keys.HardKey>View</Keys.HardKey> bzw. <Keys.HardKey>Open</Keys.HardKey>, dann <Keys.HardKey>Patch</Keys.HardKey>, um die
     Patch-Ansicht zu öffnen.
 
 2.  Wählen Sie den Reiter „Exchange Mapping".
@@ -331,7 +333,7 @@ Das Mapping wird wie folgt eingerichtet:
 3.  In der ganz linken Spalte wählen Sie den zu bearbeitenden Gerätetyp.
 
 4.  Im Hauptfenster befinden sich nun links die Funktionen und Attribute
-	der alten und rechts die der neuen Geräte. Mit der Option \[Sort\] lässt
+	der alten und rechts die der neuen Geräte. Mit der Option <Keys.SoftKey>Sort</Keys.SoftKey> lässt
 	sich die Sortierung zwischen alphabetisch und nach DMX-Kanal umschalten.
 
 5.  Wählen Sie ein Attribut aus, um dessen Mapping zu bearbeiten. Das
@@ -360,10 +362,10 @@ Das Mapping wird wie folgt eingerichtet:
 
 -   Wird das Mapping geändert, so erscheint am unteren Bildschirmrand
     die Anzeige 'Unsaved Changes' (ungesicherte Änderungen). Hier können
-    Sie mit \[Apply\] die Änderungen speichern und übernehmen, mit
-    \[Cancel\] die Bearbeitung abbrechen oder mit \[Reset\] die
+    Sie mit <Keys.SoftKey>Apply</Keys.SoftKey> die Änderungen speichern und übernehmen, mit
+    <Keys.SoftKey>Cancel</Keys.SoftKey> die Bearbeitung abbrechen oder mit <Keys.SoftKey>Reset</Keys.SoftKey> die
     Werkseinstellungen wiederherstellen. Alle diese Befehle müssen mit
-    \[Confirm\] bestätigt werden.
+    <Keys.SoftKey>Confirm</Keys.SoftKey> bestätigt werden.
 
 ![Exchange Mapping with range mapping](/docs/images/Exchange-Mapping-Range-Mapping.png)
 
@@ -379,7 +381,7 @@ dass man für jede Ausgangsfunktion den Zielbereich einzeln festlegen
 kann.
 
 Um diese Festlegung zu treffen, wählen Sie zunächst den entsprechenden
-Ziel-Bereich. Klicken Sie dann unten auf \[Edit Ranges\] und wählen die
+Ziel-Bereich. Klicken Sie dann unten auf <Keys.SoftKey>Edit Ranges</Keys.SoftKey> und wählen die
 Funktion aus, die Sie bearbeiten möchten. (Es lassen sich nur bereits
 erfolgte Zuweisungen bearbeiten; nicht gemappte Funktionen werden
 ausgegraut dargestellt). Es lassen sich nun die Unter- und Obergrenzen
@@ -387,7 +389,7 @@ des Ziel-Bereiches mit den Encodern, mit den Rad-Schaltflächen oder -
 numerisch - mit den entsprechenden Funktionstasten einstellen.
 
 Sind die gewünschten Einstellungen erfolgt, so klicken Sie auf
-\[Apply\], dann auf \[Confirm\]. Mit \[Cancel\] und \[Confirm\] dagegen
+<Keys.SoftKey>Apply</Keys.SoftKey>, dann auf <Keys.SoftKey>Confirm</Keys.SoftKey>. Mit <Keys.SoftKey>Cancel</Keys.SoftKey> und <Keys.SoftKey>Confirm</Keys.SoftKey> dagegen
 werden die Änderungen verworfen.
 
 Bereits gepatchte Personalities aktualisieren
@@ -404,16 +406,16 @@ Geräte nicht verändert werden.
     entscheiden, oder es kommt zu Problemen, so lassen sich mit einer
     Sicherung alle Änderungen rückgängig machen.
 
-1.  Drücken Sie \<Patch\>, um in den Patch-Modus zu gelangen.
+1.  Drücken Sie <Keys.HardKey>Patch</Keys.HardKey>, um in den Patch-Modus zu gelangen.
 
-2.  Drücken Sie \[Edit Fixtures\].
+2.  Drücken Sie <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
 
-3.  Drücken Sie \[Update Personality\]. 
+3.  Drücken Sie <Keys.SoftKey>Update Personality</Keys.SoftKey>. 
 
 4.  Titan zeigt alle Gerätetypen, die in der Show gespeichert sind 
     und für die Updates in der installierten Gerätebibliothek vorliegen.
 	Wählen Sie den oder die Typen, die Sie aktualisieren wollen, oder 
-	klicken Sie auf \[Update All\], um alle Gerätetypen zu aktualisieren.
+	klicken Sie auf <Keys.SoftKey>Update All</Keys.SoftKey>, um alle Gerätetypen zu aktualisieren.
 
 -   Sollen viele Geräte aktualisiert geupdatet werden, so kann das eventuell
     einige Sekunden dauern.

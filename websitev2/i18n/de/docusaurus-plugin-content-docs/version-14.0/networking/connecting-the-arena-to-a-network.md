@@ -5,6 +5,8 @@ sidebar_label: Connecting the Arena to a network
 original_id: connecting-the-arena-to-a-network
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Anders als die anderen Titan-Pulte verfügt das Arena über einen
 integrierten Netzwerkswitch und einen optischen Netzwerkschluss
 (optional: zwei). **Dieser Abschnitt gilt nur für das Arena!**

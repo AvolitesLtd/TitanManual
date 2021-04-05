@@ -5,6 +5,8 @@ sidebar_label: Linking Consoles for Multi-User or Backup
 original_id: linking-consoles-for-multi-user-or-backup
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Bei größeren Shows ist es mitunter nötig, mit mehreren Programmierern
 gleichzeitig an der Show zu arbeiten. Titan ermöglicht dies für mehrere
 Pulte, sowie für jeden Benutzer unterschiedliche Einstellungen
@@ -39,7 +41,7 @@ andere haben. Gute Vorplanung ist dafür essentiell.
 1.	Verbinden Sie beide Pulte mit dem gleichen Netzwerk und geben Sie
     passende IP-Adressen aus einem Bereich ein (Details siehe [Netzwerk](../networking.md).
 
-2.	Drücken Sie \<Disk\>, dann \[TitanNet Sessions\], dann \[Backup\].
+2.	Drücken Sie <Keys.HardKey>Disk</Keys.HardKey>, dann <Keys.SoftKey>TitanNet Sessions</Keys.SoftKey>, dann <Keys.SoftKey>Backup</Keys.SoftKey>.
 
 3.	Es werden nun die im Netzwerk gefundenen Titan-Pulte aufgelistet.
 
@@ -60,15 +62,15 @@ laufender Synchronisationsvorgänge erscheint die Linie in blau.
 
 -   Showdaten werden automatisch synchronisiert, wenn auf dem Hauptpult
     die Show gesichert wird, ebenso bei Autosave. Außerdem kann man auf
-    dem Backup-Pult jederzeit per \[Sync Now\] die Synchronisierung
+    dem Backup-Pult jederzeit per <Keys.SoftKey>Sync Now</Keys.SoftKey> die Synchronisierung
     veranlassen.
 
--   Mit \[Exit\] wird der Backup-Modus beendet.
+-   Mit <Keys.SoftKey>Exit</Keys.SoftKey> wird der Backup-Modus beendet.
 
--   Mit \[Takeover\] übernimmt das Backup-Pult die Kontrolle, und die
+-   Mit <Keys.SoftKey>Takeover</Keys.SoftKey> übernimmt das Backup-Pult die Kontrolle, und die
     DMX-Ausgänge am Hauptpult werden deaktiviert. Dabei erscheint im
     Infobereich (oben rechts auf dem Display) eine entsprechende
     Meldung. Auf Geräten mit Touchscreen kann man darauf klicken und
     gelangt in das Menü "Exit Safe Mode", in dem wiederum die Ausgänge
     wieder aktiviert werden können. Auf dem Pearl Expert findet man
-    diese Funktion im \<Avo\>-Menü.
+    diese Funktion im <Keys.HardKey>Avo</Keys.HardKey>-Menü.

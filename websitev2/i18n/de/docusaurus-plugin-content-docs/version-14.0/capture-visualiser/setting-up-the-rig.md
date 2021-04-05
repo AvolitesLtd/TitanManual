@@ -5,22 +5,24 @@ sidebar_label: Setting up the Rig
 original_id: setting-up-the-rig
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Raum und Bühne
 --------------
 
 Für einen realistischen Eindruck und eine bessere Orientierung lassen
 sich verschiedene feste Elemente hinzufügen.
 
-Öffnen Sie das Fenster \[Capture Visualiser Settings\] (entweder per Doppelklick auf
-[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster), oder durch einen Klick auf den
-Kontext-Button \{Open Settings\} im Capture Visualiser-Fenster). Klicken Sie
+Öffnen Sie das Fenster <Keys.SoftKey>Capture Visualiser Settings</Keys.SoftKey> (entweder per Doppelklick auf
+[<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster), oder durch einen Klick auf den
+Kontext-Button <Keys.ContextKey>Open Settings</Keys.ContextKey> im Capture Visualiser-Fenster). Klicken Sie
 oben auf den Reiter **Stage**.
 
 ![Capture Visualiser Settings Window](/docs/images/Capture-Visualiser-Settings-Window.png)
 
 
 Die Elemente **"Floor"** (Boden) und **"Back Wall"** (Rückwand) sind bereits
-eingerichtet. Klickt man links unten auf das \{+\} (Pluszeichen), so
+eingerichtet. Klickt man links unten auf das <Keys.ContextKey>+</Keys.ContextKey> (Pluszeichen), so
 können weitere Objekte hinzugefügt werden.
 
 Klicken Sie links auf eines der vorhandenen Objekte, so können seine
@@ -38,21 +40,21 @@ Capture-Bühne hinzugefügt.
 
 Wird eine Show aus einer früheren Titan-Version [geladen](../titan-basics/loading-and-saving-shows.md#laden-einer-show), so werden die
 Geräte/Fixtures **nicht** automatisch zu Capture hinzugefügt. Dazu ist
-zunächst ein [Updaten der Personalities](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren) erforderlich: \<Patch\> \[Edit
-Fixtures\] \[Update Personality\] \[Update All\]. Auch ein Gerätetausch ([Exchange Fixtures](../patching/changing-the-patch.md#geräte-austauschen)) kann helfen.
+zunächst ein [Updaten der Personalities](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren) erforderlich: <Keys.HardKey>Patch</Keys.HardKey> \[Edit
+Fixtures\] <Keys.SoftKey>Update Personality</Keys.SoftKey> <Keys.SoftKey>Update All</Keys.SoftKey>. Auch ein Gerätetausch ([Exchange Fixtures](../patching/changing-the-patch.md#geräte-austauschen)) kann helfen.
 
 Geräte werden, sobald sie in Capture vorhanden sind, mit den Rädern
 (Encodern) positioniert. Wählen Sie dazu [ein oder mehrere Geräte oder
-ein Gerätegruppe](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) aus und drücken Sie [\<Locate\>](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate). Mit dem Kontext-Button
-\{Position - Orientation\} wird die Steuerung für Position und
+ein Gerätegruppe](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) aus und drücken Sie [<Keys.HardKey>Locate</Keys.HardKey>](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate). Mit dem Kontext-Button
+<Keys.ContextKey>Position - Orientation</Keys.ContextKey> wird die Steuerung für Position und
 Orientierung der jeweils ausgewählten Geräte auf die Wheels gelegt. *Das
 Gleiche passiert, wenn man den Rad-Modus mit der Menütaste G auf „Räder
 = Visualiser" schaltet.*
 
 Wählen Sie mit den Attribut-Tasten **Position**, so können Sie nun die
 X/Y/Z-Position der gewählten Fixtures einstellen. Sind mehrere Geräte
-gewählt, so lassen sich mit der \<Fan\>-Taste oder der Option
-\{Scale-Fan\} die Geräte gleichmäßig verteilen/auffächern. Auch die
+gewählt, so lassen sich mit der <Keys.HardKey>Fan</Keys.HardKey>-Taste oder der Option
+<Keys.ContextKey>Scale-Fan</Keys.ContextKey> die Geräte gleichmäßig verteilen/auffächern. Auch die
 anderen Optionen der Fan-Funktion [(Split, Curve, Group)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-modus) funktionieren
 wie gewohnt.
 
@@ -111,13 +113,13 @@ Verfügung.
 ![Capture Visualiser Workspace Window Context Menu](/docs/images/Capture-Visualiser-Workspace-Window-Context-Menu.png)
 
 Die Steuerung der Kameras erfolgt im Fenster [Capture Visualiser Settings](#setting-up-the-stage-and-rigging): zum Öffnen drücken Sie zweimal auf 
-\<View / Open\> und wählen \[Capture Settings\] von den Buttons,
-oder Sie verwenden den Kontext-Button \{Open Settings\} des Capture-Fensters.
+<Keys.HardKey>View / Open</Keys.HardKey> und wählen <Keys.SoftKey>Capture Settings</Keys.SoftKey> von den Buttons,
+oder Sie verwenden den Kontext-Button <Keys.ContextKey>Open Settings</Keys.ContextKey> des Capture-Fensters.
 
 Die Steuerung der Kameras erfolgt ebenfalls im Fenster **Capture Visualiser Settings** auf dem Reiter 'Cameras'.
 
 Mit den vier Schaltflächen oben lassen sich die verschiedenen Kameras
-umschalten *(siehe unten)*; klickt man rechts auf das \{+\}, kann man weitere Kameras
+umschalten *(siehe unten)*; klickt man rechts auf das <Keys.ContextKey>+</Keys.ContextKey>, kann man weitere Kameras
 hinzufügen.
 
 ![Camera movements in Capture Visualiser Workspace Window](/docs/images/Camera-movements-in-Capture-Visualiser-Workspace-Window.png)
@@ -140,12 +142,12 @@ mit den Buttons darunter gewählt:
 -   **Orbit:** schwenkt die Kamera im Kreis um die Bühne, wobei sie stets
     auf den gleichen Punkt ausgerichtet bleibt.
 
-Klickt man auf den Kontext-Button \{Move Camera\}, so kann man die
+Klickt man auf den Kontext-Button <Keys.ContextKey>Move Camera</Keys.ContextKey>, so kann man die
 Kamera mit den Rädern bewegen sowie im Menü **Set Coordinates** 
 die Position/Rotation numerisch eingeben.
 
-Klickt man auf den Kontext-Button \{Rotate Camera\} oder \{Orbit
-Camera\}, so kann man die Kamera mit den Rädern drehen/schwenken, sowie
+Klickt man auf den Kontext-Button <Keys.ContextKey>Rotate Camera</Keys.ContextKey> oder \\u123Orbit
+Camera\\u125, so kann man die Kamera mit den Rädern drehen/schwenken, sowie
 die Rotation numerisch eingeben.
 
 Capture Darstellungs-Optionen

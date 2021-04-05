@@ -5,6 +5,8 @@ sidebar_label: Cue Timing
 original_id: cue-timing
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The console allows a wide variety of timing functions to be set for each
 cue.
 
@@ -35,21 +37,21 @@ be recorded when you save the cue.
 
 You can also edit times of a cue you have already saved like this:
 
-1. Press \[Edit Times\] at the top level menu
+1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> at the top level menu
 
 2. Press the **Swop** button of the cue
 
-3. Press \[Fade Mode x\] to set the cue mode.\
+3. Press <Keys.SoftKey>Fade Mode x</Keys.SoftKey> to set the cue mode.\
 *This sets how the times are used, [see below](#fade-modes).*
 
-4. Press \[Delay time\] to set the delay before the cue starts, \[Fade
-time\] to set the fade-in time of the cue, and \[Fade out time\] to set
+4. Press <Keys.SoftKey>Delay time</Keys.SoftKey> to set the delay before the cue starts, \[Fade
+time\] to set the fade-in time of the cue, and <Keys.SoftKey>Fade out time</Keys.SoftKey> to set
 the fade-out time of the cue.
 
 5. Type the new time (in seconds) using the numeric keypad and press
-\<Enter\> to save it.
+<Keys.HardKey>Enter</Keys.HardKey> to save it.
 
-6. Press \[Fixture Overlap\] to change the overlap, then enter **0 - 100** on
+6. Press <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> to change the overlap, then enter **0 - 100** on
 the keypad.\
 **100%** means all fixtures fade together.\
 **0%** means that the first fixture will finish its fade before the next one starts.\
@@ -58,7 +60,7 @@ through its fade.\
 The order of the fixtures is set by the order you selected them *(but you
 can change this, see [Changing Fixture Order](#changing-fixture-order))*.
 
-7. Press \<Exit\> to get out of Edit Times mode.
+7. Press <Keys.HardKey>Exit</Keys.HardKey> to get out of Edit Times mode.
 
 ---
 
@@ -67,29 +69,29 @@ can change this, see [Changing Fixture Order](#changing-fixture-order))*.
     [Setting Attribute Fade Times for a Cue](#setting-attribute-fade-times-for-a-cue)
     for details of this)*.
 
--   You can quickly set times from the keypad using the \<Time\> button,
-    e.g. \<Time\> \<5\> \<And\> \<2\> sets 5 sec fade in and 2 sec fade out.
-    *(The Time button is the button previously labelled \<Set\> on Titan
-    Mobile and Sapphire Touch, and \<Next Time\> on Tiger Touch and Pearl
+-   You can quickly set times from the keypad using the <Keys.HardKey>Time</Keys.HardKey> button,
+    e.g. <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> <Keys.HardKey>And</Keys.HardKey> <Keys.HardKey>2</Keys.HardKey> sets 5 sec fade in and 2 sec fade out.
+    *(The Time button is the button previously labelled <Keys.HardKey>Set</Keys.HardKey> on Titan
+    Mobile and Sapphire Touch, and <Keys.HardKey>Next Time</Keys.HardKey> on Tiger Touch and Pearl
     Expert)*.
 
 ### Fade Modes
 
 The times you enter are affected by the cue mode which is set using the
-\[Fade Mode\] option. This option can also be set from \[Playback Options\],
-\[Fade Mode\]:
+<Keys.SoftKey>Fade Mode</Keys.SoftKey> option. This option can also be set from <Keys.SoftKey>Playback Options</Keys.SoftKey>,
+<Keys.SoftKey>Fade Mode</Keys.SoftKey>:
 
--   \[Mode 0\] - Channels will fade in as set by the fade time. The Fade
+-   <Keys.SoftKey>Mode 0</Keys.SoftKey> - Channels will fade in as set by the fade time. The Fade
     Out time is ignored. If times are set to zero, the HTP channels fade
     in with the 0-100% position of the playback fader and the LTP
     channels will snap.
 
--   \[Mode 1\] - Channels fade in as set by the fade time. HTP channels fade
+-   <Keys.SoftKey>Mode 1</Keys.SoftKey> - Channels fade in as set by the fade time. HTP channels fade
     out as set by the fade out times (LTP channels remain as set in the
     cue). If times are set to zero, the HTP levels will fade in and out
     with the fader and the LTP channels will snap when the cue is fired.
 
--   \[Mode 2\] - Channels will fade in as set by the fade time. The Fade
+-   <Keys.SoftKey>Mode 2</Keys.SoftKey> - Channels will fade in as set by the fade time. The Fade
     Out time is ignored. However, the fade will stop when the fader
     position is reached, so if the fader is set to 50%, the attributes
     will stop half way to their programmed position. You can reverse the
@@ -102,14 +104,14 @@ The times you enter are affected by the cue mode which is set using the
     a spot across a stage or down a catwalk using the fader position, or
     for colour mixing using RGB fixtures.*
 
--   \[Mode 3\] - Crossfade cue. All channels, including intensity channels,
+-   <Keys.SoftKey>Mode 3</Keys.SoftKey> - Crossfade cue. All channels, including intensity channels,
     will fade to the settings in the new cue. All other cues fade out
     and all other active playbacks become inactive; if you need to
     re-fire a playback, take the fader to zero and put it up again.
 
 >   If the cue includes shapes, then the shape will change with fade
-    times. The changes will be timed for a \[Mode 1\] cue and controlled by
-    the fader position for a \[Mode 2\] cue. This allows you to create a
+    times. The changes will be timed for a <Keys.SoftKey>Mode 1</Keys.SoftKey> cue and controlled by
+    the fader position for a <Keys.SoftKey>Mode 2</Keys.SoftKey> cue. This allows you to create a
     shape which gets bigger or faster as you push up the fader.
 
 Changing Fixture Order
@@ -121,16 +123,16 @@ created, but you might want to change this *(for example to pair up
 fixtures so they move together when using 
 [Overlap](#setting-fade-times-and-overlap-for-a-cue))*.
 
-1. Press \[Edit Times\] at the top level menu
+1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> at the top level menu
 
 2. Press the **Swop** button of the cue to be changed
 
-3. Press \[Fixture Order\]
+3. Press <Keys.SoftKey>Fixture Order</Keys.SoftKey>
 
-4. Set the sequence number to start from using \[softkey A\]
+4. Set the sequence number to start from using <Keys.SoftKey>softkey A</Keys.SoftKey>
 
 5. If you want the sequence number to increase automatically, set
-\[Autoincrement\] to **On**. If you want some fixtures to have the same
+<Keys.SoftKey>Autoincrement</Keys.SoftKey> to **On**. If you want some fixtures to have the same
 sequence number, set it to **Off**.
 
 6. Touch the **Select** buttons of the fixture(s) you want to place in that
@@ -139,7 +141,7 @@ hand corner of the fixture select touch buttons.
 
 ![Fixtures Window setting Fixture Order](/docs/images/Fixtures-Window-showing-fixture-order.png)
 
-7. Press \<Exit\> to finish.
+7. Press <Keys.HardKey>Exit</Keys.HardKey> to finish.
 
 ---
 
@@ -148,7 +150,7 @@ hand corner of the fixture select touch buttons.
     thing at the same time.
 
 -   You can remove a fixture from the sequence by turning off
-    \[Autoincrement\] and pressing the fixture button twice. The fixture
+    <Keys.SoftKey>Autoincrement</Keys.SoftKey> and pressing the fixture button twice. The fixture
     sequence will show X. Touch the button again to put it back in the
     sequence.
 
@@ -160,20 +162,20 @@ Position). If you set a time, it overrides the normal times.
 
 To set an attribute group fade time:
 
-1. Press \[Edit Times\] at the top level menu
+1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> at the top level menu
 
 2. Press the **Swop** button of the cue to be changed
 
 3. Press the Attribute Bank button (right hand side) for the attribute
 you want to change
 
-4. Press \[Delay\] to set delay time or \[Set fade\] to set fade time
+4. Press <Keys.SoftKey>Delay</Keys.SoftKey> to set delay time or <Keys.SoftKey>Set fade</Keys.SoftKey> to set fade time
 
-5. Type the new time using the numeric keypad and press \<Enter\> to
-save it, or press \[Use Global\] to delete the attribute times and go
+5. Type the new time using the numeric keypad and press <Keys.HardKey>Enter</Keys.HardKey> to
+save it, or press <Keys.SoftKey>Use Global</Keys.SoftKey> to delete the attribute times and go
 back to the normal times.
 
-6. Press \<Enter\> to save the changes.
+6. Press <Keys.HardKey>Enter</Keys.HardKey> to save the changes.
 
 You can take this even further and set individual fade times for each
 fixture. When you select the cue to be changed, you will see that all
@@ -184,7 +186,7 @@ The [Cue View window](editing-cues.md#cue-view) will display when editing cue ti
 see what you are editing. You can touch fixtures or attributes in the
 grid to select which items are going to be edited.
 
-Press the \<All\> button to select all fixtures in the cue.
+Press the <Keys.HardKey>All</Keys.HardKey> button to select all fixtures in the cue.
 
 When you are in the Set Attribute Times menu you can only select
 fixtures which are in the cue you are editing.
@@ -198,46 +200,46 @@ saving a cue. You can also set times into the programmer and
 into cues as a quick way of updating times, just like you would with
 attribute values.
 
-Press the \<Time\> button to access this menu.
+Press the <Keys.HardKey>Time</Keys.HardKey> button to access this menu.
 
 >   On Titan Mobile and Sapphire Touch, the Time button is the key above
-    \<Clear\> (previously labelled \<Set\>). On Pearl Expert and Tiger Touch
-    it is the key previously labelled \<Next Time\>.
+    <Keys.HardKey>Clear</Keys.HardKey> (previously labelled <Keys.HardKey>Set</Keys.HardKey>). On Pearl Expert and Tiger Touch
+    it is the key previously labelled <Keys.HardKey>Next Time</Keys.HardKey>.
 
 The menu allows you to set cue times, or times for all attributes of a
 fixture, attribute groups or individual attributes.
 
 ![Edit Programmer Cue Times in the Titan Go interface](/docs/images/Edit-Programmer-Cue-Times-in-the-Titan-Go-interface.png)
 
-Using the \<Time\> button there are various quick shortcuts to setting
+Using the <Keys.HardKey>Time</Keys.HardKey> button there are various quick shortcuts to setting
 times.
 
--   \<Time\> \<5\> = 5 sec fade in
+-   <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 sec fade in
 
--   \<CUE\> \<3\> \<Time\> \<5\> = 5 sec fade in on connected playback's cue 3
+-   <Keys.HardKey>CUE</Keys.HardKey> <Keys.HardKey>3</Keys.HardKey> <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 sec fade in on connected playback's cue 3
 
--   \<Time\> **FIXTURE** \<5\> = 5 sec fade in for all attributes of selected
+-   <Keys.HardKey>Time</Keys.HardKey> **FIXTURE** <Keys.HardKey>5</Keys.HardKey> = 5 sec fade in for all attributes of selected
     fixtures
 
--   \<Time\> **FIXTURE** \<G\> \<5\> = 5 sec fade in for gobo attribute group of
+-   <Keys.HardKey>Time</Keys.HardKey> **FIXTURE** <Keys.HardKey>G</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 sec fade in for gobo attribute group of
     selected fixtures
 
--   \<Time\> **FIXTURE** \<\@B\> \<5\> = 5 sec fade in for attribute connected to wheel
+-   <Keys.HardKey>Time</Keys.HardKey> **FIXTURE** <Keys.HardKey>\@B</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 sec fade in for attribute connected to wheel
     B on selected fixtures
 
--   \<5\> \<@\> \<3\> = 5 sec fade in, 3 sec delay
+-   <Keys.HardKey>5</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>3</Keys.HardKey> = 5 sec fade in, 3 sec delay
 
--   \<5\> \<AND\> \<2\> = 5 sec fade in, 2 sec fade out
+-   <Keys.HardKey>5</Keys.HardKey> <Keys.HardKey>AND</Keys.HardKey> <Keys.HardKey>2</Keys.HardKey> = 5 sec fade in, 2 sec fade out
 
--   \<1\> \<THRO\> \<10\> = times spread across fixtures according to selection
+-   <Keys.HardKey>1</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>10</Keys.HardKey> = times spread across fixtures according to selection
     order
 
 [Video covering Timing SYNTHAX](https://youtu.be/GHq9b3PT8U0?t=20)
 
 Individual attribute times can also be set from the wheels, using the
-\[Wheels\] softkey option on the root menu.
+<Keys.SoftKey>Wheels</Keys.SoftKey> softkey option on the root menu.
 
-Using the \<Options\> button while showing the times allows you to set
+Using the <Keys.HardKey>Options</Keys.HardKey> button while showing the times allows you to set
 the **Speed**, **Effect Multiplier**, **Speed Multiplier** and **speed source** in the
 programmer. Speed and Speed Multiplier would only do anything if you
 create a [chase](../chases.md) and would have no effect in a cue.

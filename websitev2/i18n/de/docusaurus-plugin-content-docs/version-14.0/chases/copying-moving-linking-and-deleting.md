@@ -5,10 +5,12 @@ sidebar_label: Copying, Moving, Linking and Deleting
 original_id: copying-moving-linking-and-deleting
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Einen Chaser verschieben oder kopieren
 --------------------------------------
 
-Mit den Tasten \<Copy\> und \<Move\> können Chaser 
+Mit den Tasten <Keys.HardKey>Copy</Keys.HardKey> und <Keys.HardKey>Move</Keys.HardKey> können Chaser 
 kopiert oder auf einen anderen Speicherplatz verschoben
 werden, oder Sie können eine Verknüpfung auf einen bestehenden Chaser
 erstellen. Verschieben ist sinnvoll zum Erhalt einer aufgeräumten
@@ -25,7 +27,7 @@ von Cues, und ist in Abschnitt
 Löschen eines Chasers
 ---------------------
 
-Zum Löschen eines kompletten Chasers drücken Sie \<Delete\>, dann die
+Zum Löschen eines kompletten Chasers drücken Sie <Keys.HardKey>Delete</Keys.HardKey>, dann die
 **Auswahltaste** des Chasers. Drücken Sie diese zur Bestätigung nochmals.
 
 Löschen eines Schrittes aus einem Chaser
@@ -33,7 +35,7 @@ Löschen eines Schrittes aus einem Chaser
 
 Um einen einzelnen Schritt zu löschen:
 
-1. Drücken Sie die \<Delete\>-Taste.
+1. Drücken Sie die <Keys.HardKey>Delete</Keys.HardKey>-Taste.
 
 2. Drücken Sie die **Auswahltaste** des Chasers.
 
@@ -41,9 +43,9 @@ Um einen einzelnen Schritt zu löschen:
 Wählen Sie mit dem **linken Encoder** den zu löschenden Schritt, oder geben Sie
 dessen Nummer mit den Zifferntasten ein.
 
-4. Drücken Sie \[Delete Cue x\], um den Schritt zu löschen.
+4. Drücken Sie <Keys.SoftKey>Delete Cue x</Keys.SoftKey>, um den Schritt zu löschen.
 
-5. Bestätigen Sie den Löschvorgang mit \[Confirm\].
+5. Bestätigen Sie den Löschvorgang mit <Keys.SoftKey>Confirm</Keys.SoftKey>.
 
 > Alternativ lassen sich auch einzelne Schritte mit der
-[\<Unfold\>-Funktion](editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion) löschen.
+[<Keys.HardKey>Unfold</Keys.HardKey>-Funktion](editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion) löschen.

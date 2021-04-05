@@ -5,6 +5,8 @@ sidebar_label: Fixture Personalities
 original_id: fixture-personalities
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 For each type of fixture, the console has a "personality" file which
 tells it how to control the fixture, which channel is the dimmer (HTP)
 channel, and a large amount of other fixture-specific information. When
@@ -88,7 +90,7 @@ Titan software.
 
 -   Once a fixture is patched, its personality is embedded in the show
     file. Any changes to the fixture library will not affect fixtures
-    patched in the show. You can use the \[Update Personality\] option
+    patched in the show. You can use the <Keys.SoftKey>Update Personality</Keys.SoftKey> option
     in the patch menu to update patched fixtures if you need to.
 
 User/custom personalities
@@ -144,7 +146,7 @@ In an emergency
 The console contains a selection of "Generic" fixtures which you can use
 in an emergency if you need to operate a fixture with no personality.
 When patching, go through the manufacturer list until you find
-\[Generic\]. In this section (among other fixtures) are the following:
+<Keys.SoftKey>Generic</Keys.SoftKey>. In this section (among other fixtures) are the following:
 
 Multi-DMX: Has up to 10 DMX channels, all channels are LTP. You can
 select from 1-10 channels on the Mode screen. Press Attribute Bank and

@@ -39,7 +39,7 @@ doing.
 \(G\) The **Menu Softkeys** (labelled A - G) are used to select control
 options. The options for each key change depending on what the console
 is doing. Softkey commands are shown in the manual
-like this: \[Edit Times\]
+like this: <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 ![Sapphire Front 2](/docs/images/Sapphire-Front-2.png)
 

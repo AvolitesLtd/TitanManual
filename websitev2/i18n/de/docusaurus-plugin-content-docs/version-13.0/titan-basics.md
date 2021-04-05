@@ -5,6 +5,8 @@ sidebar_label: Connecting up and Titan basics
 original_id: titan-basics
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 In diesem Abschnitt wird das Anschließen des Pultes sowie die
 grundlegende Bedienung erläutert.
 
@@ -201,7 +203,7 @@ davon abhängig, dass der verwendete Computer dies unterstützt.
 
 Der externe Bildschirm ist standardmäßig deaktiviert, und zeigt das mit
 'Disabled' an. Um ihn zu aktivieren, schalten Sie in den 'System'-Modus
-(\<Avo\> + \<Disk\>), wählen \[Display Setup\], und drücken \[External
+(<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), wählen <Keys.SoftKey>Display Setup</Keys.SoftKey>, und drücken \[External
 Display Disconnected\]. Damit ändert sich die Anzeige auf \[External
 Display Connected\], und der Bildschirm wird aktiviert.
 

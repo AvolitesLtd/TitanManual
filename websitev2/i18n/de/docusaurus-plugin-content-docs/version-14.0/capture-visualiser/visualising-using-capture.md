@@ -5,6 +5,8 @@ sidebar_label: Visualising using Capture
 original_id: visualising-using-capture
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Es sind keine besonderen Einstellungen erforderlich, um Capture zu
 verwenden. Bedienen Sie einfach da Pult wie gewohnt, und Capture zeigt
 eine Simulation dessen, was mit Ihren Fixtures passiert.

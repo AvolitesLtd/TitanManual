@@ -5,6 +5,8 @@ sidebar_label: TNP (Titan Net Processor)
 original_id: tnp
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 ![TNP](/docs/images/TNP.png)
 
 The TitanNet Processor is the insides of a console without the control

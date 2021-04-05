@@ -5,6 +5,8 @@ sidebar_label: Pixel Mapper Examples
 original_id: pixel-mapper-examples
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Zufallseffekte
 --------------
 
@@ -16,22 +18,22 @@ anderweitig für die Dimmer eingestellte Pegel.
 zusammengefasst werden.
 
 2. Als nächstes muss das Layout der Geräte in dieser Gruppe
-entsprechend eingestellt werden (mit \[Shapes And Effects\], \[Pixel
-Mapper\], \[Edit Group Layout\], Gruppe auswählen).
+entsprechend eingestellt werden (mit <Keys.SoftKey>Shapes And Effects</Keys.SoftKey>, \[Pixel
+Mapper\], <Keys.SoftKey>Edit Group Layout</Keys.SoftKey>, Gruppe auswählen).
 
 3. Erstellen Sie nun einen Effekt: wählen Sie die Gruppe aus und
-klicken Sie \[Shapes And Effects\], \[Pixel Mapper\], \[Create Effect\].
+klicken Sie <Keys.SoftKey>Shapes And Effects</Keys.SoftKey>, <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Create Effect</Keys.SoftKey>.
 
-4. Im Effekt-Editor schalten Sie die Option \[Fixture Overlay\] auf
-\[Fixture Overlay 50/50\]. *(Damit sieht man das Ergebnis direkt beim
+4. Im Effekt-Editor schalten Sie die Option <Keys.SoftKey>Fixture Overlay</Keys.SoftKey> auf
+<Keys.SoftKey>Fixture Overlay 50/50</Keys.SoftKey>. *(Damit sieht man das Ergebnis direkt beim
 Erstellen des Effekts.)*
 ![Effect Editor - Pixel Mapper - Fixture Overlay 50/50](/docs/images/Effect-Editor-Pixel-Mapper-Fixture-Overlay-50-50.png)
 
-5. Wählen Sie links \[Effect\] und stellen den Fader **Background Opacity** 
+5. Wählen Sie links <Keys.SoftKey>Effect</Keys.SoftKey> und stellen den Fader **Background Opacity** 
 auf **0%**. *(Damit überlagert der Effekt alle anderen Werte.)*
 ![Effect Editor - Pixel Mapper - Setting Background Opacity of Effect](/docs/images/Effect-Editor-Pixel-Mapper-Setting-Background-Opacity-of-Effect.png)
 
-6. Wählen Sie \[Layer 1\], klicken auf \[+\] am unteren Rand des
+6. Wählen Sie <Keys.SoftKey>Layer 1</Keys.SoftKey>, klicken auf <Keys.SoftKey>+</Keys.SoftKey> am unteren Rand des
 Bildschirms, und wählen Sie als Form den **Kreis**.
 ![Effect Editor - Pixel Mapper - Adding a Circle to Layer 1](/docs/images/Effect-Editor-Pixel-Mapper-Adding-a-Circle-to-Layer-1.png)
 
@@ -41,13 +43,13 @@ wird. Ebenso kann man dies mit **Width** und **Height** erreichen.
     Schieben Sie den Kreis dann mit **X** und **Y** etwa in die Mitte der Fläche.
     ![Effect Editor - Pixel Mapper - Transforming a Circle Element](/docs/images/Effect-Editor-Pixel-Mapper-Transforming-a-Circle-Element.png)
 
-8. Klicken Sie wieder auf \[+\] und wählen Sie als Animation **zufällige
+8. Klicken Sie wieder auf <Keys.SoftKey>+</Keys.SoftKey> und wählen Sie als Animation **zufällige
 Position** (dargestellt durch mehrere kleine Blöcke).
 ![Effect Editor - Pixel Mapper - ](/docs/images/Effect-Editor-Pixel-Mapper.png)  
 (Achtung: bis jetzt
 ist noch kein Effekt zu sehen.)
 
-9. Klicken Sie \[+\] und wählen Sie diesmal **Opacity** als Effekt
+9. Klicken Sie <Keys.SoftKey>+</Keys.SoftKey> und wählen Sie diesmal **Opacity** als Effekt
 (dargestellt als teilweise sichtbarer Block).
 
 10. Variieren Sie nun den Effekt:
@@ -64,7 +66,7 @@ ist noch kein Effekt zu sehen.)
 
     ![Effect Editor - Pixel Mapper - Modify an Opacity Animation](/docs/images/Effect-Editor-Pixel-Mapper-Modify-an-Opacity-Animation.png)
 
-11. Speichern Sie mittels \<Record\> das Ergebnis als Cue.
+11. Speichern Sie mittels <Keys.HardKey>Record</Keys.HardKey> das Ergebnis als Cue.
 
 Effekte und Layer kombinieren
 -----------------------------
@@ -75,10 +77,10 @@ rotierenden roten 'Propeller' erstellt.
 1.  Erstellen Sie ein Gruppe von Geräten und legen Sie das Layout wie im
 [vorigen Beispiel](#zufallseffekte) beschrieben fest.
 
-2.  Starten Sie den Effekt-Editor mit \[Shapes And Effects\], \[Pixel
-Mapper\], \[Create Effect\].
+2.  Starten Sie den Effekt-Editor mit <Keys.SoftKey>Shapes And Effects</Keys.SoftKey>, \[Pixel
+Mapper\], <Keys.SoftKey>Create Effect</Keys.SoftKey>.
 
-3.  Wählen Sie \[Layer 1\], klicken auf das \[+\] unten links und wählen
+3.  Wählen Sie <Keys.SoftKey>Layer 1</Keys.SoftKey>, klicken auf das <Keys.SoftKey>+</Keys.SoftKey> unten links und wählen
 den Block als grafisches Element.
 
     Stellen Sie die **Rotation** auf ca. 25° nach rechts ein.
@@ -93,7 +95,7 @@ den Block als grafisches Element.
 
     ![Effect Editor - Pixel Mapper - Transforming a Block](/docs/images/Effect-Editor-Pixel-Mapper-Transforming-a-Block.png)
 
-4.  Klicken Sie wieder auf \[+\] und wählen Sie als Animation
+4.  Klicken Sie wieder auf <Keys.SoftKey>+</Keys.SoftKey> und wählen Sie als Animation
 	**Lineare Bewegung** (dargestellt als von links nach rechts sich bewegender
 	Block).
 
@@ -113,7 +115,7 @@ den Block als grafisches Element.
 
     ![Effect Editor - Pixel Mapper - Modify a Linear Movement Animation](/docs/images/Effect-Editor-Pixel-Mapper-Modify-a-Linear-Movement-Animation.png)
 
-5.  Klicken Sie auf \[Layer 2\], dann auf \[+\], und wählen Sie den
+5.  Klicken Sie auf <Keys.SoftKey>Layer 2</Keys.SoftKey>, dann auf <Keys.SoftKey>+</Keys.SoftKey>, und wählen Sie den
 	stilisierten Propeller.
 
     Stellen Sie den **Zoom** so ein, dass die Grafik die gesamte Fläche füllt.
@@ -131,7 +133,7 @@ den Block als grafisches Element.
 
     ![Effect Editor - Pixel Mapper - Modifying Swirl](/docs/images/Effect-Editor-Pixel-Mapper-Modifying-Swirl.png)
 
-6.  Klicken Sie auf \[+\] und fügen Sie eine Rotations-Animation hinzu.
+6.  Klicken Sie auf <Keys.SoftKey>+</Keys.SoftKey> und fügen Sie eine Rotations-Animation hinzu.
 	
 	Verringern Sie die Geschwindigkeit.
 
@@ -144,12 +146,12 @@ den Block als grafisches Element.
 
     ![Effect Editor - Pixel Mapper - Changing Colour of Swirl to Red](/docs/images/Effect-Editor-Pixel-Mapper-Changing-Colour-of-Swirl-to-Red.png)
 
-8.  Klicken Sie auf \[Effect\] ganz oben links für die Globalsteuerung.
+8.  Klicken Sie auf <Keys.SoftKey>Effect</Keys.SoftKey> ganz oben links für die Globalsteuerung.
 
     Stellen Sie **Pre Spool** auf 0s (ganz links) *(damit beginnt der
 	Wischeffekt außerhalb, wie gewünscht)*.
 
-9.  Speichern Sie dies mit \<Record\> als Cue.
+9.  Speichern Sie dies mit <Keys.HardKey>Record</Keys.HardKey> als Cue.
 
 >   Diese Beispiel verdeutlicht, wie mehrere Layer miteinander
     kombiniert werden: ein Layer mit einer höheren Nummer ist dabei im
@@ -171,20 +173,20 @@ Damit lassen sich schnell und einfach interessante Effekte erzielen.
 
 1. Wählen Sie die betreffenden Geräte aus.
 
-2. Drücken Sie \<All\>, um nach Muster auszuwählen.
+2. Drücken Sie <Keys.HardKey>All</Keys.HardKey>, um nach Muster auszuwählen.
 
-3. Wählen Sie mit \[Odd\] alle ungeraden Geräte aus.
+3. Wählen Sie mit <Keys.SoftKey>Odd</Keys.SoftKey> alle ungeraden Geräte aus.
 
 4. Speichern Sie die Auswahl in eine Gruppe.
 
-5. Drücken Sie \<Fix+1\> (oder \<Next\>). *(Damit werden alle geraden
+5. Drücken Sie <Keys.HardKey>Fix+1</Keys.HardKey> (oder <Keys.HardKey>Next</Keys.HardKey>). *(Damit werden alle geraden
 Geräte angewählt.)*
 
 6. Speichern Sie die Auswahl mittels 'Merge' (Kombinieren/Verschmelzen)
 in die gleiche Gruppe.
 
-7. Öffnen Sie den Layout-Editor (\[Shapes And Effects\], \[Pixel
-Mapper\], \[Edit Group Layout\]) und wählen Sie die Gruppe.
+7. Öffnen Sie den Layout-Editor (<Keys.SoftKey>Shapes And Effects</Keys.SoftKey>, \[Pixel
+Mapper\], <Keys.SoftKey>Edit Group Layout</Keys.SoftKey>) und wählen Sie die Gruppe.
 
 Durch die beschriebene Vorgehensweise wurde mit wenigen Klicks ein
 Layout erstellt, bei dem alle ungeraden Geräte links und alle geraden
@@ -233,7 +235,7 @@ Gruppe.
 4.  Wählen Sie die Gruppe nochmals an; damit werden sämtliche
 enthaltenen Geräte angewählt.
 
-5.  Drücken Sie auf \<Fix+1\>, um das erste Gerät anzuwählen.
+5.  Drücken Sie auf <Keys.HardKey>Fix+1</Keys.HardKey>, um das erste Gerät anzuwählen.
 
 6.  Verschieben Sie das Gerät mit den Encodern auf eine neue vertikale Position.
 
@@ -274,7 +276,7 @@ anpassen, so dass man wieder Zugriff auf alle Geräte hat.
 Bei der Verwendung der Räder zum Positionieren kann man im
 Anzeigebereich der Räder auf die Buttons für Up und Down klicken, womit
 sich der Wert um +/-1px bzw. +/-45° ändert. Klickt man auf den Wert im Display
-bzw. die entsprechende \<@\>-Taste, so lässt sich der gewünschte Wert
+bzw. die entsprechende <Keys.HardKey>@</Keys.HardKey>-Taste, so lässt sich der gewünschte Wert
 numerisch eingeben.
 
 Weitere Werkzeuge des Layout-Editors
@@ -293,21 +295,21 @@ anzuordnen, gehen Sie wie folgt vor:
 
 3.  Wählen Sie **Arrange Fixtures** aus dem Kontext-Menü.
 
-4.  Wählen Sie die Option \[Height\] und geben Sie \<5\> ein\
+4.  Wählen Sie die Option <Keys.SoftKey>Height</Keys.SoftKey> und geben Sie <Keys.HardKey>5</Keys.HardKey> ein\
 	*(die Breite wird automatisch berechnet)*.
 
-5.  Aktivieren Sie \[Crop Grid to fixtures\]\
+5.  Aktivieren Sie <Keys.SoftKey>Crop Grid to fixtures</Keys.SoftKey>\
 	*(damit wird die Größe der gesamten Darstellung automatisch angepasst)*.
 
-6.  Schalten Sie \[Arrange in..\] je nach Adressierung auf **Columns**
+6.  Schalten Sie <Keys.SoftKey>Arrange in..</Keys.SoftKey> je nach Adressierung auf **Columns**
 	(Spalten) oder **Rows** (Zeilen).\
 	*('Rows' ordnet die Geräte horizontal (links-rechts) an, 'Columns' 
 	ordnet sie vertikal an (von oben nach unten))*.
 
-7.  Mit der Option \[Shape\] (Umriss) können die Zellen/Geräte in einem Rechteck,
+7.  Mit der Option <Keys.SoftKey>Shape</Keys.SoftKey> (Umriss) können die Zellen/Geräte in einem Rechteck,
 	Oval oder Dreieck angeordnet werden.
 
-8.  Bestätigen Sie die Einstellungen mit \[OK\].
+8.  Bestätigen Sie die Einstellungen mit <Keys.SoftKey>OK</Keys.SoftKey>.
 
 **Highlight:** Mit dieser Option werden gerade angewählte Geräte
 hervorgehoben. Damit sieht man, welches Gerät man gerade im Layout
@@ -352,13 +354,13 @@ lässt sich jedes Mal das gleiche Ergebnis erzielen.
 Zum Erstellen des ersten Effekts:
 
 1.  Wählen Sie eine Gruppe mit entsprechendem Layout, und starten Sie
-den Effekt-Editor mit \[Create Effect\].
+den Effekt-Editor mit <Keys.SoftKey>Create Effect</Keys.SoftKey>.
 
-2.  Wählen Sie links oben \[Effect\] für die globale Steuerung, und
+2.  Wählen Sie links oben <Keys.SoftKey>Effect</Keys.SoftKey> für die globale Steuerung, und
 	stellen Sie **Background Opacity** auf 0.\
 	*(Damit kann dieser Effekt zum Überlagern anderer Effekte verwendet werden)*.
 
-3.  Klicken Sie 2x auf \[Layer 1\] (oder klicken Sie auf \[+\]), und
+3.  Klicken Sie 2x auf <Keys.SoftKey>Layer 1</Keys.SoftKey> (oder klicken Sie auf <Keys.SoftKey>+</Keys.SoftKey>), und
 	wählen Sie den **Kreis** als Element.\
 	*(Der Doppelklick ruft ebenfalls Elemente und Animationen auf).*
 
@@ -366,7 +368,7 @@ den Effekt-Editor mit \[Create Effect\].
 
     ![Effect Editor - Pixel Mapper - Editing Height of Circle](/docs/images/Effect-Editor-Pixel-Mapper-Editing-Height-of-Circle.png)
 
-4.  Klicken Sie 2x auf \[Circle\] (oder klicken Sie auf \[+\]) und
+4.  Klicken Sie 2x auf <Keys.SoftKey>Circle</Keys.SoftKey> (oder klicken Sie auf <Keys.SoftKey>+</Keys.SoftKey>) und
 	wählen Sie die **Zoom**-Animation.
 
     Stellen Sie **In Time** auf 0 und **Out Time** auf 100%. (Damit beginnt
@@ -376,7 +378,7 @@ den Effekt-Editor mit \[Create Effect\].
     Vergrößern Sie **End Zoom**, bis das Oval die ganze Fläche zu füllen
 	beginnt.
 
-5.  Klicken Sie 2x auf \[Zoom Animation\] (oder klicken Sie auf \[+\])
+5.  Klicken Sie 2x auf <Keys.SoftKey>Zoom Animation</Keys.SoftKey> (oder klicken Sie auf <Keys.SoftKey>+</Keys.SoftKey>)
 	und wählen Sie die Animation **Opacity**.
 
     Reduzieren Sie **Spawn Rate** auf 0. (Damit wirkt Opacity nur auf die
@@ -390,22 +392,22 @@ den Effekt-Editor mit \[Create Effect\].
 
     ![Effect Editor - Pixel Mapper - Opacity Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Opacity-Animation-Settings.png)
 
-6.  Klicken Sie wieder auf \[Effect\] und stellen **Master Speed** nach
+6.  Klicken Sie wieder auf <Keys.SoftKey>Effect</Keys.SoftKey> und stellen **Master Speed** nach
 	Belieben ein. (Durch Verwenden der globalen Geschwindigkeit werden beide
 	Animationen gleichermaßen beeinflusst, so dass man sie nicht manuell
 	synchronisieren muss).\
     ![Effect Editor - Pixel Mapper - Effect Master Speed](/docs/images/Effect-Editor-Pixel-Mapper-Effect-Master-Speed.png)
 
-7.  Speichern Sie mit \<Record\> den Effekt als Cue.
+7.  Speichern Sie mit <Keys.HardKey>Record</Keys.HardKey> den Effekt als Cue.
 
 Erstellen des zweiten Effektes:
 
 1.  Wählen Sie die gleiche Gruppe wie vorher und starten Sie den
-	Effekt-Editor mit \[Create Effect\].
+	Effekt-Editor mit <Keys.SoftKey>Create Effect</Keys.SoftKey>.
 
-2.  Klicken Sie auf \[Effect\] und stellen Sie **Background Opacity** auf 0.
+2.  Klicken Sie auf <Keys.SoftKey>Effect</Keys.SoftKey> und stellen Sie **Background Opacity** auf 0.
 
-3.  Klicken Sie auf \[Layer 1\] und fügen diesmal ein Spiral-Element hinzu.
+3.  Klicken Sie auf <Keys.SoftKey>Layer 1</Keys.SoftKey> und fügen diesmal ein Spiral-Element hinzu.
 
     Vergrößern Sie mit **Zoom** die Darstellung.
 
@@ -427,10 +429,10 @@ Erstellen des zweiten Effektes:
 
     Für wirklich psychedelische Effekte erhöhen Sie die Geschwindigkeit...
 
-5.  Klicken Sie nun auf \[Layer 1\] und wählen Sie ein kräftiges Blau als Farbe.\
+5.  Klicken Sie nun auf <Keys.SoftKey>Layer 1</Keys.SoftKey> und wählen Sie ein kräftiges Blau als Farbe.\
 ![Effect Editor - Pixel Mapper - Changing Colour of Spiral Layer to Blue](/docs/images/Effect-Editor-Pixel-Mapper-Changing-Colour-of-Spiral-Layer-to-Blue.png)
 
-6.  Speichern Sie das mit \<Record\> als Cue.
+6.  Speichern Sie das mit <Keys.HardKey>Record</Keys.HardKey> als Cue.
 
 Probieren Sie nun aus, wie sich beide Cues miteinander kombinieren lassen:
 
@@ -457,13 +459,13 @@ erscheint, vergeben Sie dieser eine höhere Priorität:
 
 1.  Beenden Sie beide Cues.
 
-2.  Klicken Sie auf [\[Playback Options\]](../cues/playback-options.md).
+2.  Klicken Sie auf [<Keys.SoftKey>Playback Options</Keys.SoftKey>](../cues/playback-options.md).
 
 3.  Wählen den Speicherplatz mit der blauen Spirale.
 
-4.  Klicken Sie auf \[Previous\] oder \[Next\], bis der Eintrag
-    \[Priority Normal\] bei den Kontext-Tasten erscheint. Ändern Sie
-    diesen Eintrag mit der betreffenden Taste auf \[Priority High\].
+4.  Klicken Sie auf <Keys.SoftKey>Previous</Keys.SoftKey> oder <Keys.SoftKey>Next</Keys.SoftKey>, bis der Eintrag
+    <Keys.SoftKey>Priority Normal</Keys.SoftKey> bei den Kontext-Tasten erscheint. Ändern Sie
+    diesen Eintrag mit der betreffenden Taste auf <Keys.SoftKey>Priority High</Keys.SoftKey>.
 
 5.  Starten Sie nun testweise erst die blaue Spirale, gefolgt vom weißen
     Oval.
@@ -483,7 +485,7 @@ vorzunehmen.
 
 2.  Wählen Sie die Gruppe, und beginnen Sie einen Effekt zu erstellen.
 
-3.  Wählen Sie \[Layer 1\] und fügen ein **Block**-Element hinzu.
+3.  Wählen Sie <Keys.SoftKey>Layer 1</Keys.SoftKey> und fügen ein **Block**-Element hinzu.
 
 4.  Stellen Sie Breite und Höhe (**Width**, **Height**) so ein, dass sich
 	ein Streifen ergibt, der horizontal über das gesamte Gitter reicht und
@@ -524,7 +526,7 @@ vorzunehmen.
 	ein-/ausgeblendet, sondern hart geschaltet wird.\
     ![Effect Editor - Pixel Mapper - Opacity Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Opacity-Animation-Settings-2.png)
 
-8.  Klicken Sie in Layer 1 auf \[Displacement\], um wieder diese
+8.  Klicken Sie in Layer 1 auf <Keys.SoftKey>Displacement</Keys.SoftKey>, um wieder diese
 	Animation zu steuern.
 
     Stellen Sie nun **Distance Random** auf 100%. (Damit wird der Balken um
@@ -541,14 +543,14 @@ das möglichst zu vereinfachen, wählen Sie einfach die Steuerelemente des
 Layers, um nicht die ganzen einzelnen Elemente und Animationen editieren
 zu müssen:
 
-10. Klicken Sie auf \[Layer 1\], um die Steuerung dieses Layers anzuzeigen.
+10. Klicken Sie auf <Keys.SoftKey>Layer 1</Keys.SoftKey>, um die Steuerung dieses Layers anzuzeigen.
 
 11. Ändern Sie \'Rotation\' auf 90° (einfach 2x auf den Kompass klicken).\
 ![Effect Editor - Pixel Mapper - Changing Layer Rotation](/docs/images/Effect-Editor-Pixel-Mapper-Changing-Layer-Rotation.png)
 
 Damit ist sowohl der Streifen gedreht als auch die damit verknüpfte
 Animation. Ebenso kann man mit den Steuerungen für **X**, **Y** und **Zoom**,
-wahlweise für den \[Layer\] oder den gesamten \[Effekt\], schnell Anpassungen
+wahlweise für den <Keys.SoftKey>Layer</Keys.SoftKey> oder den gesamten <Keys.SoftKey>Effekt</Keys.SoftKey>, schnell Anpassungen
 vornehmen.
 
 Spawn und Pre-Spool -- 'Aufspreizen' und 'Vorspulen'
@@ -611,28 +613,28 @@ Ahnung, wozu das gebraucht wird - aber so sind Regisseure nun mal.
 
     ![Effect Editor - Pixel Mapper - Zoom Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Zoom-Animation-Settings.png)
 
-9.  Klicken Sie auf \[Effect\] und stellen Sie **Pre-Spool** auf 0.\
+9.  Klicken Sie auf <Keys.SoftKey>Effect</Keys.SoftKey> und stellen Sie **Pre-Spool** auf 0.\
 	*(Dies dient zunächst zum Testen dieser Eigenschaft.)*
 
     ![Effect Editor - Pixel Mapper - Zoom Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Zoom-Animation-Settings-2.png)
 
-10. Speichern Sie mit \<Record\> den Cue. 
+10. Speichern Sie mit <Keys.HardKey>Record</Keys.HardKey> den Cue. 
 
-11. Drücken Sie \<Clear\>, öffnen Sie die Matrix-Vorschau (**Pixel Mapper 
+11. Drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, öffnen Sie die Matrix-Vorschau (**Pixel Mapper 
 	Preview**), und starten Sie den Cue.
 
     Damit ist die Fläche zunächst leer, und nur nach und nach erscheinen
 	die seltsamen Gebilde, um allmählich die Fläche zu bevölkern. Um das
 	zu ändern, nutzen wir nun **Pre-Spool**.
 
-12. Laden Sie den Cue mit \<Include\> wieder in den Programmierspeicher
+12. Laden Sie den Cue mit <Keys.HardKey>Include</Keys.HardKey> wieder in den Programmierspeicher
 	und öffnen Sie wieder den **Effekt-Editor**.
 
-13. Klicken Sie auf \[Effect\] und stellen Sie **Pre-Spool** auf etwa
+13. Klicken Sie auf <Keys.SoftKey>Effect</Keys.SoftKey> und stellen Sie **Pre-Spool** auf etwa
 	20s. Damit startet der Effekt mit einem Status, als ob er schon 20s
 	gelaufen wäre.
 
-14. Speichern Sie den Cue mit \<Record\>, drücken Sie \<Clear\>, starten 
+14. Speichern Sie den Cue mit <Keys.HardKey>Record</Keys.HardKey>, drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, starten 
 	Sie den Cue und überprüfen Sie das Ergebnis wieder in der Vorschau.
 
     Diesmal sollten direkt von Anfang an eine Menge ‚Ungeheuer' auf dem

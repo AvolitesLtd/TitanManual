@@ -46,7 +46,7 @@ Programmierablauf.
 verschiedener Steuerungsoptionen. Im Display wird direkt neben jedem
 Taster die jeweilige Funktion angezeigt, abhängig vom jeweiligen Status
 des Pultes. Befehle dieser Taster sind in diesem Handbuch blau dargestellt,
- z.B. \[Edit Times\]
+ z.B. <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 \(H\) Die **festen Playbacks** dienen zum Aufruf häufig benutzter Cues etc.
 Diese Playbacks sind von der Seitenumschaltung nicht betroffen, jedoch

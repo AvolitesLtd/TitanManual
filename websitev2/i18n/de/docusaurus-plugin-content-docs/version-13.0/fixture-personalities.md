@@ -5,6 +5,8 @@ sidebar_label: Fixture Personalities
 original_id: fixture-personalities
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Für jeden einzelnen Gerätetyp gibt es eine *'Personality'* genannte
 Gerätedatei, welche bestimmt, wie das Gerät gesteuert wird, auf welchem
 Kanal etwa der Dimmer (HTP) liegt, und die eine Menge weiterer
@@ -72,7 +74,7 @@ wählen danach **Titan Fixture Library**).
 3.	Nun werden die auf dem USB-Stick gefundenen Installer angezeigt 
 	*(im Hauptverzeichnis des USB-Sticks, Dateinamen nicht verändert)*,
 	darunter auch die TitanFixtureLibrary. Klicken Sie diese an, und
-	bestätigen Sie den Dialog mit \<OK\>.
+	bestätigen Sie den Dialog mit <Keys.HardKey>OK</Keys.HardKey>.
 	
 	>	Sollte die Datei nicht in diesem Menü zu finden sein, so öffnen
 		Sie mit **Tools** > **Folders** den Explorer, navigieren zum 
@@ -85,11 +87,11 @@ wählen danach **Titan Fixture Library**).
 ### Updaten der Personalities der Titan PC Suite
 
 1.	Starten Sie die heruntergeladene Datei **TitanFixtureLibrary.exe** per
-	Doppelklick und bestätigen Sie den Dialog mit \[OK\]. Möglicherweise 
+	Doppelklick und bestätigen Sie den Dialog mit <Keys.SoftKey>OK</Keys.SoftKey>. Möglicherweise 
 	wird eine Windows-Warnung ausgegeben.
 
 2.	Bestätigen Sie die Warnung der Window-Benutzerkontensteuerung mit
-	\[OK\].
+	<Keys.SoftKey>OK</Keys.SoftKey>.
 
 3.	Sobald die Installation der Library erfolgt ist, schließen und
 	starten Sie die Titan-Software erneut.
@@ -103,7 +105,7 @@ wählen danach **Titan Fixture Library**).
 >	Sobald ein Gerät gepatcht wurde, wird die zugehörige Personality in
     die Show-Datei integriert. Deshalb werden bereits gepatchte Geräte
     durch Änderungen in der Library nicht beeinflusst. Wählen Sie ggf.
-    \[Update Personality\] aus dem Menü \<Patch\> \[Edit Fixtures\], um
+    <Keys.SoftKey>Update Personality</Keys.SoftKey> aus dem Menü <Keys.HardKey>Patch</Keys.HardKey> <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>, um
     auch bereits gepatchte Geräte zu aktualisieren.
 
 Selbsterstellte Gerätedateien

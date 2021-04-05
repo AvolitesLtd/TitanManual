@@ -5,6 +5,8 @@ sidebar_label: Titan Net Processor Operation
 original_id: titan-net
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 A TNP (TitanNet Processor) unit can operate either as a slave unit,
 producing additional DMX lines for a console, or as a simple console for
 stand-alone operation. In console mode you can prepare a show on a full

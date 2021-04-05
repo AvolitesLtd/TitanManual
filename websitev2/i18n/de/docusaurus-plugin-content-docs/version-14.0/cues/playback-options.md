@@ -5,16 +5,18 @@ sidebar_label: Playback Options
 original_id: playback-options
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
 Zum Einstellen der Optionen eines Cues, einer Cueliste oder eines
-Chasers drücken Sie \[Options\] im Hauptmenü oder die Taste \<Options\> und anschließend die **Auswahltaste** der entsprechenden Playbacks. Darauf werden 
+Chasers drücken Sie <Keys.SoftKey>Options</Keys.SoftKey> im Hauptmenü oder die Taste <Keys.HardKey>Options</Keys.HardKey> und anschließend die **Auswahltaste** der entsprechenden Playbacks. Darauf werden 
 alle verfügbaren Optionen übersichtlich in einem Fenster dargestellt(die Optionen können außerdem wie früher mit den Menütasten bearbeitet werden). 
 
-Auch die Zeiten lassen sich hier einstellen (auf dem Reiter \[Times\] oder mit der Taste \<Times\>).
+Auch die Zeiten lassen sich hier einstellen (auf dem Reiter <Keys.SoftKey>Times</Keys.SoftKey> oder mit der Taste <Keys.HardKey>Times</Keys.HardKey>).
 
 Alle verfügbaren Optionen sind auf verschiedene Reiter aufgeteilt. 
-Ein Klick auf den Button \[i\] zeigt einen kurzen Hilfetext zu der jeweiligen
+Ein Klick auf den Button <Keys.SoftKey>i</Keys.SoftKey> zeigt einen kurzen Hilfetext zu der jeweiligen
 Option.
 
 > Sollen die Optionen für mehrere Playbacks auf einmal angezeigt/geändert werden, so kann man einfach mehrere Playbacks auswählen. Dabei werden Optionen als aktiv angezeigt, sofern sie auf allen Playbacks gleich aktiviert sind; anderenfalls wird ein Sternchen angezeigt.
@@ -106,7 +108,7 @@ gibt es einen Kontext-Button, um die automatisch aktivierten Playbacks anzuzeige
 
 ### Delay In/Fade In/Fade Out 
 Hier können die jeweiligen Zeiten
-eingestellt werden. Das kann auch mit der \<Time\>-Taste erfolgen.
+eingestellt werden. Das kann auch mit der <Keys.HardKey>Time</Keys.HardKey>-Taste erfolgen.
 
 ### Fixture Overlap
 Mit Fixture Overlap - Geräte-Überlappung - werden Änderungen von einem 
@@ -143,7 +145,7 @@ Mode 1 | die Kanäle blenden in der vorgegebenen Zeit ein, HTP Kanäle blenden i
 Mode 2 | sowohl HTP- als auch LTP-Werte folgen dem Faderwert. *Sinnvoll z.B. zur Anwendung mit Pan und Tilt etwa auf einem Catwalk oder zur manuellen Steuerung der Farben bei RGB-Lampen.*
 Mode 3 | Crossfade (Überblendung). Sämtliche Kanäle, einschließlich der Helligkeit, blenden zu den Einstellungen des neuen Cues über, alle anderen noch aktiven Cues werden ausgeblendet und deaktiviert. Wird eine anderer Cue wieder benötigt, so bringen Sie dessen Regler auf '0' und dann wieder auf den gewünschten Wert. *Sinnvoll z.B. für eine Präsentationsstimmung, mit der alle anderen Playbacks ausgefadet werden.*
 
-Die gleiche Einstellung wie im [\[Edit Times\]](cue-timing.md)-Menu.
+Die gleiche Einstellung wie im [<Keys.SoftKey>Edit Times</Keys.SoftKey>](cue-timing.md)-Menu.
 
 [](https://youtu.be/2fwM5S8nX3k?t=20 "Playback Modes")
 
@@ -163,12 +165,12 @@ besonders an, wenn man mehrere Chaser/Effekte gleichzeitig anwendet.
 
 ### Shape & Effect Speed
 Bestimmt, ob der Fader Einfluss auf das Tempo
-von Shapes auf diesem Playback hat. Steht dies auf \[On Fader\], so kann
+von Shapes auf diesem Playback hat. Steht dies auf <Keys.SoftKey>On Fader</Keys.SoftKey>, so kann
 das Tempo von 0 bis zur programmierten Geschwindigkeit stufenlos
 verändert werden. Mit dem Multiplier (s.o.) lassen sich auch höhere
 Geschwindigkeiten erzielen.
 
-> Haben Sie einen Cue, der nur Shapes enthält, um diese zu anderen Cues dazuzumischen, so empfiehlt es sich, für diesen die Einstellung \[Size on Fader\] vorzunehmen sowie einen [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master) zu verwenden. Damit lässt sich dann flexibel und unabhängig die Größe und die Geschwindigkeit des Shapes live verändern.
+> Haben Sie einen Cue, der nur Shapes enthält, um diese zu anderen Cues dazuzumischen, so empfiehlt es sich, für diesen die Einstellung <Keys.SoftKey>Size on Fader</Keys.SoftKey> vorzunehmen sowie einen [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master) zu verwenden. Damit lässt sich dann flexibel und unabhängig die Größe und die Geschwindigkeit des Shapes live verändern.
 
 ### Shape Behaviour
 Steuert das Verhalten von Keyframe-Shapes in diesem Playback:
@@ -216,9 +218,9 @@ Strobe-Cue.
 Die Maske kann auf Global oder Lokal gestellt werden. Mit 'Lokal' lassen
 sich Einstellungen nur für diesen Cue vornehmen, während 'Global' der
 Bezug auf die globale Release-Maske **Release-Menü** ist
-(drücken Sie dazu \<Release\>).
+(drücken Sie dazu <Keys.HardKey>Release</Keys.HardKey>).
 
-> Mit der Release-Maske lässt sich z.B. ein temporärer ('flashbarer') Strobe-Effekt programmieren. Drücken Sie \[Release Mask\], und stellen Sie Intensity auf 'Include'. Wird nun das Playback ausgeblendet, kehrt der Shutter zum vorigen Wert zurück, und das Strobe stoppt. 
+> Mit der Release-Maske lässt sich z.B. ein temporärer ('flashbarer') Strobe-Effekt programmieren. Drücken Sie <Keys.SoftKey>Release Mask</Keys.SoftKey>, und stellen Sie Intensity auf 'Include'. Wird nun das Playback ausgeblendet, kehrt der Shutter zum vorigen Wert zurück, und das Strobe stoppt. 
 
 Per [Tastenprofil/Key Profile](../system-settings/key-profiles.md) lässt sich die graue/blaue Taste mit der Funktion ‚Release' belegen.
 

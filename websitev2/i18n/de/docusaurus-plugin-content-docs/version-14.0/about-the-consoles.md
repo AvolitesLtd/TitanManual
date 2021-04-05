@@ -5,6 +5,8 @@ sidebar_label: Console Hardware Introduction
 original_id: about-the-consoles
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Dieses Handbuch dient als Anleitung für alle aktuellen Avolites
 Titan-Pulte. Dabei sind die Funktionen bei allen Pulten weitgehend
 identisch, während sich das Layout und die Bedienelemente im Detail

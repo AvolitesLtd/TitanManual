@@ -5,6 +5,8 @@ sidebar_label: Palettes
 original_id: palettes
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 When programming a show you will find that you frequently use certain
 positions, colours, etc. The console lets you store these settings so
 you can recall them at the touch of a button rather than having to find
@@ -34,5 +36,5 @@ for each button so that you know what you're going to get.
 ![Gobos and Beams Window and Colours Window](/docs/images/Gobos-and-Beams-Window-and-Colours-Window.png)
 
 If the **Colours**, **Positions**, **Gobos & Beams** windows are not shown, press
-\<View/Open\> then \[Open Workspace Window\] then \[Groups and
+<Keys.HardKey>View/Open</Keys.HardKey> then <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> then \[Groups and
 Palettes\] to show all three windows.

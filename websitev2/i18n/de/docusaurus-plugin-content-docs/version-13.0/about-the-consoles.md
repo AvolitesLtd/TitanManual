@@ -5,6 +5,8 @@ sidebar_label: About the consoles
 original_id: about-the-consoles
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Diese Bedienungsanleitung dient als Referenz zu allen Funktionen der
 Titan-Pulte.
 

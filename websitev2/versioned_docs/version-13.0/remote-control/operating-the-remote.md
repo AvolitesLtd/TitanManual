@@ -5,6 +5,8 @@ sidebar_label: Operating the Remote
 original_id: operating-the-remote
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 To connect to the console, open the Titan Remote app and a list of
 available consoles will be shown - hopefully if you have done the
 [network setup](setting-up-the-remote.md) correctly, you will see your console listed.
@@ -82,7 +84,7 @@ same time, this will clear the console's programmer too).
 You can also play back cues using the **Cue** screen. Hold down a playback
 button to kill or release an active playback.
 
-> If you update the legends of palettes or cues on the console while the remote is running, the legends on the remote will not be updated. \<Exit\> and restart the remote app to show legend changes made on the console.
+> If you update the legends of palettes or cues on the console while the remote is running, the legends on the remote will not be updated. <Keys.HardKey>Exit</Keys.HardKey> and restart the remote app to show legend changes made on the console.
 
 Recording groups and palettes
 -----------------------------

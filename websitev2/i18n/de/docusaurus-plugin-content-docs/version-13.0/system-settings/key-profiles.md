@@ -5,6 +5,8 @@ sidebar_label: Key Profiles
 original_id: key-profiles
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Die Belegung der Bedientasten des Pultes lässt sich sehr fein einstellen
 und auf die jeweilige Arbeitsweise abstimmen. Die Einstellungen lassen
 sich dann in einem sog. Profil ('Key Profile') speichern. Wird das Pult
@@ -26,7 +28,7 @@ Touchscreen angezeigt.
 [](https://youtu.be/CxHQV4sP_sA?t=20 "Key Profiles")
 
 Zum Erstellen eines solchen Profils schalten Sie das Pult in den
-'System'-Modus und drücken \[Key Profiles\]. Darauf öffnet sich das Menü
+'System'-Modus und drücken <Keys.SoftKey>Key Profiles</Keys.SoftKey>. Darauf öffnet sich das Menü
 'Manage Profiles', mit dem man die verschiedenen Profile anzeigen
 ('View'), ändern ('Edit'), löschen ('Delete') oder ein neues erstellen
 ('Add') kann.
@@ -42,14 +44,14 @@ auswählen, das zunächst kopiert wird, um die Einstellungen von diesem zu
 übernehmen.
 
 Auch im normalen 'Program'-Modus lassen sich die Profile ändern: halten
-Sie dazu \<AVO\> gedrückt und wählen \[Edit Current Key Profile\]. Ist
+Sie dazu <Keys.HardKey>AVO</Keys.HardKey> gedrückt und wählen <Keys.SoftKey>Edit Current Key Profile</Keys.SoftKey>. Ist
 das aktuelle Profil eines der schreibgeschützten, so erscheint die
 Aufforderung zur Anlage eines neuen bzw. Auswahl eines anderen
 bestehenden Profiles.
 
 Die aktuellen Einstellungen für die verschiedenen Tastentypen
-(\[schwarz\], \[blau\], \[grau\], und - soweit zutreffend -
-\['touch'\] (die Touchscreen-Schaltfläche)) werden links im Bildschirm
+(<Keys.SoftKey>schwarz</Keys.SoftKey>, <Keys.SoftKey>blau</Keys.SoftKey>, <Keys.SoftKey>grau</Keys.SoftKey>, und - soweit zutreffend -
+<Keys.SoftKey>'touch'</Keys.SoftKey> (die Touchscreen-Schaltfläche)) werden links im Bildschirm
 angezeigt. Über schwarze Tasten verfügt nur das Sapphire Touch.
 
 ![Editing a Key Profile](/docs/images/Editing-a-Key-Profile.png)
@@ -120,7 +122,7 @@ Latch | Wie Flash, aber Dimmerkanäle bleiben nach dem Loslassen bis zum erneute
 Go | Der nächste Cue wird unter Berücksichtigung der eingestellten Zeit aktiviert.
 Stop | Alle Überblendvorgänge werden angehalten.
 Preload | LTP-Kanäle von Geräten, die gerade dunkel sind, werden auf den als nächstes aktiven Wert eingestellt.
-Connect | Verbindet die Cueliste mit der Ablaufsteuerung (ebenso wie die Taste \<Connect\> gefolgt von der Anwahl der Cueliste).
+Connect | Verbindet die Cueliste mit der Ablaufsteuerung (ebenso wie die Taste <Keys.HardKey>Connect</Keys.HardKey> gefolgt von der Anwahl der Cueliste).
 Tap Tempo | Geschwindigkeitssteuerung durch Tippen im Takt.
 Next Cue - | Geht einen Cue zurück.
 Next Cue + | Geht einen Cue vorwärts.
@@ -161,14 +163,14 @@ scene mode**, **Enter or Exit scene mode**, **Enter or commit scene mode**.
 
 ## Eine Tastenbelegung auswählen
 
-Zur Auswahl einer Tastenbelegung halten Sie die \<AVO\>-Taste gedrückt
-und drücken dazu \[Select Key Profile\].
+Zur Auswahl einer Tastenbelegung halten Sie die <Keys.HardKey>AVO</Keys.HardKey>-Taste gedrückt
+und drücken dazu <Keys.SoftKey>Select Key Profile</Keys.SoftKey>.
 
 ## Tastenbelegungen für einzelne Speicherplätze
 
 Jedem Speicherplatz lässt sich eine gesonderte Tastenbelegung zuordnen.
 Damit können die einzelnen Tasten für jeden Speicherplatz anders
-konfiguriert werden. Dazu wählt man \[Playback Options\], dann das 
-Playback, die Option \[Handle\] und dann \[Key Profile\]. Steht die 
-Auswahl auf \[Global\], so werden die allgemeinen
+konfiguriert werden. Dazu wählt man <Keys.SoftKey>Playback Options</Keys.SoftKey>, dann das 
+Playback, die Option <Keys.SoftKey>Handle</Keys.SoftKey> und dann <Keys.SoftKey>Key Profile</Keys.SoftKey>. Steht die 
+Auswahl auf <Keys.SoftKey>Global</Keys.SoftKey>, so werden die allgemeinen
 Tasteneinstellungen verwendet.

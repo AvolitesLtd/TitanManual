@@ -5,6 +5,8 @@ sidebar_label: Quartz
 original_id: quartz
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 ![Quartz](/docs/images/Quartz.png)
 
 \(A\) Die **Arbeitsfenster** auf dem Touchscreen zeigen Buttons für Geräte,
@@ -20,7 +22,7 @@ Programmierablauf.
 verschiedener Steuerungsoptionen. Im Display wird direkt neben jedem
 Taster die jeweilige Funktion angezeigt, abhängig vom jeweiligen Status
 des Pultes. Befehle dieser Taster sind in diesem Handbuch blau dargestellt, 
-z.B. \[Edit Times\]
+z.B. <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 \(D\) Die **Playbacks** dienen zum Speichern und Abrufen von Cues (Szenen) und
 Chasern/Cuelisten (Szenensequenzen). Mit den \(E\) **Seitenwechseltasten** kann

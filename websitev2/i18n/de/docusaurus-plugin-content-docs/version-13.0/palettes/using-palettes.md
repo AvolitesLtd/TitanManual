@@ -5,6 +5,8 @@ sidebar_label: Using Palettes
 original_id: using-palettes
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Abrufen eines Palettenwertes
 ----------------------------
 
@@ -44,21 +46,21 @@ Nummer mit den Zifferntasten ein.
 
 1.  Wählen Sie einige Geräte aus.
 
-2.  Drücken Sie die Taste \<Palette\> oberhalb der Zifferntasten.
+2.  Drücken Sie die Taste <Keys.HardKey>Palette</Keys.HardKey> oberhalb der Zifferntasten.
 
 3.  Geben Sie die Nummer der gewünschten Palette ein.
 
-4.  Drücken Sie \<Enter\> oder \[Apply Palette\]
+4.  Drücken Sie <Keys.HardKey>Enter</Keys.HardKey> oder <Keys.SoftKey>Apply Palette</Keys.SoftKey>
 
-Die Menütaste \[Apply Palette\] zeigt dabei die Bezeichnung der
+Die Menütaste <Keys.SoftKey>Apply Palette</Keys.SoftKey> zeigt dabei die Bezeichnung der
 abzurufenden Palette.
 
 >   Sollen mehrere Paletten gleichzeitig abgerufen werden, so bietet
     sich die ‚Blind-To-Live' Funktion an: schalten Sie das Pult in den
-    Blind-Modus (mit der \<Blind\>-Taste, oder mit \<Avo\> \[Blind
+    Blind-Modus (mit der <Keys.HardKey>Blind</Keys.HardKey>-Taste, oder mit <Keys.HardKey>Avo</Keys.HardKey> \[Blind
     Inactive\], wählen die gewünschten Paletten, geben die Fadezeit 
 	(in Sekunden) ein (wenn geschaltet werden soll: 0 eingeben), und 
-	schalten durch nochmaliges Drücken der \<Blind\>-Taste das Pult 
+	schalten durch nochmaliges Drücken der <Keys.HardKey>Blind</Keys.HardKey>-Taste das Pult 
 	in den Live-Modus. Damit wird auf die gewählten Paletten live 
 	übergeblendet.
 
@@ -66,7 +68,7 @@ Palettenseiten
 --------------
 
 Wurden Paletten auf den Tasten des Pultes gespeichert, so kann man mit
-\<+Page\>/\<-Page\> auf verschiedene Seiten wechseln. Soll eine Palette
+<Keys.HardKey>+Page</Keys.HardKey>/<Keys.HardKey>-Page</Keys.HardKey> auf verschiedene Seiten wechseln. Soll eine Palette
 stets verfügbar sein und nicht mit den Seiten umgeschaltet werden, so
 lässt sich die Seitenumschaltung sperren, siehe [Handle Paging](../cues/playback-options.md#handle-paging) für weitere Details.
 
@@ -82,7 +84,7 @@ Menü-Schaltflächen.
 Anzeige nur der relevanten Paletten
 -----------------------------------
 
-Ist die [Benutzereinstellung \[Filter Relevant Palettes\]](../system-settings/user-settings.md#filter-relevant-palettes)
+Ist die [Benutzereinstellung <Keys.SoftKey>Filter Relevant Palettes</Keys.SoftKey>](../system-settings/user-settings.md#filter-relevant-palettes)
 aktiviert, so werden beim Anwählen von Geräten die Paletten, die auf 
 diese Geräte nicht anwendbar sind, ausgegraut. So sieht man  auf einen 
 Blick, welche Paletten für die angewählten Geräte zur Verfügung stehen.

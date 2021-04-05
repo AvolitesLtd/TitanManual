@@ -5,6 +5,8 @@ sidebar_label: Setting up Synergy
 original_id: setting-up
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Verbinden
 ---------
 
@@ -61,7 +63,7 @@ tauchen die Surfaces auf, die zwar in Ai schon angelegt sind, aber noch
 nicht in Titan. Dieses sind die ‚unmatched' (nicht zugewiesenen)
 Surfaces.
 
-Klickt man auf das \[ + \] unten und wählt aus der aufklappenden Liste
+Klickt man auf das <Keys.SoftKey> + </Keys.SoftKey> unten und wählt aus der aufklappenden Liste
 'Surface', so wird ein neues Surface hinzugefügt. Dieses erscheint in
 der mittleren Spalte oben. Neue Surfaces haben zunächst immer zwei
 Layer.
@@ -74,7 +76,7 @@ lässt sich die Auflösung einstellen, wahlweise per Auswahl aus einer
 Liste oder per numerischer Eingabe. Ganz rechts oben kann man mit dem
 farbigen Button das Halo des Surfaces ändern sowie mit dem Stift-Icon
 die Legende (Bezeichnung) bearbeiten (beides ist auch wie gewohnt per
-\[Set Legend\] möglich).
+<Keys.SoftKey>Set Legend</Keys.SoftKey> möglich).
 
 Klickt man innerhalb eines Surfaces auf einen Layer, so werden rechts
 die Optionen des Layers angezeigt. Damit kann man einen Speed- oder
@@ -112,10 +114,10 @@ direkt, sondern nur über Titan/Synergy gesteuert werden.
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)
 
 Um einen weiteren Layer hinzuzufügen, klickt man auf das Surface, dann
-auf den \[ + \] - Button unten, und wählt 'Layer'.
+auf den <Keys.SoftKey> + </Keys.SoftKey> - Button unten, und wählt 'Layer'.
 
 Um einen Layer oder ein Surface zu löschen, wählt man dieses aus und
-klickt unten auf das Papierkorb-Symbol, oder man drückt \<Delete\> und
+klickt unten auf das Papierkorb-Symbol, oder man drückt <Keys.HardKey>Delete</Keys.HardKey> und
 klickt dann auf das zu löschende Element. Ist dabei Ai verbunden, so
 wird der Layer bzw. das Surface (Screen Fixture) auch in Ai gelöscht.
 
@@ -123,7 +125,7 @@ Das Fenster Synergy Fixtures
 ----------------------------
 
 Jeder Layer erscheint als Button im Fenster 'Synergy Fixtures'. Dies
-kann man entweder mit dem Button \[View Synergy Fixtures\] im [Synergy
+kann man entweder mit dem Button <Keys.SoftKey>View Synergy Fixtures</Keys.SoftKey> im [Synergy
 Settings-Fenster](#einrichten-von-synergy) oder wie gewohnt über \[Open Workspace
 Window\] (Fenster öffnen) aufrufen.
 

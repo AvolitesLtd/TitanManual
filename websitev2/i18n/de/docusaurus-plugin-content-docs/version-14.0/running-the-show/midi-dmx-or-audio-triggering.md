@@ -5,6 +5,8 @@ sidebar_label: External triggering
 original_id: midi-dmx-or-audio-triggering
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Die meisten Bedienvorgänge des Pultes können durch verschiedene externe
 Events ferngesteuert - getriggert - werden. Dies bietet sich z.B. bei sehr
 komplexen Shows oder bei Installationen an, bei denen etwas
@@ -57,8 +59,8 @@ verwendet werden, siehe [folgender Abschnitt](./linking-pioneerdj-system-to-tita
 Einrichten der externen Steuerung
 ---------------------------------
 
-Öffnen Sie das System-Menü (mittels \<Avo\> + \<Disk\>)
-und wählen Sie \[Triggers\]; darauf wird das Fenster 'Triggers' angezeigt.
+Öffnen Sie das System-Menü (mittels <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>)
+und wählen Sie <Keys.SoftKey>Triggers</Keys.SoftKey>; darauf wird das Fenster 'Triggers' angezeigt.
 
 ![Triggers Window](/docs/images/Triggers-Window.png)
 
@@ -73,26 +75,26 @@ Damit lässt sich ganz schnell die Steuerung des Pultes umkonfigurieren.
 Trigger werden wie folgt eingerichtet:
 
 1.  Beginnen Sie ein neues Trigger-Mapping, indem Sie *links unten* auf die
-	\{+\}-Schaltfläche klicken und einen Namen eingeben. 
+	<Keys.ContextKey>+</Keys.ContextKey>-Schaltfläche klicken und einen Namen eingeben. 
 
 2.  Zum Hinzufügen eines Triggers, also der Zuordnung eines
 	Steuersignals zu einem Pult-Ereignis, klicken Sie auf die
-	\{+\}-Schaltfläche *rechts unten* oder drücken die Menü-Taste \[Add
+	<Keys.ContextKey>+</Keys.ContextKey>-Schaltfläche *rechts unten* oder drücken die Menü-Taste \[Add
 	Trigger\].
 
 3.  Wählen Sie nun die Art der Steuerung (Trigger Type). 
 
-	-   \[Hardware\] ist die Steuerung einer konkreten Taste oder 
+	-   <Keys.SoftKey>Hardware</Keys.SoftKey> ist die Steuerung einer konkreten Taste oder 
 	    eines bestimmten Faders (z.B. „Fader 10", „Flash-Taste 4"), 
 		ganz so als würde diese(r) per Hand bedient.
 	
-	-   \[Item\] ist hingegen die softwareseitige/logische Zuordnung 
+	-   <Keys.SoftKey>Item</Keys.SoftKey> ist hingegen die softwareseitige/logische Zuordnung 
 	    („Palette 43", „Playback 91"), wobei die konkrete Funktion 
 		separat zu wählen ist.
 		
 4.  Betätigen Sie nun das zu steuernde Element des Pultes (Fader, Taste,
 	Schaltfläche); das gewählte Element wird am Bildschirm angezeigt. Wurde
-	vorher \[Item\] gewählt, lassen sich mit \[Action\] noch verschiedene
+	vorher <Keys.SoftKey>Item</Keys.SoftKey> gewählt, lassen sich mit <Keys.SoftKey>Action</Keys.SoftKey> noch verschiedene
 	Aktionen bestimmen:
 	
 	-	Set Level (Playback auf den Level des Triggers setzen - s.u.
@@ -106,41 +108,41 @@ Trigger werden wie folgt eingerichtet:
 	-	Preload (startet nur die LTP-Werte)
 	-	Latch (schaltet das Playback ein/aus)
 	
-	Die Option \[Level Match\] bestimmt, was passiert, wenn das Playback
+	Die Option <Keys.SoftKey>Level Match</Keys.SoftKey> bestimmt, was passiert, wenn das Playback
 	vorher bereits gestartet ist. Ist sie eingeschaltet (**On**), so muss der
 	aktuelle Pegel per Trigger übernommen werden, damit er aktiv wird. Ist
 	die Option dagegen ausgeschaltet (**Off**), so wirkt der Trigger immer, 
 	auch bei anderen Pegeln.
 
-5.	Klicken Sie \[OK\].
+5.	Klicken Sie <Keys.SoftKey>OK</Keys.SoftKey>.
 
 6.  Nun muss der vorher definierten Pult-Aktion ein Steuerimpuls
 	zugeordnet werden. Wählen Sie also die Art der Steuerung - Audio, DMX,
-	GPIO, MIDI oder Streaming ACN - mit \[Trigger Type\].
+	GPIO, MIDI oder Streaming ACN - mit <Keys.SoftKey>Trigger Type</Keys.SoftKey>.
 
 7.  Senden Sie nun den gewünschten Steuerimpuls (Stimulus): drücken Sie
 	z.B. die gewünschte Taste auf Ihrem MIDI-Keyboard, oder aktivieren Sie
 	den entsprechenden Kanal auf dem externen DMX-Pult. Ist die Option
-	\[Learn\] aktiviert, erkennt das Pult automatisch den Steuerimpuls und
+	<Keys.SoftKey>Learn</Keys.SoftKey> aktiviert, erkennt das Pult automatisch den Steuerimpuls und
 	ordnet ihn zu. Alternativ lassen sich die Daten manuell eingeben
 	
-	-   Für Audiotrigger gibt es die Option \[Band\], mit der das 
+	-   Für Audiotrigger gibt es die Option <Keys.SoftKey>Band</Keys.SoftKey>, mit der das 
 		Frequenzband bestimmt werden kann; siehe [Audio Control](./midi-dmx-or-audio-triggering.md#audio-trigger-sound-to-light)
-	-   Falls Sie DMX verwenden möchten, stellen Sie mit \[DMX Port\] 
+	-   Falls Sie DMX verwenden möchten, stellen Sie mit <Keys.SoftKey>DMX Port</Keys.SoftKey> 
 		den verwendeten DMX-Anschluss ein. Sobald ein DMX-Anschluss zum
 		Triggern verwendet wird, wechselt er in die Betriebsart Rx 
 		(Empfangen). Soll er wieder als Ausgang benutzt	werden, so 
 		weisen sie ihn in den [DMX-Einstellungen](../system-settings/dmx-output-mapping) wieder entsprechend zu.\
 		Auch die DMX-Adresse kann auch manuell eingestellt werden.
-	-	Für GPIO kann mit \[Invert\] zwischen Öffnern und Schließern
+	-	Für GPIO kann mit <Keys.SoftKey>Invert</Keys.SoftKey> zwischen Öffnern und Schließern
 		umgeschaltet werden.\
-		Mit \[Pin\] kann bei künftigen Pulten der Pin des GPIO-Anschlusses
+		Mit <Keys.SoftKey>Pin</Keys.SoftKey> kann bei künftigen Pulten der Pin des GPIO-Anschlusses
 		gewählt werden.
 	-	Für MIDI-Trigger kann man den MIDI-Kanal, den MIDI-Befehl, den Wert
 		sowie den Bereich für die Velocity wählen\
-	- 	Für sACN ist das \[Universe\] und die \[Adresse\] einzustellen.
+	- 	Für sACN ist das <Keys.SoftKey>Universe</Keys.SoftKey> und die <Keys.SoftKey>Adresse</Keys.SoftKey> einzustellen.
 
-8.	Klicken Sie \[Add\], um den Trigger hinzuzufügen.
+8.	Klicken Sie <Keys.SoftKey>Add</Keys.SoftKey>, um den Trigger hinzuzufügen.
 
 9. Im Bildschirm wird die gewählte Zuordnung angezeigt.
 
@@ -149,10 +151,10 @@ Fügen Sie auf die gleiche Weise weitere Trigger hinzu.
 ![Triggers Window with MIDI triggers](/docs/images/Triggers-Window-with-MIDI-triggers.png)
 
 Zum Löschen eines Triggers aus der Zuordnung wählen Sie diesen und
-betätigen die Schaltfläche mit dem \{Papierkorb\} *rechts unten*.
+betätigen die Schaltfläche mit dem <Keys.ContextKey>Papierkorb</Keys.ContextKey> *rechts unten*.
 
 Zum Löschen einer kompletten Zuordnungs-Tabelle (Mapping) wählen Sie
-diese und betätigen die Schaltfläche mit dem \{Papierkorb\} *links
+diese und betätigen die Schaltfläche mit dem <Keys.ContextKey>Papierkorb</Keys.ContextKey> *links
 unten*.
 
 Die Trigger-Aktion "Re-Fire At Level" sorgt dafür, dass das jeweilige
@@ -169,24 +171,24 @@ Sie es per USB and den PC an, auf dem die Titan-Software läuft, und
 stellen Sie sicher, dass es ordnungsgemäß in Windows funktioniert (die
 MIDI-Werte kann man u.a. mit der Software MIDI-Ox überprüfen).
 
-1.	Öffnen Sie das System-Menü mit \<Avo\> + \<Disk\> und wählen Sie \[Triggers\].
+1.	Öffnen Sie das System-Menü mit <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey> und wählen Sie <Keys.SoftKey>Triggers</Keys.SoftKey>.
 
-2.	Fügen Sie links mit dem Button \{+\} eine neue
+2.	Fügen Sie links mit dem Button <Keys.ContextKey>+</Keys.ContextKey> eine neue
 	Trigger-Zusammenstellung (Mapping) hinzu und geben Sie ihr einen
 	passenden Namen, z.B. 'T2 Playbacks'.
 
-3.	Fügen Sie nun rechts mit dem Button \{+\} oder mit der Menütaste
-	\[Add Trigger\] einen neuen Trigger hinzu -- dieser wird als Trigger
+3.	Fügen Sie nun rechts mit dem Button <Keys.ContextKey>+</Keys.ContextKey> oder mit der Menütaste
+	<Keys.SoftKey>Add Trigger</Keys.SoftKey> einen neuen Trigger hinzu -- dieser wird als Trigger
 	Type: Hardware angelegt.
 
 4.	Bewegen Sie den ersten Fader in Titan Go.
 
-5.	Klicken Sie auf \[OK\].
+5.	Klicken Sie auf <Keys.SoftKey>OK</Keys.SoftKey>.
 
 6.	Bewegen Sie nun den ersten Fader des MIDI-Controllers. Titan
 	empfängt die empfangenen Werte und zeigt das durch eine Pegelanzeige an.
 
-7.	Klicken Sie auf \[Add\]. In der rechten Spalte wird wird der neu
+7.	Klicken Sie auf <Keys.SoftKey>Add</Keys.SoftKey>. In der rechten Spalte wird wird der neu
 	angelegte Trigger angezeigt.
 
 8.	Wiederholen Sie den Vorgang ab Schritt 3 für weitere Fader.
@@ -207,11 +209,11 @@ Folgende MIDI Show Control-Befehle werden unterstützt:
   GO OFF    | Wie RESUME
 
 Playbacks/Cues werden durch die Benutzernummer identifiziert, diese wird
-über \[Set Legend\]\[User Number\] eingestellt.
+über <Keys.SoftKey>Set Legend</Keys.SoftKey><Keys.SoftKey>User Number</Keys.SoftKey> eingestellt.
 
 Geräte mit MIDI Show Control werden durch eine Geräte-ID (device id)
 identifiziert. Zum Einstellen der Geräte-ID des Titan-Pultes dient die
-[Benutzereinstellung \[Timecode\]\[MIDI Device Id\]](../system-settings/user-settings.md#midi-device-id). Vorgabewert ist 0.
+[Benutzereinstellung <Keys.SoftKey>Timecode</Keys.SoftKey><Keys.SoftKey>MIDI Device Id</Keys.SoftKey>](../system-settings/user-settings.md#midi-device-id). Vorgabewert ist 0.
 
 Audio-Trigger (Sound to Light)
 ------------------------------
@@ -219,7 +221,7 @@ Audio-Trigger (Sound to Light)
 Bei Pulten, die das unterstützen (momentan: Quartz und Arena), gibt es
 einen separaten Audio-Eingang. Das dort anliegende Signal wird in
 verschiedene Frequenzbänder geteilt, die einzeln als Trigger verwendet
-werden können. Mit der Option \[Band\] lässt sich das verwendete
+werden können. Mit der Option <Keys.SoftKey>Band</Keys.SoftKey> lässt sich das verwendete
 Frequenzband bestimmen.
 
   Band	| Sound frequency
@@ -259,7 +261,7 @@ Warnung angezeigt, [siehe oben](./midi-dmx-or-audio-triggering.md#).
     automatisch auf einen in etwa brauchbaren Wert.
 
 Playbacks können schnell einzelnen Bändern zugewiesen werden, indem man
-auf die Schaltfläche \[Band x\] oben klickt und dann das zu triggernde
+auf die Schaltfläche <Keys.SoftKey>Band x</Keys.SoftKey> oben klickt und dann das zu triggernde
 Playback auswählt.
 
 Auf dem Arena und Quartz zeigt die Audio-LED beim Netzschalter etwa 

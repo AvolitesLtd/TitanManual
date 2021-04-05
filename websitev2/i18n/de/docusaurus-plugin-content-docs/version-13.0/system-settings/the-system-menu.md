@@ -5,8 +5,10 @@ sidebar_label: The System Menu
 original_id: the-system-menu
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Das System-Menü erreicht man durch Umschalten des Betriebsarten-Schalters 
-in den Modus 'System' bzw. durch Drücken von \<Avo\> und (gleichzeitig) \<Disk\>. 
+in den Modus 'System' bzw. durch Drücken von <Keys.HardKey>Avo</Keys.HardKey> und (gleichzeitig) <Keys.HardKey>Disk</Keys.HardKey>. 
 
 Die hier verfügbaren Optionen sind von den normalen Betriebsfunktionen 
 getrennt, da sie entweder nur selten benötigt werden, oder aber große 
@@ -51,8 +53,8 @@ sich in Abschnitt [Backup und Mehrbenutzerbetrieb](../running-the-show/linking-c
 -------------
 
 Das Menü 'User Settings' (Benutzereinstellungen) lässt sich auch im
-'Program'-Modus aufrufen; dazu halten Sie die \<AVO\>-Taste gedrückt und
-betätigen die Taste \[User Settings\]. Näheres zu den Einstellungen
+'Program'-Modus aufrufen; dazu halten Sie die <Keys.HardKey>AVO</Keys.HardKey>-Taste gedrückt und
+betätigen die Taste <Keys.SoftKey>User Settings</Keys.SoftKey>. Näheres zu den Einstellungen
 siehe Abschnitt [User Settings](user-settings.md).
 
 [Key Profiles](key-profiles.md) - Tastenprofile
@@ -65,7 +67,7 @@ Wipe (Löschen)
 --------------
 
 Die Funktion 'Wipe' löscht die aktuelle Show. Das Ergebnis ist das
-gleiche wie bei der Wahl der Option \[New Show\] aus dem Menü \<Disk\>.
+gleiche wie bei der Wahl der Option <Keys.SoftKey>New Show</Keys.SoftKey> aus dem Menü <Keys.HardKey>Disk</Keys.HardKey>.
 ('Wipe' war bereits bei früheren Avolites-Pulten im System-Menü zu
 finden und ist deshalb hier eingeblendet).
 

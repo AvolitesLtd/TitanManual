@@ -5,6 +5,8 @@ sidebar_label: Recovering & Reinstalling the Console
 original_id: recovering-reinstalling-the-console
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 **Dieser Abschnitt gilt nicht für die Titan PC Suite, sondern nur für
 alle größeren Titan-Pulte**.
 
@@ -54,11 +56,11 @@ Installationshinweise
     Minuten dauern.
 
 3.	Nach Abschluss des Bootvorgangs wird im Bildschirm 'Welcome
-    to...' und der Name des Pultes angezeigt: klicken Sie auf \[Next\], 
+    to...' und der Name des Pultes angezeigt: klicken Sie auf <Keys.SoftKey>Next</Keys.SoftKey>, 
 	um den Vorgang fortzusetzen.
 
 4.	Lesen Sie den Lizenzvertrag ganz durch, und klicken Sie auf
-    \[Agree\], um diesen anzunehmen.
+    <Keys.SoftKey>Agree</Keys.SoftKey>, um diesen anzunehmen.
 
 5.	Wählen Sie die gewünschte Wiederherstellungsart *(siehe Tabelle
     oben)*.
@@ -68,11 +70,11 @@ Installationshinweise
     des Pultes (die Ziffernfolge nach dem 'TT-', 'PE-', 'AR-'‚
     etc.). Normalerweise ist der Eintrag bereits korrekt vorbelegt.
 
-7.	Dann klicken Sie auf \[Install\], um den Wiederherstellungsprozess
+7.	Dann klicken Sie auf <Keys.SoftKey>Install</Keys.SoftKey>, um den Wiederherstellungsprozess
     zu starten.
 
 8.	Nach dem Abschluss der Installation entfernen Sie den USB-Stick
-    und starten das Pult neu (mit der Schaltfläche \[Restart\]).
+    und starten das Pult neu (mit der Schaltfläche <Keys.SoftKey>Restart</Keys.SoftKey>).
 
 Nach dem Neustart des Pultes werden alle erforderlichen Programme und
 Treiber installiert. Dies dauert ca. 30 Minuten. Währenddessen wird das

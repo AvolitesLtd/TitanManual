@@ -52,7 +52,7 @@ Attributen der Geräte, Geschwindigkeit von Chasern etc.
 verschiedener Steuerungsoptionen. Im Display wird direkt neben jedem
 Taster die jeweilige Funktion angezeigt, abhängig vom jeweiligen Status
 des Pultes. Befehle dieser Taster sind in diesem Handbuch blau dargestellt, 
-z.B. \[Edit Times\].
+z.B. <Keys.SoftKey>Edit Times</Keys.SoftKey>.
 
 \(L\) Mit den **Ziffern- und Steuertasten** lassen sich Werte eingeben sowie
 Einstellungen des Pultes ändern.

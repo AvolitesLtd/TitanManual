@@ -5,6 +5,8 @@ sidebar_label: External triggering
 original_id: midi-dmx-or-audio-triggering
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 You can set up the console to allow most features to be triggered by
 external events. This is very useful in complex shows or when using in
 an automated setup.
@@ -37,7 +39,7 @@ You can link a networked PioneerDJ system to Titan to automate BPM masters; this
 Setting up External Triggering
 ----------------------------
 
-Enter System mode and select \[Triggers\]. The Triggers window will
+Enter System mode and select <Keys.SoftKey>Triggers</Keys.SoftKey>. The Triggers window will
 open.
 
 ![Triggers Window](/docs/images/Triggers-Window.png)
@@ -53,39 +55,39 @@ at the left hand end of the mapping name.
 column, and enter a name for it.
 
 2. Add a trigger to the mapping using the + button in the right hand
-column or softkey \[Add trigger\].
+column or softkey <Keys.SoftKey>Add trigger</Keys.SoftKey>.
 
-3. Select \[Trigger Type\] as \[Hardware\] or \[Item\].\
-\[Hardware\] triggers a physical or touch button, or fader move, and
+3. Select <Keys.SoftKey>Trigger Type</Keys.SoftKey> as <Keys.SoftKey>Hardware</Keys.SoftKey> or <Keys.SoftKey>Item</Keys.SoftKey>.\
+<Keys.SoftKey>Hardware</Keys.SoftKey> triggers a physical or touch button, or fader move, and
 will use the key profile set for the button/fader.\
-\[Item\] triggers a programmed item, such as a cue or chase.
+<Keys.SoftKey>Item</Keys.SoftKey> triggers a programmed item, such as a cue or chase.
 
 4. Press the button or move the fader to be triggered. The screen will
 update to show you what has been triggered. For Item triggers you can
-select different actions using the \[Action\] softkey.
+select different actions using the <Keys.SoftKey>Action</Keys.SoftKey> softkey.
 
-5. Press \[OK\]. You have now set up the console action which is to be
+5. Press <Keys.SoftKey>OK</Keys.SoftKey>. You have now set up the console action which is to be
 triggered.
 
 6. Now you need to set up the external stimulus which will cause the
-trigger. Select \[Trigger Type\] as DMX, MIDI or Audio. For DMX, press
-\[DMX Port\] to select which DMX port you are using for DMX input. You
+trigger. Select <Keys.SoftKey>Trigger Type</Keys.SoftKey> as DMX, MIDI or Audio. For DMX, press
+<Keys.SoftKey>DMX Port</Keys.SoftKey> to select which DMX port you are using for DMX input. You
 will need to switch the DMX port to RX mode using the menu option
 provided.
 
 7. Generate the stimulus from your device (for example play the MIDI
-note, or turn on the DMX channel). If the \[Learn\] option is set to On,
+note, or turn on the DMX channel). If the <Keys.SoftKey>Learn</Keys.SoftKey> option is set to On,
 the console will automatically detect the stimulus. Or you can enter the
 details using the softkey options.
 
 8. For DMX triggers you can select the address for triggering. For MIDI
 triggers you can select MIDI channel, MIDI Command, Value, and Level
-(velocity) ranges. For audio triggers the \[Band\] option is used to
+(velocity) ranges. For audio triggers the <Keys.SoftKey>Band</Keys.SoftKey> option is used to
 select which frequency band will cause the trigger.
 See the [Audio Control](./midi-dmx-or-audio-triggering.md#audio-control-sound-to-light)
 section for audio triggers.
 
-9. Press \[Add\] to add the trigger to the list.
+9. Press <Keys.SoftKey>Add</Keys.SoftKey> to add the trigger to the list.
 
 10. The window will show the trigger stimulus and the action to be
 carried out.
@@ -106,26 +108,26 @@ This is how to set up a MIDI fader controller to act as playback faders
 on T2. Ensure your MIDI device is connected and recognised by Windows
 (you can use a utility such as Midi-OX to test it).
 
-1. Enter System mode and select \[Triggers\].
+1. Enter System mode and select <Keys.SoftKey>Triggers</Keys.SoftKey>.
 
 2. Add a new mapping using the + button at the bottom of the left hand
 column, and call it "T2 playbacks".
 
 3. Add a trigger to the mapping using the + button in the right hand
-column or softkey \[Add trigger\] -- by default this is set to the
-correct Trigger Type of \[Hardware\].
+column or softkey <Keys.SoftKey>Add trigger</Keys.SoftKey> -- by default this is set to the
+correct Trigger Type of <Keys.SoftKey>Hardware</Keys.SoftKey>.
 
 4. Move playback fader 1 on Titan Go.
 
-5. Click \[OK\]
+5. Click <Keys.SoftKey>OK</Keys.SoftKey>
 
 6. Move the first fader on your MIDI controller. Titan Go should
 recognise the MIDI commands and display the trigger in the prompt area.
 
-7. Click \[Add\]. The trigger for playback 1 is added to the list on
+7. Click <Keys.SoftKey>Add</Keys.SoftKey>. The trigger for playback 1 is added to the list on
 the right.
 
-8. Repeat from \[3\] to add the other 9 playback faders.
+8. Repeat from <Keys.SoftKey>3</Keys.SoftKey> to add the other 9 playback faders.
 
 MIDI Show Control
 -----------------
@@ -143,18 +145,18 @@ The following MIDI Show Control messages are supported:
   GO OFF    | Same as resume
 
 Playbacks/Cues are identified by their User Number. To set the user
-number, press \[Set Legend\] then the select button of the cue, then
-\[User Number\].
+number, press <Keys.SoftKey>Set Legend</Keys.SoftKey> then the select button of the cue, then
+<Keys.SoftKey>User Number</Keys.SoftKey>.
 
 MIDI show control devices are identified by a device ID. To set Titan's
-device ID go to System mode and select \[User Settings\], then go to the
-\[Timecode\] tab. The default setting is 0.
+device ID go to System mode and select <Keys.SoftKey>User Settings</Keys.SoftKey>, then go to the
+<Keys.SoftKey>Timecode</Keys.SoftKey> tab. The default setting is 0.
 
 Audio Control (Sound to Light)
 ------------------------------
 
 On supported consoles the audio input is divided into frequency bands
-which can be used to provide the trigger. The \[Band\] option selects
+which can be used to provide the trigger. The <Keys.SoftKey>Band</Keys.SoftKey> option selects
 which of the bands is being used.
 
 Audio triggers are adjusted in the Audio Triggers workspace.

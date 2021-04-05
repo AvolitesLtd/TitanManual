@@ -5,6 +5,8 @@ sidebar_label: Networking the Console
 original_id: networking
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Titan unterstützt über die üblichen DMX-Buchsen hinaus etliche
 weitere Wege der Kommunikation mit Beleuchtungs- und anderen Geräten;
 diese werden im Folgenden beschrieben.

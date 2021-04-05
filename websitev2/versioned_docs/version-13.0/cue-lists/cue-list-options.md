@@ -5,14 +5,16 @@ sidebar_label: Cue List Options
 original_id: cue-list-options
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Cue list options are set from the [Playback Options menu](../cues/playback-options.md). You can enter
 the playback options menu by doing the following:
 
-1. At the top level menu press \[Playback Options\]
+1. At the top level menu press <Keys.SoftKey>Playback Options</Keys.SoftKey>
 
 2. Press the **select** button for the cue list you wish to edit
 
-You can show the cue list options in a window by pressing \<View/Open\>
+You can show the cue list options in a window by pressing <Keys.HardKey>View/Open</Keys.HardKey>
 then the **Select** button of the cue list, then click the **Options** tab.
 
 The Cue List options are mostly the same as for [Cues](../cues/playback-options.md) and [Chases](../chases/chase-options.md), only
@@ -100,32 +102,32 @@ This option allows you to change settings for each cue in the cue list.
 To select the cue number to edit, use the **Wheel A** or press
 **softkey A** then enter the cue number on the numeric keypad.
 
--   \[Curve\] allows you to set a different fade curve for the cue; this
+-   <Keys.SoftKey>Curve</Keys.SoftKey> allows you to set a different fade curve for the cue; this
     affects how the fade progresses from one cue to the other *(for
     example you can select a fade which starts off slow, speeds up in
-    the middle and then slows down at the end)*. Press \[Curve\] then
+    the middle and then slows down at the end)*. Press <Keys.SoftKey>Curve</Keys.SoftKey> then
     select a new curve from the softkeys. The effect of the various
     curves is described in [Curves](../system-settings/curves.md).
 
--   \[Link\] can be set to **Wait for Go**, **With Previous Cue** or **After
+-   <Keys.SoftKey>Link</Keys.SoftKey> can be set to **Wait for Go**, **With Previous Cue** or **After
     Previous Cue**. See [Cue Linking & Link Offset](cue-list-timing.md#cue-linking--link-offset)
 
--   \[Move in Dark\] opens the menu for Move In Dark options, see
+-   <Keys.SoftKey>Move in Dark</Keys.SoftKey> opens the menu for Move In Dark options, see
     [Move in Dark (MID) Functions](cue-list-playback.md#move-in-dark-mid-functions)
 
--   \[Move In Dark Inhibit\] disables the
+-   <Keys.SoftKey>Move In Dark Inhibit</Keys.SoftKey> disables the
     [Move In Dark](cue-list-playback.md#move-in-dark-mid-functions) function for this
     cue
 
--   \[Tracking\] disables or enables [tracking](cue-list-playback.md#tracking) for this cue
+-   <Keys.SoftKey>Tracking</Keys.SoftKey> disables or enables [tracking](cue-list-playback.md#tracking) for this cue
 
--   \[Legend\] allows you to set a legend for the cue which is displayed
+-   <Keys.SoftKey>Legend</Keys.SoftKey> allows you to set a legend for the cue which is displayed
     on the cue list display
 
--   \[Notes=\] lets you enter a note for the cue *(e.g. "Leaves stage pursued
+-   <Keys.SoftKey>Notes=</Keys.SoftKey> lets you enter a note for the cue *(e.g. "Leaves stage pursued
     by bear" or "wake up spot operator")*
 
--   \[Autoload\] see [Autoloading a Playback within a Cue List](creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list)
+-   <Keys.SoftKey>Autoload</Keys.SoftKey> see [Autoloading a Playback within a Cue List](creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list)
 
--   \[Cue disabled\] allows you to temporarily disable this cue, see
+-   <Keys.SoftKey>Cue disabled</Keys.SoftKey> allows you to temporarily disable this cue, see
     [Disabling a Cue](editing-cue-lists.md#disabling-a-cue)

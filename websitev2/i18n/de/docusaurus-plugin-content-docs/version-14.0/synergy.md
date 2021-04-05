@@ -5,6 +5,8 @@ sidebar_label: Synergy and Linking to AI
 original_id: synergy
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 [](https://youtu.be/twfDqjNFasA "Synergy")
 
 Ab Version 12 enthält Titan das Modul Synergy, mit dem sich einzelne

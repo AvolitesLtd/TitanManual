@@ -5,6 +5,8 @@ sidebar_label: Recovering & Reinstalling the Console
 original_id: recovering-reinstalling-the-console
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The console runs on an embedded PC system, and like all computers, there
 is a possibility of system failure. The console software can be reloaded
 using the recovery USB stick provided with the console, or you can

@@ -5,6 +5,8 @@ sidebar_label: Operating the Remote
 original_id: operating-the-remote
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Um sich mit dem Pult zu verbinden, starten Sie auf dem Mobilgerät die
 Titan Remote-App; nun werden die im Netzwerk gefundenen Pulte angezeigt
 (vorausgesetzt natürlich, dass das [Netzwerk korrekt eingerichtet](setting-up-the-remote.md) ist).
@@ -15,9 +17,9 @@ also auch ohne Netzwerkverbindung, ausprobiert werden kann.
 ![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-Control-Selection.png)
 
 Mit der zentralen Leiste von Schaltflächen kann man nun die zu
-steuernden Funktionen/Details wählen. Mit der Taste \[Keypad\] wird 
+steuernden Funktionen/Details wählen. Mit der Taste <Keys.SoftKey>Keypad</Keys.SoftKey> wird 
 eine Tastatur eingeblendet; diese überlagert ggf. andere Schaltflächen. 
-Zum Ausblenden klicken Sie wieder auf \[Keypad\].
+Zum Ausblenden klicken Sie wieder auf <Keys.SoftKey>Keypad</Keys.SoftKey>.
 
 Keypad -- die Tastatursteuerung
 -------------------------------
@@ -42,7 +44,7 @@ Für 100% klicken Sie zweimal auf @, z.B.
 **`1 Thro 10 @ @`**
 
 > 	Um ein oder mehrere Geräte auf Locate-Werte zu setzen, klicken Sie statt
-	auf @ auf \[Locate\].
+	auf @ auf <Keys.SoftKey>Locate</Keys.SoftKey>.
 
 Es können mehrere Bereiche von Geräten mit der AND-Taste ausgewählt
 werden, z.B.
@@ -52,7 +54,7 @@ werden, z.B.
 Steuern von Geräten
 -------------------
 
-Auf der Geräte-Ansicht (mit der Schaltfläche \[Fixture\]) können Sie
+Auf der Geräte-Ansicht (mit der Schaltfläche <Keys.SoftKey>Fixture</Keys.SoftKey>) können Sie
 genauso arbeiten wie auf dem Pult gewohnt: wählen Sie einfach die
 gewünschten Geräte aus.
 
@@ -66,7 +68,7 @@ In der Geräteansicht können Sie durch Klicken und Ziehen nach oben und
 unten scrollen. Um die Seiten umzuschalten, ziehen Sie die
 Palettenanzeige vom linken Rand aus nach rechts.
 
-Mit der Schaltfläche \<All\> wählen Sie alle Geräte im
+Mit der Schaltfläche <Keys.HardKey>All</Keys.HardKey> wählen Sie alle Geräte im
 Programmierspeicher aus. Halten Sie die Schaltfläche länger angeklickt,
 so werden verschiedene Auswahlmuster angeboten (odd, even etc.)
 
@@ -79,8 +81,8 @@ und ziehen Sie diese. Gibt es mehr als drei Attribute in der jeweiligen
 Attributgruppe des Gerätes, klicken Sie zum Durchschalten wiederholt auf
 die entsprechende **IPCGBES**-Schaltfläche.
 
-Klicken Sie auf \[Clear\], um den Programmierspeicher der Remote zu
-löschen. Wenn Sie \[Clear\] länger anklicken, so werden alle
+Klicken Sie auf <Keys.SoftKey>Clear</Keys.SoftKey>, um den Programmierspeicher der Remote zu
+löschen. Wenn Sie <Keys.SoftKey>Clear</Keys.SoftKey> länger anklicken, so werden alle
 Programmierspeicher gelöscht, also auch der des Pultes. Das kann
 sinnvoll sein, wenn dort versehentlich noch etwas aktiv ist, was bei der
 Verwendung der Remote stört.
@@ -97,7 +99,7 @@ Speichern von Gruppen und Paletten
 ----------------------------------
 
 Mit der Remote lassen sich auch Gruppen und Paletten speichern: nehmen
-Sie die gewünschten Einstellungen vor, klicken Sie auf \[Rec\] und dann
+Sie die gewünschten Einstellungen vor, klicken Sie auf <Keys.SoftKey>Rec</Keys.SoftKey> und dann
 auf eine Schaltfläche in der entsprechenden Ansicht. Ebenso kann man
 einfach eine leere Schaltfläche länger gedrückt halten (Quick Record) --
 das ist gleichbedeutend mit dem Doppelklick auf dem Pult.

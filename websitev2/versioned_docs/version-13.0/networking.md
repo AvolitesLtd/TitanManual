@@ -5,6 +5,8 @@ sidebar_label: Networking the Console
 original_id: networking
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 There are a number of ways for the console to communicate with lighting
 fixtures beyond the traditional DMX sockets, and these are described in
 this chapter.

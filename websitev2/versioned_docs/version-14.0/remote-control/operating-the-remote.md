@@ -5,6 +5,8 @@ sidebar_label: Operating the Remote
 original_id: operating-the-remote
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 To connect to the console, open the Titan Remote app and a list of
 available consoles will be shown - hopefully if you have done the
 [network setup](setting-up-the-remote.md) correctly, you will see your console listed.

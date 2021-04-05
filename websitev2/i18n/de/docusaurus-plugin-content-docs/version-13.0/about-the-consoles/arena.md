@@ -5,6 +5,8 @@ sidebar_label: Arena
 original_id: arena
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Das Arena hat fünf grundsätzliche Bedienungsbereiche:
 
 ![Arena](/docs/images/Arena.png)
@@ -44,7 +46,7 @@ Programmierablauf.
 verschiedener Steuerungsoptionen. Im Display wird direkt neben jedem
 Taster die jeweilige Funktion angezeigt, abhängig vom jeweiligen Status
 des Pultes. Befehle dieser Taster sind in diesem Handbuch blau dargestellt,
- z.B. \[Edit Times\]
+ z.B. <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 \(J\) Das **Mini-Display** kann weitere Arbeitsfenster anzeigen. Die vier
 \(K\) **Encoder** daneben können wie normale Playbacks programmiert werden und

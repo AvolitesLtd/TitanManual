@@ -5,6 +5,8 @@ sidebar_label: Fader Wings
 original_id: fader-wings
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 "Wings" bieten zusätzliche Bedienelemente wie Fader und Tasten, und sind
 je nach Einsatzzweck eine sinnvolle Ergänzung.
 

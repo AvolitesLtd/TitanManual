@@ -5,6 +5,8 @@ sidebar_label: Connecting up and Titan basics
 original_id: titan-basics
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 This section covers how to connect the console up, and the basic things
 you need to know about operating Titan.
 
@@ -185,9 +187,9 @@ touchscreen drivers. Titan Mobile will also support 2 monitors if the PC
 you are using has the facility.
 
 An external monitor is disabled by default and will show a \'disabled\'
-message. To enable, switch to System mode (press \<Avo\>+\<Disk\>) and
-select \[Display Setup\] then press \[External Display Disconnected\].
-The option will change to \[External Display Connected\] and the display
+message. To enable, switch to System mode (press <Keys.HardKey>Avo</Keys.HardKey>+<Keys.HardKey>Disk</Keys.HardKey>) and
+select <Keys.SoftKey>Display Setup</Keys.SoftKey> then press <Keys.SoftKey>External Display Disconnected</Keys.SoftKey>.
+The option will change to <Keys.SoftKey>External Display Connected</Keys.SoftKey> and the display
 will be enabled.
 
 If you need to change the monitor resolution or settings, touch

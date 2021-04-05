@@ -5,6 +5,8 @@ sidebar_label: Running the show
 original_id: running-the-show
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 It's Showtime! In diesem Kapitel werden die Funktionen des Pultes
 während des Showablaufs erläutert.
 

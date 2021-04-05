@@ -5,15 +5,17 @@ sidebar_label: Show Library
 original_id: show-library
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Im Fenster 'Show Library' (Show-Verzeichnis) werden sämtliche Details
 und Bestandteile der programmierten Show übersichtlich angezeigt. Dies
 dient insbesondere zum Transferieren solcher Details zwischen mehreren
 Shows - auch auf Pulte mit weniger Fader/Tasten - , ist aber auch eine
 gute Übersicht beim Verschieben innerhalb einer Show.
 
-Zum Öffnen drücken Sie im Hauptmenü \[Open Workspace Window\] und wählen
-aus der Liste \[Show Library\] (oder - wenn man gerade in einem
-Untermenü ist: \<View / Open\>, \[Open Workspace Window\], \[Show
+Zum Öffnen drücken Sie im Hauptmenü <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> und wählen
+aus der Liste <Keys.SoftKey>Show Library</Keys.SoftKey> (oder - wenn man gerade in einem
+Untermenü ist: <Keys.HardKey>View / Open</Keys.HardKey>, <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>, \[Show
 Library\]).
 
 Der Reiter Show Library
@@ -44,7 +46,7 @@ Der Reiter Users (Benutzer)
 ---------------------------
 
 Damit können Benutzer angelegt/ausgewählt werden. Identisch mit der
-Option \[Users\] im \<Disk\>-Menü.
+Option <Keys.SoftKey>Users</Keys.SoftKey> im <Keys.HardKey>Disk</Keys.HardKey>-Menü.
 
 Der Reiter Key Profiles (Tastenprofile)
 ---------------------------------------

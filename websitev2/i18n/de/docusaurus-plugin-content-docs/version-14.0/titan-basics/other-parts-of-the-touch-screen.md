@@ -5,6 +5,8 @@ sidebar_label: Other Parts of the Touch Screen
 original_id: other-parts-of-the-touch-screen
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Die Menütasten
 --------------
 
@@ -16,15 +18,15 @@ Direkt daneben angeordnet sind die Menütasten A-G.
 ![Titan Touch Screen User Interface](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
 Gibt es mehr Funktionen als in den verfügbaren Platz
-passen, so erscheinen Schaltflächen \[Previous\] (zurück) und \[Next\]
+passen, so erscheinen Schaltflächen <Keys.SoftKey>Previous</Keys.SoftKey> (zurück) und <Keys.SoftKey>Next</Keys.SoftKey>
 (weiter), um durch die Funktionen zu blättern. Man kann jeweils die
 Schaltfläche oder die 'richtige' Taste (direkt daneben) benutzen.
 
 Die senkrechte Leiste links neben den Menü-Schaltflächen zeigt den Namen
 des aktuellen Menüs. Bei Bedarf lässt sich das gerade aktive Menü
 einrasten (so dass es nicht laufend wieder angewählt werden muss); dazu
-dient die Taste \<Menu Latch\> (auf dem Pearl Expert und dem alten Tiger
-Touch die Taste \<ML Menu\>). Die senkrechte Leiste neben den Buttons
+dient die Taste <Keys.HardKey>Menu Latch</Keys.HardKey> (auf dem Pearl Expert und dem alten Tiger
+Touch die Taste <Keys.HardKey>ML Menu</Keys.HardKey>). Die senkrechte Leiste neben den Buttons
 wird rot, sobald ein Menü eingerastet ist. Das ist z.B. sinnvoll, wenn 
 viele einzelne Playbacks oder Paletten kopiert oder verschoben werden 
 sollen.
@@ -182,7 +184,7 @@ werden alle Aktionen bis zu dieser rückgängig gemacht. Derart
 deaktivierte Aktionen werden ausgegraut dargestellt; klickt man darauf,
 so können sie wiederhergestellt werden.
 
-Ebenso kann man mittels Undo/Redo durch die Liste durchschalten (\<AVO\> + \<Undo\> bzw. \<AVO\> + \<Redo\>; Pfeil-links bzw. Pfeil-rechts
+Ebenso kann man mittels Undo/Redo durch die Liste durchschalten (<Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Undo</Keys.HardKey> bzw. <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Redo</Keys.HardKey>; Pfeil-links bzw. Pfeil-rechts
 unterhalb des Ziffernblocks auf älteren Pulten).
 
 Einige Aktionen können nicht rückgängig gemacht werden; dies wird durch
@@ -192,6 +194,6 @@ ein rotes Verbotszeichen dargestellt.
 
 Im Mehrbenutzerbetrieb kann das Fenster eine separate Spalte pro
 Benutzer zeigen, mit den jeweils letzten Aktionen des Users. Dazu dient
-die Option \{Show All Users and Consoles\} im Kontext-Menü dieses Fensters. 
-Als Vorgabe wird mit \{Show Only Current User\} nur der
+die Option <Keys.ContextKey>Show All Users and Consoles</Keys.ContextKey> im Kontext-Menü dieses Fensters. 
+Als Vorgabe wird mit <Keys.ContextKey>Show Only Current User</Keys.ContextKey> nur der
 aktuelle Benutzer angezeigt.

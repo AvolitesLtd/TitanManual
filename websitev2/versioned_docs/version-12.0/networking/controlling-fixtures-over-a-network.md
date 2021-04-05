@@ -5,6 +5,8 @@ sidebar_label: Controlling Fixtures over a Network
 original_id: controlling-fixtures-over-a-network
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Before the console can talk to another device over the network, it has
 to be given a unique network address. This is called its "IP address".
 
@@ -15,17 +17,17 @@ We recommend that you use the console's automatic IP setting function.
 However, if you need to you can also set the IP address using Windows
 Control Panel as shown on page 345.
 
-1. Switch to System mode and press \[Network Settings\]
+1. Switch to System mode and press <Keys.SoftKey>Network Settings</Keys.SoftKey>
 
-2. Press \[Local Area Connection\].
+2. Press <Keys.SoftKey>Local Area Connection</Keys.SoftKey>.
 
-3. Press \[Subnet Mask\] and ensure it is set to `255.255.255.0`
+3. Press <Keys.SoftKey>Subnet Mask</Keys.SoftKey> and ensure it is set to `255.255.255.0`
 
 4. Press \[Set IP `2.\*.\*.\*\`]
 
-5. Press \[Save settings\]
+5. Press <Keys.SoftKey>Save settings</Keys.SoftKey>
 
-6. \<Exit\> system mode.
+6. <Keys.HardKey>Exit</Keys.HardKey> system mode.
 
 -   Some equipment may operate on IP addresses 10.\*.\*.\* (softkey D)
     -- see later in this chapter for details.
@@ -132,7 +134,7 @@ With everything connected, start the console.
 1. Ensure the console has an IP in the 2.x.x.x range as described at
 the start of the chapter.
 
-2. Switch the console to System and select \[DMX Settings\].
+2. Switch the console to System and select <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
 
 3. The DMX Settings window should open.
 

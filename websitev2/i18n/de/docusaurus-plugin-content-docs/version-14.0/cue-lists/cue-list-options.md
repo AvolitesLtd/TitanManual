@@ -5,14 +5,16 @@ sidebar_label: Cue List Options
 original_id: cue-list-options
 ---
 
+import Keys from '@site/src/components/key.ts';
+
  
 Über das Menü [Options](../cues/playback-options.md) sind weitere Optionen 
-verfügbar. Drücken Sie dafür die Taste \<Options\> oder im Hauptmenü die 
-Menütaste \[Options\], und wählen Sie die gewünschte Cueliste (**blaue Taste**).
+verfügbar. Drücken Sie dafür die Taste <Keys.HardKey>Options</Keys.HardKey> oder im Hauptmenü die 
+Menütaste <Keys.SoftKey>Options</Keys.SoftKey>, und wählen Sie die gewünschte Cueliste (**blaue Taste**).
 
-Oder drücken Sie \<View / Open\>, dann die entsprechende
+Oder drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, dann die entsprechende
 **Select-Taste**, und klicken links in der Playback-Ansicht auf
-\[Options\].
+<Keys.SoftKey>Options</Keys.SoftKey>.
 
 ---
 
@@ -100,12 +102,12 @@ Bei 'Manual Crossfade' gilt außerdem folgendes:
 
 -   Autoloads folgen ihrer jeweiligen Fadezeit unabhängig vom Crossfade.
 
--   Angehaltene Fades können mit \<Go\> fortgesetzt werden.
+-   Angehaltene Fades können mit <Keys.HardKey>Go</Keys.HardKey> fortgesetzt werden.
 
 ### Fire First Cue
 Ist diese Option aktiviert, so wird mit Bedienen des
 Faders direkt Cue 1 der Cueliste gestartet. Als Vorgabewert ist diese
-Option deaktiviert. Ansonsten muss immer erst \<Go\> gedrückt werden.
+Option deaktiviert. Ansonsten muss immer erst <Keys.HardKey>Go</Keys.HardKey> gedrückt werden.
 
 ---
 
@@ -126,5 +128,5 @@ nächsten Cue Werte dafür hinterlegt sind. Damit lassen sich manche
 Effekte erstellen.
 
 > Die früher hier zu findenden **Cue Options** sind nun in der Playback-Ansicht
- zu finden und zu editieren. Um diese zu öffnen, drücken Sie \<View / Open\> 
+ zu finden und zu editieren. Um diese zu öffnen, drücken Sie <Keys.HardKey>View / Open</Keys.HardKey> 
  und die **Select-Taste** der Cueliste.

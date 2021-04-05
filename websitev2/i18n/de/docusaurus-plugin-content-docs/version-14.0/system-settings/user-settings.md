@@ -5,9 +5,11 @@ sidebar_label: User Settings
 original_id: user-settings
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Das Menü 'User Settings' (Benutzereinstellungen) lässt sich sowohl im
-System-Menü (\<Avo\> + \<Disk\>) als auch im 'Program'-Modus aufrufen; 
-dazu halten Sie die \<AVO\>-Taste gedrückt und betätigen die Taste \[User Settings\].
+System-Menü (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) als auch im 'Program'-Modus aufrufen; 
+dazu halten Sie die <Keys.HardKey>AVO</Keys.HardKey>-Taste gedrückt und betätigen die Taste <Keys.SoftKey>User Settings</Keys.SoftKey>.
 
 ![User Settings Window](/docs/images/User-Settings-Window.png)
 
@@ -17,7 +19,7 @@ ebenso kann man sie mit den Menütasten verändern. Die
 Benutzereinstellungen gelten jeweils pro Benutzer.
 
 
-> 	Ein Klick auf das Symbol \{i\} öffnet einen kleinen Hinweistext 
+> 	Ein Klick auf das Symbol <Keys.ContextKey>i</Keys.ContextKey> öffnet einen kleinen Hinweistext 
 	zu der jeweiligen Einstellung.
 
 Die möglichen Einstellungen sind nach verschiedenen Kategorien sortiert.
@@ -28,13 +30,13 @@ in der Sie eine Einstellung ändern wollen.
 
 ### Chase Snap
 Falls aktiviert, wird mit den Tasten \<Next
-Step\>/\<Prev Step\> bei Chasern hart auf den nächsten Schritt
+Step\>/<Keys.HardKey>Prev Step</Keys.HardKey> bei Chasern hart auf den nächsten Schritt
 umgeschaltet. Ist die Option dagegen deaktiviert, werden etwa
 programmierte Fadezeiten berücksichtigt. Diese Option wird auch mit der
-Taste \<Snap\> umgeschaltet, die auf einigen Pulten vorhanden ist.
+Taste <Keys.HardKey>Snap</Keys.HardKey> umgeschaltet, die auf einigen Pulten vorhanden ist.
 
 ### Cue List Snap
-Falls aktiviert, wird mit den Tasten \<Next Step\>/\<Prev Step\> 
+Falls aktiviert, wird mit den Tasten <Keys.HardKey>Next Step</Keys.HardKey>/<Keys.HardKey>Prev Step</Keys.HardKey> 
 bei Cuelisten hart auf den nächsten Schritt umgeschaltet. Ist die 
 Option dagegen deaktiviert, werden etwa programmierte Fadezeiten 
 berücksichtigt.
@@ -75,7 +77,7 @@ Einstellungen vornehmen.
 ### Lock Screen Background
 Einstellen eines Hintergrundbildes bei gesperrtem Pult
 
--  Diese Optionen stehen auch im System-Menü und \[Display Setup\] zur Verfügung.
+-  Diese Optionen stehen auch im System-Menü und <Keys.SoftKey>Display Setup</Keys.SoftKey> zur Verfügung.
 
 ---
 
@@ -87,7 +89,7 @@ hilfreich insbesondere, wenn der nicht korrekt funktionieren sollte.
 *Voreinstellung: inaktiv*.
 
 ### Delete Default
-Bestimmt, was die Standard-Aktion beim Löschen (\<Delete\> + Doppelklick) 
+Bestimmt, was die Standard-Aktion beim Löschen (<Keys.HardKey>Delete</Keys.HardKey> + Doppelklick) 
 von Elementen, also Cues, Paletten, Cuelisten und Chasern, ist. Stellt 
 man dies auf 'Unassign', so werden diese Elemente nicht gelöscht, 
 sondern nur von der Taste/Schaltfläche entfernt und sind über das 
@@ -97,9 +99,9 @@ Show-Verzeichnis weiterhin verfügbar.
 Bestimmt, wie sich das Pult verhält, wenn man etwas
 auf einen bereits belegten Speicherplatz speichern will.
 
-\[Prompt for Merge or Replace\] - es erscheint jedes Mal eine Rückfrage\
-\[Always Merge\] - es erscheint nie eine Rückfrage\
-\[Palettes Always Merge\] - die Rückfrage erscheint nur, wenn es sich
+<Keys.SoftKey>Prompt for Merge or Replace</Keys.SoftKey> - es erscheint jedes Mal eine Rückfrage\
+<Keys.SoftKey>Always Merge</Keys.SoftKey> - es erscheint nie eine Rückfrage\
+<Keys.SoftKey>Palettes Always Merge</Keys.SoftKey> - die Rückfrage erscheint nur, wenn es sich
 nicht um das Speichern von Paletten handelt.
 
 ### Display Halo
@@ -108,14 +110,14 @@ Dient zum Abschalten aller farbigen Halos.
 ### Fixture Halos
 Auswahl der darzustellenden Halos bei Fixtures (Gerätetasten):
 
-\[Custom\] - Nur benutzerdefinierte Halos werden angezeigt.\
-\[Auto\] - Es werden automatisch farbige Halos für alle Fixtures
+<Keys.SoftKey>Custom</Keys.SoftKey> - Nur benutzerdefinierte Halos werden angezeigt.\
+<Keys.SoftKey>Auto</Keys.SoftKey> - Es werden automatisch farbige Halos für alle Fixtures
 angezeigt.
 
 ### Handle Buttons
 Erlaubt das Ändern der Größe der Schaltflächen auf
-dem Touchscreen: \[Small\] (klein), \[Normal\] (normal), \[Large\]
-(groß) oder \[Super Size\] (sehr groß). 
+dem Touchscreen: <Keys.SoftKey>Small</Keys.SoftKey> (klein), <Keys.SoftKey>Normal</Keys.SoftKey> (normal), <Keys.SoftKey>Large</Keys.SoftKey>
+(groß) oder <Keys.SoftKey>Super Size</Keys.SoftKey> (sehr groß). 
 
 Kann jeweils pro Fenster abgeändert werden.
 
@@ -127,11 +129,11 @@ Fenster abgeändert werden.
 ### Playback Paging
 Das Verhalten aktiver Playbacks beim Seitenwechsel.
 
-\[Normal\] ist die für das jeweilige Pult normale Arbeitsweise.\
-\[Always Hold\] ist die traditionelle Funktionsweise, bei der das
+<Keys.SoftKey>Normal</Keys.SoftKey> ist die für das jeweilige Pult normale Arbeitsweise.\
+<Keys.SoftKey>Always Hold</Keys.SoftKey> ist die traditionelle Funktionsweise, bei der das
 Playback aktiv und mit dem Regler verbunden bleibt, bis dieser - und
 damit das Playback - auf 0 gebracht wird.\
-\[Never Hold\] dagegen ist die Funktionsweise bei Pulten mit
+<Keys.SoftKey>Never Hold</Keys.SoftKey> dagegen ist die Funktionsweise bei Pulten mit
 Motorfadern: beim Seitenwechsel bleiben aktive Playbacks aktiv, aber die
 Fader sind auf der neuen Seite. Um aktive Playbacks von einer anderen
 Seite wieder zu steuern, muss man erst auf diese Seite wechseln und den
@@ -157,8 +159,8 @@ Auswahl/Editieren des aktuellen Tastenprofils. Siehe [Key Profiles](key-profiles
 Bestimmt das Verhalten beim Patchen von Geräten mit sich 
 überschneidenden DMX-Adressen; dabei werden die anderen Geräte jeweils 'geparkt'.
 
-\[Always\] - es erscheint stets eine Warnmeldung.\
-\[Never\] - keine Warnung beim Parken von Geräten.
+<Keys.SoftKey>Always</Keys.SoftKey> - es erscheint stets eine Warnmeldung.\
+<Keys.SoftKey>Never</Keys.SoftKey> - keine Warnung beim Parken von Geräten.
 
 ### DMX Address
 Anzeige der DMX-Adresse auf den Fixture-Buttons aktivieren.
@@ -171,10 +173,10 @@ Gruppen angelegt werden sollen.
 Bestimmt, ob beim Patchen von Geräten automatisch Paletten angelegt 
 werden sollen. Kann auch beim Patchen im Patch-Optionsmenü aktiviert werden.
 
-\[Do Not Create\] -- es werden keine Paletten angelegt.\
-\[Create On Workspaces\] -- es werden Paletten in den jeweiligen
+<Keys.SoftKey>Do Not Create</Keys.SoftKey> -- es werden keine Paletten angelegt.\
+<Keys.SoftKey>Create On Workspaces</Keys.SoftKey> -- es werden Paletten in den jeweiligen
 Paletten-Fenstern angelegt.\
-\[Create On Presets\] -- es werden Paletten auf den Preset-Tasten (Pearl
+<Keys.SoftKey>Create On Presets</Keys.SoftKey> -- es werden Paletten auf den Preset-Tasten (Pearl
 Expert) angelegt.
 
 ---
@@ -183,16 +185,16 @@ Expert) angelegt.
 
 ### Tempo Units
 Stellt die Einheiten für die Geschwindigkeit (etwa von Chasern) ein: 
-entweder \[Beats per Minute\] (BPM) oder \[Seconds\] (Sekunden).
+entweder <Keys.SoftKey>Beats per Minute</Keys.SoftKey> (BPM) oder <Keys.SoftKey>Seconds</Keys.SoftKey> (Sekunden).
 
 ### Connected View Sets
 Bestimmt das Verhalten beim Ändern der Geschwindigkeit eines 'verbundenen' 
 (connected) Chasers.
 
-Mit \[**Temporary** **Chase Speed**\] gilt das Tempo nur momentan, und wird
+Mit <Keys.SoftKey>**Temporary** **Chase Speed**</Keys.SoftKey> gilt das Tempo nur momentan, und wird
 beim nächsten Laden des Chasers wieder auf den programmierten Wert
 zurückgesetzt.\
-Mit \[**Chase Speed**\] wird das Tempo hingegen
+Mit <Keys.SoftKey>**Chase Speed**</Keys.SoftKey> wird das Tempo hingegen
 gespeichert und das vorher programmierte damit überschrieben.
 
 ### Preload Time
@@ -216,18 +218,18 @@ einem unter 100% gesetzten Rate Grand Master beeinflusst.
 ### Channel Levels
 Definiert, wie die gewünschten Pegel über die Zifferntasten eingegeben werden.
 
-\[Channel Levels Set In Tens\] ('Eingabe in Zehnern') - man gibt nur
+<Keys.SoftKey>Channel Levels Set In Tens</Keys.SoftKey> ('Eingabe in Zehnern') - man gibt nur
 eine Ziffer ein, z.B. *5 = 50%*\
-\[Channel Levels Set in Units\] - die Eingabe erfolgt zweistellig, z.B.
+<Keys.SoftKey>Channel Levels Set in Units</Keys.SoftKey> - die Eingabe erfolgt zweistellig, z.B.
 *50 = 50%*
 
 ### Number Style
 Stellt die Darstellung von Zahlen in der Cue- und
 Palettenansicht ein.
 
-\[Precise\] - zeigt alle Dezimalstellen.\
-\[Rounded\] - rundet auf die nächste Ganzzahl.\
-\[Dynamic\] - zeigt Dezimalstellen wenn erforderlich und unterdrückt Nullen.
+<Keys.SoftKey>Precise</Keys.SoftKey> - zeigt alle Dezimalstellen.\
+<Keys.SoftKey>Rounded</Keys.SoftKey> - rundet auf die nächste Ganzzahl.\
+<Keys.SoftKey>Dynamic</Keys.SoftKey> - zeigt Dezimalstellen wenn erforderlich und unterdrückt Nullen.
 
 ---
 
@@ -301,7 +303,7 @@ Setzt die Maskierung bei jedem Betätigen der
 
 ### Zero Preset Fader Levels
 Bestimmt, ob Faderwerte von Geräten, die direkt auf Fader gepatcht sind, mit
-\<Clear\> auf 0 gesetzt werden sollen oder nicht. Wenn deaktiviert,
+<Keys.HardKey>Clear</Keys.HardKey> auf 0 gesetzt werden sollen oder nicht. Wenn deaktiviert,
 werden die Werte aus dem Programmer gelöscht, bleiben aber aktiv.
 
 ### Release to Playback Values
@@ -335,9 +337,9 @@ sämtliche Geräte gelöscht.
 ### Swop Shapes
 Verhalten von Shapes bei Swop.
 
-\[All Shapes\] - Alle laufenden Shapes von anderen Playbacks werden
+<Keys.SoftKey>All Shapes</Keys.SoftKey> - Alle laufenden Shapes von anderen Playbacks werden
 unterbrochen.\
-\[Intensity Shapes\] - Nur Intensity-Shapes von anderen Playbacks
+<Keys.SoftKey>Intensity Shapes</Keys.SoftKey> - Nur Intensity-Shapes von anderen Playbacks
 werden unterbrochen, andere Shapes laufen weiter.
 
 ### Shape Behaviour
@@ -351,8 +353,8 @@ Steuert, ob Keyframe-Shapes eher LTP wirken (und von anderen Playbacks
 ### Fixture LEDs
 Dient zum Einstellen des Verhaltens der LEDs in den
 'Select'-Tasten, wenn direkt auf Fader/Tasten gepatcht wurde.\
-\[Show Occupation\] -- Anzeige der Belegung (frei/belegt).\
-\[Mimic Intensity\] -- Anzeige der Intensität/Dimmerlevel.
+<Keys.SoftKey>Show Occupation</Keys.SoftKey> -- Anzeige der Belegung (frei/belegt).\
+<Keys.SoftKey>Mimic Intensity</Keys.SoftKey> -- Anzeige der Intensität/Dimmerlevel.
 
 > **Die nachfolgenden Optionen beziehen sich nur auf die Einstellung \[Show
 Occupation\].**
@@ -414,20 +416,20 @@ Empfindlichkeit für Tilt (wenn aktiviert). Größere Werte lassen Tilt träger 
 ### Auto Connect
 Bestimmt, ob Chaser und Cuelisten bei ihrem Aufruf
 automatisch mit der Ablaufsteuerung (Encoder und Tasten) verbunden werden.
-Die Optionen sind \[Off\] (Aus/Nie), \[Chases\] (nur Chaser), \[Lists\]
-(nur Cuelisten), und \[Chases and Lists\] (Chaser und Cuelisten)
+Die Optionen sind <Keys.SoftKey>Off</Keys.SoftKey> (Aus/Nie), <Keys.SoftKey>Chases</Keys.SoftKey> (nur Chaser), <Keys.SoftKey>Lists</Keys.SoftKey>
+(nur Cuelisten), und <Keys.SoftKey>Chases and Lists</Keys.SoftKey> (Chaser und Cuelisten)
 
 ### Auto View on Connect
 Wenn aktiviert, wird beim Connecten von
 Chasern und/oder Cuelisten automatisch das entsprechende
 Playback-Fenster angezeigt. Die Optionen sind Off\] (Aus/Nie),
-\[Chases\] (nur Chaser), \[Lists\] (nur Cuelisten), und \[Chases and
+<Keys.SoftKey>Chases</Keys.SoftKey> (nur Chaser), <Keys.SoftKey>Lists</Keys.SoftKey> (nur Cuelisten), und \[Chases and
 Lists\] (Chaser und Cuelisten). Wird sowohl diese als auch die
 vorherige Option aktiviert, so wird beim Starten eines entsprechenden
 Playbacks sowohl die Steuerung (Encoder, Go-Taste) verbunden als auch das
 Playback-Fenster geöffnet.
 
 ### Press and Hold Fan
-Ändert das Verhalten der \<Fan\>-Taste, so dass
+Ändert das Verhalten der <Keys.HardKey>Fan</Keys.HardKey>-Taste, so dass
 sie gedrückt gehalten werden muss. Damit wird das versehentliche
 Aktivieren dieser Funktion vermieden.

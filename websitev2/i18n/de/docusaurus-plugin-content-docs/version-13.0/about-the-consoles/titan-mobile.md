@@ -5,6 +5,8 @@ sidebar_label: Titan Mobile
 original_id: titan-mobile
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Das Titan Mobile ist ein PC-Wing, der mittels USB an einen Computer
 angeschlossen wird (Windows 7 oder höher, 64 bit), auf dem die
 Titan-Software läuft.
@@ -47,7 +49,7 @@ jeweiligen Fenster der Arbeitsumgebung.
 verschiedener Steuerungsoptionen. Im Bildschirm wird rechts die jeweilige
 Funktion angezeigt, abhängig vom jeweiligen Status
 des Pultes. Befehle dieser Taster sind in diesem Handbuch blau dargestellt,
-z.B. \[Edit Times\]
+z.B. <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 ## Der Bildschirm
 

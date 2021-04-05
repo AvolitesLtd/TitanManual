@@ -5,9 +5,11 @@ sidebar_label: User Settings
 original_id: user-settings
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The User Settings menu may be accessed from the System mode menu, and
-also from Program mode: hold down the \<Avo\> Shift button and press
-\[User Settings\].
+also from Program mode: hold down the <Keys.HardKey>Avo</Keys.HardKey> Shift button and press
+<Keys.SoftKey>User Settings</Keys.SoftKey>.
 
 ![User Settings Window](/docs/images/User-Settings-Window.png)
 
@@ -78,9 +80,9 @@ become unassigned. Unassigned items can be reused from the Show Library.
 Sets the console action when you try to save to a
 handle or playback which is already used.
 
-\[Prompt for Merge or Replace\] - the console will always prompt\
-\[Always Merge\] - the console will never prompt\
-\[Palettes Always Merge\] - the console will prompt unless you are
+<Keys.SoftKey>Prompt for Merge or Replace</Keys.SoftKey> - the console will always prompt\
+<Keys.SoftKey>Always Merge</Keys.SoftKey> - the console will never prompt\
+<Keys.SoftKey>Palettes Always Merge</Keys.SoftKey> - the console will prompt unless you are
 saving a palette
 
 ### Display Halo
@@ -92,12 +94,12 @@ Allows you to turn off all coloured halos on buttons.
 Sets how coloured halos are displayed on fixture
 buttons.
 
-\[Custom\] - Only user defined halo colours are shown.\
-\[Auto\] - Fixture buttons are coloured using automatic fixture colours
+<Keys.SoftKey>Custom</Keys.SoftKey> - Only user defined halo colours are shown.\
+<Keys.SoftKey>Auto</Keys.SoftKey> - Fixture buttons are coloured using automatic fixture colours
 
 ### Handle Buttons
 Sets the default size of the touch buttons to
-\[Small\], \[Normal\], \[Large\] or \[Super Size\]. 
+<Keys.SoftKey>Small</Keys.SoftKey>, <Keys.SoftKey>Normal</Keys.SoftKey>, <Keys.SoftKey>Large</Keys.SoftKey> or <Keys.SoftKey>Super Size</Keys.SoftKey>. 
 
 This can be
 overridden separately in any window.
@@ -109,14 +111,14 @@ Can be overridden in any window.
 
 ### Playback Paging
 
-\[Playback paging\] sets how the playback faders
+<Keys.SoftKey>Playback paging</Keys.SoftKey> sets how the playback faders
 behave when you change page with a playback active.\
-\[Normal\] - sets the normal mode for the console type.\
-\[Always Hold\] - sets the standard behaviour for non-motorised faders
+<Keys.SoftKey>Normal</Keys.SoftKey> - sets the normal mode for the console type.\
+<Keys.SoftKey>Always Hold</Keys.SoftKey> - sets the standard behaviour for non-motorised faders
 where the fader keeps control of the active playback when the page is
 changed and has to be lowered to zero before a playback on the new page
 can be fired.\
-\[Never Hold\] - the standard behaviour for motorised faders where the
+<Keys.SoftKey>Never Hold</Keys.SoftKey> - the standard behaviour for motorised faders where the
 fader always relates to the current page. To regain control of a
 playback from another page you have to go back to that page and level
 match the fader (which is done automatically by motorised fader). 
@@ -144,8 +146,8 @@ Sets the console action when you patch
 a fixture which overwrites the DMX channels of another fixture. This
 causes the overwritten fixture to be "parked".
 
-\[Always\] - console will warn you.\
-\[Never\] - console will park the fixture without warning you.
+<Keys.SoftKey>Always</Keys.SoftKey> - console will warn you.\
+<Keys.SoftKey>Never</Keys.SoftKey> - console will park the fixture without warning you.
 
 ### DMX Address
 Sets whether the DMX address of fixtures is shown in
@@ -158,11 +160,11 @@ groups for fixtures when you patch.
 ### Preset Palettes
 Sets whether preset palettes should be created when
 fixtures are patched. You can also turn this on when patching using the
-\[Create Preset Palettes\] softkey.\
-\[Do Not Create\] -- no palettes will be created.\
-\[Create On Workspaces\] -- palettes will be created in workspace
+<Keys.SoftKey>Create Preset Palettes</Keys.SoftKey> softkey.\
+<Keys.SoftKey>Do Not Create</Keys.SoftKey> -- no palettes will be created.\
+<Keys.SoftKey>Create On Workspaces</Keys.SoftKey> -- palettes will be created in workspace
 windows.\
-\[Create On Presets\] -- palettes will be created on preset buttons.
+<Keys.SoftKey>Create On Presets</Keys.SoftKey> -- palettes will be created on preset buttons.
 
 ---
 
@@ -170,7 +172,7 @@ windows.\
 
 ### Tempo Units
 Sets the units for displaying tempo. The options are
-\[Beats per Minute\] or \[Seconds\].
+<Keys.SoftKey>Beats per Minute</Keys.SoftKey> or <Keys.SoftKey>Seconds</Keys.SoftKey>.
 
 ### Connected View Sets
 Sets the console action when you change the
@@ -179,7 +181,7 @@ speed of a connected chase.
 \[Connected View Sets Temporary Chase
 Speed\] means that the console will not save the modified speed, and the
 next time the chase is fired it will go back to its programmed speed.\
-\[Connected View Sets Chase Speed\] means that the console will modify
+<Keys.SoftKey>Connected View Sets Chase Speed</Keys.SoftKey> means that the console will modify
 the saved speed of the chase.
 
 ### Preload Time
@@ -204,17 +206,17 @@ being set to less than 100%.
 Sets how you enter channel levels when using numeric
 entry of levels.
 
-\[Channel Levels Set In Tens\] - enter one digit for the channel level,
+<Keys.SoftKey>Channel Levels Set In Tens</Keys.SoftKey> - enter one digit for the channel level,
 *i.e. 5 = 50%*.\
-\[Channel Levels Set in Units\] - enter two digits, *i.e. 50 = 50%*.
+<Keys.SoftKey>Channel Levels Set in Units</Keys.SoftKey> - enter two digits, *i.e. 50 = 50%*.
 
 ### Number Style
 Sets how channel values are displayed in Cue View and
 Palette View.
 
-\[Precise\] - will include all decimal places.\
-\[Rounded\] - round to nearest whole number.\
-\[Dynamic\] - show decimals where appropriate, remove trailing zeros.
+<Keys.SoftKey>Precise</Keys.SoftKey> - will include all decimal places.\
+<Keys.SoftKey>Rounded</Keys.SoftKey> - round to nearest whole number.\
+<Keys.SoftKey>Dynamic</Keys.SoftKey> - show decimals where appropriate, remove trailing zeros.
 
 ---
 
@@ -322,8 +324,8 @@ programmer will remain.
 
 ### Swop Shapes
 Sets how shapes react to Swop mode.\
-\[All Shapes\] -- All running shapes from other playbacks are stopped\
-\[Intensity Shapes\] -- Only intensity shapes from other playbacks stop
+<Keys.SoftKey>All Shapes</Keys.SoftKey> -- All running shapes from other playbacks are stopped\
+<Keys.SoftKey>Intensity Shapes</Keys.SoftKey> -- Only intensity shapes from other playbacks stop
 
 ### Shape Behaviour
 Sets whether Key frame shapes will overlay all
@@ -337,10 +339,10 @@ the shape - see [Saving a key frame shape to a cue](../effects/key-frame-shapes.
 ### Fixture LEDs
 Sets how the button LED behaves when a fixture is
 patched to a fader handle.\
-\[Show Occupation\] -- the LED shows handle empty and selection state\
-\[Mimic Intensity\] -- the LED shows fixture intensity level.
+<Keys.SoftKey>Show Occupation</Keys.SoftKey> -- the LED shows handle empty and selection state\
+<Keys.SoftKey>Mimic Intensity</Keys.SoftKey> -- the LED shows fixture intensity level.
 
-> **The options below only function when \[Show Occupation\] is selected**
+> **The options below only function when <Keys.SoftKey>Show Occupation</Keys.SoftKey> is selected**
 
 ### LED Empty Level
 Sets level for unpatched handle.
@@ -402,18 +404,18 @@ option enabled. Larger numbers make Tilt work slower.
 
 ### Auto Connect
 Sets whether Chases and Cue Lists will auto-connect to
-the wheels when the playback is fired. The options are \[Off\],
-\[Chases\], \[Lists\] and \[Chases and Lists\].
+the wheels when the playback is fired. The options are <Keys.SoftKey>Off</Keys.SoftKey>,
+<Keys.SoftKey>Chases</Keys.SoftKey>, <Keys.SoftKey>Lists</Keys.SoftKey> and <Keys.SoftKey>Chases and Lists</Keys.SoftKey>.
 
 ### Auto View on Connect
 Sets whether the view window for the playback
 will open automatically when the playback is fired. The options are
-\[Off\], \[Chases\], \[Lists\] and \[Chases and Lists\]. If both Auto
-Connect and Auto View on Connect are set to \[Chases and Lists\] then
+<Keys.SoftKey>Off</Keys.SoftKey>, <Keys.SoftKey>Chases</Keys.SoftKey>, <Keys.SoftKey>Lists</Keys.SoftKey> and <Keys.SoftKey>Chases and Lists</Keys.SoftKey>. If both Auto
+Connect and Auto View on Connect are set to <Keys.SoftKey>Chases and Lists</Keys.SoftKey> then
 firing a playback will automatically connect the playback and open the
 view window for the playback.
 
 ### Press and Hold Fan
-\[Press and Hold Fan\] changes the Fan function
+<Keys.SoftKey>Press and Hold Fan</Keys.SoftKey> changes the Fan function
 so that it only works while the Fan button is held. This avoids the
 common user error of leaving Fan turned on accidentally.

@@ -5,8 +5,10 @@ sidebar_label: The System Menu
 original_id: the-system-menu
 ---
 
-The System menu is accessed by holding \<Avo\> and pressing \<Disk\>, or 
-on Titan Go you can press the \<System\> button. Some
+import Keys from '@site/src/components/key.ts';
+
+The System menu is accessed by holding <Keys.HardKey>Avo</Keys.HardKey> and pressing <Keys.HardKey>Disk</Keys.HardKey>, or 
+on Titan Go you can press the <Keys.HardKey>System</Keys.HardKey> button. Some
 older consoles are also fitted with a key switch or mode switch to get the
 System menu.
 
@@ -49,7 +51,7 @@ User Settings
 -------------
 
 The User Settings menu may also be accessed from Program mode: hold down
-the \<Avo\> button and press \[User Settings\]. See the [User Settings](user-settings.md) section.
+the <Keys.HardKey>Avo</Keys.HardKey> button and press <Keys.SoftKey>User Settings</Keys.SoftKey>. See the [User Settings](user-settings.md) section.
 
 Key Profiles
 ------------
@@ -91,7 +93,7 @@ will report anonymous information to Avolites. This includes details
 about faults that occur, statistics on how long certain functions take,
 and usage of functions. This information is really useful for improving
 the software, however if you would prefer to disable it, click the
-\[Telemetry Enabled\] button to switch it to \[Telemetry Disabled\].
+<Keys.SoftKey>Telemetry Enabled</Keys.SoftKey> button to switch it to <Keys.SoftKey>Telemetry Disabled</Keys.SoftKey>.
 Telemetry information will only be sent in any case if the console is
 connected to the internet.
 

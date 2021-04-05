@@ -5,16 +5,18 @@ sidebar_label: Playback Options
 original_id: playback-options
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
-To set options for a cue, chase or cue list, press \[Playback Options\]
+To set options for a cue, chase or cue list, press <Keys.SoftKey>Playback Options</Keys.SoftKey>
 on the root menu, then press the **select** button of the playback to be
 edited. A list of option categories will open on the softkeys; a window
 will also open giving a touch-friendly version of the playback options.
 
 ![Playback Options window for cue showing playback tab](/docs/images/Playback-Options-Playback-Tab.png)
 
-Click on the \[i\] button for a help window on each setting.
+Click on the <Keys.SoftKey>i</Keys.SoftKey> button for a help window on each setting.
 
 > You can select multiple playbacks if you want to set the options the
 same on all of them. The current option settings will be shown if they
@@ -64,7 +66,7 @@ Overlay | Shape continues to run over changes to attributes
 LTP | If attributes are changed, the shape will stop running on those attributes
 
 ### Fader Mode
-This is the same option as set in the [\[Edit Times\]
+This is the same option as set in the [<Keys.SoftKey>Edit Times</Keys.SoftKey>
 menu](cue-timing.md).
 
 Setting | Action
@@ -193,7 +195,7 @@ Same as in fader tab, [see above](#shape-size)
 ### Shape & Effect Speed
 Same as in fader tab, [see above](#shape-effect-speed)
 
-> If you have a cue which contains only shapes to overlay on other cues, set the cue to \[Size on Fader\] and allocate a [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters). You can then create lots of different looks out of the shape by varying the size and speed at show time using the playback fader and the speed master.
+> If you have a cue which contains only shapes to overlay on other cues, set the cue to <Keys.SoftKey>Size on Fader</Keys.SoftKey> and allocate a [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters). You can then create lots of different looks out of the shape by varying the size and speed at show time using the playback fader and the speed master.
 
 ## Release Tab
 
@@ -208,12 +210,12 @@ individual mask settings for this playback. Global uses the global
 release mask which is set in the **Release menu** (press Release).
 
 > Release mask is useful when creating a temporary strobe
-effect on a playback. Press \[Release Mask\] then the
+effect on a playback. Press <Keys.SoftKey>Release Mask</Keys.SoftKey> then the
 Intensity/Shutter attribute button. Now when you turn off
 the playback the shutter will release to its previous state
 and the strobe will stop.
 
-> When using with chases you need to press \[Mask\] before
+> When using with chases you need to press <Keys.SoftKey>Mask</Keys.SoftKey> before
 pressing the Intensity/Shutter button.
 
 You can use [Key Profiles](../system-settings/key-profiles.md) to

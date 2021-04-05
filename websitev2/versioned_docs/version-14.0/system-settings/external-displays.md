@@ -5,6 +5,8 @@ sidebar_label: External Displays
 original_id: external-displays
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 For extra workspace you can connect another display to the DVI port(s)
 on the console *(VGA on Pearl Expert and Tiger Touch 1)*. The Sapphire
 Touch can have two external displays, all other consoles can have one.
@@ -15,9 +17,9 @@ For Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) you can connect whi
 external displays your computer will support.
 
 An external display is disabled by default and will show a \'disabled\'
-message. To enable, go to the **System** menu (press \<Avo\> + \<Disk\>) and select \[Display Setup\]
-then press \[External Display Disconnected\]. The option will change to
-\[External Display Connected\] and the display will be enabled.
+message. To enable, go to the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>Display Setup</Keys.SoftKey>
+then press <Keys.SoftKey>External Display Disconnected</Keys.SoftKey>. The option will change to
+<Keys.SoftKey>External Display Connected</Keys.SoftKey> and the display will be enabled.
 
 > For best performance of the console, disable display outputs you aren't
 using.

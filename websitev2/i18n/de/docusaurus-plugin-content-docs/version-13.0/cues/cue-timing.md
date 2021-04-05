@@ -5,6 +5,8 @@ sidebar_label: Cue Timing
 original_id: cue-timing
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Es lassen sich viele verschiedene Zeiteinstellungen für Cues vornehmen.
 
 Einstellen von Überblendzeiten und Geräteversatz
@@ -36,22 +38,22 @@ gespeichert.
 
 Gespeicherte Zeiten lassen sich wie folgt ändern:
 
-1. Drücken Sie \[Edit Times\] im Hauptmenü.
+1. Drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey> im Hauptmenü.
 
 2. Drücken Sie die **Swop-Taste** des Cues.
 
-3. Drücken Sie \[Fade Mode x\], um den 'Fade Mode' (Überblendmodus)
+3. Drücken Sie <Keys.SoftKey>Fade Mode x</Keys.SoftKey>, um den 'Fade Mode' (Überblendmodus)
 einzustellen.\
 *Das bestimmt, wie die Zeiten verwendet werden, [siehe unten](#fade-modes).*
 
-4. Drücken Sie \[Delay time\], um die Verzögerungszeit vor Beginn des
-Cues einzugeben, \[Fade time\] für die Einblendzeit, sowie \[Fade out
+4. Drücken Sie <Keys.SoftKey>Delay time</Keys.SoftKey>, um die Verzögerungszeit vor Beginn des
+Cues einzugeben, <Keys.SoftKey>Fade time</Keys.SoftKey> für die Einblendzeit, sowie \[Fade out
 time\] für die Eingabe der Ausblendzeit.
 
 5. Geben Sie die jeweilige Zeit mit den Zifferntasten (in Sekunden)
-ein, und schließen Sie die Eingabe mit \<Enter\> ab.
+ein, und schließen Sie die Eingabe mit <Keys.HardKey>Enter</Keys.HardKey> ab.
 
-6. Drücken Sie \[Fixture Overlap\] zur Einstellung des Geräteversatzes,
+6. Drücken Sie <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> zur Einstellung des Geräteversatzes,
 gefolgt von einem Wert **0...100** auf den Zifferntasten.\
 **100%** bedeutet: alle Geräte blenden gemeinsam über.\
 **0%** bedeutet: das vorherige Gerät muss die Überblendung abgeschlossen 
@@ -62,7 +64,7 @@ Die
 Reihenfolge der Geräte wird bestimmt durch die Reihenfolge beim Anwählen
 der Geräte *(kann aber später geändert werden, siehe [Ändern der Geräte-Reihenfolge](#ändern-der-reihenfolge-der-geräte))*.
 
-7. Drücken Sie \<Exit\> zum Verlassen des Menüs.
+7. Drücken Sie <Keys.HardKey>Exit</Keys.HardKey> zum Verlassen des Menüs.
 
 
 ---
@@ -71,29 +73,29 @@ der Geräte *(kann aber später geändert werden, siehe [Ändern der Geräte-Rei
     für jedes Attribut einzeln gesonderte Zeiten vergeben, siehe
     [Ändern der Attribut-Fadezeit](#eingeben-von-überblendzeiten-für-einzelne-attribute).
 
--   Mit der Taste \<TIME\> lassen sich Zeiten sehr komfortabel mit dem
-    Ziffernblock eingeben, z.B. ergibt \<TIME\> \<5\> \<AND\> \<2\> 5s Ein- und
+-   Mit der Taste <Keys.HardKey>TIME</Keys.HardKey> lassen sich Zeiten sehr komfortabel mit dem
+    Ziffernblock eingeben, z.B. ergibt <Keys.HardKey>TIME</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> <Keys.HardKey>AND</Keys.HardKey> <Keys.HardKey>2</Keys.HardKey> 5s Ein- und
     2s Ausfadezeit *(auf früheren Pulten liegt die Times-Funktion auf der
-    Taste \<SET\> (Titan Mobile/Sapphire Touch) bzw. \<NEXT TIME\>
+    Taste <Keys.HardKey>SET</Keys.HardKey> (Titan Mobile/Sapphire Touch) bzw. <Keys.HardKey>NEXT TIME</Keys.HardKey>
     (Tiger Touch/Pearl Expert))*.
 
 ### Fade Modes
 
 Die eingegebenen Zeiten werden abhängig vom 'Fade Mode' (Überblendmodus)
-wie folgt interpretiert (auch erreichbar über \[Playback Options\]
-\[Fader\]):
+wie folgt interpretiert (auch erreichbar über <Keys.SoftKey>Playback Options</Keys.SoftKey>
+<Keys.SoftKey>Fader</Keys.SoftKey>):
 
--   \[Mode 0\] - die Kanäle blenden in der vorgegebenen Zeit über, die
+-   <Keys.SoftKey>Mode 0</Keys.SoftKey> - die Kanäle blenden in der vorgegebenen Zeit über, die
     Ausblendzeit wird dabei ignoriert. Stehen die Zeiten auf '0', so
     werden HTP-Kanäle direkt mit dem Fader eingeblendet, während
     LTP-Kanäle 'hart' umschalten.
 
--   \[Mode 1\] - die Kanäle blenden in der vorgegebenen Zeit ein, HTP Kanäle
+-   <Keys.SoftKey>Mode 1</Keys.SoftKey> - die Kanäle blenden in der vorgegebenen Zeit ein, HTP Kanäle
     blenden in der vorgegebenen Ausblendzeit aus (LTP-Kanäle behalten
     ihre Werte). Stehen die Zeiten auf '0', so werden HTP-Kanäle direkt
     mit dem Fader eingeblendet, während LTP-Kanäle 'hart' umschalten.
 
--   \[Mode 2\] - die Kanäle blenden in der vorgegebenen Zeit ein, die
+-   <Keys.SoftKey>Mode 2</Keys.SoftKey> - die Kanäle blenden in der vorgegebenen Zeit ein, die
     Ausblendzeit wird ignoriert. Das Überblenden stoppt, sobald die
     Position des Fader erreicht ist; steht dieser etwa auf 50%, so
     erfolgt das Überblenden nur zur Hälfte. Bringt man den Fader wieder
@@ -107,15 +109,15 @@ wie folgt interpretiert (auch erreichbar über \[Playback Options\]
     enthält und dann auf Mode 2 gestellt wird. Dieser Modus bietet sich
     auch für die Steuerung der einzelnen Farben bei RGB-Lampen an*.
 
--   \[Mode 3\] - Crossfade (Überblendung). Sämtliche Kanäle, einschließlich
+-   <Keys.SoftKey>Mode 3</Keys.SoftKey> - Crossfade (Überblendung). Sämtliche Kanäle, einschließlich
     der Helligkeit, blenden zu den Einstellungen des neuen Cues über,
     alle anderen noch aktiven Cues werden ausgeblendet und deaktiviert.
     Wird ein anderer Cue wieder benötigt, so bringen Sie dessen Regler
     auf '0' und dann wieder auf den gewünschten Wert.
 
 >   Enthält der Cue Shapes, so ändern sich diese mit den eingestellten
-    Überblendzeiten. Im \[Mode 1\] ändern sich die Shapes abhängig von den
-    Zeiten, in \[Mode 2\] abhängig von der Faderstellung. Damit lassen sich
+    Überblendzeiten. Im <Keys.SoftKey>Mode 1</Keys.SoftKey> ändern sich die Shapes abhängig von den
+    Zeiten, in <Keys.SoftKey>Mode 2</Keys.SoftKey> abhängig von der Faderstellung. Damit lassen sich
     etwa Shapes realisieren, die abhängig vom Fader schneller oder
     größer werden.
 
@@ -128,17 +130,17 @@ Erstellen des Cues festgelegt, aber ggf. möchte man diese später ändern
 *(etwa, um Geräte bei der Nutzung von [Fixture Overlap](#einstellen-von-überblendzeiten-und-geräteversatz) 
 paarweise zusammenzufassen)*.
 
-1. Drücken Sie \[Edit Times\] im Hauptmenü.
+1. Drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey> im Hauptmenü.
 
 2. Drücken Sie die **Swop-Taste** des zu ändernden Cues.
 
-3. Drücken Sie \[Fixture Order\].
+3. Drücken Sie <Keys.SoftKey>Fixture Order</Keys.SoftKey>.
 
 4. Wählen Sie die Schrittnummer, ab der Sie beginnen möchten, mit der
-Menütaste \<A\>.
+Menütaste <Keys.HardKey>A</Keys.HardKey>.
 
 5. Soll die Schrittnummer automatisch erhöht werden, so stellen Sie
-\[Autoincrement\] auf **On**. Sollen mehrere Geräte die gleiche
+<Keys.SoftKey>Autoincrement</Keys.SoftKey> auf **On**. Sollen mehrere Geräte die gleiche
 Schrittnummer bekommen, stellen Sie diese Option auf **Off**.
 
 6. Betätigen Sie die Schaltfläche des Gerätes, das Sie an dieser Stelle
@@ -146,7 +148,7 @@ in der Sequenz haben möchten. Die Schrittnummer wird jeweils oben rechts
 in den Geräte-Schaltflächen angezeigt.
 ![Fixtures Window setting Fixture Order](/docs/images/Fixtures-Window-showing-fixture-order.png)
 
-7. Drücken Sie \<Exit\>, um das Menü zu beenden.
+7. Drücken Sie <Keys.HardKey>Exit</Keys.HardKey>, um das Menü zu beenden.
 
 ---
 
@@ -155,7 +157,7 @@ in den Geräte-Schaltflächen angezeigt.
     mehrere Geräte gleichzeitig beeinflusst werden.
 
 -   Einzelne Geräte kann man auch komplett aus der Folge entfernen;
-    schalten Sie dazu \[Autoincrement\] auf 'Off' und klicken Sie die
+    schalten Sie dazu <Keys.SoftKey>Autoincrement</Keys.SoftKey> auf 'Off' und klicken Sie die
     Geräteschaltfläche zweimal (daraufhin wird statt der Schrittnummer ein 'X'
     angezeigt). Betätigen Sie die Geräte-Schaltfläche nochmals, um das
     Gerät wieder in die Folge aufzunehmen.
@@ -170,22 +172,22 @@ eingegeben, so überschreibt diese die allgemein vergebenen Zeiten.
 Zur Eingabe der Überblendzeit für Attributgruppen gehen Sie wie folgt
 vor:
 
-1. Drücken Sie \[Edit Times\] im Hauptmenü.
+1. Drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey> im Hauptmenü.
 
 2. Drücken Sie die **Swop-Taste** des jeweiligen Cues.
 
 3. Drücken Sie die Taste der Attributgruppe (IPCGBES Buttons, oder 
 rechts auf dem Pult bei älteren Pulten) des Attributes, das Sie ändern möchten.
 
-4. Drücken Sie \[Delay = \] zur Eingabe einer Verzögerung oder \[Fade = \] 
+4. Drücken Sie <Keys.SoftKey>Delay = </Keys.SoftKey> zur Eingabe einer Verzögerung oder <Keys.SoftKey>Fade = </Keys.SoftKey> 
 zur Eingabe einer Überblendzeit.
 
 5. Geben Sie die gewünschte Zeit mit den Zifferntasten, gefolgt von
-\<Enter\>, ein, oder drücken Sie \[Use Global\], um die gesonderten
+<Keys.HardKey>Enter</Keys.HardKey>, ein, oder drücken Sie <Keys.SoftKey>Use Global</Keys.SoftKey>, um die gesonderten
 Attributzeiten zu löschen und die allgemeinen Zeiten des Cues zu
 verwenden.
 
-6. Drücken Sie \<Enter\> zum Speichern der Änderungen.
+6. Drücken Sie <Keys.HardKey>Enter</Keys.HardKey> zum Speichern der Änderungen.
 
 Dies lässt sich weiter verfeinern, indem man etwa jedem einzelnen Gerät
 unterschiedliche Zeiten gibt. Sobald Sie einen Cue zum Ändern auswählen,
@@ -197,7 +199,7 @@ Das [Fenster Cue View](editing-cues.md#cue-view) erscheint, sobald die Zeiten
 editiert werden. Innerhalb dieses Fensters kann man direkt Geräte und
 Attribute zum Editieren auswählen.
 
-Betätigen Sie die Taste \<ALL\>, um wieder alle Geräte in dem Cue
+Betätigen Sie die Taste <Keys.HardKey>ALL</Keys.HardKey>, um wieder alle Geräte in dem Cue
 auszuwählen.
 
 Innerhalb des Menüs 'Set Attribute Times' lassen sich nur Geräte
@@ -210,47 +212,47 @@ Die Zeiten im Programmierspeicher lassen sich vor dem Speichern eines
 Cues überprüfen und ändern. Ebenso lassen sich Zeiten einstellen und in
 bestehende Cues verschmelzen ([mergen](editing-cues.md#editieren-eines-cues-durch-verschmelzen-merge)), genau wie man Attribut-Werte verschmilzt.
 
-Drücken Sie die Taste \<TIME\>, um in dieses Menü zu gelangen.
+Drücken Sie die Taste <Keys.HardKey>TIME</Keys.HardKey>, um in dieses Menü zu gelangen.
 
 >   Auf dem Titan Mobile und dem Sapphire Touch liegt diese Funktion auf
-    der Taste oberhalb der \<Clear\>-Taste (Taste \<SET\>). Auf dem Tiger
-    Touch und dem Pearl Expert ist es die Taste \<NEXT TIME\>.
+    der Taste oberhalb der <Keys.HardKey>Clear</Keys.HardKey>-Taste (Taste <Keys.HardKey>SET</Keys.HardKey>). Auf dem Tiger
+    Touch und dem Pearl Expert ist es die Taste <Keys.HardKey>NEXT TIME</Keys.HardKey>.
 
 Es lassen sich Zeiten für den gesamten Cue, für einzelne Geräte, für
 Attributgruppen oder einzelne Attribute einstellen.
 
 ![Edit Programmer Cue Times in the Titan Go interface](/docs/images/Edit-Programmer-Cue-Times-in-the-Titan-Go-interface.png)
 
-Unter Verwendung der Taste \<TIME\> gibt es folgende Tastatur-Syntax:
+Unter Verwendung der Taste <Keys.HardKey>TIME</Keys.HardKey> gibt es folgende Tastatur-Syntax:
 
--   \<Time\> \<5\> = 5 s Einfadezeit.
+-   <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 s Einfadezeit.
 
--   \<CUE\> \<3\> \<Time\> \<5\> = 5 s Einfadezeit für Cue 3 der verbundenen
+-   <Keys.HardKey>CUE</Keys.HardKey> <Keys.HardKey>3</Keys.HardKey> <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 s Einfadezeit für Cue 3 der verbundenen
     Cueliste.
 
--   \<Time\> \<FIXTURE\> \<5\> = 5 s Einfadezeit für alle Attribute der
+-   <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>FIXTURE</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 s Einfadezeit für alle Attribute der
     gewählten Geräte.
 
--   \<Time\> \<FIXTURE\> \<G\> \<5\> = 5 s Einfadezeit für die Gobo-Kanäle der
+-   <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>FIXTURE</Keys.HardKey> <Keys.HardKey>G</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 s Einfadezeit für die Gobo-Kanäle der
     gewählten Geräte.
 
--   \<Time\> \<FIXTURE\> \<\@B\> \<5\> = 5 s Einfadezeit für das momentan
+-   <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>FIXTURE</Keys.HardKey> <Keys.HardKey>\@B</Keys.HardKey> <Keys.HardKey>5</Keys.HardKey> = 5 s Einfadezeit für das momentan
     auf Rad B liegende Attribut der gewählten Geräte.
 
--   \<5\> \<@\> \<3\> = 5 s Einfadezeit, 3 s Delay.
+-   <Keys.HardKey>5</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>3</Keys.HardKey> = 5 s Einfadezeit, 3 s Delay.
 
--   \<5\> \<AND\> \<2\> = 5 s Ein-, 2 s Ausfadezeit.
+-   <Keys.HardKey>5</Keys.HardKey> <Keys.HardKey>AND</Keys.HardKey> <Keys.HardKey>2</Keys.HardKey> = 5 s Ein-, 2 s Ausfadezeit.
 
--   \<1\> \<THRO\> \<10\> = Auffächern der Zeit zwischen den gewählten Geräten
+-   <Keys.HardKey>1</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>10</Keys.HardKey> = Auffächern der Zeit zwischen den gewählten Geräten
     in der Reihenfolge deren Auswahl.
 
 [](https://youtu.be/GHq9b3PT8U0?t=20 "Timing Syntax")
 
 Zeiten für einzelne Attribute lassen sich auch mit den Encodern
-einstellen; wählen Sie dazu mit der Funktionstaste \[Wheels\] im
+einstellen; wählen Sie dazu mit der Funktionstaste <Keys.SoftKey>Wheels</Keys.SoftKey> im
 Hauptmenü die gewünschte Arbeitsweise der Räder.
 
-Mit der Taste \<Options\> lassen sich, während die Zeiten angezeigt
+Mit der Taste <Keys.HardKey>Options</Keys.HardKey> lassen sich, während die Zeiten angezeigt
 werden, die Parameter **Speed**, **Effect Multiplier**, **Speed Multiplier** und
 **Speed Source** im Programmer, so dass sie einfach direkt in die nächsten
 Playbacks gespeichert werden können. Speed und Speed Multiplier haben nur

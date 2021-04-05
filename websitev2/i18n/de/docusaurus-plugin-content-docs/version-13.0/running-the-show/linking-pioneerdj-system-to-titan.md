@@ -5,6 +5,8 @@ sidebar_label: Linking PioneerDJ System to Titan
 original_id: linking-pioneerdj-system-to-titan
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Mit der Software Pioneer Pro DJ Link Bridge können BPM-Master innerhalb
 von Titan durch geeignete Pioneer DJ-Systeme gesteuert werden. Die
 Bridge-Software kann dabei direkt auf dem Titan-Pult oder einem externen
@@ -75,8 +77,8 @@ Pioneer-Geräte.
 Das PioneerDJ-Fenster
 ---------------------
 
-Geöffnet wird das Fenster über \[Open Workspace Window\] (Fenster
-öffnen), \[PioneerDJ\].
+Geöffnet wird das Fenster über <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> (Fenster
+öffnen), <Keys.SoftKey>PioneerDJ</Keys.SoftKey>.
 
 ![Pioneer Workspace window](/docs/images/Pioneer-Workspace-window.png)
 
@@ -99,13 +101,13 @@ Track-Details und Statusleiste).
 
 ![Pioneer context menu buttons](/docs/images/Pioneer-context-menu-buttons.png)
 
--	Mit \[Zoom\] wird die Vergrößerung der großen Signalanzeige eingestellt.
+-	Mit <Keys.SoftKey>Zoom</Keys.SoftKey> wird die Vergrößerung der großen Signalanzeige eingestellt.
 
--	Mit \[Change Layout\] kann zwischen verschiedenen Layouts des Fensters
+-	Mit <Keys.SoftKey>Change Layout</Keys.SoftKey> kann zwischen verschiedenen Layouts des Fensters
 	umgeschaltet werden:
-	-	\[Full\] -- Anzeige aller laufenden Tacks\
-	-	\[Master\] -- Anzeige nur des aktuellen Master-Tracks\
-	-	\[Condensed\] -- Details werden für alle Tracks angezeigt, die
+	-	<Keys.SoftKey>Full</Keys.SoftKey> -- Anzeige aller laufenden Tacks\
+	-	<Keys.SoftKey>Master</Keys.SoftKey> -- Anzeige nur des aktuellen Master-Tracks\
+	-	<Keys.SoftKey>Condensed</Keys.SoftKey> -- Details werden für alle Tracks angezeigt, die
 		Signalkurve aber nur für den aktuellen Master-Track. Der Master-Track
 		kann durch Anklicken der Tracknummer im Detail-Bereich (unten) gewählt
 		werden. 
@@ -117,22 +119,22 @@ Dazu muss zunächst ein [BPM Master](../running-the-show/playback-controls.md#bp
 definiert werden. Für diesen kann dann wie folgt PioneerDJ als Trigger
 eingerichtet werden.
 
-Starten Sie den System-Modus und wählen das Menü \[Triggers\]. Darauf
+Starten Sie den System-Modus und wählen das Menü <Keys.SoftKey>Triggers</Keys.SoftKey>. Darauf
 öffnet sich das Fenster 'Trigger'.
-1.	Fügen Sie mit dem \[ + \] *unten links* ein neues Trigger-Set hinzu
+1.	Fügen Sie mit dem <Keys.SoftKey> + </Keys.SoftKey> *unten links* ein neues Trigger-Set hinzu
 	und geben Sie diesem einen geeigneten Namen, z.B. ‚Pioneer'.
-2.	Legen Sie nun mit dem \[ + \] *unten rechts* oder mit der Menütaste
-	\[Add Trigger\] einen neuen Trigger an.
-3.	Setzen Sie \[Trigger Type\] auf \[Item\].
+2.	Legen Sie nun mit dem <Keys.SoftKey> + </Keys.SoftKey> *unten rechts* oder mit der Menütaste
+	<Keys.SoftKey>Add Trigger</Keys.SoftKey> einen neuen Trigger an.
+3.	Setzen Sie <Keys.SoftKey>Trigger Type</Keys.SoftKey> auf <Keys.SoftKey>Item</Keys.SoftKey>.
 4.	Wählen Sie den zu steuernden BPM-Master (Auswahltaste/Button
 	betätigen).
-5.	Bei \[Action\] steht nun \[PioneerDJ\], da dies momentan die einzige
-	Option für BPM-Master ist. Bestätigen Sie das mit \[OK\].
-6.	Wählen Sie nun mit \[Deck = \], welches Pioneer-Deck als Trigger
-	verwendet werden soll. Wählt man \[Master\], so wird immer das im
+5.	Bei <Keys.SoftKey>Action</Keys.SoftKey> steht nun <Keys.SoftKey>PioneerDJ</Keys.SoftKey>, da dies momentan die einzige
+	Option für BPM-Master ist. Bestätigen Sie das mit <Keys.SoftKey>OK</Keys.SoftKey>.
+6.	Wählen Sie nun mit <Keys.SoftKey>Deck = </Keys.SoftKey>, welches Pioneer-Deck als Trigger
+	verwendet werden soll. Wählt man <Keys.SoftKey>Master</Keys.SoftKey>, so wird immer das im
 	PioneerDJ als Master definierte Deck verwendet (rotes M), wählt man
 	dagegen Deck 1, 2, 3 oder 4, so wird stets dieses verwendet.
-7.	Mit \[Add\] wird schließlich der Trigger eingerichtet und sollte
+7.	Mit <Keys.SoftKey>Add</Keys.SoftKey> wird schließlich der Trigger eingerichtet und sollte
 	ähnlich wie auf dem folgenden Bild aussehen.
 
 ![Trigger workspace with Pioneer trigger added](/docs/images/Trigger-workspace-with-Pioneer-trigger-added.png)
@@ -141,4 +143,4 @@ Damit ändert sich der Wert des BPM-Masters automatisch bei Änderungen
 des steuernden Tracks.
 
 -	Um den BPM-Master wieder manuell zu steuern, kann man den Schalter
-    \[BPM Triggers\] im PioneerDJ-Fenster ausschalten.
+    <Keys.SoftKey>BPM Triggers</Keys.SoftKey> im PioneerDJ-Fenster ausschalten.

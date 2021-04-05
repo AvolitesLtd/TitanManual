@@ -5,6 +5,8 @@ sidebar_label: Using multiple on-screen workspaces
 original_id: using-multiple-on-screen-workspaces
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Es lassen sich diverse 'workspaces' (Arbeitsumgebungen) einrichten, die
 ihrerseits die Anordnung und Anzeige der verschiedenen Fenster
 speichern. Diese Arbeitsumgebungen lassen sich mit den Schaltflächen
@@ -17,14 +19,14 @@ umschalten.
 Das Menü View
 -------------
 
-Durch Betätigen der Taste \<View / Open\> gelangt man in das Menü
+Durch Betätigen der Taste <Keys.HardKey>View / Open</Keys.HardKey> gelangt man in das Menü
 'View' (Ansicht). Hier lässt sich einstellen, was auf dem Touchscreen
 (und ggf. dem externen Bildschirm) angezeigt wird.
 
--   \[Window Options\] (Fensteroptionen) gestattet das Verschieben und
+-   <Keys.SoftKey>Window Options</Keys.SoftKey> (Fensteroptionen) gestattet das Verschieben und
     Vergrößern/Verkleinern der Fenster.
 
--   Mit \[Open Workspace Window\] (ein bestimmtes Fenster öffnen) lassen
+-   Mit <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> (ein bestimmtes Fenster öffnen) lassen
     sich alle verfügbaren Fenster aufrufen bzw. schließen.
 
 

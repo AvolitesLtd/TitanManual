@@ -5,15 +5,17 @@ sidebar_label: Controlling fixtures
 original_id: controlling-fixtures
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Zum Steuern werden einzelne oder mehrere Geräte mit den
 Geräte-Schaltflächen ausgewählt. Die Buttons der ausgewählten Geräte
 werden hellblau dargestellt.
 
-Drücken Sie \<Locate\>, um die ausgewählten Geräte zu "homen" (50%
+Drücken Sie <Keys.HardKey>Locate</Keys.HardKey>, um die ausgewählten Geräte zu "homen" (50%
 Pan/Tilt, kein Gobo, open white), siehe [Locate](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate). Halten
-Sie die \<Locate\>-Taste gedrückt und drücken Sie dazu einzelne
+Sie die <Keys.HardKey>Locate</Keys.HardKey>-Taste gedrückt und drücken Sie dazu einzelne
 Attribute, um diese **nicht** zurückzusetzen (um z.B. Pan/Tilt nicht
-zurückzusetzen, halten Sie \<Locate\> und drücken dazu \<Position\>).
+zurückzusetzen, halten Sie <Keys.HardKey>Locate</Keys.HardKey> und drücken dazu <Keys.HardKey>Position</Keys.HardKey>).
 
 Wählen Sie nun einzelne Attribute zum Bearbeiten aus (Attribut-Tasten
 sind beschriftet mit Intensity/Dimmer, Colour, Gobo usw.), und stellen
@@ -21,7 +23,7 @@ Sie die gewünschten Werte mit den Rädern ein; Attribute und Werte werden
 dabei im Display angezeigt
 (Siehe [Einstellen von Attributen mit den Encodern](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern)).
 
-Ebenso können Sie das Attribut-Fenster öffnen (\<View\>, \<Attribute
+Ebenso können Sie das Attribut-Fenster öffnen (<Keys.HardKey>View</Keys.HardKey>, \<Attribute
 Options\>), um Einstellungen mit den Schaltflächen auszuwählen und um
 einzelne Zellen/Subfixtures von Geräten mit mehreren Zellen zu
 beeinflussen.
@@ -33,8 +35,8 @@ speichern, siehe nächste Seite.
 ## Geräte-Gruppen
 
 Geräte können zur schnelleren Auswahl  [zu Gruppen zusammengefasst](../controlling-fixtures/fixture-groups.md) werden:
-drücken Sie \<Group\>, \[Record Group\], wählen die zu gruppierenden
-Geräte aus, geben ggf. eine Legende ein (mit \[Provide a legend\]), und
+drücken Sie <Keys.HardKey>Group</Keys.HardKey>, <Keys.SoftKey>Record Group</Keys.SoftKey>, wählen die zu gruppierenden
+Geräte aus, geben ggf. eine Legende ein (mit <Keys.SoftKey>Provide a legend</Keys.SoftKey>), und
 klicken auf eine Gruppen-Schaltfläche oder Taste (wenn es eine
 Playback-Taste mit Fader ist, wird daraus ein Gruppen-Masterfader). Die
 Reihenfolge der Geräteauswahl etwa zur Verwendung innerhalb von
@@ -49,17 +51,17 @@ Titan verfügt über drei Arten von Effekten: vorprogrammierte Effekte
 Wählen Sie mehrere Geräte aus; dabei bestimmt die Reihenfolge der
 Auswahl die Reihenfolge innerhalb des Shapes.
 
-Im Hauptmenü drücken Sie \[Shapes and Effects\], \[Shape Generator\],
-\[Create\], siehe [Shape Generator](../effects/shape-generator.md). 
+Im Hauptmenü drücken Sie <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, <Keys.SoftKey>Shape Generator</Keys.SoftKey>,
+<Keys.SoftKey>Create</Keys.SoftKey>, siehe [Shape Generator](../effects/shape-generator.md). 
 Wählen Sie das gewünschte Attribut, auf das der Effekt
 angewendet werden soll.
 
-Ebenso können Sie aus der Effekt-Bibliothek (\<View/Open\>, \[Open Workspace
-Window\], \[Shape Library\]) direkt einen Effekt auswählen. Die Liste
+Ebenso können Sie aus der Effekt-Bibliothek (<Keys.HardKey>View/Open</Keys.HardKey>, \[Open Workspace
+Window\], <Keys.SoftKey>Shape Library</Keys.SoftKey>) direkt einen Effekt auswählen. Die Liste
 lässt sich mit den Attribut-Tasten filtern.
 
 Stellen Sie mit den Rädern und der Auswahl \[Adjust Speed, Size and
-Spread\]/\[Adjust Phase, Spread and Offset\] die Effekt-Parameter wie
+Spread\]/<Keys.SoftKey>Adjust Phase, Spread and Offset</Keys.SoftKey> die Effekt-Parameter wie
 gewünscht ein. Dabei bestimmt ‚Spread' die Verteilung des Effekts auf
 die Geräte.
 

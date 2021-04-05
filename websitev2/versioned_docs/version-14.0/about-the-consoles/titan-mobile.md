@@ -5,6 +5,8 @@ sidebar_label: Titan Mobile
 original_id: titan-mobile
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Titan Mobile is a USB wing which plugs into a Windows PC or laptop running the Titan software.
 See [minimum PC specifications](../titan-basics.md#connecting-up-titan-mobile-and-t1t2) for details of the PC requirements.
 
@@ -47,7 +49,7 @@ The right hand side of the display shows what each one will do. - if you are usi
 a touch screen computer you can touch the softkey on-screen instead of using these
 buttons. The options for each 
 key change depending on what the console is doing. Softkey commands are shown 
-in the manual like this: \[Edit Times\]
+in the manual like this: <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 ## The Screen
 

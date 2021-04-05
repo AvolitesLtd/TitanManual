@@ -5,6 +5,8 @@ sidebar_label: Shapes and Pixel Mapper Effects
 original_id: effects
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Der **Shape-Generator** *(auf Pulten anderer Hersteller wird das oft als
 Effekt-Generator bezeichnet)* gestattet es, schnell beeindruckende Shows
 mit vielen Bewegungen und Wechseln bei minimalem Programmieraufwand

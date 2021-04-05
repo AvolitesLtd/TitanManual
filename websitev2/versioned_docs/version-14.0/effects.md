@@ -5,6 +5,8 @@ sidebar_label: Shapes and Effects introduction
 original_id: effects
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The **Shape Generator** in Titan (sometimes known as an Effects Generator on
 other consoles) allows you to quickly create exciting light shows using
 lots of movement and changes, with the minimum of programming. A range

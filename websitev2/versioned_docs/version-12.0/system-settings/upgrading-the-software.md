@@ -5,6 +5,8 @@ sidebar_label: Upgrading the Software
 original_id: upgrading-the-software
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The console operating software is under constant revision by the
 Avolites team. You can always download the latest version of the
 software from the Avolites website: http://www.avolites.com.

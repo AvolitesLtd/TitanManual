@@ -5,6 +5,8 @@ sidebar_label: Pixel Mapper
 original_id: pixel-mapper
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Matrix-Effekte mit dem Pixelmapper erstellen
 --------------------------------------------
 
@@ -23,18 +25,18 @@ wie folgt arbeiten:
 
 1. Wählen Sie die gewünschte Gerätegruppe aus.
 
-2. Im Hauptmenü wählen Sie \[Shapes and Effects\] und darauf \[Pixel
+2. Im Hauptmenü wählen Sie <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> und darauf \[Pixel
 Mapper\].
 
-3. Wählen Sie \[Create effect\]. Damit öffnet sich der Pixel Mapper
+3. Wählen Sie <Keys.SoftKey>Create effect</Keys.SoftKey>. Damit öffnet sich der Pixel Mapper
 Editor mit einem schwarzen Hintergrund. Wahlweise kann das Gerätelayout
 mit angezeigt werden, um genauer arbeiten zu können. Klicken Sie dazu im
-Kontext-Bereich auf \[Fixture Overlay 50/50\].
+Kontext-Bereich auf <Keys.SoftKey>Fixture Overlay 50/50</Keys.SoftKey>.
 
 ![Effect Editor - Pixel Mapper - New Effect](/docs/images/Effect-Editor-Pixel-Mapper-New-Effect.png)
 
 ### Elemente
-Klicken Sie unten auf die Schaltfläche \[+\], um einen Effekt zu
+Klicken Sie unten auf die Schaltfläche <Keys.SoftKey>+</Keys.SoftKey>, um einen Effekt zu
 erzeugen, und wählen Sie eine der verfügbaren Formen aus. Zum **Entfernen**
 bereits erzeugter Elemente wählen Sie diese aus und klicken auf den **Papierkorb**,
 Es stehen folgende Elemente zur Verfügung:
@@ -79,7 +81,7 @@ Element-Typ):
 ### Animationen
 
 Bei noch ausgewähltem Grafikelement (links in der Layer-Darstellung)
-klicken Sie nochmals auf \[+\] und wählen eine **Animation** (Bewegung)
+klicken Sie nochmals auf <Keys.SoftKey>+</Keys.SoftKey> und wählen eine **Animation** (Bewegung)
 oder einen **visuellen Effekt** (etwa das Aufzoomen oder Einblenden).
 Damit wird der Effekt auf dem schwarzen Hintergrund und den Geräten
 animiert. Es lassen sich mehrere Animationen miteinander kombinieren, um
@@ -147,21 +149,21 @@ Ein paar Tipps zu den Animationen:
     ist ein Verlauf, der sich immer auf- und abbaut. Repeat schließlich
     ist eine Wiederholung in immer nur einer Richtung).
 
--   Gibt man einen Wert für \[Spawn For\] oder \[Run For\] ein, so
+-   Gibt man einen Wert für <Keys.SoftKey>Spawn For</Keys.SoftKey> oder <Keys.SoftKey>Run For</Keys.SoftKey> ein, so
     stoppt die Animation nach der entsprechenden Anzahl von Zyklen. Um
     sie wieder zu starten, betätigen Sie den **Reset-Knopf** oben rechts im
     Fenster des Effekt-Editors.\
     ![Effect Editor - Pixel Mapper - Reset Button](/docs/images/Effect-Editor-Pixel-Mapper-Reset-Button.png)
 
--   Für Effekte mit **Start** und **Endpunkt** bestimmt \[Cycles\] die Anzahl
+-   Für Effekte mit **Start** und **Endpunkt** bestimmt <Keys.SoftKey>Cycles</Keys.SoftKey> die Anzahl
     der Durchläufe. Bei Effekten ohne Endpunkt bestimmt sich die Anzahl
     hingegen aus dem Master-Tempo und der Geschwindigkeit der Animation.
 
 ### Pixel Mapper Preview Window
 
 Zur Vorschau, wie der Effekt später aussehen wird, öffnen Sie das
-Fenster 'Pixel Mapper Preview' mit \[Open Workspace Window\], \<View / Open\>
-\[Pixel Mapper Preview\]. Eine Vorschau der laufenden Effekte
+Fenster 'Pixel Mapper Preview' mit <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>, <Keys.HardKey>View / Open</Keys.HardKey>
+<Keys.SoftKey>Pixel Mapper Preview</Keys.SoftKey>. Eine Vorschau der laufenden Effekte
 erscheint; unten können Sie zwischen den einzelnen Animationen
 umschalten.
 
@@ -173,15 +175,15 @@ Wenn gewünscht, können mehrere Layer (Ebenen) miteinander kombiniert
 werden. Ist das gewünschte Ergebnis erzielt, so kann es als Cue
 gespeichert werden.
 
-> Sowohl beim Einstellen der Fader auf dem Bildschirm als auch beim Klicken und Ziehen lassen sich alternativ die Werte mit den Rädern oder den Zifferntasten eingeben. Um dies für einen Wert zu aktivieren, klicken Sie auf das Feld rechts, das den jeweiligen Wert zeigt. Mit einem Doppelklick kann man den Vorgabewert wiederherstellen, und mit \[+/-\] lässt sich der Wert invertieren.
+> Sowohl beim Einstellen der Fader auf dem Bildschirm als auch beim Klicken und Ziehen lassen sich alternativ die Werte mit den Rädern oder den Zifferntasten eingeben. Um dies für einen Wert zu aktivieren, klicken Sie auf das Feld rechts, das den jeweiligen Wert zeigt. Mit einem Doppelklick kann man den Vorgabewert wiederherstellen, und mit <Keys.SoftKey>+/-</Keys.SoftKey> lässt sich der Wert invertieren.
 
 -   Die **Reihenfolge** der Layer lässt sich verändern, indem man zuerst auf
     den zu verschiebenden Layer klickt und dann unten die Schaltflächen
     'Pfeil hoch'/'Pfeil runter' bedient.
 
--   Layer, Elemente und Animationen lassen sich mit \<Copy\> und
-    \<Move\> **kopieren** und **verschieben**: drücken Sie \<Copy\> (oder
-    \<Move\>), dann das zu verschiebende/kopierende Element, und
+-   Layer, Elemente und Animationen lassen sich mit <Keys.HardKey>Copy</Keys.HardKey> und
+    <Keys.HardKey>Move</Keys.HardKey> **kopieren** und **verschieben**: drücken Sie <Keys.HardKey>Copy</Keys.HardKey> (oder
+    <Keys.HardKey>Move</Keys.HardKey>), dann das zu verschiebende/kopierende Element, und
     schließlich auf das gewünschte Ziel des Kopierens.
 
 ### Master-Parameter für Effekte
@@ -228,8 +230,8 @@ Masterregler für Pixelmapper-Layer
 
 Jedem der vier Layer (Ebenen) des Pixelmappers kann ein Masterregler
 zugewiesen werden. Mit diesem kann der jeweilige Layer dann live
-gesteuert werden. Das Zuweisen erfolgt im System-Menü oder per \<Record\>,
-\[Create Master\], \[Pixel Mapper\]. Wählen Sie \[Layer 1\] bis \[Layer 4\]
+gesteuert werden. Das Zuweisen erfolgt im System-Menü oder per <Keys.HardKey>Record</Keys.HardKey>,
+<Keys.SoftKey>Create Master</Keys.SoftKey>, <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>. Wählen Sie <Keys.SoftKey>Layer 1</Keys.SoftKey> bis <Keys.SoftKey>Layer 4</Keys.SoftKey>
 und drücken Sie die Auswahltaste eines Faders. Darauf steuert dieser Fader die
 Sichtbarkeit (Helligkeit) des jeweiligen Layers.
 
@@ -238,7 +240,7 @@ Layer-Einstellungen von Effekten steuern, die in anderen Cues
 gespeichert sind.
 
 Die Masterregler für die Layer müssen im Effekt-Editor aktiviert werden
-(Schaltfläche \[Use Master\]).
+(Schaltfläche <Keys.SoftKey>Use Master</Keys.SoftKey>).
 
 > Für Layer-Masterregler sind ggf. aktualisierte Personalities
     erforderlich.

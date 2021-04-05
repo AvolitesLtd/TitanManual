@@ -5,6 +5,8 @@ sidebar_label: Playback Groups
 original_id: playback-groups
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Playbacks können in Gruppen zusammengefasst werden. Dies ist sinnvoll,
 wenn von mehreren Playbacks immer nur eins als aktiv angezeigt werden
 soll; wird ein anderes Playback in dieser Gruppe gestartet, werden alle
@@ -22,11 +24,11 @@ Window\] (Fenster öffnen).
 
 ![Empty playback groups workspace](/docs/images/Empty-playback-groups-workspace.png)
 
-1.	Klicken Sie auf \[ + \] (links unten). Damit wird eine neue Gruppe
+1.	Klicken Sie auf <Keys.SoftKey> + </Keys.SoftKey> (links unten). Damit wird eine neue Gruppe
 erstellt und in der linken Spalte angezeigt.
 
 2.	Klicken Sie auf die neu erstellte Gruppe links, also z.B. auf
-\[Playback Group 1\].
+<Keys.SoftKey>Playback Group 1</Keys.SoftKey>.
 
 3.	Klicken Sie unten rechts auf den Stift-Button, um die Gruppe zu
     editieren.
@@ -35,7 +37,7 @@ erstellt und in der linken Spalte angezeigt.
     zusammenfassen wollen. Ausgewählte Playbacks erscheinen im Playback
     Groups-Fenster bei ihrer Gruppe.
 
-5.	Mit \<Exit\> können Sie das Menü verlassen, und die Playbacks
+5.	Mit <Keys.HardKey>Exit</Keys.HardKey> können Sie das Menü verlassen, und die Playbacks
     sind zu einer Gruppe zusammengefasst.
 
 
@@ -48,12 +50,12 @@ erstellt und in der linken Spalte angezeigt.
     Groups-Fenster), so wird das Playback wieder aus der Gruppe
     entfernt.
 
--   Playback-Gruppen können auch mit der \<Group\>-Taste erstellt werden:
-    \<Group\> drücken, dann im Menü \[Playback Groups\] sowie \[Record
+-   Playback-Gruppen können auch mit der <Keys.HardKey>Group</Keys.HardKey>-Taste erstellt werden:
+    <Keys.HardKey>Group</Keys.HardKey> drücken, dann im Menü <Keys.SoftKey>Playback Groups</Keys.SoftKey> sowie \[Record
     playback group\] wählen, die gewünschten Playbacks auswählen und
-    \[Store\] drücken.
+    <Keys.SoftKey>Store</Keys.SoftKey> drücken.
 
--   Playback-Gruppen können per \[Set Legend\] eine Bezeichnung und ein
+-   Playback-Gruppen können per <Keys.SoftKey>Set Legend</Keys.SoftKey> eine Bezeichnung und ein
     Halo bekommen.
 
 -   Ist man nicht im Editiermodus, so können Playbacks auch über ihre
@@ -74,9 +76,9 @@ oder angewählt werden.
 Ebenso kann über die entsprechenden Menütasten die Nummer und die
 Legende (Bezeichnung) der Gruppe geändert werden.
 
--   Zum Löschen einer Playback-Gruppe drücken Sie die Taste \<Delete\>,
+-   Zum Löschen einer Playback-Gruppe drücken Sie die Taste <Keys.HardKey>Delete</Keys.HardKey>,
     wählen die zu löschende Gruppe aus und bestätigen dies mit
-    \[Confirm\] oder \<Enter\>.
+    <Keys.SoftKey>Confirm</Keys.SoftKey> oder <Keys.HardKey>Enter</Keys.HardKey>.
 
 Optionen für Playback-Gruppen
 -----------------------------
@@ -84,7 +86,7 @@ Optionen für Playback-Gruppen
 Für jede Gruppe lässt sich einstellen, wie genau die enthaltenen
 Playbacks sich verhalten. Dazu wählt man im Fenster Playback Groups
 links die gewünschte Gruppe und klickt rechts unten auf den Reiter
-\[Options\].
+<Keys.SoftKey>Options</Keys.SoftKey>.
 
 ![Playback groups options workspace](/docs/images/Playback-groups-options-workspace.png)
 
@@ -93,21 +95,21 @@ links die gewünschte Gruppe und klickt rechts unten auf den Reiter
     Gruppe löschen zu müssen.
 -   **Kill Point** lässt sich einstellen, wann ein neu gestartetes
     Playback die anderen Playback in der Gruppe deaktiviert:\
-    \[Fired\] - sobald das Playback gestartet ist\
-    \[Fade Completed\] - sobald es gestartet und komplett eingefadet ist
+    <Keys.SoftKey>Fired</Keys.SoftKey> - sobald das Playback gestartet ist\
+    <Keys.SoftKey>Fade Completed</Keys.SoftKey> - sobald es gestartet und komplett eingefadet ist
 
 -   **Kill Action** legt fest, ob bei Deaktivieren Release zum Tragen
     kommt oder nicht:\
-    \[Follow Playback\] - es wird nach den Release-Einstellungen
+    <Keys.SoftKey>Follow Playback</Keys.SoftKey> - es wird nach den Release-Einstellungen
     jedes Playbacks vorgegangen\
-    \[Kill\] - Playbacks werden immer sofort abgeschaltet (gekillt)\
-    \[Release\] - Playbacks werden immer nach der unten vorgegebenen
+    <Keys.SoftKey>Kill</Keys.SoftKey> - Playbacks werden immer sofort abgeschaltet (gekillt)\
+    <Keys.SoftKey>Release</Keys.SoftKey> - Playbacks werden immer nach der unten vorgegebenen
     Releasemaske und -zeit released\
-    \[Release HTP\] - HTP-Kanäle werden released, alle anderen gekillt
+    <Keys.SoftKey>Release HTP</Keys.SoftKey> - HTP-Kanäle werden released, alle anderen gekillt
   
 -   Mit 'Release Mask' und 'Release Time' lässt sich für das
     gegenseitige Releasen eine eigene Maske und Zeit einstellen. Steht
-    dies auf \[Playback\], so kommen die Einstellungen jedes einzelnen
+    dies auf <Keys.SoftKey>Playback</Keys.SoftKey>, so kommen die Einstellungen jedes einzelnen
     Playbacks zum Tragen.
 
 Anzeigeoptionen für das Playback Groups-Fenster
@@ -116,19 +118,19 @@ Anzeigeoptionen für das Playback Groups-Fenster
 Mit dem Fensteroptions-Menü (Zahnrad-Button in der Titelleiste des
 Fensters) lassen sich drei verschiedene Anzeigemodi wählen:
 
-\[View Mode All\] – zwei Spalten: links die Playback-Gruppen, rechts
+<Keys.SoftKey>View Mode All</Keys.SoftKey> – zwei Spalten: links die Playback-Gruppen, rechts
 jeweils die zugehörigen Playbacks jeder Gruppe
 
 ![Playback groups display mode 1](/docs/images/Playback-groups-display-mode-1.png)
  
-\[View Mode Single\] – zwei Spalten: links die Playback-Gruppen, aber
+<Keys.SoftKey>View Mode Single</Keys.SoftKey> – zwei Spalten: links die Playback-Gruppen, aber
 rechts nur die Playbacks in der gerade angewählten Gruppe. Das erlaubt
 eine bessere Übersicht bei Gruppen mit vielen Playbacks.
 
 ![Playback groups display mode 2](/docs/images/Playback-groups-display-mode-2.png)
  
-\[View Mode Playbacks Only\] – eine Spalte, es werden nur die Playbacks
-pro Gruppe angezeigt. Die Reiter \[Playbacks\], \[Options\] und der
+<Keys.SoftKey>View Mode Playbacks Only</Keys.SoftKey> – eine Spalte, es werden nur die Playbacks
+pro Gruppe angezeigt. Die Reiter <Keys.SoftKey>Playbacks</Keys.SoftKey>, <Keys.SoftKey>Options</Keys.SoftKey> und der
 Editier-Button stehen nicht zur Verfügung.
 
 ![Playback groups display mode 3](/docs/images/Playback-groups-display-mode-3.png)

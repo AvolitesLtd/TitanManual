@@ -5,18 +5,20 @@ sidebar_label: Playback Options
 original_id: playback-options
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
 Zum Einstellen der Optionen eines Cues, einer Cueliste oder eines
-Chasers drücken Sie \[Playback Options\] im Hauptmenü und anschließend
+Chasers drücken Sie <Keys.SoftKey>Playback Options</Keys.SoftKey> im Hauptmenü und anschließend
 die **Swop-Taste** der entsprechenden Playbacks. Darauf öffnet sich eine
 Liste mit den verfügbaren Optionen auf den Menütasten. Außerdem werden 
 alle verfügbaren Optionen übersichtlich in einem Fenster dargestellt, 
-wenn man in der Playback-Ansicht links auf den Button \[Options\] klickt.
+wenn man in der Playback-Ansicht links auf den Button <Keys.SoftKey>Options</Keys.SoftKey> klickt.
 
 ![Playback Options window for cue showing playback tab](/docs/images/Playback-Options-Playback-Tab.png)
 
-Ein Klick auf den Button \[i\] zeigt einen kurzen Hilfetext zu der jeweiligen
+Ein Klick auf den Button <Keys.SoftKey>i</Keys.SoftKey> zeigt einen kurzen Hilfetext zu der jeweiligen
 Option.
 
 > Sollen die Optionen für mehrere Playbacks auf einmal angezeigt/geändert
@@ -66,7 +68,7 @@ Overlay | der Shape läuft unabhängig von etwaigen Attribut-Änderungen
 LTP | Attributänderungen beenden den Shape auf den jeweiligen Attributen
 
 ### Fader Mode
-Die gleiche Einstellung wie im [\[Edit Times\]](cue-timing.md)-Menu:
+Die gleiche Einstellung wie im [<Keys.SoftKey>Edit Times</Keys.SoftKey>](cue-timing.md)-Menu:
 
 Einstellung | Ergebnis
 ------: | ------
@@ -189,7 +191,7 @@ Gleiche Einstellung wie im Tab 'Fader', [siehe oben](#shape-size)
 ### Shape & Effect Speed
 Gleiche Einstellung wie im Tab 'Fader', [siehe oben](#shape--effect-speed)
 
-> Haben Sie einen Cue, der nur Shapes enthält, um diese zu anderen Cues dazuzumischen, so empfiehlt es sich, für diesen die Einstellung \[Size on Fader\] vorzunehmen sowie einen [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master) zu verwenden. Damit lässt sich dann flexibel und unabhängig die Größe und die Geschwindigkeit des Shapes live verändern.
+> Haben Sie einen Cue, der nur Shapes enthält, um diese zu anderen Cues dazuzumischen, so empfiehlt es sich, für diesen die Einstellung <Keys.SoftKey>Size on Fader</Keys.SoftKey> vorzunehmen sowie einen [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master) zu verwenden. Damit lässt sich dann flexibel und unabhängig die Größe und die Geschwindigkeit des Shapes live verändern.
 
 ## Playback Options -- Tab "Release"
 
@@ -202,9 +204,9 @@ Attribut-Tasten benutzen.
 Die Maske kann auf Global oder Lokal gestellt werden. Mit 'Lokal' lassen
 sich Einstellungen nur für diesen Cue vornehmen, während 'Global' der
 Bezug auf die globale Release-Maske **Release-Menü** ist
-(drücken Sie dazu \<Release\>).
+(drücken Sie dazu <Keys.HardKey>Release</Keys.HardKey>).
 
-> Mit der Release-Maske lässt sich z.B. ein temporärer ('flashbarer') Strobe-Effekt programmieren. Drücken Sie \[Release Mask\], und stellen Sie Intensity auf 'Include'. Wird nun das Playback ausgeblendet, kehrt der Shutter zum vorigen Wert zurück, und das Strobe stoppt. 
+> Mit der Release-Maske lässt sich z.B. ein temporärer ('flashbarer') Strobe-Effekt programmieren. Drücken Sie <Keys.SoftKey>Release Mask</Keys.SoftKey>, und stellen Sie Intensity auf 'Include'. Wird nun das Playback ausgeblendet, kehrt der Shutter zum vorigen Wert zurück, und das Strobe stoppt. 
 
 Per [Tastenprofil/Key Profile](../system-settings/key-profiles.md) lässt sich die graue/blaue Taste mit der Funktion ‚Release' belegen.
 

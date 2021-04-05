@@ -5,6 +5,8 @@ sidebar_label: Linking the Console to Stand-Alone Capture
 original_id: linking-the-console-to-stand-alone-capture
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Um in den Genuss des vollen Capture-Funktionsumfangs zu kommen, muss
 eine Capture-Vollversion auf einem separaten Computer laufen. Verbindet
 man diesen per Netzwerk mit dem Titan-Pult, so wird das Gerätepatch
@@ -57,13 +59,13 @@ Wurden in Capture bereits Geräte gepatcht, bevor das Pult verbunden war,
 so können diese später im Pult mit Hilfe der Active Fixture-Funktion
 gepatcht werden:
 
-1. Drücken Sie \<Patch\>, \[Active Fixtures\]
+1. Drücken Sie <Keys.HardKey>Patch</Keys.HardKey>, <Keys.SoftKey>Active Fixtures</Keys.SoftKey>
 
 2. Der Capture-Computer wird nun als eine Option auf den Menütasten
 angezeigt. Klicken Sie die entsprechende Taste an.
 
 3. Wählen Sie eine freie Geräte-Schaltfläche, um die Geräte ab da zu
-patchen, oder wählen Sie die Option \[Patch Capture @...\], um
+patchen, oder wählen Sie die Option <Keys.SoftKey>Patch Capture @...</Keys.SoftKey>, um
 automatisch auf den nächsten freien Platz zu patchen.
 
 > Konnten einzelne Geräte nicht gepatcht werden (Gerätetyp nicht

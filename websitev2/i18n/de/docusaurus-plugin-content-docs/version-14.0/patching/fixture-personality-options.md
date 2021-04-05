@@ -5,6 +5,8 @@ sidebar_label: Fixture Personality Options
 original_id: fixture-personality-options
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Titan benutzt ein System von 'Personalities', gerätespezifische Dateien,
 welche notwendige Informationen enthalten, wie welches Movinglight 
 gesteuert werden muss. Avolites hat für eine Vielzahl von Movinglights 
@@ -22,17 +24,17 @@ Damit wird die Zuordnung der Steuerelemente für Pan und Tilt vertauscht.
 Dies ist etwa sinnvoll bei spiegelbewegten Geräten, die seitwärts
 ausgerichtet sind.
 
-1.  Drücken Sie \<Patch\>.
+1.  Drücken Sie <Keys.HardKey>Patch</Keys.HardKey>.
 
-2.  Drücken Sie \[Edit Fixtures\].
+2.  Drücken Sie <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
 
-3.  Betätigen Sie \[Swap Pan and Tilt\].
+3.  Betätigen Sie <Keys.SoftKey>Swap Pan and Tilt</Keys.SoftKey>.
 
 4.  Wählen Sie die Geräte aus, bei denen Pan und Tilt vertauscht werden
-soll. Drücken Sie \[Pan and Tilt ...\], um für die angewählten Geräte
-zwischen \[Swapped\] (vertauscht) und \[Normal\] umzuschalten.
+soll. Drücken Sie <Keys.SoftKey>Pan and Tilt ...</Keys.SoftKey>, um für die angewählten Geräte
+zwischen <Keys.SoftKey>Swapped</Keys.SoftKey> (vertauscht) und <Keys.SoftKey>Normal</Keys.SoftKey> umzuschalten.
 
-5.  Drücken Sie \<Exit\>, um das Menü zu verlassen.
+5.  Drücken Sie <Keys.HardKey>Exit</Keys.HardKey>, um das Menü zu verlassen.
 
 Attribute invertieren
 ---------------------
@@ -43,19 +45,19 @@ während alle anderen nach links laufen. Damit spart man sich mindestens
 einen Weg auf die Truss, nur um die Einstellung am Gerät selbst zu
 korrigieren.
 
-1.  Drücken Sie \<Patch\>.
+1.  Drücken Sie <Keys.HardKey>Patch</Keys.HardKey>.
 
-2.  Drücken Sie \[Edit Fixtures\].
+2.  Drücken Sie <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
 
-3.  Drücken Sie \[Invert Attribute\].
+3.  Drücken Sie <Keys.SoftKey>Invert Attribute</Keys.SoftKey>.
 
 4.  Wählen Sie die zu ändernden Geräte.
 
 5.  Wählen Sie das zu invertierende Attribut von den
-	Menütasten. Im Display wird mit \[Inverted\] angezeigt, wenn
+	Menütasten. Im Display wird mit <Keys.SoftKey>Inverted</Keys.SoftKey> angezeigt, wenn
 	ein Attribut invertiert ist.
 
-6.  Klicken Sie \<Exit\>, um den Vorgang abzuschließen.
+6.  Klicken Sie <Keys.HardKey>Exit</Keys.HardKey>, um den Vorgang abzuschließen.
 
 ![Tilt Inverted](/docs/images/Tilt-Inverted.png)
 
@@ -78,15 +80,15 @@ setzen. Damit kann etwa die Pan/Tilt-Bewegung begrenzt werden, oder bei
 Geräten mit Dimmer und Shutter auf einem Kanal kann der Shutterbereich
 gesperrt werden.
 
-Limits für Attribute können entweder über das Menü \<Patch\>, \[Edit
+Limits für Attribute können entweder über das Menü <Keys.HardKey>Patch</Keys.HardKey>, \[Edit
 Fixtures\], oder über den Reiter 'Attribute Behaviour' im Patch View
 gesetzt werden.
 
-1.  Drücken Sie die Taste \<Patch\>.
+1.  Drücken Sie die Taste <Keys.HardKey>Patch</Keys.HardKey>.
 
-2.  Drücken Sie \[Edit Fixtures\].
+2.  Drücken Sie <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
 
-3.  Wählen Sie \[Set Limits\].
+3.  Wählen Sie <Keys.SoftKey>Set Limits</Keys.SoftKey>.
 
 4.  Wählen Sie das/die gewünschte(n) Gerät(e) aus.
 
@@ -98,7 +100,7 @@ gesetzt werden.
 	To Current Value\], um den momentanen Wert zu übernehmen. Mit \[Remove
 	Limit\] wird das Limit gelöscht.
 
-7.  Beenden Sie den Vorgang mit \<Exit\>.
+7.  Beenden Sie den Vorgang mit <Keys.HardKey>Exit</Keys.HardKey>.
 
 Im Reiter 'Attribute Behaviour' der Patch-Ansicht setzen Sie Limits mit
 Hilfe der entsprechenden Kontext-Schaltflächen.
@@ -120,9 +122,9 @@ also sämtliche Paletten und Cues.
 
 Das Offset kann auf vier Arten eingestellt werden:
 
--   Gerät(e) auswählen, \<Locate\>, dann die Attribute so einstellen,
+-   Gerät(e) auswählen, <Keys.HardKey>Locate</Keys.HardKey>, dann die Attribute so einstellen,
     dass die ursprünglich vorgesehenen Locate-Positionen erreicht
-    werden. Nun drücken Sie \<Record\>, \<Locate\> und wählen \[Update
+    werden. Nun drücken Sie <Keys.HardKey>Record</Keys.HardKey>, <Keys.HardKey>Locate</Keys.HardKey> und wählen \[Update
     Offset\]. Damit werden nicht die Locate-Werde verändert, sondern die
     eingestellte Abweichung wird als Offset gespeichert. Das ist ein
     schneller visueller Weg, das Offset einzurichten.
@@ -130,8 +132,8 @@ Das Offset kann auf vier Arten eingestellt werden:
 -   Ebenso kann das Offset mittels Paletten eingestellt werden. Wählen
     Sie das/die Gerät(e) aus, rufen Sie eine Palette ab und stellen dann
     die Attribut-Werte manuell auf die richtigen Werte (z.B. die
-    korrekte Position). Nun drücken Sie \<Record\>, klicken wieder die Palette
-	an und wählen \[Update Offset\]. Auch hier wird nicht die Palette geändert,
+    korrekte Position). Nun drücken Sie <Keys.HardKey>Record</Keys.HardKey>, klicken wieder die Palette
+	an und wählen <Keys.SoftKey>Update Offset</Keys.SoftKey>. Auch hier wird nicht die Palette geändert,
     sondern die Abweichung zwischen der Palette und der aktuellen
     Position wird als Offset gespeichert.
 
@@ -140,7 +142,7 @@ Das Offset kann auf vier Arten eingestellt werden:
     angezeigt und können editiert werden.
 
 -   Ebenfalls in der Patch-Ansicht, Reiter 'Attribute Behaviour'
-    (Attribut-Verhalten) kann man die Kontext-Option \[Offset\] wählen und
+    (Attribut-Verhalten) kann man die Kontext-Option <Keys.SoftKey>Offset</Keys.SoftKey> wählen und
     die Werte anzeigen lassen bzw. ändern,
 
 Kennlinien für Geräte und Attribute
@@ -151,14 +153,14 @@ verhält. Dies kommt vor allem zur Anwendung bei Dimmerkanälen, um den
 Helligkeitsverlauf für verschiedene Gerätearten anzugleichen, kann aber
 auf alle anderen Attribute ebenfalls angewendet werden.
 
-Kennlinien können entweder über das Menü \<Patch\>, \[Edit Fixtures\],
+Kennlinien können entweder über das Menü <Keys.HardKey>Patch</Keys.HardKey>, <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>,
 oder über den Reiter 'Attribute Behaviour' im Patch View gesetzt werden.
 
-1.  Drücken Sie die Taste \<Patch\>.
+1.  Drücken Sie die Taste <Keys.HardKey>Patch</Keys.HardKey>.
 
-2.  Drücken Sie \[Edit Fixtures\].
+2.  Drücken Sie <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
 
-3.  Wählen Sie \[Set Curve\].
+3.  Wählen Sie <Keys.SoftKey>Set Curve</Keys.SoftKey>.
 
 4.  Wählen Sie das/die gewünschte(n) Gerät(e) aus.
 
@@ -167,7 +169,7 @@ oder über den Reiter 'Attribute Behaviour' im Patch View gesetzt werden.
 6.  Wählen Sie über die Menütasten die gewünschte Kennlinie
 	aus; die Vorgabe ist "Linear".
 
-7.  Beenden Sie den Vorgang mit \<Exit\>.
+7.  Beenden Sie den Vorgang mit <Keys.HardKey>Exit</Keys.HardKey>.
 
 Die verschiedenen Kennlinien sind im Abschnitt [Curves -- Kennlinien/Kurven](../system-settings/curves.md) näher erläutert.  
 
@@ -178,11 +180,11 @@ Mit dieser Funktion lassen sich einzelne Attribute oder komplette Geräte
 fixieren. Diese werden dann weder vom Programmierspeicher noch von
 programmierten Cues/Cuelisten beeinflusst.
 
-1.  Drücken Sie \<Patch\>.
+1.  Drücken Sie <Keys.HardKey>Patch</Keys.HardKey>.
 
-2.  Drücken Sie \[Edit Fixtures\].
+2.  Drücken Sie <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
 
-3.  Drücken Sie \[Freeze Fixture or Attribute\]
+3.  Drücken Sie <Keys.SoftKey>Freeze Fixture or Attribute</Keys.SoftKey>
 
 4.  Wählen Sie die zu fixierenden Geräte.
 
@@ -190,7 +192,7 @@ programmierten Cues/Cuelisten beeinflusst.
 	Gerät fixiert werden soll. Im Display wird die gewählte Einstellung
 	angezeigt.
 
-6.  Klicken Sie \<Exit\>, um den Vorgang abzuschließen.
+6.  Klicken Sie <Keys.HardKey>Exit</Keys.HardKey>, um den Vorgang abzuschließen.
 
 -   Das Fixieren kann auch im Attribute Behaviour-Reiter der
     Patch-Ansicht erfolgen.
@@ -205,11 +207,11 @@ Sollte einmal eine Personality nicht wie erwartet funktionieren
 oder will man das Verhalten gezielt ändern, so kann sie direkt
 im Pult editiert werden.
 
-1.  Drücken Sie \<Patch\>.
+1.  Drücken Sie <Keys.HardKey>Patch</Keys.HardKey>.
 
-2.  Drücken Sie \[Edit Fixtures\].
+2.  Drücken Sie <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
 
-3.  Drücken Sie \[Edit Personality\].
+3.  Drücken Sie <Keys.SoftKey>Edit Personality</Keys.SoftKey>.
 
 4.  Im Display wird eine Liste der aktuell verwendeten
     Personalities angezeigt. Wählen Sie die zu editierende mit der

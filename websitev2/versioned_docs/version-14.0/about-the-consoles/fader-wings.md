@@ -5,6 +5,8 @@ sidebar_label: Fader Wings
 original_id: fader-wings
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 "Wings" are additional control surfaces which can be connected to the
 console to provide more faders and buttons, and in some cases extra
 touch screens.

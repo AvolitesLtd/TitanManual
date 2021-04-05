@@ -5,6 +5,8 @@ sidebar_label: Using the Select Buttons and Wheels
 original_id: using-the-select-buttons-and-wheels
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 ## Dimmer und Geräte zum Steuern auswählen
 
 Um die zu steuernden Geräte und Dimmer auszuwählen, betätigen Sie die
@@ -27,7 +29,7 @@ erste gedrückt und betätigen dazu die letzte.
 
 Ein paar weitere wissenswerte Dinge:
 
--   Die Taste \<Locate\> aktiviert die angewählten Geräte weiß (ohne
+-   Die Taste <Keys.HardKey>Locate</Keys.HardKey> aktiviert die angewählten Geräte weiß (ohne
     Farbe) und in Grundstellung (Pan und Tilt jeweils 50%). Weitere
     Optionen dazu sind im [nächsten Abschnitt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate) erläutert.
 
@@ -37,7 +39,7 @@ Ein paar weitere wissenswerte Dinge:
 -   Oben am Touchscreen, direkt oberhalb der oberen Fenster, werden die
     momentan angewählten Geräte angezeigt.
 
--   Drücken Sie \<Clear\> (rechts vom Zifferntastenblock), um sämtliche
+-   Drücken Sie <Keys.HardKey>Clear</Keys.HardKey> (rechts vom Zifferntastenblock), um sämtliche
     Geräte aus der Auswahl zu entfernen und sämtliche Änderungen aus dem
     Programmierspeicher zu löschen. Weitere Optionen dazu sind im
     [nächsten Abschnitt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#clear----löschen-der-auswahl) erläutert. 
@@ -45,7 +47,7 @@ Ein paar weitere wissenswerte Dinge:
 -   Sobald ein Attribut verändert und wieder eine Auswahltaste betätigt
     wurde, werden sämtliche Geräte aus der Auswahl entfernt, und der
     Auswahlprozess startet von neuem. Alle vormals angewählten Geräte
-    (seit der letzten Betätigung von \<Clear\>) verbleiben im
+    (seit der letzten Betätigung von <Keys.HardKey>Clear</Keys.HardKey>) verbleiben im
     Programmierspeicher. Sobald ein Gerät editiert wurde, erscheint die
     betreffende Schaltfläche in Dunkelblau. Im obigen Bild sind die
     ersten beiden Geräte angewählt, die folgenden drei im
@@ -67,7 +69,7 @@ Ein paar weitere wissenswerte Dinge:
 
 ## Geräte auf Startposition setzen (Locate)
 
-Die Taste \<Locate\> (unten rechts auf dem Pult) versetzt die
+Die Taste <Keys.HardKey>Locate</Keys.HardKey> (unten rechts auf dem Pult) versetzt die
 angewählten Geräte in eine definierte Ausgangsposition mit \'Licht an\',
 um den Start des Programmierens zu vereinfachen.
 
@@ -75,36 +77,36 @@ Ein einfaches Betätigen der Taste bewegt alle Geräte auf \'Mitte\' (50%
 Pan/Tilt) und setzt sämtliche Attribute zurück, resultierend in einfach
 weißem Licht. Dennoch ist es zuweilen wünschenswert, etwa die Geräte
 dabei nicht zu bewegen oder andere Attribute unverändert zu lassen. Dazu
-erscheinen sinnvolle Optionen, wenn man die \<Locate\>-Taste nicht einfach
+erscheinen sinnvolle Optionen, wenn man die <Keys.HardKey>Locate</Keys.HardKey>-Taste nicht einfach
 kurz drückt, sondern gedrückt hält.
 
 -   Sie können einige der \'Locate\'-Funktionen maskieren (z.B. nur \'das
     Licht einschalten\', ohne Position oder Farbe zu verändern), indem
-    bei gedrückter \<Locate\>-Taste die Funktion \[Set Mask to Exclude
+    bei gedrückter <Keys.HardKey>Locate</Keys.HardKey>-Taste die Funktion \[Set Mask to Exclude
     All\] gewählt wird. Darauf - bei noch gedrückt gehaltener
-    \<Locate\>-Taste - schalten Sie die einzelnen Attribute, die Sie
+    <Keys.HardKey>Locate</Keys.HardKey>-Taste - schalten Sie die einzelnen Attribute, die Sie
     auf Startposition haben wollen, mittels der Attribut-Tasten ein. Nur
     die so angewählten Attribute werden nun bei 'Locate' zurückgesetzt.
-    Ein Druck auf \<Attribute Options\> löscht wiederum die Maskierung.
+    Ein Druck auf <Keys.HardKey>Attribute Options</Keys.HardKey> löscht wiederum die Maskierung.
 
--   Die Option \[Auto Reset Mask\] löscht die Maskierung automatisch, so
+-   Die Option <Keys.SoftKey>Auto Reset Mask</Keys.SoftKey> löscht die Maskierung automatisch, so
     dass bei jedem \'Locate\'-Vorgang wieder sämtliche Attribute
     beeinflusst werden. Alternativ bestimmt die Option \[Remember
     Mask\], dass die Maskierung erhalten bleibt.
 
--   Die Option \[Clear/Don\'t Clear Located Attributes\] bestimmt, ob die
-    durch \<Locate\> gesendeten Werte beim Speichern mit übernommen
+-   Die Option <Keys.SoftKey>Clear/Don\'t Clear Located Attributes</Keys.SoftKey> bestimmt, ob die
+    durch <Keys.HardKey>Locate</Keys.HardKey> gesendeten Werte beim Speichern mit übernommen
     werden sollen. Steht die Option auf \'Clear\', so werden die Werte
     nicht mit übernommen, sofern sie nicht manuell (etwa mit den Rädern)
     verändert wurden. Das ist zweckmäßig etwa, wenn Sie einen Cue nur
-    mit einer Position erstellen möchten. Die Taste \<Locate\> wird dann
+    mit einer Position erstellen möchten. Die Taste <Keys.HardKey>Locate</Keys.HardKey> wird dann
     zwar die Geräte zum Programmieren \'anschalten\', aber die Information
     \'Licht an\' wird nicht mit abgespeichert.
 
-> Um schnell zu \'Locaten\', **ohne Pan/Tilt zu verändern**, drücken und halten Sie \<Locate\>, drücken dazu \<Pan/Tilt\> und lassen nun \<Locate\> los.
+> Um schnell zu \'Locaten\', **ohne Pan/Tilt zu verändern**, drücken und halten Sie <Keys.HardKey>Locate</Keys.HardKey>, drücken dazu <Keys.HardKey>Pan/Tilt</Keys.HardKey> und lassen nun <Keys.HardKey>Locate</Keys.HardKey> los.
 
-> Um **nur Pan/Tilt zu locaten**, drücken und halten Sie \<Locate\>, drücken dazu
-\<Options\>  (bzw. \<Attribute Options\> auf älteren Pulten), drücken dann \<Pan/Tilt\>, und lassen nun \<Locate\> los.
+> Um **nur Pan/Tilt zu locaten**, drücken und halten Sie <Keys.HardKey>Locate</Keys.HardKey>, drücken dazu
+<Keys.HardKey>Options</Keys.HardKey>  (bzw. <Keys.HardKey>Attribute Options</Keys.HardKey> auf älteren Pulten), drücken dann <Keys.HardKey>Pan/Tilt</Keys.HardKey>, und lassen nun <Keys.HardKey>Locate</Keys.HardKey> los.
 
 
 ### Ändern des Locate-Wertes
@@ -112,26 +114,26 @@ kurz drückt, sondern gedrückt hält.
 Ebenso können Sie den Locate-Wert des Gerätes für die betreffende Show
 ändern, und zwar entweder für das eine angewählte Gerät, oder für alle
 Geräte dieses Typs. Stellen Sie dazu den gewünschten Wert für das
-entsprechende Gerät ein, drücken Sie \<Record\>, dann \<Locate\>.
-Wählen Sie nun \[Shared\] (gemeinsam = alle Lampen dieses Typs) oder
-\[Individual\] (nur einzelne Geräte). Drücken Sie schließlich nochmals
-\<Record\> oder \<Locate\>.
+entsprechende Gerät ein, drücken Sie <Keys.HardKey>Record</Keys.HardKey>, dann <Keys.HardKey>Locate</Keys.HardKey>.
+Wählen Sie nun <Keys.SoftKey>Shared</Keys.SoftKey> (gemeinsam = alle Lampen dieses Typs) oder
+<Keys.SoftKey>Individual</Keys.SoftKey> (nur einzelne Geräte). Drücken Sie schließlich nochmals
+<Keys.HardKey>Record</Keys.HardKey> oder <Keys.HardKey>Locate</Keys.HardKey>.
 
 ## Clear -- Löschen der Auswahl
 
-Die Taste \<Clear\> (rechts vom Zifferntastenblock) löscht sämtliche
+Die Taste <Keys.HardKey>Clear</Keys.HardKey> (rechts vom Zifferntastenblock) löscht sämtliche
 Änderungen aus dem Programmierspeicher sowie die aktuelle Geräteauswahl.
 Ein einfaches Betätigen der Taste löscht einfach alles, hält man die
-Taste \<Clear\> hingegen gedrückt, erscheinen folgende Optionen:
+Taste <Keys.HardKey>Clear</Keys.HardKey> hingegen gedrückt, erscheinen folgende Optionen:
 
 -   Es lassen sich einzelne Attribute zum Löschen maskieren (etwa: die
     Position im Programmierspeicher belassen, aber alles andere
-    löschen); dazu bei gedrückter \<Clear\>-Taste die Option \[Set Mask
-    to Clear Nothing\] wählen. Darauf (noch immer \<Clear\> gedrückt
+    löschen); dazu bei gedrückter <Keys.HardKey>Clear</Keys.HardKey>-Taste die Option \[Set Mask
+    to Clear Nothing\] wählen. Darauf (noch immer <Keys.HardKey>Clear</Keys.HardKey> gedrückt
     halten) lassen sich mit den Attribut-Tasten die zu löschenden
-    Attribute einzeln wählen, oder Sie wählen \[Set Mask\] und benutzen
+    Attribute einzeln wählen, oder Sie wählen <Keys.SoftKey>Set Mask</Keys.SoftKey> und benutzen
     die Kontext-Tasten. Nun werden nur die angezeigten Attribute
-    gelöscht. Ein Druck auf die Taste \[Attribute Options\] bzw. \[Options\]
+    gelöscht. Ein Druck auf die Taste <Keys.SoftKey>Attribute Options</Keys.SoftKey> bzw. <Keys.SoftKey>Options</Keys.SoftKey>
 	wiederum löscht die Maskierung. Mit der Option „Time Mask" kann man
     einstellen, ob die Fade-/Delayzeiten im Programmierspeicher für alle
     Attribute ebenfalls gelöscht oder aber beibehalten werden sollen
@@ -139,59 +141,59 @@ Taste \<Clear\> hingegen gedrückt, erscheinen folgende Optionen:
     die jeweiligen Attribute gelöscht; setzt man also die Maske auf P,
     so werden die Zeiten für Pan/Tilt gelöscht).
 
--   Hält man \<Clear\> gedrückt und betätigt dazu \<All\>, so werden
+-   Hält man <Keys.HardKey>Clear</Keys.HardKey> gedrückt und betätigt dazu <Keys.HardKey>All</Keys.HardKey>, so werden
     alle Geräte deselektiert, aber die Werte verbleiben im
     Programmierspeicher.
 
--   \[Clear Options\] öffnet ein Untermenü mit weiteren, im Folgenden
+-   <Keys.SoftKey>Clear Options</Keys.SoftKey> öffnet ein Untermenü mit weiteren, im Folgenden
     beschriebenen Optionen.
 
--   Mit \[Clear All Fixtures/Selected Fixtures\] bestimmen Sie, ob
+-   Mit <Keys.SoftKey>Clear All Fixtures/Selected Fixtures</Keys.SoftKey> bestimmen Sie, ob
     sämtliche, oder nur die aktuell ausgewählten, Geräte aus dem
     Programmierspeicher gelöscht werden sollen.
 
--   \[Individual Attributes\] erlaubt das Löschen einzelner Attribute
+-   <Keys.SoftKey>Individual Attributes</Keys.SoftKey> erlaubt das Löschen einzelner Attribute
     aus dem Programmierspeicher. Beim Betätigen dieser Taste erhalten
     Sie eine Liste der aktuell im Programmierspeicher vorhandenen
     Attribute, die sich mit der jeweiligen Taste einzeln löschen lassen.
 
--   \[Clear All Programmers\] löscht alle zurzeit verwendeten
+-   <Keys.SoftKey>Clear All Programmers</Keys.SoftKey> löscht alle zurzeit verwendeten
     Programmierspeicher. Dies betrifft insbesondere Werte, die mit der
     Remote, von einem anderen Pult/User in einer Multiuser-Session sowie
     beim Erstellen von Keyframe-Shapes gesetzt wurden.
 
 Optionen im Untermenü "Clear Options":
 
--   \[Auto Reset Mask\] setzt die Maskierung bei jedem Betätigen der
+-   <Keys.SoftKey>Auto Reset Mask</Keys.SoftKey> setzt die Maskierung bei jedem Betätigen der
     'Clear'-Taste automatisch zurück. Alternativ bestimmt \[Remember
     Mask\], dass die Maskierung erhalten bleibt.
 
--   \[Leave/Zero Preset Fader Levels\] bestimmt, ob Faderwerte von
-    Geräten mit \<Clear\> auf 0 gesetzt werden sollen oder nicht. (Das
+-   <Keys.SoftKey>Leave/Zero Preset Fader Levels</Keys.SoftKey> bestimmt, ob Faderwerte von
+    Geräten mit <Keys.HardKey>Clear</Keys.HardKey> auf 0 gesetzt werden sollen oder nicht. (Das
     Tastenprofil der Geräteauswahl lässt sich auf 'Einrasten' (Latch)
     stellen, womit der Dimmerkanal des Gerätes eingeschaltet wird,
     sobald das Gerät angewählt wird, siehe [Key Profiles](../system-settings/key-profiles.md)).
 
--   Mit \[Freeze current values\] lässt sich festlegen, was mit
+-   Mit <Keys.SoftKey>Freeze current values</Keys.SoftKey> lässt sich festlegen, was mit
     LTP-Kanälen (nicht Helligkeit) geschieht, deren Wert modifiziert
-    wurde. Steht diese Option auf \[Freeze Current Values\], so behalten
+    wurde. Steht diese Option auf <Keys.SoftKey>Freeze Current Values</Keys.SoftKey>, so behalten
     diese Kanäle die gewählten Werte. Steht die Option auf \[Release To
     Playback Values\], so werden die Kanäle auf die Werte der aktuell
     laufenden Cues zurückgesetzt. Beispiel: wird ein Cue aufgerufen, in
     dem einige Geräte grün abgespeichert sind, und nun manuell deren
     Farbe auf Rot geändert, so werden diese bei \'Clear\' und der Option
-    \[Freeze\] rot bleiben; ist hingegen die Option \[Release\]
+    <Keys.SoftKey>Freeze</Keys.SoftKey> rot bleiben; ist hingegen die Option <Keys.SoftKey>Release</Keys.SoftKey>
     angewählt, so werden die Geräte zum gespeicherten Grün
     zurückgesetzt.
 
--   \[Clear/Maintain Cue Times\] bestimmt, ob Cue-Zeiten im
+-   <Keys.SoftKey>Clear/Maintain Cue Times</Keys.SoftKey> bestimmt, ob Cue-Zeiten im
     Programmierspeicher gelöscht oder aber beibehalten werden (dies ist
     unabhängig von Attributzeiten im Speicher).
 
 Mit dem Fenster [Channel Grid](../controlling-fixtures/viewing-and-editing-fixture-values.md#übersicht-über-die-kanäle-das-channel-grid-fenster) können einzelne Attribute einzelner
 Geräte selektiv gelöscht werden.
 
-> Geben Sie mit den Zifferntasten eine Zahl ein und drücken dann \<Clear\>, so faden im Programmer befindliche HTP-Werte in dieser Zeit (in Sekunden) aus. Gibt man etwa 5 ein und drückt \<Clear\>, so wird in 5 Sekunden ausgefadet. Damit kann man unauffällig mit dem Programmer arbeiten.
+> Geben Sie mit den Zifferntasten eine Zahl ein und drücken dann <Keys.HardKey>Clear</Keys.HardKey>, so faden im Programmer befindliche HTP-Werte in dieser Zeit (in Sekunden) aus. Gibt man etwa 5 ein und drückt <Keys.HardKey>Clear</Keys.HardKey>, so wird in 5 Sekunden ausgefadet. Damit kann man unauffällig mit dem Programmer arbeiten.
 
 ## Geräte mit mehreren Zellen/Subfixtures
 
@@ -208,55 +210,55 @@ Reiter oben im Attribut-Editor verwenden, wobei der ganz linke Reiter
 das Gesamtgerät steuert und daneben Reiter für die einzelnen Zellen sind
 (zum Öffnen des Attribut-Editors verwenden Sie z.B. den vorgegebenen
 Workspace oder drücken zweimal auf
-[\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen den
+[<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen den
 Attribut-Editor).
 
 ![Cell Selection](/docs/images/Cell-Selection.png)
 
 Ebenso können Sie dazu die Unfold-Funktion verwenden: drücken Sie
-\<Unfold\> und dann die entsprechende Geräteschaltfläche. Daraufhin
+<Keys.HardKey>Unfold</Keys.HardKey> und dann die entsprechende Geräteschaltfläche. Daraufhin
 werden im Gerätefenster Schaltflächen für die einzelnen Zellen
 angezeigt. Verwenden Sie dies auf Geräten auf Fadern/Tasten, so werden
 die Zellen ab Fader 1 eingeblendet.
 
 Es gibt zwei Möglichkeiten für Unfold:
 
--   Drücken Sie \<Unfold\> und wählen Sie mehrere Geräte aus. Die
+-   Drücken Sie <Keys.HardKey>Unfold</Keys.HardKey> und wählen Sie mehrere Geräte aus. Die
     entsprechenden Schaltflächen für die Zellen erscheinen sofort im
     Gerätefenster.
 
--   Wählen Sie die Geräte aus und drücken Sie \<Unfold\>. Wählen Sie nun
-    \[Selected Fixtures\]. Dies bietet sich insbesondere für mehrere
+-   Wählen Sie die Geräte aus und drücken Sie <Keys.HardKey>Unfold</Keys.HardKey>. Wählen Sie nun
+    <Keys.SoftKey>Selected Fixtures</Keys.SoftKey>. Dies bietet sich insbesondere für mehrere
     nicht unmittelbar aufeinander folgende Geräte an.
 
-Um in die normale Anzeige zu wechseln, wählen Sie \<Unfold\>, dann
-\[Exit Unfold\].
+Um in die normale Anzeige zu wechseln, wählen Sie <Keys.HardKey>Unfold</Keys.HardKey>, dann
+<Keys.SoftKey>Exit Unfold</Keys.SoftKey>.
 
 Einzelne Zellen lassen sich auch über eine spezielle Syntax mit den
-Zifferntasten auswählen (\<THRO\> ist auf manchen Pulten \'Through\'):
+Zifferntasten auswählen (<Keys.HardKey>THRO</Keys.HardKey> ist auf manchen Pulten \'Through\'):
 
 | Tasten                                         | Auswahl                                                 |
 |------------------------------------------------|---------------------------------------------------------|
-| \<.\>  	                                     | Alle Zellen der gewählten Geräte                        |
-| **n** \<.\>                                    | Alle Zellen von Gerät **n**                             |
-| \<.\> \<THRO\> \<.\> **j**                     | Zellen 1 bis **j** aller gewählten Geräte               |     
-| **n** \<.\> \<THRO\>                           | Alle Zellen der Geräte ab Nr. **n** des jeweiligen Typs |
-| **n** \<THRO\> \<.\> **j**                     | Kurzform, s.o.                                          |
-| **n** \<.\> \<THRO\> **i**                     | Zellen 1 bis **i** von Gerät **n**                      |
-| \<.\> **m**          		                     | Zelle **m** aller ausgewählten Geräte                   |
-| **n** \<.\> \<THRO\> **i** \<.\> **j**         | Zellen 1 bis **j** der Geräte **n** bis **i**           |
-| \<.\> **m** \<THRO\>                           | Zellen ab **m** der gewählten Geräte                    |
-| **n** \<.\> **m**                              | Zelle **m** von Gerät **n**                             |
-| \<.\> **m** \<THRO\> \<.\> **j**               | Zellen **m** bis **j** aller gewählten Geräte           |    
-| **n** \<.\> **m** \<THRO\>                     | Zellen ab **m** des Gerätes **n**                       |
-| \<.\> **m** \<THRO\> **j**                     | Kurzform, s.o.                                          |
-| **n** \<.\> **m** \<THRO\> **i**               | Zellen **m** bis **i** von Gerät **n**                  |
-| **n** \<THRO\> **i** \<.\>                     | alle Zellen der Geräte **n** bis **i**                  |
-| **n** \<.\> **m** \<THRO\> **i** \<.\>         | Zellen ab **m** der Geräte **n** - **i**                |
-| **n** \<THRO\> **i** \<.\> **j**               | Zelle **j** der Geräte **n** - **i**                    |
-| **n** \<.\> **m** \<THRO\> **i** \<.\> **j**   | Zellen **m** - **j** der Geräte **n** - **i**           |
-| **n** \<THRO\> \<.\> **j**                     | Zellen 1 - **j** von Gerät **n**                        |
-| **n** \<.\> **m** \<THRO\> \<.\> **j**         | Zellen **m** - **j** von Gerät **n**                    |
+| <Keys.HardKey>.</Keys.HardKey>  	                                     | Alle Zellen der gewählten Geräte                        |
+| **n** <Keys.HardKey>.</Keys.HardKey>                                    | Alle Zellen von Gerät **n**                             |
+| <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**                     | Zellen 1 bis **j** aller gewählten Geräte               |     
+| **n** <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey>                           | Alle Zellen der Geräte ab Nr. **n** des jeweiligen Typs |
+| **n** <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**                     | Kurzform, s.o.                                          |
+| **n** <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> **i**                     | Zellen 1 bis **i** von Gerät **n**                      |
+| <Keys.HardKey>.</Keys.HardKey> **m**          		                     | Zelle **m** aller ausgewählten Geräte                   |
+| **n** <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey> **j**         | Zellen 1 bis **j** der Geräte **n** bis **i**           |
+| <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey>                           | Zellen ab **m** der gewählten Geräte                    |
+| **n** <Keys.HardKey>.</Keys.HardKey> **m**                              | Zelle **m** von Gerät **n**                             |
+| <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**               | Zellen **m** bis **j** aller gewählten Geräte           |    
+| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey>                     | Zellen ab **m** des Gerätes **n**                       |
+| <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> **j**                     | Kurzform, s.o.                                          |
+| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> **i**               | Zellen **m** bis **i** von Gerät **n**                  |
+| **n** <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey>                     | alle Zellen der Geräte **n** bis **i**                  |
+| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey>         | Zellen ab **m** der Geräte **n** - **i**                |
+| **n** <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey> **j**               | Zelle **j** der Geräte **n** - **i**                    |
+| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey> **j**   | Zellen **m** - **j** der Geräte **n** - **i**           |
+| **n** <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**                     | Zellen 1 - **j** von Gerät **n**                        |
+| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**         | Zellen **m** - **j** von Gerät **n**                    |
 
 -   Die Auswahl von Zellen kann als separate Gruppe gespeichert werden.
     Damit können später verschiedene Zusammenstellungen von Zellen
@@ -287,7 +289,7 @@ Die Attribute können auch im [Attribute Editor Fenster](../controlling-fixtures
 Jede einzelne Attribut-Taste kann mehrere Attribute steuern, von denen
 jedes einem Rad zugeordnet ist. Beim Sapphire Touch werden mit dem
 Trackball Pan und Tilt gesteuert; der äußere Ring steuert normalerweise 
-den Dimmer, wobei sich dies mit der Taste \<Assign\> direkt daneben ändern lässt.
+den Dimmer, wobei sich dies mit der Taste <Keys.HardKey>Assign</Keys.HardKey> direkt daneben ändern lässt.
 
 1. Nach der Anwahl der betreffenden Geräte betätigen Sie die Taste des
 einzustellenden Attributs.
@@ -314,7 +316,7 @@ Weitere wissenswerte Dinge zu Attributen:
 	so bedeutet das, dass auf dieser Bank mehr als drei Attribute zu steuern sind. 
 	In diesem Fall kann man durch mehrfaches Anwählen der Attributbank durch 
 	die Attribute durchschalten. Angenommen ein Scheinwerfer habe die Attribute 
-	Red, Green, Blue, Amber und White, so wird beim ersten Klicken auf \<Colour\> 
+	Red, Green, Blue, Amber und White, so wird beim ersten Klicken auf <Keys.HardKey>Colour</Keys.HardKey> 
 	Red, Green und Blue gesteuert und beim nächsten Klick Amber und White.
 
 -   Befindet sich ein Attribut im Programmierspeicher, so wird es hellblau
@@ -330,10 +332,10 @@ Weitere wissenswerte Dinge zu Attributen:
     Abstufungen. Wird es dagegen langsam bewegt, folgt das Gerät in
     kleinstmöglichen Schritten.
 
--   Wird beim Drehen des Rades die \<AVO\>-Taste gedrückt, so arbeitet
+-   Wird beim Drehen des Rades die <Keys.HardKey>AVO</Keys.HardKey>-Taste gedrückt, so arbeitet
     das Rad im \'Schnell\'-Modus: eine Radumdrehung durchläuft den
     gesamten Bereich des Attributes. Wird etwa bei gedrückter
-    \<AVO\>-Taste das Rad für Pan bewegt, so macht das Gerät bei einer
+    <Keys.HardKey>AVO</Keys.HardKey>-Taste das Rad für Pan bewegt, so macht das Gerät bei einer
     Radumdrehung einen kompletten Schwenk von einem Anschlag zum
     anderen.
 
@@ -348,7 +350,7 @@ Für Attribute mit festen Werten wie Gobos oder Farbräder ist das Fenster
 'Attribut-Editor' ggf. besser geeignet als die Encoder. Es bietet darüber
 hinaus einen Farbwähler für Geräte mit RGB- oder CMY-Farbmischung.
 
-Drücken Sie zweimal auf [\<View / Open\>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen \[Attribute Editor\], um den
+Drücken Sie zweimal auf [<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen <Keys.SoftKey>Attribute Editor</Keys.SoftKey>, um den
 Attribut-Editor einzublenden. Oder klicken Sie auf den Attribut-Namen
 direkt unterhalb der IPCGBES-Schaltflächen auf dem Display.
 
@@ -405,17 +407,17 @@ Pan/Tilt-Steuerung per X/Y-Raster. Dabei werden die angewählten Geräte
 durch Kreis angezeigt, was die Steuerung vereinfacht. Weitere
 Steuerungmöglichkeiten:
 
--   Mit \[Locate\] wird die Position auf 50% Pan/50% Tilt gesetzt, ohne
+-   Mit <Keys.SoftKey>Locate</Keys.SoftKey> wird die Position auf 50% Pan/50% Tilt gesetzt, ohne
     andere Attribute zu verändern.
 
 -   [Flip](../controlling-fixtures/using-the-select-buttons-and-wheels.md#flip) dreht
     den Bügel von Movinglights in eine andere Position, wobei der gleiche Punkt     
     anvisiert wird.
 
--   Mit \[Align\] wird Pan/Tilt auf die Werte des zuletzt angewählten
+-   Mit <Keys.SoftKey>Align</Keys.SoftKey> wird Pan/Tilt auf die Werte des zuletzt angewählten
     Gerätes gesetzt. Möchte man z.B. alle angewählten Geräte auf den
     Wert des ersten Gerätes bringen, so wählt man die Geräte in der
-    Reihenfolge 2-3-4-1 aus und klickt \[Align\].
+    Reihenfolge 2-3-4-1 aus und klickt <Keys.SoftKey>Align</Keys.SoftKey>.
 
 -   Mit Pan/Tilt Lock lässt sich die Bearbeitung mehrerer Geräte auf
     einmal vereinfachen, indem entweder Pan oder Tilt kurzzeitig von der
@@ -423,7 +425,7 @@ Steuerungmöglichkeiten:
     aufgefächert und will nur Tilt etwas nachziehen, so verhindert Pan
     Lock, dass der bereits eingestellte Fächer verlorengeht.
 
--   Mit dem Button \[Fine\] lässt sich die Auflösung verringern, so dass
+-   Mit dem Button <Keys.SoftKey>Fine</Keys.SoftKey> lässt sich die Auflösung verringern, so dass
     man die gewünschte Position sehr genau ansteuern kann.
 
 ### Farbmischung: Channel
@@ -472,8 +474,8 @@ während der Fader rechts daneben die Helligkeit (Intensity, I) regelt.
 Auswahl der Farbe nach Farbfilter-Nummer; dabei stehen die Systeme von
 Lee, Roscolux und GamColor zur Verfügung. Mit der Suchleiste oben im
 Fenster kann nach einer bestimmten Nummer gesucht werden. Per
-Kontext-Button kann zwischen \[Order Filters by Number\] (nach Nummer
-sortieren) und \[Order Filters by Hue\] (nach Farbton sortieren)
+Kontext-Button kann zwischen <Keys.SoftKey>Order Filters by Number</Keys.SoftKey> (nach Nummer
+sortieren) und <Keys.SoftKey>Order Filters by Hue</Keys.SoftKey> (nach Farbton sortieren)
 umgeschaltet werden.
 
 > Für Geräte mit RGBW, RGBA oder WW/CW-Steuerung steuert der Colourpicker auch die Kanäle für Weiß und Amber. Dies ist seit Titan Version 9 implementiert; in älteren Versionen müssen diese Attribute manuell eingestellt werden.
@@ -509,13 +511,13 @@ und Funktionsweise hängt dabei vom jeweiligen Gerät ab.
 
 Für aktuell den Rädern zugeordnete
 Attribute lassen sich direkt numerische Werte eingeben. Dazu müssen Sie
-sich im Hauptmenü befinden (drücken Sie \<Exit\>, bis die senkrechte
+sich im Hauptmenü befinden (drücken Sie <Keys.HardKey>Exit</Keys.HardKey>, bis die senkrechte
 Menüleiste 'Program Menu' anzeigt).
 
 Geben Sie mit den Zifferntasten eine Zahl ein und betätigen dann eine
 der Multifunktionstasten, um den Wert einem Attribut zuzuordnen. Die
 Beschriftung der Taste zeigt, wie der Wert vom Gerät dargestellt wird
-(z.B. \[Gobo 5\] oder \[Deep Blue\]).
+(z.B. <Keys.SoftKey>Gobo 5</Keys.SoftKey> oder <Keys.SoftKey>Deep Blue</Keys.SoftKey>).
 
 ![Attribute Softkey](/docs/images/Attribute-Softkey.png)
 
@@ -529,7 +531,7 @@ ein.
 
 ## Eingeben von Attributwerten mit den @-Tasten
 
-Drückt man die \<@\>-Taste bei einem der Räder, so öffnet sich das Menü zum
+Drückt man die <Keys.HardKey>@</Keys.HardKey>-Taste bei einem der Räder, so öffnet sich das Menü zum
 numerischen Eingeben der Attributwerte.
 
 Dieses Menü lässt sich auch öffnen, indem man auf den mittleren Bereich
@@ -537,7 +539,7 @@ der Anzeige der Attributwerte (oberhalb der Räder) anklickt, oder durch
 Anklicken eines Attributs im Channel Grid (Kanalübersicht).
 
 (Beim Tiger Touch dienen die drei Tasten zwischen den Rädern als
-\<@\>-Tasten, beim Pearl Expert gibt es diese Tasten nicht, und man muss
+<Keys.HardKey>@</Keys.HardKey>-Tasten, beim Pearl Expert gibt es diese Tasten nicht, und man muss
 eine der anderen Varianten nutzen).
 
 Folgende Funktionen stehen auf den Menütasten zur Verfügung:
@@ -570,7 +572,7 @@ In bestimmten Situationen, etwa beim Programmieren einer Vielzahl von
 Dimmern, kann es einfacher sein, die zu ändernden Kanäle anhand ihrer
 Nummer auszuwählen. Über das \'Channel\'-Menü geht das für Dimmer und
 Bewegungsscheinwerfer. Zum Aufruf des \'Channel\'-Menüs drücken Sie die
-Taste \<Fixture\> links oberhalb des Zifferntastenblocks.
+Taste <Keys.HardKey>Fixture</Keys.HardKey> links oberhalb des Zifferntastenblocks.
 
 Ebenso können Sie einfach die entsprechenden Ziffern eingeben; enthält
 Ihre Eingabe \'Through\', \'And\' oder \'@\', so wird automatisch das
@@ -585,44 +587,44 @@ des Gerätebuttons (Handle Number) oder der DMX-Adresse anwählen, je nach
 Einstellung der Menütaste A.
 
 Bei der Benutzung des \'Channel\'-Menüs empfiehlt es sich, dieses zu
-fixieren (Taste \<Menu Latch\>).
+fixieren (Taste <Keys.HardKey>Menu Latch</Keys.HardKey>).
 
--   Zum Anwählen eines Gerätes die Nummer eingeben und \<Enter\>
+-   Zum Anwählen eines Gerätes die Nummer eingeben und <Keys.HardKey>Enter</Keys.HardKey>
     drücken.
 
 -   Um mehr als ein Gerät anzuwählen, drücken Sie die Funktionstaste
-    \[And\] zwischen den einzelnen Nummern. Beispiel: 1 \[And\] 2
-    \[And\] 5 \<Enter\> wählt die Geräte 1, 2, 5.
+    <Keys.SoftKey>And</Keys.SoftKey> zwischen den einzelnen Nummern. Beispiel: 1 <Keys.SoftKey>And</Keys.SoftKey> 2
+    <Keys.SoftKey>And</Keys.SoftKey> 5 <Keys.HardKey>Enter</Keys.HardKey> wählt die Geräte 1, 2, 5.
 
--   Um eine Folge von Geräten anzuwählen, drücken Sie \[Thro\].
-    Beispiel: 1 \[Thro\] 8 \<Enter\> wählt 1-8. Lässt man die zweite 
+-   Um eine Folge von Geräten anzuwählen, drücken Sie <Keys.SoftKey>Thro</Keys.SoftKey>.
+    Beispiel: 1 <Keys.SoftKey>Thro</Keys.SoftKey> 8 <Keys.HardKey>Enter</Keys.HardKey> wählt 1-8. Lässt man die zweite 
 	Zahl weg, so werden alle noch folgenden Geräte des gleichen Typs angewählt.
 
--   Um einzelne Geräte in einer Folge auszulassen, drücken Sie \[Not\].
-    Beispiel: 1 \[Through\] 4 \[Not\] 3 \<Enter\> wählt 1, 2, 4.
+-   Um einzelne Geräte in einer Folge auszulassen, drücken Sie <Keys.SoftKey>Not</Keys.SoftKey>.
+    Beispiel: 1 <Keys.SoftKey>Through</Keys.SoftKey> 4 <Keys.SoftKey>Not</Keys.SoftKey> 3 <Keys.HardKey>Enter</Keys.HardKey> wählt 1, 2, 4.
 
--   Die Taste \[@\] stellt den Dimmer-Wert der ausgewähl­ten Geräte ein,
-    etwa: 1 \[Through\] 8 \[@\] 5 \<Enter\> setzt Gerät 1-8 auf 50% (in den
+-   Die Taste <Keys.SoftKey>@</Keys.SoftKey> stellt den Dimmer-Wert der ausgewähl­ten Geräte ein,
+    etwa: 1 <Keys.SoftKey>Through</Keys.SoftKey> 8 <Keys.SoftKey>@</Keys.SoftKey> 5 <Keys.HardKey>Enter</Keys.HardKey> setzt Gerät 1-8 auf 50% (in den
     Benutzereinstellungen lässt sich einstellen, ob 50% durch "5" oder
     "50" eingegeben wird, siehe [Benutzereinstellungen](../system-settings/user-settings.md)). Beim Betätigen
-    der Taste \[@\] erscheinen außerdem Optionen auf den Funktionstasten
+    der Taste <Keys.SoftKey>@</Keys.SoftKey> erscheinen außerdem Optionen auf den Funktionstasten
     für \'Full\' (100%), \'Off\' (0) und +/- (schrittweise
     erhöhen/vermindern).
 
 -   Zur numerischen Anwahl von Gruppen verwenden Sie die Taste 'Group';
-    Beispiel: \<Group\> 1 \[And\] \<Group\> 2 \[Not\] 5 \<Enter\> selektiert
+    Beispiel: <Keys.HardKey>Group</Keys.HardKey> 1 <Keys.SoftKey>And</Keys.SoftKey> <Keys.HardKey>Group</Keys.HardKey> 2 <Keys.SoftKey>Not</Keys.SoftKey> 5 <Keys.HardKey>Enter</Keys.HardKey> selektiert
     Gruppe 1 und 2 außer Gerät 5.
 
--   Die \<Locate\>-Taste macht das Betätigen der \<Enter\>-Taste
+-   Die <Keys.HardKey>Locate</Keys.HardKey>-Taste macht das Betätigen der <Keys.HardKey>Enter</Keys.HardKey>-Taste
     überflüssig, wenn die Geräte angewählt und dann auf die
-    Startposition gebracht werden sollen: 1 \[Through\] 4 \<Locate\>
+    Startposition gebracht werden sollen: 1 <Keys.SoftKey>Through</Keys.SoftKey> 4 <Keys.HardKey>Locate</Keys.HardKey>
     wählt Gerät 1 bis 4 aus und initialisiert diese.
 
 ![Syntax Selection](/docs/images/Syntax-Selection.png)
 
 -   Beim Eingeben eines Kommandos wird dieses in der Kommandozeile des
-    Displays angezeigt. Mittels der grauen ←\<Back\>Taste kann man
-    schrittweise zurückgehen; mit der grauen →\<@\>Taste lässt sich die
+    Displays angezeigt. Mittels der grauen ←<Keys.HardKey>Back</Keys.HardKey>Taste kann man
+    schrittweise zurückgehen; mit der grauen →<Keys.HardKey>@</Keys.HardKey>Taste lässt sich die
     Eingabe abbrechen.
 
 -   Die Funktionen AND, THRO sowie @ stehen auch auf den Pfeiltasten zur
@@ -637,40 +639,40 @@ einem bestimmten Muster zu selektieren.
 
 1. Selektieren Sie einige Geräte.
 
-2. Drücken Sie die weiße Taste \<All\> (bzw. \<All/Even/Odd\>).
+2. Drücken Sie die weiße Taste <Keys.HardKey>All</Keys.HardKey> (bzw. <Keys.HardKey>All/Even/Odd</Keys.HardKey>).
 
 3. Wählen Sie ein Muster von den Menütasten. Die gewählte Auswahl wird
 geändert, so dass z.B. nur die ungeraden (odd) Geräte ausgewählt werden.\
 ![Pattern Select](/docs/images/Pattern-Select.png)
 
-4. Drücken Sie die Taste \<Fix+1\> oder \<Fix-1\>, um den nächsten
-Schritt im gewählten Muster anzuwählen (auf manchen Pulten \<Next\> und \<Prev\>).
+4. Drücken Sie die Taste <Keys.HardKey>Fix+1</Keys.HardKey> oder <Keys.HardKey>Fix-1</Keys.HardKey>, um den nächsten
+Schritt im gewählten Muster anzuwählen (auf manchen Pulten <Keys.HardKey>Next</Keys.HardKey> und <Keys.HardKey>Prev</Keys.HardKey>).
 
-5. Um die Musterauswahl zu beenden, drücken Sie zweimal \<All\>.
+5. Um die Musterauswahl zu beenden, drücken Sie zweimal <Keys.HardKey>All</Keys.HardKey>.
 
--   Mittels \[Direction\] (Richtung) kann eingestellt werden, dass die
+-   Mittels <Keys.SoftKey>Direction</Keys.SoftKey> (Richtung) kann eingestellt werden, dass die
     Geräte-Reihenfolge einer bestimmten Richtung folgt; dabei wird das
     Layout der Geräte herangezogen. Damit lassen sich z.B. sehr einfach
     symmetrische Paare von Geräten wählen. Auch beim Verwenden von 
 	[Fixture Overlap](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) 
 	ist die Richtung von Bedeutung.
 
--   Drückt man \<Clear\>, so wird die Richtung (Direction) wieder auf
-    \'None\' zurückgesetzt. Dies lässt sich mit \[Clear Options\] \[Clear
-    / Maintain Direction\] umstellen (halten Sie \<Clear\> gedrückt zum
+-   Drückt man <Keys.HardKey>Clear</Keys.HardKey>, so wird die Richtung (Direction) wieder auf
+    \'None\' zurückgesetzt. Dies lässt sich mit <Keys.SoftKey>Clear Options</Keys.SoftKey> \[Clear
+    / Maintain Direction\] umstellen (halten Sie <Keys.HardKey>Clear</Keys.HardKey> gedrückt zum
     Einstellen der Clear-Optionen).
 
 -   Wenn Sie etwa einen Chaser mit 16 Geräten programmieren, und dazu
     jedes 4. synchron einstellen wollen, wählen Sie zunächst alle 16
-    Geräte aus, drücken dann \<All\>, dann \[1 in x\], und danach 
-	\[1 in 4\]. Nun sind die Geräte 1, 5, 9 und 13 aus der vorherigen 
-	Auswahl zum Bearbeiten angewählt. Drücken Sie \<Fix+1\> bzw. \<Next\>, 
+    Geräte aus, drücken dann <Keys.HardKey>All</Keys.HardKey>, dann <Keys.SoftKey>1 in x</Keys.SoftKey>, und danach 
+	<Keys.SoftKey>1 in 4</Keys.SoftKey>. Nun sind die Geräte 1, 5, 9 und 13 aus der vorherigen 
+	Auswahl zum Bearbeiten angewählt. Drücken Sie <Keys.HardKey>Fix+1</Keys.HardKey> bzw. <Keys.HardKey>Next</Keys.HardKey>, 
 	so werden die Geräte 2, 6, 10 und 14 angewählt. Nach der Anwahl des 4. 
 	Schrittes erscheint wieder der erste Schritt des Musters, bis 
-	zweimal \<All\> betätigt wird.
+	zweimal <Keys.HardKey>All</Keys.HardKey> betätigt wird.
 
 -   Sie können sehr einfach eigene Muster programmieren: geben Sie dazu
-    z.B. mit den Ziffern- und Funktionstasten "2" A \[In\] "6" \<Enter\> ein.
+    z.B. mit den Ziffern- und Funktionstasten "2" A <Keys.SoftKey>In</Keys.SoftKey> "6" <Keys.HardKey>Enter</Keys.HardKey> ein.
 
 -   Diese Funktionen stehen ebenfalls auf den Menütasten zur Verfügung,
     wenn man einen Gruppen-Button gedrückt hält.
@@ -680,11 +682,11 @@ Schritt im gewählten Muster anzuwählen (auf manchen Pulten \<Next\> und \<Prev
 Zur Auswahl der Geräte, die in einem bestimmten Cue enthalten sind,
 dient die \'Select If\'-Funktion.
 
-Drücken Sie dazu \<Select If\> gefolgt von dem Speicherplatz. (Auf
-älteren Pulten gibt es keine gesonderte \<Select If\>-Taste; in diesem
-Fall drücken Sie \<Fixture\> und dann \[Select If\]).
+Drücken Sie dazu <Keys.HardKey>Select If</Keys.HardKey> gefolgt von dem Speicherplatz. (Auf
+älteren Pulten gibt es keine gesonderte <Keys.HardKey>Select If</Keys.HardKey>-Taste; in diesem
+Fall drücken Sie <Keys.HardKey>Fixture</Keys.HardKey> und dann <Keys.SoftKey>Select If</Keys.SoftKey>).
 
-Ebenso lässt sich \'Select If\' mit den Tasten \<@\> und \<Thro\>
+Ebenso lässt sich \'Select If\' mit den Tasten <Keys.HardKey>@</Keys.HardKey> und <Keys.HardKey>Thro</Keys.HardKey>
 verwenden, um alle Geräte mit einer bestimmten Helligkeit anzuwählen:\
 \@X: Geräte mit der Helligkeit X\
 @ Thro X: Geräte mit der Helligkeit 0 - X\
@@ -693,7 +695,7 @@ verwenden, um alle Geräte mit einer bestimmten Helligkeit anzuwählen:\
 @@: Geräte mit der Helligkeit \> 0.
 
 Pegelangaben können entweder in der Schreibweise 0-9 oder 00-99 gemacht
-werden, abhängig von der [Benutzereinstellung](../system-settings/user-settings.md) \[Channel Levels Set In\].
+werden, abhängig von der [Benutzereinstellung](../system-settings/user-settings.md) <Keys.SoftKey>Channel Levels Set In</Keys.SoftKey>.
 
 ## Attributgruppen -- IPCGBES-FX
 
@@ -736,18 +738,18 @@ das Pult die Möglichkeit, einzeln durch die angewählten Geräte
 durchzuschalten. Dies vereinfacht das Programmieren, da man so nicht
 jedes Gerät einzeln selektieren muss.
 
-Für diese Funktion werden die Tasten \<Fix-1\> (zurück), \<Fix+1\>
-(weiter), \<All\> (alle) und \<HiLight\> (hervorheben) genutzt.
+Für diese Funktion werden die Tasten <Keys.HardKey>Fix-1</Keys.HardKey> (zurück), <Keys.HardKey>Fix+1</Keys.HardKey>
+(weiter), <Keys.HardKey>All</Keys.HardKey> (alle) und <Keys.HardKey>HiLight</Keys.HardKey> (hervorheben) genutzt.
 
 1. Wählen Sie mehrere Geräte oder eine Gruppe von Geräten.
 
-2. Mit den Tasten \<Fix-1\> und \<Fix+1\> wird jeweils ein Gerät
+2. Mit den Tasten <Keys.HardKey>Fix-1</Keys.HardKey> und <Keys.HardKey>Fix+1</Keys.HardKey> wird jeweils ein Gerät
    ausgewählt bzw. weitergeschaltet (in der Reihenfolge der Auswahl). 
-   Auf manchen Pulten dienen dazu die Tasten \<Prev\> und \<Next\> .
+   Auf manchen Pulten dienen dazu die Tasten <Keys.HardKey>Prev</Keys.HardKey> und <Keys.HardKey>Next</Keys.HardKey> .
 
-3. Die Taste \<All\> wählt alle Geräte aus, die sich im
+3. Die Taste <Keys.HardKey>All</Keys.HardKey> wählt alle Geräte aus, die sich im
    Programmierspeicher befinden (alle Geräte, die seit der letzten
-   Betätigung von \<Clear\> angewählt wurden).
+   Betätigung von <Keys.HardKey>Clear</Keys.HardKey> angewählt wurden).
 
 -   Die \'HiLight\'-Funktion ermöglicht es, das aktuelle Gerät
     hervorzuheben, siehe nächster Abschnitt.
@@ -760,20 +762,20 @@ Dies vereinfacht es zu sehen, welches Gerät man gerade steuert. Die
 anderen Geräte in der Auswahl werden gleichzeitig heruntergedimmt
 (\'Lowlight\').
 
--   Betätigen Sie die \<HiLight\>-Taste, um diese Funktion zu
+-   Betätigen Sie die <Keys.HardKey>HiLight</Keys.HardKey>-Taste, um diese Funktion zu
     aktivieren. Ein weiteres Betätigen der Taste schaltet die Funktion
     wieder aus. Ist der Highlight-Modus aktiv, so werden die davon
     betroffenen Attribute (z.B. der Dimmer) überschrieben und können
     nicht editiert oder gespeichert werden.
 
 -   Die für Highlight/Lowlight verwendeten Werte lassen sich ändern:
-    stellen Sie den gewünschten Wert ein, drücken Sie \<Record\>, dann
-    \<HiLight\>, und wählen dann \[Store Highlight State\] oder \[Store
+    stellen Sie den gewünschten Wert ein, drücken Sie <Keys.HardKey>Record</Keys.HardKey>, dann
+    <Keys.HardKey>HiLight</Keys.HardKey>, und wählen dann <Keys.SoftKey>Store Highlight State</Keys.SoftKey> oder \[Store
     Lowlight State\].
 
 ## Nicht ausgewählte Geräte ausblenden (Remainder Dim)
 
-Mit "Remainder Dim" (\<Rem Dim\> oder \<Avo\>+\<All\>) werden die nicht
+Mit "Remainder Dim" (<Keys.HardKey>Rem Dim</Keys.HardKey> oder <Keys.HardKey>Avo</Keys.HardKey>+<Keys.HardKey>All</Keys.HardKey>) werden die nicht
 angewählten Geräte ausgeblendet; dabei wird der Wert Intensity=0 in den
 Programmierspeicher geschrieben und entsprechend beim Speichern
 übernommen.
@@ -796,7 +798,7 @@ wird.
 1. Wählen Sie die anzugleichenden Geräte, entweder einzeln, oder unter
 Verwendung von Gruppen.
 
-2. Im Hauptmenü drücken Sie \<Fixture Tools\>/\<ML Menu\>, dann \[Align
+2. Im Hauptmenü drücken Sie <Keys.HardKey>Fixture Tools</Keys.HardKey>/<Keys.HardKey>ML Menu</Keys.HardKey>, dann \[Align
 Fixtures\].
 
 3. Wählen (maskieren) Sie die zu kopierenden Attribute (mittels der
@@ -806,33 +808,33 @@ ein- oder auszuschließen)
 4. Betätigen Sie die Auswahltaste des Gerätes bzw. der Gruppe, von dem
 die Attribute übernommen werden sollen.
 
-5. Drücken Sie \[Align\]
+5. Drücken Sie <Keys.SoftKey>Align</Keys.SoftKey>
 
 Die Reihenfolge der Geräteauswahl bestimmt, wie die angeglichenen Werte
 übertragen werden:
 
--   Ist die Option \[Auto Reset Mask\] aktiviert, so wird die
+-   Ist die Option <Keys.SoftKey>Auto Reset Mask</Keys.SoftKey> aktiviert, so wird die
     Attributmaske stets auf \'Alle\' zurückgesetzt, sobald man das
-    Align-Menü aufruft. Mit \[Remember Mask\] dagegen wird die
+    Align-Menü aufruft. Mit <Keys.SoftKey>Remember Mask</Keys.SoftKey> dagegen wird die
     eingestellte Maske beibehalten.
 
--   Mit \[Spread Attributes\] werden Attributwerte gleichmäßig
+-   Mit <Keys.SoftKey>Spread Attributes</Keys.SoftKey> werden Attributwerte gleichmäßig
     aufgeteilt, wenn die Anzahl der anzugleichenden Geräte nicht mit der
-    Anzahl der \'Ziel\'-Geräte übereinstimmt. Mit \[Repeat Attributes\]
+    Anzahl der \'Ziel\'-Geräte übereinstimmt. Mit <Keys.SoftKey>Repeat Attributes</Keys.SoftKey>
     dagegen werden die exakten Werte mehrfach wiederholt.
 
--   Mit \[Align Programmer Attributes\] werden nur Attribute
+-   Mit <Keys.SoftKey>Align Programmer Attributes</Keys.SoftKey> werden nur Attribute
     angeglichen, die bereits im Programmer sind. Mit \[Align All
     Attributes\] dagegen werden sämtliche Attribute der Geräte
     angeglichen, sofern sie in der Maske angewählt sind. Hat man z.B.
     Tilt wie gewünscht eingestellt und im Programmer, so würden mit
-    \[Align Programmer Attributes\] alle anderen Geräte nur den
-    Tilt-Wert übernehmen, mit \[Align All Attributes\] aber auch den
+    <Keys.SoftKey>Align Programmer Attributes</Keys.SoftKey> alle anderen Geräte nur den
+    Tilt-Wert übernehmen, mit <Keys.SoftKey>Align All Attributes</Keys.SoftKey> aber auch den
     Pan-Wert.
 
--   Wählt man \[Palette References Maintained\], so werden Paletten auch
+-   Wählt man <Keys.SoftKey>Palette References Maintained</Keys.SoftKey>, so werden Paletten auch
     auf den Ziel-Geräten als Referenz auf die Palette gespeichert. Mit
-    \[Palette References Lost\] dagegen werden die Referenzen gelöscht
+    <Keys.SoftKey>Palette References Lost</Keys.SoftKey> dagegen werden die Referenzen gelöscht
     und nur feste Attributwerte gespeichert.
 
 -   Überschneiden sich die Geräte der Quell- und Zielauswahl, so ist es
@@ -850,7 +852,7 @@ schnell und einfach.
 
 1. Wählen Sie das zu bearbeitende Gerät.
 
-2. Im Hauptmenü drücken Sie \<ML Menu\>, danach C \[Flip Pan and
+2. Im Hauptmenü drücken Sie <Keys.HardKey>ML Menu</Keys.HardKey>, danach C \[Flip Pan and
 Tilt\].
 
 Auf der Positions-Seite des Attribut-Editors steht ebenfalls die
@@ -879,7 +881,7 @@ jedes Attribut angewendet werden.
 
 1. Wählen Sie die zu bearbeitenden Geräte.
 
-2. Drücken Sie die \<Fan\>-Taste.
+2. Drücken Sie die <Keys.HardKey>Fan</Keys.HardKey>-Taste.
 
 3. Wählen Sie das Attribut, auf das der Effekt angewendet werden soll,
 mit den Attribut-Tasten.
@@ -887,7 +889,7 @@ mit den Attribut-Tasten.
 4. Stellen Sie das gewünschte Maß von Spreizung mit den Rädern ein.
 
 5. Verlassen Sie den Fan-Modus wieder durch Betätigen der
-\<Fan\>-Taste. Werden andere Geräte angewählt, wird \'Fan\' automatisch beendet.
+<Keys.HardKey>Fan</Keys.HardKey>-Taste. Werden andere Geräte angewählt, wird \'Fan\' automatisch beendet.
 
 Haben Sie Geräte aus verschiedenen Gruppen ausgewählt, so können Sie
 wählen, ob die Gruppenaufteilung beim Fan beachtet werden soll oder
@@ -896,19 +898,19 @@ Stück aufgeteilt sind, so können Sie entweder eine gleichmäßige
 Verteilung auf alle 12 Geräte, oder ein Aufspreizen innerhalb jeder
 Gruppe erreichen.
 
-Während die \<Fan\>-Taste gedrückt gehalten wird, lassen sich im Menü
+Während die <Keys.HardKey>Fan</Keys.HardKey>-Taste gedrückt gehalten wird, lassen sich im Menü
 verschiedene Einstellungen vornehmen:
 
--   \[Ignore Groups\]: Sämtliche ausgewählten Geräte werden als eine
+-   <Keys.SoftKey>Ignore Groups</Keys.SoftKey>: Sämtliche ausgewählten Geräte werden als eine
     große Gruppe behandelt.
 
--   \[Fan Group as Fixture\]: alle Geräte innerhalb einer Gruppe werden
+-   <Keys.SoftKey>Fan Group as Fixture</Keys.SoftKey>: alle Geräte innerhalb einer Gruppe werden
     identisch behandelt.
 
--   \[Fan Within Groups\]: Die Fan-Aufspreizung erfolgt innerhalb jeder
+-   <Keys.SoftKey>Fan Within Groups</Keys.SoftKey>: Die Fan-Aufspreizung erfolgt innerhalb jeder
     einzelnen Gruppe.
 
-Ferner lässt sich bei gedrückter \<Fan\>-Taste die gewünschte Kurve
+Ferner lässt sich bei gedrückter <Keys.HardKey>Fan</Keys.HardKey>-Taste die gewünschte Kurve
 auswählen. Mit unterschiedlichen Kurven lassen sich unterschiedliche
 Effekte erzielen.
 
@@ -916,15 +918,15 @@ Für gute Ergebnisse sind mindestens 4 Geräte erforderlich. Bei einer
 ungeraden Anzahl von Geräten wird das mittlere Gerät im Fan-Modus nicht
 beeinflusst.
 
-Betätigen Sie die \<Fan\>-Taste, um den Fan-Modus zu verlassen.
+Betätigen Sie die <Keys.HardKey>Fan</Keys.HardKey>-Taste, um den Fan-Modus zu verlassen.
 Sämtliche Einstellungen verbleiben dabei im Programmierspeicher.
 
-> Es kann rasch passieren, dass der Fan-Modus versehentlich aktiviert bleibt, was zu der irrigen Annahme führen kann, dass die Räder nicht ordnungsgemäß funktionieren. Stellen Sie daher sicher, den Fan-Modus zu verlassen, wenn Sie mit den Einstellungen fertig sind. Um dies zu vermeiden, gibt es die [Benutzereinstellung](../system-settings/user-settings.md) \[Press and hold Fan\]. Ist diese aktiviert, muss die \<Fan\>-Taste gedrückt gehalten werden, um den Fan anzuwenden.
+> Es kann rasch passieren, dass der Fan-Modus versehentlich aktiviert bleibt, was zu der irrigen Annahme führen kann, dass die Räder nicht ordnungsgemäß funktionieren. Stellen Sie daher sicher, den Fan-Modus zu verlassen, wenn Sie mit den Einstellungen fertig sind. Um dies zu vermeiden, gibt es die [Benutzereinstellung](../system-settings/user-settings.md) <Keys.SoftKey>Press and hold Fan</Keys.SoftKey>. Ist diese aktiviert, muss die <Keys.HardKey>Fan</Keys.HardKey>-Taste gedrückt gehalten werden, um den Fan anzuwenden.
 
 ### Fan-Kurven
 
 Es lassen sich verschiedene Kurven definieren, die die Fan-Funktion
-beeinflussen. Halten Sie dazu \<Fan\> gedrückt und wählen \[Curve\]. Es
+beeinflussen. Halten Sie dazu <Keys.HardKey>Fan</Keys.HardKey> gedrückt und wählen <Keys.SoftKey>Curve</Keys.SoftKey>. Es
 stehen folgende Auswahlmöglichkeiten zur Verfügung:
 
 -   Line: der gewohnte Fan, das erste und letzte Gerät werden am
@@ -963,7 +965,7 @@ stehen folgende Auswahlmöglichkeiten zur Verfügung:
 ### Fan-Teile
 
 Die Fan-Funktion, d.h. das Auffächern der Veränderung, lässt sich auch
-gruppieren. Wählen Sie dazu die gewünschten Geräte aus, halten \<Fan\>
+gruppieren. Wählen Sie dazu die gewünschten Geräte aus, halten <Keys.HardKey>Fan</Keys.HardKey>
 gedrückt, und geben die Anzahl der gewünschten Gruppen mit den
 Zifferntasten ein:
 
@@ -984,39 +986,39 @@ sind auch die Zeiten Bestandteil des Cues.
 
 Zeiten lassen sich auf mehrere Arten einstellen:
 
--   Mit der Funktionstaste \[Wheels=\] im Hauptmenü lassen sich die
+-   Mit der Funktionstaste <Keys.SoftKey>Wheels=</Keys.SoftKey> im Hauptmenü lassen sich die
     Räder in die entsprechende Betriebsart schalten, und man kann Zeiten
     mit den Rädern einstellen.
 
 -   Individuelle Zeiten lassen sich auch mit den @-Tasten und der Taste
-    \<TIME\> vorgeben.
+    <Keys.HardKey>TIME</Keys.HardKey> vorgeben.
 
--   Ebenso kann man auch die Geräte auswählen und mit der \<TIME\>-Taste
+-   Ebenso kann man auch die Geräte auswählen und mit der <Keys.HardKey>TIME</Keys.HardKey>-Taste
     in den jeweiligen Untermenüs individuelle Zeiten einstellen.
 
 -   Schließlich gibt es auch eine Syntax, um Zeiten per Tastatur
     einzustellen. So setzt z.B. die Tastenfolge\
-    \<TIME\> \<FIXTURE\> \<Position\> 5 \<@\> 3 
+    <Keys.HardKey>TIME</Keys.HardKey> <Keys.HardKey>FIXTURE</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> 5 <Keys.HardKey>@</Keys.HardKey> 3 
     5s Fadezeit, 3s Delayzeit für die Positionsattribute der gerade
     ausgewählten Geräte. Die @-Tasten lassen sich auch in der
-    Tastatursyntax verwenden, und mittels \<THRO\> ergeben sich auch
+    Tastatursyntax verwenden, und mittels <Keys.HardKey>THRO</Keys.HardKey> ergeben sich auch
     Optionen zum Auffächern.
 
 Wird für ein Attribut eine Zeit vergeben, so wird dieses Attribut
 als \'im Programmierspeicher\' angezeigt.
 
 In der Kanalübersicht (Channel Grid) gibt es eine
-Kontext-Schaltfläche \[Times\], damit lassen sich alle momentan im
+Kontext-Schaltfläche <Keys.SoftKey>Times</Keys.SoftKey>, damit lassen sich alle momentan im
 Programmierspeicher befindlichen Zeiten anzeigen und editieren. Mit
 Off können die Zeiten temporär deaktiviert und mit Off wieder
 aktiviert werden.
 
 Zeiten können auch getestet werden: dazu dient die Kombination
-\<Avo\>+\<TIME\>, oder Sie drücken zweimal die Taste \<TIME\>.
+<Keys.HardKey>Avo</Keys.HardKey>+<Keys.HardKey>TIME</Keys.HardKey>, oder Sie drücken zweimal die Taste <Keys.HardKey>TIME</Keys.HardKey>.
 
-Auf früheren Konsolen liegt die Funktion der Taste \<TIME\> entweder
-auf der Taste \<SET\> (Titan Mobile/Sapphire Touch) oder auf der
-Taste \<NEXT TIME\> (Tiger Touch/Pearl Expert).
+Auf früheren Konsolen liegt die Funktion der Taste <Keys.HardKey>TIME</Keys.HardKey> entweder
+auf der Taste <Keys.HardKey>SET</Keys.HardKey> (Titan Mobile/Sapphire Touch) oder auf der
+Taste <Keys.HardKey>NEXT TIME</Keys.HardKey> (Tiger Touch/Pearl Expert).
 
 ## Attribute mit "Off" deaktivieren
 
@@ -1026,14 +1028,14 @@ Wert versehentlich editiert (und in den Programmer gebracht) und soll
 aber nicht gespeichert werden, so kann er mittels Off deaktiviert
 werden.
 
-1. Drücken Sie die Taste \<Off\>, um das Off-Menü zu öffnen.
+1. Drücken Sie die Taste <Keys.HardKey>Off</Keys.HardKey>, um das Off-Menü zu öffnen.
 
 2. Wählen Sie die Attribut-Bänke, um die entsprechenden Attribute zu
-deaktivieren. Drücken Sie dann auf \[Attributes Off\].
+deaktivieren. Drücken Sie dann auf <Keys.SoftKey>Attributes Off</Keys.SoftKey>.
 
 3. Mit den Menütasten lassen sich auch einzelne Attribute Off schalten,
-z.B. mit \[Dimmer Off\].
+z.B. mit <Keys.SoftKey>Dimmer Off</Keys.SoftKey>.
 
 
 -   Um komplette Geräte im Programmer zu deaktivieren, wählen Sie diese
-    an, drücken \<Off\> und dann \[Selected Fixtures Off\].
+    an, drücken <Keys.HardKey>Off</Keys.HardKey> und dann <Keys.SoftKey>Selected Fixtures Off</Keys.SoftKey>.

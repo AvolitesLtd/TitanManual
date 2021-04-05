@@ -5,6 +5,8 @@ sidebar_label: Pixel Mapper
 original_id: pixel-mapper
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Creating Pixel Mapper effects
 -----------------------------
 
@@ -23,10 +25,10 @@ You create effects with the Pixel Mapper as follows:
 
 1. Select the group of fixtures
 
-2. From the top level menu select \[Shapes and Effects\] then \[Pixel
+2. From the top level menu select <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then \[Pixel
 Mapper\]
 
-3. Select \[Create effect\]. The Pixel Mapper Editor will open with a
+3. Select <Keys.SoftKey>Create effect</Keys.SoftKey>. The Pixel Mapper Editor will open with a
 blank background. You can overlay your fixture layout on the window, to
 help you see where your fixtures are, by clicking on the \[Fixture
 Overlay 50/50\] context menu button.
@@ -35,9 +37,9 @@ Overlay 50/50\] context menu button.
 
 ### Elements
 
-Click on the \{+\} button at the bottom to add an effect, and choose a
+Click on the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom to add an effect, and choose a
 graphic element. You can **remove** elements by selecting them and clicking
-on the \{Rubbish Bin\} button. The graphic buttons as shown below provide
+on the <Keys.ContextKey>Rubbish Bin</Keys.ContextKey> button. The graphic buttons as shown below provide
 the following elements to animate:
 
 -   Square
@@ -79,7 +81,7 @@ which will vary depending on the shape but may include:
 ### Animations
 
 Then with the graphic element selected on the left hand side, click on
-the \{+\} button again and choose an **Animation** (how your graphic element
+the <Keys.ContextKey>+</Keys.ContextKey> button again and choose an **Animation** (how your graphic element
 will move or change) or **Visual Effect** (which change the appearance of the element).
 The animated effect will show in the black window
 and be output to the fixtures You can add multiple animations which will
@@ -157,7 +159,7 @@ Some points about animations:
 
 If you don't have fixtures connected, you can see how the effect will
 look on the fixtures using the Pixel Mapper preview window - open it by
-double pressing \<View/Open\> then press \[Pixel Mapper
+double pressing <Keys.HardKey>View/Open</Keys.HardKey> then press \[Pixel Mapper
 Preview\] from the window select buttons. A real life view of each effect currently running is shown in
 a button at the bottom of the screen, you can select each of these by
 pressing the button.
@@ -221,8 +223,8 @@ Pixel Mapper Layer Masters
 
 You can assign each of the four layers to a master. The master allows
 you to adjust the layer controls in real time. When the master is
-assigned to a fader handle using \<Record\>, \[Create Master\], \[Pixel Mapper\],
-selecting \[Layer 1\] through \[Layer 4\] and finally pressing a handle select key,
+assigned to a fader handle using <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Create Master</Keys.SoftKey>, <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>,
+selecting <Keys.SoftKey>Layer 1</Keys.SoftKey> through <Keys.SoftKey>Layer 4</Keys.SoftKey> and finally pressing a handle select key,
 the fader will control opacity of the layer.
 
 This means you can create cues and palettes which can manipulate the
@@ -243,16 +245,16 @@ effect on all fixtures or on a group of fixtures.
 
 To create a Mask Effect:
 
-1.	Press \[Mask FX\] on the Shapes and Effects menu.
+1.	Press <Keys.SoftKey>Mask FX</Keys.SoftKey> on the Shapes and Effects menu.
 
 2.	If no fixtures are selected the mask will apply to all fixtures. If some fixtures are selected the mask will only apply to those fixtures.
 
-3.	Press \[Create Mask Pixel Map\]. (The \[Create Mask FX\] button will mask both shapes and pixel map effects.)
+3.	Press <Keys.SoftKey>Create Mask Pixel Map</Keys.SoftKey>. (The <Keys.SoftKey>Create Mask FX</Keys.SoftKey> button will mask both shapes and pixel map effects.)
 
 4.	You should see the mask taking effect on the output - if you store it in a playback, the playback
 	will stop all pixel map effects while it is active (on the fixtures it was programmed for).
 	
-- The \[Clear mask from programmer\] button will remove any mask shapes or mask effects from the programmer for all fixtures.
+- The <Keys.SoftKey>Clear mask from programmer</Keys.SoftKey> button will remove any mask shapes or mask effects from the programmer for all fixtures.
 
 - This function replaces the **Block Effect** function of previous versions. Shows containing Block Effect from previous versions
   will load and work as expected, but they will be renamed "Mask".

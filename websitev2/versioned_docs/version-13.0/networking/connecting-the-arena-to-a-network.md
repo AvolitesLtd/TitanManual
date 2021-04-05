@@ -5,6 +5,8 @@ sidebar_label: Connecting the Arena to a network
 original_id: connecting-the-arena-to-a-network
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The Arena console is different to the other Titan consoles because it
 has a built-in network switch and an optical network connection
 (optionally 2 optical connections). **This section applies only to the

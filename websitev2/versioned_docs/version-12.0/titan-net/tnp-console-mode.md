@@ -5,6 +5,8 @@ sidebar_label: TNP Console Mode
 original_id: tnp-console-mode
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 TNP console mode allows you to use a TNP to run an unattended show, or
 to act as an emergency backup. You can create a show on a full console
 then load it into the TNP for operation, or you can connect a console in

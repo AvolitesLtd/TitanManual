@@ -5,6 +5,8 @@ sidebar_label: Setting up Synergy
 original_id: setting-up
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Connecting up
 -------------
 
@@ -70,7 +72,7 @@ show options on the right for the surface. These options allow you to
 set the canvas resolution which can either be picked from a list of
 common resolutions, or entered numerically; at the top right the display
 halo colour of the surface can be set, and the pencil button allows you
-to change the name (you can also do this with the \[Set Legend\]
+to change the name (you can also do this with the <Keys.SoftKey>Set Legend</Keys.SoftKey>
 button).
 
 Clicking on a Layer within a Surface shows layer options on the right.
@@ -110,7 +112,7 @@ To add a layer, click on the surface, then the **+** button at the bottom
 and select **Layer** from the popup.
 
 To delete a layer or surface, select the item then click the **Trash Can**
-icon at the bottom, or press \<Delete\> then click the layer/surface. If
+icon at the bottom, or press <Keys.HardKey>Delete</Keys.HardKey> then click the layer/surface. If
 linked to Ai, this will also delete the layer/surface in Ai.
 
 Synergy Fixtures Window
@@ -118,7 +120,7 @@ Synergy Fixtures Window
 
 Every layer on the Ai server appears as a button in the Synergy Fixtures
 window. You can display this using the button at the bottom of the
-[Synergy Settings window](#synergy-setup) or from \[Open Workspace Windows\].
+[Synergy Settings window](#synergy-setup) or from <Keys.SoftKey>Open Workspace Windows</Keys.SoftKey>.
 
 ![Synergy Fixtures Workspace Window](/docs/images/Synergy-Fixtures-Workspace-Window.png)
 

@@ -5,6 +5,8 @@ sidebar_label: DMX Output Mapping
 original_id: dmx-output-mapping
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Geräte lassen sich auf verschiedene Weise mit dem Pult verbinden. Neben
 den vorhandenen DMX-Buchsen können die Geräte auch [per Netzwerk (Art-Net
 sowie sACN)](../networking/controlling-fixtures-over-a-network.md) 
@@ -26,7 +28,7 @@ Einrichten der DMX-Ausgänge
 ---------------------------
 
 Öffnen Sie das [System-Menü](the-system-menu.md) (normalerweise mit
-\<Avo\> + \<Disk\>) und wählen \[DMX Settings\].
+<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) und wählen <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
 
 Das DMX-Fenster öffnet sich nun zunächst auf dem Tab mit dem Node
 (Knoten), den das Pult selbst darstellt. Es zeigt die vorhandenen
@@ -52,22 +54,22 @@ zugewiesenen DMX-Linie.
 ![Node in DMX Settings Window](/docs/images/Node-in-DMX-Settings-Window.png)
 
 Zum Löschen einer Zuordnung dienen die individuellen oder gruppenweisen
-\{X\}-Schaltflächen: pro Node, pro Linie, sowie ganz oben bei **Dmx Lines** für
+<Keys.ContextKey>X</Keys.ContextKey>-Schaltflächen: pro Node, pro Linie, sowie ganz oben bei **Dmx Lines** für
 sämtliche DMX-Ausgänge.
 
 Um die Zuordnung zu ändern, also etwa einen Node einer anderen Linie 
-zuzuweisen, muss dieser zunächst mit dem \{X\} von der aktuellen Linie 
+zuzuweisen, muss dieser zunächst mit dem <Keys.ContextKey>X</Keys.ContextKey> von der aktuellen Linie 
 gelöscht werden, erscheint daraufhin wieder links als nicht zugewiesen, und
 kann nun einer anderen Linie zugeordnet werden.
 
 Beim Patchen von Art-Net- und sACN-Nodes können mehrere Universen/Linien
 auf einmal zugeordnet werden. Wählen Sie dazu links den ersten Node, der 
-verwendet werden soll, geben dann mit den Menütasten \[Universe\] (das 
-erste Universum) sowie \[Quantity\] (Anzahl) ein, und klicken auf die 
+verwendet werden soll, geben dann mit den Menütasten <Keys.SoftKey>Universe</Keys.SoftKey> (das 
+erste Universum) sowie <Keys.SoftKey>Quantity</Keys.SoftKey> (Anzahl) ein, und klicken auf die 
 gewünschte erste Linie. Daraufhin wird die gewünschte Anzahl von Universen
 auf fortlaufende Linien zugewiesen.
 
-Mit dem kleinen \{Zahnrad\} können weitere Details und Einstellungen pro
+Mit dem kleinen <Keys.ContextKey>Zahnrad</Keys.ContextKey> können weitere Details und Einstellungen pro
 Knoten (sobald er zugewiesen ist) sowie pro DMX-Modul aufgerufen werden. 
 Hiermit lassen sich auch für Netzwerk-Knoten die Adresse und Subnetz-Maske
 eingeben.
@@ -91,9 +93,9 @@ Als Modul wird hier die Art der Ausgabe des DMX-Signals bezeichnet, also
 z.B. Art-Net oder sACN - jedes Modul kann mehrere Nodes haben.
 
 Zum genauen Einstellen der DMX-Ausgängen sowie der Art-Net- und 
-sACN-Optionen öffnen Sie die DMX-Einstellungen (also \<Avo\> + \<Disk\> 
-zum Öffnen des [System-Menüs](the-system-menu.md), dann \[DMX Settings\]), 
-und klicken links auf das kleine \{Zahnrad\} neben dem betreffenden Modulnamen.
+sACN-Optionen öffnen Sie die DMX-Einstellungen (also <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey> 
+zum Öffnen des [System-Menüs](the-system-menu.md), dann <Keys.SoftKey>DMX Settings</Keys.SoftKey>), 
+und klicken links auf das kleine <Keys.ContextKey>Zahnrad</Keys.ContextKey> neben dem betreffenden Modulnamen.
 
 Damit lassen sich pro Modul spezifische Einstellungen vornehmen und auch
 bestimmen, über welchen Netzwerkanschluss welches Protokoll ausgegeben
@@ -222,10 +224,10 @@ mehreren Pulten oder Netzwerkknoten das Signal ausgegeben werden soll.
 
 ![DMX Merge Window](/docs/images/DMX-Merge-Window.png)
 
-Zum Einrichten eines Ausgangs klicken Sie auf \[Patch Titan Lines\],
+Zum Einrichten eines Ausgangs klicken Sie auf <Keys.SoftKey>Patch Titan Lines</Keys.SoftKey>,
 geben die Nummer des Universums an und klicken auf den gewünschten Port.
 
-Um eine Zuweisung zu löschen, klicken Sie auf \[Clear sACN Merge\] und
+Um eine Zuweisung zu löschen, klicken Sie auf <Keys.SoftKey>Clear sACN Merge</Keys.SoftKey> und
 dann auf den gewünschten Port.
 
 Mit dem Schalter 'DMX Output' oben rechts können sämtliche DMX-Ausgänge

@@ -21,7 +21,7 @@ Programmierablauf.
 verschiedener Steuerungsoptionen. Im Display wird direkt neben jedem
 Taster die jeweilige Funktion angezeigt, abhängig vom jeweiligen Status
 des Pultes. Befehle dieser Taster sind in diesem Handbuch blau dargestellt, 
-z.B. \[Edit Times\]
+z.B. <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 \(D\) Die **Playbacks** dienen zum Speichern und Abrufen von Cues (Szenen) und
 Chasern/Cuelisten (Szenensequenzen). Mit den \(E\) **Seitenwechseltasten** kann

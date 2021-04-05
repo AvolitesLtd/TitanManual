@@ -5,6 +5,8 @@ sidebar_label: Fixture Groups
 original_id: fixture-groups
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Verwenden von Geräte-Gruppen
 ----------------------------
 
@@ -31,28 +33,28 @@ wählen.
 [](https://youtu.be/E8QxOKT5TCA?t=20 "Recording Groups")
 
 Wird das Gruppen-Fenster nicht angezeigt so lässt es sich mit \<View /
-Open\>, \<Groups\> aufrufen.
+Open\>, <Keys.HardKey>Groups</Keys.HardKey> aufrufen.
 
 1. Wählen Sie die Geräte aus, die Sie zu einer Gruppe zusammen­fassen
 wollen (auch die Reihenfolge der Auswahl wird in der Gruppe
 gespeichert).
 
-2. Drücken Sie die graue Taste \<Group\> (rechts oberhalb des
-Ziffernblocks), dann \[Record Group\]. Ebenso können Sie \<Record\>,
-\<Group\> drücken.
+2. Drücken Sie die graue Taste <Keys.HardKey>Group</Keys.HardKey> (rechts oberhalb des
+Ziffernblocks), dann <Keys.SoftKey>Record Group</Keys.SoftKey>. Ebenso können Sie <Keys.HardKey>Record</Keys.HardKey>,
+<Keys.HardKey>Group</Keys.HardKey> drücken.
 
 3. Benutzen Sie die Menütaste A, um die Gruppe mit einer Nummer zu
-versehen, oder B \[Provide a legend\], um eine Bezeichnung zu vergeben.
+versehen, oder B <Keys.SoftKey>Provide a legend</Keys.SoftKey>, um eine Bezeichnung zu vergeben.
 
 4. Betätigen Sie eine freie Gruppen-Schaltfläche oder eine blaue
 Playback-Taste oder eine Macro/Executor-Taste, um die Gruppe zu
-speichern, oder drücken Sie C \[Store\], um die Gruppe als nummerierte
+speichern, oder drücken Sie C <Keys.SoftKey>Store</Keys.SoftKey>, um die Gruppe als nummerierte
 Gruppe zu speichern.
 
-5. Drücken Sie \<Clear\>, und wiederholen Sie die Schritte für weitere
+5. Drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, und wiederholen Sie die Schritte für weitere
 Gruppen.
 
--   Ebenso kommt man mit \<AVO\>+\<Group\> direkt in das 'Record
+-   Ebenso kommt man mit <Keys.HardKey>AVO</Keys.HardKey>+<Keys.HardKey>Group</Keys.HardKey> direkt in das 'Record
     Group'-Menü (um Gruppen zu speichern). Oder Sie klicken zweimal auf
     eine freie Gruppen-Schaltfläche, um die Schnellspeicher­funktion zu
     nutzen: beim ersten Klick wird die Schaltfläche rot mit einem +,
@@ -77,21 +79,21 @@ Gruppen.
 
 -   Gruppen lassen sich auch anhand ihrer Nummer aufrufen:
 
-1. Drücken Sie die graue \<Group\>-Taste.
+1. Drücken Sie die graue <Keys.HardKey>Group</Keys.HardKey>-Taste.
 
 2. Tippen Sie die Nummer der auszuwählenden Gruppe ein.
 
-3. Drücken Sie \[Recall Group\].
+3. Drücken Sie <Keys.SoftKey>Recall Group</Keys.SoftKey>.
 
--   Beim Betätigen der \<Group\>-Taste ergeben sich auf den Menütasten
+-   Beim Betätigen der <Keys.HardKey>Group</Keys.HardKey>-Taste ergeben sich auf den Menütasten
     Optionen zum Ändern und Löschen von Gruppen.
 
--   Mittels \<Select If\> lassen sich auch Gerätegruppen aus einer
+-   Mittels <Keys.HardKey>Select If</Keys.HardKey> lassen sich auch Gerätegruppen aus einer
     Selektion wieder abwählen. Damit lässt sich z.B. eine Teilmenge von
     Geräten aus einer größeren Gruppe wieder abwählen. Hat man z.B. eine
     Gruppe von Geräten am Rand einer 5x5-Matrix sowie eine andere
     Gruppe, die nur die ungeraden Geräte der Matrix enthält, so kann man
-    nun zuerst die Gruppe ‚Rand' auswählen, dann \<Select If\> drücken
+    nun zuerst die Gruppe ‚Rand' auswählen, dann <Keys.HardKey>Select If</Keys.HardKey> drücken
     und die Gruppe ‚Ungerade' wählen -- daraufhin werden die ungeraden
     Geräte am Rand ausgewählt.
 
@@ -99,7 +101,7 @@ Gruppen.
 
 Um Geräte aus Gruppen zu löschen:
 
-1.  Drücken Sie die graue \<Group\>-Taste.
+1.  Drücken Sie die graue <Keys.HardKey>Group</Keys.HardKey>-Taste.
 
 2.  Klicken Sie die gewünschte Gruppe an. Darauf werden alle enthaltenen
     Geräte angewählt.
@@ -107,7 +109,7 @@ Um Geräte aus Gruppen zu löschen:
 3.  Klicken Sie die Geräte an, die entfernt werden sollen, um sie
     abzuwählen.
 
-4.  Verlassen Sie das Menü mit \<Exit\>.
+4.  Verlassen Sie das Menü mit <Keys.HardKey>Exit</Keys.HardKey>.
 
 Die Gruppe enthält nun nur die Geräte, die am Schluss noch ausgewählt
 waren.
@@ -116,10 +118,10 @@ waren.
 
 Beim Patchen mehrerer Geräte werden diese automatisch zu Gruppen
 zusammengefasst. So werden Gruppen pro Gerätetyp erstellt, die alle
-Geräte dieses Typs enthalten (z.B. \[All Robe Pointe\]). Eine weitere
+Geräte dieses Typs enthalten (z.B. <Keys.SoftKey>All Robe Pointe</Keys.SoftKey>). Eine weitere
 Gruppe wird pro Patchvorgang erstellt, wenn mehrere Geräte gepatcht
-werden, z.B. \[4 BB4\]. Diese Funktion kann mit der Benutzereinstellung
-\[Auto Groups\] deaktiviert werden.
+werden, z.B. <Keys.SoftKey>4 BB4</Keys.SoftKey>. Diese Funktion kann mit der Benutzereinstellung
+<Keys.SoftKey>Auto Groups</Keys.SoftKey> deaktiviert werden.
 
 -	Automatisch erzeugte 'All'-Gruppen können nicht gelöscht werden;
 	stattdessen werden Sie in die Show Library verschoben. Das passiert 
@@ -142,18 +144,18 @@ Auswahl nach Muster zu verwenden.
 
 Zum Ändern der numerischen Geräte-Reihenfolge:
 
-1.  Drücken Sie die Taste \<Group\>.
+1.  Drücken Sie die Taste <Keys.HardKey>Group</Keys.HardKey>.
 
 2.  Wählen Sie die Gruppe aus, die Sie editieren möchten.
 
-3.  Drücken Sie \[Fixture Order\].
+3.  Drücken Sie <Keys.SoftKey>Fixture Order</Keys.SoftKey>.
 
 Im Geräte-Fenster werden nun Zahlen für die einzelnen Geräte
 eingeblendet.
 
 ![Fixture Order](/docs/images/Fixture-Order.png)
 
-Um die Reihenfolge zu ändern, schalten Sie \[Auto Increment\] auf On,
+Um die Reihenfolge zu ändern, schalten Sie <Keys.SoftKey>Auto Increment</Keys.SoftKey> auf On,
 und klicken dann in der gewünschten Reihenfolge auf die Geräte. Wird
 doppelt auf ein Gerät geklickt, so wird mit einem X angezeigt, dass es
 nicht Teil der Reihenfolge ist.
@@ -164,11 +166,11 @@ nicht Teil der Reihenfolge ist.
 
 Zum Ändern der 2D-Geräte-Anordnung:
 
-1.  Drücken Sie die Taste \<Group\>.
+1.  Drücken Sie die Taste <Keys.HardKey>Group</Keys.HardKey>.
 
 2.  Wählen Sie die Gruppe aus, die Sie editieren möchten.
 
-3.  Drücken Sie \[Edit Layout\]. Das Fenster 'Layout Editor' öffnet
+3.  Drücken Sie <Keys.SoftKey>Edit Layout</Keys.SoftKey>. Das Fenster 'Layout Editor' öffnet
 sich.
 
 Zunächst sind alle Geräte in einer Zeile nebeneinander angeordnet. Die
@@ -182,7 +184,7 @@ Geräte mit mehreren Zellen werden mit allen Zellen dargestellt, können
 im Layout jedoch nur als ganzes verschoben und rotiert werden. Das
 Layout der Zellen wird in der jeweiligen Personality festgelegt.
 
-Mit \[Arrange Fixtures\] werden die Geräte automatisch in einem Rechteck
+Mit <Keys.SoftKey>Arrange Fixtures</Keys.SoftKey> werden die Geräte automatisch in einem Rechteck
 entsprechend den Vorgaben für Rows (Zeilen, Höhe) und Columns (Spalten,
 Breite) angeordnet.
 
@@ -198,9 +200,9 @@ Breite) angeordnet.
 -   Wenn man versehentlich mehrere Geräte genau übereinander platziert
     hat, zieht man entweder das im Vordergrund auf eine andere Position,
     oder man wählt das verdeckte z.B. über die Zifferntasten oder mit
-    \<Fix+1\> aus und verschiebt es mithilfe der Räder.
+    <Keys.HardKey>Fix+1</Keys.HardKey> aus und verschiebt es mithilfe der Räder.
 
--   Mit der \<Fan\>-Funktion können Geräte gleichmäßig verteilt werden.
+-   Mit der <Keys.HardKey>Fan</Keys.HardKey>-Funktion können Geräte gleichmäßig verteilt werden.
 
 -   Um Geräte zu verschieben oder zu rotieren, klicken und ziehen Sie
     auf dem Display oder verwenden die Räder. Dazu kann man auch auf die
@@ -208,8 +210,8 @@ Breite) angeordnet.
     Werte zu ändern (+/- 1 px oder +/- 45°). Mit der @-Taste des
     jeweiligen Rades lässt sich auch der Wert numerisch eingeben.
 
--   Klickt man im Kontextbereich auf \[Position and Angle\], so wechselt
-    die Funktion zu \[Scale\], und die Zellen in den betroffenen geräten
+-   Klickt man im Kontextbereich auf <Keys.SoftKey>Position and Angle</Keys.SoftKey>, so wechselt
+    die Funktion zu <Keys.SoftKey>Scale</Keys.SoftKey>, und die Zellen in den betroffenen geräten
     lassen sich auffächern. Damit lassen sich z.B. die Zellgrößen bzw.
     Abstände unterschiedlicher Gerätetypen angleichen.\
 
@@ -221,4 +223,4 @@ Breite) angeordnet.
     zum [Pixel Mapper ](../effects/pixel-mapper.md). Es gibt außerdem
     spezielle Funktionen zur Verwendung des Layouts mit [Ai/Synergy](../synergy/operating-synergy.md#verwendung-des-layout-editors-mit-ai).
 
-> Um die enthaltenen Geräte vorübergehend in zufälliger Reihenfolge auszuwählen, halten Sie den Gruppen-Button gedrückt und wählen mit den Menütasten \[Random Order\].
+> Um die enthaltenen Geräte vorübergehend in zufälliger Reihenfolge auszuwählen, halten Sie den Gruppen-Button gedrückt und wählen mit den Menütasten <Keys.SoftKey>Random Order</Keys.SoftKey>.

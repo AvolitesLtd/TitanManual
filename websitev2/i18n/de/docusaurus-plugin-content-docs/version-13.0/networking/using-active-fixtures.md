@@ -5,6 +5,8 @@ sidebar_label: Using Active Fixtures with CITP
 original_id: using-active-fixtures
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 CITP ist ein Protokoll zur Kommunikation von Geräten miteinander. Es
 wird häufig benutzt, um etwa Thumbnails oder Informationen über
 vorhandene Layer von Medienservern an Lichtpulte zu übertragen. Damit
@@ -42,13 +44,13 @@ In diesem Beispiel wird ein Hippotizer mit einem Titan-Pult verbunden.
 	und überprüfen Sie, dass das eingestellte Universum mit den Einstellungen 
 	des Hippotizers übereinstimmt.
 
-8.	Schließen Sie das Fenster mit \<Exit\> und schalten Sie wieder in
+8.	Schließen Sie das Fenster mit <Keys.HardKey>Exit</Keys.HardKey> und schalten Sie wieder in
 	den Programmier-Modus.
 
 9.	Starten Sie die Pult-Software neu (Schließen und neu starten, oder
-	\[Tools\], \[Restart Software\]).
+	<Keys.SoftKey>Tools</Keys.SoftKey>, <Keys.SoftKey>Restart Software</Keys.SoftKey>).
 
-10.	Zum Patchen wählen Sie nun \<Patch\>, \[Active Fixtures\]. Nun
+10.	Zum Patchen wählen Sie nun <Keys.HardKey>Patch</Keys.HardKey>, <Keys.SoftKey>Active Fixtures</Keys.SoftKey>. Nun
 	taucht der Hippotizer als zu patchendes Gerät auf.
 
 11.	Wählen Sie diesen, und stellen Sie als DMX-Linie die in Schritt

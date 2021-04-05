@@ -5,6 +5,8 @@ sidebar_label: Diamond 9
 description: Diamond 9 - console design and features
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 ![Diamond9](/docs/images/Diamond-Main.png)
 
 The Diamond 9 has the following main control areas. There are two models, the 
@@ -46,7 +48,7 @@ of information screens such as intensity levels or DMX output levels.
 the console and shows you what is going on. This display contains touch
 buttons for the main menu which change depending on what the console
 is doing. Softkey commands are shown in the manual 
-like this: \[Edit Times\]
+like this: <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 ## Playbacks
 

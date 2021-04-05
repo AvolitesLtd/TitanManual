@@ -5,6 +5,8 @@ sidebar_label: Cues
 original_id: cues
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Nun haben Sie das gewünschte Licht auf der Bühne erstellt und möchten
 die Einstellung gern speichern und später wieder aufrufen. Dabei gibt es
 drei verschiedene grundsätzliche Speichermöglichkeiten:
@@ -17,7 +19,7 @@ Ausblenden versehen sein.
 automatisch abläuft.
 
 **Cueliste**: eine Folge mehrerer Cues oder Chaser, die durch getrennte
-Kommandos (\<Go\>-Taste) gesteuert wird.
+Kommandos (<Keys.HardKey>Go</Keys.HardKey>-Taste) gesteuert wird.
 
 [Chaser](chases.md) und [Cuelisten](cue-lists.md) werden in den separaten 
 Kapiteln behandelt.
@@ -27,7 +29,7 @@ können, werden **Playbacks** genannt. Dafür kommen in Frage:
 
 -   Playbacks mit **Fadern** (und zugehörigen Tasten). Dabei steuert der
     Fader normalerwiese die Helligkeit, kann aber auch andere Parameter
-    steuern (umzustellen in den [\[Options\]](cues/playback-options.md)).
+    steuern (umzustellen in den [<Keys.SoftKey>Options</Keys.SoftKey>](cues/playback-options.md)).
 	
 -   **Virtuelle Fader** im [Fenster 'Virtual Faders'](running-the-show/playback-controls.md#virtuelle-fader). Diese funktionieren
     genauso wie echte Fader.

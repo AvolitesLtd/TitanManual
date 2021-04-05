@@ -5,6 +5,8 @@ sidebar_label: Loading and saving shows
 original_id: loading-and-saving-shows
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Eine beliebige Anzahl von Shows lässt sich sowohl auf einem externen
 USB-Speicher als auch auf der internen Festplatte abspeichern. Außerdem
 führt das Pult regelmäßig eine automatische Sicherung durch (Autosave).
@@ -29,31 +31,31 @@ So kann man später zu einzelnen Versionen zurückkehren.
 
 Um die Show zu speichern, gehen Sie wie folgt vor:
 
-1.  Drücken Sie die Taste \<Disk\>.
+1.  Drücken Sie die Taste <Keys.HardKey>Disk</Keys.HardKey>.
 
-2.  Drücken Sie \[Save\].
+2.  Drücken Sie <Keys.SoftKey>Save</Keys.SoftKey>.
 
 3.  Wenn externer USB-Speicher angeschlossen ist, wählen Sie mit den
-Tasten zwischen \[Removable Disk\] (Wechseldatenträger, USB-Speicher)
-und \[Internal hard drive\](interne Festplatte).
+Tasten zwischen <Keys.SoftKey>Removable Disk</Keys.SoftKey> (Wechseldatenträger, USB-Speicher)
+und <Keys.SoftKey>Internal hard drive</Keys.SoftKey>(interne Festplatte).
 
 4.  Handelt es sich um eine neue Show, so vergeben Sie mit der Tastatur
 einen Namen für die Show. Ist es dagegen eine neue Version einer bereits
 existierenden Show, so können Sie einen Namenszusatz eingeben, um später
 die Version schneller wiederfinden zu können.
 
-5.  Klicken Sie \<Enter\> oder \[Save\] (oder \[Overwrite\], falls bereits
+5.  Klicken Sie <Keys.HardKey>Enter</Keys.HardKey> oder <Keys.SoftKey>Save</Keys.SoftKey> (oder <Keys.SoftKey>Overwrite</Keys.SoftKey>, falls bereits
 eine Show gleichen Namens existiert und überschrieben werden soll). Nun
 wird die Show gesichert.
 
-6.  Drücken Sie \<Exit\> oder \[OK\], um den Modus 'Disk' zu verlassen.
+6.  Drücken Sie <Keys.HardKey>Exit</Keys.HardKey> oder <Keys.SoftKey>OK</Keys.SoftKey>, um den Modus 'Disk' zu verlassen.
 
 ----
 
 -   Zum Speichern der Show unter einem neuen Namen wählen Sie die
-    Funktion \[Save As\].
+    Funktion <Keys.SoftKey>Save As</Keys.SoftKey>.
 
--   Zweimaliges Drücken der Taste \<Disk\> veranlasst ein Speichern der
+-   Zweimaliges Drücken der Taste <Keys.HardKey>Disk</Keys.HardKey> veranlasst ein Speichern der
     Show als Quicksave. Quicksaves werden im gleichen Verzeichnis wie
     die normal gesicherten Shows gespeichert.
 
@@ -73,8 +75,8 @@ Beim Einschalten/Starten wird automatisch die zuletzt geladene Show
 geladen.
 
 ![Show Browser](/docs/images/Show-Browser.png)
-Zum Laden einer anderen Show betätigen Sie die Taste \<Disk\> und wählen
-die Option \[Load Show\]. Darauf wird der Show-Browser angezeigt.
+Zum Laden einer anderen Show betätigen Sie die Taste <Keys.HardKey>Disk</Keys.HardKey> und wählen
+die Option <Keys.SoftKey>Load Show</Keys.SoftKey>. Darauf wird der Show-Browser angezeigt.
 
 Links oben kann man das zu verwendende Laufwerk wählen. Links unten
 lässt sich die Anzeige filtern, etwa um nur manuelle oder nur Autosaves
@@ -85,9 +87,9 @@ früheren Programmierstand wechseln.
 Ebenso lassen sich Shows auch über die Menütasten auswählen und
 laden:
 
-1.  Drücken Sie die blaue Taste \<Disk\>.
+1.  Drücken Sie die blaue Taste <Keys.HardKey>Disk</Keys.HardKey>.
 
-2.  Drücken Sie \[Load Show\].
+2.  Drücken Sie <Keys.SoftKey>Load Show</Keys.SoftKey>.
 
 3.  Wenn ein externer USB-Speicher angeschlossen ist, wählen Sie nun das
 Laufwerk, von dem die Show geladen werden soll.
@@ -100,7 +102,7 @@ Anfangsbuchstaben der gewünschten Show mit der Tastatur ein.
 5.  Gibt es mehrere Versionen der Show, so wählen Sie die gewünschte
 aus.
 
-6.  Drücken Sie auf \[Load Show\]. Beim Laden der Show wird der
+6.  Drücken Sie auf <Keys.SoftKey>Load Show</Keys.SoftKey>. Beim Laden der Show wird der
 Fortschritt für die einzelnen Elemente der Show angezeigt.
 
 7.  Nachdem die Show geladen ist, kehrt die Anzeige zum normalen
@@ -130,13 +132,13 @@ Tasten/Schaltflächen der neuen Show speichern und verwenden.
 
 ![Import](/docs/images/Import.png)
 
-1.  Drücken Sie die Taste \<Disk\>.
+1.  Drücken Sie die Taste <Keys.HardKey>Disk</Keys.HardKey>.
 
-2.  Klicken Sie \[Import Show\] (Das große Plus-Zeichen oben im Fenster
+2.  Klicken Sie <Keys.SoftKey>Import Show</Keys.SoftKey> (Das große Plus-Zeichen oben im Fenster
 Show-Verzeichnis ruft ebenfalls diese Funktion auf).
 
 3.  Darauf öffnet sich der Show-Browser. Wählen Sie die zu importierende
-Show aus und klicken Sie auf \[Load Show\].
+Show aus und klicken Sie auf <Keys.SoftKey>Load Show</Keys.SoftKey>.
 
 4.  Nun öffnet sich das Fenster Show-Verzeichnis (Show Library). Die
 aktuelle sowie die zu importierende Show haben jeweils Schaltflächen
@@ -166,7 +168,7 @@ Kategorien auswählen (z.B. Gruppen oder Paletten).
 Fenstern), auf die die importierten Teile gespeichert werden sollen.
 
 10.  Ist alles Gewünschte importiert, so beenden Sie den Vorgang mit
-\<Exit\>.
+<Keys.HardKey>Exit</Keys.HardKey>.
 
 ---
 
@@ -174,7 +176,7 @@ Fenstern), auf die die importierten Teile gespeichert werden sollen.
     anzuzeigenden Gerätetypen setzen, um die Suche zu vereinfachen.
 
 -   Wird der Show-Browser angezeigt, so kann man die Import-Funktion
-    direkt über einen Klick auf das \[+\] (Pluszeichen) aufrufen.
+    direkt über einen Klick auf das <Keys.SoftKey>+</Keys.SoftKey> (Pluszeichen) aufrufen.
 
 -   Weitere Informationen zum Show-Verzeichnis siehe [Show Library](./show-library.md).
 
@@ -188,8 +190,8 @@ gespeichert. Ebenso erfolgt alle 30 Minuten eine automatische
 Speicherung etwa für den Fall eines plötzlichen Stromausfalls.
 
 Die Häufigkeit des automatischen Speicherns lässt sich ändern bzw. die
-Funktion ganz abschalten. Dazu wählt man die Option \[Auto Save\] aus
-dem 'Disk'-Menü (blaue Taste \<Disk\>). Autosaves lassen sich wie
+Funktion ganz abschalten. Dazu wählt man die Option <Keys.SoftKey>Auto Save</Keys.SoftKey> aus
+dem 'Disk'-Menü (blaue Taste <Keys.HardKey>Disk</Keys.HardKey>). Autosaves lassen sich wie
 anderweitig gespeicherte Shows im Show-Browser auswählen und aufrufen.
 
 > Früher gab es bei langsamer Hardware die Empfehlung, während der Show Autosave zu deaktivieren, damit es nicht zu Performance-Einbußen kam. Auf aktuellen Pulten und guter Hardware gilt dies nicht mehr: lassen Sie Autosave daher aus Sicherheitsgründenaktiviert.

@@ -5,6 +5,8 @@ sidebar_label: Introduction to Avolites Titan
 original_id: introduction
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Herzlich willkommen in der Welt von Avolites Titan! Dieses Handbuch soll
 Ihnen alles Wissenswerte über Ihr Titan-Pult vermitteln (was eine ganze
 Menge ist).
@@ -43,9 +45,9 @@ Wo es möglich ist, wird zu anderen Kapitel mit genaueren Beschreibungen
 
 Um die Unterscheidung zwischen den fixen, fest beschrifteten Tasten und
 den variablen Menütasten zu erleichtern, werden verschiedene Symbole benutzt:
--	'Richtige' Tasten werden \<so\> dargestellt, z.B. \<Avo\>.
-- 	Menütasten/Buttons werden \[so\] gezeigt , etwa \[Edit Times\]. 
--	Kontext-Buttons werden schließlich \{so\} dargestellt, z.B. \{Open Settings\}.
+-	'Richtige' Tasten werden <Keys.HardKey>so</Keys.HardKey> dargestellt, z.B. <Keys.HardKey>Avo</Keys.HardKey>.
+- 	Menütasten/Buttons werden <Keys.SoftKey>so</Keys.SoftKey> gezeigt , etwa <Keys.SoftKey>Edit Times</Keys.SoftKey>. 
+-	Kontext-Buttons werden schließlich <Keys.ContextKey>so</Keys.ContextKey> dargestellt, z.B. <Keys.ContextKey>Open Settings</Keys.ContextKey>.
 
 Schrittweise Anleitungen werden Punkt für Punkt aufgeführt, etwa so:
 

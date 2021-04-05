@@ -5,6 +5,8 @@ sidebar_label: TNP (Titan Net Processor)
 original_id: tnp
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 ![TNP](/docs/images/TNP.png)
 
 Der TitanNet Prozessor ist nichts anderes als die Elektronik eines

@@ -5,6 +5,8 @@ sidebar_label: Controlling Fixtures over a Network
 original_id: controlling-fixtures-over-a-network
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Bevor das Pult mit anderen Geräten über ein Netzwerk kommunizieren kann,
 muss es eine eindeutige Netzwerkadresse bekommen; diese wird
 'IP-Adresse' genannt.
@@ -17,26 +19,26 @@ verwenden. Alternativ kann aber auch manuell eine Adresse vergeben werden.
 Siehe [Einstellen der IP-Adresse](a-quick-guide-to-ip-addressing.md#einstellen-der-ip-adresse) mit
 Details zur IP-Adressierung.
 
-1. 	Öffnen Sie das System-Menü (mittels \<Avo\> + \<Disk\>)
-	und drücken Sie	\[Network Settings\].
+1. 	Öffnen Sie das System-Menü (mittels <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>)
+	und drücken Sie	<Keys.SoftKey>Network Settings</Keys.SoftKey>.
 
-2.	Drücken Sie \[Local Area Connection\]. Manche Pult verfügen über mehrere
+2.	Drücken Sie <Keys.SoftKey>Local Area Connection</Keys.SoftKey>. Manche Pult verfügen über mehrere
 	Netzwerkanschlüsse - wählen Sie also hier den betreffenden aus.
 
-3.	Überprüfen Sie, dass \[Subnet Mask\] auf `255.255.255.0` steht.
+3.	Überprüfen Sie, dass <Keys.SoftKey>Subnet Mask</Keys.SoftKey> auf `255.255.255.0` steht.
 
-4.	Drücken Sie \[Set IP `2.*.*.*`\].
+4.	Drücken Sie <Keys.SoftKey>Set IP `2.*.*.*`</Keys.SoftKey>.
 
-5.	Betätigen Sie \[Save settings\].
+5.	Betätigen Sie <Keys.SoftKey>Save settings</Keys.SoftKey>.
 
-6.	Verlassen Sie das System-Menü mit \<Exit\>.
+6.	Verlassen Sie das System-Menü mit <Keys.HardKey>Exit</Keys.HardKey>.
 
 - 	Einige Geräte haben möglicherweise feste IP-Adressen aus dem
 	Bereich `2.*.*.*` oder `10.*.*.*` - in diesem Fall muss auch die Adresse
 	des Pultes in diesem Bereich liegen.
 
 -   Benötigen Sie eine Adresse aus einem anderen Adressbereich, so drücken
-	Sie auf \[IP Address = ... \] und geben die Adresse mit den Zifferntasten ein.
+	Sie auf <Keys.SoftKey>IP Address = ... </Keys.SoftKey> und geben die Adresse mit den Zifferntasten ein.
 
 Einrichten der DMX-Ausgänge
 ---------------------------
@@ -110,7 +112,7 @@ Beim Patchen in Titan geben Sie nun dem Dimmer die Adresse 1.001 - 1.024. Gerät
 auf der ersten Linie des Nodes geben Sie die Adresse 2.001 - 2.512, Geräten
 auf der zweiten Linie des Nodes geben Sie die Adresse 3.001 - 3.512.
 
--   Für weitere Art-Net-Einstellungen klicken Sie auf das kleine \{Zahnrad\}
+-   Für weitere Art-Net-Einstellungen klicken Sie auf das kleine <Keys.ContextKey>Zahnrad</Keys.ContextKey>
 	beim Art-Net-Modul. Im Abschnitt [Art-Net-Einstellungen](../system-settings/dmx-output-mapping.md#art-net-eigenschaften)
 	werden diese genauer erklärt.
 

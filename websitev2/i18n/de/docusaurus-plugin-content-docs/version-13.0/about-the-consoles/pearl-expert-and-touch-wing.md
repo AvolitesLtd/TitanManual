@@ -5,6 +5,8 @@ sidebar_label: Pearl Expert and Touch Wing
 original_id: pearl-expert-and-touch-wing
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 ![Pearl Expert](/docs/images/Pearl-Expert.png)
 
 Das Pearl Expert hat vier grundsätzliche Bedienbereiche:
@@ -51,7 +53,7 @@ Attributen der Geräte, Geschwindigkeit von Chasern etc.
 verschiedener Steuerungsoptionen. Im Display wird direkt neben jedem
 Taster die jeweilige Funktion angezeigt, abhängig vom jeweiligen Status
 des Pultes. Befehle dieser Taster sind in diesem Handbuch blau dargestellt, 
-z.B. \[Edit Times\].
+z.B. <Keys.SoftKey>Edit Times</Keys.SoftKey>.
 
 \(L\) Mit den **Ziffern- und Steuertasten** lassen sich Werte eingeben sowie
 Einstellungen des Pultes ändern.

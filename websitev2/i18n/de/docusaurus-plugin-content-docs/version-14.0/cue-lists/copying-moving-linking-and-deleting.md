@@ -5,6 +5,8 @@ sidebar_label: Copying, Moving, Linking and Deleting Cue Lists
 original_id: copying-moving-linking-and-deleting
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 In diesem Abschnitt wird das Verschieben/Kopieren kompletter Cuelisten
 erläutert; zum Kopieren/Verschieben/Löschen einzelner Cues innerhalb
 einer Liste siehe [Kopieren, Verschieben und Löschen einzelner Cues](editing-cue-lists.md#kopieren-verschieben-und-löschen-einzelner-cues).
@@ -12,7 +14,7 @@ einer Liste siehe [Kopieren, Verschieben und Löschen einzelner Cues](editing-cu
 Eine Cueliste verschieben oder kopieren
 ---------------------------------------
 
-Mit den Tasten \<Copy\> und \<Move\> können Cuelisten 
+Mit den Tasten <Keys.HardKey>Copy</Keys.HardKey> und <Keys.HardKey>Move</Keys.HardKey> können Cuelisten 
 kopiert oder auf einen anderen Speicherplatz verschoben
 werden, oder Sie können eine Verknüpfung auf eine bestehende Cueliste
 erstellen. Verschieben ist sinnvoll zum Erhalt einer aufgeräumten
@@ -26,6 +28,6 @@ Die Vorgehensweise ist die gleiche wie für Cues, und ist in Abschnitt
 Löschen einer Cueliste
 ----------------------
 
-Um eine komplette Cueliste zu löschen, drücken Sie \<Delete\>, dann die
+Um eine komplette Cueliste zu löschen, drücken Sie <Keys.HardKey>Delete</Keys.HardKey>, dann die
 **Auswahltaste** der zu löschenden Cueliste, und schließlich die
-Auswahltaste nochmals (oder \[Confirm\] oder \<Enter\>).
+Auswahltaste nochmals (oder <Keys.SoftKey>Confirm</Keys.SoftKey> oder <Keys.HardKey>Enter</Keys.HardKey>).

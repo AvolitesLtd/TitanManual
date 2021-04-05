@@ -5,6 +5,8 @@ sidebar_label: Connecting up and Titan basics
 original_id: titan-basics
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 In diesem Abschnitt wird das Anschließen des Pultes sowie die
 grundlegende Bedienung erläutert.
 
@@ -208,7 +210,7 @@ davon abhängig, dass der verwendete Computer dies unterstützt.
 
 Der externe Bildschirm ist standardmäßig deaktiviert, und zeigt das mit
 'Disabled' an. Um ihn zu aktivieren, öffnen Sie das System-Menü
-(\<Avo\> + \<Disk\>), wählen \[Display Setup\], und drücken \[External
+(<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), wählen <Keys.SoftKey>Display Setup</Keys.SoftKey>, und drücken \[External
 Display Disconnected\]. Damit ändert sich die Anzeige auf \[External
 Display Connected\], und der Bildschirm wird aktiviert.
 
@@ -252,7 +254,7 @@ Gleichspannung). Ggf. muss die Belegung der verwendeten Pultleuchte
 angepasst werden, da es dafür verschiedene Systeme gibt. 
 
 -	Bei neueren Pulten lässt sich die Helligkeit der Pultleuchte im 
-	System-Menü (\<Avo\> + \<Disk\>) einstellen.
+	System-Menü (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) einstellen.
 
 Verwenden von Faderwings
 ------------------------

@@ -5,13 +5,15 @@ sidebar_label: Setting up the Rig
 original_id: setting-up-the-rig
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Raum und Bühne
 --------------
 
 Für einen realistischen Eindruck und eine bessere Orientierung lassen
 sich verschiedene feste Elemente hinzufügen.
 
-Öffnen Sie das Fenster \[Capture Visualiser Settings\] (entweder aus dem
+Öffnen Sie das Fenster <Keys.SoftKey>Capture Visualiser Settings</Keys.SoftKey> (entweder aus dem
 Menü [Open Workspace
 Window](../titan-basics/workspace-windows.md), oder durch einen Klick auf den
 Kontext-Button **Settings** im Capture Visualiser-Fenster). Klicken Sie
@@ -39,21 +41,21 @@ Capture-Bühne hinzugefügt.
 
 Wird eine Show aus einer früheren Titan-Version [geladen](../titan-basics/loading-and-saving-shows.md#laden-einer-show), so werden die
 Geräte/Fixtures **nicht** automatisch zu Capture hinzugefügt. Dazu ist
-zunächst ein [Updaten der Personalities](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren) erforderlich: \<Patch\> \[Edit
-Fixtures\] \[Update Personality\] \[Update All\]. Auch ein Gerätetausch ([Exchange Fixtures](../patching/changing-the-patch.md#geräte-austauschen)) kann helfen.
+zunächst ein [Updaten der Personalities](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren) erforderlich: <Keys.HardKey>Patch</Keys.HardKey> \[Edit
+Fixtures\] <Keys.SoftKey>Update Personality</Keys.SoftKey> <Keys.SoftKey>Update All</Keys.SoftKey>. Auch ein Gerätetausch ([Exchange Fixtures](../patching/changing-the-patch.md#geräte-austauschen)) kann helfen.
 
 Geräte werden, sobald sie in Capture vorhanden sind, mit den Rädern
 (Encodern) positioniert. Wählen Sie dazu [ein oder mehrere Geräte oder
-ein Gerätegruppe](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) aus und drücken Sie [\<Locate\>](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate). Mit der Kontext-Option
-\[Position -- Orientation\] wird die Steuerung für Position und
+ein Gerätegruppe](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) aus und drücken Sie [<Keys.HardKey>Locate</Keys.HardKey>](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate). Mit der Kontext-Option
+<Keys.SoftKey>Position -- Orientation</Keys.SoftKey> wird die Steuerung für Position und
 Orientierung der jeweils ausgewählten Geräte auf die Wheels gelegt. *Das
 Gleiche passiert, wenn man den Rad-Modus mit der Menütaste G auf „Räder
 = Visualiser" schaltet.*
 
 Wählen Sie mit den Attribut-Tasten **Position**, so können Sie nun die
 X/Y/Z-Position der gewählten Fixtures einstellen. Sind mehrere Geräte
-gewählt, so lassen sich mit der \<Fan\>-Taste oder der Option
-\[Scale-Fan\] die Geräte gleichmäßig verteilen/auffächern. Auch die
+gewählt, so lassen sich mit der <Keys.HardKey>Fan</Keys.HardKey>-Taste oder der Option
+<Keys.SoftKey>Scale-Fan</Keys.SoftKey> die Geräte gleichmäßig verteilen/auffächern. Auch die
 anderen Optionen der Fan-Funktion [(Split, Curve, Group)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-modus) funktionieren
 wie gewohnt.
 
@@ -137,11 +139,11 @@ mit den Buttons darunter gewählt:
 -   **Orbit:** schwenkt die Kamera im Kreis um die Bühne, wobei sie stets
     auf den gleichen Punkt ausgerichtet bleibt.
 
-Klickt man auf die Kontext-Option \[Move Camera\], so kann man die
+Klickt man auf die Kontext-Option <Keys.SoftKey>Move Camera</Keys.SoftKey>, so kann man die
 Kamera mit den Rädern bewegen sowie im Menü **Set Coordinates** 
 die Position/Rotation numerisch eingeben.
 
-Klickt man auf die Kontext-Option \[Rotate Camera\] oder \[Orbit
+Klickt man auf die Kontext-Option <Keys.SoftKey>Rotate Camera</Keys.SoftKey> oder \[Orbit
 Camera\], so kann man die Kamera mit den Rädern drehen/schwenken, sowie
 die Rotation numerisch eingeben.
 
