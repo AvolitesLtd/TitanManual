@@ -32,44 +32,16 @@ class HomeSplash extends React.Component {
     const langPart = `${language ? `${language}/` : ''}`;
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
 
-    const SplashContainer = props => (
-      <div className="homeContainer">
-        <div className="homeSplashFade">
-          <div className="wrapper homeWrapper">{props.children}</div>
-        </div>
-      </div>
-    );
-
-    const ProjectTitle = () => (
-      <h2 className="projectTitle">
-        <translate>Avolites Titan Manual</translate>
-        <small><translate>Official Manual for the Avolites Titan software</translate></small>
-      </h2>
-    );
-
-    const PromoSection = props => (
-      <div className="section promoSection">
-        <div className="promoRow">
-          <div className="pluginRowBlock">{props.children}</div>
-        </div>
-      </div>
-    );
-
     const Button = props => (
       <div className="pluginWrapper buttonWrapper">
-        <a className="button button--outline" href={props.href} target={props.target}>
+        <a className="button button--primary" href={props.href} target={props.target}>
           {props.children}
         </a>
       </div>
     );
-  //   <SplashContainer>
-  //   <div className="inner">
-  //     <ProjectTitle className="hero" siteConfig={siteConfig} />
-  //     <Button href={pageUrl("introduction", language)}><translate>Get Started</translate></Button>
-  //   </div>
-  // </SplashContainer>
+
     return (
-      <div class="hero shadow--lw">
+      <div class="hero shadow--lw" style={{height: "calc(100vh - 60px)"}}>
         <div class="container text--center">
           <h1 class="hero__title">Avolites Titan Manual</h1>
           <p class="hero__subtitle">Official Manual for the Avolites Titan software</p>

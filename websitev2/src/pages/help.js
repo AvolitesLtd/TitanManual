@@ -44,22 +44,27 @@ function Help(props) {
 
   return (
     <div className="docMainWrapper wrapper">
-      <Container className="container">
-        <div className="post">
-          <header className="postHeader">
+      <div className="container">
+        <div className="post" style={{margin: "50px 0"}}>
+          <header className="text--center">
             <h1>Need help?</h1>
           </header>
           <div className="row">
-            <div className="col col--6">Learn more using the documentation on this site.</div>
-            <div className="col col--6">
-              For help and support visit the 
-              <a className="button button--outline" href="https://www.avolites.com/support/">
+            <div className="col col--6 text--center">
+              <h2>Browse Docs</h2>
+              <p>Learn more using the documentation on this site.</p>
+              <a href="/docs" className="button button--primary">Browse Docs</a>
+            </div>
+            <div className="col col--6 text--center">
+              <h2>Official help and support</h2>
+              <p>For help and support visit the</p>
+              <a className="button button--primary" href="https://www.avolites.com/support/">
                 Avolites Support Site
               </a>
             </div>
           </div>
 
-          <div>
+          <div style={{margin: "50px 0"}}>
             <h2>Special Thanks To</h2>
             <ul>
               <li>
@@ -74,7 +79,7 @@ function Help(props) {
             </ul>
           </div>
         </div>
-      </Container>
+      </div>
     </div>
   );
 }

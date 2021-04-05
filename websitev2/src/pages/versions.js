@@ -4,28 +4,10 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-
-const React = require('react');
-// const fs = require('fs');
-
-const CompLibrary = {
-  Container: props => <div {...props}></div>,
-  GridBlock: props => <div {...props}></div>,
-  MarkdownBlock: props => <div {...props}></div>
-};
-
-const Container = CompLibrary.Container;
-
-const CWD = process.cwd();
-
-const versions = [];//require(`${CWD}/versions.json`);
-
-import Layout from "@theme/Layout";
-
-// downloads
-// const downloadJSONPath = `${CWD}/static/download/download.json`;
-// let downloads = fs.existsSync(downloadJSONPath);
-let downloads = false;
+ import React, { useEffect, useState } from "react";
+ import versions from "@site/versions.json"
+ import Layout from "@theme/Layout"; 
+ import downloads from "@site/static/download/download.json"
 
 /**
  * Returns the index of downloads which holds the latest PDF for that version
@@ -93,13 +75,11 @@ function Versions(props) {
   const {config: siteConfig} = props;
   const latestVersion = versions[0];
   const repoUrl = `https://github.com/${siteConfig.organizationName}/${siteConfig.projectName}`;
+  
   return (
-    <div className="docMainWrapper wrapper">
-      <Container className="mainContainer versionsContainer">
+    <div className="container">
+      <div style={{margin: "50px 0"}}>
         <div className="post">
-          <header className="postHeader">
-            <h1>{siteConfig.title}</h1>
-          </header>
           <h3 id="latest">Versions</h3>
           <table className="versions">
             <tbody>
@@ -114,8 +94,7 @@ function Versions(props) {
                         href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${
                           props.language ? props.language + '/' : ''
                         }${
-                          version == latestVersion ? '' : version + '/'
-                        }introduction`}>
+                          version == latestVersion ? '' : version + '/'}`}>
                         Documentation
                       </a>
                     </td>
@@ -206,7 +185,7 @@ function Versions(props) {
             </div>
           )}
         </div>
-      </Container>
+      </div>
     </div>
   );
 }

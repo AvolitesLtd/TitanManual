@@ -76,7 +76,7 @@ module.exports={
     "navbar": {
       "title": "Avolites Titan Manual",
       "logo": {
-        "src": "img/Avolites_Logo_Red.svg"
+        "src": "img/Avolites_Logo_White.svg"
       },
       "items": [
         {
@@ -127,7 +127,55 @@ module.exports={
     },
     "image": "img/avolites_share.jpg",
     "footer": {
-      "links": [],
+      "links": [
+        {
+          // Label of the section of these links
+          title: 'Avolites',
+          items: [
+            {
+              label: 'Getting Started',
+              to: 'docs/',
+            },
+            {
+              label: 'Support',
+              to: 'https://www.avolites.com/support/"',
+            },
+            {
+              label: 'Titan API Documentation',
+              to: 'https://api.avolites.com/"',
+            },
+            {
+              label: 'Privacy Policy',
+              to: 'https://www.avolites.com/privacy-policy',
+            }
+          ],
+        },
+        {
+          title: 'Other Resources',
+          items: [
+            {
+              label: 'Downloads',
+              to: "/versions"
+            },
+            {
+              label: 'Main Website',
+              to: "https://www.avolites.com/"
+            },
+            {
+              label: 'YouTube',
+              to: "https://www.youtube.com/avolites"
+            },
+            {
+              label: 'Facebook Group',
+              to: "https://www.facebook.com/groups/Avolites/"
+            },
+            {
+              label: 'Avolites.de Wiki',
+              to: "https://www.avolites.de/wiki"
+            },
+          ]
+        }
+      ],
       "copyright": "Copyright Avolites 2021 ©",
       "logo": {
         "src": "img/Avolites_Logo_Red.svg"

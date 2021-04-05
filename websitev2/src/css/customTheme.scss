@@ -46,3 +46,10 @@ body {
 .navbar__search-input {
   outline: none;
 }
+
+html[data-theme='light'] .navbar {
+  background-color: var(--ifm-color-primary);
+  .navbar__link, .navbar__title {
+    color: white;
+  }
+}
