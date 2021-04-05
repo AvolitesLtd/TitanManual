@@ -84,13 +84,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: recursive
     - name: Use Node.js ${{ env.NODE_VERSION }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ env.NODE_VERSION }}
     - name: npm install, build, and test
       run: |
-        cd websitev2
+        cd websitev2/docusaurus-search-local
+        npm install
+        npm run build
+        cd ../
         npm install
         npm run download
         npm run build --if-present
