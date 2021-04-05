@@ -1,4 +1,4 @@
-name: Build
+name: v2 Test
 
 on:
   workflow_dispatch
