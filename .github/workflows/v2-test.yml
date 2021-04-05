@@ -63,7 +63,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: ${{matrix.os}}
-          path: website/downloads
+          path: websitev2/downloads
           
   pdf:
     name: PDF
