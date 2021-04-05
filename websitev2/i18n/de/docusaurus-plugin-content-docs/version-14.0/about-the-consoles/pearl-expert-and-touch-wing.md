@@ -6,6 +6,8 @@ description: Pearl Expert and Touch Wing - console design and features
 original_id: pearl-expert-and-touch-wing
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 ![Pearl Expert](/docs/images/Pearl-Expert.png)
 
 Das Pearl Expert hat vier grundsätzliche Bedienbereiche:

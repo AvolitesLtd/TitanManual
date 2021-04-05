@@ -75,8 +75,8 @@ Tastenfolge 										| Resultat
 Record -- Speichern
 -------------------
 
-**<Keys.HardKey>Record</Keys.HardKey> \u123Cueliste\u125 \u123Cueliste\u125**\
-Anhängen an das Ende der Cueliste
+<Keys.HardKey>Record</Keys.HardKey> 
+\u123Cueliste\u125 \u123Cueliste\u125 Anhängen an das Ende der Cueliste
 
 **<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey>**\
 Mergen des Programmers in den gerade aktiven Cue der verbundenen Cueliste.

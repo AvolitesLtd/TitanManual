@@ -6,6 +6,8 @@ description: Tiger Touch - console design and features
 original_id: tiger-touch
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 ![Tiger Touch](/docs/images/Tiger-Touch.png)
 
 Das Tiger Touch hat vier grundsätzliche Bedienungsbereiche:

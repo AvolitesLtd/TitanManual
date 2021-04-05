@@ -6,6 +6,8 @@ tags: park
 original_id: changing-the-patch
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Patch View
 ----------
 

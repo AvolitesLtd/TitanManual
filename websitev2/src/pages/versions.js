@@ -18,14 +18,14 @@ const Container = CompLibrary.Container;
 
 const CWD = process.cwd();
 
-const versions = require(`${CWD}/versions.json`);
+const versions = [];//require(`${CWD}/versions.json`);
 
 import Layout from "@theme/Layout";
 
 // downloads
 // const downloadJSONPath = `${CWD}/static/download/download.json`;
 // let downloads = fs.existsSync(downloadJSONPath);
-downloads = false;
+let downloads = false;
 
 /**
  * Returns the index of downloads which holds the latest PDF for that version

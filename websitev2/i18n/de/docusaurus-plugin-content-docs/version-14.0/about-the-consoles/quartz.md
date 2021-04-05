@@ -6,6 +6,8 @@ description: Quartz - console design and features
 original_id: quartz
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 ![Quartz](/docs/images/Quartz.png)
 
 \(A\) Die **Arbeitsfenster** auf dem Touchscreen zeigen Buttons für Geräte,

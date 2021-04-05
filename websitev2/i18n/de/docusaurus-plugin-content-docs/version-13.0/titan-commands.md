@@ -75,9 +75,10 @@ Tastenfolge 										| Resultat
 Record -- Speichern
 -------------------
 
----
-**<Keys.HardKey>Record</Keys.HardKey> \u123Cueliste\u125 \u123Cueliste\u125**\
-Anhängen an das Ende der Cueliste
+
+<Keys.HardKey>Record</Keys.HardKey> \u123Cueliste\u125 \u123Cueliste\u125 Anhängen an das Ende der Cueliste
+
+
 ---
 **<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey>**\
 Mergen des Programmers in den gerade aktiven Cue der verbundenen Cueliste.
@@ -102,12 +103,11 @@ Copy, Move -- Kopieren, Verschieben in Cuelisten
 Cue n an das Ende der Cueliste kopieren.
 ---
 **<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cueliste\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey> n**\
-Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
-\u123Cueliste\u125 und Einfügen hinter Cue n.
+Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf Cueliste und Einfügen hinter Cue n.
 ---
 **<Copy\>/<Keys.HardKey>Move</Keys.HardKey> \u123Cueliste\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>Enter</Keys.HardKey> \u123target playback\u125 n <Keys.HardKey>Enter</Keys.HardKey>**\
 Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
-\u123Cueliste\u125 und Einfügen am Ende der Cueliste.
+Cueliste und Einfügen am Ende der Cueliste.
 ---
 **<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cueliste\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
 <Keys.HardKey>@</Keys.HardKey>**\

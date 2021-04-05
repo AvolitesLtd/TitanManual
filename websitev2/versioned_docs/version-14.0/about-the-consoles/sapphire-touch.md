@@ -6,6 +6,8 @@ description: Sapphire Touch - console design and features
 original_id: sapphire-touch
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 ![Sapphire Touch](/docs/images/Sapphire-Touch.png)The Sapphire Touch has four main control
 areas:
 

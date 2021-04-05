@@ -6,6 +6,8 @@ tags: fixture
 original_id: patching-new-fixtures-or-dimmers
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Fixture Select Buttons and Handles
 ----------------------------------
 
