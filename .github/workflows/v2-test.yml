@@ -93,8 +93,8 @@ jobs:
     - name: npm install, build, and test
       run: |
         cd websitev2/docusaurus-search-local
-        npm install
-        npm run build
+        yarn install
+        yarn build
         cd ../
         npm install
         npm run download
