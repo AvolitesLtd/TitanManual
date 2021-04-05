@@ -99,7 +99,6 @@ jobs:
         npm install
         npm run download
         npm run build --if-present
-        npm run test --if-present
     - name: Deploy
       uses: Pendect/action-rsyncer@v1.1.0
       env:
