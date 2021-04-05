@@ -113,5 +113,5 @@ jobs:
         flags: '-avzr --delete'
         options: ''
         ssh_options: ''
-        src: 'website/build/'
+        src: 'websitev2/build/'
         dest: 'root@176.58.122.97:/var/www/sites/avodocs/'
