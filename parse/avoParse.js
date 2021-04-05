@@ -9,17 +9,17 @@ class avoParse {
     this.lang = 'en'
 
     this.paths = {
-      sidebar: path.resolve(__dirname,"../website/sidebars.json"),
-      versionedSideberDir: path.resolve(__dirname,"../website/versioned_sidebars"),
-      versions: path.resolve(__dirname,"../website/versions.json"),
-      versionedDocsDir: path.resolve(__dirname,"../website/versioned_docs"),
+      sidebar: path.resolve(__dirname,"../websitev2/sidebars.json"),
+      versionedSideberDir: path.resolve(__dirname,"../websitev2/versioned_sidebars"),
+      versions: path.resolve(__dirname,"../websitev2/versions.json"),
+      versionedDocsDir: path.resolve(__dirname,"../websitev2/versioned_docs"),
       outputDir: path.resolve(__dirname,"./output"),
       docsDir: path.resolve(__dirname,"../docs"),
-      staticDir: path.resolve(__dirname,`../website/static`),
-      staticImagesDir: path.resolve(__dirname,'../website/static/docs/images'),
-      buildDir: path.resolve(__dirname,'../website/build/AvoDocs'),
-      transDocsDir: path.resolve(__dirname,'../website/translated_docs'),
-      i18nDir: path.resolve(__dirname,'../website/i18n'),
+      staticDir: path.resolve(__dirname,`../websitev2/static`),
+      staticImagesDir: path.resolve(__dirname,'../websitev2/static/docs/images'),
+      buildDir: path.resolve(__dirname,'../websitev2/build'),
+      transDocsDir: path.resolve(__dirname,'../websitev2/translated_docs'),
+      i18nDir: path.resolve(__dirname,'../websitev2/i18n'),
     }
 
     this.regex = {

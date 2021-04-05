@@ -24,6 +24,8 @@ jobs:
         run: echo "$GITHUB_CONTEXT"
       
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
 
       - name: Use Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v1
@@ -32,7 +34,10 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          cd websitev2
+          cd websitev2/docusaurus-search-local
+          yarn install
+          yarn build
+          cd ../
           npm install
           mkdir downloads
 
@@ -79,6 +84,7 @@ jobs:
         with:
           name: 'PDF'
           path: downloads
+
   web:
     name: Web Build and Deploy
     runs-on: ubuntu-latest
@@ -107,5 +113,5 @@ jobs:
         flags: '-avzr --delete'
         options: ''
         ssh_options: ''
-        src: 'website/build/AvoDocs/'
+        src: 'website/build/'
         dest: 'root@176.58.122.97:/var/www/sites/avodocs/'
