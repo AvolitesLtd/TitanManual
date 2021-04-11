@@ -1,7 +1,7 @@
 ---
 id: t1-and-t2
-title: T1 and T2
-sidebar_label: T1 and T2
+title: T1 und T2
+sidebar_label: T1 und T2
 original_id: t1-and-t2
 ---
 

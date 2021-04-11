@@ -1,7 +1,7 @@
 ---
 id: arena
-title: Arena
-sidebar_label: Arena
+title: Das Arena
+sidebar_label: Das Arena
 original_id: arena
 ---
 

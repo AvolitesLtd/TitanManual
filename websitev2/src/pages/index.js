@@ -6,47 +6,25 @@
  */
 
 const React = require('react');
-
-const CompLibrary = {
-  Container: props => <div {...props}></div>,
-  GridBlock: props => <div {...props}></div>,
-  MarkdownBlock: props => <div {...props}></div>
-};
-
-const MarkdownBlock = CompLibrary.MarkdownBlock;/* Used to read markdown */
-const Container = CompLibrary.Container;
-const GridBlock = CompLibrary.GridBlock;
-const translate = props => <div {...props}></div>;
-
+import Link from '@docusaurus/Link';
+import Translate from '@docusaurus/Translate';
 import Layout from "@theme/Layout";
-
-function pageUrl(doc, language) {
-  return '/docs/' + (language ? `${language}/` : '') + doc;
-}
 
 class HomeSplash extends React.Component {
   render() {
-    const {siteConfig, language = ''} = this.props;
-    const {baseUrl, docsUrl} = siteConfig;
-    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
-    const langPart = `${language ? `${language}/` : ''}`;
-    const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
-
-    const Button = props => (
-      <div className="pluginWrapper buttonWrapper">
-        <a className="button button--primary" href={props.href} target={props.target}>
-          {props.children}
-        </a>
-      </div>
-    );
-
     return (
       <div class="hero shadow--lw" style={{height: "calc(100vh - 60px)"}}>
         <div class="container text--center">
           <h1 class="hero__title">Avolites Titan Manual</h1>
-          <p class="hero__subtitle">Official Manual for the Avolites Titan software</p>
+          <p class="hero__subtitle">
+            <Translate>
+              Official Manual for the Avolites Titan software
+            </Translate>
+          </p>
           <div>
-            <Button href={pageUrl("", language)}><Translate>Get Started</Translate></Button>
+            <Link to="/docs" className="button button--primary">
+              <Translate id="homepage.getStarted">Get Started</Translate>
+            </Link>
           </div>
         </div>
       </div>
@@ -57,47 +35,9 @@ class HomeSplash extends React.Component {
 
 class Index extends React.Component {
   render() {
-    const {config: siteConfig, language = ''} = this.props;
-    const {baseUrl} = siteConfig;
-
-    const Block = props => (
-      <Container
-        padding={['bottom', 'top']}
-        id={props.id}
-        background={props.background}>
-        <GridBlock
-          align="center"
-          contents={props.children}
-          layout={props.layout}
-        />
-      </Container>
-    );
-
-    const Features = () => (
-      <Block layout="fourColumn">
-        {[
-          {
-            content: <translate>Bring lighting and video together on one visual canvas</translate>,
-            image: `${baseUrl}img/synergy.png`,
-            imageAlign: 'top',
-            title: `<a href=${pageUrl("synergy", language)}>${<translate>Synergy</translate>}</a>`
-          },
-          {
-            content: <translate>PioneerDJ waveform and BPM sync integration</translate>,
-            image: `${baseUrl}img/avoxpioneer.png`,
-            imageAlign: 'top',
-            title: `<a href=${pageUrl("running-the-show/linking-pioneerdj-system-to-titan", language)}>${<translate>Pioneer DJ Integration</translate>}</a>`,
-          },
-        ]}
-      </Block>
-    );
-
     return (
       <div>
-        <HomeSplash siteConfig={siteConfig} language={language} />
-        <div className="mainContainer">
-          <Features />
-        </div>
+        <HomeSplash />
       </div>
     );
   }

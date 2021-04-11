@@ -1,7 +1,7 @@
 ---
 id: workspace-windows
-title: Workspace Windows
-sidebar_label: Workspace Windows
+title: Arbeitsfenster
+sidebar_label: Arbeitsfenster
 original_id: workspace-windows
 ---
 

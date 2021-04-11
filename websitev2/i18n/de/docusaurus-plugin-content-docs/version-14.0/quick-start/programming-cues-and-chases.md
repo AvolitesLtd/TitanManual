@@ -1,7 +1,7 @@
 ---
 id: programming-cues-and-chases
-title: Programming cues and chases
-sidebar_label: Programming cues and chases
+title: Programmieren von Cues und Chasern
+sidebar_label: Programmieren von Cues und Chasern
 original_id: programming-cues-and-chases
 ---
 

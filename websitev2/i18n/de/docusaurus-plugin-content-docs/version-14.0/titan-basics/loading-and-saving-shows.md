@@ -1,7 +1,7 @@
 ---
 id: loading-and-saving-shows
-title: Loading and saving shows
-sidebar_label: Loading and saving shows
+title: Laden und Sichern von Shows
+sidebar_label: Laden und Sichern von Shows
 original_id: loading-and-saving-shows
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: about-the-consoles
-title: Console Hardware
-sidebar_label: Console Hardware Introduction
+title: Die verschiedenen Pulte
+sidebar_label: Die verschiedenen Pulte
 original_id: about-the-consoles
 ---
 

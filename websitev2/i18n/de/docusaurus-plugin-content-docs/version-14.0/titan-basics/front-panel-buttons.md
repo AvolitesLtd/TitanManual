@@ -1,7 +1,7 @@
 ---
 id: front-panel-buttons
-title: Front Panel Buttons
-sidebar_label: Front Panel Buttons
+title: Die Tasten der Konsole
+sidebar_label: Die Tasten der Konsole
 original_id: front-panel-buttons
 ---
 

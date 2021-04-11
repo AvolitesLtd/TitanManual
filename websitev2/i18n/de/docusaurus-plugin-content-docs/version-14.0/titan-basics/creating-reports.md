@@ -1,7 +1,7 @@
 ---
 id: creating-reports
-title: Creating Reports
-sidebar_label: Creating Reports
+title: Erstellen von Reports
+sidebar_label: Erstellen von Reports
 original_id: creating-reports
 ---
 

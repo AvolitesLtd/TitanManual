@@ -1,7 +1,7 @@
 ---
 id: other-parts-of-the-touch-screen
-title: Other Parts of the Touch Screen
-sidebar_label: Other Parts of the Touch Screen
+title: Andere Bereiche der Anzeige
+sidebar_label: Andere Bereiche der Anzeige
 original_id: other-parts-of-the-touch-screen
 ---
 

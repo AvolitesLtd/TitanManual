@@ -1,7 +1,7 @@
 ---
 id: introduction
-title: Introduction to Avolites Titan
-sidebar_label: Introduction to Avolites Titan
+title: Einführung
+sidebar_label: Einführung
 original_id: introduction
 ---
 

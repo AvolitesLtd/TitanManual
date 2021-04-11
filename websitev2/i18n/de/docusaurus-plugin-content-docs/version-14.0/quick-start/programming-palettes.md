@@ -1,7 +1,7 @@
 ---
 id: programming-palettes
-title: Programming palettes
-sidebar_label: Programming palettes
+title: Programmieren von Paletten
+sidebar_label: Programmieren von Paletten
 original_id: programming-palettes
 ---
 

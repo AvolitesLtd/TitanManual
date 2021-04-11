@@ -1,7 +1,7 @@
 ---
 id: titan-simulator
-title: Titan Simulator
-sidebar_label: Titan Simulator
+title: Der Titan Simulator
+sidebar_label: Der Titan Simulator
 original_id: titan-simulator
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: quick-start
-title: Quick Start
-sidebar_label: Quick Start Introduction
+title: Schnellstartanleitung
+sidebar_label: Schnellstartanleitung
 original_id: quick-start
 ---
 

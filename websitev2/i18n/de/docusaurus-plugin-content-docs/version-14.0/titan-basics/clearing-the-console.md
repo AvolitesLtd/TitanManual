@@ -1,7 +1,7 @@
 ---
 id: clearing-the-console
-title: Clearing the Console
-sidebar_label: Clearing the Console
+title: Inhalt des Pultes löschen
+sidebar_label: Inhalt des Pultes löschen
 original_id: clearing-the-console
 ---
 

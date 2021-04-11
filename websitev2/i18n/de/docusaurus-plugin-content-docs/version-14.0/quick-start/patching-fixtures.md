@@ -1,7 +1,7 @@
 ---
 id: patching-fixtures
-title: Patching fixtures
-sidebar_label: Patching fixtures
+title: Geräte patchen
+sidebar_label: Geräte patchen
 original_id: patching-fixtures
 ---
 

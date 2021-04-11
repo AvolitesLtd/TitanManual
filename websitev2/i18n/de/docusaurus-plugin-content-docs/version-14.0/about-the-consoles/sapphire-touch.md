@@ -1,8 +1,8 @@
 ---
 id: sapphire-touch
-title: Sapphire Touch
-sidebar_label: Sapphire Touch
-description: Sapphire Touch - console design and features
+title: Das Sapphire Touch
+sidebar_label: Das Sapphire Touch
+description: Das Sapphire Touch - console design and features
 original_id: sapphire-touch
 ---
 

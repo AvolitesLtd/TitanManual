@@ -1,7 +1,7 @@
 ---
 id: controlling-fixtures
-title: Controlling fixtures
-sidebar_label: Controlling fixtures
+title: Geräte steuern
+sidebar_label: Geräte steuern
 original_id: controlling-fixtures
 ---
 

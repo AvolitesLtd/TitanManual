@@ -1,8 +1,8 @@
 ---
 id: quartz
-title: Quartz
-sidebar_label: Quartz
-description: Quartz - console design and features
+title: Das Quartz
+sidebar_label: Das Quartz
+description: Das Quartz - console design and features
 original_id: quartz
 ---
 

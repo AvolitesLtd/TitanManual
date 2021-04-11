@@ -1,7 +1,7 @@
 ---
 id: show-library
-title: Show Library
-sidebar_label: Show Library
+title: Show Library - das Show-Verzeichnis
+sidebar_label: Show Library - das Show-Verzeichnis
 original_id: show-library
 ---
 

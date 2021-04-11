@@ -1,7 +1,7 @@
 ---
 id: multi-user-operation
-title: Multi-User Operation
-sidebar_label: Multi-User Operation
+title: Mehrbenutzer-Betrieb
+sidebar_label: Mehrbenutzer-Betrieb
 original_id: multi-user-operation
 ---
 

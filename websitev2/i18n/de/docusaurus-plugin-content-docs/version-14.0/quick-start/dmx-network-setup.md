@@ -1,7 +1,7 @@
 ---
 id: dmx-network-setup
-title: DMX  network setup
-sidebar_label: DMX  network setup
+title: DMX / Netzwerkeinrichtung
+sidebar_label: DMX / Netzwerkeinrichtung
 original_id: dmx-network-setup
 ---
 

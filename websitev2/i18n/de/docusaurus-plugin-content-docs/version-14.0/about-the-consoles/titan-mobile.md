@@ -1,7 +1,7 @@
 ---
 id: titan-mobile
-title: Titan Mobile
-sidebar_label: Titan Mobile
+title: Das Titan Mobile
+sidebar_label: Das Titan Mobile
 original_id: titan-mobile
 ---
 

@@ -1,8 +1,8 @@
 ---
 id: pearl-expert-and-touch-wing
-title: Pearl Expert and Touch Wing
-sidebar_label: Pearl Expert and Touch Wing
-description: Pearl Expert and Touch Wing - console design and features
+title: Pearl Expert und Touch Wing
+sidebar_label: Pearl Expert und Touch Wing
+description: Pearl Expert und Touch Wing - console design and features
 original_id: pearl-expert-and-touch-wing
 ---
 

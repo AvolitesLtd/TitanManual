@@ -1,8 +1,8 @@
 ---
 id: tiger-touch
-title: Tiger Touch
-sidebar_label: Tiger Touch
-description: Tiger Touch - console design and features
+title: Das Tiger Touch
+sidebar_label: Das Tiger Touch
+description: Das Tiger Touch - console design and features
 original_id: tiger-touch
 ---
 
