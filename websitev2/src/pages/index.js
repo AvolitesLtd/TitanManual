@@ -46,7 +46,7 @@ class HomeSplash extends React.Component {
           <h1 class="hero__title">Avolites Titan Manual</h1>
           <p class="hero__subtitle">Official Manual for the Avolites Titan software</p>
           <div>
-            <Button href={pageUrl("", language)}>Get Started</Button>
+            <Button href={pageUrl("", language)}><Translate>Get Started</Translate></Button>
           </div>
         </div>
       </div>
