@@ -16,7 +16,7 @@
     "build": "docusaurus build",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus write-translations",
-    "version": "docusaurus-version",
+    "version": "docusaurus docs:version",
     "rename-version": "docusaurus-rename-version",
     "sass": "npm run sass-build && node-sass --watch scss/custom.scss static/custom.css --output-style compressed",
     "sass-build": "node-sass scss/custom.scss static/custom.css --output-style compressed",

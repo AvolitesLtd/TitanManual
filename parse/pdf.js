@@ -281,15 +281,12 @@ function formatMdFiles(docsPath, sidebar, version) {
   }
 
   let sectionFound = false;
-
   for(let sec in docs) {
     if(!section || section == sec.toLowerCase()) {
       sectionFound = true;
       for(let page of docs[sec].items) {
-        if(version != 'next') {
-          page = page.id.replace(`version-${version}/`,"")
-        }
-        output += formatMd(docsPath,page+'.md',version);
+        page = page.id.replace(`version-${version}/`,"")
+      output += formatMd(docsPath,page+'.md',version);
       }
     }
   }
