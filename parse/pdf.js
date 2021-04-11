@@ -3,6 +3,8 @@ const fs = require('fs');
 const avoParse = require('./avoParse')
 const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
+//const console = require('node:console');
+//const console = require('node:console');
 const versions = require(avoParse.paths.versions);
 
 const legalPath = path.join(__dirname,"PDF/legal-en.md");
@@ -270,12 +272,12 @@ function docsVersionPath(version) {
  */
 function formatMdFiles(docsPath, sidebar, version) {
   let output = "";
-
+  
   if(version == 'next') {
     docs = sidebar.docs;
   }
   else {
-    docs = sidebar[`version-${version}-docs`];
+    docs = sidebar[`version-${version}\/docs`];
   }
 
   let sectionFound = false;
@@ -283,9 +285,9 @@ function formatMdFiles(docsPath, sidebar, version) {
   for(let sec in docs) {
     if(!section || section == sec.toLowerCase()) {
       sectionFound = true;
-      for(let page of docs[sec]) {
+      for(let page of docs[sec].items) {
         if(version != 'next') {
-          page = page.replace(`version-${version}-`,"")
+          page = page.id.replace(`version-${version}/`,"")
         }
         output += formatMd(docsPath,page+'.md',version);
       }
