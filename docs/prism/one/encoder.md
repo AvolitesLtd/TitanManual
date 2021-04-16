@@ -1,13 +1,12 @@
 ---
-label: "Encoder"
-url: "/encoder" 
-icon: "icon-grain-effect"
-title: "Encoder"
+id: encoder
+title: Encoder
+sidebar_label: Encoder
 ---
 
 The **Encoder** section allows for files to be converted from common video codecs into the **AIM** codec in preparation for use on a live production.
-
-<img style="max-width:340px" src="./assets/images/docs-images/encoder%20details.png" width="90%" /> 
+<!-- 
+<img style="max-width:340px" src="./assets/images/docs-images/encoder%20details.png" width="90%" />  -->
 
 When a piece of media is loaded into the **Encoder**, several details about the file can be viewed
 
@@ -27,7 +26,7 @@ The order in which the elements are arranged will be the order of the encoding q
 
 At the bottom of the **Encoder** queue a readout shows the completion percentage of the total jobs as well as the remaining time until completion. Next to this are the <i className="icon icon-button-play"></i> / <i className="icon icon-button-pause"></i> and <i className="icon icon-button-stop"></i> buttons which activate the encoder list when ready to export.
 
-<br />
+<!-- <br /> -->
 
 ### Import & Export
 

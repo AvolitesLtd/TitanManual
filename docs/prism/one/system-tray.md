@@ -1,8 +1,7 @@
 ---
-label: "System Tray"
-url: "/systemtray" 
-icon: "icon-triangle-up"
-title: "System Tray"
+id: system-tray
+title: System Tray
+sidebar_label: System Tray
 ---
 
 Once the **Prism One** has been started, a **System Tray** icon becomes available to access several features:

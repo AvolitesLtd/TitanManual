@@ -1,8 +1,7 @@
 ---
-label: "Settings"
-url: "/settings" 
-icon: "icon-settings-gear"
-title: "Settings"
+id: settings
+title: Settings
+sidebar_label: Settings
 ---
 
 The settings window contains several user adjustable parameters as well as giving feedback on the machine currently in use.

@@ -79,7 +79,7 @@ module.exports={
       },
       items: [
         {
-          to: "docs",
+          to: "docs/introduction",
           label: "Titan",
           position: "left"
         },

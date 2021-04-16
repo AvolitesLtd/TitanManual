@@ -1,8 +1,7 @@
 ---
-label: "Playlist"
-url: "/playlist" 
-icon: "icon-video-playlist"
+id: playlist
 title: "Playlist"
+sidebar_label: "Playlist"
 ---
 
 The **Playlist** allows you to curate, name and order a list of different media types for playback within the media player and to prepare media files for encoding.

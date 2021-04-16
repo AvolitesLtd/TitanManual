@@ -1,5 +1,5 @@
 {
-  "docs": [
+  "titan": [
       {
         "collapsed": true,
         "type": "category",
@@ -655,43 +655,37 @@
       "collapsed": true,
       "type": "category",
       "label": "About",
-      "items": [{"type": "doc", "id": "prism/player/about"}]
+      "items": ["prism/player/about"]
     },
     {
       "collapsed": true,
       "type": "category",
       "label": "Playlist",
-      "items": [{"type": "doc", "id": "prism/player/playlist"}]
+      "items": ["prism/player/playlist"]
     },
     {
       "collapsed": true,
       "type": "category",
       "label": "Encoder",
-      "items": [{"type": "doc", "id": "prism/player/encoder"}]
+      "items": ["prism/player/encoder"]
     },
     {
       "collapsed": true,
       "type": "category",
       "label": "Encoder Settings",
-      "items": [{"type": "doc", "id": "prism/player/encoder-settings"}]
+      "items": ["prism/player/encoder-settings"]
     },
     {
       "collapsed": true,
       "type": "category",
       "label": "Mediaplayer",
-      "items": [{"type": "doc", "id": "prism/player/mediaplayer"}]
-    },
-    {
-      "collapsed": true,
-      "type": "category",
-      "label": "Layer Options",
-      "items": [{"type": "doc", "id": "prism/player/layer-options"}]
+      "items": ["prism/player/mediaplayer"]
     },
     {
       "collapsed": true,
       "type": "category",
       "label": "Settings",
-      "items": [{"type": "doc", "id": "prism/player/settings"}]
+      "items": ["prism/player/settings"]
     }
   ],
   "one": [
@@ -699,43 +693,64 @@
       "collapsed": true,
       "type": "category",
       "label": "About",
-      "items": [{"type": "doc", "id": "prism/one/about"}]
+      "items": [{
+        "type": "doc",
+        "id": "prism/one/about"
+      }]
     },
     {
       "collapsed": true,
       "type": "category",
       "label": "Playlist",
-      "items": [{"type": "doc", "id": "prism/one/playlist"}]
+      "items": [{
+        "type": "doc",
+        "id": "prism/one/playlist"
+      }]
     },
     {
       "collapsed": true,
       "type": "category",
       "label": "Encoder",
-      "items": [{"type": "doc", "id": "prism/one/encoder"}]
+      "items": [{
+        "type": "doc",
+        "id": "prism/one/encoder"
+      }]
     },
     {
       "collapsed": true,
       "type": "category",
       "label": "Encoder Settings",
-      "items": [{"type": "doc", "id": "prism/one/encoder-settings"}]
+      "items": [{
+        "type": "doc",
+        "id": "prism/one/encoder-settings"
+      }]
     },
     {
       "collapsed": true,
       "type": "category",
       "label": "Mediaplayer",
-      "items": [{"type": "doc", "id": "prism/one/mediaplayer"}]
+      "items": [{
+        "type": "doc",
+        "id": "prism/one/mediaplayer"
+      }]
     },
     {
       "collapsed": true,
       "type": "category",
       "label": "Layer Options",
-      "items": [{"type": "doc", "id": "prism/one/layer-options"}]
+      "items": [{
+        "type": "doc",
+        "id": "prism/one/layer-options"
+      }]
     },
     {
       "collapsed": true,
       "type": "category",
       "label": "Settings",
-      "items": [{"type": "doc", "id": "prism/one/settings"}]
+      "items": [{
+        "type": "doc",
+        "id": "prism/one/settings"
+      }]
     }
   ]
 }
