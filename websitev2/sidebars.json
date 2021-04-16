@@ -1,653 +1,741 @@
 {
   "docs": [
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Introduction",
+        "items": [
+          {
+            "type": "doc",
+            "id": "introduction"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Quick Start",
+        "items": [
+          {
+            "type": "doc",
+            "id": "quick-start"
+          },
+          {
+            "type": "doc",
+            "id": "quick-start/patching-fixtures"
+          },
+          {
+            "type": "doc",
+            "id": "quick-start/controlling-fixtures"
+          },
+          {
+            "type": "doc",
+            "id": "quick-start/programming-cues-and-chases"
+          },
+          {
+            "type": "doc",
+            "id": "quick-start/programming-palettes"
+          },
+          {
+            "type": "doc",
+            "id": "quick-start/dmx-network-setup"
+          },
+          {
+            "type": "doc",
+            "id": "quick-start/tips-and-tricks"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "About The Consoles",
+        "items": [
+          {
+            "type": "doc",
+            "id": "about-the-consoles"
+          },
+          {
+            "type": "doc",
+            "id": "about-the-consoles/diamond"
+          },
+          {
+            "type": "doc",
+            "id": "about-the-consoles/sapphire-touch"
+          },
+          {
+            "type": "doc",
+            "id": "about-the-consoles/arena"
+          },
+          {
+            "type": "doc",
+            "id": "about-the-consoles/tiger-touch"
+          },
+          {
+            "type": "doc",
+            "id": "about-the-consoles/quartz"
+          },
+          {
+            "type": "doc",
+            "id": "about-the-consoles/titan-mobile"
+          },
+          {
+            "type": "doc",
+            "id": "about-the-consoles/t1-and-t2"
+          },
+          {
+            "type": "doc",
+            "id": "about-the-consoles/tnp"
+          },
+          {
+            "type": "doc",
+            "id": "about-the-consoles/pearl-expert-and-touch-wing"
+          },
+          {
+            "type": "doc",
+            "id": "about-the-consoles/fader-wings"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Titan Basics",
+        "items": [
+          {
+            "type": "doc",
+            "id": "titan-basics"
+          },
+          {
+            "type": "doc",
+            "id": "titan-basics/workspace-windows"
+          },
+          {
+            "type": "doc",
+            "id": "titan-basics/other-parts-of-the-touch-screen"
+          },
+          {
+            "type": "doc",
+            "id": "titan-basics/front-panel-buttons"
+          },
+          {
+            "type": "doc",
+            "id": "titan-basics/multi-user-operation"
+          },
+          {
+            "type": "doc",
+            "id": "titan-basics/titan-simulator"
+          },
+          {
+            "type": "doc",
+            "id": "titan-basics/show-library"
+          },
+          {
+            "type": "doc",
+            "id": "titan-basics/loading-and-saving-shows"
+          },
+          {
+            "type": "doc",
+            "id": "titan-basics/clearing-the-console"
+          },
+          {
+            "type": "doc",
+            "id": "titan-basics/creating-reports"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Patching",
+        "items": [
+          {
+            "type": "doc",
+            "id": "patching"
+          },
+          {
+            "type": "doc",
+            "id": "patching/patching-new-fixtures-or-dimmers"
+          },
+          {
+            "type": "doc",
+            "id": "patching/changing-the-patch"
+          },
+          {
+            "type": "doc",
+            "id": "patching/copying-moving-and-deleting-fixtures"
+          },
+          {
+            "type": "doc",
+            "id": "patching/fixture-personality-options"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Controlling Fixtures",
+        "items": [
+          {
+            "type": "doc",
+            "id": "controlling-fixtures"
+          },
+          {
+            "type": "doc",
+            "id": "controlling-fixtures/changing-fixture-attributes"
+          },
+          {
+            "type": "doc",
+            "id": "controlling-fixtures/viewing-and-editing-fixture-values"
+          },
+          {
+            "type": "doc",
+            "id": "controlling-fixtures/fixture-groups"
+          },
+          {
+            "type": "doc",
+            "id": "controlling-fixtures/advanced-options"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Palettes",
+        "items": [
+          {
+            "type": "doc",
+            "id": "palettes"
+          },
+          {
+            "type": "doc",
+            "id": "palettes/creating-palettes"
+          },
+          {
+            "type": "doc",
+            "id": "palettes/using-palettes"
+          },
+          {
+            "type": "doc",
+            "id": "palettes/editing-palettes"
+          },
+          {
+            "type": "doc",
+            "id": "palettes/copying-moving-and-deleting-palettes"
+          },
+          {
+            "type": "doc",
+            "id": "palettes/timing-with-palettes"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Shapes and Effects",
+        "items": [
+          {
+            "type": "doc",
+            "id": "effects"
+          },
+          {
+            "type": "doc",
+            "id": "effects/shape-generator"
+          },
+          {
+            "type": "doc",
+            "id": "effects/key-frame-shapes"
+          },
+          {
+            "type": "doc",
+            "id": "effects/pixel-mapper"
+          },
+          {
+            "type": "doc",
+            "id": "effects/editing-shapes-and-effects"
+          },
+          {
+            "type": "doc",
+            "id": "effects/advanced-options"
+          },
+          {
+            "type": "doc",
+            "id": "effects/pixel-mapper-examples"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Cues",
+        "items": [
+          {
+            "type": "doc",
+            "id": "cues"
+          },
+          {
+            "type": "doc",
+            "id": "cues/creating-a-cue"
+          },
+          {
+            "type": "doc",
+            "id": "cues/cue-playback"
+          },
+          {
+            "type": "doc",
+            "id": "cues/editing-cues"
+          },
+          {
+            "type": "doc",
+            "id": "cues/cue-timing"
+          },
+          {
+            "type": "doc",
+            "id": "cues/playback-options"
+          },
+          {
+            "type": "doc",
+            "id": "cues/copying-moving-linking-and-deleting"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Chases",
+        "items": [
+          {
+            "type": "doc",
+            "id": "chases"
+          },
+          {
+            "type": "doc",
+            "id": "chases/creating-a-chase"
+          },
+          {
+            "type": "doc",
+            "id": "chases/chase-playback"
+          },
+          {
+            "type": "doc",
+            "id": "chases/editing-a-chase"
+          },
+          {
+            "type": "doc",
+            "id": "chases/chase-timing"
+          },
+          {
+            "type": "doc",
+            "id": "chases/chase-options"
+          },
+          {
+            "type": "doc",
+            "id": "chases/copying-moving-linking-and-deleting"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Cue Lists",
+        "items": [
+          {
+            "type": "doc",
+            "id": "cue-lists"
+          },
+          {
+            "type": "doc",
+            "id": "cue-lists/creating-a-cue-list"
+          },
+          {
+            "type": "doc",
+            "id": "cue-lists/cue-list-playback"
+          },
+          {
+            "type": "doc",
+            "id": "cue-lists/editing-cue-lists"
+          },
+          {
+            "type": "doc",
+            "id": "cue-lists/cue-list-timing"
+          },
+          {
+            "type": "doc",
+            "id": "cue-lists/cue-list-options"
+          },
+          {
+            "type": "doc",
+            "id": "cue-lists/copying-moving-linking-and-deleting"
+          },
+          {
+            "type": "doc",
+            "id": "cue-lists/theatre-programming"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Timelines",
+        "items": [
+          {
+            "type": "doc",
+            "id": "timelines"
+          },
+          {
+            "type": "doc",
+            "id": "timelines/creating-a-timeline"
+          },
+          {
+            "type": "doc",
+            "id": "timelines/running-and-editing-timelines"
+          },
+          {
+            "type": "doc",
+            "id": "timelines/timeline-options"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Capture Visualiser",
+        "items": [
+          {
+            "type": "doc",
+            "id": "capture-visualiser"
+          },
+          {
+            "type": "doc",
+            "id": "capture-visualiser/setting-up-the-rig"
+          },
+          {
+            "type": "doc",
+            "id": "capture-visualiser/visualising-using-capture"
+          },
+          {
+            "type": "doc",
+            "id": "capture-visualiser/capture-show-files"
+          },
+          {
+            "type": "doc",
+            "id": "capture-visualiser/linking-the-console-to-stand-alone-capture"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Synergy",
+        "items": [
+          {
+            "type": "doc",
+            "id": "synergy"
+          },
+          {
+            "type": "doc",
+            "id": "synergy/setting-up"
+          },
+          {
+            "type": "doc",
+            "id": "synergy/operating-synergy"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Running The Show",
+        "items": [
+          {
+            "type": "doc",
+            "id": "running-the-show"
+          },
+          {
+            "type": "doc",
+            "id": "running-the-show/playback-controls"
+          },
+          {
+            "type": "doc",
+            "id": "running-the-show/using-multiple-on-screen-workspaces"
+          },
+          {
+            "type": "doc",
+            "id": "running-the-show/organising-the-console"
+          },
+          {
+            "type": "doc",
+            "id": "running-the-show/set-list-window"
+          },
+          {
+            "type": "doc",
+            "id": "running-the-show/midi-dmx-or-audio-triggering"
+          },
+          {
+            "type": "doc",
+            "id": "running-the-show/linking-pioneerdj-system-to-titan"
+          },
+          {
+            "type": "doc",
+            "id": "running-the-show/linking-consoles-for-multi-user-or-backup"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Remote Control",
+        "items": [
+          {
+            "type": "doc",
+            "id": "remote-control"
+          },
+          {
+            "type": "doc",
+            "id": "remote-control/setting-up-the-remote"
+          },
+          {
+            "type": "doc",
+            "id": "remote-control/operating-the-remote"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Titan Net",
+        "items": [
+          {
+            "type": "doc",
+            "id": "titan-net"
+          },
+          {
+            "type": "doc",
+            "id": "titan-net/tnp-slave-mode"
+          },
+          {
+            "type": "doc",
+            "id": "titan-net/tnp-console-mode"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "System Settings",
+        "items": [
+          {
+            "type": "doc",
+            "id": "system-settings"
+          },
+          {
+            "type": "doc",
+            "id": "system-settings/the-system-menu"
+          },
+          {
+            "type": "doc",
+            "id": "system-settings/external-displays"
+          },
+          {
+            "type": "doc",
+            "id": "system-settings/key-profiles"
+          },
+          {
+            "type": "doc",
+            "id": "system-settings/user-settings"
+          },
+          {
+            "type": "doc",
+            "id": "system-settings/dmx-output-mapping"
+          },
+          {
+            "type": "doc",
+            "id": "system-settings/curves"
+          },
+          {
+            "type": "doc",
+            "id": "system-settings/upgrading-the-software"
+          },
+          {
+            "type": "doc",
+            "id": "system-settings/recovering-reinstalling-the-console"
+          },
+          {
+            "type": "doc",
+            "id": "system-settings/cleaning-the-console"
+          },
+          {
+            "type": "doc",
+            "id": "system-settings/release-notes"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Fixture Personalities",
+        "items": [
+          {
+            "type": "doc",
+            "id": "fixture-personalities"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Networking Consoles",
+        "items": [
+          {
+            "type": "doc",
+            "id": "networking"
+          },
+          {
+            "type": "doc",
+            "id": "networking/connecting-the-arena-to-a-network"
+          },
+          {
+            "type": "doc",
+            "id": "networking/controlling-fixtures-over-a-network"
+          },
+          {
+            "type": "doc",
+            "id": "networking/using-active-fixtures"
+          },
+          {
+            "type": "doc",
+            "id": "networking/ports-used-by-titan"
+          },
+          {
+            "type": "doc",
+            "id": "networking/a-quick-guide-to-ip-addressing"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Titan Reference",
+        "items": [
+          {
+            "type": "doc",
+            "id": "titan-reference"
+          },
+          {
+            "type": "doc",
+            "id": "titan-reference/button-reference"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Glossary",
+        "items": [
+          {
+            "type": "doc",
+            "id": "glossary"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Index",
+        "items": [
+          {
+            "type": "doc",
+            "id": "alpha-index"
+          }
+        ]
+      }
+  ],
+  "player": [
     {
       "collapsed": true,
       "type": "category",
-      "label": "Introduction",
-      "items": [
-        {
-          "type": "doc",
-          "id": "introduction"
-        }
-      ]
+      "label": "About",
+      "items": [{"type": "doc", "id": "prism/player/about"}]
     },
     {
       "collapsed": true,
       "type": "category",
-      "label": "Quick Start",
-      "items": [
-        {
-          "type": "doc",
-          "id": "quick-start"
-        },
-        {
-          "type": "doc",
-          "id": "quick-start/patching-fixtures"
-        },
-        {
-          "type": "doc",
-          "id": "quick-start/controlling-fixtures"
-        },
-        {
-          "type": "doc",
-          "id": "quick-start/programming-cues-and-chases"
-        },
-        {
-          "type": "doc",
-          "id": "quick-start/programming-palettes"
-        },
-        {
-          "type": "doc",
-          "id": "quick-start/dmx-network-setup"
-        },
-        {
-          "type": "doc",
-          "id": "quick-start/tips-and-tricks"
-        }
-      ]
+      "label": "Playlist",
+      "items": [{"type": "doc", "id": "prism/player/playlist"}]
     },
     {
       "collapsed": true,
       "type": "category",
-      "label": "About The Consoles",
-      "items": [
-        {
-          "type": "doc",
-          "id": "about-the-consoles"
-        },
-        {
-          "type": "doc",
-          "id": "about-the-consoles/diamond"
-        },
-        {
-          "type": "doc",
-          "id": "about-the-consoles/sapphire-touch"
-        },
-        {
-          "type": "doc",
-          "id": "about-the-consoles/arena"
-        },
-        {
-          "type": "doc",
-          "id": "about-the-consoles/tiger-touch"
-        },
-        {
-          "type": "doc",
-          "id": "about-the-consoles/quartz"
-        },
-        {
-          "type": "doc",
-          "id": "about-the-consoles/titan-mobile"
-        },
-        {
-          "type": "doc",
-          "id": "about-the-consoles/t1-and-t2"
-        },
-        {
-          "type": "doc",
-          "id": "about-the-consoles/tnp"
-        },
-        {
-          "type": "doc",
-          "id": "about-the-consoles/pearl-expert-and-touch-wing"
-        },
-        {
-          "type": "doc",
-          "id": "about-the-consoles/fader-wings"
-        }
-      ]
+      "label": "Encoder",
+      "items": [{"type": "doc", "id": "prism/player/encoder"}]
     },
     {
       "collapsed": true,
       "type": "category",
-      "label": "Titan Basics",
-      "items": [
-        {
-          "type": "doc",
-          "id": "titan-basics"
-        },
-        {
-          "type": "doc",
-          "id": "titan-basics/workspace-windows"
-        },
-        {
-          "type": "doc",
-          "id": "titan-basics/other-parts-of-the-touch-screen"
-        },
-        {
-          "type": "doc",
-          "id": "titan-basics/front-panel-buttons"
-        },
-        {
-          "type": "doc",
-          "id": "titan-basics/multi-user-operation"
-        },
-        {
-          "type": "doc",
-          "id": "titan-basics/titan-simulator"
-        },
-        {
-          "type": "doc",
-          "id": "titan-basics/show-library"
-        },
-        {
-          "type": "doc",
-          "id": "titan-basics/loading-and-saving-shows"
-        },
-        {
-          "type": "doc",
-          "id": "titan-basics/clearing-the-console"
-        },
-        {
-          "type": "doc",
-          "id": "titan-basics/creating-reports"
-        }
-      ]
+      "label": "Encoder Settings",
+      "items": [{"type": "doc", "id": "prism/player/encoder-settings"}]
     },
     {
       "collapsed": true,
       "type": "category",
-      "label": "Patching",
-      "items": [
-        {
-          "type": "doc",
-          "id": "patching"
-        },
-        {
-          "type": "doc",
-          "id": "patching/patching-new-fixtures-or-dimmers"
-        },
-        {
-          "type": "doc",
-          "id": "patching/changing-the-patch"
-        },
-        {
-          "type": "doc",
-          "id": "patching/copying-moving-and-deleting-fixtures"
-        },
-        {
-          "type": "doc",
-          "id": "patching/fixture-personality-options"
-        }
-      ]
+      "label": "Mediaplayer",
+      "items": [{"type": "doc", "id": "prism/player/mediaplayer"}]
     },
     {
       "collapsed": true,
       "type": "category",
-      "label": "Controlling Fixtures",
-      "items": [
-        {
-          "type": "doc",
-          "id": "controlling-fixtures"
-        },
-        {
-          "type": "doc",
-          "id": "controlling-fixtures/changing-fixture-attributes"
-        },
-        {
-          "type": "doc",
-          "id": "controlling-fixtures/viewing-and-editing-fixture-values"
-        },
-        {
-          "type": "doc",
-          "id": "controlling-fixtures/fixture-groups"
-        },
-        {
-          "type": "doc",
-          "id": "controlling-fixtures/advanced-options"
-        }
-      ]
+      "label": "Layer Options",
+      "items": [{"type": "doc", "id": "prism/player/layer-options"}]
     },
     {
       "collapsed": true,
       "type": "category",
-      "label": "Palettes",
-      "items": [
-        {
-          "type": "doc",
-          "id": "palettes"
-        },
-        {
-          "type": "doc",
-          "id": "palettes/creating-palettes"
-        },
-        {
-          "type": "doc",
-          "id": "palettes/using-palettes"
-        },
-        {
-          "type": "doc",
-          "id": "palettes/editing-palettes"
-        },
-        {
-          "type": "doc",
-          "id": "palettes/copying-moving-and-deleting-palettes"
-        },
-        {
-          "type": "doc",
-          "id": "palettes/timing-with-palettes"
-        }
-      ]
+      "label": "Settings",
+      "items": [{"type": "doc", "id": "prism/player/settings"}]
+    }
+  ],
+  "one": [
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "About",
+      "items": [{"type": "doc", "id": "prism/one/about"}]
     },
     {
       "collapsed": true,
       "type": "category",
-      "label": "Shapes and Effects",
-      "items": [
-        {
-          "type": "doc",
-          "id": "effects"
-        },
-        {
-          "type": "doc",
-          "id": "effects/shape-generator"
-        },
-        {
-          "type": "doc",
-          "id": "effects/key-frame-shapes"
-        },
-        {
-          "type": "doc",
-          "id": "effects/pixel-mapper"
-        },
-        {
-          "type": "doc",
-          "id": "effects/editing-shapes-and-effects"
-        },
-        {
-          "type": "doc",
-          "id": "effects/advanced-options"
-        },
-        {
-          "type": "doc",
-          "id": "effects/pixel-mapper-examples"
-        }
-      ]
+      "label": "Playlist",
+      "items": [{"type": "doc", "id": "prism/one/playlist"}]
     },
     {
       "collapsed": true,
       "type": "category",
-      "label": "Cues",
-      "items": [
-        {
-          "type": "doc",
-          "id": "cues"
-        },
-        {
-          "type": "doc",
-          "id": "cues/creating-a-cue"
-        },
-        {
-          "type": "doc",
-          "id": "cues/cue-playback"
-        },
-        {
-          "type": "doc",
-          "id": "cues/editing-cues"
-        },
-        {
-          "type": "doc",
-          "id": "cues/cue-timing"
-        },
-        {
-          "type": "doc",
-          "id": "cues/playback-options"
-        },
-        {
-          "type": "doc",
-          "id": "cues/copying-moving-linking-and-deleting"
-        }
-      ]
+      "label": "Encoder",
+      "items": [{"type": "doc", "id": "prism/one/encoder"}]
     },
     {
       "collapsed": true,
       "type": "category",
-      "label": "Chases",
-      "items": [
-        {
-          "type": "doc",
-          "id": "chases"
-        },
-        {
-          "type": "doc",
-          "id": "chases/creating-a-chase"
-        },
-        {
-          "type": "doc",
-          "id": "chases/chase-playback"
-        },
-        {
-          "type": "doc",
-          "id": "chases/editing-a-chase"
-        },
-        {
-          "type": "doc",
-          "id": "chases/chase-timing"
-        },
-        {
-          "type": "doc",
-          "id": "chases/chase-options"
-        },
-        {
-          "type": "doc",
-          "id": "chases/copying-moving-linking-and-deleting"
-        }
-      ]
+      "label": "Encoder Settings",
+      "items": [{"type": "doc", "id": "prism/one/encoder-settings"}]
     },
     {
       "collapsed": true,
       "type": "category",
-      "label": "Cue Lists",
-      "items": [
-        {
-          "type": "doc",
-          "id": "cue-lists"
-        },
-        {
-          "type": "doc",
-          "id": "cue-lists/creating-a-cue-list"
-        },
-        {
-          "type": "doc",
-          "id": "cue-lists/cue-list-playback"
-        },
-        {
-          "type": "doc",
-          "id": "cue-lists/editing-cue-lists"
-        },
-        {
-          "type": "doc",
-          "id": "cue-lists/cue-list-timing"
-        },
-        {
-          "type": "doc",
-          "id": "cue-lists/cue-list-options"
-        },
-        {
-          "type": "doc",
-          "id": "cue-lists/copying-moving-linking-and-deleting"
-        },
-        {
-          "type": "doc",
-          "id": "cue-lists/theatre-programming"
-        }
-      ]
+      "label": "Mediaplayer",
+      "items": [{"type": "doc", "id": "prism/one/mediaplayer"}]
     },
     {
       "collapsed": true,
       "type": "category",
-      "label": "Timelines",
-      "items": [
-        {
-          "type": "doc",
-          "id": "timelines"
-        },
-        {
-          "type": "doc",
-          "id": "timelines/creating-a-timeline"
-        },
-        {
-          "type": "doc",
-          "id": "timelines/running-and-editing-timelines"
-        },
-        {
-          "type": "doc",
-          "id": "timelines/timeline-options"
-        }
-      ]
+      "label": "Layer Options",
+      "items": [{"type": "doc", "id": "prism/one/layer-options"}]
     },
     {
       "collapsed": true,
       "type": "category",
-      "label": "Capture Visualiser",
-      "items": [
-        {
-          "type": "doc",
-          "id": "capture-visualiser"
-        },
-        {
-          "type": "doc",
-          "id": "capture-visualiser/setting-up-the-rig"
-        },
-        {
-          "type": "doc",
-          "id": "capture-visualiser/visualising-using-capture"
-        },
-        {
-          "type": "doc",
-          "id": "capture-visualiser/capture-show-files"
-        },
-        {
-          "type": "doc",
-          "id": "capture-visualiser/linking-the-console-to-stand-alone-capture"
-        }
-      ]
-    },
-    {
-      "collapsed": true,
-      "type": "category",
-      "label": "Synergy",
-      "items": [
-        {
-          "type": "doc",
-          "id": "synergy"
-        },
-        {
-          "type": "doc",
-          "id": "synergy/setting-up"
-        },
-        {
-          "type": "doc",
-          "id": "synergy/operating-synergy"
-        }
-      ]
-    },
-    {
-      "collapsed": true,
-      "type": "category",
-      "label": "Running The Show",
-      "items": [
-        {
-          "type": "doc",
-          "id": "running-the-show"
-        },
-        {
-          "type": "doc",
-          "id": "running-the-show/playback-controls"
-        },
-        {
-          "type": "doc",
-          "id": "running-the-show/using-multiple-on-screen-workspaces"
-        },
-        {
-          "type": "doc",
-          "id": "running-the-show/organising-the-console"
-        },
-        {
-          "type": "doc",
-          "id": "running-the-show/set-list-window"
-        },
-        {
-          "type": "doc",
-          "id": "running-the-show/midi-dmx-or-audio-triggering"
-        },
-        {
-          "type": "doc",
-          "id": "running-the-show/linking-pioneerdj-system-to-titan"
-        },
-        {
-          "type": "doc",
-          "id": "running-the-show/linking-consoles-for-multi-user-or-backup"
-        }
-      ]
-    },
-    {
-      "collapsed": true,
-      "type": "category",
-      "label": "Remote Control",
-      "items": [
-        {
-          "type": "doc",
-          "id": "remote-control"
-        },
-        {
-          "type": "doc",
-          "id": "remote-control/setting-up-the-remote"
-        },
-        {
-          "type": "doc",
-          "id": "remote-control/operating-the-remote"
-        }
-      ]
-    },
-    {
-      "collapsed": true,
-      "type": "category",
-      "label": "Titan Net",
-      "items": [
-        {
-          "type": "doc",
-          "id": "titan-net"
-        },
-        {
-          "type": "doc",
-          "id": "titan-net/tnp-slave-mode"
-        },
-        {
-          "type": "doc",
-          "id": "titan-net/tnp-console-mode"
-        }
-      ]
-    },
-    {
-      "collapsed": true,
-      "type": "category",
-      "label": "System Settings",
-      "items": [
-        {
-          "type": "doc",
-          "id": "system-settings"
-        },
-        {
-          "type": "doc",
-          "id": "system-settings/the-system-menu"
-        },
-        {
-          "type": "doc",
-          "id": "system-settings/external-displays"
-        },
-        {
-          "type": "doc",
-          "id": "system-settings/key-profiles"
-        },
-        {
-          "type": "doc",
-          "id": "system-settings/user-settings"
-        },
-        {
-          "type": "doc",
-          "id": "system-settings/dmx-output-mapping"
-        },
-        {
-          "type": "doc",
-          "id": "system-settings/curves"
-        },
-        {
-          "type": "doc",
-          "id": "system-settings/upgrading-the-software"
-        },
-        {
-          "type": "doc",
-          "id": "system-settings/recovering-reinstalling-the-console"
-        },
-        {
-          "type": "doc",
-          "id": "system-settings/cleaning-the-console"
-        },
-        {
-          "type": "doc",
-          "id": "system-settings/release-notes"
-        }
-      ]
-    },
-    {
-      "collapsed": true,
-      "type": "category",
-      "label": "Fixture Personalities",
-      "items": [
-        {
-          "type": "doc",
-          "id": "fixture-personalities"
-        }
-      ]
-    },
-    {
-      "collapsed": true,
-      "type": "category",
-      "label": "Networking Consoles",
-      "items": [
-        {
-          "type": "doc",
-          "id": "networking"
-        },
-        {
-          "type": "doc",
-          "id": "networking/connecting-the-arena-to-a-network"
-        },
-        {
-          "type": "doc",
-          "id": "networking/controlling-fixtures-over-a-network"
-        },
-        {
-          "type": "doc",
-          "id": "networking/using-active-fixtures"
-        },
-        {
-          "type": "doc",
-          "id": "networking/ports-used-by-titan"
-        },
-        {
-          "type": "doc",
-          "id": "networking/a-quick-guide-to-ip-addressing"
-        }
-      ]
-    },
-    {
-      "collapsed": true,
-      "type": "category",
-      "label": "Titan Reference",
-      "items": [
-        {
-          "type": "doc",
-          "id": "titan-reference"
-        },
-        {
-          "type": "doc",
-          "id": "titan-reference/button-reference"
-        }
-      ]
-    },
-    {
-      "collapsed": true,
-      "type": "category",
-      "label": "Glossary",
-      "items": [
-        {
-          "type": "doc",
-          "id": "glossary"
-        }
-      ]
-    },
-    {
-      "collapsed": true,
-      "type": "category",
-      "label": "Index",
-      "items": [
-        {
-          "type": "doc",
-          "id": "alpha-index"
-        }
-      ]
+      "label": "Settings",
+      "items": [{"type": "doc", "id": "prism/one/settings"}]
     }
   ]
 }
