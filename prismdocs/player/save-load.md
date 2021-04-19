@@ -1,8 +1,6 @@
 ---
-label: "Save & Load"
-url: "/save-load" 
-icon: "icon-save"
 title: "Save & Load"
+label: "Save & Load"
 ---
 
 ### Save & Load project

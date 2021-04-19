@@ -1,8 +1,7 @@
 ---
-label: "About"
-url: "/about" 
-icon: "icon-app"
-title: "About"
+id: about
+title: About
+sidebar_label: About
 ---
 
 **Prism Player** is a standalone application built by **Avolites** to allow easy previewing of media files as well as for preparing and converting them using the **AiM codec**, ready for use in Ai. 

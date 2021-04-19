@@ -1,8 +1,7 @@
 ---
-label: "System Tray"
-url: "/systemtray" 
-icon: "icon-triangle-up"
-title: "System Tray"
+id: system-tray
+title: System Tray
+sibebar-label: System Tray
 ---
 
 Once the **Prism Player** has been started, a **System Tray** icon becomes available to access several features:

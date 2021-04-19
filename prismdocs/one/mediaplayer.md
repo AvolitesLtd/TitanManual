@@ -14,7 +14,7 @@ The right side of the interface is the **Preview Area** of the application.
 
 At the bottom of the **Preview Area** there are options to control the playback of the preview.
 
-<!-- <img style="max-width:700px" src="./assets/images/docs-images/playhead.png" width="100%"/> -->
+![Prism One PlayBar](/prismdocs/images/playhead.png "Prism One PlayBar")
 
 * Whether files should play once, loop as a playlist or shuffle
 * A playhead to show the current position within the file. This can be scrubbed manually by dragging the playhead along the timeline.
@@ -28,8 +28,6 @@ Further controls can be found in the main header:
 * Under the **Video** menu a reference grid can be activted to be overlayed on top of the media.
 * If the video has alpha then this can also be activated to sure a checkerboard in the transparent areas.
 
-<!-- <br/> -->
-
 ### Adding Media
 
 Media can be added and played using several different methods: 
@@ -40,9 +38,7 @@ Media can be added and played using several different methods:
   
 **Prism One** will save all files to a standard default location `Documents > Avolites > Prism > One` unless individually specified within the settings of any **Encoder Element**. The path of this folder can be changed in the **Encoder section** of the **Settings Page**. 
 
-<!-- <br/> -->
-
-### Shortcuts:
+### Shortcuts
 
 | **Functionality** | **Shortcut** |
 |-|-|

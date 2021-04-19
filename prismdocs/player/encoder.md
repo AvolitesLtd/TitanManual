@@ -1,12 +1,12 @@
 ---
 id: encoder
-title: Encoder
-sidebar_label: Encoder
+title: "Encoder"
+sidebar-label: "Encoder"
 ---
 
 The **Encoder** section allows for files to be converted from common video codecs into the **AIM** codec in preparation for use on a live production.
-<!-- 
-<img style="max-width:340px" src="./assets/images/docs-images/encoder%20details.png" width="90%" />  -->
+
+<!-- <img style="max-width:340px" src="./assets/images/docs-images/encoder%20details.png" width="90%" />  -->
 
 When a piece of media is loaded into the **Encoder**, several details about the file can be viewed
 
@@ -30,4 +30,4 @@ At the bottom of the **Encoder** queue a readout shows the completion percentage
 
 ### Import & Export
 
-Encodelists are able to be imported and exported from the application by clicking `Edit > Import / Export` from the header menu. The dialog defaults its location to the Windows Documents Folder under `Avolites > Prism > One`. Here you will find other documents such as application logs playlists and project files.
+Encodelists are able to be imported and exported from the application by clicking `Edit > Import / Export` from the header menu. The dialog defaults its location to the Windows Documents Folder under `Avolites > Prism > Player`. Here you will find other documents such as application logs playlists and project files.

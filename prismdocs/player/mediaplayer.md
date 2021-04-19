@@ -1,8 +1,7 @@
 ---
-label: "Media Player"
-url: "/playback" 
-icon: "icon-video"
-title: "Media Player"
+id: mediaplayer
+title: Media Player
+sibebar-label: Media Player
 ---
 
 ### Playback
@@ -15,7 +14,7 @@ The right side of the interface is the **Preview Area** of the application.
 
 At the bottom of the **Preview Area** there are options to control the playback of the preview: 
 
-<img style="max-width:650px" src="./assets/images/docs-images/playhead.png" width="90%"/> 
+![Prism Player PlayBar](/prismdocs/images/playhead.png "Prism Player PlayBar")
 
 * Whether files should play once, loop as a playlist or shuffle
 * A playhead to show the current position within the file. This can be scrubbed manually by dragging the playhead along the timeline. The playhead can be controlled from the bottom of the screen when in fullscreen mode.
@@ -31,8 +30,6 @@ Further controls can be found in the main header:
    
 * The application can be taken in and out of fullscreen mode by pressing <i className="icon icon-scale-up"></i>. Fullscreen mode can be exited either by pressing <i className="icon icon-scale-up"></i> at the top right of the screen or by using the *Esc* button on your keyboard.
 
-<br />
-
 ### Adding Media
 
 Media can be added and played using several different methods: 
@@ -43,7 +40,7 @@ Media can be added and played using several different methods:
   
 **Prism Player** will save all files to a standard default location `Documents > Avolites > Prism > Player` unless individually specified within the settings of any **Encoder Element**. The path of this folder can be changed in the **Encoder section** of the **Settings Page**.
 
-## Shortcuts:
+## Shortcuts
 
 | **Functionality** | **Shortcut** |
 |-|-|

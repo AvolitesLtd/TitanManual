@@ -1,8 +1,7 @@
 ---
-label: "Encoder Settings "
-url: "/encoder-settings " 
-icon: "icon-grain-effect"
-title: "Encoder Settings "
+id: encoder-settings
+title: Encoder Settings
+sibebar-label: Encoder Settings
 ---
 
 The **Encoder Settings** are used to specify various parameters of the file export:
@@ -14,13 +13,13 @@ The **Encoder Settings** are used to specify various parameters of the file expo
 * The option to Trim a video 
 * The option to Crop a video 
 
-<br />
+<!-- <br /> -->
 
 ### Trim
 
 When exporting a clip from the encoder, it is possible to adjust the frame position of the in and out points so that the resulting clip has a different duration to the original file.
 
-<img style="max-width:129px" src="./assets/images/docs-images/trim.png" width="90%"/>
+<!-- <img style="max-width:129px" src="./assets/images/docs-images/trim.png" width="90%"/> -->
 
 To adjust the trim points there are 2 aproaches.
 
@@ -29,13 +28,13 @@ To adjust the trim points there are 2 aproaches.
 
 The total duration of the exported clip may not exceed the duration of the source media and the Out Point will always have a higher frame number than the In Point.
 
-<br />
+<!-- <br /> -->
 
 ### Crop
 
 It can be desireable to crop a clip so that only the specified region of interest is encoded to the final file. To open the crop controls, press <i className="icon icon-menu-dots"></i> of the element to crop, open the **Settings** and press the **Crop Video** button at the bottom.
 
-<img style="max-width:132px" src="./assets/images/docs-images/crop.png" width="90%" />
+<!-- <img style="max-width:132px" src="./assets/images/docs-images/crop.png" width="90%" /> -->
 
 * **X** and **Y** specifies the starting pixel for the top left corner of the cropping area to be drawn from.
 * **Width** and **Height** sets the size of the area to be cropped based on the source resolution of the media, starting from the specified **X** and **Y** values. This is automatically calucalted for you as you increase the **X** and **Y** positions.

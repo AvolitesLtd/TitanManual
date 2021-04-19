@@ -34,7 +34,6 @@ module.exports={
           "path": "../docs",
           "sidebarPath": require.resolve('./sidebars.json'),
         },
-        "blog": {},
         "theme": {
           "customCss": ["../static/avolites-icons/icons.css", "../src/css/customTheme.scss"]
         }
@@ -58,6 +57,17 @@ module.exports={
 
         highlightSearchTermsOnTargetPage: true,        
       },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+          id: 'prism',
+          "path": "../prismdocs",
+          routeBasePath: 'prism',
+          // "showLastUpdateAuthor": true,
+          "showLastUpdateTime": true,
+          "sidebarPath": require.resolve('./sidebarsPrism.json'),
+        },
     ]
   ],
   "i18n": {
@@ -81,13 +91,22 @@ module.exports={
       "items": [
         {
           "to": "docs/",
-          "label": "Docs",
+          "label": "Titan",
           "position": "left"
         },
         {
-          "to": "docs/",
-          "label": "Prism",
-          "position": "left"
+          label: 'Prism',
+          position: 'left',
+          items: [
+            {
+              label: 'Player',
+              to: 'prism/player/about',
+            },
+            {
+              label: 'One',
+              to: 'prism/one/about'
+            }
+          ]
         },
         {
           "to": "/help",
@@ -104,30 +123,19 @@ module.exports={
           position: 'right',
         },
         {
-          "label": "Version",
-          "to": "docs",
-          "position": "right",
-          "items": [
-            {
-              "label": "14.0",
-              "to": "docs/",
-              "activeBaseRegex": "docs/(?!12.0|13.0|14.0|next)"
-            },
-            {
-              "label": "13.0",
-              "to": "docs/13.0/"
-            },
-            {
-              "label": "12.0",
-              "to": "docs/12.0/"
-            },
-            {
-              "label": "v15.0 Beta",
-              "to": "docs/next/",
-              "activeBaseRegex": "docs/next/(?!support|team|resources)"
-            }
-          ]
-        }
+          type: 'docsVersionDropdown',
+          position: 'right',
+          docsPluginId: 'default',
+          dropdownActiveClassDisabled: true,
+
+        },
+        // {
+        //   type: 'docsVersion',
+        //   position: 'right',
+        //   docsPluginId: 'prism',
+        //   dropdownActiveClassDisabled: true,
+
+        // }
       ]
     },
     "image": "img/avolites_share.jpg",
