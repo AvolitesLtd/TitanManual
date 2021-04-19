@@ -17,7 +17,7 @@ The **Encoder Settings** are used to specify various parameters of the file expo
 
 When exporting a clip from the encoder, it is possible to adjust the frame position of the in and out points so that the resulting clip has a different duration to the original file.
 
-<!-- <img style="max-width:129px" src="./assets/images/docs-images/trim.png" width="90%"/>  -->
+![Trim Button](/prismdocs/images/trim.png "Trim Button")
 
 To adjust the trim points there are 2 aproaches.
 
@@ -30,7 +30,7 @@ The total duration of the exported clip may not exceed the duration of the sourc
 
 It can be desireable to crop a clip so that only the specified region of interest is encoded to the final file. To open the crop controls, press <i className="icon icon-menu-dots"></i> of the element to crop, open the **Settings** and press the **Crop Video** button at the bottom.
 
-<!-- <img style="max-width:132px" src="./assets/images/docs-images/crop.png" width="90%" /> -->
+![Crop Button](/prismdocs/images/crop.png "Trim Button")
 
 * **X** and **Y** specifies the starting pixel for the top left corner of the cropping area to be drawn from.
 * **Width** and **Height** sets the size of the area to be cropped based on the source resolution of the media, starting from the specified **X** and **Y** values. This is automatically calucalted for you as you increase the **X** and **Y** positions.

@@ -8,7 +8,7 @@ The **Playlist** allows you to curate, name and order a list of different media 
 
 When a piece of media is loaded into the **Playlist**, several details about the file are shown: 
 
-<!-- <img style="max-width:340px" src="./assets/images/docs-images/playlist%20details.png" width="90%"/>  -->
+![Playlist Details](/prismdocs/images/playlistdetails.png "Playlist Details")
 
 * The name and path of the file
 * The current video codec of the file and whether it has alpha
@@ -26,7 +26,7 @@ Pressing <i className="icon icon-menu-dots"></i> on individual files allows you 
 
 The order of the files in the playlist can be changed by draging the entry up or down the list.  
 
-<!-- <img style="max-width:140px" src="./assets/images/docs-images/sendtoencoder.png" width="90%"/>  -->
+![Send to Encoder](/prismdocs/images/sendtoencoder.png "Send to Encoder")
 
 After any adjustments, when the media is ready to export, pressing the **Send To Encoder** button will send all selected files into the **Encoder** Section. All details from your media files will be preserved and setup automatically to encode into the **AIM** codec. If you have renamed your media this will also be used to set the output file name when encoding.
 

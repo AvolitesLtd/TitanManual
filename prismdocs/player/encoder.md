@@ -6,7 +6,7 @@ sidebar-label: "Encoder"
 
 The **Encoder** section allows for files to be converted from common video codecs into the **AIM** codec in preparation for use on a live production.
 
-<!-- <img style="max-width:340px" src="./assets/images/docs-images/encoder%20details.png" width="90%" />  -->
+![Encodelist Details](/prismdocs/images/encoderdetails.png "Encodelist Details")
 
 When a piece of media is loaded into the **Encoder**, several details about the file can be viewed
 
@@ -25,8 +25,6 @@ Pressing the <i className="icon icon-menu-dots"></i> at the top of the **Encoder
 The order in which the elements are arranged will be the order of the encoding queue this can be changed by dragging and dropping the element to another position in the queue.
 
 At the bottom of the **Encoder** queue a readout shows the completion percentage of the total jobs as well as the remaining time until completion. Next to this are the <i className="icon icon-button-play"></i> / <i className="icon icon-button-pause"></i> and <i className="icon icon-button-stop"></i> buttons which activate the encoder list when ready to export.
-
-<!-- <br /> -->
 
 ### Import & Export
 

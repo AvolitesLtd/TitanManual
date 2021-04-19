@@ -6,6 +6,8 @@ sidebar_label: Encoder
 
 The **Encoder** section allows for files to be converted from common video codecs into the **AIM** codec in preparation for use on a live production.
 
+![Playlist Details](/prismdocs/images/playlistdetails.png "Playlist Details")
+
 When a piece of media is loaded into the **Encoder**, several details about the file can be viewed
 
 * The codec that the media will be exported to and whether it has alpha

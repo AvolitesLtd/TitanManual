@@ -6,15 +6,12 @@ sidebar_label: Command Line
 
 The **CommandLine** is a *console* applicaiton can be opened from the system tray once **Prism Player** is running. It is a way to interact with the server which runs in the background and has most of all features that the UI executes. Typing `help` will allow you to view all functions available. Successfully called functions will also keep the UI updated.
 
-<!-- <br /> -->
 
 ### Functions
 
 The functions listed should be typed directly into the console some may require parameter(s) and some not.
 
 *Note: To enter a full filepath or folder, you can simply drag in the folder or file into the console*
-
-<!-- <div className="tableLeftAlign"> -->
 
 |**Console Functions**| **Parameters Required** | **Description**|
 |-|-|-|
@@ -97,5 +94,3 @@ The functions listed should be typed directly into the console some may require 
 | `transcoder_start` | none | Start the transcoder |
 | `transcoder_pause` | none | Pause the transcoder |
 | `transcoder_stop`  | none | Stop the transcoder  |
-
-<!-- </div> -->

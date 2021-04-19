@@ -14,7 +14,7 @@ The right side of the interface is the **Preview Area** of the application.
 
 At the bottom of the **Preview Area** there are options to control the playback of the preview: 
 
-![Prism Player PlayBar](/prismdocs/images/playhead.png "Prism Player PlayBar")
+![Play Bar](/prismdocs/images/playhead.png "Play Bar")
 
 * Whether files should play once, loop as a playlist or shuffle
 * A playhead to show the current position within the file. This can be scrubbed manually by dragging the playhead along the timeline. The playhead can be controlled from the bottom of the screen when in fullscreen mode.
