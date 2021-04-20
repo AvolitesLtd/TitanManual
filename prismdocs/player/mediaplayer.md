@@ -23,8 +23,6 @@ At the bottom of the **Preview Area** there are options to control the playback 
 * Two red dots denote the trim in and out points.
 
 Further controls can be found in the main header:
-
-* The **zoom** options under the **View** menu allows the size of the preview to be adjusted by either zooming in or out.
 * Under the **Video** menu a reference grid can be activted to be overlayed on top of the media.
 * If the video has alpha then this can also be activated to sure a checkerboard in the transparent areas.
    

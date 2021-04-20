@@ -114,506 +114,506 @@
         "en": "mute"
       }
     },
-    "key-with-icon app": {
+    "icon icon-app": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon archive-2-10": {
+    "icon icon-archive-2-10": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon archive-2-11": {
+    "icon icon-archive-2-11": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon archive-2-2": {
+    "icon icon-archive-2-2": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon archive-2-3": {
+    "icon icon-archive-2-3": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon archive-2-4": {
+    "icon icon-archive-2-4": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon archive-2-5": {
+    "icon icon-archive-2-5": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon archive-2-6": {
+    "icon icon-archive-2-6": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon archive-2-7": {
+    "icon icon-archive-2-7": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon archive-2-8": {
+    "icon icon-archive-2-8": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon archive-2-9": {
+    "icon icon-archive-2-9": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon archive-2": {
+    "icon icon-archive-2": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon archive": {
+    "icon icon-archive": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon arrow-down": {
+    "icon icon-arrow-down": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon arrow-up": {
+    "icon icon-arrow-up": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon badge-13-10": {
+    "icon icon-badge-13-10": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon badge-13-11": {
+    "icon icon-badge-13-11": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon badge-13-2": {
+    "icon icon-badge-13-2": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon badge-13-3": {
+    "icon icon-badge-13-3": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon badge-13-4": {
+    "icon icon-badge-13-4": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon badge-13-5": {
+    "icon icon-badge-13-5": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon badge-13-6": {
+    "icon icon-badge-13-6": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon badge-13-7": {
+    "icon icon-badge-13-7": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon badge-13-8": {
+    "icon icon-badge-13-8": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon badge-13-9": {
+    "icon icon-badge-13-9": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon badge-13": {
+    "icon icon-badge-13": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon bin": {
+    "icon icon-bin": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon button-pause": {
+    "icon icon-button-pause": {
+      "lang": {
+        "en": "Pause"
+      }
+    },
+    "icon icon-button-play": {
+      "lang": {
+        "en": "Play"
+      }
+    },
+    "icon icon-button-stop": {
+      "lang": {
+        "en": "Stop"
+      }
+    },
+    "icon icon-camera-20-10": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon button-play": {
+    "icon icon-camera-20-11": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon button-stop": {
+    "icon icon-camera-20-2": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon camera-20-10": {
+    "icon icon-camera-20-3": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon camera-20-11": {
+    "icon icon-camera-20-4": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon camera-20-2": {
-      "lang": {
-        "en": ""
-      }
-    },
-    "key-with-icon camera-20-3": {
-      "lang": {
-        "en": ""
-      }
-    },
-    "key-with-icon camera-20-4": {
-      "lang": {
-        "en": ""
-      }
-    },
-    "key-with-icon camera-20-5": {
+    "icon icon-camera-20-5": {
       "lang": {
         "en": ""
       }
     },
 
-    "key-with-icon camera-20-6" : {
+    "icon icon-camera-20-6" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon camera-20-7" : {
+    "icon icon-camera-20-7" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon camera-20-8" : {
+    "icon icon-camera-20-8" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon camera-20-9": {
+    "icon icon-camera-20-9": {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon camera-20" : {
+    "icon icon-camera-20" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon check" : {
+    "icon icon-check" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon computer-monitor" : {
+    "icon icon-computer-monitor" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon control" : {
+    "icon icon-control" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon copy" : {
+    "icon icon-copy" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon dashboard-level-2" : {
+    "icon icon-dashboard-level-2" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon dashboard-level-3" : {
+    "icon icon-dashboard-level-3" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon dashboard-level-4" : {
+    "icon icon-dashboard-level-4" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon dashboard-level-5" : {
+    "icon icon-dashboard-level-5" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon dashboard-level" : {
+    "icon icon-dashboard-level" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon database" : {
+    "icon icon-database" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon delete-forever" : {
+    "icon icon-delete-forever" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon delete-key" : {
+    "icon icon-delete-key" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon e-remove-1" : {
+    "icon icon-e-remove-1" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon e-remove-2" : {
+    "icon icon-e-remove-2" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon fast-back" : {
+    "icon icon-fast-back" : {
+      "lang": {
+        "en": "Next"
+      }
+    },
+    "icon icon-fast-forward" : {
+      "lang": {
+        "en": "Previous"
+      }
+    },
+    "icon icon-file-delete" : {
+      "lang": {
+        "en": "Delete"
+      }
+    },
+    "icon icon-file-upload" : {
+      "lang": {
+        "en": "Upload"
+      }
+    },
+    "icon icon-folder" : {
+      "lang": {
+        "en": "Folder"
+      }
+    },
+    "icon icon-globe" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon fast-forward" : {
+    "icon icon-grain-effect" : {
+      "lang": {
+        "en": "Encoder"
+      }
+    },
+    "icon icon-i-edit" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon file-delete" : {
+    "icon icon-ic_lock" : {
+      "lang": {
+        "en": "Lock"
+      }
+    },
+    "icon icon-ic_lock_open" : {
+      "lang": {
+        "en": "Unlock"
+      }
+    },
+    "icon icon-ram-2" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon file-upload" : {
+    "icon icon-info" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon folder" : {
+    "icon icon-layer" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon globe" : {
-      "lang": {
-        "en": ""
-      }
-    },
-    "key-with-icon grain-effect" : {
-      "lang": {
-        "en": ""
-      }
-    },
-    "key-with-icon i-edit" : {
-      "lang": {
-        "en": ""
-      }
-    },
-    "key-with-icon ic_lock" : {
-      "lang": {
-        "en": ""
-      }
-    },
-    "key-with-icon ic_lock_open" : {
-      "lang": {
-        "en": ""
-      }
-    },
-    "key-with-icon icon-ram-2" : {
-      "lang": {
-        "en": ""
-      }
-    },
-    "key-with-icon info" : {
-      "lang": {
-        "en": ""
-      }
-    },
-    "key-with-icon layer" : {
-      "lang": {
-        "en": ""
-      }
-    },
-    "key-with-icon left-arrow" : {
+    "icon icon-left-arrow" : {
       "lang": {
         "en": ""
       }
     },
     "icon icon-menu-dots" : {
       "lang": {
-        "en": "Menu"
+        "en": "Menu Dots"
       }
     },
-    "key-with-icon menu-hamburger" : {
+    "icon icon-menu-hamburger" : {
+      "lang": {
+        "en": "Hamburger Menu"
+      }
+    },
+    "icon icon-move-down-right" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon move-down-right" : {
+    "icon icon-move-up-left" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon move-up-left" : {
+    "icon icon-music" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon music" : {
+    "icon icon-new-window" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon new-window" : {
+    "icon icon-output" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon output" : {
+    "icon icon-pci-card" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon pci-card" : {
+    "icon icon-pennant" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon pennant" : {
+    "icon icon-player" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon player" : {
+    "icon icon-playmode_oneshot" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon playmode_oneshot" : {
+    "icon icon-pointing-left" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon pointing-left" : {
+    "icon icon-pointing-right" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon pointing-right" : {
+    "icon icon-redo" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon redo" : {
+    "icon icon-save" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon save" : {
+    "icon icon-scale-down" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon scale-down" : {
+    "icon icon-scale-up" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon scale-up" : {
+    "icon icon-scissors-1" : {
+      "lang": {
+        "en": "Tri - thin"
+      }
+    },
+    "icon icon-scissors-2" : {
+      "lang": {
+        "en": "Trim"
+      }
+    },
+    "icon icon-settings-gear" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon scissors-1" : {
+    "icon icon-shape-square" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon scissors-2" : {
+    "icon icon-shuffle" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon settings-gear" : {
+    "icon icon-speaker-mute" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon shape-square" : {
+    "icon icon-speaker" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon shuffle" : {
+    "icon icon-ssd" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon speaker-mute" : {
+    "icon icon-triangle-down" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon speaker" : {
+    "icon icon-triangle-left" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon ssd" : {
+    "icon icon-triangle-right" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon triangle-down" : {
+    "icon icon-triangle-up" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon triangle-left" : {
+    "icon icon-video-playlist" : {
       "lang": {
         "en": ""
       }
     },
-    "key-with-icon triangle-right" : {
+    "icon icon-video" : {
       "lang": {
         "en": ""
       }
-    },
-    "key-with-icon triangle-up" : {
-      "lang": {
-        "en": ""
-      }
-    },
-    "key-with-icon video-playlist" : {
-      "lang": {
-        "en": ""
-      }
-    },
-    "key-with-icon video" : {
-      "lang": {
-        "en": ""
-    }
     }
   }
 }

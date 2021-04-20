@@ -4,6 +4,8 @@ title: Playlist
 sibebar-label: Playlist
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The **Playlist** allows you to curate, name and order a list of different media types for playback within the media player and to prepare media files for encoding.
 
 When a piece of media is loaded into the **Playlist**, several details about the file are shown: 
@@ -20,9 +22,9 @@ The selection box at the top of the list can be used to select or deselect all o
 
 The selection box to the left of the file name determines if certain global actions are taken with the specific file, such as sending to the encoder, showing or hiding the file details or removing the selected media from the playlist.
 
-Pressing <i className="icon icon-button-play"></i> next to the file name will select that file to be shown in the preview window and will show as red when currently playing. 
+Pressing <Keys.ContextKey>Play</Keys.ContextKey> next to the file name will select that file to be shown in the preview window and will show as red when currently playing. 
 
-Pressing <i className="icon icon-menu-dots"></i> on individual files allows you to **Hide** or **Show**, **Rename** will allow the file to have a tag name or **Remove** it from the **Playlist**. Pressing this button at the top of the **Playlist** will affect all selected files. Hiding files will display the element in one line and may help to view lots of files in the list.
+Pressing <Keys.ContextKey>Menu Dots</Keys.ContextKey> on individual files allows you to **Hide** or **Show**, **Rename** will allow the file to have a tag name or **Remove** it from the **Playlist**. Pressing this button at the top of the **Playlist** will affect all selected files. Hiding files will display the element in one line and may help to view lots of files in the list.
 
 The order of the files in the playlist can be changed by draging the entry up or down the list.  
 

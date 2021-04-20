@@ -1,8 +1,10 @@
 ---
 id: mediaplayer
-title: Mediaplayer
-sidebar_label: Mediaplayer
+title: Media Player
+sidebar_label: Media Player
 ---
+
+import Keys from '@site/src/components/key.ts';
 
 ### Playback
 
@@ -18,13 +20,12 @@ At the bottom of the **Preview Area** there are options to control the playback 
 
 * Whether files should play once, loop as a playlist or shuffle
 * A playhead to show the current position within the file. This can be scrubbed manually by dragging the playhead along the timeline.
-* Pressing <i className="icon icon-scissors-2"></i> will give you the ability to set the currently playing media's playback trim in and out points.
+* Pressing <Keys.ContextKey>Trim</Keys.ContextKey> will give you the ability to set the currently playing media's playback trim in and out points.
 * Application volume control.
 * Two red dots denote the trim in and out points.
 
 Further controls can be found in the main header:
 
-* The **zoom** options under the **View** menu allows the size of the preview to be adjusted by either zooming in or out.
 * Under the **Video** menu a reference grid can be activted to be overlayed on top of the media.
 * If the video has alpha then this can also be activated to sure a checkerboard in the transparent areas.
 

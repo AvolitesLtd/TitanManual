@@ -26,6 +26,14 @@
     },
     {
       "type": "doc",
+      "id": "player/save-load"
+    },
+    {
+      "type": "doc",
+      "id": "player/system-tray"
+    },
+    {
+      "type": "doc",
       "id": "player/command-line"
     }
   ],
@@ -60,7 +68,15 @@
     },
     {
       "type": "doc",
-      "id": "player/command-line"
+      "id": "one/save-load"
+    },
+    {
+      "type": "doc",
+      "id": "one/system-tray"
+    },
+    {
+      "type": "doc",
+      "id": "one/command-line"
     }
   ]
 }
