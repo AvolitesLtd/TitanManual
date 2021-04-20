@@ -21,6 +21,7 @@
     "sass": "npm run sass-build && node-sass --watch scss/custom.scss static/custom.css --output-style compressed",
     "sass-build": "node-sass scss/custom.scss static/custom.css --output-style compressed",
     "icon-font": "fantasticon custom_icons -o static/avolites-icons --normalize 1",
+    "prism-icon-font": "fantasticon custom_icons -o static/prism-icons --normalize 1",
     "og": "node ../parse/opengraph.js",
     "pdf": "node ../parse/pdf.js",
     "docker-pdf": "cd .. && docker-compose up --build pdf",

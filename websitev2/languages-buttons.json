@@ -113,6 +113,507 @@
       "lang": {
         "en": "mute"
       }
+    },
+    "key-with-icon app": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon archive-2-10": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon archive-2-11": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon archive-2-2": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon archive-2-3": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon archive-2-4": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon archive-2-5": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon archive-2-6": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon archive-2-7": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon archive-2-8": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon archive-2-9": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon archive-2": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon archive": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon arrow-down": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon arrow-up": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon badge-13-10": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon badge-13-11": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon badge-13-2": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon badge-13-3": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon badge-13-4": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon badge-13-5": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon badge-13-6": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon badge-13-7": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon badge-13-8": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon badge-13-9": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon badge-13": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon bin": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon button-pause": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon button-play": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon button-stop": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon camera-20-10": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon camera-20-11": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon camera-20-2": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon camera-20-3": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon camera-20-4": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon camera-20-5": {
+      "lang": {
+        "en": ""
+      }
+    },
+
+    "key-with-icon camera-20-6" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon camera-20-7" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon camera-20-8" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon camera-20-9": {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon camera-20" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon check" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon computer-monitor" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon control" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon copy" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon dashboard-level-2" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon dashboard-level-3" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon dashboard-level-4" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon dashboard-level-5" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon dashboard-level" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon database" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon delete-forever" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon delete-key" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon e-remove-1" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon e-remove-2" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon fast-back" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon fast-forward" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon file-delete" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon file-upload" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon folder" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon globe" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon grain-effect" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon i-edit" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon ic_lock" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon ic_lock_open" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon icon-ram-2" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon info" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon layer" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon left-arrow" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "icon icon-menu-dots" : {
+      "lang": {
+        "en": "Menu"
+      }
+    },
+    "key-with-icon menu-hamburger" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon move-down-right" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon move-up-left" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon music" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon new-window" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon output" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon pci-card" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon pennant" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon player" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon playmode_oneshot" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon pointing-left" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon pointing-right" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon redo" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon save" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon scale-down" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon scale-up" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon scissors-1" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon scissors-2" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon settings-gear" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon shape-square" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon shuffle" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon speaker-mute" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon speaker" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon ssd" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon triangle-down" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon triangle-left" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon triangle-right" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon triangle-up" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon video-playlist" : {
+      "lang": {
+        "en": ""
+      }
+    },
+    "key-with-icon video" : {
+      "lang": {
+        "en": ""
+    }
     }
   }
 }

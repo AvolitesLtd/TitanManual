@@ -4,6 +4,8 @@ title: Encoder Settings
 sibebar-label: Encoder Settings
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The **Encoder Settings** are used to specify various parameters of the file export:
 
 * The exported name of the file 
@@ -22,7 +24,7 @@ When exporting a clip from the encoder, it is possible to adjust the frame posit
 To adjust the trim points there are 2 aproaches.
 
 * In the **Playlist**, with the file selected, press the Trim Icon on the right of the playhead. When the playhead bar turns blue, the start and finish points can be dragged to the desired location. this should then be sent to the Encoder to process.
-* In the Encoder, press <i className="icon icon-menu-dots"></i> of the element to trim, open the **Settings** and press the Trim Video button at the bottom. Values can be manually entered into both the Trim In Point and Trim Out Point boxes either by typing the value or using the arrow keys in the current fields.
+* In the Encoder, press <Keys.ContextKey>Menu</Keys.ContextKey> of the element to trim, open the **Settings** and press the Trim Video button at the bottom. Values can be manually entered into both the Trim In Point and Trim Out Point boxes either by typing the value or using the arrow keys in the current fields.
 
 The total duration of the exported clip may not exceed the duration of the source media and the Out Point will always have a higher frame number than the In Point.
 
