@@ -31,6 +31,7 @@ class Footer extends React.Component {
               Getting Started
             </a>
             <a href="https://www.avolites.com/software/help-desk" target="_blank">Support</a>
+            <a href="https://api.avolites.com/" target="_blank">API Documentation</a>
             <a href="https://www.avolites.com/privacy-policy">
               Privacy Policy
             </a>

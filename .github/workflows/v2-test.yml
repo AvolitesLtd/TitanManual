@@ -1,0 +1,107 @@
+name: v2 Test
+
+on:
+  workflow_dispatch
+
+env:
+  NODE_VERSION: '12.x'
+
+jobs:  
+  app:
+    name: App Build
+
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+
+    steps:
+      - name: Context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
+      
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install Dependencies
+        run: |
+          cd websitev2
+          npm install
+          mkdir downloads
+
+      - name: Linux/Mac App Build & Copy to downloads
+        if: matrix.os != 'windows-latest'
+        run: |
+          cd websitev2
+          GH_TOKEN=${{secrets.GITHUB_TOKEN}} npm run app-build
+          mv dist/*.zip dist/*.dmg dist/*.deb dist/*.AppImage downloads || true
+
+      - name: Windows App Build & Copy to downloads
+        if: matrix.os == 'windows-latest'
+        run: |
+          cd websitev2
+          npm run app-build
+          mv dist/*.exe downloads
+          mv dist/*.zip downloads
+
+        env:
+          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: ${{matrix.os}}
+          path: website/downloads
+          
+  pdf:
+    name: PDF
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: PDF Docker Build
+        run: |
+          docker-compose run pdf
+          mkdir downloads
+          mv parse/output/*.pdf downloads
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: 'PDF'
+          path: downloads
+  web:
+    name: Web Build and Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ env.NODE_VERSION }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+    - name: npm install, build, and test
+      run: |
+        cd websitev2
+        npm install
+        npm run download
+        npm run build --if-present
+        npm run test --if-present
+    - name: Deploy
+      uses: Pendect/action-rsyncer@v1.1.0
+      env:
+        DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
+      with:
+        flags: '-avzr --delete'
+        options: ''
+        ssh_options: ''
+        src: 'website/build/AvoDocs/'
+        dest: 'root@176.58.122.97:/var/www/sites/avodocs/'
