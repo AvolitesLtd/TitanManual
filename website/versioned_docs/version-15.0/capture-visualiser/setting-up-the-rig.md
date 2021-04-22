@@ -45,7 +45,7 @@ Press the \{Position - Orientation\} context menu button to
 switch the wheels to Visualiser mode *(or press Softkey G at the top
 level menu until the display shows Wheels-Visualiser)*.
 
-Select <\Position\> attribute, then use the wheels to change the X/Y/Z
+Select \<Position\> attribute, then use the wheels to change the X/Y/Z
 position of the fixture(s). If you select multiple fixtures, pressing
 the \{Scale-Fan\} context menu button or the \<Fan\> button allows you to
 evenly spread out the fixtures. The [Fan curve/group/split options](../controlling-fixtures/changing-fixture-attributes.md#fan-mode) also
