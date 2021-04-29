@@ -1,7 +1,8 @@
 ---
-id: setting-up-the-rig 
+id: version-15.0-setting-up-the-rig
 title: Setting up the Rig
 sidebar_label: Setting up the Rig
+original_id: setting-up-the-rig
 ---
 
 Setting up the Stage and Rigging

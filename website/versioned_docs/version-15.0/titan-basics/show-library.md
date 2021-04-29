@@ -1,7 +1,8 @@
 ---
-id: show-library
+id: version-15.0-show-library
 title: Show Library
 sidebar_label: Show Library
+original_id: show-library
 ---
 
 The Show Library window collects all the information about your show
