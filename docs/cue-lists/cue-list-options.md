@@ -9,7 +9,7 @@ import Keys from '@site/src/components/key.ts';
 Cue list options are set from the playback [Options](../cues/playback-options.md). 
 Press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey on the top level menu) then the **Select** button for the cue list you wish to edit.
 
-You can also set the cue list options from the Cue List View window by pressing <Keys.HardKey>Open\/View</Keys.HardKey>
+You can also set the cue list options from the Cue List View window by pressing <Keys.HardKey>Open/View</Keys.HardKey>
 then the **Select** button of the cue list, then click the **Options** tab.
 
 The Cue List options are mostly the same as for [Cues](../cues/playback-options.md) and [Chases](../chases/chase-options.md), only
@@ -111,5 +111,5 @@ not programmed in the next cue. This can be useful for creating
 some effects.
 
 > The **Cue Options** which could be set here in previous versions are now set using the Playback View window,
-press <Keys.HardKey>Open\/View</Keys.HardKey> then the select button for the playback. You can edit cue settings directly in the grid.
+press <Keys.HardKey>Open/View</Keys.HardKey> then the select button for the playback. You can edit cue settings directly in the grid.
 

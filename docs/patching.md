@@ -22,7 +22,7 @@ Patching is the process where you tell the console
 
 -   Particular option settings for each fixture.
 
-  > Before you start rigging, you can use the console to work out the DMX addresses for the fixtures in your rig. Patch them on the console (or simulator), then press <Keys.HardKey>Open\/View</Keys.HardKey>, <Keys.HardKey>Patch</Keys.HardKey> to show the Patch View window. This will use the DMX channels as efficiently as possible without leaving any gaps.
+  > Before you start rigging, you can use the console to work out the DMX addresses for the fixtures in your rig. Patch them on the console (or simulator), then press <Keys.HardKey>Open/View</Keys.HardKey>, <Keys.HardKey>Patch</Keys.HardKey> to show the Patch View window. This will use the DMX channels as efficiently as possible without leaving any gaps.
 
 If your fixtures are RDM equipped, the console can patch itself from the
 rig, see [Patching by RDM](./patching/patching-new-fixtures-or-dimmers.md#patching-by-rdm).

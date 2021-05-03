@@ -165,7 +165,7 @@ in the <Keys.SoftKey>Advanced Options</Keys.SoftKey> menu of the cue list record
 
 To manually edit autoloads use the playback view for the cue list:
 
-1. Press <Keys.HardKey>Open\/View</Keys.HardKey>
+1. Press <Keys.HardKey>Open/View</Keys.HardKey>
 
 2. Press the **Select button** of the Cue List.
 

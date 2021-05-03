@@ -124,7 +124,7 @@ out to show that the playback is now inactive.
 
 ### Creating a Playback Group
 
-First open the Playback Groups workspace by double pressing <Keys.HardKey>Open\/View</Keys.HardKey> then press <Keys.SoftKey>Playback Groups</Keys.SoftKey>
+First open the Playback Groups workspace by double pressing <Keys.HardKey>Open/View</Keys.HardKey> then press <Keys.SoftKey>Playback Groups</Keys.SoftKey>
 from the window select buttons.
 
 ![Empty playback groups workspace](/docs/images/Empty-playback-groups-workspace.png)
@@ -353,7 +353,7 @@ Virtual faders
 -----------------
 
 If you need more playbacks and you're happy to operate them on a touchscreen fader, you can use the
-Virtual Faders workspace window (double press <Keys.HardKey>Open\/View</Keys.HardKey> then press <Keys.SoftKey>Virtual Faders</Keys.SoftKey> from the window
+Virtual Faders workspace window (double press <Keys.HardKey>Open/View</Keys.HardKey> then press <Keys.SoftKey>Virtual Faders</Keys.SoftKey> from the window
 select buttons). 
 This provides 10 more paged faders which work exactly the same as the hardware playback faders. 
 A roller display at the left side allows you to select different pages.
@@ -412,8 +412,8 @@ Viewing active playbacks
 
 The Active Playbacks window shows details of which playbacks are active.
 This provides an easy way to see what is currently running. To open this
-window double press <Keys.HardKey>Open\/View</Keys.HardKey> then select <Keys.SoftKey>Active Playbacks</Keys.SoftKey>, or use the
-shortcut <Keys.HardKey>Open\/View</Keys.HardKey> + <Keys.HardKey>Off</Keys.HardKey>.
+window double press <Keys.HardKey>Open/View</Keys.HardKey> then select <Keys.SoftKey>Active Playbacks</Keys.SoftKey>, or use the
+shortcut <Keys.HardKey>Open/View</Keys.HardKey> + <Keys.HardKey>Off</Keys.HardKey>.
 
 The top line of the button shows the page number and tells you where on
 the desk the playback is stored. The second line shows the legend, and

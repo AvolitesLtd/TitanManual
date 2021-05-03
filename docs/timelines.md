@@ -23,7 +23,7 @@ or by adding them manually at specific times. You can think of a timeline as an 
 system to push the faders and buttons on the console. The actions recorded in a timeline
 are called **triggers**.
 
-Once you have recorded a timeline there is a **Timeline View** window to show and edit the triggers -  press <Keys.HardKey>Open\/View</Keys.HardKey> then the **select button** of the handle containing the timeline, or tap the playback legend area above the fader. The view also opens automatically when you record a new timeline.
+Once you have recorded a timeline there is a **Timeline View** window to show and edit the triggers -  press <Keys.HardKey>Open/View</Keys.HardKey> then the **select button** of the handle containing the timeline, or tap the playback legend area above the fader. The view also opens automatically when you record a new timeline.
 
 ![Playback View of Timeline](/docs/images/Timeline-Window.png)
 
@@ -67,7 +67,7 @@ Selecting timecode source
 
 You can select one of the four available timecode sources to control your timeline from the [Timeline Options](./timelines/timeline-options.md#timecode-tab).
 
-To set up and enable each of the timecode sources as Internal, MIDI, Clock or SMPTE use the <Keys.SoftKey>Timecode</Keys.SoftKey> softkey at the top level main menu or double press <Keys.HardKey>Open\/View</Keys.HardKey> and open the appropriate **Timecode window**.
+To set up and enable each of the timecode sources as Internal, MIDI, Clock or SMPTE use the <Keys.SoftKey>Timecode</Keys.SoftKey> softkey at the top level main menu or double press <Keys.HardKey>Open/View</Keys.HardKey> and open the appropriate **Timecode window**.
 
 Timecode linking and local timecode controls
 ------------------

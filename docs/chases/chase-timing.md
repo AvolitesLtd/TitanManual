@@ -57,7 +57,7 @@ lot of different timings or link/unlinks. See [Cue Lists](../cue-lists.md).
 ### Using the Playback View Window
 
 1. Touch the playback display relating to the fader, or press
-<Keys.HardKey>Open\/View</Keys.HardKey> then the **select** button of the playback. The Playback View
+<Keys.HardKey>Open/View</Keys.HardKey> then the **select** button of the playback. The Playback View
 window will open.
 ![Playback View for chase](/docs/images/Playback-View-for-chase.png)
 
@@ -116,7 +116,7 @@ set attribute times.
 
 To set an attribute group fade time:
 
-1. Press <Keys.HardKey>Open\/View</Keys.HardKey> or <Keys.HardKey>Unfold</Keys.HardKey>, then the **Select** button of the chase
+1. Press <Keys.HardKey>Open/View</Keys.HardKey> or <Keys.HardKey>Unfold</Keys.HardKey>, then the **Select** button of the chase
 to be edited.
 
 2. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> then touch the cue you want to edit in the

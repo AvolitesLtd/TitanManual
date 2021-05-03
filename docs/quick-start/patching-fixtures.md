@@ -27,7 +27,7 @@ To change DMX address or line, use <Keys.SoftKey>[Repatch Fixtures](../patching/
 
 ## View fixture patch
 
-To see an overview screen of how the console is patched, press <Keys.HardKey>Open\/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey> to open 
+To see an overview screen of how the console is patched, press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey> to open 
 [Patch View](../patching/changing-the-patch.md#patch-view).
 
 ## Setting fixture options

@@ -19,7 +19,7 @@ Intensity/Dimmer, Colour, Gobo etc), then turn the wheels to set
 fixture. Display shows which attribute each wheel is controlling.
 (See [Changing Attributes Using the Wheels](../controlling-fixtures/changing-fixture-attributes.md#changing-attributes-using-the-wheels)).
 
-[Open Attribute window](../controlling-fixtures/changing-fixture-attributes.md#attribute-editor-window) on-screen (<Keys.HardKey>Open\/View</Keys.HardKey> then one of the attribute
+[Open Attribute window](../controlling-fixtures/changing-fixture-attributes.md#attribute-editor-window) on-screen (<Keys.HardKey>Open/View</Keys.HardKey> then one of the attribute
 bank buttons such as <Keys.HardKey>Position</Keys.HardKey> or <Keys.HardKey>Intensity</Keys.HardKey>) to select attributes
 from buttons and to control sub-fixtures of battens/arrays.
 (See [Fixtures with Multiple Cells](../controlling-fixtures.md#fixtures-with-multiple-cells-subfixtures)).
@@ -48,7 +48,7 @@ shapes.
 At top menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, \[[Shape Generator](../effects/shape-generator.md)],
 <Keys.SoftKey>Create</Keys.SoftKey>. Select attribute of shape then select a shape to run.
 
-Or from the Shape Library window (double press <Keys.HardKey>Open\/View</Keys.HardKey>, 
+Or from the Shape Library window (double press <Keys.HardKey>Open/View</Keys.HardKey>, 
 <Keys.SoftKey>Shape Library</Keys.SoftKey>) you can select a shape directly. Filter the
 list of shapes using the attribute buttons.
 

@@ -31,7 +31,7 @@ the buttons using [Key Profiles](../system-settings/key-profiles.md).
 [](https://youtu.be/E8QxOKT5TCA?t=20 "Recording Groups")
 
 If the Groups window is not visible, you can show it by pressing
-<Keys.HardKey>Open\/View</Keys.HardKey>, <Keys.HardKey>Group</Keys.HardKey> (above numeric keys).
+<Keys.HardKey>Open/View</Keys.HardKey>, <Keys.HardKey>Group</Keys.HardKey> (above numeric keys).
 
 1. Select the fixtures/dimmers you want in the group (the order in
 which you select them will also be stored in the group).

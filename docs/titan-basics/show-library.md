@@ -13,7 +13,7 @@ consoles with fewer faders, but can also be used to move items around
 within your show.
 
 <<<<<<< HEAD
-Double press <Keys.HardKey>Open\/View</Keys.HardKey> then press <Keys.SoftKey>Show Library</Keys.SoftKey> from the window
+Double press <Keys.HardKey>Open/View</Keys.HardKey> then press <Keys.SoftKey>Show Library</Keys.SoftKey> from the window
 =======
 Double press \<Open/View\> then press \[Show Library\] from the window
 >>>>>>> master
