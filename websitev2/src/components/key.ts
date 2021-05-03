@@ -20,4 +20,5 @@ export default {
     SoftKey: Key('softkey'),
     HardKey: Key('key'),
     RedKey: Key('key red'),
+    Annotation: Key('annotate')
 };

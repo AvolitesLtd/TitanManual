@@ -15,9 +15,9 @@ Select and Flash buttons
 
 Each fader handle on the console has buttons associated with it. 
 
-\(A\) **Select** button
+<Keys.Annotation>A</Keys.Annotation> **Select** button
 
-\(B\) **Flash** button
+<Keys.Annotation>B</Keys.Annotation> **Flash** button
 
 On the **Diamond 9** the buttons are arranged like this for the rotary faders and the linear faders:
 
