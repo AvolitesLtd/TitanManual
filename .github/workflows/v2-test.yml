@@ -34,10 +34,14 @@ jobs:
 
       - name: Install Dependencies
         run: |
+<<<<<<< HEAD
           cd websitev2/docusaurus-search-local
           yarn install
           yarn build
           cd ../
+=======
+          cd websitev2
+>>>>>>> master
           npm install
           mkdir downloads
 
@@ -63,7 +67,11 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: ${{matrix.os}}
+<<<<<<< HEAD
           path: websitev2/downloads
+=======
+          path: website/downloads
+>>>>>>> master
           
   pdf:
     name: PDF
@@ -84,20 +92,27 @@ jobs:
         with:
           name: 'PDF'
           path: downloads
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
   web:
     name: Web Build and Deploy
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+<<<<<<< HEAD
       with:
         submodules: recursive
+=======
+>>>>>>> master
     - name: Use Node.js ${{ env.NODE_VERSION }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ env.NODE_VERSION }}
     - name: npm install, build, and test
       run: |
+<<<<<<< HEAD
         cd websitev2/docusaurus-search-local
         yarn install
         yarn build
@@ -105,6 +120,13 @@ jobs:
         npm install
         npm run download
         npm run build --if-present
+=======
+        cd websitev2
+        npm install
+        npm run download
+        npm run build --if-present
+        npm run test --if-present
+>>>>>>> master
     - name: Deploy
       uses: Pendect/action-rsyncer@v1.1.0
       env:
@@ -113,5 +135,10 @@ jobs:
         flags: '-avzr --delete'
         options: ''
         ssh_options: ''
+<<<<<<< HEAD
         src: 'websitev2/build/'
         dest: 'root@176.58.122.97:/var/www/sites/avodocs/'
+=======
+        src: 'website/build/AvoDocs/'
+        dest: 'root@176.58.122.97:/var/www/sites/avodocs/'
+>>>>>>> master
