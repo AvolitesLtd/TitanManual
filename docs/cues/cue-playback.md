@@ -16,15 +16,15 @@ Combining Cues with HTP and LTP
 Control channels are handled in two ways:
 
 -   Dimmer or intensity channels work on the principle of **"Highest Takes
-    Precedence" (HTP)**. If an HTP channel is active at different levels
-    in several cues, the highest level will be output. When you fade out
-    a cue, the HTP channels fade out with it.
+ Precedence" (HTP)**. If an HTP channel is active at different levels
+ in several cues, the highest level will be output. When you fade out
+ a cue, the HTP channels fade out with it.
 
 -   All other channels work on the principle of **"Latest Takes
-    Precedence" (LTP)**. The latest change takes over from any other
-    values, so the most recent cue to be turned on is the one which is
-    output. When you fade out a cue, LTP channels retain their values
-    until changed by another cue.
+ Precedence" (LTP)**. The latest change takes over from any other
+ values, so the most recent cue to be turned on is the one which is
+ output. When you fade out a cue, LTP channels retain their values
+ until changed by another cue.
 
 Playing Back a Cue
 ------------------
@@ -36,47 +36,47 @@ in the programmer will override the playback).
 -   You can fire several cues at once.
 
 -   The HTP levels in the cue will be mastered by the fader level; for
-    example if you set the fader at 50% then all HTP levels will be 50%
-    of their programmed values.
+ example if you set the fader at 50% then all HTP levels will be 50%
+ of their programmed values.
 
 -   LTP channels are triggered as soon as the fader goes above 0%. If a
-    fade time is programmed the LTP channels will start to fade; if
-    there is no fade time they will snap to position *(unless the cue is
-    set to Mode 2 in which case they fade with the fader position; see
-    the timings section [Fader Modes](cue-timing.md#fade-modes) for details of modes)*.
+ fade time is programmed the LTP channels will start to fade; if
+ there is no fade time they will snap to position *(unless the cue is
+ set to Mode 2 in which case they fade with the fader position; see
+ the timings section [Fader Modes](cue-timing.md#fade-modes) for details of modes)*.
 
 -   You can **Flash** the cue by pressing the Flash button. You can
-    **Swop** (solo) the cue by pressing the Select button (all other
-    active cues will turn off while the button is pressed). This assumes
-    you haven't reassigned the function of the buttons using
-    [Key Profiles](../system-settings/key-profiles.md), see below.
+ **Swop** (solo) the cue by pressing the Select button (all other
+ active cues will turn off while the button is pressed). This assumes
+ you haven't reassigned the function of the buttons using
+ [Key Profiles](../system-settings/key-profiles.md), see below.
 
 -   You can **Preload** the cue by assigning the Preload function to one of the
-    handle buttons using
-    [Key Profiles](../system-settings/key-profiles.md). Preload sets the attributes
-    of fixtures in the playback which are not currently active in any
-    other playbacks. *This is useful to avoid the fixtures visibly moving
-    into position or changing colours or gobos when you raise the fader
-    of the cue.*\
-    To assign Preload, hold <Keys.HardKey>Avo</Keys.HardKey> and press \[Edit
-    Key Profile\], then press the button you want to assign (also see
-    [Key Profiles](../system-settings/key-profiles.md)). Note that this will assign the function
-    to all buttons of the same type.
+ handle buttons using
+ [Key Profiles](../system-settings/key-profiles.md). Preload sets the attributes
+ of fixtures in the playback which are not currently active in any
+ other playbacks. *This is useful to avoid the fixtures visibly moving
+ into position or changing colours or gobos when you raise the fader
+ of the cue.*\
+ To assign Preload, hold <Keys.HardKey>Avo</Keys.HardKey> and press \[Edit
+ Key Profile\], then press the button you want to assign (also see
+ [Key Profiles](../system-settings/key-profiles.md)). Note that this will assign the function
+ to all buttons of the same type.
 
 -   You can fire a one-shot cue with timings by assigning the Go
-    function to one of the handle buttons using
-    [Key Profiles](../system-settings/key-profiles.md). This
-    allows you to fire the cue without needing to hold down a button
-    while the timing completes. You can also fire the cue again without
-    needing to release it.
+ function to one of the handle buttons using
+ [Key Profiles](../system-settings/key-profiles.md). This
+ allows you to fire the cue without needing to hold down a button
+ while the timing completes. You can also fire the cue again without
+ needing to release it.
 
 -   You can set playbacks to high **priority** if you do not want them to be
-    overridden by other playbacks using the same fixtures. For example,
-    if you have a couple of fixtures acting as a spotlight, but they are
-    also programmed into some colour washes, you probably want the
-    spotlight cue to take priority over the colour washes. See 
-    [Priority](playback-options.md#priority) in
-    playback [Options](playback-options.md).
+ overridden by other playbacks using the same fixtures. For example,
+ if you have a couple of fixtures acting as a spotlight, but they are
+ also programmed into some colour washes, you probably want the
+ spotlight cue to take priority over the colour washes. See 
+ [Priority](playback-options.md#priority) in
+ playback [Options](playback-options.md).
 
 Changing Playback Pages
 -----------------------
@@ -87,8 +87,8 @@ roller graphic on the screen. If you touch the middle of the roller
 graphic you can jump to a page number by entering the number.
 
 >   If you have stored cues on the touch select buttons, you select
-    different pages using the Playbacks page touch buttons.
-    
+ different pages using the Playbacks page touch buttons.
+ 
 ---
 
 If you change to a new page while some playbacks are fired, the playbacks on the old page remain active.
@@ -100,20 +100,20 @@ depending on whether your console has motorised faders or not.
 ### Consoles without Motorised Faders
 
 -   The default mode is <Keys.SoftKey>Always Hold</Keys.SoftKey>. If you
-    want to fire a cue on a fader which is already up from a previous
-    page, lower the fader to zero then raise it again. The cue from the
-    previous page will stop and the cue from the new page will fire.
+ want to fire a cue on a fader which is already up from a previous
+ page, lower the fader to zero then raise it again. The cue from the
+ previous page will stop and the cue from the new page will fire.
 
 -   If changed to <Keys.SoftKey>Never Hold</Keys.SoftKey> then you can have active faders on
-    multiple pages by level matching the fader. To fire a playback on a new
-    page you have to return the fader to zero (the playback on the old page will continue).
-    When you raise the fader, the playback on the new page will fire. 
-    If you return to a page with an active playback, the fader will not
-    resume control of the playback until it matches the current level of
-    the playback. This prevents the playback level jumping when the
-    fader is first moved. If a playback is active from another page the
-    display area is purple and shows the page number at the top in light
-    blue. 
+ multiple pages by level matching the fader. To fire a playback on a new
+ page you have to return the fader to zero (the playback on the old page will continue).
+ When you raise the fader, the playback on the new page will fire. 
+ If you return to a page with an active playback, the fader will not
+ resume control of the playback until it matches the current level of
+ the playback. This prevents the playback level jumping when the
+ fader is first moved. If a playback is active from another page the
+ display area is purple and shows the page number at the top in light
+ blue. 
 
 The setting <Keys.SoftKey>Normal</Keys.SoftKey> gives the default state, for consoles 
 without motorised faders this is <Keys.SoftKey>Always Hold</Keys.SoftKey>.
@@ -121,13 +121,13 @@ without motorised faders this is <Keys.SoftKey>Always Hold</Keys.SoftKey>.
 ### Consoles with Motorised Faders
 
 -   The default mode is <Keys.SoftKey>Never Hold</Keys.SoftKey>. When you change pages the playback faders will move
-    to show the state of the playbacks on that page and you can directly control all playbacks on the page.
-    If you want to kill a playback on a previous page you need to return to the page it is on and lower the fader
-    back to zero. If a playback is active from another page the display
-    area is purple and shows the page number at the top in light blue.
+ to show the state of the playbacks on that page and you can directly control all playbacks on the page.
+ If you want to kill a playback on a previous page you need to return to the page it is on and lower the fader
+ back to zero. If a playback is active from another page the display
+ area is purple and shows the page number at the top in light blue.
 
 -   If changed to <Keys.SoftKey>Always Hold</Keys.SoftKey> then each fader can be active only on one page 
-    at any time - so the console behaves as if it did not have motorised faders, see above.
+ at any time - so the console behaves as if it did not have motorised faders, see above.
 
 The setting <Keys.SoftKey>Normal</Keys.SoftKey> gives the default state, for consoles 
 with motorised faders this is <Keys.SoftKey>Never Hold</Keys.SoftKey>.
@@ -135,15 +135,15 @@ with motorised faders this is <Keys.SoftKey>Never Hold</Keys.SoftKey>.
 ---
 
 -   You can set a legend for each playback page. The legend is shown on
-    the 'Pages' roller on the screen. Use <Keys.SoftKey>Set Legend</Keys.SoftKey> from the main
-    Program menu then <Keys.SoftKey>Page Legends</Keys.SoftKey>. While in this menu you can
-    change the page to set legends for different pages.
+ the 'Pages' roller on the screen. Use <Keys.SoftKey>Set Legend</Keys.SoftKey> from the main
+ Program menu then <Keys.SoftKey>Page Legends</Keys.SoftKey>. While in this menu you can
+ change the page to set legends for different pages.
 
 -   If your console features the 20 executor buttons on the top right of
-    the console, they can be paged using two of the macro buttons. The
-    page change macros are part of the fixture library; if you do not
-    see the macros, download and install the latest library. The same
-    applies to the 10 static playback faders on the Tiger Touch.
+ the console, they can be paged using two of the macro buttons. The
+ page change macros are part of the fixture library; if you do not
+ see the macros, download and install the latest library. The same
+ applies to the 10 static playback faders on the Tiger Touch.
 
 Viewing Active Playbacks
 ------------------------
@@ -291,8 +291,8 @@ individually as you have set it.
 5. The Release state is saved.
 
 >   To test, fire some playbacks, then release them by pressing
-    <Keys.HardKey>Release</Keys.HardKey> followed by the select button of the playback. The
-    fixtures should return to your programmed release state.
+ <Keys.HardKey>Release</Keys.HardKey> followed by the select button of the playback. The
+ fixtures should return to your programmed release state.
 
 Turning Off Individual Fixtures
 -------------------------------

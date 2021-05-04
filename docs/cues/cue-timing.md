@@ -37,7 +37,8 @@ You can also edit times of a cue you have already saved like this:
 
 2. Press the **Select** button of the cue
 
-3. Press <Keys.SoftKey>Fade Mode x</Keys.SoftKey> to set the cue mode.\
+3. Press <Keys.SoftKey>Fade Mode x</Keys.SoftKey> to set the cue mode.
+
 *This sets how the times are used, [see below](#fade-modes).*
 
 4. Press <Keys.SoftKey>Delay time</Keys.SoftKey> to set the delay before the cue starts, \[Fade
@@ -48,11 +49,15 @@ the fade-out time of the cue.
 <Keys.HardKey>Enter</Keys.HardKey> to save it.
 
 6. Press <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> to change the overlap, then enter **0 - 100** on
-the keypad.\
-**100%** means all fixtures fade together.\
-**0%** means that the first fixture will finish its fade before the next one starts.\
-**50%** means that the 2^nd^ fixture will start fading when the first one is half way
-through its fade.\
+the keypad.
+
+ **100%** means all fixtures fade together.
+
+ **0%** means that the first fixture will finish its fade before the next one starts.
+
+ **50%** means that the 2<sup>nd</sup> fixture will start fading when the first one is half way
+through its fade.
+
 The order of the fixtures is set by the order you selected them *(but you
 can change this, see [Changing Fixture Order](#changing-fixture-order))*.
 
@@ -93,9 +98,11 @@ The times you enter are affected by the cue mode which is set using the
     will stop half way to their programmed position. You can reverse the
     fade back to the original position by moving the fader back. If
     times are set to zero, both HTP and LTP channels are controlled by
-    the fader position.\
+    the fader position.
+
     In this mode LTP channels revert to their previous settings when the
-    cue is deactivated.\
+    cue is deactivated.
+
     *Mode 2 is useful when used with a pan/tilt cue for manually tracking
     a spot across a stage or down a catwalk using the fader position, or
     for colour mixing using RGB fixtures.*
