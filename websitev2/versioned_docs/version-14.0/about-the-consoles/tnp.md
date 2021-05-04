@@ -6,6 +6,8 @@ description: The TitanNet Processor is the insides of a console without the cont
 original_id: tnp
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 ![TNP](/docs/images/TNP.png)
 
 The TitanNet Processor is the insides of a console without the control
