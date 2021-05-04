@@ -7,9 +7,8 @@ const Key = (tag: string): ReactNode => {
       let extraClass = '';
       for (const [cls, trans] of Object.entries(transButtons.context))
         for (const [lang, tran] of Object.entries(trans['lang']))
-         if(props.children == tran)
+         if(typeof props.children == 'string' && props.children.toLowerCase() == tran)
            extraClass += cls;
-
       return React.createElement('span', {className: `${tag} ${extraClass}`, ...props});
     };
   };
