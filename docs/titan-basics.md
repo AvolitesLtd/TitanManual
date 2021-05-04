@@ -92,12 +92,9 @@ the first time until you have installed the **Titan PC Suite** software,
 which you do simply by running the installer file. This will make sure
 the drivers for the panel are installed.
 
->	**PC specifications:** From Titan v14, your PC should be running Windows 10 64-bit (other versions 
-	may not work correctly and we can't provide you with support). Some users have
-	successfully used Virtual Machines to run Titan, but we don't provide support for them.
-    We recommend i5 processor with 4GB RAM as a minimum.	
-	Please
-  [see https://avolites.com/titan-pc-system-requirements](https://avolites.com/titan-pc-system-requirements/) for the full specification.
+> **PC specifications:** From Titan v14, your PC should be running Windows 10 64-bit (other versions may not work correctly and we can't provide you with support). Some users have successfully used Virtual Machines to run Titan, but we don't provide support for them.
+We recommend i5 processor with 4GB RAM as a minimum.	
+Please [see https://avolites.com/titan-pc-system-requirements](https://avolites.com/titan-pc-system-requirements/) for the full specification.
 
 For best usability, your PC should have a touch screen. If not you can
 use the mouse to select touch buttons.
@@ -200,15 +197,15 @@ touchscreen drivers.
 Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) will also support 2 additional monitors if the PC
 you are using has the facility.
 
-An external monitor is disabled by default and will show a \'disabled\'
+An external monitor is disabled by default and will show a 'disabled'
 message. To enable, switch to **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and
 select <Keys.SoftKey>Display Setup</Keys.SoftKey> then press <Keys.SoftKey>External Display Disconnected</Keys.SoftKey>.
 The option will change to <Keys.SoftKey>External Display Connected</Keys.SoftKey> and the display
 will be enabled.
 
 If you need to change the monitor resolution or settings on a console, touch
-\'Tools\' at the very top of the screen and select \'Control Panel\',
-then \'External Monitor\', then select the option to match the
+'Tools' at the very top of the screen and select 'Control Panel',
+then 'External Monitor', then select the option to match the
 resolution of your monitor.
 
 Click [here](system-settings/external-displays.md) for more information about

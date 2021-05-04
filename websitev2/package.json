@@ -52,8 +52,8 @@
     "node-sass": "^4.14.1"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.72",
-    "@docusaurus/preset-classic": "2.0.0-alpha.72",
+    "@docusaurus/core": "2.0.0-alpha.75",
+    "@docusaurus/preset-classic": "2.0.0-alpha.75",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.1.12",
     "minimist": "^1.2.5",

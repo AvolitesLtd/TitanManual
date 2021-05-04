@@ -48,7 +48,8 @@ allocate a button using the Patch menu (described below) or the [Patch View](./c
 2. <Keys.SoftKey>DMX Line=</Keys.SoftKey> shows you which of the DMX output lines you are
 patching onto. Enter a new number to change the line. <Keys.SoftKey>Address = </Keys.SoftKey>
 shows the DMX address about to be patched. You can change this by typing
-in the new address on the numeric keypad and pressing <Keys.HardKey>Enter</Keys.HardKey>.\
+in the new address on the numeric keypad and pressing <Keys.HardKey>Enter</Keys.HardKey>.
+
 ![DMX Line](/docs/images/DMX-Line.png)
 
 3. To patch a single dimmer, press a Fixture touch button, a

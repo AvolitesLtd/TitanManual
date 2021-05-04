@@ -13,15 +13,19 @@ The Diamond 9 has the following main control areas. There are two models, the
 D9-330 as shown and the compact D9-215 which has two main touchscreens and
 fewer playback faders:
 
-<Keys.Annotation>A</Keys.Annotation> The three main **Touch screens** (two on D9-215) contain fixture, palette and group select
+
+<Keys.Annotation>A</Keys.Annotation> The three main <strong>Touch screens</strong> (two on D9-215) contain fixture, palette and group select
 buttons. At the bottom of the right-hand screen, the current wheel assignments
 are shown along with legends for the 15 Macro Keys. At the top and bottom of
 the left-hand screen(s), handle legends for the main faders and encoders are shown.
 
-<Keys.Annotation>B</Keys.Annotation> The **Playback faders** and **Rotary playback faders**
+
+<Keys.Annotation>B</Keys.Annotation> 
+The **Playback faders** and **Rotary playback faders**
  select and control cues, cue lists and chases, and other configurable functions.
  (D9-215 only has the right hand set of faders).
 
+å
 <Keys.Annotation>C</Keys.Annotation> The **System Prompt and Menu Softkeys** have their own touchscreen.
 
 <Keys.Annotation>D</Keys.Annotation> The **Programming and setup controls** configure and program the console,
@@ -72,9 +76,12 @@ which can be set to a user-configurable halo colour.
 The touch screen above the faders shows information about
 each playback.
 
-<Keys.Annotation>L</Keys.Annotation> The **Page Select buttons** let you change the left or right
+test
+<Keys.Annotation>L</Keys.Annotation> 
+The **Page Select buttons** let you change the left or right
 fader banks to a different page
 of playbacks (for both the playback faders and the lower rotary faders). 
+<br/>
 
 <Keys.Annotation>M</Keys.Annotation> The **Macro Buttons** store playbacks or frequently used sequences of keypresses
 which can be replayed with a single button press. The display immediately above the buttons shows legends for

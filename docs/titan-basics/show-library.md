@@ -12,11 +12,7 @@ importing parts of previous shows, or when moving shows to a Titan
 consoles with fewer faders, but can also be used to move items around
 within your show.
 
-<<<<<<< HEAD
 Double press <Keys.HardKey>Open/View</Keys.HardKey> then press <Keys.SoftKey>Show Library</Keys.SoftKey> from the window
-=======
-Double press \<Open/View\> then press \[Show Library\] from the window
->>>>>>> master
 select buttons to
 open the window (or if in the root menu, <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>,
 <Keys.SoftKey>Show Library</Keys.SoftKey>).
