@@ -503,35 +503,42 @@ You can select different curves to use when in Fan mode. Hold down
 
 -   Line: Traditional fan, the first and last selected fixture are
     affected equally in opposite directions, the midpoint remains
-    unchanged. This is most useful for pan.\
+    unchanged. This is most useful for pan.
+
     ![Fan Line](/docs/images/Fan-Line.png)
 
 -   Mirror- Divides the selection into two halves, the position in each
-    half is the mirror of the other half\
+    half is the mirror of the other half
+
     ![Fan Mirror](/docs/images/Fan-Mirror.png)
 
 -   Wings -- Divides the selection into three parts, the positions in
     the outer two parts mirror each other and the central part does not
-    change.\
+    change.
+
     ![Fan Wings](/docs/images/Fan-Wings.png)
 
 -   Arrow - The first and last selected fixture are affected equally to
     the midpoint fixture but in the opposite direction. This is useful
-    for colour mixing, tilt and dimmer.\
+    for colour mixing, tilt and dimmer.
+
     ![Fan Arrow](/docs/images/Fan-Arrow.png)
 
 -   Pull Middle - The first and last selected fixture remain at the
     current value, the midpoint is affected most. This is useful for
-    colour mixing, tilt and dimmer.\
+    colour mixing, tilt and dimmer.
+
     ![Fan Pull Middle](/docs/images/Fan-Pull-Middle.png)
 
 -   Pull Ends - The first and last selected fixture are affected most,
     the midpoint is unchanged. This is useful for colour mixing, tilt
-    and dimmer.\
+    and dimmer.
+
     ![Fan Pull Ends](/docs/images/Fan-Pull-Ends.png)
 
 -   Pull End -- Like pull ends but only from one end, the other end does
-    not change\
+    not change
+
     ![FanPull End](/docs/images/FanPull-End.png)
 
 ### Fan Parts
@@ -541,13 +548,16 @@ groups. Select all the fixtures, hold down <Keys.HardKey>Fan</Keys.HardKey> and 
 the numeric keypad. The Fan will divide into that number of parts, for
 example:
 
-Normal (1):\
+Normal (1):
+
 ![Fan 1 Part](/docs/images/Fan-1-Part.png)
 
-2:\
+2:
+
 ![Fan 2 Parts](/docs/images/Fan-2-Parts.png)
 
-3:\
+3:
+
 ![Fan 3 Parts](/docs/images/Fan-3-Parts.png)
 
 ## Setting Fixture/Attribute Times

@@ -146,7 +146,8 @@ Some points about animations:
 
 -   If you specify **Spawn For** or **Run For**, the simulation will stop after
     the specified number of cycles. To restart the simulation, click the
-    **reset** button on the top right of the Effect Editor window.\
+    **reset** button on the top right of the Effect Editor window.
+
     ![Effect Editor - Pixel Mapper - Reset Button](/docs/images/Effect-Editor-Pixel-Mapper-Reset-Button.png)
 
 -   For an effect with a **start point** and **end point**, the number of cycles

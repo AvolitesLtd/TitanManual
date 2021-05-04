@@ -143,7 +143,8 @@ can import items from more than one show at once by repeating steps 1-3.
 
 6. Select a fixture in your imported show, then click the arrow beside
 the fixture it maps to in the current show. To remove a mapping, click
-the <Keys.SoftKey>Clear Fixture Mapping</Keys.SoftKey> context button.\
+the <Keys.SoftKey>Clear Fixture Mapping</Keys.SoftKey> context button.
+
 You can select multiple target fixtures by dragging a box over the
 fixtures, or click on the source fixture again and map to another
 target.

@@ -91,12 +91,14 @@ You set the crossfade and speed as follows:
 1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> from the top level menu then the **Select** button of
 the chase.
 
-2. To set the **crossfade**, press <Keys.SoftKey>XFade</Keys.SoftKey> and type the fade from **0 - 100**.\
+2. To set the **crossfade**, press <Keys.SoftKey>XFade</Keys.SoftKey> and type the fade from **0 - 100**.
+
 *0 = no fade (the chase will "snap"), 100 = max fade (the chase will
 move continuously from step to step).*
 
 3. To set the **speed**, press <Keys.SoftKey>Speed</Keys.SoftKey>, type the new speed, then press
-<Keys.HardKey>Enter</Keys.HardKey>.\
+<Keys.HardKey>Enter</Keys.HardKey>.
+
 *The speed can be set in Beats Per Minute (BPM) or seconds
 depending in the [User Settings](../system-settings/user-settings.md).*
 

@@ -262,7 +262,8 @@ Scene Master
 
 The Scene Master allows you to preset an output state by firing a number of playbacks or making live changes, using the visualiser to see the effects but without anything happening on stage. When you are ready for the new state, you fade the Scene Master fader to the other end of its travel and the new state is output.
 
-You assign a handle to be Scene Master by pressing <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Master</Keys.SoftKey> (or from the <Keys.SoftKey>Assign Masters</Keys.SoftKey> button on the **System** menu). \
+You assign a handle to be Scene Master by pressing <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Master</Keys.SoftKey> (or from the <Keys.SoftKey>Assign Masters</Keys.SoftKey> button on the **System** menu). 
+
 The Diamond 9 has a dedicated T-bar control and buttons for Scene Master, with an associated display to show the status.
 
 The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.

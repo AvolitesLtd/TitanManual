@@ -14,7 +14,8 @@ the changes and saving the new information on top of the cue.
 
 1. Press <Keys.HardKey>Clear</Keys.HardKey> to empty the programmer.
 
-2. Fire the cue you want to edit, so you can see what you are doing.\
+2. Fire the cue you want to edit, so you can see what you are doing.
+
 *Kill all other cues to avoid confusion.*
 
 3. Select the fixtures you want to change, and make the changes.

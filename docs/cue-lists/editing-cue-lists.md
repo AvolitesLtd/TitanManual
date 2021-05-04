@@ -52,13 +52,16 @@ the softkeys.
 Moving, Copying and Deleting Individual Cues
 -----------------------
 
-There are several ways to copy or move cues within a cue list. You can also move cues to other cue lists.\
+There are several ways to copy or move cues within a cue list. You can also move cues to other cue lists.
+
 You can use **Unfold** ([as described in the next
-section](#editing-a-cue-list-using-unfold)).\
+section](#editing-a-cue-list-using-unfold)).
+
 To move a cue you can either click and drag the cue in the [Playback
 View window](#playback-view-window), or click on the cue number and use the <Keys.SoftKey>Change To</Keys.SoftKey> softkey
 to enter the new cue number - once you have changed the number the cue will move to
-its correct position in the list.\
+its correct position in the list.
+
 To delete a cue press <Keys.HardKey>Delete</Keys.HardKey>, select the cue in the window, and tap the cue again, or press <Keys.HardKey>Enter</Keys.HardKey> or <Keys.SoftKey>Confirm</Keys.SoftKey> to confirm.
 
 You can also use a command-line style series of keypresses:
@@ -80,7 +83,8 @@ You can also use a command-line style series of keypresses:
   which don't have a <Keys.HardKey>Move</Keys.HardKey> button you can press (<Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Copy</Keys.HardKey>) together to get Move.
 
 - You can change multiple cues using <Keys.HardKey>Thru</Keys.HardKey>, <Keys.HardKey>And</Keys.HardKey> and <Keys.SoftKey>Not</Keys.SoftKey>. For example to copy cues 3, 4 ,5 ,7, 10 
-  into a new block of cues starting at cue 20 you could do \
+  into a new block of cues starting at cue 20 you could do 
+
   <Keys.HardKey>Copy</Keys.HardKey> <Keys.ContextKey>fader select</Keys.ContextKey> **3** <Keys.HardKey>Thru</Keys.HardKey> **7** <Keys.SoftKey>Not</Keys.SoftKey> **6** <Keys.HardKey>And</Keys.HardKey> **10** <Keys.HardKey>@</Keys.HardKey> **20** <Keys.HardKey>Enter</Keys.HardKey>
   
 - You can press <Keys.HardKey>Enter</Keys.HardKey> instead of <Keys.HardKey>@</Keys.HardKey> if you are more familiar with that key sequence, for example to copy a cue onto 
@@ -159,7 +163,8 @@ have an Update button)*.
 3. Press <Keys.HardKey>Enter</Keys.HardKey> to immediately store the new values to the cue list.
 
 > Alternatively, the softkeys show a list of palettes and playbacks which 
-can be updated. Select or deselect these as required.\
+can be updated. Select or deselect these as required.
+
 If you have used the softkey options, press <Keys.HardKey>Enter</Keys.HardKey> to complete
 the update.
 
@@ -190,7 +195,8 @@ Tiger Touch 1 use the Rec Step button)*
 button)* to jump on to the next step.
 
 >	You can also merge your changes into the current live cue by
-	pressing \
+	pressing 
+
 	<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Connect/Cue</Keys.HardKey> <Keys.HardKey>Connect/Cue</Keys.HardKey>.
 
 Edit Times of a Running Cue List

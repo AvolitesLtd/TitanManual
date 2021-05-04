@@ -102,7 +102,8 @@ button rather than a quick press, you get some more options:
     programming, but the lit state will not be stored in any cues you
     save.
 
-> To quickly locate **without changing pan/tilt**, hold <Keys.HardKey>Locate</Keys.HardKey> and press the Pan/Tilt (or Position) button, then release <Keys.HardKey>Locate</Keys.HardKey>.\
+> To quickly locate **without changing pan/tilt**, hold <Keys.HardKey>Locate</Keys.HardKey> and press the Pan/Tilt (or Position) button, then release <Keys.HardKey>Locate</Keys.HardKey>.
+
 > To quickly locate **pan/tilt only**, hold <Keys.HardKey>Locate</Keys.HardKey>, press <Keys.HardKey>Options</Keys.HardKey> (<Keys.HardKey>Attribute Options</Keys.HardKey> on some consoles), then press <Keys.HardKey>Position</Keys.HardKey> (<Keys.HardKey>Pan/Tilt</Keys.HardKey> on some consoles), then release <Keys.HardKey>Locate</Keys.HardKey>.
 
 
@@ -353,7 +354,8 @@ has an easy way of selecting patterns of fixtures within a range.
 2. Press the <Keys.HardKey>All</Keys.HardKey> button (labelled Odd/Even on some consoles).
 
 3. Select a pattern from the softkeys. Your selection is modified so
-you will only be controlling, say, the odd fixtures.\
+you will only be controlling, say, the odd fixtures.
+
 ![Pattern Select](/docs/images/Pattern-Select.png)
 
 4. Press the <Keys.HardKey>Fix +1</Keys.HardKey> or <Keys.HardKey>Fix -1</Keys.HardKey> button to change the selection to
@@ -399,11 +401,16 @@ top left of the numeric keypad and may be labelled <Keys.HardKey>Channel</Keys.H
 consoles.)
 
 You can also use <Keys.HardKey>Select If</Keys.HardKey> with the <Keys.HardKey>@</Keys.HardKey> and <Keys.HardKey>Through</Keys.HardKey> buttons on
-the numeric keypad to select fixtures set to a particular intensity.\
-\@X: fixtures set to intensity X\
-@ Through X: fixtures with intensity 0 -- X\
-@ X Through: fixtures with intensity X -- Full\
-@ X Through Y: fixtures with intensity between X and Y\
+the numeric keypad to select fixtures set to a particular intensity.
+
+\@X: fixtures set to intensity X
+
+@ Through X: fixtures with intensity 0 -- X
+
+@ X Through: fixtures with intensity X -- Full
+
+@ X Through Y: fixtures with intensity between X and Y
+
 @@: fixtures with intensity above 0.
 
 Intensity levels may be input as 0-9 or 00-99 depending on the [User

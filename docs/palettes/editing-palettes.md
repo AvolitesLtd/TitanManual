@@ -73,12 +73,14 @@ When double clicking a palette button to update, the default option is
 -   You can set the console to 
     ["Always Merge"](../system-settings/user-settings.md#prompt-replace)
     (so it doesn't ask you) using the 
-    [User Settings](../system-settings/user-settings.md).\
+    [User Settings](../system-settings/user-settings.md).
+
     You can also press the palette button a second time to select the
     **Merge** option.
 
 -   You can add settings for additional fixture types to a palette without affecting
-    existing ones.\
+    existing ones.
+
     *For example, if you have colour palettes for Mac
     Auras, you can add colours for your Robe BMFLs without affecting any
     previously recorded values in the palette.*

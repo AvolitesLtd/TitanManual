@@ -20,7 +20,8 @@ The following types of trigger are available:
 
 > Audio trigger (sound to light) requires special hardware which is not fitted on Sapphire Touch,
 Tiger Touch, Titan Mobile, T1 and Pearl Expert. You can plug a T2 into these consoles to provide
-audio triggering. The motherboard "line in" socket can't be used for audio trigger.\
+audio triggering. The motherboard "line in" socket can't be used for audio trigger.
+
 GPIO trigger is available on Diamond 9, Arena, Tiger Touch II and Sapphire Touch.
 
 Connecting External Trigger Sources
@@ -110,7 +111,8 @@ trigger. Select <Keys.SoftKey>Trigger Type</Keys.SoftKey> as Audio, DMX, GPIO, M
 	-	For Audio, set the <Keys.SoftKey>Band</Keys.SoftKey> (frequency band) for the trigger (see [Audio Control](./midi-dmx-or-audio-triggering.md#audio-control-sound-to-light))
 	-	For DMX, press <Keys.SoftKey>DMX Port</Keys.SoftKey> to select which DMX port you are using for DMX input. As soon as a DMX port
 		is used for triggering it is switched to Rx (Receive) mode. Set the DMX address to act 
-		as trigger using the <Keys.SoftKey>Address</Keys.SoftKey> button.\
+		as trigger using the <Keys.SoftKey>Address</Keys.SoftKey> button.
+
 		If you want to use it as output	(Tx mode) again you need to re-assign it 
 		in [DMX settings](../system-settings/dmx-output-mapping). 
 	-	For GPIO, you can <Keys.SoftKey>Invert</Keys.SoftKey> the trigger (to trigger on contact open rather than close).

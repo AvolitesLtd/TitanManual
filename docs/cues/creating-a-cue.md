@@ -51,7 +51,8 @@ Creating a Cue
 
 [](https://youtu.be/X5g6DMVwlZU?t=20 "Creating a Cue")
 
-1. Press <Keys.HardKey>Clear</Keys.HardKey> to clear the programmer.\
+1. Press <Keys.HardKey>Clear</Keys.HardKey> to clear the programmer.
+
 *This ensures that you are starting with a clean slate.*
 
 2. Set up the look using the fixtures. You can save shapes in a cue.
@@ -88,7 +89,8 @@ Other useful things to know about recording cues:
 -   The screen immediately above each fader shows a legend for the
     playback. To set this, from the top-level menu press <Keys.SoftKey>Set Legend</Keys.SoftKey>, 
     then the playback **Select** button, then enter a legend on the
-    keyboard or draw a picture legend. Press <Keys.HardKey>Enter</Keys.HardKey> to store it.\
+    keyboard or draw a picture legend. Press <Keys.HardKey>Enter</Keys.HardKey> to store it.
+
     On the Diamond 9, setting <Keys.SoftKey>Halo</Keys.SoftKey> in the Legend menu will set the illumination colour 
     of the playback fader.
 

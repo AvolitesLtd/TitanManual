@@ -190,7 +190,8 @@ Select buttons.
 -   The console will show a picture of the fixture you select in the
     prompt area to help you check you have got the right one (if
     provided in the fixture personality; some fixtures do not include
-    this information)\
+    this information)
+
     ![Fixture Mode](/docs/images/Fixture-Mode.png)
 
 Capture Visualiser Auto Patch
@@ -210,7 +211,8 @@ fixtures if you wish.
 
 -   Fixture modes which will work with Auto Patch show a Capture icon in
     the button. If the icon is not shown, that fixture mode isn't
-    supported in the integrated Capture.\
+    supported in the integrated Capture.
+
     ![Fixture Modes](/docs/images/Fixture-Modes.png)
 
 -   If you are using the [console linked to the full version of Capture](../capture-visualiser/linking-the-console-to-stand-alone-capture.md)

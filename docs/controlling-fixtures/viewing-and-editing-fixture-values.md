@@ -63,10 +63,13 @@ the Intensity View window is the place to be. To show the window, double press
 
 Each fixture has a block showing the intensity as a number and as a bar
 down the left side. The header bar shows selection/programmer state like
-fixture buttons -- blue for selected and cyan for in programmer.\
+fixture buttons -- blue for selected and cyan for in programmer.
+
 Rising or falling intensity is shown with a blue up arrow or a green
-down arrow.\
-Tracked values from previous cues are shown with a magenta equals sign.\
+down arrow.
+
+Tracked values from previous cues are shown with a magenta equals sign.
+
 In a solo or block cue a red "not permitted" symbol is shown.
 
 ![Solo/Block Cue](/docs/images/Solo-Block-Cue.png)

@@ -57,7 +57,8 @@ in the programmer will override the playback).
  of fixtures in the playback which are not currently active in any
  other playbacks. *This is useful to avoid the fixtures visibly moving
  into position or changing colours or gobos when you raise the fader
- of the cue.*\
+ of the cue.*
+
  To assign Preload, hold <Keys.HardKey>Avo</Keys.HardKey> and press \[Edit
  Key Profile\], then press the button you want to assign (also see
  [Key Profiles](../system-settings/key-profiles.md)). Note that this will assign the function

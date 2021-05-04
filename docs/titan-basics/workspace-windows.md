@@ -113,7 +113,8 @@ use the <Keys.SoftKey>Close All</Keys.SoftKey> softkey.
 
 On all consoles apart from Sapphire Touch and Titan Go, **context menu 
 buttons** appear which contain useful functions for the current
-active window and change depending on the window. \
+active window and change depending on the window. 
+
 On Diamond 9 the context menu buttons are in the top left hand corner of the right
 hand screen - on all other consoles they are below the prompt area on the top right 
 of the main screen. 
@@ -202,10 +203,14 @@ will behave if you load more windows, and to be able to target particular window
 	allowing you to recall it onto a different screen.
 	
 
->	**Screen numbering**\
-	On consoles with a single internal screen, that is (1) and the external screen is (2).\
-	On Diamond 9 the right main screen is (1), middle is (2), left (not D9-215) is (3), Editor screen is (4), Video preview screens are (7) (6) (5), external screens are left=(9) and right=(8).\
-	On Arena 	the main screen is (1), the mini screen (2) and the external screen (3). \
+>	**Screen numbering**
+
+	On consoles with a single internal screen, that is (1) and the external screen is (2).
+
+	On Diamond 9 the right main screen is (1), middle is (2), left (not D9-215) is (3), Editor screen is (4), Video preview screens are (7) (6) (5), external screens are left=(9) and right=(8).
+
+	On Arena 	the main screen is (1), the mini screen (2) and the external screen (3). 
+
 	On Sapphire Touch the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).
 
 As an example of setting up a workspace, suppose while programming you

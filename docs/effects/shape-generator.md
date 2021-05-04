@@ -65,8 +65,10 @@ a particular shape.
     The window will only show shapes which are possible on the selected
     fixtures. Pressing attribute buttons will filter the Shapes window
     to show only shapes for that attribute. Press the <Keys.HardKey>Dimmer</Keys.HardKey>
-    attribute button to show all shapes.\
-    \
+    attribute button to show all shapes.
+
+    
+
     ![Shapes Workspace Window](/docs/images/Shapes-Workspace-Window.png)
 
 -   Shapes are based on the current settings of the fixture, so for example *a

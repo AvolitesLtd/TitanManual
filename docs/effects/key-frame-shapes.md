@@ -42,7 +42,8 @@ Shapes\]
 4. Press <Keys.SoftKey>Add Frame</Keys.SoftKey>. An automatic legend for the first key frame
 will show above the first playback fader. *(Press \[Playbacks Display
 Visible/Hidden\] to return the playback faders to normal, if you want to
-select one in Quick Build mode)*.\
+select one in Quick Build mode)*.
+
 ![Key Frame Shape - creating an effect with colour key frames](/docs/images/Key-Frame-Shape-creating-an-effect-with-colour-key-frames.png)
 
 5. Continue to set colours and press <Keys.SoftKey>Add Frame</Keys.SoftKey> until you have
@@ -113,13 +114,16 @@ The **Beats per Cycle** control lets you set how the programmed speed will
 trigger the shape. It defaults to 1 which makes the shape run at normal
 speed. Higher numbers will divide the count, for example 4 will make the
 shape run at quarter of the speed - useful to synchronise different
-types of shapes which are running together.\
+types of shapes which are running together.
+
 <Keys.SoftKey>Spread</Keys.SoftKey> sets the beat
 count to be the same as the current Spread setting for the shape. This
 is useful when using dimmer shapes with movement shapes as it will make
-each fixture turn on for a full cycle of the movement shape.\
+each fixture turn on for a full cycle of the movement shape.
+
 <Keys.SoftKey>Key Frame</Keys.SoftKey> sets the beat count to match the number of key frames in the
-shape.\
+shape.
+
 <Keys.SoftKey>Custom</Keys.SoftKey> resets the <Keys.SoftKey>Value</Keys.SoftKey> option to the last
 entered value.
 > Each key frame and each layer can have its own **Beats per

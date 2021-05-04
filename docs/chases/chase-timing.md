@@ -31,7 +31,8 @@ settings, as described below
     depending on the user settings.
 
 -   To set **crossfade**, press <Keys.SoftKey>XFade</Keys.SoftKey> then type the fade from **0 - 100**
-    and press <Keys.HardKey>Enter</Keys.HardKey>.\
+    and press <Keys.HardKey>Enter</Keys.HardKey>.
+
     *0=no fade (the chase will "snap"), 100=max fade (the chase will move
     continuously from cue to cue).*
 

@@ -21,8 +21,10 @@ This section lists all the physical buttons and tells you what they do. The **li
  ## <Keys.HardKey>@</Keys.HardKey> 
  (by numeric keypad) Allows numeric entry of attribute values on selected fixtures. Can also be used with <Keys.HardKey>Fixture</Keys.HardKey> or <Keys.HardKey>Group</Keys.HardKey> buttons to change selection state. For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](#wheel-).
 
- Examples: \
- <Keys.HardKey>Fixture</Keys.HardKey> 1 <Keys.HardKey>And</Keys.HardKey> 5 <Keys.HardKey>And</Keys.HardKey> 7 <Keys.HardKey>@</Keys.HardKey> 75 <Keys.HardKey>Enter</Keys.HardKey> (Set fixtures 1,5,7 to 75%) \
+ Examples: 
+
+ <Keys.HardKey>Fixture</Keys.HardKey> 1 <Keys.HardKey>And</Keys.HardKey> 5 <Keys.HardKey>And</Keys.HardKey> 7 <Keys.HardKey>@</Keys.HardKey> 75 <Keys.HardKey>Enter</Keys.HardKey> (Set fixtures 1,5,7 to 75%) 
+
  <Keys.HardKey>Group</Keys.HardKey> 5 <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> (Set all fixtures in group 5 to full)
 
   Buttons | Action
@@ -387,12 +389,14 @@ Buttons | Action
 
  --- 
 ## <Keys.HardKey>Open</Keys.HardKey> 
- (D9 only) Open workspace window, like double pressing View. \
+ (D9 only) Open workspace window, like double pressing View. 
+
  (Quartz, Titan Mobile) Show details about item, or double press to open workspace window, see [View](#view).
 
  --- 
 ## <Keys.HardKey>Open/View</Keys.HardKey> 
-(Sapphire Touch, Arena, Tiger Touch only) \
+(Sapphire Touch, Arena, Tiger Touch only) 
+
  Show details about item, or double press to open workspace window, see [View](#view).
 
  --- 
@@ -422,7 +426,8 @@ Buttons | Action
 
  --- 
 ## <Keys.HardKey>Playback</Keys.HardKey> 
- (Arena) Opens the Playbacks workspace window showing touch buttons for additional playback storage. \
+ (Arena) Opens the Playbacks workspace window showing touch buttons for additional playback storage. 
+
  (D9) If pressed after <Keys.HardKey>View</Keys.HardKey>, opens the Playbacks workspace window.
 
  --- 
@@ -459,7 +464,8 @@ Buttons | Action
 
  --- 
 ## <Keys.HardKey>Release</Keys.HardKey> 
- Used to override the LTP behaviour of attributes when a playback is killed. See [Release](../cues/cue-playback.md/#release). \
+ Used to override the LTP behaviour of attributes when a playback is killed. See [Release](../cues/cue-playback.md/#release). 
+
  Can also be used to release various other items.
 
  Buttons | Action
@@ -556,7 +562,8 @@ Buttons | Action
 
  --- 
 ## <Keys.HardKey>View</Keys.HardKey> 
-(D9, Titan Go, Pearl Expert, Tiger Touch 1) \
+(D9, Titan Go, Pearl Expert, Tiger Touch 1) 
+
  Followed by **Select** button to show details about item, or double press to open workspace window. See [Palettes](../palettes/editing-palettes.md/#viewing-and-editing-the-content-of-palettes) and [Cues](../cues/editing-cues.md/#playback-and-cue-view), or [Opening Workspace Windows](../titan-basics.md/workspace-windows/#opening-and-positioning-workspace-windows).
 
  Also gives shortcuts to opening workspace windows and editing workspaces:

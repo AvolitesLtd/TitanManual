@@ -39,8 +39,10 @@ are:
 <Keys.SoftKey>Link according to individual steps</Keys.SoftKey> - Each step in the chase will obey its 
 individual link settings which are set using the
 [Playback View window](editing-a-chase.md#opening-a-chase-for-editing)
-or the [<Keys.HardKey>Unfold</Keys.HardKey> function](editing-a-chase.md#editing-a-chase-using-unfold).\
-<Keys.SoftKey>Always Link Steps</Keys.SoftKey> - The chase will run on its own using the times\
+or the [<Keys.HardKey>Unfold</Keys.HardKey> function](editing-a-chase.md#editing-a-chase-using-unfold).
+
+<Keys.SoftKey>Always Link Steps</Keys.SoftKey> - The chase will run on its own using the times
+
 <Keys.SoftKey>Never Link Steps</Keys.SoftKey> - The chase will pause after every delay/fade time
 for the user to press <Keys.HardKey>Go</Keys.HardKey>
 
@@ -49,7 +51,8 @@ for the user to press <Keys.HardKey>Go</Keys.HardKey>
 ### Loop Action
 Sets what happens at the end of the chase:
 
-<Keys.SoftKey>Stop on Final Cue</Keys.SoftKey> - Chase stops at the end\
+<Keys.SoftKey>Stop on Final Cue</Keys.SoftKey> - Chase stops at the end
+
 <Keys.SoftKey>Loop</Keys.SoftKey> - The chase will loop back to the beginning
 
 ### Play Order

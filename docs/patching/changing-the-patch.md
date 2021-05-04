@@ -102,7 +102,8 @@ fixture).
 The <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey> softkey lets you swap the addressing
 between two groups of fixtures. This operates in two modes, \[One For
 One\] or <Keys.SoftKey>Retain Layout</Keys.SoftKey>, which you can select by softkey after
-pressing <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey>.\
+pressing <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey>.
+
 Select one group, then press <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey> and select the
 target group. In One for One mode the target must be the same quantity
 of fixtures or the console will display an error. In Retain Layout mode

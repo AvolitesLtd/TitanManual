@@ -23,12 +23,14 @@ Effects\], <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Edit Group L
 Effects\], <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Create Effect</Keys.SoftKey>
 
 4. In the Pixel Mapper Effect Editor window toggle the context menu
-option <Keys.SoftKey>Fixture Overlay</Keys.SoftKey> until it reads <Keys.SoftKey>Fixture Overlay 50/50</Keys.SoftKey>\
+option <Keys.SoftKey>Fixture Overlay</Keys.SoftKey> until it reads <Keys.SoftKey>Fixture Overlay 50/50</Keys.SoftKey>
+
 *This will allow you to see the relationship of your fixtures to the
 effect as you create it*
 ![Effect Editor - Pixel Mapper - Fixture Overlay 50/50](/docs/images/Effect-Editor-Pixel-Mapper-Fixture-Overlay-50-50.png)
 
-5. Select <Keys.SoftKey>Effect</Keys.SoftKey> and drag **Background Opacity** slider to **0%**\
+5. Select <Keys.SoftKey>Effect</Keys.SoftKey> and drag **Background Opacity** slider to **0%**
+
 *This will allow the whole effect to overlay any related intensities*
 ![Effect Editor - Pixel Mapper - Setting Background Opacity of Effect](/docs/images/Effect-Editor-Pixel-Mapper-Setting-Background-Opacity-of-Effect.png)
 
@@ -173,12 +175,14 @@ effects.
 
 2. Open the Selection Pattern menu by pressing the <Keys.HardKey>All</Keys.HardKey> key
 
-3. Choose <Keys.SoftKey>Odd</Keys.SoftKey> from the softkey options\
+3. Choose <Keys.SoftKey>Odd</Keys.SoftKey> from the softkey options
+
 *This will select all the odd numbered fixtures according to fixture order.*
 
 4. Record a group.
 
-5. Press <Keys.HardKey>+1</Keys.HardKey> (or <Keys.HardKey>Next</Keys.HardKey>) key\
+5. Press <Keys.HardKey>+1</Keys.HardKey> (or <Keys.HardKey>Next</Keys.HardKey>) key
+
 *This will select all the even numbered fixtures.*
 
 6. Merge this into the first group
@@ -197,14 +201,17 @@ followed by all the even fixtures.
 An alternative goal might be a vertical **cascading** effect:
 
 1. Click on the **vertical resize tool** and drag down until the grid is at
-least twice the original height\
+least twice the original height
+
 ![Layout Editor - Expanding Layout Grid](/docs/images/Layout-Editor-Expanding-Layout-Grid.jpeg)
 
-2. Drag a marquee select across the **even fixtures**\
+2. Drag a marquee select across the **even fixtures**
+
 ![Layout Editor - Selecting Fixtures](/docs/images/Layout-Editor-Selecting-Fixtures.jpeg)
 
 3. Drag the selected fixtures so they sit directly under the odd
-fixtures\
+fixtures
+
 ![Layout Editor - Moving Fixtures](/docs/images/Layout-Editor-Moving-Fixtures.jpeg)
 
 4. Select **Crop Grid** from the Layout Editor context menu. (This will
@@ -228,7 +235,8 @@ Note that to help with creation and manipulation of larger grids you can
 4. Select the group again. (This will quickly select everything in the
 layout.)
 
-5. Press <Keys.HardKey>+1</Keys.HardKey> key\
+5. Press <Keys.HardKey>+1</Keys.HardKey> key
+
  **This will select the first fixture**
 
 6. Use the wheel to adjust **Position Y**
@@ -253,7 +261,8 @@ Titan has a solution:
 2. Open the **Layout Editor**
 
 3. Select the fixture(s) that you want to angle and use the appropriate
-wheel to control.\
+wheel to control.
+
 If wheels are not assigned to control the cell layout
 you can toggle this on/off using the context menu item **Wheel
 Control**. Also, on the Pearl Expert you may need to select **Adjust
@@ -291,13 +300,16 @@ four towers, each with five blocks.
 
 3. Select **Arrange Fixtures** from the context menu
 
-4. Select the <Keys.SoftKey>Height</Keys.SoftKey> softkey and type <Keys.HardKey>5</Keys.HardKey>\
+4. Select the <Keys.SoftKey>Height</Keys.SoftKey> softkey and type <Keys.HardKey>5</Keys.HardKey>
+
 *Width will automatically be calculated*
 
-5. Toggle <Keys.SoftKey>Crop Grid to fixtures</Keys.SoftKey> so that it is highlighted\
+5. Toggle <Keys.SoftKey>Crop Grid to fixtures</Keys.SoftKey> so that it is highlighted
+
 *This will make the grid adjust to fit*
 
-6. Toggle <Keys.SoftKey>Arrange in...</Keys.SoftKey> to **Columns** or **Rows**\
+6. Toggle <Keys.SoftKey>Arrange in...</Keys.SoftKey> to **Columns** or **Rows**
+
 **Rows** will arrange fixtures left to right and **Columns** will arrange top to
 bottom.
 
@@ -353,11 +365,13 @@ To create first effect:
 example and go to <Keys.SoftKey>Create Effect</Keys.SoftKey>
 
 2. Select <Keys.SoftKey>Effect</Keys.SoftKey> to access the global effect controls and change
-**Background Opacity** to zero\
+**Background Opacity** to zero
+
 *This will allow it to overlay the other playback*
 
 3. Double-Click <Keys.SoftKey>Layer 1</Keys.SoftKey> (or press <Keys.ContextKey>+</Keys.ContextKey>) and choose **Circle** from the
-elements that appear\
+elements that appear
+
 *Double-click is a shortcut to elements and animations*
 
  Reduce height to make a rugby ball (or American football if you
@@ -392,7 +406,8 @@ animation
 6. Click on <Keys.SoftKey>Effect</Keys.SoftKey> again and reduce **Master Speed** to your
 preference. (Adjusting the global speed control ensures the zoom and
 opacity animations are synchronised instead of having to manually match
-the individual values.)\
+the individual values.)
+
  ![Effect Editor - Pixel Mapper - Effect Master Speed](/docs/images/Effect-Editor-Pixel-Mapper-Effect-Master-Speed.png)
 
 7. <Keys.HardKey>Record</Keys.HardKey> to a playback
@@ -428,7 +443,8 @@ Effect\]
  Adjust speed until you are unable to look away from the screen.
 
 5. Select the Layer to show the layer controls and change the colour to
-blue using the colour picker.\
+blue using the colour picker.
+
 ![Effect Editor - Pixel Mapper - Changing Colour of Spiral Layer to Blue](/docs/images/Effect-Editor-Pixel-Mapper-Changing-Colour-of-Spiral-Layer-to-Blue.png)
 
 6. <Keys.HardKey>Record</Keys.HardKey> to a playback
@@ -510,12 +526,14 @@ offset in any direction.
  it has been offset vertically down from the our off-screen position by
  the default 30%.
 
- Increase **Distance** until the bar is approximately in the centre.\
+ Increase **Distance** until the bar is approximately in the centre.
+
  ![Effect Editor - Pixel Mapper - Displacement Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Displacement-Animation-Settings.png)
 
 7. Add an **Opacity animation**
 
- Reduce **In Time** and **Out Time** to create a snapping effect.\
+ Reduce **In Time** and **Out Time** to create a snapping effect.
+
  ![Effect Editor - Pixel Mapper - Opacity Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Opacity-Animation-Settings-2.png)
 
 8. Click on **Displacement** in the Layer to get back to the controls
@@ -536,7 +554,8 @@ layer controls rather than on the individual element and animations:
 10. Select <Keys.SoftKey>Layer 1</Keys.SoftKey> to bring up the layer controls.
 
 11. Change **Rotation** to 90 degrees by clicking on the compass button
-twice.\
+twice.
+
 ![Effect Editor - Pixel Mapper - Changing Layer Rotation](/docs/images/Effect-Editor-Pixel-Mapper-Changing-Layer-Rotation.png)
 
 Now you have a vertical bar that draws randomly using a horizontal
@@ -603,7 +622,8 @@ frequently a new element appears.)
 
  ![Effect Editor - Pixel Mapper - Zoom Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Zoom-Animation-Settings.png)
 
-9. Click on <Keys.SoftKey>Effect</Keys.SoftKey> and set **Pre-Spool** to 0%\
+9. Click on <Keys.SoftKey>Effect</Keys.SoftKey> and set **Pre-Spool** to 0%
+
 *This is to demonstrate the purpose of the property.*
 
  ![Effect Editor - Pixel Mapper - Zoom Animation Settings](/docs/images/Effect-Editor-Pixel-Mapper-Zoom-Animation-Settings-2.png)
