@@ -47,8 +47,4 @@ Step-by-step guides are shown as follows:
 
 3. Finally, do this.
 
-:::info
-
-Useful related information is displayed like this.
-
-:::
+> Useful related information is displayed like this.
