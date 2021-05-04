@@ -18,14 +18,14 @@ or are selected), <Keys.SoftKey>Stage</Keys.SoftKey> (saves all attributes of al
 non-zero dimmer), or <Keys.SoftKey>Quick Build</Keys.SoftKey> (merges palettes and playbacks into
 the cue when you select them).
 
-To store, press a fader **Select** button, a macro/executor button or a touch
+To store, press a fader <strong>Select</strong> button, a macro/executor button or a touch
 button in Playbacks window. (See [Creating a Cue](../cues/creating-a-cue.md)).
 
 ## Chases
 
 Press <Keys.HardKey>Record</Keys.HardKey> twice (or <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Chase</Keys.SoftKey>).
 
-Press **Select** button, a macro/executor button or a touch
+Press <strong>Select</strong> button, a macro/executor button or a touch
 button in Playbacks window.
 
 Set up the look for the first step, press playback select button to

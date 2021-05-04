@@ -14,7 +14,7 @@ Users
 -----
 
 Each show can have multiple users. Each user has their own user
-settings, key profiles and handle layout (known as a *handle world*).
+settings, key profiles and handle layout (known as a <em>handle world</em>).
 This provides a quick way to switch between preferred user settings and
 handle layouts, for example at a festival or other event where there are
 a number of operators.
@@ -151,7 +151,7 @@ last console to change any attribute will take over control of the
 fixture.
 
 Slaves can leave a session using the <Keys.SoftKey>Leave Session</Keys.SoftKey> button in the
-**Sessions View** or in the **TitanNet menu**. The console will restore the
+<strong>Sessions View</strong> or in the <strong>TitanNet menu</strong>. The console will restore the
 local show it had loaded prior to joining. Master consoles have the
 option to <Keys.SoftKey>Terminate Session</Keys.SoftKey>.
 
@@ -168,7 +168,7 @@ backup session.
 
 ### Titan Mobile
 
-**Network Discovery** must be enabled in the **Windows User Profile** you
+<strong>Network Discovery</strong> must be enabled in the <strong>Windows User Profile</strong> you
 are using or consoles will not be able to see each other on the network.
-Ensure the Windows option **'Turn on network discovery'** is selected in
-the **Network Sharing** options.
+Ensure the Windows option <strong>'Turn on network discovery'</strong> is selected in
+the <strong>Network Sharing</strong> options.

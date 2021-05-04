@@ -17,7 +17,7 @@ the times will be used in any playback which is recorded using this palette.
 So if you programmed a 2 second fade into this palette, every playback with this 
 palette will have a 2 second fade.
 
-By default these times are **not** used when the palette is called directly, to allow 
+By default these times are <strong>not</strong> used when the palette is called directly, to allow 
 for fluent programming. You may however turn this on (which further enhances [busking 
 with palettes](../running-the-show/playback-controls#busking-with-palettes)) using the
 palette key setting in the [Key Profile](../system-settings/key-profiles.md).
@@ -58,9 +58,9 @@ when recalling a palette, which means that
 the palette will be applied in sequence to each fixture in the group.
 This is a very quick way to busk complex effects.
 
-**100%** means that all fixtures will change together.
+<strong>100%</strong> means that all fixtures will change together.
 
-**0%** means that each fixture must complete its fade before the
+<strong>0%</strong> means that each fixture must complete its fade before the
 next will start its fade.
 
 - You need to also have a fade time set, otherwise Overlap has no effect.

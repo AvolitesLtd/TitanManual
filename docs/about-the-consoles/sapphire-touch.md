@@ -10,70 +10,70 @@ import Keys from '@site/src/components/key.ts';
 ![Sapphire Touch](/docs/images/Sapphire-Touch.png)The Sapphire Touch has four main control
 areas:
 
-<Keys.Annotation>A</Keys.Annotation> The two **Touch screens** contain fixture, palette and group select
+<Keys.Annotation>A</Keys.Annotation> The two <strong>Touch screens</strong> contain fixture, palette and group select
 buttons. They also show legends for the playback faders and shows the
 current menu page and softkey buttons on the top right of the right hand
 screen.
 
-<Keys.Annotation>B</Keys.Annotation> The **Playback faders** select and control cues, cue lists and chases,
+<Keys.Annotation>B</Keys.Annotation> The <strong>Playback faders</strong> select and control cues, cue lists and chases,
 and other configurable functions.
 
-<Keys.Annotation>C</Keys.Annotation> The **Preset playbacks** are used for patching fixtures or for
+<Keys.Annotation>C</Keys.Annotation> The <strong>Preset playbacks</strong> are used for patching fixtures or for
 additional playbacks.
 
-<Keys.Annotation>D</Keys.Annotation> The **Programming and setup controls** configure and program the console,
-within which the **macro/executor buttons** are playback buttons allowing storage of cues or
+<Keys.Annotation>D</Keys.Annotation> The <strong>Programming and setup controls</strong> configure and program the console,
+within which the <strong>macro/executor buttons</strong> are playback buttons allowing storage of cues or
 chases, frequent key sequences, screen layouts or groups.
 
 ## The Main Controls
 
 ![Sapphire Front](/docs/images/Sapphire-Front.png)
 
-<Keys.Annotation>E</Keys.Annotation> The **Workspace windows** on the touch screens contain touch buttons for
+<Keys.Annotation>E</Keys.Annotation> The <strong>Workspace windows</strong> on the touch screens contain touch buttons for
 fixtures, palettes, groups, playbacks, macros and more. You can also set
 fixture attributes and show information windows.
 
-<Keys.Annotation>F</Keys.Annotation> The **System display** area of the touch screen is the nerve centre of
+<Keys.Annotation>F</Keys.Annotation> The <strong>System display</strong> area of the touch screen is the nerve centre of
 the console and shows you what is going on. This part of the display
 shows various screens of information depending on what you are currently
 doing.
 
-<Keys.Annotation>G</Keys.Annotation> The **Menu Softkeys** (labelled A - G) are used to select control
+<Keys.Annotation>G</Keys.Annotation> The <strong>Menu Softkeys</strong> (labelled A - G) are used to select control
 options. The options for each key change depending on what the console
 is doing. Softkey commands are shown in the manual
 like this: <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 ![Sapphire Front 2](/docs/images/Sapphire-Front-2.png)
 
-<Keys.Annotation>H</Keys.Annotation> The **Preset Faders** at the top are used to patch fixtures, and store
-and play back cues or chases. <Keys.Annotation>I</Keys.Annotation> **The Preset Page Select buttons** in the
+<Keys.Annotation>H</Keys.Annotation> The <strong>Preset Faders</strong> at the top are used to patch fixtures, and store
+and play back cues or chases. <Keys.Annotation>I</Keys.Annotation> <strong>The Preset Page Select buttons</strong> in the
 centre of the faders let you change to a different page.
 
-<Keys.Annotation>J</Keys.Annotation> The **Macro Buttons** store playbacks or frequently used sequences of keypresses
+<Keys.Annotation>J</Keys.Annotation> The <strong>Macro Buttons</strong> store playbacks or frequently used sequences of keypresses
 which can be replayed with a single button press. The display immediately above the buttons shows legends for
 the buttons.
 
-<Keys.Annotation>K</Keys.Annotation> The **Playback faders** are used to store and play back cues or chases.
-<Keys.Annotation>L</Keys.Annotation> The **Playback Page Select buttons** let you change to a different page
+<Keys.Annotation>K</Keys.Annotation> The <strong>Playback faders</strong> are used to store and play back cues or chases.
+<Keys.Annotation>L</Keys.Annotation> The <strong>Playback Page Select buttons</strong> let you change to a different page
 of playbacks. The touch screen above the faders shows information about
 each playback.
 
 ![Sapphire Touch](/docs/images/Sapphire-Touch-2.png)
 
-<Keys.Annotation>M</Keys.Annotation> The **Control wheels** are used to set control values (attributes) for
+<Keys.Annotation>M</Keys.Annotation> The <strong>Control wheels</strong> are used to set control values (attributes) for
 the fixtures, and to set chase speeds and fades. The touch screen above
 the wheels shows information about the attributes being controlled.
 
-<Keys.Annotation>N</Keys.Annotation> The **trackball** controls pan and tilt of fixtures, and can also be
+<Keys.Annotation>N</Keys.Annotation> The <strong>trackball</strong> controls pan and tilt of fixtures, and can also be
 used to control the mouse pointer for the screens.
 
-<Keys.Annotation>O</Keys.Annotation> The **Numeric keypad** and other control buttons are used to enter
+<Keys.Annotation>O</Keys.Annotation> The <strong>Numeric keypad</strong> and other control buttons are used to enter
 values and change controls on the console.
 
-<Keys.Annotation>P</Keys.Annotation> The **Function buttons** are used to carry out functions such as storing
+<Keys.Annotation>P</Keys.Annotation> The <strong>Function buttons</strong> are used to carry out functions such as storing
 cues, copying, patching, saving to disk, etc.
 
-<Keys.Annotation>Q</Keys.Annotation> The **Attribute select buttons** are used to select which attributes of
+<Keys.Annotation>Q</Keys.Annotation> The <strong>Attribute select buttons</strong> are used to select which attributes of
 a fixture (e.g. colour, gobo, pan, focus) are going to be controlled
 using the Control wheels. The buttons have lights on to show you which
 attributes are active. The Red button just below allows you to locate

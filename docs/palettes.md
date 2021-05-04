@@ -21,18 +21,18 @@ rather than having to reprogram all the cues. This is handy if you are
 touring and have to cope with different stages or truss heights every
 show.
 
-Palettes can be **[nested](palettes/creating-palettes.md#nested-palettes)**
+Palettes can be <strong>[nested](palettes/creating-palettes.md#nested-palettes)</strong>
 so you can use palettes in other palettes. If you
 change a master palette, the changes will track through to all the
 palettes in which it is used.
 
-Palettes are stored and selected using the buttons in the **Colours**,
-**Gobos/Beams** and **Positions** windows. You can also store palettes on 
+Palettes are stored and selected using the buttons in the <strong>Colours</strong>,
+<strong>Gobos/Beams</strong> and <strong>Positions</strong> windows. You can also store palettes on 
 Macro/Executor buttons or store and recall numerically from the keypad. 
 You can [set a legend](palettes/creating-palettes.md#setting-legends-for-palettes)
 for each button so that you know what you're going to get.
 
 ![Gobos and Beams Window and Colours Window](/docs/images/Gobos-and-Beams-Window-and-Colours-Window.png)
 
-If the **Colours**, **Positions**, **Gobos & Beams** windows are not shown, open
+If the <strong>Colours</strong>, <strong>Positions</strong>, <strong>Gobos & Beams</strong> windows are not shown, open
 the workspace <Keys.SoftKey>Groups and Palettes</Keys.SoftKey> to show all three windows.

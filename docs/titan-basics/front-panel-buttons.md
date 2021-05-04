@@ -15,19 +15,19 @@ Select and Flash buttons
 
 Each fader handle on the console has buttons associated with it. 
 
-<Keys.Annotation>A</Keys.Annotation> **Select** button
+<Keys.Annotation>A</Keys.Annotation> <strong>Select</strong> button
 
-<Keys.Annotation>B</Keys.Annotation> **Flash** button
+<Keys.Annotation>B</Keys.Annotation> <strong>Flash</strong> button
 
-On the **Diamond 9** the buttons are arranged like this for the rotary faders and the linear faders:
+On the <strong>Diamond 9</strong> the buttons are arranged like this for the rotary faders and the linear faders:
 
 ![Diamond Select and Flash](/docs/images/Diamond-Select-Flash.png)
 
-On the **Sapphire Touch** the buttons are like this for the upper and lower faders. The Sapphire Touch also has a black button with each handle which can be assigned a function using Key Profiles.
+On the <strong>Sapphire Touch</strong> the buttons are like this for the upper and lower faders. The Sapphire Touch also has a black button with each handle which can be assigned a function using Key Profiles.
 
 ![Sapphire Select and Flash](/docs/images/Sapphire-Select-Flash.png)
 
-On **all other consoles**, the buttons are arranged like this:
+On <strong>all other consoles</strong>, the buttons are arranged like this:
 
 ![Arena Select and Flash](/docs/images/Arena-Select-Flash.png)
 
@@ -47,7 +47,7 @@ Key macro buttons
 
 Lighting programming can sometimes require a repeated sequence of button
 presses. You can record sequences of keypresses and play them back with
-a single keypress - this is called a **macro**. The macro can reproduce the
+a single keypress - this is called a <strong>macro</strong>. The macro can reproduce the
 timing of your button presses (Real Time mode) or just repeat the
 sequence of buttons with no timing (Full Speed mode).
 

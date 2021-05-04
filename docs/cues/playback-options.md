@@ -9,7 +9,7 @@ import Keys from '@site/src/components/key.ts';
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
 To set options for a cue, chase or cue list, press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey
-on the top level menu), then press the **Select** button of the playback to be
+on the top level menu), then press the <strong>Select</strong> button of the playback to be
 edited. The Options window will open allowing you to set a wide range
 of options for how the playback will work, including Times. (You can also set the options using the softkeys.)
 
@@ -54,7 +54,7 @@ the key profile for a playback is to hold the <Keys.HardKey>Options</Keys.HardKe
 ![Playback Options showing playback tab](/docs/images/Playback-Options-Playback-Tab.png)
 
 ### Blind
-Sets this individual playback to **Blind** mode. The playback
+Sets this individual playback to <strong>Blind</strong> mode. The playback
 will then output only to Visualiser, not to the stage. This can be very
 useful if you need to program and test a cue during a live show.
 
@@ -69,7 +69,7 @@ to be at 50%, this option will let you do that.
 ### Priority
 Allows you to configure how playbacks will behave if you
 turn on two playbacks controlling the same fixture. The priority can be
-set to **Low**, **Normal**, **High**, **Programmer** or **Very High** (*Programmer* gives the
+set to <strong>Low</strong>, <strong>Normal</strong>, <strong>High</strong>, <strong>Programmer</strong> or <strong>Very High</strong> (<em>Programmer</em> gives the
 same level as manually set attributes in the programmer). If a fixture
 is being controlled by a playback and you turn on a playback of the same
 or higher priority, then the new playback will take over. However, if
@@ -81,7 +81,7 @@ fixtures, then you decide you want a couple of them to spotlight a
 singer. If you set the spotlight playback to be high priority, then
 while it is active no other playback will affect the spotlight fixtures.
 
-> Priority is useful when using **Swop** buttons for strobe-type effects
+> Priority is useful when using <strong>Swop</strong> buttons for strobe-type effects
 where you want to black out everything else. If you have a position
 shape running on other fixtures, you don't want that to stop during the
 Swop, or it will look messy when you release the Swop button. So set the
@@ -96,7 +96,7 @@ override all playback priorities except Very High.
 Sets this playback to run when the console powers
 on. This can be globally disabled by the
 [Run Startup Playbacks](../system-settings/user-settings.md#run-startup-playbacks) option in
-[User Settings](../system-settings/user-settings.md) *(turned on by default)*.
+[User Settings](../system-settings/user-settings.md) <em>(turned on by default)</em>.
 
 This can be very useful for unattended applications to set up an
 initial lighting state.
@@ -130,10 +130,10 @@ sequence rather than all at the same time. This is described in more detail in
 ### Flash Fade In / Flash Fade Out
 Sets the fade in/fade out time for
 this playback when it is fired using the flash button. By default these
-are set to *"As In"* and *"As Out"* which will use the fade time set for the
+are set to <em>"As In"</em> and <em>"As Out"</em> which will use the fade time set for the
 playback in the [Times menu](cue-timing.md). This option allows you to set a different
 flash action for the playback. *Note that the [Key Profile](../system-settings/key-profiles.md) for the flash
-button must be set to **Timed Flash** for this to work.*
+button must be set to <strong>Timed Flash</strong> for this to work.*
 
 ### Speed
 Default speed for shapes/effects in this playback in BPM. This can be
@@ -150,10 +150,10 @@ Sets how the fader position affects the cue output.
 
 Setting | Action
 ------: | ------
-**Mode 0** | Channels fade in as set by the fade time. The Fade Out time is ignored. If times are set to zero, the HTP channels fade in with the 0-100% position of the playback fader and the LTP channels will snap.
+<strong>Mode 0</strong> | Channels fade in as set by the fade time. The Fade Out time is ignored. If times are set to zero, the HTP channels fade in with the 0-100% position of the playback fader and the LTP channels will snap.
 Mode 1 | HTP channels fade in and out as set by the fade out times (LTP channels fade in but then remain as set in the cue). If times are set to zero, the HTP levels will fade in and out with the fader and the LTP channels will snap when the cue is fired.
-Mode 2 | Both HTP and LTP channels follow the fader position. *Useful when used with a pan/tilt cue for manually tracking a spot across a stage or down a catwalk using the fader position or for mixing colours on RGB fixtures.*
-Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to the settings in the new cue. All other cues fade out and all other active playbacks become inactive; if you need to re-fire a playback, take the fader to zero and put it up again. *Useful for setting a video playback state.*
+Mode 2 | Both HTP and LTP channels follow the fader position. <em>Useful when used with a pan/tilt cue for manually tracking a spot across a stage or down a catwalk using the fader position or for mixing colours on RGB fixtures.</em>
+Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to the settings in the new cue. All other cues fade out and all other active playbacks become inactive; if you need to re-fire a playback, take the fader to zero and put it up again. <em>Useful for setting a video playback state.</em>
 
 This is the same as the [Fade Mode](cue-timing.md/#fade-modes) option in the <Keys.SoftKey>Edit Times</Keys.SoftKey> menu.
 
@@ -169,7 +169,7 @@ Sets where the console will start the Release process on this cue, causing LTP c
 
 Setting | Action
 ------: | ------
-**Fade Out Complete** | The cue is killed when all fades have completed.
+<strong>Fade Out Complete</strong> | The cue is killed when all fades have completed.
 Fader at 0 | The cue is killed when the fader reaches zero.
 
 --- 
@@ -235,7 +235,7 @@ Click the <Keys.ContextKey>Global</Keys.ContextKey> button to toggle the mask to
 Global release uses the [Global Release Mask](../cues/cue-playback.md#global-release-mask).
 
 > Release mask is useful when creating a temporary strobe
-effect on a playback. Set **Mask** to **Local** then **Intensity** to **Include**. Now when you turn off
+effect on a playback. Set <strong>Mask</strong> to <strong>Local</strong> then <strong>Intensity</strong> to <strong>Include</strong>. Now when you turn off
 the playback the shutter channel will release to its previous state
 and the strobe will stop.
 

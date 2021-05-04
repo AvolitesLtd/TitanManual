@@ -15,9 +15,9 @@ You can disable the automatic activation, or set it to fire at zero intensity, u
 
 
 
-1.  Ensure the **timecode link** button (bottom left of the timeline view) is set to **Linked**.
+1.  Ensure the <strong>timecode link</strong> button (bottom left of the timeline view) is set to <strong>Linked</strong>.
 
-2.  Start the timecode source. (You will need to push up the timeline fader if you have disabled the **Activate in Range** option described above).
+2.  Start the timecode source. (You will need to push up the timeline fader if you have disabled the <strong>Activate in Range</strong> option described above).
 
 3.  The triggers in the timeline will fire when the timecode reaches their programmed times.
 
@@ -31,7 +31,7 @@ You can disable the automatic activation, or set it to fire at zero intensity, u
 
 ### Testing a timeline
 
-You can test a timeline without running the timecode source by setting the **timecode link** button to **Unlinked**. You can then use the Play/Pause/Rewind buttons
+You can test a timeline without running the timecode source by setting the <strong>timecode link</strong> button to <strong>Unlinked</strong>. You can then use the Play/Pause/Rewind buttons
 in the Timeline View window to run the timeline sequence. This can be useful when you don't have control of the timecode source.                  
 
 Timeline Editing
@@ -73,7 +73,7 @@ You can change multiple triggers at the same time by selecting them all and usin
 
 ### Using the overview bar
 
-The **Overview Bar** at the bottom of the Timeline View gives you a miniature view of all the events in the track.
+The <strong>Overview Bar</strong> at the bottom of the Timeline View gives you a miniature view of all the events in the track.
 
 ![Timeline overview bar](/docs/images/Timeline-Overview-Bar.png)
 
@@ -121,7 +121,7 @@ If a halo colour is set for a playback, that colour will be used in the Timeline
 
 - You can remove a halo colour by pressing <Keys.SoftKey>Remove Halo</Keys.SoftKey> at step 4.
 - You can also set legends on markers using the <Keys.SoftKey>Set Legend</Keys.SoftKey> button.
-- You can set a halo colour for a **Wait for Go** trigger by tapping on it at step 2.
+- You can set a halo colour for a <strong>Wait for Go</strong> trigger by tapping on it at step 2.
 
 ### Snap options
 

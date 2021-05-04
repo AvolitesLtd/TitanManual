@@ -53,7 +53,7 @@ sACN is connected using the normal Ethernet connection on the console.
 Setting up External Triggering
 ----------------------------
 
-Go to the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>Triggers</Keys.SoftKey>. The Triggers window will
+Go to the <strong>System</strong> menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>Triggers</Keys.SoftKey>. The Triggers window will
 open.
 
 ![Triggers Window](/docs/images/Triggers-Window.png)
@@ -69,17 +69,17 @@ console to react in different ways and easily swap between them.
 
 This is how you set up a trigger:
 
-1.  Add a new mapping using the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom of the *left hand*
+1.  Add a new mapping using the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom of the <em>left hand</em>
     column, and enter a name for it.
 
-2.  Add a trigger to the mapping using the <Keys.ContextKey>+</Keys.ContextKey> button in the *right hand*
+2.  Add a trigger to the mapping using the <Keys.ContextKey>+</Keys.ContextKey> button in the <em>right hand</em>
     column or softkey <Keys.SoftKey>Add trigger</Keys.SoftKey>.
 
 3.  Select <Keys.SoftKey>Trigger Type</Keys.SoftKey> as <Keys.SoftKey>Hardware</Keys.SoftKey> or <Keys.SoftKey>Item</Keys.SoftKey>.
-    -   **Hardware** triggers a physical or touch button, or fader move, and
+    -   <strong>Hardware</strong> triggers a physical or touch button, or fader move, and
         will use the key profile set for the button/fader, just as if the user 
 		pressed the button or moved the fader.
-    -   **Item** triggers a programmed item, such as a cue or chase, but you can 
+    -   <strong>Item</strong> triggers a programmed item, such as a cue or chase, but you can 
         select what action happens to it when it is triggered.
 
 4.  Press the button or move the fader to be triggered, or containing the item to be triggered. 
@@ -94,8 +94,8 @@ This is how you set up a trigger:
 	-	Latch (latches the playback on)
 	
 	The <Keys.SoftKey>Level Match</Keys.SoftKey> option sets what happens if the playback has already been 
-	fired by the user when the trigger happens.	If set to **On** then the trigger 
-	must match the current playback level before it will take effect. If **Off** 
+	fired by the user when the trigger happens.	If set to <strong>On</strong> then the trigger 
+	must match the current playback level before it will take effect. If <strong>Off</strong> 
 	(default) the trigger will override the playback at any level.
 
 5. Press <Keys.SoftKey>OK</Keys.SoftKey>. You have now set up the console action which is to be
@@ -130,12 +130,12 @@ You can continue to add other triggers to the mapping.
 ![Triggers Window with MIDI triggers](/docs/images/Triggers-Window-with-MIDI-triggers.png)
 
 -	To delete a trigger from the mapping, select it in the list and press
-	the <Keys.ContextKey>Rubbish Bin</Keys.ContextKey> button at the *bottom of the right hand column*.
+	the <Keys.ContextKey>Rubbish Bin</Keys.ContextKey> button at the <em>bottom of the right hand column</em>.
 
 -	To delete a complete mapping, select it and press the <Keys.ContextKey>Rubbish Bin</Keys.ContextKey> button
-	at the *bottom of the left hand column*.
+	at the <em>bottom of the left hand column</em>.
 	
--	The **Re-Fire At Level** action will cause the playback to be re-fired when the trigger level changes, so
+-	The <strong>Re-Fire At Level</strong> action will cause the playback to be re-fired when the trigger level changes, so
 	any LTP values in the playback will be set again. So for example if the playback sets
 	fixtures to red, but then another playback changes the colour to white, the Re-Fire action would set
 	the fixtures back to red when the trigger level changes, but the Set Level / Fire At Level actions would leave them
@@ -148,7 +148,7 @@ This is how to set up a MIDI fader controller to act as playback faders
 on T2. Ensure your MIDI device is connected and recognised by Windows
 (you can use a utility such as Midi-OX to test it).
 
-1. From the **System** menu select <Keys.SoftKey>Triggers</Keys.SoftKey>.
+1. From the <strong>System</strong> menu select <Keys.SoftKey>Triggers</Keys.SoftKey>.
 
 2. Add a new mapping using the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom of the left hand
 column, and call it "T2 playbacks".
@@ -167,7 +167,7 @@ recognise the MIDI commands and display the trigger in the prompt area.
 7. Click <Keys.SoftKey>Add</Keys.SoftKey>. The trigger for playback 1 is added to the list on
 the right.
 
-8. Repeat from **step 3** to add the other 9 playback faders.
+8. Repeat from <strong>step 3</strong> to add the other 9 playback faders.
 
 MIDI Show Control
 -----------------
@@ -189,7 +189,7 @@ number, press <Keys.SoftKey>Set Legend</Keys.SoftKey> then the select button of 
 <Keys.SoftKey>User Number</Keys.SoftKey>.
 
 MIDI show control devices are identified by a device ID. To set Titan's
-device ID select <Keys.SoftKey>User Settings</Keys.SoftKey> from the **System** menu, then go to the
+device ID select <Keys.SoftKey>User Settings</Keys.SoftKey> from the <strong>System</strong> menu, then go to the
 <Keys.SoftKey>Timecode</Keys.SoftKey> tab. The default setting is 0.
 
 Audio Control (Sound to Light)

@@ -53,7 +53,7 @@ in the new address on the numeric keypad and pressing <Keys.HardKey>Enter</Keys.
 ![DMX Line](/docs/images/DMX-Line.png)
 
 3. To patch a single dimmer, press a Fixture touch button, a
-Macro/Executor button or the **Select** button of a fader handle. To
+Macro/Executor button or the <strong>Select</strong> button of a fader handle. To
 patch a sequence of dimmers each to its own button, press <Keys.SoftKey>Quantity</Keys.SoftKey>
 and set the number of dimmers then press the first select button.
 Alternatively, run your finger or draw a selection box round the touch
@@ -131,7 +131,7 @@ you patch to a different DMX line, or you can enter the address as
 ![Address Input](/docs/images/Address-Input.png)
 
 7. Patch the fixture by pressing a Fixture touch button, a
-Macro/Executor button or the **Select** button of a fader handle (not
+Macro/Executor button or the <strong>Select</strong> button of a fader handle (not
 the main playback faders).
 
 8. A fixture touch button turns dark blue and shows fixture details
@@ -296,7 +296,7 @@ Parked Fixtures
 ----------------------
 If you attempt to patch, copy or move a fixture to a DMX address where
 its control channels would overlap one or more other fixtures, the console 
-will give you the option to **Park** the conflicting fixture(s). Parked
+will give you the option to <strong>Park</strong> the conflicting fixture(s). Parked
 fixtures retain all their programming but do not output to the DMX outputs.
 
 You can re-enable a Parked fixture by giving it a new DMX address using the

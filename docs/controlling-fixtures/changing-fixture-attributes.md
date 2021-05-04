@@ -14,7 +14,7 @@ have various options for controlling them.
 
 "Attributes" are the functions of the fixture, like pan, tilt, colour,
 dimmer, etc. You select which attributes you want to modify using the
-**Attribute Bank** buttons - Intensity, Position, Colour, Gobo, Beam,
+<strong>Attribute Bank</strong> buttons - Intensity, Position, Colour, Gobo, Beam,
 Effect, Special, FX (abbreviated as IPCGBESFX) and then set values using the wheels. The attributes
 available depend on the fixture type. Dimmer channels only have a dimmer
 attribute.
@@ -47,7 +47,7 @@ You can also touch the roller image on the screen to change the
 attributes up or down by one step. For continuously variable controls like a
 dimmer, touching the roller will set the attribute to full or zero.
 
-3. Repeat from **step 1** to change other attributes of the selected fixtures.
+3. Repeat from <strong>step 1</strong> to change other attributes of the selected fixtures.
 
 ---
 
@@ -206,7 +206,7 @@ than vertical as shown in the pictures.)
 
 ![Attribute Editor - Colour Channels](/docs/images/Attribute-Editor-Channels.png)
 
-The **Channel** tab provides a colour picker, with a slider for each colour control channel 
+The <strong>Channel</strong> tab provides a colour picker, with a slider for each colour control channel 
 in the fixture. The
 sliders shown will vary depending on what is provided in the fixture -
 this example is an ETC Lustr fixture which has 7 independent LED emitter

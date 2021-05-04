@@ -64,7 +64,7 @@ View window showing patch details for that fixture.
 At the top right of each workspace window are three or four buttons
 which access other functions for the window.
 
-The **Window Appearance Options** button (<Keys.ContextKey>Cog</Keys.ContextKey> button) lets you select the
+The <strong>Window Appearance Options</strong> button (<Keys.ContextKey>Cog</Keys.ContextKey> button) lets you select the
 standard window sizes and positions (top left quarter, top right quarter etc.)
 Buttons are also shown allowing you
 to set the button size and the text size of the buttons in the window, and move the
@@ -111,8 +111,8 @@ use the <Keys.SoftKey>Close All</Keys.SoftKey> softkey.
 
 ### Context Menu Buttons
 
-On all consoles apart from Sapphire Touch and Titan Go, **context menu 
-buttons** appear which contain useful functions for the current
+On all consoles apart from Sapphire Touch and Titan Go, <em></em>context menu 
+buttons<em></em> appear which contain useful functions for the current
 active window and change depending on the window. 
 
 On Diamond 9 the context menu buttons are in the top left hand corner of the right
@@ -203,7 +203,7 @@ will behave if you load more windows, and to be able to target particular window
 	allowing you to recall it onto a different screen.
 	
 
->	**Screen numbering**
+>	<strong>Screen numbering</strong>
 
 	On consoles with a single internal screen, that is (1) and the external screen is (2).
 
@@ -326,7 +326,7 @@ NDI video streams, or can also be used as extra workspace windows.
 
 To configure a screen, double press <Keys.HardKey>Open/View</Keys.HardKey> and window selection buttons will pop up
 on each screen, touch the type of window you want to configure the view. For NDI Preview select
-**Video Preview** (1 2 or 3 depending which screen you are setting). To select an NDI stream,
+<strong>Video Preview</strong> (1 2 or 3 depending which screen you are setting). To select an NDI stream,
 tap on the screen and you will then see
 thumbnails of the available NDI streams to select. See [Media Viewer](../synergy/operating-synergy.md#media-viewer)
 in the Ai section for more details.

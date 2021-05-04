@@ -24,7 +24,7 @@ AvoKey Simulator dongle must be connected, or a T1/T2 device.
 - Capture visualiser requires a capable graphics card. If you have problems with Capture,      
   ensure you have installed the latest drivers for your graphics card from the manufacturer.
 
-Simply download and run the **Titan PC Suite** installer from the Avolites
+Simply download and run the <strong>Titan PC Suite</strong> installer from the Avolites
 website. The first time you run the Editor you will need to [license the
 software](../system-settings/recovering-reinstalling-the-console.md#software-licensing) to the AvoKey; follow the instructions given on screen by the
 Authenticator system.

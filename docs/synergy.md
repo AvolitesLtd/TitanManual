@@ -16,4 +16,4 @@ workspaces.
 For shows which include video content, this gives you a much smoother
 workflow when creating and running the show.
 
-> Ai refers to media outputs as "Screen Fixtures". To avoid confusion with Titan fixtures, Titan doesn't use "Fixture" and refers to them as **"Screens"** (and in some places **"Surfaces"**).
+> Ai refers to media outputs as "Screen Fixtures". To avoid confusion with Titan fixtures, Titan doesn't use "Fixture" and refers to them as <strong>"Screens"</strong> (and in some places <strong>"Surfaces"</strong>).

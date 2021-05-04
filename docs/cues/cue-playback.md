@@ -8,20 +8,20 @@ import Keys from '@site/src/components/key.ts';
 
 Because it's possible to play back a large number of cues at the same
 time, the console has to have rules on how it combines the output from
-different cues. These are called **HTP** and **LTP** rules.
+different cues. These are called <strong>HTP</strong> and <strong>LTP</strong> rules.
 
 Combining Cues with HTP and LTP
 -------------------------------
 
 Control channels are handled in two ways:
 
--   Dimmer or intensity channels work on the principle of **"Highest Takes
- Precedence" (HTP)**. If an HTP channel is active at different levels
+-   Dimmer or intensity channels work on the principle of <em></em>"Highest Takes
+ Precedence" (HTP)<em></em>. If an HTP channel is active at different levels
  in several cues, the highest level will be output. When you fade out
  a cue, the HTP channels fade out with it.
 
--   All other channels work on the principle of **"Latest Takes
- Precedence" (LTP)**. The latest change takes over from any other
+-   All other channels work on the principle of <em></em>"Latest Takes
+ Precedence" (LTP)<em></em>. The latest change takes over from any other
  values, so the most recent cue to be turned on is the one which is
  output. When you fade out a cue, LTP channels retain their values
  until changed by another cue.
@@ -45,13 +45,13 @@ in the programmer will override the playback).
  set to Mode 2 in which case they fade with the fader position; see
  the timings section [Fader Modes](cue-timing.md#fade-modes) for details of modes)*.
 
--   You can **Flash** the cue by pressing the Flash button. You can
- **Swop** (solo) the cue by pressing the Select button (all other
+-   You can <strong>Flash</strong> the cue by pressing the Flash button. You can
+ <strong>Swop</strong> (solo) the cue by pressing the Select button (all other
  active cues will turn off while the button is pressed). This assumes
  you haven't reassigned the function of the buttons using
  [Key Profiles](../system-settings/key-profiles.md), see below.
 
--   You can **Preload** the cue by assigning the Preload function to one of the
+-   You can <strong>Preload</strong> the cue by assigning the Preload function to one of the
  handle buttons using
  [Key Profiles](../system-settings/key-profiles.md). Preload sets the attributes
  of fixtures in the playback which are not currently active in any
@@ -71,7 +71,7 @@ in the programmer will override the playback).
  while the timing completes. You can also fire the cue again without
  needing to release it.
 
--   You can set playbacks to high **priority** if you do not want them to be
+-   You can set playbacks to high <strong>priority</strong> if you do not want them to be
  overridden by other playbacks using the same fixtures. For example,
  if you have a couple of fixtures acting as a spotlight, but they are
  also programmed into some colour washes, you probably want the
@@ -158,7 +158,7 @@ then press <Keys.SoftKey>Active Playbacks</Keys.SoftKey> from the window select 
 
 ![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
 
-Click on a playback to instantly **kill** it. You can also press <Keys.SoftKey>Options</Keys.SoftKey> 
+Click on a playback to instantly <strong>kill</strong> it. You can also press <Keys.SoftKey>Options</Keys.SoftKey> 
 followed by the playback in this window to change parameters
 of the playback.
 
@@ -182,7 +182,7 @@ for more details.
 Release
 -------
 
-Normally when you kill a playback by lowering the fader, the LTP attributes will be left in the last state set by the playback. Sometimes you don't want this, for example if you have a strobe cue, you don't want the strobing to carry on when you kill the cue. The **Release** function lets you set how attributes will return to their previous values.
+Normally when you kill a playback by lowering the fader, the LTP attributes will be left in the last state set by the playback. Sometimes you don't want this, for example if you have a strobe cue, you don't want the strobing to carry on when you kill the cue. The <strong>Release</strong> function lets you set how attributes will return to their previous values.
 
 You can set a mask so that some or all attributes will automatically release from the playback when the playback is killed - see [Release Mask](#release-mask) below. For a cue this will happen when all fade times have completed, unless you change the [Kill Point](playback-options.md/#fader-tab) option in the cue options.
 
@@ -194,26 +194,26 @@ can be used to release the playback using [Key Profiles](../system-settings/key-
 
 Channels will always release with a fade time, this defaults to 2 seconds but you can change it using <Keys.SoftKey>Master Release Time</Keys.SoftKey> in the Release menu. You can also set an individual release time for the playback from the [Release tab](playback-options.md#release-tab) of playback options.
 
--   You can kill a playback by pressing <Keys.HardKey>Avo</Keys.HardKey> + the **Select** button of the playback, which has the same effect as pulling the fader to zero. For a cue, the fade out times will still apply and the cue will release when the fades are completed. This can also be useful for Cue Lists which (depending on their options) may stay fired even when the fader is lowered to zero.
+-   You can kill a playback by pressing <Keys.HardKey>Avo</Keys.HardKey> + the <strong>Select</strong> button of the playback, which has the same effect as pulling the fader to zero. For a cue, the fade out times will still apply and the cue will release when the fades are completed. This can also be useful for Cue Lists which (depending on their options) may stay fired even when the fader is lowered to zero.
 
--   You can instantly release a running playback by pressing <Keys.HardKey>Release</Keys.HardKey>, then the **Select** button of the playback to be released. This uses a [Temporary Release Mask](#temporary-release-mask) as described below. Fade out times of cues will be ignored and the release will start immediately, but will use the set release time. 
+-   You can instantly release a running playback by pressing <Keys.HardKey>Release</Keys.HardKey>, then the <strong>Select</strong> button of the playback to be released. This uses a [Temporary Release Mask](#temporary-release-mask) as described below. Fade out times of cues will be ignored and the release will start immediately, but will use the set release time. 
 
--   You can **Release All** running playbacks by double pressing <Keys.HardKey>Release</Keys.HardKey>. The user setting [Release Priority](../system-settings/user-settings.md#release) sets which playback priority levels will be released. You can protect against unintended Release All by setting the Release Priority to Low - this would only release playbacks with Low priority, if you had any set up.
+-   You can <strong>Release All</strong> running playbacks by double pressing <Keys.HardKey>Release</Keys.HardKey>. The user setting [Release Priority](../system-settings/user-settings.md#release) sets which playback priority levels will be released. You can protect against unintended Release All by setting the Release Priority to Low - this would only release playbacks with Low priority, if you had any set up.
 
 
 Release Mask
 ------------
 
-You can configure which attributes will release from a playback when it is killed using the **Release Mask**. There is a **Global**
-release mask which is the default setting, or you can set a **Local** release mask which overrides the global mask for a particular playback.
-If you start a release using the <Keys.HardKey>Release</Keys.HardKey> button then a **Temporary** release mask is used which just affects the current release operation.
+You can configure which attributes will release from a playback when it is killed using the <strong>Release Mask</strong>. There is a <strong>Global</strong>
+release mask which is the default setting, or you can set a <strong>Local</strong> release mask which overrides the global mask for a particular playback.
+If you start a release using the <Keys.HardKey>Release</Keys.HardKey> button then a <strong>Temporary</strong> release mask is used which just affects the current release operation.
 
 ### Global Release Mask
 
 If no local release mask is set for the playback, attributes release
 according to this mask when the playback is killed. The default is for no attributes to release, so all LTP attributes will remain at their last value.
 
-Set the Global Release Mask from the **Release Menu** by pressing <Keys.HardKey>Release</Keys.HardKey> then <Keys.SoftKey>Global Release Mask</Keys.SoftKey>. The
+Set the Global Release Mask from the <strong>Release Menu</strong> by pressing <Keys.HardKey>Release</Keys.HardKey> then <Keys.SoftKey>Global Release Mask</Keys.SoftKey>. The
 softkey and the lit Attribute Bank buttons show which attribute groups are enabled - use the Attribute Bank buttons or the softkeys to enable or disable attribute groups.
 
 ![Global Release Mask](/docs/images/Global-Release-Mask.png)
@@ -252,7 +252,7 @@ the fader group.
 
 The release will use the [Temporary Release Mask](#temporary-release-mask) as described above. 
 
-> **"Fader Group"** refers to a particular area of the console, for example
+> <strong>"Fader Group"</strong> refers to a particular area of the console, for example
 the main faders below the screen on a Tiger Touch or the top row on the
 left hand side of the Arena.
 
@@ -265,7 +265,7 @@ You can release a single attribute on a wheel from the programmer by pressing <K
 
 ### Releasing a master
 
-You can reset a master to default state by pressing <Keys.HardKey>Release</Keys.HardKey> then the **Select** button of the master. You can reset all masters to default state by pressing <Keys.HardKey>Release</Keys.HardKey> then <Keys.SoftKey>Release all Masters</Keys.SoftKey>. This will set the level of the master so that it has no effect (full for intensity masters, 100% for speed masters, and so on).
+You can reset a master to default state by pressing <Keys.HardKey>Release</Keys.HardKey> then the <strong>Select</strong> button of the master. You can reset all masters to default state by pressing <Keys.HardKey>Release</Keys.HardKey> then <Keys.SoftKey>Release all Masters</Keys.SoftKey>. This will set the level of the master so that it has no effect (full for intensity masters, 100% for speed masters, and so on).
 
 Programming the Release / Power On State
 ----------------------------------------
@@ -299,7 +299,7 @@ Turning Off Individual Fixtures
 -------------------------------
 
 You can turn off individual fixtures or certain attributes of them using
-the **Off** menu. The programmed values will remain in the playback but will
+the <strong>Off</strong> menu. The programmed values will remain in the playback but will
 not be applied when the playback is recalled. You can, however, re-enable 
 the values in the cue view.
 

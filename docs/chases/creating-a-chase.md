@@ -24,7 +24,7 @@ to load in cues.
 1. Press <Keys.HardKey>Record</Keys.HardKey> then select <Keys.SoftKey>Chase</Keys.SoftKey>. *(Some consoles also have a
 <Keys.HardKey>Record Chase</Keys.HardKey> button)*.
 
-2. Press the **Select** button of the playback where you want to store the
+2. Press the <strong>Select</strong> button of the playback where you want to store the
 chase *(you can also store chases on touch buttons in the Playbacks
 window)*.
 
@@ -34,7 +34,7 @@ on existing cues.
 
 4. You can change the number given to the step using <Keys.SoftKey>Step Number</Keys.SoftKey>
 
-5. Press the **Select** button of the playback to store the programmer
+5. Press the <strong>Select</strong> button of the playback to store the programmer
 contents as a step of the chase. You can also press <Keys.SoftKey>Append Step</Keys.SoftKey> on
 the menu.
 
@@ -75,7 +75,7 @@ programmer)*, then repeat steps 3 - 5.
     it)*
 
 -   You can set a legend for the chase by pressing <Keys.SoftKey>Set Legend</Keys.SoftKey>, then
-    pressing the **Select** button for the chase and entering the legend, as
+    pressing the <strong>Select</strong> button for the chase and entering the legend, as
     with cues.
 
 -   There is no limit to the number of steps in a chase.

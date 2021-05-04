@@ -34,7 +34,7 @@ firewall.
 
 4. Run the Hippo system. Make sure the CITP component is running.
 
-5. Go to the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
+5. Go to the <strong>System</strong> menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
 
 6. On the left hand side under Art-Net you should see the Hippo with
 its IP address. Click on it and then on the right hand side click on the

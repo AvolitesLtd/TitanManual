@@ -21,20 +21,20 @@ the left-hand screen(s), handle legends for the main faders and encoders are sho
 
 
 <Keys.Annotation>B</Keys.Annotation> 
-The **Playback faders** and **Rotary playback faders**
+The <strong>Playback faders</strong> and <strong>Rotary playback faders</strong>
  select and control cues, cue lists and chases, and other configurable functions.
  (D9-215 only has the right hand set of faders).
 
 å
-<Keys.Annotation>C</Keys.Annotation> The **System Prompt and Menu Softkeys** have their own touchscreen.
+<Keys.Annotation>C</Keys.Annotation> The <strong>System Prompt and Menu Softkeys</strong> have their own touchscreen.
 
-<Keys.Annotation>D</Keys.Annotation> The **Programming and setup controls** configure and program the console,
-within which the **editor touchscreen** shows and sets fixture attributes and 
-the **macro/executor buttons** are playback buttons allowing storage of cues or
+<Keys.Annotation>D</Keys.Annotation> The <strong>Programming and setup controls</strong> configure and program the console,
+within which the <strong>editor touchscreen</strong> shows and sets fixture attributes and 
+the <strong>macro/executor buttons</strong> are playback buttons allowing storage of cues or
 chases, frequent key sequences, screen layouts or groups. To the left of these
 controls are the cue list playback controls and the Scene Master T-bar.
 
-<Keys.Annotation>E</Keys.Annotation> Three **Layer screens** are provided for monitoring
+<Keys.Annotation>E</Keys.Annotation> Three <strong>Layer screens</strong> are provided for monitoring
 video feeds via NDI, or for additional workspace window touch screens.
 
 
@@ -43,12 +43,12 @@ video feeds via NDI, or for additional workspace window touch screens.
 
 ![Diamond-F-G](/docs/images/Diamond-F.png)
 
-<Keys.Annotation>F</Keys.Annotation> The **Workspace windows** on the touch screens contain a user-configurable
+<Keys.Annotation>F</Keys.Annotation> The <strong>Workspace windows</strong> on the touch screens contain a user-configurable
 layout of touch buttons for fixtures, palettes, groups, playbacks, macros and more.
 You can also show the integrated Capture visualiser, video feed monitors or a range
 of information screens such as intensity levels or DMX output levels.
 
-<Keys.Annotation>G</Keys.Annotation> The **System Prompt and Menu Softkeys** screen is the nerve centre of
+<Keys.Annotation>G</Keys.Annotation> The <strong>System Prompt and Menu Softkeys</strong> screen is the nerve centre of
 the console and shows you what is going on. This display contains touch
 buttons for the main menu which change depending on what the console
 is doing. Softkey commands are shown in the manual 
@@ -58,19 +58,19 @@ like this: <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 ![Diamond-H](/docs/images/Diamond-H.png)
 
-<Keys.Annotation>H</Keys.Annotation> The **Rotary Faders** at the top can be used to store
+<Keys.Annotation>H</Keys.Annotation> The <strong>Rotary Faders</strong> at the top can be used to store
 a range of program functions including cues, chases, and fixture groups.
 The rotary faders have a level indicator around them which is shown in
 a user-configurable colour (halo colour).
 The touch screen below the faders shows legends indicating their function.
 There are additional rotary faders down the sides of the left and right touchscreens.
 
-<Keys.Annotation>I</Keys.Annotation> The **Page Select buttons** in the
+<Keys.Annotation>I</Keys.Annotation> The <strong>Page Select buttons</strong> in the
 centre of the faders let you change the left or right fader banks to a different page.
 
-<Keys.Annotation>J</Keys.Annotation> Two more sets of **Rotary Faders** are provided above the Playback Faders.
+<Keys.Annotation>J</Keys.Annotation> Two more sets of <strong>Rotary Faders</strong> are provided above the Playback Faders.
 
-<Keys.Annotation>K</Keys.Annotation> The motorised **Playback faders** are the main place to store and play back cues or chases
+<Keys.Annotation>K</Keys.Annotation> The motorised <strong>Playback faders</strong> are the main place to store and play back cues or chases
 but can also be assigned a range of other functions. Each fader has a level indicator
 which can be set to a user-configurable halo colour.
 The touch screen above the faders shows information about
@@ -78,17 +78,17 @@ each playback.
 
 test
 <Keys.Annotation>L</Keys.Annotation> 
-The **Page Select buttons** let you change the left or right
+The <strong>Page Select buttons</strong> let you change the left or right
 fader banks to a different page
 of playbacks (for both the playback faders and the lower rotary faders). 
 <br/>
 
-<Keys.Annotation>M</Keys.Annotation> The **Macro Buttons** store playbacks or frequently used sequences of keypresses
+<Keys.Annotation>M</Keys.Annotation> The <strong>Macro Buttons</strong> store playbacks or frequently used sequences of keypresses
 which can be replayed with a single button press. The display immediately above the buttons shows legends for
 the buttons. There is a smaller bank of 6 buttons between the playback faders with
 their own legend screen.
 
-<Keys.Annotation>N</Keys.Annotation> The **Playback controls** are used to control the playback of cue
+<Keys.Annotation>N</Keys.Annotation> The <strong>Playback controls</strong> are used to control the playback of cue
 lists and include a T-bar with display for the Scene Master function and 
 a motorised fader pair in the Sequence Control Section to control the 
 connected playback/master.
@@ -97,37 +97,37 @@ connected playback/master.
 
 ![Diamond-N](/docs/images/Diamond-O.png)
 
-<Keys.Annotation>O</Keys.Annotation> The five  **Control wheels** are used to set control values (attributes) for
+<Keys.Annotation>O</Keys.Annotation> The five  <strong>Control wheels</strong> are used to set control values (attributes) for
 the fixtures, and to set chase speeds and fades. The touch screen above
 the wheels shows information about the attributes being controlled. The buttons
 to the right of the wheels switch them to other functions such as fade timing,
 shape control or visualiser control.
 
-<Keys.Annotation>P</Keys.Annotation> The dedicated **Editor Touchscreen** shows the Attribute Editor
+<Keys.Annotation>P</Keys.Annotation> The dedicated <strong>Editor Touchscreen</strong> shows the Attribute Editor
 window giving a different way to select attributes such as colours and gobos.
 
-<Keys.Annotation>Q</Keys.Annotation> The **Function buttons** are used to carry out functions such as storing
+<Keys.Annotation>Q</Keys.Annotation> The <strong>Function buttons</strong> are used to carry out functions such as storing
 cues, copying, patching, saving to disk, etc.
 
-<Keys.Annotation>R</Keys.Annotation> The **Attribute Buttons** are used to select which attributes of
+<Keys.Annotation>R</Keys.Annotation> The <strong>Attribute Buttons</strong> are used to select which attributes of
 a fixture (e.g. colour, gobo, pan, focus) are going to be controlled
 using the Control wheels. The buttons light up to show you which
 attributes are active.
 
-<Keys.Annotation>S</Keys.Annotation> The **Numeric keypad** and other control buttons are used to enter
+<Keys.Annotation>S</Keys.Annotation> The <strong>Numeric keypad</strong> and other control buttons are used to enter
 values and change controls on the console.
 
-<Keys.Annotation>T</Keys.Annotation> The dedicated **Intensity Wheel** and display controls intensity
+<Keys.Annotation>T</Keys.Annotation> The dedicated <strong>Intensity Wheel</strong> and display controls intensity
 of selected fixtures.
 
-<Keys.Annotation>U</Keys.Annotation> The **trackball** controls pan and tilt of fixtures, and can also be
+<Keys.Annotation>U</Keys.Annotation> The <strong>trackball</strong> controls pan and tilt of fixtures, and can also be
 used to control a mouse pointer for the screens.
 
 ## Front edge of the console
 
-Under the armrest at the front of the console is the **Power Switch**, a
-**USB socket** for connecting USB drives, and a pull-out drawer with an 
-illuminated **Keyboard** for entering legends.
+Under the armrest at the front of the console is the <strong>Power Switch</strong>, a
+<strong>USB socket</strong> for connecting USB drives, and a pull-out drawer with an 
+illuminated <strong>Keyboard</strong> for entering legends.
 
 ## The Back Panel
 

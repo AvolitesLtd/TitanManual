@@ -11,39 +11,39 @@ See [minimum PC specifications](../titan-basics.md#connecting-up-titan-mobile-an
 
 ![Titan Mobile](/docs/images/Titan-Mobile.png)
 
-<Keys.Annotation>A</Keys.Annotation> The **Playback faders** are used to store and play back cues or chases.
-<Keys.Annotation>B</Keys.Annotation> The **Page Select buttons** let you change to a different page of
+<Keys.Annotation>A</Keys.Annotation> The <strong>Playback faders</strong> are used to store and play back cues or chases.
+<Keys.Annotation>B</Keys.Annotation> The <strong>Page Select buttons</strong> let you change to a different page of
 playbacks. The bottom of the screen shows information about each
 playback.
 
-<Keys.Annotation>C</Keys.Annotation> The **Attribute Control wheels** are used to set control values
+<Keys.Annotation>C</Keys.Annotation> The <strong>Attribute Control wheels</strong> are used to set control values
 (attributes) for the fixtures, and to set chase speeds and fades. The
 bottom right corner of the screen shows information about the attributes
 being controlled.
 
-<Keys.Annotation>D</Keys.Annotation> The **Attribute select buttons** are used to select which attributes of
+<Keys.Annotation>D</Keys.Annotation> The <strong>Attribute select buttons</strong> are used to select which attributes of
 a fixture (e.g. colour, gobo, position) are going to be controlled using
 the Control wheels. The buttons have lights on to show you which
 attributes are active. Attribute functions such as Fan and Shapes are
 also controlled here.
 
-<Keys.Annotation>E</Keys.Annotation> The **Chase and Cue List control buttons** allow you to start and stop
+<Keys.Annotation>E</Keys.Annotation> The <strong>Chase and Cue List control buttons</strong> allow you to start and stop
 chases and cue lists, and move about in the list.
 
-<Keys.Annotation>F</Keys.Annotation> The **Numeric keypad** and other control buttons are used to enter
+<Keys.Annotation>F</Keys.Annotation> The <strong>Numeric keypad</strong> and other control buttons are used to enter
 values and change controls on the system.
 
-<Keys.Annotation>G</Keys.Annotation> The **Function buttons** are used to carry out functions such as storing
+<Keys.Annotation>G</Keys.Annotation> The <strong>Function buttons</strong> are used to carry out functions such as storing
 cues, copying, saving to disk, etc.
 
-<Keys.Annotation>H</Keys.Annotation> The **Workspaces, Macros and Executers** buttons are programmable
+<Keys.Annotation>H</Keys.Annotation> The <strong>Workspaces, Macros and Executers</strong> buttons are programmable
 buttons which can be used to store cues such as strobe cues, workspaces 
 (screen layouts), or button macros.
 
-<Keys.Annotation>I</Keys.Annotation> The **Workspace Window select buttons** are used to set which windows
+<Keys.Annotation>I</Keys.Annotation> The <strong>Workspace Window select buttons</strong> are used to set which windows
 are shown on the screen.
 
-<Keys.Annotation>J</Keys.Annotation> The **Menu Softkeys** (labelled A - G) are used to select control options. 
+<Keys.Annotation>J</Keys.Annotation> The <strong>Menu Softkeys</strong> (labelled A - G) are used to select control options. 
 The right hand side of the display shows what each one will do. - if you are using
 a touch screen computer you can touch the softkey on-screen instead of using these
 buttons. The options for each 
@@ -57,26 +57,26 @@ with a mouse.
 
 ![Titan Mobile Screen](/docs/images/Titan-Mobile-Screen.png)
 
-<Keys.Annotation>K</Keys.Annotation> Four **Workspace Windows** may be shown on the screen. These contain
+<Keys.Annotation>K</Keys.Annotation> Four <strong>Workspace Windows</strong> may be shown on the screen. These contain
 touch buttons to control fixture selection, palette selection, groups,
 shapes, attributes, and so on. Visualiser may also be shown in a window.
 
-<Keys.Annotation>L</Keys.Annotation> The system **Menu softkeys** are down the top right hand side. You can
+<Keys.Annotation>L</Keys.Annotation> The system <strong>Menu softkeys</strong> are down the top right hand side. You can
 select these by touching or clicking them, or by using the menu buttons
 on the right hand edge of the control panel.
 
-<Keys.Annotation>M</Keys.Annotation> **System prompts** are shown just to the left of the menu keys. Below
-that are **Context buttons** which appear when relevant to the operation
+<Keys.Annotation>M</Keys.Annotation> <strong>System prompts</strong> are shown just to the left of the menu keys. Below
+that are <strong>Context buttons</strong> which appear when relevant to the operation
 you are doing.
 
-<Keys.Annotation>N</Keys.Annotation> The **Workspace Buttons** allow you to quickly select and save different
+<Keys.Annotation>N</Keys.Annotation> The <strong>Workspace Buttons</strong> allow you to quickly select and save different
 workspace screen layouts.
 
-<Keys.Annotation>O</Keys.Annotation> The **Wheels display** shows the current attributes available on the 3
-wheels. The **Attribute status display** above that shows which
+<Keys.Annotation>O</Keys.Annotation> The <strong>Wheels display</strong> shows the current attributes available on the 3
+wheels. The <strong>Attribute status display</strong> above that shows which
 attributes are currently active or modified.
 
-<Keys.Annotation>P</Keys.Annotation> The **Playback information** shows the legend and other information
+<Keys.Annotation>P</Keys.Annotation> The <strong>Playback information</strong> shows the legend and other information
 about the playbacks on the 10 faders.
 
 ## Titan Mobile Connections panel

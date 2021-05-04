@@ -10,7 +10,7 @@ How Titan Works When Programming
 --------------------------------
 
 When you select one or more dimmers or fixtures for control, they are
-loaded into the **Programmer**. You can then use the 
+loaded into the <strong>Programmer</strong>. You can then use the 
 [wheels](../controlling-fixtures/changing-fixture-attributes.md#changing-attributes-using-the-wheels),
 [palettes](../palettes.md) and [effects](../effects.md) to 
 change the attributes on the fixture and your changes will be
@@ -23,8 +23,8 @@ function.
 
 When you record a cue, the contents of the Programmer are
 saved into the cue. This might be different to what you see on stage as you
-are only saving your changes, not the output of the console. See **Record
-Mode** in the next section for different options of what gets saved.
+are only saving your changes, not the output of the console. See <em></em>Record
+Mode<em></em> in the next section for different options of what gets saved.
 
 If another fixture is selected after you have changed some attributes then the
 current list of fixtures in the Programmer is emptied and a new list is
@@ -53,7 +53,7 @@ Creating a Cue
 
 1. Press <Keys.HardKey>Clear</Keys.HardKey> to clear the programmer.
 
-*This ensures that you are starting with a clean slate.*
+<em>This ensures that you are starting with a clean slate.</em>
 
 2. Set up the look using the fixtures. You can save shapes in a cue.
 Remember that only fixtures which are selected or have been modified
@@ -61,7 +61,7 @@ will be saved in the cue (in <Keys.SoftKey>Record by Fixture</Keys.SoftKey> mode
 
 3. Press the <Keys.HardKey>Record</Keys.HardKey> button.
 
-4. Press the **Select** button of an empty playback to record the cue. The
+4. Press the <strong>Select</strong> button of an empty playback to record the cue. The
 handles where you can record the cue will flash. You can also record a
 cue onto a touch button in the Playbacks window.
 
@@ -88,7 +88,7 @@ Other useful things to know about recording cues:
 
 -   The screen immediately above each fader shows a legend for the
     playback. To set this, from the top-level menu press <Keys.SoftKey>Set Legend</Keys.SoftKey>, 
-    then the playback **Select** button, then enter a legend on the
+    then the playback <strong>Select</strong> button, then enter a legend on the
     keyboard or draw a picture legend. Press <Keys.HardKey>Enter</Keys.HardKey> to store it.
 
     On the Diamond 9, setting <Keys.SoftKey>Halo</Keys.SoftKey> in the Legend menu will set the illumination colour 
@@ -96,14 +96,14 @@ Other useful things to know about recording cues:
 
 ![Playbacks stored on playback faders](/docs/images/Playbacks-stored-on-playback-faders.png)
 
--   A **Static Playbacks** workspace is available to show the contents of
+-   A <strong>Static Playbacks</strong> workspace is available to show the contents of
     the macro/executor buttons and (on the Tiger Touch) the 10 static
     playback faders.
 
 Quick Build Cues
 ----------------
 
-Setting <Keys.SoftKey>Record Mode</Keys.SoftKey> to **Quick Build** allows you to build a cue from
+Setting <Keys.SoftKey>Record Mode</Keys.SoftKey> to <strong>Quick Build</strong> allows you to build a cue from
 existing playbacks or palettes (you can also use the
 [Include function](editing-cues.md#using-parts-of-existing-cues-the-include-function) to
 do this).
@@ -126,7 +126,7 @@ will be saved as part of the cue.
 You can create a cue which contains a shape with no base reference
 values; a shape cue like this can then be fired with other cues to
 overlay the shape on the cue and give you instant effects based around
-the settings in that cue. When recording the cue, use **Record by Channel**
+the settings in that cue. When recording the cue, use <strong>Record by Channel</strong>
 mode or use the ["Off" function](editing-cues.md#removing-attributes-from-cues-using-off)
 to remove the other attributes from the programmer.
 
@@ -145,7 +145,7 @@ option between <Keys.SoftKey>Blind Inactive</Keys.SoftKey> and <Keys.SoftKey>Bli
 If you want to preview a playback on the visualiser without affecting
 the stage, playbacks can be set to Blind mode using \[Playback
 Options\]. To quickly set a playback to blind mode, hold <Keys.HardKey>Blind</Keys.HardKey> and
-press the playback **select** button. Repeat to make it Live again.
+press the playback <strong>select</strong> button. Repeat to make it Live again.
 
 You can fade your blind state to the live output by typing in a fade
 time number then pressing <Keys.HardKey>Blind</Keys.HardKey>. This allows you to recall several

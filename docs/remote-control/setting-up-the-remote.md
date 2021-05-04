@@ -40,7 +40,7 @@ Point please refer to the documentation provided with it.
 > We advise using a dedicated wireless access point rather than a
 wireless router (ADSL router). Although routers are cheaper, the
 WiFi connection through to the Ethernet can be flaky. Some routers
-can be switched to an *"access point"* mode to avoid this problem.
+can be switched to an <em>"access point"</em> mode to avoid this problem.
 
 You need to set up the network settings on the Wireless Access Point,
 the mobile device and the console so that they can communicate with each
@@ -54,9 +54,9 @@ the DHCP server. Take note of the name of the wireless network (SSID).
 2. Connect an Ethernet cable from the back of the console to the access
 point.
 
-3. Set the IP address of the console: from the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), select
+3. Set the IP address of the console: from the <strong>System</strong> menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), select
 <Keys.SoftKey>Network Settings</Keys.SoftKey>, press <Keys.SoftKey>Local Area Connection</Keys.SoftKey>, then press \[Set
-IP 10.\*.\*.\*\].
+IP 10.\<em>.\</em>.\*\].
 
 4. On the mobile device, go to WiFi settings or Network Settings and
 ensure WiFi is set to on.

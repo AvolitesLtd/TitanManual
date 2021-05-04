@@ -16,7 +16,7 @@ We recommend that you use the console's automatic IP setting function.
 However, if you need to you can also set a manual IP address. See [Setting your IP address](a-quick-guide-to-ip-addressing.md#setting-your-ip-address) for
 details of how IP addressing works.
 
-1. Go to the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and press <Keys.SoftKey>Network Settings</Keys.SoftKey>
+1. Go to the <strong>System</strong> menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and press <Keys.SoftKey>Network Settings</Keys.SoftKey>
 
 2. Press <Keys.SoftKey>Local Area Connection</Keys.SoftKey> (some consoles have more than
 	one network connection, so you may have different connections to
@@ -24,18 +24,18 @@ details of how IP addressing works.
 
 3. Check <Keys.SoftKey>Subnet Mask</Keys.SoftKey> is set to `255.255.255.0`
 
-4. Press <Keys.SoftKey>Set IP `2.*.*.*`</Keys.SoftKey>
+4. Press <Keys.SoftKey>Set IP `2.<em>.</em>.*`</Keys.SoftKey>
 
 5. Press <Keys.SoftKey>Save settings</Keys.SoftKey>
 
 6. <Keys.HardKey>Exit</Keys.HardKey> the system menu.
 
 -   Some Art-Net equipment may operate on a fixed IP address range of
-	2.\*.\*.\* or 10.\*.\*.\*, in which case you will need to also
+	2.\<em>.\</em>.\<em> or 10.\</em>.\<em>.\</em>, in which case you will need to also
 	set the console within the same range, but most equipment can be set
 	to any address.
 
--   If you need an address range other than 2.\*.\*.\* or 10.\*.\*.\*
+-   If you need an address range other than 2.\<em>.\</em>.\<em> or 10.\</em>.\<em>.\</em>
 	you can press <Keys.SoftKey>IP Address = ... </Keys.SoftKey> and enter the address with the numeric keypad.
 
 Setting up DMX outputs
@@ -66,7 +66,7 @@ implemented by a growing number of manufacturers. Many products (such as
 Dimmers and Moving lights) can accept the Art-Net signal directly, so
 there is no need to convert the signal to DMX. Most people will,
 however, need to output DMX to their equipment and this can be done
-using an Art-Net to DMX converter (often called a **Node**).
+using an Art-Net to DMX converter (often called a <strong>Node</strong>).
 
 In the following diagram, an Art-Net compliant Console (such as a Titan
 console) is connected via a network switch to an Art-Net compatible dimmer

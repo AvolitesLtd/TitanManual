@@ -29,13 +29,13 @@ Expert, because the rollers cannot be moved automatically).
 Creating a Set List
 -------------------
 
-To create a Set List, click the <Keys.ContextKey>+</Keys.ContextKey> button *in the top right corner* of
-the window. You can choose **Empty**, **Pages**, and **Build**: 
+To create a Set List, click the <Keys.ContextKey>+</Keys.ContextKey> button <em>in the top right corner</em> of
+the window. You can choose <strong>Empty</strong>, <strong>Pages</strong>, and <strong>Build</strong>: 
 -   Pages will automatically create a set list using the legends of your 
     existing playback pages, one page per track. 
 -   Build allows you to select the pages in the order you want them. 
 -   Empty: your start with an empty list and can manually add tracks 
-    using the <Keys.ContextKey>+</Keys.ContextKey> button *below the track list*.
+    using the <Keys.ContextKey>+</Keys.ContextKey> button <em>below the track list</em>.
 
 Configuring Tracks
 ------------------

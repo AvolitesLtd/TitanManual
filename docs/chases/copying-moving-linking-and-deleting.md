@@ -22,7 +22,7 @@ Deleting a chase
 ----------------
 
 You can delete an entire chase by pressing <Keys.HardKey>Delete</Keys.HardKey> followed by the
-**Select** button of the chase to delete. Press once more to confirm.
+<strong>Select</strong> button of the chase to delete. Press once more to confirm.
 
 Deleting a step from a chase
 ----------------------------
@@ -31,9 +31,9 @@ To delete a single step from a chase:
 
 1. Press <Keys.HardKey>Delete</Keys.HardKey> button.
 
-2. Press the **Select** button of the chase.
+2. Press the <strong>Select</strong> button of the chase.
 
-3. The steps in the chase are listed on the screen. Use **Wheel A** to select the step you
+3. The steps in the chase are listed on the screen. Use <strong>Wheel A</strong> to select the step you
 want to delete, or type in the number of the step to be deleted.
 
 4. Press <Keys.SoftKey>Delete Cue x</Keys.SoftKey> to delete the step.

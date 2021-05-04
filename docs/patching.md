@@ -32,6 +32,6 @@ Program before you can patch.
 
 By default in a new show, each physical DMX output socket (5 pin XLR) is
 connected to a DMX line. If you want to change this or use other lines,
-go to the [DMX Settings](./system-settings/dmx-output-mapping.md) window from the **System** menu.
+go to the [DMX Settings](./system-settings/dmx-output-mapping.md) window from the <strong>System</strong> menu.
 
 > If nothing is happening to the lights when you make changes on the console it is worth checking the [DMX Settings](./system-settings/dmx-output-mapping.md#configuring-dmx-outputs) window to make sure the DMX lines are allocated to outputs.
