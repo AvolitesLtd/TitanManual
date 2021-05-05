@@ -64,7 +64,7 @@
   "build": {
     "appId": "com.avolites.titan.manual",
     "files": [
-      "build/AvoDocs/**/*",
+      "build/**/*",
       "app/**/*",
       "app.js",
       "!app/icon/",
