@@ -99,8 +99,8 @@ the addresses will be set with an offset of 20 channels between each
 fixture).
 
 The <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey> softkey lets you swap the addressing
-between two groups of fixtures. This operates in two modes, \[One For
-One\] or <Keys.SoftKey>Retain Layout</Keys.SoftKey>, which you can select by softkey after
+between two groups of fixtures. This operates in two modes, <Keys.SoftKey>One For
+One</Keys.SoftKey> or <Keys.SoftKey>Retain Layout</Keys.SoftKey>, which you can select by softkey after
 pressing <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey>.\
 Select one group, then press <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey> and select the
 target group. In One for One mode the target must be the same quantity
@@ -142,8 +142,8 @@ output line number.
 -   If the new DMX address already has another fixture or dimmer patched
     on it, the console will warn you (unless this is disabled in 
     [User Settings](../system-settings/user-settings.md)). You can either press
-    <Keys.SoftKey>Select another DMX address</Keys.SoftKey> to abort the change or \[Park
-    Conflicting Fixtures\]. All programming for the parked fixture is
+    <Keys.SoftKey>Select another DMX address</Keys.SoftKey> to abort the change or <Keys.SoftKey>Park
+    Conflicting Fixtures</Keys.SoftKey>. All programming for the parked fixture is
     preserved, but you need to repatch it to a free DMX address using
     the above procedure before you can use it again. If you press
     <Keys.SoftKey>Always Park Conflicting Fixtures</Keys.SoftKey> the console will park this and
@@ -173,8 +173,8 @@ identify the fixture.
 -   You can set the same legend for multiple fixtures by selecting a
     group of fixtures after pressing <Keys.SoftKey>Set Legend</Keys.SoftKey>.
 
--   You can change the User Number for the fixture using the \[User
-    Number\] softkey on the <Keys.SoftKey>Set Legend</Keys.SoftKey> menu. User Numbers are used
+-   You can change the User Number for the fixture using the <Keys.SoftKey>User
+    Number</Keys.SoftKey> softkey on the <Keys.SoftKey>Set Legend</Keys.SoftKey> menu. User Numbers are used
     when selecting fixtures from the keypad theatre-style.
 
 -   You can automatically allocate User Numbers for multiple fixtures by
@@ -197,14 +197,14 @@ the same fixture colours used in the patch window..
 
 To set a manual halo colour, click <Keys.SoftKey>Set Legend</Keys.SoftKey>, click the fixture
 button (or select multiple buttons) then select the <Keys.SoftKey>Halo</Keys.SoftKey> option. A
-colour picker will open to let you set the colour, or pressing \[System
-Colours\] will give you colour options on the softkeys. A \[Remove
-Halo\] softkey lets you remove the colour.
+colour picker will open to let you set the colour, or pressing <Keys.SoftKey>System
+Colours</Keys.SoftKey> will give you colour options on the softkeys. A <Keys.SoftKey>Remove
+Halo</Keys.SoftKey> softkey lets you remove the colour.
 
 ![Fixture Halo](/docs/images/Fixture-Halo.png)
 
-To enable automatic halo colours, hold <Keys.HardKey>Avo</Keys.HardKey> and select \[User
-Settings\], then <Keys.SoftKey>Handles</Keys.SoftKey>, then set Fixture Halos to <Keys.SoftKey>Auto</Keys.SoftKey>.
+To enable automatic halo colours, hold <Keys.HardKey>Avo</Keys.HardKey> and select <Keys.SoftKey>User
+Settings</Keys.SoftKey>, then <Keys.SoftKey>Handles</Keys.SoftKey>, then set Fixture Halos to <Keys.SoftKey>Auto</Keys.SoftKey>.
 Fixture buttons will then be coloured to match the automatic fixture
 colours used in the Patch window.
 

@@ -34,8 +34,8 @@ want the workspace, press the appropriate button and the window will open on tha
 If the window was already open on a different monitor, it will move to the monitor you selected
 keeping the same size and position.
 
-You can also use the \[Open
-Workspace Window\] menu command on the root menu to show the workspace open buttons.
+You can also use the <Keys.SoftKey>Open
+Workspace Window</Keys.SoftKey> menu command on the root menu to show the workspace open buttons.
 Pressing <Keys.HardKey>View/Open</Keys.HardKey> again will close the workspace button overlay, or pressing the X
 at the top of the button overlay on any screen will close it on all screens.
 
@@ -206,13 +206,13 @@ As an example of setting up a workspace, suppose while programming you
 wanted to be able to access fixtures, position palettes, fixture
 attributes and shapes:
 
-1. Double press the <Keys.HardKey>View/Open</Keys.HardKey> button, or press <Keys.HardKey>Exit</Keys.HardKey> to get to the root menu and then the \[Open Workspace
-Window\] menu softkey.
+1. Double press the <Keys.HardKey>View/Open</Keys.HardKey> button, or press <Keys.HardKey>Exit</Keys.HardKey> to get to the root menu and then the <Keys.SoftKey>Open Workspace
+Window</Keys.SoftKey> menu softkey.
 
 2. Find the <Keys.ContextKey>Fixtures</Keys.ContextKey> icon on the screen and press it.
 
-3. If the window is not in the top left quarter, press the \<Size &
-Position\> button (above the numeric keys) until the window occupies the
+3. If the window is not in the top left quarter, press the <Keys.HardKey>Size &
+Position</Keys.HardKey> button (above the numeric keys) until the window occupies the
 top left quarter. Or press the <Keys.ContextKey>Cog</Keys.ContextKey> button on the window
 top bar and press the top left position button in that window.
 

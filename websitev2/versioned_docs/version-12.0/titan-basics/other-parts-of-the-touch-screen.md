@@ -177,5 +177,5 @@ symbol as shown below.
 
 If you are in multi-user mode, the Undo History can show a column for
 each user with undo points for that user - open the Context menu and
-select <Keys.SoftKey>Show All Users and Consoles</Keys.SoftKey>. The default setting is \[Show
-Only Current User\].
+select <Keys.SoftKey>Show All Users and Consoles</Keys.SoftKey>. The default setting is <Keys.SoftKey>Show
+Only Current User</Keys.SoftKey>.

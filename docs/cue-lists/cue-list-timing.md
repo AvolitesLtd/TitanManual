@@ -41,8 +41,8 @@ Connect button also step through the cues.
     affected by the fade.*
 
     -   The <strong>fade out time</strong> of the cue is set by default to be the same as the
-    fade in time. You can change the fade out time by pressing \[Fade
-    Out\], then type the time in seconds and press <Keys.HardKey>Enter</Keys.HardKey>. To set
+    fade in time. You can change the fade out time by pressing <Keys.SoftKey>Fade
+    Out</Keys.SoftKey>, then type the time in seconds and press <Keys.HardKey>Enter</Keys.HardKey>. To set
     equal to Fade In time, delete the time and leave the box blank.
 
     *The fade out time starts when the next cue fires, so if you set the

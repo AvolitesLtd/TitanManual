@@ -35,8 +35,8 @@ add more to the selection - hold down <Keys.HardKey>And</Keys.HardKey> to keep a
     palettes with empty handles in the group - you can either keep the
     empty handles, or bunch up the used handles together.
 
--   When in Copy mode, option <Keys.SoftKey>Copy Legends</Keys.SoftKey> can be changed to \[Don't
-    copy legends\] so that the copied palettes are given default
+-   When in Copy mode, option <Keys.SoftKey>Copy Legends</Keys.SoftKey> can be changed to <Keys.SoftKey>Don't
+    copy legends</Keys.SoftKey> so that the copied palettes are given default
     legends.
 
 -   When in Move mode, <Keys.SoftKey>Swap Items if Required</Keys.SoftKey> will attempt to

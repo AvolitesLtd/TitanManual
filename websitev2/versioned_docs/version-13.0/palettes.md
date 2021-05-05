@@ -36,5 +36,5 @@ for each button so that you know what you're going to get.
 ![Gobos and Beams Window and Colours Window](/docs/images/Gobos-and-Beams-Window-and-Colours-Window.png)
 
 If the **Colours**, **Positions**, **Gobos & Beams** windows are not shown, press
-<Keys.HardKey>View/Open</Keys.HardKey> then <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> then \[Groups and
-Palettes\] to show all three windows.
+<Keys.HardKey>View/Open</Keys.HardKey> then <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> then <Keys.SoftKey>Groups and
+Palettes</Keys.SoftKey> to show all three windows.

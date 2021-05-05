@@ -25,8 +25,8 @@ Sapphire Touch Right touch screen\
 Opening and positioning workspace windows
 -----------------------------------------
 
-You select which workspace windows you want to see using the \[Open
-Workspace Window\] menu command on the root menu. You can also press the
+You select which workspace windows you want to see using the <Keys.SoftKey>Open
+Workspace Window</Keys.SoftKey> menu command on the root menu. You can also press the
 <Keys.HardKey>View</Keys.HardKey> button (labelled <Keys.HardKey>Open</Keys.HardKey> or <Keys.HardKey>Open Window</Keys.HardKey> on some consoles)
 to access the <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> option while in another menu and
 there are shortcuts to open some windows as listed in the next section.
@@ -42,8 +42,8 @@ window around the possible positions. You make a window active by
 clicking/touching its header bar.
 
 You can move the active window to a different monitor by pressing
-<Keys.HardKey>Avo</Keys.HardKey> and the Size/Position button, or <Keys.HardKey>View/Open</Keys.HardKey> then \[Window
-Options\] then <Keys.SoftKey>Move Screen</Keys.SoftKey>.
+<Keys.HardKey>Avo</Keys.HardKey> and the Size/Position button, or <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.SoftKey>Window
+Options</Keys.SoftKey> then <Keys.SoftKey>Move Screen</Keys.SoftKey>.
 
 ### Shortcuts to open workspace windows
 
@@ -132,8 +132,8 @@ consoles or different screens can make the number of rows and columns
 change, causing buttons to move around. If you have set a particular
 layout you want to keep (for example if you've positioned fixtures in
 the window to match the layout on stage), open the Window Appearance
-menu using the Cog button and set Button Size to \[Button Size Set Rows
-& Columns\]. You can then set a fixed layout using the <Keys.SoftKey>Rows</Keys.SoftKey> and
+menu using the Cog button and set Button Size to <Keys.SoftKey>Button Size Set Rows
+& Columns</Keys.SoftKey>. You can then set a fixed layout using the <Keys.SoftKey>Rows</Keys.SoftKey> and
 <Keys.SoftKey>Columns</Keys.SoftKey> buttons.
 
 ![Rows and Columns](/docs/images/Rows-and-Columns.png)
@@ -184,8 +184,8 @@ As an example of setting up a workspace, suppose while programming you
 wanted to be able to access fixtures, position palettes, fixture
 attributes and shapes:
 
-1. Press <Keys.HardKey>Exit</Keys.HardKey> to get to the root menu then the \[Open Workspace
-Window\] menu softkey.
+1. Press <Keys.HardKey>Exit</Keys.HardKey> to get to the root menu then the <Keys.SoftKey>Open Workspace
+Window</Keys.SoftKey> menu softkey.
 
 2. Find the <Keys.SoftKey>Fixtures</Keys.SoftKey> window in the list and press it.
 

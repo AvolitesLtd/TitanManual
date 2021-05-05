@@ -192,8 +192,8 @@ Sets the units for displaying tempo. The options are
 Sets the console action when you change the
 speed of a connected chase.
 
-\[Connected View Sets Temporary Chase
-Speed\] means that the console will not save the modified speed, and the
+<Keys.SoftKey>Connected View Sets Temporary Chase
+Speed</Keys.SoftKey> means that the console will not save the modified speed, and the
 next time the chase is fired it will go back to its programmed speed.\
 <Keys.SoftKey>Connected View Sets Chase Speed</Keys.SoftKey> means that the console will modify
 the saved speed of the chase.

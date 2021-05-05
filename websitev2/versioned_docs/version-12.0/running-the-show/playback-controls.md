@@ -217,8 +217,8 @@ attributes of the fixtures before you raise the playback fader, which is
 handy for avoiding unwanted movements (any fixtures which are already
 active in another playback will not change when you use Preload). You
 can also allocate Go and Stop buttons for cue lists and chases. To
-quickly change the key profile, hold <Keys.HardKey>Avo</Keys.HardKey> Shift and press \[Edit Key
-Profile\]. The Sapphire Touch also has a configurable Black button for
+quickly change the key profile, hold <Keys.HardKey>Avo</Keys.HardKey> Shift and press <Keys.SoftKey>Edit Key
+Profile</Keys.SoftKey>. The Sapphire Touch also has a configurable Black button for
 each fader.
 
 ![Playback Faders with key profiles applied](/docs/images/Playback-Faders-with-key-profiles-applied.png)
@@ -285,8 +285,8 @@ the third line shows which attributes are affected by the playback.
 
 ![Active Playbacks Windown](/docs/images/Active-Playbacks-Window.png)
 
-Click on a playback to instantly kill it. You can also press \[Playback
-Options\] followed by the playback in this window to change parameters
+Click on a playback to instantly kill it. You can also press <Keys.SoftKey>Playback
+Options</Keys.SoftKey> followed by the playback in this window to change parameters
 of the playback.
 
 Blind mode

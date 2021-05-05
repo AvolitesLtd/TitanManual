@@ -137,8 +137,8 @@ consoles without a dedicated button, hold down <Keys.HardKey>Avo</Keys.HardKey> 
 <Keys.SoftKey>Blind</Keys.SoftKey> option)*.
 
 If you want to preview a playback on the visualiser without affecting
-the stage, playbacks can be set to Blind mode using \[Playback
-Options\]. To quickly set a playback to blind mode, hold <Keys.HardKey>Blind</Keys.HardKey> and
+the stage, playbacks can be set to Blind mode using <Keys.SoftKey>Playback
+Options</Keys.SoftKey>. To quickly set a playback to blind mode, hold <Keys.HardKey>Blind</Keys.HardKey> and
 press the playback **select** button. Repeat to make it Live again.
 
 You can fade your blind state to the live output by typing in a fade
@@ -164,6 +164,6 @@ Convert Cue to Chase or Cue List
 
 If you want to convert an existing cue into [chase](../chases.md) or 
 [cue list](../cue-lists.md) by adding
-further steps, press <Keys.HardKey>Record</Keys.HardKey>, select the cue, then select \[Convert
-to Chase\] (or Cue List). The existing cue will become cue 1 and the
+further steps, press <Keys.HardKey>Record</Keys.HardKey>, select the cue, then select <Keys.SoftKey>Convert
+to Chase</Keys.SoftKey> (or Cue List). The existing cue will become cue 1 and the
 contents of the programmer will become a new cue 2.

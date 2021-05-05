@@ -18,8 +18,8 @@ Setup
 -----
 
 The setup screen allows you to configure network port settings, and node
-settings for the overall device by tapping <Keys.SoftKey>Network Settings</Keys.SoftKey> or \[Node
-Settings\].
+settings for the overall device by tapping <Keys.SoftKey>Network Settings</Keys.SoftKey> or <Keys.SoftKey>Node
+Settings</Keys.SoftKey>.
 
 ### Network Settings
 

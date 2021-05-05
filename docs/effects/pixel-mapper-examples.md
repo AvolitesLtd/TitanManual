@@ -16,11 +16,11 @@ intensities.
 1. The fixtures you want to use need to be recorded into a group, *do
 this first if they are not already*
 
-2. Adjust the layout of the fixtures in the group using \[Shapes And
-Effects\], <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Edit Group Layout</Keys.SoftKey>, <em>(select group)</em>
+2. Adjust the layout of the fixtures in the group using <Keys.SoftKey>Shapes And
+Effects</Keys.SoftKey>, <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Edit Group Layout</Keys.SoftKey>, <em>(select group)</em>
 
-3. Start creating an effect by selecting the group then \[Shapes And
-Effects\], <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Create Effect</Keys.SoftKey>
+3. Start creating an effect by selecting the group then <Keys.SoftKey>Shapes And
+Effects</Keys.SoftKey>, <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Create Effect</Keys.SoftKey>
 
 4. In the Pixel Mapper Effect Editor window toggle the context menu
 option <Keys.SoftKey>Fixture Overlay</Keys.SoftKey> until it reads <Keys.SoftKey>Fixture Overlay 50/50</Keys.SoftKey>
@@ -79,8 +79,8 @@ rotating red fan on top.
 1. Select a group containing a fixture layout as described in [previous
 example](#randomising-effects)
 
-2. Start creating an effect by selecting the group then \[Shapes And
-Effects\], <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Create Effect</Keys.SoftKey>
+2. Start creating an effect by selecting the group then <Keys.SoftKey>Shapes And
+Effects</Keys.SoftKey>, <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Create Effect</Keys.SoftKey>
 
 3. Select <Keys.SoftKey>Layer 1</Keys.SoftKey>, click <Keys.ContextKey>+</Keys.ContextKey> at the bottom of the screen and then
 choose Block from the elements that appear.
@@ -414,8 +414,8 @@ the individual values.)
 
 Next we will create the second effect:
 
-1. Select the same group as used for the first effect and \[Create
-Effect\]
+1. Select the same group as used for the first effect and <Keys.SoftKey>Create
+Effect</Keys.SoftKey>
 
 2. Select <Keys.SoftKey>Effect</Keys.SoftKey> and change <strong>Background Opacity</strong> to zero.
 

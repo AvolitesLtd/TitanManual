@@ -72,8 +72,8 @@ Loading a show
 The console will automatically reload the last show when it is turned
 on.
 
-![Show Browser](/docs/images/Show-Browser.png)Press the <Keys.HardKey>Disk</Keys.HardKey> button then \[Load
-Show\] to load in a new show. The Show Browser window will appear.
+![Show Browser](/docs/images/Show-Browser.png)Press the <Keys.HardKey>Disk</Keys.HardKey> button then <Keys.SoftKey>Load
+Show</Keys.SoftKey> to load in a new show. The Show Browser window will appear.
 
 On the top left you can select which drive is used, or show files on all
 drives. On the bottom left you can filter the list of shows to see all

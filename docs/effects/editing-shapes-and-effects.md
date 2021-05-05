@@ -132,14 +132,14 @@ included in the shape will be selected. You can select or deselect
 fixtures to add or remove them from the shape.
 
 If a fixture group was used to create the shape, removing fixtures from
-the shape using this option will break the link to the group. A \[Remove
-Fixtures\] confirmation softkey will be shown to warn you of this.
+the shape using this option will break the link to the group. A <Keys.SoftKey>Remove
+Fixtures</Keys.SoftKey> confirmation softkey will be shown to warn you of this.
 
 Reversing a Shape
 -----------------
 
-You can reverse the direction of a shape by pressing \[Reverse Selected
-Fixtures\] from the shape menu. The shape will be reversed only on
+You can reverse the direction of a shape by pressing <Keys.SoftKey>Reverse Selected
+Fixtures</Keys.SoftKey> from the shape menu. The shape will be reversed only on
 fixtures which are selected, allowing you to run the shape forward on
 some fixtures and backwards on others.
 

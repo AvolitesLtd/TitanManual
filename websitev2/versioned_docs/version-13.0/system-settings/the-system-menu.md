@@ -62,8 +62,8 @@ Allows you to modify the functions of some buttons. See section the [Key Profile
 Wipe
 ----
 
-The Wipe menu erases the current show. This is the same as the \[New
-Show\] option on the Disk menu, but is provided here for old fashioned
+The Wipe menu erases the current show. This is the same as the <Keys.SoftKey>New
+Show</Keys.SoftKey> option on the Disk menu, but is provided here for old fashioned
 Avolites users who are used to it being on the System menu.
 
 The <Keys.SoftKey>Wipe Visualiser Patch</Keys.SoftKey> option will erase all fixtures from the

@@ -13,8 +13,8 @@ can have multiple set lists in a show.
 
 [](https://youtu.be/VX5acUU-99M?t=20 "Set Lists")
 
-To open the Set List window, double press <Keys.HardKey>Open/View</Keys.HardKey> then press <Keys.SoftKey>Set List</Keys.SoftKey> from the window select buttons which pop up. Or from the top level menu press <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> then \[Set
-List\].
+To open the Set List window, double press <Keys.HardKey>Open/View</Keys.HardKey> then press <Keys.SoftKey>Set List</Keys.SoftKey> from the window select buttons which pop up. Or from the top level menu press <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> then <Keys.SoftKey>Set
+List</Keys.SoftKey>.
 
 The Set List feature works best if you arrange your playbacks to have a
 page of playbacks for each song in the show.

@@ -45,8 +45,8 @@ adding them.
     cues with empty playbacks in the group - you can either keep the
     empty playbacks, or bunch up the used playbacks together.
 
--   When in **Copy** mode, the option <Keys.SoftKey>Copy Legends</Keys.SoftKey> can be changed to \[Don't
-    copy legends\] so that the copied cues are given default legends.
+-   When in **Copy** mode, the option <Keys.SoftKey>Copy Legends</Keys.SoftKey> can be changed to <Keys.SoftKey>Don't
+    copy legends</Keys.SoftKey> so that the copied cues are given default legends.
 
 -   When in Move mode, <Keys.SoftKey>Swap Items if Required</Keys.SoftKey> will attempt to
     reposition any existing playbacks which are in the way of the move.

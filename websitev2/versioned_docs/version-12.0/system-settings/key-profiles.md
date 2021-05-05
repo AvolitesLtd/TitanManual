@@ -27,8 +27,8 @@ related to each playback fader.
 
 [Video covering Key Profiles](https://youtu.be/CxHQV4sP_sA?t=20)
 
-To create or edit a profile, switch to System mode then select \[Key
-Profiles\]. You can then use the Manage Profiles menu to View, Edit,
+To create or edit a profile, switch to System mode then select <Keys.SoftKey>Key
+Profiles</Keys.SoftKey>. You can then use the Manage Profiles menu to View, Edit,
 Add, Delete or Rename profiles.
 
 You can also create or edit key profiles in the <Keys.SoftKey>Handle</Keys.SoftKey> tab of

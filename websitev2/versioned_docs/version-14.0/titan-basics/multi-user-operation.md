@@ -127,8 +127,8 @@ network to the Slave. On the Slave you can choose to save the show
 locally or to save changes back to the Master console.
 
 The toolbar will show details of the master/slave status. Console
-legends can be changed in the System menu using the \[Console
-Legend\] option.
+legends can be changed in the System menu using the <Keys.SoftKey>Console
+Legend</Keys.SoftKey> option.
 
 ![Shell Slave](/docs/images/Shell-Slave.png)
 

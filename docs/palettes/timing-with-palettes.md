@@ -21,8 +21,8 @@ By default these times are <strong>not</strong> used when the palette is called 
 for fluent programming. You may however turn this on (which further enhances [busking 
 with palettes](../running-the-show/playback-controls#busking-with-palettes)) using the
 palette key setting in the [Key Profile](../system-settings/key-profiles.md).
-You can set <Keys.SoftKey>Palette Is Fired With Its Times</Keys.SoftKey> or \[Palette Is Fired
-Ignoring Its Times\].
+You can set <Keys.SoftKey>Palette Is Fired With Its Times</Keys.SoftKey> or <Keys.SoftKey>Palette Is Fired
+Ignoring Its Times</Keys.SoftKey>.
 
 Manually Overriding Palette Times
 ---------------------------------

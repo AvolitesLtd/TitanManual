@@ -92,8 +92,8 @@ this by holding down the <Keys.HardKey>Avo</Keys.HardKey> button and pressing th
 button of the cue list's handle.
 
 You can change this in the [Playback Options](../cues/playback-options.md) to make the cue list
-automatically clear when the fader reaches zero (press \[Playback
-Options\] at the program menu, then press the Select button of the cue
+automatically clear when the fader reaches zero (press <Keys.SoftKey>Playback
+Options</Keys.SoftKey> at the program menu, then press the Select button of the cue
 list, then select <Keys.SoftKey>Fader</Keys.SoftKey> <Keys.SoftKey>Fader Mode Intensity Kill At 0</Keys.SoftKey>.
 
 You can also use [Key Profiles](../system-settings/key-profiles.md#cue-lists) to configure one of the handle buttons to

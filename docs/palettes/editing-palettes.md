@@ -34,8 +34,8 @@ pressing the <Keys.SoftKey>Off</Keys.SoftKey> softkey or <Keys.HardKey>Off</Keys
     <Keys.SoftKey>View/Hide Nested Palettes</Keys.SoftKey> sets whether or not the view shows the
     actual attribute value or just the name of the nested palette.
 
--   When the palette contains shapes, the context menu option \[View
-    Shapes\] will open the Shape View showing all the shapes with their
+-   When the palette contains shapes, the context menu option <Keys.SoftKey>View
+    Shapes</Keys.SoftKey> will open the Shape View showing all the shapes with their
     parameter. Clicking <strong>View</strong> will open the <strong>Shape Fixture View</strong> which lets
     you edit the fixtures running the shape; the <strong>Add Fixtures</strong> menu
     button will add selected fixtures into the shape.
@@ -51,8 +51,8 @@ To edit a palette entry, press <Keys.HardKey>Edit</Keys.HardKey> (<Keys.HardKey>
 Expert and Tiger Touch 1), then select the palette to edit. For Normal
 palettes this will automatically select the fixtures used in the
 palette; for Shared palettes the first fixture in the palette will be
-selected. Next, make the changes you want, then press the \[Update
-Palette x\] softkey to save the changes.
+selected. Next, make the changes you want, then press the <Keys.SoftKey>Update
+Palette x</Keys.SoftKey> softkey to save the changes.
 
 The <Keys.HardKey>Edit</Keys.HardKey> button also allows you to change the
 palette name and number.

@@ -59,8 +59,8 @@ in the programmer will override the playback).
     other playbacks. *This is useful to avoid the fixtures visibly moving
     into position or changing colours or gobos when you raise the fader
     of the cue.*\
-    To assign Preload, hold <Keys.HardKey>Avo</Keys.HardKey> Shift and press \[Edit
-    Key Profile\], then press the button you want to assign (also see
+    To assign Preload, hold <Keys.HardKey>Avo</Keys.HardKey> Shift and press <Keys.SoftKey>Edit
+    Key Profile</Keys.SoftKey>, then press the button you want to assign (also see
     [Key Profiles](../system-settings/key-profiles.md)). Note that this will assign the function
     to all buttons of the same type.
 
@@ -137,13 +137,13 @@ The Active Playbacks window shows details of which playbacks are active.
 When you have a number of layered playbacks with different effects, this
 provides an easy way to see which playback is causing which effect. Each
 button shows the playback legend, which page they are from and which
-attributes are affected. To show the window press <Keys.HardKey>View/Open</Keys.HardKey>, \[Open
-Workspace Window\], <Keys.SoftKey>Active Playbacks</Keys.SoftKey>.
+attributes are affected. To show the window press <Keys.HardKey>View/Open</Keys.HardKey>, <Keys.SoftKey>Open
+Workspace Window</Keys.SoftKey>, <Keys.SoftKey>Active Playbacks</Keys.SoftKey>.
 
 ![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
 
-Click on a playback to instantly **kill** it. You can also press \[Playback
-Options\] followed by the playback in this window to change parameters
+Click on a playback to instantly **kill** it. You can also press <Keys.SoftKey>Playback
+Options</Keys.SoftKey> followed by the playback in this window to change parameters
 of the playback.
 
 Speed and Size Masters
@@ -237,8 +237,8 @@ softkey shows which attributes are enabled.
 
 ### Local Release Mask
 
-To set the local release mask for a playback, select \[Playback
-Options\] and press the select button of the playback. Then press
+To set the local release mask for a playback, select <Keys.SoftKey>Playback
+Options</Keys.SoftKey> and press the select button of the playback. Then press
 <Keys.SoftKey>Release Mask</Keys.SoftKey>. If the option is set to <Keys.SoftKey>Mask Source Global</Keys.SoftKey> then
 press the option again to change to <Keys.SoftKey>Mask Source Local</Keys.SoftKey>.
 
@@ -284,5 +284,5 @@ off.
 
 On Titan consoles that do not have separate <Keys.HardKey>Release</Keys.HardKey> and <Keys.HardKey>Off</Keys.HardKey>
 buttons, pressing <Keys.HardKey>Off</Keys.HardKey> followed by a playback will release it which
-is not what you want. On these select the softkey \[Off Playback
-Values\] then select the playback.
+is not what you want. On these select the softkey <Keys.SoftKey>Off Playback
+Values</Keys.SoftKey> then select the playback.

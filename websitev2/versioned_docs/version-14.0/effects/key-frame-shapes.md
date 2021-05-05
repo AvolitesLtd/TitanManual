@@ -33,16 +33,16 @@ frame shapes for any attribute or mixture of attributes. If you create
 key frames using [palettes](../palettes.md), the key frames will update if the palette is
 changed.
 
-1. At the main menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then \[Key Frame
-Shapes\]
+1. At the main menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then <Keys.SoftKey>Key Frame
+Shapes</Keys.SoftKey>
 
 2. Press <Keys.SoftKey>Create</Keys.SoftKey> to start a new shape
 
 3. [Select fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) and set the colours for the first key frame
 
 4. Press <Keys.SoftKey>Add Frame</Keys.SoftKey>. An automatic legend for the first key frame
-will show above the first playback fader. *(Press \[Playbacks Display
-Visible/Hidden\] to return the playback faders to normal, if you want to
+will show above the first playback fader. *(Press <Keys.SoftKey>Playbacks Display
+Visible/Hidden</Keys.SoftKey> to return the playback faders to normal, if you want to
 select one in Quick Build mode)*.\
 ![Key Frame Shape - creating an effect with colour key frames](/docs/images/Key-Frame-Shape-creating-an-effect-with-colour-key-frames.png)
 
@@ -106,8 +106,8 @@ right of the main area are independent controls for the layer.
 
 You can click on the buttons to the right of the sliders
 to enter values from the keyboard, and when the button is clicked on the
-wheels can also be used to adjust the value. A \[Reset to default
-value\] softkey is also provided when you click the buttons, or
+wheels can also be used to adjust the value. A <Keys.SoftKey>Reset to default
+value</Keys.SoftKey> softkey is also provided when you click the buttons, or
 double-clicking the buttons will reset to default value.
 
 The **Beats per Cycle** control lets you set how the programmed speed will

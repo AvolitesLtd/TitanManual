@@ -46,8 +46,8 @@ times will operate as programmed)*
 ---
 
 -   To **edit** the contents of a cue: Press <Keys.HardKey>Clear</Keys.HardKey> to empty the programmer,
-    raise the fader to output the cue, make the changes, press \[Record
-    Step\], then the **Swop** button for the cue number.
+    raise the fader to output the cue, make the changes, press <Keys.SoftKey>Record
+    Step</Keys.SoftKey>, then the **Swop** button for the cue number.
 
 -   To **insert** a cue between two other cues, set up the look for the new
     cue, press <Keys.SoftKey>Insert Step</Keys.SoftKey>, then type the cue number for the new cue
@@ -59,8 +59,8 @@ times will operate as programmed)*
     new cue, press <Keys.SoftKey>Insert Step</Keys.SoftKey>, then press the **swop** button of the
     first free playback.
 
--   To **merge** the programmer into the live step, double tap \[Record
-    Step\].
+-   To **merge** the programmer into the live step, double tap <Keys.SoftKey>Record
+    Step</Keys.SoftKey>.
 
 -   To change individual times for the cue, press <Keys.SoftKey>Edit Times</Keys.SoftKey>, then
     the **Swop** button for the cue (or type the cue number), then set the

@@ -58,8 +58,8 @@ in the programmer will override the playback).
     other playbacks. *This is useful to avoid the fixtures visibly moving
     into position or changing colours or gobos when you raise the fader
     of the cue.*\
-    To assign Preload, hold <Keys.HardKey>Avo</Keys.HardKey> and press \[Edit
-    Key Profile\], then press the button you want to assign (also see
+    To assign Preload, hold <Keys.HardKey>Avo</Keys.HardKey> and press <Keys.SoftKey>Edit
+    Key Profile</Keys.SoftKey>, then press the button you want to assign (also see
     [Key Profiles](../system-settings/key-profiles.md)). Note that this will assign the function
     to all buttons of the same type.
 
@@ -309,8 +309,8 @@ off.
 
 On Titan consoles that do not have separate <Keys.HardKey>Release</Keys.HardKey> and <Keys.HardKey>Off</Keys.HardKey>
 buttons, pressing <Keys.HardKey>Off</Keys.HardKey> followed by a playback will release it which
-is not what you want. On these select the softkey \[Off Playback
-Values\] then select the playback.
+is not what you want. On these select the softkey <Keys.SoftKey>Off Playback
+Values</Keys.SoftKey> then select the playback.
 
 Playback Groups
 ---------------

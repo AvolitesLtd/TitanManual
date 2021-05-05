@@ -15,8 +15,8 @@ TitanNet, you can control up to 64 universes.
 Multiple consoles can be linked by Ethernet to provide a [multi-user](../titan-basics/multi-user-operation.md)
 system, or to provide automatic [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup).
 
-Go to the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), press \[DMX
-Settings\].
+Go to the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), press <Keys.SoftKey>DMX
+Settings</Keys.SoftKey>.
 
 Select a Node on the left (where the DMX is going to). On the right, 
 select the DMX line it will be fed by. The small <Keys.ContextKey>Cog</Keys.ContextKey> buttons set 

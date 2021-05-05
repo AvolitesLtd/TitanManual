@@ -96,8 +96,8 @@ The context menu buttons provide camera options.
 ![Capture Visualiser Workspace Window Context Menu](/docs/images/Capture-Visualiser-Workspace-Window-Context-Menu.png)
 
 Camera controls are in the [Capture Visualiser Settings window](#setting-up-the-stage-and-rigging) which you
-can open using the <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> button or using the \[Open
-Settings\] context button.
+can open using the <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> button or using the <Keys.SoftKey>Open
+Settings</Keys.SoftKey> context button.
 
 The view buttons across the top select the four default views *(shown below)*. Press the
 **+** button at the right hand side to add a new view.

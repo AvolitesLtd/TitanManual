@@ -117,11 +117,11 @@ times will operate as programmed)*.
     programmer, raise the fader to output the cue, make the changes,
     press <Keys.SoftKey>Record Step</Keys.SoftKey>, then the <strong>Select</strong> button for the cue number.
 
--   To <strong>merge</strong> the programmer into the live step, double tap \[Record
-    Step\].
+-   To <strong>merge</strong> the programmer into the live step, double tap <Keys.SoftKey>Record
+    Step</Keys.SoftKey>.
 
--   To change the times or cue linking for the cue, press \[Edit
-    Times\], then the <strong>Select</strong> button for the cue, then set the times (see
+-   To change the times or cue linking for the cue, press <Keys.SoftKey>Edit
+    Times</Keys.SoftKey>, then the <strong>Select</strong> button for the cue, then set the times (see
     [Cue List Timing](cue-list-timing.md))
 
 -   To <strong>insert</strong> a new cue, set up the look for the new cue, press B
@@ -202,8 +202,8 @@ button)* to jump on to the next step.
 Edit Times of a Running Cue List
 --------------------------------
 
-You can edit the times for a cue using the <Keys.HardKey>Live Time</Keys.HardKey> and \<Next
-Time\> buttons <em>(not on all consoles)</em> as follows:
+You can edit the times for a cue using the <Keys.HardKey>Live Time</Keys.HardKey> and <Keys.HardKey>Next
+Time</Keys.HardKey> buttons <em>(not on all consoles)</em> as follows:
 
 1. <strong>Fire the cue list</strong> by raising its fader.
 

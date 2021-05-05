@@ -37,11 +37,11 @@ If the Groups window is not visible, you can show it by pressing
 1. Select the fixtures/dimmers you want in the group (the order in
 which you select them will also be stored in the group).
 
-2. Press <Keys.HardKey>Group</Keys.HardKey> (top right of the numeric keys) then \[Record
-Group\]. You can also press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Group</Keys.HardKey>.
+2. Press <Keys.HardKey>Group</Keys.HardKey> (top right of the numeric keys) then <Keys.SoftKey>Record
+Group</Keys.SoftKey>. You can also press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Group</Keys.HardKey>.
 
-3. Use softkey A to enter a number for the group, or B \[Provide a
-legend\] to set a legend.
+3. Use softkey A to enter a number for the group, or B <Keys.SoftKey>Provide a
+legend</Keys.SoftKey> to set a legend.
 
 4. Touch an empty button in the Groups window, or press the grey button
 of a fader handle where you want to store the group (not the main
@@ -105,8 +105,8 @@ When patching multiple fixtures, the console automatically creates
 groups for you. A fixture type group is created which contains all
 fixtures of the same type (for example, <Keys.SoftKey>All Robe Pointe</Keys.SoftKey>). Another
 group is created each time you patch a quantity of fixtures (for
-example, <Keys.SoftKey>4 BB4</Keys.SoftKey>.) This function can be turned off using \[Auto
-Groups\] in the User Settings.
+example, <Keys.SoftKey>4 BB4</Keys.SoftKey>.) This function can be turned off using <Keys.SoftKey>Auto
+Groups</Keys.SoftKey> in the User Settings.
 
 
 Fixture Order and Fixture Layout in Groups

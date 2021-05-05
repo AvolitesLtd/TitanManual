@@ -44,8 +44,8 @@ playbacks, where you want them to start.
     cues with empty playbacks in the group - you can either keep the
     empty playbacks, or bunch up the used playbacks together.
 
--   The option <Keys.SoftKey>Copy Legends</Keys.SoftKey> can be changed to \[Don't
-    copy legends\] so that the copied cues are given default legends.
+-   The option <Keys.SoftKey>Copy Legends</Keys.SoftKey> can be changed to <Keys.SoftKey>Don't
+    copy legends</Keys.SoftKey> so that the copied cues are given default legends.
 
 Moving a Cue
 -----------------------

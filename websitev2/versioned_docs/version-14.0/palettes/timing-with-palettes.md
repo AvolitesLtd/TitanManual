@@ -23,8 +23,8 @@ By default these times are **not** used when the palette is called directly, to 
 for a fluent programming. You may however turn this on (which further enhances [busking 
 with palettes](../running-the-show/playback-controls#busking-with-palettes)) using the
 [key profile setting](../system-settings/key-profiles.md) for palette keys.
-You can set <Keys.SoftKey>Palette Is Fired With Its Times</Keys.SoftKey> or \[Palette Is Fired
-Ignoring Its Times\].
+You can set <Keys.SoftKey>Palette Is Fired With Its Times</Keys.SoftKey> or <Keys.SoftKey>Palette Is Fired
+Ignoring Its Times</Keys.SoftKey>.
 
 Manually Overriding Palette Times
 ---------------------------------
@@ -46,8 +46,8 @@ the palette fades in over that time.
 -   This overrides any timing stored in the palette itself.
 
 -   You have to re-enter the time each time you recall a palette. To use
-    the same fade every time, set a Master Time: Press <Keys.HardKey>Palette</Keys.HardKey>, \[Master
-    Time\], enter time. To disable <Keys.SoftKey>Master Time</Keys.SoftKey> set to 0.
+    the same fade every time, set a Master Time: Press <Keys.HardKey>Palette</Keys.HardKey>, <Keys.SoftKey>Master
+    Time</Keys.SoftKey>, enter time. To disable <Keys.SoftKey>Master Time</Keys.SoftKey> set to 0.
 
 -   Palette fading can be very useful when recalling a palette live
     during a show, as you can smoothly move fixtures to a new position

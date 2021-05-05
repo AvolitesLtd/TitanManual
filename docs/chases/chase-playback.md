@@ -64,8 +64,8 @@ you can choose which one is connected to the controls using the
     setting is saved. However you can set this change to be temporary,
     so that when the show is reloaded the speed and fade will go back to
     the previously saved settings. Go to [User Settings](../system-settings/user-settings.md)
-    (<Keys.HardKey>Avo</Keys.HardKey> + \[User
-    Settings\], in the Times tab set the option <strong>[Connected View Sets](../system-settings/user-settings.md#connected-view-sets)</strong> to
+    (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>User
+    Settings</Keys.SoftKey>, in the Times tab set the option <strong>[Connected View Sets](../system-settings/user-settings.md#connected-view-sets)</strong> to
     <strong>Temporary Speed</strong>. You can still save a temporary speed by pressing
     <Keys.SoftKey>Save Temporary Speed</Keys.SoftKey> in the Set Times menu.
 
@@ -114,8 +114,8 @@ described in [Editing a Chase](editing-a-chase.md).
 
 You can select whether the chase speed is displayed in seconds or in
 Beats Per Minute (BPM). Press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.SoftKey>User Settings</Keys.SoftKey>, then press
-<Keys.SoftKey>Tempo Units</Keys.SoftKey> to set the option to <Keys.SoftKey>Tempo Units Seconds</Keys.SoftKey> or \[Tempo
-Units Beats Per Minute (BPM)\].
+<Keys.SoftKey>Tempo Units</Keys.SoftKey> to set the option to <Keys.SoftKey>Tempo Units Seconds</Keys.SoftKey> or <Keys.SoftKey>Tempo
+Units Beats Per Minute (BPM)</Keys.SoftKey>.
 
 You can also allocate a [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters)
 to the chase which will allow you
@@ -132,8 +132,8 @@ to resume playback of the chase.
 While the chase is stopped you can use the <Keys.HardKey>Prev Step</Keys.HardKey>/<Keys.HardKey>Next Step</Keys.HardKey>
 buttons <em>(← and → on some consoles)</em> next to the <Keys.HardKey>Connect/Cue</Keys.HardKey> button to
 move to the next or previous step. The programmed fade time will be used
-when moving between steps, unless you enable the [user setting \[Chase
-Snap\]](../system-settings/user-settings.md#chase-snap), or press <Keys.HardKey>Snap</Keys.HardKey> button if the console has one.
+when moving between steps, unless you enable the [user setting <Keys.SoftKey>Chase
+Snap</Keys.SoftKey>](../system-settings/user-settings.md#chase-snap), or press <Keys.HardKey>Snap</Keys.HardKey> button if the console has one.
 
 You can also configure the blue and grey buttons of the playback handle
 to be Stop and Go. This uses the [Key Profiles function](../system-settings/key-profiles.md).

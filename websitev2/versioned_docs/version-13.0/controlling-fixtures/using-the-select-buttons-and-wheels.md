@@ -121,12 +121,12 @@ you hold down the <Keys.HardKey>Clear</Keys.HardKey> button, then more options a
 
 -   You can mask which attributes are to be cleared (for example,
     leaving the pan/tilt in the programmer but clearing everything else)
-    by holding down <Keys.HardKey>Clear</Keys.HardKey> and pressing \[Set Mask to Clear
-    Nothing\]. Then (still holding <Keys.HardKey>Clear</Keys.HardKey>) turn on the Attributes you
+    by holding down <Keys.HardKey>Clear</Keys.HardKey> and pressing <Keys.SoftKey>Set Mask to Clear
+    Nothing</Keys.SoftKey>. Then (still holding <Keys.HardKey>Clear</Keys.HardKey>) turn on the Attributes you
     want to change using the Attribute Bank buttons down the right hand
     side, or press <Keys.SoftKey>Set Mask</Keys.SoftKey> and use the softkeys. Only the lit
-    attributes will be cleared. Pressing the <Keys.HardKey>Options</Keys.HardKey>/\<Attribute
-    Options\> button will clear the mask. The Time mask option allows
+    attributes will be cleared. Pressing the <Keys.HardKey>Options</Keys.HardKey>/<Keys.HardKey>Attribute
+    Options</Keys.HardKey> button will clear the mask. The Time mask option allows
     you to clear or retain the fade/delay times in the programmer for
     all attributes (clearing individual attributes will also clear times
     for that attribute, for example setting a P mask will clear position
@@ -166,8 +166,8 @@ The options in the "Clear Options" submenu are:
 
 -   <Keys.SoftKey>Freeze current values</Keys.SoftKey> sets what happens to LTP (non-intensity)
     channels you have modified. If set to <Keys.SoftKey>Freeze Current Values</Keys.SoftKey> the
-    channels remain as you set them. If set to \[Release To Playback
-    Values\] the channels will go back to how they are set in the
+    channels remain as you set them. If set to <Keys.SoftKey>Release To Playback
+    Values</Keys.SoftKey> the channels will go back to how they are set in the
     current playback. For example: you have an active playback making
     some lights green, then you select the lights and change them to
     red. If you press Clear with this option set to <Keys.SoftKey>Freeze</Keys.SoftKey> then the
@@ -359,8 +359,8 @@ the Attribute Editor window can be easier to work with than the wheels.
 It also offers a colour picker window for fixtures with RGB or CMY
 colour mixing.
 
-Press <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> then \[Attribute
-Editor\] to show it. As a shortcut you can also show it by touching the
+Press <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> then <Keys.SoftKey>Attribute
+Editor</Keys.SoftKey> to show it. As a shortcut you can also show it by touching the
 attribute name text just below the on-screen IPCGBES buttons.
 
 The buttons on the left of the window select the attribute to change.
@@ -476,8 +476,8 @@ UV/Congo Blue which are hard to mix from a picker or colour wheel.
 
 Lets you pick a gel/filter colour from the Lee, Roscolux or GamColor
 ranges of filters. You can search for a particular colour by name or by
-number using the search bar. There is a context menu button to \[Order
-Filters by Number\] or <Keys.SoftKey>Order Filters by Hue</Keys.SoftKey>.
+number using the search bar. There is a context menu button to <Keys.SoftKey>Order
+Filters by Number</Keys.SoftKey> or <Keys.SoftKey>Order Filters by Hue</Keys.SoftKey>.
 
 > For LED fixtures with additional emitters for Warm/Cool white, Amber, UV, Lime or Cyan, Colour Mix will automatically control all the colour channels to obtain the colour. In versions previous to Titan v9 only RGB elements were controlled by the colour picker and other colours had to be set independently.
 
@@ -569,8 +569,8 @@ console) are buttons adjacent to the numeric keypad.
 Fixtures may be selected by User Number, Handle Number or DMX Address,
 as set by the option on Softkey A.
 
-When using the Channel menu it is helpful to latch it by pressing \<Menu
-Latch\>.
+When using the Channel menu it is helpful to latch it by pressing <Keys.HardKey>Menu
+Latch</Keys.HardKey>.
 
 -   To select a fixture, type the number and press <Keys.HardKey>Enter</Keys.HardKey>.
 
@@ -633,13 +633,13 @@ the next stage of the pattern (<Keys.HardKey>Next</Keys.HardKey> and <Keys.HardK
     creating cues using overlap.
 
 -   Direction will return to "None" when you press Clear. You can change
-    this by setting <Keys.SoftKey>Clear / Maintain Direction</Keys.SoftKey> in the \[Clear
-    Options\] menu (hold the Clear button down to see this option).
+    this by setting <Keys.SoftKey>Clear / Maintain Direction</Keys.SoftKey> in the <Keys.SoftKey>Clear
+    Options</Keys.SoftKey> menu (hold the Clear button down to see this option).
 
 -   For example, if you are programming a chase using 16 fixtures and
     you want every 4^th^ fixture to do the same thing, you just select
-    the 16 fixtures, then press <Keys.HardKey>All</Keys.HardKey>, then <Keys.SoftKey>1 in x</Keys.SoftKey>, then \[1 in
-    4\]. You will see that the 1^st^, 5^th^, 9^th^ and 13^th^ fixtures
+    the 16 fixtures, then press <Keys.HardKey>All</Keys.HardKey>, then <Keys.SoftKey>1 in x</Keys.SoftKey>, then <Keys.SoftKey>1 in
+    4</Keys.SoftKey>. You will see that the 1^st^, 5^th^, 9^th^ and 13^th^ fixtures
     are now selected, and you can create the look for those fixtures.
     Then press <Keys.HardKey>Fix +1</Keys.HardKey>, and the 2^nd^, 6^th^, 10^th^ and 14^th^
     fixtures will be selected ready for programming. After you have

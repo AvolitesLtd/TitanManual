@@ -41,8 +41,8 @@ When you create a shape, it will be applied to all selected fixtures.
 
 1. [Select the fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) the shape is to be applied to
 
-2. At the main menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then \[Shape
-Generator\]
+2. At the main menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then <Keys.SoftKey>Shape
+Generator</Keys.SoftKey>
 
 3. Press <Keys.SoftKey>Create</Keys.SoftKey> to start a new shape
 ![Shape Generator selecting a category of new shape](/docs/images/Shape-Generator-selecting-a-category-of-new-shape.png)
@@ -154,8 +154,8 @@ The sequence of the shape across the fixtures is controlled by the order
 in which you selected the fixtures when you created the shape. You can
 edit the order by selecting <Keys.SoftKey>Fixture Order</Keys.SoftKey> in the Shape Edit menu.
 
-1. If the right hand wheel isn't showing Spread, press \[Adjust Speed,
-Size and Spread\]
+1. If the right hand wheel isn't showing Spread, press <Keys.SoftKey>Adjust Speed,
+Size and Spread</Keys.SoftKey>
 
 2. Control the **Spread** of the shape using the right hand wheel, or to
 set in terms of Phase, press <Keys.SoftKey>Adjust Spread, Phase and Offset</Keys.SoftKey> and

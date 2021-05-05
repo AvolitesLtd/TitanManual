@@ -12,8 +12,8 @@ The Channel Grid Window
 
 It can sometimes be useful to display and edit exactly what each fixture
 is doing. The Channel Grid window allows you do to that. Display it by
-pressing <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.SoftKey>Open workspace window</Keys.SoftKey> then \[Channel
-Grid\].
+pressing <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.SoftKey>Open workspace window</Keys.SoftKey> then <Keys.SoftKey>Channel
+Grid</Keys.SoftKey>.
 
 ![Channel Grid](/docs/images/Channel-Grid.png)
 

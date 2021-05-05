@@ -41,8 +41,8 @@ You can also edit times of a cue you have already saved like this:
 
 <em>This sets how the times are used, [see below](#fade-modes).</em>
 
-4. Press <Keys.SoftKey>Delay time</Keys.SoftKey> to set the delay before the cue starts, \[Fade
-time\] to set the fade-in time of the cue, and <Keys.SoftKey>Fade out time</Keys.SoftKey> to set
+4. Press <Keys.SoftKey>Delay time</Keys.SoftKey> to set the delay before the cue starts, <Keys.SoftKey>Fade
+time</Keys.SoftKey> to set the fade-in time of the cue, and <Keys.SoftKey>Fade out time</Keys.SoftKey> to set
 the fade-out time of the cue.
 
 5. Type the new time (in seconds) using the numeric keypad and press

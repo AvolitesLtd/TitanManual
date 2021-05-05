@@ -29,8 +29,8 @@ orientations.
 
 3. Press <Keys.SoftKey>Swap Pan and Tilt</Keys.SoftKey>.
 
-4. Select the fixtures to be pan-tilt swapped. Press \[Pan and Tilt
-...\] to select either <Keys.SoftKey>Swapped</Keys.SoftKey> or <Keys.SoftKey>Normal</Keys.SoftKey> for the selected
+4. Select the fixtures to be pan-tilt swapped. Press <Keys.SoftKey>Pan and Tilt
+...</Keys.SoftKey> to select either <Keys.SoftKey>Swapped</Keys.SoftKey> or <Keys.SoftKey>Normal</Keys.SoftKey> for the selected
 fixtures.
 
 5. Press <Keys.HardKey>Exit</Keys.HardKey> when finished.
@@ -88,8 +88,8 @@ Attribute Behaviour tab of the Patch View window.
 5. Use the softkeys to select which attributes are to be set, then
 select upper or lower limit.
 
-6. Input a percentage value for the limit value, or press \[Set To
-Current Value\]. To remove a limit press <Keys.SoftKey>Remove Limit</Keys.SoftKey>.
+6. Input a percentage value for the limit value, or press <Keys.SoftKey>Set To
+Current Value</Keys.SoftKey>. To remove a limit press <Keys.SoftKey>Remove Limit</Keys.SoftKey>.
 
 7. Press <Keys.HardKey>Exit</Keys.HardKey> when finished.
 

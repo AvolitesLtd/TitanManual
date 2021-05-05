@@ -25,13 +25,13 @@ You create effects with the Pixel Mapper as follows:
 
 1. Select the group of fixtures
 
-2. From the top level menu select <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then \[Pixel
-Mapper\]
+2. From the top level menu select <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then <Keys.SoftKey>Pixel
+Mapper</Keys.SoftKey>
 
 3. Select <Keys.SoftKey>Create effect</Keys.SoftKey>. The Pixel Mapper Editor will open with a
 blank background. You can overlay your fixture layout on the window, to
-help you see where your fixtures are, by clicking on the \[Fixture
-Overlay 50/50\] context menu button.
+help you see where your fixtures are, by clicking on the <Keys.SoftKey>Fixture
+Overlay 50/50</Keys.SoftKey> context menu button.
 
 ![Effect Editor - Pixel Mapper - New Effect](/docs/images/Effect-Editor-Pixel-Mapper-New-Effect.png)
 
@@ -159,8 +159,8 @@ Some points about animations:
 
 If you don't have fixtures connected, you can see how the effect will
 look on the fixtures using the Pixel Mapper preview window - open it by
-double pressing <Keys.HardKey>View/Open</Keys.HardKey> then press \[Pixel Mapper
-Preview\] from the window select buttons. A real life view of each effect currently running is shown in
+double pressing <Keys.HardKey>View/Open</Keys.HardKey> then press <Keys.SoftKey>Pixel Mapper
+Preview</Keys.SoftKey> from the window select buttons. A real life view of each effect currently running is shown in
 a button at the bottom of the screen, you can select each of these by
 pressing the button.
 

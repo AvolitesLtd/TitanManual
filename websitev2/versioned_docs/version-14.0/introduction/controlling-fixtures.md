@@ -30,9 +30,9 @@ recall, see next page.
 
 ## Fixture Groups
 
-Fixtures may be [grouped](../controlling-fixtures/fixture-groups.md) for quick selection, press <Keys.HardKey>Group</Keys.HardKey>, \[Record
-Group\], select fixtures for group, set legend using \[Provide a
-legend\], press a handle to store. If the handle has a fader it becomes
+Fixtures may be [grouped](../controlling-fixtures/fixture-groups.md) for quick selection, press <Keys.HardKey>Group</Keys.HardKey>, <Keys.SoftKey>Record
+Group</Keys.SoftKey>, select fixtures for group, set legend using <Keys.SoftKey>Provide a
+legend</Keys.SoftKey>, press a handle to store. If the handle has a fader it becomes
 a master fader for the group. Order of fixture selection is remembered
 for use with shapes. Physical layout of fixtures
 in group can also be set for use with pixel mapper or shapes.
@@ -48,12 +48,12 @@ shapes.
 At top menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, \[[Shape Generator](../effects/shape-generator.md)],
 <Keys.SoftKey>Create</Keys.SoftKey>. Select attribute of shape then select a shape to run.
 
-Or from the Shape Library window (<Keys.HardKey>Open/View</Keys.HardKey>, \[Open Workspace
-Window\], <Keys.SoftKey>Shape Library</Keys.SoftKey>) you can select a shape directly. Filter the
+Or from the Shape Library window (<Keys.HardKey>Open/View</Keys.HardKey>, <Keys.SoftKey>Open Workspace
+Window</Keys.SoftKey>, <Keys.SoftKey>Shape Library</Keys.SoftKey>) you can select a shape directly. Filter the
 list of shapes using the attribute buttons.
 
-Use the wheels and <Keys.SoftKey>Adjust Speed, Size and Spread</Keys.SoftKey>/\[Adjust Phase,
-Spread and Offset\] to configure the shape. Spread distributes the shape
+Use the wheels and <Keys.SoftKey>Adjust Speed, Size and Spread</Keys.SoftKey>/<Keys.SoftKey>Adjust Phase,
+Spread and Offset</Keys.SoftKey> to configure the shape. Spread distributes the shape
 across a number of fixtures.
 
 [Key frame shapes](../effects/key-frame-shapes.md) are similar to a [chase](../chases.md) but you can spread the sequence

@@ -56,8 +56,8 @@ selected or in the programmer (inverted display).
     procedure above; this does not affect any cues already stored in the
     cue list.
 
--   To add more cues to the end of the existing cues press \[Append
-    cue\].
+-   To add more cues to the end of the existing cues press <Keys.SoftKey>Append
+    cue</Keys.SoftKey>.
 
 -   To edit an existing cue, press <Keys.SoftKey>Cue Number=</Keys.SoftKey> and type the cue
     number to edit. Make the changes then press <Keys.SoftKey>Update Cue x</Keys.SoftKey>.
@@ -200,8 +200,8 @@ the target playback.
 
 In the Autoload Times column you can set fade in, fade out and delay
 times for the autoloaded playback. Normally the autoload will use the
-times set for the cue, but you can also select \[Use Individual Target
-Times\] which will use the times set in the autoloaded playback, or you
+times set for the cue, but you can also select <Keys.SoftKey>Use Individual Target
+Times</Keys.SoftKey> which will use the times set in the autoloaded playback, or you
 can set independent times yourself.
 
 Running a Key Macro from a Cue List

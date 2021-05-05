@@ -43,8 +43,8 @@ add more fixtures to the selection.
     a gap in the DMX channels, if you are running a show where you need
     to exchange fixtures to ones which use more DMX channels.
 
--   When in Copy mode, option <Keys.SoftKey>Copy Legends</Keys.SoftKey> can be changed to \[Don't
-    copy legends\] so that the copied fixtures are given default
+-   When in Copy mode, option <Keys.SoftKey>Copy Legends</Keys.SoftKey> can be changed to <Keys.SoftKey>Don't
+    copy legends</Keys.SoftKey> so that the copied fixtures are given default
     legends.
 
 -   When in Move mode, <Keys.SoftKey>Swap Items if Required</Keys.SoftKey> will attempt to

@@ -66,8 +66,8 @@ this
 
 3. You should see the Capture computer as a softkey option, press it.
 
-4. Select an empty handle to start patching, or press \[Patch Capture @
-...\] to patch automatically.
+4. Select an empty handle to start patching, or press <Keys.SoftKey>Patch Capture @
+...</Keys.SoftKey> to patch automatically.
 
 > If any fixtures can't be patched (unsupported fixture type, or
 duplicate user number) then a blank handle will be left and a warning

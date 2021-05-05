@@ -20,8 +20,8 @@ programmed a 2 second fade, the palette will recall with a 2 second fade.
 
 You can turn this off (which can be useful during programming) using the
 [key profile setting](../system-settings/key-profiles.md) for palette keys.
-You can set <Keys.SoftKey>Palette Is Fired With Its Times</Keys.SoftKey> or \[Palette Is Fired
-Ignoring Its Times\].
+You can set <Keys.SoftKey>Palette Is Fired With Its Times</Keys.SoftKey> or <Keys.SoftKey>Palette Is Fired
+Ignoring Its Times</Keys.SoftKey>.
 
 Manually Overriding Palette Times
 ---------------------------------
@@ -43,8 +43,8 @@ the palette fades in over that time.
 -   This overrides any timing stored in the palette itself.
 
 -   You have to re-enter the time each time you recall a palette. To use
-    the same fade every time, set a Master Time: Press <Keys.HardKey>Palette</Keys.HardKey>, \[Master
-    Time\]. To disable <Keys.SoftKey>Master Time</Keys.SoftKey> set to 0.
+    the same fade every time, set a Master Time: Press <Keys.HardKey>Palette</Keys.HardKey>, <Keys.SoftKey>Master
+    Time</Keys.SoftKey>. To disable <Keys.SoftKey>Master Time</Keys.SoftKey> set to 0.
 
 -   Palette fading can be very useful when recalling a palette live
     during a show, as you can smoothly move fixtures to a new position

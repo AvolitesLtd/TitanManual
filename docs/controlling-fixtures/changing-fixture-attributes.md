@@ -124,8 +124,8 @@ It also offers a colour picker window for fixtures with RGB or CMY
 colour mixing.
 
 The Diamond 9 has a dedicated Editor touchscreen to show the Attribute Editor,
-on other consoles you open it as a workspace window - Double press <Keys.HardKey>Open/View</Keys.HardKey> then \[Attribute
-Editor\] from the window select buttons to show it. As a shortcut you can also show it by touching the
+on other consoles you open it as a workspace window - Double press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.SoftKey>Attribute
+Editor</Keys.SoftKey> from the window select buttons to show it. As a shortcut you can also show it by touching the
 attribute name text just below the on-screen IPCGBES buttons.
 
 The buttons on the left of the window select the attribute to change.
@@ -243,8 +243,8 @@ hand side to set the intensity.
 
 Lets you pick a gel/filter colour from the Lee, Roscolux or GamColor
 ranges of filters. You can search for a particular colour by name or by
-number using the search bar. There is a context menu button to \[Order
-Filters by Number\] or <Keys.SoftKey>Order Filters by Hue</Keys.SoftKey>.
+number using the search bar. There is a context menu button to <Keys.SoftKey>Order
+Filters by Number</Keys.SoftKey> or <Keys.SoftKey>Order Filters by Hue</Keys.SoftKey>.
 
 > For LED fixtures with additional emitters for Warm/Cool white, Amber, UV, Lime or Cyan, Colour Mix will automatically control all the colour channels to obtain the colour. In versions previous to Titan v9 only RGB elements were controlled by the colour picker and other colours had to be set independently.
 

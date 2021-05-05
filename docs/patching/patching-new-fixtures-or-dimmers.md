@@ -251,13 +251,13 @@ Patching Active Fixtures / Media Servers
 For Ai media servers see the [Synergy section](../synergy.md) which allows you
 to connect to Ai for control of the setup and media playback.
 
-Other media servers which support CITP can be patched using the \[Active
-Fixtures\] command on the Patch menu. This allows the console to
+Other media servers which support CITP can be patched using the <Keys.SoftKey>Active
+Fixtures</Keys.SoftKey> command on the Patch menu. This allows the console to
 retrieve thumbnail images of the media clips to display in the Attribute
 Editor when you are selecting the clip to play.
 
-Once the media server is connected to the network, selecting \[Active
-Fixtures\] then <Keys.SoftKey>CITP Media Servers</Keys.SoftKey> will display a list of the
+Once the media server is connected to the network, selecting <Keys.SoftKey>Active
+Fixtures</Keys.SoftKey> then <Keys.SoftKey>CITP Media Servers</Keys.SoftKey> will display a list of the
 available display layers on the connected server(s). Each layer can then
 be patched to a fixture button for control.
 

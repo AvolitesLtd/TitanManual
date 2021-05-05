@@ -143,8 +143,8 @@ use the attribute group buttons to set the mask.
 <Keys.SoftKey>Set Mask to Clear Nothing</Keys.SoftKey> disables all attributes from being cleared to give you a clean
 slate to start with and <Keys.SoftKey>Set Mask to Clear All</Keys.SoftKey> enables all attributes to be cleared.
 
-You can also clear all the mask attributes by pressing the <Keys.HardKey>Options</Keys.HardKey>/\<Attribute
-Options\> button will clear the mask. 
+You can also clear all the mask attributes by pressing the <Keys.HardKey>Options</Keys.HardKey>/<Keys.HardKey>Attribute
+Options</Keys.HardKey> button will clear the mask. 
 
 The **Time** mask option allows
 you to clear or retain the fade/delay times in the programmer for
@@ -195,8 +195,8 @@ can also be set in the Clear tab of the [User Settings](./system-settings/user-s
 
 -   <Keys.SoftKey>Freeze current values</Keys.SoftKey> sets what happens to LTP (non-intensity)
     channels you have modified. If set to <Keys.SoftKey>Freeze Current Values</Keys.SoftKey> the
-    channels remain as you set them. If set to \[Release To Playback
-    Values\] the channels will go back to how they are set in the
+    channels remain as you set them. If set to <Keys.SoftKey>Release To Playback
+    Values</Keys.SoftKey> the channels will go back to how they are set in the
     current playback. For example: you have an active playback making
     some lights green, then you select the lights and change them to
     red. If you press Clear with this option set to <Keys.SoftKey>Freeze</Keys.SoftKey> then the
@@ -302,8 +302,8 @@ console) are buttons adjacent to the numeric keypad.
 Fixtures may be selected by User Number, Handle Number or DMX Address,
 as set by the option on Softkey A.
 
-When using the Channel menu it is helpful to latch it by pressing \<Menu
-Latch\>.
+When using the Channel menu it is helpful to latch it by pressing <Keys.HardKey>Menu
+Latch</Keys.HardKey>.
 
 -   To select a fixture, type the number and press <Keys.HardKey>Enter</Keys.HardKey>.
 
@@ -368,13 +368,13 @@ the next stage of the pattern (<Keys.HardKey>Next</Keys.HardKey> and <Keys.HardK
     [Fixture Overlap](./cues/cue-timing.md#fade-times-and-fixture-overlap).
 
 -   Direction will return to "None" when you press Clear. You can change
-    this by setting <Keys.SoftKey>Clear / Maintain Direction</Keys.SoftKey> in the \[Clear
-    Options\] menu (hold the Clear button down to see this option).
+    this by setting <Keys.SoftKey>Clear / Maintain Direction</Keys.SoftKey> in the <Keys.SoftKey>Clear
+    Options</Keys.SoftKey> menu (hold the Clear button down to see this option).
 
 -   For example, if you are programming a chase using 16 fixtures and
     you want every 4^th^ fixture to do the same thing, you just select
-    the 16 fixtures, then press <Keys.HardKey>All</Keys.HardKey>, then <Keys.SoftKey>1 in x</Keys.SoftKey>, then \[1 in
-    4\]. You will see that the 1^st^, 5^th^, 9^th^ and 13^th^ fixtures
+    the 16 fixtures, then press <Keys.HardKey>All</Keys.HardKey>, then <Keys.SoftKey>1 in x</Keys.SoftKey>, then <Keys.SoftKey>1 in
+    4</Keys.SoftKey>. You will see that the 1^st^, 5^th^, 9^th^ and 13^th^ fixtures
     are now selected, and you can create the look for those fixtures.
     Then press <Keys.HardKey>Fix +1</Keys.HardKey>, and the 2^nd^, 6^th^, 10^th^ and 14^th^
     fixtures will be selected ready for programming. After you have

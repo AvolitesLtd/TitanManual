@@ -68,8 +68,8 @@ workspace button.
 in the palette entry\
 *You can store any or all attributes of a fixture in each palette entry*
 
-4. Press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Palette</Keys.HardKey> (or <Keys.HardKey>Palette</Keys.HardKey> then \[Record
-Palette\])\
+4. Press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Palette</Keys.HardKey> (or <Keys.HardKey>Palette</Keys.HardKey> then <Keys.SoftKey>Record
+Palette</Keys.SoftKey>)\
 *Using [Quick Record](#quick-record) you can skip this
 step and the palette mask is set automatically to match the window.*
 
@@ -142,8 +142,8 @@ a palette number and press <Keys.SoftKey>Store</Keys.SoftKey>
     [Setting Legends for Palettes](#setting-legends-for-palettes).
 
 -   If you select a Palette button which is already used, the console
-    offers you options to <Keys.SoftKey>Cancel</Keys.SoftKey>, <Keys.SoftKey>Replace</Keys.SoftKey>, <Keys.SoftKey>Merge</Keys.SoftKey> or \[Quick
-    Merge\] the existing palette.
+    offers you options to <Keys.SoftKey>Cancel</Keys.SoftKey>, <Keys.SoftKey>Replace</Keys.SoftKey>, <Keys.SoftKey>Merge</Keys.SoftKey> or <Keys.SoftKey>Quick
+    Merge</Keys.SoftKey> the existing palette.
     - <Keys.SoftKey>Replace</Keys.SoftKey> will erase the palette and save only the latest changes
         you have made
     - <Keys.SoftKey>Merge</Keys.SoftKey> will combine your changes with the palette
@@ -233,8 +233,8 @@ palettes a **C** and so on. In the top right corner is shown **G** for
 ![Shared and normal palettes stored on a touch screen](/docs/images/Shared-and-normal-palettes-stored-on-a-touch-screen.png)
 
 You can create a picture legend for your palette which could for example
-represent the colour or gobo it will create. After pressing \[Set
-Legend\] and the palette button, press <Keys.SoftKey>Picture</Keys.SoftKey>. The picture editor
+represent the colour or gobo it will create. After pressing <Keys.SoftKey>Set
+Legend</Keys.SoftKey> and the palette button, press <Keys.SoftKey>Picture</Keys.SoftKey>. The picture editor
 will open.
 
 ![Setting legend of palette using draw picture editor](/docs/images/Setting-legend-of-palette-using-draw-picture-editor.png)

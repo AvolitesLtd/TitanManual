@@ -273,8 +273,8 @@ easy:
 
 1. Select fixtures for control
 
-2. At the top level menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, \[Shape
-    Generator\], <Keys.SoftKey>Create</Keys.SoftKey>
+2. At the top level menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, <Keys.SoftKey>Shape
+    Generator</Keys.SoftKey>, <Keys.SoftKey>Create</Keys.SoftKey>
 
 3. Select the type of shape <Keys.SoftKey>Dimmer</Keys.SoftKey>, <Keys.SoftKey>Pan/Tilt</Keys.SoftKey> etc
 

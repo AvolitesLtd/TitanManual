@@ -39,8 +39,8 @@ Connect button also step through the cues.*
     affected by the fade.*
 
     -   The **fade out time** of the cue is set by default to be the same as the
-    fade in time. You can change the fade out time by pressing \[Fade
-    Out\], then type the time in seconds and press <Keys.HardKey>Enter</Keys.HardKey>. To set
+    fade in time. You can change the fade out time by pressing <Keys.SoftKey>Fade
+    Out</Keys.SoftKey>, then type the time in seconds and press <Keys.HardKey>Enter</Keys.HardKey>. To set
     equal to Fade In time, delete the time and leave the box blank.\
     *The fade out time starts when the next cue fires, so if you set the
     time to 1 second, the outgoing cue would start a 1 second fade out
@@ -145,8 +145,8 @@ cue.
 >   **50%** means that the 2^nd^ fixture will start fading when
 >   the first one is half way through its fade.
 
-To change the fixture order when using overlap, press \[Set Fixture
-Order\]. Normally this is the order in which you selected the
+To change the fixture order when using overlap, press <Keys.SoftKey>Set Fixture
+Order</Keys.SoftKey>. Normally this is the order in which you selected the
 fixtures when you programmed the cue. The Fixture window shows the
 fixture order in large green numbers. Reorder the fixtures by
 pressing <Keys.SoftKey>Step Number</Keys.SoftKey> then type the start number on the numeric
@@ -215,7 +215,7 @@ and use the softkey options to enter a value to change the time of all
 the cues (offset, add a fixed time or subtract a fixed time).
 
 You can open a timecode display window for each of the four possible
-sources to show you the incoming timecode - press \[Open Workspace
-Window\] then <Keys.SoftKey>Timecode x</Keys.SoftKey> where x is 1 to 4.
+sources to show you the incoming timecode - press <Keys.SoftKey>Open Workspace
+Window</Keys.SoftKey> then <Keys.SoftKey>Timecode x</Keys.SoftKey> where x is 1 to 4.
 
 ![Timecode 1 Workspace Window](/docs/images/Timecode-1-Workspace-Window.png)

@@ -27,8 +27,8 @@ related to each playback fader.
 
 [](https://youtu.be/CxHQV4sP_sA?t=20 "Key Profiles")
 
-To create or edit a profile, go to the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) then select \[Key
-Profiles\]. You can then use the Manage Profiles menu to View, Edit,
+To create or edit a profile, go to the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) then select <Keys.SoftKey>Key
+Profiles</Keys.SoftKey>. You can then use the Manage Profiles menu to View, Edit,
 Add, Delete or Rename profiles.
 
 You can also create or edit key profiles in the <Keys.SoftKey>Handle</Keys.SoftKey> tab of
