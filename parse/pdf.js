@@ -223,6 +223,8 @@ function replaceBr(content) {
   content = content.replace(/<Keys\.HardKey>(.*?)<\/Keys\.HardKey>/gmi,"\<$1\>");
   content = content.replace(/<Keys\.SoftKey>(.*?)<\/Keys\.SoftKey>/gmi,"[$1]");
   content = content.replace(/<Keys\.Annotation>(.*?)<\/Keys\.Annotation>/gmi,"($1)");
+  content = content.replace(/<strong>(.*?)<\/strong>/gmi,"**$1**");
+  content = content.replace(/<em>(.*?)<\/em>/gmi,"*$1*");
   content = content.replace(/import .*? from '.*?';\n/gmi,"");
   return content;
 }
