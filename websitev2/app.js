@@ -1,4 +1,5 @@
 const { app, BrowserWindow, session, BrowserView, ipcMain, Menu, shell } = require('electron')
+const fs = require('fs');
 const appServer = require('./app/server.js')
 const { fork } = require('child_process')
 const localJs = fork(`${__dirname}/app/local.js`)
@@ -88,6 +89,14 @@ const createWindow = () => {
   browserViewContent.webContents.on('dom-ready', () => {
     win.show()
     canNavigate()
+  });
+
+  browserViewContent.webContents.on('did-finish-load', function() {
+    fs.readFile('./app/sources/local/app.css', "utf-8", function(error, data) {
+      if(!error){
+        browserViewContent.webContents.insertCSS(data);
+      }
+    });
   });
 
   win.on('closed', () => {
