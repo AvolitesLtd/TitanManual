@@ -14,7 +14,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
 <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Clear</Keys.HardKey> with a plus symbol means to hold down the first button while pressing the second button.
 
-\u123Select\u125 means to press a playback select button.
+&#123;Select&#125; means to press a playback select button.
 
 ---
 
@@ -68,11 +68,11 @@ For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Exit</Keys.HardKey> | Exit menu structure back to the top level.
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Fix +</Keys.HardKey> | Jump the pattern forward (or back with <Keys.HardKey>Fix -</Keys.HardKey>) in pattern select mode.
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Flash On</Keys.HardKey> | Flash out (turn off) selected fixtures while held.
- <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Group</Keys.HardKey> \u123Select\u125 | Record group to handle, see [Record a group](../controlling-fixtures/fixture-groups.md#record-a-group).
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Group</Keys.HardKey> &#123;Select&#125; | Record group to handle, see [Record a group](../controlling-fixtures/fixture-groups.md#record-a-group).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Highlight</Keys.HardKey> | Record the highlight state, see [Highlight](../controlling-fixtures.md/#highlighting-the-selected-fixture-with-prevnext)
- <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Macro</Keys.HardKey> \u123Select\u125 | Record macro to handle, see [Key Macro buttons](../titan-basics/front-panel-buttons.md/#key-macro-buttons).
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Macro</Keys.HardKey> &#123;Select&#125; | Record macro to handle, see [Key Macro buttons](../titan-basics/front-panel-buttons.md/#key-macro-buttons).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Min/Max</Keys.HardKey> | Select a different workspace window to be the active window, see [Workspace windows](../titan-basics/workspace-windows.
- <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Open/View</Keys.HardKey> \u123Workspace button\u125 | Record workspace layout, see [Saving workspace layouts](../titan-basics/workspace-windows.md#saving-workspace-layouts).
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Open/View</Keys.HardKey> &#123;Workspace button&#125; | Record workspace layout, see [Saving workspace layouts](../titan-basics/workspace-windows.md#saving-workspace-layouts).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Release</Keys.HardKey> | Release all playbacks by priority (same as double press <Keys.HardKey>Release</Keys.HardKey>). See [Release](../cues/cue-playback.md#release).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Shape</Keys.HardKey> | 
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Size/Position</Keys.HardKey> | Move the active workspace window to the next screen, see [Workspace windows](../titan-basics/workspace-windows.md#changing-window-size-and-appearance).
@@ -82,9 +82,9 @@ For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Edit current key profile</Keys.SoftKey> | Reallocate the function of the Select and Flash buttons, see [Key Profiles](../system-settings/key-profiles.md).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Lock</Keys.SoftKey> | Temporarily lock console controls, see [Locking the console](../titan-basics/front-panel-buttons.md#locking-the-console).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>User Settings</Keys.SoftKey> | Enter the User Settings menu, see [User Settings](../system-settings/user-settings.md).
- <Keys.HardKey>Avo</Keys.HardKey> + \u123Scene Master\u125 | Enter or exit preset mode when Scene Master assigned to Macro/Executor button or touch button, see [Scene Master](../running-the-show/playback-controls.md#scene-master).
- <Keys.HardKey>Avo</Keys.HardKey> + \u123Master\u125 | Releases the master to its default state (no effect on output), see [Releasing a Master](../cues/cue-playback.md#releasing-a-master).
- <Keys.HardKey>Avo</Keys.HardKey> + \u123Playback\u125 | Kill playback, see [Release](../cues/cue-playback.md#release).
+ <Keys.HardKey>Avo</Keys.HardKey> + &#123;Scene Master&#125; | Enter or exit preset mode when Scene Master assigned to Macro/Executor button or touch button, see [Scene Master](../running-the-show/playback-controls.md#scene-master).
+ <Keys.HardKey>Avo</Keys.HardKey> + &#123;Master&#125; | Releases the master to its default state (no effect on output), see [Releasing a Master](../cues/cue-playback.md#releasing-a-master).
+ <Keys.HardKey>Avo</Keys.HardKey> + &#123;Playback&#125; | Kill playback, see [Release](../cues/cue-playback.md#release).
  <Keys.HardKey>Avo</Keys.HardKey> + Turn wheel | Wheel Turbo mode, 1 revolution goes through entire attribute range
  <Keys.HardKey>Avo</Keys.HardKey> + 2/4/6/8 | Cursor up, left, right, down
 
@@ -148,7 +148,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 ## <Keys.HardKey>Copy</Keys.HardKey> 
  Used to make copies of items (fixtures, playbacks etc). Use <Keys.HardKey>Latch</Keys.HardKey> to keep the copy function active for copying multiple items. Press twice to make linked copy.
 
- Example: <Keys.HardKey>Copy</Keys.HardKey> \u123Source Playback\u125 \u123Destination Playback\u125
+ Example: <Keys.HardKey>Copy</Keys.HardKey> &#123;Source Playback&#125; &#123;Destination Playback&#125;
 
  Buttons | Action
  --------|--------
@@ -175,7 +175,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md/#connecting-a-c
 ## <Keys.HardKey>Delete</Keys.HardKey> 
  Used to delete items. You usually need to press the item to be deleted a second time to confirm the delete, or press <Keys.HardKey>Enter</Keys.HardKey> to confirm. Use <Keys.HardKey>Latch</Keys.HardKey> to keep the Delete function active for deleting multiple items.
 
- Example: <Keys.HardKey>Delete</Keys.HardKey> \u123Playback\u125 \u123Playback\u125
+ Example: <Keys.HardKey>Delete</Keys.HardKey> &#123;Playback&#125; &#123;Playback&#125;
 
  --- 
 ## <Keys.HardKey>Direction</Keys.HardKey> 
@@ -361,7 +361,7 @@ Buttons | Action
 ## <Keys.HardKey>Move</Keys.HardKey> 
  Used to move items to different handles. Use <Keys.HardKey>Latch</Keys.HardKey> to keep the Move function active for moving multiple items.
 
- Example: <Keys.HardKey>Move</Keys.HardKey> \u123Source Playback\u125 \u123Destination Playback\u125
+ Example: <Keys.HardKey>Move</Keys.HardKey> &#123;Source Playback&#125; &#123;Destination Playback&#125;
 
  --- 
 ## <Keys.HardKey>Next Step</Keys.HardKey> 
@@ -447,9 +447,9 @@ Buttons | Action
 
  Buttons | Action
  --------|--------
-  <Keys.HardKey>Record</Keys.HardKey> \u123Select\u125 | Record programmer state to cue
-  <Keys.HardKey>Record</Keys.HardKey> \u123Palette window button\u125 | Record programmer state to palette
-  <Keys.HardKey>Record</Keys.HardKey> \u123Workspace select button\u125 | Record current workspace state to workspace select button
+  <Keys.HardKey>Record</Keys.HardKey> &#123;Select&#125; | Record programmer state to cue
+  <Keys.HardKey>Record</Keys.HardKey> &#123;Palette window button&#125; | Record programmer state to palette
+  <Keys.HardKey>Record</Keys.HardKey> &#123;Workspace select button&#125; | Record current workspace state to workspace select button
   <Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Highlight</Keys.HardKey> | Record the highlight state, see [Highlight](../controlling-fixtures.md/#highlighting-the-selected-fixture-with-prevnext)
   <Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Locate</Keys.HardKey> | Record the locate state, see [Locate](../controlling-fixtures.md#changing-the-locate-state).
 
@@ -464,8 +464,8 @@ Buttons | Action
 
  Buttons | Action
  --------|--------
-  <Keys.HardKey>Release</Keys.HardKey> \u123Master\u125 | Releases the master to its default state (no effect on output), see [Releasing a Master](../cues/cue-playback.md#releasing-a-master).
-  <Keys.HardKey>Release</Keys.HardKey> \u123Playback\u125 | Release the playbacks by priority. See [Release](../cues/cue-playback.md#release).
+  <Keys.HardKey>Release</Keys.HardKey> &#123;Master&#125; | Releases the master to its default state (no effect on output), see [Releasing a Master](../cues/cue-playback.md#releasing-a-master).
+  <Keys.HardKey>Release</Keys.HardKey> &#123;Playback&#125; | Release the playbacks by priority. See [Release](../cues/cue-playback.md#release).
   <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Clear</Keys.HardKey> | Release attributes in the programmer. See [Release](../cues/cue-playback.md#releasing-the-programmer-contents).
   <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Go Page</Keys.HardKey> | Release whole page of playbacks. See [Release Page](../cues/cue-playback.md/#releasing-a-whole-page-of-playbacks).
   <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Release</Keys.HardKey> | Release all active playbacks by priority. See [Release](../cues/cue-playback.md#release).

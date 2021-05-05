@@ -70,21 +70,21 @@ recorded)*. To record everything with intensity above zero, switch
 
  Keypresses | Action
 ------------|-------------------
-<Keys.HardKey>Record</Keys.HardKey> \u123fader select\u125 \u123fader select\u125 | Record the next cue onto the end of the cue list on this fader
+<Keys.HardKey>Record</Keys.HardKey> &#123;fader select&#125; &#123;fader select&#125; | Record the next cue onto the end of the cue list on this fader
 <Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Enter</Keys.HardKey> | Record cue **n** *(will prompt for merge/overwrite if it exists already)*
 <Keys.HardKey>Time</Keys.HardKey> **t** <Keys.HardKey>Enter</Keys.HardKey> | Set fade time into programmer *(does not affect stored cues; will save with the cue when you record it)*
 <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Time</Keys.HardKey> **t** <Keys.HardKey>Enter</Keys.HardKey> | Set fade time of cue **n** to **t** seconds
 <Keys.HardKey>Delete</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Delete cue **n** *(2^nd^ <Keys.HardKey>Enter</Keys.HardKey> confirms)*
 <Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **m** <Keys.HardKey>Enter</Keys.HardKey> | Copy cue **n** to new cue **m**
 <Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Copy cue **n** onto the end of the cue list
-<Keys.HardKey>View/Open</Keys.HardKey> \u123fader select\u125 | Show the list of cues on screen, click on individual times to edit them
+<Keys.HardKey>View/Open</Keys.HardKey> &#123;fader select&#125; | Show the list of cues on screen, click on individual times to edit them
 
 - For the **copy** commands, you can use <Keys.HardKey>Move</Keys.HardKey> in place of <Keys.HardKey>Copy</Keys.HardKey>to **move** cues. For consoles
   which don't have a <Keys.HardKey>Move</Keys.HardKey> button you can press (<Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Copy</Keys.HardKey>) together to get Move.
 
 - You can select multiple cues using <Keys.HardKey>Thru</Keys.HardKey>, <Keys.HardKey>And</Keys.HardKey> and <Keys.SoftKey>Not</Keys.SoftKey>. For example to copy cues 3, 4 ,5 ,7, 10
   into a new block of cues starting at cue 20 you could do \
-  <Keys.HardKey>Copy</Keys.HardKey> \u123fader select\u125 **3** <Keys.HardKey>Thru</Keys.HardKey> **7** <Keys.SoftKey>Not</Keys.SoftKey> **6** <Keys.HardKey>And</Keys.HardKey> **10** <Keys.HardKey>@</Keys.HardKey> **20** <Keys.HardKey>Enter</Keys.HardKey>
+  <Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; **3** <Keys.HardKey>Thru</Keys.HardKey> **7** <Keys.SoftKey>Not</Keys.SoftKey> **6** <Keys.HardKey>And</Keys.HardKey> **10** <Keys.HardKey>@</Keys.HardKey> **20** <Keys.HardKey>Enter</Keys.HardKey>
 
 - To make a **Block** cue (changes from previous cues do not track), view the cue list as above,
 	in the Tracking column click the cell for the cue you want to change and
@@ -104,7 +104,7 @@ such as Go will operate on this cue list.
 
  Keypresses | Action
 ------------|-------------------
-<Keys.HardKey>Cue</Keys.HardKey> \u123fader select\u125 |If another cue list is active, connect this cue list as the current list
+<Keys.HardKey>Cue</Keys.HardKey> &#123;fader select&#125; |If another cue list is active, connect this cue list as the current list
 <Keys.HardKey>Go</Keys.HardKey> | Run next cue with programmed times
 <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Go</Keys.HardKey> | Go cue **n** with programmed times
 **t** <Keys.HardKey>Go</Keys.HardKey> | Next cue go with fade time **t**

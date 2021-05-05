@@ -15,7 +15,7 @@ clarity.
 
 <Keys.HardKey> Button </Keys.HardKey> formatting means a physical labelled button
 
-\u123 \u125 means a handle button, e.g. \u123Cue\u125 means the blue button on a cue
+&#123; &#125; means a handle button, e.g. &#123;Cue&#125; means the blue button on a cue
 playback handle
 
 Numbers are typed on the numeric keypad
@@ -118,57 +118,57 @@ Select all fixtures below 50% intensity
 Record
 ------
 
-**<Keys.HardKey>Record</Keys.HardKey> \u123Cue\u125 \u123Cue\u125**\
+**<Keys.HardKey>Record</Keys.HardKey> &#123;Cue&#125; &#123;Cue&#125;**\
 Merge the live cue with the programmer.
 
-**<Keys.HardKey>Record</Keys.HardKey> \u123Cue\u125 90.1**\
+**<Keys.HardKey>Record</Keys.HardKey> &#123;Cue&#125; 90.1**\
 Merge cue 90.1 with the programmer.
 
-**<Keys.HardKey>Record</Keys.HardKey> \u123Cue\u125 1 \u123Through\u125 10 <Keys.HardKey>And</Keys.HardKey> 20**\
+**<Keys.HardKey>Record</Keys.HardKey> &#123;Cue&#125; 1 &#123;Through&#125; 10 <Keys.HardKey>And</Keys.HardKey> 20**\
 Merge programmer contents into cues 1 to 10 and 20.
 
-**<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> \u123Cue\u125 \u123Cue\u125**\
+**<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> &#123;Cue&#125; &#123;Cue&#125;**\
 Merge all but position from the programmer with the live cue.
 
-**<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Options</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> \u123Cue\u125 \u123Cue\u125**\
+**<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Options</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> &#123;Cue&#125; &#123;Cue&#125;**\
 Merge only position from the programmer with the live cue.
 
 Copy, Move in cue list
 ----------------------
 
-**<Keys.HardKey>Copy</Keys.HardKey> \u123Cue\u125 n <Keys.HardKey>Enter</Keys.HardKey>**\
+**<Keys.HardKey>Copy</Keys.HardKey> &#123;Cue&#125; n <Keys.HardKey>Enter</Keys.HardKey>**\
 Copy cue n and append at the end of the cue list.
 
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cue&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
 n**\
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cue&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
 <Keys.HardKey>Enter</Keys.HardKey> n <Keys.HardKey>Enter</Keys.HardKey>**\
 Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert after cue n.
 
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cue&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
 <Keys.HardKey>@</Keys.HardKey>**\
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cue&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
 <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey>**\
 Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert at the end of the cue
 list.
 
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
-\u123target playback\u125 n**\
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cue\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
-<Keys.HardKey>Enter</Keys.HardKey> \u123target playback\u125 n <Keys.HardKey>Enter</Keys.HardKey>**\
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cue&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
+&#123;target playback&#125; n**\
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cue&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
+<Keys.HardKey>Enter</Keys.HardKey> &#123;target playback&#125; n <Keys.HardKey>Enter</Keys.HardKey>**\
 Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert at cue n in the
 target playback.
 
 Delete
 ------
 
-**<Keys.HardKey>Delete</Keys.HardKey> \u123Cue\u125 n**\
+**<Keys.HardKey>Delete</Keys.HardKey> &#123;Cue&#125; n**\
 Delete cue n from the connected cue list.
 
 Include
 -------
 
-**<Keys.HardKey>Include</Keys.HardKey> \u123Cue\u125 n**\
+**<Keys.HardKey>Include</Keys.HardKey> &#123;Cue&#125; n**\
 Include cue n into the programmer from the connected cue list.
 
 Times

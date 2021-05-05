@@ -68,7 +68,7 @@ up dimly.
 5. Repeat from step 2 for other dimmers.
 
 -   When setting the DMX address using <Keys.SoftKey>Address=</Keys.SoftKey>, you can set the DMX
-    line (universe) as well by entering \u123line\u125.\u123DMX\u125, for example 2.56
+    line (universe) as well by entering &#123;line&#125;.&#123;DMX&#125;, for example 2.56
     will set DMX address 56 on DMX line 2.
 
 -   To see how DMX channels are patched, press <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey>
@@ -179,7 +179,7 @@ Select buttons.
     <Keys.HardKey>Patch</Keys.HardKey>. To show patch details for a single fixture press
     <Keys.HardKey>View/Open</Keys.HardKey> then the fixture select button. On touch buttons the
     DMX address is displayed on the top right of the button in the
-    format \u123DMX line\u125.\u123Address\u125 (this display can be disabled using the
+    format &#123;DMX line&#125;.&#123;Address&#125; (this display can be disabled using the
     context menu).
 
 -   If a patch goes over the capacity of a DMX line, the console will

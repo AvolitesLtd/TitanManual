@@ -64,28 +64,28 @@ To delete a cue press <Keys.HardKey>Delete</Keys.HardKey>, select the cue in the
 
 You can also use a command-line style series of keypresses:
 
-- **\u123fader select\u125** is a playback fader select button, **n** is the cue number and
+- **&#123;fader select&#125;** is a playback fader select button, **n** is the cue number and
   sections in square brackets are optional. The <Keys.HardKey>@</Keys.HardKey> button is the one by the numeric keypad.
  
 
  Keypresses | Action
 ------------|-------------------
-<Keys.HardKey>Copy</Keys.HardKey> \u123fader select\u125 **n** <Keys.HardKey>@</Keys.HardKey> **m** <Keys.HardKey>Enter</Keys.HardKey> | Copy cue **n** as new cue **m** in the same cue list
-<Keys.HardKey>Move</Keys.HardKey> \u123fader select\u125 **n** <Keys.HardKey>@</Keys.HardKey> **m** <Keys.HardKey>Enter</Keys.HardKey> | Move cue **n** to cue **m** in the same cue list
-<Keys.HardKey>Copy</Keys.HardKey> \u123fader select\u125 **n** <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> | Copy cue **n** as new cue at end of same cue list
-<Keys.HardKey>Delete</Keys.HardKey> \u123fader select\u125 **n** <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Delete cue **n**
-<Keys.HardKey>Copy</Keys.HardKey> \u123fader select\u125 **n** \u123fader select\u125 **m** <Keys.HardKey>Enter</Keys.HardKey> | Copy cue **n** as new cue **m** in a different cue list
-<Keys.HardKey>Copy</Keys.HardKey> \u123fader select\u125 **n** \u123fader select\u125 <Keys.HardKey>Enter</Keys.HardKey> | Copy cue **n** as new cue at the end of a different cue list
+<Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; **n** <Keys.HardKey>@</Keys.HardKey> **m** <Keys.HardKey>Enter</Keys.HardKey> | Copy cue **n** as new cue **m** in the same cue list
+<Keys.HardKey>Move</Keys.HardKey> &#123;fader select&#125; **n** <Keys.HardKey>@</Keys.HardKey> **m** <Keys.HardKey>Enter</Keys.HardKey> | Move cue **n** to cue **m** in the same cue list
+<Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; **n** <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> | Copy cue **n** as new cue at end of same cue list
+<Keys.HardKey>Delete</Keys.HardKey> &#123;fader select&#125; **n** <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Delete cue **n**
+<Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; **n** &#123;fader select&#125; **m** <Keys.HardKey>Enter</Keys.HardKey> | Copy cue **n** as new cue **m** in a different cue list
+<Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; **n** &#123;fader select&#125; <Keys.HardKey>Enter</Keys.HardKey> | Copy cue **n** as new cue at the end of a different cue list
 
 - For the **copy** commands, you can use <Keys.HardKey>Move</Keys.HardKey> in place of <Keys.HardKey>Copy</Keys.HardKey>to **move** cues. For consoles
   which don't have a <Keys.HardKey>Move</Keys.HardKey> button you can press (<Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Copy</Keys.HardKey>) together to get Move.
 
 - You can change multiple cues using <Keys.HardKey>Thru</Keys.HardKey>, <Keys.HardKey>And</Keys.HardKey> and <Keys.SoftKey>Not</Keys.SoftKey>. For example to copy cues 3, 4 ,5 ,7, 10 
   into a new block of cues starting at cue 20 you could do \
-  <Keys.HardKey>Copy</Keys.HardKey> \u123fader select\u125 **3** <Keys.HardKey>Thru</Keys.HardKey> **7** <Keys.SoftKey>Not</Keys.SoftKey> **6** <Keys.HardKey>And</Keys.HardKey> **10** <Keys.HardKey>@</Keys.HardKey> **20** <Keys.HardKey>Enter</Keys.HardKey>
+  <Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; **3** <Keys.HardKey>Thru</Keys.HardKey> **7** <Keys.SoftKey>Not</Keys.SoftKey> **6** <Keys.HardKey>And</Keys.HardKey> **10** <Keys.HardKey>@</Keys.HardKey> **20** <Keys.HardKey>Enter</Keys.HardKey>
   
 - You can press <Keys.HardKey>Enter</Keys.HardKey> instead of <Keys.HardKey>@</Keys.HardKey> if you are more familiar with that key sequence, for example to copy a cue onto 
-  the end of a cue list you can do <Keys.HardKey>Copy</Keys.HardKey> \u123fader select\u125 **n** <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey>
+  the end of a cue list you can do <Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; **n** <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey>
 
 
 Editing a Cue List using Unfold

@@ -135,8 +135,8 @@ consoles or different screens can make the number of rows and columns
 change, causing buttons to move around. If you have set a particular
 layout you want to keep (for example if you've positioned fixtures in
 the window to match the layout on stage), open the Window Appearance
-menu using the <Keys.ContextKey>Cog</Keys.ContextKey> button and set Button Size to \\u123Button Size Set Rows
-& Columns\\u125. You can then set a fixed layout using the <Keys.ContextKey>Rows</Keys.ContextKey> and
+menu using the <Keys.ContextKey>Cog</Keys.ContextKey> button and set Button Size to \&#123;Button Size Set Rows
+& Columns\&#125;. You can then set a fixed layout using the <Keys.ContextKey>Rows</Keys.ContextKey> and
 <Keys.ContextKey>Columns</Keys.ContextKey> buttons.
 
 ![Rows and Columns](/docs/images/Rows-and-Columns.png)

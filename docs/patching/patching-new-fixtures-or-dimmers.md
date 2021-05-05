@@ -179,7 +179,7 @@ Select buttons.
     <Keys.HardKey>Patch</Keys.HardKey>. To show patch details for a single fixture press
     <Keys.HardKey>Open/View</Keys.HardKey> then the fixture select button. On touch buttons the
     DMX address is displayed on the top right of the button in the
-    format \u123DMX line\u125.\u123Address\u125 (this display can be disabled using the
+    format &#123;DMX line&#125;.&#123;Address&#125; (this display can be disabled using the
     context menu).
 
 -   If a patch goes over the capacity of a DMX line, the console will

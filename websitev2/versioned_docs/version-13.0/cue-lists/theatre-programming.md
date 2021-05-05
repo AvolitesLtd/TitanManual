@@ -116,7 +116,7 @@ recorded)*. To record everything with intensity above zero, switch
 ---
 
 ````xml
-<Record> \u123blue fader button\u125 \u123blue fader button\u125
+<Record> &#123;blue fader button&#125; &#123;blue fader button&#125;
 ````
 
 Record the next cue onto the end of the cue list on this fader
@@ -179,7 +179,7 @@ You can show the list of cues on screen, click on individual times to
 edit them:
 
 ````xml
-<View> \u123blue fader button\u125
+<View> &#123;blue fader button&#125;
 ````
 
 ---
@@ -203,7 +203,7 @@ Push up the fader of the cue list to make it active *("connected")*.
 ---
 
 ````xml
-<Cue> \u123blue button\u125
+<Cue> &#123;blue button&#125;
 ````
 
 If another cue list is active, connect this cue
