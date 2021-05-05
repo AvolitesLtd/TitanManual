@@ -10,7 +10,7 @@ This section is a quick guide on how to do most things on Avolites Titan
 consoles. Each section has a link to take you to the appropriate manual
 section for more details.
 
-- <Keys.HardKey>This</Keys.HardKey> indicates a physical buttons on the console <em>(or <Keys.HardKey>Avo</Keys.HardKey> for red keys)</em>
+- <Keys.HardKey>This</Keys.HardKey> indicates a physical buttons on the console
 - <Keys.SoftKey>This</Keys.SoftKey> indicates a softkey option on the touchscreen (the A-G menu buttons)
 - <Keys.ContextKey>This</Keys.ContextKey> indicates an option in a context menu 
 

@@ -35,7 +35,7 @@ Conventions used in the manual
 Links or cross-references to a more detailed description are shown [like this](#).
 
 To help you find buttons and controls:
-- <Keys.HardKey>This</Keys.HardKey> indicates a physical buttons on the console (or <Keys.RedKey>Avo</Keys.RedKey> for red keys)
+- <Keys.HardKey>This</Keys.HardKey> indicates a physical buttons on the console
 - <Keys.SoftKey>This</Keys.SoftKey> indicates a softkey menu option on the touchscreen
 - <Keys.ContextKey>This</Keys.ContextKey> indicates an option in a context menu or a general touch button on the screen
 
