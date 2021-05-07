@@ -77,7 +77,7 @@ so wechselt man den Speichermodus <Keys.SoftKey>Record Mode</Keys.SoftKey> auf "
 
 Tasten | Ergebnis
 -------|---------
-<Keys.HardKey>Record</Keys.HardKey> \u123blaue Playbacktaste\u125 \u123blaue Playbacktaste\u125 | speichert den nächsten Cue an das Ende dieser Cueliste
+<Keys.HardKey>Record</Keys.HardKey> &#123;blaue Playbacktaste&#125; &#123;blaue Playbacktaste&#125; | speichert den nächsten Cue an das Ende dieser Cueliste
 <Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Enter</Keys.HardKey> | Speichert Cue <strong>n</strong> (existiert bereits ein solcher Cue, erfolgt eine Rückfrage zum Mergen/Überschreiben)
 <Keys.HardKey>Time</Keys.HardKey> <strong>t</strong> <Keys.HardKey>Enter</Keys.HardKey> | Setzen der Fadezeit im Programmer (wird in nachfolgend gespeicherte Cues übernommen; bereits angelegte Cues  bleiben unbeeinflusst)
 <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Time</Keys.HardKey> <strong>t</strong> <Keys.HardKey>Enter</Keys.HardKey> | Setzt Fadezeit für Cue <strong>n</strong> auf <strong>t</strong> Sekunden
@@ -92,7 +92,7 @@ lassen sich mehrere Cues auf einmal kopieren/verschieben.
 
 Die Liste der Cues in einer Cueliste lässt sich auf dem Bildschirm
 anzeigen, und man kann einzelne Zeiten und andere Dinge einstellen:\
-    <Keys.HardKey>View</Keys.HardKey> <strong>\u123blaue Playbacktaste\u125</strong>
+    <Keys.HardKey>View</Keys.HardKey> <strong>&#123;blaue Playbacktaste&#125;</strong>
 
 ---
 
@@ -118,7 +118,7 @@ Weitere Möglichkeiten zur Steuerung (Auswahl):
 
 Tasten | Ergebnis
 -------|---------
-<Keys.HardKey>Cue</Keys.HardKey> <strong>\u123blaue Playbacktaste\u125</strong> | Verbinden einer anderen Cueliste
+<Keys.HardKey>Cue</Keys.HardKey> <strong>&#123;blaue Playbacktaste&#125;</strong> | Verbinden einer anderen Cueliste
 <Keys.HardKey>Go</Keys.HardKey> | Nächster Cue wird mit den programmierten Zeiten eingeblendet
 <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Go</Keys.HardKey> | Cue n wird mit den programmierten Zeiten eingeblendet
 <strong>t</strong> <Keys.HardKey>Go</Keys.HardKey> | Nächster Cue wird in <strong>t</strong> Sekunden eingeblendet

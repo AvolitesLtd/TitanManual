@@ -75,19 +75,19 @@ an oder drücken <Keys.HardKey>Enter</Keys.HardKey> oder <Keys.SoftKey>Confirm</
 
 Ebenso lässt sich eine Tastensyntax verwenden: 
 
-- Dabei ist <strong>\u123fader select\u125</strong> die Auswahltaste des aktuellen
+- Dabei ist <strong>&#123;fader select&#125;</strong> die Auswahltaste des aktuellen
   Speicherplatzes und <strong>n</strong> die Nummer des jeweiligen Cues; Abschnitte
   in <strong>[eckigen Klammern]</strong> sind optional. Die <Keys.HardKey>@</Keys.HardKey>-Taste ist die bei 
   den Zifferntasten.
 
 Tastenfolge                                                  | Ergebnis
 ------------                                                 |---------
-<Keys.HardKey>Copy</Keys.HardKey> \u123fader select\u125 <strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <strong>m</strong> <Keys.HardKey>Enter</Keys.HardKey>          | Kopieren von Cue <strong>n</strong> nach Cue <strong>m</strong> in der gleichen Cueliste
-<Keys.HardKey>Move</Keys.HardKey> \u123fader select\u125 <strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <strong>m</strong> <Keys.HardKey>Enter</Keys.HardKey>          | Verschieben von Cue <strong>n</strong> nach Cue <strong>m</strong> in der gleichen Cueliste
-<Keys.HardKey>Copy</Keys.HardKey> \u123fader select\u125 <strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey>                    | Kopieren von Cue <strong>n</strong> als neuer Cue an das Ende der Cueliste
-<Keys.HardKey>Delete</Keys.HardKey> \u123fader select\u125 <strong>n</strong> <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey>          | Löschen von Cue <strong>n</strong>
-<Keys.HardKey>Copy</Keys.HardKey> \u123fader select\u125 <strong>n</strong> \u123fader select\u125 <strong>m</strong> <Keys.HardKey>Enter</Keys.HardKey> | Kopieren von Cue <strong>n</strong> nach Cue <strong>m</strong> in einer anderen Cueliste
-<Keys.HardKey>Copy</Keys.HardKey> \u123fader select\u125 <strong>n</strong> \u123fader select\u125 <Keys.HardKey>Enter</Keys.HardKey>       | Kopieren von Cue <strong>n</strong> an das Ende einer anderen Cueliste
+<Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; <strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <strong>m</strong> <Keys.HardKey>Enter</Keys.HardKey>          | Kopieren von Cue <strong>n</strong> nach Cue <strong>m</strong> in der gleichen Cueliste
+<Keys.HardKey>Move</Keys.HardKey> &#123;fader select&#125; <strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <strong>m</strong> <Keys.HardKey>Enter</Keys.HardKey>          | Verschieben von Cue <strong>n</strong> nach Cue <strong>m</strong> in der gleichen Cueliste
+<Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; <strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey>                    | Kopieren von Cue <strong>n</strong> als neuer Cue an das Ende der Cueliste
+<Keys.HardKey>Delete</Keys.HardKey> &#123;fader select&#125; <strong>n</strong> <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey>          | Löschen von Cue <strong>n</strong>
+<Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; <strong>n</strong> &#123;fader select&#125; <strong>m</strong> <Keys.HardKey>Enter</Keys.HardKey> | Kopieren von Cue <strong>n</strong> nach Cue <strong>m</strong> in einer anderen Cueliste
+<Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; <strong>n</strong> &#123;fader select&#125; <Keys.HardKey>Enter</Keys.HardKey>       | Kopieren von Cue <strong>n</strong> an das Ende einer anderen Cueliste
 
 -   Anstelle von <Keys.HardKey>Copy</Keys.HardKey> lässt sich <Keys.HardKey>Move</Keys.HardKey> verwenden, um Cues nicht zu 
 	kopieren, sondern zu <strong>verschieben</strong>. Auf älteren Pulten ohne eine 
@@ -96,7 +96,7 @@ Tastenfolge                                                  | Ergebnis
 - 	Zum Kopieren/Verschieben <strong>mehrerer</strong> Cues verwenden Sie <Keys.HardKey>Thru</Keys.HardKey>, <Keys.HardKey>And</Keys.HardKey> 
 	und <Keys.SoftKey>Not</Keys.SoftKey>. Um z.B. die Cues 3, 4 ,5 ,7, 10 als neuen Block ab Cue 20 zu
 	kopieren, drücken Sie \
-    <Keys.HardKey>Copy</Keys.HardKey> \u123fader select\u125 <strong>3</strong> <Keys.HardKey>Thru</Keys.HardKey> <strong>7</strong> <Keys.SoftKey>Not</Keys.SoftKey> <strong>6</strong> <Keys.HardKey>And</Keys.HardKey> <strong>10</strong> <Keys.HardKey>@</Keys.HardKey> <strong>20</strong> <Keys.HardKey>Enter</Keys.HardKey>
+    <Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; <strong>3</strong> <Keys.HardKey>Thru</Keys.HardKey> <strong>7</strong> <Keys.SoftKey>Not</Keys.SoftKey> <strong>6</strong> <Keys.HardKey>And</Keys.HardKey> <strong>10</strong> <Keys.HardKey>@</Keys.HardKey> <strong>20</strong> <Keys.HardKey>Enter</Keys.HardKey>
 
 
 Editieren einer Cueliste mit 'Unfold'

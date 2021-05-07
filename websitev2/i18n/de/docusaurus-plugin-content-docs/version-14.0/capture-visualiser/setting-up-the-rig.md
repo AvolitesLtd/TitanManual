@@ -146,8 +146,8 @@ Klickt man auf den Kontext-Button <Keys.ContextKey>Move Camera</Keys.ContextKey>
 Kamera mit den Rädern bewegen sowie im Menü <strong>Set Coordinates</strong> 
 die Position/Rotation numerisch eingeben.
 
-Klickt man auf den Kontext-Button <Keys.ContextKey>Rotate Camera</Keys.ContextKey> oder \\u123Orbit
-Camera\\u125, so kann man die Kamera mit den Rädern drehen/schwenken, sowie
+Klickt man auf den Kontext-Button <Keys.ContextKey>Rotate Camera</Keys.ContextKey> oder \&#123;Orbit
+Camera\&#125;, so kann man die Kamera mit den Rädern drehen/schwenken, sowie
 die Rotation numerisch eingeben.
 
 Capture Darstellungs-Optionen

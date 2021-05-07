@@ -80,14 +80,14 @@ so wechselt man den Speichermodus <Keys.SoftKey>Record Mode</Keys.SoftKey> auf "
 
 Tasten | Ergebnis
 -------|---------
-<Keys.HardKey>Record</Keys.HardKey> \u123blaue Playbacktaste\u125 \u123blaue Playbacktaste\u125 | speichert den nächsten Cue an das Ende dieser Cueliste
+<Keys.HardKey>Record</Keys.HardKey> &#123;blaue Playbacktaste&#125; &#123;blaue Playbacktaste&#125; | speichert den nächsten Cue an das Ende dieser Cueliste
 <Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Enter</Keys.HardKey> | Speichert Cue <strong>n</strong> (existiert bereits ein solcher Cue, erfolgt eine Rückfrage zum Mergen/Überschreiben)
 <Keys.HardKey>Time</Keys.HardKey> <strong>t</strong> <Keys.HardKey>Enter</Keys.HardKey> | Setzen der Fadezeit im Programmer (wird in nachfolgend gespeicherte Cues übernommen; bereits angelegte Cues  bleiben unbeeinflusst)
 <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Time</Keys.HardKey> <strong>t</strong> <Keys.HardKey>Enter</Keys.HardKey> | Setzt Fadezeit für Cue <strong>n</strong> auf <strong>t</strong> Sekunden
 <Keys.HardKey>Delete</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Löscht Cue <strong>n</strong> (2. <Keys.HardKey>Enter</Keys.HardKey> bestätigt)
 <Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <strong>m</strong> <Keys.HardKey>Enter</Keys.HardKey> | Kopieren von Cue <strong>n</strong> in neuen Cue <strong>m</strong>
 <Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Kopieren von Cue <strong>n</strong> an das Ende der Cueliste
-<Keys.HardKey>View/Open</Keys.HardKey> \u123blaue Playbacktaste\u125 | Azeige der Cues der Liste in tabellarischer Form. Änderungen können direkt durch Anklicken erfolgen.
+<Keys.HardKey>View/Open</Keys.HardKey> &#123;blaue Playbacktaste&#125; | Azeige der Cues der Liste in tabellarischer Form. Änderungen können direkt durch Anklicken erfolgen.
 
 -	Mit <Keys.HardKey>Move</Keys.HardKey> (statt Copy) können Cues verschoben werden.\
 	Verfügt das Pult über keine Move-Taste, drücken Sie <Keys.HardKey>Avo</Keys.HardKey> und <Keys.HardKey>Copy</Keys.HardKey>.
@@ -95,7 +95,7 @@ Tasten | Ergebnis
 - 	Mehrere Cues auf einmal lassen sich mit den Tasten <Keys.HardKey>Thru</Keys.HardKey>, <Keys.HardKey>And</Keys.HardKey> 
 	und <Keys.SoftKey>Not</Keys.SoftKey> auswählen. Um z.B. die Cues 3, 4 ,5 ,7, 10 zu kopieren und 
 	ab Cue 20 einzufügen, drücken Sie \
-	<Keys.HardKey>Copy</Keys.HardKey> \u123blaue Playbacktaste\u125 <strong>3</strong> <Keys.HardKey>Thru</Keys.HardKey> <strong>7</strong> <Keys.SoftKey>Not</Keys.SoftKey> <strong>6</strong> <Keys.HardKey>And</Keys.HardKey> <strong>10</strong> <Keys.HardKey>@</Keys.HardKey> <strong>20</strong> <Keys.HardKey>Enter</Keys.HardKey>.
+	<Keys.HardKey>Copy</Keys.HardKey> &#123;blaue Playbacktaste&#125; <strong>3</strong> <Keys.HardKey>Thru</Keys.HardKey> <strong>7</strong> <Keys.SoftKey>Not</Keys.SoftKey> <strong>6</strong> <Keys.HardKey>And</Keys.HardKey> <strong>10</strong> <Keys.HardKey>@</Keys.HardKey> <strong>20</strong> <Keys.HardKey>Enter</Keys.HardKey>.
 
 -	Zum Erstellen eines Block-Cues (Änderungen werden nicht getrackt) öffnet
 	man die Cueliste wie beschrieben, klickt in der Spalte 'Tracking' auf
@@ -117,7 +117,7 @@ Weitere Möglichkeiten zur Steuerung (Auswahl):
 
 Tasten | Ergebnis
 -------|---------
-<Keys.HardKey>Cue</Keys.HardKey> <strong>\u123blaue Playbacktaste\u125</strong> | Verbinden einer anderen Cueliste
+<Keys.HardKey>Cue</Keys.HardKey> <strong>&#123;blaue Playbacktaste&#125;</strong> | Verbinden einer anderen Cueliste
 <Keys.HardKey>Go</Keys.HardKey> | Nächster Cue wird mit den programmierten Zeiten eingeblendet
 <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Go</Keys.HardKey> | Cue n wird mit den programmierten Zeiten eingeblendet
 <strong>t</strong> <Keys.HardKey>Go</Keys.HardKey> | Nächster Cue wird in <strong>t</strong> Sekunden eingeblendet

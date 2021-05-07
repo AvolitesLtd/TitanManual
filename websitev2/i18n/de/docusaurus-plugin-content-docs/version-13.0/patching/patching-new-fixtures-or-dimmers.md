@@ -70,7 +70,7 @@ so leuchtet die jeweilige LED schwach auf, um die Belegung anzuzeigen.
 
 -   Beim Einstellen der DMX-Adresse mit <Keys.SoftKey>Address=xx</Keys.SoftKey> kann man ebenso
     die DMX-Linie (Universum) angeben: geben Sie dazu
-    \u123Linie\u125.\u123DMX-Adresse\u125 ein, etwa 2.56 für Kanal 56 auf Linie 2.
+    &#123;Linie&#125;.&#123;DMX-Adresse&#125; ein, etwa 2.56 für Kanal 56 auf Linie 2.
 
 -   Zur Anzeige der gepatchten DMX-Kanäle drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, 
 	dann <Keys.HardKey>Patch</Keys.HardKey>, um die [Patch-Übersicht (Patch View)](./changing-the-patch.md#patch-view) zu öffnen.
@@ -138,7 +138,7 @@ Funktionstasten aus.
 6. <Keys.SoftKey>Address = </Keys.SoftKey> zeigt die erste freie DMX-Adresse. Ändern Sie diese
 ggf. mit dem Ziffernblock. Betätigen Sie <Keys.SoftKey>DMX line=xx</Keys.SoftKey>, um auf eine
 andere DMX-Linie zu wechseln, oder geben Sie die Adresse als
-\u123Linie\u125.\u123Adresse\u125 ein (z.B. 2.45 für Kanal 45 auf Linie 2).
+&#123;Linie&#125;.&#123;Adresse&#125; ein (z.B. 2.45 für Kanal 45 auf Linie 2).
 ![Address Input](/docs/images/Address-Input.png)
 
 7. Um das Gerät zu patchen, betätigen Sie einen der Buttons im
@@ -194,7 +194,7 @@ patchen. Die DMX-Adresse wird dabei automatisch hochgezählt.
     <Keys.HardKey>Patch</Keys.HardKey>. Um Details eines einzelnen Gerätes anzuzeigen, wählen Sie 
 	<Keys.HardKey>View / Open</Keys.HardKey> und die jeweilige Geräte-Schaltfläche. Dabei
     wird auf den Schaltflächen die DMX-Adresse (im Format
-    \u123DMX-Linie\u125.\u123Adresse\u125) angezeigt - das lässt sich über das
+    &#123;DMX-Linie&#125;.&#123;Adresse&#125;) angezeigt - das lässt sich über das
     Kontextmenü abschalten.
 
 -   Wird beim Patchen die Kapazität einer DMX-Linie überschritten, setzt

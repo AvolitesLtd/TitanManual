@@ -145,8 +145,8 @@ unterschiedlichen Bildschirmgrößen die Anzahl der Buttons pro
 Zeile/Spalte - und damit ggf. die ganze Anordnung - ändert. Um dies zu
 verhindern (z.B. wenn im Geräte-Fenster die Anordnung an den
 tatsächlichen Aufbau angepasst wurde), kann man alternativ in den
-Fenster-Optionen (dazu auf das <Keys.ContextKey>Zahnrad</Keys.ContextKey> klicken) mit \\u123Button Size Set Rows
-& Columns\\u125 die gewünschte Anzahl der angezeigten Zeilen <Keys.ContextKey>Columns</Keys.ContextKey> 
+Fenster-Optionen (dazu auf das <Keys.ContextKey>Zahnrad</Keys.ContextKey> klicken) mit \&#123;Button Size Set Rows
+& Columns\&#125; die gewünschte Anzahl der angezeigten Zeilen <Keys.ContextKey>Columns</Keys.ContextKey> 
 und Spalten <Keys.ContextKey>Rows</Keys.ContextKey> fest vorgeben. Damit wird immer die gewünschte 
 Anzahl an Schaltflächen angezeigt, wobei sich deren Größe entsprechend ändert.
 
@@ -244,8 +244,8 @@ das kleine <Keys.ContextKey>Zahnrad</Keys.ContextKey> und platzieren Sie damit d
 <Keys.ContextKey>Positions</Keys.ContextKey>. Bewegen Sie dieses Fenster mit <Keys.HardKey>Size/Position</Keys.HardKey> an die
 gewünschte Stelle.
 
-5.  Aktivieren Sie auf die gleiche Weise die Fenster \\u123Attribute
-Editor\\u125 und <Keys.ContextKey>Effects</Keys.ContextKey>.
+5.  Aktivieren Sie auf die gleiche Weise die Fenster \&#123;Attribute
+Editor\&#125; und <Keys.ContextKey>Effects</Keys.ContextKey>.
 
 6.  Drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, dann <Keys.SoftKey>Record Workspace</Keys.SoftKey>, oder
 <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>View / Open</Keys.HardKey>. Geben Sie einen Namen für diese Arbeitsumgebung
@@ -366,8 +366,8 @@ Speicherplätze/Tasten, die zwar auf einem Pearl Expert, nicht aber auf
 anderen Pulten vorhanden sind. Damit lassen sich also auch auf dem
 Expert erstellte Shows laden.
 
-Ist eins dieser Fenster geöffnet, gibt es die Schaltfläche \\u123Move to
-workspace\\u125 im Kontextbereich. Damit lassen sich die betreffenden
+Ist eins dieser Fenster geöffnet, gibt es die Schaltfläche \&#123;Move to
+workspace\&#125; im Kontextbereich. Damit lassen sich die betreffenden
 Schaltflächen in die richtigen Arbeitsfenster der anderen Titan-Pulte
 verschieben. Diesen Vorgang muss man zweimal ausführen: einmal mit
 ausgewähltem Fenster "Fixtures and Playbacks", und einmal mit "Palettes

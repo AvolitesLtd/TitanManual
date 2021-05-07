@@ -15,7 +15,7 @@ weggelassen.
 
 <Keys.SoftKey>  </Keys.SoftKey> bedeutet eine Schaltfläche odr Menütaste.
 
-\u123 \u125 ist die Auswahl eines Speicherplatzes, z.B. \u123Cue\u125 ist die blaue Auswahltaste
+&#123; &#125; ist die Auswahl eines Speicherplatzes, z.B. &#123;Cue&#125; ist die blaue Auswahltaste
 eines Playbacks.
 
 Nummern/Zahlen werden mit den Zifferntasten eingegeben.
@@ -76,7 +76,7 @@ Record -- Speichern
 -------------------
 
 <Keys.HardKey>Record</Keys.HardKey> 
-\u123Cueliste\u125 \u123Cueliste\u125 Anhängen an das Ende der Cueliste
+&#123;Cueliste&#125; &#123;Cueliste&#125; Anhängen an das Ende der Cueliste
 
 <strong><Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey></strong>\
 Mergen des Programmers in den gerade aktiven Cue der verbundenen Cueliste.
@@ -97,32 +97,32 @@ Copy, Move -- Kopieren, Verschieben in Cuelisten
 ------------------------------------------------
 
 
-<strong><Keys.HardKey>Copy</Keys.HardKey> \u123Cueliste\u125 n <Keys.HardKey>Enter</Keys.HardKey></strong>\
+<strong><Keys.HardKey>Copy</Keys.HardKey> &#123;Cueliste&#125; n <Keys.HardKey>Enter</Keys.HardKey></strong>\
 Cue n an das Ende der Cueliste kopieren.
 
-<strong><Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cueliste\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey> n</strong>\
+<strong><Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cueliste&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey> n</strong>\
 Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
-\u123Cueliste\u125 und Einfügen hinter Cue n.
+&#123;Cueliste&#125; und Einfügen hinter Cue n.
 
-<strong><Copy\>/<Keys.HardKey>Move</Keys.HardKey> \u123Cueliste\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>Enter</Keys.HardKey> \u123target playback\u125 n <Keys.HardKey>Enter</Keys.HardKey></strong>\
+<strong><Copy\>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cueliste&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>Enter</Keys.HardKey> &#123;target playback&#125; n <Keys.HardKey>Enter</Keys.HardKey></strong>\
 Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
-\u123Cueliste\u125 und Einfügen am Ende der Cueliste.
+&#123;Cueliste&#125; und Einfügen am Ende der Cueliste.
 
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cueliste\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cueliste&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
 <Keys.HardKey>@</Keys.HardKey>**\
 
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cueliste\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cueliste&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
 <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey>**\
 Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
-\u123Cueliste\u125 und Einfügen am Ende der Cueliste.
+&#123;Cueliste&#125; und Einfügen am Ende der Cueliste.
 
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cueliste\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
-\u123target playback\u125 n**\
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cueliste\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
-<Keys.HardKey>Enter</Keys.HardKey> \u123target playback\u125 n <Keys.HardKey>Enter</Keys.HardKey>**\
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cueliste&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
+&#123;target playback&#125; n**\
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cueliste&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
+<Keys.HardKey>Enter</Keys.HardKey> &#123;target playback&#125; n <Keys.HardKey>Enter</Keys.HardKey>**\
 Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
-\u123Cueliste\u125 und Einfügen nach Cue n der Cueliste auf \u123target
-playback\u125.
+&#123;Cueliste&#125; und Einfügen nach Cue n der Cueliste auf &#123;target
+playback&#125;.
 
 Delete -- Löschen
 -----------------
