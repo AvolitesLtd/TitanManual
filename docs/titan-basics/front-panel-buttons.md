@@ -15,7 +15,11 @@ Select and Flash buttons
 
 Each fader handle on the console has buttons associated with it. 
 
+<br/>
+
 <Keys.Annotation>A</Keys.Annotation> <strong>Select</strong> button
+
+<br/>
 
 <Keys.Annotation>B</Keys.Annotation> <strong>Flash</strong> button
 

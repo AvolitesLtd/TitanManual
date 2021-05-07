@@ -18,7 +18,7 @@ class avoParse {
       staticDir: path.resolve(__dirname,`../websitev2/static`),
       staticImagesDir: path.resolve(__dirname,'../websitev2/static/docs/images'),
       buildDir: path.resolve(__dirname,'../websitev2/build'),
-      transDocsDir: path.resolve(__dirname,'../websitev2/translated_docs'),
+      transDocsDir: path.resolve(__dirname,'../websitev2/i18n'),
       i18nDir: path.resolve(__dirname,'../websitev2/i18n'),
     }
 

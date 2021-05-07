@@ -15,15 +15,27 @@ surface. It allows you to expand the number of DMX lines in a show
 beyond the 16 which a console can produce by offloading the processing
 into a separate unit.
 
+<br/>
+
 <Keys.Annotation>A</Keys.Annotation> MIDI and SMPTE connections
+
+<br/>
 
 <Keys.Annotation>B</Keys.Annotation> Network connections.
 
+<br/>
+
 <Keys.Annotation>C</Keys.Annotation> Eight DMX outputs on XLR
+
+<br/>
 
 <Keys.Annotation>D</Keys.Annotation> Integral touch screen for local setup and control
 
+<br/>
+
 <Keys.Annotation>E</Keys.Annotation> Power switch
+
+<br/>
 
 <Keys.Annotation>F</Keys.Annotation> USB for keyboard, mouse or memory stick.
 

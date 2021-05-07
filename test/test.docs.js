@@ -19,8 +19,8 @@ describe("Docs", () => {
       let sidebarFile = JSON.parse(fs.readFileSync(version.sidebar))
 
       for(let section in sidebarFile[version.sidebarObj]) {
-        sidebarFile[version.sidebarObj][section].forEach(filename => {
-          filename = filename.replace(version.sidebarPrefix,'')
+        sidebarFile[version.sidebarObj][section].items.forEach(filename => {
+          filename = filename.id.replace(version.sidebarPrefix,'')
           let filepath = path.join(version.dir,filename + '.md')
           
           it(`${version.number} - ${section} - ${filename}`, () => {
