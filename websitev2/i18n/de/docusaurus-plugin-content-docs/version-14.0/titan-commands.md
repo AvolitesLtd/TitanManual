@@ -104,7 +104,7 @@ Cue n an das Ende der Cueliste kopieren.
 Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
 &#123;Cueliste&#125; und Einfügen hinter Cue n.
 
-<strong><Copy\>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cueliste&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>Enter</Keys.HardKey> &#123;target playback&#125; n <Keys.HardKey>Enter</Keys.HardKey></strong>\
+<strong><Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cueliste&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>Enter</Keys.HardKey> &#123;target playback&#125; n <Keys.HardKey>Enter</Keys.HardKey></strong>\
 Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
 &#123;Cueliste&#125; und Einfügen am Ende der Cueliste.
 
