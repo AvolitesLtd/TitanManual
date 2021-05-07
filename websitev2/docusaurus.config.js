@@ -99,29 +99,10 @@ module.exports={
           position: 'right',
         },
         {
-          "label": "Version",
-          "to": "docs",
-          "position": "right",
-          "items": [
-            {
-              "label": "14.0",
-              "to": "docs/",
-              "activeBaseRegex": "docs/(?!12.0|13.0|14.0|next)"
-            },
-            {
-              "label": "13.0",
-              "to": "docs/13.0/"
-            },
-            {
-              "label": "12.0",
-              "to": "docs/12.0/"
-            },
-            {
-              "label": "v15.0 Beta",
-              "to": "docs/next/",
-              "activeBaseRegex": "docs/next/(?!support|team|resources)"
-            }
-          ]
+          type: 'docsVersionDropdown',
+          position: 'right',
+          dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+          docsPluginId: 'default',
         }
       ]
     },

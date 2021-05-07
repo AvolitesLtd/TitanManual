@@ -53,3 +53,7 @@ html[data-theme='light'] .navbar {
     color: white;
   }
 }
+
+.navbar__item.dropdown {
+  padding: 0 5px;
+}
