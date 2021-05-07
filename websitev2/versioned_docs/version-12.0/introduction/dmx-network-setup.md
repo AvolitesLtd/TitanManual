@@ -21,7 +21,7 @@ Settings</Keys.SoftKey>.
 
 Select a Node on the left (where the DMX is going to), click the blue
 arrow. On the right, select the DMX line it will be fed by. The
-'***i***' buttons set properties for Nodes/Lines. See [DMX Output Mapping](../system-settings/dmx-output-mapping.md).
+'<strong><em>i</em></strong>' buttons set properties for Nodes/Lines. See [DMX Output Mapping](../system-settings/dmx-output-mapping.md).
 
 To change the IP address of the console, press <Keys.SoftKey>[Network Settings](../networking.md)</Keys.SoftKey> in
 System mode.

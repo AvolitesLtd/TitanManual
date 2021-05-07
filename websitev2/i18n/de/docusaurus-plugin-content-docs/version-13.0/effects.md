@@ -7,7 +7,7 @@ original_id: effects
 
 import Keys from '@site/src/components/key.ts';
 
-Der **Shape-Generator** *(auf Pulten anderer Hersteller wird das oft als
+Der <strong>Shape-Generator</strong> *(auf Pulten anderer Hersteller wird das oft als
 Effekt-Generator bezeichnet)* gestattet es, schnell beeindruckende Shows
 mit vielen Bewegungen und Wechseln bei minimalem Programmieraufwand
 erstellen. Diese lassen sich während der Wiedergabe über verschiedene 

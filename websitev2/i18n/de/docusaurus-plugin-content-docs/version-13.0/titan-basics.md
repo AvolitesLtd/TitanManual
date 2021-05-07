@@ -39,7 +39,7 @@ eine Warnung angezeigt, sowie der aktuelle Stand der Show gespeichert.
 Unmittelbar vor dem Herunterfahren des Pultes wird diese Anzeige
     schließlich rot.
 
-**Nur beim Arena:** Der Netzwerk-Switch im Arena verfügt über eine
+<strong>Nur beim Arena:</strong> Der Netzwerk-Switch im Arena verfügt über eine
 eigene USV, so dass das Pult auch abgeschaltet werden kann, ohne den
 Betrieb des Switches zu beeinträchtigen. Nach kompletter Trennung vom
 Netz läuft der Switch noch für etwa 5 Minuten weiter. Dies ist wichtig,
@@ -53,12 +53,12 @@ Die Pulte arbeiten mit Windows als Betriebssystem, daher sollte man dies
 jeweils ordnungsgemäß herunterfahren, anstatt einfach nur die
 Netzspannung abzuschalten.
 
-Das **Starten** erfolgt durch kurzes Betätigen (und wieder Loslassen)
+Das <strong>Starten</strong> erfolgt durch kurzes Betätigen (und wieder Loslassen)
 des Hauptschalters rechts neben dem Touchscreen. Das Display sowie der
 optionale externe Bildschirm zeigen den Startprozess. Das Arena benötigt
 etwa 1:30 min für das Starten.
 
-Das **Ausschalten** des Pultes erfolgt ebenso durch kurzes Betätigen
+Das <strong>Ausschalten</strong> des Pultes erfolgt ebenso durch kurzes Betätigen
 (und wieder Loslassen) des Hauptschalters. Daraufhin erfolgt ein
 ordnungsgemäßes Herunterfahren. Bitte mit dem Trennen vom Netz warten,
 bis die Anzeige 'Power' erloschen ist (etwa 30 sec.)
@@ -68,17 +68,17 @@ bis die Anzeige 'Power' erloschen ist (etwa 30 sec.)
 Herunterfahren erzwingen
 ------------------------
 
-Zum **erzwungenen Ausschalten** - wenn das normale Ausschalten nicht
+Zum <strong>erzwungenen Ausschalten</strong> - wenn das normale Ausschalten nicht
 funktioniert - ist der Hauptschalter für 5 Sekunden gedrückt zu halten.
 Dabei gehen sämtliche Änderungen seit dem letzten Speichern verloren.
 
-**Pulte mit USV:** Aufgrund der integrierten USV kann man zum harten
+<strong>Pulte mit USV:</strong> Aufgrund der integrierten USV kann man zum harten
 Resetten nicht einfach den Netzstecker ziehen. Drücken Sie dazu bei
 abgezogenem Netzstecker den Schalter "Battery Disconnect", um auch die
 USV zu unterbrechen (beim Arena: Rückseite; beim Tiger Touch 2/Sapphire
 Touch: unter der linken Seitenwange).
 
-**Achtung beim Arena**: dabei wird auch der integrierte Switch
+<strong>Achtung beim Arena</strong>: dabei wird auch der integrierte Switch
 abgeschaltet. Das ist besonders wichtig, wenn über diesen Switch ein
 Backup-Pult angeschlossen ist! Wird das Arena normal heruntergefahren,
 so bleibt der Switch aufgrund seiner USV noch etwa 5 Minuten
@@ -99,10 +99,10 @@ nicht vorhanden, klicken Sie mit der Maus auf die entsprechenden
 Buttons.
 
 Für den Betrieb von Titan Mobile, Titan One und dem Titan Simulator gibt
-es ein einheitliches Software-Paket: die **Avolites Titan PC-Suite**.
+es ein einheitliches Software-Paket: die <strong>Avolites Titan PC-Suite</strong>.
 Diese enthält alle genannten Programme.
 
-**Titan Mobile:** Sobald die Software installiert ist, können Sie das
+<strong>Titan Mobile:</strong> Sobald die Software installiert ist, können Sie das
 Titan Mobile per USB-Kabel mit Ihrem PC verbinden (sollte das Pult über
 zwei USB-Buchsen verfügen, so ist nur die obere zu verwenden). Der PC
 erkennt daraufhin neue Hardware; bei den entsprechenden Rückfragen
@@ -124,13 +124,13 @@ AvoKey fest gespeichert und bezieht sich auf das jeweilige Titan Mobile.
 Dieses kann also - mit dem entsprechenden AvoKey - ohne weitere
 Lizenzierung auch an anderen Computern betrieben werden.
 
-**T1/T2:** Diese bieten volle Titan-Funktionalität, sind aber auf ein 
+<strong>T1/T2:</strong> Diese bieten volle Titan-Funktionalität, sind aber auf ein 
 bzw. zwei Universen beschränkt (der T1 kann zudem nicht per MIDI und 
 WebAPI gesteuert werden). Zum Betrieb ist die Software Titan Go zu 
 starten. Auch der T1/T2 ist beim ersten Start zu lizenzieren und kann 
 danach mit jedem Computer betrieben werden. 
 
-**Titan Simulator:** auch der Titan Simulator benötigt einen AvoKey (den
+<strong>Titan Simulator:</strong> auch der Titan Simulator benötigt einen AvoKey (den
 Editor AvoKey) und muss einmalig lizenziert werden.
 
 Titan Healthcheck -- die Eigendiagnose

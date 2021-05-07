@@ -67,7 +67,7 @@ wachsenden Anzahl von Herstellern anerkannt und in immer mehr Produkte
 integriert. Viele Geräte (etwa Dimmer oder Bewegungsscheinwerfer) können
 direkt per Art-Net verbunden werden, so dass kein separater Konverter
 erforderlich ist. Benötigt man hingegen 'normales' DMX, so kann dies
-über spezielle Art-Net-DMX-Konverter (oft als **Node** bezeichnet)
+über spezielle Art-Net-DMX-Konverter (oft als <strong>Node</strong> bezeichnet)
 realisiert werden.
 
 Im nachstehenden Schema ist exemplarisch ein Art-Net-fähiges Pult (wie

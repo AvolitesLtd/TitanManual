@@ -13,14 +13,14 @@ Anzeigen und Ändern einer Palette
 Die in einer Palette gespeicherten Werte lassen sich im Fenster **Palette
 View** anzeigen. Hier werden alle Geräte aufgelistet, für die die Palette
 Werte enthält. Mit einer Kontext-Schaltfläche lassen sich gespeicherte
-**Zeiten (Times)** anzeigen.
+<strong>Zeiten (Times)</strong> anzeigen.
 
 Drücken Sie dazu <Keys.HardKey>View / Open</Keys.HardKey> und die anzuzeigende
-Paletten-Schaltfläche. Daraufhin öffnet sich das Fenster **Palette View**.
+Paletten-Schaltfläche. Daraufhin öffnet sich das Fenster <strong>Palette View</strong>.
 
 ![Palette View window](/docs/images/Palette-View-window.png)
 
-Die angezeigten Attribute **All/IPCGBES** und Gerätetypen lassen sich 
+Die angezeigten Attribute <strong>All/IPCGBES</strong> und Gerätetypen lassen sich 
 mit den Schaltflächen links auswählen/filtern.
 
 Um einen Wert zu ändern, klicken Sie im Fenster darauf. Die Menütasten
@@ -43,7 +43,7 @@ schaltet den Wert ein oder aus).
 -   Enthält die Palette Shapes, so öffnet die Schaltfläche \[View
     Shapes\] die Shape-Anzeige mit allen enthaltenen Shapes und ihren
     Parametern. Klickt man dort wiederum auf <Keys.SoftKey>View</Keys.SoftKey> ('Anzeigen'), so
-    öffnet sich die Shape-Geräteansicht **Shape Fixture View**, in der 
+    öffnet sich die Shape-Geräteansicht <strong>Shape Fixture View</strong>, in der 
 	man die Parameter für einzelne Geräte ändern sowie mit **Add 
 	Fixtures** weitere Geräte hinzufügen kann.
 
@@ -66,8 +66,8 @@ Bezeichnung und die Nummer der Palette ändern.
 
 Ebenso können Sie eine Palette auch für nur einzelne oder wenige Geräte
 aufrufen, modifizieren und die geänderten Werte wieder in die bestehende
-Palette speichern. Das Pult zeigt dabei Optionen zum Ersetzen (**Replace**),
-Kombinieren (**Merge**) oder **Quick Merge** der Paletten an. Wird <Keys.SoftKey>Merge</Keys.SoftKey>
+Palette speichern. Das Pult zeigt dabei Optionen zum Ersetzen (<strong>Replace</strong>),
+Kombinieren (<strong>Merge</strong>) oder <strong>Quick Merge</strong> der Paletten an. Wird <Keys.SoftKey>Merge</Keys.SoftKey>
 gewählt, so bleiben nicht veränderte Werte unberührt, während geänderte
 Werte zur Palette hinzugefügt werden. Quick Merge dagegen aktualisiert
 nur die Attribute, die in der originalen Palette bereits enthalten

@@ -8,7 +8,7 @@ original_id: user-settings
 import Keys from '@site/src/components/key.ts';
 
 The User Settings menu may be accessed from the <Keys.SoftKey>User Settings</Keys.SoftKey> softkey
-on the **System** menu. You can also get it directly from any other
+on the <strong>System</strong> menu. You can also get it directly from any other
 menu by holding down the <Keys.HardKey>Avo</Keys.HardKey> button and pressing
 <Keys.SoftKey>User Settings</Keys.SoftKey>.
 
@@ -71,7 +71,7 @@ all screens.
 Sets a picture to be displayed when the
 console is locked.
 
--  These options can also be set from **System** menu, in the Display Setup option.
+-  These options can also be set from <strong>System</strong> menu, in the Display Setup option.
 
 ---
 
@@ -94,8 +94,12 @@ become unassigned. Unassigned items can be reused from the Show Library.
 Sets the console action when you try to save to a
 handle or playback which is already used.
 
-<Keys.SoftKey>Prompt for Merge or Replace</Keys.SoftKey> - the console will always prompt\
-<Keys.SoftKey>Always Merge</Keys.SoftKey> - the console will never prompt\
+<Keys.SoftKey>Prompt for Merge or Replace</Keys.SoftKey> - the console will always prompt
+
+
+<Keys.SoftKey>Always Merge</Keys.SoftKey> - the console will never prompt
+
+
 <Keys.SoftKey>Palettes Always Merge</Keys.SoftKey> - the console will prompt unless you are
 saving a palette
 
@@ -108,7 +112,9 @@ Allows you to turn off all coloured halos on buttons.
 Sets how coloured halos are displayed on fixture
 buttons.
 
-<Keys.SoftKey>Custom</Keys.SoftKey> - Only user defined halo colours are shown.\
+<Keys.SoftKey>Custom</Keys.SoftKey> - Only user defined halo colours are shown.
+
+
 <Keys.SoftKey>Auto</Keys.SoftKey> - Fixture buttons are coloured using automatic fixture colours
 
 ### Handle Buttons
@@ -126,12 +132,18 @@ Can be overridden in any window.
 ### Playback Paging
 
 <Keys.SoftKey>Playback paging</Keys.SoftKey> sets how the playback faders
-behave when you change page with a playback active.\
-<Keys.SoftKey>Normal</Keys.SoftKey> - sets the normal mode for the console type.\
+behave when you change page with a playback active.
+
+
+<Keys.SoftKey>Normal</Keys.SoftKey> - sets the normal mode for the console type.
+
+
 <Keys.SoftKey>Always Hold</Keys.SoftKey> - sets the standard behaviour for non-motorised faders
 where the fader keeps control of the active playback when the page is
 changed and has to be lowered to zero before a playback on the new page
-can be fired.\
+can be fired.
+
+
 <Keys.SoftKey>Never Hold</Keys.SoftKey> - the standard behaviour for motorised faders where the
 fader always relates to the current page. To regain control of a
 playback from another page you have to go back to that page and level
@@ -160,7 +172,9 @@ Sets the console action when you patch
 a fixture which overwrites the DMX channels of another fixture. This
 causes the overwritten fixture to be "parked".
 
-<Keys.SoftKey>Always</Keys.SoftKey> - console will warn you.\
+<Keys.SoftKey>Always</Keys.SoftKey> - console will warn you.
+
+
 <Keys.SoftKey>Never</Keys.SoftKey> - console will park the fixture without warning you.
 
 ### DMX Address
@@ -174,10 +188,16 @@ groups for fixtures when you patch.
 ### Preset Palettes
 Sets whether preset palettes should be created when
 fixtures are patched. You can also turn this on when patching using the
-<Keys.SoftKey>Create Preset Palettes</Keys.SoftKey> softkey.\
-<Keys.SoftKey>Do Not Create</Keys.SoftKey> -- no palettes will be created.\
+<Keys.SoftKey>Create Preset Palettes</Keys.SoftKey> softkey.
+
+
+<Keys.SoftKey>Do Not Create</Keys.SoftKey> -- no palettes will be created.
+
+
 <Keys.SoftKey>Create On Workspaces</Keys.SoftKey> -- palettes will be created in workspace
-windows.\
+windows.
+
+
 <Keys.SoftKey>Create On Presets</Keys.SoftKey> -- palettes will be created on preset buttons.
 
 ---
@@ -194,7 +214,9 @@ speed of a connected chase.
 
 <Keys.SoftKey>Connected View Sets Temporary Chase
 Speed</Keys.SoftKey> means that the console will not save the modified speed, and the
-next time the chase is fired it will go back to its programmed speed.\
+next time the chase is fired it will go back to its programmed speed.
+
+
 <Keys.SoftKey>Connected View Sets Chase Speed</Keys.SoftKey> means that the console will modify
 the saved speed of the chase.
 
@@ -221,15 +243,21 @@ Sets how you enter channel levels when using numeric
 entry of levels.
 
 <Keys.SoftKey>Channel Levels Set In Tens</Keys.SoftKey> - enter one digit for the channel level,
-*i.e. 5 = 50%*.\
+*i.e. 5 = 50%*.
+
+
 <Keys.SoftKey>Channel Levels Set in Units</Keys.SoftKey> - enter two digits, *i.e. 50 = 50%*.
 
 ### Number Style
 Sets how channel values are displayed in Cue View and
 Palette View.
 
-<Keys.SoftKey>Precise</Keys.SoftKey> - will include all decimal places.\
-<Keys.SoftKey>Rounded</Keys.SoftKey> - round to nearest whole number.\
+<Keys.SoftKey>Precise</Keys.SoftKey> - will include all decimal places.
+
+
+<Keys.SoftKey>Rounded</Keys.SoftKey> - round to nearest whole number.
+
+
 <Keys.SoftKey>Dynamic</Keys.SoftKey> - show decimals where appropriate, remove trailing zeros.
 
 ---
@@ -340,8 +368,12 @@ If *enabled*, only fixtures which are currently selected will be cleared from th
 
 
 ### Swop Shapes
-Sets how shapes react to Swop mode.\
-<Keys.SoftKey>All Shapes</Keys.SoftKey> -- All running shapes from other playbacks are stopped\
+Sets how shapes react to Swop mode.
+
+
+<Keys.SoftKey>All Shapes</Keys.SoftKey> -- All running shapes from other playbacks are stopped
+
+
 <Keys.SoftKey>Intensity Shapes</Keys.SoftKey> -- Only intensity shapes from other playbacks stop
 
 ### Shape Behaviour
@@ -355,11 +387,15 @@ the shape - see [Saving a key frame shape to a cue](../effects/key-frame-shapes.
 
 ### Fixture LEDs
 Sets how the button LED behaves when a fixture is
-patched to a fader handle.\
-<Keys.SoftKey>Show Occupation</Keys.SoftKey> -- the LED shows handle empty and selection state\
+patched to a fader handle.
+
+
+<Keys.SoftKey>Show Occupation</Keys.SoftKey> -- the LED shows handle empty and selection state
+
+
 <Keys.SoftKey>Mimic Intensity</Keys.SoftKey> -- the LED shows fixture intensity level.
 
-> **The options below only function when <Keys.SoftKey>Show Occupation</Keys.SoftKey> is selected**
+> <strong>The options below only function when <Keys.SoftKey>Show Occupation</Keys.SoftKey> is selected</strong>
 
 ### LED Empty Level
 Sets level for unpatched handle.
@@ -404,7 +440,7 @@ ignore MIDI timecode for after a glitch has been detected.
 ### Wheel Sensitivity
 The sensitivity of the encoder wheels, and the
 pan/tilt threshold settings can be adjusted using this option. Wheel
-sensitivity is adjusted using **Wheel A** and the current level is shown on
+sensitivity is adjusted using <strong>Wheel A</strong> and the current level is shown on
 the display.
 
 ### Pan & Tilt Threshold

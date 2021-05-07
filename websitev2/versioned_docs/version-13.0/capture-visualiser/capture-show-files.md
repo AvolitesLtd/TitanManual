@@ -28,7 +28,7 @@ Importing Shows
 Shows can be imported from the full version of Capture, this can be
 useful to import existing stage structures or rigging designs.
 
-> The internal Capture engine uses the Capture 2018 version *(prior to Titan v12, Capture Atlas was used)*. You will not be able to import files from newer versions of Capture - use the **"Export for Capture 2018"** function in the File menu of the full version of Capture to save the file as a version which can then be imported.
+> The internal Capture engine uses the Capture 2018 version *(prior to Titan v12, Capture Atlas was used)*. You will not be able to import files from newer versions of Capture - use the <strong>"Export for Capture 2018"</strong> function in the File menu of the full version of Capture to save the file as a version which can then be imported.
 
 You can import fixtures from full Capture but you need to ensure that
 fixtures are correctly patched in Capture to match the patch on the

@@ -42,7 +42,7 @@ you have created in Ai will then become available as Surfaces in Titan.
 Synergy Setup
 -------------
 
-In Titan, open the **Synergy Settings** window using the Workspace button
+In Titan, open the <strong>Synergy Settings</strong> window using the Workspace button
 provided on new shows, or use the option in the Open Workspace Window
 menu.
 
@@ -61,7 +61,7 @@ Surfaces will control the different outputs of the Ai server. At the
 bottom are Surfaces which are already configured on Ai but are not yet
 linked to Titan, these are called unmatched surfaces.
 
-Click on the **+** at the bottom and select Surface from the pop up to add a
+Click on the <strong>+</strong> at the bottom and select Surface from the pop up to add a
 new surface. This will appear at the top; by default it has two layers
 but you can change this later.
 
@@ -88,7 +88,7 @@ leave it turned off, as it causes a lot of network traffic.
 Once you have created a surface in Titan, you need to match it to the Ai
 surface. Click on the Link button on the unmatched surface at the
 bottom, then click on the Screen 1 surface at the top (or you can click
-**"Link to new Surface"** to automatically create a new surface and link to
+<strong>"Link to new Surface"</strong> to automatically create a new surface and link to
 it).
 
 ![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-linking-a-screen.png)
@@ -103,15 +103,15 @@ output to connect on the left, for example if you want to show the same
 media on several screens.
 
 Once a layer is linked, if you open the layer properties in Ai the
-**"Synergy Control"** box will show *"Enabled"*. Now you cannot control the
+<strong>"Synergy Control"</strong> box will show *"Enabled"*. Now you cannot control the
 screen using Ai, only from the Titan console.
 
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)
 
-To add a layer, click on the surface, then the **+** button at the bottom
-and select **Layer** from the popup.
+To add a layer, click on the surface, then the <strong>+</strong> button at the bottom
+and select <strong>Layer</strong> from the popup.
 
-To delete a layer or surface, select the item then click the **Trash Can**
+To delete a layer or surface, select the item then click the <strong>Trash Can</strong>
 icon at the bottom, or press <Keys.HardKey>Delete</Keys.HardKey> then click the layer/surface. If
 linked to Ai, this will also delete the layer/surface in Ai.
 

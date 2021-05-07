@@ -16,7 +16,7 @@ Connecting Titan to the Pioneer System
 
 You need to get the console and the Pioneer equipment connected to the same network. The Pioneer equipment has some limitations with its network IP address - it either needs to be assigned an address using DHCP or it uses an automatic address in the range 169.254.\*.\* - which means that if you are already using networking to control the lights (Art-Net or sACN) things can get a bit complicated as many lighting products cannot use that address range.
 
-**Pioneer Bridge running on the console**
+<strong>Pioneer Bridge running on the console</strong>
 
 If you aren’t using networking, or your console has two network interfaces, or you can adjust your lighting to a suitable address range, then you can run the Pioneer Bridge software on the console itself. If your console includes an Ethernet switch, you can connect the “Extension” Ethernet socket on the Pioneer equipment directly to the console, otherwise you need to go through an external switch.
 
@@ -33,7 +33,7 @@ Look at the Interface tab of the bridge software to see what IP address is being
 - Once you have everything connected up and have got all the IP addresses right, the bridge software should show connections for both the Titan console and the DJ mixer.
 - Some Art-Net / sACN equipment can be configured to run on the 169.254.\*.\* address range, in which case you can run everything on the same network.
 
-**Pioneer Bridge running on separate computer**
+<strong>Pioneer Bridge running on separate computer</strong>
 
 If you need to keep the Pioneer network separate to the lighting network and your console only has a single network port, or if you just prefer to have the bridge separate from the console, then you can download the bridge software from the Pioneer website and run it on a separate computer.
 If you need two separate address ranges then your computer will need two network interfaces.

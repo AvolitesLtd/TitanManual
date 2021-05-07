@@ -18,7 +18,7 @@ button is the one next to the numeric keypad.
 
 Dimmers/Fixtures have a User Number *(which is equivalent to the Channel
 Number on other consoles)*, shown in the top left corner of the fixture
-button. This is the number **"n"** shown in the keypad commands below. You can
+button. This is the number <strong>"n"</strong> shown in the keypad commands below. You can
 change this number using the <Keys.SoftKey>Set Legend</Keys.SoftKey> softkey, see section [Changing the Patch](../patching/changing-the-patch.md#setting-legends).
 Groups also have a User Number.
 
@@ -30,7 +30,7 @@ Groups also have a User Number.
 n <@> <@>
 ````
 
-Set fixture **n** to 100%
+Set fixture <strong>n</strong> to 100%
 
 ---
 
@@ -38,7 +38,7 @@ Set fixture **n** to 100%
 n <@> v <Enter>
 ````
 
-Set fixture **n** to **v%** *(you need to enter 2 digits so "50" for 50%)*
+Set fixture <strong>n</strong> to <strong>v%</strong> *(you need to enter 2 digits so "50" for 50%)*
 
 ---
 
@@ -46,7 +46,7 @@ Set fixture **n** to **v%** *(you need to enter 2 digits so "50" for 50%)*
 n <Thro> m <@> v <Enter>
 ````
 
-Set fixtures **n - m** to **v%**
+Set fixtures <strong>n - m</strong> to <strong>v%</strong>
 
 ---
 
@@ -54,7 +54,7 @@ Set fixtures **n - m** to **v%**
 n <And> m <And> p <@> v <Enter>
 ````
 
-Set fixtures **n**, **m**, **p** to **v%**
+Set fixtures <strong>n</strong>, <strong>m</strong>, <strong>p</strong> to <strong>v%</strong>
 
 ---
 
@@ -62,7 +62,7 @@ Set fixtures **n**, **m**, **p** to **v%**
 <Group> n <@> v <Enter>
 ````
 
-Set fixtures in group **n** to **v%**
+Set fixtures in group <strong>n</strong> to <strong>v%</strong>
 
 ---
 
@@ -79,7 +79,7 @@ Snap release edited channels back to programmed state -
 t <Clear>
 ````
 
-Release edited channels fading over time **t**
+Release edited channels fading over time <strong>t</strong>
 
 ## Setting Other Attributes of Intelligent Fixtures
 
@@ -92,19 +92,19 @@ n <Thro> m <Enter>
 <Group> n <Enter>
 ````
 
--   Press one of the **Attribute Bank buttons** <Keys.HardKey>Colour</Keys.HardKey> <Keys.HardKey>Gobo</Keys.HardKey> etc. The
+-   Press one of the <strong>Attribute Bank buttons</strong> <Keys.HardKey>Colour</Keys.HardKey> <Keys.HardKey>Gobo</Keys.HardKey> etc. The
     current function of the wheels is shown bottom right on the screen.
     Press the same Attribute Bank again to page through different
     attributes *e.g. if there are 2 gobo wheels keep pressing <Keys.HardKey>Gobo</Keys.HardKey> to
     access the other attributes*.
 
--   Use the **wheels** to set the value. Or press the <Keys.HardKey>@</Keys.HardKey> button next to
+-   Use the <strong>wheels</strong> to set the value. Or press the <Keys.HardKey>@</Keys.HardKey> button next to
     the wheel and type in a value on the keypad.
 
 ## Programming Cues
 
 Titan can have multiple cue lists. To start a cue list press <Keys.HardKey>Record</Keys.HardKey>
-then select <Keys.SoftKey>Create Cue List</Keys.SoftKey> from the touch screen. Then press a **blue**
+then select <Keys.SoftKey>Create Cue List</Keys.SoftKey> from the touch screen. Then press a <strong>blue</strong>
 button above the fader where you want to store the cue list.
 
 Titan will record into the cue only the dimmers/fixtures you have changed
@@ -127,7 +127,7 @@ Record the next cue onto the end of the cue list on this fader
 <Record> <Cue> n <Enter>
 ````
 
-Record cue **n** *(will prompt for merge/overwrite if it exists already)*
+Record cue <strong>n</strong> *(will prompt for merge/overwrite if it exists already)*
 
 ---
 
@@ -144,7 +144,7 @@ affect stored cues; will save with the cue when you record it)*
 <Cue> n <Time> t <Enter>
 ````
 
-Set fade time of cue **n** to **t** seconds
+Set fade time of cue <strong>n</strong> to <strong>t</strong> seconds
 
 ---
 
@@ -152,7 +152,7 @@ Set fade time of cue **n** to **t** seconds
 <Delete> <Cue> n <Enter> <Enter>
 ````
 
-Delete cue **n** *(2^nd^ <Keys.HardKey>Enter</Keys.HardKey> confirms)*
+Delete cue <strong>n</strong> *(2^nd^ <Keys.HardKey>Enter</Keys.HardKey> confirms)*
 
 ---
 
@@ -160,7 +160,7 @@ Delete cue **n** *(2^nd^ <Keys.HardKey>Enter</Keys.HardKey> confirms)*
 <Copy> <Cue> n <@> <Cue> m <Enter>
 ````
 
-Copy cue **n** to new cue **m**
+Copy cue <strong>n</strong> to new cue <strong>m</strong>
 
 ---
 
@@ -168,7 +168,7 @@ Copy cue **n** to new cue **m**
 <Copy> <Cue> n <@> <Enter>
 ````
 
-Copy cue **n** onto the end of the cue list
+Copy cue <strong>n</strong> onto the end of the cue list
 
 > Can also use <Keys.HardKey>Move</Keys.HardKey> to move cues, and <Keys.HardKey>Thro</Keys.HardKey>, <Keys.HardKey>And</Keys.HardKey> to change
 multiple cues
@@ -184,7 +184,7 @@ edit them:
 
 ---
 
-To make a **Block** cue (changes do not track), view the cue list as above,
+To make a <strong>Block</strong> cue (changes do not track), view the cue list as above,
 in the Tracking column click the cell for the cue you want to change and
 select <Keys.SoftKey>Block</Keys.SoftKey> from the softkeys.
 
@@ -221,21 +221,21 @@ Run next cue with programmed times
 ````xml
 <Cue> n <Go>
 ````
-Go cue **n** with programmed times
+Go cue <strong>n</strong> with programmed times
 
 ---
 
 ````xml
 t <Go>
 ````
-Next cue go with fade time **t**
+Next cue go with fade time <strong>t</strong>
 
 ---
 
 ````xml
 n <Cue> t <Go>
 ````
-Jump to cue **n** with fade time **t**
+Jump to cue <strong>n</strong> with fade time <strong>t</strong>
 
 ---
 

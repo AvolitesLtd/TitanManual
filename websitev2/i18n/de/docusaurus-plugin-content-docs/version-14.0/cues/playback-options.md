@@ -10,7 +10,7 @@ import Keys from '@site/src/components/key.ts';
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
 Zum Einstellen der Optionen eines Cues, einer Cueliste oder eines
-Chasers drücken Sie <Keys.SoftKey>Options</Keys.SoftKey> im Hauptmenü oder die Taste <Keys.HardKey>Options</Keys.HardKey> und anschließend die **Auswahltaste** der entsprechenden Playbacks. Darauf werden 
+Chasers drücken Sie <Keys.SoftKey>Options</Keys.SoftKey> im Hauptmenü oder die Taste <Keys.HardKey>Options</Keys.HardKey> und anschließend die <strong>Auswahltaste</strong> der entsprechenden Playbacks. Darauf werden 
 alle verfügbaren Optionen übersichtlich in einem Fenster dargestellt(die Optionen können außerdem wie früher mit den Menütasten bearbeitet werden). 
 
 Auch die Zeiten lassen sich hier einstellen (auf dem Reiter <Keys.SoftKey>Times</Keys.SoftKey> oder mit der Taste <Keys.HardKey>Times</Keys.HardKey>).
@@ -49,7 +49,7 @@ den global gültigen Wert zurück.
 ![Playback Options showing playback tab](/docs/images/Playback-Options-Chase-Playback-Tab.png)
 
 ### Blind
-Schaltet das jeweilige Playback in den **Blind**-Modus. Damit
+Schaltet das jeweilige Playback in den <strong>Blind</strong>-Modus. Damit
 erfolgt die Ausgabe nicht an die 'Live'-DMX-Ausgänge, sondern an den
 Visualiser, *um Änderungen vornehmen zu können, ohne das aktuelle Bild zu
 stören*.
@@ -66,8 +66,8 @@ berücksichtigt wird.
 ### Priority
 Damit lässt sich das Verhalten bestimmen, wenn mehrere
 aktive Cues gleichzeitig dieselben Geräte beeinflussen. Die Priorität
-lässt sich zwischen **Low** (niedrig), **Normal** (normal), **High** (hoch),
-**Programmer** (Programmierspeicher) und **Very High** (sehr hoch)
+lässt sich zwischen <strong>Low</strong> (niedrig), <strong>Normal</strong> (normal), <strong>High</strong> (hoch),
+<strong>Programmer</strong> (Programmierspeicher) und <strong>Very High</strong> (sehr hoch)
 umschalten *('Programmer' ist gleichwertig mit der Priorität des
 Programmierspeichers)*. Wird ein Gerät aktuell von einem Cues gesteuert,
 und dann ein Cue mit gleicher oder höherer Priorität gestartet, so
@@ -217,7 +217,7 @@ Strobe-Cue.
 
 Die Maske kann auf Global oder Lokal gestellt werden. Mit 'Lokal' lassen
 sich Einstellungen nur für diesen Cue vornehmen, während 'Global' der
-Bezug auf die globale Release-Maske **Release-Menü** ist
+Bezug auf die globale Release-Maske <strong>Release-Menü</strong> ist
 (drücken Sie dazu <Keys.HardKey>Release</Keys.HardKey>).
 
 > Mit der Release-Maske lässt sich z.B. ein temporärer ('flashbarer') Strobe-Effekt programmieren. Drücken Sie <Keys.SoftKey>Release Mask</Keys.SoftKey>, und stellen Sie Intensity auf 'Include'. Wird nun das Playback ausgeblendet, kehrt der Shutter zum vorigen Wert zurück, und das Strobe stoppt. 

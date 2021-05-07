@@ -26,7 +26,7 @@ eine eigene Seite von Speicherplätzen verwendet.
 
 Eine Set-Liste besteht aus sog. Tracks. Wird einer Setliste ein neuer
 Track hinzugefügt, so verweist dieser automatisch auf die gerade
-aktuelle Seite. Ein Klick auf die <Keys.SoftKey>**>**</Keys.SoftKey>-Schaltfläche neben einem
+aktuelle Seite. Ein Klick auf die <Keys.SoftKey><strong>></strong></Keys.SoftKey>-Schaltfläche neben einem
 Track schaltet sofort auf die passende Seite (auf dem Pearl Expert muss
 die Walze manuell betätigt werden).
 

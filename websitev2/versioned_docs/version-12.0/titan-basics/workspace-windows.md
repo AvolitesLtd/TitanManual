@@ -16,10 +16,14 @@ Visualiser application can also appear as a workspace window.
 
 Sapphire Touch displays are slightly different:
 
-Sapphire Touch Left touch screen\
+Sapphire Touch Left touch screen
+
+
 ![Sapphire Left](/docs/images/Sapphire-Left.png)
 
-Sapphire Touch Right touch screen\
+Sapphire Touch Right touch screen
+
+
 ![Sapphire Right](/docs/images/Sapphire-Right.png)
 
 Opening and positioning workspace windows
@@ -68,7 +72,7 @@ which access other functions for the window.
 
 ![Capture Settings Window](/docs/images/Camera-movements-in-Capture-Visualiser-Workspace-Window.png)
 
-The **Context Menu** button is only shown on Sapphire Touch and Titan
+The <strong>Context Menu</strong> button is only shown on Sapphire Touch and Titan
 Go, and gives a drop down menu at the top of the window showing the
 context menu buttons which relate to the current window.
 
@@ -81,7 +85,7 @@ how the context buttons appear when Patch View window is active.
 
 ![Context Menu](/docs/images/Context-Menu.png)
 
-The **Window Appearance Options** button (cog icon) lets you select the
+The <strong>Window Appearance Options</strong> button (cog icon) lets you select the
 standard window sizes and positions. Buttons are also shown allowing you
 to set the button size and the text size of the window, and move the
 window to an external monitor. The Appearance options may vary depending
@@ -90,7 +94,7 @@ external monitors.
 
 ![Window Appearance Menu](/docs/images/Window-Appearance-Options.png)
 
-The **Resize Window** button allows you to set adjustable window sizes.
+The <strong>Resize Window</strong> button allows you to set adjustable window sizes.
 A grid screen will open.
 
 ![Resize](/docs/images/Resize.png)
@@ -268,7 +272,7 @@ button at a glance. Select the <Keys.SoftKey>Halo</Keys.SoftKey> option on the S
 If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help
 identify different types of fixture.
 
-**Trackball (Sapphire Touch only)**
+<strong>Trackball (Sapphire Touch only)</strong>
 -----------------------------------
 
 The trackball on the right of the console can be used either to control
@@ -283,7 +287,7 @@ To use in console mode for controlling fixtures, press the <Keys.HardKey>Assign<
 button on its own. The trackball will control pan and tilt of selected
 fixtures, and the ring controls fine tilt.
 
-**Touch Keyboard**
+<strong>Touch Keyboard</strong>
 ------------------
 
 At the end of the toolbar is the keyboard popup button which will open

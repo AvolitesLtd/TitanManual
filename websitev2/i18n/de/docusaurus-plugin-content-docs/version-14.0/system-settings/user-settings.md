@@ -191,10 +191,10 @@ entweder <Keys.SoftKey>Beats per Minute</Keys.SoftKey> (BPM) oder <Keys.SoftKey>
 Bestimmt das Verhalten beim Ändern der Geschwindigkeit eines 'verbundenen' 
 (connected) Chasers.
 
-Mit <Keys.SoftKey>**Temporary** **Chase Speed**</Keys.SoftKey> gilt das Tempo nur momentan, und wird
+Mit <Keys.SoftKey><strong>Temporary</strong> <strong>Chase Speed</strong></Keys.SoftKey> gilt das Tempo nur momentan, und wird
 beim nächsten Laden des Chasers wieder auf den programmierten Wert
 zurückgesetzt.\
-Mit <Keys.SoftKey>**Chase Speed**</Keys.SoftKey> wird das Tempo hingegen
+Mit <Keys.SoftKey><strong>Chase Speed</strong></Keys.SoftKey> wird das Tempo hingegen
 gespeichert und das vorher programmierte damit überschrieben.
 
 ### Preload Time
@@ -401,7 +401,7 @@ MIDI-Timecode ignoriert wird.
 
 ### Wheel Sensitivity
 Empfindlichkeit der Encoder, sowie Schaltschwelle
-für Pan/Tilt. Die Empfindlichkeit der Encoder lässt sich mit **Encoder A**
+für Pan/Tilt. Die Empfindlichkeit der Encoder lässt sich mit <strong>Encoder A</strong>
 einstellen, der aktuelle Wert wird im Display angezeigt.
 
 ### Pan & Tilt Threshold

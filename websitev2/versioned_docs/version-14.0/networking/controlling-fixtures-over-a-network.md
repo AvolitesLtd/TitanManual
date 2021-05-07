@@ -17,7 +17,7 @@ We recommend that you use the console's automatic IP setting function.
 However, if you need to you can also set a manual IP address. See [Setting your IP address](a-quick-guide-to-ip-addressing.md#setting-your-ip-address) for
 details of how IP addressing works.
 
-1. Go to the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and press <Keys.SoftKey>Network Settings</Keys.SoftKey>
+1. Go to the <strong>System</strong> menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and press <Keys.SoftKey>Network Settings</Keys.SoftKey>
 
 2. Press <Keys.SoftKey>Local Area Connection</Keys.SoftKey> (some consoles have more than
 	one network connection, so you may have different connections to
@@ -67,7 +67,7 @@ implemented by a growing number of manufacturers. Many products (such as
 Dimmers and Moving lights) can accept the Art-Net signal directly, so
 there is no need to convert the signal to DMX. Most people will,
 however, need to output DMX to their equipment and this can be done
-using an Art-Net to DMX converter (often called a **Node**).
+using an Art-Net to DMX converter (often called a <strong>Node</strong>).
 
 In the following diagram, an Art-Net compliant Console (such as a Titan
 console) is connected via a network switch to an Art-Net compatible dimmer

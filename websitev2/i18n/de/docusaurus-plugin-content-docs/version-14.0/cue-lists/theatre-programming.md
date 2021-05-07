@@ -23,7 +23,7 @@ fahren.
 
 Dimmer und andere Geräte haben eine User Number (Benutzer-Nummer) (*entspricht  der Channel Number auf anderen Pulten*). Diese wird links oben
 in der jeweiligen Schaltfläche angezeigt. In den hier aufgeführten
-Befehlen wird die Nummer als **n** dargestellt. Die User Number lässt sich
+Befehlen wird die Nummer als <strong>n</strong> dargestellt. Die User Number lässt sich
 über das Menü <Keys.SoftKey>Set Legend</Keys.SoftKey> ändern, siehe [Legende eingeben](../patching/changing-the-patch.md#legendenbezeichnungen-eingeben). Auch Gruppen
 haben jeweils eine User Number.
 
@@ -33,13 +33,13 @@ haben jeweils eine User Number.
 
 Tasten | Ergebnis
 ---- | ----
-**n** <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> | Dimmer/Gerät **n** auf 100%
-**n** <Keys.HardKey>@</Keys.HardKey> **v** <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Gerät **n** auf **v%** *(v ist 2-stellig    einzugeben, also z.B. "50" für 50%)*
-**n** <Keys.HardKey>Thru</Keys.HardKey> **m** <Keys.HardKey>@</Keys.HardKey> **v** <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Geräte **n** bis **m** auf **v%**
-**n** <Keys.HardKey>And</Keys.HardKey> **m** <Keys.HardKey>And</Keys.HardKey> **p** <Keys.HardKey>@</Keys.HardKey> **v** <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Geräte **n**, **m**, **p** auf **v%**
-<Keys.HardKey>Group</Keys.HardKey> **n** <Keys.HardKey>@</Keys.HardKey> **v** <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Geräte in Gruppe **n** auf **v%**
+<strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> | Dimmer/Gerät <strong>n</strong> auf 100%
+<strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <strong>v</strong> <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Gerät <strong>n</strong> auf <strong>v%</strong> *(v ist 2-stellig    einzugeben, also z.B. "50" für 50%)*
+<strong>n</strong> <Keys.HardKey>Thru</Keys.HardKey> <strong>m</strong> <Keys.HardKey>@</Keys.HardKey> <strong>v</strong> <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Geräte <strong>n</strong> bis <strong>m</strong> auf <strong>v%</strong>
+<strong>n</strong> <Keys.HardKey>And</Keys.HardKey> <strong>m</strong> <Keys.HardKey>And</Keys.HardKey> <strong>p</strong> <Keys.HardKey>@</Keys.HardKey> <strong>v</strong> <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Geräte <strong>n</strong>, <strong>m</strong>, <strong>p</strong> auf <strong>v%</strong>
+<Keys.HardKey>Group</Keys.HardKey> <strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <strong>v</strong> <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Geräte in Gruppe <strong>n</strong> auf <strong>v%</strong>
 <Keys.HardKey>Clear</Keys.HardKey> | Sofortiges Release der editierten Kanäle auf den programmierten Status (*wie Cheat auf ETC-Pulten*)
-**t** <Keys.HardKey>Clear</Keys.HardKey> | Release der editierten Kanäle in **t** Sekunden
+<strong>t</strong> <Keys.HardKey>Clear</Keys.HardKey> | Release der editierten Kanäle in <strong>t</strong> Sekunden
 
 
 ## Andere Parameter bei Movinglights etc. einstellen
@@ -48,9 +48,9 @@ Tasten | Ergebnis
 
     Tasten | Ergebnis
     ---- | ----
-    **n** <Keys.HardKey>Enter</Keys.HardKey> | Gerät **n**
-    **n** <Keys.HardKey>Thru</Keys.HardKey> **m** <Keys.HardKey>Enter</Keys.HardKey> | Geräte **n** bis **m**
-    <Keys.HardKey>Group</Keys.HardKey> **n** <Keys.HardKey>Enter</Keys.HardKey> | Geräte der Gruppe **n**
+    <strong>n</strong> <Keys.HardKey>Enter</Keys.HardKey> | Gerät <strong>n</strong>
+    <strong>n</strong> <Keys.HardKey>Thru</Keys.HardKey> <strong>m</strong> <Keys.HardKey>Enter</Keys.HardKey> | Geräte <strong>n</strong> bis <strong>m</strong>
+    <Keys.HardKey>Group</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Enter</Keys.HardKey> | Geräte der Gruppe <strong>n</strong>
 
 
 -   Wählen Sie nun die  gewünschte Attributbank, z.B. <Keys.HardKey>Colour</Keys.HardKey>, <Keys.HardKey>Gobo</Keys.HardKey> etc.
@@ -68,7 +68,7 @@ Tasten | Ergebnis
 
 Titan kann mehrere Cuelisten parallel laufen lassen. Zum Programmieren
 einer Cueliste drückt man auf <Keys.HardKey>Record</Keys.HardKey> und wählt im Menü \[Create Cue
-List\]. Dann drückt man die **Auswahltaste** bei einem Fader, um dort die
+List\]. Dann drückt man die <strong>Auswahltaste</strong> bei einem Fader, um dort die
 Cueliste zu speichern.
 
 Titan speichert normalerweise nur die Dimmer/Geräte, die seit dem
@@ -81,12 +81,12 @@ so wechselt man den Speichermodus <Keys.SoftKey>Record Mode</Keys.SoftKey> auf "
 Tasten | Ergebnis
 -------|---------
 <Keys.HardKey>Record</Keys.HardKey> \u123blaue Playbacktaste\u125 \u123blaue Playbacktaste\u125 | speichert den nächsten Cue an das Ende dieser Cueliste
-<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Enter</Keys.HardKey> | Speichert Cue **n** (existiert bereits ein solcher Cue, erfolgt eine Rückfrage zum Mergen/Überschreiben)
-<Keys.HardKey>Time</Keys.HardKey> **t** <Keys.HardKey>Enter</Keys.HardKey> | Setzen der Fadezeit im Programmer (wird in nachfolgend gespeicherte Cues übernommen; bereits angelegte Cues  bleiben unbeeinflusst)
-<Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Time</Keys.HardKey> **t** <Keys.HardKey>Enter</Keys.HardKey> | Setzt Fadezeit für Cue **n** auf **t** Sekunden
-<Keys.HardKey>Delete</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Löscht Cue **n** (2. <Keys.HardKey>Enter</Keys.HardKey> bestätigt)
-<Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **m** <Keys.HardKey>Enter</Keys.HardKey> | Kopieren von Cue **n** in neuen Cue **m**
-<Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Kopieren von Cue **n** an das Ende der Cueliste
+<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Enter</Keys.HardKey> | Speichert Cue <strong>n</strong> (existiert bereits ein solcher Cue, erfolgt eine Rückfrage zum Mergen/Überschreiben)
+<Keys.HardKey>Time</Keys.HardKey> <strong>t</strong> <Keys.HardKey>Enter</Keys.HardKey> | Setzen der Fadezeit im Programmer (wird in nachfolgend gespeicherte Cues übernommen; bereits angelegte Cues  bleiben unbeeinflusst)
+<Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Time</Keys.HardKey> <strong>t</strong> <Keys.HardKey>Enter</Keys.HardKey> | Setzt Fadezeit für Cue <strong>n</strong> auf <strong>t</strong> Sekunden
+<Keys.HardKey>Delete</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Löscht Cue <strong>n</strong> (2. <Keys.HardKey>Enter</Keys.HardKey> bestätigt)
+<Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <strong>m</strong> <Keys.HardKey>Enter</Keys.HardKey> | Kopieren von Cue <strong>n</strong> in neuen Cue <strong>m</strong>
+<Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Kopieren von Cue <strong>n</strong> an das Ende der Cueliste
 <Keys.HardKey>View/Open</Keys.HardKey> \u123blaue Playbacktaste\u125 | Azeige der Cues der Liste in tabellarischer Form. Änderungen können direkt durch Anklicken erfolgen.
 
 -	Mit <Keys.HardKey>Move</Keys.HardKey> (statt Copy) können Cues verschoben werden.\
@@ -95,7 +95,7 @@ Tasten | Ergebnis
 - 	Mehrere Cues auf einmal lassen sich mit den Tasten <Keys.HardKey>Thru</Keys.HardKey>, <Keys.HardKey>And</Keys.HardKey> 
 	und <Keys.SoftKey>Not</Keys.SoftKey> auswählen. Um z.B. die Cues 3, 4 ,5 ,7, 10 zu kopieren und 
 	ab Cue 20 einzufügen, drücken Sie \
-	<Keys.HardKey>Copy</Keys.HardKey> \u123blaue Playbacktaste\u125 **3** <Keys.HardKey>Thru</Keys.HardKey> **7** <Keys.SoftKey>Not</Keys.SoftKey> **6** <Keys.HardKey>And</Keys.HardKey> **10** <Keys.HardKey>@</Keys.HardKey> **20** <Keys.HardKey>Enter</Keys.HardKey>.
+	<Keys.HardKey>Copy</Keys.HardKey> \u123blaue Playbacktaste\u125 <strong>3</strong> <Keys.HardKey>Thru</Keys.HardKey> <strong>7</strong> <Keys.SoftKey>Not</Keys.SoftKey> <strong>6</strong> <Keys.HardKey>And</Keys.HardKey> <strong>10</strong> <Keys.HardKey>@</Keys.HardKey> <strong>20</strong> <Keys.HardKey>Enter</Keys.HardKey>.
 
 -	Zum Erstellen eines Block-Cues (Änderungen werden nicht getrackt) öffnet
 	man die Cueliste wie beschrieben, klickt in der Spalte 'Tracking' auf
@@ -117,11 +117,11 @@ Weitere Möglichkeiten zur Steuerung (Auswahl):
 
 Tasten | Ergebnis
 -------|---------
-<Keys.HardKey>Cue</Keys.HardKey> **\u123blaue Playbacktaste\u125** | Verbinden einer anderen Cueliste
+<Keys.HardKey>Cue</Keys.HardKey> <strong>\u123blaue Playbacktaste\u125</strong> | Verbinden einer anderen Cueliste
 <Keys.HardKey>Go</Keys.HardKey> | Nächster Cue wird mit den programmierten Zeiten eingeblendet
-<Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Go</Keys.HardKey> | Cue n wird mit den programmierten Zeiten eingeblendet
-**t** <Keys.HardKey>Go</Keys.HardKey> | Nächster Cue wird in **t** Sekunden eingeblendet
-**n** <Keys.HardKey>Cue</Keys.HardKey> **t** <Keys.HardKey>Go</Keys.HardKey> | Cue **n** wird in **t** Sekunden eingeblendet
+<Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Go</Keys.HardKey> | Cue n wird mit den programmierten Zeiten eingeblendet
+<strong>t</strong> <Keys.HardKey>Go</Keys.HardKey> | Nächster Cue wird in <strong>t</strong> Sekunden eingeblendet
+<strong>n</strong> <Keys.HardKey>Cue</Keys.HardKey> <strong>t</strong> <Keys.HardKey>Go</Keys.HardKey> | Cue <strong>n</strong> wird in <strong>t</strong> Sekunden eingeblendet
 
 -	Sollen Movinglights bereits im Off auf Position, in Gobo oder Farbe
 	fahren, aktivieren Sie die Funktion [<Keys.SoftKey>Move In Dark</Keys.SoftKey>](cue-list-options.md#move-in-dark).
@@ -135,7 +135,7 @@ um nicht versehentlich unerwünschte Werte mit zu speichern.
 Tasten | Ergebnis
 -------|---------
 <Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> | Speichern der aktuell eingestellten Werte in den aktuellen Cue
-<Keys.HardKey>Time</Keys.HardKey> **t** <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> | Speichern der Fadezeit **t** in den aktuellen Cue
+<Keys.HardKey>Time</Keys.HardKey> <strong>t</strong> <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> | Speichern der Fadezeit <strong>t</strong> in den aktuellen Cue
 
 - 	Eine andere Möglichkeit ist, die Cueliste mit <Keys.HardKey>View</Keys.HardKey> zu öffnen
     und dort die Änderungen vorzunehmen.

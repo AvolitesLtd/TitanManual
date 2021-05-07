@@ -20,7 +20,7 @@ You can select fixtures or dimmers individually, or several at once. You
 can also put fixtures into [Groups](./controlling-fixtures/fixture-groups.md) which
 allow you to quickly select different combinations of fixtures.
 
-If the fixture is patched on a fader handle, press the **Select** button to
+If the fixture is patched on a fader handle, press the <strong>Select</strong> button to
 select the fixture.
 
 ![Fixtures Window](/docs/images/Fixtures-Window.png)
@@ -102,8 +102,10 @@ button rather than a quick press, you get some more options:
     programming, but the lit state will not be stored in any cues you
     save.
 
-> To quickly locate **without changing pan/tilt**, hold <Keys.HardKey>Locate</Keys.HardKey> and press the Pan/Tilt (or Position) button, then release <Keys.HardKey>Locate</Keys.HardKey>.\
-> To quickly locate **pan/tilt only**, hold <Keys.HardKey>Locate</Keys.HardKey>, press <Keys.HardKey>Options</Keys.HardKey> (<Keys.HardKey>Attribute Options</Keys.HardKey> on some consoles), then press <Keys.HardKey>Position</Keys.HardKey> (<Keys.HardKey>Pan/Tilt</Keys.HardKey> on some consoles), then release <Keys.HardKey>Locate</Keys.HardKey>.
+> To quickly locate <strong>without changing pan/tilt</strong>, hold <Keys.HardKey>Locate</Keys.HardKey> and press the Pan/Tilt (or Position) button, then release <Keys.HardKey>Locate</Keys.HardKey>.
+
+
+> To quickly locate <strong>pan/tilt only</strong>, hold <Keys.HardKey>Locate</Keys.HardKey>, press <Keys.HardKey>Options</Keys.HardKey> (<Keys.HardKey>Attribute Options</Keys.HardKey> on some consoles), then press <Keys.HardKey>Position</Keys.HardKey> (<Keys.HardKey>Pan/Tilt</Keys.HardKey> on some consoles), then release <Keys.HardKey>Locate</Keys.HardKey>.
 
 
 ### Changing the Locate State
@@ -122,13 +124,13 @@ second time to confirm.
 The <Keys.HardKey>Clear</Keys.HardKey> button (on the right of the numeric keypad) is used to
 remove all changes from the programmer and deselect all fixtures. 
 
-Normally a **quick press** of the <Keys.HardKey>Clear</Keys.HardKey> button 
+Normally a <strong>quick press</strong> of the <Keys.HardKey>Clear</Keys.HardKey> button 
 clears the fixture selection and also clears from the programmer all the
 fixture changes you've made. 
 However you can change this so that the button operates in two stages when 
 some fixtures are selected, and also there are some changes in the programmer - 
-a **first press** of the button will clear
-only the fixture selection, then a **second press** will clear the contents of the 
+a <strong>first press</strong> of the button will clear
+only the fixture selection, then a <strong>second press</strong> will clear the contents of the 
 programmer, or the other way round. See [Action Precedence](controlling-fixtures.md#clear-options-menu)
 below in the Clear Options menu.
 
@@ -136,7 +138,7 @@ below in the Clear Options menu.
 If you hold down the <Keys.HardKey>Clear</Keys.HardKey> button, then more options are available on
 the softkeys. These will take effect when you release the <Keys.HardKey>Clear</Keys.HardKey> button.
 
-The **Set Mask** options let you choose which attribute groups are to be cleared (for example,
+The <strong>Set Mask</strong> options let you choose which attribute groups are to be cleared (for example,
 you could leave the pan/tilt in the programmer but clear everything else).
 The top <Keys.SoftKey>Set Mask</Keys.SoftKey> button lets you choose which attributes will be cleared - or you can
 use the attribute group buttons to set the mask.
@@ -146,14 +148,14 @@ slate to start with and <Keys.SoftKey>Set Mask to Clear All</Keys.SoftKey> enabl
 You can also clear all the mask attributes by pressing the <Keys.HardKey>Options</Keys.HardKey>/<Keys.HardKey>Attribute
 Options</Keys.HardKey> button will clear the mask. 
 
-The **Time** mask option allows
+The <strong>Time</strong> mask option allows
 you to clear or retain the fade/delay times in the programmer for
 all attributes (clearing individual attributes will also clear times
 for that attribute, for example setting a P mask will clear position
 times).
 
 When you release the <Keys.HardKey>Clear</Keys.HardKey> button the attributes selected in the mask will be
-cleared and the mask will reset to **Clear All** - you can change the Auto Reset Mask
+cleared and the mask will reset to <strong>Clear All</strong> - you can change the Auto Reset Mask
 option as described below so that the mask is remembered next time you press <Keys.HardKey>Clear</Keys.HardKey>.
 
 -   Hold <Keys.HardKey>Clear</Keys.HardKey> and press <Keys.HardKey>All</Keys.HardKey> to deselect all fixtures, but leave
@@ -212,7 +214,7 @@ can also be set in the Clear tab of the [User Settings](./system-settings/user-s
 -   <Keys.SoftKey>Clear Direction</Keys.SoftKey> - sets whether direction will be cleared from the programmer.	
 	
 -   <Keys.SoftKey>Action Precedence</Keys.SoftKey> - Sets a two-stage action for presses of the <Keys.HardKey>Clear</Keys.HardKey> button:
-	- Selection With Programmer: **(default)** Any press of the button clears both the fixture selection and all fixture changes in the programmer
+	- Selection With Programmer: <strong>(default)</strong> Any press of the button clears both the fixture selection and all fixture changes in the programmer
 	- Selection Then Programmer: If any fixtures are selected, fixture selection is cleared on button press. If no fixtures are selected then the programmer is cleared.
 	- Programmer Then Selection: If there are any changes in the programmer, then the programmer is cleared on button press. If there's nothing in the programmer then fixture selection is cleared.
 
@@ -263,25 +265,25 @@ is as follows: (<Keys.HardKey>THRO</Keys.HardKey> is called Through on some cons
 | Keypresses                                   | Selection                                                               |
 |----------------------------------------------|-------------------------------------------------------------------------|
 | <Keys.HardKey>.</Keys.HardKey>                                        | All sub-fixtures of selection                                           |
-| **n** <Keys.HardKey>.</Keys.HardKey>                                  | All sub-fixtures of fixture **n**                                       |
-| <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**                   | Sub-fixtures 1 - **j** of all selected fixtures                         |
-| **n** <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey>                         | All sub-fixtures of fixture **n** through last consecutive of that type |
-| **n** <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**                   | Shorthand for above                                                     |
-| **n** <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> **i**                   | Sub-fixtures 1 - **i** of fixture **n**                                 |
-| <Keys.HardKey>.</Keys.HardKey> **m**                                  | Sub-fixture **m** of all selected fixtures                              |
-| **n** <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey> **j**       | Sub-fixtures 1 - **j** of fixtures **n** - **i**                        |
-| <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey>                         | Sub-fixtures **m** through last of all selected fixtures                |
-| **n** <Keys.HardKey>.</Keys.HardKey> **m**                            | Sub-fixture **m** of fixture **n**                                      |
-| <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**             | Sub-fixtures **m** - **j** of all selected fixtures                     |
-| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey>                   | Sub-fixtures **m** through last of fixture **n**                        |
-| <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> **j**                   | Shorthand for above                                                     |
-| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> **i**             | Sub-fixtures **m** - **i** of fixture **n**                             |
-| **n** <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey>                   | All sub-fixtures of fixtures **n** - **i**                              |
-| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey>       | Sub-fixture **m** through last of fixtures **n** - **i**                |
-| **n** <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey> **j**             | Sub-fixture **j** of fixtures **n** - **i**                             |
-| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey> **j** | Sub-fixtures **m** - **j** of fixtures **n** - **i**                    |
-| **n** <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**                   | Sub-fixture 1 - **j** of fixture **n**                                  |
-| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**       | Sub-fixtures **m** - **j** of fixture **n**                             |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey>                                  | All sub-fixtures of fixture <strong>n</strong>                                       |
+| <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>                   | Sub-fixtures 1 - <strong>j</strong> of all selected fixtures                         |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey>                         | All sub-fixtures of fixture <strong>n</strong> through last consecutive of that type |
+| <strong>n</strong> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>                   | Shorthand for above                                                     |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong>                   | Sub-fixtures 1 - <strong>i</strong> of fixture <strong>n</strong>                                 |
+| <Keys.HardKey>.</Keys.HardKey> <strong>m</strong>                                  | Sub-fixture <strong>m</strong> of all selected fixtures                              |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>       | Sub-fixtures 1 - <strong>j</strong> of fixtures <strong>n</strong> - <strong>i</strong>                        |
+| <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey>                         | Sub-fixtures <strong>m</strong> through last of all selected fixtures                |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <strong>m</strong>                            | Sub-fixture <strong>m</strong> of fixture <strong>n</strong>                                      |
+| <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>             | Sub-fixtures <strong>m</strong> - <strong>j</strong> of all selected fixtures                     |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey>                   | Sub-fixtures <strong>m</strong> through last of fixture <strong>n</strong>                        |
+| <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey> <strong>j</strong>                   | Shorthand for above                                                     |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong>             | Sub-fixtures <strong>m</strong> - <strong>i</strong> of fixture <strong>n</strong>                             |
+| <strong>n</strong> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong> <Keys.HardKey>.</Keys.HardKey>                   | All sub-fixtures of fixtures <strong>n</strong> - <strong>i</strong>                              |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong> <Keys.HardKey>.</Keys.HardKey>       | Sub-fixture <strong>m</strong> through last of fixtures <strong>n</strong> - <strong>i</strong>                |
+| <strong>n</strong> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>             | Sub-fixture <strong>j</strong> of fixtures <strong>n</strong> - <strong>i</strong>                             |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong> | Sub-fixtures <strong>m</strong> - <strong>j</strong> of fixtures <strong>n</strong> - <strong>i</strong>                    |
+| <strong>n</strong> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>                   | Sub-fixture 1 - <strong>j</strong> of fixture <strong>n</strong>                                  |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>       | Sub-fixtures <strong>m</strong> - <strong>j</strong> of fixture <strong>n</strong>                             |
 
 -   Fixture cell selection state will be saved with a group, this provides a
     quick way to select cells / sub-fixtures without having to use the
@@ -353,7 +355,9 @@ has an easy way of selecting patterns of fixtures within a range.
 2. Press the <Keys.HardKey>All</Keys.HardKey> button (labelled Odd/Even on some consoles).
 
 3. Select a pattern from the softkeys. Your selection is modified so
-you will only be controlling, say, the odd fixtures.\
+you will only be controlling, say, the odd fixtures.
+
+
 ![Pattern Select](/docs/images/Pattern-Select.png)
 
 4. Press the <Keys.HardKey>Fix +1</Keys.HardKey> or <Keys.HardKey>Fix -1</Keys.HardKey> button to change the selection to
@@ -390,7 +394,7 @@ the next stage of the pattern (<Keys.HardKey>Next</Keys.HardKey> and <Keys.HardK
 ## Selecting Fixtures which are in a Playback
 
 To select fixtures which are controlled by a particular playback use the
-**Select If** function.
+<strong>Select If</strong> function.
 
 To select fixtures used in a playback, press <Keys.HardKey>Select If</Keys.HardKey> then the
 playback button. (If the console does not have a <Keys.HardKey>Select If</Keys.HardKey> button,
@@ -399,11 +403,21 @@ top left of the numeric keypad and may be labelled <Keys.HardKey>Channel</Keys.H
 consoles.)
 
 You can also use <Keys.HardKey>Select If</Keys.HardKey> with the <Keys.HardKey>@</Keys.HardKey> and <Keys.HardKey>Through</Keys.HardKey> buttons on
-the numeric keypad to select fixtures set to a particular intensity.\
-\@X: fixtures set to intensity X\
-@ Through X: fixtures with intensity 0 -- X\
-@ X Through: fixtures with intensity X -- Full\
-@ X Through Y: fixtures with intensity between X and Y\
+the numeric keypad to select fixtures set to a particular intensity.
+
+
+\@X: fixtures set to intensity X
+
+
+@ Through X: fixtures with intensity 0 -- X
+
+
+@ X Through: fixtures with intensity X -- Full
+
+
+@ X Through Y: fixtures with intensity between X and Y
+
+
 @@: fixtures with intensity above 0.
 
 Intensity levels may be input as 0-9 or 00-99 depending on the [User

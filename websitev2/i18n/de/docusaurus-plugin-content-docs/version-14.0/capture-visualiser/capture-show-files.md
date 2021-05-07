@@ -12,7 +12,7 @@ kann aber auch exportiert und importiert werden, um sie unabhängig von
 Titan in Capture zu verwenden. Ebenso können damit einzelne
 Capture-Shows unabhängig in mehreren Titan-Shows verwendet werden.
 
-Zum Exportieren/Importieren wählen Sie den Reiter **Show** im Fenster
+Zum Exportieren/Importieren wählen Sie den Reiter <strong>Show</strong> im Fenster
 <Keys.SoftKey>Capture Visualiser Settings</Keys.SoftKey>.
 
 Shows exportieren
@@ -28,7 +28,7 @@ Shows importieren
 Shows aus der Capture-Vollversion können importiert werden, etwa für
 größere Setups oder kompliziertes Rigging.
 
-> Der interne Capture-Visualiser in v14 verwendet Capture 2020 *(Titan v12 und v13 verwendete Capture 2018, frühere Titan-Versionen verwendeten Capture Atlas)*. Capture-Setups aus neueren Versionen können nicht importiert werden. Exportieren Sie also die richtige Version mit **Export for Capture 2020** in der Capture-Vollversion.
+> Der interne Capture-Visualiser in v14 verwendet Capture 2020 *(Titan v12 und v13 verwendete Capture 2018, frühere Titan-Versionen verwendeten Capture Atlas)*. Capture-Setups aus neueren Versionen können nicht importiert werden. Exportieren Sie also die richtige Version mit <strong>Export for Capture 2020</strong> in der Capture-Vollversion.
 
 Auch Fixtures können aus Capture (Vollversion) übernommen werden, jedoch
 muss dabei sichergestellt sein, dass das Patch stimmt. Das Patch aus
@@ -44,10 +44,10 @@ zu patchen, damit die richtigen Gerätetypen ausgewählt werden.
 Die Capture-Show löschen
 ------------------------
 
-Unten auf dem Reiter **Show** gibt es den Button <Keys.SoftKey>Wipe</Keys.SoftKey>, mit dem die
+Unten auf dem Reiter <strong>Show</strong> gibt es den Button <Keys.SoftKey>Wipe</Keys.SoftKey>, mit dem die
 aktuelle Capture-Show gelöscht wird.
 
-Ist die Option **Auto Update** aktiv (**On**, Vorgabewert), 
+Ist die Option <strong>Auto Update</strong> aktiv (<strong>On</strong>, Vorgabewert), 
 so werden die in Titan gepatchten Geräte wieder neu in Capture aktiviert.
 
 Wurden Geräte gepatcht, für die erst später die Darstellung in Capture 

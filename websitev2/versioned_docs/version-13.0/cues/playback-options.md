@@ -10,7 +10,7 @@ import Keys from '@site/src/components/key.ts';
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
 To set options for a cue, chase or cue list, press <Keys.SoftKey>Playback Options</Keys.SoftKey>
-on the root menu, then press the **select** button of the playback to be
+on the root menu, then press the <strong>select</strong> button of the playback to be
 edited. A list of option categories will open on the softkeys; a window
 will also open giving a touch-friendly version of the playback options.
 
@@ -26,14 +26,14 @@ are the same on all playbacks.
 
 
 ### Blind
-Sets this individual playback to **Blind** mode. The playback
+Sets this individual playback to <strong>Blind</strong> mode. The playback
 will then output only to Visualiser, not to the stage. *This can be very
 useful if you need to program and test a cue during a live show.*
 
 ### Priority
 Allows you to configure how playbacks will behave if you
 turn on two playbacks controlling the same fixture. The priority can be
-set to **Low**, **Normal**, **High**, **Programmer** or **Very High** *(Programmer gives the
+set to <strong>Low</strong>, <strong>Normal</strong>, <strong>High</strong>, <strong>Programmer</strong> or <strong>Very High</strong> *(Programmer gives the
 same level as manually set attributes in the programmer)*. If a fixture
 is being controlled by a playback and you turn on a playback of the same
 or higher priority, then the new playback will take over. However, if
@@ -45,7 +45,7 @@ fixtures, then you decide you want a couple of them to spotlight a
 singer. If you set the spotlight playback to be high priority, then
 while it is active no other playback will affect the spotlight fixtures.
 
-> Priority is useful when using **Swop** buttons for strobe-type effects
+> Priority is useful when using <strong>Swop</strong> buttons for strobe-type effects
 where you want to black out everything else. If you have a position
 shape running on other fixtures, you don't want that to stop during the
 Swop, or it will look messy when you release the Swop button. So set the
@@ -84,8 +84,8 @@ on. This can be disabled by the
 [Auto Run Startup Playbacks](../system-settings/user-settings.md#run-startup-playbacks) option in
 [User Settings](../system-settings/user-settings.md) *(turned on by default)*.
 
-This can be very useful for **unattended applications** to set up an
-**initial lighting state**, or to run **lamp on macros**.
+This can be very useful for <strong>unattended applications</strong> to set up an
+<strong>initial lighting state</strong>, or to run <strong>lamp on macros</strong>.
 
 Power on playbacks show a Power symbol watermark in the playback
 information area above the fader. If you open the
@@ -116,7 +116,7 @@ this playback when it is fired using the flash button. By default these
 are set to *"As In"* and *"As Out"* which will use the fade time set for the
 playback in the [Times menu](cue-timing.md). This option allows you to set a different
 flash action for the playback. *Note that the [Key Profile](../system-settings/key-profiles.md) for the flash
-button must be set to **Timed Flash** for this to work.*
+button must be set to <strong>Timed Flash</strong> for this to work.*
 
 ### Cross Fade HTP
 If on, makes the HTP (dimmer) channels in this cue
@@ -207,7 +207,7 @@ Attribute Bank buttons to set the mask.
 
 The mask can be set to Global or Local. Local means you can make
 individual mask settings for this playback. Global uses the global
-release mask which is set in the **Release menu** (press Release).
+release mask which is set in the <strong>Release menu</strong> (press Release).
 
 > Release mask is useful when creating a temporary strobe
 effect on a playback. Press <Keys.SoftKey>Release Mask</Keys.SoftKey> then the

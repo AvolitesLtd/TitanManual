@@ -17,7 +17,7 @@ For Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) you can connect whi
 external displays your computer will support.
 
 An external display is disabled by default and will show a \'disabled\'
-message. To enable, go to the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>Display Setup</Keys.SoftKey>
+message. To enable, go to the <strong>System</strong> menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>Display Setup</Keys.SoftKey>
 then press <Keys.SoftKey>External Display Disconnected</Keys.SoftKey>. The option will change to
 <Keys.SoftKey>External Display Connected</Keys.SoftKey> and the display will be enabled.
 

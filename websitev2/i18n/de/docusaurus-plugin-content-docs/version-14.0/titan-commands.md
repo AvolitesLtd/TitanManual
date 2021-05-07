@@ -78,33 +78,33 @@ Record -- Speichern
 <Keys.HardKey>Record</Keys.HardKey> 
 \u123Cueliste\u125 \u123Cueliste\u125 Anhängen an das Ende der Cueliste
 
-**<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey>**\
+<strong><Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey></strong>\
 Mergen des Programmers in den gerade aktiven Cue der verbundenen Cueliste.
 
-**<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> 90.1**\
+<strong><Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> 90.1</strong>\
 Mergen des Programmers in Cue 90.1 der verbundenen Cueliste (dieser Cue wird neu erstellt falls nicht vorhanden)
 
-**<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.HardKey>And</Keys.HardKey> 20**\
+<strong><Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.HardKey>And</Keys.HardKey> 20</strong>\
 Mergen des Programmers in Cues 1 bis 10 und 20 (nach dem <Keys.HardKey>Enter</Keys.HardKey> wählt man Kopieren/Mergen/Ersetzen oder drückt nochmals <Keys.HardKey>Enter</Keys.HardKey> zum Mergen)
 
-**<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey>**\
+<strong><Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey></strong>\
 Mergen des Programmers (nur Position) in den gerade aktiven Cue.
 
-**<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Options</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey>**\
+<strong><Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Options</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey></strong>\
 Mergen des Programmers (nur Position) in den gerade aktiven Cue.
 
 Copy, Move -- Kopieren, Verschieben in Cuelisten
 ------------------------------------------------
 
 
-**<Keys.HardKey>Copy</Keys.HardKey> \u123Cueliste\u125 n <Keys.HardKey>Enter</Keys.HardKey>**\
+<strong><Keys.HardKey>Copy</Keys.HardKey> \u123Cueliste\u125 n <Keys.HardKey>Enter</Keys.HardKey></strong>\
 Cue n an das Ende der Cueliste kopieren.
 
-**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cueliste\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey> n**\
+<strong><Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> \u123Cueliste\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey> n</strong>\
 Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
 \u123Cueliste\u125 und Einfügen hinter Cue n.
 
-**<Copy\>/<Keys.HardKey>Move</Keys.HardKey> \u123Cueliste\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>Enter</Keys.HardKey> \u123target playback\u125 n <Keys.HardKey>Enter</Keys.HardKey>**\
+<strong><Copy\>/<Keys.HardKey>Move</Keys.HardKey> \u123Cueliste\u125 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>Enter</Keys.HardKey> \u123target playback\u125 n <Keys.HardKey>Enter</Keys.HardKey></strong>\
 Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
 \u123Cueliste\u125 und Einfügen am Ende der Cueliste.
 
@@ -127,54 +127,54 @@ playback\u125.
 Delete -- Löschen
 -----------------
 
-**<Keys.HardKey>Delete</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> n**\
+<strong><Keys.HardKey>Delete</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> n</strong>\
 Cue n der gerade verbundenen Cueliste löschen.
 
 Include --  in den Speicher laden
 ---------------------------------
 
-**<Keys.HardKey>Include</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> n**\
+<strong><Keys.HardKey>Include</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> n</strong>\
 Cue n der gerade verbundenen Cueliste in den Programmierspeicher
 laden.
 
 Times -- Zeiten
 ---------------
 
-**<Keys.HardKey>Time</Keys.HardKey> 5**\
+<strong><Keys.HardKey>Time</Keys.HardKey> 5</strong>\
 5 Sekunden Einfadezeit.
 
-**<Keys.HardKey>Cue</Keys.HardKey> 3 <Keys.HardKey>Time</Keys.HardKey> 5**\
+<strong><Keys.HardKey>Cue</Keys.HardKey> 3 <Keys.HardKey>Time</Keys.HardKey> 5</strong>\
 5 Sekunden Einfadezeit für Cue 3 der gerade verbundenen Liste.
 
-**<Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey> 5**\
+<strong><Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey> 5</strong>\
 5 Sekunden Einfadezeit für alle Attribute der ausgewählten Geräte.
 
-**<Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey> <Keys.HardKey>Gobo</Keys.HardKey> 5**\
+<strong><Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey> <Keys.HardKey>Gobo</Keys.HardKey> 5</strong>\
 5 Sekunden Einfadezeit für die Gobo-Attribute der ausgewählten Geräte.
 
-**<Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>B@</Keys.HardKey> 5**\
+<strong><Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>B@</Keys.HardKey> 5</strong>\
 5 Sekunden Einfadezeit für das gerade mit Encoder B gesteuerte Attribut
 der ausgewählten Geräte.
 
-**<Keys.HardKey>Time</Keys.HardKey> 5 <Keys.HardKey>@</Keys.HardKey> 3**\
+<strong><Keys.HardKey>Time</Keys.HardKey> 5 <Keys.HardKey>@</Keys.HardKey> 3</strong>\
 5 Sekunden Einfadezeit, 3 Sekunden Delay.
 
-**<Keys.HardKey>Time</Keys.HardKey> 5 <Keys.HardKey>And</Keys.HardKey> 2**\
+<strong><Keys.HardKey>Time</Keys.HardKey> 5 <Keys.HardKey>And</Keys.HardKey> 2</strong>\
 5 Sekunden Einfadezeit, 2 Sekunden Ausfadezeit.
 
-**<Keys.HardKey>Time</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 10**\
+<strong><Keys.HardKey>Time</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 10</strong>\
 Fadezeit nach Geräteauswahl aufgeteilt.
 
 Cue Lists -- Cuelisten
 ----------------------
 
-**<Keys.HardKey>Cue</Keys.HardKey> n <Keys.HardKey>Go</Keys.HardKey>**\
+<strong><Keys.HardKey>Cue</Keys.HardKey> n <Keys.HardKey>Go</Keys.HardKey></strong>\
 Direktes Starten von Cue n (in der aktuell verbundenen Cueliste).
 
-**5 <Keys.HardKey>Go</Keys.HardKey>**\
+<strong>5 <Keys.HardKey>Go</Keys.HardKey></strong>\
 Den nächsten Cue mit 5 Sek. Fadezeit -- statt der programmierten
 Fadezeit -- starten.
 
-**<Keys.HardKey>Cue</Keys.HardKey> 3 <Keys.HardKey>Enter</Keys.HardKey> 5 <Keys.HardKey>Go</Keys.HardKey>**\
+<strong><Keys.HardKey>Cue</Keys.HardKey> 3 <Keys.HardKey>Enter</Keys.HardKey> 5 <Keys.HardKey>Go</Keys.HardKey></strong>\
 Cue 3 mit 5 Sek. Fadezeit -- statt der programmierten Fadezeit --
 starten.

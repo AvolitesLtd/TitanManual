@@ -41,17 +41,17 @@ Presets, Swop- und Flashtasten.
 Jeder Fader auf dem Pult kann auch als Masterfader für verschiedene
 Funktionsbereiche verwendet werden:
 
--   Der **Grand Master** steuert die Dimmerpegel sämtlicher angeschlossenen
+-   Der <strong>Grand Master</strong> steuert die Dimmerpegel sämtlicher angeschlossenen
     Geräte.
 
--   **Swop/Flash-Master** steuern die Helligkeit für Kanäle bei Bedienung
+-   <strong>Swop/Flash-Master</strong> steuern die Helligkeit für Kanäle bei Bedienung
     mit den Swop-/Flash-Tasten.
 
--   Der **Preset-Master** steuert die Helligkeit von Kanälen, die mittels
+-   Der <strong>Preset-Master</strong> steuert die Helligkeit von Kanälen, die mittels
     der Preset-Regler (für einzelne Geräte, auf dem Pearl Expert)
     gesteuert werden.
 
--   Der **Playback-Master** steuert die Gesamthelligkeit von
+-   Der <strong>Playback-Master</strong> steuert die Gesamthelligkeit von
     vorprogrammierten Playbacks.
 
 Um einzelne Regler mit einer Master-Funktion zu belegen, öffnen
@@ -105,7 +105,7 @@ bzw. <Keys.SoftKey>Size Source</Keys.SoftKey>. Folgende Optionen sind verfügbar
 -   LocalClock (Steuerung per Tap Tempo, das ggf. per Tastenprofil auf
     einen Button gelegt werden muss)
 
-Ferner gibt es einen **Rate Grand Master**, der alle Chaser und Effekte 
+Ferner gibt es einen <strong>Rate Grand Master</strong>, der alle Chaser und Effekte 
 proportional beeinflusst unabhängig davon, ob diese einem Rate- oder BPM-Master
 zugewiesen sind.
 
@@ -118,7 +118,7 @@ jeweils auf einen Fader gelegt werden:
 
 3.	Wählen Sie mit den Menütasten den gewünschten Master.
 
-4.	Drücken Sie die **Auswahltaste** des Faders, auf den Sie die Masterfunktion
+4.	Drücken Sie die <strong>Auswahltaste</strong> des Faders, auf den Sie die Masterfunktion
 	legen wollen.
 
 -	Beim Pearl Expert und beim Tiger Touch 1 drücken Sie <Keys.HardKey>Avo</Keys.HardKey> und <Keys.HardKey>Disk</Keys.HardKey>,
@@ -214,19 +214,19 @@ Mittels <Keys.HardKey>Options</Keys.HardKey> oder <Keys.SoftKey>Options</Keys.So
 Playback-Auswahltaste, kann man die genaue Arbeitsweise des
 Gruppenmasters wählen:
 
--   **Scale master** (proportionale Steuerung). Dabei kann der Bereich auf
+-   <strong>Scale master</strong> (proportionale Steuerung). Dabei kann der Bereich auf
     100%, 200%, 400%, 600% oder 1000% eingestellt werden. Damit lassen
     sich also auch größere Werte als gerade mit den Playbacks
     eingestellt erzielen.
 
--   **HTP** (überschreibt den Pegel falls höher)
+-   <strong>HTP</strong> (überschreibt den Pegel falls höher)
 
--   **Limit** (absolutes Limit)
+-   <strong>Limit</strong> (absolutes Limit)
 
--   **Take Over** (wenn mit dem Master die aktuellen Dimmerwerte getroffen
+-   <strong>Take Over</strong> (wenn mit dem Master die aktuellen Dimmerwerte getroffen
     werden, werden die Geräte in den Programmierspeicher übernommen)
 
--   **Disabled** (Master ist deaktiviert)
+-   <strong>Disabled</strong> (Master ist deaktiviert)
 
 Gibt es einen Bildschirmbereich für den als Gruppenmaster definierten
 Fader, so werden dort der aktuelle Wert und die Arbeitsweise angezeigt.
@@ -531,7 +531,7 @@ Siehe [Fixture Overlap](../cues/cue-timing.md#einstellen-von-überblendzeiten-un
 Eine so eingegebene Paletten-Fadezeit und Overlap gelten nur einmalig 
 für den unmittelbar nächsten Palettenabruf. Sollen bis zur nächsten
 Änderung Fadezeit und Overlap festgelegt werden, so erfolgt dies im 
-**Menü Palettes**: drücken Sie dazu die Taste <Keys.HardKey>Palette</Keys.HardKey> und geben Sie
+<strong>Menü Palettes</strong>: drücken Sie dazu die Taste <Keys.HardKey>Palette</Keys.HardKey> und geben Sie
 die gewünschten Werte mit den Menütasten <Keys.SoftKey>Master Time</Keys.SoftKey> und \[Master
 Overlap\] ein. Es gibt ferner etliche Macros für die häufig genutzten
 Werte, um Master Time und Master Overlap mit nur einem Tastendruck zu

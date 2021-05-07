@@ -11,7 +11,7 @@ How Titan Works When Programming
 --------------------------------
 
 When you select one or more dimmers or fixtures for control, they are
-loaded into the ***Editor***. You can then use the 
+loaded into the <strong><em>Editor</em></strong>. You can then use the 
 [wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md#changing-attributes-using-the-wheels)
 and [palettes](../palettes.md) to
 change the settings on the fixture. You can also apply shapes to it.
@@ -21,7 +21,7 @@ current list of fixtures in the Editor is emptied and a new list is
 started.
 
 All fixtures and attributes that have been edited since the last Clear
-are stored in the ***Programmer***. The order in which you selected the
+are stored in the <strong><em>Programmer</em></strong>. The order in which you selected the
 fixtures is also stored, and is used with [shapes](../effects.md) and the
 [Fixture Overlap](cue-timing.md#setting-fade-times-and-overlap-for-a-cue)
 function. When you record a cue, the contents of the Programmer are
@@ -47,7 +47,9 @@ Creating a Cue
 
 [Video cover recording playbacks and the different modes](https://youtu.be/X5g6DMVwlZU?t=20)
 
-1. Press <Keys.HardKey>Clear</Keys.HardKey> to clear the programmer.\
+1. Press <Keys.HardKey>Clear</Keys.HardKey> to clear the programmer.
+
+
 *This ensures that you are starting with a clean slate.*
 
 2. Set up the look using the fixtures. You can save shapes in a cue.
@@ -56,7 +58,7 @@ will be saved in the cue (in <Keys.SoftKey>Record by Fixture</Keys.SoftKey> mode
 
 3. Press the <Keys.HardKey>Record</Keys.HardKey> button *(<Keys.HardKey>Record Cue</Keys.HardKey> on Pearl Expert)*.
 
-4. Press the **Swop** button of an empty Playback to record the cue. The
+4. Press the <strong>Swop</strong> button of an empty Playback to record the cue. The
 handles where you can record the cue will flash. You can also record a
 cue onto a touch button in the Playbacks window.
 
@@ -83,7 +85,7 @@ Other useful things to know about recording cues:
 
 -   The screen immediately above each fader shows a legend for the
     playback. To set this, from the top-level menu press <Keys.SoftKey>Set Legend</Keys.SoftKey>, 
-    then the playback **Swop** button (or the touch select button), then enter a legend on the
+    then the playback <strong>Swop</strong> button (or the touch select button), then enter a legend on the
     keyboard or draw a picture legend. Press <Keys.HardKey>Enter</Keys.HardKey> to store it. *If
     the fader or button does not have an associated screen you will have
     to resort to the old fashioned method of white tape and Sharpie.*
@@ -97,7 +99,7 @@ Other useful things to know about recording cues:
 Quick Build Cues
 ----------------
 
-Setting <Keys.SoftKey>Record Mode</Keys.SoftKey> to **Quick Build** allows you to build a cue from
+Setting <Keys.SoftKey>Record Mode</Keys.SoftKey> to <strong>Quick Build</strong> allows you to build a cue from
 existing playbacks or palettes (you can also use the
 [Include function](editing-cues.md#using-parts-of-existing-cues-the-include-function) to
 do this).
@@ -120,7 +122,7 @@ will be saved as part of the cue.
 You can create a cue which contains a shape with no base reference
 values; a shape cue like this can then be fired with other cues to
 overlay the shape on the cue and give you instant effects based around
-the settings in that cue. When recording the cue, use **Record by Channel**
+the settings in that cue. When recording the cue, use <strong>Record by Channel</strong>
 mode or use the ["Off" function](editing-cues.md#removing-attributes-from-cues-using-off)
 to remove the other attributes from the programmer.
 
@@ -139,7 +141,7 @@ consoles without a dedicated button, hold down <Keys.HardKey>Avo</Keys.HardKey> 
 If you want to preview a playback on the visualiser without affecting
 the stage, playbacks can be set to Blind mode using <Keys.SoftKey>Playback
 Options</Keys.SoftKey>. To quickly set a playback to blind mode, hold <Keys.HardKey>Blind</Keys.HardKey> and
-press the playback **select** button. Repeat to make it Live again.
+press the playback <strong>select</strong> button. Repeat to make it Live again.
 
 You can fade your blind state to the live output by typing in a fade
 time number then pressing <Keys.HardKey>Blind</Keys.HardKey>. This allows you to recall several

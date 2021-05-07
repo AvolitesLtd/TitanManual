@@ -12,7 +12,7 @@ kann aber auch exportiert und importiert werden, um sie unabhängig von
 Titan in Capture zu verwenden. Ebenso können damit einzelne
 Capture-Shows unabhängig in mehreren Titan-Shows verwendet werden.
 
-Zum Exportieren/Importieren wählen Sie den Reiter **Show** im Fenster
+Zum Exportieren/Importieren wählen Sie den Reiter <strong>Show</strong> im Fenster
 <Keys.SoftKey>Capture Visualiser Settings</Keys.SoftKey>.
 
 Shows exportieren
@@ -28,7 +28,7 @@ Shows importieren
 Shows aus der Capture-Vollversion können importiert werden, etwa für
 größere Setups oder kompliziertes Rigging.
 
-> Der interne Capture-Visualiser in v12 und v13 verwendet Capture 2018  *(frühere Titan-Versionen verwendeten Capture Atlas)*. Capture-Setups aus neueren Versionen können nicht importiert werden. Exportieren Sie also die richtige Version mit **Export for Capture 2018** in der Capture-Vollversion.
+> Der interne Capture-Visualiser in v12 und v13 verwendet Capture 2018  *(frühere Titan-Versionen verwendeten Capture Atlas)*. Capture-Setups aus neueren Versionen können nicht importiert werden. Exportieren Sie also die richtige Version mit <strong>Export for Capture 2018</strong> in der Capture-Vollversion.
 
 Auch Fixtures können aus Capture (Vollversion) übernommen werden, jedoch
 muss dabei sichergestellt sein, dass das Patch stimmt. Das Patch aus
@@ -44,7 +44,7 @@ zu patchen, damit die richtigen Gerätetypen ausgewählt werden.
 Die Capture-Show löschen
 ------------------------
 
-Unten auf dem Reiter **Show** gibt es den Button <Keys.SoftKey>Wipe</Keys.SoftKey>, mit dem die
+Unten auf dem Reiter <strong>Show</strong> gibt es den Button <Keys.SoftKey>Wipe</Keys.SoftKey>, mit dem die
 aktuelle Capture-Show gelöscht wird.
 
 Sollen in Titan gepatchte Geräte erneut in die Capture-Show übernommen

@@ -14,7 +14,7 @@ werden hellblau dargestellt.
 Drücken Sie <Keys.HardKey>Locate</Keys.HardKey>, um die ausgewählten Geräte zu "homen" (50%
 Pan/Tilt, kein Gobo, open white), siehe [Locate](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate). Halten
 Sie die <Keys.HardKey>Locate</Keys.HardKey>-Taste gedrückt und drücken Sie dazu einzelne
-Attribute, um diese **nicht** zurückzusetzen (um z.B. Pan/Tilt nicht
+Attribute, um diese <strong>nicht</strong> zurückzusetzen (um z.B. Pan/Tilt nicht
 zurückzusetzen, halten Sie <Keys.HardKey>Locate</Keys.HardKey> und drücken dazu <Keys.HardKey>Position</Keys.HardKey>).
 
 Wählen Sie nun einzelne Attribute zum Bearbeiten aus (Attribut-Tasten

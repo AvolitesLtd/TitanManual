@@ -22,7 +22,7 @@ This operation is exactly the same as for Cues and is described in
 Deleting a Cue List
 -------------------
 
-You can delete a whole cue list by pressing <Keys.HardKey>Delete</Keys.HardKey> then the **Select**
+You can delete a whole cue list by pressing <Keys.HardKey>Delete</Keys.HardKey> then the <strong>Select</strong>
 button of the playback to be deleted. Confirm the deletion by pressing
 the select button again, or the <Keys.SoftKey>Confirm</Keys.SoftKey> softkey, or <Keys.HardKey>Enter</Keys.HardKey>.
 
@@ -44,9 +44,9 @@ To delete a single cue from a cue list:
 
 1. Press the <Keys.HardKey>Delete</Keys.HardKey> button
 
-2. Press the **Swop** button of the cue list
+2. Press the <strong>Swop</strong> button of the cue list
 
-3. The cues in the cue list are listed on the screen. Use **Wheel A** to
+3. The cues in the cue list are listed on the screen. Use <strong>Wheel A</strong> to
 select the cue you want to delete, or type in the number of the cue to be
 deleted.
 

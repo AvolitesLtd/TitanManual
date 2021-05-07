@@ -38,7 +38,7 @@ Full Erase | Nur die Recovery-Version | Werden gelöscht | Die der Recovery-Vers
 > 	Ab Titan Version 12 wird die Lizenz auf dem AvoKey dauerhaft gespeichert
 	und auch bei einem Full Erase Recovery nicht gelöscht, [siehe unten](#software-lizenzierung).
 
->	Bei Verwendung von **Factory Restore** sowie **Full Erase** werden 
+>	Bei Verwendung von <strong>Factory Restore</strong> sowie <strong>Full Erase</strong> werden 
 	sämtliche Einstellungen und Shows gelöscht. Es empfiehlt sich also, 
 	die Shows vorher auf einem anderen Stick zu speichern.
 
@@ -51,7 +51,7 @@ wie folgt:
 Installationshinweise
 ---------------------
 
-1.	**Bei Pulten, die älter als Titan Version 11.1 sind**, muss das Pult
+1.	<strong>Bei Pulten, die älter als Titan Version 11.1 sind</strong>, muss das Pult
     im BIOS so eingestellt werden, dass es vom USB-Stick bootet.
     Genaueres dazu steht auf der [Avolites-Website.](https://www.avolites.com/software/).
 

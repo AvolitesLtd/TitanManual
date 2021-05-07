@@ -7,7 +7,7 @@ original_id: using-multiple-on-screen-workspaces
 
 import Keys from '@site/src/components/key.ts';
 
-Es lassen sich diverse **workspaces** (Arbeitsumgebungen) einrichten, die
+Es lassen sich diverse <strong>workspaces</strong> (Arbeitsumgebungen) einrichten, die
 ihrerseits die Anordnung und Anzeige der verschiedenen Fenster
 speichern. Diese Arbeitsumgebungen lassen sich auf den Schaltflächen
 links der Menütasten (linker Bildschirmrand beim Sapphire Touch und Titan 

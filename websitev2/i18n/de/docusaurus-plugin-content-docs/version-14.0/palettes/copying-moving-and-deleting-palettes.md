@@ -19,7 +19,7 @@ Das Verschieben von Paletten ist sinnvoll, um die Bedienoberfläche
 übersichtlich zu halten.
 
 1.  Drücken Sie die Taste <Keys.HardKey>Copy</Keys.HardKey> bzw. <Keys.HardKey>Move</Keys.HardKey> (auf Pulten ohne 
-	eine **Move**-Taste dient <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Copy</Keys.HardKey> zum Verschieben).
+	eine <strong>Move</strong>-Taste dient <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Copy</Keys.HardKey> zum Verschieben).
 
 2.  Betätigen Sie die Schaltfläche der zu kopierenden/verschiebenden 
 	Palette; es lassen sich auch mehrere Paletten auswählen.

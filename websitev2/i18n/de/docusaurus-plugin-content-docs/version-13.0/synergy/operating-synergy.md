@@ -51,7 +51,7 @@ die betreffenden Dateien rot angezeigt.
 Die Dateien werden schnellstmöglich übertragen, und der
 Übertragungsfort­schritt wird angezeigt. Dabei kann das Netzwerk stark
 ausgelastet und damit verlangsamt werden. Um dies zu vermeiden, kann
-unten der Schalter **Bandwidth Saver** (Bandbreite sparen) aktiviert
+unten der Schalter <strong>Bandwidth Saver</strong> (Bandbreite sparen) aktiviert
 werden. Damit wird der Upload verlangsamt, und das Netzwerk wird weniger
 stark ausgelastet.
 
@@ -64,7 +64,7 @@ Abschnitt.
 Vorschau mit dem Media Viewer
 -----------------------------
 
-Das Fenster **Video Multi View** kann alle Layer einzeln sowie jedes
+Das Fenster <strong>Video Multi View</strong> kann alle Layer einzeln sowie jedes
 Surface (Screen) als Ergebnis der kombinierten Layer als Vorschau
 anzeigen. Ebenso lassen sich damit beliebige im Netzwerk vorhandene
 NDI-Streams anzeigen, etwa einzelne Kameras oder der Live-Output bei
@@ -86,7 +86,7 @@ der Vorschauen angezeigt werden.
 
 ![Video Multi View Window laout options](/docs/images/Video-Multi-View-Window-laout-options.png)
 
-Dabei muss die Option **"Automatic NDI preview"** in den [Synergy Settings](setting-up.md#einrichten-von-synergy)
+Dabei muss die Option <strong>"Automatic NDI preview"</strong> in den [Synergy Settings](setting-up.md#einrichten-von-synergy)
 aktiv sein, damit die Vorschauen angezeigt werden.
 
 Format | Datenrate
@@ -104,8 +104,8 @@ Fixtures](setting-up.md#das-fenster-synergy-fixtures)), lassen sich die darauf a
 Attribut-Editor wählen und manipulieren (das geht auch wie gewohnt mit
 den [Encodern](../controlling-fixtures/using-the-select-buttons-and-wheels.md) und [Attributbänken](../controlling-fixtures/using-the-select-buttons-and-wheels.md#anzeige-der-attributwerte)).
 
-> Die wichtigsten Attribute dabei sind **Intensity** zur Einstellung der
-Helligkeit sowie die **Media Selection** (Medienauswahl), um Bank und Clip
+> Die wichtigsten Attribute dabei sind <strong>Intensity</strong> zur Einstellung der
+Helligkeit sowie die <strong>Media Selection</strong> (Medienauswahl), um Bank und Clip
 zu wählen. Aber es lassen sich auch viele weitere Attribute einstellen,
 Effekte hinzufügen etc.
 
@@ -158,11 +158,11 @@ Output des Servers zu verbinden.
 tatsächlich angeordnet sind, so dass jeweils der passende
 Videoausschnitt angezeigt wird, siehe [nächster Abschnitt](#verwendung-des-layout-editors-mit-ai).
 
-1.  **Starten Sie einen Clip** auf dem gewünschten Surface, etwa mit dem [Attribut-Editor](#layer-steuern-mit-dem-attribut-editor).
+1.  <strong>Starten Sie einen Clip</strong> auf dem gewünschten Surface, etwa mit dem [Attribut-Editor](#layer-steuern-mit-dem-attribut-editor).
 
 2.  Wählen Sie nun das Menü <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, dann <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>.
 
-3.  Wählen Sie die **[Gerätegruppe](../controlling-fixtures/fixture-groups.md)**, auf der 
+3.  Wählen Sie die <strong>[Gerätegruppe](../controlling-fixtures/fixture-groups.md)</strong>, auf der 
 	das Video laufen soll. Daraufhin öffnet sich der Effekt-Editor.
 
 4.  Klicken Sie unten links auf das <Keys.SoftKey> + </Keys.SoftKey>, um einen Pixelmapper-Effekt
@@ -262,6 +262,6 @@ mehreren Outputs gezeigt werden soll.
 
 Bank/Clip | Function
 ---|---
-**Bank 240 - 255** | Verlinkt auf Surface/Screen Fixture 1-16.
-**Clip 0 - 200** | Verlinkt auf Layer 1-201 auf diesem Surface.
-**Clip 255** | Verlinkt auf das Screen Fixture als Ganzes (alle Layer).
+<strong>Bank 240 - 255</strong> | Verlinkt auf Surface/Screen Fixture 1-16.
+<strong>Clip 0 - 200</strong> | Verlinkt auf Layer 1-201 auf diesem Surface.
+<strong>Clip 255</strong> | Verlinkt auf das Screen Fixture als Ganzes (alle Layer).

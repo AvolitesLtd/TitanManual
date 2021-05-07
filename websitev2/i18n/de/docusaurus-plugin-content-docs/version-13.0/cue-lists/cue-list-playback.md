@@ -26,12 +26,12 @@ die Überblendung, sowie die Ein- und Ausblendzeiten.
 
 Für eine bessere Übersicht können Sie auch die Playback-Ansicht der
 Cueliste öffnen (einfach im Display auf die Cueliste klicken, oder
-<Keys.HardKey>View / Open</Keys.HardKey> und die **Select-Taste** der Cueliste drücken). Hier hat man
+<Keys.HardKey>View / Open</Keys.HardKey> und die <strong>Select-Taste</strong> der Cueliste drücken). Hier hat man
 sämtliche Cues, Zeiten und Optionen (z.B. Autoload, Macros, MID etc.) im
 Überblick, was vor allem im [Theater](theatre-programming.md) sehr hilfreich ist.
 
 Mit der [Benutzereinstellung](../system-settings/user-settings.md#auto-view-on-connect) 
-**'Auto View On Connect'** lässt sich erreichen,
+<strong>'Auto View On Connect'</strong> lässt sich erreichen,
 dass beim Connecten einer Cueliste sofort deren Detail-Fenster aufgeht.
 
 ![Playback View of Cue List with cue fade in progress](/docs/images/Playback-View-of-Cue-List-with-cue-fade-in-progress.png)
@@ -74,16 +74,16 @@ Zahnrad in der Titelleiste des Fensters).
 
 -   Mittels der [Tastenbelegungen ('Key Profiles')](../system-settings/key-profiles.md) lässt sich die
     Funktion der grauen und blauen Tasten an die Erfordernisse anpassen,
-    etwa **Go**, **Stop**, **Connect**, **Next
-    Cue** (nächster Schritt), **Prev Cue** (voriger Schritt), **Cut Next Cue To Live** (nächsten Schritt
-    ohne Überblend-/Verzögerungszeiten aktivieren), und **Snap Back**, siehe [Key Profiles](../system-settings/key-profiles.md#cue-lists).
+    etwa <strong>Go</strong>, <strong>Stop</strong>, <strong>Connect</strong>, **Next
+    Cue<strong> (nächster Schritt), </strong>Prev Cue<strong> (voriger Schritt), </strong>Cut Next Cue To Live** (nächsten Schritt
+    ohne Überblend-/Verzögerungszeiten aktivieren), und <strong>Snap Back</strong>, siehe [Key Profiles](../system-settings/key-profiles.md#cue-lists).
 
 -   Beim Ausblenden des Reglers einer Cueliste werden die enthaltenen
     HTP-Kanäle ausgeblendet, die Cueliste an sich bleibt jedoch aktiv.
     [Im nächsten Abschnitt](#eine-cueliste-deaktivieren) wird erläutert, wie die Cueliste deaktiviert
     werden kann.
 
--   Mittels **Timecode** kann eine Cueliste [automatisch gesteuert werden](cue-list-timing.md#steuern-einer-cueliste-per-timecode).
+-   Mittels <strong>Timecode</strong> kann eine Cueliste [automatisch gesteuert werden](cue-list-timing.md#steuern-einer-cueliste-per-timecode).
 
 -   Die Zeit für den nächsten Schritt lässt sich einfach ändern, indem
     man mit den Zifferntasten die neue Zeit eingibt und <Keys.HardKey>Go</Keys.HardKey> drückt.
@@ -96,12 +96,12 @@ Eine Cueliste deaktivieren
 
 Sobald eine Cueliste gestartet wurde, bleibt sie aktiv, bis sie explizit
 deaktiviert wird. Dazu halten Sie die <Keys.HardKey>AVO</Keys.HardKey>-Taste gedrückt und
-betätigen die blaue **Select-Taste** der Cueliste.
+betätigen die blaue <strong>Select-Taste</strong> der Cueliste.
 
 Das Verhalten lässt sich im Menü [Playback Options](../cues/playback-options.md) ändern, so dass die
 Cueliste automatisch entladen wird, wenn man den Regler auf '0' bringt:
 drücken Sie dazu <Keys.SoftKey>Playback Options</Keys.SoftKey> im Programmier-Menü, dann die
-**Select-Taste** der Cueliste, und wählen die Option <Keys.SoftKey>Fader</Keys.SoftKey>, \[Fader
+<strong>Select-Taste</strong> der Cueliste, und wählen die Option <Keys.SoftKey>Fader</Keys.SoftKey>, \[Fader
 Mode Intensity Kill At 0\].
 
 Per [Tastenprofil (Key Profiles)](../system-settings/key-profiles.md#cue-lists) lässt sich auch eine der Tasten mit der

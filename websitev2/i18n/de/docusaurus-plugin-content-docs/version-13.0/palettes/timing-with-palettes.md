@@ -20,7 +20,7 @@ wenn die Palette in Playbacks verwendet wird. Wurden also z.B. 2s
 Fadezeit mit in der Palette abgespeichert und wird diese in einem Cue 
 verwendet, so ist für diesen bereits 2s Fadezeit eingestellt.
 
-Beim direkten Palettenaufruf hingegen wird die Fadezeit zunächst **nicht** 
+Beim direkten Palettenaufruf hingegen wird die Fadezeit zunächst <strong>nicht</strong> 
 berücksichtigt, um das Programmieren nicht zu behindern. Es kann aber 
 per Tastenprofil aktiviert werden, was insbesondere beim [Improvisieren
 (Busking) mit Paletten](../running-the-show/playback-controls#improvisieren-busking-mit-paletten) 
@@ -67,8 +67,8 @@ Außerdem lässt sich die [Überlappung (Fixture Overlap)](../cues/cue-timing.md
 zwischen den Geräten einstellen: wenn die Palette auf eine Gruppe von 
 Geräten angewendet wird, so erfolgt das nacheinander auf die einzelnen
 Geräte. Damit lassen sich sehr einfach beeindruckende Effekte erzielen.\
-Fixture Overlap = **100%** bedeutet, dass alle Geräte gleichzeitig beeinflusst werden.\
-Fixture Overlap = **0%** bedeutet, dass ein Gerät erst voll eingeblendet 
+Fixture Overlap = <strong>100%</strong> bedeutet, dass alle Geräte gleichzeitig beeinflusst werden.\
+Fixture Overlap = <strong>0%</strong> bedeutet, dass ein Gerät erst voll eingeblendet 
 sein muss, bevor die Überblendung mit dem nächsten Gerät beginnt.
 
 1.  Geben Sie mit den Zifferntasten die Überlappung ein.
@@ -88,7 +88,7 @@ sein muss, bevor die Überblendung mit dem nächsten Gerät beginnt.
 
 >   Berücksichtigen Sie bei der Verwendung von Fixture Overlap, 
 	globalen Paletten und dem Abruf als Quick Palette (ohne angewählte
-	Geräte), dass das Overlap ggf. auf **sehr viele** Geräte
+	Geräte), dass das Overlap ggf. auf <strong>sehr viele</strong> Geräte
 	nacheinander angewendet wird, was zu unerwarteten Ergebnissen
 	führen kann.
 

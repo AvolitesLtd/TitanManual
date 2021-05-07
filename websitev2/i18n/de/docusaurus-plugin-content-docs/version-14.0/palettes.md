@@ -22,12 +22,12 @@ Positionen einzeln nachregeln zu müssen. Eine Anwendung dafür wäre etwa
 eine Tour, bei der man täglich andere Bühnengrößen oder Traversenhöhen
 zu berücksichtigen hat.
 
-Paletten können miteinander **[verknüpft (nested)](palettes/creating-palettes.md#nested-palettes----verknüpfte-paletten)** sein, so 
+Paletten können miteinander <strong>[verknüpft (nested)](palettes/creating-palettes.md#nested-palettes----verknüpfte-paletten)</strong> sein, so 
 dass sie aufeinander verweisen. Ändert man nun die Master-Palette, 
 so ändern sich die verknüpften Paletten entsprechend.
 
 Paletten werden auf die Schaltflächen in den Fenstern **'Colours'
-(Farben)**, **'Positions'** sowie **'Gobos and Beams'** gespeichert. 
+(Farben)<strong>, </strong>'Positions'<strong> sowie </strong>'Gobos and Beams'** gespeichert. 
 Ebenso können sie auf grauen Playback-Tasten sowie auf Macro/
 Exekutor-Tasten abgelegt werden. Jede Schaltfläche lässt sich 
 [beschriften oder bemalen](palettes/creating-palettes.md#paletten-beschriften-und-bemalen), 
@@ -35,6 +35,6 @@ so dass man die gesuchte Palette schnell wiederfindet.
 
 ![Gobos and Beams Window and Colours Window](/docs/images/Gobos-and-Beams-Window-and-Colours-Window.png)
 
-Werden die Fenster **'Colours'**, **'Positions'** und **'Gobos and 
+Werden die Fenster <strong>'Colours'</strong>, <strong>'Positions'</strong> und **'Gobos and 
 Beams'** nicht angezeigt, so ruft man sie mit dem Workspace \[Groups 
 and Palettes\] auf.

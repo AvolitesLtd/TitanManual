@@ -12,10 +12,10 @@ the playback options menu by doing the following:
 
 1. At the top level menu press <Keys.SoftKey>Playback Options</Keys.SoftKey>
 
-2. Press the **select** button for the cue list you wish to edit
+2. Press the <strong>select</strong> button for the cue list you wish to edit
 
 You can show the cue list options in a window by pressing <Keys.HardKey>View/Open</Keys.HardKey>
-then the **Select** button of the cue list, then click the **Options** tab.
+then the <strong>Select</strong> button of the cue list, then click the <strong>Options</strong> tab.
 
 The Cue List options are mostly the same as for [Cues](../cues/playback-options.md) and [Chases](../chases/chase-options.md), only
 the additional Cue List options are described here.
@@ -99,8 +99,8 @@ not the touch window.*
 ## Cue Options
 
 This option allows you to change settings for each cue in the cue list.
-To select the cue number to edit, use the **Wheel A** or press
-**softkey A** then enter the cue number on the numeric keypad.
+To select the cue number to edit, use the <strong>Wheel A</strong> or press
+<strong>softkey A</strong> then enter the cue number on the numeric keypad.
 
 -   <Keys.SoftKey>Curve</Keys.SoftKey> allows you to set a different fade curve for the cue; this
     affects how the fade progresses from one cue to the other *(for
@@ -109,7 +109,7 @@ To select the cue number to edit, use the **Wheel A** or press
     select a new curve from the softkeys. The effect of the various
     curves is described in [Curves](../system-settings/curves.md).
 
--   <Keys.SoftKey>Link</Keys.SoftKey> can be set to **Wait for Go**, **With Previous Cue** or **After
+-   <Keys.SoftKey>Link</Keys.SoftKey> can be set to <strong>Wait for Go</strong>, <strong>With Previous Cue</strong> or **After
     Previous Cue**. See [Cue Linking & Link Offset](cue-list-timing.md#cue-linking--link-offset)
 
 -   <Keys.SoftKey>Move in Dark</Keys.SoftKey> opens the menu for Move In Dark options, see

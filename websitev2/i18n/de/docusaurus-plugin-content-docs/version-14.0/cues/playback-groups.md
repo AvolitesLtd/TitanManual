@@ -89,15 +89,15 @@ links die gewünschte Gruppe und klickt rechts unten auf den Reiter
 
 ![Playback groups options workspace](/docs/images/Playback-groups-options-workspace.png)
 
--   **Mutually Exclusive** schaltet den Exklusiv-Modus ein oder aus. Damit
+-   <strong>Mutually Exclusive</strong> schaltet den Exklusiv-Modus ein oder aus. Damit
     lässt sich diese Funktion vorübergehend deaktivieren, ohne die
     Gruppe löschen zu müssen.
--   **Kill Point** lässt sich einstellen, wann ein neu gestartetes
+-   <strong>Kill Point</strong> lässt sich einstellen, wann ein neu gestartetes
     Playback die anderen Playback in der Gruppe deaktiviert:\
     <Keys.SoftKey>Fired</Keys.SoftKey> - sobald das Playback gestartet ist\
     <Keys.SoftKey>Fade Completed</Keys.SoftKey> - sobald es gestartet und komplett eingefadet ist
 
--   **Kill Action** legt fest, ob bei Deaktivieren Release zum Tragen
+-   <strong>Kill Action</strong> legt fest, ob bei Deaktivieren Release zum Tragen
     kommt oder nicht:\
     <Keys.SoftKey>Follow Playback</Keys.SoftKey> - es wird nach den Release-Einstellungen
     jedes Playbacks vorgegangen\

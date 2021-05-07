@@ -43,7 +43,7 @@ sollen Sie Fragen zu dessen Einrichtung haben, so konsultieren Sie die
 mit dem Access Point mitgelieferte Dokumentation.
 
 >   Es empfiehlt sich, nicht einen DSL-Router mit WLAN zu verwenden,
-    sondern einen richtigen WLAN **Access Point**. Zwar sind die DSL-Router
+    sondern einen richtigen WLAN <strong>Access Point</strong>. Zwar sind die DSL-Router
     günstiger, aber meist auch unsicherer als Access Points. Es gibt
     auch Router, die man explizit als Access Point betreiben kann,
     um dieses Problem zu eliminieren.

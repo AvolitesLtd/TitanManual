@@ -11,8 +11,12 @@ You can save any number of different shows on a USB drive or the
 console's internal hard disk. The console will also autosave the show
 periodically.
 
-> Shows created on a Titan console can be loaded into any other model of Avolites Titan console, but not to older non-Titan consoles as the showfile format is different. \
-  \
+> Shows created on a Titan console can be loaded into any other model of Avolites Titan console, but not to older non-Titan consoles as the showfile format is different. 
+
+
+  
+
+
   Showfiles from newer versions of Titan may not load correctly (or at all) into consoles with older versions of Titan.
 
 
@@ -144,7 +148,9 @@ can import items from more than one show at once by repeating steps 1-3.
 
 6. Select a fixture in your imported show, then click the arrow beside
 the fixture it maps to in the current show. To remove a mapping, click
-the <Keys.SoftKey>Clear Fixture Mapping</Keys.SoftKey> context button.\
+the <Keys.SoftKey>Clear Fixture Mapping</Keys.SoftKey> context button.
+
+
 You can select multiple target fixtures by dragging a box over the
 fixtures, or click on the source fixture again and map to another
 target.

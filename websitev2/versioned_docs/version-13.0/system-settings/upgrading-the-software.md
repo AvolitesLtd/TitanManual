@@ -35,11 +35,11 @@ and install it on the console like this:
 
 1. Copy the installer file to a USB drive and insert into the console.
 
-2. In the screen **tools menu**, stop the console software using the
-**Shutdown Software** button at the bottom of the list.
+2. In the screen <strong>tools menu</strong>, stop the console software using the
+<strong>Shutdown Software</strong> button at the bottom of the list.
 ![Tools Menu](/docs/images/Tools-Menu.png)
 
-3. Open the **tools menu** again, touch the **Folders** icon and navigate to
+3. Open the <strong>tools menu</strong> again, touch the <strong>Folders</strong> icon and navigate to
 the drive where the upgrade file is found.
 
 4. Run the installer by double clicking/double tapping.

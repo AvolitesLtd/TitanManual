@@ -32,6 +32,6 @@ Optionen Block, This Cue Only und Solo (Siehe auch [Abrufen einer Cueliste](cue-
 
 Zur Anzeige des Inhalts einer Cueliste berühren Sie den Touchscreen im
 'Playback'-Bereich oberhalb des jeweiligen Reglers oder drücken \<View /
- Open\> und die zugehörige **Swop**-Taste.
+ Open\> und die zugehörige <strong>Swop</strong>-Taste.
 
 ![Playback View of Cue List](/docs/images/Cue-List-Window-with-Autoload-playback.png)

@@ -11,7 +11,7 @@ Abrufen eines Chasers
 ---------------------
 
 Zum Starten eines Chasers bewegen Sie den entsprechenden Regler nach
-oben *(oder Sie verwenden die **Swop** / **Flash**-Tasten)*. Der Chaser
+oben *(oder Sie verwenden die <strong>Swop</strong> / <strong>Flash</strong>-Tasten)*. Der Chaser
 beginnt daraufhin zu laufen. Am unteren Rand des Bildschirms oberhalb
 des jeweiligen Reglers wird die Nummer des aktuellen Schritts sowie die
 Geschwindigkeit angezeigt.
@@ -41,16 +41,16 @@ Verbinden eines Chasers mit der Steuerung
 
 Wird ein Chaser aufgerufen, so ist dessen Steuerung automatisch den
 Rädern (Geschwindigkeit, Überblendung) und <Keys.HardKey>Stop</Keys.HardKey>/<Keys.HardKey>Go</Keys.HardKey>-Tasten
-zugeordnet: dies nennt sich **Connect** (Verbinden) des Chasers. Ist mehr
+zugeordnet: dies nennt sich <strong>Connect</strong> (Verbinden) des Chasers. Ist mehr
 als ein Chaser aktiv, so lässt sich mit der <Keys.HardKey>Connect</Keys.HardKey>-Taste wählen,
 welcher davon mit den Rädern/Tasten beeinflusst werden soll.
 
 -   Zum Verbinden eines anderen Chasers drücken Sie die Taste
-    <Keys.HardKey>Connect</Keys.HardKey>, und dann die **Swop**-Taste des gewünschten Chasers.
+    <Keys.HardKey>Connect</Keys.HardKey>, und dann die <strong>Swop</strong>-Taste des gewünschten Chasers.
 
 -   Zum Lösen der Zuordnung drücken Sie die <Keys.HardKey>Connect</Keys.HardKey>-Taste zweimal.
 
--   Das automatische Verbinden lässt sich mit der Option **"Auto Connect"**
+-   Das automatische Verbinden lässt sich mit der Option <strong>"Auto Connect"</strong>
     im Menü [User Settings > Wheels](../system-settings/user-settings.md#auto-connect) (Benutzereinstellungen)
     abschalten, wenn dieses Verhalten nicht erwünscht ist. In diesem
     Fall muss immer mit der <Keys.HardKey>Connect</Keys.HardKey>-Taste die Steuerung zugeordnet
@@ -67,7 +67,7 @@ welcher davon mit den Rädern/Tasten beeinflusst werden soll.
     gespeichert. Dies lässt sich ändern, so dass solche Änderungen nur
     vorübergehend wirksam sind und beim Neu Laden einer Show die
     vorherigen Einstellungen wieder aktiviert werden. Dazu rufen Sie die
-    [User Settings](../system-settings/user-settings.md) auf (<Keys.HardKey>AVO</Keys.HardKey>-Taste + <Keys.SoftKey>User Settings</Keys.SoftKey>) und stellen auf dem Reiter Times **[Connected View Sets](../system-settings/user-settings.md#connected-view-sets)** auf **Temporary Speed**. Dessen ungeachtet lässt sich eine geänderte Geschwindigkeit 
+    [User Settings](../system-settings/user-settings.md) auf (<Keys.HardKey>AVO</Keys.HardKey>-Taste + <Keys.SoftKey>User Settings</Keys.SoftKey>) und stellen auf dem Reiter Times <strong>[Connected View Sets](../system-settings/user-settings.md#connected-view-sets)</strong> auf <strong>Temporary Speed</strong>. Dessen ungeachtet lässt sich eine geänderte Geschwindigkeit 
 	explizit speichern: drücken sie dazu im Menü <Keys.SoftKey>Set Times</Keys.SoftKey> die Taste \[Save
     Temporary Speed\].
 
@@ -81,7 +81,7 @@ angezeigt. Ebenso lässt sich die Geschwindigkeit über die Zifferntasten
 eingeben (s.u.). Die zuletzt gewählte Geschwindigkeit wird automatisch
 gespeichert.
 
-**Crossfade** ist die Überblendung zwischen den einzelnen Schritten. Bei
+<strong>Crossfade</strong> ist die Überblendung zwischen den einzelnen Schritten. Bei
 Crossfade = 0 werden die Geräte zwischen den einzelnen Schritten hart
 umgeschaltet, bei Crossfade = 100 erfolgt ein allmähliches Überblenden
 über die Gesamtdauer des Schrittes, und bei Crossfade = 50 bleiben die
@@ -93,13 +93,13 @@ andere Hälfte auf die neuen Werte über.
 Überblendung und Geschwindigkeit werden wie folgt eingestellt:
 
 1. Wählen Sie <Keys.SoftKey>Edit Times</Keys.SoftKey> aus dem Hauptmenü, und drücken dann die
-**Swop**-Taste des Chasers.
+<strong>Swop</strong>-Taste des Chasers.
 
-2. Zum Einstellen der **Überblendung** drücken Sie <Keys.SoftKey>Xfade</Keys.SoftKey> und geben mit
-den Zifferntasten einen Wert von **0 ... 100** ein *(0 = hartes
+2. Zum Einstellen der <strong>Überblendung</strong> drücken Sie <Keys.SoftKey>Xfade</Keys.SoftKey> und geben mit
+den Zifferntasten einen Wert von <strong>0 ... 100</strong> ein *(0 = hartes
 Umschalten, 100 = komplettes Überblenden etc., s.o.)*.
 
-3. Zum Eingeben der **Geschwindigkeit** drücken Sie <Keys.SoftKey>Speed</Keys.SoftKey>, geben die
+3. Zum Eingeben der <strong>Geschwindigkeit</strong> drücken Sie <Keys.SoftKey>Speed</Keys.SoftKey>, geben die
 gewünschte Geschwindigkeit ein, und drücken <Keys.HardKey>Enter</Keys.HardKey>. *Abhängig von den
 [Benutzereinstellungen](../system-settings/user-settings.md) kann die Geschwindigkeit in 'Beats Per Minute'
 (BPM) oder Sekunden eingegeben werden*.
@@ -163,9 +163,9 @@ zurückzukehren.
 Die Tasten <Keys.HardKey>Prev Step</Keys.HardKey>/<Keys.HardKey>Next Step</Keys.HardKey> (← und → auf manchen Pulten) 
 rechts neben der <Keys.HardKey>Connect</Keys.HardKey>-Taste bestimmen die Richtung des 
 verbundenen Chasers. Der Doppelpfeil <Keys.HardKey>↔</Keys.HardKey> (wenn vorhanden) steht dabei für
-**Hin und Her**: der Chaser läuft in einer Richtung bis zum Ende, dann
+<strong>Hin und Her</strong>: der Chaser läuft in einer Richtung bis zum Ende, dann
 wieder zurück zum Anfang, und so fort. Die Taste <Keys.HardKey>Review</Keys.HardKey> sorgt für
-einen **zufälligen** Ablauf. 
+einen <strong>zufälligen</strong> Ablauf. 
 
 Direktanwahl eines Schrittes
 ----------------------------

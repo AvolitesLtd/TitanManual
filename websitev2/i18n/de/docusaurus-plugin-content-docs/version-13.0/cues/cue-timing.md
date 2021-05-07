@@ -17,11 +17,11 @@ Ausblendzeit für den Cue insgesamt oder aber für einzelne Attribute und
 Geräte getrennt einstellen. Sind in dem Cue auch Shapes vorhanden, so
 werden diese, abhängig vom [Fade Mode](#fade-modes), davon auch beeinflusst.
 
-> Gibt man längere Zeiten als 60 Sekunden ein, so wird die Eingabe von der Software automatisch in Minuten und Sekunden aufgeteilt. Gibt man z.B. **115** ein, so wird das als **1:15** (also 1 Min 15 Sek) gewertet. Gibt man noch mehr Stellen ein, so werden diese als Stunden:Minuten:Sekunden interpretiert.
+> Gibt man längere Zeiten als 60 Sekunden ein, so wird die Eingabe von der Software automatisch in Minuten und Sekunden aufgeteilt. Gibt man z.B. <strong>115</strong> ein, so wird das als <strong>1:15</strong> (also 1 Min 15 Sek) gewertet. Gibt man noch mehr Stellen ein, so werden diese als Stunden:Minuten:Sekunden interpretiert.
 
 Die Überblendzeiten lassen sich zwischen den einzelnen Geräten
 verzögern, so dass der Cue nacheinander auf die einzelnen Geräte
-eingeblendet wird. Dies bezeichnet man als **Fixture Overlap**
+eingeblendet wird. Dies bezeichnet man als <strong>Fixture Overlap</strong>
 (Geräteversatz), und es gestattet, vielfältige Effekte ohne großen
 Programmieraufwand zu realisieren.
 
@@ -40,7 +40,7 @@ Gespeicherte Zeiten lassen sich wie folgt ändern:
 
 1. Drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey> im Hauptmenü.
 
-2. Drücken Sie die **Swop-Taste** des Cues.
+2. Drücken Sie die <strong>Swop-Taste</strong> des Cues.
 
 3. Drücken Sie <Keys.SoftKey>Fade Mode x</Keys.SoftKey>, um den 'Fade Mode' (Überblendmodus)
 einzustellen.\
@@ -54,11 +54,11 @@ time\] für die Eingabe der Ausblendzeit.
 ein, und schließen Sie die Eingabe mit <Keys.HardKey>Enter</Keys.HardKey> ab.
 
 6. Drücken Sie <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> zur Einstellung des Geräteversatzes,
-gefolgt von einem Wert **0...100** auf den Zifferntasten.\
-**100%** bedeutet: alle Geräte blenden gemeinsam über.\
-**0%** bedeutet: das vorherige Gerät muss die Überblendung abgeschlossen 
+gefolgt von einem Wert <strong>0...100</strong> auf den Zifferntasten.\
+<strong>100%</strong> bedeutet: alle Geräte blenden gemeinsam über.\
+<strong>0%</strong> bedeutet: das vorherige Gerät muss die Überblendung abgeschlossen 
 haben, bevor das nächste damit beginnt.\
-**50%** bedeutet: das nächste Gerät beginnt mit der Überblendung,
+<strong>50%</strong> bedeutet: das nächste Gerät beginnt mit der Überblendung,
 wenn das vorherige seine Überblendung zur Hälfte abgeschlossen hat.\
 Die
 Reihenfolge der Geräte wird bestimmt durch die Reihenfolge beim Anwählen
@@ -69,7 +69,7 @@ der Geräte *(kann aber später geändert werden, siehe [Ändern der Geräte-Rei
 
 ---
 
--   Ebenso lassen sich sowohl für die **IPCGBES**-Attributgruppen als auch
+-   Ebenso lassen sich sowohl für die <strong>IPCGBES</strong>-Attributgruppen als auch
     für jedes Attribut einzeln gesonderte Zeiten vergeben, siehe
     [Ändern der Attribut-Fadezeit](#eingeben-von-überblendzeiten-für-einzelne-attribute).
 
@@ -132,7 +132,7 @@ paarweise zusammenzufassen)*.
 
 1. Drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey> im Hauptmenü.
 
-2. Drücken Sie die **Swop-Taste** des zu ändernden Cues.
+2. Drücken Sie die <strong>Swop-Taste</strong> des zu ändernden Cues.
 
 3. Drücken Sie <Keys.SoftKey>Fixture Order</Keys.SoftKey>.
 
@@ -140,8 +140,8 @@ paarweise zusammenzufassen)*.
 Menütaste <Keys.HardKey>A</Keys.HardKey>.
 
 5. Soll die Schrittnummer automatisch erhöht werden, so stellen Sie
-<Keys.SoftKey>Autoincrement</Keys.SoftKey> auf **On**. Sollen mehrere Geräte die gleiche
-Schrittnummer bekommen, stellen Sie diese Option auf **Off**.
+<Keys.SoftKey>Autoincrement</Keys.SoftKey> auf <strong>On</strong>. Sollen mehrere Geräte die gleiche
+Schrittnummer bekommen, stellen Sie diese Option auf <strong>Off</strong>.
 
 6. Betätigen Sie die Schaltfläche des Gerätes, das Sie an dieser Stelle
 in der Sequenz haben möchten. Die Schrittnummer wird jeweils oben rechts
@@ -174,7 +174,7 @@ vor:
 
 1. Drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey> im Hauptmenü.
 
-2. Drücken Sie die **Swop-Taste** des jeweiligen Cues.
+2. Drücken Sie die <strong>Swop-Taste</strong> des jeweiligen Cues.
 
 3. Drücken Sie die Taste der Attributgruppe (IPCGBES Buttons, oder 
 rechts auf dem Pult bei älteren Pulten) des Attributes, das Sie ändern möchten.
@@ -253,8 +253,8 @@ einstellen; wählen Sie dazu mit der Funktionstaste <Keys.SoftKey>Wheels</Keys.S
 Hauptmenü die gewünschte Arbeitsweise der Räder.
 
 Mit der Taste <Keys.HardKey>Options</Keys.HardKey> lassen sich, während die Zeiten angezeigt
-werden, die Parameter **Speed**, **Effect Multiplier**, **Speed Multiplier** und
-**Speed Source** im Programmer, so dass sie einfach direkt in die nächsten
+werden, die Parameter <strong>Speed</strong>, <strong>Effect Multiplier</strong>, <strong>Speed Multiplier</strong> und
+<strong>Speed Source</strong> im Programmer, so dass sie einfach direkt in die nächsten
 Playbacks gespeichert werden können. Speed und Speed Multiplier haben nur
 Auswirkungen auf [Chaser](../chases.md), nicht auf einzelne Cues.
 

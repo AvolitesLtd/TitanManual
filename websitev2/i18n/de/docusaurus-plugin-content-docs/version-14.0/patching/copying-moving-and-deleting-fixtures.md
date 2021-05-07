@@ -27,7 +27,7 @@ Das Verschieben ist sinnvoll, um eine übersichtliche Arbeitsoberfläche
 zu erhalten.
 
 1.  Betätigen Sie die Taste <Keys.HardKey>Copy</Keys.HardKey> zum Kopieren bzw. <Keys.HardKey>Move</Keys.HardKey> zum 
-    Verschieben (auf Pulten ohne eine **Move**-Taste dient <Keys.HardKey>Avo</Keys.HardKey> + 
+    Verschieben (auf Pulten ohne eine <strong>Move</strong>-Taste dient <Keys.HardKey>Avo</Keys.HardKey> + 
 	<Keys.HardKey>Copy</Keys.HardKey> zum Verschieben).
 	
 2.  Drücken Sie die Auswahltaste/Schaltfläche des zu kopierenden/

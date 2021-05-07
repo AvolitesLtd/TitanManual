@@ -73,7 +73,7 @@ Schaltflächen, über die weitere Funktionen erreichbar sind.
 
 ![Capture Settings Window](/docs/images/Camera-movements-in-Capture-Visualiser-Workspace-Window.png)
 
-Die Schaltfläche für das **Kontext-Menü** gibt es nur beim Sapphire Touch
+Die Schaltfläche für das <strong>Kontext-Menü</strong> gibt es nur beim Sapphire Touch
 und beim Titan Go; mit ihr wird ein zusätzliches Menü der mit diesem
 Fenster verknüpften Funktionen angezeigt.
 
@@ -86,7 +86,7 @@ wird die Anzeige bei aktiviertem Patch-View-Fenster dargestellt.
 
 ![Context Menu](/docs/images/Context-Menu.png)
 
-Mit den **Optionen für die Arbeitsfenster** (stilisiertes Zahnrad)
+Mit den <strong>Optionen für die Arbeitsfenster</strong> (stilisiertes Zahnrad)
 können Größe und Position der Fenster auf verschiedene Standardwerte
 gesetzt und die Größe der Schaltflächen sowie die Schriftgröße für jedes
 Fenster getrennt eingestellt werden. Die verfügbaren und angezeigten
@@ -300,7 +300,7 @@ Wird ein [Halo für Geräte-Tasten](../patching/changing-the-patch.md#halo-für-
 so wird dessen Farbe auch in anderen Fenstern verwendet. Außerdem können 
 automatisch unterschiedliche Halos pro Gerätetyp vergeben werden.
 
-**Trackball (nur beim Sapphire Touch)**
+<strong>Trackball (nur beim Sapphire Touch)</strong>
 ---------------------------------------
 
 Mit dem Trackball rechts auf dem Pult lässt sich entweder die Maus
@@ -316,7 +316,7 @@ Um in den Modus zur Gerätesteuerung zu schalten, drücken Sie
 <Keys.HardKey>Assign</Keys.HardKey> + <Keys.HardKey>Right</Keys.HardKey>: nun steuert der Trackball Pan und Tilt, und mit
 dem Ring kann Tilt sehr fein geregelt werden.
 
-**Bildschirmtastatur**
+<strong>Bildschirmtastatur</strong>
 ----------------------
 
 Am Ende der Werkzeugleiste (am Mittelsteg zwischen den Bildschirmen beim

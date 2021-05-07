@@ -12,15 +12,15 @@ Zeit- und Überblendoptionen für Cuelisten
 
 Zeiteinstellungen erfolgen stets für jeden Schritt einer Cueliste
 einzeln. Im Display wird angezeigt, welcher Schritt aktuell bearbeitet
-wird. Zum Auswählen des Schrittes dient **Encoder A** oder **Menütaste A** aus
-dem **Menü Cue Times**.
+wird. Zum Auswählen des Schrittes dient <strong>Encoder A</strong> oder <strong>Menütaste A</strong> aus
+dem <strong>Menü Cue Times</strong>.
 
 *Weitere Details zu Überblendungen und Geräteversatz sind den [unten aufgeführten Diagrammen](#schrittfolge-und-versatz) zu entnehmen.*
 
-1. Drücken Sie **Menütaste A** <Keys.SoftKey>Edit Times</Keys.SoftKey> aus dem Hauptmenü, dann die
-**Select-Taste** der Cueliste.
+1. Drücken Sie <strong>Menütaste A</strong> <Keys.SoftKey>Edit Times</Keys.SoftKey> aus dem Hauptmenü, dann die
+<strong>Select-Taste</strong> der Cueliste.
 
-2. Zum Wechseln des zu bearbeitenden Schritts blättern Sie mit **Encoder A**
+2. Zum Wechseln des zu bearbeitenden Schritts blättern Sie mit <strong>Encoder A</strong>
 durch die Liste der Schritte, oder drücken <Keys.SoftKey>Cue Number</Keys.SoftKey>, geben mit den
 Zifferntasten die gewünschte Schrittnummer ein und bestätigen das mit
 <Keys.HardKey>Enter</Keys.HardKey>. 
@@ -30,22 +30,22 @@ Zifferntasten die gewünschte Schrittnummer ein und bestätigen das mit
       Schritt umschalten.
 
 	- Man kann auch eine ganze Reihe von Schritten auswählen, um deren
-      Zeiten gleichzeitig zu ändern: nutzen Sie dazu **Encoder B**, 
+      Zeiten gleichzeitig zu ändern: nutzen Sie dazu <strong>Encoder B</strong>, 
 	  oder markieren Sie diese im Fenster [Playback
       View](editing-cue-lists.md#das-fenster-playback-view).
 
-3. **Stellen Sie die Zeiten wie gewünscht ein.**
+3. <strong>Stellen Sie die Zeiten wie gewünscht ein.</strong>
 
-    -   Um die **Verzögerung** zwischen dem Betätigen der <Keys.HardKey>Go</Keys.HardKey>-Taste und dem
+    -   Um die <strong>Verzögerung</strong> zwischen dem Betätigen der <Keys.HardKey>Go</Keys.HardKey>-Taste und dem
     tatsächlichen Start des Schrittes einzustellen, drücken Sie \[Delay
     In\], geben die gewünschte Zeit in Sekunden ein, und drücken
     <Keys.HardKey>Enter</Keys.HardKey>.
 
-    -   Zum Einstellen der **Einblendzeit** betätigen Sie <Keys.SoftKey>Fade In</Keys.SoftKey>, geben die
+    -   Zum Einstellen der <strong>Einblendzeit</strong> betätigen Sie <Keys.SoftKey>Fade In</Keys.SoftKey>, geben die
     Zeit in Sekunden ein, und drücken <Keys.HardKey>Enter</Keys.HardKey>. *Diese Zeit gilt sowohl
     für HTP- als auch für LTP-Kanäle.*
 
-    -   Die **Ausblendzeit** des Schrittes ist zunächst gleich der Einblendzeit.
+    -   Die <strong>Ausblendzeit</strong> des Schrittes ist zunächst gleich der Einblendzeit.
     Zum Ändern der Ausblendzeit drücken Sie <Keys.SoftKey>Fade Out</Keys.SoftKey>, geben die Zeit
     in Sekunden ein, und drücken <Keys.HardKey>Enter</Keys.HardKey>. Um wieder den gleichen Wert
     wie die Einblendzeit zu erhalten, löschen Sie die Ausblendzeit und
@@ -54,7 +54,7 @@ Zifferntasten die gewünschte Schrittnummer ein und bestätigen das mit
     wird mit dem Start des nächsten Cues dieser ein- und der alte in 1
     Sek. ausgeblendet*.
 
-    -   Die **Ausschaltverzögerung** (<Keys.SoftKey>Delay Out</Keys.SoftKey>) wird üblicherweise
+    -   Die <strong>Ausschaltverzögerung</strong> (<Keys.SoftKey>Delay Out</Keys.SoftKey>) wird üblicherweise
     verwendet, wenn der nächste Schritt automatisch nach diesem folgen
     soll, und bestimmt die Zeit bis zum Start/Einblenden des folgenden
     Schritts. Damit würde der vorherige Cue zunächst ausblenden, und der
@@ -70,9 +70,9 @@ umfassen:
 
 Link Option | Action
 ---|---
-**<Keys.SoftKey>Link Wait For Go</Keys.SoftKey>** | 'Warten auf Go': der Schritt wartet auf das Betätigen der <Keys.HardKey>Go</Keys.HardKey>-Taste und startet dann sofort; *ein Versatz zwischen Schritten ist nicht möglich.*
-**<Keys.SoftKey>Link After Previous Cue</Keys.SoftKey>** | 'Start nach vorigem Schritt': der Schritt startet, wenn der vorige seine Warte- und Überblendzeiten durchlaufen hat. Zusätzlich lässt sich ein Versatz (Offset) eingeben, als Verzögerung zwischen dem Ende des vorigen und dem Start des neuen Schritts. Der Versatz kann entweder in Sekunden, oder als Prozentsatz der Überblendzeit des vorigen Schrittes, eingegeben werden.
-**<Keys.SoftKey>Link With Previous Cue</Keys.SoftKey>** | 'Start mit dem vorigen Schritt': der Schritt startet gleichzeitig mit dem vorigen. Ein Versatz (Offset), anzugeben in Sekunden oder in Prozent der Überblendzeiten des vorigen Schrittes, bestimmt die Verzögerung zwischen den Schritten.
+<strong><Keys.SoftKey>Link Wait For Go</Keys.SoftKey></strong> | 'Warten auf Go': der Schritt wartet auf das Betätigen der <Keys.HardKey>Go</Keys.HardKey>-Taste und startet dann sofort; *ein Versatz zwischen Schritten ist nicht möglich.*
+<strong><Keys.SoftKey>Link After Previous Cue</Keys.SoftKey></strong> | 'Start nach vorigem Schritt': der Schritt startet, wenn der vorige seine Warte- und Überblendzeiten durchlaufen hat. Zusätzlich lässt sich ein Versatz (Offset) eingeben, als Verzögerung zwischen dem Ende des vorigen und dem Start des neuen Schritts. Der Versatz kann entweder in Sekunden, oder als Prozentsatz der Überblendzeit des vorigen Schrittes, eingegeben werden.
+<strong><Keys.SoftKey>Link With Previous Cue</Keys.SoftKey></strong> | 'Start mit dem vorigen Schritt': der Schritt startet gleichzeitig mit dem vorigen. Ein Versatz (Offset), anzugeben in Sekunden oder in Prozent der Überblendzeiten des vorigen Schrittes, bestimmt die Verzögerung zwischen den Schritten.
 
 ![Cue List Linking Diagram](/docs/images/Cue-List-Linking-Diagram.png)
 
@@ -89,12 +89,12 @@ Schritten realisieren. Ist etwa folgender Effekt gewünscht:
 
 so könnte man das wie folgt programmieren:
 
--   **Cue 1**: Gerät 1 @ 100%, Fade In 20s, Link Wait For Go
+-   <strong>Cue 1</strong>: Gerät 1 @ 100%, Fade In 20s, Link Wait For Go
 
--   **Cue 2**: Gerät 2@ 100%, Fade In 15s, Link With Previous, Link
+-   <strong>Cue 2</strong>: Gerät 2@ 100%, Fade In 15s, Link With Previous, Link
     Offset 10s
 
--   **Cue 3**: Geräte 1 und 2 @ 0%, Fade Out 3s, Link After Previous,
+-   <strong>Cue 3</strong>: Geräte 1 und 2 @ 0%, Fade Out 3s, Link After Previous,
     Link Offset 5s
 
 > Für einen Effekt, der als 'Cue Overlap' (Schritt-Überlappen) in früheren Versionen verfügbar war, verwenden Sie <Keys.SoftKey>Link With Previous Cue</Keys.SoftKey>, und geben den Versatz (Offset) in % an. Link Offset = 100% ergibt ein 'Overlap' von 0% und umgekehrt.
@@ -102,7 +102,7 @@ so könnte man das wie folgt programmieren:
 Individuelle Einblendzeiten für Attribute
 -----------------------------------------
 
-Für jede Attributgruppe **IPCGBES** lassen sich getrennte Einblendzeiten
+Für jede Attributgruppe <strong>IPCGBES</strong> lassen sich getrennte Einblendzeiten
 vergeben. Ebenso lässt sich bestimmen, für welches Gerät diese Zeit
 gilt. So lässt sich etwa bestimmen, dass die Position in 2s wechselt,
 der Farbwechsel aber 10s dauert.
@@ -125,8 +125,8 @@ alle abzuwählen.
 
 3. Drücken Sie die Auswahltaste der gewünschten Attributgruppe.
 
-4. Drücken Sie A <Keys.SoftKey>Delay</Keys.SoftKey> zum Einstellen der **Verzögerung**, oder B
-<Keys.SoftKey>Fade</Keys.SoftKey> zum Einstellen der **Überblendzeit**. Mit G <Keys.SoftKey>Use Global</Keys.SoftKey>
+4. Drücken Sie A <Keys.SoftKey>Delay</Keys.SoftKey> zum Einstellen der <strong>Verzögerung</strong>, oder B
+<Keys.SoftKey>Fade</Keys.SoftKey> zum Einstellen der <strong>Überblendzeit</strong>. Mit G <Keys.SoftKey>Use Global</Keys.SoftKey>
 entfernen Sie die individuellen Zeiten wieder und kehren zu den
 normalen/allgemeinen Zeiten für den Schritt zurück.
 
@@ -189,13 +189,13 @@ oder per MIDI, je nach Pult SMPTE oder Winamp eingespeist werden. Der
 interne Timecode ist besonders hilfreich beim Programmieren einer Show,
 die später von einem externen Timecode gesteuert werden soll.
 
-1. **Connecten** Sie die Cueliste, für die Sie den Timecode aktivieren
+1. <strong>Connecten</strong> Sie die Cueliste, für die Sie den Timecode aktivieren
 möchten.
 
 2. Wählen Sie <Keys.SoftKey>Timecode</Keys.SoftKey> aus dem Hauptmenü.
 
-3. Wählen Sie mit **Menütaste A** Timecode 1, 2, 3 oder 4, und mit
-**Taste B** die Timecode-Quelle.
+3. Wählen Sie mit <strong>Menütaste A</strong> Timecode 1, 2, 3 oder 4, und mit
+<strong>Taste B</strong> die Timecode-Quelle.
 
 4. Drücken Sie <Keys.SoftKey>Record</Keys.SoftKey>.
 

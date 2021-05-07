@@ -10,7 +10,7 @@ import Keys from '@site/src/components/key.ts';
 Arbeitsweise des Pultes beim Programmieren
 ------------------------------------------
 Sobald ein oder mehrere Dimmer/Geräte zum Steuern ausgewählt werden,
-werden diese in den ***Editor*** geladen. Nun lassen sich mit den [Encodern (Wheels)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern) und
+werden diese in den <strong><em>Editor</em></strong> geladen. Nun lassen sich mit den [Encodern (Wheels)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern) und
 [Paletten](../palettes.md) die Einstellungen der Geräte verändern; ebenso lassen sich
 Shapes anwenden.
 
@@ -18,7 +18,7 @@ Wird ein Gerät angewählt, nachdem bereits Änderungen vorgenom­men
 wurden, wird die aktuelle Geräteliste im Editor geleert und eine neue begonnen.
 
 Alle seit der letzten Betätigung der <Keys.HardKey>Clear</Keys.HardKey>-Taste veränderten Geräte
-und Attribute werden im ***Programmer (Programmierspeicher)*** gespeichert. 
+und Attribute werden im <strong><em>Programmer (Programmierspeicher)</em></strong> gespeichert. 
 Auch die Reihenfolge der Auswahl der Geräte wird dort gespeichert und ggf. etwa
 bei [Shapes/Effekten](../effects.md) und beim Überblenden ([Geräte-Überlappung/Fixture Overlap](cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz)) verwendet. 
 Beim Speichern des Cues wird schließlich der Inhalt des Programmierspeichers 
@@ -56,7 +56,7 @@ Speichermodus).
 
 3. Betätigen Sie die Taste <Keys.HardKey>Record</Keys.HardKey> *(<Keys.HardKey>Record Cue</Keys.HardKey> auf älteren Pulten)*.
 
-4. Drücken Sie die **Swop-Taste** eines freien Playbacks; freie
+4. Drücken Sie die <strong>Swop-Taste</strong> eines freien Playbacks; freie
 Speicherplätze werden durch blinkende LEDs angezeigt. Ebenso lässt
 sich ein Cue auf eine Schaltfläche im Fenster 'Playbacks' speichern.
 
@@ -87,7 +87,7 @@ Schaltflächen im Fenster 'Playbacks' gespeichert werden.
 
 -   Unten im Bildschirm wird eine Bezeichnung des jeweiligen Cues
     angezeigt. Um diese einzustellen, drücken Sie <Keys.SoftKey>Set Legend</Keys.SoftKey>, dann
-    die jeweilige **Swop-Taste** des entsprechenden Playbacks, und geben
+    die jeweilige <strong>Swop-Taste</strong> des entsprechenden Playbacks, und geben
     die Bezeichnung über die Tastatur ein oder machen eine Skizze auf dem 
 	Bildschirm. Beenden Sie die Eingabe mit <Keys.HardKey>Enter</Keys.HardKey>. *Handelt es sich um 
 	einen Speicherplatz ohne zugehörigen Bildschirmbereich - etwa nur eine 
@@ -102,7 +102,7 @@ Schaltflächen im Fenster 'Playbacks' gespeichert werden.
 Quick Build -- Cues schnellspeichern
 ------------------------------------
 
-Stellt man <Keys.SoftKey>Record Mode</Keys.SoftKey> auf **Quick Build**, so lassen sich Cues aus
+Stellt man <Keys.SoftKey>Record Mode</Keys.SoftKey> auf <strong>Quick Build</strong>, so lassen sich Cues aus
 bereits programmierten Cues und Paletten erstellen (wie auch per
 [Include](editing-cues.md#cues-wiederverwenden---die-include-funktion)).
 
@@ -126,7 +126,7 @@ Ebenso können Sie einen Shape ohne Basiswerte speichern; ein Cue wie
 dieser kann gemeinsam mit anderen Cues abgerufen werden, überlagert dann
 die dort abgespeicherten Werte/Shapes und ergibt vielfältige
 Kombinationsmöglichkeiten. Zum Speichern eines solchen Cues nutzen Sie
-den Modus **Record by Channel** sowie die ['Off'-Funktion](editing-cues.md#deaktivieren-von-attributen-in-cues-mit-off), um die anderen
+den Modus <strong>Record by Channel</strong> sowie die ['Off'-Funktion](editing-cues.md#deaktivieren-von-attributen-in-cues-mit-off), um die anderen
 Attribute aus dem Programmierspeicher zu entfernen.
 
 Blind-Modus

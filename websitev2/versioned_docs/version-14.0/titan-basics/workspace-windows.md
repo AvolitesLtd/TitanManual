@@ -63,7 +63,7 @@ View window showing patch details for that fixture.
 At the top right of each workspace window are three or four buttons
 which access other functions for the window.
 
-The **Window Appearance Options** button (<Keys.ContextKey>Cog</Keys.ContextKey> button) lets you select the
+The <strong>Window Appearance Options</strong> button (<Keys.ContextKey>Cog</Keys.ContextKey> button) lets you select the
 standard window sizes and positions (top left quarter, top right quarter etc.)
 Buttons are also shown allowing you
 to set the button size and the text size of the buttons in the window, and move the
@@ -74,7 +74,7 @@ arranged, see [Controlling button layout/grid](../titan-basics/workspace-windows
 
 ![Window Appearance Menu](/docs/images/Window-Appearance-Options.png)
 
-The **Resize Window** button allows you to set adjustable window sizes.
+The <strong>Resize Window</strong> button allows you to set adjustable window sizes.
 A grid screen will open.
 
 ![Resize](/docs/images/Resize.png)
@@ -113,13 +113,15 @@ use the <Keys.SoftKey>Close All</Keys.SoftKey> softkey.
 On all consoles apart from Sapphire Touch and Titan Go, **context menu 
 buttons** are automatically shown below the prompt area on the top right 
 of the main screen. These buttons contain useful functions for the current
-active window and change depending on the window. \
+active window and change depending on the window. 
+
+
 The picture below gives an example of
 how the context buttons appear when Patch View window is active.
 
 ![Context Menu](/docs/images/Context-Menu.png)
 
-On Sapphire Touch and Titan Go each window has a **Context Menu button** 
+On Sapphire Touch and Titan Go each window has a <strong>Context Menu button</strong> 
 in the top window bar, which gives a drop down menu showing the
 context menu buttons for the current window.
 
@@ -197,7 +199,9 @@ will behave if you load more windows, and to be able to target particular window
 	allowing you to recall it onto a different screen.
 	
 
->	**Screen numbering**\
+>	<strong>Screen numbering</strong>
+
+
 	On consoles with a single internal screen, that is (1) and the external screen is (2).
 	On Arena 	the main screen is (1), the mini screen (2) and the external screen (3). 
 	On Sapphire Touch the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).

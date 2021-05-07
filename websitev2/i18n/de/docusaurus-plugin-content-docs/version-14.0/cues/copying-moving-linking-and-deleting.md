@@ -10,8 +10,8 @@ import Keys from '@site/src/components/key.ts';
 Kopieren eines Cues
 -------------------
 
-Mittels der Taste <Keys.HardKey>Copy</Keys.HardKey> lässt sich eine **Kopie** eines Cues anfertigen
-oder ein Speicherplatz als **Verknüpfung** zu einem bestehenden Cue anlegen. 
+Mittels der Taste <Keys.HardKey>Copy</Keys.HardKey> lässt sich eine <strong>Kopie</strong> eines Cues anfertigen
+oder ein Speicherplatz als <strong>Verknüpfung</strong> zu einem bestehenden Cue anlegen. 
 Es lassen sich auch mehrere Speicherplätze (nicht nur Cues, sondern auch
 [Chaser](../chases.md) or [Cuelisten](../cue-lists.md)) in einem Arbeitsgang
 kopieren.
@@ -26,13 +26,13 @@ der originale Cue, können aber individuelle [Zeiten](cue-timing.md) und
 2. Zum Anlegen einer Verknüpfung drücken Sie nochmals auf <Keys.HardKey>Copy</Keys.HardKey> oder wählen
 die Menütaste <Keys.SoftKey>Link</Keys.SoftKey>.
 
-3. Drücken Sie die **Auswahltaste** des Cues, den Sie kopieren möchten.
+3. Drücken Sie die <strong>Auswahltaste</strong> des Cues, den Sie kopieren möchten.
 Sie können eine Reihe von Cues auswählen, indem Sie die Taste des ersten
 gedrückt halten und die Taste des letzten dazu betätigen. Ebenso können
 mit <Keys.HardKey>Thro</Keys.HardKey> und <Keys.HardKey>And</Keys.HardKey> mehrere Cues auf einmal ausgewählt werden (ggf.
 <Keys.HardKey>And</Keys.HardKey> gedrückt halten).
 
-4. Drücken Sie eine unbelegte **Auswahltaste**, zu der der Cue
+4. Drücken Sie eine unbelegte <strong>Auswahltaste</strong>, zu der der Cue
 kopiert/verknüpft werden soll; werden mehrere Playbacks kopiert, so werden 
 diese ab dort auf die folgenden freien Plätze eingefügt.
 
@@ -57,17 +57,17 @@ Verschieben eines Cues
 ----------------------
 
 Mit der Taste <Keys.HardKey>Move</Keys.HardKey> lassen sich Playbacks (Cues, Chaser, Cuelisten) 
-auf andere Tasten und Fader verschieben. **Move/Verschieben** ist sinnvoll, 
+auf andere Tasten und Fader verschieben. <strong>Move/Verschieben</strong> ist sinnvoll, 
 um das Pult 'aufzuräumen', Playbacks zu ordnen oder auf andere Seiten zu 
 gruppieren.
 
 Wie beim Kopieren lassen sich auch mehrere Playbacks auf einmal verschieben,
 indem Sie die Taste des ersten gedrückt halten und die Taste des letzten 
 dazu betätigen, oder sie wählen wieder mit <Keys.HardKey>Thro</Keys.HardKey> und <Keys.HardKey>And</Keys.HardKey> mehrere Cues 
-auf einmal aus. Und mit <Keys.HardKey>Menu Latch</Keys.HardKey> kann auch das **Move**-Menü fixiert werden.
+auf einmal aus. Und mit <Keys.HardKey>Menu Latch</Keys.HardKey> kann auch das <strong>Move</strong>-Menü fixiert werden.
 
 -   Einige Pulte haben eventuell keine Move-Taste. In diesem Fall halten
-	Sie die Taste <Keys.HardKey>Avo</Keys.HardKey> gedrückt und drücken dazu <Keys.HardKey>Copy</Keys.HardKey>, um die **Move**-Funktion 
+	Sie die Taste <Keys.HardKey>Avo</Keys.HardKey> gedrückt und drücken dazu <Keys.HardKey>Copy</Keys.HardKey>, um die <strong>Move</strong>-Funktion 
 	zu aktivieren.
 
 -   Im Modus 'Move' (Verschieben) dient die Option \[Swap Items if
@@ -82,9 +82,9 @@ Um einen Cue zu löschen:
 
 1. Drücken Sie die <Keys.HardKey>Delete</Keys.HardKey>-Taste.
 
-2. Betätigen Sie die **Swop-Taste** des zu löschenden Cues.
+2. Betätigen Sie die <strong>Swop-Taste</strong> des zu löschenden Cues.
 
-3. Drücken Sie die **Swop-Taste** zur Bestätigung nochmals (oder
+3. Drücken Sie die <strong>Swop-Taste</strong> zur Bestätigung nochmals (oder
 bestätigen Sie mit <Keys.HardKey>Enter</Keys.HardKey>).
 
 ---

@@ -33,15 +33,15 @@ oder mehrere Dimmer und Geräte aktivieren und auf Locate-Werte setzen.
 Die Steuerung erfolgt unter Verwendung der Gerätenummern. Möchte man
 z.B. Dimmer Nr. 3 auf 50% setzen, so lautet die Eingabe
 
-**`3 @ 5 Enter`**
+<strong>`3 @ 5 Enter`</strong>
 
 Um die Dimmer 1 bis 10 auf 80% zu setzen:
 
-**`1 Thro 10 @ 8 Enter`**
+<strong>`1 Thro 10 @ 8 Enter`</strong>
 
 Für 100% klicken Sie zweimal auf @, z.B.
 
-**`1 Thro 10 @ @`**
+<strong>`1 Thro 10 @ @`</strong>
 
 > 	Um ein oder mehrere Geräte auf Locate-Werte zu setzen, klicken Sie statt
 	auf @ auf <Keys.SoftKey>Locate</Keys.SoftKey>.
@@ -49,7 +49,7 @@ Für 100% klicken Sie zweimal auf @, z.B.
 Es können mehrere Bereiche von Geräten mit der AND-Taste ausgewählt
 werden, z.B.
 
-**`1 Thro 10 And 20 Thro 30 @ 6 Enter`**.
+<strong>`1 Thro 10 And 20 Thro 30 @ 6 Enter`</strong>.
 
 Steuern von Geräten
 -------------------
@@ -60,8 +60,8 @@ gewünschten Geräte aus.
 
 ![Fixture View in Titan Remote Android App](/docs/images/Fixture-View-in-Titan-Remote-Android-App.png)
 
-Sind Geräte ausgewählt, so können Sie auf den **Paletten**-Ansichten
-Paletten aufrufen oder mit den Schaltflächen **IPCGBES** direkt einzelne
+Sind Geräte ausgewählt, so können Sie auf den <strong>Paletten</strong>-Ansichten
+Paletten aufrufen oder mit den Schaltflächen <strong>IPCGBES</strong> direkt einzelne
 Attribute steuern.
 
 In der Geräteansicht können Sie durch Klicken und Ziehen nach oben und
@@ -79,7 +79,7 @@ Durchschalten durch die Funktionen klicken Sie auf die Pfeile ganz oben
 bzw. unten bei jedem Rad. Zum kontinuierlichen Drehen der Räder klicken
 und ziehen Sie diese. Gibt es mehr als drei Attribute in der jeweiligen
 Attributgruppe des Gerätes, klicken Sie zum Durchschalten wiederholt auf
-die entsprechende **IPCGBES**-Schaltfläche.
+die entsprechende <strong>IPCGBES</strong>-Schaltfläche.
 
 Klicken Sie auf <Keys.SoftKey>Clear</Keys.SoftKey>, um den Programmierspeicher der Remote zu
 löschen. Wenn Sie <Keys.SoftKey>Clear</Keys.SoftKey> länger anklicken, so werden alle
@@ -87,7 +87,7 @@ Programmierspeicher gelöscht, also auch der des Pultes. Das kann
 sinnvoll sein, wenn dort versehentlich noch etwas aktiv ist, was bei der
 Verwendung der Remote stört.
 
-In der **Cue**-Ansicht können auch im Fenster 'Playbacks' gespeicherte 
+In der <strong>Cue</strong>-Ansicht können auch im Fenster 'Playbacks' gespeicherte 
 Cues gestartet werden. Hält man die Schaltfläche eines aktiven Cues 
 angeklickt, so kann man diesen deaktivieren oder releasen (freigeben).
 

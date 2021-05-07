@@ -8,9 +8,9 @@ original_id: chase-options
 import Keys from '@site/src/components/key.ts';
 
 To set options for a chase, press <Keys.HardKey>Options</Keys.HardKey> or <Keys.SoftKey>Options</Keys.SoftKey> on the root menu,
-then press the **Select** button of the playback to be edited. Options will
+then press the <strong>Select</strong> button of the playback to be edited. Options will
 be shown on the softkeys. You can also set options from the Chase View window, press
-<Keys.HardKey>View/Open</Keys.HardKey> then the **Select** button of the playback, then click the
+<Keys.HardKey>View/Open</Keys.HardKey> then the <strong>Select</strong> button of the playback, then click the
 Options tab.
 
 ![Playback Options (playback tab) for a chase](/docs/images/Playback-Options-Chase-Playback-Tab.png)
@@ -40,8 +40,12 @@ are:
 <Keys.SoftKey>Link according to individual steps</Keys.SoftKey> - Each step in the chase will obey its 
 individual link settings which are set using the
 [Playback View window](editing-a-chase.md#opening-a-chase-for-editing)
-or the [<Keys.HardKey>Unfold</Keys.HardKey> function](editing-a-chase.md#editing-a-chase-using-unfold).\
-<Keys.SoftKey>Always Link Steps</Keys.SoftKey> - The chase will run on its own using the times\
+or the [<Keys.HardKey>Unfold</Keys.HardKey> function](editing-a-chase.md#editing-a-chase-using-unfold).
+
+
+<Keys.SoftKey>Always Link Steps</Keys.SoftKey> - The chase will run on its own using the times
+
+
 <Keys.SoftKey>Never Link Steps</Keys.SoftKey> - The chase will pause after every delay/fade time
 for the user to press <Keys.HardKey>Go</Keys.HardKey>
 
@@ -50,7 +54,9 @@ for the user to press <Keys.HardKey>Go</Keys.HardKey>
 ### Loop Action
 Sets what happens at the end of the chase:
 
-<Keys.SoftKey>Stop on Final Cue</Keys.SoftKey> - Chase stops at the end\
+<Keys.SoftKey>Stop on Final Cue</Keys.SoftKey> - Chase stops at the end
+
+
 <Keys.SoftKey>Loop</Keys.SoftKey> - The chase will loop back to the beginning
 
 ### Play Order

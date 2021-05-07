@@ -65,16 +65,16 @@ TNP               | `192.168.1.31`    | `255.255.255.0`
 Gerät             | IP-Adresse        | Subnetzmaske
 ---               | ---               | ---
 Titan-Pult        | `2.100.100.100`   | `255.0.0.0`
-Art-Net-Geräte    | `2.x.y.z` **\***  | `255.0.0.0`
+Art-Net-Geräte    | `2.x.y.z` <strong>\</strong>*  | `255.0.0.0`
 
 *Alternativ:*
 
 Gerät             | IP-Adresse        | Subnetzmaske
 ---               | ---               | ---
 Titan-Pult        | `10.100.100.100`  | `255.0.0.0`
-Art-Net-Geräte    | `10.x.y.z` **\*** | `255.0.0.0`
+Art-Net-Geräte    | `10.x.y.z` <strong>\</strong>* | `255.0.0.0`
 
-**\*** *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
+<strong>\</strong>* *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
 vergeben.*
 
 ### Titan-Pult und TNP, Ausgang über Art-Net (und DMX)
@@ -83,7 +83,7 @@ Gerät             | IP-Adresse        | Subnetzmaske
 ---               | ---               | ---
 Titan-Pult        | `2.100.100.100`   | `255.0.0.0`
 TNP               | `2.100.100.101`   | `255.0.0.0`
-Art-Net-Geräte    | `2.x.y.z` **\***  | `255.0.0.0`
+Art-Net-Geräte    | `2.x.y.z` <strong>\</strong>*  | `255.0.0.0`
 
 *Alternativ:*
 
@@ -91,9 +91,9 @@ Gerät             | IP-Adresse        | Subnetzmaske
 ---               | ---               | ---
 Titan-Pult        | `10.100.100.100`  | `255.0.0.0`
 TNP               | `10.100.100.101`  | `255.0.0.0`
-Art-Net-Geräte    | `10.x.y.z` **\*** | `255.0.0.0`
+Art-Net-Geräte    | `10.x.y.z` <strong>\</strong>* | `255.0.0.0`
 
-**\*** *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
+<strong>\</strong>* *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
 vergeben.*
 
 >	Verwenden Sie niemals '255' an letzter Stelle der IP-Adresse; dies ist eine spezielle Adresse und wird nicht funktionieren.

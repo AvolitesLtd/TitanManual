@@ -16,15 +16,15 @@ Programming a Timeline using Live Record
 Live record is useful to capture a busked show, where you are operating the playbacks manually in time with music or other live cues. You can do a live record multiple times on the same timeline to build up a more complex show.
 
 >  Live record does not record the following elements: <br/>
-    Recall of **Palettes** will not be recorded. You need to save looks to a playback to use them on a timeline.<br/>
-    The state of **Masters** is not recorded, so Group, BPM, Size, Rate and Intensity masters will be recorded as if at 100%. If you play back the timeline after changing masters then it could look different - you can [release all masters](../cues/cue-playback.md#releasing-a-master) before recording the timeline to see what is actually being recorded. Masters can then be used to modify the timeline playback for live/busking use.<br/>
-    Actions triggered via the **Scene Master** are not recorded. 
+    Recall of <strong>Palettes</strong> will not be recorded. You need to save looks to a playback to use them on a timeline.<br/>
+    The state of <strong>Masters</strong> is not recorded, so Group, BPM, Size, Rate and Intensity masters will be recorded as if at 100%. If you play back the timeline after changing masters then it could look different - you can [release all masters](../cues/cue-playback.md#releasing-a-master) before recording the timeline to see what is actually being recorded. Masters can then be used to modify the timeline playback for live/busking use.<br/>
+    Actions triggered via the <strong>Scene Master</strong> are not recorded. 
 
 This is how you program a timeline using Live Record, from playbacks which you have previously programmed:
 
 1. If you have external timecode source selected but want to use internal timecode for recording, tap the "Timecode Disconnect" <Keys.ContextKey>Link</Keys.ContextKey> button so it shows a broken link.
 
-2. Press <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Timeline</Keys.SoftKey>, then the **Select** of the blank fader where you want to store the timeline. The Timeline View window will automatically open.
+2. Press <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Timeline</Keys.SoftKey>, then the <strong>Select</strong> of the blank fader where you want to store the timeline. The Timeline View window will automatically open.
 
 3. Press the <Keys.ContextKey>Record</Keys.ContextKey> button in the top left of the Timeline View window.
 
@@ -43,7 +43,7 @@ You can add triggers to an existing track or create a new track by tapping on th
 
 You should now see all the triggers you have created laid out on the timeline.
 
-- To add more triggers to an existing timeline you can repeat the live record by pressing <Keys.HardKey>Record</Keys.HardKey> then the **Select** button of the timeline fader.
+- To add more triggers to an existing timeline you can repeat the live record by pressing <Keys.HardKey>Record</Keys.HardKey> then the <strong>Select</strong> button of the timeline fader.
 
 - When using internal timecode, pressing <Keys.ContextKey>Record</Keys.ContextKey> then <Keys.ContextKey>Play</Keys.ContextKey> will automatically start Live Recording.
 
@@ -75,19 +75,19 @@ Adding manual triggers
 
 If you are programming a show where you have been given a list of timecodes for each cue point, you can enter the triggers manually at those specific times.
 
-1.  Press <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Timeline</Keys.SoftKey>, then the **Select button** of the fader where you want to store the timeline. The Timeline View window will automatically open.
+1.  Press <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Timeline</Keys.SoftKey>, then the <strong>Select button</strong> of the fader where you want to store the timeline. The Timeline View window will automatically open.
 
 2.  Press the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom of the timeline tracks.
 
     ![Timeline add trigger window](/docs/images/Timeline-Add-Item.png)
 
 3. Select the type of trigger you want to add.
-    - **New Playback** will create a playback from the current programmer contents and trigger it at 100% for 2 seconds then off.
-    - **Existing Playback** lets you select a playback you've programmed previously, and inserts it at 100% for 2 seconds then off.
-    - **Set Level** inserts a trigger to set an existing playback to a specified level.
+    - <strong>New Playback</strong> will create a playback from the current programmer contents and trigger it at 100% for 2 seconds then off.
+    - <strong>Existing Playback</strong> lets you select a playback you've programmed previously, and inserts it at 100% for 2 seconds then off.
+    - <strong>Set Level</strong> inserts a trigger to set an existing playback to a specified level.
     - See the [Triggers](../timelines.md#triggers) section for details of the other types of trigger.
 
-4. If you are using an existing playback, press the **Select** button of the playback you want to fire. (You can skip step 3 and just select a playback straight after pressing the <Keys.ContextKey>+</Keys.ContextKey> button - Titan will behave as if you pressed **Existing Playback**.)
+4. If you are using an existing playback, press the <strong>Select</strong> button of the playback you want to fire. (You can skip step 3 and just select a playback straight after pressing the <Keys.ContextKey>+</Keys.ContextKey> button - Titan will behave as if you pressed <strong>Existing Playback</strong>.)
 
 5. Set the time you want the trigger to fire at. There are several ways to do this:
     - Type in the time using the <Keys.SoftKey>Reference at hh:mm:ss.fff </Keys.SoftKey> softkey and press <Keys.HardKey>Enter</Keys.HardKey>. Use the <Keys.HardKey>.</Keys.HardKey> button as a separator, for example typing "1 . 05" will enter 00:01:05:000 or "2 . 2 . 20" will enter 02:02:20.00. You can also use the arrow buttons to move between fields in the time display.
@@ -96,7 +96,7 @@ If you are programming a show where you have been given a list of timecodes for 
 
 6. Repeat from Step 2 to add more triggers.
 
-- You can directly add a playback by pressing <Keys.HardKey>Copy</Keys.HardKey>, the **select** button of the playback, then tapping on the Timeline track where you want the trigger to be.
+- You can directly add a playback by pressing <Keys.HardKey>Copy</Keys.HardKey>, the <strong>select</strong> button of the playback, then tapping on the Timeline track where you want the trigger to be.
 
 - Existing Playbacks added to the timeline will be referenced (linked) copies of the playback. If you want to create a playback that you can edit separately, use the softkey option <Keys.SoftKey>Create New Playbacks</Keys.SoftKey> after you select the playback to be added.
 
@@ -109,7 +109,7 @@ Using the context menu option <Keys.ContextKey>Tools</Keys.ContextKey> - <Keys.C
 
 - When creating the exported markers file, ensure the audio editor is set to export Hours:Minutes:Seconds:Frames and not beats or measures.
 
-This is an example of how to load markers from the audio editor software **Reaper**:
+This is an example of how to load markers from the audio editor software <strong>Reaper</strong>:
 
 
 1.   In Reaper, set the timeline to be displayed in HH:MM:SS:FF.

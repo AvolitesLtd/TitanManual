@@ -11,7 +11,7 @@ import Keys from '@site/src/components/key.ts';
 
 Zum Einstellen der Optionen eines Cues, einer Cueliste oder eines
 Chasers drücken Sie <Keys.SoftKey>Playback Options</Keys.SoftKey> im Hauptmenü und anschließend
-die **Swop-Taste** der entsprechenden Playbacks. Darauf öffnet sich eine
+die <strong>Swop-Taste</strong> der entsprechenden Playbacks. Darauf öffnet sich eine
 Liste mit den verfügbaren Optionen auf den Menütasten. Außerdem werden 
 alle verfügbaren Optionen übersichtlich in einem Fenster dargestellt, 
 wenn man in der Playback-Ansicht links auf den Button <Keys.SoftKey>Options</Keys.SoftKey> klickt.
@@ -30,7 +30,7 @@ aktiviert sind.
 
 
 ### Blind
-Schaltet das jeweilige Playback in den **Blind**-Modus. Damit
+Schaltet das jeweilige Playback in den <strong>Blind</strong>-Modus. Damit
 erfolgt die Ausgabe nicht an die 'Live'-DMX-Ausgänge, sondern an den
 Visualiser, *um Änderungen vornehmen zu können, ohne das aktuelle Bild zu
 stören*.
@@ -38,8 +38,8 @@ stören*.
 ### Priority
 Damit lässt sich das Verhalten bestimmen, wenn mehrere
 aktive Cues gleichzeitig dieselben Geräte beeinflussen. Die Priorität
-lässt sich zwischen **Low** (niedrig), **Normal** (normal), **High** (hoch),
-**Programmer** (Programmierspeicher) und **Very High** (sehr hoch)
+lässt sich zwischen <strong>Low</strong> (niedrig), <strong>Normal</strong> (normal), <strong>High</strong> (hoch),
+<strong>Programmer</strong> (Programmierspeicher) und <strong>Very High</strong> (sehr hoch)
 umschalten *('Programmer' ist gleichwertig mit der Priorität des
 Programmierspeichers)*. Wird ein Gerät aktuell von einem Cues gesteuert,
 und dann ein Cue mit gleicher oder höherer Priorität gestartet, so
@@ -203,7 +203,7 @@ Attribut-Tasten benutzen.
 
 Die Maske kann auf Global oder Lokal gestellt werden. Mit 'Lokal' lassen
 sich Einstellungen nur für diesen Cue vornehmen, während 'Global' der
-Bezug auf die globale Release-Maske **Release-Menü** ist
+Bezug auf die globale Release-Maske <strong>Release-Menü</strong> ist
 (drücken Sie dazu <Keys.HardKey>Release</Keys.HardKey>).
 
 > Mit der Release-Maske lässt sich z.B. ein temporärer ('flashbarer') Strobe-Effekt programmieren. Drücken Sie <Keys.SoftKey>Release Mask</Keys.SoftKey>, und stellen Sie Intensity auf 'Include'. Wird nun das Playback ausgeblendet, kehrt der Shutter zum vorigen Wert zurück, und das Strobe stoppt. 

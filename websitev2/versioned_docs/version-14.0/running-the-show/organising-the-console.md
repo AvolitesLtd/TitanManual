@@ -17,7 +17,7 @@ Using the Move function
 
 To move fixtures, palettes, groups and playbacks is very simple.
 
-1. Press <Keys.HardKey>Move</Keys.HardKey> to select Move mode (if the console does not have a **Move** button,
+1. Press <Keys.HardKey>Move</Keys.HardKey> to select Move mode (if the console does not have a <strong>Move</strong> button,
 	you can get this function by holding <Keys.HardKey>Avo</Keys.HardKey> and pressing <Keys.HardKey>Copy</Keys.HardKey> ).
 
 2. Press or touch the select key(s) of the item(s) to move.

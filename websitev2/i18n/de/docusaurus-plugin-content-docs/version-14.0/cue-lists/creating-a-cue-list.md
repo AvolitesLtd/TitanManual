@@ -24,7 +24,7 @@ List\] (auf dem Tiger Touch I drücken Sie <Keys.HardKey>Record Chase or List</K
 zweimal, oder drücken Sie die Taste einmal und wählen die Option
 <Keys.SoftKey>Create Cue List</Keys.SoftKey>).
 
-2. Drücken Sie die blaue **Select**-Taste des gewünschten
+2. Drücken Sie die blaue <strong>Select</strong>-Taste des gewünschten
 Speicherplatzes *(auch Cuelisten lassen sich auf die Schaltflächen im
 'Playbacks'-Fenster speichern)*.
 
@@ -45,11 +45,11 @@ Schritte.
 manuell oder unter Verwendung von [<Keys.HardKey>Include</Keys.HardKey>](../titan-commands.md#include-----in-den-speicher-laden) bestehender Cues.
 Nutzen Sie wenn gewünscht auch den [Shape Generator](../effects/shape-generator.md) oder den [Pixelmapper](../effects/pixel-mapper.md).
 
-6. Wollen Sie für den Schritt eine **Bezeichnung/Legende** vergeben, so drücken Sie
+6. Wollen Sie für den Schritt eine <strong>Bezeichnung/Legende</strong> vergeben, so drücken Sie
 dazu <Keys.SoftKey>Cue Legend</Keys.SoftKey>. Das lässt sich auch später nachholen oder ändern,
 entweder mit [<Keys.HardKey>Unfold</Keys.HardKey>](editing-cue-lists.md#editieren-einer-cueliste-mit-unfold) oder mit [Set Legend](#vergeben-von-bezeichnern-für-einzelne-schritte) (siehe nächster Abschnitt).
 
-7. Drücken Sie die **Select**-Taste des Speicherplatzes, oder wählen
+7. Drücken Sie die <strong>Select</strong>-Taste des Speicherplatzes, oder wählen
 Sie <Keys.SoftKey>Append Cue</Keys.SoftKey>(Schritt anfügen), um den Inhalt des
 Programmierspeichers als Schritt 1 der Cueliste abzuspeichern.
 
@@ -78,13 +78,13 @@ sind.
 
 -   Zum Einfügen neuer Schritte siehe [Editieren einer Cueliste](editing-cue-lists.md).
 
--   Das Menü **Advanced Options** gestattet das Neu-Nummerieren der
+-   Das Menü <strong>Advanced Options</strong> gestattet das Neu-Nummerieren der
     Schritte, und das Ändern der einzelnen Schrittnummern.
 
 -   In jeder Cueliste kann eine unbegrenzte Zahl von Schritten
     gespeichert werden.
 
--   Bei Cuelisten gibt es auch eine **MID (Move-In-Dark)** - Funktion:
+-   Bei Cuelisten gibt es auch eine <strong>MID (Move-In-Dark)</strong> - Funktion:
     damit werden Geräte bereits für den nächsten Einsatz vorbereitet
     (positioniert etc.), solange sie aktuell nicht aktiv sind. Details
     siehe Abschnitt [Move In Dark (MID)](../cue-lists/cue-list-playback.md#move-in-dark-mid---funktionen)
@@ -95,13 +95,13 @@ sind.
 
 Mit <Keys.SoftKey>Record Mode</Keys.SoftKey> (Speichermodus) wählt man zwischen **Record By
 Fixture** (‚Speichern pro Gerät', alle Attribute aller veränderten/
-ausgewählten Geräte werden gespeichert), **Record By Channel**
+ausgewählten Geräte werden gespeichert), <strong>Record By Channel</strong>
 ('Speichern pro Kanal', nur die geänderten Attribute werden
-gespeichert), **Record Stage** ('Bühne speichern', alle Geräte mit
-Helligkeit > 0 werden gespeichert), oder **Quick Build** zum raschen
+gespeichert), <strong>Record Stage</strong> ('Bühne speichern', alle Geräte mit
+Helligkeit > 0 werden gespeichert), oder <strong>Quick Build</strong> zum raschen
 Erstellen aus vorhandenen Cues und Paletten.
 
-> **Record By Channel** bietet sich an, wenn sich mehrere Cuelisten -
+> <strong>Record By Channel</strong> bietet sich an, wenn sich mehrere Cuelisten -
 für unterschiedliche Attribute - gegenseitig überlagern sollen.
 
 
@@ -116,7 +116,7 @@ Navigation.
     Bezeichnungen vergeben, so rasten Sie das Menü mit der Taste \<Menu
     Latch\> ein.
 
-2.  Drücken Sie die **Select-Taste** der entsprechenden Cueliste.
+2.  Drücken Sie die <strong>Select-Taste</strong> der entsprechenden Cueliste.
 
 3.  Die Schritte der Cueliste werden nun auf dem Bildschirm angezeigt.
     Klicken Sie auf den gewünschten Cue oder nutzen Sie das Rad A, um den zu
@@ -144,21 +144,21 @@ Button.
 
 In den darauffolgenden Cues gibt es für jeden getrackten Shape einen
 Schalter:
-**T** | **Shape wird in den folgenden Cue getrackt**
+<strong>T</strong> | <strong>Shape wird in den folgenden Cue getrackt</strong>
 ---|---
-**B** | **Shape wird geblockt, läuft also nicht in den folgenden Cues**
+<strong>B</strong> | <strong>Shape wird geblockt, läuft also nicht in den folgenden Cues</strong>
 
 Für den Cue selbst gibt es dazu die Option <Keys.SoftKey>Block All Shapes</Keys.SoftKey>, siehe
 [Cuelisten-Optionen](cue-list-options.md#cue-list-options----tab-playback).
 
 Darüber hinaus können auch Shapes für einzelne Attribute geblockt
-werden, dies erfolgt über das **@**-Menü. Wählen Sie das zu blockende
-**Attribut**, drücken die entsprechende **@**-Taste und dann den Attribut-Button
-**FX**. Auf den Menütasten gibt es nun die Optionen <Keys.SoftKey>Block Shape</Keys.SoftKey> und
-<Keys.SoftKey>Unblock Shape</Keys.SoftKey>. Wurde ein Attribut auf **Block Shape** gesetzt, so wird
+werden, dies erfolgt über das <strong>@</strong>-Menü. Wählen Sie das zu blockende
+<strong>Attribut</strong>, drücken die entsprechende <strong>@</strong>-Taste und dann den Attribut-Button
+<strong>FX</strong>. Auf den Menütasten gibt es nun die Optionen <Keys.SoftKey>Block Shape</Keys.SoftKey> und
+<Keys.SoftKey>Unblock Shape</Keys.SoftKey>. Wurde ein Attribut auf <strong>Block Shape</strong> gesetzt, so wird
 das im Display bei den Encodern mit *"Blocked"* angezeigt.
 
-Ist das **[Shape-Tracking](cue-list-options.md#cue-list-options----tab-playback)** dagegen nicht aktiviert, so sind die Shapes in
+Ist das <strong>[Shape-Tracking](cue-list-options.md#cue-list-options----tab-playback)</strong> dagegen nicht aktiviert, so sind die Shapes in
 jedem Cue unabhängig voneinander. Wird der identische Shape - gleiche
 Parameter, Größe und Geschwindigkeit - in mehrere aufeinanderfolgende
 Cues programmiert, so läuft er einfach durch, ohne unterbrochen zu
@@ -173,19 +173,19 @@ Chaser oder wiederum Cuelisten -- aufrufen, wenn der jeweilige Schritt
 gestartet wird. Dies ist hilfreich, um etwa Chaser oder Effekte in die
 Cueliste zu integrieren.
 
-Man kann entweder die **Autoloads** manuell programmieren, oder automatisch
-alle aktiven Speicherplätze als **Autoload** definieren.
+Man kann entweder die <strong>Autoloads</strong> manuell programmieren, oder automatisch
+alle aktiven Speicherplätze als <strong>Autoload</strong> definieren.
 
 Zum automatischen Definieren gehen Sie wie folgt vor:
 
-1.  Nach dem Aktivieren von **Cue List Record** (beim Anlegen der
+1.  Nach dem Aktivieren von <strong>Cue List Record</strong> (beim Anlegen der
     Cueliste) wählen Sie <Keys.SoftKey>Advanced Options</Keys.SoftKey>, dann \[Autoload Live
     Playbacks\].
 
 2.  Aktivieren Sie die Cues/Chaser/Cuelisten, die Sie als Autoload
     einbinden möchten.
 
-3.  **Speichern Sie den Cue**. Dabei werden die aktivierten
+3.  <strong>Speichern Sie den Cue</strong>. Dabei werden die aktivierten
     Speicherplätze automatisch als Autoload eingebunden.
 
 ---
@@ -195,15 +195,15 @@ Playback-Ansicht der Cueliste:
 
 1.  Drücken Sie <Keys.HardKey>View/Open</Keys.HardKey>
 
-2.  Drücken Sie die blaue **Select-Taste** der Cueliste.
+2.  Drücken Sie die blaue <strong>Select-Taste</strong> der Cueliste.
 
 3.  Im Display erscheinen die Schritte der Cueliste. Klicken Sie auf die
-    betreffende **Autoload**-Zelle (Spalte Autoload des betreffenden Cues).
+    betreffende <strong>Autoload</strong>-Zelle (Spalte Autoload des betreffenden Cues).
     *Am besten bringen Sie dazu das Fenster in die Vollbild-Ansicht. Ist
     die Spalte Autoload gar nicht sichtbar, klicken Sie links auf \[Show
     All\]*.
 
-4.  Drücken Sie die **Select-Taste** des Speicherplatzes, dessen Inhalt
+4.  Drücken Sie die <strong>Select-Taste</strong> des Speicherplatzes, dessen Inhalt
     mit dem Schritt geladen werden soll. Dabei erscheint die vergebene
     Bezeichnung auf den Funktionstasten.
 
@@ -226,7 +226,7 @@ der verknüpfte Speicherplatz angezeigt).
 Für einfache Cues ist die einzige Option A <Keys.SoftKey>Remove this Autoload</Keys.SoftKey>
 (diesen Autoload löschen).
 
-Für Chaser und Cuelisten lässt sich mit **Option B** wählen, ob die
+Für Chaser und Cuelisten lässt sich mit <strong>Option B</strong> wählen, ob die
 jeweilige Abfolge *am Beginn* oder *bei einem bestimmten Schritt* gestartet
 werden soll, oder ob für die gewählte Folge *Go* betätigt werden soll.
 
@@ -270,13 +270,13 @@ Tastatursyntax für Cuelisten
 
 Zum schnellen Speichern und Editieren von Cuelisten stehen
 folgende Tastenkombinationen zur Verfügung; diese wirken auf die
-aktuell mit der Steuerung verbundene (connected) Cueliste; **n**
+aktuell mit der Steuerung verbundene (connected) Cueliste; <strong>n</strong>
 bezeichnet die Cue-Nummer:
 
 Tasten                                    | Funktion
 ----------------------------------------- | ------------------------------------------
-<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Connect / Cue</Keys.HardKey> **n** <Keys.HardKey>Enter</Keys.HardKey>    | Cue **n** speichern
-<Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Connect / Cue</Keys.HardKey> **n**                | Cue **n** kopieren
-<Keys.HardKey>Delete</Keys.HardKey> <Keys.HardKey>Connect / Cue</Keys.HardKey> **n**              | Cue **n** löschen
-<Keys.HardKey>Include</Keys.HardKey> <Keys.HardKey>Connect / Cue</Keys.HardKey> **n**             | Cue **n** includen (in den Speicher laden)
-<Keys.HardKey>Connect / Cue</Keys.HardKey> **n** <Keys.HardKey>Go</Keys.HardKey>                  | Go Cue **n**
+<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Connect / Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Enter</Keys.HardKey>    | Cue <strong>n</strong> speichern
+<Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Connect / Cue</Keys.HardKey> <strong>n</strong>                | Cue <strong>n</strong> kopieren
+<Keys.HardKey>Delete</Keys.HardKey> <Keys.HardKey>Connect / Cue</Keys.HardKey> <strong>n</strong>              | Cue <strong>n</strong> löschen
+<Keys.HardKey>Include</Keys.HardKey> <Keys.HardKey>Connect / Cue</Keys.HardKey> <strong>n</strong>             | Cue <strong>n</strong> includen (in den Speicher laden)
+<Keys.HardKey>Connect / Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Go</Keys.HardKey>                  | Go Cue <strong>n</strong>

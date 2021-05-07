@@ -55,7 +55,7 @@ the DHCP server. Take note of the name of the wireless network (SSID).
 2. Connect an Ethernet cable from the back of the console to the access
 point.
 
-3. Set the IP address of the console: from the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), select
+3. Set the IP address of the console: from the <strong>System</strong> menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), select
 <Keys.SoftKey>Network Settings</Keys.SoftKey>, press <Keys.SoftKey>Local Area Connection</Keys.SoftKey>, then press <Keys.SoftKey>Set
 IP 10.\*.\*.\*</Keys.SoftKey>.
 

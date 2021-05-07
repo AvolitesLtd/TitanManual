@@ -21,7 +21,7 @@ Move is useful for tidying up the console.
 2. Select <Keys.SoftKey>Copy</Keys.SoftKey> or <Keys.SoftKey>Move</Keys.SoftKey>. Pressing the <Keys.HardKey>Copy</Keys.HardKey> button again will
 also toggle these options. Some consoles have a <Keys.HardKey>Move</Keys.HardKey> button.
 
-3. Press the **Select** button of the palette you want to copy/move. You
+3. Press the <strong>Select</strong> button of the palette you want to copy/move. You
 can select multiple palettes - use the <Keys.HardKey>Thro</Keys.HardKey> and <Keys.HardKey>And</Keys.HardKey> buttons to
 add more to the selection - hold down <Keys.HardKey>And</Keys.HardKey> to keep adding them.
 
@@ -29,7 +29,7 @@ add more to the selection - hold down <Keys.HardKey>And</Keys.HardKey> to keep a
 
 ---
 
--   The <Keys.HardKey>Menu Latch</Keys.HardKey> button latches the **Copy/Move/Link menu**, so you
+-   The <Keys.HardKey>Menu Latch</Keys.HardKey> button latches the <strong>Copy/Move/Link menu</strong>, so you
     can keep copying, moving or linking things without having to keep
     pressing <Keys.HardKey>Copy</Keys.HardKey>. Press <Keys.HardKey>Menu Latch</Keys.HardKey> again to unlatch.
 

@@ -50,7 +50,7 @@ the Ai server window as a warning.
 
 Synergy will attempt to transfer the files as fast as it can and will
 show you a progress dialog. This may slow down the network; if this will
-be a bad thing, turn on the **"Bandwidth Saver"** switch at the bottom of
+be a bad thing, turn on the <strong>"Bandwidth Saver"</strong> switch at the bottom of
 the window to throttle the file transfer and leave capacity on the
 network for other traffic (obviously this will slow down the file
 transfer).
@@ -85,7 +85,7 @@ the stream titles at the bottom of the views.
 
 ![Video Multi View Window laout options](/docs/images/Video-Multi-View-Window-laout-options.png)
 
-You must have the **"Automatic NDI preview"** option enabled for the Ai
+You must have the <strong>"Automatic NDI preview"</strong> option enabled for the Ai
 server in the [Synergy Settings](setting-up.md#synergy-setup) window for this to work.
 
 The NDI streams used for video preview can use a lot of network
@@ -108,15 +108,15 @@ Fixtures window](setting-up.md#synergy-fixtures-window), the Attribute Editor le
 media on those layers (you can also use the [wheels](../controlling-fixtures/using-the-select-buttons-and-wheels.md) and [Attribute Bank
 buttons](../controlling-fixtures/using-the-select-buttons-and-wheels.md#attribute-wheel-display)).
 
-> The most important attributes are **Intensity**, which set the output level
-of each layer, and **Media Selection** which lets you choose the Bank and
+> The most important attributes are <strong>Intensity</strong>, which set the output level
+of each layer, and <strong>Media Selection</strong> which lets you choose the Bank and
 Clip to play. But you can also control all other functions of Ai such as
 adding FX and colour.
 
 ![Clip tab of Attribute Editor for Synergy layer](/docs/images/Clip-tab-of-Attribute-Editor-for-Synergy-layer.png)
 
 In the Media selection window, in the Clip tab, if you click on the
-**T** button *(top right)* or the caption at the top of the tab, this will toggle
+<strong>T</strong> button *(top right)* or the caption at the top of the tab, this will toggle
 the clip name display on and off. This can be useful for long names
 which obscure the picture; on the other hand if you have lots of
 clips which look similar, the name display can be useful.
@@ -134,7 +134,7 @@ server. This means the names you are shown will always match what's
 on the server. It's also good for generative plugins where you
 define the FX names.
 
-> If you select layers then press <Keys.HardKey>Locate</Keys.HardKey>, the layer intensity will be set to full but all media and FX will be cleared. This is useful to get a layer back to a known state, but you don't get any output. **To get some output you will need to then select a media clip**.
+> If you select layers then press <Keys.HardKey>Locate</Keys.HardKey>, the layer intensity will be set to full but all media and FX will be cleared. This is useful to get a layer back to a known state, but you don't get any output. <strong>To get some output you will need to then select a media clip</strong>.
 
 The Clip selection window also shows you the progress of clips being
 transcoded by the Ai server.
@@ -163,22 +163,22 @@ server.
 are positioned in the physical space so it can map the correct part of the video
 to each fixture, which is described in the [next section](#layout-editor-with-ai-server).
 
-1. Using [Attribute Editor](#attribute-editor-for-controlling-ai-layers), **start a media clip playing** on the surface you
+1. Using [Attribute Editor](#attribute-editor-for-controlling-ai-layers), <strong>start a media clip playing</strong> on the surface you
 want to use.
 
 2. Select <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, then <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>
 
-3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups.md)** to play back on
+3. Select a <strong>[group of fixtures](../controlling-fixtures/fixture-groups.md)</strong> to play back on
 
 4. Add an effect using the <Keys.ContextKey>+</Keys.ContextKey> button
 
-5. Select Ai feed using the **Ai** button
+5. Select Ai feed using the <strong>Ai</strong> button
 
 ![Adding an element in the Pixel Mapper Window](/docs/images/Adding-an-element-in-the-Pixel-Mapper-Window.png)
 
 6. Select the surface you want to take the media from using the **Source
 Surface** option. You can also adjust the colour balance using the
-**Red/Green/Blue sliders**.
+<strong>Red/Green/Blue sliders</strong>.
 
 ![Ai layer video overlay in Pixel Mapper Window](/docs/images/Ai-layer-video-overlay-in-Pixel-Mapper-Window.png)
 
@@ -268,6 +268,6 @@ onto a new screen.
 
 Bank/Clip | Function
 ---|---
-**Bank 240 - 255** | Selects a Surface/Screen Fixture from 1-16
-**Clip 0 - 200** | Selects layer number 1-201 on that surface.
-**Clip 255** | Selects the surface output (the composite of all layers)
+<strong>Bank 240 - 255</strong> | Selects a Surface/Screen Fixture from 1-16
+<strong>Clip 0 - 200</strong> | Selects layer number 1-201 on that surface.
+<strong>Clip 255</strong> | Selects the surface output (the composite of all layers)

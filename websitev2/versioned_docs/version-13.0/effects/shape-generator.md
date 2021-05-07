@@ -19,7 +19,7 @@ In addition to position shapes, there are a large number of other shapes
 available in Titan. The shapes are defined for a particular attribute
 such as colour, dimmer, focus and so on.
 
-A further category of shapes is the **Block Shape**. This type of shape
+A further category of shapes is the <strong>Block Shape</strong>. This type of shape
 blocks out other shapes, preventing them from running. For example, if
 some fixtures are running a Circle shape, and then a playback is fired
 which has a Block Pan/Tilt shape on some of the fixtures, those fixtures
@@ -30,7 +30,7 @@ playbacks at show time when used with the
 When you use a shape with more than one fixture, you can choose to
 either apply the shape identically to all the fixtures, or offset them
 so that the shape runs along the fixtures creating *"wave"* or *"ballyhoo"*
-type effects. This is called the **Phase** of the shape.
+type effects. This is called the <strong>Phase</strong> of the shape.
 
 ![Capture Visualiser with a shape running across fixtures](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures.png)
 
@@ -51,7 +51,7 @@ Generator</Keys.SoftKey>
 press <Keys.SoftKey>All</Keys.SoftKey> for a full list
 
 5. Press a <Keys.SoftKey>softkey</Keys.SoftKey> to select a shape, or touch the desired shape in the
-**Shapes window**. You can type a search word on the keyboard to search for
+<strong>Shapes window</strong>. You can type a search word on the keyboard to search for
 a particular shape.
 
 6. The shape will be applied to all selected fixtures
@@ -63,8 +63,12 @@ a particular shape.
     The window will only show shapes which are possible on the selected
     fixtures. Pressing attribute buttons will filter the Shapes window
     to show only shapes for that attribute. Press the <Keys.HardKey>Dimmer</Keys.HardKey>
-    attribute button to show all shapes.\
-    \
+    attribute button to show all shapes.
+
+
+    
+
+
     ![Shapes Workspace Window](/docs/images/Shapes-Workspace-Window.png)
 
 -   Shapes are based on the current settings of the fixture, *so a
@@ -106,7 +110,7 @@ a particular shape.
 -   Each shape has a default size and speed setting *(defined in the
     shape file)*.
 
-> When using a Rainbow colour shape, to get the full range of colours you need to set the CMY or RGB attributes to **50%**.
+> When using a Rainbow colour shape, to get the full range of colours you need to set the CMY or RGB attributes to <strong>50%</strong>.
 
 Changing Size and Speed of a Shape
 ----------------------------------
@@ -157,31 +161,31 @@ edit the order by selecting <Keys.SoftKey>Fixture Order</Keys.SoftKey> in the Sh
 1. If the right hand wheel isn't showing Spread, press <Keys.SoftKey>Adjust Speed,
 Size and Spread</Keys.SoftKey>
 
-2. Control the **Spread** of the shape using the right hand wheel, or to
+2. Control the <strong>Spread</strong> of the shape using the right hand wheel, or to
 set in terms of Phase, press <Keys.SoftKey>Adjust Spread, Phase and Offset</Keys.SoftKey> and
 use the middle wheel *(right hand wheel on Pearl Expert)*.
 
-Spread = **12** *(Phase = 30 degrees)*:
+Spread = <strong>12</strong> *(Phase = 30 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 12](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-12.png)
 
 ---
 
-Spread = **6** *(Phase = 60 degrees)*:
+Spread = <strong>6</strong> *(Phase = 60 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 6](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-6.png)
 
 ---
 
-Spread = **2** *(Phase = 180 degrees)*:
+Spread = <strong>2</strong> *(Phase = 180 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 2](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-2.png)
 
-In **Phase** mode, the display above the wheel shows the phase in degrees.
+In <strong>Phase</strong> mode, the display above the wheel shows the phase in degrees.
 For example, 180 degrees repeats every 2 fixtures, 90 degrees repeats
 every 4 fixtures, 60 degrees repeats every 6 fixtures, and so on.
 
-The **Offset** function allows you to set the starting phase of the shape,
+The <strong>Offset</strong> function allows you to set the starting phase of the shape,
 when more than one shape is running. *For example, if you were running a
 Cyan shape and a Magenta shape to create a mix of colours, you would
 probably want to start them with Cyan at full and Magenta at zero to
@@ -217,7 +221,7 @@ really useful to synchronise different types of shapes which are running
 together.
 
 Clicking the middle of the wheel roller image on screen or pressing <Keys.HardKey>@A</Keys.HardKey>
-for **Wheel A** allows you to type in a number for the Beats parameter, and
+for <strong>Wheel A</strong> allows you to type in a number for the Beats parameter, and
 also shows two further options for Beats: <Keys.SoftKey>Match to Spread</Keys.SoftKey> sets the
 beat count to be the same as the current Spread setting for the shape.
 This is useful when using dimmer shapes with movement shapes as it will
@@ -232,7 +236,7 @@ until you stop it. If you set a fixed number, the shape will stop by
 itself after that number of cycles.
 
 You can type in a number instead of using the wheels by clicking the
-middle of the wheel roller image on screen or pressing <Keys.HardKey>@B</Keys.HardKey> for **Wheel B**. If
+middle of the wheel roller image on screen or pressing <Keys.HardKey>@B</Keys.HardKey> for <strong>Wheel B</strong>. If
 you are typing in a number you can enter part cycles, for example 1.5.
 
 Using Shapes in Cues

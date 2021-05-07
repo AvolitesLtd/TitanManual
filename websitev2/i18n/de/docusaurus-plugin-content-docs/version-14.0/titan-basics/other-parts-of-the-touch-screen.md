@@ -61,16 +61,16 @@ Die Darstellung der Menütasten variiert mit der jeweils möglichen
 Bedienungsoption:
 
   ![Softkey - Action](/docs/images/Softkey-Action.png)
-  **Aktionstaste** - beim Anklicken wird dieser Befehl ausgeführt              
+  <strong>Aktionstaste</strong> - beim Anklicken wird dieser Befehl ausgeführt              
   
   ![Softkey - Option](/docs/images/Softkey-Option.png) 
-  **Optionstaste** - zum Durchschalten durch eine Anzahl von Optionen   
+  <strong>Optionstaste</strong> - zum Durchschalten durch eine Anzahl von Optionen   
   
   ![Softkey - New Menu](/docs/images/Softkey-New-Menu.png) 
-  **Neues Menü** - öffnet ein weiteres Menü   
+  <strong>Neues Menü</strong> - öffnet ein weiteres Menü   
   
   ![Softkey - Text Entry](/docs/images/Softkey-Text-Entry.png) 
-  **Texteingabe** - Taste betätigen, um mit der Tastatur einen Text einzugeben
+  <strong>Texteingabe</strong> - Taste betätigen, um mit der Tastatur einen Text einzugeben
 
 Die Werkzeugleiste
 ------------------
@@ -89,29 +89,29 @@ Beim Betätigen der Schaltfläche 'Tools' öffnet sich ein Menü mit Zugriff
 auf verschiedene weitere Konfigurationsmöglichkeiten (abhängig vom
 Pult):
 
-**About** zeigt Informationen über die Software-Version.
+<strong>About</strong> zeigt Informationen über die Software-Version.
 
-**Help** öffnet das (englische) Online-Handbuch.
+<strong>Help</strong> öffnet das (englische) Online-Handbuch.
 
-**Control Panel** öffnet ein Untermenü mit Einstellungsmöglichkeiten
+<strong>Control Panel</strong> öffnet ein Untermenü mit Einstellungsmöglichkeiten
 etwa für den Bildschirm oder die USB Expert-Konsole, die die Verbindung
 zwischen der Bedienoberfläche und dem Hauptprozessor herstellt. Der
 Punkt 'More...' öffnet die Windows-Systemsteuerung, um die
 Systemkonfiguration zu bearbeiten.
 
-**Touch Screen Setup** (in Control Panel) öffnet das 
+<strong>Touch Screen Setup</strong> (in Control Panel) öffnet das 
 Einrichtungsprogramm für die Touchscreens, mit dem diese z.B. auch 
 kalibriert werden können.
 
-**USB Expert Console** (in Control Panel) ist das Einrichtungsprogramm 
+<strong>USB Expert Console</strong> (in Control Panel) ist das Einrichtungsprogramm 
 für die Verbindung zwischen Bedienoberfläche und Hauptprozessor. 
 Sollten Probleme auftreten, kann man hier hilfreiche Informationen 
 für die Fehlersuche finden.
 
-**Folders** öffnet das Dateisystem zum direkten Zugriff. Dies wird u.a.
+<strong>Folders</strong> öffnet das Dateisystem zum direkten Zugriff. Dies wird u.a.
 zum Sichern der Daten sowie zum Updaten benötigt.
 
-**Switch Task** dient zum Umschalten
+<strong>Switch Task</strong> dient zum Umschalten
 zwischen mehreren Programmen, und zum Bewegen der Programmfenster auf
 den externen Bildschirm. Benutzen Sie das Symbol 'Bildschirm wechseln',
 um ein Fenster zwischen Touchscreen und externem Bildschirm hin- und
@@ -120,14 +120,14 @@ herzuschalten; 'Zentrieren' zentriert das Fenster auf dem Bildschirm,
 
 ![Switch Task](/docs/images/Switch-Task.png)
 
-**Switch Software** erlaubt es, zwischen verschiedenen Versionen der
+<strong>Switch Software</strong> erlaubt es, zwischen verschiedenen Versionen der
 Pult-Software (sofern installiert) umzuschalten. Das kann sinnvoll sein,
 um Shows aus älteren Versionen zu laden.
 
-**Additional Programs** dient zum Aufruf einiger Diagnoseprogramme, die
+<strong>Additional Programs</strong> dient zum Aufruf einiger Diagnoseprogramme, die
 dem Avolites-Support die Fehlersuche ermöglichen.
 
-**Restart** und **Shutdown Software** startet die Titan-Software neu
+<strong>Restart</strong> und <strong>Shutdown Software</strong> startet die Titan-Software neu
 bzw. schließt sie. Normalerweise benötigt man das nur beim
 Programm-Update.
 

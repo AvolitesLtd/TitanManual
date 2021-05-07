@@ -29,15 +29,15 @@ The Pearl Expert has additional master faders: Swop and Flash masters control in
 
 Any playback fader on the console can be assigned to act as a master fader, which allow you to set the overall intensity of various areas of the console. Different types of master fader are available:
 
--   **Grand Master** controls the intensity of all output from the console.
+-   <strong>Grand Master</strong> controls the intensity of all output from the console.
 
--   **Swop and Flash masters** control intensity of the swop/flash buttons
+-   <strong>Swop and Flash masters</strong> control intensity of the swop/flash buttons
 
--   **Preset master** controls intensity of the preset faders
+-   <strong>Preset master</strong> controls intensity of the preset faders
 
--   **Playback master** controls intensity of all playbacks.
+-   <strong>Playback master</strong> controls intensity of all playbacks.
 
-To assign master faders, from the **System** menu select <Keys.SoftKey>Assign Masters</Keys.SoftKey>, or press <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Master</Keys.SoftKey>.
+To assign master faders, from the <strong>System</strong> menu select <Keys.SoftKey>Assign Masters</Keys.SoftKey>, or press <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Master</Keys.SoftKey>.
 
 By default, master faders are set to have a transparent lock, which makes the master fader remain in position even when the playback page is
 changed. If you don\'t want this to happen you can change it by pressing <Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> softkey from the root menu) then press the Swop/Select button of the master.
@@ -55,7 +55,7 @@ Speed and Size Masters
 
 [](https://youtu.be/e5rQAmTCfs0?t=20 "Speed and Size Masters")
 
-Playbacks can be assigned to a **Speed Master** and/or a **Size Master** which allow you to control the speed and size of shapes or effects stored in a cue (or in the case of chases, to modify the speed of the chase).
+Playbacks can be assigned to a <strong>Speed Master</strong> and/or a <strong>Size Master</strong> which allow you to control the speed and size of shapes or effects stored in a cue (or in the case of chases, to modify the speed of the chase).
 
 There are twelve possible Speed Masters and four Size Masters which allow you to separately control the parameters of different playbacks, if you need to – for example Rate Master 1 could be assigned to control position shapes, Rate Master 2 to dimmer shapes, and so on.
 
@@ -69,7 +69,7 @@ A playback is assigned to a Speed/Size Master by pressing <Keys.SoftKey>Effects<
 
 -   LocalClock - the playback is set to Tap Tempo mode and all other speed settings are ignored. Using Key Profiles you can assign one of the playback buttons to <Keys.SoftKey>Tap Tempo</Keys.SoftKey> mode, and then set the effect speed by tapping the button. Effects will synchronise to the tap.
 
-There is also a **Rate Grand Master** which, if used, proportionally controls the speed of any effect or chase (whether or not they have a BPM or rate master assigned).
+There is also a <strong>Rate Grand Master</strong> which, if used, proportionally controls the speed of any effect or chase (whether or not they have a BPM or rate master assigned).
 
 To use Speed or Size Masters you will need to assign some handles on the console to act as the Master faders:
 
@@ -79,7 +79,7 @@ To use Speed or Size Masters you will need to assign some handles on the console
 
 3. 	From the softkeys select the type of master you want to create.
 
-4.	Press the **Select** button of the handle you want to be the master. 
+4.	Press the <strong>Select</strong> button of the handle you want to be the master. 
 
 -	On Pearl Expert or Tiger Touch 1, press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Disk</Keys.HardKey> together to switch the console to System mode and select <Keys.SoftKey>Assign Masters</Keys.SoftKey>. 
 
@@ -172,7 +172,7 @@ Scene Master
 
 The Scene Master allows you to preset an output state by firing a number of playbacks or making live changes, using the visualiser to see the effects but without anything happening on stage. When you are ready for the new state, you fade the Scene Master fader to the other end of its travel and the new state is output.
 
-You assign a handle to be Scene Master by pressing <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Master</Keys.SoftKey> (or from the <Keys.SoftKey>Assign Masters</Keys.SoftKey> button on the **System** menu). The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
+You assign a handle to be Scene Master by pressing <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Master</Keys.SoftKey> (or from the <Keys.SoftKey>Assign Masters</Keys.SoftKey> button on the <strong>System</strong> menu). The Scene Master is set to Live mode by default which means that all changes are immediately output as usual.
 
 ![Scene Master (Live)](/docs/images/Scene-Master-Live.png)
 
@@ -391,7 +391,7 @@ in which you selected them.
 If a fade time or an overlap are set this way they are applied only to 
 the immediate next palette recall. If you want to use a certain time or
 overlap for the next few palette recalls then set the values in the 
-**Palettes menu**: press <Keys.HardKey>Palette</Keys.HardKey>, and set <Keys.SoftKey>Master Time</Keys.SoftKey> and 
+<strong>Palettes menu</strong>: press <Keys.HardKey>Palette</Keys.HardKey>, and set <Keys.SoftKey>Master Time</Keys.SoftKey> and 
 <Keys.SoftKey>Master Overlap</Keys.SoftKey> with the softkeys. Also factory macros are provided
 for some most common values, see [Master Time for Palettes](../palettes/timing-with-palettes#master-time-for-palettes).
 

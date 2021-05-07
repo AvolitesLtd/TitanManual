@@ -36,7 +36,7 @@ Die Netzwerkeinstellungen können wie folgt geändert werden:
 
 ### Node-Einstellungen
 
-Als **Node Settings** (Node-Einstellungen) lässt sich derzeit die auf anderen Pulten
+Als <strong>Node Settings</strong> (Node-Einstellungen) lässt sich derzeit die auf anderen Pulten
 angezeigte Farbe des Geräts sowie der Verbindungslinien einstellen, was
 die Identifizierung deutlich vereinfacht.
 
@@ -54,7 +54,7 @@ der gleiche Code wieder eingegeben werden.
 Tools
 -----
 
-Derzeit gibt es nur einen Eintrag im Tools-Menü: den **Monitor**. Dieser
+Derzeit gibt es nur einen Eintrag im Tools-Menü: den <strong>Monitor</strong>. Dieser
 erlaubt eine Übersicht über die aktuelle Auslastung des TNPs. Dabei kann
 entweder <Keys.SoftKey>Cycle Time</Keys.SoftKey> oder <Keys.SoftKey>Render Time</Keys.SoftKey> dargestellt werden.
 

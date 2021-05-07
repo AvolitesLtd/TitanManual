@@ -165,6 +165,6 @@ Klicken Sie auf eine Session, um sich mit dieser zu verbinden.
     8 zur Verfügung, wobei alle beteiligten Pulte exakt den gleichen
     Versionsstand haben müssen.
 
-**Für die PC-Suite (Titan Mobile, Titan One, Simulator):**
+<strong>Für die PC-Suite (Titan Mobile, Titan One, Simulator):</strong>
 
 > Damit sich die verschiedenen Pulte gegenseitig im Netzwerk finden, muss auf Windows-Ebene die 'Network Discovery' aktiviert sein (Netzwerk-Einstellungen bzw. Freigabecenter).

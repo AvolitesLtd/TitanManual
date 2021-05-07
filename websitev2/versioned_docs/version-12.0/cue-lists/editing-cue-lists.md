@@ -11,7 +11,7 @@ Playback View Window
 --------------------
 
 The easiest way to edit a cue list is using the Playback View window
-(press <Keys.HardKey>View/Open</Keys.HardKey> then the **select** button for the cue list to open
+(press <Keys.HardKey>View/Open</Keys.HardKey> then the <strong>select</strong> button for the cue list to open
 it). This shows a grid with each cue and allows you to change most
 features of the cue. Select the item you want to change in the grid,
 and the softkeys will offer you the different options.
@@ -26,7 +26,7 @@ Editing Values in Cue View Window
 ---------------------------------
 
 You can edit the value of every fixture in each cue using the Cue View
-window. Press the **View Cue** button at the right hand end of the [Playback
+window. Press the <strong>View Cue</strong> button at the right hand end of the [Playback
 View window](#playback-view-window).
 
 ![Cue View Window](/docs/images/Cue-View-Window.png)
@@ -37,10 +37,10 @@ the softkeys.
 -   The context menu buttons allow you to view levels, shapes, effects
     and times for each attribute of each fixture in each cue.
 
--   If levels are set from a palette, the **View Palettes** button either
+-   If levels are set from a palette, the <strong>View Palettes</strong> button either
     shows you the palette used, or the underlying value.
 
--   If the **View Tracking Values** button is selected, [tracking values](cue-list-playback.md#tracking)
+-   If the <strong>View Tracking Values</strong> button is selected, [tracking values](cue-list-playback.md#tracking)
     (values which have tracked through from another cue rather than
     being stored directly in this cue) are shown in light grey.
 
@@ -50,32 +50,32 @@ Moving and Copying Cues
 You can copy or move cues within a cue list or to other cue lists.
 Either click and drag the cue in the [Playback
 View window](#playback-view-window) (press
-Open/View then the **select** button for the cue list), or use **Unfold** ([next
+Open/View then the <strong>select</strong> button for the cue list), or use <strong>Unfold</strong> ([next
 section](#editing-a-cue-list-using-unfold)), or you can use a `command-line` style series of keypresses.
 
-**Copy/Move within the same playback:**
+<strong>Copy/Move within the same playback:</strong>
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] @ <cue> ENTER`
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>][AND <cue>] ENTER <cue> ENTER`
 
-**Copy/Move to the end of the same playback:**
+<strong>Copy/Move to the end of the same playback:</strong>
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] @ @`
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] ENTER ENTER`
 
-**Copy/Move to a different playback:**
+<strong>Copy/Move to a different playback:</strong>
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> <cue> ENTER`
 
-**Copy/Move to the end of a different playback:**
+<strong>Copy/Move to the end of a different playback:</strong>
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> ENTER`
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> <playback>`
 
-> **<Keys.HardKey>playback</Keys.HardKey>** is a playback swop key, **<Keys.HardKey>cue</Keys.HardKey>** is the cue number and
+> <strong><Keys.HardKey>playback</Keys.HardKey></strong> is a playback swop key, <strong><Keys.HardKey>cue</Keys.HardKey></strong> is the cue number and
 sections in square brackets are optional)
 
 Editing a Cue List using Unfold
@@ -85,13 +85,13 @@ The <Keys.HardKey>Unfold</Keys.HardKey> button places each cue of the cue list o
 playback faders. This allows you to fire and edit each step individually
 as if it was a stand-alone cue.
 
-1. Press <Keys.HardKey>Unfold</Keys.HardKey>, then the **Select** button of the cue list to be
+1. Press <Keys.HardKey>Unfold</Keys.HardKey>, then the <strong>Select</strong> button of the cue list to be
 edited.
 
-2. Cues are loaded into the **playback faders**. The display shows the cue
+2. Cues are loaded into the <strong>playback faders</strong>. The display shows the cue
 numbers and legends *(see more cues using softkeys F and G)*.
 
-3. Raise a **playback fader** to output the contents of that cue *(fade
+3. Raise a <strong>playback fader</strong> to output the contents of that cue *(fade
 times will operate as programmed)*.
 
 4. *Various Unfold options are available, detailed below.*
@@ -100,33 +100,33 @@ times will operate as programmed)*.
 
 ---
 
--   To **edit** the contents of a cue: Press <Keys.HardKey>Clear</Keys.HardKey> to empty the
+-   To <strong>edit</strong> the contents of a cue: Press <Keys.HardKey>Clear</Keys.HardKey> to empty the
     programmer, raise the fader to output the cue, make the changes,
-    press <Keys.SoftKey>Record Step</Keys.SoftKey>, then the **Select** button for the cue number.
+    press <Keys.SoftKey>Record Step</Keys.SoftKey>, then the <strong>Select</strong> button for the cue number.
 
--   To **merge** the programmer into the live step, double tap <Keys.SoftKey>Record
+-   To <strong>merge</strong> the programmer into the live step, double tap <Keys.SoftKey>Record
     Step</Keys.SoftKey>.
 
 -   To change the times or cue linking for the cue, press <Keys.SoftKey>Edit
-    Times</Keys.SoftKey>, then the **Select** button for the cue, then set the times (see
+    Times</Keys.SoftKey>, then the <strong>Select</strong> button for the cue, then set the times (see
     [Cue List Timing](cue-list-timing.md))
 
--   To **insert** a new cue, set up the look for the new cue, press B
+-   To <strong>insert</strong> a new cue, set up the look for the new cue, press B
     <Keys.SoftKey>Insert Step</Keys.SoftKey>, then press the playback button where you want the
     new cue to go. All following cues will be shifted on by one and the
     new cue will be given a number in between the two existing cues *(for
     example, if you press playback 3, your new cue will be 2.5)*.
 
--   To **move** or **copy** a cue, press the <Keys.HardKey>Move</Keys.HardKey> or <Keys.HardKey>Copy</Keys.HardKey> button, press
-    the **select** button for the cue you want to move or copy, then press
-    the **select** button where you want it to go.
+-   To <strong>move</strong> or <strong>copy</strong> a cue, press the <Keys.HardKey>Move</Keys.HardKey> or <Keys.HardKey>Copy</Keys.HardKey> button, press
+    the <strong>select</strong> button for the cue you want to move or copy, then press
+    the <strong>select</strong> button where you want it to go.
 
--   To **delete** a cue, press the <Keys.HardKey>Delete</Keys.HardKey> button then the **select** button
-    for the cue you want to delete. Press the **select** button again to
+-   To <strong>delete</strong> a cue, press the <Keys.HardKey>Delete</Keys.HardKey> button then the <strong>select</strong> button
+    for the cue you want to delete. Press the <strong>select</strong> button again to
     confirm.
 
--   To change the **cue legend**, press <Keys.SoftKey>Set Step Legend</Keys.SoftKey> then the
-    playback **select** for the step you want to change.
+-   To change the <strong>cue legend</strong>, press <Keys.SoftKey>Set Step Legend</Keys.SoftKey> then the
+    playback <strong>select</strong> for the step you want to change.
 
 -   If the cue list has more cues than there are playback faders, you
     can swop to the next page using softkeys F and G.
@@ -138,7 +138,7 @@ Because fixture settings in a cue list are [tracked](cue-list-playback.md#tracki
 cues, if you want to edit a setting you need to find the cue where it
 was originally set.
 
-The **Update** function will go back through the cue list from the currently
+The <strong>Update</strong> function will go back through the cue list from the currently
 fired cue and automatically update the correct cue.
 
 1. With the cue list fired, select the fixtures and change them to the
@@ -164,9 +164,9 @@ Editing a Cue List Which is Running
 You can also edit cues in a cue list while you are running it without
 using [Unfold](#editing-a-cue-list-using-unfold).
 
-1. **Fire the cue list** by raising its fader.
+1. <strong>Fire the cue list</strong> by raising its fader.
 
-2. Use **Wheel A** to select the cue number you want to change then the
+2. Use <strong>Wheel A</strong> to select the cue number you want to change then the
 <Keys.HardKey>Go</Keys.HardKey> button to jump to it. *(On Pearl Expert/Tiger Touch 1 press the white ↔
 button above the Snap Back button instead of <Keys.HardKey>Go</Keys.HardKey>)*
 
@@ -186,9 +186,9 @@ button)* to jump on to the next step.
 You can edit the times for a cue using the <Keys.HardKey>Live Time</Keys.HardKey> and <Keys.HardKey>Next
 Time</Keys.HardKey> buttons *(not on all consoles)* as follows:
 
-1. **Fire the cue list** by raising its fader.
+1. <strong>Fire the cue list</strong> by raising its fader.
 
-2. Use **Wheel A** to select the cue number you want to change then the
+2. Use <strong>Wheel A</strong> to select the cue number you want to change then the
 <Keys.HardKey>Go</Keys.HardKey> button to jump to it (on Pearl Expert and Tiger Touch 1 the white ↔
 button)
 
@@ -204,7 +204,7 @@ next cue will not wait for the <Keys.HardKey>Go</Keys.HardKey> button.
 5. Press the <Keys.HardKey>Go</Keys.HardKey> button *(on Pearl Expert and Tiger Touch 1 the white ↔
 button)* to jump on to the next step.
 
-The **Review** button lets you test the live step with the new timings.
+The <strong>Review</strong> button lets you test the live step with the new timings.
 
 *You can also use <Keys.HardKey>Unfold</Keys.HardKey> to set the times as described in the
 [Unfold section above](#editing-a-cue-list-using-unfold).*
@@ -230,10 +230,10 @@ will be tracked.
 
 Update Mode | Action
 ---|---
-**Forwards** ![Cue List Update Mode Forwards](/docs/images/Cue-List-Update-Mode-Forwards.png) | Updates the channels in the current cue and tracks following cues until the channels are next changed. The values in cues before this one will not be changed.
-**Backwards** ![Cue List Update Mode Backwards](/docs/images/Cue-List-Update-Mode-Backwards.png) | Updates the current cue and tracks backwards through cues until the channels were last changed.
-**Both** ![Cue List Update Mode Both](/docs/images/Cue-List-Update-Mode-Both.png) | Updates the current cue, tracking backwards through previous cues from the previous change and forwards through following cues to the next change.
-**Cue Only** ![Cue List Update Mode Cue Only](/docs/images/Cue-List-Update-Mode-Cue-Only.png) |  Just sets the current cue.
+<strong>Forwards</strong> ![Cue List Update Mode Forwards](/docs/images/Cue-List-Update-Mode-Forwards.png) | Updates the channels in the current cue and tracks following cues until the channels are next changed. The values in cues before this one will not be changed.
+<strong>Backwards</strong> ![Cue List Update Mode Backwards](/docs/images/Cue-List-Update-Mode-Backwards.png) | Updates the current cue and tracks backwards through cues until the channels were last changed.
+<strong>Both</strong> ![Cue List Update Mode Both](/docs/images/Cue-List-Update-Mode-Both.png) | Updates the current cue, tracking backwards through previous cues from the previous change and forwards through following cues to the next change.
+<strong>Cue Only</strong> ![Cue List Update Mode Cue Only](/docs/images/Cue-List-Update-Mode-Cue-Only.png) |  Just sets the current cue.
 
 
 > You can't change the cue number using this menu - if you press
@@ -243,7 +243,7 @@ Update Mode | Action
 Updating Values in a Range of Cues
 ----------------------------------
 
-You can **merge** or **replace** values in a range of cues in a cue list (or a
+You can <strong>merge</strong> or <strong>replace</strong> values in a range of cues in a cue list (or a
 chase). This can be done either from the keypad or from the [Playback
 View](#playback-view-window).
 
@@ -262,9 +262,9 @@ selected all desired cues press <Keys.HardKey>Enter</Keys.HardKey>, then select 
 Disabling a Cue
 ---------------
 
-You can temporarily disable a cue using the **Disable** option at the right
-hand end of the [Playback View window](#playback-view-window). Select the **Disabled** box and the
-softkeys let you set <Keys.SoftKey>Cue Disabled</Keys.SoftKey>. When a cue is set to **Disabled** it
+You can temporarily disable a cue using the <strong>Disable</strong> option at the right
+hand end of the [Playback View window](#playback-view-window). Select the <strong>Disabled</strong> box and the
+softkeys let you set <Keys.SoftKey>Cue Disabled</Keys.SoftKey>. When a cue is set to <strong>Disabled</strong> it
 will be skipped. This can be a useful way to remove a cue, but still be
 able to put it back in later.
 
@@ -272,7 +272,7 @@ Extracting a Cue from a Cue List with Include
 ---------------------------------------------
 
 You can reload a single cue out of a cue list into the programmer using
-**[Include](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)**. Press <Keys.HardKey>Include</Keys.HardKey>, select the cue list, enter the cue number to
+<strong>[Include](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)</strong>. Press <Keys.HardKey>Include</Keys.HardKey>, select the cue list, enter the cue number to
 be included, then press <Keys.SoftKey>Include Cue</Keys.SoftKey>.
 
 If you want to do this from the currently connected cue list, Press

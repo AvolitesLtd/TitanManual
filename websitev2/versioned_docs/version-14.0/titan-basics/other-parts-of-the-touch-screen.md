@@ -58,16 +58,16 @@ The appearance of the softkeys varies to indicate the type of actions
 available:
 
   ![Softkey - Action](/docs/images/Softkey-Action.png)                                                                      
-  **Action button** - console will carry out the action shown                                     
+  <strong>Action button</strong> - console will carry out the action shown                                     
   
   ![Softkey - Option](/docs/images/Softkey-Option.png) 
-  **Option button** - cycles through a range of options   
+  <strong>Option button</strong> - cycles through a range of options   
   
   ![Softkey - New Menu](/docs/images/Softkey-New-Menu.png) 
-  **New menu button** - jumps to a new menu   
+  <strong>New menu button</strong> - jumps to a new menu   
   
   ![Softkey - Text Entry](/docs/images/Softkey-Text-Entry.png) 
-  **Text entry button** - press and enter text using the touch keyboard
+  <strong>Text entry button</strong> - press and enter text using the touch keyboard
 
 The Toolbar
 -----------
@@ -86,26 +86,26 @@ If you click/touch on \'Tools\', you will get a menu giving you access
 to some configuration functions (these options may change slightly
 depending on the console).
 
-**About** gives you information about the software version.
+<strong>About</strong> gives you information about the software version.
 
-**Help** shows you the online manual.
+<strong>Help</strong> shows you the online manual.
 
-**Control Panel** opens a submenu allowing changes to monitor settings
+<strong>Control Panel</strong> opens a submenu allowing changes to monitor settings
 and to the USB expert console which links the front panel controls to
 the system. The \'More...\' option opens Windows Control Panel allowing
 you to change the operating system configuration.
 
-**Touch Screen Setup** (in Control Panel) opens the setup utility which
+<strong>Touch Screen Setup</strong> (in Control Panel) opens the setup utility which
 allows you to align touch positions on the screen.
 
-**USB Expert Console** (in Control Panel) sets up the connection between
+<strong>USB Expert Console</strong> (in Control Panel) sets up the connection between
 the front panel controls and the software. If you are having problems
 this can be used to troubleshoot.
 
-**Folders** opens the file explorer. You might need this when backing up
+<strong>Folders</strong> opens the file explorer. You might need this when backing up
 show files or when updating the operating software.
 
-**Switch Task** allows you to show other programs (may be needed when
+<strong>Switch Task</strong> allows you to show other programs (may be needed when
 upgrading software) on the touch screen or move them between screens.
 Touch the Switch Screen icon to swap the program between different
 screens. Touch the Centre icon to centre the window on the screen. Touch
@@ -114,15 +114,15 @@ depending on the console.
 
 ![Switch Task](/docs/images/Switch-Task.png)
 
-**Switch Software** allows you to run different versions of Titan
+<strong>Switch Software</strong> allows you to run different versions of Titan
 software (which you will need to install yourself, different versions
 are not installed by default). This can be useful if you need to load
 shows from older versions.
 
-**Additional Programs** allows you to run some diagnostic programs which
+<strong>Additional Programs</strong> allows you to run some diagnostic programs which
 might help Avolites Support find problems you're having.
 
-**Restart** and **Shutdown Software** restarts and closes the Titan
+<strong>Restart</strong> and <strong>Shutdown Software</strong> restarts and closes the Titan
 software. You would normally only need to use these when upgrading the
 software.
 

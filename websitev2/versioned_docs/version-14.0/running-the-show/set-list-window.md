@@ -31,7 +31,7 @@ Creating a Set List
 -------------------
 
 To create a Set List, click the <Keys.ContextKey>+</Keys.ContextKey> button *in the top right corner* of
-the window. You can choose **Empty**, **Pages**, and **Build**: 
+the window. You can choose <strong>Empty</strong>, <strong>Pages</strong>, and <strong>Build</strong>: 
 -   Pages will automatically create a set list using the legends of your 
     existing playback pages, one page per track. 
 -   Build allows you to select the pages in the order you want them. 

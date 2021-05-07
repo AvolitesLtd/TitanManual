@@ -8,9 +8,9 @@ original_id: chase-options
 import Keys from '@site/src/components/key.ts';
 
 Um weitere Optionen eines Chasers zu ändern, drücken Sie im Hauptmenü
-<Keys.SoftKey>Options</Keys.SoftKey>, gefolgt von der entsprechenden **Swop**-Taste. Zum
+<Keys.SoftKey>Options</Keys.SoftKey>, gefolgt von der entsprechenden <strong>Swop</strong>-Taste. Zum
 Einstellen der Optionen in einem Fenster drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, dann die
-entsprechende **Swop**-Taste, und klicken links in der Playback-Ansicht
+entsprechende <strong>Swop</strong>-Taste, und klicken links in der Playback-Ansicht
 auf <Keys.SoftKey>Options</Keys.SoftKey>.
 
 ![Playback Options (playback tab) for a chase](/docs/images/Playback-Options-Chase-Playback-Tab.png)

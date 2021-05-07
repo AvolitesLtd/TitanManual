@@ -11,16 +11,16 @@ import Keys from '@site/src/components/key.ts';
 
 The Tiger Touch has four main control areas:
 
-<Keys.Annotation>A</Keys.Annotation> The **Touch screen** contains fixture, palette and group select buttons.
+<Keys.Annotation>A</Keys.Annotation> The <strong>Touch screen</strong> contains fixture, palette and group select buttons.
 It also shows legends for the playback faders and shows the current menu
 page and softkey buttons on the top right of the screen.
 
-<Keys.Annotation>B</Keys.Annotation> The **Playback faders** select and control cues and programs
+<Keys.Annotation>B</Keys.Annotation> The <strong>Playback faders</strong> select and control cues and programs
 
-<Keys.Annotation>C</Keys.Annotation> The **Preset playbacks** give you additional (unpaged) playbacks and the
-**macro buttons** allow storage of frequent key sequences.
+<Keys.Annotation>C</Keys.Annotation> The <strong>Preset playbacks</strong> give you additional (unpaged) playbacks and the
+<strong>macro buttons</strong> allow storage of frequent key sequences.
 
-<Keys.Annotation>D</Keys.Annotation> The **Programming and setup controls** configure and program the
+<Keys.Annotation>D</Keys.Annotation> The <strong>Programming and setup controls</strong> configure and program the
 console.
 
 > The first version of the Tiger Touch has a slightly different
@@ -31,53 +31,53 @@ front panel layout.
 
 ![Tiger Touch controls](/docs/images/Tiger-Touch-controls.png)
 
-<Keys.Annotation>E</Keys.Annotation> The **Workspace windows** on the touch screen contain touch buttons for
+<Keys.Annotation>E</Keys.Annotation> The <strong>Workspace windows</strong> on the touch screen contain touch buttons for
 fixtures, palettes, groups, playbacks, macros and more. You can also set
 fixture attributes and show information windows.
 
-<Keys.Annotation>F</Keys.Annotation> The **System display and menu** area of the touch screen is the nerve
+<Keys.Annotation>F</Keys.Annotation> The <strong>System display and menu</strong> area of the touch screen is the nerve
 centre of the console and shows you what is going on. This part of the
 display shows various screens of information depending on what you are
 currently doing.
 
-<Keys.Annotation>G</Keys.Annotation> The **Menu Softkeys** (labelled A - G) are used to select control
+<Keys.Annotation>G</Keys.Annotation> The <strong>Menu Softkeys</strong> (labelled A - G) are used to select control
 options. The display next to the buttons shows what each one will do.
 The options for each key change depending on what the console is doing.
 Softkey commands are shown in the manual like this:
 <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
-<Keys.Annotation>H</Keys.Annotation> The **Preset Playbacks** are used to store and play back cues or chases
+<Keys.Annotation>H</Keys.Annotation> The <strong>Preset Playbacks</strong> are used to store and play back cues or chases
 that you need frequently. These playbacks are not changed by the page
 select buttons, but you can assign macro buttons to change pages.
 
-<Keys.Annotation>I</Keys.Annotation> The **Macro Buttons** store frequently used sequences of keypresses
+<Keys.Annotation>I</Keys.Annotation> The <strong>Macro Buttons</strong> store frequently used sequences of keypresses
 which can be replayed with a single button press. Playbacks can also be
 stored here.
 
 ![Tiger Touch controls 2](/docs/images/Tiger-Touch-controls-2.png)
 
-<Keys.Annotation>J</Keys.Annotation> The **Master fader** can be configured to control the overall output of the console
+<Keys.Annotation>J</Keys.Annotation> The <strong>Master fader</strong> can be configured to control the overall output of the console
 (it is disabled by default).
 
-<Keys.Annotation>K</Keys.Annotation> The **Playback faders** are used to store and play back cues or chases.
-<Keys.Annotation>L</Keys.Annotation> The **Page Select buttons** let you change to a different page of
+<Keys.Annotation>K</Keys.Annotation> The <strong>Playback faders</strong> are used to store and play back cues or chases.
+<Keys.Annotation>L</Keys.Annotation> The <strong>Page Select buttons</strong> let you change to a different page of
 playbacks. The touch screen above the faders shows information about
 each playback.
 
-<Keys.Annotation>M</Keys.Annotation> The **Control wheels** are used to set control values (attributes) for
+<Keys.Annotation>M</Keys.Annotation> The <strong>Control wheels</strong> are used to set control values (attributes) for
 the fixtures, and to set chase speeds and fades. The touch screen above
 the wheels shows information about the attributes being controlled.
-Press the **Window Scroll Button** to switch the wheels into scroll mode - this is 
+Press the <strong>Window Scroll Button</strong> to switch the wheels into scroll mode - this is 
 used to move a selection box around the screen when editing.
 
-<Keys.Annotation>N</Keys.Annotation> The **Numeric keypad** and other control buttons are used to enter
+<Keys.Annotation>N</Keys.Annotation> The <strong>Numeric keypad</strong> and other control buttons are used to enter
 values and change controls on the console.
 
-<Keys.Annotation>O</Keys.Annotation> The **Function buttons** are used to carry out functions such as
+<Keys.Annotation>O</Keys.Annotation> The <strong>Function buttons</strong> are used to carry out functions such as
 storing cues, copying, saving to disk, etc. These buttons have lights on
 to indicate when they are active.
 
-<Keys.Annotation>P</Keys.Annotation> The **Attribute select buttons** are used to select which attributes of
+<Keys.Annotation>P</Keys.Annotation> The <strong>Attribute select buttons</strong> are used to select which attributes of
 a fixture (e.g. colour, gobo, pan, focus) are going to be controlled
 using the Control wheels. The buttons have lights on to show you which
 attributes are active. The red button in the bottom right corner of the console allows you to locate

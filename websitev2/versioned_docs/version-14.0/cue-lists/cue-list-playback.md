@@ -10,7 +10,7 @@ import Keys from '@site/src/components/key.ts';
 Running a Cue List
 ------------------
 
-Raise the fader of the cue list and press the **Go button** to run the first
+Raise the fader of the cue list and press the <strong>Go button</strong> to run the first
 cue. The bottom section of the display shows the cue list; the current
 cue is highlighted in grey and the next cue has a box round it.
 
@@ -26,11 +26,11 @@ d for delay and f for fade. If the cue list is set to manual crossfade a red 'M'
 
 You can also open the Playback View window to show more details of the
 cue list by clicking the Cue List legend area or press <Keys.HardKey>View/Open</Keys.HardKey>
-then the **swop button** of the playback. This shows all the timings, links
+then the <strong>swop button</strong> of the playback. This shows all the timings, links
 and tracking status and is very useful when running a [theatre show](theatre-programming.md) on a
 cue list.
 
-The option **"Auto View On Connect"** *(in the [User Settings/Wheels menu](../system-settings/user-settings.md#auto-view-on-connect))* if
+The option <strong>"Auto View On Connect"</strong> *(in the [User Settings/Wheels menu](../system-settings/user-settings.md#auto-view-on-connect))* if
 enabled will automatically open the relevant Playback View window when
 you fire a cue list.
 
@@ -48,10 +48,10 @@ the <Keys.ContextKey>Cog</Keys.ContextKey> button at the top of the window).
 
 -   The HTP levels of cues in the cue list are mastered by the fader level.
 
--   You can **pause** a fade by pressing the <Keys.HardKey>Stop</Keys.HardKey> button above <Keys.HardKey>Go</Keys.HardKey>.
+-   You can <strong>pause</strong> a fade by pressing the <Keys.HardKey>Stop</Keys.HardKey> button above <Keys.HardKey>Go</Keys.HardKey>.
     Press <Keys.HardKey>Go</Keys.HardKey> again to resume the fade.
 
--   You can **skip** to any cue in the cue list by selecting a "next" cue
+-   You can <strong>skip</strong> to any cue in the cue list by selecting a "next" cue
     using Wheel A, or using the left/right arrow keys. When you press
     <Keys.HardKey>Go</Keys.HardKey>, the cue list will run that cue next. If you decide you don't want
 	to skip, you can reset the cue list (so the next cue will be the cue after the current cue)
@@ -78,14 +78,14 @@ the <Keys.ContextKey>Cog</Keys.ContextKey> button at the top of the window).
 	<Keys.HardKey>Cue</Keys.HardKey> depending on the console).
 
 -   You can use [Key Profiles](../system-settings/key-profiles.md) to set the blue and grey buttons of the
-    playback to have various functions including **Go**, **Stop**, **Connect**, **Next
-    Cue**, **Prev Cue**, **Cut Next Cue To Live**, and **Snap Back**, see [Key Profiles](../system-settings/key-profiles.md#cue-lists).
+    playback to have various functions including <strong>Go</strong>, <strong>Stop</strong>, <strong>Connect</strong>, **Next
+    Cue<strong>, </strong>Prev Cue<strong>, </strong>Cut Next Cue To Live<strong>, and </strong>Snap Back**, see [Key Profiles](../system-settings/key-profiles.md#cue-lists).
 
 -   When you lower the fader for a cue list, the HTP channels will fade
     out, but the cue list will remain active. The section below details
     how to [kill the cue list](#killing-a-cue-list).
 
--   You can use **timecode** to play back a cue list automatically. See
+-   You can use <strong>timecode</strong> to play back a cue list automatically. See
     section [Cue List Timing](cue-list-timing.md#running-a-cue-list-to-timecode).
 
 -   You can change the time for the next cue by entering the time on the

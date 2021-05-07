@@ -46,7 +46,9 @@ allocate a button using the Patch menu (described below) or the [Patch View](./c
 2. <Keys.SoftKey>DMX Line=</Keys.SoftKey> shows you which of the DMX output lines you are
 patching onto. Enter a new number to change the line. <Keys.SoftKey>Address = </Keys.SoftKey>
 shows the DMX address about to be patched. You can change this by typing
-in the new address on the numeric keypad and pressing <Keys.HardKey>Enter</Keys.HardKey>.\
+in the new address on the numeric keypad and pressing <Keys.HardKey>Enter</Keys.HardKey>.
+
+
 ![DMX Line](/docs/images/DMX-Line.png)
 
 3. To patch a single dimmer, press a Fixture touch button, a
@@ -187,7 +189,9 @@ Select buttons.
 -   The console will show a picture of the fixture you select in the
     prompt area to help you check you have got the right one (if
     provided in the fixture personality; some fixtures do not include
-    this information)\
+    this information)
+
+
     ![Fixture Mode](/docs/images/Fixture-Mode.png)
 
 Capture Visualiser Auto Patch
@@ -207,7 +211,9 @@ fixtures if you wish.
 
 -   Fixture modes which will work with Auto Patch show a Capture icon in
     the button. If the icon is not shown, that fixture mode isn't
-    supported in the integrated Capture.\
+    supported in the integrated Capture.
+
+
     ![Fixture Modes](/docs/images/Fixture-Modes.png)
 
 -   If you are using the [console linked to the full version of Capture](../capture-visualiser/linking-the-console-to-stand-alone-capture.md)

@@ -29,13 +29,13 @@ The Pearl Expert has additional master faders: Swop and Flash masters control in
 
 Any playback fader on the console can be assigned to act as a master fader, which allow you to set the overall intensity of various areas of the console. Different types of master fader are available:
 
--   **Grand Master** controls the intensity of all output from the console.
+-   <strong>Grand Master</strong> controls the intensity of all output from the console.
 
--   **Swop and Flash masters** control intensity of the swop/flash buttons
+-   <strong>Swop and Flash masters</strong> control intensity of the swop/flash buttons
 
--   **Preset master** controls intensity of the preset faders
+-   <strong>Preset master</strong> controls intensity of the preset faders
 
--   **Playback master** controls intensity of all playbacks.
+-   <strong>Playback master</strong> controls intensity of all playbacks.
 
 To assign master faders, go to System mode and select <Keys.SoftKey>Assign Mastering</Keys.SoftKey>, or press <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Master</Keys.SoftKey>.
 

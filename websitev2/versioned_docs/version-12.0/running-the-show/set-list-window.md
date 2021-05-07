@@ -102,12 +102,20 @@ Macro | Action
 ------|-------
 <Keys.SoftKey>Fire First Playback</Keys.SoftKey> | Fires the first playback on the current page.
 <Keys.SoftKey>Fire First Playback Page 1</Keys.SoftKey> | Fires the first playback on page 1, regardless of current page.
-<Keys.SoftKey>Fire Playback 1</Keys.SoftKey> | Fires the playback with user number 1.\
-<Keys.SoftKey>Kill First Playback</Keys.SoftKey> | Kills the first playback on the current page.\
-<Keys.SoftKey>Kill First Playback Page 1</Keys.SoftKey> | Kills the first playback on page 1, regardless of current page.\
+<Keys.SoftKey>Fire Playback 1</Keys.SoftKey> | Fires the playback with user number 1.
+
+
+<Keys.SoftKey>Kill First Playback</Keys.SoftKey> | Kills the first playback on the current page.
+
+
+<Keys.SoftKey>Kill First Playback Page 1</Keys.SoftKey> | Kills the first playback on page 1, regardless of current page.
+
+
 <Keys.SoftKey>Kill Playback 1</Keys.SoftKey> | Kills the playback with user number 1.
 <Keys.SoftKey>Release First Playback</Keys.SoftKey> | Releases the first playback on the currently selected page.
 <Keys.SoftKey>Release First Playback Page 1</Keys.SoftKey> | Releases the first playback on page 1, regardless of current page.
 <Keys.SoftKey>Release Playback 1</Keys.SoftKey> | Releases the playback with user number 1.
-<Keys.SoftKey>Release Me</Keys.SoftKey> | Releases the associated playback (cue list).\
+<Keys.SoftKey>Release Me</Keys.SoftKey> | Releases the associated playback (cue list).
+
+
 <Keys.SoftKey>Goto My Cue 1</Keys.SoftKey> | Go to cue 1 of the associated cue list.

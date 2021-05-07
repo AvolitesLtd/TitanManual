@@ -24,7 +24,7 @@ allocated) so you will need to set an address before you can use it (see
 Move is useful for tidying up the console.
 
 1. Press the <Keys.HardKey>Copy</Keys.HardKey> or <Keys.HardKey>Move</Keys.HardKey> button (on consoles which don't have
-	a **Move** button press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Copy</Keys.HardKey>).
+	a <strong>Move</strong> button press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Copy</Keys.HardKey>).
 
 2. Press the Select button of the fixture you want to copy/move. You
 can select multiple fixtures -- use the <Keys.HardKey>And</Keys.HardKey> buttons to

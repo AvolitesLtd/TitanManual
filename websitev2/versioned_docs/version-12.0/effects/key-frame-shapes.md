@@ -22,8 +22,8 @@ changes between key frames, and you can change the way it spreads across
 multiple fixtures. It's also *(unlike chases)* easy to save in 
 [cue lists](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists).
 
-You can create the key frames either in **Channel Mode** by manually setting
-up a state and pressing <Keys.SoftKey>Add Frame</Keys.SoftKey>, or in **Quick Build** mode by
+You can create the key frames either in <strong>Channel Mode</strong> by manually setting
+up a state and pressing <Keys.SoftKey>Add Frame</Keys.SoftKey>, or in <strong>Quick Build</strong> mode by
 selecting [palettes](../palettes.md) or 
 [cues](../cues.md) which will be automatically saved as a frame
 as you select them. Use the <Keys.SoftKey>Record Mode</Keys.SoftKey> softkey to select the mode.
@@ -43,7 +43,9 @@ Shapes</Keys.SoftKey>
 4. Press <Keys.SoftKey>Add Frame</Keys.SoftKey>. An automatic legend for the first key frame
 will show above the first playback fader. *(Press <Keys.SoftKey>Playbacks Display
 Visible/Hidden</Keys.SoftKey> to return the playback faders to normal, if you want to
-select one in Quick Build mode)*.\
+select one in Quick Build mode)*.
+
+
 ![Key Frame Shape - creating an effect with colour key frames](/docs/images/Key-Frame-Shape-creating-an-effect-with-colour-key-frames.png)
 
 5. Continue to set colours and press <Keys.SoftKey>Add Frame</Keys.SoftKey> until you have
@@ -68,7 +70,7 @@ below)
     current frame number.
 
 -   If the shape is not visible because fixtures are not lit up, the
-    locate dimmer **"sun"** button at the bottom will light up fixtures used
+    locate dimmer <strong>"sun"</strong> button at the bottom will light up fixtures used
     in the shape.
 
 Changing Shape Parameters in the Effect Editor
@@ -85,9 +87,9 @@ properties which affect the whole shape, controlling speed, direction
 [phase/spread](shape-generator.md#changing-the-spread-of-a-shape-across-multiple-fixtures) and 
 [fixture overlap](../cues/cue-timing.md#setting-fade-times-and-overlap-for-a-cue).
 
-The **eye** icon in the top left corner *"collapses"* the shape preview in the
+The <strong>eye</strong> icon in the top left corner *"collapses"* the shape preview in the
 effect editor window, this allows you to expand only the shape you want
-to work on if you have created multiple shapes. The **fixture icon** button
+to work on if you have created multiple shapes. The <strong>fixture icon</strong> button
 on the right allows you to change the fixtures the key frame shape shape 
 applies to.
 
@@ -110,23 +112,29 @@ wheels can also be used to adjust the value. A <Keys.SoftKey>Reset to default
 value</Keys.SoftKey> softkey is also provided when you click the buttons, or
 double-clicking the buttons will reset to default value.
 
-The **Beats per Cycle** control lets you set how the programmed speed will
+The <strong>Beats per Cycle</strong> control lets you set how the programmed speed will
 trigger the shape. It defaults to 1 which makes the shape run at normal
 speed. Higher numbers will divide the count, for example 4 will make the
 shape run at quarter of the speed - useful to synchronise different
-types of shapes which are running together.\
+types of shapes which are running together.
+
+
 <Keys.SoftKey>Spread</Keys.SoftKey> sets the beat
 count to be the same as the current Spread setting for the shape. This
 is useful when using dimmer shapes with movement shapes as it will make
-each fixture turn on for a full cycle of the movement shape.\
+each fixture turn on for a full cycle of the movement shape.
+
+
 <Keys.SoftKey>Key Frame</Keys.SoftKey> sets the beat count to match the number of key frames in the
-shape.\
+shape.
+
+
 <Keys.SoftKey>Custom</Keys.SoftKey> resets the <Keys.SoftKey>Value</Keys.SoftKey> option to the last
 entered value.
 > Each key frame and each layer can have its own **Beats per
 Cycle** setting.
 
-The **Cycles** option lets you create a shape which runs for a set number of
+The <strong>Cycles</strong> option lets you create a shape which runs for a set number of
 cycles then stops. By default this is set to 0, which means the shape
 will not stop. You can set this either for the whole shape, or for
 individual layers - if you set it while the whole shape is selected,
@@ -135,7 +143,7 @@ is selected, then the cycles will be set for the selected layer only.
 *This means you can have individual layers running continuously or for
 different numbers of cycles.*
 
-Key Frame shapes can run across **sub-fixtures** (cells). This is turned <Keys.SoftKey>Off</Keys.SoftKey>
+Key Frame shapes can run across <strong>sub-fixtures</strong> (cells). This is turned <Keys.SoftKey>Off</Keys.SoftKey>
 by default, but you can select <Keys.SoftKey>On (Group)</Keys.SoftKey> which uses 
 the [layout set for the group](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups),
 or <Keys.SoftKey>On (Linear)</Keys.SoftKey> which ignores the layout and just uses the cells in numerical order.
@@ -152,16 +160,16 @@ parameters for each individual frame:
 
 ![Effect Editor key frame controls for individual key frame step](/docs/images/Effect-Editor-key-frame-controls-for-individual-key-frame-step.png)
 
--   **Timing**: use the Start Time slider or drag the step positions in the
+-   <strong>Timing</strong>: use the Start Time slider or drag the step positions in the
     window
 
--   **Frame A Min** / **Frame B Max**: Sets how close the attribute gets to the
+-   <strong>Frame A Min</strong> / <strong>Frame B Max</strong>: Sets how close the attribute gets to the
     programmed value. *For example if you've saved a dimmer flash at 100%
     you could make it only flash to 80%.*
 
--   **Mid point**: sets where the mid point of the fade is
+-   <strong>Mid point</strong>: sets where the mid point of the fade is
 
--   **Width**: sets how much of the frame time is taken up by the fade. For
+-   <strong>Width</strong>: sets how much of the frame time is taken up by the fade. For
     example you could fade in 20% of the frame time then hold for the
     remaining 80%
 
@@ -178,27 +186,27 @@ Editor window.
 
 ![Effect Editor key frame shape layer with colour steps](/docs/images/Effect-Editor-key-frame-shape-layer-with-colour-steps.png)
 
--   To **add** more frames to a key frame shape click the **pencil** button to
-    the right of the **layer name**.
+-   To <strong>add</strong> more frames to a key frame shape click the <strong>pencil</strong> button to
+    the right of the <strong>layer name</strong>.
 
--   To **edit** a key frame click the **pencil** button to the right of the
-    **frame name**.
+-   To <strong>edit</strong> a key frame click the <strong>pencil</strong> button to the right of the
+    <strong>frame name</strong>.
 
--   To **delete** a key frame select the frame in the list then click the
-    **rubbish bin** icon at the bottom
+-   To <strong>delete</strong> a key frame select the frame in the list then click the
+    <strong>rubbish bin</strong> icon at the bottom
 
--   To **change the order** of the frames, select a frame then use the up
+-   To <strong>change the order</strong> of the frames, select a frame then use the up
     and down arrows at the bottom.
 
--   To **change multiple** key frames at the same time, click on the
+-   To <strong>change multiple</strong> key frames at the same time, click on the
     multi-select button at the bottom of the window, or you can drag a
     selection box over the frames.
 
 ### Multiple Effects
 
 Key frame shapes can have multiple layers where different effects run
-simultaneously. To add another layer, click the **plus** button at the
-bottom, then select **Layers**. The new layer will appear in the list on the
+simultaneously. To add another layer, click the <strong>plus</strong> button at the
+bottom, then select <strong>Layers</strong>. The new layer will appear in the list on the
 left.
 
 ![Effect Editor adding an extra effect](/docs/images/Effect-Editor-adding-an-extra-effect.png)
@@ -206,7 +214,7 @@ left.
 You can also add a completely separate key frame shape or a 
 [pixel map effect](pixel-mapper.md).
 Pixel map effects will be shown at the top of the shape list on
-the left, you can use the **eye** icon to hide the pixel map effect when you
+the left, you can use the <strong>eye</strong> icon to hide the pixel map effect when you
 want to work on the key frame shapes.
 
 Saving a Key Frame Shape to a Cue
@@ -237,7 +245,7 @@ you can also set the mode in
     normal priority, firing a playback with normal priority will block
     the shape output. Killing the playback will restore the shape
     output. Quick Palettes and manual changes (the programmer) have High
-    priority. Setting the shape priority to **"Very High"** would prevent
+    priority. Setting the shape priority to <strong>"Very High"</strong> would prevent
     the programmer taking over (see 
     [Priority](../cues/playback-options.md#priority) in
     [Playback Options](../cues/playback-options.md)).

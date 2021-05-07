@@ -22,21 +22,21 @@ the Open Workspace Windows menu command.
 
 ![Patch View](/docs/images/Patch-View.png)
 
-**Fixture type:** lists the different types of fixture in your show.
+<strong>Fixture type:</strong> lists the different types of fixture in your show.
 Each fixture has a unique colour code. Click on these buttons to filter
 the view so it only shows one fixture type.
 
-**Line:** lists the available DMX output lines/universes. The blue
+<strong>Line:</strong> lists the available DMX output lines/universes. The blue
 bar graph in the button shows how much of the line is used by patched
 fixtures and how much is free. Click a button to show the details of
 that line in the right hand side of the window.
 
-The **coloured bar** at the top shows how fixtures are patched on the
+The <strong>coloured bar</strong> at the top shows how fixtures are patched on the
 selected output line, using the unique colour code for each type of
 fixture. Click on a section of the bar to select those fixtures in the
 grid below.
 
-The **grid area** shows details for each patched fixture on the selected
+The <strong>grid area</strong> shows details for each patched fixture on the selected
 output line. Some parameters are editable by clicking in the grid, then
 the softkeys allow you to change the parameter.
 
@@ -101,7 +101,9 @@ fixture).
 The <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey> softkey lets you swap the addressing
 between two groups of fixtures. This operates in two modes, <Keys.SoftKey>One For
 One</Keys.SoftKey> or <Keys.SoftKey>Retain Layout</Keys.SoftKey>, which you can select by softkey after
-pressing <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey>.\
+pressing <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey>.
+
+
 Select one group, then press <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey> and select the
 target group. In One for One mode the target must be the same quantity
 of fixtures or the console will display an error. In Retain Layout mode
@@ -337,7 +339,7 @@ new destination.
 
 ![Exchange Mapping](/docs/images/Exchange-Mapping.png)
 
-**Range mapping**
+<strong>Range mapping</strong>
 
 If the destination function has a range (for example 0-100%) you can
 adjust the range to which the source function is mapped.

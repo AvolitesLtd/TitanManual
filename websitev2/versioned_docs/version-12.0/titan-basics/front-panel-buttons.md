@@ -142,7 +142,9 @@ Shortcuts are shown on the next page.
   \+ (num)   And                        Alt ↓     Highlight
   ---------- ----------------------- -- --------- -------------------------
 
-⇑ means shift\
+⇑ means shift
+
+
 (num) means on the numeric keypad
 
 Locking the console

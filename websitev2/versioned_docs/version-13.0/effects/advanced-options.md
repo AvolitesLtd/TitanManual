@@ -25,7 +25,7 @@ Speed or Size Master to control the speed or size, see
 [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
 
 To set a fixed fade in time for the shape size, press <Keys.SoftKey>Edit Times</Keys.SoftKey>
-from the top menu, then the **playback select** button, then set the
+from the top menu, then the <strong>playback select</strong> button, then set the
 Delay/Fade times you want.
 
 The [Fade Mode](../cues/playback-options.md#fader-mode) allows you to set mode 0 (fade in), mode 1 (fade in and

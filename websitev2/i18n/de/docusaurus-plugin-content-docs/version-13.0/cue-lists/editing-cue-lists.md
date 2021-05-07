@@ -16,7 +16,7 @@ Das Fenster Playback View
 
 Am einfachsten lässt sich eine Cueliste in der Playback-Ansicht
 (Playback View) editieren, dazu drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>,
-gefolgt von der **blauen Auswahltaste** der gewünschten Cueliste. Diese Ansicht
+gefolgt von der <strong>blauen Auswahltaste</strong> der gewünschten Cueliste. Diese Ansicht
 besteht aus einer Tabelle, wobei jeder Cue mit seinen Details in einer
 Zeile aufgelistet ist. Durch Anklicken einzelner Zellen lassen sich die
 jeweiligen Werte verändern, und auf den Funktionstasten stehen
@@ -34,7 +34,7 @@ Editieren von Werten im Fenster Cue View
 Jeder einzelne Attributwert jedes Gerätes kann in der Cue-Ansicht (Cue
 View) angezeigt und verändert werden. Dazu klicken Sie in der
 [Playback-Ansicht](#das-fenster-playback-view) beim gewünschten Cue auf die 
-Schaltfläche **View** (Spalte *View Cue* weit rechts). 
+Schaltfläche <strong>View</strong> (Spalte *View Cue* weit rechts). 
 
 ![Cue View Window](/docs/images/Cue-View-Window.png)
 
@@ -44,10 +44,10 @@ Werte direkt zu ändern.
 -   Über das Kontextmenü kann man die Anzeige von Pegeln, Shapes,
     Effekten und Zeiten aktivieren.
 
--   Wenn Werte von einer Palette stammen, so schaltet **View Palettes**
+-   Wenn Werte von einer Palette stammen, so schaltet <strong>View Palettes</strong>
     zwischen der Anzeige der Werte und der Anzeige der Palette um.
 
--   Ist die Option **View Tracking Levels** angewählt, so werden
+-   Ist die Option <strong>View Tracking Levels</strong> angewählt, so werden
     getrackte, also aus vorherigen Cues übernommene Werte hellgrau
     hervorgehoben.
 
@@ -58,26 +58,26 @@ Es lassen sich einzelne oder mehrere Cues innerhalb einer oder zwischen
 mehreren Cuelisten kopieren oder verschieben. Dazu klicken und ziehen
 Sie entweder den gewünschten Cue im [Playback View](#das-fenster-playback-view) 
 (drücken Sie dazu <Keys.HardKey>View / Open</Keys.HardKey>, dann die Taste der gewünschten Cueliste), 
-oder verwenden Sie die **Unfold-Funktion** ([siehe nächster Abschnitt](#editieren-einer-cueliste-mit-unfold)) oder eine spezielle
+oder verwenden Sie die <strong>Unfold-Funktion</strong> ([siehe nächster Abschnitt](#editieren-einer-cueliste-mit-unfold)) oder eine spezielle
 Tasten-Syntax.
 
-**Kopieren/verschieben innerhalb des gleichen Playbacks:**
+<strong>Kopieren/verschieben innerhalb des gleichen Playbacks:</strong>
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] @ <cue> ENTER`
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>][AND <cue>] ENTER <cue> ENTER`
 
-**Kopieren/verschieben an das Ende des gleichen Playbacks:**
+<strong>Kopieren/verschieben an das Ende des gleichen Playbacks:</strong>
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] @ @`
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] ENTER ENTER`
 
-**Kopieren/verschieben in ein anderes Playback:**
+<strong>Kopieren/verschieben in ein anderes Playback:</strong>
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> <cue> ENTER`
 
-**Kopieren/verschieben an das Ende eines anderen Playbacks:**
+<strong>Kopieren/verschieben an das Ende eines anderen Playbacks:</strong>
 
 `COPY/MOVE <playback> <cue> [THRO <cue>] [NOT <cue>] [AND <cue>] [@] [ENTER] <playback> ENTER`
 
@@ -85,7 +85,7 @@ Tasten-Syntax.
 
 > Dabei ist `<playback>` die Taste/Schaltfläche des aktuellen
   Speicherplatzes und `<cue>` die Nummer des jeweiligen Cues; Abschnitte
-  in **[eckigen Klammern]** sind optional.
+  in <strong>[eckigen Klammern]</strong> sind optional.
 
 Editieren einer Cueliste mit 'Unfold'
 -------------------------------------
@@ -94,15 +94,15 @@ Mit der Taste <Keys.HardKey>Unfold</Keys.HardKey> ('Aufklappen') wird jeder Schr
 Cueliste auf einen einzelnen Regler abgebildet. Damit lässt sich jeder
 Schritt einzeln aufrufen und editieren, als wäre er ein eigener Cue.
 
-1. Drücken Sie die <Keys.HardKey>Unfold</Keys.HardKey>-Taste, gefolgt von der **Select-Taste**
+1. Drücken Sie die <Keys.HardKey>Unfold</Keys.HardKey>-Taste, gefolgt von der <strong>Select-Taste</strong>
 der zu ändernden Cueliste.
 
-2. Die ersten zehn Schritte werden auf die **Playback-Fader** gelegt. Im
+2. Die ersten zehn Schritte werden auf die <strong>Playback-Fader</strong> gelegt. Im
 Display wird die jeweilige Schrittnummer und Bezeichnung angezeigt. 
 *(Sind mehr Cues als Fader vorhanden, so kann man mit den Menütasten 
 F und G weiterschalten)*.
 
-3. **Betätigen Sie einen Fader**, um den jeweiligen Schritt aufzurufen
+3. <strong>Betätigen Sie einen Fader</strong>, um den jeweiligen Schritt aufzurufen
 *(dabei werden die programmierten Überblendzeiten mit berücksichtigt)*.
 
 4. Es gibt diverse Optionen bei der 'Unfold'-Funktion, die Details dazu
@@ -112,35 +112,35 @@ sind unten aufgeführt.
 
 ---
 
--   Zum **Editieren** eines Schrittes drücken Sie <Keys.HardKey>Clear</Keys.HardKey> zum Leeren des
+-   Zum <strong>Editieren</strong> eines Schrittes drücken Sie <Keys.HardKey>Clear</Keys.HardKey> zum Leeren des
     Programmierspeichers, aktivieren den Fader des Schrittes, nehmen
     die gewünschten Änderungen vor, drücken dann <Keys.SoftKey>Record Step</Keys.SoftKey> und
-    schließlich die **Select-Taste** des Schrittes.
+    schließlich die <strong>Select-Taste</strong> des Schrittes.
 
 -   Um den Inhalt des Programmierspeichers in den aktuellen Schritt zu
-    integrieren (**mergen**), klicken Sie zweimal auf <Keys.SoftKey>Record Step</Keys.SoftKey>.
+    integrieren (<strong>mergen</strong>), klicken Sie zweimal auf <Keys.SoftKey>Record Step</Keys.SoftKey>.
 
 -   Zum Ändern der Zeiten oder der Folge des Schrittes drücken Sie
-    <Keys.SoftKey>Edit Times</Keys.SoftKey>, gefolgt von der **Select-Taste** des Schrittes, und
+    <Keys.SoftKey>Edit Times</Keys.SoftKey>, gefolgt von der <strong>Select-Taste</strong> des Schrittes, und
     nehmen die Änderungen vor (siehe [Zeiten für Cuelisten](cue-list-timing.md)).
 
--   Um einen neuen Schritt **einzufügen**, stellen Sie das gewünschte Bild
+-   Um einen neuen Schritt <strong>einzufügen</strong>, stellen Sie das gewünschte Bild
     ein, drücken B <Keys.SoftKey>Insert Step</Keys.SoftKey>, dann die Taste des Schrittes, auf
     die dieser programmiert werden soll. Alle folgenden Schritte werden
     um eins verschoben, und der neue Schritt erhält eine Nummer zwischen
     den beiden existierenden Schritten (*drückt man etwa die Taste für
     Schritt 3, so erhält dieser die Schrittnummer 2.5*).
 
--   Zum **Verschieben** oder **Kopieren** eines Cues drücken Sie <Keys.HardKey>Copy</Keys.HardKey> (ggf.
-    mehrfach) oder <Keys.HardKey>Move</Keys.HardKey>, dann die **Auswahltaste** des gewünschten Cues,
-    und schließlich die **Auswahltaste** für den gewünschten Ziel-Cue.
+-   Zum <strong>Verschieben</strong> oder <strong>Kopieren</strong> eines Cues drücken Sie <Keys.HardKey>Copy</Keys.HardKey> (ggf.
+    mehrfach) oder <Keys.HardKey>Move</Keys.HardKey>, dann die <strong>Auswahltaste</strong> des gewünschten Cues,
+    und schließlich die <strong>Auswahltaste</strong> für den gewünschten Ziel-Cue.
 
 -   Zum Löschen eines Schrittes drücken Sie die blaue <Keys.HardKey>Delete</Keys.HardKey>-Taste,
-    gefolgt von der **Select-Taste** des zu löschenden Schrittes.
-    Drücken Sie zur Bestätigung die **Select-Taste** nochmals.
+    gefolgt von der <strong>Select-Taste</strong> des zu löschenden Schrittes.
+    Drücken Sie zur Bestätigung die <strong>Select-Taste</strong> nochmals.
 
 -   Zum Ändern der Bezeichnung drücken Sie <Keys.SoftKey>Set Step Legend</Keys.SoftKey>, gefolgt
-    von der **Select-Taste** des betreffenden Schrittes.
+    von der <strong>Select-Taste</strong> des betreffenden Schrittes.
 
 -   Enthält die Cueliste mehr Schritte als Fader vorhanden sind, so
     lässt sich mit den Funktionstasten F und G die Seite umschalten
@@ -153,7 +153,7 @@ nachverfolgt werden [Tracking](cue-list-playback.md#tracking), muss
 beim Ändern eines bestimmten Schritts ermittelt werden, aus welchem 
 Schritt die zu ändernden Werte stammen. 
 
-Die **Update**-Funktion geht die vorherigen Schritte durch und ermittelt,
+Die <strong>Update</strong>-Funktion geht die vorherigen Schritte durch und ermittelt,
 welcher Schritt genau geändert werden muss.
 
 1. Bei gestarteter Cueliste wählen Sie die Geräte aus und ändern sie
@@ -181,9 +181,9 @@ Editieren einer laufenden Cueliste
 Ebenso lassen sich Schritte einer laufenden Cueliste ändern, ohne
 [Unfold](#editieren-einer-cueliste-mit-unfold) nutzen zu müssen: 
 
-1. **Starten Sie die Cueliste** mit dem entsprechenden Fader.
+1. <strong>Starten Sie die Cueliste</strong> mit dem entsprechenden Fader.
 
-2. Wählen Sie mit **Encoder A** den zu ändernden Schritt, und aktivieren Sie
+2. Wählen Sie mit <strong>Encoder A</strong> den zu ändernden Schritt, und aktivieren Sie
 diesen mit der <Keys.HardKey>Go</Keys.HardKey>-Taste. *(Beim Pearl Expert/Tiger Touch Mk1 
 drücken Sie statt der Go-Taste die Taste <Keys.HardKey>↔</Keys.HardKey> oberhalb der Taste Snap Back)*
 
@@ -204,9 +204,9 @@ Expert/Tiger Touch Mk1 drücken Sie statt der Go-Taste die Taste <Keys.HardKey>�
 Die Zeiten jedes Schritts lassen sich wie folgt mit den Tasten
 <Keys.HardKey>Live Time</Keys.HardKey> und <Keys.HardKey>Next Time</Keys.HardKey> *(nicht auf allen Pulten)* ändern:
 
-1.  **Starten Sie die Cueliste** mit dem entsprechenden Fader.
+1.  <strong>Starten Sie die Cueliste</strong> mit dem entsprechenden Fader.
 
-2.  Wählen Sie mit **Encoder A** den zu ändernden Schritt, und aktivieren
+2.  Wählen Sie mit <strong>Encoder A</strong> den zu ändernden Schritt, und aktivieren
     Sie diesen mit der <Keys.HardKey>Go</Keys.HardKey>-Taste. (Beim Pearl Expert/Tiger Touch Mk1:
 	Taste <Keys.HardKey>↔</Keys.HardKey>).
 
@@ -252,10 +252,10 @@ Mit der Menütaste <Keys.SoftKey>Update Mode</Keys.SoftKey> lässt sich einstell
 
 Update-Modus | Beschreibung
 ---|---
-**Forwards** ![Cue List Update Mode Forwards](/docs/images/Cue-List-Update-Mode-Forwards.png) | Ändert die Werte in diesem Cue und trackt die Änderungen in alle folgenden Cues, bis die betreffenden Kanäle erneut geändert werden. Vorherige Cues werden nicht geändert.
-**Backwards** ![Cue List Update Mode Backwards](/docs/images/Cue-List-Update-Mode-Backwards.png) | Setzt die Änderungen rückwirkend bis zur letzten Änderung um.
-**Both** ![Cue List Update Mode Both](/docs/images/Cue-List-Update-Mode-Both.png) | Tracking in beide Richtungen, d.h. rückwirkend ab der letzten Änderung, sowie in allen folgenden Cues bis zur nächsten Änderung.
-**Cue Only** ![Cue List Update Mode Cue Only](/docs/images/Cue-List-Update-Mode-Cue-Only.png) | Nur der aktuelle Cue wird geändert.
+<strong>Forwards</strong> ![Cue List Update Mode Forwards](/docs/images/Cue-List-Update-Mode-Forwards.png) | Ändert die Werte in diesem Cue und trackt die Änderungen in alle folgenden Cues, bis die betreffenden Kanäle erneut geändert werden. Vorherige Cues werden nicht geändert.
+<strong>Backwards</strong> ![Cue List Update Mode Backwards](/docs/images/Cue-List-Update-Mode-Backwards.png) | Setzt die Änderungen rückwirkend bis zur letzten Änderung um.
+<strong>Both</strong> ![Cue List Update Mode Both](/docs/images/Cue-List-Update-Mode-Both.png) | Tracking in beide Richtungen, d.h. rückwirkend ab der letzten Änderung, sowie in allen folgenden Cues bis zur nächsten Änderung.
+<strong>Cue Only</strong> ![Cue List Update Mode Cue Only](/docs/images/Cue-List-Update-Mode-Cue-Only.png) | Nur der aktuelle Cue wird geändert.
 
 
 > Die Schrittnummer lässt sich auf diese Weise nicht ändern; ein Druck
@@ -267,8 +267,8 @@ Werte in mehreren Cues gleichzeitig aktualisieren
 -------------------------------------------------
 
 Werte können auch in mehreren Cues einer Cueliste/eines Chasers
-gleichzeitig aktualisiert (mittels **Merge/Verschmelzen** oder
-**Replace/Ersetzen**) werden. Dies kann sowohl mit numerischer Eingabe als
+gleichzeitig aktualisiert (mittels <strong>Merge/Verschmelzen</strong> oder
+<strong>Replace/Ersetzen</strong>) werden. Dies kann sowohl mit numerischer Eingabe als
 auch in der [Playback-Ansicht](#das-fenster-playback-view) erfolgen. 
 
 In der Playback-Ansicht drücken Sie die Taste <Keys.HardKey>Record</Keys.HardKey> und klicken
@@ -298,7 +298,7 @@ als wäre er nicht vorhanden, kann aber später wieder aktiviert werden
 Einzelne Cues mit Include in den Programmer laden
 -------------------------------------------------
 
-Mit **[Include](../cues/editing-cues.md#cues-wiederverwenden---die-include-funktion)** 
+Mit <strong>[Include](../cues/editing-cues.md#cues-wiederverwenden---die-include-funktion)</strong> 
 können einzelne Cues aus einer Cueliste in den Programmer
 geladen werden. Drücken Sie dazu <Keys.HardKey>Include</Keys.HardKey>, wählen die Cueliste aus, geben die Cuenummer ein und drücken <Keys.SoftKey>Include Cue</Keys.SoftKey>.
 

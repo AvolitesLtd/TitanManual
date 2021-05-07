@@ -10,13 +10,13 @@ import Keys from '@site/src/components/key.ts';
 Opening a Chase for Editing
 ---------------------------
 
-You can open a chase for editing by pressing <Keys.HardKey>Record</Keys.HardKey> then the **Swop**
+You can open a chase for editing by pressing <Keys.HardKey>Record</Keys.HardKey> then the <strong>Swop</strong>
 button of an existing chase. This does not affect any existing cues in
 the chase. You can then save new cues at the end by pressing the Swop
 button just like normal recording.
 
 To see a list of the cues in the chase, use Playback view (touch the
-playback display above the fader or press <Keys.HardKey>Open/View</Keys.HardKey> then the **Swop**
+playback display above the fader or press <Keys.HardKey>Open/View</Keys.HardKey> then the <strong>Swop</strong>
 button of the playback). To edit any of the time settings in each cue,
 select the setting to be modified by touching or dragging in the grid,
 then use the softkey options to change the setting.
@@ -31,7 +31,7 @@ each cue in a chase on one of the playback faders, allowing you to fire
 and edit each cue individually as if it was a stand-alone cue. Unfold
 also allows you to set individual timing for cues in the chase.
 
-1. Press the <Keys.HardKey>Unfold</Keys.HardKey> button, then the **Swop** button of the chase to be
+1. Press the <Keys.HardKey>Unfold</Keys.HardKey> button, then the <strong>Swop</strong> button of the chase to be
 edited
 
 2. The first 10 cues of the chase are loaded into the playback faders
@@ -45,25 +45,25 @@ times will operate as programmed)*
 
 ---
 
--   To **edit** the contents of a cue: Press <Keys.HardKey>Clear</Keys.HardKey> to empty the programmer,
+-   To <strong>edit</strong> the contents of a cue: Press <Keys.HardKey>Clear</Keys.HardKey> to empty the programmer,
     raise the fader to output the cue, make the changes, press <Keys.SoftKey>Record
-    Step</Keys.SoftKey>, then the **Swop** button for the cue number.
+    Step</Keys.SoftKey>, then the <strong>Swop</strong> button for the cue number.
 
--   To **insert** a cue between two other cues, set up the look for the new
+-   To <strong>insert</strong> a cue between two other cues, set up the look for the new
     cue, press <Keys.SoftKey>Insert Step</Keys.SoftKey>, then type the cue number for the new cue
     (such as 1.5 to go between 1 and 2). If this cue number already
     exists it will be merged with the look you have created. Otherwise a
     new cue is inserted.
 
--   To **insert** a new cue at the end of the chase, set up the look for the
-    new cue, press <Keys.SoftKey>Insert Step</Keys.SoftKey>, then press the **swop** button of the
+-   To <strong>insert</strong> a new cue at the end of the chase, set up the look for the
+    new cue, press <Keys.SoftKey>Insert Step</Keys.SoftKey>, then press the <strong>swop</strong> button of the
     first free playback.
 
--   To **merge** the programmer into the live step, double tap <Keys.SoftKey>Record
+-   To <strong>merge</strong> the programmer into the live step, double tap <Keys.SoftKey>Record
     Step</Keys.SoftKey>.
 
 -   To change individual times for the cue, press <Keys.SoftKey>Edit Times</Keys.SoftKey>, then
-    the **Swop** button for the cue (or type the cue number), then set the
+    the <strong>Swop</strong> button for the cue (or type the cue number), then set the
     times. This is described in detail in [Chase Timing](chase-timing.md).
 
 -   If the chase has more steps than there are playback faders, you can

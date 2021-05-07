@@ -36,10 +36,10 @@ Bridge software on the console itself. If your console includes an Ethernet swit
 you can connect the “Extension” Ethernet socket on the Pioneer equipment directly 
 to the console, otherwise you need to go through an external switch.
 
-Run the Pro DJ Link Bridge software from the **Tools \> Additional Programs** menu on the console.
+Run the Pro DJ Link Bridge software from the <strong>Tools \> Additional Programs</strong> menu on the console.
 
 - You can set the Bridge software to run automatically when the console powers up 
-using the **Tools \> Control Panel \> Run on Startup** menu option. This is useful 
+using the <strong>Tools \> Control Panel \> Run on Startup</strong> menu option. This is useful 
 in club environments where the console is always linked.
 
 ![Pro-DJ link bridge command on shell menu](/docs/images/Pro-DJ-link-bridge-command-on-shell-menu-2.png)
@@ -114,7 +114,7 @@ automatically controlled by the track BPM playing on the Pioneer devices. See
 [BPM Master](../running-the-show/playback-controls.md#bpm-master-options) 
 section for how to set up a BPM master.
 
-Go to the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>Triggers</Keys.SoftKey>. The Triggers window will open.
+Go to the <strong>System</strong> menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>Triggers</Keys.SoftKey>. The Triggers window will open.
 1.  Add a new mapping using the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom of the *left hand* 
     column, and enter a name such as “Pioneer”.
 2.  Add a trigger to the mapping using the <Keys.ContextKey>+</Keys.ContextKey> button in the *right hand* column 

@@ -62,7 +62,9 @@ playback faders), or press C <Keys.SoftKey>Store</Keys.SoftKey> to store as a nu
 -   The order in which you originally selected the fixtures when
     creating the group is also stored. This takes effect when you use
     the last fixture - next fixture functions described in the [next section](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups), and when you use Shapes, Fan mode and Fixture Overlap
-    functions. You can change this later, see the [next section](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).\
+    functions. You can change this later, see the [next section](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
+
+
     You can override the selection order while recalling a group by
     holding down the group button and using the softkey options.
 
@@ -191,7 +193,9 @@ and columns (Width).
     change to <Keys.SoftKey>Scale</Keys.SoftKey> which allows you to spread out or compress the
     cells in a multi-cell fixture. This is useful to get cells located
     correctly if you have some fixtures with large cell spacing and some
-    with small spacing.\
+    with small spacing.
+
+
 
     ![Position](/docs/images/Position-2.png)
 

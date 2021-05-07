@@ -9,7 +9,7 @@ import Keys from '@site/src/components/key.ts';
 
 Because it's possible to play back a large number of cues at the same
 time, the console has to have rules on how it combines the output from
-different cues. These are called **HTP** and **LTP** rules.
+different cues. These are called <strong>HTP</strong> and <strong>LTP</strong> rules.
 
 Combining Cues with HTP and LTP
 -------------------------------
@@ -46,19 +46,21 @@ in the programmer will override the playback).
     set to Mode 2 in which case they fade with the fader position; see
     the timings section [Fader Modes](cue-timing.md#fade-modes) for details of modes)*.
 
--   You can **Flash** the cue by pressing the grey flash button. You can
-    **Swop** (solo) the cue by pressing the blue Swop button (all other
+-   You can <strong>Flash</strong> the cue by pressing the grey flash button. You can
+    <strong>Swop</strong> (solo) the cue by pressing the blue Swop button (all other
     active cues will turn off while the button is pressed). This assumes
     you haven't reassigned the function of the buttons using
     [Key Profiles](../system-settings/key-profiles.md), see below.
 
--   You can **Preload** the cue by assigning the Preload function to the
+-   You can <strong>Preload</strong> the cue by assigning the Preload function to the
     blue or grey buttons using
     [Key Profiles](../system-settings/key-profiles.md). Preload sets the attributes
     of fixtures in the playback which are not currently active in any
     other playbacks. *This is useful to avoid the fixtures visibly moving
     into position or changing colours or gobos when you raise the fader
-    of the cue.*\
+    of the cue.*
+
+
     To assign Preload, hold <Keys.HardKey>Avo</Keys.HardKey> Shift and press <Keys.SoftKey>Edit
     Key Profile</Keys.SoftKey>, then press the button you want to assign (also see
     [Key Profiles](../system-settings/key-profiles.md)). Note that this will assign the function
@@ -71,7 +73,7 @@ in the programmer will override the playback).
     while the timing completes. You can also fire the cue again without
     needing to release it.
 
--   You can set playbacks to high **priority** if you do not want them to be
+-   You can set playbacks to high <strong>priority</strong> if you do not want them to be
     overridden by other playbacks using the same fixtures. For example,
     if you have a couple of fixtures acting as a spotlight, but they are
     also programmed into some colour washes, you probably want the
@@ -142,7 +144,7 @@ Workspace Window</Keys.SoftKey>, <Keys.SoftKey>Active Playbacks</Keys.SoftKey>.
 
 ![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
 
-Click on a playback to instantly **kill** it. You can also press <Keys.SoftKey>Playback
+Click on a playback to instantly <strong>kill</strong> it. You can also press <Keys.SoftKey>Playback
 Options</Keys.SoftKey> followed by the playback in this window to change parameters
 of the playback.
 
@@ -166,8 +168,8 @@ for more details.
 Releasing Running Playbacks
 ---------------------------
 
-You can **release** a running playback to its previous state by pressing
-<Keys.HardKey>Release</Keys.HardKey> *(<Keys.HardKey>Off</Keys.HardKey> button on Pearl Expert)*, then the **select** button of
+You can <strong>release</strong> a running playback to its previous state by pressing
+<Keys.HardKey>Release</Keys.HardKey> *(<Keys.HardKey>Off</Keys.HardKey> button on Pearl Expert)*, then the <strong>select</strong> button of
 the playback to be released. Channels will release back to their state
 in the previous playback until no playbacks are left to be released. If
 the <Keys.SoftKey>Release to Home</Keys.SoftKey> setting on the Release menu is Enabled, channels
@@ -185,7 +187,7 @@ seconds but you can change it using <Keys.SoftKey>Master Release Time</Keys.Soft
 Release menu. You can also set an individual release time for the
 playback from the [Release tab](playback-options.md#release-tab) of [Playback Options](playback-options.md).
 
--   You can instantly kill a playback by pressing <Keys.HardKey>Avo</Keys.HardKey> + the **swop**
+-   You can instantly kill a playback by pressing <Keys.HardKey>Avo</Keys.HardKey> + the <strong>swop</strong>
     button of the playback.
 
 -   You can set a mask so that only certain attributes release from the
@@ -213,7 +215,7 @@ the same fader group from another page
 <Keys.SoftKey>Release All Playbacks In This Group</Keys.SoftKey> - releases any active playback in
 the fader group.
 
-> **"Fader Group"** refers to a particular area of the console, for example
+> <strong>"Fader Group"</strong> refers to a particular area of the console, for example
 the main faders below the screen on a Tiger Touch or the top row on the
 left hand side of the Arena.
 
@@ -274,7 +276,7 @@ Turning Off Individual Fixtures
 -------------------------------
 
 You can turn off individual fixtures or certain attributes of them using
-the **Off** menu. This will cause the attributes/fixtures to release to
+the <strong>Off</strong> menu. This will cause the attributes/fixtures to release to
 their previous state before the playback was fired.
 
 Press <Keys.HardKey>Off</Keys.HardKey> button followed by a playback to open the \'Off Playback

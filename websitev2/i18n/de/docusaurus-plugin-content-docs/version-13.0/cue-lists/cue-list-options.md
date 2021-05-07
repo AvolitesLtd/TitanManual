@@ -12,11 +12,11 @@ Optionen verfügbar. Zum Aufrufen derselben gehen Sie wie folgt vor:
 
 1. Drücken Sie im Hauptmenü <Keys.SoftKey>Playback Options</Keys.SoftKey>.
 
-2. Drücken Sie die **Select-Taste** der Cueliste.
+2. Drücken Sie die <strong>Select-Taste</strong> der Cueliste.
 
 Zur Anzeige aller Optionen in einem Fenster drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, 
-dann die entsprechende **Select-Taste**, und klicken links in der 
-Playback-Ansicht auf **Options**.
+dann die entsprechende <strong>Select-Taste</strong>, und klicken links in der 
+Playback-Ansicht auf <strong>Options</strong>.
 
 Die meisten Optionen sind die gleichen wie für [statische Cues](../cues/playback-options.md) und für [Chaser](../chases/chase-options.md), 
 deshalb werden hier nur noch die spezifischen Optionen für
@@ -38,7 +38,7 @@ Einstellung | Beschreibung
 --- | ---
 Off | Kein Tracking von Shapes - Shapes stoppen, wenn der Cue beendet wird.
 On  | Shapes tracken, bis sie geblockt werden.
-Local | Die allgemeine **Tracking**-Einstellung gilt. *(Vorgabewert)*
+Local | Die allgemeine <strong>Tracking</strong>-Einstellung gilt. *(Vorgabewert)*
 
 ### Move In Dark
 Einstellung für die gesamte Cueliste: Vorladen von
@@ -90,7 +90,7 @@ Release Mask und Release Time funktionieren genauso wie im Kapitel [Playback Opt
 
 ### Cue Release
 
-**Cue Release:** erlaubt es, Cuelisten zu erstellen, bei denen zwischen
+<strong>Cue Release:</strong> erlaubt es, Cuelisten zu erstellen, bei denen zwischen
 den einzelnen Schritten ein Release erfolgt. So lässt sich damit z.B.
 eine Cueliste erstellen, die die Geräte einzeln auf weiß einblendet und
 dann wieder released, also auf die vorher verwendete Farbe zurücksetzt.
@@ -117,8 +117,8 @@ mit den Zifferntasten ein.
     wieder verlangsamt*). Drücken Sie <Keys.SoftKey>Curve</Keys.SoftKey>, und wählen Sie mit den
     Funktionstasten die gewünschte Kurve. Die einzelnen Kurven sind [Curves](../system-settings/curves.md) erläutert.
 
--   <Keys.SoftKey>Link</Keys.SoftKey> (Verbindung) bietet die Optionen **Wait for Go** (auf <Keys.HardKey>Go</Keys.HardKey>
-    warten), **With Previous Cue** (mit vorigem Schritt), und  **After
+-   <Keys.SoftKey>Link</Keys.SoftKey> (Verbindung) bietet die Optionen <strong>Wait for Go</strong> (auf <Keys.HardKey>Go</Keys.HardKey>
+    warten), <strong>With Previous Cue</strong> (mit vorigem Schritt), und  **After
     Previous Cue** (nach vorigem Schritt). Siehe [Schrittfolge und Versatz](cue-list-timing.md#schrittfolge-und-versatz).
 
 -   <Keys.SoftKey>Move In Dark</Keys.SoftKey> öffnet das Menü mit den Move-In-Dark-Optionen,

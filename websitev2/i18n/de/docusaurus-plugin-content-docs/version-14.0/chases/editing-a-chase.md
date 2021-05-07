@@ -11,12 +11,12 @@ Einen Chaser zum Editieren öffnen
 ---------------------------------
 
 Neue Schritte lassen sich wie gewohnt mit <Keys.HardKey>Record</Keys.HardKey> und der
-**Swop**-Taste des Playbacks am Ende des Chasers anfügen.
+<strong>Swop</strong>-Taste des Playbacks am Ende des Chasers anfügen.
 
 Zur Anzeige einer Übersicht der vorhandenen Schritte dient die 'Playback
 View'-Ansicht (berühren Sie das Display oberhalb des Reglers, oder
 drücken Sie <Keys.HardKey>View/Open</Keys.HardKey> und die entsprechende
-**Swop**-Taste). Um eine bestimmte Zeitvorgabe zu ändern, klicken Sie
+<strong>Swop</strong>-Taste). Um eine bestimmte Zeitvorgabe zu ändern, klicken Sie
 den entsprechenden Wert (oder einen ganzen Bereich) auf dem Touchscreen
 an und benutzen die Funktionstasten für die gewünschte Änderung
 
@@ -32,7 +32,7 @@ Schritt einzeln aufrufen und editieren lässt, als wäre er ein separater
 Cue. Ebenso lassen sich damit einzelne Zeitvorgaben für jeden Schritt
 machen.
 
-1. Drücken Sie die <Keys.HardKey>Unfold</Keys.HardKey>-Taste, und dann die **Swop**-Taste des zu
+1. Drücken Sie die <Keys.HardKey>Unfold</Keys.HardKey>-Taste, und dann die <strong>Swop</strong>-Taste des zu
 bearbeitenden Chasers.
 
 2. Die ersten zehn Chaserschritte werden daraufhin auf die Regler
@@ -48,13 +48,13 @@ beschrieben.
 
 ---
 
--   Um einen Schritt zu **ändern**, drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, um den
+-   Um einen Schritt zu <strong>ändern</strong>, drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, um den
     Programmierspeicher zu löschen, aktivieren den Schritt mit dem
     entsprechenden Regler, machen die gewünschten Änderungen, drücken
-    <Keys.SoftKey>Record Step</Keys.SoftKey>, und anschließend die **Swop**-Taste des
+    <Keys.SoftKey>Record Step</Keys.SoftKey>, und anschließend die <strong>Swop</strong>-Taste des
     entsprechenden Schrittes.
 
--   Zum **Einfügen** eines Schrittes zwischen zwei vorhandene Schritte
+-   Zum <strong>Einfügen</strong> eines Schrittes zwischen zwei vorhandene Schritte
     stellen Sie zunächst das gewünschte Bild ein, drücken dann \[Insert
     Step\] und geben mit den Ziffern die gewünschte Schrittnummer ein
     (etwa 1.5, wenn der Schritt zwischen den Schritten 1 und 2 eingefügt
@@ -62,16 +62,16 @@ beschrieben.
     sein, so wird dieser mit den neuen Einstellungen gemischt;
     anderenfalls wird ein neuer Schritt eingefügt.
 
--   Zum **Anhängen** eines neuen Schritts am Ende des Chasers stellen Sie
+-   Zum <strong>Anhängen</strong> eines neuen Schritts am Ende des Chasers stellen Sie
     das gewünschte Bild ein, drücken <Keys.SoftKey>Insert Step</Keys.SoftKey>, und anschließend
-    die **Swop**-Taste des nächsten freien Schrittes.
+    die <strong>Swop</strong>-Taste des nächsten freien Schrittes.
 
 -   Um die aktuellen Werte im Programmierspeicher in den aktuellen
-    Schritt zu integrieren (**mergen**), klicken Sie zweimal auf \[Record
+    Schritt zu integrieren (<strong>mergen</strong>), klicken Sie zweimal auf \[Record
     Step\].
 
--   Zum **Ändern** einzelner Zeiteinstellungen drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey>,
-    dann die entsprechende **Swop**-Taste (oder tippen die Schrittnummer
+-   Zum <strong>Ändern</strong> einzelner Zeiteinstellungen drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey>,
+    dann die entsprechende <strong>Swop</strong>-Taste (oder tippen die Schrittnummer
     ein), und stellen die gewünschten Zeiten ein. Details dazu finden
     sich im Abschnitt [Zeiten bei Chasern](chase-timing.md).
 

@@ -36,15 +36,15 @@ verschiedene Modi schalten:
 -   Playbacks/Levels/Shapes/Effects/Times: nur einer dieser Modi kann
     jeweils angezeigt werden.
 
-Zur **Auswahl** von Geräten klicken Sie einfach links auf den
+Zur <strong>Auswahl</strong> von Geräten klicken Sie einfach links auf den
 Gerätenamen; wird ein Attribut ausgewählt, so wird automatisch das
 zugehörige Gerät angewählt.
 
-Zum **Löschen** eines Attributwerts im 'Channel Grid'-Fenster klicken
+Zum <strong>Löschen</strong> eines Attributwerts im 'Channel Grid'-Fenster klicken
 Sie auf den zu löschenden Wert (oder wählen mit Klicken-Ziehen mehrere
 aus) und wählen <Keys.SoftKey>Clear</Keys.SoftKey>.
 
-Zum **Ändern** wählen Sie den oder die zu ändernden Wert(e) aus und
+Zum <strong>Ändern</strong> wählen Sie den oder die zu ändernden Wert(e) aus und
 ändern den Wert mit den Rädern, oder geben den gewünschten Wert mit den
 Zifferntasten ein und schließen die Eingabe mit <Keys.HardKey>Enter</Keys.HardKey> ab.
 
@@ -134,7 +134,7 @@ Es gibt ferner den Kontext-Button <Keys.SoftKey>Open Channel Grid</Keys.SoftKey>
 Grid), mit dem direkt die Kanal-Übersicht [Channel Grid](viewing-and-editing-fixture-values.md#übersicht-über-die-kanäle-das-channel-grid-fenster) 
 geöffnet werden kann.
 
-In den **Fenster-Einstellungen** (klicken Sie dazu auf das <Keys.ContextKey>Zahnrad</Keys.ContextKey>
+In den <strong>Fenster-Einstellungen</strong> (klicken Sie dazu auf das <Keys.ContextKey>Zahnrad</Keys.ContextKey>
 in der Titelleiste des Fensters) gibt es weitere Einstellmöglichkeiten, 
 um den Platz bestmöglich auszunutzen:
 

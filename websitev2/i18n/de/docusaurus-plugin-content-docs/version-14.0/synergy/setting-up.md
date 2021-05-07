@@ -51,7 +51,7 @@ umbenennen.
 Einrichten von Synergy
 ----------------------
 
-In Titan öffnen Sie das Fenster **Synergy Settings**, entweder mit dem
+In Titan öffnen Sie das Fenster <strong>Synergy Settings</strong>, entweder mit dem
 entsprechenden Workspace bei neuen Shows, oder über das Menü 'Open
 Workspace Window'.
 
@@ -98,7 +98,7 @@ sich, die Option zu deaktivieren, um das Netzwerk zu entlasten.
 Ist in Titan ein Surface angelegt, so muss dies einem Ai-Surface (in Ai:
 Screen Fixture) zugewiesen werden. Dazu klickt man auf den Button <Keys.ContextKey>Link</Keys.ContextKey>
 des nicht zugewiesenen Ai-Surfaces unten und danach auf das
-Titan-Surface oben. Wählt man dagegen **Link to new Surface**, so wird ein
+Titan-Surface oben. Wählt man dagegen <strong>Link to new Surface</strong>, so wird ein
 neues Titan-Surface angelegt und verknüpft.
 
 ![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-linking-a-screen.png)
@@ -114,7 +114,7 @@ klickt man auf das Surface in der Mitte und danach links auf den
 zusätzlichen Output.
 
 Ist ein Layer verknüpft, so wird das in Ai in den Layer Properties mit
-**Synergy Control: Enabled** angezeigt. Dieser Layer kann nun nicht von Ai
+<strong>Synergy Control: Enabled</strong> angezeigt. Dieser Layer kann nun nicht von Ai
 direkt, sondern nur über Titan/Synergy gesteuert werden.
 
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)

@@ -19,22 +19,22 @@ vergeben; das ist [im nächsten Abschnitt](#individuelle-zeiten-pro-schritt)
  genauer beschrieben.
 
 1. Drücken Sie im Hauptmenü <Keys.SoftKey>Edit Times</Keys.SoftKey>, und anschließend die
-**Swop**-Taste des gewünschten Chasers.
+<strong>Swop</strong>-Taste des gewünschten Chasers.
 
-2. Stellen Sie wie unten beschrieben **Geschwindigkeit**, **Überblendung**,
-**Geräteversatz** und **Attributversatz** ein.
+2. Stellen Sie wie unten beschrieben <strong>Geschwindigkeit</strong>, <strong>Überblendung</strong>,
+<strong>Geräteversatz</strong> und <strong>Attributversatz</strong> ein.
 
 3. Drücken Sie <Keys.HardKey>Exit</Keys.HardKey>, um den Vorgang abzuschließen.
 
 ---
 
--   Zum Einstellen der **Geschwindigkeit** drücken Sie <Keys.SoftKey>Speed</Keys.SoftKey>, geben die
+-   Zum Einstellen der <strong>Geschwindigkeit</strong> drücken Sie <Keys.SoftKey>Speed</Keys.SoftKey>, geben die
     gewünschte Geschwindigkeit mit den Zifferntasten ein und schließen
     die Eingabe mit <Keys.HardKey>Enter</Keys.HardKey> ab. Abhängig von den Benutzereinstellungen
     kann man die Geschwindigkeit in ‚Beats Per Minute' (BPM) oder in
     Sekunden eingeben.
 
--   Zum Einstellen der **Überblendung** drücken Sie <Keys.SoftKey>Xfade</Keys.SoftKey>, geben den
+-   Zum Einstellen der <strong>Überblendung</strong> drücken Sie <Keys.SoftKey>Xfade</Keys.SoftKey>, geben den
     gewünschten Wert mit den Zifferntasten ein und schließen die Eingabe
     mit <Keys.HardKey>Enter</Keys.HardKey> ab *(0 = keine Überblendung, hartes Umschalten; 100 =
     maximale Überblendung, ständiges Umblenden von einem Schritt zum
@@ -44,11 +44,11 @@ vergeben; das ist [im nächsten Abschnitt](#individuelle-zeiten-pro-schritt)
     eine freie Taste, so wirkt diese als Tap-Taste, sobald ein Chaser
     verbunden ist: drücken Sie diese mehrfach im gewünschten Rhythmus.
     Ebenso lässt sich mittels [Tastenprofil (Key Profiles)](../system-settings/key-profiles.md) die blaue oder graue Taste
-    als **Tap Tempo**-Taste belegen
+    als <strong>Tap Tempo</strong>-Taste belegen
 
 ### Overlap - Überlappung
 
-Die **Overlap** (Überlappen)-Funktionen erlauben Vorgaben zu Versatz und
+Die <strong>Overlap</strong> (Überlappen)-Funktionen erlauben Vorgaben zu Versatz und
 Überlappung der einzelnen Schritte. Damit lassen sich mit minimalem
 Programmieraufwand erstaunliche Ergebnisse erzielen. Um sich damit
 vertraut zu machen, legt man am besten einen Chaser mit zwei Schritten
@@ -62,10 +62,10 @@ Im nachstehenden Diagramm sind die Auswirkungen von 'Cue Overlap'
 ![Fixture Overlap and Attribute Overlap diagram for a chase](/docs/images/Fixture-Overlap-and-Attribute-Overlap-diagram-for-a-chase.png)
 
 Drücken Sie <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> und geben mit den Zifferntasten
-einen Wert von **0 - 100** ein.\
-**100%** (*Standardwert*) bedeutet, dass alle Geräte gemeinsam wechseln.
-**0%** bedeutet, dass zunächst das erste Gerät komplett überblendet, bevor das nächste damit beginnt.\
-Bei **50%** wird das erste die Überblendung zunächst zur Hälfte
+einen Wert von <strong>0 - 100</strong> ein.\
+<strong>100%</strong> (*Standardwert*) bedeutet, dass alle Geräte gemeinsam wechseln.
+<strong>0%</strong> bedeutet, dass zunächst das erste Gerät komplett überblendet, bevor das nächste damit beginnt.\
+Bei <strong>50%</strong> wird das erste die Überblendung zunächst zur Hälfte
 abschließen, bevor das nächste damit beginnt. Die Reihenfolge der
 Geräte wird dabei durch die Reihenfolge der Geräteauswahl beim
 Erstellen des jeweiligen Schrittes vorgegeben, kann aber mit der
@@ -83,7 +83,7 @@ versehen. Dazu können Sie entweder das ‚Playback View'-Fenster oder die
 ### Unter Verwendung des 'Playback View'-Fensters:
 
 1. Berühren Sie das Display oberhalb des betreffenden Reglers, oder
-drücken Sie <Keys.HardKey>View / Open</Keys.HardKey> und die **Swop**-Taste des
+drücken Sie <Keys.HardKey>View / Open</Keys.HardKey> und die <strong>Swop</strong>-Taste des
 Speicherplatzes. Darauf öffnet sich das ‚Playback View'-Fenster.
 
 ![Playback View for chase](/docs/images/Playback-View-for-chase.png)
@@ -98,14 +98,14 @@ entsprechenden Funktionstasten.
 
 > Zum gleichzeitigen Ändern mehrerer Schritte lassen sich durch
     'Wischen' über das Display mehrere Cues auf einmal auswählen, oder
-    man benutzt den **Encoder B** zur Mehrfachauswahl.
+    man benutzt den <strong>Encoder B</strong> zur Mehrfachauswahl.
 
 ### Unter Verwendung der 'Unfold'-Funktion
 
-1. Drücken Sie die <Keys.HardKey>Unfold</Keys.HardKey>-Taste und dann die **Swop**-Taste des zu
+1. Drücken Sie die <Keys.HardKey>Unfold</Keys.HardKey>-Taste und dann die <strong>Swop</strong>-Taste des zu
 editierenden Chasers.
 
-2. Drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey> und dann die **Swop**-Taste des
+2. Drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey> und dann die <strong>Swop</strong>-Taste des
 gewünschten Schrittes.
 
 3. Stellen Sie die Zeiten auf die gewünschten Werte ein. Die möglichen
@@ -150,13 +150,13 @@ entweder das ‚Cue View'-Fenster oder die ‚Unfold'-Funktion nutzen.
 Zum Vergeben einer Überblendzeit für eine Attributgruppe:
 
 1. Drücken Sie <Keys.HardKey>View / Open</Keys.HardKey> oder die <Keys.HardKey>Unfold</Keys.HardKey>-Taste, und
-danach die **Swop**-Taste des gewünschten Chasers.
+danach die <strong>Swop</strong>-Taste des gewünschten Chasers.
 
 2. Drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey>, und wählen danach den zu ändernden
 Schritt im 'Playback View'-Fenster, oder - bei Verwendung der
-'Unfold'-Funktion - mit der entsprechenden **Swop**-Taste aus.
+'Unfold'-Funktion - mit der entsprechenden <strong>Swop</strong>-Taste aus.
 
-3. Drücken Sie die **Attribut-Auswahltaste** (rechts) des Attributs, das
+3. Drücken Sie die <strong>Attribut-Auswahltaste</strong> (rechts) des Attributs, das
 Sie bearbeiten möchten.
 
 4. Drücken Sie <Keys.SoftKey>Delay</Keys.SoftKey>, um die Verzögerung einzustellen, oder \[Set

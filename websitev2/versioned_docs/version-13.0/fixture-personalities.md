@@ -54,32 +54,32 @@ Updating the Personality Library on the Console
 Download the current Titan personality library by clicking on **Titan
 Fixture Library** at the [personality website](https://personalities.avolites.com) home screen, or the disk
 icon in the Cache column for any fixture. Alternatively you can get this
-file by clicking on the **Download** link at the top of the screen, then
-clicking on **Titan Fixture Library**.
+file by clicking on the <strong>Download</strong> link at the top of the screen, then
+clicking on <strong>Titan Fixture Library</strong>.
 
 > Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
   ---------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Console Update Procedure
 
-1. Copy the downloaded file **TitanFixtureLibrary.exe** onto a USB pen
+1. Copy the downloaded file <strong>TitanFixtureLibrary.exe</strong> onto a USB pen
 drive and plug in to the console.
 
-2. Click the **Tools** menu on the toolbar, then the **folder** icon on the
+2. Click the <strong>Tools</strong> menu on the toolbar, then the <strong>folder</strong> icon on the
 menu.
 
 3. Locate the downloaded file on the USB drive and double click on it
-to run it. Click **Ok** on the warning box.
+to run it. Click <strong>Ok</strong> on the warning box.
 
 4. Shut down and then restart the console *(using the Restart Software
 button on the screen Tools menu is OK)*.
 
 ### Titan Mobile, Titan Go or Titan Simulator Procedure
 
-1. Locate the downloaded file **TitanFixtureLibrary.exe** and double click
+1. Locate the downloaded file <strong>TitanFixtureLibrary.exe</strong> and double click
 on it to run it. Windows may show a warning about an unrecognised file
 
-2. Click **Ok** on the Windows User Account Control warning box.
+2. Click <strong>Ok</strong> on the Windows User Account Control warning box.
 
 3. When the installation has completed, shut down and then restart the
 Titan software.
@@ -102,7 +102,7 @@ software, you can create your own personality if you wish to modify the
 behaviour of a standard personality or you have a fixture the console
 has never heard of and need to get it working quickly.
 
-> The console loads the fixture library into memory when the Patch option is first used, so after creating a new personality you need to **restart the console software** from the **Tools** menu or it will not show up.
+> The console loads the fixture library into memory when the Patch option is first used, so after creating a new personality you need to <strong>restart the console software</strong> from the <strong>Tools</strong> menu or it will not show up.
 
 You can incorporate your custom personality into the standard fixture
 library on the console, however there is a danger that it will be
@@ -136,7 +136,7 @@ Reporting a Personality Bug to Avolites
 
 If you find a problem with a fixture personality, Avolites would like to
 know about it so it can be fixed. Search for the personality on the
-website then click on the **Report Bug** icon on the right of the screen.
+website then click on the <strong>Report Bug</strong> icon on the right of the screen.
 If you click on the [Bug Reports](https://personalities.avolites.com/Bug%20Queue.asp) tab at the top of the window, a list
 is shown of currently outstanding problems, so you can check if someone
 else has already reported the problem.
@@ -155,12 +155,12 @@ use the softkeys to select channels.
 
 Generic RGB: Allows you to control an RGB fixture such as LED colour
 changers. This offers 5 modes:
-- 1: **Dim**,  2: **R**,  3: **G**, 4: **B**
-- ***VDim***, 1: **R**, 2: **G**, 3: **B**
-- 1: **R**, 2: **G**, 3: **B**, 4: **Dim**
-- ***VDim*** + 4x **RGB**
-- 4x **RGB**
+- 1: <strong>Dim</strong>,  2: <strong>R</strong>,  3: <strong>G</strong>, 4: <strong>B</strong>
+- <strong><em>VDim</em></strong>, 1: <strong>R</strong>, 2: <strong>G</strong>, 3: <strong>B</strong>
+- 1: <strong>R</strong>, 2: <strong>G</strong>, 3: <strong>B</strong>, 4: <strong>Dim</strong>
+- <strong><em>VDim</em></strong> + 4x <strong>RGB</strong>
+- 4x <strong>RGB</strong>
 
-> ***VDim*** is a virtual overall dimmer channel for fixtures without a DMX
+> <strong><em>VDim</em></strong> is a virtual overall dimmer channel for fixtures without a DMX
 dimmer control. When you use the Dimmer attribute the console will
 adjust the RGB levels accordingly.

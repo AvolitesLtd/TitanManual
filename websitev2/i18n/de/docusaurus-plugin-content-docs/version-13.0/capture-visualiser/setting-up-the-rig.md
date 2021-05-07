@@ -16,14 +16,14 @@ sich verschiedene feste Elemente hinzufügen.
 Öffnen Sie das Fenster <Keys.SoftKey>Capture Visualiser Settings</Keys.SoftKey> (entweder aus dem
 Menü [Open Workspace
 Window](../titan-basics/workspace-windows.md), oder durch einen Klick auf den
-Kontext-Button **Settings** im Capture Visualiser-Fenster). Klicken Sie
-oben auf den Reiter **Stage**.
+Kontext-Button <strong>Settings</strong> im Capture Visualiser-Fenster). Klicken Sie
+oben auf den Reiter <strong>Stage</strong>.
 
 ![Capture Visualiser Settings Window](/docs/images/Capture-Visualiser-Settings-Window.png)
 
 
-Die Elemente **"Floor"** (Boden) und **"Back Wall"** (Rückwand) sind bereits
-eingerichtet. Klickt man links unten auf das **+** (Pluszeichen), so
+Die Elemente <strong>"Floor"</strong> (Boden) und <strong>"Back Wall"</strong> (Rückwand) sind bereits
+eingerichtet. Klickt man links unten auf das <strong>+</strong> (Pluszeichen), so
 können weitere Objekte hinzugefügt werden.
 
 Klicken Sie links auf eines der vorhandenen Objekte, so können seine
@@ -35,12 +35,12 @@ verändern.
 Geräte/Fixtures hinzufügen und einrichten
 -----------------------------------------
 Ist die Funktion "Auto Update" aktiviert (zu finden auf dem Reiter
-**Show** im Fenster **Capture Settings**), 
+<strong>Show</strong> im Fenster <strong>Capture Settings</strong>), 
 so werden Geräte beim Patchen in der Titan-Software automatisch zur 
 Capture-Bühne hinzugefügt.
 
 Wird eine Show aus einer früheren Titan-Version [geladen](../titan-basics/loading-and-saving-shows.md#laden-einer-show), so werden die
-Geräte/Fixtures **nicht** automatisch zu Capture hinzugefügt. Dazu ist
+Geräte/Fixtures <strong>nicht</strong> automatisch zu Capture hinzugefügt. Dazu ist
 zunächst ein [Updaten der Personalities](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren) erforderlich: <Keys.HardKey>Patch</Keys.HardKey> \[Edit
 Fixtures\] <Keys.SoftKey>Update Personality</Keys.SoftKey> <Keys.SoftKey>Update All</Keys.SoftKey>. Auch ein Gerätetausch ([Exchange Fixtures](../patching/changing-the-patch.md#geräte-austauschen)) kann helfen.
 
@@ -52,7 +52,7 @@ Orientierung der jeweils ausgewählten Geräte auf die Wheels gelegt. *Das
 Gleiche passiert, wenn man den Rad-Modus mit der Menütaste G auf „Räder
 = Visualiser" schaltet.*
 
-Wählen Sie mit den Attribut-Tasten **Position**, so können Sie nun die
+Wählen Sie mit den Attribut-Tasten <strong>Position</strong>, so können Sie nun die
 X/Y/Z-Position der gewählten Fixtures einstellen. Sind mehrere Geräte
 gewählt, so lassen sich mit der <Keys.HardKey>Fan</Keys.HardKey>-Taste oder der Option
 <Keys.SoftKey>Scale-Fan</Keys.SoftKey> die Geräte gleichmäßig verteilen/auffächern. Auch die
@@ -68,11 +68,11 @@ wie folgt:
 
 Achse | Beschreibung
 ---|---
-**X** | bewegt nach rechts/links
-**Y** | bewegt nach oben/unten
-**Z** | bewegt nach vorn/hinten
+<strong>X</strong> | bewegt nach rechts/links
+<strong>Y</strong> | bewegt nach oben/unten
+<strong>Z</strong> | bewegt nach vorn/hinten
 
-Klickt man nochmals auf **Position**, so schalten die Encoder auf
+Klickt man nochmals auf <strong>Position</strong>, so schalten die Encoder auf
 Orientation. Damit können die Geräte um die X/Y/Z-Achse
 gedreht/geschwenkt werden. Auch hierbei kann der [Fan-Modus](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-modus) verwendet
 werden.
@@ -91,7 +91,7 @@ erreicht werden können.
 ![gimbal](/docs/images/Gimbal.jpeg)\
 *Illustration by MathsPoetry*
 
-Betätigen Sie **Position** ein drittes Mal, so können Sie die Rotation
+Betätigen Sie <strong>Position</strong> ein drittes Mal, so können Sie die Rotation
 verändern. Sind nur einzelne Geräte ausgewählt, hat das die gleiche
 Wirkung wie Orientation. Sind dagegen mehrere Geräte angewählt, so
 rotiert die Gruppe als Ganzes um ihren Mittelpunkt.
@@ -113,10 +113,10 @@ Verfügung.
 
 ![Capture Visualiser Workspace Window Context Menu](/docs/images/Capture-Visualiser-Workspace-Window-Context-Menu.png)
 
-Die Steuerung der Kameras erfolgt ebenfalls im Fenster **Capture Visualiser Settings** auf dem Reiter 'Cameras'.
+Die Steuerung der Kameras erfolgt ebenfalls im Fenster <strong>Capture Visualiser Settings</strong> auf dem Reiter 'Cameras'.
 
 Mit den vier Schaltflächen oben lassen sich die verschiedenen Kameras
-umschalten *(siehe unten)*; klickt man rechts auf das **+**, kann man weitere Kameras
+umschalten *(siehe unten)*; klickt man rechts auf das <strong>+</strong>, kann man weitere Kameras
 hinzufügen.
 
 ![Camera movements in Capture Visualiser Workspace Window](/docs/images/Camera-movements-in-Capture-Visualiser-Workspace-Window.png)
@@ -126,21 +126,21 @@ einer oder mit vier Kameras um. Ist die Vierer-Ansicht aktiv, so
 schalten die vier Buttons darunter zwischen den einzelnen Teilansichten
 um.
 
-Mit der linken Fläche kann man die Kamera **rechts/links** sowie nach
-**vorn/hinten** positionieren.
+Mit der linken Fläche kann man die Kamera <strong>rechts/links</strong> sowie nach
+<strong>vorn/hinten</strong> positionieren.
 
-Mit der mittleren Fläche verschiebt man die Kamera nach **oben/unten**.
+Mit der mittleren Fläche verschiebt man die Kamera nach <strong>oben/unten</strong>.
 
 Rechts kann man die Kamera drehen und schwenken; der jeweilige Modus wir
 mit den Buttons darunter gewählt:
 
--   **Rotate:** dreht die Kamera nach links/rechts/oben/unten
+-   <strong>Rotate:</strong> dreht die Kamera nach links/rechts/oben/unten
 
--   **Orbit:** schwenkt die Kamera im Kreis um die Bühne, wobei sie stets
+-   <strong>Orbit:</strong> schwenkt die Kamera im Kreis um die Bühne, wobei sie stets
     auf den gleichen Punkt ausgerichtet bleibt.
 
 Klickt man auf die Kontext-Option <Keys.SoftKey>Move Camera</Keys.SoftKey>, so kann man die
-Kamera mit den Rädern bewegen sowie im Menü **Set Coordinates** 
+Kamera mit den Rädern bewegen sowie im Menü <strong>Set Coordinates</strong> 
 die Position/Rotation numerisch eingeben.
 
 Klickt man auf die Kontext-Option <Keys.SoftKey>Rotate Camera</Keys.SoftKey> oder \[Orbit
@@ -150,22 +150,22 @@ die Rotation numerisch eingeben.
 Capture Darstellungs-Optionen
 -----------------------------
 
-Der Reiter Appearance (Darstellung) im Fenster **Capture Visualiser Settings** bietet folgende Einstellmöglichkeiten:
+Der Reiter Appearance (Darstellung) im Fenster <strong>Capture Visualiser Settings</strong> bietet folgende Einstellmöglichkeiten:
 
-- **Ambient lighting** (Umgebungslicht)
+- <strong>Ambient lighting</strong> (Umgebungslicht)
 
-- **Smoke density** (Nebel/Haze; *bei Capture heißt das "Atmosphere"*)
+- <strong>Smoke density</strong> (Nebel/Haze; *bei Capture heißt das "Atmosphere"*)
 
-- **Smoke variation** (*"Atmosphere contrast"* - Mix zwischen statischem 
+- <strong>Smoke variation</strong> (*"Atmosphere contrast"* - Mix zwischen statischem 
 Dunst und sich bewegendem Nebel - 0%=Haze, 100%=Nebel)
 
-- **Smoke speed** (*"Atmosphere speed"* - Nebel/Haze Geschwindigkeit)
+- <strong>Smoke speed</strong> (*"Atmosphere speed"* - Nebel/Haze Geschwindigkeit)
 
-- **Exposure adjustment** (Belichtung, die Empfindlichkeit der Kamera)
+- <strong>Exposure adjustment</strong> (Belichtung, die Empfindlichkeit der Kamera)
 
-- **Bloom amount** (eine Rendereinstellung, die die Darstellung heller
+- <strong>Bloom amount</strong> (eine Rendereinstellung, die die Darstellung heller
     Lichtquellen beeinflusst)
 
-- **Rendering settings detail** (Render Details Stufe): Qualität der
+- <strong>Rendering settings detail</strong> (Render Details Stufe): Qualität der
     Darstellung. Eine höhere Stufe erzeugt eine bessere Darstellung,
     niedrige Stufen nehmen weniger Rechenleistung in Anspruch.

@@ -11,8 +11,8 @@ There are various ways to connect fixtures to the console. As well as
 the XLR sockets on the console, [you can connect fixtures using Ethernet](../networking/controlling-fixtures-over-a-network.md)
 and wireless links.
 
-All consoles can output up to 16 universes except **T1** which is limited to
-one single universe and **T2** to two universes.
+All consoles can output up to 16 universes except <strong>T1</strong> which is limited to
+one single universe and <strong>T2</strong> to two universes.
 
 If you need to output more universes, you can network the console to one
 or more [Avolites TitanNet Processing (TNP) nodes](../titan-net.md). This off-loads the DMX
@@ -27,7 +27,7 @@ the TitanNet overview.
 Configuring DMX Outputs
 -----------------------
 
-From the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
+From the <strong>System</strong> menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
 
 The window will initially show the node tab relating to the console
 itself. It shows a list of available DMX *nodes* (places where you can
@@ -45,7 +45,7 @@ lines.
 ![DMX Settings Window](/docs/images/DMX-Settings-Window.png)
 
 To assign a node to a line, click on the node on the left hand side (e.g.
-on **Expert DMX A**) and then on the line (right hand side) you want this 
+on <strong>Expert DMX A</strong>) and then on the line (right hand side) you want this 
 node to be assigned to. The node will be removed from the pane on the left hand side as it is 
 not unassigned any more, and will appear on the right hand side under 
 the line it is assigned to.
@@ -53,7 +53,7 @@ the line it is assigned to.
 ![Node in DMX Settings Window](/docs/images/Node-in-DMX-Settings-Window.png)
 
 To delete a node from the DMX lines, click on the <Keys.ContextKey>X</Keys.ContextKey> button. To delete
-all nodes from a line, click on the **Group delete button** (the <Keys.ContextKey>X</Keys.ContextKey> button 
+all nodes from a line, click on the <strong>Group delete button</strong> (the <Keys.ContextKey>X</Keys.ContextKey> button 
 on the DMX line). To delete all nodes from all lines, click on the <Keys.ContextKey>X</Keys.ContextKey> 
 button close to the header DMX lines.
 
@@ -87,7 +87,7 @@ A module is a method of sending DMX (such as Art-Net, or sACN) and can be
 thought of as a collection of nodes.
 
 You can set properties for DMX512 outputs, Art-Net or sACN by going to the DMX Settings
-window (from the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Settings</Keys.SoftKey>) and then
+window (from the <strong>System</strong> menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Settings</Keys.SoftKey>) and then
 click the <Keys.ContextKey>Cog</Keys.ContextKey> icon at the right hand side of the module name.
 
 This allows you to adjust settings for each module, and for the network
@@ -101,22 +101,22 @@ adapter, both of which will be shown.
 
 ![DMX512 Module Properties](/docs/images/Dmx-Module-Properties.png)
 
-**DMX output:** Allows you to temporarily disable the output
+<strong>DMX output:</strong> Allows you to temporarily disable the output
 
-**Merge Priority:** A value between 0 and 200 where higher numbers have 
+<strong>Merge Priority:</strong> A value between 0 and 200 where higher numbers have 
 priority. Allows a node to chose which console to follow where multiple 
 consoles are transmitting to this output.
 
-**Break Length:** Adjusts the DMX spacing which can be helpful for slow
+<strong>Break Length:</strong> Adjusts the DMX spacing which can be helpful for slow
 fixtures. If fixtures or dimmers show an occasional glitch 
 try increasing this number. Some dimmers will require this to be 4000us in order to 
 work smoothly. Default 968uS.
 
-**Mark After Break Length:** Usually this will not need to be adjusted, but
+<strong>Mark After Break Length:</strong> Usually this will not need to be adjusted, but
 it can be increased to give fixtures a bit more time to receive the first
 DMX channel. Default 76uS.
 
-**Extra Stop Bit:** Enabling this adds an extra Stop Bit to each byte which
+<strong>Extra Stop Bit:</strong> Enabling this adds an extra Stop Bit to each byte which
 gives slow fixtures a bit more time to receive the DMX data. 
 This option can sometimes solve issues where fixtures can be seen regularly glitching.
 
@@ -124,9 +124,9 @@ This option can sometimes solve issues where fixtures can be seen regularly glit
 
 ![sACN DMX Module Properties](/docs/images/sACN-DMX-Module-Properties.png)
 
-**DMX output:** Allows you to temporarily disable the output
+<strong>DMX output:</strong> Allows you to temporarily disable the output
 
-**Merge Priority:** (0-200) The sACN specification allows multiple
+<strong>Merge Priority:</strong> (0-200) The sACN specification allows multiple
 consoles to send out DMX on the network. The priority value tells the
 receiving node which console to listen to if it gets DMX from more than
 one, higher values take priority. 
@@ -134,16 +134,16 @@ one, higher values take priority.
 > You would normally use this to connect
 a backup console with a lower priority setting.
 
-**Block RDM:** If enabled, RDM traffic is blocked on this module.
+<strong>Block RDM:</strong> If enabled, RDM traffic is blocked on this module.
 
-**Synchronization Address:** If not zero, sets the universe used to
+<strong>Synchronization Address:</strong> If not zero, sets the universe used to
 synchronise the DMX frames sent from the console. Listening devices will
 receive all DMX frames and then wait for a packet on the synchronisation
 universe before using or retransmitting the DMX frames. Synchronous sACN
 reduces tearing effects which can result from non-synchronised
 universes. If set to zero, synchronisation is disabled.
 
-**Ethernet xxx:** Selects whether you want this protocol outputting on
+<strong>Ethernet xxx:</strong> Selects whether you want this protocol outputting on
 this Ethernet adapter. If there are multiple adaptors in the system you
 can select more than one, and identical information will be sent out on
 each one.
@@ -152,28 +152,28 @@ each one.
 
 ![Art-Net DMX Module Properties](/docs/images/ArtNet-DMX-Module-Properties.png)
 
-**DMX output:** Allows you to temporarily disable the output
+<strong>DMX output:</strong> Allows you to temporarily disable the output
 
-**Continuous Art-Net DMX:** The Art-Net specification allows the console
+<strong>Continuous Art-Net DMX:</strong> The Art-Net specification allows the console
 to only send out changes in the DMX. This setting makes the console send
 the Art-Net packets continuously even if there is no change.
 
-**Always Broadcast Art-Net DMX:** Sets all Art-Net packets to Broadcast
+<strong>Always Broadcast Art-Net DMX:</strong> Sets all Art-Net packets to Broadcast
 mode, meaning they are sent to all nodes. Otherwise the packets are
 addressed to the specific node they are intended for, which reduces
 network traffic but requires more careful setting up of network
 addresses.
 
-**Block RDM:** If enabled, RDM traffic is blocked on this module.
+<strong>Block RDM:</strong> If enabled, RDM traffic is blocked on this module.
 
-**DMX Overrun:** Some Art-Net nodes ignore changes until they are sent
+<strong>DMX Overrun:</strong> Some Art-Net nodes ignore changes until they are sent
 more than once. If this option is enabled then at least 3 packets are
 sent for every change
 
-**Legacy Mode:** If enabled, Art-Net is broadcast continuously from the
+<strong>Legacy Mode:</strong> If enabled, Art-Net is broadcast continuously from the
 console at a high rate. May affect console performance.
 
-**Ethernet xxx:** Selects whether you want this protocol outputting on
+<strong>Ethernet xxx:</strong> Selects whether you want this protocol outputting on
 this Ethernet adapter. If there are multiple adaptors in the system you
 can select more than one, and identical information will be sent out on
 each one.
@@ -212,9 +212,9 @@ system where you have multiple consoles or processing nodes connected.
 
 ![DMX Merge Window](/docs/images/DMX-Merge-Window.png)
 
-To configure an output port, click on **Patch Titan Lines**, enter universe
+To configure an output port, click on <strong>Patch Titan Lines</strong>, enter universe
 number then click on a port to assign.
 
-To remove an assignment, click on **Clear sACN Merge** then select a port.
+To remove an assignment, click on <strong>Clear sACN Merge</strong> then select a port.
 
 The DMX Output switch can be used to disable all DMX output.

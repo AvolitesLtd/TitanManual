@@ -29,7 +29,7 @@ erforderlich.
 	Probleme auftreten, stellen Sie bitte sicher, die aktuellsten Treiber
 	für Ihre Grafikkarte installiert zu haben.   
 
-Laden Sie einfach die **Titan PC-Suite** herunter (verfügbar im
+Laden Sie einfach die <strong>Titan PC-Suite</strong> herunter (verfügbar im
 Download-Bereich auf www.avolites.com) und installieren sie. Beim ersten
 Programmstart muss [der AvoKey lizenziert](../system-settings/recovering-reinstalling-the-console#software-lizenzierung) werden; folgen Sie dazu den
 Anweisungen des Authenticator-Hilfsprogramms, das automatisch startet.

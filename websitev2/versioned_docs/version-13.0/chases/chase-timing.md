@@ -17,31 +17,33 @@ window](editing-a-chase.md#opening-a-chase-for-editing) or
 [Unfold](editing-a-chase.md#editing-a-chase-using-unfold). This is 
 described below in [Individual Cue Times in Chases](#individual-cue-times-in-chases).
 
-1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> from the top level menu then the **Swop** button of
+1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> from the top level menu then the <strong>Swop</strong> button of
 the chase
 
-2. Set the **Crossfade**, **Speed**, **Fixture Overlap** and **Attribute Overlap**
+2. Set the <strong>Crossfade</strong>, <strong>Speed</strong>, <strong>Fixture Overlap</strong> and <strong>Attribute Overlap</strong>
 settings, as described below
 
 3. Press <Keys.HardKey>Exit</Keys.HardKey> to finish
 
 ---
 
--   To set **speed**, press <Keys.SoftKey>Speed</Keys.SoftKey> then type the new speed, then press
+-   To set <strong>speed</strong>, press <Keys.SoftKey>Speed</Keys.SoftKey> then type the new speed, then press
     <Keys.HardKey>Enter</Keys.HardKey>. The speed can be set in Beats Per Minute (BPM) or seconds
     depending on the user settings.
 
--   To set **crossfade**, press <Keys.SoftKey>XFade</Keys.SoftKey> then type the fade from **0 - 100**
-    and press <Keys.HardKey>Enter</Keys.HardKey>.\
+-   To set <strong>crossfade</strong>, press <Keys.SoftKey>XFade</Keys.SoftKey> then type the fade from <strong>0 - 100</strong>
+    and press <Keys.HardKey>Enter</Keys.HardKey>.
+
+
     *0=no fade (the chase will "snap"), 100=max fade (the chase will move
     continuously from cue to cue).*
 
--   You can assign the blue or grey handle button to be a **tap tempo**
+-   You can assign the blue or grey handle button to be a <strong>tap tempo</strong>
     button using the [Key Profiles](../system-settings/key-profiles.md) option.
 
 ### Overlap
 
-The **Overlap** functions allow you to offset and overlap the timing of
+The <strong>Overlap</strong> functions allow you to offset and overlap the timing of
 changes in the chase. This can create really amazing visual effects with
 hardly any programming. The best way to learn about overlap is to
 program a chase with two cues involving several fixtures, then
@@ -53,14 +55,22 @@ overlap and attribute overlap in chases.
 
 ![Fixture Overlap and Attribute Overlap diagram for a chase](/docs/images/Fixture-Overlap-and-Attribute-Overlap-diagram-for-a-chase.png)
 
-Press <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> then enter **0 - 100** on the keypad to change
-how fixtures overlap in the cue.\
-**100%** *(the normal setting)* means all fixtures fade together.\
-**0%** means that the first fixture will finish
+Press <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> then enter <strong>0 - 100</strong> on the keypad to change
+how fixtures overlap in the cue.
+
+
+<strong>100%</strong> *(the normal setting)* means all fixtures fade together.
+
+
+<strong>0%</strong> means that the first fixture will finish
 its fade before the next one starts giving a "rolling" change across
-a range of fixtures.\
-**50%** means that the 2^nd^ fixture will start
-fading when the first one is half way through its fade.\
+a range of fixtures.
+
+
+<strong>50%</strong> means that the 2^nd^ fixture will start
+fading when the first one is half way through its fade.
+
+
 The order of the fixtures is set by the order you selected them when the cue was
 saved; you can change the order using <Keys.HardKey>Unfold</Keys.HardKey>.
 
@@ -77,7 +87,7 @@ lot of different timings or link/unlinks. See [Cue Lists](../cue-lists.md).
 ### Using the Playback View Window
 
 1. Touch the playback display relating to the fader, or press
-<Keys.HardKey>Open/View</Keys.HardKey> then the **swop** button of the playback. The Playback View
+<Keys.HardKey>Open/View</Keys.HardKey> then the <strong>swop</strong> button of the playback. The Playback View
 window will open.
 ![Playback View for chase](/docs/images/Playback-View-for-chase.png)
 
@@ -88,14 +98,14 @@ window will open.
 4. Repeat steps 2 - 3 to change other times or settings.
 
 > You can change a range of cues all at once by dragging across the
-    grid to select multiple cells, or you can use **wheel B** to select
+    grid to select multiple cells, or you can use <strong>wheel B</strong> to select
     multiple cells for editing.
 
 ### Using Unfold
 
-1. Press <Keys.HardKey>Unfold</Keys.HardKey> then the **Swop** button of the chase to be edited.
+1. Press <Keys.HardKey>Unfold</Keys.HardKey> then the <strong>Swop</strong> button of the chase to be edited.
 
-2. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> then the **Swop** button of the unfolded cue you
+2. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> then the <strong>Swop</strong> button of the unfolded cue you
 want to edit.
 
 3. Set up the timing options as required. The options are described
@@ -136,14 +146,14 @@ set attribute times.
 
 To set an attribute group fade time:
 
-1. Press <Keys.HardKey>Open/View</Keys.HardKey> or <Keys.HardKey>Unfold</Keys.HardKey>, then the **Swop** button of the chase
+1. Press <Keys.HardKey>Open/View</Keys.HardKey> or <Keys.HardKey>Unfold</Keys.HardKey>, then the <strong>Swop</strong> button of the chase
 to be edited.
 
 2. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> then touch the cue you want to edit in the
-Playback View, or if using Unfold, press the **Swop** button of the unfolded
+Playback View, or if using Unfold, press the <strong>Swop</strong> button of the unfolded
 cue you want to edit.
 
-3. Press the **Attribute Options** button (right hand side) for the
+3. Press the <strong>Attribute Options</strong> button (right hand side) for the
 attribute you want to change.
 
 4. Press <Keys.SoftKey>Delay</Keys.SoftKey> to set delay time or <Keys.SoftKey>Set fade</Keys.SoftKey> to set fade time.

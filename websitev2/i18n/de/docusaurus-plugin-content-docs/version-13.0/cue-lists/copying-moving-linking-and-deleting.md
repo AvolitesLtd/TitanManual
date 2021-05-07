@@ -25,7 +25,7 @@ Löschen einer Cueliste
 ----------------------
 
 Um eine komplette Cueliste zu löschen, drücken Sie <Keys.HardKey>Delete</Keys.HardKey>, dann die
-**Select-Taste** der zu löschenden Cueliste, und schließlich die
+<strong>Select-Taste</strong> der zu löschenden Cueliste, und schließlich die
 Select-Taste nochmals (oder <Keys.SoftKey>Confirm</Keys.SoftKey> oder <Keys.HardKey>Enter</Keys.HardKey>).
 
 Einen Cue verschieben
@@ -47,10 +47,10 @@ Um einen einzelnen Schritt zu löschen:
 
 1. Drücken Sie die <Keys.HardKey>Delete</Keys.HardKey>-Taste.
 
-2. Drücken Sie die **Select-Taste** der Cueliste.
+2. Drücken Sie die <strong>Select-Taste</strong> der Cueliste.
 
 3. Auf dem Display werden nun die Schritte der Cueliste angezeigt.
-Wählen Sie mit dem **Encoder A** den zu löschenden Schritt, oder geben Sie
+Wählen Sie mit dem <strong>Encoder A</strong> den zu löschenden Schritt, oder geben Sie
 dessen Nummer mit den Zifferntasten ein.
 
 4. Drücken Sie <Keys.SoftKey>Delete Cue x</Keys.SoftKey>, um den Schritt zu löschen.

@@ -13,8 +13,8 @@ Which Attributes are Stored in Palettes
 Although each palette entry could store all attributes of a fixture,
 it's easier to operate the console if you create some palettes which
 only set positions, some for colour, some for gobo and so on. The
-console helps you with this by providing separate windows for **Colour**
-palettes, **Position** palettes, and **Gobo/Beam** palettes.
+console helps you with this by providing separate windows for <strong>Colour</strong>
+palettes, <strong>Position</strong> palettes, and <strong>Gobo/Beam</strong> palettes.
 
 When you store a palette, it will only contain what's in the programmer
 (the attributes you have changed since you last pressed <Keys.HardKey>Clear</Keys.HardKey>). For
@@ -28,14 +28,14 @@ information](#creating-a-time-palette).
 If the programmer contains more than one attribute, you can set a mask
 to restrict which fixture attributes will be stored in the palette.
 
-Palette information may be **Global**, **Shared** or **Normal**:
+Palette information may be <strong>Global</strong>, <strong>Shared</strong> or <strong>Normal</strong>:
 
-- **Global** palettes work on any type of fixture
-- **Shared** palettes apply the same value to all fixtures of the same type -
+- <strong>Global</strong> palettes work on any type of fixture
+- <strong>Shared</strong> palettes apply the same value to all fixtures of the same type -
 *for example when setting
 colours, the "Red" palette would set the same colour values for "Red" to
 all MAC 2000 fixtures*
-- **Normal** palettes are used when each fixture
+- <strong>Normal</strong> palettes are used when each fixture
 requires its own value - *for example when programming positions, each
 fixture will have a different setting*
 
@@ -49,7 +49,7 @@ added to colour wheel channels, the console will attempt to match the
 closest fixed colour wheel colour to the selected mix colour.
 
 There is a [User Setting "Minimum Palette Mode"](../system-settings/user-settings.md#minimum-palette-mode)
-which can force the console to record palettes in **Shared** or **Normal** mode.
+which can force the console to record palettes in <strong>Shared</strong> or <strong>Normal</strong> mode.
 
 Storing a Palette
 -----------------
@@ -57,7 +57,7 @@ Storing a Palette
 [Video covering recording palettes in Titan](https://youtu.be/Hs-xzpD5x8k?t=20)
 
 This is how you save a palette value to one of the palette windows:. If
-the palette windows are not shown then press the **Groups and Palettes**
+the palette windows are not shown then press the <strong>Groups and Palettes</strong>
 workspace button.
 
 1. Press <Keys.HardKey>Clear</Keys.HardKey> to clear the programmer
@@ -65,11 +65,15 @@ workspace button.
 2. Select the fixtures for which you want to store palette values
 
 3. Using the attribute buttons and wheels, set the attributes you want
-in the palette entry\
+in the palette entry
+
+
 *You can store any or all attributes of a fixture in each palette entry*
 
 4. Press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Palette</Keys.HardKey> (or <Keys.HardKey>Palette</Keys.HardKey> then <Keys.SoftKey>Record
-Palette</Keys.SoftKey>)\
+Palette</Keys.SoftKey>)
+
+
 *Using [Quick Record](#quick-record) you can skip this
 step and the palette mask is set automatically to match the window.*
 
@@ -98,16 +102,18 @@ a palette number and press <Keys.SoftKey>Store</Keys.SoftKey>
 
 -   <Keys.SoftKey>Set Mask</Keys.SoftKey> allows you to specify which attribute groups will be
     included in the palette. You can also use the grey Attribute Bank
-    buttons on the right hand edge of the console to set the mask.\
+    buttons on the right hand edge of the console to set the mask.
+
+
     An attribute group is included when the softkey is inverted (like
     the Colour group in the picture) and when the LED is lit on the
-    Attribute Bank button. If you use **[Quick Record](#quick-record)**
+    Attribute Bank button. If you use <strong>[Quick Record](#quick-record)</strong>
     the mask is automatically set by the workspace window you
     save the palette in - Positions only includes P, Colours only C and
     Beams includes IGBES. If you use the <Keys.HardKey>Record</Keys.HardKey> button then you need
     to set the mask manually.
 
--   Press the **Attribute Options** button to toggle each mask group between
+-   Press the <strong>Attribute Options</strong> button to toggle each mask group between
     Include and Exclude.
 
 ![Setting a mask for recording a palette](/docs/images/Setting-a-mask-for-recording-a-palette.png)
@@ -122,7 +128,7 @@ a palette number and press <Keys.SoftKey>Store</Keys.SoftKey>
     recorded even if not in the programmer.*
     -   <Keys.SoftKey>Group in mask</Keys.SoftKey> records everything included by the mask set on the
     attribute buttons
-    -   <Keys.SoftKey>Mixed</Keys.SoftKey> records by attribute group for **Position** and **Colour** but by
+    -   <Keys.SoftKey>Mixed</Keys.SoftKey> records by attribute group for <strong>Position</strong> and <strong>Colour</strong> but by
     channel for all other controls.
 
 -   The console will automatically create a legend for your palette
@@ -134,7 +140,9 @@ a palette number and press <Keys.SoftKey>Store</Keys.SoftKey>
     will be shown for each. For CITP (media server) palettes, the media
     thumbnail will be used. For other attributes the last adjusted
     function value will be used for the legend, except for pan and tilt
-    which will use a default legend.\
+    which will use a default legend.
+
+
     ![Automatic Legends set for Colour Palettes](/docs/images/Automatic-Legends-set-for-Colour-Palettes.png)
 
 -   You can also manually set a legend for the palette while you are
@@ -156,7 +164,7 @@ a palette number and press <Keys.SoftKey>Store</Keys.SoftKey>
     Pressing the palette button again will automatically merge using
     Quick Merge.
 
--   The console will select **Global** mode if the programmer contains the
+-   The console will select <strong>Global</strong> mode if the programmer contains the
     same values for all selected fixtures and one or more of the
     attributes is suitable for Global. If the values are the same but
     none of the attributes are suitable for Global the console will
@@ -164,7 +172,7 @@ a palette number and press <Keys.SoftKey>Store</Keys.SoftKey>
     console will record the suitable ones as Global and the others as
     Shared. If the values are different the console will select Normal.
     You can prevent the console from using Global and/or Shared modes
-    using the **[Minimum Palette Mode](../system-settings/user-settings.md#minimum-palette-mode)**
+    using the <strong>[Minimum Palette Mode](../system-settings/user-settings.md#minimum-palette-mode)</strong>
     option in the [Palettes tab](../system-settings/user-settings.md#palettes) of
     [User Settings](../system-settings/user-settings.md).
 
@@ -198,14 +206,14 @@ palette.
 ![Recoding a Workspace Layout](/docs/images/Recoding-a-Workspace-Layout.png)
 
 When using Quick Record, the palette mask is automatically set to
-match the window - the **Position** window only stores **P**, the **Colours**
-window only **C**, and the **Gobos and Beams** window stores **IGBES**. This
+match the window - the <strong>Position</strong> window only stores <strong>P</strong>, the <strong>Colours</strong>
+window only <strong>C</strong>, and the <strong>Gobos and Beams</strong> window stores <strong>IGBES</strong>. This
 does not happen if you use the <Keys.HardKey>Record</Keys.HardKey> button.
 
 Quick record also works for groups and workspaces.
 
-> If you want to load a show from a **Pearl Expert** onto another Titan console,
-use the **Groups and Palettes workspace window** to access the fixtures/palettes
+> If you want to load a show from a <strong>Pearl Expert</strong> onto another Titan console,
+use the <strong>Groups and Palettes workspace window</strong> to access the fixtures/palettes
 on the blue/grey preset buttons on the Pearl. See 
 [Compatibility Windows for Pearl Expert Shows](../titan-basics/workspace-windows.md#compatibility-windows-for-pearl-expert-shows)
 for more details.
@@ -224,11 +232,11 @@ will automatically create helpful legends when you create the palette.
 
 4. Press <Keys.HardKey>Enter</Keys.HardKey> when you have finished
 
-On touch buttons, the palette number is shown top left. The **IPCGBES**
+On touch buttons, the palette number is shown top left. The <strong>IPCGBES</strong>
 attribute groups contained in the palette are displayed below your
-legend, so for example **Position** palettes will show a **P**, **colour**
-palettes a **C** and so on. In the top right corner is shown **G** for
-**Global**, **N** for **Normal** or **S** for **Shared** palette.
+legend, so for example <strong>Position</strong> palettes will show a <strong>P</strong>, <strong>colour</strong>
+palettes a <strong>C</strong> and so on. In the top right corner is shown <strong>G</strong> for
+<strong>Global</strong>, <strong>N</strong> for <strong>Normal</strong> or <strong>S</strong> for <strong>Shared</strong> palette.
 
 ![Shared and normal palettes stored on a touch screen](/docs/images/Shared-and-normal-palettes-stored-on-a-touch-screen.png)
 
@@ -242,8 +250,8 @@ will open.
 The tab buttons on the top left allow you to select Keyboard entry
 (legend reverts to text), Draw, Icon Library, or Load File. On the right
 you can choose Pen or Eraser, set the pen/eraser size, set the colour
-(white in the above picture), **clear** the whole picture, and **Enter** the
-legend. The **Min** button top left reduces the editor to a smaller size.
+(white in the above picture), <strong>clear</strong> the whole picture, and <strong>Enter</strong> the
+legend. The <strong>Min</strong> button top left reduces the editor to a smaller size.
 
 If you select Library you can choose a picture from a wide range of
 pre-programmed pictures. The pictures are sorted into various folders
@@ -264,41 +272,51 @@ as well). To achieve this you can either use the FX mask when saving the
 palette, or you can just remember not to set any other values when
 programming.
 
-1. Press <Keys.HardKey>Clear</Keys.HardKey>, select some fixtures and <Keys.HardKey>Locate</Keys.HardKey> them\
+1. Press <Keys.HardKey>Clear</Keys.HardKey>, select some fixtures and <Keys.HardKey>Locate</Keys.HardKey> them
+
+
 *If you need to move them so you can see what's happening, you can do that too*
 
 2. Press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, <Keys.SoftKey>Shape Generator</Keys.SoftKey> and choose a shape
-to start\
+to start
+
+
 *See [Shape Generator](../effects/shape-generator.md) for more information about shapes*
 
 3. Alter the parameters of the shape as you require
 
-4. Press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Palette</Keys.HardKey>\
+4. Press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Palette</Keys.HardKey>
+
+
 *You cannot use Quick Record to store shape/FX palettes*
 
-5. If you moved the fixtures in **step 1**, press <Keys.SoftKey>Set Mask</Keys.SoftKey> and exclude
-everything except **FX**
+5. If you moved the fixtures in <strong>step 1</strong>, press <Keys.SoftKey>Set Mask</Keys.SoftKey> and exclude
+everything except <strong>FX</strong>
 
 6.  Press a palette button to store the shape palette
 
 You can't use an effects palette as a 
-**[Quick Palette](using-palettes.md#quick-palettes-with-no-fixtures-selected)**
+<strong>[Quick Palette](using-palettes.md#quick-palettes-with-no-fixtures-selected)</strong>
 (when you recall a palette with no fixtures selected). You must have some
 fixtures selected when you recall an effects palette.
 
 Creating a Time Palette
 -----------------------
 
-You can create palettes which contain only **time** information. These can
+You can create palettes which contain only <strong>time</strong> information. These can
 be used to set cue times and fixture attribute times without needing to
 set times manually. Using a time palette also means that you can go back
 and change the times once in the palette, and the changes will
 automatically apply to all cues which use the palette.
 
-1. Press <Keys.HardKey>Clear</Keys.HardKey>, select some fixtures and <Keys.HardKey>Locate</Keys.HardKey> them\
+1. Press <Keys.HardKey>Clear</Keys.HardKey>, select some fixtures and <Keys.HardKey>Locate</Keys.HardKey> them
+
+
 *If you need to move them so you can see what's happening, you can do that too*
 
-2. Press <Keys.HardKey>Time</Keys.HardKey>\
+2. Press <Keys.HardKey>Time</Keys.HardKey>
+
+
 *May be labelled <Keys.HardKey>Set</Keys.HardKey> on Mobile/Sapphire/Quartz, and
 <Keys.HardKey>Next Time</Keys.HardKey> on Expert/Tiger*
 
@@ -308,6 +326,6 @@ programmer.
 4. Press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Palette</Keys.HardKey>
 
 5. If you moved the fixtures in step 1, press <Keys.SoftKey>Set Mask</Keys.SoftKey> and exclude
-everything except **Time**
+everything except <strong>Time</strong>
 
 6. Press a palette button to store the Time palette

@@ -11,84 +11,84 @@ Das Arena hat fünf grundsätzliche Bedienungsbereiche:
 
 ![Arena](/docs/images/Arena.png)
 
-\(A\) Der **Touchscreen** zeigt Schaltflächen zur Auswahl von Geräten,
+\(A\) Der <strong>Touchscreen</strong> zeigt Schaltflächen zur Auswahl von Geräten,
 Paletten und Gruppen. Ferner zeigt er Bezeichnungen der Playbacks, sowie
 -- oben rechts -- die aktuelle Menüseite und die Bezeichnungen der
 variablen Tasten.
 
-\(B\) Die **Playbacks** dienen zur Auswahl und Steuerung von Bildern und
+\(B\) Die <strong>Playbacks</strong> dienen zur Auswahl und Steuerung von Bildern und
 Abläufen: Cues, Cuelisten und Chaser. Auf der linken Seite gibt es dazu
-noch \(C\) **weitere Playbacks**, auf die ebenfalls Cues, Cuelisten, Chaser
+noch \(C\) <strong>weitere Playbacks</strong>, auf die ebenfalls Cues, Cuelisten, Chaser
 programmiert werden, aber auch Geräte gepatcht werden können.
 
-\(D\) Das **kleine Display** bietet ebenfalls Platz für Arbeitsfenster. Auf
+\(D\) Das <strong>kleine Display</strong> bietet ebenfalls Platz für Arbeitsfenster. Auf
 den vier Encodern daneben können z.B. Master komfortabel programmiert
-werden. Auf den \(E\) **Macrotasten** darunter können häufig benutzte
+werden. Auf den \(E\) <strong>Macrotasten</strong> darunter können häufig benutzte
 Tastenfolgen gespeichert werden.
 
-\(F\) Die **Programmiersektion** enthält alle Steuerelemente zum Einrichten
+\(F\) Die <strong>Programmiersektion</strong> enthält alle Steuerelemente zum Einrichten
 und Programmieren des Pultes.
 
 ![Arena controls](/docs/images/Arena-controls.png)
 
 ## Bedienoberfläche
 
-\(G\) Die **Arbeitsfenster** auf dem Touchscreen zeigen Tasten für Geräte,
+\(G\) Die <strong>Arbeitsfenster</strong> auf dem Touchscreen zeigen Tasten für Geräte,
 Paletten, Gruppen, Speicherplätze, Makros und anderes. Ebenso lassen
 sich hier Attribute einstellen und Informationsfenster einblenden.
 
-\(H\) Die **Systemanzeige** ist die Schaltzentrale des Pultes und liefert
+\(H\) Die <strong>Systemanzeige</strong> ist die Schaltzentrale des Pultes und liefert
 Informationen über den jeweiligen Zustand. Hier werden diverse
 Hinweisfenster eingeblendet, abhängig vom momentanen Arbeits- und
 Programmierablauf.
 
-\(I\) Die **Menütasten** (bezeichnet mit A -- G) dienen zur Auswahl
+\(I\) Die <strong>Menütasten</strong> (bezeichnet mit A -- G) dienen zur Auswahl
 verschiedener Steuerungsoptionen. Im Display wird direkt neben jedem
 Taster die jeweilige Funktion angezeigt, abhängig vom jeweiligen Status
 des Pultes. Befehle dieser Taster sind in diesem Handbuch blau dargestellt,
  z.B. <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
-\(J\) Das **Mini-Display** kann weitere Arbeitsfenster anzeigen. Die vier
-\(K\) **Encoder** daneben können wie normale Playbacks programmiert werden und
+\(J\) Das <strong>Mini-Display</strong> kann weitere Arbeitsfenster anzeigen. Die vier
+\(K\) <strong>Encoder</strong> daneben können wie normale Playbacks programmiert werden und
 bieten sich insbesondere für Master an. Die Encoder sind gleichzeitig
 Drucktaster; zum Auswählen beim Programmieren müssen sie gedrückt
 werden.
 
-\(L\) Auf den **Makro-Tastern** lassen sich häufig benutzte Abläufe von
+\(L\) Auf den <strong>Makro-Tastern</strong> lassen sich häufig benutzte Abläufe von
 Tastendrücken abspeichern, und dann mit einem einzigen Tastendruck
 abrufen. Ebenso können hier Cues abgelegt werden.
 
 ![Arena controls 2](/docs/images/Arena-controls-2.png)
 
-\(M\) Der **Master** (Hauptregler) steuert die Gesamthelligkeit aller über das
+\(M\) Der <strong>Master</strong> (Hauptregler) steuert die Gesamthelligkeit aller über das
 Pult abgerufenen Szenen. Normalerweise wird man den Regler auf '100%'
-belassen. Der **DBO-Taster** dient zum unmittelbaren Dunkelschalten.
+belassen. Der <strong>DBO-Taster</strong> dient zum unmittelbaren Dunkelschalten.
 
-\(N\) Die **Playbacks** dienen zum Speichern und Abrufen von Cues (Szenen) und
-Chasern/Cuelisten (Szenensequenzen). Mit den \(O\) **Seitenwechseltasten** kann
+\(N\) Die <strong>Playbacks</strong> dienen zum Speichern und Abrufen von Cues (Szenen) und
+Chasern/Cuelisten (Szenensequenzen). Mit den \(O\) <strong>Seitenwechseltasten</strong> kann
 man zu verschiedenen Seiten der Playbacks wechseln. Im Touchscreen
 werden oberhalb der Regler Informationen über jeden einzelnen
-eingeblendet. Dazu gibt es links \(P\) **weitere 30 Playbacks**, organisiert in
+eingeblendet. Dazu gibt es links \(P\) <strong>weitere 30 Playbacks</strong>, organisiert in
 zwei Bänken à 15 Playbacks, die jeweils gesonderte Seiten-Umschalttasten
 haben.
 
-\(Q\) Mit den **Drehreglern** (Encodern) werden sowohl Attribute der Geräte,
+\(Q\) Mit den <strong>Drehreglern</strong> (Encodern) werden sowohl Attribute der Geräte,
 als auch Geschwindigkeit und Überblendung der Sequenzen eingestellt. Im
 Touchscreen oberhalb der Räder wird angezeigt, welche Parameter momentan
-mit welchem Rad verknüpft sind. Betätigen des **Bildlaufschalters**
+mit welchem Rad verknüpft sind. Betätigen des <strong>Bildlaufschalters</strong>
 schaltet die Räder in den Bildlauf-Modus: damit lässt sich eine
 Auswahlbox über den Bildschirm bewegen.
 
-\(R\) Mit dem **Ziffern- und Tastenfeld** lassen sich Werte eingeben sowie
+\(R\) Mit dem <strong>Ziffern- und Tastenfeld</strong> lassen sich Werte eingeben sowie
 Einstellungen des Pultes ändern.
 
-\(S\) Mit den **Funktionstasten** sind verschiedene Funktionen verknüpft, etwa
+\(S\) Mit den <strong>Funktionstasten</strong> sind verschiedene Funktionen verknüpft, etwa
 Speichern, Kopieren, Speichern auf Disk.
 
-\(T\) Mit den Tastern der **Attributauswahl** werden die Attribute der Geräte
+\(T\) Mit den Tastern der <strong>Attributauswahl</strong> werden die Attribute der Geräte
 angewählt (z.B. Farbe, Gobo, Bewegung, Fokus), welche dann durch die
 Drehregler gesteuert werden sollen. Die jeweils aktiven Taster werden
-durch LEDs angezeigt. Der untere (rote) Taster erlaubt das '**Locaten**'
+durch LEDs angezeigt. Der untere (rote) Taster erlaubt das '<strong>Locaten</strong>'
 von Geräten, indem sie auf eine vordefinierte
 Startposition gesetzt werden.
 

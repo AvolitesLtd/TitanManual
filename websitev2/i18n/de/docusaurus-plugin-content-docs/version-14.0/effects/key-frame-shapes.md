@@ -22,9 +22,9 @@ bestimmen als auch die Art der Aufteilung auf mehrere Geräte. Ferner
 lassen sich Keyframe-Shapes auch sehr einfach z.B. in [Cuelisten](../cue-lists/creating-a-cue-list.md#tracking-von-shapes-in-cuelisten)
 einbinden.
 
-Die einzelnen Keyframes baut man entweder im **Channel (Kanal-) Modus**, indem man die
+Die einzelnen Keyframes baut man entweder im <strong>Channel (Kanal-) Modus</strong>, indem man die
 Geräte entsprechend einstellt und auf <Keys.SoftKey>Add Frame</Keys.SoftKey> klickt, oder im
-**Quick Build**-Modus, bei dem automatisch ein neuer Frame angefügt wird,
+<strong>Quick Build</strong>-Modus, bei dem automatisch ein neuer Frame angefügt wird,
 sobald man eine [Palette](../palettes.md) oder einen
 [Cue](../cues.md) anklickt. Mit der Schaltfläche <Keys.SoftKey>Record Mode</Keys.SoftKey>
 kann man zwischen beiden Modi umschalten.
@@ -90,7 +90,7 @@ Shape: Speed (Geschwindigkeit), Direction (Richtung unter Verwendung des [Gruppe
 (Verteilung auf mehrere Geräte) und [Overlap](../cues/cue-timing.md#setting-fade-times-and-overlap-for-a-cue) (Überlappen benachbarter
 Geräte).
 
-Mit dem **Auge** oben links werden alle gerade angezeigten Shapes
+Mit dem <strong>Auge</strong> oben links werden alle gerade angezeigten Shapes
 *eingeklappt*, so dass man sich nur einzelne Shapes zum Bearbeiten
 ausklappen kann, wenn mehrere Shapes laufen. Mit **Button mit dem
 Movinglight** lässt sich die Auswahl der Geräte, auf denen der 
@@ -116,7 +116,7 @@ Pultes einzustellen. Zum Zurücksetzen dient jeweils ein Doppelklick auf
 den Button oder die Funktion <Keys.SoftKey>Reset to default value</Keys.SoftKey> (erscheint,
 sobald ein Button angeklickt wird).
 
-Die Einstellung **Beats Per Cycle**, die genauso wie für normale Shapes
+Die Einstellung <strong>Beats Per Cycle</strong>, die genauso wie für normale Shapes
 arbeitet (s.o.), stellt das Verhältnis von Beats (BPM) und der
 Geschwindigkeit des Keyframe-Shapes ein. Vorgabewert ist auch hier 1:
 jeder Beat entspricht einem kompletten Durchlauf des Effektes. Stellt 
@@ -134,9 +134,9 @@ an den Spread gebunden. Das ist oft bei Dimmer- und Bewegungs-Shapes
 gewünscht.\
 Mit <Keys.SoftKey>Keyframes</Keys.SoftKey> schließlich wird pro Beat ein Keyframe weitergeschaltet.\
 Jeder einzelne Keyframe-Shape und jeder einzelne Layer hat seine 
-individuellen **Beats per Cycle**-Einstellungen. 
+individuellen <strong>Beats per Cycle</strong>-Einstellungen. 
 
-Mit **Cycles** (Durchläufe) stellt man ein, wie oft der Shape laufen soll.
+Mit <strong>Cycles</strong> (Durchläufe) stellt man ein, wie oft der Shape laufen soll.
 Vorgabewert ist 0, womit der Shape läuft, bis er wieder gestoppt wird.
 Ändert man dies auf eine andere Zahl (entweder für einen einzelnen Layer
 oder für den ganzen Keyframe-Shape bzw. alle Layer in diesem), so läuft
@@ -155,15 +155,15 @@ Parameter einstellen.
 
 ![Effect Editor key frame controls for individual key frame step](/docs/images/Effect-Editor-key-frame-controls-for-individual-key-frame-step.png)
 
--   Mit dem Regler „Start Time" lässt sich das **Timing** verändern (genauso
+-   Mit dem Regler „Start Time" lässt sich das <strong>Timing</strong> verändern (genauso
     wie durch Ziehen in der oberen Ablauf-Darstellung).
 
--   **Frame A Min** / **Frame B Max**: Limitierung des Effektes. *Hat man z.B.
+-   <strong>Frame A Min</strong> / <strong>Frame B Max</strong>: Limitierung des Effektes. *Hat man z.B.
     einen 100% Flash programmiert, lässt sich dieser etwa auf 80% reduzieren.*
 
--   **Mid point**: wo ist die Mitte des Überblend-Weges
+-   <strong>Mid point</strong>: wo ist die Mitte des Überblend-Weges
 
--   **Width**: ähnlich der Einstellung Crossfade bei Chasern. Stellt man
+-   <strong>Width</strong>: ähnlich der Einstellung Crossfade bei Chasern. Stellt man
     Width auf 20%, so wird in nur 20% der Zeit übergeblendet, und bei
     80% der Zeit ändert sich nichts.
 
@@ -179,20 +179,20 @@ Auch die Reihenfolge der Keyframes lässt sich im Effekt-Editor ändern:
 
 ![Effect Editor key frame shape layer with colour steps](/docs/images/Effect-Editor-key-frame-shape-layer-with-colour-steps.png)
 
--   Um Frames **hinzuzufügen**, klicken Sie auf den <Keys.ContextKey>Stift</Keys.ContextKey> rechts neben dem
-    **Namen des Layers**.
+-   Um Frames <strong>hinzuzufügen</strong>, klicken Sie auf den <Keys.ContextKey>Stift</Keys.ContextKey> rechts neben dem
+    <strong>Namen des Layers</strong>.
 
--   Um einen Frame zu **editieren**, klicken Sie auf den <Keys.ContextKey>Stift</Keys.ContextKey> rechts neben
-    dem **Namen des Frames**.
+-   Um einen Frame zu <strong>editieren</strong>, klicken Sie auf den <Keys.ContextKey>Stift</Keys.ContextKey> rechts neben
+    dem <strong>Namen des Frames</strong>.
 
--   Um einen Frame zu **löschen**, wählen Sie diesen aus und klicken unten
+-   Um einen Frame zu <strong>löschen</strong>, wählen Sie diesen aus und klicken unten
     auf den <Keys.ContextKey>Papierkorb</Keys.ContextKey>.
 
--   Um die **Reihenfolge zu ändern**, wählen Sie einen Frame aus und
-    verschieben ihn mit den **Pfeiltasten**.
+-   Um die <strong>Reihenfolge zu ändern</strong>, wählen Sie einen Frame aus und
+    verschieben ihn mit den <strong>Pfeiltasten</strong>.
 
--   Um **mehrere Frames** gleichzeitig zu **ändern**, klicken Sie unten auf die
-    **Mehrfachauswahl**-Schaltfläche, oder sie ziehen um die gewünschten
+-   Um <strong>mehrere Frames</strong> gleichzeitig zu <strong>ändern</strong>, klicken Sie unten auf die
+    <strong>Mehrfachauswahl</strong>-Schaltfläche, oder sie ziehen um die gewünschten
     Frames im Display einen Rahmen.
 
 ### Komplexe Effekte
@@ -200,14 +200,14 @@ Auch die Reihenfolge der Keyframes lässt sich im Effekt-Editor ändern:
 Keyframe-Shapes können jeweils mehrere Layer (Ebenen) enthalten, so dass
 verschiedene Effekte gleichzeitig laufen können. Um einen neuen Layer
 hinzuzufügen, klicken Sie unten auf das <Keys.ContextKey>+</Keys.ContextKey> und wählen nun
-**Layers**. Damit erscheint der neue Layer in der Liste auf der linken
+<strong>Layers</strong>. Damit erscheint der neue Layer in der Liste auf der linken
 Seite.
 
 ![Effect Editor adding an extra effect](/docs/images/Effect-Editor-adding-an-extra-effect.png)
 
 Ebenso können Sie einen komplett anderen Keyframe-Shape oder
 [Pixelmapper-Effekt](pixel-mapper.md) hinzufügen. Pixelmapper-Effekte 
-werden immer ganz oben in der Liste angezeigt und lassen sich mit dem **Auge**
+werden immer ganz oben in der Liste angezeigt und lassen sich mit dem <strong>Auge</strong>
 ausblenden, wenn man nur mit den Keyframe-Shapes arbeiten will.
 
 Einen Keyframe-Shape in einen Cue speichern

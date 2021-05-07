@@ -23,19 +23,19 @@ und wählen das Fenster <Keys.SoftKey>Patch View</Keys.SoftKey>.
 
 ![Patch View](/docs/images/Patch-View.png)
 
-In der Spalte **Fixture Type** sind die verschiedenen Gerätetypen
+In der Spalte <strong>Fixture Type</strong> sind die verschiedenen Gerätetypen
 aufgelistet; dabei hat jeder Typ eine andere Farbe. Beim Klick auf diese
 Buttons werden nur Geräte dieses Typs angezeigt.
 
-**Line:** die verfügbaren DMX-Linien. Die Balkenanzeige zeigt die
+<strong>Line:</strong> die verfügbaren DMX-Linien. Die Balkenanzeige zeigt die
 Auslastung der einzelnen Linien an. Klickt man auf die jeweilige
 Schaltfläche, werden Details der Linien angezeigt.
 
-Der **farbige Balken** oben zeigt, wie die einzelnen Gerätetypen auf der
+Der <strong>farbige Balken</strong> oben zeigt, wie die einzelnen Gerätetypen auf der
 aktuell ausgewählten Linie verteilt sind. Klickt man auf einen Bereich,
 so werden die betreffenden Geräte unten ausgewählt.
 
-In der **Tabelle** werden Details der ausgewählten Geräte angezeigt;
+In der <strong>Tabelle</strong> werden Details der ausgewählten Geräte angezeigt;
 einige Parameter sind direkt in der Tabelle durch Anklicken änderbar;
 weitere Möglichkeiten ergeben sich durch die Multifunktionstasten.
 

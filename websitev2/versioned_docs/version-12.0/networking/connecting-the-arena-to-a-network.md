@@ -46,17 +46,17 @@ Changing the IP address of the Titan Network Switch (TNS)
 The controller and network switch IP address do not need to be changed
 unless they overlap other devices on the network. The factory default is
 `10.19.aa.bb` where `aa.bb` is the serial number of the console *(e.g. `10.19.01.124` is
-serial number **379** or **255+124**)*.
+serial number <strong>379</strong> or <strong>255+124</strong>)*.
 
 To change the IP address of the TNS in the console:
 
-1. Open **USB Expert Console** from the **Tools** menu
+1. Open <strong>USB Expert Console</strong> from the <strong>Tools</strong> menu
 
 2. Select the TNS panel
 
 ![USB Expert Tools - TNS Panel](/docs/images/USB-Expert-Tools-TNS-Panel.png)
 
-3. In the **IP Address Dialog**, set the new IP address.
+3. In the <strong>IP Address Dialog</strong>, set the new IP address.
 
 ![USB Expert Tools - TNS Panel - IP Address Dialog](/docs/images/USB-Expert-Tools-TNS-Panel-IP-Address-Dialog.png)
 

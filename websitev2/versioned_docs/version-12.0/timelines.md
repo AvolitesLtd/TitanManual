@@ -21,9 +21,9 @@ Timelines are stored on a handle using the <Keys.HardKey>Record</Keys.HardKey> b
 new playbacks as you go along. You can record actions in real time by operating the console
 or by adding them manually at specific times. You can think of a timeline as an automatic replay
 system to push the faders and buttons on the console. The actions recorded in a timeline
-are called **triggers**.
+are called <strong>triggers</strong>.
 
-Once you have recorded a timeline there is a **Timeline View** window to show and edit the triggers -  press <Keys.HardKey>Open/View</Keys.HardKey> then the **select button** of the handle containing the timeline, or tap the playback legend area above the fader. The view also opens automatically when you record a new timeline.
+Once you have recorded a timeline there is a <strong>Timeline View</strong> window to show and edit the triggers -  press <Keys.HardKey>Open/View</Keys.HardKey> then the <strong>select button</strong> of the handle containing the timeline, or tap the playback legend area above the fader. The view also opens automatically when you record a new timeline.
 
 ![Playback View of Timeline](/docs/images/Timeline-Window.png)
 
@@ -32,9 +32,9 @@ Triggers
 
 To program a timeline you record actions at specific times
 which can then be replayed by the console with the same timing. These
-are called **Triggers**.
+are called <strong>Triggers</strong>.
 
-The following types of trigger can be created. You can record these actions in real time using **Live Record**
+The following types of trigger can be created. You can record these actions in real time using <strong>Live Record</strong>
 or enter them as manual triggers at specified times using the touch screen.
 
 Trigger             | Action
@@ -49,7 +49,7 @@ Preload             | Preload the LTP values of a playback over a number of seco
 Marker              | Mark a point in the timecode for information
 Wait for go         | Pause the timeline until you press <Keys.HardKey>Go</Keys.HardKey> to resume (only on internal timecode)
 
-- **Wait for go** triggers are useful when you have a timed sequence followed by an unknown delay, for
+- <strong>Wait for go</strong> triggers are useful when you have a timed sequence followed by an unknown delay, for
 example a win/walk-up sequence for an awards ceremony when you don't know how long the winner
 will take to reach the stage. Shapes will continue to run while the timeline is paused. The timeline needs to be
 [connected](./chases/chase-playback/#connecting-a-playback-for-control) for the <Keys.HardKey>Go</Keys.HardKey> button to work, if the timeline is not connected you can use the <Keys.ContextKey>Play</Keys.ContextKey> transport button to resume the timeline.
@@ -57,7 +57,7 @@ will take to reach the stage. Shapes will continue to run while the timeline is 
 Tracks
 ------------------
 
-The timeline is split into **Tracks** which can be used to organise triggers into different groups or sections. Each different playback in the timeline gets its own row in the track.
+The timeline is split into <strong>Tracks</strong> which can be used to organise triggers into different groups or sections. Each different playback in the timeline gets its own row in the track.
 - You can mute tracks to prevent them playing back using the <Keys.ContextKey>Mute</Keys.ContextKey> button.
 - You can lock tracks to prevent accidental changes to sections you've finished using the <Keys.ContextKey>Lock</Keys.ContextKey> button.
 - Tracks can be collapsed so they take up less room on the screen, using the arrow button to the left of the track name. See [more details](./timelines/running-and-editing-timelines.md#collapsing-track-view) here.
@@ -67,7 +67,7 @@ Selecting timecode source
 
 You can select one of the four available timecode sources to control your timeline from the [Timeline Options](./timelines/timeline-options.md#timecode-tab).
 
-To set up and enable each of the timecode sources as Internal, MIDI, Clock or SMPTE use the <Keys.SoftKey>Timecode</Keys.SoftKey> softkey at the top level main menu or double press <Keys.HardKey>Open/View</Keys.HardKey> and open the appropriate **Timecode window**.
+To set up and enable each of the timecode sources as Internal, MIDI, Clock or SMPTE use the <Keys.SoftKey>Timecode</Keys.SoftKey> softkey at the top level main menu or double press <Keys.HardKey>Open/View</Keys.HardKey> and open the appropriate <strong>Timecode window</strong>.
 
 Timecode linking and local timecode controls
 ------------------
@@ -90,7 +90,7 @@ When you are linked to a timecode (except Internal Timecode and Winamp), the fir
 
 ![Timeline external timecode controls](/docs/images/Timeline-Timecode-ExternalTransport.png)
 
-If timecode is disabled in the **Timecode** menu or the Timecode windows, the time is shown in red.
+If timecode is disabled in the <strong>Timecode</strong> menu or the Timecode windows, the time is shown in red.
 
 If the timecode time is within the [start and end times](./timelines/timeline-options#times-tab) but the timeline is not active, the time is shown in orange.
 
@@ -124,7 +124,7 @@ The grey cursor on the Timeline View sets the entry position for new triggers. I
 manually move the play position along the timeline while testing. You can position the cursor by tapping the screen in the ruler
 area at the top of the Timeline View.
 
-Tapping on the arrow at the top of the cursor, or using the <Keys.ContextKey>Select Cursor</Keys.ContextKey> context menu option sets **Wheel A** to control the cursor position.
+Tapping on the arrow at the top of the cursor, or using the <Keys.ContextKey>Select Cursor</Keys.ContextKey> context menu option sets <strong>Wheel A</strong> to control the cursor position.
 
 Selection tool types
 ------------------
@@ -138,7 +138,7 @@ You can also select the tool using the <Keys.ContextKey>Tool Pan</Keys.ContextKe
 Table view
 ------------------
 
-Using the <Keys.ContextKey>Open Table View</Keys.ContextKey> context menu button, you can open the timeline as a **table** which shows details for each trigger in time order, in the same format as a cue list. Buttons down the left hand side allow you to filter which tracks are shown in the list.
+Using the <Keys.ContextKey>Open Table View</Keys.ContextKey> context menu button, you can open the timeline as a <strong>table</strong> which shows details for each trigger in time order, in the same format as a cue list. Buttons down the left hand side allow you to filter which tracks are shown in the list.
 See [Table View](./timelines/running-and-editing-timelines.md#table-view).
 
 ![Timeline table view](/docs/images/Timeline-Table-View.png)

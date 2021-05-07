@@ -46,7 +46,7 @@ Um die Parameter eines Shapes/Effektes anzuzeigen oder zu editieren,
 klicken Sie auf <Keys.SoftKey>View Shape</Keys.SoftKey> oder <Keys.SoftKey>View Pixel Effect</Keys.SoftKey>. Ist mehr als
 ein Shape/Effekt in dem Cue gespeichert, wird auf der Schaltfläche
 <Keys.SoftKey>\...</Keys.SoftKey> angezeigt. Nach dem Anklicken öffnet sich ein entsprechendes
-Fenster (**Shape View** oder **Pixelmapper Effect View**), in dem alle
+Fenster (<strong>Shape View</strong> oder <strong>Pixelmapper Effect View</strong>), in dem alle
 enthaltenen Shapes/Effekte aufgeführt sind. Dort können Sie die
 gewünschten Änderungen vornehmen.
 

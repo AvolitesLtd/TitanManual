@@ -37,8 +37,8 @@ Kontext-Bereich auf <Keys.SoftKey>Fixture Overlay 50/50</Keys.SoftKey>.
 
 ### Elemente
 Klicken Sie unten auf die Schaltfläche <Keys.SoftKey>+</Keys.SoftKey>, um einen Effekt zu
-erzeugen, und wählen Sie eine der verfügbaren Formen aus. Zum **Entfernen**
-bereits erzeugter Elemente wählen Sie diese aus und klicken auf den **Papierkorb**,
+erzeugen, und wählen Sie eine der verfügbaren Formen aus. Zum <strong>Entfernen</strong>
+bereits erzeugter Elemente wählen Sie diese aus und klicken auf den <strong>Papierkorb</strong>,
 Es stehen folgende Elemente zur Verfügung:
 
 -   Quadrat
@@ -74,15 +74,15 @@ Element-Typ):
 - Zoom
 - Rotation
 - Border width (Randstärke)
-> Zum **Ändern der Farbe** klicken Sie links auf den **Namen des Layers**.
+> Zum <strong>Ändern der Farbe</strong> klicken Sie links auf den <strong>Namen des Layers</strong>.
 
 ![Effect Editor - Pixel Mapper - Circle on Layer](/docs/images/Effect-Editor-Pixel-Mapper-Circle-on-Layer.png)
 
 ### Animationen
 
 Bei noch ausgewähltem Grafikelement (links in der Layer-Darstellung)
-klicken Sie nochmals auf <Keys.SoftKey>+</Keys.SoftKey> und wählen eine **Animation** (Bewegung)
-oder einen **visuellen Effekt** (etwa das Aufzoomen oder Einblenden).
+klicken Sie nochmals auf <Keys.SoftKey>+</Keys.SoftKey> und wählen eine <strong>Animation</strong> (Bewegung)
+oder einen <strong>visuellen Effekt</strong> (etwa das Aufzoomen oder Einblenden).
 Damit wird der Effekt auf dem schwarzen Hintergrund und den Geräten
 animiert. Es lassen sich mehrere Animationen miteinander kombinieren, um
 komplexe Effekte zu erzielen.
@@ -140,10 +140,10 @@ nur bei Bewegungen)*
 
 Ein paar Tipps zu den Animationen:
 
--   Für das Einpassen ins Raster (**Grid Fit**) ist die Anzahl von Zeilen
+-   Für das Einpassen ins Raster (<strong>Grid Fit</strong>) ist die Anzahl von Zeilen
     und Spalten anzugeben.
 
--   Für die **Verlaufs-Animation** stellen Sie den Start- und Endwert
+-   Für die <strong>Verlaufs-Animation</strong> stellen Sie den Start- und Endwert
     sowie den Versatz dazwischen ein. Mit Spread wählen Sie die
     Verlaufs-Kurve: Pad ist ein einfacher, einmaliger Verlauf. Reflect
     ist ein Verlauf, der sich immer auf- und abbaut. Repeat schließlich
@@ -151,11 +151,11 @@ Ein paar Tipps zu den Animationen:
 
 -   Gibt man einen Wert für <Keys.SoftKey>Spawn For</Keys.SoftKey> oder <Keys.SoftKey>Run For</Keys.SoftKey> ein, so
     stoppt die Animation nach der entsprechenden Anzahl von Zyklen. Um
-    sie wieder zu starten, betätigen Sie den **Reset-Knopf** oben rechts im
+    sie wieder zu starten, betätigen Sie den <strong>Reset-Knopf</strong> oben rechts im
     Fenster des Effekt-Editors.\
     ![Effect Editor - Pixel Mapper - Reset Button](/docs/images/Effect-Editor-Pixel-Mapper-Reset-Button.png)
 
--   Für Effekte mit **Start** und **Endpunkt** bestimmt <Keys.SoftKey>Cycles</Keys.SoftKey> die Anzahl
+-   Für Effekte mit <strong>Start</strong> und <strong>Endpunkt</strong> bestimmt <Keys.SoftKey>Cycles</Keys.SoftKey> die Anzahl
     der Durchläufe. Bei Effekten ohne Endpunkt bestimmt sich die Anzahl
     hingegen aus dem Master-Tempo und der Geschwindigkeit der Animation.
 
@@ -177,12 +177,12 @@ gespeichert werden.
 
 > Sowohl beim Einstellen der Fader auf dem Bildschirm als auch beim Klicken und Ziehen lassen sich alternativ die Werte mit den Rädern oder den Zifferntasten eingeben. Um dies für einen Wert zu aktivieren, klicken Sie auf das Feld rechts, das den jeweiligen Wert zeigt. Mit einem Doppelklick kann man den Vorgabewert wiederherstellen, und mit <Keys.SoftKey>+/-</Keys.SoftKey> lässt sich der Wert invertieren.
 
--   Die **Reihenfolge** der Layer lässt sich verändern, indem man zuerst auf
+-   Die <strong>Reihenfolge</strong> der Layer lässt sich verändern, indem man zuerst auf
     den zu verschiebenden Layer klickt und dann unten die Schaltflächen
     'Pfeil hoch'/'Pfeil runter' bedient.
 
 -   Layer, Elemente und Animationen lassen sich mit <Keys.HardKey>Copy</Keys.HardKey> und
-    <Keys.HardKey>Move</Keys.HardKey> **kopieren** und **verschieben**: drücken Sie <Keys.HardKey>Copy</Keys.HardKey> (oder
+    <Keys.HardKey>Move</Keys.HardKey> <strong>kopieren</strong> und <strong>verschieben</strong>: drücken Sie <Keys.HardKey>Copy</Keys.HardKey> (oder
     <Keys.HardKey>Move</Keys.HardKey>), dann das zu verschiebende/kopierende Element, und
     schließlich auf das gewünschte Ziel des Kopierens.
 
@@ -195,35 +195,35 @@ Effekt-Namen:
 
 ![Effect Editor - Pixel Mapper - Effect Master Parameters](/docs/images/Effect-Editor-Pixel-Mapper-Effect-Master-Parameters.png)
 
--   Der Schalter **Block Effect** erlaubt es, einen Pixelmapper-Effekt zu
+-   Der Schalter <strong>Block Effect</strong> erlaubt es, einen Pixelmapper-Effekt zu
     bauen, der andere laufende Pixelmapper-Effekte stoppt (je nach
     [Priorität](../cues/playback-options.md#priority)). Damit ähnelt 
 	die Wirkung dem Block Shape.
 
--   **Colour** bestimmt die Hintergrundfarbe dieses Effekts (unwirksam,
-    falls **Back Opacity** auf 0 steht).
+-   <strong>Colour</strong> bestimmt die Hintergrundfarbe dieses Effekts (unwirksam,
+    falls <strong>Back Opacity</strong> auf 0 steht).
 
--   **Back Opacity** bestimmt die Sichtbarkeit anderer Effekte durch diesen
+-   <strong>Back Opacity</strong> bestimmt die Sichtbarkeit anderer Effekte durch diesen
     hindurch. Default ist 0 -- andere Effekte werden transparent
     hindurchgelassen.
 
--   **Opacity** bestimmt die Sichtbarkeit anderer Effekte im Vordergrund
+-   <strong>Opacity</strong> bestimmt die Sichtbarkeit anderer Effekte im Vordergrund
     dieses Effekts.
 
--   **X/Y/Zoom/Rotation** bestimmen Position und Größe des Effekts.
+-   <strong>X/Y/Zoom/Rotation</strong> bestimmen Position und Größe des Effekts.
 
--   **Master Speed** ist die generelle Geschwindigkeit des Effekts. Das
+-   <strong>Master Speed</strong> ist die generelle Geschwindigkeit des Effekts. Das
     beeinflusst die Animationsgeschwindigkeit sowie die Anzahl der
     Zyklen.
 
--   **Pre-Spool** startet der Effekt 'mittendrin', so als ob er bereits
+-   <strong>Pre-Spool</strong> startet der Effekt 'mittendrin', so als ob er bereits
     eine Weile gelaufen sei. Damit lassen sich langsam aufbauende
     Effekte gleich in ihrer ganzen Pracht starten.
 
--   **Run For** / **And Then** wie viele Zyklen der Effekt laufen und
-    was dann passieren soll (**Freeze** (Stoppen), **Kill** (Deaktivieren) 
-	oder **Stop Spawning** (keine neuen Kopien erzeugen)). Vorgabe 
-	für **Run For** ist 0, also unbegrenzt.
+-   <strong>Run For</strong> / <strong>And Then</strong> wie viele Zyklen der Effekt laufen und
+    was dann passieren soll (<strong>Freeze</strong> (Stoppen), <strong>Kill</strong> (Deaktivieren) 
+	oder <strong>Stop Spawning</strong> (keine neuen Kopien erzeugen)). Vorgabe 
+	für <strong>Run For</strong> ist 0, also unbegrenzt.
 
 Masterregler für Pixelmapper-Layer
 ----------------------------------

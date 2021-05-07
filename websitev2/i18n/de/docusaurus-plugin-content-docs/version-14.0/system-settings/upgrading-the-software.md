@@ -45,15 +45,15 @@ nächstes Kapitel):
 1.	Kopieren Sie das Installationsprogramm auf einen USB-Stick und
 	verbinden diesen mit dem Pult.
 
-2.	Im Menü **Tools** wählen Sie **Shutdown Software** (unterer Punkt), um
+2.	Im Menü <strong>Tools</strong> wählen Sie <strong>Shutdown Software</strong> (unterer Punkt), um
 	die Software des Pultes zu beenden.
 	![Tools Menu](/docs/images/Tools-Menu.png)
 
-3.	Öffnen Sie wieder das Menü **Tools**, klicken Sie auf das 
-	Verzeichnissymbol **Folders**, und navigieren Sie zum Speicherort 
+3.	Öffnen Sie wieder das Menü <strong>Tools</strong>, klicken Sie auf das 
+	Verzeichnissymbol <strong>Folders</strong>, und navigieren Sie zum Speicherort 
 	auf dem von Ihnen gewählten Laufwerk.
 
 4.	Starten Sie per Doppelklick das Installationsprogramm.
 
 5.	Sobald die Installation abgeschlossen ist, starten Sie die Software
-	mit **Restart Software** neu.
+	mit <strong>Restart Software</strong> neu.

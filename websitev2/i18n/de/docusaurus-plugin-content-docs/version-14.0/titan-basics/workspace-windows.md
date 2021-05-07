@@ -67,7 +67,7 @@ aufrufen.
 Oben rechts in der Titelleiste verfügt jedes Fenster über drei oder vier
 Schaltflächen, über die weitere Funktionen erreichbar sind.
 
-Mit den **Optionen für die Arbeitsfenster** (zu öffnen mit dem kleinen <Keys.ContextKey>Zahnrad</Keys.ContextKey>)
+Mit den <strong>Optionen für die Arbeitsfenster</strong> (zu öffnen mit dem kleinen <Keys.ContextKey>Zahnrad</Keys.ContextKey>)
 können Größe und Position der Fenster auf verschiedene Standardwerte
 gesetzt und die Größe der Schaltflächen sowie die Schriftgröße für jedes
 Fenster getrennt eingestellt werden. Die verfügbaren und angezeigten
@@ -132,7 +132,7 @@ Im folgenden Bild wird die Anzeige bei aktivem Patch-View-Fenster dargestellt:
 ![Context Menu](/docs/images/Context-Menu.png)
 
 Beim Sapphire Touch und beim Titan Go gibt es extra eine Schaltfläche 
-in der Titelleiste jedes Fensters, mit der das **Kontext-Menü** eingeblendet 
+in der Titelleiste jedes Fensters, mit der das <strong>Kontext-Menü</strong> eingeblendet 
 werden kann.
 
 ![Patch View](/docs/images/Patch-View-2.png)

@@ -31,7 +31,7 @@ useful to import existing stage structures or rigging designs.
 > The internal Capture engine uses the Capture 2020 version *(in Titan v13 
 and v12, Capture 2018 was used; in Titan v11 and below, Capture Atlas was used)*. 
 You will not be able to import files from newer versions of Capture - use the 
-**"Export for Capture 2020"** function in the File menu of the full version of 
+<strong>"Export for Capture 2020"</strong> function in the File menu of the full version of 
 Capture to save the file as a version which can then be imported.
 
 You can import fixtures from full Capture but you need to ensure that
@@ -50,7 +50,7 @@ Clearing the Capture Show
 The Wipe button at the bottom of the Show tab will clear the current
 Capture show.
 
-If the **Auto Update** option is set to **On** (the default setting)
+If the <strong>Auto Update</strong> option is set to <strong>On</strong> (the default setting)
 then the Capture show will be repopulated with the fixtures in the Titan
 show.
 

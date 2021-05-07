@@ -20,5 +20,5 @@ anlegen, und sämtliche Outputs lassen sich bequem im Vorschaufenster
 Shows mit Video-Content lassen sich damit deutlich einfacher und
 übersichtlicher programmieren und steuern.
 
-> Bei Ai werden Video-Outputs als "Screen Fixtures" bezeichnet. Um das hier nicht mit Fixtures im Sinne von Movinglights zu verwechseln, werden diese Outputs in Synergy/Titan als **"Screens"** (oder **"Surfaces"**) bezeichnet.
+> Bei Ai werden Video-Outputs als "Screen Fixtures" bezeichnet. Um das hier nicht mit Fixtures im Sinne von Movinglights zu verwechseln, werden diese Outputs in Synergy/Titan als <strong>"Screens"</strong> (oder <strong>"Surfaces"</strong>) bezeichnet.
 

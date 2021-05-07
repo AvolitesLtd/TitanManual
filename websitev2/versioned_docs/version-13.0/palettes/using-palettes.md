@@ -71,7 +71,7 @@ for more details about locks.
 
 Each of the palette windows can either display pages of palettes, with
 page buttons on the left, or a continuous scrolling window of palettes.
-To change between pages and scrolling, touch the **Pages Show/Hide** button
+To change between pages and scrolling, touch the <strong>Pages Show/Hide</strong> button
 in the context button area to the left of the menu buttons, then change
 pages using the page buttons to the left of the palette buttons.
 
@@ -104,5 +104,5 @@ Setting Palettes to All Fixtures in a Playback
 ----------------------------------------------
 
 You can apply a palette to all fixtures in a particular playback. Hold
-the palette button and press the **select** button of the playback which the
+the palette button and press the <strong>select</strong> button of the playback which the
 palette is to apply to.

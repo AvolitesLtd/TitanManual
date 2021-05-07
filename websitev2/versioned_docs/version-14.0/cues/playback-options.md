@@ -10,7 +10,7 @@ import Keys from '@site/src/components/key.ts';
 [](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
 
 To set options for a cue, chase or cue list, press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey
-on the top level menu), then press the **Select** button of the playback to be
+on the top level menu), then press the <strong>Select</strong> button of the playback to be
 edited. The Options window will open allowing you to set a wide range
 of options for how the playback will work, including Times. (You can also set the options using the softkeys.)
 
@@ -55,7 +55,7 @@ the key profile for a playback is to hold the <Keys.HardKey>Options</Keys.HardKe
 ![Playback Options showing playback tab](/docs/images/Playback-Options-Chase-Playback-Tab.png)
 
 ### Blind
-Sets this individual playback to **Blind** mode. The playback
+Sets this individual playback to <strong>Blind</strong> mode. The playback
 will then output only to Visualiser, not to the stage. This can be very
 useful if you need to program and test a cue during a live show.
 
@@ -70,7 +70,7 @@ to be at 50%, this option will let you do that.
 ### Priority
 Allows you to configure how playbacks will behave if you
 turn on two playbacks controlling the same fixture. The priority can be
-set to **Low**, **Normal**, **High**, **Programmer** or **Very High** (*Programmer* gives the
+set to <strong>Low</strong>, <strong>Normal</strong>, <strong>High</strong>, <strong>Programmer</strong> or <strong>Very High</strong> (*Programmer* gives the
 same level as manually set attributes in the programmer). If a fixture
 is being controlled by a playback and you turn on a playback of the same
 or higher priority, then the new playback will take over. However, if
@@ -82,7 +82,7 @@ fixtures, then you decide you want a couple of them to spotlight a
 singer. If you set the spotlight playback to be high priority, then
 while it is active no other playback will affect the spotlight fixtures.
 
-> Priority is useful when using **Swop** buttons for strobe-type effects
+> Priority is useful when using <strong>Swop</strong> buttons for strobe-type effects
 where you want to black out everything else. If you have a position
 shape running on other fixtures, you don't want that to stop during the
 Swop, or it will look messy when you release the Swop button. So set the
@@ -134,7 +134,7 @@ this playback when it is fired using the flash button. By default these
 are set to *"As In"* and *"As Out"* which will use the fade time set for the
 playback in the [Times menu](cue-timing.md). This option allows you to set a different
 flash action for the playback. *Note that the [Key Profile](../system-settings/key-profiles.md) for the flash
-button must be set to **Timed Flash** for this to work.*
+button must be set to <strong>Timed Flash</strong> for this to work.*
 
 ### Speed
 Default speed for shapes/effects in this playback in BPM. This can be
@@ -232,10 +232,10 @@ You can also use the
 Attribute Bank buttons to set the mask.
 
 Global release uses the global
-release mask which is set in the **Release menu** (press <Keys.HardKey>Release</Keys.HardKey>).
+release mask which is set in the <strong>Release menu</strong> (press <Keys.HardKey>Release</Keys.HardKey>).
 
 > Release mask is useful when creating a temporary strobe
-effect on a playback. Set **Mask** to **Local** then **Intensity** to **Include**. Now when you turn off
+effect on a playback. Set <strong>Mask</strong> to <strong>Local</strong> then <strong>Intensity</strong> to <strong>Include</strong>. Now when you turn off
 the playback the shutter channel will release to its previous state
 and the strobe will stop.
 

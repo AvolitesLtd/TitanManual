@@ -10,10 +10,10 @@ import Keys from '@site/src/components/key.ts';
  
 Über das Menü [Options](../cues/playback-options.md) sind weitere Optionen 
 verfügbar. Drücken Sie dafür die Taste <Keys.HardKey>Options</Keys.HardKey> oder im Hauptmenü die 
-Menütaste <Keys.SoftKey>Options</Keys.SoftKey>, und wählen Sie die gewünschte Cueliste (**blaue Taste**).
+Menütaste <Keys.SoftKey>Options</Keys.SoftKey>, und wählen Sie die gewünschte Cueliste (<strong>blaue Taste</strong>).
 
 Oder drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, dann die entsprechende
-**Select-Taste**, und klicken links in der Playback-Ansicht auf
+<strong>Select-Taste</strong>, und klicken links in der Playback-Ansicht auf
 <Keys.SoftKey>Options</Keys.SoftKey>.
 
 ---
@@ -60,7 +60,7 @@ Einstellung | Beschreibung
 --- | ---
 Off | Kein Tracking von Shapes - Shapes stoppen, wenn der Cue beendet wird.
 On  | Shapes tracken, bis sie geblockt werden.
-Local | Die allgemeine **Tracking**-Einstellung gilt. *(Vorgabewert)*
+Local | Die allgemeine <strong>Tracking</strong>-Einstellung gilt. *(Vorgabewert)*
 
 ### Timecode Source 
 Bestimmt, welcher Timecode diese Cueliste steuert.
@@ -127,6 +127,6 @@ Damit werden einzelne Werte released, wenn nicht im
 nächsten Cue Werte dafür hinterlegt sind. Damit lassen sich manche
 Effekte erstellen.
 
-> Die früher hier zu findenden **Cue Options** sind nun in der Playback-Ansicht
+> Die früher hier zu findenden <strong>Cue Options</strong> sind nun in der Playback-Ansicht
  zu finden und zu editieren. Um diese zu öffnen, drücken Sie <Keys.HardKey>View / Open</Keys.HardKey> 
- und die **Select-Taste** der Cueliste.
+ und die <strong>Select-Taste</strong> der Cueliste.

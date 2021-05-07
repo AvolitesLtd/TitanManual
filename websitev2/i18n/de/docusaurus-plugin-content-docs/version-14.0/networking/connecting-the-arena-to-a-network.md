@@ -9,7 +9,7 @@ import Keys from '@site/src/components/key.ts';
 
 Anders als die anderen Titan-Pulte verfügt das Arena über einen
 integrierten Netzwerkswitch und einen optischen Netzwerkschluss
-(optional: zwei). **Dieser Abschnitt gilt nur für das Arena!**
+(optional: zwei). <strong>Dieser Abschnitt gilt nur für das Arena!</strong>
 
 Optische Anschlüsse
 -------------------
@@ -46,16 +46,16 @@ Die IP-Adressen des Netzwerkswitchs und Controllers müssen normalerweise
 nicht geändert werden, es sei denn, es besteht ein Konflikt mit anderen
 Geräten im Netzwerk. Der Vorgabewert ist `10.19.aa.bb`, wobei sich `aa.bb` 
 aus der Seriennummer des Pultes ergibt *(so ist z.B. `10.19.01.124` aus der 
-Seriennummer **379** abgeleitet: 01 steht für 255, und 255+124 = 379)*.
+Seriennummer <strong>379</strong> abgeleitet: 01 steht für 255, und 255+124 = 379)*.
 
 Um die IP-Adresse des Switchs zu ändern:
 
-1. Öffnen Sie im **Tools**-Menü, **Control Panel**, die **USB-Expert-Console**.
+1. Öffnen Sie im <strong>Tools</strong>-Menü, <strong>Control Panel</strong>, die <strong>USB-Expert-Console</strong>.
 
 2. Wählen Sie das TitanNet Switch Panel.
 ![USB Expert Tools - TNS Panel](/docs/images/USB-Expert-Tools-TNS-Panel.png)
 
-3. Im angezeigten **IP Address Dialog** geben Sie die neue IP-Adresse ein.
+3. Im angezeigten <strong>IP Address Dialog</strong> geben Sie die neue IP-Adresse ein.
 ![USB Expert Tools - TNS Panel - IP Address Dialog](/docs/images/USB-Expert-Tools-TNS-Panel-IP-Address-Dialog.png)
 
 Stromversorgung und USV 

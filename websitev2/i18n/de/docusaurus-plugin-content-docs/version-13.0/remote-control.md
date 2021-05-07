@@ -7,7 +7,7 @@ original_id: remote-control
 
 import Keys from '@site/src/components/key.ts';
 
-Verwendet man einen **WLAN** Access Point (Drahtlosnetzwerk-Zugangspunkt),
+Verwendet man einen <strong>WLAN</strong> Access Point (Drahtlosnetzwerk-Zugangspunkt),
 so lässt sich das Pult mit einem Mobilgerät ([Android](https://play.google.com/store/apps/developer?id=Avolites+Ltd) oder [iOS](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps)) drahtlos
 fernsteuern. Dies ist insbesondere hilfreich beim Installieren und
 Testen der Geräte und beim Einleuchten. Ebenso lassen sich mit der
@@ -25,6 +25,6 @@ Store](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-ph
 
 Es lassen sich auch mehrere Fernsteuerungen gleichzeitig mit einem Pult
 verbinden, wobei das Pult voll funktionsfähig bleibt. Jede Remote
-verfügt über einen **eigenen Programmierspeicher**, so dass z.B. ein
+verfügt über einen <strong>eigenen Programmierspeicher</strong>, so dass z.B. ein
 Programmierer mit der Remote und ein anderer unabhängig davon mit dem
 Pult arbeiten kann.

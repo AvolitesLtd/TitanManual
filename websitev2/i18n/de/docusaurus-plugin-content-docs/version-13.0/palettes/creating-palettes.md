@@ -14,7 +14,7 @@ Obwohl ein Paletteneintrag mehrere oder alle Attribute eines Geräts
 beinhalten kann, ist es deutlich einfacher, mit getrennten Paletten zu
 arbeiten, so dass man etwa Paletten nur für Positionen und andere
 Paletten nur für Farben hat. Diese Vorgehens­weise wird durch getrennte
-Fenster für **Positions**-, **Farb**- und **Gobo**paletten unterstützt.
+Fenster für <strong>Positions</strong>-, <strong>Farb</strong>- und <strong>Gobo</strong>paletten unterstützt.
 
 Beim Speichern einer Palette werden nur die im Programmierspeicher
 befindlichen Attribute (die seit dem letzten <Keys.HardKey>Clear</Keys.HardKey> veränderten
@@ -27,14 +27,14 @@ gespeichert, und es lassen sich sogar [Paletten nur mit Zeiten](#erstellen-einer
 Sind mehrere Attribute im Programmierspeicher, so erstellen Sie eine
 Maske, mit der die zu speichernden Attribute ausgewählt werden.
 
-Paletten können **Global**e, gemeinsame (**shared**) oder **normal**e
+Paletten können <strong>Global</strong>e, gemeinsame (<strong>shared</strong>) oder <strong>normal</strong>e
 (einzeln verwendete) Paletten sein:  
 
-- **Globale** Paletten funktionieren mit
+- <strong>Globale</strong> Paletten funktionieren mit
 allen Gerätetypen (die diese Attribute physikalisch steuern können).
-- **Shared** Paletten speichern identische DMX-Werte für alle Geräte des
+- <strong>Shared</strong> Paletten speichern identische DMX-Werte für alle Geräte des
 gleichen Typs, *z.B. ‚Rot' für alle Martin MAC2000*.
-- **Normale** Paletten wiederum speichern für jedes Gerät 
+- <strong>Normale</strong> Paletten wiederum speichern für jedes Gerät 
 andere DMX-Werte, *etwa fast immer beim Programmieren von Positionen*.
 
 Beim Verschmelzen (merge) von Paletten können auch Paletten entstehen,
@@ -48,7 +48,7 @@ Farbe auf dem Farbrad (bei Geräten mit festen Farben) auszuwählen.
 
 Mit der [Benutzereinstellung "Minimum Palette Mode"](../system-settings/user-settings.md#minimum-palette-mode)
 kann festgelegt werden, dass auch beim Schnellspeichern Paletten immer 
-als **Shared** oder **Normal** erstellt werden, auch wenn das Pult sie 
+als <strong>Shared</strong> oder <strong>Normal</strong> erstellt werden, auch wenn das Pult sie 
 sonst als globale Palette speichern würde.
 
 Speichern einer Palette
@@ -103,7 +103,7 @@ Zum Speichern einer Palette gehen Sie wie folgt vor:
     Ist eine Attribut-Gruppe zum Speichern vorgesehen, so erscheint die
     entsprechende Funktionstaste invertiert (wie für 'Colour' in 
     Bild), und die LED der entsprechenden Attribut-Taste leuchtet. Beim
-    Verwenden der **[Schnellspeicherfunktion](#schnellspeichern)**
+    Verwenden der <strong>[Schnellspeicherfunktion](#schnellspeichern)</strong>
     wird die Maske automatisch erstellt, abhängig vom Fenster, in dem
     die Palette gespeichert wird: Paletten im Fenster 'Positions'
     enthalten nur P, im Fenster 'Colours' nur C und im Fenster 'Gobos
@@ -128,7 +128,7 @@ Zum Speichern einer Palette gehen Sie wie folgt vor:
     sind.*
     -   <Keys.SoftKey>Group in mask</Keys.SoftKey> speichert sämtliche Werte für alle in der Maske
     ausgewählten Attribute
-    -   <Keys.SoftKey>Mixed</Keys.SoftKey> speichert **Positionen** und **Farben** als 
+    -   <Keys.SoftKey>Mixed</Keys.SoftKey> speichert <strong>Positionen</strong> und <strong>Farben</strong> als 
 	Attributgruppen, alle anderen Kanäle jedoch einzeln.
 
 -   Das Pult vergibt automatisch eine Bezeichnung für die Palette (außer
@@ -161,16 +161,16 @@ Zum Speichern einer Palette gehen Sie wie folgt vor:
 	betätigt, erfolgt automatisch ein Quick Merge.
 
 -   Wenn nicht explizit vorgegeben, wählt das Pult automatisch, ob eine
-    globale, shared oder normale Palette erzeugt wird: eine **globale**
+    globale, shared oder normale Palette erzeugt wird: eine <strong>globale</strong>
     Palette wird gespeichert, wenn alle ausgewählten Geräte im
     Programmer die gleichen Werte haben und die Attribute für globale
     Paletten verfügbar sind. Sind die Werte zwar gleich, die Attribute
-    aber nicht für globale Paletten geeignet, so wird eine **shared**
+    aber nicht für globale Paletten geeignet, so wird eine <strong>shared</strong>
     Palette gespeichert. Sind einige Attribute für global geeignet und
     einige nicht, so wird eine Palette mit den geeigneten Attributen als
     global und mit den anderen als shared gespeichert. Sind schließlich
-    die Werte unterschiedlich, so wird eine **normale** Palette erstellt.
-	Diese Automatik lässt sich mit der [Benutzereinstellung](../system-settings/user-settings.md) **[Minimum Palette Mode](../system-settings/user-settings.md#minimum-palette-mode)**
+    die Werte unterschiedlich, so wird eine <strong>normale</strong> Palette erstellt.
+	Diese Automatik lässt sich mit der [Benutzereinstellung](../system-settings/user-settings.md) <strong>[Minimum Palette Mode](../system-settings/user-settings.md#minimum-palette-mode)</strong>
 	überschreiben bzw. deaktivieren.
 
 Nested palettes -- Verknüpfte Paletten
@@ -207,15 +207,15 @@ Schaltfläche wird die Palette gespeichert.
 
 Beim Verwenden der Schnellspeicherfunktion wird die Attributmaske
 automatisch abhängig vom jeweiligen Fenster eingestellt; so werden
-im Fenster **Positions** nur Pan/Tilt-Werte (**P**), bei **Colours** 
-nur Farben (**C**) und bei **Gobos and Beams** die anderen Attribute 
-(**IGBES**) abgespeichert. Dies geschieht nicht beim Speichern mittels 
+im Fenster <strong>Positions</strong> nur Pan/Tilt-Werte (<strong>P</strong>), bei <strong>Colours</strong> 
+nur Farben (<strong>C</strong>) und bei <strong>Gobos and Beams</strong> die anderen Attribute 
+(<strong>IGBES</strong>) abgespeichert. Dies geschieht nicht beim Speichern mittels 
 der <Keys.HardKey>Record</Keys.HardKey>-Taste.
 
 Schnellspeichern funktioniert auch bei Gruppen und Arbeitsumgebungen 
 (Workspaces).
 
-> Wird eine Show geladen, die auf einem **Pearl Expert** programmiert wurde, so lassen sich die dort auf die Tasten programmierten Paletten über das Fenster **Groups and Palettes** erreichen, siehe
+> Wird eine Show geladen, die auf einem <strong>Pearl Expert</strong> programmiert wurde, so lassen sich die dort auf die Tasten programmierten Paletten über das Fenster <strong>Groups and Palettes</strong> erreichen, siehe
 [Compatibility windows -- Die Kompatibilitäts-Fenster](../titan-basics/workspace-windows.md#compatibility-windows----die-kompatibilitäts-fenster).
 
 Paletten beschriften und bemalen
@@ -233,10 +233,10 @@ Paletten-Schaltfläche angezeigt wird.
 4.  Schließen Sie die Eingabe mit <Keys.HardKey>Enter</Keys.HardKey> ab.
 
 Auf den Schaltflächen wird die Palettennummer oben links angezeigt.
-Die enthaltenen Attribute (**IPCGBES**) werden unter der Beschriftung
-eingeblendet, etwa ein **P** für **Positions-Paletten**. In der oberen
-rechten Ecke steht ein **G** für eine **globale**, ein **N** für eine 
-**normale** bzw. ein **S** für eine **Shared** (gemeinsam genutzte) Palette.
+Die enthaltenen Attribute (<strong>IPCGBES</strong>) werden unter der Beschriftung
+eingeblendet, etwa ein <strong>P</strong> für <strong>Positions-Paletten</strong>. In der oberen
+rechten Ecke steht ein <strong>G</strong> für eine <strong>globale</strong>, ein <strong>N</strong> für eine 
+<strong>normale</strong> bzw. ein <strong>S</strong> für eine <strong>Shared</strong> (gemeinsam genutzte) Palette.
 
 ![Shared and normal palettes stored on a touch screen](/docs/images/Shared-and-normal-palettes-stored-on-a-touch-screen.png)
 
@@ -251,9 +251,9 @@ Oben links gibt es Reiter für die Bildschirmtastatur (damit wird aus der
 Bemalung wieder eine Beschriftung), zum freien Zeichnen, für die
 Bilder-Bibliothek sowie zum Laden einer separaten Datei. Im Zeichenfeld
 hat man rechts Werkzeuge zur Auswahl von Stift oder Radierer, für die
-Strichstärke und die Auswahl der Farbe. **Clear** löscht die ganze
-Zeichnung, **Enter** schließt den Zeichenvorgang ab und übernimmt das
-Bild. Mit **Min/Max** oben rechts lässt sich der Editor verkleinern oder
+Strichstärke und die Auswahl der Farbe. <strong>Clear</strong> löscht die ganze
+Zeichnung, <strong>Enter</strong> schließt den Zeichenvorgang ab und übernimmt das
+Bild. Mit <strong>Min/Max</strong> oben rechts lässt sich der Editor verkleinern oder
 vergrößern.
 
 Bei Auswahl der Bibliothek kann man ein Bild aus einer großen Zahl
@@ -291,20 +291,20 @@ keine anderen Attributwerte in den Programmierspeicher zu schreiben.
 4.  Drücken Sie <Keys.HardKey>Record</Keys.HardKey>, dann <Keys.HardKey>Palette</Keys.HardKey> (Quick Record
 	funktioniert nicht bei Shape-Paletten).
 
-5.  Haben Sie in **Schritt 1** die Position oder weitere Attribute
+5.  Haben Sie in <strong>Schritt 1</strong> die Position oder weitere Attribute
 	verändert, so drücken Sie <Keys.SoftKey>Set Mask</Keys.SoftKey> und deaktivieren alles 
-	außer **FX**.
+	außer <strong>FX</strong>.
 
 6.  Klicken Sie auf eine Palettenschaltfläche, um die Palette zu
 	speichern.
 
-Effekt-Paletten lassen sich nicht als **[Quick Palette](using-palettes.md#quick-palettes----schnelle-paletten-ohne-ausgewählte-geräte)** verwenden. Es müssen immer Fixtures angewählt sein, um eine 
+Effekt-Paletten lassen sich nicht als <strong>[Quick Palette](using-palettes.md#quick-palettes----schnelle-paletten-ohne-ausgewählte-geräte)</strong> verwenden. Es müssen immer Fixtures angewählt sein, um eine 
 Effekt-Palette anzuwenden.
 
 Erstellen einer Palette mit Zeiten
 ---------------------------------
 
-Es lassen sich Paletten erstellen, die ausschließlich **Zeiten**, aber keine
+Es lassen sich Paletten erstellen, die ausschließlich <strong>Zeiten</strong>, aber keine
 Werte enthalten. Dies ist sinnvoll beim Speichern von Cues oder bei
 Zeiten für einzelne Attribute, um die Zeit nicht jedes Mal neu eingeben
 zu müssen. Auch für Zeiten gilt, dass Paletten beim Speichern als
@@ -324,9 +324,9 @@ so wirkt sich das auf alle damit erstellten Cues aus.
 
 4.  Drücken Sie <Keys.HardKey>Record</Keys.HardKey>, dann <Keys.HardKey>Palette</Keys.HardKey>.
 
-5.  Haben Sie in **Schritt 1** die Position oder weitere Attribute
+5.  Haben Sie in <strong>Schritt 1</strong> die Position oder weitere Attribute
 	verändert, so drücken Sie <Keys.SoftKey>Set Mask</Keys.SoftKey> und deaktivieren alles außer
-	**Time**.
+	<strong>Time</strong>.
 
 6.  Klicken Sie auf eine Palettenschaltfläche, um die Palette zu
 	speichern.

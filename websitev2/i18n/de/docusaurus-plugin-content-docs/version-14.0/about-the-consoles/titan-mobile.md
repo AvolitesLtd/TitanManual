@@ -13,39 +13,39 @@ Systemanforderungen siehe [Inbetriebnahme von Titan Mobile und T1/T2](../titan-b
 
 ![Titan Mobile](/docs/images/Titan-Mobile.png)
 
-\(A\) Die **Playbacks** (Speicherplätze, Szenenregler) dienen zum Speichern,
+\(A\) Die <strong>Playbacks</strong> (Speicherplätze, Szenenregler) dienen zum Speichern,
 zur Auswahl und zur Steuerung von Bildern und Abläufen. \(B\) Die **Tasten 
 zur Seitenumschaltung** dienen dabei zum Umschalten der Seiten der Szenenregler;
 die jeweilige Belegung wird unten am Bildschirm angezeigt.
 
-\(C\) Mit den **Encodern** werden die Geräte gesteuert; ebenso
+\(C\) Mit den <strong>Encodern</strong> werden die Geräte gesteuert; ebenso
 werden etwa Zeiten und Überblendwerte eingestellt. Die jeweilige
 Belegung wird unten rechts im Bildschirm angezeigt.
 
-\(D\) Mit den Tastern der **Attributauswahl** werden die Attribute der Geräte
+\(D\) Mit den Tastern der <strong>Attributauswahl</strong> werden die Attribute der Geräte
 angewählt (z.B. Farbe, Gobo, Bewegung, Fokus), welche dann durch die
 Drehregler gesteuert werden sollen. Die jeweils aktiven Taster werden
 durch LEDs angezeigt. Der untere (rote) Taster erlaubt das 'Locaten'
 (Lokalisieren) von Geräten, indem sie auf eine vordefinierte
 Startposition gesetzt werden.
 
-\(E\) Mittels der **Tasten für Chaser und Cuelisten** lassen sich diese
+\(E\) Mittels der <strong>Tasten für Chaser und Cuelisten</strong> lassen sich diese
 starten, stoppen und innerhalb derselben navigieren.
 
-\(F\) Mit dem **Ziffern- und Tastenfeld** lassen sich Werte eingeben sowie
+\(F\) Mit dem <strong>Ziffern- und Tastenfeld</strong> lassen sich Werte eingeben sowie
 Einstellungen des Pultes ändern.
 
-\(G\) Mit den blauen **Funktionstasten** sind verschieden Funktionen
+\(G\) Mit den blauen <strong>Funktionstasten</strong> sind verschieden Funktionen
 verknüpft, etwa Speichern von Szenen, Kopieren, Speichern auf Disk.
 
-\(H\) Die **Macro- und Executortasten** sind frei belegbare Tasten; darauf lassen
+\(H\) Die <strong>Macro- und Executortasten</strong> sind frei belegbare Tasten; darauf lassen
 sich sowohl Cues als auch Makros oder Arbeitsumgebungen (Workspaces)
 speichern.
 
-\(I\) Die **Fensterauswahltasten** dienen zum Öffnen und Umschalten der
+\(I\) Die <strong>Fensterauswahltasten</strong> dienen zum Öffnen und Umschalten der
 jeweiligen Fenster der Arbeitsumgebung.
 
-\(J\) Die **Menütasten** (bezeichnet mit A -- G) dienen zur Auswahl
+\(J\) Die <strong>Menütasten</strong> (bezeichnet mit A -- G) dienen zur Auswahl
 verschiedener Steuerungsoptionen. Im Bildschirm wird rechts die jeweilige
 Funktion angezeigt, abhängig vom jeweiligen Status
 des Pultes. Befehle dieser Taster sind in diesem Handbuch blau dargestellt,
@@ -60,30 +60,30 @@ Handbuch ‚berühren' steht.
 
 ![Titan Mobile Screen](/docs/images/Titan-Mobile-Screen.png)
 
-\(K\) Verschiedene **Arbeitsfenster** können auf dem Bildschirm angezeigt
+\(K\) Verschiedene <strong>Arbeitsfenster</strong> können auf dem Bildschirm angezeigt
 werden; diese enthalten jeweils Buttons (Schaltflächen) zur Auswahl von
 Geräten, Paletten, Gruppen, Shapes, Attributen etc. Auch der Visualiser
 wird in einem solchen Fenster angezeigt.
 
-\(L\) Die **Menütasten** korrespondieren mit den ‚echten' Tasten rechts auf
+\(L\) Die <strong>Menütasten</strong> korrespondieren mit den ‚echten' Tasten rechts auf
 dem Pult; die Schaltflächen zeigen die jeweilige Belegung an, und zum
 Betätigen kann man entweder auf die Schaltfläche klicken oder die
 jeweilige Taste drücken.
 
-\(M\) Links davon befindet sich der Bereich **Systemanzeige**; hier werden
+\(M\) Links davon befindet sich der Bereich <strong>Systemanzeige</strong>; hier werden
 hilfreiche Hinweise zur jeweiligen Aktion eingeblendet. Darunter werden
-je nach gewähltem Fenster verschiedene **kontextabhängige Schaltflächen**
+je nach gewähltem Fenster verschiedene <strong>kontextabhängige Schaltflächen</strong>
 angezeigt.
 
-\(N\) Darunter wiederum werden die **Arbeitsumgebungen** angezeigt, und mit den
+\(N\) Darunter wiederum werden die <strong>Arbeitsumgebungen</strong> angezeigt, und mit den
 Schaltflächen lässt sich schnell zwischen diesen umschalten.
 
-\(O\) Der Bereich **Rad-Belegung** zeigt die aktuelle Funktion, Belegung und
-die Werte der Attribut-Räder. Im **Attribut-Status** wird angezeigt,
+\(O\) Der Bereich <strong>Rad-Belegung</strong> zeigt die aktuelle Funktion, Belegung und
+die Werte der Attribut-Räder. Im <strong>Attribut-Status</strong> wird angezeigt,
 welche Attribute gerade aktiv und welche modifiziert sind.
 
 \(P\) Unten links schließlich werden die momentanen Belegungen der
-**Playbacks** angezeigt.
+<strong>Playbacks</strong> angezeigt.
 
 ## Titan Mobile Anschlussfeld
 

@@ -103,9 +103,9 @@ kurz drückt, sondern gedrückt hält.
     zwar die Geräte zum Programmieren \'anschalten\', aber die Information
     \'Licht an\' wird nicht mit abgespeichert.
 
-> Um schnell zu \'Locaten\', **ohne Pan/Tilt zu verändern**, drücken und halten Sie <Keys.HardKey>Locate</Keys.HardKey>, drücken dazu <Keys.HardKey>Pan/Tilt</Keys.HardKey> und lassen nun <Keys.HardKey>Locate</Keys.HardKey> los.
+> Um schnell zu \'Locaten\', <strong>ohne Pan/Tilt zu verändern</strong>, drücken und halten Sie <Keys.HardKey>Locate</Keys.HardKey>, drücken dazu <Keys.HardKey>Pan/Tilt</Keys.HardKey> und lassen nun <Keys.HardKey>Locate</Keys.HardKey> los.
 
-> Um **nur Pan/Tilt zu locaten**, drücken und halten Sie <Keys.HardKey>Locate</Keys.HardKey>, drücken dazu
+> Um <strong>nur Pan/Tilt zu locaten</strong>, drücken und halten Sie <Keys.HardKey>Locate</Keys.HardKey>, drücken dazu
 <Keys.HardKey>Options</Keys.HardKey>  (bzw. <Keys.HardKey>Attribute Options</Keys.HardKey> auf älteren Pulten), drücken dann <Keys.HardKey>Pan/Tilt</Keys.HardKey>, und lassen nun <Keys.HardKey>Locate</Keys.HardKey> los.
 
 
@@ -240,25 +240,25 @@ Zifferntasten auswählen (<Keys.HardKey>THRO</Keys.HardKey> ist auf manchen Pult
 | Tasten                                         | Auswahl                                                 |
 |------------------------------------------------|---------------------------------------------------------|
 | <Keys.HardKey>.</Keys.HardKey>  	                                     | Alle Zellen der gewählten Geräte                        |
-| **n** <Keys.HardKey>.</Keys.HardKey>                                    | Alle Zellen von Gerät **n**                             |
-| <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**                     | Zellen 1 bis **j** aller gewählten Geräte               |     
-| **n** <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey>                           | Alle Zellen der Geräte ab Nr. **n** des jeweiligen Typs |
-| **n** <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**                     | Kurzform, s.o.                                          |
-| **n** <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> **i**                     | Zellen 1 bis **i** von Gerät **n**                      |
-| <Keys.HardKey>.</Keys.HardKey> **m**          		                     | Zelle **m** aller ausgewählten Geräte                   |
-| **n** <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey> **j**         | Zellen 1 bis **j** der Geräte **n** bis **i**           |
-| <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey>                           | Zellen ab **m** der gewählten Geräte                    |
-| **n** <Keys.HardKey>.</Keys.HardKey> **m**                              | Zelle **m** von Gerät **n**                             |
-| <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**               | Zellen **m** bis **j** aller gewählten Geräte           |    
-| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey>                     | Zellen ab **m** des Gerätes **n**                       |
-| <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> **j**                     | Kurzform, s.o.                                          |
-| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> **i**               | Zellen **m** bis **i** von Gerät **n**                  |
-| **n** <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey>                     | alle Zellen der Geräte **n** bis **i**                  |
-| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey>         | Zellen ab **m** der Geräte **n** - **i**                |
-| **n** <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey> **j**               | Zelle **j** der Geräte **n** - **i**                    |
-| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> **i** <Keys.HardKey>.</Keys.HardKey> **j**   | Zellen **m** - **j** der Geräte **n** - **i**           |
-| **n** <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**                     | Zellen 1 - **j** von Gerät **n**                        |
-| **n** <Keys.HardKey>.</Keys.HardKey> **m** <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> **j**         | Zellen **m** - **j** von Gerät **n**                    |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey>                                    | Alle Zellen von Gerät <strong>n</strong>                             |
+| <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>                     | Zellen 1 bis <strong>j</strong> aller gewählten Geräte               |     
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey>                           | Alle Zellen der Geräte ab Nr. <strong>n</strong> des jeweiligen Typs |
+| <strong>n</strong> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>                     | Kurzform, s.o.                                          |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong>                     | Zellen 1 bis <strong>i</strong> von Gerät <strong>n</strong>                      |
+| <Keys.HardKey>.</Keys.HardKey> <strong>m</strong>          		                     | Zelle <strong>m</strong> aller ausgewählten Geräte                   |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>         | Zellen 1 bis <strong>j</strong> der Geräte <strong>n</strong> bis <strong>i</strong>           |
+| <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey>                           | Zellen ab <strong>m</strong> der gewählten Geräte                    |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <strong>m</strong>                              | Zelle <strong>m</strong> von Gerät <strong>n</strong>                             |
+| <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>               | Zellen <strong>m</strong> bis <strong>j</strong> aller gewählten Geräte           |    
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey>                     | Zellen ab <strong>m</strong> des Gerätes <strong>n</strong>                       |
+| <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey> <strong>j</strong>                     | Kurzform, s.o.                                          |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong>               | Zellen <strong>m</strong> bis <strong>i</strong> von Gerät <strong>n</strong>                  |
+| <strong>n</strong> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong> <Keys.HardKey>.</Keys.HardKey>                     | alle Zellen der Geräte <strong>n</strong> bis <strong>i</strong>                  |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong> <Keys.HardKey>.</Keys.HardKey>         | Zellen ab <strong>m</strong> der Geräte <strong>n</strong> - <strong>i</strong>                |
+| <strong>n</strong> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>               | Zelle <strong>j</strong> der Geräte <strong>n</strong> - <strong>i</strong>                    |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey> <strong>i</strong> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>   | Zellen <strong>m</strong> - <strong>j</strong> der Geräte <strong>n</strong> - <strong>i</strong>           |
+| <strong>n</strong> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>                     | Zellen 1 - <strong>j</strong> von Gerät <strong>n</strong>                        |
+| <strong>n</strong> <Keys.HardKey>.</Keys.HardKey> <strong>m</strong> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> <strong>j</strong>         | Zellen <strong>m</strong> - <strong>j</strong> von Gerät <strong>n</strong>                    |
 
 -   Die Auswahl von Zellen kann als separate Gruppe gespeichert werden.
     Damit können später verschiedene Zusammenstellungen von Zellen

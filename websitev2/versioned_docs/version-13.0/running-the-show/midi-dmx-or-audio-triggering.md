@@ -57,9 +57,13 @@ column, and enter a name for it.
 2. Add a trigger to the mapping using the + button in the right hand
 column or softkey <Keys.SoftKey>Add trigger</Keys.SoftKey>.
 
-3. Select <Keys.SoftKey>Trigger Type</Keys.SoftKey> as <Keys.SoftKey>Hardware</Keys.SoftKey> or <Keys.SoftKey>Item</Keys.SoftKey>.\
+3. Select <Keys.SoftKey>Trigger Type</Keys.SoftKey> as <Keys.SoftKey>Hardware</Keys.SoftKey> or <Keys.SoftKey>Item</Keys.SoftKey>.
+
+
 <Keys.SoftKey>Hardware</Keys.SoftKey> triggers a physical or touch button, or fader move, and
-will use the key profile set for the button/fader.\
+will use the key profile set for the button/fader.
+
+
 <Keys.SoftKey>Item</Keys.SoftKey> triggers a programmed item, such as a cue or chase.
 
 4. Press the button or move the fader to be triggered. The screen will

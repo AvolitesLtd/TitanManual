@@ -52,13 +52,13 @@ Aktualisieren des Personality-Speichers des Pultes
 --------------------------------------------------
 
 Laden Sie wie oben beschrieben die aktuelle Personality-Library herunter
-(durch Klick auf **Titan Fixture Library** auf der Startseite der
+(durch Klick auf <strong>Titan Fixture Library</strong> auf der Startseite der
 [Personalities-Seite](https://personalities.avolites.com), 
-oder über den **Download**-Link oben auf der Seite, und
-wählen danach **Titan Fixture Library**).
+oder über den <strong>Download</strong>-Link oben auf der Seite, und
+wählen danach <strong>Titan Fixture Library</strong>).
 
 Es gibt verschiedene Download-Pakete, abhängig von der jeweiligen 
-**Titan-Version**. Diese unterscheiden sich hinsichtlich der enthaltenen 
+<strong>Titan-Version</strong>. Diese unterscheiden sich hinsichtlich der enthaltenen 
 Capture-Library; die Titan-Personalities sind jedoch identisch.
 
 >	Beim Updaten gehen sämtliche von Ihnen in der Library vorgenommenen Änderungen 
@@ -69,28 +69,28 @@ Capture-Library; die Titan-Personalities sind jedoch identisch.
 
 ### Updaten der Personalities eines Pultes
 
-1.	Kopieren Sie die heruntergeladene Datei **TitanFixtureLibrary.exe** 
+1.	Kopieren Sie die heruntergeladene Datei <strong>TitanFixtureLibrary.exe</strong> 
 	auf einen USB-Stick, und verbinden Sie diesen mit dem Pult
 
-2.	Klicken Sie auf **Tools** oben links auf dem Bildschirm, dann auf
-	**Control Panel** und schließlich auf **Titan Installers**.
+2.	Klicken Sie auf <strong>Tools</strong> oben links auf dem Bildschirm, dann auf
+	<strong>Control Panel</strong> und schließlich auf <strong>Titan Installers</strong>.
 
 3.	Nun werden die auf dem USB-Stick gefundenen Installer angezeigt 
 	*(im Hauptverzeichnis des USB-Sticks, Dateinamen nicht verändert)*,
-	darunter auch die **TitanFixtureLibrary.exe**. Klicken Sie diese an, und
+	darunter auch die <strong>TitanFixtureLibrary.exe</strong>. Klicken Sie diese an, und
 	bestätigen Sie den Dialog mit <Keys.HardKey>OK</Keys.HardKey>.\
 	\
 	Sollte die Datei nicht in diesem Menü zu finden sein, so öffnen
-	Sie mit **Tools** > **Folders** den Explorer, navigieren zum 
+	Sie mit <strong>Tools</strong> > <strong>Folders</strong> den Explorer, navigieren zum 
 	richtigen Laufwerk und Verzeichnis und starten die Datei per
 	Doppelklick.
 
 4.	Starten Sie das Pult neu (Aus- und Einschalten, oder mit dem Befehl
-	**Restart Software** aus dem Tools-Menü).
+	<strong>Restart Software</strong> aus dem Tools-Menü).
 
 ### Updaten der Personalities der Titan PC Suite
 
-1.	Starten Sie die heruntergeladene Datei **TitanFixtureLibrary.exe** per
+1.	Starten Sie die heruntergeladene Datei <strong>TitanFixtureLibrary.exe</strong> per
 	Doppelklick und bestätigen Sie den Dialog mit <Keys.SoftKey>OK</Keys.SoftKey>. Möglicherweise 
 	wird eine Windows-Warnung ausgegeben.
 
@@ -155,7 +155,7 @@ Fehler der Personalities an Avolites berichten
 
 Sollten Sie einen Fehler in der Gerätedatei eines Gerätes finden, so
 wäre Avolites für eine Rückmeldung dankbar. Suchen Sie das entsprechende
-Gerät auf der Website und klicken Sie auf die Schaltfläche **Report Bug**
+Gerät auf der Website und klicken Sie auf die Schaltfläche <strong>Report Bug</strong>
 rechts im Fenster. Ein Klick auf [Bug Reports](https://personalities.avolites.com/Bug%20Queue.asp) oben öffnet eine Liste
 mit den momentan ausstehenden Problemen, um zu überprüfen, ob vielleicht
 jemand anderes das gleiche oder ein ähnliches Problem schon gemeldet
@@ -175,12 +175,12 @@ Funktionstasten, um die einzelnen Kanäle auszuwählen.
 
 Generic RGB: Zum Steuern von RGB-Geräten, etwa LED-Leuchten. Dabei kann
 man zwischen fünf Modi wählen:
-- 1: **Dim**,  2: **R**,  3: **G**, 4: **B**
-- ***VDim***, 1: **R**, 2: **G**, 3: **B**
-- 1: **R**, 2: **G**, 3: **B**, 4: **Dim**
-- ***VDim*** + 4x **RGB**
-- 4x **RGB**
+- 1: <strong>Dim</strong>,  2: <strong>R</strong>,  3: <strong>G</strong>, 4: <strong>B</strong>
+- <strong><em>VDim</em></strong>, 1: <strong>R</strong>, 2: <strong>G</strong>, 3: <strong>B</strong>
+- 1: <strong>R</strong>, 2: <strong>G</strong>, 3: <strong>B</strong>, 4: <strong>Dim</strong>
+- <strong><em>VDim</em></strong> + 4x <strong>RGB</strong>
+- 4x <strong>RGB</strong>
 
->	***VDim*** ist ein vom Pult emulierter 'virtueller' Dimmer für Geräte, die
+>	<strong><em>VDim</em></strong> ist ein vom Pult emulierter 'virtueller' Dimmer für Geräte, die
 	über keinen solchen Gesamtkanal verfügen. Bei Verwendung dieses Kanals
 	werden automatisch die RGB-Werte entsprechend beeinflusst.

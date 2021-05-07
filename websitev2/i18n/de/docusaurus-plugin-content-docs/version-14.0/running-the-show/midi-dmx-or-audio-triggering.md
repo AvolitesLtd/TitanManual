@@ -109,9 +109,9 @@ Trigger werden wie folgt eingerichtet:
 	-	Latch (schaltet das Playback ein/aus)
 	
 	Die Option <Keys.SoftKey>Level Match</Keys.SoftKey> bestimmt, was passiert, wenn das Playback
-	vorher bereits gestartet ist. Ist sie eingeschaltet (**On**), so muss der
+	vorher bereits gestartet ist. Ist sie eingeschaltet (<strong>On</strong>), so muss der
 	aktuelle Pegel per Trigger übernommen werden, damit er aktiv wird. Ist
-	die Option dagegen ausgeschaltet (**Off**), so wirkt der Trigger immer, 
+	die Option dagegen ausgeschaltet (<strong>Off</strong>), so wirkt der Trigger immer, 
 	auch bei anderen Pegeln.
 
 5.	Klicken Sie <Keys.SoftKey>OK</Keys.SoftKey>.

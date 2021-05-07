@@ -10,55 +10,55 @@ import Keys from '@site/src/components/key.ts';
 
 ![Quartz](/docs/images/Quartz.png)
 
-<Keys.Annotation>A</Keys.Annotation> The **Workspace windows** on the touch screen contain touch buttons for
+<Keys.Annotation>A</Keys.Annotation> The <strong>Workspace windows</strong> on the touch screen contain touch buttons for
 fixtures, palettes, groups, playbacks, macros and more. You can also set
 fixture attributes and show information windows.
 
-<Keys.Annotation>B</Keys.Annotation> The **System display and menu** area of the touch screen is the nerve
+<Keys.Annotation>B</Keys.Annotation> The <strong>System display and menu</strong> area of the touch screen is the nerve
 centre of the console and shows you what is going on. This part of the
 display shows various screens of information depending on what you are
 currently doing.
 
-<Keys.Annotation>C</Keys.Annotation> The **Menu Softkeys** (labelled A - G) are used to select control
+<Keys.Annotation>C</Keys.Annotation> The <strong>Menu Softkeys</strong> (labelled A - G) are used to select control
 options. The display next to the buttons shows what each one will do.
 The options for each key change depending on what the console is doing.
 Softkey commands are shown in the manual like this:
 <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
-<Keys.Annotation>D</Keys.Annotation> The **Playback faders** are used to store and play back cues or chases.
-<Keys.Annotation>E</Keys.Annotation> The **Page Select buttons** let you change to a different page of
+<Keys.Annotation>D</Keys.Annotation> The <strong>Playback faders</strong> are used to store and play back cues or chases.
+<Keys.Annotation>E</Keys.Annotation> The <strong>Page Select buttons</strong> let you change to a different page of
 playbacks. The bottom of the screen shows information about each
 playback.
 
-<Keys.Annotation>F</Keys.Annotation> The **Attribute Control wheels** are used to set control values
+<Keys.Annotation>F</Keys.Annotation> The <strong>Attribute Control wheels</strong> are used to set control values
 (attributes) for the fixtures, and to set chase speeds and fades. The
 bottom right corner of the screen shows information about the attributes
 being controlled.
 
-<Keys.Annotation>G</Keys.Annotation> The **Attribute select buttons** are used to select which attributes of
+<Keys.Annotation>G</Keys.Annotation> The <strong>Attribute select buttons</strong> are used to select which attributes of
 a fixture (e.g. colour, gobo, position) are going to be controlled using
 the Control wheels. The buttons have lights on to show you which
 attributes are active. Attribute functions such as Fan and Shapes are
 also controlled here.
 
-<Keys.Annotation>H</Keys.Annotation> The **Chase and Cue List control buttons** allow you to start and stop
+<Keys.Annotation>H</Keys.Annotation> The <strong>Chase and Cue List control buttons</strong> allow you to start and stop
 chases and cue lists, and move about in the list.
 
-<Keys.Annotation>I</Keys.Annotation> The **Numeric keypad** and other control buttons are used to enter
+<Keys.Annotation>I</Keys.Annotation> The <strong>Numeric keypad</strong> and other control buttons are used to enter
 values and change controls on the system.
 
-<Keys.Annotation>J</Keys.Annotation> The **Function buttons** are used to carry out functions such as storing
+<Keys.Annotation>J</Keys.Annotation> The <strong>Function buttons</strong> are used to carry out functions such as storing
 cues, copying, saving to disk, etc.
 
-<Keys.Annotation>L</Keys.Annotation> The **Workspaces, Macros and Executers** buttons are programmable
+<Keys.Annotation>L</Keys.Annotation> The <strong>Workspaces, Macros and Executers</strong> buttons are programmable
 buttons which can be used to store workspaces (screen layouts), button
 macros or cues.
 
-<Keys.Annotation>M</Keys.Annotation> The **Workspace Window select buttons** are used to set which windows
+<Keys.Annotation>M</Keys.Annotation> The <strong>Workspace Window select buttons</strong> are used to set which windows
 are shown on the screen.
 
 <Keys.Annotation>N</Keys.Annotation> Near the power switch there is a small hole in the front panel. This is
-the **Panel Reset Switch** which may be pressed using the end of a
+the <strong>Panel Reset Switch</strong> which may be pressed using the end of a
 paper clip or other pointy thing to restart the front panel electronics
 if something odd happens with the switches and faders. The main
 processor will continue running but the DMX output will be interrupted

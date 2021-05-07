@@ -23,7 +23,7 @@ erstellen kann.
 Außer Positions-Shapes gibt es eine große Anzahl weiterer Shapes. Diese
 sind jeweils pro Attribut definiert, etwa für Farbe, Dimmer, Fokus usw.
 
-Außerdem gibt es die Funktion **Mask FX**, mittels derer sich laufende
+Außerdem gibt es die Funktion <strong>Mask FX</strong>, mittels derer sich laufende
 Shapes stoppen lassen. Läuft etwa auf einigen Geräten ein Kreis-Shape,
 und wird dann ein Cue aufgerufen, in dem auf ein paar der Geräte ein
 'Position Mask-Shape' abgespeichert ist, so beenden diese Geräte ihre
@@ -49,7 +49,7 @@ Generator\].
 4. Betätigen Sie eine <Keys.SoftKey>Menütaste</Keys.SoftKey>, um den Shape nach Attribut
 auszuwählen, oder drücken Sie <Keys.SoftKey>All Shapes</Keys.SoftKey> für eine Gesamtliste.
 
-5. Klicken Sie im **Shapes-Fenster** auf den gewünschten Shape, oder
+5. Klicken Sie im <strong>Shapes-Fenster</strong> auf den gewünschten Shape, oder
 benutzen Sie eine <Keys.SoftKey>Menütaste</Keys.SoftKey> zur Auswahl. Ebenso kann man mit
 der Tastatur einen Suchbegriff für einen bestimmten Shape eingeben, um
 die Suche einzugrenzen.
@@ -58,7 +58,7 @@ die Suche einzugrenzen.
 
 ---
 
--   Wird das **Shapes-Fenster** geöffnet, so bleibt es ständig offen, und
+-   Wird das <strong>Shapes-Fenster</strong> geöffnet, so bleibt es ständig offen, und
     man muss nicht immer wieder <Keys.SoftKey>Shape Generator</Keys.SoftKey> drücken, um einen
     Shape abzurufen. Dieses Fenster zeigt nur Shapes, die auf die
     gewählten Geräte anwendbar sind. Wird ein Attribut ausgewählt, so
@@ -108,7 +108,7 @@ die Suche einzugrenzen.
 -   Jeder Shape hat eine Standardgröße und -geschwindigkeit *(wird in
     der Shape-Datei definiert)*.
 
-> Wird ein 'Rainbow'-Farbshape verwendet, so müssen die Farb-Grundwerte (CMY oder RGB) auf **50%** gestellt werden, um sämtliche Farbkombinationen zu erzielen..
+> Wird ein 'Rainbow'-Farbshape verwendet, so müssen die Farb-Grundwerte (CMY oder RGB) auf <strong>50%</strong> gestellt werden, um sämtliche Farbkombinationen zu erzielen..
 
 Ändern von Größe und Geschwindigkeit
 ------------------------------------
@@ -160,32 +160,32 @@ Geräte-Reihenfolge innerhalb des Shape-Menüs ändern.
 1. Wenn der rechte Encoder nicht gerade den Spread steuert, drücken Sie
 auf <Keys.SoftKey>Adjust Speed, Size and Spread</Keys.SoftKey>
 
-2. Steuern Sie den **Spread** (die Verteilung) mit dem rechten Encoder, 
+2. Steuern Sie den <strong>Spread</strong> (die Verteilung) mit dem rechten Encoder, 
 oder betätigen Sie <Keys.SoftKey>Adjust Spread, Phase and Offset</Keys.SoftKey> und benutzen das 
 mittlere Rad, um den Geräteversatz (Phase) einzustellen *(rechtes Rad 
 beim Pearl Expert)*.
 
-Spread = **12** *(Phase = 30 degrees)*:
+Spread = <strong>12</strong> *(Phase = 30 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 12](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-12.png)
 
 ---
 
-Spread = **6** *(Phase = 60 degrees)*:
+Spread = <strong>6</strong> *(Phase = 60 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 6](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-6.png)
 
 ---
 
-Spread = **2** *(Phase = 180 degrees)*:
+Spread = <strong>2</strong> *(Phase = 180 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 2](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-2.png)
 
-Im Display wird die **Phase** in ° (Grad) angezeigt. So sorgt etwa
+Im Display wird die <strong>Phase</strong> in ° (Grad) angezeigt. So sorgt etwa
 Phase=180° für eine Wiederholung jedes zweiten Gerätes, 90° jedes
 vierten Gerätes, 60° jedes sechsten Gerätes usw.
 
-**Offset** ist der Startwert des Shapes im Vergleich zu anderen gleichzeitig
+<strong>Offset</strong> ist der Startwert des Shapes im Vergleich zu anderen gleichzeitig
 laufenden Shapes. *Wenn beispielsweise gleichzeitig ein Shape auf Cyan
 und einer auf Magenta läuft, um einen Farbmix zu erzielen, so möchte man
 vielleicht mit Cyan auf 100% und Magenta auf 0 beginnen, um den gesamten
@@ -194,7 +194,7 @@ einen ‚Phase Offset' von 180°.* Ohne diese Einstellung würden beide
 Shapes gleichzeitig 0 bzw. 100% erreichen.
 
 >   Nach dem Ändern von Offset oder Phase empfiehlt es sich, den Shape 
-	**neu zu starten**, damit alle Shapes neu synchronisiert werden. Dazu gibt 
+	<strong>neu zu starten</strong>, damit alle Shapes neu synchronisiert werden. Dazu gibt 
 	es im Menü 'Edit Shape' die Menütaste <Keys.SoftKey>Restart Shapes</Keys.SoftKey>.
 
 Shape-Richtung
@@ -224,7 +224,7 @@ wird. Mit z.B. <Keys.SoftKey>Beats=4</Keys.SoftKey> lässt sich erreichen dass f
 kompletten Shape-Durchlauf 4 Beats erforderlich sind -- der Shape läuft
 langsamer.
 
-Klickt man auf den Wert des **linken Encoders** im Display oder betätigt die jeweilige
+Klickt man auf den Wert des <strong>linken Encoders</strong> im Display oder betätigt die jeweilige
 @-Taste, so kann man die gewünschte Zahl direkt eingeben; außerdem
 werden zwei weitere Optionen angeboten: mit <Keys.SoftKey>Match to Spread</Keys.SoftKey> (an den
 Spread anpassen) wird der Beat Count auf den Spread-Wert des Shapes
@@ -239,7 +239,7 @@ gestoppt wird. Ändert man dies auf eine andere Zahl, so läuft der Shape
 nur die vorgegebene Anzahl von Zyklen und hält dann an.
 
 Zum direkten Eingeben eines Zahlenwertes drücken Sie die entsprechende
-@-Taste oder klicken auf den Wert des **mittleren Encoder** im Bildschirm. 
+@-Taste oder klicken auf den Wert des <strong>mittleren Encoder</strong> im Bildschirm. 
 Eine Eingabe von Dezimalzahlen (z.B. 1.5) sorgt dafür, dass der letzte 
 Durchlauf nur zum Teil durchgeführt wird und dann stehenbleibt.
 
@@ -259,7 +259,7 @@ Zum Editieren aktuell laufender Shapes siehe [Ändern eines gerade laufenden Sha
 Shapes stoppen mit Mask FX
 --------------------------
 
-Mit der Funktion **Mask FX** können Playbacks programmiert werden, die
+Mit der Funktion <strong>Mask FX</strong> können Playbacks programmiert werden, die
 laufende Shapes und Keyframe-Shapes auf einzelnen oder allen Geräten
 stoppen.
 

@@ -75,7 +75,7 @@ lässt sich die Seitenumschaltung sperren, siehe [Handle Paging](../cues/playbac
 In jedem der Palettenfenster lassen sich die Schaltflächen entweder
 seitenweise - mit Schaltflächen für die Seiten - oder als große Liste
 mit einem Schiebereiter organisieren. Zum Umschalten zwischen den beiden
-Optionen klicken Sie auf den Kontext-Button **Pages Show/Hide** links der
+Optionen klicken Sie auf den Kontext-Button <strong>Pages Show/Hide</strong> links der
 Menü-Schaltflächen.
 
 >   Paletten von einer beliebigen Seite lassen sich auch über ihre
@@ -98,7 +98,7 @@ Funktion nennt sich 'Quick Palette'.
 
 Wird z.B. eine Farbpalette aufgerufen, die für MAC 2000 programmiert 
 wurde, ohne dass MAC 2000 angewählt sind, so wird die Palette auf 
-**alle** MAC 2000 angewendet.
+<strong>alle</strong> MAC 2000 angewendet.
 
 > 	Effekt-Paletten können nicht als Quick Palettes verwendet werden -
     für diese müssen stets Fixtures ausgewählt werden.

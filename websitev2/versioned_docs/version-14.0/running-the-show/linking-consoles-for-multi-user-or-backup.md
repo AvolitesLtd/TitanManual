@@ -40,7 +40,9 @@ become inaccessible if the backup device has less faders/handles than
 the main console.
 
 1. Connect both consoles to the same network and ensure they are set to
-  the same IP range.\
+  the same IP range.
+
+
   See the [networking section](../networking.md) for more information.
 
 2. On the console which will be the Backup, press <Keys.HardKey>Disk</Keys.HardKey>, <Keys.SoftKey>TitanNet Sessions</Keys.SoftKey>, <Keys.SoftKey>Backup</Keys.SoftKey>.

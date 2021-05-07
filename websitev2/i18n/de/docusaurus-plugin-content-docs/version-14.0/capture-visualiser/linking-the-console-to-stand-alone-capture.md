@@ -14,7 +14,7 @@ sowie die aktuelle Geräteauswahl zwischen Pult und Capture
 synchronisiert.
 
 Befinden sich Pult und Capture-PC im gleiche Netzwerk, so wird das Pult
-zur Auswahl unten im Reiter **Universes** in Capture angezeigt.
+zur Auswahl unten im Reiter <strong>Universes</strong> in Capture angezeigt.
 Normalerweise erfolgt dies bereits vollautomatisch, aber befinden sich
 mehrere Titan-Pulte im Netzwerk, so ist eine manuelle Auswahl nötig.
 
@@ -26,7 +26,7 @@ so wird dies auch im Pult hinzugefügt. Wird dagegen ein neues Gerät auf
 dem Pult gepatcht, so wird dies erst im Pult und dann in Capture
 hinzugefügt. Wählt man ein Gerät aus -- im Pult oder in Capture -- so
 wird diese Auswahl auch im jeweils anderen Teil angezeigt. Will man dies
-nicht, so kann man in Capture **Console Link** deaktivieren.
+nicht, so kann man in Capture <strong>Console Link</strong> deaktivieren.
 
 Den Patch vom Pult nach Capture übertragen
 ------------------------------------------
@@ -49,8 +49,8 @@ die Positionsdaten an das externe Capture übertragen. Änderungen in der
 Positionierung, Ausrichtung, Legende und Usernumber werden laufend
 synchronisiert.
 
-> Die Legende in Titan wird in Capture in der Spalte **Unit** angezeigt. 
-Die Usernumber von Titan wird in Capture als **Channel** angezeigt.
+> Die Legende in Titan wird in Capture in der Spalte <strong>Unit</strong> angezeigt. 
+Die Usernumber von Titan wird in Capture als <strong>Channel</strong> angezeigt.
 
 Den Patch von Capture ins Pult übertragen
 -----------------------------------------
@@ -75,7 +75,7 @@ Fehlermeldung ausgegeben. Bestätigt man diese, so werden die gefundenen
 Probleme aufgelistet.
 
 Zum Beheben doppelt vergebener Gerätenummern ändern Sie in Capture den
-Wert im Feld **"Channel"**. Um dagegen bisher nicht unterstützte Geräte in
+Wert im Feld <strong>"Channel"</strong>. Um dagegen bisher nicht unterstützte Geräte in
 Capture zu verwenden, [aktualisieren Sie zunächst die Gerätebibliothek](../fixture-personalities.md#aktualisieren-des-personality-speichers-des-pultes) 
 in Titan. Hilft das nicht, so [fordern Sie eine neue Personality](../fixture-personalities.md#anfordern-einer-neuen-gerätedatei) auf
 der [Avolites Personality-Website](https://personalities.avolites.com/?mainPage=Request%20Queue.asp&) an. Wählen

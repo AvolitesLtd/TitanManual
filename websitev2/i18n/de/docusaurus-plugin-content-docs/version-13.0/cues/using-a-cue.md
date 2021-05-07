@@ -9,7 +9,7 @@ import Keys from '@site/src/components/key.ts';
 
 Da eine Vielzahl von Cues/Chasern gleichzeitig abgerufen werden kann,
 folgt das Pult bestimmten Regeln zur Kombination der aufgerufenen Werte
-verschiedener Cues. Diese werden als **HTP**- und **LTP**-Regeln bezeichnet.
+verschiedener Cues. Diese werden als <strong>HTP</strong>- und <strong>LTP</strong>-Regeln bezeichnet.
 
 HTP und LTP
 -----------
@@ -49,14 +49,14 @@ Programmierspeicher befinden, da diese ansonsten die Werte der Playbacks
     Kanäle sofort zu der neuen Einstellung *(außer falls der Cue auf
     ‚Mode 2' gestellt ist; siehe [Fader Modes](cue-timing.md#fade-modes))*.
 
--   Cues lassen sich ebenso mit der grauen **Flash**-Taste aufrufen
+-   Cues lassen sich ebenso mit der grauen <strong>Flash</strong>-Taste aufrufen
     (werden auf 100% geschaltet und zum sonstigen Ausgang addiert). Eine
-    Solo-Funktion ergibt sich mit der blauen **Swop**-Taste (alle anderen
+    Solo-Funktion ergibt sich mit der blauen <strong>Swop</strong>-Taste (alle anderen
     aktiven Cues werden ausgeblendet). 'Flash' und 'Swop' funktionieren
     nur, sofern nicht ein anderes Funktionsprofil für die Tasten
     hinterlegt ist, siehe [Tastenprofile/Key Profiles](../system-settings/key-profiles.md).
 
--   Cues lassen sich vorab laden, indem die **Preload**-Funktion der
+-   Cues lassen sich vorab laden, indem die <strong>Preload</strong>-Funktion der
     grauen oder blauen Taste per [Tastenprofil/Key Profile](../system-settings/key-profiles.md) zugewiesen wird. *'Vorab
     laden' (Preload) stellt die Attribute nicht anderweitig aktiver
     Geräte auf die Werte des Cues ein, um zu verhindern, dass später
@@ -74,7 +74,7 @@ Programmierspeicher befinden, da diese ansonsten die Werte der Playbacks
 
 -   Wenn einzelne Playbacks nicht durch andere Playbacks für die
     gleichen Geräte überlagert werden sollen, so geben Sie dem Playback
-    eine höhere **Priorität**. Wenn z.B. ein paar Movinglights sowohl als
+    eine höhere <strong>Priorität</strong>. Wenn z.B. ein paar Movinglights sowohl als
     Rednerlicht als auch als Effektlicht eingesetzt sind, so können Sie
     dem Rednerlicht-Playback eine höhere Priorität geben. Siehe [Priority](playback-options.md#priority) in
     [Playback Options](playback-options.md).
@@ -99,14 +99,14 @@ umgeschaltet werden:
 ### Pulte ohne Motorfader
 
 -   Aktuell aufgerufene Cues bleiben beim Seitenwechsel normalerweise
-    aktiviert (Playback Paging: **Always Hold**). Soll ein Cue aufgerufen 
+    aktiviert (Playback Paging: <strong>Always Hold</strong>). Soll ein Cue aufgerufen 
 	werden, der sich auf einem Fader befindet, der von einer vorherigen 
 	Seite bereits aktiviert ist, so bewegen Sie diesen auf 0 und 
 	aktivieren ihn wieder. Der vorherige Cue wird damit gestoppt, und 
 	der neue aufgerufen. Jeder Fader kann somit stets nur auf einer Seite 
 	aktiv sein.
 
--   Schaltet man die Einstellung dagegen auf **Never Hold**, dann kann jeder
+-   Schaltet man die Einstellung dagegen auf <strong>Never Hold</strong>, dann kann jeder
     Fader auf mehreren Seiten unabhängig voneinander aktiv sein.
     Kehren Sie zu einer Seite zurück, von der bereits vorher ein Regler
     aktiv ist, so erhält dieser erst wieder die Kontrolle, sobald er auf
@@ -115,22 +115,22 @@ umgeschaltet werden:
     Seite aktiviert, so wird das in pink angezeigt und die Seitennummer
     eingeblendet. 
 	
--   Die Einstellung **Normal** bezieht sich auf den Vorgabewert, also bei 
+-   Die Einstellung <strong>Normal</strong> bezieht sich auf den Vorgabewert, also bei 
     Pulten ohne Motorfader 'Always Hold'.
 
 ### Pulte mit Motorfadern
 
--   Voreinstellung: **Never Hold**. Cues bleiben beim Seitenwechsel aktiv, 
+-   Voreinstellung: <strong>Never Hold</strong>. Cues bleiben beim Seitenwechsel aktiv, 
 	aber die Fader sind der neuen Seite zugeordnet. Zum Deaktivieren eines 
 	Cues von einer anderen Seite muss man auf diese zurückwechseln und den 
 	Fader auf 0 ziehen. Ist ein Playback-Regler auf einer anderen Seite 
 	aktiviert, so wird das in pink angezeigt und die Seitennummer eingeblendet.
     
--   Wechselt man die Einstellung auf **Always Hold**, so wird das von Pulten
+-   Wechselt man die Einstellung auf <strong>Always Hold</strong>, so wird das von Pulten
     ohne Motorfader bekannte Verhalten aktiviert, und jeder Fader kann nur
 	auf einer Seite aktiv sein.
 	
--   Die Einstellung **Normal** bezieht sich auf den Vorgabewert, also bei 
+-   Die Einstellung <strong>Normal</strong> bezieht sich auf den Vorgabewert, also bei 
     Pulten ohne Motorfader 'Never Hold'.
 
 ---
@@ -161,7 +161,7 @@ Workspace Window\], <Keys.SoftKey>Active Playbacks</Keys.SoftKey>.
 ![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
 
 Klickt man eine der Schaltflächen an, so wird das betreffende Playback
-sofort deaktiviert (**gekillt**). Betätigt man <Keys.SoftKey>Playback Options</Keys.SoftKey>, gefolgt von einer
+sofort deaktiviert (<strong>gekillt</strong>). Betätigt man <Keys.SoftKey>Playback Options</Keys.SoftKey>, gefolgt von einer
 der Playback-Schaltflächen, so kann man die jeweiligen Parameter ändern.
 
 Master für Speed (Geschwindigkeit) und Size (Größe)
@@ -183,9 +183,9 @@ Speed- und Size-Master sind detailliert beschrieben in [Speed and Size Masters](
 Freigeben (Release) laufender Playbacks
 ---------------------------------------
 
-Ein aktuell laufendes Playback lässt sich freigeben (**releasen**),
+Ein aktuell laufendes Playback lässt sich freigeben (<strong>releasen</strong>),
 indem man die Taste <Keys.HardKey>Release</Keys.HardKey> *(auf dem Pearl Expert: <Keys.HardKey>Off</Keys.HardKey>)* drückt,
-gefolgt von der **Auswahltaste** des Playbacks. Damit kehren die
+gefolgt von der <strong>Auswahltaste</strong> des Playbacks. Damit kehren die
 betreffenden Kanäle auf Ihre Werte vor Starten des Playbacks, auf das
 zuletzt aktive Playback, zurück. Ist die Option <Keys.SoftKey>Release to Home</Keys.SoftKey> im
 Release-Menü aktiviert, erfolgt das Release nach und nach bis zum
@@ -204,7 +204,7 @@ sind 2s, dies kann im Release-Menü ‚(<Keys.HardKey>Release</Keys.HardKey> ged
 eine individuelle Relese-Zeit zuweisen ([Tab "Release"](playback-options.md#playback-options----tab-release) der Playback-Optionen).
 
 -   Um einen einzelnen Cue zu deaktivieren (‚Kill'), drücken Sie
-    gleichzeitig die <Keys.HardKey>AVO</Keys.HardKey>-Taste und die **Swop-Taste** des Cues.
+    gleichzeitig die <Keys.HardKey>AVO</Keys.HardKey>-Taste und die <strong>Swop-Taste</strong> des Cues.
 
 -   Man kann eine Maske definieren, die bestimmt, welche Attribute
     released werden sollen, wenn das Playback deaktiviert (killed) wird.
@@ -230,7 +230,7 @@ auf dem gleichen Fader aktiv sind.
 <Keys.SoftKey>Release All Playbacks In This Group</Keys.SoftKey> released alle Playbacks in der
 jeweiligen Fadergruppe.
 
-> **"Fader Group"** (Fadergruppe) bedeutet hier den jeweiligen Bereich von
+> <strong>"Fader Group"</strong> (Fadergruppe) bedeutet hier den jeweiligen Bereich von
 Fadern auf dem Pult, der getrennt Seiten wechseln kann. So sind etwa die
 10 Fader unterhalb des Displays auf dem Arena bzw. dem Tiger Touch eine
 Gruppe. Die 15 oberen sowie die 15 unteren Fader auf dem Tiger Touch
@@ -296,16 +296,16 @@ jeweils nur für das einzelne Gerät.
 Deaktivieren einzelner Geräte mit Off
 -------------------------------------
 
-Einzelne Geräte und Attribute können über das **Off**-Menü deaktiviert werden.
+Einzelne Geräte und Attribute können über das <strong>Off</strong>-Menü deaktiviert werden.
 Damit bleiben die Werte zwar im Playback enthalten, werden aber nicht abgerufen.
 Die programmierten Werte verbleiben dabei im Playback und können in der 
 Playback-Ansicht wieder auf On geschaltet, also aktiviert werden.
 
-Dazu drücken Sie die Taste <Keys.HardKey>Off</Keys.HardKey>, dann die **Select-Taste** des Playbacks. 
+Dazu drücken Sie die Taste <Keys.HardKey>Off</Keys.HardKey>, dann die <strong>Select-Taste</strong> des Playbacks. 
 Wählen Sie die betreffenden Geräte aus, stellen Sie im Menü die Attributmaske
 ein, und klicken Sie auf <Keys.SoftKey>Off</Keys.SoftKey>, um wie gewünscht Attribute/Geräte/Shapes 
 Off zu schalten.
 
-Auf Titan-Pulten mit **Release** und **Off** auf der gleichen Taste würde
+Auf Titan-Pulten mit <strong>Release</strong> und <strong>Off</strong> auf der gleichen Taste würde
 dies zum Releasen führen. Drücken Sie stattdessen <Keys.HardKey>Release/Off</Keys.HardKey>, dann 
 aus dem Menü <Keys.SoftKey>Off Playback Values</Keys.SoftKey>, und wählen Sie nun das Playback aus.

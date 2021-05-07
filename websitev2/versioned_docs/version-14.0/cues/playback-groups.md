@@ -77,18 +77,18 @@ at the bottom of the workspace.
 
 ![Playback groups options workspace](/docs/images/Playback-groups-options-workspace.png)
 
-- **Mutually Exclusive** switches the exclusive mode on and off. This allows you to temporarily disable the exclusive action of a group without deleting the group.
-- **Kill Point** sets when other playbacks in the group will be killed when you fire a new playback:  
+- <strong>Mutually Exclusive</strong> switches the exclusive mode on and off. This allows you to temporarily disable the exclusive action of a group without deleting the group.
+- <strong>Kill Point</strong> sets when other playbacks in the group will be killed when you fire a new playback:  
   <Keys.SoftKey>Fired</Keys.SoftKey> - as soon as the playback passes the trigger point  
   <Keys.SoftKey>Fade Completed</Keys.SoftKey> – when the new playback has completed its fade in time.
 
-- **Kill Action** sets whether the playbacks being killed will use Release rules or not.  
+- <strong>Kill Action</strong> sets whether the playbacks being killed will use Release rules or not.  
   <Keys.SoftKey>Follow Playback</Keys.SoftKey> - each killed playback uses its own settings for release.  
   <Keys.SoftKey>Kill</Keys.SoftKey> - playbacks are always killed without any release.  
   <Keys.SoftKey>Release</Keys.SoftKey> – playbacks are always released using the settings in the mask and time below  
   <Keys.SoftKey>Release HTP</Keys.SoftKey> – HTP channels are released but LTP channels are killed.  
   
-- **Release Mask**, **Release Time** allow you to override the release settings for killed playbacks. 
+- <strong>Release Mask</strong>, <strong>Release Time</strong> allow you to override the release settings for killed playbacks. 
   If set to the default of <Keys.SoftKey>Playback</Keys.SoftKey> then the playback’s own settings are used. 
 
 Playback Group Workspace Display Options

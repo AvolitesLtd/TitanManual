@@ -23,7 +23,7 @@ oder Sie benutzen die [<Keys.HardKey>Include</Keys.HardKey>](../cues/editing-cue
 1. Drücken Sie die Taste <Keys.HardKey>Record</Keys.HardKey>, dann <Keys.SoftKey>Chase</Keys.SoftKey> (oder 2x <Keys.HardKey>Record</Keys.HardKey>). 
 *(Ältere Pulte haben dafür die Taste <Keys.HardKey>Record Chase</Keys.HardKey>).*
 
-2. Drücken Sie die **Swop**-Taste des Playbacks, auf das Sie den Chaser
+2. Drücken Sie die <strong>Swop</strong>-Taste des Playbacks, auf das Sie den Chaser
 speichern möchten *(ebenso lassen sich Chaser auf die Schaltflächen im
 'Playbacks'-Fenster speichern)*.
 
@@ -34,7 +34,7 @@ manuell, oder unter Verwendung bestehender Cues mittels der
 4. Die Nummer des aktuellen Schrittes lässt sich mit <Keys.SoftKey>Step Number</Keys.SoftKey>
 ändern.
 
-5. Betätigen Sie die **Swop**-Taste des Playbacks, um den Inhalt des
+5. Betätigen Sie die <strong>Swop</strong>-Taste des Playbacks, um den Inhalt des
 Programmierspeichers als Schritt eines Chasers zu speichern. Alternativ
 können Sie <Keys.SoftKey>Append Step</Keys.SoftKey> (Schritt anfügen) aus dem Menü verwenden.
 
@@ -77,7 +77,7 @@ gespeichert haben.
 	aus dem vorherigen Schritt übernommen und nicht modifiziert wurde.)*
 
 -   Dem Chaser kann eine Bezeichnung zugeordnet werden: drücken Sie dazu
-    <Keys.SoftKey>Set Legend</Keys.SoftKey>, und dann die **Swop**-Taste des Chasers, um dann,
+    <Keys.SoftKey>Set Legend</Keys.SoftKey>, und dann die <strong>Swop</strong>-Taste des Chasers, um dann,
     wie auch bei Cues, die Bezeichnung einzugeben.
 
 -   Chaser können aus einer unbegrenzten Anzahl von Schritten bestehen.
