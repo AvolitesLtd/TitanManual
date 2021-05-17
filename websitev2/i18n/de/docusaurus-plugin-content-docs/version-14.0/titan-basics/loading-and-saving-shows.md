@@ -6,6 +6,7 @@ original_id: loading-and-saving-shows
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Eine beliebige Anzahl von Shows lässt sich sowohl auf einem externen
 USB-Speicher als auch auf der internen Festplatte abspeichern. Außerdem

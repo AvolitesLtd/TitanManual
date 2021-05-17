@@ -6,6 +6,7 @@ original_id: tnp-slave-mode
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Normally the TNP screen shows the "Home screen" which displays the
 connection status and IP address of the two Ethernet ports on the

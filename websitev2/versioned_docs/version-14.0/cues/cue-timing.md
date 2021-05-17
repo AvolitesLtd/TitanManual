@@ -6,6 +6,7 @@ original_id: cue-timing
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The console allows a wide variety of timing functions for each cue.
 
@@ -246,7 +247,7 @@ times.
 -   <Keys.HardKey>1</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>10</Keys.HardKey> = times spread across fixtures according to selection
     order
 
-[](https://youtu.be/GHq9b3PT8U0?t=20 "Timing Syntax")
+<Video videoId="GHq9b3PT8U0" title="Timing Syntax" />
 
 Individual attribute times can also be set from the wheels, using the
 <Keys.SoftKey>Wheels</Keys.SoftKey> softkey option on the root menu.

@@ -6,6 +6,7 @@ original_id: a-quick-guide-to-ip-addressing
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 This section attempts to explain the basics of IP addressing, and what
 you will need to know when setting up a lighting control network.

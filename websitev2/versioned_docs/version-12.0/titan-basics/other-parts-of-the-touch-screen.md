@@ -6,6 +6,7 @@ original_id: other-parts-of-the-touch-screen
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Menu/Softkeys
 -----------------

@@ -6,6 +6,7 @@ original_id: effects
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The <strong>Shape Generator</strong> in Titan (sometimes known as an Effects Generator on
 other consoles) allows you to quickly create exciting light shows using

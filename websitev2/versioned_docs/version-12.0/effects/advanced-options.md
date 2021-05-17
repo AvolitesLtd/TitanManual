@@ -6,6 +6,7 @@ original_id: advanced-options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Fading Shape Size and Speed
 ---------------------------

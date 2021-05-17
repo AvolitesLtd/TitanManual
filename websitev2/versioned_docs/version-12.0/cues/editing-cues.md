@@ -6,6 +6,7 @@ original_id: editing-cues
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Editing a Cue by Merging
 ------------------------

@@ -6,6 +6,7 @@ original_id: external-displays
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 For extra workspace you can connect another display to the DVI port(s)
 on the console *(VGA on Pearl Expert and Tiger Touch 1)*. The Sapphire

@@ -6,6 +6,7 @@ original_id: multi-user-operation
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Es lassen sich mehrere Pulte zum gemeinsamen Steuern einer Show
 verbinden. Ebenso lassen sich mehrere Benutzer - auch auf ein und

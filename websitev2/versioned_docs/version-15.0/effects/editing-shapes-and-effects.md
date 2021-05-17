@@ -5,6 +5,7 @@ sidebar_label: Editing Shapes and Effects
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Editing a Live Running Shape
 ----------------------------

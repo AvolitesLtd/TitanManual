@@ -6,6 +6,7 @@ original_id: upgrading-the-software
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The console operating software is under constant revision by the
 Avolites team. You can always download the latest version of the

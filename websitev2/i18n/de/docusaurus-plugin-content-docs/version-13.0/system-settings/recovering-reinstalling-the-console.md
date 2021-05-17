@@ -6,6 +6,7 @@ original_id: recovering-reinstalling-the-console
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 **Dieser Abschnitt gilt nicht für die Titan PC Suite, sondern nur für
 alle größeren Titan-Pulte**.

@@ -5,6 +5,7 @@ sidebar_label: Multi-User Operation
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 You can connect multiple consoles together to work together on a show.
 You can also have multiple user setups on a show on a single console to

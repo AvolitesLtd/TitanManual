@@ -6,6 +6,7 @@ original_id: t1-and-t2
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 T1 und T2 sind USB-Dongles zum Betrieb an einem Windows-Computer (PC oder
 Laptop). Zu den Systemanforderungen siehe [Inbetriebnahme von Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2). T1 und T2 enthalten jeweils den AvoKey.

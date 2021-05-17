@@ -5,6 +5,7 @@ sidebar_label: DMX Output Mapping
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 There are various ways to connect fixtures to the console. As well as
 the XLR sockets on the console, [you can connect fixtures using Ethernet](../networking/controlling-fixtures-over-a-network.md)

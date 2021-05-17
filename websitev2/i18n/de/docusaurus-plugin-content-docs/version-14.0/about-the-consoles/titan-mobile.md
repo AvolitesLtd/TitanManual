@@ -6,6 +6,7 @@ original_id: titan-mobile
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Das Titan Mobile ist ein PC-Wing, der mittels USB an einen Computer
 angeschlossen wird, auf dem die Titan-Software läuft. Zu den 

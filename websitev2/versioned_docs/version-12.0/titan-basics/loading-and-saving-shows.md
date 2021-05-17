@@ -6,6 +6,7 @@ original_id: loading-and-saving-shows
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 You can save any number of different shows on a USB drive or the
 console's internal hard disk. The console will also autosave the show

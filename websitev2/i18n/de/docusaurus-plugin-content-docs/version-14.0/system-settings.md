@@ -6,6 +6,7 @@ original_id: system-settings
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Titan bietet eine Vielzahl von Optionen, um es den jeweiligen
 Anforderungen entsprechend konfigurieren zu können. Auf häufig benötigte

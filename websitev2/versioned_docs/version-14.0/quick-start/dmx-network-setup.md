@@ -6,6 +6,7 @@ original_id: dmx-network-setup
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The console can output up to 16 universes of DMX (called DMX Lines)
 which may be routed to the XLR sockets on the console or over Ethernet

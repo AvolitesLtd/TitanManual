@@ -6,6 +6,7 @@ description: Pearl Expert and Touch Wing - console design and features
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 ![Pearl Expert](/docs/images/Pearl-Expert.png)
 

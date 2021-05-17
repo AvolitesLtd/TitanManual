@@ -6,6 +6,7 @@ original_id: about-the-consoles
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 This manual is a reference guide to all the functions of Titan consoles.
 

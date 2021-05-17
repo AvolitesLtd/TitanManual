@@ -5,6 +5,7 @@ sidebar_label: Timelines introduction
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Timelines allow you to create a precisely timed sequence which you can either
 run from the console's internal timer or synchronise to an external timecode

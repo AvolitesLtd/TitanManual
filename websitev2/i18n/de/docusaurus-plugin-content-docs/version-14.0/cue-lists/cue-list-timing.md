@@ -6,6 +6,7 @@ original_id: cue-list-timing
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Zeit- und Überblendoptionen für Cuelisten
 -----------------------------------------
@@ -145,7 +146,7 @@ angewendet. Genauer ist dies in [Einstellen von Überblendzeiten und Gerätevers
 Steuern einer Cueliste per Timecode
 -----------------------------------
 
-[](https://youtu.be/1abZT_ffIvs?t=20 "Recording Timecode")
+<Video videoId="1abZT_ffIvs" title="Recording Timecode" />
 
 In den Titan-Pulten lässt sich auch Timecode zum Steuern einer Cueliste
 verwenden. Dies ist hilfreich etwa bei komplexen Shows, die stets

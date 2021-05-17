@@ -6,6 +6,7 @@ original_id: t1-and-t2
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 T1 and T2 are USB dongles which plug into a PC or laptop (Windows 7 or
 above, 64 bit). Both dongles include an AvoKey.

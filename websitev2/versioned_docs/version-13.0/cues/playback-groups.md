@@ -6,6 +6,7 @@ original_id: playback-groups
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Playbacks can be linked in groups. Playback groups are useful if you want 
 to have a set of mutually exclusive playbacks where only one in the group 

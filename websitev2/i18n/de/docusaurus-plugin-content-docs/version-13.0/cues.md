@@ -6,6 +6,7 @@ original_id: cues
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Nun haben Sie das gewünschte Licht auf der Bühne erstellt und möchten
 die Einstellung gern speichern und später wieder aufrufen. Dabei gibt es

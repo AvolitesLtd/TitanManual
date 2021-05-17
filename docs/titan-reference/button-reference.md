@@ -5,6 +5,7 @@ sidebar_label: Button reference
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 This section lists all the physical buttons and tells you what they do. The <strong>links</strong> take you to the section of the manual where the function is explained in more detail. Some consoles may not have all these buttons.
 

@@ -5,6 +5,7 @@ sidebar_label: Theatre Programming
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 If you are used to programming other theatre-style consoles, you will be
 more familiar with using a keypad/syntax style interface, rather than the Titan

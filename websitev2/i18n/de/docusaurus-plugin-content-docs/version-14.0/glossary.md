@@ -6,6 +6,7 @@ original_id: glossary
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Hier werden die wichtigsten Fachbegriffe aufgelistet und erklärt, die
 bei der Arbeit mit Avolites-Pulten sowie in diesem Handbuch vorkommen.

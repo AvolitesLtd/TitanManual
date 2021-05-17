@@ -6,6 +6,7 @@ original_id: fixture-personality-options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Titan benutzt ein System von 'Personalities', gerätespezifische Dateien,
 welche notwendige Informationen enthalten, wie welches Movinglight 

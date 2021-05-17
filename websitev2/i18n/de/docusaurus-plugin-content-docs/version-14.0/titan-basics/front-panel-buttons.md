@@ -6,6 +6,7 @@ original_id: front-panel-buttons
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Die den Fadern zugeordneten blauen und grauen Tasten sowie die
 Macro/Executor-Tasten sind weitgehend frei zu konfigurieren.

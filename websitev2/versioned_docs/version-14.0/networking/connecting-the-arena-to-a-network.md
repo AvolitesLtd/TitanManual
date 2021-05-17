@@ -6,6 +6,7 @@ original_id: connecting-the-arena-to-a-network
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Arena console is different to the other Titan consoles because it
 has a built-in network switch and an optical network connection

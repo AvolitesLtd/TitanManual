@@ -6,6 +6,7 @@ original_id: release-notes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Release Notes contain details about features added, improvements,
 bugs fixed and known issues in each release of the console software.

@@ -5,6 +5,7 @@ sidebar_label: Front Panel Buttons
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Select and Flash buttons associated with fader handles, and the
 macro/executor buttons are configurable and you can use them in various

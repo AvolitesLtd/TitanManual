@@ -6,11 +6,12 @@ original_id: pixel-mapper
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Creating Pixel Mapper effects
 -----------------------------
 
-[](https://youtu.be/UchvGw2vvU8?t=20 "Pixel Mapping")
+<Video videoId="UchvGw2vvU8" title="Pixel Mapping" />
 
 The Pixel Mapper works on a group of fixtures, which you have set up
 using the
@@ -237,7 +238,7 @@ editor window.
 
 > Layer masters may require an updated personality file
 
-[](https://youtu.be/rCIIH2-DCNM?t=20 "Advanced Pixel Mapping")
+<Video videoId="rCIIH2-DCNM" title="Advanced Pixel Mapping" />
 
 Stopping pixel map effects with Mask FX
 --------------------------

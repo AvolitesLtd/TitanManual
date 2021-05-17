@@ -6,6 +6,7 @@ original_id: dmx-network-setup
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Die intern verwendeten 16 DMX-Universen können über die XLR-Buchsen oder
 über Netzwerk ausgegeben werden (der T1 ist auf ein DMX-Universum

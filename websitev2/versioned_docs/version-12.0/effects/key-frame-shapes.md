@@ -6,6 +6,7 @@ original_id: key-frame-shapes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Key frame shapes allow you to create your own shape sequences. You store
 a series of attribute settings as key frames and the shape fades between

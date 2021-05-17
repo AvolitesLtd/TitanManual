@@ -6,6 +6,7 @@ original_id: release-notes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Die Release Notes sind eine Übersicht über neu hinzugefügte Features,
 Verbesserungen, behobene Fehler sowie bekannte Probleme der jeweiligen

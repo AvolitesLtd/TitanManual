@@ -5,6 +5,7 @@ sidebar_label: Creating a Timeline
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 You can create a timeline by using Live Record mode, by entering triggers manually at specified times, or a combination of the two.
 

@@ -5,6 +5,7 @@ sidebar_label: Editing Cues
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Editing a Cue by Merging
 ------------------------
@@ -237,7 +238,7 @@ will be loaded into the programmer.
 Deactivate Attributes from Cues Using "Off"
 -------------------------------------------
 
-[](https://youtu.be/p7Ffz4e4tws?t=20 "Off")
+<Video videoId="p7Ffz4e4tws" title="Off" />
 
 The <Keys.HardKey>Off</Keys.HardKey> button allows you to temporarily deactivate an attribute which has been
 stored in a cue, as if you'd never recorded it. You can activate it again later.

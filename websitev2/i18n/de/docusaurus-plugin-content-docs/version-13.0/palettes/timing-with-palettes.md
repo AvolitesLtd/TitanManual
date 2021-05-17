@@ -6,6 +6,7 @@ original_id: timing-with-palettes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 [Paletten können gleich mit Zeiten gespeichert werden](creating-palettes.md#erstellen-einer-palette-mit-zeiten);
 alternativ kann beim Abruf einer Palette eine Zeit vorgegeben oder die
@@ -33,7 +34,7 @@ mit Zeiten gestartet).
 Überschreiben von Palettenzeiten
 --------------------------------
 
-[](https://youtu.be/FF8szWCpVkE?t=135 "Overriding Palette Times")
+<Video videoId="FF8szWCpVkE" title="Overriding Palette Times" />
 
 Das Überschreiben von Palettenzeiten ist hilfreich, um 'mal eben schnell
 eine Show zu drücken'. Wird eine Palette auf diesem Weg abgerufen, so

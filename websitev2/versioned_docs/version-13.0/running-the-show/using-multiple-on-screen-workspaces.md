@@ -6,6 +6,7 @@ original_id: using-multiple-on-screen-workspaces
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 On the screen you can configure different "workspaces" which store how
 the various windows are displayed. This allows you to quickly recall

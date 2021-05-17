@@ -6,11 +6,12 @@ original_id: using-palettes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Abrufen eines Palettenwertes
 ----------------------------
 
-[](https://youtu.be/_bmk7JEPpQo?t=20 "Palettes Playback")
+<Video videoId="_bmk7JEPpQo" title="Palettes Playback" />
 
 ### Abrufen von Tasten/Schaltflächen
 

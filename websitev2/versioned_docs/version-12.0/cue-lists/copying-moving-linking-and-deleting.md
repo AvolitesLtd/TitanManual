@@ -6,6 +6,7 @@ original_id: copying-moving-linking-and-deleting
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The [previous section](editing-cue-lists.md) also has other methods of [copying and moving
 individual cues within a cue list](editing-cue-lists.md#moving-and-copying-cues).

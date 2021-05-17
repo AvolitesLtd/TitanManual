@@ -6,6 +6,7 @@ original_id: theatre-programming
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Wenn Sie bereits mit anderen Theater-Lichtpulten gearbeitet haben, sind
 Sie vermutlich eher an das Arbeiten mit Tasten, Nummern und Befehlen als

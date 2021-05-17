@@ -5,6 +5,7 @@ sidebar_label: Cleaning the console
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Disconnect the console from the mains supply before cleaning.
 

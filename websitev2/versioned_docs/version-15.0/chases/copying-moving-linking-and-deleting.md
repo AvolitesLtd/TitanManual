@@ -5,6 +5,7 @@ sidebar_label: Copying, Moving, Linking and Deleting
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Copying or moving a chase
 -------------------------

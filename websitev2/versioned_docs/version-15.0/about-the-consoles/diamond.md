@@ -6,6 +6,7 @@ description: Diamond 9 - console design and features
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 ![Diamond9](/docs/images/Diamond-Main.png)
 

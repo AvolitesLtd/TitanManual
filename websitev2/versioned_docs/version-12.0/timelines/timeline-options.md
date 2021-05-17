@@ -5,6 +5,7 @@ sidebar_label: Timeline options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Timelines have a number of options which set how they operate.
 Press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey on the top level menu) then the <strong>select</strong> button for the timeline you wish to edit.

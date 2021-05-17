@@ -6,6 +6,7 @@ original_id: fader-wings
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 "Wings" bieten zusätzliche Bedienelemente wie Fader und Tasten, und sind
 je nach Einsatzzweck eine sinnvolle Ergänzung.

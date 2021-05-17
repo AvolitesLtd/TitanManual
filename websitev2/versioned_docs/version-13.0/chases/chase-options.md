@@ -6,6 +6,7 @@ original_id: chase-options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 To set options for a chase, press <Keys.SoftKey>Playback Options</Keys.SoftKey> on the root menu,
 then press the <strong>Select</strong> button of the playback to be edited. Options will

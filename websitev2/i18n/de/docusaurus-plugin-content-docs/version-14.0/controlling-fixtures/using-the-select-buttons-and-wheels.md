@@ -6,6 +6,7 @@ original_id: using-the-select-buttons-and-wheels
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 ## Dimmer und Geräte zum Steuern auswählen
 
@@ -782,7 +783,7 @@ Programmierspeicher geschrieben und entsprechend beim Speichern
 
 ## Geräte miteinander abgleichen
 
-[](https://youtu.be/xZrVhnY1hnA?t=20 "Align Fixtures")
+<Video videoId="xZrVhnY1hnA" title="Align Fixtures" />
 
 Die Werte einzelner Attribute lassen sich mit der 'Align'-Funktion von
 einem auf andere Geräte kopieren. So kann man etwa Geräte angleichen,

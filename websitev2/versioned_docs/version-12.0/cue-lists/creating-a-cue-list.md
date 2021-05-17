@@ -6,6 +6,7 @@ original_id: creating-a-cue-list
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Programming a Cue List
 ----------------------

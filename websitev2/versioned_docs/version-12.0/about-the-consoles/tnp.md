@@ -6,6 +6,7 @@ original_id: tnp
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 ![TNP](/docs/images/TNP.png)
 

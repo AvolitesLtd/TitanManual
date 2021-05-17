@@ -5,6 +5,7 @@ sidebar_label: Programming palettes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Set up the attributes to be recorded. If attribute is the same for all
 fixtures of one type (e.g. colour), only one fixture need be set up and

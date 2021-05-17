@@ -6,8 +6,9 @@ original_id: playback-options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
-[](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
+<Video videoId="Dz_lWDHukxo" title="Playback Options" />
 
 Zum Einstellen der Optionen eines Cues, einer Cueliste oder eines
 Chasers drücken Sie <Keys.SoftKey>Playback Options</Keys.SoftKey> im Hauptmenü und anschließend
@@ -77,7 +78,7 @@ Mode 1 | die Kanäle blenden in der vorgegebenen Zeit ein, HTP Kanäle blenden i
 Mode 2 | sowohl HTP- als auch LTP-Werte folgen dem Faderwert. *Sinnvoll z.B. zur Anwendung mit Pan und Tilt etwa auf einem Catwalk oder zur manuellen Steuerung der Farben bei RGB-Lampen.*
 Mode 3 | Crossfade (Überblendung). Sämtliche Kanäle, einschließlich der Helligkeit, blenden zu den Einstellungen des neuen Cues über, alle anderen noch aktiven Cues werden ausgeblendet und deaktiviert. Wird eine anderer Cue wieder benötigt, so bringen Sie dessen Regler auf '0' und dann wieder auf den gewünschten Wert. *Sinnvoll z.B. für eine Präsentationsstimmung, mit der alle anderen Playbacks ausgefadet werden.*
 
-[](https://youtu.be/2fwM5S8nX3k?t=20 "Playback Modes")
+<Video videoId="2fwM5S8nX3k" title="Playback Modes" />
 
 ### Run On Startup
 Ist dies eingeschaltet, so wird das Playback beim

@@ -6,6 +6,7 @@ original_id: workspace-windows
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Der Hauptbereich der Programmoberfläche
 enthält die Arbeitsfenster. Diese wiederum enthalten Buttons

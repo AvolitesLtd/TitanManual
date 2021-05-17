@@ -6,6 +6,7 @@ original_id: editing-shapes-and-effects
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Ändern eines gerade laufenden Shapes
 ------------------------------------

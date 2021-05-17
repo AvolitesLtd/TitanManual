@@ -6,6 +6,7 @@ original_id: cue-list-playback
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Abrufen einer Cueliste
 ----------------------
@@ -125,7 +126,7 @@ Release-Funktion belegen.
 Tracking
 --------
 
-[](https://youtu.be/B2fTri0G2-A?t=20 "Tracking in Cuelists")
+<Video videoId="B2fTri0G2-A" title="Tracking in Cuelists" />
 
 Normalerweise laufen Cuelisten im Tracking-Betrieb. Dabei werden nur
 Änderungen einzelner Werte aufgezeichnet und wiedergegeben. Alles andere

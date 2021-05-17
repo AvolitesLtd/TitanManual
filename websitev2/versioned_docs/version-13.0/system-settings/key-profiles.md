@@ -6,6 +6,7 @@ original_id: key-profiles
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The console allows you to reconfigure how the front panel buttons work
 to suit your method of working. You can save your settings as a Key
@@ -25,7 +26,7 @@ related to each playback fader.
 
 ## Creating and editing key profiles
 
-[](https://youtu.be/CxHQV4sP_sA?t=20 "Key Profiles")
+<Video videoId="CxHQV4sP_sA" title="Key Profiles" />
 
 To create or edit a profile, switch to System mode then select <Keys.SoftKey>Key
 Profiles</Keys.SoftKey>. You can then use the Manage Profiles menu to View, Edit,

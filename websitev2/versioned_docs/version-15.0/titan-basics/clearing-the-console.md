@@ -5,6 +5,7 @@ sidebar_label: Clearing the Console
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 When you start a new show on Titan it is usually a good idea to clear
 the console. All programming and patching is deleted, and user options

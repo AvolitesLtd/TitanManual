@@ -6,6 +6,7 @@ original_id: linking-pioneerdj-system-to-titan
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Mit der Software Pioneer Pro DJ Link Bridge können BPM-Master innerhalb
 von Titan durch geeignete Pioneer DJ-Systeme gesteuert werden. Die

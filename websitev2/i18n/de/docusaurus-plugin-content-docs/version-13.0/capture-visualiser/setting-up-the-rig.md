@@ -6,6 +6,7 @@ original_id: setting-up-the-rig
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Raum und Bühne
 --------------

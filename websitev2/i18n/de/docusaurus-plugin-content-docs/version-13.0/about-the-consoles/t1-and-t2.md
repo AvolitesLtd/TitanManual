@@ -6,6 +6,7 @@ original_id: t1-and-t2
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 T1 und T2 sind USB-Dongles zum Betrieb an einem Computer (PC oder
 Laptop) mit Windows 7 oder höher (64bit). Sie enthalten jeweils den

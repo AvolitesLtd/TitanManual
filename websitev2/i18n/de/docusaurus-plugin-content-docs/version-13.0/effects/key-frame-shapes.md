@@ -6,6 +6,7 @@ original_id: key-frame-shapes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Keyframe-Shapes gestatten es, eigene Sequenzen als Effekte zu nutzen.
 Dazu werden mehrere Attribut-Einstellungen gespeichert, zwischen denen
@@ -14,7 +15,7 @@ dann gewechselt und übergeblendet wird.
 Einen Keyframe-Shape erzeugen
 -----------------------------
 
-[](https://youtu.be/1nvLaipivhM?t=20 "Key Frame Shapes")
+<Video videoId="1nvLaipivhM" title="Key Frame Shapes" />
 
 Ein Keyframe-Shape wird so ähnlich wie ein [Chaser](../chases.md) erstellt, ist aber
 wesentlich flexibler, den es lässt sich sowohl der Überblend-Verlauf

@@ -6,6 +6,7 @@ original_id: arena
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Das Arena hat fünf grundsätzliche Bedienungsbereiche:
 

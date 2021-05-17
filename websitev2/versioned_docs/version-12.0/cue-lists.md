@@ -6,6 +6,7 @@ original_id: cue-lists
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Cue Lists (sometimes known as stacks or cue stacks) allow you to record
 a sequence of [cues](cues.md), each of which can have its own [timings](cue-lists/cue-list-timing.md) and can be

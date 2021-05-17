@@ -5,6 +5,7 @@ sidebar_label: Editing a Chase
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Opening a Chase for Editing
 ---------------------------

@@ -6,6 +6,7 @@ original_id: operating-the-remote
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Um sich mit dem Pult zu verbinden, starten Sie auf dem Mobilgerät die
 Titan Remote-App; nun werden die im Netzwerk gefundenen Pulte angezeigt

@@ -6,6 +6,7 @@ original_id: using-active-fixtures
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 CITP ist ein Protokoll zur Kommunikation von Geräten miteinander. Es
 wird häufig benutzt, um etwa Thumbnails oder Informationen über

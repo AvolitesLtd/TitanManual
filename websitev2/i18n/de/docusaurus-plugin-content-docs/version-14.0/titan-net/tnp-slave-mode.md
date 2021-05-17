@@ -6,6 +6,7 @@ original_id: tnp-slave-mode
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Normalerweise zeigt der TNP den 'Homescreen' mit Status und IP-Adressen
 der beiden Netzwerkports. Am oberen Rand sind verschiedene Buttons

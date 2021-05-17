@@ -6,6 +6,7 @@ original_id: connecting-the-arena-to-a-network
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Anders als die anderen Titan-Pulte verfügt das Arena über einen
 integrierten Netzwerkswitch und einen optischen Netzwerkschluss

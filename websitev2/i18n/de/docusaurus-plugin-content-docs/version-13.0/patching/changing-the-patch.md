@@ -6,6 +6,7 @@ original_id: changing-the-patch
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Die Patch-Ansicht (Patch View)
 ------------------------------
@@ -254,7 +255,7 @@ Informationen pro Kanal anzeigen.
 Geräte austauschen
 ------------------
 
-[](https://youtu.be/a_ES6UYQRJ4?t=20 "Advanced Patching")
+<Video videoId="a_ES6UYQRJ4" title="Advanced Patching" />
 
 Die Funktion 'Fixture Exchange' (Geräteaustausch) erlaubt es, in einer
 bestehenden Show Geräte mit anderen Modellen zu ersetzen und dabei

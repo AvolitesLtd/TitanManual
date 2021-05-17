@@ -6,6 +6,7 @@ original_id: using-palettes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Recalling a Palette Value
 -------------------------

@@ -6,6 +6,7 @@ original_id: shape-generator
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 [This video will show you how to use the softkeys to create some colour and movement shapes as well as showing how to edit them live](https://youtu.be/oTo6FxHD02o?t=20)
 

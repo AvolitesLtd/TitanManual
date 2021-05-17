@@ -6,6 +6,7 @@ original_id: capture-visualiser
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Zur Visualisierung haben die Titan-Pulte Capture integriert. Damit
 lassen sich die Lichtstimmungen realistisch simulieren -- eine große

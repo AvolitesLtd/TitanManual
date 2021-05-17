@@ -5,6 +5,7 @@ sidebar_label: Network ports used by Titan
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Titan uses the following ports over the network. If your network
 includes firewalls you might need to know these so you can set up rules for them.

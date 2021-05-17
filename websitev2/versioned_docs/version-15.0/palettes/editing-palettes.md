@@ -5,6 +5,7 @@ sidebar_label: Editing Palettes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Viewing and Editing the Content of Palettes
 -------------------------------------------

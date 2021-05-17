@@ -6,6 +6,7 @@ original_id: titan-basics
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 In diesem Abschnitt wird das Anschließen des Pultes sowie die
 grundlegende Bedienung erläutert.

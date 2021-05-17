@@ -6,6 +6,7 @@ original_id: patching-fixtures
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Press <Keys.HardKey>Patch</Keys.HardKey>, <Keys.SoftKey>Dimmers</Keys.SoftKey> or <Keys.SoftKey>Fixtures</Keys.SoftKey>.
 

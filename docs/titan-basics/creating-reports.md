@@ -5,6 +5,7 @@ sidebar_label: Creating Reports
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 When preparing a show it is often useful to create a report of how the
 show is patched or programmed on the console, for example to give to a

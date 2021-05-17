@@ -5,6 +5,7 @@ sidebar_label: Patching
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Patching is the process where you tell the console
 

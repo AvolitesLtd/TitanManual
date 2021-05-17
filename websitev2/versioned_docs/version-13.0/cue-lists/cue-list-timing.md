@@ -6,6 +6,7 @@ original_id: cue-list-timing
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Time and Fade Options for Cue Lists
 -----------------------------------
@@ -171,7 +172,7 @@ Press <Keys.HardKey>Exit</Keys.HardKey> to finish setting the fixture order.
 Running a Cue List to Timecode
 ------------------------------
 
-[](https://youtu.be/1abZT_ffIvs?t=20 "Recording Timecode")
+<Video videoId="1abZT_ffIvs" title="Recording Timecode" />
 
 The console can run a cue list automatically to a timecode. This is very
 useful for complex performances which must be exactly the same time

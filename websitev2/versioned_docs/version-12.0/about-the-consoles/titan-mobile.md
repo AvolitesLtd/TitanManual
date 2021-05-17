@@ -6,6 +6,7 @@ original_id: titan-mobile
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Titan Mobile is a USB wing which plugs into a PC or laptop (Windows 7 or
 above, 64 bit) running the Titan software.

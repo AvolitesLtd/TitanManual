@@ -5,11 +5,12 @@ sidebar_label: Creating a Chase
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Programming a Chase
 -------------------
 
-[](https://youtu.be/M0h5zV4S_OI?t=20 "Recording a Chase")
+<Video videoId="M0h5zV4S_OI" title="Recording a Chase" />
 
 To program a chase, you have to set up the look for each cue in the
 chase, then save it.

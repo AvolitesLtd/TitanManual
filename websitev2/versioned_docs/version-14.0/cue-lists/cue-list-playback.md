@@ -6,6 +6,7 @@ original_id: cue-list-playback
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Running a Cue List
 ------------------
@@ -112,7 +113,7 @@ release the cue list.
 Tracking
 --------
 
-[](https://youtu.be/B2fTri0G2-A?t=20 "Tracking in Cuelists")
+<Video videoId="B2fTri0G2-A" title="Tracking in Cuelists" />
 
 By default, cue lists run in tracking mode. Only changes in attributes
 are stored, everything else just continues at the level it was

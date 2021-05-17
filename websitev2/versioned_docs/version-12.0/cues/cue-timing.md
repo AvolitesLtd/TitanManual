@@ -6,6 +6,7 @@ original_id: cue-timing
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The console allows a wide variety of timing functions to be set for each
 cue.

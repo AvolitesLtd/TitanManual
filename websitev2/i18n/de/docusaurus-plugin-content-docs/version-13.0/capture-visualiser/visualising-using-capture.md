@@ -6,6 +6,7 @@ original_id: visualising-using-capture
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Es sind keine besonderen Einstellungen erforderlich, um Capture zu
 verwenden. Bedienen Sie einfach da Pult wie gewohnt, und Capture zeigt

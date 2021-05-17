@@ -6,6 +6,7 @@ original_id: creating-a-cue
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Arbeitsweise des Pultes beim Programmieren
 ------------------------------------------
@@ -46,7 +47,7 @@ Programmierspeicher übernommen *(das lässt sich jedoch durch die
 Anlegen eines Cues
 ------------------
 
-[](https://youtu.be/X5g6DMVwlZU?t=20 "Creating a Cue")
+<Video videoId="X5g6DMVwlZU" title="Creating a Cue" />
 
 1. Drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, um den Programmierspeicher zu leeren.\
 *Damit wird eine saubere Arbeitsumgebung sichergestellt.*

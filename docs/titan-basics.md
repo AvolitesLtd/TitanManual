@@ -5,6 +5,7 @@ sidebar_label: Connecting up and Titan basics
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 This section covers how to connect the console up, and the basic things
 you need to know about operating Titan.

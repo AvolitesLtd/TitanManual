@@ -5,6 +5,7 @@ sidebar_label: Playback controls
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Back up the show
 ----------------
@@ -51,7 +52,7 @@ it as a master. Press the Display button below the encoders to show legends for 
 Speed and Size Masters
 ----------------------
 
-[](https://youtu.be/e5rQAmTCfs0?t=20 "Speed and Size Masters")
+<Video videoId="e5rQAmTCfs0" title="Speed and Size Masters" />
 
 Playbacks can be assigned to a <strong>Speed Master</strong> and/or a <strong>Size Master</strong> which allow you to control the speed and size of shapes or effects stored in a cue (or in the case of chases, to modify the speed of the chase).
 
@@ -258,7 +259,7 @@ If a Flash Master is configured, this will also master the group flash.
 Scene Master
 ------------
 
-[](https://youtu.be/zn_jd1zba7E?t=20 "Scene Masters")
+<Video videoId="zn_jd1zba7E" title="Scene Masters" />
 
 The Scene Master allows you to preset an output state by firing a number of playbacks or making live changes, using the visualiser to see the effects but without anything happening on stage. When you are ready for the new state, you fade the Scene Master fader to the other end of its travel and the new state is output.
 

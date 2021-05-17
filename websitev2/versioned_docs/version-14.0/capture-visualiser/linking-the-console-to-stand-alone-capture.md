@@ -6,6 +6,7 @@ original_id: linking-the-console-to-stand-alone-capture
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Sometimes the extra capabilities of the full version of Capture are
 needed, and the console is linked to a PC running full Capture. The

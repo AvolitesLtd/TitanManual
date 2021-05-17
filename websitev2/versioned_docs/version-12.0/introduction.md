@@ -6,6 +6,7 @@ original_id: introduction
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 This section is a quick guide on how to do most things on Avolites Titan
 consoles. Each section has a link to take you to the appropriate manual

@@ -6,6 +6,7 @@ original_id: creating-palettes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Attribute zum Speichern in Paletten
 -----------------------------------
@@ -54,7 +55,7 @@ sonst als globale Palette speichern würde.
 Speichern einer Palette
 -----------------------
 
-[](https://youtu.be/Hs-xzpD5x8k?t=20 "Recording Palettes")
+<Video videoId="Hs-xzpD5x8k" title="Recording Palettes" />
 
 Zum Speichern einer Palette in eines der Palettenfenster gehen Sie wie folgt vor 
 *(werden die Palettenfenster nicht angezeigt, so klicken Sie auf den 

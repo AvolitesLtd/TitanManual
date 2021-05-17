@@ -6,11 +6,12 @@ original_id: creating-a-cue-list
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Programmieren einer Cueliste
 ----------------------------
 
-[](https://youtu.be/Kp6XhdG6keM?t=20 "Cuelist Basics")
+<Video videoId="Kp6XhdG6keM" title="Cuelist Basics" />
 
 Das Programmieren einer Cueliste gleicht dem [Programmieren eines
 Chasers](../chases/creating-a-chase.md).

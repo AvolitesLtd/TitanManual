@@ -5,6 +5,7 @@ sidebar_label: Running and Editing Timelines
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Running a timeline to timecode
 ------------------

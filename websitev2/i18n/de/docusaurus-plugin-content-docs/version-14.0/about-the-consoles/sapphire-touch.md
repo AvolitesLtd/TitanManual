@@ -7,6 +7,7 @@ original_id: sapphire-touch
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 ![Sapphire Touch](/docs/images/Sapphire-Touch.png)Das Sapphire Touch hat vier grundsätzliche Bedienungsbereiche:
 

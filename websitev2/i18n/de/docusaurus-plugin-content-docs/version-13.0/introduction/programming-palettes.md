@@ -6,6 +6,7 @@ original_id: programming-palettes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Stellen Sie die zu speichernden Attribute wie gewünscht ein. Ist ein
 Attribut bei allen Geräten dieses Typs gleich (etwa Farben oder

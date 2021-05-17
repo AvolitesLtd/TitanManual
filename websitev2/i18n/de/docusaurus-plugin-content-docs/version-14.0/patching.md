@@ -6,6 +6,7 @@ original_id: patching
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Patchen ist der Prozess, mit dem Pult mitgeteilt wird
 

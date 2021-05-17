@@ -5,11 +5,12 @@ sidebar_label: Creating a Cue List
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Programming a Cue List
 ----------------------
 
-[](https://youtu.be/Kp6XhdG6keM?t=20 "Cuelist Basics")
+<Video videoId="Kp6XhdG6keM" title="Cuelist Basics" />
 
 Programming a cue list is similar to [recording a chase](../chases/creating-a-chase.md).
 

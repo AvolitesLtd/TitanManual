@@ -6,6 +6,7 @@ original_id: user-settings
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The User Settings menu may be accessed from the System mode menu, and
 also from Program mode: hold down the <Keys.HardKey>Avo</Keys.HardKey> Shift button and press

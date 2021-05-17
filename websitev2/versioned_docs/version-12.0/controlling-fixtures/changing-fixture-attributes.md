@@ -5,6 +5,7 @@ sidebar_label: Changing Fixture Attributes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Once you have selected the fixtures you want to operate, you then
 have various options for controlling them.
@@ -365,7 +366,7 @@ also been modified.
 
 ## Align Fixtures
 
-[](https://youtu.be/xZrVhnY1hnA?t=20 "Align Fixtures")
+<Video videoId="xZrVhnY1hnA" title="Align Fixtures" />
 
 You can copy attributes from one fixture to another using the Align
 Fixtures function. This is useful for example if you

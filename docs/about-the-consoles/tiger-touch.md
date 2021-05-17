@@ -6,6 +6,7 @@ description: Tiger Touch - console design and features
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 ![Tiger Touch](/docs/images/Tiger-Touch.png)
 

@@ -6,6 +6,7 @@ original_id: using-active-fixtures
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 CITP is a standard system allowing lighting devices to communicate and
 share information. This is often used with media servers to allow the

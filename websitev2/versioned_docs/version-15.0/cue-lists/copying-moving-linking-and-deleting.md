@@ -5,6 +5,7 @@ sidebar_label: Copying, Moving, Linking and Deleting Cue Lists
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 This section describes how to copy, move and delete entire cue lists. 
 The [Editing Cue Lists](editing-cue-lists.md) section describes how you [copy, move and delete

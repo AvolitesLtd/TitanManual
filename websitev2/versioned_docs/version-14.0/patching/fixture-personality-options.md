@@ -6,6 +6,7 @@ original_id: fixture-personality-options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Titan uses fixture personalities to tell the console how to operate each
 type of fixture. Avolites have created personalities for most fixture types in 

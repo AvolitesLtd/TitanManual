@@ -5,6 +5,7 @@ sidebar_label: Fixture Advanced Options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Fixture macros and Lamping fixtures on and off
 ---------------------------

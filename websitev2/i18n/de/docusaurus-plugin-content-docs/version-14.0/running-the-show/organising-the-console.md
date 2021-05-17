@@ -6,6 +6,7 @@ original_id: organising-the-console
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Wenn im Laufe des Programmierens die Anordnung von Paletten, Geräten und
 Speicherplätzen etwas unübersichtlich geworden ist, ist es an der Zeit,

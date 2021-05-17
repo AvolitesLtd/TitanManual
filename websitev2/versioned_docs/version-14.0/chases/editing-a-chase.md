@@ -6,6 +6,7 @@ original_id: editing-a-chase
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Opening a Chase for Editing
 ---------------------------

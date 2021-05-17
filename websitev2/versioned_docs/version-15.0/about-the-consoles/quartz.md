@@ -6,6 +6,7 @@ description: Quartz - console design and features
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 ![Quartz](/docs/images/Quartz.png)
 

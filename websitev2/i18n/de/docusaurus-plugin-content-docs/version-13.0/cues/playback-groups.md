@@ -6,6 +6,7 @@ original_id: playback-groups
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Playbacks können in Gruppen zusammengefasst werden. Dies ist sinnvoll,
 wenn von mehreren Playbacks immer nur eins als aktiv angezeigt werden

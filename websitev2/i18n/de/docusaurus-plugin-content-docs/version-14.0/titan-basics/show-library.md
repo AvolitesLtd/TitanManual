@@ -6,6 +6,7 @@ original_id: show-library
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Im Fenster 'Show Library' (Show-Verzeichnis) werden sämtliche Details
 und Bestandteile der programmierten Show übersichtlich angezeigt. Dies

@@ -6,6 +6,7 @@ original_id: midi-dmx-or-audio-triggering
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 You can set up the console to allow most features to be triggered by
 external events. This is very useful in complex shows or when using in

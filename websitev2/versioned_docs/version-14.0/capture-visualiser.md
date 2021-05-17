@@ -6,6 +6,7 @@ original_id: capture-visualiser
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Capture visualiser engine is integrated into the Titan consoles.
 This can provide a realistic simulation of your lighting which is really

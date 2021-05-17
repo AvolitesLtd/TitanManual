@@ -6,6 +6,7 @@ original_id: operating-synergy
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Once Titan and the Ai server(s) are [linked up](setting-up.md), you can start controlling
 Ai from the console.

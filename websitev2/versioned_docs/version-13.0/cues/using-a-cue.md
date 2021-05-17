@@ -6,6 +6,7 @@ original_id: using-a-cue
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Because it's possible to play back a large number of cues at the same
 time, the console has to have rules on how it combines the output from

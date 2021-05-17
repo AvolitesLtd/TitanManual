@@ -5,6 +5,7 @@ sidebar_label: Alphabetic Index
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 ## A
 [Actions for Buttons *(in "Key Profiles")*](./system-settings/key-profiles.md#actions-for-buttons)

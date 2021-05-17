@@ -5,6 +5,7 @@ sidebar_label: The System Menu
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The System menu is accessed by holding <Keys.HardKey>Avo</Keys.HardKey> and pressing <Keys.HardKey>Disk</Keys.HardKey>, or 
 on Titan Go you can press the <Keys.HardKey>System</Keys.HardKey> button. Some

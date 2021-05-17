@@ -5,6 +5,7 @@ sidebar_label: Linking Consoles for Multi-User or Backup
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 On large shows it is sometimes necessary to have multiple operators
 programming or running different aspects of the show. The Titan system

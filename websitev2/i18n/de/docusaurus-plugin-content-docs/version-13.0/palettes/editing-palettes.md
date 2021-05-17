@@ -6,6 +6,7 @@ original_id: editing-palettes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Anzeigen und Ändern einer Palette
 ---------------------------------

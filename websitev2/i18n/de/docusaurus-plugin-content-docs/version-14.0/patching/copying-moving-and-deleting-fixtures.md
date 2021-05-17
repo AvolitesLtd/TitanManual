@@ -6,6 +6,7 @@ original_id: copying-moving-and-deleting-fixtures
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Kopieren oder Verschieben eines gepatchten Gerätes
 --------------------------------------------------

@@ -5,6 +5,7 @@ sidebar_label: Controlling Fixtures over a Network
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Before the console can talk to another device over the network, it has
 to be given a unique network address. This is called its "IP address".

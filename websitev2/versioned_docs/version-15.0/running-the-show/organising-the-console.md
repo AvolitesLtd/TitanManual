@@ -5,6 +5,7 @@ sidebar_label: Organising the console
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 If the layout of the fixture buttons, palettes or playbacks has become a
 bit mixed up during programming, you can use the Move function to move

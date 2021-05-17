@@ -6,6 +6,7 @@ original_id: pearl-expert-and-touch-wing
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 ![Pearl Expert](/docs/images/Pearl-Expert.png)
 

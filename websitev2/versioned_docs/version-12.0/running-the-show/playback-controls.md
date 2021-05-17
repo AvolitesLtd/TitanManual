@@ -6,6 +6,7 @@ original_id: playback-controls
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Back up the show
 ----------------

@@ -6,6 +6,7 @@ original_id: controlling-fixtures
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Zum Steuern werden einzelne oder mehrere Geräte mit den
 Geräte-Schaltflächen ausgewählt. Die Buttons der ausgewählten Geräte

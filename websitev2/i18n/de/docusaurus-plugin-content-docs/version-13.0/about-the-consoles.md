@@ -6,6 +6,7 @@ original_id: about-the-consoles
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Diese Bedienungsanleitung dient als Referenz zu allen Funktionen der
 Titan-Pulte.

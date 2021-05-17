@@ -6,6 +6,7 @@ original_id: titan-net
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Ein TNP (Titan Net Processor) kann entweder als Slave weitere DMX-Linien
 für ein Titan-Pult bereitstellen, oder im Stand-Alone-Modus als kompakte

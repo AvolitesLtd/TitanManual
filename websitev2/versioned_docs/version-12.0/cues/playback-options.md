@@ -6,6 +6,7 @@ original_id: playback-options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 [Video covering Playback Options](https://youtu.be/Dz_lWDHukxo?t=20)
 

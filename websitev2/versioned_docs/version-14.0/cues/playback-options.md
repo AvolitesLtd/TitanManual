@@ -6,8 +6,9 @@ original_id: playback-options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
-[](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
+<Video videoId="Dz_lWDHukxo" title="Playback Options" />
 
 To set options for a cue, chase or cue list, press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey
 on the top level menu), then press the <strong>Select</strong> button of the playback to be
@@ -159,7 +160,7 @@ Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to
 This is the same option as set in the [<Keys.SoftKey>Edit Times</Keys.SoftKey>
 menu](cue-timing.md).
 
-[](https://youtu.be/2fwM5S8nX3k?t=20 "Playback Modes")
+<Video videoId="2fwM5S8nX3k" title="Playback Modes" />
 
 ### Curve
 Allows you to set a different curve shape for this playback - curves

@@ -6,6 +6,7 @@ original_id: operating-synergy
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Sind Titan und Ai-Server einmal [verbunden](setting-up.md), so lässt 
 sich Ai sehr einfach von Titan aus steuern.

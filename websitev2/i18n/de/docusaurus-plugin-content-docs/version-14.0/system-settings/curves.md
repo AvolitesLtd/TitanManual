@@ -6,6 +6,7 @@ original_id: curves
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Für verschiedene Zwecke lässt sich aus einer Vielzahl von Kennlinien
 wählen, mit denen festgelegt wird, wie die DMX-Werte den Reglerwerten

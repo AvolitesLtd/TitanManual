@@ -6,6 +6,7 @@ original_id: cue-list-options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
  
 Über das Menü [Options](../cues/playback-options.md) sind weitere Optionen 

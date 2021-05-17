@@ -5,6 +5,7 @@ sidebar_label: Fixture Groups
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Using Fixture Groups
 --------------------
@@ -28,7 +29,7 @@ the buttons using [Key Profiles](../system-settings/key-profiles.md).
 
 ### Record a Group
 
-[](https://youtu.be/E8QxOKT5TCA?t=20 "Recording Groups")
+<Video videoId="E8QxOKT5TCA" title="Recording Groups" />
 
 If the Groups window is not visible, you can show it by pressing
 <Keys.HardKey>Open/View</Keys.HardKey>, <Keys.HardKey>Group</Keys.HardKey> (above numeric keys).
@@ -124,7 +125,7 @@ patterns.
 
 ### Fixture Order
 
-[](https://youtu.be/2TqYjvGoGXQ?t=20 "Fixture Order")
+<Video videoId="2TqYjvGoGXQ" title="Fixture Order" />
 
 To change the numerical fixture order:
 
@@ -144,7 +145,7 @@ show an X indicating that it is not part of the sequence.
 
 ### Fixture Layout
 
-[](https://youtu.be/9S5nQmVpPNs?t=20 "Fixture Layout")
+<Video videoId="9S5nQmVpPNs" title="Fixture Layout" />
 
 To change the 2D fixture layout:
 

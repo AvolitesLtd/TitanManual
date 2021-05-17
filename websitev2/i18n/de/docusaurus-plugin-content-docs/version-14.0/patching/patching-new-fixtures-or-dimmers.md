@@ -6,6 +6,7 @@ original_id: patching-new-fixtures-or-dimmers
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Gerätetasten und -buttons
 -------------------------

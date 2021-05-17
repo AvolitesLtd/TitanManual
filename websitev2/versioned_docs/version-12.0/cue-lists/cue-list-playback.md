@@ -6,6 +6,7 @@ original_id: cue-list-playback
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Running a Cue List
 ------------------

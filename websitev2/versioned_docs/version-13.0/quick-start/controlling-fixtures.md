@@ -5,6 +5,7 @@ sidebar_label: Controlling fixtures
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Select fixtures for control by pressing select buttons. Fixture buttons
 turn blue when selected.

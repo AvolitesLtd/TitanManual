@@ -6,6 +6,7 @@ original_id: fixture-groups
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Using Fixture Groups
 --------------------

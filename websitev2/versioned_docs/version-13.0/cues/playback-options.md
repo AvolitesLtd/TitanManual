@@ -6,8 +6,9 @@ original_id: playback-options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
-[](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
+<Video videoId="Dz_lWDHukxo" title="Playback Options" />
 
 To set options for a cue, chase or cue list, press <Keys.SoftKey>Playback Options</Keys.SoftKey>
 on the root menu, then press the <strong>select</strong> button of the playback to be
@@ -76,7 +77,7 @@ Mode 1 | HTP channels fade in and out as set by the fade out times (LTP channels
 Mode 2 | Both HTP and LTP channels follow the fader position. *Useful when used with a pan/tilt cue for manually tracking a spot across a stage or down a catwalk using the fader position or for mixing colours on RGB fixtures.*
 Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to the settings in the new cue. All other cues fade out and all other active playbacks become inactive; if you need to re-fire a playback, take the fader to zero and put it up again. *Useful for setting a video playback state.*
 
-[](https://youtu.be/2fwM5S8nX3k?t=20 "Playback Modes")
+<Video videoId="2fwM5S8nX3k" title="Playback Modes" />
 
 ### Run On Startup
 Sets this playback to run when the console powers

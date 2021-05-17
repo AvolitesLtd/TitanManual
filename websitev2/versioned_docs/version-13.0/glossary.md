@@ -6,6 +6,7 @@ original_id: glossary
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 This section explains what common lighting terminology means in Avolites Titan. In cases where other lighting equipment manufacturers use the words to mean something else, this is listed in the text.
 

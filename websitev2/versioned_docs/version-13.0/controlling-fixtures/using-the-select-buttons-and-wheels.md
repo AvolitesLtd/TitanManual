@@ -6,6 +6,7 @@ original_id: using-the-select-buttons-and-wheels
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 ## Selecting Fixtures and Dimmers for Control
 
@@ -769,7 +770,7 @@ removing fixtures from cues.
 
 ## Align Fixtures
 
-[](https://youtu.be/xZrVhnY1hnA?t=20 "Align Fixtures")
+<Video videoId="xZrVhnY1hnA" title="Align Fixtures" />
 
 You can copy attributes from one fixture to another using the Align
 Fixtures function. This is very useful, for example, if you've

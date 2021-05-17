@@ -6,6 +6,7 @@ original_id: external-displays
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Für mehr Platz auf dem Bildschirm (für mehr Fenster und Buttons) lässt
 sich ein externer Bildschirm anschließen: beim Tiger Touch und Pearl

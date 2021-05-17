@@ -6,6 +6,7 @@ original_id: quick-start
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Dieser Abschnitt soll einen schnellen Einstieg in Ihr Titan-Pult
 ermöglichen; dazu sind die meisten wichtigen Arbeitsschritte kurz

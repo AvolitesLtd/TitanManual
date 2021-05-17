@@ -6,6 +6,7 @@ original_id: changing-the-patch
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Patch View
 ----------

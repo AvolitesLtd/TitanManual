@@ -6,6 +6,7 @@ original_id: introduction
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Welcome to Avolites Titan! This manual aims to you tell you everything
 there is to know about operating your Avolites console.

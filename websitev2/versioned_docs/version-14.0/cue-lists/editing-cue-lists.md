@@ -6,6 +6,7 @@ original_id: editing-cue-lists
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 This section describes how to edit cues within a cue list. 
 To copy, move or delete an entire cue list see the section 

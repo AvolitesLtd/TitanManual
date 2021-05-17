@@ -5,6 +5,7 @@ sidebar_label: Copying, moving and deleting fixtures
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Copying or moving a patched fixture
 -----------------------------------

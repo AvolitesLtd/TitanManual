@@ -6,6 +6,7 @@ original_id: using-a-cue
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Da eine Vielzahl von Cues/Chasern gleichzeitig abgerufen werden kann,
 folgt das Pult bestimmten Regeln zur Kombination der aufgerufenen Werte

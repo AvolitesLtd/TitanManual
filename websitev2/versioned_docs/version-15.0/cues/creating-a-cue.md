@@ -5,6 +5,7 @@ sidebar_label: Creating a Cue
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 How Titan Works When Programming
 --------------------------------
@@ -49,7 +50,7 @@ You can also use Record Stage mode to record what you see on stage*).
 Creating a Cue
 --------------
 
-[](https://youtu.be/X5g6DMVwlZU?t=20 "Creating a Cue")
+<Video videoId="X5g6DMVwlZU" title="Creating a Cue" />
 
 1. Press <Keys.HardKey>Clear</Keys.HardKey> to clear the programmer.
 

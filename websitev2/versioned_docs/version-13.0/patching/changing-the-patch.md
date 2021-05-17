@@ -6,6 +6,7 @@ original_id: changing-the-patch
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Patch View
 ----------
@@ -233,7 +234,7 @@ about each DMX channel.
 Fixture Exchange
 ----------------
 
-[](https://youtu.be/a_ES6UYQRJ4?t=20 "Advanced Patching")
+<Video videoId="a_ES6UYQRJ4" title="Advanced Patching" />
 
 The Fixture Exchange function enables you to repatch fixtures in your
 show using alternative fixtures, retaining important elements such as

@@ -6,6 +6,7 @@ original_id: capture-visualiser
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Ab Software-Version 10 ist Capture als Visualiser in die Pulte
 integriert. Damit lassen sich die Lichtstimmungen realistisch simulieren

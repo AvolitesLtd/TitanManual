@@ -6,6 +6,7 @@ original_id: chase-playback
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Playing Back a Chase
 --------------------

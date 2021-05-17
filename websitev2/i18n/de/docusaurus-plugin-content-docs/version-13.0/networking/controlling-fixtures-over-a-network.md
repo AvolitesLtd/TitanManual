@@ -6,6 +6,7 @@ original_id: controlling-fixtures-over-a-network
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Bevor das Pult mit anderen Geräten über ein Netzwerk kommunizieren kann,
 muss es eine eindeutige Netzwerkadresse bekommen; diese wird

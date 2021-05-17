@@ -6,6 +6,7 @@ original_id: playback-controls
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Sichern der Show
 ----------------
@@ -77,7 +78,7 @@ durchgeschaltet).
 Speed- und Size-Master
 ----------------------
 
-[](https://youtu.be/e5rQAmTCfs0?t=20 "Speed and Size Masters")
+<Video videoId="e5rQAmTCfs0" title="Speed and Size Masters" />
 
 Die einzelnen Playbacks lassen sich verschiedenen Speed- und
 Size-Masterreglern zuweisen; damit kann man das Tempo und die Größe von
@@ -253,7 +254,7 @@ für das Flashen der Gruppen-Master.
 Scene Master
 ------------
 
-[](https://youtu.be/zn_jd1zba7E?t=20 "Scene Masters")
+<Video videoId="zn_jd1zba7E" title="Scene Masters" />
 
 Der Scene Master gestattet es, etwa unter Verwendung des Visualisers
 komplette Szenen vorzubereiten (unter Verwendung von Cues, Paletten

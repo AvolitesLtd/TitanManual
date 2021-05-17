@@ -6,6 +6,7 @@ original_id: pixel-mapper
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Creating Pixel Mapper effects
 -----------------------------

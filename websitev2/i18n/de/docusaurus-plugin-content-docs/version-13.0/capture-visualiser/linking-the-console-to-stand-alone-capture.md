@@ -6,6 +6,7 @@ original_id: linking-the-console-to-stand-alone-capture
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Um in den Genuss des vollen Capture-Funktionsumfangs zu kommen, muss
 eine Capture-Vollversion auf einem separaten Computer laufen. Verbindet

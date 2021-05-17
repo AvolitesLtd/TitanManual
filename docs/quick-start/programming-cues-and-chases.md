@@ -5,6 +5,7 @@ sidebar_label: Programming cues and chases
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 ## Cues
 

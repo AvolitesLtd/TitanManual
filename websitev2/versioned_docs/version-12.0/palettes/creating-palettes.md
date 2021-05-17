@@ -6,6 +6,7 @@ original_id: creating-palettes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Which Attributes are Stored in Palettes
 ---------------------------------------

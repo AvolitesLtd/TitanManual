@@ -6,6 +6,7 @@ original_id: editing-cues
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Editieren eines Cues durch Verschmelzen (Merge)
 -----------------------------------------------
@@ -250,7 +251,7 @@ gewünschten Schrittes mit den Zifferntasten eingeben.
 Deaktivieren von Attributen in Cues mit "Off"
 ---------------------------------------------
 
-[](https://youtu.be/p7Ffz4e4tws?t=20 "Off")
+<Video videoId="p7Ffz4e4tws" title="Off" />
 
 Mit der <Keys.HardKey>Off</Keys.HardKey>-Taste lässt sich ein Attribut in einem Cue deaktivieren,
 als ob es nie in diesem gespeichert gewesen wäre - es kann später wieder

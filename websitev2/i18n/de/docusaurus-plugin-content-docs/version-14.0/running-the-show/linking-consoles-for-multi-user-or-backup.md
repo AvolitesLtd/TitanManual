@@ -6,6 +6,7 @@ original_id: linking-consoles-for-multi-user-or-backup
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Bei größeren Shows ist es mitunter nötig, mit mehreren Programmierern
 gleichzeitig an der Show zu arbeiten. Titan ermöglicht dies für mehrere

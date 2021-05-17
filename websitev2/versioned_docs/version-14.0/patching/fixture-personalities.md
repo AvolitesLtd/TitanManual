@@ -6,6 +6,7 @@ original_id: fixture-personalities
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 For each type of fixture, the console has a "personality" file which
 tells it how to control the fixture, which channel is the dimmer (HTP)

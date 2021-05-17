@@ -6,6 +6,7 @@ original_id: dmx-output-mapping
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Geräte lassen sich auf verschiedene Weise mit dem Pult verbinden. Neben
 den vorhandenen DMX-Buchsen können die Geräte auch [per Netzwerk (Art-Net

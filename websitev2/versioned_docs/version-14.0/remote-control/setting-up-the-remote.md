@@ -6,6 +6,7 @@ original_id: setting-up-the-remote
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 All you need to do is make sure that the console is on the same network
 as your mobile device. The app will automatically detect all the

@@ -6,6 +6,7 @@ original_id: the-system-menu
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Das System-Menü erreicht man durch Umschalten des Betriebsarten-Schalters 
 in den Modus 'System' bzw. durch Drücken von <Keys.HardKey>Avo</Keys.HardKey> und (gleichzeitig) <Keys.HardKey>Disk</Keys.HardKey>. 

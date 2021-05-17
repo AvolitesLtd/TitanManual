@@ -6,6 +6,7 @@ original_id: user-settings
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Das Menü 'User Settings' (Benutzereinstellungen) lässt sich sowohl im
 System-Menü (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) als auch im 'Program'-Modus aufrufen; 

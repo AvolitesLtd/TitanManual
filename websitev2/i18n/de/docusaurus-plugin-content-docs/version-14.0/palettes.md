@@ -6,6 +6,7 @@ original_id: palettes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Beim Programmieren einer Show wird man häufig auf gleiche Positionen,
 Farben etc. zurückgreifen. Beim Tiger Touch kann man diese

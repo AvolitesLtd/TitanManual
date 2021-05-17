@@ -6,6 +6,7 @@ original_id: using-multiple-on-screen-workspaces
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 You can configure different <strong>Workspaces</strong> which store the layout of
 the various windows displayed on the console screen(s). This allows you to quickly recall

@@ -6,6 +6,7 @@ original_id: titan-commands
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Einige der hier aufgeführten Befehle müssen mit <Keys.HardKey>Enter</Keys.HardKey> abgeschlossen
 werden. Der besseren Lesbarkeit halber wurde das <Keys.HardKey>Enter</Keys.HardKey> hier jedoch

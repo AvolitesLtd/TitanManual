@@ -6,6 +6,7 @@ original_id: the-system-menu
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The System menu is accessed by holding <Keys.HardKey>Avo</Keys.HardKey> and pressing Disk. Some
 consoles are also fitted with a key switch or mode switch to select

@@ -6,6 +6,7 @@ original_id: workspace-windows
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The main area of the screen contains the workspace windows. These
 contain buttons and controls for selecting fixtures, groups, palettes, and playbacks,

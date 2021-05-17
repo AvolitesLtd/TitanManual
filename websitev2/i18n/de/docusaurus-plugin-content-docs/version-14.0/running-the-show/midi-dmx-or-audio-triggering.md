@@ -6,6 +6,7 @@ original_id: midi-dmx-or-audio-triggering
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Die meisten Bedienvorgänge des Pultes können durch verschiedene externe
 Events ferngesteuert - getriggert - werden. Dies bietet sich z.B. bei sehr

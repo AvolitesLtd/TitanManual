@@ -6,6 +6,7 @@ original_id: editing-cue-lists
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Dieses Kapitel beschreibt, wie Cues in Cuelisten editiert werden. 
 Geht es hingegen darum, die ganze Cueliste zu verschieben, zu kopieren oder 

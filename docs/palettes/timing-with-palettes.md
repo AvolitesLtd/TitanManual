@@ -5,6 +5,7 @@ sidebar_label: Timing with Palettes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Palettes may be created with timing information,
 or you can manually override the timing when recalling the palette.
@@ -27,7 +28,7 @@ Ignoring Its Times</Keys.SoftKey>.
 Manually Overriding Palette Times
 ---------------------------------
 
-[](https://youtu.be/FF8szWCpVkE?t=135 "Overriding Palette Times")
+<Video videoId="FF8szWCpVkE" title="Overriding Palette Times" />
 
 Being able to recall palettes with a manual fade allows easy \"busking\"
 of shows. When a palette is recalled in this way, a time is added and

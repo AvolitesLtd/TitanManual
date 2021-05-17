@@ -6,6 +6,7 @@ original_id: capture-show-files
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Die Capture-Bühne wird automatisch mit in der Titan-Show gespeichert. Sie
 kann aber auch exportiert und importiert werden, um sie unabhängig von

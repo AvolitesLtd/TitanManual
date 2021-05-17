@@ -6,6 +6,7 @@ original_id: introduction
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Herzlich willkommen in der Welt von Avolites Titan! Dieses Handbuch soll
 Ihnen alles Wissenswerte über Ihr Titan-Pult vermitteln (was eine ganze

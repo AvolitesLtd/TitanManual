@@ -5,6 +5,7 @@ sidebar_label: System Menu and User Settings
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The console has a large number of options to help you set it up just the
 way you like it. Commonly used options can be set from the User Settings

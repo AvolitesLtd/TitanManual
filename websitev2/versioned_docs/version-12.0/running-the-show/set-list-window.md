@@ -6,6 +6,7 @@ original_id: set-list-window
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Set List window is a handy way of linking playback pages to
 songs/events in your show which you can then easily step through. You

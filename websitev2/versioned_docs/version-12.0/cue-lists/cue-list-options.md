@@ -6,6 +6,7 @@ original_id: cue-list-options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Cue list options are set from the [Playback Options menu](../cues/playback-options.md). You can enter
 the playback options menu by doing the following:

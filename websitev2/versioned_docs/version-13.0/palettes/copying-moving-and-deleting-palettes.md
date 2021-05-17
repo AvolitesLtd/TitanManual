@@ -6,6 +6,7 @@ original_id: copying-moving-and-deleting-palettes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Copying or Moving a Palette
 ---------------------------

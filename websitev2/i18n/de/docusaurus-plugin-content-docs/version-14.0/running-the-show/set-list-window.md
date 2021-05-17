@@ -6,6 +6,7 @@ original_id: set-list-window
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Das Fenster Set List bietet eine einfache Möglichkeit, Playback-Seiten
 mit bestimmten Songs oder Szenen der Bühnenshow zu verknüpfen, so dass
@@ -13,7 +14,7 @@ man jederzeit passend zum Ablauf die richtige Seite findet. Ebenso kann
 man Notizen speichern, so dass separate Papiere überflüssig sind. Eine
 Show kann mehrere Set-Listen enthalten.
 
-[](https://youtu.be/VX5acUU-99M?t=20 "Set Lists")
+<Video videoId="VX5acUU-99M" title="Set Lists" />
 
 Um das Fenster aufzurufen, drücken Sie zweimal auf 
 [<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 

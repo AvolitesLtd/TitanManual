@@ -6,6 +6,7 @@ original_id: effects
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Der <strong>Shape-Generator</strong> *(auf Pulten anderer Hersteller wird das oft als
 Effekt-Generator bezeichnet)* gestattet es, schnell beeindruckende Shows

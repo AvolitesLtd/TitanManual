@@ -6,6 +6,7 @@ original_id: operating-the-remote
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 To connect to the console, open the Titan Remote app and a list of
 available consoles will be shown - hopefully if you have done the

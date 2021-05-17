@@ -5,6 +5,7 @@ sidebar_label: Viewing and Editing Fixture Values
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Channel Grid Window
 -----------------------

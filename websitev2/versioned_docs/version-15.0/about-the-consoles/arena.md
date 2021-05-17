@@ -5,6 +5,7 @@ sidebar_label: Arena
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Arena has five main control areas:
 

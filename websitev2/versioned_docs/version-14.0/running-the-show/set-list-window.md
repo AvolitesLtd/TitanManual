@@ -6,13 +6,14 @@ original_id: set-list-window
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Set List window is a handy way of linking playback pages to
 songs/events in your show which you can then easily step through. You
 can also make notes, handy for avoiding bits of paper lying around. You
 can have multiple set lists in a show.
 
-[](https://youtu.be/VX5acUU-99M?t=20 "Set Lists")
+<Video videoId="VX5acUU-99M" title="Set Lists" />
 
 To open the Set List window, double press <Keys.HardKey>View/Open</Keys.HardKey> then press <Keys.SoftKey>Set List</Keys.SoftKey> from the window select buttons which pop up. Or from the top level menu press <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> then <Keys.SoftKey>Set
 List</Keys.SoftKey>.

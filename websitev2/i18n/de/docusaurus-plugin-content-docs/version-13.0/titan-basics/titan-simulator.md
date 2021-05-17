@@ -6,6 +6,7 @@ original_id: titan-simulator
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Soll vorab programmiert oder eine Show angepasst werden, ohne bereits
 ein Pult zu verwenden? Kein Problem, genau dazu dient der Titan

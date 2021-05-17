@@ -6,6 +6,7 @@ original_id: fixture-personality-options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 All of the options below can also be set from the Patch View window.
 

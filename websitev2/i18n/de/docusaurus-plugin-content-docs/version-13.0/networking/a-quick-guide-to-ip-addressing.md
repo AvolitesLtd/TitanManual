@@ -6,6 +6,7 @@ original_id: a-quick-guide-to-ip-addressing
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 In diesem Abschnitt wird versucht, die Grundlagen der IP-Adressierung
 und weiteres Wissenswerte beim Aufbau von Netzwerken zur Lichtsteuerung

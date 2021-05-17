@@ -6,6 +6,7 @@ original_id: fixture-personalities
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Für jeden einzelnen Gerätetyp gibt es eine *'Personality'* genannte
 Gerätedatei, welche bestimmt, wie das Gerät gesteuert wird, auf welchem

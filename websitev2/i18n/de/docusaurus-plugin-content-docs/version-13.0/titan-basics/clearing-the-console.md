@@ -6,6 +6,7 @@ original_id: clearing-the-console
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Bevor man beginnt, eine neue Show zu programmieren, empfiehlt es sich,
 den Inhalt des Pultes zu löschen. Dabei wird sowohl das Patching als

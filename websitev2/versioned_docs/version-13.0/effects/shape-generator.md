@@ -6,8 +6,9 @@ original_id: shape-generator
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
-[](https://youtu.be/oTo6FxHD02o?t=20 "Using Shape Generator")
+<Video videoId="oTo6FxHD02o" title="Using Shape Generator" />
 
 A shape is simply an automatic sequence of values which modify a
 particular attribute of a fixture. A circle shape, for example, applied

@@ -6,6 +6,7 @@ original_id: chase-options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Um weitere Optionen eines Chasers zu ändern, drücken Sie im Hauptmenü
 <Keys.SoftKey>Playback Options</Keys.SoftKey>, gefolgt von der entsprechenden <strong>Swop</strong>-Taste. Zur

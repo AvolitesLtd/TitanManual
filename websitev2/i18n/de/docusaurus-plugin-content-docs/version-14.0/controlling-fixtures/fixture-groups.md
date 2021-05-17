@@ -6,6 +6,7 @@ original_id: fixture-groups
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Verwenden von Geräte-Gruppen
 ----------------------------
@@ -30,7 +31,7 @@ wählen.
 
 ### Eine Gruppe speichern
 
-[](https://youtu.be/E8QxOKT5TCA?t=20 "Recording Groups")
+<Video videoId="E8QxOKT5TCA" title="Recording Groups" />
 
 Wird das Gruppen-Fenster nicht angezeigt so lässt es sich mit \<View /
 Open\>, <Keys.HardKey>Groups</Keys.HardKey> aufrufen.
@@ -140,7 +141,7 @@ Auswahl nach Muster zu verwenden.
 
 ### Gerätereihenfolge
 
-[](https://youtu.be/2TqYjvGoGXQ?t=20 "Fixture Order")
+<Video videoId="2TqYjvGoGXQ" title="Fixture Order" />
 
 Zum Ändern der numerischen Geräte-Reihenfolge:
 
@@ -162,7 +163,7 @@ nicht Teil der Reihenfolge ist.
 
 ### Geräteanordnung
 
-[](https://youtu.be/9S5nQmVpPNs?t=20 "Fixture Layout")
+<Video videoId="9S5nQmVpPNs" title="Fixture Layout" />
 
 Zum Ändern der 2D-Geräte-Anordnung:
 

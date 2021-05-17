@@ -5,6 +5,7 @@ sidebar_label: Advanced Options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Fading Shape Size and Speed
 ---------------------------

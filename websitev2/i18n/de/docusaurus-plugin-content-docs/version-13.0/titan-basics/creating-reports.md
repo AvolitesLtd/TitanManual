@@ -6,6 +6,7 @@ original_id: creating-reports
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Beim Vorbereiten einer Show ist es oft sinnvoll, Patchlisten oder andere
 Details der Programmierung zu exportieren, etwa um der Crew eine

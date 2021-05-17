@@ -6,6 +6,7 @@ original_id: using-the-select-buttons-and-wheels
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 ## Selecting Fixtures and Dimmers for Control
 

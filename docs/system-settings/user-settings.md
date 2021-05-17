@@ -5,6 +5,7 @@ sidebar_label: User Settings
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The User Settings menu may be accessed from the <Keys.SoftKey>User Settings</Keys.SoftKey> softkey
 on the <strong>System</strong> menu. You can also get it directly from any other

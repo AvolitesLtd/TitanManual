@@ -6,6 +6,7 @@ original_id: tnp-console-mode
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Im Stand-Alone-Betrieb (Console Mode) kann ein TNP z.B. unbeaufsichtigt
 eine vorprogrammierte Show wiedergeben oder als Notfall-Backup dienen.

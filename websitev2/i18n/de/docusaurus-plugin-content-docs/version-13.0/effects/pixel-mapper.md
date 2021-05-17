@@ -6,11 +6,12 @@ original_id: pixel-mapper
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Matrix-Effekte mit dem Pixelmapper erstellen
 --------------------------------------------
 
-[](https://youtu.be/UchvGw2vvU8?t=20 "Pixel Mapping")
+<Video videoId="UchvGw2vvU8" title="Pixel Mapping" />
 
 Der Pixelmapper funktioniert mit Gruppen von Geräten, die mit dem
 [Layout-Editor](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) angeordnet wurden. Damit wird dem Pult mitgeteilt, wo sich
@@ -245,4 +246,4 @@ Die Masterregler für die Layer müssen im Effekt-Editor aktiviert werden
 > Für Layer-Masterregler sind ggf. aktualisierte Personalities
     erforderlich.
 
-[](https://youtu.be/rCIIH2-DCNM?t=20 "Advanced Pixel Mapping")
+<Video videoId="rCIIH2-DCNM" title="Advanced Pixel Mapping" />

@@ -6,6 +6,7 @@ original_id: setting-up
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Connecting up
 -------------

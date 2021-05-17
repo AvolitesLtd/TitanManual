@@ -5,6 +5,7 @@ sidebar_label: Creating Palettes
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Which Attributes are Stored in Palettes
 ---------------------------------------
@@ -53,7 +54,7 @@ which can force the console to record palettes in <strong>Shared</strong> or <st
 Storing a Palette
 -----------------
 
-[](https://youtu.be/Hs-xzpD5x8k?t=20 "Recording Palettes")
+<Video videoId="Hs-xzpD5x8k" title="Recording Palettes" />
 
 This is how you save a palette value to one of the palette windows: *If
 the palette windows are not shown then press the <Keys.SoftKey>Groups and Palettes</Keys.SoftKey>

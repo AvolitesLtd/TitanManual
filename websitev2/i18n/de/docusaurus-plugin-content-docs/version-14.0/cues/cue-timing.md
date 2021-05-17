@@ -6,6 +6,7 @@ original_id: cue-timing
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Es lassen sich viele verschiedene Zeiteinstellungen für Cues vornehmen.
 
@@ -246,7 +247,7 @@ Unter Verwendung der Taste <Keys.HardKey>TIME</Keys.HardKey> gibt es folgende Ta
 -   <Keys.HardKey>1</Keys.HardKey> <Keys.HardKey>THRO</Keys.HardKey> <Keys.HardKey>10</Keys.HardKey> = Auffächern der Zeit zwischen den gewählten Geräten
     in der Reihenfolge deren Auswahl.
 
-[](https://youtu.be/GHq9b3PT8U0?t=20 "Timing Syntax")
+<Video videoId="GHq9b3PT8U0" title="Timing Syntax" />
 
 Zeiten für einzelne Attribute lassen sich auch mit den Encodern
 einstellen; wählen Sie dazu mit der Funktionstaste <Keys.SoftKey>Wheels</Keys.SoftKey> im

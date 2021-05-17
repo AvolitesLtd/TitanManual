@@ -6,6 +6,7 @@ original_id: remote-control
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Verwendet man einen <strong>WLAN</strong> Access Point (Drahtlosnetzwerk-Zugangspunkt),
 so lässt sich das Pult mit einem Mobilgerät ([Android](https://play.google.com/store/apps/developer?id=Avolites+Ltd) oder [iOS](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps)) drahtlos

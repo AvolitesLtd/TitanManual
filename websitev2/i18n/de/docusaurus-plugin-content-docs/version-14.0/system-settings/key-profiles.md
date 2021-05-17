@@ -6,6 +6,7 @@ original_id: key-profiles
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Die Belegung der Bedientasten des Pultes lässt sich sehr fein einstellen
 und auf die jeweilige Arbeitsweise abstimmen. Die Einstellungen lassen
@@ -25,7 +26,7 @@ Touchscreen angezeigt.
 
 ## Erstellen und Ändern von Tastenbelegungen
 
-[](https://youtu.be/CxHQV4sP_sA?t=20 "Key Profiles")
+<Video videoId="CxHQV4sP_sA" title="Key Profiles" />
 
 Zum Erstellen eines solchen Profils öffnen Sie mit <Keys.HardKey>Avo</Keys.HardKey> + 
 <Keys.HardKey>Disk</Keys.HardKey> das System-Menü und drücken <Keys.SoftKey>Key Profiles</Keys.SoftKey>. Darauf 

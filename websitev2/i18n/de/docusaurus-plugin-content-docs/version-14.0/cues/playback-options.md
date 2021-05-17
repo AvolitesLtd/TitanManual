@@ -6,8 +6,9 @@ original_id: playback-options
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
-[](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
+<Video videoId="Dz_lWDHukxo" title="Playback Options" />
 
 Zum Einstellen der Optionen eines Cues, einer Cueliste oder eines
 Chasers drücken Sie <Keys.SoftKey>Options</Keys.SoftKey> im Hauptmenü oder die Taste <Keys.HardKey>Options</Keys.HardKey> und anschließend die <strong>Auswahltaste</strong> der entsprechenden Playbacks. Darauf werden 
@@ -147,7 +148,7 @@ Mode 3 | Crossfade (Überblendung). Sämtliche Kanäle, einschließlich der Hell
 
 Die gleiche Einstellung wie im [<Keys.SoftKey>Edit Times</Keys.SoftKey>](cue-timing.md)-Menu.
 
-[](https://youtu.be/2fwM5S8nX3k?t=20 "Playback Modes")
+<Video videoId="2fwM5S8nX3k" title="Playback Modes" />
 
 ### Curve
 Bestimmt den Verlauf der Änderungen der Attribute, wenn der

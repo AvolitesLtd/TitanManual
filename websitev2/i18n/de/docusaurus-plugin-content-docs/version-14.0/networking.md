@@ -6,6 +6,7 @@ original_id: networking
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Titan unterstützt über die üblichen DMX-Buchsen hinaus etliche
 weitere Wege der Kommunikation mit Beleuchtungs- und anderen Geräten;

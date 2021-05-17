@@ -6,6 +6,7 @@ original_id: about-the-consoles
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Dieses Handbuch dient als Anleitung für alle aktuellen Avolites
 Titan-Pulte. Dabei sind die Funktionen bei allen Pulten weitgehend

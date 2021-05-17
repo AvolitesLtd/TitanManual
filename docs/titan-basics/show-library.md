@@ -5,6 +5,7 @@ sidebar_label: Show Library
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Show Library window collects all the information about your show
 into a single place. It is very useful to transfer programming when

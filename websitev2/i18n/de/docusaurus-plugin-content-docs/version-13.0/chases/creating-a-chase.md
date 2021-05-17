@@ -6,11 +6,12 @@ original_id: creating-a-chase
 ---
 
 import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Einen Chaser programmieren
 --------------------------
 
-[](https://youtu.be/M0h5zV4S_OI?t=20 "Recording a Chase")
+<Video videoId="M0h5zV4S_OI" title="Recording a Chase" />
 
 Zum Programmieren eines Chasers stellen Sie für jeden Schritt das
 gewünschte Bild ein und speichern es.
