@@ -9,8 +9,7 @@ module.exports={
     "https://buttons.github.io/buttons.js",
     "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js",
     "/js/fuse.js",
-    "/js/search.js",
-    "/js/video.js"
+    "/js/search.js"
   ],
   "favicon": "img/favicon.ico",
   "customFields": {
