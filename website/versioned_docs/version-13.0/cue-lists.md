@@ -1,9 +1,12 @@
 ---
-id: version-13.0-cue-lists
+id: cue-lists
 title: Cue Lists
 sidebar_label: Cue Lists
 original_id: cue-lists
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Cue Lists (sometimes known as stacks or cue stacks) allow you to record
 a sequence of [cues](cues.md), each of which can have its own [timings](cue-lists/cue-list-timing.md) and can be
@@ -26,7 +29,7 @@ option](cue-lists/cue-list-playback.md#tracking) for each cue: Block, This Cue O
 in the [Cue List Playback](cue-lists/cue-list-playback.md) section).
 
 To view the contents of a cue list, touch the playback screen relating
-to the fader or press \<Open/View\> then the **swop button** of the
+to the fader or press <Keys.HardKey>Open/View</Keys.HardKey> then the <strong>swop button</strong> of the
 playback.
 
 ![Playback View of Cue List](/docs/images/Cue-List-Window-with-Autoload-playback.png)

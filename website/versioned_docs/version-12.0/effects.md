@@ -1,11 +1,14 @@
 ---
-id: version-12.0-effects
+id: effects
 title: Shapes and Pixel Mapper Effects
 sidebar_label: Shapes and Pixel Mapper Effects
 original_id: effects
 ---
 
-The **Shape Generator** in Titan *(sometimes known as an Effects Generator on
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
+The <strong>Shape Generator</strong> in Titan *(sometimes known as an Effects Generator on
 other consoles)* allows you to quickly create exciting light shows using
 lots of movement and changes, with the minimum of programming. A range
 of speed controls allow you to modify how the shapes appear at show time

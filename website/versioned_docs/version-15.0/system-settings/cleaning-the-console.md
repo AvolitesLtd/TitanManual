@@ -1,8 +1,7 @@
 ---
-id: version-15.0-cleaning-the-console
+id: cleaning-the-console
 title: Cleaning the console
 sidebar_label: Cleaning the console
-original_id: cleaning-the-console
 ---
 
 Disconnect the console from the mains supply before cleaning.

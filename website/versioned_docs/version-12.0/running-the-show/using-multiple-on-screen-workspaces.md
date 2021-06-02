@@ -1,9 +1,12 @@
 ---
-id: version-12.0-using-multiple-on-screen-workspaces
+id: using-multiple-on-screen-workspaces
 title: Using multiple on-screen workspaces
 sidebar_label: Using multiple on-screen workspaces
 original_id: using-multiple-on-screen-workspaces
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 On the screen you can configure different "workspaces" which store how
 the various windows are displayed. This allows you to quickly recall
@@ -17,12 +20,12 @@ workspace layout for each song.
 View menu
 ---------
 
-Pressing \<View/Open\> takes you into the View menu. From here you can
+Pressing <Keys.HardKey>View/Open</Keys.HardKey> takes you into the View menu. From here you can
 set up what is shown on the screen(s).
 
--   \[Window Options\] allows you to reposition and resize windows.
+-   <Keys.SoftKey>Window Options</Keys.SoftKey> allows you to reposition and resize windows.
 
--   \[Open Workspace Window\] gives a list on the softkeys of all the
+-   <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> gives a list on the softkeys of all the
     possible windows, allowing you to open the one you need.
 
 

@@ -1,8 +1,7 @@
 ---
-id: version-15.0-visualising-using-capture
+id: visualising-using-capture
 title: Visualising using Capture
 sidebar_label: Visualising using Capture
-original_id: visualising-using-capture
 ---
 
 Mostly you don't have to do anything special with Capture once you have

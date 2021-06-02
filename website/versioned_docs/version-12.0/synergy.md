@@ -1,9 +1,12 @@
 ---
-id: version-12.0-synergy
+id: synergy
 title: Synergy and Linking to AI
 sidebar_label: Synergy and Linking to AI
 original_id: synergy
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 [Synergy - How it Works](https://youtu.be/twfDqjNFasA)
 
@@ -17,4 +20,4 @@ workspaces.
 For shows which include video content, this gives you a much smoother
 workflow when creating and running the show.
 
-> Ai refers to media outputs as "Screen Fixtures". To avoid confusion with Titan fixtures, Titan doesn't use "Fixture" and refers to them as **"Screens"** (and in some places **"Surfaces"**).
+> Ai refers to media outputs as "Screen Fixtures". To avoid confusion with Titan fixtures, Titan doesn't use "Fixture" and refers to them as <strong>"Screens"</strong> (and in some places <strong>"Surfaces"</strong>).

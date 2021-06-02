@@ -1,17 +1,19 @@
 ---
-id: version-15.0-loading-and-saving-shows
+id: loading-and-saving-shows
 title: Loading and saving shows
 sidebar_label: Loading and saving shows
-original_id: loading-and-saving-shows
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 You can save any number of different shows on a USB drive or the
 console's internal hard disk. The console will also autosave the show
 periodically.
 
-> Shows created on a Titan console can be loaded into any other model of Avolites Titan console, but not to older non-Titan consoles as the showfile format is different. \
-  \
-  Showfiles from newer versions of Titan may not load correctly (or at all) into consoles with older versions of Titan.
+> Shows created on a Titan console can be loaded into any other model of Avolites Titan console, but not to older non-Titan consoles as the showfile format is different.
+> 
+> Showfiles from newer versions of Titan may not load correctly (or at all) into consoles with older versions of Titan.
 
 
 Although your show is safe on the hard disk, it's a good idea to also
@@ -29,29 +31,29 @@ versions of your show if needed.
 
 To save your current show:
 
-1. Press the \<Disk\> button.
+1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
 
-2. Press \[Save\].
+2. Press <Keys.SoftKey>Save</Keys.SoftKey>.
 
 3. If you have a USB drive connected, use the softkeys to select
-whether to save on \[Removable Disk\] or \[Internal hard drive\].
+whether to save on <Keys.SoftKey>Removable Disk</Keys.SoftKey> or <Keys.SoftKey>Internal hard drive</Keys.SoftKey>.
 
 4. If this is a new show, enter a name for the show on the keyboard. If
 this is a new version of an existing show you can enter a tag to help
 identify the version, which will be shown on the Show Browser screen
 when you load shows.
 
-5. Press \<Enter\> or \[Save\] (or \[Overwrite\] if the show already
+5. Press <Keys.HardKey>Enter</Keys.HardKey> or <Keys.SoftKey>Save</Keys.SoftKey> (or <Keys.SoftKey>Overwrite</Keys.SoftKey> if the show already
 exists). The show will be saved.
 
-6. Press \<Exit\> or \[OK\] to leave Disk mode.
+6. Press <Keys.HardKey>Exit</Keys.HardKey> or <Keys.SoftKey>OK</Keys.SoftKey> to leave Disk mode.
 
 ----
 
--   To save the show under a different name, use the \[Save As\]
+-   To save the show under a different name, use the <Keys.SoftKey>Save As</Keys.SoftKey>
     softkey.
 
--   Pressing the \<Disk\> button twice will make the console save a
+-   Pressing the <Keys.HardKey>Disk</Keys.HardKey> button twice will make the console save a
     Quicksave version of the file. A Quicksave is just a version of the
     show saved with the same filename.
 
@@ -70,8 +72,8 @@ Loading a show
 The console will automatically reload the last show when it is turned
 on.
 
-![Show Browser](/docs/images/Show-Browser.png)Press the \<Disk\> button then \[Load
-Show\] to load in a new show. The Show Browser window will appear.
+![Show Browser](/docs/images/Show-Browser.png)Press the <Keys.HardKey>Disk</Keys.HardKey> button then <Keys.SoftKey>Load
+Show</Keys.SoftKey> to load in a new show. The Show Browser window will appear.
 
 On the top left you can select which drive is used, or show files on all
 drives. On the bottom left you can filter the list of shows to see all
@@ -81,9 +83,9 @@ reload an earlier version if you need to.
 
 You can also load shows from the softkeys:
 
-1. Press the \<Disk\> button.
+1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
 
-2. Press \[Load Show\].
+2. Press <Keys.SoftKey>Load Show</Keys.SoftKey>.
 
 3. If you have a USB drive connected, select which drive you want to
 load from.
@@ -126,13 +128,13 @@ workspace or panel buttons in your current show.
 
 ![Import](/docs/images/Import.png)
 
-1. Press the \<Disk\> button.
+1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
 
-2. Press \[Import Show\] (The plus button at the top right of the Show
+2. Press <Keys.SoftKey>Import Show</Keys.SoftKey> (The plus button at the top right of the Show
 Library window also opens this menu).
 
 3. The Show Browser window opens. Select the show you want to import
-from and press \[Load Show\].
+from and press <Keys.SoftKey>Load Show</Keys.SoftKey>.
 
 4. The Show Library window will now open. Your current show and the
 imported show will appear as buttons at the top of the show browser. You
@@ -142,7 +144,8 @@ can import items from more than one show at once by repeating steps 1-3.
 
 6. Select a fixture in your imported show, then click the arrow beside
 the fixture it maps to in the current show. To remove a mapping, click
-the \[Clear Fixture Mapping\] context button.\
+the <Keys.SoftKey>Clear Fixture Mapping</Keys.SoftKey> context button.
+
 You can select multiple target fixtures by dragging a box over the
 fixtures, or click on the source fixture again and map to another
 target.
@@ -155,7 +158,7 @@ buttons on the left to select Palettes, Groups etc.
 
 9. Select handle(s) where you want to store the imported items.
 
-10. When you have imported all the items you want, press \<Exit\>.
+10. When you have imported all the items you want, press <Keys.HardKey>Exit</Keys.HardKey>.
 
 ---
 
@@ -177,7 +180,7 @@ when you shut it down. It will also autosave the show every 30 minutes
 in case the console loses power.
 
 You can disable Autosave or alter the time between saves using option
-\[Auto Save\] on the Disk menu (press the \<Disk\> button). You can
+<Keys.SoftKey>Auto Save</Keys.SoftKey> on the Disk menu (press the <Keys.HardKey>Disk</Keys.HardKey> button). You can
 reload Autosave files using the Show Browser.
 
 >This option is included because Autosave used to make the console pause, however this is no longer the case and we recommend that you do not disable Autosave. If you lose power while programming Autosave will make your day a whole lot better.
@@ -187,7 +190,7 @@ Recover show
 
 If Titan shuts down improperly due to a crash or power failure, and when
 you restart it the most recent showfile can't be reloaded, a softkey
-option \[Recover Show\] will be displayed which will attempt to load the
+option <Keys.SoftKey>Recover Show</Keys.SoftKey> will be displayed which will attempt to load the
 show from the temporary directory. You will also see options to start a
 new show or load a previous show.
 

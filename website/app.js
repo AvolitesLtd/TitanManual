@@ -1,4 +1,5 @@
 const { app, BrowserWindow, session, BrowserView, ipcMain, Menu, shell } = require('electron')
+const fs = require('fs');
 const appServer = require('./app/server.js')
 const { fork } = require('child_process')
 const localJs = fork(`${__dirname}/app/local.js`)
@@ -73,7 +74,7 @@ const createWindow = () => {
 
   // and load the homepage of the app.
   appServer.ready().then(() => {
-    let url = "/docs/en/introduction/";
+    let url = "/docstest";
     const args = require('minimist')(process.argv.slice(1))
     if (args['startUrl']) {
       url = args['startUrl'];
@@ -83,11 +84,19 @@ const createWindow = () => {
     win.loadURL(`${appServer.url}/nav.html`)
   })
 
-  //browserViewContent.webContents.openDevTools();
+  browserViewContent.webContents.openDevTools();
 
   browserViewContent.webContents.on('dom-ready', () => {
     win.show()
     canNavigate()
+  });
+
+  browserViewContent.webContents.on('did-finish-load', function() {
+    fs.readFile('./app/sources/local/app.css', "utf-8", function(error, data) {
+      if(!error){
+        browserViewContent.webContents.insertCSS(data);
+      }
+    });
   });
 
   win.on('closed', () => {

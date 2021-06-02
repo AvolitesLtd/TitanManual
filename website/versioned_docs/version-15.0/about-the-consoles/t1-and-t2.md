@@ -1,8 +1,7 @@
 ---
-id: version-15.0-t1-and-t2
+id: t1-and-t2
 title: T1 and T2
 sidebar_label: T1 and T2
-original_id: t1-and-t2
 ---
 
 T1 and T2 are USB dongles which plug into a Windows PC or laptop. See [minimum PC specifications](../titan-basics.md#connecting-up-titan-mobile-and-t1t2) for details of the PC requirements. Both dongles include an AvoKey.
@@ -19,7 +18,7 @@ the Titan Mobile fader wing.
 ![T2 USB DMX Dongle](/docs/images/T2.png)
 
 
-[](https://youtu.be/wO94RvG6agI "T2 USB Interface")
+<Video videoId="wO94RvG6agI" title="T2 USB Interface" />
 
 ---
 

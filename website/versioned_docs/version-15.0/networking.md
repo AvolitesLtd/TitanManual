@@ -1,8 +1,7 @@
 ---
-id: version-15.0-networking
+id: networking
 title: Networking Consoles
 sidebar_label: Networking Consoles
-original_id: networking
 ---
 
 

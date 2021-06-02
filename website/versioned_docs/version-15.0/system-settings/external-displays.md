@@ -1,9 +1,11 @@
 ---
-id: version-15.0-external-displays
+id: external-displays
 title: External Displays
 sidebar_label: External Displays
-original_id: external-displays
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 For extra workspace you can connect external monitors to the monitor ports
 provided on the console (HDMI on Diamond 9, DVI on other consoles, except Pearl Expert and Tiger Touch 1
@@ -16,9 +18,9 @@ For Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) you can connect whi
 external displays your computer will support, Titan can use up to three of them.
 
 An external display is disabled by default and will show a \'disabled\'
-message. To enable, go to the **System** menu (press \<Avo\> + \<Disk\>) and select \[Display Setup\]
-then press \[External Display Disconnected\]. The option will change to
-\[External Display Connected\] and the display will be enabled.
+message. To enable, go to the <strong>System</strong> menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>Display Setup</Keys.SoftKey>
+then press <Keys.SoftKey>External Display Disconnected</Keys.SoftKey>. The option will change to
+<Keys.SoftKey>External Display Connected</Keys.SoftKey> and the display will be enabled.
 
 > For best performance of the console, disable display outputs you aren't
 using.

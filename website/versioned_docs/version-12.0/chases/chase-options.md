@@ -1,14 +1,17 @@
 ---
-id: version-12.0-chase-options
+id: chase-options
 title: Chase Options
 sidebar_label: Chase Options
 original_id: chase-options
 ---
 
-To set options for a chase, press \[Playback Options\] on the root menu,
-then press the **Select** button of the playback to be edited. Options will
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
+To set options for a chase, press <Keys.SoftKey>Playback Options</Keys.SoftKey> on the root menu,
+then press the <strong>Select</strong> button of the playback to be edited. Options will
 be shown on the softkeys. To view the options window, press
-\<View/Open\> then the **Select** button of the playback, then click the
+<Keys.HardKey>View/Open</Keys.HardKey> then the <strong>Select</strong> button of the playback, then click the
 Options tab.
 
 ![Playback Options (playback tab) for a chase](/docs/images/Playback-Options-Chase-Playback-Tab.png)
@@ -23,8 +26,10 @@ Most of the options are the same as for Cues (see [Playback Options](../cues/pla
 ### Loop Action
 Sets what happens at the end of the chase:
 
-\[Stop on Final Cue\] - Chase stops at the end\
-\[Loop\] - The chase will loop back to the beginning
+<Keys.SoftKey>Stop on Final Cue</Keys.SoftKey> - Chase stops at the end
+
+
+<Keys.SoftKey>Loop</Keys.SoftKey> - The chase will loop back to the beginning
 
 ### Play Order
 Sets the direction of the chase.
@@ -33,18 +38,24 @@ Sets the direction of the chase.
 Sets how the cues in the chase are linked. The options
 are:
 
-\[Link according to individual steps\] - Each step in the chase will obey its 
+<Keys.SoftKey>Link according to individual steps</Keys.SoftKey> - Each step in the chase will obey its 
 individual link settings which are set using the
 [Playback View window](editing-a-chase.md#opening-a-chase-for-editing)
-or the [\<Unfold\> function](editing-a-chase.md#editing-a-chase-using-unfold).\
-\[Always Link Steps\] - The chase will run on its own using the times\
-\[Never Link Steps\] - The chase will pause after every delay/fade time
-for the user to press \<Go\>
+or the [<Keys.HardKey>Unfold</Keys.HardKey> function](editing-a-chase.md#editing-a-chase-using-unfold).
+
+
+<Keys.SoftKey>Always Link Steps</Keys.SoftKey> - The chase will run on its own using the times
+
+
+<Keys.SoftKey>Never Link Steps</Keys.SoftKey> - The chase will pause after every delay/fade time
+for the user to press <Keys.HardKey>Go</Keys.HardKey>
 
 > When a chase is unlinked, raising the fader does not fire the first cue, which can be a problem. To get round this, if the chase is not looped, simply link the first cue to the previous one. If the chase is looped, add a dummy step at the end with 0 sec fade, 0 sec delay and link the first step to this one.
 
 ### Speed Multiplier
-Allows you to set a speed factor for the chase.\
+Allows you to set a speed factor for the chase.
+
+
 
 ### Speed
 Provides another way of setting chase speed.

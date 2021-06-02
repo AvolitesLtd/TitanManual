@@ -26,8 +26,8 @@ services:
     volumes:
       - ./docs:/app/docs
       - ./parse:/app/parse
-      - ./websitev2:/app/websitev2
-      - /app/websitev2/node_modules
+      - ./website:/app/website
+      - /app/website/node_modules
 
   app:
     build:

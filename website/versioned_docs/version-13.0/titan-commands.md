@@ -1,19 +1,22 @@
 ---
-id: version-13.0-titan-commands
+id: titan-commands
 title: Titan Commands Quick Reference
 sidebar_label: Titan Commands Quick Reference
 original_id: titan-commands
 ---
 
-Please note that some commands may require \<Enter\> to complete the
-command. In this reference \<Enter\> has always been omitted for
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
+Please note that some commands may require <Keys.HardKey>Enter</Keys.HardKey> to complete the
+command. In this reference <Keys.HardKey>Enter</Keys.HardKey> has always been omitted for
 clarity.
 
-\[ Softkey \] formatting means a softkey on the console.
+<Keys.SoftKey> Softkey </Keys.SoftKey> formatting means a softkey on the console.
 
-\< Button \> formatting means a physical labelled button
+<Keys.HardKey> Button </Keys.HardKey> formatting means a physical labelled button
 
-{ } means a handle button, e.g. {Cue} means the blue button on a cue
+&#123; &#125; means a handle button, e.g. &#123;Cue&#125; means the blue button on a cue
 playback handle
 
 Numbers are typed on the numeric keypad
@@ -34,179 +37,275 @@ list of the old button names and their new equivalents.
 Fixtures
 --------
 
-**\<Fixture\> 1 \<Through\> 10**\
+<strong><Keys.HardKey>Fixture</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 10</strong>
+
+
 Select fixtures 1 through to 10.
 
-**\<Fixture\> 1 \<Through\> 10 \<And\> 20 \<And\> 25**\
+<strong><Keys.HardKey>Fixture</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>And</Keys.HardKey> 25</strong>
+
+
 Select fixtures 1 to 10 and 20, 25
 
-**\<Fixture\> 1 \<Through\> 10 \<And\> \<.\>2**\
+<strong><Keys.HardKey>Fixture</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.HardKey>And</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey>2</strong>
+
+
 Select the second cell of fixtures 1 to 10.
 
-**\<Fixture\> 1 \<Through\> 10 \<And\> \<.\>2**\
+<strong><Keys.HardKey>Fixture</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.HardKey>And</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey>2</strong>
+
+
 Select the second cell of fixtures 1 to 10.
 
-**\<Fixture\> 5 \<@\> \<@\>**\
+<strong><Keys.HardKey>Fixture</Keys.HardKey> 5 <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey></strong>
+
+
 Put fixture 5 at full intensity.
 
-**\<Fixture\> 1 \<Through\> 60 \<@\> 75**\
+<strong><Keys.HardKey>Fixture</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 60 <Keys.HardKey>@</Keys.HardKey> 75</strong>
+
+
 Put fixtures 10 to 60 at 75% intensity.
 
-**\<Group\> 2 \<@\> \<@\>**\
+<strong><Keys.HardKey>Group</Keys.HardKey> 2 <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey></strong>
+
+
 Put group 2 at full intensity.
 
-**\<Group\> 2 \<@\> 75**\
+<strong><Keys.HardKey>Group</Keys.HardKey> 2 <Keys.HardKey>@</Keys.HardKey> 75</strong>
+
+
 Put group 2 at full intensity.
 
 ### Celled Fixtures (Sub Fixtures)
 
-**\<.\> m**\
+<strong><Keys.HardKey>.</Keys.HardKey> m</strong>
+
+
 Select cell m in the selected fixtures.
 
-**\<.\>**\
+<strong><Keys.HardKey>.</Keys.HardKey></strong>
+
+
 Select all the cells in the selected fixtures.
 
-**n \<.\>**\
+<strong>n <Keys.HardKey>.</Keys.HardKey></strong>
+
+
 all sub-fixtures of fixture n
 
-**1 \<Through\> 5 \<.\> 2**\
+<strong>1 <Keys.HardKey>Through</Keys.HardKey> 5 <Keys.HardKey>.</Keys.HardKey> 2</strong>
+
+
 Select the second cell of fixtures 1 to 5
 
-**\<.\> \<Through\> \<.\> j**\
-**\<Through\> \<.\> j**\
+<strong><Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>Through</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> j</strong>
+
+
+<strong><Keys.HardKey>Through</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey> j</strong>
+
+
 Select cells 1 to j of all selected fixtures
 
-\<.\> m \<Through\>\
+<Keys.HardKey>.</Keys.HardKey> m <Keys.HardKey>Through</Keys.HardKey>
+
+
 Cells m-\>last of all selected fixtures
 
-**\<.\> m \<Through\> \<.\>j**\
-**\<.\> m \<Through\> i**\
+<strong><Keys.HardKey>.</Keys.HardKey> m <Keys.HardKey>Through</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey>j</strong>
+
+
+<strong><Keys.HardKey>.</Keys.HardKey> m <Keys.HardKey>Through</Keys.HardKey> i</strong>
+
+
 sub-fixtures m-\>j or all selected fixtures
 
-**n \<Through\> i\<.\>**\
+<strong>n <Keys.HardKey>Through</Keys.HardKey> i<Keys.HardKey>.</Keys.HardKey></strong>
+
+
 all sub-fixtures of fixtures n-\>i
 
-**n \<Through\> i\<.\>j**\
+<strong>n <Keys.HardKey>Through</Keys.HardKey> i<Keys.HardKey>.</Keys.HardKey>j</strong>
+
+
 sub-fixture j of fixtures n-\>i
 
-**n \<Through\> \<.\>j**\
+<strong>n <Keys.HardKey>Through</Keys.HardKey> <Keys.HardKey>.</Keys.HardKey>j</strong>
+
+
 sub-fixture 1-\>j of fixture n
 
-**n \<.\> \<Through\>**\
+<strong>n <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>Through</Keys.HardKey></strong>
+
+
 all sub-fixtures of fixture n-\>last consecutive of type n
 
-**n \<.\> \<Through\> i**\
+<strong>n <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>Through</Keys.HardKey> i</strong>
+
+
 sub-fixtures 1-\>i of fixture n
 
-**n \<.\> \<Through\> i\<.\>j**\
+<strong>n <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>Through</Keys.HardKey> i<Keys.HardKey>.</Keys.HardKey>j</strong>
+
+
 sub-fixtures 1-\>j of fixtures n-\>i
 
 Select If
 ---------
 
-**\<Select If\> \<@\>\<@\>**\
+<strong><Keys.HardKey>Select If</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey><Keys.HardKey>@</Keys.HardKey></strong>
+
+
 Select all fixtures above 0% intensity.
 
-**\<Select If\> \<@\> \<Through\> 50**\
+<strong><Keys.HardKey>Select If</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Through</Keys.HardKey> 50</strong>
+
+
 Select all fixtures above 50% intensity
 
-**\<Select If\> \<@\> 50 \<Through\>**\
+<strong><Keys.HardKey>Select If</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> 50 <Keys.HardKey>Through</Keys.HardKey></strong>
+
+
 Select all fixtures below 50% intensity
 
 Record
 ------
 
-**\<Record\> {Cue} {Cue}**\
+<strong><Keys.HardKey>Record</Keys.HardKey> &#123;Cue&#125; &#123;Cue&#125;</strong>
+
+
 Merge the live cue with the programmer.
 
-**\<Record\> {Cue} 90.1**\
+<strong><Keys.HardKey>Record</Keys.HardKey> &#123;Cue&#125; 90.1</strong>
+
+
 Merge cue 90.1 with the programmer.
 
-**\<Record\> {Cue} 1 {Through} 10 \<And\> 20**\
+<strong><Keys.HardKey>Record</Keys.HardKey> &#123;Cue&#125; 1 &#123;Through&#125; 10 <Keys.HardKey>And</Keys.HardKey> 20</strong>
+
+
 Merge programmer contents into cues 1 to 10 and 20.
 
-**\<Record\> \<Position\> {Cue} {Cue}**\
+<strong><Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> &#123;Cue&#125; &#123;Cue&#125;</strong>
+
+
 Merge all but position from the programmer with the live cue.
 
-**\<Record\> \<Options\> \<Position\> {Cue} {Cue}**\
+<strong><Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Options</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> &#123;Cue&#125; &#123;Cue&#125;</strong>
+
+
 Merge only position from the programmer with the live cue.
 
 Copy, Move in cue list
 ----------------------
 
-**\<Copy\> {Cue} n \<Enter\>**\
+<strong><Keys.HardKey>Copy</Keys.HardKey> &#123;Cue&#125; n <Keys.HardKey>Enter</Keys.HardKey></strong>
+
+
 Copy cue n and append at the end of the cue list.
 
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
-n**\
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
-\<Enter\> n \<Enter\>**\
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cue&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
+n**
+
+
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cue&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
+<Keys.HardKey>Enter</Keys.HardKey> n <Keys.HardKey>Enter</Keys.HardKey>**
+
+
 Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert after cue n.
 
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
-\<@\>**\
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
-\<Enter\> \<Enter\>**\
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cue&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
+<Keys.HardKey>@</Keys.HardKey>**
+
+
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cue&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
+<Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey>**
+
+
 Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert at the end of the cue
 list.
 
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20 \<@\>
-{target playback} n**\
-**\<Copy\>/\<Move\> {Cue} 1 \<Through\> 10 \[NOT\] 5 \<And\> 20
-\<Enter\> {target playback} n \<Enter\>**\
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cue&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20 <Keys.HardKey>@</Keys.HardKey>
+&#123;target playback&#125; n**
+
+
+**<Keys.HardKey>Copy</Keys.HardKey>/<Keys.HardKey>Move</Keys.HardKey> &#123;Cue&#125; 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.SoftKey>NOT</Keys.SoftKey> 5 <Keys.HardKey>And</Keys.HardKey> 20
+<Keys.HardKey>Enter</Keys.HardKey> &#123;target playback&#125; n <Keys.HardKey>Enter</Keys.HardKey>**
+
+
 Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert at cue n in the
 target playback.
 
 Delete
 ------
 
-**\<Delete\> {Cue} n**\
+<strong><Keys.HardKey>Delete</Keys.HardKey> &#123;Cue&#125; n</strong>
+
+
 Delete cue n from the connected cue list.
 
 Include
 -------
 
-**\<Include\> {Cue} n**\
+<strong><Keys.HardKey>Include</Keys.HardKey> &#123;Cue&#125; n</strong>
+
+
 Include cue n into the programmer from the connected cue list.
 
 Times
 -----
 
-**\<Time\> 5**\
+<strong><Keys.HardKey>Time</Keys.HardKey> 5</strong>
+
+
 5 sec fade in
 
-**\<Cue\> 3 \<Time\> 5**\
+<strong><Keys.HardKey>Cue</Keys.HardKey> 3 <Keys.HardKey>Time</Keys.HardKey> 5</strong>
+
+
 5 sec fade in on connected playback\'s cue 3
 
-**\<Time\> \<Fixture\> 5**\
+<strong><Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey> 5</strong>
+
+
 5 sec fade in for all attributes of selected fixtures
 
-**\<Time\> \<Fixture\> \<Gobo\> 5**\
+<strong><Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey> <Keys.HardKey>Gobo</Keys.HardKey> 5</strong>
+
+
 5 sec fade in for gobo attribute group of selected fixtures
 
-**\<Time\> \<Fixture\> \<@\> \<B@\> 5**\
+<strong><Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>B@</Keys.HardKey> 5</strong>
+
+
 5 sec fade in for attribute connected to wheel B on selected fixtures
 
-**\<Time\> 5 \<@\> 3**\
+<strong><Keys.HardKey>Time</Keys.HardKey> 5 <Keys.HardKey>@</Keys.HardKey> 3</strong>
+
+
 5 sec fade in, 3 sec delay
 
-**\<Time\> 5 \<And\> 2**\
+<strong><Keys.HardKey>Time</Keys.HardKey> 5 <Keys.HardKey>And</Keys.HardKey> 2</strong>
+
+
 5 sec fade in, 2 sec fade out
 
-**\<Time\> 1 \<Through\> 10**\
+<strong><Keys.HardKey>Time</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 10</strong>
+
+
 times spread across fixtures according to selection order
 
 Cue Lists
 ---------
 
-**\<Cue\> n \<Go\>**
+<strong><Keys.HardKey>Cue</Keys.HardKey> n <Keys.HardKey>Go</Keys.HardKey></strong>
 
 Go to cue n (in connected cue list)
 
-**5 \<Go\>**
+<strong>5 <Keys.HardKey>Go</Keys.HardKey></strong>
 
 Run the next cue with 5 sec fade instead of the programmed cue time
 
-**\<Cue\> 3 \<Enter\> 5 \<Go\>**
+<strong><Keys.HardKey>Cue</Keys.HardKey> 3 <Keys.HardKey>Enter</Keys.HardKey> 5 <Keys.HardKey>Go</Keys.HardKey></strong>
 
 Jump to cue 3 with 5 sec fade instead of the programmed cue time

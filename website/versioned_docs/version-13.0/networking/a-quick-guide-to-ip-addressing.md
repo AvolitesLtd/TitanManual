@@ -1,9 +1,12 @@
 ---
-id: version-13.0-a-quick-guide-to-ip-addressing
+id: a-quick-guide-to-ip-addressing
 title: A quick guide to IP addressing
 sidebar_label: A quick guide to IP addressing
 original_id: a-quick-guide-to-ip-addressing
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 This section attempts to explain the basics of IP addressing, and what
 you will need to know when setting up a lighting control network.
@@ -60,16 +63,16 @@ TNP               | `192.168.1.31`    | `255.255.255.0`
 Device            | IP Address        | Subnet Mask
 ---               | ---               | ---
 Titan Console     | `2.100.100.100`   | `255.0.0.0`
-Art-Net Fixtures  | `2.x.y.z` **\***  | `255.0.0.0`
+Art-Net Fixtures  | `2.x.y.z` <strong>\</strong>*  | `255.0.0.0`
 
 *Alternatively:*
 
 Device            | IP Address        | Subnet Mask
 ---               | ---               | ---
 Titan Console     | `10.100.100.100`  | `255.0.0.0`
-Art-Net Fixtures  | `10.x.y.z` **\*** | `255.0.0.0`
+Art-Net Fixtures  | `10.x.y.z` <strong>\</strong>* | `255.0.0.0`
 
-**\*** *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
+<strong>\</strong>* *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
 
 ### Titan and TNP outputting over Art-Net (and DMX)
 
@@ -77,7 +80,7 @@ Device            | IP Address        | Subnet Mask
 ---               | ---               | ---
 Titan Console     | `2.100.100.100`   | `255.0.0.0`
 TNP               | `2.100.100.101`   | `255.0.0.0`
-Art-Net Fixtures  | `2.x.y.z` **\***  | `255.0.0.0`
+Art-Net Fixtures  | `2.x.y.z` <strong>\</strong>*  | `255.0.0.0`
 
 *Alternatively:*
 
@@ -85,9 +88,9 @@ Device            | IP Address        | Subnet Mask
 ---               | ---               | ---
 Titan Console     | `10.100.100.100`  | `255.0.0.0`
 TNP               | `10.100.100.101`  | `255.0.0.0`
-Art-Net Fixtures  | `10.x.y.z` **\*** | `255.0.0.0`
+Art-Net Fixtures  | `10.x.y.z` <strong>\</strong>* | `255.0.0.0`
 
-**\*** *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
+<strong>\</strong>* *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
 
 > Never set the last number of an IP address to be 255. This is a special address which will not function correctly.
 

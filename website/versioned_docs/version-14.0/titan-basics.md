@@ -1,9 +1,12 @@
 ---
-id: version-14.0-titan-basics
+id: titan-basics
 title: Connecting up and Titan basics
 sidebar_label: Connecting up and Titan basics
 original_id: titan-basics
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 This section covers how to connect the console up, and the basic things
 you need to know about operating Titan.
@@ -37,7 +40,7 @@ will also pop up on the screen and the current show will be autosaved.
 -	If any console or TNP in your session is running from UPS, an error will appear
 	in the event log.
 
-**Arena only:** The Network Switch inside the Arena has an independent
+<strong>Arena only:</strong> The Network Switch inside the Arena has an independent
 UPS system which allows the network switch to continue to run while the
 console is power cycled. When the console is shut down the network
 switch will continue to run for about 5 minutes. This is important when
@@ -52,12 +55,12 @@ The console runs a Windows-based operating system internally, so you
 need to make sure it is shut down properly rather than just turning off
 its power.
 
-**Start up** the console by pressing and releasing the Power switch on
+<strong>Start up</strong> the console by pressing and releasing the Power switch on
 the face or front edge of the console (lift up the wrist rest on the
 Sapphire Touch). The console display(s) should come alive. The console
 takes up to 1 min 30 seconds to start up.
 
-**Shut down** the console by pressing and releasing the Power switch
+<strong>Shut down</strong> the console by pressing and releasing the Power switch
 again. The console will perform a controlled shutdown. Wait until the
 Power light has gone off (about 30 seconds) before you disconnect power
 from the console.
@@ -67,7 +70,7 @@ from the console.
 Forced Shutdown
 ---------------
 
-To carry out a **Forced Shutdown** of the console, if the normal shut
+To carry out a <strong>Forced Shutdown</strong> of the console, if the normal shut
 down does not work, hold down the power switch for 5 seconds. You will
 lose any changes to your show since the last save.
 
@@ -76,7 +79,7 @@ shut down the console if it is not possible to shutdown the console by
 any of the above means. In this case having disconnected the mains power
 you should press the Battery Disconnect switch on the rear panel.
 
-**Arena only:** Battery Disconnect will also shut down the internal
+<strong>Arena only:</strong> Battery Disconnect will also shut down the internal
 network switch so be careful if you are running a backup console via the
 switch. When you shut down the Arena normally, the network switch will
 stay on for about 5 minutes then power off. There is no harm in leaving
@@ -86,11 +89,11 @@ Connecting up Titan Mobile and T1/T2
 ------------------------------------
 
 Do not connect the Titan Mobile panel or the T1/T2 dongle to your PC for
-the first time until you have installed the **Titan PC Suite** software,
+the first time until you have installed the <strong>Titan PC Suite</strong> software,
 which you do simply by running the installer file. This will make sure
 the drivers for the panel are installed.
 
->	**PC specifications:** From Titan v14, your PC should be running Windows 10 64-bit (other versions 
+>	<strong>PC specifications:</strong> From Titan v14, your PC should be running Windows 10 64-bit (other versions 
 	may not work correctly and we can't provide you with support). Some users have
 	successfully used Virtual Machines to run Titan, but we don't provide support for them.
     We recommend i5 processor with 4GB RAM as a minimum.	
@@ -100,7 +103,7 @@ the drivers for the panel are installed.
 For best usability, your PC should have a touch screen. If not you can
 use the mouse to select touch buttons.
 
-**Titan Mobile:** Having installed the software, connect the USB cable
+<strong>Titan Mobile:</strong> Having installed the software, connect the USB cable
 for the panel (older Titan Mobile panels have two USB connectors -- you
 only need to connect port A, nearest the DC socket). If your PC asks you
 for drivers, select \'Install the Software Automatically\'. If you have
@@ -120,7 +123,7 @@ from the Avolites website. The licence is keyed to the internal AvoKey
 in the Titan Mobile panel so you can install the software on multiple
 computers but it will only run when the Titan Mobile panel is connected.
 
-**T1/T2:** The T1/T2 USB devices give you a full lighting control system
+<strong>T1/T2:</strong> The T1/T2 USB devices give you a full lighting control system
 that will output one or two universes of DMX or Art-Net. The software to
 run it is called Titan Go. The first time you run Titan Go you will need
 to obtain a licence from the Avolites website which will license the
@@ -199,9 +202,9 @@ Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) will also support 2 mon
 you are using has the facility.
 
 An external monitor is disabled by default and will show a \'disabled\'
-message. To enable, switch to **System** menu (press \<Avo\> + \<Disk\>) and
-select \[Display Setup\] then press \[External Display Disconnected\].
-The option will change to \[External Display Connected\] and the display
+message. To enable, switch to <strong>System</strong> menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and
+select <Keys.SoftKey>Display Setup</Keys.SoftKey> then press <Keys.SoftKey>External Display Disconnected</Keys.SoftKey>.
+The option will change to <Keys.SoftKey>External Display Connected</Keys.SoftKey> and the display
 will be enabled.
 
 If you need to change the monitor resolution or settings on a console, touch
@@ -243,8 +246,8 @@ the console. Suitable lamps are available from Avolites. The lamps are
 (not all desk lamps are wired like this and may require rewiring to
 work). 
 
-- You can set the brightness of the desk lamps from the **System** menu 
-	(press \<Avo\> + \<Disk\>).
+- You can set the brightness of the desk lamps from the <strong>System</strong> menu 
+	(press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>).
 
 Connecting Console Wings
 ------------------------

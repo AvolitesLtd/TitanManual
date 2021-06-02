@@ -1,8 +1,7 @@
 ---
-id: version-15.0-chases
+id: chases
 title: Chases
 sidebar_label: Chases
-original_id: chases
 ---
 
 As well as being used to store [static cues](cues.md), the playback faders can also

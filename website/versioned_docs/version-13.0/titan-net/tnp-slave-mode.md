@@ -1,14 +1,17 @@
 ---
-id: version-13.0-tnp-slave-mode
+id: tnp-slave-mode
 title: TNP Slave Mode
 sidebar_label: TNP Slave Mode
 original_id: tnp-slave-mode
 ---
 
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
 Normally the TNP screen shows the "Home screen" which displays the
 connection status and IP address of the two Ethernet ports on the
 device. Buttons across the top allow you to configure the device. The
-\<Exit\> button always takes you back to the previous menu.
+<Keys.HardKey>Exit</Keys.HardKey> button always takes you back to the previous menu.
 
 ![TNP Home Screen](/docs/images/TNP-Home-Screen.png)
 
@@ -19,7 +22,7 @@ The setup screen allows you to configure network port settings, and node
 settings for the overall device by touching "Network Settings" or "Node
 Settings".
 
-For **Network Settings** you first select which Ethernet port you want
+For <strong>Network Settings</strong> you first select which Ethernet port you want
 to configure
 
 ![TNP - Setup - Network Settings Screen](/docs/images/TNP-Setup-Network-Settings-Screen.png)
@@ -32,7 +35,7 @@ using the number buttons, or set a fixed (automatically generated)
 
 Touch the "Save Settings" button to store your changes.
 
-For **Node Settings** you can change the legend of the device and the
+For <strong>Node Settings</strong> you can change the legend of the device and the
 line colour. This is shown on the top line of the device and on all
 TitanNet pages on connected devices. It helps you identify the device
 when you use the TitanNet overview on the console.

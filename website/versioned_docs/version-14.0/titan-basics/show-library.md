@@ -1,9 +1,12 @@
 ---
-id: version-14.0-show-library
+id: show-library
 title: Show Library
 sidebar_label: Show Library
 original_id: show-library
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Show Library window collects all the information about your show
 into a single place. It is very useful to transfer programming when
@@ -11,10 +14,10 @@ importing parts of previous shows, or when moving shows to a Titan
 consoles with fewer faders, but can also be used to move items around
 within your show.
 
-Double press \<View/Open\> then press \[Show Library\] from the window
+Double press <Keys.HardKey>View/Open</Keys.HardKey> then press <Keys.SoftKey>Show Library</Keys.SoftKey> from the window
 select buttons to
-open the window (or if in the root menu, \[Open Workspace Window\],
-\[Show Library\]).
+open the window (or if in the root menu, <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>,
+<Keys.SoftKey>Show Library</Keys.SoftKey>).
 
 Show Library tab
 ----------------
@@ -41,7 +44,7 @@ Users tab
 ---------
 
 This tab allows you to set up and select users for the console. This is
-the same as the \[Users\] option found in the Disk menu.
+the same as the <Keys.SoftKey>Users</Keys.SoftKey> option found in the Disk menu.
 
 Key profiles view
 -----------------

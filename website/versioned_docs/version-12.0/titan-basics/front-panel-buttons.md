@@ -1,9 +1,12 @@
 ---
-id: version-12.0-front-panel-buttons
+id: front-panel-buttons
 title: Front Panel Buttons
 sidebar_label: Front Panel Buttons
 original_id: front-panel-buttons
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The blue and grey buttons associated with fader handles, and the
 macro/executor buttons are configurable and you can use them in various
@@ -42,11 +45,11 @@ corner of the console.
 
 To record a macro:
 
-1. Press the \<Macro\> button (above keypad)
+1. Press the <Keys.HardKey>Macro</Keys.HardKey> button (above keypad)
 
-2. Select \[Full Speed\] or \[Real Time\].
+2. Select <Keys.SoftKey>Full Speed</Keys.SoftKey> or <Keys.SoftKey>Real Time</Keys.SoftKey>.
 
-3. Press \[Record\]
+3. Press <Keys.SoftKey>Record</Keys.SoftKey>
 
 4. Press a suitable empty button on the panel, or an empty button in
 the Macro window on the screen. Recording starts. The Insert/Macro
@@ -54,7 +57,7 @@ button flashes during recording.
 
 5. Press the sequence of buttons you want to record.
 
-6. Press \[Record Macro\] to finish recording.
+6. Press <Keys.SoftKey>Record Macro</Keys.SoftKey> to finish recording.
 
 To play back the macro, just press or touch the button where you
 recorded the macro. The macro will repeat all your button presses, with
@@ -140,26 +143,28 @@ Shortcuts are shown on the next page.
   \+ (num)   And                        Alt ↓     Highlight
   ---------- ----------------------- -- --------- -------------------------
 
-⇑ means shift\
+⇑ means shift
+
+
 (num) means on the numeric keypad
 
 Locking the console
 -------------------
 
 You can place a simple lock on the console controls to prevent people
-fiddling with it while you're not looking. Hold down \<Avo\> and press
-\[Lock\], then type a password (numbers or letters). To unlock, enter
+fiddling with it while you're not looking. Hold down <Keys.HardKey>Avo</Keys.HardKey> and press
+<Keys.SoftKey>Lock</Keys.SoftKey>, then type a password (numbers or letters). To unlock, enter
 the password again, or restarting the console will also unlock it. After
 a few seconds, the "Enter password" prompt will fade out but will appear
 again if you press buttons or touch the screen. This is not a
 high-security lock, it's just to prevent passing idiots messing with it.
 
 You can set a background image for the lock screen from the Lock Screen
-Background option in the General tab of User Settings (hold \<Avo\>,
-press \[User Settings\]). The image can be either loaded from a picture
+Background option in the General tab of User Settings (hold <Keys.HardKey>Avo</Keys.HardKey>,
+press <Keys.SoftKey>User Settings</Keys.SoftKey>). The image can be either loaded from a picture
 file or drawn using the touch screen.
 
-If you load a picture file, the menu option \[Scaling Mode\] sets how
+If you load a picture file, the menu option <Keys.SoftKey>Scaling Mode</Keys.SoftKey> sets how
 the picture will be scaled to fill the screen.
 
 -   None: Image is displayed 1:1
@@ -174,7 +179,7 @@ the picture will be scaled to fill the screen.
 -   Stretch: scales the image until it fills the whole screen, ignoring
     the aspect ratio
 
-The \[Clear\] softkey will remove the image.
+The <Keys.SoftKey>Clear</Keys.SoftKey> softkey will remove the image.
 
 While the console is locked, all functions are disabled except the DMX
 outputs and currently running playbacks.

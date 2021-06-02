@@ -1,8 +1,7 @@
 ---
-id: version-15.0-titan-net
+id: titan-net
 title: Titan Net Processor Operation
 sidebar_label: Titan Net Processor Operation
-original_id: titan-net
 ---
 
 A TNP (TitanNet Processor) unit can operate either as a slave unit,

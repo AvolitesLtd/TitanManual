@@ -1,9 +1,11 @@
 ---
-id: version-15.0-linking-consoles-for-multi-user-or-backup
+id: linking-consoles-for-multi-user-or-backup
 title: Linking Consoles for Multi-User or Backup
 sidebar_label: Linking Consoles for Multi-User or Backup
-original_id: linking-consoles-for-multi-user-or-backup
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 On large shows it is sometimes necessary to have multiple operators
 programming or running different aspects of the show. The Titan system
@@ -38,10 +40,11 @@ become inaccessible if the backup device has less faders/handles than
 the main console.
 
 1. Connect both consoles to the same network and ensure they are set to
-  the same IP range.\
+  the same IP range.
+
   See the [networking section](../networking.md) for more information.
 
-2. On the console which will be the Backup, press \<Disk\>, \[TitanNet Sessions\], \[Backup\].
+2. On the console which will be the Backup, press <Keys.HardKey>Disk</Keys.HardKey>, <Keys.SoftKey>TitanNet Sessions</Keys.SoftKey>, <Keys.SoftKey>Backup</Keys.SoftKey>.
 
 3. Consoles available for backup will be listed in the softkeys.
 
@@ -64,13 +67,13 @@ network connection. A blue line will appear during sync operations.
 
 -   Shows will automatically sync whenever a show is saved on the main
     console (including autosave). You can also choose to sync at any
-    time by selecting \[Sync Now\].
+    time by selecting <Keys.SoftKey>Sync Now</Keys.SoftKey>.
 
--   Pressing \[Exit\] will abort backup.
+-   Pressing <Keys.SoftKey>Exit</Keys.SoftKey> will abort backup.
 
--   \[Takeover\] will enable control on the backup console and disable
+-   <Keys.SoftKey>Takeover</Keys.SoftKey> will enable control on the backup console and disable
     DMX output on the main console. A prompt will appear on the main
     console to warn that DMX has been disabled. On touch consoles
     touching on this prompt will open the 'Exit Safe Mode' menu
     with a softkey option to re-enable output. On the Pearl Expert you
-    can re-enable DMX output via the \<Avo\> menu.
+    can re-enable DMX output via the <Keys.HardKey>Avo</Keys.HardKey> menu.

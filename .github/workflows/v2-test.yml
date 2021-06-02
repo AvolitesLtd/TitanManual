@@ -34,7 +34,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          cd websitev2/docusaurus-search-local
+          cd website/docusaurus-search-local
           yarn install
           yarn build
           cd ../
@@ -44,14 +44,14 @@ jobs:
       - name: Linux/Mac App Build & Copy to downloads
         if: matrix.os != 'windows-latest'
         run: |
-          cd websitev2
+          cd website
           GH_TOKEN=${{secrets.GITHUB_TOKEN}} npm run app-build
           mv dist/*.zip dist/*.dmg dist/*.deb dist/*.AppImage downloads || true
 
       - name: Windows App Build & Copy to downloads
         if: matrix.os == 'windows-latest'
         run: |
-          cd websitev2
+          cd website
           npm run app-build
           mv dist/*.exe downloads
           mv dist/*.zip downloads
@@ -63,7 +63,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: ${{matrix.os}}
-          path: websitev2/downloads
+          path: website/downloads
           
   pdf:
     name: PDF
@@ -97,7 +97,7 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
     - name: npm install, build, and test
       run: |
-        cd websitev2/docusaurus-search-local
+        cd website/docusaurus-search-local
         yarn install
         yarn build
         cd ../
@@ -112,5 +112,5 @@ jobs:
         flags: '-avzr --delete'
         options: ''
         ssh_options: ''
-        src: 'websitev2/build/'
+        src: 'website/build/'
         dest: 'root@176.58.122.97:/var/www/sites/avodocs/'

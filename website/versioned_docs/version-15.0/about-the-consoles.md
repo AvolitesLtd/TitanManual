@@ -1,8 +1,7 @@
 ---
-id: version-15.0-about-the-consoles
+id: about-the-consoles
 title: Console Hardware
 sidebar_label: Console Hardware Introduction
-original_id: about-the-consoles
 ---
 
 This manual covers all types of Avolites console, and while the operation

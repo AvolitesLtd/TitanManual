@@ -1,9 +1,12 @@
 ---
-id: version-14.0-introduction
+id: introduction
 title: Introduction to Avolites Titan
 sidebar_label: Introduction to Avolites Titan
 original_id: introduction
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Welcome to Avolites Titan! This manual aims to you tell you everything
 there is to know about operating your Avolites console.
@@ -32,9 +35,9 @@ Conventions used in the manual
 Links or cross-references to a more detailed description are shown [like this](./introduction.md).
 
 To help you find buttons and controls:
-- \<This\> indicates a physical buttons on the console *(or \<Avo\> for red keys)*
-- \[This\] indicates a softkey option on the touchscreen
-- \{This\} indicates an option in a context menu 
+- <Keys.HardKey>This</Keys.HardKey> indicates a physical buttons on the console *(or <Keys.HardKey>Avo</Keys.HardKey> for red keys)*
+- <Keys.SoftKey>This</Keys.SoftKey> indicates a softkey option on the touchscreen
+- <Keys.ContextKey>This</Keys.ContextKey> indicates an option in a context menu 
 
 Step-by-step guides are shown as follows:
 

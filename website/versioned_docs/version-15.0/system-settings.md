@@ -1,13 +1,15 @@
 ---
-id: version-15.0-system-settings
+id: system-settings
 title: System Menu and User Settings
 sidebar_label: System Menu and User Settings
-original_id: system-settings
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The console has a large number of options to help you set it up just the
 way you like it. Commonly used options can be set from the User Settings
-menu which is available on a softkey when you hold down the \<Avo\>
+menu which is available on a softkey when you hold down the <Keys.HardKey>Avo</Keys.HardKey>
 button.
 
 The System menu itself allows you to set up the console hardware including physical DMX outputs,

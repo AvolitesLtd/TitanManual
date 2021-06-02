@@ -8,7 +8,7 @@ const webLocalJsDir = path.resolve(__dirname,'../static/js')
 const sourcesDir = path.resolve(__dirname,'sources')
 const appLocalJsDir = path.join(sourcesDir,'local')
 
-const path404 = path.resolve(__dirname,'../build/AvoDocs/404.html')
+const path404 = path.join(sourcesDir, '404.html')
 
 async function getFiles(dir) {
   const subdirs = await readdir(dir)

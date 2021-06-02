@@ -1,9 +1,11 @@
 ---
-id: version-15.0-fader-wings
+id: fader-wings
 title: Fader Wings
 sidebar_label: Fader Wings
-original_id: fader-wings
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 "Wings" are additional control surfaces which can be connected to the
 console to provide more faders and buttons, and in some cases extra
@@ -36,8 +38,8 @@ It is designed to fit next to the Titan Mobile panel, but it can also be
 used with the Tiger Touch, Quartz, Arena, Sapphire Touch and T2.
 
 If you want to see the legends and function information for the wing
-controls, there is a **Mobile Wing** workspace window - double click
-\<View/Open\> and select "Mobile Wing". Using the Context Menu buttons 
+controls, there is a <strong>Mobile Wing</strong> workspace window - double click
+<Keys.HardKey>View/Open</Keys.HardKey> and select "Mobile Wing". Using the Context Menu buttons 
 you can select different views for this workspace which combine the playbacks 
 and executor buttons into one screen, or you can display them in separate
 pages.

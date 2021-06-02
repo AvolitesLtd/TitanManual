@@ -1,8 +1,7 @@
 ---
-id: version-15.0-tnp-console-mode
+id: tnp-console-mode
 title: TNP Console Mode
 sidebar_label: TNP Console Mode
-original_id: tnp-console-mode
 ---
 
 TNP console mode allows you to use a TNP to run an unattended show, or

@@ -1,9 +1,12 @@
 ---
-id: version-12.0-recovering-reinstalling-the-console
+id: recovering-reinstalling-the-console
 title: Recovering & Reinstalling the Console
 sidebar_label: Recovering & Reinstalling the Console
 original_id: recovering-reinstalling-the-console
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The console runs on an embedded PC system, and like all computers, there
 is a possibility of system failure. The console software can be reloaded
@@ -21,7 +24,7 @@ Standard Recovery | Two most recent | Preserved |Preserved | Preserved
 Factory Restore | Recovery version + most recent | Deleted | Recovery version | Preserved
 Full Erase | Recovery version | Deleted | Recovery version| Deleted
 
-> Using **Factory Restore** or **Full Erase** will delete all settings and files from the console including show files and user personalities. Any files should be saved to a USB stick before continuing.
+> Using <strong>Factory Restore</strong> or <strong>Full Erase</strong> will delete all settings and files from the console including show files and user personalities. Any files should be saved to a USB stick before continuing.
 
 Detailed instructions on creating and using a recovery stick can be
 found with the recovery creator on the [Avolites website](https://www.avolites.com/software/); depending on
@@ -31,7 +34,7 @@ methods required. The basic procedure is as follows:
 Installation Instructions
 -------------------------
 
-1. **If recovering a version earlier than v11.1**, you will need to set the
+1. <strong>If recovering a version earlier than v11.1</strong>, you will need to set the
 console to boot from USB *(see instructions on the [Avolites website](https://www.avolites.com/software/),
 which vary depending on your console)*
 
@@ -39,9 +42,9 @@ which vary depending on your console)*
 take up to 3 minutes.
 
 3. Once the memory stick has booted, the touch screen will display
-\'Welcome to (Console Name)\', touch **Next** to continue.
+\'Welcome to (Console Name)\', touch <strong>Next</strong> to continue.
 
-4. Please read to the bottom of the licence agreement then touch **Agree**
+4. Please read to the bottom of the licence agreement then touch <strong>Agree</strong>
 to accept.
 
 5. Select the type of recovery you want to perform *(see table above)*
@@ -50,9 +53,9 @@ to accept.
 the number written on the back of the console and should be already
 filled in for you.
 
-7. Touching **Install** will then begin the recovery
+7. Touching <strong>Install</strong> will then begin the recovery
 
-8. Once complete unplug the memory stick and touch the **Restart** button.
+8. Once complete unplug the memory stick and touch the <strong>Restart</strong> button.
 
 After starting the console will install all the software and drivers
 required to run. This takes approximately 30 minutes to complete during

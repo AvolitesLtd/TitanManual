@@ -1,9 +1,12 @@
 ---
-id: version-12.0-creating-reports
+id: creating-reports
 title: Creating Reports
 sidebar_label: Creating Reports
 original_id: creating-reports
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 When preparing a show it is often useful to create a report of how the
 show is patched or programmed on the console, for example to give to a
@@ -28,9 +31,9 @@ following:
 
 To generate reports:
 
-1. Press the \<Disk\> button.
+1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
 
-2. Press \[Reports\].
+2. Press <Keys.SoftKey>Reports</Keys.SoftKey>.
 
 3. Select the item(s) you want to include in the report
 

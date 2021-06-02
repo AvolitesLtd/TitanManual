@@ -1,15 +1,18 @@
 ---
-id: version-14.0-cue-list-options
+id: cue-list-options
 title: Cue List Options
 sidebar_label: Cue List Options
 original_id: cue-list-options
 ---
 
-Cue list options are set from the playback [Options](../cues/playback-options.md). 
-Press \<Options\> (or the \[Options\] softkey on the top level menu then the **select** button for the cue list you wish to edit.
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
-You can also set the cue list options from the Cue List View window by pressing \<View/Open\>
-then the **Select** button of the cue list, then click the **Options** tab.
+Cue list options are set from the playback [Options](../cues/playback-options.md). 
+Press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey on the top level menu then the <strong>select</strong> button for the cue list you wish to edit.
+
+You can also set the cue list options from the Cue List View window by pressing <Keys.HardKey>View/Open</Keys.HardKey>
+then the <strong>Select</strong> button of the cue list, then click the <strong>Options</strong> tab.
 
 The Cue List options are mostly the same as for [Cues](../cues/playback-options.md) and [Chases](../chases/chase-options.md), only
 the additional Cue List options are described here.
@@ -81,16 +84,16 @@ Fader Mode Intensity Kill With Off | The fader masters the overall HTP level and
 Fader Mode Intensity Kill At 0 | The fader masters the overall HTP level and the cue list is killed when the fader is lowered to zero.
 Manual Crossfader | The fader behaves as a manual crossfade control, and the cue list will automatically step on to the next cue when the fader begins travel from top or bottom.
 
-When the fader is in **Manual Crossfader** mode:
+When the fader is in <strong>Manual Crossfader</strong> mode:
 - A running fade can be "captured" onto the fader for manual control by matching the fader position.
 - When firing a cue list in manual crossfade the intensity snaps to full when the fader leaves zero.
 - [Shapes](../effects/shape-generator.md) and [Pixel Mapper](../effects/pixel-mapper.md) effects will fade in with the manual crossfade, but when the fader returns to 0 they are not removed so may still affect the output.
 - [Autoloads](../cue-lists/creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list) in the cue list will use their programmed fade times, regardless of the manual crossfade performed by the fader.
-- Partially completed crossfades can be completed by pressing \<Go\>.
+- Partially completed crossfades can be completed by pressing <Keys.HardKey>Go</Keys.HardKey>.
 
 ### Fire First Cue
 Sets whether the first cue automatically fires when
-the fader is raised, or if you need to press the \<Go\> button to fire it.
+the fader is raised, or if you need to press the <Keys.HardKey>Go</Keys.HardKey> button to fire it.
 
 --- 
 
@@ -109,6 +112,6 @@ Sets fixtures to release when moving to the next cue, if they are
 not programmed in the next cue. This can be useful for creating
 some effects.
 
-> The **Cue Options** which could be set here in previous versions are now set using the Playback View window,
-press \<View/Open\> then the select button for the playback. You can edit cue settings directly in the grid.
+> The <strong>Cue Options</strong> which could be set here in previous versions are now set using the Playback View window,
+press <Keys.HardKey>View/Open</Keys.HardKey> then the select button for the playback. You can edit cue settings directly in the grid.
 

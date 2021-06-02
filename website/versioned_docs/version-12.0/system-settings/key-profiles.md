@@ -1,9 +1,12 @@
 ---
-id: version-12.0-key-profiles
+id: key-profiles
 title: Key Profiles
 sidebar_label: Key Profiles
 original_id: key-profiles
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The console allows you to reconfigure how the front panel buttons work
 to suit your method of working. You can save your settings as a Key
@@ -25,11 +28,11 @@ related to each playback fader.
 
 [Video covering Key Profiles](https://youtu.be/CxHQV4sP_sA?t=20)
 
-To create or edit a profile, switch to System mode then select \[Key
-Profiles\]. You can then use the Manage Profiles menu to View, Edit,
+To create or edit a profile, switch to System mode then select <Keys.SoftKey>Key
+Profiles</Keys.SoftKey>. You can then use the Manage Profiles menu to View, Edit,
 Add, Delete or Rename profiles.
 
-You can also create or edit key profiles in the \[Handle\] tab of
+You can also create or edit key profiles in the <Keys.SoftKey>Handle</Keys.SoftKey> tab of
 Playback Options.
 
 Key Profiles can also be viewed from the Show Library window as
@@ -38,8 +41,8 @@ described in [Show Library](../titan-basics/show-library.md#key-profiles-view) s
 When Adding a new profile, you can select an existing profile to copy
 settings from.
 
-You can also edit Key Profiles from Program mode by holding \<Avo\>,
-then selecting \[Edit Current Key Profile\]. If the current key profile
+You can also edit Key Profiles from Program mode by holding <Keys.HardKey>Avo</Keys.HardKey>,
+then selecting <Keys.SoftKey>Edit Current Key Profile</Keys.SoftKey>. If the current key profile
 is one of the non-editable system ones, you are prompted to add a new
 profile or select an existing editable profile.
 
@@ -57,17 +60,17 @@ fixture/palette buttons only exist on the Pearl Expert, on other
 consoles these settings will not do anything.
 
 ### Fixtures
-The blue, grey or touch key can be allocated to **Disabled**,
-**Select**, **Flash**, **Swop**, **Latch**.
+The blue, grey or touch key can be allocated to <strong>Disabled</strong>,
+<strong>Select</strong>, <strong>Flash</strong>, <strong>Swop</strong>, <strong>Latch</strong>.
 
 > The "Latch" function is equivalent to
 putting the fader to full for that fixture and touching again returns
 the fader to 0.
 
 ### Groups
-The blue, grey or touch key can be allocated to **Disabled**,
-**Select Group**, **Flash Fixtures**, **Timed Flash**, **Flash Master**, **Timed Flash
-Master**, **Swop Fixtures**.
+The blue, grey or touch key can be allocated to <strong>Disabled</strong>,
+<strong>Select Group</strong>, <strong>Flash Fixtures</strong>, <strong>Timed Flash</strong>, <strong>Flash Master</strong>, **Timed Flash
+Master<strong>, </strong>Swop Fixtures**.
 
 You can select if the group function takes
 precedence over the flash function (if a handle has both group and flash
@@ -78,19 +81,19 @@ functions) or vice versa.
 > Only effective on Pearl Expert.
 
 The palette (grey) key can
-be allocated to **Disabled** or **Select Palette**. You can select if the
+be allocated to <strong>Disabled</strong> or <strong>Select Palette</strong>. You can select if the
 palette function takes precedence over the flash function (if a handle
 has both palette and flash functions) or vice versa.
 
 ### Cues
 
-The blue or grey key can be allocated to **Disabled**, **Flash**,
-**Swop**, **Latch**, **Preload**, **Go**.
+The blue or grey key can be allocated to <strong>Disabled</strong>, <strong>Flash</strong>,
+<strong>Swop</strong>, <strong>Latch</strong>, <strong>Preload</strong>, <strong>Go</strong>.
 
 ### Chases
 
-The blue or grey key can be allocated to **Disabled**, **Flash**,
-**Swop**, **Latch**, **Go**, **Stop**, **Preload**, **Connect**, **Tap Tempo**.
+The blue or grey key can be allocated to <strong>Disabled</strong>, <strong>Flash</strong>,
+<strong>Swop</strong>, <strong>Latch</strong>, <strong>Go</strong>, <strong>Stop</strong>, <strong>Preload</strong>, <strong>Connect</strong>, <strong>Tap Tempo</strong>.
 
 ### Cue Lists
 
@@ -108,7 +111,7 @@ Latch | *As Flash*, but dimmers will remain active until button pressed again
 Go | Cue list will advance to next cue using times
 Stop | Stops all fades in the cue list at their current point
 Preload | LTP channels of non-illuminated fixtures will move to positions in next cue
-Connect | Connects this cue list to controls *(same as pressing \<Connect\> then select button of cue list)*
+Connect | Connects this cue list to controls *(same as pressing <Keys.HardKey>Connect</Keys.HardKey> then select button of cue list)*
 Tap Tempo | Set speed parameter by tapping the button
 Next Cue - | Press repeatedly to select the next cue to be output, going backwards
 Next Cue + | Press repeatedly to select next cue to output, going forwards
@@ -120,7 +123,7 @@ Release | Release the playback using programmed release time
 Select If | Press to select all fixtures used in the current cue
 
 ### Macros
-Can be set to **Select** or **Prefer Macro** (the Macro function
+Can be set to <strong>Select</strong> or <strong>Prefer Macro</strong> (the Macro function
 will take precedence over other functions stored on the button).
 
 ### Options
@@ -132,28 +135,28 @@ on empty handles).
 
 This is divided into Standard Masters and Scene Master.
 
-For Standard Masters the options are **Disabled**, **Selection**, **Flash**, **Latch**, **Tap
-Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, **Multiplier x2**,
-**Freeze**, **Connect**.
+For Standard Masters the options are <strong>Disabled</strong>, <strong>Selection</strong>, <strong>Flash</strong>, <strong>Latch</strong>, **Tap
+Tempo<strong>, </strong>Nudge Up<strong>, </strong>Nudge Down<strong>, </strong>Release<strong>, </strong>Reset Multiplier<strong>, </strong>Multiplier x2**,
+<strong>Freeze</strong>, <strong>Connect</strong>.
 
 These last options are for rate and BPM masters, see
 the [BPM Master Options](../running-the-show/playback-controls.md#bpm-master-options). Freeze can be useful to temporarily pause
 shapes or chases, or does a blackout if used with an intensity master.
 
-For Scene Master the options are **Disabled**, **Exit scene mode**, **Enter scene
-mode**, **Commit changes**, **Commit changes and exit scene mode**, **Enter or Exit
-scene mode**, **Enter or commit scene mode**.
+For Scene Master the options are <strong>Disabled</strong>, <strong>Exit scene mode</strong>, **Enter scene
+mode<strong>, </strong>Commit changes<strong>, </strong>Commit changes and exit scene mode<strong>, </strong>Enter or Exit
+scene mode<strong>, </strong>Enter or commit scene mode**.
 
 ## Selecting a Key Profile
 
-To quickly select a Key Profile, hold the \<Avo\> Shift button and press
-\[Select Key Profile\].
+To quickly select a Key Profile, hold the <Keys.HardKey>Avo</Keys.HardKey> Shift button and press
+<Keys.SoftKey>Select Key Profile</Keys.SoftKey>.
 
 ## Individual Key Profiles for playbacks
 
 Each playback can have an individual Key Profile allocated to it. This
 allows you to customise the panel button functions differently for each
 playback. The Key Profile for the playback is selected using the
-\[Handles\] option on Playback Options. If the playback Key Profile is
-set to \[Global\], the default global profile for Cue / Chase / Cue List
+<Keys.SoftKey>Handles</Keys.SoftKey> option on Playback Options. If the playback Key Profile is
+set to <Keys.SoftKey>Global</Keys.SoftKey>, the default global profile for Cue / Chase / Cue List
 is used.

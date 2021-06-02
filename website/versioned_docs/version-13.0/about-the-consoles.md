@@ -1,9 +1,12 @@
 ---
-id: version-13.0-about-the-consoles
+id: about-the-consoles
 title: About the consoles
 sidebar_label: About the consoles
 original_id: about-the-consoles
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 This manual is a reference guide to all the functions of Titan consoles.
 

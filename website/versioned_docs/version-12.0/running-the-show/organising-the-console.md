@@ -1,9 +1,12 @@
 ---
-id: version-12.0-organising-the-console
+id: organising-the-console
 title: Organising the console
 sidebar_label: Organising the console
 original_id: organising-the-console
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 If the layout of the fixture buttons, palettes or playbacks has become a
 bit mixed up during programming, you can use the Move function to move
@@ -15,8 +18,8 @@ Using the Move function
 
 To move fixtures, palettes, groups and playbacks is very simple.
 
-1. Press \<Copy\> then \[Move\] to select Move mode (or just press
-\<Move\> if the console has a button for it).
+1. Press <Keys.HardKey>Copy</Keys.HardKey> then <Keys.SoftKey>Move</Keys.SoftKey> to select Move mode (or just press
+<Keys.HardKey>Move</Keys.HardKey> if the console has a button for it).
 
 2. Press or touch the select key(s) of the item(s) to move.
 
@@ -24,10 +27,10 @@ To move fixtures, palettes, groups and playbacks is very simple.
 
 When moving a range, it is possible to select a range containing
 different types of items, and there can be gaps between them. In this
-case, you can set \[Bunch Up\] mode to have all of the gaps in the range
+case, you can set <Keys.SoftKey>Bunch Up</Keys.SoftKey> mode to have all of the gaps in the range
 removed.
 
-\[Swap Items if Required\] will attempt to reposition any existing
+<Keys.SoftKey>Swap Items if Required</Keys.SoftKey> will attempt to reposition any existing
 handles which are in the way of the move. This is useful when
 rearranging handles on a page which is nearly full.
 
@@ -35,7 +38,7 @@ rearranging handles on a page which is nearly full.
     is not enough space before the end of the page) then the action will
     not be completed.
 
--   Press \<Latch Menu\> to keep Move mode active if you have a number
+-   Press <Keys.HardKey>Latch Menu</Keys.HardKey> to keep Move mode active if you have a number
     of things to move around.
 
 

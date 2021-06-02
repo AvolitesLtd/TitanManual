@@ -1,9 +1,11 @@
 ---
-id: version-15.0-capture-show-files
+id: capture-show-files
 title: Capture Show Files
 sidebar_label: Capture Show Files
-original_id: capture-show-files
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Capture stage is automatically saved within the Titan showfile. The
 Capture stage can also be exported and imported separately from the
@@ -29,7 +31,7 @@ useful to import existing stage structures or rigging designs.
 > The internal Capture engine uses the Capture 2020 version *(in Titan v13 
 and v12, Capture 2018 was used; in Titan v11 and below, Capture Atlas was used)*. 
 You will not be able to import files from newer versions of Capture - use the 
-**"Export for Capture 2020"** function in the File menu of the full version of 
+<strong>"Export for Capture 2020"</strong> function in the File menu of the full version of 
 Capture to save the file as a version which can then be imported.
 
 When importing shows from full Capture you need to ensure that 
@@ -37,7 +39,7 @@ all fixtures in the show have been correctly patched in Capture to match the pat
 console. There is no way to edit an externally created Capture patch on
 the console.
 
-You will need to turn off the **Auto Update** option in the Capture Settings window on Titan, otherwise Titan will move all the fixtures about according to layout settings in the Titan show.
+You will need to turn off the <strong>Auto Update</strong> option in the Capture Settings window on Titan, otherwise Titan will move all the fixtures about according to layout settings in the Titan show.
 
 -  Some fixture types and other Capture elements may not work when you
 import a show that has been created in full Capture. You can
@@ -52,12 +54,12 @@ Clearing the Capture Show
 The Wipe button at the bottom of the Show tab will clear the current
 Capture show.
 
-If the **Auto Update** option is set to **On** (the default setting)
+If the <strong>Auto Update</strong> option is set to <strong>On</strong> (the default setting)
 then the Capture show will be repopulated with the fixtures in the Titan
 show.
 
 You can manually reload patched fixtures from your Titan show into
-Capture by selecting the \[Edit Fixtures\] \[Update Personality\] option on
+Capture by selecting the <Keys.SoftKey>Edit Fixtures</Keys.SoftKey> <Keys.SoftKey>Update Personality</Keys.SoftKey> option on
 the [Patch menu](../patching/changing-the-patch.md#patch-view). 
 This is particularly useful if a capture representation is added to fixtures 
 which previously weren't available in Capture but are already patched in Titan.

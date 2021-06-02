@@ -1,9 +1,12 @@
 ---
-id: version-12.0-pixel-mapper
+id: pixel-mapper
 title: Pixel Mapper
 sidebar_label: Pixel Mapper
 original_id: pixel-mapper
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Creating Pixel Mapper effects
 -----------------------------
@@ -23,21 +26,21 @@ You create effects with the Pixel Mapper as follows:
 
 1. Select the group of fixtures
 
-2. From the top level menu select \[Shapes and Effects\] then \[Pixel
-Mapper\]
+2. From the top level menu select <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then <Keys.SoftKey>Pixel
+Mapper</Keys.SoftKey>
 
-3. Select \[Create effect\]. The Pixel Mapper Editor will open with a
+3. Select <Keys.SoftKey>Create effect</Keys.SoftKey>. The Pixel Mapper Editor will open with a
 blank background. You can overlay your fixture layout on the window, to
-help you see where your fixtures are, by clicking on the \[Fixture
-Overlay 50/50\] context menu button.
+help you see where your fixtures are, by clicking on the <Keys.SoftKey>Fixture
+Overlay 50/50</Keys.SoftKey> context menu button.
 
 ![Effect Editor - Pixel Mapper - New Effect](/docs/images/Effect-Editor-Pixel-Mapper-New-Effect.png)
 
 ### Elements
 
-Click on the \[+\] button at the bottom to add an effect, and choose a
-graphic element. You can **remove** elements by selecting them and clicking
-on the **"rubbish bin"** icon. The graphic buttons as shown below provide
+Click on the <Keys.SoftKey>+</Keys.SoftKey> button at the bottom to add an effect, and choose a
+graphic element. You can <strong>remove</strong> elements by selecting them and clicking
+on the <strong>"rubbish bin"</strong> icon. The graphic buttons as shown below provide
 the following elements to animate:
 
 -   Square
@@ -72,15 +75,15 @@ which will vary depending on the shape but may include:
 - Zoom
 - Rotation
 - Border width
-> To change the **colour**, click on the **layer name**
+> To change the <strong>colour</strong>, click on the <strong>layer name</strong>
 
 ![Effect Editor - Pixel Mapper - Circle on Layer](/docs/images/Effect-Editor-Pixel-Mapper-Circle-on-Layer.png)
 
 ### Animations
 
 Then with the graphic element selected on the left hand side, click on
-the \[+\] button again and choose an **Animation** (how your graphic element
-will move or change) or **Visual Effect** (which change the appearance of the element).
+the <Keys.SoftKey>+</Keys.SoftKey> button again and choose an <strong>Animation</strong> (how your graphic element
+will move or change) or <strong>Visual Effect</strong> (which change the appearance of the element).
 The animated effect will show in the black window
 and be output to the fixtures You can add multiple animations which will
 combine to give the overall effect.
@@ -135,20 +138,22 @@ and what happens to it after that - freeze or kill)*
 
 Some points about animations:
 
--   For **Grid Fit** you need to specify the number of rows and columns in
+-   For <strong>Grid Fit</strong> you need to specify the number of rows and columns in
     the grid.
 
--   For the **gradient animations** you set the start and end opacity and
+-   For the <strong>gradient animations</strong> you set the start and end opacity and
     the offset between them; you also set the Spread which can be Pad
     (single gradient), Reflect (repeats the gradient in and out) or
     Repeat (snaps back to start then repeats the gradient fade)
 
--   If you specify **Spawn For** or **Run For**, the simulation will stop after
+-   If you specify <strong>Spawn For</strong> or <strong>Run For</strong>, the simulation will stop after
     the specified number of cycles. To restart the simulation, click the
-    **reset** button on the top right of the Effect Editor window.\
+    <strong>reset</strong> button on the top right of the Effect Editor window.
+
+
     ![Effect Editor - Pixel Mapper - Reset Button](/docs/images/Effect-Editor-Pixel-Mapper-Reset-Button.png)
 
--   For an effect with a **start point** and **end point**, the number of cycles
+-   For an effect with a <strong>start point</strong> and <strong>end point</strong>, the number of cycles
     is the number of times it goes between the start and end points. For
     an effect with no end point the number of cycles is based on the
     master clock and animation speed.
@@ -157,8 +162,8 @@ Some points about animations:
 
 If you don't have fixtures connected, you can see how the effect will
 look on the fixtures using the Pixel Mapper preview window - open it by
-pressing \<View/Open\>, \[Open Workspace Window\], \[Pixel Mapper
-Preview\]. A real life view of each effect currently running is shown in
+pressing <Keys.HardKey>View/Open</Keys.HardKey>, <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>, <Keys.SoftKey>Pixel Mapper
+Preview</Keys.SoftKey>. A real life view of each effect currently running is shown in
 a button at the bottom of the screen, you can select each of these by
 pressing the button.
 
@@ -171,10 +176,10 @@ an effect you like, you can save it to a playback.
 
 > When adjusting the parameter sliders, as well as using click/drag on the screen you can also use the wheels or type in a numerical value. To assign a slider to the wheels or for numerical input, click the value box to the right of the control. Double click the value to reset it to its default, or use the +/- softkey to change the sign of the value.
 
--   You can **reorder** the Pixel Mapper layers by selecting the layer to
+-   You can <strong>reorder</strong> the Pixel Mapper layers by selecting the layer to
     move and clicking on the up/down arrow buttons.
 
--   You can **copy** or move layers, elements and animations by pressing
+-   You can <strong>copy</strong> or move layers, elements and animations by pressing
     Copy or Move, then select an element, then select a destination to
     copy or move it to.
 
@@ -186,48 +191,48 @@ left to set these parameters:
 
 ![Effect Editor - Pixel Mapper - Effect Master Parameters](/docs/images/Effect-Editor-Pixel-Mapper-Effect-Master-Parameters.png)
 
--   The **Block Effect** switch allows you to create a pixel map effect
+-   The <strong>Block Effect</strong> switch allows you to create a pixel map effect
     which will block out any pixel maps running on the selected fixtures
     (according to the [priority setting](../cues/playback-options.md#priority)).
     This lets you create a cue
     which will temporarily stop a pixel map effect (similar to Block
     Shapes).
 
--   **Colour** sets the background colour of the effect (Will have no effect
-    if **Back Opacity** is 0)
+-   <strong>Colour</strong> sets the background colour of the effect (Will have no effect
+    if <strong>Back Opacity</strong> is 0)
 
--   **Back Opacity** sets whether other effects will show through in the
+-   <strong>Back Opacity</strong> sets whether other effects will show through in the
     background of this effect. By default this is 0, so other effects
     will show through.
 
--   **Opacity** sets how much other effects show through the foreground of
+-   <strong>Opacity</strong> sets how much other effects show through the foreground of
     this effect.
 
--   **X/Y/Zoom/Rotation** let you modify the position and size of the effect
+-   <strong>X/Y/Zoom/Rotation</strong> let you modify the position and size of the effect
 
--   **Master Speed** sets the overall speed of the effect, this controls
+-   <strong>Master Speed</strong> sets the overall speed of the effect, this controls
     animation speeds and cycle counts
 
--   **Pre-Spool** makes the effect start mid-flow as if it has already been
+-   <strong>Pre-Spool</strong> makes the effect start mid-flow as if it has already been
     running for a time. This lets you start slow-building effects in
     their full glory.
 
--   **Run For** / **And Then** sets how many cycles the effect will run for, and
-    what will happen at the end (**Freeze**, **Kill** or **Stop Spawning**). **Run For**
-    defaults to **"Forever"**.
+-   <strong>Run For</strong> / <strong>And Then</strong> sets how many cycles the effect will run for, and
+    what will happen at the end (<strong>Freeze</strong>, <strong>Kill</strong> or <strong>Stop Spawning</strong>). <strong>Run For</strong>
+    defaults to <strong>"Forever"</strong>.
 
 Pixel Mapper Layer Masters
 --------------------------
 
 You can assign each of the four layers to a master. The master allows
 you to adjust the layer controls in real time. When the master is
-assigned to a fader handle using the \[Assign Masters\], \[Pixel Mapper\]
+assigned to a fader handle using the <Keys.SoftKey>Assign Masters</Keys.SoftKey>, <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>
 controls, the fader will control opacity of the layer.
 
 This means you can create cues and palettes which can manipulate the
 layer settings of effects which are running in other cues.
 
-To enable the layer master, turn on the **Use Master** switch in the effect
+To enable the layer master, turn on the <strong>Use Master</strong> switch in the effect
 editor window.
 
 > Layer masters may require an updated personality file

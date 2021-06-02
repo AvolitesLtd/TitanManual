@@ -1,9 +1,12 @@
 ---
-id: version-13.0-chases
+id: chases
 title: Chases
 sidebar_label: Chases
 original_id: chases
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 As well as being used to store [static cues](cues.md), the playback faders can also
 be used to store chases (sequences of cues). You can also store chases

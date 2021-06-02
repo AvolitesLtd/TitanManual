@@ -1,9 +1,12 @@
 ---
-id: version-12.0-set-list-window
+id: set-list-window
 title: Set List Window
 sidebar_label: Set List Window
 original_id: set-list-window
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Set List window is a handy way of linking playback pages to
 songs/events in your show which you can then easily step through. You
@@ -12,8 +15,8 @@ can have multiple set lists in a show.
 
 [Video covering Set Lists](https://youtu.be/VX5acUU-99M?t=20)
 
-To open the Set List window, click \[Open Workspace Window\] then \[Set
-List\].
+To open the Set List window, click <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> then <Keys.SoftKey>Set
+List</Keys.SoftKey>.
 
 The Set List feature works best if you arrange your playbacks to have a
 page of playbacks for each song in the show.
@@ -56,17 +59,17 @@ bottom right, or the Edit Note context menu button.
     buttons on the console.
 
 -   You can change the legend of the Set List or of individual tracks
-    using the \[Set Legend\] option.
+    using the <Keys.SoftKey>Set Legend</Keys.SoftKey> option.
 
 Track Workspace and Macro links
 -------------------------------
 
 You can trigger macros and workspace shortcuts from tracks using the
-\[Workspace\] and \[Macro\] buttons in the bottom right hand corner of
+<Keys.SoftKey>Workspace</Keys.SoftKey> and <Keys.SoftKey>Macro</Keys.SoftKey> buttons in the bottom right hand corner of
 the window.
 
-To add a workspace link to the current track, click \[Workspace\], then
-either click a workspace shortcut or press the \[Record Workspace\]
+To add a workspace link to the current track, click <Keys.SoftKey>Workspace</Keys.SoftKey>, then
+either click a workspace shortcut or press the <Keys.SoftKey>Record Workspace</Keys.SoftKey>
 softkey to save the current workspace.
 
 Macros can be added either to the whole Set List or just to the current
@@ -82,7 +85,7 @@ show a button for each programmed link.
 
 You can fire the macro or Workspace shortcut by clicking on the link
 button. Delete the button by pressing Delete then clicking the button,
-then press \[Remove\].
+then press <Keys.SoftKey>Remove</Keys.SoftKey>.
 
 Playback Control Macros
 -----------------------
@@ -98,14 +101,22 @@ playbacks when used with a Set List.
 
 Macro | Action
 ------|-------
-\[Fire First Playback\] | Fires the first playback on the current page.
-\[Fire First Playback Page 1\] | Fires the first playback on page 1, regardless of current page.
-\[Fire Playback 1\] | Fires the playback with user number 1.\
-\[Kill First Playback\] | Kills the first playback on the current page.\
-\[Kill First Playback Page 1\] | Kills the first playback on page 1, regardless of current page.\
-\[Kill Playback 1\] | Kills the playback with user number 1.
-\[Release First Playback\] | Releases the first playback on the currently selected page.
-\[Release First Playback Page 1\] | Releases the first playback on page 1, regardless of current page.
-\[Release Playback 1\] | Releases the playback with user number 1.
-\[Release Me\] | Releases the associated playback (cue list).\
-\[Goto My Cue 1\] | Go to cue 1 of the associated cue list.
+<Keys.SoftKey>Fire First Playback</Keys.SoftKey> | Fires the first playback on the current page.
+<Keys.SoftKey>Fire First Playback Page 1</Keys.SoftKey> | Fires the first playback on page 1, regardless of current page.
+<Keys.SoftKey>Fire Playback 1</Keys.SoftKey> | Fires the playback with user number 1.
+
+
+<Keys.SoftKey>Kill First Playback</Keys.SoftKey> | Kills the first playback on the current page.
+
+
+<Keys.SoftKey>Kill First Playback Page 1</Keys.SoftKey> | Kills the first playback on page 1, regardless of current page.
+
+
+<Keys.SoftKey>Kill Playback 1</Keys.SoftKey> | Kills the playback with user number 1.
+<Keys.SoftKey>Release First Playback</Keys.SoftKey> | Releases the first playback on the currently selected page.
+<Keys.SoftKey>Release First Playback Page 1</Keys.SoftKey> | Releases the first playback on page 1, regardless of current page.
+<Keys.SoftKey>Release Playback 1</Keys.SoftKey> | Releases the playback with user number 1.
+<Keys.SoftKey>Release Me</Keys.SoftKey> | Releases the associated playback (cue list).
+
+
+<Keys.SoftKey>Goto My Cue 1</Keys.SoftKey> | Go to cue 1 of the associated cue list.

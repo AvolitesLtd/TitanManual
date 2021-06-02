@@ -1,11 +1,14 @@
 ---
-id: version-12.0-the-system-menu
+id: the-system-menu
 title: The System Menu
 sidebar_label: The System Menu
 original_id: the-system-menu
 ---
 
-The System menu is accessed by holding \<Avo\> and pressing Disk. Some
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
+The System menu is accessed by holding <Keys.HardKey>Avo</Keys.HardKey> and pressing Disk. Some
 consoles are also fitted with a key switch or mode switch to select
 System mode.
 
@@ -50,7 +53,7 @@ as a backup console, for more information see the [Linking consoles for multi-us
 -------------
 
 The User Settings menu may also be accessed from Program mode: hold down
-the \<Avo\> Shift button and press \[User Settings\]. See the [User Settings](user-settings.md) section.
+the <Keys.HardKey>Avo</Keys.HardKey> Shift button and press <Keys.SoftKey>User Settings</Keys.SoftKey>. See the [User Settings](user-settings.md) section.
 
 [Key Profiles](key-profiles.md)
 ------------
@@ -60,11 +63,11 @@ Allows you to modify the functions of some buttons. See section the [Key Profile
 Wipe
 ----
 
-The Wipe menu erases the current show. This is the same as the \[New
-Show\] option on the Disk menu, but is provided here for old fashioned
+The Wipe menu erases the current show. This is the same as the <Keys.SoftKey>New
+Show</Keys.SoftKey> option on the Disk menu, but is provided here for old fashioned
 Avolites users who are used to it being on the System menu.
 
-The \[Wipe Visualiser Patch\] option will erase all fixtures from the
+The <Keys.SoftKey>Wipe Visualiser Patch</Keys.SoftKey> option will erase all fixtures from the
 visualiser without affecting the current show.
 
 [Triggers](../running-the-show/midi-dmx-or-audio-triggering.md)
@@ -95,7 +98,7 @@ will report anonymous information to Avolites. This includes details
 about faults that occur, statistics on how long certain functions take,
 and usage of functions. This information is really useful for improving
 the software, however if you would prefer to disable it, click the
-\[Telemetry Enabled\] button to switch it to \[Telemetry Disabled\].
+<Keys.SoftKey>Telemetry Enabled</Keys.SoftKey> button to switch it to <Keys.SoftKey>Telemetry Disabled</Keys.SoftKey>.
 Telemetry information will only be sent in any case if the console is
 connected to the internet.
 

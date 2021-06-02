@@ -1,9 +1,11 @@
 ---
-id: version-15.0-linking-the-console-to-stand-alone-capture
+id: linking-the-console-to-stand-alone-capture
 title: Linking the Console to Stand-Alone Capture
 sidebar_label: Linking the Console to Stand-Alone Capture
-original_id: linking-the-console-to-stand-alone-capture
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Sometimes the extra capabilities of the full version of Capture are
 needed, and the console is linked to a PC running full Capture. The
@@ -11,7 +13,7 @@ fixture patch details and fixture selection will sync between the
 console and Capture.
 
 When the PC is connected to the same network as the console, you should
-be able to see the console listed at the bottom of the **"Universes"** tab
+be able to see the console listed at the bottom of the <strong>"Universes"</strong> tab
 in Capture. The console should link automatically, but if not or if
 there are multiple Titan consoles on the network, you can manually
 select one from the list.
@@ -27,7 +29,7 @@ details in Capture the changes will automatically be made on the
 console. If you add a fixture or make changes to the patch on the
 console, then Capture will update. Selecting a fixture on one will
 select the fixture on the other. If you don't want this to happen you
-can turn off the **"Console Link"** function in Capture - simulation
+can turn off the <strong>"Console Link"</strong> function in Capture - simulation
 will continue to operate whether the console is linked or not.
 
 Patching Console Fixtures into Capture
@@ -50,7 +52,7 @@ the same position and orientation in the stand-alone Capture. Changes to
 position, orientation, legend and user number will sync between the
 console and stand-alone Capture.
 
-> Fixture Legend in Titan links to the **"Unit"** property on the Capture fixture, and User Number in Titan links to the **"Channel"** property in Capture.
+> Fixture Legend in Titan links to the <strong>"Unit"</strong> property on the Capture fixture, and User Number in Titan links to the <strong>"Channel"</strong> property in Capture.
 
 Patching Capture Fixtures onto the Console
 ------------------------------------------
@@ -59,21 +61,21 @@ If fixtures have already been added in Capture before the console was
 linked, you can patch them on the console using Active Fixtures like
 this
 
-1. Press \<Patch\>, \[Active Fixtures\].
+1. Press <Keys.HardKey>Patch</Keys.HardKey>, <Keys.SoftKey>Active Fixtures</Keys.SoftKey>.
 
-2. Select \[CITP Visualisers\].
+2. Select <Keys.SoftKey>CITP Visualisers</Keys.SoftKey>.
 
 3. You should see the Capture computer as a softkey option, press it.
 
-4. Select an empty handle to start patching, or press \[Patch Capture @
-...\] to patch automatically.
+4. Select an empty handle to start patching, or press <Keys.SoftKey>Patch Capture @
+...</Keys.SoftKey> to patch automatically.
 
 > If any fixtures can't be patched (unsupported fixture type, or
 duplicate user number) then a blank handle will be left and a warning
 softkey will be shown at the end; clicking this will show a list of
 problems found.
 
-To fix duplicate user numbers, edit the value in the **"Channel"** field in
+To fix duplicate user numbers, edit the value in the <strong>"Channel"</strong> field in
 Capture to be a unique number. To fix unsupported fixtures, first try
 [updating your Titan fixture library](../fixture-personalities.md#updating-the-personality-library-on-the-console). If this doesn't help, you can
 [submit a personality request](../fixture-personalities.md#requesting-a-new-fixture-personality) on the [Avolites website](https://personalities.avolites.com/?mainPage=Request%20Queue.asp&) and select "Capture

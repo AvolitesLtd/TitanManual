@@ -1,8 +1,5 @@
 // include all the web styling
-@import '../../build/AvoDocs/css/main';
-
-// website variables
-@import '../../scss/variables';
+@import '../../src/css/customTheme.scss';
 
 // import custom app styling
 @import 'offline';
@@ -21,16 +18,17 @@
   box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
-header {
-  .headerTitleWithLogo {
+nav {
+  .navbar__title {
     // remove the 'Avolites Titan Manual' in header as in title bar already
     display: none !important;
   }
 
-  .nav-site.nav-site-internal li:not(#search) {
-    // remove the header links
+  a[target="_blank"] {
+    // remove the header links that link externally
     display: none !important;
   }
+
 }
 
 .navPusher {
@@ -47,7 +45,7 @@ li.navListItem {
   margin: 8px 0 !important;
 }
 
-footer {
+.footer__links {
   // footer is mostly external links so hide it
-  display: none;
+  display: none !important;
 }

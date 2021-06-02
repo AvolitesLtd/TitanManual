@@ -1,10 +1,12 @@
 ---
-id: version-15.0-changing-the-patch
+id: changing-the-patch
 title: Changing the Patch
 sidebar_label: Changing the Patch
 tags: park
-original_id: changing-the-patch
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Patch View
 ----------
@@ -16,34 +18,34 @@ fixtures. If you need to change the settings of multiple fixtures (for
 example, changing the DMX address of several fixtures) then it's really
 easy to do in one operation in the Patch View.
 
-To show the Patch View window press \<Open/View\> then \<Patch\>, or 
-double press \<Open/View\> and select \[Patch View\] from the window 
+To show the Patch View window press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey>, or 
+double press <Keys.HardKey>Open/View</Keys.HardKey> and select <Keys.SoftKey>Patch View</Keys.SoftKey> from the window 
 select buttons.
 
 ![Patch View](/docs/images/Patch-View.png)
 
-**Fixture type:** lists the different types of fixture in your show.
+<strong>Fixture type:</strong> lists the different types of fixture in your show.
 Each fixture has a unique colour code. Click on these buttons to filter
 the view so it only shows one fixture type.
 
-**Line:** lists the available DMX output lines/universes. The blue
+<strong>Line:</strong> lists the available DMX output lines/universes. The blue
 bar graph in the button shows how much of the line is used by patched
 fixtures and how much is free. Click a button to show the details of
 that line in the right hand side of the window.
 
-The **coloured bar** at the top shows how fixtures are patched on the
+The <strong>coloured bar</strong> at the top shows how fixtures are patched on the
 selected output line, using the unique colour code for each type of
 fixture. Click on a section of the bar to select those fixtures in the
 grid below.
 
-The **grid area** shows details for each patched fixture on the selected
+The <strong>grid area</strong> shows details for each patched fixture on the selected
 output line. Some parameters are editable by clicking in the grid, then
 the softkeys allow you to change the parameter.
 
-> You can change parameters for multiple fixtures by dragging a selection box over the grid, or hold the Ctrl button on the keyboard and click on the required fixtures. Then edit the parameter on the softkeys, and use the \[Set\] context button or press \<Enter\> to update the selected fixtures.
+> You can change parameters for multiple fixtures by dragging a selection box over the grid, or hold the Ctrl button on the keyboard and click on the required fixtures. Then edit the parameter on the softkeys, and use the <Keys.SoftKey>Set</Keys.SoftKey> context button or press <Keys.HardKey>Enter</Keys.HardKey> to update the selected fixtures.
 
 -   You can switch off some of the display columns to make the Patch
-    View simpler. Press the \[Choose Columns\] context menu button and
+    View simpler. Press the <Keys.SoftKey>Choose Columns</Keys.SoftKey> context menu button and
     then use the options on the softkeys to turn columns on and off.
 
 -   You can add notes to each fixture in the Patch View. Click on the
@@ -63,7 +65,7 @@ View Detailed Fixture Information
 ---------------------------------
 
 In the Patch View window click on the View button for the fixture you
-wish to view, or press \<Open/View\> followed by a fixture handle. A
+wish to view, or press <Keys.HardKey>Open/View</Keys.HardKey> followed by a fixture handle. A
 Fixture View window will open showing details for that fixture,
 including the personality and mode used to patch, and the individual DMX
 channel addresses for each attribute. Attributes can be inverted or
@@ -90,7 +92,7 @@ selection box over multiple cells to select more than one.
 ![Change DMX Address](/docs/images/Change-DMX-Address.png)
 
 Type the new address for the first fixture in the selection and press
-\<Enter\> (using the format Universe . Address - if you miss out the
+<Keys.HardKey>Enter</Keys.HardKey> (using the format Universe . Address - if you miss out the
 universe part it will stay unchanged).
 
 All fixtures will be renumbered keeping the addressing offset between
@@ -98,16 +100,17 @@ the fixtures the same (in other words if each fixture takes 20 channels,
 the addresses will be set with an offset of 20 channels between each
 fixture).
 
-The \[Swap Fixture Addresses\] softkey lets you swap the addressing
-between two groups of fixtures. This operates in two modes, \[One For
-One\] or \[Retain Layout\], which you can select by softkey after
-pressing \[Swap Fixture Addresses\].\
-Select one group, then press \[Swap Fixture Addresses\] and select the
+The <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey> softkey lets you swap the addressing
+between two groups of fixtures. This operates in two modes, <Keys.SoftKey>One For
+One</Keys.SoftKey> or <Keys.SoftKey>Retain Layout</Keys.SoftKey>, which you can select by softkey after
+pressing <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey>.
+
+Select one group, then press <Keys.SoftKey>Swap Fixture Addresses</Keys.SoftKey> and select the
 target group. In One for One mode the target must be the same quantity
 of fixtures or the console will display an error. In Retain Layout mode
 the console will attempt to add or remove fixtures to get the same
 quantity - if this conflicts with other fixtures it will give you the
-options to \[Park Conflicting\] or \[Cancel\].
+options to <Keys.SoftKey>Park Conflicting</Keys.SoftKey> or <Keys.SoftKey>Cancel</Keys.SoftKey>.
 
 Changing DMX address using Patch menu
 -------------------------------------
@@ -116,36 +119,36 @@ As well as using the Patch View screen, you can use the Patch menu to
 re-patch a fixture to a different DMX address or a different DMX output
 line. All programming is kept.
 
-1. Press \<Patch\> (if you're not already in Patch mode).
+1. Press <Keys.HardKey>Patch</Keys.HardKey> (if you're not already in Patch mode).
 
-2. Press \[Repatch Fixtures\].
+2. Press <Keys.SoftKey>Repatch Fixtures</Keys.SoftKey>.
 
 3. Press the Select button of the fixture you want to change.
 
-4. To change DMX press \[Address\], type the new address and press
+4. To change DMX press <Keys.SoftKey>Address</Keys.SoftKey>, type the new address and press
 enter. If this address is already in use, a warning icon will be shown.
 ![Address softkey](/docs/images/Address-softkey.png)
 
-5. To change the DMX output line, press \[DMX Line=x\] and enter a new
+5. To change the DMX output line, press <Keys.SoftKey>DMX Line=x</Keys.SoftKey> and enter a new
 output line number.
 
-6. Press \<Enter\> or \[Repatch\] to confirm the change.
+6. Press <Keys.HardKey>Enter</Keys.HardKey> or <Keys.SoftKey>Repatch</Keys.SoftKey> to confirm the change.
 
 7. Repeat from step 3 if you want to change other fixtures.
 
--   You can "Park" the fixture using \[Park\]. This removes the fixture
+-   You can "Park" the fixture using <Keys.SoftKey>Park</Keys.SoftKey>. This removes the fixture
     from the DMX output map, but all programming is retained. The
     original DMX line and address is remembered and you can restore it
-    using the \[Unpark\] option.
+    using the <Keys.SoftKey>Unpark</Keys.SoftKey> option.
 
 -   If the new DMX address already has another fixture or dimmer patched
     on it, the console will warn you (unless this is disabled in
     [User Settings](../system-settings/user-settings.md)). You can either press
-    \[Select another DMX address\] to abort the change or \[Park
-    Conflicting Fixtures\]. All programming for the parked fixture is
+    <Keys.SoftKey>Select another DMX address</Keys.SoftKey> to abort the change or <Keys.SoftKey>Park
+    Conflicting Fixtures</Keys.SoftKey>. All programming for the parked fixture is
     preserved, but you need to repatch it to a free DMX address using
     the above procedure before you can use it again. If you press
-    \[Always Park Conflicting Fixtures\] the console will park this and
+    <Keys.SoftKey>Always Park Conflicting Fixtures</Keys.SoftKey> the console will park this and
     any future conflicting fixtures without warning you (you can change
     this option back in the User Settings).
 
@@ -158,32 +161,32 @@ You can set a legend for each fixture or dimmer you've patched which is
 displayed in the touch button. This can be really useful to help you
 identify the fixture.
 
-1. Press \<Legend\> (D9 only) or on the main menu press softkey \[Set Legend\].
+1. Press <Keys.HardKey>Legend</Keys.HardKey> (D9 only) or on the main menu press softkey <Keys.SoftKey>Set Legend</Keys.SoftKey>.
 
 2. Press the Select button for the fixture you want to legend.
 
 3. Type the legend on the keyboard.
 
-4. Press \<Enter\> when you have finished.
+4. Press <Keys.HardKey>Enter</Keys.HardKey> when you have finished.
 
 -   You can also choose to have a picture legend using the softkey
     options.
 
 -   You can set the same legend for multiple fixtures by selecting a
-    group of fixtures after pressing \[Set Legend\].
+    group of fixtures after pressing <Keys.SoftKey>Set Legend</Keys.SoftKey>.
 
--   You can change the User Number for the fixture using the \[User
-    Number\] softkey on the \[Set Legend\] menu. User Numbers are used
+-   You can change the User Number for the fixture using the <Keys.SoftKey>User
+    Number</Keys.SoftKey> softkey on the <Keys.SoftKey>Set Legend</Keys.SoftKey> menu. User Numbers are used
     when selecting fixtures from the keypad theatre-style.
 
 -   You can automatically allocate User Numbers for multiple fixtures by
-    selecting a group of fixtures, then setting \[User Number\]. The
+    selecting a group of fixtures, then setting <Keys.SoftKey>User Number</Keys.SoftKey>. The
     first fixture will have the User Number you entered, and the other
     selected fixtures will be given a number increasing by 1 for each
     fixture.
 
 -   You can set a legend for the current page of fixtures using the
-    \[Set Legend\] function from the main Program menu, then \[Page Legends\],
+    <Keys.SoftKey>Set Legend</Keys.SoftKey> function from the main Program menu, then <Keys.SoftKey>Page Legends</Keys.SoftKey>,
     then the page tab which you like to change (if pages are not shown you
     can enable this in the context menu). The legend is
     shown on the touch button for the page.
@@ -196,16 +199,16 @@ you to find them quickly. Halo colours can be set manually for each
 fixture (the default setting), or automatically by fixture type using
 the same fixture colours used in the patch window..
 
-To set a manual halo colour, press \<Legend\> or click \[Set Legend\], click the fixture
-button (or select multiple buttons) then select the \[Halo\] option. A
-colour picker will open to let you set the colour, or pressing \[System
-Colours\] will give you colour options on the softkeys. A \[Remove
-Halo\] softkey lets you remove the colour.
+To set a manual halo colour, press <Keys.HardKey>Legend</Keys.HardKey> or click <Keys.SoftKey>Set Legend</Keys.SoftKey>, click the fixture
+button (or select multiple buttons) then select the <Keys.SoftKey>Halo</Keys.SoftKey> option. A
+colour picker will open to let you set the colour, or pressing <Keys.SoftKey>System
+Colours</Keys.SoftKey> will give you colour options on the softkeys. A <Keys.SoftKey>Remove
+Halo</Keys.SoftKey> softkey lets you remove the colour.
 
 ![Fixture Halo](/docs/images/Fixture-Halo.png)
 
-To enable automatic halo colours, hold \<Avo\> and select \[User
-Settings\], then \[Handles\], then set Fixture Halos to \[Auto\].
+To enable automatic halo colours, hold <Keys.HardKey>Avo</Keys.HardKey> and select <Keys.SoftKey>User
+Settings</Keys.SoftKey>, then <Keys.SoftKey>Handles</Keys.SoftKey>, then set Fixture Halos to <Keys.SoftKey>Auto</Keys.SoftKey>.
 Fixture buttons will then be coloured to match the automatic fixture
 colours used in the Patch window.
 
@@ -222,7 +225,7 @@ DMX View Window
 
 When you're having problems getting fixtures to work it can be useful to
 see the actual DMX output values coming from the console. Double press
-\<Open/View\>, then select \[DMX\] from the window select buttons.
+<Keys.HardKey>Open/View</Keys.HardKey>, then select <Keys.SoftKey>DMX</Keys.SoftKey> from the window select buttons.
 
 ![DMX Workspace Window](/docs/images/DMX-Workspace-Window-With-Filters.png)
 
@@ -233,7 +236,7 @@ to the right shows more information about each DMX channel.
 Fixture Exchange
 ----------------
 
-[](https://youtu.be/a_ES6UYQRJ4?t=20 "Advanced Patching")
+<Video videoId="a_ES6UYQRJ4" title="Advanced Patching" />
 
 The Fixture Exchange function enables you to repatch fixtures in your
 show using alternative fixtures, retaining important elements such as
@@ -262,14 +265,14 @@ when faced with a new fixture.
     problems, you will easily be able to return your show to its
     previous state.
 
-1. Enter patch mode by pressing \<Patch\>.
+1. Enter patch mode by pressing <Keys.HardKey>Patch</Keys.HardKey>.
 
 2. Select the new fixture type you wish to use.
 
 3. Touch the select button of the fixture which is to be exchanged.
 
 4. The console will warn you that the fixture is in use. Press the
-    \[Exchange Fixture\] option.
+    <Keys.SoftKey>Exchange Fixture</Keys.SoftKey> option.
 
 5. Repeat from step 3 to exchange other fixtures with the same type
     of new fixture.
@@ -292,13 +295,13 @@ work the same.
 Any changes made will apply immediately to the show. Mappings are
 remembered and will be used whenever you exchange the same fixtures in
 the future (though you can restore to factory mappings at any time
-should you need to using the \[Clear All Mappings\] softkey).
+should you need to using the <Keys.SoftKey>Clear All Mappings</Keys.SoftKey> softkey).
 
 ![Exchange Mapping](/docs/images/Exchange-Mapping.png)
 
 To set up mapping:
 
-1. Press \<Open/View\> then \<Patch\> to show the Patch View screen.
+1. Press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey> to show the Patch View screen.
 
 2. Select the Exchange Mapping tab.
 
@@ -308,7 +311,7 @@ which you have changed to.
 4. The view shows the old fixture on the left and the new fixture on
 the right with attributes listed for both fixture types. You can sort
 the list either alphabetically or in DMX channel order using the
-\[Sort\] context menu option.
+<Keys.SoftKey>Sort</Keys.SoftKey> context menu option.
 
 5. Select an attribute to show the mapping. The mapped attribute on
 both fixtures will highlight in light blue. Brown controls are not
@@ -334,7 +337,7 @@ new destination.
     pop up at the bottom of the screen. Here you can store the new
     mappings by pressing Apply, forget the changes by pressing Cancel or
     restore all mappings to Avolites factory default by pressing Reset.
-    All these actions have to be confirmed by pressing the \[Confirm\]
+    All these actions have to be confirmed by pressing the <Keys.SoftKey>Confirm</Keys.SoftKey>
     softkey.
 
 ### Range Mapping
@@ -357,8 +360,8 @@ values for the range either by wheel, by touching the wheel view on
 touch consoles or by selecting the relevant softkey and entering the
 value.
 
-Once complete, click Apply then \[Confirm\] to commit the changes or
-\[Cancel\] then \[Confirm\] to forget.
+Once complete, click Apply then <Keys.SoftKey>Confirm</Keys.SoftKey> to commit the changes or
+<Keys.SoftKey>Cancel</Keys.SoftKey> then <Keys.SoftKey>Confirm</Keys.SoftKey> to forget.
 
 Updating Patched Personalities
 ------------------------------
@@ -372,16 +375,16 @@ console does not update fixtures which are already patched.
     Personalities, then you will be able to undo any changes if you
     change your mind or have problems.
 
-1.  Enter patch mode by pressing \<Patch\>.
+1.  Enter patch mode by pressing <Keys.HardKey>Patch</Keys.HardKey>.
 
-2.  Press \[Edit Fixtures\].
+2.  Press <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
 
-3.  Press \[Update Personality\]. 
+3.  Press <Keys.SoftKey>Update Personality</Keys.SoftKey>. 
 
 4.  Titan shows all fixture types which are patched in the show and 
     which it has updates for in the installed fixture library. Select 
     the type(s) you want to update, or click 
-    \[Update All\] to update all patched fixture types to the most
+    <Keys.SoftKey>Update All</Keys.SoftKey> to update all patched fixture types to the most
     recent version in the library.
 
 -   Updating a number of fixtures may take a little while.

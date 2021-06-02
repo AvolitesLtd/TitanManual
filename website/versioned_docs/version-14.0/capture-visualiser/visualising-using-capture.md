@@ -1,9 +1,12 @@
 ---
-id: version-14.0-visualising-using-capture
+id: visualising-using-capture
 title: Visualising using Capture
 sidebar_label: Visualising using Capture
 original_id: visualising-using-capture
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Mostly you don't have to do anything special with Capture once you have
 it set up. Just operate the console as normal and Capture will show you

@@ -1,9 +1,12 @@
 ---
-id: version-12.0-titan-simulator
+id: titan-simulator
 title: Titan Simulator
 sidebar_label: Titan Simulator
 original_id: titan-simulator
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Need to pre-program or tweak your show before you get to the venue? No
 problem, just run the Titan Simulator on your PC. You can then load your

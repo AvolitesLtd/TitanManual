@@ -8,7 +8,7 @@ website/build/
 website/dist/
 website/yarn.lock
 
-websitev2/.docusaurus
-websitev2/yarn.lock
-websitev2/build/
-websitev2/dist/
+website/.docusaurus
+website/yarn.lock
+website/build/
+website/dist/

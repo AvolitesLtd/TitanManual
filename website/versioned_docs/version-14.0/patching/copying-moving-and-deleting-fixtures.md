@@ -1,14 +1,17 @@
 ---
-id: version-14.0-copying-moving-and-deleting-fixtures
+id: copying-moving-and-deleting-fixtures
 title: Copying, moving and deleting fixtures
 sidebar_label: Copying, moving and deleting fixtures
 original_id: copying-moving-and-deleting-fixtures
 ---
 
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
 Copying or moving a patched fixture
 -----------------------------------
 
-Using the \<Copy\> or \<Move\> buttons you can make a copy of an existing fixture or
+Using the <Keys.HardKey>Copy</Keys.HardKey> or <Keys.HardKey>Move</Keys.HardKey> buttons you can make a copy of an existing fixture or
 move it to a new handle. You cannot link fixture handle like you can with cues. You can copy
 or move multiple fixtures in one operation.
 
@@ -21,31 +24,31 @@ allocated) so you will need to set an address before you can use it (see
 
 Move is useful for tidying up the console.
 
-1. Press the \<Copy\> or \<Move\> button (on consoles which don't have
-	a **Move** button press \<Avo\> and \<Copy\>).
+1. Press the <Keys.HardKey>Copy</Keys.HardKey> or <Keys.HardKey>Move</Keys.HardKey> button (on consoles which don't have
+	a <strong>Move</strong> button press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Copy</Keys.HardKey>).
 
 2. Press the Select button of the fixture you want to copy/move. You
-can select multiple fixtures -- use the \<And\> buttons to
+can select multiple fixtures -- use the <Keys.HardKey>And</Keys.HardKey> buttons to
 add more fixtures to the selection.
 
 3. Press the empty Select button where you want it to go.
 
--   The \<Menu Latch\> button latches the Copy or Move menu, so you
+-   The <Keys.HardKey>Menu Latch</Keys.HardKey> button latches the Copy or Move menu, so you
     can keep copying or moving things without having to keep pressing
-    the \<Copy\> or \<Move\> button. Press again to unlatch.
+    the <Keys.HardKey>Copy</Keys.HardKey> or <Keys.HardKey>Move</Keys.HardKey> button. Press again to unlatch.
 
--   The \[Retain Layout\] or \[Bunch Up\] option is used when copying a
+-   The <Keys.SoftKey>Retain Layout</Keys.SoftKey> or <Keys.SoftKey>Bunch Up</Keys.SoftKey> option is used when copying a
     group of fixtures with empty handles in the group - you can either
     keep the empty handles, or bunch up the used handles together. There
-    is also a \[Bunch Up With Offset\] option which allows you to leave
+    is also a <Keys.SoftKey>Bunch Up With Offset</Keys.SoftKey> option which allows you to leave
     a gap in the DMX channels, if you are running a show where you need
     to exchange fixtures to ones which use more DMX channels.
 
--   When in Copy mode, option \[Copy Legends\] can be changed to \[Don't
-    copy legends\] so that the copied fixtures are given default
+-   When in Copy mode, option <Keys.SoftKey>Copy Legends</Keys.SoftKey> can be changed to <Keys.SoftKey>Don't
+    copy legends</Keys.SoftKey> so that the copied fixtures are given default
     legends.
 
--   When in Move mode, \[Swap Items if Required\] will attempt to
+-   When in Move mode, <Keys.SoftKey>Swap Items if Required</Keys.SoftKey> will attempt to
     reposition any existing handles which are in the way of the move.
     This is useful when rearranging buttons on a page which is nearly
     full.
@@ -59,9 +62,9 @@ something else.
 
 > All programming for the fixture is also deleted. You cannot undo deletion of a fixture or get the programming back by repatching a fixture to the same handle. If you might need the fixtures again later, move them to an unused fixture page.
 
-1. Enter Patch mode by pressing the \<Patch\> button.
+1. Enter Patch mode by pressing the <Keys.HardKey>Patch</Keys.HardKey> button.
 
-2. Press the \<Delete\> button.
+2. Press the <Keys.HardKey>Delete</Keys.HardKey> button.
 
 3. Press the Select button of the fixture you want to delete.
 

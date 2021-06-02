@@ -1,9 +1,12 @@
 ---
-id: version-12.0-shape-generator
+id: shape-generator
 title: Shape Generator
 sidebar_label: Shape Generator
 original_id: shape-generator
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 [This video will show you how to use the softkeys to create some colour and movement shapes as well as showing how to edit them live](https://youtu.be/oTo6FxHD02o?t=20)
 
@@ -17,7 +20,7 @@ In addition to position shapes, there are a large number of other shapes
 available in Titan. The shapes are defined for a particular attribute
 such as colour, dimmer, focus and so on.
 
-A further category of shapes is the **Block Shape**. This type of shape
+A further category of shapes is the <strong>Block Shape</strong>. This type of shape
 blocks out other shapes, preventing them from running. For example, if
 some fixtures are running a Circle shape, and then a playback is fired
 which has a Block Pan/Tilt shape on some of the fixtures, those fixtures
@@ -28,7 +31,7 @@ playbacks at show time when used with the
 When you use a shape with more than one fixture, you can choose to
 either apply the shape identically to all the fixtures, or offset them
 so that the shape runs along the fixtures creating *"wave"* or *"ballyhoo"*
-type effects. This is called the **Phase** of the shape.
+type effects. This is called the <strong>Phase</strong> of the shape.
 
 ![Capture Visualiser with a shape running across fixtures](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures.png)
 
@@ -39,18 +42,18 @@ When you create a shape, it will be applied to all selected fixtures.
 
 1. [Select the fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) the shape is to be applied to
 
-2. At the main menu press \[Shapes and Effects\] then \[Shape
-Generator\]
+2. At the main menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then <Keys.SoftKey>Shape
+Generator</Keys.SoftKey>
 
-3. Press \[Create\] to start a new shape
+3. Press <Keys.SoftKey>Create</Keys.SoftKey> to start a new shape
 
 ![Shape Generator selecting a category of new shape](/docs/images/Shape-Generator-selecting-a-category-of-new-shape.png)
 
-4. Press a \[softkey\] to select the attribute type to use in the shape or
-press \[All\] for a full list
+4. Press a <Keys.SoftKey>softkey</Keys.SoftKey> to select the attribute type to use in the shape or
+press <Keys.SoftKey>All</Keys.SoftKey> for a full list
 
-5. Press a \[softkey\] to select a shape, or touch the desired shape in the
-**Shapes window**. You can type a search word on the keyboard to search for
+5. Press a <Keys.SoftKey>softkey</Keys.SoftKey> to select a shape, or touch the desired shape in the
+<strong>Shapes window</strong>. You can type a search word on the keyboard to search for
 a particular shape.
 
 6. The shape will be applied to all selected fixtures
@@ -58,12 +61,16 @@ a particular shape.
 ---
 
 -   If you open the Shapes window, it will remain open for instant
-    selection of shapes (you don't need to select \[Shape Generator\]).
+    selection of shapes (you don't need to select <Keys.SoftKey>Shape Generator</Keys.SoftKey>).
     The window will only show shapes which are possible on the selected
     fixtures. Pressing attribute buttons will filter the Shapes window
-    to show only shapes for that attribute. Press the \<Dimmer\>
-    attribute button to show all shapes.\
-    \
+    to show only shapes for that attribute. Press the <Keys.HardKey>Dimmer</Keys.HardKey>
+    attribute button to show all shapes.
+
+
+    
+
+
     ![Shapes Workspace Window](/docs/images/Shapes-Workspace-Window.png)
 
 -   Shapes are based on the current settings of the fixture, *so a
@@ -80,7 +87,7 @@ a particular shape.
     procedure. You can run several shapes on one fixture and the output
     will combine in interesting ways.
 
--   Press \[Shapes and Effects\], \[Shape Generator\] then \[Edit\] to
+-   Press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, <Keys.SoftKey>Shape Generator</Keys.SoftKey> then <Keys.SoftKey>Edit</Keys.SoftKey> to
     show what shapes are running.
 
 -   If you apply the same shape to two different groups of fixtures, the
@@ -92,10 +99,10 @@ a particular shape.
     given the option to run the shape on the main fixture, keeping all
     cells identical, or spread across the sub-fixtures/cells. The options
     are:
-    -   \[Run on Super Fixtures\] - cells are ignored, fixture operates as one
+    -   <Keys.SoftKey>Run on Super Fixtures</Keys.SoftKey> - cells are ignored, fixture operates as one
     block
-    -   \[Run on Sub Fixtures (Linear)\] - the cells are used in numerical order
-    -   \[Run on Sub Fixtures (Group)\] - the layout of the cells is used as
+    -   <Keys.SoftKey>Run on Sub Fixtures (Linear)</Keys.SoftKey> - the cells are used in numerical order
+    -   <Keys.SoftKey>Run on Sub Fixtures (Group)</Keys.SoftKey> - the layout of the cells is used as
     programmed in the [Layout Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) for the group
 
 -   Each shape is designed to work on a particular attribute. Obviously
@@ -105,14 +112,14 @@ a particular shape.
 -   Each shape has a default size and speed setting *(defined in the
     shape file)*.
 
-> When using a Rainbow colour shape, to get the full range of colours you need to set the CMY or RGB attributes to **50%**.
+> When using a Rainbow colour shape, to get the full range of colours you need to set the CMY or RGB attributes to <strong>50%</strong>.
 
 Changing Size and Speed of a Shape
 ----------------------------------
 
 It is easy to change the size and speed of a shape after it has first
 been created. If the display above the wheels is showing Spread and
-Offset rather than Size/Speed, press \[Adjust Speed, Size and Spread\].
+Offset rather than Size/Speed, press <Keys.SoftKey>Adjust Speed, Size and Spread</Keys.SoftKey>.
 
 ![Shape Wheel Attribute Controls for Speed, Size & Spread](/docs/images/Shape-Wheel-Attribute-Controls-for-Speed-Size-Spread.png)
 
@@ -151,36 +158,36 @@ of selecting the same thing.
 
 The sequence of the shape across the fixtures is controlled by the order
 in which you selected the fixtures when you created the shape. You can
-edit the order by selecting \[Fixture Order\] in the Shape Edit menu.
+edit the order by selecting <Keys.SoftKey>Fixture Order</Keys.SoftKey> in the Shape Edit menu.
 
-1. If the right hand wheel isn't showing Spread, press \[Adjust Speed,
-Size and Spread\]
+1. If the right hand wheel isn't showing Spread, press <Keys.SoftKey>Adjust Speed,
+Size and Spread</Keys.SoftKey>
 
-2. Control the **Spread** of the shape using the right hand wheel, or to
-set in terms of Phase, press \[Adjust Spread, Phase and Offset\] and
+2. Control the <strong>Spread</strong> of the shape using the right hand wheel, or to
+set in terms of Phase, press <Keys.SoftKey>Adjust Spread, Phase and Offset</Keys.SoftKey> and
 use the middle wheel *(right hand wheel on Pearl Expert)*.
 
-Spread = **12** *(Phase = 30 degrees)*:
+Spread = <strong>12</strong> *(Phase = 30 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 12](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-12.png)
 
 ---
 
-Spread = **6** *(Phase = 60 degrees)*:
+Spread = <strong>6</strong> *(Phase = 60 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 6](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-6.png)
 
 ---
 
-Spread = **2** *(Phase = 180 degrees)*:
+Spread = <strong>2</strong> *(Phase = 180 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 2](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-2.png)
 
-In **Phase** mode, the display above the wheel shows the phase in degrees.
+In <strong>Phase</strong> mode, the display above the wheel shows the phase in degrees.
 For example, 180 degrees repeats every 2 fixtures, 90 degrees repeats
 every 4 fixtures, 60 degrees repeats every 6 fixtures, and so on.
 
-The **Offset** function allows you to set the starting phase of the shape,
+The <strong>Offset</strong> function allows you to set the starting phase of the shape,
 when more than one shape is running. *For example, if you were running a
 Cyan shape and a Magenta shape to create a mix of colours, you would
 probably want to start them with Cyan at full and Magenta at zero to
@@ -191,37 +198,37 @@ both shapes would reach full at the same time.
 Shape Direction
 ---------------
 
-The \[Direction\] softkey opens a menu allowing you to set a direction
+The <Keys.SoftKey>Direction</Keys.SoftKey> softkey opens a menu allowing you to set a direction
 for the shape. If you have defined a 
 [2D layout for the group](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)
 this allows you to have shapes that visibly
 move in particular directions.
 
-You can keep the shape direction menu open using the \<Menu Latch\>
+You can keep the shape direction menu open using the <Keys.HardKey>Menu Latch</Keys.HardKey>
 button, to allow you to try different options and see the effects.
 
 Beat and Cycles
 ---------------
 
-The \[Adjust Beat and Cycles\] option lets you set on the wheels how the
+The <Keys.SoftKey>Adjust Beat and Cycles</Keys.SoftKey> option lets you set on the wheels how the
 programmed speed will trigger the shape, and how many times the shape
 will run.
 
 ### Beats
 
-The Beats option defaults to \[Beats=1\] which makes the shape run at
+The Beats option defaults to <Keys.SoftKey>Beats=1</Keys.SoftKey> which makes the shape run at
 normal speed. Higher numbers will divide the count, for example
-\[Beats=4\] will make the shape run at quarter of the speed. This is
+<Keys.SoftKey>Beats=4</Keys.SoftKey> will make the shape run at quarter of the speed. This is
 really useful to synchronise different types of shapes which are running
 together.
 
-Clicking the middle of the wheel roller image on screen or pressing \<@A\>
-for **Wheel A** allows you to type in a number for the Beats parameter, and
-also shows two further options for Beats: \[Match to Spread\] sets the
+Clicking the middle of the wheel roller image on screen or pressing <Keys.HardKey>@A</Keys.HardKey>
+for <strong>Wheel A</strong> allows you to type in a number for the Beats parameter, and
+also shows two further options for Beats: <Keys.SoftKey>Match to Spread</Keys.SoftKey> sets the
 beat count to be the same as the current Spread setting for the shape.
 This is useful when using dimmer shapes with movement shapes as it will
 make each fixture turn on for a full cycle of the movement shape. The
-\[Custom\] option resets the \[Value\] option to the last entered value.
+<Keys.SoftKey>Custom</Keys.SoftKey> option resets the <Keys.SoftKey>Value</Keys.SoftKey> option to the last entered value.
 
 ### Cycles
 
@@ -231,7 +238,7 @@ until you stop it. If you set a fixed number, the shape will stop by
 itself after that number of cycles.
 
 You can type in a number instead of using the wheels by clicking the
-middle of the wheel roller image on screen or pressing \<@B\> for **Wheel B**. If
+middle of the wheel roller image on screen or pressing <Keys.HardKey>@B</Keys.HardKey> for <strong>Wheel B</strong>. If
 you are typing in a number you can enter part cycles, for example 1.5.
 
 Using Shapes in Cues
@@ -248,7 +255,7 @@ You can use shapes in a cue list, see
 on how the shapes will behave as you go from cue to cue.
 
 You can also adjust parameters of the shape at playback time using the
-\[Select Shape\] menu, which is on the \[Edit\] menu of the Shape Generator
+<Keys.SoftKey>Select Shape</Keys.SoftKey> menu, which is on the <Keys.SoftKey>Edit</Keys.SoftKey> menu of the Shape Generator
 menu.
 
 Storing Shapes in Palettes

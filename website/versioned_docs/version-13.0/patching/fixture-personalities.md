@@ -1,9 +1,12 @@
 ---
-id: version-13.0-fixture-personalities
+id: fixture-personalities
 title: Fixture Personalities
 sidebar_label: Fixture Personalities
 original_id: fixture-personalities
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 For each type of fixture, the console has a "personality" file which
 tells it how to control the fixture, which channel is the dimmer (HTP)
@@ -57,7 +60,7 @@ clicking on "Titan Fixture Library".
 
 > Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
 
-**To update a console use the following procedure:**
+<strong>To update a console use the following procedure:</strong>
 
 1. Copy the downloaded file TitanFixtureLibrary.exe onto a USB pen
 drive and plug in to the console.
@@ -71,7 +74,7 @@ to run it. Click \'Ok\' on the warning box.
 4. Shut down and then restart the console (using the Restart Software
 button on the screen Tools menu is OK).
 
-**To update Titan Mobile, Titan Go or Titan Simulator:**
+<strong>To update Titan Mobile, Titan Go or Titan Simulator:</strong>
 
 1. Locate the downloaded file TitanFixtureLibrary.exe and double click
 on it to run it. Windows may show a warning about an unrecognised file
@@ -88,7 +91,7 @@ Titan software.
 
 -   Once a fixture is patched, its personality is embedded in the show
     file. Any changes to the fixture library will not affect fixtures
-    patched in the show. You can use the \[Update Personality\] option
+    patched in the show. You can use the <Keys.SoftKey>Update Personality</Keys.SoftKey> option
     in the patch menu to update patched fixtures if you need to.
 
 User/custom personalities
@@ -144,18 +147,28 @@ In an emergency
 The console contains a selection of "Generic" fixtures which you can use
 in an emergency if you need to operate a fixture with no personality.
 When patching, go through the manufacturer list until you find
-\[Generic\]. In this section (among other fixtures) are the following:
+<Keys.SoftKey>Generic</Keys.SoftKey>. In this section (among other fixtures) are the following:
 
 Multi-DMX: Has up to 10 DMX channels, all channels are LTP. You can
 select from 1-10 channels on the Mode screen. Press Attribute Bank and
 use the softkeys to select channels.
 
 Generic RGB: Allows you to control an RGB fixture such as LED colour
-changers. This offers 5 modes:\
-1=Dim 2=R 3=G 4=B\
-VDim 1=R 2=G 3=B\
-1=R 2=G 3=B 4=Dim\
-VDim + 4xRGB\
+changers. This offers 5 modes:
+
+
+1=Dim 2=R 3=G 4=B
+
+
+VDim 1=R 2=G 3=B
+
+
+1=R 2=G 3=B 4=Dim
+
+
+VDim + 4xRGB
+
+
 4xRGB.
 
 VDim is a virtual overall dimmer channel for fixtures without a DMX

@@ -1,3 +1,3 @@
-[submodule "websitev2/docusaurus-search-local"]
-	path = websitev2/docusaurus-search-local
+[submodule "website/docusaurus-search-local"]
+	path = website/docusaurus-search-local
 	url = https://github.com/Farrser/docusaurus-search-local
