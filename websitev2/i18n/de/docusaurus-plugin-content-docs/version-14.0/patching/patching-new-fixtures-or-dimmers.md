@@ -1,7 +1,7 @@
 ---
 id: patching-new-fixtures-or-dimmers
-title: Patching New Fixtures or Dimmers
-sidebar_label: Patching new Fixtures or Dimmers
+title: Geräte und Dimmer patchen
+sidebar_label: Geräte und Dimmer patchen
 original_id: patching-new-fixtures-or-dimmers
 ---
 

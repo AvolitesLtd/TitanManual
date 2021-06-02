@@ -1,7 +1,7 @@
 ---
 id: editing-a-chase
-title: Editing a Chase
-sidebar_label: Editing a Chase
+title: Editieren eines Chasers
+sidebar_label: Editieren eines Chasers
 original_id: editing-a-chase
 ---
 

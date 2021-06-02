@@ -1,7 +1,7 @@
 ---
 id: operating-synergy
-title: Operating Synergy
-sidebar_label: Operating Synergy
+title: Arbeiten mit Synergy
+sidebar_label: Arbeiten mit Synergy
 original_id: operating-synergy
 ---
 

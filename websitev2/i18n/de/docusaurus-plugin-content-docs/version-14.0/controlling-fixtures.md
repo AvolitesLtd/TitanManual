@@ -1,7 +1,7 @@
 ---
 id: controlling-fixtures
-title: Controlling Dimmers and Fixtures
-sidebar_label: Controlling Dimmers and Fixtures
+title: Steuern von Dimmern und Geräten
+sidebar_label: Steuern von Dimmern und Geräten
 original_id: controlling-fixtures
 ---
 

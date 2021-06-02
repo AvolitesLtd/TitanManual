@@ -1,7 +1,7 @@
 ---
 id: shape-generator
-title: Shape Generator
-sidebar_label: Shape Generator
+title: Der Shape-Generator
+sidebar_label: Der Shape-Generator
 original_id: shape-generator
 ---
 

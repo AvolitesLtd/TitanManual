@@ -1,7 +1,7 @@
 ---
 id: operating-the-remote
-title: Operating the Remote
-sidebar_label: Operating the Remote
+title: Verwenden der Titan Remote-App
+sidebar_label: Verwenden der Titan Remote-App
 original_id: operating-the-remote
 ---
 

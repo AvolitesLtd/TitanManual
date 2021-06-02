@@ -1,7 +1,7 @@
 ---
 id: glossary
-title: Glossary of Avolites terms
-sidebar_label: Glossary of Avolites terms
+title: Glossar/Stichwortverzeichnis
+sidebar_label: Glossar/Stichwortverzeichnis
 original_id: glossary
 ---
 

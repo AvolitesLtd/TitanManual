@@ -1,7 +1,7 @@
 ---
 id: linking-consoles-for-multi-user-or-backup
-title: Linking Consoles for Multi-User or Backup
-sidebar_label: Linking Consoles for Multi-User or Backup
+title: Backup und Mehrbenutzerbetrieb
+sidebar_label: Backup und Mehrbenutzerbetrieb
 original_id: linking-consoles-for-multi-user-or-backup
 ---
 

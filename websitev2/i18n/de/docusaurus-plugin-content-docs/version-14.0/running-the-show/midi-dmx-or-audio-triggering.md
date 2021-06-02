@@ -1,7 +1,7 @@
 ---
 id: midi-dmx-or-audio-triggering
-title: External triggering
-sidebar_label: External triggering
+title: Externe Trigger
+sidebar_label: Externe Trigger
 original_id: midi-dmx-or-audio-triggering
 ---
 

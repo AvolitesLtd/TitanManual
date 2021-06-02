@@ -1,7 +1,7 @@
 ---
 id: a-quick-guide-to-ip-addressing
-title: A quick guide to IP addressing
-sidebar_label: A quick guide to IP addressing
+title: Grundlagen der IP-Adressierung
+sidebar_label: Grundlagen der IP-Adressierung
 original_id: a-quick-guide-to-ip-addressing
 ---
 

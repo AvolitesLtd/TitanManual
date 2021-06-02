@@ -1,7 +1,7 @@
 ---
 id: patching
-title: Patching
-sidebar_label: Patching
+title: Patchen
+sidebar_label: Patchen
 original_id: patching
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: cue-timing
-title: Cue Timing
-sidebar_label: Cue Timing
+title: Zeiten für Cues
+sidebar_label: Zeiten für Cues
 original_id: cue-timing
 ---
 

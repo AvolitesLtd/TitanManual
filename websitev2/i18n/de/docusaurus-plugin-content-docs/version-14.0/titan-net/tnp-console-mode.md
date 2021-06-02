@@ -1,7 +1,7 @@
 ---
 id: tnp-console-mode
-title: TNP Console Mode
-sidebar_label: TNP Console Mode
+title: TNP im Stand-Alone-Pultbetrieb
+sidebar_label: TNP im Stand-Alone-Pultbetrieb
 original_id: tnp-console-mode
 ---
 

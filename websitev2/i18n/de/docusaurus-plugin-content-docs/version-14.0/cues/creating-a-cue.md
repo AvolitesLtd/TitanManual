@@ -1,7 +1,7 @@
 ---
 id: creating-a-cue
-title: Creating a Cue
-sidebar_label: Creating a Cue
+title: Erstellen eines Cues
+sidebar_label: Erstellen eines Cues
 original_id: creating-a-cue
 ---
 

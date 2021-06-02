@@ -1,7 +1,7 @@
 ---
 id: fixture-personality-options
-title: Fixture Personality Options
-sidebar_label: Fixture Personality Options
+title: Erweiterte Funktionen
+sidebar_label: Erweiterte Funktionen
 original_id: fixture-personality-options
 ---
 

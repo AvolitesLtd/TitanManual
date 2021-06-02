@@ -1,7 +1,7 @@
 ---
 id: using-palettes
-title: Using Palettes
-sidebar_label: Using Palettes
+title: Abrufen von Paletten
+sidebar_label: Abrufen von Paletten
 original_id: using-palettes
 ---
 

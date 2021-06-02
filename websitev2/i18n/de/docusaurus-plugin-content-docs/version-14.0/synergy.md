@@ -1,7 +1,7 @@
 ---
 id: synergy
-title: Synergy and Linking to AI
-sidebar_label: Synergy and Linking to AI
+title: Synergy und Verbinden mit Ai
+sidebar_label: Synergy und Verbinden mit Ai
 original_id: synergy
 ---
 

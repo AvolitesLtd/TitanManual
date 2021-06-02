@@ -1,7 +1,7 @@
 ---
 id: cue-list-options
-title: Cue List Options
-sidebar_label: Cue List Options
+title: Cuelisten-Optionen
+sidebar_label: Cuelisten-Optionen
 original_id: cue-list-options
 ---
 

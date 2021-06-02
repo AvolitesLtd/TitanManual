@@ -1,7 +1,7 @@
 ---
 id: playback-groups
-title: Playback Groups
-sidebar_label: Playback Groups
+title: Playback-Gruppen
+sidebar_label: Playback-Gruppen
 original_id: playback-groups
 ---
 

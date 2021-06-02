@@ -1,7 +1,7 @@
 ---
 id: editing-cues
-title: Editing Cues
-sidebar_label: Editing Cues
+title: Editieren von Cues
+sidebar_label: Editieren von Cues
 original_id: editing-cues
 ---
 

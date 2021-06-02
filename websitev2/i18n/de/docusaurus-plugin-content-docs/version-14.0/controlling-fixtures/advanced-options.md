@@ -1,7 +1,7 @@
 ---
 id: advanced-options
-title: Fixture Advanced Options
-sidebar_label: Fixture Advanced Options
+title: Weitere Optionen
+sidebar_label: Weitere Optionen
 original_id: advanced-options
 ---
 

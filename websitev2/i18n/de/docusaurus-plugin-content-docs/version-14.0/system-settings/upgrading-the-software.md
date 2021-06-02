@@ -1,7 +1,7 @@
 ---
 id: upgrading-the-software
-title: Upgrading the Software
-sidebar_label: Upgrading the Software
+title: Aktualisieren der Software
+sidebar_label: Aktualisieren der Software
 original_id: upgrading-the-software
 ---
 

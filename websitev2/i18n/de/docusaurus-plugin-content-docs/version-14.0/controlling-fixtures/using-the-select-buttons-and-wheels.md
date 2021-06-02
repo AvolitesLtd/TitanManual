@@ -1,7 +1,7 @@
 ---
 id: using-the-select-buttons-and-wheels
-title: Using the Select Buttons and Wheels
-sidebar_label: Using the Select Buttons and Wheels
+title: Auswahltasten und Encoder
+sidebar_label: Auswahltasten und Encoder
 original_id: using-the-select-buttons-and-wheels
 ---
 

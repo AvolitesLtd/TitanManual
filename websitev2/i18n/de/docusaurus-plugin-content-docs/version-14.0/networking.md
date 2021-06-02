@@ -1,7 +1,7 @@
 ---
 id: networking
-title: Networking the Console
-sidebar_label: Networking the Console
+title: Netzwerkeinstellungen
+sidebar_label: Netzwerkeinstellungen
 original_id: networking
 ---
 

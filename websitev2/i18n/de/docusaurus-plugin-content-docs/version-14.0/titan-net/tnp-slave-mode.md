@@ -1,7 +1,7 @@
 ---
 id: tnp-slave-mode
-title: TNP Slave Mode
-sidebar_label: TNP Slave Mode
+title: TNP im Slave-Betrieb
+sidebar_label: TNP im Slave-Betrieb
 original_id: tnp-slave-mode
 ---
 

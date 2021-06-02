@@ -1,7 +1,7 @@
 ---
 id: effects
-title: Shapes and Effects introduction
-sidebar_label: Shapes and Effects introduction
+title: Shapes und Effekte
+sidebar_label: Shapes und Effekte
 original_id: effects
 ---
 

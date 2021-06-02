@@ -1,7 +1,7 @@
 ---
 id: advanced-options
-title: Advanced Options
-sidebar_label: Advanced Options
+title: Spezielle Optionen
+sidebar_label: Spezielle Optionen
 original_id: advanced-options
 ---
 

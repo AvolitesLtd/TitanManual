@@ -1,7 +1,7 @@
 ---
 id: chase-playback
-title: Chase Playback
-sidebar_label: Chase Playback
+title: Abrufen
+sidebar_label: Abrufen
 original_id: chase-playback
 ---
 

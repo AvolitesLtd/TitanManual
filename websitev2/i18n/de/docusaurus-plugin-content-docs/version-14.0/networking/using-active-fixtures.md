@@ -1,7 +1,7 @@
 ---
 id: using-active-fixtures
-title: Using Active Fixtures with CITP
-sidebar_label: Using Active Fixtures with CITP
+title: Verwenden von Geräten mit CITP
+sidebar_label: Verwenden von Geräten mit CITP
 original_id: using-active-fixtures
 ---
 

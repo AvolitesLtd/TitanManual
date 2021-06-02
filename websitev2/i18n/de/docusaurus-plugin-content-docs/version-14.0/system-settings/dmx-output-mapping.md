@@ -1,7 +1,7 @@
 ---
 id: dmx-output-mapping
-title: DMX Output Mapping
-sidebar_label: DMX Output Mapping
+title: DMX-Ausgänge einrichten
+sidebar_label: DMX-Ausgänge einrichten
 original_id: dmx-output-mapping
 ---
 

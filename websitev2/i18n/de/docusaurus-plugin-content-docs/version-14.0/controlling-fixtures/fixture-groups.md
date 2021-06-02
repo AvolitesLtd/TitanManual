@@ -1,7 +1,7 @@
 ---
 id: fixture-groups
-title: Fixture Groups
-sidebar_label: Fixture Groups
+title: Geräte-Gruppen
+sidebar_label: Geräte-Gruppen
 original_id: fixture-groups
 ---
 

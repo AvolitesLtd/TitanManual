@@ -1,7 +1,7 @@
 ---
 id: remote-control
-title: Remote Control
-sidebar_label: Remote Control
+title: Fernsteuerung
+sidebar_label: Fernsteuerung
 original_id: remote-control
 ---
 

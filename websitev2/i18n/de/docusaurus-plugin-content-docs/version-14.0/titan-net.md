@@ -1,7 +1,7 @@
 ---
 id: titan-net
-title: Titan Net Processor Operation
-sidebar_label: Titan Net Processor Operation
+title: Der Titan Net Processor
+sidebar_label: Der Titan Net Processor
 original_id: titan-net
 ---
 

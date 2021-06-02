@@ -1,7 +1,7 @@
 ---
 id: linking-the-console-to-stand-alone-capture
-title: Linking the Console to Stand-Alone Capture
-sidebar_label: Linking the Console to Stand-Alone Capture
+title: Mit einer externen Capture-Vollversion verbinden
+sidebar_label: Mit einer externen Capture-Vollversion verbinden
 original_id: linking-the-console-to-stand-alone-capture
 ---
 

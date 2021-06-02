@@ -1,7 +1,7 @@
 ---
 id: editing-shapes-and-effects
-title: Editing Shapes and Effects
-sidebar_label: Editing Shapes and Effects
+title: Ändern von Shapes und Effekten
+sidebar_label: Ändern von Shapes und Effekten
 original_id: editing-shapes-and-effects
 ---
 

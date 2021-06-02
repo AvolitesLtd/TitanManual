@@ -1,7 +1,7 @@
 ---
 id: copying-moving-and-deleting-fixtures
-title: Copying, moving and deleting fixtures
-sidebar_label: Copying, moving and deleting fixtures
+title: Kopieren, Verschieben und Löschen
+sidebar_label: Kopieren, Verschieben und Löschen
 original_id: copying-moving-and-deleting-fixtures
 ---
 

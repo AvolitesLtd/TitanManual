@@ -1,7 +1,7 @@
 ---
 id: user-settings
-title: User Settings
-sidebar_label: User Settings
+title: User Settings - Benutzereinstellungen
+sidebar_label: User Settings - Benutzereinstellungen
 original_id: user-settings
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: chase-timing
-title: Chase Timing
-sidebar_label: Chase Timing
+title: Zeiten bei Chasern
+sidebar_label: Zeiten bei Chasern
 original_id: chase-timing
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: creating-palettes
-title: Creating Palettes
-sidebar_label: Creating Palettes
+title: Erstellen von Paletten
+sidebar_label: Erstellen von Paletten
 original_id: creating-palettes
 ---
 

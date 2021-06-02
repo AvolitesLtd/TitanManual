@@ -1,7 +1,7 @@
 ---
 id: palettes
-title: Palettes
-sidebar_label: Palettes
+title: Paletten
+sidebar_label: Paletten
 original_id: palettes
 ---
 

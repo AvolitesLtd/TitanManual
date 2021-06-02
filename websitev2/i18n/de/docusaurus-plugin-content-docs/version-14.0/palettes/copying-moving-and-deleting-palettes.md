@@ -1,7 +1,7 @@
 ---
 id: copying-moving-and-deleting-palettes
-title: Copying, Moving and Deleting Palettes
-sidebar_label: Copying, Moving and Deleting Palettes
+title: Paletten kopieren, verschieben oder löschen
+sidebar_label: Paletten kopieren, verschieben oder löschen
 original_id: copying-moving-and-deleting-palettes
 ---
 

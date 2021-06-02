@@ -1,7 +1,7 @@
 ---
 id: connecting-the-arena-to-a-network
-title: Connecting the Arena to a network
-sidebar_label: Connecting the Arena to a network
+title: Netzwerkanschlüsse beim Arena
+sidebar_label: Netzwerkanschlüsse beim Arena
 original_id: connecting-the-arena-to-a-network
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: fixture-personalities
-title: Fixture Personalities
-sidebar_label: Fixture Personalities
+title: Die Personalities (Gerätedateien)
+sidebar_label: Die Personalities (Gerätedateien)
 original_id: fixture-personalities
 ---
 

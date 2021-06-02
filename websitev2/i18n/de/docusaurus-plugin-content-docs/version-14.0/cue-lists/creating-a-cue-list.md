@@ -1,7 +1,7 @@
 ---
 id: creating-a-cue-list
-title: Creating a Cue List
-sidebar_label: Creating a Cue List
+title: Anlegen einer Cueliste
+sidebar_label: Anlegen einer Cueliste
 original_id: creating-a-cue-list
 ---
 

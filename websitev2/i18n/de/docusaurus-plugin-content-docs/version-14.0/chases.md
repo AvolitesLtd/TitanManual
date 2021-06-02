@@ -1,7 +1,7 @@
 ---
 id: chases
-title: Chases
-sidebar_label: Chases
+title: Chaser
+sidebar_label: Chaser
 original_id: chases
 ---
 

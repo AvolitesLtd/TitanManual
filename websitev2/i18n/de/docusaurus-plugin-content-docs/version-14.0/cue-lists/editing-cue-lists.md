@@ -1,7 +1,7 @@
 ---
 id: editing-cue-lists
-title: Editing Cue Lists
-sidebar_label: Editing Cue Lists
+title: Editieren
+sidebar_label: Editieren
 original_id: editing-cue-lists
 ---
 

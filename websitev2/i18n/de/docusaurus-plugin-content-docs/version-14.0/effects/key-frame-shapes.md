@@ -1,7 +1,7 @@
 ---
 id: key-frame-shapes
-title: Key Frame Shapes
-sidebar_label: Key Frame Shapes
+title: Keyframe-Shapes
+sidebar_label: Keyframe-Shapes
 original_id: key-frame-shapes
 ---
 

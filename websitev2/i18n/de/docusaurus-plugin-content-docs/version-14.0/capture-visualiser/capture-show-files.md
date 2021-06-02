@@ -1,7 +1,7 @@
 ---
 id: capture-show-files
-title: Capture Show Files
-sidebar_label: Capture Show Files
+title: Capture Show-Daten
+sidebar_label: Capture Show-Daten
 original_id: capture-show-files
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: running-the-show
-title: Running the show
-sidebar_label: Running the show
+title: Steuern der Show
+sidebar_label: Steuern der Show
 original_id: running-the-show
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: setting-up-the-remote
-title: Setting up the Remote
-sidebar_label: Setting up the Remote
+title: Einrichten der Fernsteuerung
+sidebar_label: Einrichten der Fernsteuerung
 original_id: setting-up-the-remote
 ---
 

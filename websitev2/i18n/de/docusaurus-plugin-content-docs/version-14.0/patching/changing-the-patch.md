@@ -1,7 +1,7 @@
 ---
 id: changing-the-patch
-title: Changing the Patch
-sidebar_label: Changing the Patch
+title: Das Patch ändern
+sidebar_label: Das Patch ändern
 original_id: changing-the-patch
 ---
 

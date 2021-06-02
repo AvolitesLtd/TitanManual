@@ -1,7 +1,7 @@
 ---
 id: capture-visualiser
-title: Capture Visualiser Introduction
-sidebar_label: Capture Visualiser Introduction
+title: Der Capture-Visualiser
+sidebar_label: Der Capture-Visualiser
 original_id: capture-visualiser
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: playback-controls
-title: Playback controls
-sidebar_label: Playback controls
+title: Steuern der Wiedergabe
+sidebar_label: Steuern der Wiedergabe
 original_id: playback-controls
 ---
 

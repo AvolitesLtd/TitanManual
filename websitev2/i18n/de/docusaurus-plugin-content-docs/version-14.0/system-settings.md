@@ -1,7 +1,7 @@
 ---
 id: system-settings
-title: System Menu and User Settings
-sidebar_label: System Menu and User Settings
+title: System und Benutzereinstellungen
+sidebar_label: System und Benutzereinstellungen
 original_id: system-settings
 ---
 

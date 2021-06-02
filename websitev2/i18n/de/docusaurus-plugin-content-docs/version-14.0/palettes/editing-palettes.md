@@ -1,7 +1,7 @@
 ---
 id: editing-palettes
-title: Editing Palettes
-sidebar_label: Editing Palettes
+title: Editieren von Paletten
+sidebar_label: Editieren von Paletten
 original_id: editing-palettes
 ---
 

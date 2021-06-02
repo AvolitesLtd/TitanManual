@@ -1,7 +1,7 @@
 ---
 id: viewing-and-editing-fixture-values
-title: Viewing and Editing Fixture Values
-sidebar_label: Viewing and Editing Fixture Values
+title: Anzeigen/Verändern von Attribut-Werten
+sidebar_label: Anzeigen/Verändern von Attribut-Werten
 original_id: viewing-and-editing-fixture-values
 ---
 

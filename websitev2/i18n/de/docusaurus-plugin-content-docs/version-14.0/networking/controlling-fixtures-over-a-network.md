@@ -1,7 +1,7 @@
 ---
 id: controlling-fixtures-over-a-network
-title: Controlling Fixtures over a Network
-sidebar_label: Controlling Fixtures over a Network
+title: Steuern von Geräten über Netzwerk
+sidebar_label: Steuern von Geräten über Netzwerk
 original_id: controlling-fixtures-over-a-network
 ---
 

@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "14.0",
     "description": "The label for version current"
   },
   "sidebar.docs.category.Introduction": {
@@ -79,11 +79,11 @@
     "message": "Personalities (Gerätedateien)",
     "description": "The label for category Fixture Personalities in sidebar docs"
   },
-  "sidebar.docs.category.Networking Consoles": {
+  "sidebar.docs.category.Networking the Console": {
     "message": "Netzwerkeinstellungen",
     "description": "The label for category Networking Consoles in sidebar docs"
   },
-  "sidebar.docs.category.Titan Reference": {
+  "sidebar.docs.category.Titan Commands": {
     "message": "Titan Befehlsreferenz",
     "description": "The label for category Titan Reference in sidebar docs"
   },

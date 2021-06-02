@@ -1,7 +1,7 @@
 ---
 id: timing-with-palettes
-title: Timing with Palettes
-sidebar_label: Timing with Palettes
+title: Arbeiten mit Zeiten in Paletten
+sidebar_label: Arbeiten mit Zeiten in Paletten
 original_id: timing-with-palettes
 ---
 

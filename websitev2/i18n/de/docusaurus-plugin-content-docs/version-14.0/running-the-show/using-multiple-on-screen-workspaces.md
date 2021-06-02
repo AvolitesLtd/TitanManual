@@ -1,7 +1,7 @@
 ---
 id: using-multiple-on-screen-workspaces
-title: Using multiple on-screen workspaces
-sidebar_label: Using multiple on-screen workspaces
+title: Workspaces - Arbeitsumgebungen
+sidebar_label: Workspaces - Arbeitsumgebungen
 original_id: using-multiple-on-screen-workspaces
 ---
 

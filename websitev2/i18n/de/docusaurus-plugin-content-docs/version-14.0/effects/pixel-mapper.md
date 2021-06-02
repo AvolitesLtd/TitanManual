@@ -1,7 +1,7 @@
 ---
 id: pixel-mapper
-title: Pixel Mapper
-sidebar_label: Pixel Mapper
+title: Der Pixelmapper
+sidebar_label: Der Pixelmapper
 original_id: pixel-mapper
 ---
 

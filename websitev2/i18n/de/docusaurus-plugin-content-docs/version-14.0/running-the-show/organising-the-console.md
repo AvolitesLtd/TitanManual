@@ -1,7 +1,7 @@
 ---
 id: organising-the-console
-title: Organising the console
-sidebar_label: Organising the console
+title: Das Pult organisieren
+sidebar_label: Das Pult organisieren
 original_id: organising-the-console
 ---
 

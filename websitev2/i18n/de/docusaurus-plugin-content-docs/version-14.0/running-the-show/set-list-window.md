@@ -1,7 +1,7 @@
 ---
 id: set-list-window
-title: Set List Window
-sidebar_label: Set List Window
+title: Das Fenster Set-Liste
+sidebar_label: Das Fenster Set-Liste
 original_id: set-list-window
 ---
 

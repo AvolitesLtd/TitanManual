@@ -1,7 +1,7 @@
 ---
 id: external-displays
-title: External Displays
-sidebar_label: External Displays
+title: Externe Displays
+sidebar_label: Externe Displays
 original_id: external-displays
 ---
 

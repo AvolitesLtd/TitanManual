@@ -1,7 +1,7 @@
 ---
 id: chase-options
-title: Chase Options
-sidebar_label: Chase Options
+title: Chaser-Optionen
+sidebar_label: Chaser-Optionen
 original_id: chase-options
 ---
 

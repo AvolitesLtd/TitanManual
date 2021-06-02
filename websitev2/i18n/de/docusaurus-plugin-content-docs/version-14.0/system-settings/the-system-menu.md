@@ -1,7 +1,7 @@
 ---
 id: the-system-menu
-title: The System Menu
-sidebar_label: The System Menu
+title: Das System-Menü
+sidebar_label: Das System-Menü
 original_id: the-system-menu
 ---
 

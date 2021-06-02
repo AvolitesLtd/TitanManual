@@ -1,7 +1,7 @@
 ---
 id: theatre-programming
-title: Theatre Programming Quick Guide
-sidebar_label: Theatre Programming
+title: Tipps für Theater-Programmierer
+sidebar_label: Tipps für Theater-Programmierer
 original_id: theatre-programming
 ---
 

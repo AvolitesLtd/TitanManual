@@ -1,7 +1,7 @@
 ---
 id: setting-up-the-rig
-title: Setting up the Rig
-sidebar_label: Setting up the Rig
+title: Das Rig einrichten
+sidebar_label: Das Rig einrichten
 original_id: setting-up-the-rig
 ---
 

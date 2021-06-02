@@ -1,7 +1,7 @@
 ---
 id: recovering-reinstalling-the-console
-title: Recovering & Reinstalling the Console
-sidebar_label: Recovering & Reinstalling the Console
+title: Wiederherstellen/Neuinstallation
+sidebar_label: Wiederherstellen/Neuinstallation
 original_id: recovering-reinstalling-the-console
 ---
 

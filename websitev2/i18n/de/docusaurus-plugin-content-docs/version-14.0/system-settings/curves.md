@@ -1,7 +1,7 @@
 ---
 id: curves
-title: Curves
-sidebar_label: Curves
+title: Curves - Kennlinien/Kurven
+sidebar_label: Curves - Kennlinien/Kurven
 original_id: curves
 ---
 

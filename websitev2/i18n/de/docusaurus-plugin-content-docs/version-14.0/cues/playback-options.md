@@ -1,7 +1,7 @@
 ---
 id: playback-options
-title: Playback Options
-sidebar_label: Playback Options
+title: Playback-Optionen
+sidebar_label: Playback-Optionen
 original_id: playback-options
 ---
 

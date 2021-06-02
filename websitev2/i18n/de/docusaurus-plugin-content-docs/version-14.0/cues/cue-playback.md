@@ -1,7 +1,7 @@
 ---
 id: cue-playback
-title: Cue Playback
-sidebar_label: Cue Playback
+title: Einen Cue verwenden
+sidebar_label: Einen Cue verwenden
 original_id: cue-playback
 ---
 

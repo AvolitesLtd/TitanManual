@@ -1,7 +1,7 @@
 ---
 id: copying-moving-linking-and-deleting
-title: Copying, Moving, Linking and Deleting a Cue
-sidebar_label: Copying, Moving, Linking and Deleting
+title: Kopieren, verschieben, verlinken, löschen
+sidebar_label: Kopieren, verschieben, verlinken, löschen
 original_id: copying-moving-linking-and-deleting
 ---
 

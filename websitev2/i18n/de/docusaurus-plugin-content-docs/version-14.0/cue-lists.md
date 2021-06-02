@@ -1,7 +1,7 @@
 ---
 id: cue-lists
-title: Cue Lists
-sidebar_label: Cue Lists
+title: Cuelisten
+sidebar_label: Cuelisten
 original_id: cue-lists
 ---
 

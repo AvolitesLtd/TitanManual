@@ -1,7 +1,7 @@
 ---
 id: visualising-using-capture
-title: Visualising using Capture
-sidebar_label: Visualising using Capture
+title: Mit Capture visualisieren
+sidebar_label: Mit Capture visualisieren
 original_id: visualising-using-capture
 ---
 

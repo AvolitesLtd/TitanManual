@@ -1,7 +1,7 @@
 ---
 id: cue-list-playback
-title: Cue List Playback
-sidebar_label: Cue List Playback
+title: Abrufen
+sidebar_label: Abrufen
 original_id: cue-list-playback
 ---
 

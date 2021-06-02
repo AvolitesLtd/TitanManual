@@ -1,7 +1,7 @@
 ---
 id: linking-pioneerdj-system-to-titan
-title: Linking PioneerDJ System to Titan
-sidebar_label: Linking PioneerDJ System to Titan
+title: Pioneer ProDJ-Decks mit Titan verknüpfen
+sidebar_label: Pioneer ProDJ-Decks mit Titan verknüpfen
 original_id: linking-pioneerdj-system-to-titan
 ---
 

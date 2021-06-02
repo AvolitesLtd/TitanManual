@@ -1,7 +1,7 @@
 ---
 id: pixel-mapper-examples
-title: Pixel Mapper Examples
-sidebar_label: Pixel Mapper Examples
+title: Pixelmapper - Beispiele
+sidebar_label: Pixelmapper - Beispiele
 original_id: pixel-mapper-examples
 ---
 

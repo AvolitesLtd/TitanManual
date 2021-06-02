@@ -1,7 +1,7 @@
 ---
 id: titan-commands
-title: Titan Commands Quick Reference
-sidebar_label: Titan Commands Quick Reference
+title: Titan Befehlsreferenz
+sidebar_label: Titan Befehlsreferenz
 original_id: titan-commands
 ---
 

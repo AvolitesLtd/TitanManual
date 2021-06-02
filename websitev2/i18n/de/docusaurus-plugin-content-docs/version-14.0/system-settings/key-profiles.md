@@ -1,7 +1,7 @@
 ---
 id: key-profiles
-title: Key Profiles
-sidebar_label: Key Profiles
+title: Key Profiles - Tastenbelegungen
+sidebar_label: Key Profiles - Tastenbelegungen
 original_id: key-profiles
 ---
 

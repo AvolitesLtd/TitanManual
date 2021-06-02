@@ -1,7 +1,7 @@
 ---
 id: setting-up
-title: Setting up Synergy
-sidebar_label: Setting up Synergy
+title: Einrichtung
+sidebar_label: Einrichtung
 original_id: setting-up
 ---
 

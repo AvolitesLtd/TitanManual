@@ -1,7 +1,7 @@
 ---
 id: creating-a-chase
-title: Creating a Chase
-sidebar_label: Creating a Chase
+title: Erstellen eines Chasers
+sidebar_label: Erstellen eines Chasers
 original_id: creating-a-chase
 ---
 
