@@ -97,4 +97,4 @@ werden können, solange sich an der Avolites-Hardware nichts ändert.
 
 Für weitere Details siehe https://www.avolites.com/avokey.
 
-[](https://youtu.be/86PcC0OzL7E "Licensing")
+<Video videoId="86PcC0OzL7E" title="Licensing" />

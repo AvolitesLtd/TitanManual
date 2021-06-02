@@ -4,7 +4,7 @@ title: Synergy and Linking to AI
 sidebar_label: Synergy and Linking to AI
 ---
 
-[](https://youtu.be/twfDqjNFasA "Synergy")
+<Video videoId="twfDqjNFasA" title="Synergy" />
 
 From v12, Titan includes Avolites Synergy software which allows you full
 control over one or more networked Ai media servers. Not only can you

@@ -25,7 +25,7 @@ Faderwing betrieben werden.
 ![Titan Two](/docs/images/T2.png)
 
 
-[](https://youtu.be/wO94RvG6agI "T2 USB Interface")
+<Video videoId="wO94RvG6agI" title="T2 USB Interface" />
 
 ---
 

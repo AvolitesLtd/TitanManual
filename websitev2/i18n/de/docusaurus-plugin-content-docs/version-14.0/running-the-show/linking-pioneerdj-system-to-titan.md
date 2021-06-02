@@ -13,7 +13,7 @@ von Titan durch geeignete Pioneer DJ-Systeme gesteuert werden. Die
 Bridge-Software kann dabei direkt auf dem Titan-Pult oder einem externen
 Laptop laufen.
 
-[](https://youtu.be/vwr1DBJjBbw "PioneerDJ Integration")
+<Video videoId="vwr1DBJjBbw" title="PioneerDJ Integration" />
 
 Titan und das Pioneer-System verbinden
 --------------------------------------

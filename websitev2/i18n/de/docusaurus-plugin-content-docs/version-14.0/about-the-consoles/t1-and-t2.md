@@ -24,7 +24,7 @@ Faderwing betrieben werden.
 ![T2 USB DMX Dongle](/docs/images/T2.png)
 
 
-[](https://youtu.be/wO94RvG6agI "T2 USB Interface")
+<Video videoId="wO94RvG6agI" title="T2 USB Interface" />
 
 ---
 

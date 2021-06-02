@@ -8,7 +8,7 @@ original_id: synergy
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-[](https://youtu.be/twfDqjNFasA "Synergy")
+<Video videoId="twfDqjNFasA" title="Synergy" />
 
 Ab Version 12 enthält Titan das Modul Synergy, mit dem sich einzelne
 oder mehrere Ai-Medienserver komfortabel mit dem Pult steuern lassen.

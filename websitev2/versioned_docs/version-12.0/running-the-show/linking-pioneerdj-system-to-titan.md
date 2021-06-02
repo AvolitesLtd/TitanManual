@@ -17,7 +17,7 @@ bridge software on the console itself or on an intermediate laptop.
 >    - CDJ-2000NXS2
 >    - DJM-900NXS2 
 
-[](https://youtu.be/vwr1DBJjBbw "PioneerDJ Integration")
+<Video videoId="vwr1DBJjBbw" title="PioneerDJ Integration" />
 
 Connecting Titan to the Pioneer System
 --------------------------------------

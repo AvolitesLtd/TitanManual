@@ -10,7 +10,7 @@ import Video from '@site/src/components/video.tsx';
 
 Using the Pioneer Pro DJ Link Bridge software you can automate BPM masters on the Titan console from a network-equipped Pioneer DJ system. You can either run the bridge software on the console itself or on an intermediate laptop.
 
-[](https://youtu.be/vwr1DBJjBbw "PioneerDJ Integration")
+<Video videoId="vwr1DBJjBbw" title="PioneerDJ Integration" />
 
 Connecting Titan to the Pioneer System
 --------------------------------------
