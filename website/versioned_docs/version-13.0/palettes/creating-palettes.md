@@ -237,7 +237,7 @@ On touch buttons, the palette number is shown top left. The <strong>IPCGBES</str
 attribute groups contained in the palette are displayed below your
 legend, so for example <strong>Position</strong> palettes will show a <strong>P</strong>, <strong>colour</strong>
 palettes a <strong>C</strong> and so on. In the top right corner is shown <strong>G</strong> for
-<strong>Global</strong>, <strong>N</strong> for <strong>Normal</strong> or <strong>S</strong> for <strong>Shared</strong> palette.
+&nbsp;<strong>Global</strong>, <strong>N</strong> for <strong>Normal</strong> or <strong>S</strong> for <strong>Shared</strong> palette.
 
 ![Shared and normal palettes stored on a touch screen](/docs/images/Shared-and-normal-palettes-stored-on-a-touch-screen.png)
 
@@ -296,8 +296,7 @@ everything except <strong>FX</strong>
 
 6.  Press a palette button to store the shape palette
 
-You can't use an effects palette as a
-<strong>[Quick Palette](using-palettes.md#quick-palettes-with-no-fixtures-selected)</strong>
+You can't use an effects palette as a <strong>[Quick Palette](using-palettes.md#quick-palettes-with-no-fixtures-selected)</strong>
 (when you recall a palette with no fixtures selected). You must have some
 fixtures selected when you recall an effects palette.
 

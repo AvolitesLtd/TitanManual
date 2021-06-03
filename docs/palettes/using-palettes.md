@@ -59,6 +59,7 @@ Palette Pages
 
 If you have stored palettes on physical buttons on the console, the
 <Keys.HardKey>Page+</Keys.HardKey>/<Keys.HardKey>Page-</Keys.HardKey> buttons will change to a different page of palettes.
+
 If you want a palette to be locked on its handle and not change when the
 page is changed, you can set a lock or transparent lock on the palette
 handle. See [Handle Paging](../cues/playback-options.md#handle-paging)
@@ -85,7 +86,7 @@ Quick Palettes with no Fixtures Selected
 
 If you press a palette button when no fixtures are selected, the palette
 will be set to all the fixtures the palette applies to. This is called a
-<strong>Quick Palette</strong>.
+&nbsp;<strong>Quick Palette</strong>.
 
 For example if you've got some colour palettes programmed
 for your MAC 2000s, pressing one of the palettes when no MAC 2000s are

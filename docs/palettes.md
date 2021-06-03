@@ -28,8 +28,9 @@ change a master palette, the changes will track through to all the
 palettes in which it is used.
 
 Palettes are stored and selected using the buttons in the <strong>Colours</strong>,
-<strong>Gobos/Beams</strong> and <strong>Positions</strong> windows. You can also store palettes on 
+&nbsp;<strong>Gobos/Beams</strong> and <strong>Positions</strong> windows. You can also store palettes on 
 Macro/Executor buttons or store and recall numerically from the keypad. 
+
 You can [set a legend](palettes/creating-palettes.md#setting-legends-for-palettes)
 for each button so that you know what you're going to get.
 

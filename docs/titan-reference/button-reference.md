@@ -125,7 +125,7 @@ Backspace key for numeric entry or command line inputs.
 <Keys.HardKey>Clear</Keys.HardKey> + <Keys.SoftKey>Clear Selected Fixtures</Keys.SoftKey> | Only clears the programmer for fixtures which are currently selected
 <Keys.HardKey>Clear</Keys.HardKey> + <Keys.SoftKey>Individual Attributes</Keys.SoftKey> | Clear individual attributes from programmer (use softkeys to select)
 <Keys.HardKey>Clear</Keys.HardKey> + <Keys.SoftKey>Clear All Programmers</Keys.SoftKey> | Clears programmers from other users and from the Titan Remote
-<Keys.HardKey>Clear</Keys.HardKey> + <Keys.SoftKey>Clear Options</Keys.SoftKey> | Show user settings for Clear, see [User settings - Clear](../system-settings/user-settings.md/#clear)
+&nbsp;<Keys.HardKey>Clear</Keys.HardKey> + <Keys.SoftKey>Clear Options</Keys.SoftKey> | Show user settings for Clear, see [User settings - Clear](../system-settings/user-settings.md/#clear)
 
  --- 
 ## <Keys.HardKey>Close</Keys.HardKey> 

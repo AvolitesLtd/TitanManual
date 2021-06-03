@@ -25,5 +25,5 @@ console software version, <strong>there are different apps for each version</str
 
 You can connect multiple remotes to the console and the console itself
 remains functional while the remote is connected. Each remote has a
-<strong>separate programmer</strong> so an operator can continue to work on the console
+&nbsp;<strong>separate programmer</strong> so an operator can continue to work on the console
 while another user programs other cues or palettes on the remote.

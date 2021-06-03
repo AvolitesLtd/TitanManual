@@ -34,22 +34,22 @@ dimmers either individually or together.
 The User Number of the fixture or dimmer is used for control. For
 example to turn on dimmer 3 at 50% you would press:
 
-<strong>`3 @ 5`</strong>
+&nbsp;<strong>`3 @ 5`</strong>
 
 To turn on dimmers 1-10 at 80% you would press:
 
-<strong>`1 Thro 10 @ 8`</strong>
+&nbsp;<strong>`1 Thro 10 @ 8`</strong>
 
 For 100% you just press @ twice, for example:
 
-<strong>`1 Thro 10 @ @`</strong>
+&nbsp;<strong>`1 Thro 10 @ @`</strong>
 
 > To locate one or more fixtures, press Locate instead of the @ button.
 
 You can select multiple ranges of dimmers or fixtures using the And
 button, for example:
 
-<strong>`1 Thro 10 And 20 Thro 30 @ 6`</strong>.
+&nbsp;<strong>`1 Thro 10 And 20 Thro 30 @ 6`</strong>.
 
 Controlling Fixtures
 --------------------

@@ -28,7 +28,7 @@ In der Spalte <strong>Fixture Type</strong> sind die verschiedenen Gerätetypen
 aufgelistet; dabei hat jeder Typ eine andere Farbe. Beim Klick auf diese
 Buttons werden nur Geräte dieses Typs angezeigt.
 
-<strong>Line:</strong> die verfügbaren DMX-Linien. Die Balkenanzeige zeigt die
+&nbsp;<strong>Line:</strong> die verfügbaren DMX-Linien. Die Balkenanzeige zeigt die
 Auslastung der einzelnen Linien an. Klickt man auf die jeweilige
 Schaltfläche, werden Details der Linien angezeigt.
 

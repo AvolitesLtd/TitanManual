@@ -86,7 +86,7 @@ on. This can be disabled by the
 [User Settings](../system-settings/user-settings.md) *(turned on by default)*.
 
 This can be very useful for <strong>unattended applications</strong> to set up an
-<strong>initial lighting state</strong>, or to run <strong>lamp on macros</strong>.
+&nbsp;<strong>initial lighting state</strong>, or to run <strong>lamp on macros</strong>.
 
 Power on playbacks show a Power symbol watermark in the playback
 information area above the fader. If you open the

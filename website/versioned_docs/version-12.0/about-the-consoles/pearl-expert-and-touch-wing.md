@@ -154,10 +154,10 @@ screen.
 <br/>
 
 <Keys.Annotation>U</Keys.Annotation> The arrangement of windows can be saved and recalled using the
-<strong>Workspaces</strong> touch buttons on the right of the screen.
+&nbsp;<strong>Workspaces</strong> touch buttons on the right of the screen.
 
 Some windows have additional command buttons which are displayed in the
-<strong>Context touch buttons</strong> area on the top right of the screen when the
+&nbsp;<strong>Context touch buttons</strong> area on the top right of the screen when the
 window is active.
 
 <br/>

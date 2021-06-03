@@ -62,7 +62,7 @@ palette name and number.
 You can also load the palette into some fixtures, modify the attributes
 and record the new information back on top of the existing palette
 entry. The console will give you options on the softkeys to <strong>Replace</strong>,
-<strong>Merge</strong> or <strong>Quick Merge</strong> the palettes. If you select <strong>Merge</strong>, anything you
+&nbsp;<strong>Merge</strong> or <strong>Quick Merge</strong> the palettes. If you select <strong>Merge</strong>, anything you
 haven't changed will not be affected, values you have changed or added
 will be amended. <strong>Quick Merge</strong> will only update the attributes stored in
 the original palette and ignore others *(for example if you are merging
@@ -70,7 +70,7 @@ with a position palette, but have also modified the colour attributes,
 the colour attributes would not be merged in)*.
 
 When double clicking a palette button to update, the default option is
-<strong>Quick Merge</strong>.
+&nbsp;<strong>Quick Merge</strong>.
 
 -   You can set the console to 
     ["Always Merge"](../system-settings/user-settings.md#prompt-replace)

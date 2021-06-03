@@ -14,23 +14,21 @@ Time settings are independent for each cue in the cue list. The display
 shows which cue you are working with. You can select which cue is active
 using <strong>Wheel A</strong> or by pressing <Keys.SoftKey>Select Cue Number</Keys.SoftKey> softkey in the <strong>Edit Times</strong> menu for the cue list.
 
-<em>See the [diagram below](#cue-linking--link-offset) for more information about overlaps and fade times.</em>
+&nbsp;<em>See the [diagram below](#cue-linking--link-offset) for more information about overlaps and fade times.</em>
 
 1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> at the root menu then the <strong>Select</strong> button
 of the Cue List.
 
-2. To change which cue you are editing, scroll through the list using
-<strong>Wheel A</strong> or press <Keys.SoftKey>Select Cue Number</Keys.SoftKey> then type the cue number you want to
-edit and press <Keys.HardKey>Enter</Keys.HardKey>.
+2. To change which cue you are editing, scroll through the list using <strong>Wheel A</strong> or press <Keys.SoftKey>Select Cue Number</Keys.SoftKey> then type the cue number you want to edit and press <Keys.HardKey>Enter</Keys.HardKey>.
 
-	- The Chase arrow buttons to the right of the
+  - The Chase arrow buttons to the right of the
 Connect button also step through the cues.
 
-	- You can select a range of cues, enabling you to alter the timings of
-    multiple cues all in one go, by using <strong>Wheel B</strong>, or in the
-    [Playback View window](editing-cue-lists.md#playback-view-window),
-    dragging across the cues you want to select in the
-    grid.
+  - You can select a range of cues, enabling you to alter the timings of
+  multiple cues all in one go, by using <strong>Wheel B</strong>, or in the
+  [Playback View window](editing-cue-lists.md#playback-view-window),
+  dragging across the cues you want to select in the
+  grid.
 
 3. <strong>Setting times</strong>
 
@@ -65,9 +63,9 @@ softkeys and are:
 
 Link Option | Action
 ---|---
-<strong><Keys.SoftKey>Link Wait For Go</Keys.SoftKey></strong> | The cue waits for the Go button to be pressed then fires immediately. <em>Link Offset is disabled.</em>
-<strong><Keys.SoftKey>Link After Previous Cue</Keys.SoftKey></strong> | The cue fires when the previous cue has finished its delay in and fade in times. A Link Offset can be set to add a delay between the previous cue finishing and this cue firing. The offset can be given as a time in seconds, or as a percentage of the fade time of the previous cue.
-<strong><Keys.SoftKey>Link With Previous Cue</Keys.SoftKey></strong> | The cue fires at the same time as the previous cue fires. A Link Offset can be set to add a delay between the previous cue firing and this cue firing, set either in seconds or as a percentage of the fade time of the previous cue.
+&nbsp;<strong><Keys.SoftKey>Link Wait For Go</Keys.SoftKey></strong> | The cue waits for the Go button to be pressed then fires immediately. <em>Link Offset is disabled.</em>
+&nbsp;<strong><Keys.SoftKey>Link After Previous Cue</Keys.SoftKey></strong> | The cue fires when the previous cue has finished its delay in and fade in times. A Link Offset can be set to add a delay between the previous cue finishing and this cue firing. The offset can be given as a time in seconds, or as a percentage of the fade time of the previous cue.
+&nbsp;<strong><Keys.SoftKey>Link With Previous Cue</Keys.SoftKey></strong> | The cue fires at the same time as the previous cue fires. A Link Offset can be set to add a delay between the previous cue firing and this cue firing, set either in seconds or as a percentage of the fade time of the previous cue.
 
 ![Cue List Linking Diagram](/docs/images/Cue-List-Linking-Diagram.png)
 

@@ -86,26 +86,26 @@ If you click/touch on \'Tools\', you will get a menu giving you access
 to some configuration functions (these options may change slightly
 depending on the console).
 
-<strong>About</strong> gives you information about the software version.
+&nbsp;<strong>About</strong> gives you information about the software version.
 
-<strong>Help</strong> shows you the online manual.
+&nbsp;<strong>Help</strong> shows you the online manual.
 
-<strong>Control Panel</strong> opens a submenu allowing changes to monitor settings
+&nbsp;<strong>Control Panel</strong> opens a submenu allowing changes to monitor settings
 and to the USB expert console which links the front panel controls to
 the system. The \'More...\' option opens Windows Control Panel allowing
 you to change the operating system configuration.
 
-<strong>Touch Screen Setup</strong> (in Control Panel) opens the setup utility which
+&nbsp;<strong>Touch Screen Setup</strong> (in Control Panel) opens the setup utility which
 allows you to align touch positions on the screen.
 
 USB Expert Console** (in Control Panel) sets up the connection between
 the front panel controls and the software. If you are having problems
 this can be used to troubleshoot.
 
-<strong>Folders</strong> opens the file explorer. You might need this when backing up
+&nbsp;<strong>Folders</strong> opens the file explorer. You might need this when backing up
 show files or when updating the operating software.
 
-<strong>Switch Task</strong> allows you to show other programs (may be needed when
+&nbsp;<strong>Switch Task</strong> allows you to show other programs (may be needed when
 upgrading software) on the touch screen or move them between screens.
 Touch the Switch Screen icon to swap the program between different
 screens. Touch the Centre icon to centre the window on the screen. Touch
@@ -114,15 +114,15 @@ depending on the console.
 
 ![Switch Task](/docs/images/Switch-Task.png)
 
-<strong>Switch Software</strong> allows you to run different versions of Titan
+&nbsp;<strong>Switch Software</strong> allows you to run different versions of Titan
 software (which you will need to install yourself, different versions
 are not installed by default). This can be useful if you need to load
 shows from older versions.
 
-<strong>Additional Programs</strong> allows you to run some diagnostic programs which
+&nbsp;<strong>Additional Programs</strong> allows you to run some diagnostic programs which
 might help Avolites Support find problems you're having.
 
-<strong>Restart</strong> and <strong>Shutdown Software</strong> restarts and closes the Titan
+&nbsp;<strong>Restart</strong> and <strong>Shutdown Software</strong> restarts and closes the Titan
 software. You would normally only need to use these when upgrading the
 software.
 

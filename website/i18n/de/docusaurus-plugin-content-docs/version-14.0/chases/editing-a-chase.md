@@ -12,12 +12,12 @@ Einen Chaser zum Editieren öffnen
 ---------------------------------
 
 Neue Schritte lassen sich wie gewohnt mit <Keys.HardKey>Record</Keys.HardKey> und der
-<strong>Swop</strong>-Taste des Playbacks am Ende des Chasers anfügen.
+&nbsp;<strong>Swop</strong>-Taste des Playbacks am Ende des Chasers anfügen.
 
 Zur Anzeige einer Übersicht der vorhandenen Schritte dient die 'Playback
 View'-Ansicht (berühren Sie das Display oberhalb des Reglers, oder
 drücken Sie <Keys.HardKey>View/Open</Keys.HardKey> und die entsprechende
-<strong>Swop</strong>-Taste). Um eine bestimmte Zeitvorgabe zu ändern, klicken Sie
+&nbsp;<strong>Swop</strong>-Taste). Um eine bestimmte Zeitvorgabe zu ändern, klicken Sie
 den entsprechenden Wert (oder einen ganzen Bereich) auf dem Touchscreen
 an und benutzen die Funktionstasten für die gewünschte Änderung
 

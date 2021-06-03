@@ -271,10 +271,10 @@ Mit der Menütaste <Keys.SoftKey>Update Mode</Keys.SoftKey> lässt sich einstell
 
 Update-Modus | Beschreibung
 ---|---
-<strong>Forwards</strong> ![Cue List Update Mode Forwards](/docs/images/Cue-List-Update-Mode-Forwards.png) | Ändert die Werte in diesem Cue und trackt die Änderungen in alle folgenden Cues, bis die betreffenden Kanäle erneut geändert werden. Vorherige Cues werden nicht geändert.
-<strong>Backwards</strong> ![Cue List Update Mode Backwards](/docs/images/Cue-List-Update-Mode-Backwards.png) | Setzt die Änderungen rückwirkend bis zur letzten Änderung um.
-<strong>Both</strong> ![Cue List Update Mode Both](/docs/images/Cue-List-Update-Mode-Both.png) | Tracking in beide Richtungen, d.h. rückwirkend ab der letzten Änderung, sowie in allen folgenden Cues bis zur nächsten Änderung.
-<strong>Cue Only</strong> ![Cue List Update Mode Cue Only](/docs/images/Cue-List-Update-Mode-Cue-Only.png) | Nur der aktuelle Cue wird geändert.
+&nbsp;<strong>Forwards</strong> ![Cue List Update Mode Forwards](/docs/images/Cue-List-Update-Mode-Forwards.png) | Ändert die Werte in diesem Cue und trackt die Änderungen in alle folgenden Cues, bis die betreffenden Kanäle erneut geändert werden. Vorherige Cues werden nicht geändert.
+&nbsp;<strong>Backwards</strong> ![Cue List Update Mode Backwards](/docs/images/Cue-List-Update-Mode-Backwards.png) | Setzt die Änderungen rückwirkend bis zur letzten Änderung um.
+&nbsp;<strong>Both</strong> ![Cue List Update Mode Both](/docs/images/Cue-List-Update-Mode-Both.png) | Tracking in beide Richtungen, d.h. rückwirkend ab der letzten Änderung, sowie in allen folgenden Cues bis zur nächsten Änderung.
+&nbsp;<strong>Cue Only</strong> ![Cue List Update Mode Cue Only](/docs/images/Cue-List-Update-Mode-Cue-Only.png) | Nur der aktuelle Cue wird geändert.
 
 
 > Die Schrittnummer lässt sich auf diese Weise nicht ändern; ein Druck
@@ -287,7 +287,7 @@ Werte in mehreren Cues gleichzeitig aktualisieren
 
 Werte können auch in mehreren Cues einer Cueliste/eines Chasers
 gleichzeitig aktualisiert (mittels <strong>Merge/Verschmelzen</strong> oder
-<strong>Replace/Ersetzen</strong>) werden. Dies kann sowohl mit numerischer Eingabe als
+&nbsp;<strong>Replace/Ersetzen</strong>) werden. Dies kann sowohl mit numerischer Eingabe als
 auch in der [Playback-Ansicht](#das-fenster-playback-view) erfolgen. 
 
 In der Playback-Ansicht drücken Sie die Taste <Keys.HardKey>Record</Keys.HardKey> und klicken

@@ -273,7 +273,7 @@ button at a glance. Select the <Keys.SoftKey>Halo</Keys.SoftKey> option on the S
 If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help
 identify different types of fixture.
 
-<strong>Trackball (Sapphire Touch only)</strong>
+&nbsp;<strong>Trackball (Sapphire Touch only)</strong>
 -----------------------------------
 
 The trackball on the right of the console can be used either to control
@@ -288,7 +288,7 @@ To use in console mode for controlling fixtures, press the <Keys.HardKey>Assign<
 button on its own. The trackball will control pan and tilt of selected
 fixtures, and the ring controls fine tilt.
 
-<strong>Touch Keyboard</strong>
+&nbsp;<strong>Touch Keyboard</strong>
 ------------------
 
 At the end of the toolbar is the keyboard popup button which will open

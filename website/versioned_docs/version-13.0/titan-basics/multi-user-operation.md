@@ -159,6 +159,6 @@ to start the connection.
 -   Consoles must be running Titan v8 or above to join a multi-user or
     backup session with another Titan v8 console.
 
-<strong>For Titan Mobile:</strong>
+&nbsp;<strong>For Titan Mobile:</strong>
 
 > Network Discovery must be enabled in the Windows User Profile you are using or consoles will not be able to see each other on the network. Ensure the Windows option \'Turn on network discovery\' is selected in the Network Sharing options.

@@ -189,7 +189,8 @@ will behave if you load more windows, and to be able to target particular window
     is set to record only a single screen, and sets whether the workspace will
 	recall onto the screen where you recorded it (button shows S + the screen number), or if it will recall onto
 	the screen where you selected it (button shows a target symbol).
-	![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
+	
+![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
 
 -   To delete a workspace button, press <Keys.HardKey>View/Open</Keys.HardKey>, <Keys.HardKey>Delete</Keys.HardKey>, then
     the workspace button to be deleted.

@@ -391,9 +391,7 @@ in which you selected them.
 
 If a fade time or an overlap are set this way they are applied only to 
 the immediate next palette recall. If you want to use a certain time or
-overlap for the next few palette recalls then set the values in the 
-<strong>Palettes menu</strong>: press <Keys.HardKey>Palette</Keys.HardKey>, and set <Keys.SoftKey>Master Time</Keys.SoftKey> and 
-<Keys.SoftKey>Master Overlap</Keys.SoftKey> with the softkeys. Also factory macros are provided
+overlap for the next few palette recalls then set the values in the <strong>Palettes menu</strong>: press <Keys.HardKey>Palette</Keys.HardKey>, and set <Keys.SoftKey>Master Time</Keys.SoftKey> and <Keys.SoftKey>Master Overlap</Keys.SoftKey> with the softkeys. Also factory macros are provided
 for some most common values, see [Master Time for Palettes](../palettes/timing-with-palettes#master-time-for-palettes).
 
 If you apply a palette as a "Quick Palette" (i.e. without selecting any

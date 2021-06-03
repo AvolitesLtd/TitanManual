@@ -50,10 +50,9 @@ Preload             | Preload the LTP values of a playback over a number of seco
 Marker              | Mark a point in the timecode for information
 Wait for go         | Pause the timeline until you press <Keys.HardKey>Go</Keys.HardKey> to resume (only on internal timecode)
 
-- <strong>Wait for go</strong> triggers are useful when you have a timed sequence followed by an unknown delay, for
+- &nbsp;<strong>Wait for go</strong> triggers are useful when you have a timed sequence followed by an unknown delay, for
 example a win/walk-up sequence for an awards ceremony when you don't know how long the winner
-will take to reach the stage. Shapes will continue to run while the timeline is paused. The timeline needs to be
-[connected](./chases/chase-playback/#connecting-a-playback-for-control) for the <Keys.HardKey>Go</Keys.HardKey> button to work, if the timeline is not connected you can use the <Keys.ContextKey>Play</Keys.ContextKey> transport button to resume the timeline.
+will take to reach the stage. Shapes will continue to run while the timeline is paused. The timeline needs to be [connected](./chases/chase-playback/#connecting-a-playback-for-control) for the <Keys.HardKey>Go</Keys.HardKey> button to work, if the timeline is not connected you can use the <Keys.ContextKey>Play</Keys.ContextKey> transport button to resume the timeline.
 
 Tracks
 ------------------

@@ -136,7 +136,7 @@ flash, press one to store.
     -   <strong>Colours:</strong> a coloured icon is used to show the selected colour. If the
     palette contains fixtures set to different colours, a coloured bar
     will be shown for each. 
-    -   <strong>Gobos:</strong> show the gobo image (if available in the personality - you might need to 
+    -   &nbsp;<strong>Gobos:</strong> show the gobo image (if available in the personality - you might need to 
     [update the patched personalities](../patching/changing-the-patch.md#updating-patched-personalities)). 
     -   <strong>CITP (media server)</strong>: show the media thumbnail. 
     -   <strong>Pan and tilt</strong>: show a default legend.
@@ -246,7 +246,7 @@ On touch buttons, the palette number is shown top left. The <strong>IPCGBES</str
 attribute groups contained in the palette are displayed below your
 legend, so for example <strong>Position</strong> palettes will show a <strong>P</strong>, <strong>colour</strong>
 palettes a <strong>C</strong> and so on. In the top right corner is shown <strong>G</strong> for
-<strong>Global</strong>, <strong>N</strong> for <strong>Normal</strong> or <strong>S</strong> for <strong>Shared</strong> palette.
+&nbsp;<strong>Global</strong>, <strong>N</strong> for <strong>Normal</strong> or <strong>S</strong> for <strong>Shared</strong> palette.
 
 ![Shared and normal palettes stored on a touch screen](/docs/images/Shared-and-normal-palettes-stored-on-a-touch-screen.png)
 
@@ -290,7 +290,7 @@ the position can be removed later*.
 2. Press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, <Keys.SoftKey>Shape Generator</Keys.SoftKey> and choose a shape
 to start
 
-<em>See [Shape Generator](../effects/shape-generator.md) for more information about shapes</em>.
+&nbsp;<em>See [Shape Generator](../effects/shape-generator.md) for more information about shapes</em>.
 
 3. Alter the parameters of the shape as you require.
 
@@ -303,8 +303,7 @@ everything except <strong>FX</strong>.
 
 6.  Press a palette button to store the shape palette.
 
-You can't use an effects palette as a
-<strong>[Quick Palette](using-palettes.md#quick-palettes-with-no-fixtures-selected)</strong>
+You can't use an effects palette as a <strong>[Quick Palette](using-palettes.md#quick-palettes-with-no-fixtures-selected)</strong>
 (this is when you recall a palette with no fixtures selected). You must have some
 fixtures selected when you recall an effects palette.
 

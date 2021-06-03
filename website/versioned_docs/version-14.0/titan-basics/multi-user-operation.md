@@ -153,7 +153,7 @@ last console to change any attribute will take over control of the
 fixture.
 
 Slaves can leave a session using the <Keys.SoftKey>Leave Session</Keys.SoftKey> button in the
-<strong>Sessions View</strong> or in the <strong>TitanNet menu</strong>. The console will restore the
+&nbsp;<strong>Sessions View</strong> or in the <strong>TitanNet menu</strong>. The console will restore the
 local show it had loaded prior to joining. Master consoles have the
 option to <Keys.SoftKey>Terminate Session</Keys.SoftKey>.
 
@@ -170,7 +170,7 @@ backup session.
 
 ### Titan Mobile
 
-<strong>Network Discovery</strong> must be enabled in the <strong>Windows User Profile</strong> you
+&nbsp;<strong>Network Discovery</strong> must be enabled in the <strong>Windows User Profile</strong> you
 are using or consoles will not be able to see each other on the network.
 Ensure the Windows option <strong>'Turn on network discovery'</strong> is selected in
 the <strong>Network Sharing</strong> options.

@@ -60,15 +60,15 @@ Press <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> then enter <strong>0 - 100</s
 how fixtures overlap in the cue.
 
 
-<strong>100%</strong> *(the normal setting)* means all fixtures fade together.
+&nbsp;<strong>100%</strong> *(the normal setting)* means all fixtures fade together.
 
 
-<strong>0%</strong> means that the first fixture will finish
+&nbsp;<strong>0%</strong> means that the first fixture will finish
 its fade before the next one starts giving a "rolling" change across
 a range of fixtures.
 
 
-<strong>50%</strong> means that the 2^nd^ fixture will start
+&nbsp;<strong>50%</strong> means that the 2^nd^ fixture will start
 fading when the first one is half way through its fade.
 
 

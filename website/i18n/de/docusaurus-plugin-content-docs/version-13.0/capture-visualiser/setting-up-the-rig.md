@@ -36,7 +36,7 @@ verändern.
 Geräte/Fixtures hinzufügen und einrichten
 -----------------------------------------
 Ist die Funktion "Auto Update" aktiviert (zu finden auf dem Reiter
-<strong>Show</strong> im Fenster <strong>Capture Settings</strong>), 
+&nbsp;<strong>Show</strong> im Fenster <strong>Capture Settings</strong>), 
 so werden Geräte beim Patchen in der Titan-Software automatisch zur 
 Capture-Bühne hinzugefügt.
 
@@ -69,9 +69,9 @@ wie folgt:
 
 Achse | Beschreibung
 ---|---
-<strong>X</strong> | bewegt nach rechts/links
-<strong>Y</strong> | bewegt nach oben/unten
-<strong>Z</strong> | bewegt nach vorn/hinten
+&nbsp;<strong>X</strong> | bewegt nach rechts/links
+&nbsp;<strong>Y</strong> | bewegt nach oben/unten
+&nbsp;<strong>Z</strong> | bewegt nach vorn/hinten
 
 Klickt man nochmals auf <strong>Position</strong>, so schalten die Encoder auf
 Orientation. Damit können die Geräte um die X/Y/Z-Achse
@@ -128,7 +128,7 @@ schalten die vier Buttons darunter zwischen den einzelnen Teilansichten
 um.
 
 Mit der linken Fläche kann man die Kamera <strong>rechts/links</strong> sowie nach
-<strong>vorn/hinten</strong> positionieren.
+&nbsp;<strong>vorn/hinten</strong> positionieren.
 
 Mit der mittleren Fläche verschiebt man die Kamera nach <strong>oben/unten</strong>.
 

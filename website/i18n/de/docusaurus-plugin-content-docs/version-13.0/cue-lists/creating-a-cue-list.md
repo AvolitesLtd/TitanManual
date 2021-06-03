@@ -145,17 +145,17 @@ Button.
 
 In den darauffolgenden Cues gibt es für jeden getrackten Shape einen
 Schalter:
-<strong>T</strong> | <strong>Shape wird in den folgenden Cue getrackt</strong>
+&nbsp;<strong>T</strong> | <strong>Shape wird in den folgenden Cue getrackt</strong>
 ---|---
-<strong>B</strong> | <strong>Shape wird geblockt, läuft also nicht in den folgenden Cues</strong>
+&nbsp;<strong>B</strong> | <strong>Shape wird geblockt, läuft also nicht in den folgenden Cues</strong>
 
 Für den Cue selbst gibt es dazu die Option <Keys.SoftKey>Block All Shapes</Keys.SoftKey>, siehe
 [Cuelisten-Optionen](cue-list-options.md#cue-list-options----tab-playback).
 
 Darüber hinaus können auch Shapes für einzelne Attribute geblockt
 werden, dies erfolgt über das <strong>@</strong>-Menü. Wählen Sie das zu blockende
-<strong>Attribut</strong>, drücken die entsprechende <strong>@</strong>-Taste und dann den Attribut-Button
-<strong>FX</strong>. Auf den Menütasten gibt es nun die Optionen <Keys.SoftKey>Block Shape</Keys.SoftKey> und
+&nbsp;<strong>Attribut</strong>, drücken die entsprechende <strong>@</strong>-Taste und dann den Attribut-Button
+&nbsp;<strong>FX</strong>. Auf den Menütasten gibt es nun die Optionen <Keys.SoftKey>Block Shape</Keys.SoftKey> und
 <Keys.SoftKey>Unblock Shape</Keys.SoftKey>. Wurde ein Attribut auf <strong>Block Shape</strong> gesetzt, so wird
 das im Display bei den Encodern mit *"Blocked"* angezeigt.
 

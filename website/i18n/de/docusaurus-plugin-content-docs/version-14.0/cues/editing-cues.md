@@ -164,7 +164,7 @@ Menütasten umschalten.
 ![Cue View](/docs/images/Cue-View-2.png)
 
 Mit den Buttons All/IPCGBES oben links können die anzuzeigenden
-<strong>Attribute</strong> ausgewählt werden.
+&nbsp;<strong>Attribute</strong> ausgewählt werden.
 
 Mit den Gerätetyp-Buttons links unterhalb der Attribut-Buttons kann man
 die anzuzeigenden <strong>Geräte</strong> auswählen.
@@ -172,7 +172,7 @@ die anzuzeigenden <strong>Geräte</strong> auswählen.
 ### Editieren von Werten im Cue View
 
 Es lassen sich die Werte einzelner oder mehrerer Kanäle <strong>ändern</strong> oder
-<strong>löschen</strong>:
+&nbsp;<strong>löschen</strong>:
 
 1.  Klicken Sie den entsprechenden Wert an, oder fahren Sie über den
 	gewünschten Bereich: *die ausgewählten Werte werden in blau

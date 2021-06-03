@@ -532,7 +532,7 @@ Siehe [Fixture Overlap](../cues/cue-timing.md#einstellen-von-überblendzeiten-un
 Eine so eingegebene Paletten-Fadezeit und Overlap gelten nur einmalig 
 für den unmittelbar nächsten Palettenabruf. Sollen bis zur nächsten
 Änderung Fadezeit und Overlap festgelegt werden, so erfolgt dies im 
-<strong>Menü Palettes</strong>: drücken Sie dazu die Taste <Keys.HardKey>Palette</Keys.HardKey> und geben Sie
+&nbsp;<strong>Menü Palettes</strong>: drücken Sie dazu die Taste <Keys.HardKey>Palette</Keys.HardKey> und geben Sie
 die gewünschten Werte mit den Menütasten <Keys.SoftKey>Master Time</Keys.SoftKey> und \[Master
 Overlap\] ein. Es gibt ferner etliche Macros für die häufig genutzten
 Werte, um Master Time und Master Overlap mit nur einem Tastendruck zu

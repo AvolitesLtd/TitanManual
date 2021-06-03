@@ -67,7 +67,7 @@ Titan will record into the cue only the dimmers/fixtures you have changed
 since you last pressed <Keys.HardKey>Clear</Keys.HardKey>, and that have changed from the
 previous cue *(so if you put up another playback, that won't get
 recorded)*. To record everything with intensity above zero, switch
-<Keys.SoftKey>Record Mode</Keys.SoftKey> to "Record by Stage" (see [Creating a Cue](../cues/creating-a-cue.md#creating-a-cue)).
+&nbsp;<Keys.SoftKey>Record Mode</Keys.SoftKey> to "Record by Stage" (see [Creating a Cue](../cues/creating-a-cue.md#creating-a-cue)).
 
  Keypresses | Action
 ------------|-------------------
@@ -110,8 +110,8 @@ such as Go will operate on this cue list.
 <Keys.HardKey>Cue</Keys.HardKey> &#123;fader select&#125; |If another cue list is active, connect this cue list as the current list
 <Keys.HardKey>Go</Keys.HardKey> | Run next cue with programmed times
 <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Go</Keys.HardKey> | Go cue <strong>n</strong> with programmed times
-<strong>t</strong> <Keys.HardKey>Go</Keys.HardKey> | Next cue go with fade time <strong>t</strong>
-<strong>n</strong> <Keys.HardKey>Cue</Keys.HardKey> <strong>t</strong> <Keys.HardKey>Go</Keys.HardKey> | Jump to cue <strong>n</strong> with fade time <strong>t</strong>
+&nbsp;<strong>t</strong> <Keys.HardKey>Go</Keys.HardKey> | Next cue go with fade time <strong>t</strong>
+&nbsp;<strong>n</strong> <Keys.HardKey>Cue</Keys.HardKey> <strong>t</strong> <Keys.HardKey>Go</Keys.HardKey> | Jump to cue <strong>n</strong> with fade time <strong>t</strong>
 
 - If you want moving fixtures to automatically position themselves ready
 	for the next cue, enable the <Keys.SoftKey>Move In Dark</Keys.SoftKey> option, see [Move In Dark](../docs/next/cue-lists/cue-list-options#move-in-dark).

@@ -35,7 +35,7 @@ Um die DMX-Adresse oder das Universum zu ändern, wählen Sie <Keys.SoftKey>[Rep
 ## Patch anzeigen
 
 Zum Anzeigen der gepatchten Geräte drücken Sie
-<Keys.HardKey>View/Open</Keys.HardKey>, dann <Keys.HardKey>Patch</Keys.HardKey> zum Öffnen der [Patch-Ansicht](../patching/changing-the-patch.md#patch-view).
+&nbsp;<Keys.HardKey>View/Open</Keys.HardKey>, dann <Keys.HardKey>Patch</Keys.HardKey> zum Öffnen der [Patch-Ansicht](../patching/changing-the-patch.md#patch-view).
 
 ## Geräteoptionen einstellen
 

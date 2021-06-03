@@ -161,7 +161,7 @@ The options in the "Clear Options" submenu are:
     to <Keys.SoftKey>Remember Mask</Keys.SoftKey> which will keep the mask setting you used last
     time.
 
--   <Keys.SoftKey>Leave/Zero Preset Fader Levels</Keys.SoftKey> is used to set whether latched
+-   &nbsp;<Keys.SoftKey>Leave/Zero Preset Fader Levels</Keys.SoftKey> is used to set whether latched
     fixtures are cleared (the [fixture key profile](../system-settings/key-profiles.md#creating-and-editing-key-profiles) can be set to "Latch"
     mode, which turns on the fixture dimmer channel when the fixture
     button is touched.)

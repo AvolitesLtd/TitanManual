@@ -21,7 +21,7 @@ using <strong>Wheel A</strong> or <strong>softkey A</strong> of the <strong>Cue 
 of the Cue List.
 
 2. To change which cue you are editing, scroll through the list using
-<strong>Wheel A</strong> or press <Keys.SoftKey>Cue Number</Keys.SoftKey> then type the cue number you want to
+&nbsp;<strong>Wheel A</strong> or press <Keys.SoftKey>Cue Number</Keys.SoftKey> then type the cue number you want to
 edit and press <Keys.HardKey>Enter</Keys.HardKey>. *The Chase arrow buttons to the right of the
 Connect button also step through the cues.*
 
@@ -64,9 +64,9 @@ softkeys and are:
 
 Link Option | Action
 ---|---
-<strong><Keys.SoftKey>Link Wait For Go</Keys.SoftKey></strong> | The cue waits for the Go button to be pressed then fires immediately. *Link Offset is disabled.*
-<strong><Keys.SoftKey>Link After Previous Cue</Keys.SoftKey></strong> | The cue fires when the previous cue has finished its delay in and fade in times. A Link Offset can be set to add a delay between the previous cue finishing and this cue firing. The offset can be given as a time in seconds, or as a percentage of the fade time of the previous cue.
-<strong><Keys.SoftKey>Link With Previous Cue</Keys.SoftKey></strong> | The cue fires at the same time as the previous cue fires. A Link Offset can be set to add a delay between the previous cue firing and this cue firing, set either in seconds or as a percentage of the fade time of the previous cue.
+&nbsp;<strong><Keys.SoftKey>Link Wait For Go</Keys.SoftKey></strong> | The cue waits for the Go button to be pressed then fires immediately. *Link Offset is disabled.*
+&nbsp;<strong><Keys.SoftKey>Link After Previous Cue</Keys.SoftKey></strong> | The cue fires when the previous cue has finished its delay in and fade in times. A Link Offset can be set to add a delay between the previous cue finishing and this cue firing. The offset can be given as a time in seconds, or as a percentage of the fade time of the previous cue.
+&nbsp;<strong><Keys.SoftKey>Link With Previous Cue</Keys.SoftKey></strong> | The cue fires at the same time as the previous cue fires. A Link Offset can be set to add a delay between the previous cue firing and this cue firing, set either in seconds or as a percentage of the fade time of the previous cue.
 
 ![Cue List Linking Diagram](/docs/images/Cue-List-Linking-Diagram.png)
 
@@ -113,8 +113,8 @@ to go to the second page of options.
 
 2. All fixtures in the cue will be selected. *If you don't want to
 change the times for any fixtures, deselect them now.* You can press the
-<strong>ALL</strong> button (below Next Time) to select all fixtures in the cue or
-<strong>Shift + ALL</strong> to deselect all fixtures.
+&nbsp;<strong>ALL</strong> button (below Next Time) to select all fixtures in the cue or
+&nbsp;<strong>Shift + ALL</strong> to deselect all fixtures.
 
 3. Press the softkey for the attribute group you want to change.
 

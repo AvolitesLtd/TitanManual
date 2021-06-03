@@ -59,7 +59,7 @@ oder über den <strong>Download</strong>-Link oben auf der Seite, und
 wählen danach <strong>Titan Fixture Library</strong>).
 
 Es gibt verschiedene Download-Pakete, abhängig von der jeweiligen 
-<strong>Titan-Version</strong>. Diese unterscheiden sich hinsichtlich der enthaltenen 
+&nbsp;<strong>Titan-Version</strong>. Diese unterscheiden sich hinsichtlich der enthaltenen 
 Capture-Library; die Titan-Personalities sind jedoch identisch.
 
 >	Beim Updaten gehen sämtliche von Ihnen in der Library vorgenommenen Änderungen 

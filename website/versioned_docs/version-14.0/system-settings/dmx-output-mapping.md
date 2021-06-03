@@ -102,22 +102,22 @@ adapter, both of which will be shown.
 
 ![DMX512 Module Properties](/docs/images/Dmx-Module-Properties.png)
 
-<strong>DMX output:</strong> Allows you to temporarily disable the output
+&nbsp;<strong>DMX output:</strong> Allows you to temporarily disable the output
 
-<strong>Merge Priority:</strong> A value between 0 and 200 where higher numbers have 
+&nbsp;<strong>Merge Priority:</strong> A value between 0 and 200 where higher numbers have 
 priority. Allows a node to chose which console to follow where multiple 
 consoles are transmitting to this output.
 
-<strong>Break Length:</strong> Adjusts the DMX spacing which can be helpful for slow
+&nbsp;<strong>Break Length:</strong> Adjusts the DMX spacing which can be helpful for slow
 fixtures. If fixtures or dimmers show an occasional glitch 
 try increasing this number. Some dimmers will require this to be 4000us in order to 
 work smoothly. Default 968uS.
 
-<strong>Mark After Break Length:</strong> Usually this will not need to be adjusted, but
+&nbsp;<strong>Mark After Break Length:</strong> Usually this will not need to be adjusted, but
 it can be increased to give fixtures a bit more time to receive the first
 DMX channel. Default 76uS.
 
-<strong>Extra Stop Bit:</strong> Enabling this adds an extra Stop Bit to each byte which
+&nbsp;<strong>Extra Stop Bit:</strong> Enabling this adds an extra Stop Bit to each byte which
 gives slow fixtures a bit more time to receive the DMX data. 
 This option can sometimes solve issues where fixtures can be seen regularly glitching.
 
@@ -125,9 +125,9 @@ This option can sometimes solve issues where fixtures can be seen regularly glit
 
 ![sACN DMX Module Properties](/docs/images/sACN-DMX-Module-Properties.png)
 
-<strong>DMX output:</strong> Allows you to temporarily disable the output
+&nbsp;<strong>DMX output:</strong> Allows you to temporarily disable the output
 
-<strong>Merge Priority:</strong> (0-200) The sACN specification allows multiple
+&nbsp;<strong>Merge Priority:</strong> (0-200) The sACN specification allows multiple
 consoles to send out DMX on the network. The priority value tells the
 receiving node which console to listen to if it gets DMX from more than
 one, higher values take priority. 
@@ -135,16 +135,16 @@ one, higher values take priority.
 > You would normally use this to connect
 a backup console with a lower priority setting.
 
-<strong>Block RDM:</strong> If enabled, RDM traffic is blocked on this module.
+&nbsp;<strong>Block RDM:</strong> If enabled, RDM traffic is blocked on this module.
 
-<strong>Synchronization Address:</strong> If not zero, sets the universe used to
+&nbsp;<strong>Synchronization Address:</strong> If not zero, sets the universe used to
 synchronise the DMX frames sent from the console. Listening devices will
 receive all DMX frames and then wait for a packet on the synchronisation
 universe before using or retransmitting the DMX frames. Synchronous sACN
 reduces tearing effects which can result from non-synchronised
 universes. If set to zero, synchronisation is disabled.
 
-<strong>Ethernet xxx:</strong> Selects whether you want this protocol outputting on
+&nbsp;<strong>Ethernet xxx:</strong> Selects whether you want this protocol outputting on
 this Ethernet adapter. If there are multiple adaptors in the system you
 can select more than one, and identical information will be sent out on
 each one.
@@ -153,28 +153,28 @@ each one.
 
 ![Art-Net DMX Module Properties](/docs/images/ArtNet-DMX-Module-Properties.png)
 
-<strong>DMX output:</strong> Allows you to temporarily disable the output
+&nbsp;<strong>DMX output:</strong> Allows you to temporarily disable the output
 
-<strong>Continuous Art-Net DMX:</strong> The Art-Net specification allows the console
+&nbsp;<strong>Continuous Art-Net DMX:</strong> The Art-Net specification allows the console
 to only send out changes in the DMX. This setting makes the console send
 the Art-Net packets continuously even if there is no change.
 
-<strong>Always Broadcast Art-Net DMX:</strong> Sets all Art-Net packets to Broadcast
+&nbsp;<strong>Always Broadcast Art-Net DMX:</strong> Sets all Art-Net packets to Broadcast
 mode, meaning they are sent to all nodes. Otherwise the packets are
 addressed to the specific node they are intended for, which reduces
 network traffic but requires more careful setting up of network
 addresses.
 
-<strong>Block RDM:</strong> If enabled, RDM traffic is blocked on this module.
+&nbsp;<strong>Block RDM:</strong> If enabled, RDM traffic is blocked on this module.
 
-<strong>DMX Overrun:</strong> Some Art-Net nodes ignore changes until they are sent
+&nbsp;<strong>DMX Overrun:</strong> Some Art-Net nodes ignore changes until they are sent
 more than once. If this option is enabled then at least 3 packets are
 sent for every change
 
-<strong>Legacy Mode:</strong> If enabled, Art-Net is broadcast continuously from the
+&nbsp;<strong>Legacy Mode:</strong> If enabled, Art-Net is broadcast continuously from the
 console at a high rate. May affect console performance.
 
-<strong>Ethernet xxx:</strong> Selects whether you want this protocol outputting on
+&nbsp;<strong>Ethernet xxx:</strong> Selects whether you want this protocol outputting on
 this Ethernet adapter. If there are multiple adaptors in the system you
 can select more than one, and identical information will be sent out on
 each one.

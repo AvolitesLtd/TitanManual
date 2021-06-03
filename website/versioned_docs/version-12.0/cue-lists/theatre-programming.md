@@ -112,7 +112,7 @@ Titan will record into the cue only the dimmers/fixtures you have changed
 since you last pressed <Keys.HardKey>Clear</Keys.HardKey>, and that have changed from the
 previous cue *(so if you put up another playback, that won't get
 recorded)*. To record everything with intensity above zero, switch
-<Keys.SoftKey>Record Mode</Keys.SoftKey> to "Record by Stage" (see [Creating a Cue](../cues/creating-a-cue.md#creating-a-cue)).
+&nbsp;<Keys.SoftKey>Record Mode</Keys.SoftKey> to "Record by Stage" (see [Creating a Cue](../cues/creating-a-cue.md#creating-a-cue)).
 
 ---
 

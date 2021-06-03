@@ -20,10 +20,10 @@ vergeben; das ist [im nächsten Abschnitt](#individuelle-zeiten-pro-schritt)
  genauer beschrieben.
 
 1. Drücken Sie im Hauptmenü <Keys.SoftKey>Edit Times</Keys.SoftKey>, und anschließend die
-<strong>Swop</strong>-Taste des gewünschten Chasers.
+&nbsp;<strong>Swop</strong>-Taste des gewünschten Chasers.
 
 2. Stellen Sie wie unten beschrieben <strong>Geschwindigkeit</strong>, <strong>Überblendung</strong>,
-<strong>Geräteversatz</strong> und <strong>Attributversatz</strong> ein.
+&nbsp;<strong>Geräteversatz</strong> und <strong>Attributversatz</strong> ein.
 
 3. Drücken Sie <Keys.HardKey>Exit</Keys.HardKey>, um den Vorgang abzuschließen.
 
@@ -64,8 +64,8 @@ Im nachstehenden Diagramm sind die Auswirkungen von 'Cue Overlap'
 
 Drücken Sie <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> und geben mit den Zifferntasten
 einen Wert von <strong>0 - 100</strong> ein.\
-<strong>100%</strong> (*Standardwert*) bedeutet, dass alle Geräte gemeinsam wechseln.
-<strong>0%</strong> bedeutet, dass zunächst das erste Gerät komplett überblendet, bevor das nächste damit beginnt.\
+&nbsp;<strong>100%</strong> (*Standardwert*) bedeutet, dass alle Geräte gemeinsam wechseln.
+&nbsp;<strong>0%</strong> bedeutet, dass zunächst das erste Gerät komplett überblendet, bevor das nächste damit beginnt.\
 Bei <strong>50%</strong> wird das erste die Überblendung zunächst zur Hälfte
 abschließen, bevor das nächste damit beginnt. Die Reihenfolge der
 Geräte wird dabei durch die Reihenfolge der Geräteauswahl beim

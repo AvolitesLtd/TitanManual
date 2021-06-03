@@ -65,15 +65,15 @@ auf den anderen Pulten sind diese Optionen ohne Funktion):
 
 ### Fixtures
 Die blaue, graue sowie 'touch'-Taste lassen sich als
-<strong>Disabled</strong> (deaktiviert), <strong>Select</strong> (Auswahltaste), <strong>Flash</strong>, <strong>Swop</strong> und
-<strong>Latch</strong> (Einrasten) konfigurieren. 
+&nbsp;<strong>Disabled</strong> (deaktiviert), <strong>Select</strong> (Auswahltaste), <strong>Flash</strong>, <strong>Swop</strong> und
+&nbsp;<strong>Latch</strong> (Einrasten) konfigurieren. 
 
 >	Die 'Latch'-Funktion wirkt wie das Stellen des Faders auf 100%, und 
 	auf 0% bei der zweiten Betätigung.
 
 ### Groups
 Die blaue, graue sowie 'touch'-Taste lassen sich als <strong>Disabled</strong>,
-<strong>Select Group</strong>, <strong>Flash Fixtures</strong>, <strong>Timed Flash</strong>, <strong>Flash Master</strong>, **Timed Flash
+&nbsp;<strong>Select Group</strong>, <strong>Flash Fixtures</strong>, <strong>Timed Flash</strong>, <strong>Flash Master</strong>, **Timed Flash
 Master<strong>, </strong>Swop Fixtures** konfigurieren, siehe auch [Geräte-Gruppen](../controlling-fixtures/fixture-groups.md).
 
 >	Die Option <strong>Group/Flash takes precedence</strong> bezieht sich nur auf das 
@@ -83,7 +83,7 @@ Master<strong>, </strong>Swop Fixtures** konfigurieren, siehe auch [Geräte-Grup
 ### Palettes
 
 Paletten-Tasten/Schaltflächen können <strong>Disabled</strong> (deaktiviert) sein oder mit
-<strong>Select Palette</strong> die Palette anwählen.
+&nbsp;<strong>Select Palette</strong> die Palette anwählen.
 
 Mit <strong>Palette is fired ignoring/with its times</strong> wird festgelegt, ob beim
 Aufrufen von Paletten gespeicherte Zeiten berücksichtigt werden oder nicht, 
@@ -97,14 +97,14 @@ Dies ist besonders interessant beim [Improvisieren (Busking) mit Paletten](../ru
 ### Cues
 
 Die Tasten und Schaltflächen können belegt werden mit <strong>Disabled</strong>, <strong>Flash</strong>,
-<strong>Timed Flash</strong>, <strong>Swop</strong>, <strong>Latch</strong>, <strong>Preload</strong>, <strong>Go</strong>, <strong>Tap Tempo</strong>, 
-<strong>Release</strong> und <strong>Select If</strong>.
+&nbsp;<strong>Timed Flash</strong>, <strong>Swop</strong>, <strong>Latch</strong>, <strong>Preload</strong>, <strong>Go</strong>, <strong>Tap Tempo</strong>, 
+&nbsp;<strong>Release</strong> und <strong>Select If</strong>.
 
 ### Chases
 
 Die Tasten und Schaltflächen können belegt werden mit <strong>Disabled</strong>, <strong>Flash</strong>,
-<strong>Timed Flash</strong>, <strong>Swop</strong>, <strong>Latch</strong>, <strong>Go</strong>, <strong>Stop</strong>, <strong>Preload</strong>, <strong>Connect</strong>, 
-<strong>Tap Tempo</strong>, <strong>Release</strong>, <strong>Select If</strong>.
+&nbsp;<strong>Timed Flash</strong>, <strong>Swop</strong>, <strong>Latch</strong>, <strong>Go</strong>, <strong>Stop</strong>, <strong>Preload</strong>, <strong>Connect</strong>, 
+&nbsp;<strong>Tap Tempo</strong>, <strong>Release</strong>, <strong>Select If</strong>.
 
 ### Cue Lists
 
@@ -152,14 +152,14 @@ Diese Sektion ist unterteilt in 'Standard Masters' und 'Scene Master'.
 
 Für normale Master gibt es die Optionen <strong>Disabled</strong>, <strong>Selection</strong>, <strong>Flash</strong>, <strong>Latch</strong>, **Tap
 Tempo<strong>, </strong>Nudge Up<strong>, </strong>Nudge Down<strong>, </strong>Release<strong>, </strong>Reset Multiplier<strong>, </strong>Multiplier x2**,
-<strong>Freeze</strong>, <strong>Connect</strong>.
+&nbsp;<strong>Freeze</strong>, <strong>Connect</strong>.
 
 Die letzteren gelten nur für BPM-Master, siehe [Optionen für BPM-Master](../running-the-show/playback-controls.md#optionen-für-bpm-master). Mit
 Freeze können Shapes und Chaser vorübergehend angehalten werden; bei
 einem Intensity-Master wirkt Freeze als Blackout.
 
 Für den Scene Master gibt es die Optionen <strong>Disabled</strong>, <strong>Exit scene mode</strong>, 
-<strong>Enter scene mode</strong>, <strong>Commit changes</strong>, **Commit changes and exit 
+&nbsp;<strong>Enter scene mode</strong>, <strong>Commit changes</strong>, **Commit changes and exit 
 scene mode<strong>, </strong>Enter or Exit scene mode<strong>, </strong>Enter or commit scene mode**.
 
 ## Eine Tastenbelegung auswählen

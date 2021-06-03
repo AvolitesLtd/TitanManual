@@ -168,7 +168,7 @@ used to control a mouse pointer for the screens.
 ## Front edge of the console
 
 Under the armrest at the front of the console is the <strong>Power Switch</strong>, a
-<strong>USB socket</strong> for connecting USB drives, and a pull-out drawer with an 
+&nbsp;<strong>USB socket</strong> for connecting USB drives, and a pull-out drawer with an 
 illuminated <strong>Keyboard</strong> for entering legends.
 
 ## The Back Panel

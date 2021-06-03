@@ -125,9 +125,9 @@ Cues containing shapes have a button for each shape.
 
 In the following cues where shapes are tracking, an option switch is
 shown for each active shape:
-<strong>T</strong> | <strong>Allows the shape to track to the next cue</strong>
+&nbsp;<strong>T</strong> | <strong>Allows the shape to track to the next cue</strong>
 ---|---
-<strong>B</strong> | <strong>Blocks the shape so it will not appear in following cues</strong>
+&nbsp;<strong>B</strong> | <strong>Blocks the shape so it will not appear in following cues</strong>
 
 The cue itself can also have options set to block all shapes, see
 [Cue List Options](cue-list-options.md#cue-list-options-playback-tab).
@@ -136,7 +136,7 @@ You can also block attributes for shapes independently during recording
 using the <strong>@</strong> menu. Select the <strong>Attribute</strong> using the attribute bank buttons,
 press <strong>@</strong> then the <strong>FX</strong> group button. The softkeys will then give the
 options <Keys.SoftKey>Block Shape</Keys.SoftKey> and <Keys.SoftKey>Unblock Shape</Keys.SoftKey>. If an attribute is set to
-<strong>Blocked</strong> the wheel display will show a *"Blocked"* watermark.
+&nbsp;<strong>Blocked</strong> the wheel display will show a *"Blocked"* watermark.
 
 If <strong>[Shape Tracking](cue-list-options.md#cue-list-options-playback-tab)</strong> is not enabled, shapes in each cue are independent
 from each other. If an identical shape (with the same size and speed) is
@@ -172,7 +172,7 @@ To manually edit autoloads use the playback view for the cue list:
 2. Press the <strong>Select button</strong> of the Cue List.
 
 3. The cues in the cue list are shown on the screen. Click on the
-<strong>Autoload</strong> you wish to change. *(You will need to set the window to full
+&nbsp;<strong>Autoload</strong> you wish to change. *(You will need to set the window to full
 screen size or scroll across to see the Autoload column. If the Autoload
 column is not shown, click on the Show All button on the left of the
 window.)*

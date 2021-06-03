@@ -73,9 +73,13 @@ Other useful things to know about recording cues:
 -   <Keys.SoftKey>Record Mode</Keys.SoftKey> lets you select:
     -   <Keys.SoftKey>Record By Fixture</Keys.SoftKey> - All attributes of any modified or selected
     fixture are saved
+
     -   <Keys.SoftKey>Record By Channel</Keys.SoftKey> - Only modified attributes are saved
+
     -   <Keys.SoftKey>Record Stage</Keys.SoftKey> - All fixtures with a non-zero dimmer channel are saved
-    -   <Keys.SoftKey>Quick Build</Keys.SoftKey> - see [next section](#quick-build-cues)
+
+    -   &nbsp;<Keys.SoftKey>Quick Build</Keys.SoftKey> - see [next section](#quick-build-cues)
+
 
 -   <Keys.SoftKey>Record By Channel</Keys.SoftKey> is useful if you want to layer multiple cues to
     create an effect.

@@ -32,7 +32,7 @@ This is how you program a timeline using Live Record, from playbacks which you h
 4. Select which track on the timeline you want to record onto using the <Keys.SoftKey>Track</Keys.SoftKey> softkey or tap on the flashing dotted area of the track you want to use.
 You can add triggers to an existing track or create a new track by tapping on the blank area at the bottom. Or if you just press <Keys.ContextKey>Record</Keys.ContextKey> again then recording will start using the current track selection.
 
-    ![Timeline quick record dotted tracks](/docs/images/Timeline-Quickrecord-Dotted.png)
+ ![Timeline quick record dotted tracks](/docs/images/Timeline-Quickrecord-Dotted.png)
 
 5. Tap again on the track to start recording (or press the <Keys.SoftKey>Start Live Record</Keys.SoftKey> softkey). The workspaces will be outlined in red but recording will not begin until the timecode is started.
 

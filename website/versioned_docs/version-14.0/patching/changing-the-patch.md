@@ -25,11 +25,11 @@ select buttons.
 
 ![Patch View](/docs/images/Patch-View.png)
 
-<strong>Fixture type:</strong> lists the different types of fixture in your show.
+&nbsp;<strong>Fixture type:</strong> lists the different types of fixture in your show.
 Each fixture has a unique colour code. Click on these buttons to filter
 the view so it only shows one fixture type.
 
-<strong>Line:</strong> lists the available DMX output lines/universes. The blue
+&nbsp;<strong>Line:</strong> lists the available DMX output lines/universes. The blue
 bar graph in the button shows how much of the line is used by patched
 fixtures and how much is free. Click a button to show the details of
 that line in the right hand side of the window.

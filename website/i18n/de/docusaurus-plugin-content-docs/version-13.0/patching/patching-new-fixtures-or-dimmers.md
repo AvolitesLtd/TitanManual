@@ -140,6 +140,7 @@ Funktionstasten aus.
 ggf. mit dem Ziffernblock. Betätigen Sie <Keys.SoftKey>DMX line=xx</Keys.SoftKey>, um auf eine
 andere DMX-Linie zu wechseln, oder geben Sie die Adresse als
 &#123;Linie&#125;.&#123;Adresse&#125; ein (z.B. 2.45 für Kanal 45 auf Linie 2).
+
 ![Address Input](/docs/images/Address-Input.png)
 
 7. Um das Gerät zu patchen, betätigen Sie einen der Buttons im

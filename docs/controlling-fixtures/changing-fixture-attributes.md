@@ -15,7 +15,7 @@ have various options for controlling them.
 
 "Attributes" are the functions of the fixture, like pan, tilt, colour,
 dimmer, etc. You select which attributes you want to modify using the
-<strong>Attribute Bank</strong> buttons - Intensity, Position, Colour, Gobo, Beam,
+&nbsp;<strong>Attribute Bank</strong> buttons - Intensity, Position, Colour, Gobo, Beam,
 Effect, Special, FX (abbreviated as IPCGBESFX) and then set values using the wheels. The attributes
 available depend on the fixture type. Dimmer channels only have a dimmer
 attribute.

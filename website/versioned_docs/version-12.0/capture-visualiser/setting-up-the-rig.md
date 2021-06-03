@@ -20,7 +20,7 @@ Click the <strong>Stage</strong> tab.
 
 ![Capture Visualiser Settings Window](/docs/images/Capture-Visualiser-Settings-Window.png)
 
-<strong>"Floor"</strong> and <strong>"Back Wall"</strong> are provided by default. You can add other
+&nbsp;<strong>"Floor"</strong> and <strong>"Back Wall"</strong> are provided by default. You can add other
 objects by clicking the <strong>+</strong> button at the bottom of the list.
 
 Click on the object in the list on the left hand side to position and
@@ -35,9 +35,7 @@ Fixtures are automatically placed into the visualiser when they are
 patched if the Auto Update switch in the [Capture Settings](#setting-up-the-stage-and-rigging) <strong>"Show"</strong> window
 is set to On.
 
-If you [load a Titan show](../titan-basics/loading-and-saving-shows.md#loading-a-show) from a previous version, or have some patched
-fixtures which are not placed in Capture, use the <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>
-<Keys.SoftKey>Update Personality</Keys.SoftKey> option on the [Patch menu](../patching/changing-the-patch.md#patch-view) to place missing
+If you [load a Titan show](../titan-basics/loading-and-saving-shows.md#loading-a-show) from a previous version, or have some patched fixtures which are not placed in Capture, use the <Keys.SoftKey>Edit Fixtures</Keys.SoftKey> <Keys.SoftKey>Update Personality</Keys.SoftKey> option on the [Patch menu](../patching/changing-the-patch.md#patch-view) to place missing
 fixtures into the visualiser. The [Exchange Fixtures](../patching/changing-the-patch.md#exchange-mapping) function may also be
 used to help with this situation.
 
@@ -60,9 +58,9 @@ If you are viewing the stage from the front then:
 
 Axis | Action
 ---|---
-<strong>X</strong> | moves left and right
-<strong>Y</strong> | moves up and down
-<strong>Z</strong> | moves towards and away from you
+&nbsp;<strong>X</strong> | moves left and right
+&nbsp;<strong>Y</strong> | moves up and down
+&nbsp;<strong>Z</strong> | moves towards and away from you
 
 Press the <strong>Position</strong> button again to switch the wheels to Orientation
 mode. The wheels will now pivot the fixtures in the X/Y/Z axes. Again
@@ -103,7 +101,7 @@ can open using the <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> button or 
 Settings</Keys.SoftKey> context button.
 
 The view buttons across the top select the four default views *(shown below)*. Press the
-<strong>+</strong> button at the right hand side to add a new view.
+&nbsp;<strong>+</strong> button at the right hand side to add a new view.
 
 The top button on the left toggles between single view or quad split
 mode. If quad split is selected, the other 4 buttons select which view

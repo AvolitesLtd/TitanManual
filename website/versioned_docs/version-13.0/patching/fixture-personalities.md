@@ -60,7 +60,7 @@ clicking on "Titan Fixture Library".
 
 > Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
 
-<strong>To update a console use the following procedure:</strong>
+&nbsp;<strong>To update a console use the following procedure:</strong>
 
 1. Copy the downloaded file TitanFixtureLibrary.exe onto a USB pen
 drive and plug in to the console.
@@ -74,7 +74,7 @@ to run it. Click \'Ok\' on the warning box.
 4. Shut down and then restart the console (using the Restart Software
 button on the screen Tools menu is OK).
 
-<strong>To update Titan Mobile, Titan Go or Titan Simulator:</strong>
+&nbsp;<strong>To update Titan Mobile, Titan Go or Titan Simulator:</strong>
 
 1. Locate the downloaded file TitanFixtureLibrary.exe and double click
 on it to run it. Windows may show a warning about an unrecognised file

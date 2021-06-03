@@ -12,14 +12,14 @@ Nun haben Sie das gewünschte Licht auf der Bühne erstellt und möchten
 die Einstellung gern speichern und später wieder aufrufen. Dabei gibt es
 drei verschiedene grundsätzliche Speichermöglichkeiten:
 
-<strong>Cues</strong> (Szenen): dies sind einzelne Lichtstimmungen oder Bilder. Diese
+&nbsp;<strong>Cues</strong> (Szenen): dies sind einzelne Lichtstimmungen oder Bilder. Diese
 können Abläufe (Shapes) enthalten, und können mit Zeiten zum Ein- und
 Ausblenden versehen sein.
 
-<strong>Chaser</strong> (Lauflichter): eine Folge mehrerer einzelner Cues, die
+&nbsp;<strong>Chaser</strong> (Lauflichter): eine Folge mehrerer einzelner Cues, die
 automatisch abläuft.
 
-<strong>Cueliste</strong>: eine Folge mehrerer Cues oder Chaser, die durch getrennte
+&nbsp;<strong>Cueliste</strong>: eine Folge mehrerer Cues oder Chaser, die durch getrennte
 Kommandos (<Keys.HardKey>Go</Keys.HardKey>-Taste) gesteuert wird.
 
 [Chaser](chases.md) und [Cuelisten](cue-lists.md) werden in den separaten 

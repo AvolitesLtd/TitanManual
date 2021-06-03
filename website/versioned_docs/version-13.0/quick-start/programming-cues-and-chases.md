@@ -57,7 +57,7 @@ together, 0%=fixture waits for previous one to complete).
 
 <Keys.SoftKey>Attribute times</Keys.SoftKey> sets individual fade times for different attributes.
 
-<Keys.SoftKey>Fixture order</Keys.SoftKey> changes sequence for shapes and
+&nbsp;<Keys.SoftKey>Fixture order</Keys.SoftKey> changes sequence for shapes and
 [Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
 See [Cue Timing](../cues/cue-timing.md)

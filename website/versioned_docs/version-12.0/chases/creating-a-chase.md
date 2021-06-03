@@ -58,7 +58,7 @@ programmer)*, then repeat steps 3 - 5.
     - <Keys.SoftKey>Record Stage</Keys.SoftKey> - all fixtures with a
     non-zero dimmer setting are saved
     
-    - <Keys.SoftKey>Quick Build</Keys.SoftKey> - [see next section](#creating-a-chase-with-quick-build)
+    - &nbsp;<Keys.SoftKey>Quick Build</Keys.SoftKey> - [see next section](#creating-a-chase-with-quick-build)
 
 -   The cue number currently being saved, and the total number of cues,
     is shown on the top line of the display.

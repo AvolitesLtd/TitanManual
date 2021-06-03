@@ -301,7 +301,7 @@ Wird ein [Halo für Geräte-Tasten](../patching/changing-the-patch.md#halo-für-
 so wird dessen Farbe auch in anderen Fenstern verwendet. Außerdem können 
 automatisch unterschiedliche Halos pro Gerätetyp vergeben werden.
 
-<strong>Trackball (nur beim Sapphire Touch)</strong>
+&nbsp;<strong>Trackball (nur beim Sapphire Touch)</strong>
 ---------------------------------------
 
 Mit dem Trackball rechts auf dem Pult lässt sich entweder die Maus
@@ -317,7 +317,7 @@ Um in den Modus zur Gerätesteuerung zu schalten, drücken Sie
 <Keys.HardKey>Assign</Keys.HardKey> + <Keys.HardKey>Right</Keys.HardKey>: nun steuert der Trackball Pan und Tilt, und mit
 dem Ring kann Tilt sehr fein geregelt werden.
 
-<strong>Bildschirmtastatur</strong>
+&nbsp;<strong>Bildschirmtastatur</strong>
 ----------------------
 
 Am Ende der Werkzeugleiste (am Mittelsteg zwischen den Bildschirmen beim

@@ -75,7 +75,7 @@ Gerät             | IP-Adresse        | Subnetzmaske
 Titan-Pult        | `10.100.100.100`  | `255.0.0.0`
 Art-Net-Geräte    | `10.x.y.z` <strong>\</strong>* | `255.0.0.0`
 
-<strong>\</strong>* *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
+&nbsp;<strong>\</strong>* *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
 vergeben.*
 
 ### Titan-Pult und TNP, Ausgang über Art-Net (und DMX)
@@ -94,7 +94,7 @@ Titan-Pult        | `10.100.100.100`  | `255.0.0.0`
 TNP               | `10.100.100.101`  | `255.0.0.0`
 Art-Net-Geräte    | `10.x.y.z` <strong>\</strong>* | `255.0.0.0`
 
-<strong>\</strong>* *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
+&nbsp;<strong>\</strong>* *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
 vergeben.*
 
 >	Verwenden Sie niemals '255' an letzter Stelle der IP-Adresse; dies ist eine spezielle Adresse und wird nicht funktionieren.

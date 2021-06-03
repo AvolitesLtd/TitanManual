@@ -14,7 +14,7 @@ Anzeigen und Ändern einer Palette
 Die in einer Palette gespeicherten Werte lassen sich im Fenster **Palette
 View** anzeigen. Hier werden alle Geräte aufgelistet, für die die Palette
 Werte enthält. Mit einer Kontext-Schaltfläche lassen sich gespeicherte
-<strong>Zeiten (Times)</strong> anzeigen.
+&nbsp;<strong>Zeiten (Times)</strong> anzeigen.
 
 Drücken Sie dazu <Keys.HardKey>View / Open</Keys.HardKey> und die anzuzeigende
 Paletten-Schaltfläche. Daraufhin öffnet sich das Fenster <strong>Palette View</strong>.

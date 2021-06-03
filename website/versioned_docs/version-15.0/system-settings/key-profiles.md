@@ -62,16 +62,14 @@ consoles these settings will not do anything.
 
 ### Fixtures
 The blue, grey or touch key can be allocated to <strong>Disabled</strong>,
-<strong>Select</strong>, <strong>Flash</strong>, <strong>Swop</strong>, <strong>Latch</strong>.
+&nbsp;<strong>Select</strong>, <strong>Flash</strong>, <strong>Swop</strong>, <strong>Latch</strong>.
 
 > The "Latch" function is equivalent to
 putting the fader to full for that fixture and touching again returns
 the fader to 0.
 
 ### Groups
-The blue, grey or touch key can be allocated to <strong>Disabled</strong>,
-<strong>Select Group</strong>, <strong>Flash Fixtures</strong>, <strong>Timed Flash</strong>, <strong>Flash Master</strong>, <em></em>Timed Flash
-Master<strong>, </strong>Swop Fixtures<em></em> - see [Fixture Groups](../controlling-fixtures/fixture-groups.md)
+The blue, grey or touch key can be allocated to <strong>Disabled</strong>, <strong>Select Group</strong>, <strong>Flash Fixtures</strong>, <strong>Timed Flash</strong>, <strong>Flash Master</strong>, <em></em>Timed Flash Master<strong>, </strong>Swop Fixtures<em></em> - see [Fixture Groups](../controlling-fixtures/fixture-groups.md)
 for more details.
 
 >   The option <strong>Group/Flash takes precedence</strong> only applies to the Pearl Expert
@@ -93,11 +91,11 @@ This setting is particularly useful when [Busking with palettes](../running-the-
 ### Cues
 
 Keys and buttons can be allocated to <strong>Disabled</strong>, <strong>Flash</strong>, <strong>Timed Flash</strong>, 
-<strong>Swop</strong>, <strong>Latch</strong>, <strong>Preload</strong>, <strong>Go</strong>, <strong>Tap Tempo</strong>, <strong>Release</strong>, <strong>Select If</strong>.
+&nbsp;<strong>Swop</strong>, <strong>Latch</strong>, <strong>Preload</strong>, <strong>Go</strong>, <strong>Tap Tempo</strong>, <strong>Release</strong>, <strong>Select If</strong>.
 
 ### Chases
 Keys and buttons can be allocated to <strong>Disabled</strong>, <strong>Flash</strong>, <strong>Timed Flash</strong>,
-<strong>Swop</strong>, <strong>Latch</strong>, <strong>Go</strong>, <strong>Stop</strong>, <strong>Preload</strong>, <strong>Connect</strong>, <strong>Tap Tempo</strong>, <strong>Release</strong>, <strong>Select If</strong>.
+&nbsp;<strong>Swop</strong>, <strong>Latch</strong>, <strong>Go</strong>, <strong>Stop</strong>, <strong>Preload</strong>, <strong>Connect</strong>, <strong>Tap Tempo</strong>, <strong>Release</strong>, <strong>Select If</strong>.
 
 ### Cue Lists
 
@@ -143,8 +141,8 @@ on empty handles).
 You can set different button options for <Keys.SoftKey>Standard Masters</Keys.SoftKey> and <Keys.SoftKey>Scene Master</Keys.SoftKey>.
 
 For Standard Masters the options are <strong>Disabled</strong>, <strong>Selection</strong>, <strong>Flash</strong>, <strong>Latch</strong>, 
-<strong>Connect</strong>, <strong>Tap Tempo</strong>, <strong>Nudge Up</strong>, <strong>Nudge Down</strong>, <strong>Release</strong>, <strong>Reset Multiplier</strong>, 
-<strong>Multiplier x2</strong>, <strong>Freeze</strong>.
+&nbsp;<strong>Connect</strong>, <strong>Tap Tempo</strong>, <strong>Nudge Up</strong>, <strong>Nudge Down</strong>, <strong>Release</strong>, <strong>Reset Multiplier</strong>, 
+&nbsp;<strong>Multiplier x2</strong>, <strong>Freeze</strong>.
 
 Some of these options only operate with particular types of master - the Multiplier options
 are only for BPM masters, see
@@ -152,11 +150,7 @@ the [BPM Master Options](../running-the-show/playback-controls.md#bpm-master-opt
 Freeze can be useful to temporarily pause
 shapes or chases, or does a blackout if used with an intensity master.
 
-For Scene Master the options are <strong>Disabled</strong>, <strong>Preload Scene Mode</strong>, 
-<strong>Exit Scene Mode</strong>, <strong>Enter Scene Mode</strong>, <strong>Commit Changes</strong>, 
-<strong>Commit Changes and Exit Scene Mode</strong>, <strong>Enter or Exit Scene Mode</strong>, 
-<strong>Enter or Commit Scene Mode</strong>,<strong>Reset Scene Mode</strong>. See 
-[Scene Master](../running-the-show/playback-controls.md/#scene-master).
+For Scene Master the options are <strong>Disabled</strong>, <strong>Preload Scene Mode</strong>, <strong>Exit Scene Mode</strong>, <strong>Enter Scene Mode</strong>, <strong>Commit Changes</strong>, <strong>Commit Changes and Exit Scene Mode</strong>, <strong>Enter or Exit Scene Mode</strong>, <strong>Enter or Commit Scene Mode</strong>,<strong>Reset Scene Mode</strong>. See [Scene Master](../running-the-show/playback-controls.md/#scene-master).
 
 ## Changing the Key Profile
 

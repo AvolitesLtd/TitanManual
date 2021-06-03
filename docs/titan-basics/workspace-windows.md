@@ -193,7 +193,8 @@ will behave if you load more windows, and to be able to target particular window
     is set to record only a single screen, and sets whether the workspace will
 	recall onto the screen where you recorded it (button shows S + the screen number), or if it will recall onto
 	the screen where you selected it (button shows a target symbol).
-	![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
+	
+![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
 
 -   To delete a workspace button, press <Keys.HardKey>Open/View</Keys.HardKey>, <Keys.HardKey>Delete</Keys.HardKey>, then
     the workspace button to be deleted.
@@ -204,15 +205,15 @@ will behave if you load more windows, and to be able to target particular window
 	allowing you to recall it onto a different screen.
 	
 
->	<strong>Screen numbering</strong>
-
-	On consoles with a single internal screen, that is (1) and the external screen is (2).
-
-	On Diamond 9 the right main screen is (1), middle is (2), left (not D9-215) is (3), Editor screen is (4), Video preview screens are (7) (6) (5), external screens are left=(9) and right=(8).
-
-	On Arena 	the main screen is (1), the mini screen (2) and the external screen (3). 
-
-	On Sapphire Touch the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).
+> <strong>Screen numbering</strong>
+>
+> On consoles with a single internal screen, that is (1) and the external screen is (2).
+>
+> On Diamond 9 the right main screen is (1), middle is (2), left (not D9-215) is (3), Editor screen is (4), Video preview screens are (7) (6) (5), external screens are left=(9) and right=(8).
+>
+> On Arena the main screen is (1), the mini screen (2) and the external screen (3). 
+>
+> On Sapphire Touch the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).
 
 As an example of setting up a workspace, suppose while programming you
 wanted to be able to access fixtures, position palettes, fixture
@@ -327,7 +328,7 @@ NDI video streams, or can also be used as extra workspace windows.
 
 To configure a screen, double press <Keys.HardKey>Open/View</Keys.HardKey> and window selection buttons will pop up
 on each screen, touch the type of window you want to configure the view. For NDI Preview select
-<strong>Video Preview</strong> (1 2 or 3 depending which screen you are setting). To select an NDI stream,
+&nbsp;<strong>Video Preview</strong> (1 2 or 3 depending which screen you are setting). To select an NDI stream,
 tap on the screen and you will then see
 thumbnails of the available NDI streams to select. See [Media Viewer](../synergy/operating-synergy.md#media-viewer)
 in the Ai section for more details.

@@ -115,7 +115,7 @@ klickt man auf das Surface in der Mitte und danach links auf den
 zusätzlichen Output.
 
 Ist ein Layer verknüpft, so wird das in Ai in den Layer Properties mit
-<strong>Synergy Control: Enabled</strong> angezeigt. Dieser Layer kann nun nicht von Ai
+&nbsp;<strong>Synergy Control: Enabled</strong> angezeigt. Dieser Layer kann nun nicht von Ai
 direkt, sondern nur über Titan/Synergy gesteuert werden.
 
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)

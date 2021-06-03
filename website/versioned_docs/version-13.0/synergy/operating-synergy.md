@@ -114,7 +114,7 @@ adding FX and colour.
 ![Clip tab of Attribute Editor for Synergy layer](/docs/images/Clip-tab-of-Attribute-Editor-for-Synergy-layer.png)
 
 In the Media selection screen, in the Clip tab, if you click on the
-<strong>T</strong> button *(top right)* or the caption at the top of the tab, this will toggle
+&nbsp;<strong>T</strong> button *(top right)* or the caption at the top of the tab, this will toggle
 the clip name display on and off. This can be useful for long names
 which obscure the picture; on the other hand if you have lots of
 clips which look similar, the name display can be useful.
@@ -176,7 +176,7 @@ want to use.
 
 6. Select the surface you want to take the media from using the **Source
 Surface** option. You can also adjust the colour balance using the
-<strong>Red/Green/Blue sliders</strong>.
+&nbsp;<strong>Red/Green/Blue sliders</strong>.
 
 ![Ai layer video overlay in Pixel Mapper Window](/docs/images/Ai-layer-video-overlay-in-Pixel-Mapper-Window.png)
 
@@ -266,6 +266,6 @@ onto a new screen.
 
 Bank/Clip | Function
 ---|---
-<strong>Bank 240 - 255</strong> | Selects a Surface/Screen Fixture from 1-16
-<strong>Clip 0 - 200</strong> | Selects layer number 1-201 on that surface.
-<strong>Clip 255</strong> | Selects the surface output (the composite of all layers)
+&nbsp;<strong>Bank 240 - 255</strong> | Selects a Surface/Screen Fixture from 1-16
+&nbsp;<strong>Clip 0 - 200</strong> | Selects layer number 1-201 on that surface.
+&nbsp;<strong>Clip 255</strong> | Selects the surface output (the composite of all layers)

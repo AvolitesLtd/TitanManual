@@ -37,7 +37,7 @@ and install it on the console like this:
 1. Copy the installer file to a USB drive and insert into the console.
 
 2. In the screen <strong>tools menu</strong>, stop the console software using the
-<strong>Shutdown Software</strong> button at the bottom of the list.
+&nbsp;<strong>Shutdown Software</strong> button at the bottom of the list.
 
 ![Tools Menu](/docs/images/Tools-Menu.png)
 

@@ -29,7 +29,7 @@ Löschen eines Chasers
 ---------------------
 
 Zum Löschen eines kompletten Chasers drücken Sie <Keys.HardKey>Delete</Keys.HardKey>, dann die
-<strong>Auswahltaste</strong> des Chasers. Drücken Sie diese zur Bestätigung nochmals.
+&nbsp;<strong>Auswahltaste</strong> des Chasers. Drücken Sie diese zur Bestätigung nochmals.
 
 Löschen eines Schrittes aus einem Chaser
 ----------------------------------------

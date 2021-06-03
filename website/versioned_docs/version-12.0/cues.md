@@ -13,13 +13,13 @@ use in your show.
 
 There are three ways of saving looks on Titan.
 
-<strong>Cue:</strong> This is a single look. It may contain movement in the form of
+&nbsp;<strong>Cue:</strong> This is a single look. It may contain movement in the form of
 shapes, and have fade in and fade out times.
 
-<strong>Chase:</strong> This is a timed sequence of cues, often used for an
+&nbsp;<strong>Chase:</strong> This is a timed sequence of cues, often used for an
 individual effect.
 
-<strong>Cue List:</strong> This is a linked sequence of cues, usually used to store
+&nbsp;<strong>Cue List:</strong> This is a linked sequence of cues, usually used to store
 and replay an entire show or an element of a show from a "go" button.
 
 [Chases](chases.md) and [Cue Lists](cue-lists.md) are covered in more detail in the following

@@ -38,7 +38,7 @@ Sets the direction of the chase.
 Sets how the cues in the chase are linked. The options
 are:
 
-<Keys.SoftKey>Link according to individual steps</Keys.SoftKey> - Each step in the chase will obey its 
+&nbsp;<Keys.SoftKey>Link according to individual steps</Keys.SoftKey> - Each step in the chase will obey its 
 individual link settings which are set using the
 [Playback View window](editing-a-chase.md#opening-a-chase-for-editing)
 or the [<Keys.HardKey>Unfold</Keys.HardKey> function](editing-a-chase.md#editing-a-chase-using-unfold).

@@ -133,7 +133,7 @@ include all fixtures in all the cues of the chase/list. The filter
 settings are shown in a bar at the top of the window, click the <Keys.ContextKey>X</Keys.ContextKey> to
 remove the filter or click on the bar to change the group/playback.
 
-<Keys.SoftKey>Open Channel Grid</Keys.SoftKey> opens the [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window).
+&nbsp;<Keys.SoftKey>Open Channel Grid</Keys.SoftKey> opens the [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window).
 
 In the <strong>Window Appearance Settings</strong> (<Keys.ContextKey>Cog</Keys.ContextKey> button) there are further
 display options. Turning off some of the options will reduce the size of

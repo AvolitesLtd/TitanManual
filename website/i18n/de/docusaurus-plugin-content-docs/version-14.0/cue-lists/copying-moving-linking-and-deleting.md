@@ -30,5 +30,5 @@ Löschen einer Cueliste
 ----------------------
 
 Um eine komplette Cueliste zu löschen, drücken Sie <Keys.HardKey>Delete</Keys.HardKey>, dann die
-<strong>Auswahltaste</strong> der zu löschenden Cueliste, und schließlich die
+&nbsp;<strong>Auswahltaste</strong> der zu löschenden Cueliste, und schließlich die
 Auswahltaste nochmals (oder <Keys.SoftKey>Confirm</Keys.SoftKey> oder <Keys.HardKey>Enter</Keys.HardKey>).

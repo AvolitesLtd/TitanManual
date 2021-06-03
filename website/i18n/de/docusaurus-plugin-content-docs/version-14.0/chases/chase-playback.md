@@ -82,7 +82,7 @@ angezeigt. Ebenso lässt sich die Geschwindigkeit über die Zifferntasten
 eingeben (s.u.). Die zuletzt gewählte Geschwindigkeit wird automatisch
 gespeichert.
 
-<strong>Crossfade</strong> ist die Überblendung zwischen den einzelnen Schritten. Bei
+&nbsp;<strong>Crossfade</strong> ist die Überblendung zwischen den einzelnen Schritten. Bei
 Crossfade = 0 werden die Geräte zwischen den einzelnen Schritten hart
 umgeschaltet, bei Crossfade = 100 erfolgt ein allmähliches Überblenden
 über die Gesamtdauer des Schrittes, und bei Crossfade = 50 bleiben die
@@ -94,7 +94,7 @@ andere Hälfte auf die neuen Werte über.
 Überblendung und Geschwindigkeit werden wie folgt eingestellt:
 
 1. Wählen Sie <Keys.SoftKey>Edit Times</Keys.SoftKey> aus dem Hauptmenü, und drücken dann die
-<strong>Swop</strong>-Taste des Chasers.
+&nbsp;<strong>Swop</strong>-Taste des Chasers.
 
 2. Zum Einstellen der <strong>Überblendung</strong> drücken Sie <Keys.SoftKey>Xfade</Keys.SoftKey> und geben mit
 den Zifferntasten einen Wert von <strong>0 ... 100</strong> ein *(0 = hartes
@@ -164,7 +164,7 @@ zurückzukehren.
 Die Tasten <Keys.HardKey>Prev Step</Keys.HardKey>/<Keys.HardKey>Next Step</Keys.HardKey> (← und → auf manchen Pulten) 
 rechts neben der <Keys.HardKey>Connect / Cue</Keys.HardKey>-Taste bestimmen die Richtung des 
 verbundenen Chasers. Der Doppelpfeil <Keys.HardKey>↔</Keys.HardKey> (wenn vorhanden) steht dabei für
-<strong>Hin und Her</strong>: der Chaser läuft in einer Richtung bis zum Ende, dann
+&nbsp;<strong>Hin und Her</strong>: der Chaser läuft in einer Richtung bis zum Ende, dann
 wieder zurück zum Anfang, und so fort. Die Taste <Keys.HardKey>Review</Keys.HardKey> sorgt für
 einen <strong>zufälligen</strong> Ablauf. 
 

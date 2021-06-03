@@ -229,7 +229,7 @@ or exclude Shapes from the cue.
 will be loaded into the programmer.
 
 7. <strong>Repeat steps 2 - 6</strong> to include other attributes from the same fixtures, or
-<strong>repeat steps 1 - 6</strong> to include other fixtures.
+&nbsp;<strong>repeat steps 1 - 6</strong> to include other fixtures.
 
 >   In <strong>Quick Include</strong> mode, you can set a mask for the include by
     pressing one or more of the attribute bank buttons before you select

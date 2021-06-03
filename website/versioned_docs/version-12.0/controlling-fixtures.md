@@ -191,7 +191,7 @@ can also be set in the Clear tab of the [User Settings](./system-settings/user-s
     to <Keys.SoftKey>Remember Mask</Keys.SoftKey> which will keep the mask setting you used last
     time.
 
--   <Keys.SoftKey>Leave/Zero Preset Fader Levels</Keys.SoftKey> is used to set whether latched
+-   &nbsp;<Keys.SoftKey>Leave/Zero Preset Fader Levels</Keys.SoftKey> is used to set whether latched
     fixtures are cleared (the [fixture key profile](./system-settings/key-profiles.md#creating-and-editing-key-profiles) can be set to "Latch"
     mode, which turns on the fixture dimmer channel when the fixture
     button is touched.)
@@ -395,7 +395,7 @@ the next stage of the pattern (<Keys.HardKey>Next</Keys.HardKey> and <Keys.HardK
 ## Selecting Fixtures which are in a Playback
 
 To select fixtures which are controlled by a particular playback use the
-<strong>Select If</strong> function.
+&nbsp;<strong>Select If</strong> function.
 
 To select fixtures used in a playback, press <Keys.HardKey>Select If</Keys.HardKey> then the
 playback button. (If the console does not have a <Keys.HardKey>Select If</Keys.HardKey> button,

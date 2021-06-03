@@ -54,7 +54,7 @@ Generator</Keys.SoftKey>.
 press <Keys.SoftKey>All</Keys.SoftKey> for a full list.
 
 5. Press a <Keys.SoftKey>softkey</Keys.SoftKey> to select a shape, or touch the desired shape in the
-<strong>Shapes window</strong>. You can type a search word on the keyboard to search for
+&nbsp;<strong>Shapes window</strong>. You can type a search word on the keyboard to search for
 a particular shape.
 
 6. The shape will be applied to all selected fixtures.
@@ -70,7 +70,7 @@ a particular shape.
 
     
 
-    ![Shapes Workspace Window](/docs/images/Shapes-Workspace-Window.png)
+![Shapes Workspace Window](/docs/images/Shapes-Workspace-Window.png)
 
 -   Shapes are based on the current settings of the fixture, so for example *a
     position circle would move around the current pan-tilt position of
@@ -101,7 +101,7 @@ a particular shape.
     -   <Keys.SoftKey>Run on Super Fixtures</Keys.SoftKey> - cells are ignored, fixture operates as one
     block
     -   <Keys.SoftKey>Run on Sub Fixtures (Linear)</Keys.SoftKey> - the cells are used in numerical order
-    -   <Keys.SoftKey>Run on Sub Fixtures (Group)</Keys.SoftKey> - the layout of the cells is used as
+    -   &nbsp;<Keys.SoftKey>Run on Sub Fixtures (Group)</Keys.SoftKey> - the layout of the cells is used as
     programmed in the [Layout Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) for the group
 
 -   Each shape is designed to work on a particular attribute. Obviously

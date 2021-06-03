@@ -199,9 +199,9 @@ and columns (Width).
     with small spacing.
 
 
-    ![Position](/docs/images/Position-2.png)
+![Position](/docs/images/Position-2.png)
 
-    ![Scale](/docs/images/Scale.png)
+![Scale](/docs/images/Scale.png)
 
 -   The Layout Editor is described in more detail with examples in the
     [Pixel Mapper section](../effects/pixel-mapper.md). There are also some features

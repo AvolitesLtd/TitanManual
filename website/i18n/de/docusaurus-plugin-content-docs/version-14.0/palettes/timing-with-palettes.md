@@ -68,8 +68,8 @@ Außerdem lässt sich die [Überlappung (Fixture Overlap)](../cues/cue-timing.md
 zwischen den Geräten einstellen: wenn die Palette auf eine Gruppe von 
 Geräten angewendet wird, so erfolgt das nacheinander auf die einzelnen
 Geräte. Damit lassen sich sehr einfach beeindruckende Effekte erzielen.\
-<strong>100%</strong> bedeutet, dass alle Geräte gleichzeitig beeinflusst werden.\
-<strong>0%</strong> bedeutet, dass ein Gerät erst voll eingeblendet 
+&nbsp;<strong>100%</strong> bedeutet, dass alle Geräte gleichzeitig beeinflusst werden.\
+&nbsp;<strong>0%</strong> bedeutet, dass ein Gerät erst voll eingeblendet 
 sein muss, bevor die Überblendung mit dem nächsten Gerät beginnt.
 
 1.  Geben Sie mit den Zifferntasten die Überlappung ein.

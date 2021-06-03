@@ -71,9 +71,9 @@ umfassen:
 
 Link Option | Action
 ---|---
-<strong><Keys.SoftKey>Link Wait For Go</Keys.SoftKey></strong> | 'Warten auf Go': der Schritt wartet auf das Betätigen der <Keys.HardKey>Go</Keys.HardKey>-Taste und startet dann sofort; *ein Versatz zwischen Schritten ist nicht möglich.*
-<strong><Keys.SoftKey>Link After Previous Cue</Keys.SoftKey></strong> | 'Start nach vorigem Schritt': der Schritt startet, wenn der vorige seine Warte- und Überblendzeiten durchlaufen hat. Zusätzlich lässt sich ein Versatz (Offset) eingeben, als Verzögerung zwischen dem Ende des vorigen und dem Start des neuen Schritts. Der Versatz kann entweder in Sekunden, oder als Prozentsatz der Überblendzeit des vorigen Schrittes, eingegeben werden.
-<strong><Keys.SoftKey>Link With Previous Cue</Keys.SoftKey></strong> | 'Start mit dem vorigen Schritt': der Schritt startet gleichzeitig mit dem vorigen. Ein Versatz (Offset), anzugeben in Sekunden oder in Prozent der Überblendzeiten des vorigen Schrittes, bestimmt die Verzögerung zwischen den Schritten.
+&nbsp;<strong><Keys.SoftKey>Link Wait For Go</Keys.SoftKey></strong> | 'Warten auf Go': der Schritt wartet auf das Betätigen der <Keys.HardKey>Go</Keys.HardKey>-Taste und startet dann sofort; *ein Versatz zwischen Schritten ist nicht möglich.*
+&nbsp;<strong><Keys.SoftKey>Link After Previous Cue</Keys.SoftKey></strong> | 'Start nach vorigem Schritt': der Schritt startet, wenn der vorige seine Warte- und Überblendzeiten durchlaufen hat. Zusätzlich lässt sich ein Versatz (Offset) eingeben, als Verzögerung zwischen dem Ende des vorigen und dem Start des neuen Schritts. Der Versatz kann entweder in Sekunden, oder als Prozentsatz der Überblendzeit des vorigen Schrittes, eingegeben werden.
+&nbsp;<strong><Keys.SoftKey>Link With Previous Cue</Keys.SoftKey></strong> | 'Start mit dem vorigen Schritt': der Schritt startet gleichzeitig mit dem vorigen. Ein Versatz (Offset), anzugeben in Sekunden oder in Prozent der Überblendzeiten des vorigen Schrittes, bestimmt die Verzögerung zwischen den Schritten.
 
 ![Cue List Linking Diagram](/docs/images/Cue-List-Linking-Diagram.png)
 
@@ -166,7 +166,7 @@ möchten.
 2. Wählen Sie <Keys.SoftKey>Timecode</Keys.SoftKey> aus dem Hauptmenü.
 
 3. Wählen Sie mit <strong>Menütaste A</strong> Timecode 1, 2, 3 oder 4, und mit
-<strong>Taste B</strong> die Timecode-Quelle.
+&nbsp;<strong>Taste B</strong> die Timecode-Quelle.
 
 4. Drücken Sie <Keys.SoftKey>Record</Keys.SoftKey>.
 

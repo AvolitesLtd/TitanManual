@@ -142,7 +142,7 @@ back to the normal times.
 
 Rate or BPM masters can be allocated to chases, allowing you to control
 the speed from a separate master fader. You set this by pressing
-<Keys.SoftKey>Effects</Keys.SoftKey> then <Keys.SoftKey>Speed Source</Keys.SoftKey> in the [Options](../cues/playback-options.md) for the chase.
+&nbsp;<Keys.SoftKey>Effects</Keys.SoftKey> then <Keys.SoftKey>Speed Source</Keys.SoftKey> in the [Options](../cues/playback-options.md) for the chase.
 See [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
 
 ## Speed Multipliers

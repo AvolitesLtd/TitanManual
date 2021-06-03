@@ -252,7 +252,7 @@ Auf den Schaltflächen wird die Palettennummer oben links angezeigt.
 Die enthaltenen Attribute (<strong>IPCGBES</strong>) werden unter der Beschriftung
 eingeblendet, etwa ein <strong>P</strong> für <strong>Positions-Paletten</strong>. In der oberen
 rechten Ecke steht ein <strong>G</strong> für eine <strong>globale</strong>, ein <strong>N</strong> für eine 
-<strong>normale</strong> bzw. ein <strong>S</strong> für eine <strong>Shared</strong> (gemeinsam genutzte) Palette.
+&nbsp;<strong>normale</strong> bzw. ein <strong>S</strong> für eine <strong>Shared</strong> (gemeinsam genutzte) Palette.
 
 ![Shared and normal palettes stored on a touch screen](/docs/images/Shared-and-normal-palettes-stored-on-a-touch-screen.png)
 

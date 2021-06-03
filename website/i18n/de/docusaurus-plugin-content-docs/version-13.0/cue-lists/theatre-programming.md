@@ -31,13 +31,13 @@ haben jeweils eine User Number.
 
 Tasten | Ergebnis
 ---- | ----
-<strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> | Dimmer/Gerät <strong>n</strong> auf 100%
-<strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <strong>v</strong> <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Gerät <strong>n</strong> auf <strong>v%</strong> *(v ist 2-stellig    einzugeben, also z.B. "50" für 50%)*
-<strong>n</strong> <Keys.HardKey>Thro</Keys.HardKey> <strong>m</strong> <Keys.HardKey>@</Keys.HardKey> <strong>v</strong> <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Geräte <strong>n</strong> bis <strong>m</strong> auf <strong>v%</strong>
-<strong>n</strong> <Keys.HardKey>And</Keys.HardKey> <strong>m</strong> <Keys.HardKey>And</Keys.HardKey> <strong>p</strong> <Keys.HardKey>@</Keys.HardKey> <strong>v</strong> <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Geräte <strong>n</strong>, <strong>m</strong>, <strong>p</strong> auf <strong>v%</strong>
+&nbsp;<strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> | Dimmer/Gerät <strong>n</strong> auf 100%
+&nbsp;<strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <strong>v</strong> <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Gerät <strong>n</strong> auf <strong>v%</strong> *(v ist 2-stellig    einzugeben, also z.B. "50" für 50%)*
+&nbsp;<strong>n</strong> <Keys.HardKey>Thro</Keys.HardKey> <strong>m</strong> <Keys.HardKey>@</Keys.HardKey> <strong>v</strong> <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Geräte <strong>n</strong> bis <strong>m</strong> auf <strong>v%</strong>
+&nbsp;<strong>n</strong> <Keys.HardKey>And</Keys.HardKey> <strong>m</strong> <Keys.HardKey>And</Keys.HardKey> <strong>p</strong> <Keys.HardKey>@</Keys.HardKey> <strong>v</strong> <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Geräte <strong>n</strong>, <strong>m</strong>, <strong>p</strong> auf <strong>v%</strong>
 <Keys.HardKey>Group</Keys.HardKey> <strong>n</strong> <Keys.HardKey>@</Keys.HardKey> <strong>v</strong> <Keys.HardKey>Enter</Keys.HardKey> | Dimmer/Geräte in Gruppe <strong>n</strong> auf <strong>v%</strong>
 <Keys.HardKey>Clear</Keys.HardKey> | Sofortiges Release der editierten Kanäle auf den programmierten Status (*wie Cheat auf ETC-Pulten*)
-<strong>t</strong> <Keys.HardKey>Clear</Keys.HardKey> | Release der editierten Kanäle in <strong>t</strong> Sekunden
+&nbsp;<strong>t</strong> <Keys.HardKey>Clear</Keys.HardKey> | Release der editierten Kanäle in <strong>t</strong> Sekunden
 
 
 ## Andere Parameter bei Movinglights etc. einstellen
@@ -122,8 +122,8 @@ Tasten | Ergebnis
 <Keys.HardKey>Cue</Keys.HardKey> <strong>&#123;blaue Playbacktaste&#125;</strong> | Verbinden einer anderen Cueliste
 <Keys.HardKey>Go</Keys.HardKey> | Nächster Cue wird mit den programmierten Zeiten eingeblendet
 <Keys.HardKey>Cue</Keys.HardKey> <strong>n</strong> <Keys.HardKey>Go</Keys.HardKey> | Cue n wird mit den programmierten Zeiten eingeblendet
-<strong>t</strong> <Keys.HardKey>Go</Keys.HardKey> | Nächster Cue wird in <strong>t</strong> Sekunden eingeblendet
-<strong>n</strong> <Keys.HardKey>Cue</Keys.HardKey> <strong>t</strong> <Keys.HardKey>Go</Keys.HardKey> | Cue <strong>n</strong> wird in <strong>t</strong> Sekunden eingeblendet
+&nbsp;<strong>t</strong> <Keys.HardKey>Go</Keys.HardKey> | Nächster Cue wird in <strong>t</strong> Sekunden eingeblendet
+&nbsp;<strong>n</strong> <Keys.HardKey>Cue</Keys.HardKey> <strong>t</strong> <Keys.HardKey>Go</Keys.HardKey> | Cue <strong>n</strong> wird in <strong>t</strong> Sekunden eingeblendet
 
 > Sollen Movinglights bereits im Off auf Position, in Gobo oder Farbe
 fahren, aktivieren Sie die Funktion <Keys.SoftKey>Move In Dark</Keys.SoftKey> (siehe voriger

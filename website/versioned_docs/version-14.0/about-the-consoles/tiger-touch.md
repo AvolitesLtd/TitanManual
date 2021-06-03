@@ -26,7 +26,7 @@ page and softkey buttons on the top right of the screen.
 <br/>
 
 <Keys.Annotation>C</Keys.Annotation> The <strong>Preset playbacks</strong> give you additional (unpaged) playbacks and the
-<strong>macro buttons</strong> allow storage of frequent key sequences.
+&nbsp;<strong>macro buttons</strong> allow storage of frequent key sequences.
 
 <br/>
 

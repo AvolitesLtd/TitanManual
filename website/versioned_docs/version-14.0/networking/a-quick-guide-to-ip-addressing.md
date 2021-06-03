@@ -72,7 +72,7 @@ Device            | IP Address        | Subnet Mask
 Titan Console     | `10.100.100.100`  | `255.0.0.0`
 Art-Net Fixtures  | `10.x.y.z` <strong>\</strong>* | `255.0.0.0`
 
-<strong>\</strong>* *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
+&nbsp;<strong>\</strong>* *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
 
 ### Titan and TNP outputting over Art-Net (and DMX)
 
@@ -90,7 +90,7 @@ Titan Console     | `10.100.100.100`  | `255.0.0.0`
 TNP               | `10.100.100.101`  | `255.0.0.0`
 Art-Net Fixtures  | `10.x.y.z` <strong>\</strong>* | `255.0.0.0`
 
-<strong>\</strong>* *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
+&nbsp;<strong>\</strong>* *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
 
 > Never set the last number of an IP address to be 255. This is a special address which will not function correctly.
 

@@ -33,6 +33,7 @@
     "app-build-all-no-pre": "electron-builder -mwl",
     "download": "node ../parse/download.js",
     "test": "mocha '../test/**/*.js' && npm run spellcheck",
+    "test-web": "mocha './test/**/*.js'",
     "spellcheck": "mdspell --report --ignore-numbers --ignore-acronyms --en-gb  'versioned_docs/**/*.md' '../docs/**/*.md'",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",

@@ -127,7 +127,7 @@ Display entsprechende <strong>kontextabhängige Schaltflächen</strong> eingeble
 \(V\) Die drei <strong>Encoder (Räder)</strong> übernehmen die Attribut-Steuerung von den
 Rädern des Pultes, welche dann für die Steuerung von Geschwindigkeit und
 Crossfade von Chasern zur Verfügung stehen. Betätigen der
-<strong>Bildlaufschalter</strong> (unterhalb der Räder) schaltet die Räder in den
+&nbsp;<strong>Bildlaufschalter</strong> (unterhalb der Räder) schaltet die Räder in den
 Bildlauf-Modus: damit lässt sich eine Auswahlbox über den Bildschirm
 bewegen.
 

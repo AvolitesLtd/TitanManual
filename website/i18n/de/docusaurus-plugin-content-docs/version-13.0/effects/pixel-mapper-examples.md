@@ -199,7 +199,7 @@ nacheinander erst über die ungeraden und dann über die geraden Geräte
 geblendet.
 
 Eine weitere - ähnliche - Anwendung wäre das Erstellen eines
-<strong>Kaskadier-Effektes</strong>:
+&nbsp;<strong>Kaskadier-Effektes</strong>:
 
 1. Verändern Sie mit <strong>'Resize' (unterer Rand)</strong> die Größe des Gitters, so
 dass es mindestens doppelt so hoch ist.\
@@ -286,7 +286,7 @@ Weitere Werkzeuge des Layout-Editors
 Im Layout-Editor gibt es einige Werkzeuge, die das Arbeiten deutlich
 vereinfachen.
 
-<strong>Arrange Fixtures:</strong> Damit lassen sich sehr schnell viele Geräte
+&nbsp;<strong>Arrange Fixtures:</strong> Damit lassen sich sehr schnell viele Geräte
 definiert anordnen. Um z.B. 20 RGB-Geräte in 4 Säulen à 5 Geräte
 anzuordnen, gehen Sie wie folgt vor:
 
@@ -312,16 +312,16 @@ anzuordnen, gehen Sie wie folgt vor:
 
 8.  Bestätigen Sie die Einstellungen mit <Keys.SoftKey>OK</Keys.SoftKey>.
 
-<strong>Highlight:</strong> Mit dieser Option werden gerade angewählte Geräte
+&nbsp;<strong>Highlight:</strong> Mit dieser Option werden gerade angewählte Geräte
 hervorgehoben. Damit sieht man, welches Gerät man gerade im Layout
 bearbeitet.
 
-<strong>Position & Angle/Cell Scale:</strong> Steht dies auf 'Position & Angle', so
+&nbsp;<strong>Position & Angle/Cell Scale:</strong> Steht dies auf 'Position & Angle', so
 bewegen/rotieren die wheels die gesamten Geräte. Im Modus 'Cell Scale'
 dagegen lassen sich die Zellen auseinanderfächern bzw. zusammenschieben,
 um die Zellenabstände verschiedener Gerätetypen anzugleichen.
 
-<strong>Arrange/Select Only:</strong> Ist diese Option auf 'Select Only' gesetzt, so
+&nbsp;<strong>Arrange/Select Only:</strong> Ist diese Option auf 'Select Only' gesetzt, so
 ist das Verschieben per Drag-and-Drop deaktiviert. Damit kann man diese 
 Funktion nutzen, um Geräte auszuwählen, ohne versehentlich die Position 
 zu verändern.
@@ -331,15 +331,15 @@ verändern lassen, so ist sicherlich diese Option aktiviert worden.*
 
 In jedem Fall aber lassen sich die Positionen mit den Encodern ändern.
 
-<strong>Wheels Move Full Pixel/Sub Pixel:</strong> Damit können Geräte mittels der
+&nbsp;<strong>Wheels Move Full Pixel/Sub Pixel:</strong> Damit können Geräte mittels der
 Wheels unabhängig vom Raster positioniert werden. Mit der Option 
-<strong>Snap</strong> dagegen wird immer auf die nächstgelegene Zelle zentriert.
+&nbsp;<strong>Snap</strong> dagegen wird immer auf die nächstgelegene Zelle zentriert.
 
-<strong>Wheels Rotate Individual Fixtures/Selection:</strong> Hier wählt man, ob die
+&nbsp;<strong>Wheels Rotate Individual Fixtures/Selection:</strong> Hier wählt man, ob die
 komplette Auswahl um ihr Zentrum rotiert werden soll, oder jedes
 gewählte Gerät einzeln um sein Zentrum.
 
-<strong>Media options:</strong> Öffnet ein Untermenü für verschiedene Einstellungen
+&nbsp;<strong>Media options:</strong> Öffnet ein Untermenü für verschiedene Einstellungen
 bei Verwendung eines Ai-Servers/Synergy. Das ist ausführlich beschrieben 
 im Abschnitt [Verwendung des Layout-Editors mit Ai](../synergy/operating-synergy.md#verwendung-des-layout-editors-mit-ai).
 

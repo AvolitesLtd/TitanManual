@@ -43,7 +43,7 @@ durch LEDs angezeigt. Auch Funktionen der Attribute, wie etwa Shapes
 oder Fan, haben separate Tasten.
 
 \(H\) Sequenzen, also Chaser und Cuelisten, lassen sich mit den Tasten der
-<strong>Ablaufsteuerung</strong> genauer steuern.
+&nbsp;<strong>Ablaufsteuerung</strong> genauer steuern.
 
 \(I\) Mit dem <strong>Ziffern- und Tastenfeld</strong> lassen sich Werte eingeben sowie
 Einstellungen des Pultes ändern.

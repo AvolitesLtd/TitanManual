@@ -40,7 +40,7 @@ display how long you've got before the console shuts down.
 -	If any console or TNP in your session is running from UPS, an error will appear
 	in the event log.
 
-<strong>Diamond 9 and Arena only:</strong> The Network Switch inside the console has an independent
+&nbsp;<strong>Diamond 9 and Arena only:</strong> The Network Switch inside the console has an independent
 UPS system which allows the network switch to continue to run while the
 console is power cycled. When the console is shut down the network
 switch will continue to run for about 5 minutes, or until mains power is removed. This is important when
@@ -55,12 +55,12 @@ The console runs a Windows-based operating system internally, so you
 need to make sure it is shut down properly rather than just turning off
 its power.
 
-<strong>Start up</strong> the console by pressing and releasing the Power switch on
+&nbsp;<strong>Start up</strong> the console by pressing and releasing the Power switch on
 the face or front edge of the console (lift up the wrist rest on the
 Sapphire Touch). The console display(s) should come alive. The console
 takes up to 1 min 30 seconds to start up.
 
-<strong>Shut down</strong> the console by pressing and releasing the Power switch
+&nbsp;<strong>Shut down</strong> the console by pressing and releasing the Power switch
 again. The console will perform a controlled shutdown. Wait until the
 Power light has gone off (about 30 seconds) before you disconnect power
 from the console.
@@ -79,7 +79,7 @@ shut down the console if it is not possible to shutdown the console by
 any of the above means. In this case having disconnected the mains power
 you should press the Battery Disconnect switch on the rear panel.
 
-<strong>Diamond and Arena only:</strong> Battery Disconnect will also shut down the internal
+&nbsp;<strong>Diamond and Arena only:</strong> Battery Disconnect will also shut down the internal
 network switch so be careful if you are running a backup console via the
 switch. When you shut down the console normally, the network switch will
 stay on for about 5 minutes then power off. There is no harm in leaving
@@ -93,14 +93,14 @@ the first time until you have installed the <strong>Titan PC Suite</strong> soft
 which you do simply by running the installer file. This will make sure
 the drivers for the panel are installed.
 
-> <strong>PC specifications:</strong> From Titan v14, your PC should be running Windows 10 64-bit (other versions may not work correctly and we can't provide you with support). Some users have successfully used Virtual Machines to run Titan, but we don't provide support for them.
+> &nbsp;<strong>PC specifications:</strong> From Titan v14, your PC should be running Windows 10 64-bit (other versions may not work correctly and we can't provide you with support). Some users have successfully used Virtual Machines to run Titan, but we don't provide support for them.
 We recommend i5 processor with 4GB RAM as a minimum.	
 Please [see https://avolites.com/titan-pc-system-requirements](https://avolites.com/titan-pc-system-requirements/) for the full specification.
 
 For best usability, your PC should have a touch screen. If not you can
 use the mouse to select touch buttons.
 
-<strong>Titan Mobile:</strong> Having installed the software, connect the USB cable
+&nbsp;<strong>Titan Mobile:</strong> Having installed the software, connect the USB cable
 for the panel (older Titan Mobile panels have two USB connectors -- you
 only need to connect port A, nearest the DC socket). If your PC asks you
 for drivers, select \'Install the Software Automatically\'. If you have
@@ -120,7 +120,7 @@ from the Avolites website. The licence is keyed to the internal AvoKey
 in the Titan Mobile panel so you can install the software on multiple
 computers but it will only run when the Titan Mobile panel is connected.
 
-<strong>T1/T2:</strong> The T1/T2 USB devices give you a full lighting control system
+&nbsp;<strong>T1/T2:</strong> The T1/T2 USB devices give you a full lighting control system
 that will output one or two universes of DMX or Art-Net. The software to
 run it is called Titan Go. The first time you run Titan Go you will need
 to obtain a licence from the Avolites website which will license the

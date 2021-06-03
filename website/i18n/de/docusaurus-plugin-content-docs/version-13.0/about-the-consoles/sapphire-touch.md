@@ -24,7 +24,7 @@ Geräten auf diese Fader.
 
 \(D\) Die <strong>Programmiersektion</strong> schließlich enthält alle Steuerelemente zum
 Einrichten und Programmieren des Pultes, sowie 20 weitere
-<strong>Macro-/Executor-Tasten</strong>, auf die z.B. häufig benutzte Cues, Paletten oder
+&nbsp;<strong>Macro-/Executor-Tasten</strong>, auf die z.B. häufig benutzte Cues, Paletten oder
 Tastenfolgen gespeichert werden können.
 
 ## Bedienoberfläche

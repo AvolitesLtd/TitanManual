@@ -99,7 +99,7 @@ Funktion nennt sich 'Quick Palette'.
 
 Wird z.B. eine Farbpalette aufgerufen, die für MAC 2000 programmiert 
 wurde, ohne dass MAC 2000 angewählt sind, so wird die Palette auf 
-<strong>alle</strong> MAC 2000 angewendet.
+&nbsp;<strong>alle</strong> MAC 2000 angewendet.
 
 > 	Effekt-Paletten können nicht als Quick Palettes verwendet werden -
     für diese müssen stets Fixtures ausgewählt werden.

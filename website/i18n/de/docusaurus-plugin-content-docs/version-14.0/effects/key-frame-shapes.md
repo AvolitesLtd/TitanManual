@@ -25,7 +25,7 @@ einbinden.
 
 Die einzelnen Keyframes baut man entweder im <strong>Channel (Kanal-) Modus</strong>, indem man die
 Geräte entsprechend einstellt und auf <Keys.SoftKey>Add Frame</Keys.SoftKey> klickt, oder im
-<strong>Quick Build</strong>-Modus, bei dem automatisch ein neuer Frame angefügt wird,
+&nbsp;<strong>Quick Build</strong>-Modus, bei dem automatisch ein neuer Frame angefügt wird,
 sobald man eine [Palette](../palettes.md) oder einen
 [Cue](../cues.md) anklickt. Mit der Schaltfläche <Keys.SoftKey>Record Mode</Keys.SoftKey>
 kann man zwischen beiden Modi umschalten.
@@ -201,7 +201,7 @@ Auch die Reihenfolge der Keyframes lässt sich im Effekt-Editor ändern:
 Keyframe-Shapes können jeweils mehrere Layer (Ebenen) enthalten, so dass
 verschiedene Effekte gleichzeitig laufen können. Um einen neuen Layer
 hinzuzufügen, klicken Sie unten auf das <Keys.ContextKey>+</Keys.ContextKey> und wählen nun
-<strong>Layers</strong>. Damit erscheint der neue Layer in der Liste auf der linken
+&nbsp;<strong>Layers</strong>. Damit erscheint der neue Layer in der Liste auf der linken
 Seite.
 
 ![Effect Editor adding an extra effect](/docs/images/Effect-Editor-adding-an-extra-effect.png)

@@ -20,10 +20,10 @@ vergeben; das ist [im nächsten Abschnitt](#individuelle-zeiten-pro-schritt)
  genauer beschrieben.
 
 1. Drücken Sie im Hauptmenü <Keys.SoftKey>Edit Times</Keys.SoftKey>, und anschließend die
-<strong>Swop</strong>-Taste des gewünschten Chasers.
+&nbsp;<strong>Swop</strong>-Taste des gewünschten Chasers.
 
 2. Stellen Sie wie unten beschrieben <strong>Geschwindigkeit</strong>, <strong>Überblendung</strong>,
-<strong>Geräteversatz</strong> und <strong>Attributversatz</strong> ein.
+&nbsp;<strong>Geräteversatz</strong> und <strong>Attributversatz</strong> ein.
 
 3. Drücken Sie <Keys.HardKey>Exit</Keys.HardKey>, um den Vorgang abzuschließen.
 

@@ -205,7 +205,8 @@ spezifisch für bestimmte Displays festgelegt werden.
     selected' dagegen wird mit einem stilisierten Fadenkreuz angezeigt,
     und die Fenster werden auf dem Display geöffnet, auf dem dieser
     Workspace aufgerufen wurde.
-	![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
+	
+![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
 
 -   Zum Löschen einer Arbeitsumgebung drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>,
     <Keys.HardKey>Delete</Keys.HardKey>, und dann die Schaltfläche der Arbeitsumgebung.

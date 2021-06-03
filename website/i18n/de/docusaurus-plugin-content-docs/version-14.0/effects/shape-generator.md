@@ -67,7 +67,7 @@ die Suche einzugrenzen.
     die für dieses Attribut verfügbar sind. Zur Anzeige aller Shapes
     wählen Sie das Attribut ‚Dimmer' aus.
     \
-    ![Shapes Workspace Window](/docs/images/Shapes-Workspace-Window.png)
+![Shapes Workspace Window](/docs/images/Shapes-Workspace-Window.png)
 
 -   Der Ausgangswert für einen Shape ist die jeweilige momentane
     Einstellung des Gerätes; *so wird z.B. ein Kreis-Shape um die
@@ -99,7 +99,7 @@ die Suche einzugrenzen.
     Ganzen angesteuert
     -   <Keys.SoftKey>Run on Sub Fixtures (Linear)</Keys.SoftKey> - die Zellen werden gemäß ihrer internen
     Nummerierung angesteuert
-    -   <Keys.SoftKey>Run on Sub Fixtures (Group)</Keys.SoftKey> - die Zellen werden gemäß ihrer Anordnung
+    -   &nbsp;<Keys.SoftKey>Run on Sub Fixtures (Group)</Keys.SoftKey> - die Zellen werden gemäß ihrer Anordnung
     (Layout-Editor für die jeweilige Gruppe) angesteuert.
 
 -   Jeder Shape ist für ein spezifisches Attribut konzipiert. Verfügt
@@ -186,7 +186,7 @@ Im Display wird die <strong>Phase</strong> in ° (Grad) angezeigt. So sorgt etwa
 Phase=180° für eine Wiederholung jedes zweiten Gerätes, 90° jedes
 vierten Gerätes, 60° jedes sechsten Gerätes usw.
 
-<strong>Offset</strong> ist der Startwert des Shapes im Vergleich zu anderen gleichzeitig
+&nbsp;<strong>Offset</strong> ist der Startwert des Shapes im Vergleich zu anderen gleichzeitig
 laufenden Shapes. *Wenn beispielsweise gleichzeitig ein Shape auf Cyan
 und einer auf Magenta läuft, um einen Farbmix zu erzielen, so möchte man
 vielleicht mit Cyan auf 100% und Magenta auf 0 beginnen, um den gesamten

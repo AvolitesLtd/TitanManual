@@ -91,7 +91,7 @@ Release Mask und Release Time funktionieren genauso wie im Kapitel [Playback Opt
 
 ### Cue Release
 
-<strong>Cue Release:</strong> erlaubt es, Cuelisten zu erstellen, bei denen zwischen
+&nbsp;<strong>Cue Release:</strong> erlaubt es, Cuelisten zu erstellen, bei denen zwischen
 den einzelnen Schritten ein Release erfolgt. So lässt sich damit z.B.
 eine Cueliste erstellen, die die Geräte einzeln auf weiß einblendet und
 dann wieder released, also auf die vorher verwendete Farbe zurücksetzt.
@@ -138,7 +138,7 @@ mit den Zifferntasten ein.
     hilfreich etwa zum Szenenablauf (z.B. *verlässt vom Bär verfolgt die
     Bühne*, oder *den Spotfahrer wecken*).
 
--   <Keys.SoftKey>Autoload</Keys.SoftKey> siehe [Autoloading: Laden eines externen Cues](creating-a-cue-list.md#autoloading-laden-eines-externen-cues).
+-   &nbsp;<Keys.SoftKey>Autoload</Keys.SoftKey> siehe [Autoloading: Laden eines externen Cues](creating-a-cue-list.md#autoloading-laden-eines-externen-cues).
 
 -   <Keys.SoftKey>Cue disabled</Keys.SoftKey> Erlaubt es, den Cue vorübergehend deaktivieren,
     ohne ihn zu löschen. Siehe [Deaktivieren eines Cues](editing-cue-lists.md#deaktivieren-eines-cues).

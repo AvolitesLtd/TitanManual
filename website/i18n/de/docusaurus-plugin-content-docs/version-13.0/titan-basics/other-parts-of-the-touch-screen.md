@@ -88,29 +88,29 @@ Beim Betätigen der Schaltfläche 'Tools' öffnet sich ein Menü mit Zugriff
 auf verschiedene weitere Konfigurationsmöglichkeiten (abhängig vom
 Pult):
 
-<strong>About</strong> zeigt Informationen über die Software-Version.
+&nbsp;<strong>About</strong> zeigt Informationen über die Software-Version.
 
-<strong>Help</strong> öffnet das (englische) Online-Handbuch.
+&nbsp;<strong>Help</strong> öffnet das (englische) Online-Handbuch.
 
-<strong>Control Panel</strong> öffnet ein Untermenü mit Einstellungsmöglichkeiten
+&nbsp;<strong>Control Panel</strong> öffnet ein Untermenü mit Einstellungsmöglichkeiten
 etwa für den Bildschirm oder die USB Expert-Konsole, die die Verbindung
 zwischen der Bedienoberfläche und dem Hauptprozessor herstellt. Der
 Punkt 'More...' öffnet die Windows-Systemsteuerung, um die
 Systemkonfiguration zu bearbeiten.
 
-<strong>Touch Screen Setup</strong> (in Control Panel) öffnet das 
+&nbsp;<strong>Touch Screen Setup</strong> (in Control Panel) öffnet das 
 Einrichtungsprogramm für die Touchscreens, mit dem diese z.B. auch 
 kalibriert werden können.
 
-<strong>USB Expert Console</strong> (in Control Panel) ist das Einrichtungsprogramm 
+&nbsp;<strong>USB Expert Console</strong> (in Control Panel) ist das Einrichtungsprogramm 
 für die Verbindung zwischen Bedienoberfläche und Hauptprozessor. 
 Sollten Probleme auftreten, kann man hier hilfreiche Informationen 
 für die Fehlersuche finden.
 
-<strong>Folders</strong> öffnet das Dateisystem zum direkten Zugriff. Dies wird u.a.
+&nbsp;<strong>Folders</strong> öffnet das Dateisystem zum direkten Zugriff. Dies wird u.a.
 zum Sichern der Daten sowie zum Updaten benötigt.
 
-<strong>Switch Task</strong> dient zum Umschalten
+&nbsp;<strong>Switch Task</strong> dient zum Umschalten
 zwischen mehreren Programmen, und zum Bewegen der Programmfenster auf
 den externen Bildschirm. Benutzen Sie das Symbol 'Bildschirm wechseln',
 um ein Fenster zwischen Touchscreen und externem Bildschirm hin- und
@@ -119,14 +119,14 @@ herzuschalten; 'Zentrieren' zentriert das Fenster auf dem Bildschirm,
 
 ![Switch Task](/docs/images/Switch-Task.png)
 
-<strong>Switch Software</strong> erlaubt es, zwischen verschiedenen Versionen der
+&nbsp;<strong>Switch Software</strong> erlaubt es, zwischen verschiedenen Versionen der
 Pult-Software (sofern installiert) umzuschalten. Das kann sinnvoll sein,
 um Shows aus älteren Versionen zu laden.
 
-<strong>Additional Programs</strong> dient zum Aufruf einiger Diagnoseprogramme, die
+&nbsp;<strong>Additional Programs</strong> dient zum Aufruf einiger Diagnoseprogramme, die
 dem Avolites-Support die Fehlersuche ermöglichen.
 
-<strong>Restart</strong> und <strong>Shutdown Software</strong> startet die Titan-Software neu
+&nbsp;<strong>Restart</strong> und <strong>Shutdown Software</strong> startet die Titan-Software neu
 bzw. schließt sie. Normalerweise benötigt man das nur beim
 Programm-Update.
 

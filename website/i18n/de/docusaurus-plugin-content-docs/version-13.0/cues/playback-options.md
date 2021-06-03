@@ -40,7 +40,7 @@ stören*.
 Damit lässt sich das Verhalten bestimmen, wenn mehrere
 aktive Cues gleichzeitig dieselben Geräte beeinflussen. Die Priorität
 lässt sich zwischen <strong>Low</strong> (niedrig), <strong>Normal</strong> (normal), <strong>High</strong> (hoch),
-<strong>Programmer</strong> (Programmierspeicher) und <strong>Very High</strong> (sehr hoch)
+&nbsp;<strong>Programmer</strong> (Programmierspeicher) und <strong>Very High</strong> (sehr hoch)
 umschalten *('Programmer' ist gleichwertig mit der Priorität des
 Programmierspeichers)*. Wird ein Gerät aktuell von einem Cues gesteuert,
 und dann ein Cue mit gleicher oder höherer Priorität gestartet, so

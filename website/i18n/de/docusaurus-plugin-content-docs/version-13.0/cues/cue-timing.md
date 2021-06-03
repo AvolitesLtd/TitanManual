@@ -56,10 +56,10 @@ ein, und schließen Sie die Eingabe mit <Keys.HardKey>Enter</Keys.HardKey> ab.
 
 6. Drücken Sie <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> zur Einstellung des Geräteversatzes,
 gefolgt von einem Wert <strong>0...100</strong> auf den Zifferntasten.\
-<strong>100%</strong> bedeutet: alle Geräte blenden gemeinsam über.\
-<strong>0%</strong> bedeutet: das vorherige Gerät muss die Überblendung abgeschlossen 
+&nbsp;<strong>100%</strong> bedeutet: alle Geräte blenden gemeinsam über.\
+&nbsp;<strong>0%</strong> bedeutet: das vorherige Gerät muss die Überblendung abgeschlossen 
 haben, bevor das nächste damit beginnt.\
-<strong>50%</strong> bedeutet: das nächste Gerät beginnt mit der Überblendung,
+&nbsp;<strong>50%</strong> bedeutet: das nächste Gerät beginnt mit der Überblendung,
 wenn das vorherige seine Überblendung zur Hälfte abgeschlossen hat.\
 Die
 Reihenfolge der Geräte wird bestimmt durch die Reihenfolge beim Anwählen
@@ -255,7 +255,7 @@ Hauptmenü die gewünschte Arbeitsweise der Räder.
 
 Mit der Taste <Keys.HardKey>Options</Keys.HardKey> lassen sich, während die Zeiten angezeigt
 werden, die Parameter <strong>Speed</strong>, <strong>Effect Multiplier</strong>, <strong>Speed Multiplier</strong> und
-<strong>Speed Source</strong> im Programmer, so dass sie einfach direkt in die nächsten
+&nbsp;<strong>Speed Source</strong> im Programmer, so dass sie einfach direkt in die nächsten
 Playbacks gespeichert werden können. Speed und Speed Multiplier haben nur
 Auswirkungen auf [Chaser](../chases.md), nicht auf einzelne Cues.
 

@@ -37,7 +37,7 @@ sämtliche Cues, Zeiten und Optionen (z.B. Autoload, Macros, MID etc.) im
 Überblick, was vor allem im [Theater](theatre-programming.md) sehr hilfreich ist.
 
 Mit der [Benutzereinstellung](../system-settings/user-settings.md#auto-view-on-connect) 
-<strong>'Auto View On Connect'</strong> lässt sich erreichen,
+&nbsp;<strong>'Auto View On Connect'</strong> lässt sich erreichen,
 dass beim Connecten einer Cueliste sofort deren Detail-Fenster aufgeht.
 
 ![Playback View of Cue List with cue fade in progress](/docs/images/Playback-View-of-Cue-List-with-cue-fade-in-progress.png)
@@ -115,7 +115,7 @@ betätigen die blaue <strong>Select-Taste</strong> der Cueliste.
 Das Verhalten lässt sich im Menü [Options](../cues/playback-options.md) ändern, so dass die
 Cueliste automatisch entladen wird, wenn man den Regler auf '0' bringt:
 drücken Sie dazu <Keys.SoftKey>Playback Options</Keys.SoftKey> im Programmier-Menü, dann die
-<strong>Select-Taste</strong> der Cueliste, und wählen die Option <Keys.SoftKey>Fader</Keys.SoftKey>, \[Fader
+&nbsp;<strong>Select-Taste</strong> der Cueliste, und wählen die Option <Keys.SoftKey>Fader</Keys.SoftKey>, \[Fader
 Mode Intensity Kill At 0\].
 
 Per [Tastenprofil (Key Profiles)](../system-settings/key-profiles.md#cue-lists) lässt sich auch eine der Tasten mit der

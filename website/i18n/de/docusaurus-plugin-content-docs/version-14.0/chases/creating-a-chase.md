@@ -59,7 +59,7 @@ gespeichert haben.
     - <Keys.SoftKey>Record Stage</Keys.SoftKey> (Bühne speichern) - alle Geräte mit
     Helligkeit > 0 werden gespeichert
 
-    - <Keys.SoftKey>Quick Build</Keys.SoftKey> - [siehe nächster Abschnitt](#einen-chaser-mit-quick-build-erstellen)
+    - &nbsp;<Keys.SoftKey>Quick Build</Keys.SoftKey> - [siehe nächster Abschnitt](#einen-chaser-mit-quick-build-erstellen)
 
 -   Die aktuelle Schrittnummer sowie die Gesamtzahl der Schritte wird in
     der oberen Zeile des Displays angezeigt.

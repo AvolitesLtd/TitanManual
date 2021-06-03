@@ -14,7 +14,7 @@ verfügbar. Drücken Sie dafür die Taste <Keys.HardKey>Options</Keys.HardKey> o
 Menütaste <Keys.SoftKey>Options</Keys.SoftKey>, und wählen Sie die gewünschte Cueliste (<strong>blaue Taste</strong>).
 
 Oder drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, dann die entsprechende
-<strong>Select-Taste</strong>, und klicken links in der Playback-Ansicht auf
+&nbsp;<strong>Select-Taste</strong>, und klicken links in der Playback-Ansicht auf
 <Keys.SoftKey>Options</Keys.SoftKey>.
 
 ---

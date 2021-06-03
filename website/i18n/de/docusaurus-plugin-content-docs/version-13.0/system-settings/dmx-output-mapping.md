@@ -49,13 +49,13 @@ auf die XLR-Buchsen des Pultes geroutet.
 
 Um einen Node einer DMX-Linie zuzuordnen klicken Sie links auf den Node 
 (z.B. auf <strong>Expert DMX A</strong>) und danach rechts auf die gewünschte Linie, z.B. 
-<strong>Line 1</strong>. Der Node verschwindet daraufhin links und erscheint rechts bei der 
+&nbsp;<strong>Line 1</strong>. Der Node verschwindet daraufhin links und erscheint rechts bei der 
 zugewiesenen DMX-Linie.
 
 ![Node in DMX Settings Window](/docs/images/Node-in-DMX-Settings-Window.png)
 
 Zum Löschen einer Zuordnung dienen die individuellen oder gruppenweisen
-<strong>X</strong>-Schaltflächen: pro Node, pro Linie, sowie ganz oben bei <strong>Dmx Lines</strong> für
+&nbsp;<strong>X</strong>-Schaltflächen: pro Node, pro Linie, sowie ganz oben bei <strong>Dmx Lines</strong> für
 sämtliche DMX-Ausgänge.
 
 Um die Zuordnung zu ändern, also etwa einen Node einer anderen Linie 
@@ -110,10 +110,10 @@ wird.
 
 ![sACN DMX Module Properties](/docs/images/sACN-DMX-Module-Properties.png)
 
-<strong>DMX output:</strong> Damit kann die Ausgabe für dieses Modul deaktiviert
+&nbsp;<strong>DMX output:</strong> Damit kann die Ausgabe für dieses Modul deaktiviert
 werden.
 
-<strong>Merge Priority:</strong> (0-200) Die sACN-Spezifikation erlaubt es, dass
+&nbsp;<strong>Merge Priority:</strong> (0-200) Die sACN-Spezifikation erlaubt es, dass
 mehrere Pulte parallel an die gleichen Geräte DMX senden. Dabei wird das
 Signal des Pultes mit der höheren Priorität berücksichtigt und Signale
 mit niedrigerer Priorität verworfen. 
@@ -121,16 +121,16 @@ mit niedrigerer Priorität verworfen.
 >	Für Backup-Pulte sollte man folglich die Priorität auf einen 
 	niedrigeren Wert setzen. 
 
-<strong>Block RDM:</strong> Damit wird RDM für dieses Modul deaktiviert.
+&nbsp;<strong>Block RDM:</strong> Damit wird RDM für dieses Modul deaktiviert.
 
-<strong>Synchronization Address:</strong> Steht dies auf einem anderen Wert als 0, so
+&nbsp;<strong>Synchronization Address:</strong> Steht dies auf einem anderen Wert als 0, so
 wird das damit bezeichnete sACN-Univerum zum Synchronisieren verwendet:
 alle Geräte empfangen zwar DMX-Daten, speichern die aber zwischen und
 geben sie erst aus, wenn auf dem Sync-Universum ein Paket gesendet wird.
 Damit lassen sich Tearing-Effekte vermeiden (versetzte Ausgabe). Mit 0
 wird die Synchronisation deaktiviert.
 
-<strong>Ethernet xxx:</strong> Damit lässt sich pro Netzwerkanschluss bestimmen, ob
+&nbsp;<strong>Ethernet xxx:</strong> Damit lässt sich pro Netzwerkanschluss bestimmen, ob
 sACN über diesen gesendet werden soll. Werden mehrere aktiviert, so wird
 das identische Signal parallel gesendet.
 
@@ -138,31 +138,31 @@ das identische Signal parallel gesendet.
 
 ![ArtNet DMX Module Properties](/docs/images/ArtNet-DMX-Module-Properties.png)
 
-<strong>DMX output:</strong> Damit kann die Ausgabe für dieses Modul deaktiviert
+&nbsp;<strong>DMX output:</strong> Damit kann die Ausgabe für dieses Modul deaktiviert
 werden.
 
-<strong>Continuous Art-Net DMX:</strong> Die Art-Net-Spezifikation sieht vor, dass das
+&nbsp;<strong>Continuous Art-Net DMX:</strong> Die Art-Net-Spezifikation sieht vor, dass das
 Pult Art-Net-Pakete nur sendet, wenn sich Werte/Kanäle geändert haben.
 Mit dieser Option lässt sich die kontinuierliche Ausgabe von Art-Net
 erzwingen, auch wenn sich keine Werte geändert haben.
 
-<strong>Always Broadcast Art-Net DMX:</strong> Damit werden alle Pakete per Broadcast
+&nbsp;<strong>Always Broadcast Art-Net DMX:</strong> Damit werden alle Pakete per Broadcast
 gesendet, also an sämtliche Geräte im jeweiligen Netzwerkbereich.
 Ansonsten werden die Informationen Unicast gesendet, also nur an das
 jeweilige Gerät. Damit lässt sich die Netzwerkauslastung verringern,
 aber die Netzwerkeinrichtung ist ggf. aufwändiger.
 
-<strong>Block RDM:</strong> Damit wird RDM für dieses Modul deaktiviert.
+&nbsp;<strong>Block RDM:</strong> Damit wird RDM für dieses Modul deaktiviert.
 
-<strong>DMX Overrun:</strong> Einige Art-Net-Geräte ignorieren Änderungen, die nur
+&nbsp;<strong>DMX Overrun:</strong> Einige Art-Net-Geräte ignorieren Änderungen, die nur
 einmalig gesendet werden. Mit dieser Einstellung werden auch solche
 Änderungen mit mindestens drei Netzwerkpaketen gesendet.
 
-<strong>Legacy Mode:</strong> Damit wird kontinuierlich und mit hoher Datenrate
+&nbsp;<strong>Legacy Mode:</strong> Damit wird kontinuierlich und mit hoher Datenrate
 gesendet, was ebenfalls manche nicht-Art-Net-konforme Geräte erfordern.
 Dies kann die Performance von Netzwerk und Pult negativ beeinflussen.
 
-<strong>Ethernet xxx:</strong> Damit lässt sich pro Netzwerkanschluss bestimmen, ob
+&nbsp;<strong>Ethernet xxx:</strong> Damit lässt sich pro Netzwerkanschluss bestimmen, ob
 Art-Net über diesen gesendet werden soll. Werden mehrere aktiviert, so
 wird das identische Signal parallel gesendet.
 

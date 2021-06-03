@@ -63,10 +63,10 @@ the palette will be applied in sequence to each fixture in the group.
 This is a very quick way to busk complex effects.
 
 
-<strong>100%</strong> means that all fixtures will change together.
+&nbsp;<strong>100%</strong> means that all fixtures will change together.
 
 
-<strong>0%</strong> means that each fixture must complete its fade before the
+&nbsp;<strong>0%</strong> means that each fixture must complete its fade before the
 next will start its fade.
 
 - You need to also have a fade time set, otherwise Overlap has no effect.

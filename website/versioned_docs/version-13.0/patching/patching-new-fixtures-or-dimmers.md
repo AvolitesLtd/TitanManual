@@ -128,6 +128,7 @@ You can use Quick Search here as well.
 on the numeric keypad if you want a different one. <Keys.SoftKey>DMX line=xx</Keys.SoftKey> lets
 you patch to a different DMX line, or you can enter the address as
 <Keys.SoftKey>line</Keys.SoftKey>.<Keys.SoftKey>address</Keys.SoftKey>, e.g. 2.45 would set address 45 on line 2.
+
 ![Address Input](/docs/images/Address-Input.png)
 
 7. Patch the fixture by pressing a Fixture touch button, a

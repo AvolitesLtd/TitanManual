@@ -92,7 +92,7 @@ leave it turned off, as it causes a lot of network traffic.
 Once you have created a surface in Titan, you need to match it to the Ai
 surface. Click on the <Keys.ContextKey>Link</Keys.ContextKey> button on the unmatched surface at the
 bottom, then click on the Screen 1 surface at the top (or you can click
-<strong>"Link to new Surface"</strong> to automatically create a new surface and link to
+&nbsp;<strong>"Link to new Surface"</strong> to automatically create a new surface and link to
 it).
 
 ![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-linking-a-screen.png)
@@ -107,7 +107,7 @@ output to connect on the left, for example if you want to show the same
 media on several screens.
 
 Once a layer is linked, if you open the layer properties in Ai the
-<strong>"Synergy Control"</strong> box will show <em>"Enabled"</em>. Now you cannot control the
+&nbsp;<strong>"Synergy Control"</strong> box will show <em>"Enabled"</em>. Now you cannot control the
 screen using Ai, only from the Titan console.
 
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)

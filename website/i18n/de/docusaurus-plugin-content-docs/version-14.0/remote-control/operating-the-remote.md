@@ -34,15 +34,15 @@ oder mehrere Dimmer und Geräte aktivieren und auf Locate-Werte setzen.
 Die Steuerung erfolgt unter Verwendung der Gerätenummern. Möchte man
 z.B. Dimmer Nr. 3 auf 50% setzen, so lautet die Eingabe
 
-<strong>`3 @ 5 Enter`</strong>
+&nbsp;<strong>`3 @ 5 Enter`</strong>
 
 Um die Dimmer 1 bis 10 auf 80% zu setzen:
 
-<strong>`1 Thro 10 @ 8 Enter`</strong>
+&nbsp;<strong>`1 Thro 10 @ 8 Enter`</strong>
 
 Für 100% klicken Sie zweimal auf @, z.B.
 
-<strong>`1 Thro 10 @ @`</strong>
+&nbsp;<strong>`1 Thro 10 @ @`</strong>
 
 > 	Um ein oder mehrere Geräte auf Locate-Werte zu setzen, klicken Sie statt
 	auf @ auf <Keys.SoftKey>Locate</Keys.SoftKey>.
@@ -50,7 +50,7 @@ Für 100% klicken Sie zweimal auf @, z.B.
 Es können mehrere Bereiche von Geräten mit der AND-Taste ausgewählt
 werden, z.B.
 
-<strong>`1 Thro 10 And 20 Thro 30 @ 6 Enter`</strong>.
+&nbsp;<strong>`1 Thro 10 And 20 Thro 30 @ 6 Enter`</strong>.
 
 Steuern von Geräten
 -------------------

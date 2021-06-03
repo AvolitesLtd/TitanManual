@@ -263,6 +263,6 @@ mehreren Outputs gezeigt werden soll.
 
 Bank/Clip | Function
 ---|---
-<strong>Bank 240 - 255</strong> | Verlinkt auf Surface/Screen Fixture 1-16.
-<strong>Clip 0 - 200</strong> | Verlinkt auf Layer 1-201 auf diesem Surface.
-<strong>Clip 255</strong> | Verlinkt auf das Screen Fixture als Ganzes (alle Layer).
+&nbsp;<strong>Bank 240 - 255</strong> | Verlinkt auf Surface/Screen Fixture 1-16.
+&nbsp;<strong>Clip 0 - 200</strong> | Verlinkt auf Layer 1-201 auf diesem Surface.
+&nbsp;<strong>Clip 255</strong> | Verlinkt auf das Screen Fixture als Ganzes (alle Layer).

@@ -61,7 +61,7 @@ consoles these settings will not do anything.
 
 ### Fixtures
 The blue, grey or touch key can be allocated to <strong>Disabled</strong>,
-<strong>Select</strong>, <strong>Flash</strong>, <strong>Swop</strong>, <strong>Latch</strong>.
+&nbsp;<strong>Select</strong>, <strong>Flash</strong>, <strong>Swop</strong>, <strong>Latch</strong>.
 
 > The "Latch" function is equivalent to
 putting the fader to full for that fixture and touching again returns
@@ -69,7 +69,7 @@ the fader to 0.
 
 ### Groups
 The blue, grey or touch key can be allocated to <strong>Disabled</strong>,
-<strong>Select Group</strong>, <strong>Flash Fixtures</strong>, <strong>Timed Flash</strong>, <strong>Flash Master</strong>, **Timed Flash
+&nbsp;<strong>Select Group</strong>, <strong>Flash Fixtures</strong>, <strong>Timed Flash</strong>, <strong>Flash Master</strong>, **Timed Flash
 Master<strong>, </strong>Swop Fixtures**.
 
 You can select if the group function takes
@@ -88,12 +88,12 @@ has both palette and flash functions) or vice versa.
 ### Cues
 
 The blue or grey key can be allocated to <strong>Disabled</strong>, <strong>Flash</strong>,
-<strong>Swop</strong>, <strong>Latch</strong>, <strong>Preload</strong>, <strong>Go</strong>.
+&nbsp;<strong>Swop</strong>, <strong>Latch</strong>, <strong>Preload</strong>, <strong>Go</strong>.
 
 ### Chases
 
 The blue or grey key can be allocated to <strong>Disabled</strong>, <strong>Flash</strong>,
-<strong>Swop</strong>, <strong>Latch</strong>, <strong>Go</strong>, <strong>Stop</strong>, <strong>Preload</strong>, <strong>Connect</strong>, <strong>Tap Tempo</strong>.
+&nbsp;<strong>Swop</strong>, <strong>Latch</strong>, <strong>Go</strong>, <strong>Stop</strong>, <strong>Preload</strong>, <strong>Connect</strong>, <strong>Tap Tempo</strong>.
 
 ### Cue Lists
 
@@ -137,7 +137,7 @@ This is divided into Standard Masters and Scene Master.
 
 For Standard Masters the options are <strong>Disabled</strong>, <strong>Selection</strong>, <strong>Flash</strong>, <strong>Latch</strong>, **Tap
 Tempo<strong>, </strong>Nudge Up<strong>, </strong>Nudge Down<strong>, </strong>Release<strong>, </strong>Reset Multiplier<strong>, </strong>Multiplier x2**,
-<strong>Freeze</strong>, <strong>Connect</strong>.
+&nbsp;<strong>Freeze</strong>, <strong>Connect</strong>.
 
 These last options are for rate and BPM masters, see
 the [BPM Master Options](../running-the-show/playback-controls.md#bpm-master-options). Freeze can be useful to temporarily pause

@@ -20,7 +20,7 @@ page and softkey buttons on the top right of the screen.
 <br/>
 
 <Keys.Annotation>B</Keys.Annotation> The <strong>Playback faders</strong> select and control cues and programs. <Keys.Annotation>C</Keys.Annotation> The
-<strong>additional playback faders</strong> provide further positions for storing
+&nbsp;<strong>additional playback faders</strong> provide further positions for storing
 cues, programs, fixtures and other elements.
 
 <br/>
@@ -62,7 +62,7 @@ Softkey commands are shown in the manual like this:
 <br/>
 
 <Keys.Annotation>J</Keys.Annotation> The <strong>Mini screen</strong> displays additional workspace windows. <Keys.Annotation>K</Keys.Annotation> The four
-<strong>rotary encoders</strong> act like normal handles and can be allocated as
+&nbsp;<strong>rotary encoders</strong> act like normal handles and can be allocated as
 masters or playbacks. Pressing the encoder is like pressing the blue
 button on a handle.
 

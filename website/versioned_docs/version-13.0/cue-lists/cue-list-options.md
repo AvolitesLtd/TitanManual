@@ -101,7 +101,7 @@ not the touch window.*
 
 This option allows you to change settings for each cue in the cue list.
 To select the cue number to edit, use the <strong>Wheel A</strong> or press
-<strong>softkey A</strong> then enter the cue number on the numeric keypad.
+&nbsp;<strong>softkey A</strong> then enter the cue number on the numeric keypad.
 
 -   <Keys.SoftKey>Curve</Keys.SoftKey> allows you to set a different fade curve for the cue; this
     affects how the fade progresses from one cue to the other *(for
@@ -120,7 +120,7 @@ To select the cue number to edit, use the <strong>Wheel A</strong> or press
     [Move In Dark](cue-list-playback.md#move-in-dark-mid-functions) function for this
     cue
 
--   <Keys.SoftKey>Tracking</Keys.SoftKey> disables or enables [tracking](cue-list-playback.md#tracking) for this cue
+-   &nbsp;<Keys.SoftKey>Tracking</Keys.SoftKey> disables or enables [tracking](cue-list-playback.md#tracking) for this cue
 
 -   <Keys.SoftKey>Legend</Keys.SoftKey> allows you to set a legend for the cue which is displayed
     on the cue list display
@@ -128,7 +128,7 @@ To select the cue number to edit, use the <strong>Wheel A</strong> or press
 -   <Keys.SoftKey>Notes=</Keys.SoftKey> lets you enter a note for the cue *(e.g. "Leaves stage pursued
     by bear" or "wake up spot operator")*
 
--   <Keys.SoftKey>Autoload</Keys.SoftKey> see [Autoloading a Playback within a Cue List](creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list)
+-   &nbsp;<Keys.SoftKey>Autoload</Keys.SoftKey> see [Autoloading a Playback within a Cue List](creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list)
 
 -   <Keys.SoftKey>Cue disabled</Keys.SoftKey> allows you to temporarily disable this cue, see
     [Disabling a Cue](editing-cue-lists.md#disabling-a-cue)

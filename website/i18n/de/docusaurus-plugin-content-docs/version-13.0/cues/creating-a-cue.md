@@ -75,7 +75,7 @@ Schaltflächen im Fenster 'Playbacks' gespeichert werden.
 	Attribute werden gespeichert
     -   <Keys.SoftKey>Record Stage</Keys.SoftKey> - gesamtes Bild speichern: sämtliche
     Geräte mit nicht geschlossenem Dimmer werden gespeichert
-    -   <Keys.SoftKey>Quick Build</Keys.SoftKey> - siehe [nächster Abschnitt](#quick-build----cues-schnellspeichern)
+    -   &nbsp;<Keys.SoftKey>Quick Build</Keys.SoftKey> - siehe [nächster Abschnitt](#quick-build----cues-schnellspeichern)
 
 -   <Keys.SoftKey>Record By Channel</Keys.SoftKey> ist empfehlenswert, wenn mehrere Cues
     übereinandergelegt werden sollen, um einen bestimmten Effekt zu

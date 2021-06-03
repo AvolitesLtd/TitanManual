@@ -42,7 +42,7 @@ Cue View window.
 ![Playback View for Cue with Shape](/docs/images/Playback-View-for-Cue-with-Shape.png)
 
 To view and/or edit the parameters of the shape or effect, click on the
-<strong>View Shape</strong> or <strong>View Pixel Effect</strong> button. If more than one shape or effect
+&nbsp;<strong>View Shape</strong> or <strong>View Pixel Effect</strong> button. If more than one shape or effect
 is stored, the button will show <Keys.SoftKey>...</Keys.SoftKey>. A <strong>Shape View window</strong> or <em></em>Pixel
 Mapper Effect View window<em></em> will open, listing the shapes or effects in
 the cue. You can then edit parameters of the shape or effect by clicking

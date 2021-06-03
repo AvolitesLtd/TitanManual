@@ -84,7 +84,7 @@ die Werte der Attribut-Räder. Im <strong>Attribut-Status</strong> wird angezeig
 welche Attribute gerade aktiv und welche modifiziert sind.
 
 \(P\) Unten links schließlich werden die momentanen Belegungen der
-<strong>Playbacks</strong> angezeigt.
+&nbsp;<strong>Playbacks</strong> angezeigt.
 
 ## Titan Mobile Anschlussfeld
 

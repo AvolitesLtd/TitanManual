@@ -79,7 +79,7 @@ display. You can also enter a speed from the keypad as described below.
 The last speed you set on the wheel is always remembered, you do not
 have to tell Titan to save it.
 
-<strong>Crossfade</strong> is the "slope" between cues; with a crossfade of 0, the
+&nbsp;<strong>Crossfade</strong> is the "slope" between cues; with a crossfade of 0, the
 fixtures snap instantly to the next cue, but with a crossfade of 100,
 the fixtures spend the whole cue time fading to the next cue. With a
 crossfade of 50, the fixtures delay for half the cue time and fade for

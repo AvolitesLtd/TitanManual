@@ -303,7 +303,7 @@ Other Layout Editor Tools
 The Layout Editor's context menu has some useful tools for laying out
 fixtures quickly.
 
-<strong>Arrange Fixtures:</strong> This is a very useful tool to quickly layout
+&nbsp;<strong>Arrange Fixtures:</strong> This is a very useful tool to quickly layout
 fixtures in a grid. For example you might have 20x colour blocks across
 four towers, each with five blocks.
 
@@ -326,7 +326,7 @@ four towers, each with five blocks.
 6. Toggle <Keys.SoftKey>Arrange in...</Keys.SoftKey> to <strong>Columns</strong> or <strong>Rows</strong>
 
 
-<strong>Rows</strong> will arrange fixtures left to right and <strong>Columns</strong> will arrange top to
+&nbsp;<strong>Rows</strong> will arrange fixtures left to right and <strong>Columns</strong> will arrange top to
 bottom.
 
 7. The <Keys.SoftKey>Shape</Keys.SoftKey> option allows you to arrange in Rectangle, Oval or
@@ -334,17 +334,17 @@ Triangle
 
 8. Select <Keys.SoftKey>OK</Keys.SoftKey> to complete
 
-<strong>Highlight:</strong> When enabled this will highlight selected fixtures live
+&nbsp;<strong>Highlight:</strong> When enabled this will highlight selected fixtures live
 on stage. This can be useful to see which fixture you are positioning in
 the layout.
 
-<strong>Position & Angle/Cell Scale:</strong> When set to 'Position & Angle' the
+&nbsp;<strong>Position & Angle/Cell Scale:</strong> When set to 'Position & Angle' the
 wheels move and rotate the fixtures. When set to 'Cell Scale' the wheels
 change the size of the fixture by spreading out its cells. This is
 useful to get the correct layout if you have some large fixtures with
 widely spaced cells and others with cells close together.
 
-<strong>Arrange/Select Only:</strong> When set to <strong>Arrange</strong> you can move fixtures by
+&nbsp;<strong>Arrange/Select Only:</strong> When set to <strong>Arrange</strong> you can move fixtures by
 clicking and dragging on the screen. When set to <strong>Select Only</strong>
 fixtures are locked in position on the grid and cannot be dragged
 around. This provides an alternative way of selecting fixtures to edit
@@ -356,14 +356,14 @@ the reason!*
 For either setting you can still use the wheels to move and rotate the
 fixtures.
 
-<strong>Wheels Move Full Pixel/Sub Pixel:</strong> Allows you to position fixtures
+&nbsp;<strong>Wheels Move Full Pixel/Sub Pixel:</strong> Allows you to position fixtures
 across pixel boundaries when using the wheels. The <strong>Snap</strong> option
 centres the fixture on the nearest cell.
 
-<strong>Wheels Rotate Individual Fixtures/Selection:</strong> Sets whether individual
+&nbsp;<strong>Wheels Rotate Individual Fixtures/Selection:</strong> Sets whether individual
 fixtures rotate, or whether the whole selection rotates.
 
-<strong>Media options:</strong> Shows a sub menu with useful options when you're
+&nbsp;<strong>Media options:</strong> Shows a sub menu with useful options when you're
 using Synergy/Ai to play back media on the fixture. These options are
 described in [Layout Editor with Ai Server](../synergy/operating-synergy.md#layout-editor-with-ai-server).
 
@@ -381,7 +381,7 @@ To create first effect:
 example and go to <Keys.SoftKey>Create Effect</Keys.SoftKey>
 
 2. Select <Keys.SoftKey>Effect</Keys.SoftKey> to access the global effect controls and change
-<strong>Background Opacity</strong> to zero
+&nbsp;<strong>Background Opacity</strong> to zero
 
 
 *This will allow it to overlay the other playback*
@@ -408,7 +408,7 @@ animation
     window.
 
 5. Double-click on <Keys.SoftKey>Zoom Animation</Keys.SoftKey> (or press <Keys.SoftKey>+</Keys.SoftKey>) and select the
-<strong>Opacity animation</strong>
+&nbsp;<strong>Opacity animation</strong>
 
     Reduce <strong>Spawn Rate</strong> to zero. (This will ensure the opacity only works
     on the zoom animation.)

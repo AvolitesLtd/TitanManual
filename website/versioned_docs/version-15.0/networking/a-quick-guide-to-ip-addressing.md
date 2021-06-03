@@ -36,7 +36,7 @@ Art-Net Fixtures  | `10.x.y.z` <strong>\</strong>* | `255.0.0.0`
 
 (the `2.x.y.z` range can also be used for Art-Net if required but see section on Private Address ranges below).
 
-<strong>\</strong><em> </em>Where a combination of `x`, `y` and `z` are unique for these fixtures.*
+&nbsp;<strong>\</strong><em> </em>Where a combination of `x`, `y` and `z` are unique for these fixtures.*
 
 ### Titan and TNP outputting over Art-Net (and DMX)
 
@@ -54,7 +54,7 @@ Titan Console     | `10.100.100.100`  | `255.0.0.0`
 TNP               | `10.100.100.101`  | `255.0.0.0`
 Art-Net Fixtures  | `10.x.y.z` <strong>\</strong>* | `255.0.0.0`
 
-<strong>\</strong><em> </em>Where a combination of `x`, `y` and `z` are unique for these fixtures.*
+&nbsp;<strong>\</strong><em> </em>Where a combination of `x`, `y` and `z` are unique for these fixtures.*
 
 > It's best to avoid using 255 in the IP address because if the unmasked part of an IP address is set to 255, this acts as a broadcast address (for example `192.168.1.255` would be a broadcast address if the mask is `255.255.255.0`, or `10.255.255.255` would be broadcast if the mask is `255.0.0.0`).
 

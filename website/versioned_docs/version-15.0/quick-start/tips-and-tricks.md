@@ -16,7 +16,7 @@ The following section gives you some quick ways to operate Titan. ``<n>`` means 
 -  Set full intensity in the Programmer for selected fixtures: Tap <Keys.HardKey>@</Keys.HardKey><Keys.HardKey>@</Keys.HardKey>
 -  Set intensity value ``<n>`` in the programmer: <Keys.HardKey>@</Keys.HardKey> ``<n>`` <Keys.HardKey>Enter</Keys.HardKey> (value as 0-99 unless you've changed the user settings)
 -  Clear over a time: ``<n>`` <Keys.HardKey>Clear</Keys.HardKey> will clear over that time
--  <Keys.HardKey>Wheel @</Keys.HardKey> Keys: Allow fast Access to Freeze, Off, Or on for the attribute active for that wheel. Tap it twice for 100% of a percentage based attribute (such as Intensity, RGB or CMY). [(more)](../controlling-fixtures/changing-fixture-attributes.md#adjusting-attributes-with-the--buttons)
+-  &nbsp;<Keys.HardKey>Wheel @</Keys.HardKey> Keys: Allow fast Access to Freeze, Off, Or on for the attribute active for that wheel. Tap it twice for 100% of a percentage based attribute (such as Intensity, RGB or CMY). [(more)](../controlling-fixtures/changing-fixture-attributes.md#adjusting-attributes-with-the--buttons)
 -  How to see/select cells on multi cell fixture: Use <Keys.HardKey>Unfold</Keys.HardKey> then tap fixture.
 -  Group Pattern Selection: Click and hold <Keys.HardKey>Group</Keys.HardKey> then select from the soft keys Odd/Even etc
 -  Quick Pattern Selection: Select fixtures or Group then click <Keys.HardKey>ALL</Keys.HardKey> to select within selected fixtures a pattern such as

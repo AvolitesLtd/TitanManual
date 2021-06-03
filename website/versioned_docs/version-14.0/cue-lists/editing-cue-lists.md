@@ -257,10 +257,10 @@ will be tracked.
 
 Update Mode | Action
 ---|---
-<strong>Forwards</strong> ![Cue List Update Mode Forwards](/docs/images/Cue-List-Update-Mode-Forwards.png) | Updates the channels in the current cue and tracks following cues until the channels are next changed. The values in cues before this one will not be changed.
-<strong>Backwards</strong> ![Cue List Update Mode Backwards](/docs/images/Cue-List-Update-Mode-Backwards.png) | Updates the current cue and tracks backwards through cues until the channels were last changed.
-<strong>Both</strong> ![Cue List Update Mode Both](/docs/images/Cue-List-Update-Mode-Both.png) | Updates the current cue, tracking backwards through previous cues from the previous change and forwards through following cues to the next change.
-<strong>Cue Only</strong> ![Cue List Update Mode Cue Only](/docs/images/Cue-List-Update-Mode-Cue-Only.png) |  Just sets the current cue.
+&nbsp;<strong>Forwards</strong> ![Cue List Update Mode Forwards](/docs/images/Cue-List-Update-Mode-Forwards.png) | Updates the channels in the current cue and tracks following cues until the channels are next changed. The values in cues before this one will not be changed.
+&nbsp;<strong>Backwards</strong> ![Cue List Update Mode Backwards](/docs/images/Cue-List-Update-Mode-Backwards.png) | Updates the current cue and tracks backwards through cues until the channels were last changed.
+&nbsp;<strong>Both</strong> ![Cue List Update Mode Both](/docs/images/Cue-List-Update-Mode-Both.png) | Updates the current cue, tracking backwards through previous cues from the previous change and forwards through following cues to the next change.
+&nbsp;<strong>Cue Only</strong> ![Cue List Update Mode Cue Only](/docs/images/Cue-List-Update-Mode-Cue-Only.png) |  Just sets the current cue.
 
 
 > You can't change the cue number using this menu - if you press
@@ -280,11 +280,7 @@ by touching and dragging over the required cues. Select <Keys.SoftKey>Merge</Key
 be merged into all of the selected cues.
 
 From the keypad, connect the cue list (or chase) and press <Keys.HardKey>Rec Step</Keys.HardKey>.
-Then use the syntax <strong>n</strong> <Keys.HardKey>THRU</Keys.HardKey> <strong>m</strong> to select a range or <strong>n</strong> <Keys.HardKey>And</Keys.HardKey>
-<strong>m</strong> to select cues which aren't together. The selected cues will
-highlight in red in the [Playback View](#playback-view-window) if you have it open. When you have
-selected all desired cues press <Keys.HardKey>Enter</Keys.HardKey>, then select <Keys.SoftKey>Merge</Keys.SoftKey> or
-<Keys.SoftKey>Replace</Keys.SoftKey> (or just press <Keys.HardKey>Enter</Keys.HardKey> again to merge).
+Then use the syntax <strong>n</strong> <Keys.HardKey>THRU</Keys.HardKey> <strong>m</strong> to select a range or <strong>n</strong> <Keys.HardKey>And</Keys.HardKey> <strong>m</strong> to select cues which aren't together. The selected cues will highlight in red in the [Playback View](#playback-view-window) if you have it open. When you have selected all desired cues press <Keys.HardKey>Enter</Keys.HardKey>, then select <Keys.SoftKey>Merge</Keys.SoftKey> or <Keys.SoftKey>Replace</Keys.SoftKey> (or just press <Keys.HardKey>Enter</Keys.HardKey> again to merge).
 
 Disabling a Cue
 ---------------
@@ -298,9 +294,7 @@ able to put it back in later.
 Extracting a Cue from a Cue List with Include
 ---------------------------------------------
 
-You can reload a single cue out of a cue list into the programmer using
-<strong>[Include](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)</strong>. Press <Keys.HardKey>Include</Keys.HardKey>, select the cue list, enter the cue number to
-be included, then press <Keys.SoftKey>Include Cue</Keys.SoftKey>.
+You can reload a single cue out of a cue list into the programmer using <strong>[Include](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)</strong>. Press <Keys.HardKey>Include</Keys.HardKey>, select the cue list, enter the cue number to be included, then press <Keys.SoftKey>Include Cue</Keys.SoftKey>.
 
 If you want to do this from the currently connected cue list, Press
 <Keys.HardKey>Include</Keys.HardKey>, <Keys.HardKey>Connect/Cue</Keys.HardKey>, type the cue number, <Keys.SoftKey>Include Cue</Keys.SoftKey>.
