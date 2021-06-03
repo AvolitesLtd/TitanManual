@@ -64,8 +64,7 @@ bottom right, or the Edit Note context menu button.
 Track Workspace and Macro links
 -------------------------------
 
-You can trigger macros and workspace shortcuts from tracks using the
-<Keys.SoftKey>Workspace</Keys.SoftKey> and <Keys.SoftKey>Macro</Keys.SoftKey> buttons in the bottom right hand corner of
+You can trigger macros and workspace shortcuts from tracks using the <Keys.SoftKey>Workspace</Keys.SoftKey> and <Keys.SoftKey>Macro</Keys.SoftKey> buttons in the bottom right hand corner of
 the window.
 
 To add a workspace link to the current track, click <Keys.SoftKey>Workspace</Keys.SoftKey>, then

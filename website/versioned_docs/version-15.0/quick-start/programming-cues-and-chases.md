@@ -13,11 +13,7 @@ Set up the look to be recorded.
 
 Press <Keys.HardKey>Record</Keys.HardKey>.
 
-Set <Keys.SoftKey>Record Mode</Keys.SoftKey> to <Keys.SoftKey>Channel</Keys.SoftKey> (saves only modified attributes),
-<Keys.SoftKey>Fixture</Keys.SoftKey> (saves all attributes of fixtures which have been modified
-or are selected), <Keys.SoftKey>Stage</Keys.SoftKey> (saves all attributes of all fixtures with
-non-zero dimmer), or <Keys.SoftKey>Quick Build</Keys.SoftKey> (merges palettes and playbacks into
-the cue when you select them).
+Set <Keys.SoftKey>Record Mode</Keys.SoftKey> to <Keys.SoftKey>Channel</Keys.SoftKey> (saves only modified attributes), <Keys.SoftKey>Fixture</Keys.SoftKey> (saves all attributes of fixtures which have been modified or are selected), <Keys.SoftKey>Stage</Keys.SoftKey> (saves all attributes of all fixtures with non-zero dimmer), or <Keys.SoftKey>Quick Build</Keys.SoftKey> (merges palettes and playbacks into the cue when you select them).
 
 To store, press a fader <strong>Select</strong> button, a macro/executor button or a touch
 button in Playbacks window. (See [Creating a Cue](../cues/creating-a-cue.md)).

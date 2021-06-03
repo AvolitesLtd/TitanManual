@@ -13,8 +13,7 @@ The Menu/Softkeys
 On all consoles except Diamond 9, the right hand side of the main touch screen is used for the main menu
 display. These are known as the "Softkeys" and are lettered A-G. On the Diamond 9
 there is a separate Menu touchscreen for the system prompt and the menu
-softkeys to the left of the right-hand screen.
-<em>(Pearl Expert also has a separate display for the menu.)</em>
+softkeys to the left of the right-hand screen. <em>(Pearl Expert also has a separate display for the menu.)</em>
 
 ![Titan Touch Screen User Interface](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
@@ -25,8 +24,7 @@ next to the screen.
 
 The vertical bar to the left of the softkeys shows you which menu you
 are currently in. You can \'latch\' the menu to keep the current command
-active (so that you don't have to keep reselecting it) by pressing the
-<Keys.HardKey>Menu Latch</Keys.HardKey> button (<Keys.HardKey>ML Menu</Keys.HardKey> on Pearl Expert & Tiger Touch 1). The menu
+active (so that you don't have to keep reselecting it) by pressing the <Keys.HardKey>Menu Latch</Keys.HardKey> button (<Keys.HardKey>ML Menu</Keys.HardKey> on Pearl Expert & Tiger Touch 1). The menu
 bar turns red when latched. This is useful for example when copying or moving
 playbacks to rearrange the console.
 

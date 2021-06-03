@@ -54,14 +54,12 @@ a cue *(for example you fire a green cue and the fixtures turn out to be
 not quite the right colour)* the <Keys.HardKey>Update</Keys.HardKey> function lets you quickly update
 either the cue itself or the palettes used in the cue.
 
-For instant update of a fired cue, change the fixture settings and press
-<Keys.HardKey>Update</Keys.HardKey> twice.
+For instant update of a fired cue, change the fixture settings and press <Keys.HardKey>Update</Keys.HardKey> twice.
 
 1. With the cue fired, select the fixtures and change them to the
 settings you want to store.
 
-2. Press <Keys.HardKey>Update</Keys.HardKey> *(on consoles without an Update button press
-<Keys.HardKey>Record Cue</Keys.HardKey>, <Keys.SoftKey>Update</Keys.SoftKey>)*.
+2. Press <Keys.HardKey>Update</Keys.HardKey> *(on consoles without an Update button press <Keys.HardKey>Record Cue</Keys.HardKey>, <Keys.SoftKey>Update</Keys.SoftKey>)*.
 
 3. Press <Keys.HardKey>Enter</Keys.HardKey> to immediately store the new values to the cue.
 
@@ -108,8 +106,7 @@ timing related information.
 
 ### Filter Columns
 
-You can configure which columns are shown in the Playback View using the
-<Keys.SoftKey>Edit Columns</Keys.SoftKey> context menu button. Once you have set a view you can
+You can configure which columns are shown in the Playback View using the <Keys.SoftKey>Edit Columns</Keys.SoftKey> context menu button. Once you have set a view you can
 save it to a filter button which appears below the Times button on the
 left.
 
@@ -131,8 +128,7 @@ button.
 
 ### Cue View
 
-If you touch the View button at the right hand end of the row or the
-<Keys.SoftKey>View Cue</Keys.SoftKey> context button, the Cue View window opens, showing you
+If you touch the View button at the right hand end of the row or the <Keys.SoftKey>View Cue</Keys.SoftKey> context button, the Cue View window opens, showing you
 details of the settings individual timings for all the fixtures in the
 cue.
 
@@ -170,11 +166,9 @@ You can <strong>edit</strong> or <strong>remove</strong> one or more individual 
 them - <em>they will be highlighted in blue</em>
 
 2. The softkeys then give you available settings for that control value, or
-you can directly edit values by typing numeric values and pressing
-<Keys.HardKey>Enter</Keys.HardKey>
+you can directly edit values by typing numeric values and pressing <Keys.HardKey>Enter</Keys.HardKey>
 
-3. You can turn attributes On and Off using the <Keys.HardKey>Off</Keys.HardKey> button and the
-<Keys.SoftKey>On</Keys.SoftKey> softkey. Off temporarily removes a value from the cue, it can
+3. You can turn attributes On and Off using the <Keys.HardKey>Off</Keys.HardKey> button and the <Keys.SoftKey>On</Keys.SoftKey> softkey. Off temporarily removes a value from the cue, it can
 later be restored using <Keys.SoftKey>On</Keys.SoftKey>.
 
 4. You can remove a fixture completely from the cue by selecting the
@@ -284,8 +278,7 @@ change them all, deselect the fixtures you don't want.
 to change. Then press the <Keys.SoftKey>Attributes Off</Keys.SoftKey> softkey to set them to Off.
 The bottom softkeys also give options such as <Keys.SoftKey>Dimmer Off</Keys.SoftKey>.
 
-5. Press <Keys.HardKey>Record</Keys.HardKey>,  press the <strong>Select</strong> button of the cue, then select 
-<Keys.SoftKey>Replace</Keys.SoftKey> to update it.
+5. Press <Keys.HardKey>Record</Keys.HardKey>,  press the <strong>Select</strong> button of the cue, then select  <Keys.SoftKey>Replace</Keys.SoftKey> to update it.
 
 ---
 

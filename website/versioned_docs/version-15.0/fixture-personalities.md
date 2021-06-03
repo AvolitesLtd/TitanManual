@@ -152,8 +152,7 @@ In an emergency
 
 The console contains a selection of "Generic" fixtures which you can use
 in an emergency if you need to operate a fixture with no personality.
-When patching, go through the manufacturer list until you find
-<Keys.SoftKey>Generic</Keys.SoftKey>. In this section (among other fixtures) are the following:
+When patching, go through the manufacturer list until you find <Keys.SoftKey>Generic</Keys.SoftKey>. In this section (among other fixtures) are the following:
 
 Multi-DMX: Has up to 10 DMX channels, all channels are LTP. You can
 select from 1-10 channels on the Mode screen. Press Attribute Bank and

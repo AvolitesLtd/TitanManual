@@ -73,8 +73,7 @@ software should show connections for both the Titan console and the DJ mixer.
 Pioneer Workspace window
 ------------------------
 
-Open this window the usual way by double pressing <Keys.HardKey>Open/View</Keys.HardKey> and selecting 
-<Keys.SoftKey>PioneerDJ</Keys.SoftKey> from the window select buttons.
+Open this window the usual way by double pressing <Keys.HardKey>Open/View</Keys.HardKey> and selecting  <Keys.SoftKey>PioneerDJ</Keys.SoftKey> from the window select buttons.
 
 ![Pioneer Workspace window](/docs/images/Pioneer-Workspace-window.png)
 

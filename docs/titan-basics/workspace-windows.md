@@ -95,16 +95,14 @@ will resize to make room for the window you are editing. If Off, the
 other windows will stay the same size and go behind the current window.
 
 If <Keys.SoftKey>Edit All Windows</Keys.SoftKey> is set to On, corner arrows will appear in all
-windows and you can adjust the size of all the windows together. Press
-<Keys.HardKey>Enter</Keys.HardKey>, <Keys.HardKey>Exit</Keys.HardKey> or <Keys.SoftKey>OK</Keys.SoftKey> to finish.
+windows and you can adjust the size of all the windows together. Press <Keys.HardKey>Enter</Keys.HardKey>, <Keys.HardKey>Exit</Keys.HardKey> or <Keys.SoftKey>OK</Keys.SoftKey> to finish.
 
 ![Resize](/docs/images/Resize-2.png)
 
 > If you accidentally set a window to a single grid size, you can't then get to the Window Layout button to resize it. Select the window and use the <Keys.SoftKey>Min/Max</Keys.SoftKey> softkey to set the window to a fixed size.
 
 You can move the active window between screens from the Window
-Appearance screen, or by pressing View then <Keys.SoftKey>Window Options</Keys.SoftKey> then
-<Keys.SoftKey>Move Screen</Keys.SoftKey>, or hold <Keys.HardKey>Avo</Keys.HardKey> and press the <Keys.HardKey>Size & Position</Keys.HardKey> button.
+Appearance screen, or by pressing View then <Keys.SoftKey>Window Options</Keys.SoftKey> then <Keys.SoftKey>Move Screen</Keys.SoftKey>, or hold <Keys.HardKey>Avo</Keys.HardKey> and press the <Keys.HardKey>Size & Position</Keys.HardKey> button.
 
 You can close the active window using the <Keys.HardKey>Close</Keys.HardKey> button (not on all
 consoles). You can close all windows by pressing <Keys.HardKey>Avo</Keys.HardKey>+<Keys.HardKey>Close</Keys.HardKey>, or
@@ -142,8 +140,7 @@ change, causing buttons to move around. If you have set a particular
 layout you want to keep (for example if you've positioned fixtures in
 the window to match the layout on stage), open the Window Appearance
 menu using the <Keys.ContextKey>Cog</Keys.ContextKey> button and set Button Size to <Keys.ContextKey>Button Size Set Rows
-& Columns</Keys.ContextKey>. You can then set a fixed layout using the <Keys.ContextKey>Rows</Keys.ContextKey> and
-<Keys.ContextKey>Columns</Keys.ContextKey> buttons.
+& Columns</Keys.ContextKey>. You can then set a fixed layout using the <Keys.ContextKey>Rows</Keys.ContextKey> and <Keys.ContextKey>Columns</Keys.ContextKey> buttons.
 
 ![Rows and Columns](/docs/images/Rows-and-Columns.png)
 
@@ -167,8 +164,7 @@ they are on the left side of the screen).
 External screens can have their own workspace buttons down the side of the screen (these
 can be turned on or off in the [User Settings](../system-settings/user-settings.md#display) .)
 
-To record, press <Keys.HardKey>Open/View</Keys.HardKey> then
-<Keys.SoftKey>Record Workspace</Keys.SoftKey>, then touch one of the Workspaces buttons, or just
+To record, press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.SoftKey>Record Workspace</Keys.SoftKey>, then touch one of the Workspaces buttons, or just
 touch an empty button twice to Quick Record. You can also save
 workspaces onto any grey handle or macro button.
 

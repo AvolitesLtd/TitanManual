@@ -46,8 +46,7 @@ You can also edit times of a cue you have already saved like this:
 time</Keys.SoftKey> to set the fade-in time of the cue, and <Keys.SoftKey>Fade out time</Keys.SoftKey> to set
 the fade-out time of the cue.
 
-5. Type the new time (in seconds) using the numeric keypad and press
-<Keys.HardKey>Enter</Keys.HardKey> to save it.
+5. Type the new time (in seconds) using the numeric keypad and press <Keys.HardKey>Enter</Keys.HardKey> to save it.
 
 6. Press <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> to change the overlap, then enter <strong>0 - 100</strong> on
 the keypad.
@@ -79,9 +78,7 @@ can change this, see [Changing Fixture Order](#changing-fixture-order))*.
 
 ### Fade Modes
 
-The times you enter are affected by the cue mode which is set using the
-<Keys.SoftKey>Fade Mode</Keys.SoftKey> option. This option can also be set from playback <Keys.SoftKey>Options</Keys.SoftKey>,
-<Keys.SoftKey>Fader</Keys.SoftKey>:
+The times you enter are affected by the cue mode which is set using the <Keys.SoftKey>Fade Mode</Keys.SoftKey> option. This option can also be set from playback <Keys.SoftKey>Options</Keys.SoftKey>, <Keys.SoftKey>Fader</Keys.SoftKey>:
 
 -   <Keys.SoftKey>Mode 0</Keys.SoftKey> - Channels will fade in as set by the fade time. The Fade
     Out time is ignored. If times are set to zero, the HTP channels fade
@@ -136,8 +133,7 @@ fixtures so they move together when using
 
 4. Set the sequence number to start from by pressing <Keys.SoftKey>Step Number</Keys.SoftKey>
 
-5. If you want the sequence number to increase automatically, set
-<Keys.SoftKey>Autoincrement</Keys.SoftKey> to <strong>On</strong>. If you want some fixtures to have the same
+5. If you want the sequence number to increase automatically, set <Keys.SoftKey>Autoincrement</Keys.SoftKey> to <strong>On</strong>. If you want some fixtures to have the same
 sequence number, set it to <strong>Off</strong>.
 
 6. Touch the <strong>Select</strong> buttons of the fixture(s) you want to place in that
@@ -241,8 +237,7 @@ times.
 
 <Video videoId="GHq9b3PT8U0" title="Timing Syntax" />
 
-Individual attribute times can also be set from the wheels, using the
-<Keys.SoftKey>Wheels</Keys.SoftKey> softkey option on the root menu.
+Individual attribute times can also be set from the wheels, using the <Keys.SoftKey>Wheels</Keys.SoftKey> softkey option on the root menu.
 
 Using the <Keys.HardKey>Options</Keys.HardKey> button while showing the times allows you to set
 the <strong>Speed</strong>, <strong>Effect Multiplier</strong>, <strong>Speed Multiplier</strong> and <strong>speed source</strong> in the

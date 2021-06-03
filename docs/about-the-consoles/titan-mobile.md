@@ -15,6 +15,7 @@ See [minimum PC specifications](../titan-basics.md#connecting-up-titan-mobile-an
 <br/>
 
 <Keys.Annotation>A</Keys.Annotation> The <strong>Playback faders</strong> are used to store and play back cues or chases.
+
 <br/>
 
 <Keys.Annotation>B</Keys.Annotation> The <strong>Page Select buttons</strong> let you change to a different page of

@@ -9,8 +9,7 @@ import Video from '@site/src/components/video.tsx';
 
 The User Settings menu may be accessed from the <Keys.SoftKey>User Settings</Keys.SoftKey> softkey
 on the <strong>System</strong> menu. You can also get it directly from any other
-menu by holding down the <Keys.HardKey>Avo</Keys.HardKey> button and pressing
-<Keys.SoftKey>User Settings</Keys.SoftKey>.
+menu by holding down the <Keys.HardKey>Avo</Keys.HardKey> button and pressing <Keys.SoftKey>User Settings</Keys.SoftKey>.
 
 ![User Settings Window](/docs/images/User-Settings-Window.png)
 

@@ -98,13 +98,13 @@ which can be set to a user-configurable halo colour.
 The touch screen above the faders shows information about
 each playback.
 
-test
 <br/>
 
 <Keys.Annotation>L</Keys.Annotation> 
 The <strong>Page Select buttons</strong> let you change the left or right
 fader banks to a different page
 of playbacks (for both the playback faders and the lower rotary faders). 
+
 <br/>
 
 <br/>

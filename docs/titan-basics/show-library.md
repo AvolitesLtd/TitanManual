@@ -15,8 +15,7 @@ within your show.
 
 Double press <Keys.HardKey>Open/View</Keys.HardKey> then press <Keys.SoftKey>Show Library</Keys.SoftKey> from the window
 select buttons to
-open the window (or if in the root menu, <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>,
-<Keys.SoftKey>Show Library</Keys.SoftKey>).
+open the window (or if in the root menu, <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>, <Keys.SoftKey>Show Library</Keys.SoftKey>).
 
 Show Library tab
 ----------------

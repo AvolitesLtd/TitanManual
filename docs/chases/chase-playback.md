@@ -40,8 +40,7 @@ Connecting a Playback for Control
 When you fire a chase or a cue list, the wheels and <Keys.HardKey>Stop</Keys.HardKey>/<Keys.HardKey>Go</Keys.HardKey> buttons are automatically
 allocated to control the playback - this is
 called <strong>connecting</strong> the playback. For a chase, the wheels control Speed and Crossfade. If you have more than one playback running,
-you can choose which one is connected to the controls using the
-<Keys.HardKey>Connect/Cue</Keys.HardKey> button (this button may also be labelled <Keys.HardKey>Connect</Keys.HardKey> or <Keys.HardKey>Cue</Keys.HardKey> depending on the console).
+you can choose which one is connected to the controls using the <Keys.HardKey>Connect/Cue</Keys.HardKey> button (this button may also be labelled <Keys.HardKey>Connect</Keys.HardKey> or <Keys.HardKey>Cue</Keys.HardKey> depending on the console).
 
 -   Connect a different playback to the controls by pressing <Keys.HardKey>Connect/Cue</Keys.HardKey>
     then the Select button of the playback you want to control.
@@ -97,8 +96,7 @@ the chase.
 *0 = no fade (the chase will "snap"), 100 = max fade (the chase will
 move continuously from step to step).*
 
-3. To set the <strong>speed</strong>, press <Keys.SoftKey>Speed</Keys.SoftKey>, type the new speed, then press
-<Keys.HardKey>Enter</Keys.HardKey>.
+3. To set the <strong>speed</strong>, press <Keys.SoftKey>Speed</Keys.SoftKey>, type the new speed, then press <Keys.HardKey>Enter</Keys.HardKey>.
 
 *The speed can be set in Beats Per Minute (BPM) or seconds
 depending in the [User Settings](../system-settings/user-settings.md).*
@@ -114,8 +112,7 @@ or the [<Keys.HardKey>Unfold</Keys.HardKey> function](editing-a-chase.md#editing
 described in [Editing a Chase](editing-a-chase.md).
 
 You can select whether the chase speed is displayed in seconds or in
-Beats Per Minute (BPM). Press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.SoftKey>User Settings</Keys.SoftKey>, then press
-<Keys.SoftKey>Tempo Units</Keys.SoftKey> to set the option to <Keys.SoftKey>Tempo Units Seconds</Keys.SoftKey> or <Keys.SoftKey>Tempo
+Beats Per Minute (BPM). Press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.SoftKey>User Settings</Keys.SoftKey>, then press <Keys.SoftKey>Tempo Units</Keys.SoftKey> to set the option to <Keys.SoftKey>Tempo Units Seconds</Keys.SoftKey> or <Keys.SoftKey>Tempo
 Units Beats Per Minute (BPM)</Keys.SoftKey>.
 
 You can also allocate a [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters)

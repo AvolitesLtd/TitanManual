@@ -75,6 +75,7 @@ the buttons.
 <br/>
 
 <Keys.Annotation>K</Keys.Annotation> The <strong>Playback faders</strong> are used to store and play back cues or chases.
+
 <br/>
 
 <Keys.Annotation>L</Keys.Annotation> The <strong>Playback Page Select buttons</strong> let you change to a different page

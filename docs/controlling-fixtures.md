@@ -115,8 +115,7 @@ recording a new Locate State. This can be shared (you set the values for
 one fixture, and then it applies to all fixtures of the same type) or
 individual (you can set different values for each individual fixture).
 To store, set up the desired locate state on the fixture(s) you want to
-change, then press <Keys.HardKey>Record</Keys.HardKey>, then <Keys.HardKey>Locate</Keys.HardKey>. Select <Keys.SoftKey>Shared</Keys.SoftKey> or
-<Keys.SoftKey>Individual</Keys.SoftKey> from the softkeys. Press <Keys.HardKey>Record</Keys.HardKey> or <Keys.HardKey>Locate</Keys.HardKey> a
+change, then press <Keys.HardKey>Record</Keys.HardKey>, then <Keys.HardKey>Locate</Keys.HardKey>. Select <Keys.SoftKey>Shared</Keys.SoftKey> or <Keys.SoftKey>Individual</Keys.SoftKey> from the softkeys. Press <Keys.HardKey>Record</Keys.HardKey> or <Keys.HardKey>Locate</Keys.HardKey> a
 second time to confirm.
 
 ## Clearing the fixture selection and the programmer
@@ -141,8 +140,7 @@ the softkeys. These will take effect when you release the <Keys.HardKey>Clear</K
 The <strong>Set Mask</strong> options let you choose which attribute groups are to be cleared (for example,
 you could leave the pan/tilt in the programmer but clear everything else).
 The top <Keys.SoftKey>Set Mask</Keys.SoftKey> button lets you choose which attributes will be cleared - or you can
-use the attribute group buttons to set the mask.
-<Keys.SoftKey>Set Mask to Clear Nothing</Keys.SoftKey> disables all attributes from being cleared to give you a clean
+use the attribute group buttons to set the mask. <Keys.SoftKey>Set Mask to Clear Nothing</Keys.SoftKey> disables all attributes from being cleared to give you a clean
 slate to start with and <Keys.SoftKey>Set Mask to Clear All</Keys.SoftKey> enables all attributes to be cleared.
 
 You can also clear all the mask attributes by pressing the <Keys.HardKey>Options</Keys.HardKey>/<Keys.HardKey>Attribute

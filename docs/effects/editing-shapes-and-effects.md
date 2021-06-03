@@ -65,8 +65,7 @@ Once the cue is loaded into the programmer using <Keys.HardKey>Include</Keys.Har
 one shape is running in the programmer, you can select which one is
 connected to the control wheels using Shape option <Keys.SoftKey>Edit</Keys.SoftKey>.
 
-1. If you are not in the Shape menu, press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then
-<Keys.SoftKey>Shape Generator</Keys.SoftKey> at the top menu.
+1. If you are not in the Shape menu, press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then <Keys.SoftKey>Shape Generator</Keys.SoftKey> at the top menu.
 
 2. Press <Keys.SoftKey>Edit</Keys.SoftKey>.
 
@@ -110,10 +109,8 @@ will contain a link to the group and any changes later made to the group
 such as changing the fixture order or layout will affect the shape.
 
 If you need to add fixtures to the group without breaking the group
-link, select the fixtures then press <Keys.HardKey>Record</Keys.HardKey>, <strong>Group handle</strong> button,
-<Keys.SoftKey>Merge</Keys.SoftKey>. To change the fixtures to a new selection, select them then
-press <Keys.HardKey>Record</Keys.HardKey>, <strong>Group handle</strong> button, <Keys.SoftKey>Replace</Keys.SoftKey>. You can also use
-<Keys.HardKey>Group</Keys.HardKey>, <Keys.SoftKey>Edit Groups</Keys.SoftKey>.
+link, select the fixtures then press <Keys.HardKey>Record</Keys.HardKey>, <strong>Group handle</strong> button, <Keys.SoftKey>Merge</Keys.SoftKey>. To change the fixtures to a new selection, select them then
+press <Keys.HardKey>Record</Keys.HardKey>, <strong>Group handle</strong> button, <Keys.SoftKey>Replace</Keys.SoftKey>. You can also use <Keys.HardKey>Group</Keys.HardKey>, <Keys.SoftKey>Edit Groups</Keys.SoftKey>.
 
 If you want to change the fixture order for a particular shape without
 changing the order in the group, which might affect other shapes, then
@@ -126,8 +123,7 @@ layout.
 Removing or Adding Fixtures
 ---------------------------
 
-You can add or remove individual fixtures from a shape using the
-<Keys.SoftKey>Add/Remove Fixtures</Keys.SoftKey> option in the <Keys.SoftKey>Edit</Keys.SoftKey> menu, or use the context
+You can add or remove individual fixtures from a shape using the <Keys.SoftKey>Add/Remove Fixtures</Keys.SoftKey> option in the <Keys.SoftKey>Edit</Keys.SoftKey> menu, or use the context
 menu button in the Shapes Fixture view window. All fixtures currently
 included in the shape will be selected. You can select or deselect
 fixtures to add or remove them from the shape.

@@ -104,8 +104,7 @@ menu.
 3. The cues in the cue list are shown on the screen. Touch the list or
 use Wheel A to select which cue is to be renamed.
 
-5. Press <Keys.SoftKey>Cue Legend</Keys.SoftKey> and type the legend on the keyboard, then press
-<Keys.HardKey>Enter</Keys.HardKey>.
+5. Press <Keys.SoftKey>Cue Legend</Keys.SoftKey> and type the legend on the keyboard, then press <Keys.HardKey>Enter</Keys.HardKey>.
 
 6. If you latched the menu, you can continue to set legends for other
 cues, or press <Keys.HardKey>Exit</Keys.HardKey> to finish.

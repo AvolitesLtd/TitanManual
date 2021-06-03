@@ -31,8 +31,7 @@ the buttons using [Key Profiles](../system-settings/key-profiles.md).
 
 <Video videoId="E8QxOKT5TCA" title="Recording Groups" />
 
-If the Groups window is not visible, you can show it by pressing
-<Keys.HardKey>Open/View</Keys.HardKey>, <Keys.HardKey>Group</Keys.HardKey> (above numeric keys).
+If the Groups window is not visible, you can show it by pressing <Keys.HardKey>Open/View</Keys.HardKey>, <Keys.HardKey>Group</Keys.HardKey> (above numeric keys).
 
 1. Select the fixtures/dimmers you want in the group (the order in
 which you select them will also be stored in the group).
@@ -199,9 +198,11 @@ and columns (Width).
     with small spacing.
 
 
-![Position](/docs/images/Position-2.png)
+ ![Position](/docs/images/Position-2.png)
 
-![Scale](/docs/images/Scale.png)
+
+ ![Scale](/docs/images/Scale.png)
+
 
 -   The Layout Editor is described in more detail with examples in the
     [Pixel Mapper section](../effects/pixel-mapper.md). There are also some features

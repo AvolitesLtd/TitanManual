@@ -219,8 +219,7 @@ will run.
 ### Beats
 
 The Beats option defaults to <Keys.SoftKey>Beats=1</Keys.SoftKey> which makes the shape run at
-normal speed. Higher numbers will divide the count, for example
-<Keys.SoftKey>Beats=4</Keys.SoftKey> will make the shape run at quarter of the speed. This is
+normal speed. Higher numbers will divide the count, for example <Keys.SoftKey>Beats=4</Keys.SoftKey> will make the shape run at quarter of the speed. This is
 really useful to synchronise different types of shapes which are running
 together.
 
@@ -229,8 +228,7 @@ for <strong>Wheel A</strong> allows you to type in a number for the Beats parame
 also shows two further options for Beats: <Keys.SoftKey>Match to Spread</Keys.SoftKey> sets the
 beat count to be the same as the current Spread setting for the shape.
 This is useful when using dimmer shapes with movement shapes as it will
-make each fixture turn on for a full cycle of the movement shape. The
-<Keys.SoftKey>Custom</Keys.SoftKey> option resets the <Keys.SoftKey>Value</Keys.SoftKey> option to the last entered value.
+make each fixture turn on for a full cycle of the movement shape. The <Keys.SoftKey>Custom</Keys.SoftKey> option resets the <Keys.SoftKey>Value</Keys.SoftKey> option to the last entered value.
 
 ### Cycles
 

@@ -42,8 +42,7 @@ the screen, or if you select any fixture values, the appropriate fixture
 will automatically be selected.
 
 You can <strong>clear</strong> attributes in the channel grid by selecting them
-(touch or touch and drag to select multiple attributes). Then press
-<Keys.HardKey>Clear</Keys.HardKey>.
+(touch or touch and drag to select multiple attributes). Then press <Keys.HardKey>Clear</Keys.HardKey>.
 
 You can <strong>edit values</strong> by selecting one or more values in the grid,
 then modify the values using the wheels, or type a new value on the
@@ -57,8 +56,7 @@ The Intensity View Window
 -------------------------
 
 If you want to see at a glance the intensity setting of each fixture,
-the Intensity View window is the place to be. To show the window, double press
-<Keys.HardKey>Open/View</Keys.HardKey> then select <Keys.SoftKey>Intensity View</Keys.SoftKey> from the window select buttons.
+the Intensity View window is the place to be. To show the window, double press <Keys.HardKey>Open/View</Keys.HardKey> then select <Keys.SoftKey>Intensity View</Keys.SoftKey> from the window select buttons.
 
 ![Intensity View](/docs/images/Intensity-View.png)
 

@@ -179,8 +179,7 @@ The console will automatically save your show to its internal hard disk
 when you shut it down. It will also autosave the show every 30 minutes
 in case the console loses power.
 
-You can disable Autosave or alter the time between saves using option
-<Keys.SoftKey>Auto Save</Keys.SoftKey> on the Disk menu (press the <Keys.HardKey>Disk</Keys.HardKey> button). You can
+You can disable Autosave or alter the time between saves using option <Keys.SoftKey>Auto Save</Keys.SoftKey> on the Disk menu (press the <Keys.HardKey>Disk</Keys.HardKey> button). You can
 reload Autosave files using the Show Browser.
 
 >This option is included because Autosave used to make the console pause, however this is no longer the case and we recommend that you do not disable Autosave. If you lose power while programming Autosave will make your day a whole lot better.

@@ -154,8 +154,7 @@ Locking the console
 -------------------
 
 You can place a simple lock on the console controls to prevent people
-fiddling with it while you're not looking. Hold down <Keys.HardKey>Avo</Keys.HardKey> and press
-<Keys.SoftKey>Lock</Keys.SoftKey>, then type a password (numbers or letters). To unlock, enter
+fiddling with it while you're not looking. Hold down <Keys.HardKey>Avo</Keys.HardKey> and press <Keys.SoftKey>Lock</Keys.SoftKey>, then type a password (numbers or letters). To unlock, enter
 the password again, or restarting the console will also unlock it. After
 a few seconds, the "Enter password" prompt will fade out but will appear
 again if you press buttons or touch the screen. This is not a

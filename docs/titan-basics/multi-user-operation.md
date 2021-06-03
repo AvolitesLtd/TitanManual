@@ -39,8 +39,7 @@ select a new user from the list (the current user is highlighted).
 4. To create a new user, press <Keys.SoftKey>Add a User</Keys.SoftKey>, enter a name for the new
 user and press <Keys.SoftKey>OK</Keys.SoftKey>.
 
-5. You can also quickly change user from the root menu by holding
-<Keys.HardKey>Avo</Keys.HardKey> and pressing <Keys.SoftKey>User ... </Keys.SoftKey>
+5. You can also quickly change user from the root menu by holding <Keys.HardKey>Avo</Keys.HardKey> and pressing <Keys.SoftKey>User ... </Keys.SoftKey>
 
 -   If multiple consoles are connected in a collaborative session, any
     user added to one of the consoles will be available on any of the
@@ -158,8 +157,7 @@ option to <Keys.SoftKey>Terminate Session</Keys.SoftKey>.
 
 If a console is running as
 [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup),
-it has options to <Keys.SoftKey>Takeover</Keys.SoftKey>,
-<Keys.SoftKey>Sync now</Keys.SoftKey> and <Keys.SoftKey>Leave Session</Keys.SoftKey>. If <Keys.SoftKey>Takeover</Keys.SoftKey> is selected, the
+it has options to <Keys.SoftKey>Takeover</Keys.SoftKey>, <Keys.SoftKey>Sync now</Keys.SoftKey> and <Keys.SoftKey>Leave Session</Keys.SoftKey>. If <Keys.SoftKey>Takeover</Keys.SoftKey> is selected, the
 console will immediately become the master and take over DMX output
 with the chosen user and handle worlds selected. The console which
 was master will go into a dormant state with DMX disabled.

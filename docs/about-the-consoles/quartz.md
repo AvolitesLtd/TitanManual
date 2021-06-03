@@ -28,12 +28,12 @@ currently doing.
 <Keys.Annotation>C</Keys.Annotation> The <strong>Menu Softkeys</strong> (labelled A - G) are used to select control
 options. The display next to the buttons shows what each one will do.
 The options for each key change depending on what the console is doing.
-Softkey commands are shown in the manual like this:
-<Keys.SoftKey>Edit Times</Keys.SoftKey>
+Softkey commands are shown in the manual like this: <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 <br/>
 
 <Keys.Annotation>D</Keys.Annotation> The <strong>Playback faders</strong> are used to store and play back cues or chases.
+
 <br/>
 
 <Keys.Annotation>E</Keys.Annotation> The <strong>Page Select buttons</strong> let you change to a different page of

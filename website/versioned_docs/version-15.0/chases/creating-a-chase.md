@@ -22,8 +22,7 @@ to create a state from [palettes](../palettes.md) and
 [<Keys.HardKey>Include</Keys.HardKey>](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)
 to load in cues.
 
-1. Press <Keys.HardKey>Record</Keys.HardKey> then select <Keys.SoftKey>Chase</Keys.SoftKey>. *(Some consoles also have a
-<Keys.HardKey>Record Chase</Keys.HardKey> button)*.
+1. Press <Keys.HardKey>Record</Keys.HardKey> then select <Keys.SoftKey>Chase</Keys.SoftKey>. *(Some consoles also have a <Keys.HardKey>Record Chase</Keys.HardKey> button)*.
 
 2. Press the <strong>Select</strong> button of the playback where you want to store the
 chase *(you can also store chases on touch buttons in the Playbacks
@@ -87,8 +86,7 @@ Creating a Chase with Quick Build
 Quick Build mode, as the name suggests, allows you to build a chase very
 quickly from existing palettes and playbacks.
 
-Start recording a chase as described in the previous section, set
-<Keys.SoftKey>Record Mode</Keys.SoftKey> to Quick Build.
+Start recording a chase as described in the previous section, set <Keys.SoftKey>Record Mode</Keys.SoftKey> to Quick Build.
 
 Select any [palette](../palettes.md) or playback to insert that item as a step in the
 chase. If you select multiple palettes by selecting a range of buttons,

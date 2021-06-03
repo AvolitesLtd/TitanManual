@@ -188,8 +188,7 @@ effects.
 
 6. Merge this into the first group
 
-7. Open the Layout Editor <Keys.SoftKey>Shapes And Effects</Keys.SoftKey>, 
-<Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Edit Group Layout</Keys.SoftKey>, (<strong>select group</strong>)
+7. Open the Layout Editor <Keys.SoftKey>Shapes And Effects</Keys.SoftKey>,  <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Edit Group Layout</Keys.SoftKey>, (<strong>select group</strong>)
 
 By doing the above you should be able to see how we have quickly created
 a layout where the all the odd fixtures are arranged together on the

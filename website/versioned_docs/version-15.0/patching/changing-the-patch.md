@@ -91,8 +91,7 @@ selection box over multiple cells to select more than one.
 
 ![Change DMX Address](/docs/images/Change-DMX-Address.png)
 
-Type the new address for the first fixture in the selection and press
-<Keys.HardKey>Enter</Keys.HardKey> (using the format Universe . Address - if you miss out the
+Type the new address for the first fixture in the selection and press <Keys.HardKey>Enter</Keys.HardKey> (using the format Universe . Address - if you miss out the
 universe part it will stay unchanged).
 
 All fixtures will be renumbered keeping the addressing offset between
@@ -224,8 +223,7 @@ DMX View Window
 ---------------
 
 When you're having problems getting fixtures to work it can be useful to
-see the actual DMX output values coming from the console. Double press
-<Keys.HardKey>Open/View</Keys.HardKey>, then select <Keys.SoftKey>DMX</Keys.SoftKey> from the window select buttons.
+see the actual DMX output values coming from the console. Double press <Keys.HardKey>Open/View</Keys.HardKey>, then select <Keys.SoftKey>DMX</Keys.SoftKey> from the window select buttons.
 
 ![DMX Workspace Window](/docs/images/DMX-Workspace-Window-With-Filters.png)
 
@@ -310,8 +308,7 @@ which you have changed to.
 
 4. The view shows the old fixture on the left and the new fixture on
 the right with attributes listed for both fixture types. You can sort
-the list either alphabetically or in DMX channel order using the
-<Keys.SoftKey>Sort</Keys.SoftKey> context menu option.
+the list either alphabetically or in DMX channel order using the <Keys.SoftKey>Sort</Keys.SoftKey> context menu option.
 
 5. Select an attribute to show the mapping. The mapped attribute on
 both fixtures will highlight in light blue. Brown controls are not
@@ -360,8 +357,7 @@ values for the range either by wheel, by touching the wheel view on
 touch consoles or by selecting the relevant softkey and entering the
 value.
 
-Once complete, click Apply then <Keys.SoftKey>Confirm</Keys.SoftKey> to commit the changes or
-<Keys.SoftKey>Cancel</Keys.SoftKey> then <Keys.SoftKey>Confirm</Keys.SoftKey> to forget.
+Once complete, click Apply then <Keys.SoftKey>Confirm</Keys.SoftKey> to commit the changes or <Keys.SoftKey>Cancel</Keys.SoftKey> then <Keys.SoftKey>Confirm</Keys.SoftKey> to forget.
 
 Updating Patched Personalities
 ------------------------------

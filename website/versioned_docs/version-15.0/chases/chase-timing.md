@@ -58,8 +58,7 @@ lot of different timings or link/unlinks. See [Cue Lists](../cue-lists.md).
 
 ### Using the Playback View Window
 
-1. Touch the playback display relating to the fader, or press
-<Keys.HardKey>Open/View</Keys.HardKey> then the <strong>select</strong> button of the playback. The Playback View
+1. Touch the playback display relating to the fader, or press <Keys.HardKey>Open/View</Keys.HardKey> then the <strong>select</strong> button of the playback. The Playback View
 window will open.
 
 ![Playback View for chase](/docs/images/Playback-View-for-chase.png)

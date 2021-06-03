@@ -57,8 +57,7 @@ will be applied.
 Palette Pages
 -------------
 
-If you have stored palettes on physical buttons on the console, the
-<Keys.HardKey>Page+</Keys.HardKey>/<Keys.HardKey>Page-</Keys.HardKey> buttons will change to a different page of palettes.
+If you have stored palettes on physical buttons on the console, the <Keys.HardKey>Page+</Keys.HardKey>/<Keys.HardKey>Page-</Keys.HardKey> buttons will change to a different page of palettes.
 
 If you want a palette to be locked on its handle and not change when the
 page is changed, you can set a lock or transparent lock on the palette

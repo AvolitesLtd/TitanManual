@@ -499,8 +499,7 @@ remain in the programmer.
 
 ### Fan Curves
 
-You can select different curves to use when in Fan mode. Hold down
-<Keys.HardKey>Fan</Keys.HardKey> and select <Keys.SoftKey>Curve</Keys.SoftKey>, the options are:
+You can select different curves to use when in Fan mode. Hold down <Keys.HardKey>Fan</Keys.HardKey> and select <Keys.SoftKey>Curve</Keys.SoftKey>, the options are:
 
 -   Line: Traditional fan, the first and last selected fixture are
     affected equally in opposite directions, the midpoint remains

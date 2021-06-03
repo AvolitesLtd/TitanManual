@@ -19,8 +19,7 @@ external displays your computer will support, Titan can use up to three of them.
 
 An external display is disabled by default and will show a \'disabled\'
 message. To enable, go to the <strong>System</strong> menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>Display Setup</Keys.SoftKey>
-then press <Keys.SoftKey>External Display Disconnected</Keys.SoftKey>. The option will change to
-<Keys.SoftKey>External Display Connected</Keys.SoftKey> and the display will be enabled.
+then press <Keys.SoftKey>External Display Disconnected</Keys.SoftKey>. The option will change to <Keys.SoftKey>External Display Connected</Keys.SoftKey> and the display will be enabled.
 
 > For best performance of the console, disable display outputs you aren't
 using.

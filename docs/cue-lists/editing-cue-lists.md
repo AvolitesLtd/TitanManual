@@ -180,16 +180,14 @@ using [Unfold](#editing-a-cue-list-using-unfold).
 
 1. <strong>Fire the cue list</strong> by raising its fader.
 
-2. Use <strong>Wheel A</strong> to select the cue number you want to change then the
-<Keys.HardKey>Go</Keys.HardKey> button to jump to it. *(On Pearl Expert/Tiger Touch 1 press the white ↔
+2. Use <strong>Wheel A</strong> to select the cue number you want to change then the <Keys.HardKey>Go</Keys.HardKey> button to jump to it. *(On Pearl Expert/Tiger Touch 1 press the white ↔
 button above the Snap Back button instead of <Keys.HardKey>Go</Keys.HardKey>)*
 
 3. Press <Keys.HardKey>Clear</Keys.HardKey> to make sure the programmer is empty.
 
 4. Make the changes that you want to the current step.
 
-5. Press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Connect/Cue</Keys.HardKey>, then select <Keys.SoftKey>Replace</Keys.SoftKey>,
-<Keys.SoftKey>Merge</Keys.SoftKey> or <Keys.SoftKey>Insert After</Keys.SoftKey> to save the changes. *(On Pearl Expert and
+5. Press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Connect/Cue</Keys.HardKey>, then select <Keys.SoftKey>Replace</Keys.SoftKey>, <Keys.SoftKey>Merge</Keys.SoftKey> or <Keys.SoftKey>Insert After</Keys.SoftKey> to save the changes. *(On Pearl Expert and
 Tiger Touch 1 use the Rec Step button)*
 
 6. Press the <Keys.HardKey>Go</Keys.HardKey> button *(on Pearl Expert and Tiger Touch 1 the white ↔
@@ -208,12 +206,10 @@ Time</Keys.HardKey> buttons <em>(not on all consoles)</em> as follows:
 
 1. <strong>Fire the cue list</strong> by raising its fader.
 
-2. Use <strong>Wheel A</strong> to select the cue number you want to change then the
-<Keys.HardKey>Go</Keys.HardKey> button to jump to it (on Pearl Expert and Tiger Touch 1 the white ↔
+2. Use <strong>Wheel A</strong> to select the cue number you want to change then the <Keys.HardKey>Go</Keys.HardKey> button to jump to it (on Pearl Expert and Tiger Touch 1 the white ↔
 button)
 
-3. Press <Keys.HardKey>Live Time</Keys.HardKey> to set the times for the current step, or
-<Keys.HardKey>Next Time</Keys.HardKey> for the next step. The Live and Next step numbers are
+3. Press <Keys.HardKey>Live Time</Keys.HardKey> to set the times for the current step, or <Keys.HardKey>Next Time</Keys.HardKey> for the next step. The Live and Next step numbers are
 shown on the display above the controller wheel.
 
 4. Use the softkeys to set the times, linking and overlap settings
@@ -256,9 +252,7 @@ Update Mode | Action
 &nbsp;<strong>Cue Only</strong> ![Cue List Update Mode Cue Only](/docs/images/Cue-List-Update-Mode-Cue-Only.png) |  Just sets the current cue.
 
 
-> You can't change the cue number using this menu - if you press
-<Keys.SoftKey>Cue Number</Keys.SoftKey> this will change the cue you are editing. Use
-<Keys.SoftKey>Advanced Options</Keys.SoftKey> to change cue numbers.
+> You can't change the cue number using this menu - if you press <Keys.SoftKey>Cue Number</Keys.SoftKey> this will change the cue you are editing. Use <Keys.SoftKey>Advanced Options</Keys.SoftKey> to change cue numbers.
 
 Updating Values in a Range of Cues
 ----------------------------------
@@ -268,8 +262,7 @@ chase). This can be done either from the keypad or from the [Playback
 View](#playback-view-window).
 
 From [Playback View](#playback-view-window), press <Keys.HardKey>Record</Keys.HardKey> then select a cue or range of cues
-by touching and dragging over the required cues. Select <Keys.SoftKey>Merge</Keys.SoftKey> or
-<Keys.SoftKey>Replace</Keys.SoftKey> (or press <Keys.HardKey>Enter</Keys.HardKey> to merge). The current programmer will
+by touching and dragging over the required cues. Select <Keys.SoftKey>Merge</Keys.SoftKey> or <Keys.SoftKey>Replace</Keys.SoftKey> (or press <Keys.HardKey>Enter</Keys.HardKey> to merge). The current programmer will
 be merged into all of the selected cues.
 
 From the keypad, connect the cue list (or chase) and press <Keys.HardKey>Rec Step</Keys.HardKey>.
@@ -289,8 +282,7 @@ Extracting a Cue from a Cue List with Include
 
 You can reload a single cue out of a cue list into the programmer using <strong>[Include](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)</strong>. Press <Keys.HardKey>Include</Keys.HardKey>, select the cue list, enter the cue number to be included, then press <Keys.SoftKey>Include Cue</Keys.SoftKey>.
 
-If you want to do this from the currently connected cue list, Press
-<Keys.HardKey>Include</Keys.HardKey>, <Keys.HardKey>Connect/Cue</Keys.HardKey>, type the cue number, <Keys.SoftKey>Include Cue</Keys.SoftKey>.
+If you want to do this from the currently connected cue list, Press <Keys.HardKey>Include</Keys.HardKey>, <Keys.HardKey>Connect/Cue</Keys.HardKey>, type the cue number, <Keys.SoftKey>Include Cue</Keys.SoftKey>.
 
 This is useful if you want to reuse a state from a cue list in another
 playback. It is also useful if you want to edit shapes/effects in a cue,

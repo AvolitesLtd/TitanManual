@@ -95,9 +95,7 @@ Set Master Time to zero to disable.
 The <Keys.SoftKey>Master Overlap</Keys.SoftKey> option similarly sets the default Overlap for
 palette recall. Set Master Overlap to 100% to disable it.
 
-> You can create macro buttons to set different palette fade times. Press
-<Keys.HardKey>Macro</Keys.HardKey>, <Keys.SoftKey>Record</Keys.SoftKey>, press a button to store your macro on. Then press
-<Keys.HardKey>Palette</Keys.HardKey>, <Keys.SoftKey>Master Time</Keys.SoftKey>, <Keys.HardKey>3</Keys.HardKey> (for 3 sec), <Keys.HardKey>Exit</Keys.HardKey>, <Keys.HardKey>Macro</Keys.HardKey>.
+> You can create macro buttons to set different palette fade times. Press <Keys.HardKey>Macro</Keys.HardKey>, <Keys.SoftKey>Record</Keys.SoftKey>, press a button to store your macro on. Then press <Keys.HardKey>Palette</Keys.HardKey>, <Keys.SoftKey>Master Time</Keys.SoftKey>, <Keys.HardKey>3</Keys.HardKey> (for 3 sec), <Keys.HardKey>Exit</Keys.HardKey>, <Keys.HardKey>Macro</Keys.HardKey>.
 Repeat these steps to create a Palette Snap button (0 sec), or a 1 sec
 fade button, and so on.
 

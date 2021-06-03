@@ -282,8 +282,7 @@ If times are programmed for cues or palettes they will also run. Once the fader 
 
 Normally the Scene Master will auto-reverse so you can just keep
 presetting new states, moving the fader alternately up and down. You can
-also set it to require you to move it back to zero each time - press
-<Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> softkey) then the <strong>Select</strong> button of the master to change the options:
+also set it to require you to move it back to zero each time - press <Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> softkey) then the <strong>Select</strong> button of the master to change the options:
 
 -   <Keys.SoftKey>Auto Commit and Invert</Keys.SoftKey> Commits the changes once the fader has
     reached the end of travel. You can then preset a new state and fade
@@ -389,8 +388,7 @@ Locking a playback onto the same handle on every page
 -----------------------------------------------------
 
 Sometimes you might want to keep a playback accessible on a handle no
-matter which page you are on. The <Keys.SoftKey>Handle Paging</Keys.SoftKey> option in the
-<Keys.SoftKey>Options</Keys.SoftKey> menu lets you do that without having to copy the
+matter which page you are on. The <Keys.SoftKey>Handle Paging</Keys.SoftKey> option in the <Keys.SoftKey>Options</Keys.SoftKey> menu lets you do that without having to copy the
 playback onto multiple pages.
 
 - <Keys.SoftKey>Locked</Keys.SoftKey> ensures the playback always appears on that handle no matter
@@ -446,8 +444,7 @@ save to a playback. It also allows you to select multiple palettes then
 fade to them all at once. (Scene Master is probably an easier way of
 doing this however).
 
-To convert blind to live, type a number to set fade time then press the
-<Keys.HardKey>Blind</Keys.HardKey> button.
+To convert blind to live, type a number to set fade time then press the <Keys.HardKey>Blind</Keys.HardKey> button.
 
 If any attribute fade times have been set in the programmer, these will
 be used instead of the fade time you type.
@@ -475,8 +472,7 @@ or you can set a fade at show time for added effect.
 If the palette contains programmed times, you can change the Key Profile
 of the palette button to set whether the programmed times will be used
 or not. (Press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Key Profiles</Keys.SoftKey>, then <Keys.SoftKey>Palettes</Keys.SoftKey> to set
-the key profile). Options are <Keys.SoftKey>Palette is fired ignoring its times</Keys.SoftKey> or
-<Keys.SoftKey>Palette is fired with its times</Keys.SoftKey>. A time entered
+the key profile). Options are <Keys.SoftKey>Palette is fired ignoring its times</Keys.SoftKey> or <Keys.SoftKey>Palette is fired with its times</Keys.SoftKey>. A time entered
 manually as above will always override a programmed time.
 
 When a fade time is entered on the numeric keypad, you can also change

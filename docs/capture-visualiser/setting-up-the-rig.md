@@ -99,8 +99,7 @@ Camera controls are in the [Capture Visualiser Settings window](#setting-up-the-
 can open by double pressing <Keys.HardKey>Open/View</Keys.HardKey> to show the workspace window buttons, or using the <Keys.ContextKey>Open
 Settings</Keys.ContextKey> context button.
 
-The view buttons across the top select the four default views <em>(shown below)</em>. Press the
-<Keys.ContextKey>+</Keys.ContextKey> button at the right hand side to add a new view.
+The view buttons across the top select the four default views <em>(shown below)</em>. Press the <Keys.ContextKey>+</Keys.ContextKey> button at the right hand side to add a new view.
 
 The top button on the left toggles between single view or quad split
 mode. If quad split is selected, the other 4 buttons select which view

@@ -186,12 +186,10 @@ The following MIDI Show Control messages are supported:
   GO OFF    | Same as resume
 
 Playbacks/Cues are identified by their User Number. To set the user
-number, press <Keys.SoftKey>Set Legend</Keys.SoftKey> then the select button of the cue, then
-<Keys.SoftKey>User Number</Keys.SoftKey>.
+number, press <Keys.SoftKey>Set Legend</Keys.SoftKey> then the select button of the cue, then <Keys.SoftKey>User Number</Keys.SoftKey>.
 
 MIDI show control devices are identified by a device ID. To set Titan's
-device ID select <Keys.SoftKey>User Settings</Keys.SoftKey> from the <strong>System</strong> menu, then go to the
-<Keys.SoftKey>Timecode</Keys.SoftKey> tab. The default setting is 0.
+device ID select <Keys.SoftKey>User Settings</Keys.SoftKey> from the <strong>System</strong> menu, then go to the <Keys.SoftKey>Timecode</Keys.SoftKey> tab. The default setting is 0.
 
 Audio Control (Sound to Light)
 ------------------------------

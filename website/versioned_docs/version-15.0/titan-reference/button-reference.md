@@ -17,7 +17,7 @@ This section lists all the physical buttons and tells you what they do. The <str
 
 {Select} means to press a playback select button.
 
----
+
 
  ## <Keys.HardKey>@</Keys.HardKey> 
  (by numeric keypad) Allows numeric entry of attribute values on selected fixtures. Can also be used with <Keys.HardKey>Fixture</Keys.HardKey> or <Keys.HardKey>Group</Keys.HardKey> buttons to change selection state. For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](#wheel-).
@@ -420,7 +420,7 @@ Buttons | Action
 ## <Keys.HardKey>Patch</Keys.HardKey> 
  Opens the Patch menu. See [Patching new fixtures or dimmers](../patching/patching-new-fixtures-or-dimmers.md/).
 
- ---
+ 
 
  ## <Keys.HardKey>Pattern/All</Keys.HardKey> 
  (D9 only) Used to start and end pattern selection (such as odd/even) within a range of selected fixtures. Same as <Keys.HardKey>All</Keys.HardKey> on other consoles, see [All](#All).

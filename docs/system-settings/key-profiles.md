@@ -162,8 +162,7 @@ unless they have an individual Key Profile set as described below.
 
 Each playback can have an individual Key Profile allocated to it. This
 allows you to customise the panel button functions differently for each
-playback. The Key Profile for the playback is selected using the
-<Keys.SoftKey>Handles</Keys.SoftKey> option on playback Options. If the playback Key Profile is
+playback. The Key Profile for the playback is selected using the <Keys.SoftKey>Handles</Keys.SoftKey> option on playback Options. If the playback Key Profile is
 set to <Keys.SoftKey>Global</Keys.SoftKey>, the default global profile for Cue / Chase / Cue List
 is used.
 

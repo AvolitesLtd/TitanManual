@@ -92,8 +92,7 @@ To help Avolites with software development and bug fixing, the console
 will report anonymous information to Avolites. This includes details
 about faults that occur, statistics on how long certain functions take,
 and usage of functions. This information is really useful for improving
-the software, however if you would prefer to disable it, click the
-<Keys.SoftKey>Telemetry Enabled</Keys.SoftKey> button to switch it to <Keys.SoftKey>Telemetry Disabled</Keys.SoftKey>.
+the software, however if you would prefer to disable it, click the <Keys.SoftKey>Telemetry Enabled</Keys.SoftKey> button to switch it to <Keys.SoftKey>Telemetry Disabled</Keys.SoftKey>.
 Telemetry information will only be sent in any case if the console is
 connected to the internet.
 

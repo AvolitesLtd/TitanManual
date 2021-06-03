@@ -89,8 +89,7 @@ includes P, Colours only C and Beams includes IGBES.
 
 ---
 
-If you want to record to a physical button, press <Keys.HardKey>Record</Keys.HardKey> then
-<Keys.HardKey>Palette</Keys.HardKey>. All buttons where you can store the palette will then
+If you want to record to a physical button, press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Palette</Keys.HardKey>. All buttons where you can store the palette will then
 flash, press one to store.
 
 ![Recording a Palette menu](/docs/images/Recording-a-Palette-menu.png)
@@ -322,8 +321,7 @@ automatically apply to all cues which use the palette.
 
 2. Press <Keys.HardKey>Time</Keys.HardKey>
 
-*May be labelled <Keys.HardKey>Set</Keys.HardKey> on Mobile/Sapphire/Quartz, and
-<Keys.HardKey>Next Time</Keys.HardKey> on Expert/Tiger*.
+*May be labelled <Keys.HardKey>Set</Keys.HardKey> on Mobile/Sapphire/Quartz, and <Keys.HardKey>Next Time</Keys.HardKey> on Expert/Tiger*.
 
 3. Change Fade time to 2 sec. This sets the global fade time into the
 programmer.

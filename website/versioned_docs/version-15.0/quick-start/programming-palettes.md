@@ -24,8 +24,7 @@ See [Creating Palettes](../palettes/creating-palettes.md)
 To recall palette, select fixtures, select recall mask using Attribute
 Bank buttons, press palette button.
 
-To set a legend, press <Keys.SoftKey>Set Legend</Keys.SoftKey> then the palette's button. Press
-<Keys.SoftKey>Picture</Keys.SoftKey> to draw a picture legend.
+To set a legend, press <Keys.SoftKey>Set Legend</Keys.SoftKey> then the palette's button. Press <Keys.SoftKey>Picture</Keys.SoftKey> to draw a picture legend.
 
 ## Quick Record
 

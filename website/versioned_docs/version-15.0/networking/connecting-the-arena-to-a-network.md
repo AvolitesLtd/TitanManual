@@ -5,8 +5,7 @@ sidebar_label: Connecting the Diamond 9 or Arena to a network
 ---
 
 The Diamond 9 and Arena consoles are different to the other Titan consoles because they
-have a built-in network switch and an optical network connection. 
-<em></em>This section applies only to the Diamond 9 and 
+have a built-in network switch and an optical network connection.  <em></em>This section applies only to the Diamond 9 and 
 Arena consoles.<em></em>
 
 Optical Connections

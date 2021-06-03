@@ -17,15 +17,12 @@ onto touch buttons in the Fixtures window, to a fader handle or to a
 Macro/Executor button. If the handle you patch to has a fader, the fader
 will control intensity.
 
-If the Fixtures window is not shown, press <Keys.HardKey>Open/View</Keys.HardKey> then
-<Keys.HardKey>Fixture</Keys.HardKey> or double press <Keys.HardKey>Open/View</Keys.HardKey> then press
-<Keys.SoftKey>Fixtures</Keys.SoftKey> from the window select buttons.
+If the Fixtures window is not shown, press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Fixture</Keys.HardKey> or double press <Keys.HardKey>Open/View</Keys.HardKey> then press <Keys.SoftKey>Fixtures</Keys.SoftKey> from the window select buttons.
 
 ![Fixtures Window](/docs/images/Fixtures-Window.png)
 
 Fixture buttons can be shown either in pages with Page buttons, or you
-can use the scroll bar on the right to show different pages. Use the
-<Keys.SoftKey>Pages Show/Hide</Keys.SoftKey> button in the context buttons on the right of the screen to select between
+can use the scroll bar on the right to show different pages. Use the <Keys.SoftKey>Pages Show/Hide</Keys.SoftKey> button in the context buttons on the right of the screen to select between
 page buttons and scrolling mode (these buttons drop down using the menu button in the window
 top bar for Sapphire Touch and Titan Go).
  You can change the fixture page at any
@@ -127,8 +124,7 @@ You can use Quick Search here as well.
 
 6. <Keys.SoftKey>Address =</Keys.SoftKey> shows the first free DMX address. Type the new address
 on the numeric keypad if you want a different one. <Keys.SoftKey>DMX line=xx</Keys.SoftKey> lets
-you patch to a different DMX line, or you can enter the address as
-<Keys.SoftKey>line</Keys.SoftKey>.<Keys.SoftKey>address</Keys.SoftKey>, e.g. 2.45 would set address 45 on line 2.
+you patch to a different DMX line, or you can enter the address as <Keys.SoftKey>line</Keys.SoftKey>.<Keys.SoftKey>address</Keys.SoftKey>, e.g. 2.45 would set address 45 on line 2.
 
 ![Address Input](/docs/images/Address-Input.png)
 
@@ -199,8 +195,7 @@ Select buttons.
 Capture Visualiser Auto Patch
 -----------------------------
 
-If you want to use Capture Visualiser, start it by double pressing
-<Keys.HardKey>Open/View</Keys.HardKey> then press <Keys.SoftKey>Capture Visualiser</Keys.SoftKey> from the window select buttons. Some
+If you want to use Capture Visualiser, start it by double pressing <Keys.HardKey>Open/View</Keys.HardKey> then press <Keys.SoftKey>Capture Visualiser</Keys.SoftKey> from the window select buttons. Some
 consoles also have a dedicated <Keys.HardKey>Visualiser</Keys.HardKey> button. Capture will open
 in a workspace window with an automatic representation of your patch.
 

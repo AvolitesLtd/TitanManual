@@ -4,6 +4,8 @@ title: Synergy and Linking to AI
 sidebar_label: Synergy and Linking to AI
 ---
 
+import Video from '@site/src/components/video.tsx';
+
 <Video videoId="twfDqjNFasA" title="Synergy" />
 
 From v12, Titan includes Avolites Synergy software which allows you full

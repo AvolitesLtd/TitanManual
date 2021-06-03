@@ -111,9 +111,7 @@ to go to the second page of options.
 1. Press <Keys.SoftKey>Attribute times</Keys.SoftKey>.
 
 2. All fixtures in the cue will be selected. *If you don't want to
-change the times for any fixtures, deselect them now.* You can press the
-<Keys.HardKey>ALL</Keys.HardKey> button (below Next Time) to select all fixtures in the cue or
-<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>ALL</Keys.HardKey> to deselect all fixtures.
+change the times for any fixtures, deselect them now.* You can press the <Keys.HardKey>ALL</Keys.HardKey> button (below Next Time) to select all fixtures in the cue or <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>ALL</Keys.HardKey> to deselect all fixtures.
 
 3. Press the softkey for the attribute group you want to change.
 
@@ -161,8 +159,7 @@ timecode source.
 
 4. Press <Keys.SoftKey>Record</Keys.SoftKey>.
 
-5. Start the timecode source. *If using internal timecode, press
-<Keys.SoftKey>Play</Keys.SoftKey> to start it.*
+5. Start the timecode source. *If using internal timecode, press <Keys.SoftKey>Play</Keys.SoftKey> to start it.*
 
 6. Press the red <Keys.HardKey>Go</Keys.HardKey> button to step each cue at the time you wish the
 cue to start.
@@ -170,8 +167,7 @@ cue to start.
 7. Press <Keys.SoftKey>Record</Keys.SoftKey> when you have finished.
 
 To play back a timecoded cue list, press <Keys.SoftKey>Connected Cue Lists</Keys.SoftKey> on the
-Timecode menu and select the cue list which is to be played. Then press
-<Keys.SoftKey>Timer Disabled/Enabled</Keys.SoftKey> to enable the timecode input.
+Timecode menu and select the cue list which is to be played. Then press <Keys.SoftKey>Timer Disabled/Enabled</Keys.SoftKey> to enable the timecode input.
 
 When you start the timecode source (or press <Keys.SoftKey>Play</Keys.SoftKey> if using internal
 timecode), each cue will fire as the timecode matches its programmed
@@ -179,8 +175,7 @@ time.
 
 In order to edit a cue's timecode, select the cue's timecode cell in Playback View
 and enter the correct time, or - using the menu buttons - press <Keys.SoftKey>Edit Times</Keys.SoftKey>,
-enter the cue number, toggle to the 3^rd^ page of this menu with <Keys.SoftKey>Next</Keys.SoftKey>, click
-<Keys.SoftKey>Timecode = </Keys.SoftKey> and enter the new timestamp.
+enter the cue number, toggle to the 3^rd^ page of this menu with <Keys.SoftKey>Next</Keys.SoftKey>, click <Keys.SoftKey>Timecode = </Keys.SoftKey> and enter the new timestamp.
 
 
 ![Playback View Window showing timecoded cues](/docs/images/Playback-View-Window-showing-timecoded-cues.png)

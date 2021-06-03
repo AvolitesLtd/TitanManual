@@ -9,8 +9,7 @@ import Video from '@site/src/components/video.tsx';
 
 To set options for a chase, press <Keys.HardKey>Options</Keys.HardKey> or <Keys.SoftKey>Options</Keys.SoftKey> on the root menu,
 then press the <strong>Select</strong> button of the playback to be edited. Options will
-be shown on the softkeys. You can also set options from the Chase View window, press
-<Keys.HardKey>Open/View</Keys.HardKey> then the <strong>Select</strong> button of the playback, then click the
+be shown on the softkeys. You can also set options from the Chase View window, press <Keys.HardKey>Open/View</Keys.HardKey> then the <strong>Select</strong> button of the playback, then click the
 Options tab.
 
 ![Playback Options (playback tab) for a chase](/docs/images/Playback-Options-Chase-Playback-Tab.png)

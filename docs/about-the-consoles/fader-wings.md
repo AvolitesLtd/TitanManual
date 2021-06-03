@@ -37,11 +37,7 @@ cable to the console or the PC running the Titan software.
 It is designed to fit next to the Titan Mobile panel, but it can also be
 used with the Tiger Touch, Quartz, Arena, Sapphire Touch and T2.
 
-If you want to see the legends and function information for the wing
-controls, there is a <strong>Mobile Wing</strong> workspace window - double click
-<Keys.HardKey>View/Open</Keys.HardKey> and select "Mobile Wing". Using the Context Menu buttons 
-you can select different views for this workspace which combine the playbacks 
-and executor buttons into one screen, or you can display them in separate
+If you want to see the legends and function information for the wing controls, there is a <strong>Mobile Wing</strong> workspace window - double click <Keys.HardKey>View/Open</Keys.HardKey> and select "Mobile Wing". Using the Context Menu buttons you can select different views for this workspace which combine the playbacks and executor buttons into one screen, or you can display them in separate
 pages.
 
 ![Titan Mobile Wing](/docs/images/Titan-Mobile-Wing.png)

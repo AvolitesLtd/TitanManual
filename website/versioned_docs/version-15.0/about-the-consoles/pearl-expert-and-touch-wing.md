@@ -72,8 +72,7 @@ and to set chase speeds and fades.
 <Keys.Annotation>K</Keys.Annotation> The <strong>Menu softkeys</strong> (labelled A -- G) are used to select control
 options. The display next to the buttons shows what each one will do.
 The options for each key change depending on what the console is doing.
-Softkey commands are shown in the manual like this:
-<Keys.SoftKey>Edit Times</Keys.SoftKey>
+Softkey commands are shown in the manual like this: <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 <br/>
 

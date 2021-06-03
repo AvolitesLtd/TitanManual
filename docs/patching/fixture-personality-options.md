@@ -51,8 +51,7 @@ the rig to set fixture options.
 
 4. Select fixture(s) to be changed.
 
-5. Select the attribute to invert from the softkeys. The display shows
-<Keys.SoftKey>Inverted</Keys.SoftKey> when the attribute is inverted.
+5. Select the attribute to invert from the softkeys. The display shows <Keys.SoftKey>Inverted</Keys.SoftKey> when the attribute is inverted.
 
 6. Press <Keys.HardKey>Exit</Keys.HardKey> to finish.
 
