@@ -24,6 +24,8 @@ jobs:
         run: echo "$GITHUB_CONTEXT"
       
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
 
       - name: Use Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v1
@@ -67,6 +69,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
 
       - name: PDF Docker Build
         run: |
