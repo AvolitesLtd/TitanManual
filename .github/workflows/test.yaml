@@ -27,7 +27,10 @@ jobs:
     
     - name: Install & Build
       run: |
-        cd website
+        cd website/docusaurus-search-local
+        yarn install
+        yarn build
+        cd ../
         npm install
         npm run build
     
