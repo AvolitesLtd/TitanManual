@@ -215,9 +215,12 @@ can also be set in the Clear tab of the [User Settings](./system-settings/user-s
 -   <Keys.SoftKey>Clear Direction</Keys.SoftKey> - sets whether direction will be cleared from the programmer.	
 	
 -   <Keys.SoftKey>Action Precedence</Keys.SoftKey> - Sets a two-stage action for presses of the <Keys.HardKey>Clear</Keys.HardKey> button:
-	- Selection With Programmer: <strong>(default)</strong> Any press of the button clears both the fixture selection and all fixture changes in the programmer
-	- Selection Then Programmer: If any fixtures are selected, fixture selection is cleared on button press. If no fixtures are selected then the programmer is cleared.
-	- Programmer Then Selection: If there are any changes in the programmer, then the programmer is cleared on button press. If there's nothing in the programmer then fixture selection is cleared.
+
+    - Selection With Programmer: <strong>(default)</strong> Any press of the button clears both the fixture selection and all fixture changes in the programmer
+
+    - Selection Then Programmer: If any fixtures are selected, fixture selection is cleared on button press. If no fixtures are selected then the programmer is cleared.
+	
+    - Programmer Then Selection: If there are any changes in the programmer, then the programmer is cleared on button press. If there's nothing in the programmer then fixture selection is cleared.
 
 > If you type a number then press <Keys.HardKey>Clear</Keys.HardKey>, HTP values in the programmer will fade out over that time, for example 5 <Keys.HardKey>Clear</Keys.HardKey> would fade over 5 seconds. This can be very useful if you are trying to be subtle when making changes during a show.
 

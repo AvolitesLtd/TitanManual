@@ -41,7 +41,7 @@
 @import 'video';
 
 body {
-  font-family: 'GT America Standard Standard', 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+  font-family: 'GT America Standard Light', 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
 }
 
 .navbar__search-input {
@@ -57,4 +57,38 @@ html[data-theme='light'] .navbar {
 
 .navbar__item.dropdown {
   padding: 0 5px;
+}
+
+article blockquote {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 80px;
+  border-left: none;
+  min-height: 4.5em;
+  background-color: rgba(100,176,255,.3);
+  &::before{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background: #64b0ff;
+    font-size: 40px;
+    color: #fff;
+    content: "\f05a";
+    font-family: fontawesome;
+  }
+}
+
+article ol {
+  position: relative;
+  left: -1em;
+  border-left: 3px solid #ef3e46;
+  padding-left: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background: rgba(255, 0, 0, 0.1);
 }
