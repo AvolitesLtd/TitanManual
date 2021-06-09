@@ -219,12 +219,12 @@ function replaceBr(content) {
  * @return {string} The content with the breaks replaced
  */
  function replaceJSX(content) {
-  content = content.replace(/<Keys\.ContextKey>(.*?)<\/Keys\.ContextKey>/gmi,"{$1}");
-  content = content.replace(/<Keys\.HardKey>(.*?)<\/Keys\.HardKey>/gmi,"\\\<$1\\\>");
-  content = content.replace(/<Keys\.SoftKey>(.*?)<\/Keys\.SoftKey>/gmi,"[$1]");
-  content = content.replace(/<Keys\.Annotation>(.*?)<\/Keys\.Annotation>/gmi,"($1)");
-  content = content.replace(/<strong>(.*?)<\/strong>/gmi,"**$1**");
-  content = content.replace(/<em>(.*?)<\/em>/gmi,"*$1*");
+  content = content.replace(/<Keys\.ContextKey>(.*?)<\/Keys\.ContextKey>/gmis,"{$1}");
+  content = content.replace(/<Keys\.HardKey>(.*?)<\/Keys\.HardKey>/gmis,"\\\<$1\\\>");
+  content = content.replace(/<Keys\.SoftKey>(.*?)<\/Keys\.SoftKey>/gmis,"[$1]");
+  content = content.replace(/<Keys\.Annotation>(.*?)<\/Keys\.Annotation>/gmis,"($1)");
+  content = content.replace(/<strong>(.*?)<\/strong>/gmis,"**$1**");
+  content = content.replace(/<em>(.*?)<\/em>/gmis,"*$1*");
   content = content.replace(/import .*? from '.*?';\n/gmi,"");
   return content;
 }
