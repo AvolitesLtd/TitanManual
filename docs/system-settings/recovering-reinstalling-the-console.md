@@ -33,7 +33,7 @@ methods required. The basic procedure is as follows:
 Installation Instructions
 -------------------------
 
-1. **If recovering a version earlier than v11.1**, you will need to set theconsole to boot from USB *(see instructions on the [Avolites website](https://www.avolites.com/software/),
+1. **If recovering a version earlier than v11.1**, you will need to set the console to boot from USB *(see instructions on the [Avolites website](https://www.avolites.com/software/),
 which vary depending on your console)*
 
 2. Start console and wait while the memory stick boots up, this can

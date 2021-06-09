@@ -2,7 +2,7 @@ const assert = require('assert')
 const path = require('path')
 const fs = require('fs')
 
-const avoParse = require('../parse/avoParse')
+const avoParse = require('../../parse/avoParse')
 
 describe("Docs", () => {
   describe("Sidebars exist", () => {

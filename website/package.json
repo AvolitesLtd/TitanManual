@@ -32,8 +32,9 @@
     "app-build-all": "npm run app-pre-build && npm run app-build-all-no-pre",
     "app-build-all-no-pre": "electron-builder -mwl",
     "download": "node ../parse/download.js",
-    "test": "mocha '../test/**/*.js' && npm run spellcheck",
-    "test-web": "mocha './test/**/*.js'",
+    "test": "mocha './test/**/*.js' && npm run spellcheck",
+    "test-build": "(npm run serve&) && mocha './test/**/*.js' && npm run spellcheck",
+    "serve": "npx http-server ./build", 
     "spellcheck": "mdspell --report --ignore-numbers --ignore-acronyms --en-gb  'versioned_docs/**/*.md' '../docs/**/*.md'",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -55,13 +56,15 @@
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.73",
     "@docusaurus/preset-classic": "2.0.0-alpha.73",
+    "chromedriver": "^91.0.0",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.1.12",
     "minimist": "^1.2.5",
     "node-static": "^0.7.11",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-youtube": "^7.13.1"
+    "react-youtube": "^7.13.1",
+    "selenium-webdriver": "^4.0.0-beta.4"
   },
   "build": {
     "appId": "com.avolites.titan.manual",

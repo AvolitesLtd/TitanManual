@@ -17,29 +17,29 @@ surface. It allows you to expand the number of DMX lines in a show
 beyond the 16 which a console can produce by offloading the processing
 into a separate unit.
 
-<br/>
 
-<Keys.Annotation>A</Keys.Annotation> MIDI and SMPTE connections
 
-<br/>
+&nbsp;<Keys.Annotation>A</Keys.Annotation> MIDI and SMPTE connections
 
-<Keys.Annotation>B</Keys.Annotation> Network connections.
 
-<br/>
 
-<Keys.Annotation>C</Keys.Annotation> Eight DMX outputs on XLR
+&nbsp;<Keys.Annotation>B</Keys.Annotation> Network connections.
 
-<br/>
 
-<Keys.Annotation>D</Keys.Annotation> Integral touch screen for local setup and control
 
-<br/>
+&nbsp;<Keys.Annotation>C</Keys.Annotation> Eight DMX outputs on XLR
 
-<Keys.Annotation>E</Keys.Annotation> Power switch
 
-<br/>
 
-<Keys.Annotation>F</Keys.Annotation> USB for keyboard, mouse or memory stick.
+&nbsp;<Keys.Annotation>D</Keys.Annotation> Integral touch screen for local setup and control
+
+
+
+&nbsp;<Keys.Annotation>E</Keys.Annotation> Power switch
+
+
+
+&nbsp;<Keys.Annotation>F</Keys.Annotation> USB for keyboard, mouse or memory stick.
 
 It is also possible to improve robustness by running the whole show from
 one or more TNP units onstage and having the console simply acting as a

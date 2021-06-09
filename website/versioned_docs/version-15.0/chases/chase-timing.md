@@ -17,27 +17,25 @@ window](editing-a-chase.md#opening-a-chase-for-editing) or
 [Unfold](editing-a-chase.md#editing-a-chase-using-unfold). This is 
 described below in [Individual Cue Times in Chases](#individual-cue-times-in-chases).
 
-1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> from the top level menu then the <strong>Select</strong> button of
-the chase
-
-2. Set the <strong>Crossfade</strong>, <strong>Speed</strong>, <strong>Fixture Overlap</strong> and <strong>Attribute Overlap</strong>
-settings, as described below
-
-3. Press <Keys.HardKey>Exit</Keys.HardKey> to finish
+1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> from the top level menu then the **Select** button of
+the chase.
+2. Set the **Crossfade**, **Speed**, **Fixture Overlap** and **Attribute Overlap**
+settings, as described below.
+3. Press <Keys.HardKey>Exit</Keys.HardKey> to finish.
 
 ---
 
--   To set <strong>speed</strong>, press <Keys.SoftKey>Speed</Keys.SoftKey> then type the new speed, then press
+-   To set **speed**, press <Keys.SoftKey>Speed</Keys.SoftKey> then type the new speed, then press
     <Keys.HardKey>Enter</Keys.HardKey>. The speed can be set in Beats Per Minute (BPM) or seconds
     depending on the user settings.
 
--   To set <strong>crossfade</strong>, press <Keys.SoftKey>XFade</Keys.SoftKey> then type the fade from <strong>0 - 100</strong>
+-   To set **crossfade**, press <Keys.SoftKey>XFade</Keys.SoftKey> then type the fade from **0 - 100**
     and press <Keys.HardKey>Enter</Keys.HardKey>.
 
     *0=no fade (the chase will "snap"), 100=max fade (the chase will move
     continuously from cue to cue).*
 
--   You can assign either of the handle buttons to be a <strong>tap tempo</strong>
+-   You can assign either of the handle buttons to be a **tap tempo**
     button using the [Key Profiles](../system-settings/key-profiles.md) option.
 
 ### Fixture Overlap
@@ -58,31 +56,23 @@ lot of different timings or link/unlinks. See [Cue Lists](../cue-lists.md).
 
 ### Using the Playback View Window
 
-1. Touch the playback display relating to the fader, or press <Keys.HardKey>Open/View</Keys.HardKey> then the <strong>select</strong> button of the playback. The Playback View
-window will open.
-
-![Playback View for chase](/docs/images/Playback-View-for-chase.png)
-
-2. In the grid, touch the times you want to edit
-
-3. Use the softkey options to change the times or settings
-
+1. Touch the playback display relating to the fader, or press <Keys.HardKey>Open/View</Keys.HardKey> then the **select** button of the playback. The Playback View window will open.<br/>
+  ![Playback View for chase](/docs/images/Playback-View-for-chase.png)
+2. In the grid, touch the times you want to edit.
+3. Use the softkey options to change the times or settings.
 4. Repeat steps 2 - 3 to change other times or settings.
 
 > You can change a range of cues all at once by dragging across the
-    grid to select multiple cells, or you can use <strong>wheel B</strong> to select
+    grid to select multiple cells, or you can use **wheel B** to select
     multiple cells for editing.
 
 ### Using Unfold
 
-1. Press <Keys.HardKey>Unfold</Keys.HardKey> then the <strong>Select</strong> button of the chase to be edited.
-
-2. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> then the <strong>Select</strong> button of the unfolded cue you
+1. Press <Keys.HardKey>Unfold</Keys.HardKey> then the **Select** button of the chase to be edited.
+2. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> then the **Select** button of the unfolded cue you
 want to edit.
-
 3. Set up the timing options as required. The options are described
 below.
-
 4. Press <Keys.HardKey>Unfold</Keys.HardKey> to get out of unfold mode.
 
 ### Timing Options
@@ -118,22 +108,17 @@ set attribute times.
 
 To set an attribute group fade time:
 
-1. Press <Keys.HardKey>Open/View</Keys.HardKey> or <Keys.HardKey>Unfold</Keys.HardKey>, then the <strong>Select</strong> button of the chase
+1. Press <Keys.HardKey>Open/View</Keys.HardKey> or <Keys.HardKey>Unfold</Keys.HardKey>, then the **Select** button of the chase
 to be edited.
-
 2. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> then touch the cue you want to edit in the
-Playback View, or if using Unfold, press the <strong>Select</strong> button of the unfolded
+Playback View, or if using Unfold, press the **Select** button of the unfolded
 cue you want to edit.
-
-3. Press the <strong>Attribute Options</strong> button (right hand side) for the
+3. Press the **Attribute Options** button (right hand side) for the
 attribute you want to change.
-
 4. Press <Keys.SoftKey>Delay</Keys.SoftKey> to set delay time or <Keys.SoftKey>Set fade</Keys.SoftKey> to set fade time.
-
 5. Type the new time using the numeric keypad and press <Keys.HardKey>Enter</Keys.HardKey> to
 save it, or press <Keys.SoftKey>Use Global</Keys.SoftKey> to delete the attribute times and go
 back to the normal times.
-
 6. Press <Keys.HardKey>Enter</Keys.HardKey> to save the changes.
 
 ## Rate and BPM Masters

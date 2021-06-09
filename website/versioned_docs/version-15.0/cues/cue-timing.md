@@ -15,11 +15,11 @@ When programming a cue, you can set a delay, fade in and fade out time
 for each attribute of each fixture, or globally for the cue. Shapes in
 the cue will also be affected, depending on the [fade mode](#fade-modes).
 
-> If you enter times more than 60 seconds, Titan will automatically split the time into minutes and seconds, for example enter <strong>115</strong> to set <strong>1:15</strong> <em>(1 min 15 seconds)</em>. Entering more digits will set hours, minutes, seconds.
+> If you enter times more than 60 seconds, Titan will automatically split the time into minutes and seconds, for example enter **115** to set **1:15** *(1 min 15 seconds)*. Entering more digits will set hours, minutes, seconds.
 
 You can delay the fade times between fixtures in a cue so that the cue
-is applied sequentially to each fixture. This is called <strong>Fixture Overlap</strong>
-and can create <em>"peel off"</em> or <em>"roll"</em> style effects.
+is applied sequentially to each fixture. This is called **Fixture Overlap**
+and can create *"peel off"* or *"roll"* style effects.
 
 In the graphic below, the top diagram shows how the LTP channels change
 when used with delay, fade and fade out times. The second diagram shows
@@ -35,37 +35,26 @@ be recorded when you save the cue.
 You can also edit times of a cue you have already saved like this:
 
 1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> at the top level menu
-
-2. Press the <strong>Select</strong> button of the cue
-
-3. Press <Keys.SoftKey>Fade Mode x</Keys.SoftKey> to set the cue mode.
-
-&nbsp;<em>This sets how the times are used, [see below](#fade-modes).</em>
-
+2. Press the **Select** button of the cue
+3. Press <Keys.SoftKey>Fade Mode x</Keys.SoftKey> to set the cue mode. &nbsp;*This sets how the times are used, [see below](#fade-modes).*
 4. Press <Keys.SoftKey>Delay time</Keys.SoftKey> to set the delay before the cue starts, <Keys.SoftKey>Fade
 time</Keys.SoftKey> to set the fade-in time of the cue, and <Keys.SoftKey>Fade out time</Keys.SoftKey> to set
 the fade-out time of the cue.
-
 5. Type the new time (in seconds) using the numeric keypad and press <Keys.HardKey>Enter</Keys.HardKey> to save it.
-
-6. Press <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> to change the overlap, then enter <strong>0 - 100</strong> on
-the keypad.
-
- <strong>100%</strong> means all fixtures fade together.
-
- <strong>0%</strong> means that the first fixture will finish its fade before the next one starts.
-
- <strong>50%</strong> means that the 2<sup>nd</sup> fixture will start fading when the first one is half way
+6. Press <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> to change the overlap, then enter **0 - 100** on
+the keypad.<br/>
+ **100%** means all fixtures fade together.<br/>
+ **0%** means that the first fixture will finish its fade before the next one starts.<br/>
+ **50%** means that the 2<sup>nd</sup> fixture will start fading when the first one is half way
 through its fade.
 
-The order of the fixtures is set by the order you selected them *(but you
-can change this, see [Changing Fixture Order](#changing-fixture-order))*.
+  The order of the fixtures is set by the order you selected them *(but you can change this, see [Changing Fixture Order](#changing-fixture-order))*.
 
 7. Press <Keys.HardKey>Exit</Keys.HardKey> to get out of Edit Times mode.
 
 ---
 
--   You can also set independent times for the <strong>IPCGBES</strong> attribute groups,
+-   You can also set independent times for the **IPCGBES** attribute groups,
     and for each individual attribute, *(see
     [Setting Attribute Fade Times for a Cue](#setting-attribute-fade-times-for-a-cue)
     for details of this)*.
@@ -126,21 +115,14 @@ fixtures so they move together when using
 [Fixture Overlap](#fade-times-and-fixture-overlap))*.
 
 1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> at the top level menu
-
-2. Press the <strong>Select</strong> button of the cue to be changed
-
+2. Press the **Select** button of the cue to be changed
 3. Press <Keys.SoftKey>Fixture Order</Keys.SoftKey>
-
 4. Set the sequence number to start from by pressing <Keys.SoftKey>Step Number</Keys.SoftKey>
-
-5. If you want the sequence number to increase automatically, set <Keys.SoftKey>Autoincrement</Keys.SoftKey> to <strong>On</strong>. If you want some fixtures to have the same
-sequence number, set it to <strong>Off</strong>.
-
-6. Touch the <strong>Select</strong> buttons of the fixture(s) you want to place in that
+5. If you want the sequence number to increase automatically, set <Keys.SoftKey>Autoincrement</Keys.SoftKey> to **On**. If you want some fixtures to have the same sequence number, set it to **Off**.
+6. Touch the **Select** buttons of the fixture(s) you want to place in that
 position in the sequence. The sequence number is shown in green in the top right
-hand corner of the fixture select touch buttons.
-![Fixtures Window setting Fixture Order](/docs/images/Fixtures-Window-showing-fixture-order.png)
-
+hand corner of the fixture select touch buttons.<br/>
+  ![Fixtures Window setting Fixture Order](/docs/images/Fixtures-Window-showing-fixture-order.png)
 7. Press <Keys.HardKey>Exit</Keys.HardKey> to finish.
 
 ---
@@ -164,18 +146,13 @@ Position). If you set a time, it overrides the normal times.
 To set an attribute group fade time:
 
 1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> at the top level menu
-
-2. Press the <strong>Select</strong> button of the cue to be changed
-
+2. Press the **Select** button of the cue to be changed
 3. Press the Attribute Bank button (IPCGBES buttons, or attribute keys 
 on the right hand side on older consoles) for the attribute you want to change
-
 4. Press <Keys.SoftKey>Delay = </Keys.SoftKey> to set delay time or <Keys.SoftKey>Fade = </Keys.SoftKey> to set fade time
-
 5. Type the new time using the numeric keypad and press <Keys.HardKey>Enter</Keys.HardKey> to
 save it, or press <Keys.SoftKey>Use Global</Keys.SoftKey> to delete the attribute times and go
 back to the normal times.
-
 6. Press <Keys.HardKey>Enter</Keys.HardKey> to save the changes.
 
 You can take this even further and set individual fade times for each
@@ -203,9 +180,7 @@ attribute values.
 
 Press the <Keys.HardKey>Time</Keys.HardKey> button to access this menu.
 
->   On Titan Mobile and Sapphire Touch, the Time button is the key above
-    <Keys.HardKey>Clear</Keys.HardKey> (previously labelled <Keys.HardKey>Set</Keys.HardKey>). On Pearl Expert and Tiger Touch
-    it is the key previously labelled <Keys.HardKey>Next Time</Keys.HardKey>.
+>   On Titan Mobile and Sapphire Touch, the Time button is the key above <Keys.HardKey>Clear</Keys.HardKey> (previously labelled <Keys.HardKey>Set</Keys.HardKey>). On Pearl Expert and Tiger Touch it is the key previously labelled <Keys.HardKey>Next Time</Keys.HardKey>.
 
 The menu allows you to set cue times, or times for all attributes of a
 fixture, attribute groups or individual attributes.
@@ -240,7 +215,7 @@ times.
 Individual attribute times can also be set from the wheels, using the <Keys.SoftKey>Wheels</Keys.SoftKey> softkey option on the root menu.
 
 Using the <Keys.HardKey>Options</Keys.HardKey> button while showing the times allows you to set
-the <strong>Speed</strong>, <strong>Effect Multiplier</strong>, <strong>Speed Multiplier</strong> and <strong>speed source</strong> in the
+the **Speed**, **Effect Multiplier**, **Speed Multiplier** and **speed source** in the
 programmer. Speed and Speed Multiplier would only do anything if you
 create a [chase](../chases.md) and would have no effect in a cue.
 

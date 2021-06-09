@@ -43,9 +43,7 @@ To help you find buttons and controls:
 Step-by-step guides are shown as follows:
 
 1. Do this.
-
 2. Then do this.
-
 3. Finally, do this.
 
 > Useful related information is displayed like this.

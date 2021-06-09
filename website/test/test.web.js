@@ -1,4 +1,5 @@
 const { fail } = require("assert");
+const fs = require('fs')
 var assert = require("assert"),
   webdriver = require("selenium-webdriver");
 
@@ -18,8 +19,8 @@ describe("Test all pages", function() {
     done();
   });
 
-  it ("Check for page", async () => {
-    await driver.get('http://localhost:3000/docs');
+  it ("Check for page valid", async () => {
+    await driver.get('http://localhost:8080/docs');
     let elem = null;
 
     do {

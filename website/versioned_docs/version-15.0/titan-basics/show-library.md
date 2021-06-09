@@ -25,7 +25,9 @@ fixture patch, fixture groups, palettes, playbacks, macros and
 workspaces. Use the buttons down the left hand side to filter what types
 of information are displayed.
 
-![Show Library](/docs/images/Show-Library.png)Clicking on the buttons in the Show Library
+![Show Library](/docs/images/Show-Library.png)
+
+Clicking on the buttons in the Show Library
 window will activate them.
 
 Mapping shows for import

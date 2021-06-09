@@ -17,19 +17,17 @@ Using the Move function
 
 To move fixtures, palettes, groups and playbacks is very simple.
 
-1. Press <Keys.HardKey>Move</Keys.HardKey> to select Move mode (if the console does not have a <strong>Move</strong> button,
+1. Press <Keys.HardKey>Move</Keys.HardKey> to select Move mode (if the console does not have a **Move** button,
 	you can get this function by holding <Keys.HardKey>Avo</Keys.HardKey> and pressing <Keys.HardKey>Copy</Keys.HardKey> ).
-
-2. Press or touch the <strong>Select</strong> button(s) of the item(s) to move.
-
-3. Press or touch the <strong>Select</strong> button of the destination.
+2. Press or touch the **Select** button(s) of the item(s) to move.
+3. Press or touch the **Select** button of the destination.
 
 When moving a range, it is possible to select a range containing
 different types of items, and there can be gaps between them. In this
 case, you can set <Keys.SoftKey>Bunch Up</Keys.SoftKey> mode to have all of the gaps in the range
 removed.
 
-<Keys.SoftKey>Swap Items if Required</Keys.SoftKey> will attempt to reposition any existing
+&nbsp;<Keys.SoftKey>Swap Items if Required</Keys.SoftKey> will attempt to reposition any existing
 handles which are in the way of the move. This is useful when
 rearranging handles on a page which is nearly full.
 

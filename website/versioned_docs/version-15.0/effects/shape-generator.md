@@ -17,15 +17,15 @@ of the circle and the speed of the circle movement.
 
 Shapes are most useful when used with a group of fixtures. You can then choose to
 either apply the shape identically to all the fixtures, or offset them
-so that the shape runs along the fixtures creating <em>"wave"</em> or <em>"ballyhoo"</em>
-type effects (called the <strong>Spread</strong> or <strong>Phase</strong> of the shape). This allows
+so that the shape runs along the fixtures creating *"wave"* or *"ballyhoo"*
+type effects (called the **Spread** or **Phase** of the shape). This allows
 you to very quickly create impressive light shows.
 
 In addition to position shapes, there are a large number of other shapes
 available in Titan. The shapes are defined for a particular attribute
 such as colour, dimmer, focus and so on.
 
-Titan also has a <strong>Mask FX</strong> function which lets you mask out certain
+Titan also has a **Mask FX** function which lets you mask out certain
 shapes, preventing them from appearing on the lights. For example, if
 some fixtures are running a Circle shape, and then a playback is fired
 which has a Position Mask Shape programmed for some of the fixtures, those fixtures
@@ -43,20 +43,13 @@ Creating a Shape
 When you create a shape, it will be applied to all selected fixtures.
 
 1. [Select the fixtures](../controlling-fixtures.md#selecting-fixtures-and-dimmers-for-control) the shape is to be applied to.
-
 2. At the main menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then <Keys.SoftKey>Shape
 Generator</Keys.SoftKey>.
-
-3. Press <Keys.SoftKey>Create</Keys.SoftKey> to start a new shape
-![Shape Generator selecting a category of new shape](/docs/images/Shape-Generator-selecting-a-category-of-new-shape.png).
-
+3. Press <Keys.SoftKey>Create</Keys.SoftKey> to start a new shape <br/>
+  ![Shape Generator selecting a category of new shape](/docs/images/Shape-Generator-selecting-a-category-of-new-shape.png).
 4. Press a <Keys.SoftKey>softkey</Keys.SoftKey> to select the attribute type to use in the shape or
 press <Keys.SoftKey>All</Keys.SoftKey> for a full list.
-
-5. Press a <Keys.SoftKey>softkey</Keys.SoftKey> to select a shape, or touch the desired shape in the
-&nbsp;<strong>Shapes window</strong>. You can type a search word on the keyboard to search for
-a particular shape.
-
+5. Press a <Keys.SoftKey>softkey</Keys.SoftKey> to select a shape, or touch the desired shape in the **Shapes window**. You can type a search word on the keyboard to search for a particular shape.
 6. The shape will be applied to all selected fixtures.
 
 ---
@@ -111,7 +104,7 @@ a particular shape.
 -   Each shape has a default size and speed setting *(defined in the
     shape file)*.
 
-> When using a Rainbow colour shape, to get the full range of colours you need to set the CMY or RGB attributes to <strong>50%</strong>.
+> When using a Rainbow colour shape, to get the full range of colours you need to set the CMY or RGB attributes to **50%**.
 
 Changing Size and Speed of a Shape
 ----------------------------------
@@ -137,7 +130,7 @@ Other things to know about size and speed of shapes:
     running using the Edit Shape function, see
     [Editing a Shape in a Cue Using Include](editing-shapes-and-effects.md#editing-a-shape-in-a-cue-using-include).
 
--   The minimum size is zero. This will <em>"hide"</em> the shape, and the
+-   The minimum size is zero. This will *"hide"* the shape, and the
     fixture will resume its previous settings. The shape is, however,
     still active.
 
@@ -160,32 +153,31 @@ edit the order by selecting <Keys.SoftKey>Fixture Order</Keys.SoftKey> in the Sh
 
 1. If the right hand wheel isn't showing Spread, press <Keys.SoftKey>Adjust Speed,
 Size and Spread</Keys.SoftKey>
-
-2. Control the <strong>Spread</strong> of the shape using the right hand wheel, or to
+2. Control the **Spread** of the shape using the right hand wheel, or to
 set in terms of Phase, press <Keys.SoftKey>Adjust Spread, Phase and Offset</Keys.SoftKey> and
 use the middle wheel.
 
-Spread = <strong>12</strong> <em>(Phase = 30 degrees)</em>:
+Spread = **12** *(Phase = 30 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 12](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-12.png)
 
 ---
 
-Spread = <strong>6</strong> <em>(Phase = 60 degrees)</em>:
+Spread = **6** *(Phase = 60 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 6](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-6.png)
 
 ---
 
-Spread = <strong>2</strong> <em>(Phase = 180 degrees)</em>:
+Spread = **2** *(Phase = 180 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 2](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-2.png)
 
-In <strong>Phase</strong> mode, the display above the wheel shows the phase in degrees.
+In **Phase** mode, the display above the wheel shows the phase in degrees.
 For example, 180 degrees repeats every 2 fixtures, 90 degrees repeats
 every 4 fixtures, 60 degrees repeats every 6 fixtures, and so on.
 
-The <strong>Offset</strong> function allows you to set the starting phase of the shape,
+The **Offset** function allows you to set the starting phase of the shape,
 when more than one shape is running. *For example, if you were running a
 Cyan shape and a Magenta shape to create a mix of colours, you would
 probably want to start them with Cyan at full and Magenta at zero to
@@ -193,7 +185,7 @@ give the full range of colours. In this case you would set one of the
 shapes to have a Phase Offset of 180 degrees.* Without the phase offset,
 both shapes would reach full at the same time.
 
->   After adjusting offset or phase, it is useful to <strong>Restart</strong> the shape so
+>   After adjusting offset or phase, it is useful to **Restart** the shape so
     you can see how it will look when fired from a cue. Press <Keys.SoftKey>Restart Shapes</Keys.SoftKey>
     on the shape Edit menu.
 
@@ -224,7 +216,7 @@ really useful to synchronise different types of shapes which are running
 together.
 
 Clicking the middle of the wheel roller image on screen or pressing <Keys.HardKey>@A</Keys.HardKey>
-for <strong>Wheel A</strong> allows you to type in a number for the Beats parameter, and
+for **Wheel A** allows you to type in a number for the Beats parameter, and
 also shows two further options for Beats: <Keys.SoftKey>Match to Spread</Keys.SoftKey> sets the
 beat count to be the same as the current Spread setting for the shape.
 This is useful when using dimmer shapes with movement shapes as it will
@@ -238,7 +230,7 @@ until you stop it. If you set a fixed number, the shape will stop by
 itself after that number of cycles.
 
 You can type in a number instead of using the wheels by clicking the
-middle of the wheel roller image on screen or pressing <Keys.HardKey>@B</Keys.HardKey> for <strong>Wheel B</strong>. If
+middle of the wheel roller image on screen or pressing <Keys.HardKey>@B</Keys.HardKey> for **Wheel B**. If
 you are typing in a number you can enter part cycles, for example 1.5.
 
 Using Shapes in Cues
@@ -271,20 +263,16 @@ can also select certain fixtures for the mask and leave other fixtures unaffecte
 To create a mask:
 
 1.	Press <Keys.SoftKey>Mask FX</Keys.SoftKey> on the Shapes and Effects menu (Diamond 9 has a dedicated <Keys.HardKey>Mask FX</Keys.HardKey> button - press twice to turn all attributes on in the mask).
-
 2.	The Attribute Bank buttons (Position, Colour etc) will flash. Choose which attributes you want to mask
 	by toggling the buttons on and off.
-	
 3.	If no fixtures are selected the mask will apply to all fixtures. If you only want it to apply to certain fixtures, select them now.
-
 4.	Press <Keys.SoftKey>Create Mask Shape</Keys.SoftKey>. (The <Keys.SoftKey>Create Mask FX</Keys.SoftKey> button will mask both shapes and pixel map effects.)
-
 5.	You should see the mask taking effect on the output - if you store it in a playback, the playback
 	will stop the shapes it's set to mask while it is active.
 	
 - The <Keys.SoftKey>Clear mask from programmer</Keys.SoftKey> button will remove any mask shapes or mask effects from the programmer for all fixtures.
 
-- This function replaces the <strong>Block Shapes</strong> function of previous versions. Shows containing Block Shapes from previous versions
+- This function replaces the **Block Shapes** function of previous versions. Shows containing Block Shapes from previous versions
   will load and work as expected, but the block shapes will be renamed "Mask".
 
 - The personality library may need updating for this to work. 

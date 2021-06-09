@@ -12,11 +12,8 @@ the console. All programming and patching is deleted, and user options
 are returned to default settings.
 
 1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
-
 2. Press <Keys.SoftKey>New Show</Keys.SoftKey>.
-
 3. Press <Keys.SoftKey>OK</Keys.SoftKey> to confirm.
-
 4. Press <Keys.HardKey>Exit</Keys.HardKey> to leave Disk mode.
 
 -   When starting a new show you have the option to keep existing DMX

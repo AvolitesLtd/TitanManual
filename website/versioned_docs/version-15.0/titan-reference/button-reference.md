@@ -7,7 +7,7 @@ sidebar_label: Button reference
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-This section lists all the physical buttons and tells you what they do. The <strong>links</strong> take you to the section of the manual where the function is explained in more detail. Some consoles may not have all these buttons.
+This section lists all the physical buttons and tells you what they do. The **links** take you to the section of the manual where the function is explained in more detail. Some consoles may not have all these buttons.
 
 ``<n>`` means to type in a numeric value on the keypad.
 
@@ -17,7 +17,7 @@ This section lists all the physical buttons and tells you what they do. The <str
 
 {Select} means to press a playback select button.
 
-
+---
 
  ## <Keys.HardKey>@</Keys.HardKey> 
  (by numeric keypad) Allows numeric entry of attribute values on selected fixtures. Can also be used with <Keys.HardKey>Fixture</Keys.HardKey> or <Keys.HardKey>Group</Keys.HardKey> buttons to change selection state. For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](#wheel-).
@@ -402,7 +402,7 @@ Buttons | Action
 
  --- 
 ## <Keys.HardKey>Options</Keys.HardKey> 
- Followed by <strong>Select</strong> button, shows options screen for item. Usually used with playbacks but can set options for other types of item. See [Playback Options](../cues/playback-options.md/)
+ Followed by **Select** button, shows options screen for item. Usually used with playbacks but can set options for other types of item. See [Playback Options](../cues/playback-options.md/)
 
  --- 
 ## <Keys.HardKey>Page +</Keys.HardKey> 
@@ -555,7 +555,7 @@ Buttons | Action
 
  --- 
 ## <Keys.HardKey>Unfold</Keys.HardKey> 
- followed by playback <strong>Select</strong>, splits out a cue list or chase onto the playback faders so each cue/step can be edited individually. See [Editing a chase using unfold](../chases/editing-a-chase.md/#editing-a-chase-using-unfold).
+ followed by playback **Select**, splits out a cue list or chase onto the playback faders so each cue/step can be edited individually. See [Editing a chase using unfold](../chases/editing-a-chase.md/#editing-a-chase-using-unfold).
 
  --- 
 ## <Keys.HardKey>Update</Keys.HardKey> 
@@ -565,7 +565,7 @@ Buttons | Action
 ## <Keys.HardKey>View</Keys.HardKey> 
 (D9, Titan Go, Pearl Expert, Tiger Touch 1) 
 
- Followed by <strong>Select</strong> button to show details about item, or double press to open workspace window. See [Palettes](../palettes/editing-palettes.md/#viewing-and-editing-the-content-of-palettes) and [Cues](../cues/editing-cues.md/#playback-and-cue-view), or [Opening Workspace Windows](../titan-basics.md/workspace-windows/#opening-and-positioning-workspace-windows).
+ Followed by **Select** button to show details about item, or double press to open workspace window. See [Palettes](../palettes/editing-palettes.md/#viewing-and-editing-the-content-of-palettes) and [Cues](../cues/editing-cues.md/#playback-and-cue-view), or [Opening Workspace Windows](../titan-basics.md/workspace-windows/#opening-and-positioning-workspace-windows).
 
  Also gives shortcuts to opening workspace windows and editing workspaces:
 

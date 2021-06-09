@@ -210,7 +210,7 @@ function addImageSpacing(content) {
  * @return {string} The content with the breaks replaced
  */
 function replaceBr(content) {
-  return content.replace(/<br\/>/gmi," \\newline &ZeroWidthSpace;");
+  return content.replace(/<br\/>/gmi,"&ZeroWidthSpace; \\newline &ZeroWidthSpace;");
 }
 
 /**

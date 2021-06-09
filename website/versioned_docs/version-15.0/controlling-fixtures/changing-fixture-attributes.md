@@ -15,7 +15,7 @@ have various options for controlling them.
 
 "Attributes" are the functions of the fixture, like pan, tilt, colour,
 dimmer, etc. You select which attributes you want to modify using the
-&nbsp;<strong>Attribute Bank</strong> buttons - Intensity, Position, Colour, Gobo, Beam,
+**Attribute Bank** buttons - Intensity, Position, Colour, Gobo, Beam,
 Effect, Special, FX (abbreviated as IPCGBESFX) and then set values using the wheels. The attributes
 available depend on the fixture type. Dimmer channels only have a dimmer
 attribute.
@@ -41,14 +41,12 @@ by pressing the <Keys.HardKey>Assign</Keys.HardKey> button next to the trackball
 
 1. With some fixtures selected, press the button for the attribute to
 be changed.
-
 2. Turn the wheels to set the attribute. The settings which are
 available scroll up and down on the wheel display as you turn the wheels.  
 You can also touch the roller image on the screen to change the
 attributes up or down by one step. For continuously variable controls like a
 dimmer, touching the roller will set the attribute to full or zero.
-
-3. Repeat from <strong>step 1</strong> to change other attributes of the selected fixtures.
+3. Repeat from **step 1** to change other attributes of the selected fixtures.
 
 ---
 
@@ -207,7 +205,7 @@ than vertical as shown in the pictures.)
 
 ![Attribute Editor - Colour Channels](/docs/images/Attribute-Editor-Channels.png)
 
-The <strong>Channel</strong> tab provides a colour picker, with a slider for each colour control channel 
+The **Channel** tab provides a colour picker, with a slider for each colour control channel 
 in the fixture. The
 sliders shown will vary depending on what is provided in the fixture -
 this example is an ETC Lustr fixture which has 7 independent LED emitter
@@ -379,16 +377,12 @@ fixtures there are options to set how this is handled, see below.
 
 1. Select the fixtures you want to Align either manually or using a
 group.
-
 2. Press <Keys.HardKey>ML Menu</Keys.HardKey> then <Keys.SoftKey>Align Fixtures</Keys.SoftKey> (on Diamond 9 press <Keys.HardKey>Align</Keys.HardKey>).
-
 3. Set the mask to include the attribute groups you want to copy (using
 the Attribute Bank buttons, or using the softkey options for exclude and
 include all attributes).
-
 4. Touch the select button of the fixture or group you want to copy the
 settings from.
-
 5. Press <Keys.SoftKey>Align</Keys.SoftKey>.
 
 The fixture selection order is used to determine how the aligned values
@@ -430,7 +424,6 @@ other fixtures, you need to swap to the opposite yoke position and the
 Flip function lets you do that.
 
 1. Select the fixtures you want to Flip.
-
 2. Press <Keys.HardKey>Fixture</Keys.HardKey> then <Keys.SoftKey>Flip Pan and Tilt</Keys.SoftKey>.
 
 - The Position window in the Attribute Editor also has a <Keys.SoftKey>Flip</Keys.SoftKey> button
@@ -457,14 +450,10 @@ The fan effect, while normally used on pan or tilt attributes, can be
 applied to any attribute.
 
 1. Select the fixtures you want to fan.
-
 2. Press <Keys.HardKey>Fan</Keys.HardKey>.
-
 3. Select the attribute you want to Fan using the attribute bank
 buttons.
-
 4. Set the amount of fan using the attribute wheels.
-
 5. Turn off Fan by pressing the Fan button again when you have
 finished. Fan will turn off automatically if you change the fixture
 selection.
@@ -606,10 +595,8 @@ you've accidentally changed something and don't want to store it, you
 can use the Off function to remove it from the programmer.
 
 1. Press <Keys.HardKey>Off</Keys.HardKey> to display the Off menu.
-
 2. Use the Attribute Bank buttons to toggle which attributes you want
 to change. Then press the <Keys.SoftKey>Attributes Off</Keys.SoftKey> softkey to set them to Off.
-
 3. The softkeys also give you options to turn off active attributes,
 such as <Keys.SoftKey>Dimmer Off</Keys.SoftKey>.
 

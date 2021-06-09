@@ -18,7 +18,7 @@ the times will be used in any playback which is recorded using this palette.
 So if you programmed a 2 second fade into this palette, every playback with this 
 palette will have a 2 second fade.
 
-By default these times are <strong>not</strong> used when the palette is called directly, to allow 
+By default these times are **not** used when the palette is called directly, to allow 
 for fluent programming. You may however turn this on (which further enhances [busking 
 with palettes](../running-the-show/playback-controls#busking-with-palettes)) using the
 palette key setting in the [Key Profile](../system-settings/key-profiles.md).
@@ -35,9 +35,7 @@ of shows. When a palette is recalled in this way, a time is added and
 the palette fades in over that time.
 
 1. Select some fixtures.
-
 2. Type in the fade time for the palette on the numeric keypad.
-
 3. Press a palette button to recall the palette.
 
 ---
@@ -59,20 +57,17 @@ when recalling a palette, which means that
 the palette will be applied in sequence to each fixture in the group.
 This is a very quick way to busk complex effects.
 
-&nbsp;<strong>100%</strong> means that all fixtures will change together.
+**100%** means that all fixtures will change together.
 
-&nbsp;<strong>0%</strong> means that each fixture must complete its fade before the
+**0%** means that each fixture must complete its fade before the
 next will start its fade.
 
 - You need to also have a fade time set, otherwise Overlap has no effect.
 
-1. Type in the overlap percentage for the palette on the numeric keypad
-
-2. Press <Keys.SoftKey>Set Overlap</Keys.SoftKey>
-
-3. Type in the fade time if fade is also required
-
-4. Press a palette button to recall the palette
+1. Type in the overlap percentage for the palette on the numeric keypad.
+2. Press <Keys.SoftKey>Set Overlap</Keys.SoftKey>.
+3. Type in the fade time if fade is also required.
+4. Press a palette button to recall the palette.
 
 -   You have to re-enter the overlap each time you recall a palette. To
     use the same overlap every time, set a [Master Overlap](../palettes/timing-with-palettes.md#master-time-for-palettes).

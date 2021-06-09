@@ -29,15 +29,15 @@ The Pearl Expert has additional master faders: Swop and Flash masters control in
 
 Any playback fader on the console can be assigned to act as a master fader, which allow you to set the overall intensity of various areas of the console. Different types of master fader are available:
 
--   <strong>Grand Master</strong> controls the intensity of all output from the console.
+-   **Grand Master** controls the intensity of all output from the console.
 
--   <strong>Swop and Flash masters</strong> control intensity of the swop/flash buttons
+-   **Swop and Flash masters** control intensity of the swop/flash buttons
 
--   <strong>Preset master</strong> controls intensity of the preset faders
+-   **Preset master** controls intensity of the preset faders
 
--   <strong>Playback master</strong> controls intensity of all playbacks.
+-   **Playback master** controls intensity of all playbacks.
 
-To assign master faders, from the <strong>System</strong> menu select <Keys.SoftKey>Assign Masters</Keys.SoftKey>, or press <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Master</Keys.SoftKey>.
+To assign master faders, from the **System** menu select <Keys.SoftKey>Assign Masters</Keys.SoftKey>, or press <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Master</Keys.SoftKey>.
 
 >   By default, master faders are stored on the fader page where you created them and will not be accessible from other fader pages. It is often useful to set the master to have a lock or a transparent lock, which makes the master fader remain in position even when the playback page is changed. You can set this from the Options screen for the master, see [Handle Paging](../cues/playback-options.md/#handle-paging).
 
@@ -54,7 +54,7 @@ Speed and Size Masters
 
 <Video videoId="e5rQAmTCfs0" title="Speed and Size Masters" />
 
-Playbacks can be assigned to a <strong>Speed Master</strong> and/or a <strong>Size Master</strong> which allow you to control the speed and size of shapes or effects stored in a cue (or in the case of chases, to modify the speed of the chase).
+Playbacks can be assigned to a **Speed Master** and/or a **Size Master** which allow you to control the speed and size of shapes or effects stored in a cue (or in the case of chases, to modify the speed of the chase).
 
 There are twelve possible Speed Masters and four Size Masters which allow you to separately control the parameters of different playbacks, if you need to – for example Rate Master 1 could be assigned to control position shapes, Rate Master 2 to dimmer shapes, and so on.
 
@@ -68,17 +68,14 @@ A playback is assigned to a Speed/Size Master by pressing <Keys.SoftKey>Effects<
 
 -   LocalClock - the playback is set to Tap Tempo mode and all other speed settings are ignored. Using Key Profiles you can assign one of the playback buttons to <Keys.SoftKey>Tap Tempo</Keys.SoftKey> mode, and then set the effect speed by tapping the button. Effects will synchronise to the tap.
 
-There is also a <strong>Rate Grand Master</strong> which, if used, proportionally controls the speed of any effect or chase (whether or not they have a BPM or rate master assigned).
+There is also a **Rate Grand Master** which, if used, proportionally controls the speed of any effect or chase (whether or not they have a BPM or rate master assigned).
 
 To use Speed or Size Masters you will need to assign some handles on the console to act as the Master faders:
 
-1.	Press <Keys.HardKey>Record</Keys.HardKey>.
-
-2.	Press <Keys.SoftKey>Create Master</Keys.SoftKey>.
-
-3. 	From the softkeys select the type of master you want to create.
-
-4.	Press the <strong>Select</strong> button of the handle you want to be the master. 
+1. Press <Keys.HardKey>Record</Keys.HardKey>.
+2. Press <Keys.SoftKey>Create Master</Keys.SoftKey>.
+3. From the softkeys select the type of master you want to create.
+4. Press the **Select** button of the handle you want to be the master. 
 
 -	On Pearl Expert or Tiger Touch 1, press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Disk</Keys.HardKey> together to switch the console to System mode and select <Keys.SoftKey>Assign Masters</Keys.SoftKey>. 
 
@@ -91,10 +88,10 @@ Speed or Size masters can have various scales, 0-100%, 0-200% and so on. A 0-200
 BPM masters can have multipliers or dividers set which allows you to vary how the tapped speed relates to the effect speed. To modify the options, press <Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> softkey) at the top level menu then press the blue button of the BPM master.
 
 Normally the BPM master fader sets the BPM, and the multiplier is shown below. Tapping the blue button will also set the BPM or you can enter BPM on the keypad and press the blue button of the master to set it. This is how a BPM master looks
-with the BPM set by the fader:
+with the BPM set by the fader:<br/>
 ![BPM Master on playback](/docs/images/BPM-Master-on-playback.png)   
 
-The <Keys.SoftKey>BPM On Fader</Keys.SoftKey>/<Keys.SoftKey>Multiplier on Fader</Keys.SoftKey> option sets the master so that the fader now controls the multiplier and the BPM is set by tapping. This is how the master looks when set to Multiplier on Fader:
+The <Keys.SoftKey>BPM On Fader</Keys.SoftKey>/<Keys.SoftKey>Multiplier on Fader</Keys.SoftKey> option sets the master so that the fader now controls the multiplier and the BPM is set by tapping. This is how the master looks when set to Multiplier on Fader:<br/>
 ![BPM Master multiplier on fader](/docs/images/BPM-Master-multiplier-on-fader.png)
 
 The <Keys.SoftKey>Multiplier Scale</Keys.SoftKey> option now allows you to set the range of multipliers/dividers which can be set on the fader -- from x2-/2 to x32-/32.
@@ -107,7 +104,7 @@ tempo, it would then be scaled down by the Rate Grand Master.
 
 ### Adjusting masters using the wheels
 
-You can adjust Intensity, Size, Rate and BPM masters from the wheels by pressing <Keys.HardKey>Connect</Keys.HardKey> followed by the <strong>Select</strong> button of the master. This is useful for making fine adjustments to the setting of a master. For a BPM master you can also adjust "Edge Sync" which allows you to nudge the synchronisation forwards or backwards.
+You can adjust Intensity, Size, Rate and BPM masters from the wheels by pressing <Keys.HardKey>Connect</Keys.HardKey> followed by the **Select** button of the master. This is useful for making fine adjustments to the setting of a master. For a BPM master you can also adjust "Edge Sync" which allows you to nudge the synchronisation forwards or backwards.
 
 While a wheel is connected you can touch up or down in the wheel display area to nudge the value up or down. Pressing the <Keys.HardKey>@</Keys.HardKey> button for the
 wheel opens a softkey menu where you can input a numerical value or <Keys.SoftKey>Release</Keys.SoftKey> the speed and multiplier to default values.
@@ -131,14 +128,10 @@ from the window select buttons.
 ![Empty playback groups workspace](/docs/images/Empty-playback-groups-workspace.png)
 
 1.	Press the <Keys.ContextKey>+</Keys.ContextKey> button. This creates a new empty playback group in the left pane.
-
 2.	Press the new group button (if this is your first group it will be <Keys.SoftKey>Playback Group 1</Keys.SoftKey>)
-
 3.	Press the <Keys.ContextKey>Pencil</Keys.ContextKey> button at the bottom right of the window to place the group into edit mode.
-
 4.	Select the playbacks to include in the group by pressing their select buttons once. 
 The playbacks will appear in the workspace as you select them.
-
 5.	Press <Keys.HardKey>Exit</Keys.HardKey> when you have finished adding playbacks.
 
 ![Empty playback groups workspace](/docs/images/Empty-playback-groups-workspace-2.png)
@@ -181,18 +174,18 @@ at the bottom of the workspace.
 
 ![Playback groups options workspace](/docs/images/Playback-groups-options-workspace.png)
 
-- <strong>Mutually Exclusive</strong> switches the exclusive mode on and off. This allows you to temporarily disable the exclusive action of a group without deleting the group.
-- <strong>Kill Point</strong> sets when other playbacks in the group will be killed when you fire a new playback:  
+- **Mutually Exclusive** switches the exclusive mode on and off. This allows you to temporarily disable the exclusive action of a group without deleting the group.
+- **Kill Point** sets when other playbacks in the group will be killed when you fire a new playback:  
   <Keys.SoftKey>Fired</Keys.SoftKey> - as soon as the playback passes the trigger point  
   <Keys.SoftKey>Fade Completed</Keys.SoftKey> – when the new playback has completed its fade in time.
 
-- <strong>Kill Action</strong> sets whether the playbacks being killed will use Release rules or not.  
+- **Kill Action** sets whether the playbacks being killed will use Release rules or not.  
   <Keys.SoftKey>Follow Playback</Keys.SoftKey> - each killed playback uses its own settings for release.  
   <Keys.SoftKey>Kill</Keys.SoftKey> - playbacks are always killed without any release.  
   <Keys.SoftKey>Release</Keys.SoftKey> – playbacks are always released using the settings in the mask and time below  
   <Keys.SoftKey>Release HTP</Keys.SoftKey> – HTP channels are released but LTP channels are killed.  
   
-- <strong>Release Mask</strong>, <strong>Release Time</strong> allow you to override the release settings for killed playbacks. 
+- **Release Mask**, **Release Time** allow you to override the release settings for killed playbacks. 
   If set to the default of <Keys.SoftKey>Playback</Keys.SoftKey> then the playback’s own settings are used. 
 
 ### Playback Group Workspace Display Options
@@ -200,15 +193,15 @@ at the bottom of the workspace.
 Using the workspace options menu (<Keys.ContextKey>Cog</Keys.ContextKey> button at the top of the window) you can set three 
 different display modes for the Playback Groups workspace:
 
-<Keys.SoftKey>View Mode All</Keys.SoftKey> – 2 panes with group buttons on the left and all the playbacks in each group shown on the right
+&nbsp;<Keys.SoftKey>View Mode All</Keys.SoftKey> – 2 panes with group buttons on the left and all the playbacks in each group shown on the right
 
 ![Playback groups display mode 1](/docs/images/Playback-groups-display-mode-1.png)
  
-<Keys.SoftKey>View Mode Single</Keys.SoftKey> – 2 panes with group buttons on the left, but only the playbacks in the currently selected group are shown on the right. Handy if you have groups with a lot of playbacks in each one.
+&nbsp;<Keys.SoftKey>View Mode Single</Keys.SoftKey> – 2 panes with group buttons on the left, but only the playbacks in the currently selected group are shown on the right. Handy if you have groups with a lot of playbacks in each one.
 
 ![Playback groups display mode 2](/docs/images/Playback-groups-display-mode-2.png)
  
-<Keys.SoftKey>View Mode Playbacks Only</Keys.SoftKey> – Single pane with just the playbacks for each group shown.
+&nbsp;<Keys.SoftKey>View Mode Playbacks Only</Keys.SoftKey> – Single pane with just the playbacks for each group shown.
 
 ![Playback groups display mode 3](/docs/images/Playback-groups-display-mode-3.png)
 
@@ -219,18 +212,13 @@ Fixture Group Masters
 You can assign a fader to control the master intensity of each fixture group. To do this you simply save (or move) the group button to a handle
 with a fader.
 
-The <strong>Select</strong> button will then select fixtures in the group and holding down the select button gives you softkey options to filter the selection according to a pattern.
+The **Select** button will then select fixtures in the group and holding down the select button gives you softkey options to filter the selection according to a pattern.
 
 Press <Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> softkey) and then the blue select button above the fader to set the fader mode to the following:
-
 -   Scale master (proportional control). Scale masters can be set to variable scales of 100%, 200%, 400%, 600% and 1000%. The higher settings allow you to increase an intensity above its recorded level.
-
 -   HTP (override level if higher than current output)
-
 -   Limit (sets hard limit)
-
 -   Take Over (place fixture and its intensity in programmer when level matched)
-
 -   Disabled (ignore fader)
 
 If the playback fader has a display area on the screen, the level and
@@ -241,15 +229,10 @@ mode of the master will be shown.
 When a group master is set to disabled or moved to a handle without a fader, it will become locked at the current fader level. Re-enable or move back to a fader to adjust the level.
 
 Using [Key Profiles](../system-settings/key-profiles.md), you can set different behaviour for the buttons of a group master -- the blue and grey buttons if it is on a fader handle, or the touch button if it's on screen.
-
 -   Flash Fixtures -- flashes the dimmer level of fixtures in the group to the level set by the group master fader, while the button is held
-
 -   Timed Flash -- as above, but fade in and out using fade times set using the "Edit Times" option for the group master
-
 -   Flash Master -- flashes the group master fader to full
-
 -   Timed Flash Master -- as above, but fade in and out using fade times
-
 -   Swop fixtures -- like Flash Fixtures, but turn off all other fixtures that aren't in the group
 
 If a Flash Master is configured, this will also master the group flash.
@@ -263,7 +246,7 @@ Scene Master
 
 The Scene Master allows you to preset an output state by firing a number of playbacks or making live changes, using the visualiser to see the effects but without anything happening on stage. When you are ready for the new state, you fade the Scene Master fader to the other end of its travel and the new state is output.
 
-You assign a handle to be Scene Master by pressing <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Master</Keys.SoftKey> (or from the <Keys.SoftKey>Assign Masters</Keys.SoftKey> button on the <strong>System</strong> menu). 
+You assign a handle to be Scene Master by pressing <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Master</Keys.SoftKey> (or from the <Keys.SoftKey>Assign Masters</Keys.SoftKey> button on the **System** menu). 
 
 The Diamond 9 has a dedicated T-bar control and buttons for Scene Master, with an associated display to show the status.
 
@@ -271,7 +254,7 @@ The Scene Master is set to Live mode by default which means that all changes are
 
 ![Scene Master (Live)](/docs/images/Scene-Master-Live.png)
 
-To <strong>enter</strong> preset mode, press the <strong>Select</strong> button of the Scene Master (or <Keys.HardKey>Enter/B</Keys.HardKey> below the T-bar on the Diamond 9). The display above the master will show "Preset" and the background turns purple. To <strong>exit</strong> preset mode and return to normal live operation, press the <strong>Select</strong> button again (or <Keys.HardKey>Exit/A</Keys.HardKey> below the T-bar on the Diamond 9).
+To **enter** preset mode, press the **Select** button of the Scene Master (or <Keys.HardKey>Enter/B</Keys.HardKey> below the T-bar on the Diamond 9). The display above the master will show "Preset" and the background turns purple. To **exit** preset mode and return to normal live operation, press the **Select** button again (or <Keys.HardKey>Exit/A</Keys.HardKey> below the T-bar on the Diamond 9).
 
 ![Scene Master (Preset)](/docs/images/Scene-Master-Preset.png)
 
@@ -282,17 +265,17 @@ If times are programmed for cues or palettes they will also run. Once the fader 
 
 Normally the Scene Master will auto-reverse so you can just keep
 presetting new states, moving the fader alternately up and down. You can
-also set it to require you to move it back to zero each time - press <Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> softkey) then the <strong>Select</strong> button of the master to change the options:
+also set it to require you to move it back to zero each time - press <Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> softkey) then the **Select** button of the master to change the options:
 
--   <Keys.SoftKey>Auto Commit and Invert</Keys.SoftKey> Commits the changes once the fader has
+-   &nbsp;<Keys.SoftKey>Auto Commit and Invert</Keys.SoftKey> Commits the changes once the fader has
     reached the end of travel. You can then preset a new state and fade
     the fader the other way to output it.
 
--   <Keys.SoftKey>Auto Commit</Keys.SoftKey> You always have to fade from 0 to 100% to output the
+-   &nbsp;<Keys.SoftKey>Auto Commit</Keys.SoftKey> You always have to fade from 0 to 100% to output the
     new state. The changes are committed at 100% and you then have to
     lower the fader to 0% to preset the next state.
 
--   <Keys.SoftKey>Manual Commit</Keys.SoftKey> The new state does not commit at 100% and if you
+-   &nbsp;<Keys.SoftKey>Manual Commit</Keys.SoftKey> The new state does not commit at 100% and if you
     move the fader back to 0 the output state will go back to what it
     was before. You need to manually commit the changes using the grey
     button (the button can be changed using Key Profiles).
@@ -391,11 +374,11 @@ Sometimes you might want to keep a playback accessible on a handle no
 matter which page you are on. The <Keys.SoftKey>Handle Paging</Keys.SoftKey> option in the <Keys.SoftKey>Options</Keys.SoftKey> menu lets you do that without having to copy the
 playback onto multiple pages.
 
-- <Keys.SoftKey>Locked</Keys.SoftKey> ensures the playback always appears on that handle no matter
+- &nbsp;<Keys.SoftKey>Locked</Keys.SoftKey> ensures the playback always appears on that handle no matter
 what page is selected. Any other playbacks programmed on that handle on
 other pages will not be accessible.
 
-- <Keys.SoftKey>Transparent Lock</Keys.SoftKey> means the playback will appear on the current page
+- &nbsp;<Keys.SoftKey>Transparent Lock</Keys.SoftKey> means the playback will appear on the current page
 only if the handle is empty on that page. If the handle is in use on the
 new page, then that playback will appear instead of the locked one. This
 can be useful if you only need the locked playback to appear on certain
@@ -461,13 +444,9 @@ your existing cues. Palette values can have fade times saved with them,
 or you can set a fade at show time for added effect.
 
 1. Select some fixtures which are already in use on stage.
-
 2. Type "2" (or any time, in seconds) on the numeric keypad.
-
 3. Touch a Palette button to recall a palette.
-
-4. The selected fixtures will change to the new palette over a time of
-2 seconds.
+4. The selected fixtures will change to the new palette over a time of 2 seconds.
 
 If the palette contains programmed times, you can change the Key Profile
 of the palette button to set whether the programmed times will be used
@@ -486,7 +465,7 @@ in which you selected them.
 
 If a fade time or an overlap are set this way they are applied only to 
 the immediate next palette recall. If you want to use a certain time or
-overlap for the next few palette recalls then set the values in the <strong>Palettes menu</strong>: press <Keys.HardKey>Palette</Keys.HardKey>, and set <Keys.SoftKey>Master Time</Keys.SoftKey> and <Keys.SoftKey>Master Overlap</Keys.SoftKey> with the softkeys. Also factory macros are provided
+overlap for the next few palette recalls then set the values in the **Palettes menu**: press <Keys.HardKey>Palette</Keys.HardKey>, and set <Keys.SoftKey>Master Time</Keys.SoftKey> and <Keys.SoftKey>Master Overlap</Keys.SoftKey> with the softkeys. Also factory macros are provided
 for some most common values, see [Master Time for Palettes](../palettes/timing-with-palettes#master-time-for-palettes).
 
 If you apply a palette as a "Quick Palette" (i.e. without selecting any

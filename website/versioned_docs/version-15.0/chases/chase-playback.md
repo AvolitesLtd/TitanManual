@@ -11,7 +11,7 @@ Playing Back a Chase
 --------------------
 
 To fire a chase, raise the fader of the playback. *(You can also use the pushbuttons
-to <strong>Flash</strong> or <strong>Swop</strong> the chase)*. The chase will start to run. The bottom line of the
+to **Flash** or **Swop** the chase)*. The chase will start to run. The bottom line of the
 screen relating to the playback fader shows the current cue number and
 speed of the chase.
 
@@ -39,7 +39,7 @@ Connecting a Playback for Control
 
 When you fire a chase or a cue list, the wheels and <Keys.HardKey>Stop</Keys.HardKey>/<Keys.HardKey>Go</Keys.HardKey> buttons are automatically
 allocated to control the playback - this is
-called <strong>connecting</strong> the playback. For a chase, the wheels control Speed and Crossfade. If you have more than one playback running,
+called **connecting** the playback. For a chase, the wheels control Speed and Crossfade. If you have more than one playback running,
 you can choose which one is connected to the controls using the <Keys.HardKey>Connect/Cue</Keys.HardKey> button (this button may also be labelled <Keys.HardKey>Connect</Keys.HardKey> or <Keys.HardKey>Cue</Keys.HardKey> depending on the console).
 
 -   Connect a different playback to the controls by pressing <Keys.HardKey>Connect/Cue</Keys.HardKey>
@@ -47,7 +47,7 @@ you can choose which one is connected to the controls using the <Keys.HardKey>Co
 
 -   Disconnect a playback from the controls by double pressing <Keys.HardKey>Connect/Cue</Keys.HardKey>.
 
--   You can turn off the <strong>"Auto Connect"</strong> option in the
+-   You can turn off the **"Auto Connect"** option in the
     [User Settings > Wheels menu](../system-settings/user-settings.md#auto-connect)
     if you don't want to connect to a playback when
     you fire it. You will have to use the <Keys.HardKey>Connect/Cue</Keys.HardKey> button to manually
@@ -60,14 +60,7 @@ you can choose which one is connected to the controls using the <Keys.HardKey>Co
     for a playback when you fire it. *This is useful to keep the
     correct view open as you swap between chases.*
 
-> Normally if you change the speed or crossfade of a chase on the wheels, the new
-    setting is saved. However you can set this change to be temporary,
-    so that when the show is reloaded the speed and fade will go back to
-    the previously saved settings. Go to [User Settings](../system-settings/user-settings.md)
-    (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>User
-    Settings</Keys.SoftKey>, in the Times tab set the option <strong>[Connected View Sets](../system-settings/user-settings.md#connected-view-sets)</strong> to
-    <strong>Temporary Speed</strong>. You can still save a temporary speed by pressing
-    <Keys.SoftKey>Save Temporary Speed</Keys.SoftKey> in the Set Times menu.
+> Normally if you change the speed or crossfade of a chase on the wheels, the new setting is saved. However you can set this change to be temporary, so that when the show is reloaded the speed and fade will go back to the previously saved settings. Go to [User Settings](../system-settings/user-settings.md) (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>User Settings</Keys.SoftKey>), in the Times tab set the option **[Connected View Sets](../system-settings/user-settings.md#connected-view-sets)** to **Temporary Speed**. You can still save a temporary speed by pressing <Keys.SoftKey>Save Temporary Speed</Keys.SoftKey> in the Set Times menu.
 
 Setting Speed and Crossfade for a Chase
 ---------------------------------------
@@ -78,7 +71,7 @@ display. You can also enter a speed from the keypad as described below.
 The last speed you set on the wheel is always remembered, you do not
 have to tell Titan to save it.
 
-&nbsp;<strong>Crossfade</strong> is the "slope" between cues; with a crossfade of 0, the
+**Crossfade** is the "slope" between cues; with a crossfade of 0, the
 fixtures snap instantly to the next cue, but with a crossfade of 100,
 the fixtures spend the whole cue time fading to the next cue. With a
 crossfade of 50, the fixtures delay for half the cue time and fade for
@@ -88,18 +81,10 @@ the other half of the time.
 
 You set the crossfade and speed as follows:
 
-1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> from the top level menu then the <strong>Select</strong> button of
+1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> from the top level menu then the **Select** button of
 the chase.
-
-2. To set the <strong>crossfade</strong>, press <Keys.SoftKey>XFade</Keys.SoftKey> and type the fade from <strong>0 - 100</strong>.
-
-*0 = no fade (the chase will "snap"), 100 = max fade (the chase will
-move continuously from step to step).*
-
-3. To set the <strong>speed</strong>, press <Keys.SoftKey>Speed</Keys.SoftKey>, type the new speed, then press <Keys.HardKey>Enter</Keys.HardKey>.
-
-*The speed can be set in Beats Per Minute (BPM) or seconds
-depending in the [User Settings](../system-settings/user-settings.md).*
+2. To set the **crossfade**, press <Keys.SoftKey>XFade</Keys.SoftKey> and type the fade from **0 - 100**. *0 = no fade (the chase will "snap"), 100 = max fade (the chase will move continuously from step to step).*
+3. To set the **speed**, press <Keys.SoftKey>Speed</Keys.SoftKey>, type the new speed, then press <Keys.HardKey>Enter</Keys.HardKey>. *The speed can be set in Beats Per Minute (BPM) or seconds depending in the [User Settings](../system-settings/user-settings.md).*
 
 There are other options you can set for the chase from this menu
 including [Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap),
@@ -128,7 +113,7 @@ pressing the <Keys.HardKey>Stop</Keys.HardKey> button next to the wheels. Press 
 to resume playback of the chase.
 
 While the chase is stopped you can use the <Keys.HardKey>Prev Step</Keys.HardKey>/<Keys.HardKey>Next Step</Keys.HardKey>
-buttons <em>(← and → on some consoles)</em> next to the <Keys.HardKey>Connect/Cue</Keys.HardKey> button to
+buttons *(← and → on some consoles)* next to the <Keys.HardKey>Connect/Cue</Keys.HardKey> button to
 move to the next or previous step. The programmed fade time will be used
 when moving between steps, unless you enable the [user setting <Keys.SoftKey>Chase
 Snap</Keys.SoftKey>](../system-settings/user-settings.md#chase-snap), or press <Keys.HardKey>Snap</Keys.HardKey> button if the console has one.
@@ -137,24 +122,19 @@ You can also configure the blue and grey buttons of the playback handle
 to be Stop and Go. This uses the [Key Profiles function](../system-settings/key-profiles.md).
 
 1. Hold <Keys.HardKey>Avo</Keys.HardKey> and press <Keys.SoftKey>Edit Current Key Profile</Keys.SoftKey>.
-
 2. If you are using the default [Key Profile] which is not editable, you
 will be prompted to add a new profile.
-
 3. Press <Keys.SoftKey>Chases</Keys.SoftKey> then choose either the Blue key or the Grey key.
-
-4. Select <Keys.SoftKey>Go</Keys.SoftKey> or <Keys.SoftKey>Stop</Keys.SoftKey> from the list of functions. Then press <Keys.HardKey>Exit</Keys.HardKey>
-and set the function for the other key if required.
-
+4. Select <Keys.SoftKey>Go</Keys.SoftKey> or <Keys.SoftKey>Stop</Keys.SoftKey> from the list of functions. Then press <Keys.HardKey>Exit</Keys.HardKey> and set the function for the other key if required.
 5. Press <Keys.HardKey>Exit</Keys.HardKey> to continue using the console.
 
 Changing Chase Direction
 ------------------------
 
 The <Keys.HardKey>Prev Step</Keys.HardKey>/<Keys.HardKey>Next Step</Keys.HardKey> (← and → on some consoles) buttons next
-to <Keys.HardKey>Connect/Cue</Keys.HardKey> set the direction of the connected chase. <em>If fitted</em>, the
-↔ double-ended arrow button sets <strong>bounce</strong> mode where the chase will run to
-the end then reverse. The <Keys.HardKey>Review</Keys.HardKey> key sets the chase to <strong>random</strong>.
+to <Keys.HardKey>Connect/Cue</Keys.HardKey> set the direction of the connected chase. *If fitted*, the
+↔ double-ended arrow button sets **bounce** mode where the chase will run to
+the end then reverse. The <Keys.HardKey>Review</Keys.HardKey> key sets the chase to **random**.
 
 Jumping to a Step
 -----------------

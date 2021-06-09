@@ -9,7 +9,7 @@ import Video from '@site/src/components/video.tsx';
 
 The main area of the screen contains the workspace windows. These
 contain buttons and controls for selecting fixtures, groups, palettes, and playbacks,
-for controlling fixture attributes, showing cue lists, or the visualiser, in fact there is
+for controlling fixture attributes, showing cue lists, or the visualiser - in fact there is
 a workspace window for every feature of the console.
 
 The windows can be freely arranged and each monitor can have its own arrangement of windows.
@@ -28,8 +28,11 @@ Double press the <Keys.HardKey>Open/View</Keys.HardKey> button to show the works
 want the workspace, press the appropriate button and the window will open on that monitor.
 
 The <Keys.HardKey>Open/View</Keys.HardKey> button is labelled differently on some consoles: 
+
 - Diamond 9: <Keys.HardKey>View</Keys.HardKey>. There's an additional <Keys.HardKey>Open</Keys.HardKey> button which is the same as double pressing <Keys.HardKey>View</Keys.HardKey>.
+
 - Quartz, Titan Mobile: <Keys.HardKey>Open</Keys.HardKey>
+
 - Titan Go, Tiger Touch 1, Pearl Expert: <Keys.HardKey>View</Keys.HardKey>
 
 ![Workspace Window Selection](/docs/images/Workspace-Windows-Icons.png)
@@ -65,7 +68,7 @@ View window showing patch details for that fixture.
 At the top right of each workspace window are three or four buttons
 which access other functions for the window.
 
-The <strong>Window Appearance Options</strong> button (<Keys.ContextKey>Cog</Keys.ContextKey> button) lets you select the
+The **Window Appearance Options** button (<Keys.ContextKey>Cog</Keys.ContextKey> button) lets you select the
 standard window sizes and positions (top left quarter, top right quarter etc.)
 Buttons are also shown allowing you
 to set the button size and the text size of the buttons in the window, and move the
@@ -110,8 +113,8 @@ use the <Keys.SoftKey>Close All</Keys.SoftKey> softkey.
 
 ### Context Menu Buttons
 
-On all consoles apart from Sapphire Touch and Titan Go, <em></em>context menu 
-buttons<em></em> appear which contain useful functions for the current
+On all consoles apart from Sapphire Touch and Titan Go, **context menu 
+buttons** appear which contain useful functions for the current
 active window and change depending on the window. 
 
 On Diamond 9 the context menu buttons are in the top left hand corner of the right
@@ -188,9 +191,9 @@ will behave if you load more windows, and to be able to target particular window
 -   <Keys.SoftKey>Recall as Recorded / Where Selected</Keys.SoftKey> only appears if the Screens option
     is set to record only a single screen, and sets whether the workspace will
 	recall onto the screen where you recorded it (button shows S + the screen number), or if it will recall onto
-	the screen where you selected it (button shows a target symbol).
+	the screen where you selected it (button shows a target symbol in the corner).
 	
-![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
+	![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
 
 -   To delete a workspace button, press <Keys.HardKey>Open/View</Keys.HardKey>, <Keys.HardKey>Delete</Keys.HardKey>, then
     the workspace button to be deleted.
@@ -201,15 +204,11 @@ will behave if you load more windows, and to be able to target particular window
 	allowing you to recall it onto a different screen.
 	
 
-> <strong>Screen numbering</strong>
->
-> On consoles with a single internal screen, that is (1) and the external screen is (2).
->
-> On Diamond 9 the right main screen is (1), middle is (2), left (not D9-215) is (3), Editor screen is (4), Video preview screens are (7) (6) (5), external screens are left=(9) and right=(8).
->
-> On Arena the main screen is (1), the mini screen (2) and the external screen (3). 
->
-> On Sapphire Touch the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).
+> **Screen numbering**  <br/>
+On consoles with a single internal screen, that is (1) and the external screen is (2). <br/>
+On Diamond 9 the right main screen is (1), middle is (2), left (not D9-215) is (3), Editor screen is (4), Video preview screens are (7) (6) (5), external screens are left=(9) and right=(8).<br/>
+On Arena the main screen is (1), the mini screen (2) and the external screen (3). <br/>
+On Sapphire Touch the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).
 
 As an example of setting up a workspace, suppose while programming you
 wanted to be able to access fixtures, position palettes, fixture
@@ -240,7 +239,9 @@ store it.
 
 ## Quick Record
 
-![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png) Some windows - Groups, Workspaces,
+![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png) 
+
+Some windows - Groups, Workspaces,
 and all the Palette windows - have a Quick Record function.
 Set up what you want to record, then touch or click an empty button
 once. The button will light up red with a + sign. At this point you can
@@ -324,7 +325,7 @@ NDI video streams, or can also be used as extra workspace windows.
 
 To configure a screen, double press <Keys.HardKey>Open/View</Keys.HardKey> and window selection buttons will pop up
 on each screen, touch the type of window you want to configure the view. For NDI Preview select
-&nbsp;<strong>Video Preview</strong> (1 2 or 3 depending which screen you are setting). To select an NDI stream,
+**Video Preview** (1 2 or 3 depending which screen you are setting). To select an NDI stream,
 tap on the screen and you will then see
 thumbnails of the available NDI streams to select. See [Media Viewer](../synergy/operating-synergy.md#media-viewer)
 in the Ai section for more details.

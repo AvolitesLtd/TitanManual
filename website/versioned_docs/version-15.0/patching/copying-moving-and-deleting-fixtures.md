@@ -24,12 +24,10 @@ allocated) so you will need to set an address before you can use it (see
 Move is useful for tidying up the console.
 
 1. Press the <Keys.HardKey>Copy</Keys.HardKey> or <Keys.HardKey>Move</Keys.HardKey> button (on consoles which don't have
-	a <strong>Move</strong> button press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Copy</Keys.HardKey>).
-
+	a **Move** button press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Copy</Keys.HardKey>).
 2. Press the Select button of the fixture you want to copy/move. You
 can select multiple fixtures - use the <Keys.HardKey>And</Keys.HardKey> button to
 add more fixtures to the selection.
-
 3. Press the empty Select button where you want it to go.
 
 -   The <Keys.HardKey>Menu Latch</Keys.HardKey> button latches the Copy or Move menu, so you
@@ -62,11 +60,8 @@ something else.
 > All programming for the fixture is also deleted. You cannot undo deletion of a fixture or get the programming back by repatching a fixture to the same handle. If you might need the fixtures again later, move them to an unused fixture page.
 
 1. Enter Patch mode by pressing the <Keys.HardKey>Patch</Keys.HardKey> button.
-
 2. Press the <Keys.HardKey>Delete</Keys.HardKey> button.
-
 3. Press the Select button of the fixture you want to delete.
-
 4. The button (if a touch button) will light up red and the console asks for confirmation.
 Press the Select button again to confirm.
 

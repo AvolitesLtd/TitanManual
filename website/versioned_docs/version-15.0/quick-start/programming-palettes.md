@@ -19,7 +19,7 @@ storing in a palette touch button the mask is automatically set.
 Touch a button in one of the Colours/Positions/Gobos workspace windows to
 store the palette.
 
-See [Creating Palettes](../palettes/creating-palettes.md)
+See [Creating Palettes](../palettes/creating-palettes.md) for more details.
 
 To recall palette, select fixtures, select recall mask using Attribute
 Bank buttons, press palette button.

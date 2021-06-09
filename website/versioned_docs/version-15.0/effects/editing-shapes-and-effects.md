@@ -42,13 +42,13 @@ Cue View window.
 ![Playback View for Cue with Shape](/docs/images/Playback-View-for-Cue-with-Shape.png)
 
 To view and/or edit the parameters of the shape or effect, click on the
-&nbsp;<strong>View Shape</strong> or <strong>View Pixel Effect</strong> button. If more than one shape or effect
-is stored, the button will show <Keys.SoftKey>...</Keys.SoftKey>. A <strong>Shape View window</strong> or <em></em>Pixel
-Mapper Effect View window<em></em> will open, listing the shapes or effects in
+**View Shape** or **View Pixel Effect** button. If more than one shape or effect
+is stored, the button will show <Keys.SoftKey>...</Keys.SoftKey>. A **Shape View window** or **Pixel
+Mapper Effect View window** will open, listing the shapes or effects in
 the cue. You can then edit parameters of the shape or effect by clicking
 on the parameter and editing on the softkeys.
 
-In the Shape or Effect View window you can click on <strong>View Fixtures</strong> to
+In the Shape or Effect View window you can click on **View Fixtures** to
 open a window showing a list of the fixtures on which the shape or
 effect is programmed.
 
@@ -66,16 +66,10 @@ one shape is running in the programmer, you can select which one is
 connected to the control wheels using Shape option <Keys.SoftKey>Edit</Keys.SoftKey>.
 
 1. If you are not in the Shape menu, press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then <Keys.SoftKey>Shape Generator</Keys.SoftKey> at the top menu.
-
 2. Press <Keys.SoftKey>Edit</Keys.SoftKey>.
-
 3. Press <Keys.SoftKey>Select shape</Keys.SoftKey>
-
 4. By the softkeys is a list of the currently running shapes.
-
-5. Press a softkey to make the shape active. The active shape is
-highlighted.
-
+5. Press a softkey to make the shape active. The active shape is highlighted.
 6. Press <Keys.HardKey>Enter</Keys.HardKey> to get back to the Shape Generator menu.
 
 >   If you applied the same shape several times to different fixtures,
@@ -109,8 +103,8 @@ will contain a link to the group and any changes later made to the group
 such as changing the fixture order or layout will affect the shape.
 
 If you need to add fixtures to the group without breaking the group
-link, select the fixtures then press <Keys.HardKey>Record</Keys.HardKey>, <strong>Group handle</strong> button, <Keys.SoftKey>Merge</Keys.SoftKey>. To change the fixtures to a new selection, select them then
-press <Keys.HardKey>Record</Keys.HardKey>, <strong>Group handle</strong> button, <Keys.SoftKey>Replace</Keys.SoftKey>. You can also use <Keys.HardKey>Group</Keys.HardKey>, <Keys.SoftKey>Edit Groups</Keys.SoftKey>.
+link, select the fixtures then press <Keys.HardKey>Record</Keys.HardKey>, **Group handle** button, <Keys.SoftKey>Merge</Keys.SoftKey>. To change the fixtures to a new selection, select them then
+press <Keys.HardKey>Record</Keys.HardKey>, **Group handle** button, <Keys.SoftKey>Replace</Keys.SoftKey>. You can also use <Keys.HardKey>Group</Keys.HardKey>, <Keys.SoftKey>Edit Groups</Keys.SoftKey>.
 
 If you want to change the fixture order for a particular shape without
 changing the order in the group, which might affect other shapes, then

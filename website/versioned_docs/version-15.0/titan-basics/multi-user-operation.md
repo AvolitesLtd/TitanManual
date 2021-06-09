@@ -15,7 +15,7 @@ Users
 -----
 
 Each show can have multiple users. Each user has their own user
-settings, key profiles and handle layout (known as a <em>handle world</em>).
+settings, key profiles and handle layout (known as a *handle world*).
 This provides a quick way to switch between preferred user settings and
 handle layouts, for example at a festival or other event where there are
 a number of operators.
@@ -30,15 +30,11 @@ key profile.
 To change or create users, go to the Users menu.
 
 1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
-
 2. Press <Keys.SoftKey>Users</Keys.SoftKey>.
-
 3. To switch to a different user, press <Keys.SoftKey>Change Current User</Keys.SoftKey> and
 select a new user from the list (the current user is highlighted).
-
 4. To create a new user, press <Keys.SoftKey>Add a User</Keys.SoftKey>, enter a name for the new
 user and press <Keys.SoftKey>OK</Keys.SoftKey>.
-
 5. You can also quickly change user from the root menu by holding <Keys.HardKey>Avo</Keys.HardKey> and pressing <Keys.SoftKey>User ... </Keys.SoftKey>
 
 -   If multiple consoles are connected in a collaborative session, any
@@ -64,16 +60,12 @@ world is called "Mapping World 1".
 Handle Worlds are managed from the Disk menu.
 
 1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
-
 2. Press <Keys.SoftKey>Handle Worlds</Keys.SoftKey>.
-
 3. To switch to a different handle world, press <Keys.SoftKey>Select Handle World</Keys.SoftKey>
 and select a new handle world from the list (the current one is
 highlighted).
-
 4. To create a new handle world, press <Keys.SoftKey>Add Handle World</Keys.SoftKey>, enter a
 name for the new world and press <Keys.SoftKey>OK</Keys.SoftKey>.
-
 5. <Keys.SoftKey>Delete Handle World</Keys.SoftKey> will delete the world, any handles used only
 in that world will become unassigned (and can be retrieved using the
 Show Library if needed).
@@ -101,17 +93,12 @@ For details of how to connect Titan consoles together on a network, see
 [Networking the Console](../networking.md).
 
 1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
-
 2. Press <Keys.SoftKey>TitanNet Sessions</Keys.SoftKey>.
-
 3. <Keys.SoftKey>Sessions View</Keys.SoftKey> opens a window that shows you how your console is
 connected to others, and what other TitanNet sessions are available. You
 can touch on another console in the window and click <Keys.SoftKey>Connect</Keys.SoftKey> to
 start a connection, or use the other buttons to leave a session.
-
-4. Or select <Keys.SoftKey>Backup</Keys.SoftKey>, <Keys.SoftKey>Multi-User</Keys.SoftKey> or <Keys.SoftKey>Backup & Multi-User</Keys.SoftKey> to
-show a list of sessions which you can connect to. Click on the session
-to start the connection.
+4. Or select <Keys.SoftKey>Backup</Keys.SoftKey>, <Keys.SoftKey>Multi-User</Keys.SoftKey> or <Keys.SoftKey>Backup & Multi-User</Keys.SoftKey> to show a list of sessions which you can connect to. Click on the session to start the connection.
 
 ![SessionsView](/docs/images/SessionsView.png)
 
@@ -151,7 +138,7 @@ last console to change any attribute will take over control of the
 fixture.
 
 Slaves can leave a session using the <Keys.SoftKey>Leave Session</Keys.SoftKey> button in the
-&nbsp;<strong>Sessions View</strong> or in the <strong>TitanNet menu</strong>. The console will restore the
+**Sessions View** or in the **TitanNet menu**. The console will restore the
 local show it had loaded prior to joining. Master consoles have the
 option to <Keys.SoftKey>Terminate Session</Keys.SoftKey>.
 
@@ -167,7 +154,7 @@ backup session.
 
 ### Titan Mobile
 
-&nbsp;<strong>Network Discovery</strong> must be enabled in the <strong>Windows User Profile</strong> you
+**Network Discovery** must be enabled in the **Windows User Profile** you
 are using or consoles will not be able to see each other on the network.
-Ensure the Windows option <strong>'Turn on network discovery'</strong> is selected in
-the <strong>Network Sharing</strong> options.
+Ensure the Windows option **'Turn on network discovery'** is selected in
+the **Network Sharing** options.
