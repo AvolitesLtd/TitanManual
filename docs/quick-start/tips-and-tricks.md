@@ -76,4 +76,4 @@ this address as the next patch address
 issues
 -  Set Desk Lamp or Screen Brightness: Enter the system menu (<Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>DISK</Keys.HardKey>) use wheels to adjust ( only some
 consoles have brightness control)
--  Hard Key Not Working: Use the Virtual Panel from the {Tools} menu to get you thru till it can be repaired.
+-  Hard Key Not Working: Use the Virtual Panel from the <Keys.SoftKey>Tools</Keys.SoftKey> panel in the top toolbar to get you through till it can be repaired.

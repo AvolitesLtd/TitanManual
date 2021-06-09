@@ -41,7 +41,7 @@ Point please refer to the documentation provided with it.
 > We advise using a dedicated wireless access point rather than a
 wireless router (ADSL router). Although routers are cheaper, the
 WiFi connection through to the Ethernet can be flaky. Some routers
-can be switched to an <em>"access point"</em> mode to avoid this problem.
+can be switched to an *"access point"* mode to avoid this problem.
 
 You need to set up the network settings on the Wireless Access Point,
 the mobile device and the console so that they can communicate with each
@@ -51,20 +51,15 @@ are similar.
 1. In the access point's admin screen, give the access point an IP
 address such as `10.0.0.1`, make sure wireless is switched on and enable
 the DHCP server. Take note of the name of the wireless network (SSID).
-
 2. Connect an Ethernet cable from the back of the console to the access
 point.
-
-3. Set the IP address of the console: from the <strong>System</strong> menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), select <Keys.SoftKey>Network Settings</Keys.SoftKey>, press <Keys.SoftKey>Local Area Connection</Keys.SoftKey>, then press <Keys.SoftKey>Set
-IP 10.\<em>.\</em>.\*</Keys.SoftKey>.
-
+3. Set the IP address of the console: from the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), select <Keys.SoftKey>Network Settings</Keys.SoftKey>, press <Keys.SoftKey>Local Area Connection</Keys.SoftKey>, then press <Keys.SoftKey>Set
+IP 10.\*.\*.\*</Keys.SoftKey>.
 4. On the mobile device, go to WiFi settings or Network Settings and
 ensure WiFi is set to on.
-
 5. Select the wireless network from the list, the name you took note of
 earlier. The mobile device should automatically get an IP address from
 the access point.
-
 6. Run the Titan Remote app. You should see the console listed.
 
 > If you are using the remote at show time, on the Access Point you 

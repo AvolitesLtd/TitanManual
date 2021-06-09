@@ -23,28 +23,24 @@ the left of the menu. The modes are:
 -   All / Stage / Programmer / Selected: lets you filter which fixtures
     are shown in the list. Stage lists all fixtures with dimmer above
     zero.
-
 -   Sort: Sets the list order as User Number, Last Selected or DMX
     Address
-
 -   Open Intensity View: Opens the intensity view window. You can swap
     back to the Channel Grid by pressing the Open Channel Grid button in
     that window which is in the same position.
-
 -   Show/Hide Palettes: lets you show which palettes are allocated to
     fixture attributes
-
 -   Playbacks / Levels / Shapes / Effects / Times: Only one of these
     buttons can be selected, and sets what is displayed in the columns.
 
-You can <strong>select</strong> fixtures by touching the fixture names on the left of
+You can **select** fixtures by touching the fixture names on the left of
 the screen, or if you select any fixture values, the appropriate fixture
 will automatically be selected.
 
-You can <strong>clear</strong> attributes in the channel grid by selecting them
+You can **clear** attributes in the channel grid by selecting them
 (touch or touch and drag to select multiple attributes). Then press <Keys.HardKey>Clear</Keys.HardKey>.
 
-You can <strong>edit values</strong> by selecting one or more values in the grid,
+You can **edit values** by selecting one or more values in the grid,
 then modify the values using the wheels, or type a new value on the
 numeric keypad and press <Keys.HardKey>Enter</Keys.HardKey>.
 
@@ -98,26 +94,22 @@ show the automatic fixture colours, see below.
 -   Press <Keys.HardKey>Open/View</Keys.HardKey> followed by a fixture button to show more
     detailed information about the fixture.
 
+### Filtering the fixtures shown
+
 The context menu options give you settings to change how the window is
 displayed.
 
 The first option lets you only show fixtures in a particular state:
 
 -   All - all fixtures (default)
-
 -   Stage - fixtures with intensity above zero
-
 -   Programmer - fixtures in the programmer
-
 -   Selected - fixtures which are selected
-
 -   Live cues - only intensities coming from active cues
-
 -   Connected cue - only fixtures in the currently connected cue (for cue lists or chases)
-
 -   Frozen - fixtures with frozen intensity
 
-The second option changes sort order as described above
+The second option changes sort order as described above.
 
 <Keys.SoftKey>Search</Keys.SoftKey> allows you to enter characters to search for in the legend or
 user number, matching fixtures will be shown as you type. When Search is
@@ -133,7 +125,9 @@ remove the filter or click on the bar to change the group/playback.
 
 &nbsp;<Keys.SoftKey>Open Channel Grid</Keys.SoftKey> opens the [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window).
 
-In the <strong>Window Appearance Settings</strong> (<Keys.ContextKey>Cog</Keys.ContextKey> button) there are further
+### Window appearance settings
+
+In the **Window Appearance Settings** (<Keys.ContextKey>Cog</Keys.ContextKey> button) there are further
 display options. Turning off some of the options will reduce the size of
 each fixture button which may be useful if you want to get more fixtures
 on the screen.

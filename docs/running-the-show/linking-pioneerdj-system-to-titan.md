@@ -11,11 +11,11 @@ Using the Pioneer Pro DJ Link Bridge software you can automate BPM masters on th
 Titan console from a network-equipped Pioneer DJ system. You can either run the 
 bridge software on the console itself or on an intermediate laptop.
 
-> Pioneer DJ integration is compatible with the following Pioneer hardware:
->    - CDJ-TOUR1
->    - DJM-TOUR1
->    - CDJ-2000NXS2
->    - DJM-900NXS2 
+> Pioneer DJ integration is compatible with the following Pioneer hardware:<br/>
+  CDJ-TOUR1<br/>
+  DJM-TOUR1<br/>
+  CDJ-2000NXS2<br/>
+  DJM-900NXS2 
 
 <Video videoId="vwr1DBJjBbw" title="PioneerDJ Integration" />
 
@@ -25,7 +25,7 @@ Connecting Titan to the Pioneer System
 You need to get the console and the Pioneer equipment connected to the same network. 
 The Pioneer equipment has some limitations with its network IP address - it either 
 needs to be assigned an address using DHCP or it uses an automatic address in the 
-range 169.254.\<em>.\</em> - which means that if you are already using networking to control 
+range 169.254.\*.\* - which means that if you are already using networking to control 
 the lights (Art-Net or sACN) things can get a bit complicated as many lighting products 
 cannot use that address range.
 
@@ -37,10 +37,10 @@ Bridge software on the console itself. If your console includes an Ethernet swit
 you can connect the “Extension” Ethernet socket on the Pioneer equipment directly 
 to the console, otherwise you need to go through an external switch.
 
-Run the Pro DJ Link Bridge software from the <strong>Tools \> Additional Programs</strong> menu on the console.
+Run the Pro DJ Link Bridge software from the **Tools \> Additional Programs** menu on the console.
 
 - You can set the Bridge software to run automatically when the console powers up 
-using the <strong>Tools \> Control Panel \> Run on Startup</strong> menu option. This is useful 
+using the **Tools \> Control Panel \> Run on Startup** menu option. This is useful 
 in club environments where the console is always linked.
 
 ![Pro-DJ link bridge command on shell menu](/docs/images/Pro-DJ-link-bridge-command-on-shell-menu-2.png)
@@ -56,7 +56,7 @@ bridge is set to 169.254.225.212 as in the image below, set the console to 169.2
 
 -   Once you have everything connected up and have got all the IP addresses right, 
     the bridge software should show connections for both the Titan console and the DJ mixer.
--   Some Art-Net / sACN equipment can be configured to run on the 169.254.\<em>.\</em> address range, 
+-   Some Art-Net / sACN equipment can be configured to run on the 169.254.\*.\* address range, 
     in which case you can run everything on the same network.
 
 ### Pioneer Bridge running on separate computer
@@ -100,9 +100,9 @@ window will change to fill the space.
 
 -   The <Keys.SoftKey>Change Layout</Keys.SoftKey> button allows you to select the view in the workspace. 
     This is useful if you want a smaller window:  
-    -   <Keys.SoftKey>Full</Keys.SoftKey> – shows all the currently playing tracks  
-    -   <Keys.SoftKey>Master</Keys.SoftKey> – shows only the waveform of the master track  
-    -   <Keys.SoftKey>Condensed</Keys.SoftKey> - shows details of all the tracks at the bottom, but only 
+    -   &nbsp;<Keys.SoftKey>Full</Keys.SoftKey> – shows all the currently playing tracks  
+    -   &nbsp;<Keys.SoftKey>Master</Keys.SoftKey> – shows only the waveform of the master track  
+    -   &nbsp;<Keys.SoftKey>Condensed</Keys.SoftKey> - shows details of all the tracks at the bottom, but only 
         shows the waveform of the master track. You can change the master track 
         by pressing the track number in the Track Details area.  
 
@@ -114,10 +114,10 @@ automatically controlled by the track BPM playing on the Pioneer devices. See
 [BPM Master](../running-the-show/playback-controls.md#bpm-master-options) 
 section for how to set up a BPM master.
 
-Go to the <strong>System</strong> menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>Triggers</Keys.SoftKey>. The Triggers window will open.
-1.  Add a new mapping using the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom of the <em>left hand</em> 
+Go to the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>Triggers</Keys.SoftKey>. The Triggers window will open.
+1.  Add a new mapping using the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom of the *left hand* 
     column, and enter a name such as “Pioneer”.
-2.  Add a trigger to the mapping using the <Keys.ContextKey>+</Keys.ContextKey> button in the <em>right hand</em> column 
+2.  Add a trigger to the mapping using the <Keys.ContextKey>+</Keys.ContextKey> button in the *right hand* column 
     or softkey <Keys.SoftKey>Add trigger</Keys.SoftKey>.
 3.  Select <Keys.SoftKey>Trigger Type</Keys.SoftKey> as <Keys.SoftKey>Item</Keys.SoftKey>.
 4.  Press the button for the BPM master you want to control.

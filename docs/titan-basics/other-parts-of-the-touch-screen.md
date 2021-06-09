@@ -13,7 +13,7 @@ The Menu/Softkeys
 On all consoles except Diamond 9, the right hand side of the main touch screen is used for the main menu
 display. These are known as the "Softkeys" and are lettered A-G. On the Diamond 9
 there is a separate Menu touchscreen for the system prompt and the menu
-softkeys to the left of the right-hand screen. <em>(Pearl Expert also has a separate display for the menu.)</em>
+softkeys to the left of the right-hand screen. *(Pearl Expert also has a separate display for the menu.)*
 
 ![Titan Touch Screen User Interface](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
@@ -23,7 +23,7 @@ either touch the key on screen, or most consoles provide real buttons
 next to the screen.
 
 The vertical bar to the left of the softkeys shows you which menu you
-are currently in. You can \'latch\' the menu to keep the current command
+are currently in. You can 'latch' the menu to keep the current command
 active (so that you don't have to keep reselecting it) by pressing the <Keys.HardKey>Menu Latch</Keys.HardKey> button (<Keys.HardKey>ML Menu</Keys.HardKey> on Pearl Expert & Tiger Touch 1). The menu
 bar turns red when latched. This is useful for example when copying or moving
 playbacks to rearrange the console.
@@ -57,28 +57,12 @@ box) and which are currently modified (blue circle).
 The appearance of the softkeys varies to indicate the type of actions
 available:
 
-  ![Softkey - Action](/docs/images/Softkey-Action.png)                                                                      
-
-
-  <strong>Action button</strong> - console will carry out the action shown                                     
-
-
-  ![Softkey - Option](/docs/images/Softkey-Option.png) 
-
-
-  <strong>Option button</strong> - cycles through a range of options   
-
-
-  ![Softkey - New Menu](/docs/images/Softkey-New-Menu.png) 
-
-
-  <strong>New menu button</strong> - jumps to a new menu   
-
-
-  ![Softkey - Text Entry](/docs/images/Softkey-Text-Entry.png) 
-
-
-  <strong>Text entry button</strong> - press and enter text using the touch keyboard
+  |   Appearance   | Meaning          |
+  |     ---   | ---          |
+  |   ![Softkey - Action](/docs/images/Softkey-Action.png)   |   **Action button** - console will carry out the action shown      |
+  |   ![Softkey - Option](/docs/images/Softkey-Option.png)   |   **Option button** - cycles through a range of options     |
+  |   ![Softkey - New Menu](/docs/images/Softkey-New-Menu.png)   |   **New menu button** - jumps to a new menu     |
+  |   ![Softkey - Text Entry](/docs/images/Softkey-Text-Entry.png)   |   **Text entry button** - press and enter text using the touch keyboard   |
 
 The Toolbar
 -----------
@@ -101,30 +85,30 @@ pull-out keyboard.
 
 ---
 
-If you click/touch on \'Tools\', you will get a menu giving you access
+If you click/touch on 'Tools', you will get a menu giving you access
 to some configuration functions (these options may change slightly
 depending on the console).
 
-&nbsp;<strong>About</strong> gives you information about the software version.
+**About** gives you information about the software version.
 
-&nbsp;<strong>Help</strong> shows you the online manual.
+**Help** shows you the online manual.
 
-&nbsp;<strong>Control Panel</strong> opens a submenu allowing changes to monitor settings
+**Control Panel** opens a submenu allowing changes to monitor settings
 and to the USB expert console which links the front panel controls to
-the system. The \'More...\' option opens Windows Control Panel allowing
+the system. The 'More...' option opens Windows Control Panel allowing
 you to change the operating system configuration.
 
-&nbsp;<strong>Touch Screen Setup</strong> (in Control Panel) opens the setup utility which
+**Touch Screen Setup** (in Control Panel) opens the setup utility which
 allows you to align touch positions on the screen.
 
-&nbsp;<strong>USB Expert Console</strong> (in Control Panel) sets up the connection between
+**USB Expert Console** (in Control Panel) sets up the connection between
 the front panel controls and the software. If you are having problems
 this can be used to troubleshoot.
 
-&nbsp;<strong>Folders</strong> opens the file explorer. You might need this when backing up
+**Folders** opens the file explorer. You might need this when backing up
 show files or when updating the operating software.
 
-&nbsp;<strong>Switch Task</strong> allows you to show other programs (may be needed when
+**Switch Task** allows you to show other programs (may be needed when
 upgrading software) on the touch screen or move them between screens.
 Touch the Switch Screen icon to swap the program between different
 screens. Touch the Centre icon to centre the window on the screen. Touch
@@ -133,15 +117,15 @@ depending on the console.
 
 ![Switch Task](/docs/images/Switch-Task.png)
 
-&nbsp;<strong>Switch Software</strong> allows you to run different versions of Titan
+**Switch Software** allows you to run different versions of Titan
 software (which you will need to install yourself, different versions
 are not installed by default). This can be useful if you need to load
 shows from older versions.
 
-&nbsp;<strong>Additional Programs</strong> allows you to run some diagnostic programs which
+**Additional Programs** allows you to run some diagnostic programs which
 might help Avolites Support find problems you're having.
 
-&nbsp;<strong>Restart</strong> and <strong>Shutdown Software</strong> restarts and closes the Titan
+**Restart** and **Shutdown Software** restarts and closes the Titan
 software. You would normally only need to use these when upgrading the
 software.
 

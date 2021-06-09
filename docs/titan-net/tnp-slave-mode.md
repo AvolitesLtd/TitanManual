@@ -24,21 +24,19 @@ Settings</Keys.SoftKey>.
 
 To edit the TNP's network settings:
 
-1. Select which <strong>Ethernet</strong> port you want to configure
-
+1. Select which **Ethernet** port you want to configure<br/>
   ![TNP - Setup - Network Settings Screen](/docs/images/TNP-Setup-Network-Settings-Screen.png)
 
 2. You can then enable or disable DHCP, set IP address and Subnet mask
 using the number buttons, or set a fixed (automatically generated)
-`2.<em>.</em>.<em>` or `10.</em>.<em>.</em>` IP address.
-
+`2.*.*.*` or `10.*.*.*` IP address.<br/>
 ![TNP - Setup - Network Settings - IP Settings Screen](/docs/images/TNP-Setup-Network-Settings-IP-Settings-Screen.png)
 
 3. Tap <Keys.SoftKey>Save Settings</Keys.SoftKey> button to store the changes.
 
 ### Node Settings
 
-For <strong>Node Settings</strong> you can change the legend of the device and the
+For **Node Settings** you can change the legend of the device and the
 line colour. This is shown on the top line of the device and on all
 TitanNet pages on connected devices. It helps you identify the device
 when you use the TitanNet overview on the console.

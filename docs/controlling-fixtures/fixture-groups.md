@@ -35,17 +35,13 @@ If the Groups window is not visible, you can show it by pressing <Keys.HardKey>O
 
 1. Select the fixtures/dimmers you want in the group (the order in
 which you select them will also be stored in the group).
-
 2. Press <Keys.HardKey>Group</Keys.HardKey> (top right of the numeric keys) then <Keys.SoftKey>Record
 Group</Keys.SoftKey>. You can also press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Group</Keys.HardKey>.
-
 3. Use softkey A to enter a number for the group, or B <Keys.SoftKey>Provide a
 legend</Keys.SoftKey> to set a legend.
-
 4. Touch an empty button in the Groups window, or press the Select button
 of a fader handle where you want to store the group, or 
 press <Keys.SoftKey>Store</Keys.SoftKey> to store as a numbered group.
-
 5. Press <Keys.HardKey>Clear</Keys.HardKey> then repeat from 1 to store other groups.
 
 -   You can also press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Group</Keys.HardKey> to go directly to the
@@ -69,9 +65,7 @@ press <Keys.SoftKey>Store</Keys.SoftKey> to store as a numbered group.
 -   You can also recall a group by its number:
 
 1. Press <Keys.HardKey>Group</Keys.HardKey>.
-
 2. Type in the number of the group you want to recall.
-
 3. Press <Keys.SoftKey>Recall Group</Keys.SoftKey>.
 
 -   The <Keys.HardKey>Group</Keys.HardKey> button also gives you facilities on the softkeys to
@@ -89,12 +83,9 @@ press <Keys.SoftKey>Store</Keys.SoftKey> to store as a numbered group.
 To remove fixtures from a group:
 
 1. Press <Keys.HardKey>Group</Keys.HardKey>.
-
 2. Press the button for the group you want to change. All fixtures
 currently in the group will be selected.
-
 3. Deselect the fixtures you want to remove from the group.
-
 4. Press <Keys.HardKey>Exit</Keys.HardKey>.
 
 The group will now only contain the fixtures which remained selected.
@@ -129,9 +120,7 @@ patterns.
 To change the numerical fixture order:
 
 1. Press <Keys.HardKey>Group</Keys.HardKey>.
-
 2. Select the group you want to edit.
-
 3. Press <Keys.SoftKey>Fixture Order</Keys.SoftKey>.
 
 The fixtures in the group will be shown numbered in the fixtures window.
@@ -149,9 +138,7 @@ show an X indicating that it is not part of the sequence.
 To change the 2D fixture layout:
 
 1. Press <Keys.HardKey>Group</Keys.HardKey>
-
 2. Select the group you want to edit.
-
 3. Press <Keys.SoftKey>Edit Layout</Keys.SoftKey>. The Layout Editor window will open.
 
 Initially fixtures will be all in a row. You can reposition the fixtures

@@ -46,7 +46,7 @@ you have created in Ai will then become available as Surfaces in Titan.
 Synergy Setup
 -------------
 
-In Titan, open the <strong>Synergy Settings</strong> window using the Workspace button
+In Titan, open the **Synergy Settings** window using the Workspace button
 provided on new shows, or use the option in the Open Workspace Window
 menu.
 
@@ -92,7 +92,7 @@ leave it turned off, as it causes a lot of network traffic.
 Once you have created a surface in Titan, you need to match it to the Ai
 surface. Click on the <Keys.ContextKey>Link</Keys.ContextKey> button on the unmatched surface at the
 bottom, then click on the Screen 1 surface at the top (or you can click
-&nbsp;<strong>"Link to new Surface"</strong> to automatically create a new surface and link to
+**"Link to new Surface"** to automatically create a new surface and link to
 it).
 
 ![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-linking-a-screen.png)
@@ -107,13 +107,13 @@ output to connect on the left, for example if you want to show the same
 media on several screens.
 
 Once a layer is linked, if you open the layer properties in Ai the
-&nbsp;<strong>"Synergy Control"</strong> box will show <em>"Enabled"</em>. Now you cannot control the
+**"Synergy Control"** box will show *"Enabled"*. Now you cannot control the
 screen using Ai, only from the Titan console.
 
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)
 
 To add a layer, click on the surface, then the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom
-and select <strong>Layer</strong> from the popup.
+and select **Layer** from the popup.
 
 To delete a layer or surface, select the item then click the <Keys.ContextKey>Rubbish Bin</Keys.ContextKey>
 button at the bottom, or press <Keys.HardKey>Delete</Keys.HardKey> then click the layer/surface. If

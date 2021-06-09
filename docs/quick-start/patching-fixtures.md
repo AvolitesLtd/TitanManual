@@ -24,7 +24,7 @@ over buttons on the screen, or on physical buttons hold down first
 select button and press last in range. Or, set <Keys.SoftKey>Quantity</Keys.SoftKey> in the patch
 menu.
 
-To change DMX address or line, use <Keys.SoftKey>[Repatch Fixtures](../patching/changing-the-patch.md#fixture-exchange)</Keys.SoftKey>.
+To change DMX address or line, use <Keys.SoftKey>Repatch Fixtures</Keys.SoftKey> (see [Repatch Fixtures](../patching/changing-the-patch.md#fixture-exchange)).
 
 ## View fixture patch
 

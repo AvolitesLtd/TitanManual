@@ -42,47 +42,38 @@ Each fixture button can control single or multiple dimmer channels. You
 allocate a button using the Patch menu (described below) or the [Patch View](./changing-the-patch.md#patch-view) window.
 
 1. Press <Keys.HardKey>Patch</Keys.HardKey>, then <Keys.SoftKey>Dimmers</Keys.SoftKey>.
-
-2. <Keys.SoftKey>DMX Line=</Keys.SoftKey> shows you which of the DMX output lines you are
+2. &nbsp;<Keys.SoftKey>DMX Line=</Keys.SoftKey> shows you which of the DMX output lines you are
 patching onto. Enter a new number to change the line. <Keys.SoftKey>Address = </Keys.SoftKey>
 shows the DMX address about to be patched. You can change this by typing
-in the new address on the numeric keypad and pressing <Keys.HardKey>Enter</Keys.HardKey>.
-
-![DMX Line](/docs/images/DMX-Line.png)
-
+in the new address on the numeric keypad and pressing <Keys.HardKey>Enter</Keys.HardKey>. <br/>
+  ![DMX Line](/docs/images/DMX-Line.png)
 3. To patch a single dimmer, press a Fixture touch button, a
-Macro/Executor button or the <strong>Select</strong> button of a fader handle. To
+Macro/Executor button or the **Select** button of a fader handle. To
 patch a sequence of dimmers each to its own button, press <Keys.SoftKey>Quantity</Keys.SoftKey>
 and set the number of dimmers then press the first select button.
 Alternatively, run your finger or draw a selection box round the touch
 buttons, or for physical buttons hold down the first button in the range
 and press the last button in the range. The range of dimmers will be
 patched to sequential DMX addresses.
-
 4. A fixture button turns dark blue and shows fixture details when it
 is patched. If you patch to a fader handle the select button will light
 up dimly.
-
 5. Repeat from step 2 for other dimmers.
 
 -   When setting the DMX address using <Keys.SoftKey>Address=</Keys.SoftKey>, you can set the DMX
     line (universe) as well by entering \{line\}.\{DMX\}, for example 2.56
     will set DMX address 56 on DMX line 2.
-
 -   To see how DMX channels are patched, press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey>
     to show the [Patch View](./changing-the-patch.md#patch-view) window.
-
 -   <Keys.SoftKey>User Number = xx</Keys.SoftKey> allows you to set a user-defined number for
     each dimmer or fixture patched, to help you identify them later. You
     can also edit the User Number from the Repatch Fixture menu.
-
 -   You can patch multiple dimmer channels to a single handle. This can
     be useful if, for example, you want to control all the lights for
     one area together. To do this, just press the same Fixture Select
     button again when patching the new dimmer channel. You can tell the
     dimmer channel has patched OK because the DMX address will increase
     by 1.
-
 -   If you need to remove a dimmer from multiple dimmers on a single
     handle without losing programming, make a copy of the handle then
     repatch the copy to the individual dimmer address.
@@ -108,34 +99,25 @@ find personalities.
 You can patch either using the Patch menu (described below) or the [Patch View](./changing-the-patch.md#patch-view) window.
 
 1. Press <Keys.HardKey>Patch</Keys.HardKey>.
-
-2. Press <Keys.SoftKey>Fixtures</Keys.SoftKey>.
-![Patch Menu](/docs/images/Patch-Menu.png)
-
+2. Press <Keys.SoftKey>Fixtures</Keys.SoftKey>.<br/>
+  ![Patch Menu](/docs/images/Patch-Menu.png)
 3. Select the correct fixture manufacturer from the softkeys
 (<Keys.SoftKey>Previous</Keys.SoftKey> and <Keys.SoftKey>Next</Keys.SoftKey> page through the list of manufacturers). Or
 use Quick Search and type the first few letters of the manufacturer's
 name on the keyboard to find the one you want.
-
 4. Select correct fixture from the softkeys (F and G show other pages).
 You can use Quick Search here as well.
-
 5. Select the correct fixture operating mode from the softkeys.
-
-6. <Keys.SoftKey>Address =</Keys.SoftKey> shows the first free DMX address. Type the new address
+6. &nbsp;<Keys.SoftKey>Address =</Keys.SoftKey> shows the first free DMX address. Type the new address
 on the numeric keypad if you want a different one. <Keys.SoftKey>DMX line=xx</Keys.SoftKey> lets
-you patch to a different DMX line, or you can enter the address as <Keys.SoftKey>line</Keys.SoftKey>.<Keys.SoftKey>address</Keys.SoftKey>, e.g. 2.45 would set address 45 on line 2.
-
-![Address Input](/docs/images/Address-Input.png)
-
+you patch to a different DMX line, or you can enter the address as <Keys.SoftKey>line</Keys.SoftKey>.<Keys.SoftKey>address</Keys.SoftKey>, e.g. 2.45 would set address 45 on line 2.<br/>
+  ![Address Input](/docs/images/Address-Input.png)
 7. Patch the fixture by pressing a Fixture touch button, a
-Macro/Executor button or the <strong>Select</strong> button of a fader handle (not
+Macro/Executor button or the **Select** button of a fader handle (not
 the main playback faders).
-
 8. A fixture touch button turns dark blue and shows fixture details
 when it is patched. If you patch to a fader handle the select button
 will light up dimly.
-
 9. Repeat from 7 to patch more of the same fixture type. The DMX
 address automatically updates so you can just keep patching by pressing
 Select buttons.
@@ -146,7 +128,7 @@ Select buttons.
     range and press the last button in the range. The fixtures will be
     patched to sequential blocks of DMX addresses.
 
--   <Keys.SoftKey>Options</Keys.SoftKey>, <Keys.SoftKey>Offset</Keys.SoftKey> allows you to leave gaps in the DMX channels
+-   &nbsp;<Keys.SoftKey>Options</Keys.SoftKey>, <Keys.SoftKey>Offset</Keys.SoftKey> allows you to leave gaps in the DMX channels
     between fixtures when patching multiple fixtures, which is useful if
     you are planning a show which may involve exchanging fixtures. The
     Offset number is the size of the block which will be allocated to
@@ -162,22 +144,19 @@ Select buttons.
     together. This is called a Pending Dimmer (in the [Patch View](./changing-the-patch.md#patch-view) window
     this is indicated with a flash symbol behind the user number).
 
--   <Keys.SoftKey>Options</Keys.SoftKey>, <Keys.SoftKey>Preset Palettes</Keys.SoftKey> sets whether the console will
+-   &nbsp;<Keys.SoftKey>Options</Keys.SoftKey>, <Keys.SoftKey>Preset Palettes</Keys.SoftKey> sets whether the console will
     create default colour, gobo and position palettes for the new
     fixture. These are created in the Position, Colour and Beam
     workspace windows.. This option is turned off by default but can
     give you a useful starting point.
 
--   <Keys.SoftKey>Options</Keys.SoftKey>, <Keys.SoftKey>AutoGroups</Keys.SoftKey> sets whether the console will
+-   &nbsp;<Keys.SoftKey>Options</Keys.SoftKey>, <Keys.SoftKey>AutoGroups</Keys.SoftKey> sets whether the console will
     automatically create groups from the fixtures you patch. If Enabled,
     a group is created for all fixtures of the same type, and another if
     you patch a quantity of fixtures.
 
--   To show the DMX address for fixtures, press <Keys.HardKey>Open/View</Keys.HardKey> then
-    <Keys.HardKey>Patch</Keys.HardKey>. To show patch details for a single fixture press
-    <Keys.HardKey>Open/View</Keys.HardKey> then the fixture select button. On touch buttons the
-    DMX address is displayed on the top right of the button in the
-    format &#123;DMX line&#125;.&#123;Address&#125; (this display can be disabled using the
+-   To show the DMX address for fixtures, press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey>. To show patch details for a single fixture press <Keys.HardKey>Open/View</Keys.HardKey> then the fixture select button. On touch buttons the
+    DMX address is displayed on the top right of the button in the format &#123;DMX line&#125;.&#123;Address&#125; (this display can be disabled using the
     context menu).
 
 -   If a patch goes over the capacity of a DMX line, the console will
@@ -294,7 +273,7 @@ Parked Fixtures
 ----------------------
 If you attempt to patch, copy or move a fixture to a DMX address where
 its control channels would overlap one or more other fixtures, the console 
-will give you the option to <strong>Park</strong> the conflicting fixture(s). Parked
+will give you the option to **Park** the conflicting fixture(s). Parked
 fixtures retain all their programming but do not output to the DMX outputs.
 
 You can re-enable a Parked fixture by giving it a new DMX address using the
@@ -313,18 +292,14 @@ addresses. When the fixture responds with its Locate state, you know its
 DMX address and might hopefully avoid a trip up the rig to look at it..
 
 1. Press <Keys.HardKey>Patch</Keys.HardKey>, <Keys.SoftKey>Fixture</Keys.SoftKey> and select the type of fixture you are
-looking for
-
+looking for.
 2. Press <Keys.SoftKey>Options</Keys.SoftKey>, then <Keys.SoftKey>Find Fixture</Keys.SoftKey> to enable the Find Fixture
 mode.
-
 3. Turn Wheel B to go through all possible DMX addresses. Wheel A sets
 DMX lines.
-
 4. When the fixture responds with its Locate state, you have found the
 correct DMX address.
-
-4. Turn off <Keys.SoftKey>Find Fixture</Keys.SoftKey> mode and (if not already occupied) patch
+5. Turn off <Keys.SoftKey>Find Fixture</Keys.SoftKey> mode and (if not already occupied) patch
 the fixture. The DMX address/Line will be automatically set to match the
 Find Fixture settings.
 

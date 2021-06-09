@@ -18,12 +18,12 @@ Recovery | Version installed | Shows | Personalities | Licence
 ---|---|---|---|---
 Standard Recovery | Two most recent | Preserved |Preserved | Preserved
 Factory Restore | Recovery version + most recent | Deleted | Recovery version | Preserved
-Full Erase | Recovery version | Deleted | Recovery version| <em>Deleted/Preserved</em>
+Full Erase | Recovery version | Deleted | Recovery version| *Deleted/Preserved*
 
 > With software version 12 or above the licence is stored on the AvoKey, and
   even a Full Erase Recovery doesn't delete it, [see below](#software-licensing).
 
-> Using <strong>Factory Restore</strong> or <strong>Full Erase</strong> will delete all settings and files from the console including show files and user personalities. Any files should be saved to a USB stick before continuing.
+> Using **Factory Restore** or **Full Erase** will delete all settings and files from the console including show files and user personalities. Any files should be saved to a USB stick before continuing.
 
 Detailed instructions on creating and using a recovery stick can be
 found with the recovery creator on the [Avolites website](https://www.avolites.com/software/); depending on
@@ -33,27 +33,27 @@ methods required. The basic procedure is as follows:
 Installation Instructions
 -------------------------
 
-1. &nbsp<strong>If recovering a version earlier than v11.1</strong>, you will need to set theconsole to boot from USB *(see instructions on the [Avolites website](https://www.avolites.com/software/),
+1. **If recovering a version earlier than v11.1**, you will need to set theconsole to boot from USB *(see instructions on the [Avolites website](https://www.avolites.com/software/),
 which vary depending on your console)*
 
 2. Start console and wait while the memory stick boots up, this can
 take up to 3 minutes.
 
 3. Once the memory stick has booted, the touch screen will display
-'Welcome to (Console Name)', touch <strong>Next</strong> to continue.
+'Welcome to (Console Name)', touch **Next** to continue.
 
-4. Please read to the bottom of the licence agreement then touch <strong>Agree</strong>
+4. Please read to the bottom of the licence agreement then touch **Agree**
 to accept.
 
-5. Select the type of recovery you want to perform <em>(see table above)</em>
+5. Select the type of recovery you want to perform *(see table above)*
 
 6. On the next screen check the serial number of the console - this is
 the number written on the back of the console and should be already
 filled in for you.
 
-7. Touching <strong>Install</strong> will then begin the recovery
+7. Touching **Install** will then begin the recovery
 
-8. Once complete unplug the memory stick and touch the <strong>Restart</strong> button.
+8. Once complete unplug the memory stick and touch the **Restart** button.
 
 After starting the console will install all the software and drivers
 required to run. This takes approximately 30 minutes to complete during

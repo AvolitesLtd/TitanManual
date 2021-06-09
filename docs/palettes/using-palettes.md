@@ -20,7 +20,6 @@ To recall a palette value from a button:
 fixture of the same type. Normal palettes will set individual values to
 each fixture. If no fixtures are selected, the palette will apply to all
 fixtures it is relevant to.
-
 2. Press the Palette button you want to recall. The palette will be set
 to the selected fixtures.
 
@@ -42,11 +41,8 @@ You can also recall a palette by its number by typing the number on the
 numeric keypad.
 
 1. Select some fixtures.
-
 2. Press <Keys.HardKey>Palette</Keys.HardKey> above the numeric keypad.
-
 3. Type in the number of the palette you want to recall.
-
 4. Press <Keys.HardKey>Enter</Keys.HardKey> or <Keys.SoftKey>Apply Palette</Keys.SoftKey>.
 
 The <Keys.SoftKey>Apply Palette</Keys.SoftKey> softkey shows the legend of the palette which
@@ -66,7 +62,7 @@ for more details about locks.
 
 Each of the palette windows can either display pages of palettes, with
 page buttons on the left, or a continuous scrolling window of palettes.
-To change between pages and scrolling, touch the <strong>Pages Show/Hide</strong> 
+To change between pages and scrolling, touch the **Pages Show/Hide** 
 context menu button, then change
 pages using the page buttons to the left of the palette buttons.
 
@@ -85,7 +81,7 @@ Quick Palettes with no Fixtures Selected
 
 If you press a palette button when no fixtures are selected, the palette
 will be set to all the fixtures the palette applies to. This is called a
-&nbsp;<strong>Quick Palette</strong>.
+**Quick Palette**.
 
 For example if you've got some colour palettes programmed
 for your MAC 2000s, pressing one of the palettes when no MAC 2000s are
@@ -97,5 +93,5 @@ Setting Palettes to All Fixtures in a Playback
 ----------------------------------------------
 
 You can apply a palette to all fixtures in a particular playback. Hold
-the palette button and press the <strong>Select</strong> button of the playback which the
+the palette button and press the **Select** button of the playback which the
 palette is to apply to.

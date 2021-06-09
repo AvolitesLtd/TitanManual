@@ -18,14 +18,14 @@ or are selected), <Keys.SoftKey>Stage</Keys.SoftKey> (saves all attributes of al
 non-zero dimmer), or <Keys.SoftKey>Quick Build</Keys.SoftKey> (merges palettes and playbacks into
 the cue when you select them).
 
-To store, press a fader <strong>Select</strong> button, a macro/executor button or a touch
+To store, press a fader **Select** button, a macro/executor button or a touch
 button in Playbacks window. (See [Creating a Cue](../cues/creating-a-cue.md)).
 
 ## Chases
 
 Press <Keys.HardKey>Record</Keys.HardKey> twice (or <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Chase</Keys.SoftKey>).
 
-Press <strong>Select</strong> button, a macro/executor button or a touch
+Press **Select** button, a macro/executor button or a touch
 button in Playbacks window.
 
 Set up the look for the first step, press playback select button to
@@ -50,16 +50,14 @@ To edit times in a saved cue, at top level menu press <Keys.SoftKey>Edit Times</
 then the select button for the playback. Timing options are set from
 softkeys.
 
-[<Keys.SoftKey>Fixture Overlap</Keys.SoftKey>](../cues/cue-timing.md#fade-times-and-fixture-overlap)
-sets each fixture to fade in sequence (100%=all
-together, 0%=fixture waits for previous one to complete).
+&nbsp;<Keys.SoftKey>Fixture Overlap</Keys.SoftKey> sets each fixture to fade in sequence (100%=all together, 0%=fixture waits for previous one to complete). See [Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap). 
 
-<Keys.SoftKey>Attribute times</Keys.SoftKey> sets individual fade times for different attributes.
+&nbsp;<Keys.SoftKey>Attribute times</Keys.SoftKey> sets individual fade times 
+for different attributes.  
 
-&nbsp;<Keys.SoftKey>Fixture order</Keys.SoftKey> changes sequence for shapes and
-[Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap).
+&nbsp;<Keys.SoftKey>Fixture order</Keys.SoftKey> changes sequence for shapes and Fixture Overlap.  
 
-See [Cue Timing](../cues/cue-timing.md)
+See [Cue Timing](../cues/cue-timing.md) for more details.
 
 ## Cue Lists
 

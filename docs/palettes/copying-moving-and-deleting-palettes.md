@@ -16,22 +16,20 @@ operation. You cannot link palette buttons like you can with cues.
 
 Move is useful for tidying up the console.
 
-1. Press <Keys.HardKey>Copy</Keys.HardKey> or <Keys.HardKey>Move</Keys.HardKey> (if the console does not have a <strong>Move</strong> button,
+1. Press <Keys.HardKey>Copy</Keys.HardKey> or <Keys.HardKey>Move</Keys.HardKey> (if the console does not have a **Move** button,
 	you can get this function by holding <Keys.HardKey>Avo</Keys.HardKey> and pressing <Keys.HardKey>Copy</Keys.HardKey> ).
-
-2. Press the <strong>Select</strong> button of the palette you want to copy/move. You
+2. Press the **Select** button of the palette you want to copy/move. You
 can select multiple palettes - use the <Keys.HardKey>Thro</Keys.HardKey> and <Keys.HardKey>And</Keys.HardKey> buttons to
 add more to the selection - hold down <Keys.HardKey>And</Keys.HardKey> to keep adding them.
-
 3. Press the empty button where you want it to go.
 
 ---
 
--   The <Keys.HardKey>Menu Latch</Keys.HardKey> button latches the <strong>Copy/Move/Link menu</strong>, so you
+-   The <Keys.HardKey>Menu Latch</Keys.HardKey> button latches the **Copy/Move/Link menu**, so you
     can keep copying, moving or linking things without having to keep
     pressing <Keys.HardKey>Copy</Keys.HardKey>. Press <Keys.HardKey>Menu Latch</Keys.HardKey> again to unlatch.
 
--   <Keys.SoftKey>Retain Layout</Keys.SoftKey> or <Keys.SoftKey>Bunch Up</Keys.SoftKey> is used when copying a group of
+-   &nbsp;<Keys.SoftKey>Retain Layout</Keys.SoftKey> or <Keys.SoftKey>Bunch Up</Keys.SoftKey> is used when copying a group of
     palettes with empty handles in the group - you can either keep the
     empty handles, or bunch up the used handles together.
 

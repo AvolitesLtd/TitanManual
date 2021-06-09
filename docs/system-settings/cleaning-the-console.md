@@ -13,7 +13,7 @@ To clean the laminated panels, use a non-alcoholic disinfectant solution:
 > We recommend you don't use alcohol-based cleaners as the lacquer layer 
   on the laminate may lose its shine when exposed to concentrated alcohol-based fluids.
 
-To clean touch screens: Either use the same non-alcoholic disinfectant or a 70\% alcohol - 30\% water mixture.
+To clean touch screens: Either use the same non-alcoholic disinfectant or a 70% alcohol - 30% water mixture.
 
 - Prevent moisture build up near the edge of the screens as this may impair the 
   touch sensor while it is wet. 

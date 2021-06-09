@@ -7,7 +7,7 @@ sidebar_label: Fixture Personalities
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-For each type of fixture, the console has a <em>"personality"</em> file which
+For each type of fixture, the console has a *"personality"* file which
 tells it how to control the fixture, which channel is the dimmer (HTP)
 channel, and a large amount of other fixture-specific information. When
 you patch each fixture, you tell the console which personality to use
@@ -51,13 +51,13 @@ next section.
 Updating the Personality Library on the Console
 -----------------------------------------------
 
-Download the current Titan personality library by clicking on <em></em>Titan
-Fixture Library<em></em> at the [personality website](https://personalities.avolites.com) 
-home screen. Alternatively you can get this file by clicking on the <strong>Download</strong> 
-link at the top of the screen, then clicking on <strong>Titan Fixture Library</strong>.
+Download the current Titan personality library by clicking on **Titan
+Fixture Library** at the [personality website](https://personalities.avolites.com) 
+home screen. Alternatively you can get this file by clicking on the **Download** 
+link at the top of the screen, then clicking on **Titan Fixture Library**.
 
-There are different library installers depending on the <em></em>version of Titan 
-you are running<em></em>. This is to ensure you get the right version of the Capture
+There are different library installers depending on the **version of Titan 
+you are running**. This is to ensure you get the right version of the Capture
 library, the actual personality library is identical in each version.
 
 > Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
@@ -66,39 +66,32 @@ library, the actual personality library is identical in each version.
 
 ### Console Update Procedure
 
-1. Copy the downloaded file <strong>TitanFixtureLibrary.exe</strong> onto a USB stick and plug in to the console.
-
-2. Click the <strong>Tools</strong> menu on the toolbar, then <strong>Control Panel</strong>, then <strong>Titan Installers</strong>.
+1. Copy the downloaded file **TitanFixtureLibrary.exe** onto a USB stick and plug in to the console.
+2. Click the **Tools** menu on the toolbar, then **Control Panel**, then **Titan Installers**.
 This will list all installers - software and personalities - found in the root of 
 the stick (provided you haven't changed their name).
-
-3. Click the <strong>TitanFixtureLibrary.exe</strong>, and follow the instructions.
-
-   If for whatever reason Titan doesn't show the file in the <em>Titan Installers</em> submenu
+3. Click the **TitanFixtureLibrary.exe**, and follow the instructions.<br/>
+   If for whatever reason Titan doesn't show the file in the *Titan Installers* submenu
    you can find and double-click it through Tools -> Folders.
-
 4. Shut down and then restart the console *(using the Restart Software
 button on the screen Tools menu is OK)*.
 
 ### Titan Mobile, Titan Go or Titan Simulator Procedure
 
-1. Locate the downloaded file <strong>TitanFixtureLibrary.exe</strong> and double click
+1. Locate the downloaded file **TitanFixtureLibrary.exe** and double click
 on it to run it. Windows may show a warning about an unrecognised file
-
-2. Click <strong>Ok</strong> on the Windows User Account Control warning box.
-
+2. Click **Ok** on the Windows User Account Control warning box.
 3. When the installation has completed, shut down and then restart the
 Titan software.
 
 > The console caches the FixtureLibrary folder into memory when the
-> Patch option is first used, so you need to restart the console
-> software (from the Tools menu) to ensure new fixture personalities
-> are loaded.
-
-> Once a fixture is patched, its personality is embedded in the show
-> file. Any changes to the fixture library will not affect fixtures
-> patched in the show. You can use the <Keys.SoftKey>Update Personality</Keys.SoftKey> option
-> in the patch menu to update patched fixtures if you need to.
+ Patch option is first used, so you need to restart the console
+ software (from the Tools menu) to ensure new fixture personalities
+ are loaded.<br/>
+ Once a fixture is patched, its personality is embedded in the show
+ file. Any changes to the fixture library will not affect fixtures
+ patched in the show. You can use the <Keys.SoftKey>Update Personality</Keys.SoftKey> option
+ in the patch menu to update patched fixtures if you need to.
 
 User/Custom Personalities
 -------------------------
@@ -108,7 +101,7 @@ software, you can create your own personality if you wish to modify the
 behaviour of a standard personality or you have a fixture the console
 has never heard of and need to get it working quickly.
 
-> The console loads the fixture library into memory when the Patch option is first used, so after creating a new personality you need to <strong>restart the console software</strong> from the <strong>Tools</strong> menu or it will not show up.
+> The console loads the fixture library into memory when the Patch option is first used, so after creating a new personality you need to **restart the console software** from the **Tools** menu or it will not show up.
 
 You can incorporate your custom personality into the standard fixture
 library on the console, however there is a danger that it will be
@@ -142,7 +135,7 @@ Reporting a Personality Bug to Avolites
 
 If you find a problem with a fixture personality, Avolites would like to
 know about it so it can be fixed. Search for the personality on the
-website then click on the <strong>Report Bug</strong> icon on the right of the screen.
+website then click on the **Report Bug** icon on the right of the screen.
 If you click on the [Bug Reports](https://personalities.avolites.com/Bug%20Queue.asp) tab at the top of the window, a list
 is shown of currently outstanding problems, so you can check if someone
 else has already reported the problem.
@@ -160,12 +153,12 @@ use the softkeys to select channels.
 
 Generic RGB: Allows you to control an RGB fixture such as LED colour
 changers. This offers 5 modes:
-- 1: <strong>Dim</strong>,  2: <strong>R</strong>,  3: <strong>G</strong>, 4: <strong>B</strong>
-- <strong><em>VDim</em></strong>, 1: <strong>R</strong>, 2: <strong>G</strong>, 3: <strong>B</strong>
-- 1: <strong>R</strong>, 2: <strong>G</strong>, 3: <strong>B</strong>, 4: <strong>Dim</strong>
-- <strong><em>VDim</em></strong> + 4x <strong>RGB</strong>
-- 4x <strong>RGB</strong>
+- 1: **Dim**,  2: **R**,  3: **G**, 4: **B**
+- ***VDim***, 1: **R**, 2: **G**, 3: **B**
+- 1: **R**, 2: **G**, 3: **B**, 4: **Dim**
+- ***VDim*** + 4x **RGB**
+- 4x **RGB**
 
-> <strong><em>VDim</em></strong> is a virtual overall dimmer channel for fixtures without a DMX
+> ***VDim*** is a virtual overall dimmer channel for fixtures without a DMX
 dimmer control. When you use the Dimmer attribute the console will
 adjust the RGB levels accordingly.
