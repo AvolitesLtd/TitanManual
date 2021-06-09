@@ -28,8 +28,11 @@ Double press the <Keys.HardKey>Open/View</Keys.HardKey> button to show the works
 want the workspace, press the appropriate button and the window will open on that monitor.
 
 The <Keys.HardKey>Open/View</Keys.HardKey> button is labelled differently on some consoles: 
+
 - Diamond 9: <Keys.HardKey>View</Keys.HardKey>. There's an additional <Keys.HardKey>Open</Keys.HardKey> button which is the same as double pressing <Keys.HardKey>View</Keys.HardKey>.
+
 - Quartz, Titan Mobile: <Keys.HardKey>Open</Keys.HardKey>
+
 - Titan Go, Tiger Touch 1, Pearl Expert: <Keys.HardKey>View</Keys.HardKey>
 
 ![Workspace Window Selection](/docs/images/Workspace-Windows-Icons.png)

@@ -210,7 +210,7 @@ function addImageSpacing(content) {
  * @return {string} The content with the breaks replaced
  */
 function replaceBr(content) {
-  return content.replace(/<br\\>/gmi," \\newline &ZeroWidthSpace;");
+  return content.replace(/<br\/>/gmi," \\newline &ZeroWidthSpace;");
 }
 
 /**
@@ -220,7 +220,7 @@ function replaceBr(content) {
  */
  function replaceJSX(content) {
   content = content.replace(/<Keys\.ContextKey>(.*?)<\/Keys\.ContextKey>/gmi,"{$1}");
-  content = content.replace(/<Keys\.HardKey>(.*?)<\/Keys\.HardKey>/gmi,"\<$1\>");
+  content = content.replace(/<Keys\.HardKey>(.*?)<\/Keys\.HardKey>/gmi,"\\\<$1\\\>");
   content = content.replace(/<Keys\.SoftKey>(.*?)<\/Keys\.SoftKey>/gmi,"[$1]");
   content = content.replace(/<Keys\.Annotation>(.*?)<\/Keys\.Annotation>/gmi,"($1)");
   content = content.replace(/<strong>(.*?)<\/strong>/gmi,"**$1**");
@@ -275,7 +275,6 @@ function docsVersionPath(version) {
  */
 function formatMdFiles(docsPath, sidebar, version) {
   let output = "";
-  
   if(version == 'next') {
     docs = sidebar.docs;
   }
@@ -284,10 +283,11 @@ function formatMdFiles(docsPath, sidebar, version) {
   }
 
   let sectionFound = false;
-  for(let sec in docs) {
+  for(let index in docs) {
+    let sec = docs[index].label;
     if(!section || section == sec.toLowerCase()) {
       sectionFound = true;
-      for(let page of docs[sec].items) {
+      for(let page of docs[index].items) {
         page = page.id.replace(`version-${version}/`,"")
       output += formatMd(docsPath,page+'.md',version);
       }
