@@ -25,8 +25,7 @@ Linker Touchscreen (Sapphire Touch)\
 Rechter Touchscreen (Sapphire Touch)\
 ![Sapphire Right](/docs/images/Sapphire-Right.png)
 
-Auswahl und Positionierung der Arbeitsfenster
----------------------------------------------
+## Auswahl und Positionierung der Arbeitsfenster
 
 Die gewünschten Fenster des Arbeitsbereichs lassen sich per Befehl
 <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> aus dem Hauptmenü öffnen. Außerdem
@@ -158,8 +157,7 @@ Die eingegebene Anzahl von Spalten/Zeilen wird gespeichert, so dass man
 testweise zwischen einem fixen und einem variablen Layout hin- und
 herschalten kann.
 
-Mini-Display (Nur beim Arena)
------------------------------
+## Mini-Display (Nur beim Arena)
 
 Mit der Taste <Keys.HardKey>Display</Keys.HardKey> unterhalb der Encoder rechts oben kann man 
 zwischen vier Ansichten auf dem Mini-Display umschalten:
@@ -178,8 +176,7 @@ darunter.
 
 - Arbeitsfenster, ohne Legenden für Encoder oder Macrotasten.
 
-Speichern der Arbeitsumgebung
------------------------------
+## Speichern der Arbeitsumgebung
 
 Mit gespeicherten Arbeitsumgebungen lässt sich die Darstellung des
 gesamten Displays durch nur einen Klick ändern/wiederherstellen.
@@ -240,8 +237,7 @@ einen Namen ein, und klicken Sie erneut auf diese Schaltfläche.
 -   Zum Löschen einer Arbeitsumgebung drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, 
 	<Keys.HardKey>Delete</Keys.HardKey>, und dann die Schaltfläche der Arbeitsumgebung.
 
-Compatibility windows -- die 'Kompatibilitäts-Fenster'
-------------------------------------------------------
+## Compatibility windows -- die 'Kompatibilitäts-Fenster'
 
 Die Fenster "Fixtures and Playbacks" (Geräte und Speicherplätze) und
 "Groups and Palettes" (Gruppen und Paletten) ermöglichen Zugriff auf die
@@ -256,8 +252,7 @@ verschieben. Diesen Vorgang muss man zweimal ausführen: einmal mit
 ausgewähltem Fenster "Fixtures and Playbacks", und einmal mit "Palettes
 and Groups".
 
-Schnellspeichern
-----------------
+## Schnellspeichern
 
 ![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png)
 Einige Fenster - für Gruppen, Workspaces,
@@ -270,8 +265,7 @@ abzuschließen.
 
 Die Schnellspeicher-Funktion lässt sich in den [Tastenprofilen/Key Profiles](../system-settings/key-profiles.md) deaktivieren.
 
-Legenden und Bezeichnungen
---------------------------
+## Legenden und Bezeichnungen
 
 Sämtliche Schaltflächen lassen sich mit frei zu definierenden Legenden
 beschriften, um die Übersicht zu behalten. Ferner lassen sich die
@@ -286,8 +280,7 @@ Personality die entsprechenden Informationen enthält.
 
 ![Gobos and Beams Workspace Window](/docs/images/Gobos-and-Beams-Workspace-Window.png)
 
-Button-Halo
------------
+## Button-Halo
 
 Sämtlichen programmierbaren Schaltflächen, etwa den Buttons für Geräte,
 Gruppen, Paletten, Playbacks etc., lassen sich farbige Ränder, sog.
@@ -301,8 +294,7 @@ Wird ein [Halo für Geräte-Tasten](../patching/changing-the-patch.md#halo-für-
 so wird dessen Farbe auch in anderen Fenstern verwendet. Außerdem können 
 automatisch unterschiedliche Halos pro Gerätetyp vergeben werden.
 
-&nbsp;<strong>Trackball (nur beim Sapphire Touch)</strong>
----------------------------------------
+## &nbsp;<strong>Trackball (nur beim Sapphire Touch)</strong>
 
 Mit dem Trackball rechts auf dem Pult lässt sich entweder die Maus
 steuern, oder die selektierten Geräte.
@@ -317,8 +309,7 @@ Um in den Modus zur Gerätesteuerung zu schalten, drücken Sie
 <Keys.HardKey>Assign</Keys.HardKey> + <Keys.HardKey>Right</Keys.HardKey>: nun steuert der Trackball Pan und Tilt, und mit
 dem Ring kann Tilt sehr fein geregelt werden.
 
-&nbsp;<strong>Bildschirmtastatur</strong>
-----------------------
+## &nbsp;<strong>Bildschirmtastatur</strong>
 
 Am Ende der Werkzeugleiste (am Mittelsteg zwischen den Bildschirmen beim
 Sapphire Touch, ansonsten oben im Bildschirm) befindet sich der Button

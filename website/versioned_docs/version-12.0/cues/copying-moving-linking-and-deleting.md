@@ -8,8 +8,7 @@ original_id: copying-moving-linking-and-deleting
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Copying or Moving a Cue
------------------------
+## Copying or Moving a Cue
 
 Using the <Keys.HardKey>Copy</Keys.HardKey> button you can make a <strong>copy</strong> of an existing cue, <strong>move</strong>
 it to a new playback, or create a new playback which is <strong>linked</strong> to the
@@ -54,8 +53,7 @@ adding them.
     This is useful when rearranging playbacks on a page which is nearly
     full.
 
-Deleting a Cue
---------------
+## Deleting a Cue
 
 To delete a cue:
 

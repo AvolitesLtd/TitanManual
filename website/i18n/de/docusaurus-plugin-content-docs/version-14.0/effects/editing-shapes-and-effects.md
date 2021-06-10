@@ -8,8 +8,7 @@ original_id: editing-shapes-and-effects
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Ändern eines gerade laufenden Shapes
-------------------------------------
+## Ändern eines gerade laufenden Shapes
 
 Geschwindigkeit, Größe und Aufteilung (Spread) eines gerade laufenden
 Shapes lassen sich ändern, indem man auf <Keys.HardKey>Connect / Cue</Keys.HardKey>, gefolgt von
@@ -35,8 +34,7 @@ so können Sie mit Menütaste G umschalten.
     entsprechende Attribut-Taste/Button. Um wieder zur Shape-Steuerung
     zurückzukehren, klicken Sie wieder <Keys.HardKey>Shape</Keys.HardKey> oder <Keys.SoftKey>FX</Keys.SoftKey>.
 
-Ändern gespeicherter Shapes und Effekte
----------------------------------------
+## Ändern gespeicherter Shapes und Effekte
 
 Shapes und Pixelmapper-Effekte, die bereits in Cues gespeichert sind,
 lassen sich über das Fenster 'Cue View' aufrufen und editieren.
@@ -55,8 +53,7 @@ In den Fenstern 'Shape View' oder 'Effect View' lässt sich ferner mit
 <Keys.SoftKey>View Fixtures</Keys.SoftKey> eine Liste der enthaltenen Geräte anzeigen, die in dem
 Shape/Effekt enthalten sind.
 
-Ändern von Shapes mit Include
------------------------------
+## Ändern von Shapes mit Include
 
 Es lassen sich nur Shapes verändern, die sich im Programmierspeicher
 befinden - wird ein Shape einfach mit einem Cue gestartet, so erscheint
@@ -85,15 +82,13 @@ ausgewählte Shape wird hervorgehoben.
 >   Läuft ein Shape mehrfach auf verschiedenen Geräten, so lässt sich
     jede laufende Kopie einzeln steuern.
 
-Shapes neu synchronisieren
---------------------------
+## Shapes neu synchronisieren
 
 Mit der Option <Keys.SoftKey>Restart Shapes</Keys.SoftKey> im Shape-Editor werden alle gerade
 laufenden Shapes neu gestartet. Das ist sinnvoll, wenn mehrere Shapes
 miteinander synchronisiert werden sollen.
 
-Ändern der Gerätereihenfolge eines Shapes
------------------------------------------
+## Ändern der Gerätereihenfolge eines Shapes
 
 Die Art und Weise, wie ein Shape arbeitet, wird durch die Reihenfolge
 der Auswahl der Geräte bestimmt. Diese lässt sich später mit der
@@ -103,8 +98,7 @@ Zahlen angezeigt. Siehe
 [Gerätereihenfolge und -anordnung](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen)
 für weitere Details.
 
-Shapes mit Gruppen verknüpft
-----------------------------
+## Shapes mit Gruppen verknüpft
 
 Shapes und Keyframe-Shapes, die unter Verwendung von Gruppen erstellt
 wurden, verwenden die [Gerätereihenfolge der Gruppe](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) und enthalten eine
@@ -130,8 +124,7 @@ lösen Sie die Gruppenverknüpfung mit <Keys.SoftKey>Break Group References</Key
 
 Siehe [Gerätereihenfolge und -anordnung](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) für Details zum Editieren von Reihenfolge und Layout.
 
-Entfernen oder Hinzufügen von Geräten
--------------------------------------
+## Entfernen oder Hinzufügen von Geräten
 
 Mit der Funktion <Keys.SoftKey>Add/Remove Fixtures</Keys.SoftKey> aus dem Menü <Keys.SoftKey>Edit</Keys.SoftKey> lassen
 Geräte aus einem Shape entfernen oder weitere Geräte hinzufügen; ebenso
@@ -145,16 +138,14 @@ Entfernen von Fixtures aus dem Shape die Verknüpfung gelöst.
 Entsprechend wird eine Meldung ausgegeben, und man muss das mit \[Remove
 Fixtures\] bestätigen.
 
-Einen Shape umkehren
---------------------
+## Einen Shape umkehren
 
 Die Richtung eines Shapes lässt sich umkehren; dazu drückt man im
 'Shape'-Menü auf <Keys.SoftKey>Reverse Selected Fixtures</Keys.SoftKey>. Dadurch wird der Shape
 für die ausgewählten Geräte umgekehrt; damit lassen sich Abläufe gezielt
 nur für einzelne - oder aber für alle - Geräte umkehren.
 
-Löschen von Shapes
-------------------
+## Löschen von Shapes
 
 Ein laufender Shape lässt sich ganz einfach löschen: dazu drücken Sie
 <Keys.SoftKey>Delete</Keys.SoftKey> aus dem 'Shape'-Menü, und wählen den zu löschenden Shape mit

@@ -29,8 +29,7 @@ hinzugefügt. Wählt man ein Gerät aus -- im Pult oder in Capture -- so
 wird diese Auswahl auch im jeweils anderen Teil angezeigt. Will man dies
 nicht, so kann man in Capture <strong>Console Link</strong> deaktivieren.
 
-Den Patch vom Pult nach Capture übertragen
-------------------------------------------
+## Den Patch vom Pult nach Capture übertragen
 
 Wird das Pult neu mit Capture verbunden oder [eine Show geladen](../titan-basics/loading-and-saving-shows.md#laden-einer-show) oder ein
 [Gerät gepatcht](../patching/patching-new-fixtures-or-dimmers.md), so 
@@ -53,8 +52,7 @@ synchronisiert.
 > Die Legende in Titan wird in Capture in der Spalte <strong>Unit</strong> angezeigt. 
 Die Usernumber von Titan wird in Capture als <strong>Channel</strong> angezeigt.
 
-Den Patch von Capture ins Pult übertragen
------------------------------------------
+## Den Patch von Capture ins Pult übertragen
 
 Wurden in Capture bereits Geräte gepatcht, bevor das Pult verbunden war,
 so können diese später im Pult mit Hilfe der Active Fixture-Funktion

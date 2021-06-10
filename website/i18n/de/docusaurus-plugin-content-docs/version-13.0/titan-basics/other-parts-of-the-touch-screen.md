@@ -8,8 +8,7 @@ original_id: other-parts-of-the-touch-screen
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Die Menütasten
---------------
+## Die Menütasten
 
 (Das Pearl Expert hat dafür extra ein kleines LCD-Display im Pult)
 
@@ -71,8 +70,7 @@ Bedienungsoption:
   ![Softkey - Text Entry](/docs/images/Softkey-Text-Entry.png) 
   <strong>Texteingabe</strong> - Taste betätigen, um mit der Tastatur einen Text einzugeben
 
-Die Werkzeugleiste
-------------------
+## Die Werkzeugleiste
 
 Auf allen Konsolen außer dem Sapphire Touch befindet sich am oberen
 Bildschirmrand die Werkzeugleiste.
@@ -135,8 +133,7 @@ der Bildschirmtastatur.
 
 > Bei der Titan PC Suite (Titan Mobile, Titan Go, Simulator) gibt es keine Toolbar, da alle diese Funktionen über Windows bzw. die Systemsteuerung zur Verfügung stehen.
 
-Das Heads-Up Display (HUD)
---------------------------
+## Das Heads-Up Display (HUD)
 
 Das HUD-Fenster zeigt Details der Belegung der verschiedenen Fader und
 Tasten.
@@ -147,8 +144,7 @@ Bearbeiten ausgewählt sind.
 
 ![HUD](/docs/images/HUD.png)
 
-Visualiser
-----------
+## Visualiser
 
 ![Visualiser](/docs/images/Capture-Visualiser-Workspace-Window.png)
 
@@ -160,8 +156,7 @@ jeweiligen Beleuchtungssituation. So lässt sich vorprogrammieren,
 Anpassungen vornehmen sowie etwa während der Show per Blind-Modus letzte
 Änderungen machen.
 
-Undo/Redo -- Rückgängig machen/Wiederholen
-------------------------------------------
+## Undo/Redo -- Rückgängig machen/Wiederholen
 
 Im Konsolenbereich des Bildschirms (links neben der Leiste mit den
 Menütasten) wird eine Liste der zuletzt ausgeführten

@@ -28,8 +28,7 @@ Once you have recorded a timeline there is a <strong>Timeline View</strong> wind
 
 ![Playback View of Timeline](/docs/images/Timeline-Window.png)
 
-Triggers
-------------------
+## Triggers
 
 To program a timeline you record actions at specific times
 which can then be replayed by the console with the same timing. These
@@ -54,23 +53,20 @@ Wait for go         | Pause the timeline until you press <Keys.HardKey>Go</Keys.
 example a win/walk-up sequence for an awards ceremony when you don't know how long the winner
 will take to reach the stage. Shapes will continue to run while the timeline is paused. The timeline needs to be [connected](./chases/chase-playback/#connecting-a-playback-for-control) for the <Keys.HardKey>Go</Keys.HardKey> button to work, if the timeline is not connected you can use the <Keys.ContextKey>Play</Keys.ContextKey> transport button to resume the timeline.
 
-Tracks
-------------------
+## Tracks
 
 The timeline is split into <strong>Tracks</strong> which can be used to organise triggers into different groups or sections. Each different playback in the timeline gets its own row in the track.
 - You can mute tracks to prevent them playing back using the <Keys.ContextKey>Mute</Keys.ContextKey> button.
 - You can lock tracks to prevent accidental changes to sections you've finished using the <Keys.ContextKey>Lock</Keys.ContextKey> button.
 - Tracks can be collapsed so they take up less room on the screen, using the arrow button to the left of the track name. See [more details](./timelines/running-and-editing-timelines.md#collapsing-track-view) here.
 
-Selecting timecode source
-------------------
+## Selecting timecode source
 
 You can select one of the four available timecode sources to control your timeline from the [Timeline Options](./timelines/timeline-options.md#timecode-tab).
 
 To set up and enable each of the timecode sources as Internal, MIDI, Clock or SMPTE use the <Keys.SoftKey>Timecode</Keys.SoftKey> softkey at the top level main menu or double press <Keys.HardKey>Open/View</Keys.HardKey> and open the appropriate <strong>Timecode window</strong>.
 
-Timecode linking and local timecode controls
-------------------
+## Timecode linking and local timecode controls
 
 The <Keys.ContextKey>Link</Keys.ContextKey> button at the bottom left of the Timeline View window can be used to temporarily unlink the timeline from its timecode source.
 
@@ -99,15 +95,13 @@ If the timecode time is within the [start and end times](./timelines/timeline-op
 - If your timecode source starts at a big number, you can set a time offset to allow you to use zero-referenced times on your timeline. You can also add or subtract a few frames for synchronisation if the timecode source is slightly off.
 See [Time Offset](./timelines/timeline-options.md#time-options).
 
-The overview bar
-------------------
+## The overview bar
 
 The overview bar at the bottom of the screen gives you a view of the whole timeline from start to end. Triggers and markers are shown in miniature on the bar. You can make the main view zoom in and out by dragging the end markers of the bar to enclose a particular section. It's a good way of moving quickly around the timeline. See [Using The Overview Bar](./timelines/running-and-editing-timelines.md#using-the-overview-bar) for more details.
 
 ![Timeline overview bar](/docs/images/Timeline-Overview-Bar-Cropped.png)
 
-Moving around the timeline view with the wheels
------------------
+## Moving around the timeline view with the wheels
 
 Using the context menu option <Keys.ContextKey>Timeline Wheels</Keys.ContextKey> you can set the wheels to control your view, when no triggers are selected.
 The wheel functions are
@@ -117,8 +111,7 @@ The wheel functions are
 
 If any triggers are selected, the wheels control Time, Level and Fade of the selected trigger(s).
 
-Cursor
------------------
+## Cursor
 
 The grey cursor on the Timeline View sets the entry position for new triggers. It can also be used as a "play head" to
 manually move the play position along the timeline while testing. You can position the cursor by tapping the screen in the ruler
@@ -126,8 +119,7 @@ area at the top of the Timeline View.
 
 Tapping on the arrow at the top of the cursor, or using the <Keys.ContextKey>Select Cursor</Keys.ContextKey> context menu option sets <strong>Wheel A</strong> to control the cursor position.
 
-Selection tool types
-------------------
+## Selection tool types
 
 The <Keys.ContextKey>Select</Keys.ContextKey> and <Keys.ContextKey>Pan</Keys.ContextKey> buttons let you choose different selection tools for editing.
 - <Keys.ContextKey>Select</Keys.ContextKey> is for marquee editing, where you select items by drawing a marquee selection box around them (or direct clicking).
@@ -135,8 +127,7 @@ The <Keys.ContextKey>Select</Keys.ContextKey> and <Keys.ContextKey>Pan</Keys.Con
 
 You can also select the tool using the <Keys.ContextKey>Tool Pan</Keys.ContextKey>/<Keys.ContextKey>Tool Select</Keys.ContextKey> context menu button.
 
-Table view
-------------------
+## Table view
 
 Using the <Keys.ContextKey>Open Table View</Keys.ContextKey> context menu button, you can open the timeline as a <strong>table</strong> which shows details for each trigger in time order, in the same format as a cue list. Buttons down the left hand side allow you to filter which tracks are shown in the list.
 See [Table View](./timelines/running-and-editing-timelines.md#table-view).

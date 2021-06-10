@@ -8,8 +8,7 @@ original_id: creating-a-cue-list
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Programmieren einer Cueliste
-----------------------------
+## Programmieren einer Cueliste
 
 <Video videoId="Kp6XhdG6keM" title="Cuelist Basics" />
 
@@ -106,8 +105,7 @@ Erstellen aus vorhandenen Cues und Paletten.
 für unterschiedliche Attribute - gegenseitig überlagern sollen.
 
 
-Vergeben von Bezeichnern für einzelne Schritte
-----------------------------------------------
+## Vergeben von Bezeichnern für einzelne Schritte
 
 Für jeden Schritt lässt sich eine Bezeichnung vergeben, welche beim
 Ablauf der Cueliste im Display erscheint - eine hilfreiche Sache bei der
@@ -129,8 +127,7 @@ Navigation.
 5.  Setzen Sie den Vorgang ggf. für weitere Schritte fort, oder drücken
     Sie <Keys.HardKey>Exit</Keys.HardKey>, um den Vorgang abzuschließen.
 
-Tracking von Shapes in Cuelisten
---------------------------------
+## Tracking von Shapes in Cuelisten
 
 Ab Version 10 können auch Shapes innerhalb von Cuelisten tracken. Ist
 das Tracking für Shapes aktiviert, läuft ein in einem Cue gestarteter
@@ -165,8 +162,7 @@ Parameter, Größe und Geschwindigkeit - in mehrere aufeinanderfolgende
 Cues programmiert, so läuft er einfach durch, ohne unterbrochen zu
 werden.
 
-Autoloading: Laden eines externen Cues
---------------------------------------
+## Autoloading: Laden eines externen Cues
 
 Schritte einer Cueliste lassen sich auch so programmieren, dass sie
 automatisch den Inhalt eines oder mehrerer Speicherplätze -- Cues,
@@ -239,8 +235,7 @@ Target Times\] die Zeiten des externen Cues/Chasers/Cueliste verwenden,
 oder man vergibt direkt spezielle Zeiten.
 
 
-Abrufen einer Tastenfolge (Makro) aus einer Cueliste
-----------------------------------------------------
+## Abrufen einer Tastenfolge (Makro) aus einer Cueliste
 
 Es lassen sich Cues in Cuelisten programmieren, die eine vorgegebene
 Tastenfolge ausführen. Damit lassen sich spezielle Aktionen ausführen,
@@ -266,8 +261,7 @@ alle Geräte zünden.
     wählen dann das zugefügte Makro, und betätigen die Kontext-Taste
     <Keys.SoftKey>Remove Link</Keys.SoftKey>.
 
-Tastatursyntax für Cuelisten
-----------------------------
+## Tastatursyntax für Cuelisten
 
 Zum schnellen Speichern und Editieren von Cuelisten stehen
 folgende Tastenkombinationen zur Verfügung; diese wirken auf die

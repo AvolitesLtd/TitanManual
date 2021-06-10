@@ -8,8 +8,7 @@ original_id: viewing-and-editing-fixture-values
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-The Channel Grid Window
------------------------
+## The Channel Grid Window
 
 It can sometimes be useful to display and edit exactly what each fixture
 is doing. The Channel Grid window allows you do to that. Display it by
@@ -54,8 +53,7 @@ You can filter what is shown in the grid either by IPCGBES attribute
 (using the buttons top left) or by fixture type (using the buttons below
 that).
 
-Intensity Window
-----------------
+## Intensity Window
 
 If you want to see at a glance the intensity setting of each fixture,
 the Intensity window is the place to be. To show the window, press

@@ -8,8 +8,7 @@ original_id: changing-the-patch
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Die Patch-Ansicht (Patch View)
-------------------------------
+## Die Patch-Ansicht (Patch View)
 
 Mit der Patch-Ansicht hat man einen kompletten Überblick über die
 aktuelle gepatchten Geräte; ebenso kann man diese dort parken,
@@ -60,8 +59,7 @@ weitere Möglichkeiten ergeben sich durch die Multifunktionstasten.
     ausgeblendet werden. Werden diese angezeigt, so erscheinen sie
     ausgegraut an der Stelle, an der sie ursprünglich eingefügt waren.
 
-Anzeige weiterer Patch-Details
-------------------------------
+## Anzeige weiterer Patch-Details
 
 Zur Anzeige der Details einzelner Geräte drücken Sie in der
 Patch-Ansicht in der Tabelle auf die betreffende <Keys.SoftKey>View</Keys.SoftKey>-Schaltfläche,
@@ -82,8 +80,7 @@ Details der jeweiligen Personality angezeigt. Dies ist insbesondere
 hilfreich für Geräte, die in verschiedenen Versionen verfügbar sind oder
 gepatcht werden können.
 
-Ändern der DMX-Adresse in der Patch-Ansicht
-----------------------------------------
+## Ändern der DMX-Adresse in der Patch-Ansicht
 
 Die Zuordnung eines Gerätes zu einer DMX-Adresse und/oder DMX-Linie kann
 in der Patch-Ansicht auf einfache Weise geändert werden. Wählen Sie dazu
@@ -114,8 +111,7 @@ Geräten die Anzahlen anzupassen. Funktioniert dies nicht, kann man mit
 <Keys.SoftKey>Cancel</Keys.SoftKey> abbrechen oder mit <Keys.SoftKey>Park Conflicting</Keys.SoftKey> die Geräte, die
 momentan 'im Weg' sind, parken.
 
-Ändern der DMX-Adresse im Patch-Menü
-------------------------------------
+## Ändern der DMX-Adresse im Patch-Menü
 
 Die Zuordnung eines Gerätes zu einer DMX-Adresse und/oder DMX-Linie kann
 auch im Patch-Menü geändert werden, wobei die Programmierung erhalten
@@ -164,8 +160,7 @@ bestätigen.
 
 ![Fixture Conflict](/docs/images/Fixture-Conflict.png)
 
-Legenden/Bezeichnungen eingeben
--------------------------------
+## Legenden/Bezeichnungen eingeben
 
 Jedes gepatchte Gerät lässt sich mit einer Bezeichnung versehen, die auf
 der entsprechenden Geräte-Auswahltaste angezeigt wird, um das Gerät
@@ -206,8 +201,7 @@ Legende vergeben wollen.
 	Bezeichnung wird auf der Auswahltaste für die Seite sowie im HUD 
 	angezeigt.
 
-Halo für Fixture-Buttons
-------------------------
+## Halo für Fixture-Buttons
 
 Für Fixture-Buttons (Geräte-Schaltflächen) kann ein Halo, also ein 
 farbiger Rand, eingerichtet werden, um diese noch übersichtlicher 
@@ -239,8 +233,7 @@ Benutzereinstellung ist für diese Listendarstellung ohne Belang.
 
 ![Cue View](/docs/images/Cue-View.png)
 
-Das Fenster 'DMX View'
-----------------------
+## Das Fenster 'DMX View'
 
 Insbesondere zur Fehlersuche empfiehlt es sich, die tatsächlich vom Pult
 gesendeten DMX-Werte zu überprüfen. Dazu gibt es ein gesondertes
@@ -252,8 +245,7 @@ Mit den Schaltflächen in der linken Spalte lässt sich das anzuzeigende
 DMX-Universum wählen. Durch Scrollen nach rechts lassen sich weitere
 Informationen pro Kanal anzeigen.
 
-Geräte austauschen
-------------------
+## Geräte austauschen
 
 <Video videoId="a_ES6UYQRJ4" title="Advanced Patching" />
 
@@ -302,8 +294,7 @@ unerheblichen Zeitersparnis führen kann.
 
 > Nach dem Austausch von Geräten müssen die von diesen verwendeten Paletten aktualisiert werden. Ist das Deaktivieren einzelner Werte in der Palette nicht möglich, empfiehlt es sich, aktuelle Werte für alle Attribute der betreffenden Attribut-Gruppe einzustellen und die Palette neu abzuspeichern. Nun können einzelne Attribut-Gruppen deaktiviert werden.
 
-Exchange Mapping
-----------------
+## Exchange Mapping
 
 Werden Geräte ausgetauscht, so werden durch das Pult die Funktionen der
 alten Geräte auf die der neuen Geräte soweit wie möglich abgebildet, um
@@ -393,8 +384,7 @@ Sind die gewünschten Einstellungen erfolgt, so klicken Sie auf
 <Keys.SoftKey>Apply</Keys.SoftKey>, dann auf <Keys.SoftKey>Confirm</Keys.SoftKey>. Mit <Keys.SoftKey>Cancel</Keys.SoftKey> und <Keys.SoftKey>Confirm</Keys.SoftKey> dagegen
 werden die Änderungen verworfen.
 
-Bereits gepatchte Personalities aktualisieren
----------------------------------------------
+## Bereits gepatchte Personalities aktualisieren
 
 Mit dieser Funktion lassen sich die Personalities der in der Show
 verwendeten Geräte aktualisieren. Normalerweise sind Kopien der

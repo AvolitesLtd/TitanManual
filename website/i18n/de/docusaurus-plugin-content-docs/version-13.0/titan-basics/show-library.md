@@ -19,8 +19,7 @@ aus der Liste <Keys.SoftKey>Show Library</Keys.SoftKey> (oder - wenn man gerade 
 Untermenü ist: <Keys.HardKey>View / Open</Keys.HardKey>, <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>, \[Show
 Library\]).
 
-Der Reiter Show Library
------------------------
+## Der Reiter Show Library
 
 Auf dem Reiter 'Show Library' werden sämtliche programmierten Elemente
 der Show, die gepatchten Geräte, Gruppen, Paletten, Playbacks, Macros
@@ -32,8 +31,7 @@ Elemente auszublenden.
 Die Elemente in der Show Library können zum Auswählen einfach angeklickt
 werden.
 
-Shows zum Importieren mappen
-----------------------------
+## Shows zum Importieren mappen
 
 Klicken Sie oben rechts auf das '+' (Plus), so können Sie weitere Shows
 zum Importieren einzelner Elemente auswählen (mappen).
@@ -43,14 +41,12 @@ Geräte der aktuellen Show zugeordnet (gemappt). Daraufhin können dann
 die programmierten Elemente - etwa Paletten, Cues, Chaser etc. - in
 die aktuelle Show [importiert werden](../titan-basics/loading-and-saving-shows.md#teile-aus-anderen-shows-importieren).
 
-Der Reiter Users (Benutzer)
----------------------------
+## Der Reiter Users (Benutzer)
 
 Damit können Benutzer angelegt/ausgewählt werden. Identisch mit der
 Option <Keys.SoftKey>Users</Keys.SoftKey> im <Keys.HardKey>Disk</Keys.HardKey>-Menü.
 
-Der Reiter Key Profiles (Tastenprofile)
----------------------------------------
+## Der Reiter Key Profiles (Tastenprofile)
 
 Auf dem Reiter [Key Profiles](../system-settings/key-profiles.md) werden 
 die verschiedenen vorhandenen Key Profiles (Tastenprofile) angezeigt. 

@@ -7,8 +7,7 @@ sidebar_label: Editing a Chase
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Opening a Chase for Editing
----------------------------
+## Opening a Chase for Editing
 
 You can open a chase for editing by pressing <Keys.HardKey>Record</Keys.HardKey> then the **Select**
 button of an existing chase. This does not affect any existing cues in
@@ -23,8 +22,7 @@ then use the softkey options to change the setting.
 
 ![Playback View of a chase](/docs/images/Playback-View-for-chase.png)
 
-Editing a Chase Using Unfold
-----------------------------
+## Editing a Chase Using Unfold
 
 Unfold provides another way to edit chases. The <Keys.HardKey>Unfold</Keys.HardKey> button places
 each cue in a chase on one of the playback faders, allowing you to fire
@@ -65,8 +63,7 @@ edited.
     go between pages using the <Keys.SoftKey>Previous Page</Keys.SoftKey> and <Keys.SoftKey>Next Page</Keys.SoftKey>
     buttons.
 
-Extracting a step from a chase with Include
--------------------------------------------
+## Extracting a step from a chase with Include
 
 You can reload a single cue/step from a chase into the programmer using
 Include. Press <Keys.HardKey>Include</Keys.HardKey>, select the chase, then enter the step number to

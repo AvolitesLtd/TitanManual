@@ -7,8 +7,7 @@ sidebar_label: Copying, moving and deleting fixtures
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Copying or moving a patched fixture
------------------------------------
+## Copying or moving a patched fixture
 
 Using the <Keys.HardKey>Copy</Keys.HardKey> or <Keys.HardKey>Move</Keys.HardKey> buttons you can make a copy of an existing fixture or
 move it to a new handle. You cannot link fixture handles like you can with cues. You can copy
@@ -50,8 +49,7 @@ add more fixtures to the selection.
     This is useful when rearranging buttons on a page which is nearly
     full.
 
-Deleting a Patched Fixture
---------------------------
+## Deleting a Patched Fixture
 
 You can delete a fixture or dimmer from a button if you patched it
 accidentally or if you change your rig and want to use the button for

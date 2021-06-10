@@ -26,8 +26,7 @@ save it to a USB pen drive which you can take with you in case something
 bad happens to the console or if you want to transfer a show to a
 different console.
 
-Saving the show
----------------
+## Saving the show
 
 You can save your show at any time either with its current name or with
 a new name. If you save your show with its current name, a new version
@@ -52,8 +51,7 @@ when you load shows.
 exists). The show will be saved.
 
 6. Press <Keys.HardKey>Exit</Keys.HardKey> or <Keys.SoftKey>OK</Keys.SoftKey> to leave Disk mode.
-
-----
+## 
 
 -   To save the show under a different name, use the <Keys.SoftKey>Save As</Keys.SoftKey>
     softkey.
@@ -64,15 +62,13 @@ exists). The show will be saved.
 
 -   A new version of the file will be saved even if you enter the same
     tag as previously used.
-
-----
+## 
 
 If you save to hard drive, shows are saved in the folder 'D:\\Shows' (on
 Titan Mobile, Titan Go and Simulator the folder is
 'Documents\\Titan\\Shows').
 
-Loading a show
---------------
+## Loading a show
 
 The console will automatically reload the last show when it is turned
 on.
@@ -114,8 +110,7 @@ settings of the console, or to load the settings stored in the showfile.
 The DMX settings determine how the XLR sockets on the back of the
 console are used and how DMX is sent over the network using TitanNet.
 
-Importing parts of other shows
-------------------------------
+## Importing parts of other shows
 
 If you are doing a show which is similar to a previous one, you might
 want to import parts of the previous showfile, for example you might
@@ -178,8 +173,7 @@ buttons on the left to select Palettes, Groups etc.
 
 ---
 
-Autosave
---------
+## Autosave
 
 The console will automatically save your show to its internal hard disk
 when you shut it down. It will also autosave the show every 30 minutes
@@ -191,8 +185,7 @@ reload Autosave files using the Show Browser.
 
 >This option is included because Autosave used to make the console pause, however this is no longer the case and we recommend that you do not disable Autosave. If you lose power while programming Autosave will make your day a whole lot better.
 
-Recover show
-------------
+## Recover show
 
 If Titan shuts down improperly due to a crash or power failure, and when
 you restart it the most recent showfile can't be reloaded, a softkey
@@ -200,8 +193,7 @@ option <Keys.SoftKey>Recover Show</Keys.SoftKey> will be displayed which will at
 show from the temporary directory. You will also see options to start a
 new show or load a previous show.
 
-Backing up existing show files to USB pen drive
------------------------------------------------
+## Backing up existing show files to USB pen drive
 
 If you just want to save a copy of your current show, you can use the
 normal save function to save it to the USB drive instead of the hard

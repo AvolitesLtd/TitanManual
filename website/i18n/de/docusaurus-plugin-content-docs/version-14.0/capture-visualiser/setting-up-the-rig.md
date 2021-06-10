@@ -8,8 +8,7 @@ original_id: setting-up-the-rig
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Raum und Bühne
---------------
+## Raum und Bühne
 
 Für einen realistischen Eindruck und eine bessere Orientierung lassen
 sich verschiedene feste Elemente hinzufügen.
@@ -32,8 +31,7 @@ so können Sie die Objekte positionieren und in der Größe verändern.
 Ebenso können Sie rechts oben Farbe und Bezeichnung der Objekte
 verändern.
 
-Geräte/Fixtures hinzufügen und einrichten
------------------------------------------
+## Geräte/Fixtures hinzufügen und einrichten
 Ist die Funktion "Auto Update" aktiviert (zu finden auf dem Reiter
 &nbsp;<strong>Show</strong> im Fenster <strong>Capture Settings</strong>), 
 so werden Geräte beim Patchen in der Titan-Software automatisch zur 
@@ -102,8 +100,7 @@ Außerdem empfiehlt es sich, zumindest ein richtiges Gerät zum Vergleich
 anzuschließen, um zu überprüfen, dass alle Richtungen und Positionierungen
 im richtigen Sinn erfolgen. 
 
-Kameras einrichten (Ansichten)
-------------------------------
+## Kameras einrichten (Ansichten)
 
 Es stehen vier Kameras - unabhängige Ansichten - zur Verfügung, wobei
 weitere hinzugefügt werden können.
@@ -151,8 +148,7 @@ Klickt man auf den Kontext-Button <Keys.ContextKey>Rotate Camera</Keys.ContextKe
 Camera\&#125;, so kann man die Kamera mit den Rädern drehen/schwenken, sowie
 die Rotation numerisch eingeben.
 
-Capture Darstellungs-Optionen
------------------------------
+## Capture Darstellungs-Optionen
 
 Der Reiter Appearance (Darstellung) im Fenster <strong>Capture Visualiser Settings</strong> bietet folgende Einstellmöglichkeiten:
 

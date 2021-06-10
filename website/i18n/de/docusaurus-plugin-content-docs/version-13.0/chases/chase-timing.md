@@ -8,8 +8,7 @@ original_id: chase-timing
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Globale Zeiten für Chaser
--------------------------
+## Globale Zeiten für Chaser
 
 Wird ein Chaser erstmals programmiert, gelten für sämtliche Schritte die
 gleichen Zeiten. Dies sind die globalen Zeiten. Wenn gewünscht, lassen
@@ -72,8 +71,7 @@ Geräte wird dabei durch die Reihenfolge der Geräteauswahl beim
 Erstellen des jeweiligen Schrittes vorgegeben, kann aber mit der
 <Keys.HardKey>Unfold</Keys.HardKey>-Funktion geändert werden.
 
-Individuelle Zeiten pro Schritt
--------------------------------
+## Individuelle Zeiten pro Schritt
 
 Jeder Schritt eines Chasers lässt sich mit gesonderten Zeitvorgaben
 versehen. Dazu können Sie entweder das ‚Playback View'-Fenster oder die

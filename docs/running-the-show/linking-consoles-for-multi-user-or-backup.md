@@ -22,14 +22,12 @@ transfer control to the backup console.
     PC Suite (Titan Mobile, Titan Go or Simulator) you may need to disable 
     any firewalls on the PC.
 
-Setting Up Consoles for Multi-User
-----------------------------------
+## Setting Up Consoles for Multi-User
 
 Titan consoles may be connected to each other for collaborative
 programming or show operation. See the [Multi-User Operation](../titan-basics/multi-user-operation.md) section for more information.
 
-Setting Up Consoles for Backup
-------------------------------
+## Setting Up Consoles for Backup
 
 Any Titan console can act as backup for any other console, they do not
 have to be the same model. For example you could run Titan Mobile as

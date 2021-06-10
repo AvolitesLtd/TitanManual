@@ -12,8 +12,7 @@ Anders als die anderen Titan-Pulte verfügt das Arena über einen
 integrierten Netzwerkswitch und einen optischen Netzwerkschluss
 (optional: zwei). <strong>Dieser Abschnitt gilt nur für das Arena!</strong>
 
-Optische Anschlüsse
--------------------
+## Optische Anschlüsse
 
 Der optische Netzwerkanschluss ist ein Neutrik opticalCon DUO mit
 Multimode Glasfaser; auf Nachfrage kann ein zweiter Anschluss eingebaut
@@ -22,8 +21,7 @@ welcher wiederum RJ45, also gewohnter Netzwerkanschlüsse, bereitstellt.
 Sollen andere Glasfaserkonverter verwendet werden, halten Sie bitte mit
 Avolites Rücksprache.
 
-RJ45-Netzwerk-Anschlüsse
-------------------------
+## RJ45-Netzwerk-Anschlüsse
 
 Das Arena verfügt über einen integrierten Netzwerkswitch, der direkt mit
 Netzwerkanschluss 1 des Motherboards verbunden ist. Der Switch stellt
@@ -40,8 +38,7 @@ IP-Adressen: Wird der Controller auf eine Adresse gesetzt (z.B.
 `10.19.0.50`), so erhält der Switch die folgende Adresse (im Beispiel
 `10.19.0.51`).
 
-Ändern der IP-Adresse des Netzwerk-Switchs
-------------------------------------------
+## Ändern der IP-Adresse des Netzwerk-Switchs
 
 Die IP-Adressen des Netzwerkswitchs und Controllers müssen normalerweise
 nicht geändert werden, es sei denn, es besteht ein Konflikt mit anderen
@@ -59,8 +56,7 @@ Um die IP-Adresse des Switchs zu ändern:
 3. Im angezeigten <strong>IP Address Dialog</strong> geben Sie die neue IP-Adresse ein.
 ![USB Expert Tools - TNS Panel - IP Address Dialog](/docs/images/USB-Expert-Tools-TNS-Panel-IP-Address-Dialog.png)
 
-Stromversorgung und USV 
------------------------
+## Stromversorgung und USV 
 
 Der Netzwerkswitch ist mit der gleichen unterbrechungsfreien
 Stromversorgung verbunden wie das Pult selbst. Fällt also die

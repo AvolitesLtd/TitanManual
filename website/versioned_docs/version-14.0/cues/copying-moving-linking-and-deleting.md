@@ -8,8 +8,7 @@ original_id: copying-moving-linking-and-deleting
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Copying a Cue
------------------------
+## Copying a Cue
 
 Using the <Keys.HardKey>Copy</Keys.HardKey> button you can make a <strong>copy</strong> of an existing cue, or create a 
 new playback which is <strong>linked</strong> to the
@@ -48,8 +47,7 @@ playbacks, where you want them to start.
 -   The option <Keys.SoftKey>Copy Legends</Keys.SoftKey> can be changed to <Keys.SoftKey>Don't
     copy legends</Keys.SoftKey> so that the copied cues are given default legends.
 
-Moving a Cue
------------------------
+## Moving a Cue
 
 The <Keys.HardKey>Move</Keys.HardKey> button allows you to move one or more cues to a different playback handle. <strong>Move</strong> is useful for tidying 
 up the console after programming to put similar cues together or move them onto different pages. 
@@ -67,8 +65,7 @@ the <strong>Move</strong> function using the <Keys.HardKey>Menu Latch</Keys.Hard
     full.
 
 
-Deleting a Cue
---------------
+## Deleting a Cue
 
 To delete a cue:
 

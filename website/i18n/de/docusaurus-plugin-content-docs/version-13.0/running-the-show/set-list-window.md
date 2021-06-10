@@ -30,8 +30,7 @@ aktuelle Seite. Ein Klick auf die <Keys.SoftKey>⏵</Keys.SoftKey>-Schaltfläche
 Track schaltet sofort auf die passende Seite (auf dem Pearl Expert muss
 die Walze manuell betätigt werden).
 
-Erstellen einer Set-Liste
--------------------------
+## Erstellen einer Set-Liste
 
 Zum Erstellen einer neuen Set-Liste klicken Sie auf die
 <Keys.SoftKey>+</Keys.SoftKey>-Schaltfläche *oben rechts*, angeboten werden die Optionen <Keys.SoftKey>Empty</Keys.SoftKey>
@@ -43,8 +42,7 @@ Zum Erstellen einer neuen Set-Liste klicken Sie auf die
 -   Mit <Keys.SoftKey>Empty</Keys.SoftKey> starten Sie mit einer leeren Set-Liste und fügen Track 
 	für Track hinzu, indem Sie unten auf die <Keys.SoftKey>+</Keys.SoftKey>-Schaltfläche klicken.
 
-Die Tracks konfigurieren
-------------------------
+## Die Tracks konfigurieren
 
 Enter notes by selecting a track and clicking the text entry button,
 bottom right, or the Edit Note context menu button.
@@ -67,8 +65,7 @@ bottom right, or the Edit Note context menu button.
 -   Zum Ändern der Bezeichnung der Set-Liste oder einzelner Tracks
     verwenden Sie <Keys.SoftKey>Set Legend</Keys.SoftKey>.
 
-Tracks mit Workspace und Macros verknüpfen
-------------------------------------------
+## Tracks mit Workspace und Macros verknüpfen
 
 Macros und Workspaces lassen sich durch Tracks aufrufen: dazu dienen die
 Buttons <Keys.SoftKey>Workspace</Keys.SoftKey> und <Keys.SoftKey>Macro</Keys.SoftKey> rechts unten im 'Set List'-Fenster.
@@ -93,8 +90,7 @@ Klickt man auf so einen Button, so wird die entsprechende Aktion
 ausgelöst. Zum Löschen drückt man <Keys.HardKey>Delete</Keys.HardKey>, gefolgt von dem jeweiligen
 Button, und bestätigt das mit <Keys.SoftKey>Remove</Keys.SoftKey>.
 
-Macros zur Playback-Steuerung
------------------------------
+## Macros zur Playback-Steuerung
 
 [Macros](../titan-basics/front-panel-buttons.md#macros----tastenfolgen)
 gestatten es, häufig wiederkehrende Folgen von Tastendrücken zu

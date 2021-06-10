@@ -121,8 +121,7 @@ wie folgt interpretiert (auch erreichbar über <Keys.SoftKey>Options</Keys.SoftK
     etwa Shapes realisieren, die abhängig vom Fader schneller oder
     größer werden.
 
-Ändern der Reihenfolge der Geräte
----------------------------------
+## Ändern der Reihenfolge der Geräte
 
 Die Reihenfolge der Geräte in einem Cue lässt sich nachträglich ändern.
 Normalerweise wird diese mit der Reihenfolge der Auswahl der Geräte beim
@@ -163,8 +162,7 @@ in den Geräte-Schaltflächen angezeigt.
     angezeigt). Betätigen Sie die Geräte-Schaltfläche nochmals, um das
     Gerät wieder in die Folge aufzunehmen.
 
-Eingeben von Überblendzeiten für einzelne Attribute
----------------------------------------------------
+## Eingeben von Überblendzeiten für einzelne Attribute
 
 Es lassen sich spezifische Überblendzeiten für die einzelnen
 Attributgruppen vergeben (etwa für 'Position'). Wird eine solche Zeit
@@ -206,8 +204,7 @@ auszuwählen.
 Innerhalb des Menüs 'Set Attribute Times' lassen sich nur Geräte
 auswählen, die bereits in dem Cue enthalten sind.
 
-Editieren der Zeiten im Programmer
-----------------------------------
+## Editieren der Zeiten im Programmer
 
 Die Zeiten im Programmierspeicher lassen sich vor dem Speichern eines
 Cues überprüfen und ändern. Ebenso lassen sich Zeiten einstellen und in

@@ -9,8 +9,7 @@ import Video from '@site/src/components/video.tsx';
 
 
 
-Fixture macros and Lamping fixtures on and off
----------------------------
+## Fixture macros and Lamping fixtures on and off
 
 Many fixtures have a control channel which allows you to perform functions like lamp on, lamp off, fixture reset, and so on. This can be useful to shut down fixture lamps at the end of a show while the fans continue to run, or to reset a fixture which has gone haywire.
 
@@ -24,8 +23,7 @@ The console allows you to access these functions using Fixture Macros (not to be
 -	Some macros involve timed sequences and can take up to 30 seconds to execute.
 
 
-The ML Menu button
-------------------
+## The ML Menu button
 
 Some consoles have a button labelled <Keys.HardKey>ML Menu</Keys.HardKey>.
 When the console is at the top level menu, this button opens the Moving Light Actions menu which contains options to Locate Fixture (same as the Locate button) and to run Macros on fixtures such as Lamp On, Lamp Off, Reset etc. The Align Fixtures and Flip functions as described above are also in this menu.

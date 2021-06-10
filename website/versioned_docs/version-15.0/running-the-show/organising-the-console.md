@@ -12,8 +12,7 @@ bit mixed up during programming, you can use the Move function to move
 recorded items around and produce a better layout. When an item is
 moved, all links to other recorded items are retained.
 
-Using the Move function
------------------------
+## Using the Move function
 
 To move fixtures, palettes, groups and playbacks is very simple.
 

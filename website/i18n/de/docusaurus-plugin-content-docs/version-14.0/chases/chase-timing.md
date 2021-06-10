@@ -8,8 +8,7 @@ original_id: chase-timing
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Globale Zeiten für Chaser
--------------------------
+## Globale Zeiten für Chaser
 
 Wird ein Chaser erstmals programmiert, gelten für sämtliche Schritte die
 gleichen Zeiten. Dies sind die globalen Zeiten. Wenn gewünscht, lassen
@@ -53,8 +52,7 @@ Mit Fixture Overlap - Geräte-Überlappung - werden Änderungen von einem
 Cue zum nächsten auf die einzelnen Fixtures nacheinander statt gleichzeitig 
 angewendet. Genauer ist dies in [Einstellen von Überblendzeiten und Geräteversatz](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) erläutert.
 
-Individuelle Zeiten pro Schritt
--------------------------------
+## Individuelle Zeiten pro Schritt
 
 Jeder Schritt eines Chasers lässt sich mit gesonderten Zeitvorgaben
 versehen. Dazu können Sie entweder das ‚Playback View'-Fenster oder die

@@ -11,8 +11,7 @@ import Video from '@site/src/components/video.tsx';
 Sind Titan und Ai-Server einmal [verbunden](setting-up.md), so lässt 
 sich Ai sehr einfach von Titan aus steuern.
 
-Hochladen von Content mit dem Media Browser
--------------------------------------------
+## Hochladen von Content mit dem Media Browser
 
 Mit dem Media Browser lassen sich direkt von Titan aus Clips auf den
 Ai-Server laden. Ebenso lassen sich neue Media-Bänke auf dem Server
@@ -62,8 +61,7 @@ Server geladen sind, erfolgt ggf. das Umrendern. Dessen Fortschritt
 zeigt sich in der Anzeige der Clips im [Attribut-Editor](#layer-steuern-mit-dem-attribut-editor), siehe folgender
 Abschnitt.
 
-Vorschau mit dem Media Viewer
------------------------------
+## Vorschau mit dem Media Viewer
 
 Das Fenster <strong>Video Multi View</strong> kann alle Layer einzeln sowie jedes
 Surface (Screen) als Ergebnis der kombinierten Layer als Vorschau
@@ -97,8 +95,7 @@ Format | Datenrate
 3840x2160p30 | 280Mbps
 3840x2160p60 | 480Mbps
 
-Layer steuern mit dem Attribut-Editor
--------------------------------------
+## Layer steuern mit dem Attribut-Editor
 
 Sobald ein oder mehrere Layer ausgewählt sind (im Fenster [Synergy
 Fixtures](setting-up.md#das-fenster-synergy-fixtures)), lassen sich die darauf abzuspielenden Medien im
@@ -145,8 +142,7 @@ Farbe, Position und vieles mehr in Paletten speichern, schnell aufrufen
 und verändern. Auch [Fadezeiten](../palettes/timing-with-palettes.md)
 funktionieren wie gewohnt.
 
-Lightmap: Pixelmapping mit Ai
------------------------------
+## Lightmap: Pixelmapping mit Ai
 
 Mitunter will man auf Lampen, die im Pult gepatcht sind, auch
 Video-Content wiedergeben, etwa wenn eine Wand aus vielen LED-Lampen
@@ -186,8 +182,7 @@ die Wiedergabe auf den Lampen.
 
 ![Pixel Mapped fixtures with Ai screen shown in Capture Visualiser](/docs/images/Pixel-Mapped-fixtures-with-Ai-screen-shown-in-Capture-Visualiser.png)
 
-Verwendung des Layout-Editors mit Ai
-------------------------------------
+## Verwendung des Layout-Editors mit Ai
 
 Die grundsätzliche Funktionsweise des Layout-Editors ist im Abschnitt
 [Gerätereihenfolge und -anordnung in den Gruppen](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) beschrieben.
@@ -237,8 +232,7 @@ man auf den Kontext-Button <Keys.SoftKey>Position and Angle</Keys.SoftKey>, bis 
 Scale\] zeigt. Skaliert man Geräte mit Zellen sehr klein, so
 verschwinden die einzelnen Zellen, und alle Zellen arbeiten synchron.
 
-Phasensteuerung von Keyframe-Shapes durch Ai
---------------------------------------------
+## Phasensteuerung von Keyframe-Shapes durch Ai
 
 Die Phase von Keyframe-Shapes lässt sich durch die Helligkeit eines
 Ai-Videos steuern. Damit lassen sich sehr abgefahrene Effekte erzeugen,
@@ -252,8 +246,7 @@ mit dem man das gewünschte Surface als Master auswählt.
 
 ![Phase Master using Ai screen in Keyframe Shape](/docs/images/Phase-Master-using-Ai-screen-in-Keyframe-Shape.png)
 
-Bänke und Clips mit speziellen Funktionen
------------------------------------------
+## Bänke und Clips mit speziellen Funktionen
 
 Wählt man im Attribut-Editor Bänke und Clips aus, so haben einige
 Nummern spezielle Funktionen, um direkt den Output andererScreens und

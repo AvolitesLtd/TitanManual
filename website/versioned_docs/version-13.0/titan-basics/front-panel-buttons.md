@@ -12,8 +12,7 @@ The blue and grey buttons associated with fader handles, and the
 macro/executor buttons are configurable and you can use them in various
 ways.
 
-Key profiles
-------------
+## Key profiles
 
 The console allows you to change the function of the blue select and
 grey flash panel buttons (and the black buttons on Sapphire Touch). You
@@ -22,8 +21,7 @@ settings as a [Key Profile](../system-settings/key-profiles.md). Different profi
 different users or to enhance the operation of the console for a
 particular use.
 
-Key macro buttons
------------------
+## Key macro buttons
 
 Lighting programming can sometimes require a repeated sequence of button
 presses. You can record sequences of keypresses and play them back with
@@ -63,8 +61,7 @@ To play back the macro, just press or touch the button where you
 recorded the macro. The macro will repeat all your button presses, with
 correct timings if you selected Real Time mode.
 
-Keyboard shortcuts
-------------------
+## Keyboard shortcuts
 
 Many features of the console can be controlled by shortcuts on the
 keyboard. These are especially useful when using Titan Mobile or Titan
@@ -116,8 +113,7 @@ Key | Action | | Key | Action
 
 (num) means on the numeric keypad
 
-Locking the console
--------------------
+## Locking the console
 
 You can place a simple lock on the console controls to prevent people
 fiddling with it while you're not looking. Hold down <Keys.HardKey>Avo</Keys.HardKey> and press

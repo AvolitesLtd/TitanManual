@@ -8,8 +8,7 @@ original_id: editing-a-chase
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Einen Chaser zum Editieren öffnen
----------------------------------
+## Einen Chaser zum Editieren öffnen
 
 Neue Schritte lassen sich wie gewohnt mit <Keys.HardKey>Record</Keys.HardKey> und der
 &nbsp;<strong>Swop</strong>-Taste des Playbacks am Ende des Chasers anfügen.
@@ -23,8 +22,7 @@ an und benutzen die Funktionstasten für die gewünschte Änderung
 
 ![Playback View of a chase](/docs/images/Playback-View-for-chase.png)
 
-Ändern eines Chasers mit der Unfold-Funktion
---------------------------------------------
+## Ändern eines Chasers mit der Unfold-Funktion
 
 Eine weitere Möglichkeit zum Editieren eines Chasers bietet die
 Unfold-Funktion. Die Taste <Keys.HardKey>Unfold</Keys.HardKey> (‚Aufklappen') legt jeden
@@ -80,8 +78,7 @@ beschrieben.
     mit den Funktionstasten <Keys.SoftKey>Previous Page</Keys.SoftKey> (zurück) und <Keys.SoftKey>Next Page</Keys.SoftKey>
     (vor) zwischen den Seiten umschalten.
 
-Laden eines Chase-Schritts mit Include
---------------------------------------
+## Laden eines Chase-Schritts mit Include
 
 Einzelne Chaser-Schritte lassen sich ebenfalls per Include-Funktion in
 den Programmer laden. Dazu drücken Sie <Keys.HardKey>Include</Keys.HardKey>, wählen den Chaser,

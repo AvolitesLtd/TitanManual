@@ -12,8 +12,7 @@ In diesem Abschnitt wird das Verschieben/Kopieren kompletter Cuelisten
 erläutert; zum Kopieren/Verschieben/Löschen einzelner Cues innerhalb
 einer Liste siehe [voriges Kapitel](editing-cue-lists.md#kopierenverschieben-von-cues).
 
-Eine Cueliste verschieben oder kopieren
----------------------------------------
+## Eine Cueliste verschieben oder kopieren
 
 Cuelisten lassen sich kopieren oder auf ein anderes Playback
 verschieben, oder Sie können eine Verknüpfung erstellen. Verschieben ist
@@ -22,15 +21,13 @@ sinnvoll zum Erhalt einer aufgeräumten Arbeitsoberfläche.
 Die Vorgehensweise ist die gleiche wie für Cues, und ist in Abschnitt
 [Kopieren, verschieben, verlinken, löschen](../cues/copying-moving-linking-and-deleting.md) genau beschrieben.
 
-Löschen einer Cueliste
-----------------------
+## Löschen einer Cueliste
 
 Um eine komplette Cueliste zu löschen, drücken Sie <Keys.HardKey>Delete</Keys.HardKey>, dann die
 &nbsp;<strong>Select-Taste</strong> der zu löschenden Cueliste, und schließlich die
 Select-Taste nochmals (oder <Keys.SoftKey>Confirm</Keys.SoftKey> oder <Keys.HardKey>Enter</Keys.HardKey>).
 
-Einen Cue verschieben
----------------------
+## Einen Cue verschieben
 
 Zum Verschieben eines Cue geben Sie diesem in der [Playback-Ansicht](editing-cue-lists.md#das-fenster-playback-view) 
 mit der Menütaste <Keys.SoftKey>Change to</Keys.SoftKey>) eine andere - passende - Cue-Nummer, und er
@@ -41,8 +38,7 @@ Im Abschnitt [Kopieren/Verschieben von Cues](editing-cue-lists.md#kopierenversch
 Kopieren erläutert, mit denen man auch Cues zwischen verschiedenen
 Cuelisten verschieben/kopieren kann.
 
-Löschen eines Schrittes aus einer Cueliste
-------------------------------------------
+## Löschen eines Schrittes aus einer Cueliste
 
 Um einen einzelnen Schritt zu löschen:
 

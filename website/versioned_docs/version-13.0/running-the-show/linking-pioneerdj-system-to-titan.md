@@ -12,8 +12,7 @@ Using the Pioneer Pro DJ Link Bridge software you can automate BPM masters on th
 
 <Video videoId="vwr1DBJjBbw" title="PioneerDJ Integration" />
 
-Connecting Titan to the Pioneer System
---------------------------------------
+## Connecting Titan to the Pioneer System
 
 You need to get the console and the Pioneer equipment connected to the same network. The Pioneer equipment has some limitations with its network IP address - it either needs to be assigned an address using DHCP or it uses an automatic address in the range 169.254.\*.\* - which means that if you are already using networking to control the lights (Art-Net or sACN) things can get a bit complicated as many lighting products cannot use that address range.
 
@@ -40,8 +39,7 @@ If you need to keep the Pioneer network separate to the lighting network and you
 If you need two separate address ranges then your computer will need two network interfaces.
 Once you have everything connected up and have got all the IP addresses right, the bridge software should show connections for both the Titan console and the DJ mixer.
 
-Pioneer Workspace window
-------------------------
+## Pioneer Workspace window
 
 From the <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> menu, select the <Keys.SoftKey>PioneerDJ</Keys.SoftKey> option.
 
@@ -63,8 +61,7 @@ Context menu buttons allow you to show or hide the big and small waveform displa
 <Keys.SoftKey>Master</Keys.SoftKey> – shows only the waveform of the master track  
 <Keys.SoftKey>Condensed</Keys.SoftKey> -  shows details of all the tracks at the bottom, but only shows the waveform of the master track. You can change the master track by pressing the track number in the Track Details area.  
 
-Setting up BPM triggers from Pioneer
-------------------------------------
+## Setting up BPM triggers from Pioneer
 
 You will need a fader on the console configured as a BPM master which will be automatically controlled by the track BPM playing on the Pioneer devices. See [BPM Master](../running-the-show/playback-controls.md#bpm-master-options) section for how to set up a BPM master.
 Enter System mode and select <Keys.SoftKey>Triggers</Keys.SoftKey>. The Triggers window will open.

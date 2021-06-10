@@ -13,8 +13,7 @@ you need to know about operating Titan.
 > Radio transmitters may affect the operation of the console and we recommend that they are not placed on, above or behind the console. If you are wearing one it is best placed in a back pocket or behind you when attached to a belt.
 
 
-Connecting mains power
-----------------------
+## Connecting mains power
 
 You can safely connect the console to any voltage from 80 to 260V. If
 your console is not fitted with an internal UPS (uninterruptible power
@@ -48,8 +47,7 @@ a backup console is running the show through the network switch in the
 console, as it allows the main console to be power cycled without losing the
 network link to the stage.
 
-Starting up and shutting down
------------------------------
+## Starting up and shutting down
 
 The console runs a Windows-based operating system internally, so you
 need to make sure it is shut down properly rather than just turning off
@@ -67,8 +65,7 @@ from the console.
 
 > If the console has a switch on the power module on the back, do not use this to turn off the console as this does not close down the software properly and you will lose any changes to your show.
 
-Forced Shutdown
----------------
+## Forced Shutdown
 
 To carry out a **Forced Shutdown** of the console, if the normal shut
 down does not work, hold down the power switch for 5 seconds. You will
@@ -85,8 +82,7 @@ switch. When you shut down the console normally, the network switch will
 stay on for about 5 minutes then power off. There is no harm in leaving
 it to do this.
 
-Connecting up Titan Mobile and T1/T2
-------------------------------------
+## Connecting up Titan Mobile and T1/T2
 
 Do not connect the Titan Mobile panel or the T1/T2 dongle to your PC for
 the first time until you have installed the **Titan PC Suite** software,
@@ -129,8 +125,7 @@ AvoKey built into the device.
 -	If you are using an older Titan 1 dongle, you will need to attach an
 	AvoKey to a free USB port to license the software. 
 
-Titan Healthcheck
------------------
+## Titan Healthcheck
 
 When the Titan software starts up, it runs a small utility called Titan
 Healthcheck which checks the file system and the installed firmware and
@@ -143,8 +138,7 @@ problems.
 Only run fixes if you have plenty of time as some fixes can take up to
 an hour to complete.
 
-Connecting DMX Lines
---------------------
+## Connecting DMX Lines
 
 The console communicates with lighting fixtures using the DMX512 system.
 The console itself can output 16 universes of DMX (each 512 control
@@ -185,8 +179,7 @@ end (120 ohm resistor between pins 2 and 3). You should not split the
 DMX lines using passive splitters (Y-splits) as this can corrupt the
 data.
 
-Connecting a Monitor
---------------------
+## Connecting a Monitor
 
 You can connect an additional monitor to the console (2 monitors on
 Diamond 9 and Sapphire Touch). This gives you extra screen space for workspace windows
@@ -212,8 +205,7 @@ resolution of your monitor.
 Click [here](system-settings/external-displays.md) for more information about
 setting up an external monitor.
 
-Other Connections
------------------
+## Other Connections
 
 You can connect a USB keyboard and mouse to the console. If you are
 using an external non-touch monitor on a console without a built-in
@@ -244,8 +236,7 @@ work).
 - You can set the brightness of the desk lamps from the **System** menu 
 	(press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>).
 
-Connecting Console Wings
-------------------------
+## Connecting Console Wings
 
 "[Wings](./about-the-consoles/fader-wings.md)" are additional control surfaces which can be connected to the
 console to provide more faders and buttons. They connect to the console

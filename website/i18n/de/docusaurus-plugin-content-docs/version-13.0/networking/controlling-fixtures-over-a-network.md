@@ -12,8 +12,7 @@ Bevor das Pult mit anderen Geräten über ein Netzwerk kommunizieren kann,
 muss es eine eindeutige Netzwerkadresse bekommen; diese wird
 'IP-Adresse' genannt.
 
-Einstellen der IP-Adresse des Pultes
-------------------------------------
+## Einstellen der IP-Adresse des Pultes
 
 Es wird empfohlen, die integrierte Adressvergabe des Pultes zu
 verwenden. Alternativ können Sie die Adressierung auch über die
@@ -39,8 +38,7 @@ Details zur IP-Adressierung.
 -   Benötigen Sie einen nicht vorbelegten IP-Adressbereich, so drücken
 	Sie auf <Keys.SoftKey>IP Address = ... </Keys.SoftKey> und geben die Adresse mit den Zifferntasten ein.
 
-Einrichten der DMX-Ausgänge
----------------------------
+## Einrichten der DMX-Ausgänge
 
 Das Pult arbeitet intern mit max. 64 DMX-Universen (16 direkt im Pult,
 bis zu 64 mit TitanNet), die einzeln auf die DMX-Buchsen sowie über
@@ -48,8 +46,7 @@ Netzwerk-Knoten geroutet werden können. Der T1 ist auf ein, der T2 auf
 zwei Universen beschränkt. Die einzelnen Linien können sowohl über die 
 DMX-Anschlüsse als auch [über Netzwerk](../networking/controlling-fixtures-over-a-network.md) ausgegeben werden.
 
-Ein einfaches Art-Net-System
-----------------------------
+## Ein einfaches Art-Net-System
 
 Es gibt verschiedene Systeme zur Übertragung von Licht-Steuersignalen
 über Netzwerk; eines der am weitesten verbreiteten ist Art-Net.
@@ -108,8 +105,7 @@ Im Beispiel erfolgt die Zuordnung wie folgt:
 
 ![Art Net Explanation Nodes to DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.jpeg)
 
-Einrichten eines Art-Net-Systems
---------------------------------
+## Einrichten eines Art-Net-Systems
 
 Im folgenden Beispiel sei das Art-Net-Pult über einen Netzwerk-Hub mit
 einem Art-Net-DMX-Konverter verbunden (z.B. Artistic License Net-Lynx):
@@ -208,8 +204,7 @@ Als mögliche Art-Net-Geräte werden ggf. auch \"Unpolled\" oder
     seine Art-Net-Möglichkeiten nicht bekanntmacht; das Pult weiß
     daher nicht, ob es ein Eingangs- oder Ausgangsknoten ist.
 
-Weiterführende Informationen zu Art-Net
----------------------------------------
+## Weiterführende Informationen zu Art-Net
 
 Für weitere Informationen zum Thema Art-Net ziehen Sie am besten den
 Art-Net-Standard, veröffentlicht von der Firma [Artistic Licence](http://www.artisticlicence.com), heran.

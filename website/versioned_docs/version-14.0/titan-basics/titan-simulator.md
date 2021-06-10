@@ -15,8 +15,7 @@ panel".
 
 ![titansimulator](/docs/images/Titan-Simulator.jpeg)
 
-Installing Titan Simulator
---------------------------
+## Installing Titan Simulator
 
 You will need a Windows user account with Administrator privileges to
 install or run Titan Simulator. From v12, to run the Titan Simulator an
@@ -45,8 +44,7 @@ Once licensed, you have a choice of how Titan will operate:
     DMX outputs as a "spoiler", please wait for this to stop before
     continuing programming.
 
-Running Titan Simulator
------------------------
+## Running Titan Simulator
 
 When you start Titan Simulator you need to select which console you are
 simulating. The simulator will then open a Virtual Panel, which
@@ -59,8 +57,7 @@ The Virtual Panel works exactly the same as the real panel; to hold a
 button down so you can press a second button, right click it using the
 mouse.
 
-Using Virtual Panel with a console
-----------------------------------
+## Using Virtual Panel with a console
 
 As well as its use with the simulator, you can also run the Virtual
 Panel on a console. This could be handy to keep things going if you are

@@ -14,8 +14,7 @@ an automated setup.
 
 > Audio trigger (sound to light) requires special hardware which is currently only available on the Quartz and Arena consoles. The line in socket on other consoles cannot be used for audio trigger.
 
-Connecting Remote Trigger Sources
----------------------------------
+## Connecting Remote Trigger Sources
 
 To connect a MIDI source, connect it to the MIDI in connector on the
 console. USB-MIDI devices supporting the DirectX MIDI driver may also be
@@ -33,8 +32,7 @@ jack on the motherboard) -- available on Quartz and Arena only.
 
 > The Arena console has a switch trigger input on a jack socket.
 
-Setting up Remote Triggering
-----------------------------
+## Setting up Remote Triggering
 
 Enter System mode and select <Keys.SoftKey>Triggers</Keys.SoftKey>. The Triggers window will
 open.
@@ -135,8 +133,7 @@ the right.
 
 8. Repeat from <Keys.SoftKey>3</Keys.SoftKey> to add the other 9 playback faders.
 
-MIDI Show Control
------------------
+## MIDI Show Control
 
 The following MIDI Show Control messages are supported:
 
@@ -158,8 +155,7 @@ MIDI show control devices are identified by a device ID. To set Titan's
 device ID go to System mode and select <Keys.SoftKey>User Settings</Keys.SoftKey>, then go to the
 <Keys.SoftKey>Timecode</Keys.SoftKey> tab. The default setting is 0.
 
-Audio Control (Sound to Light)
-------------------------------
+## Audio Control (Sound to Light)
 
 On supported consoles the audio input is divided into frequency bands
 which can be used to provide the trigger. The <Keys.SoftKey>Band</Keys.SoftKey> option selects

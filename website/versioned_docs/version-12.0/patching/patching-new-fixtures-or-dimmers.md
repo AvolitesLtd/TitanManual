@@ -8,8 +8,7 @@ original_id: patching-new-fixtures-or-dimmers
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Fixture Select Buttons and Handles
-----------------------------------
+## Fixture Select Buttons and Handles
 
 To control intelligent fixtures or dimmer channels, they must each be
 patched to a button (sometimes referred to as a "handle"). You can patch
@@ -36,8 +35,7 @@ in the next chapter.
 Once you have patched fixtures or dimmers, the [Patch View](./changing-the-patch.md#patch-view) screen shows
 you an overview of what is patched where and lets you edit the patch.
 
-Patching Dimmers
-----------------
+## Patching Dimmers
 
 Each fixture button can control single or multiple dimmer channels. You
 allocate a button using the Patch menu (described below) or the [Patch View](./changing-the-patch.md#patch-view) window.
@@ -89,8 +87,7 @@ up dimly.
     handle without losing programming, make a copy of the handle then
     repatch the copy to the individual dimmer address.
 
-Patching Moving Light Fixtures
-------------------------------
+## Patching Moving Light Fixtures
 
 Moving light fixtures are more complicated to patch than dimmers because
 they have more attributes to control, such as pan, tilt and colour,
@@ -196,8 +193,7 @@ Select buttons.
 
     ![Fixture Mode](/docs/images/Fixture-Mode.png)
 
-Capture Visualiser Auto Patch
------------------------------
+## Capture Visualiser Auto Patch
 
 If you want to use Capture Visualiser, start it by pressing
 <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> then <Keys.SoftKey>Visualiser</Keys.SoftKey>. Some
@@ -223,8 +219,7 @@ fixtures if you wish.
     on the console will automatically sync to the Capture show. Also
     changes you make in Capture will sync back to the console.
 
-Patching Fixtures with Multiple Cells (sub-fixtures)
-----------------------------------------------------
+## Patching Fixtures with Multiple Cells (sub-fixtures)
 
 Some fixtures have multiple cells of control within a single fixture
 (for example an RGB LED batten). To avoid having to patch every cell as
@@ -248,8 +243,7 @@ To go back to normal, press <Keys.HardKey>Unfold</Keys.HardKey> then <Keys.SoftK
 
 > The Sub fixtures feature has to be defined in the fixture's personality. If sub-fixtures does not work on your fixture you may need to obtain the latest fixture personality from Avolites.
 
-Patching Active Fixtures / Media Servers
-----------------------------------------
+## Patching Active Fixtures / Media Servers
 
 For Ai media servers see the [Synergy section](../synergy.md) which allows you
 to connect to Ai for control of the setup and media playback.
@@ -264,8 +258,7 @@ Fixtures</Keys.SoftKey> then <Keys.SoftKey>CITP Media Servers</Keys.SoftKey> wil
 available display layers on the connected server(s). Each layer can then
 be patched to a fixture button for control.
 
-Patching by RDM
----------------
+## Patching by RDM
 
 RDM (Remote Device Management) is a system which allows the console to
 interrogate the lighting rig to find out what's there. It can then patch
@@ -294,8 +287,7 @@ RDM devices.
 -   Click on the RDM Quick Patch context menu button to automatically
     patch all RDM devices.
 
-Finding a Lost Fixture
-----------------------
+## Finding a Lost Fixture
 
 Sometimes a fixture may be rigged with the wrong DMX address set, or
 connected to the wrong DMX line.

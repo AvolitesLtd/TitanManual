@@ -29,8 +29,7 @@ console, then Capture will update. Selecting a fixture on one will
 select the fixture on the other. If you don't want this to happen you
 can turn off the <strong>"Console Link"</strong> function in Capture.
 
-Patching Console Fixtures into Capture
---------------------------------------
+## Patching Console Fixtures into Capture
 
 When you first connect the console to Capture, or if you [load a show](../titan-basics/loading-and-saving-shows.md#loading-a-show) on
 the console or [patch a new fixture](../patching/patching-new-fixtures-or-dimmers.md), the Console Patch dialog will be
@@ -51,8 +50,7 @@ console and stand-alone Capture.
 
 > Fixture Legend in Titan links to the <strong>"Unit"</strong> property on the Capture fixture, and User Number in Titan links to the <strong>"Channel"</strong> property in Capture.
 
-Patching Capture Fixtures onto the Console
-------------------------------------------
+## Patching Capture Fixtures onto the Console
 
 If fixtures have already been added in Capture before the console was
 linked, you can patch them on the console using Active Fixtures like

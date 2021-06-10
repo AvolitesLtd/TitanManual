@@ -8,8 +8,7 @@ original_id: chase-timing
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Global Timings for Chases
--------------------------
+## Global Timings for Chases
 
 When a chase is first programmed, each cue in the chase has identical
 timing. This is called the global timing for the chase. If you want you
@@ -75,8 +74,7 @@ fading when the first one is half way through its fade.
 The order of the fixtures is set by the order you selected them when the cue was
 saved; you can change the order using <Keys.HardKey>Unfold</Keys.HardKey>.
 
-Individual Cue Times in Chases
-------------------------------
+## Individual Cue Times in Chases
 
 You can configure each cue in a chase to have its own timing
 information. You can use the Playback View window, or the Unfold

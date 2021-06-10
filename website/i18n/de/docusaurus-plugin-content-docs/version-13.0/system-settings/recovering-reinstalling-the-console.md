@@ -45,8 +45,7 @@ Recovery-Sticks sind mit auf der [Download-Seite](https://www.avolites.com/softw
 unterschiedliche Schritte erforderlich. Allgemein ist das Vorgehen aber
 wie folgt:
 
-Installationshinweise
----------------------
+## Installationshinweise
 
 1.	<strong>Bei Pulten, die älter als Titan Version 11.1 sind</strong>, muss das Pult
     im BIOS so eingestellt werden, dass es vom USB-Stick bootet.
@@ -82,8 +81,7 @@ Treiber installiert. Dies dauert ca. 30 Minuten. Währenddessen wird das
 Pult mehrfach neu gestartet. Schalten Sie das Pult während der
 Installation nicht aus!
 
-Software-Lizenzierung
----------------------
+## Software-Lizenzierung
 
 Ab Titan Version 12 erfolgt die Lizenzierung mit dem AvoKey genannten
 USB-Lizenzdongle.

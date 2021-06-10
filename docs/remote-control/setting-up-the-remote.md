@@ -19,8 +19,7 @@ internet rather than between the remote and the console. If the
 remote does not work properly, disconnect your router from the
 network.
 
-Using an Existing Network
--------------------------
+## Using an Existing Network
 
 If you are connecting to an existing network, DHCP will probably be
 enabled which will automatically set suitable IP addresses on the
@@ -31,8 +30,7 @@ If the console is set to have a fixed IP address you will need to
 manually set a suitable IP address for the network - *consult the person
 who manages the network*, or read more about [Networking the Console](../networking.md).
 
-Network Setup using a Dedicated Access Point
---------------------------------------------
+## Network Setup using a Dedicated Access Point
 
 This is a basic setup assuming that the console is connected directly to
 an access point. For information on setting up your Wireless Access

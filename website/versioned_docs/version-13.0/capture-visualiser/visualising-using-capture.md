@@ -14,16 +14,14 @@ what would be happening on the stage.
 
 >If you use the visualiser a lot, it's very handy to have an external monitor to show it on. Otherwise you constantly have to switch between the workspace windows and the visualiser window.
 
-Fixture Selection
------------------
+## Fixture Selection
 
 If you [select fixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#selecting-fixtures-and-dimmers-for-control) on the console, the fixtures will highlight in
 Capture so you can see where they are in real life.
 
 ![Fixtures elected on internal Capture Visualiser Window](/docs/images/Fixtures-elected-on-internal-Capture-Visualiser-Window.png)
 
-Camera Views
-------------
+## Camera Views
 
 Capture lets you can see how the lighting will look from any seat in the
 house. Even if you're in the venue with the full rig in front of you

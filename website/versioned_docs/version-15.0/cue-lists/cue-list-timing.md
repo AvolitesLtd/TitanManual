@@ -7,8 +7,7 @@ sidebar_label: Cue List Timing
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Time and Fade Options for Cue Lists
------------------------------------
+## Time and Fade Options for Cue Lists
 
 Time settings are independent for each cue in the cue list. The display
 shows which cue you are working with. You can select which cue is active
@@ -40,8 +39,7 @@ of the Cue List.
     start to fade out, and the delay out time would run before the new
     cue begins its fade in.
 
-Cue Linking & Link Offset
--------------------------
+## Cue Linking & Link Offset
 
 Cues in cue lists may be linked together, allowing you to build up
 complex self-timed sequences. The link options are set using the
@@ -72,8 +70,7 @@ You could program
 
 > To obtain the effect which was called *"cue overlap"* in previous versions of software, use <Keys.SoftKey>Link With Previous Cue</Keys.SoftKey> and set a percentage Link Offset time. Link Offset of 100% is equivalent to Cue Overlap of 0% and vice versa.
 
-Individual Attribute Fade Times
--------------------------------
+## Individual Attribute Fade Times
 
 You can set individual fade times for each **IPCGBES** attribute group. You
 can also select which fixtures this is applied to. For example you can
@@ -100,16 +97,14 @@ timing and go back to the normal delay/fade times for the cue.
     group. You can also use the [Cue View window](editing-cue-lists.md#editing-values-in-cue-view-window) to set times for
     individual attributes.
 
-Fixture Overlap
----------------
+## Fixture Overlap
 
 For each cue you can set a fixture overlap, which creates an effect where 
 the fixtures in the cue are changed in sequence rather than all at the 
 same time. This is described in more detail in
 [Cue Timing](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
-Running a Cue List to Timecode
-------------------------------
+## Running a Cue List to Timecode
 
 <Video videoId="1abZT_ffIvs" title="Recording Timecode" />
 

@@ -35,8 +35,7 @@ type effects. This is called the <strong>Phase</strong> of the shape.
 
 ![Capture Visualiser with a shape running across fixtures](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures.png)
 
-Creating a Shape
------------------
+## Creating a Shape
 
 When you create a shape, it will be applied to all selected fixtures.
 
@@ -114,8 +113,7 @@ a particular shape.
 
 > When using a Rainbow colour shape, to get the full range of colours you need to set the CMY or RGB attributes to <strong>50%</strong>.
 
-Changing Size and Speed of a Shape
-----------------------------------
+## Changing Size and Speed of a Shape
 
 It is easy to change the size and speed of a shape after it has first
 been created. If the display above the wheels is showing Spread and
@@ -148,8 +146,7 @@ Other things to know about size and speed of shapes:
     [Speed or Size master](../running-the-show/playback-controls.md#speed-and-size-masters)
     to control the speed and size.
 
-Changing the Spread of a Shape Across Multiple Fixtures
--------------------------------------------------------
+## Changing the Spread of a Shape Across Multiple Fixtures
 
 Shapes get more interesting (and look more impressive) when you apply
 them to multiple fixtures. You can control how a shape is spread across
@@ -195,8 +192,7 @@ give the full range of colours. In this case you would set one of the
 shapes to have a Phase Offset of 180 degrees.* Without the phase offset,
 both shapes would reach full at the same time.
 
-Shape Direction
----------------
+## Shape Direction
 
 The <Keys.SoftKey>Direction</Keys.SoftKey> softkey opens a menu allowing you to set a direction
 for the shape. If you have defined a 
@@ -207,8 +203,7 @@ move in particular directions.
 You can keep the shape direction menu open using the <Keys.HardKey>Menu Latch</Keys.HardKey>
 button, to allow you to try different options and see the effects.
 
-Beat and Cycles
----------------
+## Beat and Cycles
 
 The <Keys.SoftKey>Adjust Beat and Cycles</Keys.SoftKey> option lets you set on the wheels how the
 programmed speed will trigger the shape, and how many times the shape
@@ -241,8 +236,7 @@ You can type in a number instead of using the wheels by clicking the
 middle of the wheel roller image on screen or pressing <Keys.HardKey>@B</Keys.HardKey> for <strong>Wheel B</strong>. If
 you are typing in a number you can enter part cycles, for example 1.5.
 
-Using Shapes in Cues
---------------------
+## Using Shapes in Cues
 
 When you save a shape into a cue, you can set the playback fader to
 control the size and/or speed of the shape in 
@@ -258,8 +252,7 @@ You can also adjust parameters of the shape at playback time using the
 <Keys.SoftKey>Select Shape</Keys.SoftKey> menu, which is on the <Keys.SoftKey>Edit</Keys.SoftKey> menu of the Shape Generator
 menu.
 
-Storing Shapes in Palettes
---------------------------
+## Storing Shapes in Palettes
 
 You can create palettes containing shapes. This is really useful to
 quickly call back shapes pre-configured with different spread and speed

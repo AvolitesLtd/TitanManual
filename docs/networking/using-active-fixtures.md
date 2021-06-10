@@ -16,8 +16,7 @@ media clips.
 This section does not apply to Ai media servers which use the Synergy
 system to communicate with Titan consoles.
 
-Example CITP setup
-------------------
+## Example CITP setup
 
 This example shows how to set up a Hippotizer with Titan.
 

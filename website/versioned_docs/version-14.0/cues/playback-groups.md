@@ -17,8 +17,7 @@ On a console with motorised faders, the faders for the killed playbacks will
 return to zero. Otherwise the LED in the playback’s select button will go 
 out to show that the playback is now inactive.
 
-Creating a Playback Group
--------------------------
+## Creating a Playback Group
 
 First open the Playback Groups workspace by double pressing <Keys.HardKey>View/Open</Keys.HardKey> then press <Keys.SoftKey>Playback Groups</Keys.SoftKey>
 from the window select buttons.
@@ -54,8 +53,7 @@ The playbacks will appear in the workspace as you select them.
 > When a playback is part of a group, an asterisk \* is shown at the end of the 
 playback legend to help you remember which playbacks are in groups.
 
-Editing Which Playbacks are in a Playback Group
-----------------------------------------------
+## Editing Which Playbacks are in a Playback Group
 
 From the Playback Groups workspace, select the group to be edited on the left then 
 press the <Keys.ContextKey>Pencil</Keys.ContextKey> button bottom right to edit it.
@@ -69,8 +67,7 @@ There are also softkeys to set the User Number and Legend for the group.
 hand pane of the workspace. To confirm click the group button again, or click <Keys.SoftKey>Confirm</Keys.SoftKey>
 or press <Keys.HardKey>Enter</Keys.HardKey>.
 
-Playback Group Options
-----------------------
+## Playback Group Options
 
 For each group you can set how playbacks in the group will behave. From the Playback 
 Groups workspace, select the group to be edited on the left then press the Options tab 
@@ -92,8 +89,7 @@ at the bottom of the workspace.
 - <strong>Release Mask</strong>, <strong>Release Time</strong> allow you to override the release settings for killed playbacks. 
   If set to the default of <Keys.SoftKey>Playback</Keys.SoftKey> then the playback’s own settings are used. 
 
-Playback Group Workspace Display Options
-----------------------------------------
+## Playback Group Workspace Display Options
 
 Using the workspace options menu (<Keys.ContextKey>Cog</Keys.ContextKey> button at the top of the window) you can set three 
 different display modes for the Playback Groups workspace:

@@ -21,79 +21,67 @@ Verstellen tunlichst vermieden werden sollte.
 
 ---
 
-[Network Settings - Netzwerkeinstellungen](../networking.md)
-------------------------------------------
+## [Network Settings - Netzwerkeinstellungen](../networking.md)
 
 Hier werden die Netzwerk(Ethernet)-Parameter eingestellt, siehe [Steuern von Geräten über Netzwerk](../networking/controlling-fixtures-over-a-network.md).
 
-[DMX Settings](dmx-output-mapping.md)
-------------
+## [DMX Settings](dmx-output-mapping.md)
 
 Hier wird die DMX-Ausgabe des Pultes eingerichtet. Details zu diesem
 Menü finden sich in Abschnitt [Einrichten der DMX-Ausgänge](dmx-output-mapping.md#einrichten-der-dmx-ausgänge).
 
-[DMX Merge Settings](dmx-output-mapping.md#dmx-merge)
-------------------
+## [DMX Merge Settings](dmx-output-mapping.md#dmx-merge)
 
 Hier stellt man ein, wie DMX über mehrere Pulte bzw. Netzwerk-Knoten
 hinweg ausgegeben werden soll. Siehe [DMX Merge](dmx-output-mapping.md#dmx-merge).
 
-[Synergy Settings](../synergy/setting-up.md)
-----------------
+## [Synergy Settings](../synergy/setting-up.md)
 
 Einstellungen zum Verbinden mit Ai-Servern, siehe [Einrichten von Synergy](../synergy/setting-up.md#einrichten-von-synergy).
 
-TitanNet Security - Netzwerksicherheit
---------------------------------------
+## TitanNet Security - Netzwerksicherheit
 
 Mit dieser Einstellung wird bestimmt, wie das Pult mit anderen
 Titan-Geräten im Backup-Betrieb kommuniziert. Details zum Backup finden
 sich in Abschnitt [Backup und Mehrbenutzerbetrieb](../running-the-show/linking-consoles-for-multi-user-or-backup.md).
 
-[User Settings](user-settings.md) - Benutzereinstellungen
--------------
+## [User Settings](user-settings.md) - Benutzereinstellungen
 
 Das Menü 'User Settings' (Benutzereinstellungen) lässt sich auch im
 'Program'-Modus aufrufen; dazu halten Sie die <Keys.HardKey>AVO</Keys.HardKey>-Taste gedrückt und
 betätigen die Taste <Keys.SoftKey>User Settings</Keys.SoftKey>. Näheres zu den Einstellungen
 siehe Abschnitt [User Settings](user-settings.md).
 
-[Key Profiles](key-profiles.md) - Tastenprofile
-------------
+## [Key Profiles](key-profiles.md) - Tastenprofile
 
 Damit lässt sich die Funktion verschiedener Tasten festlegen; siehe
 Abschnitt [Key Profiles](key-profiles.md).
 
-Wipe (Löschen)
---------------
+## Wipe (Löschen)
 
 Die Funktion 'Wipe' löscht die aktuelle Show. Das Ergebnis ist das
 gleiche wie bei der Wahl der Option <Keys.SoftKey>New Show</Keys.SoftKey> aus dem Menü <Keys.HardKey>Disk</Keys.HardKey>.
 ('Wipe' war bereits bei früheren Avolites-Pulten im System-Menü zu
 finden und ist deshalb hier eingeblendet).
 
-[Triggers](../running-the-show/midi-dmx-or-audio-triggering.md)
---------
+## [Triggers](../running-the-show/midi-dmx-or-audio-triggering.md)
 
 Hier richtet man die Steuerung des Pultes z.B. über DMX oder MIDI ein.
 Details dazu finden sich in Abschnitt [Externe Trigger](../running-the-show/midi-dmx-or-audio-triggering.md).
 
-[Assign Masters](../running-the-show/playback-controls.md#grand-master-fader-and-assignable-masters)
---------------
+## [Assign Masters](../running-the-show/playback-controls.md#grand-master-fader-and-assignable-masters)
 
 In diesem Menü lassen sich einzelne Fader bestimmten Master­funktionen
 zuweisen; verschiedene Funktionen stehen dafür zur Verfügung und sind in
 Abschnitt [Master-Fader](../running-the-show/playback-controls.md#master-fader) 
 näher beschrieben.
 
-Console Legend
---------------
+## Console Legend
 
 Hier kann man den Namen des Pultes verändern, der im Netzwerkbetrieb auf
 anderen Pulten angezeigt wird.
 
-Titan Telemetry
----------------
+## Titan Telemetry
 
 Um Avolites eine bessere Qualitätskontrolle und stetige Verbesserungen
 zu ermöglichen, wurde ein automatisches Rückmeldesystem integriert.
@@ -105,8 +93,7 @@ sehr unterstützt. Ist dies aber unerwünscht, kann dies mit \[Telemetry
 Disabled\] deaktiviert werden. Daten können nur übertragen werden, wenn
 das Pult einen Internetzugang hat.
 
-[Display Setup](external-displays.md) - Bildschirmeinrichtung
--------------
+## [Display Setup](external-displays.md) - Bildschirmeinrichtung
 
 Hier lässt sich der [externe Bildschirm](external-displays.md)
 aktivieren/deaktivieren. Ist kein solcher vorhanden, empfiehlt es sich aus 

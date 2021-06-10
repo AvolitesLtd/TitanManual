@@ -8,8 +8,7 @@ original_id: copying-moving-and-deleting-fixtures
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Kopieren oder Verschieben eines gepatchten Gerätes
---------------------------------------------------
+## Kopieren oder Verschieben eines gepatchten Gerätes
 
 Mit den Taste <Keys.HardKey>Copy</Keys.HardKey> sowie <Keys.HardKey>Move</Keys.HardKey> lässt sich ein existierendes Gerät 
 kopieren oder auf eine andere Auswahltaste verschieben. Verknüpfungen 
@@ -61,8 +60,7 @@ zu erhalten.
     sind. Dies ist hilfreich beim Verschieben von Geräten auf einer
     nahezu vollen Seite.
 
-Löschen eines gepatchten Gerätes
---------------------------------
+## Löschen eines gepatchten Gerätes
 
 Ein gepatchtes Gerät (oder Dimmer) lässt sich löschen, wenn etwa
 versehentlich ein falsches Gerät gepatcht wurde, sich die

@@ -8,8 +8,7 @@ original_id: setting-up
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Verbinden
----------
+## Verbinden
 
 Der/die Ai-Server und das Pult müssen per Ethernet miteinander verbunden
 sein. Vor allem für die [NDI-Vorschauen](operating-synergy.md#vorschau-mit-dem-media-viewer) und beim Hochladen von Clips
@@ -30,8 +29,7 @@ sein) sowie die Netzwerkkonfiguration (unterschiedliche IP-Adressen,
 aber im gleichen Bereich; gleiche Subnetz-Masken) zu überprüfen. Mehr dazu
 in [Einrichten des Netzwerkbetriebs](../networking.md).
 
-Einrichten der Show in Ai
--------------------------
+## Einrichten der Show in Ai
 
 Einfache Setups mit nur einem einzelnen Display oder Projektor können
 ganz einfach direkt vom Pult aus eingerichtet werden. Starten Sie in Ai
@@ -43,8 +41,7 @@ vorzunehmen (siehe Ai-Handbuch). Diese werden dann in Synergy in Titan
 angezeigt, und man kann wie beschrieben Layer hinzufügen oder
 umbenennen.
 
-Einrichten von Synergy
-----------------------
+## Einrichten von Synergy
 
 In Titan öffnen Sie das Fenster <strong>Synergy Settings</strong>, entweder mit dem
 entsprechenden Workspace bei neuen Shows, oder über das Menü 'Open
@@ -122,8 +119,7 @@ klickt unten auf das Papierkorb-Symbol, oder man drückt <Keys.HardKey>Delete</K
 klickt dann auf das zu löschende Element. Ist dabei Ai verbunden, so
 wird der Layer bzw. das Surface (Screen Fixture) auch in Ai gelöscht.
 
-Das Fenster Synergy Fixtures
-----------------------------
+## Das Fenster Synergy Fixtures
 
 Jeder Layer erscheint als Button im Fenster 'Synergy Fixtures'. Dies
 kann man entweder mit dem Button <Keys.SoftKey>View Synergy Fixtures</Keys.SoftKey> im [Synergy

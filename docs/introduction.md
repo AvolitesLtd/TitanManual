@@ -30,8 +30,7 @@ different things on other brands of console.
 
 Happy programming!
 
-Conventions used in the manual
-------------------------------
+## Conventions used in the manual
 
 Links or cross-references to a more detailed description are shown [like this](#).
 

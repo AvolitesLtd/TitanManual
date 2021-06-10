@@ -8,8 +8,7 @@ original_id: changing-the-patch
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Patch View
-----------
+## Patch View
 
 The Patch View window gives a full overview of how all the fixtures in
 your show are patched, and allows you to patch, repatch, legend,
@@ -60,8 +59,7 @@ the softkeys allow you to change the parameter.
     you show parked fixtures they will appear greyed out in the position
     they were originally patched.
 
-View Detailed Fixture Information
----------------------------------
+## View Detailed Fixture Information
 
 In the Patch View window click on the View button for the fixture you
 wish to view, or press <Keys.HardKey>View/Open</Keys.HardKey> followed by a fixture handle. A
@@ -81,8 +79,7 @@ There is also a Personality tab (not shown in the pictures) which shows
 history information about the personality file for the fixture. This can
 be useful for checking the version of the personality file.
 
-Changing DMX Addressing using Patch View
-----------------------------------------
+## Changing DMX Addressing using Patch View
 
 You can easily change the DMX address of one or more fixtures from Patch
 View. Select the DMX address cells you want to modify - draw a
@@ -112,8 +109,7 @@ the console will attempt to add or remove fixtures to get the same
 quantity - if this conflicts with other fixtures it will give you the
 options to <Keys.SoftKey>Park Conflicting</Keys.SoftKey> or <Keys.SoftKey>Cancel</Keys.SoftKey>.
 
-Changing DMX address using Patch menu
--------------------------------------
+## Changing DMX address using Patch menu
 
 As well as using the Patch View screen, you can use the Patch menu to
 re-patch a fixture to a different DMX address or a different DMX output
@@ -155,8 +151,7 @@ output line number.
 
 ![Fixture Conflict](/docs/images/Fixture-Conflict.png)
 
-Setting Legends
----------------
+## Setting Legends
 
 You can set a legend for each fixture or dimmer you've patched which is
 displayed in the touch button. This can be really useful to help you
@@ -190,8 +185,7 @@ identify the fixture.
     <Keys.SoftKey>Set Legend</Keys.SoftKey> function from the main Program menu. The legend is
     shown on the touch button for the page and on the HUD.
 
-Fixture Button Halo
--------------------
+## Fixture Button Halo
 
 You can configure fixture buttons to have a "halo" colour which helps
 you to find them quickly. Halo colours can be set manually for each
@@ -219,8 +213,7 @@ is used. The User Setting does not affect this display.
 
 ![Cue View](/docs/images/Cue-View.png)
 
-DMX View Window
----------------
+## DMX View Window
 
 When you're having problems getting fixtures to work it can be useful to
 see the actual DMX output values coming from the console. Press
@@ -232,8 +225,7 @@ The buttons on the left let you select the different output lines from
 the console. Scrolling the window to the right shows more information
 about each DMX channel.
 
-Fixture Exchange
-----------------
+## Fixture Exchange
 
 [Video covering Fixture Exchange](https://youtu.be/a_ES6UYQRJ4?t=20)
 
@@ -278,8 +270,7 @@ when faced with a new fixture.
 
 > After exchanging fixtures you need to update the palettes which used those fixtures. If you have trouble switching values off in a palette, set new values for all the attributes in the attribute group and re-record the palette. You should then be able to switch off an attribute group as required.
 
-Exchange Mapping
-----------------
+## Exchange Mapping
 
 When you exchange fixtures the console will attempt to map the functions
 on the new fixture to the same functions on the old fixture so that your
@@ -362,8 +353,7 @@ value.
 Once complete, click Apply then <Keys.SoftKey>Confirm</Keys.SoftKey> to commit the changes or
 Cancel then <Keys.SoftKey>Confirm</Keys.SoftKey> to forget.
 
-Updating Patched Personalities
-------------------------------
+## Updating Patched Personalities
 
 This option allows you to update the personality for a fixture used in
 your show. Normally a copy of each fixture personality in the show is

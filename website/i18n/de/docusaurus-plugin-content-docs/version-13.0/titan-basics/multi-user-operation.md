@@ -13,8 +13,7 @@ verbinden. Ebenso lassen sich mehrere Benutzer - auch auf ein und
 demselben Pult - anlegen, etwa mit verschiedenen Tastenanordnungen oder
 Speicherplatz-Belegungen. Das kann z.B. für Support-Bands sinnvoll sein.
 
-Users -- Benutzer
------------------
+## Users -- Benutzer
 
 In jeder Show kann es mehrere Benutzer geben, von denen jeder seine
 eigenen Einstellungen, Tastenprofile und Handle Worlds verwalten kann.
@@ -49,8 +48,7 @@ Sie die <Keys.HardKey>Avo</Keys.HardKey>-Taste gedrückt und wählen Sie aus dem
     erscheint ein neu angelegter Benutzer automatisch auch auf den
     anderen Pulten.
 
-Handle Worlds
--------------
+## Handle Worlds
 
 Jede Show kann mehrere Handle Worlds enthalten, wobei jede
 unterschiedliche Tastenbelegungen und Anordnungen von Schaltflächen
@@ -89,8 +87,7 @@ zugeordnet werden.
     Pulten, die in der gleichen Handle World arbeiten, die Seiten der
     Speicherplätze synchron gewechselt werden.
 
-Verbinden mit anderen TitanNet-Sessions
----------------------------------------
+## Verbinden mit anderen TitanNet-Sessions
 
 Sind mehrere Titan-Pulte im gleichen Netzwerk miteinander
 verbunden, so können diese als Multi-User, [Backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#pulte-für-den-backup-betrieb-einrichten) oder beides

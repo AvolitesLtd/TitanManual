@@ -17,8 +17,7 @@ button on the console.
 You can also create a Set List which will automatically recall a
 workspace layout for each song.
 
-View menu
----------
+## View menu
 
 Pressing <Keys.HardKey>View/Open</Keys.HardKey> takes you into the View menu. From here you can
 set up what is shown on the screen(s).

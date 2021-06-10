@@ -8,8 +8,7 @@ original_id: cue-list-timing
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Zeit- und Überblendoptionen für Cuelisten
------------------------------------------
+## Zeit- und Überblendoptionen für Cuelisten
 
 Zeiteinstellungen erfolgen stets für jeden Schritt einer Cueliste
 einzeln. Im Display wird angezeigt, welcher Schritt aktuell bearbeitet
@@ -61,8 +60,7 @@ Zifferntasten die gewünschte Schrittnummer ein und bestätigen das mit
     Schritts. Damit würde der vorherige Cue zunächst ausblenden, und der
     nächste Cue erst nach der Verzögerung einblenden.
 
-Schrittfolge und Versatz
-------------------------
+## Schrittfolge und Versatz
 
 Schritte in Cuelisten können miteinander verbunden werden, womit
 sich komplexe automatische Sequenzen realisieren lassen. Die
@@ -100,8 +98,7 @@ so könnte man das wie folgt programmieren:
 
 > Für einen Effekt, der als 'Cue Overlap' (Schritt-Überlappen) in früheren Versionen verfügbar war, verwenden Sie <Keys.SoftKey>Link With Previous Cue</Keys.SoftKey>, und geben den Versatz (Offset) in % an. Link Offset = 100% ergibt ein 'Overlap' von 0% und umgekehrt.
 
-Individuelle Einblendzeiten für Attribute
------------------------------------------
+## Individuelle Einblendzeiten für Attribute
 
 Für jede Attributgruppe <strong>IPCGBES</strong> lassen sich getrennte Einblendzeiten
 vergeben. Ebenso lässt sich bestimmen, für welches Gerät diese Zeit
@@ -136,8 +133,7 @@ normalen/allgemeinen Zeiten für den Schritt zurück.
     ‚Positions'. Gleiches lässt sich mit dem Fenster [Cue View](editing-cue-lists.md#editieren-von-werten-im-fenster-cue-view)
     realisieren. 
 
-Fixture Overlap - Geräteversatz
--------------------------------
+## Fixture Overlap - Geräteversatz
 
 Für jeden Schritt lässt sich, sofern dieser mit dem vorigen verbunden
 ist, ein Geräteversatz (Fixture Overlap) einstellen; damit werden die
@@ -173,8 +169,7 @@ Drücken Sie <Keys.HardKey>Exit</Keys.HardKey>, um das Menü zu verlassen.
 
 ![Fixtures Window showing fixture order](/docs/images/Fixtures-Window-showing-fixture-order.png)
 
-Steuern einer Cueliste per Timecode
------------------------------------
+## Steuern einer Cueliste per Timecode
 
 <Video videoId="1abZT_ffIvs" title="Recording Timecode" />
 

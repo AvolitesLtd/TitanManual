@@ -12,8 +12,7 @@ Because it's possible to play back a large number of cues at the same
 time, the console has to have rules on how it combines the output from
 different cues. These are called <strong>HTP</strong> and <strong>LTP</strong> rules.
 
-Combining Cues with HTP and LTP
--------------------------------
+## Combining Cues with HTP and LTP
 
 Control channels are handled in two ways:
 
@@ -28,8 +27,7 @@ Control channels are handled in two ways:
     output. When you fade out a cue, LTP channels retain their values
     until changed by another cue.
 
-Playing Back a Cue
-------------------
+## Playing Back a Cue
 
 To fire (play back) a cue, raise the fader. (Make sure there are no
 values in the programmer by pressing the <Keys.HardKey>Clear</Keys.HardKey> button, because anything
@@ -82,8 +80,7 @@ in the programmer will override the playback).
     [Priority](playback-options.md#priority) in
     [Playback Options](playback-options.md).
 
-Changing Playback Pages
------------------------
+## Changing Playback Pages
 
 The console allows multiple pages of playbacks. Page buttons are
 provided near the faders or you can also touch the top and bottom of the
@@ -133,8 +130,7 @@ graphic you can jump to a page number by entering the number.
     see the macros, download and install the latest library. The same
     applies to the 10 static playback faders on the Tiger Touch.
 
-Viewing Active Playbacks
-------------------------
+## Viewing Active Playbacks
 
 The Active Playbacks window shows details of which playbacks are active.
 When you have a number of layered playbacks with different effects, this
@@ -149,8 +145,7 @@ Click on a playback to instantly <strong>kill</strong> it. You can also press <K
 Options</Keys.SoftKey> followed by the playback in this window to change parameters
 of the playback.
 
-Speed and Size Masters
-----------------------
+## Speed and Size Masters
 
 Playbacks can be assigned to Speed and Size Masters which allow you to
 modify the speed and size of [shapes or effects](../effects.md) stored in a cue using a
@@ -166,8 +161,7 @@ Settings](playback-options.md#fader-tab) in [Playback Options](playback-options.
 See [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters)
 for more details.
 
-Releasing Running Playbacks
----------------------------
+## Releasing Running Playbacks
 
 You can <strong>release</strong> a running playback to its previous state by pressing
 <Keys.HardKey>Release</Keys.HardKey> *(<Keys.HardKey>Off</Keys.HardKey> button on Pearl Expert)*, then the <strong>select</strong> button of
@@ -199,8 +193,7 @@ playback from the [Release tab](playback-options.md#release-tab) of [Playback Op
     playback - *for cues which trigger strobing or other effects this
     might not be what you want*.
 
-Releasing a Whole Page of Playbacks
------------------------------------
+## Releasing a Whole Page of Playbacks
 
 You can use the Release function to release a whole page of playbacks in
 one operation. Press <Keys.HardKey>Release</Keys.HardKey> then the <Keys.HardKey>Goto Page</Keys.HardKey> button, or touch
@@ -220,8 +213,7 @@ the fader group.
 the main faders below the screen on a Tiger Touch or the top row on the
 left hand side of the Arena.
 
-Release Mask
-------------
+## Release Mask
 
 You can release individual fixtures or attributes, and remove fixtures
 from shapes in playbacks using the release mask. There is a Global
@@ -245,8 +237,7 @@ Options</Keys.SoftKey> and press the select button of the playback. Then press
 <Keys.SoftKey>Release Mask</Keys.SoftKey>. If the option is set to <Keys.SoftKey>Mask Source Global</Keys.SoftKey> then
 press the option again to change to <Keys.SoftKey>Mask Source Local</Keys.SoftKey>.
 
-Programming the Release / Power On State
-----------------------------------------
+## Programming the Release / Power On State
 
 You can program the state which fixtures will go to at power on, or when
 all playbacks are released. It can be useful to program this as a
@@ -273,8 +264,7 @@ individually as you have set it.
     <Keys.HardKey>Release</Keys.HardKey> followed by the select button of the playback. The
     fixtures should return to your programmed release state.
 
-Turning Off Individual Fixtures
--------------------------------
+## Turning Off Individual Fixtures
 
 You can turn off individual fixtures or certain attributes of them using
 the <strong>Off</strong> menu. This will cause the attributes/fixtures to release to

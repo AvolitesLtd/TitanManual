@@ -17,8 +17,7 @@ anwählen.
 Dieser Abschnitt gilt nicht für Ai-Server, die mittels Synergy mit dem
 Pult verbunden sind.
 
-Ein CITP-Beispiel
------------------
+## Ein CITP-Beispiel
 
 In diesem Beispiel wird ein Hippotizer mit einem Titan-Pult verbunden.
 

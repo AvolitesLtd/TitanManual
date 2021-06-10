@@ -11,8 +11,7 @@ You can create a timeline by using Live Record mode, by entering triggers manual
 
 
 
-Programming a Timeline using Live Record
-----------------------
+## Programming a Timeline using Live Record
 
 Live record is useful to capture a busked show, where you are operating the playbacks manually in time with music or other live cues. You can do a live record multiple times on the same timeline to build up a more complex show.
 
@@ -71,8 +70,7 @@ The same trigger after Auto Simplify:
 ![Timeline fade smoothing](/docs/images/Timeline-Smooth.png)
 
 
-Adding manual triggers
------------------
+## Adding manual triggers
 
 If you are programming a show where you have been given a list of timecodes for each cue point, you can enter the triggers manually at those specific times.
 

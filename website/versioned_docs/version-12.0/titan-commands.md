@@ -34,8 +34,7 @@ list of the old button names and their new equivalents.
   Connect  |  Cue
   SET      |  TIME
 
-Fixtures
---------
+## Fixtures
 
 &nbsp;<strong><Keys.HardKey>Fixture</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 10</strong>
 
@@ -150,8 +149,7 @@ sub-fixtures 1-\>i of fixture n
 
 sub-fixtures 1-\>j of fixtures n-\>i
 
-Select If
----------
+## Select If
 
 &nbsp;<strong><Keys.HardKey>Select If</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey><Keys.HardKey>@</Keys.HardKey></strong>
 
@@ -168,8 +166,7 @@ Select all fixtures above 50% intensity
 
 Select all fixtures below 50% intensity
 
-Record
-------
+## Record
 
 &nbsp;<strong><Keys.HardKey>Record</Keys.HardKey> &#123;Cue&#125; &#123;Cue&#125;</strong>
 
@@ -196,8 +193,7 @@ Merge all but position from the programmer with the live cue.
 
 Merge only position from the programmer with the live cue.
 
-Copy, Move in cue list
-----------------------
+## Copy, Move in cue list
 
 &nbsp;<strong><Keys.HardKey>Copy</Keys.HardKey> &#123;Cue&#125; n <Keys.HardKey>Enter</Keys.HardKey></strong>
 
@@ -236,24 +232,21 @@ list.
 Copy or move cues 1,2,3,4,6,7,8,9,10,20 and insert at cue n in the
 target playback.
 
-Delete
-------
+## Delete
 
 &nbsp;<strong><Keys.HardKey>Delete</Keys.HardKey> &#123;Cue&#125; n</strong>
 
 
 Delete cue n from the connected cue list.
 
-Include
--------
+## Include
 
 &nbsp;<strong><Keys.HardKey>Include</Keys.HardKey> &#123;Cue&#125; n</strong>
 
 
 Include cue n into the programmer from the connected cue list.
 
-Times
------
+## Times
 
 &nbsp;<strong><Keys.HardKey>Time</Keys.HardKey> 5</strong>
 
@@ -295,8 +288,7 @@ Times
 
 times spread across fixtures according to selection order
 
-Cue Lists
----------
+## Cue Lists
 
 &nbsp;<strong><Keys.HardKey>Cue</Keys.HardKey> n <Keys.HardKey>Go</Keys.HardKey></strong>
 

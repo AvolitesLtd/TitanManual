@@ -19,8 +19,7 @@ eine eindeutige (in diesem Netzwerk einmalige) IP-Adresse haben. Dies
 ist ein ähnliches Konzept wie bei DMX, wo ebenfalls jedes Gerät eine
 eindeutige Startadresse benötigt.
 
-Einstellen der IP-Adresse
--------------------------
+## Einstellen der IP-Adresse
 
 Bei den Titan-Pulten gibt es eine Funktion, die üblichen IP-Adressen
 schnell einstellen zu können; siehe [voriger Abschnitt](controlling-fixtures-over-a-network.md#einstellen-der-ip-adresse-des-pultes).
@@ -31,8 +30,7 @@ feste Adressen im Bereich `2.x.x.x` verwenden, so dass in diesem Fall das
 Pult und ggf. alle anderen Geräte manuell auf eine Adresse im gleichen
 Bereich eingestellt werden müssen.
 
-Subnet Masks - Subnetzmasken
-----------------------------
+## Subnet Masks - Subnetzmasken
 
 Diese sollten möglichst einfach gehalten werden. Sämtliche Geräte
 innerhalb eines Netzwerkes, die miteinander kommunizieren sollen, müssen
@@ -43,8 +41,7 @@ so muss der entsprechende Teil der IP-Adresse für jedes Gerät eindeutig
 (einmalig) sein. Ist ein bestimmter Teil der Maske 255, so muss der
 betreffende Teil der IP-Adresse bei allen Geräten gleich sein.
 
-Auswahl der IP-Adresse und Subnetzmaske
----------------------------------------
+## Auswahl der IP-Adresse und Subnetzmaske
 
 Dies ist der komplizierteste Teil bei der Einrichtung eines Netzwerkes,
 da hierbei zu berücksichtigen ist, welche Geräte und Protokolle im
@@ -99,8 +96,7 @@ vergeben.*
 
 >	Verwenden Sie niemals '255' an letzter Stelle der IP-Adresse; dies ist eine spezielle Adresse und wird nicht funktionieren.
 
-Automatische IP-Adressvergabe (DHCP)
-------------------------------------
+## Automatische IP-Adressvergabe (DHCP)
 
 Eine andere Möglichkeit ist die automatische IP-Adressvergabe per
 DHCP. Dafür muss eins der Geräte als sog. DHCP-Server eingerichtet
@@ -112,8 +108,7 @@ Schalten Sie daher jegliche DHCP-Funktion ab, oder adressieren Sie
 Ihre Geräte in den Bereich, der von der automatischen Adressvergabe
 ausgenommen ist (lässt sich jeweils beim DHCP-Server einstellen).
 
-Private IP-Adressbereiche
--------------------------
+## Private IP-Adressbereiche
 
 Ist ihr Netzwerk mit dem Internet verbunden, so ist es wichtig, dass Sie
 einen 'privaten' IP-Adressbereich verwenden. Damit wird sichergestellt,

@@ -7,8 +7,7 @@ sidebar_label: Other Parts of the Touch Screen
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-The Menu/Softkeys
------------------
+## The Menu/Softkeys
 
 On all consoles except Diamond 9, the right hand side of the main touch screen is used for the main menu
 display. These are known as the "Softkeys" and are lettered A-G. On the Diamond 9
@@ -64,8 +63,7 @@ available:
   |   ![Softkey - New Menu](/docs/images/Softkey-New-Menu.png)   |   **New menu button** - jumps to a new menu     |
   |   ![Softkey - Text Entry](/docs/images/Softkey-Text-Entry.png)   |   **Text entry button** - press and enter text using the touch keyboard   |
 
-The Toolbar
------------
+## The Toolbar
 
 On all consoles except Diamond 9 and Sapphire Touch, across the very top of the screen
 is the toolbar.
@@ -134,8 +132,7 @@ keyboard. On Diamond 9 there is a button <Keys.HardKey>Keyboard</Keys.HardKey> f
 
 > Toolbars are not provided on Titan Mobile or Titan Go as all these functions can be carried out using standard Windows operations.
 
-The Heads-Up Display (HUD)
---------------------------
+## The Heads-Up Display (HUD)
 
 The HUD window shows details of what's stored in all the handles (faders
 and buttons) on the console.
@@ -145,8 +142,7 @@ blue if selected.
 
 ![HUD](/docs/images/HUD.png)
 
-Visualiser
-----------
+## Visualiser
 
 ![Visualiser](/docs/images/Capture-Visualiser-Workspace-Window.png)
 
@@ -157,8 +153,7 @@ The visualiser gives you a realistic view of the stage, allowing you to
 pre-program or make changes to your show at home or in your hotel. It
 can also be used in Blind mode for programming during a show.
 
-Undo/Redo
----------
+## Undo/Redo
 
 A short list of recent actions is shown in the prompt area to the left
 of the menu.

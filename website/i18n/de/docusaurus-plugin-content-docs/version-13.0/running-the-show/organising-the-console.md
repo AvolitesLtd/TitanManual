@@ -14,8 +14,7 @@ mit der 'Move'-Funktion wieder aufzuräumen. Beim Verschieben der
 programmierten Details bleiben sämtliche logischen Bezüge und
 Verknüpfungen selbstverständlich erhalten.
 
-Verwenden der 'Move'-Funktion
------------------------------
+## Verwenden der 'Move'-Funktion
 
 Das Verschieben von Geräten, Paletten, Gruppen und Speicherplätzen ist
 sehr einfach:

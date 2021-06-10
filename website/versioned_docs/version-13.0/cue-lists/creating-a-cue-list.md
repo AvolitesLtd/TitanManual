@@ -8,8 +8,7 @@ original_id: creating-a-cue-list
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Programming a Cue List
-----------------------
+## Programming a Cue List
 
 <Video videoId="Kp6XhdG6keM" title="Cuelist Basics" />
 
@@ -89,8 +88,7 @@ selected or in the programmer (inverted display).
 > <strong>Record By Channel</strong> is useful if you want to layer this cue list with
     other playbacks to create an effect.
 
-Changing Legends for Cues in a Cue List
----------------------------------------
+## Changing Legends for Cues in a Cue List
 
 You can set a legend for each cue, which is shown on the screen when
 running the cue list and can be helpful for keeping track of where you
@@ -111,8 +109,7 @@ use Wheel A to select which cue is to be renamed.
 6. If you latched the menu, you can continue to set legends for other
 cues, or press <Keys.HardKey>Exit</Keys.HardKey> to finish.
 
-Shape Tracking in Cue Lists
----------------------------
+## Shape Tracking in Cue Lists
 
 Shapes can track between cues in cue lists. If shape tracking is
 enabled, a shape started in a cue will continue through following cues.
@@ -143,8 +140,7 @@ from each other. If an identical shape (with the same size and speed) is
 saved in a following cue then the shape will continue running rather
 than restarting.
 
-Autoloading a Playback within a Cue List
-----------------------------------------
+## Autoloading a Playback within a Cue List
 
 You can program a cue within a cue list to automatically load one or
 more playbacks when the cue fires. The playback can be a single cue, a
@@ -206,8 +202,7 @@ times set for the cue, but you can also select <Keys.SoftKey>Use Individual Targ
 Times</Keys.SoftKey> which will use the times set in the autoloaded playback, or you
 can set independent times yourself.
 
-Running a Key Macro from a Cue List
------------------------------------
+## Running a Key Macro from a Cue List
 
 You can program a cue within a cue list to trigger a key macro. This
 allows you to set up custom actions which can be performed when a cue in
@@ -231,8 +226,7 @@ or press <Keys.SoftKey>Add</Keys.SoftKey> and choose an action from the list.
 > You can remove macros by selecting the cue, pressing the softkey for
     the macro you wish to remove and then pressing <Keys.SoftKey>Remove Link</Keys.SoftKey>.
 
-Keyboard Shortcuts/Syntax for Cue Lists
----------------------------------------
+## Keyboard Shortcuts/Syntax for Cue Lists
 
 The following keyboard syntax can be used for fast cue list recording
 and editing. These commands work for the selected or currently connected

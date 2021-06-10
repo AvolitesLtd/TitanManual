@@ -15,8 +15,7 @@ Titan-Pulten simulieren und Shows erstellen und verändern.
 
 ![titansimulator](/docs/images/Titan-Simulator.jpeg)
 
-Den Titan Simulator installieren
---------------------------------
+## Den Titan Simulator installieren
 
 Sie müssen Administrator-Berechtigungen auf dem Computer haben, um den
 Titan Simulator zu installieren oder auszuführen. Ab Titan v12 ist für
@@ -49,8 +48,7 @@ Once licensed, you have a choice of how Titan will operate:
     an die Ausgänge geschickt (der sog. Spoiler). Dann einfach ein paar
     Sekunden warten, bevor mit dem Programmieren weitergemacht wird.
 
-Verwenden des Titan Simulator
------------------------------
+## Verwenden des Titan Simulator
 
 Beim Start des Titan Simulators können Sie das zu emulierende Pult
 wählen. Daraufhin erscheint ein Fenster mit dem 'Virtual Panel'
@@ -63,8 +61,7 @@ Das 'Virtual Panel' arbeitet wie die richtige Pultoberfläche. Um eine
 Taste gedrückt zu halten (für Tastenkombinationen), klicken Sie diese
 mit der rechten Maustaste.
 
-Verwenden des Virtuellen Panels mit dem Pult
---------------------------------------------
+## Verwenden des Virtuellen Panels mit dem Pult
 
 Das virtuelle Panel ist nicht nur für den Visualiser wichtig, sondern
 kann auch sonst auf dem Pult hilfreich sein. Wenn etwa aus irgendwelchen

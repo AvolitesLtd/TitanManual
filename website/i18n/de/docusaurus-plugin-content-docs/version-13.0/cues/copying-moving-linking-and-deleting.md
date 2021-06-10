@@ -8,8 +8,7 @@ original_id: copying-moving-linking-and-deleting
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Kopieren oder verschieben eines Cues
-------------------------------------
+## Kopieren oder verschieben eines Cues
 
 Mittels der Tasten <Keys.HardKey>Copy</Keys.HardKey> und <Keys.HardKey>Move</Keys.HardKey> (bzw. <Keys.HardKey>Copy/Move/Link</Keys.HardKey>) lässt
 sich eine <strong>Kopie</strong> eines Cues anfertigen, ein Cue auf einen anderen
@@ -63,8 +62,7 @@ kopiert/bewegt/verknüpft werden soll.
     Verschiebe-Vorgang im Wege wären, automatisch zu verschieben. Dies
     bietet sich insbesondere beim ‚Aufräumen' nahezu voller Seiten an.
 
-Einen Cue löschen
------------------
+## Einen Cue löschen
 
 Um einen Cue zu löschen:
 

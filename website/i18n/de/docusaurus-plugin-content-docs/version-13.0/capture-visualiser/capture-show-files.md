@@ -16,15 +16,13 @@ Capture-Shows unabhängig in mehreren Titan-Shows verwendet werden.
 Zum Exportieren/Importieren wählen Sie den Reiter <strong>Show</strong> im Fenster
 <Keys.SoftKey>Capture Visualiser Settings</Keys.SoftKey>.
 
-Shows exportieren
------------------
+## Shows exportieren
 
 Exportierte Shows können in andere Titan-Shows importiert werden. Ebenso
 können Sie in Capture geöffnet werden, um sie weiter zu bearbeiten oder
 Unterlagen zur Dokumentation auszudrucken.
 
-Shows importieren
------------------
+## Shows importieren
 
 Shows aus der Capture-Vollversion können importiert werden, etwa für
 größere Setups oder kompliziertes Rigging.
@@ -42,8 +40,7 @@ Daher empfiehlt es sich in der Regel, die Geräte wie beschrieben auf dem
 Pult bei aktivierter [Auto-Patch-Funktion](../patching/patching-new-fixtures-or-dimmers.md#automatisches-patchen-in-capture) 
 zu patchen, damit die richtigen Gerätetypen ausgewählt werden.
 
-Die Capture-Show löschen
-------------------------
+## Die Capture-Show löschen
 
 Unten auf dem Reiter <strong>Show</strong> gibt es den Button <Keys.SoftKey>Wipe</Keys.SoftKey>, mit dem die
 aktuelle Capture-Show gelöscht wird.

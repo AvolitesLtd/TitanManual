@@ -8,8 +8,7 @@ original_id: chase-playback
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Abrufen eines Chasers
----------------------
+## Abrufen eines Chasers
 
 Zum Starten eines Chasers bewegen Sie den entsprechenden Regler nach
 oben *(oder Sie verwenden die <strong>Swop</strong> / <strong>Flash</strong>-Tasten)*. Der Chaser
@@ -37,8 +36,7 @@ vorübergehend anhalten. Drücken Sie <Keys.HardKey>Go</Keys.HardKey>, um den Ch
 Mit einer [Vielzahl von Optionen](chase-options.md) lässt sich das Verhalten 
 von Chasern beeinflussen; diese werden im Rest dieses Kapitels erklärt.
 
-Verbinden eines Chasers mit der Steuerung
------------------------------------------
+## Verbinden eines Chasers mit der Steuerung
 
 Wird ein Chaser aufgerufen, so ist dessen Steuerung automatisch den
 Rädern (Geschwindigkeit, Überblendung) und <Keys.HardKey>Stop</Keys.HardKey>/<Keys.HardKey>Go</Keys.HardKey>-Tasten
@@ -73,8 +71,7 @@ welcher davon mit den Rädern/Tasten beeinflusst werden soll.
     Temporary Speed\].
 
 
-Geschwindigkeit und Überblendung einstellen
--------------------------------------------
+## Geschwindigkeit und Überblendung einstellen
 
 Das linke Rad beeinflusst die Geschwindigkeit des verbundenen Chasers.
 Die Geschwindigkeit wird im Display in 'Beats Per Minute' (BPM)
@@ -125,8 +122,7 @@ Ferner lässt sich der Chaser einem [Speed Master](../running-the-show/playback-
 dies erlaubt es, direkt während der Show die Geschwindigkeit zu steuern. 
 Siehe auch [Speed and Size Masters](../running-the-show/playback-controls.md#speed--und-size-master).
 
-Manuelle Steuerung der Schritte
--------------------------------
+## Manuelle Steuerung der Schritte
 
 Ein verbundener Chaser lässt sich mit der <Keys.HardKey>Stop</Keys.HardKey>-Taste (neben den
 Rädern) anhalten, und mit der <Keys.HardKey>Go</Keys.HardKey>-Taste fortsetzen.
@@ -158,8 +154,7 @@ anderen Taste.
 5. Drücken Sie <Keys.HardKey>Exit</Keys.HardKey>, um zum normalen Programmiermenü
 zurückzukehren.
 
-Ändern der Richtung eines Chasers
----------------------------------
+## Ändern der Richtung eines Chasers
 
 Die Tasten <Keys.HardKey>Prev Step</Keys.HardKey>/<Keys.HardKey>Next Step</Keys.HardKey> (← und → auf manchen Pulten) 
 rechts neben der <Keys.HardKey>Connect</Keys.HardKey>-Taste bestimmen die Richtung des 
@@ -168,8 +163,7 @@ verbundenen Chasers. Der Doppelpfeil <Keys.HardKey>↔</Keys.HardKey> (wenn vorh
 wieder zurück zum Anfang, und so fort. Die Taste <Keys.HardKey>Review</Keys.HardKey> sorgt für
 einen <strong>zufälligen</strong> Ablauf. 
 
-Direktanwahl eines Schrittes
-----------------------------
+## Direktanwahl eines Schrittes
 Man kann direkt zu einem bestimmten Schritt in einem Chaser springen:
 drücken Sie dazu <Keys.HardKey>Connect</Keys.HardKey>, geben die gewünschte Schrittnummer ein,
 und drücken <Keys.HardKey>Enter</Keys.HardKey> oder Funktionstaste A. Alternativ geben Sie im

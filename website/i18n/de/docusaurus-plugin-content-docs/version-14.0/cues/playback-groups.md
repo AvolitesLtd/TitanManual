@@ -17,8 +17,7 @@ Auf Pulten mit Motorfadern fahren dabei auch die entsprechenden Fader
 auf 0; ansonsten gehen einfach die LEDs der Playbacks aus, und
 Schaltflächen erscheinen als inaktiv.
 
-Erstellen einer Playback-Gruppe
--------------------------------
+## Erstellen einer Playback-Gruppe
 
 Drücken Sie zweimal auf [<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
 und wählen das Fenster "Playback Groups".
@@ -64,8 +63,7 @@ erstellt und in der linken Spalte angezeigt.
 
 > Wenn ein Playback zu einer Gruppe gehört, so wird dies mit einem Stern \* bei der Playback-Legende angezeigt.
 
-Ändern der Zugehörigkeit zu Playback-Gruppen
---------------------------------------------
+## Ändern der Zugehörigkeit zu Playback-Gruppen
 
 Öffnen Sie das Playback Groups-Fenster, wählen Sie links die zu
 bearbeitende Gruppe und klicken Sie rechts unten auf den<Keys.ContextKey>Stift</Keys.ContextKey>.
@@ -80,8 +78,7 @@ Legende (Bezeichnung) der Gruppe geändert werden.
     wählen die zu löschende Gruppe aus und bestätigen dies mit
     <Keys.SoftKey>Confirm</Keys.SoftKey> oder <Keys.HardKey>Enter</Keys.HardKey>.
 
-Optionen für Playback-Gruppen
------------------------------
+## Optionen für Playback-Gruppen
 
 Für jede Gruppe lässt sich einstellen, wie genau die enthaltenen
 Playbacks sich verhalten. Dazu wählt man im Fenster Playback Groups
@@ -112,8 +109,7 @@ links die gewünschte Gruppe und klickt rechts unten auf den Reiter
     dies auf <Keys.SoftKey>Playback</Keys.SoftKey>, so kommen die Einstellungen jedes einzelnen
     Playbacks zum Tragen.
 
-Anzeigeoptionen für das Playback Groups-Fenster
------------------------------------------------
+## Anzeigeoptionen für das Playback Groups-Fenster
 
 Mit dem Fensteroptions-Menü (<Keys.ContextKey>Zahnrad</Keys.ContextKey>-Button in der Titelleiste des
 Fensters) lassen sich drei verschiedene Anzeigemodi wählen:

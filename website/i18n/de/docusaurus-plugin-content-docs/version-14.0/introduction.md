@@ -38,8 +38,7 @@ auf Pulten verschiedener Hersteller.
 
 Viel Spaß beim Programmieren!
 
-Konventionen in diesem Handbuch
--------------------------------
+## Konventionen in diesem Handbuch
 
 Wo es möglich ist, wird zu anderen Kapitel mit genaueren Beschreibungen
 [verlinkt](./introduction.md).

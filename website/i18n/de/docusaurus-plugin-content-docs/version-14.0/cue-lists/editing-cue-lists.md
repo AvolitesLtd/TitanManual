@@ -12,8 +12,7 @@ Dieses Kapitel beschreibt, wie Cues in Cuelisten editiert werden.
 Geht es hingegen darum, die ganze Cueliste zu verschieben, zu kopieren oder 
 zu löschen, sei auf das Kapitel [Kopieren, verschieben, verlinken, löschen](../cue-lists/copying-moving-linking-and-deleting.md) verwiesen.
 
-Das Fenster Playback View
--------------------------
+## Das Fenster Playback View
 
 Am einfachsten lässt sich eine Cueliste in der Playback-Ansicht
 (Playback View) editieren, dazu drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>,
@@ -31,8 +30,7 @@ Box um die zu ändernden Zellen.
 Ferner bietet die [Intensity-Ansicht](../controlling-fixtures/viewing-and-editing-fixture-values.md#das-fenster-intensity) eine gute Möglichkeit, alle
 aktiven Geräte und deren Werte zu überblicken. 
 
-Editieren von Werten im Fenster Cue View
-----------------------------------------
+## Editieren von Werten im Fenster Cue View
 
 Jeder einzelne Attributwert jedes Gerätes kann in der Cue-Ansicht (Cue
 View) angezeigt und verändert werden. Dazu klicken Sie in der
@@ -54,8 +52,7 @@ Werte direkt zu ändern.
     getrackte, also aus vorherigen Cues übernommene Werte hellgrau
     hervorgehoben.
 
-Kopieren, Verschieben und Löschen einzelner Cues
-------------------------------------------------
+## Kopieren, Verschieben und Löschen einzelner Cues
 
  Dazu klicken und ziehen
 Sie entweder den gewünschten Cue im [Playback View](#das-fenster-playback-view) 
@@ -100,8 +97,7 @@ Tastenfolge                                                  | Ergebnis
     <Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; <strong>3</strong> <Keys.HardKey>Thru</Keys.HardKey> <strong>7</strong> <Keys.SoftKey>Not</Keys.SoftKey> <strong>6</strong> <Keys.HardKey>And</Keys.HardKey> <strong>10</strong> <Keys.HardKey>@</Keys.HardKey> <strong>20</strong> <Keys.HardKey>Enter</Keys.HardKey>
 
 
-Editieren einer Cueliste mit 'Unfold'
--------------------------------------
+## Editieren einer Cueliste mit 'Unfold'
 
 Mit der Taste <Keys.HardKey>Unfold</Keys.HardKey> ('Aufklappen') wird jeder Schritt einer
 Cueliste auf einen einzelnen Regler abgebildet. Damit lässt sich jeder
@@ -158,8 +154,7 @@ sind unten aufgeführt.
 -   Enthält die Cueliste mehr Schritte als Fader vorhanden sind, so
     lässt sich mit den Funktionstasten F und G die Seite umschalten
 
-Update und Cue-Tracking
------------------------
+## Update und Cue-Tracking
 
 Da in einer Cueliste die einzelnen Werte für die einzelnen Cues
 nachverfolgt werden [Tracking](cue-list-playback.md#tracking), muss 
@@ -188,8 +183,7 @@ Stammten die geänderten Attribute von einem vorherigen Cue, so wird
 dieser - und nicht der aktuell laufende - geändert, siehe 
  [Tracking](cue-list-playback.md#tracking).
 
-Editieren einer laufenden Cueliste
------------------------------------
+## Editieren einer laufenden Cueliste
 
 Ebenso lassen sich Schritte einer laufenden Cueliste ändern, ohne
 [Unfold](#editieren-einer-cueliste-mit-unfold) nutzen zu müssen: 
@@ -217,8 +211,7 @@ Expert/Tiger Touch Mk1 drücken Sie statt der Go-Taste die Taste <Keys.HardKey>�
 	<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Connect / Cue</Keys.HardKey> <Keys.HardKey>Connect / Cue</Keys.HardKey>.
 
 
-Ändern der Zeiten einer laufenden Cueliste
-------------------------------------------
+## Ändern der Zeiten einer laufenden Cueliste
 
 Die Zeiten jedes Schritts lassen sich wie folgt mit den Tasten
 <Keys.HardKey>Live Time</Keys.HardKey> und <Keys.HardKey>Next Time</Keys.HardKey> *(nicht auf allen Pulten)* ändern:
@@ -248,8 +241,7 @@ mit den neuen Zeitvorgaben.
 *Alternativ kann man die <Keys.HardKey>Unfold</Keys.HardKey>-Funktion verwenden, um die Zeiten
 zu ändern, siehe [vorheriger Abschnitt](#editieren-einer-cueliste-mit-unfold).*
 
-Editieren einer Cueliste während des Programmierens
----------------------------------------------------
+## Editieren einer Cueliste während des Programmierens
 
 Einzelne Schritte lassen sich editieren, noch während man die Cueliste
 programmiert:
@@ -282,8 +274,7 @@ Update-Modus | Beschreibung
   Schrittes. Wählen Sie <Keys.SoftKey>Advanced Options</Keys.SoftKey>, um die Schrittnummern zu
   ändern.
 
-Werte in mehreren Cues gleichzeitig aktualisieren
--------------------------------------------------
+## Werte in mehreren Cues gleichzeitig aktualisieren
 
 Werte können auch in mehreren Cues einer Cueliste/eines Chasers
 gleichzeitig aktualisiert (mittels <strong>Merge/Verschmelzen</strong> oder
@@ -305,8 +296,7 @@ gewählten Cues rot markiert. Sind alle zu ändernden Cues ausgewählt,
 drücken Sie <Keys.HardKey>Enter</Keys.HardKey> und wählen <Keys.SoftKey>Merge</Keys.SoftKey> oder <Keys.SoftKey>Replace</Keys.SoftKey> (nochmaliges 
 Betätigen von <Keys.HardKey>Enter</Keys.HardKey> wählt Merge).
 
-Deaktivieren eines Cues
------------------------
+## Deaktivieren eines Cues
 
 Einzelne Cues können vorübergehend deaktiviert werden. Klicken Sie dazu
 auf die Zelle 'Disabled' ganz rechts beim jeweiligen Cue in der
@@ -314,8 +304,7 @@ Playback-Ansicht. Mit den Funktionstasten wählen Sie nun \[Cue
 Disabled Yes\]. Ist ein Cue deaktiviert (disabled), so wird er übersprungen,
 als wäre er nicht vorhanden, kann aber später wieder aktiviert werden
 
-Einzelne Cues mit Include in den Programmer laden
--------------------------------------------------
+## Einzelne Cues mit Include in den Programmer laden
 
 Mit <strong>[Include](../cues/editing-cues.md#cues-wiederverwenden---die-include-funktion)</strong> 
 können einzelne Cues aus einer Cueliste in den Programmer

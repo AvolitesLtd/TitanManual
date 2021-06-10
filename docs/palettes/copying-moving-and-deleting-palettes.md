@@ -7,8 +7,7 @@ sidebar_label: Copying, Moving and Deleting Palettes
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Copying or Moving a Palette
----------------------------
+## Copying or Moving a Palette
 
 Using the <Keys.HardKey>Copy</Keys.HardKey> and <Keys.HardKey>Move</Keys.HardKey> buttons you can make a copy of an existing palette or
 move it to a new button. You can copy or move multiple palettes in one
@@ -42,8 +41,7 @@ add more to the selection - hold down <Keys.HardKey>And</Keys.HardKey> to keep a
     This is useful when rearranging buttons on a page which is nearly
     full.
 
-Deleting Palettes
------------------
+## Deleting Palettes
 
 You can delete a palette by pressing <Keys.HardKey>Delete</Keys.HardKey>, then pressing the
 button of the palette to be deleted. Press the palette button again to

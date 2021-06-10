@@ -8,8 +8,7 @@ original_id: setting-up
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Connecting up
--------------
+## Connecting up
 
 The Ai server(s) need to be connected by Ethernet to the Titan console.
 [Media previews](operating-synergy.md#media-viewer) use NDI streams which along with copying of large media
@@ -31,8 +30,7 @@ sure they are on matching software versions, and both in the same IP
 address subnet range such as `2.0.0.1` and `2.0.0.2` - read more about [Networking the Console](../networking.md).
 
 
-Setting up the Ai Show
-----------------------
+## Setting up the Ai Show
 
 A simple Ai system involving a single screen or projector can be set up
 by following the [Synergy setup](#synergy-setup) instructions in the next section. You
@@ -44,8 +42,7 @@ the Ai show - see the Ai manual for more details on how to do this. You
 can create and rename Layers from the Titan console. The screen fixtures
 you have created in Ai will then become available as Surfaces in Titan.
 
-Synergy Setup
--------------
+## Synergy Setup
 
 In Titan, open the <strong>Synergy Settings</strong> window using the Workspace button
 provided on new shows, or use the option in the Open Workspace Window
@@ -120,8 +117,7 @@ To delete a layer or surface, select the item then click the <Keys.ContextKey>Ru
 button at the bottom, or press <Keys.HardKey>Delete</Keys.HardKey> then click the layer/surface. If
 linked to Ai, this will also delete the layer/surface in Ai.
 
-Synergy Fixtures Window
------------------------
+## Synergy Fixtures Window
 
 Every layer on the Ai server appears as a button in the Synergy Fixtures
 window. You can display this using the button at the bottom of the

@@ -14,8 +14,7 @@ Es lässt sich z.B. eine Show auf einem anderen Pult programmieren und
 dann in den TNP laden, oder man verbindet ein Pult oder Simulator mittels
 Multiuser-Session mit dem TNP.
 
-Playbacks steuern
------------------
+## Playbacks steuern
 
 Mittels des <Keys.SoftKey>View</Keys.SoftKey>-Buttons (nächster Absatz) kann die Anzeige der
 Playbacks aktiviert werden (Playbacks Grid).
@@ -25,8 +24,7 @@ Playbacks aktiviert werden (Playbacks Grid).
 Dieses ist identisch mit dem Playbacks-Fenster in Titan-Pulten, und
 Playbacks können zum Aktivieren ganz einfach angeklickt werden.
 
-Die Anzeige wählen
-------------------
+## Die Anzeige wählen
 
 Im Stand-Alone-Modus lässt sich die Anzeige auf dem Homescreen wählen:
 <Keys.SoftKey>Network Adapters</Keys.SoftKey> ist die normale Anzeige im Slave-Modus, \[Playbacks
@@ -40,8 +38,7 @@ anderen Titan-Pulten in einer Session verbunden ist.
 
 ![TNP Sessions View Screem](/docs/images/TNP-Sessions-View-Screem.png)
 
-Die Anzeige sperren
--------------------
+## Die Anzeige sperren
 
 Die gewählte Anzeige wird auch gezeigt, wenn der TNP mittels <Keys.SoftKey>Lock</Keys.SoftKey>
 gesperrt ist. Werden gerade die Playbacks angezeigt, so lassen sich
@@ -51,8 +48,7 @@ entsperrt werden kann.
 
 ![TNP Locked Playback View Screen](/docs/images/TNP-Locked-Playback-View-Screen.png)
 
-Shows laden und speichern, weitere Einstellungen
-------------------------------------------------
+## Shows laden und speichern, weitere Einstellungen
 
 Über den Button <Keys.SoftKey>Setup</Keys.SoftKey> kann man die Show speichern sowie eine andere
 laden. Ebenso lassen sich Netzwerkeinstellungen, Einstellungen für den

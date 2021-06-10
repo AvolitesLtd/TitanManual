@@ -8,8 +8,7 @@ original_id: creating-a-chase
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Einen Chaser programmieren
---------------------------
+## Einen Chaser programmieren
 
 <Video videoId="M0h5zV4S_OI" title="Recording a Chase" />
 
@@ -83,8 +82,7 @@ gespeichert haben.
 
 -   Chaser können aus einer unbegrenzten Anzahl von Schritten bestehen.
 
-Einen Chaser mit Quick Build erstellen
---------------------------------------
+## Einen Chaser mit Quick Build erstellen
 
 Mit Quick Build kann man, wie der Name schon vermuten lässt, sehr rasch
 einen Chaser aus bestehenden Cues und Paletten erstellen.

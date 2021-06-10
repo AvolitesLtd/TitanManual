@@ -8,8 +8,7 @@ original_id: pixel-mapper-examples
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Randomising Effects
--------------------
+## Randomising Effects
 
 This example shows you how to use the pixel mapper to create an effect
 where random dimmer cells turn on. This effect will overlay any existing
@@ -74,8 +73,7 @@ a block fading in).
 
 11. <Keys.HardKey>Record</Keys.HardKey> to a playback
 
-Overlaying Effects
-------------------
+## Overlaying Effects
 
 This example shows you how to create a diagonal white wipe with a
 rotating red fan on top.
@@ -163,8 +161,7 @@ as a block moving left to right).
 >    
 >   ![Pixel Mapper Preview Window - Overlayed Layers](/docs/images/Pixel-Mapper-Preview-Window-Overlayed-Layers.png)
 
-Creative Use of Fixture Layouts
--------------------------------
+## Creative Use of Fixture Layouts
 
 Because each fixture group can contain a different layout it is possible
 to create more than one arrangement of the same fixtures for pixel
@@ -295,8 +292,7 @@ pixel for position and 45 degrees for rotate. If you press the <Keys.HardKey>@</
 for the wheel, a window opens allowing you to type in the values
 numerically.
 
-Other Layout Editor Tools
--------------------------
+## Other Layout Editor Tools
 
 The Layout Editor's context menu has some useful tools for laying out
 fixtures quickly.
@@ -365,8 +361,7 @@ fixtures rotate, or whether the whole selection rotates.
 using Synergy/Ai to play back media on the fixture. These options are
 described in [Layout Editor with Ai Server](../synergy/operating-synergy.md#layout-editor-with-ai-server).
 
-Playback Order and Priorities
------------------------------
+## Playback Order and Priorities
 
 Suppose you wished to create a white pulsating oval on one playback and
 a blue spiral on a second playback. Normally these effects would layer
@@ -504,8 +499,7 @@ Even though you fired them in the same order as the first example the
 blue spiral now sits on top of the white pulse because it has a higher
 priority.
 
-Displacement and Layer Properties
----------------------------------
+## Displacement and Layer Properties
 
 In this example we create random flashing bars, and use layer controls
 to make global adjustments to the whole effect.
@@ -584,8 +578,7 @@ displacement. Similarly you can use the <Keys.SoftKey>layer</Keys.SoftKey> or <K
 to make global changes to <strong>X/Y position</strong> and <strong>Zoom</strong> allowing quick
 manipulation of entire effects.
 
-Spawn and Pre-Spool
--------------------
+## Spawn and Pre-Spool
 
 The director has asked for lots of animated spinning shurikens that
 slowly move across a backdrop while pulsating. It is a mystery why, but

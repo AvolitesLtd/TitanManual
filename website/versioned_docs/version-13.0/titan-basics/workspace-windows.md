@@ -27,8 +27,7 @@ Sapphire Touch Right touch screen
 
 ![Sapphire Right](/docs/images/Sapphire-Right.png)
 
-Opening and positioning workspace windows
------------------------------------------
+## Opening and positioning workspace windows
 
 You select which workspace windows you want to see using the <Keys.SoftKey>Open
 Workspace Window</Keys.SoftKey> menu command on the root menu. You can also press the
@@ -147,8 +146,7 @@ The Rows and Columns settings are remembered even if you change the
 button size back to one of the automatic sizes, which allows you to swap
 between auto and fixed button size modes.
 
-Mini Screen (Arena only)
-------------------------
+## Mini Screen (Arena only)
 
 The <Keys.HardKey>Display</Keys.HardKey> button below the rotary encoders toggles through four
 fixed layouts for the Mini screen:
@@ -168,8 +166,7 @@ move to the main screen when this layout is set.
 - Workspace window(s) fill the full screen, no button/encoder legends
 shown.
 
-Saving workspace layout
------------------------
+## Saving workspace layout
 
 You can save workspaces, allowing you to reconfigure all the screen
 displays at the touch of a button.
@@ -221,8 +218,7 @@ store it.
 -   To delete a workspace button, press <Keys.HardKey>View/Open</Keys.HardKey>, <Keys.HardKey>Delete</Keys.HardKey>, then
     the workspace button to be deleted.
 
-Compatibility windows for Pearl Expert shows
---------------------------------------------
+## Compatibility windows for Pearl Expert shows
 
 The "Fixtures and Playbacks" and "Groups and Palettes" windows allow you
 to access the preset fader handles in shows which have been programmed
@@ -234,8 +230,7 @@ compatibility window to the appropriate workspace window. You need to do
 this twice, once with the "Fixtures and playbacks" window selected, and
 once with the "Palettes and groups" window selected.
 
-Quick record
-------------
+## Quick record
 
 ![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png)Some windows - Groups, Workspaces,
 Playbacks, and all the Palette windows - have a Quick Record function.
@@ -245,8 +240,7 @@ enter a legend. Touch or click again to store the item.
 
 The Quick Record function can be disabled using [Key Profiles](../system-settings/key-profiles.md)
 
-Legends and picture legends
----------------------------
+## Legends and picture legends
 
 All touch buttons can have legends set to remind you what they do. In
 addition, you can draw picture legends on the buttons. To do this,
@@ -261,8 +255,7 @@ information in it.
 
 ![Gobos and Beams Workspace Window](/docs/images/Gobos-and-Beams-Workspace-Window.png)
 
-Button Halo
------------
+## Button Halo
 
 You can set a custom coloured halo for fixture, group or palette
 buttons. This can be really useful for identifying different types of
@@ -273,8 +266,7 @@ button at a glance. Select the <Keys.SoftKey>Halo</Keys.SoftKey> option on the S
 If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help
 identify different types of fixture.
 
-&nbsp;<strong>Trackball (Sapphire Touch only)</strong>
------------------------------------
+## &nbsp;<strong>Trackball (Sapphire Touch only)</strong>
 
 The trackball on the right of the console can be used either to control
 the mouse pointer on the touch screens and external monitors, or to
@@ -288,8 +280,7 @@ To use in console mode for controlling fixtures, press the <Keys.HardKey>Assign<
 button on its own. The trackball will control pan and tilt of selected
 fixtures, and the ring controls fine tilt.
 
-&nbsp;<strong>Touch Keyboard</strong>
-------------------
+## &nbsp;<strong>Touch Keyboard</strong>
 
 At the end of the toolbar is the keyboard popup button which will open
 the touch keyboard.

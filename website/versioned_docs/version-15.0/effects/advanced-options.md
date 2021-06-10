@@ -7,8 +7,7 @@ sidebar_label: Advanced Options
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Fading Shape Size and Speed
----------------------------
+## Fading Shape Size and Speed
 
 When a [shape is stored in a cue](shape-generator.md#using-shapes-in-cues),
 you can set how the shape fades in

@@ -8,8 +8,7 @@ original_id: playback-controls
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Sichern der Show
-----------------
+## Sichern der Show
 
 Das Wichtigste während des Programmierens, am Ende des Programmierens,
 und beim Beginn der Show, ist das [Sichern der Daten](../titan-basics/loading-and-saving-shows.md#die-show-speichern). 
@@ -18,15 +17,13 @@ USB-Stick gespeichert werden. Der USB-Stick empfiehlt sich
 insbesondere, um die Show auch auf ein anderes Pult transferieren zu
 können.
 
-Das Pult beschriften
---------------------
+## Das Pult beschriften
 
 Während der Show ist es wichtig zu wissen, was denn nun wo programmiert
 ist. Beschriften Sie Ihr Pult, entweder mit der elektronischen
 Beschriftung/Bemalung, oder mit Klebeband und Stift.
 
-Master-Fader
-------------
+## Master-Fader
 
 Auf den größeren Pulten gibt es einen eigenen Master-Fader, der
 insgesamt den Ausgang des Pultes (für Dimmerkanäle) regelt.
@@ -75,8 +72,7 @@ durchgeschaltet).
 
 >  Wird ein Master auf eine Taste mit LED gelegt, so blinkt diese, wenn der Master auf 0 steht -- als kleine Erinnerung, wenn man auf der Suche danach ist, warum gerade wieder alle Lampen aus sind...
 
-Speed- und Size-Master
-----------------------
+## Speed- und Size-Master
 
 <Video videoId="e5rQAmTCfs0" title="Speed and Size Masters" />
 
@@ -188,8 +184,7 @@ zurücksetzen kann.
 	kann man eine der Tasten als 'Connect' zum Verbinden mit der Steuerung
     definieren.
 
-Playback-Gruppen
-----------------
+## Playback-Gruppen
 
 Playbacks können in Gruppen zusammengefasst werden. Dies ist sinnvoll,
 wenn von mehreren Playbacks immer nur eins als aktiv angezeigt werden
@@ -199,8 +194,7 @@ den Executor-Buttons deutlich vereinfacht.
 
 Details dazu siehe [Playback Groups](../cues/playback-groups.md).
 
-Gruppenmaster
--------------
+## Gruppenmaster
 
 Jeder Gruppe von Geräten kann ein Fader als Masterregler zugewiesen
 werden, der dann die Helligkeit aller Geräte in der Gruppe beeinflusst.
@@ -262,8 +256,7 @@ für das Flashen der Gruppen-Master.
     einmal releasen. Das kann sinnvoll sein, wenn etwas durch einen Master
 	gesteuert wird, aber unklar ist, durch welchen.
 
-Scene Master
-------------
+## Scene Master
 
 <Video videoId="zn_jd1zba7E" title="Scene Masters" />
 
@@ -337,8 +330,7 @@ aktivieren oder Szene aktivieren).
 	Scene Masters <Keys.HardKey>Avo</Keys.HardKey> und <Keys.HardKey>Disk</Keys.HardKey>,	um ins System-Menü zu gelangen, 
 	und wählen dort <Keys.SoftKey> Assign Masters</Keys.SoftKey>.
 
-Flash- und Swop-Tasten
-----------------------
+## Flash- und Swop-Tasten
 
 Die Flash- (Add) und Swop-Tasten bei jedem Regler dienen zum jederzeitigen
 Abruf von Cues und Chasern. Die <Keys.HardKey>Flash</Keys.HardKey>-Taste addiert dabei den
@@ -367,8 +359,7 @@ Fader können schwarze Tasten haben.
 Im Touchscreen direkt oberhalb der Regler wird die aktuelle
 Tastenfunktion angezeigt.
 
-Priorität der Playbacks
------------------------
+## Priorität der Playbacks
 
 Einzelnen Playbacks lässt sich eine [höhere Priorität](../cues/playback-options.md#priority) zuweisen, wenn sie
 nicht durch andere Playbacks, die die gleichen Geräte verwenden, überlagert
@@ -377,8 +368,7 @@ eingesetzt, sind aber ebenso in einem anderen Cue verwendet, so kann man
 die Priorität für den Cue ‚Spot' heraufsetzen, so dass der andere Cue darauf
 ohne Auswirkung bleibt.
 
-Virtuelle Fader
----------------
+## Virtuelle Fader
 
 Werden mehr Fader benötigt und reichen dafür Fader auf dem Bildschirm
 aus, so kann das Fenster ‚Virtual Faders' hilfreich sein. Zum Öffnen
@@ -402,8 +392,7 @@ weitere Einstellungen vornehmen:
 
 -   Es kann zwischen 5, 10 oder 15 Fadern gewählt werden.
 
-Feste Playbacks (Nur Tiger Touch)
----------------------------------
+## Feste Playbacks (Nur Tiger Touch)
 
 Zusätzlich zu den zehn Fadern am unteren Rand des Pultes finden sich auf dem
 Tiger Touch Pulten weitere zehn rechts oben. Diese haben normalerweise immer
@@ -416,8 +405,7 @@ müssen entsprechende Makros auf Tasten zugeordnet werden. Sollten diese
 Makros auf dem Pult nicht zur Verfügung stehen, so muss die
 Personality-Bibliothek aktualisiert werden.
 
-Verriegeln der Seitenumschaltung
---------------------------------
+## Verriegeln der Seitenumschaltung
 
 Mitunter möchte man einen Fader 'fixieren', so dass er unabhängig vom
 Wechsel der Seiten stets verfügbar bleibt. Dies bietet sich z.B. an,
@@ -440,8 +428,7 @@ Change'-Makros verwendet.
 Auch Masterregler lassen sich auf diese Weise von der Seitenumschaltung 
 ausnehmen.
 
-Anzeigen der aktiven Playbacks
-------------------------------
+## Anzeigen der aktiven Playbacks
 
 Im Fenster ‚Active Playbacks' werden die aktuell aktiven Playbacks/
 Speicherplätze angezeigt. Damit hat man einen schnellen Überblick,
@@ -463,8 +450,7 @@ Klickt man eine der Schaltflächen an, so wird das betreffende Playback
 sofort deaktiviert. Betätigt man <Keys.SoftKey>Playback Options</Keys.SoftKey>, gefolgt von einer
 der Playback-Schaltflächen, so kann man die jeweiligen Parameter ändern.
 
-Blind-Modus
------------
+## Blind-Modus
 
 Sollen noch schnell ein paar kleine Änderungen an Cues oder Paletten mit
 Hilfe des Visualisers vorgenommen werden, ohne den Live-Betrieb zu
@@ -491,8 +477,7 @@ in Sekunden ein und drücken die <Keys.HardKey>Blind</Keys.HardKey>-Taste.
 Sind im Programmer Attribut-Zeiten gesetzt worden, so haben diese
 Vorrang vor der manuell eingegebenen Zeit.
 
-Improvisieren (Busking) mit Paletten
-------------------------------------
+## Improvisieren (Busking) mit Paletten
 
 Hatten Sie nicht genügend Zeit zum Programmieren, werden Sie vermutlich
 während der Show noch ein paar Effekte hinzufügen wollen. Damit wird das

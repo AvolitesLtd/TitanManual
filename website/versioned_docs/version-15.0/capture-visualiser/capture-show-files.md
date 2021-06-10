@@ -16,14 +16,12 @@ for further editing.
 Select the Show tab in the Capture Settings window to export and import
 shows.
 
-Exporting Shows
----------------
+## Exporting Shows
 
 Exported Capture shows can be loaded into other Titan shows or into the
 full version of Capture for producing documentation.
 
-Importing Shows
----------------
+## Importing Shows
 
 Shows can be imported from the full version of Capture, this can be
 useful to import existing stage structures or rigging designs.
@@ -48,8 +46,7 @@ to allow the console to patch fixtures into an imported Capture show, but you wi
 
 
 
-Clearing the Capture Show
--------------------------
+## Clearing the Capture Show
 
 The Wipe button at the bottom of the Show tab will clear the current
 Capture show.

@@ -8,8 +8,7 @@ original_id: copying-moving-and-deleting-palettes
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Kopieren oder verschieben einer Palette
----------------------------------------
+## Kopieren oder verschieben einer Palette
 
 Mit der Taste <Keys.HardKey>Copy</Keys.HardKey> bzw. <Keys.HardKey>Move</Keys.HardKey> lässt sich eine Palette auf eine
 andere Schaltfläche verschieben oder kopieren. Ebenso lassen sich
@@ -53,8 +52,7 @@ Das Verschieben von Paletten ist sinnvoll, um die Bedienoberfläche
     umplatziert, sofern sie beim Verschieben im Weg sind. Diese Option
     ist hilfreich beim Umgruppieren in sehr vollen Seiten.
 
-Löschen von Paletten
---------------------
+## Löschen von Paletten
 
 Zum Löschen einer Palette drücken Sie die <Keys.HardKey>Delete</Keys.HardKey>-Taste und wählen
 danach die Schaltfläche der zu löschenden Palette. Betätigen Sie danach

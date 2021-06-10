@@ -157,8 +157,7 @@ Die eingegebene Anzahl von Spalten/Zeilen wird gespeichert, so dass man
 testweise zwischen einem fixen und einem variablen Layout hin- und
 herschalten kann.
 
-Speichern der Arbeitsumgebung
------------------------------
+## Speichern der Arbeitsumgebung
 
 Mit gespeicherten Arbeitsumgebungen lässt sich die Darstellung des
 gesamten Displays durch nur einen Klick ändern/wiederherstellen.

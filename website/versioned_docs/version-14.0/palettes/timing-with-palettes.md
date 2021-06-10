@@ -11,8 +11,7 @@ import Video from '@site/src/components/video.tsx';
 [Palettes may be saved with timing information](creating-palettes.md#creating-a-time-palette),
 or you can manually override the timing when recalling the palette.
 
-Palettes with Saved Times
--------------------------
+## Palettes with Saved Times
 
 If you have
 [saved time information in a palette](creating-palettes.md#creating-a-time-palette),
@@ -27,8 +26,7 @@ with palettes](../running-the-show/playback-controls#busking-with-palettes)) usi
 You can set <Keys.SoftKey>Palette Is Fired With Its Times</Keys.SoftKey> or <Keys.SoftKey>Palette Is Fired
 Ignoring Its Times</Keys.SoftKey>.
 
-Manually Overriding Palette Times
----------------------------------
+## Manually Overriding Palette Times
 
 <Video videoId="FF8szWCpVkE" title="Overriding Palette Times" />
 
@@ -54,8 +52,7 @@ the palette fades in over that time.
     during a show, as you can smoothly move fixtures to a new position
     or change colour slowly (on colour mixing fixtures).
 
-Manual Fixture Overlap when Recalling Palettes
-----------------------------------------------
+## Manual Fixture Overlap when Recalling Palettes
 
 You can set a [Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap)
 when recalling a palette, which means that
@@ -90,8 +87,7 @@ next will start its fade.
     bear in mind that Fixture Overlap may be performed on a large number of fixtures which
     may lead to unwanted results.
 
-Master Time for Palettes
-------------------------
+## Master Time for Palettes
 
 Option <Keys.SoftKey>Master Time</Keys.SoftKey> on the Palette menu (press the <Keys.HardKey>Palette</Keys.HardKey> button
 above the numeric keypad) allows you to set a default fade time. This

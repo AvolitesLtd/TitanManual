@@ -17,8 +17,7 @@ object (or node or device) on a network should have a unique IP address.
 This is the same concept as DMX as each fixture requires a unique DMX
 address, for IP addresses the same is required.
 
-Setting your IP address
------------------------
+## Setting your IP address
 
 The console has a setup function to quickly set its IP address as
 described in the [previous section](controlling-fixtures-over-a-network.md#setting-the-consoles-ip-address).
@@ -30,8 +29,7 @@ any TitanNet devices you are using and any Art-Net fixtures. Beware that
 some Art-Net fixtures have a fixed IP address in the range `2.x.x.x`, in
 which case you have to set the console to that range.
 
-Subnet Masks
-------------
+## Subnet Masks
 
 These are best kept simple. All devices or nodes on a network who wish
 to communicate with each other must have the same subnet mask. The mask
@@ -41,8 +39,7 @@ digit in an IP address must be unique for each fixture. If the part in a
 subnet mask is 255 then this part of the IP address needs to be the same
 for each node.
 
-Choosing an IP address and Subnet Mask
---------------------------------------
+## Choosing an IP address and Subnet Mask
 
 This is the hardest part of setting up a network as your IP address
 totally depends on what you are using on the network and what IP
@@ -94,8 +91,7 @@ Art-Net Fixtures  | `10.x.y.z` <strong>\</strong>* | `255.0.0.0`
 
 > Never set the last number of an IP address to be 255. This is a special address which will not function correctly.
 
-Automatically assigning IP addresses (DHCP)
--------------------------------------------
+## Automatically assigning IP addresses (DHCP)
 
 There is another way of assigning IP addresses via an automatic system
 called DHCP, where one of the computers on the network will
@@ -107,8 +103,7 @@ most DHCP servers will have a reserved range of "static" addresses
 which can be manually set. You can usually find these out from the
 DHCP server configuration.
 
-Private IP address ranges
--------------------------
+## Private IP address ranges
 
 If your network is connected to the internet it is important to use a
 private IP address range. These are special IP addresses that will not

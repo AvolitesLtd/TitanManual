@@ -8,8 +8,7 @@ original_id: using-palettes
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Recalling a Palette Value
--------------------------
+## Recalling a Palette Value
 
 [Video covering Palettes Playback](https://youtu.be/_bmk7JEPpQo?t=20)
 
@@ -60,8 +59,7 @@ will be applied.
     fade time in seconds on the keypad (or 0 to snap), then press
     <Keys.HardKey>Blind</Keys.HardKey> again. The palettes will fade to the live output.
 
-Palette Pages
--------------
+## Palette Pages
 
 If you have stored palettes on physical buttons on the console, the
 <Keys.HardKey>+Page</Keys.HardKey>/<Keys.HardKey>-Page</Keys.HardKey> buttons will change to a different page of palettes.
@@ -79,8 +77,7 @@ pages using the page buttons to the left of the palette buttons.
 >   You can recall a palette from any page using its number as described
     in the [previous section](#recalling-from-the-keypad).
 
-Only Showing Relevant Palettes
-------------------------------
+## Only Showing Relevant Palettes
 
 If the [User Setting <Keys.SoftKey>Filter Relevant Palettes</Keys.SoftKey>](../system-settings/user-settings.md#filter-relevant-palettes)
 is enabled, when you
@@ -88,8 +85,7 @@ select fixtures any palettes which are not applicable will grey out.
 This is very useful to see which palettes are available for the fixtures
 you are working with.
 
-Quick Palettes with no Fixtures Selected
-----------------------------------------
+## Quick Palettes with no Fixtures Selected
 
 If you press a palette button when no fixtures are selected, the palette
 will be set to all the fixtures the palette applies to. This is called a
@@ -101,8 +97,7 @@ selected will set the colour to all the MAC 2000s.
 
 > Effects palettes can't be recalled as Quick Palettes.
 
-Setting Palettes to All Fixtures in a Playback
-----------------------------------------------
+## Setting Palettes to All Fixtures in a Playback
 
 You can apply a palette to all fixtures in a particular playback. Hold
 the palette button and press the <strong>select</strong> button of the playback which the

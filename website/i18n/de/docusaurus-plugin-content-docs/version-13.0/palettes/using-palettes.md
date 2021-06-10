@@ -8,8 +8,7 @@ original_id: using-palettes
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Abrufen eines Palettenwertes
-----------------------------
+## Abrufen eines Palettenwertes
 
 <Video videoId="_bmk7JEPpQo" title="Palettes Playback" />
 
@@ -65,8 +64,7 @@ abzurufenden Palette.
 	in den Live-Modus. Damit wird auf die gewählten Paletten live 
 	übergeblendet.
 
-Palettenseiten
---------------
+## Palettenseiten
 
 Wurden Paletten auf den Tasten des Pultes gespeichert, so kann man mit
 <Keys.HardKey>+Page</Keys.HardKey>/<Keys.HardKey>-Page</Keys.HardKey> auf verschiedene Seiten wechseln. Soll eine Palette
@@ -82,16 +80,14 @@ Menü-Schaltflächen.
 >   Paletten von einer beliebigen Seite lassen sich auch über ihre
     Nummer aufrufen, siehe [voriger Abschnitt](#abrufen-per-nummersyntax).
 
-Anzeige nur der relevanten Paletten
------------------------------------
+## Anzeige nur der relevanten Paletten
 
 Ist die [Benutzereinstellung <Keys.SoftKey>Filter Relevant Palettes</Keys.SoftKey>](../system-settings/user-settings.md#filter-relevant-palettes)
 aktiviert, so werden beim Anwählen von Geräten die Paletten, die auf 
 diese Geräte nicht anwendbar sind, ausgegraut. So sieht man  auf einen 
 Blick, welche Paletten für die angewählten Geräte zur Verfügung stehen.
 
-Quick Palettes -- Schnelle Paletten ohne ausgewählte Geräte
------------------------------------------------------------
+## Quick Palettes -- Schnelle Paletten ohne ausgewählte Geräte
 
 Beim Aufruf einer Palette, ohne dass Geräte ausgewählt sind, wird die
 Palette auf alle in der Palette vorhandenen Geräte angewendet; diese
@@ -104,8 +100,7 @@ wurde, ohne dass MAC 2000 angewählt sind, so wird die Palette auf
 > 	Effekt-Paletten können nicht als Quick Palettes verwendet werden -
     für diese müssen stets Fixtures ausgewählt werden.
 
-Abruf einer Palette für alle Geräte in einem Cue
-------------------------------------------------
+## Abruf einer Palette für alle Geräte in einem Cue
 
 Sie können ebenso Paletten auf alle Geräte in einem bestimmten Cue
 anwenden. Dazu drücken und halten Sie die entsprechende

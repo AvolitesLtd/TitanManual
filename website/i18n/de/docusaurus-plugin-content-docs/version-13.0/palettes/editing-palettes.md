@@ -8,8 +8,7 @@ original_id: editing-palettes
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Anzeigen und Ändern einer Palette
----------------------------------
+## Anzeigen und Ändern einer Palette
 
 Die in einer Palette gespeicherten Werte lassen sich im Fenster **Palette
 View** anzeigen. Hier werden alle Geräte aufgelistet, für die die Palette
@@ -51,8 +50,7 @@ schaltet den Wert ein oder aus).
 -   Enthält die Palette Pixelmapper-Effekte, so lassen sich diese mit
     <Keys.SoftKey>View Effects</Keys.SoftKey> öffnen, anzeigen und editieren.
 
-Ändern des Inhalts einer Palette
---------------------------------
+## Ändern des Inhalts einer Palette
 
 Um einen Eintrag einer Palette zu ändern, betätigen Sie die Taste
 <Keys.HardKey>Edit</Keys.HardKey> (<Keys.HardKey>Update Palette</Keys.HardKey> auf dem Pearl Expert und Tiger Touch mk1),
@@ -101,8 +99,7 @@ Merge**.
     Programmierspeicher in den Zustand vor dem Ändern der Palette
     zurückversetzt.
 
-Aktualisieren von verwendeten Paletten
---------------------------------------
+## Aktualisieren von verwendeten Paletten
 
 Muss eine bereits verwendete Palette während der Show verändert werden,
 wenn z.B. der Grün-Ton nicht exakt die gewünschte Farbe trifft, so lässt

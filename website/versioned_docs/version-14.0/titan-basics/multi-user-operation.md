@@ -12,8 +12,7 @@ You can connect multiple consoles together to work together on a show.
 You can also have multiple user setups on a show on a single console to
 allow different layouts, for example for a support band LD.
 
-Users
------
+## Users
 
 Each show can have multiple users. Each user has their own user
 settings, key profiles and handle layout (known as a *handle world*).
@@ -47,8 +46,7 @@ user and press <Keys.SoftKey>OK</Keys.SoftKey>.
     user added to one of the consoles will be available on any of the
     other consoles.
 
-Handle Worlds
--------------
+## Handle Worlds
 
 Each show can have multiple Handle Worlds, each having its own layout of
 handles. This allows each user to have their own layout of cues,
@@ -88,8 +86,7 @@ Show Library if needed).
     will change if a user using the same handle world on another console
     changes the page.
 
-Linking to other TitanNet Sessions
-----------------------------------
+## Linking to other TitanNet Sessions
 
 If multiple Titan consoles are connected in the same network you can
 choose to connect them as multi-user, 

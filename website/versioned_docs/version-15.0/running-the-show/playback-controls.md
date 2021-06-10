@@ -7,19 +7,16 @@ sidebar_label: Playback controls
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Back up the show
-----------------
+## Back up the show
 
 At regular intervals while you are programming, and when you have finished programming (or you've run out of time) and it's show time, the most important thing is to [save the show](../titan-basics/loading-and-saving-shows.md#saving-the-show). It is wise to also make a separate copy of show by saving it to a USB drive, enabling you to swap to a different console if there are
 problems.
 
-Label the console
------------------
+## Label the console
 
 When you are running your show you will need to know where everything is. Use the Legend functions to set on-screen labels, or you can't beat the low tech method of marker pen and tape.
 
-Grand Master fader and assignable masters
------------------------------------------
+## Grand Master fader and assignable masters
 
 If the console is fitted with a Grand Master Fader, this controls the intensity of all output from the console. Normally you would use it to quickly fade out all the lights.
 
@@ -49,8 +46,7 @@ it as a master. Press the Display button below the encoders to show legends for 
 
 >  If you assign a master to a handle with an LED, the LED will flash if the fader is at zero... just as a reminder to help you work out why no lights are coming on.
 
-Speed and Size Masters
-----------------------
+## Speed and Size Masters
 
 <Video videoId="e5rQAmTCfs0" title="Speed and Size Masters" />
 
@@ -111,8 +107,7 @@ wheel opens a softkey menu where you can input a numerical value or <Keys.SoftKe
 
 > Using [Key Profiles](../system-settings/key-profiles.md) you can set one of the buttons of the master to act as the "Connect" button.
 
-Playback Groups
----------------
+## Playback Groups
 
 Playbacks can be assigned to groups. This allows you to create a set of playbacks which automatically switch off other playbacks in the same group. This can be useful when you have playbacks setting colours on executor buttons so only the most recent playback stays active, or to make life easier when busking so you don’t end up with lots of playbacks fired which have superseded each other.
 
@@ -206,8 +201,7 @@ different display modes for the Playback Groups workspace:
 ![Playback groups display mode 3](/docs/images/Playback-groups-display-mode-3.png)
 
 
-Fixture Group Masters
----------------------
+## Fixture Group Masters
 
 You can assign a fader to control the master intensity of each fixture group. To do this you simply save (or move) the group button to a handle
 with a fader.
@@ -239,8 +233,7 @@ If a Flash Master is configured, this will also master the group flash.
 
 > You can release all masters by pressing <Keys.HardKey>Release</Keys.HardKey> then <Keys.SoftKey>Release All Masters</Keys.SoftKey>. This can be useful if something is being controlled by a master but you are not sure where it is.
 
-Scene Master
-------------
+## Scene Master
 
 <Video videoId="zn_jd1zba7E" title="Scene Masters" />
 
@@ -295,8 +288,7 @@ commit scene mode.
 
 - On Pearl Expert and Tiger Touch 1, you set a handle to Scene Master by switching to System mode using <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Disk</Keys.HardKey> together, then select <Keys.SoftKey>Assign Masters</Keys.SoftKey>. 
 
-Flash and swop buttons
-----------------------
+## Flash and swop buttons
 
 Normally the Flash and Select buttons on a playback are set up so that
 pressing Flash will flash, and pressing Select will swop (solo) the playback. 
@@ -324,8 +316,7 @@ each fader, and a virtual fader (on the touch screen) can also have a black butt
 The screen relating to each playback fader
 shows the allocated function of the blue and grey buttons.
 
-Playback priority
------------------
+## Playback priority
 
 [You can set playbacks to high priority](../cues/playback-options.md#playback-tab) if you do not want them to be
 overridden by other playbacks using the same fixtures. For example, if
@@ -333,8 +324,7 @@ you have a couple of fixtures acting as a spotlight, but they are also
 programmed into some colour washes, you probably want the spotlight cue
 to take priority over the colour washes.
 
-Virtual faders
------------------
+## Virtual faders
 
 If you need more playbacks and you're happy to operate them on a touchscreen fader, you can use the
 Virtual Faders workspace window (double press <Keys.HardKey>Open/View</Keys.HardKey> then press <Keys.SoftKey>Virtual Faders</Keys.SoftKey> from the window
@@ -353,8 +343,7 @@ Press the <Keys.ContextKey>Cog</Keys.ContextKey> button at the top of the screen
 - Set how many faders are shown per page. This can be set to 5, 10 or 15 to match the playback fader
 layout on the console hardware.
 
-Preset playbacks (Tiger Touch only)
------------------------------------
+## Preset playbacks (Tiger Touch only)
 
 On the Tiger Touch, as well as the 10 playback faders across the bottom
 of the console, there are 10 further playbacks on the top right of the
@@ -367,8 +356,7 @@ factory-preloaded macro in two of the Macro/Executor buttons. This macro
 is loaded with the Personality Library, if you do not see the page
 macros you need to update the library.
 
-Locking a playback onto the same handle on every page
------------------------------------------------------
+## Locking a playback onto the same handle on every page
 
 Sometimes you might want to keep a playback accessible on a handle no
 matter which page you are on. The <Keys.SoftKey>Handle Paging</Keys.SoftKey> option in the <Keys.SoftKey>Options</Keys.SoftKey> menu lets you do that without having to copy the
@@ -390,8 +378,7 @@ change buttons.
 
 Lock options are also available for master faders.
 
-Viewing active playbacks
-------------------------
+## Viewing active playbacks
 
 The Active Playbacks window shows details of which playbacks are active.
 This provides an easy way to see what is currently running. To open this
@@ -408,8 +395,7 @@ Click on a playback to instantly kill it. You can also press <Keys.SoftKey>Playb
 Options</Keys.SoftKey> followed by the playback in this window to change parameters
 of the playback.
 
-Blind mode
-----------
+## Blind mode
 
 If you want to program palettes or cues using the visualiser without
 affecting the look on the stage, you can set the console to Blind mode.
@@ -432,8 +418,7 @@ To convert blind to live, type a number to set fade time then press the <Keys.Ha
 If any attribute fade times have been set in the programmer, these will
 be used instead of the fade time you type.
 
-Busking with palettes
----------------------
+## Busking with palettes
 
 If you have not had as much programming time as you would have liked,
 you might need to make up some additional effects during the show. This

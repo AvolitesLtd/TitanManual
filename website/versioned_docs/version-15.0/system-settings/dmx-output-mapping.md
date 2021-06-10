@@ -24,8 +24,7 @@ single console to 16, but performance of the console will be
 degraded. A warning will be shown in the processing load section of
 the TitanNet overview.
 
-Configuring DMX Outputs
------------------------
+## Configuring DMX Outputs
 
 From the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
 
@@ -80,8 +79,7 @@ the tabs across the top of the screen.
  > When transferring shows between different console types, and especially when you have used the simulator, it's a good idea to check the DMX output settings to make sure the settings are what you expected. If you created a new show on the simulator, no outputs will be connected.
 
 
-Module Properties
------------------
+## Module Properties
 
 A module is a method of sending DMX (such as Art-Net, or sACN) and can be
 thought of as a collection of nodes.
@@ -181,8 +179,7 @@ each one.
 
 > ArtPoll messages can be disabled via a registry setting. This is occasionally needed for Art-Net fixtures which don't support ArtPoll. If you need to do this or if ArtPoll messages aren't being sent when they should be, contact Avolites Support for instructions on how to change this.
 
-DMX Overview
-------------
+## DMX Overview
 
 If you select the DMX Overview tab at the top of the window, you can see
 all the [TNPs](../titan-net.md) which are connected and which output lines they are
@@ -207,8 +204,7 @@ nodes which are no longer found on the TitanNet network, a dialog will
 appear listing nodes in use and available nodes, giving you the option
 to reassign the lines.
 
-DMX Merge
----------
+## DMX Merge
 
 The DMX merge window allows you to set up merging of the local Titan output
 with sACN universes from other sources in a system where you have multiple 

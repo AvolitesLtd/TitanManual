@@ -7,8 +7,7 @@ sidebar_label: Creating a Chase
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Programming a Chase
--------------------
+## Programming a Chase
 
 <Video videoId="M0h5zV4S_OI" title="Recording a Chase" />
 
@@ -74,8 +73,7 @@ programmer)*, then repeat steps 3 - 5.
 
 -   There is no limit to the number of steps in a chase.
 
-Creating a Chase with Quick Build
----------------------------------
+## Creating a Chase with Quick Build
 
 Quick Build mode, as the name suggests, allows you to build a chase very
 quickly from existing palettes and playbacks.

@@ -8,8 +8,7 @@ The Diamond 9 and Arena consoles are different to the other Titan consoles becau
 have a built-in network switch and an optical network connection.  **This section applies only to the Diamond 9 and 
 Arena consoles.**
 
-Optical Connections
--------------------
+## Optical Connections
 
 The optical network connector is a Neutrik opticalCON which uses
 multimode fibre. On the Arena the connector is a Duo, a single connector is fitted as standard, but a second
@@ -21,8 +20,7 @@ into the Avolites TitanNet Switch (TNS) rack unit which provides
 standard wired Ethernet connections. If you want to connect to a
 different optical switch you should contact Avolites for advice.
 
-Wired Ethernet Outputs
-----------------------
+## Wired Ethernet Outputs
 
 The Diamond 9 console has an in-built 1Gb Luminex network switch; the 
 Arena console has an in-built 1Gb TitanNet switch (TNS). These are
@@ -42,8 +40,7 @@ address. When the controller IP address is set, the network switch will
 use the next one (for example controller `10.19.0.50`, network switch
 becomes `10.19.0.51`)
 
-Changing the IP address of the Titan Network Switch (TNS)
----------------------------------------------------
+## Changing the IP address of the Titan Network Switch (TNS)
 
 The controller and network switch IP address do not need to be changed
 unless they overlap other devices on the network. The factory default is
@@ -58,8 +55,7 @@ To change the IP address of the TNS in the console:
 3. In the **IP Address Dialog**, set the new IP address.<br/>
   ![USB Expert Tools - TNS Panel - IP Address Dialog](/docs/images/USB-Expert-Tools-TNS-Panel-IP-Address-Dialog.png)
 
-Power and UPS behaviour 
------------------------
+## Power and UPS behaviour 
 
 The network switch in the console runs from the same UPS as the console
 itself, so if power fails the switch will continue working.

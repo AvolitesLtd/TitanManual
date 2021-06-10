@@ -18,8 +18,7 @@ Press <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.SoftKey>Open Workspace W
 open the window (or if in the root menu just <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>,
 <Keys.SoftKey>Show Library</Keys.SoftKey>).
 
-Show Library tab
-----------------
+## Show Library tab
 
 The Show Library lists all programmed elements of your show including
 fixture patch, fixture groups, palettes, playbacks, macros and
@@ -29,8 +28,7 @@ of information are displayed.
 ![Show Library](/docs/images/Show-Library.png)Clicking on the buttons in the Show Library
 window will activate them.
 
-Mapping shows for import
-------------------------
+## Mapping shows for import
 
 Press the Plus button top right to map another showfile to allow you to
 import elements of it.
@@ -39,14 +37,12 @@ Using the Mapper tab you can map similar fixtures from an imported show
 to the current show. This lets you load in your [favourite programming
 from other shows](../titan-basics/loading-and-saving-shows.md#importing-parts-of-other-shows).
 
-Users tab
----------
+## Users tab
 
 This tab allows you to set up and select users for the console. This is
 the same as the <Keys.SoftKey>Users</Keys.SoftKey> option found in the Disk menu.
 
-Key profiles view
------------------
+## Key profiles view
 
 Selecting the [Key Profiles](../system-settings/key-profiles.md) tab shows all information about the different
 Key Profiles available on the console. The available profiles are listed

@@ -27,8 +27,7 @@ Die folgenden Triggerarten (Signale) sind möglich:
 	verwendet werden. Dagegen kann der T2 als Sound-Eingang für andere Pult 
 	dienen.
 
-Anschließen externer Steuerungen
---------------------------------
+## Anschließen externer Steuerungen
 
 MIDI-Geräte werden einfach mit der MIDI-In-Buchse verbunden.
 USB-MIDI-Geräte, die den DirectX MIDI-Treiber unterstützen, können
@@ -53,8 +52,7 @@ PioneerDJ-Decks können per Netzwerk als Taktgeber für BPM-Master
 verwendet werden, siehe folgender Abschnitt. Dies ersetzt die frühere
 'Pro DJ Tap'-Funktion.
 
-Einrichten der externen Steuerung
----------------------------------
+## Einrichten der externen Steuerung
 
 Schalten Sie das Pult in den System-Modus und wählen Sie <Keys.SoftKey>Triggers</Keys.SoftKey>;
 darauf wird das Fenster 'Triggers' angezeigt.
@@ -155,8 +153,7 @@ MIDI-Werte kann man u.a. mit der Software MIDI-Ox überprüfen).
 
 8.	Wiederholen Sie den Vorgang ab Schritt 3 für weitere Fader.
 
-MIDI Show Control
------------------
+## MIDI Show Control
 
 Folgende MIDI Show Control-Befehle werden unterstützt:
 
@@ -177,8 +174,7 @@ Geräte mit MIDI Show Control werden durch eine Geräte-ID (device id)
 identifiziert. Zum Einstellen der Geräte-ID des Titan-Pultes dient die
 Benutzereinstellung <Keys.SoftKey>Timecode</Keys.SoftKey><Keys.SoftKey>MIDI Device Id</Keys.SoftKey>. Vorgabewert ist 0.
 
-Audio-Trigger (Sound to Light)
-------------------------------
+## Audio-Trigger (Sound to Light)
 
 Bei Pulten, die das unterstützen (momentan: Quartz und Arena), gibt es
 einen separaten Audio-Eingang. Das dort anliegende Signal wird in

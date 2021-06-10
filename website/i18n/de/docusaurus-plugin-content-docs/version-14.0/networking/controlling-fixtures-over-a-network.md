@@ -12,8 +12,7 @@ Bevor das Pult mit anderen Geräten über ein Netzwerk kommunizieren kann,
 muss es eine eindeutige Netzwerkadresse bekommen; diese wird
 'IP-Adresse' genannt.
 
-Einstellen der IP-Adresse des Pultes
-------------------------------------
+## Einstellen der IP-Adresse des Pultes
 
 Es wird empfohlen, die integrierte Adressvergabe des Pultes zu
 verwenden. Alternativ kann aber auch manuell eine Adresse vergeben werden.
@@ -41,8 +40,7 @@ Details zur IP-Adressierung.
 -   Benötigen Sie eine Adresse aus einem anderen Adressbereich, so drücken
 	Sie auf <Keys.SoftKey>IP Address = ... </Keys.SoftKey> und geben die Adresse mit den Zifferntasten ein.
 
-Einrichten der DMX-Ausgänge
----------------------------
+## Einrichten der DMX-Ausgänge
 
 Das Pult arbeitet intern mit max. 64 DMX-Universen (16 direkt im Pult,
 bis zu 64 mit TitanNet), die einzeln auf die DMX-Buchsen sowie über
@@ -56,8 +54,7 @@ Oft wird man einfach Linie 1 auf Netzwerk-Universum 1, Linie 2 auf Universum 2 e
 zuweisen, aber mitunter - etwa auf Tour zur Anpassung an das vorhandene
 Netzwerk - sieht das auch ganz anders aus.
 
-Beispiel für ein einfaches Art-Net-System
------------------------------------------
+## Beispiel für ein einfaches Art-Net-System
 
 Es gibt hauptsächlich zwei Systeme zur Übertragung von Licht-Steuersignalen
 über Netzwerk: Art-Net und sACN. Titan unterstützt beide Protokolle.
@@ -130,8 +127,7 @@ Als mögliche Art-Net-Geräte werden ggf. auch \"Unpolled\" oder
     seine Art-Net-Möglichkeiten nicht bekanntmacht; das Pult weiß
     daher nicht, ob es ein Eingangs- oder Ausgangsknoten ist.
 
-Weiterführende Informationen zu Art-Net
----------------------------------------
+## Weiterführende Informationen zu Art-Net
 
 Für weitere Informationen zum Thema Art-Net ziehen Sie am besten den
 Art-Net-Standard, veröffentlicht von der Firma [Artistic Licence](http://www.artisticlicence.com), heran.

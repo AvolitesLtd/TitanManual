@@ -14,8 +14,7 @@ grundlegende Bedienung erläutert.
 > Funkgeräte können die Funktion des Pultes stören. Es wird empfohlen, solche Geräte nicht unmittelbar auf, neben oder beim Pult zu verwenden oder abzulegen. Vielmehr sollten sie etwa in einer Tasche oder am Gürtel getragen werden.
 
 
-Netzanschluss
--------------
+## Netzanschluss
 
 Die Pulte funktionieren mit Netzspannung im Bereich von 80 bis 260 V.
 
@@ -49,8 +48,7 @@ Netz läuft der Switch noch für etwa 5 Minuten weiter. Dies ist wichtig,
 wenn dieser Switch auch andere Geräte mit Signal versorgt, das Arena 
 selbst jedoch abgeschaltet oder neu gestartet werden muss. 
 
-Einschalten und Ausschalten
----------------------------
+## Einschalten und Ausschalten
 
 Die Pulte arbeiten mit Windows als Betriebssystem, daher sollte man dies
 jeweils ordnungsgemäß herunterfahren, anstatt einfach nur die
@@ -68,8 +66,7 @@ bis die Anzeige 'Power' erloschen ist (etwa 30 sec.)
 
 > Benutzen Sie nicht den Netzschalter auf der Rückseite des Pultes. Beim Betätigen dieses Schalters würde das Pult nicht geordnet heruntergefahren werden, und sämtliche Änderungen der Show gingen verloren.
 
-Herunterfahren erzwingen
-------------------------
+## Herunterfahren erzwingen
 
 Zum <strong>erzwungenen Ausschalten</strong> - wenn das normale Ausschalten nicht
 funktioniert - ist der Hauptschalter für 5 Sekunden gedrückt zu halten.
@@ -87,8 +84,7 @@ Backup-Pult angeschlossen ist! Wird das Arena normal heruntergefahren,
 so bleibt der Switch aufgrund seiner USV noch etwa 5 Minuten
 eingeschaltet.
 
-Inbetriebnahme von Titan Mobile und T1/T2
------------------------------------------
+## Inbetriebnahme von Titan Mobile und T1/T2
 
 Verbinden Sie das Titan Mobile bzw. den T1/T2 erst mit Ihrem Computer,
 wenn Sie die <strong>Titan PC-Suite</strong> installiert haben. Zur Installation führen Sie
@@ -141,8 +137,7 @@ ein AvoKey parallel dazu per USB angeschlossen sein.
 &nbsp;<strong>Titan Simulator:</strong> auch der Titan Simulator benötigt einen AvoKey (den
 Editor AvoKey) und muss einmalig lizenziert werden.
 
-Titan Healthcheck -- die Eigendiagnose
---------------------------------------
+## Titan Healthcheck -- die Eigendiagnose
 
 Bei Start der Titan-Software wird ein Selbsttest ausgeführt, der Titan
 Healthcheck. Dieser überprüft das Dateisystem, die Firmware
@@ -156,8 +151,7 @@ Die Fehlerbehebung sollte nur ausgeführt werden, wenn ausreichend Zeit
 zur Verfügung steht, da manche Module bis zu einer Stunde benötigen
 können.
 
-DMX anschliessen
-----------------
+## DMX anschliessen
 
 Die Kommunikation mit den Dimmern und Moving Lights erfolgt per DMX512.
 Die aktuellen Titan-Pulte können jeweils bis zu 16 Universen (à 512
@@ -197,8 +191,7 @@ Abschlusswiderstand (120 Ohm zwischen Pin 2 und 3) abgeschlossen werden.
 Die Verwendung von passiven Splittern (Y-Splittern) kann zu Datenverlust
 führen und sollte vermieden werden.
 
-Einen Monitor anschliessen
---------------------------
+## Einen Monitor anschliessen
 
 Es läßt sich ein externer Monitor anschliessen (beim Tiger Touch II und
 Pearl Expert: VGA; beim Quartz, Arena, Sapphire Touch: DVI). Damit erhält
@@ -224,8 +217,7 @@ und wählen die passende Auflösung. Bei der Titan PC-Suite erfolgt dies
 Weitere Details dazu sowie eine Anleitung zur Suche möglicher Fehler
 [finden Sie hier](system-settings/external-displays.md).
 
-Weitere Anschlussmöglichkeiten
-------------------------------
+## Weitere Anschlussmöglichkeiten
 
 Es lassen sich eine USB-Tastatur sowie eine Maus anschliessen.
 Insbesondere bei der Verwendung eines externen Dispalys ohne
@@ -257,8 +249,7 @@ angepasst werden, da es dafür verschiedene Systeme gibt.
 -	Bei neueren Pulten lässt sich die Helligkeit der Pultleuchte im 
 	System-Menü (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) einstellen.
 
-Verwenden von Faderwings
-------------------------
+## Verwenden von Faderwings
 
 "[Wings](./about-the-consoles/fader-wings.md)" bieten zusätzliche 
 Bedienelemente wie Fader und Tasten, und sind je nach Einsatzzweck eine 

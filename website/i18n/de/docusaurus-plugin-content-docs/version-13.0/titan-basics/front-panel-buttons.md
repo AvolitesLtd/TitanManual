@@ -11,8 +11,7 @@ import Video from '@site/src/components/video.tsx';
 Die den Fadern zugeordneten blauen und grauen Tasten sowie die
 Macro/Executor-Tasten sind weitgehend frei zu konfigurieren.
 
-Key Profiles -- Tastenprofile
------------------------------
+## Key Profiles -- Tastenprofile
 
 Es ist möglich, die Funktionsweise der grauen Flash- und blauen
 Auswahl-Taster (sowie der schwarzen Tasten beim Sapphire Touch) zu
@@ -21,8 +20,7 @@ Diese Einstellungen lassen sich als [Key Profile (Tastenprofil)](../system-setti
 Tastenprofile lassen sich einzelnen Benutzern zuordnen oder für die 
 vereinfachte Bedienung des Pultes bei bestimmten Anwendungsfällen verwenden.
 
-Macros -- Tastenfolgen
-----------------------
+## Macros -- Tastenfolgen
 
 Während des Programmierens sind zuweilen bestimmte Abfolgen von
 Tastendrücken sehr oft auszuführen. Zur Vereinfachung lassen sich solche
@@ -65,8 +63,7 @@ auf der das Makro gespeichert wurde. Daraufhin werden sämtliche Schritte
 der Tastenfolge automatisch ausgeführt (wahlweise mit den
 aufgezeichneten Pausen oder in schneller Folge).
 
-Tastenkombinationen
--------------------
+## Tastenkombinationen
 
 Viele Funktionen des Pultes lassen sich durch Tastenkombinationen
 aufrufen; dies ist insbesondere mit dem Titan Mobile oder dem Titan
@@ -120,8 +117,7 @@ Taste | Aktion | | Taste | Aktion
 ⇑ = Shift/Umschalt\
 (Num) = auf dem Ziffernblock
 
-Das Pult sperren
-----------------
+## Das Pult sperren
 
 Das Pult lässt sich sperren, um unbeabsichtigte oder unbefugte Eingriffe
 zu verhindern. Halten Sie dazu <Keys.HardKey>AVO</Keys.HardKey> gedrückt, klicken Sie auf

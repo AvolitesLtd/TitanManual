@@ -8,8 +8,7 @@ original_id: copying-moving-linking-and-deleting
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Kopieren eines Cues
--------------------
+## Kopieren eines Cues
 
 Mittels der Taste <Keys.HardKey>Copy</Keys.HardKey> lässt sich eine <strong>Kopie</strong> eines Cues anfertigen
 oder ein Speicherplatz als <strong>Verknüpfung</strong> zu einem bestehenden Cue anlegen. 
@@ -54,8 +53,7 @@ diese ab dort auf die folgenden freien Plätze eingefügt.
 	werden in <Keys.SoftKey>Don't copy legends</Keys.SoftKey> (Bezeichnungen nicht kopieren), so 
 	dass die kopierten Cues Standardbezeichner bekommen.
 
-Verschieben eines Cues
-----------------------
+## Verschieben eines Cues
 
 Mit der Taste <Keys.HardKey>Move</Keys.HardKey> lassen sich Playbacks (Cues, Chaser, Cuelisten) 
 auf andere Tasten und Fader verschieben. <strong>Move/Verschieben</strong> ist sinnvoll, 
@@ -76,8 +74,7 @@ auf einmal aus. Und mit <Keys.HardKey>Menu Latch</Keys.HardKey> kann auch das <s
     Verschiebe-Vorgang im Wege wären, automatisch zu verschieben. Dies
     bietet sich insbesondere beim ‚Aufräumen' nahezu voller Seiten an.
 
-Einen Cue löschen
------------------
+## Einen Cue löschen
 
 Um einen Cue zu löschen:
 

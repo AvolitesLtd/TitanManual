@@ -12,8 +12,7 @@ import Video from '@site/src/components/video.tsx';
 alternativ kann beim Abruf einer Palette eine Zeit vorgegeben oder die
 gespeicherte überschrieben werden.
 
-Paletten mit gespeicherten Zeiten
----------------------------------
+## Paletten mit gespeicherten Zeiten
 
 [Enthält eine Palette auch Zeiten](creating-palettes.md#erstellen-einer-palette-mit-zeiten), 
 so werden diese mit berücksichtigt,
@@ -31,8 +30,7 @@ Sie die [Einstellung (Key Profiles für Paletten)](../system-settings/key-profil
 in <Keys.SoftKey>Palette Is Fired With Its Times</Keys.SoftKey> (Palette wird
 mit Zeiten gestartet).
 
-Überschreiben von Palettenzeiten
---------------------------------
+## Überschreiben von Palettenzeiten
 
 <Video videoId="FF8szWCpVkE" title="Overriding Palette Times" />
 
@@ -61,8 +59,7 @@ vorgegebenen Zeit ein.
     Paletten während einer Show, da sich damit langsame Positions- und
     Farbwechsel (bei Geräten mit Farbmischsystem) erreichen lassen.
 
-Manuelle Geräteüberlappung beim Palettenabruf
----------------------------------------------
+## Manuelle Geräteüberlappung beim Palettenabruf
 
 Außerdem lässt sich die [Überlappung (Fixture Overlap)](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) 
 zwischen den Geräten einstellen: wenn die Palette auf eine Gruppe von 
@@ -93,8 +90,7 @@ sein muss, bevor die Überblendung mit dem nächsten Gerät beginnt.
 	nacheinander angewendet wird, was zu unerwarteten Ergebnissen
 	führen kann.
 
-Master-Zeit für Paletten
-------------------------
+## Master-Zeit für Paletten
 
 Mit der Option <Keys.SoftKey>Master Time</Keys.SoftKey> im Paletten-Menü (betätigen Sie dazu die
 Taste <Keys.HardKey>Palette</Keys.HardKey> oberhalb der Zifferntasten) lässt sich eine

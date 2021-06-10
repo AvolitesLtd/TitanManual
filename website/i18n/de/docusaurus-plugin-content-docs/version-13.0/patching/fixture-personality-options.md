@@ -18,8 +18,7 @@ Zusätzlich gibt es etliche Optionen, mit denen genau gesteuert werden kann,
 wie ein Movinglight reagiert. Die nachfolgend aufgeführten Einstellungen 
 lassen sich auch in der Patch-Ansicht vornehmen.
 
-Pan und Tilt vertauschen
-------------------------
+## Pan und Tilt vertauschen
 
 Damit wird die Zuordnung der Steuerelemente für Pan und Tilt vertauscht.
 Dies ist etwa sinnvoll bei spiegelbewegten Geräten, die seitwärts
@@ -37,8 +36,7 @@ zwischen <Keys.SoftKey>Swapped</Keys.SoftKey> (vertauscht) und <Keys.SoftKey>Nor
 
 5.  Drücken Sie <Keys.HardKey>Exit</Keys.HardKey>, um das Menü zu verlassen.
 
-Attribute invertieren
----------------------
+## Attribute invertieren
 
 Mit dieser Option lassen sich einzelne Attribute ausgewählter Geräte
 invertieren. Das ist hilfreich z.B. wenn ein Gerät nach rechts läuft,
@@ -73,8 +71,7 @@ korrigieren.
 -   Attribute können auch im Attribute Behaviour-Reiter der
     Patch-Ansicht invertiert werden.
 
-Attribute limitieren
---------------------
+## Attribute limitieren
 
 Für jedes Attribut lassen sich sowohl obere als auch untere Limits
 setzen. Damit kann etwa die Pan/Tilt-Bewegung begrenzt werden, oder bei
@@ -112,8 +109,7 @@ jeweiligen Rades mit dem Symbol "limited" angezeigt.
 
 ![limited](/docs/images/Limited-Dimmer.png)
 
-Fixture Offset -- Geräte-Offset
--------------------------------
+## Fixture Offset -- Geräte-Offset
 
 Für jedes Attribut jedes Gerätes lässt sich ein Offset einstellen.
 Insbesondere ist das sinnvoll, um Positionen (Pan/Tilt) anzupassen, wenn
@@ -146,8 +142,7 @@ Das Offset kann auf vier Arten eingestellt werden:
     (Attribut-Verhalten) kann man die Kontext-Option <Keys.SoftKey>Offset</Keys.SoftKey> wählen und
     die Werte anzeigen lassen bzw. ändern,
 
-Kennlinien für Geräte und Attribute
------------------------------------
+## Kennlinien für Geräte und Attribute
 
 Kennlinien bestimmen, wie sich ein Attribut bei Änderung des DMX-Wertes
 verhält. Dies kommt vor allem zur Anwendung bei Dimmerkanälen, um den
@@ -174,8 +169,7 @@ oder über den Reiter 'Attribute Behaviour' im Patch View gesetzt werden.
 
 Die verschiedenen Kennlinien sind im Abschnitt [Curves -- Kennlinien/Kurven](../system-settings/curves.md) näher erläutert.  
 
-Geräte oder Attribute fixieren (Freeze)
----------------------------------------
+## Geräte oder Attribute fixieren (Freeze)
 
 Mit dieser Funktion lassen sich einzelne Attribute oder komplette Geräte
 fixieren. Diese werden dann weder vom Programmierspeicher noch von
@@ -201,8 +195,7 @@ programmierten Cues/Cuelisten beeinflusst.
 -   Fixierte Attribute werden durch das Symbol "Frozen" bei den
     Attributwerten oberhalb der Encoder angezeigt.
 
-Die Personality editieren
--------------------------
+## Die Personality editieren
 
 Sollte einmal eine Personality nicht wie erwartet funktionieren
 oder will man das Verhalten gezielt ändern, so kann sie direkt

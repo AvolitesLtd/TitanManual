@@ -8,14 +8,12 @@ original_id: advanced-options
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-The ML Menu button
-------------------
+## The ML Menu button
 
 When the console is at the top level menu, this button opens the Moving Light Actions menu which contains options to Locate Fixture (same as the Locate button) and to run Macros on fixtures such as Lamp On, Lamp Off, Reset etc. The Align Fixtures and Flip functions as described above are also in this menu.
 On the Pearl Expert and Tiger Touch 1, this button also latches the current menu when the console is not at the top level menu. Press <Keys.HardKey>Exit</Keys.HardKey> to get back to the top menu so that you can access the Moving Light menu. On other consoles there is a dedicated <Keys.HardKey>Latch Menu</Keys.HardKey> button.
 
-Lamping fixtures on and off
----------------------------
+## Lamping fixtures on and off
 
 Many fixtures have a control channel which allows you to perform functions like lamp on, lamp off, fixture reset, and so on. This can be useful to shut down fixture lamps at the end of a show while the fans continue to run, or to reset a fixture which has gone haywire.
 

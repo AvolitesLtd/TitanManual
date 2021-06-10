@@ -8,8 +8,7 @@ original_id: pixel-mapper-examples
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Zufallseffekte
---------------
+## Zufallseffekte
 
 In diesem Beispiel wird die Matrixengine genutzt, um auf mehreren
 Dimmern einen Zufallseffekt zu erzeugen. Dieser Effekt überlagert
@@ -69,8 +68,7 @@ ist noch kein Effekt zu sehen.)
 
 11. Speichern Sie mittels <Keys.HardKey>Record</Keys.HardKey> das Ergebnis als Cue.
 
-Effekte und Layer kombinieren
------------------------------
+## Effekte und Layer kombinieren
 
 In diesem Beispiel wird ein diagonaler Wisch-Effekt mit einem
 rotierenden roten 'Propeller' erstellt.
@@ -161,8 +159,7 @@ den Block als grafisches Element.
 >    
 >   ![Pixel Mapper Preview Window - Overlayed Layers](/docs/images/Pixel-Mapper-Preview-Window-Overlayed-Layers.png)
 
-Kreative Geräte-Layouts
------------------------
+## Kreative Geräte-Layouts
 
 Da jede Gerätegruppe ein anderes Layout haben kann, ist es auch sehr
 einfach möglich, die gleichen Geräte in mehreren Gruppen mit
@@ -280,8 +277,7 @@ sich der Wert um +/-1px bzw. +/-45° ändert. Klickt man auf den Wert im Display
 bzw. die entsprechende <Keys.HardKey>@</Keys.HardKey>-Taste, so lässt sich der gewünschte Wert
 numerisch eingeben.
 
-Weitere Werkzeuge des Layout-Editors
-------------------------------------
+## Weitere Werkzeuge des Layout-Editors
 
 Im Layout-Editor gibt es einige Werkzeuge, die das Arbeiten deutlich
 vereinfachen.
@@ -343,8 +339,7 @@ gewählte Gerät einzeln um sein Zentrum.
 bei Verwendung eines Ai-Servers/Synergy. Das ist ausführlich beschrieben 
 im Abschnitt [Verwendung des Layout-Editors mit Ai](../synergy/operating-synergy.md#verwendung-des-layout-editors-mit-ai).
 
-Reihenfolge und Priorität beim Abruf
-------------------------------------
+## Reihenfolge und Priorität beim Abruf
 
 Angenommen, Sie haben auf einem Speicherplatz ein pulsierendes weißes
 Oval, und auf einem anderen eine blaue Spirale erstellt. Normalerweise
@@ -474,8 +469,7 @@ erscheint, vergeben Sie dieser eine höhere Priorität:
 Obwohl die Cues in der gleichen Reihenfolge wie im ersten Versuch
 gestartet wurden, erscheint nun die blaue Spirale immer im Vordergrund.
 
-Verlagerung und Layer-Eigenschaften
------------------------------------
+## Verlagerung und Layer-Eigenschaften
 
 In diesem Beispiel erstellen wir zufällig blinkende Streifen und nutzen
 die globale Steuerung, um Einstellungen für den gesamten Effekt
@@ -554,8 +548,7 @@ Animation. Ebenso kann man mit den Steuerungen für <strong>X</strong>, <strong>
 wahlweise für den <Keys.SoftKey>Layer</Keys.SoftKey> oder den gesamten <Keys.SoftKey>Effekt</Keys.SoftKey>, schnell Anpassungen
 vornehmen.
 
-Spawn und Pre-Spool -- 'Aufspreizen' und 'Vorspulen'
-----------------------------------------------------
+## Spawn und Pre-Spool -- 'Aufspreizen' und 'Vorspulen'
 
 Der Regisseur hätte gern viele sich drehende kleine Ungeheuer auf dem
 LED-Backdrop, die noch dazu pulsieren. Sie haben vielleicht keine

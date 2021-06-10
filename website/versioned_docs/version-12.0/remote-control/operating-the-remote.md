@@ -22,8 +22,7 @@ middle of the app. The Keypad button enables or disables the numeric pad
 (the keypad overlays all the other screens, so you will need to turn it
 off to see the others).
 
-Keypad
-------
+## Keypad
 
 The keypad screen lets you do most common tasks in the way a
 programmer\'s remote normally works. You can turn on/Locate fixtures and
@@ -51,8 +50,7 @@ button, for example:
 
 &nbsp;<strong>`1 Thro 10 And 20 Thro 30 @ 6`</strong>.
 
-Controlling Fixtures
---------------------
+## Controlling Fixtures
 
 The fixture screen allows you to select fixtures exactly as you would on
 the console.
@@ -87,8 +85,7 @@ button to kill or release an active playback.
 
 > If you update the legends of palettes or cues on the console while the remote is running, the legends on the remote will not be updated. <Keys.HardKey>Exit</Keys.HardKey> and restart the remote app to show legend changes made on the console.
 
-Recording groups and palettes
------------------------------
+## Recording groups and palettes
 
 You can record groups and palettes using the <strong>Rec</strong> button on the remote,
 then click a workspace button as normal. You can also hold down an empty

@@ -22,8 +22,7 @@ für weitere Details zu den verschiedenen Fenstern.
 Man kann auch die Workspaces per [Set List](../running-the-show/set-list-window.md) 
  passend zum jeweiligen Song umschalten.
 
-Das Menü View
--------------
+## Das Menü View
 
 Durch Betätigen der Taste <Keys.HardKey>View / Open</Keys.HardKey> gelangt man in das Menü
 'View' (Ansicht). Hier lässt sich einstellen, was auf dem Touchscreen

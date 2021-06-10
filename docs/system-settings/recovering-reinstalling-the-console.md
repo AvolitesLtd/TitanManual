@@ -30,8 +30,7 @@ found with the recovery creator on the [Avolites website](https://www.avolites.c
 the variety and age of your console there are a number of different
 methods required. The basic procedure is as follows:
 
-Installation Instructions
--------------------------
+## Installation Instructions
 
 1. **If recovering a version earlier than v11.1**, you will need to set the console to boot from USB *(see instructions on the [Avolites website](https://www.avolites.com/software/),
 which vary depending on your console)*
@@ -60,8 +59,7 @@ required to run. This takes approximately 30 minutes to complete during
 which the console will reboot a number of times. Please do not switch
 off the console during this process.
 
-Software Licensing
-------------------
+## Software Licensing
 
 From v12, the software is licensed using an AvoKey USB device.
 

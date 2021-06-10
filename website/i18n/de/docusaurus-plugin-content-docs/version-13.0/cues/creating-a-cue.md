@@ -8,8 +8,7 @@ original_id: creating-a-cue
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Arbeitsweise des Pultes beim Programmieren
-------------------------------------------
+## Arbeitsweise des Pultes beim Programmieren
 Sobald ein oder mehrere Dimmer/Geräte zum Steuern ausgewählt werden,
 werden diese in den <strong><em>Editor</em></strong> geladen. Nun lassen sich mit den [Encodern (Wheels)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern) und
 [Paletten](../palettes.md) die Einstellungen der Geräte verändern; ebenso lassen sich
@@ -42,8 +41,7 @@ Programmierspeicher übernommen *(das lässt sich jedoch durch die
 [Include-Function](editing-cues.md#cues-wiederverwenden---die-include-funktion) erreichen)*.
 
 
-Anlegen eines Cues
-------------------
+## Anlegen eines Cues
 
 <Video videoId="X5g6DMVwlZU" title="Creating a Cue" />
 
@@ -100,8 +98,7 @@ Schaltflächen im Fenster 'Playbacks' gespeichert werden.
     Macro-/Exekutor-Tasten sowie - auf dem Tiger Touch - der 10 festen
     Fader.
 
-Quick Build -- Cues schnellspeichern
-------------------------------------
+## Quick Build -- Cues schnellspeichern
 
 Stellt man <Keys.SoftKey>Record Mode</Keys.SoftKey> auf <strong>Quick Build</strong>, so lassen sich Cues aus
 bereits programmierten Cues und Paletten erstellen (wie auch per
@@ -117,8 +114,7 @@ das Playback/die Palette.
 Drücken Sie <Keys.SoftKey>OK</Keys.SoftKey>, wenn alle erforderlichen Playbacks/Paletten
 aufgerufen wurden.
 
-Verwenden von Shapes und Effekten in Cues
-----------------------------
+## Verwenden von Shapes und Effekten in Cues
 
 Erwartungsgemäß werden auch sämtliche aktivierten [Shapes und Pixel-Effekte](../effects.md)
 als Teil des Cues abgespeichert. 
@@ -130,8 +126,7 @@ Kombinationsmöglichkeiten. Zum Speichern eines solchen Cues nutzen Sie
 den Modus <strong>Record by Channel</strong> sowie die ['Off'-Funktion](editing-cues.md#deaktivieren-von-attributen-in-cues-mit-off), um die anderen
 Attribute aus dem Programmierspeicher zu entfernen.
 
-Blind-Modus
------------
+## Blind-Modus
 
 Im Blind-Modus lassen sich Änderungen an der Programmierung vornehmen,
 ohne dabei die aktuellen Ausgangssignale zu verändern; damit lassen sich
@@ -156,8 +151,7 @@ Paletten auf einmal abgerufen werden; oder Sie bereiten Blind einen
 neuen Look vor und rufen diesen ab, ohne erst einen Cue programmieren zu
 müssen.
 
-Attribut-Speichermaske bei Cues
--------------------------------
+## Attribut-Speichermaske bei Cues
 
 Beim Speichern von Cues lässt sich eine Maske erstellen, mit der die zu
 speichernden Attribute festgelegt werden. Dies funktioniert genauso wie 
@@ -165,8 +159,7 @@ beim [Speichern von Paletten](../palettes/creating-palettes.md#speichern-einer-p
 Drücken Sie <Keys.HardKey>Record</Keys.HardKey> und wählen die Option <Keys.SoftKey>Set Mask</Keys.SoftKey>. Wählen Sie 
 nun die zu speichernden Attribute mit den Attribut-Tasten.
 
-Cues zu Chasern/Cuelisten umwandeln
------------------------------------
+## Cues zu Chasern/Cuelisten umwandeln
 
 Bestehende Cues lassen sich ganz einfach zu [Chasern](../chases.md) oder
 [Cuelisten](../cue-lists.md) umwandeln, indem man einen weiteren Cue 

@@ -149,8 +149,7 @@ button size back to one of the automatic sizes, which allows you to swap
 between auto and fixed button size modes.
 
 
-Saving Workspace Layouts
------------------------
+## Saving Workspace Layouts
 
 You can save workspace layouts, allowing you to reconfigure either all the windows on one
 screen, or all the windows on all the screens, at the touch of a button.

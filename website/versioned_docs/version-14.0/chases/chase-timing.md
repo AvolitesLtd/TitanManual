@@ -8,8 +8,7 @@ original_id: chase-timing
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Global Timings for Chases
--------------------------
+## Global Timings for Chases
 
 When a chase is first programmed, each cue in the chase has identical
 timing. This is called the global timing for the chase. If you want you
@@ -48,8 +47,7 @@ Fixture overlap creates an effect where the fixtures in the cue are changed in
 sequence rather than all at the same time. This is described in more detail in
 [Cue Timing](../cues/cue-timing.md#fade-times-and-fixture-overlap).
 
-Individual Cue Times in Chases
-------------------------------
+## Individual Cue Times in Chases
 
 You can configure each cue in a chase to have its own timing
 information. You can use the Playback View window, or the Unfold

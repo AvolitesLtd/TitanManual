@@ -15,8 +15,7 @@ Laptop laufen.
 
 <Video videoId="vwr1DBJjBbw" title="PioneerDJ Integration" />
 
-Titan und das Pioneer-System verbinden
---------------------------------------
+## Titan und das Pioneer-System verbinden
 
 Titan und das Pioneer-System müssen sich im gleichen Netzwerk befinden.
 Die Pioneer-Geräte gestatten keine explizite Netzwerk-Konfiguration. Es
@@ -75,8 +74,7 @@ Ist alles richtig eingerichtet und verbunden, so zeigt die
 Bridge-Software grüne Symbole sowohl für das Pult als auch das/die
 Pioneer-Geräte.
 
-Das PioneerDJ-Fenster
----------------------
+## Das PioneerDJ-Fenster
 
 Geöffnet wird das Fenster über <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> (Fenster
 öffnen), <Keys.SoftKey>PioneerDJ</Keys.SoftKey>.
@@ -113,8 +111,7 @@ Track-Details und Statusleiste).
 		kann durch Anklicken der Tracknummer im Detail-Bereich (unten) gewählt
 		werden. 
 
-BPM-Master per Pioneer DJ triggern
-----------------------------------
+## BPM-Master per Pioneer DJ triggern
 
 Dazu muss zunächst ein [BPM Master](../running-the-show/playback-controls.md#bpm-master-options) 
 definiert werden. Für diesen kann dann wie folgt PioneerDJ als Trigger

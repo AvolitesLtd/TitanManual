@@ -8,8 +8,7 @@ original_id: editing-cues
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Editieren eines Cues durch Verschmelzen (Merge)
------------------------------------------------
+## Editieren eines Cues durch Verschmelzen (Merge)
 
 Jeder Cue lässt sich ganz einfach ändern, indem man die Änderungen
 vornimmt, und die neuen Einstellungen mit in den gleichen Cue speichert.
@@ -48,8 +47,7 @@ unveränderte Werte bleiben erhalten.
 -   Sie können auch die <strong>Swop-Taste</strong> ein zweites Mal betätigen, um die
     Option <strong>Merge</strong> anzuwenden (schneller als die Schaltfläche <Keys.SoftKey>Merge</Keys.SoftKey>)
 
-Aktualisieren gespeicherter Werte und Paletten
-----------------------------------------------
+## Aktualisieren gespeicherter Werte und Paletten
 
 Muss ein Cue oder eine im Cue verwendete Palette während der Show
 verändert werden *(wenn z.B. der Grün-Ton nicht exakt die gewünschte
@@ -88,8 +86,7 @@ In diesem Fall bestätigen Sie die Auswahl mit <Keys.HardKey>Enter</Keys.HardKey
 -   Wird ein Attribut durch eine andere Palette überschrieben, wird
     stattdessen die neue Palette gespeichert.
 
-Anzeige der Cues: Playback View und Cue View
---------------------------------------------
+## Anzeige der Cues: Playback View und Cue View
 
 Zum Anzeigen der Zeiteinstellungen des Cues klicken Sie auf das Display
 oberhalb der Regler, oder Sie drücken <Keys.HardKey>View / Open</Keys.HardKey> und dann
@@ -191,8 +188,7 @@ und klicken auf <Keys.SoftKey>Remove Fixtures</Keys.SoftKey>.
 
 Sämtliche Änderungen werden sofort wirksam.
 
-Cues wiederverwenden - die 'Include'-Funktion
----------------------------------------------
+## Cues wiederverwenden - die 'Include'-Funktion
 
 Mit der 'Include'-Funktion lassen sich ausgewählte Teile eines Cues
 zurück in den Programmierspeicher laden (normalerweise werden nur
@@ -248,8 +244,7 @@ der gleichen Geräte oder ab Schritt 1 für weitere Geräte.
     Attribute erstellen; betätigen Sie dazu eine oder mehrere
     Attributtasten vor der Anwahl des gewünschten Cues.
 
-Deaktivieren von Attributen in Cues mit "Off"
----------------------------------------------
+## Deaktivieren von Attributen in Cues mit "Off"
 
 <Video videoId="p7Ffz4e4tws" title="Off" />
 

@@ -27,8 +27,7 @@ audio triggering. The motherboard "line in" socket can't be used for audio trigg
 
 GPIO trigger is available on Arena, Tiger Touch II and Sapphire Touch.
 
-Connecting External Trigger Sources
----------------------------------
+## Connecting External Trigger Sources
 
 Audio input is connected to the dedicated audio in jack (not the line in
 jack on the motherboard) -- see information box above for consoles which provide this.
@@ -52,8 +51,7 @@ sACN is connected using the normal Ethernet connection on the console.
 -	You can link a networked PioneerDJ system to Titan to automate BPM masters; this is described 
 	[in the next section](./linking-pioneerdj-system-to-titan.md). This replaces the old “Pro DJ Tap” function.
 
-Setting up External Triggering
-----------------------------
+## Setting up External Triggering
 
 Go to the <strong>System</strong> menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and select <Keys.SoftKey>Triggers</Keys.SoftKey>. The Triggers window will
 open.
@@ -172,8 +170,7 @@ the right.
 
 8. Repeat from <strong>step 3</strong> to add the other 9 playback faders.
 
-MIDI Show Control
------------------
+## MIDI Show Control
 
 The following MIDI Show Control messages are supported:
 
@@ -195,8 +192,7 @@ MIDI show control devices are identified by a device ID. To set Titan's
 device ID select <Keys.SoftKey>User Settings</Keys.SoftKey> from the <strong>System</strong> menu, then go to the
 <Keys.SoftKey>Timecode</Keys.SoftKey> tab. The default setting is 0.
 
-Audio Control (Sound to Light)
-------------------------------
+## Audio Control (Sound to Light)
 
 On supported consoles the audio input is divided into frequency bands
 which can be used to provide the trigger. The <Keys.SoftKey>Band</Keys.SoftKey> option selects

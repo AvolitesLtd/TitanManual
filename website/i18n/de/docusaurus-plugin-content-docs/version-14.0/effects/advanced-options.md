@@ -8,8 +8,7 @@ original_id: advanced-options
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Shapes im Fadermodus
---------------------
+## Shapes im Fadermodus
 
 Ist ein Shape [in einem Cue gespeichert](shape-generator.md#verwenden-von-shapes-in-cues), 
 so lässt sich die Art und Weise, wie der Shape eingeblendet wird, mit <Keys.SoftKey>Edit Times</Keys.SoftKey> 

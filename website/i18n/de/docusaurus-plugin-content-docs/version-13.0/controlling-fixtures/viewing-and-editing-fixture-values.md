@@ -8,8 +8,7 @@ original_id: viewing-and-editing-fixture-values
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Übersicht über die Kanäle: Das 'Channel Grid'-Fenster
------------------------------------------------------
+## Übersicht über die Kanäle: Das 'Channel Grid'-Fenster
 
 Zuweilen ist es sinnvoll, die genauen Einstellungen jedes Gerätes
 einzeln anzeigen und ändern zu können. Das 'Channel Grid'-Fenster
@@ -52,8 +51,7 @@ Die Anzeige lässt sich über die Schaltflächen oben links weiter filtern:
 entweder mit den Buttons IPCGBES für die einzelnen Attribute, oder mit
 den Buttons darunter nach Gerätetyp.
 
-Das Fenster "Intensity"
------------------------
+## Das Fenster "Intensity"
 
 Um einen raschen Überblick über die momentan aktiven Scheinwerfer zu
 gewinnen, dient das Fenster „Intensity" (die Intensity-Ansicht). Um

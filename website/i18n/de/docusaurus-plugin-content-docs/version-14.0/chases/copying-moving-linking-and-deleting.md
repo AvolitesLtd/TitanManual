@@ -8,8 +8,7 @@ original_id: copying-moving-linking-and-deleting
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Einen Chaser verschieben oder kopieren
---------------------------------------
+## Einen Chaser verschieben oder kopieren
 
 Mit den Tasten <Keys.HardKey>Copy</Keys.HardKey> und <Keys.HardKey>Move</Keys.HardKey> können Chaser 
 kopiert oder auf einen anderen Speicherplatz verschoben
@@ -25,14 +24,12 @@ Das Vorgehen ist das gleiche wie beim Kopieren/Verschieben/Verknüpfen
 von Cues, und ist in Abschnitt 
 [Kopieren, verschieben, verlinken, löschen von Cues](../cues/copying-moving-linking-and-deleting.md) genau beschrieben.
 
-Löschen eines Chasers
----------------------
+## Löschen eines Chasers
 
 Zum Löschen eines kompletten Chasers drücken Sie <Keys.HardKey>Delete</Keys.HardKey>, dann die
 &nbsp;<strong>Auswahltaste</strong> des Chasers. Drücken Sie diese zur Bestätigung nochmals.
 
-Löschen eines Schrittes aus einem Chaser
-----------------------------------------
+## Löschen eines Schrittes aus einem Chaser
 
 Um einen einzelnen Schritt zu löschen:
 

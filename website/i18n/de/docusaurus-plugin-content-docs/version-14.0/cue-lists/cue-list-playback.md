@@ -8,8 +8,7 @@ original_id: cue-list-playback
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Abrufen einer Cueliste
-----------------------
+## Abrufen einer Cueliste
 
 Stellen Sie den Regler der Cueliste auf den gewünschten Wert und drücken
 die <Keys.HardKey>Go</Keys.HardKey>-Taste, um den ersten Schritt zu starten. Unten im Display
@@ -105,8 +104,7 @@ genauer eingestellt und geändert werden (klicken Sie dazu auf das kleine
     geben Sie die Nummer des neuen Cues ein, drücken <Keys.HardKey>Connect / Cue</Keys.HardKey>, geben
     die gewünschte Zeit ein und drücken <Keys.HardKey>Go</Keys.HardKey>
 
-Eine Cueliste deaktivieren
---------------------------
+## Eine Cueliste deaktivieren
 
 Sobald eine Cueliste gestartet wurde, bleibt sie aktiv, bis sie explizit
 deaktiviert wird. Dazu halten Sie die <Keys.HardKey>AVO</Keys.HardKey>-Taste gedrückt und
@@ -123,8 +121,7 @@ Release-Funktion belegen.
 
 > Solange eine Cueliste aktiv ist, laufen darin programmierte Shapes und Effekte weiter - auch, wenn der Fader auf 0 steht. Stellen Sie also unerfindliche Bewegungen/Effekte fest, so überprüfen Sie, ob alle Cuelisten auch wieder deaktiviert wurden.
 
-Tracking
---------
+## Tracking
 
 <Video videoId="B2fTri0G2-A" title="Tracking in Cuelists" />
 
@@ -153,8 +150,7 @@ Einstellung | Wirkung
 <Keys.SoftKey>Solo</Keys.SoftKey> | Dieser Cue unterliegt überhaupt nicht dem Tracking und verändert auch nicht nachfolgende Cues; Informationen aus vorherigen Cues werden unverändert an nachfolgende weitergegeben.
 <Keys.SoftKey>Block Shapes</Keys.SoftKey> | Sämtliche Shapes von vorherigen Cues werden geblockt, alle anderen Attribute werden normal getrackt. Damit wird sichergestellt, dass alle Shapes stoppen.
 
-Move In Dark (MID) - Funktionen
--------------------------------
+## Move In Dark (MID) - Funktionen
 
 Insbesondere bei der Verwendung von Movinglights im Theater
 möchte man diese meist 'im Off' vorbereiten, also positionieren,
@@ -195,8 +191,7 @@ anderweitig die Intensität nicht auf 0 ist - wird MID zum
 nächstmöglichen Zeitpunkt nach diesem Cue ausgeführt.
 
 
-Tastenprofile für Cuelisten
----------------------------
+## Tastenprofile für Cuelisten
 
 Mit [Tastenprofilen/Key Profiles](../system-settings/key-profiles.md), lassen sich der blauen und grauen Taste *(das Sapphire Touch verfügt auch über eine schwarze 
 Taste)* sowie der Schaltfläche einer Cueliste (wenn sie im Fenster 'Playbacks' 

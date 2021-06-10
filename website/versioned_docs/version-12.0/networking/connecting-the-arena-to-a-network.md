@@ -13,8 +13,7 @@ has a built-in network switch and an optical network connection
 (optionally 2 optical connections). **This section applies only to the
 Arena console.**
 
-Optical Connections
--------------------
+## Optical Connections
 
 The optical network connector is a Neutrik opticalCON Duo which uses
 multimode fibre. A single connector is fitted as standard, but a second
@@ -23,8 +22,7 @@ into the Avolites TitanNet Switch (TNS) rack unit which provides
 standard wired Ethernet connections. If you want to connect to a
 different optical switch you should contact Avolites for advice.
 
-Wired Ethernet Outputs
-----------------------
+## Wired Ethernet Outputs
 
 The Arena console has an in-built 1 Gb TitanNet switch (TNS) that is
 directly connected to the console Main board on network connection 1.
@@ -41,8 +39,7 @@ address. When the controller IP address is set, the network switch will
 use the next one (for example controller `10.19.0.50`, network switch
 becomes `10.19.0.51`)
 
-Changing the IP address of the Titan Network Switch (TNS)
----------------------------------------------------
+## Changing the IP address of the Titan Network Switch (TNS)
 
 The controller and network switch IP address do not need to be changed
 unless they overlap other devices on the network. The factory default is
@@ -61,8 +58,7 @@ To change the IP address of the TNS in the console:
 
 ![USB Expert Tools - TNS Panel - IP Address Dialog](/docs/images/USB-Expert-Tools-TNS-Panel-IP-Address-Dialog.png)
 
-Power and UPS behaviour 
------------------------
+## Power and UPS behaviour 
 
 The TitanNet switch in the console runs from the same UPS as the console
 itself, so if power fails the switch will continue working.

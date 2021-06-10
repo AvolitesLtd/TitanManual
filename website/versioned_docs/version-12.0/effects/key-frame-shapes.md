@@ -12,8 +12,7 @@ Key frame shapes allow you to create your own shape sequences. You store
 a series of attribute settings as key frames and the shape fades between
 them.
 
-Creating a Key Frame Shape
---------------------------
+## Creating a Key Frame Shape
 
 [Video covering recording a key frame shape](https://youtu.be/1nvLaipivhM?t=20)
 
@@ -74,8 +73,7 @@ below)
     locate dimmer <strong>"sun"</strong> button at the bottom will light up fixtures used
     in the shape.
 
-Changing Shape Parameters in the Effect Editor
-----------------------------------------------
+## Changing Shape Parameters in the Effect Editor
 
 Once you have finished creating a key frame shape it will be shown in
 the Effect Editor window.
@@ -218,8 +216,7 @@ Pixel map effects will be shown at the top of the shape list on
 the left, you can use the <strong>eye</strong> icon to hide the pixel map effect when you
 want to work on the key frame shapes.
 
-Saving a Key Frame Shape to a Cue
----------------------------------
+## Saving a Key Frame Shape to a Cue
 
 By default when a key frame shape is saved to a cue, the playback fader
 will fade the shape. If the playback is set to have 

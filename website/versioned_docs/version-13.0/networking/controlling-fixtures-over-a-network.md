@@ -11,8 +11,7 @@ import Video from '@site/src/components/video.tsx';
 Before the console can talk to another device over the network, it has
 to be given a unique network address. This is called its "IP address".
 
-Setting the console's IP address
---------------------------------
+## Setting the console's IP address
 
 We recommend that you use the console's automatic IP setting function.
 However, if you need to you can also set the IP address using Windows
@@ -35,16 +34,14 @@ Control Panel as shown on page 345.
 
 -   If you need a non-standard IP address range you can use softkey A.
 
-Setting up DMX outputs
-----------------------
+## Setting up DMX outputs
 
 The console has 64 DMX output lines, of which the console itself can
 output 16, with further lines available using networked DMX processing
 nodes. The T1 dongle is limited to one DMX line, T2 to two DMX lines The
 lines may be routed to physical DMX sockets and/or to [network nodes](../networking/controlling-fixtures-over-a-network.md).
 
-A simple Art-Net system
------------------------
+## A simple Art-Net system
 
 There are various different systems for sending lighting control
 information over a network. One of the most widely supported is Art-Net.
@@ -100,8 +97,7 @@ Here, the console assigns the following:
 
 ![Art Net Explanation Nodes to DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.jpeg)
 
-Setting up an Art-Net system
-----------------------------
+## Setting up an Art-Net system
 
 For this example, it is assumed that you will connect the console to an
 Art-Net DMX output box (such as an Artistic License Net-Lynx) via a
@@ -191,8 +187,7 @@ button.
     properly so the console doesn't known if it is an input or output
     device.
 
-Additional Art-Net Resources
-----------------------------
+## Additional Art-Net Resources
 
 To find out more information about Art-Net please refer to the Art-Net
 Standard published by [Artistic Licence](http://www.artisticlicence.com).

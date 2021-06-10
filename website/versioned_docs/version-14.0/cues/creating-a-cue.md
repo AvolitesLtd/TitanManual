@@ -8,8 +8,7 @@ original_id: creating-a-cue
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-How Titan Works When Programming
---------------------------------
+## How Titan Works When Programming
 
 When you select one or more dimmers or fixtures for control, they are
 loaded into the <strong>Programmer</strong>. You can then use the 
@@ -48,8 +47,7 @@ cue *(although the Include function lets you do this, see
 [Using Parts of Existing Cues - the Include Function](editing-cues.md#using-parts-of-existing-cues-the-include-function). 
 You can also use Record Stage mode to record what you see on stage*).
 
-Creating a Cue
---------------
+## Creating a Cue
 
 <Video videoId="X5g6DMVwlZU" title="Creating a Cue" />
 
@@ -106,8 +104,7 @@ Other useful things to know about recording cues:
     the macro/executor buttons and (on the Tiger Touch) the 10 static
     playback faders.
 
-Quick Build Cues
-----------------
+## Quick Build Cues
 
 Setting <Keys.SoftKey>Record Mode</Keys.SoftKey> to <strong>Quick Build</strong> allows you to build a cue from
 existing playbacks or palettes (you can also use the
@@ -123,8 +120,7 @@ fixtures first and then select the palette or playback.
 Press <Keys.SoftKey>OK</Keys.SoftKey> once you have selected all the playbacks or palettes
 required.
 
-Using Shapes/Effects in Cues
-----------------------------
+## Using Shapes/Effects in Cues
 
 As you would expect, any [shapes or Pixel Mapper effects](../effects.md) you have set up
 will be saved as part of the cue.
@@ -136,8 +132,7 @@ the settings in that cue. When recording the cue, use <strong>Record by Channel<
 mode or use the ["Off" function](editing-cues.md#removing-attributes-from-cues-using-off)
 to remove the other attributes from the programmer.
 
-Blind Mode
-----------
+## Blind Mode
 
 Blind mode allows you to program cues without affecting the current look
 on the stage. This can be very useful for making changes during a live
@@ -158,8 +153,7 @@ time number then pressing <Keys.HardKey>Blind</Keys.HardKey>. This allows you to
 palettes together, or create a live state to be output without needing
 to save it to a cue.
 
-Recording Cue with a Mask
--------------------------
+## Recording Cue with a Mask
 
 You can set a mask when recording a cue so that only certain attributes
 are recorded, the same as you can when
@@ -171,8 +165,7 @@ the mask will automatically be cleared after this record operation. This
 is good to stop you accidentally leaving the mask set and causing havoc
 with future cues.
 
-Convert Cue to Chase or Cue List
---------------------------------
+## Convert Cue to Chase or Cue List
 
 If you want to convert an existing cue into [chase](../chases.md) or 
 [cue list](../cue-lists.md) by adding

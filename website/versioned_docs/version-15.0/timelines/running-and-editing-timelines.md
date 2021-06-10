@@ -7,8 +7,7 @@ sidebar_label: Running and Editing Timelines
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Running a timeline to timecode
-------------------
+## Running a timeline to timecode
 
 The HTP (intensity) of fixtures in the timeline is controlled by the fader level of the handle. The console will automatically fire the timeline playback to full when timecode is received within the range of the timeline settings.
 
@@ -33,8 +32,7 @@ You can disable the automatic activation, or set it to fire at zero intensity, u
 You can test a timeline without running the timecode source by setting the **timecode link** button to **Unlinked**. You can then use the Play/Pause/Rewind buttons
 in the Timeline View window to run the timeline sequence. This can be useful when you don't have control of the timecode source.                  
 
-Timeline Editing
---------------------------
+## Timeline Editing
  
 ### Selecting triggers
 

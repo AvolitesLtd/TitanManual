@@ -8,8 +8,7 @@ original_id: pixel-mapper
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Creating Pixel Mapper effects
------------------------------
+## Creating Pixel Mapper effects
 
 [Video guide showing how pixel mapping works](https://youtu.be/UchvGw2vvU8?t=20)
 
@@ -221,8 +220,7 @@ left to set these parameters:
     what will happen at the end (<strong>Freeze</strong>, <strong>Kill</strong> or <strong>Stop Spawning</strong>). <strong>Run For</strong>
     defaults to <strong>"Forever"</strong>.
 
-Pixel Mapper Layer Masters
---------------------------
+## Pixel Mapper Layer Masters
 
 You can assign each of the four layers to a master. The master allows
 you to adjust the layer controls in real time. When the master is

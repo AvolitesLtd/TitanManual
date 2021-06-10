@@ -11,8 +11,7 @@ import Video from '@site/src/components/video.tsx';
 Before the console can talk to another device over the network, it has
 to be given a unique network address. This is called its "IP address".
 
-Setting the console's IP address
---------------------------------
+## Setting the console's IP address
 
 We recommend that you use the console's automatic IP setting function.
 However, if you need to you can also set a manual IP address. See [Setting your IP address](a-quick-guide-to-ip-addressing.md#setting-your-ip-address) for
@@ -40,8 +39,7 @@ details of how IP addressing works.
 -   If you need an address range other than 2.\*.\*.\* or 10.\*.\*.\*
 	you can press <Keys.SoftKey>IP Address = ... </Keys.SoftKey> and enter the address with the numeric keypad.
 
-Setting up DMX outputs
-----------------------
+## Setting up DMX outputs
 
 The console has 64 DMX output lines, of which the console itself can
 output 16, with further lines available using networked DMX processing
@@ -56,8 +54,7 @@ universe 2 and so on, but there are times (for example if using a house rig
 with a touring show) when you might need to allocate the lines differently.
 
 
-Example of a simple Art-Net system
------------------------
+## Example of a simple Art-Net system
 
 There are two main systems for sending lighting control
 information over a network, Art-Net and sACN. Titan supports both; in this
@@ -128,8 +125,7 @@ the fixtures on the second output will be on addresses 3.001 - 3.512.
     properly so the console doesn't known if it is an input or output
     device.
 
-Additional Art-Net Resources
-----------------------------
+## Additional Art-Net Resources
 
 To find out more information about Art-Net please refer to the Art-Net
 Standard published by [Artistic Licence](http://www.artisticlicence.com).

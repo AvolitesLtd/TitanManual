@@ -7,8 +7,7 @@ sidebar_label: Chase Playback
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Playing Back a Chase
---------------------
+## Playing Back a Chase
 
 To fire a chase, raise the fader of the playback. *(You can also use the pushbuttons
 to **Flash** or **Swop** the chase)*. The chase will start to run. The bottom line of the
@@ -34,8 +33,7 @@ the wheels. Press <Keys.HardKey>Go</Keys.HardKey> to resume playback.
 There are [many options](chase-options.md) you can set to determine the way the chase runs
 and these are described in the rest of this chapter.
 
-Connecting a Playback for Control
-------------------------------
+## Connecting a Playback for Control
 
 When you fire a chase or a cue list, the wheels and <Keys.HardKey>Stop</Keys.HardKey>/<Keys.HardKey>Go</Keys.HardKey> buttons are automatically
 allocated to control the playback - this is
@@ -62,8 +60,7 @@ you can choose which one is connected to the controls using the <Keys.HardKey>Co
 
 > Normally if you change the speed or crossfade of a chase on the wheels, the new setting is saved. However you can set this change to be temporary, so that when the show is reloaded the speed and fade will go back to the previously saved settings. Go to [User Settings](../system-settings/user-settings.md) (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>User Settings</Keys.SoftKey>), in the Times tab set the option **[Connected View Sets](../system-settings/user-settings.md#connected-view-sets)** to **Temporary Speed**. You can still save a temporary speed by pressing <Keys.SoftKey>Save Temporary Speed</Keys.SoftKey> in the Set Times menu.
 
-Setting Speed and Crossfade for a Chase
----------------------------------------
+## Setting Speed and Crossfade for a Chase
 
 The left wheel is assigned to control the speed of the chase it is
 connected to. The speed is shown in Beats Per Minute (BPM) on the
@@ -105,8 +102,7 @@ to the chase which will allow you
 to modify the chase speed during playback, see
 [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters).
 
-Manually Controlling the Steps of a Chase
------------------------------------------
+## Manually Controlling the Steps of a Chase
 
 You can pause a chase, if the chase is connected to the wheels, by
 pressing the <Keys.HardKey>Stop</Keys.HardKey> button next to the wheels. Press the red <Keys.HardKey>Go</Keys.HardKey> button
@@ -128,16 +124,14 @@ will be prompted to add a new profile.
 4. Select <Keys.SoftKey>Go</Keys.SoftKey> or <Keys.SoftKey>Stop</Keys.SoftKey> from the list of functions. Then press <Keys.HardKey>Exit</Keys.HardKey> and set the function for the other key if required.
 5. Press <Keys.HardKey>Exit</Keys.HardKey> to continue using the console.
 
-Changing Chase Direction
-------------------------
+## Changing Chase Direction
 
 The <Keys.HardKey>Prev Step</Keys.HardKey>/<Keys.HardKey>Next Step</Keys.HardKey> (← and → on some consoles) buttons next
 to <Keys.HardKey>Connect/Cue</Keys.HardKey> set the direction of the connected chase. *If fitted*, the
 ↔ double-ended arrow button sets **bounce** mode where the chase will run to
 the end then reverse. The <Keys.HardKey>Review</Keys.HardKey> key sets the chase to **random**.
 
-Jumping to a Step
------------------
+## Jumping to a Step
 
 You can jump directly to a step in a chase by pressing <Keys.HardKey>Connect/Cue</Keys.HardKey>, then
 typing in the desired step number, then pressing <Keys.HardKey>Enter</Keys.HardKey> or softkey A.

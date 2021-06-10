@@ -8,8 +8,7 @@ original_id: fixture-groups
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Using Fixture Groups
---------------------
+## Using Fixture Groups
 
 You can create groups of fixtures or dimmer channels, which can then be
 quickly selected together by pressing a single button or typing the
@@ -112,8 +111,7 @@ example, <Keys.SoftKey>4 BB4</Keys.SoftKey>.) This function can be turned off us
 Groups</Keys.SoftKey> in the User Settings.
 
 
-Fixture Order and Fixture Layout in Groups
-------------------------------------------
+## Fixture Order and Fixture Layout in Groups
 
 Fixtures in a group are stored with a selection order, which is used
 with Shapes, Fan, and Overlap. You can also store a 2D position layout

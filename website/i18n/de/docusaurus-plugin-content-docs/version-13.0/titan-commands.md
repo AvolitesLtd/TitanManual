@@ -34,8 +34,7 @@ diese sind hier aufgeführt:
   Connect    |  Cue
   SET        |  TIME
 
-Fixtures - Geräte
------------------
+## Fixtures - Geräte
 
 Tastenfolge 										| Resultat
 ---													| --- 
@@ -64,8 +63,7 @@ n <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>Through</Keys.HardKey>									| 
 n <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>Through</Keys.HardKey> i								| Zellen 1 bis i des Geräts n
 n <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>Through</Keys.HardKey> i<Keys.HardKey>.</Keys.HardKey>j							| Zellen 1 bis j der Geräte n bis i
 
-Select If -- Bedingte Auswahl
------------------------------
+## Select If -- Bedingte Auswahl
 
 Tastenfolge 										| Resultat
 ---													| --- 
@@ -73,8 +71,7 @@ Tastenfolge 										| Resultat
 <Keys.HardKey>Select If</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Through</Keys.HardKey> 50					| Alle Geräte mit Dimmer >50%.
 <Keys.HardKey>Select If</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> 50 <Keys.HardKey>Through</Keys.HardKey>					| Alle Geräte mit Dimmer <50%.
 
-Record -- Speichern
--------------------
+## Record -- Speichern
 
 
 <Keys.HardKey>Record</Keys.HardKey> &#123;Cueliste&#125; &#123;Cueliste&#125; Anhängen an das Ende der Cueliste
@@ -96,8 +93,7 @@ Mergen des Programmers (nur Position) in den gerade aktiven Cue.
 &nbsp;<strong><Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Options</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey></strong>\
 Mergen des Programmers (nur Position) in den gerade aktiven Cue.
 ---
-Copy, Move -- Kopieren, Verschieben in Cuelisten
-------------------------------------------------
+## Copy, Move -- Kopieren, Verschieben in Cuelisten
 
 ---
 &nbsp;<strong><Keys.HardKey>Copy</Keys.HardKey> &#123;Cueliste&#125; n <Keys.HardKey>Enter</Keys.HardKey></strong>\
@@ -126,21 +122,18 @@ Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
 playback&#125;.
 ---
 
-Delete -- Löschen
------------------
+## Delete -- Löschen
 
 &nbsp;<strong><Keys.HardKey>Delete</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> n</strong>\
 Cue n der gerade verbundenen Cueliste löschen.
 
-Include --  in den Speicher laden
----------------------------------
+## Include --  in den Speicher laden
 
 &nbsp;<strong><Keys.HardKey>Include</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> n</strong>\
 Cue n der gerade verbundenen Cueliste in den Programmierspeicher
 laden.
 
-Times -- Zeiten
----------------
+## Times -- Zeiten
 
 &nbsp;<strong><Keys.HardKey>Time</Keys.HardKey> 5</strong>\
 5 Sekunden Einfadezeit.
@@ -167,8 +160,7 @@ der ausgewählten Geräte.
 &nbsp;<strong><Keys.HardKey>Time</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 10</strong>\
 Fadezeit nach Geräteauswahl aufgeteilt.
 
-Cue Lists -- Cuelisten
-----------------------
+## Cue Lists -- Cuelisten
 
 &nbsp;<strong><Keys.HardKey>Cue</Keys.HardKey> n <Keys.HardKey>Go</Keys.HardKey></strong>\
 Direktes Starten von Cue n (in der aktuell verbundenen Cueliste).

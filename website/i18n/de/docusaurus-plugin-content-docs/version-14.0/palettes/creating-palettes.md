@@ -8,8 +8,7 @@ original_id: creating-palettes
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Attribute zum Speichern in Paletten
------------------------------------
+## Attribute zum Speichern in Paletten
 
 Obwohl ein Paletteneintrag mehrere oder alle Attribute eines Geräts
 beinhalten kann, ist es deutlich einfacher, mit getrennten Paletten zu
@@ -52,8 +51,7 @@ kann festgelegt werden, dass auch beim Schnellspeichern Paletten immer
 als <strong>Shared</strong> oder <strong>Normal</strong> erstellt werden, auch wenn das Pult sie 
 sonst als globale Palette speichern würde.
 
-Speichern einer Palette
------------------------
+## Speichern einer Palette
 
 <Video videoId="Hs-xzpD5x8k" title="Recording Palettes" />
 
@@ -179,8 +177,7 @@ Workspace-Button <Keys.SoftKey>Groups and Palettes</Keys.SoftKey>)*:
 	Diese Automatik lässt sich mit der [Benutzereinstellung](../system-settings/user-settings.md) <strong>[Minimum Palette Mode](../system-settings/user-settings.md#minimum-palette-mode)</strong>
 	überschreiben bzw. deaktivieren.
 
-Nested palettes -- Verknüpfte Paletten
---------------------------------------
+## Nested palettes -- Verknüpfte Paletten
 
 Paletten können Bezüge auf andere Paletten enthalten. So kann z.B. eine
 Palette 'odd/even' erstellt werden, bei der die ungeraden Geräte eine
@@ -210,8 +207,7 @@ Dies kann beim Updaten der verknüpften Paletten sinnvoll sein.
 
 -	Der vorige Zustand lässt sich wieder herstellen, indem man die Option <Keys.SoftKey>Fire Nested Palettes</Keys.SoftKey> wieder aktiviert.
 
-Schnellspeichern
-----------------
+## Schnellspeichern
 
 In den Paletten-Fenstern gibt es ebenso eine Schnellspeicher-Funktion.
 Dazu betätigen Sie einfach die gewünschte Schaltfläche - diese wird
@@ -234,8 +230,7 @@ Schnellspeichern funktioniert auch bei Gruppen und Arbeitsumgebungen
 > Wird eine Show geladen, die auf einem <strong>Pearl Expert</strong> programmiert wurde, so lassen sich die dort auf die Tasten programmierten Paletten über das Fenster <strong>Groups and Palettes</strong> erreichen, siehe
 [Compatibility windows -- Die Kompatibilitäts-Fenster](../titan-basics/workspace-windows.md#compatibility-windows----die-kompatibilitäts-fenster).
 
-Paletten beschriften und bemalen
---------------------------------
+## Paletten beschriften und bemalen
 
 Für jede Palette lässt sich eine Beschriftung vergeben, die auf der
 Paletten-Schaltfläche angezeigt wird.
@@ -278,8 +273,7 @@ Kategorien (links) eingeteilt.
 
 ![Setting legend of palette using Icon Library](/docs/images/Setting-legend-of-palette-using-Icon-Library.png)
 
-Erstellen einer Effekt-Palette
-------------------------------
+## Erstellen einer Effekt-Palette
 
 Paletten mit [Shapes oder Pixelmapper-Effekten](../effects.md) können 
 sehr praktisch sein. (Keyframe-Shapes können allerdings nicht in 
@@ -317,8 +311,7 @@ keine anderen Attributwerte in den Programmierspeicher zu schreiben.
 Effekt-Paletten lassen sich nicht als <strong>[Quick Palette](using-palettes.md#quick-palettes----schnelle-paletten-ohne-ausgewählte-geräte)</strong> verwenden. Es müssen immer Fixtures angewählt sein, um eine 
 Effekt-Palette anzuwenden.
 
-Erstellen einer Palette mit Zeiten
----------------------------------
+## Erstellen einer Palette mit Zeiten
 
 Es lassen sich Paletten erstellen, die ausschließlich <strong>Zeiten</strong>, aber keine
 Werte enthalten. Dies ist sinnvoll beim Speichern von Cues oder bei

@@ -27,8 +27,7 @@ links to the current page. Pressing the Play button <Keys.SoftKey>></Keys.SoftKe
 will automatically select the correct playback page (except on Pearl
 Expert, because the rollers cannot be moved automatically).
 
-Creating a Set List
--------------------
+## Creating a Set List
 
 To create a Set List, click the <Keys.ContextKey>+</Keys.ContextKey> button *in the top right corner* of
 the window. You can choose **Empty**, **Pages**, and **Build**: 
@@ -38,8 +37,7 @@ the window. You can choose **Empty**, **Pages**, and **Build**:
 -   Empty: your start with an empty list and can manually add tracks 
     using the <Keys.ContextKey>+</Keys.ContextKey> button *below the track list*.
 
-Configuring Tracks
-------------------
+## Configuring Tracks
 
 Enter notes by selecting a track and clicking the text entry button,
 bottom right, or the Edit Note context menu button.
@@ -61,8 +59,7 @@ bottom right, or the Edit Note context menu button.
 -   You can change the legend of the Set List or of individual tracks
     using the <Keys.SoftKey>Set Legend</Keys.SoftKey> option.
 
-Track Workspace and Macro links
--------------------------------
+## Track Workspace and Macro links
 
 You can trigger macros and workspace shortcuts from tracks using the <Keys.SoftKey>Workspace</Keys.SoftKey> and <Keys.SoftKey>Macro</Keys.SoftKey> buttons in the bottom right hand corner of
 the window.
@@ -86,8 +83,7 @@ You can fire the macro or Workspace shortcut by clicking on the link
 button. Delete the button by pressing <Keys.HardKey>Delete</Keys.HardKey> then clicking the button,
 then press <Keys.SoftKey>Remove</Keys.SoftKey>.
 
-Playback Control Macros
------------------------
+## Playback Control Macros
 
 [Key Macros](../titan-basics/front-panel-buttons.md#key-macro-buttons)
 allow you to record a sequence of actions on the console then

@@ -7,8 +7,7 @@ sidebar_label: Setting up the Rig
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Setting up the Stage and Rigging
---------------------------------
+## Setting up the Stage and Rigging
 
 To help you see what your rig will really look like you can add fixed
 elements of staging and rigging.
@@ -27,8 +26,7 @@ angle the object using the controls on the right. You can either type
 exact numbers by clicking on the buttons down the right hand side or use
 the sliders. You can set a legend and colour for each object.
 
-Setting up Fixtures
--------------------
+## Setting up Fixtures
 
 Fixtures are automatically placed into the visualiser when they are
 patched if the Auto Update switch in the [Capture Settings](#setting-up-the-stage-and-rigging) **"Show"** tab
@@ -85,8 +83,7 @@ selected, the fixtures rotate as a group about the middle fixture.
 
 >It's easier to see what position fixtures are in if you change the tilt angle so they aren't pointing straight down (or up). It's always useful if you can have an actual fixture of each type connected to help you get them pointing the right way, but you can change this later if not.
 
-Setting up Cameras (Views)
---------------------------
+## Setting up Cameras (Views)
 
 Four cameras (selectable views) are provided by default but you can add
 more.
@@ -127,8 +124,7 @@ Press the <Keys.ContextKey>Rotate Camera</Keys.ContextKey> or <Keys.ContextKey>O
 camera rotation or orbit to the wheels and allow numeric entry on the
 softkeys.
 
-Capture Appearance options
---------------------------
+## Capture Appearance options
 
 The Appearance tab of the [Settings window](#setting-up-the-stage-and-rigging) allows you to set the
 following parameters:

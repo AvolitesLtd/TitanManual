@@ -8,8 +8,7 @@ original_id: other-parts-of-the-touch-screen
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-The Menu/Softkeys
------------------
+## The Menu/Softkeys
 
 (Except Pearl Expert, which has a dedicated display for the menu)
 
@@ -58,13 +57,11 @@ The appearance of the softkeys varies to indicate the type of actions
 available:
 
   ![Softkey](/docs/images/Softkey-Action.png)                                                                                             
-
-----------------
+## 
 
   Action button: console will carry out the action shown                                     Option button: cycles through a range of options   New menu button: jumps to a new menu   Text entry button: press and enter text using the touch keyboard
 
-The toolbar
------------
+## The toolbar
 
 On all consoles except Sapphire Touch, across the very top of the screen
 is the toolbar.
@@ -125,8 +122,7 @@ keyboard.
 
 > Toolbars are not provided on Titan Mobile or Titan Go as all these functions can be carried out using standard Windows operations.
 
-The Heads-Up Display (HUD)
---------------------------
+## The Heads-Up Display (HUD)
 
 The HUD window shows details of what's stored in all the handles (faders
 and buttons) on the console.
@@ -136,8 +132,7 @@ blue if selected.
 
 ![HUD](/docs/images/HUD.png)
 
-Visualiser
-----------
+## Visualiser
 
 ![Visualiser](/docs/images/Capture-Visualiser-Workspace-Window.png)
 
@@ -147,8 +142,7 @@ The [visualiser](../capture-visualiser.md) gives you a realistic view of the sta
 pre-program or make changes to your show at home or in your hotel. It
 can also be used in Blind mode for programming during a show.
 
-Undo/Redo
----------
+## Undo/Redo
 
 A short list of recent actions is shown in the prompt area to the left
 of the menu.

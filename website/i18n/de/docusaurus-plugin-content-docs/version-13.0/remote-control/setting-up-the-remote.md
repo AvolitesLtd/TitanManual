@@ -23,8 +23,7 @@ Daten nicht zwischen Remote und Pult, sondern ins Internet geroutet
 werden. Entfernen Sie in diesem Fall testweise den Router aus dem
 Netzwerk.
 
-Verwenden eines vorhandenen Netzwerks
--------------------------------------
+## Verwenden eines vorhandenen Netzwerks
 
 Verwenden Sie ein bereits vorhandenes Netzwerk, so ist in diesem
 möglicherweise bereits die automatische Adressvergabe aktiviert (DHCP);
@@ -36,8 +35,7 @@ sicher, dass diese in das vorhandene Netzwerk passt; ggf. halten Sie
 dazu *Rücksprache mit dem Netzwerk-Administrator*. Weitere Informationen
 dazu siehe [Einrichtung des Netzwerkbetriebs](../networking.md).
 
-Netzwerkeinrichtung mit einem Access Point
-------------------------------------------
+## Netzwerkeinrichtung mit einem Access Point
 
 Exemplarisch wird hier der Aufbau mit einem Access Point beschrieben;
 sollen Sie Fragen zu dessen Einrichtung haben, so konsultieren Sie die

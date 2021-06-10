@@ -15,8 +15,7 @@ sind. Dabei geht es mit <Keys.SoftKey>Exit</Keys.SoftKey> stets zurück in das v
 
 ![TNP Home Screen](/docs/images/TNP-Home-Screen.png)
 
-Setup
------
+## Setup
 
 Im Setup-Menü lassen sich die IP-Adressen sowie generelle Eigenschaften
 des Nodes einstellen (<Keys.SoftKey>Network Settings</Keys.SoftKey> bzw. <Keys.SoftKey>Node Settings</Keys.SoftKey> anklicken).
@@ -43,8 +42,7 @@ die Identifizierung deutlich vereinfacht.
 
 ![TNP - Setup - Node Settings - Node Line Colour Screen](/docs/images/TNP-Setup-Node-Settings-Node-Line-Colour-Screen.png)
 
-Lock -- den TNP sperren
------------------------
+## Lock -- den TNP sperren
 
 Klickt man auf <Keys.SoftKey>Lock</Keys.SoftKey>, so kann auf einem Ziffernblock ein Code
 eingegeben werden, mit dem das Gerät gesperrt wird. Zum Entsperren muss
@@ -52,8 +50,7 @@ der gleiche Code wieder eingegeben werden.
 
 ![TNP Lock Screen](/docs/images/TNP-Lock-Screen.png)
 
-Tools
------
+## Tools
 
 Derzeit gibt es nur einen Eintrag im Tools-Menü: den <strong>Monitor</strong>. Dieser
 erlaubt eine Übersicht über die aktuelle Auslastung des TNPs. Dabei kann

@@ -8,8 +8,7 @@ original_id: patching-new-fixtures-or-dimmers
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Gerätetasten und -buttons
--------------------------
+## Gerätetasten und -buttons
 
 Um Movinglights oder Dimmer steuern zu können, müssen diese
 zunächst einer Schaltfläche oder Taste zugewiesen werden. Gepatcht
@@ -37,8 +36,7 @@ beschrieben.
 
 Sobald Geräte gepatcht wurden, können die Details in der [Patch-Übersicht](./changing-the-patch.md#patch-view) angezeigt und geändert werden.
 
-Patchen von Dimmern
--------------------
+## Patchen von Dimmern
 
 Jede Gerätetaste kann einen oder mehrere Dimmer steuern. Die Zuordnung
 (das Patchen) erfolgt entweder über das Patch-Menü (s.u.) oder über das
@@ -95,8 +93,7 @@ so leuchtet die jeweilige LED schwach auf, um die Belegung anzuzeigen.
     Schaltfläche und ändern das Patching der kopierten auf die
     gewünschte Adresse.
 
-Patchen von Movinglights
-------------------------
+## Patchen von Movinglights
 
 Bewegungsscheinwerfer (intelligente Scheinwerfer) sind etwas
 komplizierter zu patchen als Dimmer, da hier mehr Funktionen pro Gerät
@@ -209,8 +206,7 @@ patchen. Die DMX-Adresse wird dabei automatisch hochgezählt.
     man überprüfen kann, das richtige Modell gewählt zu haben.\
     ![Fixture Mode](/docs/images/Fixture-Mode.png)
 
-Automatisches Patchen in Capture
---------------------------------
+## Automatisches Patchen in Capture
 
 Um den Capture Visualiser zu benutzen, drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, 
 dann <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>, dann <Keys.SoftKey>Visualiser</Keys.SoftKey>. Einige
@@ -235,8 +231,7 @@ Capture-Steuerung entsprechend anpassen, siehe [Steuerung des Visualisers](../ca
 	Patch sowohl vom Pult zu Capture als auch in umgekehrter Richtung 
 	übertragen und automatisch synchronisiert.
 
-Geräte mit mehreren Zellen (Sub-Fixtures)
------------------------------------------
+## Geräte mit mehreren Zellen (Sub-Fixtures)
 
 Manche Geräte haben mehrere identische, unabhängig voneinander
 steuerbare Bereiche (etwa manche RGB-LED-Blinder). Um nun nicht jede
@@ -259,8 +254,7 @@ wählen <Keys.SoftKey>Exit Unfold</Keys.SoftKey>.
 
 > Sub-Fixtures werden in der jeweiligen Personality definiert. Sollte also einmal ein Gerät nicht wie gewünscht arbeiten, laden Sie die aktuelle Personality-Bibliothek von Avolites herunter.
 
-Aktive Geräte/Medienserver
---------------------------
+## Aktive Geräte/Medienserver
 
 Zur Verwendung von Ai Medienservern sei auf den Abschnitt [Synergy](../synergy.md) 
 für weitere Details zu Synergy verwiesen, dem neuen System direkter
@@ -277,8 +271,7 @@ erhält eine Liste aller im Netzwerk gefundenen Medienserver mit ihren
 Layern. Jeder Layer kann nun separat wie ein Movinglight gepatcht
 werden.
 
-Patchen mit Hilfe von RDM
--------------------------
+## Patchen mit Hilfe von RDM
 
 RDM (Remote Device Management) ist ein System, mit dem die verwendeten
 Geräte automatisch ihre jeweilige Adresse und ihren Betriebsmodus an das
@@ -310,8 +303,7 @@ aktualisieren.
 -   Mit der Taste <Keys.SoftKey>RDM Quick Patch</Keys.SoftKey> aus dem Kontextmenü lassen sich
     die per RDM gefundenen Geräte automatisch patchen.
 
-Geräte suchen und finden
-------------------------
+## Geräte suchen und finden
 
 Mitunter ist ein Gerät falsch adressiert oder mit der falschen DMX-Linie
 verbunden.

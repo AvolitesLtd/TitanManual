@@ -8,8 +8,7 @@ original_id: editing-palettes
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Viewing and Editing the Content of Palettes
--------------------------------------------
+## Viewing and Editing the Content of Palettes
 
 You can view the contents of a palette in the <strong>Palette View window</strong>. This
 lists all fixtures in the palette and the attribute values stored for
@@ -47,8 +46,7 @@ pressing the <Keys.SoftKey>Off</Keys.SoftKey> softkey or <Keys.HardKey>Off</Keys
     option <Keys.SoftKey>View Effects</Keys.SoftKey> will open the <strong>Effect View window</strong> to let you
     edit the effect.
 
-Changing the Content of Palettes
---------------------------------
+## Changing the Content of Palettes
 
 To edit a palette entry, press <Keys.HardKey>Edit</Keys.HardKey> (<Keys.HardKey>Update Palette</Keys.HardKey> on Pearl
 Expert and Tiger Touch 1), then select the palette to edit. For Normal
@@ -98,8 +96,7 @@ When double clicking a palette button to update, the default option is
     programmer contents will be restored and the programmer will be left
     in the same state as when you started editing the palette.
 
-Updating Palettes Used in a Playback
-------------------------------------
+## Updating Palettes Used in a Playback
 
 If you need to quickly update a palette during a show, for example you
 fire a green cue and the Green palette used turns out to be not quite

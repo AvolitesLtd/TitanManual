@@ -8,8 +8,7 @@ original_id: cue-list-playback
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Running a Cue List
-------------------
+## Running a Cue List
 
 Raise the fader of the cue list and press the <strong>Go button</strong> to run the first
 cue. The bottom section of the display shows the cue list; the current
@@ -85,8 +84,7 @@ the options/cog icon at the top of the window).
     different time by typing the cue number then press <Keys.HardKey>Connect</Keys.HardKey>, then
     type the time and press <Keys.HardKey>Go</Keys.HardKey>.
 
-Killing a Cue List
-------------------
+## Killing a Cue List
 
 Once a cue list is fired, it remains active until you kill it. You do
 this by holding down the <Keys.HardKey>Avo</Keys.HardKey> button and pressing the blue Select
@@ -102,8 +100,7 @@ release the cue list.
 
 > While the cue list remains active, any shapes/effects stored in the current cue will run even if the fader is at zero. If you are working with a cue list and have unexplained shapes occurring, check all cue lists have been killed.
 
-Tracking
---------
+## Tracking
 
 [Video covering Tracking in Cue List](https://youtu.be/B2fTri0G2-A?t=20)
 
@@ -131,8 +128,7 @@ Setting | Action
 <Keys.SoftKey>Solo</Keys.SoftKey> | No states are tracked into or out of a solo cue. States from previous cues will track to subsequent cues but will not appear in the solo cue.
 <Keys.SoftKey>Block Shapes</Keys.SoftKey> | Any tracked shapes will stop from this cue. Other attributes will continue to be tracked. This lets you create a point where you can guarantee all shapes will stop.
 
-Move In Dark (MID) Functions
-----------------------------
+## Move In Dark (MID) Functions
 
 When using moving lights in theatre, often you would like them to be
 positioned ready for the next cue so that you do not see them moving.
@@ -173,8 +169,7 @@ If the fixture has its intensity above zero or Move In Dark is
 inhibited when the Move In Dark is supposed to occur, the console
 will attempt the movement in the nearest suitable cue instead.
 
-Key Profile Options for Cue Lists
----------------------------------
+## Key Profile Options for Cue Lists
 
 Using [Key Profiles](../system-settings/key-profiles.md), you can assign different functions to the blue and
 grey buttons of the playback handle. (*The Sapphire Touch also has a

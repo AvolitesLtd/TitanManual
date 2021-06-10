@@ -8,8 +8,7 @@ original_id: advanced-options
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Die ML-Menü-Taste
------------------
+## Die ML-Menü-Taste
 
 Wenn sich das Pult im Hauptmenü befindet, kann man mit dieser Taste das
 'Moving Light Actions'-Menü (mit Funktionen für intelligente
@@ -25,8 +24,7 @@ Sie <Keys.HardKey>Exit</Keys.HardKey>, um zum Hauptmenü zurückzukehren, damit 
 Light Menu' aufrufen können. Auf neueren Pulten gibt es eigens eine
 Taste <Keys.HardKey>Menu Latch</Keys.HardKey>.
 
-Geräte ein- und ausschalten
----------------------------
+## Geräte ein- und ausschalten
 
 Viele Geräte haben einen gesonderten Steuerkanal, mit dem man Funktionen
 wie 'Brenner an', 'Brenner aus', ‚Reset' etc. aufrufen kann.

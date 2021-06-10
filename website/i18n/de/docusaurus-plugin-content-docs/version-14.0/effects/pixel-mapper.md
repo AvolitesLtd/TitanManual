@@ -8,8 +8,7 @@ original_id: pixel-mapper
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Matrix-Effekte mit dem Pixelmapper erstellen
---------------------------------------------
+## Matrix-Effekte mit dem Pixelmapper erstellen
 
 <Video videoId="UchvGw2vvU8" title="Pixel Mapping" />
 
@@ -228,8 +227,7 @@ Effekt-Namen:
 	oder <strong>Stop Spawning</strong> (keine neuen Kopien erzeugen)). Vorgabe 
 	für <strong>Run For</strong> ist 0, also unbegrenzt.
 
-Masterregler für Pixelmapper-Layer
-----------------------------------
+## Masterregler für Pixelmapper-Layer
 
 Jedem der vier Layer (Ebenen) des Pixelmappers kann ein Masterregler
 zugewiesen werden. Mit diesem kann der jeweilige Layer dann live
@@ -250,8 +248,7 @@ Die Masterregler für die Layer müssen im Effekt-Editor aktiviert werden
 
 <Video videoId="rCIIH2-DCNM" title="Advanced Pixel Mapping" />
 
-Pixelmapper-Effekte mit Mask FX stoppen
----------------------------------------
+## Pixelmapper-Effekte mit Mask FX stoppen
 
 Mit der <strong>Mask FX</strong>-Funktion lassen sich Playbacks programmieren, durch die 
 laufende Pixelmapper-Effekte auf einigen oder allen Geräten gestoppt werden.

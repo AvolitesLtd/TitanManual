@@ -22,14 +22,12 @@ einem Tastendruck am Backup-Pult die Kontrolle übernehmen.
 	laufen. Für die Titan PC-Suite (Simulator, Titan Go, Titan Mobile) 
 	kann es erforderlich sein, die Firewall zu deaktivieren.
 
-Pulte für den Mehrbenutzerbetrieb einrichten
---------------------------------------------
+## Pulte für den Mehrbenutzerbetrieb einrichten
 
 Mehrere Titan-Pulte können zum Mehrbenutzerbetrieb miteinander vernetzt
 werden, Details siehe [Mehrbenutzer-Betrieb](../titan-basics/multi-user-operation.md).
 
-Pulte für den Backup-Betrieb einrichten
----------------------------------------
+## Pulte für den Backup-Betrieb einrichten
 
 Jedes Titan-Pult kann als Backup für jedes andere Titan-Pult fungieren,
 es muss sich also nicht um das gleiche Modell handeln. So kann z.B. auch

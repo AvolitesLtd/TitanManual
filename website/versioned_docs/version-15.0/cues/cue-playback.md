@@ -11,8 +11,7 @@ Because it's possible to play back a large number of cues at the same
 time, the console has to have rules on how it combines the output from
 different cues. These are called **HTP** and **LTP** rules.
 
-Combining Cues with HTP and LTP
--------------------------------
+## Combining Cues with HTP and LTP
 
 Control channels are handled in two ways:
 
@@ -27,8 +26,7 @@ Control channels are handled in two ways:
  output. When you fade out a cue, LTP channels retain their values
  until changed by another cue.
 
-Playing Back a Cue
-------------------
+## Playing Back a Cue
 
 To fire (play back) a cue, raise the fader. (Make sure there are no
 values in the programmer by pressing the <Keys.HardKey>Clear</Keys.HardKey> button, because anything
@@ -76,8 +74,7 @@ in the programmer will override the playback).
  [Priority](playback-options.md#priority) in
  playback [Options](playback-options.md).
 
-Changing Playback Pages
------------------------
+## Changing Playback Pages
 
 The console allows multiple pages of playbacks. Page buttons are
 provided near the faders or you can also touch the top and bottom of the
@@ -143,8 +140,7 @@ with motorised faders this is <Keys.SoftKey>Never Hold</Keys.SoftKey>.
  see the macros, download and install the latest library. The same
  applies to the 10 static playback faders on the Tiger Touch.
 
-Viewing Active Playbacks
-------------------------
+## Viewing Active Playbacks
 
 The Active Playbacks window shows details of which playbacks are active.
 When you have a number of layered playbacks with different effects, this
@@ -159,8 +155,7 @@ Click on a playback to instantly **kill** it. You can also press <Keys.SoftKey>O
 followed by the playback in this window to change parameters
 of the playback.
 
-Speed and Size Masters
-----------------------
+## Speed and Size Masters
 
 Playbacks can be assigned to Speed and Size Masters which allow you to
 modify the speed and size of [shapes or effects](../effects.md) stored in a cue using a
@@ -176,8 +171,7 @@ Settings](playback-options.md#fader-tab) in playback [Options](playback-options.
 See [Speed and Size Masters](../running-the-show/playback-controls.md#speed-and-size-masters)
 for more details.
 
-Release
--------
+## Release
 
 Normally when you kill a playback by lowering the fader, the LTP attributes will be left in the last state set by the playback. Sometimes you don't want this, for example if you have a strobe cue, you don't want the strobing to carry on when you kill the cue. The **Release** function lets you set how attributes will return to their previous values.
 
@@ -198,8 +192,7 @@ Channels will always release with a fade time, this defaults to 2 seconds but yo
 -   You can **Release All** running playbacks by double pressing <Keys.HardKey>Release</Keys.HardKey>. The user setting [Release Priority](../system-settings/user-settings.md#release) sets which playback priority levels will be released. You can protect against unintended Release All by setting the Release Priority to Low - this would only release playbacks with Low priority, if you had any set up.
 
 
-Release Mask
-------------
+## Release Mask
 
 You can configure which attributes will release from a playback when it is killed using the **Release Mask**. There is a **Global**
 release mask which is the default setting, or you can set a **Local** release mask which overrides the global mask for a particular playback.
@@ -228,8 +221,7 @@ Press the Attribute Bank buttons to set a different mask - when you press the fi
 
 - You can type a release time on the keypad before you press <Keys.HardKey>Release</Keys.HardKey> to override the global release fade time.
 
-Other release operations
------------------------------------
+## Other release operations
 
 ### Releasing a page of playbacks
 
@@ -264,8 +256,7 @@ You can release a single attribute on a wheel from the programmer by pressing <K
 
 You can reset a master to default state by pressing <Keys.HardKey>Release</Keys.HardKey> then the **Select** button of the master. You can reset all masters to default state by pressing <Keys.HardKey>Release</Keys.HardKey> then <Keys.SoftKey>Release all Masters</Keys.SoftKey>. This will set the level of the master so that it has no effect (full for intensity masters, 100% for speed masters, and so on).
 
-Programming the Release / Power On State
-----------------------------------------
+## Programming the Release / Power On State
 
 You can program the state which fixtures will go to at power on, or when
 all playbacks are released. It can be useful to program this as a
@@ -286,8 +277,7 @@ individually as you have set it.
 
 >   To test, fire some playbacks, then release them by pressing <Keys.HardKey>Release</Keys.HardKey> followed by the select button of the playback. The fixtures should return to your programmed release state.
 
-Turning Off Individual Fixtures
--------------------------------
+## Turning Off Individual Fixtures
 
 You can turn off individual fixtures or certain attributes of them using
 the **Off** menu. The programmed values will remain in the playback but will
@@ -304,8 +294,7 @@ buttons, pressing <Keys.HardKey>Off</Keys.HardKey> followed by a playback will r
 is not what you want. On these select the softkey <Keys.SoftKey>Off Playback
 Values</Keys.SoftKey> then select the playback.
 
-Playback Groups
----------------
+## Playback Groups
 
 Playbacks can be assigned to groups. This allows you to create a set of playbacks which automatically switch off other playbacks in the same group. This can be useful when you have playbacks setting colours on executor buttons so only the most recent playback stays active, or to make life easier when busking so you don’t end up with lots of playbacks fired which have superseded each other.
 

@@ -13,8 +13,7 @@ device. Buttons across the top allow you to configure the device. The <Keys.Hard
 
 ![TNP Home Screen](/docs/images/TNP-Home-Screen.png)
 
-Setup
------
+## Setup
 
 The setup screen allows you to configure network port settings, and node
 settings for the overall device by tapping <Keys.SoftKey>Network Settings</Keys.SoftKey> or <Keys.SoftKey>Node
@@ -43,8 +42,7 @@ when you use the TitanNet overview on the console.
 
 ![TNP - Setup - Node Settings - Node Line Colour Screen](/docs/images/TNP-Setup-Node-Settings-Node-Line-Colour-Screen.png)
 
-Locking the TNP
----------------
+## Locking the TNP
 
 The Lock screen displays a keypad and asks you to enter a lock code.
 When the device is locked, the screen shows "Locked" and shows a keypad
@@ -52,8 +50,7 @@ to unlock.
 
 ![TNP Lock Screen](/docs/images/TNP-Lock-Screen.png)
 
-Tools
------
+## Tools
 
 Currently there is only one option on the Tools screen, "Monitor". This
 allows you to monitor the processing load of the device. You can select

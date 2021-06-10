@@ -12,8 +12,7 @@ Da eine Vielzahl von Cues/Chasern gleichzeitig abgerufen werden kann,
 folgt das Pult bestimmten Regeln zur Kombination der aufgerufenen Werte
 verschiedener Cues. Diese werden als <strong>HTP</strong>- und <strong>LTP</strong>-Regeln bezeichnet.
 
-HTP und LTP
------------
+## HTP und LTP
 
 Steuerkanäle können auf zwei Weisen verwaltet werden:
 
@@ -30,8 +29,7 @@ Steuerkanäle können auf zwei Weisen verwaltet werden:
     behalten LTP-Kanäle ihren Wert, bis dieser durch einen anderen Cue
     überschrieben wird.
 
-Abrufen eines Cues
-------------------
+## Abrufen eines Cues
 
 Zum Aufrufen eines Cues bewegen Sie den jeweiligen Regler (betätigen Sie
 die <Keys.HardKey>Clear</Keys.HardKey>-Taste, um sicherzustellen, dass sich keine Werte im
@@ -80,8 +78,7 @@ Programmierspeicher befinden, da diese ansonsten die Werte der Playbacks
     dem Rednerlicht-Playback eine höhere Priorität geben. Siehe [Priority](playback-options.md#priority) in
     [Options](playback-options.md).
 
-Wechsel der Playback-Seiten
----------------------------
+## Wechsel der Playback-Seiten
 
 Die Playback-Seiten lassen sich mit den Tasten 'Page+1' und 'Page-1' 
 neben den Fadern sowie mit dem obere und unteren Bereich der 
@@ -149,8 +146,7 @@ umgeschaltet werden:
     aktualisieren Sie zunächst die Personalities (und damit auch die
     Makros).
 
-Anzeigen der aktuell laufenden Playbacks
-------------------------
+## Anzeigen der aktuell laufenden Playbacks
 
 Im Fenster 'Active Playbacks' werden die aktuell laufenden Playbacks
 angezeigt. Insbesondere wenn mehrere Playbacks auf mehreren Seiten
@@ -166,8 +162,7 @@ Klickt man eine der Schaltflächen an, so wird das betreffende Playback
 sofort deaktiviert (<strong>gekillt</strong>). Betätigt man <Keys.SoftKey>Playback Options</Keys.SoftKey>, gefolgt von einer
 der Playback-Schaltflächen, so kann man die jeweiligen Parameter ändern.
 
-Master für Speed (Geschwindigkeit) und Size (Größe)
----------------------------------------------------
+## Master für Speed (Geschwindigkeit) und Size (Größe)
 
 Die einzelnen Playbacks lassen sich verschiedenen Speed- und
 Size-Masterreglern zuweisen; damit kann man das Tempo und die Größe von
@@ -182,8 +177,7 @@ eingestellt, siehe [Fader Settings](playback-options.md#playback-options----tab-
 
 Speed- und Size-Master sind detailliert beschrieben in [Speed and Size Masters](../running-the-show/playback-controls.md#speed--und-size-master).
 
-Freigeben (Release) laufender Playbacks
----------------------------------------
+## Freigeben (Release) laufender Playbacks
 
 Ein aktuell laufendes Playback lässt sich freigeben (<strong>releasen</strong>),
 indem man die Taste <Keys.HardKey>Release</Keys.HardKey> *(auf dem Pearl Expert: <Keys.HardKey>Off</Keys.HardKey>)* drückt,
@@ -214,8 +208,7 @@ eine individuelle Relese-Zeit zuweisen ([Tab "Release"](playback-options.md#play
     auf den im Cue gespeicherten Werten. *Insbesondere für Cues mit
     Strobes und Effekten wird man das gelegentlich ändern wollen*.
 
-Playbacks seitenweise releasen
-------------------------------
+## Playbacks seitenweise releasen
 
 Es können auch mehrere Playbacks auf einmal released werden. Drücken Sie
 dazu <Keys.HardKey>Release</Keys.HardKey> und <Keys.HardKey>Goto Page</Keys.HardKey>, oder <Keys.HardKey>Release</Keys.HardKey> und die aktuelle
@@ -239,8 +232,7 @@ Gruppe. Die 15 oberen sowie die 15 unteren Fader auf dem Tiger Touch
 Faderwing bzw. links auf dem Arena sind zwei weitere getrennte
 Fadergruppen.
 
-Release Mask (Release einzelner Attribute)
-------------------------------------------
+## Release Mask (Release einzelner Attribute)
 
 Mit der Release-Maske lassen sich einzelne Attribute, und Geräte
 releasen sowie Geräte aus Shapes entfernen. Es gibt eine globale
@@ -267,8 +259,7 @@ Dann wählen Sie <Keys.SoftKey>Release Mask</Keys.SoftKey>. Ist diese auf <Keys.
 eingestellt, so klicken Sie nochmals darauf; daraufhin wechselt die
 Anzeige zu <Keys.SoftKey>Mask Source Local</Keys.SoftKey>.
 
-Werte für Release / Power On programmieren
-------------------------------------------
+## Werte für Release / Power On programmieren
 
 Der Status, auf den die Lampen/Geräte beim Einschalten des Pultes
 gesetzt werden bzw. zu dem sie nach dem Releasen aller Playbacks
@@ -295,8 +286,7 @@ jeweils nur für das einzelne Gerät.
     (<Keys.HardKey>Release</Keys.HardKey> sowie die jeweiligen Playbacks). Die Geräte sollten auf
     die programmierten Release-Werte zurückkehren.
 
-Deaktivieren einzelner Geräte mit Off
--------------------------------------
+## Deaktivieren einzelner Geräte mit Off
 
 Einzelne Geräte und Attribute können über das <strong>Off</strong>-Menü deaktiviert werden.
 Damit bleiben die Werte zwar im Playback enthalten, werden aber nicht abgerufen.

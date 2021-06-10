@@ -91,26 +91,32 @@ function filenameToTitleLink(filename) {
 }
 
 /**
+ * Replaces the headings with lower level so the levels work correctly
+ * @param {string} content Contents of the .md file with YAML block in
+ * @return {string} The content with the headings replaced
+ */
+ function replaceHeadings(content) {
+  content = content.replace(/^### (.*)/gm,"#### $1");
+  content = content.replace(/^## (.*)/gm,"### $1");
+
+  return content;
+}
+
+/**
  * Replaces the YAML block in the file with a heading
  * @param {string} filename Name of the file, e.g. `cues/creating-a-cue.md`
  * @param {string} content Contents of the .md file with YAML block in
  * @return {string} The content with the YAML block replaced
  */
-function replaceYaml(filename,content) {
+function replaceYaml(filename,content,sectionHeading) {
   // matches Yaml block with title
   return content.replace(avoParse.regex.yamlBlockTitle,function (match,title) {
     titleLink = filenameToTitleLink(filename);
-    if (filename.match("/")) {
-      // sub page, e.g.:
-      // # Cues {#cues/creating-a-cue.md}
-      return `## ${title} {${titleLink}}`;
+    let sectionHeadingText = "";
+    if (!filename.match("/")) {
+      sectionHeadingText = `# ${sectionHeading}\n\n`
     }
-    else {
-      // heading page, e.g.:
-      // # {#cues.md}
-      // \part{Cues}
-      return `# ${title} {${titleLink}}`;
-    }
+    return `${sectionHeadingText}## ${title} {${titleLink}}`;
   });
 }
 
@@ -289,7 +295,7 @@ function formatMdFiles(docsPath, sidebar, version) {
       sectionFound = true;
       for(let page of docs[index].items) {
         page = page.id.replace(`version-${version}/`,"")
-      output += formatMd(docsPath,page+'.md',version);
+      output += formatMd(docsPath,page+'.md',version,sec);
       }
     }
   }
@@ -334,7 +340,7 @@ function resolvePageVersion(filename,version) {
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} The formatted MarkDown
  */
-function formatMd(docsPath,filename,version) {
+function formatMd(docsPath,filename,version,sectionHeading) {
   let filepath = resolvePageVersion(filename,version);
 
   if (!filepath) {
@@ -344,8 +350,11 @@ function formatMd(docsPath,filename,version) {
 
   let content = fs.readFileSync(filepath, 'utf-8');
 
+  // Replace the # headings with lower levels
+  content = replaceHeadings(content);
+
   // replace YAML blocks with title
-  content = replaceYaml(filename,content);
+  content = replaceYaml(filename,content,sectionHeading);
 
   // replace links to md files with the title links created above
   content = replaceLinks(filename,content,docsPath,version);

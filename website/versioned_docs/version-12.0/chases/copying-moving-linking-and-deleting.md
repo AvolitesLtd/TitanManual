@@ -8,8 +8,7 @@ original_id: copying-moving-linking-and-deleting
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Copying or moving a chase
--------------------------
+## Copying or moving a chase
 
 Chases can be copied or moved to a new playback, or you can create a
 linked copy of a playback. Move is useful for tidying up the console.
@@ -20,14 +19,12 @@ and playback options.
 This operation is exactly the same as for Cues and is described in
 [Copying, Moving, Linking and Deleting](../cues/copying-moving-linking-and-deleting.md).
 
-Deleting a chase
-----------------
+## Deleting a chase
 
 You can delete an entire chase by pressing <Keys.HardKey>Delete</Keys.HardKey> followed by the
 &nbsp;<strong>Swop</strong> button of the chase to delete. Press once more to confirm.
 
-Deleting a step from a chase
-----------------------------
+## Deleting a step from a chase
 
 To delete a single step from a chase:
 

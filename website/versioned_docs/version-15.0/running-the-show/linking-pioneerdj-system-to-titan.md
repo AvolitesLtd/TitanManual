@@ -19,8 +19,7 @@ bridge software on the console itself or on an intermediate laptop.
 
 <Video videoId="vwr1DBJjBbw" title="PioneerDJ Integration" />
 
-Connecting Titan to the Pioneer System
---------------------------------------
+## Connecting Titan to the Pioneer System
 
 You need to get the console and the Pioneer equipment connected to the same network. 
 The Pioneer equipment has some limitations with its network IP address - it either 
@@ -70,8 +69,7 @@ If you need two separate address ranges then your computer will need two network
 Once you have everything connected up and have got all the IP addresses right, the bridge 
 software should show connections for both the Titan console and the DJ mixer.
 
-Pioneer Workspace window
-------------------------
+## Pioneer Workspace window
 
 Open this window the usual way by double pressing <Keys.HardKey>Open/View</Keys.HardKey> and selecting  <Keys.SoftKey>PioneerDJ</Keys.SoftKey> from the window select buttons.
 
@@ -106,8 +104,7 @@ window will change to fill the space.
         shows the waveform of the master track. You can change the master track 
         by pressing the track number in the Track Details area.  
 
-Setting up BPM triggers from Pioneer
-------------------------------------
+## Setting up BPM triggers from Pioneer
 
 You will need a fader on the console configured as a BPM master which will be 
 automatically controlled by the track BPM playing on the Pioneer devices. See 

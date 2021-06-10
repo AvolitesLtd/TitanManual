@@ -8,8 +8,7 @@ original_id: creating-palettes
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Which Attributes are Stored in Palettes
----------------------------------------
+## Which Attributes are Stored in Palettes
 
 Although each palette entry could store all attributes of a fixture,
 it's easier to operate the console if you create some palettes which
@@ -52,8 +51,7 @@ closest fixed colour wheel colour to the selected mix colour.
 There is a [User Setting "Minimum Palette Mode"](../system-settings/user-settings.md#minimum-palette-mode)
 which can force the console to record palettes in <strong>Shared</strong> or <strong>Normal</strong> mode.
 
-Storing a Palette
------------------
+## Storing a Palette
 
 <Video videoId="Hs-xzpD5x8k" title="Recording Palettes" />
 
@@ -178,8 +176,7 @@ a palette number and press <Keys.SoftKey>Store</Keys.SoftKey>
     option in the [Palettes tab](../system-settings/user-settings.md#palettes) of
     [User Settings](../system-settings/user-settings.md).
 
-Nested Palettes
----------------
+## Nested Palettes
 
 Palettes can contain references from other palettes. For example an
 odd/even colour palette could be created using two other colour palettes
@@ -207,8 +204,7 @@ without changing the new palette.
 
 -	You can reinstate the link by switching the <Keys.SoftKey>Fire Nested Palettes</Keys.SoftKey> option on again.
 
-Quick Record
-------------
+## Quick Record
 
 The palette windows allow you to quickly record a new palette. Just
 touch the button where you want to record - the button will turn red
@@ -231,8 +227,7 @@ on the blue/grey preset buttons on the Pearl. See
 [Compatibility Windows for Pearl Expert Shows](../titan-basics/workspace-windows.md#compatibility-windows-for-pearl-expert-shows)
 for more details.
 
-Setting Legends for Palettes
-----------------------------
+## Setting Legends for Palettes
 
 You can enter a legend for each palette to tell you what it is. Titan
 will automatically create helpful legends when you create the palette.
@@ -272,8 +267,7 @@ which are listed on the left.
 
 ![Setting legend of palette using Icon Library](/docs/images/Setting-legend-of-palette-using-Icon-Library.png)
 
-Creating an Effects Palette (Shape or Pixel Mapper)
----------------------------------------------------
+## Creating an Effects Palette (Shape or Pixel Mapper)
 
 Speed up your programming by creating some palettes which apply [shapes
 or pixel mapping effects](../effects.md). You can't save a key frame shape to a palette.
@@ -312,8 +306,7 @@ You can't use an effects palette as a <strong>[Quick Palette](using-palettes.md#
 (when you recall a palette with no fixtures selected). You must have some
 fixtures selected when you recall an effects palette.
 
-Creating a Time Palette
------------------------
+## Creating a Time Palette
 
 You can create palettes which contain only <strong>time</strong> information. These can
 be used to set cue times and fixture attribute times without needing to

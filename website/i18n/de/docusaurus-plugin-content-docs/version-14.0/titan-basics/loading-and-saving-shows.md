@@ -22,8 +22,7 @@ empfiehlt es sich sehr, die Daten auch auf externen USB-Speicher
 Unvorhergesehenes mit dem Pult passiert, oder um die Show auf einem
 anderen Pult zu verwenden.
 
-Die Show speichern
-------------------
+## Die Show speichern
 
 Die aktuelle Show lässt sich jederzeit unter ihrem gegenwärtigen oder
 einem neuen Namen speichern. Wird die aktuelle Show unter ihrem
@@ -50,8 +49,7 @@ eine Show gleichen Namens existiert und überschrieben werden soll). Nun
 wird die Show gesichert.
 
 6.  Drücken Sie <Keys.HardKey>Exit</Keys.HardKey> oder <Keys.SoftKey>OK</Keys.SoftKey>, um den Modus 'Disk' zu verlassen.
-
-----
+## 
 
 -   Zum Speichern der Show unter einem neuen Namen wählen Sie die
     Funktion <Keys.SoftKey>Save As</Keys.SoftKey>.
@@ -62,15 +60,13 @@ wird die Show gesichert.
 
 -   Eine neue Version wird selbst dann gespeichert, wenn man den
     gleichen Namenszusatz wie vorher vergibt.
-
-----
+## 
 
 Beim Speichern auf der internen Festplatte werden die Daten in das
 Verzeichnis 'D:\\Shows' gespeichert. Bei der PC-Suite werden die
 Showdaten in 'Eigene Dokumente\\Titan\\Shows' gespeichert.
 
-Laden einer Show
-----------------
+## Laden einer Show
 
 Beim Einschalten/Starten wird automatisch die zuletzt geladene Show
 geladen.
@@ -114,8 +110,7 @@ vorhandenen DMX-Einstellungen übernommen oder die aus der Show verwendet
 werden sollen; damit wird die Zuordnung der internen Linien auf die
 DMX-Anschlüsse und Netzwerkgeräte bestimmt.
 
-Teile aus anderen Shows importieren
------------------------------------
+## Teile aus anderen Shows importieren
 
 Ist eine Show ähnlich einer früheren, so möchte man vielleicht Teile aus
 dieser in der neuen verwenden; so könnte man z.B. einige Paletten, die
@@ -183,8 +178,7 @@ Fenstern), auf die die importierten Teile gespeichert werden sollen.
 
 ---
 
-Autosave -- Automatisches Speichern
------------------------------------
+## Autosave -- Automatisches Speichern
 
 Die aktuelle Show wird durch das Pult beim Herunterfahren automatisch
 gespeichert. Ebenso erfolgt alle 30 Minuten eine automatische
@@ -197,8 +191,7 @@ anderweitig gespeicherte Shows im Show-Browser auswählen und aufrufen.
 
 > Früher gab es bei langsamer Hardware die Empfehlung, während der Show Autosave zu deaktivieren, damit es nicht zu Performance-Einbußen kam. Auf aktuellen Pulten und guter Hardware gilt dies nicht mehr: lassen Sie Autosave daher aus Sicherheitsgründenaktiviert.
 
-Recover -- Show Wiederherstellen
---------------------------------
+## Recover -- Show Wiederherstellen
 
 Wurde Titan nicht richtig beendet, etwa durch einen Stromausfall, und
 wird dann neu gestartet, so kann der letzte Stand meist nicht direkt
@@ -207,8 +200,7 @@ Show\], womit versucht wird, die frühere Show aus einem temporären
 Verzeichnis zu rekonstruieren. Außerdem werden auch Funktionen zum
 Starten einer neuen Show oder dem Laden einer anderen Show angeboten.
 
-Sichern existierender Shows auf USB-Sticks
-------------------------------------------
+## Sichern existierender Shows auf USB-Sticks
 
 Wollen Sie einfach eine Kopie der aktuellen Show anfertigen, so machen
 Sie das am besten mit der normalen Speicherfunktion ('Save'), und wählen

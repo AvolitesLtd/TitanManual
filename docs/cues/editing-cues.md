@@ -7,8 +7,7 @@ sidebar_label: Editing Cues
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Editing a Cue by Merging
-------------------------
+## Editing a Cue by Merging
 
 You can edit any part of a cue you have already saved simply by making
 the changes and saving the new information on top of the cue.
@@ -33,8 +32,7 @@ information is not affected.
     select the **"Merge"** option (quicker than selecting the softkey <Keys.SoftKey>Merge</Keys.SoftKey>
     option).
 
-Updating Stored Values and Palettes used in a Cue
--------------------------------------------------
+## Updating Stored Values and Palettes used in a Cue
 
 If during a show you need to quickly update a cue, or a palette used in
 a cue *(for example you fire a green cue and the fixtures turn out to be
@@ -69,8 +67,7 @@ the update.
 -   If you change an attribute using a different palette, the new
     palette will be stored instead.
 
-Playback and Cue View
----------------------
+## Playback and Cue View
 
 To see the current timings of the cue, touch the playbacks display for
 the fader, or press <Keys.HardKey>Open/View</Keys.HardKey> then the **Select** button of the playback
@@ -153,8 +150,7 @@ fixture then pressing the <Keys.SoftKey>Remove Fixtures</Keys.SoftKey> softkey.
 
 Any changes take immediate effect.
 
-Using Parts of Existing Cues - the Include Function
----------------------------------------------------
+## Using Parts of Existing Cues - the Include Function
 
 The Include function lets you load selected parts of a cue back into the
 programmer. (Normally, only manual changes to fixtures are put in the
@@ -200,8 +196,7 @@ will be loaded into the programmer.
     pressing one or more of the attribute bank buttons before you select
     the cue to include.
 
-Deactivate Attributes from Cues Using "Off"
--------------------------------------------
+## Deactivate Attributes from Cues Using "Off"
 
 <Video videoId="p7Ffz4e4tws" title="Off" />
 

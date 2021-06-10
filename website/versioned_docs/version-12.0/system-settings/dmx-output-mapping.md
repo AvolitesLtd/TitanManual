@@ -25,8 +25,7 @@ single console to 16, but performance of the console will be
 degraded. A warning will be shown in the processing load section of
 the TitanNet overview.
 
-Configuring DMX Outputs
------------------------
+## Configuring DMX Outputs
 
 Switch the console to [System mode](the-system-menu.md) and select <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
 
@@ -71,8 +70,7 @@ the tabs across the top of the screen.
  > When transferring shows between different console types, and especially when you have used the simulator, it's a good idea to check the DMX output settings to make sure the settings are what you expected. If you created a new show on the simulator, no outputs will be connected.
 
 
-Module Properties
------------------
+## Module Properties
 
 A module is a method of sending DMX (such as Art-Net, or sACN) and can be
 thought of as a collection of nodes.
@@ -146,8 +144,7 @@ this Ethernet adapter. If there are multiple adaptors in the system you
 can select more than one, and identical information will be sent out on
 each one.
 
-DMX Overview
-------------
+## DMX Overview
 
 If you select the DMX Overview tab at the top of the screen, you can see
 all the [TNPs](../titan-net.md) which are connected and which output lines they are
@@ -172,8 +169,7 @@ nodes which are no longer found on the TitanNet network, a screen will
 appear listing nodes in use and available nodes, giving you the option
 to reassign the lines.
 
-DMX Merge
----------
+## DMX Merge
 
 The DMX merge window allows you to set up where DMX will be output in a
 system where you have multiple consoles or processing nodes connected.

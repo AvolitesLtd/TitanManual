@@ -25,8 +25,7 @@ Gesamtzahl bis auf 64 erhöhen.
     der TitanNet-Übersicht wird daher bei der Anzeige der Rechenleistung
     eine Warnung angezeigt.
 
-Einrichten der DMX-Ausgänge
----------------------------
+## Einrichten der DMX-Ausgänge
 
 Schalten Sie das Pult in den [System-Modus](the-system-menu.md) (normalerweise mit
 <Keys.HardKey>Avo</Keys.HardKey>+<Keys.HardKey>Disk</Keys.HardKey>) und wählen im Menü <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
@@ -87,8 +86,7 @@ konfiguriert werden.
 	sind die DMX-Ausgänge nicht zugewiesen.
 
 
-Modul-Eigenschaften der DMX-Ausgabe
------------------------------------
+## Modul-Eigenschaften der DMX-Ausgabe
 
 Als Modul wird hier die Art der Ausgabe des DMX-Signals bezeichnet, also
 z.B. Art-Net oder sACN - jedes Modul kann mehrere Nodes haben.
@@ -166,8 +164,7 @@ Dies kann die Performance von Netzwerk und Pult negativ beeinflussen.
 Art-Net über diesen gesendet werden soll. Werden mehrere aktiviert, so
 wird das identische Signal parallel gesendet.
 
-DMX-Overview
-------------
+## DMX-Overview
 
 Schaltet man am oberen Rand auf den Tab 'DMX Overview' um, so werden
 sämtliche [TNPs](../titan-net.md) angezeigt, die momentan im Netzwerk verbunden sind.
@@ -195,8 +192,7 @@ enthält, die momentan nicht verbunden sind, so erscheint ein Bildschirm
 mit der genauen Aufstellung sowie der Möglichkeit, die einzelnen Linien
 anderen Ausgabeports zuzuordnen.
 
-DMX Merge
----------
+## DMX Merge
 
 Im Fenster "DMX Merge" kann man einstellen, wie in einem System mit
 mehreren Pulten oder Netzwerkknoten das Signal ausgegeben werden soll.

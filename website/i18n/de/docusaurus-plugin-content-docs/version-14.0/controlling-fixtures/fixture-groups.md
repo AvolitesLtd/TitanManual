@@ -8,8 +8,7 @@ original_id: fixture-groups
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Verwenden von Geräte-Gruppen
-----------------------------
+## Verwenden von Geräte-Gruppen
 
 Sie können Geräte zu Gruppen zusammenfassen, um mit einem einzigen Klick
 (im Fenster ‚Groups') die so zusammengefassten Geräte auszuwählen oder
@@ -129,8 +128,7 @@ werden, z.B. <Keys.SoftKey>4 BB4</Keys.SoftKey>. Diese Funktion kann mit der Ben
 	auch, wenn eine zu löschende Gruppe für den Pixelmapper verwendet 
 	wird. Dabei wird eine entsprechende Warnung angezeigt.
 
-Gerätereihenfolge und -anordnung in den Gruppen
-------------------------------------------------
+## Gerätereihenfolge und -anordnung in den Gruppen
 
 In den Gruppen werden nicht nur die ausgewählten Geräte, sondern auch
 deren Reihenfolge gespeichert, welche z.B. bei Shapes, beim Fan

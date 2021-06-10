@@ -22,8 +22,7 @@ steuernden Funktionen/Details wählen. Mit der Taste <Keys.SoftKey>Keypad</Keys.
 eine Tastatur eingeblendet; diese überlagert ggf. andere Schaltflächen. 
 Zum Ausblenden klicken Sie wieder auf <Keys.SoftKey>Keypad</Keys.SoftKey>.
 
-Keypad -- die Tastatursteuerung
--------------------------------
+## Keypad -- die Tastatursteuerung
 
 Mit der Tastatur lassen sich die häufigsten Aufgaben realisieren,
 die man mit einer Remote erledigen möchte. So lassen sich z.B. einzelne
@@ -52,8 +51,7 @@ werden, z.B.
 
 &nbsp;<strong>`1 Thro 10 And 20 Thro 30 @ 6 Enter`</strong>.
 
-Steuern von Geräten
--------------------
+## Steuern von Geräten
 
 Auf der Geräte-Ansicht (mit der Schaltfläche <Keys.SoftKey>Fixture</Keys.SoftKey>) können Sie
 genauso arbeiten wie auf dem Pult gewohnt: wählen Sie einfach die
@@ -96,8 +94,7 @@ angeklickt, so kann man diesen deaktivieren oder releasen (freigeben).
 	Remote nicht zur Verfügung. Um diese verwenden zu können, kopieren/verschieben 
 	sie die gewünschten Cues ins Playbacks-Fenster.
 
-Speichern von Gruppen und Paletten
-----------------------------------
+## Speichern von Gruppen und Paletten
 
 Mit der Remote lassen sich auch Gruppen und Paletten speichern: nehmen
 Sie die gewünschten Einstellungen vor, klicken Sie auf <Keys.SoftKey>Rec</Keys.SoftKey> und dann

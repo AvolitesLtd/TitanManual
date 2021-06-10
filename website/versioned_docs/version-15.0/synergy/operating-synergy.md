@@ -10,8 +10,7 @@ import Video from '@site/src/components/video.tsx';
 Once Titan and the Ai server(s) are [linked up](setting-up.md), you can start controlling
 Ai from the console.
 
-Uploading Content with the Media browser
-----------------------------------------
+## Uploading Content with the Media browser
 
 The Media Browser allows you to upload media content directly to the Ai
 server from the Titan console. You can also create new media banks on
@@ -61,8 +60,7 @@ are uploaded, any requiring transcoding are added to a queue in Ai. You
 can see the progress of the transcoding by viewing the clips in the
 [Attribute Editor](#attribute-editor-for-controlling-ai-layers), see below.
 
-Media Viewer
-------------
+## Media Viewer
 
 The Video Multi View window allows you to view any of the layers being
 produced by the Ai server, or any of the combined surface outputs. In
@@ -100,8 +98,7 @@ Format | Data Rate
 3840x2160p30 | 280Mbps
 3840x2160p60 | 480Mbps
 
-Attribute Editor for Controlling Ai Layers
-------------------------------------------
+## Attribute Editor for Controlling Ai Layers
 
 Once you have selected one or more Ai layers to control from the [Synergy
 Fixtures window](setting-up.md#synergy-fixtures-window), the Attribute Editor lets you play back and manipulate
@@ -148,8 +145,7 @@ fixture. So colour, zoom, position and so on can be stored in a
 palette and used to quickly modify the appearance of the media.
 [Palette fade times](../palettes/timing-with-palettes.md) will also operate as you would expect.
 
-Lightmap: Pixel Mapping Ai Media Content
-----------------------------------------
+## Lightmap: Pixel Mapping Ai Media Content
 
 Often you might want to output video content to lighting fixtures
 patched on the console (for example if you have LED screens with
@@ -181,8 +177,7 @@ fixture outputs.
 
 ![Pixel Mapped fixtures with Ai screen shown in Capture Visualiser](/docs/images/Pixel-Mapped-fixtures-with-Ai-screen-shown-in-Capture-Visualiser.png)
 
-Layout editor with Ai server
-----------------------------
+## Layout editor with Ai server
 
 The basic operation of the Layout Editor is described in [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
 
@@ -233,8 +228,7 @@ button until it shows <Keys.SoftKey>Fixture Scale</Keys.SoftKey>. If a multi-cel
 scaled down to minimum size, the cells will disappear and it will act as
 a single cell.
 
-Phase control of Key Frame Shapes from Ai
-----------------------------------------
+## Phase control of Key Frame Shapes from Ai
 
 You can control the phase of Key Frame Shapes using the intensity of a
 video layer from Ai. This allows you to create some weird and wonderful
@@ -248,8 +242,7 @@ to use as the video source.
 
 ![Phase Master using Ai screen in Key Frame Shape](/docs/images/Phase-Master-using-Ai-screen-in-Keyframe-Shape.png)
 
-Special function bank/clip numbers
-----------------------------------
+## Special function bank/clip numbers
 
 When selecting banks and clips in the attribute editor, some bank
 numbers have a special function which allows you to access other screens

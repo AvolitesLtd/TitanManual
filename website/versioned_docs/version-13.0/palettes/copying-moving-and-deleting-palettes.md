@@ -8,8 +8,7 @@ original_id: copying-moving-and-deleting-palettes
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Copying or Moving a Palette
----------------------------
+## Copying or Moving a Palette
 
 Using the <Keys.HardKey>Copy</Keys.HardKey> button you can make a copy of an existing palette or
 move it to a new button. You can copy or move multiple palettes in one
@@ -47,8 +46,7 @@ add more to the selection - hold down <Keys.HardKey>And</Keys.HardKey> to keep a
     This is useful when rearranging buttons on a page which is nearly
     full.
 
-Deleting Palettes
------------------
+## Deleting Palettes
 
 You can delete a palette entry by pressing <Keys.HardKey>Delete</Keys.HardKey>, then pressing the
 palette's button to be deleted. Press the palette button again to

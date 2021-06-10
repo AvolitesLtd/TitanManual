@@ -23,8 +23,7 @@ Geräte 'im Pult' zu haben, um evtl. auch von Fehlerbehebungen zu
 profitieren, sowie um schließlich auch neu hinzugekommene Möglichkeiten
 wie z.B. die Teilgeräte (Zellen, Subfixtures) nutzen zu können.
 
-Herunterladen der Personalities bei Avolites
---------------------------------------------
+## Herunterladen der Personalities bei Avolites
 
 Auf der [Website von Avolites](http://personalities.avolites.com) sind 
 sämtliche Geräte aufgeführt, für die es eine Avolites-Personality gibt. 
@@ -49,8 +48,7 @@ ist die entsprechende Spalte markiert.
 Ist eine geeignete Personality aufgeführt, so laden Sie die komplette
 Gerätebibliothek herunter und speichern Sie sie auf einem USB-Stick.
 
-Aktualisieren des Personality-Speichers des Pultes
---------------------------------------------------
+## Aktualisieren des Personality-Speichers des Pultes
 
 Laden Sie wie oben beschrieben die aktuelle Personality-Library herunter
 (durch Klick auf <strong>Titan Fixture Library</strong> auf der Startseite der
@@ -61,8 +59,7 @@ wählen danach <strong>Titan Fixture Library</strong>).
 >	Beim Updaten gehen sämtliche von Ihnen in der Library vorgenommenen Änderungen 
 	verloren. Um dies zu vermeiden, speichern Sie Ihre persönlichen Personalities im 
 	Ordner für Benutzer-Personalities, siehe nächster Abschnitt.
-
-------
+## 
 
 ### Updaten der Personalities eines Pultes
 
@@ -109,8 +106,7 @@ wählen danach <strong>Titan Fixture Library</strong>).
     <Keys.SoftKey>Update Personality</Keys.SoftKey> aus dem Menü <Keys.HardKey>Patch</Keys.HardKey> <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>, um
     auch bereits gepatchte Geräte zu aktualisieren.
 
-Selbsterstellte Gerätedateien
------------------------------
+## Selbsterstellte Gerätedateien
 
 Mit dem Programm 'Personality Builder', welches mit auf dem Pult
 installiert ist, lassen sich bestehende Personalities anpassen sowie
@@ -132,8 +128,7 @@ Beim Patchen wird dieser Ordner zuerst durchsucht; ist eine passende
 Personality vorhanden, so wird diese anstelle der allgemeinen Bibliothek
 verwendet. Dieser Ordner wird beim Updaten nicht überschrieben.
 
-Anfordern einer neuen Gerätedatei
----------------------------------
+## Anfordern einer neuen Gerätedatei
 
 Sollte es für ein bestimmtes Gerät noch keine Personality geben, so
 fertigt Avolites diese gern an. Klicken Sie dazu in o.g. Internetseite
@@ -147,8 +142,7 @@ verfügbare Library integriert: um also eine solche Personality zu
 installieren, laden Sie die Gesamtdatei und installieren diese, [wie oben
 beschrieben](#updating-the-personality-library-on-the-console.
 
-Fehler der Personalities an Avolites berichten
-----------------------------------------------
+## Fehler der Personalities an Avolites berichten
 
 Sollten Sie einen Fehler in der Gerätedatei eines Gerätes finden, so
 wäre Avolites für eine Rückmeldung dankbar. Suchen Sie das entsprechende
@@ -158,8 +152,7 @@ mit den momentan ausstehenden Problemen, um zu überprüfen, ob vielleicht
 jemand anderes das gleiche oder ein ähnliches Problem schon gemeldet
 hat.
 
-Im Notfall
-----------
+## Im Notfall
 
 Die Pult-Software enthält auch eine Liste an 'Generic Fixtures'
 (Standardgeräten), mit denen man im Notfall auch Geräte programmieren

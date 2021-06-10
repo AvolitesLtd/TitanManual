@@ -7,8 +7,7 @@ sidebar_label: Editing Shapes and Effects
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Editing a Live Running Shape
-----------------------------
+## Editing a Live Running Shape
 
 You can change the speed, size and spread of a live running shape by
 pressing <Keys.HardKey>Connect/Cue</Keys.HardKey> then <Keys.HardKey>Shape</Keys.HardKey> (which will flash if any shapes are
@@ -33,8 +32,7 @@ to control, <Keys.SoftKey>Softkey G</Keys.SoftKey> will change the wheels to dif
     press an attribute button. To get back to shape mode press <Keys.HardKey>Shape</Keys.HardKey>
     or select the FX attribute in the wheels display.
 
-Editing Shapes and Effects in Cues
-----------------------------------
+## Editing Shapes and Effects in Cues
 
 Shapes and pixel mapper effects stored in cues can be edited from the
 Cue View window.
@@ -52,8 +50,7 @@ In the Shape or Effect View window you can click on **View Fixtures** to
 open a window showing a list of the fixtures on which the shape or
 effect is programmed.
 
-Editing a Shape in a Cue Using Include
---------------------------------------
+## Editing a Shape in a Cue Using Include
 
 You can only edit shapes which are in the programmer; if you fire a cue
 with a shape in it, the shape will not show up in the list of editable
@@ -75,16 +72,14 @@ connected to the control wheels using Shape option <Keys.SoftKey>Edit</Keys.Soft
 >   If you applied the same shape several times to different fixtures,
     you can change each copy of the shape independently.
 
-Resynchronise Shapes
---------------------
+## Resynchronise Shapes
 
 The <Keys.SoftKey>Restart Shapes</Keys.SoftKey> option in the Shape Edit menu allows you to
 restart all running shapes, this is useful if you have multiple shapes
 in a cue and you need to see how they will start up when the cue is
 fired.
 
-Changing Fixture Order in a Shape
----------------------------------
+## Changing Fixture Order in a Shape
 
 The way a shape spreads across a number of fixtures is set by the order
 in which you selected them when you create the shape. You can change
@@ -93,8 +88,7 @@ The current fixture order is shown in in the fixture touch keys . See
 [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)
 for details on how to change the fixture order.
 
-Shapes Linked to Groups
------------------------
+## Shapes Linked to Groups
 
 If a shape is created from a group of fixtures, the 
 [fixture order or 2D layout](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups)
@@ -114,8 +108,7 @@ button in the <Keys.SoftKey>Edit</Keys.SoftKey>, <Keys.SoftKey>Edit Fixtures/Gro
 See [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) for how to edit the fixture order or
 layout.
 
-Removing or Adding Fixtures
----------------------------
+## Removing or Adding Fixtures
 
 You can add or remove individual fixtures from a shape using the <Keys.SoftKey>Add/Remove Fixtures</Keys.SoftKey> option in the <Keys.SoftKey>Edit</Keys.SoftKey> menu, or use the context
 menu button in the Shapes Fixture view window. All fixtures currently
@@ -126,16 +119,14 @@ If a fixture group was used to create the shape, removing fixtures from
 the shape using this option will break the link to the group. A <Keys.SoftKey>Remove
 Fixtures</Keys.SoftKey> confirmation softkey will be shown to warn you of this.
 
-Reversing a Shape
------------------
+## Reversing a Shape
 
 You can reverse the direction of a shape by pressing <Keys.SoftKey>Reverse Selected
 Fixtures</Keys.SoftKey> from the shape menu. The shape will be reversed only on
 fixtures which are selected, allowing you to run the shape forward on
 some fixtures and backwards on others.
 
-Deleting Shapes
----------------
+## Deleting Shapes
 
 You can delete a running shape by pressing <Keys.SoftKey>Delete</Keys.SoftKey> from the shape
 menu, then pressing the <Keys.SoftKey>softkey</Keys.SoftKey> for the shape you want to delete.

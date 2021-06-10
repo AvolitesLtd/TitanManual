@@ -33,8 +33,7 @@ des Showablaufs. Details dazu siehe [Mask FX](shape-generator.md#masking-shapes-
 
 ![Capture Visualiser with a shape running across fixtures](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures.png)
 
-Einen Shape erstellen
----------------------
+## Einen Shape erstellen
 
 Wird ein Shape ausgewählt, so wird dieser auf die zuvor angewählten
 Geräte angewendet.
@@ -111,8 +110,7 @@ die Suche einzugrenzen.
 
 > Wird ein 'Rainbow'-Farbshape verwendet, so müssen die Farb-Grundwerte (CMY oder RGB) auf <strong>50%</strong> gestellt werden, um sämtliche Farbkombinationen zu erzielen..
 
-Ändern von Größe und Geschwindigkeit
-------------------------------------
+## Ändern von Größe und Geschwindigkeit
 
 Nachdem ein Shape gestartet ist, lassen sich schnell und einfach Größe
 und Geschwindigkeit ändern. Wenn im Display oberhalb der Encoder 'Spread'
@@ -144,8 +142,7 @@ Weitere Dinge über Größe und Geschwindigkeit:
     Geschwindigkeit entweder mit dem Fader des Cues gesteuert werden,
     oder man legt entsprechende [Masterfader](../running-the-show/playback-controls.md#speed--und-size-master) an und verwendet diese (Rate-Master, BPM-Master, Size-Master).
 
-Ändern der Verteilung eines Shapes (mehrere Geräte)
----------------------------------------------------
+## Ändern der Verteilung eines Shapes (mehrere Geräte)
 
 Shapes wirken interessanter (und eindrucksvoller), wenn sie auf mehrere
 Geräte angewendet werden. Titan erlaubt es, den Spread (Verteilung)
@@ -198,8 +195,7 @@ Shapes gleichzeitig 0 bzw. 100% erreichen.
 	<strong>neu zu starten</strong>, damit alle Shapes neu synchronisiert werden. Dazu gibt 
 	es im Menü 'Edit Shape' die Menütaste <Keys.SoftKey>Restart Shapes</Keys.SoftKey>.
 
-Shape-Richtung
---------------
+## Shape-Richtung
 
 Die Menüfunktion <Keys.SoftKey>Direction</Keys.SoftKey> erlaubt es, die Richtung des Shapes
 zu ändern; hat man ein [2D-Layout](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) erstellt, so kann man abhängig vom
@@ -209,8 +205,7 @@ Mit der Taste <Keys.HardKey>Menu Latch</Keys.HardKey> lässt sich das "Shape Dir
 einrasten, so dass man schnell die verschiedenen Einstellungen
 durchprobieren kann.
 
-Beat und Cycles (Durchläufe)
-----------------------------
+## Beat und Cycles (Durchläufe)
 
 Die Option <Keys.SoftKey>Adjust Beat and Cycles</Keys.SoftKey> steuert, wie das generelle Tempo
 des Programmers das Tempo des Shapes beeinflusst und wie oft dieser
@@ -244,8 +239,7 @@ Zum direkten Eingeben eines Zahlenwertes drücken Sie die entsprechende
 Eine Eingabe von Dezimalzahlen (z.B. 1.5) sorgt dafür, dass der letzte 
 Durchlauf nur zum Teil durchgeführt wird und dann stehenbleibt.
 
-Verwenden von Shapes in Cues
-----------------------------
+## Verwenden von Shapes in Cues
 
 Wird ein Shape in einen Cue (auf ein Playback) gespeichert, so lässt
 sich mit den [Options](../cues/playback-options.md) des Playbacks einstellen,  
@@ -257,8 +251,7 @@ Shapes lassen sich auch in Cuelisten verwenden - in [Tracking von Shapes in Cuel
 
 Zum Editieren aktuell laufender Shapes siehe [Ändern eines gerade laufenden Shapes](../effects/editing-shapes-and-effects#ändern-eines-gerade-laufenden-shapes).
 
-Shapes stoppen mit Mask FX
---------------------------
+## Shapes stoppen mit Mask FX
 
 Mit der Funktion <strong>Mask FX</strong> können Playbacks programmiert werden, die
 laufende Shapes und Keyframe-Shapes auf einzelnen oder allen Geräten
@@ -289,8 +282,7 @@ Um einen Mask Effekt zu erzeugen, gehen Sie wie folgt vor:
 
 Diese Funktion erfordert eine aktuelle Personality Library.
 
-Speichern von Shapes in Paletten
---------------------------------
+## Speichern von Shapes in Paletten
 
 Es lassen sich auch Paletten mit Shapes erstellen. Das ist z.B. sehr
 hilfreich mit verschiedenen Spread- oder Size-Einstellungen. Siehe

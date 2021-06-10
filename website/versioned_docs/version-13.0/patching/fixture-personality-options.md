@@ -10,8 +10,7 @@ import Video from '@site/src/components/video.tsx';
 
 All of the options below can also be set from the Patch View window.
 
-Swap Pan and Tilt
------------------
+## Swap Pan and Tilt
 
 This allows you to make the pan channel control tilt and the tilt
 control pan. This can be useful for fixtures rigged in strange
@@ -29,8 +28,7 @@ fixtures.
 
 5. Press <Keys.HardKey>Exit</Keys.HardKey> when finished.
 
-Invert Attributes
------------------
+## Invert Attributes
 
 This option inverts individual attributes of fixtures. Useful if you
 have a fixture which pans right when the rest pan left, saving a trip up
@@ -60,8 +58,7 @@ the rig to set fixture options, but you can invert any attribute.
 -   Invert can also be set from the Attribute Behaviour tab of the Patch
     View window.
 
-Attribute Limits
-----------------
+## Attribute Limits
 
 You can set upper and lower limits for any attribute. This can be useful
 for example to limit the pan/tilt movement of a fixture, or if a fixture
@@ -96,8 +93,7 @@ attribute when it is being limited.
 
 ![limited](/docs/images/Limited-Dimmer.png)
 
-Fixture Offset
---------------
+## Fixture Offset
 
 You can set an offset to any attribute of any fixture. The normal use
 for this is to correct pan/tilt positions when fixtures are rigged in a
@@ -125,8 +121,7 @@ There are 4 ways to set an offset:
     select <Keys.SoftKey>Offset</Keys.SoftKey> from the context menu buttons. This lets you view
     or adjust offsets set by the first two methods.
 
-Fixture / Attribute curves
---------------------------
+## Fixture / Attribute curves
 
 Curves set how an attribute behaves over the full range of values. They
 are most often used for dimmer attributes to set the way the dimmer
@@ -151,8 +146,7 @@ setting is Linear.
 See the [curves section](../system-settings/curves.md) for details of the different curves
 available.
 
-Freeze Fixtures or Attributes
------------------------------
+## Freeze Fixtures or Attributes
 
 This option allows you to freeze individual attributes of a fixture, or
 to freeze the whole fixture. Attributes or fixtures which are frozen are
@@ -175,8 +169,7 @@ the whole fixture. Frozen attributes are indicated on the softkey.
 -   A "Frozen" watermark is shown on the wheel display when an attribute
     is frozen.
 
-Editing the Personality
------------------------
+## Editing the Personality
 
 Sometimes you may want to modify the way a fixture behaves, or you may
 find a fixture personality contains errors and needs editing. You can

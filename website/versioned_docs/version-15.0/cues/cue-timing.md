@@ -104,8 +104,7 @@ The times you enter are affected by the cue mode which is set using the <Keys.So
     the fader position for a <Keys.SoftKey>Mode 2</Keys.SoftKey> cue. This allows you to create a
     shape which gets bigger or faster as you push up the fader.
 
-Changing Fixture Order
-----------------------
+## Changing Fixture Order
 
 You can change the order of the fixtures stored in a cue. Normally this
 is set to the order in which you selected the fixtures when the cue was
@@ -137,8 +136,7 @@ hand corner of the fixture select touch buttons.<br/>
     sequence will show X. Touch the button again to put it back in the
     sequence.
 
-Setting Attribute Fade Times for a Cue
---------------------------------------
+## Setting Attribute Fade Times for a Cue
 
 You can set individual fade times for each attribute group (such as
 Position). If you set a time, it overrides the normal times.
@@ -169,8 +167,7 @@ Press the <Keys.HardKey>All</Keys.HardKey> button to select all fixtures in the 
 When you are in the Set Attribute Times menu you can only select
 fixtures which are in the cue you are editing.
 
-Editing Times in the Programmer
--------------------------------
+## Editing Times in the Programmer
 
 You can check and edit the times which are set in the programmer before
 saving a cue. You can also set times into the programmer and

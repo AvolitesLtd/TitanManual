@@ -12,8 +12,7 @@ Keyframe-Shapes gestatten es, eigene Sequenzen als Effekte zu nutzen.
 Dazu werden mehrere Attribut-Einstellungen gespeichert, zwischen denen
 dann gewechselt und übergeblendet wird.
 
-Einen Keyframe-Shape erzeugen
------------------------------
+## Einen Keyframe-Shape erzeugen
 
 <Video videoId="1nvLaipivhM" title="Key Frame Shapes" />
 
@@ -78,8 +77,7 @@ Bild.
     lassen sich die Dimmerkanäle der verwendeten Geräte mit der
     Schaltfläche <Keys.ContextKey>Sonne</Keys.ContextKey> locaten.
 	
-Ändern von Shape-Parametern im Effekt-Editor
---------------------------------------------
+## Ändern von Shape-Parametern im Effekt-Editor
 
 Ist ein Keyframe-Shape komplett erstellt, so wird er im Effekt-Editor
 angezeigt.
@@ -211,8 +209,7 @@ Ebenso können Sie einen komplett anderen Keyframe-Shape oder
 werden immer ganz oben in der Liste angezeigt und lassen sich mit dem <strong>Auge</strong>
 ausblenden, wenn man nur mit den Keyframe-Shapes arbeiten will.
 
-Einen Keyframe-Shape in einen Cue speichern
--------------------------------------------
+## Einen Keyframe-Shape in einen Cue speichern
 
 Normalerweise werden Keyframe-Shapes, die in einem Cue gespeichert sind,
 durch den zugehörigen Fader gesteuert; ist in den jeweiligen
