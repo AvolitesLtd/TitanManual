@@ -114,7 +114,7 @@ function replaceYaml(filename,content,sectionHeading) {
     titleLink = filenameToTitleLink(filename);
     let sectionHeadingText = "";
     if (!filename.match("/")) {
-      sectionHeadingText = `# ${sectionHeading}\n\n`
+      sectionHeadingText = `\\pagebreak \n# ${sectionHeading}\n\n`
     }
     return `${sectionHeadingText}## ${title} {${titleLink}}`;
   });
@@ -427,6 +427,7 @@ pandoc --template "${options.templatePath}" \
   -M footer-left="${version} Manual" \
   -M subtitle="${version}" \
   -M logo="${options.logoPath}" \
+  -V colorlinks=true \
   "${filePath}"`;
 
   var hrstart = process.hrtime();

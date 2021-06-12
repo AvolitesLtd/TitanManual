@@ -571,13 +571,16 @@ $else$
 \setcapindent{0em}
 $endif$
 
+
+
 %
-% blockquote
+% blockquote style with blue background
 %
-\definecolor{blockquote-border}{RGB}{221,221,221}
-\definecolor{blockquote-text}{RGB}{119,119,119}
+\definecolor{blockquote-border}{HTML}{64B0FF}
+\definecolor{blockquote-background}{HTML}{C7E2FF}
+\definecolor{blockquote-text}{HTML}{606060}
 \usepackage{mdframed}
-\newmdenv[rightline=false,bottomline=false,topline=false,linewidth=3pt,linecolor=blockquote-border,skipabove=\parskip]{customblockquote}
+\newmdenv[backgroundcolor=blockquote-background,rightline=false,bottomline=false,topline=false,linewidth=4pt,linecolor=blockquote-border,skipabove=\parskip]{customblockquote}
 \renewenvironment{quote}{\begin{customblockquote}\list{}{\rightmargin=0em\leftmargin=0em}%
 \item\relax\color{blockquote-text}\ignorespaces}{\unskip\unskip\endlist\end{customblockquote}}
 
@@ -704,7 +707,7 @@ $if(listings)$
 %
 % general listing colors
 %
-\definecolor{listing-background}{HTML}{F7F7F7}
+\definecolor{listing-background}{HTML}{C0C0C0}
 \definecolor{listing-rule}{HTML}{B3B2B3}
 \definecolor{listing-numbers}{HTML}{B3B2B3}
 \definecolor{listing-text-color}{HTML}{000000}
@@ -839,6 +842,7 @@ $else$
   \renewcommand{\footrulewidth}{0.4pt}
 }
 \pagestyle{eisvogel-header-footer}
+
 $if(page-background)$
 \backgroundsetup{
 scale=1,
