@@ -581,8 +581,23 @@ $endif$
 \definecolor{blockquote-text}{HTML}{606060}
 \usepackage{mdframed}
 \newmdenv[backgroundcolor=blockquote-background,rightline=false,bottomline=false,topline=false,linewidth=4pt,linecolor=blockquote-border,skipabove=\parskip]{customblockquote}
-\renewenvironment{quote}{\begin{customblockquote}\list{}{\rightmargin=0em\leftmargin=0em}%
+\renewenvironment{quote}{\begin{customblockquote}\leftskip=1.5cm\list{}{\rightmargin=0em\leftmargin=0em}%
 \item\relax\color{blockquote-text}\ignorespaces}{\unskip\unskip\endlist\end{customblockquote}}
+
+%
+% enumerate list style with red background
+%
+\definecolor{numlist-border}{HTML}{FF4040}
+\definecolor{numlist-background}{HTML}{FFE0E0}
+\definecolor{numlist-text}{HTML}{606060}
+\usepackage{mdframed}
+\newmdenv[backgroundcolor=numlist-background,rightline=false,bottomline=false,topline=false,linewidth=4pt,linecolor=numlist-border,skipabove=\parskip]{customnumlist}
+\let\origenumerate\enumerate  % remember the original code for enumerate so we can add it back in to our new definition
+\let\origendenumerate\endenumerate
+\renewenvironment{enumerate}{\begin{customnumlist}\origenumerate\leftskip=0.4cm}%
+{\endlist\origendenumerate\end{customnumlist}}
+
+
 
 %
 % Source Sans Pro as the de­fault font fam­ily
