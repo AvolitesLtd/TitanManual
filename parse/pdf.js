@@ -428,6 +428,7 @@ pandoc --template "${options.templatePath}" \
   -M subtitle="${version}" \
   -M logo="${options.logoPath}" \
   -V colorlinks=true \
+  -V block-headings \
   "${filePath}"`;
 
   var hrstart = process.hrtime();
