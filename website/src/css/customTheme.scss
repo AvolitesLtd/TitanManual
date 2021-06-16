@@ -44,6 +44,11 @@ body {
   font-family: 'GT America Standard Light', 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
 }
 
+h2 {
+  padding-top: 16px;
+  border-top: 2px var(--ifm-hr-border-color) solid;
+}
+
 .navbar__search-input {
   outline: none;
 }
