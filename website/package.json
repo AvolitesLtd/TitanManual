@@ -45,7 +45,7 @@
     "commander": "^5.1.0",
     "concurrently": "^5.3.0",
     "electron": "^10.1.5",
-    "electron-builder": "^22.9.1",
+    "electron-builder": "22.10.5",
     "fantasticon": "^1.0.27",
     "fuse.js": "^3.6.1",
     "js-search": "^1.4.3",
