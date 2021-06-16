@@ -74,7 +74,7 @@ const createWindow = () => {
 
   // and load the homepage of the app.
   appServer.ready().then(() => {
-    let url = "/docstest";
+    let url = "/docs";
     const args = require('minimist')(process.argv.slice(1))
     if (args['startUrl']) {
       url = args['startUrl'];
@@ -84,7 +84,7 @@ const createWindow = () => {
     win.loadURL(`${appServer.url}/nav.html`)
   })
 
-  browserViewContent.webContents.openDevTools();
+//  win.openDevTools();
 
   browserViewContent.webContents.on('dom-ready', () => {
     win.show()
