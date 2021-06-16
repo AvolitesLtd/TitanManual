@@ -67,6 +67,7 @@ article blockquote {
   border-left: none;
   min-height: 4.5em;
   background-color: rgba(100,176,255,.3);
+  color: var(--ifm-font-color-base);
   &::before{
     position: absolute;
     display: flex;
@@ -85,10 +86,22 @@ article blockquote {
 
 article ol {
   position: relative;
-  left: -1em;
-  border-left: 3px solid #ef3e46;
-  padding-left: 3em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding: 20px 0 20px 100px;
+  border-left: none;
+  min-height: 4.5em;
   background: rgba(255, 0, 0, 0.1);
+  &::before{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background: #ef3e46;
+    font-size: 40px;
+    color: #fff;
+    content: "\f0cb";
+    font-family: fontawesome;
+  }
 }
