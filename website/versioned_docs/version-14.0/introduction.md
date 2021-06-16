@@ -3,6 +3,7 @@ id: introduction
 title: Introduction to Avolites Titan
 sidebar_label: Introduction to Avolites Titan
 original_id: introduction
+slug: /
 ---
 
 import Keys from '@site/src/components/key.ts';

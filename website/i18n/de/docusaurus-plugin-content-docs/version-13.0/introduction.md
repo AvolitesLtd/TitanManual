@@ -3,6 +3,7 @@ id: introduction
 title: Quick Start
 sidebar_label: Quick Start
 original_id: introduction
+slug: /
 ---
 
 import Keys from '@site/src/components/key.ts';

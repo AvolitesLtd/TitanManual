@@ -27,8 +27,7 @@ module.exports={
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "homePageId": "introduction",
-          "showLastUpdateAuthor": true,
+          "showLastUpdateAuthor": false,
           "showLastUpdateTime": true,
           "path": "../docs",
           "sidebarPath": require.resolve('./sidebars.json'),

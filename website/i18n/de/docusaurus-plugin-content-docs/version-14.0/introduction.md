@@ -3,6 +3,7 @@ id: introduction
 title: Einführung
 sidebar_label: Einführung
 original_id: introduction
+slug: /
 ---
 
 import Keys from '@site/src/components/key.ts';
