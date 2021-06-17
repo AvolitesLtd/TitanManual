@@ -70,13 +70,13 @@ article blockquote {
   position: relative;
   padding-left: 80px;
   border-left: none;
-  min-height: 4.5em;
+  min-height: 5.5em;
   background-color: rgba(100,176,255,.3);
   color: var(--ifm-font-color-base);
   &::before{
     position: absolute;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     top: 0;
     left: 0;
     bottom: 0;
@@ -98,7 +98,7 @@ article ol {
   &::before{
     position: absolute;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     top: 0;
     left: 0;
     bottom: 0;
