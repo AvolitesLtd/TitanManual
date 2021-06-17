@@ -210,7 +210,7 @@ buttons for each individual fixture cell.
 
 If patched on a fader then the
 cells will start at fader 1. You can also select sub-fixtures from the
-numeric keypad. See the [fixture control section](../controlling-fixtures.md#fixtures-with-multiple-cells-subfixtures) for more details of
+numeric keypad. See the [fixture control section](../controlling-fixtures.md#fixtures-with-multiple-cellssubfixtures) for more details of
 working with fixture cells.
 
 To go back to normal, press <Keys.HardKey>Unfold</Keys.HardKey> then <Keys.SoftKey>Exit Unfold</Keys.SoftKey>.

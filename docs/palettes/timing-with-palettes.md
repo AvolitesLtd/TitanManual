@@ -19,7 +19,7 @@ palette will have a 2 second fade.
 
 By default these times are **not** used when the palette is called directly, to allow 
 for fluent programming. You may however turn this on (which further enhances [busking 
-with palettes](../running-the-show/playback-controls#busking-with-palettes)) using the
+with palettes](../running-the-show/playback-controls.md#busking-with-palettes)) using the
 palette key setting in the [Key Profile](../system-settings/key-profiles.md).
 You can set <Keys.SoftKey>Palette Is Fired With Its Times</Keys.SoftKey> or <Keys.SoftKey>Palette Is Fired
 Ignoring Its Times</Keys.SoftKey>.
@@ -36,12 +36,10 @@ the palette fades in over that time.
 2. Type in the fade time for the palette on the numeric keypad.
 3. Press a palette button to recall the palette.
 
----
-
 -   This overrides any timing stored in the palette itself.
 
 -   You have to re-enter the time each time you recall a palette. To use
-    the same fade every time, you can set a [Master Time](../palettes/timing-with-palettes.md#master-time-for-palettes).
+    the same fade every time, you can set a [Master Time](../palettes/timing-with-palettes.md#master-time-and-overlap-for-palettes).
 
 -   Palette fading can be very useful when recalling a palette live
     during a show, as you can smoothly move fixtures to a new position
@@ -67,7 +65,7 @@ next will start its fade.
 4. Press a palette button to recall the palette.
 
 -   You have to re-enter the overlap each time you recall a palette. To
-    use the same overlap every time, set a [Master Overlap](../palettes/timing-with-palettes.md#master-time-for-palettes).
+    use the same overlap every time, set a [Master Overlap](../palettes/timing-with-palettes.md#master-time-and-overlap-for-palettes).
 
 -   Fixture Overlap always requires a fade time in order to have a visible effect.
 

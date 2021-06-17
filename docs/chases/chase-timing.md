@@ -22,8 +22,6 @@ the chase.
 settings, as described below.
 3. Press <Keys.HardKey>Exit</Keys.HardKey> to finish.
 
----
-
 -   To set **speed**, press <Keys.SoftKey>Speed</Keys.SoftKey> then type the new speed, then press
     <Keys.HardKey>Enter</Keys.HardKey>. The speed can be set in Beats Per Minute (BPM) or seconds
     depending on the user settings.

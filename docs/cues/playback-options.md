@@ -38,7 +38,7 @@ is useful if you have some general playbacks you want on every page,
 without having to copy the playback onto each page.
 
 Setting | Action
-------: | ------
+---: | --------------
 Unlocked | This playback will change with the pages as normal
 Transparent Lock | This playback will appear on all pages where the handle is unprogrammed
 Locked | This playback will appear on all pages. Playbacks programmed on this handle on other pages will not be accessible.
@@ -47,8 +47,6 @@ Locked | This playback will appear on all pages. Playbacks programmed on this ha
 Sets the [key profile](../system-settings/key-profiles.md) individually for this playback.
 Global sets the back to the global default setting for playbacks. A shortcut to change
 the key profile for a playback is to hold the <Keys.HardKey>Options</Keys.HardKey> button down while pressing the handle select.
-
----
 
 ## Playback Tab
 
@@ -96,8 +94,8 @@ override all playback priorities except Very High.
 ### Run On Startup
 Sets this playback to run when the console powers
 on. This can be globally disabled by the
-[Run Startup Playbacks](../system-settings/user-settings.md#run-startup-playbacks) option in
-[User Settings](../system-settings/user-settings.md) *(turned on by default)*.
+**Run Startup Playbacks** option in the **General** tab of
+[User Settings](../system-settings/user-settings.md#general) *(turned on by default)*.
 
 This can be very useful for unattended applications to set up an
 initial lighting state.
@@ -112,8 +110,6 @@ run on startup.
 ![Power On Playback](/docs/images/Power-On-Playback.png)
 
 
-
----
 
 ## Times tab
 
@@ -140,8 +136,6 @@ button must be set to **Timed Flash** for this to work.*
 Default speed for shapes/effects in this playback in BPM. This can be
 overridden by a [Rate or BPM master](../running-the-show/playback-controls.md#speed-and-size-masters).
 
----
-
 ## Fader Tab
 
 ![Playback Options showing fader tab](/docs/images/Playback-Options-Fader-Tab.png)
@@ -156,7 +150,7 @@ Mode 1 | HTP channels fade in and out as set by the fade out times (LTP channels
 Mode 2 | Both HTP and LTP channels follow the fader position. *Useful when used with a pan/tilt cue for manually tracking a spot across a stage or down a catwalk using the fader position or for mixing colours on RGB fixtures.*
 Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to the settings in the new cue. All other cues fade out and all other active playbacks become inactive; if you need to re-fire a playback, take the fader to zero and put it up again. *Useful for setting a video playback state.*
 
-This is the same as the [Fade Mode](cue-timing.md/#fade-modes) option in the <Keys.SoftKey>Edit Times</Keys.SoftKey> menu.
+This is the same as the [Fade Mode](cue-timing.md#fade-modes) option in the <Keys.SoftKey>Edit Times</Keys.SoftKey> menu.
 
 <Video videoId="2fwM5S8nX3k" title="Playback Modes" />
 
@@ -172,8 +166,6 @@ Setting | Action
 ------: | ------
 **Fade Out Complete** | The cue is killed when all fades have completed.
 Fader at 0 | The cue is killed when the fader reaches zero.
-
---- 
 
 ## Effects Tab
 
@@ -216,9 +208,6 @@ to control the size of shapes running in this playback.
 Allows you to allocate a
 [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters)
 to control the size of shapes running in this playback.
-
-
----
 
 ## Release Tab
 

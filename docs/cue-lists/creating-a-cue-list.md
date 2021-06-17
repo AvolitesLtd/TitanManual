@@ -28,10 +28,10 @@ be recorded so they are in the programmer.
 4. Set the default Fade and Delay times, and automatic cue linking,
 using <Keys.SoftKey>Set Times</Keys.SoftKey>. These settings will be allocated to every new cue.
 5. Set up the look for the first cue, either manually or by using
-&nbsp;<Keys.HardKey>Include</Keys.HardKey> (see [Include Function](../cues/editing-cues.md/#using-parts-of-existing-cues---the-include-function) on existing cues. You can use the [Shape Generator](../effects/shape-generator.md) and the
+&nbsp;<Keys.HardKey>Include</Keys.HardKey> (see [Include Function](../cues/editing-cues.md/#using-parts-of-existing-cues---the-include-function)) on existing cues. You can use the [Shape Generator](../effects/shape-generator.md) and the
 [Pixel Mapper](../effects/pixel-mapper.md).
 6. If you require a **legend** for the cue, set it now using <Keys.SoftKey>Legend</Keys.SoftKey>.
-You can also change this later using [<Keys.HardKey>Unfold</Keys.HardKey>](editing-cue-lists.md#editing-a-cue-list-using-unfold) or [Set Legend](#changing-legends-for-cues-in-a-cue-list) (see next
+You can also change this later using [Unfold](editing-cue-lists.md#editing-a-cue-list-using-unfold) or [Set Legend](#changing-legends-for-cues-in-a-cue-list) (see next
 section).
 7. Press the **Select** button of the handle or <Keys.SoftKey>Append Cue</Keys.SoftKey> to store the
 programmer contents as Cue 1 of the cue list.
@@ -41,8 +41,6 @@ cues, as any faders moving to zero will not be stored. If you do press
 clear, you must make sure that all channels you want to record are
 selected or in the programmer (inverted display).
 9. Press <Keys.HardKey>Exit</Keys.HardKey> to finish when you have stored all the cues.
-
----
 
 -   You can [reopen the cue list](editing-cue-lists.md) to add more cues by repeating the
     procedure above; this does not affect any cues already stored in the
@@ -100,7 +98,7 @@ cues, or press <Keys.HardKey>Exit</Keys.HardKey> to finish.
 Shapes can track between cues in cue lists. If shape tracking is
 enabled, a shape started in a cue will continue through following cues.
 Shape tracking is enabled using the <Keys.SoftKey>Shape Tracking</Keys.SoftKey> option in the
-playback Options for the cue list - see [Cue List Options](cue-list-options.md#cue-list-options-playback-tab).
+playback Options for the cue list - see [Cue List Options](cue-list-options.md#playback-tab).
 
 Cues containing shapes have a button for each shape.
 
@@ -115,7 +113,7 @@ shown for each active shape:
 | B | Blocks the shape so it will not appear in following cues |
 
 The cue itself can also have options set to block all shapes, see
-[Cue List Options](cue-list-options.md#cue-list-options-playback-tab).
+[Cue List Options](cue-list-options.md#playback-tab).
 
 You can also block attributes for shapes independently during recording
 using the **@** menu. Select the **Attribute** using the attribute bank buttons,
@@ -123,7 +121,7 @@ press <Keys.HardKey>@</Keys.HardKey> then the <Keys.HardKey>FX</Keys.HardKey> gr
 options <Keys.SoftKey>Block Shape</Keys.SoftKey> and <Keys.SoftKey>Unblock Shape</Keys.SoftKey>. If an attribute is set to
 **Blocked** the wheel display will show a *"Blocked"* watermark.
 
-If **[Shape Tracking](cue-list-options.md#cue-list-options-playback-tab)** is not enabled, shapes in each cue are independent
+If the **Shape Tracking** option in [Cue list options](cue-list-options.md#playback-tab) is not enabled, shapes in each cue are independent
 from each other. If an identical shape (with the same size and speed) is
 saved in a following cue then the shape will continue running rather
 than restarting.
@@ -145,8 +143,6 @@ in the <Keys.SoftKey>Advanced Options</Keys.SoftKey> menu of the cue list record
 2. Turn on the playbacks you wish to load for this cue.
 3. **Save the cue**. Active playbacks will be saved as Autoloads.
 
----
-
 To manually edit autoloads use the playback view for the cue list:
 
 1. Press <Keys.HardKey>Open/View</Keys.HardKey>
@@ -163,8 +159,6 @@ playback legend appears on the softkeys.
 to finish.
 
 
-
----
 
 The Autoloaded playback will be fired when
 the cue starts, and killed when the cue list moves on to the next cue,

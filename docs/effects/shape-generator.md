@@ -51,8 +51,6 @@ press <Keys.SoftKey>All</Keys.SoftKey> for a full list.
 5. Press a <Keys.SoftKey>softkey</Keys.SoftKey> to select a shape, or touch the desired shape in the **Shapes window**. You can type a search word on the keyboard to search for a particular shape.
 6. The shape will be applied to all selected fixtures.
 
----
-
 -   If you open the Shapes window, it will remain open for instant
     selection of shapes (you don't need to select <Keys.SoftKey>Shape Generator</Keys.SoftKey>).
     The window will only show shapes which are possible on the selected
@@ -119,8 +117,6 @@ Offset rather than Size/Speed, press <Keys.SoftKey>Adjust Speed, Size and Spread
 
 -   The size and speed is shown above the wheels on the display
 
----
-
 Other things to know about size and speed of shapes:
 
 -   If you have more than one shape running, the controls operate on the
@@ -158,13 +154,9 @@ Spread = **12** *(Phase = 30 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 12](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-12.png)
 
----
-
 Spread = **6** *(Phase = 60 degrees)*:
 
 ![Capture Visualiser with a shape running across fixtures with spread of 6](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures-with-spread-of-6.png)
-
----
 
 Spread = **2** *(Phase = 180 degrees)*:
 

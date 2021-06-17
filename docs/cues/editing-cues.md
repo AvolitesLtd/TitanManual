@@ -21,12 +21,10 @@ the changes and saving the new information on top of the cue.
 7. The console will merge the existing cue with your changes. Unchanged
 information is not affected.
 
----
-
 -   If you want to overwrite the cue entirely, use the option <Keys.SoftKey>Replace</Keys.SoftKey> at step 6 - but remember that unless you are in **"Record by Stage"** mode, any fixtures you haven't changed won't be saved.
 
 -   To speed up editing, you can set the console to "Always Merge" the
-    cue. This option is set in the [Handles tab](../system-settings/user-settings.md#prompt-replace) of [User Settings](../system-settings/user-settings.md) (press <Keys.HardKey>Avo</Keys.HardKey> and select <Keys.SoftKey>User Settings</Keys.SoftKey>).
+    cue. This option is set in the **Handles tab** of [User Settings](../system-settings/user-settings.md#handles) (press <Keys.HardKey>Avo</Keys.HardKey> and select <Keys.SoftKey>User Settings</Keys.SoftKey>).
 
 -   You can also press the **Select** button for the cue a second time to
     select the **"Merge"** option (quicker than selecting the softkey <Keys.SoftKey>Merge</Keys.SoftKey>
@@ -46,15 +44,11 @@ settings you want to store.
 2. Press <Keys.HardKey>Update</Keys.HardKey> *(on consoles without an Update button press <Keys.HardKey>Record Cue</Keys.HardKey>, <Keys.SoftKey>Update</Keys.SoftKey>)*.
 3. Press <Keys.HardKey>Enter</Keys.HardKey> to immediately store the new values to the cue.
 
----
-
 Alternatively, the softkeys show a list of [palettes](../palettes.md) and playbacks which
 can be updated. Select or deselect these as required.
 
 If you have used the softkey options, press <Keys.HardKey>Enter</Keys.HardKey> to complete
 the update.
-
----
 
 -   You can also select which palettes will be affected by pressing the
     palette's button twice.
@@ -225,8 +219,6 @@ changed to Off. Press <Keys.SoftKey>Set Mask</Keys.SoftKey> to choose which attr
 set to **Off**.
 4. Press the <Keys.SoftKey>Off</Keys.SoftKey> softkey
 
----
-
 You can also use <Keys.HardKey>Include</Keys.HardKey> to set values to Off.
 
 1. Use the **Quick Include** function (described in [previous section](#using-parts-of-existing-cues-the-include-function)) to
@@ -238,8 +230,6 @@ change them all, deselect the fixtures you don't want.
 to change. Then press the <Keys.SoftKey>Attributes Off</Keys.SoftKey> softkey to set them to Off.
 The bottom softkeys also give options such as <Keys.SoftKey>Dimmer Off</Keys.SoftKey>.
 5. Press <Keys.HardKey>Record</Keys.HardKey>,  press the **Select** button of the cue, then select  <Keys.SoftKey>Replace</Keys.SoftKey> to update it.
-
----
 
 -   To turn off all attributes of all selected fixtures, press <Keys.HardKey>Off</Keys.HardKey>
     then <Keys.SoftKey>Selected Fixtures Off</Keys.SoftKey>.

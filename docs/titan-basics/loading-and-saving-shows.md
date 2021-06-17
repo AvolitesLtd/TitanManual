@@ -132,8 +132,6 @@ buttons on the left to select Palettes, Groups etc.
 9. Select handle(s) where you want to store the imported items.
 10. When you have imported all the items you want, press <Keys.HardKey>Exit</Keys.HardKey>.
 
----
-
 -   You can filter fixture types to make the mapping easier using the
     buttons on the left and right sides of the show browser.
 
@@ -141,8 +139,6 @@ buttons on the left to select Palettes, Groups etc.
     clicking the Plus button at the top right of the Show Browser.
 
 -   You can find more information about the Show Library [here](./show-library.md).
-
----
 
 ## Autosave
 

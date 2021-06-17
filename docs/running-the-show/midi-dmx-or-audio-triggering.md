@@ -113,7 +113,7 @@ trigger. Select <Keys.SoftKey>Trigger Type</Keys.SoftKey> as Audio, DMX, GPIO, M
 		as trigger using the <Keys.SoftKey>Address</Keys.SoftKey> button.
 
 		If you want to use it as output	(Tx mode) again you need to re-assign it 
-		in [DMX settings](../system-settings/dmx-output-mapping). 
+		in [DMX settings](../system-settings/dmx-output-mapping.md). 
 	-	For GPIO, you can <Keys.SoftKey>Invert</Keys.SoftKey> the trigger (to trigger on contact open rather than close).
 		The Pin option allows multiple GPIO inputs but currently no consoles support this, so it should be set to 1.
 	-	For MIDI, set the MIDI channel, MIDI Command, Value, and Level (velocity) ranges

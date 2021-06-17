@@ -24,7 +24,7 @@ and the softkeys will offer you options for what you can change.
 To change multiple cues at once, draw a box across the items you want to
 change.
 
-Also, the [Intensity View window](../controlling-fixtures/viewing-and-editing-fixture-values.md#intensity-window) is useful for seeing the state of all
+Also, the [Intensity View window](../controlling-fixtures/viewing-and-editing-fixture-values.md#the-intensity-view-window) is useful for seeing the state of all
 fixtures.
 
 ## Editing Values in Cue View Window
@@ -103,8 +103,6 @@ numbers and legends *(see more cues using softkeys F and G)*.
 times will operate as programmed)*.
 4. *Various Unfold options are available, detailed below.*
 5. Press <Keys.HardKey>Unfold</Keys.HardKey> again to exit unfold mode.
-
----
 
 -   To **edit** the contents of a cue: Press <Keys.HardKey>Clear</Keys.HardKey> to empty the
     programmer, raise the fader to output the cue, make the changes,
@@ -246,7 +244,7 @@ able to put it back in later.
 
 ## Extracting a Cue from a Cue List with Include
 
-You can reload a single cue out of a cue list into the programmer using **[Include](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)**. Press <Keys.HardKey>Include</Keys.HardKey>, select the cue list, enter the cue number to be included, then press <Keys.SoftKey>Include Cue</Keys.SoftKey>.
+You can reload a single cue out of a cue list into the programmer using the [Include function](../cues/editing-cues.md#using-parts-of-existing-cues---the-include-function). Press <Keys.HardKey>Include</Keys.HardKey>, select the cue list, enter the cue number to be included, then press <Keys.SoftKey>Include Cue</Keys.SoftKey>.
 
 If you want to do this from the currently connected cue list, Press <Keys.HardKey>Include</Keys.HardKey>, <Keys.HardKey>Connect/Cue</Keys.HardKey>, type the cue number, <Keys.SoftKey>Include Cue</Keys.SoftKey>.
 

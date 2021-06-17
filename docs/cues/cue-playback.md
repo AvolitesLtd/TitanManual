@@ -84,11 +84,9 @@ graphic you can jump to a page number by entering the number.
 >   If you have stored cues on the touch select buttons, you select
  different pages using the Playbacks page touch buttons.
  
----
-
 If you change to a new page while some playbacks are fired, the playbacks on the old page remain active.
 The way playback faders behave across different pages
-can be set with the [<Keys.SoftKey>Playback Paging</Keys.SoftKey> user setting](../system-settings/user-settings.md#playback-paging).
+can be set with the <Keys.SoftKey>Playback Paging</Keys.SoftKey> [user setting](../system-settings/user-settings.md#handles).
 The settings are <Keys.SoftKey>Always Hold</Keys.SoftKey> or <Keys.SoftKey>Never Hold</Keys.SoftKey>, and these options work differently
 depending on whether your console has motorised faders or not.
 
@@ -126,8 +124,6 @@ without motorised faders this is <Keys.SoftKey>Always Hold</Keys.SoftKey>.
 
 The setting <Keys.SoftKey>Normal</Keys.SoftKey> gives the default state, for consoles 
 with motorised faders this is <Keys.SoftKey>Never Hold</Keys.SoftKey>.
-
----
 
 -   You can set a legend for each playback page. The legend is shown on
  the 'Pages' roller on the screen. Use <Keys.SoftKey>Set Legend</Keys.SoftKey> from the main
@@ -175,7 +171,7 @@ for more details.
 
 Normally when you kill a playback by lowering the fader, the LTP attributes will be left in the last state set by the playback. Sometimes you don't want this, for example if you have a strobe cue, you don't want the strobing to carry on when you kill the cue. The **Release** function lets you set how attributes will return to their previous values.
 
-You can set a mask so that some or all attributes will automatically release from the playback when the playback is killed - see [Release Mask](#release-mask) below. For a cue this will happen when all fade times have completed, unless you change the [Kill Point](playback-options.md/#fader-tab) option in the cue options.
+You can set a mask so that some or all attributes will automatically release from the playback when the playback is killed - see [Release Mask](#release-mask) below. For a cue this will happen when all fade times have completed, unless you change the [Kill Point](playback-options.md#fader-tab) option in the cue options.
 
 Attributes will go back to the state set in the most recent previous playback until no playbacks are left to be released. If the <Keys.SoftKey>Release to Home</Keys.SoftKey> setting on the Release menu is Enabled, channels will go to the power-on state, which you can program (see [Programming the Release / Power On State](#programming-the-release-power-on-state)).
 If the option is disabled, channels will remain in the state of the last playback.
@@ -298,6 +294,6 @@ Values</Keys.SoftKey> then select the playback.
 
 Playbacks can be assigned to groups. This allows you to create a set of playbacks which automatically switch off other playbacks in the same group. This can be useful when you have playbacks setting colours on executor buttons so only the most recent playback stays active, or to make life easier when busking so you don’t end up with lots of playbacks fired which have superseded each other.
 
-This is described in detail in the chapter on Running the Show, see [Playback Groups](../running-the-show/playback-controls#playback-groups).
+This is described in detail in the chapter on Running the Show, see [Playback Groups](../running-the-show/playback-controls.md#playback-groups).
 
 ![Playback groups window](/docs/images/Playback-groups-display-mode-1.png)

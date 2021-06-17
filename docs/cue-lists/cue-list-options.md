@@ -16,13 +16,9 @@ then the **Select** button of the cue list, then click the **Options** tab.
 The Cue List options are mostly the same as for [Cues](../cues/playback-options.md) and [Chases](../chases/chase-options.md), only
 the additional Cue List options are described here.
 
---- 
-
 ## Handle Tab
 
 All options are the same as for a cue, see [Options](../cues/playback-options.md#handle-tab).
-
---- 
 
 ## Playback Tab
 
@@ -65,13 +61,9 @@ Allocates which timecode source will be used by this Cue List.
 Enables or disables Tracking mode (where unchanged
 settings persist from the previous cues). *Enabled by default.*
 
---- 
-
 ## Times Tab
 
 All options are the same as for cues, see [Times](../cues/playback-options.md#times-tab).
-
---- 
 
 ## Fader Tab
 
@@ -95,13 +87,9 @@ When the fader is in **Manual Crossfader** mode:
 Sets whether the first cue automatically fires when
 the fader is raised, or if you need to press the <Keys.HardKey>Go</Keys.HardKey> button to fire it.
 
---- 
-
 ## Effects Tab
 
 All options are the same as for cues, see [Effects](../cues/playback-options.md#effects-tab).
-
---- 
 
 ## Release Tab
 

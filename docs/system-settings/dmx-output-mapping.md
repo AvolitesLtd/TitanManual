@@ -104,7 +104,7 @@ adapter, both of which will be shown.
 **Merge Priority:** A value between 0 and 200 where higher numbers have 
 priority, 100 is default. For this DMX output, sets the priority of the DMX from this 
 Titan console over incoming sACN being merged from other sources.
-You also need to set up [DMX Merge](#DMX-Merge).
+You also need to set up [DMX Merge](dmx-output-mapping.md#DMX-Merge).
 
 **Break Length:** Adjusts the DMX spacing which can be helpful for slow
 fixtures. If fixtures or dimmers show an occasional glitch 
@@ -220,7 +220,7 @@ number then click on a port to assign.
 To remove an assignment, click on **Clear sACN Merge** then select a port.
 
 - For local DMX outputs, you can set the priority of the Titan output vs. the sACN stream using the
-  Merge Priority option on each node, see [DMX Output Properties](#DMX-output-properties)
+  Merge Priority option on each node, see [DMX Output Properties](dmx-output-mapping.md#DMX-output-properties)
   .
 
 - The DMX Output switch can be used to disable all DMX output.

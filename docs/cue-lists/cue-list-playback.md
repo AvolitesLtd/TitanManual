@@ -30,7 +30,7 @@ then the **Select** button of the playback. This shows all the timings, links
 and tracking status and is very useful when running a [theatre show](theatre-programming.md) on a
 cue list.
 
-The option **"Auto View On Connect"** *(in the [User Settings/Wheels menu](../system-settings/user-settings.md#auto-view-on-connect))* if
+The option **Auto View On Connect** in the **Wheels** tab of [User Settings](../system-settings/user-settings.md#wheels)) if
 enabled will automatically open the relevant Playback View window when
 you fire a cue list.
 
@@ -43,8 +43,6 @@ and each timing section shows its own progress.
 The Playback View will autoscroll to keep the active cue on-screen. You
 can change the way the autoscroll works using the view options (click
 the <Keys.ContextKey>Cog</Keys.ContextKey> button at the top of the window).
-
----
 
 -   The HTP levels of cues in the cue list are mastered by the fader level.
 
@@ -59,7 +57,7 @@ the <Keys.ContextKey>Cog</Keys.ContextKey> button at the top of the window).
 -   You can snap back to the previous cue by pressing the <Keys.HardKey>Snap Back</Keys.HardKey>
     button *(not on all consoles)*.
 
--   On consoles with a <Keys.HardKey>Snap</Keys.HardKey> button, when you turn on the <Keys.HardKey>Snap</Keys.HardKey> button the <Keys.HardKey>Prev</Keys.HardKey>/<Keys.HardKey>Next</Keys.HardKey> buttons will snap immediately to the cue rather than going to the previous/next cue using the programmed times. There is also a [User Setting](../system-settings/user-settings.md#chase-snap) <Keys.SoftKey>Chase Snap</Keys.SoftKey> which enables this mode on consoles which don't have the
+-   Turning on the <Keys.HardKey>Snap</Keys.HardKey> button will cause the <Keys.HardKey>Prev</Keys.HardKey>/<Keys.HardKey>Next</Keys.HardKey> buttons to snap immediately to the cue rather than going to the previous/next cue using the programmed times. There is also an option **Chase snap** in the **General** tab of [User Settings](../system-settings/user-settings.md#general) which enables this mode on consoles which don't have the
     button.
 
 -   You can jump directly to a cue by pressing <Keys.HardKey>Connect/Cue</Keys.HardKey>, then typing in the desired cue number, then pressing <Keys.HardKey>Enter</Keys.HardKey> or softkey A. <br/>

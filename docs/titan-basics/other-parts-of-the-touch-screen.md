@@ -81,8 +81,6 @@ pull-out keyboard.
 
 ![D9 Tools button](/docs/images/Tools-Button-D9.png)
 
----
-
 If you click/touch on 'Tools', you will get a menu giving you access
 to some configuration functions (these options may change slightly
 depending on the console).

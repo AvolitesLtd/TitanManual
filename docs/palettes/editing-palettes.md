@@ -67,8 +67,8 @@ the colour attributes would not be merged in)*.
 When double clicking a palette button to update, the default option is
 **Quick Merge**.
 
--   You can set the console to ["Always Merge"](../system-settings/user-settings.md#prompt-replace)
-    (so it doesn't ask you) using the  [User Settings](../system-settings/user-settings.md).
+-   You can set the console to **Always Merge**
+    (so it doesn't ask you) using the  [User Settings](../system-settings/user-settings.md#handles).
     You can also press the palette button a second time to select the **Merge** option.
 
 -   You can add settings for additional fixture types to a palette without affecting

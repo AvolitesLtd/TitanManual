@@ -46,7 +46,7 @@ Here are some other useful things to know:
     fixtures are currently selected.
 
 -   Press <Keys.HardKey>Clear</Keys.HardKey> (right of numeric keys) to deselect all fixtures and
-    remove all changes from the programmer. See the [next section](./controlling-fixtures.md#clearing-selection) for
+    remove all changes from the programmer. See the [next section](./controlling-fixtures.md#clearing-the-fixture-selection-and-the-programmer) for
     more Clear options.
 
 -   Once you have changed any attribute, pressing a Select button will

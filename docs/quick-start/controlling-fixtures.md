@@ -23,7 +23,7 @@ fixture. Display shows which attribute each wheel is controlling.
 [Open Attribute window](../controlling-fixtures/changing-fixture-attributes.md#attribute-editor-window) on-screen (<Keys.HardKey>Open/View</Keys.HardKey> then one of the attribute
 bank buttons such as <Keys.HardKey>Position</Keys.HardKey> or <Keys.HardKey>Intensity</Keys.HardKey>) to select attributes
 from buttons and to control sub-fixtures of battens/arrays.
-(See [Fixtures with Multiple Cells](../controlling-fixtures.md#fixtures-with-multiple-cells-subfixtures)).
+(See [Fixtures with Multiple Cells](../controlling-fixtures.md#fixtures-with-multiple-cellssubfixtures)).
 
 Use Palettes to store often-used colours, positions etc. for instant
 recall, see next page.

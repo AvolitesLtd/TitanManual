@@ -45,20 +45,20 @@ you can choose which one is connected to the controls using the <Keys.HardKey>Co
 
 -   Disconnect a playback from the controls by double pressing <Keys.HardKey>Connect/Cue</Keys.HardKey>.
 
--   You can turn off the **"Auto Connect"** option in the
-    [User Settings > Wheels menu](../system-settings/user-settings.md#auto-connect)
+-   You can turn off the **Auto Connect** option in the **Wheels** tab of the
+    [User Settings](../system-settings/user-settings.md#wheels)
     if you don't want to connect to a playback when
     you fire it. You will have to use the <Keys.HardKey>Connect/Cue</Keys.HardKey> button to manually
     connect the playback for control if you do this.
 
--   There is a further option "Auto View on Connect" in the
-    [User Settings > Wheels menu](../system-settings/user-settings.md#auto-view-on-connect)
+-   There is a further option **Auto View on Connect** in the **Wheels** tab of the
+    [User Settings](../system-settings/user-settings.md#wheels)
     which will automatically open the
     [view window](editing-a-chase.md#opening-a-chase-for-editing)
     for a playback when you fire it. *This is useful to keep the
     correct view open as you swap between chases.*
 
-> Normally if you change the speed or crossfade of a chase on the wheels, the new setting is saved. However you can set this change to be temporary, so that when the show is reloaded the speed and fade will go back to the previously saved settings. Go to [User Settings](../system-settings/user-settings.md) (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>User Settings</Keys.SoftKey>), in the Times tab set the option **[Connected View Sets](../system-settings/user-settings.md#connected-view-sets)** to **Temporary Speed**. You can still save a temporary speed by pressing <Keys.SoftKey>Save Temporary Speed</Keys.SoftKey> in the Set Times menu.
+> Normally if you change the speed or crossfade of a chase on the wheels, the new setting is saved. However you can set this change to be temporary, so that when the show is reloaded the speed and fade will go back to the previously saved settings. Go to [User Settings](../system-settings/user-settings.md) (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>User Settings</Keys.SoftKey>), in the **Times** tab of  [User Settings](../system-settings/user-settings.md#times)set the option **Connected View Sets** to **Temporary Speed**. You can still save a temporary speed by pressing <Keys.SoftKey>Save Temporary Speed</Keys.SoftKey> in the Set Times menu.
 
 ## Setting Speed and Crossfade for a Chase
 
@@ -81,7 +81,7 @@ You set the crossfade and speed as follows:
 1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> from the top level menu then the **Select** button of
 the chase.
 2. To set the **crossfade**, press <Keys.SoftKey>XFade</Keys.SoftKey> and type the fade from **0 - 100**. *0 = no fade (the chase will "snap"), 100 = max fade (the chase will move continuously from step to step).*
-3. To set the **speed**, press <Keys.SoftKey>Speed</Keys.SoftKey>, type the new speed, then press <Keys.HardKey>Enter</Keys.HardKey>. *The speed can be set in Beats Per Minute (BPM) or seconds depending in the [User Settings](../system-settings/user-settings.md).*
+3. To set the **speed**, press <Keys.SoftKey>Speed</Keys.SoftKey>, type the new speed, then press <Keys.HardKey>Enter</Keys.HardKey>. *The speed can be set in Beats Per Minute (BPM) or seconds depending on the **Tempo Units** setting in [User Settings](../system-settings/user-settings.md#times).*
 
 There are other options you can set for the chase from this menu
 including [Fixture Overlap](../cues/cue-timing.md#fade-times-and-fixture-overlap),
@@ -90,8 +90,8 @@ which are described in the [Chase Timing](chase-timing.md).
 You can set individual times for each cue in a chase and unlink cues
 from each other so they wait for you to press the Go button. This is
 done using the [Playback View](editing-a-chase.md#opening-a-chase-for-editing),
-or the [<Keys.HardKey>Unfold</Keys.HardKey> function](editing-a-chase.md#editing-a-chase-using-unfold) which is
-described in [Editing a Chase](editing-a-chase.md).
+or the <Keys.HardKey>Unfold</Keys.HardKey> function which is
+described in [Editing a Chase](editing-a-chase.md#editing-a-chase-using-unfold).
 
 You can select whether the chase speed is displayed in seconds or in
 Beats Per Minute (BPM). Press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.SoftKey>User Settings</Keys.SoftKey>, then press <Keys.SoftKey>Tempo Units</Keys.SoftKey> to set the option to <Keys.SoftKey>Tempo Units Seconds</Keys.SoftKey> or <Keys.SoftKey>Tempo
@@ -111,8 +111,8 @@ to resume playback of the chase.
 While the chase is stopped you can use the <Keys.HardKey>Prev Step</Keys.HardKey>/<Keys.HardKey>Next Step</Keys.HardKey>
 buttons *(← and → on some consoles)* next to the <Keys.HardKey>Connect/Cue</Keys.HardKey> button to
 move to the next or previous step. The programmed fade time will be used
-when moving between steps, unless you enable the [user setting <Keys.SoftKey>Chase
-Snap</Keys.SoftKey>](../system-settings/user-settings.md#chase-snap), or press <Keys.HardKey>Snap</Keys.HardKey> button if the console has one.
+when moving between steps, unless you enable the option **Chase
+Snap** in the **General** tab of [User Settings](../system-settings/user-settings.md#general), or press <Keys.HardKey>Snap</Keys.HardKey> button if the console has one.
 
 You can also configure the blue and grey buttons of the playback handle
 to be Stop and Go. This uses the [Key Profiles function](../system-settings/key-profiles.md).

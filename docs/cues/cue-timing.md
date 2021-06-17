@@ -52,8 +52,6 @@ through its fade.
 
 7. Press <Keys.HardKey>Exit</Keys.HardKey> to get out of Edit Times mode.
 
----
-
 -   You can also set independent times for the **IPCGBES** attribute groups,
     and for each individual attribute, *(see
     [Setting Attribute Fade Times for a Cue](#setting-attribute-fade-times-for-a-cue)
@@ -123,8 +121,6 @@ position in the sequence. The sequence number is shown in green in the top right
 hand corner of the fixture select touch buttons.<br/>
   ![Fixtures Window setting Fixture Order](/docs/images/Fixtures-Window-showing-fixture-order.png)
 7. Press <Keys.HardKey>Exit</Keys.HardKey> to finish.
-
----
 
 -   You can set several fixtures to have the same sequence number. This
     means, for example, when used with 

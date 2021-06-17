@@ -27,7 +27,7 @@ To set a fixed fade in time for the shape size, press <Keys.SoftKey>Edit Times</
 from the top menu, then the **playback select** button, then set the
 Delay/Fade times you want.
 
-The [Fade Mode](../cues/playback-options.md#fader-mode) allows you to set mode 0 (fade in), mode 1 (fade in and
+The [Fade Mode](../cues/playback-options.md#cue-fader-mode) allows you to set mode 0 (fade in), mode 1 (fade in and
 out) or mode 3 (crossfade). Mode 2 links fade times to the fader
 position, however we recommend you use the playback Options listed above
 to do this for shapes, and do not use Mode 2.

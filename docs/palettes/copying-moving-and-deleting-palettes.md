@@ -22,8 +22,6 @@ can select multiple palettes - use the <Keys.HardKey>Thro</Keys.HardKey> and <Ke
 add more to the selection - hold down <Keys.HardKey>And</Keys.HardKey> to keep adding them.
 3. Press the empty button where you want it to go.
 
----
-
 -   The <Keys.HardKey>Menu Latch</Keys.HardKey> button latches the **Copy/Move/Link menu**, so you
     can keep copying, moving or linking things without having to keep
     pressing <Keys.HardKey>Copy</Keys.HardKey>. Press <Keys.HardKey>Menu Latch</Keys.HardKey> again to unlatch.

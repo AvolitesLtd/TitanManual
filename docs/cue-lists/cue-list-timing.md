@@ -13,7 +13,7 @@ Time settings are independent for each cue in the cue list. The display
 shows which cue you are working with. You can select which cue is active
 using **Wheel A** or by pressing <Keys.SoftKey>Select Cue Number</Keys.SoftKey> softkey in the **Edit Times** menu for the cue list.
 
-&nbsp;*See the [diagram below](#cue-linking--link-offset) for more information about overlaps and fade times.*
+&nbsp;*See the [diagram below](cue-list-timing.md#cue-linking--link-offset) for more information about overlaps and fade times.*
 
 1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> at the root menu then the **Select** button
 of the Cue List.

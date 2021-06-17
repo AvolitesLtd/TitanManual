@@ -11,13 +11,9 @@ Timelines have a number of options which set how they operate.
 Press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey on the top level menu) then the **select** button for the timeline you wish to edit.
 The default setting is shown in **bold**.
 
----
-
 ## Handle Tab
 
 All options are the same as for a cue, see [Options](../cues/playback-options.md#handle-tab).
-
----
 
 ## Times Tab
 
@@ -26,8 +22,6 @@ All options are the same as for a cue, see [Options](../cues/playback-options.md
 These options let you set the duration and start time of the timeline. These set the loop points when you are using the
 [Loop function](../timelines/timeline-options.md#timecode-tab) or are used to fire the timeline automatically when the timecode is in the correct range.
 They can also be used to set limits on the timeline so you can be sure nothing will happen if you get sent some wayward timecode.
-
----
 
 ## Fader Tab
 
@@ -44,8 +38,6 @@ Kill At Zero | **Off:** Timeline will remain active when the timeline fader is z
 
 > This option is useful for creating a complicated one-shot effect for busking. Create the effect as a timeline using internal timecode and set these options to **Play**/**Stop** - you can fire your effect just by raising the fader and when you lower the fader to zero the effect will reset. Timecode must also be unlinked to create a one-shot effect.
 
----
-
 ## Release Tab
 
 ![Timeline Options: Release](/docs/images/Timeline-Options-Release.png)
@@ -61,8 +53,6 @@ Release Playbacks to Home | Off: LTP attributes are left when when killing playb
 Timeline-Global Release Mask | Sets the Global Release Mask for playbacks triggered by the timeline (default **no attributes released**). Overrides your normal Global Release mask for items triggered by timeline - a warning is shown in the system prompt.
 Timeline-Global Release Time | Sets the Global Release Time for playbacks triggered by the timeline (default **2 seconds**).  Overrides your normal Global Release time for items triggered by timeline.
 
----
-
 ## Timeline Tab
 
 ![Timeline Options: Timeline](/docs/images/Timeline-Options-Timeline.png)
@@ -75,20 +65,15 @@ Loop | **Off**: Internal timecode source does not loop when it reaches End Time<
 
 - The Loop option only operates when timecode is set to an internal timecode source.
 
----
-
-
 ## Timecode Tab
 
 ![Timeline Options: Timecode](/docs/images/Timeline-Options-Timecode.png)
 
 Option              | Action
 ---|-----
-Timecode Source | Sets the timecode source for the Timeline from 1-4 (see [Running a Cue List to Timecode](../cue-lists/cue-list-timing#running-a-cue-list-to-timecode))
-Timecode Source Unlinked | This is the same as the Link button in the timeline view - see [Local timecode controls](../timelines.md#local-timecode-controls)
+Timecode Source | Sets the timecode source for the Timeline from 1-4 (see [Running a Cue List to Timecode](../cue-lists/cue-list-timing.md#running-a-cue-list-to-timecode))
+Timecode Source Unlinked | This is the same as the Link button in the timeline view - see [Local timecode controls](../timelines.md#timecode-linking-and-local-timecode-controls)
 
-
----
 
 ## Time options
 

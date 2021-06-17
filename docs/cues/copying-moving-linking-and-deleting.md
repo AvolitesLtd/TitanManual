@@ -29,8 +29,6 @@ adding them.
 4. Press an empty select button where you want it to go, or if you are copying multiple
 playbacks, where you want them to start.
 
----
-
 -   The <Keys.HardKey>Menu Latch</Keys.HardKey> button latches the **Copy** menu, so you
     can keep copying things without having to keep
     pressing the button. The latched menu will stay active until you
@@ -70,7 +68,6 @@ To delete a cue:
 3. Press the **select** button again (or press <Keys.HardKey>Enter</Keys.HardKey>) to confirm the
 delete
 
----
 
 -   Instead of deleting the cue you can select <Keys.SoftKey>Unassign</Keys.SoftKey>, this will
     remove the cue from the handle but retain it for future use. Go to

@@ -16,14 +16,10 @@ Options tab.
 
 Most of the options are the same as for Cues (see playback [Options](../cues/playback-options.md)), only the additional Chase options are described here.
 
----
-
 ## Handle Tab
 
 All options are the same as for a cue.
 See [Handle](../cues/playback-options.md#handle-tab).
-
---- 
 
 ## Playback Tab
 
@@ -39,7 +35,7 @@ are:
 &nbsp;<Keys.SoftKey>Link according to individual steps</Keys.SoftKey> - Each step in the chase will obey its 
 individual link settings which are set using the
 [Playback View window](editing-a-chase.md#opening-a-chase-for-editing)
-or the [<Keys.HardKey>Unfold</Keys.HardKey> function](editing-a-chase.md#editing-a-chase-using-unfold).
+or the [Unfold function](editing-a-chase.md#editing-a-chase-using-unfold).
 
 <Keys.SoftKey>Always Link Steps</Keys.SoftKey> - The chase will run on its own using the times
 
@@ -58,8 +54,6 @@ Sets what happens at the end of the chase:
 ### Play Order
 Sets the direction of the chase.
 
----
-
 ## Times tab
 
 Flash Fade In, Flash Fade Out and Speed are described in the Cues chapter.
@@ -74,13 +68,9 @@ You can set a speed factor here to speed up or slow down the chase independently
 Sets chase crossfade between steps. If the wheels are connected to the chase,
 the right hand wheel changes the crossfade and the value set will be shown here.
 
----
-
 ## Effects tab
 
 All options here are the same as for cues - see [Effects](../cues/playback-options.md#effects-tab).
-
---- 
 
 ## Release Tab
 

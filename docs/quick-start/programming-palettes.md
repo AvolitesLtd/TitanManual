@@ -44,4 +44,4 @@ so don't use when programming).
 To set [fixture overlap](../palettes/timing-with-palettes.md#manual-fixture-overlap-when-recalling-palettes), type 0-100 then press <Keys.SoftKey>Set Overlap</Keys.SoftKey>, then
 recall the palette.
 
-To set a [fade time for all palettes](../palettes/timing-with-palettes.md#master-time-for-palettes), press Palette then <Keys.SoftKey>Master Time</Keys.SoftKey>.
+To set a [fade time for all palettes](../palettes/timing-with-palettes.md#master-time-and-overlap-for-palettes), press Palette then <Keys.SoftKey>Master Time</Keys.SoftKey>.

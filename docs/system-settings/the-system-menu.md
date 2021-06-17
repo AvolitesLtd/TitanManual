@@ -17,8 +17,6 @@ console because you would normally only change them occasionally, or
 because they can have serious effects on the way the console works and
 you wouldn't want to change them accidentally.
 
----
-
 ## Network Settings
 
 This option sets up networking parameters for the Ethernet ports on the console - further details on how to [control fixtures over a network](../networking/controlling-fixtures-over-a-network.md) are in the [networking section](../networking.md).

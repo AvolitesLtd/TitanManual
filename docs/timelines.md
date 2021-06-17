@@ -88,7 +88,7 @@ When you are linked to a timecode (except Internal Timecode and Winamp), the fir
 
 If timecode is disabled in the **Timecode** menu or the Timecode windows, the time is shown in red.
 
-If the timecode time is within the [start and end times](./timelines/timeline-options#times-tab) but the timeline is not active, the time is shown in orange.
+If the timecode time is within the [start and end times](./timelines/timeline-options.md#times-tab) but the timeline is not active, the time is shown in orange.
 
 ![Timeline disabled](/docs/images/Timeline-Timecode-Disabled.png)
 

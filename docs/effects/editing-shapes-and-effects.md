@@ -56,7 +56,7 @@ You can only edit shapes which are in the programmer; if you fire a cue
 with a shape in it, the shape will not show up in the list of editable
 shapes. To get the shape into the programmer you need to use the Include
 function (see 
-[Using Parts of Existing Cues - the Include Function](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)).
+[Using Parts of Existing Cues - the Include Function](../cues/editing-cues.md#using-parts-of-existing-cues---the-include-function)).
 
 Once the cue is loaded into the programmer using <Keys.HardKey>Include</Keys.HardKey>, if more than
 one shape is running in the programmer, you can select which one is

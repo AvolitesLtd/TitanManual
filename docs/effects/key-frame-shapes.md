@@ -49,8 +49,6 @@ below)
 8. Save the shape to a cue if you want to use it in a show *(see
 [Saving a Key Frame Shape to a Cue](#saving-a-key-frame-shape-to-a-cue))*
 
----
-
 -   You can also use the <Keys.HardKey>Unfold</Keys.HardKey> button to switch the playbacks
     between normal mode and key frame display mode.
 
@@ -136,7 +134,7 @@ or <Keys.SoftKey>On (Linear)</Keys.SoftKey> which ignores the layout and just us
 
 The Phase Master option lets you control the phase of the shape using
 the intensity of a video layer from an Ai server. See
-[Phase Control of Key Frame Shapes from Ai](../synergy/operating-synergy.md#phase-control-of-keyframe-shapes-from-ai)
+[Phase Control of Key Frame Shapes from Ai](../synergy/operating-synergy.md#phase-control-of-key-frame-shapes-from-ai)
 for more details.
 
 ### Parameters for Individual Frames

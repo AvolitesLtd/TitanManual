@@ -36,7 +36,7 @@ Any playback fader on the console can be assigned to act as a master fader, whic
 
 To assign master faders, from the **System** menu select <Keys.SoftKey>Assign Masters</Keys.SoftKey>, or press <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Master</Keys.SoftKey>.
 
->   By default, master faders are stored on the fader page where you created them and will not be accessible from other fader pages. It is often useful to set the master to have a lock or a transparent lock, which makes the master fader remain in position even when the playback page is changed. You can set this from the Options screen for the master, see [Handle Paging](../cues/playback-options.md/#handle-paging).
+>   By default, master faders are stored on the fader page where you created them and will not be accessible from other fader pages. It is often useful to set the master to have a lock or a transparent lock, which makes the master fader remain in position even when the playback page is changed. You can set this from the Options screen for the master, see [Handle Paging](../cues/playback-options.md/#handle-tab).
 
 On the Diamond 9, the rotary encoders at the sides of the touchscreen (or on the Arena the rotary encoders beside the Mini Screen) are very useful as speed masters or group masters - press the encoder to select
 it as a master. Press the Display button below the encoders to show legends for the encoders on the screen if they are not already shown
@@ -451,7 +451,7 @@ in which you selected them.
 If a fade time or an overlap are set this way they are applied only to 
 the immediate next palette recall. If you want to use a certain time or
 overlap for the next few palette recalls then set the values in the **Palettes menu**: press <Keys.HardKey>Palette</Keys.HardKey>, and set <Keys.SoftKey>Master Time</Keys.SoftKey> and <Keys.SoftKey>Master Overlap</Keys.SoftKey> with the softkeys. Also factory macros are provided
-for some most common values, see [Master Time for Palettes](../palettes/timing-with-palettes#master-time-for-palettes).
+for some most common values, see [Master Time for Palettes](../palettes/timing-with-palettes.md#master-time-and-overlap-for-palettes).
 
 If you apply a palette as a "Quick Palette" (i.e. without selecting any
 fixtures) then it will be overridden by the next cue (so if you fade to

@@ -19,7 +19,7 @@ there are multiple Titan consoles on the network, you can manually
 select one from the list.
 
 You need to have Art-Net or sACN output enabled on the console universes 
-that you want to see in Capture. See [Configuring DMX Outputs](../system-settings/dmx-output-mapping#configuring-dmx-outputs).
+that you want to see in Capture. See [Configuring DMX Outputs](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs).
 
 > For linking/sync to work properly the external Capture version must be 2020, 2018 or the last version of Nexum. Older versions of Capture will only partially work.
 

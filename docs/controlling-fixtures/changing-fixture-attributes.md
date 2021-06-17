@@ -48,8 +48,6 @@ attributes up or down by one step. For continuously variable controls like a
 dimmer, touching the roller will set the attribute to full or zero.
 3. Repeat from **step 1** to change other attributes of the selected fixtures.
 
----
-
 Some other things to know about attributes:
 
 ![Toggle Attributes](/docs/images/Toggle-Attributes.png)

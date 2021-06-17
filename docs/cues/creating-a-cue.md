@@ -18,7 +18,7 @@ stored in the Programmer.
 
 The order in which you selected the
 fixtures is also stored, and is used with [effects](../effects.md) and the
-[Fixture Overlap](cue-timing.md#setting-fade-times-and-overlap-for-a-cue)
+[Fixture Overlap](cue-timing.md#fade-times-and-fixture-overlap)
 function. 
 
 When you record a cue, the contents of the Programmer are
@@ -38,12 +38,12 @@ the programmer will override playbacks.
 Fixtures which are in the programmer are shown in mid blue on the [touch
 buttons](../controlling-fixtures.md#selecting-fixtures-and-dimmers-for-control).
 Attributes in the programmer (the things you have changed) are
-shown in cyan on the [attribute displays](../controlling-fixtures/changing-fixture-attributes.md#attribute-wheel-display).
+shown in cyan on the [attribute displays](../controlling-fixtures/changing-fixture-attributes.md#changing-attributes-using-the-wheels).
 
 Firing a cue does not place the values from the cue in the programmer,
 so you can't just turn on a playback and record what you see to another
 cue *(although the Include function lets you do this, see
-[Using Parts of Existing Cues - the Include Function](editing-cues.md#using-parts-of-existing-cues-the-include-function). 
+[Using Parts of Existing Cues - the Include Function](editing-cues.md#using-parts-of-existing-cues---the-include-function). 
 You can also use Record Stage mode to record what you see on stage*).
 
 ## Creating a Cue

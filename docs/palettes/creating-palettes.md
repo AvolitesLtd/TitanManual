@@ -47,7 +47,7 @@ CMY and RGB attributes are calculated and a special "dynamic" value is
 added to colour wheel channels, the console will attempt to match the
 closest fixed colour wheel colour to the selected mix colour.
 
-There is a [User Setting "Minimum Palette Mode"](../system-settings/user-settings.md#minimum-palette-mode)
+There is a [User Setting "Minimum Palette Mode"](../system-settings/user-settings.md#palettes)
 which can force the console to record palettes in **Shared** or **Normal** mode.
 
 ## Storing a Palette
@@ -75,8 +75,6 @@ a palette number and press <Keys.SoftKey>Store</Keys.SoftKey>.
 double tap a blank palette button and the palette will be stored with the
 palette mask set automatically to match the window - Positions only 
 includes P, Colours only C and Beams includes IGBES.
-
----
 
 If you want to record to a physical button, press <Keys.HardKey>Record</Keys.HardKey> then <Keys.HardKey>Palette</Keys.HardKey>. All buttons where you can store the palette will then
 flash, press one to store.
@@ -119,7 +117,7 @@ flash, press one to store.
 
 -   The console will automatically create a legend for your palette
     (unless the
-    [User Setting](../system-settings/user-settings.md#auto-legend) <Keys.SoftKey>Auto Legend</Keys.SoftKey>
+    [User Setting](../system-settings/user-settings.md#palettes) **Auto Legend**
     is set to Off).
     -   **Colours:** a coloured icon is used to show the selected colour. If the
     palette contains fixtures set to different colours, a coloured bar
@@ -157,8 +155,8 @@ flash, press one to store.
     console will record the suitable ones as Global and the others as
     Shared. If the values are different the console will select Normal.
     You can prevent the console from using Global and/or Shared modes
-    using the [Minimum Palette Mode](../system-settings/user-settings.md#minimum-palette-mode)
-    option in the Palettes tab of [User Settings](../system-settings/user-settings.md).
+    using the **Minimum Palette Mode**
+    option in the Palettes tab of [User Settings](../system-settings/user-settings.md#palettes).
 
 ## Nested Palettes
 

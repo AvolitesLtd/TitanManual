@@ -150,7 +150,7 @@ the [BPM Master Options](../running-the-show/playback-controls.md#bpm-master-opt
 Freeze can be useful to temporarily pause
 shapes or chases, or does a blackout if used with an intensity master.
 
-For Scene Master the options are **Disabled**, **Preload Scene Mode**, **Exit Scene Mode**, **Enter Scene Mode**, **Commit Changes**, **Commit Changes and Exit Scene Mode**, **Enter or Exit Scene Mode**, **Enter or Commit Scene Mode**,**Reset Scene Mode**. See [Scene Master](../running-the-show/playback-controls.md/#scene-master).
+For Scene Master the options are **Disabled**, **Preload Scene Mode**, **Exit Scene Mode**, **Enter Scene Mode**, **Commit Changes**, **Commit Changes and Exit Scene Mode**, **Enter or Exit Scene Mode**, **Enter or Commit Scene Mode**,**Reset Scene Mode**. See [Scene Master](../running-the-show/playback-controls.md#scene-master).
 
 ## Changing the Key Profile
 

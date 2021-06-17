@@ -36,8 +36,6 @@ edited.
 4. Various Unfold options are available, the details are below.
 5. Press <Keys.HardKey>Unfold</Keys.HardKey> again to get out of unfold mode.
 
----
-
 -   To **edit** the contents of a cue: Press <Keys.HardKey>Clear</Keys.HardKey> to empty the programmer,
     raise the fader to output the cue, make the changes, press <Keys.SoftKey>Record
     Step</Keys.SoftKey>, then the **Select** button for the cue number.

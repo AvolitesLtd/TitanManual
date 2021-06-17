@@ -22,14 +22,12 @@ fixtures it is relevant to.
 2. Press the Palette button you want to recall. The palette will be set
 to the selected fixtures.
 
----
-
 -   You can make palettes fade over a time when you recall them, see
     [Timing with Palettes](timing-with-palettes.md).
 
 -   When a palette is used in the programmer, the touch button will
     light up to indicate this (you can
-    [disable this in the User Settings](../system-settings/user-settings.md#highlight-active-palettes)).
+    disable this in the [User Settings](../system-settings/user-settings.md#palettes)).
     This makes it easier to see which palette you have selected.
 
     ![Active Palette Highlighted](/docs/images/Active-Palette-Highlighted.png)
@@ -67,7 +65,7 @@ pages using the page buttons to the left of the palette buttons.
 
 ## Only Showing Relevant Palettes
 
-If the User Setting [Filter Relevant Palettes](../system-settings/user-settings.md#filter-relevant-palettes)
+If the [User Setting](../system-settings/user-settings.md#palettes) **Filter Relevant Palettes**
 is enabled, when you
 select fixtures any palettes which are not applicable will grey out.
 This is very useful to see which palettes are available for the fixtures
