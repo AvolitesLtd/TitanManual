@@ -1,7 +1,7 @@
 ---
 id: copying-moving-linking-and-deleting
-title: Copying, Moving, Linking and Deleting Cue Lists
-sidebar_label: Copying, Moving, Linking and Deleting Cue Lists
+title: Copying٬ Moving٬ Linking and Deleting Cue Lists
+sidebar_label: Copying٬ Moving٬ Linking and Deleting Cue Lists
 ---
 
 import Keys from '@site/src/components/key.ts';

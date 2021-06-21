@@ -1,7 +1,7 @@
 ---
 id: copying-moving-and-deleting-fixtures
-title: Copying, moving and deleting fixtures
-sidebar_label: Copying, moving and deleting fixtures
+title: Copying٬ moving and deleting fixtures
+sidebar_label: Copying٬ moving and deleting fixtures
 ---
 
 import Keys from '@site/src/components/key.ts';

@@ -1,7 +1,7 @@
 ---
 id: using-multiple-on-screen-workspaces
-title: Using multiple on-screen workspaces
-sidebar_label: Using multiple on-screen workspaces
+title: Using multiple on⁃screen workspaces
+sidebar_label: Using multiple on⁃screen workspaces
 ---
 
 import Keys from '@site/src/components/key.ts';

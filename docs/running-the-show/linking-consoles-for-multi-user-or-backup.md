@@ -1,7 +1,7 @@
 ---
 id: linking-consoles-for-multi-user-or-backup
-title: Linking Consoles for Multi-User or Backup
-sidebar_label: Linking Consoles for Multi-User or Backup
+title: Linking Consoles for Multi⁃User or Backup
+sidebar_label: Linking Consoles for Multi⁃User or Backup
 ---
 
 import Keys from '@site/src/components/key.ts';

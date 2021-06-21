@@ -1,7 +1,7 @@
 ---
 id: copying-moving-and-deleting-palettes
-title: Copying, Moving and Deleting Palettes
-sidebar_label: Copying, Moving and Deleting Palettes
+title: Copying٬ Moving and Deleting Palettes
+sidebar_label: Copying٬ Moving and Deleting Palettes
 ---
 
 import Keys from '@site/src/components/key.ts';

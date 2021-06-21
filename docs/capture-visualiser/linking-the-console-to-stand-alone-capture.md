@@ -1,7 +1,7 @@
 ---
 id: linking-the-console-to-stand-alone-capture
-title: Linking the Console to Stand-Alone Capture
-sidebar_label: Linking the Console to Stand-Alone Capture
+title: Linking the Console to Stand⁃Alone Capture
+sidebar_label: Linking the Console to Stand⁃Alone Capture
 ---
 
 import Keys from '@site/src/components/key.ts';
