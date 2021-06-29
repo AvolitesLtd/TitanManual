@@ -105,41 +105,41 @@ jobs:
     name: Web Build and Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-      with:
-        submodules: recursive
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
 
-    - name: Use Node.js ${{ env.NODE_VERSION }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ env.NODE_VERSION }}
-    - name: npm install, build, and test
-      run: |
-        cd website
-        npm install
-        npm run download
-        npm run build --if-present
-        npm run test --if-present
-    - name: Deploy
-      uses: Pendect/action-rsyncer@v1.1.0
-      env:
-        DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
-      with:
-        flags: '-avzr --delete'
-        options: ''
-        ssh_options: ''
-        src: 'website/build/AvoDocs/'
-        dest: 'root@176.58.122.97:/var/www/sites/avodocs/'
-    - name: AvoDeploy
-      uses: Pendect/action-rsyncer@v1.1.0
-      env:
-        DEPLOY_KEY: ${{secrets.AVO_DEPLOY_KEY}}
-      with:
-        flags: '-avzr --delete'
-        options: ''
-        ssh_options: ''
-        src: 'website/build/AvoDocs/'
-        dest: 'web@51.104.240.248:/var/www/html/manuals/titan/'
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: npm install, build, and test
+        run: |
+          cd website
+          npm install
+          npm run download
+          npm run build --if-present
+          npm run test --if-present
+      - name: Deploy
+        uses: Pendect/action-rsyncer@v1.1.0
+        env:
+          DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
+        with:
+          flags: '-avzr --delete'
+          options: ''
+          ssh_options: ''
+          src: 'website/build/AvoDocs/'
+          dest: 'root@176.58.122.97:/var/www/sites/avodocs/'
+      - name: AvoDeploy
+        uses: Pendect/action-rsyncer@v1.1.0
+        env:
+          DEPLOY_KEY: ${{secrets.AVO_DEPLOY_KEY}}
+        with:
+          flags: '-avzr --delete'
+          options: ''
+          ssh_options: ''
+          src: 'website/build/AvoDocs/'
+          dest: 'web@51.104.240.248:/var/www/html/manuals/titan/'
 
   download:
     name: Versions Page
