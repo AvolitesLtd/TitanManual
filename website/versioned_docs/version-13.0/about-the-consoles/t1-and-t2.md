@@ -1,9 +1,12 @@
 ---
-id: version-13.0-t1-and-t2
+id: t1-and-t2
 title: T1 and T2
 sidebar_label: T1 and T2
 original_id: t1-and-t2
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 T1 and T2 are USB dongles which plug into a PC or laptop (Windows 7 or
 above, 64 bit). Both dongles include an AvoKey.
@@ -20,7 +23,7 @@ the Titan Mobile fader wing.
 ![Titan Two](/docs/images/T2.png)
 
 
-[](https://youtu.be/wO94RvG6agI "T2 USB Interface")
+<Video videoId="wO94RvG6agI" title="T2 USB Interface" />
 
 ---
 

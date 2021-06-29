@@ -1,47 +1,47 @@
 ---
-id: version-13.0-controlling-fixtures-over-a-network
+id: controlling-fixtures-over-a-network
 title: Controlling Fixtures over a Network
 sidebar_label: Controlling Fixtures over a Network
 original_id: controlling-fixtures-over-a-network
 ---
 
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
 Before the console can talk to another device over the network, it has
 to be given a unique network address. This is called its "IP address".
 
-Setting the console's IP address
---------------------------------
+## Setting the console's IP address
 
 We recommend that you use the console's automatic IP setting function.
 However, if you need to you can also set the IP address using Windows
 Control Panel as shown on page 345.
 
-1. Switch to System mode and press \[Network Settings\]
+1. Switch to System mode and press <Keys.SoftKey>Network Settings</Keys.SoftKey>
 
-2. Press \[Local Area Connection\].
+2. Press <Keys.SoftKey>Local Area Connection</Keys.SoftKey>.
 
-3. Press \[Subnet Mask\] and ensure it is set to `255.255.255.0`
+3. Press <Keys.SoftKey>Subnet Mask</Keys.SoftKey> and ensure it is set to `255.255.255.0`
 
 4. Press \[Set IP `2.\*.\*.\*\`]
 
-5. Press \[Save settings\]
+5. Press <Keys.SoftKey>Save settings</Keys.SoftKey>
 
-6. \<Exit\> system mode.
+6. <Keys.HardKey>Exit</Keys.HardKey> system mode.
 
 -   Some equipment may operate on IP addresses 10.\*.\*.\* (softkey D)
     -- see later in this chapter for details.
 
 -   If you need a non-standard IP address range you can use softkey A.
 
-Setting up DMX outputs
-----------------------
+## Setting up DMX outputs
 
 The console has 64 DMX output lines, of which the console itself can
 output 16, with further lines available using networked DMX processing
 nodes. The T1 dongle is limited to one DMX line, T2 to two DMX lines The
 lines may be routed to physical DMX sockets and/or to [network nodes](../networking/controlling-fixtures-over-a-network.md).
 
-A simple Art-Net system
------------------------
+## A simple Art-Net system
 
 There are various different systems for sending lighting control
 information over a network. One of the most widely supported is Art-Net.
@@ -57,8 +57,7 @@ In the following diagram, an Art-Net compliant Console (such as a Titan
 console) is connected via a network hub to an Art-Net compatible dimmer
 and 2 DMX conversion boxes.
 
-![Art Net Explanation
-general](/docs/images/Art-Net-Explanation-general.jpeg)
+![Art Net Explanation general](/docs/images/Art-Net-Explanation-general.jpeg)
 
 Once the system is connected together, the different outputs (or Nodes)
 can be configured.
@@ -96,18 +95,15 @@ Here, the console assigns the following:
 
 -   Line C to Box 2 universe 2 and the dimmer rack
 
-![Art Net Explanation Nodes to
-DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.jpeg)
+![Art Net Explanation Nodes to DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.jpeg)
 
-Setting up an Art-Net system
-----------------------------
+## Setting up an Art-Net system
 
 For this example, it is assumed that you will connect the console to an
 Art-Net DMX output box (such as an Artistic License Net-Lynx) via a
 network hub.
 
-![Art Net Explanation Simple
-System](/docs/images/Art-Net-Explanation-Simple-System.jpeg)Using standard RJ45 Ethernet cables,
+![Art Net Explanation Simple System](/docs/images/Art-Net-Explanation-Simple-System.jpeg)Using standard RJ45 Ethernet cables,
 attach the devices together.
 
 -   If you are using a hub/switch as shown above, use straight-through
@@ -135,7 +131,7 @@ With everything connected, start the console.
 1. Ensure the console has an IP in the 2.x.x.x range as described at
 the start of the chapter.
 
-2. Switch the console to System and select \[DMX Settings\].
+2. Switch the console to System and select <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
 
 3. The DMX Settings window should open.
 
@@ -191,9 +187,7 @@ button.
     properly so the console doesn't known if it is an input or output
     device.
 
-Additional Art-Net Resources
-----------------------------
+## Additional Art-Net Resources
 
 To find out more information about Art-Net please refer to the Art-Net
-Standard published by [Artistic
-Licence](http://www.artisticlicence.com).
+Standard published by [Artistic Licence](http://www.artisticlicence.com).

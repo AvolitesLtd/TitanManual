@@ -1,0 +1,40 @@
+.video {
+  @extend .button;
+  display: block;
+  overflow: hidden;
+  max-height: 90px;
+  padding: 0 10px;
+  margin: 15px 0;
+  cursor: pointer;
+  color: $primary;
+  transition: max-height 1s;
+
+  .video-title {
+    margin: 26px 10px;
+    display: flex;
+    align-items: center;
+
+
+    &:before {
+      margin: 5px 20px 5px 5px;
+      @extend %fa-icon;
+      @extend .fas;
+      font-size: 25px;
+      content: fa-content($fa-var-video);;
+    }
+  }
+
+  .iframe {
+    display: none;
+    width: 100%;
+    padding: 5px;
+  }
+  &.expand {
+    height: 100%;
+    max-height: 1080px;
+    
+    .iframe {
+      display: block;
+    }
+  }
+}

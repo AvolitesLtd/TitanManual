@@ -1,20 +1,23 @@
 ---
-id: version-13.0-playback-options
+id: playback-options
 title: Playback Options
 sidebar_label: Playback Options
 original_id: playback-options
 ---
 
-[](https://youtu.be/Dz_lWDHukxo?t=20 "Playback Options")
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
-To set options for a cue, chase or cue list, press \[Playback Options\]
-on the root menu, then press the **select** button of the playback to be
+<Video videoId="Dz_lWDHukxo" title="Playback Options" />
+
+To set options for a cue, chase or cue list, press <Keys.SoftKey>Playback Options</Keys.SoftKey>
+on the root menu, then press the <strong>select</strong> button of the playback to be
 edited. A list of option categories will open on the softkeys; a window
 will also open giving a touch-friendly version of the playback options.
 
 ![Playback Options window for cue showing playback tab](/docs/images/Playback-Options-Playback-Tab.png)
 
-Click on the \[i\] button for a help window on each setting.
+Click on the <Keys.SoftKey>i</Keys.SoftKey> button for a help window on each setting.
 
 > You can select multiple playbacks if you want to set the options the
 same on all of them. The current option settings will be shown if they
@@ -24,14 +27,14 @@ are the same on all playbacks.
 
 
 ### Blind
-Sets this individual playback to **Blind** mode. The playback
+Sets this individual playback to <strong>Blind</strong> mode. The playback
 will then output only to Visualiser, not to the stage. *This can be very
 useful if you need to program and test a cue during a live show.*
 
 ### Priority
 Allows you to configure how playbacks will behave if you
 turn on two playbacks controlling the same fixture. The priority can be
-set to **Low**, **Normal**, **High**, **Programmer** or **Very High** *(Programmer gives the
+set to <strong>Low</strong>, <strong>Normal</strong>, <strong>High</strong>, <strong>Programmer</strong> or <strong>Very High</strong> *(Programmer gives the
 same level as manually set attributes in the programmer)*. If a fixture
 is being controlled by a playback and you turn on a playback of the same
 or higher priority, then the new playback will take over. However, if
@@ -43,7 +46,7 @@ fixtures, then you decide you want a couple of them to spotlight a
 singer. If you set the spotlight playback to be high priority, then
 while it is active no other playback will affect the spotlight fixtures.
 
-> Priority is useful when using **Swop** buttons for strobe-type effects
+> Priority is useful when using <strong>Swop</strong> buttons for strobe-type effects
 where you want to black out everything else. If you have a position
 shape running on other fixtures, you don't want that to stop during the
 Swop, or it will look messy when you release the Swop button. So set the
@@ -64,7 +67,7 @@ Overlay | Shape continues to run over changes to attributes
 LTP | If attributes are changed, the shape will stop running on those attributes
 
 ### Fader Mode
-This is the same option as set in the [\[Edit Times\]
+This is the same option as set in the [<Keys.SoftKey>Edit Times</Keys.SoftKey>
 menu](cue-timing.md).
 
 Setting | Action
@@ -74,7 +77,7 @@ Mode 1 | HTP channels fade in and out as set by the fade out times (LTP channels
 Mode 2 | Both HTP and LTP channels follow the fader position. *Useful when used with a pan/tilt cue for manually tracking a spot across a stage or down a catwalk using the fader position or for mixing colours on RGB fixtures.*
 Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to the settings in the new cue. All other cues fade out and all other active playbacks become inactive; if you need to re-fire a playback, take the fader to zero and put it up again. *Useful for setting a video playback state.*
 
-[](https://youtu.be/2fwM5S8nX3k?t=20 "Playback Modes")
+<Video videoId="2fwM5S8nX3k" title="Playback Modes" />
 
 ### Run On Startup
 Sets this playback to run when the console powers
@@ -82,8 +85,8 @@ on. This can be disabled by the
 [Auto Run Startup Playbacks](../system-settings/user-settings.md#run-startup-playbacks) option in
 [User Settings](../system-settings/user-settings.md) *(turned on by default)*.
 
-This can be very useful for **unattended applications** to set up an
-**initial lighting state**, or to run **lamp on macros**.
+This can be very useful for <strong>unattended applications</strong> to set up an
+&nbsp;<strong>initial lighting state</strong>, or to run <strong>lamp on macros</strong>.
 
 Power on playbacks show a Power symbol watermark in the playback
 information area above the fader. If you open the
@@ -114,7 +117,7 @@ this playback when it is fired using the flash button. By default these
 are set to *"As In"* and *"As Out"* which will use the fade time set for the
 playback in the [Times menu](cue-timing.md). This option allows you to set a different
 flash action for the playback. *Note that the [Key Profile](../system-settings/key-profiles.md) for the flash
-button must be set to **Timed Flash** for this to work.*
+button must be set to <strong>Timed Flash</strong> for this to work.*
 
 ### Cross Fade HTP
 If on, makes the HTP (dimmer) channels in this cue
@@ -193,7 +196,7 @@ Same as in fader tab, [see above](#shape-size)
 ### Shape & Effect Speed
 Same as in fader tab, [see above](#shape-effect-speed)
 
-> If you have a cue which contains only shapes to overlay on other cues, set the cue to \[Size on Fader\] and allocate a [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters). You can then create lots of different looks out of the shape by varying the size and speed at show time using the playback fader and the speed master.
+> If you have a cue which contains only shapes to overlay on other cues, set the cue to <Keys.SoftKey>Size on Fader</Keys.SoftKey> and allocate a [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters). You can then create lots of different looks out of the shape by varying the size and speed at show time using the playback fader and the speed master.
 
 ## Release Tab
 
@@ -205,15 +208,15 @@ Attribute Bank buttons to set the mask.
 
 The mask can be set to Global or Local. Local means you can make
 individual mask settings for this playback. Global uses the global
-release mask which is set in the **Release menu** (press Release).
+release mask which is set in the <strong>Release menu</strong> (press Release).
 
 > Release mask is useful when creating a temporary strobe
-effect on a playback. Press \[Release Mask\] then the
+effect on a playback. Press <Keys.SoftKey>Release Mask</Keys.SoftKey> then the
 Intensity/Shutter attribute button. Now when you turn off
 the playback the shutter will release to its previous state
 and the strobe will stop.
 
-> When using with chases you need to press \[Mask\] before
+> When using with chases you need to press <Keys.SoftKey>Mask</Keys.SoftKey> before
 pressing the Intensity/Shutter button.
 
 You can use [Key Profiles](../system-settings/key-profiles.md) to

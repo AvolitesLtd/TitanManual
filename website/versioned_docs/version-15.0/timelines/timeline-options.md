@@ -1,12 +1,14 @@
 ---
-id: version-15.0-timeline-options
+id: timeline-options
 title: Timeline Options
 sidebar_label: Timeline options
-original_id: timeline-options
 ---
 
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
 Timelines have a number of options which set how they operate.
-Press \<Options\> (or the \[Options\] softkey on the top level menu) then the **select** button for the timeline you wish to edit.
+Press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey on the top level menu) then the **select** button for the timeline you wish to edit.
 The default setting is shown in **bold**.
 
 ---
@@ -36,9 +38,9 @@ timecode source is being used then this option has no effect.
 
 Option              | Action
 ---|-----
-Fader Raised Action | **No Action**: The internal timecode source is not changed.<br>Play: The internal timecode source is started.
-Fader Zero Action   | **No Action**: The internal timecode source is not changed.<br>Stop: The internal timecode source is stopped. <br>Pause: The internal timecode source is paused at the current time.
-Kill At Zero | **Off:** Timeline will remain active when the timeline fader is zeroed. <br>On: Timeline will be killed when the timeline fader is zeroed.
+Fader Raised Action | **No Action**: The internal timecode source is not changed.<br/>Play: The internal timecode source is started.
+Fader Zero Action   | **No Action**: The internal timecode source is not changed.<br/>Stop: The internal timecode source is stopped. <br/>Pause: The internal timecode source is paused at the current time.
+Kill At Zero | **Off:** Timeline will remain active when the timeline fader is zeroed. <br/>On: Timeline will be killed when the timeline fader is zeroed.
 
 > This option is useful for creating a complicated one-shot effect for busking. Create the effect as a timeline using internal timecode and set these options to **Play**/**Stop** - you can fire your effect just by raising the fader and when you lower the fader to zero the effect will reset. Timecode must also be unlinked to create a one-shot effect.
 
@@ -54,8 +56,8 @@ persisting from previous playbacks.
 
 Option              | Action
 ---|-----
-Override Playback Release | **Off**: The playback's own release settings are used.<br>On: The Timeline-Global release settings override the playback settings.
-Release Playbacks to Home | Off: LTP attributes are left when when killing playbacks.<br>**On**: Attributes will return to home if no previous LTP values are set.
+Override Playback Release | **Off**: The playback's own release settings are used.<br/>On: The Timeline-Global release settings override the playback settings.
+Release Playbacks to Home | Off: LTP attributes are left when when killing playbacks.<br/>**On**: Attributes will return to home if no previous LTP values are set.
 Timeline-Global Release Mask | Sets the Global Release Mask for playbacks triggered by the timeline (default **no attributes released**). Overrides your normal Global Release mask for items triggered by timeline - a warning is shown in the system prompt.
 Timeline-Global Release Time | Sets the Global Release Time for playbacks triggered by the timeline (default **2 seconds**).  Overrides your normal Global Release time for items triggered by timeline.
 
@@ -67,9 +69,9 @@ Timeline-Global Release Time | Sets the Global Release Time for playbacks trigge
 
 Option              | Action
 ---|-----
-Activate In Range | **Activate at 100%**: Timeline will be fired automatically at 100% level when timecode comes within the Start/End time range.<br>Activate at 0%: Will be fired automatically but at 0% level (zero intensity)<br>Off: Timeline will not be activated until manually fired.
-Kill Out Of Range | Off: Timeline will remain active when the timecode goes outside the Start/End time range. <br>**On:** Timeline will be killed when the timecode goes outside the Start/End time range.
-Loop | **Off**: Internal timecode source does not loop when it reaches End Time<br>On: Internal timecode source will loop back to Start Time when it reaches End Time.
+Activate In Range | **Activate at 100%**: Timeline will be fired automatically at 100% level when timecode comes within the Start/End time range.<br/>Activate at 0%: Will be fired automatically but at 0% level (zero intensity)<br/>Off: Timeline will not be activated until manually fired.
+Kill Out Of Range | Off: Timeline will remain active when the timecode goes outside the Start/End time range. <br/>**On:** Timeline will be killed when the timecode goes outside the Start/End time range.
+Loop | **Off**: Internal timecode source does not loop when it reaches End Time<br/>On: Internal timecode source will loop back to Start Time when it reaches End Time.
 
 - The Loop option only operates when timecode is set to an internal timecode source.
 
@@ -90,7 +92,7 @@ Timecode Source Unlinked | This is the same as the Link button in the timeline v
 
 ## Time options
 
-You can also set some options from the Edit Times menu - press \<Time\> (or the \[Edit Times\] softkey on the top level menu) then the **select** button for the timeline you wish to edit.
+You can also set some options from the Edit Times menu - press <Keys.HardKey>Time</Keys.HardKey> (or the <Keys.SoftKey>Edit Times</Keys.SoftKey> softkey on the top level menu) then the **select** button for the timeline you wish to edit.
 
 ### Set Offset
 
@@ -98,9 +100,9 @@ If the timecode you are using has a large offset or you have been given cue timi
 with the timecode source, you can set an offset to make the cues match up instead of having to change
 all the timings. You can also enter small offsets of a few frames if the lighting cues are not quite synchronised properly.
 
-1. In the Edit Times menu press \[Set Offset\].
-2. Using the \[Nudge Amount\] softkey enter a time amount to change the offset by.
-3. Press the \[Add\] or \[Subtract\] softkeys to change the current offset by the amount you set.
+1. In the Edit Times menu press <Keys.SoftKey>Set Offset</Keys.SoftKey>.
+2. Using the <Keys.SoftKey>Nudge Amount</Keys.SoftKey> softkey enter a time amount to change the offset by.
+3. Press the <Keys.SoftKey>Add</Keys.SoftKey> or <Keys.SoftKey>Subtract</Keys.SoftKey> softkeys to change the current offset by the amount you set.
 4. The current offset time is shown in the prompt area while you are setting it.
 
 Once an offset has been set it is shown below the main timecode display in the Timeline View. In the

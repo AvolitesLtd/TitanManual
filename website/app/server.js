@@ -1,6 +1,6 @@
 const nodeStatic = require('node-static');
 const path = require('path');
-const fileServer = new nodeStatic.Server(path.resolve(__dirname,'../build/AvoDocs'))
+const fileServer = new nodeStatic.Server(path.resolve(__dirname,'../build/'))
 const sourceServer = new nodeStatic.Server(path.resolve(__dirname,'sources'))
 const { createServer } = require('http')
 
@@ -64,7 +64,7 @@ class appServer {
             sourceServer.serve(request, response, (se, sres) => {
               // look on sources folder
               if (se && (se.status === 404)) { // file wasn't found anywhere
-                fileServer.serveFile('/404.html', 404, {}, request, response)
+                sourceServer.serveFile('/404.html', 404, {}, request, response)
               }
             })
           }

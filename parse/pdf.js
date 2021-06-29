@@ -3,6 +3,8 @@ const fs = require('fs');
 const avoParse = require('./avoParse')
 const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
+//const console = require('node:console');
+//const console = require('node:console');
 const versions = require(avoParse.paths.versions);
 
 const legalPath = path.join(__dirname,"PDF/legal-en.md");
@@ -89,26 +91,32 @@ function filenameToTitleLink(filename) {
 }
 
 /**
+ * Replaces the headings with lower level so the levels work correctly
+ * @param {string} content Contents of the .md file with YAML block in
+ * @return {string} The content with the headings replaced
+ */
+ function replaceHeadings(content) {
+  content = content.replace(/^### (.*)/gm,"#### $1");
+  content = content.replace(/^## (.*)/gm,"### $1");
+
+  return content;
+}
+
+/**
  * Replaces the YAML block in the file with a heading
  * @param {string} filename Name of the file, e.g. `cues/creating-a-cue.md`
  * @param {string} content Contents of the .md file with YAML block in
  * @return {string} The content with the YAML block replaced
  */
-function replaceYaml(filename,content) {
+function replaceYaml(filename,content,sectionHeading) {
   // matches Yaml block with title
   return content.replace(avoParse.regex.yamlBlockTitle,function (match,title) {
     titleLink = filenameToTitleLink(filename);
-    if (filename.match("/")) {
-      // sub page, e.g.:
-      // # Cues {#cues/creating-a-cue.md}
-      return `## ${title} {${titleLink}}`;
+    let sectionHeadingText = "";
+    if (!filename.match("/")) {
+      sectionHeadingText = `\\pagebreak \n# ${sectionHeading}\n\n`
     }
-    else {
-      // heading page, e.g.:
-      // # {#cues.md}
-      // \part{Cues}
-      return `# ${title} {${titleLink}}`;
-    }
+    return `${sectionHeadingText}## ${title} {${titleLink}}`;
   });
 }
 
@@ -208,7 +216,23 @@ function addImageSpacing(content) {
  * @return {string} The content with the breaks replaced
  */
 function replaceBr(content) {
-  return content.replace(/<br>/gmi," \\newline &ZeroWidthSpace;");
+  return content.replace(/<br\/>/gmi,"&ZeroWidthSpace; \\newline &ZeroWidthSpace;");
+}
+
+/**
+ * Replace key tags with normal tags
+ * @param {string} content Contents of the .md file with the tags in
+ * @return {string} The content with the breaks replaced
+ */
+ function replaceJSX(content) {
+  content = content.replace(/<Keys\.ContextKey>(.*?)<\/Keys\.ContextKey>/gmis,"{$1}");
+  content = content.replace(/<Keys\.HardKey>(.*?)<\/Keys\.HardKey>/gmis,"\\\<$1\\\>");
+  content = content.replace(/<Keys\.SoftKey>(.*?)<\/Keys\.SoftKey>/gmis,"\\\[$1\\\]");
+  content = content.replace(/<Keys\.Annotation>(.*?)<\/Keys\.Annotation>/gmis,"($1)");
+  content = content.replace(/<strong>(.*?)<\/strong>/gmis,"**$1**");
+  content = content.replace(/<em>(.*?)<\/em>/gmis,"*$1*");
+  content = content.replace(/import .*? from '.*?';\n/gmi,"");
+  return content;
 }
 
 /**
@@ -257,24 +281,21 @@ function docsVersionPath(version) {
  */
 function formatMdFiles(docsPath, sidebar, version) {
   let output = "";
-
   if(version == 'next') {
     docs = sidebar.docs;
   }
   else {
-    docs = sidebar[`version-${version}-docs`];
+    docs = sidebar[`version-${version}\/docs`];
   }
 
   let sectionFound = false;
-
-  for(let sec in docs) {
+  for(let index in docs) {
+    let sec = docs[index].label;
     if(!section || section == sec.toLowerCase()) {
       sectionFound = true;
-      for(let page of docs[sec]) {
-        if(version != 'next') {
-          page = page.replace(`version-${version}-`,"")
-        }
-        output += formatMd(docsPath,page+'.md',version);
+      for(let page of docs[index].items) {
+        page = page.id.replace(`version-${version}/`,"")
+      output += formatMd(docsPath,page+'.md',version,sec);
       }
     }
   }
@@ -319,7 +340,7 @@ function resolvePageVersion(filename,version) {
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} The formatted MarkDown
  */
-function formatMd(docsPath,filename,version) {
+function formatMd(docsPath,filename,version,sectionHeading) {
   let filepath = resolvePageVersion(filename,version);
 
   if (!filepath) {
@@ -329,8 +350,11 @@ function formatMd(docsPath,filename,version) {
 
   let content = fs.readFileSync(filepath, 'utf-8');
 
+  // Replace the # headings with lower levels
+  content = replaceHeadings(content);
+
   // replace YAML blocks with title
-  content = replaceYaml(filename,content);
+  content = replaceYaml(filename,content,sectionHeading);
 
   // replace links to md files with the title links created above
   content = replaceLinks(filename,content,docsPath,version);
@@ -343,6 +367,8 @@ function formatMd(docsPath,filename,version) {
 
   // replace <br> tags
   content = replaceBr(content);
+
+  content = replaceJSX(content);
 
   content += "\n\n";
 
@@ -401,6 +427,8 @@ pandoc --template "${options.templatePath}" \
   -M footer-left="${version} Manual" \
   -M subtitle="${version}" \
   -M logo="${options.logoPath}" \
+  -V colorlinks=true \
+  -V block-headings \
   "${filePath}"`;
 
   var hrstart = process.hrtime();

@@ -1,25 +1,26 @@
 ---
-id: version-15.0-t1-and-t2
+id: t1-and-t2
 title: T1 and T2
 sidebar_label: T1 and T2
-original_id: t1-and-t2
 ---
+
+import Video from '@site/src/components/video.tsx';
 
 T1 and T2 are USB dongles which plug into a Windows PC or laptop. See [minimum PC specifications](../titan-basics.md#connecting-up-titan-mobile-and-t1t2) for details of the PC requirements. Both dongles include an AvoKey.
 
-T1 provides a single universe of DMX output on a 5-pin XLR.
+T1 provides a single universe of DMX output on a 5-pin XLR. USB-MIDI devices are not supported.
 
 ![T1 USB DMX Dongle](/docs/images/T1.png)
 
 T2 provides two universes on two 5-pin XLRs and has an input for
-Audio/LTC timecode for external triggering. It also allows the use of a USB MIDI device for MIDI
-triggering of Titan, so you can use MIDI faders, and can be used with
+Audio/LTC timecode for external triggering. It also enables the use of a USB MIDI device for MIDI
+triggering of Titan, which for example would allow you to use a MIDI fader surface, and also allows use of
 the Titan Mobile fader wing.
 
 ![T2 USB DMX Dongle](/docs/images/T2.png)
 
 
-[](https://youtu.be/wO94RvG6agI "T2 USB Interface")
+<Video videoId="wO94RvG6agI" title="T2 USB Interface"></Video>
 
 ---
 

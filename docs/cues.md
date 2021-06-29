@@ -10,14 +10,11 @@ use in your show.
 There are four ways of recording your lighting on Titan.
 
 **Cue:** This is a single look. It may contain movement in the form of
-shapes, and have fade in and fade out times.
-
+shapes, and have fade in and fade out times.<br/>
 **Chase:** This is a timed sequence of cues, often used for an
-individual effect.
-
+individual effect.<br/>
 **Cue List:** This is a linked sequence of cues, usually used to store
-and replay an entire show or an element of a show from a "go" button.
-
+and replay an entire show or an element of a show from a "go" button.<br/>
 **Timeline:** This is a timed sequence of playbacks which would usually be used to 
 replay a complex cue sequence to a piece of recorded music or a timecoded show.
 

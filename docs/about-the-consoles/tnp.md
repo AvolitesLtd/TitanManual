@@ -5,6 +5,11 @@ sidebar_label: TNP (Titan Net Processor)
 description: The TitanNet Processor is the insides of a console without the control surface.
 ---
 
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
+
 ![TNP](/docs/images/TNP.png)
 
 The TitanNet Processor is the insides of a console without the control
@@ -12,17 +17,29 @@ surface. It allows you to expand the number of DMX lines in a show
 beyond the 16 which a console can produce by offloading the processing
 into a separate unit.
 
-\(A\) MIDI and SMPTE connections
 
-\(B\) Network connections.
 
-\(C\) Eight DMX outputs on XLR
+&nbsp;<Keys.Annotation>A</Keys.Annotation> MIDI and SMPTE connections
 
-\(D\) Integral touch screen for local setup and control
 
-\(E\) Power switch
 
-\(F\) USB for keyboard, mouse or memory stick.
+&nbsp;<Keys.Annotation>B</Keys.Annotation> Network connections.
+
+
+
+&nbsp;<Keys.Annotation>C</Keys.Annotation> Eight DMX outputs on XLR
+
+
+
+&nbsp;<Keys.Annotation>D</Keys.Annotation> Integral touch screen for local setup and control
+
+
+
+&nbsp;<Keys.Annotation>E</Keys.Annotation> Power switch
+
+
+
+&nbsp;<Keys.Annotation>F</Keys.Annotation> USB for keyboard, mouse or memory stick.
 
 It is also possible to improve robustness by running the whole show from
 one or more TNP units onstage and having the console simply acting as a

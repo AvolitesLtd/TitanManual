@@ -1,30 +1,29 @@
 ---
-id: version-15.0-other-parts-of-the-touch-screen
+id: other-parts-of-the-touch-screen
 title: Other Parts of the Touch Screen
 sidebar_label: Other Parts of the Touch Screen
-original_id: other-parts-of-the-touch-screen
 ---
 
-The Menu/Softkeys
------------------
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
+## The Menu/Softkeys
 
 On all consoles except Diamond 9, the right hand side of the main touch screen is used for the main menu
 display. These are known as the "Softkeys" and are lettered A-G. On the Diamond 9
 there is a separate Menu touchscreen for the system prompt and the menu
-softkeys to the left of the right-hand screen.
-*(Pearl Expert also has a separate display for the menu.)*
+softkeys to the left of the right-hand screen. *(Pearl Expert also has a separate display for the menu.)*
 
 ![Titan Touch Screen User Interface](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
-If there are more functions than will fit on one screen, \[Previous\]
-and \[Next\] buttons are provided to page through the functions. You can
+If there are more functions than will fit on one screen, <Keys.SoftKey>Previous</Keys.SoftKey>
+and <Keys.SoftKey>Next</Keys.SoftKey> buttons are provided to page through the functions. You can
 either touch the key on screen, or most consoles provide real buttons
 next to the screen.
 
 The vertical bar to the left of the softkeys shows you which menu you
-are currently in. You can \'latch\' the menu to keep the current command
-active (so that you don't have to keep reselecting it) by pressing the
-\<Menu Latch\> button (\<ML Menu\> on Pearl Expert & Tiger Touch 1). The menu
+are currently in. You can 'latch' the menu to keep the current command
+active (so that you don't have to keep reselecting it) by pressing the <Keys.HardKey>Menu Latch</Keys.HardKey> button (<Keys.HardKey>ML Menu</Keys.HardKey> on Pearl Expert & Tiger Touch 1). The menu
 bar turns red when latched. This is useful for example when copying or moving
 playbacks to rearrange the console.
 
@@ -57,20 +56,14 @@ box) and which are currently modified (blue circle).
 The appearance of the softkeys varies to indicate the type of actions
 available:
 
-  ![Softkey - Action](/docs/images/Softkey-Action.png)                                                                      
-  **Action button** - console will carry out the action shown                                     
-  
-  ![Softkey - Option](/docs/images/Softkey-Option.png) 
-  **Option button** - cycles through a range of options   
-  
-  ![Softkey - New Menu](/docs/images/Softkey-New-Menu.png) 
-  **New menu button** - jumps to a new menu   
-  
-  ![Softkey - Text Entry](/docs/images/Softkey-Text-Entry.png) 
-  **Text entry button** - press and enter text using the touch keyboard
+  |   Appearance   | Meaning          |
+  |     ---   | ---          |
+  |   ![Softkey - Action](/docs/images/Softkey-Action.png)   |   **Action button** - console will carry out the action shown      |
+  |   ![Softkey - Option](/docs/images/Softkey-Option.png)   |   **Option button** - cycles through a range of options     |
+  |   ![Softkey - New Menu](/docs/images/Softkey-New-Menu.png)   |   **New menu button** - jumps to a new menu     |
+  |   ![Softkey - Text Entry](/docs/images/Softkey-Text-Entry.png)   |   **Text entry button** - press and enter text using the touch keyboard   |
 
-The Toolbar
------------
+## The Toolbar
 
 On all consoles except Diamond 9 and Sapphire Touch, across the very top of the screen
 is the toolbar.
@@ -82,15 +75,15 @@ meet in the middle.
 
 ![Sapphire Tools Menu](/docs/images/Sapphire-Tools-Menu.png)
 
-On Diamond 9 the toolbar is replaced by a small \{Tools\} button at the top
-left of the right hand touchscreen. There is also a \<Tools\> button on the
+On Diamond 9 the toolbar is replaced by a small <Keys.ContextKey>Tools</Keys.ContextKey> button at the top
+left of the right hand touchscreen. There is also a <Keys.HardKey>Tools</Keys.HardKey> button on the
 pull-out keyboard.
 
 ![D9 Tools button](/docs/images/Tools-Button-D9.png)
 
 ---
 
-If you click/touch on \'Tools\', you will get a menu giving you access
+If you click/touch on 'Tools', you will get a menu giving you access
 to some configuration functions (these options may change slightly
 depending on the console).
 
@@ -100,7 +93,7 @@ depending on the console).
 
 **Control Panel** opens a submenu allowing changes to monitor settings
 and to the USB expert console which links the front panel controls to
-the system. The \'More...\' option opens Windows Control Panel allowing
+the system. The 'More...' option opens Windows Control Panel allowing
 you to change the operating system configuration.
 
 **Touch Screen Setup** (in Control Panel) opens the setup utility which
@@ -135,12 +128,11 @@ software. You would normally only need to use these when upgrading the
 software.
 
 The toolbar also has a keyboard button allowing you to pop up the touch
-keyboard. On Diamond 9 there is a button \<Keyboard\> for this.
+keyboard. On Diamond 9 there is a button <Keys.HardKey>Keyboard</Keys.HardKey> for this.
 
 > Toolbars are not provided on Titan Mobile or Titan Go as all these functions can be carried out using standard Windows operations.
 
-The Heads-Up Display (HUD)
---------------------------
+## The Heads-Up Display (HUD)
 
 The HUD window shows details of what's stored in all the handles (faders
 and buttons) on the console.
@@ -150,8 +142,7 @@ blue if selected.
 
 ![HUD](/docs/images/HUD.png)
 
-Visualiser
-----------
+## Visualiser
 
 ![Visualiser](/docs/images/Capture-Visualiser-Workspace-Window.png)
 
@@ -162,8 +153,7 @@ The visualiser gives you a realistic view of the stage, allowing you to
 pre-program or make changes to your show at home or in your hotel. It
 can also be used in Blind mode for programming during a show.
 
-Undo/Redo
----------
+## Undo/Redo
 
 A short list of recent actions is shown in the prompt area to the left
 of the menu.
@@ -183,7 +173,7 @@ You can touch this window to undo all actions up to the one you touch.
 Once actions have been undone they are shown greyed out, and can be
 redone by touching them.
 
-You can also use the \<Undo\> and \<Redo\> buttons (not on all consoles)
+You can also use the <Keys.HardKey>Undo</Keys.HardKey> and <Keys.HardKey>Redo</Keys.HardKey> buttons (not on all consoles)
 to step through the list.
 
 Some actions cannot be undone which is indicated with the "not allowed"
@@ -193,5 +183,5 @@ symbol as shown below.
 
 If you are in multi-user mode, the Undo History can show a column for
 each user with undo points for that user - open the Context menu and
-select \{Show All Users and Consoles\}. The default setting is \{Show
-Only Current User\}.
+select <Keys.ContextKey>Show All Users and Consoles</Keys.ContextKey>. The default setting is <Keys.ContextKey>Show
+Only Current User</Keys.ContextKey>.

@@ -1,16 +1,18 @@
 ---
-id: version-13.0-multi-user-operation
+id: multi-user-operation
 title: Multi-user Operation
 sidebar_label: Multi-user Operation
 original_id: multi-user-operation
 ---
 
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
 You can connect multiple consoles together to work together on a show.
 You can also have multiple user setups on a show on a single console to
 allow different layouts, for example for a support band LD.
 
-Users
------
+## Users
 
 Each show can have multiple users. Each user has their own user
 settings, key profiles and handle layout (known as a *handle world*).
@@ -27,25 +29,24 @@ key profile.
 
 To change or create users, go to the Users menu.
 
-1. Press the \<Disk\> button.
+1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
 
-2. Press \[Users\].
+2. Press <Keys.SoftKey>Users</Keys.SoftKey>.
 
-3. To switch to a different user, press \[Change Current User\] and
+3. To switch to a different user, press <Keys.SoftKey>Change Current User</Keys.SoftKey> and
 select a new user from the list (the current user is highlighted).
 
-4. To create a new user, press \[Add a User\], enter a name for the new
-user and press \[OK\].
+4. To create a new user, press <Keys.SoftKey>Add a User</Keys.SoftKey>, enter a name for the new
+user and press <Keys.SoftKey>OK</Keys.SoftKey>.
 
 5. You can also quickly change user from the root menu by holding
-\<Avo\> shift and pressing \[User ... \]
+<Keys.HardKey>Avo</Keys.HardKey> shift and pressing <Keys.SoftKey>User ... </Keys.SoftKey>
 
 -   If multiple consoles are connected in a collaborative session, any
     user added to one of the consoles will be available on any of the
     other consoles.
 
-Handle Worlds
--------------
+## Handle Worlds
 
 Each show can have multiple Handle Worlds, each having its own layout of
 handles. This allows each user to have their own layout of cues,
@@ -62,18 +63,18 @@ world is called "Mapping World 1".
 
 Handle Worlds are managed from the Disk menu.
 
-1. Press the \<Disk\> button.
+1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
 
-2. Press \[Handle Worlds\].
+2. Press <Keys.SoftKey>Handle Worlds</Keys.SoftKey>.
 
-3. To switch to a different handle world, press \[Select Handle World\]
+3. To switch to a different handle world, press <Keys.SoftKey>Select Handle World</Keys.SoftKey>
 and select a new handle world from the list (the current one is
 highlighted).
 
-4. To create a new handle world, press \[Add Handle World\], enter a
-name for the new world and press \[OK\].
+4. To create a new handle world, press <Keys.SoftKey>Add Handle World</Keys.SoftKey>, enter a
+name for the new world and press <Keys.SoftKey>OK</Keys.SoftKey>.
 
-5. \[Delete Handle World\] will delete the world, any handles used only
+5. <Keys.SoftKey>Delete Handle World</Keys.SoftKey> will delete the world, any handles used only
 in that world will become unassigned (and can be retrieved using the
 Show Library if needed).
 
@@ -81,12 +82,11 @@ Show Library if needed).
     Show Library workspace and assigned to handles in the current handle
     world.
 
--   The \[Follow World Page Change\] option sets whether the handle page
+-   The <Keys.SoftKey>Follow World Page Change</Keys.SoftKey> option sets whether the handle page
     will change if a user using the same handle world on another console
     changes the page.
 
-Linking to other TitanNet sessions
-----------------------------------
+## Linking to other TitanNet sessions
 
 If multiple Titan consoles are connected in the same network you can
 choose to connect them as multi-user, [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup), or both. This is also how
@@ -97,16 +97,16 @@ you connect TitanNet processors to expand DMX outputs.
 For details of how to connect Titan consoles together on a network, see
 [Networking the Console](../networking.md).
 
-1. Press the \<Disk\> button.
+1. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
 
-2. Press \[TitanNet Sessions\].
+2. Press <Keys.SoftKey>TitanNet Sessions</Keys.SoftKey>.
 
-3. \[Sessions View\] opens a window that shows you how your console is
+3. <Keys.SoftKey>Sessions View</Keys.SoftKey> opens a window that shows you how your console is
 connected to others, and what other TitanNet sessions are available. You
-can touch on another console in the window and click \[Connect\] to
+can touch on another console in the window and click <Keys.SoftKey>Connect</Keys.SoftKey> to
 start a connection, or use the other buttons to leave a session.
 
-4. Or select \[Backup\], \[Multi-User\] or \[Backup & Multi-User\] to
+4. Or select <Keys.SoftKey>Backup</Keys.SoftKey>, <Keys.SoftKey>Multi-User</Keys.SoftKey> or <Keys.SoftKey>Backup & Multi-User</Keys.SoftKey> to
 show a list of sessions which you can connect to. Click on the session
 to start the connection.
 
@@ -123,8 +123,8 @@ to start the connection.
     locally or to save changes back to the Master console.
 
     The toolbar will show details of the master/slave status. Console
-    legends can be changed in the System menu using the \[Console
-    Legend\] option.
+    legends can be changed in the System menu using the <Keys.SoftKey>Console
+    Legend</Keys.SoftKey> option.
 
     ![Shell Slave](/docs/images/Shell-Slave.png)
 
@@ -142,13 +142,13 @@ to start the connection.
     last console to change any attribute will take over control of the
     fixture.
 
-    Slaves can leave a session using the \[Leave Session\] button in the
+    Slaves can leave a session using the <Keys.SoftKey>Leave Session</Keys.SoftKey> button in the
     Sessions View or in the TitanNet menu. The console will restore the
     local show it had loaded prior to joining. Master consoles have the
-    option to \[Terminate Session\].
+    option to <Keys.SoftKey>Terminate Session</Keys.SoftKey>.
 
-    If a console is running as [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup), it has options to \[Takeover\],
-    \[Sync now\] and \[Leave Session\]. If \[Takeover\] is selected, the
+    If a console is running as [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup), it has options to <Keys.SoftKey>Takeover</Keys.SoftKey>,
+    <Keys.SoftKey>Sync now</Keys.SoftKey> and <Keys.SoftKey>Leave Session</Keys.SoftKey>. If <Keys.SoftKey>Takeover</Keys.SoftKey> is selected, the
     console will immediately become the master and take over DMX output
     with the chosen user and handle worlds selected. The console which
     was master will go into a dormant state with DMX disabled.
@@ -156,6 +156,6 @@ to start the connection.
 -   Consoles must be running Titan v8 or above to join a multi-user or
     backup session with another Titan v8 console.
 
-**For Titan Mobile:**
+&nbsp;<strong>For Titan Mobile:</strong>
 
 > Network Discovery must be enabled in the Windows User Profile you are using or consoles will not be able to see each other on the network. Ensure the Windows option \'Turn on network discovery\' is selected in the Network Sharing options.

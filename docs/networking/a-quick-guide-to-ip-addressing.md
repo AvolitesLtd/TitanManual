@@ -13,8 +13,7 @@ Subnet Masks are often set to `255.255.255.0` which means that the `w` `x` and `
 If your IP address is allocated by DHCP then the Subnet Mask is set automatically. Subnet masks are sometimes referred to as `/24` or `/8`, this is the number of bits set to 1 in the mask. Each number in the mask is 8 bits so `255.255.255.0` can also be called `/24`, or `255.0.0.0.` would be `/8`.
 
 
-Choosing an IP address and Subnet Mask
---------------------------------------
+## Choosing an IP address and Subnet Mask
 
 This is the hardest part of setting up a network as a suitable IP address totally depends on what you are using on the network and what IP addresses you can and cannot change. Some older Art-Net equipment is fixed to the address range `2.x.y.z` or `10.x.y.z` which means everything else has to use that range as well. But if none of your equipment is fixed, the address range `192.168.1.x` is often used.
 
@@ -58,16 +57,15 @@ Art-Net Fixtures  | `10.x.y.z` **\*** | `255.0.0.0`
 
 > It's best to avoid using 255 in the IP address because if the unmasked part of an IP address is set to 255, this acts as a broadcast address (for example `192.168.1.255` would be a broadcast address if the mask is `255.255.255.0`, or `10.255.255.255` would be broadcast if the mask is `255.0.0.0`).
 
-If your network is connected to the internet
--------------------------
+## If your network is connected to the internet
 
 If at all possible you should use a dedicated network for lighting with no external connections. However if your network has to be connected to the internet it is important to use one of the following ranges of **private** IP addresses. These are special IP addresses that will not
 be routed onto the internet. They are:
 
 Start Address  | Final Address    | Subnet Mask
 --- | --- | ---
-10.0.0.0 | 10.255.255.255 | 255.0.0.0 (/8)
-172.16.0.0 | 172.31.255.255 | 255.240.0.0 (/12)
-192.168.0.0 | 192.168.255.255 | 255.255.0.0 (/16)
+`10.0.0.0` | `10.255.255.255` | `255.0.0.0` (/8)
+`172.16.0.0` | `172.31.255.255` | `255.240.0.0` (/12)
+`192.168.0.0` | `192.168.255.255` | `255.255.0.0` (/16)
 
 > For Art-Net, the 10.x.y.z range may need to be used if you have devices which are fixed to this address range.

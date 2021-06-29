@@ -1,9 +1,12 @@
 ---
-id: version-14.0-a-quick-guide-to-ip-addressing
+id: a-quick-guide-to-ip-addressing
 title: A quick guide to IP addressing
 sidebar_label: A quick guide to IP addressing
 original_id: a-quick-guide-to-ip-addressing
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 This section attempts to explain the basics of IP addressing, and what
 you will need to know when setting up a lighting control network.
@@ -14,8 +17,7 @@ object (or node or device) on a network must have a unique IP address
 (within this network). This is the same concept as DMX as each fixture 
 requires a unique DMX address, for IP addresses the same is required.
 
-Setting your IP address
------------------------
+## Setting your IP address
 
 The console has a setup function to quickly set its IP address as
 described in the [previous section](controlling-fixtures-over-a-network.md#setting-the-consoles-ip-address).
@@ -27,8 +29,7 @@ any TitanNet devices you are using and any Art-Net fixtures. Beware that
 some Art-Net fixtures have a fixed IP address in the range `2.x.x.x`, in
 which case you have to set the console to that range.
 
-Subnet Masks
-------------
+## Subnet Masks
 
 These are best kept simple. All devices or nodes on a network who wish
 to communicate with each other must have the same subnet mask. The mask
@@ -38,8 +39,7 @@ digit in an IP address must be unique for each fixture. If the part in a
 subnet mask is 255 then this part of the IP address needs to be the same
 for each node.
 
-Choosing an IP address and Subnet Mask
---------------------------------------
+## Choosing an IP address and Subnet Mask
 
 This is the hardest part of setting up a network as your IP address
 totally depends on what you are using on the network and what IP
@@ -60,16 +60,16 @@ TNP               | `192.168.1.31`    | `255.255.255.0`
 Device            | IP Address        | Subnet Mask
 ---               | ---               | ---
 Titan Console     | `2.100.100.100`   | `255.0.0.0`
-Art-Net Fixtures  | `2.x.y.z` **\***  | `255.0.0.0`
+Art-Net Fixtures  | `2.x.y.z` <strong>\</strong>*  | `255.0.0.0`
 
 *Alternatively:*
 
 Device            | IP Address        | Subnet Mask
 ---               | ---               | ---
 Titan Console     | `10.100.100.100`  | `255.0.0.0`
-Art-Net Fixtures  | `10.x.y.z` **\*** | `255.0.0.0`
+Art-Net Fixtures  | `10.x.y.z` <strong>\</strong>* | `255.0.0.0`
 
-**\*** *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
+&nbsp;<strong>\</strong>* *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
 
 ### Titan and TNP outputting over Art-Net (and DMX)
 
@@ -77,7 +77,7 @@ Device            | IP Address        | Subnet Mask
 ---               | ---               | ---
 Titan Console     | `2.100.100.100`   | `255.0.0.0`
 TNP               | `2.100.100.101`   | `255.0.0.0`
-Art-Net Fixtures  | `2.x.y.z` **\***  | `255.0.0.0`
+Art-Net Fixtures  | `2.x.y.z` <strong>\</strong>*  | `255.0.0.0`
 
 *Alternatively:*
 
@@ -85,14 +85,13 @@ Device            | IP Address        | Subnet Mask
 ---               | ---               | ---
 Titan Console     | `10.100.100.100`  | `255.0.0.0`
 TNP               | `10.100.100.101`  | `255.0.0.0`
-Art-Net Fixtures  | `10.x.y.z` **\*** | `255.0.0.0`
+Art-Net Fixtures  | `10.x.y.z` <strong>\</strong>* | `255.0.0.0`
 
-**\*** *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
+&nbsp;<strong>\</strong>* *Where a combination of `x`, `y` and `z` are unique for these fixtures.*
 
 > Never set the last number of an IP address to be 255. This is a special address which will not function correctly.
 
-Automatically assigning IP addresses (DHCP)
--------------------------------------------
+## Automatically assigning IP addresses (DHCP)
 
 There is another way of assigning IP addresses via an automatic system
 called DHCP, where one of the computers on the network will
@@ -104,8 +103,7 @@ most DHCP servers will have a reserved range of "static" addresses
 which can be manually set. You can usually find these out from the
 DHCP server configuration.
 
-Private IP address ranges
--------------------------
+## Private IP address ranges
 
 If your network is connected to the internet it is important to use a
 private IP address range. These are special IP addresses that will not

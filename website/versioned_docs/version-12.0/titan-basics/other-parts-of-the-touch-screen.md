@@ -1,12 +1,14 @@
 ---
-id: version-12.0-other-parts-of-the-touch-screen
+id: other-parts-of-the-touch-screen
 title: Other parts of the touch screen
 sidebar_label: Other parts of the touch screen
 original_id: other-parts-of-the-touch-screen
 ---
 
-The Menu/Softkeys
------------------
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
+## The Menu/Softkeys
 
 (Except Pearl Expert, which has a dedicated display for the menu)
 
@@ -15,8 +17,8 @@ display. These are known as the "Softkeys" and are lettered A-G.
 
 ![Titan Touch Screen User Interface](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
-If there are more functions than will fit on one screen, \[Previous\]
-and \[Next\] buttons are provided to page through the functions. You can
+If there are more functions than will fit on one screen, <Keys.SoftKey>Previous</Keys.SoftKey>
+and <Keys.SoftKey>Next</Keys.SoftKey> buttons are provided to page through the functions. You can
 either touch the key on screen, or most consoles provide real buttons
 next to the screen.
 
@@ -55,13 +57,11 @@ The appearance of the softkeys varies to indicate the type of actions
 available:
 
   ![Softkey](/docs/images/Softkey-Action.png)                                                                                             
-
-----------------
+## 
 
   Action button: console will carry out the action shown                                     Option button: cycles through a range of options   New menu button: jumps to a new menu   Text entry button: press and enter text using the touch keyboard
 
-The toolbar
------------
+## The toolbar
 
 On all consoles except Sapphire Touch, across the very top of the screen
 is the toolbar.
@@ -77,26 +77,26 @@ If you click/touch on \'Tools\', you will get a menu giving you access
 to some configuration functions (these options may change slightly
 depending on the console).
 
-**About** gives you information about the software version.
+&nbsp;<strong>About</strong> gives you information about the software version.
 
-**Help** shows you the online manual.
+&nbsp;<strong>Help</strong> shows you the online manual.
 
-**Control Panel** opens a submenu allowing changes to monitor settings
+&nbsp;<strong>Control Panel</strong> opens a submenu allowing changes to monitor settings
 and to the USB expert console which links the front panel controls to
 the system. The \'More...\' option opens Windows Control Panel allowing
 you to change the operating system configuration.
 
-**Touch Screen Setup** (in Control Panel) opens the setup utility which
+&nbsp;<strong>Touch Screen Setup</strong> (in Control Panel) opens the setup utility which
 allows you to align touch positions on the screen.
 
 USB Expert Console** (in Control Panel) sets up the connection between
 the front panel controls and the software. If you are having problems
 this can be used to troubleshoot.
 
-**Folders** opens the file explorer. You might need this when backing up
+&nbsp;<strong>Folders</strong> opens the file explorer. You might need this when backing up
 show files or when updating the operating software.
 
-**Switch Task** allows you to show other programs (may be needed when
+&nbsp;<strong>Switch Task</strong> allows you to show other programs (may be needed when
 upgrading software) on the touch screen or move them between screens.
 Touch the Switch Screen icon to swap the program between different
 screens. Touch the Centre icon to centre the window on the screen. Touch
@@ -105,15 +105,15 @@ depending on the console.
 
 ![Switch Task](/docs/images/Switch-Task.png)
 
-**Switch Software** allows you to run different versions of Titan
+&nbsp;<strong>Switch Software</strong> allows you to run different versions of Titan
 software (which you will need to install yourself, different versions
 are not installed by default). This can be useful if you need to load
 shows from older versions.
 
-**Additional Programs** allows you to run some diagnostic programs which
+&nbsp;<strong>Additional Programs</strong> allows you to run some diagnostic programs which
 might help Avolites Support find problems you're having.
 
-**Restart** and **Shutdown Software** restarts and closes the Titan
+&nbsp;<strong>Restart</strong> and <strong>Shutdown Software</strong> restarts and closes the Titan
 software. You would normally only need to use these when upgrading the
 software.
 
@@ -122,8 +122,7 @@ keyboard.
 
 > Toolbars are not provided on Titan Mobile or Titan Go as all these functions can be carried out using standard Windows operations.
 
-The Heads-Up Display (HUD)
---------------------------
+## The Heads-Up Display (HUD)
 
 The HUD window shows details of what's stored in all the handles (faders
 and buttons) on the console.
@@ -133,8 +132,7 @@ blue if selected.
 
 ![HUD](/docs/images/HUD.png)
 
-Visualiser
-----------
+## Visualiser
 
 ![Visualiser](/docs/images/Capture-Visualiser-Workspace-Window.png)
 
@@ -144,8 +142,7 @@ The [visualiser](../capture-visualiser.md) gives you a realistic view of the sta
 pre-program or make changes to your show at home or in your hotel. It
 can also be used in Blind mode for programming during a show.
 
-Undo/Redo
----------
+## Undo/Redo
 
 A short list of recent actions is shown in the prompt area to the left
 of the menu.
@@ -165,7 +162,7 @@ You can touch this window to undo all actions up to the one you touch.
 Once actions have been undone they are shown greyed out, and can be
 redone by touching them.
 
-You can also use the \<Undo\> and \<Redo\> buttons (not on all consoles)
+You can also use the <Keys.HardKey>Undo</Keys.HardKey> and <Keys.HardKey>Redo</Keys.HardKey> buttons (not on all consoles)
 to step through the list.
 
 Some actions cannot be undone which is indicated with the "not allowed"
@@ -175,5 +172,5 @@ symbol as shown below.
 
 If you are in multi-user mode, the Undo History can show a column for
 each user with undo points for that user - open the Context menu and
-select \[Show All Users and Consoles\]. The default setting is \[Show
-Only Current User\].
+select <Keys.SoftKey>Show All Users and Consoles</Keys.SoftKey>. The default setting is <Keys.SoftKey>Show
+Only Current User</Keys.SoftKey>.

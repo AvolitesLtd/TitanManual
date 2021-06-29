@@ -1,8 +1,7 @@
 ---
-id: version-15.0-remote-control
+id: remote-control
 title: Remote Control
 sidebar_label: Remote Control
-original_id: remote-control
 ---
 
 With the addition of an external Wireless Access Point, the console can

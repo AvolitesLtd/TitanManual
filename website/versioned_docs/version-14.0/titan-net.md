@@ -1,9 +1,12 @@
 ---
-id: version-14.0-titan-net
+id: titan-net
 title: Titan Net Processor Operation
 sidebar_label: Titan Net Processor Operation
 original_id: titan-net
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 A TNP (TitanNet Processor) unit can operate either as a slave unit,
 producing additional DMX lines for a console, or as a simple console for

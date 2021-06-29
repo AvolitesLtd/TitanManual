@@ -1,0 +1,82 @@
+{
+  "version.label": {
+    "message": "12.0",
+    "description": "The label for version 12.0"
+  },
+  "sidebar.docs.category.Introduction": {
+    "message": "Introduction",
+    "description": "The label for category Introduction in sidebar docs"
+  },
+  "sidebar.docs.category.About The Consoles": {
+    "message": "About The Consoles",
+    "description": "The label for category About The Consoles in sidebar docs"
+  },
+  "sidebar.docs.category.Titan Basics": {
+    "message": "Titan Basics",
+    "description": "The label for category Titan Basics in sidebar docs"
+  },
+  "sidebar.docs.category.Patching": {
+    "message": "Patching",
+    "description": "The label for category Patching in sidebar docs"
+  },
+  "sidebar.docs.category.Controlling Fixtures": {
+    "message": "Controlling Fixtures",
+    "description": "The label for category Controlling Fixtures in sidebar docs"
+  },
+  "sidebar.docs.category.Palettes": {
+    "message": "Palettes",
+    "description": "The label for category Palettes in sidebar docs"
+  },
+  "sidebar.docs.category.Effects": {
+    "message": "Effects",
+    "description": "The label for category Effects in sidebar docs"
+  },
+  "sidebar.docs.category.Cues": {
+    "message": "Cues",
+    "description": "The label for category Cues in sidebar docs"
+  },
+  "sidebar.docs.category.Chases": {
+    "message": "Chases",
+    "description": "The label for category Chases in sidebar docs"
+  },
+  "sidebar.docs.category.Cue Lists": {
+    "message": "Cue Lists",
+    "description": "The label for category Cue Lists in sidebar docs"
+  },
+  "sidebar.docs.category.Capture Visualiser": {
+    "message": "Capture Visualiser",
+    "description": "The label for category Capture Visualiser in sidebar docs"
+  },
+  "sidebar.docs.category.Synergy": {
+    "message": "Synergy",
+    "description": "The label for category Synergy in sidebar docs"
+  },
+  "sidebar.docs.category.Running The Show": {
+    "message": "Running The Show",
+    "description": "The label for category Running The Show in sidebar docs"
+  },
+  "sidebar.docs.category.Remote Control": {
+    "message": "Remote Control",
+    "description": "The label for category Remote Control in sidebar docs"
+  },
+  "sidebar.docs.category.Titan Net": {
+    "message": "Titan Net",
+    "description": "The label for category Titan Net in sidebar docs"
+  },
+  "sidebar.docs.category.System Settings": {
+    "message": "System Settings",
+    "description": "The label for category System Settings in sidebar docs"
+  },
+  "sidebar.docs.category.Fixture Personalities": {
+    "message": "Fixture Personalities",
+    "description": "The label for category Fixture Personalities in sidebar docs"
+  },
+  "sidebar.docs.category.Networking the Console": {
+    "message": "Networking the Console",
+    "description": "The label for category Networking the Console in sidebar docs"
+  },
+  "sidebar.docs.category.Titan Commands": {
+    "message": "Titan Commands",
+    "description": "The label for category Titan Commands in sidebar docs"
+  }
+}

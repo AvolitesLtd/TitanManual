@@ -1,8 +1,7 @@
 ---
-id: version-15.0-effects
+id: effects
 title: Shapes and Effects introduction
 sidebar_label: Shapes and Effects introduction
-original_id: effects
 ---
 
 The **Shape Generator** in Titan (sometimes known as an Effects Generator on

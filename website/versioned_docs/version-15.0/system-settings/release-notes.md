@@ -1,8 +1,7 @@
 ---
-id: version-15.0-release-notes
+id: release-notes
 title: Release Notes
 sidebar_label: Release Notes
-original_id: release-notes
 ---
 
 The Release Notes contain details about features added, improvements,

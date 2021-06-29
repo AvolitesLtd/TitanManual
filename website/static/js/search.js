@@ -30,7 +30,7 @@ if (version == "") {
 }
 
 $.ajax({
-  url: '/js/index/index-' + version + '-' + lang + '.json',
+  url: '/search-index.json',
   dataType: 'application/json',
   complete: function(data){
     fuse.list = JSON.parse(data.responseText);

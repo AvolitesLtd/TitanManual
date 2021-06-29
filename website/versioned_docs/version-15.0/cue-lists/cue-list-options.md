@@ -1,14 +1,16 @@
 ---
-id: version-15.0-cue-list-options
+id: cue-list-options
 title: Cue List Options
 sidebar_label: Cue List Options
-original_id: cue-list-options
 ---
 
-Cue list options are set from the playback [Options](../cues/playback-options.md). 
-Press \<Options\> (or the \[Options\] softkey on the top level menu) then the **Select** button for the cue list you wish to edit.
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
-You can also set the cue list options from the Cue List View window by pressing \<Open/View\>
+Cue list options are set from the playback [Options](../cues/playback-options.md). 
+Press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey on the top level menu) then the **Select** button for the cue list you wish to edit.
+
+You can also set the cue list options from the Cue List View window by pressing <Keys.HardKey>Open/View</Keys.HardKey>
 then the **Select** button of the cue list, then click the **Options** tab.
 
 The Cue List options are mostly the same as for [Cues](../cues/playback-options.md) and [Chases](../chases/chase-options.md), only
@@ -35,20 +37,21 @@ Sets what will happen at the end of the cue list
 Setting | Action
 --- | ---
 Stop on final cue | Cue list will stop advancing once it reaches the last cue.
-Loop | Cue list will go back to first cue after the last.* If Move in Dark is enabled, this will also loop.*  *(default)*
+**Loop** | Cue list will go back to first cue after the last. *If Move in Dark is enabled, this will also loop.*  
 
 ### Move In Dark
 Sets the mode for the whole cue list *(see [Move In Dark (MID) Functions](cue-list-playback.md#move-in-dark-mid-functions))*.
 
 Setting | Action
 --- | ---
-Off | Obeys settings for individual cues *(default option)*
+**Off** | Obeys settings for individual cues *(default option)*
 Disabled | No move in dark even if set in cues
 Early | Moves as soon as fixture intensity is 0
 Late | Moves in the last cue before the fixture is needed
 
 ### Shape Tracking
 Sets how shapes are tracked between cues.
+
 Setting | Action
 --- | ---
 Off | Shapes will stop when the next cue starts
@@ -86,11 +89,11 @@ When the fader is in **Manual Crossfader** mode:
 - When firing a cue list in manual crossfade the intensity snaps to full when the fader leaves zero.
 - [Shapes](../effects/shape-generator.md) and [Pixel Mapper](../effects/pixel-mapper.md) effects will fade in with the manual crossfade, but when the fader returns to 0 they are not removed so may still affect the output.
 - [Autoloads](../cue-lists/creating-a-cue-list.md#autoloading-a-playback-within-a-cue-list) in the cue list will use their programmed fade times, regardless of the manual crossfade performed by the fader.
-- Partially completed crossfades can be completed by pressing \<Go\>.
+- Partially completed crossfades can be completed by pressing <Keys.HardKey>Go</Keys.HardKey>.
 
 ### Fire First Cue
 Sets whether the first cue automatically fires when
-the fader is raised, or if you need to press the \<Go\> button to fire it.
+the fader is raised, or if you need to press the <Keys.HardKey>Go</Keys.HardKey> button to fire it.
 
 --- 
 
@@ -110,5 +113,5 @@ not programmed in the next cue. This can be useful for creating
 some effects.
 
 > The **Cue Options** which could be set here in previous versions are now set using the Playback View window,
-press \<Open/View\> then the select button for the playback. You can edit cue settings directly in the grid.
+press <Keys.HardKey>Open/View</Keys.HardKey> then the select button for the playback. You can edit cue settings directly in the grid.
 

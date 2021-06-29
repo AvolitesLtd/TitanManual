@@ -1,9 +1,12 @@
 ---
-id: version-14.0-setting-up-the-remote
+id: setting-up-the-remote
 title: Setting up the Remote
 sidebar_label: Setting up the Remote
 original_id: setting-up-the-remote
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 All you need to do is make sure that the console is on the same network
 as your mobile device. The app will automatically detect all the
@@ -17,8 +20,7 @@ internet rather than between the remote and the console. If the
 remote does not work properly, disconnect your router from the
 network.
 
-Using an Existing Network
--------------------------
+## Using an Existing Network
 
 If you are connecting to an existing network, DHCP will probably be
 enabled which will automatically set suitable IP addresses on the
@@ -29,8 +31,7 @@ If the console is set to have a fixed IP address you will need to
 manually set a suitable IP address for the network - *consult the person
 who manages the network*, or read more about [Networking the Console](../networking.md).
 
-Network Setup using a Dedicated Access Point
---------------------------------------------
+## Network Setup using a Dedicated Access Point
 
 This is a basic setup assuming that the console is connected directly to
 an access point. For information on setting up your Wireless Access
@@ -53,9 +54,9 @@ the DHCP server. Take note of the name of the wireless network (SSID).
 2. Connect an Ethernet cable from the back of the console to the access
 point.
 
-3. Set the IP address of the console: from the **System** menu (\<Avo\> + \<Disk\>), select
-\[Network Settings\], press \[Local Area Connection\], then press \[Set
-IP 10.\*.\*.\*\].
+3. Set the IP address of the console: from the <strong>System</strong> menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), select
+<Keys.SoftKey>Network Settings</Keys.SoftKey>, press <Keys.SoftKey>Local Area Connection</Keys.SoftKey>, then press <Keys.SoftKey>Set
+IP 10.\*.\*.\*</Keys.SoftKey>.
 
 4. On the mobile device, go to WiFi settings or Network Settings and
 ensure WiFi is set to on.

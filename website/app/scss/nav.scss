@@ -1,13 +1,18 @@
-@import '../../scss/variables';
-@import "../../scss/fontawesome/fontawesome";
-@import "../../scss/fontawesome/regular";
-@import "../../scss/fontawesome/solid";
-@import "../../scss/fontawesome/brands";
+@import '../../src/css/variables';
+$fa-font-path: "/fontawesome/webfonts";
+$avolites-font-path: "/avolites-icons";
+
+@import "../../src/css/fontawesome/fontawesome";
+@import "../../src/css/fontawesome/regular";
+@import "../../src/css/fontawesome/solid";
+@import "../../src/css/fontawesome/brands";
 
 $wincntrlsHeight: 28px;
 
 body {
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 ::selection {

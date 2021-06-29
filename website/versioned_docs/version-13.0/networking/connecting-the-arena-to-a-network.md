@@ -1,17 +1,19 @@
 ---
-id: version-13.0-connecting-the-arena-to-a-network
+id: connecting-the-arena-to-a-network
 title: Connecting the Arena to a network
 sidebar_label: Connecting the Arena to a network
 original_id: connecting-the-arena-to-a-network
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The Arena console is different to the other Titan consoles because it
 has a built-in network switch and an optical network connection
 (optionally 2 optical connections). **This section applies only to the
 Arena console.**
 
-Optical Connections
--------------------
+## Optical Connections
 
 The optical network connector is a Neutrik opticalCON Duo which uses
 multimode fibre. A single connector is fitted as standard, but a second
@@ -20,8 +22,7 @@ into the Avolites TitanNet Switch (TNS) rack unit which provides
 standard wired Ethernet connections. If you want to connect to a
 different optical switch you should contact Avolites for advice.
 
-Wired Ethernet Outputs
-----------------------
+## Wired Ethernet Outputs
 
 The Arena console has an in-built 1 Gb TitanNet switch (TNS) that is
 directly connected to the console Main board on network connection 1.
@@ -38,26 +39,24 @@ address. When the controller IP address is set, the network switch will
 use the next one (for example controller `10.19.0.50`, network switch
 becomes `10.19.0.51`)
 
-Changing the IP address of the Titan Network Switch (TNS)
----------------------------------------------------
+## Changing the IP address of the Titan Network Switch (TNS)
 
 The controller and network switch IP address do not need to be changed
 unless they overlap other devices on the network. The factory default is
 `10.19.aa.bb` where `aa.bb` is the serial number of the console *(e.g. `10.19.01.124` is
-serial number **379** or **255+124**)*.
+serial number <strong>379</strong> or <strong>255+124</strong>)*.
 
 To change the IP address of the TNS in the console:
 
-1. Open **USB Expert Console** from the **Tools** menu
+1. Open <strong>USB Expert Console</strong> from the <strong>Tools</strong> menu
 
 2. Select the TNS panel
 ![USB Expert Tools - TNS Panel](/docs/images/USB-Expert-Tools-TNS-Panel.png)
 
-3. In the **IP Address Dialog**, set the new IP address.
+3. In the <strong>IP Address Dialog</strong>, set the new IP address.
 ![USB Expert Tools - TNS Panel - IP Address Dialog](/docs/images/USB-Expert-Tools-TNS-Panel-IP-Address-Dialog.png)
 
-Power and UPS behaviour 
------------------------
+## Power and UPS behaviour 
 
 The TitanNet switch in the console runs from the same UPS as the console
 itself, so if power fails the switch will continue working.

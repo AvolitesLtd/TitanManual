@@ -1,9 +1,11 @@
 ---
-id: version-15.0-dmx-output-mapping
+id: dmx-output-mapping
 title: DMX Output Mapping
 sidebar_label: DMX Output Mapping
-original_id: dmx-output-mapping
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 There are various ways to connect fixtures to the console. As well as
 the XLR sockets on the console, [you can connect fixtures using Ethernet](../networking/controlling-fixtures-over-a-network.md)
@@ -22,10 +24,9 @@ single console to 16, but performance of the console will be
 degraded. A warning will be shown in the processing load section of
 the TitanNet overview.
 
-Configuring DMX Outputs
------------------------
+## Configuring DMX Outputs
 
-From the **System** menu (press \<Avo\> + \<Disk\>) select \[DMX Settings\].
+From the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
 
 The window will initially show the node tab relating to the console
 itself. It shows a list of available DMX *nodes* (places where you can
@@ -50,24 +51,24 @@ the line it is assigned to.
 
 ![Node in DMX Settings Window](/docs/images/Node-in-DMX-Settings-Window.png)
 
-To delete a node from the DMX lines, click on the \{X\} button. To delete
-all nodes from a line, click on the **Group delete button** (the \{X\} button 
-on the DMX line). To delete all nodes from all lines, click on the \{X\} 
+To delete a node from the DMX lines, click on the <Keys.ContextKey>X</Keys.ContextKey> button. To delete
+all nodes from a line, click on the **Group delete button** (the <Keys.ContextKey>X</Keys.ContextKey> button 
+on the DMX line). To delete all nodes from all lines, click on the <Keys.ContextKey>X</Keys.ContextKey> 
 button close to the header DMX lines.
 
 In order to change the assignment, i.e. to assign a node to a different line,
-you need to delete it from the line it is assigned to (by clicking on the \{X\})
+you need to delete it from the line it is assigned to (by clicking on the <Keys.ContextKey>X</Keys.ContextKey>)
 first - the node now appears as unassigned on the left hand side - and can now
 assign it to a different line.
 
 When patching Art-Net and sACN nodes you can patch a number of universes
 in one go: select the first node you want to assign (i.e. sACN: Universe 1) on the left 
-hand side enter values for \[Universe\] and \[Quantity\] with the softkeys, and then
+hand side enter values for <Keys.SoftKey>Universe</Keys.SoftKey> and <Keys.SoftKey>Quantity</Keys.SoftKey> with the softkeys, and then
 click on the line from which on you want to assign this. Titan will then patch 
 the number of universes on consecutive lines.
 
 You can show information about the DMX nodes once they are assigned, or the DMX output
-modules, by clicking the \{Cog\} button. For Ethernet/network type nodes, this allows you
+modules, by clicking the <Keys.ContextKey>Cog</Keys.ContextKey> button. For Ethernet/network type nodes, this allows you
 to set detailed properties such as IP address ranges and net masks.
 
 ![DMX Output in DMX Settings Window](/docs/images/DMX-Output-in-DMX-Settings-Window.png)
@@ -78,15 +79,14 @@ the tabs across the top of the screen.
  > When transferring shows between different console types, and especially when you have used the simulator, it's a good idea to check the DMX output settings to make sure the settings are what you expected. If you created a new show on the simulator, no outputs will be connected.
 
 
-Module Properties
------------------
+## Module Properties
 
 A module is a method of sending DMX (such as Art-Net, or sACN) and can be
 thought of as a collection of nodes.
 
 You can set properties for DMX512 outputs, Art-Net or sACN by going to the DMX Settings
-window (from the **System** menu (press \<Avo\> + \<Disk\>) select \[DMX Settings\]) and then
-click the \{Cog\} icon at the right hand side of the module name.
+window (from the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Settings</Keys.SoftKey>) and then
+click the <Keys.ContextKey>Cog</Keys.ContextKey> icon at the right hand side of the module name.
 
 This allows you to adjust settings for each module, and for the network
 protocols to select which network adapter to use to output the protocol. 
@@ -179,8 +179,7 @@ each one.
 
 > ArtPoll messages can be disabled via a registry setting. This is occasionally needed for Art-Net fixtures which don't support ArtPoll. If you need to do this or if ArtPoll messages aren't being sent when they should be, contact Avolites Support for instructions on how to change this.
 
-DMX Overview
-------------
+## DMX Overview
 
 If you select the DMX Overview tab at the top of the window, you can see
 all the [TNPs](../titan-net.md) which are connected and which output lines they are
@@ -205,18 +204,17 @@ nodes which are no longer found on the TitanNet network, a dialog will
 appear listing nodes in use and available nodes, giving you the option
 to reassign the lines.
 
-DMX Merge
----------
+## DMX Merge
 
 The DMX merge window allows you to set up merging of the local Titan output
 with sACN universes from other sources in a system where you have multiple 
 consoles or processing nodes connected. 
-From the **System** menu (press \<Avo\> + \<Disk\>) select \[DMX Merge Settings\].
+From the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Merge Settings</Keys.SoftKey>.
 
 ![DMX Merge Window](/docs/images/DMX-Merge-Window.png)
 
 To assign a universe to an output port, click on **Patch Titan Lines** or
-**Patch External sACN Merge**, set \[Universe\]
+**Patch External sACN Merge**, set <Keys.SoftKey>Universe</Keys.SoftKey>
 number then click on a port to assign.
 
 To remove an assignment, click on **Clear sACN Merge** then select a port.

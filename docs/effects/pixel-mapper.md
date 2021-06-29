@@ -4,10 +4,12 @@ title: Pixel Mapper
 sidebar_label: Pixel Mapper
 ---
 
-Creating Pixel Mapper effects
------------------------------
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
-[](https://youtu.be/UchvGw2vvU8?t=20 "Pixel Mapping")
+## Creating Pixel Mapper effects
+
+<Video videoId="UchvGw2vvU8" title="Pixel Mapping" />
 
 The Pixel Mapper works on a group of fixtures, which you have set up
 using the
@@ -21,42 +23,31 @@ fixtures as pixels and uses them to output a 2D effect.
 You create effects with the Pixel Mapper as follows:
 
 1. Select the group of fixtures
-
-2. From the top level menu select \[Shapes and Effects\] then \[Pixel
-Mapper\]
-
-3. Select \[Create effect\]. The Pixel Mapper Editor will open with a
+2. From the top level menu select <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then <Keys.SoftKey>Pixel
+Mapper</Keys.SoftKey>
+3. Select <Keys.SoftKey>Create effect</Keys.SoftKey>. The Pixel Mapper Editor will open with a
 blank background. You can overlay your fixture layout on the window, to
-help you see where your fixtures are, by clicking on the \[Fixture
-Overlay 50/50\] context menu button.
+help you see where your fixtures are, by clicking on the <Keys.SoftKey>Fixture
+Overlay 50/50</Keys.SoftKey> context menu button.
 
 ![Effect Editor - Pixel Mapper - New Effect](/docs/images/Effect-Editor-Pixel-Mapper-New-Effect.png)
 
 ### Elements
 
-Click on the \{+\} button at the bottom to add an effect, and choose a
+Click on the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom to add an effect, and choose a
 graphic element. You can **remove** elements by selecting them and clicking
-on the \{Rubbish Bin\} button. The graphic buttons as shown below provide
+on the <Keys.ContextKey>Rubbish Bin</Keys.ContextKey> button. The graphic buttons as shown below provide
 the following elements to animate:
 
 -   Square
-
 -   Circle
-
 -   Triangle
-
 -   Star
-
 -   Fan
-
 -   Spiral
-
 -   Text
-
 -   Scribble *(you draw an image on the touch screen)*
-
 -   Image/bitmap *(loaded from disk)*
-
 -   [Ai media server content](../synergy/operating-synergy.md#lightmap-pixel-mapping-ai-media-content)
 
 ![Effect Editor - Pixel Mapper - Adding an Element](/docs/images/Effect-Editor-Pixel-Mapper-Adding-an-Element.png)
@@ -71,6 +62,8 @@ which will vary depending on the shape but may include:
 - Zoom
 - Rotation
 - Border width
+
+
 > To change the **colour**, click on the **layer name**
 
 ![Effect Editor - Pixel Mapper - Circle on Layer](/docs/images/Effect-Editor-Pixel-Mapper-Circle-on-Layer.png)
@@ -78,7 +71,7 @@ which will vary depending on the shape but may include:
 ### Animations
 
 Then with the graphic element selected on the left hand side, click on
-the \{+\} button again and choose an **Animation** (how your graphic element
+the <Keys.ContextKey>+</Keys.ContextKey> button again and choose an **Animation** (how your graphic element
 will move or change) or **Visual Effect** (which change the appearance of the element).
 The animated effect will show in the black window
 and be output to the fixtures You can add multiple animations which will
@@ -89,21 +82,13 @@ combine to give the overall effect.
 Available animations are:
 
 -   Rotate
-
 -   Slide
-
 -   Zoom
-
 -   Opacity/Fade
-
 -   Random
-
 -   Grid Fit *(elements will accurately align with the pixel grid)*
-
 -   Linear gradient
-
 -   Radial gradient
-
 -   Motion blur *(adds a trail to objects)*
 
 The animation will move or transform the element. It can also "spawn" or
@@ -115,21 +100,14 @@ may vary depending on the particular effect but may include:
 
 
 - Speed *(speed of the movement)*
-
 - Speed Random *(adds a random factor to the speed of each element)*
-
 - Spawn Rate *(sets the rate at which new elements are created)*
-
 - Spawn Random *(adds a random factor to the spawn rate)*
-
 - Spawn For *(sets how many elements will be spawned, after this no more
 will appear)*
-
 - Run For / And Then *(for each element, sets how many cycles it runs for,
 and what happens to it after that - freeze or kill)*
-
 - Direction / Direction Random *(for movement effects only)*
-
 - Start Angle / End Angle *(for rotation effects only)*
 
 Some points about animations:
@@ -144,7 +122,8 @@ Some points about animations:
 
 -   If you specify **Spawn For** or **Run For**, the simulation will stop after
     the specified number of cycles. To restart the simulation, click the
-    **reset** button on the top right of the Effect Editor window.\
+    **reset** button on the top right of the Effect Editor window.
+
     ![Effect Editor - Pixel Mapper - Reset Button](/docs/images/Effect-Editor-Pixel-Mapper-Reset-Button.png)
 
 -   For an effect with a **start point** and **end point**, the number of cycles
@@ -156,8 +135,8 @@ Some points about animations:
 
 If you don't have fixtures connected, you can see how the effect will
 look on the fixtures using the Pixel Mapper preview window - open it by
-double pressing \<Open/View\> then press \[Pixel Mapper
-Preview\] from the window select buttons. A real life view of each effect currently running is shown in
+double pressing <Keys.HardKey>Open/View</Keys.HardKey> then press <Keys.SoftKey>Pixel Mapper
+Preview</Keys.SoftKey> from the window select buttons. A real life view of each effect currently running is shown in
 a button at the bottom of the screen, you can select each of these by
 pressing the button.
 
@@ -215,13 +194,12 @@ left to set these parameters:
     what will happen at the end (**Freeze**, **Kill** or **Stop Spawning**). **Run For**
     defaults to **"Forever"**.
 
-Pixel Mapper Layer Masters
---------------------------
+## Pixel Mapper Layer Masters
 
 You can assign each of the four layers to a master. The master allows
 you to adjust the layer controls in real time. When the master is
-assigned to a fader handle using \<Record\>, \[Create Master\], \[Pixel Mapper\],
-selecting \[Layer 1\] through \[Layer 4\] and finally pressing a handle select key,
+assigned to a fader handle using <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Create Master</Keys.SoftKey>, <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>,
+selecting <Keys.SoftKey>Layer 1</Keys.SoftKey> through <Keys.SoftKey>Layer 4</Keys.SoftKey> and finally pressing a handle select key,
 the fader will control opacity of the layer.
 
 This means you can create cues and palettes which can manipulate the
@@ -232,26 +210,22 @@ editor window.
 
 > Layer masters may require an updated personality file
 
-[](https://youtu.be/rCIIH2-DCNM?t=20 "Advanced Pixel Mapping")
+<Video videoId="rCIIH2-DCNM" title="Advanced Pixel Mapping" />
 
-Stopping pixel map effects with Mask FX
---------------------------
+## Stopping pixel map effects with Mask FX
 
 Using the Mask FX function you can create a playback which will stop the pixel map
 effect on all fixtures or on a group of fixtures.
 
 To create a Mask Effect:
 
-1.	Press \[Mask FX\] on the Shapes and Effects menu.
-
+1.	Press <Keys.SoftKey>Mask FX</Keys.SoftKey> on the Shapes and Effects menu.
 2.	If no fixtures are selected the mask will apply to all fixtures. If some fixtures are selected the mask will only apply to those fixtures.
-
-3.	Press \[Create Mask Pixel Map\]. (The \[Create Mask FX\] button will mask both shapes and pixel map effects.)
-
+3.	Press <Keys.SoftKey>Create Mask Pixel Map</Keys.SoftKey>. (The <Keys.SoftKey>Create Mask FX</Keys.SoftKey> button will mask both shapes and pixel map effects.)
 4.	You should see the mask taking effect on the output - if you store it in a playback, the playback
 	will stop all pixel map effects while it is active (on the fixtures it was programmed for).
 	
-- The \[Clear mask from programmer\] button will remove any mask shapes or mask effects from the programmer for all fixtures.
+- The <Keys.SoftKey>Clear mask from programmer</Keys.SoftKey> button will remove any mask shapes or mask effects from the programmer for all fixtures.
 
 - This function replaces the **Block Effect** function of previous versions. Shows containing Block Effect from previous versions
   will load and work as expected, but they will be renamed "Mask".

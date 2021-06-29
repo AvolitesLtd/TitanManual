@@ -1,8 +1,7 @@
 ---
-id: version-15.0-ports-used-by-titan
+id: ports-used-by-titan
 title: Network Ports used by Titan
 sidebar_label: Network ports used by Titan
-original_id: ports-used-by-titan
 ---
 
 Titan uses the following ports over the network. If your network

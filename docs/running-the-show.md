@@ -1,5 +1,5 @@
 ---
-id: running-the-show 
+id: running-the-show
 title: Running the show
 sidebar_label: Running the show
 ---

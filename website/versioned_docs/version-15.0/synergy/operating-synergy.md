@@ -1,15 +1,16 @@
 ---
-id: version-15.0-operating-synergy
+id: operating-synergy
 title: Operating Synergy
 sidebar_label: Operating Synergy
-original_id: operating-synergy
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Once Titan and the Ai server(s) are [linked up](setting-up.md), you can start controlling
 Ai from the console.
 
-Uploading Content with the Media browser
-----------------------------------------
+## Uploading Content with the Media browser
 
 The Media Browser allows you to upload media content directly to the Ai
 server from the Titan console. You can also create new media banks on
@@ -18,7 +19,7 @@ codec as required by the Ai system. This is very handy when you are
 handed a last-minute media file at the front of house position.
 
 As with other windows, the media browser window is opened from the
-Workspace Window select buttons (double press the \<Open/View\> button to show).
+Workspace Window select buttons (double press the <Keys.HardKey>Open/View</Keys.HardKey> button to show).
 
 ![Ai Media Browser Window](/docs/images/Ai-Media-Browser-Window.png)
 
@@ -32,7 +33,7 @@ at the top to go back up a folder level.
 
 On the right of the window, the media banks on the Ai server are shown.
 Clicking on the bank name will drop down the list of media clips loaded
-in the bank. Click the \{+\} button at the side of the bank name to add a
+in the bank. Click the <Keys.ContextKey>+</Keys.ContextKey> button at the side of the bank name to add a
 new bank. At the top of this column, the available disk space and the
 path on the Ai server where the media is being stored is shown.
 
@@ -59,8 +60,7 @@ are uploaded, any requiring transcoding are added to a queue in Ai. You
 can see the progress of the transcoding by viewing the clips in the
 [Attribute Editor](#attribute-editor-for-controlling-ai-layers), see below.
 
-Media Viewer
-------------
+## Media Viewer
 
 The Video Multi View window allows you to view any of the layers being
 produced by the Ai server, or any of the combined surface outputs. In
@@ -77,8 +77,8 @@ screen with the layers combined.
 
 ![Video Multi View Window adding a stream](/docs/images/Video-Multi-View-Window-adding-a-stream.png)
 
-The context button \[Change Layout\] gives you various possible layouts
-of multiple screens. The \[Titles Shown\] button toggles to show or hide
+The context button <Keys.SoftKey>Change Layout</Keys.SoftKey> gives you various possible layouts
+of multiple screens. The <Keys.SoftKey>Titles Shown</Keys.SoftKey> button toggles to show or hide
 the stream titles at the bottom of the views.
 
 ![Video Multi View Window laout options](/docs/images/Video-Multi-View-Window-laout-options.png)
@@ -98,8 +98,7 @@ Format | Data Rate
 3840x2160p30 | 280Mbps
 3840x2160p60 | 480Mbps
 
-Attribute Editor for Controlling Ai Layers
-------------------------------------------
+## Attribute Editor for Controlling Ai Layers
 
 Once you have selected one or more Ai layers to control from the [Synergy
 Fixtures window](setting-up.md#synergy-fixtures-window), the Attribute Editor lets you play back and manipulate
@@ -132,7 +131,7 @@ server. This means the names you are shown will always match what's
 on the server. It's also good for generative plugins where you
 define the FX names.
 
-> If you select layers then press \<Locate\>, the layer intensity will be set to full but all media and FX will be cleared. This is useful to get a layer back to a known state, but you don't get any output. **To get some output you will need to then select a media clip**.
+> If you select layers then press <Keys.HardKey>Locate</Keys.HardKey>, the layer intensity will be set to full but all media and FX will be cleared. This is useful to get a layer back to a known state, but you don't get any output. **To get some output you will need to then select a media clip**.
 
 The Clip selection window also shows you the progress of clips being
 transcoded by the Ai server.
@@ -146,8 +145,7 @@ fixture. So colour, zoom, position and so on can be stored in a
 palette and used to quickly modify the appearance of the media.
 [Palette fade times](../palettes/timing-with-palettes.md) will also operate as you would expect.
 
-Lightmap: Pixel Mapping Ai Media Content
-----------------------------------------
+## Lightmap: Pixel Mapping Ai Media Content
 
 Often you might want to output video content to lighting fixtures
 patched on the console (for example if you have LED screens with
@@ -163,22 +161,13 @@ to each fixture, which is described in the [next section](#layout-editor-with-ai
 
 1. Using [Attribute Editor](#attribute-editor-for-controlling-ai-layers), **start a media clip playing** on the surface you
 want to use.
-
-2. Select \[Shapes and Effects\], then \[Pixel Mapper\]
-
-3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups.md)** to play back on
-
-4. Add an effect using the \{+\} button
-
-5. Select Ai feed using the **Ai** button
-
-![Adding an element in the Pixel Mapper Window](/docs/images/Adding-an-element-in-the-Pixel-Mapper-Window.png)
-
-6. Select the surface you want to take the media from using the **Source
-Surface** option. You can also adjust the colour balance using the
-**Red/Green/Blue sliders**.
-
-![Ai layer video overlay in Pixel Mapper Window](/docs/images/Ai-layer-video-overlay-in-Pixel-Mapper-Window.png)
+2. Select <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, then <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>.
+3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups.md)** to play back on.
+4. Add an effect using the <Keys.ContextKey>+</Keys.ContextKey> button.
+5. Select Ai feed using the **Ai** button.<br/>
+  ![Adding an element in the Pixel Mapper Window](/docs/images/Adding-an-element-in-the-Pixel-Mapper-Window.png)
+6. Select the surface you want to take the media from using the **Source Surface** option. You can also adjust the colour balance using the **Red/Green/Blue sliders**.<br/>
+  ![Ai layer video overlay in Pixel Mapper Window](/docs/images/Ai-layer-video-overlay-in-Pixel-Mapper-Window.png)
 
 The media clip selected in step 1 should now be playing back over the
 fixtures you selected. The pixel map effect is now linked to the Ai
@@ -188,12 +177,11 @@ fixture outputs.
 
 ![Pixel Mapped fixtures with Ai screen shown in Capture Visualiser](/docs/images/Pixel-Mapped-fixtures-with-Ai-screen-shown-in-Capture-Visualiser.png)
 
-Layout editor with Ai server
-----------------------------
+## Layout editor with Ai server
 
 The basic operation of the Layout Editor is described in [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
 
-The layout editor has some additional functions in the \[Media Options\]
+The layout editor has some additional functions in the <Keys.SoftKey>Media Options</Keys.SoftKey>
 context menu which are useful when setting up fixture layouts for use
 with media content.
 
@@ -223,7 +211,7 @@ layout editor to match where it is in real life.
 Allows you to match the layout grid to the
 resolution or aspect ratio of a surface. When you click this, you will
 be shown a list of the Ai surfaces available. Select one of these and
-softkeys will be shown for \[Width\] and \[Height\], set to the canvas
+softkeys will be shown for <Keys.SoftKey>Width</Keys.SoftKey> and <Keys.SoftKey>Height</Keys.SoftKey>, set to the canvas
 resolution of the surface. You will not normally want to set the layout
 grid to match the video pixels 1:1 as fixture pixels are usually much
 larger than video pixels. But if you change the Width or Height, the
@@ -235,13 +223,12 @@ the correct ratio.
 
 You can also scale fixtures in the Layout Editor to reflect real life
 size, as the default cell layout from the fixture's personality might
-not match other fixtures. Toggle the \[Position and Angle\] context menu
-button until it shows \[Fixture Scale\]. If a multi-celled fixture is
+not match other fixtures. Toggle the <Keys.SoftKey>Position and Angle</Keys.SoftKey> context menu
+button until it shows <Keys.SoftKey>Fixture Scale</Keys.SoftKey>. If a multi-celled fixture is
 scaled down to minimum size, the cells will disappear and it will act as
 a single cell.
 
-Phase control of Key Frame Shapes from Ai
-----------------------------------------
+## Phase control of Key Frame Shapes from Ai
 
 You can control the phase of Key Frame Shapes using the intensity of a
 video layer from Ai. This allows you to create some weird and wonderful
@@ -255,8 +242,7 @@ to use as the video source.
 
 ![Phase Master using Ai screen in Key Frame Shape](/docs/images/Phase-Master-using-Ai-screen-in-Keyframe-Shape.png)
 
-Special function bank/clip numbers
-----------------------------------
+## Special function bank/clip numbers
 
 When selecting banks and clips in the attribute editor, some bank
 numbers have a special function which allows you to access other screens

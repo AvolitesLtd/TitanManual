@@ -1,7 +1,7 @@
 ---
 id: recovering-reinstalling-the-console
-title: Recovering & Reinstalling the Console
-sidebar_label: Recovering & Reinstalling the Console
+title: Recovering and Reinstalling the Console
+sidebar_label: Recovering and Reinstalling the Console
 ---
 
 The console runs on an embedded PC system, and like all computers, there
@@ -30,18 +30,16 @@ found with the recovery creator on the [Avolites website](https://www.avolites.c
 the variety and age of your console there are a number of different
 methods required. The basic procedure is as follows:
 
-Installation Instructions
--------------------------
+## Installation Instructions
 
-1. **If recovering a version earlier than v11.1**, you will need to set the
-console to boot from USB *(see instructions on the [Avolites website](https://www.avolites.com/software/),
+1. **If recovering a version earlier than v11.1**, you will need to set the console to boot from USB *(see instructions on the [Avolites website](https://www.avolites.com/software/),
 which vary depending on your console)*
 
 2. Start console and wait while the memory stick boots up, this can
 take up to 3 minutes.
 
 3. Once the memory stick has booted, the touch screen will display
-\'Welcome to (Console Name)\', touch **Next** to continue.
+'Welcome to (Console Name)', touch **Next** to continue.
 
 4. Please read to the bottom of the licence agreement then touch **Agree**
 to accept.
@@ -61,8 +59,7 @@ required to run. This takes approximately 30 minutes to complete during
 which the console will reboot a number of times. Please do not switch
 off the console during this process.
 
-Software Licensing
-------------------
+## Software Licensing
 
 From v12, the software is licensed using an AvoKey USB device.
 
@@ -74,4 +71,4 @@ relicensing as long as the Avolites hardware is connected.
 
 For more details see https://www.avolites.com/avokey
 
-[](https://youtu.be/86PcC0OzL7E "Licensing")
+<Video videoId="86PcC0OzL7E" title="Licensing" />

@@ -4,14 +4,16 @@ title: Connecting up and Titan basics
 sidebar_label: Connecting up and Titan basics
 ---
 
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
 This section covers how to connect the console up, and the basic things
 you need to know about operating Titan.
 
 > Radio transmitters may affect the operation of the console and we recommend that they are not placed on, above or behind the console. If you are wearing one it is best placed in a back pocket or behind you when attached to a belt.
 
 
-Connecting mains power
-----------------------
+## Connecting mains power
 
 You can safely connect the console to any voltage from 80 to 260V. If
 your console is not fitted with an internal UPS (uninterruptible power
@@ -45,8 +47,7 @@ a backup console is running the show through the network switch in the
 console, as it allows the main console to be power cycled without losing the
 network link to the stage.
 
-Starting up and shutting down
------------------------------
+## Starting up and shutting down
 
 The console runs a Windows-based operating system internally, so you
 need to make sure it is shut down properly rather than just turning off
@@ -64,8 +65,7 @@ from the console.
 
 > If the console has a switch on the power module on the back, do not use this to turn off the console as this does not close down the software properly and you will lose any changes to your show.
 
-Forced Shutdown
----------------
+## Forced Shutdown
 
 To carry out a **Forced Shutdown** of the console, if the normal shut
 down does not work, hold down the power switch for 5 seconds. You will
@@ -82,20 +82,16 @@ switch. When you shut down the console normally, the network switch will
 stay on for about 5 minutes then power off. There is no harm in leaving
 it to do this.
 
-Connecting up Titan Mobile and T1/T2
-------------------------------------
+## Connecting up Titan Mobile and T1/T2
 
 Do not connect the Titan Mobile panel or the T1/T2 dongle to your PC for
 the first time until you have installed the **Titan PC Suite** software,
 which you do simply by running the installer file. This will make sure
 the drivers for the panel are installed.
 
->	**PC specifications:** From Titan v14, your PC should be running Windows 10 64-bit (other versions 
-	may not work correctly and we can't provide you with support). Some users have
-	successfully used Virtual Machines to run Titan, but we don't provide support for them.
-    We recommend i5 processor with 4GB RAM as a minimum.	
-	Please
-  [see https://avolites.com/titan-pc-system-requirements](https://avolites.com/titan-pc-system-requirements/) for the full specification.
+> **PC specifications:** From Titan v14, your PC should be running Windows 10 64-bit (other versions may not work correctly and we can't provide you with support). Some users have successfully used Virtual Machines to run Titan, but we don't provide support for them.
+We recommend i5 processor with 4GB RAM as a minimum.	
+Please [see https://avolites.com/titan-pc-system-requirements](https://avolites.com/titan-pc-system-requirements/) for the full specification.
 
 For best usability, your PC should have a touch screen. If not you can
 use the mouse to select touch buttons.
@@ -129,8 +125,7 @@ AvoKey built into the device.
 -	If you are using an older Titan 1 dongle, you will need to attach an
 	AvoKey to a free USB port to license the software. 
 
-Titan Healthcheck
------------------
+## Titan Healthcheck
 
 When the Titan software starts up, it runs a small utility called Titan
 Healthcheck which checks the file system and the installed firmware and
@@ -143,8 +138,7 @@ problems.
 Only run fixes if you have plenty of time as some fixes can take up to
 an hour to complete.
 
-Connecting DMX Lines
---------------------
+## Connecting DMX Lines
 
 The console communicates with lighting fixtures using the DMX512 system.
 The console itself can output 16 universes of DMX (each 512 control
@@ -185,8 +179,7 @@ end (120 ohm resistor between pins 2 and 3). You should not split the
 DMX lines using passive splitters (Y-splits) as this can corrupt the
 data.
 
-Connecting a Monitor
---------------------
+## Connecting a Monitor
 
 You can connect an additional monitor to the console (2 monitors on
 Diamond 9 and Sapphire Touch). This gives you extra screen space for workspace windows
@@ -198,22 +191,21 @@ touchscreen drivers.
 Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) will also support 2 additional monitors if the PC
 you are using has the facility.
 
-An external monitor is disabled by default and will show a \'disabled\'
-message. To enable, switch to **System** menu (press \<Avo\> + \<Disk\>) and
-select \[Display Setup\] then press \[External Display Disconnected\].
-The option will change to \[External Display Connected\] and the display
+An external monitor is disabled by default and will show a 'disabled'
+message. To enable, switch to **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and
+select <Keys.SoftKey>Display Setup</Keys.SoftKey> then press <Keys.SoftKey>External Display Disconnected</Keys.SoftKey>.
+The option will change to <Keys.SoftKey>External Display Connected</Keys.SoftKey> and the display
 will be enabled.
 
 If you need to change the monitor resolution or settings on a console, touch
-\'Tools\' at the very top of the screen and select \'Control Panel\',
-then \'External Monitor\', then select the option to match the
+'Tools' at the very top of the screen and select 'Control Panel',
+then 'External Monitor', then select the option to match the
 resolution of your monitor.
 
 Click [here](system-settings/external-displays.md) for more information about
 setting up an external monitor.
 
-Other Connections
------------------
+## Other Connections
 
 You can connect a USB keyboard and mouse to the console. If you are
 using an external non-touch monitor on a console without a built-in
@@ -242,10 +234,9 @@ the console. Suitable lamps are available from Avolites. The lamps are
 work). 
 
 - You can set the brightness of the desk lamps from the **System** menu 
-	(press \<Avo\> + \<Disk\>).
+	(press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>).
 
-Connecting Console Wings
-------------------------
+## Connecting Console Wings
 
 "[Wings](./about-the-consoles/fader-wings.md)" are additional control surfaces which can be connected to the
 console to provide more faders and buttons. They connect to the console

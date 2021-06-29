@@ -4,18 +4,22 @@ title: Front Panel Buttons
 sidebar_label: Front Panel Buttons
 ---
 
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
 The Select and Flash buttons associated with fader handles, and the
 macro/executor buttons are configurable and you can use them in various
 ways.
 
-Select and Flash buttons
-------------------------
+## Select and Flash buttons
 
 Each fader handle on the console has buttons associated with it. 
 
-\(A\) **Select** button
 
-\(B\) **Flash** button
+&nbsp;<Keys.Annotation>A</Keys.Annotation> **Select** button
+
+&nbsp;<Keys.Annotation>B</Keys.Annotation> **Flash** button
+
 
 On the **Diamond 9** the buttons are arranged like this for the rotary faders and the linear faders:
 
@@ -30,8 +34,7 @@ On **all other consoles**, the buttons are arranged like this:
 ![Arena Select and Flash](/docs/images/Arena-Select-Flash.png)
 
 
-Key profiles
-------------
+## Key profiles
 
 The console allows you to change the function of the Select and
 Flash panel buttons (and the black buttons on Sapphire Touch). You
@@ -40,8 +43,7 @@ settings as a [Key Profile](../system-settings/key-profiles.md). Different profi
 different users or to enhance the operation of the console for a
 particular use.
 
-Key macro buttons
------------------
+## Key macro buttons
 
 Lighting programming can sometimes require a repeated sequence of button
 presses. You can record sequences of keypresses and play them back with
@@ -68,26 +70,20 @@ corner of the console.
 
 To record a macro:
 
-1. Press the \<Macro\> button (above keypad)
-
-2. Select \[Full Speed\] or \[Real Time\].
-
-3. Press \[Record\]
-
+1. Press the <Keys.HardKey>Macro</Keys.HardKey> button (above keypad)
+2. Select <Keys.SoftKey>Full Speed</Keys.SoftKey> or <Keys.SoftKey>Real Time</Keys.SoftKey>.
+3. Press <Keys.SoftKey>Record</Keys.SoftKey>
 4. Press a suitable empty button on the panel, or an empty button in
 the Macro window on the screen. Recording starts. The Insert/Macro
 button flashes during recording.
-
 5. Press the sequence of buttons you want to record.
-
-6. Press \[Record Macro\] to finish recording.
+6. Press <Keys.SoftKey>Record Macro</Keys.SoftKey> to finish recording.
 
 To play back the macro, just press or touch the button where you
 recorded the macro. The macro will repeat all your button presses, with
 correct timings if you selected Real Time mode.
 
-Keyboard shortcuts
-------------------
+## Keyboard shortcuts
 
 Many features of the console can be controlled by shortcuts on the
 keyboard. These are especially useful when using Titan Mobile or Titan
@@ -137,43 +133,38 @@ Key | Action | | Key | Action
   Alt →    |  Next fixture          | |              |                  |
   Alt ↑    |  All                   | |              |                  |
   Alt ↓    |  Highlight             | |              |                  |
-           |                        | |              |                  |
 
-⇑ means shift\
+⇑ means shift
+
 (num) means on the numeric keypad
 
-Locking the console
--------------------
+## Locking the console
 
 You can place a simple lock on the console controls to prevent people
-fiddling with it while you're not looking. Hold down \<Avo\> and press
-\[Lock\], then type a password (numbers or letters). To unlock, enter
+fiddling with it while you're not looking. Hold down <Keys.HardKey>Avo</Keys.HardKey> and press <Keys.SoftKey>Lock</Keys.SoftKey>, then type a password (numbers or letters). To unlock, enter
 the password again, or restarting the console will also unlock it. After
 a few seconds, the "Enter password" prompt will fade out but will appear
 again if you press buttons or touch the screen. This is not a
 high-security lock, it's just to prevent passing idiots messing with it.
 
 You can set a background image for the lock screen from the Lock Screen
-Background option in the Display (v13: General) tab of User Settings (hold \<Avo\>,
-press \[User Settings\]). The image can be either loaded from a picture
+Background option in the Display (v13: General) tab of User Settings (hold <Keys.HardKey>Avo</Keys.HardKey>,
+press <Keys.SoftKey>User Settings</Keys.SoftKey>). The image can be either loaded from a picture
 file or drawn using the touch screen.
 
-If you load a picture file, the menu option \[Scaling Mode\] sets how
-the picture will be scaled to fill the screen.
+If you load a picture file, the menu option <Keys.SoftKey>Scaling Mode</Keys.SoftKey> sets how
+the picture will be scaled to fill the screen:
 
 -   None: Image is displayed 1:1
-
 -   Letterbox: scales the image until it fills either the width or
     height of the screen, leaving black bars on the other edges of the
     screen.
-
 -   Fill: scales the image until it fills the whole screen, keeping the
     aspect ratio
-
 -   Stretch: scales the image until it fills the whole screen, ignoring
     the aspect ratio
 
-The \[Clear\] softkey will remove the image.
+The <Keys.SoftKey>Clear</Keys.SoftKey> softkey will remove the image.
 
 While the console is locked, all functions are disabled except the DMX
 outputs and currently running playbacks.

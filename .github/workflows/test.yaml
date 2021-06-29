@@ -16,6 +16,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+
     
     - name: Use Node.js ${{ env.NODE_VERSION }}
       uses: actions/setup-node@v1
@@ -24,11 +27,14 @@ jobs:
     
     - name: Install & Build
       run: |
-        cd website
+        cd website/docusaurus-search-local
+        yarn install
+        yarn build
+        cd ../
         npm install
         npm run build
     
     - name: Test
       run: |
         cd website
-        npm run test
+        npm run test-build

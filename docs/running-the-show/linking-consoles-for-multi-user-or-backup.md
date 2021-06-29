@@ -1,8 +1,11 @@
 ---
 id: linking-consoles-for-multi-user-or-backup
-title: Linking Consoles for Multi-User or Backup
-sidebar_label: Linking Consoles for Multi-User or Backup
+title: Linking Consoles for Multi⁃User or Backup
+sidebar_label: Linking Consoles for Multi⁃User or Backup
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 On large shows it is sometimes necessary to have multiple operators
 programming or running different aspects of the show. The Titan system
@@ -19,14 +22,12 @@ transfer control to the backup console.
     PC Suite (Titan Mobile, Titan Go or Simulator) you may need to disable 
     any firewalls on the PC.
 
-Setting Up Consoles for Multi-User
-----------------------------------
+## Setting Up Consoles for Multi-User
 
 Titan consoles may be connected to each other for collaborative
 programming or show operation. See the [Multi-User Operation](../titan-basics/multi-user-operation.md) section for more information.
 
-Setting Up Consoles for Backup
-------------------------------
+## Setting Up Consoles for Backup
 
 Any Titan console can act as backup for any other console, they do not
 have to be the same model. For example you could run Titan Mobile as
@@ -36,19 +37,12 @@ However do plan ahead and think about what parts of your show will
 become inaccessible if the backup device has less faders/handles than
 the main console.
 
-1. Connect both consoles to the same network and ensure they are set to
-  the same IP range.\
+1. Connect both consoles to the same network and ensure they are set to the same IP range.<br/>
   See the [networking section](../networking.md) for more information.
-
-2. On the console which will be the Backup, press \<Disk\>, \[TitanNet Sessions\], \[Backup\].
-
+2. On the console which will be the Backup, press <Keys.HardKey>Disk</Keys.HardKey>, <Keys.SoftKey>TitanNet Sessions</Keys.SoftKey>, <Keys.SoftKey>Backup</Keys.SoftKey>.
 3. Consoles available for backup will be listed in the softkeys.
-
-4. Selecting a console will place the console you are working on into
-   backup mode and sync the show to the selected console.
-
-5. The backup console will show a display indicating the backup status
-   and show name.
+4. Selecting a console will place the console you are working on into backup mode and sync the show to the selected console.
+5. The backup console will show a display indicating the backup status and show name.
 
 In backup mode the backup console screen displays the current connection
 and sync status including current show name.
@@ -63,13 +57,13 @@ network connection. A blue line will appear during sync operations.
 
 -   Shows will automatically sync whenever a show is saved on the main
     console (including autosave). You can also choose to sync at any
-    time by selecting \[Sync Now\].
+    time by selecting <Keys.SoftKey>Sync Now</Keys.SoftKey>.
 
--   Pressing \[Exit\] will abort backup.
+-   Pressing <Keys.SoftKey>Exit</Keys.SoftKey> will abort backup.
 
--   \[Takeover\] will enable control on the backup console and disable
+-   <Keys.SoftKey>Takeover</Keys.SoftKey> will enable control on the backup console and disable
     DMX output on the main console. A prompt will appear on the main
     console to warn that DMX has been disabled. On touch consoles
     touching on this prompt will open the 'Exit Safe Mode' menu
     with a softkey option to re-enable output. On the Pearl Expert you
-    can re-enable DMX output via the \<Avo\> menu.
+    can re-enable DMX output via the <Keys.HardKey>Avo</Keys.HardKey> menu.

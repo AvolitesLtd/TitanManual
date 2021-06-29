@@ -1,9 +1,12 @@
 ---
-id: version-12.0-fixture-personalities
+id: fixture-personalities
 title: Fixture Personalities
 sidebar_label: Fixture Personalities
 original_id: fixture-personalities
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 For each type of fixture, the console has a "personality" file which
 tells it how to control the fixture, which channel is the dimmer (HTP)
@@ -19,8 +22,7 @@ We recommend that you should update the library from time to time to
 take advantage of new fixtures, as well as receiving bug fixes for
 personalities and new features which may be added such as sub-fixtures.
 
-Downloading fixture personalities from Avolites
------------------------------------------------
+## Downloading fixture personalities from Avolites
 
 The Avolites website lists all fixtures for which personalities have
 been created. You should look here first if the console does not contain
@@ -46,8 +48,7 @@ If there is a personality listed for your fixture, the simplest thing to
 do is to update the complete personality library as described in the
 next section.
 
-Updating the personality library on the console
------------------------------------------------
+## Updating the personality library on the console
 
 Download the current Titan personality library by clicking on "Titan
 Fixture Library" at the personality website home screen, or the disk
@@ -59,7 +60,7 @@ clicking on "Titan Fixture Library".
 library. To avoid this, store your custom personalities in the user 
 personalities folder (see next section for details).
 
-**To update a console use the following procedure:**
+&nbsp;<strong>To update a console use the following procedure:</strong>
 
 1. Copy the downloaded file TitanFixtureLibrary.exe onto a USB pen
 drive and plug in to the console.
@@ -73,7 +74,7 @@ to run it. Click \'Ok\' on the warning box.
 4. Shut down and then restart the console (using the Restart Software
 button on the screen Tools menu is OK).
 
-**To update Titan Mobile, Titan Go or Titan Simulator:**
+&nbsp;<strong>To update Titan Mobile, Titan Go or Titan Simulator:</strong>
 
 1. Locate the downloaded file TitanFixtureLibrary.exe and double click
 on it to run it. Windows may show a warning about an unrecognised file
@@ -90,11 +91,10 @@ Titan software.
 
 -   Once a fixture is patched, its personality is embedded in the show
     file. Any changes to the fixture library will not affect fixtures
-    patched in the show. You can use the \[Update Personality\] option
+    patched in the show. You can use the <Keys.SoftKey>Update Personality</Keys.SoftKey> option
     in the patch menu to update patched fixtures if you need to.
 
-User/custom personalities
--------------------------
+## User/custom personalities
 
 Using the Personality Builder application installed with the console
 software, you can create your own personality if you wish to modify the
@@ -118,8 +118,7 @@ library. If a suitable Fixture Personality is found, the console will
 use it rather than using the library. This folder is not affected when
 the personality library is updated.
 
-Requesting a new fixture personality
-------------------------------------
+## Requesting a new fixture personality
 
 If a personality does not exist for your fixture, Avolites will create
 one for you. Click on the "Request" link on the above web page to submit
@@ -130,8 +129,7 @@ Your new personality will be incorporated into the library -- to install
 the new personality, download and install the latest personality library
 as described above.
 
-Reporting a personality bug to Avolites
----------------------------------------
+## Reporting a personality bug to Avolites
 
 If you find a problem with a fixture personality, Avolites would like to
 know about it so it can be fixed. Search for the personality on the
@@ -140,24 +138,33 @@ If you click on the "Bug Reports" tab at the top of the window, a list
 is shown of currently outstanding problems, so you can check if someone
 else has already reported the problem.
 
-In an emergency
----------------
+## In an emergency
 
 The console contains a selection of "Generic" fixtures which you can use
 in an emergency if you need to operate a fixture with no personality.
 When patching, go through the manufacturer list until you find
-\[Generic\]. In this section (among other fixtures) are the following:
+<Keys.SoftKey>Generic</Keys.SoftKey>. In this section (among other fixtures) are the following:
 
 Multi-DMX: Has up to 10 DMX channels, all channels are LTP. You can
 select from 1-10 channels on the Mode screen. Press Attribute Bank and
 use the softkeys to select channels.
 
 Generic RGB: Allows you to control an RGB fixture such as LED colour
-changers. This offers 5 modes:\
-1=Dim 2=R 3=G 4=B\
-VDim 1=R 2=G 3=B\
-1=R 2=G 3=B 4=Dim\
-VDim + 4xRGB\
+changers. This offers 5 modes:
+
+
+1=Dim 2=R 3=G 4=B
+
+
+VDim 1=R 2=G 3=B
+
+
+1=R 2=G 3=B 4=Dim
+
+
+VDim + 4xRGB
+
+
 4xRGB.
 
 VDim is a virtual overall dimmer channel for fixtures without a DMX

@@ -1,9 +1,12 @@
 ---
-id: version-14.0-recovering-reinstalling-the-console
+id: recovering-reinstalling-the-console
 title: Recovering & Reinstalling the Console
 sidebar_label: Recovering & Reinstalling the Console
 original_id: recovering-reinstalling-the-console
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The console runs on an embedded PC system, and like all computers, there
 is a possibility of system failure. The console software can be reloaded
@@ -24,27 +27,25 @@ Full Erase | Recovery version | Deleted | Recovery version| *Deleted/Preserved*
 > With software version 12 or above the licence is stored on the AvoKey, and
   even a Full Erase Recovery doesn't delete it, [see below](#software-licensing).
 
-> Using **Factory Restore** or **Full Erase** will delete all settings and files from the console including show files and user personalities. Any files should be saved to a USB stick before continuing.
+> Using <strong>Factory Restore</strong> or <strong>Full Erase</strong> will delete all settings and files from the console including show files and user personalities. Any files should be saved to a USB stick before continuing.
 
 Detailed instructions on creating and using a recovery stick can be
 found with the recovery creator on the [Avolites website](https://www.avolites.com/software/); depending on
 the variety and age of your console there are a number of different
 methods required. The basic procedure is as follows:
 
-Installation Instructions
--------------------------
+## Installation Instructions
 
-1. **If recovering a version earlier than v11.1**, you will need to set the
-console to boot from USB *(see instructions on the [Avolites website](https://www.avolites.com/software/),
+1. &nbsp<strong>If recovering a version earlier than v11.1</strong>, you will need to set the console to boot from USB *(see instructions on the [Avolites website](https://www.avolites.com/software/),
 which vary depending on your console)*
 
 2. Start console and wait while the memory stick boots up, this can
 take up to 3 minutes.
 
 3. Once the memory stick has booted, the touch screen will display
-\'Welcome to (Console Name)\', touch **Next** to continue.
+'Welcome to (Console Name)', touch <strong>Next</strong> to continue.
 
-4. Please read to the bottom of the licence agreement then touch **Agree**
+4. Please read to the bottom of the licence agreement then touch <strong>Agree</strong>
 to accept.
 
 5. Select the type of recovery you want to perform *(see table above)*
@@ -53,17 +54,16 @@ to accept.
 the number written on the back of the console and should be already
 filled in for you.
 
-7. Touching **Install** will then begin the recovery
+7. Touching <strong>Install</strong> will then begin the recovery
 
-8. Once complete unplug the memory stick and touch the **Restart** button.
+8. Once complete unplug the memory stick and touch the <strong>Restart</strong> button.
 
 After starting the console will install all the software and drivers
 required to run. This takes approximately 30 minutes to complete during
 which the console will reboot a number of times. Please do not switch
 off the console during this process.
 
-Software Licensing
-------------------
+## Software Licensing
 
 From v12, the software is licensed using an AvoKey USB device.
 
@@ -75,4 +75,4 @@ relicensing as long as the Avolites hardware is connected.
 
 For more details see https://www.avolites.com/avokey
 
-[](https://youtu.be/86PcC0OzL7E "Licensing")
+<Video videoId="86PcC0OzL7E" title="Licensing" />

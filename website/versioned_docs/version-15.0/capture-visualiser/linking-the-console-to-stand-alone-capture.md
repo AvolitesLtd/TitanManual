@@ -1,9 +1,11 @@
 ---
-id: version-15.0-linking-the-console-to-stand-alone-capture
+id: linking-the-console-to-stand-alone-capture
 title: Linking the Console to Stand-Alone Capture
 sidebar_label: Linking the Console to Stand-Alone Capture
-original_id: linking-the-console-to-stand-alone-capture
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Sometimes the extra capabilities of the full version of Capture are
 needed, and the console is linked to a PC running full Capture. The
@@ -30,8 +32,7 @@ select the fixture on the other. If you don't want this to happen you
 can turn off the **"Console Link"** function in Capture - simulation
 will continue to operate whether the console is linked or not.
 
-Patching Console Fixtures into Capture
---------------------------------------
+## Patching Console Fixtures into Capture
 
 When you first connect the console to Capture, or if you [load a show](../titan-basics/loading-and-saving-shows.md#loading-a-show) on
 the console or [patch a new fixture](../patching/patching-new-fixtures-or-dimmers.md), the Console Patch dialog will be
@@ -52,21 +53,17 @@ console and stand-alone Capture.
 
 > Fixture Legend in Titan links to the **"Unit"** property on the Capture fixture, and User Number in Titan links to the **"Channel"** property in Capture.
 
-Patching Capture Fixtures onto the Console
-------------------------------------------
+## Patching Capture Fixtures onto the Console
 
 If fixtures have already been added in Capture before the console was
 linked, you can patch them on the console using Active Fixtures like
 this
 
-1. Press \<Patch\>, \[Active Fixtures\].
-
-2. Select \[CITP Visualisers\].
-
+1. Press <Keys.HardKey>Patch</Keys.HardKey>, <Keys.SoftKey>Active Fixtures</Keys.SoftKey>.
+2. Select <Keys.SoftKey>CITP Visualisers</Keys.SoftKey>.
 3. You should see the Capture computer as a softkey option, press it.
-
-4. Select an empty handle to start patching, or press \[Patch Capture @
-...\] to patch automatically.
+4. Select an empty handle to start patching, or press <Keys.SoftKey>Patch Capture @
+...</Keys.SoftKey> to patch automatically.
 
 > If any fixtures can't be patched (unsupported fixture type, or
 duplicate user number) then a blank handle will be left and a warning

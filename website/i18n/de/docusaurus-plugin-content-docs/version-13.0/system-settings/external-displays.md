@@ -1,0 +1,38 @@
+---
+id: external-displays
+title: External Displays
+sidebar_label: External Displays
+original_id: external-displays
+---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
+Für mehr Platz auf dem Bildschirm (für mehr Fenster und Buttons) lässt
+sich ein externer Bildschirm anschließen: beim Tiger Touch und Pearl
+Expert per VGA, bei Quartz und Arena per DVI, und das Sapphire Touch
+unterstützt den Anschluss von zwei DVI-Displays. Es lassen sich jeweils
+Touchscreens verwenden, wobei empfohlen wird, 'Windows Touch'-kompatible
+Modelle zu verwenden.
+
+Auch Titan Go und das Titan Mobile unterstützen zwei Bildschirme, wobei
+die konkrete Anschlussmöglichkeit vom verwendeten Computer abhängt.
+
+Das externe Display ist zunächst deaktiviert und zeigt dies mit
+'disabled' an. Zum Aktivieren schalten Sie in den System-Modus
+(<Keys.HardKey>Avo</Keys.HardKey>+<Keys.HardKey>Disk</Keys.HardKey>), wählen das Menü <Keys.SoftKey>Display Setup</Keys.SoftKey> und klicken auf
+<Keys.SoftKey>External Display Disconnected</Keys.SoftKey>. Dies wechselt auf \[External Display
+Connected\], und das externe Display ist aktiviert.
+
+>	Ist kein externes Display vorhanden, empfiehlt es sich aus
+	Performance-Gründen, den Anschluss zu deaktivieren.
+
+Es empfiehlt sich, alle Displays in ihrer hardwaremässigen Auflösung zu
+betreiben. Normalerweise wird das von Titan korrekt erkannt. Sollte dies
+nicht der Fall sein, so klicken Sie auf <Keys.SoftKey>Tools</Keys.SoftKey> in der Werkzeugleiste
+am oberen Bildschirmrand, wählen <Keys.SoftKey>Control Panel</Keys.SoftKey> und dann \[External
+Monitor\]. Damit kann die passende Auflösung eingestellt werden.
+
+![External Monitor Resolution](/docs/images/External-Monitor-Resolution.png)
+
+

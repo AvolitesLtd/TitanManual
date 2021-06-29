@@ -1,9 +1,12 @@
 ---
-id: version-12.0-operating-the-remote
+id: operating-the-remote
 title: Operating the Remote
 sidebar_label: Operating the Remote
 original_id: operating-the-remote
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 To connect to the console, open the Titan Remote app and a list of
 available consoles will be shown - hopefully if you have done the
@@ -19,8 +22,7 @@ middle of the app. The Keypad button enables or disables the numeric pad
 (the keypad overlays all the other screens, so you will need to turn it
 off to see the others).
 
-Keypad
-------
+## Keypad
 
 The keypad screen lets you do most common tasks in the way a
 programmer\'s remote normally works. You can turn on/Locate fixtures and
@@ -31,39 +33,38 @@ dimmers either individually or together.
 The User Number of the fixture or dimmer is used for control. For
 example to turn on dimmer 3 at 50% you would press:
 
-**`3 @ 5`**
+&nbsp;<strong>`3 @ 5`</strong>
 
 To turn on dimmers 1-10 at 80% you would press:
 
-**`1 Thro 10 @ 8`**
+&nbsp;<strong>`1 Thro 10 @ 8`</strong>
 
 For 100% you just press @ twice, for example:
 
-**`1 Thro 10 @ @`**
+&nbsp;<strong>`1 Thro 10 @ @`</strong>
 
 > To locate one or more fixtures, press Locate instead of the @ button.
 
 You can select multiple ranges of dimmers or fixtures using the And
 button, for example:
 
-**`1 Thro 10 And 20 Thro 30 @ 6`**.
+&nbsp;<strong>`1 Thro 10 And 20 Thro 30 @ 6`</strong>.
 
-Controlling Fixtures
---------------------
+## Controlling Fixtures
 
 The fixture screen allows you to select fixtures exactly as you would on
 the console.
 
 ![Fixture View in Titan Remote Android App](/docs/images/Fixture-View-in-Titan-Remote-Android-App.png)
 
-You can then use the **Palette** screens to control the fixtures, or press
-the **IPCGBES** buttons to directly control functions of the fixtures using
+You can then use the <strong>Palette</strong> screens to control the fixtures, or press
+the <strong>IPCGBES</strong> buttons to directly control functions of the fixtures using
 wheels.
 
 You can scroll the fixture screen up and down by dragging the window. To
 view the fixture pages, drag the Pages bar to the right.
 
-Press the **All** button to select all fixtures. Hold down the **All** button to
+Press the <strong>All</strong> button to select all fixtures. Hold down the <strong>All</strong> button to
 step through various selection patterns (odd, even etc).
 
 ![Fixture Control in Titan Remote Android App](/docs/images/Fixture-Control-in-Titan-Remote-Android-App.png)
@@ -71,23 +72,22 @@ step through various selection patterns (odd, even etc).
 The wheels show function values (such as colours or gobo names). To go
 to the next function, just touch the arrows at the top or bottom of the
 wheel. To manually scroll the value, spin the wheel with your fingers.
-If there are more than three functions, touch the **IPCGBES** button again
+If there are more than three functions, touch the <strong>IPCGBES</strong> button again
 to change to the other functions.
 
-Press the **Clear** button to clear the selection and all changes in the
-remote programmer. Hold down the **Clear** button to clear all programmers
+Press the <strong>Clear</strong> button to clear the selection and all changes in the
+remote programmer. Hold down the <strong>Clear</strong> button to clear all programmers
 (for example if someone has been doing something on the console at the
 same time, this will clear the console's programmer too).
 
-You can also play back cues using the **Cue** screen. Hold down a playback
+You can also play back cues using the <strong>Cue</strong> screen. Hold down a playback
 button to kill or release an active playback.
 
-> If you update the legends of palettes or cues on the console while the remote is running, the legends on the remote will not be updated. \<Exit\> and restart the remote app to show legend changes made on the console.
+> If you update the legends of palettes or cues on the console while the remote is running, the legends on the remote will not be updated. <Keys.HardKey>Exit</Keys.HardKey> and restart the remote app to show legend changes made on the console.
 
-Recording groups and palettes
------------------------------
+## Recording groups and palettes
 
-You can record groups and palettes using the **Rec** button on the remote,
+You can record groups and palettes using the <strong>Rec</strong> button on the remote,
 then click a workspace button as normal. You can also hold down an empty
 button to quick record a group or palette.
 

@@ -4,13 +4,15 @@ title: Viewing and Editing Fixture Values
 sidebar_label: Viewing and Editing Fixture Values
 ---
 
-The Channel Grid Window
------------------------
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
+## The Channel Grid Window
 
 It can sometimes be useful to display and edit exactly what each fixture
 is doing. The Channel Grid window allows you do to that. Display it by
-double pressing \<Open/View\> then \[Channel
-Grid\] from the window select buttons.
+double pressing <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.SoftKey>Channel
+Grid</Keys.SoftKey> from the window select buttons.
 
 ![Channel Grid](/docs/images/Channel-Grid.png)
 
@@ -20,17 +22,13 @@ the left of the menu. The modes are:
 -   All / Stage / Programmer / Selected: lets you filter which fixtures
     are shown in the list. Stage lists all fixtures with dimmer above
     zero.
-
 -   Sort: Sets the list order as User Number, Last Selected or DMX
     Address
-
 -   Open Intensity View: Opens the intensity view window. You can swap
     back to the Channel Grid by pressing the Open Channel Grid button in
     that window which is in the same position.
-
 -   Show/Hide Palettes: lets you show which palettes are allocated to
     fixture attributes
-
 -   Playbacks / Levels / Shapes / Effects / Times: Only one of these
     buttons can be selected, and sets what is displayed in the columns.
 
@@ -39,32 +37,32 @@ the screen, or if you select any fixture values, the appropriate fixture
 will automatically be selected.
 
 You can **clear** attributes in the channel grid by selecting them
-(touch or touch and drag to select multiple attributes). Then press
-\<Clear\>.
+(touch or touch and drag to select multiple attributes). Then press <Keys.HardKey>Clear</Keys.HardKey>.
 
 You can **edit values** by selecting one or more values in the grid,
 then modify the values using the wheels, or type a new value on the
-numeric keypad and press \<Enter\>.
+numeric keypad and press <Keys.HardKey>Enter</Keys.HardKey>.
 
 You can filter what is shown in the grid either by IPCGBES attribute
 (using the buttons top left) or by fixture type (using the buttons below
 that).
 
-The Intensity View Window
--------------------------
+## The Intensity View Window
 
 If you want to see at a glance the intensity setting of each fixture,
-the Intensity View window is the place to be. To show the window, double press
-\<Open/View\> then select \[Intensity View\] from the window select buttons.
+the Intensity View window is the place to be. To show the window, double press <Keys.HardKey>Open/View</Keys.HardKey> then select <Keys.SoftKey>Intensity View</Keys.SoftKey> from the window select buttons.
 
 ![Intensity View](/docs/images/Intensity-View.png)
 
 Each fixture has a block showing the intensity as a number and as a bar
 down the left side. The header bar shows selection/programmer state like
-fixture buttons -- blue for selected and cyan for in programmer.\
+fixture buttons -- blue for selected and cyan for in programmer.
+
 Rising or falling intensity is shown with a blue up arrow or a green
-down arrow.\
-Tracked values from previous cues are shown with a magenta equals sign.\
+down arrow.
+
+Tracked values from previous cues are shown with a magenta equals sign.
+
 In a solo or block cue a red "not permitted" symbol is shown.
 
 ![Solo/Block Cue](/docs/images/Solo-Block-Cue.png)
@@ -85,14 +83,16 @@ show the automatic fixture colours, see below.
 -   Filter the view to show only a certain type of fixture using the
     buttons on the left
 
--   Change the display order of the fixtures using the \[Sort\] context
+-   Change the display order of the fixtures using the <Keys.SoftKey>Sort</Keys.SoftKey> context
     menu buttons - User Number, Last Selected or DMX Address.
 
 -   Click on a fixture to select it, you can then edit the intensity
     directly.
 
--   Press \<Open/View\> followed by a fixture button to show more
+-   Press <Keys.HardKey>Open/View</Keys.HardKey> followed by a fixture button to show more
     detailed information about the fixture.
+
+### Filtering the fixtures shown
 
 The context menu options give you settings to change how the window is
 displayed.
@@ -100,36 +100,32 @@ displayed.
 The first option lets you only show fixtures in a particular state:
 
 -   All - all fixtures (default)
-
 -   Stage - fixtures with intensity above zero
-
 -   Programmer - fixtures in the programmer
-
 -   Selected - fixtures which are selected
-
 -   Live cues - only intensities coming from active cues
-
 -   Connected cue - only fixtures in the currently connected cue (for cue lists or chases)
-
 -   Frozen - fixtures with frozen intensity
 
-The second option changes sort order as described above
+The second option changes sort order as described above.
 
-\[Search\] allows you to enter characters to search for in the legend or
+<Keys.SoftKey>Search</Keys.SoftKey> allows you to enter characters to search for in the legend or
 user number, matching fixtures will be shown as you type. When Search is
-active a search bar is shown at the top of the window, click the \{X\} to
+active a search bar is shown at the top of the window, click the <Keys.ContextKey>X</Keys.ContextKey> to
 remove the search filter or click on the text to modify the search
 string.
 
-\[View If\] lets you click on a group and/or playback to show only the
+<Keys.SoftKey>View If</Keys.SoftKey> lets you click on a group and/or playback to show only the
 fixtures in that group or playback. For a chase or cue list, this will
 include all fixtures in all the cues of the chase/list. The filter
-settings are shown in a bar at the top of the window, click the \{X\} to
+settings are shown in a bar at the top of the window, click the <Keys.ContextKey>X</Keys.ContextKey> to
 remove the filter or click on the bar to change the group/playback.
 
-\[Open Channel Grid\] opens the [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window).
+&nbsp;<Keys.SoftKey>Open Channel Grid</Keys.SoftKey> opens the [Channel Grid](viewing-and-editing-fixture-values.md#the-channel-grid-window).
 
-In the **Window Appearance Settings** (\{Cog\} button) there are further
+### Window appearance settings
+
+In the **Window Appearance Settings** (<Keys.ContextKey>Cog</Keys.ContextKey> button) there are further
 display options. Turning off some of the options will reduce the size of
 each fixture button which may be useful if you want to get more fixtures
 on the screen.

@@ -1,9 +1,12 @@
 ---
-id: version-12.0-upgrading-the-software
+id: upgrading-the-software
 title: Upgrading the Software
 sidebar_label: Upgrading the Software
 original_id: upgrading-the-software
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 The console operating software is under constant revision by the
 Avolites team. You can always download the latest version of the
@@ -33,12 +36,12 @@ and install it on the console like this:
 
 1. Copy the installer file to a USB drive and insert into the console.
 
-2. In the screen **tools menu**, stop the console software using the
-**Shutdown Software** button at the bottom of the list.
+2. In the screen <strong>tools menu</strong>, stop the console software using the
+&nbsp;<strong>Shutdown Software</strong> button at the bottom of the list.
 
 ![Tools Menu](/docs/images/Tools-Menu.png)
 
-3. Open the **tools menu** again, touch the **Folders** icon and navigate to
+3. Open the <strong>tools menu</strong> again, touch the <strong>Folders</strong> icon and navigate to
 the drive where the upgrade file is found.
 
 4. Run the installer by double clicking/double tapping.

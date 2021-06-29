@@ -1,14 +1,15 @@
 ---
-id: version-15.0-copying-moving-linking-and-deleting
+id: copying-moving-linking-and-deleting
 title: Copying, Moving, Linking and Deleting a Cue
 sidebar_label: Copying, Moving, Linking and Deleting
-original_id: copying-moving-linking-and-deleting
 ---
 
-Copying a Cue
------------------------
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
-Using the \<Copy\> button you can make a **copy** of an existing cue, or create a 
+## Copying a Cue
+
+Using the <Keys.HardKey>Copy</Keys.HardKey> button you can make a **copy** of an existing cue, or create a 
 new playback which is **linked** to the
 existing playback. You can **copy** multiple playbacks (which
 may be cues, [chases](../chases.md) or [cue lists](../cue-lists.md)) in one operation.
@@ -18,70 +19,63 @@ want a cue to appear on more than one page for ease of operation; also
 the linked cue can have different [timings](cue-timing.md) and 
 playback [Options](playback-options.md) from the cue it's linked to.
 
-1. Press \<Copy\>
-
-2. If you want to make a linked copy, press \<Copy\> again or press the \[Link\] softkey. 
-
+1. Press <Keys.HardKey>Copy</Keys.HardKey>
+2. If you want to make a linked copy, press <Keys.HardKey>Copy</Keys.HardKey> again or press the <Keys.SoftKey>Link</Keys.SoftKey> softkey. 
 3. Press the **select** button of the cue you want to **copy**. You
 can select a range of playbacks by holding the first button while
-pressing the last in the range, or use the \<Thro\> and \<And\> buttons
-to add more playbacks to the selection - hold down \<And\> to keep
+pressing the last in the range, or use the <Keys.HardKey>Thro</Keys.HardKey> and <Keys.HardKey>And</Keys.HardKey> buttons
+to add more playbacks to the selection - hold down <Keys.HardKey>And</Keys.HardKey> to keep
 adding them.
-
 4. Press an empty select button where you want it to go, or if you are copying multiple
 playbacks, where you want them to start.
 
 ---
 
--   The \<Menu Latch\> button latches the **Copy** menu, so you
+-   The <Keys.HardKey>Menu Latch</Keys.HardKey> button latches the **Copy** menu, so you
     can keep copying things without having to keep
     pressing the button. The latched menu will stay active until you
-    press \<Menu Latch\> to unlatch it.
+    press <Keys.HardKey>Menu Latch</Keys.HardKey> to unlatch it.
 
--   \[Retain Layout\] or \[Bunch Up\] is used when copying a group of
+-   <Keys.SoftKey>Retain Layout</Keys.SoftKey> or <Keys.SoftKey>Bunch Up</Keys.SoftKey> is used when copying a group of
     cues with empty playbacks in the group - you can either keep the
     empty playbacks, or bunch up the used playbacks together.
 
--   The option \[Copy Legends\] can be changed to \[Don't
-    copy legends\] so that the copied cues are given default legends.
+-   The option <Keys.SoftKey>Copy Legends</Keys.SoftKey> can be changed to <Keys.SoftKey>Don't
+    copy legends</Keys.SoftKey> so that the copied cues are given default legends.
 
-Moving a Cue
------------------------
+## Moving a Cue
 
-The \<Move\> button allows you to move one or more cues to a different playback handle. **Move** is useful for tidying 
+The <Keys.HardKey>Move</Keys.HardKey> button allows you to move one or more cues to a different playback handle. **Move** is useful for tidying 
 up the console after programming to put similar cues together or move them onto different pages. 
 
 Again you can move multiple cues by holding down the first playback button while pressing
-the last in the range or using the \<Thro\> and \<And\> buttons as described above and latch
-the **Move** function using the \<Menu Latch\> button. 
+the last in the range or using the <Keys.HardKey>Thro</Keys.HardKey> and <Keys.HardKey>And</Keys.HardKey> buttons as described above and latch
+the **Move** function using the <Keys.HardKey>Menu Latch</Keys.HardKey> button. 
 
--   On older consoles which do not have a hardware button for Move, hold \<Avo\> while pressing \<Copy\>
+-   On older consoles which do not have a hardware button for Move, hold <Keys.HardKey>Avo</Keys.HardKey> while pressing <Keys.HardKey>Copy</Keys.HardKey>
 	to obtain the **Move** function (as printed on the console panel).
 
--   When moving a block of cues, \[Swap Items if Required\] will attempt to
+-   When moving a block of cues, <Keys.SoftKey>Swap Items if Required</Keys.SoftKey> will attempt to
     reposition any existing playbacks which are in the way of the moved block.
     This is useful when rearranging playbacks on a page which is nearly
     full.
 
 
-Deleting a Cue
---------------
+## Deleting a Cue
 
 To delete a cue:
 
-1. Press the \<Delete\> button
-
+1. Press the <Keys.HardKey>Delete</Keys.HardKey> button
 2. Press the **select** button of the cue you want to delete
-
-3. Press the **select** button again (or press \<Enter\>) to confirm the
+3. Press the **select** button again (or press <Keys.HardKey>Enter</Keys.HardKey>) to confirm the
 delete
 
 ---
 
--   Instead of deleting the cue you can select \[Unassign\], this will
+-   Instead of deleting the cue you can select <Keys.SoftKey>Unassign</Keys.SoftKey>, this will
     remove the cue from the handle but retain it for future use. Go to
     the [Show Library](../titan-basics/show-library.md) to reuse unassigned cues.
 
--   Press \<Menu Latch\> to keep the delete mode active. You can keep
+-   Press <Keys.HardKey>Menu Latch</Keys.HardKey> to keep the delete mode active. You can keep
     deleting using **steps 2 and 3** without having to keep pressing the
-    \<Delete\> button. Press \<Menu Latch\> to exit latched delete mode.
+    <Keys.HardKey>Delete</Keys.HardKey> button. Press <Keys.HardKey>Menu Latch</Keys.HardKey> to exit latched delete mode.

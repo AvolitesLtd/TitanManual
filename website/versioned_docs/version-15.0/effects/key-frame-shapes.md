@@ -1,18 +1,19 @@
 ---
-id: version-15.0-key-frame-shapes
+id: key-frame-shapes
 title: Key Frame Shapes
 sidebar_label: Key Frame Shapes
-original_id: key-frame-shapes
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 Key frame shapes allow you to create your own shape sequences. You store
 a series of attribute settings as key frames and the shape fades between
 them.
 
-Creating a Key Frame Shape
---------------------------
+## Creating a Key Frame Shape
 
-[](https://youtu.be/1nvLaipivhM?t=20 "Key Frame Shapes")
+<Video videoId="1nvLaipivhM" title="Key Frame Shapes" />
 
 A key frame shape is created a bit like a [chase](../chases.md), but the shape is more
 flexible because you have lots of control over the way the attribute
@@ -21,56 +22,48 @@ multiple fixtures. It's also *(unlike chases)* easy to save in
 [cue lists](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists).
 
 You can create the key frames either in **Channel Mode** by manually setting
-up a state and pressing \[Add Frame\], or in **Quick Build** mode by
+up a state and pressing <Keys.SoftKey>Add Frame</Keys.SoftKey>, or in **Quick Build** mode by
 selecting [palettes](../palettes.md) or
 [cues](../cues.md) which will be automatically saved as a frame
-as you select them. Use the \[Record Mode\] softkey to select the mode.
+as you select them. Use the <Keys.SoftKey>Record Mode</Keys.SoftKey> softkey to select the mode.
 
 In this example we'll create a colour shape, but you can create key
 frame shapes for any attribute or mixture of attributes. If you create
 key frames using [palettes](../palettes.md), the key frames will update if the palette is
 changed.
 
-1. At the main menu press \[Shapes and Effects\] then \[Key Frame
-Shapes\]
-
-2. Press \[Create\] to start a new shape
-
+1. At the main menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> then <Keys.SoftKey>Key Frame
+Shapes</Keys.SoftKey>
+2. Press <Keys.SoftKey>Create</Keys.SoftKey> to start a new shape
 3. [Select fixtures](../controlling-fixtures.md#selecting-fixtures-and-dimmers-for-control) and set the colours for the first key frame
-
-4. Press \[Add Frame\]. An automatic legend for the first key frame
-will show above the first playback fader. *(Press \[Playbacks Display
-Visible/Hidden\] to return the playback faders to normal, if you want to
-select one in Quick Build mode)*.\
-![Key Frame Shape - creating an effect with colour key frames](/docs/images/Key-Frame-Shape-creating-an-effect-with-colour-key-frames.png)
-
-5. Continue to set colours and press \[Add Frame\] until you have
+4. Press <Keys.SoftKey>Add Frame</Keys.SoftKey>. An automatic legend for the first key frame
+will show above the first playback fader. *(Press <Keys.SoftKey>Playbacks Display
+Visible/Hidden</Keys.SoftKey> to return the playback faders to normal, if you want to
+select one in Quick Build mode)*. <br/>
+  ![Key Frame Shape - creating an effect with colour key frames](/docs/images/Key-Frame-Shape-creating-an-effect-with-colour-key-frames.png)
+5. Continue to set colours and press <Keys.SoftKey>Add Frame</Keys.SoftKey> until you have
 created all the steps you want
-
-6. Press \[Finish Recording Frames\] when you've finished
-
+6. Press <Keys.SoftKey>Finish Recording Frames</Keys.SoftKey> when you've finished
 7. Use the Effect Editor window to change the Spread, Overlap (see
 below)
-
 8. Save the shape to a cue if you want to use it in a show *(see
 [Saving a Key Frame Shape to a Cue](#saving-a-key-frame-shape-to-a-cue))*
 
 ---
 
--   You can also use the \<Unfold\> button to switch the playbacks
+-   You can also use the <Keys.HardKey>Unfold</Keys.HardKey> button to switch the playbacks
     between normal mode and key frame display mode.
 
--   Setting the \[Frame Number\] softkey to an existing frame number
-    allows you to \[Replace\] or \[Delete\] a frame. Clicking the frame
+-   Setting the <Keys.SoftKey>Frame Number</Keys.SoftKey> softkey to an existing frame number
+    allows you to <Keys.SoftKey>Replace</Keys.SoftKey> or <Keys.SoftKey>Delete</Keys.SoftKey> a frame. Clicking the frame
     legend or the select button of the playback will also set the
     current frame number.
 
 -   If the shape is not visible because fixtures are not lit up, the
-    locate dimmer \{Sun\} button at the bottom will light up fixtures used
+    locate dimmer <Keys.ContextKey>Sun</Keys.ContextKey> button at the bottom will light up fixtures used
     in the shape.
 
-Changing Shape Parameters in the Effect Editor
-----------------------------------------------
+## Changing Shape Parameters in the Effect Editor
 
 Once you have finished creating a key frame shape it will be shown in
 the Effect Editor window.
@@ -104,22 +97,25 @@ right of the main area are independent controls for the layer.
 
 You can click on the buttons to the right of the sliders
 to enter values from the keyboard, and when the button is clicked on the
-wheels can also be used to adjust the value. A \[Reset to default
-value\] softkey is also provided when you click the buttons, or
+wheels can also be used to adjust the value. A <Keys.SoftKey>Reset to default
+value</Keys.SoftKey> softkey is also provided when you click the buttons, or
 double-clicking the buttons will reset to default value.
 
 The **Beats per Cycle** control lets you set how the programmed speed will
 trigger the shape. It defaults to 1 which makes the shape run at normal
 speed. Higher numbers will divide the count, for example 4 will make the
 shape run at quarter of the speed - useful to synchronise different
-types of shapes which are running together.\
-\[Spread\] sets the beat
+types of shapes which are running together.
+
+<Keys.SoftKey>Spread</Keys.SoftKey> sets the beat
 count to be the same as the current Spread setting for the shape. This
 is useful when using dimmer shapes with movement shapes as it will make
-each fixture turn on for a full cycle of the movement shape.\
-\[Key Frame\] sets the beat count to match the number of key frames in the
-shape.\
-\[Custom\] resets the \[Value\] option to the last
+each fixture turn on for a full cycle of the movement shape.
+
+<Keys.SoftKey>Key Frame</Keys.SoftKey> sets the beat count to match the number of key frames in the
+shape.
+
+<Keys.SoftKey>Custom</Keys.SoftKey> resets the <Keys.SoftKey>Value</Keys.SoftKey> option to the last
 entered value.
 > Each key frame and each layer can have its own **Beats per
 Cycle** setting.
@@ -133,10 +129,10 @@ is selected, then the cycles will be set for the selected layer only.
 *This means you can have individual layers running continuously or for
 different numbers of cycles.*
 
-Key Frame shapes can run across **sub-fixtures** (cells). This is turned \[Off\]
-by default, but you can select \[On (Group)\] which uses
+Key Frame shapes can run across **sub-fixtures** (cells). This is turned <Keys.SoftKey>Off</Keys.SoftKey>
+by default, but you can select <Keys.SoftKey>On (Group)</Keys.SoftKey> which uses
 the [layout set for the group](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups),
-or \[On (Linear)\] which ignores the layout and just uses the cells in numerical order.
+or <Keys.SoftKey>On (Linear)</Keys.SoftKey> which ignores the layout and just uses the cells in numerical order.
 
 The Phase Master option lets you control the phase of the shape using
 the intensity of a video layer from an Ai server. See
@@ -176,26 +172,21 @@ Editor window.
 
 ![Effect Editor key frame shape layer with colour steps](/docs/images/Effect-Editor-key-frame-shape-layer-with-colour-steps.png)
 
--   To **add** more frames to a key frame shape click the \{Pencil\} button to
+-   To **add** more frames to a key frame shape click the <Keys.ContextKey>Pencil</Keys.ContextKey> button to
     the right of the **layer name**.
 
--   To **edit** a key frame click the \{Pencil\} button to the right of the
-    **frame name**.
+-   To **edit** a key frame click the <Keys.ContextKey>Pencil</Keys.ContextKey> button to the right of the **frame name**.
 
--   To **delete** a key frame select the frame in the list then click the
-    \{Rubbish Bin\} at the bottom
+-   To **delete** a key frame select the frame in the list then click the <Keys.ContextKey>Rubbish Bin</Keys.ContextKey> at the bottom
 
--   To **change the order** of the frames, select a frame then use the up
-    and down arrows at the bottom.
+-   To **change the order** of the frames, select a frame then use the up and down arrows at the bottom.
 
--   To **change multiple** key frames at the same time, click on the
-    multi-select button at the bottom of the window, or you can drag a
-    selection box over the frames.
+-   To **change multiple** key frames at the same time, click on the multi-select button at the bottom of the window, or you can drag a selection box over the frames.
 
 ### Multiple Effects
 
 Key frame shapes can have multiple layers where different effects run
-simultaneously. To add another layer, click the \{+\} button at the
+simultaneously. To add another layer, click the <Keys.ContextKey>+</Keys.ContextKey> button at the
 bottom, then select **Layers**. The new layer will appear in the list on the
 left.
 
@@ -207,8 +198,7 @@ Pixel map effects will be shown at the top of the shape list on
 the left, you can use the **eye** icon to hide the pixel map effect when you
 want to work on the key frame shapes.
 
-Saving a Key Frame Shape to a Cue
----------------------------------
+## Saving a Key Frame Shape to a Cue
 
 By default when a key frame shape is saved to a cue, the playback fader
 will fade the shape. If the playback is set to have
@@ -222,7 +212,7 @@ or LTP. A global value for
 you can also set the mode in
 playback [Options](../cues/playback-options.md#shape-behaviour) for each playback.
 
--   In \[Overlay\] mode (default) the shape will have control of the
+-   In <Keys.SoftKey>Overlay</Keys.SoftKey> mode (default) the shape will have control of the
     programmed attributes regardless of whatever else you do. For
     example if a key frame shape is controlling fixture colour, firing
     another playback, recalling palettes or changing colour using the
@@ -230,7 +220,7 @@ playback [Options](../cues/playback-options.md#shape-behaviour) for each playbac
     changes you made will become visible. This means that if you want to
     you can preset what will happen when you stop the shape.
 
--   In \[LTP\] mode, changes of the same or higher priority will override
+-   In <Keys.SoftKey>LTP</Keys.SoftKey> mode, changes of the same or higher priority will override
     the shape output. For example if your key frame shape is set to
     normal priority, firing a playback with normal priority will block
     the shape output. Killing the playback will restore the shape

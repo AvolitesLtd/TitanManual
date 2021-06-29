@@ -1,0 +1,112 @@
+:root{
+  --ifm-color-primary-lightest: #F69196;
+  --ifm-color-primary-lighter: #F2686E;
+  --ifm-color-primary-light: #F15A61;
+  --ifm-color-primary: #ef3e46;
+  --ifm-color-primary-dark: #ED222B;
+  --ifm-color-primary-darker: #EC141E;
+  --ifm-color-primary-darkest: #C31018;
+}
+
+// fonts
+@font-face {
+  font-family: "fontawesome";
+  src: url(/fontawesome/webfonts/fa-solid-900.woff);
+}
+
+@font-face {
+  font-family: 'GT America Standard Light';
+  src: url('../../static/fonts/GT-America/GT-America-Standard-Light.eot'); /* IE9 Compat Modes */
+  src: url('../../static/fonts/GT-America/GT-America-Standard-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../static/fonts/GT-America/GT-America-Standard-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../static/fonts/GT-America/GT-America-Standard-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../static/fonts/GT-America/GT-America-Standard-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'GT America Standard Standard';
+  src: url('../../static/fonts/GT-America/GT-America-Standard-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../../static/fonts/GT-America/GT-America-Standard-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../static/fonts/GT-America/GT-America-Standard-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../static/fonts/GT-America/GT-America-Standard-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../static/fonts/GT-America/GT-America-Standard-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+// imports
+@import "variables";
+@import "fontawesome/fontawesome";
+@import "fontawesome/solid";
+@import "fontawesome/brands";
+@import 'buttons';
+@import 'video';
+
+body {
+  font-family: 'GT America Standard Light', 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+}
+
+h2 {
+  padding-top: 16px;
+  border-top: 2px var(--ifm-hr-border-color) solid;
+}
+
+.navbar__search-input {
+  outline: none;
+}
+
+html[data-theme='light'] .navbar {
+  background-color: var(--ifm-color-primary);
+  .navbar__link, .navbar__title {
+    color: white;
+  }
+}
+
+.navbar__item.dropdown {
+  padding: 0 5px;
+}
+
+article blockquote {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 80px;
+  border-left: none;
+  min-height: 5.5em;
+  background-color: rgba(100,176,255,.3);
+  color: var(--ifm-font-color-base);
+  &::before{
+    position: absolute;
+    display: flex;
+    align-items: stretch;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background: #64b0ff;
+    font-size: 40px;
+    color: #fff;
+    content: "\f05a";
+    font-family: fontawesome;
+  }
+}
+
+article ol {
+  position: relative;
+  padding: 20px 0 20px 100px;
+  border-left: none;
+  min-height: 4.5em;
+  background: rgba(255, 0, 0, 0.1);
+  &::before{
+    position: absolute;
+    display: flex;
+    align-items: stretch;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background: #ef3e46;
+    font-size: 40px;
+    color: #fff;
+    content: "\f0cb";
+    font-family: fontawesome;
+  }
+}

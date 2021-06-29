@@ -1,8 +1,7 @@
 ---
-id: version-15.0-running-the-show
+id: running-the-show
 title: Running the show
 sidebar_label: Running the show
-original_id: running-the-show
 ---
 
 So, it's show time. This chapter describes the functions of the console

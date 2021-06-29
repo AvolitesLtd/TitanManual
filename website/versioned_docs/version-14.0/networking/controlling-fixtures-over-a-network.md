@@ -1,33 +1,35 @@
 ---
-id: version-14.0-controlling-fixtures-over-a-network
+id: controlling-fixtures-over-a-network
 title: Controlling Fixtures over a Network
 sidebar_label: Controlling Fixtures over a Network
 original_id: controlling-fixtures-over-a-network
 ---
 
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
 Before the console can talk to another device over the network, it has
 to be given a unique network address. This is called its "IP address".
 
-Setting the console's IP address
---------------------------------
+## Setting the console's IP address
 
 We recommend that you use the console's automatic IP setting function.
 However, if you need to you can also set a manual IP address. See [Setting your IP address](a-quick-guide-to-ip-addressing.md#setting-your-ip-address) for
 details of how IP addressing works.
 
-1. Go to the **System** menu (press \<Avo\> + \<Disk\>) and press \[Network Settings\]
+1. Go to the <strong>System</strong> menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and press <Keys.SoftKey>Network Settings</Keys.SoftKey>
 
-2. Press \[Local Area Connection\] (some consoles have more than
+2. Press <Keys.SoftKey>Local Area Connection</Keys.SoftKey> (some consoles have more than
 	one network connection, so you may have different connections to
 	choose from)
 
-3. Check \[Subnet Mask\] is set to `255.255.255.0`
+3. Check <Keys.SoftKey>Subnet Mask</Keys.SoftKey> is set to `255.255.255.0`
 
-4. Press \[Set IP `2.*.*.*`\]
+4. Press <Keys.SoftKey>Set IP `2.*.*.*`</Keys.SoftKey>
 
-5. Press \[Save settings\]
+5. Press <Keys.SoftKey>Save settings</Keys.SoftKey>
 
-6. \<Exit\> the system menu.
+6. <Keys.HardKey>Exit</Keys.HardKey> the system menu.
 
 -   Some Art-Net equipment may operate on a fixed IP address range of
 	2.\*.\*.\* or 10.\*.\*.\*, in which case you will need to also
@@ -35,10 +37,9 @@ details of how IP addressing works.
 	to any address.
 
 -   If you need an address range other than 2.\*.\*.\* or 10.\*.\*.\*
-	you can press \[IP Address = ... \] and enter the address with the numeric keypad.
+	you can press <Keys.SoftKey>IP Address = ... </Keys.SoftKey> and enter the address with the numeric keypad.
 
-Setting up DMX outputs
-----------------------
+## Setting up DMX outputs
 
 The console has 64 DMX output lines, of which the console itself can
 output 16, with further lines available using networked DMX processing
@@ -53,8 +54,7 @@ universe 2 and so on, but there are times (for example if using a house rig
 with a touring show) when you might need to allocate the lines differently.
 
 
-Example of a simple Art-Net system
------------------------
+## Example of a simple Art-Net system
 
 There are two main systems for sending lighting control
 information over a network, Art-Net and sACN. Titan supports both; in this
@@ -65,14 +65,13 @@ implemented by a growing number of manufacturers. Many products (such as
 Dimmers and Moving lights) can accept the Art-Net signal directly, so
 there is no need to convert the signal to DMX. Most people will,
 however, need to output DMX to their equipment and this can be done
-using an Art-Net to DMX converter (often called a **Node**).
+using an Art-Net to DMX converter (often called a <strong>Node</strong>).
 
 In the following diagram, an Art-Net compliant Console (such as a Titan
 console) is connected via a network switch to an Art-Net compatible dimmer
 and a rackmount DMX conversion node.
 
-![Art Net Explanation
-general](/docs/images/Art-Net-Explanation-General.png)
+![Art Net Explanation general](/docs/images/Art-Net-Explanation-General.png)
 
 Once the system is connected together, the devices
 can be configured.
@@ -104,14 +103,13 @@ So we do the following:
 -   Click on the second universe of the DMX node on the left of the window,
 	then click Line 3 on the right to connect it.
 
-![Art Net Explanation Nodes to
-DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.png)
+![Art Net Explanation Nodes to DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.png)
 
 Now on the console when you patch, you will patch the dimmer channels on addresses 1.001 - 1.024, the
 fixtures on the first output of the 12-way DMX node will be on addresses 2.001 - 2.512 and
 the fixtures on the second output will be on addresses 3.001 - 3.512.
 
-- Press the small \{Cog\} button on the Art-Net device to show a properties window.
+- Press the small <Keys.ContextKey>Cog</Keys.ContextKey> button on the Art-Net device to show a properties window.
 	See [Art-Net settings](../system-settings/dmx-output-mapping.md#art-net-properties)
 	for an explanation of the settings.
 
@@ -127,9 +125,7 @@ the fixtures on the second output will be on addresses 3.001 - 3.512.
     properly so the console doesn't known if it is an input or output
     device.
 
-Additional Art-Net Resources
-----------------------------
+## Additional Art-Net Resources
 
 To find out more information about Art-Net please refer to the Art-Net
-Standard published by [Artistic
-Licence](http://www.artisticlicence.com).
+Standard published by [Artistic Licence](http://www.artisticlicence.com).

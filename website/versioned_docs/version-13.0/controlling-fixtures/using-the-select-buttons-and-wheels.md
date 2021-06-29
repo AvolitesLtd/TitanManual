@@ -1,9 +1,12 @@
 ---
-id: version-13.0-using-the-select-buttons-and-wheels
+id: using-the-select-buttons-and-wheels
 title: Using the Select Buttons and Wheels
 sidebar_label: Using the Select Buttons and Wheels
 original_id: using-the-select-buttons-and-wheels
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 ## Selecting Fixtures and Dimmers for Control
 
@@ -28,7 +31,7 @@ button for the last fixture.
 
 Here are some other useful things to know:
 
--   Press \<Locate\> to light up the selected fixtures in open white and
+-   Press <Keys.HardKey>Locate</Keys.HardKey> to light up the selected fixtures in open white and
     move them to a central position. Locate options are described in detail in the
     [next section](../controlling-fixtures/using-the-select-buttons-and-wheels.md#setting-fixtures-to-a-start-position-locate).
 
@@ -37,13 +40,13 @@ Here are some other useful things to know:
 -   In the top bar of the screen, the console will show you which
     fixtures are currently selected.
 
--   Press \<Clear\> (right of numeric keys) to deselect all fixtures and
+-   Press <Keys.HardKey>Clear</Keys.HardKey> (right of numeric keys) to deselect all fixtures and
     remove all changes from the programmer. See the [next section](../controlling-fixtures/using-the-select-buttons-and-wheels.md#clearing-selection) for
     more Clear options.
 
 -   Once you have changed any attribute, pressing a Select button will
     deselect all fixtures and start the selection process again. All
-    previously selected fixtures (since you last pressed \<Clear\>) stay
+    previously selected fixtures (since you last pressed <Keys.HardKey>Clear</Keys.HardKey>) stay
     in the programmer. Once a fixture has been edited, Fixture buttons
     show a darker blue. The picture above shows the first two fixtures
     selected, with the second three in the programmer and the others
@@ -62,41 +65,43 @@ Here are some other useful things to know:
 
 ## Setting Fixtures to a Start Position (Locate)
 
-The \<Locate\> button is used to put the fixture into a known position
+The <Keys.HardKey>Locate</Keys.HardKey> button is used to put the fixture into a known position
 with light coming out, so that you can start programming it.
 
 A quick press of the button will move all selected fixtures to a central
 position and reset all the attributes so that you get a white light.
 However you sometimes might not want to move the fixture, or may want to
-keep some other attributes unchanged. By holding down the \<Locate\>
+keep some other attributes unchanged. By holding down the <Keys.HardKey>Locate</Keys.HardKey>
 button rather than a quick press, you get some more options
 
 -   You can mask off some of the Locate settings (such as only turning
     the fixture on, but not changing its position or colour) by holding
-    down \<Locate\> and pressing \[Set Mask to Exclude All\]. Then
-    (still holding \<Locate\>) turn on the Attributes you want to change
+    down <Keys.HardKey>Locate</Keys.HardKey> and pressing <Keys.SoftKey>Set Mask to Exclude All</Keys.SoftKey>. Then
+    (still holding <Keys.HardKey>Locate</Keys.HardKey>) turn on the Attributes you want to change
     using the Attribute buttons. Only the lit attributes will be changed
-    by Locate. Pressing the \<Options\>/\<Attribute Options\> button
+    by Locate. Pressing the <Keys.HardKey>Options</Keys.HardKey>/<Keys.HardKey>Attribute Options</Keys.HardKey> button
     will clear the mask.
 
--   Option \[Auto Reset Mask\] sets the mask to be automatically reset
+-   Option <Keys.SoftKey>Auto Reset Mask</Keys.SoftKey> sets the mask to be automatically reset
     to include everything each time Locate is pressed, or you can toggle
-    the option to \[Remember Mask\] which will keep the mask setting you
+    the option to <Keys.SoftKey>Remember Mask</Keys.SoftKey> which will keep the mask setting you
     used last time.
 
--   Option \[Clear/Don't Clear Located Attributes\] sets whether the
+-   Option <Keys.SoftKey>Clear/Don't Clear Located Attributes</Keys.SoftKey> sets whether the
     attributes changed by the Locate function will be saved into any
     cues you store. If the option is set to "Clear" then the Located
     attributes will not be stored in the Programmer unless you modify
     them using the wheels. This is useful if for example you want to
     program a cue which sets the position of fixtures, but does not turn
-    them on. The \<Locate\> button will light up the fixtures for
+    them on. The <Keys.HardKey>Locate</Keys.HardKey> button will light up the fixtures for
     programming, but the lit state will not be stored in any cues you
     save.
 
-> To quickly locate without changing pan/tilt, hold \<Locate\> and press the Pan/Tilt (or Position) button, then release \<Locate\>.\
+> To quickly locate without changing pan/tilt, hold <Keys.HardKey>Locate</Keys.HardKey> and press the Pan/Tilt (or Position) button, then release <Keys.HardKey>Locate</Keys.HardKey>.
+
+
 >
-> To quickly locate pan/tilt only, hold \<Locate\>, press \<Options\> (\<Attribute Options\> on some consoles), then press \<Position\> (\<Pan/Tilt\> on some consoles), then release \<Locate\>.
+> To quickly locate pan/tilt only, hold <Keys.HardKey>Locate</Keys.HardKey>, press <Keys.HardKey>Options</Keys.HardKey> (<Keys.HardKey>Attribute Options</Keys.HardKey> on some consoles), then press <Keys.HardKey>Position</Keys.HardKey> (<Keys.HardKey>Pan/Tilt</Keys.HardKey> on some consoles), then release <Keys.HardKey>Locate</Keys.HardKey>.
 
 
 ### Changing the Locate State
@@ -106,80 +111,80 @@ recording a new Locate State. This can be shared (you set the values for
 one fixture, and then it applies to all fixtures of the same type) or
 individual (you can set different values for each individual fixture).
 To store, set up the desired locate state on the fixture(s) you want to
-change, then press \<Record\>, then \<Locate\>. Select \[Shared\] or
-\[Individual\] from the softkeys. Press \<Record\> or \<Locate\> a
+change, then press <Keys.HardKey>Record</Keys.HardKey>, then <Keys.HardKey>Locate</Keys.HardKey>. Select <Keys.SoftKey>Shared</Keys.SoftKey> or
+<Keys.SoftKey>Individual</Keys.SoftKey> from the softkeys. Press <Keys.HardKey>Record</Keys.HardKey> or <Keys.HardKey>Locate</Keys.HardKey> a
 second time to confirm.
 
 ## Clearing Selection
 
-The \<Clear\> button (on the right of the numeric keypad) is used to
+The <Keys.HardKey>Clear</Keys.HardKey> button (on the right of the numeric keypad) is used to
 remove all changes from the Programmer and deselect all fixtures. A
-quick press of the \<Clear\> button just clears everything, however if
-you hold down the \<Clear\> button, then more options are available.
+quick press of the <Keys.HardKey>Clear</Keys.HardKey> button just clears everything, however if
+you hold down the <Keys.HardKey>Clear</Keys.HardKey> button, then more options are available.
 
 -   You can mask which attributes are to be cleared (for example,
     leaving the pan/tilt in the programmer but clearing everything else)
-    by holding down \<Clear\> and pressing \[Set Mask to Clear
-    Nothing\]. Then (still holding \<Clear\>) turn on the Attributes you
+    by holding down <Keys.HardKey>Clear</Keys.HardKey> and pressing <Keys.SoftKey>Set Mask to Clear
+    Nothing</Keys.SoftKey>. Then (still holding <Keys.HardKey>Clear</Keys.HardKey>) turn on the Attributes you
     want to change using the Attribute Bank buttons down the right hand
-    side, or press \[Set Mask\] and use the softkeys. Only the lit
-    attributes will be cleared. Pressing the \<Options\>/\<Attribute
-    Options\> button will clear the mask. The Time mask option allows
+    side, or press <Keys.SoftKey>Set Mask</Keys.SoftKey> and use the softkeys. Only the lit
+    attributes will be cleared. Pressing the <Keys.HardKey>Options</Keys.HardKey>/<Keys.HardKey>Attribute
+    Options</Keys.HardKey> button will clear the mask. The Time mask option allows
     you to clear or retain the fade/delay times in the programmer for
     all attributes (clearing individual attributes will also clear times
     for that attribute, for example setting a P mask will clear position
     times).
 
--   Hold \<Clear\> and press \<All\> to deselect all fixtures, but leave
+-   Hold <Keys.HardKey>Clear</Keys.HardKey> and press <Keys.HardKey>All</Keys.HardKey> to deselect all fixtures, but leave
     the changes in the programmer.
 
--   \[Clear Options\] opens a submenu showing some further options
+-   <Keys.SoftKey>Clear Options</Keys.SoftKey> opens a submenu showing some further options
     (described below).
 
--   \[Clear All Fixtures/Selected Fixtures\] sets whether all fixtures
+-   <Keys.SoftKey>Clear All Fixtures/Selected Fixtures</Keys.SoftKey> sets whether all fixtures
     will be cleared from the programmer, or if only currently selected
     fixtures will be cleared. This is useful if you want to clear
     specific fixtures.
 
--   \[Individual Attributes\] allows you to clear individual attributes
+-   <Keys.SoftKey>Individual Attributes</Keys.SoftKey> allows you to clear individual attributes
     from the Programmer. When you press the softkey, you are given a
     list of attributes in the Programmer -- press the appropriate
     softkey to clear that attribute.
 
--   \[Clear All Programmers\] will clear all programmers that are
+-   <Keys.SoftKey>Clear All Programmers</Keys.SoftKey> will clear all programmers that are
     currently active on the console, including Multi-user programmers
     from other users, and the Titan Remote programmer.
 
 The options in the "Clear Options" submenu are:
 
--   \[Auto Reset Mask\] sets the mask to be automatically reset to clear
+-   <Keys.SoftKey>Auto Reset Mask</Keys.SoftKey> sets the mask to be automatically reset to clear
     everything each time Clear is pressed, or you can toggle the option
-    to \[Remember Mask\] which will keep the mask setting you used last
+    to <Keys.SoftKey>Remember Mask</Keys.SoftKey> which will keep the mask setting you used last
     time.
 
--   \[Leave/Zero Preset Fader Levels\] is used to set whether latched
+-   &nbsp;<Keys.SoftKey>Leave/Zero Preset Fader Levels</Keys.SoftKey> is used to set whether latched
     fixtures are cleared (the [fixture key profile](../system-settings/key-profiles.md#creating-and-editing-key-profiles) can be set to "Latch"
     mode, which turns on the fixture dimmer channel when the fixture
     button is touched.)
 
--   \[Freeze current values\] sets what happens to LTP (non-intensity)
-    channels you have modified. If set to \[Freeze Current Values\] the
-    channels remain as you set them. If set to \[Release To Playback
-    Values\] the channels will go back to how they are set in the
+-   <Keys.SoftKey>Freeze current values</Keys.SoftKey> sets what happens to LTP (non-intensity)
+    channels you have modified. If set to <Keys.SoftKey>Freeze Current Values</Keys.SoftKey> the
+    channels remain as you set them. If set to <Keys.SoftKey>Release To Playback
+    Values</Keys.SoftKey> the channels will go back to how they are set in the
     current playback. For example: you have an active playback making
     some lights green, then you select the lights and change them to
-    red. If you press Clear with this option set to \[Freeze\] then the
-    lights remain red. If the option is \[Release\] the lights will go
+    red. If you press Clear with this option set to <Keys.SoftKey>Freeze</Keys.SoftKey> then the
+    lights remain red. If the option is <Keys.SoftKey>Release</Keys.SoftKey> the lights will go
     back to green.
 
--   \[Clear/Maintain Cue Times\] - determines whether or not to clear
+-   <Keys.SoftKey>Clear/Maintain Cue Times</Keys.SoftKey> - determines whether or not to clear
     the cue time information from the programmer (this will not affect
     fixture attribute times in the programmer).
 
 You can use the [Channel Grid](../controlling-fixtures/viewing-and-editing-fixture-values.md#the-channel-grid-window) window to selectively view and remove
 attributes from fixtures.
 
-> If you type a number then press \<Clear\>, HTP values in the programmer will fade out over that time, for example 5 \<Clear\> would fade over 5 seconds. This can be very useful if you are trying to be subtle when making changes during a show.
+> If you type a number then press <Keys.HardKey>Clear</Keys.HardKey>, HTP values in the programmer will fade out over that time, for example 5 <Keys.HardKey>Clear</Keys.HardKey> would fade over 5 seconds. This can be very useful if you are trying to be subtle when making changes during a show.
 
 ## Fixtures with Multiple Cells/Sub-Fixtures
 
@@ -193,68 +198,68 @@ of the fixture will be controlled together.
 
 You can use the buttons which appear at the top of the attribute editor
 window to select the main fixture, or individual cells for control (use
-the \[Open Workspace Window\] softkey to open the Attribute Editor
+the <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> softkey to open the Attribute Editor
 window).
 
 ![Cell Selection](/docs/images/Cell-Selection.png)
 
-You can also use \<Unfold\> to expand the cells onto individual select
+You can also use <Keys.HardKey>Unfold</Keys.HardKey> to expand the cells onto individual select
 buttons. In the Fixtures workspace, the current page of fixtures will be
 replaced by select buttons for each individual fixture cell. On fader
 handles, the unfolded fixture cells will start at handle 1.
 
 There are two ways to unfold fixture cells:
 
--   Press \<Unfold\> then select range of fixtures. The cells will
+-   Press <Keys.HardKey>Unfold</Keys.HardKey> then select range of fixtures. The cells will
     immediately appear on the handles.
 
--   Select fixtures, press \<Unfold\>, then press \[Selected Fixtures\].
+-   Select fixtures, press <Keys.HardKey>Unfold</Keys.HardKey>, then press <Keys.SoftKey>Selected Fixtures</Keys.SoftKey>.
     This method allows for non-consecutive fixtures to be unfolded.
 
-To go back to normal, press \<Unfold\> then \[Exit Unfold\].
+To go back to normal, press <Keys.HardKey>Unfold</Keys.HardKey> then <Keys.SoftKey>Exit Unfold</Keys.SoftKey>.
 
 You can also use the numeric keypad to quickly select cells. The syntax
-is as follows: (\<THRO\> is called Through on some consoles)
+is as follows: (<Keys.HardKey>THRO</Keys.HardKey> is called Through on some consoles)
 
 .            all sub-fixtures of selection                    
 
   n\.            all sub-fixtures of fixture n
 
-  . \<THRO\> .j    sub-fixtures 1 - j of all selected fixtures         
+  . <Keys.HardKey>THRO</Keys.HardKey> .j    sub-fixtures 1 - j of all selected fixtures         
 
-  n\. \<THRO\>       all sub-fixtures of fixture n - last consecutive of type
+  n\. <Keys.HardKey>THRO</Keys.HardKey>       all sub-fixtures of fixture n - last consecutive of type
 
-  n \<THRO\> .j      shorthand for above                              
+  n <Keys.HardKey>THRO</Keys.HardKey> .j      shorthand for above                              
 
-  n\. \<THRO\> i     sub-fixtures 1 - i of fixture n
+  n\. <Keys.HardKey>THRO</Keys.HardKey> i     sub-fixtures 1 - i of fixture n
 
   .m           sub-fixture m of all selected fixtures           
 
-  n\. \<THRO\> i.j   sub-fixtures 1 - j of fixtures n - i
+  n\. <Keys.HardKey>THRO</Keys.HardKey> i.j   sub-fixtures 1 - j of fixtures n - i
 
-  .m \<THRO\>      sub-fixtures m - last of all selected fixtures      
+  .m <Keys.HardKey>THRO</Keys.HardKey>      sub-fixtures m - last of all selected fixtures      
 
   n.m            sub-fixture m of fixture n
 
-  .m \<THRO\> .j   sub-fixtures m - j of all selected fixtures         
+  .m <Keys.HardKey>THRO</Keys.HardKey> .j   sub-fixtures m - j of all selected fixtures         
 
-  n.m \<THRO\>       sub-fixtures m - last of fixture n
+  n.m <Keys.HardKey>THRO</Keys.HardKey>       sub-fixtures m - last of fixture n
 
-  .m \<THRO\> j    shorthand for above                              
+  .m <Keys.HardKey>THRO</Keys.HardKey> j    shorthand for above                              
 
-  n.m \<THRO\> i     sub-fixtures m - i of fixture n
+  n.m <Keys.HardKey>THRO</Keys.HardKey> i     sub-fixtures m - i of fixture n
 
-  n \<THRO\> i.    all sub-fixtures of fixtures n - i                  
+  n <Keys.HardKey>THRO</Keys.HardKey> i.    all sub-fixtures of fixtures n - i                  
 
-  n.m \<THRO\> i.    sub-fixture m - last of fixtures n - i
+  n.m <Keys.HardKey>THRO</Keys.HardKey> i.    sub-fixture m - last of fixtures n - i
 
-  n \<THRO\> i.j   sub-fixture j of fixtures n - i                     
+  n <Keys.HardKey>THRO</Keys.HardKey> i.j   sub-fixture j of fixtures n - i                     
 
-  n.m \<THRO\> i.j   sub-fixtures m - j of fixtures n - i
+  n.m <Keys.HardKey>THRO</Keys.HardKey> i.j   sub-fixtures m - j of fixtures n - i
 
-  n \<THRO\> .j    sub-fixture 1 - j of fixture n                      
+  n <Keys.HardKey>THRO</Keys.HardKey> .j    sub-fixture 1 - j of fixture n                      
 
-  n.m \<THRO\> .j    sub-fixtures m - j of fixture n
+  n.m <Keys.HardKey>THRO</Keys.HardKey> .j    sub-fixtures m - j of fixture n
 
 -   Fixture cell selection can be saved as a group, this provides a
     quick way to select cells / sub-fixtures without having to use the
@@ -315,10 +320,10 @@ Some other things to know about attributes:
     fast, the fixture changes in larger steps. If you move the wheel
     slowly, the fixture moves in its smallest increment.
 
--   Holding down the \<Avo\> button while turning a wheel puts the wheel
+-   Holding down the <Keys.HardKey>Avo</Keys.HardKey> button while turning a wheel puts the wheel
     into "Fast" mode. When in this mode, a single rotation of the wheel
     changes the attribute you are controlling over its full range. For
-    example, if while moving the Pan wheel you hold down \<Avo\> the
+    example, if while moving the Pan wheel you hold down <Keys.HardKey>Avo</Keys.HardKey> the
     fixture will make a complete pan movement between end stops in one
     rotation of the wheel.
 
@@ -357,8 +362,8 @@ the Attribute Editor window can be easier to work with than the wheels.
 It also offers a colour picker window for fixtures with RGB or CMY
 colour mixing.
 
-Press \<View/Open\> then \[Open Workspace Window\] then \[Attribute
-Editor\] to show it. As a shortcut you can also show it by touching the
+Press <Keys.HardKey>View/Open</Keys.HardKey> then <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> then <Keys.SoftKey>Attribute
+Editor</Keys.SoftKey> to show it. As a shortcut you can also show it by touching the
 attribute name text just below the on-screen IPCGBES buttons.
 
 The buttons on the left of the window select the attribute to change.
@@ -420,7 +425,7 @@ controls are provided:
 -   Align sets pan/tilt to match the settings in the programmer of the
     most recently selected fixture. For example if you want to match the
     tilt of 4 fixtures to the first fixture, select fixtures in the
-    order 2-3-4-1 and press \[Align\].
+    order 2-3-4-1 and press <Keys.SoftKey>Align</Keys.SoftKey>.
 
 -   Pan/Tilt lock buttons are helpful when setting positions of multiple
     fixtures using the X-Y grid. For example if you have 10 pan-fanned
@@ -474,8 +479,8 @@ UV/Congo Blue which are hard to mix from a picker or colour wheel.
 
 Lets you pick a gel/filter colour from the Lee, Roscolux or GamColor
 ranges of filters. You can search for a particular colour by name or by
-number using the search bar. There is a context menu button to \[Order
-Filters by Number\] or \[Order Filters by Hue\].
+number using the search bar. There is a context menu button to <Keys.SoftKey>Order
+Filters by Number</Keys.SoftKey> or <Keys.SoftKey>Order Filters by Hue</Keys.SoftKey>.
 
 > For LED fixtures with additional emitters for Warm/Cool white, Amber, UV, Lime or Cyan, Colour Mix will automatically control all the colour channels to obtain the colour. In versions previous to Titan v9 only RGB elements were controlled by the colour picker and other colours had to be set independently.
 
@@ -504,11 +509,11 @@ sides of the image to control the fixture.
 
 You can directly enter a numeric value for the attributes which are live
 on the wheels. You must be at the main Program menu to do this (keep
-pressing \<Exit\> until the vertical menu bar shows "Program Menu").
+pressing <Keys.HardKey>Exit</Keys.HardKey> until the vertical menu bar shows "Program Menu").
 
 Type a number on the numeric keypad then press one of the softkeys to
 set the value to the fixture. The Softkey legend will show what effect
-your value is going to have (such as \[Gobo 5\], or \[Deep Blue\]).
+your value is going to have (such as <Keys.SoftKey>Gobo 5</Keys.SoftKey>, or <Keys.SoftKey>Deep Blue</Keys.SoftKey>).
 
 ![Attribute Softkey](/docs/images/Attribute-Softkey.png)
 
@@ -520,7 +525,7 @@ colour (as displayed in the list above the wheel) you would enter 3.
 
 ## Adjusting Attributes with the @ buttons
 
-Pressing the \<@\> button next to a wheel opens the Adjust Attribute
+Pressing the <Keys.HardKey>@</Keys.HardKey> button next to a wheel opens the Adjust Attribute
 Value menu for that attribute.
 
 You can also open this menu by touching the centre of the on-screen
@@ -557,7 +562,7 @@ The menu gives you the following functions:
 In some situations, for example when programming lots of dimmers, it can
 be easier to type in the dimmer channels you want to program. The
 Channel menu allows you to do this for dimmers or fixtures. To access
-the Channel menu, press the \<Fixture\> button on the top left of the
+the Channel menu, press the <Keys.HardKey>Fixture</Keys.HardKey> button on the top left of the
 numeric keypad. You can also simply start typing numbers on the keypad,
 when you press Through, And or @ then the Channel menu will be shown.
 
@@ -567,33 +572,33 @@ console) are buttons adjacent to the numeric keypad.
 Fixtures may be selected by User Number, Handle Number or DMX Address,
 as set by the option on Softkey A.
 
-When using the Channel menu it is helpful to latch it by pressing \<Menu
-Latch\>.
+When using the Channel menu it is helpful to latch it by pressing <Keys.HardKey>Menu
+Latch</Keys.HardKey>.
 
--   To select a fixture, type the number and press \<Enter\>.
+-   To select a fixture, type the number and press <Keys.HardKey>Enter</Keys.HardKey>.
 
--   To select more than one fixture, press the \[And\] softkey between
-    each number. For example 1 And 2 And 5 \<Enter\> will select 1,
+-   To select more than one fixture, press the <Keys.SoftKey>And</Keys.SoftKey> softkey between
+    each number. For example 1 And 2 And 5 <Keys.HardKey>Enter</Keys.HardKey> will select 1,
     2, 5.
 
--   To select a range of fixtures, press \[Through\]. For example 1
-    Through 8 \<Enter\> will select 1-8. If you miss out the last number
+-   To select a range of fixtures, press <Keys.SoftKey>Through</Keys.SoftKey>. For example 1
+    Through 8 <Keys.HardKey>Enter</Keys.HardKey> will select 1-8. If you miss out the last number
     it will select all remaining fixtures of the same type.
 
--   To miss out fixtures in a range, use \[Not\], for example 1 Through
-    4 Not 3 \<Enter\> will select 1, 2, and 4.
+-   To miss out fixtures in a range, use <Keys.SoftKey>Not</Keys.SoftKey>, for example 1 Through
+    4 Not 3 <Keys.HardKey>Enter</Keys.HardKey> will select 1, 2, and 4.
 
 -   The @ softkey sets a dimmer level to the selected fixtures, for
-    example 1 Through 8 @ 5 \<Enter\> will set 1-8 at 50%. (You can
+    example 1 Through 8 @ 5 <Keys.HardKey>Enter</Keys.HardKey> will set 1-8 at 50%. (You can
     choose whether 50% is entered as "5" or "50" in the [User Settings](../system-settings/user-settings.md) - When you press @ there are softkey
     options for Full, Off and +/- (increase or decrease brightness).
 
 -   You can work with Groups using the Group button, for example Group 1
-    And Group 2 Not 5 \<Enter\> will select all fixtures in group 1 and
+    And Group 2 Not 5 <Keys.HardKey>Enter</Keys.HardKey> will select all fixtures in group 1 and
     group 2 except for fixture 5.
 
--   You can use \<Locate\> instead of \<Enter\>, to select fixtures and
-    locate them. For example 1 Through 4 \<Locate\> will select fixtures
+-   You can use <Keys.HardKey>Locate</Keys.HardKey> instead of <Keys.HardKey>Enter</Keys.HardKey>, to select fixtures and
+    locate them. For example 1 Through 4 <Keys.HardKey>Locate</Keys.HardKey> will select fixtures
     1 to 4 and locate them.
 
 ![Syntax Selection](/docs/images/Syntax-Selection.png)
@@ -614,16 +619,18 @@ has an easy way of selecting patterns of fixtures within a range.
 
 1. Select some fixtures.
 
-2. Press the \<All\> button (labelled Odd/Even on some consoles).
+2. Press the <Keys.HardKey>All</Keys.HardKey> button (labelled Odd/Even on some consoles).
 
 3. Select a pattern from the softkeys. Your selection is modified so
-you will only be controlling, say, the odd fixtures.\
+you will only be controlling, say, the odd fixtures.
+
+
 ![Pattern Select](/docs/images/Pattern-Select.png)
 
-4. Press the \<Fix +1\> or \<Fix -1\> button to change the selection to
-the next stage of the pattern (\<Next\> and \<Prev\> on some consoles).
+4. Press the <Keys.HardKey>Fix +1</Keys.HardKey> or <Keys.HardKey>Fix -1</Keys.HardKey> button to change the selection to
+the next stage of the pattern (<Keys.HardKey>Next</Keys.HardKey> and <Keys.HardKey>Prev</Keys.HardKey> on some consoles).
 
-5. To end the pattern selection, press \<All\> twice.
+5. To end the pattern selection, press <Keys.HardKey>All</Keys.HardKey> twice.
 
 -   The Direction option allows you to set the fixture selection order
     to go in a specific direction (using the group layout). This is
@@ -631,21 +638,21 @@ the next stage of the pattern (\<Next\> and \<Prev\> on some consoles).
     creating cues using overlap.
 
 -   Direction will return to "None" when you press Clear. You can change
-    this by setting \[Clear / Maintain Direction\] in the \[Clear
-    Options\] menu (hold the Clear button down to see this option).
+    this by setting <Keys.SoftKey>Clear / Maintain Direction</Keys.SoftKey> in the <Keys.SoftKey>Clear
+    Options</Keys.SoftKey> menu (hold the Clear button down to see this option).
 
 -   For example, if you are programming a chase using 16 fixtures and
     you want every 4^th^ fixture to do the same thing, you just select
-    the 16 fixtures, then press \<All\>, then \[1 in x\], then \[1 in
-    4\]. You will see that the 1^st^, 5^th^, 9^th^ and 13^th^ fixtures
+    the 16 fixtures, then press <Keys.HardKey>All</Keys.HardKey>, then <Keys.SoftKey>1 in x</Keys.SoftKey>, then <Keys.SoftKey>1 in
+    4</Keys.SoftKey>. You will see that the 1^st^, 5^th^, 9^th^ and 13^th^ fixtures
     are now selected, and you can create the look for those fixtures.
-    Then press \<Fix +1\>, and the 2^nd^, 6^th^, 10^th^ and 14^th^
+    Then press <Keys.HardKey>Fix +1</Keys.HardKey>, and the 2^nd^, 6^th^, 10^th^ and 14^th^
     fixtures will be selected ready for programming. After you have
     programmed the fourth set of fixtures, the pattern will go back to
-    the first position again, until you press \<All\> twice to end.
+    the first position again, until you press <Keys.HardKey>All</Keys.HardKey> twice to end.
 
 -   You can enter your own patterns using the numeric keypad and
-    softkeys, for example "2" \[In\] "6" \<Enter\>.
+    softkeys, for example "2" <Keys.SoftKey>In</Keys.SoftKey> "6" <Keys.HardKey>Enter</Keys.HardKey>.
 
 -   You can also get to these options by holding down a group selection
     button for the fixtures.
@@ -655,22 +662,32 @@ the next stage of the pattern (\<Next\> and \<Prev\> on some consoles).
 To select fixtures which are controlled by a particular playback use the
 Select If function.
 
-To select fixtures used in a playback, press \<Select If\> then the
-playback button. (If the console does not have a \<Select If\> button,
-press \<Fixture\> then \[Select If\]. The \<Fixture\> button is at the
-top left of the numeric keypad and may be labelled \<Channel\> on older
+To select fixtures used in a playback, press <Keys.HardKey>Select If</Keys.HardKey> then the
+playback button. (If the console does not have a <Keys.HardKey>Select If</Keys.HardKey> button,
+press <Keys.HardKey>Fixture</Keys.HardKey> then <Keys.SoftKey>Select If</Keys.SoftKey>. The <Keys.HardKey>Fixture</Keys.HardKey> button is at the
+top left of the numeric keypad and may be labelled <Keys.HardKey>Channel</Keys.HardKey> on older
 consoles.)
 
-You can also use \<Select If\> with the \<@\> and \<Through\> buttons on
-the numeric keypad to select fixtures set to a particular intensity.\
-\@X: fixtures set to intensity X\
-@ Through X: fixtures with intensity 0 -- X\
-@ X Through: fixtures with intensity X -- Full\
-@ X Through Y: fixtures with intensity between X and Y\
+You can also use <Keys.HardKey>Select If</Keys.HardKey> with the <Keys.HardKey>@</Keys.HardKey> and <Keys.HardKey>Through</Keys.HardKey> buttons on
+the numeric keypad to select fixtures set to a particular intensity.
+
+
+\@X: fixtures set to intensity X
+
+
+@ Through X: fixtures with intensity 0 -- X
+
+
+@ X Through: fixtures with intensity X -- Full
+
+
+@ X Through Y: fixtures with intensity between X and Y
+
+
 @@: fixtures with intensity above 0.
 
 Intensity levels may be input as 0-9 or 00-99 depending on the [User
-Setting](../system-settings/user-settings.md) \[Channel Levels Set In\].
+Setting](../system-settings/user-settings.md) <Keys.SoftKey>Channel Levels Set In</Keys.SoftKey>.
 
 ## Attribute Groups - IPCGBES-FX
 
@@ -717,43 +734,43 @@ This mode uses the All/HiLight/Fix +1/Fix -1 buttons.
 
 1. Select a range of fixtures or a group.
 
-2. The \<Fix +1\> and \<Fix -1\> buttons will select the fixtures in the
+2. The <Keys.HardKey>Fix +1</Keys.HardKey> and <Keys.HardKey>Fix -1</Keys.HardKey> buttons will select the fixtures in the
 range one at a time (in the order you selected them). Buttons are
-labelled \<Prev\> and \<Next\> on some consoles.
+labelled <Keys.HardKey>Prev</Keys.HardKey> and <Keys.HardKey>Next</Keys.HardKey> on some consoles.
 
-3. The \<All\> button will select all fixtures in the programmer
-(everything which has been selected since \<Clear\> was last pressed).
+3. The <Keys.HardKey>All</Keys.HardKey> button will select all fixtures in the programmer
+(everything which has been selected since <Keys.HardKey>Clear</Keys.HardKey> was last pressed).
 
 -   The HiLight function can be used to highlight the output of the
     selected fixture (make it brighter onstage), see the next section.
 
 ## Highlighting the Selected Fixture with Prev/Next
 
-When stepping through a fixture selection using \<Fix +1\>/\<Fix -1\>, you
+When stepping through a fixture selection using <Keys.HardKey>Fix +1</Keys.HardKey>/<Keys.HardKey>Fix -1</Keys.HardKey>, you
 can highlight the selected fixture on stage. This makes it very easy to
 see which fixture you are controlling. The other fixtures in the
 selection go to a dimmed "lowlight" level.
 
--   Press \<HiLight\> to enable highlight mode. Press \<HiLight\> again
+-   Press <Keys.HardKey>HiLight</Keys.HardKey> to enable highlight mode. Press <Keys.HardKey>HiLight</Keys.HardKey> again
     to disable. When you are in highlight mode, the highlighted
     attribute is overridden and any changes you make to it are not
     stored in the programmer (so if the highlight uses intensity, you
     cannot change the intensity of the fixture).
 
 -   You can change the levels used for Highlight/Lowlight by pressing
-    \<Record\> then pressing \<HiLight\>, \[Store Highlight State\] or
-    \[Store Lowlight State\].
+    <Keys.HardKey>Record</Keys.HardKey> then pressing <Keys.HardKey>HiLight</Keys.HardKey>, <Keys.SoftKey>Store Highlight State</Keys.SoftKey> or
+    <Keys.SoftKey>Store Lowlight State</Keys.SoftKey>.
 
 ## Turn Off Unselected Fixtures (Remainder Dim)
 
 To turn off all unselected fixtures use the Remainder Dim function by
-pressing \<Rem Dim\> (\<Avo\>+\<All\>). The zero intensity is placed in
+pressing <Keys.HardKey>Rem Dim</Keys.HardKey> (<Keys.HardKey>Avo</Keys.HardKey>+<Keys.HardKey>All</Keys.HardKey>). The zero intensity is placed in
 the programmer and will be recorded into any cue. This is useful when
 removing fixtures from cues.
 
 ## Align Fixtures
 
-[](https://youtu.be/xZrVhnY1hnA?t=20 "Align Fixtures")
+<Video videoId="xZrVhnY1hnA" title="Align Fixtures" />
 
 You can copy attributes from one fixture to another using the Align
 Fixtures function. This is very useful, for example, if you've
@@ -767,8 +784,8 @@ fixtures there are options to set how this is handled, see below.
 1. Select the fixtures you want to Align either manually or using a
 group.
 
-2. At the top level menu press \<Fixture Tools\>/\<ML Menu\> then
-\[Align Fixtures\].
+2. At the top level menu press <Keys.HardKey>Fixture Tools</Keys.HardKey>/<Keys.HardKey>ML Menu</Keys.HardKey> then
+<Keys.SoftKey>Align Fixtures</Keys.SoftKey>.
 
 3. Set the mask to include the attribute groups you want to copy (using
 the Attribute Bank buttons, or using the softkey options for exclude and
@@ -777,31 +794,31 @@ include all attributes).
 4. Touch the select button of the fixture or group you want to copy the
 settings from.
 
-5. Press \[Align\]
+5. Press <Keys.SoftKey>Align</Keys.SoftKey>
 
 The fixture selection order is used to determine how the aligned values
 are copied.
 
--   The \[Auto Reset Mask\] option will always set the mask to Include
+-   The <Keys.SoftKey>Auto Reset Mask</Keys.SoftKey> option will always set the mask to Include
     All whenever you enter the Align Fixtures function. The alternative
-    option \[Remember Mask\] will leave the last mask set.
+    option <Keys.SoftKey>Remember Mask</Keys.SoftKey> will leave the last mask set.
 
--   \[Spread Attributes\] will try to spread out the attribute changes
+-   <Keys.SoftKey>Spread Attributes</Keys.SoftKey> will try to spread out the attribute changes
     if there are a different number of fixtures in the source and target
-    groups (best for positions). \[Repeat Attributes\] will repeat the
+    groups (best for positions). <Keys.SoftKey>Repeat Attributes</Keys.SoftKey> will repeat the
     source selection on extra fixtures, or attempt to mirror the
     fixtures if there are fewer.
 
--   \[Align Programmer Attributes\] will only align the attributes which
-    are in the programmer, \[Align All Attributes\] will align all the
+-   <Keys.SoftKey>Align Programmer Attributes</Keys.SoftKey> will only align the attributes which
+    are in the programmer, <Keys.SoftKey>Align All Attributes</Keys.SoftKey> will align all the
     attributes which are enabled by the mask. So for example if you want
     to align the tilt of some fixtures and you have set the tilt you
-    want on an example fixture, \[Align Programmer Attributes\] would
-    only change the tilt; but \[Align All Attributes\] would copy the
+    want on an example fixture, <Keys.SoftKey>Align Programmer Attributes</Keys.SoftKey> would
+    only change the tilt; but <Keys.SoftKey>Align All Attributes</Keys.SoftKey> would copy the
     pan setting from the source fixture as well.
 
--   \[Palette References Maintained\] will copy palettes from the source
-    fixtures. \[Palette References Lost\] will convert the palettes to
+-   <Keys.SoftKey>Palette References Maintained</Keys.SoftKey> will copy palettes from the source
+    fixtures. <Keys.SoftKey>Palette References Lost</Keys.SoftKey> will convert the palettes to
     absolute values in the target fixtures.
 
 -   If the fixture you are copying the settings from is also one of the
@@ -819,9 +836,9 @@ Flip function lets you do that.
 
 1. Select the fixtures you want to Flip.
 
-2. At the top level menu press \<ML Menu\> then \[Flip Pan and Tilt\].
+2. At the top level menu press <Keys.HardKey>ML Menu</Keys.HardKey> then <Keys.SoftKey>Flip Pan and Tilt</Keys.SoftKey>.
 
-The Position window in the Attribute Editor also has a \[Flip\] button
+The Position window in the Attribute Editor also has a <Keys.SoftKey>Flip</Keys.SoftKey> button
 which does this.
 
 > The settings used for Flip are defined in the fixture personality. If Flip doesn't work you may need to update to the latest personality.
@@ -844,7 +861,7 @@ applied to any attribute.
 
 1. Select the fixtures you want to fan.
 
-2. Press \<Fan\>.
+2. Press <Keys.HardKey>Fan</Keys.HardKey>.
 
 3. Select the attribute you want to Fan using the attribute bank
 buttons.
@@ -861,80 +878,100 @@ you have 12 fixtures across the stage in 3 groups of 4, you may want a
 fan of light beams spread evenly across the stage, or you may want 3
 groups of separately fanned light beams.
 
-By holding down \<Fan\> you can select:
+By holding down <Keys.HardKey>Fan</Keys.HardKey> you can select:
 
--   \[Ignore Groups\] All fixtures are fanned as one large group
+-   <Keys.SoftKey>Ignore Groups</Keys.SoftKey> All fixtures are fanned as one large group
 
--   \[Fan Group as Fixture\] All fixtures in a group take on the same
+-   <Keys.SoftKey>Fan Group as Fixture</Keys.SoftKey> All fixtures in a group take on the same
     value.
 
--   \[Fan Within Group\] Fan runs across individual fixtures in each
+-   <Keys.SoftKey>Fan Within Group</Keys.SoftKey> Fan runs across individual fixtures in each
     group.
 
-Holding down \<Fan\> also allows you to select the Curve used for the
+Holding down <Keys.HardKey>Fan</Keys.HardKey> also allows you to select the Curve used for the
 fan. The different curves allow you to obtain different fan effects.
 
 Fan mode needs to be used on at least 4 fixtures to give good effects.
 If you have an odd number of fixtures, the central fixture will not
 change in fan mode.
 
-Press \<Fan\> again to leave Fan mode. Any effects you have set will
+Press <Keys.HardKey>Fan</Keys.HardKey> again to leave Fan mode. Any effects you have set will
 remain in the programmer.
 
-> It's all too easy to accidentally leave Fan mode turned on and be very confused about why the wheels aren't working properly, so turn it off as soon as you have completed the effect. To avoid this there is a [User Setting](../system-settings/user-settings.md) 'Press and hold Fan'. If enabled, you have to hold down \<Fan\> to enable Fan mode.
+> It's all too easy to accidentally leave Fan mode turned on and be very confused about why the wheels aren't working properly, so turn it off as soon as you have completed the effect. To avoid this there is a [User Setting](../system-settings/user-settings.md) 'Press and hold Fan'. If enabled, you have to hold down <Keys.HardKey>Fan</Keys.HardKey> to enable Fan mode.
 
 ### Fan Curves
 
 You can select different curves to use when in Fan mode. Hold down
-\<Fan\> and select \[Curve\], the options are:
+<Keys.HardKey>Fan</Keys.HardKey> and select <Keys.SoftKey>Curve</Keys.SoftKey>, the options are:
 
 -   Line: Traditional fan, the first and last selected fixture are
     affected equally in opposite directions, the midpoint remains
-    unchanged. This is most useful for pan.\
+    unchanged. This is most useful for pan.
+
+
     ![Fan Line](/docs/images/Fan-Line.png)
 
 -   Mirror- Divides the selection into two halves, the position in each
-    half is the mirror of the other half\
+    half is the mirror of the other half
+
+
     ![Fan Mirror](/docs/images/Fan-Mirror.png)
 
 -   Wings -- Divides the selection into three parts, the positions in
     the outer two parts mirror each other and the central part does not
-    change.\
+    change.
+
+
     ![Fan Wings](/docs/images/Fan-Wings.png)
 
 -   Arrow - The first and last selected fixture are affected equally to
     the midpoint fixture but in the opposite direction. This is useful
-    for colour mixing, tilt and dimmer.\
+    for colour mixing, tilt and dimmer.
+
+
     ![Fan Arrow](/docs/images/Fan-Arrow.png)
 
 -   Pull Middle - The first and last selected fixture remain at the
     current value, the midpoint is affected most. This is useful for
-    colour mixing, tilt and dimmer.\
+    colour mixing, tilt and dimmer.
+
+
     ![Fan Pull Middle](/docs/images/Fan-Pull-Middle.png)
 
 -   Pull Ends - The first and last selected fixture are affected most,
     the midpoint is unchanged. This is useful for colour mixing, tilt
-    and dimmer.\
+    and dimmer.
+
+
     ![Fan Pull Ends](/docs/images/Fan-Pull-Ends.png)
 
 -   Pull End -- Like pull ends but only from one end, the other end does
-    not change\
+    not change
+
+
     ![FanPull End](/docs/images/FanPull-End.png)
 
 ### Fan Parts
 
 When using the Fan function you can split the fan into a number of
-groups. Select all the fixtures, hold down \<Fan\> and type a number on
+groups. Select all the fixtures, hold down <Keys.HardKey>Fan</Keys.HardKey> and type a number on
 the numeric keypad. The Fan will divide into that number of parts, for
 example:
 
-Normal (1):\
+Normal (1):
+
+
 ![Fan 1 Part](/docs/images/Fan-1-Part.png)
 
-2:\
+2:
+
+
 ![Fan 2 Parts](/docs/images/Fan-2-Parts.png)
 
-3:\
+3:
+
+
 ![Fan 3 Parts](/docs/images/Fan-3-Parts.png)
 
 ## Setting Fixture/Attribute Times
@@ -946,17 +983,17 @@ cue, the time settings will then become part of the cue.
 There are a number of ways to set the times:
 
 -   You can set individual attribute times by switching the wheels to
-    Fade Time / Delay Time mode using the \[Wheels=\] softkey on the
+    Fade Time / Delay Time mode using the <Keys.SoftKey>Wheels=</Keys.SoftKey> softkey on the
     root menu.
 
 -   Individual attribute times can also be set using a combination of
-    the wheel @ keys and the \<Time\> key.
+    the wheel @ keys and the <Keys.HardKey>Time</Keys.HardKey> key.
 
 -   They can also be set by selecting fixtures and entering into the
-    attribute times submenus from the \<Time\> key.
+    attribute times submenus from the <Keys.HardKey>Time</Keys.HardKey> key.
 
 -   There is also command syntax that allows various options to set
-    attribute time values - e.g. \<Time\> \<Fixture\> \<Position\> 5 @ 3
+    attribute time values - e.g. <Keys.HardKey>Time</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> 5 @ 3
     would set a 5s fade, 3s delay time onto the current fixture
     selection P group. Wheel @ keys can also be used in the syntax. Fan
     options are also available through syntax using THRO.
@@ -969,9 +1006,9 @@ to view or edit all the attribute times currently in the programmer. You
 can set a time to Off to temporarily disable it; the On option will
 restore the previous setting.
 
-You can try out time settings by pressing \<Avo\> + \<Time\> or double
-tap the \<Time\> button. (previously the \<Set\> button on Titan
-Mobile/Sapphire Touch and the \<Next Time\> button on Tiger Touch/Pearl
+You can try out time settings by pressing <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Time</Keys.HardKey> or double
+tap the <Keys.HardKey>Time</Keys.HardKey> button. (previously the <Keys.HardKey>Set</Keys.HardKey> button on Titan
+Mobile/Sapphire Touch and the <Keys.HardKey>Next Time</Keys.HardKey> button on Tiger Touch/Pearl
 Expert).
 
 ## Clearing Attributes Using "Off"
@@ -981,13 +1018,13 @@ programmer and will be stored in any cues or palettes you create. If
 you've accidentally changed something and don't want to store it, you
 can use the Off function to remove it from the programmer.
 
-1. Press \<Off\> to display the Off menu.
+1. Press <Keys.HardKey>Off</Keys.HardKey> to display the Off menu.
 
 2. Use the Attribute Bank buttons to toggle which attributes you want
-to change. Then press the \[Attributes Off\] softkey to set them to Off.
+to change. Then press the <Keys.SoftKey>Attributes Off</Keys.SoftKey> softkey to set them to Off.
 
 3. The softkeys also give you options to turn off active attributes,
-such as \[Dimmer Off\].
+such as <Keys.SoftKey>Dimmer Off</Keys.SoftKey>.
 
--   To remove complete fixtures, select the fixtures, press \<Off\> then
-    \[Selected Fixtures Off\].
+-   To remove complete fixtures, select the fixtures, press <Keys.HardKey>Off</Keys.HardKey> then
+    <Keys.SoftKey>Selected Fixtures Off</Keys.SoftKey>.

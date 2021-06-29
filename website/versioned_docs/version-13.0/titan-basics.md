@@ -1,9 +1,12 @@
 ---
-id: version-13.0-titan-basics
+id: titan-basics
 title: Connecting up and Titan basics
 sidebar_label: Connecting up and Titan basics
 original_id: titan-basics
 ---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
 
 This section covers how to connect the console up, and the basic things
 you need to know about operating Titan.
@@ -11,8 +14,7 @@ you need to know about operating Titan.
 > Radio transmitters may affect the operation of the console and we recommend that they are not placed on, above or behind the console. If you are wearing one it is best placed in a back pocket or behind you when attached to a belt.
 
 
-Connecting mains power
-----------------------
+## Connecting mains power
 
 You can safely connect the console to any voltage from 80 to 260V. If
 your console is not fitted with an internal UPS (uninterruptible power
@@ -33,7 +35,7 @@ display how long you've got before the console shuts down.
 When the UPS battery runs low and the console is about to shut down, the
 toolbar turns red.
 
-**Arena only:** The Network Switch inside the Arena has an independent
+&nbsp;<strong>Arena only:</strong> The Network Switch inside the Arena has an independent
 UPS system which allows the network switch to continue to run while the
 console is power cycled. When the console is shut down the network
 switch will continue to run for about 5 minutes. This is important when
@@ -41,29 +43,27 @@ a backup console is running the show through the network switch in the
 Arena, as it allows the Arena to be power cycled without losing the
 network link to the stage.
 
-Starting up and shutting down
------------------------------
+## Starting up and shutting down
 
 The console runs a Windows-based operating system internally, so you
 need to make sure it is shut down properly rather than just turning off
 its power.
 
-**Start up** the console by pressing and releasing the Power switch on
+&nbsp;<strong>Start up</strong> the console by pressing and releasing the Power switch on
 the face or front edge of the console (lift up the wrist rest on the
 Sapphire Touch). The console display(s) should come alive. The console
 takes up to 1 min 30 seconds to start up.
 
-**Shut down** the console by pressing and releasing the Power switch
+&nbsp;<strong>Shut down</strong> the console by pressing and releasing the Power switch
 again. The console will perform a controlled shutdown. Wait until the
 Power light has gone off (about 30 seconds) before you disconnect power
 from the console.
 
 > If the console has a switch on the power module on the back, do not use this to turn off the console as this does not close down the software properly and you will lose any changes to your show.
 
-Forced Shutdown
----------------
+## Forced Shutdown
 
-To carry out a **Forced Shutdown** of the console, if the normal shut
+To carry out a <strong>Forced Shutdown</strong> of the console, if the normal shut
 down does not work, hold down the power switch for 5 seconds. You will
 lose any changes to your show since the last save.
 
@@ -72,14 +72,13 @@ shut down the console if it is not possible to shutdown the console by
 any of the above means. In this case having disconnected the mains power
 you should press the Battery Disconnect switch on the rear panel.
 
-**Arena only:** Battery Disconnect will also shut down the internal
+&nbsp;<strong>Arena only:</strong> Battery Disconnect will also shut down the internal
 network switch so be careful if you are running a backup console via the
 switch. When you shut down the Arena normally, the network switch will
 stay on for about 5 minutes then power off. There is no harm in leaving
 it to do this.
 
-Connecting up Titan Mobile and T1/T2
-------------------------------------
+## Connecting up Titan Mobile and T1/T2
 
 Do not connect the Titan Mobile panel or the T1/T2 dongle to your PC for
 the first time until you have installed the Titan PC Suite software,
@@ -91,7 +90,7 @@ the drivers for the panel are installed.
 For best usability, your PC should have a touch screen. If not you can
 use the mouse to select touch buttons.
 
-**Titan Mobile:** Having installed the software, connect the USB cable
+&nbsp;<strong>Titan Mobile:</strong> Having installed the software, connect the USB cable
 for the panel (older Titan Mobile panels have two USB connectors -- you
 only need to connect port A, nearest the DC socket). If your PC asks you
 for drivers, select \'Install the Software Automatically\'. If you have
@@ -111,14 +110,13 @@ from the Avolites website. The licence is keyed to the internal AvoKey
 in the Titan Mobile panel so you can install the software on multiple
 computers but it will only run when the Titan Mobile panel is connected.
 
-**T1/T2:** The T1/T2 USB devices give you a full lighting control system
+&nbsp;<strong>T1/T2:</strong> The T1/T2 USB devices give you a full lighting control system
 that will output one or two universes of DMX or Art-Net. The software to
 run it is called Titan Go. The first time you run Titan Go you will need
 to obtain a licence from the Avolites website which will license the
 AvoKey built into the device.
 
-Titan Healthcheck
------------------
+## Titan Healthcheck
 
 When the Titan software starts up, it runs a small utility called Titan
 Healthcheck which checks the file system and the installed firmware and
@@ -131,8 +129,7 @@ problems.
 Only run fixes if you have plenty of time as some fixes can take up to
 an hour to complete.
 
-Connecting DMX Lines
---------------------
+## Connecting DMX Lines
 
 The console communicates with lighting fixtures using the DMX512 system.
 The console itself can output 16 universes of DMX (each 512 control
@@ -173,8 +170,7 @@ end (120 ohm resistor between pins 2 and 3). You should not split the
 DMX lines using passive splitters (Y-splits) as this can corrupt the
 data.
 
-Connecting a Monitor
---------------------
+## Connecting a Monitor
 
 You can connect an additional monitor to the console (2 monitors on
 Sapphire Touch). This gives you extra screen space for workspace windows
@@ -185,9 +181,9 @@ touchscreen drivers. Titan Mobile will also support 2 monitors if the PC
 you are using has the facility.
 
 An external monitor is disabled by default and will show a \'disabled\'
-message. To enable, switch to System mode (press \<Avo\>+\<Disk\>) and
-select \[Display Setup\] then press \[External Display Disconnected\].
-The option will change to \[External Display Connected\] and the display
+message. To enable, switch to System mode (press <Keys.HardKey>Avo</Keys.HardKey>+<Keys.HardKey>Disk</Keys.HardKey>) and
+select <Keys.SoftKey>Display Setup</Keys.SoftKey> then press <Keys.SoftKey>External Display Disconnected</Keys.SoftKey>.
+The option will change to <Keys.SoftKey>External Display Connected</Keys.SoftKey> and the display
 will be enabled.
 
 If you need to change the monitor resolution or settings, touch
@@ -198,8 +194,7 @@ resolution of your monitor.
 Click [here](system-settings/external-displays.md) for more information about
 setting up an external monitor.
 
-Other Connections
------------------
+## Other Connections
 
 You can connect a USB keyboard and mouse to the console. If you are
 using an external non-touch monitor on a console without a built-in
@@ -229,8 +224,7 @@ the console. Suitable lamps are available from Avolites. The lamps are
 (not all desk lamps are wired like this and may require rewiring to
 work). You can set the brightness of the desk lamps from System mode.
 
-Connecting Console Wings
-------------------------
+## Connecting Console Wings
 
 "[Wings](./about-the-consoles/fader-wings.md)" are additional control surfaces which can be connected to the
 console to provide more faders and buttons. They connect to the console

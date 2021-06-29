@@ -1,8 +1,7 @@
 ---
-id: version-15.0-upgrading-the-software
+id: upgrading-the-software
 title: Upgrading the Software
 sidebar_label: Upgrading the Software
-original_id: upgrading-the-software
 ---
 
 The console operating software is under constant revision by the
