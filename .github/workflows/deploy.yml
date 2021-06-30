@@ -134,7 +134,7 @@ jobs:
         flags: '-avzr --delete'
         options: ''
         ssh_options: ''
-        src: 'website/build/AvoDocs/'
+        src: 'website/build/'
         dest: 'root@176.58.122.97:/var/www/sites/avodocs/'
     - name: AvoDeploy
       uses: Pendect/action-rsyncer@v1.1.0
@@ -144,7 +144,7 @@ jobs:
         flags: '-avzr --delete'
         options: ''
         ssh_options: ''
-        src: 'website/build/AvoDocs/'
+        src: 'website/build/'
         dest: 'web@51.104.240.248:/var/www/html/manuals/titan/'
 
   download:
@@ -189,7 +189,7 @@ jobs:
           flags: '-avzr --delete'
           options: ''
           ssh_options: ''
-          src: 'website/build/AvoDocs/'
+          src: 'website/build/'
           dest: 'root@176.58.122.97:/var/www/sites/avodocs/'
 
       - name: AvoDeploy
@@ -200,5 +200,5 @@ jobs:
           flags: '-avzr --delete'
           options: ''
           ssh_options: ''
-          src: 'website/build/AvoDocs/'
+          src: 'website/build/'
           dest: 'web@51.104.240.248:/var/www/html/manuals/titan/'
