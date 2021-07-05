@@ -69,7 +69,6 @@ module.exports={
         },
     ]
   ],
-  
   "i18n": {
     defaultLocale: 'en',
     locales: ['en', 'de'],
@@ -91,8 +90,22 @@ module.exports={
       "items": [
         {
           "to": "docs/",
-          "label": "Docs",
+          "label": "Titan",
           "position": "left"
+        },
+        {
+          label: 'Prism',
+          position: 'left',
+          items: [
+            {
+              label: 'Player',
+              to: 'prism/player/about',
+            },
+            {
+              label: 'One',
+              to: 'prism/one/about'
+            }
+          ]
         },
         {
           "to": "/help",
