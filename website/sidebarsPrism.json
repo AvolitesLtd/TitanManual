@@ -1,0 +1,82 @@
+{
+    "player": [
+    {
+      "type": "doc",
+      "id": "player/about"
+    },
+    {
+      "type": "doc",
+      "id": "player/playlist"
+    },
+    {
+      "type": "doc",
+      "id": "player/encoder"
+    },
+    {
+      "type": "doc",
+      "id": "player/encoder-settings"
+    },
+    {
+      "type": "doc",
+      "id": "player/mediaplayer"
+    },
+    {
+      "type": "doc",
+      "id": "player/settings"
+    },
+    {
+      "type": "doc",
+      "id": "player/save-load"
+    },
+    {
+      "type": "doc",
+      "id": "player/system-tray"
+    },
+    {
+      "type": "doc",
+      "id": "player/command-line"
+    }
+  ],
+  "one": [
+    {
+      "type": "doc",
+      "id": "one/about"
+    },
+    {
+      "type": "doc",
+      "id": "one/playlist"
+    },
+    {
+      "type": "doc",
+      "id": "one/encoder"
+    },
+    {
+      "type": "doc",
+      "id": "one/encoder-settings"
+    },
+    {
+      "type": "doc",
+      "id": "one/mediaplayer"
+    },
+    {
+      "type": "doc",
+      "id": "one/layer-options"
+    },
+    {
+      "type": "doc",
+      "id": "one/settings"
+    },
+    {
+      "type": "doc",
+      "id": "one/save-load"
+    },
+    {
+      "type": "doc",
+      "id": "one/system-tray"
+    },
+    {
+      "type": "doc",
+      "id": "one/command-line"
+    }
+  ]
+}

@@ -56,8 +56,20 @@ module.exports={
 
         highlightSearchTermsOnTargetPage: true,        
       },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+          id: 'prism',
+          "path": "../prismdocs",
+          routeBasePath: 'prism',
+          "showLastUpdateAuthor": true,
+          "showLastUpdateTime": true,
+          "sidebarPath": require.resolve('./sidebarsPrism.json'),
+        },
     ]
   ],
+  
   "i18n": {
     defaultLocale: 'en',
     locales: ['en', 'de'],

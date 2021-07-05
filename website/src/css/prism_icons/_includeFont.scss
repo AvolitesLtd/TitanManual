@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Avolites';
+  src: url('#{$avolites-prism-font-path}/Avolites.eot') format('embedded-opentype'),
+    url('#{$avolites-prism-font-path}/Avolites.woff2') format('woff2'),
+    url('#{$avolites-prism-font-path}/Avolites.woff') format('woff'),
+    url('#{$avolites-prism-font-path}/Avolites.ttf') format('truetype'),
+    url('#{$avolites-prism-font-path}/Avolites.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+.icon {
+  &::before {
+    display: inline-block;
+    padding-right: 5px;
+    font: normal normal normal 1em/1 'Avolites';
+    speak: none;
+    text-transform: none;
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
