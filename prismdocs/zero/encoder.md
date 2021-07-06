@@ -30,4 +30,4 @@ At the bottom of the **Encoder** queue a readout shows the completion percentage
 
 ### Import & Export
 
-Encodelists are able to be imported and exported from the application by clicking `Edit > Import / Export` from the header menu. The dialog defaults its location to the Windows Documents Folder under `Avolites > Prism > One`. Here you will find other documents such as application logs playlists and project files.
+Encodelists are able to be imported and exported from the application by clicking `Edit > Import / Export` from the header menu. The dialog defaults its location to the Windows Documents Folder under `Avolites > Prism > Zero`. Here you will find other documents such as application logs playlists and project files.

@@ -102,8 +102,8 @@ module.exports={
               to: 'prism/player/about',
             },
             {
-              label: 'One',
-              to: 'prism/one/about'
+              label: 'Zero',
+              to: 'prism/zero/about'
             }
           ]
         },

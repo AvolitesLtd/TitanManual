@@ -31,52 +31,44 @@
     {
       "type": "doc",
       "id": "player/system-tray"
-    },
-    {
-      "type": "doc",
-      "id": "player/command-line"
     }
   ],
-  "one": [
+  "zero": [
     {
       "type": "doc",
-      "id": "one/about"
+      "id": "zero/about"
     },
     {
       "type": "doc",
-      "id": "one/playlist"
+      "id": "zero/playlist"
     },
     {
       "type": "doc",
-      "id": "one/encoder"
+      "id": "zero/encoder"
     },
     {
       "type": "doc",
-      "id": "one/encoder-settings"
+      "id": "zero/encoder-settings"
     },
     {
       "type": "doc",
-      "id": "one/mediaplayer"
+      "id": "zero/mediaplayer"
     },
     {
       "type": "doc",
-      "id": "one/layer-options"
+      "id": "zero/layer-options"
     },
     {
       "type": "doc",
-      "id": "one/settings"
+      "id": "zero/settings"
     },
     {
       "type": "doc",
-      "id": "one/save-load"
+      "id": "zero/save-load"
     },
     {
       "type": "doc",
-      "id": "one/system-tray"
-    },
-    {
-      "type": "doc",
-      "id": "one/command-line"
+      "id": "zero/system-tray"
     }
   ]
 }

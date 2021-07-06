@@ -4,7 +4,7 @@ title: Command Line
 sidebar_label: Command Line
 ---
 
-The **CommandLine** is a *console* applicaiton can be opened from the system tray once **Prism One** is running. It is a way to interact with the server which runs in the background and has most of all features that the UI executes. Typing `help` will allow you to view all functions available. Successfully called functions will also keep the UI updated.
+The **CommandLine** is a *console* applicaiton can be opened from the system tray once **Prism Zero** is running. It is a way to interact with the server which runs in the background and has most of all features that the UI executes. Typing `help` will allow you to view all functions available. Successfully called functions will also keep the UI updated.
 
 ### Functions
 

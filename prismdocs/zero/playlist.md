@@ -10,7 +10,7 @@ The **Playlist** allows you to curate, name and order a list of different media 
 
 When a piece of media is loaded into the **Playlist**, several details about the file are shown: 
 
-![Prism One Playlist Details](/prismdocs/images/playlistdetails.png "Playlist Details")
+![Prism Zero Playlist Details](/prismdocs/images/playlistdetails.png "Playlist Details")
 
 * The name and path of the file
 * The current video codec of the file and whether it has alpha
@@ -34,4 +34,4 @@ After any adjustments, when the media is ready to export, pressing the **Send To
 
 ### Import & Export
 
-Playlists are able to be imported and exported from the application by clicking `Edit > Import / Export` from the header menu. The dialog defaults its location to the Windows Documents Folder under `Avolites > Prism > One`. Here you will find other documents such as application logs encodelists and project files.
+Playlists are able to be imported and exported from the application by clicking `Edit > Import / Export` from the header menu. The dialog defaults its location to the Windows Documents Folder under `Avolites > Prism > Zero`. Here you will find other documents such as application logs encodelists and project files.

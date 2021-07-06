@@ -41,7 +41,7 @@ It can be desireable to crop a clip so that only the specified region of interes
 
 The <Keys.ContextKey>Unlock</Keys.ContextKey> / <Keys.ContextKey>Lock</Keys.ContextKey> icons unlinks / links the **Width** and **Height** values has 2 modes which can be switched by clicking the icon. 
 
-* <Keys.ContextKey>Lock</Keys.ContextKey> **Width** and **Height** of the **Crop Area** will always maintain relative size according to the aspect ratio of the **Width** and **Height** set as the lock is pressed - if one value is adjusted, the other will change accordingly.
-* <Keys.ContextKey>Unlock</Keys.ContextKey> **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.
+* &nbsp;<Keys.ContextKey>Lock</Keys.ContextKey> **Width** and **Height** of the **Crop Area** will always maintain relative size according to the aspect ratio of the **Width** and **Height** set as the lock is pressed - if one value is adjusted, the other will change accordingly.
+* &nbsp;<Keys.ContextKey>Unlock</Keys.ContextKey> **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.
 
 The results of these settings will be applied to the rendered file once you press **Back** all the way to the **Encoder** area ready to export from the the **Encoder list**.

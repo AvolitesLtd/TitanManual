@@ -8,9 +8,9 @@ import Keys from '@site/src/components/key.ts';
 
 ### Playback
 
-**Prism One** allows you to playback **H264**, **Prores** & **AiM** files outside of **Avolites AI** as well as check any parameters of the files before sending them to the Encoder.
+**Prism Zero** allows you to playback **H264**, **Prores** & **AiM** files outside of **Avolites AI** as well as check any parameters of the files before sending them to the Encoder.
 
-**Prism One** uses the **FFMPEG** library for video decoding, which provides broad support for many different codecs. **AiM** decoding is hardware accelerated so it is advisable to make sure the most suitable GPU is selected in the **General Section** on the **Settings** page.
+**Prism Zero** uses the **FFMPEG** library for video decoding, which provides broad support for many different codecs. **AiM** decoding is hardware accelerated so it is advisable to make sure the most suitable GPU is selected in the **General Section** on the **Settings** page.
 
 The right side of the interface is the **Preview Area** of the application.
 
@@ -37,7 +37,7 @@ Media can be added and played using several different methods:
 - Pressing the *"Select Files"* button in the **Playlist** or **Encoder** area
 - Dragging a file into the **Preview Area** area will automatically add the video to the playlist and begin playing
   
-**Prism One** will save all files to a standard default location `Documents > Avolites > Prism > One` unless individually specified within the settings of any **Encoder Element**. The path of this folder can be changed in the **Encoder section** of the **Settings Page**. 
+**Prism Zero** will save all files to a standard default location `Documents > Avolites > Prism > Zero` unless individually specified within the settings of any **Encoder Element**. The path of this folder can be changed in the **Encoder section** of the **Settings Page**. 
 
 ### Shortcuts
 
