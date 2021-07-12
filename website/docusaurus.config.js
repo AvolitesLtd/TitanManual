@@ -1,6 +1,6 @@
 module.exports={
-  "title": "Avolites Titan Manual",
-  "tagline": "Official Manual for the Avolites Titan software",
+  "title": "Avolites Manual",
+  "tagline": "Official Manual for the Avolites Titan and Prism software",
   "url": "https://manual.avolites.com",
   "baseUrl": "/",
   "organizationName": "Avolites",
@@ -83,7 +83,7 @@ module.exports={
   },
   "themeConfig": {
     "navbar": {
-      "title": "Avolites Titan Manual",
+      "title": "Avolites Manual",
       "logo": {
         "src": "img/Avolites_Logo_White.svg"
       },
