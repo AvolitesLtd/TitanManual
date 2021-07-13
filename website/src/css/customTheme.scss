@@ -110,3 +110,11 @@ article ol {
     font-family: fontawesome;
   }
 }
+
+.prism {
+  .navbar__items--right {
+    .navbar__item {
+      display: none;
+    }
+  }
+}
