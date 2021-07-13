@@ -2,7 +2,7 @@
   "name": "avodocs",
   "productName": "Avolites Manual",
   "description": "Official Manual for the Avolites Titan and Prism software",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "homepage": "https://manual.avolites.com",
   "repository": {
     "type": "git",
@@ -87,7 +87,6 @@
     },
     "win": {
       "target": [
-        "portable",
         "nsis"
       ],
       "icon": "app/icon/icon.ico"
@@ -97,7 +96,8 @@
       "createDesktopShortcut": false,
       "perMachine": true,
       "guid": "Avolites\\Manual",
-      "menuCategory": "Avolites"
+      "menuCategory": "Avolites",
+	  "include": "./app/installer.nsh"
     }
   }
 }
