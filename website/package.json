@@ -97,7 +97,7 @@
       "perMachine": true,
       "guid": "Avolites\\Manual",
       "menuCategory": "Avolites",
-	  "include": "./app/installer.nsh"
+	    "include": "./app/installer.nsh"
     }
   }
 }
