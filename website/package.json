@@ -58,7 +58,7 @@
     "@docusaurus/preset-classic": "2.0.0-alpha.73",
     "chromedriver": "^91.0.0",
     "clsx": "^1.1.1",
-    "docusaurus-plugin-sass": "^0.1.1",
+    "docusaurus-plugin-sass": "^0.2.1",
     "minimist": "^1.2.5",
     "node-static": "^0.7.11",
     "react": "^17.0.1",

@@ -103,7 +103,7 @@ jobs:
         cd ../
         yarn install
         yarn run download
-        yarn run build --if-present
+        yarn run build
     - name: Deploy
       uses: Pendect/action-rsyncer@v1.1.0
       env:
