@@ -4,7 +4,7 @@ on:
   workflow_dispatch
 
 env:
-  NODE_VERSION: '12.x'
+  NODE_VERSION: '14.x'
 
 jobs:  
   app:
@@ -38,21 +38,21 @@ jobs:
           yarn install
           yarn build
           cd ../
-          npm install
+          yarn install
           mkdir downloads
 
       - name: Linux/Mac App Build & Copy to downloads
         if: matrix.os != 'windows-latest'
         run: |
           cd website
-          GH_TOKEN=${{secrets.GITHUB_TOKEN}} npm run app-build
+          GH_TOKEN=${{secrets.GITHUB_TOKEN}} yarn run app-build
           mv dist/*.zip dist/*.dmg dist/*.deb dist/*.AppImage downloads || true
 
       - name: Windows App Build & Copy to downloads
         if: matrix.os == 'windows-latest'
         run: |
           cd website
-          npm run app-build
+          yarn run app-build
           mv dist/*.exe downloads
           mv dist/*.zip downloads
 
@@ -95,15 +95,15 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ env.NODE_VERSION }}
-    - name: npm install, build, and test
+    - name: yarn install, build, and test
       run: |
         cd website/docusaurus-search-local
         yarn install
         yarn build
         cd ../
-        npm install
-        npm run download
-        npm run build --if-present
+        yarn install
+        yarn run download
+        yarn run build --if-present
     - name: Deploy
       uses: Pendect/action-rsyncer@v1.1.0
       env:
