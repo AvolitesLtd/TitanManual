@@ -66,6 +66,9 @@
     "react-youtube": "^7.13.1",
     "selenium-webdriver": "^4.0.0-beta.4"
   },
+  "resolutions": {
+    "joi": "17.4.0"
+  },
   "build": {
     "appId": "com.avolites.titan.manual",
     "files": [
