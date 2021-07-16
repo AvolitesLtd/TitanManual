@@ -7,7 +7,7 @@ on:
     branches: [ master ]
 
 env:
-  NODE_VERSION: '12.x'
+  NODE_VERSION: '14.x'
 
 jobs:
   test:
@@ -28,13 +28,13 @@ jobs:
     - name: Install & Build
       run: |
         cd website/docusaurus-search-local
-        yarn install
+        yarn install  --frozen-lockfile
         yarn build
         cd ../
-        npm install
-        npm run build
+        yarn install --frozen-lockfile
+        yarn run build
     
     - name: Test
       run: |
         cd website
-        npm run test-build
+        yarn run test-build

@@ -4,7 +4,7 @@ on:
   workflow_dispatch
 
 env:
-  NODE_VERSION: '12.x'
+  NODE_VERSION: '14.x'
 
 jobs:  
   app:
@@ -35,7 +35,7 @@ jobs:
       - name: Install Dependencies
         run: |
           cd website
-          npm install
+          yarn install --frozen-lockfile
           mkdir downloads
 
       - name: Linux/Mac App Build & Copy to downloads
