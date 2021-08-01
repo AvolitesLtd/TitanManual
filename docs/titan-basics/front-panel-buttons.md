@@ -70,14 +70,15 @@ corner of the console.
 
 To record a macro:
 
-1. Press the <Keys.HardKey>Macro</Keys.HardKey> button (above keypad)
-2. Select <Keys.SoftKey>Full Speed</Keys.SoftKey> or <Keys.SoftKey>Real Time</Keys.SoftKey>.
-3. Press <Keys.SoftKey>Record</Keys.SoftKey>
-4. Press a suitable empty button on the panel, or an empty button in
-the Macro window on the screen. Recording starts. The Insert/Macro
+1. Press the <Keys.HardKey>Macro</Keys.HardKey> button (above keypad).
+2. Press <Keys.SoftKey>Record</Keys.SoftKey>. 
+3. Select <Keys.SoftKey>Full Speed</Keys.SoftKey> or <Keys.SoftKey>Real Time</Keys.SoftKey>.
+4. Press <Keys.SoftKey>Record</Keys.SoftKey> to record the macro into the show library, or 
+press a suitable empty button on the panel, or an empty button in
+the Macro window on the screen. Recording starts. The Macro
 button flashes during recording.
 5. Press the sequence of buttons you want to record.
-6. Press <Keys.SoftKey>Record Macro</Keys.SoftKey> to finish recording.
+6. Press <Keys.HardKey>Macro</Keys.HardKey> to finish recording.
 
 To play back the macro, just press or touch the button where you
 recorded the macro. The macro will repeat all your button presses, with
