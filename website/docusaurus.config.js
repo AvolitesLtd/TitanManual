@@ -60,7 +60,7 @@ module.exports={
   ],
   "i18n": {
     defaultLocale: 'en',
-    locales: ['en', 'de'],
+    locales: ['en', 'de', 'it'],
     localeConfigs: {
       en: {
         label: 'English',
@@ -68,6 +68,9 @@ module.exports={
       de: {
         label: 'German',
       },
+      it: {
+        label: 'Italian',
+      }
     },
   },
   "themeConfig": {

@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "Avolites Titan Manual",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Help": {
+    "message": "Help",
+    "description": "Navbar item with label Help"
+  },
+  "item.label.Main Website": {
+    "message": "Main Website",
+    "description": "Navbar item with label Main Website"
+  }
+}
