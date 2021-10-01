@@ -253,8 +253,7 @@ a mask is automatically applied. See [Storing a Palette](../palettes/creating-pa
 
 ## Legends and Picture Legends
 
-All touch buttons can have legends set to remind you what they do. In
-addition, you can draw picture legends on the buttons. To do this,
+All controls can have legends set to remind you what they do. These can be text or image files, or you can draw your own picture legends. To do this,
 select <Keys.SoftKey>Set Legend</Keys.SoftKey> then press <Keys.SoftKey>Picture</Keys.SoftKey>. A drawing space will open
 on the touch screen for you to draw the legend. There is also a library
 of pictures to choose from including popular gobo designs.
