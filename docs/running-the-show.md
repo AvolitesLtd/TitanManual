@@ -88,6 +88,8 @@ press <Keys.SoftKey>User Settings</Keys.SoftKey>) and select your workspace from
 3.  Lock the console as described above. The workspace you selected should be shown.
 4.  To unlock the console into normal mode, click the <Keys.SoftKey>Programmer Mode</Keys.SoftKey> button at the top right of the screen and enter the password you used.
 
+![Venue Mode example](/docs/images/venue-mode.png)
+
 All hardware controls are disabled in this mode. Only the following workspace windows will show:
 -  All Handle Windows (Colours, Playbacks, Media, etc.)
 -  Active Playbacks
