@@ -75,9 +75,9 @@ Speed or Size masters can have various scales, 0-100%, 0-200% and so on. A 0-200
 
 ### BPM master options
 
-BPM masters can have multipliers or dividers set which allows you to vary how the tapped speed relates to the effect speed. To modify the options, press <Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> softkey) at the top level menu then press the blue button of the BPM master.
+BPM masters can have multipliers or dividers set which allows you to vary how the tapped speed relates to the effect speed. To modify the options, press <Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> softkey) at the top level menu then press the **Select** button of the BPM master.
 
-Normally the BPM master fader sets the BPM, and the multiplier is shown below. Tapping the blue button will also set the BPM or you can enter BPM on the keypad and press the blue button of the master to set it. This is how a BPM master looks
+Normally the BPM master fader sets the BPM, and the multiplier is shown below. Tapping the **Select** button will also set the BPM or you can enter BPM on the keypad and press the **Select** button of the master to set it. This is how a BPM master looks
 with the BPM set by the fader:<br/>
 ![BPM Master on playback](/docs/images/BPM-Master-on-playback.png)   
 
@@ -202,7 +202,7 @@ with a fader.
 
 The **Select** button will then select fixtures in the group and holding down the select button gives you softkey options to filter the selection according to a pattern.
 
-Press <Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> softkey) and then the blue select button above the fader to set the fader mode to the following:
+Press <Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> softkey) and then the **Select** button above the fader to set the fader mode to the following:
 -   Scale master (proportional control). Scale masters can be set to variable scales of 100%, 200%, 400%, 600% and 1000%. The higher settings allow you to increase an intensity above its recorded level.
 -   HTP (override level if higher than current output)
 -   Limit (sets hard limit)
@@ -216,7 +216,7 @@ mode of the master will be shown.
 
 When a group master is set to disabled or moved to a handle without a fader, it will become locked at the current fader level. Re-enable or move back to a fader to adjust the level.
 
-Using [Key Profiles](../system-settings/key-profiles.md), you can set different behaviour for the buttons of a group master -- the blue and grey buttons if it is on a fader handle, or the touch button if it's on screen.
+Using [Key Profiles](../system-settings/key-profiles.md), you can set different behaviour for the buttons of a group master -- the Select and Flash buttons if it is on a fader handle, or the touch button if it's on screen.
 -   Flash Fixtures -- flashes the dimmer level of fixtures in the group to the level set by the group master fader, while the button is held
 -   Timed Flash -- as above, but fade in and out using fade times set using the "Edit Times" option for the group master
 -   Flash Master -- flashes the group master fader to full
@@ -248,7 +248,7 @@ To **enter** preset mode, press the **Select** button of the Scene Master (or <K
 Once you have entered preset mode, any changes you make - firing playbacks, stepping cue lists, applying palettes and so on - will only be shown on the visualiser and won't change the output. Everything you change for the preset will also turn purple on its display.
 
 You can now smoothly fade all your preset changes to the output by fading the Scene Master to the other end of its travel.
-If times are programmed for cues or palettes they will also run. Once the fader has reached the end of the travel, the new state is "committed" to the output, or you can press the grey handle button (<Keys.HardKey>Commit</Keys.HardKey> on Diamond 9) to manually commit the new state. The Scene Master will remain in Preset mode until you change back to Live mode.
+If times are programmed for cues or palettes they will also run. Once the fader has reached the end of the travel, the new state is "committed" to the output, or you can press the flash button (<Keys.HardKey>Commit</Keys.HardKey> on Diamond 9) to manually commit the new state. The Scene Master will remain in Preset mode until you change back to Live mode.
 
 Normally the Scene Master will auto-reverse so you can just keep
 presetting new states, moving the fader alternately up and down. You can
@@ -264,7 +264,7 @@ also set it to require you to move it back to zero each time - press <Keys.HardK
 
 -   &nbsp;<Keys.SoftKey>Manual Commit</Keys.SoftKey> The new state does not commit at 100% and if you
     move the fader back to 0 the output state will go back to what it
-    was before. You need to manually commit the changes using the grey
+    was before. You need to manually commit the changes using the flash
     button (the button can be changed using Key Profiles).
 
 On the Diamond 9, there are additional Scene Master buttons <Keys.HardKey>Reset</Keys.HardKey> which clears all preset changes back to the current live state, and <Keys.HardKey>Preload</Keys.HardKey> which acts like a normal preload button for the preset changes, loading the LTP attributes.
@@ -308,7 +308,7 @@ each fader, and a virtual fader (on the touch screen) can also have a black butt
 ![Playback Faders with key profiles applied](/docs/images/Playback-Faders-with-key-profiles-applied.png)
 
 The screen relating to each playback fader
-shows the allocated function of the blue and grey buttons.
+shows the allocated function of the Select and Flash buttons.
 
 ## Playback priority
 
@@ -366,7 +366,7 @@ new page, then that playback will appear instead of the locked one. This
 can be useful if you only need the locked playback to appear on certain
 pages but wish to reuse the handle on other pages.
 
-You can also lock Palettes stored on the grey handle buttons, and macros
+You can also lock Palettes stored on the grey handle buttons (Pearl Expert only), and macros
 stored on the macro/executor buttons which is useful with the Macro page
 change buttons.
 
