@@ -224,7 +224,6 @@ can also be set in the Clear tab of the [User Settings](./system-settings/user-s
 You can use the [Channel Grid](./controlling-fixtures/viewing-and-editing-fixture-values.md#the-channel-grid-window) window to selectively view and remove
 attributes from fixtures.
 
-> If you type a number then press <Keys.HardKey>Clear</Keys.HardKey>, HTP values in the programmer will fade out over that time, for example 5 <Keys.HardKey>Clear</Keys.HardKey> would fade over 5 seconds. This can be very useful if you are trying to be subtle when making changes during a show.
 
 ## Fixtures with Multiple Cells/Sub-Fixtures
 
