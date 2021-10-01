@@ -40,9 +40,22 @@ System Render Rate (Hz) | Sets the output rate of DMX frames from 1-44 frames pe
 ---|------
 External Display                    | ***On:*** External display is enabled <br/> *Off:* External display is disabled.
 External Screen Workspace Shortcuts | ***On:*** Each screen has its own Workspace Shortcut buttons (shown down the side of the screen on external screens). This allows you to recall different window layouts separately on each screen rather than changing all screens. <br/>*Off:* The Workspace buttons on the main screen control all screens.
-Lock Screen Background              | Sets a picture to be displayed when the console is locked.
+Virtual Hardware                    | ***Auto:*** Titan Go will automatically hide the virtual control buttons if a Titan Mobile is connected <br/> *Enabled:* The virtual control buttons are always shown <br/> *Disabled:* The virtual control buttons are always hidden.
+Fullscreen Mode                     | *On:* The Titan Go application will be displayed fullscreen <br/> ***Off:*** The Titan Go application will be displayed in a window.
 
 -  These options can also be set from **System** menu, in the **Display Setup** option.
+-  You can also press F11 to change the Titan Go application to full screen display.
+
+## Lock
+
+ Option            | Action  
+---|------
+Lock Screen Background              | Sets a picture to be displayed when the console is locked.
+Venue Mode Workspace                | Selects workspace (from softkeys) to be used when console is locked.
+Venue Mode Password                 | If set, allows staff to unlock the console into Venue Mode from fully locked
+Programmer Password                 | If set, fully unlocks the console. "68340" will also always unlock the console.
+Lock on Startup                     | ***Shutdown state:*** Console will start up in the lock state it was in when shut down. <br/> *Locked:* Console will always start up fully locked <br/> *Venue Mode Workspace:* Console will start up showing Venue Mode workspace.
+
 
 
 ## Handles
@@ -83,13 +96,6 @@ Times Format                     | Selects between ***HH:MM:SS*** format and *Se
 Compensate for Rate Grand Master | ***On:*** When a tempo is tapped on a BPM master it will not be affected by the Rate Grand Master being set to less than 100%.<br/>*Off:* Tempo will be scaled by Rate Grand Master.
 
 
-## Formatting
-
- Option        | Action  
----|------
-Channel Levels | Sets how you enter channel levels when using numeric entry of levels<br/> *Set In Tens:* enter one digit for the channel level, 5 = 50%.<br/>***Set in Units:*** enter two digits, 50 = 50%.
-Number Style   | Sets how channel values are displayed in Cue View and Palette View. <br/> *Precise:* will include all decimal places.<br/>*Rounded:* round to nearest whole number.<br/>***Dynamic:*** show decimals where appropriate, remove trailing zeros.
-
 ## Palettes
 
  Option                   | Action  
@@ -104,6 +110,25 @@ Master Palette Time       | Sets the default fade time to be used when recalling
 Master Palette Overlap    | Sets the default overlap to be used when fading palettes.
 Record Nested Palettes    | ***On:*** Palettes containing other source palettes will be updated when you change the source palette.<br/>*Off:* Nested palettes are not updated.<br/>See [Nested Palettes](../palettes/creating-palettes.md#nested-palettes) for more detail.
 Preset Palettes           | This is the same as the option in the Patching section, [see above](#patching).
+
+
+## Timeline
+
+ Option                   | Action  
+---|------
+Default Playback Length   | Sets the default duration of a playback when first added to the timeline.
+Timeline Skip Length      | Sets the amount of time the "skip forward" and "skip back" actions will jump by.
+Display Frame Rate        | The framerate to be used for displaying timecode time. ***"Follow Source"*** sets the framerate to match the incoming timecode source. 
+Auto-Simplify             | ***On:*** Triggers will be automatically simplified after a live record <br/>*Off:* Triggers will not be simplified. <br/>See [Auto Simplify](../timelines/creating-a-timeline.md#auto-simplify) for more detail.
+Auto-Open View            | *None:* No view will be opened when recording a new timeline <br/> ***Timeline:*** The timeline graphical window will open <br/>*Timeline and Table:* The graphical and table view windows will both open.
+
+## Formatting
+
+ Option        | Action  
+---|------
+Channel Levels | Sets how you enter channel levels when using numeric entry of levels<br/> *Set In Tens:* enter one digit for the channel level, 5 = 50%.<br/>***Set in Units:*** enter two digits, 50 = 50%.
+Number Style   | Sets how channel values are displayed in Cue View and Palette View. <br/> *Precise:* will include all decimal places.<br/>*Rounded:* round to nearest whole number.<br/>***Dynamic:*** show decimals where appropriate, remove trailing zeros.
+
 
 ## Release
 
@@ -132,13 +157,6 @@ Action Precedence          | Sets a two-stage action for presses of the Clear bu
 
 -  These settings can also be changed from the Clear menu if you hold down the <Keys.HardKey>Clear</Keys.HardKey> button.
 
-## Effects
-
- Option         | Action  
----|------
-Swop Shapes     | Sets how shapes react to another playback being fired in Swop mode.<br/>***All Shapes:*** All running shapes from other playbacks are stopped.<br/>*Intensity Shapes:* Only intensity shapes from other playbacks stop.
-Shape Behaviour | Sets how Key Frame Shapes combine with other playbacks.<br/>***Overlay:*** Key Frame Shapes will overlay all other values.<br/>*LTP:* Key Frame Shapes will work in LTP mode where later changes will override the shape.<br/>See [Saving a key frame shape to a cue](../effects/key-frame-shapes.md#saving-a-key-frame-shape-to-a-cue).
-
 ## LEDs
 
  Option              | Action  
@@ -148,6 +166,14 @@ LED Empty Level      | Sets level for unpatched handle.
 LED Occupied Level   | Sets level for occupied but unselected handle.
 LED Programmer Level | Level if fixture is in the programmer.
 LED Selected Level   | Level if fixture is selected.
+
+## Effects
+
+ Option         | Action  
+---|------
+Swop Shapes     | Sets how shapes react to another playback being fired in Swop mode.<br/>***All Shapes:*** All running shapes from other playbacks are stopped.<br/>*Intensity Shapes:* Only intensity shapes from other playbacks stop.
+Shape Behaviour | Sets how Key Frame Shapes combine with other playbacks.<br/>***Overlay:*** Key Frame Shapes will overlay all other values.<br/>*LTP:* Key Frame Shapes will work in LTP mode where later changes will override the shape.<br/>See [Saving a key frame shape to a cue](../effects/key-frame-shapes.md#saving-a-key-frame-shape-to-a-cue).
+
 
 ## Timecode
 

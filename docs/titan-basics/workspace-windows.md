@@ -353,6 +353,14 @@ move to the main screen when this layout is set.
 - Workspace window(s) fill the full screen, no button/encoder legends
 shown.
 
+## Venue Mode Workspace
+
+You can designate a workspace to be displayed on the screen when the console is locked. This lets you provide a selection of playbacks on the lock screen, allowing basic controls for cleaners or bar staff when the lighting operator is not present. 
+
+You can also configure the console to power up in locked mode so you can ensure that staff can always access the venue mode playbacks even if the console was not powered on.
+
+See [Venue Mode Workspace](../running-the-show/using-multiple-on-screen-workspaces.md#fixture-button-halo).
+
 
 ## Compatibility Windows for Pearl Expert Shows
 
