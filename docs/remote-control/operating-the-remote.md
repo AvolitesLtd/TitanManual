@@ -60,7 +60,8 @@ wheels.
 You can scroll the fixture screen up and down by dragging the window. To
 view the fixture pages, drag the Pages bar to the right.
 
-Press the **All** button to select all fixtures. Hold down the **All** button to
+Use the **Highlight**, **Prev** and **Next** buttons to step through a set of selected fixtures
+one at a time. Press the **All** button to reselect all fixtures in the set. Hold down the **All** button to
 step through various selection patterns (odd, even etc).
 
 ![Fixture Control in Titan Remote Android App](/docs/images/Fixture-Control-in-Titan-Remote-Android-App.png)
