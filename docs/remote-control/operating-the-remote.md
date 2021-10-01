@@ -85,13 +85,13 @@ an active playback.
 
 
 
-## Recording Groups and Palettes
+## Recording Palettes
 
-You can record groups and palettes using the **Rec** button on the remote,
+You can record palettes using the **Rec** button on the remote,
 then click a workspace button as normal. You can also hold down an empty
-button to quick record a group or palette.
+button to quick record a palette.
 
 If you hold down a used palette button, the current programmer will be
 quick merged into the existing palette.
 
-*You cannot record cues using the remote.*
+*You cannot record cues or groups using the remote.*
