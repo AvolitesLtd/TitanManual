@@ -200,8 +200,6 @@ different display modes for the Playback Groups workspace:
 You can assign a fader to control the master intensity of each fixture group. To do this you simply save (or move) the group button to a handle
 with a fader.
 
-The **Select** button will then select fixtures in the group and holding down the select button gives you softkey options to filter the selection according to a pattern.
-
 Press <Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> softkey) and then the **Select** button above the fader to set the fader mode to the following:
 -   Scale master (proportional control). Scale masters can be set to variable scales of 100%, 200%, 400%, 600% and 1000%. The higher settings allow you to increase an intensity above its recorded level.
 -   HTP (override level if higher than current output)
