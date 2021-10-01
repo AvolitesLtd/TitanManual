@@ -75,3 +75,9 @@ Capture to be a unique number. To fix unsupported fixtures, first try
 [updating your Titan fixture library](../fixture-personalities.md#updating-the-personality-library-on-the-console). If this doesn't help, you can
 [submit a personality request](../fixture-personalities.md#requesting-a-new-fixture-personality) on the [Avolites website](https://personalities.avolites.com/?mainPage=Request%20Queue.asp&) and select "Capture
 Visualiser (.c2o)" from the Desk Type options.
+
+## Creating playback legends from Capture screenshots
+
+You can grab a screenshot from Capture to use as a legend for a playback/palette using the CITP link. This can give you a quick reference to the look you stored in the playback without having to try to describe it in words.
+
+Set a picture legend as normal and change to the "network" tab in the keyboard. Any network legends, including a snapshot from the Capture Alpha view will show up, allowing you to set it as a legend.
