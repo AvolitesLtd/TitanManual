@@ -58,6 +58,16 @@ There are different library installers depending on the **version of Titan
 you are running**. This is to ensure you get the right version of the Capture
 library, the actual personality library is identical in each version.
 
+- The console caches the FixtureLibrary folder into memory when the
+ Patch option is first used, so after updating you need to restart the console
+ software (from the Tools menu) to ensure new fixture personalities
+ are loaded.
+
+- Once a fixture is patched, its personality is embedded in the show
+ file. Any updates to the fixture library will not affect fixtures
+ patched in the show. You can use the <Keys.SoftKey>Update Personality</Keys.SoftKey> option
+ in the patch menu to update patched fixtures if you need to (see [Updating Patched Personalities](./patching/changing-the-patch.md#updating-patched-personalities)).
+
 > Updating will overwrite any custom personalities you have stored in the library. To avoid this, store your custom personalities in the user personalities folder (see next section for details).
 
 ### Console Update Procedure
@@ -80,14 +90,7 @@ on it to run it. Windows may show a warning about an unrecognised file
 3. When the installation has completed, shut down and then restart the
 Titan software.
 
-> The console caches the FixtureLibrary folder into memory when the
- Patch option is first used, so you need to restart the console
- software (from the Tools menu) to ensure new fixture personalities
- are loaded.<br/>
- Once a fixture is patched, its personality is embedded in the show
- file. Any changes to the fixture library will not affect fixtures
- patched in the show. You can use the <Keys.SoftKey>Update Personality</Keys.SoftKey> option
- in the patch menu to update patched fixtures if you need to.
+
 
 ## User/Custom Personalities
 
