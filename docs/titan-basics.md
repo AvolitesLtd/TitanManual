@@ -89,17 +89,17 @@ the first time until you have installed the **Titan PC Suite** software,
 which you do simply by running the installer file. This will make sure
 the drivers for the panel are installed.
 
-> **PC specifications:** From Titan v14, your PC should be running Windows 10 64-bit (other versions may not work correctly and we can't provide you with support). Some users have successfully used Virtual Machines to run Titan, but we don't provide support for them.
+> **PC specifications:** From Titan v14, your PC should be running Windows 10 64-bit (other versions may not work correctly and we can't provide you with support). Some users have successfully used Virtual Machines to run Titan, but we don't provide support for them.<br/>
 We recommend i5 processor with 4GB RAM as a minimum.	
 Please [see https://avolites.com/titan-pc-system-requirements](https://avolites.com/titan-pc-system-requirements/) for the full specification.
 
 For best usability, your PC should have a touch screen. If not you can
 use the mouse to select touch buttons.
 
-**Titan Mobile:** Having installed the software, connect the USB cable
+**Titan Mobile:** Having installed the Titan PC Suite software, connect the USB cable
 for the panel (older Titan Mobile panels have two USB connectors -- you
 only need to connect port A, nearest the DC socket). If your PC asks you
-for drivers, select \'Install the Software Automatically\'. If you have
+for drivers, select 'Install the Software Automatically'. If you have
 an older Titan Mobile panel without the built-in AvoKey you also need to
 attach an AvoKey to a free USB port to license the software.
 
@@ -110,20 +110,23 @@ may be needed. The required power supply is: 9-12 volt 800mA DC.
 Connector: 2.5mm hole, outside diameter 5.5mm, length 9.5mm, wired
 centre pin positive. Example Part number: DCPP2
 
-The first time you run Titan Mobile you will need to obtain a
+The first time you run the Titan Go software with your Titan Mobile panel you will need to obtain a
 [licence](./system-settings/recovering-reinstalling-the-console.md#software-licensing)
 from the Avolites website. The licence is keyed to the internal AvoKey
 in the Titan Mobile panel so you can install the software on multiple
 computers but it will only run when the Titan Mobile panel is connected.
 
 **T1/T2:** The T1/T2 USB devices give you a full lighting control system
-that will output one or two universes of DMX or Art-Net. The software to
-run it is called Titan Go. The first time you run Titan Go you will need
+that will output one or two universes of DMX or Art-Net and also operate using
+the Titan Go software. The first time you run Titan Go you will need
 to obtain a licence from the Avolites website which will license the
 AvoKey built into the device.
 
--	If you are using an older Titan 1 dongle, you will need to attach an
+-	If you are using the older Titan 1 dongle with a built in USB cable, you will need to attach an
 	AvoKey to a free USB port to license the software. 
+
+- The Titan Go software should automatically detect whether the Titan Mobile panel is connected, and hide the virtual hardware buttons which are shown when you use it with T1/T2 devices - this can be manually overridden
+using the [User Setting](../system-settings/user-settings.md#display) **Virtual Hardware** in the **Display** tab.
 
 ## Titan Healthcheck
 

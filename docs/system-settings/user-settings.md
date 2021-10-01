@@ -43,6 +43,7 @@ External Screen Workspace Shortcuts | ***On:*** Each screen has its own Workspac
 Virtual Hardware                    | ***Auto:*** Titan Go will automatically hide the virtual control buttons if a Titan Mobile is connected <br/> *Enabled:* The virtual control buttons are always shown <br/> *Disabled:* The virtual control buttons are always hidden.
 Fullscreen Mode                     | *On:* The Titan Go application will be displayed fullscreen <br/> ***Off:*** The Titan Go application will be displayed in a window.
 
+-  The bottom two options are only shown when using the Titan Go application.
 -  These options can also be set from **System** menu, in the **Display Setup** option.
 -  You can also press F11 to change the Titan Go application to full screen display.
 
