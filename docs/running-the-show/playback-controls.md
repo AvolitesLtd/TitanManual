@@ -14,7 +14,82 @@ problems.
 
 ## Label the console
 
-When you are running your show you will need to know where everything is. Use the Legend functions to set on-screen labels, or you can't beat the low tech method of marker pen and tape.
+When you are running your show you will need to know where everything is. Most handles have an associated display area for you to use the Set Legend function (see [Legends and picture legends](../titan-basics/workspace-windows.md/#legends-and-picture-legends) ), or you can't beat the low tech method of marker pen and tape.
+
+## Locking the console
+
+The console controls can be locked to prevent unwanted tampering with it while you're not there. You can set a background image to show while locked. You can also show a workspace when locked to allow basic controls for non-technical staff, this is called *Venue Mode*.
+
+While the console is locked, all functions are disabled except the DMX
+outputs and currently running playbacks.
+
+1. Hold down <Keys.HardKey>Avo</Keys.HardKey>
+2. Press <Keys.SoftKey>Lock</Keys.SoftKey>
+3. Type a password (numbers from the keypad, or letters if you have a keyboard connected).
+4. Press <Keys.SoftKey>Lock</Keys.SoftKey>
+5. To unlock, enter the same password again. 
+
+After a few seconds, the "Enter password" prompt will fade out from the lock screen but will appear
+again if you press buttons or touch the screen. 
+
+You can set a saved **Programmer Password**, to save typing a password each time, by pressing <Keys.SoftKey>Set Saved Password</Keys.SoftKey> at step 3 (you can also set this from the Lock tab of User Settings). If you have a Programmer Password set then you can skip step 3 and just press <Keys.HardKey>Avo</Keys.HardKey> <Keys.SoftKey>Lock</Keys.SoftKey> <Keys.SoftKey>Lock</Keys.SoftKey> to lock the console.
+
+> You can always unlock the console using the Avo master code "68340". <br/>
+  Locking / password does not protect or encrypt your show file in any way. This is just a simple operational lock to prevent unwanted tampering with the controls on the console.
+
+### Setting a background image for Lock screen
+
+You can set a background image for the lock screen from the **Lock Screen
+Background** option in the **Lock** tab of User Settings (hold <Keys.HardKey>Avo</Keys.HardKey>,
+press <Keys.SoftKey>User Settings</Keys.SoftKey>). The image can be either loaded from a picture
+file (using the folder tab of the image selector) or drawn using the touch screen.
+
+If you load a picture file, the softkey <Keys.SoftKey>Scaling Mode</Keys.SoftKey> sets how
+the picture will be scaled to fill the screen:
+
+-   None: Image is displayed 1:1
+-   Letterbox: scales the image until it fills either the width or
+    height of the screen, leaving black bars on the other edges of the
+    screen.
+-   Fill: scales the image until it fills the whole screen, keeping the
+    aspect ratio
+-   Stretch: scales the image until it fills the whole screen, ignoring
+    the aspect ratio
+
+The <Keys.SoftKey>Clear</Keys.SoftKey> softkey will remove the image.
+
+### Setting a Venue Mode workspace for basic controls while locked
+
+You can designate a workspace to be displayed on the screen when the console is locked, this is called a **Venue Mode** workspace. This lets you provide a selection of playbacks or other controls on the lock screen, allowing basic controls for non-technical staff when the lighting operator is not present. 
+
+1.  Save a workspace to be used for Venue Mode showing only the controls you want to be accessible (for example use the Playbacks window to provide buttons to turn on a basic lighting state, or the Virtual Faders window to give more control.)
+2.  Go to **Venue Mode Workspace** in the **Lock** tab of User Settings (hold <Keys.HardKey>Avo</Keys.HardKey>,
+press <Keys.SoftKey>User Settings</Keys.SoftKey>) and select your workspace from the list on the softkeys.
+3.  Lock the console as described above. The workspace you selected should be shown.
+4.  To unlock the console into normal mode, click the <Keys.SoftKey>Programmer Mode</Keys.SoftKey> button at the top right of the screen and enter the password you used.
+
+All hardware controls are disabled in this mode. Only the following workspace windows will show:
+-  All Handle Windows (Colours, Playbacks, Media, etc.)
+-  Active Playbacks
+-  Audio Triggers
+-  Capture Visualiser
+-  Channel Grid
+-  DMX
+-  Event Log
+-  Intensity View
+-  Pioneer DJ
+-  Pixel Map Preview
+-  Playback Groups
+-  Timecode Windows
+-  Video Multi View
+-  Virtual Faders
+
+Fixture selection is disabled, but quick palettes will still function.
+
+Using the **Lock on Startup** setting in the **Lock** tab of [User Settings](../system-settings/user-settings.md#lock) you can configure what lock mode the console will power up into, so you can ensure that staff can gain an appropriate level of control even if the console was not powered on, or was not turned off in a locked state. If you set the console to start up in a Locked state, you need to also set a Programmer Password to be used.
+
+If the console is in a publicly accessible location you can also lock the venue mode screen using the **Venue Mode Password** on the **Lock** tab of User Settings. To lock the screen press <Keys.SoftKey>Lock</Keys.SoftKey> in the top right hand corner. This will show the normal lock screen. When you unlock using the Venue Mode Password, the console will go back to showing the Venue Mode workspace. This allows venue staff to be able to secure the console without having full programming access.
+
 
 ## Grand Master fader and assignable masters
 

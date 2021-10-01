@@ -1,7 +1,7 @@
 ---
 id: using-multiple-on-screen-workspaces
-title: Using multiple on⁃screen workspaces
-sidebar_label: Using multiple on⁃screen workspaces
+title: Using workspaces to store screen layouts
+sidebar_label: Using workspaces to store screen layouts
 ---
 
 import Keys from '@site/src/components/key.ts';
@@ -14,9 +14,11 @@ buttons to the left of the menu buttons (or down one side of the screen
 for Diamond 9, Sapphire Touch, Titan Go, and on external screens). You can also store workspaces
 to any executor button on the console.
 
+Workspace buttons can recall a screen layout for each individual screen, or can reconfigure all screens with a single button press.
+
 Double press <Keys.HardKey>Open/View</Keys.HardKey> to show the window select buttons. See
-[Opening and positioning workspace windows](../titan-basics/workspace-windows.md#opening-and-positioning-workspace-windows)
-for more details about using Workspace Windows.
+[Saving workspace layouts](../titan-basics/workspace-windows.md#saving-workspace-layouts)
+for more details about saving screen layouts using the Workspace buttons.
 
 You can also create a [Set List](../running-the-show/set-list-window.md) which will automatically recall a
 workspace layout for each song.
@@ -30,6 +32,4 @@ set up what is shown on the screen(s).
 
 -   &nbsp;<Keys.SoftKey>Open Workspace Window</Keys.SoftKey> also gives a list on the softkeys of all the
     possible windows, allowing you to open the one you need.
-	
-
 
