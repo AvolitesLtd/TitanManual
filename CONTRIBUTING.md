@@ -12,15 +12,20 @@ following tags: \<Keys.HardKey\>Button\</Keys.HardKey\>.
 
 Touch buttons on the screen are rendered in the text in a light
 blue rounded box. This is created in the markdown using the
-following notation: \<Keys.SoftKey\>Button\</Keys.SoftKey\>'.
+following tags: \<Keys.SoftKey\>Button\</Keys.SoftKey\>.
 
 If the button is a menu softkey, we would say so in the 
 description, for example "Press the \<Keys.SoftKey\>Options\</Keys.SoftKey\>
 softkey."
 
-Note: The rendering breaks if one of these tags starts a line in the
-markdown file. Add an html non-breaking space (&nbsp;) before the tag
-if it is at the start of a line.
+Context buttons (for example the X to close a window or buttons in a context menu)
+are rendered with a dark grey background similar to how they show on 
+the console screen. This is created in the markdown using the following
+tags: \<Keys.ContextKey\>X\</Keys.ContextKey\>
+
+*Note: The rendering breaks if one of these tags starts a line in the
+markdown file. Add an html non-breaking space (`&nbsp;`) before the tag
+if it is at the start of a line.*
 
 ---
 
