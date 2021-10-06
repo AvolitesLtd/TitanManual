@@ -3,8 +3,8 @@ module.exports={
   "tagline": "Official Manual for the Avolites Titan and Prism software",
   "url": "https://manual.avolites.com",
   "baseUrl": "/",
-  "organizationName": "Avolites",
-  "projectName": "AvoDocs",
+  "organizationName": "AvolitesLtd",
+  "projectName": "TitanManual",
   "scripts": [
     "https://buttons.github.io/buttons.js",
     "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js",

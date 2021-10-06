@@ -91,7 +91,7 @@ function Versions(props) {
                       {/* You are supposed to change this href where appropriate
                       Example: href="<baseUrl>/docs(/:language)(/:version)/:id" */}
                       <a
-                        href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${
+                        href={`/docs/${
                           props.language ? props.language + '/' : ''
                         }${
                           version == latestVersion ? '' : version + '/'}`}>
@@ -116,9 +116,9 @@ function Versions(props) {
                   {/* You are supposed to change this href where appropriate
                         Example: href="<baseUrl>/docs(/:language)/next/:id" */}
                   <a
-                    href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${
+                    href={`/docs/${
                       props.language ? props.language + '/' : ''
-                    }next/introduction`}>
+                    }next`}>
                     Documentation
                   </a>
                 </td>

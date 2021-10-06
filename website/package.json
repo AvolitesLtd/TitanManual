@@ -1,8 +1,8 @@
 {
   "name": "avodocs",
   "productName": "Avolites Manual",
-  "description": "Official Manual for the Avolites Titan and Prism software",
-  "version": "1.0.8",
+  "description": "Official Manual for the Avolites Software",
+  "version": "1.0.9",
   "homepage": "https://manual.avolites.com",
   "repository": {
     "type": "git",
