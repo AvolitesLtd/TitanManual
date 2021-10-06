@@ -113,6 +113,16 @@
       "lang": {
         "en": "mute"
       }
+    },
+    "prism-custom icon-menu-dots": {
+      "lang": {
+        "en": "menu dots"
+      }
+    },
+    "prism-custom icon-menu-dots": {
+      "lang": {
+        "en": "menu dots"
+      }
     }
   }
 }

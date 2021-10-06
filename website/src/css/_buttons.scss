@@ -1,4 +1,8 @@
-.softkey, .context, .key, .annotate, .button {
+.softkey,
+.context,
+.key,
+.annotate,
+.button {
   display: inline-block;
   margin: 3px;
   padding: 3px 7px;
@@ -25,33 +29,33 @@
   }
 }
 
-  @font-face {
-    font-family: 'Avolites Icons';
-    font-style: normal;
-    font-weight: 900;
-    font-display: $fa-font-display;
-    src: url('#{$avolites-font-path}/icons.eot');
-    src: url('#{$avolites-font-path}/icons.woff2') format('woff2'),
-    url('#{$avolites-font-path}/icons.woff') format('woff')
-  }
+@font-face {
+  font-family: "Avolites Icons";
+  font-style: normal;
+  font-weight: 900;
+  font-display: $fa-font-display;
+  src: url("#{$avolites-font-path}/icons.eot");
+  src: url("#{$avolites-font-path}/icons.woff2") format("woff2"),
+    url("#{$avolites-font-path}/icons.woff") format("woff");
+}
 
 .softkey {
-  border-color: darken($colorBlue,30%);
-  background: lighten($colorBlue,28%);
-  color: darken($colorBlue,40%);
+  border-color: darken($colorBlue, 30%);
+  background: lighten($colorBlue, 28%);
+  color: darken($colorBlue, 40%);
   border-radius: 3px;
 }
 
 .context {
-  border-color: darken($colorGrey,5%);
-  background: linear-gradient(darken($colorGrey,18%),darken($colorGrey,25%));
+  border-color: darken($colorGrey, 5%);
+  background: linear-gradient(darken($colorGrey, 18%), darken($colorGrey, 25%));
   color: white;
   border-radius: 5px;
 
   &.custom:before {
     @extend %fa-icon;
     @extend .fas;
-    font-family: 'Avolites Icons';
+    font-family: "Avolites Icons";
     margin-right: 5px;
     font-style: normal;
     font-weight: normal !important;
@@ -79,7 +83,7 @@
 
     &:before {
       display: inline-block;
-      position:absolute;
+      position: absolute;
       text-indent: 9999px;
       content: fa-content($fa-var-times);
     }
@@ -151,15 +155,15 @@
 }
 
 .key {
-  border-color: darken($colorGrey,20%);
-  background: lighten(grey,45%);
-  color: darken($colorGrey,60%);
+  border-color: darken($colorGrey, 20%);
+  background: lighten(grey, 45%);
+  color: darken($colorGrey, 60%);
   text-transform: uppercase;
 
   &.red {
-    border-color: mix(darken($colorGrey,20%), $colorAvoRed, 70%);
-    background-color: mix(lighten(grey,45%), $colorAvoRed, 99%);
-    color: mix(darken($colorGrey,60%), $colorAvoRed, 15%);
+    border-color: mix(darken($colorGrey, 20%), $colorAvoRed, 70%);
+    background-color: mix(lighten(grey, 45%), $colorAvoRed, 99%);
+    color: mix(darken($colorGrey, 60%), $colorAvoRed, 15%);
   }
 }
 
@@ -167,15 +171,15 @@
   padding: 1px 4px;
   border-radius: 5px;
   border-color: $colorAvoRed;
-  background-color: lighten($colorAvoRed,57%);
+  background-color: lighten($colorAvoRed, 57%);
   color: $colorAvoRed;
   font-weight: bold !important;
 }
 
 .button {
-    padding: 10px;
-    border-radius: 3px;
-    border-color: $colorAvoRed;
-    text-transform: uppercase;
-    transition: all 0.3s, color 0.3s;
+  padding: 10px;
+  border-radius: 3px;
+  border-color: $colorAvoRed;
+  text-transform: uppercase;
+  transition: all 0.3s, color 0.3s;
 }
