@@ -116,13 +116,29 @@
     },
     "prism-custom icon-menu-dots": {
       "lang": {
-        "en": "menu dots"
+        "en": "sub menu"
       }
     },
-    "prism-custom icon-menu-dots": {
+    "prism-custom icon-ic_lock": {
       "lang": {
-        "en": "menu dots"
+        "en": "lock"
+      }
+    },
+    "prism-custom icon-ic_lock_open": {
+      "lang": {
+        "en": "unlock"
+      }
+    },
+    "prism-custom icon-i-edit": {
+      "lang": {
+        "en": "edit"
+      }
+    },
+    "prism-custom icon-folder": {
+      "lang": {
+        "en": "folder"
       }
     }
   }
 }
+

@@ -10,4 +10,4 @@ sidebar_label: About
 
 Please note that closing the **UI** doesn't automatically close the server, this allows for any encoding to carry on without showing the interface.
 
-The **Avokeys** can be bought fom **Avolites** and local resellers, if you already have an **Avokey** you can get the licenses for FREE upon request, please contact <a href="mailto:support@avolites.com?subject=Prism%20Player: License Request">support@avolites.com</a> providing your name.
+The **Avokeys** can be bought fom **Avolites** and local resellers, if you already have an **Avokey** you can get the licenses for FREE upon request, please contact <a href="mailto:support@avolites.com?subject=Prism%20Zero: License Request">support@avolites.com</a> providing your name.

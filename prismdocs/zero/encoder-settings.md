@@ -4,44 +4,108 @@ title: Encoder Settings
 sidebar_label: Encoder Settings
 ---
 
-import Keys from '@site/src/components/key.ts';
+import Keys from '@site/src/components/prism_key.ts';
 
-The **Encoder Settings** are used to specify various parameters of the file export:
+The **Encoder Settings** section let users specify the settings to be applied on an encodelist item.
+It is accesible by left clicking the <Keys.ContextKey>sub menu</Keys.ContextKey> icon next to the encodelist item name and then clicking on **Settings**.
+The results of these settings will be applied to the file once you press **Back** to the **Encoder** area and then [transcode](encoder.md#transcoding) the item.
 
-* The exported name of the file 
-* The destination for the export 
-* Select either an existing preset or save the current settings as a new preset 
-* The overall video and audio export settings 
-* The option to Trim a video 
-* The option to Crop a video 
+## File settings
 
-### Trim
+### File name
+Is the name assigned to the encoded item after transcoding. It can be modified either by double-clicking in the name box or by clicking the <Keys.ContextKey>edit</Keys.ContextKey> icon.
 
-When exporting a clip from the encoder, it is possible to adjust the frame position of the in and out points so that the resulting clip has a different duration to the original file.
+### File output folder
+Is the destination folder of the transcoded file. It can be modified by clicking the <Keys.ContextKey>folder</Keys.ContextKey> icon. The default value of the destination folder is the one selected in the general [settings](settings.md#encoder) encoder tab.
+
+## Video settings 
+
+### Match Source
+
+![Match Source Button](/prismdocs/images/match_source.png "Match Source Button") 
+
+This button will set both video and audio settings to match those of the original file. Any change to audio and video settings will be reverted when pressing the button.
+
+### AiM SubCodec
+Selection of the AiM SubCodec:
+* Super Stream - Highest quality image and best playback performance
+* Performance – Produces the smallest files but can suffer on complex imagery
+* Quality - Medium quality image, variable file size depending on content
+
+### Resolution Preset
+It is possible to choose the video resolution from standard formats. Selecting a preset will override custom video width and height values.
+
+### Output Width
+Custom video width. 
+
+### Output Height
+Custom video height. 
+
+**Width** and **Height** values can be linked / unlinked by clicking on the <Keys.ContextKey>lock</Keys.ContextKey> / <Keys.ContextKey>unlock</Keys.ContextKey> icon.
+
+* When <Keys.ContextKey>lock</Keys.ContextKey> icon is shown **Width** and **Height** will always maintain relative size according to the aspect ratio of the **Width** and **Height** set as the lock is pressed - if one value is adjusted, the other will change accordingly.
+* When <Keys.ContextKey>unlock</Keys.ContextKey> icon is shown **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.
+
+### Frame Rate
+Custom frame rate.
+
+### Preserve Alpha
+Ticking the box will include an Alpha Channel in the 
+render. Adding an alpha channel will increase the file size by approximately 33%.
+
+## Audio settings
+
+### Encode Audio
+Ticking the box will include audio in the transcoding process.
+
+### Sample Rate
+Sample rate can be set between:
+
+* 44.1 kHz
+* 44.8 kHz
+
+### Channels
+Channel configuration can be set between:
+
+* Mono
+* Stereo
+* 5.1 
+* 7.1
+
+### Bit Depth
+Bit depth can be set between:
+
+* 8
+* 16
+* 24
+* 32
+
+*Note: The higher the bit rate, the greater the detail and dynamic range of the audio.*
+
+## Trim Media
+
+To adjust trim points press the **Trim Media** button at the bottom of the section.
 
 ![Trim Button](/prismdocs/images/trim.png "Trim Button")
 
-To adjust the trim points there are 2 aproaches.
+Trim values can be manually entered into both the Trim IN Point and Trim OUT Point boxes either by typing the value or using the arrow keys in the current fields.
 
-* In the **Playlist**, with the file selected, press the Trim Icon on the right of the playhead. When the playhead bar turns blue, the start and finish points can be dragged to the desired location. this should then be sent to the Encoder to process.
-* In the Encoder, press <Keys.ContextKey>Menu Dots</Keys.ContextKey> of the element to trim, open the **Settings** and press the Trim Video button at the bottom. Values can be manually entered into both the Trim In Point and Trim Out Point boxes either by typing the value or using the arrow keys in the current fields.
+The total duration of the exported clip will be calculated as the difference between Trim OUT Point and Trim IN Point.
 
-The total duration of the exported clip may not exceed the duration of the source media and the Out Point will always have a higher frame number than the In Point.
+*Note: The new duration may not exceed the duration of the source media and the Out Point will always have an higher milliseconds value than the In Point.
 
-### Crop
+## Crop Video
 
-It can be desireable to crop a clip so that only the specified region of interest is encoded to the final file. To open the crop controls, press <Keys.ContextKey>Menu Dots</Keys.ContextKey> of the element to crop, open the **Settings** and press the **Crop Video** button at the bottom.
+To set a crop area press the the **Crop Video** button at the bottom.
 
-![Crop Button](/prismdocs/images/crop.png "Trim Button")
+![Crop Button](/prismdocs/images/crop.png "Crop Button") 
 
 * **X** and **Y** specifies the starting pixel for the top left corner of the cropping area to be drawn from.
-* **Width** and **Height** sets the size of the area to be cropped based on the source resolution of the media, starting from the specified **X** and **Y** values. This is automatically calucalted for you as you increase the **X** and **Y** positions.
+* **Width** and **Height** sets the size of the area to be cropped based on the source resolution of the media, starting from the specified **X** and **Y** values. This is automatically calculated as the **X** and **Y** positions are increased.
 
-*Note: You will not be able to exceed the source resolution width and height.*
+*Note: It is not possible to exceed the source resolution width and height.*
 
-The <Keys.ContextKey>Unlock</Keys.ContextKey> / <Keys.ContextKey>Lock</Keys.ContextKey> icons unlinks / links the **Width** and **Height** values has 2 modes which can be switched by clicking the icon. 
+**Width** and **Height** values can be linked / unlinked by clicking on the <Keys.ContextKey>lock</Keys.ContextKey> / <Keys.ContextKey>unlock</Keys.ContextKey> icon.
 
-* &nbsp;<Keys.ContextKey>Lock</Keys.ContextKey> **Width** and **Height** of the **Crop Area** will always maintain relative size according to the aspect ratio of the **Width** and **Height** set as the lock is pressed - if one value is adjusted, the other will change accordingly.
-* &nbsp;<Keys.ContextKey>Unlock</Keys.ContextKey> **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.
-
-The results of these settings will be applied to the rendered file once you press **Back** all the way to the **Encoder** area ready to export from the the **Encoder list**.
+* When <Keys.ContextKey>lock</Keys.ContextKey> icon is shown **Width** and **Height** will always maintain relative size according to the aspect ratio of the **Width** and **Height** set as the lock is pressed - if one value is adjusted, the other will change accordingly.
+* When <Keys.ContextKey>unlock</Keys.ContextKey> icon is shown **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.
