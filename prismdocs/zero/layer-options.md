@@ -10,11 +10,11 @@ The layer options provide real time control over parameters either directly from
 
 **Reset To Default** is a quick way to reset all of the user adjusted parameters, just as a locate or home button would do on a console. 
 
-### Sync to DMX 
+<!-- ### Sync to DMX 
 
-When **Prism Zero** is being controlled from a lighting console, there might be an occasion where a quick adjustment of the parameters in the user interface can be preferable. This can result in a mismatch between the values on the console and within the interface.  
+When **Prism Zero** is being controlled from a lighting console, there might be an occasion where a quick adjustment of the parameters in the user interface can be preferable. This can result in a mismatch between the values on the console and within the interface.   -->
 
-The **Sync To DMX** feature is used to allow the interface controls to immediately adjust to the most recent received **DMX** value from the console. This can be used anytime the UI needs to be kept in line with the external device values. 
+<!-- The **Sync To DMX** feature is used to allow the interface controls to immediately adjust to the most recent received **DMX** value from the console. This can be used anytime the UI needs to be kept in line with the external device values.  -->
 
 ### Playback 
 
