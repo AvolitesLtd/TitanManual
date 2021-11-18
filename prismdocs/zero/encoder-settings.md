@@ -24,7 +24,9 @@ Is the destination folder of the transcoded file. It can be modified by clicking
 
 ![Match Source Button](/prismdocs/images/match_source.png "Match Source Button") 
 
-This button will set both video and audio settings to match those of the original file. Any change to audio and video settings will be reverted when pressing the button.
+<!-- This button will set both video and audio settings to match those of the original file. Any change to audio and video settings will be reverted when pressing the button. -->
+This button will adjust both the video and audio settings to match those of the original file. Any user changes to the audio and video settings will be discarded when pressing th button.
+
 
 ### AiM SubCodec
 Selection of the AiM SubCodec:
@@ -33,33 +35,37 @@ Selection of the AiM SubCodec:
 * Quality - Medium quality image, variable file size depending on content
 
 ### Resolution Preset
-It is possible to choose the video resolution from standard formats. Selecting a preset will override custom video width and height values.
+<!-- It is possible to choose the video resolution from standard formats. Selecting a preset will override custom video width and height values. -->
+It is possible to choose the video resolution from a selection of standard formats. Selecting a preset will override any user width and height values.
 
 ### Output Width
-Custom video width. 
+<!-- Custom video width.  -->
+User definable horizontal size in pixels.
 
 ### Output Height
-Custom video height. 
+<!-- Custom video height.  -->
+User definable vertical size in pixels.
 
 **Width** and **Height** values can be linked / unlinked by clicking on the <Keys.ContextKey>lock</Keys.ContextKey> / <Keys.ContextKey>unlock</Keys.ContextKey> icon.
 
-* When <Keys.ContextKey>lock</Keys.ContextKey> icon is shown **Width** and **Height** will always maintain relative size according to the aspect ratio of the **Width** and **Height** set as the lock is pressed - if one value is adjusted, the other will change accordingly.
-* When <Keys.ContextKey>unlock</Keys.ContextKey> icon is shown **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.
+* When <Keys.ContextKey>lock</Keys.ContextKey> icon is shown, **Width** and **Height** will always maintain relative size according to the aspect ratio of the **Width** and **Height** set as the lock is pressed - if one value is adjusted, the other will change accordingly.
+* When <Keys.ContextKey>unlock</Keys.ContextKey> icon is shown, **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.
 
 ### Frame Rate
-Custom frame rate.
+<!-- Custom frame rate. -->
+User definable frame rate in frames per second.
 
 ### Preserve Alpha
 Ticking the box will include an Alpha Channel in the 
-render. Adding an alpha channel will increase the file size by approximately 33%.
+render. Adding an alpha channel will increase the file size by approximately 33%. An Alpha Channel may only be included in the exported file if the source file contains Alpha data.
 
 ## Audio settings
 
 ### Encode Audio
-Ticking the box will include audio in the transcoding process.
+Ticking the box will include the specified number of audio channels in the <!-- transcoding process --> exported file.
 
 ### Sample Rate
-Sample rate can be set between:
+Sample rate can be set to either:
 
 * 44.1 kHz
 * 44.8 kHz
@@ -71,6 +77,8 @@ Channel configuration can be set between:
 * Stereo
 * 5.1 
 * 7.1
+
+*Note: Prism can only convert existing audio channels, it cannot alter the amount of channels in the source file.*
 
 ### Bit Depth
 Bit depth can be set between:
@@ -92,7 +100,7 @@ Trim values can be manually entered into both the Trim IN Point and Trim OUT Poi
 
 The total duration of the exported clip will be calculated as the difference between Trim OUT Point and Trim IN Point.
 
-*Note: The new duration may not exceed the duration of the source media and the Out Point will always have an higher milliseconds value than the In Point.
+*Note: The new duration may not exceed the duration of the source media and the Out Point will always have a higher millisecond value than the In Point.
 
 ## Crop Video
 
@@ -101,11 +109,11 @@ To set a crop area press the the **Crop Video** button at the bottom.
 ![Crop Button](/prismdocs/images/crop.png "Crop Button") 
 
 * **X** and **Y** specifies the starting pixel for the top left corner of the cropping area to be drawn from.
-* **Width** and **Height** sets the size of the area to be cropped based on the source resolution of the media, starting from the specified **X** and **Y** values. This is automatically calculated as the **X** and **Y** positions are increased.
+* **Width** and **Height** sets the size of the area to be cropped,  <!-- based on the source resolution of the media, --> starting from the specified **X** and **Y** values. <!-- This is automatically calculated as the **X** and **Y** positions are increased. -->
 
-*Note: It is not possible to exceed the source resolution width and height.*
+*Note: It is not possible to <!-- exceed the source resolution  --> crop the exported file beyond the width and height of the source file.*
 
 **Width** and **Height** values can be linked / unlinked by clicking on the <Keys.ContextKey>lock</Keys.ContextKey> / <Keys.ContextKey>unlock</Keys.ContextKey> icon.
 
-* When <Keys.ContextKey>lock</Keys.ContextKey> icon is shown **Width** and **Height** will always maintain relative size according to the aspect ratio of the **Width** and **Height** set as the lock is pressed - if one value is adjusted, the other will change accordingly.
+* When <Keys.ContextKey>lock</Keys.ContextKey> icon is shown **Width** and **Height** will always maintain relative size according to the current aspect ratio of the **Width** and **Height**. If one value is adjusted, the other will change accordingly.
 * When <Keys.ContextKey>unlock</Keys.ContextKey> icon is shown **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.

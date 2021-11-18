@@ -24,7 +24,7 @@ The selection box to the left of the file name determines if certain global acti
 
 Pressing <Keys.ContextKey>Play</Keys.ContextKey> next to the file name will select that file to be shown in the preview window and will show as red when currently playing. 
 
-Pressing <Keys.ContextKey>Menu Dots</Keys.ContextKey> on individual files allows you to **Hide** or **Show**, **Rename** will allow the file to have a tag name or **Remove** it from the **Playlist**. Pressing this button at the top of the **Playlist** will affect all selected files. Hiding files will display the element in one line and may help to view lots of files in the list.
+Pressing <Keys.ContextKey>sub menu</Keys.ContextKey> icon on individual files allows you to **Hide** or **Show**, **Rename** will allow the file to have a tag name or **Remove** it from the **Playlist**. Pressing this button at the top of the **Playlist** will affect all selected files. Hiding files will display the element in one line and may help to view lots of files in the list.
 
 The order of the files in the playlist can be changed by draging the entry up or down the list.  
 
