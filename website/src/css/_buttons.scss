@@ -2,7 +2,8 @@
 .context,
 .key,
 .annotate,
-.button {
+.button,
+.prism-custom {
   display: inline-block;
   margin: 3px;
   padding: 3px 7px;
@@ -44,6 +45,13 @@
   background: lighten($colorBlue, 28%);
   color: darken($colorBlue, 40%);
   border-radius: 3px;
+}
+
+.prism-custom {
+  border-color: darken($colorGrey, 5%);
+  background: linear-gradient(darken($colorGrey, 18%), darken($colorGrey, 25%));
+  color: white;
+  border-radius: 5px;
 }
 
 .context {
