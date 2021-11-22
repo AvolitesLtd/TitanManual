@@ -63,7 +63,7 @@ module.exports={
           id: 'prism',
           "path": "../prismdocs",
           routeBasePath: 'prism',
-          "showLastUpdateAuthor": true,
+          "showLastUpdateAuthor": false,
           "showLastUpdateTime": true,
           "sidebarPath": require.resolve('./sidebarsPrism.json'),
         },
