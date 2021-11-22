@@ -1,8 +1,8 @@
 {
   "name": "avodocs",
-  "productName": "Avolites Titan Manual",
-  "description": "Official Manual for the Avolites Titan software",
-  "version": "1.0.7",
+  "productName": "Avolites Manual",
+  "description": "Official Manual for the Avolites Software",
+  "version": "1.0.9",
   "homepage": "https://manual.avolites.com",
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
     "download": "node ../parse/download.js",
     "test": "mocha './test/**/*.js' && npm run spellcheck",
     "test-build": "(npm run serve&) && mocha './test/**/*.js' && npm run spellcheck",
-    "serve": "npx http-server ./build", 
+    "serve": "npx http-server ./build",
     "spellcheck": "mdspell --report --ignore-numbers --ignore-acronyms --en-gb  'versioned_docs/**/*.md' '../docs/**/*.md'",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -99,7 +99,8 @@
       "createDesktopShortcut": false,
       "perMachine": true,
       "guid": "Avolites\\Manual",
-      "menuCategory": "Avolites"
+      "menuCategory": "Avolites",
+	    "include": "./app/installer.nsh"
     }
   }
 }

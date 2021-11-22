@@ -113,6 +113,62 @@
       "lang": {
         "en": "mute"
       }
+    },
+    "prism-custom icon-menu-dots": {
+      "lang": {
+        "en": "sub menu"
+      }
+    },
+    "prism-custom icon-scissors-2": {
+      "lang": {
+        "en": "trim"
+      }
+    },
+    "prism-custom icon-scale-up": {
+      "lang": {
+        "en": "fullscreen"
+      }
+    },
+    "prism-custom icon-scale-down": {
+      "lang": {
+        "en": "minimise"
+      }
+    },
+    "prism-custom icon-button-play": {
+      "lang": {
+        "en": "play"
+      }
+    },
+    "prism-custom icon-button-pause": {
+      "lang": {
+        "en": "pause"
+      }
+    },
+    "prism-custom icon-button-stop": {
+      "lang": {
+        "en": "stop"
+      }
+    },
+    "prism-custom icon-ic_lock": {
+      "lang": {
+        "en": "lock"
+      }
+    },
+    "prism-custom icon-ic_lock_open": {
+      "lang": {
+        "en": "unlock"
+      }
+    },
+    "prism-custom icon-i-edit": {
+      "lang": {
+        "en": "edit"
+      }
+    },
+    "prism-custom icon-folder": {
+      "lang": {
+        "en": "folder"
+      }
     }
   }
 }
+

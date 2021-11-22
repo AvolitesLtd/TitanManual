@@ -39,6 +39,8 @@
 @import "fontawesome/brands";
 @import 'buttons';
 @import 'video';
+@import 'prism_icons/includeFont';
+@import 'prism_icons/icons';
 
 body {
   font-family: 'GT America Standard Light', 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
@@ -113,4 +115,12 @@ article ol {
 
 .navbar__search-input {
   font-size: 16px;
+}
+
+.prism {
+  .navbar__items--right {
+    .navbar__item, .navbar__search {
+      display: none;
+    }
+  }
 }

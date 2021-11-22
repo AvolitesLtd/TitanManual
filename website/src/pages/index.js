@@ -15,10 +15,10 @@ class HomeSplash extends React.Component {
     return (
       <div class="hero shadow--lw" style={{height: "calc(100vh - 60px)"}}>
         <div class="container text--center">
-          <h1 class="hero__title">Avolites Titan Manual</h1>
+          <h1 class="hero__title">Avolites Manual</h1>
           <p class="hero__subtitle">
             <Translate>
-              Official Manual for the Avolites Titan software
+              Official Manual for Avolites Titan and Prism software
             </Translate>
           </p>
           <div>

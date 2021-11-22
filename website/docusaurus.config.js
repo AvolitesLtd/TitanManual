@@ -1,6 +1,6 @@
 module.exports={
-  "title": "Avolites Titan Manual",
-  "tagline": "Official Manual for the Avolites Titan software",
+  "title": "Avolites Manual",
+  "tagline": "Official Manual for the Avolites Titan and Prism software",
   "url": "https://manual.avolites.com",
   "baseUrl": "/",
   "organizationName": "AvolitesLtd",
@@ -56,6 +56,17 @@ module.exports={
 
         highlightSearchTermsOnTargetPage: true,        
       },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+          id: 'prism',
+          "path": "../prismdocs",
+          routeBasePath: 'prism',
+          "showLastUpdateAuthor": false,
+          "showLastUpdateTime": true,
+          "sidebarPath": require.resolve('./sidebarsPrism.json'),
+        },
     ]
   ],
   "i18n": {
@@ -72,15 +83,29 @@ module.exports={
   },
   "themeConfig": {
     "navbar": {
-      "title": "Avolites Titan Manual",
+      "title": "Avolites Manual",
       "logo": {
         "src": "img/Avolites_Logo_White.svg"
       },
       "items": [
         {
           "to": "docs/",
-          "label": "Docs",
+          "label": "Titan",
           "position": "left"
+        },
+        {
+          label: 'Prism',
+          position: 'left',
+          items: [
+            {
+              label: 'Player',
+              to: 'prism/player/about',
+            },
+            {
+              label: 'Zero',
+              to: 'prism/zero/about'
+            }
+          ]
         },
         {
           "to": "/help",

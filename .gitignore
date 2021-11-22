@@ -4,11 +4,6 @@
 
 lib/core/metadata.js
 lib/core/MetadataBlog.js
-website/build/
-website/dist/
-website/yarn.lock
-
 website/.docusaurus
-website/yarn.lock
 website/build/
 website/dist/
