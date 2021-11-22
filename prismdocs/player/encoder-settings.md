@@ -4,21 +4,21 @@ title: Encoder Settings
 sidebar_label: Encoder Settings
 ---
 
-import Keys from '@site/src/components/prism_key.ts';
+import Keys from '@site/src/components/key.ts';
 
 The **Encoder Settings** section let users specify the settings to be applied on an encodelist item.
-It is accesible by left clicking the <Keys.ContextKey>Sub Menu</Keys.ContextKey> icon next to the encodelist item name and then clicking on **Settings**.
+It is accesible by left clicking the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon next to the encodelist item name and then clicking on **Settings**.
 The results of these settings will be applied to the file once you press **Back** to the **Encoder** area and then transcode the item.
 
 ## File settings
 
 ### File name
 
-Is the name assigned to the encoded item after transcoding. It can be modified either by double-clicking in the name box or by clicking the <Keys.ContextKey>Edit</Keys.ContextKey> icon.
+Is the name assigned to the encoded item after transcoding. It can be modified either by double-clicking in the name box or by clicking the <Keys.PrismKey>Edit</Keys.PrismKey> icon.
 
 ### File output folder
 
-Is the destination folder of the transcoded file. It can be modified by clicking the <Keys.ContextKey>Folder</Keys.ContextKey> icon. The default value of the destination folder is the one selected in the general [settings](settings.md#encoder) encoder tab.
+Is the destination folder of the transcoded file. It can be modified by clicking the <Keys.PrismKey>Folder</Keys.PrismKey> icon. The default value of the destination folder is the one selected in the general [settings](settings.md#encoder) encoder tab.
 
 ## Video settings
 
@@ -56,10 +56,10 @@ User definable horizontal size in pixels.
 
 User definable vertical size in pixels.
 
-**Width** and **Height** values can be linked / unlinked by clicking on the <Keys.ContextKey>Lock</Keys.ContextKey> / <Keys.ContextKey>Unlock</Keys.ContextKey> icon.
+**Width** and **Height** values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon.
 
-- When <Keys.ContextKey>Lock</Keys.ContextKey> icon is shown, **Width** and **Height** will always maintain relative size according to the aspect ratio of the **Width** and **Height** set as the lock is pressed - if one value is adjusted, the other will change accordingly.
-- When <Keys.ContextKey>Unlock</Keys.ContextKey> icon is shown, **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.
+- When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, **Width** and **Height** will always maintain relative size according to the aspect ratio of the **Width** and **Height** set as the lock is pressed - if one value is adjusted, the other will change accordingly.
+- When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.
 
 ### Frame Rate
 
@@ -130,7 +130,7 @@ To set a crop area press the the **Crop Video** button at the bottom.
 
 _Note: It is not possible to <!-- exceed the source resolution  --> crop the exported file beyond the width and height of the source file._
 
-**Width** and **Height** values can be linked / unlinked by clicking on the <Keys.ContextKey>lock</Keys.ContextKey> / <Keys.ContextKey>unlock</Keys.ContextKey> icon.
+**Width** and **Height** values can be linked / unlinked by clicking on the <Keys.PrismKey>lock</Keys.PrismKey> / <Keys.PrismKey>unlock</Keys.PrismKey> icon.
 
-- When <Keys.ContextKey>lock</Keys.ContextKey> icon is shown **Width** and **Height** will always maintain relative size according to the current aspect ratio of the **Width** and **Height**. If one value is adjusted, the other will change accordingly.
-- When <Keys.ContextKey>unlock</Keys.ContextKey> icon is shown **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.
+- When <Keys.PrismKey>lock</Keys.PrismKey> icon is shown **Width** and **Height** will always maintain relative size according to the current aspect ratio of the **Width** and **Height**. If one value is adjusted, the other will change accordingly.
+- When <Keys.PrismKey>unlock</Keys.PrismKey> icon is shown **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.

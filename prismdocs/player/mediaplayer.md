@@ -4,7 +4,7 @@ title: Media Player
 sibebar-label: Media Player
 ---
 
-import Keys from '@site/src/components/prism_key.ts';
+import Keys from '@site/src/components/key.ts';
 
 ### Playback
 
@@ -20,14 +20,14 @@ At the bottom of the **Preview Area** are options to control the playback:
 
 - Whether files should play once, loop as a playlist or shuffle
 - A playhead to show the current position within the file. This can be scrubbed manually by dragging the playhead along the timeline.
-- Pressing <Keys.ContextKey>Trim</Keys.ContextKey> will give you the ability to set the currently playing media's playback trim in and out points.
+- Pressing <Keys.PrismKey>Trim</Keys.PrismKey> will give you the ability to set the currently playing media's playback trim in and out points.
 - Application volume control.
 
 Further controls can be found in the main header:
 
 - Under the **Video** menu a reference grid can be activted to be overlayed on top of the media.
 - If the video has alpha then this can also be activated to sure a checkerboard in the transparent areas.
-- The application can be taken in and out of fullscreen mode by pressing <Keys.ContextKey>Fullscreen</Keys.ContextKey>. Fullscreen mode can be exited either by pressing <Keys.ContextKey>Minimise</Keys.ContextKey> at the top right of the screen or by using the _Esc_ button on your keyboard.
+- The application can be taken in and out of fullscreen mode by pressing <Keys.PrismKey>Fullscreen</Keys.PrismKey>. Fullscreen mode can be exited either by pressing <Keys.PrismKey>Minimise</Keys.PrismKey> at the top right of the screen or by using the _Esc_ button on your keyboard.
 
 ### Adding Media
 

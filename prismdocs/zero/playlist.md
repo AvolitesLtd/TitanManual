@@ -4,7 +4,7 @@ title: Playlist
 sidebar_label: Playlist
 ---
 
-import Keys from '@site/src/components/prism_key.ts';
+import Keys from '@site/src/components/key.ts';
 
 The **Playlist** is used to curate, name and order a list of different media types for playback within the media player and to prepare media files for encoding.
 
@@ -22,15 +22,15 @@ The selection box at the top of the list can be used to select or deselect all o
 
 The selection box to the left of the file name determines if certain global actions are taken with the specific file, such as sending to the encoder, showing or hiding the file details or removing the selected media from the playlist.
 
-Pressing <Keys.ContextKey>Play</Keys.ContextKey> next to the file name will select that file to be shown in the preview window and will show as red when currently playing.
+Pressing <Keys.PrismKey>Play</Keys.PrismKey> next to the file name will select that file to be shown in the preview window and will show as red when currently playing.
 
-Pressing the <Keys.ContextKey>Sub Menu</Keys.ContextKey> icon on individual files allows access to the following actions:
+Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual files allows access to the following actions:
 
 - **Hide** or **Show** to minimise the files view / details.
 - **Rename** to set the file's tag name, to be used when sending to the encoder.
 - **Remove** to delete the file from the **Playlist**.
 
-Pressing the <Keys.ContextKey>Sub Menu</Keys.ContextKey> button at the top of the **Playlist** will affect all selected files.
+Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> button at the top of the **Playlist** will affect all selected files.
 
 The order of the files in the playlist can be changed by draging the entry up or down the list.
 
