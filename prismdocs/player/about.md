@@ -10,4 +10,4 @@ sidebar_label: About
 
 Please note that closing the **UI** doesn't automatically close the server, this allows for any encoding to carry on without showing the interface.
 
-**Prism Player** has software protection, licenses are FREE. There must be an active internet connection for the license to install correctly. Please contact <a href="mailto:support@avolites.com?subject=Prism%20Player:">support@avolites.com</a> with any issues.
+Please contact <a href="mailto:support@avolites.com?subject=Prism%20Player:">support@avolites.com</a> if you require any support.

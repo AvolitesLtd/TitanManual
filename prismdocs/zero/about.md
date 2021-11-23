@@ -10,4 +10,4 @@ sidebar_label: About
 
 Please note that closing the **UI** doesn't automatically close the server, this allows for any encoding or **Synergy** control to continue without showing the interface.
 
-**Prism Zero** requires an **Avokey** to hold the licence for the software. **Avokeys** can be bought fom the <a href="https://shop.avolites.com">Avolites Store</a> and local resellers. Please contact <a href="mailto:support@avolites.com?subject=Prism%20Zero: ">support@avolites.com</a> with any issues.
+Please contact <a href="mailto:support@avolites.com?subject=Prism%20Zero:">support@avolites.com</a> if you require any support.
