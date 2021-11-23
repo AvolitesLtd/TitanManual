@@ -1,6 +1,6 @@
 ---
 id: about
-title: About
+title: About Player
 sidebar_label: About
 ---
 
