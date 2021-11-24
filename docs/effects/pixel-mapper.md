@@ -48,7 +48,7 @@ the following elements to animate:
 -   Text
 -   Scribble *(you draw an image on the touch screen)*
 -   Image/bitmap *(loaded from disk)*
--   [Ai media server content](../synergy/operating-synergy.md#lightmap-pixel-mapping-ai-media-content)
+-   [Synergy content](../synergy/operating-synergy.md#lightmap-pixel-mapping-media-content) from Ai media server or Prism Zero
 
 ![Effect Editor - Pixel Mapper - Adding an Element](/docs/images/Effect-Editor-Pixel-Mapper-Adding-an-Element.png)
 
