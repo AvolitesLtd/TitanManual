@@ -118,7 +118,7 @@ Setting | Action
 <Keys.SoftKey>Track</Keys.SoftKey> | The cue will track
 <Keys.SoftKey>Block</Keys.SoftKey> | The cue will not take tracking states from previous cues. All subsequent cues will track from the Block cue.
 <Keys.SoftKey>Solo Excluding Shapes</Keys.SoftKey> | No states are tracked into or out of the cue, but shapes will track into the cue, except for dimmer shapes which will not track. This lets you have a cue that solos all levels but allows non-dimmer shapes to continue.
-<Keys.SoftKey>Cue Only</Keys.SoftKey> | Changes in this cue will not track to subsequent cues. Unchanged states from previous cues will be restored in subsequent cues.
+<Keys.SoftKey>Cue Only</Keys.SoftKey> | Changes in this cue will not track to subsequent cues. Tracked values from previous cues will be restored in subsequent cues.
 <Keys.SoftKey>Solo</Keys.SoftKey> | No states are tracked into or out of a solo cue. States from previous cues will track to subsequent cues but will not appear in the solo cue.
 <Keys.SoftKey>Block Shapes</Keys.SoftKey> | Any tracked shapes will stop from this cue. Other attributes will continue to be tracked. This lets you create a point where you can guarantee all shapes will stop.
 
