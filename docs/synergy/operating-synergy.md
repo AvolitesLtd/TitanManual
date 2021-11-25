@@ -149,10 +149,9 @@ palette and used to quickly modify the appearance of the media.
 Often you might want to output video content to lighting fixtures
 patched on the console (for example if you have LED screens with
 fixtures around or in between them). The pixel mapper can directly play
-back media clips from the Ai server or Prism Zero. These can be sourced from
+back media clips from the Ai server or Prism Zero. On an Ai server these can be sourced from
 individual layers or from surfaces (combined layer outputs). The surface
-outputs do not need to be connected to a physical output on the Ai
-server.
+outputs do not need to be connected to a physical output on the media server.
 
 > Use the [Layout Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) to tell the console where the fixtures
 are positioned in the physical space so it can map the correct part of the video
@@ -185,9 +184,8 @@ context menu which are useful when setting up fixture layouts for use
 with media content.
 
 ### Show Video Overlay
-Select any layer or surface to be
-overlaid on the fixture layout grid to help you see where fixtures need
-to be positioned.
+This option will overlay the media output on the fixture layout grid to help you see where fixtures need
+to be positioned. You need to select which layer or surface you want to overlay.
 
 ![Show Video Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/Show-Video-Overlay-in-Layout-Editor-for-mapping-fixtures-to-Ai-Video-layers.jpeg)
 
@@ -201,7 +199,7 @@ this option displays the sample regions overlaid on the layout grid.
 ### Position Overlay
 With this option turned on, when you select a
 fixture in the layout editor, cross-hairs will be displayed on the actual
-Ai output. This helps you to accurately position the fixture in the
+media output. This helps you to accurately position the fixture in the
 layout editor to match where it is in real life.
 
 ![Position Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/Position-Overlay-in-Layout-Editor-for-mapping-fixtures-to-Ai-Video-layers.png)

@@ -116,7 +116,7 @@ screen using Ai, only from the Titan console.
 
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)
 
-To add a layer, click on the surface, then the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom
+To add a layer on Ai, click on the surface, then the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom
 and select **Layer** from the popup.
 
 To delete a layer or surface, select the item then click the <Keys.ContextKey>Rubbish Bin</Keys.ContextKey>
