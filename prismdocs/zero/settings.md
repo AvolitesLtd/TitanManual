@@ -20,8 +20,6 @@ The **Audio Device** dropdown allows **Prism Zero** to specify the output device
 
 ### System Info
 
-<!-- The **Connected Hard Drive** section gives an overview of all storage devices currently connected to the system, their total capacity and the currently available space. -->
-
 The **Memory section** gives the user feedback on the total amount of system memory available, the amount in use by **Prism Zero** and the amount the system is using overall.
 
 ### Playback
