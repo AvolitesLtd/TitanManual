@@ -20,7 +20,6 @@ The **Audio Device** dropdown allows **Prism Player** to specify the output devi
 
 ### System Info
 
-The **Connected Hard Drive** section gives an overview of all storage devices currently connected to the system, their total capacity and the currently available space.
 The **Memory section** gives the user feedback for the total amount of memory available / in use by **Prism Player** and the system as a whole.
 
 ### Playback
