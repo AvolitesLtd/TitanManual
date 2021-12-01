@@ -12,7 +12,7 @@ When **Keep Server Running On Close** is activated, when the main UI is closed t
 
 **Disable UI Notifications** is used to determine if messages from the application are displayed at the top of the **Prism Zero** interface.
 
-Using the **Graphics Card** dropdown allows the user to specify which GPU in the computer is used. The **AiM codec** makes use of hardware acceleration, so choosing the most powerful GPU in the system will benefit playback. Only DX12 capable GPU's will be shown.
+Using the **Graphics Card** dropdown allows the user to specify which GPU in the computer is used. The **AiM codec** makes use of hardware acceleration, so choosing the most powerful GPU in the system will benefit playback. Only DirectX 12 capable GPU's will be shown.
 
 The **Audio Device** dropdown allows **Prism Zero** to specify the output device separately from the main computer to create a dedicated preview feed.
 
@@ -48,15 +48,13 @@ The settings here allow the output from which to send the video signal to be cho
 
 The **NDI Output** section allows a network broadcast of the video signal to be setup. A name can be entered for the **NDI** stream to make it more easily identifiable by receiving devices on the network. The **resolution** and **frame rate** of the **NDI** stream can also be set. The stream can then be activated with the **Output Enabled** switch.
 
-<!-- ### Control
-
-**Prism Zero** can be controlled by external **DMX** or **sACN** devices, most commonly these are lighting consoles. The **Adaptor** dropdown tells **Prism Zero** which network controller to listen to for external control messages. **Arnet** or **sACN** can be chosen as control protocols and the **Universe** and **Starting Channel** can be specified. **Prism Zero** requires 32 channels for full control. **Enabling** the DMX adaptor will then let **Prism Zero** respond to messages received within the previously specified parameters. -->
-
 ### Synergy
 
 **Prism Zero** includes **Synergy** compatibility with **Avolites Titan**, providing easier setup as well as advanced features such as previewing of **Prism Zero** within **Titan**, using the output from **Prism Zero** within Titan's Pixelmapper and allowing media transfer directly from the console to **Prism Zero**.
 
 The **Synergy** version in use must match the Titan version. If a missmatch is identified within Titan's Synergy Setings, a different version can be selected via this dropdown.
+
+More information on how to setup a syenrgy connection can be found [here](../../docs/synergy)
 
 **Port** specifies which port is used to allow **Prism Zero** and **Titan** to communicate.
 
@@ -66,7 +64,7 @@ The **Synergy** version in use must match the Titan version. If a missmatch is i
 
 The **Default Upload Folder** shows the storage location used by all media transfered to **Prism Zero** from **Titan** via a **Synergy** connection.
 
-![Change Folder](/prismdocs/images/change_folder.png "Chnage Folder")
+![Change Folder](/prismdocs/images/change_folder.png "Change Folder")
 
 This may be adjusted using the **CHANGE FOLDER** button.
 When activated, the **Auto Transcode** option will allow for automatic conversion of any files transferred to **Prism Zero** via **Synergy** without the need for user input.

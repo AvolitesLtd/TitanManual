@@ -1,11 +1,10 @@
 ---
-label: "Settings"
-url: "/settings"
-icon: "icon-settings-gear"
-title: "Settings"
+id: settings
+title: Settings
+sidebar_label: Settings
 ---
 
-The settings window contains several user adjustable parameters as well as giving feedback on the machine currently in use.
+The settings window contains several sections of user adjustable parameters as well as giving feedback on the machine currently in use.
 
 ### General
 
@@ -13,18 +12,21 @@ When **Keep Server Running On Close** is activated, when the main UI is closed t
 
 **Disable UI Notifications** is used to determine if messages from the application are displayed at the top of the **Prism Player** interface.
 
-Using the **Graphics Card** dropdown allows the user to specify which GPU in the computer is used. The **AiM codec** makes use of hardware acceleration, so choosing the most powerful GPU in the system will benefit playback. Only DX12 capable GPU's will be shown.
+Using the **Graphics Card** dropdown allows the user to specify which GPU in the computer is used. The **AiM codec** makes use of hardware acceleration, so choosing the most powerful GPU in the system will benefit playback. Only DirectX 12 capable GPU's will be shown.
 
 The **Audio Device** dropdown allows **Prism Player** to specify the output device separately from the main computer to create a dedicated preview feed.
+
 **Undo History** provides feedback on the Undo function. The Total Steps determines how many undo actions can be made and Active Steps indicates the current position within the Total Steps.
 
 ### System Info
 
-The **Memory section** gives the user feedback for the total amount of memory available / in use by **Prism Player** and the system as a whole.
+The **Memory section** gives the user feedback on the total amount of system memory available, the amount in use by **Prism Zero** and the amount the system is using overall.
 
 ### Playback
 
 Whilst in the **Playlist**, it is possible to use the left arrow key to jump back and the right arrow key to jump forwards along the player timeline. The size of this jump is specified in seconds in the **Step Amount** box.
+
+If the **Resume Playback At Start** option is selected, **Prism Zero** will automatically start to play through the existing **Playlist** when the application is launched.
 
 ### Encoder
 

@@ -77,7 +77,7 @@ Sample rate can be set to either:
 
 ### Channels
 
-Channel configuration can be set between:
+The following channel configurations are supported:
 
 - Mono
 - Stereo
