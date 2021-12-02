@@ -8,7 +8,7 @@ import Keys from '@site/src/components/key.ts';
 
 ### Playback
 
-**Prism Zero** allows you to playback **H264**, **Prores** & **AiM** files outside of **Avolites AI** as well as check any parameters of the files before sending them to the Encoder.
+**Prism Zero** allows you to playback **H264**, **ProRes** & **AiM** files outside of **Avolites AI** as well as check any parameters of the files before sending them to the Encoder.
 
 **Prism Zero** uses the **FFMPEG** library for video decoding, which provides broad support for many different codecs. **AiM** decoding is hardware accelerated so it is advisable to make sure the most suitable GPU is selected in the **General Section** on the **Settings** page.
 

@@ -24,7 +24,7 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual files al
 - **Expand** to view the source settings and help compare changes made in the encode settings.
 - **Rename** to set the file's tag name, to be used when sending to the encoder.
 - **Remove** to delete the file from the **Encodelist**.
-- **Settings** displays all encoder settings as described [here](encoder-settings.md).
+- **Settings** displays all encoder settings as described [here](encoder-settings).
 - **Duplicate** will copy and create a new element, ready for transcoding.
 
 Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> button at the top of the **Encodelist** will affect all selected files.

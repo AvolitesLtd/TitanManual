@@ -26,8 +26,6 @@ Is the destination folder of the transcoded file. It can be modified by clicking
 
 ![Match Source Button](/prismdocs/images/match_source.png "Match Source Button")
 
-<!-- This button will set both video and audio settings to match those of the original file. Any change to audio and video settings will be reverted when pressing the button. -->
-
 This button will adjust both the video and audio settings to match those of the original file. Any user changes to the audio and video settings will be discarded when pressing th button.
 
 ### AiM SubCodec
@@ -40,19 +38,13 @@ Selection of the AiM SubCodec:
 
 ### Resolution Preset
 
-<!-- It is possible to choose the video resolution from standard formats. Selecting a preset will override custom video width and height values. -->
-
 It is possible to choose the video resolution from a selection of standard formats. Selecting a preset will override any user width and height values.
 
 ### Output Width
 
-<!-- Custom video width.  -->
-
 User definable horizontal size in pixels.
 
 ### Output Height
-
-<!-- Custom video height.  -->
 
 User definable vertical size in pixels.
 
@@ -62,8 +54,6 @@ User definable vertical size in pixels.
 - When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.
 
 ### Frame Rate
-
-<!-- Custom frame rate. -->
 
 User definable frame rate in frames per second.
 
@@ -76,7 +66,7 @@ render. Adding an alpha channel will increase the file size by approximately 33%
 
 ### Encode Audio
 
-Ticking the box will include the specified number of audio channels in the <!-- transcoding process --> exported file.
+Ticking the box will include the specified number of audio channels in the exported file.
 
 ### Sample Rate
 
@@ -87,7 +77,7 @@ Sample rate can be set to either:
 
 ### Channels
 
-Channel configuration can be set between:
+The following channel configurations are supported:
 
 - Mono
 - Stereo
@@ -126,9 +116,9 @@ To set a crop area press the the **Crop Video** button at the bottom.
 ![Crop Button](/prismdocs/images/crop.png "Crop Button")
 
 - **X** and **Y** specifies the starting pixel for the top left corner of the cropping area to be drawn from.
-- **Width** and **Height** sets the size of the area to be cropped, <!-- based on the source resolution of the media, --> starting from the specified **X** and **Y** values. <!-- This is automatically calculated as the **X** and **Y** positions are increased. -->
+- **Width** and **Height** sets the size of the area to be cropped, starting from the specified **X** and **Y** values.
 
-_Note: It is not possible to <!-- exceed the source resolution  --> crop the exported file beyond the width and height of the source file._
+_Note: It is not possible to crop the exported file beyond the width and height of the source file._
 
 **Width** and **Height** values can be linked / unlinked by clicking on the <Keys.PrismKey>lock</Keys.PrismKey> / <Keys.PrismKey>unlock</Keys.PrismKey> icon.
 
