@@ -4,7 +4,7 @@ title: About Zero
 sidebar_label: About
 ---
 
-**Prism Zero** is a standalone application built by **Avolites** that expands beyond the feature-set found in **Prism Player**. On top of providing conversion, previewing and playback of media, **Prism Zero** also adds Synergy compatibility with **Avolites Titan** allowing for full layer control, **NDI** previewing and use of the video output from **Prism Zero** as a source for the **Pixelmapper** in **Titan**
+**Prism Zero** is a standalone application built by **Avolites** that expands beyond the feature-set found in **Prism Player**. On top of providing conversion, previewing and playback of media, **Prism Zero** also adds **Synergy** compatibility with **Avolites Titan** allowing for full layer control, **NDI** previewing and use of the video output from **Prism Zero** as a source for the **Pixelmapper** in **Titan**
 
 **Prism Zero** is composed of two parts - the **Server** and **UI**. The **Server** runs in the system tray and the **UI** will run separately and show the interface. The components communicate using **port 9030**, no other application must use this port in order for **Prism Zero** to work. When starting **Prism Zero** you may be prompted to add a firewall exception. If you have this experience please add this port to your firewall / anti-virus lists.
 
