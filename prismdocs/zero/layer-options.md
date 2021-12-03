@@ -16,7 +16,7 @@ When **Prism Zero** is being controlled from a lighting console using **Synergy*
 
 The **Sync to DMX** feature is used to allow the Prism UI controls to immediately adjust to the most recently received values from the console. This can be used anytime the UI needs to be kept in line with the external device values.
 
-_Note: Instructions can be found for setting up a Syenrgy Connection [here](../../docs/synergy)_
+_Note: Instructions can be found for setting up a Synergy Connection [here](../../docs/synergy)_
 
 ### Playback
 
