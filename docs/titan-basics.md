@@ -110,19 +110,19 @@ may be needed. The required power supply is: 9-12 volt 800mA DC.
 Connector: 2.5mm hole, outside diameter 5.5mm, length 9.5mm, wired
 centre pin positive. Example Part number: DCPP2
 
-The first time you run the Titan Go software with your Titan Mobile panel you will need to obtain a
-[licence](./system-settings/recovering-reinstalling-the-console.md#software-licensing)
-from the Avolites website. The licence is keyed to the internal AvoKey
-in the Titan Mobile panel so you can install the software on multiple
-computers but it will only run when the Titan Mobile panel is connected.
+The Titan Mobile panel has a built-in Avokey so you can install the Titan software on multiple
+computers, but it will only run when the Titan Mobile panel is connected. The Avokey license is pre-activated
+at the factory. See
+[licensing](./system-settings/recovering-reinstalling-the-console.md#software-licensing)
+for more details.
 
 **T1/T2:** The T1/T2 USB devices give you a full lighting control system
-that will output one or two universes of DMX or Art-Net and also operate using
-the Titan Go software. The first time you run Titan Go you will need
-to obtain a licence from the Avolites website which will license the
-AvoKey built into the device.
+that will output one or two universes of DMX or Art-Net. The software to
+run it is called Titan Go. Both devices have a built-in Avokey so you can
+run Titan on any computer as long as the T1/T2 device is connected. The Avokey
+license is pre-activated at the factory.
 
--	If you are using the older Titan 1 dongle with a built in USB cable, you will need to attach an
+-	If you are using an older cabled version of the Titan 1 dongle, you will need to attach an
 	AvoKey to a free USB port to license the software. 
 
 - The Titan Go software should automatically detect whether the Titan Mobile panel is connected, and hide the virtual hardware buttons which are shown when you use it with T1/T2 devices - this can be manually overridden
