@@ -110,16 +110,16 @@ may be needed. The required power supply is: 9-12 volt 800mA DC.
 Connector: 2.5mm hole, outside diameter 5.5mm, length 9.5mm, wired
 centre pin positive. Example Part number: DCPP2
 
-The Titan Mobile panel has a built-in Avokey so you can install the Titan software on multiple
-computers, but it will only run when the Titan Mobile panel is connected. The Avokey license is pre-activated
+The Titan Mobile panel has a built-in AvoKey so you can install the Titan software on multiple
+computers, but it will only run when the Titan Mobile panel is connected. The AvoKey license is pre-activated
 at the factory. See
 [licensing](./system-settings/recovering-reinstalling-the-console.md#software-licensing)
 for more details.
 
 **T1/T2:** The T1/T2 USB devices give you a full lighting control system
 that will output one or two universes of DMX or Art-Net. The software to
-run it is called Titan Go. Both devices have a built-in Avokey so you can
-run Titan on any computer as long as the T1/T2 device is connected. The Avokey
+run it is called Titan Go. Both devices have a built-in AvoKey so you can
+run Titan on any computer as long as the T1/T2 device is connected. The AvoKey
 license is pre-activated at the factory.
 
 -	If you are using an older cabled version of the Titan 1 dongle, you will need to attach an
