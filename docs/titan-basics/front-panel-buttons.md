@@ -139,33 +139,4 @@ Key | Action | | Key | Action
 
 (num) means on the numeric keypad
 
-## Locking the console
 
-You can place a simple lock on the console controls to prevent people
-fiddling with it while you're not looking. Hold down <Keys.HardKey>Avo</Keys.HardKey> and press <Keys.SoftKey>Lock</Keys.SoftKey>, then type a password (numbers or letters). To unlock, enter
-the password again, or restarting the console will also unlock it. After
-a few seconds, the "Enter password" prompt will fade out but will appear
-again if you press buttons or touch the screen. This is not a
-high-security lock, it's just to prevent passing idiots messing with it.
-
-You can set a background image for the lock screen from the Lock Screen
-Background option in the Display (v13: General) tab of User Settings (hold <Keys.HardKey>Avo</Keys.HardKey>,
-press <Keys.SoftKey>User Settings</Keys.SoftKey>). The image can be either loaded from a picture
-file or drawn using the touch screen.
-
-If you load a picture file, the menu option <Keys.SoftKey>Scaling Mode</Keys.SoftKey> sets how
-the picture will be scaled to fill the screen:
-
--   None: Image is displayed 1:1
--   Letterbox: scales the image until it fills either the width or
-    height of the screen, leaving black bars on the other edges of the
-    screen.
--   Fill: scales the image until it fills the whole screen, keeping the
-    aspect ratio
--   Stretch: scales the image until it fills the whole screen, ignoring
-    the aspect ratio
-
-The <Keys.SoftKey>Clear</Keys.SoftKey> softkey will remove the image.
-
-While the console is locked, all functions are disabled except the DMX
-outputs and currently running playbacks.

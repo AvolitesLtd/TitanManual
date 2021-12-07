@@ -60,7 +60,8 @@ wheels.
 You can scroll the fixture screen up and down by dragging the window. To
 view the fixture pages, drag the Pages bar to the right.
 
-Press the **All** button to select all fixtures. Hold down the **All** button to
+Use the **Highlight**, **Prev** and **Next** buttons to step through a set of selected fixtures
+one at a time. Press the **All** button to reselect all fixtures in the set. Hold down the **All** button to
 step through various selection patterns (odd, even etc).
 
 ![Fixture Control in Titan Remote Android App](/docs/images/Fixture-Control-in-Titan-Remote-Android-App.png)
@@ -85,13 +86,13 @@ an active playback.
 
 
 
-## Recording Groups and Palettes
+## Recording Palettes
 
-You can record groups and palettes using the **Rec** button on the remote,
+You can record palettes using the **Rec** button on the remote,
 then click a workspace button as normal. You can also hold down an empty
-button to quick record a group or palette.
+button to quick record a palette.
 
 If you hold down a used palette button, the current programmer will be
 quick merged into the existing palette.
 
-*You cannot record cues using the remote.*
+*You cannot record cues or groups using the remote.*

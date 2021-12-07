@@ -4,7 +4,7 @@ title: Layer Options
 sidebar_label: Layer Options
 ---
 
-The layer options provide real time control over parameters either directly from the UI or remotely by connecting with Synergy and is split into 3 sections. Pressing the Layer Options button in the UI opens the menu and then pressing one of the three section headings will expand it to show its available parameters.
+The layer options provide real time control over parameters either directly from the UI or remotely by connecting with **Synergy** and is split into 3 sections. Pressing the Layer Options button in the UI opens the menu and then pressing one of the three section headings will expand it to show its available parameters.
 
 ### Reset to Default
 
@@ -16,7 +16,7 @@ When **Prism Zero** is being controlled from a lighting console using **Synergy*
 
 The **Sync to DMX** feature is used to allow the Prism UI controls to immediately adjust to the most recently received values from the console. This can be used anytime the UI needs to be kept in line with the external device values.
 
-_Note: Instructions can be found for setting up a Syenrgy Connection [here](../../docs/synergy)_
+_Note: Instructions can be found for setting up a **Synergy** Connection [here](../../docs/synergy)_
 
 ### Playback
 

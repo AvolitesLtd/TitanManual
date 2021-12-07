@@ -39,7 +39,7 @@ identify the version, which will be shown on the Show Browser screen
 when you load shows.
 5. Press <Keys.HardKey>Enter</Keys.HardKey> or <Keys.SoftKey>Save</Keys.SoftKey> (or <Keys.SoftKey>Overwrite</Keys.SoftKey> if the show already exists). The show will be saved.
 6. Press <Keys.HardKey>Exit</Keys.HardKey> or <Keys.SoftKey>OK</Keys.SoftKey> to leave Disk mode.
-## 
+ 
 
 -   To save the show under a different name, use the <Keys.SoftKey>Save As</Keys.SoftKey>
     softkey.
@@ -50,7 +50,6 @@ when you load shows.
 
 -   A new version of the file will be saved even if you enter the same
     tag as previously used.
-## 
 
 If you save to hard drive, shows are saved in the folder 'D:\\Shows' (on
 Titan Mobile, Titan Go and Simulator the folder is

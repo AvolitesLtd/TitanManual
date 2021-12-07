@@ -20,18 +20,26 @@ the Titan Mobile fader wing.
 ![T2 USB DMX Dongle](/docs/images/T2.png)
 
 
+
 <Video videoId="wO94RvG6agI" title="T2 USB Interface"></Video>
 
-Install the Titan PC Suite software on your PC (see [Connecting up Titan Mobile and T1/T2](../titan-basics.md#connecting-up-titan-mobile-and-t1t2)) before
-you plug in the dongle, to make sure the correct drivers are installed.
+The older Titan One dongle (now discontinued) also provided a single universe of DMX output on a 5-pin XLR. USB-MIDI devices are not supported.
 
-> The older cabled version of the Titan One dongle does not include an 
-  AvoKey; a separate AvoKey must be attached to another USB port on your
+![Titan One Dongle](/docs/images/titan-one-cabled.png)
+
+> This version of the Titan One dongle with the fixed USB cable does not include an 
+  AvoKey; a separate AvoKey must be purchased and attached to another USB port on your
   computer to allow use of Titan v12 and later.
 
-The T1 and T2 devices use a special version of the Titan software called
-Titan Go. The operating screen is slightly different to the normal
-display as it is designed for use on a touchscreen with no physical
-control surface (actual faders or buttons).
+## Installing the Titan software
+
+Install the Titan PC Suite software on your PC (see [Connecting up Titan Mobile and T1/T2](../titan-basics.md#connecting-up-titan-mobile-and-t1t2)) before
+you plug in the USB, to make sure the correct drivers are installed.
+
+
+
+The T1 and T2 devices use the Titan Go application. All functions are identical
+to the Titan software used on consoles, but the operating screen layout is slightly different to a console
+display as it provides virtual touch buttons and faders to replace the physical controls on the consoles.
 
 ![Titan Go User Interface](/docs/images/Titan-Go-User-Interface.png)

@@ -7,14 +7,14 @@ sidebar_label: Operating Synergy
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Once Titan and the Ai server(s) are [linked up](setting-up.md), you can start controlling
-Ai from the console.
+Once Titan and the Ai server(s) or Prism Zero applications are [linked up](setting-up.md), you can start controlling
+them from the console.
 
 ## Uploading Content with the Media browser
 
 The Media Browser allows you to upload media content directly to the Ai
-server from the Titan console. You can also create new media banks on
-the server. Media content will be automatically transcoded to the AiM
+server or the machine running Prism Zero from the Titan console. You can also create new media banks on
+an Ai server. Media content will be automatically transcoded to the AiM
 codec as required by the Ai system. This is very handy when you are
 handed a last-minute media file at the front of house position.
 
@@ -37,13 +37,12 @@ in the bank. Click the <Keys.ContextKey>+</Keys.ContextKey> button at the side o
 new bank. At the top of this column, the available disk space and the
 path on the Ai server where the media is being stored is shown.
 
-To copy media files to the Ai server, select the files you want to
+To copy media files to the Ai server or Prism Zero, select the files you want to
 transfer in the middle window, then click on the bank you want to
 transfer them to on the server.
 
-If the Ai server already has files on it with the same names as files
-you have selected for transfer, the files will be highlighted in red in
-the Ai server window as a warning.
+If the server already has files on it with the same names as files
+you have selected for transfer, the files will be highlighted in red as a warning.
 
 ![Ai Media Browser uploading content](/docs/images/Ai-Media-Browser-uploading-content.png)
 
@@ -56,14 +55,14 @@ transfer).
 
 You can also turn off the automatic transcoding to AiM codec, but
 normally we would recommend that this option is left on. Once the files
-are uploaded, any requiring transcoding are added to a queue in Ai. You
+are uploaded, any requiring transcoding are added to a queue in Ai or Prism Zero. You
 can see the progress of the transcoding by viewing the clips in the
 [Attribute Editor](#attribute-editor-for-controlling-ai-layers), see below.
 
 ## Media Viewer
 
 The Video Multi View window allows you to view any of the layers being
-produced by the Ai server, or any of the combined surface outputs. In
+produced by the Synergy layers, or any of the combined surface outputs on an Ai server. In
 addition you can view any other NDI streams available on the network, so
 for example at a broadcast event the broadcaster could feed you the
 program output or individual cameras to check lighting levels.
@@ -98,17 +97,17 @@ Format | Data Rate
 3840x2160p30 | 280Mbps
 3840x2160p60 | 480Mbps
 
-## Attribute Editor for Controlling Ai Layers
+## Attribute Editor for Controlling Synergy Layers
 
-Once you have selected one or more Ai layers to control from the [Synergy
+Once you have selected one or more media layers to control from the [Synergy
 Fixtures window](setting-up.md#synergy-fixtures-window), the Attribute Editor lets you play back and manipulate
 media on those layers (you can also use the wheels and Attribute Bank
 buttons.
 
 > The most important attributes are **Intensity**, which set the output level
 of each layer, and **Media Selection** which lets you choose the Bank and
-Clip to play. But you can also control all other functions of Ai such as
-adding FX and colour.
+Clip to play. But you can also control all other functions of Ai server such as
+adding FX and colour, or the smaller range of functions on Prism Zero layers.
 
 ![Clip tab of Attribute Editor for Synergy layer](/docs/images/Clip-tab-of-Attribute-Editor-for-Synergy-layer.png)
 
@@ -145,15 +144,14 @@ fixture. So colour, zoom, position and so on can be stored in a
 palette and used to quickly modify the appearance of the media.
 [Palette fade times](../palettes/timing-with-palettes.md) will also operate as you would expect.
 
-## Lightmap: Pixel Mapping Ai Media Content
+## Lightmap: Pixel Mapping Media Content
 
 Often you might want to output video content to lighting fixtures
 patched on the console (for example if you have LED screens with
 fixtures around or in between them). The pixel mapper can directly play
-back media clips from the Ai server. These can be sourced from
+back media clips from the Ai server or Prism Zero. On an Ai server these can be sourced from
 individual layers or from surfaces (combined layer outputs). The surface
-outputs do not need to be connected to a physical output on the Ai
-server.
+outputs do not need to be connected to a physical output on the media server.
 
 > Use the [Layout Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) to tell the console where the fixtures
 are positioned in the physical space so it can map the correct part of the video
@@ -164,20 +162,20 @@ want to use.
 2. Select <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, then <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>.
 3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups.md)** to play back on.
 4. Add an effect using the <Keys.ContextKey>+</Keys.ContextKey> button.
-5. Select Ai feed using the **Ai** button.<br/>
-  ![Adding an element in the Pixel Mapper Window](/docs/images/Adding-an-element-in-the-Pixel-Mapper-Window.png)
+5. Select Synergy feed using the **Synergy** button.<br/>
+  ![Effect Editor - Pixel Mapper - Adding an Element](/docs/images/Effect-Editor-Pixel-Mapper-Adding-an-Element.png)
 6. Select the surface you want to take the media from using the **Source Surface** option. You can also adjust the colour balance using the **Red/Green/Blue sliders**.<br/>
   ![Ai layer video overlay in Pixel Mapper Window](/docs/images/Ai-layer-video-overlay-in-Pixel-Mapper-Window.png)
 
 The media clip selected in step 1 should now be playing back over the
-fixtures you selected. The pixel map effect is now linked to the Ai
+fixtures you selected. The pixel map effect is now linked to the Synergy
 surface so you can change the clip which is playing using Attribute
 Editor or from programmed cues and you will see the change on the
 fixture outputs.
 
 ![Pixel Mapped fixtures with Ai screen shown in Capture Visualiser](/docs/images/Pixel-Mapped-fixtures-with-Ai-screen-shown-in-Capture-Visualiser.png)
 
-## Layout editor with Ai server
+## Layout editor with Synergy
 
 The basic operation of the Layout Editor is described in [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
 
@@ -186,9 +184,8 @@ context menu which are useful when setting up fixture layouts for use
 with media content.
 
 ### Show Video Overlay
-Select any layer or surface to be
-overlaid on the fixture layout grid to help you see where fixtures need
-to be positioned.
+This option will overlay the media output on the fixture layout grid to help you see where fixtures need
+to be positioned. You need to select which layer or surface you want to overlay.
 
 ![Show Video Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/Show-Video-Overlay-in-Layout-Editor-for-mapping-fixtures-to-Ai-Video-layers.jpeg)
 
@@ -202,7 +199,7 @@ this option displays the sample regions overlaid on the layout grid.
 ### Position Overlay
 With this option turned on, when you select a
 fixture in the layout editor, cross-hairs will be displayed on the actual
-Ai output. This helps you to accurately position the fixture in the
+media output. This helps you to accurately position the fixture in the
 layout editor to match where it is in real life.
 
 ![Position Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/Position-Overlay-in-Layout-Editor-for-mapping-fixtures-to-Ai-Video-layers.png)

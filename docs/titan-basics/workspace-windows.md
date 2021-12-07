@@ -253,8 +253,7 @@ a mask is automatically applied. See [Storing a Palette](../palettes/creating-pa
 
 ## Legends and Picture Legends
 
-All touch buttons can have legends set to remind you what they do. In
-addition, you can draw picture legends on the buttons. To do this,
+All controls can have legends set to remind you what they do. These can be text or image files, or you can draw your own picture legends. To do this,
 select <Keys.SoftKey>Set Legend</Keys.SoftKey> then press <Keys.SoftKey>Picture</Keys.SoftKey>. A drawing space will open
 on the touch screen for you to draw the legend. There is also a library
 of pictures to choose from including popular gobo designs.
@@ -352,6 +351,16 @@ move to the main screen when this layout is set.
 
 - Workspace window(s) fill the full screen, no button/encoder legends
 shown.
+
+## Console Lock and Venue Mode Workspace for basic controls
+
+You can lock the controls on the console to prevent tampering while you're not there by pressing <Keys.HardKey>Avo</Keys.HardKey>, <Keys.SoftKey>Lock</Keys.SoftKey>. See [Locking the Console](../running-the-show/playback-controls.md#locking-the-console).
+
+You can designate a workspace to be displayed on the screen when the console is locked, this is called a Venue Mode workspace. This lets you provide a selection of playbacks or other controls on the lock screen, allowing basic controls for non-technical staff when the lighting operator is not present. 
+
+In the [User Settings](../system-settings/user-settings.md#lock) you can configure what lock mode the console will power up into, so you can ensure that staff can gain an appropriate level of control even if the console was not powered on.
+
+See [Venue Mode Workspace](../running-the-show/playback-controls.md#setting-a-venue-mode-workspace-for-basic-controls-while-locked).
 
 
 ## Compatibility Windows for Pearl Expert Shows
