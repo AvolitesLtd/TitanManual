@@ -52,9 +52,9 @@ The **NDI Output** section allows a network broadcast of the video signal to be 
 
 **Prism Zero** includes **Synergy** compatibility with **Avolites Titan**, providing easier setup as well as advanced features such as previewing of **Prism Zero** within **Titan**, using the output from **Prism Zero** within Titan's Pixelmapper and allowing media transfer directly from the console to **Prism Zero**.
 
-The **Synergy** version in use must match the Titan version. If a missmatch is identified within Titan's Synergy Setings, a different version can be selected via this dropdown.
+The **Synergy** version in use must match the Titan version. If a missmatch is identified within Titan's **Synergy** Settings, a different version can be selected via this dropdown.
 
-More information on how to setup a syenrgy connection can be found [here](../../docs/synergy)
+More information on how to setup a **Synergy** connection can be found [here](../../docs/synergy)
 
 **Port** specifies which port is used to allow **Prism Zero** and **Titan** to communicate.
 
