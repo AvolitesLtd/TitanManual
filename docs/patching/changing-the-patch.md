@@ -330,17 +330,18 @@ Once complete, click Apply then <Keys.SoftKey>Confirm</Keys.SoftKey> to commit t
 
 This option allows you to update the personality for a fixture used in
 your show. Normally a copy of each fixture personality in the show is
-saved in the showfile, so updating the personality library on the
-console does not update fixtures which are already patched.
+saved in the showfile, so when you [update the personality library](../fixture-personalities.md#updating-the-personality-library-on-the-console) on the
+console it does not update fixtures which are already patched.
 
 -   It's a good idea to save your show before using Update
     Personalities, then you will be able to undo any changes if you
     change your mind or have problems.
 
-1.  Enter patch mode by pressing <Keys.HardKey>Patch</Keys.HardKey>.
-2.  Press <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
-3.  Press <Keys.SoftKey>Update Personality</Keys.SoftKey>. 
-4.  Titan shows all fixture types which are patched in the show and 
+1.  Install the latest personality library on the console or computer (see [Updating the Personality Library](../fixture-personalities.md#updating-the-personality-library-on-the-console))
+2.  Enter patch mode by pressing <Keys.HardKey>Patch</Keys.HardKey>.
+3.  Press <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
+4.  Press <Keys.SoftKey>Update Personality</Keys.SoftKey>. 
+5.  Titan shows all fixture types which are patched in the show and 
     which it has updates for in the installed fixture library. Select 
     the type(s) you want to update, or click 
     <Keys.SoftKey>Update All</Keys.SoftKey> to update all patched fixture types to the most
