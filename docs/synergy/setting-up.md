@@ -44,7 +44,7 @@ you have created in Ai will then become available as Surfaces in Titan.
 
 You can connect to Prism Zero software running on any device connected to the same network as the console. 
 
-In the Prism Zero settings screen (File - Settings or click the menu icon in the top left corner), go to the Synergy option and turn on the **Enable Synergy** switch. Ensure the **Synergy Version** dropdown box is set to match the version of Titan you have installed. Prism Zero will start the Titan Media node which is a Titan node designed to interface with Prism. When the Titan Media node is running, the Connection Status will change to "Connected". These settings are remembered next time you start Prism Zero.
+In the Prism Zero settings screen (File - Settings or click the menu icon in the top left corner), go to the Synergy option and turn on the **Enable Synergy** switch. Ensure the **Synergy Version** drop down box is set to match the version of Titan you have installed. Prism Zero will start the Titan Media node which is a Titan node designed to interface with Prism. When the Titan Media node is running, the Connection Status will change to "Connected". These settings are remembered next time you start Prism Zero.
 
 ![Prism Zero Settings Window](/docs/images/prism-zero.png)
 
