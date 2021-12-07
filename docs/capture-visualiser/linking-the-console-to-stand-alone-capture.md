@@ -80,4 +80,4 @@ Visualiser (.c2o)" from the Desk Type options.
 
 You can grab a screenshot from Capture to use as a legend for a playback/palette using the CITP link. This can give you a quick reference to the look you stored in the playback without having to try to describe it in words.
 
-Set a picture legend as normal and change to the "network" tab in the keyboard. Any network legends, including a snapshot from the Capture Alpha view will show up, allowing you to set it as a legend.
+Create a picture legend as normal and change to the "network" tab in the legend editor. On this tab will be a thumbnail image of the Alpha view within Capture, you can select this image to set it as a legend.
