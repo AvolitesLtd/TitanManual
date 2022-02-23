@@ -40,7 +40,8 @@ const createWindow = () => {
     backgroundColor: '#ffffff',
     webPreferences: {
       nodeIntegration: true,
-      webSecurity: true
+      webSecurity: true,
+      contextIsolation: false,
     },
     frame: false
   })
@@ -49,7 +50,8 @@ const createWindow = () => {
   browserViewContent = new BrowserView({
     backgroundColor: '#91001b',
     webPreferences: {
-      nodeIntegration: true
+      nodeIntegration: true,
+      contextIsolation: false,
     }
   })
   win.addBrowserView(browserViewContent)
