@@ -14,7 +14,7 @@ _Important Note: valid for version (1.1)_
 
 **Prism Player** already runs with any valid Avo key with an Ai license (_Demo_, _Anjuna_, _Bondi_, _Miami_).
 
-If you have no internet connection, and not Avo Key, you will need to purchase an Avo Key requesting our free Prism Player Component License. If you require an Avo Key please speak to any of our distributors found [here](https://www.avolites.com/official-distributors).
+If you have no internet connection, and no Avo Key, you will need to purchase an Avo Key requesting our free Prism Player Component License. If you require an Avo Key please speak to any of our distributors found [here](https://www.avolites.com/official-distributors).
 
 If Prism Player doesn’t start, then please submit a support request to <a href="mailto:support@avolites.com?subject=Prism%20Zero:">support@avolites.com</a>
 
