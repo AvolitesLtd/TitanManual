@@ -89,7 +89,7 @@ When double clicking a palette button to update, the default option is
     previously recorded values in the palette.*
 
 -   You can remove attributes from palettes using the
-    [<Keys.HardKey>Off</Keys.HardKey> function](../cues/editing-cues.md#removing-attributes-from-cues-using-off).
+    [<Keys.HardKey>Off</Keys.HardKey> function](../cues/editing-cues.md#deactivate-attributes-from-cues-using-off).
 
 -   When editing a palette the state of the programmer will be
     preserved; when the modified palette is saved, your original

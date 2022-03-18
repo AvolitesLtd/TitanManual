@@ -205,7 +205,7 @@ If you need to change the monitor resolution or settings on a console, touch
 then 'External Monitor', then select the option to match the
 resolution of your monitor.
 
-Click [here](system-settings/external-displays.md) for more information about
+The [External Displays](system-settings/external-displays.md) section gives more information about
 setting up an external monitor.
 
 ## Other Connections
