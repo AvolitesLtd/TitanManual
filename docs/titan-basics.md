@@ -128,6 +128,18 @@ license is pre-activated at the factory.
 - The Titan Go software should automatically detect whether the Titan Mobile panel is connected, and hide the virtual hardware buttons which are shown when you use it with T1/T2 devices - this can be manually overridden
 using the [User Setting](../system-settings/user-settings.md#display) **Virtual Hardware** in the **Display** tab.
 
+To avoid unwanted interruptions to your show when using Titan on a normal PC with T1/T2 or Titan Mobile, **please check the following Windows settings.**
+
+- Disable Windows USB Power Saving (open Device Manager and go into Properties for the T1/T2 device)
+
+- Set your PC, screen and disk drives to remain active continuously (open "Power and Sleep" settings and change all settings to "Never")
+
+- Disable automatic Windows Updates (open "Windows Update", select "Advanced Options", set "Restart this device" to "Off". Also you can set "Pause Until" to a future date to prevent updates being installed.)
+
+- Disable Disk Indexing (select "This PC" in folder view, right click on system drive, select Properties, untick "Allow files on this drive to have contents indexed" at the bottom)
+
+- Disable Windows Firewall (if you are not on an internet-connected network) or ensure that all the Titan applications are listed in the Firewall exceptions.
+
 ## Titan Healthcheck
 
 When the Titan software starts up, it runs a small utility called Titan
