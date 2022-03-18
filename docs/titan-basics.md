@@ -126,7 +126,7 @@ license is pre-activated at the factory.
 	AvoKey to a free USB port to license the software. 
 
 - The Titan Go software should automatically detect whether the Titan Mobile panel is connected, and hide the virtual hardware buttons which are shown when you use it with T1/T2 devices - this can be manually overridden
-using the [User Setting](../system-settings/user-settings.md#display) **Virtual Hardware** in the **Display** tab.
+using the [User Setting](system-settings/user-settings.md#display) **Virtual Hardware** in the **Display** tab.
 
 ## Titan Healthcheck
 
