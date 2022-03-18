@@ -42,6 +42,8 @@ pressing the <Keys.SoftKey>Off</Keys.SoftKey> softkey or <Keys.HardKey>Off</Keys
     option <Keys.SoftKey>View Effects</Keys.SoftKey> will open the **Effect View window** to let you
     edit the effect.
 
+-   The softkey option <Keys.SoftKey>View Playbacks Using Palette</Keys.SoftKey> shows you which playbacks reference the palette you are viewing. 
+
 ## Changing the Content of Palettes
 
 To edit a palette entry, press <Keys.HardKey>Edit</Keys.HardKey> (<Keys.HardKey>Update Palette</Keys.HardKey> on Pearl
@@ -83,6 +85,11 @@ When double clicking a palette button to update, the default option is
     preserved; when the modified palette is saved, your original
     programmer contents will be restored and the programmer will be left
     in the same state as when you started editing the palette.
+
+## Identifying Playbacks Which Use a Palette
+
+If you are going to edit a palette it can be useful to check which playbacks reference that palette. You can 
+do this by viewing the palette as described above, then select the context menu option <Keys.SoftKey>View Playbacks Using Palette</Keys.SoftKey>. This will highlight all the playbacks which include the current palette.
 
 ## Updating Palettes Used in a Playback
 
