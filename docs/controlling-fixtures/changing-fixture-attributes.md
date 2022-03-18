@@ -400,7 +400,7 @@ are copied.
     are in the programmer, <Keys.SoftKey>Add All Attributes To Programmer</Keys.SoftKey> will align all the
     attributes which are enabled by the mask. So for example if you want
     to align the tilt of some fixtures and you have set the tilt you
-    want on an example fixture, <Keys.SoftKey>AAdd To Programmer, Matching Source</Keys.SoftKey> would
+    want on an example fixture, <Keys.SoftKey>Add To Programmer, Matching Source</Keys.SoftKey> would
     only change the tilt; but <Keys.SoftKey>Add All Attributes To Programmer</Keys.SoftKey> would copy the
     pan setting from the source fixture as well.
 

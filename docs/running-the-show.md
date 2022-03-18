@@ -82,12 +82,12 @@ To fill the screen without scaling, the background image needs to be sized as fo
 
 Console | Screen
 -- | --
-D9 (-330 / -215) | 1920x1080
-Sapphire Touch | 1366x786
-Arena | 1366x786
-Tiger Touch II | 1366x786
-Quartz | 1280x800
-TNP | 800x480
+D9 (-330 / -215) | 1920 x 1080
+Sapphire Touch | 1366 x 786
+Arena | 1366 x 786
+Tiger Touch II | 1366 x 786
+Quartz | 1280 x 800
+TNP | 800 x 480
 
 
 
