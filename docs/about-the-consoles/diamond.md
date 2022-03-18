@@ -122,6 +122,8 @@ Under the armrest at the front of the console is the **Power Switch**, a
 **USB socket** for connecting USB drives, and a pull-out drawer with an 
 illuminated **Keyboard** for entering legends.
 
+The front edge of the console has built-in LED illumination, useful for reading a script or notes. Press the reading light switch next to the keyboard drawer to turn this light on or off. If you hold down this button for 2-5 seconds it will turn on or off the red backlighting behind the screens.
+
 ## The Back Panel
 
 ![Diamond Back Panel](/docs/images/Diamond-Back.png)
@@ -140,7 +142,7 @@ of the console.
 
 &nbsp;<Keys.Annotation>f</Keys.Annotation> Digital S/PDIF audio output.
 
-&nbsp;<Keys.Annotation>g</Keys.Annotation> Work light switch. The console has integrated LED lighting around the connections panel.
+&nbsp;<Keys.Annotation>g</Keys.Annotation> Work light switch. Turns on or off the integrated LED lighting around the connections panel.
 
 &nbsp;<Keys.Annotation>h</Keys.Annotation> Four gigabit etherCON network connections from the internal Luminex network switch.
 
