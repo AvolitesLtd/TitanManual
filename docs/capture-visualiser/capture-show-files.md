@@ -27,7 +27,7 @@ Shows can be imported from the full version of Capture, this can be
 useful to import existing stage structures or rigging designs.
 
 For Titan to list your Capture show files for import, you need to have them in either of the following locations:
-- Titan show file folder (normally Documents\Titan\Shows).
+- Titan show file folder (normally `Documents\Titan\Shows`).
 - The root directory of a USB drive.
 
 > The internal Capture engine uses the Capture 2020 version *(in Titan v13 
