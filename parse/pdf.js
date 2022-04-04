@@ -425,6 +425,7 @@ pandoc --template "${options.templatePath}" \
   -M date="$DATE" \
   -M footer-center="$DATE" \
   -M footer-left="${version} Manual" \
+  -M title="Avolites Titan Manual" \
   -M subtitle="${version}" \
   -M logo="${options.logoPath}" \
   -V colorlinks=true \
