@@ -29,7 +29,7 @@ or you can type in a numerical value.
 
 There is also a <Keys.SoftKey>Delete</Keys.SoftKey> button which allows you to remove the value
 from the attribute. This is the same as using the
-[<Keys.HardKey>Off</Keys.HardKey> function](../cues/editing-cues.md#removing-attributes-from-cues-using-off).
+[<Keys.HardKey>Off</Keys.HardKey> function](../cues/editing-cues.md#deactivate-attributes-from-cues-using-off).
 
 -   When the palette contains other palettes, the context menu option
     <Keys.SoftKey>View/Hide Nested Palettes</Keys.SoftKey> sets whether or not the view shows the
@@ -88,7 +88,7 @@ When double clicking a palette button to update, the default option is
     previously recorded values in the palette.*
 
 -   You can remove attributes from palettes using the
-    [<Keys.HardKey>Off</Keys.HardKey> function](../cues/editing-cues.md#removing-attributes-from-cues-using-off)
+    [<Keys.HardKey>Off</Keys.HardKey> function](../cues/editing-cues.md#deactivate-attributes-from-cues-using-off)
 
 -   When editing a palette the state of the programmer will be
     preserved; when the modified palette is saved, your original

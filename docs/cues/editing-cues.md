@@ -221,7 +221,7 @@ set to **Off**.
 
 You can also use <Keys.HardKey>Include</Keys.HardKey> to set values to Off.
 
-1. Use the **Quick Include** function (described in [previous section](#using-parts-of-existing-cues-the-include-function)) to
+1. Use the **Quick Include** function (described in [previous section](../cues/editing-cues.md#using-parts-of-existing-cues-the-include-function)) to
 load the cue you want to change into the programmer.
 2. Press <Keys.HardKey>Off</Keys.HardKey> to display the Off menu.
 3. All fixtures in the cue will be selected. If you don't want to

@@ -9187,7 +9187,7 @@ repeat from 1 to include other fixtures.
     pressing one or more of the attribute bank buttons before you select
     the cue to include.
 
-Removing attributes from cues using "Off" {#removing-attributes-from-cues-using-off .Ref_Heading3}
+Removing attributes from cues using "Off" {#deactivate-attributes-from-cues-using-off .Ref_Heading3}
 -----------------------------------------
 
 The \<Off\> button allows you to remove an attribute which has been
