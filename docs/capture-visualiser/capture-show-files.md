@@ -13,7 +13,7 @@ Titan show. This allows standard stages or rigs to be transferred
 between Titan shows, or to be loaded into the full version of Capture
 for further editing.
 
-Select the Show tab in the Capture Settings window to export and import
+Select the **Show** tab in the **Capture Visualiser Settings** window to export and import
 shows.
 
 ## Exporting Shows
@@ -25,6 +25,10 @@ full version of Capture for producing documentation.
 
 Shows can be imported from the full version of Capture, this can be
 useful to import existing stage structures or rigging designs.
+
+For Titan to list your Capture show files for import, you need to have them in either of the following locations:
+- Titan show file folder (normally Documents\Titan\Shows).
+- The root directory of a USB drive.
 
 > The internal Capture engine uses the Capture 2020 version *(in Titan v13 
 and v12, Capture 2018 was used; in Titan v11 and below, Capture Atlas was used)*. 
