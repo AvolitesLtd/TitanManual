@@ -70,5 +70,11 @@
       "type": "doc",
       "id": "zero/system-tray"
     }
+  ],
+  "license": [
+    {
+      "type": "doc",
+      "id": "licensing"
+    }
   ]
 }

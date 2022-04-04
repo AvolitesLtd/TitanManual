@@ -104,6 +104,10 @@ module.exports={
             {
               label: 'Zero',
               to: 'prism/zero/about'
+            },
+            {
+              label: 'Licensing',
+              to: 'prism/licensing'
             }
           ]
         },
