@@ -62,18 +62,26 @@ Titan can have multiple cue lists. To start a cue list press <Keys.HardKey>Recor
 then select <Keys.SoftKey>Create Cue List</Keys.SoftKey> from the touch screen. Then press a **Select**
 button above the fader where you want to store the cue list.
 
-Titan will record into the cue only the dimmers/fixtures you have changed
-since you last pressed <Keys.HardKey>Clear</Keys.HardKey>, and that have changed from the
-previous cue *(so if you put up another playback, that won't get
-recorded)*. To record everything with intensity above zero, switch
-&nbsp;<Keys.SoftKey>Record Mode</Keys.SoftKey> to "Record by Stage" (see [Creating a Cue](../cues/creating-a-cue.md#creating-a-cue)).
+When programming, Titan uses a concept called "the Programmer". This keeps track of the dimmers/fixture attributes which you have manually changed (or changed with a palette) since you last pressed <Keys.HardKey>Clear</Keys.HardKey>. 
+
+The <Keys.SoftKey>Record Mode</Keys.SoftKey> softkey lets you choose the following ways of programming changes:
+
+- **Record by Channel** will record the individual attributes of fixtures which are in the programmer. So if you have a fixture where you have only changed the pan/tilt, only the pan/tilt will be recorded and the other attributes will not be affected by the cue. This is best for cues which are used to modify other cues (for example a colour-changing cue).
+
+- **Record by Fixture** will record the complete state of fixtures which have any changed attributes in the programmer. So if you have a fixture where you have only changed the pan/tilt, all the other attributes of the fixture will be recorded as well. This is best for cues where you want to be sure that the fixture looks like it was when you programmed it, regardless of its previous state.
+
+- **Record by Stage** will ignore the programmer and record everything which has its intensity set above zero.
+
+Note this means that *if you put up another playback, that won't get
+recorded* unless you are using "Record by Stage" mode, since the playback isn't in the programmer (see [Creating a Cue](../cues/creating-a-cue.md#creating-a-cue)). You can use the [Include](../cues/editing-cues.md#using-parts-of-existing-cues---the-include-function) function to get a playback into the programmer for recording elsewhere.
+
+In addition to the above, if you have [Tracking Mode](../cue-lists/cue-list-playback.md#tracking) enabled for the Cue List (the default setting) then the console will not record dimmers/attributes unless they have changed from the previous cue in the Cue List. This is the normal operation of theatrical lighting consoles and makes editing cues easier, since you only have the change the cue where the attribute was originally set.
 
  Keypresses | Action
 ------------|-------------------
 <Keys.HardKey>Record</Keys.HardKey> <Keys.ContextKey>fader select</Keys.ContextKey> <Keys.ContextKey>fader select</Keys.ContextKey> | Record the next cue onto the end of the cue list on this fader
 <Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Enter</Keys.HardKey> | Record cue **n** *(will prompt for merge/overwrite if it exists already)*
 <Keys.HardKey>Time</Keys.HardKey> **t** <Keys.HardKey>Enter</Keys.HardKey> | Set fade time into programmer *(does not affect stored cues; will save with the cue when you record it)*
-<Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Time</Keys.HardKey> **t** <Keys.HardKey>Enter</Keys.HardKey> | Set fade time of cue **n** to **t** seconds
 <Keys.HardKey>Delete</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Delete cue **n** *(2^nd^ <Keys.HardKey>Enter</Keys.HardKey> confirms)*
 <Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **m** <Keys.HardKey>Enter</Keys.HardKey> | Copy cue **n** to new cue **m**
 <Keys.HardKey>Copy</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> | Copy cue **n** onto the end of the cue list
@@ -115,11 +123,26 @@ such as Go will operate on this cue list.
     for the next cue, enable the <Keys.SoftKey>Move In Dark</Keys.SoftKey> option, see [Move In Dark](cue-list-options.md#move-in-dark).
     This option is Off by default.
 
+
+## Updating Cues 
+
+You can update a single cue with the contents of the programmer, or add the same changes to a range of cues.
+
+ Keypresses | Action
+------------|-------------------
+<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.SoftKey>Merge</Keys.SoftKey> | Update cue **n** with the contents of the programmer *(will add the cue if it does not already exist)*. You can press <Keys.HardKey>Enter</Keys.HardKey> twice instead of <Keys.SoftKey>Merge</Keys.SoftKey>.
+<Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Time</Keys.HardKey> **t** <Keys.HardKey>Enter</Keys.HardKey> | Set fade time of cue **n** to **t** seconds
+<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Through</Keys.HardKey> **m** <Keys.SoftKey>Merge</Keys.SoftKey> | Merge the contents of the programmer into cues **n** to **m** inclusive. *(Will add any whole number cues which are missing in that range)*
+<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Update</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Through</Keys.HardKey> **m** <Keys.SoftKey>Update</Keys.SoftKey> | Updates cues **n** to **m** inclusive with the contents of the programmer *(Will not add any whole number cues which are missing, but will add attributes which were not originally in the cue)*
+<Keys.HardKey>Update</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> **n** <Keys.HardKey>Through</Keys.HardKey> **m** <Keys.SoftKey>Update</Keys.SoftKey> | Updates cues **n** to **m** inclusive with the contents of the programmer *(Will not add any cues or any attributes which were not originally in the cue)*
+
+- For the **Update** commands you can decide whether or not you want to add attributes which do not already exist in the cues using the <Keys.SoftKey>Add Channels</Keys.SoftKey> option. If this is set to On, then new attributes will be added to the cue, otherwise only pre-existing attributes will be updated.
+
 ## Editing Cues While Running
 
 Often you need to make changes to cues while the cue is active in a
-running show. Press <Keys.HardKey>Clear</Keys.HardKey> before you make changes to be sure that
-the programmer does not contain any previous changes.
+running show. Press <Keys.HardKey>Clear</Keys.HardKey> before you set your changes in the programmer, to be sure that
+the programmer does not contain any unwanted previous changes.
 
  Keypresses | Action
 ------------|-------------------

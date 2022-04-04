@@ -146,7 +146,7 @@ Merge cue 90.1 of the connected cue list with the programmer. If this cue doesn'
 
 **<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 10 <Keys.HardKey>And</Keys.HardKey> 20**
 
-Record/merge programmer contents into cues 1 to 10 and 20 (select  copy/merge/replace from softkeys or double press <Keys.HardKey>Enter</Keys.HardKey> to merge.
+Record/merge programmer contents into cues 1 to 10 and 20 (select  copy/merge/replace from softkeys or double press <Keys.HardKey>Enter</Keys.HardKey> to merge.)
 
 **<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey>**
 
@@ -155,6 +155,8 @@ Merge only position from the programmer with the live cue.
 **<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Options</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey>**
 
 Merge only position from the programmer with the live cue.
+
+- See [Updating Cues](../cue-lists/theatre-programming.md#updating-cues) in the Theatre Programming section for more information about editing Cue Lists and recording/merging multiple cues in Cue Lists.
 
 ## Copy, Move in cue list
 
