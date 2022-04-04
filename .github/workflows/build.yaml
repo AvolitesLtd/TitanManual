@@ -34,9 +34,12 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          cd website
+          cd website/docusaurus-search-local
           yarn install --frozen-lockfile
-          mkdir downloads
+          yarn build
+          cd ../
+          mkdir download
+          yarn install --frozen-lockfile
 
       - name: Linux/Mac App Build & Copy to downloads
         if: matrix.os != 'windows-latest'
@@ -50,8 +53,8 @@ jobs:
         run: |
           cd website
           npm run app-build
-          mv dist/*.exe downloads
-          mv dist/*.zip downloads
+          mv dist/*.exe download
+          mv dist/*.zip download
 
         env:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -60,7 +63,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: ${{matrix.os}}
-          path: website/downloads
+          path: website/download
           
   pdf:
     name: PDF
