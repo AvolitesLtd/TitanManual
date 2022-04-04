@@ -159,7 +159,7 @@ Backspace key for numeric entry or command line inputs.
 
 
 ## <Keys.HardKey>Connect</Keys.HardKey> 
-(Labelled Connect/Cue on some consoles) Connects the sequence controls (Go button etc) to a playback. Also used to select cues when recording or playing cue lists.
+(Labelled Cue or Connect/Cue on some consoles) Connects the sequence controls (Go button etc) to a playback. Also used to select cues when recording or playing cue lists.
 
 See [Connecting a Chase for control](../chases/chase-playback.md#connecting-a-chase-for-control), [Running a Cue List](../cue-lists/cue-list-playback.md#running-a-cue-list), [Theatre programming](../cue-lists/theatre-programming.md)
 

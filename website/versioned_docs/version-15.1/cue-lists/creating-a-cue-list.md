@@ -202,7 +202,7 @@ or press <Keys.SoftKey>Add</Keys.SoftKey> and choose an action from the list.
 
 The following keyboard syntax can be used for fast cue list recording
 and editing. These commands work for the selected or currently connected
-playback where **n** is the cue number.
+playback where **n** is the cue number. See also the [Theatre Programming](../cue-lists/theatre-programming.md) section and the [Titan Quick Reference](../titan-reference.md) section.
 
 Shortcut | Action
 --- | ---

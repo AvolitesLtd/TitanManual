@@ -150,7 +150,7 @@ Mode 1 | HTP channels fade in and out as set by the fade out times (LTP channels
 Mode 2 | Both HTP and LTP channels follow the fader position. *Useful when used with a pan/tilt cue for manually tracking a spot across a stage or down a catwalk using the fader position or for mixing colours on RGB fixtures.*
 Mode 3 | Crossfade cue. All channels, including intensity channels, will fade to the settings in the new cue. All other cues fade out and all other active playbacks become inactive; if you need to re-fire a playback, take the fader to zero and put it up again. *Useful for setting a video playback state.*
 
-This is the same as the [Fade Mode](cue-timing.md#fade-modes) option in the <Keys.SoftKey>Edit Times</Keys.SoftKey> menu.
+This is the same as the [Fade Mode](./cue-timing.md#fade-modes) option in the <Keys.SoftKey>Edit Times</Keys.SoftKey> menu.
 
 <Video videoId="2fwM5S8nX3k" title="Playback Modes" />
 

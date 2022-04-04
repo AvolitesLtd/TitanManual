@@ -78,6 +78,19 @@ the picture will be scaled to fill the screen:
 
 The <Keys.SoftKey>Clear</Keys.SoftKey> softkey will remove the image.
 
+To fill the screen without scaling, the background image needs to be sized as follows:
+
+Console | Screen
+-- | --
+D9 (-330 / -215) | 1920 x 1080
+Sapphire Touch | 1366 x 786
+Arena | 1366 x 786
+Tiger Touch II | 1366 x 786
+Quartz | 1280 x 800
+TNP | 800 x 480
+
+
+
 ### Setting a Venue Mode workspace for basic controls while locked
 
 You can designate a workspace to be displayed on the screen when the console is locked, this is called a **Venue Mode** workspace. This lets you provide a selection of playbacks or other controls on the lock screen, allowing basic controls for non-technical staff when the lighting operator is not present. 
