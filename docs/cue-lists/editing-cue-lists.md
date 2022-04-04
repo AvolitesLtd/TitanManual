@@ -169,10 +169,8 @@ Tiger Touch 1 use the Rec Step button)*
 6. Press the <Keys.HardKey>Go</Keys.HardKey> button *(on Pearl Expert and Tiger Touch 1 the white ↔
 button)* to jump on to the next step.
 
->	You can also merge your changes into the current live cue by
-	pressing 
-
-	<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Connect/Cue</Keys.HardKey> <Keys.HardKey>Connect/Cue</Keys.HardKey>.
+-	You can merge your changes into the current live cue by
+	pressing <Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Connect/Cue</Keys.HardKey> <Keys.HardKey>Connect/Cue</Keys.HardKey>.
 
 ## Edit Times of a Running Cue List
 

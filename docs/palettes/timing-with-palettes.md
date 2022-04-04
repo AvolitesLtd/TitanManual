@@ -28,7 +28,7 @@ Ignoring Its Times</Keys.SoftKey>.
 
 <Video videoId="FF8szWCpVkE" title="Overriding Palette Times" />
 
-Being able to recall palettes with a manual fade allows easy \"busking\"
+Being able to recall palettes with a manual fade allows easy "busking"
 of shows. When a palette is recalled in this way, a time is added and
 the palette fades in over that time.
 

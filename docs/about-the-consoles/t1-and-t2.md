@@ -34,7 +34,7 @@ The older Titan One dongle (now discontinued) also provided a single universe of
 ## Installing the Titan software
 
 Install the Titan PC Suite software on your PC (see [Connecting up Titan Mobile and T1/T2](../titan-basics.md#connecting-up-titan-mobile-and-t1t2)) before
-you plug in the USB, to make sure the correct drivers are installed.
+you plug in the USB, to make sure the correct drivers are installed. The link also lists some Windows settings you should check to avoid interruptions to your show.
 
 
 

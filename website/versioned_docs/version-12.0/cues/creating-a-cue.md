@@ -124,7 +124,7 @@ You can create a cue which contains a shape with no base reference
 values; a shape cue like this can then be fired with other cues to
 overlay the shape on the cue and give you instant effects based around
 the settings in that cue. When recording the cue, use <strong>Record by Channel</strong>
-mode or use the ["Off" function](editing-cues.md#removing-attributes-from-cues-using-off)
+mode or use the ["Off" function](editing-cues.md#deactivate-attributes-from-cues-using-off)
 to remove the other attributes from the programmer.
 
 ## Blind Mode
