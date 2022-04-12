@@ -113,7 +113,9 @@
       "lang": {
         "en": "mute"
       }
-    },
+    }
+  },
+  "PrismKey": {
     "prism-custom icon-menu-dots": {
       "lang": {
         "en": "sub menu"
