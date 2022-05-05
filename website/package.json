@@ -2,7 +2,7 @@
   "name": "avodocs",
   "productName": "Avolites Manual",
   "description": "Official Manual for the Avolites Software",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "homepage": "https://manual.avolites.com",
   "repository": {
     "type": "git",
