@@ -8,7 +8,7 @@
   IfErrors init.cont ; older versions might not have "Version" string set
   ${VersionCompare} $0 ${version} $1
   IntCmp $1 2 init.cont
-    MessageBox MB_OK "Avolites Manual is already up to date or higher version."
+    MessageBox MB_OK "Avolites Manual is already up to date or higher version." /SD IDOK
     Quit
   init.cont:
     DetailPrint "Version check passed."
