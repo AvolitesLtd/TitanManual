@@ -21,7 +21,7 @@ handed a last-minute media file at the front of house position.
 As with other windows, the media browser window is opened from the
 Workspace Window select buttons (double press the <Keys.HardKey>Open/View</Keys.HardKey> button to show).
 
-![Ai Media Browser Window](/docs/images/Ai-Media-Browser-Window.png)
+![Ai Media Browser Window](/docs/images/Ai-Media-Browser-Window.jpg)
 
 On the left hand side of the window, local disks available on the
 console are listed. If you plug in a USB drive it will be shown here.
@@ -44,7 +44,7 @@ transfer them to on the server.
 If the server already has files on it with the same names as files
 you have selected for transfer, the files will be highlighted in red as a warning.
 
-![Ai Media Browser uploading content](/docs/images/Ai-Media-Browser-uploading-content.png)
+![Ai Media Browser uploading content](/docs/images/Ai-Media-Browser-uploading-content.jpg)
 
 Synergy will attempt to transfer the files as fast as it can and will
 show you a progress dialog. This may slow down the network; if this will
