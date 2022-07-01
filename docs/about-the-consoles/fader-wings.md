@@ -33,7 +33,7 @@ but can also be used with the D9, the Sapphire Touch, the Arena and the
 Pearl Expert.
 
 > If you connect the Tiger Touch wing to a D9-330, the left hand faders on the console are the same handle group as the
-faders on the wing.
+faders on the wing, so the same playbacks will appear in both places.
 
 
 
