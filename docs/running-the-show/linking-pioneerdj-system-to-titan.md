@@ -15,7 +15,8 @@ bridge software on the console itself or on an intermediate laptop.
   CDJ-TOUR1<br/>
   DJM-TOUR1<br/>
   CDJ-2000NXS2<br/>
-  DJM-900NXS2 
+  DJM-900NXS2<br/>
+  CDJ-3000 (added in v15.1) 
 
 <Video videoId="vwr1DBJjBbw" title="PioneerDJ Integration" />
 
