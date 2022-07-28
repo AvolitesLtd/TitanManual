@@ -20,7 +20,7 @@ _Note: Instructions can be found for setting up a **Synergy** Connection [here](
 
 ### Playback
 
-Options found here are used to adjust which of the playlist entry's is being played, its **Playmode** and **Aspect Mode**, the **Trim in** and **Trim out** points for the current **Playlist** entry and a master **Volume control**.
+Options found here are used to adjust which of the bank entry's is being played, its **Playmode** and **Aspect Mode**, the **Trim in** and **Trim out** points for the current **Bank's** entry and a master **Volume control**.
 
 ### Colour Correction
 

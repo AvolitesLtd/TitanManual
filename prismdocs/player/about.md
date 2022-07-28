@@ -1,6 +1,6 @@
 ---
 id: about
-title: About Player
+title: About Prism Player
 sidebar_label: About
 ---
 

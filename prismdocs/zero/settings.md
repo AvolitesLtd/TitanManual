@@ -24,9 +24,9 @@ The **Memory section** gives the user feedback on the total amount of system mem
 
 ### Playback
 
-Whilst in the **Playlist**, it is possible to use the left arrow key to jump back and the right arrow key to jump forwards along the player timeline. The size of this jump is specified in seconds in the **Step Amount** box.
+Whilst in the **Bank**, it is possible to use the left arrow key to jump back and the right arrow key to jump forwards along the player timeline. The size of this jump is specified in seconds in the **Step Amount** box.
 
-If the **Resume Playback At Start** option is selected, **Prism Zero** will automatically start to play through the existing **Playlist** when the application is launched.
+If the **Resume Playback At Start** option is selected, **Prism Zero** will automatically start to play through the existing **Bank** when the application is launched.
 
 ### Encoder
 
@@ -36,7 +36,7 @@ Unless a specific export destination has been set for an item in the **Encoderli
 
 If the **Auto Update Encodelist** option is active, all existing jobs in the **Encodelist** will have their export destinations updated to the newly specified **Default Folder**. When this is deactivated, only newly added jobs will default to this location whilst pre-existing jobs will retain their already specified output location.
 
-When **Auto Replace In Playlist** is active, the exported version of the media will replace the source file in the **Playlist**.
+When **Auto Replace In Bank** is active, the exported version of the media will replace the source file in the **Bank**.
 
 ### Output
 

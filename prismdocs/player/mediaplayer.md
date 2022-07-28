@@ -18,7 +18,7 @@ At the bottom of the **Preview Area** are options to control the playback:
 
 ![Play Bar](/prismdocs/images/playerplayhead.png "Play Bar")
 
-- Whether files should play once, loop as a playlist or shuffle
+- Whether files should play once, loop or shuffle
 - A playhead to show the current position within the file. This can be scrubbed manually by dragging the playhead along the timeline.
 - Pressing <Keys.PrismKey>Trim</Keys.PrismKey> will give you the ability to set the currently playing media's playback trim in and out points.
 - Application volume control.
@@ -33,9 +33,9 @@ Further controls can be found in the main header:
 
 Media can be added and played using several different methods:
 
-- Selecting file(s) in your file explorer and dragging them onto the _"Drag drop or select"_ icon in the **Playlist** or **Encoder** area or at the bottom of the UI
-- Pressing the _"Select Files"_ button in the **Playlist** or **Encoder** area
-- Dragging a file into the **Preview Area** area will automatically add the video to the playlist and begin playing
+- Selecting file(s) in your file explorer and dragging them onto the _"Drag drop or select"_ icon in the **Bank** or **Encoder** area or at the bottom of the UI
+- Pressing the _"Select Files"_ button in the **Bank** or **Encoder** area
+- Dragging a file into the **Preview Area** area will automatically add the video to the bank and begin playing
 
 **Prism Player** will save all files to a standard default location `Documents > Avolites > Prism > Player` unless individually specified within the settings of any **Encoder Element**. The path of this folder can be changed in the **Encoder section** of the **Settings Page**.
 

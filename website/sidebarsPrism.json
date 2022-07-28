@@ -6,7 +6,7 @@
     },
     {
       "type": "doc",
-      "id": "player/playlist"
+      "id": "player/bank"
     },
     {
       "type": "doc",
@@ -40,7 +40,7 @@
     },
     {
       "type": "doc",
-      "id": "zero/playlist"
+      "id": "zero/bank"
     },
     {
       "type": "doc",
