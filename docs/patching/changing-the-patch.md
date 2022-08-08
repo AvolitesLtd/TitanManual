@@ -2,7 +2,6 @@
 id: changing-the-patch
 title: Changing the Patch
 sidebar_label: Changing the Patch
-tags: park
 ---
 
 import Keys from '@site/src/components/key.ts';
