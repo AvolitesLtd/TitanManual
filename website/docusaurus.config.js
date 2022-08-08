@@ -34,7 +34,7 @@ module.exports={
         },
         "blog": {},
         "theme": {
-          "customCss": ["../static/avolites-icons/icons.css", "../src/css/customTheme.scss"]
+          "customCss": ["./static/avolites-icons/icons.css", "./src/css/customTheme.scss"]
         }
       }
     ]
@@ -67,6 +67,12 @@ module.exports={
           "showLastUpdateTime": true,
           "sidebarPath": require.resolve('./sidebarsPrism.json'),
         },
+    ],
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        "trackingID": "GTM-TZMDJV5"
+      }
     ]
   ],
   "i18n": {
@@ -188,9 +194,6 @@ module.exports={
       "logo": {
         "src": "img/Avolites_Logo_Red.svg"
       }
-    },
-    "gtag": {
-      "trackingID": "GTM-TZMDJV5"
     }
   }
 }
