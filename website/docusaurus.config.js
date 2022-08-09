@@ -42,7 +42,7 @@ module.exports={
   "plugins": [
     'docusaurus-plugin-sass',
     [
-      require.resolve("./docusaurus-search-local"),
+      require.resolve("./docusaurus-search-local/docusaurus-search-local"),
       {
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
