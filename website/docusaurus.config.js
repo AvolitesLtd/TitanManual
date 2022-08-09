@@ -118,6 +118,16 @@ module.exports={
           ]
         },
         {
+          "to": "https://www.avolites.com/support/ai-downloads/",
+          "label": "Ai",
+          "position": "left"
+        },
+        {
+          "to": "/docs/synergy",
+          "label": "Synergy",
+          "position": "left"
+        },
+        {
           "to": "/help",
           "label": "Help",
           "position": "left"
