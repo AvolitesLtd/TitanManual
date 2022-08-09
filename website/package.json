@@ -74,6 +74,7 @@
   },
   "build": {
     "appId": "com.avolites.titan.manual",
+    "compression": "maximum",
     "files": [
       "build/**/*",
       "app/**/*",

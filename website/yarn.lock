@@ -2225,9 +2225,9 @@
   integrity sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==
 
 "@types/node@*":
-  version "18.6.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.6.4.tgz#fd26723a8a3f8f46729812a7f9b4fc2d1608ed39"
-  integrity sha512-I4BD3L+6AWiUobfxZ49DlU43gtI+FTHSv9pE2Zekg6KjMpre4ByusaljW3vYSLJrvQ1ck1hUaeVu8HVlY3vzHg==
+  version "18.6.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.6.5.tgz#06caea822caf9e59d5034b695186ee74154d2802"
+  integrity sha512-Xjt5ZGUa5WusGZJ4WJPbOT8QOqp6nDynVFRKcUt32bOgvXEoc6o085WNkYTMO7ifAj2isEfQQ2cseE+wT6jsRw==
 
 "@types/node@^14.6.2":
   version "14.18.23"
@@ -4543,9 +4543,9 @@ electron-publish@23.3.3:
     mime "^2.5.2"
 
 electron-to-chromium@^1.4.202:
-  version "1.4.211"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.211.tgz#afaa8b58313807501312d598d99b953568d60f91"
-  integrity sha512-BZSbMpyFQU0KBJ1JG26XGeFI3i4op+qOYGxftmZXFZoHkhLgsSv4DHDJfl8ogII3hIuzGt51PaZ195OVu0yJ9A==
+  version "1.4.212"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.212.tgz#20cd48e88288fd2428138c108804edb1961bf559"
+  integrity sha512-LjQUg1SpLj2GfyaPDVBUHdhmlDU1vDB4f0mJWSGkISoXQrn5/lH3ECPCuo2Bkvf6Y30wO+b69te+rZK/llZmjg==
 
 electron@^17.0:
   version "17.4.11"
@@ -9042,9 +9042,9 @@ select-hose@^2.0.0:
   integrity sha512-mEugaLK+YfkijB4fx0e6kImuJdCIt2LxCRcbEYPqRGCs4F2ogyfZU5IAZRdjCP8JPq2AtdNoC/Dux63d9Kiryg==
 
 selenium-webdriver@^4.0.0-beta.4:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/selenium-webdriver/-/selenium-webdriver-4.3.1.tgz#5e9c6c4adee65e57776b5bd4c07c59b65b8f056d"
-  integrity sha512-TjH/ls1WKRQoFEHcqtn6UtwcLnA3yvx08v9cSSFYvyhp8hJWRtbe9ae2I8uXPisEZ2EaGKKoxBZ4EHv0BJM15g==
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/selenium-webdriver/-/selenium-webdriver-4.4.0.tgz#3f280504f6c0ac64a24b176304213b5a49ec2553"
+  integrity sha512-Du+/xfpvNi9zHAeYgXhOWN9yH0hph+cuX+hHDBr7d+SbtQVcfNJwBzLsbdHrB1Wh7MHXFuIkSG88A9TRRQUx3g==
   dependencies:
     jszip "^3.10.0"
     tmp "^0.2.1"
