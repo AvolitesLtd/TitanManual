@@ -64,7 +64,7 @@ server(s) or to Prism Zero. Also, for Ai servers it lets you add or remove layer
 and add complete new surfaces to the server (though you may need to
 configure these further on the Ai server itself).
 
-![Synergy Settings Window](/docs/images/Synergy-Settings-Window.png)
+![Synergy Settings Window](/docs/images/Synergy-Settings-Window-v15.jpg)
 
 On the left of the window the available Ai
 servers or Prism Zero instances are shown. In the centre of the window, the Surfaces and Layers
@@ -77,7 +77,7 @@ Click on the <Keys.ContextKey>+</Keys.ContextKey> at the bottom and select a Scr
 new surface. This will appear at the top; an Ai surface by default has two layers
 but you can change this later. A Prism Zero surface only has a single layer.
 
-![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-screen-settings.png)
+![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-screen-settings-v15.jpg)
 
 Clicking on the top part of a Surface will
 show options on the right for the surface. These options allow you to
@@ -103,11 +103,11 @@ bottom, then click on the Screen 1 surface at the top (or you can click
 **"Link to new Surface"** to automatically create a new surface and link to
 it).
 
-![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-linking-a-screen.png)
+![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-linking-a-screen-v15.jpg)
 
 The Screen 1 Surface will now show that it is linked to the Ai server or Prism Zero and the unmatched server at the bottom disappears.
 
-![Synergy Settings Window with a linked screen](/docs/images/Synergy-Settings-Window-with-a-linked-screen.png)
+![Synergy Settings Window with a linked screen](/docs/images/Synergy-Settings-Window-with-a-linked-screen-v15.jpg)
 
 On an Ai server you can link the Screen 1 Surface to one or more different physical
 outputs by clicking the screen, then clicking the
