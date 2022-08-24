@@ -18,7 +18,7 @@ When a piece of media is loaded into the **Bank**, several details about the fil
 - The current audio codec in use
 - The location of the file, which can be directly accessed by clicking the address
 
-The selection box at the top of the list can be used to select or deselect all of the files in the playlist. It also provides feedback on how many files are currently selected.
+The selection box at the top of the list can be used to select or deselect all of the files in the bank. It also provides feedback on how many files are currently selected.
 
 The selection box to the left of the file name determines if certain global actions are taken with the specific file, such as sending to the encoder, showing or hiding the file details or removing the selected media from the bank.
 
