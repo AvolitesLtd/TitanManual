@@ -71,8 +71,6 @@ To use Speed or Size Masters you will need to assign some handles on the console
 3. From the softkeys select the type of master you want to create.
 4. Press the **Select** button of the handle you want to be the master. 
 
--	On Pearl Expert or Tiger Touch 1, press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Disk</Keys.HardKey> together to switch the console to System mode and select <Keys.SoftKey>Assign Masters</Keys.SoftKey>. 
-
 -	Special key profile options are available to set what the buttons do on Speed Masters, BPM Masters default to Tap Tempo.
 
 Speed or Size masters can have various scales, 0-100%, 0-200% and so on. A 0-200% scale would allow you to slow down and speed up the speed to double the programmed setting. Scales are set in normal (non-system) mode by pressing <Keys.HardKey>Options</Keys.HardKey> (or <Keys.SoftKey>Options</Keys.SoftKey> softkey) then press the Select button of the master.
