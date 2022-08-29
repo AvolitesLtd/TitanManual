@@ -100,19 +100,23 @@ Other useful things to know about recording cues:
 
 ## Quick Build Cues
 
-Setting <Keys.SoftKey>Record Mode</Keys.SoftKey> to **Quick Build** allows you to build a cue from
+Setting <Keys.SoftKey>Record Mode</Keys.SoftKey> to **Quick Build** allows you to build a cue, chase or cue list from
 existing playbacks or palettes (you can also use the
 [Include function](editing-cues.md#using-parts-of-existing-cues-the-include-function) to
 do this).
 
-After setting the record mode to Quick Build, the console will wait for
-you to select playbacks or palettes.
+1.  Press Record.
+2.  Press <Keys.SoftKey>Record Mode</Keys.SoftKey> and set the mode to Quick Build.
+3.  Select whether you want to create a Memory, Chase, Cue List or Timeline using the softkey options.
+4.  Press the **Select** button of an empty playback where you want to store the item.
+5.  Fire the playbacks or select palettes that you want to be part of the cue.
+6.  If saving a Cue/Memory, press <Keys.SoftKey>OK</Keys.SoftKey> once you have selected all the playbacks or palettes
+required to store the cue. If recording a chase or cue list press <Keys.SoftKey>Append</Keys.SoftKey> once you have set up the state for each step/cue then repeat from 5, press <Keys.HardKey>Exit</Keys.HardKey> at the end.
 
-To insert specific fixtures from a palette or playback, select the
+- To insert specific fixtures from a palette or playback, select the
 fixtures first and then select the palette or playback.
+- Quick Build mode is automatically reset back to Record By Fixture once you have finished the recording.
 
-Press <Keys.SoftKey>OK</Keys.SoftKey> once you have selected all the playbacks or palettes
-required.
 
 ## Using Shapes/Effects in Cues
 
