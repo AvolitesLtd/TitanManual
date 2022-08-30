@@ -107,7 +107,7 @@ do this).
 
 1.  Press Record.
 2.  Press <Keys.SoftKey>Record Mode</Keys.SoftKey> and set the mode to Quick Build.
-3.  Select whether you want to create a Memory, Chase, Cue List or Timeline using the softkey options.
+3.  Select whether you want to create a Memory, Chase or Cue List using the softkey options.
 4.  Press the **Select** button of an empty playback where you want to store the item.
 5.  Fire the playbacks or select palettes that you want to be part of the cue.
 6.  If saving a Cue/Memory, press <Keys.SoftKey>OK</Keys.SoftKey> once you have selected all the playbacks or palettes
