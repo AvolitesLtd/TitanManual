@@ -8,15 +8,7 @@ import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
 
-
-
 ## Grand Master fader and assignable masters
-
-If the console is fitted with a Grand Master Fader, this controls the intensity of all output from the console. Normally you would use it to quickly fade out all the lights.
-
-The Grand Master fader is disabled by default. It can be enabled in the User Settings if required.
-
-The Pearl Expert has additional master faders: Swop and Flash masters control intensity of the swop/flash buttons; Preset master controls intensity of the preset faders; Playback master controls intensity of all playbacks.
 
 Any playback fader on the console can be assigned to act as a master fader, which allow you to set the overall intensity of various areas of the console. Different types of master fader are available:
 
@@ -28,17 +20,29 @@ Any playback fader on the console can be assigned to act as a master fader, whic
 
 -   **Playback master** controls intensity of all playbacks.
 
-To assign master faders, from the **System** menu select <Keys.SoftKey>Assign Masters</Keys.SoftKey>, or press <Keys.HardKey>Record</Keys.HardKey> then <Keys.SoftKey>Create Master</Keys.SoftKey>.
+To assign master faders: 
+
+1. Press <Keys.HardKey>Record</Keys.HardKey>.
+2. Press <Keys.SoftKey>Create Master</Keys.SoftKey>. 
+3. Press the **Select** button for the fader you want to use as a Master.
 
 >   By default, master faders are stored on the fader page where you created them and will not be accessible from other fader pages. It is often useful to set the master to have a lock or a transparent lock, which makes the master fader remain in position even when the playback page is changed. You can set this from the Options screen for the master, see [Handle Paging](../cues/playback-options.md/#handle-tab).
 
-On the Diamond 9, the rotary encoders at the sides of the touchscreen (or on the Arena the rotary encoders beside the Mini Screen) are very useful as speed masters or group masters - press the encoder to select
-it as a master. Press the Display button below the encoders to show legends for the encoders on the screen if they are not already shown
+You can also assign masters from the **System** menu by selecting <Keys.SoftKey>Assign Masters</Keys.SoftKey>.
+
+- If you store a fixture group on a fader handle, the fader becomes a Group Master for the intensity of that group.
+
+- On the Diamond 9, the rotary encoders at the sides of the touchscreen (or on the Arena the rotary encoders beside the Mini Screen) are very useful as speed masters or group masters - press the encoder to select it as a master. Press the Display button below the encoders to show legends for the encoders on the screen if they are not already shown
 (there are 4 display modes to cycle through).
 
 ![Arena Miniscreen](/docs/images/Arena-Miniscreen.png)
 
 >  If you assign a master to a handle with an LED, the LED will flash if the fader is at zero... just as a reminder to help you work out why no lights are coming on.
+
+- Some consoles are fitted with a designated Grand Master fader. This is disabled by default in a new show to prevent confusion over why nothing is lighting up. It can be enabled in the Handles section of the [User Settings](../system-settings.md/user-settings#handles) if required.
+
+- The Pearl Expert has additional master faders: Swop and Flash masters control intensity of the swop/flash buttons; Preset master controls intensity of the preset faders; Playback master controls intensity of all playbacks.
+
 
 ## Speed and Size Masters
 
@@ -66,8 +70,6 @@ To use Speed or Size Masters you will need to assign some handles on the console
 2. Press <Keys.SoftKey>Create Master</Keys.SoftKey>.
 3. From the softkeys select the type of master you want to create.
 4. Press the **Select** button of the handle you want to be the master. 
-
--	On Pearl Expert or Tiger Touch 1, press <Keys.HardKey>Avo</Keys.HardKey> and <Keys.HardKey>Disk</Keys.HardKey> together to switch the console to System mode and select <Keys.SoftKey>Assign Masters</Keys.SoftKey>. 
 
 -	Special key profile options are available to set what the buttons do on Speed Masters, BPM Masters default to Tap Tempo.
 

@@ -186,14 +186,12 @@ allows you to set up custom actions which can be performed when a cue in
 a cue list fires; for example you may want to lamp on your fixtures as
 the first cue in the cue list.
 
-1. Press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey on the root menu).
-2. Press the **Select** button for the cue list.
-3. Select <Keys.SoftKey>Macros</Keys.SoftKey>.
-4. In the **Playback View window**, select the **step** you want to add a macro
-to.
-5. Press the button(s) for the macro(s) you want to attach to the step,
+1. Press <Keys.HardKey>Open/View</Keys.HardKey> then the **Select** button for the cue list to open its Playback View window.
+2. In the **Playback View window**, find the cue you want to add a macro to.
+3. Scroll across to the **Macros** column and click on the Macros grid cell for the appropriate cue.
+4. Press the button(s) for the macro(s) you want to attach to the step,
 or press <Keys.SoftKey>Add</Keys.SoftKey> and choose an action from the list.
-6. The **"Macros"** column shows the macros you have added.
+5. The **Macros** column shows the macros you have added.
 
 > You can remove macros by selecting the cue, pressing the softkey for
     the macro you wish to remove and then pressing <Keys.SoftKey>Remove Link</Keys.SoftKey>.
