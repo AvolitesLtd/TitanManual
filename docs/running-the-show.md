@@ -121,6 +121,10 @@ All hardware controls are disabled in this mode. Only the following workspace wi
 
 Fixture selection is disabled, but quick palettes will still function.
 
+>   Menu changes are disabled in Venue mode - this means that user macros which press menu softkeys or which change
+    to a particular menu won't work in Venue mode, because when you record a menu softkey the macro also 
+    automatically records a command to open the correct menu (in case you run the macro when you are in a different menu). This also means that double-press button functions won't work in Venue mode since these operate by opening a menu with the first press then activating a menu option with the second press (for example double pressing <Keys.HardKey>Release</Keys.HardKey> for Release All wouldn't work in Venue mode.)
+
 Using the **Lock on Startup** setting in the **Lock** tab of [User Settings](./system-settings/user-settings.md#lock) you can configure what lock mode the console will power up into, so you can ensure that staff can gain an appropriate level of control even if the console was not powered on, or was not turned off in a locked state. If you set the console to start up in a Locked state, you need to also set a Programmer Password to be used.
 
 If the console is in a publicly accessible location you can also lock the venue mode screen using the **Venue Mode Password** on the **Lock** tab of User Settings. To lock the screen press <Keys.SoftKey>Lock</Keys.SoftKey> in the top right hand corner. This will show the normal lock screen. When you unlock using the Venue Mode Password, the console will go back to showing the Venue Mode workspace. This allows venue staff to be able to secure the console without having full programming access.
