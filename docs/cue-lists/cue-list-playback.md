@@ -122,6 +122,10 @@ Setting | Action
 <Keys.SoftKey>Solo</Keys.SoftKey> | No states are tracked into or out of a solo cue. States from previous cues will track to subsequent cues but will not appear in the solo cue.
 <Keys.SoftKey>Block Shapes</Keys.SoftKey> | Any tracked shapes will stop from this cue. Other attributes will continue to be tracked. This lets you create a point where you can guarantee all shapes will stop.
 
+
+You can view and edit how levels track between cues using the [Tracking View](../cue-lists/editing-cue-lists.md#editing-tracked-cues-using-tracking-view).
+
+
 ## Move In Dark (MID) Functions
 
 When using moving lights in theatre, often you would like them to be
