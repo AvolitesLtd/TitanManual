@@ -56,6 +56,8 @@ Once you have selected the fixtures:
 -   Use the **wheels** to set the value. Or press the <Keys.HardKey>@</Keys.HardKey> button next to
     the wheel and type in a value on the keypad.
 
+-   You can directly set fixtures to a preset gel/filter colour by gel number, see [Selecting gel colours](../controlling-fixtures/changing-fixture-attributes.md#colour-mix-filters). 
+
 ## Programming Cues
 
 Titan can have multiple cue lists. To start a cue list press <Keys.HardKey>Record</Keys.HardKey>
