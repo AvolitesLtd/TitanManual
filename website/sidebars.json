@@ -194,6 +194,10 @@
         },
         {
           "type": "doc",
+          "id": "controlling-fixtures/layouts"
+        },
+        {
+          "type": "doc",
           "id": "controlling-fixtures/advanced-options"
         }
       ]

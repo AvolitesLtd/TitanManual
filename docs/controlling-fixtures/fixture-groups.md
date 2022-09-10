@@ -107,9 +107,9 @@ Groups</Keys.SoftKey> in the User Settings.
 
 Fixtures in a group are stored with a selection order, which is used
 with Shapes, Fan, and Overlap. You can also store a 2D position layout
-for fixtures, giving the actual physical location of fixtures for use
+for fixture groups, giving the actual physical location of fixtures for use
 with Shapes or Pixel Mapper effects or when selecting fixtures using
-patterns.
+patterns. The 2D layout is also used when creating Layout screens as described in the next section.
 
 ### Fixture Order
 
