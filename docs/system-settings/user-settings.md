@@ -173,7 +173,7 @@ LED Selected Level   | Level if fixture is selected.
  Option         | Action  
 ---|------
 Swop Shapes     | Sets how shapes react to another playback being fired in Swop mode.<br/>***All Shapes:*** All running shapes from other playbacks are stopped.<br/>*Intensity Shapes:* Only intensity shapes from other playbacks stop.
-Shape Behaviour | Sets how Key Frame Shapes combine with other playbacks.<br/>***Overlay:*** Key Frame Shapes will overlay all other values.<br/>*LTP:* Key Frame Shapes will work in LTP mode where later changes will override the shape.<br/>See [Saving a key frame shape to a cue](../effects/key-frame-shapes.md#saving-a-key-frame-shape-to-a-cue).
+Shape Behaviour | Sets how Shapes and Key Frame Shapes combine with other playbacks.<br/>***Overlay:*** Shapes / Key Frame Shapes will overlay all other values.<br/>*LTP:* Shapes / Key Frame Shapes will work in LTP mode where later changes will override the shape.<br/>See [Saving a key frame shape to a cue](../effects/key-frame-shapes.md#saving-a-key-frame-shape-to-a-cue).
 
 
 ## Timecode

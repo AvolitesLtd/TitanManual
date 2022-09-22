@@ -227,6 +227,7 @@ control the size and/or speed of the shape in
 playback [Options](../cues/playback-options.md) to give you more options at
 show time; you can also control the size and speed from separate
 [Size Master and Speed Master faders](../running-the-show/playback-controls.md#speed-and-size-masters).
+For Dimmer shapes, the fader controls the shape size by default.
 
 You can use shapes in a cue list, see
 [Shape Tracking in Cue Lists](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists)
@@ -234,6 +235,35 @@ on how the shapes will behave as you go from cue to cue.
 
 You can adjust a running shape at playback time, see 
 [Editing a Live Running Shape](editing-shapes-and-effects.md#editing-a-live-running-shape).
+
+### Shape Overlay or LTP behaviour
+
+When a shape or key frame shape is running in a playback it can behave as **Overlay** (default - always overrides the programmed attributes)
+or **LTP** (shape can be overridden by more recent playbacks) by setting the **Shape Behaviour** option. 
+
+A global setting for Shape Behaviour is in the
+[User Settings](../system-settings/user-settings.md#shape-behaviour), but
+you can also set the mode individually for each playback using the
+playback [Options](../cues/playback-options.md#shape-behaviour).
+
+-   In <Keys.SoftKey>Overlay</Keys.SoftKey> mode (default) the shape will have control of the
+    programmed attributes regardless of whatever else you do. For
+    example if a shape is controlling fixture colour, firing
+    another playback, recalling palettes or changing colour using the
+    wheels will have no visible effect. Once the shape is stopped, the
+    changes you made will become visible. This means that if you want to
+    you can preset what will happen when you stop the shape.
+
+-   In <Keys.SoftKey>LTP</Keys.SoftKey> mode, changes of the same or higher priority will override
+    the shape output. For example if your shape is set to
+    normal priority, firing a playback with normal priority will block
+    the shape output. Killing the playback will restore the shape
+    output. Quick Palettes and manual changes (the programmer) have High
+    priority. Setting the shape priority to **"Very High"** would prevent
+    the programmer taking over (see
+    [Priority](../cues/playback-options.md#priority) in
+    playback Options).
+
 
 
 ## Masking shapes using Mask FX

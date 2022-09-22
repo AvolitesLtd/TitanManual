@@ -199,36 +199,17 @@ want to work on the key frame shapes.
 ## Saving a Key Frame Shape to a Cue
 
 By default when a key frame shape is saved to a cue, the playback fader
-will fade the shape. If the playback is set to have
+will fade the shape size. If the playback is set to have
 [Speed on Fader](../cues/playback-options.md#shape-effect-speed), the
 fader will master the speed of all layers in the shape.
 
-When a key frame shape is running in a playback it can behave as Overlay
-or LTP. A global value for
-[Shape Behaviour](../system-settings/user-settings.md#shape-behaviour) is in the
-[User Settings](../system-settings/user-settings.md), but
-you can also set the mode in
-playback [Options](../cues/playback-options.md#shape-behaviour) for each playback.
-
--   In <Keys.SoftKey>Overlay</Keys.SoftKey> mode (default) the shape will have control of the
-    programmed attributes regardless of whatever else you do. For
-    example if a key frame shape is controlling fixture colour, firing
-    another playback, recalling palettes or changing colour using the
-    wheels will have no visible effect. Once the shape is stopped, the
-    changes you made will become visible. This means that if you want to
-    you can preset what will happen when you stop the shape.
-
--   In <Keys.SoftKey>LTP</Keys.SoftKey> mode, changes of the same or higher priority will override
-    the shape output. For example if your key frame shape is set to
-    normal priority, firing a playback with normal priority will block
-    the shape output. Killing the playback will restore the shape
-    output. Quick Palettes and manual changes (the programmer) have High
-    priority. Setting the shape priority to **"Very High"** would prevent
-    the programmer taking over (see
-    [Priority](../cues/playback-options.md#priority) in
-    playback [Options](../cues/playback-options.md)).
-
-For details of how Key Frame Shapes behave in Cue Lists, see
+For details of how Shapes behave when you go from cue to cue in Cue Lists, see
 [Shape Tracking in Cue Lists](../cue-lists/creating-a-cue-list.md#shape-tracking-in-cue-lists).
 
 - If you create a Mask Shape using the [Mask FX function](shape-generator.md#masking-shapes-using-mask-fx), this will also stop Key Frame Shapes.
+
+- When a shape or key frame shape is running in a playback it can behave as Overlay (overrides the programmed attributes)
+or LTP (shape can be overridden by more recent playbacks). See [Shape Overlay or LTP behaviour](shape-generator.md#shape-overlay-or-ltp-behaviour).
+
+
+
