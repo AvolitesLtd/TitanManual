@@ -145,7 +145,7 @@ To show the Tracking View, use the context menu in the Playback View to select <
 The cues are listed in the grid showing the attribute values stored in each cue. The tracking state is shown by colour:
 -  **White** means an unchanged hard (untracked) value.
 -  **Green** means a hard value where the level has reduced.
--  **Cyan** means a hard value where the level has increased.
+-  **Cyan** means an initial value or a hard value where the level has increased.
 -  **Magenta** means a tracked value.
 -  **Red** means a block.
 
