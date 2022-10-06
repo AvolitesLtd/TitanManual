@@ -9,8 +9,8 @@ problem, just run the Titan Simulator on your PC. You can then load your
 show and simulate any of the Titan consoles, using an on-screen "virtual
 panel".
 
-> Avolites hardware must be connected via USB to allow you to run Titan Simulator - either an Editor Avokey, T1, T2 or Mobile.
-  Editor Avokeys are available from the Avolites website shop.
+> Avolites hardware must be connected via USB to allow you to run Titan Simulator - either an Editor AvoKey, T1, T2 or Mobile.
+  Editor AvoKeys are available from the Avolites website shop.
 
 ![titansimulator](/docs/images/Titan-Simulator.jpeg)
 
