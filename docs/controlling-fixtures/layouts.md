@@ -91,7 +91,7 @@ You can also use the wheels to position selected elements and rotate them. Wheel
 
 When using the wheels to position, you can move elements off the grid by toggling the context menu option <Keys.ContextKey>Wheels Move Full Pixel</Keys.ContextKey> / <Keys.ContextKey>Wheels Move Sub Pixel</Keys.ContextKey>. Once elements are offset from the grid they will keep their offset when moved in Full Pixel mode or by dragging, until you set them back on the grid using the wheels or the context menu option <Keys.ContextKey>Snap Selected Elements to Grid</Keys.ContextKey>.
 
-When rotating elements, if the <Keys.ContextKey>Wheels Move Full Pixel</Keys.ContextKey> option is enabled then the elements will rotate in 45 degree increments, otherwise you can set any angle. If you have selected multiple elements for rotation, the context menu toggle <Keys.ContextKey>Wheels Rotate Individual Elements</Keys.ContextKey> / <Keys.ContextKey>Wheels Rotate Selection</Keys.ContextKey> sets whether each individual item will rotate on its own centre or whether the whole selection will rotate about the centrepoint of the selection.
+When rotating elements, if the <Keys.ContextKey>Wheels Move Full Pixel</Keys.ContextKey> option is enabled then the elements will rotate in 45 degree increments, otherwise you can set any angle. If you have selected multiple elements for rotation, the context menu toggle <Keys.ContextKey>Wheels Rotate Individual Elements</Keys.ContextKey> / <Keys.ContextKey>Wheels Rotate Selection</Keys.ContextKey> sets whether each individual item will rotate on its own centre or whether the whole selection will rotate about the centre point of the selection.
 
 ### Arranging elements using shapes
 
