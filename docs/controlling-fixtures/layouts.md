@@ -34,7 +34,7 @@ On the layout, fixtures are represented by a square "element" which uses the [fi
 ![Layout fixture mimics](/docs/images/Layouts-Fixture-Mimics.png)
 
 - The fixture number is shown in the top left corner and the intensity at the bottom. 
-- The centre of the fixture shows the current colour and gobo (if it has gobos, and if the fixture personality includes the gobo patterns). This can be disabled using the *Show Fixture Mimics* setting in the Elements tab of the Layout View options (press the <Keys.Context>Options</Keys.Context> context button).
+- The centre of the fixture shows the current colour and gobo (if it has gobos, and if the fixture personality includes the gobo patterns). This can be disabled using the *Show Fixture Mimics* setting in the Elements tab of the Layout View options (press the <Keys.ContextKey>Options</Keys.ContextKey> context button).
 - If the fixture is in the programmer, a cyan highlight is shown at the bottom.
 - If an effect is running on the fixture a tilde symbol is shown in the top right corner.
 - If a dimmer effect is running the intensity value will be shown in yellow.
@@ -42,11 +42,11 @@ On the layout, fixtures are represented by a square "element" which uses the [fi
 For a dimmer, the mimic will normally show as white. You can change the mimic colour to match the gel colour of the dimmed fixture by selecting the fixture(s) then set <Keys.SoftKey>Wheels=Visualiser</Keys.SoftKey> on the root menu, then select the Colour attribute bank and change the Red, Green, Blue colours to your desired setting.
 
 ### Layout View functions
-The Layout View can be locked or unlocked using the <Keys.Context>Lock</Keys.Context> button in the top right corner. When the layout is unlocked, you can move items around the screen by clicking on the item then dragging it, or using the wheels. When the layout is locked, items can't be moved. Group buttons only work in locked mode.
+The Layout View can be locked or unlocked using the <Keys.ContextKey>Lock</Keys.ContextKey> button in the top right corner. When the layout is unlocked, you can move items around the screen by clicking on the item then dragging it, or using the wheels. When the layout is locked, items can't be moved. Group buttons only work in locked mode.
 
-The Layout View can be zoomed in or out using the zoom slider on the left of the window, or you can set it to fill the screen using the <Keys.Context>Zoom to Fit</Keys.Context> button.
+The Layout View can be zoomed in or out using the zoom slider on the left of the window, or you can set it to fill the screen using the <Keys.ContextKey>Zoom to Fit</Keys.ContextKey> button.
 
-The <Keys.Context>Select</Keys.Context> and <Keys.Context>Pan</Keys.Context> buttons set whether dragging on the screen will draw a marquee box to select fixtures or will pan the screen view.
+The <Keys.ContextKey>Select</Keys.ContextKey> and <Keys.ContextKey>Pan</Keys.ContextKey> buttons set whether dragging on the screen will draw a marquee box to select fixtures or will pan the screen view.
 
 ## Adding items to the layout
 
@@ -87,18 +87,18 @@ You can arrange the items on the layout manually, or using a variety of automati
 
 Select one or more elements, then drag them to the desired position on the grid. Elements will always snap to the grid.
 
-You can also use the wheels to position selected elements and rotate them. Wheel positioning can be disabled using the context menu option <Keys.Context>Position & Angle</Keys.Context> (which toggles with <Keys.Context>No Wheel Control</Keys.Context>).
+You can also use the wheels to position selected elements and rotate them. Wheel positioning can be disabled using the context menu option <Keys.ContextKey>Position & Angle</Keys.ContextKey> (which toggles with <Keys.ContextKey>No Wheel Control</Keys.ContextKey>).
 
-When using the wheels to position, you can move elements off the grid by toggling the context menu option <Keys.Context>Wheels Move Full Pixel</Keys.Context> / <Keys.Context>Wheels Move Sub Pixel</Keys.Context>. Once elements are offset from the grid they will keep their offset when moved in Full Pixel mode or by dragging, until you set them back on the grid using the wheels or the context menu option <Keys.Context>Snap Selected Elements to Grid</Keys.Context>.
+When using the wheels to position, you can move elements off the grid by toggling the context menu option <Keys.ContextKey>Wheels Move Full Pixel</Keys.ContextKey> / <Keys.ContextKey>Wheels Move Sub Pixel</Keys.ContextKey>. Once elements are offset from the grid they will keep their offset when moved in Full Pixel mode or by dragging, until you set them back on the grid using the wheels or the context menu option <Keys.ContextKey>Snap Selected Elements to Grid</Keys.ContextKey>.
 
-When rotating elements, if the <Keys.Context>Wheels Move Full Pixel</Keys.Context> option is enabled then the elements will rotate in 45 degree increments, otherwise you can set any angle. If you have selected multiple elements for rotation, the context menu toggle <Keys.Context>Wheels Rotate Individual Elements</Keys.Context> / <Keys.Context>Wheels Rotate Selection</Keys.Context> sets whether each individual item will rotate on its own centre or whether the whole selection will rotate about the centrepoint of the selection.
+When rotating elements, if the <Keys.ContextKey>Wheels Move Full Pixel</Keys.ContextKey> option is enabled then the elements will rotate in 45 degree increments, otherwise you can set any angle. If you have selected multiple elements for rotation, the context menu toggle <Keys.ContextKey>Wheels Rotate Individual Elements</Keys.ContextKey> / <Keys.ContextKey>Wheels Rotate Selection</Keys.ContextKey> sets whether each individual item will rotate on its own centre or whether the whole selection will rotate about the centrepoint of the selection.
 
 ### Arranging elements using shapes
 
 You can automatically arrange elements into a rectangle, circle/oval or triangle:
 
-1. Press the context menu button <Keys.Context>Arrange Elements</Keys.Context>.
-2. Select the context menu option <Keys.Context>Shape</Keys.Context>.
+1. Press the context menu button <Keys.ContextKey>Arrange Elements</Keys.ContextKey>.
+2. Select the context menu option <Keys.ContextKey>Shape</Keys.ContextKey>.
 3. Choose whether to arrange all elements or only selected elements by toggling the softkey option <Keys.SoftKey>All Elements</Keys.SoftKey> / <Keys.SoftKey>Selected Elements</Keys.SoftKey>.
 4. Select the shape you want (rectangle, oval or triangle) using the softkey <Keys.SoftKey>Shape=</Keys.SoftKey>.
 5. Set the number of rows / columns you want to have using the softkeys <Keys.SoftKey>Width=</Keys.SoftKey> and <Keys.SoftKey>Height=</Keys.SoftKey>.
@@ -109,8 +109,8 @@ You can automatically arrange elements into a rectangle, circle/oval or triangle
 
 If you have fixtures set up in the onboard Capture visualiser, you can use the visualiser positions to arrange fixtures in the layout.
 
-1. Press the context menu button <Keys.Context>Arrange Elements</Keys.Context>.
-2. Select the context menu option <Keys.Context>From Capture</Keys.Context>.
+1. Press the context menu button <Keys.ContextKey>Arrange Elements</Keys.ContextKey>.
+2. Select the context menu option <Keys.ContextKey>From Capture</Keys.ContextKey>.
 3. Choose whether to arrange all elements or only selected elements by toggling the softkey option <Keys.SoftKey>All Elements</Keys.SoftKey> / <Keys.SoftKey>Selected Elements</Keys.SoftKey>.
 4. Choose which view/projection to use from Capture (Top, Front, Side) using the softkey <Keys.SoftKey>Projection=</Keys.SoftKey>.
 5. If necessary adjust the <Keys.SoftKey>Scale=</Keys.SoftKey> option for best results (to prevent having overlapping fixtures).
@@ -121,9 +121,9 @@ If you have fixtures set up in the onboard Capture visualiser, you can use the v
 
 The grid displayed on the layout screen can be extended to allow more fixtures, and can be hidden.
 
-To extend or shrink the grid area, drag the corner handles (while in Unlocked mode). The context menu <Keys.Context>Crop Grid</Keys.Context> button can be used to shrink the grid area so that it just encloses all the fixtures with no spare space.
+To extend or shrink the grid area, drag the corner handles (while in Unlocked mode). The context menu <Keys.ContextKey>Crop Grid</Keys.ContextKey> button can be used to shrink the grid area so that it just encloses all the fixtures with no spare space.
 
-To show or hide the grid, from the context menu select <Keys.Context>Options</Keys.Context> then go to the Layout tab and set the <Keys.Context>Show Grid</Keys.Context> toggle.
+To show or hide the grid, from the context menu select <Keys.ContextKey>Options</Keys.ContextKey> then go to the Layout tab and set the <Keys.ContextKey>Show Grid</Keys.ContextKey> toggle.
 
 ### Loading a lighting plan
 
@@ -132,7 +132,7 @@ You can import a lighting plan image to show behind the fixtures.
 ![Layout with imported plan](/docs/images/Layouts-With-Plan.png)
 
 1. Save your plan as an image file (png, bmp, jpg - not PDF).
-2. From the context menu <Keys.Context>Options</Keys.Context>, go to the Layout tab.
+2. From the context menu <Keys.ContextKey>Options</Keys.ContextKey>, go to the Layout tab.
 3. Click on the Background Image to open the image browser.
 4. Select the image you want to use.
 
@@ -146,4 +146,4 @@ You can set the opacity of the image if you want to fade the plan into the backg
 
 ## Swapping layout views
 
-You can change to a different layout view either by selecting another handle in the Layouts window, or by using the <Keys.Context>Open Layout</Keys.Context> context menu button - this shows a list of available layout views on the softkeys for you to select.
+You can change to a different layout view either by selecting another handle in the Layouts window, or by using the <Keys.ContextKey>Open Layout</Keys.ContextKey> context menu button - this shows a list of available layout views on the softkeys for you to select.
