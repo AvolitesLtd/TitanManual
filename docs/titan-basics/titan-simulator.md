@@ -9,13 +9,16 @@ problem, just run the Titan Simulator on your PC. You can then load your
 show and simulate any of the Titan consoles, using an on-screen "virtual
 panel".
 
+> Avolites hardware must be connected via USB to allow you to run Titan Simulator - either an Editor AvoKey, T1, T2 or Mobile.
+  Editor AvoKeys are available from the Avolites website shop.
+
 ![titansimulator](/docs/images/Titan-Simulator.jpeg)
 
 ## Installing Titan Simulator
 
 You will need a Windows user account with Administrator privileges to
 install or run Titan Simulator. From v12, to run the Titan Simulator an
-AvoKey Simulator dongle must be connected, or a T1/T2 device.
+Editor AvoKey must be connected, or a T1/T2 device.
 
 
 > See [minimum PC specifications](../titan-basics.md#connecting-up-titan-mobile-and-t1t2) for details of the PC requirements.                    
@@ -30,12 +33,12 @@ Authenticator system.
 
 Once licensed, you have a choice of how Titan will operate:
 
--   If you run Titan Go with an Editor/Simulator AvoKey, you will get
+-   If you run the Titan Go application with an Editor AvoKey, you will get
     one universe of DMX (via Art-Net) with no spoilers. With a T1 or T2
     connected you will get one or two universes of DMX via XLR and
     Art-Net with no spoilers.
 
--   If you run a simulated console, you will get full DMX output on all
+-   If you start Titan Simulator and run a simulated console, you will get full DMX output on all
     universes but periodically random DMX values will be sent down all
     DMX outputs as a "spoiler", please wait for this to stop before
     continuing programming.
