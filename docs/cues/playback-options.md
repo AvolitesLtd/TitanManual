@@ -181,7 +181,7 @@ speed with the fader at full. You can use the multiplier option above to get fas
 > If you have a cue which contains only shapes to overlay on other cues, set the cue to <Keys.SoftKey>Size on Fader</Keys.SoftKey> and allocate a [Speed Master](../running-the-show/playback-controls.md#speed-and-size-masters). You can then create lots of different looks out of the shape by varying the size and speed at show time using the playback fader and the speed master.
 
 ### Shape Behaviour
-Controls the behaviour of Key Frame Shapes in this playback:
+Controls the behaviour of Shapes and Key Frame Shapes in this playback:
 
 Setting | Action
 ------: | ------
