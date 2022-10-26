@@ -135,10 +135,10 @@ times will operate as programmed)*.
 
 The Tracking View window allows you to see and edit how dimmer levels and other attributes are tracked between cues in a cue list. This is really useful to tidy up a show after a frantic programming session if you've saved hard values  accidentally instead of using tracking, or to work out where an incorrectly tracked value is coming from. 
 
-To show the Tracking View, use the context menu in the Playback View to select <Keys.Context>View Tracking</Keys.Context>. 
+To show the Tracking View, use the context menu in the Playback View to select <Keys.ContextKey>View Tracking</Keys.ContextKey>. 
 
 - You can also double-press <Keys.HardKey>Open/View</Keys.HardKey> and select Tracking View from the workspaces menu, but then you need to select which Cue List you want to view, from the list on the softkeys.
-- You can select a different cue list to view using the context menu <Keys.Context>Select Cue List</Keys.Context> option.
+- You can select a different cue list to view using the context menu <Keys.ContextKey>Select Cue List</Keys.ContextKey> option.
 
 ![Tracking View Window](/docs/images/Tracking-View.png)
 
@@ -169,30 +169,30 @@ If any fixture or attribute has been set to non-global, then a letter after the 
 
 ### Tracking View display options
 
-Using the window appearance menu button <Keys.Context>Cog</Keys.Context> you can change the following display options for the Tracking View:
+Using the window appearance menu button <Keys.ContextKey>Cog</Keys.ContextKey> you can change the following display options for the Tracking View:
 
-- <Keys.Context>Column Size</Keys.Context> can be set to Small, Normal, Large, Super Size.
-- <Keys.Context>Window Scroll</Keys.Context> can be set to automatically scroll on the <Keys.Context>Next Cue</Keys.Context>, or require <Keys.Context>Manual</Keys.Context> scrolling.
-- <Keys.Context>Scroll offset from top</Keys.Context> sets how many past cues are visible above the current cue.
-- <Keys.Context>Palettes</Keys.Context> sets how attributes display when a palette has been stored. You can choose <Keys.Context>Hidden</Keys.Context> (displays value only), <Keys.Context>Legend Only</Keys.Context> (shows the palette legend), or <Keys.Context>Legend and Value</Keys.Context> (shows legend, and also value if the column is wide enough).
+- <Keys.ContextKey>Column Size</Keys.ContextKey> can be set to Small, Normal, Large, Super Size.
+- <Keys.ContextKey>Window Scroll</Keys.ContextKey> can be set to automatically scroll on the <Keys.ContextKey>Next Cue</Keys.ContextKey>, or require <Keys.ContextKey>Manual</Keys.ContextKey> scrolling.
+- <Keys.ContextKey>Scroll offset from top</Keys.ContextKey> sets how many past cues are visible above the current cue.
+- <Keys.ContextKey>Palettes</Keys.ContextKey> sets how attributes display when a palette has been stored. You can choose <Keys.ContextKey>Hidden</Keys.ContextKey> (displays value only), <Keys.ContextKey>Legend Only</Keys.ContextKey> (shows the palette legend), or <Keys.ContextKey>Legend and Value</Keys.ContextKey> (shows legend, and also value if the column is wide enough).
 
 You can also show or hide various parts of the display to make more space in the window:
-- <Keys.Context>Attribute Filters</Keys.Context>
-- <Keys.Context>Selection Filters</Keys.Context>
-- <Keys.Context>Fixture Filters</Keys.Context>
-- <Keys.Context>Tracking Column</Keys.Context>
-- <Keys.Context>Legend Column</Keys.Context>
-- <Keys.Context>Fixture Legends</Keys.Context>
-- <Keys.Context>Scroll Bars</Keys.Context>
+- <Keys.ContextKey>Attribute Filters</Keys.ContextKey>
+- <Keys.ContextKey>Selection Filters</Keys.ContextKey>
+- <Keys.ContextKey>Fixture Filters</Keys.ContextKey>
+- <Keys.ContextKey>Tracking Column</Keys.ContextKey>
+- <Keys.ContextKey>Legend Column</Keys.ContextKey>
+- <Keys.ContextKey>Fixture Legends</Keys.ContextKey>
+- <Keys.ContextKey>Scroll Bars</Keys.ContextKey>
 
 In the Context menu for the Tracking View screen there are Sort and Filter options:
-- <Keys.Context>Attributes</Keys.Context> can be sorted in IPCGBES Bank Order or by Current Bank First where the selected attribute bank shows first, followed by the others.
-- <Keys.Context>Window Scroll</Keys.Context> can be sorted by User Number, Last Selected and DMX Address.
-- <Keys.Context>Columns</Keys.Context> can be sorted as Fixture then Attribute (each fixture listed with all its attributes) or Attribute then Fixture (same attributes listed together).
+- <Keys.ContextKey>Attributes</Keys.ContextKey> can be sorted in IPCGBES Bank Order or by Current Bank First where the selected attribute bank shows first, followed by the others.
+- <Keys.ContextKey>Window Scroll</Keys.ContextKey> can be sorted by User Number, Last Selected and DMX Address.
+- <Keys.ContextKey>Columns</Keys.ContextKey> can be sorted as Fixture then Attribute (each fixture listed with all its attributes) or Attribute then Fixture (same attributes listed together).
 
 For the Filter options
-- <Keys.Context>By Current Wheels</Keys.Context> links the Attribute filters to the currently selected attribute bank (also changing the attribute bank filter in the Tracking View window will change the attribute bank for the wheels when this option is enabled) .
-- <Keys.Context>By Fixture Selection</Keys.Context> links the window to currently selected fixtures when enabled.
+- <Keys.ContextKey>By Current Wheels</Keys.ContextKey> links the Attribute filters to the currently selected attribute bank (also changing the attribute bank filter in the Tracking View window will change the attribute bank for the wheels when this option is enabled) .
+- <Keys.ContextKey>By Fixture Selection</Keys.ContextKey> links the window to currently selected fixtures when enabled.
 
 
 ## Using Update to Change Tracked Cues
