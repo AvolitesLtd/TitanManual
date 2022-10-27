@@ -191,7 +191,7 @@ In the Context menu for the Tracking View screen there are Sort and Filter optio
 - <Keys.ContextKey>Columns</Keys.ContextKey> can be sorted as Fixture then Attribute (each fixture listed with all its attributes) or Attribute then Fixture (same attributes listed together).
 
 For the Filter options
-- <Keys.ContextKey>By Current Wheels</Keys.ContextKey> links the Attribute filters to the currently selected attribute bank (also changing the attribute bank filter in the Tracking View window will change the attribute bank for the wheels when this option is enabled) .
+- <Keys.ContextKey>By Current Wheels</Keys.ContextKey> links the Attribute filters to the currently selected attribute bank (also changing the attribute bank filter in the Tracking View window will change the attribute bank for the wheels when this option is enabled).
 - <Keys.ContextKey>By Fixture Selection</Keys.ContextKey> links the window to currently selected fixtures when enabled.
 
 
