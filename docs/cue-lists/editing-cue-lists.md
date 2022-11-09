@@ -131,6 +131,70 @@ times will operate as programmed)*.
 -   If the cue list has more cues than there are playback faders, you
     can swop to the next page using softkeys F and G.
 
+## Editing tracked cues using Tracking View
+
+The Tracking View window allows you to see and edit how dimmer levels and other attributes are tracked between cues in a cue list. This is really useful to tidy up a show after a frantic programming session if you've saved hard values  accidentally instead of using tracking, or to work out where an incorrectly tracked value is coming from. 
+
+To show the Tracking View, use the context menu in the Playback View to select <Keys.ContextKey>View Tracking</Keys.ContextKey>. 
+
+- You can also double-press <Keys.HardKey>Open/View</Keys.HardKey> and select Tracking View from the workspaces menu, but then you need to select which Cue List you want to view, from the list on the softkeys.
+- You can select a different cue list to view using the context menu <Keys.ContextKey>Select Cue List</Keys.ContextKey> option.
+
+![Tracking View Window](/docs/images/Tracking-View.png)
+
+The cues are listed in the grid showing the attribute values stored in each cue. The tracking state is shown by colour:
+-  **White** means an unchanged hard (untracked) value.
+-  **Green** means a hard value where the level has reduced.
+-  **Cyan** means an initial value or a hard value where the level has increased.
+-  **Magenta** means a tracked value.
+-  **Red** means a block.
+
+On the left side of the window, you can filter the fixtures and attributes shown in the grid to show only: 
+- one of the IPCGBES attribute banks, or All
+- the current attribute bank as selected on the console buttons
+- the currently selected fixtures
+- a particular type of fixture patched in the show.
+
+By selecting one or more values in the grid, you can do the following from the softkey options. Press <Keys.HardKey>Exit</Keys.HardKey> to deselect all values in the grid.
+
+- <Keys.SoftKey>Select Function</Keys.SoftKey> gives a submenu with various levels or fixture functions. 
+- <Keys.SoftKey>Tracking</Keys.SoftKey> gives a submenu where you can change the tracking mode.
+- <Keys.SoftKey>Set Hard Value</Keys.SoftKey> will record the values in the selected cells as hard values.
+- <Keys.SoftKey>Delete</Keys.SoftKey> will remove all hard (untracked) values in selected cells. Has no effect on tracked values. 
+- <Keys.SoftKey>Delete Redundant</Keys.SoftKey> will remove hard values if the same value would have tracked into the cue. You can use this to delete hard values and return cues to being tracked in multiple columns / rows by selecting the column / row headers.
+- <Keys.SoftKey>Off</Keys.SoftKey> Set selected attributes to Off.
+- <Keys.SoftKey>On</Keys.SoftKey> Set selected attributes to On (for more information about On/Off see [Off](../cues/editing-cues.md#deactivate-attributes-from-cues-using-off)).
+
+If any fixture or attribute has been set to non-global, then a letter after the value shows T (Track), B (Block), C (Cue Only) or S (Solo).
+
+### Tracking View display options
+
+Using the window appearance menu button <Keys.ContextKey>Cog</Keys.ContextKey> you can change the following display options for the Tracking View:
+
+- <Keys.ContextKey>Column Size</Keys.ContextKey> can be set to Small, Normal, Large, Super Size.
+- <Keys.ContextKey>Window Scroll</Keys.ContextKey> can be set to automatically scroll on the <Keys.ContextKey>Next Cue</Keys.ContextKey>, or require <Keys.ContextKey>Manual</Keys.ContextKey> scrolling.
+- <Keys.ContextKey>Scroll offset from top</Keys.ContextKey> sets how many past cues are visible above the current cue.
+- <Keys.ContextKey>Palettes</Keys.ContextKey> sets how attributes display when a palette has been stored. You can choose <Keys.ContextKey>Hidden</Keys.ContextKey> (displays value only), <Keys.ContextKey>Legend Only</Keys.ContextKey> (shows the palette legend), or <Keys.ContextKey>Legend and Value</Keys.ContextKey> (shows legend, and also value if the column is wide enough).
+
+You can also show or hide various parts of the display to make more space in the window:
+- <Keys.ContextKey>Attribute Filters</Keys.ContextKey>
+- <Keys.ContextKey>Selection Filters</Keys.ContextKey>
+- <Keys.ContextKey>Fixture Filters</Keys.ContextKey>
+- <Keys.ContextKey>Tracking Column</Keys.ContextKey>
+- <Keys.ContextKey>Legend Column</Keys.ContextKey>
+- <Keys.ContextKey>Fixture Legends</Keys.ContextKey>
+- <Keys.ContextKey>Scroll Bars</Keys.ContextKey>
+
+In the Context menu for the Tracking View screen there are Sort and Filter options:
+- <Keys.ContextKey>Attributes</Keys.ContextKey> can be sorted in IPCGBES Bank Order or by Current Bank First where the selected attribute bank shows first, followed by the others.
+- <Keys.ContextKey>Window Scroll</Keys.ContextKey> can be sorted by User Number, Last Selected and DMX Address.
+- <Keys.ContextKey>Columns</Keys.ContextKey> can be sorted as Fixture then Attribute (each fixture listed with all its attributes) or Attribute then Fixture (same attributes listed together).
+
+For the Filter options
+- <Keys.ContextKey>By Current Wheels</Keys.ContextKey> links the Attribute filters to the currently selected attribute bank (also changing the attribute bank filter in the Tracking View window will change the attribute bank for the wheels when this option is enabled).
+- <Keys.ContextKey>By Fixture Selection</Keys.ContextKey> links the window to currently selected fixtures when enabled.
+
+
 ## Using Update to Change Tracked Cues
 
 Because fixture settings in a cue list are [tracked](cue-list-playback.md#tracking) through from previous
