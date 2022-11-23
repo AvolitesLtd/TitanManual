@@ -1,5 +1,5 @@
 {
-  "docs": [
+  "version-16.0/docs": [
     {
       "collapsed": true,
       "type": "category",
@@ -7,7 +7,7 @@
       "items": [
         {
           "type": "doc",
-          "id": "introduction"
+          "id": "version-16.0/introduction"
         }
       ]
     },
@@ -18,31 +18,31 @@
       "items": [
         {
           "type": "doc",
-          "id": "quick-start"
+          "id": "version-16.0/quick-start"
         },
         {
           "type": "doc",
-          "id": "quick-start/patching-fixtures"
+          "id": "version-16.0/quick-start/patching-fixtures"
         },
         {
           "type": "doc",
-          "id": "quick-start/controlling-fixtures"
+          "id": "version-16.0/quick-start/controlling-fixtures"
         },
         {
           "type": "doc",
-          "id": "quick-start/programming-cues-and-chases"
+          "id": "version-16.0/quick-start/programming-cues-and-chases"
         },
         {
           "type": "doc",
-          "id": "quick-start/programming-palettes"
+          "id": "version-16.0/quick-start/programming-palettes"
         },
         {
           "type": "doc",
-          "id": "quick-start/dmx-network-setup"
+          "id": "version-16.0/quick-start/dmx-network-setup"
         },
         {
           "type": "doc",
-          "id": "quick-start/tips-and-tricks"
+          "id": "version-16.0/quick-start/tips-and-tricks"
         }
       ]
     },
@@ -53,47 +53,47 @@
       "items": [
         {
           "type": "doc",
-          "id": "about-the-consoles"
+          "id": "version-16.0/about-the-consoles"
         },
         {
           "type": "doc",
-          "id": "about-the-consoles/diamond"
+          "id": "version-16.0/about-the-consoles/diamond"
         },
         {
           "type": "doc",
-          "id": "about-the-consoles/sapphire-touch"
+          "id": "version-16.0/about-the-consoles/sapphire-touch"
         },
         {
           "type": "doc",
-          "id": "about-the-consoles/arena"
+          "id": "version-16.0/about-the-consoles/arena"
         },
         {
           "type": "doc",
-          "id": "about-the-consoles/tiger-touch"
+          "id": "version-16.0/about-the-consoles/tiger-touch"
         },
         {
           "type": "doc",
-          "id": "about-the-consoles/quartz"
+          "id": "version-16.0/about-the-consoles/quartz"
         },
         {
           "type": "doc",
-          "id": "about-the-consoles/titan-mobile"
+          "id": "version-16.0/about-the-consoles/titan-mobile"
         },
         {
           "type": "doc",
-          "id": "about-the-consoles/t1-and-t2"
+          "id": "version-16.0/about-the-consoles/t1-and-t2"
         },
         {
           "type": "doc",
-          "id": "about-the-consoles/tnp"
+          "id": "version-16.0/about-the-consoles/tnp"
         },
         {
           "type": "doc",
-          "id": "about-the-consoles/pearl-expert-and-touch-wing"
+          "id": "version-16.0/about-the-consoles/pearl-expert-and-touch-wing"
         },
         {
           "type": "doc",
-          "id": "about-the-consoles/fader-wings"
+          "id": "version-16.0/about-the-consoles/fader-wings"
         }
       ]
     },
@@ -104,43 +104,43 @@
       "items": [
         {
           "type": "doc",
-          "id": "titan-basics"
+          "id": "version-16.0/titan-basics"
         },
         {
           "type": "doc",
-          "id": "titan-basics/workspace-windows"
+          "id": "version-16.0/titan-basics/workspace-windows"
         },
         {
           "type": "doc",
-          "id": "titan-basics/other-parts-of-the-touch-screen"
+          "id": "version-16.0/titan-basics/other-parts-of-the-touch-screen"
         },
         {
           "type": "doc",
-          "id": "titan-basics/front-panel-buttons"
+          "id": "version-16.0/titan-basics/front-panel-buttons"
         },
         {
           "type": "doc",
-          "id": "titan-basics/multi-user-operation"
+          "id": "version-16.0/titan-basics/multi-user-operation"
         },
         {
           "type": "doc",
-          "id": "titan-basics/titan-simulator"
+          "id": "version-16.0/titan-basics/titan-simulator"
         },
         {
           "type": "doc",
-          "id": "titan-basics/show-library"
+          "id": "version-16.0/titan-basics/show-library"
         },
         {
           "type": "doc",
-          "id": "titan-basics/loading-and-saving-shows"
+          "id": "version-16.0/titan-basics/loading-and-saving-shows"
         },
         {
           "type": "doc",
-          "id": "titan-basics/clearing-the-console"
+          "id": "version-16.0/titan-basics/clearing-the-console"
         },
         {
           "type": "doc",
-          "id": "titan-basics/creating-reports"
+          "id": "version-16.0/titan-basics/creating-reports"
         }
       ]
     },
@@ -151,23 +151,23 @@
       "items": [
         {
           "type": "doc",
-          "id": "patching"
+          "id": "version-16.0/patching"
         },
         {
           "type": "doc",
-          "id": "patching/patching-new-fixtures-or-dimmers"
+          "id": "version-16.0/patching/patching-new-fixtures-or-dimmers"
         },
         {
           "type": "doc",
-          "id": "patching/changing-the-patch"
+          "id": "version-16.0/patching/changing-the-patch"
         },
         {
           "type": "doc",
-          "id": "patching/copying-moving-and-deleting-fixtures"
+          "id": "version-16.0/patching/copying-moving-and-deleting-fixtures"
         },
         {
           "type": "doc",
-          "id": "patching/fixture-personality-options"
+          "id": "version-16.0/patching/fixture-personality-options"
         }
       ]
     },
@@ -178,27 +178,27 @@
       "items": [
         {
           "type": "doc",
-          "id": "controlling-fixtures"
+          "id": "version-16.0/controlling-fixtures"
         },
         {
           "type": "doc",
-          "id": "controlling-fixtures/changing-fixture-attributes"
+          "id": "version-16.0/controlling-fixtures/changing-fixture-attributes"
         },
         {
           "type": "doc",
-          "id": "controlling-fixtures/viewing-and-editing-fixture-values"
+          "id": "version-16.0/controlling-fixtures/viewing-and-editing-fixture-values"
         },
         {
           "type": "doc",
-          "id": "controlling-fixtures/fixture-groups"
+          "id": "version-16.0/controlling-fixtures/fixture-groups"
         },
         {
           "type": "doc",
-          "id": "controlling-fixtures/layouts"
+          "id": "version-16.0/controlling-fixtures/layouts"
         },
         {
           "type": "doc",
-          "id": "controlling-fixtures/advanced-options"
+          "id": "version-16.0/controlling-fixtures/advanced-options"
         }
       ]
     },
@@ -209,27 +209,27 @@
       "items": [
         {
           "type": "doc",
-          "id": "palettes"
+          "id": "version-16.0/palettes"
         },
         {
           "type": "doc",
-          "id": "palettes/creating-palettes"
+          "id": "version-16.0/palettes/creating-palettes"
         },
         {
           "type": "doc",
-          "id": "palettes/using-palettes"
+          "id": "version-16.0/palettes/using-palettes"
         },
         {
           "type": "doc",
-          "id": "palettes/editing-palettes"
+          "id": "version-16.0/palettes/editing-palettes"
         },
         {
           "type": "doc",
-          "id": "palettes/copying-moving-and-deleting-palettes"
+          "id": "version-16.0/palettes/copying-moving-and-deleting-palettes"
         },
         {
           "type": "doc",
-          "id": "palettes/timing-with-palettes"
+          "id": "version-16.0/palettes/timing-with-palettes"
         }
       ]
     },
@@ -240,31 +240,31 @@
       "items": [
         {
           "type": "doc",
-          "id": "effects"
+          "id": "version-16.0/effects"
         },
         {
           "type": "doc",
-          "id": "effects/shape-generator"
+          "id": "version-16.0/effects/shape-generator"
         },
         {
           "type": "doc",
-          "id": "effects/key-frame-shapes"
+          "id": "version-16.0/effects/key-frame-shapes"
         },
         {
           "type": "doc",
-          "id": "effects/pixel-mapper"
+          "id": "version-16.0/effects/pixel-mapper"
         },
         {
           "type": "doc",
-          "id": "effects/editing-shapes-and-effects"
+          "id": "version-16.0/effects/editing-shapes-and-effects"
         },
         {
           "type": "doc",
-          "id": "effects/advanced-options"
+          "id": "version-16.0/effects/advanced-options"
         },
         {
           "type": "doc",
-          "id": "effects/pixel-mapper-examples"
+          "id": "version-16.0/effects/pixel-mapper-examples"
         }
       ]
     },
@@ -275,31 +275,31 @@
       "items": [
         {
           "type": "doc",
-          "id": "cues"
+          "id": "version-16.0/cues"
         },
         {
           "type": "doc",
-          "id": "cues/creating-a-cue"
+          "id": "version-16.0/cues/creating-a-cue"
         },
         {
           "type": "doc",
-          "id": "cues/cue-playback"
+          "id": "version-16.0/cues/cue-playback"
         },
         {
           "type": "doc",
-          "id": "cues/editing-cues"
+          "id": "version-16.0/cues/editing-cues"
         },
         {
           "type": "doc",
-          "id": "cues/cue-timing"
+          "id": "version-16.0/cues/cue-timing"
         },
         {
           "type": "doc",
-          "id": "cues/playback-options"
+          "id": "version-16.0/cues/playback-options"
         },
         {
           "type": "doc",
-          "id": "cues/copying-moving-linking-and-deleting"
+          "id": "version-16.0/cues/copying-moving-linking-and-deleting"
         }
       ]
     },
@@ -310,31 +310,31 @@
       "items": [
         {
           "type": "doc",
-          "id": "chases"
+          "id": "version-16.0/chases"
         },
         {
           "type": "doc",
-          "id": "chases/creating-a-chase"
+          "id": "version-16.0/chases/creating-a-chase"
         },
         {
           "type": "doc",
-          "id": "chases/chase-playback"
+          "id": "version-16.0/chases/chase-playback"
         },
         {
           "type": "doc",
-          "id": "chases/editing-a-chase"
+          "id": "version-16.0/chases/editing-a-chase"
         },
         {
           "type": "doc",
-          "id": "chases/chase-timing"
+          "id": "version-16.0/chases/chase-timing"
         },
         {
           "type": "doc",
-          "id": "chases/chase-options"
+          "id": "version-16.0/chases/chase-options"
         },
         {
           "type": "doc",
-          "id": "chases/copying-moving-linking-and-deleting"
+          "id": "version-16.0/chases/copying-moving-linking-and-deleting"
         }
       ]
     },
@@ -345,35 +345,35 @@
       "items": [
         {
           "type": "doc",
-          "id": "cue-lists"
+          "id": "version-16.0/cue-lists"
         },
         {
           "type": "doc",
-          "id": "cue-lists/creating-a-cue-list"
+          "id": "version-16.0/cue-lists/creating-a-cue-list"
         },
         {
           "type": "doc",
-          "id": "cue-lists/cue-list-playback"
+          "id": "version-16.0/cue-lists/cue-list-playback"
         },
         {
           "type": "doc",
-          "id": "cue-lists/editing-cue-lists"
+          "id": "version-16.0/cue-lists/editing-cue-lists"
         },
         {
           "type": "doc",
-          "id": "cue-lists/cue-list-timing"
+          "id": "version-16.0/cue-lists/cue-list-timing"
         },
         {
           "type": "doc",
-          "id": "cue-lists/cue-list-options"
+          "id": "version-16.0/cue-lists/cue-list-options"
         },
         {
           "type": "doc",
-          "id": "cue-lists/copying-moving-linking-and-deleting"
+          "id": "version-16.0/cue-lists/copying-moving-linking-and-deleting"
         },
         {
           "type": "doc",
-          "id": "cue-lists/theatre-programming"
+          "id": "version-16.0/cue-lists/theatre-programming"
         }
       ]
     },
@@ -384,19 +384,19 @@
       "items": [
         {
           "type": "doc",
-          "id": "timelines"
+          "id": "version-16.0/timelines"
         },
         {
           "type": "doc",
-          "id": "timelines/creating-a-timeline"
+          "id": "version-16.0/timelines/creating-a-timeline"
         },
         {
           "type": "doc",
-          "id": "timelines/running-and-editing-timelines"
+          "id": "version-16.0/timelines/running-and-editing-timelines"
         },
         {
           "type": "doc",
-          "id": "timelines/timeline-options"
+          "id": "version-16.0/timelines/timeline-options"
         }
       ]
     },
@@ -407,23 +407,23 @@
       "items": [
         {
           "type": "doc",
-          "id": "capture-visualiser"
+          "id": "version-16.0/capture-visualiser"
         },
         {
           "type": "doc",
-          "id": "capture-visualiser/setting-up-the-rig"
+          "id": "version-16.0/capture-visualiser/setting-up-the-rig"
         },
         {
           "type": "doc",
-          "id": "capture-visualiser/visualising-using-capture"
+          "id": "version-16.0/capture-visualiser/visualising-using-capture"
         },
         {
           "type": "doc",
-          "id": "capture-visualiser/capture-show-files"
+          "id": "version-16.0/capture-visualiser/capture-show-files"
         },
         {
           "type": "doc",
-          "id": "capture-visualiser/linking-the-console-to-stand-alone-capture"
+          "id": "version-16.0/capture-visualiser/linking-the-console-to-stand-alone-capture"
         }
       ]
     },
@@ -434,15 +434,15 @@
       "items": [
         {
           "type": "doc",
-          "id": "synergy"
+          "id": "version-16.0/synergy"
         },
         {
           "type": "doc",
-          "id": "synergy/setting-up"
+          "id": "version-16.0/synergy/setting-up"
         },
         {
           "type": "doc",
-          "id": "synergy/operating-synergy"
+          "id": "version-16.0/synergy/operating-synergy"
         }
       ]
     },
@@ -453,27 +453,27 @@
       "items": [
         {
           "type": "doc",
-          "id": "running-the-show"
+          "id": "version-16.0/running-the-show"
         },
         {
           "type": "doc",
-          "id": "running-the-show/playback-controls"
+          "id": "version-16.0/running-the-show/playback-controls"
         },
         {
           "type": "doc",
-          "id": "running-the-show/set-list-window"
+          "id": "version-16.0/running-the-show/set-list-window"
         },
         {
           "type": "doc",
-          "id": "running-the-show/midi-dmx-or-audio-triggering"
+          "id": "version-16.0/running-the-show/midi-dmx-or-audio-triggering"
         },
         {
           "type": "doc",
-          "id": "running-the-show/linking-pioneerdj-system-to-titan"
+          "id": "version-16.0/running-the-show/linking-pioneerdj-system-to-titan"
         },
         {
           "type": "doc",
-          "id": "running-the-show/linking-consoles-for-multi-user-or-backup"
+          "id": "version-16.0/running-the-show/linking-consoles-for-multi-user-or-backup"
         }
       ]
     },
@@ -484,15 +484,15 @@
       "items": [
         {
           "type": "doc",
-          "id": "remote-control"
+          "id": "version-16.0/remote-control"
         },
         {
           "type": "doc",
-          "id": "remote-control/setting-up-the-remote"
+          "id": "version-16.0/remote-control/setting-up-the-remote"
         },
         {
           "type": "doc",
-          "id": "remote-control/operating-the-remote"
+          "id": "version-16.0/remote-control/operating-the-remote"
         }
       ]
     },
@@ -503,15 +503,15 @@
       "items": [
         {
           "type": "doc",
-          "id": "titan-net"
+          "id": "version-16.0/titan-net"
         },
         {
           "type": "doc",
-          "id": "titan-net/tnp-slave-mode"
+          "id": "version-16.0/titan-net/tnp-slave-mode"
         },
         {
           "type": "doc",
-          "id": "titan-net/tnp-console-mode"
+          "id": "version-16.0/titan-net/tnp-console-mode"
         }
       ]
     },
@@ -522,47 +522,47 @@
       "items": [
         {
           "type": "doc",
-          "id": "system-settings"
+          "id": "version-16.0/system-settings"
         },
         {
           "type": "doc",
-          "id": "system-settings/the-system-menu"
+          "id": "version-16.0/system-settings/the-system-menu"
         },
         {
           "type": "doc",
-          "id": "system-settings/external-displays"
+          "id": "version-16.0/system-settings/external-displays"
         },
         {
           "type": "doc",
-          "id": "system-settings/key-profiles"
+          "id": "version-16.0/system-settings/key-profiles"
         },
         {
           "type": "doc",
-          "id": "system-settings/user-settings"
+          "id": "version-16.0/system-settings/user-settings"
         },
         {
           "type": "doc",
-          "id": "system-settings/dmx-output-mapping"
+          "id": "version-16.0/system-settings/dmx-output-mapping"
         },
         {
           "type": "doc",
-          "id": "system-settings/curves"
+          "id": "version-16.0/system-settings/curves"
         },
         {
           "type": "doc",
-          "id": "system-settings/upgrading-the-software"
+          "id": "version-16.0/system-settings/upgrading-the-software"
         },
         {
           "type": "doc",
-          "id": "system-settings/recovering-reinstalling-the-console"
+          "id": "version-16.0/system-settings/recovering-reinstalling-the-console"
         },
         {
           "type": "doc",
-          "id": "system-settings/cleaning-the-console"
+          "id": "version-16.0/system-settings/cleaning-the-console"
         },
         {
           "type": "doc",
-          "id": "system-settings/release-notes"
+          "id": "version-16.0/system-settings/release-notes"
         }
       ]
     },
@@ -573,7 +573,7 @@
       "items": [
         {
           "type": "doc",
-          "id": "fixture-personalities"
+          "id": "version-16.0/fixture-personalities"
         }
       ]
     },
@@ -584,27 +584,27 @@
       "items": [
         {
           "type": "doc",
-          "id": "networking"
+          "id": "version-16.0/networking"
         },
         {
           "type": "doc",
-          "id": "networking/connecting-the-arena-to-a-network"
+          "id": "version-16.0/networking/connecting-the-arena-to-a-network"
         },
         {
           "type": "doc",
-          "id": "networking/controlling-fixtures-over-a-network"
+          "id": "version-16.0/networking/controlling-fixtures-over-a-network"
         },
         {
           "type": "doc",
-          "id": "networking/using-active-fixtures"
+          "id": "version-16.0/networking/using-active-fixtures"
         },
         {
           "type": "doc",
-          "id": "networking/ports-used-by-titan"
+          "id": "version-16.0/networking/ports-used-by-titan"
         },
         {
           "type": "doc",
-          "id": "networking/a-quick-guide-to-ip-addressing"
+          "id": "version-16.0/networking/a-quick-guide-to-ip-addressing"
         }
       ]
     },
@@ -615,11 +615,11 @@
       "items": [
         {
           "type": "doc",
-          "id": "titan-reference"
+          "id": "version-16.0/titan-reference"
         },
         {
           "type": "doc",
-          "id": "titan-reference/button-reference"
+          "id": "version-16.0/titan-reference/button-reference"
         }
       ]
     },
@@ -630,7 +630,7 @@
       "items": [
         {
           "type": "doc",
-          "id": "glossary"
+          "id": "version-16.0/glossary"
         }
       ]
     },
@@ -641,7 +641,7 @@
       "items": [
         {
           "type": "doc",
-          "id": "alpha-index"
+          "id": "version-16.0/alpha-index"
         }
       ]
     }
