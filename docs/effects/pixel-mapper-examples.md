@@ -144,7 +144,7 @@ as a block moving left to right).
 > 
 >   ![Pixel Mapper Preview Window - Overlayed Layers](/docs/images/Pixel-Mapper-Preview-Window-Overlayed-Layers.png)
 
-## Creative Use of Fixture Layouts
+## Creative Use of group Fixture Layouts
 
 Because each fixture group can contain a different layout it is possible
 to create more than one arrangement of the same fixtures for pixel
