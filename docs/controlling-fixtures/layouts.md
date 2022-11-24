@@ -12,6 +12,7 @@ The Layouts window allows you to make one or more control screens with freely-po
 
 You can also include playback, group and macro buttons on a layout to give you a quick way of selecting these items without having to change the workspace view.
 
+
 ![Layout screen](/docs/images/Layouts-With-Gobos.png)
 
 ## Creating a layout
@@ -29,6 +30,7 @@ If you used Groups to select the fixtures to be included, the group layout will 
 
 > If you only have one screen, you may find it useful to create a workspace for the Layout Editor window so you can swap between windows while copying fixtures from the Fixtures window.
 
+
 ### Fixture mimics
 
 On the layout, fixtures are represented by a square "element" which uses the [fixture halo colour](../titan-basics/workspace-windows.md#button-halo).
@@ -42,6 +44,7 @@ On the layout, fixtures are represented by a square "element" which uses the [fi
 - If a dimmer effect is running the intensity value will be shown in yellow.
 - An arrow is shown indicating the front of the fixture.
 
+
 For a dimmer, the mimic will normally show as white. You can change the mimic colour to match the gel colour of the dimmed fixture by selecting the fixture(s) then set <Keys.SoftKey>Wheels=Visualiser</Keys.SoftKey> on the root menu, then select the Colour attribute bank and change the Red, Green, Blue colours to your desired setting.
 
 ### Layout View functions
@@ -50,6 +53,7 @@ The Layout View can be locked or unlocked using the <Keys.ContextKey>Lock</Keys.
 - To position items in the layout, select **unlocked** - you can move items around the screen by clicking on the item then dragging it, or using the 
 wheels but you can't select fixtures for control. 
 - To use the layout to select fixtures, select **locked** - you can select fixtures for control by clicking on them but items can't be moved. Playback/Group/Macro buttons only work in locked mode.
+
 
 The Layout View can be zoomed in or out using the zoom slider on the left of the window, or you can set it to fill the screen using the <Keys.ContextKey>Zoom to Fit</Keys.ContextKey> button.
 
@@ -84,6 +88,7 @@ Press <Keys.HardKey>Copy</Keys.HardKey>, select the playback, group or macro, th
 ![Group handles in Layout](/docs/images/Layouts-Group-Handles.png)
 
 -   A playback, group or macro on a layout is a copy of the original handle; deleting the button on the layout screen will remove it from the layout but won't affect the original handle.
+
 
 
 ## Arranging elements in the layout

@@ -111,6 +111,7 @@ You can edit fixture positions in the group either by Fixture Order or by the Gr
 
 The Group Layout can also be used when creating Layout screens as described in the next section.
 
+
 ### Fixture Order
 
 <Video videoId="2TqYjvGoGXQ" title="Fixture Order" />
