@@ -48,25 +48,24 @@ After upgrading the software it is sometimes necessary to upgrade the firmware i
 
 Use the following steps to upgrade panel firmware:
 
-1. In the screen **Tools menu**, click on **Control Panel** and select the **USB Expert Console** option.
+1. In the screen **Tools menu**, click on **Control Panel** and select the **USB Expert Console** option. For a PC-based panel such as Titan Mobile, T1 or T2, run **USB Expert Console** from the start menu.
 ![Tools Menu](/docs/images/Tools-Menu-Control-Panel.png)
 
 2. You should see a list of the panels on the console in the left hand **Connected Panels** window (the list will vary depending on the console type).
 ![USB Expert Panel Update](/docs/images/USB-Expert-Panel-Update.png)
 
-3. On the right hand side of the window select the **Service** tab and click on the **Enter Boot** button.
+3. On the right hand side of the window select the **Service** tab.
 
-4. After a short delay (maximum 2 minutes) all panels should be listed as being in "Boot Mode" showing a spanner icon in the left hand **Connected Panels** window.
+4. In the **Auto Update** box on the right hand side, any required firmware updates will be listed. The list may vary depending on the console type and the updates available - sometimes no updates might be found or needed.
 
-5. In the **Auto Update** box on the right hand side, any required firmware updates will be listed. The list may vary depending on the console type and the updates available - sometimes no updates might be found or needed.
+5. If updates are needed, click **Update Now** to start the process and the system will update the panels one by one. A green progress bar will be shown in the bottom part of the window.
 
-6. If updates are needed, click **Update Now** to start the process and the system will update the panels one by one.
+6. When the Auto Update box is empty, close USB Expert, shut down the console using the power button, then restart it.
 
-7. When the Auto Update box is empty, click on the **Exit Boot** button and the panels should reappear in the **Connected Panels** window.
+- You can check the status of all panels using the **Connected Panels** window. 
 
-8. Close USB Expert, shut down the console using the power button, then restart it.
+- If you are updating a PC-based panel such as Titan Mobile, T1 or T2 and no panels are listed in
 
-9. As a final check, re-open USB Expert and check that all panels are shown with a green "Connected" logo in the **Connected Panels** window. You can test the function of all front panel controls using the **Item Events** window in the middle - pressing a button or moving a fader/encoder should show event messages in the window.
+- You can test the function of all front panel controls using the **Item Events** window in the middle - pressing a button or moving a fader/encoder should show event messages in the window.
 
-
-- If the panel update has not completed after 10 minutes, press **Exit Boot** regardless and wait for the panels to reappear in the **Connected Panels** window. Then repeat from step 3 to check whether all panels have in fact been updated. 
+- If the panel update has not completed after 10 minutes, press **Exit Boot** regardless and wait for all panels to reappear in the **Connected Panels** window. Then repeat from step 3 to check whether all panels have in fact been updated. 
