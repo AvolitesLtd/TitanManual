@@ -132,7 +132,7 @@ cue to start.
 7. Press <Keys.SoftKey>Record</Keys.SoftKey> when you have finished.
 
 To play back a timecoded cue list, press <Keys.SoftKey>Connected Cue Lists</Keys.SoftKey> on the
-Timecode menu and select the cue list which is to be played. Then press <Keys.SoftKey>Timer Disabled/Enabled</Keys.SoftKey> to enable the timecode input.
+Timecode menu and select the cue list which is to be played. Then press <Keys.SoftKey>Timer Disabled/Enabled</Keys.SoftKey> to enable the timecode input. Note that the **Timer Disabled/Enabled** toggle affects all four timecode streams as it is a general timecode switch. If you just want to disable a specific timecode stream then set its source to **No Timecode** at Step 3.
 
 When you start the timecode source (or press <Keys.SoftKey>Play</Keys.SoftKey> if using internal
 timecode), each cue will fire as the timecode matches its programmed
