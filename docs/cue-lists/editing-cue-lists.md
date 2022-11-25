@@ -100,14 +100,14 @@ You can also use a command-line style series of keypresses:
 
 ## Editing a Cue List using Unfold
 
-The <Keys.HardKey>Unfold</Keys.HardKey> button places each cue of the cue list on one of the
+As an alternative way of editing a cue list, the <Keys.HardKey>Unfold</Keys.HardKey> button places each cue of the cue list on one of the
 playback faders. This allows you to fire and edit each step individually
 as if it was a stand-alone cue.
 
 1. Press <Keys.HardKey>Unfold</Keys.HardKey>, then the **Select** button of the cue list to be
 edited.
 2. Cues are loaded into the **playback faders**. The display shows the cue
-numbers and legends *(see more cues using softkeys F and G)*.
+numbers and legends *(go to the next or previous set of cues using softkeys F and G)*.
 3. Raise a **playback fader** to output the contents of that cue *(fade
 times will operate as programmed)*.
 4. *Various Unfold options are available, detailed below.*
