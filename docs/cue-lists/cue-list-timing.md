@@ -22,7 +22,7 @@ LTP channels (all attributes other than brightness) will fade using the "Fade In
 -   <Keys.SoftKey>Fade In</Keys.SoftKey> sets the fade time of fixtures which are fading to a higher dimmer level than in the previous cue, and also fade time of LTP channels. If the Fade/Delay Out times are set to "As In" (default) then this will also set the fade time of fixtures which are fading to a lower dimmer level. Type a time in seconds and press <Keys.HardKey>Enter</Keys.HardKey>.
 -   <Keys.SoftKey>Delay In</Keys.SoftKey> sets the delay time between pressing <Keys.HardKey>Go</Keys.HardKey> (or other cue trigger) and the start of the fade-in. 
 -   <Keys.SoftKey>Fade Out</Keys.SoftKey> sets the fade time of fixtures which are fading out/down to a lower dimmer level than in the previous cue. It is set by default to be "As In", the same as the fade in time. To go back to "As In", delete the time and leave the box blank. 
--   <Keys.SoftKey>Delay Out</Keys.SoftKey> sets the delay time between pressing <Keys.HardKey>Go</Keys.HardKey> (or other cue trigger) and the start of the fade-out. It is set by default to be "As In", the same as the fade in time. To go back to "As In", delete the time and leave the box blank. 
+-   <Keys.SoftKey>Delay Out</Keys.SoftKey> sets the delay time between pressing <Keys.HardKey>Go</Keys.HardKey> (or other cue trigger) and the start of the fade-out. It is set by default to be "As In", the same as the delay in time. To go back to "As In", delete the time and leave the box blank. 
 
 ## Cue Linking & Link Offset
 
