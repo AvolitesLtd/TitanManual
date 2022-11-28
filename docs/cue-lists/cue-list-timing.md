@@ -9,35 +9,20 @@ import Video from '@site/src/components/video.tsx';
 
 ## Time and Fade Options for Cue Lists
 
-Time settings are independent for each cue in the cue list. The display
-shows which cue you are working with. You can select which cue is active
-using **Wheel A** or by pressing <Keys.SoftKey>Select Cue Number</Keys.SoftKey> softkey in the **Edit Times** menu for the cue list.
+The easiest way to set timing options for cues in cue lists is using the Playback View grid display (press <Keys.HardKey>Open/View</Keys.HardKey> then the **Select** button of the playback). Tap on the value you want to change, or drag to select multiple values to change. You can also select the *active cue* using **Wheel A** or by pressing <Keys.SoftKey>Select Cue Number</Keys.SoftKey> softkey in the **Edit Times** menu for the cue list. You can select a range of values using **Wheel B**.
 
-&nbsp;*See the [diagram below](cue-list-timing.md#cue-linking--link-offset) for more information about overlaps and fade times.*
+Once you have selected values to change, the softkeys show you what you are setting.
 
-1. Press <Keys.SoftKey>Edit Times</Keys.SoftKey> at the root menu then the **Select** button
-of the Cue List.
-2. To change which cue you are editing, scroll through the list using **Wheel A** or press <Keys.SoftKey>Select Cue Number</Keys.SoftKey> then type the cue number you want to edit and press <Keys.HardKey>Enter</Keys.HardKey>.
-    - The Chase arrow buttons to the right of the Connect button also step through the cues.
-    - You can select a range of cues, enabling you to alter the timings of multiple cues all in one go, by using **Wheel B**, or in the [Playback View window](editing-cue-lists.md#playback-view-window), dragging across the cues you want to select in the grid.
-3. **Setting times**
-    -   To set the **delay time** between pressing <Keys.HardKey>Go</Keys.HardKey> and the cue starting,
-    press <Keys.SoftKey>Delay In</Keys.SoftKey> then type a time in seconds and press <Keys.HardKey>Enter</Keys.HardKey>.
-    -   To set the **fade in time** of the cue, press <Keys.SoftKey>Fade In</Keys.SoftKey> then type a
-    time in seconds and press <Keys.HardKey>Enter</Keys.HardKey>. *Both HTP and LTP channels are
-    affected by the fade.*
-    -   The **fade out time** of the cue is set by default to be the same as the
-    fade in time. You can change the fade out time by pressing <Keys.SoftKey>Fade
-    Out</Keys.SoftKey>, then type the time in seconds and press <Keys.HardKey>Enter</Keys.HardKey>. To set
-    equal to Fade In time, delete the time and leave the box blank.
-    *The fade out time starts when the next cue fires, so if you set the
-    time to 1 second, the outgoing cue would start a 1 second fade out
-    as the new cue begins its fade in.*
-    -   The <Keys.SoftKey>Delay Out</Keys.SoftKey> setting of the cue would normally be used if the
-    cue links automatically to the next cue, and sets a wait time
-    before the next cue starts its fade in. So the outgoing cue would
-    start to fade out, and the delay out time would run before the new
-    cue begins its fade in.
+![Cue List Timings](/docs/images/Cue-View-Timings.png)
+
+For each cue you can independently set fade times for fixtures which are fading in (to a higher dimmer level) and fixtures which are fading out/down (to a lower dimmer level). The fade-out times are normally set to be "As In", so the "Fade In" time will be used for all fixtures.
+
+LTP channels (all attributes other than brightness) will fade using the "Fade In" time.
+
+-   <Keys.SoftKey>Fade In</Keys.SoftKey> sets the fade time of fixtures which are fading to a higher dimmer level than in the previous cue, and also fade time of LTP channels. If the Fade/Delay Out times are set to "As In" (default) then this will also set the fade time of fixtures which are fading to a lower dimmer level. Type a time in seconds and press <Keys.HardKey>Enter</Keys.HardKey>.
+-   <Keys.SoftKey>Delay In</Keys.SoftKey> sets the delay time between pressing <Keys.HardKey>Go</Keys.HardKey> (or other cue trigger) and the start of the fade-in. 
+-   <Keys.SoftKey>Fade Out</Keys.SoftKey> sets the fade time of fixtures which are fading out/down to a lower dimmer level than in the previous cue. It is set by default to be "As In", the same as the fade in time. To go back to "As In", delete the time and leave the box blank. 
+-   <Keys.SoftKey>Delay Out</Keys.SoftKey> sets the delay time between pressing <Keys.HardKey>Go</Keys.HardKey> (or other cue trigger) and the start of the fade-out. It is set by default to be "As In", the same as the delay in time. To go back to "As In", delete the time and leave the box blank. 
 
 ## Cue Linking & Link Offset
 
