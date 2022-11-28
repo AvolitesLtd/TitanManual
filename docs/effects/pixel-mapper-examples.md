@@ -144,9 +144,9 @@ as a block moving left to right).
 > 
 >   ![Pixel Mapper Preview Window - Overlayed Layers](/docs/images/Pixel-Mapper-Preview-Window-Overlayed-Layers.png)
 
-## Creative Use of group Fixture Layouts
+## Creative Use of Group Fixture Layouts
 
-Because each fixture group can contain a different layout it is possible
+Because each fixture group can contain a different group layout it is possible
 to create more than one arrangement of the same fixtures for pixel
 mapping.
 
@@ -423,7 +423,7 @@ priority.
 In this example we create random flashing bars, and use layer controls
 to make global adjustments to the whole effect.
 
-1. Create a group and adjust the fixture layout as described in
+1. Create a group and adjust the group layout as described in
 previous examples
 
 2. Select this group and begin creating an effect

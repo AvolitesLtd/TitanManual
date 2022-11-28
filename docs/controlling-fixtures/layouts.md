@@ -87,7 +87,7 @@ Press <Keys.HardKey>Copy</Keys.HardKey>, select the playback, group or macro, th
 
 ![Group handles in Layout](/docs/images/Layouts-Group-Handles.png)
 
--   A playback, group or macro button on a layout is a shortcut linking to the original handle; deleting the button on the layout screen will remove it from the layout but won't affect the original handle. Any other operation such as changing options will change the settings in the original handle.
+-  When the layout is in *Unlocked* mode, press <Keys.HardKey>Delete</Keys.HardKey> then the button in the Layout View to remove the button. This will not affect the original handle. However if you delete a playback, group or macro button in the Layout View when the layout is *Locked* this will also delete the original handle.
 
 
 
