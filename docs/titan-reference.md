@@ -156,7 +156,7 @@ Merge only position from the programmer with the live cue.
 
 Merge only position from the programmer with the live cue.
 
-- See [Updating Cues](../cue-lists/theatre-programming.md#updating-cues) in the Theatre Programming section for more information about editing Cue Lists and recording/merging multiple cues in Cue Lists.
+- See [Updating Cues](./cue-lists/theatre-programming.md#updating-cues) in the Theatre Programming section for more information about editing Cue Lists and recording/merging multiple cues in Cue Lists.
 
 ## Copy, Move in cue list
 

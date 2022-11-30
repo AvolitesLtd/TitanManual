@@ -10,7 +10,8 @@ import Video from '@site/src/components/video.tsx';
 When you are selecting fixtures for control, it's often useful to refer to a plan of where the fixtures are positioned to help you identify them.
 The Layouts window allows you to make one or more control screens with freely-positioned fixture mimics. You can also import a lighting plan on which the fixtures can be overlaid. As well as allowing you to select fixtures, the fixture mimics also show the current intensity, colour and gobo being output by the fixture (where applicable to the type of fixture.)
 
-You can also include group selection buttons on a layout to give you a quick way of selecting groups without having to change the workspace view.
+You can also include playback, group and macro buttons on a layout to give you a quick way of selecting these items without having to change the workspace view.
+
 
 ![Layout screen](/docs/images/Layouts-With-Gobos.png)
 
@@ -25,7 +26,10 @@ You can create any number of different layout screens and store them in handles 
 5. Press the handle button again or <Keys.SoftKey>Record Layout</Keys.SoftKey>.
 6. Now the Layout handle has been created, press it again to open the Layout View window.
 
-If you used Groups to select the fixtures to be included, the group layout will be used to position the fixtures. See [Adding fixtures from group layouts using Record] below for more details.
+If you used Groups to select the fixtures to be included, the group layout will be used to initially position the fixtures. See [Adding fixtures from group layouts using Record] below for more details.
+
+> If you only have one screen, you may find it useful to create a workspace for the Layout Editor window so you can swap between windows while copying fixtures from the Fixtures window.
+
 
 ### Fixture mimics
 
@@ -38,11 +42,18 @@ On the layout, fixtures are represented by a square "element" which uses the [fi
 - If the fixture is in the programmer, a cyan highlight is shown at the bottom.
 - If an effect is running on the fixture a tilde symbol is shown in the top right corner.
 - If a dimmer effect is running the intensity value will be shown in yellow.
+- An arrow is shown indicating the front of the fixture.
+
 
 For a dimmer, the mimic will normally show as white. You can change the mimic colour to match the gel colour of the dimmed fixture by selecting the fixture(s) then set <Keys.SoftKey>Wheels=Visualiser</Keys.SoftKey> on the root menu, then select the Colour attribute bank and change the Red, Green, Blue colours to your desired setting.
 
 ### Layout View functions
-The Layout View can be locked or unlocked using the <Keys.ContextKey>Lock</Keys.ContextKey> button in the top right corner. When the layout is unlocked, you can move items around the screen by clicking on the item then dragging it, or using the wheels. When the layout is locked, items can't be moved. Group buttons only work in locked mode.
+The Layout View can be locked or unlocked using the <Keys.ContextKey>Lock</Keys.ContextKey> button in the top right corner. 
+
+- To position items in the layout, select **unlocked** - you can move items around the screen by clicking on the item then dragging it, or using the 
+wheels but you can't select fixtures for control. 
+- To use the layout to select fixtures, select **locked** - you can select fixtures for control by clicking on them but items can't be moved. Playback/Group/Macro buttons only work in locked mode.
+
 
 The Layout View can be zoomed in or out using the zoom slider on the left of the window, or you can set it to fill the screen using the <Keys.ContextKey>Zoom to Fit</Keys.ContextKey> button.
 
@@ -68,15 +79,16 @@ Select fixtures using groups, press <Keys.HardKey>Record</Keys.HardKey>, then pr
 
 Fixtures will be placed starting in the top left corner of the grid. If groups don't have a stored layout or if you select fixtures individually, then the fixtures will be added in a row in the order you selected them.
 
-### Adding group handles to the layout
+### Adding playbacks, groups and macros to the layout
 
-You can include group selection handles on a layout to give you a quick way of selecting fixture groups without having to change the workspace view.
+You can include buttons for playbacks, groups and macros on a layout to give you a quick way of selecting these items without having to change the workspace view.
 
-Press <Keys.HardKey>Copy</Keys.HardKey>, select the group handle, then touch in the Layout View where you want the group handle to be placed. You can select several group handles at once.
+Press <Keys.HardKey>Copy</Keys.HardKey>, select the playback, group or macro, then touch in the Layout View where you want the button to be placed. You can select multiple items to be copied.
 
 ![Group handles in Layout](/docs/images/Layouts-Group-Handles.png)
 
--   A group handle on a layout is a copy of the original handle; deleting the handle on the layout screen will remove it from the layout but won't affect the group itself.
+-  When the layout is in *Unlocked* mode, press <Keys.HardKey>Delete</Keys.HardKey> then the button in the Layout View to remove the button. This will not affect the original handle. However if you delete a playback, group or macro button in the Layout View when the layout is *Locked* this will also delete the original handle.
+
 
 
 ## Arranging elements in the layout
