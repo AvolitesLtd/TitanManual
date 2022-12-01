@@ -180,11 +180,11 @@ fixture outputs.
 The basic operation of the Layout Editor is described in [Fixture Order and Fixture Layout in Groups](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
 
 The layout editor has some additional functions in the <Keys.SoftKey>Media Options</Keys.SoftKey>
-context menu which are useful when setting up fixture layouts for use
+context menu which are useful when setting up group fixture layouts for use
 with media content.
 
 ### Show Video Overlay
-This option will overlay the media output on the fixture layout grid to help you see where fixtures need
+This option will overlay the media output on the group fixture layout grid to help you see where fixtures need
 to be positioned. You need to select which layer or surface you want to overlay.
 
 ![Show Video Overlay in Layout Editor for mapping fixtures to Ai Video layers](/docs/images/Show-Video-Overlay-in-Layout-Editor-for-mapping-fixtures-to-Ai-Video-layers.jpeg)

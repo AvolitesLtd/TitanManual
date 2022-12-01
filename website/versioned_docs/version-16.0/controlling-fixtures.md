@@ -16,7 +16,7 @@ tells you how you can set the attributes of those fixtures to get the look you w
 ## Selecting Fixtures and Dimmers for Control
 
 To select which fixtures or dimmer channels you want to control, you
-use the Fixture Select buttons.
+use the Fixture Select buttons in the Fixtures window. You can also select items using Layout windows, see [Layouts](./controlling-fixtures/layouts.md).
 You can select fixtures or dimmers individually, or several at once. You
 can also put fixtures into [Groups](./controlling-fixtures/fixture-groups.md) which
 allow you to quickly select different combinations of fixtures.
