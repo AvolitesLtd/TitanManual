@@ -37,7 +37,7 @@ EXCHANGE	| A way to swap a Fixture in a show to a different type of fixture whil
 FADE		| A continuous transition from one level to another.
 FAN			| A way of automatically spreading out Attributes around a central point to speed up programming.
 FIXTURE		| Any lighting instrument that is patched using a Personality. Generally refers to a moving light or colour changing light, not an individual Dimmer channel. Also called Intelligent Fixture, Device, Instrument, Moving Light.
-FIXTURE LAYOUT	| A way of telling the console where Fixtures are physically located in 2D space, for use with Shapes or the Pixel Mapper.
+FIXTURE GROUP LAYOUT	| A way of telling the console where Fixtures are physically located in 2D space, for use with Shapes or the Pixel Mapper.
 FLASH		| Push button which adds a playback into the existing output of the console. Historically called the ADD button. See also SWOP.
 FLIP		| A function for use with Moving Head Fixtures. They have two possible Pan and Tilt settings for each position on stage by reversing the yoke, and FLIP will alternate between them.
 FOCUS		| The library of stored positions, colours etc which are called Focuses on some consoles, are called Palettes on Titan. See PALETTE. This term may also be used in connection with moving fixtures to focus (set the sharpness) of a gobo projection.

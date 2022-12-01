@@ -13,7 +13,7 @@ import Video from '@site/src/components/video.tsx';
 
 The Pixel Mapper works on a group of fixtures, which you have set up
 using the
-[Fixture Layout function](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
+[Group Layout function](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups).
 This tells the console where the
 fixtures are physically located on the stage. The console then maps the
 fixtures as pixels and uses them to output a 2D effect.

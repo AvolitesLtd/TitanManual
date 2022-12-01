@@ -103,13 +103,14 @@ Groups</Keys.SoftKey> in the User Settings.
     This is also the case if a group has been used in a pixel effect. 
     Titan shows a warning message. 
 
-## Fixture Order and Fixture Layout in Groups
+## Fixture Order and Fixture Layout in groups
 
-Fixtures in a group are stored with a selection order, which is used
-with Shapes, Fan, and Overlap. You can also store a 2D position layout
-for fixture groups, giving the actual physical location of fixtures for use
-with Shapes or Pixel Mapper effects or when selecting fixtures using
-patterns. The 2D layout is also used when creating Layout screens as described in the next section.
+Fixtures in a group are stored with a two-dimensional position layout which is used by Shapes and Pixel Mapper. Initially fixtures are arranged in a row in the order you selected them when you created the group, but you can edit this to reflect the actual physical location of fixtures. The horizontal (X) position of each fixture is used to create a Fixture Order which the console uses with Fan and Overlap.
+
+You can edit fixture positions in the group either by Fixture Order or by the Group Layout editor, but remember that the fixture order is set by the x-position of the fixture so changing one will automatically change the other.
+
+The Group Layout can also be used when creating Layout screens as described in the next section.
+
 
 ### Fixture Order
 
@@ -129,15 +130,15 @@ To change the order, select <Keys.SoftKey>Auto Increment</Keys.SoftKey> to On, t
 fixtures in the order you want. If you press a fixture twice, it will
 show an X indicating that it is not part of the sequence.
 
-### Fixture Layout
+### Group Layout
 
 <Video videoId="9S5nQmVpPNs" title="Fixture Layout" />
 
-To change the 2D fixture layout:
+To change the 2D fixture layout for the group:
 
 1. Press <Keys.HardKey>Group</Keys.HardKey>
 2. Select the group you want to edit.
-3. Press <Keys.SoftKey>Edit Layout</Keys.SoftKey>. The Layout Editor window will open.
+3. Press <Keys.SoftKey>Edit Layout</Keys.SoftKey>. The Group Layout Editor window will open.
 
 Initially fixtures will be all in a row. You can reposition the fixtures
 anywhere on the screen by dragging them. Or press a fixture to select
@@ -153,7 +154,7 @@ The <Keys.SoftKey>Arrange Fixtures</Keys.SoftKey> context command will automatic
 fixtures in a rectangular block, you specify the number of rows (Height)
 and columns (Width).
 
-![Layout Editor](/docs/images/Layout-Editor.png)
+![Group Layout Editor](/docs/images/Layout-Editor.png)
 
 -   The X-coordinate of the fixture layout is the same as the Fixture
     Order. Changing one will cause the other to change.
@@ -189,7 +190,7 @@ and columns (Width).
  ![Scale](/docs/images/Scale.png)
 
 
--   The Layout Editor is described in more detail with examples in the
+-   The Group Layout Editor is described in more detail with examples in the
     [Pixel Mapper section](../effects/pixel-mapper.md). There are also some features
     to help with [Synergy/Ai mapping](../synergy/operating-synergy.md#layout-editor-with-ai-server).
 
