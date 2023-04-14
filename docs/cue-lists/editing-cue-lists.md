@@ -11,6 +11,8 @@ This section describes how to edit cues within a cue list.
 To copy, move or delete an entire cue list see the section 
 [Copying, Moving, Linking and Deleting](../cue-lists/copying-moving-linking-and-deleting.md).
 
+- To edit cues using keypad syntax commands, see [Theatre Programming](../cue-lists/theatre-programming.md).
+
 ## Playback View Window
 
 The easiest way to edit a cue list is using the Playback View window
@@ -208,7 +210,7 @@ For the Filter options
 
 Because fixture settings in a cue list are [tracked](cue-list-playback.md#tracking) through from previous
 cues, if you want to edit a setting you need to find the cue where it
-was originally set.
+was originally stored as a hard value.
 
 The **Update** function will go back through the cue list from the currently
 fired cue and automatically update the correct cue.
@@ -322,3 +324,9 @@ If you want to do this from the currently connected cue list, Press <Keys.HardKe
 This is useful if you want to reuse a state from a cue list in another
 playback. It is also useful if you want to edit shapes/effects in a cue,
 although you can also do this from the [Playback View window](#playback-view-window).
+
+## How Merged values are stored into cues
+
+When merging into a cue containing the same fixtures, that information will always be recorded "by channel" regardless of what the record mode is set to. Otherwise merging into a cue would overwrite all the values you have for a fixture so instead it just merges the attributes that are tagged in the programmer. You can keep the console in "Record by Fixture" mode when editing cues and let the console handle it with Tracking Record. 
+
+Fixtures that do not exist in the cue already will be recorded "by fixture", this is usually best for theatre programming as it ensures that fixtures have all their attributes set to defaults (even if they are changed later or by another playback).
