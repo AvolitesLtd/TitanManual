@@ -36,8 +36,8 @@ Software upgrades for consoles are installed from a USB drive. Depending on the 
 
 ## Console Update Procedure (Upgrade File)
 
-1. Go to the Downloads page on the Avolites website and select your console. If an Upgrade installer is available, download it onto a USB drive.
-2. Copy the downloaded installer file to a USB drive and insert into the console.
+1. Go to the Downloads page on the Avolites website and select your console. Check if an Upgrade installer is available to upgrade from your current version - if not, use the Recovery Installer procedure above.
+2. Download the Upgrade Installer file and copy to a USB drive, then insert into the console.
 3. Click the **Tools** menu on the toolbar, then **Control Panel**, then **Titan Installers**. This will list all installers - software and personalities - found in the root directory of the stick (provided you haven't changed their filename).
 4. Click the software version to install, and follow the instructions.
    
