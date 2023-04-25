@@ -87,7 +87,7 @@ import Video from '@site/src/components/video.tsx';
 [Connecting mains power *(in "Connecting up and Titan basics")*](./titan-basics.md#connecting-mains-power)<br/>
 [Connecting Titan to the Pioneer System *(in "Linking PioneerDJ System to Titan")*](./running-the-show/linking-pioneerdj-system-to-titan.md#connecting-titan-to-the-pioneer-system)<br/>
 [Connecting up *(in "Setting up Synergy")*](./synergy/setting-up.md#connecting-up)<br/>
-[Connecting up Titan Mobile and T1/T2 *(in "Connecting up and Titan basics")*](./titan-basics.md#connecting-up-t3-titan-mobile-and-t1t2)<br/>
+[Connecting up T3/Titan Mobile and T1/T2 *(in "Connecting up and Titan basics")*](./titan-basics.md#connecting-up-t3--titan-mobile-and-t1t2)<br/>
 [Connections panel *(in "Quartz")*](./about-the-consoles/quartz.md#connections-panel)<br/>
 [Console Legend *(in "The System Menu")*](./system-settings/the-system-menu.md#console-legend)<br/>
 [Console Lock and Venue Mode Workspace for basic controls *(in "Workspace Windows")*](./titan-basics/workspace-windows.md#console-lock-and-venue-mode-workspace-for-basic-controls)<br/>
