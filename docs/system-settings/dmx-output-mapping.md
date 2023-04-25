@@ -91,7 +91,7 @@ click the <Keys.ContextKey>Cog</Keys.ContextKey> icon at the right hand side of 
 This allows you to adjust settings for each module, and for the network
 protocols to select which network adapter to use to output the protocol. 
 All consoles except Quartz and Expert have two network adapters, Quartz 
-has one, and on Titan Mobile and Simulator this depends on your computer; 
+has one, and on Titan PC Suite (Titan Go / Simulator) this depends on your computer; 
 many laptops will have a wired network adapter and also a WiFi (wireless) 
 adapter, both of which will be shown.
 

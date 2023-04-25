@@ -33,7 +33,7 @@ The <Keys.HardKey>Open/View</Keys.HardKey> button is labelled differently on som
 
 - Quartz, Titan Mobile: <Keys.HardKey>Open</Keys.HardKey>
 
-- Titan Go, Tiger Touch 1, Pearl Expert: <Keys.HardKey>View</Keys.HardKey>
+- T3, Titan Go, Tiger Touch 1, Pearl Expert: <Keys.HardKey>View</Keys.HardKey>
 
 ![Workspace Window Selection](/docs/images/Workspace-Windows-Icons.png)
 

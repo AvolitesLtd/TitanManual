@@ -128,7 +128,7 @@ software.
 The toolbar also has a keyboard button allowing you to pop up the touch
 keyboard. On Diamond 9 there is a button <Keys.HardKey>Keyboard</Keys.HardKey> for this.
 
-> Toolbars are not provided on Titan Mobile or Titan Go as all these functions can be carried out using standard Windows operations.
+> Toolbars are not provided on Titan PC Suite (Titan Go / Titan Simulator) as all these functions can be carried out using standard Windows operations.
 
 ## The Heads-Up Display (HUD)
 

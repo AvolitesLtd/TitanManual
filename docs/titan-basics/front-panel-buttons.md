@@ -87,8 +87,8 @@ correct timings if you selected Real Time mode.
 ## Keyboard shortcuts
 
 Many features of the console can be controlled by shortcuts on the
-keyboard. These are especially useful when using Titan Mobile or Titan
-Simulator.
+keyboard. These are especially useful when using Titan PC Suite (Titan Go or Titan
+Simulator).
 
 The Titan application "captures" the keyboard on start up, meaning that
 if you try to use other applications at the same time they will not

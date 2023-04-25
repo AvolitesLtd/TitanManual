@@ -82,9 +82,9 @@ switch. When you shut down the console normally, the network switch will
 stay on for about 5 minutes then power off. There is no harm in leaving
 it to do this.
 
-## Connecting up Titan Mobile and T1/T2
+## Connecting up T3 / Titan Mobile and T1/T2
 
-Do not connect the Titan Mobile panel or the T1/T2 dongle to your PC for
+Do not connect the T3 / Titan Mobile panel or the T1/T2 dongle to your PC for
 the first time until you have installed the **Titan PC Suite** software,
 which you do simply by running the installer file. This will make sure
 the drivers for the panel are installed.
@@ -96,7 +96,7 @@ Please [see https://avolites.com/titan-pc-system-requirements](https://avolites.
 For best usability, your PC should have a touch screen. If not you can
 use the mouse to select touch buttons.
 
-**Titan Mobile:** Having installed the Titan PC Suite software, connect the USB cable
+**T3 / Titan Mobile:** Having installed the Titan PC Suite software, connect the USB cable
 for the panel (older Titan Mobile panels have two USB connectors -- you
 only need to connect port A, nearest the DC socket). If your PC asks you
 for drivers, select 'Install the Software Automatically'. If you have
@@ -110,8 +110,8 @@ may be needed. The required power supply is: 9-12 volt 800mA DC.
 Connector: 2.5mm hole, outside diameter 5.5mm, length 9.5mm, wired
 centre pin positive. Example Part number: DCPP2
 
-The Titan Mobile panel has a built-in AvoKey so you can install the Titan software on multiple
-computers, but it will only run when the Titan Mobile panel is connected. The AvoKey license is pre-activated
+The T3 or Titan Mobile panels have a built-in AvoKey so you can install the Titan software on multiple
+computers, but it will only run when the T3 / Titan Mobile panel is connected. The AvoKey license is pre-activated
 at the factory. See
 [licensing](./system-settings/recovering-reinstalling-the-console.md#software-licensing)
 for more details.
@@ -125,12 +125,12 @@ license is pre-activated at the factory.
 -	If you are using an older cabled version of the Titan 1 dongle, you will need to attach an
 	AvoKey to a free USB port to license the software. 
 
-- The Titan Go software should automatically detect whether the Titan Mobile panel is connected, and hide the virtual hardware buttons which are shown when you use it with T1/T2 devices - this can be manually overridden
+- The Titan Go software should automatically detect if a T3 or Titan Mobile panel is connected, and hide the virtual hardware buttons which are shown when you use it with T1/T2 devices - this can be manually overridden
 using the [User Setting](system-settings/user-settings.md#display) **Virtual Hardware** in the **Display** tab.
 
-To avoid unwanted interruptions to your show when using Titan on a normal PC with T1/T2 or Titan Mobile, **please check the following Windows settings.**
+To avoid unwanted interruptions to your show when using Titan on a normal PC with T1, T2, T3 or Titan Mobile, **please check the following Windows settings.**
 
-- Disable Windows USB Power Saving (open Device Manager and go into Properties for the T1/T2 device)
+- Disable Windows USB Power Saving (open Device Manager and go into Properties for the T1, T2, T3 or Titan Mobile device)
 
 - Set your PC, screen and disk drives to remain active continuously (open "Power and Sleep" settings and change all settings to "Never")
 
@@ -203,7 +203,7 @@ monitors are very useful to give additional control surfaces. We advise
 you use a monitor compatible with Windows Touch to avoid problems with
 touchscreen drivers. 
 
-Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) will also support 2 additional monitors if the PC
+Titan PC Suite (Titan Go / Titan Simulator) will also support 2 additional monitors if the PC
 you are using has the facility.
 
 An external monitor is disabled by default and will show a 'disabled'

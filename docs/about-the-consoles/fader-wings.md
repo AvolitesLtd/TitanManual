@@ -11,6 +11,21 @@ import Video from '@site/src/components/video.tsx';
 console to provide more faders and buttons, and in some cases extra
 touch screens.
 
+## T3 Wing
+
+The T3 Wing adds 20 additional playback faders and 30
+macro/executor buttons to the main console. It connects by a single USB
+cable to the PC running the Titan software (or to a console).
+
+It is designed to fit next to the T3 control surface, but it can be
+used with any of the Avolites Titan console range and also the T2 USB device.
+
+![T3 Wing](/docs/images/T3-Wing.png)
+
+If you want to see the legends and function information for the controls on the wing, there is a **Mobile Wing** workspace window - double click <Keys.HardKey>View/Open</Keys.HardKey> and select "Mobile Wing". Using the Context Menu buttons you can select different views for this workspace which combine the playbacks and macro/executor buttons into one screen, or you can display them in separate
+pages.
+
+
 ## Tiger Touch Wing
 
 The Tiger Touch wing provides 30 additional handles each with an
@@ -48,7 +63,7 @@ used with any of the Avolites Titan console range and also the T2 USB device.
 
 ![Titan Mobile Wing](/docs/images/Titan-Mobile-Wing.png)
 
-If you want to see the legends and function information for the wing controls, there is a **Mobile Wing** workspace window - double click <Keys.HardKey>View/Open</Keys.HardKey> and select "Mobile Wing". Using the Context Menu buttons you can select different views for this workspace which combine the playbacks and executor buttons into one screen, or you can display them in separate
+If you want to see the legends and function information for the controls on the wing, there is a **Mobile Wing** workspace window - double click <Keys.HardKey>View/Open</Keys.HardKey> and select "Mobile Wing". Using the Context Menu buttons you can select different views for this workspace which combine the playbacks and macro/executor buttons into one screen, or you can display them in separate
 pages.
 
 > The toggle switch on the rear of the console next to the USB does not have any function.

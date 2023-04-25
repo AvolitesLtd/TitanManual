@@ -52,7 +52,7 @@ when you load shows.
     tag as previously used.
 
 If you save to hard drive, shows are saved in the folder 'D:\\Shows' (on
-Titan Mobile, Titan Go and Simulator the folder is
+Titan PC suite (Titan Go / Simulator) the folder is
 'Documents\\Titan\\Shows').
 
 ## Loading a show

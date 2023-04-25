@@ -40,7 +40,7 @@ System Render Rate (Hz) | Sets the output rate of DMX frames from 1-44 frames pe
 ---|------
 External Display                    | ***On:*** External display is enabled <br/> *Off:* External display is disabled.
 External Screen Workspace Shortcuts | ***On:*** Each screen has its own Workspace Shortcut buttons (shown down the side of the screen on external screens). This allows you to recall different window layouts separately on each screen rather than changing all screens. <br/>*Off:* The Workspace buttons on the main screen control all screens.
-Virtual Hardware                    | ***Auto:*** Titan Go will automatically hide the virtual control buttons if a Titan Mobile is connected <br/> *Enabled:* The virtual control buttons are always shown <br/> *Disabled:* The virtual control buttons are always hidden.
+Virtual Hardware                    | ***Auto:*** Titan Go will automatically hide the virtual control buttons if a T3 or Titan Mobile is connected <br/> *Enabled:* The virtual control buttons are always shown <br/> *Disabled:* The virtual control buttons are always hidden.
 Fullscreen Mode                     | *On:* The Titan Go application will be displayed fullscreen <br/> ***Off:*** The Titan Go application will be displayed in a window.
 
 -  The bottom two options are only shown when using the Titan Go application.

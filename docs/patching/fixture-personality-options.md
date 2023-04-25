@@ -171,8 +171,8 @@ Select the fixture type to be edited.
    to the show.
 
 -   Edited personalities will be saved in the User/Custom personality
-    folder at D:\\Personalities (if using Titan Mobile, Titan Go or a
-    simulator, the folder is at \\Documents\\Titan\\Personalities).
+    folder at D:\\Personalities - if using Titan PC Suite (Titan Go or 
+    Simulator), the folder is at \\Documents\\Titan\\Personalities.
     Personalities in this folder are searched and loaded before those in
     the library and are not overwritten when a new fixture library is
     installed.
