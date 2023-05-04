@@ -11,7 +11,7 @@ software from the Avolites website: http://www.avolites.com.
 
 > From v10 it is possible to keep the older versions of Titan installed on a console when you install a new version, which is useful for backwards compatibility if you need to load a show created in an older version. To swap between versions go to Switch Software on the Tools menu.
 
--   The Titan PC Suite software, used for T1, T2, T3, Titan Mobile, and Titan Simulator software is
+-   The Titan PC Suite software, used for T1, T2, T3, Titan Mobile and Titan Simulator, is
     installed simply by running the "PC Suite" installer program as with
     any other Windows application. Please ensure you have exited the
     Titan software before running the installer. The "Titan Go" application is now used with all hardware (there is no longer a separate Titan Mobile application).

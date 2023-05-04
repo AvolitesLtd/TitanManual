@@ -99,12 +99,21 @@ use the mouse to select touch buttons.
 ### T3 / Titan Mobile 
 
 Having installed the Titan PC Suite software, connect the USB cable
-for the panel (older Titan Mobile panels have two USB connectors -- you
+for the panel (older Titan Mobile panels have two USB connectors - you
 only need to connect port A, nearest the DC socket). If your PC asks you
 for drivers, select 'Install the Software Automatically'. If you have
 an older Titan Mobile panel without the built-in AvoKey you also need to
 attach an AvoKey to a free USB port to license the software.
 
+The T3 panel, and recent Titan Mobile panels have a built-in AvoKey so you can swap the panel between different computers with the Titan software installed - the software will only run when the panel is connected. The AvoKey license is pre-activated
+at the factory. See
+[licensing](./system-settings/recovering-reinstalling-the-console.md#software-licensing)
+for more details. Older Titan Mobile panels will require a separate AvoKey to be connected.
+
+- The Titan Go software should automatically detect if a T3 or Titan Mobile panel is connected, and hide the virtual hardware touch buttons which are shown when you use it with T1/T2 devices - if you want to keep these buttons visible this can be manually overridden
+using the User Setting [Virtual Hardware](system-settings/user-settings.md#display) in the **Display** tab.
+
+**Titan Mobile DC socket:**
 Power is normally supplied down the USB connection and the external DC
 power socket is not used, but if your PC has a lot of other USB devices
 plugged in, or in the case of some laptops, an external DC power supply
@@ -112,25 +121,18 @@ may be needed. The required power supply is: 9-12 volt 800mA DC.
 Connector: 2.5mm hole, outside diameter 5.5mm, length 9.5mm, wired
 centre pin positive. Example Part number: DCPP2
 
-The T3 or Titan Mobile panels have a built-in AvoKey so you can install the Titan software on multiple
-computers, but it will only run when the T3 / Titan Mobile panel is connected. The AvoKey license is pre-activated
-at the factory. See
-[licensing](./system-settings/recovering-reinstalling-the-console.md#software-licensing)
-for more details.
 
 ### T1/T2 
 
 The T1/T2 USB devices give you a full lighting control system
 that will output one or two universes of DMX or Art-Net. The software to
 run it is called Titan Go. Both devices have a built-in AvoKey so you can
-run Titan on any computer as long as the T1/T2 device is connected. The AvoKey
+use them on different computers with Titan installed, as long as the T1/T2 device is connected. The AvoKey
 license is pre-activated at the factory.
 
 -	If you are using an older cabled version of the Titan 1 dongle, you will need to attach an
 	AvoKey to a free USB port to license the software. 
 
-- The Titan Go software should automatically detect if a T3 or Titan Mobile panel is connected, and hide the virtual hardware buttons which are shown when you use it with T1/T2 devices - this can be manually overridden
-using the [User Setting](system-settings/user-settings.md#display) **Virtual Hardware** in the **Display** tab.
 
 ### Windows settings for Titan PC Suite
 

@@ -41,7 +41,7 @@ For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](
 
 
 ## <Keys.HardKey>Align</Keys.HardKey> 
- (D9 and T3 only) Allows copying of attributes between fixtures. On consoles other than D9 this function is accessed using <Keys.HardKey>ML Menu</Keys.HardKey>. See [Align Fixtures](../controlling-fixtures/changing-fixture-attributes.md#align-fixtures).
+ (D9 and T3 only) Allows copying of attributes between fixtures. On other consoles this function is accessed using <Keys.HardKey>ML Menu</Keys.HardKey>. See [Align Fixtures](../controlling-fixtures/changing-fixture-attributes.md#align-fixtures).
 
 
 

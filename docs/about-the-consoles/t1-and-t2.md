@@ -6,7 +6,7 @@ sidebar_label: T1 and T2
 
 import Video from '@site/src/components/video.tsx';
 
-T1 and T2 are USB dongles which plug into a Windows PC or laptop. See [minimum PC specifications](../titan-basics.md#connecting-up-t3--titan-mobile-and-t1t2) for details of the PC requirements. Both dongles include an AvoKey.
+T1 and T2 are USB devices which plug into a Windows PC or laptop. See [minimum PC specifications](../titan-basics.md#connecting-up-t3--titan-mobile-and-t1t2) for details of the PC requirements. Both devices include an AvoKey.
 
 **T1** will control a single universe of DMX, from its 5-pin XLR output or over Ethernet from the host computer (fixed to Universe 1). USB-MIDI devices are not supported.
 
