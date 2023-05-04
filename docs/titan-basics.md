@@ -96,7 +96,9 @@ Please [see https://avolites.com/titan-pc-system-requirements](https://avolites.
 For best usability, your PC should have a touch screen. If not you can
 use the mouse to select touch buttons.
 
-**T3 / Titan Mobile:** Having installed the Titan PC Suite software, connect the USB cable
+### T3 / Titan Mobile 
+
+Having installed the Titan PC Suite software, connect the USB cable
 for the panel (older Titan Mobile panels have two USB connectors -- you
 only need to connect port A, nearest the DC socket). If your PC asks you
 for drivers, select 'Install the Software Automatically'. If you have
@@ -116,7 +118,9 @@ at the factory. See
 [licensing](./system-settings/recovering-reinstalling-the-console.md#software-licensing)
 for more details.
 
-**T1/T2:** The T1/T2 USB devices give you a full lighting control system
+### T1/T2 
+
+The T1/T2 USB devices give you a full lighting control system
 that will output one or two universes of DMX or Art-Net. The software to
 run it is called Titan Go. Both devices have a built-in AvoKey so you can
 run Titan on any computer as long as the T1/T2 device is connected. The AvoKey
@@ -128,17 +132,20 @@ license is pre-activated at the factory.
 - The Titan Go software should automatically detect if a T3 or Titan Mobile panel is connected, and hide the virtual hardware buttons which are shown when you use it with T1/T2 devices - this can be manually overridden
 using the [User Setting](system-settings/user-settings.md#display) **Virtual Hardware** in the **Display** tab.
 
-To avoid unwanted interruptions to your show when using Titan on a normal PC with T1, T2, T3 or Titan Mobile, **please check the following Windows settings.**
+### Windows settings for Titan PC Suite
 
-- Disable Windows USB Power Saving (open Device Manager and go into Properties for the T1, T2, T3 or Titan Mobile device)
+A standard Windows PC will have some options set which may cause disconnection of USB hardware, sleep/shutdown of the computer or other things you wouldn't want during a show. 
+To avoid unwanted interruptions when using Titan on a normal PC with T1, T2, T3 or Titan Mobile, **please check the following Windows settings.**
 
-- Set your PC, screen and disk drives to remain active continuously (open "Power and Sleep" settings and change all settings to "Never")
+1. Disable Windows USB Power Saving for the Avolites hardware (open Device Manager and go into Properties for the T1, T2, T3 or Titan Mobile device)
 
-- Disable automatic Windows Updates (open "Windows Update", select "Advanced Options", set "Restart this device" to "Off". Also you can set "Pause Until" to a future date to prevent updates being installed.)
+2. Set your PC, screen and disk drives to remain active continuously (open "Power and Sleep" settings and change all settings to "Never")
 
-- Disable Disk Indexing (select "This PC" in folder view, right click on system drive, select Properties, untick "Allow files on this drive to have contents indexed" at the bottom)
+3. Disable automatic Windows Updates (open "Windows Update", select "Advanced Options", set "Restart this device" to "Off". Also you can set "Pause Until" to a future date to prevent updates being installed.)
 
-- Disable Windows Firewall (if you are not on an internet-connected network) or ensure that all the Titan applications are listed in the Firewall exceptions.
+4. Disable Disk Indexing (select "This PC" in folder view, right click on system drive, select Properties, untick "Allow files on this drive to have contents indexed" at the bottom)
+
+5. Disable Windows Firewall (if you are not on an internet-connected network) or ensure that all the Titan applications are listed in the Firewall exceptions.
 
 ## Titan Healthcheck
 

@@ -35,7 +35,7 @@ details of how IP addressing works.
 
 ## Setting up DMX outputs
 
-Titan can control 64 DMX universes (see [DMX Output Mapping](../system-settings/dmx-output-mapping.md) for details), except when used with T1 / T2 / T3 hardware when it limited to one, two, and sixteen universes respectively. The simulator (with Avokey) will output one universe over Art-Net.
+Titan can control 64 DMX universes (see [DMX Output Mapping](../system-settings/dmx-output-mapping.md) for details), except when used with T1 / T2 / T3 hardware when it limited to one, two, and sixteen universes respectively. The simulator (with AvoKey) will output one universe over Art-Net.
 
 Within the console, you patch fixtures to one of 64 output lines. 
 You connect console output lines to network universes using the

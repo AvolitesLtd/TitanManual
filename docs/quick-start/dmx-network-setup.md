@@ -9,7 +9,7 @@ import Video from '@site/src/components/video.tsx';
 
 The console will control up to 64 universes of DMX. You patch fixtures onto
 one of 64 **DMX Lines** which may be routed to the XLR sockets on the console or to Art-Net or sACN universes 
-over ethernet (see [DMX Output Mapping](../system-settings/dmx-output-mapping.md) for details).
+over Ethernet (see [DMX Output Mapping](../system-settings/dmx-output-mapping.md) for details).
 
 - If using the T1 / T2 / T3 hardware the output is limited to the first one, two or sixteen universes respectively.
 A console would normally output up to 16 universes itself, further Titan Network Processors (TNP) units would be connected to the network using TitanNet to control up to 64 universes. For simple programming or rigs with lots of space in the patch you may be able to output more than 16 universes from a console but operating speed may be affected.
