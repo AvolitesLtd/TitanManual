@@ -155,22 +155,13 @@ an hour to complete.
 
 ## Connecting DMX Lines
 
-The console communicates with lighting fixtures using the DMX512 system.
-The console itself can output 16 universes of DMX (each 512 control
-channels). If you need to output more universes, it is recommended to
-network the console to one or more Avolites TitanNet processing nodes.
-This off-loads the DMX processing, allowing the console to control up to
-64 universes of DMX in total. See the [DMX output section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
+Consoles have a number of DMX outputs on 5-pin XLR for direct connection to
+fixtures and dimmers, and can send Art-Net or sACN over Ethernet.
 
-The console has DMX outputs on 5-pin XLR for direct connection to
-fixtures and dimmers, and can send DMX over Ethernet and wireless
-Ethernet systems to allow connection to remote DMX Ethernet nodes, media
-servers, and so on.
-
-When you patch a dimmer or fixture you tell Titan which of the DMX
-universes it is on. Each universe can be configured to come out of one
-or more of the standard DMX outputs on the back of the console, and/or
-over an [Ethernet protocol](networking/controlling-fixtures-over-a-network.md).
+When you patch a dimmer or fixture you tell Titan which of the 64 DMX
+lines it is on. Each line can be configured to come out of one
+or more of the XLR outputs on the back of the console, and/or to Art-Net or sACN universes
+over Ethernet. Some hardware has limitations on the number of lines you can output - see the [DMX output section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
 
 The Diamond 9 and Arena include a built-in [Ethernet switch](networking/connecting-the-arena-to-a-network.md) and have an optical network
 connection.

@@ -11,17 +11,17 @@ There are various ways to connect fixtures to the console. As well as
 the XLR sockets on the console, [you can connect fixtures using Ethernet](../networking/controlling-fixtures-over-a-network.md)
 and wireless links.
 
-All consoles can output up to 16 universes except **T1** which is limited to
-one single universe and **T2** to two universes.
+All consoles can control up to 64 universes except **T1** which is limited to
+one single universe (fixed at universe 1), **T2** to two universes (fixed at universes 1-2) and **T3** to sixteen universes (fixed at universes 1-16 - expandable with optional extra licence).
 
-If you need to output more universes, you can network the console to one
+The console itself will generate DMX output for up to 16 universes, above that you can network the console to one
 or more [Avolites TitanNet Processing (TNP) nodes](../titan-net.md). This off-loads the DMX
 processing, allowing the console to control up to 64 universes of DMX in
 total.
 
-> The software does not actually limit the number of universes from a
-single console to 16, but performance of the console will be
-degraded. A warning will be shown in the processing load section of
+> Apart from T1/T2/T3, the software does not actually limit the number of universes from a
+single console to 16, but performance of the console may be
+degraded depending on the complexity of the content. A warning will be shown in the processing load section of
 the TitanNet overview.
 
 ## Configuring DMX Outputs
