@@ -13,7 +13,8 @@ ways.
 
 ## Select and Flash buttons
 
-Each fader handle on the console has buttons associated with it. 
+Each fader handle on the console has buttons associated with it. These are called the **Select** and **Flash** buttons, though the
+actions can be reassigned using Key Profiles (see below).
 
 
 &nbsp;<Keys.Annotation>A</Keys.Annotation> **Select** button
@@ -21,11 +22,11 @@ Each fader handle on the console has buttons associated with it.
 &nbsp;<Keys.Annotation>B</Keys.Annotation> **Flash** button
 
 
-On the **Diamond 9** the buttons are arranged like this for the rotary faders and the linear faders:
+On the **Diamond 9** and **T3** the buttons are arranged like this for the rotary faders (D9 only) and the linear faders:
 
 ![Diamond Select and Flash](/docs/images/Diamond-Select-Flash.png)
 
-On the **Sapphire Touch** the buttons are like this for the upper and lower faders. The Sapphire Touch also has a black button with each handle which can be assigned a function using Key Profiles.
+On the **Sapphire Touch** the buttons are like this for the upper and lower faders. The Sapphire Touch also has a black button with each handle which can be assigned a function using Key Profiles (see below).
 
 ![Sapphire Select and Flash](/docs/images/Sapphire-Select-Flash.png)
 

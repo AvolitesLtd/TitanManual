@@ -53,7 +53,7 @@ like this: <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 ![Diamond-H](/docs/images/Diamond-H.png)
 
-&nbsp;<Keys.Annotation>H</Keys.Annotation> The **Rotary Faders** at the top can be used to store
+&nbsp;<Keys.Annotation>H</Keys.Annotation> The **Rotary Faders** and buttons at the top can be used to store
 a range of program functions including cues, chases, and fixture groups.
 The rotary faders have a level indicator around them which is shown in
 a user-configurable colour (halo colour).
@@ -65,7 +65,7 @@ centre of the faders let you change the left or right fader banks to a different
 
 &nbsp;<Keys.Annotation>J</Keys.Annotation> Two more sets of **Rotary Faders** are provided above the Playback Faders.
 
-&nbsp;<Keys.Annotation>K</Keys.Annotation> The motorised **Playback faders** are the main place to store and play back cues or chases
+&nbsp;<Keys.Annotation>K</Keys.Annotation> The motorised **Playback faders** and buttons are the main place to store and play back cues or chases
 but can also be assigned a range of other functions. Each fader has a level indicator
 which can be set to a user-configurable halo colour.
 The touch screen above the faders shows information about
