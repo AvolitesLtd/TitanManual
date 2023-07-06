@@ -87,7 +87,7 @@ correct timings if you selected Real Time mode.
 * Macros will only record physical button presses and a few particular types of touch screen presses
 (selecting fixture handles; changing menus). Changing properties on the touch screen won't be recorded.
 
-- You can also write macros programatically. See the [Avolites.de wiki on macros](https://www.avolites.de/wiki/macros/start) (external link).
+- You can also write macros programmatically. See the [Avolites.de wiki on macros](https://www.avolites.de/wiki/macros/start) (external link).
 
 ## Keyboard shortcuts
 
