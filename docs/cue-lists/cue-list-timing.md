@@ -125,7 +125,7 @@ time.
 
 In order to edit a cue's timecode, select the cue's timecode cell in Playback View
 and enter the correct time, or - using the menu buttons - press <Keys.SoftKey>Edit Times</Keys.SoftKey>,
-enter the cue number, toggle to the 3^rd^ page of this menu with <Keys.SoftKey>Next</Keys.SoftKey>, click <Keys.SoftKey>Timecode = </Keys.SoftKey> and enter the new timestamp.
+enter the cue number, toggle to the 3rd page of this menu with <Keys.SoftKey>Next</Keys.SoftKey>, click <Keys.SoftKey>Timecode = </Keys.SoftKey> and enter the new timestamp.
 
 
 ![Playback View Window showing timecoded cues](/docs/images/Playback-View-Window-showing-timecoded-cues.png)
