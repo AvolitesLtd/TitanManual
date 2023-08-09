@@ -35,12 +35,9 @@ details of how IP addressing works.
 
 ## Setting up DMX outputs
 
-The console has 64 DMX output lines, of which the console itself can
-output 16, with further lines available using networked DMX processing
-nodes. The T1 dongle is limited to one DMX line, T2 to two DMX lines. The
-lines may be routed to physical DMX sockets on the console and/or to network nodes.
-The simulator will output one universe over Art-Net.
+Titan can control 64 DMX universes (see [DMX Output Mapping](../system-settings/dmx-output-mapping.md) for details), except when used with T1 / T2 / T3 hardware when it limited to one, two, and sixteen universes respectively. The Titan Go software (with AvoKey) will output one universe over Art-Net or sACN. The Titan Simulator software (with AvoKey) will output all universes over Art-Net or sACN, but periodically random DMX values will be sent down all DMX outputs as a "spoiler".
 
+Within the console, you patch fixtures to one of 64 output lines. 
 You connect console output lines to network universes using the
 [DMX Settings menu](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs).
 Often you will simply allocate console line 1 to network universe 1, line 2 to

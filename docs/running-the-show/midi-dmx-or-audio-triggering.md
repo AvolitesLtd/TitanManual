@@ -20,7 +20,7 @@ The following types of trigger are available:
 - Streaming ACN
 
 > Audio trigger (sound to light) requires special hardware which is not fitted on Sapphire Touch,
-Tiger Touch, Titan Mobile, T1 and Pearl Expert. You can plug a T2 into these consoles to provide
+Tiger Touch, Titan Mobile, T1, T3 and Pearl Expert. You can plug a T2 into these consoles to provide
 audio triggering. The motherboard "line in" socket can't be used for audio trigger.
 
 GPIO trigger is available on Diamond 9, Arena, Tiger Touch II and Sapphire Touch.

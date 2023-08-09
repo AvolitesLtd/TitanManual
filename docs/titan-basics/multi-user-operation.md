@@ -149,7 +149,7 @@ was master will go into a dormant state with DMX disabled.
 > Consoles must be running the same version of Titan to join a multi-user or
 backup session.
 
-### Titan Mobile
+### Titan PC Suite (Titan Go / Titan Simulator)
 
 **Network Discovery** must be enabled in the **Windows User Profile** you
 are using or consoles will not be able to see each other on the network.

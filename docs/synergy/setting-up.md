@@ -18,7 +18,7 @@ these tips for setting up a suitable network:
 
 -   Have a dedicated network for Synergy if possible
 
--   If you are using Titan Mobile, make sure Windows Firewall is turned
+-   If you are using Titan PC Suite (Titan Go / Simulator), make sure Windows Firewall is turned
     off
 
 > The Ai server(s) must have the correct version of Synergy installed  to match your Titan version. To upgrade Synergy on the Ai server, download the Synergy Upgrade Installer from the 

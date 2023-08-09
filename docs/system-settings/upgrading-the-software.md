@@ -11,10 +11,10 @@ software from the Avolites website: http://www.avolites.com.
 
 > From v10 it is possible to keep the older versions of Titan installed on a console when you install a new version, which is useful for backwards compatibility if you need to load a show created in an older version. To swap between versions go to Switch Software on the Tools menu.
 
--   The Titan Mobile, Titan Go and Editor/Simulator software is
+-   The Titan PC Suite software, used for T1, T2, T3, Titan Mobile and Titan Simulator, is
     installed simply by running the "PC Suite" installer program as with
     any other Windows application. Please ensure you have exited the
-    Titan software before running the installer.
+    Titan software before running the installer. The "Titan Go" application is now used with all hardware (there is no longer a separate Titan Mobile application).
 
 -   If you are upgrading the software from a version earlier than v12,
     you will have to obtain an AvoKey USB dongle from Avolites and
@@ -44,7 +44,7 @@ Software upgrades for consoles are installed from a USB drive. Depending on the 
    If for whatever reason Titan doesn't show the file in the *Titan Installers* submenu you can find and double-click it through Tools -> Folders.
 5. When the installation has completed, a prompt will be shown to restart the console and it will start back up into the version installed.
 
-## Titan Mobile, Titan Go or Titan Simulator Procedure
+## Titan PC Suite (Titan Go or Titan Simulator Procedure)
 
 1. Ensure Titan software is not running on the computer.
 2. Locate the downloaded file **Avolites Titan PC Suite Setup** and double click on it to run it.
@@ -60,7 +60,7 @@ After upgrading the software it is sometimes necessary to upgrade the firmware i
 
 Use the following steps to upgrade panel firmware:
 
-1. In the screen **Tools menu**, click on **Control Panel** and select the **USB Expert Console** option. For a PC-based panel such as Titan Mobile, T1 or T2, run **USB Expert Console** from the start menu.
+1. In the screen **Tools menu**, click on **Control Panel** and select the **USB Expert Console** option. For a PC-based device or panel such as T1, T2, T3 or Titan Mobile, run **USB Expert Console** from the start menu.
 ![Tools Menu](/docs/images/Tools-Menu-Control-Panel.png)
 
 2. You should see a list of the panels on the console in the left hand **Connected Panels** window (the list will vary depending on the console type).
