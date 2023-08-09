@@ -32,7 +32,7 @@ Software upgrades for consoles are installed from a USB drive.
    If for whatever reason Titan doesn't show the file in the *Titan Installers* submenu you can find and double-click it through Tools -> Folders.
 4. When the installation has completed, a prompt will be shown to restart the console and it will start back up into the version installed.
 
-## Titan PC Suite (Titan Go or Titan Simulator Procedure
+## Titan PC Suite (Titan Go or Titan Simulator Procedure)
 
 1. Ensure Titan software is not running on the computer.
 2. Locate the downloaded file **Avolites Titan PC Suite Setup** and double click on it to run it.

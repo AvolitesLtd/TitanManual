@@ -34,12 +34,12 @@ Authenticator system.
 Once licensed, you have a choice of how Titan will operate:
 
 -   If you run the Titan Go application with an Editor AvoKey, you will get
-    one universe of DMX (via Art-Net) with no spoilers. With a T1 or T2
+    one universe of DMX (via Art-Net or sACN) with no spoilers. With a T1 or T2
     connected you will get one or two universes of DMX via XLR and
-    Art-Net with no spoilers.
+    Art-Net or sACN with no spoilers.
 
 -   If you start Titan Simulator and run a simulated console, you will get full DMX output on all
-    universes but periodically random DMX values will be sent down all
+    universes (via Art-Net or sACN), but periodically random DMX values will be sent down all
     DMX outputs as a "spoiler", please wait for this to stop before
     continuing programming.
 

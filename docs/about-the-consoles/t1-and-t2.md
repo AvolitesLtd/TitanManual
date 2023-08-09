@@ -15,7 +15,7 @@ T1 and T2 are USB devices which plug into a Windows PC or laptop. See [minimum P
 **T2** will control two universes of DMX, output on two 5-pin XLRs or over Ethernet from the host computer (fixed to Universes 1 and 2), and has an input for
 Audio/LTC timecode for external triggering. It also enables the use of a USB MIDI device for MIDI
 triggering of Titan, which for example would allow you to use a MIDI fader surface. You can connect 
-the T3 or Titan mobile fader wing to provide physical faders.
+the T3 or Titan Mobile fader wing to provide physical faders.
 
 ![T2 USB DMX Dongle](/docs/images/T2.png)
 
