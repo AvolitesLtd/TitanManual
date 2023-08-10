@@ -368,11 +368,11 @@ the next stage of the pattern (<Keys.HardKey>Next</Keys.HardKey> and <Keys.HardK
     Options</Keys.SoftKey> menu (hold the Clear button down to see this option).
 
 -   For example, if you are programming a chase using 16 fixtures and
-    you want every 4^th^ fixture to do the same thing, you just select
+    you want every 4th fixture to do the same thing, you just select
     the 16 fixtures, then press <Keys.HardKey>All</Keys.HardKey>, then <Keys.SoftKey>1 in x</Keys.SoftKey>, then <Keys.SoftKey>1 in
-    4</Keys.SoftKey>. You will see that the 1^st^, 5^th^, 9^th^ and 13^th^ fixtures
+    4</Keys.SoftKey>. You will see that the 1st, 5th, 9th and 13th fixtures
     are now selected, and you can create the look for those fixtures.
-    Then press <Keys.HardKey>Fix +1</Keys.HardKey>, and the 2^nd^, 6^th^, 10^th^ and 14^th^
+    Then press <Keys.HardKey>Fix +1</Keys.HardKey>, and the 2nd, 6th, 10th and 14th
     fixtures will be selected ready for programming. After you have
     programmed the fourth set of fixtures, the pattern will go back to
     the first position again, until you press <Keys.HardKey>All</Keys.HardKey> twice to end.
@@ -382,6 +382,9 @@ the next stage of the pattern (<Keys.HardKey>Next</Keys.HardKey> and <Keys.HardK
 
 -   You can also get to these options by holding down a group selection
     button for the fixtures.
+
+-   When using a pattern selection, for example 2 in 10, holding down the <Keys.HardKey>Avo</Keys.HardKey> button while pressing 
+    <Keys.HardKey>Fix +1</Keys.HardKey> or <Keys.HardKey>Fix -1</Keys.HardKey> will jump the selection forward or backward in blocks.
 
 ## Selecting Fixtures which are in a Playback
 

@@ -85,6 +85,11 @@ To play back the macro, just press or touch the button where you
 recorded the macro. The macro will repeat all your button presses, with
 correct timings if you selected Real Time mode.
 
+* Macros will only record physical button presses and a few particular types of touch screen presses
+(selecting fixture handles; changing menus). Changing properties on the touch screen won't be recorded.
+
+- You can also write macros programmatically, this is known as a **script**. See [Avolites WebAPI](https://www.avolites.com/webapi) which introduces scripting, the [Avolites API documents](https://api.avolites.com/16.0/#scripts) which lists the API commands, and [Avolites user scripting examples](https://www.avolites.de/wiki/macros/start) (external website).
+
 ## Keyboard shortcuts
 
 Many features of the console can be controlled by shortcuts on the
