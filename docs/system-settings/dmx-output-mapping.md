@@ -84,8 +84,7 @@ A module is a method of sending DMX (such as Art-Net, or sACN) and can be
 thought of as a collection of nodes.
 
 You can set properties for DMX512 outputs, Art-Net or sACN by going to the DMX Settings
-window (from the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Settings</Keys.SoftKey>) and then
-click the <Keys.ContextKey>Cog</Keys.ContextKey> icon at the right hand side of the module name.
+window (from the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Settings</Keys.SoftKey>). The left-hand side of the DMX Settings window lists the possible output nodes on this console, split into different module types. Click the <Keys.ContextKey>Cog</Keys.ContextKey> icon at the right hand side of the module type (DMX Output, Art-Net, Streaming ACN or Visualiser).
 
 This allows you to adjust settings for each module, and for the network
 protocols to select which network adapter to use to output the protocol. 
