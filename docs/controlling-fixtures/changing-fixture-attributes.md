@@ -238,12 +238,12 @@ hand side to set the intensity.
 
 ![Attribute Editor - Colour Filters](/docs/images/Attribute-Editor-Filters.png)
 
-Lets you pick a gel/filter colour from the Lee, Roscolux or GamColor
+Lets you pick a gel/filter colour from commonly used
 ranges of filters. You can search for a particular colour by name or by
 number using the search bar. There is a context menu button to <Keys.SoftKey>Order
 Filters by Number</Keys.SoftKey> or <Keys.SoftKey>Order Filters by Hue</Keys.SoftKey>.
 
-- Using the keypad you can directly select a gel/filter by its reference number by typing <Keys.HardKey>@</Keys.HardKey> *brand number* <Keys.HardKey>/</Keys.HardKey> *Gel number*. For example to set all selected fixtures to Lee 106 you would type <Keys.HardKey>@</Keys.HardKey> *1* <Keys.HardKey>/</Keys.HardKey> *106*. Or you can select fixtures as part of the command, for example 10 <Keys.HardKey>@</Keys.HardKey> 1 <Keys.HardKey>/</Keys.HardKey> 106 would set the fixture with user number 10 to Lee 106. For this command 1=Lee, 2=Roscolux, 3=GamColor. If your console does not have a hardware <Keys.HardKey>/</Keys.HardKey> button you will need to use an external keyboard or the touch keyboard.
+- Using the keypad you can directly select a gel/filter by its reference number by typing <Keys.HardKey>@</Keys.HardKey> *library number* <Keys.HardKey>/</Keys.HardKey> *Gel number*. For example to set all selected fixtures to 106 from "Library L" you would type <Keys.HardKey>@</Keys.HardKey> *1* <Keys.HardKey>/</Keys.HardKey> *106*. Or you can select fixtures as part of the command, for example 10 <Keys.HardKey>@</Keys.HardKey> 1 <Keys.HardKey>/</Keys.HardKey> 106 would set the fixture with user number 10 to 106. For this command 1=Library L, 2=Library R, 3=Library G. If your console does not have a hardware <Keys.HardKey>/</Keys.HardKey> button you will need to use an external keyboard or the touch keyboard.
 
 > For LED fixtures with additional emitters for Warm/Cool white, Amber, UV, Lime or Cyan, Colour Mix will automatically control all the colour channels to obtain the colour. In versions previous to Titan v9 only RGB elements were controlled by the colour picker and other colours had to be set independently.
 
