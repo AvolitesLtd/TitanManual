@@ -88,3 +88,6 @@ selected will set the colour to all the MAC 2000s.
 You can apply a palette to all fixtures in a particular playback. Hold
 the palette button and press the **Select** button of the playback which the
 palette is to apply to.
+
+An alternative way to do the same thing is to hold down the **Flash"** button 
+of the playback then press the palette button you want to use.

@@ -13,7 +13,8 @@ ways.
 
 ## Select and Flash buttons
 
-Each fader handle on the console has buttons associated with it. 
+Each fader handle on the console has buttons associated with it. These are called the **Select** and **Flash** buttons, though the
+actions can be reassigned using Key Profiles (see below).
 
 
 &nbsp;<Keys.Annotation>A</Keys.Annotation> **Select** button
@@ -21,11 +22,11 @@ Each fader handle on the console has buttons associated with it.
 &nbsp;<Keys.Annotation>B</Keys.Annotation> **Flash** button
 
 
-On the **Diamond 9** the buttons are arranged like this for the rotary faders and the linear faders:
+On the **Diamond 9** and **T3** the buttons are arranged like this for the rotary faders (D9 only) and the linear faders:
 
 ![Diamond Select and Flash](/docs/images/Diamond-Select-Flash.png)
 
-On the **Sapphire Touch** the buttons are like this for the upper and lower faders. The Sapphire Touch also has a black button with each handle which can be assigned a function using Key Profiles.
+On the **Sapphire Touch** the buttons are like this for the upper and lower faders. The Sapphire Touch also has a black button with each handle which can be assigned a function using Key Profiles (see below).
 
 ![Sapphire Select and Flash](/docs/images/Sapphire-Select-Flash.png)
 
@@ -84,11 +85,16 @@ To play back the macro, just press or touch the button where you
 recorded the macro. The macro will repeat all your button presses, with
 correct timings if you selected Real Time mode.
 
+* Macros will only record physical button presses and a few particular types of touch screen presses
+(selecting fixture handles; changing menus). Changing properties on the touch screen won't be recorded.
+
+- You can also write macros programmatically, this is known as a **script**. See [Avolites WebAPI](https://www.avolites.com/webapi) which introduces scripting, the [Avolites API documents](https://api.avolites.com/16.0/#scripts) which lists the API commands, and [Avolites user scripting examples](https://www.avolites.de/wiki/macros/start) (external website).
+
 ## Keyboard shortcuts
 
 Many features of the console can be controlled by shortcuts on the
-keyboard. These are especially useful when using Titan Mobile or Titan
-Simulator.
+keyboard. These are especially useful when using Titan PC Suite (Titan Go or Titan
+Simulator).
 
 The Titan application "captures" the keyboard on start up, meaning that
 if you try to use other applications at the same time they will not

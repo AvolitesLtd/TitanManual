@@ -65,8 +65,8 @@ From v12, the software is licensed using an AvoKey USB device.
 
 The Authenticator wizard will take you through the steps to license the
 software on your console or computer. Once the license is stored on the
-AvoKey, you should not need to repeat the licensing. For Titan Mobile or
-T1/T2 dongles, this allows you to use different computers without
+AvoKey, you should not need to repeat the licensing. For Titan PC Suite (T1/T2 devices, T3 control surface,
+Titan Mobile control surface), this allows you to use different computers without
 relicensing as long as the Avolites hardware is connected.
 
 For more details see https://www.avolites.com/avokey

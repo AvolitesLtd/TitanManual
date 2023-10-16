@@ -33,7 +33,7 @@ To generate reports:
 
 Reports are stored in the following folders:
 
--  PC suite (Editor/simulator, Titan Mobile., Titan Go): `Documents/Titan/Reports`
+-  PC suite (Titan Go, Titan Simulator): `Documents/Titan/Reports`
 -  All other consoles: `D:/Data/Reports`
 
 When the report is complete, Titan will open the folder where the report

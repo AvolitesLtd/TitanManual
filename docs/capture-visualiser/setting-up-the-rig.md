@@ -60,7 +60,7 @@ Axis | Action
 **Y** | moves up and down
 **Z** | moves towards and away from you
 
-Press <Keys.HardKey>Position</Keys.HardKey> again to switch the wheels to Orientation
+Press <Keys.HardKey>Position</Keys.HardKey> a second time to switch the wheels to Orientation
 mode. The wheels will now pivot the fixtures in the X/Y/Z axes. Again
 you can use the [**Fan**](../controlling-fixtures/changing-fixture-attributes.md#fan-mode) button to give a spread of angles on multiple
 fixtures.
@@ -78,10 +78,42 @@ enable you to achieve other angles.
 *Illustration by MathsPoetry*
 
 Press <Keys.HardKey>Position</Keys.HardKey> a third time to switch the wheels to Rotation
-mode. This is similar to Orientation but if you have multiple fixtures
-selected, the fixtures rotate as a group about the middle fixture.
+mode. Rotation mode only works if you have multiple fixtures
+selected, and the fixtures rotate as a group about the middle fixture.
+
+- For rotating single fixtures you need to select **Orientation** mode. **Rotation** mode only works when multiple fixtures are selected, it does nothing when a single fixture is selected.
 
 >It's easier to see what position fixtures are in if you change the tilt angle so they aren't pointing straight down (or up). It's always useful if you can have an actual fixture of each type connected to help you get them pointing the right way, but you can change this later if not.
+
+
+### Setting Fixture Options
+
+You can set some options within the visualiser which control how the simulated fixture works. Different options are available depending on the type of fixture.
+
+To set these options, press the bottom softkey at the top level menu until the option shows <Keys.SoftKey>Wheels=Visualiser</Keys.SoftKey>, or press the <Keys.ContextKey>Position-Orientation</Keys.ContextKey> context menu button. Then select one or more fixtures to set and use the wheels to adjust the settings.
+
+**Dimmers (generic fixtures)**
+
+Attribute | Wheel | Function
+----------|-------|---------
+Colour | A/B/C | RGB light colour - Allows the colour of the light to be set (if the real-life fixture has a colour filter fitted)
+Beam | A | Zoom - Sets simulated beam angle from 5 to 90 degrees
+" | B | Focus - Sets simulated focus
+" | C | Throws Light (see note below)
+Effect | A | Horizontal Frost - spreads the beam horizontally
+" | B | Vertical Frost - spreads the beam vertically
+
+**Other fixtures**
+
+Attribute | Wheel | Function
+----------|-------|---------
+Beam | A | Throws Light
+" | B | Invert Pan
+" | C | Invert Tilt
+
+- The *Throws Light* option can be useful with pixel/eye-candy type fixtures to reduce rendering load on the console - only the illumination of the fixture itself is
+shown, the light cast by the fixture is not shown.
+- The *Invert Pan / Tilt* options can be used to change the simulated fixture so it responds in the same directions as the real fixture.
 
 ## Setting up Cameras (Views)
 

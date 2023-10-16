@@ -19,7 +19,7 @@ with the main console. Should the worst happen, a single keypress can
 transfer control to the backup console.
 
 >   Linked consoles must be running the same version of Titan. If using 
-    PC Suite (Titan Mobile, Titan Go or Simulator) you may need to disable 
+    PC Suite (Titan Go or Simulator) you may need to disable 
     any firewalls on the PC.
 
 ## Setting Up Consoles for Multi-User
@@ -30,7 +30,7 @@ programming or show operation. See the [Multi-User Operation](../titan-basics/mu
 ## Setting Up Consoles for Backup
 
 Any Titan console can act as backup for any other console, they do not
-have to be the same model. For example you could run Titan Mobile as
+have to be the same model. For example you could run a laptop with T3 as
 backup. You can also in an emergency use the screen on a TNP to operate.
 
 However do plan ahead and think about what parts of your show will

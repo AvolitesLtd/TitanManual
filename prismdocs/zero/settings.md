@@ -46,6 +46,8 @@ When **Auto Replace In Playlist** is active, the exported version of the media w
 
 The settings here allow the output from which to send the video signal to be chosen from the dropdown menu and for its **resolution** and **frame rate** to be set according to the project requirements. This can then be activated using the **Output Enabled** switch.
 
+The HDR Support indicator can be used to determine if an HDR pipeline is available with the current hardware configuration.
+
 The **NDI Output** section allows a network broadcast of the video signal to be setup. A name can be entered for the **NDI** stream to make it more easily identifiable by receiving devices on the network. The **resolution** and **frame rate** of the **NDI** stream can also be set. The stream can then be activated with the **Output Enabled** switch.
 
 ### Synergy

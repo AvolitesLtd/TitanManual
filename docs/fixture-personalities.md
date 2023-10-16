@@ -82,7 +82,7 @@ the stick (provided you haven't changed their name).
 4. Shut down and then restart the console *(using the Restart Software
 button on the screen Tools menu is OK)*.
 
-### Titan Mobile, Titan Go or Titan Simulator Procedure
+### Titan PC Suite Procedure (T1/T2/T3/Titan Mobile/Titan Simulator)
 
 1. Locate the downloaded file **TitanFixtureLibrary.exe** and double click
 on it to run it. Windows may show a warning about an unrecognised file
@@ -108,7 +108,7 @@ overwritten when you next update the Fixture Library from Avolites.
 To avoid this the console provides a special folder for user-provided
 personalities located at `D:\Personalities`
 
-If you are using Titan Mobile, Titan Go or the Titan Simulator, the
+If you are using Titan PC Suite, the
 folder is located at `\Documents\Titan\Personalities`
 
 When patching fixtures, this folder is searched first before the

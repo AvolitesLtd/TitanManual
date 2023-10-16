@@ -58,6 +58,8 @@ bridge is set to 169.254.225.212 as in the image below, set the console to 169.2
     the bridge software should show connections for both the Titan console and the DJ mixer.
 -   Some Art-Net / sACN equipment can be configured to run on the 169.254.\*.\* address range, 
     in which case you can run everything on the same network.
+-   It may be necessary to toggle 'Node Mode' in the 'TCNet' settings from 'Client' to 'Auto'.
+    For more information please see the [PRO DJ LINK Bridge Manual](https://support.pioneerdj.com/hc/en-us/articles/4404665824153) (external link).
 
 ### Pioneer Bridge running on separate computer
 

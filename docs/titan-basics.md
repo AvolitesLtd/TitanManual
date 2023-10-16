@@ -82,9 +82,9 @@ switch. When you shut down the console normally, the network switch will
 stay on for about 5 minutes then power off. There is no harm in leaving
 it to do this.
 
-## Connecting up Titan Mobile and T1/T2
+## Connecting up T3 / Titan Mobile and T1/T2
 
-Do not connect the Titan Mobile panel or the T1/T2 dongle to your PC for
+Do not connect the T3 / Titan Mobile panel or the T1/T2 dongle to your PC for
 the first time until you have installed the **Titan PC Suite** software,
 which you do simply by running the installer file. This will make sure
 the drivers for the panel are installed.
@@ -96,13 +96,24 @@ Please [see https://avolites.com/titan-pc-system-requirements](https://avolites.
 For best usability, your PC should have a touch screen. If not you can
 use the mouse to select touch buttons.
 
-**Titan Mobile:** Having installed the Titan PC Suite software, connect the USB cable
-for the panel (older Titan Mobile panels have two USB connectors -- you
+### T3 / Titan Mobile 
+
+Having installed the Titan PC Suite software, connect the USB cable
+for the panel (older Titan Mobile panels have two USB connectors - you
 only need to connect port A, nearest the DC socket). If your PC asks you
 for drivers, select 'Install the Software Automatically'. If you have
 an older Titan Mobile panel without the built-in AvoKey you also need to
 attach an AvoKey to a free USB port to license the software.
 
+The T3 panel, and recent Titan Mobile panels have a built-in AvoKey so you can swap the panel between different computers with the Titan software installed - the software will only run when the panel is connected. The AvoKey license is pre-activated
+at the factory. See
+[licensing](./system-settings/recovering-reinstalling-the-console.md#software-licensing)
+for more details. Older Titan Mobile panels will require a separate AvoKey to be connected.
+
+- The Titan Go software should automatically detect if a T3 or Titan Mobile panel is connected, and hide the virtual hardware touch buttons which are shown when you use it with T1/T2 devices - if you want to keep these buttons visible this can be manually overridden
+using the User Setting [Virtual Hardware](system-settings/user-settings.md#display) in the **Display** tab.
+
+**Titan Mobile DC socket:**
 Power is normally supplied down the USB connection and the external DC
 power socket is not used, but if your PC has a lot of other USB devices
 plugged in, or in the case of some laptops, an external DC power supply
@@ -110,35 +121,33 @@ may be needed. The required power supply is: 9-12 volt 800mA DC.
 Connector: 2.5mm hole, outside diameter 5.5mm, length 9.5mm, wired
 centre pin positive. Example Part number: DCPP2
 
-The Titan Mobile panel has a built-in AvoKey so you can install the Titan software on multiple
-computers, but it will only run when the Titan Mobile panel is connected. The AvoKey license is pre-activated
-at the factory. See
-[licensing](./system-settings/recovering-reinstalling-the-console.md#software-licensing)
-for more details.
 
-**T1/T2:** The T1/T2 USB devices give you a full lighting control system
+### T1/T2 
+
+The T1/T2 USB devices give you a full lighting control system
 that will output one or two universes of DMX or Art-Net. The software to
 run it is called Titan Go. Both devices have a built-in AvoKey so you can
-run Titan on any computer as long as the T1/T2 device is connected. The AvoKey
+use them on different computers with Titan installed, as long as the T1/T2 device is connected. The AvoKey
 license is pre-activated at the factory.
 
 -	If you are using an older cabled version of the Titan 1 dongle, you will need to attach an
 	AvoKey to a free USB port to license the software. 
 
-- The Titan Go software should automatically detect whether the Titan Mobile panel is connected, and hide the virtual hardware buttons which are shown when you use it with T1/T2 devices - this can be manually overridden
-using the [User Setting](system-settings/user-settings.md#display) **Virtual Hardware** in the **Display** tab.
 
-To avoid unwanted interruptions to your show when using Titan on a normal PC with T1/T2 or Titan Mobile, **please check the following Windows settings.**
+### Windows settings for Titan PC Suite
 
-- Disable Windows USB Power Saving (open Device Manager and go into Properties for the T1/T2 device)
+A standard Windows PC will have some options set which may cause disconnection of USB hardware, sleep/shutdown of the computer or other things you wouldn't want during a show. 
+To avoid unwanted interruptions when using Titan on a normal PC with T1, T2, T3 or Titan Mobile, **please check the following Windows settings.**
 
-- Set your PC, screen and disk drives to remain active continuously (open "Power and Sleep" settings and change all settings to "Never")
+1. Disable Windows USB Power Saving for the Avolites hardware (open Device Manager and go into Properties for the T1, T2, T3 or Titan Mobile device)
 
-- Disable automatic Windows Updates (open "Windows Update", select "Advanced Options", set "Restart this device" to "Off". Also you can set "Pause Until" to a future date to prevent updates being installed.)
+2. Set your PC, screen and disk drives to remain active continuously (open "Power and Sleep" settings and change all settings to "Never")
 
-- Disable Disk Indexing (select "This PC" in folder view, right click on system drive, select Properties, untick "Allow files on this drive to have contents indexed" at the bottom)
+3. Disable automatic Windows Updates (open "Windows Update", select "Advanced Options", set "Restart this device" to "Off". Also you can set "Pause Until" to a future date to prevent updates being installed.)
 
-- Disable Windows Firewall (if you are not on an internet-connected network) or ensure that all the Titan applications are listed in the Firewall exceptions.
+4. Disable Disk Indexing (select "This PC" in folder view, right click on system drive, select Properties, untick "Allow files on this drive to have contents indexed" at the bottom)
+
+5. Disable Windows Firewall (if you are not on an internet-connected network) or ensure that all the Titan applications are listed in the Firewall exceptions.
 
 ## Titan Healthcheck
 
@@ -155,22 +164,13 @@ an hour to complete.
 
 ## Connecting DMX Lines
 
-The console communicates with lighting fixtures using the DMX512 system.
-The console itself can output 16 universes of DMX (each 512 control
-channels). If you need to output more universes, it is recommended to
-network the console to one or more Avolites TitanNet processing nodes.
-This off-loads the DMX processing, allowing the console to control up to
-64 universes of DMX in total. See the [DMX output section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
+Consoles have a number of DMX outputs on 5-pin XLR for direct connection to
+fixtures and dimmers, and can send Art-Net or sACN over Ethernet.
 
-The console has DMX outputs on 5-pin XLR for direct connection to
-fixtures and dimmers, and can send DMX over Ethernet and wireless
-Ethernet systems to allow connection to remote DMX Ethernet nodes, media
-servers, and so on.
-
-When you patch a dimmer or fixture you tell Titan which of the DMX
-universes it is on. Each universe can be configured to come out of one
-or more of the standard DMX outputs on the back of the console, and/or
-over an [Ethernet protocol](networking/controlling-fixtures-over-a-network.md).
+When you patch a dimmer or fixture you tell Titan which of the 64 DMX
+lines it is on. Each line can be configured to come out of one
+or more of the XLR outputs on the back of the console, and/or to Art-Net or sACN universes
+over Ethernet. Some hardware has limitations on the number of lines you can output - see the [DMX output section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
 
 The Diamond 9 and Arena include a built-in [Ethernet switch](networking/connecting-the-arena-to-a-network.md) and have an optical network
 connection.
@@ -203,7 +203,7 @@ monitors are very useful to give additional control surfaces. We advise
 you use a monitor compatible with Windows Touch to avoid problems with
 touchscreen drivers. 
 
-Titan PC Suite (Titan Mobile, Titan Go, Titan Simulator) will also support 2 additional monitors if the PC
+Titan PC Suite (Titan Go / Titan Simulator) will also support 2 additional monitors if the PC
 you are using has the facility.
 
 An external monitor is disabled by default and will show a 'disabled'

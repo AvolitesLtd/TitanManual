@@ -26,7 +26,7 @@ connected, using a crossover patch cable).
 2. Set up the IP addresses and subnet masks of the console and Hippo so
 that they are on the same address range, for example `192.168.0.1` and
 `192.168.0.2`.
-3. If you are using Titan Mobile or Titan Simulator ensure the firewall
+3. If you are using Titan PC Suite (Titan Go or Titan Simulator) ensure the firewall
 on your PC is disabled. Also ensure the Hippo machine is not running a
 firewall.
 4. Run the Hippo system. Make sure the CITP component is running.
@@ -38,7 +38,7 @@ DMX line you want to use it with.
 set the Universe number to match the universe setting on the Hippo.
 8. Press <Keys.HardKey>Exit</Keys.HardKey> to go back to the default menu.
 9. Restart the console software using the option on the Tools menu (for
-Titan Mobile, Titan Go or Simulator just close and restart the Titan
+Titan PC Suite (Titan Go or Simulator) just close and restart the Titan
 software).
 10. Go into Patch mode and select <Keys.SoftKey>Active Fixtures</Keys.SoftKey>. You should see
 the Hippo with its IP address as a softkey option.
