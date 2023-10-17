@@ -85,7 +85,9 @@ When the fader is in **Manual Crossfader** mode:
 
 ### Fire First Cue
 Sets whether the first cue automatically fires when
-the fader is raised, or if you need to press the <Keys.HardKey>Go</Keys.HardKey> button to fire it.
+the fader is raised, or if you need to press the <Keys.HardKey>Go</Keys.HardKey> button after raising the fader to fire it.
+
+If you have selected a particular cue in the cue list (using Next Cue / Prev Cue buttons on a connected cue list or by keypad syntax) then the "Fire first cue" option will fire the selected cue rather than the first one when the fader is raised.
 
 ## Effects Tab
 
