@@ -286,10 +286,17 @@ your value is going to have (such as <Keys.SoftKey>Gobo 5</Keys.SoftKey>, or <Ke
 ![Attribute Softkey](/docs/images/Attribute-Softkey.png)
 
 For attributes displayed in percent, such as Dimmer, or Colour Mix, you
-enter a value from 0-100 to set the percentage output. For attributes
+enter a value from 0-100 to set the percentage output (you can change the User Settings
+so that you enter a single digit 0-9 for 0-90% - see the [Formatting tab of the User Settings](../system-settings/user-settings.md#formatting)).
+
+For attributes
 where the output is divided up into ranges, such as colour wheels, you
 enter the index of the range you want. For example to select the 3rd
 colour (as displayed in the list above the wheel) you would enter 3.
+
+You can use the <Keys.HardKey>@</Keys.HardKey> button by the numeric keypad to set Dimmer levels in theatre-style programming, so <Keys.HardKey>@</Keys.HardKey>
+50 <Keys.HardKey>Enter</Keys.HardKey> would set selected fixtures to 50% intensity.
+
 
 ## Adjusting Attributes with the @ buttons
 

@@ -20,6 +20,7 @@ keystoning
 nd
 num
 pushbuttons
+qwerty
 rackmount
 rd
 remotes
@@ -34,6 +35,7 @@ st
 softkey
 softkeys
 starcloths
+subfixtures
 swop
 th
 thru
@@ -210,6 +212,8 @@ alcohol
 5-pin
 9-pin
 15-pin
+2-digit
+2-step
 
 
 4xRGB
@@ -218,6 +222,9 @@ alcohol
 5.5mm
 6mm
 9.5mm
+
+t1
+t2
 
 v1
 v2
