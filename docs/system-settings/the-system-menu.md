@@ -26,10 +26,10 @@ This option sets up networking parameters for the Ethernet ports on the console 
 Allows you to configure how the console outputs DMX. This option is
 described in detail later in this chapter, in the [DMX Output Settings section](dmx-output-mapping.md#configuring-dmx-outputs).
 
-## DMX Merge Settings
+## Network DMX Node Settings
 
 Allows you to select how DMX will be output across multiple consoles or
-processing nodes - [read more about DMX merge settings](dmx-output-mapping.md#dmx-merge).
+processing nodes - [read more about Network DMX Node settings](dmx-output-mapping.md#network-dmx-node-settings).
 
 ## Synergy Settings
 

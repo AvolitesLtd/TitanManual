@@ -152,8 +152,6 @@ import Video from '@site/src/components/video.tsx';
 [Displacement and Layer Properties *(in "Pixel Mapper Examples")*](./effects/pixel-mapper-examples.md#displacement-and-layer-properties)<br/>
 [Display *(in "User Settings")*](./system-settings/user-settings.md#display)<br/>
 [Display Setup *(in "The System Menu")*](./system-settings/the-system-menu.md#display-setup)<br/>
-[DMX Merge *(in "DMX Output Mapping")*](./system-settings/dmx-output-mapping.md#dmx-merge)<br/>
-[DMX Merge Settings *(in "The System Menu")*](./system-settings/the-system-menu.md#dmx-merge-settings)<br/>
 [DMX Output Properties *(in "DMX Output Mapping")*](./system-settings/dmx-output-mapping.md#dmx-output-properties)<br/>
 [DMX Overview *(in "DMX Output Mapping")*](./system-settings/dmx-output-mapping.md#dmx-overview)<br/>
 [DMX Settings *(in "The System Menu")*](./system-settings/the-system-menu.md#dmx-settings)<br/>
@@ -330,6 +328,8 @@ import Video from '@site/src/components/video.tsx';
   
 ## N
 [Nested Palettes *(in "Creating Palettes")*](./palettes/creating-palettes.md#nested-palettes)<br/>
+[Network DMX Node Settings *(in "DMX Output Mapping")*](./system-settings/dmx-output-mapping.md#network-dmx-node-settings)<br/>
+[Network DMX Node Settings *(in "The System Menu")*](./system-settings/the-system-menu.md#network-dmx-node-settings)<br/>
 [Network Settings *(in "The System Menu")*](./system-settings/the-system-menu.md#network-settings)<br/>
 [Network Settings *(in "TNP Slave Mode")*](./titan-net/tnp-slave-mode.md#network-settings)<br/>
 [Network Setup using a Dedicated Access Point *(in "Setting up the Remote")*](./remote-control/setting-up-the-remote.md#network-setup-using-a-dedicated-access-point)<br/>
@@ -531,7 +531,6 @@ import Video from '@site/src/components/video.tsx';
 [The Back Panel *(in "Sapphire Touch")*](./about-the-consoles/sapphire-touch.md#the-back-panel)<br/>
 [The Back Panel *(in "Tiger Touch")*](./about-the-consoles/tiger-touch.md#the-back-panel)<br/>
 [The Channel Grid Window *(in "Viewing and Editing Fixture Values")*](./controlling-fixtures/viewing-and-editing-fixture-values.md#the-channel-grid-window)<br/>
-[The Heads-Up Display (HUD) *(in "Other Parts of the Touch Screen")*](./titan-basics/other-parts-of-the-touch-screen.md#the-heads-up-display-hud)<br/>
 [The Intensity View Window *(in "Viewing and Editing Fixture Values")*](./controlling-fixtures/viewing-and-editing-fixture-values.md#the-intensity-view-window)<br/>
 [The Main Controls *(in "Arena")*](./about-the-consoles/arena.md#the-main-controls)<br/>
 [The Main Controls *(in "Pearl Expert and Touch Wing")*](./about-the-consoles/pearl-expert-and-touch-wing.md#the-main-controls)<br/>

@@ -47,7 +47,6 @@ GROUP		| A Group is a pre-programmed collection of Fixtures that can be selected
 HALO		| A special colour shown around the rim of a touch button, used to quickly identify different types of button.
 HANDLE		| A control on the console where you can store things – may just be a programmable button, or may have a fader with one or more associated buttons.
 HTP			| Highest Takes Precedence, a mechanism for determining the output level of an attribute (nearly always Intensity) being controlled by more than one Playback. The playback outputting the highest value at any given time will determine the level of the attribute. Also see LTP.
-HUD			| Heads-up-display, an information window shown on the screen.
 INCLUDE		| A means of transferring the contents of a Cue or Chase step back into the Programmer for further editing or programming.
 IPCGBESFX	| The Attribute groups, used by the console to conveniently group together similar attributes – stands for Intensity, Position, Colour, Gobo, Beam, Effect, Special, FX (shapes). For example the P(osition) group includes Pan and Tilt attributes.
 KEY FRAME SHAPE	| A self-programmed Shape where you program a set of steps which can then be spread in different ways over a set of fixtures.
