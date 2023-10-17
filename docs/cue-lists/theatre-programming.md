@@ -61,7 +61,7 @@ Groups also have a User Number.
 
  Keypresses | Action
 ------------|-------------------
- <Keys.HardKey>@</Keys.HardKey> **b** <Keys.HardKey>/</Keys.HardKey> **v** | Set gel colour **v** from brand **b** to selected fixtures. (1=Lee, 2=Roscolux, 3=GamColor)
+ <Keys.HardKey>@</Keys.HardKey> **b** <Keys.HardKey>/</Keys.HardKey> **v** | Set gel colour **v** from brand **b** to selected fixtures. (1=Library L, 2=Library R, 3=Library G)
  <Keys.HardKey>Gobo</Keys.HardKey> (Turn Wheels) | Set gobo values of selected fixtures as shown above the wheels.
  <Keys.HardKey>Gobo</Keys.HardKey> <Keys.HardKey>Wheel @</Keys.HardKey> <Keys.SoftKey>Gobo 1</Keys.SoftKey> | Set gobo values of selected fixtures as shown on the softkeys. (This uses the <Keys.HardKey>Wheel @</Keys.HardKey> button next to each wheel)
 
