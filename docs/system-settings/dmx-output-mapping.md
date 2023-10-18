@@ -102,7 +102,7 @@ adapter, both of which will be shown.
 **Merge Priority:** A value between 0 and 200 where higher numbers have 
 priority, 100 is default. For this DMX output, sets the priority of the DMX from this 
 Titan console over incoming sACN being merged from other sources.
-You also need to set up [DMX Merge](dmx-output-mapping.md#DMX-Merge).
+You also need to set up DMX Merge using [Network DMX Node Settings](dmx-output-mapping.md#network-dmx-node-settings).
 
 **Break Length:** Adjusts the DMX spacing which can be helpful for slow
 fixtures. If fixtures or dimmers show an occasional glitch 
@@ -202,14 +202,14 @@ nodes which are no longer found on the TitanNet network, a dialog will
 appear listing nodes in use and available nodes, giving you the option
 to reassign the lines.
 
-## DMX Merge
+## Network DMX Node Settings
 
-The DMX merge window allows you to set up merging of the local Titan output
-with sACN universes from other sources in a system where you have multiple 
+The Network DMX Node Settings window allows you to set up how the local Titan output
+will combine with sACN universes from other sources in a system where you have multiple 
 consoles or processing nodes connected. 
-From the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>DMX Merge Settings</Keys.SoftKey>.
+From the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) select <Keys.SoftKey>Network DMX Node Settings</Keys.SoftKey>.
 
-![DMX Merge Window](/docs/images/DMX-Merge-Window.png)
+![Network DMX Node Settings Window](/docs/images/DMX-Merge-Window.png)
 
 To assign a universe to an output port, click on **Patch Titan Lines** or
 **Patch External sACN Merge**, set <Keys.SoftKey>Universe</Keys.SoftKey>

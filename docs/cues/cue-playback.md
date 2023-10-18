@@ -187,6 +187,8 @@ Channels will always release with a fade time, this defaults to 2 seconds but yo
 
 -   You can **Release All** running playbacks by double pressing <Keys.HardKey>Release</Keys.HardKey>. The user setting [Release Priority](../system-settings/user-settings.md#release) sets which playback priority levels will be released. You can protect against unintended Release All by setting the Release Priority to Low - this would only release playbacks with Low priority, if you had any set up.
 
+-   Playback handles will highlight in yellow during the time they are releasing, to show that they are still affecting the output.
+
 
 ## Release Mask
 

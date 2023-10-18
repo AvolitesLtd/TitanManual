@@ -130,16 +130,6 @@ keyboard. On Diamond 9 there is a button <Keys.HardKey>Keyboard</Keys.HardKey> f
 
 > Toolbars are not provided on Titan PC Suite (Titan Go / Titan Simulator) as all these functions can be carried out using standard Windows operations.
 
-## The Heads-Up Display (HUD)
-
-The HUD window shows details of what's stored in all the handles (faders
-and buttons) on the console.
-
-Fixtures are highlighted in dark blue if in the programmer and in light
-blue if selected.
-
-![HUD](/docs/images/HUD.png)
-
 ## Visualiser
 
 ![Visualiser](/docs/images/Capture-Visualiser-Workspace-Window.png)
