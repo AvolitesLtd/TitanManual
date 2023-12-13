@@ -33,6 +33,8 @@ details of how IP addressing works.
 -   If you need an address range other than `2.*.*.*` or `10.*.*.*`
 	you can press <Keys.SoftKey>IP Address = ... </Keys.SoftKey> and enter the address with the numeric keypad.
 
+> If the console has more than one network adapter, make sure they are set on different IP ranges (for example set one to `2.*.*.*` and the other to `10.*.*.*`). If they are both in the same range this will cause problems with Art-Net and sACN.
+
 ## Setting up DMX outputs
 
 Titan can control 64 DMX universes (see [DMX Output Mapping](../system-settings/dmx-output-mapping.md) for details), except when used with T1 / T2 / T3 hardware when it limited to one, two, and sixteen universes respectively. The Titan Go software (with AvoKey) will output one universe over Art-Net or sACN. The Titan Simulator software (with AvoKey) will output all universes over Art-Net or sACN, but periodically random DMX values will be sent down all DMX outputs as a "spoiler".
