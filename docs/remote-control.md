@@ -4,6 +4,8 @@ title: Remote Control
 sidebar_label: Remote Control
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 With the addition of an external Wireless Access Point, the console can
 be remote controlled using **WiFi** from an [Android](https://play.google.com/store/apps/developer?id=Avolites+Ltd) or [iOS](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps) mobile device
 such as a smartphone or tablet. This can be invaluable when rigging,
