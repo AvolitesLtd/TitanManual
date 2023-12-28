@@ -153,6 +153,7 @@ the whole fixture. Frozen attributes are indicated on the softkey.
 
 -   A "Frozen" watermark is shown on the wheel display when an attribute
     is frozen.
+    ![Frozen attribute display](/docs/images/Wheel-Frozen.png)
 
 ## Editing the Personality
 

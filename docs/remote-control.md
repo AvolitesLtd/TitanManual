@@ -4,6 +4,8 @@ title: Remote Control
 sidebar_label: Remote Control
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 With the addition of an external Wireless Access Point, the console can
 be remote controlled using **WiFi** from an [Android](https://play.google.com/store/apps/developer?id=Avolites+Ltd) or [iOS](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps) mobile device
 such as a smartphone or tablet. This can be invaluable when rigging,
@@ -22,4 +24,6 @@ console software version, **there are different apps for each version**.
 You can connect multiple remotes to the console and the console itself
 remains functional while the remote is connected. Each remote has a
 **separate programmer** so an operator can continue to work on the console
-while another user programs or updates palettes on the remote.
+while another user programs or updates palettes on the remote. (To clear all
+changes from a remote, hold <Keys.HardKey>Clear</Keys.HardKey> on the console
+and select <Keys.SoftKey>Clear all programmers</Keys.SoftKey>.)
