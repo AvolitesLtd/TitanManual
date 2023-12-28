@@ -155,3 +155,19 @@ backup session.
 are using or consoles will not be able to see each other on the network.
 Ensure the Windows option **'Turn on network discovery'** is selected in
 the **Network Sharing** options.
+
+## Multi-user programming
+
+Each user (including remotes) has their own programmer which allows independent
+programming of fixtures. If a user makes changes to the fixtures but does not press
+<Keys.HardKey>Clear</Keys.HardKey> afterwards, this will leave their changes active in their 
+programmer which will affect the output on the stage. This can be confusing as
+a single press of <Keys.HardKey>Clear</Keys.HardKey> will not clear the changes.
+ 
+To fix this you can clear all programmers from all users by holding <Keys.HardKey>Clear</Keys.HardKey> on
+the console and selecting <Keys.SoftKey>Clear all programmers</Keys.SoftKey>.
+
+When fixtures are being controlled by another programmer, the attribute displays show a
+cyan dot at the left hand side.
+
+![Blue dot showing multi-user control of attribute](/docs/images/Wheel-Other-Programmer.png)

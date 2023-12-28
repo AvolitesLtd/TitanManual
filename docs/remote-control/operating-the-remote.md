@@ -77,6 +77,12 @@ remote programmer. Hold down the **Clear** button to clear all programmers
 (for example if someone has been doing something on the console at the
 same time, this will clear the console's programmer too).
 
+- When you have finished using the remote, press **Clear** to remove changes from the remote
+programmer, or your changes will continue to show on stage and confuse everyone. 
+You can also clear the remote programmer by holding <Keys.HardKey>Clear</Keys.HardKey> on
+the main console and selecting <Keys.SoftKey>Clear all programmers</Keys.SoftKey>.
+When another programmer is controlling fixtures, the attribute displays show a cyan dot.
+
 From the remote's **Cue** screen you can play back cues from the touch buttons 
 in the Playbacks workspace window. Hold down a playback button to kill or release 
 an active playback.

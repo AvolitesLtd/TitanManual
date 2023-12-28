@@ -22,4 +22,6 @@ console software version, **there are different apps for each version**.
 You can connect multiple remotes to the console and the console itself
 remains functional while the remote is connected. Each remote has a
 **separate programmer** so an operator can continue to work on the console
-while another user programs or updates palettes on the remote.
+while another user programs or updates palettes on the remote. (To clear all
+changes from a remote, hold <Keys.HardKey>Clear</Keys.HardKey> on the console
+and select <Keys.SoftKey>Clear all programmers</Keys.SoftKey>.)
