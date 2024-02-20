@@ -69,13 +69,12 @@ To set times for an attribute group, first select the <Keys.SoftKey>Edit Times</
 go to the cue you want to set as [described above](#time-and-fade-options-for-cue-lists), then press <Keys.SoftKey>Next</Keys.SoftKey>
 to go to the second page of options.
 
-1. Press <Keys.SoftKey>Attribute times</Keys.SoftKey>.
+1. Press <Keys.SoftKey>Attribute Group Times</Keys.SoftKey>.
 2. All fixtures in the cue will be selected. *If you don't want to
 change the times for any fixtures, deselect them now.* You can press the <Keys.HardKey>ALL</Keys.HardKey> button (below Next Time) to select all fixtures in the cue or <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>ALL</Keys.HardKey> to deselect all fixtures.
 3. Press the softkey for the attribute group you want to change.
 4. Press <Keys.SoftKey>Delay</Keys.SoftKey> to set the **delay time**, or press <Keys.SoftKey>Fade</Keys.SoftKey> to set
-the **fade time**. Press <Keys.SoftKey>Use Global</Keys.SoftKey> to remove the attribute group
-timing and go back to the normal delay/fade times for the cue.
+the **fade time**. If a time is set you can return to the Global time setting by deleting the time using the <Keys.HardKey>Back</Keys.HardKey> button or by pressing <Keys.SoftKey>Use Global</Keys.SoftKey>.
 
 >  You can use <Keys.SoftKey>Individual Attributes</Keys.SoftKey> to set times for one attribute
     within the group, for example just Pan from within the Position
