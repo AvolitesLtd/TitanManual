@@ -145,8 +145,8 @@ To set an attribute group fade time:
 on the right hand side on older consoles) for the attribute you want to change
 4. Press <Keys.SoftKey>Delay = </Keys.SoftKey> to set delay time or <Keys.SoftKey>Fade = </Keys.SoftKey> to set fade time
 5. Type the new time using the numeric keypad and press <Keys.HardKey>Enter</Keys.HardKey> to
-save it, or press <Keys.SoftKey>Use Global</Keys.SoftKey> to delete the attribute times and go
-back to the normal times.
+save it, or delete the time using the <Keys.HardKey>Back</Keys.HardKey> button to return to
+the Global time setting.
 6. Press <Keys.HardKey>Enter</Keys.HardKey> to save the changes.
 
 You can take this even further and set individual fade times for each
@@ -171,7 +171,8 @@ saving a cue. You can also set times into the programmer and
 into cues as a quick way of updating times, just like you would with
 attribute values.
 
-Press the <Keys.HardKey>Time</Keys.HardKey> button to access this menu.
+Press the <Keys.HardKey>Time</Keys.HardKey> button to access this menu or
+the <Keys.SoftKey>Set Times</Keys.SoftKey> softkey on the top level menu.
 
 >   On Titan Mobile and Sapphire Touch, the Time button is the key above <Keys.HardKey>Clear</Keys.HardKey> (previously labelled <Keys.HardKey>Set</Keys.HardKey>). On Pearl Expert and Tiger Touch it is the key previously labelled <Keys.HardKey>Next Time</Keys.HardKey>.
 

@@ -75,7 +75,8 @@ below.
 
 Initially all the timing options are set to Global. You can cancel any
 individual timings and set the time back to global timings by pressing
-the softkey for the option then pressing <Keys.SoftKey>Use Global</Keys.SoftKey>.
+the softkey for the option then deleting the time using the <Keys.HardKey>Back</Keys.HardKey> button
+(or backspace if you have a keyboard connected).
 
 The timing options for the cue are:
 
@@ -113,8 +114,8 @@ cue you want to edit.
 attribute you want to change.
 4. Press <Keys.SoftKey>Delay</Keys.SoftKey> to set delay time or <Keys.SoftKey>Set fade</Keys.SoftKey> to set fade time.
 5. Type the new time using the numeric keypad and press <Keys.HardKey>Enter</Keys.HardKey> to
-save it, or press <Keys.SoftKey>Use Global</Keys.SoftKey> to delete the attribute times and go
-back to the normal times.
+save it, or delete the time using the <Keys.HardKey>Back</Keys.HardKey> button to return to
+the Global time setting.
 6. Press <Keys.HardKey>Enter</Keys.HardKey> to save the changes.
 
 ## Rate and BPM Masters
