@@ -18,7 +18,12 @@ zur Auswahl unten im Reiter **Universes** in Capture angezeigt.
 Normalerweise erfolgt dies bereits vollautomatisch, aber befinden sich
 mehrere Titan-Pulte im Netzwerk, so ist eine manuelle Auswahl nötig.
 
-> Damit die Verbindung und das Synchronisieren funktioniert, muss Capture mindestens in der Version Nexum, 2018 oder 2020 vorliegen. Mit älteren Versionen funktioniert das nicht oder nicht richtig.
+Für die Universen, die in Capture angezeigt werden sollen, muss Art-Net oder 
+sACN aktiviert sein, siehe [Einrichten der DMX-Ausgänge](../system-settings/dmx-output-mapping#configuring-dmx-outputs).
+
+> Damit die Verbindung und das Synchronisieren funktioniert, muss Capture 
+  mindestens in der Version Nexum, 2018 oder 2020 vorliegen. Mit älteren 
+  Versionen funktioniert das nicht oder nicht richtig.
 
 Solange die Netzwerkverbindung besteht, überträgt das Pult Daten zur
 Synchronisierung an Capture. Wird ein neues Gerät in Capture gepatcht,
@@ -26,7 +31,8 @@ so wird dies auch im Pult hinzugefügt. Wird dagegen ein neues Gerät auf
 dem Pult gepatcht, so wird dies erst im Pult und dann in Capture
 hinzugefügt. Wählt man ein Gerät aus -- im Pult oder in Capture -- so
 wird diese Auswahl auch im jeweils anderen Teil angezeigt. Will man dies
-nicht, so kann man in Capture **Console Link** deaktivieren.
+nicht, so kann man in Capture **Console Link** deaktivieren. Der in Titan 
+integrierte Capture Visualiser funktioniert davon unabhängig weiter.
 
 ## Den Patch vom Pult nach Capture übertragen
 
@@ -59,10 +65,12 @@ gepatcht werden:
 
 1. Drücken Sie <Keys.HardKey>Patch</Keys.HardKey>, <Keys.SoftKey>Active Fixtures</Keys.SoftKey>
 
-2. Der Capture-Computer wird nun als eine Option auf den Menütasten
+2. Wählen Sie <Keys.SoftKey>CITP Visualisers</Keys.SoftKey>.
+
+3. Der Capture-Computer wird nun als eine Option auf den Menütasten
 angezeigt. Klicken Sie die entsprechende Taste an.
 
-3. Wählen Sie eine freie Geräte-Schaltfläche, um die Geräte ab da zu
+4. Wählen Sie eine freie Geräte-Schaltfläche, um die Geräte ab da zu
 patchen, oder wählen Sie die Option <Keys.SoftKey>Patch Capture @...</Keys.SoftKey>, um
 automatisch auf den nächsten freien Platz zu patchen.
 

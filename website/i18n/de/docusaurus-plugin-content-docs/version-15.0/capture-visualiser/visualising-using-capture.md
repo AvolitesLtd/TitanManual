@@ -15,7 +15,7 @@ eine Simulation dessen, was mit Ihren Fixtures passiert.
 
 ## Geräte anwählen
 
-Sobald auf dem Pult [Geräte angewählt](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) sind, werden diese in Capture
+Sobald auf dem Pult [Geräte angewählt](../controlling-fixtures.md#dimmer-und-geräte-zum-steuern-auswählen) sind, werden diese in Capture
 markiert, so dass man weiß, mit welchen Geräten man gerade arbeitet.
 
 ![Fixtures elected on internal Capture Visualiser Window](/docs/images/Fixtures-elected-on-internal-Capture-Visualiser-Window.png)

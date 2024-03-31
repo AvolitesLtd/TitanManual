@@ -12,10 +12,10 @@ import Video from '@site/src/components/video.tsx';
 Für einen realistischen Eindruck und eine bessere Orientierung lassen
 sich verschiedene feste Elemente hinzufügen.
 
-Öffnen Sie das Fenster <Keys.SoftKey>Capture Visualiser Settings</Keys.SoftKey> (entweder per Doppelklick auf
-[<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster), oder durch einen Klick auf den
-Kontext-Button <Keys.ContextKey>Open Settings</Keys.ContextKey> im Capture Visualiser-Fenster). Klicken Sie
-oben auf den Reiter **Stage**.
+Öffnen Sie das Fenster <Keys.SoftKey>Capture Visualiser Settings</Keys.SoftKey> per Doppelklick auf
+[<Keys.HardKey>Open/View</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen Capture 
+Visualiser Settings, oder durch einen Klick auf den Kontext-Button <Keys.ContextKey>Open Settings</Keys.ContextKey> 
+im Capture Visualiser-Fenste). Klicken Sie nun oben auf den Reiter **Stage**.
 
 ![Capture Visualiser Settings Window](/docs/images/Capture-Visualiser-Settings-Window.png)
 
@@ -43,18 +43,14 @@ Fixtures\] <Keys.SoftKey>Update Personality</Keys.SoftKey> <Keys.SoftKey>Update 
 
 Geräte werden, sobald sie in Capture vorhanden sind, mit den Rädern
 (Encodern) positioniert. Wählen Sie dazu [ein oder mehrere Geräte oder
-ein Gerätegruppe](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) aus und drücken Sie [<Keys.HardKey>Locate</Keys.HardKey>](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate). Mit dem Kontext-Button
-<Keys.ContextKey>Position - Orientation</Keys.ContextKey> wird die Steuerung für Position und
+ein Gerätegruppe](../controlling-fixtures.md#dimmer-und-geräte-zum-steuern-auswählen) aus und drücken Sie [<Keys.HardKey>Locate</Keys.HardKey>](../controlling-fixtures.md#geräte-auf-startposition-setzen-locate). Mit dem Kontext-Button <Keys.ContextKey>Position - Orientation</Keys.ContextKey> wird die Steuerung für Position und 
 Orientierung der jeweils ausgewählten Geräte auf die Wheels gelegt. *Das
 Gleiche passiert, wenn man den Rad-Modus mit der Menütaste G auf „Räder
 = Visualiser" schaltet.*
 
-Wählen Sie mit den Attribut-Tasten **Position**, so können Sie nun die
+Wählen Sie mit den Attribut-Tasten <Keys.HardKey>Position</Keys.HardKey>, so können Sie nun die
 X/Y/Z-Position der gewählten Fixtures einstellen. Sind mehrere Geräte
-gewählt, so lassen sich mit der <Keys.HardKey>Fan</Keys.HardKey>-Taste oder der Option
-<Keys.ContextKey>Scale-Fan</Keys.ContextKey> die Geräte gleichmäßig verteilen/auffächern. Auch die
-anderen Optionen der Fan-Funktion [(Split, Curve, Group)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-modus) funktionieren
-wie gewohnt.
+gewählt, so lassen sich mit der <Keys.HardKey>Fan</Keys.HardKey>-Taste oder der Option <Keys.ContextKey>Scale-Fan</Keys.ContextKey> die Geräte gleichmäßig verteilen/auffächern. Auch die Optionen Split, Curve, Group der [Fan-Funktion](../controlling-fixtures/changing-fixture-attributes.md#fan-modus) funktionieren wie gewohnt.
 
 Klicken Sie auf das Display oberhalb der Encoder, so können Sie
 ebenfalls die betreffenden Werte schrittweise verändern. Für die
@@ -65,13 +61,13 @@ wie folgt:
 
 Achse | Beschreibung
 ---|---
-&nbsp;**X** | bewegt nach rechts/links
-&nbsp;**Y** | bewegt nach oben/unten
-&nbsp;**Z** | bewegt nach vorn/hinten
+**X** | bewegt nach rechts/links
+**Y** | bewegt nach oben/unten
+**Z** | bewegt nach vorn/hinten
 
-Klickt man nochmals auf **Position**, so schalten die Encoder auf
+Klickt man nochmals auf <Keys.HardKey>Position</Keys.HardKey>, so schalten die Encoder auf
 Orientation. Damit können die Geräte um die X/Y/Z-Achse
-gedreht/geschwenkt werden. Auch hierbei kann der [Fan-Modus](../controlling-fixtures/using-the-select-buttons-and-wheels.md#fan-modus) verwendet
+gedreht/geschwenkt werden. Auch hierbei kann der [Fan-Modus](../controlling-fixtures/changing-fixture-attributes.md#fan-modus) verwendet
 werden.
 
 Die XYZ-Rotation kann man sich am besten vorstellen, wenn man von einer
@@ -85,12 +81,13 @@ rechts). Verändern Sie in diesem Falle die dritte Achse um 90°, damit
 wieder alle Freiheitsgrade zur Verfügung stehen und alle Orientierungen
 erreicht werden können.
 
-![gimbal](/docs/images/Gimbal.jpeg)\
+![gimbal](/docs/images/Gimbal.jpeg)
+
 *Illustration by MathsPoetry*
 
-Betätigen Sie **Position** ein drittes Mal, so können Sie die Rotation
-verändern. Sind nur einzelne Geräte ausgewählt, hat das die gleiche
-Wirkung wie Orientation. Sind dagegen mehrere Geräte angewählt, so
+Betätigen Sie <Keys.HardKey>Position</Keys.HardKey> ein drittes Mal, 
+so können Sie die Rotation verändern. Sind nur einzelne Geräte ausgewählt, 
+hat das die gleiche Wirkung wie Orientation. Sind dagegen mehrere Geräte angewählt, so
 rotiert die Gruppe als Ganzes um ihren Mittelpunkt.
 
 >Es empfiehlt sich, zunächst die Geräte im Tilt etwas aus der Mitte zu fahren, 
@@ -152,19 +149,13 @@ die Rotation numerisch eingeben.
 Der Reiter Appearance (Darstellung) im Fenster **Capture Visualiser Settings** bietet folgende Einstellmöglichkeiten:
 
 - **Ambient lighting** (Umgebungslicht)
-
 - **Smoke density** (Nebel/Haze; *bei Capture heißt das "Atmosphere"*)
-
 - **Smoke variation** (*"Atmosphere contrast"* - Mix zwischen statischem 
 Dunst und sich bewegendem Nebel - 0%=Haze, 100%=Nebel)
-
 - **Smoke speed** (*"Atmosphere speed"* - Nebel/Haze Geschwindigkeit)
-
 - **Exposure adjustment** (Belichtung, die Empfindlichkeit der Kamera)
-
 - **Bloom amount** (eine Rendereinstellung, die die Darstellung heller
     Lichtquellen beeinflusst)
-
 - **Rendering settings detail** (Render Details Stufe): Qualität der
     Darstellung. Eine höhere Stufe erzeugt eine bessere Darstellung,
     niedrige Stufen nehmen weniger Rechenleistung in Anspruch.
