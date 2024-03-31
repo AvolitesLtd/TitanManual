@@ -9,7 +9,7 @@ import Video from '@site/src/components/video.tsx';
 
 Um weitere Optionen eines Chasers zu ändern, drücken Sie im Hauptmenü
 <Keys.SoftKey>Options</Keys.SoftKey>, gefolgt von der entsprechenden **Swop**-Taste. Zum
-Einstellen der Optionen in einem Fenster drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, dann die
+Einstellen der Optionen in einem Fenster drücken Sie <Keys.HardKey>Open/View</Keys.HardKey>, dann die
 entsprechende **Swop**-Taste, und klicken links in der Playback-Ansicht
 auf <Keys.SoftKey>Options</Keys.SoftKey>.
 
@@ -39,22 +39,28 @@ drücken.
 ### Linking
 bestimmt das Verhalten aufeinanderfolgender Schritte:
 
-<Keys.SoftKey>Link according to individual steps</Keys.SoftKey> - (Schrittfolge nach Vorgabe):
-jeder Schritt verhält sich gemäß der spezifischen Vorgaben (mit
-[<Keys.HardKey>Unfold</Keys.HardKey>](editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion) oder im [Playback View-Fenster](editing-a-chase.md#einen-chaser-zum-editieren-öffnen) einzustellen).\
-<Keys.SoftKey>Always Link Steps</Keys.SoftKey> - (Schritte stets folgen lassen): der Chaser
-läuft automatisch mit den vorgegebenen Zeiten ab.\
-<Keys.SoftKey>Never Link Steps</Keys.SoftKey> - (Schritte nie folgen lassen): der Chaser stoppt
-nach jeder Verzögerungs-/Überblendzeit und wartet auf das Betätigen
-der <Keys.HardKey>Go</Keys.HardKey>-Taste.
+&nbsp;<Keys.SoftKey>Link according to individual steps</Keys.SoftKey> - (Schrittfolge nach Vorgabe):
+jeder Schritt verhält sich gemäß der spezifischen Vorgaben, die im [Playback View Fenster ](editing-a-chase.md#opening-a-chase-for-editing) 
+oder per [<Keys.HardKey>Unfold</Keys.HardKey>-Funktion](editing-a-chase.md#editing-a-chase-using-unfold) ) eingestellt wurden.
 
-> Ist ein Chaser 'unlinked', d.h. wartet immer auf das manuelle ‚Go', so startet auch der erste Schritt nicht automatisch, wenn der Fader hochgezogen wird. Um dies zu umgehen, linken Sie den ersten Schritt zum vorherigen, sofern der Chaser nicht auf ‚Loop' (Wiederholung) steht. Steht er hingegen auf ‚Loop', so fügen Sie am Ende einen ‚Blindschritt' ein mit 0 Sek. Fade- und 0 Sek. Delayzeit, und linken den ersten Schritt mit diesem.
+
+&nbsp;<Keys.SoftKey>Always Link Steps</Keys.SoftKey> - (Schritte stets folgen lassen): der Chaser
+läuft automatisch mit den vorgegebenen Zeiten ab.
+
+
+&nbsp;<Keys.SoftKey>Never Link Steps</Keys.SoftKey> - (Schritte nie folgen lassen): der Chaser stoppt
+nach jeder Verzögerungs-/Überblendzeit und wartet auf das Betätigen der <Keys.HardKey>Go</Keys.HardKey>-Taste.
+
+> Ist ein Chaser 'unlinked', d.h. wartet immer auf das manuelle ‚Go', so startet auch der erste Schritt nicht 
+  automatisch, wenn der Fader hochgezogen wird. Um dies zu umgehen, linken Sie den ersten Schritt zum vorherigen, 
+  sofern der Chaser nicht auf ‚Loop' (Wiederholung) steht. Steht er hingegen auf ‚Loop', so fügen Sie am Ende 
+  einen ‚Blindschritt' ein mit 0 Sek. Fade- und 0 Sek. Delayzeit, und linken den ersten Schritt mit diesem.
 
 ### Loop Action
 bestimmt, was passiert, wenn der Chaser durchgelaufen ist:
 
-<Keys.SoftKey>Stop on Final Cue</Keys.SoftKey> - Der Chaser stoppt, läuft also nur einmal.\
-<Keys.SoftKey>Loop</Keys.SoftKey> - Der Chaser läuft immer wieder von Anfang an durch -- eine
+&nbsp;<Keys.SoftKey>Stop on Final Cue</Keys.SoftKey> - Der Chaser stoppt, läuft also nur einmal.<br/>
+&nbsp;<Keys.SoftKey>Loop</Keys.SoftKey> - Der Chaser läuft immer wieder von Anfang an durch -- eine
 Schleife.
 
 ### Play Order

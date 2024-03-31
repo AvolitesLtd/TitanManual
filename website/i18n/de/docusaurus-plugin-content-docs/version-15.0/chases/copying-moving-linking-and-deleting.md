@@ -25,23 +25,18 @@ von Cues, und ist in Abschnitt
 
 ## Löschen eines Chasers
 
-Zum Löschen eines kompletten Chasers drücken Sie <Keys.HardKey>Delete</Keys.HardKey>, dann die
-&nbsp;**Auswahltaste** des Chasers. Drücken Sie diese zur Bestätigung nochmals.
+Zum Löschen eines kompletten Chasers drücken Sie <Keys.HardKey>Delete</Keys.HardKey>, dann die **Auswahltaste** des Chasers. Drücken Sie diese zur Bestätigung nochmals.
 
 ## Löschen eines Schrittes aus einem Chaser
 
 Um einen einzelnen Schritt zu löschen:
 
 1. Drücken Sie die <Keys.HardKey>Delete</Keys.HardKey>-Taste.
-
 2. Drücken Sie die **Auswahltaste** des Chasers.
-
 3. Auf dem Display werden nun die Schritte des Chasers angezeigt.
 Wählen Sie mit dem **linken Encoder** den zu löschenden Schritt, oder geben Sie
 dessen Nummer mit den Zifferntasten ein.
-
 4. Drücken Sie <Keys.SoftKey>Delete Cue x</Keys.SoftKey>, um den Schritt zu löschen.
-
 5. Bestätigen Sie den Löschvorgang mit <Keys.SoftKey>Confirm</Keys.SoftKey>.
 
 > Alternativ lassen sich auch einzelne Schritte mit der

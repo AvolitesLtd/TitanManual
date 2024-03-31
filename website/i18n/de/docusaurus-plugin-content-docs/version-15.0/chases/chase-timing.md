@@ -17,12 +17,9 @@ der [Unfold](editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion)-F
 vergeben; das ist [im nächsten Abschnitt](#individuelle-zeiten-pro-schritt)
  genauer beschrieben.
 
-1. Drücken Sie im Hauptmenü <Keys.SoftKey>Edit Times</Keys.SoftKey>, und anschließend die
-&nbsp;**Swop**-Taste des gewünschten Chasers.
-
+1. Drücken Sie im Hauptmenü <Keys.SoftKey>Edit Times</Keys.SoftKey>, und anschließend die **Swop**-Taste des gewünschten Chasers.
 2. Stellen Sie wie unten beschrieben **Geschwindigkeit**, **Überblendung**,
 &nbsp;**Geräteversatz** und **Attributversatz** ein.
-
 3. Drücken Sie <Keys.HardKey>Exit</Keys.HardKey>, um den Vorgang abzuschließen.
 
 ---
@@ -35,9 +32,9 @@ vergeben; das ist [im nächsten Abschnitt](#individuelle-zeiten-pro-schritt)
 
 -   Zum Einstellen der **Überblendung** drücken Sie <Keys.SoftKey>Xfade</Keys.SoftKey>, geben den
     gewünschten Wert mit den Zifferntasten ein und schließen die Eingabe
-    mit <Keys.HardKey>Enter</Keys.HardKey> ab *(0 = keine Überblendung, hartes Umschalten; 100 =
-    maximale Überblendung, ständiges Umblenden von einem Schritt zum
-    nächsten)*.
+    mit <Keys.HardKey>Enter</Keys.HardKey> ab 
+	
+	*(0 = keine Überblendung, hartes Umschalten; 100 = maximale Überblendung, ständiges Umblenden von einem Schritt zum nächsten)*.
 
 -   Es gibt ein vorbereitetes Macro ‚Tap Tempo'. Kopieren Sie dieses auf
     eine freie Taste, so wirkt diese als Tap-Taste, sobald ein Chaser
@@ -62,17 +59,15 @@ versehen. Dazu können Sie entweder das ‚Playback View'-Fenster oder die
 ### Unter Verwendung des 'Playback View'-Fensters:
 
 1. Berühren Sie das Display oberhalb des betreffenden Reglers, oder
-drücken Sie <Keys.HardKey>View / Open</Keys.HardKey> und die **Swop**-Taste des
+drücken Sie <Keys.HardKey>Open/View</Keys.HardKey> und die **Swop**-Taste des
 Speicherplatzes. Darauf öffnet sich das ‚Playback View'-Fenster.
 
 ![Playback View for chase](/docs/images/Playback-View-for-chase.png)
 
 2. Im Fenster können Sie durch Anklicken die zu ändernden Zeiten
 auswählen.
-
 3. Zum Ändern der Zeiten und Einstellungen nutzen Sie die
 entsprechenden Funktionstasten.
-
 4. Wiederholen Sie ab Schritt 2, um weitere Änderungen vorzunehmen.
 
 > Zum gleichzeitigen Ändern mehrerer Schritte lassen sich durch
@@ -83,13 +78,10 @@ entsprechenden Funktionstasten.
 
 1. Drücken Sie die <Keys.HardKey>Unfold</Keys.HardKey>-Taste und dann die **Swop**-Taste des zu
 editierenden Chasers.
-
 2. Drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey> und dann die **Swop**-Taste des
 gewünschten Schrittes.
-
 3. Stellen Sie die Zeiten auf die gewünschten Werte ein. Die möglichen
 Optionen sind unten beschrieben.
-
 4. Drücken Sie <Keys.HardKey>Unfold</Keys.HardKey>, um den Modus zu verlassen.
 
 ### Zeit-Optionen
@@ -128,23 +120,18 @@ entweder das ‚Cue View'-Fenster oder die ‚Unfold'-Funktion nutzen.
 
 Zum Vergeben einer Überblendzeit für eine Attributgruppe:
 
-1. Drücken Sie <Keys.HardKey>View / Open</Keys.HardKey> oder die <Keys.HardKey>Unfold</Keys.HardKey>-Taste, und
+1. Drücken Sie <Keys.HardKey>Open/View</Keys.HardKey> oder die <Keys.HardKey>Unfold</Keys.HardKey>-Taste, und
 danach die **Swop**-Taste des gewünschten Chasers.
-
 2. Drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey>, und wählen danach den zu ändernden
 Schritt im 'Playback View'-Fenster, oder - bei Verwendung der
 'Unfold'-Funktion - mit der entsprechenden **Swop**-Taste aus.
-
 3. Drücken Sie die **Attribut-Auswahltaste** (rechts) des Attributs, das
 Sie bearbeiten möchten.
-
-4. Drücken Sie <Keys.SoftKey>Delay</Keys.SoftKey>, um die Verzögerung einzustellen, oder \[Set
-fade\] zum Einstellen der Überblendzeit.
-
+4. Drücken Sie <Keys.SoftKey>Delay</Keys.SoftKey>, um die Verzögerung einzustellen, oder <Keys.SoftKey>Set
+fade</Keys.SoftKey> zum Einstellen der Überblendzeit.
 5. Geben Sie die gewünschte Zeit mit den Zifferntasten, gefolgt von
 <Keys.HardKey>Enter</Keys.HardKey>, ein, oder drücken sie <Keys.SoftKey>Use Global</Keys.SoftKey>, um die individuellen
 Einstellungen zu verwerfen und die globalen Zeiten zu verwenden.
-
 6. Drücken Sie <Keys.HardKey>Enter</Keys.HardKey> zum Übernehmen der Werte.
 
 ## Rate- und BPM-Master
@@ -159,6 +146,6 @@ Mittels Speed-Faktoren kann das Geschwindigkeits-Verhältnis zwischen
 mehreren Chasern und Effekten festgelegt werden (etwa x4 oder /2).
 
 Wählen Sie <Keys.SoftKey>Speed Multiplier</Keys.SoftKey> im ‚Edit Times'-Menü des Chasers oder in
-[<Keys.SoftKey>Playback Options</Keys.SoftKey> Tab <Keys.SoftKey>Playback</Keys.SoftKey>](../cues/playback-options.md#speed-multiplier), und 
+[<Keys.SoftKey>Options</Keys.SoftKey> Tab <Keys.SoftKey>Playback</Keys.SoftKey>](../cues/playback-options.md#speed-multiplier), und 
 stellen Sie den gewünschten Wert mit den Menütasten ein. 
 <Keys.SoftKey>Multiply or Divide</Keys.SoftKey> bestimmt, ob es ein Faktor oder ein Teiler ist.

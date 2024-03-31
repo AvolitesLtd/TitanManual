@@ -21,26 +21,20 @@ oder Sie benutzen die [<Keys.HardKey>Include</Keys.HardKey>](../cues/editing-cue
 
 1. Drücken Sie die Taste <Keys.HardKey>Record</Keys.HardKey>, dann <Keys.SoftKey>Chase</Keys.SoftKey> (oder 2x <Keys.HardKey>Record</Keys.HardKey>). 
 *(Ältere Pulte haben dafür die Taste <Keys.HardKey>Record Chase</Keys.HardKey>).*
-
 2. Drücken Sie die **Swop**-Taste des Playbacks, auf das Sie den Chaser
 speichern möchten *(ebenso lassen sich Chaser auf die Schaltflächen im
 'Playbacks'-Fenster speichern)*.
-
 3. Stellen Sie das gewünschte Bild für den ersten Schritt ein, entweder
 manuell, oder unter Verwendung bestehender Cues mittels der 
 [<Keys.HardKey>Include</Keys.HardKey>](../cues/editing-cues.md#cues-wiederverwenden---die-include-funktion)-Funktion
-
 4. Die Nummer des aktuellen Schrittes lässt sich mit <Keys.SoftKey>Step Number</Keys.SoftKey>
 ändern.
-
 5. Betätigen Sie die **Swop**-Taste des Playbacks, um den Inhalt des
 Programmierspeichers als Schritt eines Chasers zu speichern. Alternativ
 können Sie <Keys.SoftKey>Append Step</Keys.SoftKey> (Schritt anfügen) aus dem Menü verwenden.
-
 6. Drücken Sie <Keys.HardKey>Clear</Keys.HardKey> *(außer wenn Sie den Inhalt des
 Programmierspeichers teilweise weiterverwenden wollen)*, und wiederholen
 den Vorgang ab Schritt 3 zum Erstellen des nächsten Chase-Schrittes.
-
 7. Drücken Sie <Keys.HardKey>Exit</Keys.HardKey> zum Beenden, wenn Sie alle gewünschten Schritte
 gespeichert haben.
 
@@ -57,7 +51,7 @@ gespeichert haben.
     - <Keys.SoftKey>Record Stage</Keys.SoftKey> (Bühne speichern) - alle Geräte mit
     Helligkeit > 0 werden gespeichert
 
-    - &nbsp;<Keys.SoftKey>Quick Build</Keys.SoftKey> - [siehe nächster Abschnitt](#einen-chaser-mit-quick-build-erstellen)
+    - <Keys.SoftKey>Quick Build</Keys.SoftKey> - [siehe nächster Abschnitt](#einen-chaser-mit-quick-build-erstellen)
 
 -   Die aktuelle Schrittnummer sowie die Gesamtzahl der Schritte wird in
     der oberen Zeile des Displays angezeigt.
@@ -75,8 +69,7 @@ gespeichert haben.
 	wurden, oder wenn der Shape per [Include](../cues/editing-cues.md#cues-wiederverwenden---die-include-funktion) 
 	aus dem vorherigen Schritt übernommen und nicht modifiziert wurde.)*
 
--   Dem Chaser kann eine Bezeichnung zugeordnet werden: drücken Sie dazu
-    <Keys.SoftKey>Set Legend</Keys.SoftKey>, und dann die **Swop**-Taste des Chasers, um dann,
+-   Dem Chaser kann eine Bezeichnung zugeordnet werden: drücken Sie dazu <Keys.SoftKey>Set Legend</Keys.SoftKey>, und dann die **Swop**-Taste des Chasers, um dann,
     wie auch bei Cues, die Bezeichnung einzugeben.
 
 -   Chaser können aus einer unbegrenzten Anzahl von Schritten bestehen.

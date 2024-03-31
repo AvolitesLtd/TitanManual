@@ -35,16 +35,16 @@ vorübergehend anhalten. Drücken Sie <Keys.HardKey>Go</Keys.HardKey>, um den Ch
 Mit einer [Vielzahl von Optionen](chase-options.md) lässt sich das Verhalten 
 von Chasern beeinflussen; diese werden im Rest dieses Kapitels erklärt.
 
-## Verbinden eines Chasers mit der Steuerung
+## Verbinden eines Playbacks mit der Steuerung
 
-Wird ein Chaser aufgerufen, so ist dessen Steuerung automatisch den
+Wird ein Chaser oder eine Cueliste aufgerufen, so ist dessen Steuerung automatisch den
 Rädern (Geschwindigkeit, Überblendung) und <Keys.HardKey>Stop</Keys.HardKey>/<Keys.HardKey>Go</Keys.HardKey>-Tasten
-zugeordnet: dies nennt sich **Connect** (Verbinden) des Chasers. Ist mehr
-als ein Chaser aktiv, so lässt sich mit der <Keys.HardKey>Connect / Cue</Keys.HardKey>-Taste wählen,
-welcher davon mit den Rädern/Tasten beeinflusst werden soll.
+zugeordnet: dies nennt sich **Connect** (Verbinden) des Playbacks. Ist mehr
+als ein Playback aktiv, so lässt sich mit der <Keys.HardKey>Connect / Cue</Keys.HardKey>-Taste wählen,
+welches davon mit den Rädern/Tasten beeinflusst werden soll.
 
 -   Zum Verbinden eines anderen Chasers drücken Sie die Taste
-    <Keys.HardKey>Connect / Cue</Keys.HardKey>, und dann die **Auswahltaste** des gewünschten Chasers.
+    <Keys.HardKey>Connect / Cue</Keys.HardKey>, und dann die Auswahltaste des gewünschten Chasers.
 
 -   Zum Lösen der Zuordnung drücken Sie die <Keys.HardKey>Connect / Cue</Keys.HardKey>-Taste zweimal.
 
@@ -56,18 +56,17 @@ welcher davon mit den Rädern/Tasten beeinflusst werden soll.
 
 -   Es gibt außerdem die Benutzereinstellung "Auto View On Connect" in [User
     Settings > Wheels](../system-settings/user-settings.md#auto-view-on-connect). Ist
-    dies aktiviert, so wird beim Connecten mit einem Chaser direkt die
+    dies aktiviert, so wird beim Connecten mit einem Playback direkt die
     [Detailansicht (Playback View)](editing-a-chase.md#einen-chaser-zum-editieren-öffnen) 
-	für den Chaser geöffnet. *Dies ist besonders sinnvoll, wenn man 
+	für das Playback geöffnet. *Dies ist besonders sinnvoll, wenn man 
 	zwischen mehreren Chasern hin- und herwechselt*.
 
->   Normalerweise werden Änderungen von Geschwindigkeit und Überblendung
-    gespeichert. Dies lässt sich ändern, so dass solche Änderungen nur
-    vorübergehend wirksam sind und beim Neu Laden einer Show die
+>   Normalerweise werden Änderungen von Geschwindigkeit und Überblendung durch Betätigung 
+    der Wheels sofort gespeichert. Dies lässt sich ändern, so dass solche Änderungen nur
+    vorübergehend wirksam sind und beim erneuten Laden einer Show die
     vorherigen Einstellungen wieder aktiviert werden. Dazu rufen Sie die
     [User Settings](../system-settings/user-settings.md) auf (<Keys.HardKey>AVO</Keys.HardKey>-Taste + <Keys.SoftKey>User Settings</Keys.SoftKey>) und stellen auf dem Reiter Times **[Connected View Sets](../system-settings/user-settings.md#connected-view-sets)** auf **Temporary Speed**. Dessen ungeachtet lässt sich eine geänderte Geschwindigkeit 
-	explizit speichern: drücken sie dazu im Menü <Keys.SoftKey>Set Times</Keys.SoftKey> die Taste \[Save
-    Temporary Speed\].
+	explizit speichern: drücken sie dazu im Menü <Keys.SoftKey>Set Times</Keys.SoftKey> die Taste <Keys.SoftKey>Save Temporary Speed</Keys.SoftKey>.
 
 
 ## Geschwindigkeit und Überblendung einstellen
@@ -78,7 +77,7 @@ angezeigt. Ebenso lässt sich die Geschwindigkeit über die Zifferntasten
 eingeben (s.u.). Die zuletzt gewählte Geschwindigkeit wird automatisch
 gespeichert.
 
-&nbsp;**Crossfade** ist die Überblendung zwischen den einzelnen Schritten. Bei
+**Crossfade** ist die Überblendung zwischen den einzelnen Schritten. Bei
 Crossfade = 0 werden die Geräte zwischen den einzelnen Schritten hart
 umgeschaltet, bei Crossfade = 100 erfolgt ein allmähliches Überblenden
 über die Gesamtdauer des Schrittes, und bei Crossfade = 50 bleiben die
@@ -114,8 +113,8 @@ oder mittels der [<Keys.HardKey>Unfold</Keys.HardKey>](editing-a-chase.md#änder
 Die Anzeige der Geschwindigkeit lässt sich zwischen Sekunden und Beats
 Per Minute (BPM) umschalten. Dazu drücken Sie <Keys.HardKey>AVO</Keys.HardKey> + \[User
 Settings\], und wählen dann mit der Option <Keys.SoftKey>Tempo Units</Keys.SoftKey> zwischen
-<Keys.SoftKey>Tempo Units Seconds</Keys.SoftKey>(Sekunden) und \[Tempo Units Beats Per Minute
-(BPM)\].
+<Keys.SoftKey>Tempo Units Seconds</Keys.SoftKey>(Sekunden) und <Keys.SoftKey>Tempo Units Beats Per Minute
+(BPM)</Keys.SoftKey>.
 
 Ferner lässt sich der Chaser einem [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master) zuordnen; 
 dies erlaubt es, direkt während der Show die Geschwindigkeit zu steuern. 
@@ -126,19 +125,17 @@ Siehe auch [Speed and Size Masters](../running-the-show/playback-controls.md#spe
 Ein verbundener Chaser lässt sich mit der <Keys.HardKey>Stop</Keys.HardKey>-Taste (neben den
 Rädern) anhalten, und mit der <Keys.HardKey>Go</Keys.HardKey>-Taste fortsetzen.
 
-Ist ein Chaser angehalten, so lässt sich mit den Pfeiltasten (<Keys.HardKey>←</Keys.HardKey> und
-<Keys.HardKey>→</Keys.HardKey> bzw. <Keys.HardKey>Prev. Step</Keys.HardKey>/<Keys.HardKey>Next Step</Keys.HardKey>) bei der <Keys.HardKey>Connect / Cue</Keys.HardKey>-Taste der
+Ist ein Chaser angehalten, so lässt sich mit den Pfeiltasten (<Keys.HardKey>←</Keys.HardKey> und <Keys.HardKey>→</Keys.HardKey> bzw. <Keys.HardKey>Prev. Step</Keys.HardKey>/<Keys.HardKey>Next Step</Keys.HardKey>) bei der <Keys.HardKey>Connect / Cue</Keys.HardKey>-Taste der
 nächste/vorherige Schritt wählen. Dabei erfolgt das Überblenden jeweils
-in der eingestellten Zeit, es sei denn die [Benutzereinstellung \[Chase
-Snap\]](../system-settings/user-settings.md#chase-snap) wird aktiviert oder man verwendet die Taste <Keys.HardKey>Snap</Keys.HardKey> (sofern
+in der eingestellten Zeit, es sei denn die [Benutzereinstellung <Keys.SoftKey>Chase
+Snap</Keys.SoftKey>](../system-settings/user-settings.md#chase-snap) wird aktiviert oder man verwendet die Taste <Keys.HardKey>Snap</Keys.HardKey> (sofern
 vorhanden).
 
 Ebenso lassen sich die blaue und die graue Taste des Handles mit den
 Funktionen 'Stop' und 'Go' belegen; dazu dient die Funktion [Key
 Profiles (Tastenbelegungen)](../system-settings/key-profiles.md).
 
-1. Halten Sie <Keys.HardKey>AVO</Keys.HardKey> gedrückt und drücken Sie \[Edit Current Key
-Profile\].
+1. Halten Sie <Keys.HardKey>AVO</Keys.HardKey> gedrückt und drücken Sie <Keys.SoftKey>Edit Current Key Profile</Keys.SoftKey>.
 
 2. Verwenden Sie momentan eines der nicht editierbaren Vorgabeprofile,
 so werden Sie zum Anlegen eines neuen aufgefordert.

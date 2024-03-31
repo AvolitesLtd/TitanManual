@@ -10,14 +10,14 @@ import Video from '@site/src/components/video.tsx';
 ## Einen Chaser zum Editieren öffnen
 
 Neue Schritte lassen sich wie gewohnt mit <Keys.HardKey>Record</Keys.HardKey> und der
-&nbsp;**Swop**-Taste des Playbacks am Ende des Chasers anfügen.
+**Swop**-Taste des Playbacks am Ende des Chasers anfügen.
 
 Zur Anzeige einer Übersicht der vorhandenen Schritte dient die 'Playback
 View'-Ansicht (berühren Sie das Display oberhalb des Reglers, oder
-drücken Sie <Keys.HardKey>View/Open</Keys.HardKey> und die entsprechende
+drücken Sie <Keys.HardKey>Open/View</Keys.HardKey> und die entsprechende
 &nbsp;**Swop**-Taste). Um eine bestimmte Zeitvorgabe zu ändern, klicken Sie
-den entsprechenden Wert (oder einen ganzen Bereich) auf dem Touchscreen
-an und benutzen die Funktionstasten für die gewünschte Änderung
+auf den entsprechenden Wert (oder auf einen ganzen Bereich) auf dem Touchscreen.
+und benutzen die Funktionstasten für die gewünschte Änderung.
 
 ![Playback View of a chase](/docs/images/Playback-View-for-chase.png)
 
@@ -30,31 +30,25 @@ Schritt einzeln aufrufen und editieren lässt, als wäre er ein separater
 Cue. Ebenso lassen sich damit einzelne Zeitvorgaben für jeden Schritt
 machen.
 
-1. Drücken Sie die <Keys.HardKey>Unfold</Keys.HardKey>-Taste, und dann die **Swop**-Taste des zu
-bearbeitenden Chasers.
-
-2. Die ersten zehn Chaserschritte werden daraufhin auf die Regler
-abgebildet.
-
+1. Drücken Sie die <Keys.HardKey>Unfold</Keys.HardKey>-Taste, und dann die **Swop**-Taste 
+des zu bearbeitenden Chasers.
+2. Die ersten zehn oder 15 Chaserschritte (ja nachdem wieviel Playbackfader das Pult hat)
+werden daraufhin auf die Regler abgebildet.
 3. Aktivieren Sie einen Regler, um den jeweiligen Schritt zu sehen
 *(dabei werden die Überblendzeiten wie programmiert abgerufen)*.
-
 4. Die verschiedenen Optionen des 'Unfold'-Menüs werden weiter unten
 beschrieben.
-
 5. Drücken Sie nochmals <Keys.HardKey>Unfold</Keys.HardKey>, um den Modus wieder zu beenden.
 
 ---
 
 -   Um einen Schritt zu **ändern**, drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, um den
     Programmierspeicher zu löschen, aktivieren den Schritt mit dem
-    entsprechenden Regler, machen die gewünschten Änderungen, drücken
-    <Keys.SoftKey>Record Step</Keys.SoftKey>, und anschließend die **Swop**-Taste des
+    entsprechenden Regler, machen die gewünschten Änderungen, drücken <Keys.SoftKey>Record Step</Keys.SoftKey>, und anschließend die **Swop**-Taste des
     entsprechenden Schrittes.
 
 -   Zum **Einfügen** eines Schrittes zwischen zwei vorhandene Schritte
-    stellen Sie zunächst das gewünschte Bild ein, drücken dann \[Insert
-    Step\] und geben mit den Ziffern die gewünschte Schrittnummer ein
+    stellen Sie zunächst das gewünschte Bild ein, drücken dann <Keys.SoftKey>Insert Step</Keys.SoftKey> und geben mit den Ziffern die gewünschte Schrittnummer ein
     (etwa 1.5, wenn der Schritt zwischen den Schritten 1 und 2 eingefügt
     werden soll). Sollte ein Schritt mit dieser Nummer bereits vorhanden
     sein, so wird dieser mit den neuen Einstellungen gemischt;
@@ -65,8 +59,7 @@ beschrieben.
     die **Swop**-Taste des nächsten freien Schrittes.
 
 -   Um die aktuellen Werte im Programmierspeicher in den aktuellen
-    Schritt zu integrieren (**mergen**), klicken Sie zweimal auf \[Record
-    Step\].
+    Schritt zu integrieren (**mergen**), klicken Sie zweimal auf <Keys.SoftKey>Record Step</Keys.SoftKey>.
 
 -   Zum **Ändern** einzelner Zeiteinstellungen drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey>,
     dann die entsprechende **Swop**-Taste (oder tippen die Schrittnummer
