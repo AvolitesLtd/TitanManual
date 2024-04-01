@@ -31,31 +31,27 @@ wählen.
 
 <Video videoId="E8QxOKT5TCA" title="Recording Groups" />
 
-Wird das Gruppen-Fenster nicht angezeigt so lässt es sich mit \<View /
-Open\>, <Keys.HardKey>Groups</Keys.HardKey> aufrufen.
+Wird das Gruppen-Fenster nicht angezeigt so lässt es sich mit <Keys.HardKey>Open/View</Keys.HardKey>, <Keys.HardKey>Group</Keys.HardKey> (oberhalb der Zifferntasten) aufrufen.
 
 1. Wählen Sie die Geräte aus, die Sie zu einer Gruppe zusammen­fassen
 wollen (auch die Reihenfolge der Auswahl wird in der Gruppe
 gespeichert).
-
 2. Drücken Sie die graue Taste <Keys.HardKey>Group</Keys.HardKey> (rechts oberhalb des
 Ziffernblocks), dann <Keys.SoftKey>Record Group</Keys.SoftKey>. Ebenso können Sie <Keys.HardKey>Record</Keys.HardKey>,
 <Keys.HardKey>Group</Keys.HardKey> drücken.
-
 3. Benutzen Sie die Menütaste A, um die Gruppe mit einer Nummer zu
-versehen, oder B <Keys.SoftKey>Provide a legend</Keys.SoftKey>, um eine Bezeichnung zu vergeben.
-
+versehen, oder B <Keys.SoftKey>Provide a legend</Keys.SoftKey>, um 
+eine Bezeichnung zu vergeben.
 4. Betätigen Sie eine freie Gruppen-Schaltfläche oder eine blaue
 Playback-Taste oder eine Macro/Executor-Taste, um die Gruppe zu
-speichern, oder drücken Sie C <Keys.SoftKey>Store</Keys.SoftKey>, um die Gruppe als nummerierte
+speichern, oder drücken Sie <Keys.SoftKey>Store</Keys.SoftKey>, um die Gruppe als nummerierte
 Gruppe zu speichern.
-
-5. Drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, und wiederholen Sie die Schritte für weitere
-Gruppen.
+5. Drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, und wiederholen Sie 
+die Schritte für weitere Gruppen.
 
 -   Ebenso kommt man mit <Keys.HardKey>AVO</Keys.HardKey>+<Keys.HardKey>Group</Keys.HardKey> direkt in das 'Record
     Group'-Menü (um Gruppen zu speichern). Oder Sie klicken zweimal auf
-    eine freie Gruppen-Schaltfläche, um die Schnellspeicher­funktion zu
+    eine freie Gruppen-Schaltfläche, um die Schnellspeicher­Funktion zu
     nutzen: beim ersten Klick wird die Schaltfläche rot mit einem +,
     beim zweiten Klick wird die Gruppe gespeichert.
 
@@ -68,9 +64,9 @@ Gruppen.
     Gruppe wird ebenfalls gespeichert. Dies wirkt sich später aus bei
     den Funktionen 'Last Fixture' -- 'Next Fixture' (siehe [nächster
     Abschnitt](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen)), beim Programmieren von Abläufen, dem Fan-Modus sowie der
-    Überlappungsfunktion.\
+    Überlappungsfunktion.
 	Die Reihenfolge lässt sich später auch
-    ändern, siehe [nächster Abschnitt](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen).\
+    ändern, siehe [nächster Abschnitt](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen).
     Die Reihenfolge innerhalb der Gruppe lässt sich beim Aufrufen
     überschreiben: halten Sie dazu die jeweilige Gruppen-Taste/den
     Button gedrückt, und wählen Sie die entsprechende Funktion mit den
@@ -79,9 +75,7 @@ Gruppen.
 -   Gruppen lassen sich auch anhand ihrer Nummer aufrufen:
 
 1. Drücken Sie die graue <Keys.HardKey>Group</Keys.HardKey>-Taste.
-
 2. Tippen Sie die Nummer der auszuwählenden Gruppe ein.
-
 3. Drücken Sie <Keys.SoftKey>Recall Group</Keys.SoftKey>.
 
 -   Beim Betätigen der <Keys.HardKey>Group</Keys.HardKey>-Taste ergeben sich auf den Menütasten
@@ -96,18 +90,15 @@ Gruppen.
     und die Gruppe ‚Ungerade' wählen -- daraufhin werden die ungeraden
     Geräte am Rand ausgewählt.
 
-### Geräte aus Gruppen entfernen
+### Geräte aus einer Gruppe entfernen
 
-Um Geräte aus Gruppen zu löschen:
+Um Geräte aus einer Gruppe zu entfernen:
 
 1.  Drücken Sie die graue <Keys.HardKey>Group</Keys.HardKey>-Taste.
-
 2.  Klicken Sie die gewünschte Gruppe an. Darauf werden alle enthaltenen
     Geräte angewählt.
-
 3.  Klicken Sie die Geräte an, die entfernt werden sollen, um sie
     abzuwählen.
-
 4.  Verlassen Sie das Menü mit <Keys.HardKey>Exit</Keys.HardKey>.
 
 Die Gruppe enthält nun nur die Geräte, die am Schluss noch ausgewählt
@@ -119,11 +110,11 @@ Beim Patchen mehrerer Geräte werden diese automatisch zu Gruppen
 zusammengefasst. So werden Gruppen pro Gerätetyp erstellt, die alle
 Geräte dieses Typs enthalten (z.B. <Keys.SoftKey>All Robe Pointe</Keys.SoftKey>). Eine weitere
 Gruppe wird pro Patchvorgang erstellt, wenn mehrere Geräte gepatcht
-werden, z.B. <Keys.SoftKey>4 BB4</Keys.SoftKey>. Diese Funktion kann mit der Benutzereinstellung
-<Keys.SoftKey>Auto Groups</Keys.SoftKey> deaktiviert werden.
+werden, z.B. <Keys.SoftKey>4 BB4</Keys.SoftKey>. Diese Funktion kann mit der 
+Benutzereinstellung <Keys.SoftKey>Auto Groups</Keys.SoftKey> deaktiviert werden.
 
 -	Automatisch erzeugte 'All'-Gruppen können nicht gelöscht werden;
-	stattdessen werden Sie in die Show Library verschoben. Das passiert 
+	stattdessen werden sie in die Show Library verschoben. Das passiert 
 	auch, wenn eine zu löschende Gruppe für den Pixelmapper verwendet 
 	wird. Dabei wird eine entsprechende Warnung angezeigt.
 
@@ -143,9 +134,7 @@ Auswahl nach Muster zu verwenden.
 Zum Ändern der numerischen Geräte-Reihenfolge:
 
 1.  Drücken Sie die Taste <Keys.HardKey>Group</Keys.HardKey>.
-
 2.  Wählen Sie die Gruppe aus, die Sie editieren möchten.
-
 3.  Drücken Sie <Keys.SoftKey>Fixture Order</Keys.SoftKey>.
 
 Im Geräte-Fenster werden nun Zahlen für die einzelnen Geräte
@@ -165,9 +154,7 @@ nicht Teil der Reihenfolge ist.
 Zum Ändern der 2D-Geräte-Anordnung:
 
 1.  Drücken Sie die Taste <Keys.HardKey>Group</Keys.HardKey>.
-
 2.  Wählen Sie die Gruppe aus, die Sie editieren möchten.
-
 3.  Drücken Sie <Keys.SoftKey>Edit Layout</Keys.SoftKey>. Das Fenster 'Layout Editor' öffnet
 sich.
 
@@ -176,7 +163,7 @@ Anordnung ändert man einfach, indem man ein Gerät auf seine neue
 Position zieht. Ebenso kann man einzelne Geräte durch Anklicken
 markieren und die Position mit den Rädern verändern. Zum Ändern der
 Gesamtgröße der Anordnung dient die rechte und untere Seite des Rasters
-- ebenfalls klicken und ziehen.
+(ebenfalls klicken und ziehen).
 
 Geräte mit mehreren Zellen werden mit allen Zellen dargestellt, können
 im Layout jedoch nur als ganzes verschoben und rotiert werden. Das
@@ -189,7 +176,7 @@ Breite) angeordnet.
 ![Layout Editor](/docs/images/Layout-Editor.png)
 
 -   Die X-Koordinate entspricht dabei der Geräte-Reihenfolge. Ändert man
-    das diese, so ändert sich auch die erstere.
+    diese, so ändert sich auch die erstere.
 
 -   Es empfiehlt sich, auch die Abstände zwischen den Geräten
     maßstabsgerecht mit in das Layout zu übernehmen und die Gesamtgröße
@@ -200,7 +187,8 @@ Breite) angeordnet.
     oder man wählt das verdeckte z.B. über die Zifferntasten oder mit
     <Keys.HardKey>Fix+1</Keys.HardKey> aus und verschiebt es mithilfe der Räder.
 
--   Mit der <Keys.HardKey>Fan</Keys.HardKey>-Funktion können Geräte gleichmäßig verteilt werden.
+-   Mit der <Keys.HardKey>Fan</Keys.HardKey>-Funktion können Geräte 
+    gleichmäßig verteilt werden.
 
 -   Um Geräte zu verschieben oder zu rotieren, klicken und ziehen Sie
     auf dem Display oder verwenden die Räder. Dazu kann man auch auf die
@@ -208,14 +196,14 @@ Breite) angeordnet.
     Werte zu ändern (+/- 1 px oder +/- 45°). Mit der @-Taste des
     jeweiligen Rades lässt sich auch der Wert numerisch eingeben.
 
--   Klickt man im Kontextbereich auf <Keys.SoftKey>Position and Angle</Keys.SoftKey>, so wechselt
-    die Funktion zu <Keys.SoftKey>Scale</Keys.SoftKey>, und die Zellen in den betroffenen geräten
-    lassen sich auffächern. Damit lassen sich z.B. die Zellgrößen bzw.
-    Abstände unterschiedlicher Gerätetypen angleichen.\
+-   Klickt man im Kontextbereich auf <Keys.SoftKey>Position and Angle</Keys.SoftKey>, 
+    so wechselt die Funktion zu <Keys.SoftKey>Scale</Keys.SoftKey>, und 
+    die Zellen in den betroffenen Geräten lassen sich auffächern. Damit 
+    lassen sich z.B. die Zellgrößen bzw. Abstände unterschiedlicher Gerätetypen angleichen.
 
-    ![Position](/docs/images/Position-2.png)
+![Position](/docs/images/Position-2.png)
 
-    ![Scale](/docs/images/Scale.png)
+![Scale](/docs/images/Scale.png)
 
 -   Weitere Details und Beispiele zum Layout-Editor gibt es im Abschnitt
     zum [Pixel Mapper ](../effects/pixel-mapper.md). Es gibt außerdem

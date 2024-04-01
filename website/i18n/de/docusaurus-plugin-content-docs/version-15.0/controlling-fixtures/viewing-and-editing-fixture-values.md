@@ -11,9 +11,8 @@ import Video from '@site/src/components/video.tsx';
 
 Zuweilen ist es sinnvoll, die genauen Einstellungen jedes Gerätes
 einzeln anzeigen und ändern zu können. Das 'Channel Grid'-Fenster
-ermöglicht genau das. Aufgerufen wird es durch Betätigen der weißen
-<Keys.HardKey>Channel Grid</Keys.HardKey>-Taste, oder Sie drücken zweimal auf
-[<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+ermöglicht genau das. Um es aufzurufen, drücken Sie zweimal auf
+[<Keys.HardKey>Open/View</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
 und wählen <Keys.SoftKey>Channel Grid</Keys.SoftKey>.
 
 ![Channel Grid](/docs/images/Channel-Grid.png)
@@ -23,20 +22,16 @@ verschiedene Modi schalten:
 
 -   All/Stage/Programmer/Selected: Auswahl der angezeigten Geräte
     (Alle/Mit Dimmer an/Im Programmer/In der Auswahl)
-
--   Sort. Sortierung nach Nummer, DMX-Adresse oder zuletzt gewählt
-
--   Open Intensity View: damit kann man direkt die das Intensity-Fenster
+-   Sort: Sortierung nach Nummer, DMX-Adresse oder zuletzt gewählt
+-   Open Intensity View: damit kann man direkt das Intensity-Fenster
     öffnen (und von dort mit der gleichen Funktion wieder
     zurückwechseln)
-
 -   Show/Hide Palettes: Anzeigen von Paletten oder diskreten Werten
-
 -   Playbacks/Levels/Shapes/Effects/Times: nur einer dieser Modi kann
     jeweils angezeigt werden.
 
 Zur **Auswahl** von Geräten klicken Sie einfach links auf den
-Gerätenamen; wird ein Attribut ausgewählt, so wird automatisch das
+Gerätenamen; wird ein Attributwert ausgewählt, so wird automatisch das
 zugehörige Gerät angewählt.
 
 Zum **Löschen** eines Attributwerts im 'Channel Grid'-Fenster klicken
@@ -56,17 +51,20 @@ den Buttons darunter nach Gerätetyp.
 Um einen raschen Überblick über die momentan aktiven Scheinwerfer zu
 gewinnen, dient das Fenster "Intensity View" (die Intensity-Ansicht). Um
 dieses zu öffnen, drücken Sie zweimal auf
-[<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen <Keys.SoftKey>Intensity View</Keys.SoftKey>.
+[<Keys.HardKey>Open/View</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen <Keys.SoftKey>Intensity View</Keys.SoftKey>.
 
 ![Intensity View](/docs/images/Intensity-View.png)
 
 Für jedes Gerät wird ein Button angezeigt mit einer Balkenanzeige und
 numerischer Anzeige des aktuellen Helligkeitswerts. Der Kopfbereich
 jedes Buttons zeigt wie gewohnt den Auswahl- und Programmerstatus
-(blau=angewählt, cyan=im Programmer).\
+(blau=angewählt, cyan=im Programmer).
+
 Einfadende Werte werden durch einen blauen Pfeil nach oben, ausfadende
-Werte durch einen grünen Pfeil nach unten dargestellt.\
-Getrackte Werte erscheinen in Magenta mit einem "=".\
+Werte durch einen grünen Pfeil nach unten dargestellt.
+
+Getrackte Werte erscheinen in Magenta mit einem "=".
+
 Getrackte Werte in einem Solo- oder Block-Cue erscheinen rot mit einem
 Verbotszeichen.
 
@@ -94,32 +92,34 @@ automatisch vergebenen Farben angezeigt werden.
     Helligkeitswert editieren.
 
 -   Zur Anzeige weiterer Informationen zu dem einzelnen Gerät drücken
-    Sie <Keys.HardKey>View\ / Open</Keys.HardKey> gefolgt von dem jeweiligen
+    Sie <Keys.HardKey>Open/View</Keys.HardKey> gefolgt von dem jeweiligen
     Geräte-Button.
+
+### Filtern der angezeigten Geräte
 
 Mit den Kontext-Optionen lässt sich Inhalt und Anzeige des
 Intensity-Fensters genau steuern.
 
-Der erste Button steuert, welche Geräte überhaupt angezeigt werden:\
-<Keys.SoftKey>All</Keys.SoftKey> zeigt alle gepatchten Geräte\
-<Keys.SoftKey>Stage</Keys.SoftKey> zeigt alle Geräte mit Intensität >0%\
-<Keys.SoftKey>Programmer</Keys.SoftKey> zeigt nur die im Programmer befindlichen Geräte\
-<Keys.SoftKey>Selected</Keys.SoftKey> zeigt nur die aktuell ausgewählten Geräte\
-<Keys.SoftKey>Live Cues</Keys.SoftKey>: Anzeige der Geräte, die gerade von aktvierten Cues 
-gesteuert werden\
-<Keys.SoftKey>Connected Cue</Keys.SoftKey>: Geräte im gerade connected (verbundenen) Cue (bei
-Cuelisten und Chasern)\
-<Keys.SoftKey>Frozen</Keys.SoftKey> zeigt nur aktuell fixierte Geräte an
+Der erste Button steuert, welche Geräte überhaupt angezeigt werden:
 
-Mit dem zweiten Button lässt sich wie oben beschrieben die Reihenfolge
+- <Keys.SoftKey>All</Keys.SoftKey> zeigt alle gepatchten Geräte
+- <Keys.SoftKey>Stage</Keys.SoftKey> zeigt alle Geräte mit Intensität >0%
+- <Keys.SoftKey>Programmer</Keys.SoftKey> zeigt nur die im Programmer befindlichen Geräte
+- <Keys.SoftKey>Selected</Keys.SoftKey> zeigt nur die aktuell ausgewählten Geräte
+- <Keys.SoftKey>Live Cues</Keys.SoftKey>: Anzeige der Geräte, die gerade von aktvierten Cues 
+gesteuert werden
+- <Keys.SoftKey>Connected Cue</Keys.SoftKey>: Geräte im gerade connected (verbundenen) Cue (bei Cuelisten und Chasern)
+- <Keys.SoftKey>Frozen</Keys.SoftKey> zeigt nur aktuell fixierte Geräte an
+
+Mit dem zweiten Button lässt sich wie oben beschrieben die Sortierung
 der Anzeige umschalten.
 
-Klickt man auf den Button <Keys.SoftKey>Search</Keys.SoftKey> (Suche), so kann man ein Suchwort
-eingeben, nach dem gefiltert werden soll. Dabei wird sowohl nach der
-Gerätenummer als auch der Bezeichnung gesucht. Die Such-Eingabe wird
-oben im Intensity-Fenster angezeigt. Rechts daneben ist eine
-Schaltfläche mit einem <Keys.ContextKey>X</Keys.ContextKey> -- mit dieser wird die Suche
-gelöscht/abgebrochen.
+Klickt man auf den Button <Keys.SoftKey>Search</Keys.SoftKey> (Suche), so 
+kann man ein Suchwort eingeben, nach dem gefiltert werden soll. Dabei 
+wird sowohl nach der Gerätenummer als auch der Bezeichnung gesucht. 
+Die Such-Eingabe wird oben im Intensity-Fenster angezeigt. Rechts daneben 
+ist eine Schaltfläche mit einem <Keys.ContextKey>X</Keys.ContextKey> -- 
+mit dieser wird die Suche gelöscht/abgebrochen.
 
 <Keys.SoftKey>View If</Keys.SoftKey> (Zeige wenn) zeigt nur die in einzelnen Gruppen oder
 Playbacks vorhandenen Geräte. Handelt es sich dabei um eine Cueliste
@@ -131,6 +131,8 @@ gelöscht.
 Es gibt ferner den Kontext-Button <Keys.SoftKey>Open Channel Grid</Keys.SoftKey> (Öffne Channel
 Grid), mit dem direkt die Kanal-Übersicht [Channel Grid](viewing-and-editing-fixture-values.md#übersicht-über-die-kanäle-das-channel-grid-fenster) 
 geöffnet werden kann.
+
+### Fenster-Einstellungen
 
 In den **Fenster-Einstellungen** (klicken Sie dazu auf das <Keys.ContextKey>Zahnrad</Keys.ContextKey>
 in der Titelleiste des Fensters) gibt es weitere Einstellmöglichkeiten, 
