@@ -14,7 +14,7 @@ zu löschen, sei auf das Kapitel [Kopieren, verschieben, verlinken, löschen](..
 ## Das Fenster Playback View
 
 Am einfachsten lässt sich eine Cueliste in der Playback-Ansicht
-(Playback View) editieren, dazu drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>,
+(Playback View) editieren, dazu drücken Sie <Keys.HardKey>Open/View</Keys.HardKey>,
 gefolgt von der **Auswahltaste** der gewünschten Cueliste. Diese Ansicht
 besteht aus einer Tabelle, wobei jeder Cue mit seinen Details in einer
 Zeile aufgelistet ist. Durch Anklicken einzelner Zellen lassen sich die
@@ -53,48 +53,53 @@ Werte direkt zu ändern.
 
 ## Kopieren, Verschieben und Löschen einzelner Cues
 
- Dazu klicken und ziehen
-Sie entweder den gewünschten Cue im [Playback View](#das-fenster-playback-view) 
-(drücken Sie dazu <Keys.HardKey>View / Open</Keys.HardKey>, dann die Taste der gewünschten Cueliste), 
-oder verwenden Sie die **Unfold-Funktion** ([siehe nächster Abschnitt](#editieren-einer-cueliste-mit-unfold)) oder eine spezielle
-Tasten-Syntax.
-
 Es lassen sich auf verschiedene Weise einzelne oder mehrere Cues innerhalb 
 einer oder zwischen mehreren Cuelisten kopieren oder verschieben:
--   Man kann die **Unfold-Funktion** ([siehe nächster Abschnitt](#editieren-einer-cueliste-mit-unfold)) nutzen.
--   Um einen Cue zu verschieben, kann man diesen im Fenster [Playback View](#das-fenster-playback-view) anklicken und verschieben, oder man klickt 
+
+Man kann die **Unfold-Funktion** ([siehe nächster Abschnitt](#editieren-einer-cueliste-mit-unfold)) nutzen.
+
+Um einen Cue zu verschieben, kann man diesen im Fenster [Playback View](#das-fenster-playback-view) anklicken und verschieben, oder man klickt 
 auf die Nummer des Cues und ändert diese mit der Menütaste <Keys.SoftKey>Change To</Keys.SoftKey>
-(sobald die Nummer geändert wurde, ändert sich auch die Reihenfolge der 
-Cues).
--   Um einen Cue zu löschen, drücken Sie die <Keys.HardKey>Delete</Keys.HardKey>-Taste, wählen 
+(sobald die Nummer geändert wurde, ändert sich auch die Reihenfolge der Cues).
+
+Um einen Cue zu löschen, drücken Sie die <Keys.HardKey>Delete</Keys.HardKey>-Taste, wählen 
 den Cue im Playback-View aus, und klicken zur Bestätigung den Cue nochmals 
 an oder drücken <Keys.HardKey>Enter</Keys.HardKey> oder <Keys.SoftKey>Confirm</Keys.SoftKey>.
 
 Ebenso lässt sich eine Tastensyntax verwenden: 
 
-- Dabei ist **&#123;fader select&#125;** die Auswahltaste des aktuellen
+- Dabei ist **<Keys.ContextKey>fader select</Keys.ContextKey>** die Auswahltaste des aktuellen
   Speicherplatzes und **n** die Nummer des jeweiligen Cues; Abschnitte
   in **[eckigen Klammern]** sind optional. Die <Keys.HardKey>@</Keys.HardKey>-Taste ist die bei 
   den Zifferntasten.
 
 Tastenfolge                                                  | Ergebnis
 ------------                                                 |---------
-<Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; **n** <Keys.HardKey>@</Keys.HardKey> **m** <Keys.HardKey>Enter</Keys.HardKey>          | Kopieren von Cue **n** nach Cue **m** in der gleichen Cueliste
-<Keys.HardKey>Move</Keys.HardKey> &#123;fader select&#125; **n** <Keys.HardKey>@</Keys.HardKey> **m** <Keys.HardKey>Enter</Keys.HardKey>          | Verschieben von Cue **n** nach Cue **m** in der gleichen Cueliste
-<Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; **n** <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey>                    | Kopieren von Cue **n** als neuer Cue an das Ende der Cueliste
-<Keys.HardKey>Delete</Keys.HardKey> &#123;fader select&#125; **n** <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey>          | Löschen von Cue **n**
-<Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; **n** &#123;fader select&#125; **m** <Keys.HardKey>Enter</Keys.HardKey> | Kopieren von Cue **n** nach Cue **m** in einer anderen Cueliste
-<Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; **n** &#123;fader select&#125; <Keys.HardKey>Enter</Keys.HardKey>       | Kopieren von Cue **n** an das Ende einer anderen Cueliste
+<Keys.HardKey>Copy</Keys.HardKey> <Keys.ContextKey>fader select</Keys.ContextKey> **n** <Keys.HardKey>@</Keys.HardKey> **m** <Keys.HardKey>Enter</Keys.HardKey>          | Kopieren von Cue **n** nach Cue **m** in der gleichen Cueliste
+<Keys.HardKey>Move</Keys.HardKey> <Keys.ContextKey>fader select</Keys.ContextKey> **n** <Keys.HardKey>@</Keys.HardKey> **m** <Keys.HardKey>Enter</Keys.HardKey>          | Verschieben von Cue **n** nach Cue **m** in der gleichen Cueliste
+<Keys.HardKey>Copy</Keys.HardKey> <Keys.ContextKey>fader select</Keys.ContextKey> **n** <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey>                    | Kopieren von Cue **n** als neuer Cue an das Ende der Cueliste
+<Keys.HardKey>Delete</Keys.HardKey> <Keys.ContextKey>fader select</Keys.ContextKey> **n** <Keys.HardKey>Enter</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey>          | Löschen von Cue **n**
+<Keys.HardKey>Copy</Keys.HardKey> <Keys.ContextKey>fader select</Keys.ContextKey> **n** <Keys.ContextKey>fader select</Keys.ContextKey> **m** <Keys.HardKey>Enter</Keys.HardKey> | Kopieren von Cue **n** nach Cue **m** in einer anderen Cueliste
+<Keys.HardKey>Copy</Keys.HardKey> <Keys.ContextKey>fader select</Keys.ContextKey> **n** <Keys.ContextKey>fader select</Keys.ContextKey> <Keys.HardKey>Enter</Keys.HardKey>       | Kopieren von Cue **n** an das Ende einer anderen Cueliste
 
--   Anstelle von <Keys.HardKey>Copy</Keys.HardKey> lässt sich <Keys.HardKey>Move</Keys.HardKey> verwenden, um Cues nicht zu 
-	kopieren, sondern zu **verschieben**. Auf älteren Pulten ohne eine 
-	 <Keys.HardKey>Move</Keys.HardKey>-Taste drücken Sie <Keys.HardKey>Avo</Keys.HardKey> und <Keys.HardKey>Copy</Keys.HardKey>.
+- Anstelle von <Keys.HardKey>Copy</Keys.HardKey> lässt sich <Keys.HardKey>Move</Keys.HardKey>
+ verwenden, um Cues nicht zu kopieren, sondern zu **verschieben**. Auf älteren Pulten ohne 
+eine <Keys.HardKey>Move</Keys.HardKey>-Taste drücken Sie <Keys.HardKey>Avo</Keys.HardKey> 
+und <Keys.HardKey>Copy</Keys.HardKey>.
 
-- 	Zum Kopieren/Verschieben **mehrerer** Cues verwenden Sie <Keys.HardKey>Thru</Keys.HardKey>, <Keys.HardKey>And</Keys.HardKey> 
-	und <Keys.SoftKey>Not</Keys.SoftKey>. Um z.B. die Cues 3, 4 ,5 ,7, 10 als neuen Block ab Cue 20 zu
-	kopieren, drücken Sie \
-    <Keys.HardKey>Copy</Keys.HardKey> &#123;fader select&#125; **3** <Keys.HardKey>Thru</Keys.HardKey> **7** <Keys.SoftKey>Not</Keys.SoftKey> **6** <Keys.HardKey>And</Keys.HardKey> **10** <Keys.HardKey>@</Keys.HardKey> **20** <Keys.HardKey>Enter</Keys.HardKey>
+- Zum Kopieren/Verschieben **mehrerer** Cues verwenden Sie <Keys.HardKey>Thru</Keys.HardKey>
+, <Keys.HardKey>And</Keys.HardKey> und <Keys.SoftKey>Not</Keys.SoftKey>. Um z.B. die Cues 3, 
+4, 5, 7, 10 als neuen Block ab Cue 20 zu kopieren, drücken 
+Sie <br/><Keys.HardKey>Copy</Keys.HardKey> <Keys.ContextKey>fader select</Keys.ContextKey> 
+3 <Keys.HardKey>Thru</Keys.HardKey> 7 <Keys.SoftKey>Not</Keys.SoftKey> 
+6 <Keys.HardKey>And</Keys.HardKey> 10 <Keys.HardKey>@</Keys.HardKey> 
+20 <Keys.HardKey>Enter</Keys.HardKey>
 
+- Sie können auch <Keys.HardKey>Enter</Keys.HardKey> statt <Keys.HardKey>@</Keys.HardKey> 
+verwenden, wenn Sie damit eher vertraut sind. Um z.B. einen Cue an das Ende der aktuellen 
+Cueliste zu kopieren, drücken Sie in diesem Fall <Keys.HardKey>Copy</Keys.HardKey>
+&nbsp; <Keys.ContextKey>fader select</Keys.ContextKey> n <Keys.HardKey>Enter</Keys.HardKey>
+&nbsp; <Keys.HardKey>Enter</Keys.HardKey>
 
 ## Editieren einer Cueliste mit 'Unfold'
 
@@ -104,18 +109,14 @@ Schritt einzeln aufrufen und editieren, als wäre er ein eigener Cue.
 
 1. Drücken Sie die <Keys.HardKey>Unfold</Keys.HardKey>-Taste, gefolgt von der **Auswahltaste**
 der zu ändernden Cueliste.
-
 2. Die ersten zehn Schritte werden auf die **Playback-Fader** gelegt. Im
 Display wird die jeweilige Schrittnummer und Bezeichnung angezeigt. 
 *(Sind mehr Cues als Fader vorhanden, so kann man mit den Menütasten 
 F und G weiterschalten)*.
-
 3. **Betätigen Sie einen Fader**, um den jeweiligen Schritt aufzurufen
 *(dabei werden die programmierten Überblendzeiten mit berücksichtigt)*.
-
-4. Es gibt diverse Optionen bei der 'Unfold'-Funktion, die Details dazu
-sind unten aufgeführt.
-
+4. *Es gibt diverse Optionen bei der 'Unfold'-Funktion, die Details dazu
+sind unten aufgeführt*.
 5. Drücken Sie <Keys.HardKey>Unfold</Keys.HardKey> nochmals, um den Modus zu verlassen.
 
 ---
@@ -128,9 +129,9 @@ sind unten aufgeführt.
 -   Um den Inhalt des Programmierspeichers in den aktuellen Schritt zu
     integrieren (**mergen**), klicken Sie zweimal auf <Keys.SoftKey>Record Step</Keys.SoftKey>.
 
--   Zum Ändern der Zeiten oder der Folge des Schrittes drücken Sie
-    <Keys.SoftKey>Edit Times</Keys.SoftKey>, gefolgt von der **Select-Taste** des Schrittes, und
-    nehmen die Änderungen vor (siehe [Zeiten für Cuelisten](cue-list-timing.md)).
+-   Zum Ändern der Zeiten oder der Folge des Schrittes drücken Sie <Keys.SoftKey>Edit 
+	Times</Keys.SoftKey>, gefolgt von der **Select-Taste** des 
+	Schrittes, und nehmen die Änderungen vor, siehe [Zeiten für Cuelisten](cue-list-timing.md).
 
 -   Um einen neuen Schritt **einzufügen**, stellen Sie das gewünschte Bild
     ein, drücken B <Keys.SoftKey>Insert Step</Keys.SoftKey>, dann die Taste des Schrittes, auf
@@ -165,18 +166,17 @@ welcher Schritt genau geändert werden muss.
 
 1. Bei gestarteter Cueliste wählen Sie die Geräte aus und ändern sie
 wie gewünscht.
-
-2. Drücken Sie <Keys.HardKey>Update</Keys.HardKey> *(auf alten Pulten <Keys.HardKey>Record Cue</Keys.HardKey>, dann
-<Keys.SoftKey>Update</Keys.SoftKey>)*.
-
+2. Drücken Sie <Keys.HardKey>Update</Keys.HardKey> *(auf 
+alten Pulten <Keys.HardKey>Record Cue</Keys.HardKey>, dann <Keys.SoftKey>Update</Keys.SoftKey>)*.
 3. Drücken Sie <Keys.HardKey>Enter</Keys.HardKey>, um die neuen Werte direkt in die Cueliste zu
 übernehmen.
 
 > Alternativ wird bei den Funktionstasten eine Liste der Paletten und
-Playbacks angezeigt, die aktualisiert werden können. Wählen Sie den
-gewünschten Eintrag.\
-Haben Sie die Funktionstasten-Option verwendet, drücken Sie
-<Keys.HardKey>Enter</Keys.HardKey>, um den Vorgang abzuschließen.
+Playbacks angezeigt, die aktualisiert werden können. Wählen Sie den zu ändernden
+Eintrag.
+
+Haben Sie die Funktionstasten-Option verwendet, drücken Sie <Keys.HardKey>Enter</Keys.HardKey>,
+ um den Vorgang abzuschließen.
 
 Stammten die geänderten Attribute von einem vorherigen Cue, so wird
 dieser - und nicht der aktuell laufende - geändert, siehe 
@@ -188,53 +188,47 @@ Ebenso lassen sich Schritte einer laufenden Cueliste ändern, ohne
 [Unfold](#editieren-einer-cueliste-mit-unfold) nutzen zu müssen: 
 
 1. **Starten Sie die Cueliste** mit dem entsprechenden Fader.
-
 2. Wählen Sie mit **Encoder A** den zu ändernden Schritt, und aktivieren Sie
 diesen mit der <Keys.HardKey>Go</Keys.HardKey>-Taste. *(Beim Pearl Expert/Tiger Touch Mk1 
 drücken Sie statt der Go-Taste die Taste <Keys.HardKey>↔</Keys.HardKey> oberhalb der Taste Snap Back)*
-
 3. Drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, um den Programmierspeicher zu leeren.
-
 4. Nehmen Sie die gewünschten Änderungen vor.
-
 5. Drücken Sie <Keys.HardKey>Record</Keys.HardKey>, <Keys.HardKey>Connect / Cue</Keys.HardKey> *(bzw. <Keys.HardKey>Rec. Step</Keys.HardKey> bei älteren 
 Pulten)*, und wählen dann <Keys.SoftKey>Replace</Keys.SoftKey> (Ersetzen), <Keys.SoftKey>Merge</Keys.SoftKey>(Zusammenfügen),
 oder <Keys.SoftKey>Insert After</Keys.SoftKey> (danach einfügen), um die Änderungen zu speichern (ein
 nochmaliger Druck auf <Keys.HardKey>Rec. Step</Keys.HardKey> wählt automatisch <Keys.SoftKey>Merge</Keys.SoftKey>).
-
 6. Drücken Sie <Keys.HardKey>Go</Keys.HardKey>, um zum nächsten Schritt zu gelangen *(Beim Pearl 
 Expert/Tiger Touch Mk1 drücken Sie statt der Go-Taste die Taste <Keys.HardKey>↔</Keys.HardKey>)*.
 
->	Die vorgenommenen Änderungen lassen sich auch wie folgt in den aktuellen 
-	Cue speichern \
-	<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Connect / Cue</Keys.HardKey> <Keys.HardKey>Connect / Cue</Keys.HardKey>.
+> Die vorgenommenen Änderungen lassen sich auch wie folgt in den aktuellen Cue 
+  speichern <br/><Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Connect / 
+  Cue</Keys.HardKey> <Keys.HardKey>Connect / Cue</Keys.HardKey>.
 
 
 ## Ändern der Zeiten einer laufenden Cueliste
 
-Die Zeiten jedes Schritts lassen sich wie folgt mit den Tasten
-<Keys.HardKey>Live Time</Keys.HardKey> und <Keys.HardKey>Next Time</Keys.HardKey> *(nicht auf allen Pulten)* ändern:
+Die Zeiten jedes Schritts lassen sich wie folgt mit den 
+Tasten <Keys.HardKey>Live Time</Keys.HardKey> und <Keys.HardKey>Next 
+Time</Keys.HardKey> *(nicht auf allen Pulten)* ändern:
 
 1.  **Starten Sie die Cueliste** mit dem entsprechenden Fader.
-
 2.  Wählen Sie mit **Encoder A** den zu ändernden Schritt, und aktivieren
     Sie diesen mit der <Keys.HardKey>Go</Keys.HardKey>-Taste. (Beim Pearl Expert/Tiger Touch Mk1:
 	Taste <Keys.HardKey>↔</Keys.HardKey>).
-
 3.  Drücken Sie die Taste <Keys.HardKey>Live Time</Keys.HardKey>, um die Zeiten für den
     aktuellen, oder <Keys.HardKey>Next Time</Keys.HardKey>, um die für den nächsten Schritt
     einzugeben. Die Schrittnummern für den aktuellen sowie den nächsten
     Schritt werden im Display oberhalb der Räder angezeigt.
-
 4.  Geben Sie die Zeiten, Schrittverknüpfung (Link) und Versatz (Overlap)
     mit den Funktionstasten ein (siehe [Zeiten für Cuelisten](cue-list-timing.md)).
-	Ändern Sie die die Link-Option auf <Keys.SoftKey>Link With Previous Cue</Keys.SoftKey> oder 
-	<Keys.SoftKey>Link After Previous Cue</Keys.SoftKey>, so wartet dieser Schritt nicht auf die 
-	<Keys.HardKey>Go</Keys.HardKey>-Taste, sondern startet automatisch.
+	Ändern Sie die die Link-Option auf <Keys.SoftKey>Link With Previous 
+	Cue</Keys.SoftKey> oder <Keys.SoftKey>Link After Previous Cue</Keys.SoftKey>, so wartet 
+	dieser Schritt nicht auf die <Keys.HardKey>Go</Keys.HardKey>-Taste, sondern startet 
+	automatisch.
+5.  Drücken Sie <Keys.HardKey>Go</Keys.HardKey> (bzw. <Keys.HardKey>↔</Keys.HardKey>), 
+	um zum nächsten Schritt zu gelangen.
 
-5.  Drücken Sie <Keys.HardKey>Go</Keys.HardKey> (bzw. <Keys.HardKey>↔</Keys.HardKey>), um zum nächsten Schritt zu gelangen.
-
-Die Taste <Keys.HardKey>Review</Keys.HardKey> dient zur Überprüfung des aktuellen Schritts
+- Die Taste <Keys.HardKey>Review</Keys.HardKey> dient zur Überprüfung des aktuellen Schritts
 mit den neuen Zeitvorgaben.
 
 *Alternativ kann man die <Keys.HardKey>Unfold</Keys.HardKey>-Funktion verwenden, um die Zeiten
@@ -247,13 +241,11 @@ programmiert:
 
 1. Drücken Sie <Keys.SoftKey>Cue Number=x</Keys.SoftKey> und geben die Nummer des gewünschten
 Schritts an.
-
 2. Der gewählte Schritt wird angezeigt.
-
 3. Nehmen Sie die gewünschten Änderungen vor, oder ändern Sie die
 Zeiten mit <Keys.SoftKey>Edit Cue x Times</Keys.SoftKey>
-
-4. Drücken Sie <Keys.SoftKey>Update Cue x</Keys.SoftKey> (bzw. <Keys.HardKey>Rec. Step</Keys.HardKey>) zum Speichern der Änderungen.
+4. Drücken Sie <Keys.SoftKey>Update Cue x</Keys.SoftKey> (bzw. <Keys.HardKey>Rec. 
+Step</Keys.HardKey>) zum Speichern der Änderungen.
 
 ### Update-Modus
 
@@ -281,15 +273,15 @@ gleichzeitig aktualisiert (mittels **Merge/Verschmelzen** oder
 auch in der [Playback-Ansicht](#das-fenster-playback-view) erfolgen. 
 
 In der Playback-Ansicht drücken Sie die Taste <Keys.HardKey>Record</Keys.HardKey> und klicken
-dann im Bildschirm auf den gewünschten Cue/die Cues. Wählen Sie nun
-<Keys.SoftKey>Merge</Keys.SoftKey> oder <Keys.SoftKey>Replace</Keys.SoftKey> (oder drücken Sie <Keys.HardKey>Enter</Keys.HardKey>, um zu Mergen).
-Damit wird der momentane Inhalt des Programmers in die ausgewählten Cues
-übernommen.
+dann im Bildschirm auf den gewünschten Cue/die Cues. Wählen Sie nun <Keys.SoftKey>
+Merge</Keys.SoftKey> oder <Keys.SoftKey>Replace</Keys.SoftKey> (oder drücken 
+Sie <Keys.HardKey>Enter</Keys.HardKey>, um zu Mergen). Damit wird der momentane 
+Inhalt des Programmers in die ausgewählten Cues übernommen.
 
 Bei Verwendung der Zifferntasten verbinden Sie zunächst die Cueliste
 mittels <Keys.HardKey>Connect / Cue</Keys.HardKey> mit der Steuerung und klicken auf <Keys.SoftKey>Rec. Step</Keys.SoftKey>. Nun
-verwenden Sie die Syntax **n** <Keys.HardKey>THRU</Keys.HardKey> **m**, um eine Folge von Cues zu
-ändern, oder **n** <Keys.HardKey>AND</Keys.HardKey> **m**, um mehrere Cues einzeln auszuwählen. Ist
+verwenden Sie die Syntax n <Keys.HardKey>THRU</Keys.HardKey> m, um eine Folge von Cues zu
+ändern, oder n <Keys.HardKey>AND</Keys.HardKey> m, um mehrere Cues einzeln auszuwählen. Ist
 die [Playback-Ansicht](#das-fenster-playback-view) geöffnet, so werden die 
 gewählten Cues rot markiert. Sind alle zu ändernden Cues ausgewählt, 
 drücken Sie <Keys.HardKey>Enter</Keys.HardKey> und wählen <Keys.SoftKey>Merge</Keys.SoftKey> oder <Keys.SoftKey>Replace</Keys.SoftKey> (nochmaliges 

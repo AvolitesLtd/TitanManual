@@ -9,12 +9,13 @@ import Video from '@site/src/components/video.tsx';
 
  
 Über das Menü [Options](../cues/playback-options.md) sind weitere Optionen 
-verfügbar. Drücken Sie dafür die Taste <Keys.HardKey>Options</Keys.HardKey> oder im Hauptmenü die 
-Menütaste <Keys.SoftKey>Options</Keys.SoftKey>, und wählen Sie die gewünschte Cueliste (**blaue Taste**).
+verfügbar. Drücken Sie dafür die Taste <Keys.HardKey>Options</Keys.HardKey> 
+oder im Hauptmenü die Menütaste <Keys.SoftKey>Options</Keys.SoftKey>, und 
+wählen Sie die gewünschte Cueliste (**blaue Taste**).
 
-Oder drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, dann die entsprechende
-&nbsp;**Select-Taste**, und klicken links in der Playback-Ansicht auf
-<Keys.SoftKey>Options</Keys.SoftKey>.
+Oder drücken Sie <Keys.HardKey>Open/View</Keys.HardKey>, dann die 
+entsprechende **Select-Taste**, und klicken links in der Playback-Ansicht 
+auf <Keys.SoftKey>Options</Keys.SoftKey>.
 
 ---
 
@@ -39,7 +40,7 @@ Damit wird bestimmt, ob die Cueliste nach dem Durchlaufen wiederholt werden soll
 Einstellung | Beschreibung
 --- | ---
 Stop on final cue | Die Cueliste wird nur einmal durchlaufen und stoppt beim letzten Schritt.
-Loop | Die Cueliste wird nach Erreichen des letzten Cues wieder von Cue 1 wiederholt, wobei auch Move in Dark entsprechend ermittelt wird *(Vorgabewert)*.
+**Loop** | Die Cueliste wird nach Erreichen des letzten Cues wieder von Cue 1 wiederholt, *wobei auch Move in Dark entsprechend ermittelt wird*.
 
 ### Move In Dark
 Einstellung für die gesamte Cueliste: Vorladen von
@@ -48,7 +49,7 @@ erzeugen), siehe [Move In Dark (MID)](cue-list-playback.md#move-in-dark-mid---fu
 
 Einstellung | Beschreibung
 --- | ---
-Off | Schaltet MID für die gesamte Cueliste ab; MID kann aber für einzelne Cues aktiviert werden *(Vorgabewert)*.
+**Off** | Schaltet MID für die gesamte Cueliste ab; MID kann aber für einzelne Cues aktiviert werden *(Vorgabewert)*.
 Disabled | Deaktiviert MID für die gesamte Cueliste, auch wenn es ggf. für einzelne Cues aktiviert ist.
 Early | Startet die Bewegung zum frühestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben.
 Late | Beginnt die Bewegung zum spätestmöglichen Zeitpunkt, sofern nicht pro Cue anders vorgegeben.
@@ -60,7 +61,7 @@ Einstellung | Beschreibung
 --- | ---
 Off | Kein Tracking von Shapes - Shapes stoppen, wenn der Cue beendet wird.
 On  | Shapes tracken, bis sie geblockt werden.
-Local | Die allgemeine **Tracking**-Einstellung gilt. *(Vorgabewert)*
+Local | Die allgemeine Tracking-Einstellung gilt. *(Vorgabewert)*
 
 ### Timecode Source 
 Bestimmt, welcher Timecode diese Cueliste steuert.
@@ -88,20 +89,16 @@ Fader Mode Intensity Kill With Off | Der Fader bestimmt die Werte der HTP-Kanäl
 Fader Mode Intensity Kill At 0 | Der Fader ist ebenfalls für die HTP-Werte zuständig, jedoch wird die Cueliste deaktiviert, sobald der Regler auf ‚0' gestellt wird.
 Manual Crossfader | Sorgt dafür, dass der Fader als manueller Überblendregler fungiert, d.h. beim Verlassen der Reglerstellung ‚100%' oder ‚0%' wird jeweils einen Schritt weitergeschaltet. 
 
-Bei 'Manual Crossfade' gilt außerdem folgendes:
+Bei **Manual Crossfade** gilt außerdem folgendes:
 
 -   Eine gerade laufende Überblendung kann mit dem Fader ‚übernommen'
     werden.
-
 -   Wird eine Cueliste mit ‚Manual Crossfader' gestartet, so springt der
     Pegel sofort auf 100%, sobald der Fader über 0 bewegt wird.
-
 -   Shapes und Pixelmapper-Effekte werden ebenfalls mit dem Fader
     übergeblendet. Wird der Fader auf 0 gezogen, so bleiben sie aber
     aktiv.
-
 -   Autoloads folgen ihrer jeweiligen Fadezeit unabhängig vom Crossfade.
-
 -   Angehaltene Fades können mit <Keys.HardKey>Go</Keys.HardKey> fortgesetzt werden.
 
 ### Fire First Cue
@@ -128,5 +125,5 @@ nächsten Cue Werte dafür hinterlegt sind. Damit lassen sich manche
 Effekte erstellen.
 
 > Die früher hier zu findenden **Cue Options** sind nun in der Playback-Ansicht
- zu finden und zu editieren. Um diese zu öffnen, drücken Sie <Keys.HardKey>View / Open</Keys.HardKey> 
- und die **Select-Taste** der Cueliste.
+  zu finden und zu editieren. Um diese zu öffnen, drücken Sie <Keys.HardKey>Open/
+  View</Keys.HardKey>  und die **Select-Taste** der Cueliste.

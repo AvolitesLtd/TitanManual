@@ -13,7 +13,8 @@ Stellen Sie den Regler der Cueliste auf den gewünschten Wert und drücken
 die <Keys.HardKey>Go</Keys.HardKey>-Taste, um den ersten Schritt zu starten. Unten im Display
 erscheint die Cueliste, der aktuelle Schritt ist dabei grau
 hervorgehoben, der nächste Schritt ist durch eine Umrandung
-gekennzeichnet.
+gekennzeichnet (auf dem Diamond 9 wird der Status der Cueliste unten im Editor-Display 
+angezeigt).
 
 ![Connected Cue List view](/docs/images/Connected-Cue-List-view.png)
 
@@ -30,7 +31,7 @@ Crossfade) dargestellt.
 
 Für eine bessere Übersicht können Sie auch die Playback-Ansicht der
 Cueliste öffnen (einfach im Display auf die Cueliste klicken, oder
-<Keys.HardKey>View / Open</Keys.HardKey> und die **Select-Taste** der Cueliste drücken). Hier hat man
+<Keys.HardKey>Open/View</Keys.HardKey> und die **Select-Taste** der Cueliste drücken). Hier hat man
 sämtliche Cues, Zeiten und Optionen (z.B. Autoload, Macros, MID etc.) im
 Überblick, was vor allem im [Theater](theatre-programming.md) sehr hilfreich ist.
 
@@ -58,11 +59,11 @@ genauer eingestellt und geändert werden (klicken Sie dazu auf das kleine
 -   Ein Überblendprozess lässt sich mit der <Keys.HardKey>Stop</Keys.HardKey>-Taste (oberhalb der
     <Keys.HardKey>Go</Keys.HardKey>-Taste) anhalten, und mit der <Keys.HardKey>Go</Keys.HardKey>-Taste fortsetzen.
 
--   Um direkt einen bestimmten Schritt anzuspringen, wählen Sie diesen
-    mit Rad A oder mit den links/rechts-Pfeilen aus. Drücken Sie nun
-    <Keys.HardKey>Go</Keys.HardKey>, um den angewählten Schritt aufzurufen. Soll der Vorgang
-    abgebrochen werden, so drücken Sie gleichzeitig <Keys.HardKey>Prev. Cue</Keys.HardKey> und
-    <Keys.HardKey>Next Cue</Keys.HardKey>.
+-   Um direkt einen bestimmten Schritt anzuspringen, wählen Sie diesen mit Rad A oder 
+    mit den links/rechts-Pfeilen aus. Drücken Sie nun <Keys.HardKey>Go</Keys.HardKey>, 
+	um den angewählten Schritt aufzurufen. Soll der Vorgang abgebrochen werden, so drücken 
+	Sie gleichzeitig <Keys.HardKey>Prev. Cue</Keys.HardKey> und <Keys.HardKey>Next 
+	Cue</Keys.HardKey>.
 
 -   Ist die Cueliste gerade pausiert, so kann man mit <Keys.HardKey>Stop</Keys.HardKey> zum
     vorherigen Cue incl. Einfadezeiten springen.
@@ -70,17 +71,16 @@ genauer eingestellt und geändert werden (klicken Sie dazu auf das kleine
 -   Auf den vorigen Schritt schalten Sie mit der Taste <Keys.HardKey>Snap back</Keys.HardKey>
     (sofern vorhanden).
 
--   Auf Pulten mit einer <Keys.HardKey>Snap</Keys.HardKey>-Taste *(Arena, Tiger Touch II)* erreicht
-    man den nächsten/vorherigen Schritt der Cueliste mit den Tasten
-    <Keys.HardKey>Prev Step</Keys.HardKey>/<Keys.HardKey>Next Step</Keys.HardKey> unter Berücksichtigung der
+-   Auf Pulten mit einer <Keys.HardKey>Snap</Keys.HardKey>-Taste erreicht man den
+    nächsten/vorherigen Schritt der Cueliste mit den Tasten <Keys.HardKey>Prev 
+	Step</Keys.HardKey>/<Keys.HardKey>Next Step</Keys.HardKey> unter Berücksichtigung der
     programmierten Zeiten. Aktiviert man die <Keys.HardKey>Snap</Keys.HardKey>-Taste, so werden
-    die Zeiten ignoriert und direkt umgeschaltet. Für Pulte, die diese
-    Taste nicht haben, gibt es die Benutzereinstellungen [<Keys.SoftKey>Chase Snap</Keys.SoftKey>
-    bzw. <Keys.SoftKey>Cue List Snap</Keys.SoftKey>](../system-settings/user-settings.md#chase-snap).
+    die Zeiten ignoriert und direkt umgeschaltet. Für Pulte, die diese Taste nicht haben, 
+	gibt es die [Benutzereinstellungen](../system-settings/user-settings.md#chase-snap) <Keys.SoftKey>Chase Snap</Keys.SoftKey> bzw. <Keys.SoftKey>Cue List Snap</Keys.SoftKey>.
 
 -   Zur Direktanwahl eines Schritts drücken Sie die Taste <Keys.HardKey>Connect / Cue</Keys.HardKey>,
-    gefolgt von der Schrittnummer und <Keys.HardKey>Enter</Keys.HardKey> oder Funktionstaste A.
-    Alternativ tippen Sie im Hauptmenü einfach die Schrittnummer ein und
+    gefolgt von der Schrittnummer und <Keys.HardKey>Enter</Keys.HardKey> oder Funktionstaste 
+	A.<br/>Alternativ tippen Sie im Hauptmenü einfach die Schrittnummer ein und
     drücken <Keys.HardKey>Connect / Cue</Keys.HardKey>. (Diese Taste heißt je nach Pult <Keys.HardKey>Connect</Keys.HardKey>
 	oder <Keys.HardKey>Cue</Keys.HardKey>).
 
@@ -92,8 +92,8 @@ genauer eingestellt und geändert werden (klicken Sie dazu auf das kleine
 
 -   Beim Ausblenden des Reglers einer Cueliste werden die enthaltenen
     HTP-Kanäle ausgeblendet, die Cueliste an sich bleibt jedoch aktiv.
-    [Im nächsten Abschnitt](#eine-cueliste-deaktivieren) wird erläutert, wie die Cueliste deaktiviert
-    werden kann.
+    [Im nächsten Abschnitt](#eine-cueliste-deaktivieren) wird erläutert, 
+	wie die Cueliste deaktiviert werden kann.
 
 -   Mittels **Timecode** kann eine Cueliste [automatisch gesteuert werden](cue-list-timing.md#steuern-einer-cueliste-per-timecode).
 
@@ -111,9 +111,8 @@ betätigen die blaue **Select-Taste** der Cueliste.
 
 Das Verhalten lässt sich im Menü [Options](../cues/playback-options.md) ändern, so dass die
 Cueliste automatisch entladen wird, wenn man den Regler auf '0' bringt:
-drücken Sie dazu <Keys.SoftKey>Playback Options</Keys.SoftKey> im Programmier-Menü, dann die
-&nbsp;**Select-Taste** der Cueliste, und wählen die Option <Keys.SoftKey>Fader</Keys.SoftKey>, \[Fader
-Mode Intensity Kill At 0\].
+drücken Sie dazu <Keys.SoftKey>Options</Keys.SoftKey> im Programmier-Menü, dann die
+&nbsp;**Select-Taste** der Cueliste, und wählen die Option <Keys.SoftKey>Fader</Keys.SoftKey>, <Keys.SoftKey>Fader Mode Intensity Kill At 0</Keys.SoftKey>.
 
 Per [Tastenprofil (Key Profiles)](../system-settings/key-profiles.md#cue-lists) lässt sich auch eine der Tasten mit der
 Release-Funktion belegen.
@@ -192,6 +191,6 @@ nächstmöglichen Zeitpunkt nach diesem Cue ausgeführt.
 
 ## Tastenprofile für Cuelisten
 
-Mit [Tastenprofilen/Key Profiles](../system-settings/key-profiles.md), lassen sich der blauen und grauen Taste *(das Sapphire Touch verfügt auch über eine schwarze 
+Mit [Tastenprofilen/Key Profiles](../system-settings/key-profiles.md), lassen sich den einzelnen Tasten *(das Sapphire Touch verfügt auch über eine schwarze 
 Taste)* sowie der Schaltfläche einer Cueliste (wenn sie im Fenster 'Playbacks' 
 gespeichert ist) verschiedene Funktionen zuweisen. Im Abschnitt [Key Profiles](../system-settings/key-profiles.md#cue-lists) sind alle verfügbaren Funktionen aufgelistet.
