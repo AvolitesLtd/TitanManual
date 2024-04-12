@@ -71,7 +71,8 @@ Groups also have a User Number.
 
  Keypresses | Action
 ------------|-------------------
-<Keys.HardKey>Clear</Keys.HardKey> | Snap clear the programmer - this will release edited channels back to programmed state and deselect fixtures *(like Cheat on ETC)*
+<Keys.HardKey>Clear</Keys.HardKey> | Snap clear the programmer - this will clear the programmer, returning edited intensity/HTP channels back to programmed state and deselecting fixtures *(similar to Sneak on ETC but only acting on intensity channels)*
+<Keys.HardKey>Release</Keys.HardKey> + <Keys.HardKey>Clear</Keys.HardKey> | Release the programmer - this will clear the programmer, release edited channels (HTP and LTP) back to programmed state and deselect fixtures *(like Sneak on ETC)*
  **t** <Keys.HardKey>Clear</Keys.HardKey> | Clear edited channels fading over time **t**
  <Keys.HardKey>Clear</Keys.HardKey> + <Keys.HardKey>All</Keys.HardKey> | Deselect all fixtures, but keep edited values in the programmer
 
