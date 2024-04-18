@@ -71,6 +71,44 @@
       "id": "zero/system-tray"
     }
   ],
+  "prism": [
+    {
+      "type": "doc",
+      "id": "prism/about"
+    },
+    {
+      "type": "doc",
+      "id": "prism/playlist"
+    },
+    {
+      "type": "doc",
+      "id": "prism/encoder"
+    },
+    {
+      "type": "doc",
+      "id": "prism/encoder-settings"
+    },
+    {
+      "type": "doc",
+      "id": "prism/mediaplayer"
+    },
+    {
+      "type": "doc",
+      "id": "prism/layer-options"
+    },
+    {
+      "type": "doc",
+      "id": "prism/settings"
+    },
+    {
+      "type": "doc",
+      "id": "prism/save-load"
+    },
+    {
+      "type": "doc",
+      "id": "prism/system-tray"
+    }
+  ],
   "license": [
     {
       "type": "doc",
