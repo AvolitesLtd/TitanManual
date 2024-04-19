@@ -24,7 +24,7 @@ Is the destination folder of the transcoded file. It can be modified by clicking
 
 ### Match Source
 
-![Match Source Button](/prismdocs/images/match_source.png "Match Source Button")
+![Match Source Button](/prismdocs/images/match_source.png)
 
 This button will adjust both the video and audio settings to match those of the original file. Any user changes to the audio and video settings will be discarded when pressing th button.
 
@@ -101,7 +101,7 @@ _Note: The higher the bit rate, the greater the detail and dynamic range of the 
 
 To adjust trim points press the **Trim Media** button at the bottom of the section.
 
-![Trim Button](/prismdocs/images/trim.png "Trim Button")
+![Trim Button](/prismdocs/images/trim.png)
 
 Trim values can be manually entered into both the Trim IN Point and Trim OUT Point boxes either by typing the value or using the arrow keys in the current fields.
 
@@ -113,7 +113,7 @@ The total duration of the exported clip will be calculated as the difference bet
 
 To set a crop area press the the **Crop Video** button at the bottom.
 
-![Crop Button](/prismdocs/images/crop.png "Crop Button")
+![Crop Button](/prismdocs/images/crop.png)
 
 - **X** and **Y** specifies the starting pixel for the top left corner of the cropping area to be drawn from.
 - **Width** and **Height** sets the size of the area to be cropped, starting from the specified **X** and **Y** values.

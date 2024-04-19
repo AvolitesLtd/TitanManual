@@ -86,3 +86,24 @@ jobs:
         with:
           name: 'PDF'
           path: downloads
+          
+  prismpdf:
+    name: Prism PDF
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Prism PDF Docker Build
+        run: |
+          docker-compose run prism-pdf
+          mkdir downloads
+          mv prismDocsParser/output/*.pdf downloads
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: 'Prism PDF'
+          path: downloads

@@ -18,7 +18,7 @@ The right side of the interface is the **Preview Area** of the application.
 
 At the bottom of the **Preview Area** are options to control the playback.
 
-![Play Bar](/prismdocs/images/zeroplayhead.png "Play Bar")
+![Play Bar](/prismdocs/images/zeroplayhead.png)
 
 - Whether files should play once, loop as a playlist or shuffle
 - A playhead to show the current position within the file. This can be scrubbed manually by dragging the playhead along the timeline.
@@ -27,7 +27,7 @@ At the bottom of the **Preview Area** are options to control the playback.
 
 These controls can also be accessed via the bank elements settings view which can be opened from the settings button next to the element. 
 
-![Bank Element Settings](/prismdocs/images/bank_element_settings.png "Bank Element Settings")
+![Bank Element Settings](/prismdocs/images/bank_element_settings.png)
 
 Further controls can be found in the main header:
 
@@ -36,7 +36,7 @@ Further controls can be found in the main header:
 
 The bottom left of the interface is used to monitor machine performance by providing the current frames per second as well as CPU, RAM and VRAM of the computer.
 
-![Performance Bar](/prismdocs/images/performance_bar.png "Performance Bar")
+![Performance Bar](/prismdocs/images/performance_bar.png)
 
 ### Adding Media
 

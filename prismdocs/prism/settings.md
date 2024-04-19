@@ -32,7 +32,7 @@ If the **Resume Playback At Start** option is selected, **Prism Zero** will auto
 
 Unless a specific export destination has been set for an item in the **Encoderlist**, it will use the default locations specified here. Pressing the **Change Folder** button opens a dialogue allowing a new destination folder to be selected. This new location will then be shown in the **Default Folder** box.
 
-![Change Folder](/prismdocs/images/change_folder.png "Chnage Folder")
+![Change Folder](/prismdocs/images/change_folder.png)
 
 If the **Auto Update Encodelist** option is active, all existing jobs in the **Encodelist** will have their export destinations updated to the newly specified **Default Folder**. When this is deactivated, only newly added jobs will default to this location whilst pre-existing jobs will retain their already specified output location.
 
@@ -66,7 +66,7 @@ More information on how to setup a **Synergy** connection can be found [here](..
 
 The **Default Upload Folder** shows the storage location used by all media transfered to **Prism Zero** from **Titan** via a **Synergy** connection.
 
-![Change Folder](/prismdocs/images/change_folder.png "Change Folder")
+![Change Folder](/prismdocs/images/change_folder.png)
 
 This may be adjusted using the **CHANGE FOLDER** button.
 When activated, the **Auto Transcode** option will allow for automatic conversion of any files transferred to **Prism Zero** via **Synergy** without the need for user input.
