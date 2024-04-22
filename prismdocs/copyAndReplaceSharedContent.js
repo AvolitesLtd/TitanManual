@@ -3,9 +3,9 @@ const path = require('path');
 
 // Data for generating Markdown files
 const pages = [
-  { id: 'prism-player', app: 'Prism Player', path: 'player' },
-  { id: 'prism-zero', app: 'Prism Zero', path: 'zero' },
-  { id: 'prism', app: 'Prism', path: 'prism' },
+  { id: 'prism-player', app: 'Prism Player', path: 'Player' },
+  { id: 'prism-zero', app: 'Prism Zero', path: 'Zero' },
+  { id: 'prism', app: 'Prism', path: 'Prism' },
   // Add more pages as needed
 ]
 
@@ -44,9 +44,11 @@ function copyDirectoryContents(sourceDir, targetDir) {
 
 
 // Function to replace text in a file
-function replaceTextInFile(filePath, searchText, replaceText) {
+function replaceTextInFile(filePath, page) {
   const content = fs.readFileSync(filePath, 'utf8');
-  const result = content.replace(new RegExp(searchText, 'g'), replaceText);
+  const result = content.
+  replace(new RegExp('{{PRISM-APP}}', 'g'), page.app).
+  replace(new RegExp('{{PRISM-PATH}}', 'g'), page.path);
   fs.writeFileSync(filePath, result, 'utf8');
 }
 
@@ -55,17 +57,17 @@ function copyFile(source, target) {
   fs.copyFileSync(source, target);
 }
 
-function processFiles(directoryPath, searchText, replaceText) {
+function processFiles(directoryPath, page) {
 
   fs.readdirSync(directoryPath).forEach(file => {
     const filePath = path.join(directoryPath, file);
     const stats = fs.statSync(filePath);
     if (stats.isFile()) {
-      replaceTextInFile(filePath, searchText, replaceText);
+      replaceTextInFile(filePath, page);
       const newFilePath = path.join(directoryPath, file);
       copyFile(filePath, newFilePath);
     } else if (stats.isDirectory()) {
-      processFiles(filePath, searchText, replaceText); // Recursively process subdirectories
+      processFiles(filePath, page); // Recursively process subdirectories
     }
   });
 
@@ -82,6 +84,6 @@ pages.forEach(page => {
   //console.log(sourceDir, targetDir);
   copyDirectoryContents(sourceDir, targetDir);
 
-  processFiles(targetDir, '{{PRISM-APP}}', page.app);
+  processFiles(targetDir, page);
 
 });

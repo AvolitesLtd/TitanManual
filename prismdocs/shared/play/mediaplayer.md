@@ -47,7 +47,7 @@ Media can be added and played using several different methods:
 - Pressing the _"Select Files"_ button in the **Playlist** or **Encoder** area
 - Dragging a file into the **Preview Area** area will automatically add the video to the playlist and begin playing
 
-**{{PRISM-APP}}** will save all files to a standard default location `Documents > Avolites > Prism > Player` unless individually specified within the settings of any **Encoder Element**. The path of this folder can be changed in the **Encoder section** of the **Settings Page**.
+**{{PRISM-APP}}** will save all files to a standard default location `Documents > Avolites > Prism > {{PRISM-PATH}}` unless individually specified within the settings of any **Encoder Element**. The path of this folder can be changed in the **Encoder section** of the **Settings Page**.
 
 ## Shortcuts
 
