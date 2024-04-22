@@ -6,7 +6,7 @@ sidebar_label: Licensing
 
 ---
 
-# Player
+# Prism Player
 
 _Important Note: valid for version (1.1)_
 
@@ -18,7 +18,7 @@ If you have no internet connection, and no AvoKey, you will need to purchase an 
 
 If Prism Player doesn’t start, then please submit a support request to <a href="mailto:support@avolites.com?subject=Prism%20Zero:">support@avolites.com</a>
 
-# Zero
+# Prism Zero
 
 Prism Zero will already work with your **AvoKey** or **Editor Keys**. Both can also be purchased from any of our distributors.
 

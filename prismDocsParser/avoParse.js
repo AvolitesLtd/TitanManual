@@ -9,7 +9,7 @@ class avoParse {
     this.lang = 'en'
 
     this.paths = {
-      sidebar: path.resolve(__dirname,"../website/prism_sidebars.json"),
+      sidebar: path.resolve(__dirname,"../prismdocs/prism_sidebars.json"),
       outputDir: path.resolve(__dirname,"./output"),
       docsDir: path.resolve(__dirname,"../prismdocs"),
       staticDir: path.resolve(__dirname,`../website/static`),
