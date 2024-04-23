@@ -69,7 +69,7 @@ WORKDIR /app/parse
 CMD ["node pdf.js"]
 
 # PDF build
-FROM builder AS prism-pdf
+FROM builder AS prismpdf
 WORKDIR /app/parse
 CMD ["node prism-pdf.js"]
 
