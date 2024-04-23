@@ -241,9 +241,9 @@ function sidebarPath(version) {
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} Absolute path to the docs folder without the trailing slash, e.g. `/Users/user/AvoDocs/docs`
  */
-function docsVersionPath(version) {
+function docsVersionPath(version, appName) {
   if(version == "next") {
-    return path.resolve(avoParse.paths.docsDir);
+    return path.resolve(avoParse.paths.docsDir+ "/" + appName);
   }
   else {
     let filePath = path.join(avoParse.paths.versionedDocsDir,`version-${version}/`);
@@ -261,15 +261,12 @@ function docsVersionPath(version) {
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} The concatenated formatted files
  */
-function formatMdFiles(docsPath, sidebar, version) {
+function formatMdFiles(docsPath, sidebar, version, appName) {
   let output = "";
   let docs = []
   
   if(version == 'next') {
     docs = sidebar;
-  }
-  else {
-    docs = sidebar[`version-${version}\/docs`];
   }
 
   for(let index in docs) {
@@ -277,14 +274,14 @@ function formatMdFiles(docsPath, sidebar, version) {
     if (docs[index].items)
     {
       for(let page of docs[index].items) {
-        page = page.id.replace(`version-${version}/`,"")
-        output += formatMd(docsPath,page+'.md',version,sec);
+        const paths = page.id.replace(appName+"/", '');
+        output += formatMd(docsPath,paths+'.md',version,sec, appName);
       }
     }
     else
     {
-        console.log(docs[index])
-        output += formatMd(docsPath,docs[index].id+'.md',version,sec);
+      const path = docs[index].id.replace(appName+"/", '');
+      output += formatMd(docsPath,path+'.md',version,sec, appName);
     }
   }
 
@@ -297,9 +294,9 @@ function formatMdFiles(docsPath, sidebar, version) {
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} Absolute file path to the latest version (null if not found)
  */
-function resolvePageVersion(filename,version) {
-  let filepath = path.resolve(docsVersionPath(version), filename);
-  
+function resolvePageVersion(filename, version, appName = "") {
+  let filepath = path.resolve(docsVersionPath(version, appName), filename);
+  console.log(filepath)
   if (fs.existsSync(filepath)) {
     return filepath;
   }
@@ -322,9 +319,9 @@ function resolvePageVersion(filename,version) {
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} The formatted MarkDown
  */
-function formatMd(docsPath,filename,version,sectionHeading) {
+function formatMd(docsPath,filename,version,sectionHeading, appName) {
     console.log(filename)
-  let filepath = resolvePageVersion(filename,version);
+  let filepath = resolvePageVersion(filename,version, appName);
 
   if (!filepath) {
     process.emitWarning(`[${version}] ${filename}: File referenced in sidebar not found`);
@@ -445,14 +442,14 @@ function createPDF(doc, section=null, options={}) {
   let sidebar = JSON.parse(sidebarFile)[doc.sidebar];
 
   // get the path for docs of the version
-  docsPath = docsVersionPath(version)+ "/" + doc.path;
+  docsPath = docsVersionPath(version, doc.sidebar)+ "/" + doc.path;
 
   let output = '';
   output += fs.readFileSync(legalPath);
   output += "\n\n";
 
   // format the files
-  output += formatMdFiles(docsPath, sidebar, version);
+  output += formatMdFiles(docsPath, sidebar, version, doc.sidebar);
 
   // create formatted MD file
   let formattedMdPath = path.join(avoParse.paths.outputDir, doc.sidebar + "-pdf.md");
