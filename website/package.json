@@ -23,7 +23,7 @@
     "icon-font": "fantasticon custom_icons -o static/avolites-icons --normalize 1",
     "og": "node ../parse/opengraph.js",
     "pdf": "node ../parse/pdf.js",
-    "prism-pdf": "node ../prismDocsParser/pdf.js",
+    "prism-pdf": "node ../parse/prism-pdf.js",
     "docker-pdf": "cd .. && docker-compose up --build pdf",
     "docker-prism-pdf": "cd .. && docker-compose up --build prism-pdf",
     "app": "electron .",

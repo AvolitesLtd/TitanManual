@@ -4,7 +4,7 @@ const { promisify } = require('util');
 const readdir = promisify(fs.readdir);
 const stat = promisify(fs.stat);
 class avoParse {
-  constructor() {
+  constructor(isPrism) {
     // standard language used in main docs
     this.lang = 'en'
 
@@ -21,7 +21,7 @@ class avoParse {
       transDocsDir: path.resolve(__dirname,'../website/i18n'),
       i18nDir: path.resolve(__dirname,'../website/i18n'),
     }
-
+  
     this.regex = {
       // matches Yaml block with title
       yamlBlockTitle: /^---(?:[\n]|.)*title: *([\w ]*)(?:[\n]|.(?!--))*---/mgi,

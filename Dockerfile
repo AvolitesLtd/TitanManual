@@ -55,6 +55,7 @@ RUN npm install --unsafe-perm=true
 
 COPY ./docs /app/docs
 COPY ./parse /app/parse
+COPY ./prismdocs /app/prismdocs
 
 # localhost
 FROM builder AS web
@@ -66,6 +67,11 @@ CMD ["npm run start"]
 FROM builder AS pdf
 WORKDIR /app/parse
 CMD ["node pdf.js"]
+
+# PDF build
+FROM builder AS prism-pdf
+WORKDIR /app/parse
+CMD ["node prism-pdf.js"]
 
 # app build
 FROM builder AS app

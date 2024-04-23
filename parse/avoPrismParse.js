@@ -10,6 +10,9 @@ class avoParse {
 
     this.paths = {
       sidebar: path.resolve(__dirname,"../prismdocs/prism_sidebars.json"),
+      versionedSideberDir: null,
+      versions: null,
+      versionedDocsDir: null,
       outputDir: path.resolve(__dirname,"./output"),
       docsDir: path.resolve(__dirname,"../prismdocs"),
       staticDir: path.resolve(__dirname,`../website/static`),
@@ -18,7 +21,7 @@ class avoParse {
       transDocsDir: path.resolve(__dirname,'../website/i18n'),
       i18nDir: path.resolve(__dirname,'../website/i18n'),
     }
-
+  
     this.regex = {
       // matches Yaml block with title
       yamlBlockTitle: /^---(?:[\n]|.)*title: *([\w ]*)(?:[\n]|.(?!--))*---/mgi,

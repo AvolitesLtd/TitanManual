@@ -7,85 +7,85 @@ env:
   NODE_VERSION: '16.x'
 
 jobs:  
-  app:
-    name: App Build
+  # app:
+  #   name: App Build
 
-    runs-on: ${{ matrix.os }}
+  #   runs-on: ${{ matrix.os }}
 
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+  #   strategy:
+  #     fail-fast: false
+  #     matrix:
+  #       os: [ubuntu-latest, windows-latest, macOS-latest]
 
-    steps:
-      - name: Context
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT"
+  #   steps:
+  #     - name: Context
+  #       env:
+  #         GITHUB_CONTEXT: ${{ toJson(github) }}
+  #       run: echo "$GITHUB_CONTEXT"
       
-      - uses: actions/checkout@v2
-        with:
-          submodules: recursive
+  #     - uses: actions/checkout@v2
+  #       with:
+  #         submodules: recursive
 
-      - name: Use Node.js ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ env.NODE_VERSION }}
+  #     - name: Use Node.js ${{ env.NODE_VERSION }}
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: ${{ env.NODE_VERSION }}
 
-      - name: Install Dependencies
-        run: |
-          cd website/docusaurus-search-local
-          yarn install --frozen-lockfile
-          yarn build
-          cd ../
-          mkdir download
-          yarn install --frozen-lockfile
+  #     - name: Install Dependencies
+  #       run: |
+  #         cd website/docusaurus-search-local
+  #         yarn install --frozen-lockfile
+  #         yarn build
+  #         cd ../
+  #         mkdir download
+  #         yarn install --frozen-lockfile
 
-      - name: Linux/Mac App Build & Copy to downloads
-        if: matrix.os != 'windows-latest'
-        run: |
-          cd website
-          GH_TOKEN=${{secrets.GITHUB_TOKEN}} npm run app-build
-          mv dist/*.zip dist/*.dmg dist/*.deb dist/*.AppImage downloads || true
+  #     - name: Linux/Mac App Build & Copy to downloads
+  #       if: matrix.os != 'windows-latest'
+  #       run: |
+  #         cd website
+  #         GH_TOKEN=${{secrets.GITHUB_TOKEN}} npm run app-build
+  #         mv dist/*.zip dist/*.dmg dist/*.deb dist/*.AppImage downloads || true
 
-      - name: Windows App Build & Copy to downloads
-        if: matrix.os == 'windows-latest'
-        run: |
-          cd website
-          npm run app-build
-          mv dist/*.exe download
-          mv dist/*.zip download
+  #     - name: Windows App Build & Copy to downloads
+  #       if: matrix.os == 'windows-latest'
+  #       run: |
+  #         cd website
+  #         npm run app-build
+  #         mv dist/*.exe download
+  #         mv dist/*.zip download
 
-        env:
-          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+  #       env:
+  #         GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v1
-        with:
-          name: ${{matrix.os}}
-          path: website/download
+  #     - name: Upload artifacts
+  #       uses: actions/upload-artifact@v1
+  #       with:
+  #         name: ${{matrix.os}}
+  #         path: website/download
           
-  pdf:
-    name: PDF
+  # pdf:
+  #   name: PDF
 
-    runs-on: ubuntu-latest
+  #   runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: recursive
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #       with:
+  #         submodules: recursive
 
-      - name: PDF Docker Build
-        run: |
-          docker-compose run pdf
-          mkdir downloads
-          mv parse/output/*.pdf downloads
+  #     - name: PDF Docker Build
+  #       run: |
+  #         docker-compose run pdf
+  #         mkdir downloads
+  #         mv parse/output/*.pdf downloads
 
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v1
-        with:
-          name: 'PDF'
-          path: downloads
+  #     - name: Upload artifacts
+  #       uses: actions/upload-artifact@v1
+  #       with:
+  #         name: 'PDF'
+  #         path: downloads
           
   prismpdf:
     name: Prism PDF
@@ -101,7 +101,7 @@ jobs:
         run: |
           docker-compose run prism-pdf
           mkdir downloads
-          mv prismDocsParser/output/*.pdf downloads
+          mv parse/output/*-pdf.pdf downloads
       - name: Upload artifacts
         uses: actions/upload-artifact@v1
         with:

@@ -1,11 +1,8 @@
 const path = require('path');
 const fs = require('fs');
-const avoParse = require('./avoParse')
+const avoParse = require('./avoPrismParse')
 const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
-//const console = require('node:console');
-//const console = require('node:console');
-// const versions = require(avoParse.paths.versions);
 
 const legalPath = path.join(__dirname,"PDF/legal-en.md");
 const templatePath = path.join(__dirname,"PDF/eisvogel_avo.latex");
@@ -13,24 +10,17 @@ const sectionNumberFilter = path.join(__dirname,"PDF/lua-section-number-filter.l
 const headerPath = path.join(__dirname,"PDF/header.yaml");
 const logoPath = path.join(__dirname,"PDF/avo.png");
 
-// Command line options
-program
-  .option('-v, --manversion <version>', 'specify which version to produce, use "-v next" to produce the /docs folder')
-  .option('-s, --section <section>', 'specify a specific section to output, e.g. -s synergy')
-  .option('-o, --output-dir <dir>', 'specify the directory the PDF is output to, e.g. -o ~/Desktop')
-  .option('--no-legal', 'omit the legal section of the manual')
-  .parse(process.argv);
+const docs = [
+    { sidebar: 'player', appName: 'Prism Player', path: 'Player' },
+    { sidebar: 'zero',  appName: 'Prism Zero', path: 'Zero' },
+    { sidebar: 'prism', appName: 'Prism', path: 'Prism' },
+    // Add more pages as needed
+]
 
-program.outputDir = setOutputDir(program.outputDir);
-
-const section = program.section ? program.section.toLowerCase() : null;
-
-const options = {
-  legal: program.legal,
-  outputDir: program.outputDir,
+for (doc of docs)
+{
+    createPDF(doc, null);
 }
-
-createPDF("next", section, options)
 
 /**
  * Get all of the versions of the docs specified in the versions.json file, plus `next`
@@ -174,11 +164,9 @@ function replaceLinks(filename,content,docsPath,version) {
  * @return {string} The content with the images fixed
  */
 function replaceImagepath(filename,content) {
-  console.log(avoParse.paths.staticDir)
   // matches all images with local sources
   return content.replace(avoParse.regex.imagesLocal, function (match,alt,src) {
     let fullSrc = path.join(avoParse.paths.staticDir, src);
-    console.log(fullSrc)
     if (!fs.existsSync(fullSrc)) {
       // check image exists
       process.emitWarning(`${filename}: Image '${src}' not found`);
@@ -275,20 +263,28 @@ function docsVersionPath(version) {
  */
 function formatMdFiles(docsPath, sidebar, version) {
   let output = "";
-
+  let docs = []
+  
   if(version == 'next') {
-    docs = [sidebar.player, sidebar.zero, sidebar.prism] ;
+    docs = sidebar;
   }
   else {
     docs = sidebar[`version-${version}\/docs`];
   }
 
-  for (const doc of docs)
-  {
-    for (page of doc)
-    {    
-      const pageparse = page.id
-      output += formatMd(docsPath,pageparse+'.md',version);
+  for(let index in docs) {
+    let sec = docs[index].label;
+    if (docs[index].items)
+    {
+      for(let page of docs[index].items) {
+        page = page.id.replace(`version-${version}/`,"")
+        output += formatMd(docsPath,page+'.md',version,sec);
+      }
+    }
+    else
+    {
+        console.log(docs[index])
+        output += formatMd(docsPath,docs[index].id+'.md',version,sec);
     }
   }
 
@@ -303,7 +299,7 @@ function formatMdFiles(docsPath, sidebar, version) {
  */
 function resolvePageVersion(filename,version) {
   let filepath = path.resolve(docsVersionPath(version), filename);
-
+  
   if (fs.existsSync(filepath)) {
     return filepath;
   }
@@ -326,10 +322,11 @@ function resolvePageVersion(filename,version) {
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} The formatted MarkDown
  */
-function formatMd(docsPath,filename,version,sectionHeading= "") {
+function formatMd(docsPath,filename,version,sectionHeading) {
+    console.log(filename)
   let filepath = resolvePageVersion(filename,version);
+
   if (!filepath) {
-  console.log(filepath)
     process.emitWarning(`[${version}] ${filename}: File referenced in sidebar not found`);
     return '';
   }
@@ -370,10 +367,10 @@ function formatMd(docsPath,filename,version,sectionHeading= "") {
  */
 function generatePDF(filePath,version,section=null,options={}) {
   // format version name, e.g. "Titan 13.0"
-  if(version == "next") {
-    version = "";
-  }
-  version = `Prism ${version}`;
+//   if(version == "next") {
+//     version = "Pre-Release";
+//   }
+  version = `Prism`;
 
   // add a dash before the section if there is one specified
   section = section ? '-' + section : '';
@@ -382,15 +379,13 @@ function generatePDF(filePath,version,section=null,options={}) {
   const ISODate = new Date().toISOString().slice(0,19).replace(/[T:]/g,"-");
 
   // format & sanitize the filename
-  let filename = `${version}${section}-${ISODate}`;
+  let filename = `${section}-${ISODate}`;
   filename = filename.replace(/[^\w]/g,"-");
   filename += '.pdf';
-  filename = path.join(options.outputDir, filename);
-
   // options
-  options.templatePath = options.templatePath ? options.templatePath : templatePath;
-  options.headerPath = options.headerPath ? options.headerPath : headerPath;
-  options.logoPath = options.logoPath ? options.logoPath : logoPath;
+  options.templatePath = templatePath;
+  options.headerPath = headerPath;
+  options.logoPath = logoPath;
 
   console.log(`Producing PDF: ${filename}`)
 
@@ -411,15 +406,15 @@ pandoc --template "${options.templatePath}" \
   -M date="$DATE" \
   -M footer-center="$DATE" \
   -M footer-left="${version} Manual" \
-  -M title="Avolites Prism Manual" \
+  -M title="Avolites Titan Manual" \
   -M subtitle="${version}" \
   -M logo="${options.logoPath}" \
   -V colorlinks=true \
   -V block-headings \
   "${filePath}"`;
 
-  console.log(command)
   var hrstart = process.hrtime();
+
   execSync(command, (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
@@ -449,27 +444,26 @@ pandoc --template "${options.templatePath}" \
  *  - options.outputDir - the output directory to write to
  * @return {string} The filename of the produced PDF
  */
-function createPDF(version,section=null, options={}) {
-  console.log(`Formatting version '${version}'`)
+function createPDF(doc, section=null, options={}) {
+const version = "next"
+
 
   // get the path of the sidebar file
   let sidebarFile = fs.readFileSync(sidebarPath(version));
-  let sidebar = JSON.parse(sidebarFile);
+  let sidebar = JSON.parse(sidebarFile)[doc.sidebar];
 
   // get the path for docs of the version
-  docsPath = docsVersionPath(version);
+  docsPath = docsVersionPath(version)+ "/" + doc.path;
 
   let output = '';
-  if (options.legal) {
-    output += fs.readFileSync(options.legalPath ? options.legalPath : legalPath);
-    output += "\n\n";
-  }
+  output += fs.readFileSync(legalPath);
+  output += "\n\n";
 
   // format the files
   output += formatMdFiles(docsPath, sidebar, version);
 
   // create formatted MD file
-  let formattedMdPath = path.join(options.outputDir, "pdf.md");
+  let formattedMdPath = path.join(avoParse.paths.outputDir, doc.sidebar + "-pdf.md");
   try {
     fs.writeFileSync(formattedMdPath, output);
   }
