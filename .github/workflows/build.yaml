@@ -99,7 +99,7 @@ jobs:
 
       - name: Prism PDF Docker Build
         run: |
-          docker-compose run prism-pdf
+          docker-compose run prismpdf
           mkdir downloads
           mv parse/output/*-pdf.pdf downloads
       - name: Upload artifacts
