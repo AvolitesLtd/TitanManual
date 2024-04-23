@@ -101,7 +101,7 @@ jobs:
         run: |
           docker-compose run prismpdf
           mkdir downloads
-          mv parse/output/*-pdf.pdf downloads
+          mv parse/output/*.pdf downloads
       - name: Upload artifacts
         uses: actions/upload-artifact@v1
         with:
