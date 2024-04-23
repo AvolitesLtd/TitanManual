@@ -11,9 +11,9 @@ const headerPath = path.join(__dirname,"PDF/header.yaml");
 const logoPath = path.join(__dirname,"PDF/avo.png");
 
 const docs = [
-    { sidebar: 'player', appName: 'Prism Player', path: 'Player' },
-    { sidebar: 'zero',  appName: 'Prism Zero', path: 'Zero' },
-    { sidebar: 'prism', appName: 'Prism', path: 'Prism' },
+    { sidebar: 'player', appName: 'Prism Player', version: "v1.2", path: 'Player' },
+    { sidebar: 'zero',  appName: 'Prism Zero', version: "v1.2", path: 'Zero' },
+    { sidebar: 'prism', appName: 'Prism', version: "v1.3", path: 'Prism' },
     // Add more pages as needed
 ]
 
@@ -365,27 +365,20 @@ function formatMd(docsPath,filename,version,sectionHeading) {
  * @param {string} version (Optional) Which section is being exported
  * @return {string} The filename of the produced PDF
  */
-function generatePDF(filePath,version,section=null,options={}) {
-  // format version name, e.g. "Titan 13.0"
-//   if(version == "next") {
-//     version = "Pre-Release";
-//   }
-  version = `Prism`;
-
-  // add a dash before the section if there is one specified
-  section = section ? '-' + section : '';
-
+function generatePDF(filePath, appName, version,options={}) {
   // current date and time
   const ISODate = new Date().toISOString().slice(0,19).replace(/[T:]/g,"-");
 
   // format & sanitize the filename
-  let filename = `${section}-${ISODate}`;
+  let filename = `${appName}-${ISODate}`;
   filename = filename.replace(/[^\w]/g,"-");
   filename += '.pdf';
+  filename = path.join(avoParse.paths.outputDir, filename);
+
   // options
-  options.templatePath = templatePath;
-  options.headerPath = headerPath;
-  options.logoPath = logoPath;
+  options.templatePath = options.templatePath ? options.templatePath : templatePath;
+  options.headerPath = options.headerPath ? options.headerPath : headerPath;
+  options.logoPath = options.logoPath ? options.logoPath : logoPath;
 
   console.log(`Producing PDF: ${filename}`)
 
@@ -445,8 +438,7 @@ pandoc --template "${options.templatePath}" \
  * @return {string} The filename of the produced PDF
  */
 function createPDF(doc, section=null, options={}) {
-const version = "next"
-
+  const version = "next"
 
   // get the path of the sidebar file
   let sidebarFile = fs.readFileSync(sidebarPath(version));
@@ -473,5 +465,5 @@ const version = "next"
   }
 
   // generate the PDF
-  return generatePDF(formattedMdPath,version,section,options);
+  return generatePDF(formattedMdPath, doc.appName + "-" + doc.version, version,options);
 }
