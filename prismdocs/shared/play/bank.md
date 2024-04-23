@@ -40,4 +40,4 @@ After any adjustments, when the media is ready to export, pressing the **Send To
 
 ### Import & Export
 
-Playlists are able to be imported and exported from the application by clicking `Edit > Import / Export` from the header menu. The dialog defaults its location to the Windows Documents Folder under `Avolites > Prism > {{PRISM-PATH}}`.
+Banks are able to be imported and exported from the application by clicking `Edit > Import / Export` from the header menu. The dialog defaults its location to the Windows Documents Folder under `Avolites > Prism > {{PRISM-PATH}}`.

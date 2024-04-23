@@ -10,7 +10,7 @@ sidebar_label: Synergy
 
 The **Synergy** version in use must match the Titan version. If a missmatch is identified within Titan's **Synergy** Settings, a different version can be selected via this dropdown.
 
-More information on how to setup a **Synergy** connection can be found [here](../../../docs/synergy)
+More information on how to setup a **Synergy** connection can be found [here](../../../../docs/synergy)
 
 **Port** specifies which port is used to allow **Prism Zero** and **Titan** to communicate.
 

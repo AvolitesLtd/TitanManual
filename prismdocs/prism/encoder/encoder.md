@@ -23,11 +23,11 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual files al
 - **Hide** or **Show** to minimise the files view / details.
 - **Expand** to view the source settings and help compare changes made in the encode settings.
 - **Rename** to set the file's tag name, to be used when sending to the encoder.
-- **Remove** to delete the file from the **Encodelist**.
+- **Remove** to delete the file from the **Encode List**.
 - **Settings** displays all encoder settings as described [here](encoder-settings).
 - **Duplicate** will copy and create a new element, ready for transcoding.
 
-Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> button at the top of the **Encodelist** will affect all selected files.
+Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> button at the top of the **Encode List** will affect all selected files.
 
 The order in which the elements are arranged will be the order of the encoding queue this can be changed by dragging and dropping the element to another position in the queue.
 
@@ -35,4 +35,4 @@ At the bottom of the **Encoder** queue a readout shows the completion percentage
 
 ### Import & Export
 
-Encodelists are able to be imported and exported from the application by clicking `Edit > Import / Export` from the header menu. The dialog defaults its location to the Windows Documents Folder under `Avolites > Prism > Prism`.
+Encode Lists are able to be imported and exported from the application by clicking `Edit > Import / Export` from the header menu. The dialog defaults its location to the Windows Documents Folder under `Avolites > Prism > Prism`.

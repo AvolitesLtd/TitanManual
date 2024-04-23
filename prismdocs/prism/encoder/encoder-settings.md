@@ -6,8 +6,8 @@ sidebar_label: Encoder Settings
 
 import Keys from '@site/src/components/key.ts';
 
-The **Encoder Settings** section let users specify the settings to be applied on an encodelist item.
-It is accesible by left clicking the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon next to the encodelist item name and then clicking on **Settings**.
+The **Encoder Settings** section let users specify the settings to be applied on an Encode List item.
+It is accesible by left clicking the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon next to the Encode List item name and then clicking on **Settings**.
 The results of these settings will be applied to the file once you press **Back** to the **Encoder** area and then transcode the item.
 
 ## File settings
@@ -18,7 +18,7 @@ Is the name assigned to the encoded item after transcoding. It can be modified e
 
 ### File output folder
 
-Is the destination folder of the transcoded file. It can be modified by clicking the <Keys.PrismKey>Folder</Keys.PrismKey> icon. The default value of the destination folder is the one selected in the general [settings](settings.md#encoder) encoder tab.
+Is the destination folder of the transcoded file. It can be modified by clicking the <Keys.PrismKey>Folder</Keys.PrismKey> icon. The default value of the destination folder is the one selected in the general [settings](../settings/settings-encoder) encoder tab.
 
 ## Video settings
 
@@ -90,10 +90,10 @@ _Note: Prism can only convert existing audio channels, it cannot alter the amoun
 
 Bit depth can be set between:
 
-- 8
-- 16
-- 24
-- 32
+- 8 bits
+- 16 bits
+- 24 bits
+- 32 bits
 
 _Note: The higher the bit rate, the greater the detail and dynamic range of the audio._
 

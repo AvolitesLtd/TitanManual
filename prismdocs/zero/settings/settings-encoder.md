@@ -10,4 +10,4 @@ Unless a specific export destination has been set for an item in the **Encoderli
 
 ![Change Folder](/prismdocs/images/change_folder.png)
 
-If the **Auto Update Encodelist** option is active, all existing jobs in the **Encodelist** will have their export destinations updated to the newly specified **Default Folder**. When this is deactivated, only newly added jobs will default to this location whilst pre-existing jobs will retain their already specified output location.
+If the **Auto Update Encode List** option is active, all existing jobs in the **Encode List** will have their export destinations updated to the newly specified **Default Folder**. When this is deactivated, only newly added jobs will default to this location whilst pre-existing jobs will retain their already specified output location.
