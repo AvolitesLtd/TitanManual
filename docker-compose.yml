@@ -34,7 +34,7 @@ services:
       context: .
       target: prismpdf
     volumes:
-      - ./docs:/app/prismdocs
+      - ./prismdocs:/app/prismdocs
       - ./parse:/app/parse
       - ./website:/app/website
       - /app/website/node_modules
