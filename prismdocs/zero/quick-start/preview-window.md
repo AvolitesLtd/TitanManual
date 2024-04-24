@@ -1,6 +1,6 @@
 ---
 id: preview-window
 title: Preview Window
-sibebar-label: Preview Window
+sidebar_label: Preview Window
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: system-tray
 title: System Tray
-sibebar-label: System Tray
+sidebar_label: System Tray
 ---
 
 Once **Prism Zero** has been started, a **System Tray** icon becomes available to access several features:

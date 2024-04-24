@@ -1,7 +1,7 @@
 ---
 id: mediaplayer
 title: Media Player
-sibebar-label: Media Player
+sidebar_label: Media Player
 ---
 
 import Keys from '@site/src/components/key.ts';

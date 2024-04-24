@@ -1,6 +1,6 @@
 ---
 id: surfaces
 title: Surfaces
-sibebar-label: Surfaces
+sidebar_label: Surfaces
 ---
 

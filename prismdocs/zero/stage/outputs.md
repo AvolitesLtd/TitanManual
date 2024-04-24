@@ -1,6 +1,6 @@
 ---
 id: outputs
 title: Outputs
-sibebar-label: Outputs
+sidebar_label: Outputs
 ---
 
