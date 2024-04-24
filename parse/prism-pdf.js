@@ -461,7 +461,7 @@ function createPDF(doc, section=null, options={}) {
   output += formatMdFiles(docsPath, sidebar, version, doc.sidebar);
 
   // create formatted MD file
-  let formattedMdPath = path.join(avoParse.paths.outputDir, sidebar + "-pdf.md");
+  let formattedMdPath = path.join(avoParse.paths.outputDir, doc.sidebar + "-" + doc.version + "-pdf.md");
   try {
     fs.writeFileSync(formattedMdPath, output);
   }
