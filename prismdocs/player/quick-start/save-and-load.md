@@ -1,5 +1,5 @@
 ---
-id: save-load
+id: save-and-load
 title: "Save and Load"
 sidebar_label: "Save and Load"
 ---

@@ -274,7 +274,6 @@ function formatMdFiles(docsPath, sidebar, version, appName) {
   for(let index in docs) {
     if (docs[index].items)
     {
-      console.log(docs[index].items)
       for(let page of docs[index].items) {
         let sec = page.label;
         if (page.items)
@@ -451,7 +450,6 @@ function createPDF(doc, section=null, options={}) {
   // get the path of the sidebar file
   let sidebarFile = fs.readFileSync(sidebarPath(version));
   let sidebar = JSON.parse(sidebarFile)[doc.sidebar];
-  console.log(sidebar)
   // get the path for docs of the version
   docsPath = docsVersionPath(version, sidebar)+ "/" + doc.path;
 
