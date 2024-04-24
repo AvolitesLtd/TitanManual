@@ -93,10 +93,6 @@ function filenameToTitleLink(filename) {
  * @return {string} The content with the YAML block replaced
  */
 function replaceYaml(filename, content, sectionHeading) {
-  console.log(filename, sectionHeading)
-
-
-  
   // matches Yaml block with title
   return content.replace(avoParse.regex.yamlBlockTitle,function (match,title) {
 
