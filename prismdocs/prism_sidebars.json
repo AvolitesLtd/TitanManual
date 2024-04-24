@@ -6,7 +6,6 @@
       "id": "player/introduction"
     },
     {
-      "collapsed": true,
       "type": "category",
       "label": "Prism Player",
       "collapsed": false,
@@ -86,7 +85,6 @@
       "id": "zero/introduction"
     },
     {
-      "collapsed": true,
       "type": "category",
       "label": "Prism Zero",
       "collapsed": false,
@@ -170,7 +168,6 @@
       "id": "prism/introduction"
     },
     {
-      "collapsed": true,
       "type": "category",
       "label": "Prism",
       "collapsed": false,

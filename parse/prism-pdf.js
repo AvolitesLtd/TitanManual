@@ -280,8 +280,21 @@ function formatMdFiles(docsPath, sidebar, version, appName) {
     if (docs[index].items)
     {
       for(let page of docs[index].items) {
-        const paths = page.id.replace(appName+"/", '');
-        output += formatMd(docsPath,paths+'.md',version, sec, appName);
+        console.log(page.items)
+
+        if (page.items)
+        {
+          for (let items of page.items)
+          {
+            const paths = items.id.replace(appName+"/", '');
+            output += formatMd(docsPath,paths+'.md',version, sec, appName);
+          }
+        }
+
+        else {
+          const paths = page.id.replace(appName+"/", '');
+          output += formatMd(docsPath,paths+'.md',version, sec, appName);
+        }
       }
     }
     else
@@ -368,10 +381,9 @@ function formatMd(docsPath,filename,version,sectionHeading, appName) {
  */
 function generatePDF(filePath, appName, version,options={}) {
   // current date and time
-  const ISODate = new Date().toISOString().slice(0,19).replace(/[T:]/g,"-");
 
   // format & sanitize the filename
-  let filename = `${appName}-${ISODate}`;
+  let filename = `${appName}`;
   filename = filename.replace(/[^\w]/g,"-");
   filename += '.pdf';
   filename = path.join(avoParse.paths.outputDir, filename);
@@ -384,28 +396,29 @@ function generatePDF(filePath, appName, version,options={}) {
   console.log(`Producing PDF: ${filename}`)
 
   const command = `
-DATE=$(date "+%d %B %Y")
+    DATE=$(date "+%d %B %Y")
 
-pandoc --template "${options.templatePath}" \
-  -o "${filename}" \
-  --pdf-engine=xelatex \
-  --highlight-style kate \
-  --metadata-file "${options.headerPath}" \
-  --toc \
-  --number-sections \
-  -fmarkdown-implicit_figures \
-  --self-contained \
-  --lua-filter="${sectionNumberFilter}" \
-  -V fontsize=8pt \
-  -M date="$DATE" \
-  -M footer-center="$DATE" \
-  -M footer-left="${appName} Manual" \
-  -M title="Avolites Titan Manual" \
-  -M subtitle="${appName}" \
-  -M logo="${options.logoPath}" \
-  -V colorlinks=true \
-  -V block-headings \
-  "${filePath}"`;
+    pandoc --template "${options.templatePath}" \
+      -o "${filename}" \
+      --pdf-engine=xelatex \
+      --highlight-style kate \
+      --metadata-file "${options.headerPath}" \
+      --toc \
+      --number-sections \
+      -fmarkdown-implicit_figures \
+      --self-contained \
+      --lua-filter="${sectionNumberFilter}" \
+      -V fontsize=8pt \
+      -M date="$DATE" \
+      -M footer-center="$DATE" \
+      -M footer-left="${appName} Manual" \
+      -M title="Avolites Titan Manual" \
+      -M subtitle="${appName}" \
+      -M logo="${options.logoPath}" \
+      -V colorlinks=true \
+      -V block-headings \
+      "${filePath}"
+  `;
 
   var hrstart = process.hrtime();
 
