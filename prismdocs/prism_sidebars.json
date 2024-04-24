@@ -163,6 +163,7 @@
       "items": [
         {
           "type": "doc",
+          "label": "Introduction",
           "id": "prism/introduction"
         },
         {

@@ -272,11 +272,11 @@ function formatMdFiles(docsPath, sidebar, version, appName) {
   let docs = sidebar
     
   for(let index in docs) {
-    let sec = docs[index].label;
     if (docs[index].items)
     {
       console.log(docs[index].items)
       for(let page of docs[index].items) {
+        let sec = page.label;
         if (page.items)
         {
           for (item of page.items)
