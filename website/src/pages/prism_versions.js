@@ -5,9 +5,9 @@
  * LICENSE file in the root directory of this source tree.
  */
  import React, { useEffect, useState } from "react";
- import versions from "@site/versions.json"
+ import versions from "@site/prism_versions.json"
  import Layout from "@theme/Layout"; 
- import downloads from "@site/static/download/download.json"
+ import downloads from "@site/static/download/prism-download.json"
 
 /**
  * Returns the index of downloads which holds the latest PDF for that version
@@ -80,14 +80,21 @@ function Versions(props) {
     <div className="container">
       <div style={{margin: "50px 0"}}>
         <div className="post">
-          <h3 id="latest">PDFFFFFFFF Versions</h3>
+          <h3 id="latest">Versions</h3>
           <table className="versions">
             <tbody>
               {versions.map(
                 version =>
                   <tr key={version}>
                     <th>{version}</th>
-                    
+                    <td>
+                    {version === latestVersion && (
+                      <a
+                        href={`/prism/prism/introduction/`}>
+                        Documentation
+                      </a>
+                    )}
+                    </td>
                     {downloads && (
                       <td>
                         { PDF(downloads,version) }

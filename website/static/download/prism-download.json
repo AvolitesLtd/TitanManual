@@ -1,0 +1,23 @@
+[
+  {
+    "version": "1.0.21",
+    "id": 36850370,
+    "url": "https://github.com/AvolitesLtd/TitanManual/releases/tag/1.0.21",
+    "prerelease": false,
+    "date": "2021-01-25T10:54:26Z",
+    "downloads": {
+      "PDF": {
+        "1.2": {
+          "name": "Titan-12-0-2021-01-25-11-04-19.pdf",
+          "size": "31.2MB",
+          "url": "https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.21/Titan-12-0-2021-01-25-11-04-19.pdf"
+        },
+        "1.3": {
+          "name": "Titan-13-0-2021-01-25-11-01-29.pdf",
+          "size": "32.0MB",
+          "url": "https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.21/Titan-13-0-2021-01-25-11-01-29.pdf"
+        }
+      }
+    }
+  }
+]
