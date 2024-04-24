@@ -214,6 +214,7 @@ function replaceBr(content) {
  */
  function replaceJSX(content) {
   content = content.replace(/<Keys\.ContextKey>(.*?)<\/Keys\.ContextKey>/gmis,"{$1}");
+  content = content.replace(/<Keys\.PrismKey>(.*?)<\/Keys\.PrismKey>/gmis,"{$1}");
   content = content.replace(/<Keys\.HardKey>(.*?)<\/Keys\.HardKey>/gmis,"\\\<$1\\\>");
   content = content.replace(/<Keys\.SoftKey>(.*?)<\/Keys\.SoftKey>/gmis,"\\\[$1\\\]");
   content = content.replace(/<Keys\.Annotation>(.*?)<\/Keys\.Annotation>/gmis,"($1)");
