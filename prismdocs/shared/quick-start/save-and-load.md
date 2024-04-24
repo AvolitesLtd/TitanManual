@@ -1,7 +1,7 @@
 ---
 id: save-and-load
-title: Save & Load
-sidebar_label: Save & Load
+title: Save and Load
+sidebar_label: Save and Load
 ---
 
 When a project is saved in **{{PRISM-APP}}**, it will contain all application settings throughout the software. This includes all **Bank** and **Encode List** settings as well as those found within the application’s settings menu.
