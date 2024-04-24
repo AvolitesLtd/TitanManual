@@ -1,11 +1,6 @@
 {
   "player": [
     {
-      "type": "doc",
-      "label": "Introduction",
-      "id": "player/introduction"
-    },
-    {
       "type": "category",
       "label": "Prism Player",
       "collapsed": false,
@@ -79,11 +74,6 @@
     }
   ],
   "zero": [
-    {
-      "type": "doc",
-      "label": "Introduction",
-      "id": "zero/introduction"
-    },
     {
       "type": "category",
       "label": "Prism Zero",
@@ -162,11 +152,6 @@
     }
   ],
   "prism": [
-    {
-      "type": "doc",
-      "label": "Introduction",
-      "id": "prism/introduction"
-    },
     {
       "type": "category",
       "label": "Prism",

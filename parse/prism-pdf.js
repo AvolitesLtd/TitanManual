@@ -269,28 +269,22 @@ function docsVersionPath(version, appName) {
  */
 function formatMdFiles(docsPath, sidebar, version, appName) {
   let output = "";
-  let docs = []
-  
-  if(version == 'next') {
-    docs = sidebar;
-  }
-
+  let docs = sidebar
+    
   for(let index in docs) {
     let sec = docs[index].label;
     if (docs[index].items)
     {
+      console.log(docs[index].items)
       for(let page of docs[index].items) {
-        console.log(page.items)
-
         if (page.items)
         {
-          for (let items of page.items)
+          for (item of page.items)
           {
-            const paths = items.id.replace(appName+"/", '');
+            const paths = item.id.replace(appName+"/", '');
             output += formatMd(docsPath,paths+'.md',version, sec, appName);
           }
         }
-
         else {
           const paths = page.id.replace(appName+"/", '');
           output += formatMd(docsPath,paths+'.md',version, sec, appName);
@@ -457,9 +451,9 @@ function createPDF(doc, section=null, options={}) {
   // get the path of the sidebar file
   let sidebarFile = fs.readFileSync(sidebarPath(version));
   let sidebar = JSON.parse(sidebarFile)[doc.sidebar];
-
+  console.log(sidebar)
   // get the path for docs of the version
-  docsPath = docsVersionPath(version, doc.sidebar)+ "/" + doc.path;
+  docsPath = docsVersionPath(version, sidebar)+ "/" + doc.path;
 
   let output = '';
   output += fs.readFileSync(legalPath);
@@ -469,7 +463,7 @@ function createPDF(doc, section=null, options={}) {
   output += formatMdFiles(docsPath, sidebar, version, doc.sidebar);
 
   // create formatted MD file
-  let formattedMdPath = path.join(avoParse.paths.outputDir, doc.sidebar + "-pdf.md");
+  let formattedMdPath = path.join(avoParse.paths.outputDir, sidebar + "-pdf.md");
   try {
     fs.writeFileSync(formattedMdPath, output);
   }
