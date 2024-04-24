@@ -1,0 +1,16 @@
+.sideBarHeader {
+    position: absolute;
+    top:70px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+}
+
+.sidebarContainer {
+    border: 1px solid red;
+}
+
+.sidebarOffset {
+    margin-top:40px;
+}
