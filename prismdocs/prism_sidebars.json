@@ -20,7 +20,7 @@
           "items": [
             {
               "type": "doc",
-              "id": "player/quick-start/save-load"
+              "id": "player/quick-start/save-and-load"
             },
             {
               "type": "doc",
@@ -94,7 +94,7 @@
           "items": [
             {
               "type": "doc",
-              "id": "zero/quick-start/save-load"
+              "id": "zero/quick-start/save-and-load"
             },
             {
               "type": "doc",
@@ -173,7 +173,7 @@
           "items": [
             {
               "type": "doc",
-              "id": "prism/quick-start/save-load"
+              "id": "prism/quick-start/save-and-load"
             },
             {
               "type": "doc",
