@@ -11,6 +11,7 @@
       "items": [
         {
           "type": "doc",
+          "label": "Introduction",
           "id": "player/introduction"
         },
         {
@@ -20,7 +21,7 @@
           "items": [
             {
               "type": "doc",
-              "id": "player/quick-start/save-and-load"
+              "id": "player/quick-start/save-load"
             },
             {
               "type": "doc",
@@ -85,6 +86,7 @@
       "items": [
         {
           "type": "doc",
+          "label": "Introduction",
           "id": "zero/introduction"
         },
         {
@@ -94,7 +96,7 @@
           "items": [
             {
               "type": "doc",
-              "id": "zero/quick-start/save-and-load"
+              "id": "zero/quick-start/save-load"
             },
             {
               "type": "doc",
@@ -173,7 +175,7 @@
           "items": [
             {
               "type": "doc",
-              "id": "prism/quick-start/save-and-load"
+              "id": "prism/quick-start/save-load"
             },
             {
               "type": "doc",
