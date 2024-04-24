@@ -10,6 +10,8 @@ const sectionNumberFilter = path.join(__dirname,"PDF/lua-section-number-filter.l
 const headerPath = path.join(__dirname,"PDF/header.yaml");
 const logoPath = path.join(__dirname,"PDF/avo.png");
 
+let previousHeading = ""; //use to help determine when a page break should happen
+
 const docs = [
     { sidebar: 'player', appName: 'Prism Player', version: "v1.2", path: 'Player' },
     { sidebar: 'zero',  appName: 'Prism Zero', version: "v1.2", path: 'Zero' },
@@ -90,14 +92,22 @@ function filenameToTitleLink(filename) {
  * @param {string} content Contents of the .md file with YAML block in
  * @return {string} The content with the YAML block replaced
  */
-function replaceYaml(filename,content,sectionHeading) {
+function replaceYaml(filename, content, sectionHeading) {
+  console.log(filename, sectionHeading)
+
+
+  
   // matches Yaml block with title
   return content.replace(avoParse.regex.yamlBlockTitle,function (match,title) {
+
     titleLink = filenameToTitleLink(filename);
     let sectionHeadingText = "";
-    if (!filename.match("/")) {
+
+    if (previousHeading != sectionHeading) {
       sectionHeadingText = `\\pagebreak \n# ${sectionHeading}\n\n`
+      previousHeading = sectionHeading
     }
+    
     return `${sectionHeadingText}## ${title} {${titleLink}}`;
   });
 }
@@ -271,16 +281,17 @@ function formatMdFiles(docsPath, sidebar, version, appName) {
 
   for(let index in docs) {
     let sec = docs[index].label;
+    console.log(sec)
     if (docs[index].items)
     {
       for(let page of docs[index].items) {
         const paths = page.id.replace(appName+"/", '');
-        output += formatMd(docsPath,paths+'.md',version,sec, appName);
+        output += formatMd(docsPath,paths+'.md',version, sec, appName);
       }
     }
     else
     {
-      const path = docs[index].id.replace(appName+"/", '');
+      const path = docs[index].id.replace(appName + "/", '');
       output += formatMd(docsPath,path+'.md',version,sec, appName);
     }
   }
@@ -296,7 +307,6 @@ function formatMdFiles(docsPath, sidebar, version, appName) {
  */
 function resolvePageVersion(filename, version, appName = "") {
   let filepath = path.resolve(docsVersionPath(version, appName), filename);
-  console.log(filepath)
   if (fs.existsSync(filepath)) {
     return filepath;
   }
@@ -320,7 +330,6 @@ function resolvePageVersion(filename, version, appName = "") {
  * @return {string} The formatted MarkDown
  */
 function formatMd(docsPath,filename,version,sectionHeading, appName) {
-    console.log(filename)
   let filepath = resolvePageVersion(filename,version, appName);
 
   if (!filepath) {
