@@ -277,7 +277,6 @@ function formatMdFiles(docsPath, sidebar, version, appName) {
 
   for(let index in docs) {
     let sec = docs[index].label;
-    console.log(sec)
     if (docs[index].items)
     {
       for(let page of docs[index].items) {
@@ -400,9 +399,9 @@ pandoc --template "${options.templatePath}" \
   -V fontsize=8pt \
   -M date="$DATE" \
   -M footer-center="$DATE" \
-  -M footer-left="${version} Manual" \
+  -M footer-left="${appName} Manual" \
   -M title="Avolites Titan Manual" \
-  -M subtitle="${version}" \
+  -M subtitle="${appName}" \
   -M logo="${options.logoPath}" \
   -V colorlinks=true \
   -V block-headings \
