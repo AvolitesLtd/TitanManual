@@ -65,7 +65,7 @@ module.exports={
           routeBasePath: 'prism',
           "showLastUpdateAuthor": false,
           "showLastUpdateTime": true,
-          "sidebarPath": require.resolve('./sidebarsPrism.json'),
+          "sidebarPath": require.resolve('../prismdocs/prism_sidebars.json'),
         },
     ],
     [
@@ -104,12 +104,12 @@ module.exports={
           position: 'left',
           items: [
             {
-              label: 'Player',
-              to: 'prism/player/about',
+              label: 'Prism Zero',
+              to: 'prism/zero/introduction'
             },
             {
-              label: 'Zero',
-              to: 'prism/zero/about'
+              label: 'Prism Player',
+              to: 'prism/player/introduction',
             },
             {
               label: 'Licensing',

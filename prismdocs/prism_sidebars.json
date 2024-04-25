@@ -1,0 +1,156 @@
+{
+  "player": [
+    {
+      "type": "category",
+      "label": "Prism Player",
+      "collapsed": false,
+      "link": {
+        "type": "doc",
+        "id": "player/introduction"
+      },
+      "items": [
+        {
+          "type": "doc",
+          "label": "Introduction",
+          "id": "player/introduction"
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Quick Start",
+          "items": [
+            {
+              "type": "doc",
+              "id": "player/quick-start/save-and-load"
+            },
+            {
+              "type": "doc",
+              "id": "player/quick-start/system-tray"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Encoder",
+          "link": {
+            "type": "doc",
+            "id": "player/encoder/encoder"
+          },
+          "items": [
+            {
+              "type": "doc",
+              "id": "player/encoder/encoder-settings"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Settings",
+          "link": {
+            "type": "doc",
+            "id": "player/settings/settings"
+          },
+          "items": [
+            {
+              "type": "doc",
+              "id": "player/settings/settings-general"
+            },
+            {
+              "type": "doc",
+              "id": "player/settings/settings-system-info"
+            },
+            {
+              "type": "doc",
+              "id": "player/settings/settings-playback"
+            },
+            {
+              "type": "doc",
+              "id": "player/settings/settings-encoder"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "zero": [
+    {
+      "type": "category",
+      "label": "Prism Zero",
+      "collapsed": false,
+      "link": {
+        "type": "doc",
+        "id": "zero/introduction"
+      },
+      "items": [
+        {
+          "type": "doc",
+          "label": "Introduction",
+          "id": "zero/introduction"
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Quick Start",
+          "items": [
+            {
+              "type": "doc",
+              "id": "zero/quick-start/save-and-load"
+            },
+            {
+              "type": "doc",
+              "id": "zero/quick-start/system-tray"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Encoder",
+          "link": {
+            "type": "doc",
+            "id": "zero/encoder/encoder"
+          },
+          "items": [
+            {
+              "type": "doc",
+              "id": "zero/encoder/encoder-settings"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Settings",
+          "link": {
+            "type": "doc",
+            "id": "zero/settings/settings"
+          },
+          "items": [
+            {
+              "type": "doc",
+              "id": "zero/settings/settings-general"
+            },
+            {
+              "type": "doc",
+              "id": "zero/settings/settings-system-info"
+            },
+            {
+              "type": "doc",
+              "id": "zero/settings/settings-playback"
+            },
+            {
+              "type": "doc",
+              "id": "zero/settings/settings-encoder"
+            },
+            {
+              "type": "doc",
+              "id": "zero/settings/settings-synergy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

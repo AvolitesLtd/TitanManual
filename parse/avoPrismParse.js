@@ -9,12 +9,12 @@ class avoParse {
     this.lang = 'en'
 
     this.paths = {
-      sidebar: path.resolve(__dirname,"../website/sidebars.json"),
-      versionedSideberDir: path.resolve(__dirname,"../website/versioned_sidebars"),
-      versions: path.resolve(__dirname,"../website/versions.json"),
-      versionedDocsDir: path.resolve(__dirname,"../website/versioned_docs"),
+      sidebar: path.resolve(__dirname,"../prismdocs/prism_sidebars.json"),
+      versionedSideberDir: null,
+      versions: null,
+      versionedDocsDir: null,
       outputDir: path.resolve(__dirname,"./output"),
-      docsDir: path.resolve(__dirname,"../docs"),
+      docsDir: path.resolve(__dirname,"../prismdocs"),
       staticDir: path.resolve(__dirname,`../website/static`),
       staticImagesDir: path.resolve(__dirname,'../website/static/docs/images'),
       buildDir: path.resolve(__dirname,'../website/build'),

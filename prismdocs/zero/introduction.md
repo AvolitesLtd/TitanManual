@@ -1,7 +1,7 @@
 ---
-id: about
-title: About Zero
-sidebar_label: About
+id: introduction
+title: Introduction to Prism Zero
+sidebar_label: Introduction
 ---
 
 **Prism Zero** is a standalone application built by **Avolites** that expands beyond the feature-set found in **Prism Player**. On top of providing conversion, previewing and playback of media, **Prism Zero** also adds **Synergy** compatibility with **Avolites Titan** allowing for full layer control, **NDI** previewing and use of the video output from **Prism Zero** as a source for the **Pixelmapper** in **Titan**

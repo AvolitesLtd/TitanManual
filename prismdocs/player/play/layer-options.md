@@ -16,11 +16,11 @@ When **Prism Zero** is being controlled from a lighting console using **Synergy*
 
 The **Sync to DMX** feature is used to allow the Prism UI controls to immediately adjust to the most recently received values from the console. This can be used anytime the UI needs to be kept in line with the external device values.
 
-_Note: Instructions can be found for setting up a **Synergy** Connection [here](../../docs/synergy)_
+_Note: Instructions can be found for setting up a **Synergy** Connection [here](../settings/settings-synergy)_
 
 ### Playback
 
-Options found here are used to adjust which of the playlist entry's is being played, its **Playmode** and **Aspect Mode**, the **Trim in** and **Trim out** points for the current **Playlist** entry and a master **Volume control**.
+Options found here are used to adjust which of the Bank entry's is being played, its **Playmode** and **Aspect Mode**, the **Trim in** and **Trim out** points for the current **Bank** entry and a master **Volume control**.
 
 ### Colour Correction
 

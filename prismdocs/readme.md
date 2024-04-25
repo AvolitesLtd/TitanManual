@@ -1,0 +1,1 @@
+Make changes on the files on the 'shared' folder and run 'copyAndReplaceSharedContent.js' to copy them to the relative app ones. 

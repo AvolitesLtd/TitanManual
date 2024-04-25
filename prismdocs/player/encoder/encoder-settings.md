@@ -6,8 +6,8 @@ sidebar_label: Encoder Settings
 
 import Keys from '@site/src/components/key.ts';
 
-The **Encoder Settings** section let users specify the settings to be applied on an encodelist item.
-It is accesible by left clicking the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon next to the encodelist item name and then clicking on **Settings**.
+The **Encoder Settings** section let users specify the settings to be applied on an Encode List item.
+It is accesible by left clicking the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon next to the Encode List item name and then clicking on **Settings**.
 The results of these settings will be applied to the file once you press **Back** to the **Encoder** area and then transcode the item.
 
 ## File settings
@@ -18,13 +18,13 @@ Is the name assigned to the encoded item after transcoding. It can be modified e
 
 ### File output folder
 
-Is the destination folder of the transcoded file. It can be modified by clicking the <Keys.PrismKey>Folder</Keys.PrismKey> icon. The default value of the destination folder is the one selected in the general [settings](settings.md#encoder) encoder tab.
+Is the destination folder of the transcoded file. It can be modified by clicking the <Keys.PrismKey>Folder</Keys.PrismKey> icon. The default value of the destination folder is the one selected in the general [settings](../settings/settings-encoder) encoder tab.
 
 ## Video settings
 
 ### Match Source
 
-![Match Source Button](/prismdocs/images/match_source.png "Match Source Button")
+![Match Source Button](/prismdocs/images/match_source.png)
 
 This button will adjust both the video and audio settings to match those of the original file. Any user changes to the audio and video settings will be discarded when pressing th button.
 
@@ -90,10 +90,10 @@ _Note: Prism can only convert existing audio channels, it cannot alter the amoun
 
 Bit depth can be set between:
 
-- 8
-- 16
-- 24
-- 32
+- 8 bits
+- 16 bits
+- 24 bits
+- 32 bits
 
 _Note: The higher the bit rate, the greater the detail and dynamic range of the audio._
 
@@ -101,7 +101,7 @@ _Note: The higher the bit rate, the greater the detail and dynamic range of the 
 
 To adjust trim points press the **Trim Media** button at the bottom of the section.
 
-![Trim Button](/prismdocs/images/trim.png "Trim Button")
+![Trim Button](/prismdocs/images/trim.png)
 
 Trim values can be manually entered into both the Trim IN Point and Trim OUT Point boxes either by typing the value or using the arrow keys in the current fields.
 
@@ -113,14 +113,14 @@ The total duration of the exported clip will be calculated as the difference bet
 
 To set a crop area press the the **Crop Video** button at the bottom.
 
-![Crop Button](/prismdocs/images/crop.png "Crop Button")
+![Crop Button](/prismdocs/images/crop.png)
 
 - **X** and **Y** specifies the starting pixel for the top left corner of the cropping area to be drawn from.
 - **Width** and **Height** sets the size of the area to be cropped, starting from the specified **X** and **Y** values.
 
 _Note: It is not possible to crop the exported file beyond the width and height of the source file._
 
-**Width** and **Height** values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon.
+**Width** and **Height** values can be linked / unlinked by clicking on the <Keys.PrismKey>lock</Keys.PrismKey> / <Keys.PrismKey>unlock</Keys.PrismKey> icon.
 
-- When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown **Width** and **Height** will always maintain relative size according to the current aspect ratio of the **Width** and **Height**. If one value is adjusted, the other will change accordingly.
-- When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.
+- When <Keys.PrismKey>lock</Keys.PrismKey> icon is shown **Width** and **Height** will always maintain relative size according to the current aspect ratio of the **Width** and **Height**. If one value is adjusted, the other will change accordingly.
+- When <Keys.PrismKey>unlock</Keys.PrismKey> icon is shown **Width** and **Height** can be individually set regardless of the resulting aspect ratio of the cropped area.

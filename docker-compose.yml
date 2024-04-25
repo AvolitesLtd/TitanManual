@@ -29,6 +29,16 @@ services:
       - ./website:/app/website
       - /app/website/node_modules
 
+  prismpdf:
+    build:
+      context: .
+      target: prismpdf
+    volumes:
+      - ./prismdocs:/app/prismdocs
+      - ./parse:/app/parse
+      - ./website:/app/website
+      - /app/website/node_modules
+      
   app:
     build:
       context: .
