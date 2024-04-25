@@ -4,7 +4,7 @@ const { promisify } = require('util');
 const readdir = promisify(fs.readdir);
 const stat = promisify(fs.stat);
 class avoParse {
-  constructor(isPrism) {
+  constructor() {
     // standard language used in main docs
     this.lang = 'en'
 
