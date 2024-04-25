@@ -67,6 +67,7 @@ module.exports={
           "showLastUpdateAuthor": false,
           "showLastUpdateTime": true,
           "sidebarPath": require.resolve('../prismdocs/prism_sidebars.json'),
+          sidebarCollapsible: false
         },
     ],
     [
