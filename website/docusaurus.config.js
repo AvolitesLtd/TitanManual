@@ -104,6 +104,10 @@ module.exports={
           position: 'left',
           items: [
             {
+              label: 'Prism',
+              to: 'prism/prism/introduction'
+            },
+            {
               label: 'Prism Zero',
               to: 'prism/zero/introduction'
             },
@@ -114,6 +118,11 @@ module.exports={
             {
               label: 'Licensing',
               to: 'prism/licensing'
+            },
+            {
+              label: 'All Versions',
+              to: 'prism_versions',
+              docsPluginId: 'prism'
             }
           ]
         },
