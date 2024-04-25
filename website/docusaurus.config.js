@@ -52,8 +52,9 @@ module.exports={
         // language: ["en", "zh"],
         // ```
         // When applying `zh` in language, please install `nodejieba` in your project.
-        docsDir: "../docs",
-
+        docsDir: ["../docs", "../prismdocs"],
+        docsRouteBasePath: ["docs", "prism"],
+        
         highlightSearchTermsOnTargetPage: true,        
       },
     ],
