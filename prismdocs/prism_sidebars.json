@@ -32,6 +32,21 @@
         {
           "collapsed": true,
           "type": "category",
+          "label": "Play",
+          "items": [
+            {
+              "type": "doc",
+              "id": "player/play/bank"
+            },
+            {
+              "type": "doc",
+              "id": "player/play/mediaplayer"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
           "label": "Encoder",
           "link": {
             "type": "doc",
@@ -101,6 +116,25 @@
             {
               "type": "doc",
               "id": "zero/quick-start/system-tray"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Play",
+          "items": [
+            {
+              "type": "doc",
+              "id": "zero/play/bank"
+            },
+            {
+              "type": "doc",
+              "id": "zero/play/mediaplayer"
+            },
+            {
+              "type": "doc",
+              "id": "zero/play/layer-options"
             }
           ]
         },
