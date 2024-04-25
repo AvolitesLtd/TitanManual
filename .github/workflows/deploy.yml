@@ -104,6 +104,36 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
+  prismpdf:
+    name: Prism PDF
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Prism PDF Docker Build
+        run: |
+          docker-compose run prismpdf
+          mkdir website/download
+          mv parse/output/*.pdf website/download
+
+      - name: Upload artifacts to GitHub
+        uses: actions/upload-artifact@v1
+        with:
+          name: 'Prism PDF'
+          path: website/download
+            
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: "website/download/**"
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
   web:
     name: Web Build and Deploy
     runs-on: ubuntu-latest
