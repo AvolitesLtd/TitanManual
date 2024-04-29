@@ -32,7 +32,7 @@ function Versions(props) {
                <td>
                  <div>
                    <a
-                     href="https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.21/Titan-12-0-2021-01-25-11-04-19.pdf">
+                     href="https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.50/Prism-v1-3.pdf">
                      PDF
                    </a>
                  </div>
@@ -54,7 +54,7 @@ function Versions(props) {
                <td>
                  <div>
                    <a
-                     href="https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.21/Titan-12-0-2021-01-25-11-04-19.pdf">
+                     href="https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.50/Prism-Zero-v1-3.pdf">
                      PDF
                    </a>
                  </div>
@@ -67,7 +67,7 @@ function Versions(props) {
                <td>
                  <div>
                    <a
-                     href="https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.21/Titan-12-0-2021-01-25-11-04-19.pdf">
+                     href="https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.49/Prism-Zero-v1-2.pdf">
                      PDF
                    </a>
                  </div>
@@ -89,7 +89,7 @@ function Versions(props) {
                <td>
                  <div>
                    <a
-                     href="https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.21/Titan-12-0-2021-01-25-11-04-19.pdf">
+                     href="https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.50/Prism-Player-v1-3.pdf">
                      PDF
                    </a>
                  </div>
@@ -102,7 +102,7 @@ function Versions(props) {
                <td>
                  <div>
                    <a
-                     href="https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.21/Titan-12-0-2021-01-25-11-04-19.pdf">
+                     href="https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.49/Prism-Player-v1-2.pdf">
                      PDF
                    </a>
                  </div>
