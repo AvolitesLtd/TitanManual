@@ -3,13 +3,13 @@ const path = require('path');
 
 // Data for generating Markdown files
 const pages = [
-  { id: 'prism-player', app: 'Prism Player', path: 'Player' },
+  { id: 'prism-player', app: 'Prism Player', path: 'Player', excludes: ["layer-options"] },
   { id: 'prism-zero', app: 'Prism Zero', path: 'Zero' },
   { id: 'prism', app: 'Prism', path: 'Prism' },
   // Add more pages as needed
 ]
 
-function copyDirectoryContents(sourceDir, targetDir) {
+function copyDirectoryContents(excludes, sourceDir, targetDir) {
     // Ensure that both source and target directories exist
     if (!fs.existsSync(sourceDir)) {
         console.error("Source directory does not exist.");
@@ -27,8 +27,7 @@ function copyDirectoryContents(sourceDir, targetDir) {
     // Iterate over each file in the source directory
     files.forEach(file => {
 
-      //Do not add layer option page to player
-      if (file === "layer-options.md" && targetDir.includes("Player"))
+      if (excludes?.includes(file.split('.')[0])) 
         return;
 
       const sourcePath = path.join(sourceDir, file);
@@ -37,7 +36,7 @@ function copyDirectoryContents(sourceDir, targetDir) {
       // Check if the file is a directory
       if (fs.statSync(sourcePath).isDirectory()) {
           // Recursively copy the directory
-          copyDirectoryContents(sourcePath, targetPath);
+          copyDirectoryContents(excludes, sourcePath, targetPath);
       } else {
           // Copy the file
           fs.copyFileSync(sourcePath, targetPath);
@@ -86,7 +85,7 @@ pages.forEach(page => {
   let sourceDir = path.join(currentDirectory, 'shared');
   let targetDir = path.join(currentDirectory, page.path);
   //console.log(sourceDir, targetDir);
-  copyDirectoryContents(sourceDir, targetDir);
+  copyDirectoryContents(page.excludes, sourceDir, targetDir);
 
   processFiles(targetDir, page);
 
