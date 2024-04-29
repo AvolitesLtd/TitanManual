@@ -26,17 +26,22 @@ function copyDirectoryContents(sourceDir, targetDir) {
 
     // Iterate over each file in the source directory
     files.forEach(file => {
-        const sourcePath = path.join(sourceDir, file);
-        const targetPath = path.join(targetDir, file);
 
-        // Check if the file is a directory
-        if (fs.statSync(sourcePath).isDirectory()) {
-            // Recursively copy the directory
-            copyDirectoryContents(sourcePath, targetPath);
-        } else {
-            // Copy the file
-            fs.copyFileSync(sourcePath, targetPath);
-        }
+      //Do not add layer option page to player
+      if (file === "layer-options.md" && targetDir.includes("Player"))
+        return;
+
+      const sourcePath = path.join(sourceDir, file);
+      const targetPath = path.join(targetDir, file);
+
+      // Check if the file is a directory
+      if (fs.statSync(sourcePath).isDirectory()) {
+          // Recursively copy the directory
+          copyDirectoryContents(sourcePath, targetPath);
+      } else {
+          // Copy the file
+          fs.copyFileSync(sourcePath, targetPath);
+      }
     });
 
     //console.log("Directory contents copied successfully.");
@@ -74,7 +79,6 @@ function processFiles(directoryPath, page) {
 }
 
 const currentDirectory = process.cwd();
-
 
 // Generate Markdown files
 pages.forEach(page => {
