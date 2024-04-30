@@ -1,7 +1,7 @@
 ---
 id: licensing
-title: Licensing
-sidebar_label: Licensing
+title: Prism Licensing
+sidebar_label: Prism Licensing
 ---
 
 ---

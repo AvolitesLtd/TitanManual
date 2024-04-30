@@ -123,8 +123,7 @@ module.exports={
             },
             {
               label: 'All Versions',
-              to: '/prism_versions',
-              docsPluginId: 'prism'
+              to: 'prism/versions'
             }
           ]
         },

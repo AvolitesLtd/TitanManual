@@ -1,8 +1,23 @@
 {
+  "licensing" : [
+    {
+      "type": "doc",
+      "label": "Prism Licensing",
+      "id": "licensing/licensing"
+    }
+  ],
+  "versions" : [
+    {
+      "type": "doc",
+      "label": "Prism Versions",
+      "id": "versions/versions"
+    }
+  ],
   "player": [
     {
       "type": "category",
       "label": "Prism Player",
+      "collapsed": false,
       "link": {
         "type": "doc",
         "id": "player/introduction"
@@ -14,6 +29,7 @@
           "id": "player/introduction"
         },
         {
+          "collapsed": true,
           "type": "category",
           "label": "Quick Start",
           "items": [
@@ -28,6 +44,7 @@
           ]
         },
         {
+          "collapsed": true,
           "type": "category",
           "label": "Play",
           "items": [
@@ -42,6 +59,7 @@
           ]
         },
         {
+          "collapsed": true,
           "type": "category",
           "label": "Encoder",
           "link": {
@@ -56,6 +74,7 @@
           ]
         },
         {
+          "collapsed": true,
           "type": "category",
           "label": "Settings",
           "link": {
@@ -88,6 +107,7 @@
     {
       "type": "category",
       "label": "Prism Zero",
+      "collapsed": false,
       "link": {
         "type": "doc",
         "id": "zero/introduction"
@@ -99,6 +119,7 @@
           "id": "zero/introduction"
         },
         {
+          "collapsed": true,
           "type": "category",
           "label": "Quick Start",
           "items": [
@@ -113,6 +134,7 @@
           ]
         },
         {
+          "collapsed": true,
           "type": "category",
           "label": "Play",
           "items": [
@@ -131,6 +153,7 @@
           ]
         },
         {
+          "collapsed": true,
           "type": "category",
           "label": "Encoder",
           "link": {
@@ -145,6 +168,7 @@
           ]
         },
         {
+          "collapsed": true,
           "type": "category",
           "label": "Settings",
           "link": {
@@ -181,6 +205,7 @@
     {
       "type": "category",
       "label": "Prism",
+      "collapsed": false,
       "link": {
         "type": "doc",
         "id": "prism/introduction"
@@ -192,6 +217,7 @@
           "id": "prism/introduction"
         },
         {
+          "collapsed": true,
           "type": "category",
           "label": "Quick Start",
           "items": [
@@ -210,6 +236,7 @@
           ]
         },
         {
+          "collapsed": true,
           "type": "category",
           "label": "Play",
           "items": [
@@ -228,6 +255,7 @@
           ]
         },
         {
+          "collapsed": true,
           "type": "category",
           "label": "Stage",
           "items": [
@@ -242,6 +270,7 @@
           ]
         },
         {
+          "collapsed": true,
           "type": "category",
           "label": "Encoder",
           "link": {
@@ -256,6 +285,7 @@
           ]
         },
         {
+          "collapsed": true,
           "type": "category",
           "label": "Settings",
           "link": {
