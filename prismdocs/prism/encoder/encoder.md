@@ -10,13 +10,13 @@ The **Encoder** section allows for files to be converted from common video codec
 
 ![Encodelist Details](/prismdocs/images/encoderdetails.png)
 
-When a piece of media is loaded into the **Encoder**, several details about the file can be viewed
+When a piece of media is loaded into the **Encoder**, several details about the file can be viewed:
 
-- The codec that the media will be exported to and whether it has alpha
-- The resolution, frame rate and length of the file to be exported
-- The audio codec and format to be exported
+- The codec that the media will be exported to and whether it has alpha.
+- The resolution, frame rate and length of the file to be exported.
+- The audio codec and format to be exported.
 - The destination of the rendered clip.
-- The current status of the job - _Ready_, _In Progress_ or _Done_
+- The current status of the job - _Ready_, _In Progress_ or _Done_.
 
 Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual files allows access to the following actions:
 

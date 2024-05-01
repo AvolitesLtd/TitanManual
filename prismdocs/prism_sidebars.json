@@ -46,7 +46,7 @@
         {
           "collapsed": true,
           "type": "category",
-          "label": "Play",
+          "label": "Play Page",
           "items": [
             {
               "type": "doc",
@@ -126,6 +126,9 @@
             {
               "type": "doc",
               "id": "zero/quick-start/save-and-load"
+            },          {
+              "type": "doc",
+              "id": "prism/quick-start/preview-window"
             },
             {
               "type": "doc",
@@ -136,7 +139,7 @@
         {
           "collapsed": true,
           "type": "category",
-          "label": "Play",
+          "label": "Play Page",
           "items": [
             {
               "type": "doc",
@@ -149,6 +152,20 @@
             {
               "type": "doc",
               "id": "zero/play/layer-options"
+            }
+          ]
+        },        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Stage Page",
+          "items": [
+            {
+              "type": "doc",
+              "id": "zero/stage/surfaces"
+            },
+            {
+              "type": "doc",
+              "id": "zero/stage/outputs"
             }
           ]
         },
@@ -238,7 +255,7 @@
         {
           "collapsed": true,
           "type": "category",
-          "label": "Play",
+          "label": "Play Page",
           "items": [
             {
               "type": "doc",
@@ -257,7 +274,7 @@
         {
           "collapsed": true,
           "type": "category",
-          "label": "Stage",
+          "label": "Stage Page",
           "items": [
             {
               "type": "doc",
