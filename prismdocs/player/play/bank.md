@@ -12,11 +12,11 @@ When a piece of media is loaded into the **Bank**, several details about the fil
 
 ![Prism Zero Bank Details](/prismdocs/images/playlistdetails.png)
 
-- The name / tag name of the file
-- The current video codec of the file and whether it has alpha
-- The resolution, frame rate, length and size of the file
-- The current audio codec in use
-- The location of the file, which can be directly accessed by clicking the address
+- The name / tag name of the file.
+- The current video codec of the file and whether it has alpha.
+- The resolution, frame rate, length and size of the file.
+- The current audio codec in use.
+- The location of the file, which can be directly accessed by clicking the address.
 
 The selection box at the top of the list can be used to select or deselect all of the files in the bank. It also provides feedback on how many files are currently selected.
 

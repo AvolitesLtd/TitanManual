@@ -6,7 +6,7 @@ function Root({children}) {
   const [className, setClassName] = useState("");
 
   useEffect(() => {
-    if (pathName.startsWith("/prism")) 
+    if (pathName.includes("/prism")) 
       setClassName("prism");
     else
       setClassName("");

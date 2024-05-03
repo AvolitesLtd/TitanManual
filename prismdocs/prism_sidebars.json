@@ -1,4 +1,18 @@
 {
+  "licensing" : [
+    {
+      "type": "doc",
+      "label": "Prism Licensing",
+      "id": "licensing/licensing"
+    }
+  ],
+  "versions" : [
+    {
+      "type": "doc",
+      "label": "Prism Versions",
+      "id": "versions/versions"
+    }
+  ],
   "player": [
     {
       "type": "category",
@@ -26,21 +40,6 @@
             {
               "type": "doc",
               "id": "player/quick-start/system-tray"
-            }
-          ]
-        },
-        {
-          "collapsed": true,
-          "type": "category",
-          "label": "Play",
-          "items": [
-            {
-              "type": "doc",
-              "id": "player/play/bank"
-            },
-            {
-              "type": "doc",
-              "id": "player/play/mediaplayer"
             }
           ]
         },
@@ -112,29 +111,10 @@
             {
               "type": "doc",
               "id": "zero/quick-start/save-and-load"
-            },
+            },          
             {
               "type": "doc",
               "id": "zero/quick-start/system-tray"
-            }
-          ]
-        },
-        {
-          "collapsed": true,
-          "type": "category",
-          "label": "Play",
-          "items": [
-            {
-              "type": "doc",
-              "id": "zero/play/bank"
-            },
-            {
-              "type": "doc",
-              "id": "zero/play/mediaplayer"
-            },
-            {
-              "type": "doc",
-              "id": "zero/play/layer-options"
             }
           ]
         },
@@ -181,6 +161,85 @@
             {
               "type": "doc",
               "id": "zero/settings/settings-synergy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "prism": [
+    {
+      "type": "category",
+      "label": "Prism",
+      "collapsed": false,
+      "link": {
+        "type": "doc",
+        "id": "prism/introduction"
+      },
+      "items": [
+        {
+          "type": "doc",
+          "label": "Introduction",
+          "id": "prism/introduction"
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Quick Start",
+          "items": [
+            {
+              "type": "doc",
+              "id": "prism/quick-start/save-and-load"
+            },
+            {
+              "type": "doc",
+              "id": "prism/quick-start/system-tray"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Encoder",
+          "link": {
+            "type": "doc",
+            "id": "prism/encoder/encoder"
+          },
+          "items": [
+            {
+              "type": "doc",
+              "id": "prism/encoder/encoder-settings"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Settings",
+          "link": {
+            "type": "doc",
+            "id": "prism/settings/settings"
+          },
+          "items": [
+            {
+              "type": "doc",
+              "id": "prism/settings/settings-general"
+            },
+            {
+              "type": "doc",
+              "id": "prism/settings/settings-system-info"
+            },
+            {
+              "type": "doc",
+              "id": "prism/settings/settings-playback"
+            },
+            {
+              "type": "doc",
+              "id": "prism/settings/settings-encoder"
+            },
+            {
+              "type": "doc",
+              "id": "prism/settings/settings-synergy"
             }
           ]
         }

@@ -52,8 +52,9 @@ module.exports={
         // language: ["en", "zh"],
         // ```
         // When applying `zh` in language, please install `nodejieba` in your project.
-        docsDir: "../docs",
-
+        docsDir: ["../docs", "../prismdocs"],
+        docsRouteBasePath: ["docs", "prism"],
+        
         highlightSearchTermsOnTargetPage: true,        
       },
     ],
@@ -66,6 +67,7 @@ module.exports={
           "showLastUpdateAuthor": false,
           "showLastUpdateTime": true,
           "sidebarPath": require.resolve('../prismdocs/prism_sidebars.json'),
+          sidebarCollapsible: false
         },
     ],
     [
@@ -104,6 +106,10 @@ module.exports={
           position: 'left',
           items: [
             {
+              label: 'Prism',
+              to: 'prism/prism/introduction'
+            },
+            {
               label: 'Prism Zero',
               to: 'prism/zero/introduction'
             },
@@ -114,6 +120,10 @@ module.exports={
             {
               label: 'Licensing',
               to: 'prism/licensing'
+            },
+            {
+              label: 'All Versions',
+              to: 'prism/versions'
             }
           ]
         },

@@ -10,13 +10,13 @@ sidebar_label: Synergy
 
 The **Synergy** version in use must match the Titan version. If a missmatch is identified within Titan's **Synergy** Settings, a different version can be selected via this dropdown.
 
-More information on how to setup a **Synergy** connection can be found [here](../../../../docs/synergy)
+More information on how to setup a **Synergy** connection can be found [here](../../../../docs/synergy).
 
 **Port** specifies which port is used to allow **Prism Zero** and **Titan** to communicate.
 
 **Enable Synergy** is used to activate the **Synergy** connection between **Prism Zero** and the controlling device.
 
-**Connection Status** indicates the current status of the **Synergy** connection between **Prism Zero** and **Titan**
+**Connection Status** indicates the current status of the **Synergy** connection between **Prism Zero** and **Titan**.
 
 The **Default Upload Folder** shows the storage location used by all media transfered to **Prism Zero** from **Titan** via a **Synergy** connection.
 

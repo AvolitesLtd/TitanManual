@@ -32,9 +32,9 @@ This button will adjust both the video and audio settings to match those of the 
 
 Selection of the AiM SubCodec:
 
-- Super Stream - Highest quality image and best playback performance
-- Performance – Produces the smallest files but can suffer on complex imagery
-- Quality - Medium quality image, variable file size depending on content
+- Super Stream - Highest quality image and best playback performance.
+- Performance – Produces the smallest files but can suffer on complex imagery.
+- Quality - Medium quality image, variable file size depending on content.
 
 ### Resolution Preset
 

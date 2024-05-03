@@ -58,6 +58,26 @@ class Download {
   }
 }
 
+function parsePrismAsset(name) {
+  
+  let version = '';
+  // "Prism-Player-v1-2.pdf" -> "Prism Player v1.2"
+  // Remove file extension
+  version = name.replace(/\.[^.]+$/, "");
+  // Find the index of the last occurrence of "-"
+  var lastDashIndex = version.lastIndexOf("-");
+  if (lastDashIndex !== -1) {
+    // Replace the last "-" with a "."
+    version = version.substring(0, lastDashIndex) + "." + version.substring(lastDashIndex + 1);
+  }
+
+  // Replace '-' with space
+  version = version.replace(/-/g, ' ');
+
+  return version
+}
+
+
 function parseAssets(assets) {
   let downloads = {
     Windows: {},
@@ -75,8 +95,12 @@ function parseAssets(assets) {
       case name.endsWith(".pdf"):
         let version = ''
 
-        if(name.includes('Pre-Release') || name.includes('Latest')) {
+        if (name.includes('Pre-Release') || name.includes('Latest')) {
           version = 'Pre-Release'
+        }
+        else if (name.includes('Prism')) {
+          // "Prism-Player-v1-2.pdf" -> "Prism Player v1.2"
+          version = parsePrismAsset(name);
         }
         else {
           let pdfParts = name.split("-",3)
