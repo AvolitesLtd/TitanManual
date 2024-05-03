@@ -46,21 +46,6 @@
         {
           "collapsed": true,
           "type": "category",
-          "label": "Play Page",
-          "items": [
-            {
-              "type": "doc",
-              "id": "player/play/bank"
-            },
-            {
-              "type": "doc",
-              "id": "player/play/mediaplayer"
-            }
-          ]
-        },
-        {
-          "collapsed": true,
-          "type": "category",
           "label": "Encoder",
           "link": {
             "type": "doc",
@@ -126,46 +111,10 @@
             {
               "type": "doc",
               "id": "zero/quick-start/save-and-load"
-            },          {
-              "type": "doc",
-              "id": "prism/quick-start/preview-window"
-            },
+            },          
             {
               "type": "doc",
               "id": "zero/quick-start/system-tray"
-            }
-          ]
-        },
-        {
-          "collapsed": true,
-          "type": "category",
-          "label": "Play Page",
-          "items": [
-            {
-              "type": "doc",
-              "id": "zero/play/bank"
-            },
-            {
-              "type": "doc",
-              "id": "zero/play/mediaplayer"
-            },
-            {
-              "type": "doc",
-              "id": "zero/play/layer-options"
-            }
-          ]
-        },        {
-          "collapsed": true,
-          "type": "category",
-          "label": "Stage Page",
-          "items": [
-            {
-              "type": "doc",
-              "id": "zero/stage/surfaces"
-            },
-            {
-              "type": "doc",
-              "id": "zero/stage/outputs"
             }
           ]
         },
@@ -244,45 +193,7 @@
             },
             {
               "type": "doc",
-              "id": "prism/quick-start/preview-window"
-            },
-            {
-              "type": "doc",
               "id": "prism/quick-start/system-tray"
-            }
-          ]
-        },
-        {
-          "collapsed": true,
-          "type": "category",
-          "label": "Play Page",
-          "items": [
-            {
-              "type": "doc",
-              "id": "prism/play/mediaplayer"
-            },
-            {
-              "type": "doc",
-              "id": "prism/play/bank"
-            },
-            {
-              "type": "doc",
-              "id": "prism/play/layer-options"
-            }
-          ]
-        },
-        {
-          "collapsed": true,
-          "type": "category",
-          "label": "Stage Page",
-          "items": [
-            {
-              "type": "doc",
-              "id": "prism/stage/surfaces"
-            },
-            {
-              "type": "doc",
-              "id": "prism/stage/outputs"
             }
           ]
         },
@@ -325,10 +236,6 @@
             {
               "type": "doc",
               "id": "prism/settings/settings-encoder"
-            },
-            {
-              "type": "doc",
-              "id": "prism/settings/settings-inputs"
             },
             {
               "type": "doc",

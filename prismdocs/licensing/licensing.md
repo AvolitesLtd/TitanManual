@@ -6,14 +6,6 @@ sidebar_label: Prism Licensing
 
 ---
 
-# Prism Suite v1.3
-
-|                 | Ai Demo  | Ai Anjuna | Ai Bondi | Ai Miami | Prism Player  | Prism Zero | Prism One | 
-|-----------------|:--------:|:---------:|:--------:|:--------:|:-------------:|:----------:|:---------:|
-| **Prism**       |          |     x     |    x     |    x     |               |            |    x      |
-| **Prism Zero**  |    x     |     x     |    x     |    x     |               |     x      |    x      |
-| **Prism Player**|    x     |     x     |    x     |    x     |       x       |     x      |    x      |
-
 # Prism Zero
 
 Prism Zero will already work with your **AvoKey** or **Editor Keys**. Both can also be purchased from any of our distributors.
@@ -29,6 +21,14 @@ _Important Note: valid for version (1.1)_
 If you have no internet connection, and no AvoKey, you will need to purchase an AvoKey requesting our free Prism Player Component License. If you require an AvoKey please speak to any of our distributors found [here](https://www.avolites.com/official-distributors).
 
 If Prism Player doesn’t start, then please submit a support request to <a href="mailto:support@avolites.com?subject=Prism%20Zero:">support@avolites.com</a>
+
+# Prism Suite v1.3
+
+|                 | Ai Demo  | Ai Anjuna | Ai Bondi | Ai Miami | Prism Player  | Prism Zero | Prism One | 
+|-----------------|:--------:|:---------:|:--------:|:--------:|:-------------:|:----------:|:---------:|
+| **Prism**       |          |     x     |    x     |    x     |               |            |    x      |
+| **Prism Zero**  |    x     |     x     |    x     |    x     |               |     x      |    x      |
+| **Prism Player**|    x     |     x     |    x     |    x     |       x       |     x      |    x      |
 
 # CodeMeter
 
