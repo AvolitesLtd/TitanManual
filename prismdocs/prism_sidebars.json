@@ -46,6 +46,21 @@
         {
           "collapsed": true,
           "type": "category",
+          "label": "Play",
+          "items": [
+            {
+              "type": "doc",
+              "id": "player/play/bank"
+            },
+            {
+              "type": "doc",
+              "id": "player/play/mediaplayer"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
           "label": "Encoder",
           "link": {
             "type": "doc",
@@ -86,7 +101,7 @@
           ]
         }
       ]
-    }
+    } 
   ],
   "zero": [
     {
@@ -115,6 +130,21 @@
             {
               "type": "doc",
               "id": "zero/quick-start/system-tray"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Play",
+          "items": [
+            {
+              "type": "doc",
+              "id": "zero/play/bank"
+            },
+            {
+              "type": "doc",
+              "id": "zero/play/layer-playback"
             }
           ]
         },
@@ -194,6 +224,21 @@
             {
               "type": "doc",
               "id": "prism/quick-start/system-tray"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Play",
+          "items": [
+            {
+              "type": "doc",
+              "id": "prism/play/bank"
+            },
+            {
+              "type": "doc",
+              "id": "prism/play/layer-playback"
             }
           ]
         },

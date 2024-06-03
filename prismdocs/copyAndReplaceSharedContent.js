@@ -3,7 +3,14 @@ const path = require('path');
 
 // Data for generating Markdown files
 const pages = [
-  { id: 'prism-player', app: 'Prism Player', path: 'Player', excludes: ["layer-options"] },
+  { id: 'prism-player', app: 'Prism Player', path: 'Player',
+    excludes: [
+      "layer-playback", "layer-options", //Play
+      "outputs", "surfaces", //Stage
+      "settings-synergy", "settings-inputs", //Settings
+      "preview-window" //Preview
+    ]
+  },
   { id: 'prism-zero', app: 'Prism Zero', path: 'Zero' },
   { id: 'prism', app: 'Prism', path: 'Prism' },
   // Add more pages as needed
