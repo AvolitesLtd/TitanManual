@@ -4,8 +4,11 @@ const transButtons = require('../../languages-buttons.json')
 
 const Key = (tag: string): ReactNode => {
     return function (props) {
+      let buttons = transButtons.context;
       let extraClass = '';
-      for (const [cls, trans] of Object.entries(transButtons.context))
+      if (tag === 'prism')
+        buttons = transButtons.prism;
+      for (const [cls, trans] of Object.entries(buttons))
         for (const [lang, tran] of Object.entries(trans['lang']))
          if(typeof props.children == 'string' && props.children.toLowerCase() == tran)
            extraClass += cls;
@@ -20,5 +23,5 @@ export default {
     HardKey: Key('key'),
     RedKey: Key('key red'),
     Annotation: Key('annotate'),
-    PrismKey: Key('prism-custom'),
+    PrismKey: Key('prism'),
 };

@@ -115,7 +115,7 @@
       }
     }
   },
-  "PrismKey": {
+  "prism": {
     "prism-custom icon-menu-dots": {
       "lang": {
         "en": "sub menu"
@@ -169,6 +169,11 @@
     "prism-custom icon-folder": {
       "lang": {
         "en": "folder"
+      }
+    },
+    "prism-custom icon-refresh": {
+      "lang": {
+        "en": "refresh"
       }
     }
   }

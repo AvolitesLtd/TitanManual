@@ -89,6 +89,7 @@ $icon-playmode_oneshot: unicode(ea50);
 $icon-pointing-left: unicode(ea51);
 $icon-pointing-right: unicode(ea52);
 $icon-redo: unicode(ea53);
+$icon-refresh: unicode(ea45);
 $icon-save: unicode(ea54);
 $icon-scale-down: unicode(ea55);
 $icon-scale-up: unicode(ea56);
@@ -437,6 +438,10 @@ $icon-video: unicode(ea64);
 
 .icon-redo::before {
   content: $icon-redo;
+}
+
+.icon-refresh::before {
+  content: $icon-refresh;
 }
 
 .icon-save::before {
