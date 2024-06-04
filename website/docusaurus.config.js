@@ -62,12 +62,15 @@ module.exports={
       "@docusaurus/plugin-content-docs",
       {
           id: 'prism',
-          "path": "../prismdocs",
+          path: "../prismdocs",
           routeBasePath: 'prism',
-          "showLastUpdateAuthor": false,
-          "showLastUpdateTime": true,
-          "sidebarPath": require.resolve('../prismdocs/prism_sidebars.json'),
-          sidebarCollapsible: false
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: true,
+          sidebarPath: require.resolve('../prismdocs/prism_sidebars.json'),
+          sidebarCollapsible: false,
+          exclude: [
+            '**/shared',
+          ],
         },
     ],
     [

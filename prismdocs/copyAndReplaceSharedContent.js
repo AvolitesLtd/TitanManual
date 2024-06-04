@@ -8,7 +8,7 @@ const pages = [
       "layer-playback", "layer-options", //Play
       "outputs", "surfaces", //Stage
       "settings-synergy", "settings-inputs", //Settings
-      "preview-window" //Preview
+      "preview" //Preview
     ]
   },
   { id: 'prism-zero', app: 'Prism Zero', path: 'Zero' },
@@ -59,6 +59,7 @@ function replaceTextInFile(filePath, page) {
   const content = fs.readFileSync(filePath, 'utf8');
   const result = content.
   replace(new RegExp('{{PRISM-APP}}', 'g'), page.app).
+  replace(new RegExp('{{PRISM-APP-LOWER}}', 'g'), page.app.split(/[, ]+/).pop().toLowerCase()).
   replace(new RegExp('{{PRISM-PATH}}', 'g'), page.path);
   fs.writeFileSync(filePath, result, 'utf8');
 }
