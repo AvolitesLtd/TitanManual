@@ -3,8 +3,7 @@ id: settings-inputs
 title: Inputs Settings
 sidebar_label: Inputs
 ---
-
-### Inputs
+import Keys from '@site/src/components/key.ts';
 
 This page shows the list of physical inputs and virtual inputs available on the system.  
 It also shows the settings for each **Source** which are kept across all instances used within the app (either when loading the input in Preview Window or on a Layer).
@@ -31,6 +30,6 @@ The **Live Inputs** **Source Selection** list will automatically update when plu
 If the selected Source is unplugged, the list will show the **Select a Live Input source** placeholder.
 
 
-The **NDI Inputs** **Source Selection** list is updated when the **Scan for NDI Sources** button is pressed.  
+The **NDI Inputs** **Source Selection** list is updated when the <Keys.PrismKey>Refresh</Keys.PrismKey> button is pressed.  
 If a new NDI surce is present in the local network it will be added to the list.  
 If a new NDI surce is removed from the network it will be removed from the list, but only after the button is pressed.
