@@ -1,26 +1,46 @@
 ---
-id: bank
-title: Bank
-sidebar_label: Bank
+id: banks
+title: Banks
+sidebar_label: Banks
 ---
 
 import Keys from '@site/src/components/key.ts';
 
-The **Bank** is used to curate, name and order a list of different media types for playback within the media player and to prepare media files for encoding.
+Banks are a place where you can add media to **Prism Zero**, it allows for playback of the media, renaming your bank and import / export of banks.
 
-When a piece of media is loaded into the **Bank**, several details about the file are shown:
+Banks can also show thumbnails of the bank elements added to **Prism Zero**
 
-![Prism Zero Bank Details](/prismdocs/images/playlistdetails.png)
+New media can be added (via drag and drop) or pressing the <Keys.PrismKey>+</Keys.PrismKey> button. This will try to cache data for your order to speed up loading files again. Check out the "Clear Cache" on the [settings](../settings/settings-general) page.
 
-- The name / tag name of the file.
-- The current video codec of the file and whether it has alpha.
-- The resolution, frame rate, length and size of the file.
-- The current audio codec in use.
-- The location of the file, which can be directly accessed by clicking the address.
+-----
+
+### Prism Player Only
+Only 1 bank is allowed for this application. More are available on **Prism**.
+
+### Prism Zero Only
+Only 1 bank is allowed for this application. More are available on **Prism**
+
+### Prism Only
+Multiple banks can be added to **Prism**, as well as the above, they can be ordered.
+
+-----
+
+# Bank
+Selecting a **Bank** will show any media added to it. The **Bank** can be displayed in 2 views **Table** or **Grid**.
+
+## Table View
+
+![Prism Zero Banks](/prismdocs/images/zero-table-banks.png)
+
+This view gives more information about video / audio codecs, resolution, whether hardware acceleration is avaible on the media and much more.
+
 
 The selection box at the top of the list can be used to select or deselect all of the files in the bank. It also provides feedback on how many files are currently selected.
 
-The selection box to the left of the file name determines if certain global actions are taken with the specific file, such as sending to the encoder, showing or hiding the file details or removing the selected media from the bank.
+
+## Grid View
+
+![Prism Zero Banks](/prismdocs/images/zero-grid-banks.png)
 
 Pressing <Keys.PrismKey>Play</Keys.PrismKey> next to the file name will select that file to be shown in the preview window and will show as red when currently playing.
 

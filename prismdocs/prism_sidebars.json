@@ -50,11 +50,11 @@
           "items": [
             {
               "type": "doc",
-              "id": "player/play/bank"
+              "id": "player/play/mediaplayer"
             },
             {
               "type": "doc",
-              "id": "player/play/mediaplayer"
+              "id": "player/play/banks"
             }
           ]
         },
@@ -140,11 +140,11 @@
           "items": [
             {
               "type": "doc",
-              "id": "zero/play/bank"
+              "id": "zero/play/layers"
             },
             {
               "type": "doc",
-              "id": "zero/play/layer-playback"
+              "id": "zero/play/banks"
             }
           ]
         },
@@ -234,11 +234,11 @@
           "items": [
             {
               "type": "doc",
-              "id": "prism/play/bank"
+              "id": "prism/play/layers"
             },
             {
               "type": "doc",
-              "id": "prism/play/layer-playback"
+              "id": "prism/play/banks"
             }
           ]
         },
