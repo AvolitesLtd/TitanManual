@@ -149,6 +149,11 @@
           ]
         },
         {
+          "type": "doc",
+          "label": "Preview",
+          "id": "zero/preview"
+        },
+        {
           "collapsed": true,
           "type": "category",
           "label": "Encoder",
@@ -241,6 +246,11 @@
               "id": "prism/play/layer-playback"
             }
           ]
+        },
+        {
+          "type": "doc",
+          "label": "Preview",
+          "id": "prism/preview"
         },
         {
           "collapsed": true,
