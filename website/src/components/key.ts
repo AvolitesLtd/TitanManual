@@ -1,17 +1,22 @@
-import React, {ReactNode} from 'react';
+import React from 'react';
 const transButtons = require('../../languages-buttons.json')
 
-
-const Key = (tag: string): ReactNode => {
-    return function (props) {
-      let buttons = transButtons.context;
+const Key = (tag: string) => {
+    return (props) => {
+      
+      const buttons = tag === 'prism' ? transButtons.context : transButtons.prism;
+      
       let extraClass = '';
-      if (tag === 'prism')
-        buttons = transButtons.prism;
+
       for (const [cls, trans] of Object.entries(buttons))
-        for (const [lang, tran] of Object.entries(trans['lang']))
-         if(typeof props.children == 'string' && props.children.toLowerCase() == tran)
-           extraClass += cls;
+        for (const [_, tran] of Object.entries(trans['lang']))
+          if(typeof props.children == 'string' && props.children.toLowerCase() == tran)
+            extraClass += cls;
+          else {
+            //We want to style things inside PrismKeys without icons
+            if (tag === 'prism')
+              extraClass = 'prism-custom'
+          }
       return React.createElement('span', {className: `${tag} ${extraClass}`, ...props});
     };
   };
