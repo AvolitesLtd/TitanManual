@@ -4,6 +4,8 @@ title: Layers
 sidebar_label: Layers
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 The Layers tab shows two sections:
 
 - Surfaces and their layers 
@@ -41,8 +43,18 @@ This area will show the surface mix of all the layers together.
 
 ### Play Bar
 
-Similar to **Prism Player**'s media player standard play controls are available. One difference here is that the playbar will activate once a layer is selected, as this serve a purpose of controlling the layer playback.
+![Prism / Prism Zero Play Bar](/prismdocs/images/zero-prism-playbar.png)
+
+Similar to **Prism Player**'s media player, the standard play controls are available. One difference here is that the playbar will activate once a layer is selected, as this serve a purpose of controlling the layer playback.
+
+Hover the mouse over the bar and a seeking indicator will appear for you to drag.
+
+Toggling the <Keys.PrismKey>Trim</Keys.PrismKey> icon reveals our trim feature.
 
 ### Trim Bar
 
-Trim is available to set on the layer, but can also be override by the bank element via the [Preview](../preview) Window.
+![Prism / Prism Zero Trim Bar](/prismdocs/images/zero-prism-trimbar.png)
+
+The trim is set on the layer properties, but can also be override by the bank element via the [Preview](../preview) Window. Moving the sliders will shorten the playback on the layer. you can cancel your changes to reset back to the previously set trim. 
+
+*Note: Double clicking on the IN and OUT timecodes allows for editing of values, for more accuracy.*
