@@ -11,12 +11,12 @@ Banks within **Prism** provide a versatile space for managing media. You can pla
 You can import banks you have exported by simply dragging and dropping `json` files usually exported in the `Documents > Avolites` folder.
 
 <!-- Player & Zero -->
-<p style={{display: (`prism` === 'player' || `prism` === 'zero') ? 'inline-block' : 'none'}}>
+<p style={{display: (`prism` === 'player' || `prism` === 'zero') ? '' : 'none'}}>
     <i>Note: Only 1 bank is allowed to be used on <b>Prism</b>, more can be added on <b>Prism</b>. audio, images and video can be added</i>
 </p>
 
 <!-- Prism -->
-<p style={{display: (`prism` === 'prism') ? 'inline-block' : 'none'}}>
+<p style={{display: (`prism` === 'prism') ? '' : 'none'}}>
     <i>Note: Multiple banks can be added and as well as the basic feature of Prism Player and PRism Zero, ndi and live input sources are also able to be added, please see <a href="../settings/settings-inputs">Settings > Inputs</a> for more details.</i>
 </p>
 
@@ -26,9 +26,33 @@ To add new media to a bank, select the bank you wish to add to, and simply drag 
 
 The Bank can be displayed in two views: Table or Grid. Both views feature a header at the top, which includes options to duplicate or remove selected bank elements, and a toggle button to switch between views. There is also a button for adding new media.
 
+## Bank Element
+
 If you need extra performance when triggering video, you can send selected bank elements over to the encoder to get transcodeed into **Avolites' AIM** codec. More on this over on the [encoder](../encoder/encoder.md) page.
 
-The order of the elements in the bank can be arranged by draging them around in both table view and grid view.
+**Prism Player** and **Prism Zero** allow the adding of audio, images and video. Where as **Prism** introduces new elements such as NDI / Live Inputs and Virtual Returns. Bank elements can be rearranged by draging them around in both table view and grid view.
+
+### Types
+
+#### Image 
+
+Supports standard image types, such as **PNG**, **JPG**, **GIF** etc
+
+#### Audio
+Supports standard image types, such as **MP3**, **WAV** etc 
+
+#### Video
+Supports standard video playback of **H264**, **ProRes**, **NotchLC**, **HAP** & **AiM**. As all of the **Prism Suite** uses the **ffmpeg** we can support playback of any supported file.
+
+<div style={{display: (`prism` === 'prism') ? '' : 'none'}}>
+    <h4>NDI Input</h4>
+    <p>Any active ndi sources on your network can be used here, please see both <a href="../settings/settings-inputs">Settings</a> and <a href="../preview">Preview</a> pages in order setup and select your NDI Sources</p>
+    <h4>Live Input</h4>
+    <p>Any connected usb devices which supports DirectShow can be used here, please see both <a href="../settings/settings-inputs">Settings</a> and <a href="../preview">Preview</a> pages in order setup  and select your Webcam / USB Capture Devices</p>
+    <h4>Virtual Return</h4>
+    <p>Any connected usb devices which supports DirectShow can be used here, please see <a href="../preview">Preview</a> page in order setup  and select your Webcam / USB Capture Devices</p>
+</div>
+
 
 ## Table View
 
@@ -57,7 +81,7 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> and pr
 <div style={{display: (`prism` === 'prism' || `prism` === 'zero') ? '' : 'none'}}>
   <p>When previewing an element adjustments can be made to its properties, please see <a href='../preview'>Preview</a> for more details on how this works.</p>
 
-  <p>After any adjustments are made from the <b>Preview</b>, when the media is ready to export, pressing the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button will send all selected files into the <b>Encoder</b> Area. All details from the media files will be preserved and setup automatically to encode into the <b>AIM</b> codec. If the media file has been renamed this will also be used to set the output file name when encoding.</p>
+  <p>After any adjustments are made from the <b>Preview</b>, when the media is ready to export, pressing the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button will send all selected files into the <b>Encoder</b> Area. Relevant properties from the bank element will be preserved and setup automatically to encode into the <b>AIM</b> codec. If the media file has been renamed this will also be used to set the output file name when encoding.</p>
 </div>
 
 ### Menu Actions
