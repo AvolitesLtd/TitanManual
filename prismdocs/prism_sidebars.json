@@ -144,7 +144,7 @@
             },
             {
               "type": "doc",
-              "id": "zero/play/layer-playback"
+              "id": "zero/play/layer-options"
             }
           ]
         },
@@ -238,7 +238,7 @@
             },
             {
               "type": "doc",
-              "id": "prism/play/layer-playback"
+              "id": "prism/play/layer-options"
             }
           ]
         },
