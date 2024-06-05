@@ -28,9 +28,9 @@ The Bank can be displayed in two views: Table or Grid. Both views feature a head
 
 ## Bank Element
 
-If you need extra performance when triggering video, you can send selected bank elements over to the encoder to get transcodeed into **Avolites' AIM** codec. More on this over on the [encoder](../encoder/encoder.md) page.
+If you need extra performance when triggering video, you can send selected bank elements over to the encoder for transcoding into our **Avolites' AIM** codec. More on this over on the [encoder](../encoder/encoder.md) page.
 
-**Prism Player** and **Prism Zero** allow the adding of audio, images and video. Where as **Prism** introduces new elements such as NDI / Live Inputs and Virtual Returns. Bank elements can be rearranged by draging them around in both table view and grid view.
+**Prism Player** and **Prism Zero** allow the adding of audio, images and video. Where as **Prism** introduces new elements such as NDI / Live Inputs and Virtual Returns. Bank elements can be rearranged by dragging them around in both table view and grid view.
 
 ### Types
 
@@ -56,7 +56,7 @@ Supports standard video playback of **H264**, **ProRes**, **NotchLC**, **HAP** &
 
 ## Table View
 
-*Table View* gives more information about video / audio codecs, resolution, whether hardware acceleration is avaible on the media and much more.
+*Table View* gives more information about video / audio codecs, resolution, whether hardware acceleration is available on the media and much more.
 
 ![Prism Player Banks](/prismdocs/images/player-table-banks.png)
 
@@ -64,11 +64,11 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> and pr
 
 ### Play
 
-<p style={{display: (`player` === 'player') ? 'inline-block' : 'none'}}>
+<p style={{display: (`player` === 'player') ? '' : 'none'}}>
     Playing an element will playback on the <a href="../play/mediaplayer">media player</a>.
 </p>
 
-<p style={{display: (`player` === 'prism' || `player` === 'zero') ? 'inline-block' : 'none'}}>
+<p style={{display: (`player` === 'prism' || `player` === 'zero') ? '' : 'none'}}>
    A layer must be selected in order to play elements
 </p>
 
