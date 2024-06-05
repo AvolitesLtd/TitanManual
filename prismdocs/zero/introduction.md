@@ -16,6 +16,6 @@ Similar to **Prism Player**, **Prism Zero** is composed of two parts - the **Ser
 
 When starting **Prism Zero** you may be prompted to add a firewall exception. If you have this experience please add this port to your firewall / anti-virus lists.
 
-Please note that closing the **UI** doesn't necessarily close the server as this allows for any encoding, or **Synergy** control, to carry on behind the scenes. More infomation on this is found on the [General](./settings/settings-general) settings page.
+Please note that closing the **UI** doesn't necessarily close the server as this allows for any encoding, or **Synergy** control, to carry on behind the scenes. More information on this is found on the [General](./settings/settings-general) settings page.
 
 Please contact <a href="mailto:support@avolites.com?subject=Prism%20Zero:">support@avolites.com</a> if you require any support.
