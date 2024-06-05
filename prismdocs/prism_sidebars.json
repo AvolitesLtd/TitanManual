@@ -140,7 +140,7 @@
           "items": [
             {
               "type": "doc",
-              "id": "zero/play/layers"
+              "id": "zero/play/layer-playback"
             },
             {
               "type": "doc",
@@ -234,7 +234,7 @@
           "items": [
             {
               "type": "doc",
-              "id": "prism/play/layers"
+              "id": "prism/play/layer-playback"
             },
             {
               "type": "doc",
