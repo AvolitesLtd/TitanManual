@@ -11,7 +11,11 @@ const pages = [
       "preview" //Preview
     ]
   },
-  { id: 'prism-zero', app: 'Prism Zero', path: 'Zero' },
+  { id: 'prism-zero', app: 'Prism Zero', path: 'Zero',
+    excludes: [
+      "settings-inputs" //Settings
+    ]
+  },
   { id: 'prism', app: 'Prism', path: 'Prism' },
   // Add more pages as needed
 ]
