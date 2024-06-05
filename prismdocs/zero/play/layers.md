@@ -21,7 +21,7 @@ Adding, renaming and reordering layers can be edited over on the [Stage](../stag
 
 ### Surfaces
 
-This component shows the number of layers it has and also the resolution that it is set as. Its possible to minimise and maximise the view in order to simply view all the surfaces together. 
+This component shows the number of layers it has and also the resolution that it is set as. Its possible to minimize and maximize the view in order to simply view all the surfaces together. 
 
 ### Layers
 
@@ -31,7 +31,7 @@ The options on the right are interactive and a popup slider allows for adjustmen
 
 ![Prism Zero Layer controls](/prismdocs/images/prism-zero-layer-controls.png)
 
-These all affect the layer properties directly, but also can be overriden by the bank element, depending on your preferred result, as discussed on the [Preview](../preview) page.
+These all affect the layer properties directly, but also can be overridden by the bank element, depending on your preferred result, as discussed on the [Preview](../preview) page.
 
 ## Playback
 
@@ -45,4 +45,4 @@ Similar to **Prism Player**'s media player standard play controls are available.
 
 ### Trim Bar
 
-Trim is available to set on the layer, but can also be overrride by the bank element via the [Preview](../preview) Window.
+Trim is available to set on the layer, but can also be override by the bank element via the [Preview](../preview) Window.
