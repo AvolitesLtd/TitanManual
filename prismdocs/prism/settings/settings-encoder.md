@@ -3,11 +3,39 @@ id: settings-encoder
 title: Encoder Settings
 sidebar_label: Encoder
 ---
+import Keys from '@site/src/components/key.ts';
 
-### Encoder
+This page shows options for the application Encoder.
 
-Unless a specific export destination has been set for an item in the **Encoderlist**, it will use the default locations specified here. Pressing the **Change Folder** button opens a dialogue allowing a new destination folder to be selected. This new location will then be shown in the **Default Folder** box.
+![Settings System Info](/prismdocs/images/prism-settings-encoder.png)
 
-![Change Folder](/prismdocs/images/change_folder.png)
-
-If the **Auto Update Encode List** option is active, all existing jobs in the **Encode List** will have their export destinations updated to the newly specified **Default Folder**. When this is deactivated, only newly added jobs will default to this location whilst pre-existing jobs will retain their already specified output location.
+<table>
+    <thead>
+        <tr>
+            <th width="250">Feature</th>
+            <th>Note</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b>Auto Update Encoder Folder</b></td>
+            <td>This toggle will enable/disable automatic updates of the encoded media destination folder. When enabled all existing jobs in the <b>Encode List</b> will have their export destinations updated to the newly specified <b>Default Folder</b>. When disabled only newly added jobs will default to this location whilst pre-existing jobs will retain their already specified output location.
+            </td>
+        </tr>
+        <tr>
+            <td><b>Default Folder</b></td>
+            <td>This path is the default destination folder for encoded media. By pressing the <Keys.PrismKey>Change Folder</Keys.PrismKey> button it is possible to update the default destination folder that will be displayed in the box. Encoded media will use this default folder unless a specific export destination has been set for an item in the <b>Encode List</b> element <b>Encode Options</b>.
+            </td>
+        </tr>
+        <tr style={{display: (`prism` === 'prism') ? '' : 'none'}}>
+            <td><b>Auto Replace in Playlist</b></td>
+            <td>This toggle will enable/disable automatic replacement of the source media in the <b>Related Bank</b> with the encoded media. When enabled, if the source media exists in the selected <b>Related Bank</b>, the source media will be replaced by the encoded media. When disabled the encoded media will be added to the selected <b>Related Bank</b> if this has been specified.
+            </td>
+        </tr>
+        <tr style={{display: (`prism` === 'zero' || `prism` === 'player') ? '' : 'none'}}>
+            <td><b>Auto Replace in Playlist</b></td>
+            <td>This toggle will enable/disable automatic replacement of the source media in the bank with the encoded media. When enabled, if the source media exists in the bank, the source media will be replaced by the encoded media. When disabled the encoded media will be added to the bank.
+            </td>
+        </tr>
+    </tbody>
+</table>
