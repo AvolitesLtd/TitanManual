@@ -6,7 +6,7 @@ sidebar_label: Preview
 
 import Keys from '@site/src/components/key.ts';
 
-After opening the **Preview**, as described in the [Bank](../{{PRISM-APP-LOWER}}/play/bank) page of this manual. A new window will popup with a preview of the media you have selected along with player controls, such as seeking, setting the play mode, muting and triming the media.
+After opening the **Preview**, as described in the [Bank](../{{PRISM-APP-LOWER}}/play/bank) page of this manual. A new window will popup with a preview of the media you have selected along with player controls, such as seeking, setting the play mode, muting and trimming the media.
 
 Previewing media also allows for adjustments to be made to the properties of individual bank elements, setting values on the following areas to the right side of the window:
 
@@ -19,7 +19,7 @@ Previewing media also allows for adjustments to be made to the properties of ind
 
 ## Adjustments
 
-Any adjustment made will directly change the bank element propeties and then can be played with those settings either via playing the same element on the bank again or selecting <Keys.PrismKey>Send to Player</Keys.PrismKey>. 
+Any adjustment made will directly change the bank element properties and then can be played with those settings either via playing the same element on the bank again or selecting <Keys.PrismKey>Send to Player</Keys.PrismKey>. 
 
 *Note: A layer must be selected in order to play an elements.*
 
@@ -31,25 +31,25 @@ This area control the **Playback** options, which are set on the bank element.
 
 The below table describes what each of the options do:
 
-|   Feature     |  Note        |
-|---------------|:------------:|
+|   Feature     |  Note      |
+|---------------|------------|
 | **Bank**      | Select a bank to then select a bank element     |
 | **Element**   | Selecting a bank element will preview that bank element |
 | **Intensity** | Adjusting this will set the opacity of the bank element |
-| **Volume**    | Adjusting this will set the volume of the bank element  |
+| **Volume/Mute** | Adjusting this will set the volume of the bank element  |
 
 ### Player Controls
 
 This area controls the **Player Controls** options, which are set on the bank element.
 
-The Playback has check boxes against its properties so that users can define whether to use the bank element vlaue or the one that is currently on the layer that it will play on.
+The **Player Controls** has check boxes against its properties so that users can define whether to use the bank element value or the one that is currently on the layer that it will play on.
 
 ![Preview Player Controls Area](/prismdocs/images/preview-player-controls.png)
 
 The below table describes what each of the options do:
 
-|   Feature                    |  Note                                   |
-|------------------------------|------------                           |
+|   Feature                    |  Note     |
+|------------------------------|---------- |
 | **Cross Fade Duration**      | Sets the Cross Fade Duration of the bank element  |
 | **Play Mode**                | Sets the Play mode of the bank element   |
 | **Aspect Mode**              | Sets the Aspect Mode of the bank element |
@@ -57,6 +57,37 @@ The below table describes what each of the options do:
 | **Trim Out**                 | Sets the Trim Out of the bank element    |
 | **Speed**                    | Sets the Speed of the bank element       | 
 
+<div style={{display: (`{{PRISM-APP-LOWER}}` === 'prism') ? '' : 'none'}}>
+
+### NDI Input Settings (Prism Only)
+
+![Preview NDI Input Settings](/prismdocs/images/preview-ndi-settings.png)
+
+|   Feature      |  Note   |
+|----------------|---------|
+| **NDI Source** | A drop down list of all active NDI sources on your network|
+| **Refresh**    | Click to check for newly available ndi sources |
+| **Status**     | Shows the connection status to the ndi source, stream will only display if active |
+
+### Live Input Settings (Prism Only)
+
+![Preview Live Input Settings](/prismdocs/images/preview-live-settings.png)
+
+|   Feature  |  Note   |
+|------------|---------|
+| **Source** | A drop down list of valid usb devices to use for video streaming, if it supports DirectShow |
+| **Status** | Shows the connection status to the usb device, will only display if active |
+
+### Virtual Return Settings (Prism Only)
+
+![Preview Virtual Return Settings](/prismdocs/images/preview-virtual-return-settings.png)
+
+|   Feature      |  Note   |
+|----------------|---------|
+| **Surface** | A drop down list of all surfaces add to **Prism**. |
+| **Layer**    | Which layer to use as a source. This can help link layers and have different layer properties. |
+
+</div>
 
 ### Colour Correction
 
