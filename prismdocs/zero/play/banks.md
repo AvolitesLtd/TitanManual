@@ -111,4 +111,4 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements
 
 ## Import & Export
 
-Banks are able to be imported and exported from the application by clicking `Edit > Import / Export` from the header menu. The dialog defaults its location to the Windows Documents Folder under `Avolites > Prism > Zero`.
+Please see [Import & Export](../quick-start/import-export) for reference.
