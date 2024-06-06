@@ -23,7 +23,7 @@ Adding, renaming and reordering layers can be edited over on the [Stage](../stag
 
 ### Surfaces
 
-This component shows the number of layers it has and also the resolution that it is set as. Its possible to minimize and maximize the view in order to simply view all the surfaces together. 
+This component shows the number of layers it has and also the resolution that it is set as. Its possible to minimise and maximise the view in order to simply view all the surfaces together. 
 
 ### Layers
 
