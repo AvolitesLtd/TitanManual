@@ -28,7 +28,7 @@ The Bank can be displayed in two views: Table or Grid. Both views feature a head
 
 ## Bank Element
 
-If you need extra performance when triggering video, you can send selected bank elements over to the encoder for transcoding into our **Avolites' AIM** codec. More on this over on the [encoder](../encoder/encoder.md) page.
+If you need extra performance when triggering video, you can send selected bank elements over to the encoder for transcoding into our **Avolites AIM** codec. More on this over on the [encoder](../encoder/encoder.md) page.
 
 **Prism Player** and **Prism Zero** allow the adding of audio, images and video. Where as **Prism** introduces new elements such as NDI / Live Inputs and Virtual Returns. Bank elements can be rearranged by dragging them around in both table view and grid view.
 
