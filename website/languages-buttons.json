@@ -175,6 +175,11 @@
       "lang": {
         "en": "refresh"
       }
+    },
+    "prism-custom icon-shape-square": {
+      "lang": {
+        "en": "crop"
+      }
     }
   }
 }
