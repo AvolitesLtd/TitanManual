@@ -6,12 +6,23 @@ sidebar_label: Navigation
 
 import Keys from '@site/src/components/key.ts';
 
+Prism user interface is organized into three main sections:
+
+- [Header Menu](./navigation#header-menu)
+- [View Tabs](./navigation#view-tabs)
+- [Status Bar](./navigation#status-bar)
+
 ## Header Menu
+![Prism File Menu Open Recent](/prismdocs/images/navigation/header-menu.png)
+
+In this section it is possible to navigate the application menu, see the Project name and minimize, maximize or close the user interface.
+
+### App Logo
+Clicking on Prism logo will hide all [View Tabs](./navigation#view-tabs) showing the selected **Surface** in fullscreen.
 
 ### File
 
 ![Prism File Menu Open Recent](/prismdocs/images/navigation/header-file-recent.png)
-
 
 <table>
     <thead>
@@ -41,21 +52,47 @@ import Keys from '@site/src/components/key.ts';
             <td><b>Open Recent</b></td>
             <td>Select to open from a list of previous projects</td>
         </tr>
+    </tbody>
+</table>
+
+More information found at [Projects Management](../quick-start/projects-management) 
+
+<table>
+    <thead>
+        <tr>
+            <th>Menu Item</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
         <tr style={{display: (`prism` === 'player' || `prism` === 'zero' ) ? '' : 'none' }}>
             <td><b>Import</b></td>
-            <td>Imports and overrides either a **Bank** or **Encodelist**</td>
+            <td>Imports and overrides either a <b>Bank</b> or <b>Encodelist</b></td>
         </tr>
         <tr style={{display: (`prism` === 'prism' ) ? '' : 'none' }}>
             <td><b>Import</b></td>
-            <td>Imports by adding a new **Bank** or by overriding either a **Bank** or **Encodelist**</td>
+            <td>Imports by adding a new <b>Bank</b> or by overriding either a <b>Bank</b> or <b>Encodelist</b></td>
         </tr>
         <tr>
             <td><b>Export</b></td>
-            <td>Exports selected Bank either a **Bank** or **Encodelist**</td>
+            <td>Exports selected Bank either a <b>Bank</b> or <b>Encodelist</b></td>
         </tr>
+    </tbody>
+</table>
+
+More information found at [Import/Export](../quick-start/import-export)
+
+<table>
+    <thead>
+        <tr>
+            <th>Menu Item</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
         <tr >
             <td><b>Settings</b></td>
-            <td>Navigates to the settings page</td>
+            <td>Navigates to the <a href="../settings">Settings</a> View</td>
         </tr>
     </tbody>
 </table>
@@ -88,10 +125,9 @@ import Keys from '@site/src/components/key.ts';
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
-| **Preview** | Open the **Preview** window for editing bank elements more details can be found [here](../preview).|
+| **Preview** | Open the [Preview](../preview) window for editing bank elements.|
 
 </div>
-
 
 ### Audio
 
@@ -99,7 +135,7 @@ import Keys from '@site/src/components/key.ts';
 
 |  Menu Item   |   Description   |
 |--------------|-----------------|
-| **Audio Device** | Switch the audio device for **Prism** to output to. |
+| **Audio Device** | Switch the audio device for **Prism** to output to, the same settings can be set [here](../settings/settings-general#audio). |
 
 ### Video
 
@@ -128,8 +164,6 @@ Further controls can be found in the main header:
 | Show Grid   |   Displays a reference grid over the media player / layer preview. |
 | Transparency Preview |  Toggles on the alpha channel showing a checkerboard in the transparent areas. |
 
-
-
 ### Help
 
 ![Prism Header Help Menu](/prismdocs/images/navigation/header-help.png)
@@ -141,5 +175,26 @@ Further controls can be found in the main header:
 | About   | About **Prism**
 
 ## View Tabs
+![Prism File Menu Open Recent](/prismdocs/images/navigation/view-tabs.png)
 
+In this section it is possible to navigate the following app **Views**:
 
+<ul>
+    <li><a href="../play">Play</a></li>
+    <li style={{display: (`prism` === 'prism' || `prism` === 'zero') ? '' : 'none'}}>
+        <a href="../stage">Stage</a></li>
+    <li><a href="../encoder">Encoder</a></li>
+    <li><a href="../settings">Settings</a></li>
+</ul>
+
+An underline will give visual feedback of the selected **View**.
+
+## Status Bar
+
+![Prism File Menu Open Recent](/prismdocs/images/navigation/status-bar.png)
+
+This bar shows the following app informations at a glance.
+
+- App performance metrics - The full performance metrics are shown in [Settings System Info](../settings/settings-system-info)
+- Prism release version
+- User interface connection status led - red when disconnected, green when connected to the engine.

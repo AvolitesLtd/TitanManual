@@ -55,7 +55,15 @@
           "collapsed": true,
           "type": "category",
           "label": "Play",
+          "link": {
+            "type": "doc",
+            "id": "player/play/play"
+          },
           "items": [
+            {
+              "type": "doc",
+              "id": "player/play/play"
+            },
             {
               "type": "doc",
               "id": "player/play/mediaplayer"
@@ -153,6 +161,10 @@
           "collapsed": true,
           "type": "category",
           "label": "Play",
+          "link": {
+            "type": "doc",
+            "id": "zero/play/play"
+          },
           "items": [
             {
               "type": "doc",
@@ -161,6 +173,25 @@
             {
               "type": "doc",
               "id": "zero/play/bank"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Stage",
+          "link": {
+            "type": "doc",
+            "id": "zero/stage/stage"
+          },
+          "items": [
+            {
+              "type": "doc",
+              "id": "zero/stage/surfaces"
+            },
+            {
+              "type": "doc",
+              "id": "zero/stage/outputs"
             }
           ]
         },
@@ -255,6 +286,10 @@
           "collapsed": true,
           "type": "category",
           "label": "Play",
+          "link": {
+            "type": "doc",
+            "id": "prism/play/play"
+          },
           "items": [
             {
               "type": "doc",
@@ -263,6 +298,25 @@
             {
               "type": "doc",
               "id": "prism/play/bank"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Stage",
+          "link": {
+            "type": "doc",
+            "id": "prism/stage/stage"
+          },
+          "items": [
+            {
+              "type": "doc",
+              "id": "prism/stage/surfaces"
+            },
+            {
+              "type": "doc",
+              "id": "prism/stage/outputs"
             }
           ]
         },
