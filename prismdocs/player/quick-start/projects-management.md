@@ -9,9 +9,9 @@ To create a **Prism Player** project, click on `File > New Project` or use the `
 Creating a new project will reset all application settings.
 
 <!-- Prism -->
-<p style={{display: (`player` === 'prism') ? '' : 'none'}}>
+<span style={{display: (`player` === 'prism') ? '' : 'none'}}>
    All <b>Banks</b> and <b>Layers</b> will be removed and 2 default <b>Layers</b> will be created.
-</p>
+</span>
 
 **Encode list** media files and **Settings** are kept as they are not saved on project files but on separate files.
 
@@ -25,19 +25,19 @@ Clicking on `File > Save As` or using the `Ctrl+Shift+S` shortcut will prompt th
 When a project is saved in **Prism Player**, it will contain all application settings throughout the software.  
 
 <!-- Player -->
-<p style={{display: (`player` === 'player') ? 'inline-block' : 'none'}}>
+<span style={{display: (`player` === 'player') ? 'inline-block' : 'none'}}>
     This includes all <b>Bank</b>, <b>Surface</b> and <b>Layers</b> settings.
-</p>
+</span>
 
 <!-- Zero -->
-<p style={{display: (`player` === 'zero') ? 'inline-block' : 'none'}}>
+<span style={{display: (`player` === 'zero') ? 'inline-block' : 'none'}}>
     This includes all<b>Bank</b>, <b>Surface</b>, <b>Layers</b>, <b>Outputs</b> and Outputs' <b>Regions</b> settings.
-</p>
+</span>
 
 <!-- Prism -->
-<p style={{display: (`player` === 'prism') ? 'inline-block' : 'none'}}>
+<span style={{display: (`player` === 'prism') ? 'inline-block' : 'none'}}>
    This includes all <b>Banks</b>, <b>Surfaces</b>, <b>Layers</b>, <b>Outputs</b> and Outputs' <b>Regions</b> settings.
-</p>
+</span>
 
 ### Open Project
 

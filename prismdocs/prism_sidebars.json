@@ -39,6 +39,10 @@
             },
             {
               "type": "doc",
+              "id": "player/quick-start/import-export"
+            },
+            {
+              "type": "doc",
               "id": "player/quick-start/system-tray"
             }
           ]
@@ -126,7 +130,11 @@
             {
               "type": "doc",
               "id": "zero/quick-start/projects-management"
-            },          
+            },
+            {
+              "type": "doc",
+              "id": "zero/quick-start/import-export"
+            },
             {
               "type": "doc",
               "id": "zero/quick-start/system-tray"
@@ -220,6 +228,10 @@
             {
               "type": "doc",
               "id": "prism/quick-start/projects-management"
+            },
+            {
+              "type": "doc",
+              "id": "prism/quick-start/import-export"
             },
             {
               "type": "doc",
