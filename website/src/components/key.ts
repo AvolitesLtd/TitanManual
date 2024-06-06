@@ -13,7 +13,7 @@ const Key = (tag: string) => {
           if(typeof props.children == 'string' && props.children.toLowerCase() == tran)
             extraClass += cls;
           
-      //We want to style things inside PrismKeys without icons
+      //We want to style things inside PrismKey without icons
       if (tag === 'prism' && extraClass === '')
         extraClass = 'prism-custom'
       

@@ -151,6 +151,21 @@
         {
           "collapsed": true,
           "type": "category",
+          "label": "Stage",
+          "items": [
+            {
+              "type": "doc",
+              "id": "zero/stage/surfaces"
+            },
+            {
+              "type": "doc",
+              "id": "zero/stage/outputs"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
           "label": "Encoder",
           "link": {
             "type": "doc",
@@ -239,6 +254,21 @@
             {
               "type": "doc",
               "id": "prism/play/layer-playback"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Stage",
+          "items": [
+            {
+              "type": "doc",
+              "id": "prism/stage/surfaces"
+            },
+            {
+              "type": "doc",
+              "id": "prism/stage/outputs"
             }
           ]
         },
