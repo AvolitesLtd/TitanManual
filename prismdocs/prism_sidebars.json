@@ -145,13 +145,12 @@
             {
               "type": "doc",
               "id": "zero/play/layer-playback"
+            },
+            {
+              "type": "doc",
+              "id": "zero/preview"
             }
           ]
-        },
-        {
-          "type": "doc",
-          "label": "Preview",
-          "id": "zero/preview"
         },
         {
           "collapsed": true,
@@ -244,13 +243,12 @@
             {
               "type": "doc",
               "id": "prism/play/layer-playback"
+            },
+            {
+              "type": "doc",
+              "id": "prism/preview"
             }
           ]
-        },
-        {
-          "type": "doc",
-          "label": "Preview",
-          "id": "prism/preview"
         },
         {
           "collapsed": true,
