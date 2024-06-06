@@ -13,7 +13,7 @@ Prism user interface is organized into three main sections:
 - [Status Bar](./navigation#status-bar)
 
 ## Header Menu
-![Prism File Menu Open Recent](/prismdocs/images/navigation/header-menu.png)
+![Prism File Menu Open Recent](/prismdocs/images/navigation/prism-header-menu.png)
 
 In this section it is possible to navigate the application menu, see the Project name and minimize, maximize or close the user interface.
 
@@ -82,7 +82,7 @@ More information found at [Projects Management](../quick-start/projects-manageme
 
 More information found at [Import/Export](../quick-start/import-export)
 
-<table>
+<!-- <table>
     <thead>
         <tr>
             <th>Menu Item</th>
@@ -95,7 +95,7 @@ More information found at [Import/Export](../quick-start/import-export)
             <td>Navigates to the <a href="../settings">Settings</a> View</td>
         </tr>
     </tbody>
-</table>
+</table> -->
 
 ### Edit
 
@@ -191,10 +191,12 @@ An underline will give visual feedback of the selected **View**.
 
 ## Status Bar
 
-![Prism File Menu Open Recent](/prismdocs/images/navigation/status-bar.png)
-
 This bar shows the following app informations at a glance.
+
+<!-- ![Prism Status Bar Left](/prismdocs/images/navigation/status-bar-left.png) -->
 
 - App performance metrics - The full performance metrics are shown in [Settings System Info](../settings/settings-system-info)
 - Prism release version
+
+<!-- ![Prism Status Bar Right](/prismdocs/images/navigation/prism-status-bar-right.png) -->
 - User interface connection status led - red when disconnected, green when connected to the engine.
