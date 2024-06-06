@@ -21,17 +21,18 @@ Media can be played on specific / multiple layers, blended together using the in
 
 Adding, renaming and reordering layers can be edited over on the [Stage](../stage/surfaces) page
 
-### Surfaces
+### Surface
 
 This component shows the number of layers it has and also the resolution that it is set as. Its possible to minimise and maximise the view in order to simply view all the surfaces together. 
+![Prism Layers](/prismdocs/images/surfaces-layers/zero-surface.png)
 
-### Layers
+### Layer
 
 The layer comprises of an overlay, which can show to the user, duration, time left and which element, from which bank is playing.
 
-The options on the right are interactive and a popup slider allows for adjustment of Intensity, Volume and Speed.
+![Prism Layers](/prismdocs/images/surfaces-layers/zero-layer.png)
 
-![Prism Zero Layer controls](/prismdocs/images/prism-zero-layer-controls.png)
+The options on the right are interactive and a popup slider allows for adjustment of Intensity, Volume and Speed.
 
 These all affect the layer properties directly, but also can be overridden by the bank element, depending on your preferred result, as discussed on the [Preview](../preview) page.
 
