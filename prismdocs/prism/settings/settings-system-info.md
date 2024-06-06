@@ -11,7 +11,7 @@ App specific performance metrics are also displayed in the status bar at the bot
 
 
 | <p style={{width: '200px', margin: '0'}}>Feature</p> |  Note        |
-|------------------------------------------------------|:------------:|
+|------------------------------------------------------|------------|
 | **Connected Hard Drive** | This section shows the hard drives connected to the system. For each hard drive the total storage space, the used space and the available space are displayed. |
 | **Frame Rate** | This section shows the rate at which the app is displaying video frames.|
 | **CPU** | This section shows the amount of system CPU available,  the amount in use by the app and the amount the system is using overall.|
