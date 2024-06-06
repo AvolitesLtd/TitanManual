@@ -33,7 +33,6 @@ The order in which the elements are arranged will be the order of the encoding q
 At the bottom of the **Encoder** queue a readout shows the completion percentage of the total jobs.  
 Next to this are the <Keys.PrismKey>Play</Keys.PrismKey> / <Keys.PrismKey>Pause</Keys.PrismKey> and <Keys.PrismKey>Stop</Keys.PrismKey> buttons which control the encoding process.
 
-### Import & Export
+### Import/Export Encode Lists
 
-Encode Lists are able to be imported and exported from the application by clicking `File > Import > Encode List` and `File > Export > Encode List` from the header menu.  
-The default destination folder of Encode List files is in the **Documents** folder under `Avolites > Prism > {{PRISM-PATH}} > Encodelists`.
+Please see [Import/Export](../quick-start/import-export) section for reference.
