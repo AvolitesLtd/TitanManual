@@ -135,7 +135,7 @@ More information found at [Import/Export](../quick-start/import-export)
 
 |  Menu Item   |   Description   |
 |--------------|-----------------|
-| **Audio Device** | Switch the audio device for **Prism Player** to output to, the same settings can be set [here](../settings/settings-general#audio). |
+| **Audio Device** | Switch the audio device for **Prism Player** to output to, the same setting can be set [here](../settings/settings-general#audio). |
 
 ### Video
 
