@@ -25,16 +25,6 @@ This area allows control of te meida currently being played, it consists for the
 - Volume Control: Adjusts the application’s volume.
 - FullScreen: Toggle on and off fullscreen mode.
 
-## Header Menu
-Further controls can be found in the main header:
-
-![Prism Player Header Menu](/prismdocs/images/player-mediaplayer-header-menu.png)
-
-- Aspect Mode can change the way the media is viewed on the canvas
-- Under the **Video** menu a reference grid can be activated and overlays on top of the media.
-- If the video has alpha, then transparency Preview can be enabled to show a checkerboard in the transparent areas.
-- The application can be taken in and out of fullscreen mode by pressing <Keys.PrismKey>Fullscreen</Keys.PrismKey>. Fullscreen mode can be exited either by pressing <Keys.PrismKey>Minimise</Keys.PrismKey> at the top right of the screen or by using the _Esc_ button on your keyboard.
-
 ## Shortcuts
 
 | **Functionality**   | **Shortcut**              |
