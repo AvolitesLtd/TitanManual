@@ -41,9 +41,11 @@ These all affect the layer properties directly, but also can be overridden by th
 
 This area will show the surface mix of all the layers together. 
 
+![Prism Layer controls](/prismdocs/images/prism-surface-mix.png)
+
 ### Play Bar
 
-![Prism / Prism Zero Play Bar](/prismdocs/images/zero-prism-playbar.png)
+![Prism Play Bar](/prismdocs/images/zero-prism-playbar.png)
 
 Similar to **Prism Player**'s media player, the standard play controls are available. One difference here is that the playbar will activate once a layer is selected, as this serve a purpose of controlling the layer playback.
 
@@ -53,7 +55,7 @@ Toggling the <Keys.PrismKey>Trim</Keys.PrismKey> icon reveals our trim feature.
 
 ### Trim Bar
 
-![Prism / Prism Zero Trim Bar](/prismdocs/images/zero-prism-trimbar.png)
+![Prism Trim Bar](/prismdocs/images/zero-prism-trimbar.png)
 
 The trim is set on the layer properties, but can also be override by the bank element via the [Preview](../preview) Window. Moving the sliders will shorten the playback on the layer. you can cancel your changes to reset back to the previously set trim. 
 

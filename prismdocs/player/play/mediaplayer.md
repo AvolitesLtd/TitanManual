@@ -35,16 +35,6 @@ Further controls can be found in the main header:
 - If the video has alpha, then transparency Preview can be enabled to show a checkerboard in the transparent areas.
 - The application can be taken in and out of fullscreen mode by pressing <Keys.PrismKey>Fullscreen</Keys.PrismKey>. Fullscreen mode can be exited either by pressing <Keys.PrismKey>Minimise</Keys.PrismKey> at the top right of the screen or by using the _Esc_ button on your keyboard.
 
-## Adding Media
-
-Media can be added and played using several different methods:
-
-- Selecting file(s) in your file explorer and dragging them onto the _"Drag drop or select"_ icon in the **Bank** area or at the bottom of the UI.
-- Pressing the _"Select Files"_ button in the **Bank** or **Encoder** area.
-- Dragging a file onto the **Media Player** will automatically add the video to the Bank and begin playing.
-
-**Prism Player** will save all files to a standard default location `Documents > Avolites > Prism > Player` unless individually specified within the settings of any **Encoder Element**. The path of this folder can be changed in the **Encoder section** of the **Settings Page**.
-
 ## Shortcuts
 
 | **Functionality**   | **Shortcut**              |
