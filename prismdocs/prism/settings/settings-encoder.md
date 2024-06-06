@@ -29,9 +29,11 @@ This page shows the settings for the encoding of media files.
         </tr>
         <tr >
             <td><b>Auto Replace in Playlist</b></td>
-            <td style={{display: (`prism` === 'prism') ? '' : 'none'}}>This toggle will enable/disable automatic replacement of the source media in the <b>Related Bank</b> with the encoded media. <br /><br /> When enabled, if the source media exists in the selected <b>Related Bank</b>, the source media will be replaced by the encoded media. <br /><br /> When disabled the encoded media will be added to the selected <b>Related Bank</b> if this has been specified.
+            <td style={{display: (`prism` === 'prism') ? '' : 'none'}}>
+            This toggle will enable/disable automatic replacement of the source media in the <b>Related Bank</b> with the encoded media. <br /><br /> When enabled, if the source media exists in the selected <b>Related Bank</b>, the source media will be replaced by the encoded media. <br /><br /> When disabled the encoded media will be added to the selected <b>Related Bank</b> if this has been specified.
             </td>
-            <td style={{display: (`prism` === 'zero' || `prism` === 'player') ? '' : 'none'}}>This toggle will enable/disable automatic replacement of the source media in the bank with the encoded media. <br /><br /> When enabled, if the source media exists in the bank, the source media will be replaced by the encoded media. <br /><br /> When disabled the encoded media will be added to the bank.
+            <td style={{display: (`prism` === 'zero' || `prism` === 'player') ? '' : 'none'}}>
+            This toggle will enable/disable automatic replacement of the source media in the bank with the encoded media. <br /><br /> When enabled, if the source media exists in the bank, the source media will be replaced by the encoded media. <br /><br /> When disabled the encoded media will be added to the bank.
             </td>
         </tr>
     </tbody>
