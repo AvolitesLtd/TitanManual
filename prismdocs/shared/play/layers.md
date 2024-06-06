@@ -6,35 +6,57 @@ sidebar_label: Layers
 
 import Keys from '@site/src/components/key.ts';
 
-The Layers tab shows two sections:
-
-- Surfaces and their layers 
-- Selected layer playback / surface mix
-
 ![{{PRISM-APP}} Layers](/prismdocs/images/{{PRISM-APP-LOWER}}-layers.png)
 
-Media can be played on specific / multiple layers, blended together using the intensity sliders and mixed in volume. 
+On the [Play](../play) view This focuses on the Layers tab, which is made up of:
 
-**Prism Zero** is limited to 1 layer, but up to 16 can be added on **Prism**. *Note: performance may vary on different systems*
+- The surfaces and their layers, with their layer previews
+- The selected layer playback / surface mix
+
+**Prism Zero** is limited to 1 layer, but up to 16 can be added on **Prism**. 
+
+
+Media can be played on specific / multiple layers, blended together using the intensity sliders and can create simple mixes adjusting their volume. 
+
+*Note: performance may vary on different systems*
 
 ## Surfaces & Layers
 
-Adding, renaming and reordering layers can be edited over on the [Stage](../stage/surfaces) page
+Surface and their layers, can all be managed in the [Stage](../stage) view where layer can be added, removed, reordered and renamed.
 
 ### Surface
 
-This component shows the number of layers it has and also the resolution that it is set as. Its possible to minimise and maximise the view in order to simply view all the surfaces together. 
+A surface refers to the virtual canvas or area where visual content is projected or displayed. It can represent screens, LED walls, projection surfaces, or any other output device.
+
 ![Prism Layers](/prismdocs/images/surfaces-layers/{{PRISM-APP-LOWER}}-surface.png)
+
+The surface is crucial as it defines the spatial parameters and resolution of the visual content. Users can map their media to the surface, adjusting the placement, scaling, and transformation to fit the physical display precisely.
+
+This component shows the number of layers it has and also the resolution that it is set as. Its possible to minimise and maximise the view in order to simply view all the surfaces together. 
+
 
 ### Layer
 
-The layer comprises of an overlay, which can show to the user, duration, time left and which element, from which bank is playing.
+A layer is a canvas that contains visual content, such as videos or images. Multiple layers can be stacked and manipulated independently, allowing for complex compositions.
 
 ![Prism Layers](/prismdocs/images/surfaces-layers/{{PRISM-APP-LOWER}}-layer.png)
 
-The options on the right are interactive and a popup slider allows for adjustment of Intensity, Volume and Speed.
+The layer comprises of an overlay, which can show to the user, duration, time left and which element, from which bank is playing. 
 
-These all affect the layer properties directly, but also can be overridden by the bank element, depending on your preferred result, as discussed on the [Preview](../preview) page.
+#### Controlling the Layer
+
+The layer has some controls, which can adjust the layers in real-time.
+
+| Feature | Description |
+|---------|-------------|
+|  **Visibility** | Toggle the visibility icon to hide and show the layer |
+|  **Intensity** | Click on the % value to open a slider, this set the opacity of the layer |
+|  **Mute** | Toggle mute will mute / unmute the audio from the layer |
+|  **Volume** | Click on the % value to open a slider, this set the volume of the layer |
+
+Users can also control each [layer's options](../play/layer-options) via the UI or [Synergy](../settings/settings-synergy) control.
+
+Both methods affect the layer properties directly, but also can be overridden by the bank element, depending on your preferred result, as discussed on the [Preview](../preview) page.
 
 ## Playback
 
