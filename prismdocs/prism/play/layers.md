@@ -50,9 +50,9 @@ The layer has some controls, which can adjust the layers in real-time.
 | Feature | Description |
 |---------|-------------|
 |  **Visibility** | Toggle the visibility icon to hide and show the layer |
-|  **Intensity** | click on the % to open a slider, this set the opacity of the layer |
-|  **Volume** | click on the % to open a slider, this set the volume of the layer |
+|  **Intensity** | Click on the % value to open a slider, this set the opacity of the layer |
 |  **Mute** | Toggle mute will mute / unmute the audio from the layer |
+|  **Volume** | Click on the % value to open a slider, this set the volume of the layer |
 
 Users can also control each [layer's options](../play/layer-options) via the UI or [Synergy](../settings/settings-synergy) control.
 
