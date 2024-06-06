@@ -22,7 +22,7 @@ You can import banks you have exported by simply dragging and dropping `json` fi
 
 ## Bank
 
-To add new media to a bank, select the bank you wish to add to, and simply drag and drop your files or press the <Keys.PrismKey>+</Keys.PrismKey> button. This action caches the data in the **Prism Media Cache**, enhancing the loading speed for future projects. For more details, refer to the "Clear Cache" section on the [settings](../settings/settings-general) page.
+To add new media to a bank, select the bank you wish to add to, and simply drag and drop your files or press the <Keys.PrismKey>+</Keys.PrismKey> button. This action caches the data in the **Prism Media Cache**, enhancing the loading speed for future projects. For more details, refer to the [Cache](../settings/settings-general#cache) on the general settings page .
 
 The Bank can be displayed in two views: Table or Grid. Both views feature a header at the top, which includes options to duplicate or remove selected bank elements, and a toggle button to switch between views. There is also a button for adding new media.
 
