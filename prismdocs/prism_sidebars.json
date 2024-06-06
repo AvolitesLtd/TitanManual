@@ -62,10 +62,6 @@
           "items": [
             {
               "type": "doc",
-              "id": "player/play/play"
-            },
-            {
-              "type": "doc",
               "id": "player/play/mediaplayer"
             },
             {
