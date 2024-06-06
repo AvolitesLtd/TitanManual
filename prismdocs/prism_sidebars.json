@@ -35,6 +35,10 @@
           "items": [
             {
               "type": "doc",
+              "id": "player/quick-start/adding-media"
+            },
+            {
+              "type": "doc",
               "id": "player/quick-start/save-and-load"
             },
             {
@@ -123,6 +127,10 @@
           "type": "category",
           "label": "Quick Start",
           "items": [
+            {
+              "type": "doc",
+              "id": "zero/quick-start/adding-media"
+            },
             {
               "type": "doc",
               "id": "zero/quick-start/save-and-load"
@@ -217,6 +225,10 @@
           "type": "category",
           "label": "Quick Start",
           "items": [
+            {
+              "type": "doc",
+              "id": "prism/quick-start/adding-media"
+            },
             {
               "type": "doc",
               "id": "prism/quick-start/save-and-load"
