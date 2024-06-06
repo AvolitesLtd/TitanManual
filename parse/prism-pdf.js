@@ -225,6 +225,21 @@ function replaceBr(content) {
 }
 
 /**
+ * Replace key tags with normal tags
+ * @param {string} content Contents of the .md file with the tags in
+ * @return {string} The content with the breaks replaced
+ */
+function removeHtmlComments(htmlContent) {
+  // Regex pattern to find HTML comments
+  const commentPattern = /<!--[\s\S]*?-->/g;
+
+  // Replace all HTML comments with an empty string
+  const cleanedContent = htmlContent.replace(commentPattern, '');
+
+  return cleanedContent;
+}
+
+/**
  * Returns the path to the sidebars JSON file for the specified `version`
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} Relative path to the JSON file, e.g. `../website/sidebars.json`
@@ -360,6 +375,8 @@ function formatMd(docsPath,filename,version,sectionHeading, appName) {
   content = replaceBr(content);
 
   content = replaceJSX(content);
+
+  content = removeHtmlComments(content);
 
   content += "\n\n";
 
