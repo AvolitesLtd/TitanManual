@@ -10,13 +10,13 @@ The **Stage** page is a place to setup your surfaces and layers, currently **Pri
 
 ![Prism Stage Page](/prismdocs/images/{{PRISM-APP-LOWER}}-stage-surfaces.png)
 
-There is the ability to rename layers / surfaces and reorder layers.
+Double clicking on the surface tag will allow editing of the name.
 
 The resolution can be adjusted to match against your output settings.
 
 <div style={{display: (`{{PRISM-APP-LOWER}}` === 'prism') ? '' : 'none'}}>
 
-Clicking the <Keys.PrismKey>Sub menu</Keys.PrismKey> will show options for renaming, removing and duplication a layer.
+Layers can be reordered, removed and added and duplicated accessed via the <Keys.PrismKey>Sub menu</Keys.PrismKey>.
 
 *Note: When duplication a layer, their layer options will also be duplicated, you may want to reset the layer afterwards.*
 
