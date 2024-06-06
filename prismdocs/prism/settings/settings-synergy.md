@@ -10,8 +10,8 @@ This page shows the settings for **Synergy**.
 
 ![Settings Synergy](/prismdocs/images/prism-settings-synergy.png)
 
-| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Note        |
-|------------------------------------------------------|:------------:|
+| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Note      |
+|------------------------------------------------------|------------|
 | **Titan Media Node Version** | List of available **Titan Media Node**. The version in use must match the **Titan** version. If a mismatch is identified within Titan's **Synergy** Settings, a different version can be selected via this dropdown. More information on how to setup a **Synergy** connection can be found [here](../../../../docs/synergy).|
 | **Port** | Apecifies which port is used to allow **Prism** and **Titan** to communicate.|
 | **Enable Synergy** | This toggle enable/disable **Synergy** connection between **Prism** and the controlling device.|
