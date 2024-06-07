@@ -327,16 +327,8 @@ function resolvePageVersion(filename, version, appName = "") {
   if (fs.existsSync(filepath)) {
     return filepath;
   }
-  else {
-    let currentIndex = versions.indexOf(version);
 
-    if(currentIndex == -1 || currentIndex == versions.length-1) {
-      // version not in versions.json or is the last entry
-      return null;
-    }
-
-    return resolvePageVersion(filename,versions[++currentIndex])
-  }
+  return null
 }
 
 /**
