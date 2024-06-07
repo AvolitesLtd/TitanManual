@@ -24,8 +24,8 @@
     "items": [
       {
         "type": "doc",
-        "id": "player/introduction",
-        "label": "Introduction"
+        "label": "Introduction",
+        "id": "player/introduction"
       },
       {
         "type": "category",
@@ -124,8 +124,8 @@
     "items": [
       {
         "type": "doc",
-        "id": "zero/introduction",
-        "label": "Introduction"
+        "label": "Introduction",
+        "id": "zero/introduction"
       },
       {
         "type": "category",
