@@ -305,6 +305,10 @@
           "collapsed": true,
           "type": "category",
           "label": "Stage",
+          "link": {
+            "type": "doc",
+            "id": "prism/stage/stage"
+          },
           "items": [
             {
               "type": "doc",
