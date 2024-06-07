@@ -225,8 +225,8 @@ function replaceBr(content) {
 }
 
 /**
- * Replace key tags with normal tags
- * @param {string} content Contents of the .md file with the tags in
+ * Replace HTML Comments tags with normal tags
+ * @param {string} htmlContent Contents of the .md file with the tags in
  * @return {string} The content with the breaks replaced
  */
 function removeHtmlComments(htmlContent) {
@@ -235,6 +235,21 @@ function removeHtmlComments(htmlContent) {
 
   // Replace all HTML comments with an empty string
   const cleanedContent = htmlContent.replace(commentPattern, '');
+
+  return cleanedContent;
+}
+
+/**
+ * Replace P Tags with just its contents
+ * @param {string} htmlContent Contents of the .md file with the tags in
+ * @return {string} The content with the breaks replaced
+ */
+function removePTags(htmlContent) {
+  // Regex pattern to find HTML comments
+  const commentPattern = /<p([^>]*)>(.*?)<\/p>/gi;
+
+  // Replace all HTML comments with an empty string
+  const cleanedContent = htmlContent.replace(commentPattern, "$2");
 
   return cleanedContent;
 }
@@ -369,6 +384,8 @@ function formatMd(docsPath,filename,version,sectionHeading, appName) {
   content = replaceJSX(content);
 
   content = removeHtmlComments(content);
+
+  content = removePTags(content);
 
   content += "\n\n";
 
