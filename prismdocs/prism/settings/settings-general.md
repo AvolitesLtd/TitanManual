@@ -9,7 +9,7 @@ This page shows prism general settings.
 ![Settings General](/prismdocs/images/prism-settings-general.png)
 
 There are four sections:
-- **Application** - These options will give control over the application UI.
+- **Application** - These options will give control over the application UI
 - **Graphics** - These options will give control over the application graphics.
 - **Audio** - These options will give control over the application audio.
 - **Cache** - These options will give control over the application caching system.
@@ -38,4 +38,4 @@ There are four sections:
 
 | <p style={{width: '250px', margin: '0'}}>Feature</p> |  Description        |
 |----------------------|------------|
-| **Clear Cache** | This button will clear the application cache and saved media thumbnails. When adding a media file to a **Bank** or to **Encoder**, this will be analyzed and its information will be stored in a JSON file, Additionally a thumbnail .png file is generated and stored in the same folder. Clearing the cache will delete both JSON file and thumbnail .png file.  |
+| **Clear Cache** |  Clears the [Prism Media Cache](../quick-start/media-management#prism-media-cache), thumbnails and Undo/Redo History.  |
