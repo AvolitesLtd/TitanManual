@@ -145,6 +145,10 @@
             {
               "type": "doc",
               "id": "zero/play/layer-options"
+            },
+            {
+              "type": "doc",
+              "id": "zero/play/preview"
             }
           ]
         },
@@ -239,6 +243,10 @@
             {
               "type": "doc",
               "id": "prism/play/layer-options"
+            },
+            {
+              "type": "doc",
+              "id": "prism/play/preview"
             }
           ]
         },
