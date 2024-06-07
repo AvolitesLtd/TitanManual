@@ -180,6 +180,10 @@
           "collapsed": true,
           "type": "category",
           "label": "Stage",
+          "link": {
+            "type": "doc",
+            "id": "zero/stage/stage"
+          },
           "items": [
             {
               "type": "doc",
