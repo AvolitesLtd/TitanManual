@@ -31,7 +31,6 @@ Clicking on Prism Player logo will hide all [View Tabs](./navigation#view-tabs) 
 | Save As | Save a new / replace project file. |
 | Open | Open a project file. |
 | Open Recent | Select to open from a list of previous projects. |
-| Save As | Save a new / replace project file. |
 
 More information found at [Projects Management](../quick-start/projects-management) 
 
