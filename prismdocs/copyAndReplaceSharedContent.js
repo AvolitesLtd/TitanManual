@@ -57,10 +57,42 @@ function copyDirectoryContents(excludes, sourceDir, targetDir) {
 // Function to replace text in a file
 function replaceTextInFile(filePath, page) {
   const content = fs.readFileSync(filePath, 'utf8');
-  const result = content.
-  replace(new RegExp('{{PRISM-APP}}', 'g'), page.app).
-  replace(new RegExp('{{PRISM-APP-LOWER}}', 'g'), page.app.split(/[, ]+/).pop().toLowerCase()).
-  replace(new RegExp('{{PRISM-PATH}}', 'g'), page.path);
+
+  // Define the mappings for start and end comments based on PRISM-APP value
+  const commentMappings = {
+    prism: { start: 'PRISM-START-COMMENT', end: 'PRISM-END-COMMENT' },
+    player: { start: 'PLAYER-START-COMMENT', end: 'PLAYER-END-COMMENT' },
+    zero: { start: 'ZERO-START-COMMENT', end: 'ZERO-END-COMMENT' }
+  };
+
+  let result = content;
+
+  // Iterate over the mappings and apply the transformations
+  for (const key in commentMappings) {
+    if (commentMappings.hasOwnProperty(key)) {
+      const startMarker = commentMappings[key].start;
+      const endMarker = commentMappings[key].end;
+
+      if (key === page.app.split(/[, ]+/).pop().toLowerCase()) {
+        // Remove the comment markers for the current app key
+        result = result
+          .replace(new RegExp(`{{${startMarker}}}`, 'g'), '')
+          .replace(new RegExp(`{{${endMarker}}}`, 'g'), '');
+      } else {
+        // Comment out sections for other app keys
+        result = result
+          .replace(new RegExp(`{{${startMarker}}}`, 'g'), '<!--')
+          .replace(new RegExp(`{{${endMarker}}}`, 'g'), '-->');
+      }
+    }
+  }
+
+  result = result
+  .replace(new RegExp('{{PRISM-APP}}', 'g'), page.app)
+  .replace(new RegExp('{{PRISM-APP-LOWER}}', 'g'), page.app.split(/[, ]+/).pop().toLowerCase())
+  .replace(new RegExp('{{PRISM-APP-LAST}}', 'g'), page.app.split(/[, ]+/).pop())
+  .replace(new RegExp('{{PRISM-PATH}}', 'g'), page.path);
+  
   fs.writeFileSync(filePath, result, 'utf8');
 }
 
