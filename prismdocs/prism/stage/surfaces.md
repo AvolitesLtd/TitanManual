@@ -14,10 +14,7 @@ Double clicking on the surface tag will allow editing of the name.
 
 The resolution can be adjusted to match against your output settings.
 
-<div style={{display: (`prism` === 'prism') ? '' : 'none'}}>
 
 Layers can be reordered, removed and added and duplicated accessed via the <Keys.PrismKey>Sub menu</Keys.PrismKey>.
 
 *Note: When duplication a layer, their layer options will also be duplicated, you may want to reset the layer afterwards.*
-
-</div>
