@@ -6,7 +6,7 @@ sidebar_label: Navigation
 
 import Keys from '@site/src/components/key.ts';
 
-Prism user interface is organized into three main sections:
+**Prism**'s user interface is organized into three main sections:
 
 - [Header Menu](./navigation#header-menu)
 - [View Tabs](./navigation#view-tabs)
