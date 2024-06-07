@@ -4,6 +4,20 @@ title: Stage
 sidebar_label: Stage
 ---
 
-The **Stage** page is a place to setup your surfaces and layers, currently **Prism Zero** is limited to just **1 Surface** and **1 Layer**. Whilst **Prism** can have up to **16 layers**, dependent on your specific hardware. 
+<!--
+This view shows surfaces and layers. It is possible to add, remove, duplicate or rename **Layers** and change **Surface** resolution.  
+Currently Prism Zero is limited to just **1 Surface** and can have up to **16 layers**, dependent on your specific hardware.  
 
-![Prism Zero](/prismdocs/images/zero-stage.png)
+Furthermore it is possible to control Physical and NDI outputs. In the latter case, resolution and frame rate can be changed.
+A Region of Interest (RoI) can be set on both outputs. 
+-->
+
+
+This view shows surfaces and layers. It is possible to add, remove, duplicate or rename **Layers** and change **Surface** resolution.  
+Currently Prism Zero is limited to just **1 Surface** and **1 Layer**.  
+
+Furthermore it is possible to control Physical and NDI outputs. In the latter case, resolution and frame rate can be changed.
+A Region of Interest (RoI) can be set on both outputs.
+
+
+![Prism Zero](/prismdocs/images/zero-stage-view.png)
