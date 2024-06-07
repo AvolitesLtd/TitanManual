@@ -11,7 +11,7 @@ This page shows the settings for **Synergy**.
 
 ![Settings Synergy](/prismdocs/images/{{PRISM-APP-LOWER}}-settings-synergy.png)
 
-| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Note      |
+| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Description      |
 |------------------------------------------------------|------------|
 | **Titan Media Node Version** | List of available **Titan Media Node**. The version in use must match the **Titan** version. <br/><br/> If a mismatch is identified within Titan's **Synergy** Settings, a different version can be selected via this dropdown.  <br/><br/> More information on how to setup a **Synergy** connection can be found [here](../../../../docs/synergy).|
 | **Port** | Apecifies which port is used to allow **{{PRISM-APP}}** and **Titan** to communicate.|
