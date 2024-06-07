@@ -35,6 +35,10 @@
           "items": [
             {
               "type": "doc",
+              "id": "player/quick-start/adding-media"
+            },
+            {
+              "type": "doc",
               "id": "player/quick-start/save-and-load"
             },
             {
@@ -50,11 +54,11 @@
           "items": [
             {
               "type": "doc",
-              "id": "player/play/bank"
+              "id": "player/play/mediaplayer"
             },
             {
               "type": "doc",
-              "id": "player/play/mediaplayer"
+              "id": "player/play/bank"
             }
           ]
         },
@@ -125,6 +129,10 @@
           "items": [
             {
               "type": "doc",
+              "id": "zero/quick-start/adding-media"
+            },
+            {
+              "type": "doc",
               "id": "zero/quick-start/save-and-load"
             },          
             {
@@ -140,11 +148,15 @@
           "items": [
             {
               "type": "doc",
-              "id": "zero/play/bank"
+              "id": "zero/play/layers"
             },
             {
               "type": "doc",
               "id": "zero/play/layer-options"
+            },
+            {
+              "type": "doc",
+              "id": "zero/play/bank"
             },
             {
               "type": "doc",
@@ -223,6 +235,10 @@
           "items": [
             {
               "type": "doc",
+              "id": "prism/quick-start/adding-media"
+            },
+            {
+              "type": "doc",
               "id": "prism/quick-start/save-and-load"
             },
             {
@@ -238,11 +254,15 @@
           "items": [
             {
               "type": "doc",
-              "id": "prism/play/bank"
+              "id": "prism/play/layers"
             },
             {
               "type": "doc",
               "id": "prism/play/layer-options"
+            },
+            {
+              "type": "doc",
+              "id": "prism/play/bank"
             },
             {
               "type": "doc",
