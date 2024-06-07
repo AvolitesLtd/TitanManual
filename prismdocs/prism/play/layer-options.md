@@ -61,8 +61,8 @@ The below table describes what each of the options do:
 |   Feature                    |  Note     |
 |------------------------------|---------- |
 | **Cross Fade Duration**      | Sets the Cross Fade Duration of the layer  |
-| **Play Mode**                | Sets the Play mode of the layer   |
-| **Aspect Mode**              | Sets the Aspect Mode of the layer |
+| **Play Mode**                | Sets the Play Mode of the layer, they are: <br/><br/> - **Play List** - Play through all the media in the bank that the current element belongs to. <br/> - **Loop** - Continuously play the same media element <br/> - **Shuffle** - Randomly select and play media from the bank that the element belongs to. <br/> - **Play Once** - Play the media once and then display the last frame. <br/> - **Pause** - Stay on the current frame <br/> - **In Frame** - Display the first frame <br/> - **Out Frame** - Display the last frame |
+| **Aspect Mode**              | Sets the Aspect Mode of the layer, they are: <br/><br/> - **Fit** - Adjust the media to fit within the surface while maintaining its original aspect ratio <br/> - **Box** - Display the media in a box format, adding black bars to maintain the original aspect ratio -  <br/> - **Center** - Center the media on the surface without scaling it, showing it at its original size . <br/> - **Window** - Adjust the video to fit the entire screen, potentially altering the aspect ratio |
 | **Trim In**                  | Sets the Trim In of the layer     |
 | **Trim Out**                 | Sets the Trim Out of the layer    |
 | **Speed**                    | Sets the Speed of the layer       | 
@@ -95,8 +95,8 @@ The below table describes what each of the options do:
 
 | <p style={{width: '100px', margin: '0'}}>Feature</p> |  Note |
 |-----------------|------------|
-| **Scale X**     | Sets the Scale X (horizontal scale) of the layer, in relation to the surface size. <br/> When pressing the <Keys.PrismKey>Lock</Keys.PrismKey> button this will be aspect ratio locked with *Scale Y* . <br/> When pressing the <Keys.PrismKey>Unlock</Keys.PrismKey> button this will be set independently from *Scale Y* |
-| **Scale Y**     | Sets the Scale Y (vertical scale) of the layer, in relation to the surface size. <br/> When pressing the <Keys.PrismKey>Lock</Keys.PrismKey> button this will be aspect ratio locked with *Scale X* . <br/> When pressing the <Keys.PrismKey>Unlock</Keys.PrismKey> button this will be set independently from *Scale X*|
+| **Scale X**     | Sets the Scale X (horizontal scale) of the layer, in relation to the surface size. <br/> When pressing the <Keys.PrismKey>Lock</Keys.PrismKey> icon this will be aspect ratio locked with *Scale Y* . <br/> When pressing the <Keys.PrismKey>Unlock</Keys.PrismKey> icon this will be set independently from *Scale Y* |
+| **Scale Y**     | Sets the Scale Y (vertical scale) of the layer, in relation to the surface size. <br/> When pressing the <Keys.PrismKey>Lock</Keys.PrismKey> icon this will be aspect ratio locked with *Scale X* . <br/> When pressing the <Keys.PrismKey>Unlock</Keys.PrismKey> icon this will be set independently from *Scale X*|
 | **Translate X** | Sets the Translate X (horizontal position) of the layer, in relation to the surface size |
 | **Translate Y** | Sets the Translate Y (vertical position) of the layer, in relation to the surface size |
 | **Rotate X**    | Sets the Rotate X (x axis) of the layer, in relation to the surface |
