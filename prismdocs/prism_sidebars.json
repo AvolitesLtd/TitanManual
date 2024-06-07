@@ -284,6 +284,10 @@
             },
             {
               "type": "doc",
+              "id": "prism/settings/settings-inputs"
+            },
+            {
+              "type": "doc",
               "id": "prism/settings/settings-synergy"
             }
           ]
