@@ -6,7 +6,7 @@ sidebar_label: Preview
 
 import Keys from '@site/src/components/key.ts';
 
-After opening the **Preview**, as described in the [Bank](../zero/play/bank) page of this manual. A new window will popup with a preview of the media you have selected along with player controls, such as seeking, setting the play mode, muting and trimming the media.
+After opening the **Preview**, as described in the [Bank](../prism/play/bank) page of this manual. A new window will popup with a preview of the media you have selected along with player controls, such as seeking, setting the play mode, muting and trimming the media.
 
 Previewing media also allows for adjustments to be made to the properties of individual bank elements, setting values on the following areas to the right side of the window:
 
@@ -15,7 +15,7 @@ Previewing media also allows for adjustments to be made to the properties of ind
 - [Colour Correction](./preview#colour-correction)
 - [Transformation](./preview#Transformation)
 
-![Prism Zero Preview Window](/prismdocs/images/zero-preview.png)
+![Prism Zero Preview Window](/prismdocs/images/prism-preview.png)
 
 ## Adjustments
 
@@ -57,7 +57,6 @@ The below table describes what each of the options do:
 | **Trim Out**                 | Sets the Trim Out of the bank element    |
 | **Speed**                    | Sets the Speed of the bank element       | 
 
-<div style={{display: (`zero` === 'prism') ? '' : 'none'}}>
 
 ### NDI Input Settings (Prism Only)
 
@@ -87,7 +86,7 @@ The below table describes what each of the options do:
 | **Surface** | A drop down list of all surfaces add to **Prism**. |
 | **Layer**    | Which layer to use as a source. This can help link layers and have different layer properties. |
 
-</div>
+
 
 ### Colour Correction
 

@@ -148,7 +148,7 @@
             },
             {
               "type": "doc",
-              "id": "zero/preview"
+              "id": "zero/play/preview"
             }
           ]
         },
@@ -246,7 +246,7 @@
             },
             {
               "type": "doc",
-              "id": "prism/preview"
+              "id": "prism/play/preview"
             }
           ]
         },
