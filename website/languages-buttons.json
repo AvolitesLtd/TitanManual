@@ -176,6 +176,11 @@
         "en": "refresh"
       }
     },
+    "prism-custom icon-shape-square": {
+      "lang": {
+        "en": "crop"
+      }
+    },
     "prism-custom icon-archive": {
       "lang": {
         "en": "change folder"

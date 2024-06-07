@@ -85,7 +85,7 @@
           "items": [
             {
               "type": "doc",
-              "id": "player/encoder/encoder-settings"
+              "id": "player/encoder/encode-options"
             }
           ]
         },
@@ -210,7 +210,7 @@
           "items": [
             {
               "type": "doc",
-              "id": "zero/encoder/encoder-settings"
+              "id": "zero/encoder/encode-options"
             }
           ]
         },
@@ -339,7 +339,7 @@
           "items": [
             {
               "type": "doc",
-              "id": "prism/encoder/encoder-settings"
+              "id": "prism/encoder/encode-options"
             }
           ]
         },
