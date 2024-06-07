@@ -11,7 +11,7 @@ Similar to the [Preview](../preview#adjustments) adjustments, the layer options 
 - [Playback](./layer-options#playback)
 - [Player Controls](./layer-options#player-controls)
 - [Colour Correction](./layer-options#colour-correction)
-- [Transformation](./layer-options#Transformation)
+- [Transformation](./layer-options#transformation)
 
 **Layer Options** allows adjustments to be made to the layer properties and can be controlled either directly from the UI or remotely by connecting with **Synergy**.
 
@@ -95,8 +95,8 @@ The below table describes what each of the options do:
 
 | <p style={{width: '100px', margin: '0'}}>Feature</p> |  Note |
 |-----------------|------------|
-| **Scale X**     | Sets the Scale X (horizontal scale) of the layer, in relation to the surface size. This can be aspect ratio locked with *Scale Y* |
-| **Scale Y**     | Sets the Scale Y (vertical scale) of the layer, in relation to the surface size. This can be aspect ratio locked with *Scale X* |
+| **Scale X**     | Sets the Scale X (horizontal scale) of the layer, in relation to the surface size. <br/> When pressing the <Keys.PrismKey>Lock</Keys.PrismKey> button this will be aspect ratio locked with *Scale Y* . <br/> When pressing the <Keys.PrismKey>Unlock</Keys.PrismKey> button this will be set independently from *Scale Y* |
+| **Scale Y**     | Sets the Scale Y (vertical scale) of the layer, in relation to the surface size. <br/> When pressing the <Keys.PrismKey>Lock</Keys.PrismKey> button this will be aspect ratio locked with *Scale X* . <br/> When pressing the <Keys.PrismKey>Unlock</Keys.PrismKey> button this will be set independently from *Scale X*|
 | **Translate X** | Sets the Translate X (horizontal position) of the layer, in relation to the surface size |
 | **Translate Y** | Sets the Translate Y (vertical position) of the layer, in relation to the surface size |
 | **Rotate X**    | Sets the Rotate X (x axis) of the layer, in relation to the surface |
