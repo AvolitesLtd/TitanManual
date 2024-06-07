@@ -42,17 +42,17 @@ The below table describes what each of the options do:
 
 This area controls the **Player Controls** options, which are set on the bank element.
 
-The **Player Controls** has check boxes against its properties so that users can define whether to use the bank element value or the one that is currently on the layer that it will play on.
-
 ![Preview Player Controls Area](/prismdocs/images/preview-player-controls.png)
+
+The **Player Controls** have check boxes against their properties, so that users can define whether to use the bank element value or the one that is currently on the layer that it will play on.
 
 The below table describes what each of the options do:
 
 |   Feature                    |  Note     |
 |------------------------------|---------- |
 | **Cross Fade Duration**      | Sets the Cross Fade Duration of the bank element  |
-| **Play Mode**                | Sets the Play mode of the bank element   |
-| **Aspect Mode**              | Sets the Aspect Mode of the bank element |
+| **Play Mode**                | Sets the Play Mode of the bank element, ready to override the layer, if checked. <br/><br/> - **Play List** - Play through all the media in the bank that the current element belongs to. <br/> - **Loop** - Continuously play the same media element <br/> - **Shuffle** - Randomly select and play media from the bank that the element belongs to. <br/> - **Play Once** - Play the media once and then display the last frame. <br/> - **Pause** - Stay on the current frame <br/> - **In Frame** - Display the first frame <br/> - **Out Frame** - Display the last frame |
+| **Aspect Mode** | Sets the Aspect Mode of the bank element, ready to override the layer, if checked. <br/><br/> - **Fit** - Adjust the media to fit within the surface while maintaining its original aspect ratio <br/> - **Box** - Display the media in a box format, adding black bars to maintain the original aspect ratio - <br/> - **Center** - Center the media on the surface without scaling it, showing it at its original size . <br/> - **Window** - Adjust the video to fit the entire screen, potentially altering the aspect ratio |
 | **Trim In**                  | Sets the Trim In of the bank element     |
 | **Trim Out**                 | Sets the Trim Out of the bank element    |
 | **Speed**                    | Sets the Speed of the bank element       | 
