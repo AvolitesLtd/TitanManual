@@ -10,15 +10,17 @@ Banks within **Prism Player** provide a versatile space for managing media. You 
 
 You can import banks you have exported by simply dragging and dropping `json` files usually exported in the `Documents > Avolites` folder.
 
-<!-- Player & Zero -->
-<p style={{display: (`player` === 'player' || `player` === 'zero') ? '' : 'none'}}>
-    <i>Note: Only 1 bank is allowed to be used on <b>Prism Player</b>, more can be added on <b>Prism</b>. audio, images and video can be added</i>
-</p>
 
-<!-- Prism -->
-<p style={{display: (`player` === 'prism') ? '' : 'none'}}>
-    <i>Note: Multiple banks can be added and as well as the basic feature of Prism Player and PRism Zero, ndi and live input sources are also able to be added, please see <a href="../settings/settings-inputs">Settings > Inputs</a> for more details.</i>
-</p>
+*Note: Only 1 bank is allowed to be used on **Prism Player**, more can be added on **Prism**. audio, images and video can be added*
+
+
+<!--
+*Note: Only 1 bank is allowed to be used on **Prism Player**, more can be added on **Prism**. audio, images and video can be added*
+-->
+
+<!--
+*Note: Multiple banks can be added and as well as the basic feature of Prism Player and PRism Zero, ndi and live input sources are also able to be added, please see [Settings > Inputs]("../settings/settings-inputs") for more details.*
+-->
 
 ## Bank
 
@@ -44,15 +46,16 @@ Supports standard image types, such as **MP3**, **WAV** etc
 #### Video
 Supports standard video playback of **H264**, **ProRes**, **NotchLC**, **HAP** & **AiM**. As all of the **Prism Suite** uses the **ffmpeg** we can support playback of any supported file.
 
-<div style={{display: (`player` === 'prism') ? '' : 'none'}}>
-    <h4>NDI Input</h4>
-    <p>Any active ndi sources on your network can be used here, please see both <a href="../settings/settings-inputs">Settings</a> and <a href="../preview">Preview</a> pages in order setup and select your NDI Sources</p>
-    <h4>Live Input</h4>
-    <p>Any connected usb devices which supports DirectShow can be used here, please see both <a href="../settings/settings-inputs">Settings</a> and <a href="../preview">Preview</a> pages in order setup  and select your Webcam / USB Capture Devices</p>
-    <h4>Virtual Return</h4>
-    <p>Any connected usb devices which supports DirectShow can be used here, please see <a href="../preview">Preview</a> page in order setup  and select your Webcam / USB Capture Devices</p>
-</div>
+<!--
+#### NDI Input
+Any active ndi sources on your network can be used here, please see both [Settings](../settings/settings-inputs) and [Preview](../play/preview) pages in order setup and select your NDI Sources
 
+#### Live Input
+Any connected usb devices which supports DirectShow can be used here, please see both [Settings](../settings/settings-inputs) and [Preview](../play/preview) pages in order setup  and select your Webcam / USB Capture Devices
+
+#### Virtual Return
+Any connected usb devices which supports DirectShow can be used here, please see [Preview](../play/preview) page in order setup and select your Webcam / USB Capture Devices
+-->
 
 ## Table View
 
@@ -64,44 +67,57 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> and pr
 
 ### Play
 
-<p style={{display: (`player` === 'player') ? '' : 'none'}}>
-    Playing an element will playback on the <a href="../play/mediaplayer">media player</a>.
-</p>
 
-<p style={{display: (`player` === 'prism' || `player` === 'zero') ? '' : 'none'}}>
-   A layer must be selected in order to play elements
-</p>
+Playing an element will playback on the [media player](../play/mediaplayer).
 
+
+<!--
+A layer must be selected in order to play elements
+-->
+
+<!--
+A layer must be selected in order to play elements
+-->
+
+
+<!--
 ### Preview
 
-<p style={{display: (`player` === 'player') ? '' : 'none'}}>
-    <i> Note: This is a feature of <b>Prism</b> and <b>Prism Zero</b> only. </i>
-</p>
+When previewing an element adjustments can be made to its properties, please see [Preview](../play/preview) for more details on how this works.
 
-<div style={{display: (`player` === 'prism' || `player` === 'zero') ? '' : 'none'}}>
-  <p>When previewing an element adjustments can be made to its properties, please see <a href='../preview'>Preview</a> for more details on how this works.</p>
+After any adjustments are made from the **Preview**, when the media is ready to export, pressing the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button will send all selected files into the **Encoder** Area. Relevant properties from the bank element will be preserved and setup automatically to encode into the **AIM** codec. If the media file has been renamed this will also be used to set the output file name when encoding.
+-->
 
-  <p>After any adjustments are made from the <b>Preview</b>, when the media is ready to export, pressing the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button will send all selected files into the <b>Encoder</b> Area. Relevant properties from the bank element will be preserved and setup automatically to encode into the <b>AIM</b> codec. If the media file has been renamed this will also be used to set the output file name when encoding.</p>
-</div>
+<!--
+### Preview
+
+When previewing an element adjustments can be made to its properties, please see [Preview](../play/preview) for more details on how this works.
+
+After any adjustments are made from the **Preview**, when the media is ready to export, pressing the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button will send all selected files into the **Encoder** Area. Relevant properties from the bank element will be preserved and setup automatically to encode into the **AIM** codec. If the media file has been renamed this will also be used to set the output file name when encoding.
+-->
 
 ### Menu Actions
 
-Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
 
-<ul>
-    <li>
-        <b>Remove</b> - to delete the element from the bank.
-    </li>
-    <li style={{display: (`player` === 'prism' || `player` === 'zero') ? '' : 'none'}}>
-        <b>Preview</b> - adjust settings of the bank element
-    </li>
-    <li>
-       <b>Duplicate</b> - add a new copy of the bank element, including all settings
-    </li>
-    <li>
-        <b>Show in folder</b> - Open file explorer and navigate to the element's media file.
-    </li>
-</ul>
+Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
+- **Remove** - to delete the element from the bank.
+- **Duplicate** - add a new copy of the bank element, including all settings
+- **Show In Folder** - Open file explorer and navigate to the element's media file.
+
+<!--
+Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
+- **Remove** - Delete the element from the bank.
+- **Preview** - Preview and adjust properties of the bank element.
+- **Duplicate** - Add a new copy of the bank element, including all settings
+- **Show In Folder** - Open file explorer and navigate to the element's media file.
+-->
+<!--
+Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
+- **Remove** - Delete the element from the bank.
+- **Preview** - Preview and adjust properties of the bank element.
+- **Duplicate** - Add a new copy of the bank element, including all settings
+- **Show In Folder** - Open file explorer and navigate to the element's media file.
+-->
 
 ## Grid View
 
