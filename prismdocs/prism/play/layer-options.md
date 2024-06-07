@@ -29,3 +29,17 @@ Options found here are used to adjust which of the Bank entry's is being played,
 ### Transformation
 
 The **Transformation** section allows for independent control of **X** and **Y** **scaling**, **Translation** across the **X** and **Y** axes and **Rotation** around the **X**,**Y** and **Z** axes. All transformations are applied globally.
+
+![Layer Options Playback Area](/prismdocs/images/layer-options-transformation.png)
+
+The below table describes what each of the options do:
+
+| <p style={{width: '100px', margin: '0'}}>Feature</p> |  Note |
+|-----------------|------------|
+| **Scale X**     | Sets the Scale X (horizontal scale) of the layer, in relation to the surface size. <br/> When pressing the <Keys.PrismKey>Lock</Keys.PrismKey> icon this will be aspect ratio locked with *Scale Y* . <br/> When pressing the <Keys.PrismKey>Unlock</Keys.PrismKey> icon this will be set independently from *Scale Y* |
+| **Scale Y**     | Sets the Scale Y (vertical scale) of the layer, in relation to the surface size. <br/> When pressing the <Keys.PrismKey>Lock</Keys.PrismKey> icon this will be aspect ratio locked with *Scale X* . <br/> When pressing the <Keys.PrismKey>Unlock</Keys.PrismKey> icon this will be set independently from *Scale X*|
+| **Translate X** | Sets the Translate X (horizontal position) of the layer, in relation to the surface size |
+| **Translate Y** | Sets the Translate Y (vertical position) of the layer, in relation to the surface size |
+| **Rotate X**    | Sets the Rotate X (x axis) of the layer, in relation to the surface |
+| **Rotate Y**    | Sets the Rotate Y (y axis) of the layer, in relation to the surface |
+| **Rotate Z**    | Sets the Rotate Z (z axis) of the layer, in relation to the surface |
