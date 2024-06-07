@@ -35,11 +35,15 @@
           "items": [
             {
               "type": "doc",
-              "id": "player/quick-start/adding-media"
+              "id": "player/quick-start/projects-management"
             },
             {
               "type": "doc",
               "id": "player/quick-start/save-and-load"
+            },
+            {
+              "type": "doc",
+              "id": "player/quick-start/import-export"
             },
             {
               "type": "doc",
@@ -129,12 +133,16 @@
           "items": [
             {
               "type": "doc",
-              "id": "zero/quick-start/adding-media"
-            },
+              "id": "zero/quick-start/project-manaagment"
+            }, 
             {
               "type": "doc",
               "id": "zero/quick-start/save-and-load"
             },          
+            {
+              "type": "doc",
+              "id": "zero/quick-start/import-export"
+            },
             {
               "type": "doc",
               "id": "zero/quick-start/system-tray"
@@ -250,11 +258,15 @@
           "items": [
             {
               "type": "doc",
-              "id": "prism/quick-start/adding-media"
+              "id": "prism/quick-start/project-manaagment"
             },
             {
               "type": "doc",
               "id": "prism/quick-start/save-and-load"
+            },
+            {
+              "type": "doc",
+              "id": "prism/quick-start/import-export"
             },
             {
               "type": "doc",
