@@ -195,6 +195,46 @@
       "lang": {
         "en": "preview"
       }
+    },
+    "prism-custom icon-playonce": {
+      "lang": {
+        "en": "play list"
+      }
+    },
+    "prism-custom icon-loop": {
+      "lang": {
+        "en": "loop"
+      }
+    },
+    "prism-custom icon-shuffle": {
+      "lang": {
+        "en": "shuffle"
+      }
+    },
+    "prism-custom icon-playoncehold": {
+      "lang": {
+        "en": "play once"
+      }
+    },
+    "prism-custom icon-inframe": {
+      "lang": {
+        "en": "in frame"
+      }
+    },
+    "prism-custom icon-outframe": {
+      "lang": {
+        "en": "out frame"
+      }
+    },
+    "prism-custom icon-solo": {
+      "lang": {
+        "en": "solo"
+      }
+    },
+    "prism-custom icon-e-remove-2": {
+      "lang": {
+        "en": "cancel"
+      }
     }
   }
 }
