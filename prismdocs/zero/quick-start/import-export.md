@@ -7,7 +7,18 @@ import Keys from '@site/src/components/key.ts';
 
 Banks and Encode Lists can be saved to an external file (Export), and loaded from an external file (Import).
 
-To export a **Prism Zero** Bank, <span style={{display: (`zero` === 'prism') ? 'inline-block' : 'none'}}> first select a Bank and then</span> click on `File > Export > Bank`.  
+<!--
+To export a **Prism** Bank, first select a Bank and then click on `File > Export > Bank`.  
+-->
+
+
+To export a **Prism Zero** Bank, click on `File > Export > Bank`.  
+
+
+<!--
+To export a **Prism Player** Bank, click on `File > Export > Bank`.  
+-->
+
 The default destination folder of Bank files is in the **Documents** folder under `Avolites > Prism > Zero > Playlists`.
 
 To export a **Prism Zero** Encode List, click on `File > Export > Encode List`.  
