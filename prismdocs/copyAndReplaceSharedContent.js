@@ -5,17 +5,13 @@ const path = require('path');
 const pages = [
   { id: 'prism-player', app: 'Prism Player', path: 'Player',
     excludes: [
-      "layers", "layer-options", //Play
-      "stage", "outputs", "surfaces", //Stage
-      "settings-synergy", "settings-inputs", //Settings
+      "layer-playback", "layer-options", //Play
+      "outputs", "surfaces", //Stage
+      "settings-synergy", //Settings
       "preview" //Preview
     ]
   },
-  { id: 'prism-zero', app: 'Prism Zero', path: 'Zero',
-    excludes: [
-      "settings-inputs" //Settings
-    ]
-  },
+  { id: 'prism-zero', app: 'Prism Zero', path: 'Zero'},
   { id: 'prism', app: 'Prism', path: 'Prism' },
   // Add more pages as needed
 ]
