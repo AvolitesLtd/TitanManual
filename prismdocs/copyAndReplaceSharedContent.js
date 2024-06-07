@@ -5,8 +5,8 @@ const path = require('path');
 const pages = [
   { id: 'prism-player', app: 'Prism Player', path: 'Player',
     excludes: [
-      "layer-playback", "layer-options", //Play
-      "outputs", "surfaces", //Stage
+      "layers", "layer-options", //Play
+      "stage", "outputs", "surfaces", //Stage
       "settings-synergy", //Settings
       "preview" //Preview
     ]
