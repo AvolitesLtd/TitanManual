@@ -96,7 +96,7 @@ This area controls the **Colour Correction** options, which are set on the bank 
 
 The below table describes what each of the options do:
 
-|   Feature      |  Note        |
+|   Feature      |  Note      |
 |----------------|------------|
 | **Red**        | Sets the Red Channel of the bank element |
 | **Green**      | Sets the Green Channel of the bank element|
