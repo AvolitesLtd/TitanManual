@@ -16,7 +16,7 @@ There are four sections:
 
 ### Application
 
-| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Note        |
+| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Description        |
 |----------------------|------------|
 | **Keep Server Running On Close** | This toggle will shutdown or keep the application running when closing the UI. <br/> <br/> When enabled the application will keep running in the system tray and continue with any assigned tasks after closing the UI. <br/> <br/> When disabled closing the UI will exit the application fully regardless of its current state.|
 | **Disable UI Notifications** | This toggle will enable/disable UI notifications. When enabled messages from the application are displayed at the top of the UI.|
@@ -24,18 +24,18 @@ There are four sections:
 
 ### Graphics
 
-| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Note        |
+| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Description        |
 |----------------------|------------|
 | **Graphics Card** | List of available GPUs on the system. The selected device will be used by the application to output video frames.|
 
 ### Audio
 
-| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Note        |
+| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Description        |
 |----------------------|------------|
 | **Audio Output Device** | List of available audio output devices on the system. The selected device will be used by the application to output master audio.|
 
 ### Cache
 
-| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Note        |
+| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Description        |
 |----------------------|------------|
 | **Clear Cache** | This button will clear the application cache and saved media thumbnails. When adding a media file to a **Bank** or to **Encoder**, this will be analyzed and its information will be stored in a JSON file, Additionally a thumbnail .png file is generated and stored in the same folder. Clearing the cache will delete both JSON file and thumbnail .png file.  |
