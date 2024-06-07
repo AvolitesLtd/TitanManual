@@ -4,14 +4,38 @@ title: General Settings
 sidebar_label: General
 ---
 
-### General
+This page shows {{PRISM-APP-LOWER}} general settings.
 
-When **Keep Server Running On Close** is activated, when the main UI is closed the application will keep running in the system tray and continue with any assigned tasks. If this option is deactivated, closing the UI will exit the application fully regardless of its current state.
+![Settings General](/prismdocs/images/{{PRISM-APP-LOWER}}-settings-general.png)
 
-**Disable UI Notifications** is used to determine if messages from the application are displayed at the top of the **{{PRISM-APP}}** interface.
+There are four sections:
+- **Application** - These options will give control over the application UI.
+- **Graphics** - These options will give control over the application graphics.
+- **Audio** - These options will give control over the application audio.
+- **Cache** - These options will give control over the application caching system.
 
-Using the **Graphics Card** dropdown allows the user to specify which GPU in the computer is used. The **AiM codec** makes use of hardware acceleration, so choosing the most powerful GPU in the system will benefit playback. Only DirectX 12 capable GPU's will be shown.
+### Application
 
-The **Audio Device** dropdown allows **{{PRISM-APP}}** to specify the output device separately from the main computer to create a dedicated preview feed.
+| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Note        |
+|----------------------|------------|
+| **Keep Server Running On Close** | This toggle will shutdown or keep the application running when closing the UI. <br/> <br/> When enabled the application will keep running in the system tray and continue with any assigned tasks after closing the UI. <br/> <br/> When disabled closing the UI will exit the application fully regardless of its current state.|
+| **Disable UI Notifications** | This toggle will enable/disable UI notifications. When enabled messages from the application are displayed at the top of the UI.|
+| **UI Warnings** | This button will reset the status of UI warnings when pressed. As an example, when selecting Stage tab, a Render Warning popup is shown. This warning can be disabled by checking the 'Don't show this message again' checkbox. After pressing the UI warnings button this warning will be prompted again.|
 
-**Undo History** provides feedback on the Undo function. The Total Steps determines how many undo actions can be made and Active Steps indicates the current position within the Total Steps.
+### Graphics
+
+| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Note        |
+|----------------------|------------|
+| **Graphics Card** | List of available GPUs on the system. The selected device will be used by the application to output video frames.|
+
+### Audio
+
+| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Note        |
+|----------------------|------------|
+| **Audio Output Device** | List of available audio output devices on the system. The selected device will be used by the application to output master audio.|
+
+### Cache
+
+| <p style={{width: '250px', margin: '0'}}>Feature</p> |  Note        |
+|----------------------|------------|
+| **Clear Cache** | This button will clear the application cache and saved media thumbnails. When adding a media file to a **Bank** or to **Encoder**, this will be analyzed and its information will be stored in a JSON file, Additionally a thumbnail .png file is generated and stored in the same folder. Clearing the cache will delete both JSON file and thumbnail .png file.  |
