@@ -12,17 +12,17 @@ Visiting this page for the first time should present a rendering warning to you,
 
 ## Physical Output
 
-A list of all connected video output devices, will all appear in the "Output Devices" drop down, to the left side.
+A list of all connected video output devices, will appear in the *Output Devices* drop down.
 
 ![Prism](/prismdocs/images/prism-stage-outputs-physical.png)
 
-Selecting this will mean that new settings will apply to that individual output.
+Selecting an output device will show its properties, automatically populated:
+- Width
+- Height
+- Refresh rate
+- HDR support
 
-Width, height and Refresh Rate are automatically populated from, the device itself.
-
-We also detect whether HDR is supported on the output device. 
-
-After enabling the output, and playing a bank element on the layer, you should now see that media displaying on the output device.
+After enabling the output, and playing a bank element on the layer, the media will display on the output device.
 
 ## NDI Output
 
@@ -30,10 +30,28 @@ NDI output allows for other applications to receive surface frames.
 
 ![Prism](/prismdocs/images/prism-stage-outputs-ndi.png)
 
-You can rename the NDI output and adjust its resolution, width and height can be aspect locked together. 
+The following NDI output properties can be set:
+- Name
+- Width
+- Height
+- Frame rate
 
-**Frame rate** can also be set before pressing the <Keys.PrismKey>Confirm</Keys.PrismKey> button.
+To confirm any change to these properties click on the <Keys.PrismKey>Confirm</Keys.PrismKey> button.
+
+Resolution width and height values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon.  
+When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, width and height will always maintain relative size according to the aspect ratio of the width and height set as the lock is pressed - if one value is adjusted, the other will change accordingly.  
+When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, width and Height can be individually set 
+regardless of the resulting aspect ratio.
+
+*_Note: width will always adjust to nearest 64 pixels multiple*
 
 ## Regions
 
-Typing into the regions area will set the size and position of the region rendering on the output device.
+In this section it is possible to create a Region of Interest (RoI).  
+A blue overlay shows the selected region that will be sent to the output.  
+To change the *X* and *Y* coordinates, the *Width* and *Height* of the region, change the values in the input boxes.
+
+Resolution width and height values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon.  
+When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, width and height will always maintain relative size according to the aspect ratio of the width and height set as the lock is pressed - if one value is adjusted, the other will change accordingly.  
+When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, width and Height can be individually set 
+regardless of the resulting aspect ratio.

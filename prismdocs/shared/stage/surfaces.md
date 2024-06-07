@@ -6,13 +6,19 @@ sidebar_label: Surfaces
 
 import Keys from '@site/src/components/key.ts';
 
-The **Stage** page is a place to setup your surfaces and layers, currently **Prism Zero** is limited to just **One Surface** and **One Layer**. Whilst **Prism** can have up to **16 layers**, dependent on your specific hardware. 
+This is the page where surfaces and layers can be setup.
 
 ![Prism Stage Page](/prismdocs/images/{{PRISM-APP-LOWER}}-stage-surfaces.png)
 
-Double clicking on the surface tag will allow editing of the name.
+Double clicking on the surface tag will allow to edit it.
 
-The resolution can be adjusted to match against your output settings.
+The surface resolution can be adjusted to match against the selected output settings.  
+Resolution width and height values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon.  
+When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, width and height will always maintain relative size according to the aspect ratio of the width and height set as the lock is pressed - if one value is adjusted, the other will change accordingly.  
+When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, width and Height can be individually set 
+regardless of the resulting aspect ratio.
+
+*_Note: width will always adjust to nearest 64 pixels multiple*
 
 {{PRISM-START-COMMENT}}
 Layers can be reordered, removed and added and duplicated accessed via the <Keys.PrismKey>Sub menu</Keys.PrismKey>.
