@@ -16,15 +16,17 @@ The default destination folder of Encode List files is in the **Documents** fold
 To import a **Prism Zero** Bank, click on `File > Import > Bank`.  
 The default source folder of Bank files is in the **Documents** folder under `Avolites > Prism > Zero > Playlists`.
 
-<!-- Player and Zero -->
-<span style={{display: (`zero` === 'player' || `zero` === 'zero') ? 'inline-block' : 'none'}}>
-    The imported Bank will replace the existing one.
-</span>
+<!--
+The imported Bank will replace the existing one.
+-->
 
-<!-- Prism -->
-<span style={{display: (`zero` === 'prism') ? 'inline-block' : 'none'}}>
-   The imported Bank will be added to the <b>Banks</b> if there is no selected Bank, otherwise it will replace the selected Bank. 
-</span>
+
+The imported Bank will replace the existing one.
+
+
+<!--
+The imported Bank will be added to the **Banks** if there is no selected Bank, otherwise it will replace the selected Bank. 
+-->
 
 It is also possible to import a Bank in the <b>Banks</b> view using the Bank <Keys.PrismKey>Sub Menu</Keys.PrismKey> Import function.
 
