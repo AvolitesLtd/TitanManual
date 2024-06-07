@@ -31,7 +31,6 @@ Clicking on Prism logo will hide all [View Tabs](./navigation#view-tabs) showing
 | Save As | Save a new / replace project file. |
 | Open | Open a project file. |
 | Open Recent | Select to open from a list of previous projects. |
-| Save As | Save a new / replace project file. |
 
 More information found at [Projects Management](../quick-start/projects-management) 
 
@@ -90,8 +89,6 @@ More information found at [Import/Export](../quick-start/import-export)
 | Audio Device | Switch the audio device for **Prism** to output to, the same setting can be set [here](../settings/settings-general#audio). |
 
 ### Video
-
-Further controls can be found in the main header:
 
 
 ![Prism Header Video Menu](/prismdocs/images/navigation/zero-prism-header-video.png)
@@ -162,10 +159,9 @@ An underline will give visual feedback of the selected **View**.
 
 This bar shows the following app informations at a glance.
 
+<!-- Add Screenshots -->
 <!-- ![Prism Status Bar Left](/prismdocs/images/navigation/status-bar-left.png) -->
 
 - App performance metrics - The full performance metrics are shown in [Settings System Info](../settings/settings-system-info)
 - Prism release version
-
-<!-- ![Prism Status Bar Right](/prismdocs/images/navigation/prism-status-bar-right.png) -->
-- User interface connection status led - red when disconnected, green when connected to the engine.
+- User interface connection status led - red when disconnected, green when connected to the server.
