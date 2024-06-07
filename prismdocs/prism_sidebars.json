@@ -35,7 +35,11 @@
           "items": [
             {
               "type": "doc",
-              "id": "player/quick-start/projects-management"
+              "id": "player/quick-start/navigation"
+            },
+            {
+              "type": "doc",
+              "id": "player/quick-start/project-management"
             },
             {
               "type": "doc",
@@ -55,6 +59,10 @@
           "collapsed": true,
           "type": "category",
           "label": "Play",
+          "link": {
+            "type": "doc",
+            "id": "player/play/play"
+          },
           "items": [
             {
               "type": "doc",
@@ -133,8 +141,12 @@
           "items": [
             {
               "type": "doc",
-              "id": "zero/quick-start/project-manaagment"
-            }, 
+              "id": "zero/quick-start/navigation"
+            },
+            {
+              "type": "doc",
+              "id": "zero/quick-start/project-management"
+            },
             {
               "type": "doc",
               "id": "zero/quick-start/save-and-load"
@@ -153,6 +165,10 @@
           "collapsed": true,
           "type": "category",
           "label": "Play",
+          "link": {
+            "type": "doc",
+            "id": "zero/play/play"
+          },
           "items": [
             {
               "type": "doc",
@@ -165,10 +181,25 @@
             {
               "type": "doc",
               "id": "zero/play/bank"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Stage",
+          "link": {
+            "type": "doc",
+            "id": "zero/stage/stage"
+          },
+          "items": [
+            {
+              "type": "doc",
+              "id": "zero/stage/surfaces"
             },
             {
               "type": "doc",
-              "id": "zero/play/preview"
+              "id": "zero/stage/outputs"
             }
           ]
         },
@@ -258,7 +289,11 @@
           "items": [
             {
               "type": "doc",
-              "id": "prism/quick-start/project-manaagment"
+              "id": "prism/quick-start/navigation"
+            },
+            {
+              "type": "doc",
+              "id": "prism/quick-start/project-management"
             },
             {
               "type": "doc",
@@ -278,6 +313,10 @@
           "collapsed": true,
           "type": "category",
           "label": "Play",
+          "link": {
+            "type": "doc",
+            "id": "prism/play/play"
+          },
           "items": [
             {
               "type": "doc",
@@ -290,10 +329,25 @@
             {
               "type": "doc",
               "id": "prism/play/bank"
+            }
+          ]
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Stage",
+          "link": {
+            "type": "doc",
+            "id": "prism/stage/stage"
+          },
+          "items": [
+            {
+              "type": "doc",
+              "id": "prism/stage/surfaces"
             },
             {
               "type": "doc",
-              "id": "prism/play/preview"
+              "id": "prism/stage/outputs"
             }
           ]
         },
