@@ -22,95 +22,97 @@
       "id": "player/introduction"
     },
     "items": [
-    {
-      "type": "doc",
-      "id": "player/introduction"
-    },
-    {
-      "type": "category",
-      "label": "Quick Start",
-      "items": [
-        {
-          "type": "doc",
-          "id": "player/quick-start/navigation"
-        },
-        {
-          "type": "doc",
-          "id": "player/quick-start/media-management"
-        },
-        {
-          "type": "doc",
-          "id": "player/quick-start/projects-management"
-        },
-        {
-          "type": "doc",
-          "id": "player/quick-start/import-export"
-        },
-        {
-          "type": "doc",
-          "id": "player/quick-start/system-tray"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Play",
-      "link": {
+      {
         "type": "doc",
-        "id": "player/play/play"
+        "id": "player/introduction",
+        "label": "Introduction"
       },
-      "items": [
-        {
-          "type": "doc",
-          "id": "player/play/mediaplayer"
-        },
-        {
-          "type": "doc",
-          "id": "player/play/banks"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Encoder",
-      "link": {
-        "type": "doc",
-        "id": "player/encoder/encoder"
+      {
+        "type": "category",
+        "label": "Quick Start",
+        "items": [
+          {
+            "type": "doc",
+            "id": "player/quick-start/navigation"
+          },
+          {
+            "type": "doc",
+            "id": "player/quick-start/media-management"
+          },
+          {
+            "type": "doc",
+            "id": "player/quick-start/projects-management"
+          },
+          {
+            "type": "doc",
+            "id": "player/quick-start/import-export"
+          },
+          {
+            "type": "doc",
+            "id": "player/quick-start/system-tray"
+          }
+        ]
       },
-      "items": [
-        {
+      {
+        "type": "category",
+        "label": "Play",
+        "link": {
           "type": "doc",
-          "id": "player/encoder/encode-options"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "label": "Settings",
-      "link": {
-        "type": "doc",
-        "id": "player/settings/settings"
+          "id": "player/play/play"
+        },
+        "items": [
+          {
+            "type": "doc",
+            "id": "player/play/mediaplayer"
+          },
+          {
+            "type": "doc",
+            "id": "player/play/banks"
+          }
+        ]
       },
-      "items": [
-        {
+      {
+        "type": "category",
+        "label": "Encoder",
+        "link": {
           "type": "doc",
-          "id": "player/settings/settings-general"
+          "id": "player/encoder/encoder"
         },
-        {
+        "items": [
+          {
+            "type": "doc",
+            "id": "player/encoder/encode-options"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Settings",
+        "link": {
           "type": "doc",
-          "id": "player/settings/settings-system-info"
+          "id": "player/settings/settings"
         },
-        {
-          "type": "doc",
-          "id": "player/settings/settings-playback"
-        },
-        {
-          "type": "doc",
-          "id": "player/settings/settings-encoder"
-        }
-      ]
-    }
-  ]}],
+        "items": [
+          {
+            "type": "doc",
+            "id": "player/settings/settings-general"
+          },
+          {
+            "type": "doc",
+            "id": "player/settings/settings-system-info"
+          },
+          {
+            "type": "doc",
+            "id": "player/settings/settings-playback"
+          },
+          {
+            "type": "doc",
+            "id": "player/settings/settings-encoder"
+          }
+        ]
+      }
+    ]
+  }],
   "zero": [
   {
     "type": "category",
@@ -122,7 +124,8 @@
     "items": [
       {
         "type": "doc",
-        "id": "zero/introduction"
+        "id": "zero/introduction",
+        "label": "Introduction"
       },
       {
         "type": "category",
@@ -238,137 +241,140 @@
           }
         ]
       }
-  ]}],
+    ]
+  }],
   "prism": [
-    {
-      "type": "category",
-      "label": "Prism",
-      "link": {
+  {
+    "type": "category",
+    "label": "Prism",
+    "link": {
+      "type": "doc",
+      "id": "prism/introduction"
+    },
+    "items": [ 
+      {
         "type": "doc",
+        "label": "Introduction",
         "id": "prism/introduction"
       },
-      "items": [ 
-        {
+      {
+        "type": "category",
+        "label": "Quick Start",
+        "items": [
+          {
+            "type": "doc",
+            "id": "prism/quick-start/navigation"
+          },
+          {
+            "type": "doc",
+            "id": "prism/quick-start/media-management"
+          },
+          {
+            "type": "doc",
+            "id": "prism/quick-start/projects-management"
+          },
+          {
+            "type": "doc",
+            "id": "prism/quick-start/import-export"
+          },
+          {
+            "type": "doc",
+            "id": "prism/quick-start/system-tray"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Play",
+        "link": {
           "type": "doc",
-          "id": "prism/introduction"
+          "id": "prism/play/play"
         },
-        {
-          "type": "category",
-          "label": "Quick Start",
-          "items": [
-            {
-              "type": "doc",
-              "id": "prism/quick-start/navigation"
-            },
-            {
-              "type": "doc",
-              "id": "prism/quick-start/media-management"
-            },
-            {
-              "type": "doc",
-              "id": "prism/quick-start/projects-management"
-            },
-            {
-              "type": "doc",
-              "id": "prism/quick-start/import-export"
-            },
-            {
-              "type": "doc",
-              "id": "prism/quick-start/system-tray"
-            }
-          ]
-        },
-        {
-          "type": "category",
-          "label": "Play",
-          "link": {
+        "items": [
+          {
             "type": "doc",
-            "id": "prism/play/play"
+            "id": "prism/play/layers"
           },
-          "items": [
-            {
-              "type": "doc",
-              "id": "prism/play/layers"
-            },
-            {
-              "type": "doc",
-              "id": "prism/play/layer-options"
-            },
-            {
-              "type": "doc",
-              "id": "prism/play/banks"
-            },
-            {
-              "type": "doc",
-              "id": "prism/play/preview"
-            }
-          ]
-        },
-        {
-          "type": "category",
-          "label": "Stage",
-          "link": {
+          {
             "type": "doc",
-            "id": "prism/stage/stage"
+            "id": "prism/play/layer-options"
           },
-          "items": [
-            {
-              "type": "doc",
-              "id": "prism/stage/surfaces"
-            },
-            {
-              "type": "doc",
-              "id": "prism/stage/outputs"
-            }
-          ]
-        },
-        {
-          "type": "category",
-          "label": "Encoder",
-          "link": {
+          {
             "type": "doc",
-            "id": "prism/encoder/encoder"
+            "id": "prism/play/banks"
           },
-          "items": [
-            {
-              "type": "doc",
-              "id": "prism/encoder/encode-options"
-            }
-          ]
-        },
-        {
-          "type": "category",
-          "label": "Settings",
-          "link": {
+          {
             "type": "doc",
-            "id": "prism/settings/settings"
+            "id": "prism/play/preview"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Stage",
+        "link": {
+          "type": "doc",
+          "id": "prism/stage/stage"
+        },
+        "items": [
+          {
+            "type": "doc",
+            "id": "prism/stage/surfaces"
           },
-          "items": [
-            {
-              "type": "doc",
-              "id": "prism/settings/settings-general"
-            },
-            {
-              "type": "doc",
-              "id": "prism/settings/settings-system-info"
-            },
-            {
-              "type": "doc",
-              "id": "prism/settings/settings-playback"
-            },
-            {
-              "type": "doc",
-              "id": "prism/settings/settings-encoder"
-            },
-            {
-              "type": "doc",
-              "id": "prism/settings/settings-inputs"
-            },
-            {
-              "type": "doc",
-              "id": "prism/settings/settings-synergy"
-            }
-          ]
-        }
-      ]
-  }]}
+          {
+            "type": "doc",
+            "id": "prism/stage/outputs"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Encoder",
+        "link": {
+          "type": "doc",
+          "id": "prism/encoder/encoder"
+        },
+        "items": [
+          {
+            "type": "doc",
+            "id": "prism/encoder/encode-options"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Settings",
+        "link": {
+          "type": "doc",
+          "id": "prism/settings/settings"
+        },
+        "items": [
+          {
+            "type": "doc",
+            "id": "prism/settings/settings-general"
+          },
+          {
+            "type": "doc",
+            "id": "prism/settings/settings-system-info"
+          },
+          {
+            "type": "doc",
+            "id": "prism/settings/settings-playback"
+          },
+          {
+            "type": "doc",
+            "id": "prism/settings/settings-encoder"
+          },
+          {
+            "type": "doc",
+            "id": "prism/settings/settings-inputs"
+          },
+          {
+            "type": "doc",
+            "id": "prism/settings/settings-synergy"
+          }
+        ]
+      }
+    ]
+  }]
+}
