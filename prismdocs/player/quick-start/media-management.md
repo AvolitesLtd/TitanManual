@@ -1,13 +1,13 @@
 ---
-id: adding-media
-title: Adding Media
-sidebar_label: Adding Media
+id: media-management
+title: Media Management
+sidebar_label: Media Management
 ---
 
 ## Adding Media
 
 Media can be added and played using several different methods:
-<div style={{display: (`prism` === 'player') ? '' : 'none'}}> 
+<div style={{display: (`player` === 'player') ? '' : 'none'}}> 
 
 - Selecting file(s) in your file explorer and dragging them onto the _"Drag drop or select"_ icon in the **Bank** area or at the bottom of the UI.
 - Pressing the _"Select Files"_ button in the **Banks** or **Encoder** area.
@@ -15,7 +15,7 @@ Media can be added and played using several different methods:
 
 </div>
 
-<div style={{display: (`prism` === 'zero' || `prism` === 'prism') ? '' : 'none'}}> 
+<div style={{display: (`player` === 'zero' || `player` === 'prism') ? '' : 'none'}}> 
 
 - Selecting file(s) in your file explorer and dragging them onto the _"Drag drop or select"_ icon in the **Banks** area or at the bottom of the UI.
 - Pressing the _"Select Files"_ button in the **Banks** or **Encoder** area.
@@ -23,4 +23,4 @@ Media can be added and played using several different methods:
 
 </div>
 
-**Prism** will save all files to a standard default location `Documents > Avolites > Prism > Prism` unless individually specified within the settings of any **Encoder Element**. The path of this folder can be changed in the **Encoder section** of the **Settings Page**.
+**Prism Player** will save all files to a standard default location `Documents > Avolites > Prism > Player` unless individually specified within the settings of any **Encoder Element**. The path of this folder can be changed in the **Encoder section** of the **Settings Page**.
