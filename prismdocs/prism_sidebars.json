@@ -39,6 +39,10 @@
             },
             {
               "type": "doc",
+              "id": "player/quick-start/adding-media"
+            },
+            {
+              "type": "doc",
               "id": "player/quick-start/projects-management"
             },
             {
@@ -141,8 +145,12 @@
             },
             {
               "type": "doc",
+              "id": "zero/quick-start/adding-media"
+            },          
+            {
+              "type": "doc",
               "id": "zero/quick-start/projects-management"
-            },     
+            },
             {
               "type": "doc",
               "id": "zero/quick-start/import-export"
@@ -267,6 +275,10 @@
             {
               "type": "doc",
               "id": "prism/quick-start/navigation"
+            },
+            {
+              "type": "doc",
+              "id": "prism/quick-start/adding-media"
             },
             {
               "type": "doc",
