@@ -6,20 +6,20 @@ sidebar_label: Banks
 
 import Keys from '@site/src/components/key.ts';
 
-Banks within **Prism** provide a versatile space for managing media. You can play back media, reorder banks and their elements, rename banks, and import or export bank contents. Additionally, Banks can display thumbnails of the added elements via the grid view discussed later.
-
-You can import banks you have exported by simply dragging and dropping `json` files usually exported in the `Documents > Avolites` folder.
-
-<!--
-*Note: Only 1 bank is allowed to be used on **Prism**, more can be added on **Prism**. audio, images and video can be added*
--->
+Banks within **Prism** provide a versatile space for managing media.  
+You can play back media, reorder banks and their elements, rename banks, and import or export bank contents.  
+Additionally, Banks can display thumbnails of the added elements via the [grid view](./banks.md#grid-view).
 
 <!--
 *Note: Only 1 bank is allowed to be used on **Prism**, more can be added on **Prism**. audio, images and video can be added*
 -->
 
+<!--
+*Note: Only 1 bank is allowed to be used on **Prism**, more can be added on **Prism**. audio, images and video can be added*
+-->
 
-*Note: Multiple banks can be added and as well as the basic feature of Prism Player and PRism Zero, ndi and live input sources are also able to be added, please see [Settings > Inputs]("../settings/settings-inputs") for more details.*
+
+*Note: Multiple banks can be added and as well as the basic feature of Prism Player and Prism Zero, NDI and Live input sources are also able to be added, please see [Settings > Inputs](../../prism/settings/settings-inputs.md) for more details.*
 
 
 ## Bank
@@ -125,6 +125,7 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements
 
 ![Prism Banks](/prismdocs/images/prism-grid-banks.png)
 
-## Import & Export
+## Import/Export
 
-Please see [Import & Export](../quick-start/import-export) for reference.
+Please see [Import/Export](../quick-start/import-export) for reference.  
+It is also possible to import banks by simply dragging and dropping `JSON` files in the drag and drop area.
