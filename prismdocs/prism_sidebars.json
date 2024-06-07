@@ -181,6 +181,10 @@
             {
               "type": "doc",
               "id": "zero/play/banks"
+            },
+            {
+              "type": "doc",
+              "id": "zero/play/preview"
             }
           ]
         },
@@ -314,6 +318,10 @@
             {
               "type": "doc",
               "id": "prism/play/banks"
+            },
+            {
+              "type": "doc",
+              "id": "zero/play/preview"
             }
           ]
         },
