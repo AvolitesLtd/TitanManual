@@ -159,8 +159,7 @@ An underline will give visual feedback of the selected **View**.
 
 This bar shows the following app informations at a glance.
 
-<!-- Add Screenshots -->
-<!-- ![Prism Player Status Bar Left](/prismdocs/images/navigation/status-bar-left.png) -->
+![Prism Player Status Bar Left](/prismdocs/images/navigation/player-status-bar.png)
 
 - App performance metrics - The full performance metrics are shown in [Settings System Info](../settings/settings-system-info)
 - Prism Player release version
