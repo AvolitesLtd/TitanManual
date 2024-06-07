@@ -39,11 +39,7 @@
             },
             {
               "type": "doc",
-              "id": "player/quick-start/project-management"
-            },
-            {
-              "type": "doc",
-              "id": "player/quick-start/save-and-load"
+              "id": "player/quick-start/projects-management"
             },
             {
               "type": "doc",
@@ -145,12 +141,8 @@
             },
             {
               "type": "doc",
-              "id": "zero/quick-start/project-management"
-            },
-            {
-              "type": "doc",
-              "id": "zero/quick-start/save-and-load"
-            },          
+              "id": "zero/quick-start/projects-management"
+            },     
             {
               "type": "doc",
               "id": "zero/quick-start/import-export"
@@ -181,7 +173,7 @@
             {
               "type": "doc",
               "id": "zero/play/banks"
-            },
+            }
           ]
         },
         {
@@ -274,11 +266,7 @@
             },
             {
               "type": "doc",
-              "id": "prism/quick-start/project-management"
-            },
-            {
-              "type": "doc",
-              "id": "prism/quick-start/save-and-load"
+              "id": "prism/quick-start/projects-management"
             },
             {
               "type": "doc",
