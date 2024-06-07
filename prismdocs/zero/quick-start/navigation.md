@@ -62,7 +62,7 @@ More information found at [Import/Export](../quick-start/import-export)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
-| Preview | Open the [Preview](../preview) window for editing bank elements.|
+| Preview | Open the [Preview](../play/banks#preview) window for editing bank elements.|
 -->
 
 
