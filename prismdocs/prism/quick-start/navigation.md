@@ -90,8 +90,6 @@ More information found at [Import/Export](../quick-start/import-export)
 
 ### Video
 
-Further controls can be found in the main header:
-
 
 ![Prism Header Video Menu](/prismdocs/images/navigation/zero-prism-header-video.png)
 
@@ -161,10 +159,9 @@ An underline will give visual feedback of the selected **View**.
 
 This bar shows the following app informations at a glance.
 
+<!-- Add Screenshots -->
 <!-- ![Prism Status Bar Left](/prismdocs/images/navigation/status-bar-left.png) -->
 
 - App performance metrics - The full performance metrics are shown in [Settings System Info](../settings/settings-system-info)
 - Prism release version
-
-<!-- ![Prism Status Bar Right](/prismdocs/images/navigation/prism-status-bar-right.png) -->
-- User interface connection status led - red when disconnected, green when connected to the engine.
+- User interface connection status led - red when disconnected, green when connected to the server.
