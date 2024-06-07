@@ -1,6 +1,6 @@
 ---
 id: introduction
-title: Introduction to Prism Zero
+title: Introduction
 sidebar_label: Introduction
 ---
 

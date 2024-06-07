@@ -1,6 +1,6 @@
 ---
 id: introduction
-title: Introduction to Prism Player
+title: Introduction
 sidebar_label: Introduction
 ---
 

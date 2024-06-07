@@ -17,6 +17,10 @@
   {
     "type": "category",
     "label": "Prism Player",
+    "link": {
+      "type": "doc",
+      "id": "player/introduction"
+    },
     "items": [
     {
       "type": "doc",
@@ -111,6 +115,10 @@
   {
     "type": "category",
     "label": "Prism Zero",
+    "link": {
+      "type": "doc",
+      "id": "zero/introduction"
+    },
     "items": [
       {
         "type": "doc",
@@ -235,6 +243,10 @@
     {
       "type": "category",
       "label": "Prism",
+      "link": {
+        "type": "doc",
+        "id": "prism/introduction"
+      },
       "items": [ 
         {
           "type": "doc",
