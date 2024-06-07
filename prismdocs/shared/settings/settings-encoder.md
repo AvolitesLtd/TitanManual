@@ -9,32 +9,28 @@ This page shows the settings for the encoding of media files.
 
 ![Settings System Info](/prismdocs/images/{{PRISM-APP-LOWER}}-settings-encoder.png)
 
-<table>
-    <thead>
-        <tr>
-            <th width="250">Feature</th>
-            <th>Note</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><b>Auto Update Encoder Folder</b></td>
-            <td>This toggle will enable/disable automatic updates of the encoded media destination folder. <br /><br /> When enabled all existing jobs in the <b>Encode List</b> will have their export destinations updated to the newly specified <b>Default Folder</b>. <br /><br /> When disabled only newly added jobs will default to this location whilst pre-existing jobs will retain their already specified output location.
-            </td>
-        </tr>
-        <tr>
-            <td><b>Default Folder</b></td>
-            <td>This path is the default destination folder for encoded media. <br /><br /> By pressing the <Keys.PrismKey>Change Folder</Keys.PrismKey> button it is possible to update the default destination folder that will be displayed in the box. <br /><br /> Encoded media will use this default folder unless a specific export destination has been set for an item in the <b>Encode List</b> element <b>Encode Options</b>.
-            </td>
-        </tr>
-        <tr >
-            <td><b>Auto Replace in Playlist</b></td>
-            <td style={{display: (`{{PRISM-APP-LOWER}}` === 'prism') ? '' : 'none'}}>
-            This toggle will enable/disable automatic replacement of the source media in the <b>Related Bank</b> with the encoded media. <br /><br /> When enabled, if the source media exists in the selected <b>Related Bank</b>, the source media will be replaced by the encoded media. <br /><br /> When disabled the encoded media will be added to the selected <b>Related Bank</b> if this has been specified.
-            </td>
-            <td style={{display: (`{{PRISM-APP-LOWER}}` === 'zero' || `{{PRISM-APP-LOWER}}` === 'player') ? '' : 'none'}}>
-            This toggle will enable/disable automatic replacement of the source media in the bank with the encoded media. <br /><br /> When enabled, if the source media exists in the bank, the source media will be replaced by the encoded media. <br /><br /> When disabled the encoded media will be added to the bank.
-            </td>
-        </tr>
-    </tbody>
-</table>
+{{PRISM-START-COMMENT}}
+
+|  Feature  |   Description   |
+|-------------|-----------------|
+| Auto Update Encoder Folder   |  This toggle will enable/disable automatic updates of the encoded media destination folder. <br /> When enabled all existing jobs in the **Encode List** will have their export destinations updated to the newly specified **Default Folder**.  <br /> When disabled only newly added jobs will default to this location whilst pre-existing jobs will retain their already specified output location. |
+| Default Folder |  This path is the default destination folder for encoded media. <br />By pressing the <Keys.PrismKey>Change Folder</Keys.PrismKey> button it is possible to update the default destination folder that will be displayed in the box. <br /> Encoded media will use this default folder unless a specific export destination has been set for an item in the **Encode List** element **Encode Options**. |
+| Auto Replace in Playlist | This toggle will enable/disable automatic replacement of the source media in the **Related Bank** with the encoded media. <br /> When enabled, if the source media exists in the selected **Related Bank**, the source media will be replaced by the encoded media. <br /> When disabled the encoded media will be added to the selected **Related Bank** if this has been specified. |
+
+{{PRISM-END-COMMENT}}
+
+{{ZERO-START-COMMENT}}
+|  Feature  |   Description   |
+|-------------|-----------------|
+| Auto Update Encoder Folder   |  This toggle will enable/disable automatic updates of the encoded media destination folder. <br /> When enabled all existing jobs in the **Encode List** will have their export destinations updated to the newly specified **Default Folder**.  <br /> When disabled only newly added jobs will default to this location whilst pre-existing jobs will retain their already specified output location. |
+| Default Folder |  This path is the default destination folder for encoded media. <br />By pressing the <Keys.PrismKey>Change Folder</Keys.PrismKey> button it is possible to update the default destination folder that will be displayed in the box. <br /> Encoded media will use this default folder unless a specific export destination has been set for an item in the **Encode List** element **Encode Options**. |
+| Auto Replace in Playlist | This toggle will enable/disable automatic replacement of the source media in the bank with the encoded media. <br /> When enabled, if the source media exists in the bank, the source media will be replaced by the encoded media. <br /> When disabled the encoded media will be added to the bank. |
+{{ZERO-END-COMMENT}}
+
+{{PLAYER-START-COMMENT}}
+|  Feature  |   Description   |
+|-------------|-----------------|
+| Auto Update Encoder Folder   |  This toggle will enable/disable automatic updates of the encoded media destination folder. <br /> When enabled all existing jobs in the **Encode List** will have their export destinations updated to the newly specified **Default Folder**.  <br /> When disabled only newly added jobs will default to this location whilst pre-existing jobs will retain their already specified output location. |
+| Default Folder |  This path is the default destination folder for encoded media. <br />By pressing the <Keys.PrismKey>Change Folder</Keys.PrismKey> button it is possible to update the default destination folder that will be displayed in the box. <br /> Encoded media will use this default folder unless a specific export destination has been set for an item in the **Encode List** element **Encode Options**. |
+| Auto Replace in Playlist | This toggle will enable/disable automatic replacement of the source media in the bank with the encoded media. <br /> When enabled, if the source media exists in the bank, the source media will be replaced by the encoded media. <br /> When disabled the encoded media will be added to the bank. |
+{{PLAYER-END-COMMENT}}
