@@ -20,7 +20,6 @@
       "items": [
         {
           "type": "doc",
-          "label": "Introduction",
           "id": "player/introduction"
         }
       ]
@@ -117,7 +116,6 @@
       "items": [
         {
           "type": "doc",
-          "label": "Introduction",
           "id": "zero/introduction"
         }
       ]
