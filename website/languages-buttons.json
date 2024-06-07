@@ -185,6 +185,11 @@
       "lang": {
         "en": "confirm"
       }
+    },
+    "prism-custom icon-system": {
+      "lang": {
+        "en": "preview"
+      }
     }
   }
 }

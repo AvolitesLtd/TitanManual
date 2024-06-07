@@ -70,7 +70,7 @@
             },
             {
               "type": "doc",
-              "id": "player/play/bank"
+              "id": "player/play/banks"
             }
           ]
         },
@@ -180,27 +180,8 @@
             },
             {
               "type": "doc",
-              "id": "zero/play/bank"
-            }
-          ]
-        },
-        {
-          "collapsed": true,
-          "type": "category",
-          "label": "Stage",
-          "link": {
-            "type": "doc",
-            "id": "zero/stage/stage"
-          },
-          "items": [
-            {
-              "type": "doc",
-              "id": "zero/stage/surfaces"
+              "id": "zero/play/banks"
             },
-            {
-              "type": "doc",
-              "id": "zero/stage/outputs"
-            }
           ]
         },
         {
@@ -328,26 +309,7 @@
             },
             {
               "type": "doc",
-              "id": "prism/play/bank"
-            }
-          ]
-        },
-        {
-          "collapsed": true,
-          "type": "category",
-          "label": "Stage",
-          "link": {
-            "type": "doc",
-            "id": "prism/stage/stage"
-          },
-          "items": [
-            {
-              "type": "doc",
-              "id": "prism/stage/surfaces"
-            },
-            {
-              "type": "doc",
-              "id": "prism/stage/outputs"
+              "id": "prism/play/banks"
             }
           ]
         },
