@@ -6,33 +6,67 @@ sidebar_label: Banks
 
 import Keys from '@site/src/components/key.ts';
 
-Banks within **{{PRISM-APP}}** provide a versatile space for managing media.  
-You can play back media, reorder banks and their elements, rename banks, and import or export bank contents.  
+Banks within **{{PRISM-APP}}** provide a versatile space for managing media. 
+
+Banks can play back media, be reordered, be renamed, and imported or exported for use in another project. 
+
 Additionally, Banks can display thumbnails of the added elements via the [grid view](./banks.md#grid-view).
 
 {{PLAYER-START-COMMENT}}
+The bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
+
+| Feature | Description |
+|--------|--------------|
+| Rename | Renames the Bank | 
+| Import | Replaces the Bank with the saved Bank. See [Import & Export](../quick-start/import-export) for more details. | 
+| Export | Saves the Bank to a JSON file. See [Import & Export](../quick-start/import-export) for more details. | 
+
 *Note: Only 1 bank is allowed to be used on **{{PRISM-APP}}**, more can be added on **Prism**. audio, images and video can be added*
 {{PLAYER-END-COMMENT}}
 
 {{ZERO-START-COMMENT}}
+The bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
+
+| Feature | Description |
+|--------|--------------|
+| Rename | Renames the Bank | 
+| Import | Replaces the Bank with the saved Bank. See [Import & Export](../quick-start/import-export) for more details. | 
+| Export | Saves the Bank to a JSON file. See [Import & Export](../quick-start/import-export) for more details. | 
+
 *Note: Only 1 bank is allowed to be used on **{{PRISM-APP}}**, more can be added on **Prism**. audio, images and video can be added*
 {{ZERO-END-COMMENT}}
 
 {{PRISM-START-COMMENT}}
+Pressing the <Keys.PrismKey>+</Keys.PrismKey> button will add a new bank, the area will split into two sections:
+- Left side - Bank Manager
+- Right side - Selected Bank
+
+Adding banks will not be possible on the left side.
+
+Each Bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
+
+| Feature | Description |
+|--------|--------------|
+| Rename | Renames the Bank | 
+| Remove | Deletes the Bank and its contents | 
+| Duplicate | Duplicates the Bank and its contents, including any bank element property changes | 
+| Import | Replaces the Bank with the saved Bank. See [Import & Export](../quick-start/import-export) for more details. | 
+| Export | Saves the Bank to a JSON file. See [Import & Export](../quick-start/import-export) for more details. | 
+
 *Note: Multiple banks can be added and as well as the basic feature of Prism Player and Prism Zero, NDI and Live input sources are also able to be added, please see [Settings > Inputs](../../prism/settings/settings-inputs.md) for more details.*
 {{PRISM-END-COMMENT}}
 
 ## Bank
 
-To add new media to a bank, select the bank you wish to add to, and simply drag and drop your files or press the <Keys.PrismKey>+</Keys.PrismKey> button. This action caches the data in the **Prism Media Cache**, enhancing the loading speed for future projects. For more details, refer to the [Cache](../settings/settings-general#cache) on the general settings page .
+To add new media to a bank, select the bank you wish to add to, and simply drag and drop your files or press the <Keys.PrismKey>+</Keys.PrismKey> button. This action caches the data in the [**Prism Media Cache**](../quick-start/media-management#prism-media-cache), enhancing the loading speed for future projects.
 
 The Bank can be displayed in two views: Table or Grid. Both views feature a header at the top, which includes options to duplicate or remove selected bank elements, and a toggle button to switch between views. There is also a button for adding new media.
 
 ## Bank Element
 
-If you need extra performance when triggering video, you can send selected bank elements over to the encoder for transcoding into our **Avolites AIM** codec. More on this over on the [encoder](../encoder/encoder.md) page.
+If you need extra performance when triggering video, you can send selected bank elements over to the [encoder](../encoder/encoder.md) for transcoding into our **Avolites AIM** codec.
 
-**Prism Player** and **Prism Zero** allow the adding of audio, images and video. Where as **Prism** introduces new elements such as NDI / Live Inputs and Virtual Returns. Bank elements can be rearranged by dragging them around in both table view and grid view.
+**Prism Player** and **Prism Zero** can only  audio, images and video to be added to the Banks. Where as, **Prism** introduces new elements such as NDI / Live Inputs and Virtual Returns. Bank elements can be rearranged by dragging them around in both table view and grid view.
 
 ### Types
 
@@ -41,29 +75,29 @@ If you need extra performance when triggering video, you can send selected bank 
 Supports standard image types, such as **PNG**, **JPG**, **GIF** etc
 
 #### Audio
-Supports standard image types, such as **MP3**, **WAV** etc 
+Supports standard audio types, such as **MP3**, **WAV** etc 
 
 #### Video
 Supports standard video playback of **H264**, **ProRes**, **NotchLC**, **HAP** & **AiM**. As all of the **Prism Suite** uses the **ffmpeg** we can support playback of any supported file.
 
 {{PRISM-START-COMMENT}}
 #### NDI Input
-Any active ndi sources on your network can be used here, please see both [Settings](../settings/settings-inputs) and [Preview](../play/preview) pages in order setup and select your NDI Sources
+Any active ndi sources on your network can be used here, please see both [Settings](../settings/settings-inputs) and [Preview](../play/preview) pages in order to setup and select your NDI Sources.
 
 #### Live Input
-Any connected usb devices which supports DirectShow can be used here, please see both [Settings](../settings/settings-inputs) and [Preview](../play/preview) pages in order setup  and select your Webcam / USB Capture Devices
+Any connected usb devices can be used here, please see both [Settings](../settings/settings-inputs) and [Preview](../play/preview) pages in order to setup and select your Webcam / USB Capture Devices.
 
 #### Virtual Return
-Any connected usb devices which supports DirectShow can be used here, please see [Preview](../play/preview) page in order setup and select your Webcam / USB Capture Devices
+The virtual return element allows you to take the rendered result of any layer and send it to any other layer in the project.
 {{PRISM-END-COMMENT}}
 
 ## Table View
 
 *Table View* gives more information about video / audio codecs, resolution, whether hardware acceleration is available on the media and much more.
-
+It is also possible to import banks by
 ![{{PRISM-APP}} Banks](/prismdocs/images/{{PRISM-APP-LOWER}}-table-banks.png)
 
-Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> and preview elements with the <Keys.PrismKey>Preview</Keys.PrismKey>.
+Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button and preview elements with the <Keys.PrismKey>Preview</Keys.PrismKey> button.
 
 ### Play
 
@@ -101,14 +135,12 @@ After any adjustments are made from the **Preview**, when the media is ready to 
 {{PLAYER-START-COMMENT}}
 Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
 - **Remove** - to delete the element from the bank.
-- **Duplicate** - add a new copy of the bank element, including all settings
 - **Show In Folder** - Open file explorer and navigate to the element's media file.
 {{PLAYER-END-COMMENT}}
 {{ZERO-START-COMMENT}}
 Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
 - **Remove** - Delete the element from the bank.
 - **Preview** - Preview and adjust properties of the bank element.
-- **Duplicate** - Add a new copy of the bank element, including all settings
 - **Show In Folder** - Open file explorer and navigate to the element's media file.
 {{ZERO-END-COMMENT}}
 {{PRISM-START-COMMENT}}
@@ -127,5 +159,6 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements
 
 ## Import/Export
 
-Please see [Import/Export](../quick-start/import-export) for reference.  
-It is also possible to import banks by simply dragging and dropping `JSON` files in the drag and drop area.
+Please see [Import/Export](../quick-start/import-export) for reference.
+
+*Note: It is also possible to import banks by simply dragging and dropping `JSON` files in the drag and drop area.*
