@@ -5,7 +5,7 @@ sidebar_label: System Info
 ---
 
 This page shows general system information and performance metrics of the system and the application.   
-App specific performance metrics are also displayed in the status bar at the bottom of the application UI.
+App specific performance metrics are also displayed in the [status bar](../quick-start/navigation.md#status-bar) at the bottom of the application UI.
 
 ![Settings System Info](/prismdocs/images/zero-settings-systeminfo.png)
 
