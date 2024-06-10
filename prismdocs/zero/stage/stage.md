@@ -20,4 +20,6 @@ Furthermore it is possible to control Physical and NDI outputs. In the latter ca
 A Region of Interest (RoI) can be set on both outputs.
 
 
+*Note: visiting this page for the first time will present a rendering warning. Any changes here may cause the output to pause whilst changes are being applied.*
+
 ![Prism Zero](/prismdocs/images/zero-stage-view.png)
