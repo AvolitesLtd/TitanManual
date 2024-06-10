@@ -65,8 +65,8 @@ The below table describes what each of the options do:
 |   Feature      |  Note   |
 |----------------|---------|
 | **NDI Source** | A drop down list of all active NDI sources on your network|
-| **Refresh**    | Click to check for newly available ndi sources |
-| **Status**     | Shows the connection status to the ndi source, stream will only display if active |
+| **Refresh**    | Click to check for newly available NDI sources |
+| **Status**     | Shows the connection status to the NDI source, stream will only display if active |
 
 ### Live Input Settings (Prism Only)
 
@@ -74,8 +74,8 @@ The below table describes what each of the options do:
 
 |   Feature  |  Note   |
 |------------|---------|
-| **Source** | A drop down list of valid usb devices to use for video streaming, if it supports DirectShow |
-| **Status** | Shows the connection status to the usb device, will only display if active |
+| **Source** | A drop down list of valid USB devices to use for video streaming, if it supports DirectShow |
+| **Status** | Shows the connection status to the USB device, will only display if active |
 
 ### Virtual Return Settings (Prism Only)
 
