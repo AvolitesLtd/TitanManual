@@ -10,10 +10,10 @@ Banks within **Prism** provide a versatile space for managing media.
 
 Banks can play back media, be reordered, be renamed, and imported or exported for use in another project. 
 
-Additionally, Banks can display thumbnails of the added elements via the [grid view](./banks.md#grid-view).
+Additionally, Banks can display thumbnails of the added elements via the [grid view](./banks#grid-view).
 
 <!--
-The bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
+The Bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 
 | Feature | Description |
 |--------|--------------|
@@ -21,7 +21,7 @@ The bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 | Import | Replaces the Bank with the saved Bank. See [Import & Export](../quick-start/import-export) for more details. | 
 | Export | Saves the Bank to a JSON file. See [Import & Export](../quick-start/import-export) for more details. | 
 
-*Note: Only 1 bank is allowed to be used on **Prism**, more can be added on **Prism**. audio, images and video can be added*
+*Note: Only 1 Bank is allowed to be used on **Prism**, more can be added on **Prism**. audio, images and video can be added*
 -->
 
 <!--
@@ -136,38 +136,33 @@ After any adjustments are made from the **Preview**, when the media is ready to 
 <!--
 Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
 
-| Feature | Description |
-|--------|--------------|
-| **Remove** | Deletes the element from the Bank | 
-| **Duplicate** | Add a new copy of the Bank element, including all settings | 
-| **Show In Folder** | Open file explorer and navigate to the element's media file | 
+- **Remove** - Deletes the element from the Bank
+- **Duplicate** - Add a new copy of the Bank element, including all settings
+- **Show In Folder** - Open file explorer and navigate to the element's media file
+
 -->
 <!--
 Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
 
-| Feature | Description |
-|--------|--------------|
-| **Remove** | Deletes the element from the Bank | 
-| **Preview** | Preview and adjust properties of the Bank element | 
-| **Duplicate** | Add a new copy of the Bank element, including all settings | 
-| **Show In Folder** | Open file explorer and navigate to the element's media file | 
+- **Remove** - Deletes the element from the Bank | 
+- **Preview** - Preview and adjust properties of the Bank element
+- **Duplicate** - Add a new copy of the Bank element, including all settings
+- **Show In Folder** - Open file explorer and navigate to the element's media file
 -->
 
 Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
 
-| Feature | Description |
-|--------|--------------|
-| **Remove** | Deletes the element from the Bank | 
-| **Preview** | Preview and adjust properties of the Bank element | 
-| **Duplicate** | Add a new copy of the Bank element, including all settings | 
-| **Show In Folder** | Open file explorer and navigate to the element's media file | 
+- **Remove** - Deletes the element from the Bank
+- **Preview** - Preview and adjust properties of the Bank element
+- **Duplicate** - Add a new copy of the Bank element, including all settings
+- **Show In Folder** - Open file explorer and navigate to the element's media file
 
 
 ## Grid View
 
 *Grid View* allows for easier triggering of clips due to the larger trigger area, thumbnails are shown here and are also stored on the **Prism Media Cache**.
 
-![Prism Banks](/prismdocs/images/prism-grid-banks.png)
+![Prism Banks](/prismdocs/images/prism-grid-Banks.png)
 
 ## Import/Export
 
