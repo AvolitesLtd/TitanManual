@@ -82,10 +82,10 @@ Supports standard video playback of **H264**, **ProRes**, **NotchLC**, **HAP** &
 
 
 #### NDI Input
-Any active ndi sources on your network can be used here, please see both [Settings](../settings/settings-inputs) and [Preview](../play/preview) pages in order to setup and select your NDI Sources.
+Any active NDI sources on your network can be used here, please see both [Settings](../settings/settings-inputs) and [Preview](../play/preview) pages in order to setup and select your NDI Sources.
 
 #### Live Input
-Any connected usb devices can be used here, please see both [Settings](../settings/settings-inputs) and [Preview](../play/preview) pages in order to setup and select your Webcam / USB Capture Devices.
+Any connected USB devices can be used here, please see both [Settings](../settings/settings-inputs) and [Preview](../play/preview) pages in order to setup and select your Webcam / USB Capture Devices.
 
 #### Virtual Return
 The virtual return element allows you to take the rendered result of any layer and send it to any other layer in the project.
@@ -94,7 +94,7 @@ The virtual return element allows you to take the rendered result of any layer a
 ## Table View
 
 *Table View* gives more information about video / audio codecs, resolution, whether hardware acceleration is available on the media and much more.
-It is also possible to import Banks by
+
 ![Prism Banks](/prismdocs/images/prism-table-banks.png)
 
 Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button and preview elements with the <Keys.PrismKey>Preview</Keys.PrismKey> button.
