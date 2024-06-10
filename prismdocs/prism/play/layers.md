@@ -22,7 +22,7 @@ Media can be played on specific / multiple layers, blended together using the in
 
 ## Surfaces & Layers
 
-Surface and their layers, can all be managed in the [Stage](../stage) view where layers can be added, removed, reordered and renamed.
+Surfaces and their layers, can all be managed in the [Stage](../stage) view where layers can be added, removed, reordered and renamed. Currently **Prism** is limited to 1 Surface.
 
 ### Surface
 
