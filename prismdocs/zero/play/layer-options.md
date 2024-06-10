@@ -31,7 +31,7 @@ The **Sync to DMX** feature is used to allow the Prism UI controls to immediatel
 
 ## Adjustments
 
-Any adjustment made will directly change the layer properties, triggering a bank element may override this, if any changes were made in the preview.
+Any adjustment made will directly change the layer properties, triggering a bank element may override this, if any changes were made in the [Preview](../play/preview).
 
 ### Playback
 
