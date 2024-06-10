@@ -293,7 +293,15 @@
             },
             {
               "type": "doc",
-              "id": "prism/play/bank"
+              "id": "prism/play/layer-options"
+            },
+            {
+              "type": "doc",
+              "id": "prism/play/banks"
+            },
+            {
+              "type": "doc",
+              "id": "prism/play/preview"
             }
           ]
         },
