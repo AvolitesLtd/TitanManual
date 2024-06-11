@@ -303,10 +303,19 @@ function formatMdFiles(docsPath, sidebar, version, appName) {
   let docs = sidebar
     
   for(let index in docs) {
-    if (docs[index].items)
+    const doc = docs[index];
+
+    if (doc.items)
     {
-      for(let page of docs[index].items) {
+      for(let page of doc.items) {
         let sec = page.label;
+        
+        if(page.link)
+        {
+          const path = page.link.id.replace(appName + "/", '');
+          output += formatMd(docsPath,path+'.md',version, sec, appName);
+        }
+
         if (page.items)
         {
           for (item of page.items)
@@ -325,6 +334,7 @@ function formatMdFiles(docsPath, sidebar, version, appName) {
     {
       const path = docs[index].id.replace(appName + "/", '');
       output += formatMd(docsPath,path+'.md',version,sec, appName);
+    console.log(docs[index])
     }
   }
 
@@ -399,7 +409,7 @@ function formatMd(docsPath,filename,version,sectionHeading, appName) {
  * @param {string} version (Optional) Which section is being exported
  * @return {string} The filename of the produced PDF
  */
-function generatePDF(filePath, appName, version,options={}) {
+function generatePDF(filePath, appName, options={}) {
   // current date and time
 
   // format & sanitize the filename
@@ -498,5 +508,5 @@ function createPDF(doc, section=null, options={}) {
   }
 
   // generate the PDF
-  return generatePDF(formattedMdPath, doc.appName + "-" + doc.version, version,options);
+  return generatePDF(formattedMdPath, doc.appName + "-" + doc.version,options);
 }
