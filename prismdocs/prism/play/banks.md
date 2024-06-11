@@ -53,7 +53,7 @@ Each Bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 | Import | Replaces the Bank with the saved Bank. See [Import & Export](../quick-start/import-export) for more details. | 
 | Export | Saves the Bank to a JSON file. See [Import & Export](../quick-start/import-export) for more details. | 
 
-*Note: Multiple Banks can be added and as well as the basic feature of Prism Player and Prism Zero, NDI and Live input sources are also able to be added, please see [Settings > Inputs](../../prism/settings/settings-inputs.md) for more details.*
+*Note: Multiple Banks can be added and as well as the basic feature of Prism Player and Prism Zero, NDI and Live input sources are also able to be added, please see [Settings > Inputs](../../prism/settings/settings-inputs) for more details.*
 
 
 ## Bank
@@ -64,7 +64,7 @@ The Bank can be displayed in two views: Table or Grid. Both views feature a head
 
 ## Bank Element
 
-If you need extra performance when triggering video, you can send selected Bank elements over to the [encoder](../encoder/encoder.md) for transcoding into our **Avolites AIM** codec.
+If you need extra performance when triggering video, you can send selected Bank elements over to the [encoder](../encoder/encoder) for transcoding into our **Avolites AIM** codec.
 
 **Prism Player** and **Prism Zero** can only  audio, images and video to be added to the Banks. Where as, **Prism** introduces new elements such as NDI / Live Inputs and Virtual Returns. Bank elements can be rearranged by dragging them around in both table view and grid view.
 

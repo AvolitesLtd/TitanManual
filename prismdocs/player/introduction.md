@@ -10,7 +10,7 @@ It allows for easy previewing of media files as well as for preparing and conver
 
 ![Prism Player UI](/prismdocs/images/prism-player-ui.png)
 
-**Prism Player** is composed of two parts - the **Server** and the **UI**. The **Server** runs in the [system tray](./quick-start/system-tray.md) and the **UI** will run separately and show the interface. The components communicate using **port 9030**, no other application must use this port in order to work.
+**Prism Player** is composed of two parts - the **Server** and the **UI**. The **Server** runs in the [system tray](./quick-start/system-tray) and the **UI** will run separately and show the interface. The components communicate using **port 9030**, no other application must use this port in order to work.
 
 When starting **Prism Player** you may be prompted to add a firewall exception. If you have this experience please add this port to your firewall / anti-virus lists.
 
