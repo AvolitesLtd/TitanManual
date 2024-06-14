@@ -3,7 +3,8 @@ const path = require('path');
 
 // Data for generating Markdown files
 const pages = [
-  { id: 'prism-player', app: 'Prism Player', path: 'Player',
+  {
+    id: 'prism-player', app: 'Prism Player', path: 'Player',
     excludes: [
       "layers", "layer-options", //Play
       "stage", "outputs", "surfaces", //Stage
@@ -11,52 +12,52 @@ const pages = [
       "preview" //Preview
     ]
   },
-  { id: 'prism-zero', app: 'Prism Zero', path: 'Zero'},
+  { id: 'prism-zero', app: 'Prism Zero', path: 'Zero' },
   { id: 'prism', app: 'Prism', path: 'Prism' },
   // Add more pages as needed
 ]
 
 function copyDirectoryContents(excludes, sourceDir, targetDir) {
-    // Ensure that both source and target directories exist
-    if (!fs.existsSync(sourceDir)) {
-        console.error("Source directory does not exist.");
-        return;
+  // Ensure that both source and target directories exist
+  if (!fs.existsSync(sourceDir)) {
+    console.error("Source directory does not exist.");
+    return;
+  }
+
+  // Create target directory if it does not exist
+  if (!fs.existsSync(targetDir)) {
+    fs.mkdirSync(targetDir, { recursive: true });
+  }
+
+  // Get the list of files in the source directory
+  const files = fs.readdirSync(sourceDir);
+
+  // Iterate over each file in the source directory
+  files.forEach(file => {
+
+    if (excludes?.includes(file.split('.')[0]))
+      return;
+
+    const sourcePath = path.join(sourceDir, file);
+    const targetPath = path.join(targetDir, file);
+
+    // Check if the file is a directory
+    if (fs.statSync(sourcePath).isDirectory()) {
+      // Recursively copy the directory
+      copyDirectoryContents(excludes, sourcePath, targetPath);
+    } else {
+      // Copy the file
+      fs.copyFileSync(sourcePath, targetPath);
     }
+  });
 
-    // Create target directory if it does not exist
-    if (!fs.existsSync(targetDir)) {
-        fs.mkdirSync(targetDir, { recursive: true });
-    }
-
-    // Get the list of files in the source directory
-    const files = fs.readdirSync(sourceDir);
-
-    // Iterate over each file in the source directory
-    files.forEach(file => {
-
-      if (excludes?.includes(file.split('.')[0])) 
-        return;
-
-      const sourcePath = path.join(sourceDir, file);
-      const targetPath = path.join(targetDir, file);
-
-      // Check if the file is a directory
-      if (fs.statSync(sourcePath).isDirectory()) {
-          // Recursively copy the directory
-          copyDirectoryContents(excludes, sourcePath, targetPath);
-      } else {
-          // Copy the file
-          fs.copyFileSync(sourcePath, targetPath);
-      }
-    });
-
-    //console.log("Directory contents copied successfully.");
+  //console.log("Directory contents copied successfully.");
 }
 
 
-// Function to replace text in a file
-function replaceTextInFile(filePath, page) {
-  const content = fs.readFileSync(filePath, 'utf8');
+function replaceComments(content, page) {
+
+  let result = content;
 
   // Define the mappings for start and end comments based on PRISM-APP value
   const commentMappings = {
@@ -64,8 +65,6 @@ function replaceTextInFile(filePath, page) {
     player: { start: 'PLAYER-START-COMMENT', end: 'PLAYER-END-COMMENT' },
     zero: { start: 'ZERO-START-COMMENT', end: 'ZERO-END-COMMENT' }
   };
-
-  let result = content;
 
   // Iterate over the mappings and apply the transformations
   for (const key in commentMappings) {
@@ -87,12 +86,27 @@ function replaceTextInFile(filePath, page) {
     }
   }
 
+  // Remove text between <!-- and -->
+  result = result.replace(/<!--[\s\S]*?-->/g, '');
+
+  // Replace multiple consecutive newlines with just one newline
+  result = result.replace(/(\r?\n){3,}/g, '\n');
+
+  return result;
+}
+
+// Function to replace text in a file
+function replaceTextInFile(filePath, page) {
+  const content = fs.readFileSync(filePath, 'utf8');
+
+  let result = replaceComments(content, page);
+
   result = result
-  .replace(new RegExp('{{PRISM-APP}}', 'g'), page.app)
-  .replace(new RegExp('{{PRISM-APP-LOWER}}', 'g'), page.app.split(/[, ]+/).pop().toLowerCase())
-  .replace(new RegExp('{{PRISM-APP-LAST}}', 'g'), page.app.split(/[, ]+/).pop())
-  .replace(new RegExp('{{PRISM-PATH}}', 'g'), page.path);
-  
+    .replace(new RegExp('{{PRISM-APP}}', 'g'), page.app)
+    .replace(new RegExp('{{PRISM-APP-LOWER}}', 'g'), page.app.split(/[, ]+/).pop().toLowerCase())
+    .replace(new RegExp('{{PRISM-APP-LAST}}', 'g'), page.app.split(/[, ]+/).pop())
+    .replace(new RegExp('{{PRISM-PATH}}', 'g'), page.path);
+
   fs.writeFileSync(filePath, result, 'utf8');
 }
 

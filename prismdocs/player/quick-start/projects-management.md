@@ -7,11 +7,6 @@ sidebar_label: Projects Management
 ### New Project
 To create a **Prism Player** project, click on `File > New Project` or use the `Ctrl+N` shortcut.  
 Creating a new project will reset all application settings.
-
-<!--
-All **Banks** and **Layers** will be removed and 2 default **Layers** will be created.
--->
-
 **Encode list** media files and **Settings** are kept as they are not saved on project files but on separate files.
 
 ### Save Project
@@ -22,19 +17,7 @@ The default destination folder of project files is in the **Documents** folder u
 Clicking on `File > Save As` or using the `Ctrl+Shift+S` shortcut will prompt the **Save Project As** dialog box where the project file name and the default destination folder can be changed.
 
 When a project is saved in **Prism Player**, it will contain all application settings throughout the software.  
-
-
 This includes all **Bank**, **Surface** and **Layers** settings.
-
-
-<!--
-This includes all **Bank**, **Surface**, **Layers**, **Outputs** and the Output's **Regions** settings.
--->
-
-<!--
-This includes all **Banks**, **Surfaces**, **Layers**, **Outputs** and Output's **Regions** settings.
--->
-
 ### Open Project
 
 To open a **Prism Player** project, click on `File > Open` or use the `Ctrl+O` shortcut.  

@@ -12,14 +12,14 @@ The results of these settings will be applied once the item is encoded.
 
 ![Encode Options](/prismdocs/images/{{PRISM-APP-LOWER}}-encode-options.png)
 
-{{PLAYER-START-COMMENT}}
 | <p style={{width: '150px'}}>Feature</p> | Description |
 |-|-|
 | **Reset to Default** | This button will reset all settings to default value. |
 | **Match Source** | This button will set the following settings to match those of the source media file: <br/><br/> - Resolution Preset <br/> - Output Width <br/> - Output Height <br/> - Frame Rate <br/> - Sample Rate <br/> - Bit Depth <br/><br/> Any user changes to the audio and video settings will be discarded when pressing this button. |
 | **File Name** | Is the name assigned to the encoded item after encoding. It can be modified by double-clicking in the name box. |
-| **Output Folder** | Is the destination folder of the encoded file. It can be modified by clicking the <Keys.PrismKey>Change Folder</Keys.PrismKey> button. <br/><br/> The default value of the destination folder is the one selected in the [Settings > Encoder](../settings/settings-encoder) tab. |
-| **AiM SubCodec** | Selection of the AiM SubCodec: <br/><br/> - Super Stream - Highest quality image and best playback performance. <br/> - Performance – Produces the smallest files but can suffer on complex imagery. <br/> - Quality - Medium quality image, variable file size depending on content. |
+| **Output Folder**| Is the destination folder of the encoded file. It can be modified by clicking the <Keys.PrismKey>Change Folder</Keys.PrismKey> button. <br/><br/> The default value of the destination folder is the one selected in the [Settings > Encoder](../settings/settings-encoder) tab. |
+| **Related Bank**  (Prism Only)| This is the destination Bank for the encoded media. If the element is sent to the encoder through the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button in **Banks**, then this value will be defaulted to the bank from which the element has been sent. |
+| **AiM SubCodec** | Selection of the AiM SubCodec: <br/><br/> - **Super Stream**: Highest quality image and best playback performance. <br/> - **Performance**: Produces the smallest files but can suffer on complex imagery. <br/> - **Quality**: Medium quality image, variable file size depending on content. |
 | **Resolution Preset** | It is possible to choose the video resolution from a selection of standard formats. Selecting a preset will override any user width and height values. |
 | **Output Width** | User definable horizontal size in pixels. <br/><br/> Width and Height values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon. <br/><br/> When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, Width and Height will always maintain relative size according to the aspect ratio of the Width and Height set as the lock is pressed - if one value is adjusted, the other will change accordingly.  <br/><br/> When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, Width and Height can be individually set regardless of the resulting aspect ratio. |
 | **Output Height** | User definable vertical size in pixels. <br/><br/> Width and Height values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon. <br/><br/> When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, Width and Height will always maintain relative size according to the aspect ratio of the Width and Height set as the lock is pressed - if one value is adjusted, the other will change accordingly. <br/><br/>  When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, Width and Height can be individually set regardless of the resulting aspect ratio. |
@@ -29,47 +29,6 @@ The results of these settings will be applied once the item is encoded.
 | **Sample Rate** | Sample rate can be set to either: <br/><br/> - 44100 Hz <br/> - 48000 Hz |
 | **Channels** | The following channel configurations are supported: <br/><br/> - Mono <br/> - Stereo <br/> - 5.1 <br/> - 7.1 <br/><br/> Prism can only convert existing audio channels, it cannot alter the amount of channels in the source file. |
 | **Bit Depth** | Bit depth can be set between: <br/><br/> - 8 bits <br/> - 16 bits <br/> - 24 bits <br/> - 32 bits <br/><br/> The higher the bit rate, the greater the detail and dynamic range of the audio. |
-{{PLAYER-END-COMMENT}}
-
-{{ZERO-START-COMMENT}}
-| <p style={{width: '150px'}}>Feature</p> | Description |
-|-|-|
-| **Reset to Default** | This button will reset all settings to default value. |
-| **Match Source** | This button will set the following settings to match those of the source media file: <br/><br/> - Resolution Preset <br/> - Output Width <br/> - Output Height <br/> - Frame Rate <br/> - Sample Rate <br/> - Bit Depth <br/><br/> Any user changes to the audio and video settings will be discarded when pressing this button. |
-| **File Name** | Is the name assigned to the encoded item after encoding. It can be modified by double-clicking in the name box. |
-| **Output Folder** | Is the destination folder of the encoded file. It can be modified by clicking the <Keys.PrismKey>Change Folder</Keys.PrismKey> button. <br/><br/> The default value of the destination folder is the one selected in the [Settings > Encoder](../settings/settings-encoder) tab. |
-| **AiM SubCodec** | Selection of the AiM SubCodec: <br/><br/> - Super Stream - Highest quality image and best playback performance. <br/> - Performance – Produces the smallest files but can suffer on complex imagery. <br/> - Quality - Medium quality image, variable file size depending on content. |
-| **Resolution Preset** | It is possible to choose the video resolution from a selection of standard formats. Selecting a preset will override any user width and height values. |
-| **Output Width** | User definable horizontal size in pixels. <br/><br/> Width and Height values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon. <br/><br/> When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, Width and Height will always maintain relative size according to the aspect ratio of the Width and Height set as the lock is pressed - if one value is adjusted, the other will change accordingly.  <br/><br/> When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, Width and Height can be individually set regardless of the resulting aspect ratio. |
-| **Output Height** | User definable vertical size in pixels. <br/><br/> Width and Height values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon. <br/><br/> When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, Width and Height will always maintain relative size according to the aspect ratio of the Width and Height set as the lock is pressed - if one value is adjusted, the other will change accordingly. <br/><br/>  When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, Width and Height can be individually set regardless of the resulting aspect ratio. |
-| **Frame Rate** | User definable frame rate in frames per second. |
-| **Preserve Alpha** | Ticking the box will include an Alpha Channel in the render. Adding an alpha channel will increase the file size by approximately 33%. An Alpha Channel may only be included in the exported file if the source file contains Alpha data. |
-| **Encode Audio** | Ticking the box will include the specified number of audio channels in the exported file. |
-| **Sample Rate** | Sample rate can be set to either: <br/><br/> - 44100 Hz <br/> - 48000 Hz |
-| **Channels** | The following channel configurations are supported: <br/><br/> - Mono <br/> - Stereo <br/> - 5.1 <br/> - 7.1 <br/><br/> Prism can only convert existing audio channels, it cannot alter the amount of channels in the source file. |
-| **Bit Depth** | Bit depth can be set between: <br/><br/> - 8 bits <br/> - 16 bits <br/> - 24 bits <br/> - 32 bits <br/><br/> The higher the bit rate, the greater the detail and dynamic range of the audio. |
-{{ZERO-END-COMMENT}}
-
-{{PRISM-START-COMMENT}}
-| <p style={{width: '150px'}}>Feature</p> | Description |
-|-|-|
-| **Reset to Default** | This button will reset all settings to default value. |
-| **Match Source** | This button will set the following settings to match those of the source media file: <br/><br/> - Resolution Preset <br/> - Output Width <br/> - Output Height <br/> - Frame Rate <br/> - Sample Rate <br/> - Bit Depth <br/><br/> Any user changes to the audio and video settings will be discarded when pressing this button. |
-| **File Name** | Is the name assigned to the encoded item after encoding. It can be modified by double-clicking in the name box. |
-| **Output Folder** | Is the destination folder of the encoded file. It can be modified by clicking the <Keys.PrismKey>Change Folder</Keys.PrismKey> button. <br/><br/> The default value of the destination folder is the one selected in the [Settings > Encoder](../settings/settings-encoder) tab. |
-| **Related Bank** | This is the destination Bank for the encoded media. If the element is sent to the encoder through the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button in **Banks**, then this value will be defaulted to the bank from which the element has been sent. |
-| **AiM SubCodec** | Selection of the AiM SubCodec: <br/><br/> - Super Stream - Highest quality image and best playback performance. <br/> - Performance – Produces the smallest files but can suffer on complex imagery. <br/> - Quality - Medium quality image, variable file size depending on content. |
-| **Resolution Preset** | It is possible to choose the video resolution from a selection of standard formats. Selecting a preset will override any user width and height values. |
-| **Output Width** | User definable horizontal size in pixels. <br/><br/> Width and Height values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon. <br/><br/> When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, Width and Height will always maintain relative size according to the aspect ratio of the Width and Height set as the lock is pressed - if one value is adjusted, the other will change accordingly.  <br/><br/> When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, Width and Height can be individually set regardless of the resulting aspect ratio. |
-| **Output Height** | User definable vertical size in pixels. <br/><br/> Width and Height values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon. <br/><br/> When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, Width and Height will always maintain relative size according to the aspect ratio of the Width and Height set as the lock is pressed - if one value is adjusted, the other will change accordingly. <br/><br/>  When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, Width and Height can be individually set regardless of the resulting aspect ratio. |
-| **Frame Rate** | User definable frame rate in frames per second. |
-| **Preserve Alpha** | Ticking the box will include an Alpha Channel in the render. Adding an alpha channel will increase the file size by approximately 33%. An Alpha Channel may only be included in the exported file if the source file contains Alpha data. |
-| **Encode Audio** | Ticking the box will include the specified number of audio channels in the exported file. |
-| **Sample Rate** | Sample rate can be set to either: <br/><br/> - 44100 Hz <br/> - 48000 Hz |
-| **Channels** | The following channel configurations are supported: <br/><br/> - Mono <br/> - Stereo <br/> - 5.1 <br/> - 7.1 <br/><br/> Prism can only convert existing audio channels, it cannot alter the amount of channels in the source file. |
-| **Bit Depth** | Bit depth can be set between: <br/><br/> - 8 bits <br/> - 16 bits <br/> - 24 bits <br/> - 32 bits <br/><br/> The higher the bit rate, the greater the detail and dynamic range of the audio. |
-{{PRISM-END-COMMENT}}
-
 
 ### Trim Media
 

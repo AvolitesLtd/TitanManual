@@ -17,6 +17,8 @@ Previewing media also allows for adjustments to be made to the properties of ind
 
 ![Prism Zero Preview Window](/prismdocs/images/prism-preview.png)
 
+The resolution of the Preview Window can be adjusted to easily preview media playback at a specific target resolution.
+
 ## Adjustments
 
 Any adjustment made will directly change the bank element properties and then can be played with those settings either via playing the same element on the bank again or selecting <Keys.PrismKey>Send to Player</Keys.PrismKey>. 
@@ -56,38 +58,33 @@ The below table describes what each of the options do:
 | **Trim In**                  | Sets the Trim In of the bank element     |
 | **Trim Out**                 | Sets the Trim Out of the bank element    |
 | **Speed**                    | Sets the Speed of the bank element       | 
-
-
-### NDI Input Settings (Prism Only)
+### NDI Input Settings
 
 ![Preview NDI Input Settings](/prismdocs/images/preview-ndi-settings.png)
 
 |   Feature      |  Note   |
 |----------------|---------|
-| **NDI Source** | A drop down list of all active NDI sources on your network|
-| **Refresh**    | Click to check for newly available NDI sources |
-| **Status**     | Shows the connection status to the NDI source, stream will only display if active |
+| **NDI Source** | A drop-down list of all active NDI sources on your network|
+| **Refresh**    | Click to check for newly available NDI sources|
+| **Status**     | Shows the connection status to the NDI source, stream will only display frames when active|
 
-### Live Input Settings (Prism Only)
+### Live Input Settings
 
 ![Preview Live Input Settings](/prismdocs/images/preview-live-settings.png)
 
 |   Feature  |  Note   |
 |------------|---------|
-| **Source** | A drop down list of valid USB devices to use for video streaming, if it supports DirectShow |
-| **Status** | Shows the connection status to the USB device, will only display if active |
+| **Source** | A drop-down list of valid capture devices for video streaming, if they are compatible with DirectShow|
+| **Status** | Shows the connection status to the capture device, will only display frames when active|
 
-### Virtual Return Settings (Prism Only)
+### Virtual Return Settings
 
 ![Preview Virtual Return Settings](/prismdocs/images/preview-virtual-return-settings.png)
 
 |   Feature      |  Note   |
 |----------------|---------|
-| **Surface** | A drop down list of all surfaces add to **Prism**. |
-| **Layer**    | Which layer to use as a source. This can help link layers and have different layer properties. |
-
-
-
+| **Surface** | A drop-down list of all surfaces on  **Prism**|
+| **Layer**   | Which layer to receive from|
 ### Colour Correction
 
 This area controls the **Colour Correction** options, which are set on the bank element

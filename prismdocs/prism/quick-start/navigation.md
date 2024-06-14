@@ -55,31 +55,11 @@ More information found at [Import/Export](../quick-start/import-export)
 |    Redo   |  Redo the previous action. *Note: Not all features have Redo actions*. |
 
 ### View
-
-
 ![Prism Header Video Menu](/prismdocs/images/navigation/zero-prism-header-view.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
 | Preview | Open the [Preview](../play/preview) window for editing bank elements.|
-
-
-<!--
-![Prism Header Video Menu](/prismdocs/images/navigation/zero-prism-header-view.png)
-
-|  Menu Item  |   Description   |
-|-------------|-----------------|
-| Preview | Open the [Preview](../play/preview) window for editing bank elements.|
--->
-
-<!--
-![Prism Header Video Menu](/prismdocs/images/navigation/player-header-view.png)
-
-|  Menu Item  |   Description   |
-|-------------|-----------------|
-| Enter Fullscreen  | Toggle fullscreen mode on to fill the video display also toggle by pressing <Keys.PrismKey>Fullscreen</Keys.PrismKey>. Fullscreen mode can be exited either by pressing <Keys.PrismKey>Minimise</Keys.PrismKey> at the top right of the screen or by using the <Keys.PrismKey>Esc</Keys.PrismKey> button on your keyboard.|
--->
-
 ### Audio
 
 ![Prism Audio Menu](/prismdocs/images/navigation/header-audio.png)
@@ -89,35 +69,12 @@ More information found at [Import/Export](../quick-start/import-export)
 | Audio Device | Switch the audio device for **Prism** to output to, the same setting can be set [here](../settings/settings-general#audio). |
 
 ### Video
-
-
 ![Prism Header Video Menu](/prismdocs/images/navigation/zero-prism-header-video.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
 | Show Grid   |   Displays a reference grid over the media player / layer preview. |
 | Transparency Preview |  Toggles on the alpha channel showing a checkerboard in the transparent areas. |
-
-
-<!--
-![Prism Header Video Menu](/prismdocs/images/navigation/zero-prism-header-video.png)
-
-|  Menu Item  |   Description   |
-|-------------|-----------------|
-| Show Grid   |   Displays a reference grid over the media player / layer preview. |
-| Transparency Preview |  Toggles on the alpha channel showing a checkerboard in the transparent areas. |
--->
-
-<!--
-![Prism Header Video Menu](/prismdocs/images/navigation/player-header-video.png)
-
-|  Menu Item  |   Description   |
-|-------------|-----------------|
-| Aspect Mode |  Changes the way the media fills the media player canvas. |
-| Show Grid   | Displays a reference grid over the media player / layer preview. |
-| Transparency Preview | Toggles on the alpha channel showing a checkerboard in the transparent areas. |
--->
-
 ### Help
 
 ![Prism Header Help Menu](/prismdocs/images/navigation/header-help.png)
@@ -132,27 +89,10 @@ More information found at [Import/Export](../quick-start/import-export)
 ![Prism File Menu Open Recent](/prismdocs/images/navigation/view-tabs.png)
 
 In this section it is possible to navigate the following app **Views**:
-
-
 - [Play](../play)
 - [Stage](../stage)
 - [Encoder](../encoder)
 - [Settings](../settings)
-
-
-<!--
-- [Play](../play)
-- [Stage](../stage)
-- [Encoder](../encoder)
-- [Settings](../settings)
--->
-
-<!--
-- [Play](../play)
-- [Encoder](../encoder)
-- [Settings](../settings)
--->
-
 An underline will give visual feedback of the selected **View**.
 
 ## Status Bar

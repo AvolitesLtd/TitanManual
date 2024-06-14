@@ -13,16 +13,13 @@ This section is made up of:
 - The surfaces and their layers, with their layer previews
 - The selected layer / surface mix playback
 
-**Prism Zero** is limited to 1 layer, but up to 16 can be added on **Prism**. 
-
-
 Media can be played on specific / multiple layers, blended together using the intensity sliders and can create simple mixes adjusting their volumes. 
 
 *Note: when using multiple layers, performance may vary on different systems*
 
 ## Surfaces & Layers
 
-Surfaces and their layers, can all be managed in the [Stage](../stage) view where layers can be added, removed, reordered and renamed. Currently **Prism** is limited to 1 Surface.
+Surfaces and their layers, can all be managed in the [Stage](../stage) view where layers can be added, removed, reordered and renamed.
 
 ### Surface
 

@@ -6,7 +6,7 @@ sidebar_label: Encoder
 
 import Keys from '@site/src/components/key.ts';
 
-The **Encoder** section allows for files to be converted from common video codecs into the **AIM** codec in preparation for use on a live production.
+The **Encoder** section allows for files to be converted from common video codecs into the **AiM** codec in preparation for use on a live production.
 
 ![Encoder](/prismdocs/images/prism-encoder.png)
 

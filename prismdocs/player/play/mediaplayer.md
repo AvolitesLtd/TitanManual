@@ -8,11 +8,11 @@ import Keys from '@site/src/components/key.ts';
 
 ## Playback
 
-**Prism Player** allows you to playback **H264**, **ProRes**, **NotchLC**, **HAP** & **AiM** files outside of **Avolites AI** as well as check any parameters of the files before sending them to the Encoder.
+**Prism Player** allows you to playback **H264**, **ProRes**, **NotchLC**, **HAP** & **AiM** files outside of **Avolites Ai** as well as check any parameters of the files before sending them to the Encoder.
 
 Both *SDR* and *HDR* colour spaces are supported for playback, with *HDR* requiring support from the codec in use, such as **NotchLC**. 
 
-**Prism Player** uses the **FFMPEG** library for video decoding, which provides broad support for many different codecs. **AiM** decoding is hardware accelerated so it is advisable to make sure the most suitable GPU is selected in the **General Section** on the **Settings** page.
+**AiM** decoding is hardware accelerated so it is advisable to make sure the most suitable GPU is selected in the **General Section** on the **Settings** page.
 
 ![Prism Player Media Player](/prismdocs/images/player-mediaplayer.png)
 

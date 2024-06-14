@@ -16,7 +16,7 @@ Physical output allows for surface frames to be sent to an external output devic
 
 ### Physical Output Controls
 
-A list of all connected video output devices, will appear in the *Output Device* drop down.  
+A list of all connected video output devices, will appear in the *Output Device* drop-down.  
 Selecting an output device will show its properties, automatically populated:
 
 - Width
