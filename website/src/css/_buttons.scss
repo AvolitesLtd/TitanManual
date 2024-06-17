@@ -48,6 +48,8 @@
 }
 
 .prism-custom {
+  display: inline-flex;
+  align-items: center;
   border-color: darken($colorGrey, 5%);
   background: linear-gradient(darken($colorGrey, 18%), darken($colorGrey, 25%));
   color: white;

@@ -225,6 +225,36 @@ function replaceBr(content) {
 }
 
 /**
+ * Replace HTML Comments tags with normal tags
+ * @param {string} htmlContent Contents of the .md file with the tags in
+ * @return {string} The content with the breaks replaced
+ */
+function removeHtmlComments(htmlContent) {
+  // Regex pattern to find HTML comments
+  const commentPattern = /<!--[\s\S]*?-->/g;
+
+  // Replace all HTML comments with an empty string
+  const cleanedContent = htmlContent.replace(commentPattern, '');
+
+  return cleanedContent;
+}
+
+/**
+ * Replace P Tags with just its contents
+ * @param {string} htmlContent Contents of the .md file with the tags in
+ * @return {string} The content with the breaks replaced
+ */
+function removePTags(htmlContent) {
+  // Regex pattern to find HTML comments
+  const commentPattern = /<p([^>]*)>(.*?)<\/p>/gi;
+
+  // Replace all HTML comments with an empty string
+  const cleanedContent = htmlContent.replace(commentPattern, "$2");
+
+  return cleanedContent;
+}
+
+/**
  * Returns the path to the sidebars JSON file for the specified `version`
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} Relative path to the JSON file, e.g. `../website/sidebars.json`
@@ -273,10 +303,19 @@ function formatMdFiles(docsPath, sidebar, version, appName) {
   let docs = sidebar
     
   for(let index in docs) {
-    if (docs[index].items)
+    const doc = docs[index];
+
+    if (doc.items)
     {
-      for(let page of docs[index].items) {
+      for(let page of doc.items) {
         let sec = page.label;
+        
+        if(page.link)
+        {
+          const path = page.link.id.replace(appName + "/", '');
+          output += formatMd(docsPath,path+'.md',version, sec, appName);
+        }
+
         if (page.items)
         {
           for (item of page.items)
@@ -295,6 +334,7 @@ function formatMdFiles(docsPath, sidebar, version, appName) {
     {
       const path = docs[index].id.replace(appName + "/", '');
       output += formatMd(docsPath,path+'.md',version,sec, appName);
+    console.log(docs[index])
     }
   }
 
@@ -312,16 +352,8 @@ function resolvePageVersion(filename, version, appName = "") {
   if (fs.existsSync(filepath)) {
     return filepath;
   }
-  else {
-    let currentIndex = versions.indexOf(version);
 
-    if(currentIndex == -1 || currentIndex == versions.length-1) {
-      // version not in versions.json or is the last entry
-      return null;
-    }
-
-    return resolvePageVersion(filename,versions[++currentIndex])
-  }
+  return null
 }
 
 /**
@@ -361,6 +393,10 @@ function formatMd(docsPath,filename,version,sectionHeading, appName) {
 
   content = replaceJSX(content);
 
+  content = removeHtmlComments(content);
+
+  content = removePTags(content);
+
   content += "\n\n";
 
   return content;
@@ -373,7 +409,7 @@ function formatMd(docsPath,filename,version,sectionHeading, appName) {
  * @param {string} version (Optional) Which section is being exported
  * @return {string} The filename of the produced PDF
  */
-function generatePDF(filePath, appName, version,options={}) {
+function generatePDF(filePath, appName, options={}) {
   // current date and time
 
   // format & sanitize the filename
@@ -472,5 +508,5 @@ function createPDF(doc, section=null, options={}) {
   }
 
   // generate the PDF
-  return generatePDF(formattedMdPath, doc.appName + "-" + doc.version, version,options);
+  return generatePDF(formattedMdPath, doc.appName + "-" + doc.version,options);
 }

@@ -1,13 +1,26 @@
 ---
 id: introduction
-title: Introduction to Prism
+title: Introduction
 sidebar_label: Introduction
 ---
+**Prism** is specialized software developed by **Avolites**, tailored for media playback and designed specifically for the live events and entertainment industry.
 
-**Prism** is a standalone application built by **Avolites** that expands beyond the feature-set found in **Prism Player** and **Prism Zero**. On top of providing conversion, previewing and playback of media, **Prism** also adds **Synergy** compatibility with **Avolites Titan** allowing for full layer control, **NDI** previewing and use of the video output from **Prism** as a source for the **Pixelmapper** in **Titan**.
+**Prism** allows for the use of multiple banks and layers to be controlled right inside **Prism's** UI or via **Synergy** layer control. 
 
-**Prism** is composed of two parts - the **Server** and **UI**. The **Server** runs in the system tray and the **UI** will run separately and show the interface. The components communicate using **port 9030**, no other application must use this port in order for **Prism** to work. When starting **Prism** you may be prompted to add a firewall exception. If you have this experience please add this port to your firewall / anti-virus lists.
+The bank also allows for input sources to be added including, **NDI input**, **Live input** *e.g. usb capture / webcams*, and **Virtual Returns**, to mix layers together. These can all be setup via the [Input Settings](../prism/settings/settings-inputs) page and adjusting via the [Preview](../prism/play/banks#preview) window.
 
-Please note that closing the **UI** doesn't automatically close the server, this allows for any encoding or **Synergy** control to continue without showing the interface.
+**Prism** is limited to 1 Surface, 16 Layers, and 256 Banks. Each bank can hold up to 256 elements.
+
+**Prism** provides 1 physical output and 1 NDI output.
+
+![Prism UI](/prismdocs/images/prism-ui.png)
+
+**Prism** is composed of two parts - the **Server** and the **UI**. The **Server** runs in the [system tray](./quick-start/system-tray) and the **UI** will run separately and show the interface.  
+
+Please note that closing the **UI** doesn't necessarily close the server as this allows for any playback, encoding, or **Synergy** control, to carry on behind the scenes. More information on this is found on the [General](./settings/settings-general) settings page.
+
+The **Server** and the **UI** communicate using **port 9030**, no other application must use this port in order for **Prism** to work.
+
+When starting **Prism** you may be prompted to add a firewall exception. If you have this experience please add this port to your firewall / anti-virus lists.
 
 Please contact <a href="mailto:support@avolites.com?subject=Prism:">support@avolites.com</a> if you require any support.
