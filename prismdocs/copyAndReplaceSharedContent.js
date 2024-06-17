@@ -8,12 +8,12 @@ const pages = [
     excludes: [
       "layers", "layer-options", //Play
       "stage", "outputs", "surfaces", //Stage
-      "settings-synergy", //Settings
+      "settings-synergy", "settings-inputs",//Settings
       "preview" //Preview
     ]
   },
-  { id: 'prism-zero', app: 'Prism Zero', path: 'Zero' },
-  { id: 'prism', app: 'Prism', path: 'Prism' },
+  { id: 'prism-zero', app: 'Prism Zero', path: 'Zero', excludes: ["mediaplayer", "settings-inputs"] },
+  { id: 'prism', app: 'Prism', path: 'Prism', excludes: ["mediaplayer"] },
   // Add more pages as needed
 ]
 
