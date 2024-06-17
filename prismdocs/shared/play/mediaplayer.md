@@ -17,9 +17,9 @@ Both *SDR* and *HDR* colour spaces are supported for playback, with *HDR* requir
 ![Prism Player Media Player](/prismdocs/images/player-mediaplayer.png)
 
 ## Play Bar
-This area allows control of te meida currently being played, it consists for the following components:
+This area allows control of the media currently being played, it consists of the following components:
 
-- Play Mode: Determines how files are played—either once, in a loop (as a bank), or shuffled.
+- Play Mode: Determines how files are played — either once, in a loop (as a bank), or shuffled.
 - Playhead: Displays the current position within the file. You can manually scrub through the media by dragging the playhead along the timeline.
 - Clear: Unloads the media from the player, clearing the canvas.
 - Volume Control: Adjusts the application’s volume.
@@ -27,7 +27,7 @@ This area allows control of te meida currently being played, it consists for the
 
 ## Shortcuts
 
-| **Functionality**   | **Shortcut**              |
+| **Feature**   | **Shortcut**              |
 | ------------------- | ------------------------- |
 | Play / Pause        | `spacebar`                |
 | Seek Forward / Back | `left & right arrows`     |
