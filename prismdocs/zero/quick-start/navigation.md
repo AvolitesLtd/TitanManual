@@ -8,11 +8,11 @@ import Keys from '@site/src/components/key.ts';
 
 **Prism Zero**'s user interface is organized into three main sections:
 
-- [Header Menu](./navigation#header-menu)
+- [Main Menu](./navigation#header-menu)
 - [View Tabs](./navigation#view-tabs)
 - [Status Bar](./navigation#status-bar)
 
-## Header Menu
+## Main Menu
 ![Prism Zero File Menu Open Recent](/prismdocs/images/navigation/zero-header-menu.png)
 
 In this section it is possible to navigate the application menu, see the Project name and minimize, maximize or close the user interface.
@@ -59,14 +59,14 @@ More information found at [Import/Export](../quick-start/import-export)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
-| Preview | Open the [Preview](../play/preview) window for editing bank elements.|
+| Preview | Open the [Preview](../quick-start/preview) window for editing bank elements.|
 ### Audio
 
 ![Prism Zero Audio Menu](/prismdocs/images/navigation/header-audio.png)
 
 |  Menu Item   |   Description   |
 |--------------|-----------------|
-| Audio Device | Switch the audio device for **Prism Zero** to output to, the same setting can be set [here](../settings/settings-general#audio). |
+| Audio Device | Set the audio device for **Prism Zero** to output to, the same setting can configured on the [settings](../settings/settings-general#audio). |
 
 ### Video
 ![Prism Zero Header Video Menu](/prismdocs/images/navigation/zero-prism-header-video.png)

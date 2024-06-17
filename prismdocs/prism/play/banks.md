@@ -50,11 +50,11 @@ Additionally, other standard video codecs such as **H264**, **H265**, **ProRes**
 To enhance playback performance, consider transcoding media into **Avolites AiM** codec. Media can be added to the [encoder](../encoder/encoder) list by the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button. 
 #### NDI Input
 Any active NDI sources on the network.
-Please see both [Settings](../settings/settings-inputs) and [Preview](../play/preview) pages in order to setup and select NDI Sources.
+Please see both [Settings](../settings/settings-inputs) and [Preview](../quick-start/preview) pages in order to setup and select NDI Sources.
 
 #### Live Input
 Any connected capture devices on the system.
-Please see both [Settings](../settings/settings-inputs) and [Preview](../play/preview) pages in order to setup and select Webcam / Capture Devices.
+Please see both [Settings](../settings/settings-inputs) and [Preview](../quick-start/preview) pages in order to setup and select Webcam / Capture Devices.
 
 #### Virtual Return
 The virtual return element enables one layer in the project to receive the rendered output of another layer.
@@ -72,7 +72,7 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button
 A layer must be selected in order to play elements
 #### Preview
 
-When previewing an element, adjustments can be made to its properties, please see [Preview](../play/preview) for more details on how this works.
+When previewing an element, adjustments can be made to its properties, please see [Preview](../quick-start/preview) for more details on how this works.
 #### Sub Menu
 Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
 

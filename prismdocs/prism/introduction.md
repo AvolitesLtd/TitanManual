@@ -5,7 +5,7 @@ sidebar_label: Introduction
 ---
 **Prism** is specialized software developed by **Avolites**, tailored for media playback and designed specifically for the live events and entertainment industry.
 
-**Prism** allows for the use of multiple banks and layers to be controlled right inside **Prism's** UI or via **Synergy** layer control. 
+**Prism** allows for the use of multiple banks and layers to be controlled right inside **Prism's** UI or via [Synergy](./settings/settings-synergy) layer control. 
 
 The bank also allows for input sources to be added including, **NDI input**, **Live input** *e.g. usb capture / webcams*, and **Virtual Returns**, to mix layers together. These can all be setup via the [Input Settings](../prism/settings/settings-inputs) page and adjusting via the [Preview](../prism/play/banks#preview) window.
 

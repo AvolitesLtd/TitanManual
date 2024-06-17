@@ -6,12 +6,12 @@ sidebar_label: Layer Options
 
 import Keys from '@site/src/components/key.ts';
 
-Similar to the [Preview](../preview#adjustments) adjustments, the layer options have the same four sections: 
+Similar to the [Preview](../quick-start/preview#adjustments) adjustments, the layer options have the same four sections: 
 
-- [Playback](./layer-options#playback)
-- [Player Controls](./layer-options#player-controls)
-- [Colour Correction](./layer-options#colour-correction)
-- [Transformation](./layer-options#transformation)
+- [Playback](#playback)
+- [Player Controls](#player-controls)
+- [Colour Correction](#colour-correction)
+- [Transformation](#transformation)
 
 **Layer Options** allows adjustments to be made to the layer properties and can be controlled either directly from the UI or remotely by connecting with **Synergy**.
 
@@ -27,11 +27,11 @@ When **{{PRISM-APP}}** is being controlled from a lighting console using **Syner
 
 The **Sync to DMX** feature is used to allow the Prism UI controls to immediately adjust to the most recently received values from the console. This can be used anytime the UI needs to be kept in line with the external device values.
 
-*Note: Instructions can be found for setting up a **Synergy** Connection [here](../settings/settings-synergy)*
+*Note: Instructions for setting up a **Synergy** Connection can be found on the [settings](../settings/settings-synergy)*
 
 ## Adjustments
 
-Any adjustment made will directly change the layer properties, triggering a bank element may override this, if any changes were made in the [Preview](../play/preview).
+Any adjustment made will directly change the layer properties, triggering a bank element may override this, if any changes were made in the [Preview](../quick-start/preview).
 
 ### Playback
 

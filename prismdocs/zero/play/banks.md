@@ -63,7 +63,7 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button
 A layer must be selected in order to play elements
 #### Preview
 
-When previewing an element, adjustments can be made to its properties, please see [Preview](../play/preview) for more details on how this works.
+When previewing an element, adjustments can be made to its properties, please see [Preview](../quick-start/preview) for more details on how this works.
 #### Sub Menu
 Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
 

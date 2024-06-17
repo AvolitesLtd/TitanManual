@@ -6,16 +6,16 @@ sidebar_label: Preview
 
 import Keys from '@site/src/components/key.ts';
 
-After opening the **Preview**, as described in the [Bank](../{{PRISM-APP-LOWER}}/play/bank) page of this manual. A new window will popup with a preview of the media you have selected along with player controls, such as seeking, setting the play mode, muting and trimming the media.
+The **Preview** window allows for adjustments to be made to the properties of individual bank elements, setting values on the following areas to the right side of the window:
 
-Previewing media also allows for adjustments to be made to the properties of individual bank elements, setting values on the following areas to the right side of the window:
+- [Playback](#playback)
+- [Player Controls](#player-controls)
+- [Colour Correction](#colour-correction)
+- [Transformation](#transformation)
 
-- [Playback](./preview#playback)
-- [Player Controls](./preview#player-controls)
-- [Colour Correction](./preview#colour-correction)
-- [Transformation](./preview#Transformation)
+**Preview** can be accessed by the [Bank](../../prism/play/banks) view or the [Main Menu](./navigation/#view).
 
-![Prism Zero Preview Window](/prismdocs/images/{{PRISM-APP-LOWER}}-preview.png)
+![Prism Zero Preview Window](/prismdocs/images/prism-preview.png)
 
 The resolution of the Preview Window can be adjusted to easily preview media playback at a specific target resolution.
 
@@ -58,8 +58,6 @@ The below table describes what each of the options do:
 | **Trim In**                  | Sets the Trim In of the bank element     |
 | **Trim Out**                 | Sets the Trim Out of the bank element    |
 | **Speed**                    | Sets the Speed of the bank element       | 
-
-{{PRISM-START-COMMENT}}
 ### NDI Input Settings
 
 ![Preview NDI Input Settings](/prismdocs/images/preview-ndi-settings.png)
@@ -87,9 +85,6 @@ The below table describes what each of the options do:
 |----------------|---------|
 | **Surface** | A drop-down list of all surfaces on  **Prism**|
 | **Layer**   | Which layer to receive from|
-
-{{PRISM-END-COMMENT}}
-
 ### Colour Correction
 
 This area controls the **Colour Correction** options, which are set on the bank element

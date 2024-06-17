@@ -138,6 +138,10 @@
             {
               "type": "doc",
               "id": "zero/quick-start/media-management"
+            },  
+            {
+              "type": "doc",
+              "id": "zero/quick-start/preview"
             },          
             {
               "type": "doc",
@@ -173,10 +177,6 @@
             {
               "type": "doc",
               "id": "zero/play/banks"
-            },
-            {
-              "type": "doc",
-              "id": "zero/play/preview"
             }
           ]
         },
@@ -274,6 +274,10 @@
             },
             {
               "type": "doc",
+              "id": "prism/quick-start/preview"
+            },   
+            {
+              "type": "doc",
               "id": "prism/quick-start/projects-management"
             },
             {
@@ -306,10 +310,6 @@
             {
               "type": "doc",
               "id": "prism/play/banks"
-            },
-            {
-              "type": "doc",
-              "id": "prism/play/preview"
             }
           ]
         },

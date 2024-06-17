@@ -71,7 +71,7 @@ The layer has some controls, which can adjust the layers in real-time.
 
 Users can also control each [layer's options](./layer-options) via the UI or [Synergy](../settings/settings-synergy) control.
 
-Both methods affect the layer properties directly, but also can be overridden by the bank element, depending on your preferred result, as discussed on the [Preview](./preview) page.
+Both methods affect the layer properties directly, but also can be overridden by the bank element, depending on your preferred result, as discussed on the [Preview](../quick-start/preview) page.
 
 ## Playback
 
@@ -96,7 +96,7 @@ Toggling the <Keys.PrismKey>Trim</Keys.PrismKey> icon reveals the trim feature.
 
 ![Prism Trim Bar](/prismdocs/images/zero-prism-trimbar.png)
 
-The trim is set on the layer properties, but can also be override by the bank element via the [Preview](./preview) Window.  
+The trim is set on the layer properties, but can also be override by the bank element via the [Preview](../quick-start/preview) Window.  
 Moving the sliders will set the Trim In and Trim Out points.  
 Clicking on the <Keys.PrismKey>Trim</Keys.PrismKey> icon will confirm the newly set trim points.  
 Clicking on the <Keys.PrismKey>Cancel</Keys.PrismKey> icon will cancel the changes to reset back to the previously set trim points.
