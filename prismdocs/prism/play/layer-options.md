@@ -6,12 +6,12 @@ sidebar_label: Layer Options
 
 import Keys from '@site/src/components/key.ts';
 
-Similar to the [Preview](../preview#adjustments) adjustments, the layer options have the same four sections: 
+Similar to the [Preview](../quick-start/preview#adjustments) adjustments, the layer options have the same four sections: 
 
-- [Playback](./layer-options#playback)
-- [Player Controls](./layer-options#player-controls)
-- [Colour Correction](./layer-options#colour-correction)
-- [Transformation](./layer-options#transformation)
+- [Playback](#playback)
+- [Player Controls](#player-controls)
+- [Colour Correction](#colour-correction)
+- [Transformation](#transformation)
 
 **Layer Options** allows adjustments to be made to the layer properties and can be controlled either directly from the UI or remotely by connecting with **Synergy**.
 

@@ -8,10 +8,10 @@ import Keys from '@site/src/components/key.ts';
 
 The **Preview** window allows for adjustments to be made to the properties of individual bank elements, setting values on the following areas to the right side of the window:
 
-- [Playback](./preview#playback)
-- [Player Controls](./preview#player-controls)
-- [Colour Correction](./preview#colour-correction)
-- [Transformation](./preview#Transformation)
+- [Playback](#playback)
+- [Player Controls](#player-controls)
+- [Colour Correction](#colour-correction)
+- [Transformation](#transformation)
 
 **Preview** can be accessed by the [Bank](../../{{PRISM-APP-LOWER}}/play/banks) view or the [Main Menu](./navigation/#view).
 
