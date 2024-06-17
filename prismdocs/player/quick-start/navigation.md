@@ -8,11 +8,11 @@ import Keys from '@site/src/components/key.ts';
 
 **Prism Player**'s user interface is organized into three main sections:
 
-- [Header Menu](./navigation#header-menu)
+- [Main Menu](./navigation#header-menu)
 - [View Tabs](./navigation#view-tabs)
 - [Status Bar](./navigation#status-bar)
 
-## Header Menu
+## Main Menu
 ![Prism Player File Menu Open Recent](/prismdocs/images/navigation/player-header-menu.png)
 
 In this section it is possible to navigate the application menu, see the Project name and minimize, maximize or close the user interface.
@@ -66,7 +66,7 @@ More information found at [Import/Export](../quick-start/import-export)
 
 |  Menu Item   |   Description   |
 |--------------|-----------------|
-| Audio Device | Switch the audio device for **Prism Player** to output to, the same setting can be set [here](../settings/settings-general#audio). |
+| Audio Device | Set the audio device for **Prism Player** to output to, the same setting can configured on the [settings](../settings/settings-general#audio). |
 
 ### Video
 ![Prism Player Header Video Menu](/prismdocs/images/navigation/player-header-video.png)

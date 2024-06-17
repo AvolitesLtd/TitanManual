@@ -5,15 +5,15 @@ sidebar_label: Synergy
 ---
 import Keys from '@site/src/components/key.ts';
 
-This page shows the settings for [Synergy](../../../../docs/synergy).  
-
 **Prism Zero** includes **Synergy** compatibility with **Avolites Titan**, providing easier setup as well as advanced features such as previewing of **Prism Zero** within **Titan**, using the output from **Prism Zero** within **Titan's Pixelmapper** and allowing media transfer directly from the console to **Prism Zero**.
+
+More information on how to setup a **Synergy** connection can be found on this [guide](../../../../docs/synergy).
 
 ![Settings Synergy](/prismdocs/images/zero-settings-synergy.png)
 
 | <p style={{width: '250px', margin: '0'}}>Feature</p> |  Description      |
 |------------------------------------------------------|------------|
-| **Titan Media Node Version** | List of available **Titan Media Node**. The version in use must match the **Titan** version. <br/><br/> If a mismatch is identified within Titan's **Synergy** Settings, a different version can be selected via this dropdown.  <br/><br/> More information on how to setup a **Synergy** connection can be found [here](../../../../docs/synergy).|
+| **Titan Media Node Version** | List of available **Titan Media Node**. The version in use must match the **Titan** version. <br/><br/> If a mismatch is identified within Titan's **Synergy** Settings, a different version can be selected via this dropdown.|
 | **Port** | Apecifies which port is used to allow **Prism Zero** and **Titan** to communicate.|
 | **Enable Synergy** | This toggle enable/disable **Synergy** connection between **Prism Zero** and the controlling device.|
 | **Connection Status** | Indicates the current status of the **Synergy** connection between **Prism Zero** and **Titan**.|

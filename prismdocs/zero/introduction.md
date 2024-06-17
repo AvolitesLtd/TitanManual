@@ -5,7 +5,7 @@ sidebar_label: Introduction
 ---
 **Prism Zero** is a simplified version of **Prism**, developed by **Avolites**. It is ["Free with a key"](../licensing#prism-zero), as it is free to use but requires a license key to operate.
 
-On top of providing conversion, previewing and playback of media, **Prism Zero** also adds **Synergy** compatibility with **Avolites Titan** allowing for full layer control, **NDI** previewing and the use of the video output from **Prism Zero** as a source for the **Pixelmapper** in **Titan**.
+On top of providing conversion, previewing and playback of media, **Prism Zero** also adds [Synergy](./settings/settings-synergy) compatibility with **Avolites Titan** allowing for full layer control, **NDI** previewing and the use of the video output from **Prism Zero** as a source for the **Pixelmapper** in **Titan**.
 
 **Prism Zero** is limited to 1 Surface, 1 Layer, and 1 Bank. Each bank can hold up to 256 elements.
 

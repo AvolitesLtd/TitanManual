@@ -27,11 +27,11 @@ When **Prism** is being controlled from a lighting console using **Synergy**, th
 
 The **Sync to DMX** feature is used to allow the Prism UI controls to immediately adjust to the most recently received values from the console. This can be used anytime the UI needs to be kept in line with the external device values.
 
-*Note: Instructions can be found for setting up a **Synergy** Connection [here](../settings/settings-synergy)*
+*Note: Instructions for setting up a **Synergy** Connection can be found on the [settings](../settings/settings-synergy)*
 
 ## Adjustments
 
-Any adjustment made will directly change the layer properties, triggering a bank element may override this, if any changes were made in the [Preview](../play/preview).
+Any adjustment made will directly change the layer properties, triggering a bank element may override this, if any changes were made in the [Preview](../quick-start/preview).
 
 ### Playback
 

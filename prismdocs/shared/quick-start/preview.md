@@ -6,14 +6,14 @@ sidebar_label: Preview
 
 import Keys from '@site/src/components/key.ts';
 
-After opening the **Preview**, as described in the [Bank](../{{PRISM-APP-LOWER}}/play/bank) page of this manual. A new window will popup with a preview of the media you have selected along with player controls, such as seeking, setting the play mode, muting and trimming the media.
-
-Previewing media also allows for adjustments to be made to the properties of individual bank elements, setting values on the following areas to the right side of the window:
+The **Preview** window allows for adjustments to be made to the properties of individual bank elements, setting values on the following areas to the right side of the window:
 
 - [Playback](./preview#playback)
 - [Player Controls](./preview#player-controls)
 - [Colour Correction](./preview#colour-correction)
 - [Transformation](./preview#Transformation)
+
+**Preview** can be accessed by the [Bank](../../{{PRISM-APP-LOWER}}/play/banks) view or the [Main Menu](./navigation/#view).
 
 ![Prism Zero Preview Window](/prismdocs/images/{{PRISM-APP-LOWER}}-preview.png)
 

@@ -8,11 +8,11 @@ import Keys from '@site/src/components/key.ts';
 
 **{{PRISM-APP}}**'s user interface is organized into three main sections:
 
-- [Header Menu](./navigation#header-menu)
+- [Main Menu](./navigation#header-menu)
 - [View Tabs](./navigation#view-tabs)
 - [Status Bar](./navigation#status-bar)
 
-## Header Menu
+## Main Menu
 ![{{PRISM-APP}} File Menu Open Recent](/prismdocs/images/navigation/{{PRISM-APP-LOWER}}-header-menu.png)
 
 In this section it is possible to navigate the application menu, see the Project name and minimize, maximize or close the user interface.
@@ -61,7 +61,7 @@ More information found at [Import/Export](../quick-start/import-export)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
-| Preview | Open the [Preview](../play/preview) window for editing bank elements.|
+| Preview | Open the [Preview](../quick-start/preview) window for editing bank elements.|
 {{PRISM-END-COMMENT}}
 
 {{ZERO-START-COMMENT}}
@@ -69,7 +69,7 @@ More information found at [Import/Export](../quick-start/import-export)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
-| Preview | Open the [Preview](../play/preview) window for editing bank elements.|
+| Preview | Open the [Preview](../quick-start/preview) window for editing bank elements.|
 {{ZERO-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
@@ -86,7 +86,7 @@ More information found at [Import/Export](../quick-start/import-export)
 
 |  Menu Item   |   Description   |
 |--------------|-----------------|
-| Audio Device | Switch the audio device for **{{PRISM-APP}}** to output to, the same setting can be set [here](../settings/settings-general#audio). |
+| Audio Device | Set the audio device for **{{PRISM-APP}}** to output to, the same setting can configured on the [settings](../settings/settings-general#audio). |
 
 ### Video
 
