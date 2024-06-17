@@ -72,7 +72,7 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements
 
 *Grid View* allows for easier triggering of clips due to the larger trigger area, thumbnails are shown here and are also stored on the **Prism Media Cache**.
 
-![Prism Player Banks](/prismdocs/images/player-grid-Banks.png)
+![Prism Player Banks](/prismdocs/images/player-grid-banks.png)
 
 ## Import/Export
 
