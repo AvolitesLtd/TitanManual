@@ -13,6 +13,8 @@ The bank also allows for input sources to be added including, **NDI input**, **L
 
 **Prism** provides 1 physical output and 1 NDI output.
 
+**Prism** requires a license to run. Please refer to the [licensing page](../licensing#prism) in this manual.
+
 ![Prism UI](/prismdocs/images/prism-ui.png)
 
 **Prism** is composed of two parts - the **Server** and the **UI**. The **Server** runs in the [system tray](./quick-start/system-tray) and the **UI** will run separately and show the interface.  

@@ -11,6 +11,8 @@ On top of providing conversion, previewing and playback of media, **Prism Zero**
 
 **Prism Zero** provides 1 physical output and 1 NDI output.
 
+**Prism Zero** requires a license to run. Please refer to the [licensing page](../licensing#prism-zero) in this manual.
+
 ![Prism Zero UI](/prismdocs/images/prism-zero-ui.png)
 
 **Prism Zero** is composed of two parts - the **Server** and the **UI**. The **Server** runs in the [system tray](./quick-start/system-tray) and the **UI** will run separately and show the interface.  
