@@ -61,7 +61,7 @@ jobs:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           name: ${{matrix.os}}
           path: website/download
@@ -86,12 +86,12 @@ jobs:
 
       - name: PDF Docker Build
         run: |
-          docker-compose run pdf
+          docker compose run pdf
           mkdir website/download
           mv parse/output/*.pdf website/download
 
       - name: Upload artifacts to GitHub
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           name: 'PDF'
           path: website/download
@@ -116,12 +116,12 @@ jobs:
 
       - name: Prism PDF Docker Build
         run: |
-          docker-compose run prismpdf
+          docker compose run prismpdf
           mkdir website/download
           mv parse/output/*.pdf website/download
 
       - name: Upload artifacts to GitHub
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           name: 'Prism PDF'
           path: website/download

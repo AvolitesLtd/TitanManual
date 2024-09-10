@@ -60,7 +60,7 @@ jobs:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           name: ${{matrix.os}}
           path: website/downloads
@@ -75,12 +75,12 @@ jobs:
 
       - name: PDF Docker Build
         run: |
-          docker-compose run pdf
+          docker compose run pdf
           mkdir downloads
           mv parse/output/*.pdf downloads
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           name: 'PDF'
           path: downloads
