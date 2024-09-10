@@ -47,7 +47,7 @@ Supports standard audio types, such as **MP3**, **WAV**, etc.
 Supports natively **Avolites AiM**, **NotchLC**, and **HAP**.
 Additionally, other standard video codecs such as **H264**, **H265**, **ProRes**, etc., are also supported.
 
-To enhance playback performance, consider transcoding media into **Avolites AiM** codec. Media can be added to the [encoder](../encoder/encoder) list by the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button. 
+To enhance playback performance, consider transcoding media into **Avolites AiM** codec. Media can be added to the [encoder](../encoder) list by the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button. 
 #### NDI Input
 Any active NDI sources on the network.
 Please see both [Settings](../settings/settings-inputs) and [Preview](../quick-start/preview) pages in order to setup and select NDI Sources.
