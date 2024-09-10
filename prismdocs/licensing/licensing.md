@@ -8,7 +8,9 @@ sidebar_label: Prism Licensing
 
 ## Prism
 
-**Prism** runs with any valid **AvoKey** or **Editor Keys** with an **Ai** (_Anjuna_, _Bondi_, _Miami_) or **Prism One** license. Both keys can also be purchased from any of our distributors.
+**Prism v1.3** is **"Free with a Key"**, this means that once a key is purchased you will be able to get the license on request for free.
+
+**Prism** runs with any valid **AvoKey** or **Editor Keys** with an **Ai** (_Demo_, _Anjuna_, _Bondi_, _Miami_) or **Prism**  (_Zero_, _One_) license. Both keys can also be purchased from any of our distributors.
 
 **Prism** is limited to 1 Surface, 16 Layers, and 256 Banks. Each bank can hold up to 256 elements.
 
@@ -38,7 +40,7 @@ The below table shows which app can be use against Avolites current set of **Ai*
 
 |             | Ai Demo  | Ai Anjuna | Ai Bondi | Ai Miami | Prism Player  | Prism Zero | Prism One | 
 |-----------------|:--------:|:---------:|:--------:|:--------:|:-------------:|:----------:|:---------:|
-| **Prism**       |          |     x     |    x     |    x     |               |            |    x      |
+| **Prism**       |    x     |     x     |    x     |    x     |               |     x      |    x      |
 | **Prism Zero**  |    x     |     x     |    x     |    x     |               |     x      |    x      |
 | **Prism Player**|    x     |     x     |    x     |    x     |       x       |     x      |    x      |
 

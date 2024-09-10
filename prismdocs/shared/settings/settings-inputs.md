@@ -5,7 +5,7 @@ sidebar_label: Inputs
 ---
 import Keys from '@site/src/components/key.ts';
 
-This page shows the list of physical inputs and virtual inputs available on the system. It also shows the settings for each **Source**, which are kept across all instances used within the app (either when loading the input in [Preview](../play/preview) window or on a [Layer](../play/layers)).
+This page shows the list of physical inputs and virtual inputs available on the system. It also shows the settings for each **Source**, which are kept across all instances used within the app (either when loading the input in [Preview](../quick-start/preview) window or on a [Layer](../play/layers)).
 
 ![Settings Inputs](/prismdocs/images/settings-inputs.png)
 
