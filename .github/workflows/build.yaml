@@ -77,7 +77,7 @@ jobs:
 
       - name: PDF Docker Build
         run: |
-          docker-compose run pdf
+          docker compose run pdf
           mkdir downloads
           mv parse/output/*.pdf downloads
 
@@ -99,7 +99,7 @@ jobs:
 
       - name: Prism PDF Docker Build
         run: |
-          docker-compose run prismpdf
+          docker compose run prismpdf
           mkdir downloads
           mv parse/output/*.pdf downloads
       - name: Upload artifacts

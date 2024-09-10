@@ -75,7 +75,7 @@ jobs:
 
       - name: PDF Docker Build
         run: |
-          docker-compose run pdf
+          docker compose run pdf
           mkdir downloads
           mv parse/output/*.pdf downloads
 

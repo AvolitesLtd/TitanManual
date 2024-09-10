@@ -86,7 +86,7 @@ jobs:
 
       - name: PDF Docker Build
         run: |
-          docker-compose run pdf
+          docker compose run pdf
           mkdir website/download
           mv parse/output/*.pdf website/download
 
@@ -116,7 +116,7 @@ jobs:
 
       - name: Prism PDF Docker Build
         run: |
-          docker-compose run prismpdf
+          docker compose run prismpdf
           mkdir website/download
           mv parse/output/*.pdf website/download
 
