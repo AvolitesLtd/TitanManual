@@ -10,7 +10,7 @@ Banks within **{{PRISM-APP}}** provide a versatile space for managing media.
 
 Banks can be reordered, be renamed, and imported or exported for use in another project. 
 
-Additionally, Banks can display thumbnails of the added elements via the [grid view](./banks#grid-view).
+Additionally, Banks can display thumbnails of the added elements via the [grid view](./banks.md#grid-view).
 
 Pressing the <Keys.PrismKey>+</Keys.PrismKey> button will add a new Bank, the area will split into two sections:
 - Left side - Bank Manager
@@ -23,8 +23,8 @@ Each Bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 | **Rename** | Renames the Bank | 
 | **Remove**| Deletes the Bank and its contents | 
 | **Duplicate**| Duplicates the Bank and its contents, including any Bank element property changes | 
-| **Import** | Replaces the Bank with the saved Bank. See [Import & Export](../quick-start/import-export) for more details. | 
-| **Export** | Saves the Bank to a file. See [Import & Export](../quick-start/import-export) for more details. | 
+| **Import** | Replaces the Bank with the saved Bank. See [Import & Export](../quick-start/import-export.md) for more details. | 
+| **Export** | Saves the Bank to a file. See [Import & Export](../quick-start/import-export.md) for more details. | 
 
 {{PLAYER-START-COMMENT}}
 *Note: Only 1 Bank is allowed to be used on **{{PRISM-APP}}**.
@@ -56,16 +56,16 @@ Supports standard audio types, such as **MP3**, **WAV**, etc.
 Supports natively **Avolites AiM**, **NotchLC**, and **HAP**.
 Additionally, other standard video codecs such as **H264**, **H265**, **ProRes**, etc., are also supported.
 
-To enhance playback performance, consider transcoding media into **Avolites AiM** codec. Media can be added to the [encoder](../encoder) list by the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button. 
+To enhance playback performance, consider transcoding media into **Avolites AiM** codec. Media can be added to the [encoder](../encoder/encoder.md) list by the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button. 
 
 {{PRISM-START-COMMENT}}
 #### NDI Input
 Any active NDI sources on the network.
-Please see both [Settings](../settings/settings-inputs) and [Preview](../quick-start/preview) pages in order to setup and select NDI Sources.
+Please see both [Settings](../settings/settings-inputs.md) and [Preview](../quick-start/preview.md) pages in order to setup and select NDI Sources.
 
 #### Live Input
 Any connected capture devices on the system.
-Please see both [Settings](../settings/settings-inputs) and [Preview](../quick-start/preview) pages in order to setup and select Webcam / Capture Devices.
+Please see both [Settings](../settings/settings-inputs.md) and [Preview](../quick-start/preview.md) pages in order to setup and select Webcam / Capture Devices.
 
 #### Virtual Return
 The virtual return element enables one layer in the project to receive the rendered output of another layer.
@@ -84,7 +84,7 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button
 #### Play
 
 {{PLAYER-START-COMMENT}}
-Playing an element will playback on the [media player](../play/mediaplayer).
+Playing an element will playback on the [media player](./mediaplayer.md).
 {{PLAYER-END-COMMENT}}
 
 {{ZERO-START-COMMENT}}
@@ -98,13 +98,13 @@ A layer must be selected in order to play elements
 {{ZERO-START-COMMENT}}
 #### Preview
 
-When previewing an element, adjustments can be made to its properties, please see [Preview](../quick-start/preview) for more details on how this works.
+When previewing an element, adjustments can be made to its properties, please see [Preview](../quick-start/preview.md) for more details on how this works.
 {{ZERO-END-COMMENT}}
 
 {{PRISM-START-COMMENT}}
 #### Preview
 
-When previewing an element, adjustments can be made to its properties, please see [Preview](../quick-start/preview) for more details on how this works.
+When previewing an element, adjustments can be made to its properties, please see [Preview](../quick-start/preview.md) for more details on how this works.
 {{PRISM-END-COMMENT}}
 
 #### Sub Menu
@@ -141,6 +141,6 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements
 
 ## Import/Export
 
-Please see [Import/Export](../quick-start/import-export) for reference.
+Please see [Import/Export](../quick-start/import-export.md) for reference.
 
 *Note: It is also possible to import Banks by simply dragging and dropping them in the drag and drop area.*

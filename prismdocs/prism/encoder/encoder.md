@@ -28,7 +28,7 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual **Encode
 - **Hide Source/Show Source** to hide or show the details of the source media file and help compare changes made in the **Encode Options**.
 - **Rename** to set the file's tag name, to be used as the destination file name.
 - **Remove** to delete the file from the **Encode List**.
-- **Settings** to open [Encode Options](encode-options) relative to this element.
+- **Settings** to open [Encode Options](./encode-options.md) relative to this element.
 - **Duplicate** to create a copy of the element, ready for encoding.
 - **Show In Folder** to open the location of the encoded media that has been set in the **Output Folder** setting.
 
@@ -39,4 +39,4 @@ Next to this are the <Keys.PrismKey>Play</Keys.PrismKey> / <Keys.PrismKey>Pause<
 
 ### Import/Export Encode Lists
 
-Please see [Import/Export](../quick-start/import-export) section for reference.
+Please see [Import/Export](../quick-start/import-export.md) section for reference.

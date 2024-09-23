@@ -17,4 +17,4 @@ Media can be added and played using several different methods:
 
 **{{PRISM-APP}}** optimize its loading performance by using a cache to store data about the media being used by the project. When adding a media file to a **Bank** or to **Encoder**, the media will be analyzed, and its thumbnails and information will be stored in a file on the system.
 
-*Note: If media are renamed or relocated within the system, the media cache may become misaligned and will need to be regenerated. To regenerate the media cache, navigate to the [Settings > General](../settings/settings-general#cache) and click <Keys.PrismKey>Clear Cache</Keys.PrismKey>.
+*Note: If media are renamed or relocated within the system, the media cache may become misaligned and will need to be regenerated. To regenerate the media cache, navigate to the [Settings > General](../settings/settings-general.md#cache) and click <Keys.PrismKey>Clear Cache</Keys.PrismKey>.

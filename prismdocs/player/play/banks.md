@@ -10,7 +10,7 @@ Banks within **Prism Player** provide a versatile space for managing media.
 
 Banks can be reordered, be renamed, and imported or exported for use in another project. 
 
-Additionally, Banks can display thumbnails of the added elements via the [grid view](./banks#grid-view).
+Additionally, Banks can display thumbnails of the added elements via the [grid view](./banks.md#grid-view).
 
 Pressing the <Keys.PrismKey>+</Keys.PrismKey> button will add a new Bank, the area will split into two sections:
 - Left side - Bank Manager
@@ -23,8 +23,8 @@ Each Bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 | **Rename** | Renames the Bank | 
 | **Remove**| Deletes the Bank and its contents | 
 | **Duplicate**| Duplicates the Bank and its contents, including any Bank element property changes | 
-| **Import** | Replaces the Bank with the saved Bank. See [Import & Export](../quick-start/import-export) for more details. | 
-| **Export** | Saves the Bank to a file. See [Import & Export](../quick-start/import-export) for more details. | 
+| **Import** | Replaces the Bank with the saved Bank. See [Import & Export](../quick-start/import-export.md) for more details. | 
+| **Export** | Saves the Bank to a file. See [Import & Export](../quick-start/import-export.md) for more details. | 
 *Note: Only 1 Bank is allowed to be used on **Prism Player**.
 ## Bank
 
@@ -48,7 +48,7 @@ Supports standard audio types, such as **MP3**, **WAV**, etc.
 Supports natively **Avolites AiM**, **NotchLC**, and **HAP**.
 Additionally, other standard video codecs such as **H264**, **H265**, **ProRes**, etc., are also supported.
 
-To enhance playback performance, consider transcoding media into **Avolites AiM** codec. Media can be added to the [encoder](../encoder) list by the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button. 
+To enhance playback performance, consider transcoding media into **Avolites AiM** codec. Media can be added to the [encoder](../encoder/encoder.md) list by the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button. 
 ## Table View
 
 *Table View* gives more information about video / audio codecs, resolution, whether hardware acceleration is available on the media and much more.
@@ -60,7 +60,7 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button
 ### Actions
 
 #### Play
-Playing an element will playback on the [media player](../play/mediaplayer).
+Playing an element will playback on the [media player](./mediaplayer.md).
 #### Sub Menu
 
 Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
@@ -76,6 +76,6 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements
 
 ## Import/Export
 
-Please see [Import/Export](../quick-start/import-export) for reference.
+Please see [Import/Export](../quick-start/import-export.md) for reference.
 
 *Note: It is also possible to import Banks by simply dragging and dropping them in the drag and drop area.*
