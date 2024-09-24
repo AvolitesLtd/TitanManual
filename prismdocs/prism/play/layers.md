@@ -69,9 +69,9 @@ The layer has some controls, which can adjust the layers in real-time.
 |  **Clear Layer** | Click on the <Keys.PrismKey>Clear Layer</Keys.PrismKey> button to reset the layer |
 |  **Solo** | Click on the <Keys.PrismKey>Solo</Keys.PrismKey> button to solo this layer. This will be the only layer present in the surface mix |
 
-Users can also control each [layer's options](./layer-options) via the UI or [Synergy](../settings/settings-synergy) control.
+Users can also control each [layer's options](./layer-options.md) via the UI or [Synergy](../settings/settings-synergy.md) control.
 
-Both methods affect the layer properties directly, but also can be overridden by the bank element, depending on your preferred result, as discussed on the [Preview](../quick-start/preview) page.
+Both methods affect the layer properties directly, but also can be overridden by the bank element, depending on your preferred result, as discussed on the [Preview](../quick-start/preview.md) page.
 
 ## Playback
 
@@ -85,7 +85,7 @@ This area will show the surface mix of all the layers together.
 
 ![Prism Play Bar](/prismdocs/images/zero-prism-playbar.png)
 
-Similar to **Prism Player**'s media player [play bar](../../player/play/mediaplayer#play-bar), the standard play controls are available.   
+Similar to **Prism Player**'s media player [play bar](../../player/play/mediaplayer.md#play-bar), the standard play controls are available.   
 In Prism the playbar will activate once a layer is selected, as this serve a purpose of controlling the layer playback.
 
 Hover the mouse over the bar and a seeking indicator will appear for you to drag.
@@ -96,7 +96,7 @@ Toggling the <Keys.PrismKey>Trim</Keys.PrismKey> icon reveals the trim feature.
 
 ![Prism Trim Bar](/prismdocs/images/zero-prism-trimbar.png)
 
-The trim is set on the layer properties, but can also be override by the bank element via the [Preview](../quick-start/preview) Window.  
+The trim is set on the layer properties, but can also be override by the bank element via the [Preview](../quick-start/preview.md) Window.  
 Moving the sliders will set the Trim In and Trim Out points.  
 Clicking on the <Keys.PrismKey>Trim</Keys.PrismKey> icon will confirm the newly set trim points.  
 Clicking on the <Keys.PrismKey>Cancel</Keys.PrismKey> icon will cancel the changes to reset back to the previously set trim points.

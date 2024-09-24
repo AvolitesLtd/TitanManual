@@ -8,9 +8,9 @@ import Keys from '@site/src/components/key.ts';
 
 **Prism Player**'s user interface is organized into three main sections:
 
-- [Main Menu](./navigation#header-menu)
-- [View Tabs](./navigation#view-tabs)
-- [Status Bar](./navigation#status-bar)
+- [Main Menu](#header-menu)
+- [View Tabs](#view-tabs)
+- [Status Bar](#status-bar)
 
 ## Main Menu
 ![Prism Player File Menu Open Recent](/prismdocs/images/navigation/player-header-menu.png)
@@ -18,7 +18,7 @@ import Keys from '@site/src/components/key.ts';
 In this section it is possible to navigate the application menu, see the Project name and minimize, maximize or close the user interface.
 
 ### App Logo
-Clicking on Prism Player logo will hide all [View Tabs](./navigation#view-tabs) showing the selected **Surface** in fullscreen.
+Clicking on Prism Player logo will hide all [View Tabs](#view-tabs) showing the selected **Surface** in fullscreen.
 
 ### File
 
@@ -32,18 +32,18 @@ Clicking on Prism Player logo will hide all [View Tabs](./navigation#view-tabs) 
 | Open | Open a project file. |
 | Open Recent | Select to open from a list of previous projects. |
 
-More information found at [Projects Management](../quick-start/projects-management) 
+More information found at [Projects Management](./projects-management.md) 
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
 | Import |  Imports either a **Bank** or **Encodelist**. |
 | Export   | Exports either a **Bank** or **Encodelist**. |
 
-More information found at [Import/Export](../quick-start/import-export)
+More information found at [Import/Export](./import-export.md)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
-| Settings |  Navigates to the [Settings](../settings) View.|
+| Settings |  Navigates to the [Settings](../settings/settings.md) View.|
 
 ### Edit
 
@@ -66,7 +66,7 @@ More information found at [Import/Export](../quick-start/import-export)
 
 |  Menu Item   |   Description   |
 |--------------|-----------------|
-| Audio Device | Set the audio device for **Prism Player** to output to, the same setting can configured on the [settings](../settings/settings-general#audio). |
+| Audio Device | Set the audio device for **Prism Player** to output to, the same setting can configured on the [settings](../settings/settings-general.md#audio). |
 
 ### Video
 ![Prism Player Header Video Menu](/prismdocs/images/navigation/player-header-video.png)
@@ -90,9 +90,9 @@ More information found at [Import/Export](../quick-start/import-export)
 ![Prism Player File Menu Open Recent](/prismdocs/images/navigation/view-tabs.png)
 
 In this section it is possible to navigate the following app **Views**:
-- [Play](../play)
-- [Encoder](../encoder)
-- [Settings](../settings)
+- [Play](../play/play.md)
+- [Encoder](../encoder/encoder.md)
+- [Settings](../settings/settings.md)
 An underline will give visual feedback of the selected **View**.
 
 ## Status Bar
@@ -101,6 +101,6 @@ This bar shows the following app informations at a glance.
 
 ![Prism Player Status Bar Left](/prismdocs/images/navigation/player-status-bar.png)
 
-- App performance metrics - The full performance metrics are shown in [Settings System Info](../settings/settings-system-info)
+- App performance metrics - The full performance metrics are shown in [Settings System Info](../settings/settings-system-info.md)
 - Prism Player release version
 - User interface connection status led - red when disconnected, green when connected to the server.

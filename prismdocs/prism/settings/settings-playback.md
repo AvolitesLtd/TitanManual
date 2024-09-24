@@ -7,10 +7,12 @@ sidebar_label: Playback
 This page shows the settings for the playback of media files.
 
 ![Settings Playback](/prismdocs/images/prism-settings-playback.png)
+
 There are three sections:
 - **[Playback](#playback)** - These options will give control over the media player.
 - **[Hardware Accelerated Decoding (H.264/H.265)](#hardware-accelerated-decoding-h264h265)** - These options will give control over the media files decoding using H.264 and H.265 codecs.
 - **[Renderer](#renderer)** - These options will give control over the renderer engine.
+
 ### Playback
 
 | Feature | Description |
