@@ -29,7 +29,7 @@ want the workspace, press the appropriate button and the window will open on tha
 
 The <Keys.HardKey>Open/View</Keys.HardKey> button is labelled differently on some consoles: 
 
-- Diamond 9: <Keys.HardKey>View</Keys.HardKey>. There's an additional <Keys.HardKey>Open</Keys.HardKey> button which is the same as double pressing <Keys.HardKey>View</Keys.HardKey>.
+- Diamond 9 / Diamond 7: <Keys.HardKey>View</Keys.HardKey>. There's an additional <Keys.HardKey>Open</Keys.HardKey> button which is the same as double pressing <Keys.HardKey>View</Keys.HardKey>.
 
 - Quartz, Titan Mobile: <Keys.HardKey>Open</Keys.HardKey>
 
@@ -117,7 +117,7 @@ On all consoles apart from Sapphire Touch and Titan Go, **context menu
 buttons** appear which contain useful functions for the current
 active window and change depending on the window. 
 
-On Diamond 9 the context menu buttons are in the top left hand corner of the right
+On Diamond 9 and Diamond 7 the context menu buttons are in the top left hand corner of the right
 hand screen - on all other consoles they are below the prompt area on the top right 
 of the main screen. 
 The picture below gives an example of
@@ -158,7 +158,7 @@ You can save workspace layouts, allowing you to reconfigure either all the windo
 screen, or all the windows on all the screens, at the touch of a button.
 
 Workspace layouts are saved to the Workspaces touch buttons to the left
-of the A-G menu buttons and above the wheel displays (except on Diamond 9, Sapphire Touch and Titan Go where
+of the A-G menu buttons and above the wheel displays (except on Diamond 9, Diamond 7,  Sapphire Touch and Titan Go where
 they are on the left side of the screen).
 
 ![Workspaces](/docs/images/Recoding-a-Workspace-Layout.png)
@@ -206,6 +206,7 @@ will behave if you load more windows, and to be able to target particular window
 > **Screen numbering**  <br/>
 On consoles with a single internal screen, that is (1) and the external screen is (2). <br/>
 On Diamond 9 the right main screen is (1), middle is (2), left (not D9-215) is (3), Editor screen is (4), Video preview screens are (7) (6) (5), external screens are left=(9) and right=(8).<br/>
+On Diamond 7 the right main screen is (1), middle is (2), left (not D7-215) is (3).<br/>
 On Arena the main screen is (1), the mini screen (2) and the external screen (3). <br/>
 On Sapphire Touch the right main screen is (1), the left main screen is (2) and the external screens are (3) and (4).
 
@@ -275,7 +276,7 @@ button at a glance. Select the <Keys.SoftKey>Halo</Keys.SoftKey> option on the S
 
 If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help identify different types of fixture, which is also used in the patch window.
 
-On the Diamond 9, the halo colour set on playbacks is used in the level bargraph lighting and the playback indicator.
+On the Diamond 9 and Diamond 7, the halo colour set on playbacks is used in the level bargraph lighting and the playback indicator.
 
 
 ## Touch Keyboard

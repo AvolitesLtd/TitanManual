@@ -144,7 +144,7 @@ You can set a legend for each fixture or dimmer you've patched which is
 displayed in the touch button. This can be really useful to help you
 identify the fixture.
 
-1. Press <Keys.HardKey>Legend</Keys.HardKey> (D9 only) or on the main menu press softkey <Keys.SoftKey>Set Legend</Keys.SoftKey>.
+1. Press <Keys.HardKey>Legend</Keys.HardKey> (D9/D7 only) or on the main menu press softkey <Keys.SoftKey>Set Legend</Keys.SoftKey>.
 2. Press the Select button for the fixture you want to legend.
 3. Type the legend on the keyboard.
 4. Press <Keys.HardKey>Enter</Keys.HardKey> when you have finished.

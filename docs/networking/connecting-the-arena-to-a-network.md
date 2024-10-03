@@ -4,11 +4,11 @@ title: Connecting the Diamond 9 or Arena to a network
 sidebar_label: Connecting the Diamond 9 or Arena to a network
 ---
 
-The Diamond 9 and Arena consoles are different to the other Titan consoles because they
-have a built-in network switch and an optical network connection.  **This section applies only to the Diamond 9 and 
+The Diamond 9, Diamond 7 and Arena consoles are different to the other Titan consoles because they
+have a built-in network switch and (for D9 and Arena) an optical network connection.  **This section applies only to the Diamond 9, Diamond 7 and 
 Arena consoles.**
 
-## Optical Connections
+## Optical Connections (D9 and Arena)
 
 The optical network connector is a Neutrik opticalCON which uses
 multimode fibre. On the Arena the connector is a Duo, a single connector is fitted as standard, but a second
@@ -22,7 +22,7 @@ different optical switch you should contact Avolites for advice.
 
 ## Wired Ethernet Outputs
 
-The Diamond 9 console has an in-built 1Gb Luminex network switch; the 
+The Diamond 9 and Diamond 7 consoles have an in-built 1Gb Luminex network switch; the 
 Arena console has an in-built 1Gb TitanNet switch (TNS). These are
 directly connected to the console Main board on network connection 1.
 The network switch has 4 ports available on the back of the console.
