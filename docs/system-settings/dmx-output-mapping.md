@@ -13,7 +13,7 @@ over Ethernet.
 All consoles can control up to 64 universes except **T1** which is limited to
 one single universe (fixed at universe 1), **T2** to two universes (fixed at universes 1-2) and **T3** to sixteen universes (fixed at universes 1-16 - expandable with optional extra licence).
 
-The console itself will generate DMX output for up to 16 universes, above that you can network the console to one
+The console itself will generate DMX output for up to 16 universes (32 for D7), above that you can network the console to one
 or more [Avolites TitanNet Processing (TNP) nodes](../titan-net.md). This off-loads the DMX
 processing, allowing the console to control up to 64 universes of DMX in
 total (a TNP will not increase the number of universes available from T1 / T2 / T3).
