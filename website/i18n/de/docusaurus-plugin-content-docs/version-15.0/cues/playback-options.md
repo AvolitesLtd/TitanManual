@@ -46,7 +46,7 @@ den global gültigen Wert zurück.
 
 ## Playback Options -- Tab "Playback"
 
-![Playback Options showing playback tab](/docs/images/Playback-Options-Chase-Playback-Tab.png)
+![Playback Options showing playback tab](/docs/images/Playback-Options-Playback-Tab.png)
 
 ### Blind
 Schaltet das jeweilige Playback in den **Blind**-Modus. Damit
@@ -81,7 +81,7 @@ Priorität des 'Spot'-Cues höher, so werden die dafür verwendeten Geräte
 von den anderen Cues nicht beeinflusst.
 
 
-> Priorisierung ist etwa hilfreich, wenn mit Swop-Tasten ein Strobe programmiert werden soll, das solange alle anderen Cues ausblendet. Wenn z.B. ein Positions-Shape läuft, so soll der natürlich nicht stoppen, da sonst ggf. alles ‚durcheinander' aussieht. Entsprechend empfiehlt es sich, das Playback mit dem Shape auf eine höhere Priorität zu setzen, so dass es vom Swop nicht ausgeblendet wird.
+> Priorisierung ist etwa hilfreich, wenn mit **Swop**-Tasten ein Strobe programmiert werden soll, das solange alle anderen Cues ausblendet. Wenn z.B. ein Positions-Shape läuft, so soll der natürlich nicht stoppen, da sonst ggf. alles ‚durcheinander' aussieht. Entsprechend empfiehlt es sich, das Playback mit dem Shape auf eine höhere Priorität zu setzen, so dass es vom Swop nicht ausgeblendet wird.
 
 Wird manuell eine Palette aufgerufen, so haben deren Werte eine
 höhere Priorität als Werte in Cues, außer in solchen mit der Priorität 'Very High'.
@@ -120,8 +120,8 @@ Ein- und Ausfadezeit beim Flashen
 per Flash-Taste. Vorgabewerte sind *'AsIn'* und *'AsOut'*, also die normalen
 Ein-/Ausfadezeiten für den Cue. Hiermit lassen sich wenn gewünscht
 andere Flash-Fadezeiten als Fadezeiten für den Fader einstellen.
-*Voraussetzung dafür ist das [Tastenprofile/Key Profile](../system-settings/key-profiles.md) **Timed
-Flash***.
+*Voraussetzung dafür ist das [Tastenprofil/Key Profile](../system-settings/key-profiles.md) **Timed
+Flash** &nbsp;*.
 
 ### Speed
 Vorgabe-Tempo für Effekte in diesem Cue. Kann durch
@@ -140,7 +140,7 @@ Bestimmt die genaue Arbeitsweise des Faders.
 
 Einstellung | Ergebnis
 ------: | ------
-Mode 0 | die Kanäle blenden in der vorgegebenen Zeit über, die Ausblendzeit wird dabei ignoriert. Stehen die Zeiten auf '0', so werden HTP-Kanäle direkt mit dem Fader eingeblendet, während LTP-Kanäle 'hart' umschalten.
+**Mode 0** | die Kanäle blenden in der vorgegebenen Zeit über, die Ausblendzeit wird dabei ignoriert. Stehen die Zeiten auf '0', so werden HTP-Kanäle direkt mit dem Fader eingeblendet, während LTP-Kanäle 'hart' umschalten.
 Mode 1 | die Kanäle blenden in der vorgegebenen Zeit ein, HTP Kanäle blenden in der vorgegebenen Ausblendzeit aus (LTP-Kanäle behalten ihre Werte). Stehen die Zeiten auf '0', so werden HTP-Kanäle direkt mit dem Fader eingeblendet, während LTP-Kanäle 'hart' umschalten..
 Mode 2 | sowohl HTP- als auch LTP-Werte folgen dem Faderwert. *Sinnvoll z.B. zur Anwendung mit Pan und Tilt etwa auf einem Catwalk oder zur manuellen Steuerung der Farben bei RGB-Lampen.*
 Mode 3 | Crossfade (Überblendung). Sämtliche Kanäle, einschließlich der Helligkeit, blenden zu den Einstellungen des neuen Cues über, alle anderen noch aktiven Cues werden ausgeblendet und deaktiviert. Wird eine anderer Cue wieder benötigt, so bringen Sie dessen Regler auf '0' und dann wieder auf den gewünschten Wert. *Sinnvoll z.B. für eine Präsentationsstimmung, mit der alle anderen Playbacks ausgefadet werden.*
@@ -152,6 +152,15 @@ Die gleiche Einstellung wie im [<Keys.SoftKey>Edit Times</Keys.SoftKey>](cue-tim
 ### Curve
 Bestimmt den Verlauf der Änderungen der Attribute, wenn der
 Cue eingeblendet wird. Die verschiedenen Kurven sind [Curves](../system-settings/curves.md) näher beschrieben.
+
+### Kill Point
+Legt fest, wann der Cue released wird und die LTP-Attribute zum vorigen Wert zurückkehren. Normalerweise erfolgt das, 
+wenn alle Fadezeiten abgelaufen sind, so dass keine Änderung erfolgt, bevor der Dimmer aus ist.
+
+Einstellung | Ergebnis
+------: | ------
+**Fade Out Complete** | Cue wird deaktiviert, sobald alle Fadezeiten vorbei sind.
+Fader at 0 | Cue wird deaktiviert, sobald der Fader auf 0 ist.
 
 ---
 
@@ -215,18 +224,19 @@ Normalerweise bleiben Werte von LTP-Kanälen erhalten, auch wenn der Cue
 deaktiviert wird. Mitunter ist dies aber nicht gewünscht, z.B. bei einem
 Strobe-Cue.
 
-Die Maske kann auf Global oder Lokal gestellt werden. Mit 'Lokal' lassen
-sich Einstellungen nur für diesen Cue vornehmen, während 'Global' der
-Bezug auf die globale Release-Maske **Release-Menü** ist
-(drücken Sie dazu <Keys.HardKey>Release</Keys.HardKey>).
+Klicken Sie auf den <Keys.ContextKey>Global</Keys.ContextKey> Button, um auf <Keys.ContextKey>Local</Keys.ContextKey> 
+umzuschalten, und wählen Sie dann die gewünschten Attribute aus (mit den Menütasten oder den Buttons der 
+Attributgruppen).
 
-> Mit der Release-Maske lässt sich z.B. ein temporärer ('flashbarer') Strobe-Effekt programmieren. Drücken Sie <Keys.SoftKey>Release Mask</Keys.SoftKey>, und stellen Sie Intensity auf 'Include'. Wird nun das Playback ausgeblendet, kehrt der Shutter zum vorigen Wert zurück, und das Strobe stoppt. 
+'Global' verwendet die [Globale Release-Maske](../cues/cue-playback.md#global-release-mask).
 
-Per [Tastenprofil/Key Profile](../system-settings/key-profiles.md) lässt sich die graue/blaue Taste mit der Funktion ‚Release' belegen.
+> Mit der Release-Maske lässt sich z.B. ein temporärer ('flashbarer') Strobe-Effekt programmieren. Stellen Sie **Mask** auf **Local** und **Intensity** auf **Include**. Wird nun das Playback deaktiviert, kehrt der Shutter zum vorigen Wert zurück, und das Strobe stoppt. 
+
+Per [Tastenprofil/Key Profile](../system-settings/key-profiles.md) lässt sich eine der Tasten mit der Funktion ‚Release' belegen.
 
 ### Release Time
 Zum Einstellen der Zeit für das Releasen; in dieser
 Zeit werden die Attribute zum vorherigen Wert übergeblendet. Wird die
-Zeit komplett gelöscht, so wechselt der Eintrag auf Global (die in den
+Zeit komplett gelöscht, so wechselt der Eintrag auf *Global* (die in den
 [Benutzereinstellungen](../system-settings/user-settings.md) eingestellte [globale Release-Zeit](../system-settings/user-settings.md#master-release-time)).
 

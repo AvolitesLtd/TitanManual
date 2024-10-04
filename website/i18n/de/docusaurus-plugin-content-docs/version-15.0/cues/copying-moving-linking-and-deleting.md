@@ -21,23 +21,20 @@ der originale Cue, können aber individuelle [Zeiten](cue-timing.md) und
 [Optionen](playback-options.md) zugewiesen bekommen.
 
 1. Drücken Sie die Taste <Keys.HardKey>Copy</Keys.HardKey>.
-
 2. Zum Anlegen einer Verknüpfung drücken Sie nochmals auf <Keys.HardKey>Copy</Keys.HardKey> oder wählen
 die Menütaste <Keys.SoftKey>Link</Keys.SoftKey>.
-
 3. Drücken Sie die **Auswahltaste** des Cues, den Sie kopieren möchten.
 Sie können eine Reihe von Cues auswählen, indem Sie die Taste des ersten
 gedrückt halten und die Taste des letzten dazu betätigen. Ebenso können
 mit <Keys.HardKey>Thro</Keys.HardKey> und <Keys.HardKey>And</Keys.HardKey> mehrere Cues auf einmal ausgewählt werden (ggf.
 <Keys.HardKey>And</Keys.HardKey> gedrückt halten).
-
 4. Drücken Sie eine unbelegte **Auswahltaste**, zu der der Cue
 kopiert/verknüpft werden soll; werden mehrere Playbacks kopiert, so werden 
 diese ab dort auf die folgenden freien Plätze eingefügt.
 
 ---
 
--   Die Taste <Keys.HardKey>Menu Latch</Keys.HardKey> fixiert das Menü 'Copy', so dass
+-   Die Taste <Keys.HardKey>Menu Latch</Keys.HardKey> fixiert das Menü **Copy**, so dass
     man bei wiederholtem Kopieren die Taste <Keys.HardKey>Copy</Keys.HardKey> nicht
     erneut betätigen muss. Zum Freigeben des Menüs drücken Sie
     nochmals <Keys.HardKey>Menu Latch</Keys.HardKey>, zum Verlassen drücken Sie <Keys.HardKey>Exit</Keys.HardKey>.
@@ -78,21 +75,19 @@ auf einmal aus. Und mit <Keys.HardKey>Menu Latch</Keys.HardKey> kann auch das **
 Um einen Cue zu löschen:
 
 1. Drücken Sie die <Keys.HardKey>Delete</Keys.HardKey>-Taste.
-
-2. Betätigen Sie die **Swop-Taste** des zu löschenden Cues.
-
-3. Drücken Sie die **Swop-Taste** zur Bestätigung nochmals (oder
+2. Betätigen Sie die **Auswahltaste** des zu löschenden Cues.
+3. Drücken Sie die **Auswahltaste** zur Bestätigung nochmals (oder
 bestätigen Sie mit <Keys.HardKey>Enter</Keys.HardKey>).
 
 ---
 
--   Statt einen Cue zu löschen, kann man diesen auch mit der Option
-    <Keys.SoftKey>Unassign</Keys.SoftKey> im Delete-Menü 'unbelegen' (unassign). Damit wird der
+-   Statt einen Cue zu löschen, kann man diesen auch mit der Option <Keys.SoftKey>Unassign</Keys.SoftKey> im 
+    Delete-Menü 'unbelegen' (unassign). Damit wird der
     Cue von der jeweiligen Schaltfläche/Fader/Taste entfernt, bleibt
     aber im [Show-Verzeichnis](../titan-basics/show-library.md) erhalten und kann später wieder verwendet werden.
 
 -   Verwenden Sie die Taste <Keys.HardKey>Menu Latch</Keys.HardKey>, um den Löschmodus aktiv zu
-    lassen, so können Sie mittels Schritt 2 und 3 weitere Cues löschen,
+    lassen, so können Sie mittels **Schritt 2 und 3** weitere Cues löschen,
     ohne jeweils die <Keys.HardKey>Delete</Keys.HardKey>-Taste betätigen zu müssen. Zum Freigeben
     des Menüs drücken Sie nochmals <Keys.HardKey>Latch Menu</Keys.HardKey>, zum Verlassen drücken
     Sie <Keys.HardKey>Exit</Keys.HardKey>.

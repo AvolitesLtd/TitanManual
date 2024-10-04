@@ -9,7 +9,7 @@ import Video from '@site/src/components/video.tsx';
 
 ## Arbeitsweise des Pultes beim Programmieren
 Sobald ein oder mehrere Dimmer/Geräte zum Steuern ausgewählt werden,
-werden diese in den **<em>Programmer</em>** geladen. Nun lassen sich mit den [Encodern (Wheels)](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern) und
+werden diese in den **Programmer** geladen. Nun lassen sich mit den [Encodern (Wheels)](../controlling-fixtures/changing-fixture-attributes#einstellen-von-attributen-mit-den-encodern) und
 [Paletten](../palettes.md) die Einstellungen der Geräte verändern; ebenso lassen sich
 [Effekte](../effects.md) anwenden. Alle so vorgenommenen Änderungen werden im Programmer gespeichert.
 
@@ -33,8 +33,8 @@ Druck auf die <Keys.HardKey>Clear</Keys.HardKey>-Taste, da sämtliche Attribute 
 Programmierspeicher die Einstellungen der Playbacks sonst überlagern.
 
 Geräte, die aktuell im Programmspeicher sind, werden auf den
-[Geräte-Schaltflächen](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) in einem mittleren Blau dargestellt. Attribute im
-Programmierer (also die geänderten Einstellungen) werden [in der Attribut-Anzeige](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern)
+[Geräte-Schaltflächen](../controlling-fixtures.md#dimmer-und-geräte-zum-steuern-auswählen) in einem mittleren Blau dargestellt. Attribute im
+Programmierer (also die geänderten Einstellungen) werden [in der Attribut-Anzeige](../controlling-fixtures/changing-fixture-attributes.md#einstellen-von-attributen-mit-den-encodern)
 in Cyan dargestellt.
 
 Beim Abrufen eines Cues werden dessen Werte nicht in den
@@ -46,7 +46,7 @@ Programmierspeicher übernommen *(das lässt sich jedoch durch die
 
 <Video videoId="X5g6DMVwlZU" title="Creating a Cue" />
 
-1. Drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, um den Programmierspeicher zu leeren.\
+1. Drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, um den Programmierspeicher zu leeren.
 *Damit wird eine saubere Arbeitsumgebung sichergestellt.*
 
 2. Stellen Sie das gewünschte Bild ein. Dabei können auch Shapes
@@ -54,7 +54,7 @@ verwendet werden. Bedenken Sie, dass nur die von Ihnen angewählten
 Geräte bzw. veränderten Attribute im Cue gespeichert werden (je nach
 Speichermodus).
 
-3. Betätigen Sie die Taste <Keys.HardKey>Record</Keys.HardKey> *(<Keys.HardKey>Record Cue</Keys.HardKey> auf älteren Pulten)*.
+3. Betätigen Sie die Taste <Keys.HardKey>Record</Keys.HardKey>.
 
 4. Drücken Sie die **Swop-Taste** eines freien Playbacks; freie
 Speicherplätze werden durch blinkende LEDs angezeigt. Ebenso lässt
