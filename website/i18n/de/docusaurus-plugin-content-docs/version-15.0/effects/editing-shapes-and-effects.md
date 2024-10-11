@@ -66,16 +66,11 @@ steuernde mit Taste <Keys.SoftKey>Edit</Keys.SoftKey> auswählen.
 
 1. Wenn das Shape-Menü noch nicht aktiv ist, so öffnen Sie es mit \[Shapes and
 Effects\], dann <Keys.SoftKey>Shape Generator</Keys.SoftKey> aus dem Hauptmenü.
-
 2. Drücken Sie <Keys.SoftKey>Edit</Keys.SoftKey>.
-
 3. Drücken Sie <Keys.SoftKey>Select shape</Keys.SoftKey>.
-
 4. Bei den Menütasten erscheint eine Liste der laufenden Shapes.
-
 5. Betätigen Sie eine Taste, um den jeweiligen Shape auszuwählen. Der
 ausgewählte Shape wird hervorgehoben.
-
 6. Drücken Sie <Keys.HardKey>Enter</Keys.HardKey>, um zum Shape Generator-Menü zurückzukehren.
 
 >   Läuft ein Shape mehrfach auf verschiedenen Geräten, so lässt sich

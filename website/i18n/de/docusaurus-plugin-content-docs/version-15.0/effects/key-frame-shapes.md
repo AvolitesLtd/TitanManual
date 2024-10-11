@@ -37,29 +37,21 @@ die Palette, so ändert sich auch der Shape.
 
 1. Im Hauptmenü drücken Sie <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, dann \[Key Frame
 Shapes\].
-
-
 2. Klicken Sie auf <Keys.SoftKey>Create</Keys.SoftKey>, um einen neuen Keyframe-Shape zu
 beginnen.
-
-3. [Wählen Sie die gewünschten Geräte](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen) und stellen Sie die Farben für den ersten
+3. [Wählen Sie die gewünschten Geräte](../controlling-fixtures.md#dimmer-und-geräte-zum-steuern-auswählen) und stellen Sie die Farben für den ersten
 Keyframe ein.
-
 4. Klicken Sie auf <Keys.SoftKey>Add Frame</Keys.SoftKey>. Über dem ersten Playback-Fader wird
-eine entsprechende Legende angezeigt *(schalten Sie dies mit \[Playbacks
-Display Visible/Hidden\] ab, falls Sie das nicht wünschen oder z.B. im
-Quick Build-Modus ein Playback auswählen möchten)*.\
+eine entsprechende Legende angezeigt *(schalten Sie dies mit <Keys.SoftKey>Playbacks
+Display Visible/Hidden</Keys.SoftKey> ab, falls Sie das nicht wünschen oder z.B. im
+Quick Build-Modus ein Playback auswählen möchten)*.<br/>
 ![Key Frame Shape - creating an effect with colour key frames](/docs/images/Key-Frame-Shape-creating-an-effect-with-colour-key-frames.png)
-
 5. Fügen Sie Schritte mit anderen Farben hinzu (jeweils mit \[Add
 Frame\], bis alle gewünschten Schritte erstellt wurden.
-
 6. Wenn Sie fertig sind, klicken Sie auf <Keys.SoftKey>Finish Recording Frames</Keys.SoftKey>.
-
 7. Im Effekt-Editor können Sie die Übergänge, die Überlappung und die
 Verteilung auf mehrere Geräte (Spread) einstellen, siehe nachfolgendes
 Bild.
-
 8. [Speichern Sie den Shape in einen Cue](#einen-keyframe-shape-in-einen-cue-speichern), um ihn später zu verwenden.
 
 ---
@@ -77,7 +69,7 @@ Bild.
     Schaltfläche <Keys.ContextKey>Sonne</Keys.ContextKey> locaten.
 	
 ## Ändern von Shape-Parametern im Effekt-Editor
-
+Siegen
 Ist ein Keyframe-Shape komplett erstellt, so wird er im Effekt-Editor
 angezeigt.
 
@@ -90,7 +82,7 @@ Geräte).
 
 Mit dem **Auge** oben links werden alle gerade angezeigten Shapes
 *eingeklappt*, so dass man sich nur einzelne Shapes zum Bearbeiten
-ausklappen kann, wenn mehrere Shapes laufen. Mit **Button mit dem
+ausklappen kann, wenn mehrere Shapes laufen. Mit dem **Button mit dem
 Movinglight** lässt sich die Auswahl der Geräte, auf denen der 
 Keyframe-Shape läuft, verändern.
 
@@ -126,11 +118,12 @@ Verhältnis zueinander steuern.
 den numerischen Wert, so kann man entweder einen anderen 
 Wert eingeben oder mit <Keys.SoftKey>Reset to default value</Keys.SoftKey> auf den Vorgabewert 
 zurückschalten. Außerdem wird dabei der 'Beats per Cycle'-Wert mit dem
-Encoder A verknüpft, so dass man diesen schnell ändern kann.\
+Encoder A verknüpft, so dass man diesen schnell ändern kann.
+
 Wählt man die Option <Keys.SoftKey>Spread</Keys.SoftKey>, so wird der Beats-per-Cycle-Wert
 an den Spread gebunden. Das ist oft bei Dimmer- und Bewegungs-Shapes 
-gewünscht.\
-Mit <Keys.SoftKey>Keyframes</Keys.SoftKey> schließlich wird pro Beat ein Keyframe weitergeschaltet.\
+gewünscht.<br/>
+Mit <Keys.SoftKey>Keyframes</Keys.SoftKey> schließlich wird pro Beat ein Keyframe weitergeschaltet.
 Jeder einzelne Keyframe-Shape und jeder einzelne Layer hat seine 
 individuellen **Beats per Cycle**-Einstellungen. 
 
@@ -141,6 +134,10 @@ oder für den ganzen Keyframe-Shape bzw. alle Layer in diesem), so läuft
 der Shape nur die vorgegebene Anzahl von Zyklen und hält dann an. *So
 kann man also für jeden Layer einzeln einstellen, wie oft der Effekt
 laufen soll*.
+
+Keyframe-Shape können auf **Subfixtures** (Zellen) laufen. Dies ist normalerweise <Keys.SoftKey>Off</Keys.SoftKey>
+(abgeschaltet), man kann es aktivieren mit <Keys.SoftKey>On (Group)</Keys.SoftKey>, wobei das [Layout der Gruppe](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) berücksichtigt wird, oder mit <Keys.SoftKey>On (Linear)</Keys.SoftKey>, wobei das Layout ignoriert wird und die Zellen einfach in numerischer Reihenfolge angesteuert werden.
+
 
 Mit der Einstellung <Keys.SoftKey>Phase Master</Keys.SoftKey> kann die Phase eines Shapes durch
 die Intensität eines Videolayers (eines Ai-Servers) gesteuert werden,
@@ -245,7 +242,9 @@ das Verhalten der Keyframe-Shapes einstellen:\
     'Priority=High' oder höher, verhindert man das Überschreiben durch
     Quick Palettes. Ebenso kann man 'Priority=Very High' wählen und
     damit verhindern, dass der Inhalt des Programmers den Key Frame
-    Shape überschreibt (Details zur Priorität siehe [Priority](../cues/playback-options.md#priority)).
+    Shape überschreibt.
+	
+	Details zur Priorität siehe [Priority](../cues/playback-options.md#priority).
 
 Zum Verhalten von Keyframe-Shapes in Cuelisten siehe
 [Shape-Tracking in Cuelisten](../cue-lists/creating-a-cue-list.md#tracking-von-shapes-in-cuelisten).

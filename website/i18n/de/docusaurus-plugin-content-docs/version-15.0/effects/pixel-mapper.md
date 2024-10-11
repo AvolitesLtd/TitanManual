@@ -23,10 +23,7 @@ Ist das Layout entsprechend eingerichtet, können Sie mit dem Pixelmapper
 wie folgt arbeiten:
 
 1. Wählen Sie die gewünschte Gerätegruppe aus.
-
-2. Im Hauptmenü wählen Sie <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> und darauf \[Pixel
-Mapper\].
-
+2. Im Hauptmenü wählen Sie <Keys.SoftKey>Shapes and Effects</Keys.SoftKey> und darauf <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>.
 3. Wählen Sie <Keys.SoftKey>Create effect</Keys.SoftKey>. Damit öffnet sich der Pixel Mapper
 Editor mit einem schwarzen Hintergrund. Wahlweise kann das Gerätelayout
 mit angezeigt werden, um genauer arbeiten zu können. Klicken Sie dazu im
@@ -42,23 +39,14 @@ bereits erzeugter Elemente wählen Sie diese aus und klicken auf den <Keys.Conte
 Es stehen folgende Elemente zur Verfügung:
 
 -   Quadrat
-
 -   Kreis
-
 -   Dreieck
-
 -   Stern
-
 -   Propeller (Fan)
-
 -   Spirale
-
 -   Text
-
 -   Zeichnen *(man kann auf dem Touchscreen zeichnen)*
-
 -   Bild aus Datei *(von der Festplatte oder einem USB-Stick)*
-
 -   [Content eines Synergy-Ai-Servers](../synergy/operating-synergy.md#lightmap-pixelmapping-mit-ai)
 
 ![Effect Editor - Pixel Mapper - Adding an Element](/docs/images/Effect-Editor-Pixel-Mapper-Adding-an-Element.png)
@@ -94,21 +82,13 @@ Available animations are:
 Folgende Animationen stehen zur Verfügung:
 
 -   Rotation
-
 -   Verschieben (lineare Bewegung)
-
 -   Zoom
-
 -   Einblenden/Fade (Opacity)
-
 -   Zufall/Random
-
 -   Grid Fit *(genaues Einpassen der Elemente in das Raster)*
-
 -   Linearer Verlauf
-
 -   Radialer Verlauf
-
 -   Motion Blur *(Bewegungsunschärfe)*
 
 Eine Animation kann das jeweilige Element verschieben oder anderweitig
@@ -120,28 +100,20 @@ auf deren Namen klicken. Abhängig vom Effekt werden verschiedene
 Schieberegler eingeblendet:
 
 - Speed *(Geschwindigkeit)*
-
 - Speed Random *(Zufälligkeit der Bewegung)*
-
 - Spawn Rate *(Häufigkeit neuer Kopien des Elements)*
-
 - Spawn Random *(Zufälligkeit neuer Kopien)*
-
 - Spawn For *(Maximalwert neuer Kopien des Elements)*
-
 - Run For / And Then *(Anzahl der Effekt-Durchläufe und bestimmen, ob
 danach gestoppt oder auch der Effekt deaktiviert werden soll - freeze
 oder kill)*
-
 - Direction / Direction Random *(Richtung und Zufälligkeit der Richtung -
 nur bei Bewegungen)*
-
 - Start Angle / End Angle *(Start/Endwert, nur bei Rotation)*
 
 Ein paar Tipps zu den Animationen:
 
--   Für das Einpassen ins Raster (**Grid Fit**) ist die Anzahl von Zeilen
-    und Spalten anzugeben.
+-   Für das Einpassen ins Raster (**Grid Fit**) ist die Anzahl von Zeilen und Spalten anzugeben.
 
 -   Für die **Verlaufs-Animation** stellen Sie den Start- und Endwert
     sowie den Versatz dazwischen ein. Mit Spread wählen Sie die
@@ -149,10 +121,11 @@ Ein paar Tipps zu den Animationen:
     ist ein Verlauf, der sich immer auf- und abbaut. Repeat schließlich
     ist eine Wiederholung in immer nur einer Richtung).
 
--   Gibt man einen Wert für <Keys.SoftKey>Spawn For</Keys.SoftKey> oder <Keys.SoftKey>Run For</Keys.SoftKey> ein, so
+-   Gibt man einen Wert für **Spawn For** oder **Run For** ein, so
     stoppt die Animation nach der entsprechenden Anzahl von Zyklen. Um
     sie wieder zu starten, betätigen Sie den **Reset-Knopf** oben rechts im
-    Fenster des Effekt-Editors.\
+    Fenster des Effekt-Editors.
+	
     ![Effect Editor - Pixel Mapper - Reset Button](/docs/images/Effect-Editor-Pixel-Mapper-Reset-Button.png)
 
 -   Für Effekte mit **Start** und **Endpunkt** bestimmt <Keys.SoftKey>Cycles</Keys.SoftKey> die Anzahl
@@ -163,7 +136,7 @@ Ein paar Tipps zu den Animationen:
 
 Zur Vorschau, wie der Effekt später aussehen wird, öffnen Sie das
 Fenster 'Pixel Mapper Preview': drücken Sie zweimal auf 
-[<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+[<Keys.HardKey>Open / View</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
 und wählen <Keys.SoftKey>Pixel Mapper Preview</Keys.SoftKey>. Eine Vorschau der laufenden Effekte
 erscheint; unten können Sie zwischen den einzelnen Animationen
 umschalten.
@@ -182,9 +155,7 @@ gespeichert werden.
     den zu verschiebenden Layer klickt und dann unten die Schaltflächen
     'Pfeil hoch'/'Pfeil runter' bedient.
 
--   Layer, Elemente und Animationen lassen sich mit <Keys.HardKey>Copy</Keys.HardKey> und
-    <Keys.HardKey>Move</Keys.HardKey> **kopieren** und **verschieben**: drücken Sie <Keys.HardKey>Copy</Keys.HardKey> (oder
-    <Keys.HardKey>Move</Keys.HardKey>), dann das zu verschiebende/kopierende Element, und
+-   Layer, Elemente und Animationen lassen sich mit <Keys.HardKey>Copy</Keys.HardKey> und <Keys.HardKey>Move</Keys.HardKey> **kopieren** und **verschieben**: drücken Sie <Keys.HardKey>Copy</Keys.HardKey> (oder <Keys.HardKey>Move</Keys.HardKey>), dann das zu verschiebende/kopierende Element, und
     schließlich auf das gewünschte Ziel des Kopierens.
 
 ### Master-Parameter für Effekte
@@ -255,22 +226,20 @@ laufende Pixelmapper-Effekte auf einigen oder allen Geräten gestoppt werden.
 Ein Mask-Effekt wird wie folgt erzeugt:
 
 1.  Drücken Sie <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, <Keys.SoftKey>Mask FX</Keys.SoftKey>.
-
 2.	Wurden vorher keine Geräte ausgewählt, so wirkt sich der Mask-Effekt 
 	auf alle Geräte aus. Wurden dagegen Geräte angewählt, so gilt der 
 	Mask FX nur für diese.
-
 3.	Drücken Sie <Keys.SoftKey>Create Mask Pixel Map</Keys.SoftKey>. (Der Button <Keys.SoftKey>Create Mask FX</Keys.SoftKey> 
 	wirkt sich sowohl auf Pixelmapper-Effekte als auch auf Shapes aus.)
-
 4.	Der Mask FX ist sofort wirksam und stoppt laufende Pixelmapper-Effekte.
 	Speichern Sie diesen auf ein Playback, um nach Bedarf andere Effekte 
 	zu stoppen.
 	
-- 	Mit dem Button <Keys.SoftKey>Clear mask from programmer</Keys.SoftKey> werden sämtliche Mask 
-	Effekte und Mask Shapes für alle Geräte aus dem Programmer gelöscht.
+-   Mit dem Button <Keys.SoftKey>Clear mask from programmer</Keys.SoftKey> werden sämtliche Mask Effekte und Mask Shapes für alle Geräte aus dem Programmer gelöscht.
 
 -   Diese Funktion ersetzt **Block Effect** aus früheren Versionen. Shows, 
-	die noch den Block Effect enthalten, können trotzdem geladen werden und
-	funktionieren wie gewohnt, aber der Block Effect wird bereits als "Mask"
-	angezeigt.
+  die noch den Block Effect enthalten, können trotzdem geladen werden und
+  funktionieren wie gewohnt, aber der Block Effect wird bereits als "Mask"
+  angezeigt.
+  
+

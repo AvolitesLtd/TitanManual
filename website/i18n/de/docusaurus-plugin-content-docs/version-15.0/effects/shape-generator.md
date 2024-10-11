@@ -17,7 +17,7 @@ Geschwindigkeit der Bewegung beeinflussen.
 
 Shapes sind besonders eindrucksvoll, wenn die auf mehrere Geräte
 angewandt werden. Dabei kann ein Shape auf mehreren Geräte gleichzeitig
-oder aber mit einem Versatz laufen, womit man rasch z.B. Welleneffekte
+oder aber mit einem Versatz laufen (hier **Spread** oder **Phase** genannt), womit man rasch z.B. Welleneffekte
 erstellen kann.
 
 Außer Positions-Shapes gibt es eine große Anzahl weiterer Shapes. Diese
@@ -37,22 +37,17 @@ des Showablaufs. Details dazu siehe [Mask FX](shape-generator.md#masking-shapes-
 Wird ein Shape ausgewählt, so wird dieser auf die zuvor angewählten
 Geräte angewendet.
 
-1. [Wählen Sie die Geräte](../controlling-fixtures/using-the-select-buttons-and-wheels.md#dimmer-und-geräte-zum-steuern-auswählen), auf die der Shape angewendet werden soll.
-
+1. [Wählen Sie die Geräte](../controlling-fixtures.md#dimmer-und-geräte-zum-steuern-auswählen), auf die der Shape angewendet werden soll.
 2. Im Hauptmenü drücken Sie <Keys.SoftKey>Shape and Effects</Keys.SoftKey>, dann \[Shape
 Generator\].
-
 3. Klicken Sie <Keys.SoftKey>Create</Keys.SoftKey>, um einen neuen Shape zu starten.
 ![Shape Generator selecting a category of new shape](/docs/images/Shape-Generator-selecting-a-category-of-new-shape.png)
-
 4. Betätigen Sie eine <Keys.SoftKey>Menütaste</Keys.SoftKey>, um den Shape nach Attribut
 auszuwählen, oder drücken Sie <Keys.SoftKey>All Shapes</Keys.SoftKey> für eine Gesamtliste.
-
 5. Klicken Sie im **Shapes-Fenster** auf den gewünschten Shape, oder
 benutzen Sie eine <Keys.SoftKey>Menütaste</Keys.SoftKey> zur Auswahl. Ebenso kann man mit
 der Tastatur einen Suchbegriff für einen bestimmten Shape eingeben, um
 die Suche einzugrenzen.
-
 6. Der Shape wird auf die ausgewählten Geräte angewendet.
 
 ---
@@ -63,9 +58,9 @@ die Suche einzugrenzen.
     gewählten Geräte anwendbar sind. Wird ein Attribut ausgewählt, so
     wird die Liste der verfügbaren Shapes weiter verkürzt auf Shapes,
     die für dieses Attribut verfügbar sind. Zur Anzeige aller Shapes
-    wählen Sie das Attribut ‚Dimmer' aus.
-    \
-![Shapes Workspace Window](/docs/images/Shapes-Workspace-Window.png)
+    wählen Sie <Keys.HardKey>Dimmer</Keys.HardKey>.
+
+    ![Shapes Workspace Window](/docs/images/Shapes-Workspace-Window.png)
 
 -   Der Ausgangswert für einen Shape ist die jeweilige momentane
     Einstellung des Gerätes; *so wird z.B. ein Kreis-Shape um die
@@ -120,7 +115,7 @@ Spread\].
 
 -   Der linke Encoder steuert die Geschwindigkeit des Shapes.
 
--   Der mittlere Encoder steuert die Größe des Shapes. *(Pearl Expert: rechter Encoder)*
+-   Der mittlere Encoder steuert die Größe des Shapes.
 
 -   Größe und Geschwindigkeit werden im Display angezeigt.
 
@@ -156,7 +151,6 @@ Geräte-Reihenfolge innerhalb des Shape-Menüs ändern.
 
 1. Wenn der rechte Encoder nicht gerade den Spread steuert, drücken Sie
 auf <Keys.SoftKey>Adjust Speed, Size and Spread</Keys.SoftKey>
-
 2. Steuern Sie den **Spread** (die Verteilung) mit dem rechten Encoder, 
 oder betätigen Sie <Keys.SoftKey>Adjust Spread, Phase and Offset</Keys.SoftKey> und benutzen das 
 mittlere Rad, um den Geräteversatz (Phase) einzustellen *(rechtes Rad 
@@ -219,8 +213,8 @@ wird. Mit z.B. <Keys.SoftKey>Beats=4</Keys.SoftKey> lässt sich erreichen dass f
 kompletten Shape-Durchlauf 4 Beats erforderlich sind -- der Shape läuft
 langsamer.
 
-Klickt man auf den Wert des **linken Encoders** im Display oder betätigt die jeweilige
-@-Taste, so kann man die gewünschte Zahl direkt eingeben; außerdem
+Klickt man auf den Wert des **linken Encoders** im Display oder betätigt die <Keys.HardKey>@A</Keys.HardKey>-Taste, 
+so kann man die gewünschte Zahl direkt eingeben; außerdem
 werden zwei weitere Optionen angeboten: mit <Keys.SoftKey>Match to Spread</Keys.SoftKey> (an den
 Spread anpassen) wird der Beat Count auf den Spread-Wert des Shapes
 gesetzt, was vor allem bei Dimmer-Shapes sinnvoll ist. Klickt man
@@ -233,15 +227,15 @@ Vorgabewert ist Unendlich (∞), womit der Shape läuft, bis er wieder
 gestoppt wird. Ändert man dies auf eine andere Zahl, so läuft der Shape
 nur die vorgegebene Anzahl von Zyklen und hält dann an.
 
-Zum direkten Eingeben eines Zahlenwertes drücken Sie die entsprechende
-@-Taste oder klicken auf den Wert des **mittleren Encoder** im Bildschirm. 
+Zum direkten Eingeben eines Zahlenwertes drücken Sie die Taste <Keys.HardKey>@B</Keys.HardKey> oder 
+klicken auf den Wert des **mittleren Encoder** im Bildschirm. 
 Eine Eingabe von Dezimalzahlen (z.B. 1.5) sorgt dafür, dass der letzte 
 Durchlauf nur zum Teil durchgeführt wird und dann stehenbleibt.
 
 ## Verwenden von Shapes in Cues
 
 Wird ein Shape in einen Cue (auf ein Playback) gespeichert, so lässt
-sich mit den [Options](../cues/playback-options.md) des Playbacks einstellen,  
+sich mit den [Options](../cues/playback-options.md) des Playbacks einstellen, 
 dass der Fader z.B. die Größe und/oder Geschwindigkeit
 des Shapes steuert; ebenso lassen sich [Master (Size, Speed, BPM)](../running-the-show/playback-controls.md#speed--und-size-master) für die
 Steuerung verwenden. 
@@ -259,16 +253,12 @@ stoppen.
 Um einen Mask Effekt zu erzeugen, gehen Sie wie folgt vor:
 
 1.  Drücken Sie <Keys.SoftKey>Shapes und Effekte</Keys.SoftKey>, dann <Keys.SoftKey>Mask Fx</Keys.SoftKey>.
-
 2.  Die Attributbank-Buttons flashen (P, C etc.). Wählen Sie die
     Attribute, für die Shapes maskiert werden sollen.
-
 3.  Sind keine Geräte angewählt, so wirkt sich dies auf alle Geräte aus.
     Sind dagegen Geräte gewählt, so werden nur diese beeinflusst.
-
 4.  Wählen Sie <Keys.SoftKey>Create Mask Shape</Keys.SoftKey>. (Mit <Keys.SoftKey>Create Mask FX</Keys.SoftKey> lassen
     sich sowohl Shapes als auch Pixelmaps stoppen).
-
 5.  Wird dies in ein Playback gespeichert, so kann man mit diesem
     laufende Effekte stoppen.
 
@@ -278,8 +268,6 @@ Um einen Mask Effekt zu erzeugen, gehen Sie wie folgt vor:
 -   Diese Funktion ersetzt die früheren Block Shapes und Block Effekte.
 	Werden ältere Shows mit solchen Effekten geladen, so werden diese jetzt
 	als Mask Fx angezeigt.
-
-Diese Funktion erfordert eine aktuelle Personality Library.
 
 ## Speichern von Shapes in Paletten
 
