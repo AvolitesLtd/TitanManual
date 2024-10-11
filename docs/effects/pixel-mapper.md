@@ -229,6 +229,3 @@ To create a Mask Effect:
 
 - This function replaces the **Block Effect** function of previous versions. Shows containing Block Effect from previous versions
   will load and work as expected, but they will be renamed "Mask".
-
-- The personality library may need updating for this to work. 
-
