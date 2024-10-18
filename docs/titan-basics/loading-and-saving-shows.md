@@ -168,3 +168,23 @@ To copy an existing show file on the hard disk to a USB drive, first
 ensure your current show is saved, then use the Disk functions to load
 the existing show from hard disk, then save it to the USB drive.
 Alternatively you can use the Folders command on the Tools menu.
+
+## Setting a show to load on start up
+
+Normally on start up the console will reload the show it was using when it was last shut down.
+In some situations (for unattended operation or for use with [venue mode](../running-the-show.md#setting-a-venue-mode-workspace-for-basic-controls-while-locked)) you might want to always load a default/standard show on power up, in case someone
+has loaded a different show the night before. The **Start Up Show** function lets you do this.
+
+1. Load the show that you want to be the default Start Up Show.
+2. Press the <Keys.HardKey>Disk</Keys.HardKey> button.
+3. Press <Keys.SoftKey>Next</Keys.SoftKey> softkey until you see the **Start Up Show** option.
+4. Press <Keys.SoftKey>Start Up Show</Keys.SoftKey> softkey. This will show **Unlocked** if no Start Up Show is set.
+5. Press <Keys.SoftKey>Create and Lock Show</Keys.SoftKey>. The current show will now be loaded on power up and the option will show **Start Up Show Locked**.
+6. If a Start Up Show was already set/locked, you can  <Keys.SoftKey>Update Show</Keys.SoftKey> to change the Start Up Show to be the currently loaded show
+or you can <Keys.SoftKey>Unlock</Keys.SoftKey> to disable the Start Up Show. option.
+
+You can also configure playbacks to fire when the show is loaded, this lets you put the 
+venue into a known state when the console powers on (for example if working lights are run
+from DMX or you want to startup with a basic lighting state on). See [Run On Startup](../cues/playback-options.md#run-on-startup) in the Cues chapter.
+
+> If this option is configured, unsaved changes will be lost when the console is shut down.

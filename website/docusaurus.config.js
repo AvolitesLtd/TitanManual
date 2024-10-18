@@ -207,8 +207,8 @@ module.exports={
               to: "https://www.facebook.com/groups/Avolites/"
             },
             {
-              label: 'Avolites.de Wiki',
-              to: "https://www.avolites.de/wiki"
+              label: 'AvoSupport.de Wiki',
+              to: "https://www.avosupport.de/wiki"
             },
           ]
         }

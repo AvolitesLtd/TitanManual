@@ -155,6 +155,26 @@ the whole fixture. Frozen attributes are indicated on the softkey.
     is frozen.
     ![Frozen attribute display](/docs/images/Wheel-Frozen.png)
 
+## Resetting fixture options back to defaults
+
+The <Keys.SoftKey>Reset Behaviour</Keys.SoftKey> softkey resets the following fixture personality options to their default values: 
+
+- Upper Limit
+- Lower Limit
+- Offset
+- Frozen State 
+- Curve
+- Inverted
+
+If you have a fixture behaving in unexpected ways, this is useful for resetting all the options back to standard to help work out what is happening.
+
+1. Press <Keys.HardKey>Patch</Keys.HardKey>.
+2. Press <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
+3. Press <Keys.SoftKey>Next</Keys.SoftKey>.
+4. Press <Keys.SoftKey>Reset Behaviour</Keys.SoftKey>.
+5. Select a fixture or multiple fixtures to reset
+6. Press <Keys.SoftKey>Confirm</Keys.SoftKey>.
+
 ## Editing the Personality
 
 Sometimes you may want to modify the way a fixture behaves, or you may
