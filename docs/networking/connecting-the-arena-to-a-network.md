@@ -4,12 +4,12 @@ title: Connecting consoles to a network
 sidebar_label: Connecting consoles to a network
 ---
 
-All Avolites consoles may be connected to an ethernet network to allow control of fixtures by Art-Net or sACN, or to connect to a visualisation system.
+All Avolites consoles may be connected to an Ethernet network to allow control of fixtures by Art-Net or sACN, or to connect to a visualisation system.
 
-For T1, T2 and T3 which are used with a laptop or PC, the network connection of the laptop or PC is used. (Wifi connections should not be used for control
+For T1, T2 and T3 which are used with a laptop or PC, the network connection of the laptop or PC is used. (WiFi connections should not be used for control
 of fixtures as you will not get reliable and smooth operation.)
 
-Consoles other than D9, D7 and Arena have one or two direct ethernet connections which may be used for network setup.
+Consoles other than D9, D7 and Arena have one or two direct Ethernet connections which may be used for network setup.
 
 The D9, D7 and Arena consoles are different to the other Titan consoles because they
 have a built-in network switch and (for D9 and Arena) an optical network connection.  **The rest of this section applies only to the Diamond 9, Diamond 7 and 
