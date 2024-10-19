@@ -50,7 +50,7 @@ The Diamond 9 can be fitted with a 10GbE port as an optional extra.
 In normal use you will not need to change the settings on the Luminex switch, but if you have a complex network
 setup you can use Luminex's Araneo software to connect to the switch and configure it. 
 (External link)
-[https://www.luminex.be/products/software/araneo/](https://www.luminex.be/products/software/araneo/)
+[https://luminex.be/products/software/araneo/](https://luminex.be/products/software/araneo/)
 
 >  On the D9 you can reset the Luminex switch to its default settings by holding the Reset button next
 to the four etherCON sockets for 5 seconds. The lights will flash red and the switch will be
