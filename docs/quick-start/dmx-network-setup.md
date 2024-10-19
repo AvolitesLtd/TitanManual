@@ -12,7 +12,7 @@ one of 64 **DMX Lines** which may be routed to the XLR sockets on the console or
 over Ethernet (see [DMX Output Mapping](../system-settings/dmx-output-mapping.md) for details).
 
 - If using the T1 / T2 / T3 hardware the output is limited to the first one, two or sixteen universes respectively.
-A console would normally output up to 16 universes itself, further Titan Network Processors (TNP) units would be connected to the network using TitanNet to control up to 64 universes. For simple programming or rigs with lots of space in the patch you may be able to output more than 16 universes from a console but operating speed may be affected.
+A console would normally output up to 16 universes itself (32 for D7), further Titan Network Processors (TNP) units would be connected to the network using TitanNet to control up to 64 universes. For simple programming or rigs with lots of space in the patch you may be able to output more than 16 universes (32 for D7) from a console but operating speed may be affected.
 
 Multiple consoles can be linked by Ethernet to provide a [multi-user](../titan-basics/multi-user-operation.md)
 system, or to provide automatic [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup).

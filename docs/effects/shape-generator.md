@@ -277,7 +277,7 @@ can also select certain fixtures for the mask and leave other fixtures unaffecte
 
 To create a mask:
 
-1.	Press <Keys.SoftKey>Mask FX</Keys.SoftKey> on the Shapes and Effects menu (Diamond 9 has a dedicated <Keys.HardKey>Mask FX</Keys.HardKey> button - press twice to turn all attributes on in the mask).
+1.	Press <Keys.SoftKey>Mask FX</Keys.SoftKey> on the Shapes and Effects menu (Diamond 9 and Diamond 7 have a dedicated <Keys.HardKey>Mask FX</Keys.HardKey> button - press twice to turn all attributes on in the mask).
 2.	The Attribute Bank buttons (Position, Colour etc) will flash. Choose which attributes you want to mask
 	by toggling the buttons on and off.
 3.	If no fixtures are selected the mask will apply to all fixtures. If you only want it to apply to certain fixtures, select them now.

@@ -75,7 +75,7 @@ meet in the middle.
 
 ![Sapphire Tools Menu](/docs/images/Sapphire-Tools-Menu.png)
 
-On Diamond 9 the toolbar is replaced by a small <Keys.ContextKey>Tools</Keys.ContextKey> button at the top
+On Diamond 9 / Diamond 7 the toolbar is replaced by a small <Keys.ContextKey>Tools</Keys.ContextKey> button at the top
 left of the right hand touchscreen. There is also a <Keys.HardKey>Tools</Keys.HardKey> button on the
 pull-out keyboard.
 

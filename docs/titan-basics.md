@@ -25,10 +25,10 @@ check its disk on startup which can cause delays. The UPS will protect
 you from most power problems and give you chance to shut down the
 console normally.
 
-If an internal UPS is fitted (Diamond 9, Sapphire Touch, Arena, optional on other
+If an internal UPS is fitted (Diamond 9, Diamond 7, Sapphire Touch, Arena, optional on other
 consoles), on power loss a warning dialog
 will pop up on the screen and the current show will be autosaved.
-Except on D9, the toolbar on the screen will also turn orange and
+Except on D9 and D7, the toolbar on the screen will also turn orange and
 display how long you've got before the console shuts down. 
 
 ![UPS Toolbar](/docs/images/UPS-Toolbar.png)
@@ -39,7 +39,7 @@ display how long you've got before the console shuts down.
 -	If any console or TNP in your session is running from UPS, an error will appear
 	in the event log.
 
-**Diamond 9 and Arena only:** The Network Switch inside the console has an independent
+**Diamond 9, Diamond 7 and Arena only:** The Network Switch inside the console has an independent
 UPS system which allows the network switch to continue to run while the
 console is power cycled. When the console is shut down the network
 switch will continue to run for about 5 minutes, or until mains power is removed. This is important when
@@ -76,7 +76,7 @@ shut down the console if it is not possible to shutdown the console by
 any of the above means. In this case having disconnected the mains power
 you should press the Battery Disconnect switch on the rear panel.
 
-**Diamond and Arena only:** Battery Disconnect will also shut down the internal
+**D9 / D7 and Arena only:** Battery Disconnect will also shut down the internal
 network switch so be careful if you are running a backup console via the
 switch. When you shut down the console normally, the network switch will
 stay on for about 5 minutes then power off. There is no harm in leaving
@@ -172,7 +172,7 @@ lines it is on. Each line can be configured to come out of one
 or more of the XLR outputs on the back of the console, and/or to Art-Net or sACN universes
 over Ethernet. Some hardware has limitations on the number of lines you can output - see the [DMX output section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
 
-The Diamond 9 and Arena include a built-in [Ethernet switch](networking/connecting-the-arena-to-a-network.md) and have an optical network
+The D9, D7 and Arena include a built-in [Ethernet switch](networking/connecting-the-arena-to-a-network.md) and have an optical network
 connection.
 
 > By default on a new show, the XLRs on the console are automatically connected to DMX lines starting at line 1, however if you are loading a show from a different model of console or the simulator, check the DMX Settings option to confirm how the DMX outputs are set up.
@@ -197,7 +197,7 @@ data.
 ## Connecting a Monitor
 
 You can connect an additional monitor to the console (2 monitors on
-Diamond 9 and Sapphire Touch). This gives you extra screen space for workspace windows
+D9, D7 and Sapphire Touch). This gives you extra screen space for workspace windows
 which can be handy for showing Visualiser or additional buttons. Touch
 monitors are very useful to give additional control surfaces. We advise
 you use a monitor compatible with Windows Touch to avoid problems with

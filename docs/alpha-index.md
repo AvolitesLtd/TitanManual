@@ -57,7 +57,7 @@ import Video from '@site/src/components/video.tsx';
 [Changing Shape Parameters in the Effect Editor *(in "Key Frame Shapes")*](./effects/key-frame-shapes.md#changing-shape-parameters-in-the-effect-editor)<br/>
 [Changing Size and Speed of a Shape *(in "Shape Generator")*](./effects/shape-generator.md#changing-size-and-speed-of-a-shape)<br/>
 [Changing the Content of Palettes *(in "Editing Palettes")*](./palettes/editing-palettes.md#changing-the-content-of-palettes)<br/>
-[Changing the IP address of the Titan Network Switch (TNS) *(in "Connecting the Diamond 9 or Arena to a network")*](./networking/connecting-the-arena-to-a-network.md#changing-the-ip-address-of-the-titan-network-switch-tns)<br/>
+[Changing the IP address of the Titan Network Switch (TNS) *(in "Connecting consoles to a network")*](./networking/connecting-the-arena-to-a-network.md#changing-the-ip-address-of-the-titan-network-switch-tns)<br/>
 [Changing the Key Profile *(in "Key Profiles")*](./system-settings/key-profiles.md#changing-the-key-profile)<br/>
 [Changing the Locate State *(in "Selecting Fixtures")*](./controlling-fixtures.md#changing-the-locate-state)<br/>
 [Changing the Spread of a Shape Across Multiple Fixtures *(in "Shape Generator")*](./effects/shape-generator.md#changing-the-spread-of-a-shape-across-multiple-fixtures)<br/>
@@ -339,7 +339,7 @@ import Video from '@site/src/components/video.tsx';
 [Only Showing Relevant Palettes *(in "Using Palettes")*](./palettes/using-palettes.md#only-showing-relevant-palettes)<br/>
 [Opening a Chase for Editing *(in "Editing a Chase")*](./chases/editing-a-chase.md#opening-a-chase-for-editing)<br/>
 [Opening and Positioning Workspace Windows *(in "Workspace Windows")*](./titan-basics/workspace-windows.md#opening-and-positioning-workspace-windows)<br/>
-[Optical Connections *(in "Connecting the Diamond 9 or Arena to a network")*](./networking/connecting-the-arena-to-a-network.md#optical-connections)<br/>
+[Optical Connections *(in "Connecting consoles to a network")*](./networking/connecting-the-arena-to-a-network.md#optical-connections)<br/>
 [Options *(in "Key Profiles")*](./system-settings/key-profiles.md#options)<br/>
 [Other Connections *(in "Connecting up and Titan basics")*](./titan-basics.md#other-connections)<br/>
 [Other Layout Editor Tools *(in "Pixel Mapper Examples")*](./effects/pixel-mapper-examples.md#other-layout-editor-tools)<br/>
@@ -386,7 +386,7 @@ import Video from '@site/src/components/video.tsx';
 [Playing Back a Cue *(in "Cue Playback")*](./cues/cue-playback.md#playing-back-a-cue)<br/>
 [Position *(in "Changing Fixture Attributes")*](./controlling-fixtures/changing-fixture-attributes.md#position)<br/>
 [Position Overlay *(in "Operating Synergy")*](./synergy/operating-synergy.md#position-overlay)<br/>
-[Power and UPS behaviour *(in "Connecting the Diamond 9 or Arena to a network")*](./networking/connecting-the-arena-to-a-network.md#power-and-ups-behaviour)<br/>
+[Power and UPS behaviour *(in "Connecting consoles to a network")*](./networking/connecting-the-arena-to-a-network.md#power-and-ups-behaviour)<br/>
 [Preset playbacks (Tiger Touch only) *(in "Playback controls")*](./running-the-show/playback-controls.md#preset-playbacks-tiger-touch-only)<br/>
 [Priority *(in "Playback Options")*](./cues/playback-options.md#priority)<br/>
 [Programming a Chase *(in "Creating a Chase")*](./chases/creating-a-chase.md#programming-a-chase)<br/>
@@ -624,7 +624,7 @@ import Video from '@site/src/components/video.tsx';
 [Which Attributes are Stored in Palettes *(in "Creating Palettes")*](./palettes/creating-palettes.md#which-attributes-are-stored-in-palettes)<br/>
 [Window appearance settings *(in "Viewing and Editing Fixture Values")*](./controlling-fixtures/viewing-and-editing-fixture-values.md#window-appearance-settings)<br/>
 [Wipe *(in "The System Menu")*](./system-settings/the-system-menu.md#wipe)<br/>
-[Wired Ethernet Outputs *(in "Connecting the Diamond 9 or Arena to a network")*](./networking/connecting-the-arena-to-a-network.md#wired-ethernet-outputs)
+[Wired Ethernet Outputs *(in "Connecting consoles to a network")*](./networking/connecting-the-arena-to-a-network.md#wired-ethernet-outputs)
   
 ## X
 [XFade *(in "Chase Options")*](./chases/chase-options.md#xfade)

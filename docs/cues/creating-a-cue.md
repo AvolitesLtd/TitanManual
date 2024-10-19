@@ -90,7 +90,7 @@ Other useful things to know about recording cues:
 
    ![Playbacks stored on playback faders](/docs/images/Playbacks-stored-on-playback-faders.png)
 
-    On the Diamond 9, setting <Keys.SoftKey>Halo</Keys.SoftKey> in the Legend menu will set the illumination colour 
+    On the Diamond 9 and Diamond 7, setting <Keys.SoftKey>Halo</Keys.SoftKey> in the Legend menu will set the illumination colour 
     of the playback fader.
 
 

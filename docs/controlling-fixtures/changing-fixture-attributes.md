@@ -101,9 +101,9 @@ The attribute is assigned and the assign menu closes. To check the assignment ha
 - You can also switch the trackball to control the mouse pointer on the touchscreens, see [Trackball (mouse control)](../titan-basics/workspace-windows.md#trackball-diamond-9-and-sapphire-touch-only).
 
 
-## Intensity wheel (Diamond 9 only)
+## Intensity wheel (Diamond 9 and Diamond 7 only)
 
-On the Diamond 9 a dedicated wheel is provided to set the intensity of selected
+On the D9 and D7 a dedicated wheel is provided to set the intensity of selected
 fixtures. A display above the wheel shows the wheel display for intensity. This wheel always controls
 intensity and is not changed by the Attribute Bank buttons (unless you reassign it as described below).
 
@@ -120,7 +120,7 @@ you can directly choose gobos or colour slots.
 It also offers a colour picker window for fixtures with RGB or CMY
 colour mixing.
 
-The Diamond 9 has a dedicated Editor touchscreen to show the Attribute Editor,
+The Diamond 9 and Diamond 7 have a dedicated Editor touchscreen to show the Attribute Editor,
 on other consoles you open it as a workspace window - Double press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.SoftKey>Attribute
 Editor</Keys.SoftKey> from the window select buttons to show it. As a shortcut you can also show it by touching the
 attribute name text just below the on-screen IPCGBES buttons.
@@ -384,7 +384,7 @@ fixtures there are options to set how this is handled, see below.
 
 1. Select the fixtures you want to Align either manually or using a
 group.
-2. Press <Keys.HardKey>ML Menu</Keys.HardKey> then <Keys.SoftKey>Align Fixtures</Keys.SoftKey> (on Diamond 9 press <Keys.HardKey>Align</Keys.HardKey>).
+2. Press <Keys.HardKey>ML Menu</Keys.HardKey> then <Keys.SoftKey>Align Fixtures</Keys.SoftKey> (on D9/D7 press <Keys.HardKey>Align</Keys.HardKey>).
 3. Set the mask to include the attribute groups you want to copy (using
 the Attribute Bank buttons, or using the softkey options for exclude and
 include all attributes).

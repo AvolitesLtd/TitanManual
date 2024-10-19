@@ -85,6 +85,8 @@ o
 # case sensitive words
 Acw
 Ai
+Araneo
+araneo
 Art-Net
 ArtPoll
 AutoGroups
@@ -97,6 +99,8 @@ Avolites.de
 BMFLs
 D9-330
 D9-215
+D7-330
+D7-215
 DMX-in
 Esc
 Ethernet
@@ -113,6 +117,7 @@ IPCGBES-FX
 Quicksave
 Lightmap
 Luminex
+luminex.be
 LiveDMX
 LocalClock
 Lustr

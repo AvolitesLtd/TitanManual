@@ -8,8 +8,8 @@ import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
 For extra workspace you can connect external monitors to the monitor ports
-provided on the console (HDMI on Diamond 9, DVI on other consoles, except Pearl Expert and Tiger Touch 1
-which are VGA). The Diamond 9 and Sapphire
+provided on the console (HDMI on Diamond 9 and Diamond 7, DVI on other consoles, except Pearl Expert and Tiger Touch 1
+which are VGA). The Diamond 9, Diamond 7 and Sapphire
 Touch can have two external displays, all other consoles can have one.
 You can use touch screens, we advise using Windows Touch compatible
 monitors to avoid driver issues.
