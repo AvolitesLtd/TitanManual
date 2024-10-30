@@ -87,8 +87,8 @@ Damit sendet Titan automatisch Informationen, um die Fehlersuche und
 weitere Verbesserungen zu ermöglichen. Diese enthalten aufgetretene
 Fehler, Statis-tiken über die Zeit, die die verwendeten Funktionen
 benötigen, und Ähnliches. Damit wird die weitere Softwareentwicklung
-sehr unterstützt. Ist dies aber unerwünscht, kann dies mit \[Telemetry
-Disabled\] deaktiviert werden. Daten können nur übertragen werden, wenn
+sehr unterstützt. Ist dies aber unerwünscht, kann dies 
+mit <Keys.SoftKey>Telemetry Disabled</Keys.SoftKey> deaktiviert werden. Daten können nur übertragen werden, wenn
 das Pult einen Internetzugang hat.
 
 ## Display Setup - Bildschirmeinrichtung

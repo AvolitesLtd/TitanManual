@@ -14,7 +14,7 @@ View** anzeigen. Hier werden alle Geräte aufgelistet, für die die Palette
 Werte enthält. Mit einer Kontext-Schaltfläche lassen sich gespeicherte
 &nbsp;**Zeiten (Times)** anzeigen.
 
-Drücken Sie dazu <Keys.HardKey>View / Open</Keys.HardKey> und die anzuzeigende
+Drücken Sie dazu <Keys.HardKey>Open/View</Keys.HardKey> und die anzuzeigende
 Paletten-Schaltfläche. Daraufhin öffnet sich das Fenster **Palette View**.
 
 ![Palette View window](/docs/images/Palette-View-window.png)
@@ -46,26 +46,25 @@ schaltet den Wert ein oder aus).
 	man die Parameter für einzelne Geräte ändern sowie mit **Add 
 	Fixtures** weitere Geräte hinzufügen kann.
 
--   Enthält die Palette Pixelmapper-Effekte, so lassen sich diese mit
-    <Keys.SoftKey>View Effects</Keys.SoftKey> öffnen, anzeigen und editieren.
+-   Enthält die Palette Pixelmapper-Effekte, so lassen sich diese mit <Keys.SoftKey>View Effects</Keys.SoftKey> öffnen, anzeigen und editieren.
 
 ## Ändern des Inhalts einer Palette
 
-Um einen Eintrag einer Palette zu ändern, betätigen Sie die Taste
-<Keys.HardKey>Edit</Keys.HardKey> (<Keys.HardKey>Update Palette</Keys.HardKey> auf dem Pearl Expert und Tiger Touch mk1),
+Um einen Eintrag einer Palette zu ändern, betätigen Sie die Taste <Keys.HardKey>Edit</Keys.HardKey> 
+(bzw. <Keys.HardKey>Update Palette</Keys.HardKey> auf dem Pearl Expert und Tiger Touch mk1),
 wählen die zu ändernde Palette (bei normalen Paletten werden
 automatisch die enthaltenen Geräte angewählt; bei Shared Paletten das
 erste Gerät des entsprechenden Typs), nehmen die gewünschten Änderungen
 vor, und betätigen die Funktionstaste <Keys.SoftKey>Update Palette x</Keys.SoftKey>, um die
 Änderungen zu übernehmen.
 
-Mit der Taste <Keys.HardKey>Edit</Keys.HardKey> bzw. <Keys.HardKey>Update Palette</Keys.HardKey> lässt sich ebenso die 
+Mit der Taste <Keys.HardKey>Edit</Keys.HardKey> lässt sich ebenso die 
 Bezeichnung und die Nummer der Palette ändern.
 
 Ebenso können Sie eine Palette auch für nur einzelne oder wenige Geräte
 aufrufen, modifizieren und die geänderten Werte wieder in die bestehende
 Palette speichern. Das Pult zeigt dabei Optionen zum Ersetzen (**Replace**),
-Kombinieren (**Merge**) oder **Quick Merge** der Paletten an. Wird <Keys.SoftKey>Merge</Keys.SoftKey>
+Kombinieren (**Merge**) oder **Quick Merge** der Paletten an. Wird **Merge**
 gewählt, so bleiben nicht veränderte Werte unberührt, während geänderte
 Werte zur Palette hinzugefügt werden. Quick Merge dagegen aktualisiert
 nur die Attribute, die in der originalen Palette bereits enthalten
@@ -79,13 +78,12 @@ Merge**.
 -   Wahlweise lässt sich die Option ["Always 
 	Merge"](../system-settings/user-settings.md#prompt-replace) 
 	(stets kombinieren) aktivieren, um die Rückfrage des Pultes zu 
-	vermeiden; dies geht in den [Benutzereinstellungen](../system-settings/user-settings.md).\
+	vermeiden; dies geht in den [Benutzereinstellungen](../system-settings/user-settings.md).
 	Ebenso kann man einfach die gewählte Paletten-Schaltfläche ein 
 	zweites Mal betätigen, um die Paletten zu kombinieren.
 
 -   Weitere Geräte lassen sich zu bestehenden Paletten hinzufügen, ohne
-    die bereits programmierten zu beeinflussen.\
-	*Sind etwa bereits
+    die bereits programmierten zu beeinflussen. *Sind etwa bereits
     Farbpaletten für Mac 600 vorhanden, so lassen sich Farben für Mac
     500 hinzufügen, ohne die bereits gespeicherten Werte zu ändern.*
 
@@ -105,12 +103,9 @@ wenn z.B. der Grün-Ton nicht exakt die gewünschte Farbe trifft, so lässt
 sich das einfach per <Keys.HardKey>Update</Keys.HardKey> realisieren.
 
 1.  Während der Cue gestartet ist, wählen Sie die betreffenden Geräte
-    aus und stellen den gewünschten Wert ein (*z.B. das richtige Grün*).
-
+    aus und stellen den gewünschten Wert ein.
 2.  Drücken Sie <Keys.HardKey>Update</Keys.HardKey> (Pearl Expert: <Keys.HardKey>Record Cue</Keys.HardKey>, <Keys.SoftKey>Update</Keys.SoftKey>)
-
 3.  Im Bildschirm werden die Paletten und Cues, die zum gestarteten Cue
     gehören und upgedated werden können, angezeigt.
-
 4.  Wählen Sie mit den Menütasten, was upgedatet werden soll, und drücken 
 	Sie nochmals <Keys.HardKey>Update</Keys.HardKey>.

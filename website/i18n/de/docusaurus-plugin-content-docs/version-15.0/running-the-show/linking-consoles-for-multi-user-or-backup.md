@@ -17,9 +17,9 @@ ein zweites Pult per Netzwerk eingebunden werden und wird laufend mit
 dem Hauptpult synchronisiert. Im schlimmsten Falle lässt sich dann mit
 einem Tastendruck am Backup-Pult die Kontrolle übernehmen.
 
->	Alle Pulte in einer Session müssen auf der gleichen Titan-Version 
-	laufen. Für die Titan PC-Suite (Simulator, Titan Go, Titan Mobile) 
-	kann es erforderlich sein, die Firewall zu deaktivieren.
+>  Alle Pulte in einer Session müssen auf der gleichen Titan-Version 
+   laufen. Für die Titan PC-Suite (Simulator, Titan Go, Titan Mobile) 
+   kann es erforderlich sein, die Firewall zu deaktivieren.
 
 ## Pulte für den Mehrbenutzerbetrieb einrichten
 
@@ -36,21 +36,17 @@ Dabei gilt es natürlich zu bedenken, auf welche Teile der Programmierung
 man im Zweifel Zugriff braucht, da manche Pulte weniger Fader/Knöpfe als
 andere haben. Gute Vorplanung ist dafür essentiell.
 
-1.	Verbinden Sie beide Pulte mit dem gleichen Netzwerk und geben Sie
-    passende IP-Adressen aus einem Bereich ein.\
-	Details siehe [Netzwerk](../networking.md).
-
-2.	Auf dem Pult, welches als Backup verwendet werden soll, drücken Sie
-	<Keys.HardKey>Disk</Keys.HardKey>, dann <Keys.SoftKey>TitanNet Sessions</Keys.SoftKey>, dann <Keys.SoftKey>Backup</Keys.SoftKey>.
-
-3.	Es werden nun die im Netzwerk gefundenen Titan-Pulte aufgelistet.
-
+1.  Verbinden Sie beide Pulte mit dem gleichen Netzwerk und geben Sie
+    passende IP-Adressen aus einem Bereich ein.<br/>
+    Details siehe [Netzwerk](../networking.md).
+2.  Auf dem Pult, welches als Backup verwendet werden soll, drücken 
+    Sie <Keys.HardKey>Disk</Keys.HardKey>, dann <Keys.SoftKey>TitanNet Sessions</Keys.SoftKey>, 
+    dann <Keys.SoftKey>Backup</Keys.SoftKey>.
+3.  Es werden nun die im Netzwerk gefundenen Titan-Pulte aufgelistet.
 4.  Wählt man eines der angezeigten Pulte aus, so wird das aktuelle Pult
     zum Backup-Pult für das ausgewählte, und die Show von diesem wird
     synchronisiert.
-
-5.  Auf dem Backup-Pult wird der Backup-Status sowie der Name der Show
-    angezeigt.
+5.  Auf dem Backup-Pult wird der Backup-Status sowie der Name der Show angezeigt.
 
 ![TitanNet Backup Healthy](/docs/images/TitanNet-Backup-Healthy.png)
 

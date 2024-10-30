@@ -18,7 +18,7 @@ anlegen. Neuer Content wird dabei automatisch in den von Ai bevorzugten
 AiM-Codec gewandelt. Das vereinfacht das Verwenden von Medien, die erst
 im letzten Moment angeliefert werden, sehr.
 
-Zum Öffnen des Media Browsers drücken Sie zweimal <Keys.HardKey>View / Open</Keys.HardKey>
+Zum Öffnen des Media Browsers drücken Sie zweimal <Keys.HardKey>Open/View</Keys.HardKey>
 und wählen den <Keys.SoftKey>Media Browser</Keys.SoftKey>.
 
 ![Ai Media Browser Window](/docs/images/Ai-Media-Browser-Window.png)
@@ -99,7 +99,7 @@ Format | Datenrate
 Sobald ein oder mehrere Layer ausgewählt sind (im Fenster [Synergy
 Fixtures](setting-up.md#das-fenster-synergy-fixtures)), lassen sich die darauf abzuspielenden Medien im
 Attribut-Editor wählen und manipulieren (das geht auch wie gewohnt mit
-den [Encodern](../controlling-fixtures/using-the-select-buttons-and-wheels.md) und [Attributbänken](../controlling-fixtures/using-the-select-buttons-and-wheels.md#anzeige-der-attributwerte)).
+den [Encodern](../controlling-fixtures/changing-fixture-attributes.md) und [Attributbänken](../controlling-fixtures/changing-fixture-attributes.md#einstellen-von-attributen-mit-den-encodern)).
 
 > Die wichtigsten Attribute dabei sind **Intensity** zur Einstellung der
 Helligkeit sowie die **Media Selection** (Medienauswahl), um Bank und Clip
@@ -154,25 +154,19 @@ Output des Servers zu verbinden.
 tatsächlich angeordnet sind, so dass jeweils der passende
 Videoausschnitt angezeigt wird, siehe [nächster Abschnitt](#verwendung-des-layout-editors-mit-ai).
 
-1.  **Starten Sie einen Clip** auf dem gewünschten Surface, etwa mit dem [Attribut-Editor](#layer-steuern-mit-dem-attribut-editor).
-
-2.  Wählen Sie nun das Menü <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, dann <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>.
-
+1.  **Starten Sie einen Clip** auf dem gewünschten Surface, etwa mit 
+    dem [Attribut-Editor](#layer-steuern-mit-dem-attribut-editor).
+2.  Wählen Sie nun das Menü <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, 
+    dann <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>.
 3.  Wählen Sie die **[Gerätegruppe](../controlling-fixtures/fixture-groups.md)**, auf der 
-	das Video laufen soll. Daraufhin öffnet sich der Effekt-Editor.
-
+    das Video laufen soll. Daraufhin öffnet sich der Effekt-Editor.
 4.  Klicken Sie unten links auf das <Keys.ContextKey>+</Keys.ContextKey>, um einen Pixelmapper-Effekt
-	hinzuzufügen.
-
-5.  Klicken Sie oben rechts auf den <Keys.SoftKey>Ai</Keys.SoftKey> - Button.
-
-![Adding an element in the Pixel Mapper Window](/docs/images/Adding-an-element-in-the-Pixel-Mapper-Window.png)
-
+    hinzuzufügen.
+5.  Klicken Sie oben rechts auf den <Keys.SoftKey>Ai</Keys.SoftKey> - Button.<br/>
+  ![Adding an element in the Pixel Mapper Window](/docs/images/Adding-an-element-in-the-Pixel-Mapper-Window.png)
 6.  Mit <Keys.SoftKey>Source Surface</Keys.SoftKey> kann die zu verwendende Quelle (Layer oder
-	Surface) gewählt werden; auch kann man mit den Red/Green/Blue-Reglern
-	die Farbe einstellen.
-
-![Ai layer video overlay in Pixel Mapper Window](/docs/images/Ai-layer-video-overlay-in-Pixel-Mapper-Window.png)
+    Surface) gewählt werden; auch kann man mit den Red/Green/Blue-Reglern die Farbe einstellen.<br/>
+  ![Ai layer video overlay in Pixel Mapper Window](/docs/images/Ai-layer-video-overlay-in-Pixel-Mapper-Window.png)
 
 Der gewählte Clip wird nun auf den Lampen der gewählten Gruppe
 wiedergegeben. Dabei ist der Pixelmapper-Effekt mit dem Ai-Surface

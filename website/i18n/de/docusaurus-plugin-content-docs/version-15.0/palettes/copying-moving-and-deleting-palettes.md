@@ -17,21 +17,17 @@ mehrere Paletten gleichzeitig verschieben oder kopieren. Verknüpfungen
 Das Verschieben von Paletten ist sinnvoll, um die Bedienoberfläche
 übersichtlich zu halten.
 
-1.  Drücken Sie die Taste <Keys.HardKey>Copy</Keys.HardKey> bzw. <Keys.HardKey>Move</Keys.HardKey> (auf Pulten ohne 
-	eine **Move**-Taste dient <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Copy</Keys.HardKey> zum Verschieben).
-
-2.  Betätigen Sie die Schaltfläche der zu kopierenden/verschiebenden 
-	Palette; es lassen sich auch mehrere Paletten auswählen.
-	Verwenden Sie die Tasten <Keys.HardKey>Thro</Keys.HardKey> und <Keys.HardKey>And</Keys.HardKey>, um weitere Paletten
-	auszuwählen; halten Sie <Keys.HardKey>And</Keys.HardKey> gedrückt, so können Sie nacheinander
-	Paletten hinzufügen.
-
-3.  Klicken Sie auf die (freie) Schaltfläche, auf die Sie die Palette
-	bewegen möchten.
+1. Drücken Sie die Taste <Keys.HardKey>Copy</Keys.HardKey> bzw. <Keys.HardKey>Move</Keys.HardKey> (auf Pulten ohne 
+eine **Move**-Taste dient <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Copy</Keys.HardKey> zum Verschieben).
+2. Betätigen Sie die Schaltfläche der zu kopierenden/verschiebenden Palette; es lassen sich auch mehrere Paletten 
+auswählen. Verwenden Sie die Tasten <Keys.HardKey>Thro</Keys.HardKey> und <Keys.HardKey>And</Keys.HardKey>, um 
+weitere Paletten auszuwählen; halten Sie <Keys.HardKey>And</Keys.HardKey> gedrückt, so können Sie nacheinander
+Paletten hinzufügen.
+3. Klicken Sie auf die (freie) Schaltfläche, auf die Sie die Palette bewegen möchten.
 
 ---
 
--   Die Taste <Keys.HardKey>Menu Latch</Keys.HardKey> fixiert das Menü 'Copy/Move/Link', so dass
+-   Die Taste <Keys.HardKey>Menu Latch</Keys.HardKey> fixiert das Menü **Copy/Move/Link**, so dass
     man bei wiederholtem Kopieren/Verschieben die Taste <Keys.HardKey>Copy</Keys.HardKey> nicht
     erneut betätigen muss. Zum Freigeben des Menüs drücken Sie
     nochmals <Keys.HardKey>Latch Menu</Keys.HardKey>, zum Verlassen drücken Sie <Keys.HardKey>Exit</Keys.HardKey>.

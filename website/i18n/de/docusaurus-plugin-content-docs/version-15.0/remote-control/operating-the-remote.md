@@ -32,23 +32,23 @@ oder mehrere Dimmer und Geräte aktivieren und auf Locate-Werte setzen.
 Die Steuerung erfolgt unter Verwendung der Gerätenummern. Möchte man
 z.B. Dimmer Nr. 3 auf 50% setzen, so lautet die Eingabe
 
-&nbsp;**`3 @ 5 Enter`**
+**`3 @ 5 Enter`**
 
 Um die Dimmer 1 bis 10 auf 80% zu setzen:
 
-&nbsp;**`1 Thro 10 @ 8 Enter`**
+**`1 Thro 10 @ 8 Enter`**
 
 Für 100% klicken Sie zweimal auf @, z.B.
 
-&nbsp;**`1 Thro 10 @ @`**
+**`1 Thro 10 @ @`**
 
-> 	Um ein oder mehrere Geräte auf Locate-Werte zu setzen, klicken Sie statt
-	auf @ auf <Keys.SoftKey>Locate</Keys.SoftKey>.
+> Um ein oder mehrere Geräte auf Locate-Werte zu setzen, klicken Sie statt
+auf @ auf <Keys.SoftKey>Locate</Keys.SoftKey>.
 
 Es können mehrere Bereiche von Geräten mit der AND-Taste ausgewählt
 werden, z.B.
 
-&nbsp;**`1 Thro 10 And 20 Thro 30 @ 6 Enter`**.
+**`1 Thro 10 And 20 Thro 30 @ 6 Enter`**.
 
 ## Steuern von Geräten
 
@@ -66,7 +66,7 @@ In der Geräteansicht können Sie durch Klicken und Ziehen nach oben und
 unten scrollen. Um die Seiten umzuschalten, ziehen Sie die
 Palettenanzeige vom linken Rand aus nach rechts.
 
-Mit der Schaltfläche <Keys.HardKey>All</Keys.HardKey> wählen Sie alle Geräte im
+Mit der Schaltfläche <Keys.SoftKey>All</Keys.SoftKey> wählen Sie alle Geräte im
 Programmierspeicher aus. Halten Sie die Schaltfläche länger angeklickt,
 so werden verschiedene Auswahlmuster angeboten (odd, even etc.)
 
@@ -89,9 +89,9 @@ In der **Cue**-Ansicht können auch im Fenster 'Playbacks' gespeicherte
 Cues gestartet werden. Hält man die Schaltfläche eines aktiven Cues 
 angeklickt, so kann man diesen deaktivieren oder releasen (freigeben).
 
->	Cues, die auf normalen Fader-Handles gespeichert sind, stehen in der 
-	Remote nicht zur Verfügung. Um diese verwenden zu können, kopieren/verschieben 
-	sie die gewünschten Cues ins Playbacks-Fenster.
+- Cues, die auf normalen Fader-Handles gespeichert sind, stehen in der 
+  Remote nicht zur Verfügung. Um diese verwenden zu können, kopieren/verschieben 
+  sie die gewünschten Cues ins Playbacks-Fenster.
 
 ## Speichern von Gruppen und Paletten
 

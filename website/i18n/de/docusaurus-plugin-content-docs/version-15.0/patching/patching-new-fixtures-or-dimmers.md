@@ -16,8 +16,8 @@ Macro/Exekutor-Tasten sowie auf die normalen Playbacks mit Fadern
 (Speicherplätze). Wird direkt auf Playbacks gepatcht, so steuert der
 Fader die Helligkeit des jeweiligen Geräts.
 
-Ist das Fenster 'Fixtures' nicht sichtbar, so drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, 
-dann <Keys.HardKey>Fixture</Keys.HardKey>, oder drücken Sie zweimal auf [<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+Ist das Fenster 'Fixtures' nicht sichtbar, so drücken Sie <Keys.HardKey>Open/View</Keys.HardKey>, 
+dann <Keys.HardKey>Fixture</Keys.HardKey>, oder drücken Sie zweimal auf <Keys.HardKey>Open/View</Keys.HardKey> 
 und wählen <Keys.SoftKey>Fixtures</Keys.SoftKey>, oder Sie rufen den Workspace <Keys.SoftKey>Fixtures and Groups</Keys.SoftKey> auf.
 
 ![Fixtures Window](/docs/images/Fixtures-Window.png)
@@ -44,14 +44,13 @@ Jede Gerätetaste kann einen oder mehrere Dimmer steuern. Die Zuordnung
 Fenster [Patch View](./changing-the-patch.md#patch-view).
 
 1. Drücken Sie die Taste <Keys.HardKey>Patch</Keys.HardKey>, dann <Keys.SoftKey>Dimmer</Keys.SoftKey>.
-
 2. <Keys.SoftKey>DMX Line=</Keys.SoftKey> zeigt die aktuell zum Patchen ausgewählte DMX-Linie.
 Drücken Sie diese, und geben Sie ggf. eine neue Nummer zum Ändern der
 DMX-Linie ein. <Keys.SoftKey>Address=xx</Keys.SoftKey> zeigt die aktuelle DMX-Adresse an, die als
 nächstes gepatcht werden würde; zum Ändern drücken diese Taste, geben
-die neue Adresse am Zifferntastenblock ein und drücken <Keys.HardKey>Enter</Keys.HardKey>.\
-![DMX Line](/docs/images/DMX-Line.png)
+die neue Adresse am Zifferntastenblock ein und drücken <Keys.HardKey>Enter</Keys.HardKey>.
 
+  ![DMX Line](/docs/images/DMX-Line.png)
 3. Um einen einzelnen Dimmer zu patchen, betätigen Sie einen der
 Buttons im Fixtures-Fenster, eine Macro/Exekutor-Taste oder die blaue
 Taste bei einem Fader. Um eine Reihe von Dimmern zu patchen, geben Sie
@@ -60,26 +59,21 @@ für den ersten Dimmer (ebenso kann man einfach mit dem Finger über den
 entsprechenden Bereich von Buttons streichen, oder bei Tasten die erste
 gedrückt halten und dazu die letzte drücken). Die so angelegte Reihe von
 Dimmern wird auf fortlaufende DMX-Kanäle gepatcht.
-
 4. Die verwendeten Schaltflächen erscheinen nun dunkelblau, um
 anzuzeigen, dass sie bereits belegt sind, und zeigen einige Details der
 Geräte/Dimmer an. Wurde auf ein Playback oder eine Macro-Taste gepatcht,
 so leuchtet die jeweilige LED schwach auf, um die Belegung anzuzeigen.
-
 5. Nun wiederholen Sie den Vorgang ab Schritt 2 für weitere Dimmer.
 
 -   Beim Einstellen der DMX-Adresse mit <Keys.SoftKey>Address=xx</Keys.SoftKey> kann man ebenso
     die DMX-Linie (Universum) angeben: geben Sie dazu
-    &#123;Linie&#125;.&#123;DMX-Adresse&#125; ein, etwa 2.56 für Kanal 56 auf Linie 2.
-
--   Zur Anzeige der gepatchten DMX-Kanäle drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, 
+    \{Linie\}.\{DMX-Adresse\} ein, etwa 2.56 für Kanal 56 auf Linie 2.
+-   Zur Anzeige der gepatchten DMX-Kanäle drücken Sie <Keys.HardKey>Open/View</Keys.HardKey>, 
 	dann <Keys.HardKey>Patch</Keys.HardKey>, um die [Patch-Übersicht (Patch View)](./changing-the-patch.md#die-patch-ansicht-patch-view) zu öffnen.
-
 -   <Keys.SoftKey>User Number = xx</Keys.SoftKey> erlaubt die Eingabe einer benutzerdefinierten
     Nummer für jedes gepatchte Gerät, um später die Zuordnung zu
     erleichtern. Diese Benutzernummer/Gerätenummer ('User Number')
     lässt sich später im Menü 'Repatch Fixture' verändern.
-
 -   Einer Anwahltaste lassen sich auch mehrere Dimmer zuordnen. Das ist
     zweckmäßig z.B. wenn sämtliche Scheinwerfer eines Bereiches
     gemeinsam gesteuert werden sollen. Um eine solche Zuordnung
@@ -87,7 +81,6 @@ so leuchtet die jeweilige LED schwach auf, um die Belegung anzuzeigen.
     Patchen des nächsten Dimmers. Zur Kontrolle, ob der Patchvorgang
     erfolgreich war, überprüfen Sie die angezeigte DMX-Adresse: mit
     jedem gepatchten Dimmer erhöht sich diese um 1.
-
 -   Um einen Dimmer, der wie eben beschrieben gemeinsam mit mehreren auf
     einer Schaltfläche gepatcht war, getrennt zu patchen, ohne die
     bestehende Programmierung zu verlieren, kopieren Sie die bestehende
@@ -118,38 +111,28 @@ Die Zuordnung (das Patchen) erfolgt entweder über das Patch-Menü (s.u.)
 oder über das Fenster [Patch View](./changing-the-patch.md#patch-view).
 
 1. Drücken Sie die Taste <Keys.HardKey>Patch</Keys.HardKey>.
-
 2. Drücken Sie <Keys.SoftKey>Fixtures</Keys.SoftKey>.
-![Patch Menu](/docs/images/Patch-Menu.png)
 
-3. Wählen Sie aus der Liste den Hersteller des Gerätes; mit
-<Keys.SoftKey>Previous</Keys.SoftKey> (zurück) oder <Keys.SoftKey>Next</Keys.SoftKey> (weiter) kann man durch die Liste
-blättern. Oder tippen Sie auf der Tastatur einfach die ersten Buchstaben
-des Herstellers, um die Suche zu vereinfachen.
-
+  ![Patch Menu](/docs/images/Patch-Menu.png)
+3. Wählen Sie aus der Liste den Hersteller des Gerätes; mit <Keys.SoftKey>Previous</Keys.SoftKey> (zurück) 
+  oder <Keys.SoftKey>Next</Keys.SoftKey> (weiter) kann man durch die Liste
+  blättern. Oder tippen Sie auf der Tastatur einfach die ersten Buchstaben
+  des Herstellers, um die Suche zu vereinfachen.
 4. Wählen Sie das entsprechende Gerät (auch hier kann man mit F und G
-blättern, oder die ersten Buchstaben des Gerätes auf der Tastatur
-tippen).
-
-5. Wählen Sie ggf. die korrekte Betriebsart (Modus) des Gerätes mit den
-Funktionstasten aus.
-
+  blättern, oder die ersten Buchstaben des Gerätes auf der Tastatur tippen).
+5. Wählen Sie ggf. die korrekte Betriebsart (Modus) des Gerätes mit den Funktionstasten aus.
 6. <Keys.SoftKey>Address = </Keys.SoftKey> zeigt die erste freie DMX-Adresse. Ändern Sie diese
-ggf. mit dem Ziffernblock. Betätigen Sie <Keys.SoftKey>DMX line=xx</Keys.SoftKey>, um auf eine
-andere DMX-Linie zu wechseln, oder geben Sie die Adresse als
-&#123;Linie&#125;.&#123;Adresse&#125; ein (z.B. 2.45 für Kanal 45 auf Linie 2).
+  ggf. mit dem Ziffernblock. Betätigen Sie <Keys.SoftKey>DMX line=xx</Keys.SoftKey>, um auf eine
+  andere DMX-Linie zu wechseln, oder geben Sie die Adresse als <Keys.SoftKey>Linie</Keys.SoftKey>.<Keys.SoftKey>Adresse</Keys.SoftKey> ein (z.B. 2.45 für Kanal 45 auf Linie 2).
 
-![Address Input](/docs/images/Address-Input.png)
-
+  ![Address Input](/docs/images/Address-Input.png)
 7. Um das Gerät zu patchen, betätigen Sie einen der Buttons im
 Fixtures-Fenster, eine Macro/Exekutor-Taste oder die blaue Taste bei
 einem Fader.
-
 8. Die verwendeten Schaltflächen erscheinen nun dunkelblau, um
 anzuzeigen, dass sie bereits belegt sind, und zeigen einige Details der
 Geräte/Dimmer an. Wurde auf ein Playback oder eine Macro-Taste gepatcht,
 so leuchtet die jeweilige LED schwach auf, um die Belegung anzuzeigen.
-
 9. Wiederholen Sie den Vorgang ab Schritt 7, um weitere Geräte zu
 patchen. Die DMX-Adresse wird dabei automatisch hochgezählt.
 
@@ -176,8 +159,8 @@ patchen. Die DMX-Adresse wird dabei automatisch hochgezählt.
     (wie etwa ein VL5), können Sie den Dimmerkanal auf die gleiche
     Auswahltaste wie das eigentliche Gerät patchen, so dass man alles
     gemeinsam steuern kann. Diese Funktion nennt sich 'Pending Dimmer'
-    (abhängiger Dimmer). In der [Patch-Ansicht (Patch View)](./changing-the-patch.md#patch-view) werden solche Geräte mit einem
-    Blitz-Symbol hinter der Gerätenummer angezeigt.
+    (abhängiger Dimmer). In der [Patch-Ansicht (Patch View)](./changing-the-patch.md#patch-view) 
+    werden solche Geräte mit einem Blitz-Symbol hinter der Gerätenummer angezeigt.
 
 -   <Keys.SoftKey>Options</Keys.SoftKey>, <Keys.SoftKey>Preset Palettes</Keys.SoftKey> bestimmt, ob das Pult beim Patchen
     bereits Paletten für Farbe, Gobo und Position des Gerätes anlegen
@@ -190,9 +173,9 @@ patchen. Die DMX-Adresse wird dabei automatisch hochgezählt.
     erstellten Gruppen sind eine Gruppe pro Gerätetyp sowie jeweils eine
     Gruppe für gleichzeitig gepatchte Geräte.
 
--   Um die Belegung der DMX-Kanäle anzuzeigen, wählen Sie <Keys.HardKey>View / Open</Keys.HardKey>,
-    <Keys.HardKey>Patch</Keys.HardKey>. Um Details eines einzelnen Gerätes anzuzeigen, wählen Sie 
-	<Keys.HardKey>View / Open</Keys.HardKey> und die jeweilige Geräte-Schaltfläche. Dabei
+-   Um die Belegung der DMX-Kanäle anzuzeigen, wählen Sie <Keys.HardKey>Open/View</Keys.HardKey>,
+    &nbsp;<Keys.HardKey>Patch</Keys.HardKey>. Um Details eines einzelnen Gerätes anzuzeigen, wählen Sie 
+    &nbsp;<Keys.HardKey>open/View</Keys.HardKey> und die jeweilige Geräte-Schaltfläche. Dabei
     wird auf den Schaltflächen die DMX-Adresse (im Format
     &#123;DMX-Linie&#125;.&#123;Adresse&#125;) angezeigt - das lässt sich über das
     Kontextmenü abschalten.
@@ -204,13 +187,14 @@ patchen. Die DMX-Adresse wird dabei automatisch hochgezählt.
 
 -   Wenn die Personality die erforderlichen Informationen enthält, so
     wird im Dialog-Bereich ein Symbolbild des Geräts angezeigt, so dass
-    man überprüfen kann, das richtige Modell gewählt zu haben.\
+    man überprüfen kann, das richtige Modell gewählt zu haben.
+    
     ![Fixture Mode](/docs/images/Fixture-Mode.png)
 
 ## Automatisches Patchen in Capture
 
 Um den Capture Visualiser zu benutzen, drücken Sie zweimal auf 
-[<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+[<Keys.HardKey>Open/View</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
 und wählen <Keys.SoftKey>Capture Visualiser</Keys.SoftKey>. Einige
 Pulte verfügen auch über eine gesonderte <Keys.HardKey>Visualiser</Keys.HardKey>-Taste. Daraufhin
 öffnet sich das Visualiser-Fenster mit einer automatisch aus dem Patch
@@ -225,7 +209,8 @@ Capture-Steuerung entsprechend anpassen, siehe [Steuerung des Visualisers](../ca
 
 -   Geräte-Modes, bei denen die Darstellung in Capture funktioniert,
     werden mit einem Capture-Logo dargestellt (siehe Bild) - fehlt dieses
-	Logo, kann das Gerät nicht im integrierten Capture dargestellt werden.\
+    Logo, kann das Gerät nicht im integrierten Capture dargestellt werden.
+    
     ![Fixture Modes](/docs/images/Fixture-Modes.png)
 
 -   Wird die [Capture-Vollversion](../capture-visualiser/linking-the-console-to-stand-alone-capture.md) 
@@ -247,9 +232,10 @@ Wählt man das Gesamtgerät mittels seiner Schaltfläche aus, so werden
 alle Zellen synchron beeinflusst. Um Zugriff auf die einzelnen Zellen zu
 erhalten, verwenden Sie den Attribut-Editor oder drücken Sie <Keys.HardKey>Unfold</Keys.HardKey>
 und die Auswahltaste des Geräts. Die aktuelle Seite des
-‚Fixtures'-Fensters zeigt nun die einzelnen Sub Fixtures/Zellen. Ist
-das Gerät auf einen Fader gepacht, so werden die Zellen auf den Fadern
-dieser Seite eingeblendet. Teilgeräte lassen sich auch per Tastatur-Syntax auswählen, siehe [Geräte mit mehreren Zellen/Subfixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-mit-mehreren-zellensubfixtures).
+‚Fixtures'-Fensters zeigt nun die einzelnen Sub Fixtures/Zellen. 
+
+Ist das Gerät auf einen Fader gepatcht, so werden die Zellen auf den Fadern
+dieser Seite eingeblendet. Teilgeräte lassen sich auch per Tastatur-Syntax auswählen, siehe [Geräte mit mehreren Zellen/Subfixtures](../controlling-fixtures.md#geräte-mit-mehreren-zellensubfixtures).
 
 Um zur normalen Anzeige zurückzukehren, drücken Sie <Keys.HardKey>Unfold</Keys.HardKey> und
 wählen <Keys.SoftKey>Exit Unfold</Keys.SoftKey>.
@@ -281,14 +267,12 @@ Pult melden können. Damit kann sowohl das Patchen weitgehend
 automatisiert, als auch die Betriebsart einzelner Geräte bei Bedarf
 geändert werden.
 
->  RDM funktioniert bei Titan-Pulten nur über Art-Net und RDM-fähige Nodes, nicht über die normalen DMX-Buchsen. \
-\
-RDM muss in den verwendeten Geräten eingebaut sein, was leider noch längst nicht bei allen Geräten der Fall ist. Ebenso muss die gesamte verwendete DMX-Peripherie (Splitter etc.) RDM-kompatibel sein.             
+>  RDM funktioniert bei Titan-Pulten nur über Art-Net und RDM-fähige Nodes, nicht über die normalen DMX-Buchsen. RDM muss in den verwendeten Geräten eingebaut sein, was leider noch längst nicht bei allen Geräten der Fall ist. Ebenso muss die gesamte verwendete DMX-Peripherie (Splitter etc.) RDM-kompatibel sein.             
 
-Drücken Sie die Taste <Keys.HardKey>View / Open</Keys.HardKey>, dann <Keys.HardKey>Patch</Keys.HardKey>. In der
+Drücken Sie die Taste <Keys.HardKey>Open/View</Keys.HardKey>, dann <Keys.HardKey>Patch</Keys.HardKey>. In der
 sich öffnenden [Patch-Anzeige (Patch View)](./changing-the-patch.md#patch-view) wählen Sie den Reiter RDM. Nun
 werden alle vom Pult per RDM gefundenen Geräte angezeigt; mit dem Befehl
-<Keys.SoftKey>Full Discover</Keys.SoftKey> aus dem Kontextmenü lässt sich die Liste
+&nbsp;<Keys.SoftKey>Full Discover</Keys.SoftKey> aus dem Kontextmenü lässt sich die Liste
 aktualisieren.
 
 ![RDM Discovery](/docs/images/RDM-Discovery.png)
@@ -305,6 +289,16 @@ aktualisieren.
 -   Mit der Taste <Keys.SoftKey>RDM Quick Patch</Keys.SoftKey> aus dem Kontextmenü lassen sich
     die per RDM gefundenen Geräte automatisch patchen.
 
+## Geparkte Geräte
+
+Versucht man, ein Gerät so zu patchen, zu kopieren oder zu verschieben, dass seine Kanäle sich mit die denen
+eines bereits gepatchten Geräts überschneiden, so wird im Menü die Option angeboten, die überschneidenden Geräte 
+zu **Parken**. Geparkte Geräte behalten alle ihre Programmierung, erzeugen aber keinen DMX-Output.
+
+Geparkte Geräte können in der [Patch-Ansicht](../patching/changing-the-patch.md#die-patch-ansicht-patch-view)
+durch Zuweisen einer passenden DMX-Adresse aktiviert werden. In diesem Fenster gibt es extra einen Filter 
+zur Anzeige aller geparkten Geräte.
+
 ## Geräte suchen und finden
 
 Mitunter ist ein Gerät falsch adressiert oder mit der falschen DMX-Linie
@@ -317,17 +311,13 @@ die richtige Adresse gefunden.
 
 1. Drücken Sie die Taste <Keys.HardKey>Patch</Keys.HardKey>, wählen Sie <Keys.SoftKey>Fixtures</Keys.SoftKey>, und wählen
 Sie den Typ des gesuchten Geräts aus.
-
 2. Klicken Sie auf <Keys.SoftKey>Options</Keys.SoftKey>, dann auf <Keys.SoftKey>Find Fixture</Keys.SoftKey>, um den
 Suchmodus zu aktivieren.
-
 3. Mit Encoder B kann man nun durch alle möglichen DMX-Adressen
 durchschalten; mit Encoder A kann man die zu verwendende DMX-Linie wählen.
-
 4. Reagiert das gesuchte Gerät mit Locate-Werten, so ist die korrekte
 Adresse gefunden.
-
-4. Deaktivieren Sie nun <Keys.SoftKey>Find Fixture</Keys.SoftKey> und (wenn nicht bereits
+5. Deaktivieren Sie nun <Keys.SoftKey>Find Fixture</Keys.SoftKey> und (wenn nicht bereits
 geschehen) patchen Sie das Gerät. Dabei wird automatisch die soeben
 gefundene DMX-Adresse vorgegeben.
 

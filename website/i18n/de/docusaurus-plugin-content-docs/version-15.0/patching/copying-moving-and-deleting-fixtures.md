@@ -26,13 +26,10 @@ Das Verschieben ist sinnvoll, um eine übersichtliche Arbeitsoberfläche
 zu erhalten.
 
 1.  Betätigen Sie die Taste <Keys.HardKey>Copy</Keys.HardKey> zum Kopieren bzw. <Keys.HardKey>Move</Keys.HardKey> zum 
-    Verschieben (auf Pulten ohne eine **Move**-Taste dient <Keys.HardKey>Avo</Keys.HardKey> + 
-	<Keys.HardKey>Copy</Keys.HardKey> zum Verschieben).
-	
+    Verschieben (auf Pulten ohne eine **Move**-Taste dient <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Copy</Keys.HardKey> zum Verschieben).
 2.  Drücken Sie die Auswahltaste/Schaltfläche des zu kopierenden/
 	verschiebenden Gerätes. Es können auch mehrere auf einmal ausgewählt
 	werden, ggf. auch mit der Taste <Keys.HardKey>And</Keys.HardKey>.
-
 3.  Betätigen Sie eine freie Auswahltaste, auf die das Gerät
 	kopiert/verschoben werden soll.
 
@@ -66,17 +63,12 @@ versehentlich ein falsches Gerät gepatcht wurde, sich die
 Bühnensituation verändert hat oder die betreffende Taste anderweitig
 benötigt wird.
 
-> Beim Löschen gehen sämtliche Programmierungen für das Gerät verloren. Das Löschen lässt sich auch nicht durch erneutes Patchen eines Gerätes auf dieselbe Auswahltaste rückgängig machen.\
-\
-Für den Fall, dass die Geräte später doch wieder gebraucht werden sollten, empfiehlt es sich, sie nicht zu löschen, sondern auf eine freie Geräte-Seite zu verschieben. 
+> Beim Löschen gehen sämtliche Programmierungen für das Gerät verloren. Das Löschen lässt sich auch nicht durch erneutes Patchen eines Gerätes auf dieselbe Auswahltaste rückgängig machen. Für den Fall, dass die Geräte später doch wieder gebraucht werden sollten, empfiehlt es sich, sie nicht zu löschen, sondern auf eine freie Geräte-Seite zu verschieben. 
 
 1.  Drücken Sie <Keys.HardKey>Patch</Keys.HardKey>, um in den Patch-Modus zu gelangen.
-
 2.  Drücken Sie die Taste <Keys.HardKey>Delete</Keys.HardKey>.
-
 3.  Betätigen Sie die Auswahltaste des zu löschenden Gerätes.
-
-4.  Die Auswahltaste wird rot hervorgehoben, und ein Bestätigungsdialog
+4.  Die Auswahltaste (wenn es ein Button auf dem Bildschirm ist) wird rot hervorgehoben, und ein Bestätigungsdialog
 	erscheint. Betätigen Sie die Auswahltaste zur Bestätigung nochmals.
 
 -   Es lassen sich auch mehrere Geräte in einem Arbeitsgang löschen.

@@ -29,12 +29,12 @@ streichen, oder geben Sie die Anzahl mit <Keys.SoftKey>Quantity</Keys.SoftKey> e
 Fadern/Tasten: die erste Taste gedrückt halten und dazu eine weitere
 Taste drücken).
 
-Um die DMX-Adresse oder das Universum zu ändern, wählen Sie <Keys.SoftKey>[Repatch Fixtures](../patching/changing-the-patch.md#ändern-der-dmx-adresse-im-patch-menü)</Keys.SoftKey>.
+Um die DMX-Adresse oder das Universum zu ändern, wählen Sie <Keys.SoftKey>Repatch Fixtures</Keys.SoftKey> (siehe [Repatch Fixtures](../patching/changing-the-patch.md#ändern-der-dmx-adresse-im-patch-menü)).
 
 ## Patch anzeigen
 
 Zum Anzeigen der gepatchten Geräte drücken Sie
-&nbsp;<Keys.HardKey>View/Open</Keys.HardKey>, dann <Keys.HardKey>Patch</Keys.HardKey> zum Öffnen der [Patch-Ansicht](../patching/changing-the-patch.md#patch-view).
+&nbsp;<Keys.HardKey>Open/View</Keys.HardKey>, dann <Keys.HardKey>Patch</Keys.HardKey> zum Öffnen der [Patch-Ansicht](../patching/changing-the-patch.md#patch-view).
 
 ## Geräteoptionen einstellen
 

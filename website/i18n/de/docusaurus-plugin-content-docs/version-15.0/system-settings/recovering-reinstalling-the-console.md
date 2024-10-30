@@ -8,7 +8,7 @@ import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
 **Dieser Abschnitt gilt nicht für die Titan PC Suite, sondern nur für
-alle größeren Titan-Pulte**.
+alle größeren Titan-Pulte.**
 
 Das Pult läuft auf einer 'Embedded PC'-Plattform, und wie bei allen
 Computern lassen sich auch hier Systemfehler nicht komplett
@@ -23,8 +23,8 @@ der Avolites-Website](https://www.avolites.com/software/latest-version)
 herunterzuladenden jeweiligen Recovery Creator kann ein normaler
 USB-Stick als Recovery Stick vorbereitet werden.
 
->	Für eine Neuinstallation sollte genügend Zeit sein: planen Sie
-	mindestens eine Stunde dafür ein!
+>   Für eine Neuinstallation sollte genügend Zeit sein: planen Sie
+    mindestens eine Stunde dafür ein!
 
 Es gibt drei Arten der Wiederherstellung; dabei werden unterschiedlich
 viele Daten gelöscht:
@@ -35,12 +35,12 @@ Standard Recovery | Die beiden neuesten | Bleiben erhalten | Bleiben erhalten | 
 Factory Restore | Die Recovery-Version und die neueste davor | Werden gelöscht | Die der Recovery-Version | Bleibt erhalten
 Full Erase | Nur die Recovery-Version | Werden gelöscht | Die der Recovery-Version| bis v11: gelöscht; <br/>ab v12/Avokey: bleibt erhalten
 
-> 	Ab Titan Version 12 wird die Lizenz auf dem AvoKey dauerhaft gespeichert
-	und auch bei einem Full Erase Recovery nicht gelöscht, [siehe unten](#software-lizenzierung).
+>   Ab Titan Version 12 wird die Lizenz auf dem AvoKey dauerhaft gespeichert
+    und auch bei einem Full Erase Recovery nicht gelöscht, [siehe unten](#software-lizenzierung).
 
->	Bei Verwendung von **Factory Restore** sowie **Full Erase** werden 
-	sämtliche Einstellungen und Shows gelöscht. Es empfiehlt sich also, 
-	die Shows vorher auf einem anderen Stick zu speichern.
+>   Bei Verwendung von **Factory Restore** sowie **Full Erase** werden 
+    sämtliche Einstellungen und Shows gelöscht. Es empfiehlt sich also, 
+    die Shows vorher auf einem anderen Stick zu speichern.
 
 Genauere Hinweise zum Anfertigen und zur Verwendung eines
 Recovery-Sticks sind mit auf der [Download-Seite](https://www.avolites.com/software/)
@@ -50,33 +50,33 @@ wie folgt:
 
 ## Installationshinweise
 
-1.	**Bei Pulten, die älter als Titan Version 11.1 sind**, muss das Pult
+1.  **Bei Pulten, die älter als Titan Version 11.1 sind**, muss das Pult
     im BIOS so eingestellt werden, dass es vom USB-Stick bootet.
     Genaueres dazu steht auf der [Avolites-Website.](https://www.avolites.com/software/).
 
-2.	Starten Sie nun das Pult mit angestecktem Recovery-Stick.
+2.  Starten Sie nun das Pult mit angestecktem Recovery-Stick.
     Warten Sie, bis der Bootvorgang abgeschlossen ist; das kann bis zu 3 
     Minuten dauern.
 
-3.	Nach Abschluss des Bootvorgangs wird im Bildschirm 'Welcome
+3.  Nach Abschluss des Bootvorgangs wird im Bildschirm 'Welcome
     to...' und der Name des Pultes angezeigt: klicken Sie auf <Keys.SoftKey>Next</Keys.SoftKey>, 
-	um den Vorgang fortzusetzen.
+    um den Vorgang fortzusetzen.
 
-4.	Lesen Sie den Lizenzvertrag ganz durch, und klicken Sie auf
-    <Keys.SoftKey>Agree</Keys.SoftKey>, um diesen anzunehmen.
+4.  Lesen Sie den Lizenzvertrag ganz durch, und klicken Sie auf
+    &nbsp;<Keys.SoftKey>Agree</Keys.SoftKey>, um diesen anzunehmen.
 
-5.	Wählen Sie die gewünschte Wiederherstellungsart *(siehe Tabelle
+5.  Wählen Sie die gewünschte Wiederherstellungsart *(siehe Tabelle
     oben)*.
 
-6.	Auf der nächsten Bildschirmseite geben Sie nun mit den Zifferntasten die
+6.  Auf der nächsten Bildschirmseite geben Sie nun mit den Zifferntasten die
     Seriennummer des Pultes ein; diese befindet sich auf der Rückseite
     des Pultes (die Ziffernfolge nach dem 'TT-', 'PE-', 'AR-'‚
     etc.). Normalerweise ist der Eintrag bereits korrekt vorbelegt.
 
-7.	Dann klicken Sie auf <Keys.SoftKey>Install</Keys.SoftKey>, um den Wiederherstellungsprozess
+7.  Dann klicken Sie auf <Keys.SoftKey>Install</Keys.SoftKey>, um den Wiederherstellungsprozess
     zu starten.
 
-8.	Nach dem Abschluss der Installation entfernen Sie den USB-Stick
+8.  Nach dem Abschluss der Installation entfernen Sie den USB-Stick
     und starten das Pult neu (mit der Schaltfläche <Keys.SoftKey>Restart</Keys.SoftKey>).
 
 Nach dem Neustart des Pultes werden alle erforderlichen Programme und

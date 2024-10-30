@@ -1,79 +1,76 @@
 ---
 id: tips-and-tricks
-title: Tips and tricks
-sidebar_label: Tips and tricks
+title: Tipps und Tricks
+sidebar_label: Tipps und Tricks
 ---
 
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-The following section gives you some quick ways to operate Titan. ``<n>`` means type a number on the keypad. "<Keys.HardKey>Avo</Keys.HardKey> + " means hold down the first button.
+Im folgenden Abschnitt werden Wege zum schnellen Arbeiten mit Titan aufgelistet. Dabei werden die Tastendrücke wie folgt beschrieben:
 
-## Fixture control and recording
+``<n>`` : geben Sie mit dem Ziffernblock eine Zahl ein. 
 
--  Select all fixtures: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>ALL</Keys.HardKey> <Keys.HardKey>ALL</Keys.HardKey> <Keys.HardKey>ALL</Keys.HardKey>
--  Select all fixtures with non-zero intensity: <Keys.HardKey>Select If</Keys.HardKey> <Keys.HardKey>Select If</Keys.HardKey>
--  Set full intensity in the Programmer for selected fixtures: Tap <Keys.HardKey>@</Keys.HardKey><Keys.HardKey>@</Keys.HardKey>
--  Set intensity value ``<n>`` in the programmer: <Keys.HardKey>@</Keys.HardKey> ``<n>`` <Keys.HardKey>Enter</Keys.HardKey> (value as 0-99 unless you've changed the user settings)
--  Clear over a time: ``<n>`` <Keys.HardKey>Clear</Keys.HardKey> will clear over that time
--  &nbsp;<Keys.HardKey>Wheel @</Keys.HardKey> Keys: Allow fast Access to Freeze, Off, Or on for the attribute active for that wheel. Tap it twice for 100% of a percentage based attribute (such as Intensity, RGB or CMY). [(more)](../controlling-fixtures/changing-fixture-attributes.md#adjusting-attributes-with-the--buttons)
--  How to see/select cells on multi cell fixture: Use <Keys.HardKey>Unfold</Keys.HardKey> then tap fixture.
--  Group Pattern Selection: Click and hold <Keys.HardKey>Group</Keys.HardKey> then select from the soft keys Odd/Even etc
--  Quick Pattern Selection: Select fixtures or Group then click <Keys.HardKey>ALL</Keys.HardKey> to select within selected fixtures a pattern such as
-odd, even, random – etc
--  Select all cells in the currently selected fixtures: <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> 
--  Quickly set record type: press <Keys.HardKey>Record</Keys.HardKey> once for Cue, twice for chase, three times for cue list, four times for timeline
--  Quick open record palette menu: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Palette</Keys.HardKey>
--  Quick open record group menu: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Group</Keys.HardKey>
--  Quick open record macro menu: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Macro</Keys.HardKey>
--  Record time into palettes/cues: <Keys.HardKey>Time</Keys.HardKey> key to put times in the programmer
--  Entering timecode times: Use <Keys.HardKey>Through</Keys.HardKey> and <Keys.HardKey>And</Keys.HardKey> buttons as left/right arrows to go between hours, minutes, seconds etc.
--  Select "Move" on consoles which don't have a Move button: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>COPY</Keys.HardKey>
--  Want to Move/Copy/ Delete lots of items: Use the <Keys.HardKey>Latch Menu</Keys.HardKey> after <Keys.HardKey>COPY</Keys.HardKey>, <Keys.HardKey>MOVE</Keys.HardKey>, or <Keys.HardKey>Delete</Keys.HardKey> to stay in that
-menu
+"<Keys.HardKey>Avo</Keys.HardKey> + ": halten Sie die (erste) Taste gedrückt.
 
-## Playback and running a show
+## Gerät steuern und Speichern
 
--  Set BPM/Rate directly: ``<n>`` then tap one of the master's keys (any of them) and it will set that as the BPM/Rate %
--  Fire Macro ``<n>`` times: Type number then fire macro, macro will be played that many times
--  Change fade time of next Cue: ``<n>`` <Keys.HardKey>GO</Keys.HardKey> - fades in the next cue in a cue list in ``<n>`` seconds, overriding the programmed
-fade time
--  Release all running playbacks: Double tap <Keys.HardKey>Release</Keys.HardKey> to release ALL running playbacks
--  Quickly create Mask FX: Double tap <Keys.HardKey>Mask FX</Keys.HardKey> to create Mask FX for selected fixtures, or all fixtures if nothing selected
--  Legend Wing Pages: Set Legend then <Keys.HardKey>Go Page</Keys.HardKey> on the wing.
+-  Alle Geräte anwählen: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>ALL</Keys.HardKey> <Keys.HardKey>ALL</Keys.HardKey> <Keys.HardKey>ALL</Keys.HardKey>
+-  Alle Geräte mit Output > 0 anwählen: <Keys.HardKey>Select If</Keys.HardKey> <Keys.HardKey>Select If</Keys.HardKey>
+-  Ausgewählte Geräte auf 100% stellen (im Programmer): <Keys.HardKey>@</Keys.HardKey><Keys.HardKey>@</Keys.HardKey>
+-  Ausgewählte Geräte auf ``<n>`` % stellen (im Programmer): <Keys.HardKey>@</Keys.HardKey> ``<n>`` <Keys.HardKey>Enter</Keys.HardKey> (der Wert wird in 0...99% angegeben, wenn nicht in den Benutzereinstellungen anders angegeben)
+-  Clear mit Fadezeit: ``<n>`` <Keys.HardKey>Clear</Keys.HardKey> cleart über die angegebene Zeit
+-  &nbsp;<Keys.HardKey>Wheel @</Keys.HardKey> Tasten: Schnellzugriff auf Freeze, Off, oder On für das gerade auf dem entsprechenden Wheel liegende Attribut. Per Doppelklick wird der entsprechende Wert auf 100% gesetzt, wenn es sich um einen Prozent-Bereich handelt (z.B. Dimmer, RGB oder CMY). [(mehr dazu)](../controlling-fixtures/changing-fixture-attributes.md#adjusting-attributes-with-the--buttons)
+-  Anzeigen/Auswählen der Zellen von Fixtures: <Keys.HardKey>Unfold</Keys.HardKey>, dann die Geräte auswählen.
+-  Geräte nach Schema (gerade, ungerade etc.) wählen: <Keys.HardKey>Group</Keys.HardKey> gedrückt halten und aus dem Menü wählen
+-  Schnelle Auswahl nach Schema: Geräte oder Gruppe wählen, dann <Keys.HardKey>ALL</Keys.HardKey>, um nach einem bestimmten Schema auszuwählen (gerade, ungerade, jedes x-te etc.)
+-  Alle Zellen in den gerade angewählten Geräten auswählen: <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>Enter</Keys.HardKey> 
+-  Festlegen, was gespeichert wird: 1 x <Keys.HardKey>Record</Keys.HardKey> speichert einen Cue, 2 x speichert einen Chase, 3 x speichert eine Cueliste, 4 x speichert eine Timeline
+-  Schnellaufruf Palette speichern: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Palette</Keys.HardKey>
+-  Schnellaufruf Gruppe speichern: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Group</Keys.HardKey>
+-  Schnellaufruf Macro speichern: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Macro</Keys.HardKey>
+-  Speichern von Zeiten in Paletten/Cues: <Keys.HardKey>Time</Keys.HardKey> legt die Zeit im Programmer für nachfolgende Speichervorgänge fest
+-  Timecode eingeben: <Keys.HardKey>Through</Keys.HardKey> und <Keys.HardKey>And</Keys.HardKey> wirken als links/rechts-Tasten, um zwischen Stunden/Minuten/Sekunden/Frames zu navigieren
+-  "Move" (Verschieben) auf Pulten ohne Move-Taste: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>COPY</Keys.HardKey>
+-  Mehrfaches Verschieben/Kopieren/Löschen: mit der Taste <Keys.HardKey>Latch Menu</Keys.HardKey> kann das jeweilige Menü eingerastet werden. Drücken Sie also erst <Keys.HardKey>COPY</Keys.HardKey>, <Keys.HardKey>MOVE</Keys.HardKey> oder <Keys.HardKey>Delete</Keys.HardKey> gefolgt von <Keys.HardKey>Latch Menu</Keys.HardKey>, um in dem jeweiligen Menü zu bleiben.
 
-## Views, menus and windows
+## Steuern der Show
 
--  Quick open Patch View: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Patch</Keys.HardKey>
--  Quick Open Fixtures Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey>
--  Quick Open Groups Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Group</Keys.HardKey>
--  Quick Open Macros Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Macro</Keys.HardKey>
--  Quick Open Attribute Editor: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Options</Keys.HardKey>
--  Quick Open Active Playbacks: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Off</Keys.HardKey>
--  Quick Open Position Palettes Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey>
--  Quick Open Colour Palettes Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Colour</Keys.HardKey>
--  Quick Open Gobo and Beam Palettes Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Gobo</Keys.HardKey> (or <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Beam</Keys.HardKey>)
--  Quick Open Shape Palettes Window: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Shape</Keys.HardKey>
--  Quick Open Intensity View: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Intensity</Keys.HardKey>
--  Quick Open Cue List View of connected Cue List: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Connect/Cue</Keys.HardKey>
--  Quick exit menus to the top: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>EXIT</Keys.HardKey>, this will also exit the Unfold Menu
--  Search deep in menus: use the search box to find menu options faster.
--  Options missing in a Menu: Check to see if you have typed in the search box in the prompt area by accident
--  Window too small to Adjust: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Min/Max</Keys.HardKey> to resize window
--  Move Window to different screen: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Size/Position</Keys.HardKey> Moves the currently selected window to another screen.
--  Close All Windows: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Close</Keys.HardKey>
--  Delete a workspace select button: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Delete</Keys.HardKey> <Keys.ContextKey>Workspace button</Keys.ContextKey>
--  Move or Copy a workspace select button: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Move</Keys.HardKey> <Keys.ContextKey>Workspace button</Keys.ContextKey> or <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Copy</Keys.HardKey> <Keys.ContextKey>Workspace button</Keys.ContextKey>
--  Move Camera in Capture with wheels: In the Context Menu <Keys.ContextKey>Camera Move</Keys.ContextKey> then how you want to move the camera
+-  BPM/Rate direkt einstellen: ``<n>`` eingeben, dann den gewünschten Master anwählen
+-  Macro ``<n>`` -mal ausführen: ``<n>`` eingeben, dann das Macro aufrufen
+-  Fadezeit des folgenden Cues überschreiben: ``<n>`` <Keys.HardKey>GO</Keys.HardKey> 
+-  Alle laufenden Playbacks releasen: <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Release</Keys.HardKey>
+-  Schnellaufruf Mask FX erstellen: <Keys.HardKey>Mask FX</Keys.HardKey> <Keys.HardKey>Mask FX</Keys.HardKey> für die ausgewählten Geräte (oder für alle, wenn keins ausgewählt ist)
+-  Legenden für Seiten auf dem Wing eingeben: <Keys.SoftKey>Set Legend</Keys.SoftKey> <Keys.HardKey>Go Page</Keys.HardKey> (auf dem Wing).
 
-## Setup, operating system and hardware
+## Anzeigen, Menüs und Fenster
 
--  Save the show instantly: Tap <Keys.HardKey>DISK</Keys.HardKey> <Keys.HardKey>DISK</Keys.HardKey>
--  Get the next available channel to patch: In patch view, if you need to quickly find the next available DMX address
-you can click on the 'space' between the fixtures in the Bargraph and if you are patching it will automatically put
-this address as the next patch address
--  Set the time: Click on the clock in the top bar. Always check the time zone before changing hours to prevent licensing
-issues
--  Set Desk Lamp or Screen Brightness: Enter the system menu (<Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>DISK</Keys.HardKey>) use wheels to adjust ( only some
-consoles have brightness control)
--  Hard Key Not Working: Use the Virtual Panel from the <Keys.SoftKey>Tools</Keys.SoftKey> panel in the top toolbar to get you through till it can be repaired.
+-  Patch-Ansicht: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Patch</Keys.HardKey>
+-  Fixtures-Fenster: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Fixture</Keys.HardKey>
+-  Gruppen-Fenster: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Group</Keys.HardKey>
+-  Macros-Fenster: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Macro</Keys.HardKey>
+-  Attribute Editor: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Options</Keys.HardKey>
+-  Aktive Playbacks: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Off</Keys.HardKey>
+-  Positions-Paletten: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Position</Keys.HardKey>
+-  Farb-Paletten: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Colour</Keys.HardKey>
+-  Gobos&Beams-Paletten: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Gobo</Keys.HardKey> (oder <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Beam</Keys.HardKey>)
+-  Shape-Paletten: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Shape</Keys.HardKey>
+-  Intensitäts-Ansicht: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Intensity</Keys.HardKey>
+-  Cuelisten-Anzeige der aktuell gesteuerten Cueliste: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Connect/Cue</Keys.HardKey>
+-  Exit aller Menüs zum Hauptmenü: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>EXIT</Keys.HardKey>, das beendet auch Unfold
+-  Textsuche in Menüs: das Menü aufrufen und den gesuchten Text mit der Tastatur eingeben.
+-  scheinbar fehlende Menüpunkte: Suchleiste überprüfen, ob eventuell ein Suchtext eingegeben wurde
+-  Fenster zu klein: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Min/Max</Keys.HardKey> zum Wiederherstellen der ursprünglichen Größe
+-  Fenster auf anderes Display verschieben: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Size/Position</Keys.HardKey> 
+-  Alle Fenster schließen: <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Close</Keys.HardKey>
+-  Einen Workspace löschen: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Delete</Keys.HardKey> <Keys.ContextKey>Workspace</Keys.ContextKey>
+-  Einen Workspace-Button verschieben/kopieren: <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Move</Keys.HardKey> <Keys.ContextKey>Workspace</Keys.ContextKey> oder <Keys.HardKey>Open/View</Keys.HardKey> <Keys.HardKey>Copy</Keys.HardKey> <Keys.ContextKey>Workspace</Keys.ContextKey>
+-  Capture-Kamera mit den Wheels steuern: Kontextmenü <Keys.ContextKey>Camera Move</Keys.ContextKey>, dann mit den Encodern wie gewünscht steuern
+
+## Einrichtung, Betriebssystem, Hardware
+
+-  Schnellzugriff Show speichern: <Keys.HardKey>DISK</Keys.HardKey> <Keys.HardKey>DISK</Keys.HardKey>
+-  beim Patchen den nächsten freien Kanal finden: in der Patch-Ansicht im Kanal-Balken auf den unbelegten Bereich klicken. Befindet man sich dabei gerade im Patch-Menü, so wird die nächste freie Adresse direkt als Vorschlag übernommen.
+-  Uhr des Pultes stellen: in der Leiste am oberen Rand auf die Uhr klicken. Bitte vorher unbedingt die Zeitzone überprüfen und ggf. korrigieren, um zu vermeiden, dass die Lizenz ungültig wird.
+-  Helligkeit von Pultleuchte und Display: System-Menü öffnen (<Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>DISK</Keys.HardKey>), nun kann die Helligkeit mit den Wheels eingestellt werden (nicht bei allen Pulten)
+-  wenn einzelne Tasten defekt sind: Das Virtual Panel aus dem <Keys.SoftKey>Tools</Keys.SoftKey> Menü kann verwendet werden, bis eine Reparatur erfolgt.

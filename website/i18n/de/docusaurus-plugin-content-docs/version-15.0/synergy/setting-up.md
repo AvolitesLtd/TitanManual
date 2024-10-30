@@ -16,17 +16,15 @@ folgende Hinweise beachtet werden, um ein zuverlässiges Arbeiten zu
 ermöglichen:
 
 -   Es sollte sich um ein Gigabit-Netzwerk handeln (1 Gbit/s).
-
 -   Nach Möglichkeit ein getrenntes Netzwerk für Synergy.
-
 -   Bei der Verwendung der PC-Suite sollte die Windows Firewall
     deaktiviert sein.
 
-> 	Beim Installieren und Upgraden ist darauf zu achten, dass Ai/Synergy 
-	die gleiche Version haben muss wie die Titan-Software des 
-	Pultes. Die Software steht auf der [Avolites Download-Seite](https://www.avolites.com/software/latest-version)
-	zum Download bereit. Für Synergy werden ggf. kleinere Update-Pakete 
-	zur Verfügung gestellt, um Ai auf die gleiche Version wie Titan zu bringen.
+>   Beim Installieren und Upgraden ist darauf zu achten, dass Ai/Synergy 
+    die gleiche Version haben muss wie die Titan-Software des 
+    Pultes. Die Software steht auf der [Avolites Download-Seite](https://www.avolites.com/software/latest-version)
+    zum Download bereit. Für Synergy werden ggf. kleinere Update-Pakete 
+    zur Verfügung gestellt, um Ai auf die gleiche Version wie Titan zu bringen.
 
 Sollte es zu Problemen kommen, Titan und die Ai-Software miteinander zu
 verbinden, so ist insbesondere die Softwareversion (müssen identisch
@@ -78,8 +76,7 @@ Surfaces, so werden rechts die entsprechenden Optionen angezeigt. Damit
 lässt sich die Auflösung einstellen, wahlweise per Auswahl aus einer
 Liste oder per numerischer Eingabe. Ganz rechts oben kann man mit dem
 farbigen Button das Halo des Surfaces ändern sowie mit dem <Keys.ContextKey>Stift</Keys.ContextKey>-Button
-die Legende (Bezeichnung) bearbeiten (beides ist auch wie gewohnt per
-<Keys.SoftKey>Set Legend</Keys.SoftKey> möglich).
+die Legende (Bezeichnung) bearbeiten (beides ist auch wie gewohnt per <Keys.SoftKey>Set Legend</Keys.SoftKey> möglich).
 
 Klickt man innerhalb eines Surfaces auf einen Layer, so werden rechts
 die Optionen des Layers angezeigt. Damit kann man einen Speed- oder
@@ -117,7 +114,7 @@ direkt, sondern nur über Titan/Synergy gesteuert werden.
 ![Avolites Ai Layer Adjustments](/docs/images/Avolites-Ai-Layer-Adjustments.png)
 
 Um einen weiteren Layer hinzuzufügen, klickt man auf das Surface, dann
-auf den <Keys.ContextKey>+</Keys.ContextKey> - Button unten, und wählt 'Layer'.
+auf den <Keys.ContextKey>+</Keys.ContextKey> - Button unten, und wählt **Layer**.
 
 Um einen Layer oder ein Surface zu löschen, wählt man dieses aus und
 klickt unten auf den <Keys.ContextKey>Papierkorb</Keys.ContextKey>, oder man drückt <Keys.HardKey>Delete</Keys.HardKey> und
@@ -128,15 +125,15 @@ wird der Layer bzw. das Surface (Screen Fixture) auch in Ai gelöscht.
 
 Jeder Layer erscheint als Button im Fenster 'Synergy Fixtures'. Dies
 kann man entweder mit dem Button <Keys.SoftKey>View Synergy Fixtures</Keys.SoftKey> im [Synergy
-Settings-Fenster](#einrichten-von-synergy), oder Sie drücken zweimal 
-<Keys.HardKey>View / Open</Keys.HardKey> und wählen es mit den Buttons zur Fensterauswahl.
+Settings-Fenster](#einrichten-von-synergy) öffnen, oder Sie drücken zweimal 
+&nbsp;<Keys.HardKey>Open/View</Keys.HardKey> und wählen es mit den Buttons zur Fensterauswahl.
 
 ![Synergy Fixtures Workspace Window](/docs/images/Synergy-Fixtures-Workspace-Window.png)
 
 Durch Anklicken lassen sich einzelne oder mehrere Layer auswählen, wie
 man auch sonst Dimmer oder Movinglights zum Steuern auswählt. Sind Layer
 ausgewählt, so kann man im [Attribut-Editor](operating-synergy.md#layer-steuern-mit-dem-attribut-editor) oder einfach mit den
-Attributtasten und [Encodern](../controlling-fixtures/using-the-select-buttons-and-wheels.md#einstellen-von-attributen-mit-den-encodern) Medien und Effekte steuern, die darauf
+Attributtasten und [Encodern](../controlling-fixtures/changing-fixture-attributes.md#einstellen-von-attributen-mit-den-encodern) Medien und Effekte steuern, die darauf
 angezeigt werden. Genauso lassen sich auch [Paletten](../palettes/creating-palettes.md) oder [Playbacks](../cues/creating-a-cue.md#anlegen-eines-cues)
 speichern, wie das mit anderen Fixtures gewohnt ist. Es wird im [folgenden Abschnitt](operating-synergy.md) näher erläutert.
 

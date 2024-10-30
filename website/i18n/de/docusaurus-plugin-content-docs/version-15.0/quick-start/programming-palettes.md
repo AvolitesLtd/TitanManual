@@ -18,7 +18,7 @@ Wählen Sie <Keys.SoftKey>Set Mask</Keys.SoftKey>, um die zu speichernden Attrib
 Beim Schnell­speichern von Paletten in die jeweiligen Palettenfenster
 werden die zu speichernden Attribute automatisch gewählt.
 
-Betätigen Sie eine graue Paletten-Taste oder eine Schaltfläche in einem
+Klicken Sie auf eine Schaltfläche in einem
 der Fenster ‚Colours', ‚Positions' oder ‚Gobos and Beams'.
 
 Siehe [Erstellen von Paletten](../palettes/creating-palettes.md).

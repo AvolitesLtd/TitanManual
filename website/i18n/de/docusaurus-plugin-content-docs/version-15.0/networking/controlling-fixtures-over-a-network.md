@@ -18,26 +18,20 @@ verwenden. Alternativ kann aber auch manuell eine Adresse vergeben werden.
 Siehe [Einstellen der IP-Adresse](a-quick-guide-to-ip-addressing.md#einstellen-der-ip-adresse) mit
 Details zur IP-Adressierung.
 
-1. 	Öffnen Sie das System-Menü (mittels <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>)
-	und drücken Sie	<Keys.SoftKey>Network Settings</Keys.SoftKey>.
+1. Öffnen Sie das **System**-Menü (mittels <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>)
+und drücken Sie	<Keys.SoftKey>Network Settings</Keys.SoftKey>.
+2. Drücken Sie <Keys.SoftKey>Local Area Connection</Keys.SoftKey>. Manche Pult verfügen über mehrere
+Netzwerkanschlüsse - wählen Sie also hier den betreffenden aus.
+3. Überprüfen Sie, dass <Keys.SoftKey>Subnet Mask</Keys.SoftKey> auf `255.255.255.0` steht.
+4. Drücken Sie <Keys.SoftKey>Set IP `2.*.*.*`</Keys.SoftKey>.
+5. Betätigen Sie <Keys.SoftKey>Save settings</Keys.SoftKey>.
+6. Verlassen Sie das System-Menü mit <Keys.HardKey>Exit</Keys.HardKey>.
 
-2.	Drücken Sie <Keys.SoftKey>Local Area Connection</Keys.SoftKey>. Manche Pult verfügen über mehrere
-	Netzwerkanschlüsse - wählen Sie also hier den betreffenden aus.
+- Einige Geräte haben möglicherweise feste IP-Adressen aus dem Bereich `2.*.*.*` oder `10.*.*.*` - 
+in diesem Fall muss auch die Adresse des Pultes in diesem Bereich liegen.
 
-3.	Überprüfen Sie, dass <Keys.SoftKey>Subnet Mask</Keys.SoftKey> auf `255.255.255.0` steht.
-
-4.	Drücken Sie <Keys.SoftKey>Set IP `2.*.*.*`</Keys.SoftKey>.
-
-5.	Betätigen Sie <Keys.SoftKey>Save settings</Keys.SoftKey>.
-
-6.	Verlassen Sie das System-Menü mit <Keys.HardKey>Exit</Keys.HardKey>.
-
-- 	Einige Geräte haben möglicherweise feste IP-Adressen aus dem
-	Bereich `2.*.*.*` oder `10.*.*.*` - in diesem Fall muss auch die Adresse
-	des Pultes in diesem Bereich liegen.
-
--   Benötigen Sie eine Adresse aus einem anderen Adressbereich, so drücken
-	Sie auf <Keys.SoftKey>IP Address = ... </Keys.SoftKey> und geben die Adresse mit den Zifferntasten ein.
+- Benötigen Sie eine Adresse aus einem anderen Adressbereich, so drücken Sie 
+auf <Keys.SoftKey>IP Address = ... </Keys.SoftKey> und geben die Adresse mit den Zifferntasten ein.
 
 ## Einrichten der DMX-Ausgänge
 
@@ -113,8 +107,8 @@ auf der zweiten Linie des Nodes geben Sie die Adresse 3.001 - 3.512.
 	beim Art-Net-Modul. Im Abschnitt [Art-Net-Einstellungen](../system-settings/dmx-output-mapping.md#art-net-eigenschaften)
 	werden diese genauer erklärt.
 
-Als mögliche Art-Net-Geräte werden ggf. auch \"Unpolled\" oder
-\"Unknown\" angezeigt:
+Als mögliche Art-Net-Geräte werden ggf. auch "Unpolled" oder
+"Unknown" angezeigt:
 
 -   Unpolled, bzw. 'nicht abgefragt', sind zusätzliche Linien für Geräte
     mit mehr als 4 Linien: die Art-Net-Spezifikation sieht nur 4

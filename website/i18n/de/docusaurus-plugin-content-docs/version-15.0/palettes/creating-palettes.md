@@ -58,36 +58,30 @@ Zum Speichern einer Palette in eines der Palettenfenster gehen Sie wie folgt vor
 *(werden die Palettenfenster nicht angezeigt, so klicken Sie auf den 
 Workspace-Button <Keys.SoftKey>Groups and Palettes</Keys.SoftKey>)*:
 
-1.  Drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, um den Programmierspeicher zu löschen.
+1. Drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, um den Programmierspeicher zu löschen.
+2. Wählen Sie die Geräte, für die eine Palette gespeichert werden soll.
+3. Mit den Attribut-Tasten und Rädern stellen Sie nun die gewünschten
+Werte ein.*Es lassen sich einzelne oder alle Attribute in einer Palette speichern.*
+4. Drücken Sie <Keys.HardKey>Record</Keys.HardKey> und dann <Keys.HardKey>Palette</Keys.HardKey> oder drücken Sie
+<Keys.HardKey>Palette</Keys.HardKey> und wählen <Keys.SoftKey>Record Palette</Keys.SoftKey>.
+5. Erstellen Sie die Palettenmaske; diese bestimmt, welche Attribute
+in der Palette gespeichert werden. Wählen Sie die zu speichernden
+Attribute mit den Attribut-Tasten: jedes mit einer leuchtenden LED
+gekennzeichnete Attribut ist zum Speichern vorgesehen. <Keys.SoftKey>Set Mask</Keys.SoftKey> und
+<Keys.SoftKey>Record by</Keys.SoftKey> dienen ebenfalls zum Einstellen der Maskierung (s.u.).
+6. Klicken Sie auf eine freie Paletten-Schaltfläche zum Speichern 
+(wählen Sie stattdessen einen bereits mit einer Palette belegten Button, 
+so gibt es weitere Optionen), oder vergeben Sie eine Nummer und drücken Sie <Keys.SoftKey>Store</Keys.SoftKey>.
 
-2.  Wählen Sie die Geräte, für die eine Palette gespeichert werden soll.
-
-3.  Mit den Attribut-Tasten und Rädern stellen Sie nun die gewünschten
-	Werte ein.\
-	*Es lassen sich einzelne oder alle Attribute in einer Palette speichern.*
-
-4.  Drücken Sie <Keys.HardKey>Record</Keys.HardKey> und dann <Keys.HardKey>Palette</Keys.HardKey> oder drücken Sie
-	<Keys.HardKey>Palette</Keys.HardKey> und wählen <Keys.SoftKey>Record Palette</Keys.SoftKey>.\
-	*Beim [Schnellspeichern von Paletten](#schnellspeichern) ist das nicht 
-	erforderlich, und auch die Maske muss nicht eingestellt werden.*
-
-5.  Erstellen Sie die Palettenmaske; diese bestimmt, welche Attribute
-	in der Palette gespeichert werden. Wählen Sie die zu speichernden
-	Attribute mit den Attribut-Tasten: jedes mit einer leuchtenden LED
-	gekennzeichnete Attribut ist zum Speichern vorgesehen. <Keys.SoftKey>Set Mask</Keys.SoftKey> und
-	<Keys.SoftKey>Record by</Keys.SoftKey> dienen ebenfalls zum Einstellen der Maskierung (s.u.).
- 
-6.  Klicken Sie auf eine freie Paletten-Schaltfläche zum Speichern 
-	(wählen Sie stattdessen einen bereits mit einer Palette belegten Button, 
-	so gibt es weitere Optionen), oder vergeben Sie eine Nummer und 
-	drücken Sie <Keys.SoftKey>Store</Keys.SoftKey>.
+- Beim [Schnellspeichern von Paletten](#schnellspeichern) sind Schritt 4 und 5 nicht erforderlich - doppelklicken Sie
+einfach auf eine freie Schaltfläche in einem der Palettenfenster. Dabei wird die Palettenmaske anhand des Fensters
+festgelegt: Positionspaletten enthalten nur P, Farbpaletten nur C, und Paletten im Fenster Gobos&Beams enhalten IGBES.
 
 ---
 
--   Möchten Sie Paletten auf die Tasten des Pultes speichern, so drücken
-    Sie ebenfalls <Keys.HardKey>Record</Keys.HardKey> und dann <Keys.HardKey>Palette</Keys.HardKey>: daraufhin leuchten
-    alle noch freien Tasten auf, und zum Speichern muss einfach eine
-    betätigt werden.
+Möchten Sie Paletten auf die Tasten des Pultes speichern, so drücken Sie ebenfalls <Keys.HardKey>Record</Keys.HardKey>
+und dann <Keys.HardKey>Palette</Keys.HardKey>: daraufhin leuchten alle noch freien Tasten auf, und zum Speichern muss 
+einfach eine davon betätigt werden.
 
 ![Recording a Palette menu](/docs/images/Recording-a-Palette-menu.png)
 
@@ -98,9 +92,9 @@ Workspace-Button <Keys.SoftKey>Groups and Palettes</Keys.SoftKey>)*:
     unten näher beschrieben.
 
 -   Mit <Keys.SoftKey>Set Mask</Keys.SoftKey> lassen sich die in der Palette zu speichernden
-    Attribute auswählen. Ebenso können dazu die grauen Attribut-Tasten
-    rechts auf dem Pult genutzt werden.\
-    Ist eine Attribut-Gruppe zum Speichern vorgesehen, so erscheint die
+    Attribute auswählen. Ebenso können dazu die Attribut-Tasten bei den Encodern genutzt werden.
+    
+	Ist eine Attribut-Gruppe zum Speichern vorgesehen, so erscheint die
     entsprechende Funktionstaste invertiert (wie für 'Colour' in 
     Bild), und die LED der entsprechenden Attribut-Taste leuchtet. Beim
     Verwenden der **[Schnellspeicherfunktion](#schnellspeichern)**
@@ -109,26 +103,23 @@ Workspace-Button <Keys.SoftKey>Groups and Palettes</Keys.SoftKey>)*:
     enthalten nur P, im Fenster 'Colours' nur C und im Fenster 'Gobos
     and Beams' nur IGBES. Wird die Palette hingegen mit <Keys.HardKey>Record</Keys.HardKey> gespeichert, muss die Maske manuell eingestellt werden.
 
-
--   Mit der Taste <Keys.HardKey>Attribute Options</Keys.HardKey> (auf neueren Pulten <Keys.HardKey>Options</Keys.HardKey>) 
-	können alle Attributgruppen zwischen 'Include' und 'Exclude' 
+-   Mit der Taste <Keys.HardKey>Attribute Options</Keys.HardKey> (auf neueren 
+	Pulten <Keys.HardKey>Options</Keys.HardKey>) können alle Attributgruppen zwischen 'Include' und 'Exclude' 
 	umgeschaltet werden.
 
 ![Setting a mask for recording a palette](/docs/images/Setting-a-mask-for-recording-a-palette.png)
 
--   <Keys.SoftKey>Record By...</Keys.SoftKey> steuert, wie die erstellte Maske beim Speichern der
+-	&nbsp;<Keys.SoftKey>Record By...</Keys.SoftKey> steuert, wie die erstellte Maske beim Speichern der
     Palette verwendet wird:
-    -   <Keys.SoftKey>Channel in programmer</Keys.SoftKey> - es werden nur Kanäle gespeichert, die
+	-   &nbsp;<Keys.SoftKey>Channel in programmer</Keys.SoftKey> - es werden nur Kanäle gespeichert, die
     sich im Programmierspeicher befinden (also vorher verändert wurden)
-    -    <Keys.SoftKey>Group in programmer</Keys.SoftKey> speichert alle Kanäle in jeder
-    Attribut-Gruppe, von der sich ein oder mehrere Kanäle im
-    Programmierspeicher befinden. *Ist etwa ein Wert für Cyan im
-    Programmierspeicher, so werden sämtliche Einstellungen aller
-    Farbkanäle abgespeichert, auch wenn sie nicht im Programmierspeicher
-    sind.*
-    -   <Keys.SoftKey>Group in mask</Keys.SoftKey> speichert sämtliche Werte für alle in der Maske
+	-   &nbsp;<Keys.SoftKey>Group in programmer</Keys.SoftKey> speichert alle Kanäle in jeder
+    Attribut-Gruppe, von der sich ein oder mehrere Kanäle im Programmierspeicher befinden. *Ist etwa ein Wert 
+	für Cyan im Programmierspeicher, so werden sämtliche Einstellungen aller Farbkanäle abgespeichert, auch wenn 
+	sie nicht im Programmierspeicher sind.*
+	-   &nbsp;<Keys.SoftKey>Group in mask</Keys.SoftKey> speichert sämtliche Werte für alle in der Maske
     ausgewählten Attribute
-    -   <Keys.SoftKey>Mixed</Keys.SoftKey> speichert **Positionen** und **Farben** als 
+	-   &nbsp;<Keys.SoftKey>Mixed</Keys.SoftKey> speichert **Positionen** und **Farben** als 
 	Attributgruppen, alle anderen Kanäle jedoch einzeln.
 
 -   Das Pult vergibt automatisch eine Bezeichnung für die Palette (außer
@@ -142,26 +133,27 @@ Workspace-Button <Keys.SoftKey>Groups and Palettes</Keys.SoftKey>)*:
 		Vorschaubilder angezeigt. 
 	-	Für **Pan und Tilt** werden allgemeine Bezeichner vergeben.
 	-	Für **alle anderen** Attribute wird der zuletzt veränderte Wert angezeigt. 
-    ![Automatic Legends set for Colour Palettes](/docs/images/Automatic-Legends-set-for-Colour-Palettes.png)
+	
+	![Automatic Legends set for Colour Palettes](/docs/images/Automatic-Legends-set-for-Colour-Palettes.png)
 
 -   Ebenso kann man beim Speichern mit <Keys.SoftKey>Provide a legend</Keys.SoftKey> der Palette
     eine Bezeichnung geben. Zum späteren Ändern der Bezeichnung siehe
     [Paletten beschriften und bemalen](#paletten-beschriften-und-bemalen).
 
--   Wird eine Palette auf einen bereits belegten Speicherplatz
-    gespeichert, so bietet das Pult die Optionen <Keys.SoftKey>Cancel</Keys.SoftKey> (Abbruch),
-    <Keys.SoftKey>Replace</Keys.SoftKey>(Ersetzen) und <Keys.SoftKey>Merge</Keys.SoftKey>(Kombinieren). 
-	- 	Mit <Keys.SoftKey>Replace</Keys.SoftKey> wird die bisher gespeicherte Palette gelöscht 
-		und durch die neue ersetzt. 
-	-	Bei der Wahl von <Keys.SoftKey>Merge</Keys.SoftKey> werden die beiden Paletten
-		miteinander verschmolzen.  
-	-   <Keys.SoftKey>Quick Merge</Keys.SoftKey> ist das Verschmelzen ausschließlich der Attribute,
-		die bisher schon in der Palette enthalten sind.
-	
-	Damit lassen sich etwa einzelne Werte zu einer existierenden 
-	gemeinsam genutzten Palette hinzufügen, oder enthaltene Werte 
-	einfach verändern. Wird die gewählte Paletten-Auswahltaste erneut
-	betätigt, erfolgt automatisch ein Quick Merge.
+- Wird eine Palette auf einen bereits belegten Speicherplatz gespeichert, so bietet das Pult die 
+Optionen <Keys.SoftKey>Cancel</Keys.SoftKey> (Abbruch), <Keys.SoftKey>Replace</Keys.SoftKey>(Ersetzen) 
+und <Keys.SoftKey>Merge</Keys.SoftKey>(Kombinieren).
+  -  &nbsp;Mit <Keys.SoftKey>Replace</Keys.SoftKey> wird die bisher gespeicherte Palette gelöscht und 
+durch die neue ersetzt.
+  -  &nbsp;Bei der Wahl von <Keys.SoftKey>Merge</Keys.SoftKey> werden die beiden Paletten miteinander verschmolzen.
+  -  &nbsp;<Keys.SoftKey>Quick Merge</Keys.SoftKey> ist das Verschmelzen ausschließlich der Attribute, die bisher 
+  schon in der Palette enthalten sind.
+    
+    
+    Damit lassen sich etwa einzelne Werte zu einer existierenden 
+  gemeinsam genutzten Palette hinzufügen, oder enthaltene Werte 
+  einfach verändern. Wird die gewählte Paletten-Auswahltaste erneut
+  betätigt, erfolgt automatisch ein Quick Merge.
 
 -   Wenn nicht explizit vorgegeben, wählt das Pult automatisch, ob eine
     globale, shared oder normale Palette erzeugt wird: eine **globale**
@@ -195,12 +187,9 @@ dass nur die direkt in der Palette gespeicherten Werte verwendet werden.
 Dies kann beim Updaten der verknüpften Paletten sinnvoll sein.
 
 1.	Drücken Sie <Keys.SoftKey>Options</Keys.SoftKey>.
-
 2.	Wählen Sie die Palette.. 
-
 3.	Auf dem Reiter <Keys.SoftKey>Palette</Keys.SoftKey> der Optionen deaktivieren Sie die 
 	Einstellung <Keys.SoftKey>Fire Nested Palettes</Keys.SoftKey>. 
-
 4.	Wird nun die Palette aufgerufen, so werden nur die direkt in dieser 
 	gespeicherten Werte verwendet, nicht aber die aus verknüpften Paletten.
 
@@ -235,11 +224,8 @@ Für jede Palette lässt sich eine Beschriftung vergeben, die auf der
 Paletten-Schaltfläche angezeigt wird.
 
 1.  Drücken Sie im Hauptmenü <Keys.SoftKey>Set Legend</Keys.SoftKey>.
-
 2.  Klicken Sie auf die zu ändernde Palette.
-
 3.  Geben Sie die Bezeichnung mit der Tastatur ein.
-
 4.  Schließen Sie die Eingabe mit <Keys.HardKey>Enter</Keys.HardKey> ab.
 
 Auf den Schaltflächen wird die Palettennummer oben links angezeigt.
@@ -286,24 +272,19 @@ des FX-Attributs, oder Sie achten darauf, beim Speichern der Palette
 keine anderen Attributwerte in den Programmierspeicher zu schreiben.
 
 1.  Drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, wählen Sie einige Geräte aus, und drücken Sie
-	<Keys.HardKey>Locate</Keys.HardKey>.\
+	<Keys.HardKey>Locate</Keys.HardKey>.
 	*Sie können auch deren Position verändern, um das Ergebnis besser 
 	zu sehen*.
-
 2.  Drücken Sie <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, dann <Keys.SoftKey>Shape Generator</Keys.SoftKey>, und
-	starten Sie einen Shape.\
+	starten Sie einen Shape.
 	*Siehe [Shape Generator](../effects/shape-generator.md) zum 
 	Erstellen von Shapes*.
-
 3.  Ändern Sie die Parameter des Shapes nach Belieben.
-
 4.  Drücken Sie <Keys.HardKey>Record</Keys.HardKey>, dann <Keys.HardKey>Palette</Keys.HardKey> (Quick Record
 	funktioniert nicht bei Shape-Paletten).
-
 5.  Haben Sie in **Schritt 1** die Position oder weitere Attribute
 	verändert, so drücken Sie <Keys.SoftKey>Set Mask</Keys.SoftKey> und deaktivieren alles 
 	außer **FX**.
-
 6.  Klicken Sie auf eine Palettenschaltfläche, um die Palette zu
 	speichern.
 
@@ -320,21 +301,16 @@ Referenz abgelegt werden: wird später die Zeit in der Palette geändert,
 so wirkt sich das auf alle damit erstellten Cues aus.
 
 1.  Drücken Sie <Keys.HardKey>Clear</Keys.HardKey>, wählen Sie einige Geräte aus, und drücken Sie
-	<Keys.HardKey>Locate</Keys.HardKey>.\
+	<Keys.HardKey>Locate</Keys.HardKey>.
 	*Sie können auch deren Position verändern, um das Ergebnis besser
 	sehen zu können*.
-
-2.  Drücken Sie <Keys.HardKey>TIME</Keys.HardKey>\
+2.  Drücken Sie <Keys.HardKey>TIME</Keys.HardKey>
 	(*auf früheren Pulten <Keys.HardKey>SET</Keys.HardKey> (Mobile/Sapphire) bzw. <Keys.HardKey>Next Time</Keys.HardKey> (Expert/Tiger)*).
-
 3.  Setzen Sie die Fadezeit auf 2 s. Damit wird dies als globale
 	Fadezeit in den Programmierspeicher geschrieben.
-
 4.  Drücken Sie <Keys.HardKey>Record</Keys.HardKey>, dann <Keys.HardKey>Palette</Keys.HardKey>.
-
 5.  Haben Sie in **Schritt 1** die Position oder weitere Attribute
 	verändert, so drücken Sie <Keys.SoftKey>Set Mask</Keys.SoftKey> und deaktivieren alles außer
 	**Time**.
-
 6.  Klicken Sie auf eine Palettenschaltfläche, um die Palette zu
 	speichern.

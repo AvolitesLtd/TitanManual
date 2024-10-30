@@ -1,25 +1,25 @@
 ---
 id: cleaning-the-console
-title: Cleaning the console
-sidebar_label: Cleaning the console
+title: Das Pult reinigen
+sidebar_label: Das Pult reinigen
 ---
 
-Disconnect the console from the mains supply before cleaning.
+Trennen Sie als erstes das Pult vom Netz
 
-To clean the laminated panels, use a non-alcoholic disinfectant solution:
-- use a damp cloth or cleaning rag and clean the surfaces
-- prevent excess fluid building up on the edges near switches and faders
+Zum Reinigen der laminierten Oberflächen verwenden Sie ein alkoholfreies Desinfektionsmittel:
+- wischen Sie die Oberflächen mit einem feuchten Tuch ab
+- vermeiden Sie das Eindringen von Flüsssigkeit in Schalter und Fader
 
-> We recommend you don't use alcohol-based cleaners as the lacquer layer 
-  on the laminate may lose its shine when exposed to concentrated alcohol-based fluids.
+> Wir empfehlen alkoholfreie Reinigungsmittel, weil Alkohol die lackierte Oberfläche
+  des Laminats angreifen und diese stumpf machen würde
 
-To clean touch screens: Either use the same non-alcoholic disinfectant or a 70% alcohol - 30% water mixture.
+Zum Reinigen des Touchscreens verwenden Sie entweder ebenfalls ein alkoholfreies Desinfektionsmittel 
+oder eine Mischung aus 70% Alkohol und 30% Wasser.
 
-- Prevent moisture build up near the edge of the screens as this may impair the 
-  touch sensor while it is wet. 
-- If the touch sensor is affected by moisture, use clean dry paper to dry out the 
-  junction between the top of the glass and the foam gasket, by sliding the paper in 
-  approximately 6mm and running it around the whole edge of the screen. This may need 
-  to be repeated twice with dry paper to get the desired result.
+- entfernen sie sorgfältig alle Feuchtigkeitsrückstände von den Rändern des Touchscreens,
+  da diese die Funktions des Touch-Sensors beeinträchtigen könnten.
+- sollte dennoch der Touch-Sensor nach dem Reinigen fehlerhaft arbeiten, so schieben Sie ein
+  Stück trockenes Papier ca. 6mm weit zwischen Gehäuse/Dichtung und den Touchscreen und schieben dieses 
+  einmal rings um den ganzen Bildschirm. Eventuell muss dies mit einem weiteren Stück Papier wiederholt werden.
 
 

@@ -19,7 +19,7 @@ gewählten/geänderten Geräte), 'Stage' (Speichern sämtlicher Attribute
 aller aktiven Geräte, d.h. mit Dimmer \> 0), oder ‚Quick Build'
 (Erstellen des Cues aus Paletten oder Playbacks je nach Schaltfläche).
 
-Zum Speichern drücken Sie die blaue Auswahltaste eines Faders, oder
+Zum Speichern drücken Sie die **Auswahltaste** eines Faders, eine Macro-/Executor-Taste oder
 betätigen Sie eine Schaltfläche im ‚Playbacks'-Fenster (siehe [Erstellen eines Cues](../cues/creating-a-cue.md)).
 
 ## Chaser
@@ -27,7 +27,7 @@ betätigen Sie eine Schaltfläche im ‚Playbacks'-Fenster (siehe [Erstellen ein
 Drücken Sie zweimal <Keys.HardKey>Record</Keys.HardKey> (oder <Keys.HardKey>Record</Keys.HardKey> und dann \[Create
 Chase\]).
 
-Drücken Sie die blaue Auswahltaste eines Faders, oder betätigen Sie eine
+Drücken Sie die **Auswahltaste** eines Faders, eine Macro-/Executor-Taste, oder betätigen Sie eine
 Schaltfläche im ‚Playbacks'-Fenster.
 
 Stellen Sie Geräte/Attribute für den ersten Chase-Step ein, und drücken
@@ -55,7 +55,7 @@ Das Ändern der Zeiten bereits gespeicherter Cues erfolgt im Hauptmenü:
 drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey>, und dann die Auswahltaste/Schaltfläche des
 Cues/Chasers. Die Menütasten bieten nun verschiedene Timing-Optionen.
 
-<Keys.SoftKey>Fixture Overlap</Keys.SoftKey> verändert das 'Überlappen' (Gleichzeitigkeit) der
+&nbsp;<Keys.SoftKey>Fixture Overlap</Keys.SoftKey> verändert das 'Überlappen' (Gleichzeitigkeit) der
 Geräte: 100% = alle fahren/blenden gleichzeitig; 0% = alle
 fahren/blenden nacheinander, siehe [Fixture Overlap](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz).
 

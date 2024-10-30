@@ -12,10 +12,10 @@ neueste Version ist jeweils über die Internetseite
 https://www.avolites.com zum Download erhältlich.
 
 
->	Ab Titan Version 10 ist es möglich, auf den Pulten vorher installierte 
-Versionen zu behalten, so dass man auch Shows aus älteren Versionen 
-in der Version laden kann, mit der sie programmiert wurden. Der Wechsel 
-zwischen den Versionen erfolgt im Tools-Menü per <Keys.SoftKey>Switch Software</Keys.SoftKey>.
+>   Ab Titan Version 10 ist es möglich, auf den Pulten vorher installierte 
+    Versionen zu behalten, so dass man auch Shows aus älteren Versionen 
+    in der Version laden kann, mit der sie programmiert wurden. Der Wechsel 
+    zwischen den Versionen erfolgt im Tools-Menü per <Keys.SoftKey>Switch Software</Keys.SoftKey>.
 
 ---
 
@@ -42,18 +42,18 @@ für kleinere Updates, etwa Version 12.0 auf 12.1. Für größere Schritte,
 etwa Version 11 auf 12, ist eine Neuinstallation erforderlich, siehe
 nächstes Kapitel):
 
-1.	Kopieren Sie das Installationsprogramm auf einen USB-Stick und
-	verbinden diesen mit dem Pult.
+1.  Kopieren Sie das Installationsprogramm auf einen USB-Stick und
+    verbinden diesen mit dem Pult.
 
-2.	Im Menü **Tools** wählen Sie **Shutdown Software** (unterer Punkt), um
-	die Software des Pultes zu beenden.
-	![Tools Menu](/docs/images/Tools-Menu.png)
+2.  Im Menü **Tools** wählen Sie **Shutdown Software** (unterer Punkt), um
+    die Software des Pultes zu beenden.
+    ![Tools Menu](/docs/images/Tools-Menu.png)
 
-3.	Öffnen Sie wieder das Menü **Tools**, klicken Sie auf das 
-	Verzeichnissymbol **Folders**, und navigieren Sie zum Speicherort 
-	auf dem von Ihnen gewählten Laufwerk.
+3.  Öffnen Sie wieder das Menü **Tools**, klicken Sie auf das 
+    Verzeichnissymbol **Folders**, und navigieren Sie zum Speicherort 
+    auf dem von Ihnen gewählten Laufwerk.
 
-4.	Starten Sie per Doppelklick das Installationsprogramm.
+4.  Starten Sie per Doppelklick das Installationsprogramm.
 
-5.	Sobald die Installation abgeschlossen ist, starten Sie die Software
-	mit **Restart Software** neu.
+5.  Sobald die Installation abgeschlossen ist, starten Sie die Software
+    mit **Restart Software** neu.

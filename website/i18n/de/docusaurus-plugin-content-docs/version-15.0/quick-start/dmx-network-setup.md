@@ -16,15 +16,14 @@ DMX-Universen ausgeben.
 Mehrere Pulte lassen sich per Ethernet vernetzen und gestatten so den
 [Mehrbenutzerbetrieb](../titan-basics/multi-user-operation.md) sowie [Backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#pulte-für-den-backup-betrieb-einrichten).
 
-Öffnen Sie das System-Menü (Schalter oder
-<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) und drücken Sie <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
+Öffnen Sie das **System**-Menü (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) und drücken Sie <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
 
 Wählen Sie links einen Node aus (den gewünschten Ausgabe-Anschluss), und
 klicken Sie auf den Pfeil. Rechts wählen Sie nun das Universum,
 das ausgegeben werden soll. Mit dem kleinen <Keys.ContextKey>Zahnrad</Keys.ContextKey> lassen sich
 verschiedene weitere Einstellungen pro Linie vornehmen (siehe [DMX-Ausgänge einrichten](../system-settings/dmx-output-mapping.md)).
 
-Zum Ändern der IP-Adresse des Pultes wählen Sie im System-Menü <Keys.SoftKey>[Netzwerkeinstellungen](../networking.md)</Keys.SoftKey>.
+Zum Ändern der IP-Adresse des Pultes wählen Sie im **System**-Menü <Keys.SoftKey>[Netzwerkeinstellungen](../networking.md)</Keys.SoftKey>.
 
-Zum Ändern individueller [Benutzereinstellungen](../system-settings/user-settings.md) halten Sie die
-<Keys.HardKey>Avo</Keys.HardKey>-Taste gedrückt und drücken Sie <Keys.SoftKey>User Settings</Keys.SoftKey>.
+Zum Ändern individueller [Benutzereinstellungen](../system-settings/user-settings.md) halten Sie 
+die <Keys.HardKey>Avo</Keys.HardKey>-Taste gedrückt und drücken Sie <Keys.SoftKey>User Settings</Keys.SoftKey>.

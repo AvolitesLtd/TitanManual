@@ -16,7 +16,7 @@ Show kann mehrere Set-Listen enthalten.
 <Video videoId="VX5acUU-99M" title="Set Lists" />
 
 Um das Fenster aufzurufen, drücken Sie zweimal auf 
-[<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+[<Keys.HardKey>Open/View</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
 und wählen <Keys.SoftKey>Set List</Keys.SoftKey>.
 
 Am besten eignet sich dies, wenn man für jeden Song bzw. jede Szene
@@ -32,9 +32,8 @@ die Walze manuell betätigt werden).
 
 ## Erstellen einer Set-Liste
 
-Zum Erstellen einer neuen Set-Liste klicken Sie auf die
-<Keys.ContextKey>+</Keys.ContextKey>-Schaltfläche *oben rechts*, angeboten werden die Optionen <Keys.SoftKey>Empty</Keys.SoftKey>
-(leer), <Keys.SoftKey>Pages</Keys.SoftKey> (Seiten), und <Keys.SoftKey>Build</Keys.SoftKey>. 
+Zum Erstellen einer neuen Set-Liste klicken Sie auf die <Keys.ContextKey>+</Keys.ContextKey>-Schaltfläche
+ *oben rechts*, angeboten werden die Optionen **Empty** (leer), **Pages** (Seiten), und **Build**. 
 -   Mit der Option <Keys.SoftKey>Pages</Keys.SoftKey> wird eine Set-Liste mit den momentan 
 	verwendeten Seiten erstellt. 
 -	Wählt man <Keys.SoftKey>Build</Keys.SoftKey>, so kann man die momentan programmierten Seiten 
@@ -70,9 +69,9 @@ bottom right, or the Edit Note context menu button.
 Macros und Workspaces lassen sich durch Tracks aufrufen: dazu dienen die
 Buttons <Keys.SoftKey>Workspace</Keys.SoftKey> und <Keys.SoftKey>Macro</Keys.SoftKey> rechts unten im 'Set List'-Fenster.
 
-Um eine Verknüpfung zu einem Workspace herzustellen, klicken Sie auf
-<Keys.SoftKey>Workspace</Keys.SoftKey> und dann auf den gewünschten Workspace oder auf \[Record
-Workspace\], um die aktuelle Arbeitsoberfläche zu speichern.
+Um eine Verknüpfung zu einem Workspace herzustellen, klicken Sie auf <Keys.SoftKey>Workspace</Keys.SoftKey> 
+und dann auf den gewünschten Workspace oder auf <Keys.SoftKey>Record Workspace</Keys.SoftKey>, um die aktuelle
+Arbeitsoberfläche zu speichern.
 
 Macros können sowohl von der gesamten Set-Liste als auch von einzelnen
 Tracks aufgerufen werden. Set-Listen-Macros werden dabei bei jedem neuen

@@ -18,13 +18,10 @@ Verknüpfungen selbstverständlich erhalten.
 Das Verschieben von Geräten, Paletten, Gruppen und Speicherplätzen ist
 sehr einfach:
 
-1\> Drücken Sie <Keys.HardKey>Move</Keys.HardKey> (ist diese Taste nicht vorhanden dann <Keys.HardKey>AVO</Keys.HardKey> 
+1.  Drücken Sie <Keys.HardKey>Move</Keys.HardKey> (ist diese Taste nicht vorhanden dann <Keys.HardKey>AVO</Keys.HardKey> 
 und dazu die Taste <Keys.HardKey>Copy</Keys.HardKey>), um den 'Move'-Modus zu aktivieren.
-
-2\> Betätigen Sie die Tasten/Schaltflächen der zu verschiebenden Dinge.
-
-3\> Drücken Sie die Tasten/Schaltflächen, auf die verschoben werden
-soll.
+2.  Betätigen Sie die Tasten/Schaltflächen der zu verschiebenden Dinge.
+3.  Drücken Sie die Tasten/Schaltflächen, auf die verschoben werden soll.
 
 Beim Verschieben eines kompletten Bereichs kann es passieren, dass
 dieser verschiedene Dinge und auch unbelegte Plätze enthält. In diesem

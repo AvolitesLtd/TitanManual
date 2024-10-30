@@ -12,6 +12,12 @@ von Titan durch geeignete Pioneer DJ-Systeme gesteuert werden. Die
 Bridge-Software kann dabei direkt auf dem Titan-Pult oder einem externen
 Laptop laufen.
 
+>   Diese System ist aktuell mit folgenden Geräten verfügbar:<br/>
+    CDJ-TOUR1<br/>
+    DJM-TOUR1<br/>
+    CDJ-2000NXS2<br/>
+    DJM-900NXS2<br/>
+
 <Video videoId="vwr1DBJjBbw" title="PioneerDJ Integration" />
 
 ## Titan und das Pioneer-System verbinden
@@ -36,8 +42,7 @@ Starten Sie die Pro DJ Link Bridge Software über das Menü **Tools \>
 Additional Programs**.
 
 -   Wenn erforderlich lässt sich dies mit **Tools \> Control Panel \> 
-	Run on Startup** automatisch starten, etwa in Clubs, wo
-    das Programm immer benötigt wird.
+    Run on Startup** automatisch starten, etwa in Clubs, wo das Programm immer benötigt wird.
 
 ![Pro-DJ link bridge command on shell menu](/docs/images/Pro-DJ-link-bridge-command-on-shell-menu-2.png)
 
@@ -75,7 +80,7 @@ Pioneer-Geräte.
 
 ## Das PioneerDJ-Fenster
 
-Zum Öffnen des Fensters drücken Sie zweimal auf <Keys.HardKey>View / Open</Keys.HardKey> und klicken
+Zum Öffnen des Fensters drücken Sie zweimal auf <Keys.HardKey>Open/View</Keys.HardKey> und klicken
 auf den Button <Keys.SoftKey>PioneerDJ</Keys.SoftKey>.
 
 ![Pioneer Workspace window](/docs/images/Pioneer-Workspace-window.png)
@@ -99,16 +104,15 @@ Track-Details und Statusleiste).
 
 ![Pioneer context menu buttons](/docs/images/Pioneer-context-menu-buttons.png)
 
--	Mit <Keys.SoftKey>Zoom</Keys.SoftKey> wird die Vergrößerung der großen Signalanzeige eingestellt.
-
--	Mit <Keys.SoftKey>Change Layout</Keys.SoftKey> kann zwischen verschiedenen Layouts des Fensters
-	umgeschaltet werden:
-	-	<Keys.SoftKey>Full</Keys.SoftKey> -- Anzeige aller laufenden Tacks\
-	-	<Keys.SoftKey>Master</Keys.SoftKey> -- Anzeige nur des aktuellen Master-Tracks\
-	-	<Keys.SoftKey>Condensed</Keys.SoftKey> -- Details werden für alle Tracks angezeigt, die
-		Signalkurve aber nur für den aktuellen Master-Track. Der Master-Track
-		kann durch Anklicken der Tracknummer im Detail-Bereich (unten) gewählt
-		werden. 
+- Mit <Keys.SoftKey>Zoom</Keys.SoftKey> wird die Vergrößerung der großen Signalanzeige eingestellt.
+- Mit <Keys.SoftKey>Change Layout</Keys.SoftKey> kann zwischen verschiedenen Layouts des Fensters
+umgeschaltet werden:
+  - &nbsp;<Keys.SoftKey>Full</Keys.SoftKey> -- Anzeige aller laufenden Tracks
+  - &nbsp;<Keys.SoftKey>Master</Keys.SoftKey> -- Anzeige nur des aktuellen Master-Tracks
+  - &nbsp;<Keys.SoftKey>Condensed</Keys.SoftKey> -- Details werden für alle Tracks angezeigt, die
+Signalkurve aber nur für den aktuellen Master-Track. Der Master-Track
+kann durch Anklicken der Tracknummer im Detail-Bereich (unten) gewählt
+werden. 
 
 ## BPM-Master per Pioneer DJ triggern
 
@@ -116,23 +120,24 @@ Dazu muss zunächst ein [BPM Master](../running-the-show/playback-controls.md#op
 definiert werden. Für diesen kann dann wie folgt PioneerDJ als Trigger
 eingerichtet werden.
 
-Öffnen Sie das System-Menü (per <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) und wählen 
- <Keys.SoftKey>Triggers</Keys.SoftKey>. Darauf öffnet sich das Fenster 'Trigger'.
-1.	Fügen Sie mit dem <Keys.ContextKey>+</Keys.ContextKey> *unten links* ein neues Trigger-Set hinzu
-	und geben Sie diesem einen geeigneten Namen, z.B. ‚Pioneer'.
-2.	Legen Sie nun mit dem <Keys.ContextKey>+</Keys.ContextKey> *unten rechts* oder mit der Menütaste
-	<Keys.SoftKey>Add Trigger</Keys.SoftKey> einen neuen Trigger an.
-3.	Setzen Sie <Keys.SoftKey>Trigger Type</Keys.SoftKey> auf <Keys.SoftKey>Item</Keys.SoftKey>.
-4.	Wählen Sie den zu steuernden BPM-Master (Auswahltaste/Button
-	betätigen).
-5.	Bei <Keys.SoftKey>Action</Keys.SoftKey> steht nun <Keys.SoftKey>PioneerDJ</Keys.SoftKey>, da dies momentan die einzige
-	Option für BPM-Master ist. Bestätigen Sie das mit <Keys.SoftKey>OK</Keys.SoftKey>.
-6.	Wählen Sie nun mit <Keys.SoftKey>Deck = </Keys.SoftKey>, welches Pioneer-Deck als Trigger
-	verwendet werden soll. Wählt man <Keys.SoftKey>Master</Keys.SoftKey>, so wird immer das im
-	PioneerDJ als Master definierte Deck verwendet (rotes M), wählt man
-	dagegen Deck 1, 2, 3 oder 4, so wird stets dieses verwendet.
-7.	Mit <Keys.SoftKey>Add</Keys.SoftKey> wird schließlich der Trigger eingerichtet und sollte
-	ähnlich wie auf dem folgenden Bild aussehen.
+Öffnen Sie das **System**-Menü (per <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) und wählen 
+&nbsp;<Keys.SoftKey>Triggers</Keys.SoftKey>. Darauf öffnet sich das Fenster 'Trigger'.
+
+1. Fügen Sie mit dem <Keys.ContextKey>+</Keys.ContextKey> *unten links* ein neues Trigger-Set hinzu
+und geben Sie diesem einen geeigneten Namen, z.B. ‚Pioneer'.
+2. Legen Sie nun mit dem <Keys.ContextKey>+</Keys.ContextKey> *unten rechts* oder mit der Menütaste
+&nbsp;<Keys.SoftKey>Add Trigger</Keys.SoftKey> einen neuen Trigger an.
+3. Setzen Sie <Keys.SoftKey>Trigger Type</Keys.SoftKey> auf <Keys.SoftKey>Item</Keys.SoftKey>.
+4. Wählen Sie den zu steuernden BPM-Master (Auswahltaste/Button
+betätigen).
+5. Bei <Keys.SoftKey>Action</Keys.SoftKey> steht nun <Keys.SoftKey>PioneerDJ</Keys.SoftKey>, da dies momentan die einzige
+Option für BPM-Master ist. Bestätigen Sie das mit <Keys.SoftKey>OK</Keys.SoftKey>.
+6. Wählen Sie nun mit <Keys.SoftKey>Deck = </Keys.SoftKey>, welches Pioneer-Deck als Trigger
+verwendet werden soll. Wählt man <Keys.SoftKey>Master</Keys.SoftKey>, so wird immer das im
+PioneerDJ als Master definierte Deck verwendet (rotes M), wählt man
+dagegen Deck 1, 2, 3 oder 4, so wird stets dieses verwendet.
+7. Mit <Keys.SoftKey>Add</Keys.SoftKey> wird schließlich der Trigger eingerichtet und sollte
+ähnlich wie auf dem folgenden Bild aussehen.
 
 ![Trigger workspace with Pioneer trigger added](/docs/images/Trigger-workspace-with-Pioneer-trigger-added.png)
 

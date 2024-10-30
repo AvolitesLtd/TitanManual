@@ -4,48 +4,39 @@ title: Grundlagen der IP-Adressierung
 sidebar_label: Grundlagen der IP-Adressierung
 ---
 
-import Keys from '@site/src/components/key.ts';
-import Video from '@site/src/components/video.tsx';
-
-In diesem Abschnitt wird versucht, die Grundlagen der IP-Adressierung
-und weiteres Wissenswerte beim Aufbau von Netzwerken zur Lichtsteuerung
-übersichtlich darzustellen.
-
+Jedes Gerät in einem Netzwerk muss eine eindeutige IP-Adresse haben. 
 IP-Adressen werden üblicherweise im Format `w.x.y.z` geschrieben, wobei
 `w`, `x`, `y` und `z` für Zahlen zwischen 0 und 255 stehen; ein Beispiel wäre
-etwa die Adresse `192.168.0.1`. Jedes Gerät in einem Netzwerk muss
-eine eindeutige (in diesem Netzwerk einmalige) IP-Adresse haben. Dies
-ist ein ähnliches Konzept wie bei DMX, wo ebenfalls jedes Gerät eine
-eindeutige Startadresse benötigt.
+etwa die Adresse `192.168.0.1`. Die Adressen können entweder manuell eingestellt 
+(**Statische** IP-Adressen) oder automatisch vergeben werden (**DHCP**). In Licht-Netzwerken
+werden meist statische Adressen verwendet: das dauert zwar etwas länger zum Einrichten, 
+aber dann hat jedes Gerät immer die richtige Adresse.
 
-## Einstellen der IP-Adresse
+Damit sich Geräte im Netzwerk gegenseitig "sehen" können, müssen sie sich im gleichen
+**Subnetz** befinden - das ist der erste Teil der IP-Adresse. Bei jedem Gerät muss 
+die **Subnetz-Maske** so eingestellt werden, dass sie bei allen Geräten innerhalb 
+eines Netzwerks gleich ist, der restliche Teil der IP-Adresse aber muss unterschiedlich sein.
 
-Bei den Titan-Pulten gibt es eine Funktion, die üblichen IP-Adressen
-schnell einstellen zu können; siehe [voriger Abschnitt](controlling-fixtures-over-a-network.md#einstellen-der-ip-adresse-des-pultes).
+Oft findet man Subnetz-Masken von `255.255.255.0`, die bedeuten, dass die `w`, `x` und `y` Teile
+der IP-Adresse gleich sind und die `z`-Adresse bei jedem Gerät anders ist. Wenn z.B. das Lichtpult 
+auf `192.168.1.1` gestellt ist, dann wäre das Subnetz `192.168.1.z`, und alle anderen Geräte
+hätten Adressen wie `192.168.1.2`, `192.168.1.3` etc.
 
-Es empfiehlt sich, die IP-Adressen sämtlicher Pulte und angeschlossener
-Geräte zu überprüfen. Berücksichtigen Sie, dass einige Art-Net-Geräte
-feste Adressen im Bereich `2.x.x.x` verwenden, so dass in diesem Fall das
-Pult und ggf. alle anderen Geräte manuell auf eine Adresse im gleichen
-Bereich eingestellt werden müssen.
-
-## Subnet Masks - Subnetzmasken
-
-Diese sollten möglichst einfach gehalten werden. Sämtliche Geräte
-innerhalb eines Netzwerkes, die miteinander kommunizieren sollen, müssen
-auf die gleiche Subnetzmaske eingestellt sein. Diese Maske bestimmt,
-welcher Teil der IP-Adresse in diesem Netzwerk die eindeutige
-Gerätebezeichnung darstellt. Ist ein bestimmter Teil der Subnetzmaske 0,
-so muss der entsprechende Teil der IP-Adresse für jedes Gerät eindeutig
-(einmalig) sein. Ist ein bestimmter Teil der Maske 255, so muss der
-betreffende Teil der IP-Adresse bei allen Geräten gleich sein.
+Wird die IP-Adresse automatisch per DHCP vergeben, so wird auch die Subnetz-Maske automatisch eingestellt.
+Subnetz-Masken werden gelegentlich in der Form wie z.B. `/24` oder `/8` geschrieben. Das ist jeweils die 
+Anzahl von Bits in der IP-Adresse, die auf 1 stehen. Jeder der Blöcke `w`, `x`, `y` und `z` steht jeweils für 8 Bits. 
+Eine Subnetz-Maske von `255.255.255.0` wäre also gleichbedeutend mit `/24`, eine Maske von `255.0.0.0` wäre `/8`. 
 
 ## Auswahl der IP-Adresse und Subnetzmaske
 
 Dies ist der komplizierteste Teil bei der Einrichtung eines Netzwerkes,
 da hierbei zu berücksichtigen ist, welche Geräte und Protokolle im
 Netzwerk verwendet werden, und welche IP-Adressen frei vergeben werden
-oder bereits festgelegt sind. Im Folgenden sind einige beispielhafte
+oder bereits festgelegt sind. manche ältere Art-Net-Geräte sind z.B. auf Adressen im Bereich `2.x.y.z` oder `10.x.y.z` 
+festgelegt, so dass auch alle anderen Geräte in diesem Netzwerk so eingestellt werden müssen. Ist das nicht der Fall, 
+so verwendet man oft den Adressebereich `192.168.1.x`. 
+
+Im Folgenden sind einige beispielhafte
 Szenarien aufgeführt. *Für das Funktionieren kann keine Garantie
 übernommen werden, doch wählen Sie als Startwert am besten das Beispiel,
 welches Ihrem Netzwerk am nächsten kommt*.
@@ -61,17 +52,13 @@ TNP               | `192.168.1.31`    | `255.255.255.0`
 
 Gerät             | IP-Adresse        | Subnetzmaske
 ---               | ---               | ---
-Titan-Pult        | `2.100.100.100`   | `255.0.0.0`
-Art-Net-Geräte    | `2.x.y.z` **\***  | `255.0.0.0`
+Titan-Pult        | `10.100.100.100`   | `255.0.0.0`
+Art-Net-Geräte    | `10.x.y.z` **\***  | `255.0.0.0`
 
-*Alternativ:*
+(der Bereich `2.x.y.z` kann ebenfalls für Art-Net verwendet werden. Siehe aber die u.g.
+Bemerkungen zu privaten Adressbereichen).
 
-Gerät             | IP-Adresse        | Subnetzmaske
----               | ---               | ---
-Titan-Pult        | `10.100.100.100`  | `255.0.0.0`
-Art-Net-Geräte    | `10.x.y.z` **\*** | `255.0.0.0`
-
-&nbsp;**\*** *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
+**\*** *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
 vergeben.*
 
 ### Titan-Pult und TNP, Ausgang über Art-Net (und DMX)
@@ -90,34 +77,25 @@ Titan-Pult        | `10.100.100.100`  | `255.0.0.0`
 TNP               | `10.100.100.101`  | `255.0.0.0`
 Art-Net-Geräte    | `10.x.y.z` **\*** | `255.0.0.0`
 
-&nbsp;**\*** *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
+**\*** *Dabei sind die Kombinationen von `x`, `y` und `z` für jedes Gerät einmalig zu
 vergeben.*
 
->	Verwenden Sie niemals '255' an letzter Stelle der IP-Adresse; dies ist eine spezielle Adresse und wird nicht funktionieren.
+> Es empfiehlt sich, nie die 255 in einer IP-Adresse zu verwenden. Ist der unmaskierte Teil der IP-Adresse 255,
+so wird dies als Broadcast-Adresse verwendet (z.B. die IP-Adresse `192.168.1.255` ist eine Broadcast-Adresse in einem 
+Netzwerk mit der Maske `255.255.255.0`, und `10.255.255.255` ist eine Broadcast-Adresse in einem 
+Netzwerk mit der Maske `255.0.0.0`.
 
-## Automatische IP-Adressvergabe (DHCP)
+## Wenn das Netzwerk Verbindung zum Internet hat
 
-Eine andere Möglichkeit ist die automatische IP-Adressvergabe per
-DHCP. Dafür muss eins der Geräte als sog. DHCP-Server eingerichtet
-sein, der anderen die passenden Einstellungen zuteilt.
-
-Im Allgemeinen ist dies für Netzwerke im Show-Bereich nicht zu
-empfehlen, insbesondere da etliche Gerät damit nichts anfangen können.
-Schalten Sie daher jegliche DHCP-Funktion ab, oder adressieren Sie
-Ihre Geräte in den Bereich, der von der automatischen Adressvergabe
-ausgenommen ist (lässt sich jeweils beim DHCP-Server einstellen).
-
-## Private IP-Adressbereiche
-
-Ist ihr Netzwerk mit dem Internet verbunden, so ist es wichtig, dass Sie
-einen 'privaten' IP-Adressbereich verwenden. Damit wird sichergestellt,
-dass der Netzwerkverkehr nicht ins Internet geroutet wird. Die privaten
-Adressbereiche sind folgende:
+Nach Möglichkeit sollten Licht-Netzwerke eigene Netzwerke ohne Verbindung zum Internet sein. 
+Sollte einmal ihr Netzwerk doch mit dem Internet verbunden sein, so ist es wichtig, dass Sie
+einen **privaten** IP-Adressbereich verwenden. Damit wird sichergestellt, dass der Netzwerkverkehr 
+nicht ins Internet geroutet wird. Die privaten Adressbereiche sind folgende:
 
 Startadresse  | Letzte Adresse   | Subnetzmaske
 --- 		  | --- 			 | ---
-10.0.0.0 	  | 10.255.255.255 	 | 255.0.0.0
-172.16.0.0 	  | 172.31.255.255   | 255.255.0.0
-192.168.0.0   | 192.168.255.255  | 255.255.255.0
+`10.0.0.0` 	  | `10.255.255.255` | `255.0.0.0` (/8)
+`172.16.0.0`  | `172.31.255.255` | `255.255.0.0` (/12)
+`192.168.0.0` | `192.168.255.255`| `255.255.255.0` (/16)
 
->	Für Art-Net muss der Bereich 10.x.x.x verwendet werden.
+> Für Art-Net muss eventuell der Bereich 10.x.x.x verwendet werden, wenn die vorhandenen Geräte das erfordern.

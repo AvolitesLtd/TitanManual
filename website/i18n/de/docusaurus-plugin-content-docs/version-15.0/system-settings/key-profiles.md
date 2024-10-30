@@ -27,8 +27,8 @@ Touchscreen angezeigt.
 
 <Video videoId="CxHQV4sP_sA" title="Key Profiles" />
 
-Zum Erstellen eines solchen Profils öffnen Sie mit <Keys.HardKey>Avo</Keys.HardKey> + 
-<Keys.HardKey>Disk</Keys.HardKey> das System-Menü und drücken <Keys.SoftKey>Key Profiles</Keys.SoftKey>. Darauf 
+Zum Erstellen eines solchen Profils öffnen Sie mit <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey> 
+das **System**-Menü und drücken <Keys.SoftKey>Key Profiles</Keys.SoftKey>. Darauf 
 öffnet sich das Menü 'Manage Profiles', mit dem man die verschiedenen 
 Profile anzeigen ('View'), ändern ('Edit'), löschen ('Delete') oder 
 ein neues erstellen ('Add') kann.
@@ -50,11 +50,11 @@ Aufforderung zur Anlage eines neuen bzw. Auswahl eines anderen
 bestehenden Profiles.
 
 Die aktuellen Einstellungen für die verschiedenen Tastentypen
-(<Keys.SoftKey>schwarz</Keys.SoftKey>, <Keys.SoftKey>blau</Keys.SoftKey>, <Keys.SoftKey>grau</Keys.SoftKey>, und - soweit zutreffend -
-<Keys.SoftKey>touch</Keys.SoftKey> (die Touchscreen-Schaltflächen und Executor-Tasten))
- werden links im Bildschirm angezeigt. Über schwarze Tasten verfügt 
- nur das Sapphire Touch, außerdem können bei den virtuellen Fadern 
- schwarze Tasten aktiviert werden.
+(<Keys.SoftKey>schwarz</Keys.SoftKey>, <Keys.SoftKey>blau</Keys.SoftKey>, <Keys.SoftKey>grau</Keys.SoftKey>, 
+und - soweit zutreffend - <Keys.SoftKey>touch</Keys.SoftKey> (die Touchscreen-Schaltflächen 
+und Executor-Tasten)) werden links im Bildschirm angezeigt. Beim Diamond 9 sind die 'blauen' Tasten die 
+Auswahltasten und die 'grauen' Tasten die Flash-Tasten. Über schwarze Tasten verfügt 
+nur das Sapphire Touch, außerdem können bei den virtuellen Fadern schwarze Tasten aktiviert werden.
 
 ![Editing a Key Profile](/docs/images/Editing-a-Key-Profile.png)
 
@@ -69,17 +69,15 @@ Die blaue, graue sowie 'touch'-Taste lassen sich als
 &nbsp;**Disabled** (deaktiviert), **Select** (Auswahltaste), **Flash**, **Swop** und
 &nbsp;**Latch** (Einrasten) konfigurieren. 
 
->	Die 'Latch'-Funktion wirkt wie das Stellen des Faders auf 100%, und 
-	auf 0% bei der zweiten Betätigung.
+>   Die 'Latch'-Funktion wirkt wie das Stellen des Faders auf 100%, und auf 0% bei der zweiten Betätigung.
 
 ### Groups
 Die blaue, graue sowie 'touch'-Taste lassen sich als **Disabled**,
 &nbsp;**Select Group**, **Flash Fixtures**, **Timed Flash**, **Flash Master**, **Timed Flash
 Master**, **Swop Fixtures** konfigurieren, siehe auch [Geräte-Gruppen](../controlling-fixtures/fixture-groups.md).
 
->	Die Option **Group/Flash takes precedence** bezieht sich nur auf das 
-	Pearl Expert, bei dem es möglich ist, auf Fadern Playbacks zu speichern
-	und auf den zugehörigen Flash-Tasten Gruppen abzulegen.
+>   Die Option **Group/Flash takes precedence** bezieht sich nur auf das Pearl Expert, bei 
+    dem es möglich ist, auf Fadern Playbacks zu speichern und auf den zugehörigen Flash-Tasten Gruppen abzulegen.
 
 ### Palettes
 
@@ -92,8 +90,8 @@ siehe [Paletten mit Zeiten](../palettes/timing-with-palettes).
 Dies ist besonders interessant beim [Improvisieren (Busking) mit Paletten](../running-the-show/playback-controls.md#improvisieren-busking-mit-paletten).
 
 >   Die Option **Palette/Flash takes precedence** bezieht sich nur auf das 
-	Pearl Expert, bei dem es möglich ist, auf Fadern Playbacks zu speichern
-	und auf den zugehörigen Flash-Tasten Paletten abzulegen.
+    Pearl Expert, bei dem es möglich ist, auf Fadern Playbacks zu speichern
+    und auf den zugehörigen Flash-Tasten Paletten abzulegen.
 
 ### Cues
 
@@ -139,8 +137,8 @@ Select If | Alle Geräte im aktuellen Cue auswählen.
 Kann gesetzt werden auf **Select** (Auswahl) oder **Disabled**.
 
 >   Die Option **Macro/Flash takes precedence** bezieht sich nur auf das 
-	Pearl Expert, bei dem es möglich ist, auf Fadern Playbacks zu speichern
-	und auf den zugehörigen Flash-Tasten Macros abzulegen.
+    Pearl Expert, bei dem es möglich ist, auf Fadern Playbacks zu speichern
+    und auf den zugehörigen Flash-Tasten Macros abzulegen.
 
 ### Options
 
@@ -149,8 +147,8 @@ Record') beim Doppelklick auf freie Schaltflächen deaktivieren.
 
 ### Masters
 
-Es gibt unterschiedliche Einstellungen für <Keys.SoftKey>Standard Masters</Keys.SoftKey> und den 
-<Keys.SoftKey>Scene Master</Keys.SoftKey>.
+Es gibt unterschiedliche Einstellungen für <Keys.SoftKey>Standard Masters</Keys.SoftKey> und 
+den <Keys.SoftKey>Scene Master</Keys.SoftKey>.
 
 Für normale Master gibt es die Optionen **Disabled**, **Selection**, **Flash**, 
 &nbsp;**Latch**, **Connect**, **Tap Tempo**, **Nudge Up**, **Nudge Down**, **Release**, **Reset Multiplier**, **Multiplier x2**, **Freeze**.
