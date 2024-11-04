@@ -76,7 +76,12 @@ with light coming out, so that you can start programming it.
 A quick press of the button will move all selected fixtures to a central
 position and reset all the attributes so that you get a white light.
 However you sometimes might not want to move the fixture, or may want to
-keep some other attributes unchanged. By holding down the <Keys.HardKey>Locate</Keys.HardKey>
+keep some other attributes unchanged. 
+
+- The **Locate** button does not put attribute values into the programmer for recording. If you are in **Record by Channel** mode then 
+the Locate state won't be recorded unless you make changes to the attributes.  (See [Record Mode](./cue-lists/creating-a-cue-list.md#record-mode))
+
+By holding down the <Keys.HardKey>Locate</Keys.HardKey>
 button rather than a quick press, you get some more options:
 
 -   You can mask off some of the Locate settings (such as only turning
@@ -92,17 +97,14 @@ button rather than a quick press, you get some more options:
     the option to <Keys.SoftKey>Remember Mask</Keys.SoftKey> which will keep the mask setting you
     used last time.
 
--   Option <Keys.SoftKey>Clear/Don't Clear Located Attributes</Keys.SoftKey> sets whether the
-    attributes changed by the Locate function will be saved into any
-    cues you store. If the option is set to "Clear" then the Located
-    attributes will not be stored in the Programmer unless you modify
-    them using the wheels. This is useful if for example you want to
-    program a cue which sets the position of fixtures, but does not turn
-    them on. The <Keys.HardKey>Locate</Keys.HardKey> button will light up the fixtures for
-    programming, but the lit state will not be stored in any cues you
-    save.
+-   Option <Keys.SoftKey>Don't Clear/Clear Located Attributes</Keys.SoftKey> helps to avoid accidentally
+    storing Locate values when you record a cue in **Record by Channel** mode.
+    When the option is set to **Don't clear** (default) then when you press <Keys.HardKey>Locate</Keys.HardKey> 
+    any attribute values already in the programmer will be changed to the Locate state and would get recorded if you record a cue.
+    If the option is set to **Clear** then attribute values already in the programmer will be cleared
+    when you press <Keys.HardKey>Locate</Keys.HardKey> and so would not get recorded in a cue.    
 
-> To quickly locate **without changing pan/tilt**, hold <Keys.HardKey>Locate</Keys.HardKey> and press the Pan/Tilt (or Position) button, then release <Keys.HardKey>Locate</Keys.HardKey>. <br/><br/>
+> To quickly locate **without changing pan/tilt**, hold <Keys.HardKey>Locate</Keys.HardKey> and press the Pan/Tilt (or Position) button, then release <Keys.HardKey>Locate</Keys.HardKey>. <br/>
 To quickly locate **pan/tilt only**, hold <Keys.HardKey>Locate</Keys.HardKey>, press <Keys.HardKey>Options</Keys.HardKey> (<Keys.HardKey>Attribute Options</Keys.HardKey> on some consoles), then press <Keys.HardKey>Position</Keys.HardKey> (<Keys.HardKey>Pan/Tilt</Keys.HardKey> on some consoles), then release <Keys.HardKey>Locate</Keys.HardKey>.
 
 

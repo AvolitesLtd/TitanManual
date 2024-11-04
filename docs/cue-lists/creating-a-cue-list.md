@@ -67,7 +67,7 @@ selected or in the programmer (inverted display).
 
 ### Record Mode
 
-<Keys.SoftKey>Record Mode</Keys.SoftKey> lets you select **Record By Fixture** (all attributes of
+The <Keys.SoftKey>Record Mode</Keys.SoftKey> softkey lets you select **Record By Fixture** (all attributes of
     any modified or selected fixture are saved), **Record By Channel** (only
     modified attributes are saved), **Record Stage** (all fixtures with a
     non-zero dimmer channel are saved) or **Quick Build** (allows you to
