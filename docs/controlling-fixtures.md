@@ -78,9 +78,8 @@ position and reset all the attributes so that you get a white light.
 However you sometimes might not want to move the fixture, or may want to
 keep some other attributes unchanged. 
 
-- The **Locate** button does not put attribute values into the programmer for recording. If you are in **Record by Fixture** mode then
-you need to change one or more of the fixture attributes for it to be recorded (fixtures which are selected will also be recorded). If you are in **Record by Channel** mode then nothing
-will be recorded unless you have changed it.  (See [Record Mode](./cue-lists/creating-a-cue-list.md#record-mode))
+- The **Locate** button does not put attribute values into the programmer for recording. If you are in **Record by Channel** mode then 
+the Locate state won't be recorded unless you make changes to the attributes.  (See [Record Mode](./cue-lists/creating-a-cue-list.md#record-mode))
 
 By holding down the <Keys.HardKey>Locate</Keys.HardKey>
 button rather than a quick press, you get some more options:
