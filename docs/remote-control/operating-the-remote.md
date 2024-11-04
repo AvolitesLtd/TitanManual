@@ -6,19 +6,34 @@ sidebar_label: Operating the Remote
 
 import Keys from '@site/src/components/key.ts';
 
-To connect to the console, open the Titan Remote app and a list of
-available consoles will be shown - hopefully if you have done the
-[network setup](setting-up-the-remote.md) correctly, you will see your console listed.
+The previous section [Setting up the Remote](setting-up-the-remote.md) takes you
+through the steps for getting a mobile device connected to the console.
+
+Once you have a network set up, open the Titan Remote app and a list of
+connected consoles should be shown.
+
+![Titan Remote App connection screen](/docs/images/Remote-Connection-Screen.png)
 
 There is also a local emulator which can be used to test or demonstrate
-the remote when no real console is connected.
+the remote when no real console is connected. If your console does not show
+up in the list, you can enter its IP address manually by clicking the + button 
+in the top right hand corner of the screen.
 
-![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-Control-Selection.png)
+![Titan Remote Android App with wheels](/docs/images/Remote-Colour-Attributes.png)
 
-Choose what you want to control using the row of buttons across the
-middle of the app. The Keypad button enables or disables the numeric pad
-(the keypad overlays all the other screens, so you will need to turn it
+The app title bar should be green showing good connection. If the title bar turns
+red then you do not have connection to the console.
+
+Choose what you want to control using the **Keypad / Fixture / Group / Palette / Cue** buttons near the
+top of the app. The Keypad button enables or disables the numeric pad
+(the keypad overlays some other screens, so you will need to turn it
 off to see the others).
+
+Some buttons have a circle icon, this shows that holding down the button
+will give additional options.
+
+The layout of the screen may vary depending on the screen size of your device. On tablets
+and devices with larger screens, you can see multiple windows at the same time.
 
 ## Keypad
 
@@ -26,9 +41,9 @@ The keypad screen lets you do most common tasks in the way a
 programmer\'s remote normally works. You can turn on/Locate fixtures and
 dimmers either individually or together.
 
-![Titan Remote Android App with keypad](/docs/images/Titan-Remote-Android-App-with-keypad.png)
+![Titan Remote Android App with keypad](/docs/images/Remote-Keypad.png)
 
-The User Number of the fixture or dimmer is used for control. For
+The User Number of the fixture or dimmer (as shown in the top left corner of the fixture button) is used for control. For
 example to turn on dimmer 3 at 50% you would press:
 
 **`3 @ 5`**
@@ -41,7 +56,7 @@ For 100% you just press @ twice, for example:
 
 **`1 Thro 10 @ @`**
 
-> To locate one or more fixtures, press Locate instead of the @ button.
+> To Locate selected fixtures, press Locate instead of the @ button.
 
 You can select multiple ranges of dimmers or fixtures using the And
 button, for example:
@@ -53,23 +68,22 @@ button, for example:
 The fixture screen allows you to select fixtures exactly as you would on
 the console.
 
-![Fixture View in Titan Remote Android App](/docs/images/Fixture-View-in-Titan-Remote-Android-App.png)
-
-You can then use the **Palette** screens to control the fixtures, or press
-the **IPCGBES** buttons to directly control functions of the fixtures using
-wheels.
+![Fixture View in Titan Remote Android App](/docs/images/Remote-Fixtures.png)
 
 You can scroll the fixture screen up and down by dragging the window. To
-view the fixture pages, drag the Pages bar to the right.
+view the fixture pages, drag the title bar of the fixture window downwards.
 
 Use the **Highlight**, **Prev** and **Next** buttons to step through a set of selected fixtures
 one at a time. Press the **All** button to reselect all fixtures in the set. Hold down the **All** button to
 step through various selection patterns (odd, even etc).
 
-![Fixture Control in Titan Remote Android App](/docs/images/Fixture-Control-in-Titan-Remote-Android-App.png)
+Use the **IPCGBES** buttons at the top to select the group of attributes you want
+to control, and scroll wheels will be shown for the available functions.
+
+![Colour Control in Titan Remote Android App](/docs/images/Remote-Colour-Attributes.png)
 
 The wheels show function values (such as colours or gobo names). To go
-to the next function, just touch the arrows at the top or bottom of the
+to the next function if the attribute has ranges, just touch the arrows at the top or bottom of the
 wheel. To manually scroll the value, spin the wheel with your fingers.
 If there are more than three functions, touch the **IPCGBES** button again
 to change to the other functions.
@@ -94,13 +108,17 @@ an active playback.
 
 
 
-## Recording Palettes
+## Recording Palettes, Groups and Cues
 
-You can record palettes using the **Rec** button on the remote,
+You can record palettes, groups and cues using the **Rec** button on the remote,
 then click a workspace button as normal. You can also hold down an empty
-button to quick record a palette.
+button to quick record.
 
-If you hold down a used palette button, the current programmer will be
-quick merged into the existing palette.
+When you record an item you can set a text legend
+or a picture legend. You can hold down a button to edit its legend.
 
-*You cannot record cues or groups using the remote.*
+![Remote edit legend](/docs/images/Remote-Legend.png)
+
+If you record to a used palette button, you
+are given options on whether to merge or replace the palette. 
+

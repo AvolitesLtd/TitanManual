@@ -58,7 +58,7 @@ ensure WiFi is set to on.
 5. Select the wireless network from the list, the name you took note of
 earlier. The mobile device should automatically get an IP address from
 the access point.
-6. Run the Titan Remote app. You should see the console listed.
+6. Run the Titan Remote app on the mobile device. You should see the console listed.
 
 > If you are using the remote at show time, on the Access Point you 
 should select the option to hide the SSID. If you do not do this, 
