@@ -1,153 +1,163 @@
 ---
 id: running-and-editing-timelines
-title: Running and Editing Timelines
-sidebar_label: Running and Editing Timelines
+title: Wiedergeben und Editieren von Timelines
+sidebar_label: Wiedergeben und Editieren von Timelines
 ---
 
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-## Running a timeline to timecode
+## Eine Timeline per Timecode steuern
 
-The HTP (intensity) of fixtures in the timeline is controlled by the fader level of the handle. The console will automatically fire the timeline playback to full when timecode is received within the range of the timeline settings.
+HTP-Werte (der Dimmer) von Geräten werden durch den Faderwert der Timeline gesteuert. Die Timeline wird dabei automatisch auf 100% gestartet, sobald der entsprechende Timecode erreicht wird.
 
-You can disable the automatic activation, or set it to fire at zero intensity, using the option [Activate in Range](../timelines/timeline-options.md#timecode-tab). If you disable automatic activation, you must manually fire the timeline by pushing up the playback fader, otherwise no triggers will operate.
+Diese automatische Wiedergabe kann deaktiviert werden, ebenso kann zwar automatisch gestartet werden, aber ohne den Faderwert 100%. Dazu dient die Einstellung [$$$Activate in Range](../timelines/timeline-options.md#timecode-tab) in den Optionen der Timeline. Wird die automatische Aktivierung ausgeschaltet, so muss die Timeline manuell durch Betätigen des Faders aktiviert werden, damit die Trigger funktonieren.
 
 
+1.  Stellen Sie den Button **timecode link** (links unten in der Timeline-Ansicht) auf **Linked** (geschlossene Kettenglieder).
+2.  Starten Sie den Timecode (Wurde die Option **Activate in Range** wie oben beschrieben deaktiviert, so muss der Fader der Timeline manuell aktiviert werden).
+3.  Die Trigger der Timeline starten automatisch zu den jeweils programmierten Timecode-Zeiten.
 
-1.  Ensure the **timecode link** button (bottom left of the timeline view) is set to **Linked**.
-2.  Start the timecode source. (You will need to push up the timeline fader if you have disabled the **Activate in Range** option described above).
-3.  The triggers in the timeline will fire when the timecode reaches their programmed times.
+- Motorfader und die virtuellen Fader bewegen sich automatisch auf die programmierten Werte.
 
-- On consoles with motorised faders and on virtual faders, the playback faders will move as programmed in the triggers.
+- Verwendet man den internen Timecode, so kann dieser automatisch starten, wenn der Fader aktiviert wird, sowie auch wieder stoppen, wenn dieser deaktiviert wird, siehe [$$$ Timeline Options - Fader](../timelines/timeline-options.md#fader-tab).
 
-- If you are using internal timecode you can set the timecode to run automatically when you raise the fader, and/or to stop when you lower the fader. See [Timeline Options - Fader](../timelines/timeline-options.md#fader-tab).
+- Damit die Timeline (nur mit internem Timecode) ständig wiederholt wird, aktivieren Sie die Option Loop [$$$ Timeline Options - Timecode](../timelines/timeline-options.md#timecode-tab).
 
-- You can set the timeline to loop (when using internal timecode), see [Timeline Options - Timecode](../timelines/timeline-options.md#timecode-tab).
+- Wird der Timecode mitten in der Timeline gestartet, so starten alle aktiven Trigger, aber da die vorangegangenen Trigger eventuell nicht oder nicht in der richtigen Reihenfolge gestartet wurden, ist das Ergebnis möglicherweise nicht wie gewünscht. Mit den [Release-Optionen der Timeline](../timelines/timeline-options.md#release-tab) lässt sich das verbessern.
 
-- If you start the timecode at a point part way through the timeline, any active triggers will fire, but the state of LTP attributes on fixtures might be different because previous triggers have not fired in the usual sequence - this might result in a different look to what you programmed. You can use the [Timeline Options - Release](../timelines/timeline-options.md#release-tab) settings to help make this more predictable.
+### Eine Timeline testen
 
-### Testing a timeline
+Um eine Timeline ohne Timecode-Quelle zu testen, stellen Sie den Button **timecode link** unten links im Timeline-Fenster auf **Unlinked** und verwenden die Buttons Play/Pause/Rewind. 
 
-You can test a timeline without running the timecode source by setting the **timecode link** button to **Unlinked**. You can then use the Play/Pause/Rewind buttons
-in the Timeline View window to run the timeline sequence. This can be useful when you don't have control of the timecode source.                  
-
-## Timeline Editing
+## Editieren einer Timeline
  
-### Selecting triggers
+### Auswählen der Trigger
 
-To edit a trigger, you need to select it. There are several different ways to do this.
--   Tap on a playback block to select all the trigger points within the block. You will see selection 
-    handles appear.  Tap again on a selected playback block to step through the
-    trigger points within the block. 
+Um einen Trigger zu editieren, muss man ihn zunächst auswählen. Dafür gibt es verschiedene Möglichkeiten:
+-   Klicken Sie auf einen Playback-Block, um alle darin enthaltenen Trigger auszuwählen. Dazu erscheinen 
+    verschiedene Selektoren. Klicken Sie nochmals auf den Playback-Block, um schrittweise durch die enthaltenen Trigger 
+    durchzuschalten.
 
 ![Timeline trigger handles](/docs/images/Timeline-Handles.png)
 
-- Tap on more triggers to add them to the selection.
+- Klicken Sie auf einen oder mehrere Trigger, um diese mit auszuwählen.
 
-- Draw a selection marquee box over the trigger points you want to select. Only the trigger points enclosed by the selection box will be selected, so if you want to select all points in a block they all need to be inside the box. This is a quick way to select one trigger point without having to "multi-tap" on a block.
+- Zeichnen Sie eine Auswahlbox um die zu wählenden Trigger. Dabei werden nur die in dieser Box enthaltenen Trigger gewählt. Will man also alle Trigger eines Block auswählen, so muss die Auswahlbox um den gesamten Block gezogen werden. Damit kann man umgekehrt auch einzelne Trigger auswählen, ohne mehrfach auf den Block klicken zu müssen.
 
-- To clear all selection use the context menu button <Keys.ContextKey>Clear Trigger Selection</Keys.ContextKey> or tap in an empty area of the Timeline View.
+- Um die Auswahl aufzuheben, klickt man in den freien Bereich im Timeline-Fenster, oder man verwendet <Keys.ContextKey>Clear Trigger Selection</Keys.ContextKey> aus dem Kontext-Menü.
 
-### Using arrow buttons to move trigger selection
+### Auswahl mit den Pfeiltasten
 
-The left/right arrow buttons for the track will move your selection to the previous trigger point or the next trigger point.
+Mit den Pfeil-Buttons (links/rechts) wird der vorige (Pfeil links) bzw. nachfolgende (Pfeil rechts) Trigger ausgewählt.
 
-- Left arrow - moves selection to the previous trigger point on the track.
-- Right arrow - moves selection to the next trigger point on the track.
+Ist vorher kein Trigger ausgewählt gewesen, so springt der Pfeil nach rechts auf den ersten und der Pfeil nach links auf den letzten Trigger.
 
-If nothing is selected, the right arrow will select the first trigger on the track and the left arrow will select the last.
+### Editieren mit den Wheels
 
-### Using the wheels to edit triggers
+Wurden ein oder mehrere Trigger angewählt, so kann man mit den Encodern die Zeit, den Zielwert und die Fadezeit einstellen (nicht alle Trigger haben alle diese Parameter).
 
-When you have one or more trigger points selected, the wheels control the timecode time, target level and fade time of those triggers (some types of trigger do not have all these parameters).
+- Encoder A bestimmt die Timecode-Zeit
+- Encoder B bestimmt den Level (Zielwert)
+- Encoder C bestimmt die Fadezeit
 
-- Wheel A sets the timecode time
-- Wheel B sets the target level
-- Wheel C sets the fade time
+Sind mehrere Trigger ausgewählt, so werden sie alle mit den Encodern beeinflusst.
 
-You can change multiple triggers at the same time by selecting them all and using the wheels.
+### Die Übersichts-Leiste
 
-### Using the overview bar
-
-The **Overview Bar** at the bottom of the Timeline View gives you a miniature view of all the events in the track.
+Die **Übersichts-Leiste** unten im Timeline-Fenster bietet einen Überblick über alle Elemente eine Tracks.
 
 ![Timeline overview bar](/docs/images/Timeline-Overview-Bar.png)
 
-- The handles at the left and right of the Overview Bar set the start and end points of the main view above. This gives you an easy way to zoom in on a particular area.
+- Die Reiter links und rechts entsprechen Start und Ende der Detailansicht darüber. Damit kann man rasch in einen bestimmten Bereich der Timeline springen.
 
-- When you are zoomed in you can drag on the zoomed area in the bar to move the main view (the same as using the Hand tool and dragging on the main view).
+- Wurde in die Timeline hineingezoomt, so kann man den Bereich in der Übersichts-Leiste einfach anklicken und verschieben (so, als ob man mit der 'Hand' im Detailbereich navigieren würde).
 
-- The edit cursor is shown in grey.
+- Der Editier-Cursor wird grau dargestellt.
 
-- The current live time is shown in blue.
+- Die Position der aktuellen Zeit erscheint blau.
 
-### Copying and moving playbacks in a Timeline
+### Kopieren/Verschieben von Playbacks in einer Timeline
 
-You can move playback blocks to a different time or a different track in the Timeline View:
-1. Press <Keys.HardKey>Move</Keys.HardKey>.
-2. Select the playback block(s) you want to move, by tapping on it or drawing a marquee selection box. 
-3. Tap in the Timeline View at the time and track where you want to move the selected playbacks - the relative timing of the triggers will be kept.
+Playback-Blöcke können auf eine anderen Zeit oder einen anderen Track verschoben werden:
+1. Drücken Sie <Keys.HardKey>Move</Keys.HardKey>.
+2. Wählen Sie den/die gewünschten Playback-Block(s), entweder durch Anklicken, oder durch Zeichnen einer Auswahlbox.
+3. Klicken Sie im gewünschten Track auf die Zeit, an die der Block verschoben werden soll.<br/>
+    Werden dabei mehrere Playback-Blöcke ausgewählt, so werden diese mit den dazwischenliegenden 
+    Zeiten (relativ) verschoben.
 
-- You can move individual triggers within the same track by selecting them then using Wheel A to move them to the desired time.
+- Um einzelne Trigger innerhalb eines Tracks zu verschieben, wählen Sie diese aus und verschieben sie mit Encoder A.
 
-You can also copy playback blocks within the Timeline View. Copied playbacks will be a reference (linked copy) of the original, unless you change this using the softkey option <Keys.SoftKey>Create New Playbacks</Keys.SoftKey>.
-1. Press <Keys.HardKey>Copy</Keys.HardKey>.
-2. Tap on the playback block to copy, or draw a marquee selection box over the playbacks to be copied
-3. Choose whether you want to have referenced/linked copies, using the softkey options <Keys.SoftKey>Create New Playbacks</Keys.SoftKey> and <Keys.SoftKey>Use Referenced Playbacks</Keys.SoftKey>.
-4. Tap in the Timeline View at the time and track where you want to copy the selected playback(s). 
+Ebenso können Playback-Blöcke kopiert werden, wobei jeweils eine Verknüpfung erstellt wird, es sei denn, 
+im Menü wird die Option <Keys.SoftKey>Create New Playbacks</Keys.SoftKey> aktiviert.
+1. Drücken Sie <Keys.HardKey>Copy</Keys.HardKey>.
+2. Wählen Sie den/die gewünschten Playback-Block(s), entweder durch Anklicken, oder durch Zeichnen einer Auswahlbox.
+3. Wählen Sie im Menü zwischen <Keys.SoftKey>Create New Playbacks</Keys.SoftKey> (Erstellen neuer Playbacks) 
+   und <Keys.SoftKey>Use Referenced Playbacks</Keys.SoftKey> (Erstellen von Verknüpfungen).
+4. Klicken Sie im gewünschten Track auf die Zeit, an die der Block (bzw. die Blöcke) verschoben werden soll(en).
 
-### Deleting playbacks in a Timeline
+### Löschen von Playbacks in einer Timeline
 
-You can delete playback blocks by pressing <Keys.HardKey>Delete</Keys.HardKey> then tapping on the block you want to delete, or drawing a marquee selection box over the triggers to be deleted.
+Um ein Playback in einer Timeline zu löschen, drücken Sie <Keys.HardKey>Delete</Keys.HardKey>, wählen 
+den Block durch Anklicken oder Ziehen einer Auswahlbox, und bestätigen das durch nochmaliges Anklicken 
+oder durch <Keys.SoftKey>Confirm</Keys.SoftKey>.
 
-You can also delete tracks or delete playback rows from tracks using the <Keys.HardKey>Delete</Keys.HardKey> button.
+Ebens können Playback-Zeilen oder ganze Tracks per <Keys.HardKey>Delete</Keys.HardKey> gelöscht werden.
 
-### Setting track legends and halo colours on tracks
+### Vergeben von Legenden und Halos für Tracks
 
-To help you identify different tracks, you can set halo colours. This colour outlines the track and also sets the colours of the trigger blocks which makes them easier to see in the overview bar.
+Für eine bessere Orientierung kann man Tracks mit farbigen Halos versehen. Damit wird sowohl der Track umrandet 
+als auch die Trigger-Blöcke farbig dargestellt.
 
-If a halo colour is set for a playback, that colour will be used in the Timeline View as shown in Track 2 in the picture below. You can set the playback halo colour from the Timeline View by tapping on the playback row in step 2.
+Wurde ein Playback mit einem farbigen Halo versehen, so wird dies auch in der Timeline-Ansicht verwendet 
+wie bei Track 2 im nachfolgenden Bild. Um das Halo des Playbacks zu ändern, klicken Sie in Schritt 2 auf das Playback.
 
 ![Timeline halo](/docs/images/Timeline-Halo.png)
 
-1. Press <Keys.SoftKey>Set Legend</Keys.SoftKey> at the top level main menu.
-2. Tap on the Track legend or the playback row in the Timeline View.
-3. Change <Keys.SoftKey>Legend</Keys.SoftKey> to set the track legend or press <Keys.SoftKey>Halo</Keys.SoftKey>.
-4. Select a halo colour from the colour picker.
+1. Drücken Sie auf <Keys.SoftKey>Set Legend</Keys.SoftKey> im Hauptmenü.
+2. Klicken Sie im Timeline-Fenster auf den gewünschten Track oder die gewünschte Playback-Zeile.
+3. Geben Sie mit <Keys.SoftKey>Legend</Keys.SoftKey> die Bezeichnung des Tracks ein oder drücken Sie 
+   auf <Keys.SoftKey>Halo</Keys.SoftKey>.
+4. Wählen Sie die gewünschte Halo-Farbe aus.
 
-- You can remove a halo colour by pressing <Keys.SoftKey>Remove Halo</Keys.SoftKey> at step 4.
-- You can also set legends on markers using the <Keys.SoftKey>Set Legend</Keys.SoftKey> button.
-- You can set a halo colour for a **Wait for Go** trigger by tapping on it at step 2.
+- Um das Halo zu entfernen, drücken Sie bei Schritt 4 auf <Keys.SoftKey>Remove Halo</Keys.SoftKey>.
+- Mit <Keys.SoftKey>Set Legend</Keys.SoftKey> können auch für Marker legenden vergeben werden.
+- Für einen **Wait for Go**-Trigger kann man die Farbe einstellen, indem man diesen bei Schritt 2 anklickt.
 
-### Snap options
+### Snap -- Fangptionen
 
-Using the context menu option <Keys.ContextKey>Snap Options</Keys.ContextKey> you can configure whether new triggers will
-snap to existing objects when you enter them by clicking on the Timeline View.
-The snap options are:
+Mit der Kontext-Option <Keys.ContextKey>Snap Options</Keys.ContextKey> lässt sich einstellen, ob neu hinzugefügte 
+Objekte beim Klicken in der Timeline-Ansicht von bereits existierenden Objekten 'gefangen' werden.
+Es gibt folgende Möglichkeiten:
 - Snap To Triggers
 - Snap To Markers
 - Snap To Cursor
 
+### Kompakte Track-Ansicht
 
-### Collapsing track view
+Hat man gleichzeitig viele Tracks in einem Fenster, so können diese auf kleinere Höhe gebracht werden, 
+so dass man mehrere gleichzeitig dargestellt bekommt. Klicken Sie dazu auf das Dreieck links neben den einzelnen Tracks.
 
-If you have a lot of tracks, you can collapse them to a smaller height to show more tracks on the screen, by clicking the arrow button to the left of the track name.
+Es gibt mehrere Möglichkeiten: 
+- mit dem ersten Klick wird das Dreieck um 45° gedreht. Trigger, die sich nicht mit anderen überschneiden, 
+  werden auf einer Zeile dargestellt. Überschneidende Trigger werden auf getrennten Zeilen angezeigt. Das ist 
+  kompakter als die große Ansicht, aber trotzdem noch gut editierbar.
+- mit dem zweiten Klick werden alle - auch sich überschneidende - Trigger in einer Zeile dargestellt. Das 
+  Dreieck ist dazu um 90° gedreht und zeigt nach rechts.
 
-There are two levels of collapse: 
-- On the first click the arrow button moves to 45 degrees, any triggers which don't overlap with another playback are shown on a single row. Triggers which would overlap are shown in separate rows. This lets you see more tracks but is still easy to edit.
-- On the second click the arrow becomes horizontal and all of the triggers are combined into a single row whether they overlap or not.
+### Tabellen-Ansicht
 
-### Table view
-
-You can show a table version of the Timeline using the <Keys.ContextKey>Open Table View</Keys.ContextKey> context button. 
-This shows details for each trigger in time order, in the same format as a cue list. Buttons down the left hand side allow you to filter which tracks are shown in the list.
-You can have the Table View and the Timeline View open at the same time.
+Die Timeline kann auch in einer Tabellenansicht angezeigt werden, klicken Sie dazu im Kontext-Menü 
+auf <Keys.ContextKey>Open Table View</Keys.ContextKey>. Damit werden alle Trigger mit ihren Details in einer 
+Tabelle angezeigt, so wie z.B. von Cuelisten gewohnt. Mit den Buttons auf der linken Seite lässt sich die Liste filtern.
+Timeline-Fester und die Timeline-Tabelle können gleichzeitg geöffnet sein.
 
 ![Timeline table view](/docs/images/Timeline-Table-View.png)
 
-- You can edit any of the settings, except the trigger Action type, by clicking on the grid and using the softkey options to change the settings.
-- You can add new triggers using the <Keys.ContextKey>+</Keys.ContextKey> button.
-- You can delete triggers by pressing <Keys.HardKey>Delete</Keys.HardKey> then the table row you want to delete.
-
+- bis auf den Trigger-Typ lassen sich alle Details editieren, indem man auf die jeweilige Tabellenzelle klickt 
+und die Änderungen über das Menü vornimmt.
+- Mit dem Button <Keys.ContextKey>+</Keys.ContextKey> können neue Trigger hinzugefügt werden.
+- Um in der Tabellenansicht Trigger zu löschen, drücken Sie auf <Keys.HardKey>Delete</Keys.HardKey> 
+und die zu löschende Tabellenzeile. Klicken Sie zur Bestätigung nochmals auf die Zeile oder drücken 
+Sie auf <Keys.SoftKey>Confirm</Keys.SoftKey>.
 

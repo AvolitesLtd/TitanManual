@@ -22,18 +22,18 @@ den Simulator ein Editor AvoKey oder ein angeschlossener T1 oder T2
 erforderlich.
 
 
-> 	Zu den Systemanforderungen siehe [Inbetriebnahme von Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2).                 
+> Zu den Systemanforderungen siehe [Inbetriebnahme von Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2).                 
 
-- 	Capture verlangt dabei eine leistungsstarke Grafikkarte. Sollten dabei 
-	Probleme auftreten, stellen Sie bitte sicher, die aktuellsten Treiber
-	für Ihre Grafikkarte installiert zu haben.   
+- Capture verlangt dabei eine leistungsstarke Grafikkarte. Sollten dabei 
+Probleme auftreten, stellen Sie bitte sicher, die aktuellsten Treiber
+für Ihre Grafikkarte installiert zu haben.   
 
 Laden Sie einfach die **Titan PC-Suite** herunter (verfügbar im
 Download-Bereich auf www.avolites.com) und installieren sie. Beim ersten
-Programmstart muss [der AvoKey lizenziert](../system-settings/recovering-reinstalling-the-console#software-lizenzierung) werden; folgen Sie dazu den
+Programmstart muss eventuell noch [der AvoKey lizenziert](../system-settings/recovering-reinstalling-the-console#software-lizenzierung) werden; folgen Sie dazu den
 Anweisungen des Authenticator-Hilfsprogramms, das automatisch startet.
 
-Once licensed, you have a choice of how Titan will operate:
+Einmal lizenziert, kann man die Software entweder als Titan Go oder als Titan Simulator starten:
 
 -   Gestartet als Titan Go lässt sich nur mit dem Editor AvoKey ein
     DMX-Universum über Artnet/sACN ausgeben (mit einem T1/T2 geht auch

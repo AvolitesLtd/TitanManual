@@ -9,10 +9,10 @@ import Video from '@site/src/components/video.tsx';
 
 ## Die Menütasten
 
-(Das Pearl Expert hat dafür extra ein kleines LCD-Display im Pult)
-
 Auf der rechten Seite des Touchscreens befindet sich der Menü-Bereich.
-Direkt daneben angeordnet sind die Menütasten A-G.
+Direkt daneben angeordnet sind die Menütasten A-G. Beim Diamond 9 gibt es 
+für das Menü extra ein Touch-Display links neben dem rechten Bildschirm. 
+(Das Pearl Expert hat dafür extra ein kleines LCD-Display im Pult).
 
 ![Titan Touch Screen User Interface](/docs/images/Titan-Touch-Screen-User-Interface.png)
 
@@ -32,7 +32,8 @@ sollen.
 
 Der Informationsbereich links davon (mit dem Avolites-Logo) bietet
 Hinweise zum aktuellen Programmierschritt, außerdem werden hier die
-letzten Befehle für die Undo-Funktion aufgelistet.
+letzten Befehle für die Undo-Funktion aufgelistet. Auf dem Diamond 9 befindet sich der Infobereich 
+oberhalb der Menütasten im Menü-Touchscreen.
 
 ![Prompt Area](/docs/images/System-Area.png)
 
@@ -49,7 +50,7 @@ findet man auf der Walze Informationen darüber.
 
 ![Wheels](/docs/images/Wheels-2.png)
 
-Darüber (beim Sapphire Touch: rechts daneben) werden in einer Leiste die
+Unmittelbar darüber bzw. daneben werden in einer Leiste die
 Attributgruppen IPCGBESFX angezeigt: I = Intensity = Helligkeit; P = 
 Position; C = Colour = Farbe; G = Gobo; B = Beam = Beeinflussung des 
 Lichtstrahls; E = Effect, S = Special, FX = (generierte) Effekte. 
@@ -59,21 +60,16 @@ dagegen blau.
 Die Darstellung der Menütasten variiert mit der jeweils möglichen
 Bedienungsoption:
 
-  ![Softkey - Action](/docs/images/Softkey-Action.png)
-  **Aktionstaste** - beim Anklicken wird dieser Befehl ausgeführt              
-  
-  ![Softkey - Option](/docs/images/Softkey-Option.png) 
-  **Optionstaste** - zum Durchschalten durch eine Anzahl von Optionen   
-  
-  ![Softkey - New Menu](/docs/images/Softkey-New-Menu.png) 
-  **Neues Menü** - öffnet ein weiteres Menü   
-  
-  ![Softkey - Text Entry](/docs/images/Softkey-Text-Entry.png) 
-  **Texteingabe** - Taste betätigen, um mit der Tastatur einen Text einzugeben
+  |   Darstellung   | Bedeutung          |
+  |     ---   | ---          |
+  |  ![Softkey - Action](/docs/images/Softkey-Action.png)  |  **Aktionstaste** - beim Anklicken wird dieser Befehl ausgeführt   |
+  |  ![Softkey - Option](/docs/images/Softkey-Option.png)  |  **Optionstaste** - zum Durchschalten durch eine Anzahl von Optionen   |
+  |  ![Softkey - New Menu](/docs/images/Softkey-New-Menu.png)  |  **Neues Menü** - öffnet ein weiteres Menü   |
+  |  ![Softkey - Text Entry](/docs/images/Softkey-Text-Entry.png)  |  **Texteingabe** - Taste betätigen, um mit der Tastatur einen Text einzugeben  |
 
 ## Die Werkzeugleiste
 
-Auf allen Konsolen außer dem Sapphire Touch befindet sich am oberen
+Auf allen Konsolen außer dem Diamond 9 und dem Sapphire Touch befindet sich am oberen
 Bildschirmrand die Werkzeugleiste.
 
 ![Tools Menu](/docs/images/Tools-Menu.png)
@@ -83,33 +79,41 @@ links im rechten sowie rechts im linken Display.
 
 ![Sapphire Tools Menu](/docs/images/Sapphire-Tools-Menu.png)
 
+Auf dem Diamond 9 gibt es statt der Werkzeugleiste einen Button <Keys.ContextKey>Tools</Keys.ContextKey> 
+links oben auf dem rechten Touchscreen. Außerdem gibt es die Taste <Keys.HardKey>Tools</Keys.HardKey> 
+auf der ausziehbaren Tastatur.
+
+![D9 Tools button](/docs/images/Tools-Button-D9.png)
+
+---
+
 Beim Betätigen der Schaltfläche 'Tools' öffnet sich ein Menü mit Zugriff
 auf verschiedene weitere Konfigurationsmöglichkeiten (abhängig vom
 Pult):
 
-&nbsp;**About** zeigt Informationen über die Software-Version.
+**About** zeigt Informationen über die Software-Version.
 
-&nbsp;**Help** öffnet das (englische) Online-Handbuch.
+**Help** öffnet das (englische) Online-Handbuch.
 
-&nbsp;**Control Panel** öffnet ein Untermenü mit Einstellungsmöglichkeiten
+**Control Panel** öffnet ein Untermenü mit Einstellungsmöglichkeiten
 etwa für den Bildschirm oder die USB Expert-Konsole, die die Verbindung
 zwischen der Bedienoberfläche und dem Hauptprozessor herstellt. Der
 Punkt 'More...' öffnet die Windows-Systemsteuerung, um die
 Systemkonfiguration zu bearbeiten.
 
-&nbsp;**Touch Screen Setup** (in Control Panel) öffnet das 
+**Touch Screen Setup** (in Control Panel) öffnet das 
 Einrichtungsprogramm für die Touchscreens, mit dem diese z.B. auch 
 kalibriert werden können.
 
-&nbsp;**USB Expert Console** (in Control Panel) ist das Einrichtungsprogramm 
+**USB Expert Console** (in Control Panel) ist das Einrichtungsprogramm 
 für die Verbindung zwischen Bedienoberfläche und Hauptprozessor. 
 Sollten Probleme auftreten, kann man hier hilfreiche Informationen 
 für die Fehlersuche finden.
 
-&nbsp;**Folders** öffnet das Dateisystem zum direkten Zugriff. Dies wird u.a.
+**Folders** öffnet das Dateisystem zum direkten Zugriff. Dies wird u.a.
 zum Sichern der Daten sowie zum Updaten benötigt.
 
-&nbsp;**Switch Task** dient zum Umschalten
+**Switch Task** dient zum Umschalten
 zwischen mehreren Programmen, und zum Bewegen der Programmfenster auf
 den externen Bildschirm. Benutzen Sie das Symbol 'Bildschirm wechseln',
 um ein Fenster zwischen Touchscreen und externem Bildschirm hin- und
@@ -118,19 +122,19 @@ herzuschalten; 'Zentrieren' zentriert das Fenster auf dem Bildschirm,
 
 ![Switch Task](/docs/images/Switch-Task.png)
 
-&nbsp;**Switch Software** erlaubt es, zwischen verschiedenen Versionen der
+**Switch Software** erlaubt es, zwischen verschiedenen Versionen der
 Pult-Software (sofern installiert) umzuschalten. Das kann sinnvoll sein,
 um Shows aus älteren Versionen zu laden.
 
-&nbsp;**Additional Programs** dient zum Aufruf einiger Diagnoseprogramme, die
+**Additional Programs** dient zum Aufruf einiger Diagnoseprogramme, die
 dem Avolites-Support die Fehlersuche ermöglichen.
 
-&nbsp;**Restart** und **Shutdown Software** startet die Titan-Software neu
+**Restart** und **Shutdown Software** startet die Titan-Software neu
 bzw. schließt sie. Normalerweise benötigt man das nur beim
 Programm-Update.
 
 In der Werkzeugleiste befindet sich auch jeweils ein Button zum Aufrufen
-der Bildschirmtastatur.
+der Bildschirmtastatur. Auf dem Diamond 9 gibt es dafür die Taste <Keys.HardKey>Keyboard</Keys.HardKey>.
 
 > Bei der Titan PC Suite (Titan Mobile, Titan Go, Simulator) gibt es keine Toolbar, da alle diese Funktionen über Windows bzw. die Systemsteuerung zur Verfügung stehen.
 

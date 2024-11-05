@@ -7,16 +7,39 @@ sidebar_label: Die Tasten der Konsole
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Die den Fadern zugeordneten blauen und grauen Tasten sowie die
+Die den Fadern zugeordneten blauen und grauen (Auswahl und Flash) Tasten sowie die
 Macro/Executor-Tasten sind weitgehend frei zu konfigurieren.
+
+## Auswahl- und Flashtaste
+
+Zu jedem  Fader auf dem Pult gibt es verschiedene Tasten.
+
+
+&nbsp;<Keys.Annotation>A</Keys.Annotation> **Auswahltaste**
+
+&nbsp;<Keys.Annotation>B</Keys.Annotation> **Flashtaste**
+
+
+Auf dem **Diamond 9** sind die Tasten für die Drehregler und Fader wie folgt angeordnet::
+
+![Diamond Select and Flash](/docs/images/Diamond-Select-Flash.png)
+
+Auf dem **Sapphire Touch** sind die Tasten für die oberen sowie die unteren Fader wie auf den nachfolgenden Bildern angeordnet. Dabei hat das Sapphire Touch jeweils auch noch eine schwarze Taste, die per Key Profile belegt werden kann.
+
+![Sapphire Select and Flash](/docs/images/Sapphire-Select-Flash.png)
+
+Bei **allen anderen Pulten** sind die Tasten folgendermaßen angeordnet:
+
+![Arena Select and Flash](/docs/images/Arena-Select-Flash.png)
+
 
 ## Key Profiles -- Tastenprofile
 
-Es ist möglich, die Funktionsweise der grauen Flash- und blauen
-Auswahl-Taster (sowie der schwarzen Tasten beim Sapphire Touch) zu
+Es ist möglich, die Funktionsweise der Flash- und der
+Auswahltasten (sowie der schwarzen Tasten beim Sapphire Touch) zu
 ändern. Ebenso lässt sich die Funktion einiger Schaltflächen ändern.
-Diese Einstellungen lassen sich als [Key Profile (Tastenprofil)](../system-settings/key-profiles.md) abspeichern. Einzelne 
-Tastenprofile lassen sich einzelnen Benutzern zuordnen oder für die 
+Diese Einstellungen lassen sich als [Key Profile (Tastenprofil)](../system-settings/key-profiles.md) 
+abspeichern. Einzelne Tastenprofile lassen sich einzelnen Benutzern zuordnen oder für die 
 vereinfachte Bedienung des Pultes bei bestimmten Anwendungsfällen verwenden.
 
 ## Macros -- Tastenfolgen
@@ -24,7 +47,7 @@ vereinfachte Bedienung des Pultes bei bestimmten Anwendungsfällen verwenden.
 Während des Programmierens sind zuweilen bestimmte Abfolgen von
 Tastendrücken sehr oft auszuführen. Zur Vereinfachung lassen sich solche
 Tastenfolgen sehr einfach abspeichern und mit dem Betätigen einer
-einzigen Taste wieder abrufen; dies wird Makro genannt. Makros können
+einzigen Taste wieder abrufen; dies wird **Macro** genannt. Macros können
 die Tastendrücke mit den aufgezeichneten Pausen (Real Time) oder aber so
 schnell wie möglich (Full Speed) wiedergeben.
 
@@ -32,33 +55,31 @@ Full Speed dient dabei insbesondere für wiederkehrende Aufgaben beim
 Programmieren, während mit Real Time auch ganze Effekte - mit ihrem
 Timing - wiedergegeben werden können.
 
-Makros können in den meisten Arbeitsfenstern sowie direkt auf den dafür 
-vorgesehenen Tasten rechts auf dem Pult abgelegt werden; außerdem gibt 
+Macros können in den meisten Arbeitsfenstern sowie direkt auf den dafür 
+vorgesehenen Tasten auf dem Pult abgelegt werden; außerdem gibt 
 es ein Fenster "Macros". Die 10 'Macro'-Tasten (altes Tiger Touch) 
 korrespondieren mit den ersten zehn Schaltflächen im 'Macros'-Fenster, 
 während die Macro/Executor/Workspace-Tasten im Fenster 'Feste Playbacks' 
 angezeigt werden.
 
-Das Arena hat noch zwei weitere Macro-Tasten vorn links auf dem Pult.
+- Auf dem Diamond 9 gibt es extra 6 Macrotasten mit einem Display zur Anzeige der 
+aktuellen Funktion zwischen den Faderbänken.
+
+- Das Arena hat noch zwei weitere Macro-Tasten vorn links auf dem Pult.
 
 Ein Macro aufzeichnen
 
 1.  Drücken Sie die blaue Taste <Keys.HardKey>Macro</Keys.HardKey> (oberhalb des Ziffernblocks)
-
 2.  Wählen Sie <Keys.SoftKey>Full Speed</Keys.SoftKey> oder <Keys.SoftKey>Real Time</Keys.SoftKey>.
-
 3.  Drücken Sie <Keys.SoftKey>Record</Keys.SoftKey>.
-
 4.  Betätigen Sie eine freie graue Taste oder Schaltfläche auf dem 
-	Touchscreen. Damit beginnt die Aufzeichnung. Währenddessen blinkt die 
-	Taste <Keys.HardKey>Macro</Keys.HardKey>.
-
+Touchscreen. Damit beginnt die Aufzeichnung. Währenddessen blinkt die 
+Taste <Keys.HardKey>Macro</Keys.HardKey>.
 5.  Führen Sie nun die aufzuzeichnende Tastenfolge aus.
-
 6.  Klicken Sie <Keys.HardKey>Macro</Keys.HardKey> zum Beenden der Aufzeichnung.
 
-Zum Ausführen des aufgezeichneten Makros einfach die Taste betätigen,
-auf der das Makro gespeichert wurde. Daraufhin werden sämtliche Schritte
+Zum Ausführen des aufgezeichneten Macros einfach die Taste betätigen,
+auf der das Macro gespeichert wurde. Daraufhin werden sämtliche Schritte
 der Tastenfolge automatisch ausgeführt (wahlweise mit den
 aufgezeichneten Pausen oder in schneller Folge).
 
@@ -113,19 +134,21 @@ Taste | Aktion | | Taste | Aktion
    Alt ↑   |  All                       | |           |  |
    Alt ↓   |  Highlight                 | |           |  |
 
-⇑ = Shift/Umschalt\
+⇑ = Shift/Umschalt
+
 (Num) = auf dem Ziffernblock
 
 ## Das Pult sperren
 
 Das Pult lässt sich sperren, um unbeabsichtigte oder unbefugte Eingriffe
-zu verhindern. Halten Sie dazu <Keys.HardKey>AVO</Keys.HardKey> gedrückt, klicken Sie auf
-<Keys.SoftKey>Lock</Keys.SoftKey>, und geben Sie nun ein Passwort ein (Buchstaben oder Ziffern).
-Zum Entsperren muss das gleiche Passwort wieder eingegeben werden; die
-Eingabeaufforderung für das Passwort wird nach einigen Sekunden der
-Inaktivität ausgeblendet, erscheint aber sofort wieder, sobald eine
-Taste betätigt oder der Bildschirm angetippt wird. Dies ist ausdrücklich
-nur eine einfache Sperre, *just to prevent idiots messing with it.*
+zu verhindern. Halten Sie dazu <Keys.HardKey>AVO</Keys.HardKey> gedrückt, 
+klicken Sie auf <Keys.SoftKey>Lock</Keys.SoftKey>, und geben Sie nun ein 
+Passwort ein (Buchstaben oder Ziffern). Zum Entsperren muss das gleiche 
+Passwort wieder eingegeben werden; die Eingabeaufforderung für das Passwort 
+wird nach einigen Sekunden der Inaktivität ausgeblendet, erscheint aber 
+sofort wieder, sobald eine Taste betätigt oder der Bildschirm angetippt 
+wird. Dies ist ausdrücklich nur eine einfache Sperre, *just to prevent 
+passing idiots messing with it.*
 
 Es lässt sich eine Grafik einstellen, die bei gesperrtem Pult angezeigt
 wird. Drücken Sie dazu <Keys.HardKey>Avo</Keys.HardKey> und wählen das Menü <Keys.SoftKey>User Settings</Keys.SoftKey>
@@ -136,13 +159,10 @@ If you load a picture file, the menu option <Keys.SoftKey>Scaling Mode</Keys.Sof
 the picture will be scaled to fill the screen.
 
 -   None: keine Skalierung, das Bild wird in Originalgröße angezeigt
-
 -   Letterbox: skaliert, bis entweder Breite oder Höhe formatfüllend
     dargestellt werden, und lässt ansonsten schwarze Ränder
-
 -   Fill: skaliert, bis das Bild in voller Breite oder Höhe dargestellt
     wird.
-
 -   Stretch: Das Bild wird auf den gesamten Bildschirm aufgezogen und
     ggf. verzerrt dargestellt
 

@@ -1,116 +1,117 @@
 ---
 id: timeline-options
-title: Timeline Options
-sidebar_label: Timeline options
+title: Timeline-Optionen
+sidebar_label: Timeline-Optionen
 ---
 
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Timelines have a number of options which set how they operate.
-Press <Keys.HardKey>Options</Keys.HardKey> (or the <Keys.SoftKey>Options</Keys.SoftKey> softkey on the top level menu) then the **select** button for the timeline you wish to edit.
-The default setting is shown in **bold**.
+Timelines haben verschiedene Optionen, mit denen das Verhalten genau eingestellt werden kann.
+Drücken Sie <Keys.HardKey>Options</Keys.HardKey> (oder die Menütaste <Keys.SoftKey>Options</Keys.SoftKey> im 
+Hauptmenü), dann die **Auswahltaste** der jeweiligen Timeline.
+Die Vorgabewert sind hier **fett** dargestellt.
 
 ---
 
-## Handle Tab
+## Tab "Handle"
 
-All options are the same as for a cue, see [Options](../cues/playback-options.md#handle-tab).
+Die gleichen Optionen wie bei Cues, siehe [Options](../cues/playback-options.md#handle-tab).
 
 ---
 
-## Times Tab
+## Tab "Times"
 
 ![Timeline Options: Times](/docs/images/Timeline-Options-Times.png)
 
-These options let you set the duration and start time of the timeline. These set the loop points when you are using the
-[Loop function](../timelines/timeline-options.md#timecode-tab) or are used to fire the timeline automatically when the timecode is in the correct range.
-They can also be used to set limits on the timeline so you can be sure nothing will happen if you get sent some wayward timecode.
+Hier wird die Startzeit und die Dauer der Timeline eingestellt. Daraus ergeben sich die Punkte, 
+an denen mit 'Loop' die Timeline wiederholt wird, siehe [$$$ Loop function](../timelines/timeline-options.md#timecode-tab), oder wann die Timeline bei externem Timecode automatisch startet.
+Hiermit kann auch die Timeline begrenzt werden, so dass nichts passiert, wenn der Timecode mal völlig aus dem Ruder läuft.
 
 ---
 
-## Fader Tab
+## Tab "Fader"
 
 ![Timeline Options: Fader](/docs/images/Timeline-Options-Fader.png)
 
-Sets what happens to an internal timecode source when the playback fader containing the timeline is raised or zeroed. If an external
-timecode source is being used then this option has no effect.
+Hier wird bestimmt, was mit em internen Timecode passiert, wenn der Fader der Timeline aktiviert bzw. auf 0 gebracht wird. Wird ein externer Timecode verwendet, so bleiben diese Einstellungen ohne Auswirkung.
 
-Option              | Action
----|-----
-Fader Raised Action | **No Action**: The internal timecode source is not changed.<br/>Play: The internal timecode source is started.
-Fader Zero Action   | **No Action**: The internal timecode source is not changed.<br/>Stop: The internal timecode source is stopped. <br/>Pause: The internal timecode source is paused at the current time.
-Kill At Zero | **Off:** Timeline will remain active when the timeline fader is zeroed. <br/>On: Timeline will be killed when the timeline fader is zeroed.
+Option | Wirkung
+-------|--------
+Fader Raised Action | **No Action**: Der interne Timecode bleibt unverändert, sobald der Fader aktiviert wird.<br/>Play: Der interne Timecode wird gestartet, sobald der Fader aktiviert wird.
+Fader Zero Action   | **No Action**: Der interne Timecode bleibt unverändert, wenn der Fader auf 0 gesetzt wird.<br/>Stop: Der interne Timecode wird gestoppt, wenn der Fader auf 0 gesetzt wird. <br/>Pause: Der interne Timecode wird angehalten (Pause), wenn der Fader auf 0 gesetzt wird.
+Kill At Zero | **Off:** Die Timeline bleibt aktiv, wenn der Fader auf 0 gesetzt wird. <br/>On: Die Timeline wird deaktiviert, wenn der Fader auf 0 gesetzt wird.
 
-> This option is useful for creating a complicated one-shot effect for busking. Create the effect as a timeline using internal timecode and set these options to **Play**/**Stop** - you can fire your effect just by raising the fader and when you lower the fader to zero the effect will reset. Timecode must also be unlinked to create a one-shot effect.
+> Mit diesen Optionen lässt sich ein aufwendiger Effekt als Ablauf programmieren. Programmieren Sie diesen als Timeline mit den Einstellungen **Play** und **Stop**. So kann der Ablauf einfach per Fader abgerufen werden. Beachten Sie, dass dazu der Timecode entkoppelt sein muss, damit der Effekt wirklich nur 1x läuft.
 
 ---
 
-## Release Tab
+## Tab "Release"
 
 ![Timeline Options: Release](/docs/images/Timeline-Options-Release.png)
 
-Sets what happens to LTP attributes in playbacks which are killed by the timeline. This can be useful to make the output
-more predictable when you are skipping around the timeline, otherwise you can get confusing LTP values
-persisting from previous playbacks.
+Dies bestimmt das Verhalten der LTP-Attribute, wenn die Timeline deaktiviert wird. Damit wird das Ergebnis 
+vorhersehbarer, vor allem, wenn man in der Timeline hin- und herspringt. Das könnte ansonsten zu unerwarteten 
+Ergebnissen führen, wenn LTP-Werte aus vorigen Playbacks verbleiben
 
-Option              | Action
----|-----
-Override Playback Release | **Off**: The playback's own release settings are used.<br/>On: The Timeline-Global release settings override the playback settings.
-Release Playbacks to Home | Off: LTP attributes are left when when killing playbacks.<br/>**On**: Attributes will return to home if no previous LTP values are set.
-Timeline-Global Release Mask | Sets the Global Release Mask for playbacks triggered by the timeline (default **no attributes released**). Overrides your normal Global Release mask for items triggered by timeline - a warning is shown in the system prompt.
-Timeline-Global Release Time | Sets the Global Release Time for playbacks triggered by the timeline (default **2 seconds**).  Overrides your normal Global Release time for items triggered by timeline.
+Option | Wirkung
+-------|--------
+Override Playback Release | **Off**: Es gelten die Release-Einstellungen der einzelnen Playbacks.<br/>On: Die Release-Einstellungen der Timeline überschreiben die Release-Einstellungen der Playbacks.
+Release Playbacks to Home | Off: LTP-Werte der Playbacks bleiben erhalten, wenn die Playbacks deaktiviert werden.<br/>**On**: LTP-Werte gehen auf ihren Home-Wert zurück, wenn nicht vorher andere Werte gesetzt wurden.
+Timeline-Global Release Mask | Globale Release-Maske für Playbacks, die durch diese Timeline getriggert werden. Voreinstellung: **keine Attribute werden released**. Damit wird die sonstige Globale Release-Maske für Playbacks, die in dieser Timeline enthalten sind, überschrieben. Im Infobereich wird eine entsprechende Warnung angezeigt.
+Timeline-Global Release Time | Globale Release-Zeit für Playbacks, die durch diese Timeline getriggert werden. Voreinstellung: **2 Sekunden**. Damit wird die sonstige Globale Release-Zeit für Playbacks, die in dieser Timeline enthalten sind, überschrieben.
 
 ---
 
-## Timeline Tab
+## Tab "Timeline"
 
 ![Timeline Options: Timeline](/docs/images/Timeline-Options-Timeline.png)
 
-Option              | Action
----|-----
-Activate In Range | **Activate at 100%**: Timeline will be fired automatically at 100% level when timecode comes within the Start/End time range.<br/>Activate at 0%: Will be fired automatically but at 0% level (zero intensity)<br/>Off: Timeline will not be activated until manually fired.
-Kill Out Of Range | Off: Timeline will remain active when the timecode goes outside the Start/End time range. <br/>**On:** Timeline will be killed when the timecode goes outside the Start/End time range.
-Loop | **Off**: Internal timecode source does not loop when it reaches End Time<br/>On: Internal timecode source will loop back to Start Time when it reaches End Time.
+Option | Wirkung
+-------|--------
+Activate In Range | **Activate at 100%**: Die Timeline wird automatisch mit 100% gestartet, sobald der anliegende Timecode im Bereich der Timeline liegt (also zwischen angegebenem Start und Ende).<br/>Activate at 0%: Die Timeline wird bei passendem Timecode automatisch gestartet, aber mit 0% Faderwert.<br/>Off: Die Timeline wird nicht automatisch gestartet, sondern muss manuell aktiviert werdern.
+Kill Out Of Range | Off: Die Timeline bleibt aktiviert, wenn der Timecode außerhalb des gültigen Bereichs ist (Start/Ende).<br/>**On:** Die Timeline wird deaktiviert, sobald der Timecode außerhallb des gültigen Bereichs ist.
+Loop | **Off**: Der interne Timecode wird nicht auf den Startwert zurückgesetzt, sobald das festgelegte Ende der Timeline erreicht ist.<br/>On: Der interne Timecode wird auf den Startwert zurückgesetzt, sobald das festgelegte Ende der Timeline erreicht ist.
 
-- The Loop option only operates when timecode is set to an internal timecode source.
+- Die Option Loop funktioniert nur mit dem internen Timecode.
 
 ---
 
 
-## Timecode Tab
+## Tab "Timecode"
 
 ![Timeline Options: Timecode](/docs/images/Timeline-Options-Timecode.png)
 
-Option              | Action
----|-----
-Timecode Source | Sets the timecode source for the Timeline from 1-4 (see [Running a Cue List to Timecode](../cue-lists/cue-list-timing#running-a-cue-list-to-timecode))
-Timecode Source Unlinked | This is the same as the Link button in the timeline view - see [Local timecode controls](../timelines.md#local-timecode-controls)
+Option | Wirkung
+-------|--------
+Timecode Source | Bestimmt die Timecode-Quelle der Timeline (Timecode 1-4). Siehe [Steuern einer Cueliste per Timecode](../cue-lists/cue-list-timing#steuern-einer-cueliste-per-timecode).
+Timecode Source Unlinked | Gleiche Funktion wie der Link-Button in der Timeline-Ansicht, siehe  [$$$Local timecode controls](../timelines.md#local-timecode-controls)
 
 
 ---
 
-## Time options
+## Time -- Optionen für Zeiten
 
-You can also set some options from the Edit Times menu - press <Keys.HardKey>Time</Keys.HardKey> (or the <Keys.SoftKey>Edit Times</Keys.SoftKey> softkey on the top level menu) then the **select** button for the timeline you wish to edit.
+Einige Optionen können auch im Menü **Edit Times** eingestellt werden. Drücken Sie dazu die 
+Taste <Keys.HardKey>Time</Keys.HardKey> (oder die Menütaste <Keys.SoftKey>Edit Times</Keys.SoftKey> 
+im Hauptmenü), gefolgt von der **Auswahltaste** der Timeline.
 
-### Set Offset
+### Offset einstellen
 
-If the timecode you are using has a large offset or you have been given cue timings that don't match up
-with the timecode source, you can set an offset to make the cues match up instead of having to change
-all the timings. You can also enter small offsets of a few frames if the lighting cues are not quite synchronised properly.
+Wenn der verwendete Timecode einen großen Offset hat, also von den ursprünglich programmierten Zeiten abweicht, so kann 
+man hier einen Offset eingeben, mit dem die ganze Timeline korrigiert wird, ohne dass man manuell alle Timecode-Marken
+ändern muss. Hier lassen sich auch kleine Änderungen von nur wenigen Frames vornehmen, um besser zu synchronisieren.
 
-1. In the Edit Times menu press <Keys.SoftKey>Set Offset</Keys.SoftKey>.
-2. Using the <Keys.SoftKey>Nudge Amount</Keys.SoftKey> softkey enter a time amount to change the offset by.
-3. Press the <Keys.SoftKey>Add</Keys.SoftKey> or <Keys.SoftKey>Subtract</Keys.SoftKey> softkeys to change the current offset by the amount you set.
-4. The current offset time is shown in the prompt area while you are setting it.
+1. Im Menü **Edit Times** drücken Sie die Taste <Keys.SoftKey>Set Offset</Keys.SoftKey>.
+2. Geben Sie bei <Keys.SoftKey>Nudge Amount</Keys.SoftKey> den gewünschten Betrag ein, um den die  Timeline versetzt werden soll.
+3. Betätigen Sie <Keys.SoftKey>Add</Keys.SoftKey> oder <Keys.SoftKey>Subtract</Keys.SoftKey> um den Offset (Zeitversatz) der Timeline wie gewünscht einzustellen.
+4. Der aktuelle Offset wird im Infobereich angezeigt.
 
-Once an offset has been set it is shown below the main timecode display in the Timeline View. In the
-picture below a small offset of 45 seconds is set.
+Wurde ein Offset eingegeben, so wird dies in der Timeline-Ansicht unter dem eigentlichen Timecode angezeigt. Im nachfolgenden Bild ist die Anzeige für ein Offset von 45 Sekunden zu sehen.
 
 ![Timeline timecode offset](/docs/images/Timeline-Offset.png)
 
 
-### Start Time & Duration
+### Start Time & Duration (Startzeit und Dauer)
 
-These options are a different way of setting the Duration / Start Time options in the [Options - Times tab](../timelines/timeline-options.md#times-tab).
+Hier kann man ebenso wie im [Tab "Times"](../timelines/timeline-options.md#tab-times) Startzeit und Dauer der Timeline eingeben.

@@ -14,7 +14,7 @@ Shows - auch auf Pulte mit weniger Fader/Tasten - , ist aber auch eine
 gute Übersicht beim Verschieben innerhalb einer Show.
 
 Zum Öffnen drücken Sie zweimal auf 
-[<Keys.HardKey>View / Open</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
+[<Keys.HardKey>Open/View</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) 
 und wählen <Keys.SoftKey>Show Library</Keys.SoftKey> (im Hauptmenü können Sie auch <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> 
 drücken und <Keys.SoftKey>Show Library</Keys.SoftKey> aus der Liste bei den Menütasten wählen).
 
@@ -27,6 +27,7 @@ um die Anzeige nach verschiedenen Rubriken zu filtern und die anderen
 Elemente auszublenden.
 
 ![Show Library](/docs/images/Show-Library.png)
+
 Die Elemente in der Show Library können zum Auswählen einfach angeklickt
 werden.
 

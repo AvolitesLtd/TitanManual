@@ -23,12 +23,12 @@ des Nodes einstellen (<Keys.SoftKey>Network Settings</Keys.SoftKey> bzw. <Keys.S
 
 Die Netzwerkeinstellungen können wie folgt geändert werden:
 
-1. Wählen Sie den gewünschten Netzwerkanschluss aus.\
-   ![TNP - Setup - Network Settings Screen](/docs/images/TNP-Setup-Network-Settings-Screen.png)
+1. Wählen Sie den gewünschten Netzwerkanschluss aus.<br/>
+  ![TNP - Setup - Network Settings Screen](/docs/images/TNP-Setup-Network-Settings-Screen.png)
 
 2. Als nächstes lässt sich DHCP aktivieren oder deaktivieren, die
    IP-Adresse und Subnetz-Maske einstellen oder aber eine zufällige, aber
-   Artnet-kompatible Adresse wählen (2.\*.\*.\* oder 10.\*.\*.\*).\
+   Artnet-kompatible Adresse wählen (2.\*.\*.\* oder 10.\*.\*.\*).<br/>
    ![TNP - Setup - Network Settings - IP Settings Screen](/docs/images/TNP-Setup-Network-Settings-IP-Settings-Screen.png)
 
 3. Mit <Keys.SoftKey>Save Settings</Keys.SoftKey> werden die Einstellungen gespeichert.

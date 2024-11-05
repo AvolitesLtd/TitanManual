@@ -1,104 +1,123 @@
 ---
 id: creating-a-timeline
-title: Creating a Timeline
-sidebar_label: Creating a Timeline
+title: Eine Timeline speichern
+sidebar_label: Eine Timeline speichern
 ---
 
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-You can create a timeline by using Live Record mode, by entering triggers manually at specified times, or a combination of the two.
+Eine Timeline kann man live aufzeichnen, manuell programmieren, oder beides miteinander kombinieren.
 
 
 
-## Programming a Timeline using Live Record
+## Aufzeichnen eine Timeline im Live-Betrieb
 
-Live record is useful to capture a busked show, where you are operating the playbacks manually in time with music or other live cues. You can do a live record multiple times on the same timeline to build up a more complex show.
+Das Aufzeichnen einer Timeline im Live-Betrieb entspricht dem Aufzeichnen einer live gedrückten Show. Dabei werden z.B. Faderstarts und das Betätigen der Go-Taste passend zur Musik aufgenommen. Bei Bedarf kann man dies Aufzeichnung mehrfach wiederholen, um noch komplexere Timelines zu erstellen.
 
->  Live record does not record the following elements: <br/>
-    Recall of **Palettes** will not be recorded. You need to save looks to a playback to use them on a timeline.<br/>
-    The state of **Masters** is not recorded, so Group, BPM, Size, Rate and Intensity masters will be recorded as if at 100%. If you play back the timeline after changing masters then it could look different - you can [release all masters](../cues/cue-playback.md#releasing-a-master) before recording the timeline to see what is actually being recorded. Masters can then be used to modify the timeline playback for live/busking use.<br/>
-    Actions triggered via the **Scene Master** are not recorded. 
+>   Beim Aufzeichnen im Live-Betrieb werden folgende Elemente **nicht** mit aufgezeichnet:<br/>
+    **Palettenaufrufe** werden nicht in der Timeline gespeichert - es müssen also Playbacks verwendet werden (Cues/Chaser/Cuelisten)<br/>
+    **Werte von Mastern** werden im Live-Betrieb nicht gespeichert; alle Master (Group, BPM, Scale, Rate, Intensity) haben also bei der Wiedergabe ihre Default-Einstellung. Am besten released man also vor der Aufzeichnung alle Master, um später das gewünschte Ergebnis zu erzielen, siehe [Releasen von Mastern](../cues/cue-playback.md#einen-master-releasen).<br/>
+    Aktionen mit dem **Scene Master** werden nicht mit aufgezeichnet. 
 
-This is how you program a timeline using Live Record, from playbacks which you have previously programmed:
+Zum Aufzeichnen einer Timeline im Live-Betrieb geht man wie folgt vor:
 
-1. If you have external timecode source selected but want to use internal timecode for recording, tap the "Timecode Disconnect" <Keys.ContextKey>Link</Keys.ContextKey> button so it shows a broken link.
-2. Press <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Timeline</Keys.SoftKey>, then the **Select** of the blank fader where you want to store the timeline. The Timeline View window will automatically open.
-3. Press the <Keys.ContextKey>Record</Keys.ContextKey> button in the top left of the Timeline View window.
-4. Select which track on the timeline you want to record onto using the <Keys.SoftKey>Track</Keys.SoftKey> softkey or tap on the flashing dotted area of the track you want to use.
-You can add triggers to an existing track or create a new track by tapping on the blank area at the bottom. Or if you just press <Keys.ContextKey>Record</Keys.ContextKey> again then recording will start using the current track selection.<br/>
+1. Ist ein externer Timecode verbunden, möchste man aber die Timeline von diesem unabhängig aufzeichnen, so 
+klickt man auf "Timecode Disconnect" <Keys.ContextKey>Link</Keys.ContextKey>, so dass eine unterbrochene 
+Verbindung angezeigt wird.
+2. Drücken Sie <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Timeline</Keys.SoftKey>, dann 
+die **Auswahltaste** des gewünschten Speicherplatzes. Darauf öffnet sich die Timeline-Ansicht.
+3. Klicken Sie auf <Keys.ContextKey>Record</Keys.ContextKey> links oben in der Timeline-Ansicht.
+4. Wählen Sie, welchen Track sie aufzeichnen wollen. Klicken Sie dazu auf den Button <Keys.SoftKey>Track</Keys.SoftKey> 
+oder auf den von einer blinkenden gestrichelten Linie umgebenen Bereich.<br/>
+Man kann Trigger zu einem bestehenden Track hinzufügen, oder einen neuen Track erstellen, indem man auf den 
+Bereich unterhalb der bereits existierenden Tracks klickt. Klickt man nochmals 
+auf <Keys.ContextKey>Record</Keys.ContextKey>, so erfolgt die Aufzeichnung auf dem gerade angewählten Track.<br/>
  ![Timeline quick record dotted tracks](/docs/images/Timeline-Quickrecord-Dotted.png)
-5. Tap again on the track to start recording (or press the <Keys.SoftKey>Start Live Record</Keys.SoftKey> softkey). The workspaces will be outlined in red but recording will not begin until the timecode is started.
-6. For internal timecode source, press the <Keys.ContextKey>Play</Keys.ContextKey>  button in the top left of the timeline window to start the timecode running. If you are using an external timecode source, start it.
-7. Now when you make any of the above trigger actions on the console, you will see a trigger recording appear on the timeline. The time range you have recorded is highlighted in red on the timeline view.
-8. When you have finished recording press the <Keys.ContextKey>Record</Keys.ContextKey> button again and stop the timecode.
+5. Zum Start der Aufnahme klicken Sie nochmals auf den Track, oder klicken Sie auf <Keys.SoftKey>Start Live Record</Keys.SoftKey>. Das Timeline-Fenster erhält nun einen roten Rahmen ('Aufnahme läuft!'), die Aufnahme beginnt, sobald der Timecode startet.
+6. Verwendet man den internen Timecode als Quelle, so klickt man auf <Keys.ContextKey>Play</Keys.ContextKey> links oben im Timeline-Fenster, um den Timecode zu starten. Verwendet man dagegen einen externen Timecode, so muss der an der jeweiligen Quelle gestartet werden.
+7. Werden nun Aktionen ausgeführt wie das Starten von Playbacks, Ändern von Fadern oder Betätigen der Go-Taste, so tauchen diese jetzt als Trigger in der Timeline auf. Der aufgezeichnete Zeitbereich wird dabei rot angezeigt.
+8. Zum Beenden der Aufzeichnung klickt man wieder auf <Keys.ContextKey>Record</Keys.ContextKey> und stoppt dann den Timecode.
 
-You should now see all the triggers you have created laid out on the timeline.
+Jetzt werden alle gerade erstellten Trigger in der Timeline angezeigt.
 
-- To add more triggers to an existing timeline you can repeat the live record by pressing <Keys.HardKey>Record</Keys.HardKey> then the **Select** button of the timeline fader.
+- Um weitere Trigger zu einer bestehenden Timeline hinzuzufügen, wiederholen Sie den Vorgang. Drücken Sie 
+dazu <Keys.HardKey>Record</Keys.HardKey> und dann die **Auswahltaste** der Timeline.
 
-- When using internal timecode, pressing <Keys.ContextKey>Record</Keys.ContextKey> then <Keys.ContextKey>Play</Keys.ContextKey> will automatically start Live Recording.
+- Verwendet man den internen Timecode, so wird mit <Keys.ContextKey>Record</Keys.ContextKey> gefolgt 
+von <Keys.ContextKey>Play</Keys.ContextKey> automatisch die Live-Aufzeichnung gestartet.
 
-- To quickly add live record triggers to a particular track you can press <Keys.ContextKey>Record</Keys.ContextKey> then tap on the track you want to use in the Timeline view.
+- Um direkt weitere Trigger zu einem bestimmten Track hinzuzufügen, klicken Sie 
+auf <Keys.ContextKey>Record</Keys.ContextKey> und dann auf den gewünschten Track in der Timeline-Ansicht.
 
-- While you are in Live Record, the console will follow the Timeline Release settings as you've programmed them in the [Timeline Options - Release tab](../timelines/timeline-options.md#release-tab), which may make playbacks behave differently to how they are programmed. A warning is displayed in the system prompt area to show you what release settings are in effect. This is because the Global Release Mask and and Global Release Time are per-user settings, and Timelines execute as their own "user", so have their own settings.
+- Während der Aufzeichnung im Live-Betrieb gelten die Release-Einstellungen der 
+Timeline [$$$ Timeline Options - Release tab](../timelines/timeline-options.md#release-tab). 
+Ggf. reagieren manche Playbacks damit anders als gewohnt. Im System-Bereich wird eine entsprechende Meldung angezeigt.
+Das kommt daher, weil die globalen Release-Einstellungen benutzerabhängig sind und die Timeline für Titan als 
+separater Benutzer gilt, also über eigene Einstellungen verfügt.
 
-### Auto Simplify
+### Automatisches Vereinfachen
 
-Normally while you are recording, the <Keys.SoftKey>Auto Simplify</Keys.SoftKey> softkey option is enabled. When you stop the recording, this will simplify your fader movements to a few trigger points with linear fades rather than a large number of points which are difficult to edit. If you really need to capture an exotic fader movement you can turn this option off, but to help keep your timeline easy to edit you should leave it on where you can.
+Normalerweise ist während der Aufzeichnung die Option <Keys.SoftKey>Auto Simplify</Keys.SoftKey> aktiviert. Damit 
+werden nach Ende der Aufzeichnung Faderbewegungen zu linearen Fades vereinfacht. Sind dagegen wirklich nichtlineare 
+Faderbewegungen erforderlich, deaktiviert man diese Option, hat dann aber deutlich mehr einzelne Triggerpunkte 
+zu editieren.
 
-Trigger with multiple points during Live Record:
+Viele einzelne Triggerpunkte während der Live-Aufzeichnung:
 
 ![Timeline before auto simplify](/docs/images/Timeline-Live-Record.png)
 
-The same trigger after Auto Simplify:
+Die gleiche Aufzeichnung nach Auto Simplify:
 
 ![Timeline after auto simplify](/docs/images/Timeline-Live-Record-Simplified.png)
 
-- You can simplify triggers after recording by selecting the triggers (draw a marquee box over them) then using the <Keys.ContextKey>Tools</Keys.ContextKey> - <Keys.ContextKey>Simplify Selected Triggers</Keys.ContextKey> context menu option.
+- Trigger lassen sich nach der Aufzeichnung vereinfachen. Wählen Sie die Trigger per Auswahlbox aus und verwenden Sie die 
+Kontext-Funktion <Keys.ContextKey>Tools</Keys.ContextKey> - <Keys.ContextKey>Simplify Selected Triggers</Keys.ContextKey>.
 
-- You can also make a smooth fade between adjacent triggers by selecting the triggers and using the <Keys.ContextKey>Tools</Keys.ContextKey> - <Keys.ContextKey>Smooth Selected Triggers</Keys.ContextKey> context menu option. The picture below shows triggers before and after the smooth function has been used.
+- Ebenso kann man das Faden zwischen einzelnen Triggerpunkten nachträglich aktivieren: wählen Sie die Trigger aus, 
+und wählen Sie aus dem Kontext-Menü <Keys.ContextKey>Tools</Keys.ContextKey> - <Keys.ContextKey>Smooth Selected Triggers</Keys.ContextKey>. Im nachfolgenden Bild werden die Trigger vor und nach dieser Aktion dargestellt.
 
 ![Timeline fade smoothing](/docs/images/Timeline-Smooth.png)
 
 
-## Adding manual triggers
+## Trigger manuell hinzufügen
 
-If you are programming a show where you have been given a list of timecodes for each cue point, you can enter the triggers manually at those specific times.
+Programmiert man dagegen eine Show, bei der die Timecode-Marken bereits feststehen, so lassen sich die 
+Trigger gezielt manuell festlegen.
 
-1.  Press <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Timeline</Keys.SoftKey>, then the **Select button** of the fader where you want to store the timeline. The Timeline View window will automatically open.<br/>
-2.  Press the <Keys.ContextKey>+</Keys.ContextKey> button at the bottom of the timeline tracks.
-    ![Timeline add trigger window](/docs/images/Timeline-Add-Item.png)
-3. Select the type of trigger you want to add.
-    - **New Playback** will create a playback from the current programmer contents and trigger it at 100% for 2 seconds then off.
-    - **Existing Playback** lets you select a playback you've programmed previously, and inserts it at 100% for 2 seconds then off.
-    - **Set Level** inserts a trigger to set an existing playback to a specified level.
-    - See the [Triggers](../timelines.md#triggers) section for details of the other types of trigger.
-4. If you are using an existing playback, press the **Select** button of the playback you want to fire. (You can skip step 3 and just select a playback straight after pressing the <Keys.ContextKey>+</Keys.ContextKey> button - Titan will behave as if you pressed **Existing Playback**.)
-5. Set the time you want the trigger to fire at. There are several ways to do this:
-    - Type in the time using the <Keys.SoftKey>Reference at hh:mm:ss.fff </Keys.SoftKey> softkey and press <Keys.HardKey>Enter</Keys.HardKey>. Use the <Keys.HardKey>.</Keys.HardKey> button as a separator, for example typing "1 . 05" will enter 00:01:05:000 or "2 . 2 . 20" will enter 02:02:20.00. You can also use the arrow buttons to move between fields in the time display.
-    - Use the current Live Time (blue cursor position) using the <Keys.SoftKey>Reference at Live Time</Keys.SoftKey> softkey.
-    - Tap on the Timeline View on the screen at the place where you want the trigger (you can adjust this later).
-6. Repeat from Step 2 to add more triggers.
+1. Drücken Sie <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Timeline</Keys.SoftKey>, dann 
+die **Auswahltaste** des gewünschten Speicherplatzes. Darauf öffnet sich die Timeline-Ansicht.
+2. Klicken Sie auf den Button <Keys.ContextKey>+</Keys.ContextKey> unterhalb der Timeline-Tracks.
+   ![Timeline add trigger window](/docs/images/Timeline-Add-Item.png)
+3. Wählen Sie, welche Art von Trigger Sie hinzufügen möchten:
+    - **New Playback** speichert aus dem aktuellen Programmer-Inhalt ein neues Playback und aktiviert dieses für 2 Sekunden.
+    - Mit **Existing Playback** kann man ein bereits existierendes Playback wählen, das für 2 Sekunden gestartet wird.
+    - Mit **Set Level** lässt sich ein bereits existierendes playback auf einen bestimmten Level setzen.
+    - Siehe  [Triggers](../timelines.md#triggers) für weitere Details.
+4. Existierende Playbacks werden mit ihrer jeweiligen **Auswahltaste** angewählt. Wenn man vorher Schritt 3 überspringt, 
+so wird automatisch **Existing Playback** angenommen und das Playback für 2 Sekunden auf 100% aktiviert.
+5. Geben Sie nun die Timecode-Zeit für den Trigger ein. Dafür gibt es mehrere Möglichkeiten:
+    - Geben Sie die Zeit mit <Keys.SoftKey>Reference at hh:mm:ss.fff </Keys.SoftKey> einund drücken Sie <Keys.HardKey>Enter</Keys.HardKey>. Verwenden Sie dabei den Punkt <Keys.HardKey>.</Keys.HardKey> als Trenner. Tippt man z.B. "1 . 05", so ergibt dies 00:01:05:000, und "2 . 2 . 20" ergibt 02:02:20.00. Mit den Pfeiltasten kann man zwischen den einzelnen Feldern (Stunden/Minuten/Sekunden) navigieren.
+    - Mit <Keys.SoftKey>Reference at Live Time</Keys.SoftKey> kann die aktuelle (blau angezeigte) Timecode-Zeit eingegeben werden.
+    - Klicken Sie nun in der Timeline-Ansicht dorthin, wo Sie den Trigger haben möchten. Die genaue Zeit lässt sich auch später noch korrigieren.
+6. Wiederholen Sie den Vorgang ab Schritt 2 zum Hinzufügen weiterer Trigger.
 
-- You can directly add a playback by pressing <Keys.HardKey>Copy</Keys.HardKey>, the **select** button of the playback, then tapping on the Timeline track where you want the trigger to be.
+- Um direkt ein einzelnes Playback als Trigger hinzuzufügen, drücken Sie auf <Keys.HardKey>Copy</Keys.HardKey>, dann auf die **Auswahltaste** des Playbacks, und klicken in den gewünschten Timeline-Track.
 
-- Existing Playbacks added to the timeline will be referenced (linked) copies of the playback. If you want to create a playback that you can edit separately, use the softkey option <Keys.SoftKey>Create New Playbacks</Keys.SoftKey> after you select the playback to be added.
+- Bestehende Playbacks werden dabei als Verknüpfung (Link) eingefügt. Will man dagegen ein playback getrennt editieren können, so klickt man nach dem Wählen des Playbacks auf <Keys.SoftKey>Create New Playbacks</Keys.SoftKey>.
 
-- The [Table View](../timelines/running-and-editing-timelines.md#table-view) can be easier to work with than the graphical timeline when entering timecodes manually as it lets you see
-the numbers you have entered.
+- Die [$$$Tabellenansicht](../timelines/running-and-editing-timelines.md#table-view) bietet eine alternative Möglichkeit zum Editieren und ist ggf. für das Eingeben einzelner Timecode-Marken besser geeignet.
 
-### Importing markers
+### Importieren von Markern
 
-Using the context menu option <Keys.ContextKey>Tools</Keys.ContextKey> - <Keys.ContextKey>Import Markers</Keys.ContextKey> you can import markers from an audio editor. This can help you position triggers when programming to a track.
+Mit der Kontext-Funktion <Keys.ContextKey>Tools</Keys.ContextKey> - <Keys.ContextKey>Import Markers</Keys.ContextKey> lassen sich Marker aus eine Audio-Editor importieren. Das kann dabei helfen, Trigger genau zu positionieren.
 
-- When creating the exported markers file, ensure the audio editor is set to export Hours:Minutes:Seconds:Frames and not beats or measures.
+- Stellen Sie beim Export von Markern sicher, dass diese im Format Hours:Minutes:Seconds:Frames und nicht etwa in Beats oder Measures gespeichert werden.
 
-This is an example of how to load markers from the audio editor software **Reaper**:
+Hier ein Beispiel für den Import von Markern aus der Audio-Software **Reaper**:
 
-
-1.   In Reaper, set the timeline to be displayed in HH:MM:SS:FF.
-2.   Load the audio track and create your markers as needed.
-3.   Open Region/Marker Manager.
-4.   Right-click in Region/Marker manager and select Export Project Regions/Markers, save as CSV.
-5.   Copy the CSV file to a USB stick and load the file using the Titan <Keys.ContextKey>Import Markers</Keys.ContextKey> context menu option (On Titan PC Suite copy the file to Documents\\Titan folder).
+1. Stellen Sie in Reaper das Timeline-Format auf HH:MM:SS:FF.
+2. Laden Sie in Reaper die gewünschten Audiodateien und erstellen Sie die Marker.
+3. Öffnen Sie den Region/Marker Manager.
+4. Klicken Sie im Region/Marker Manager mit der rechten Maustaste, wählen Sie "Export Project Regions/Markers", und speichern Sie das als csv-Datei.
+5. Kopieren Sie diese Datei auf einen USB-Stick, und laden Sie diese in Titan per Kontext-Menü <Keys.ContextKey>Import Markers</Keys.ContextKey>. Soll die Datei auf dem gleichen PC importiert werden, so muss sie in Documents\\Titan liegen.

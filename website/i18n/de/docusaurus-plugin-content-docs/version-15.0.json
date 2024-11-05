@@ -79,12 +79,16 @@
     "message": "Personalities (Gerätedateien)",
     "description": "The label for category Fixture Personalities in sidebar docs"
   },
-  "sidebar.docs.category.Networking the Console": {
+  "sidebar.docs.category.Networking Consoles": {
     "message": "Netzwerkeinstellungen",
     "description": "The label for category Networking Consoles in sidebar docs"
   },
   "sidebar.docs.category.Titan Commands": {
     "message": "Titan Befehlsreferenz",
+    "description": "The label for category Titan Reference in sidebar docs"
+  },
+  "sidebar.docs.category.Titan Reference": {
+    "message": "Titan Referenz",
     "description": "The label for category Titan Reference in sidebar docs"
   },
   "sidebar.docs.category.Glossary": {

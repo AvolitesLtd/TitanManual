@@ -25,12 +25,19 @@ Das folgende Bild zeigt eine typische Kombination mehrerer Fenster.
 
 ## Auswahl und Positionierung der Arbeitsfenster
 
-Drücken Sie zweimal auf die Taste <Keys.HardKey>View</Keys.HardKey> (heißt auf manchen Pulten
-<Keys.HardKey>Open</Keys.HardKey> oder <Keys.HardKey>Open Window</Keys.HardKey> - in diesem Handbuch heißt die Taste daher
-<Keys.HardKey>View / Open</Keys.HardKey>). Daraufhin wird auf allen Displays ein Overlay mit
-Buttons für die einzelnen Fenster angezeigt. Klicken Sie auf den Button
-des gewünschten Fensters auf dem Display, auf dem es gezeigt werden
-soll.
+Drücken Sie zweimal auf die Taste <Keys.HardKey>View</Keys.HardKey> (heißt auf manchen 
+Pulten <Keys.HardKey>Open</Keys.HardKey> oder <Keys.HardKey>Open Window</Keys.HardKey> - 
+in diesem Handbuch heißt die Taste daher <Keys.HardKey>Open/View</Keys.HardKey>). Daraufhin 
+wird auf allen Displays ein Overlay mit Buttons für die einzelnen Fenster angezeigt. Klicken 
+Sie auf den Button des gewünschten Fensters auf dem Display, auf dem es gezeigt werden soll.
+
+- Diamond 9: <Keys.HardKey>View</Keys.HardKey>. Außerdem gibt es die Taste <Keys.HardKey>Open</Keys.HardKey>, 
+mit der gleichen Funktion wie ein Doppelklick auf <Keys.HardKey>View</Keys.HardKey>.
+
+- Quartz, Titan Mobile: <Keys.HardKey>Open</Keys.HardKey>
+
+- Titan Go, Tiger Touch 1, Pearl Expert: <Keys.HardKey>View</Keys.HardKey>
+
 
 ![Workspace Window Selection](/docs/images/Workspace-Windows-Icons.png)
 
@@ -38,7 +45,7 @@ War das Fenster bereits auf einem anderen Display geöffnet, so wechselt
 es mit der gleichen Größe und Position auf den gewünschten Bildschirm.
 
 Ebenso können Fenster mit der Menütaste <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>
-geöffnet werden. Drückt man ein weiteres Mal auf <Keys.HardKey>View / Open</Keys.HardKey>, so wird
+geöffnet werden. Drückt man ein weiteres Mal auf <Keys.HardKey>Open/View</Keys.HardKey>, so wird
 das Overlay wieder ausgeblendet. Dazu kann man auch auf das <Keys.ContextKey>X</Keys.ContextKey>
 rechts oben auf dem Bildschirm klicken.
 
@@ -47,20 +54,25 @@ aufrufen.
 
 ### Tastenkombinationen zur Fensterauswahl
 
--   <Keys.HardKey>View / Open</Keys.HardKey> und eine Attributbank-Taste öffnet das jeweilige
+-   <Keys.HardKey>Open/View</Keys.HardKey> und eine Attributbank-Taste öffnet das jeweilige
     Palettenfenster
 
--   <Keys.HardKey>View / Open</Keys.HardKey> + <Keys.HardKey>Patch</Keys.HardKey> öffnet die Patch-Ansicht.
 
--	Drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, gefolgt von der Schaltfläche eines
+
+-   <Keys.HardKey>Open/View</Keys.HardKey> + <Keys.HardKey>Patch</Keys.HardKey> öffnet die Patch-Ansicht.
+
+-	Drücken Sie <Keys.HardKey>Open/View</Keys.HardKey>, gefolgt von der Schaltfläche eines
 	gepatchten Gerätes, so öffnet sich die Geräteanzeige mit Details zu dem
 	jeweiligen Gerät.
 
--	<Keys.HardKey>View / Open</Keys.HardKey> + <Keys.HardKey>Connect / Cue</Keys.HardKey> öffnet das Fenster 'Playback View'.
 
--	<Keys.HardKey>View / Open</Keys.HardKey> + <Keys.HardKey>Off</Keys.HardKey> öffnet das Fenster 'Active Playbacks'.
+-	<Keys.HardKey>Open/View</Keys.HardKey> + <Keys.HardKey>Connect / Cue</Keys.HardKey> öffnet das Fenster 'Playback View'.
 
--	<Keys.HardKey>View / Open</Keys.HardKey> + <Keys.HardKey>Macro</Keys.HardKey> öffnet das Fenster 'Macros'.
+
+-	<Keys.HardKey>Open/View</Keys.HardKey> + <Keys.HardKey>Off</Keys.HardKey> öffnet das Fenster 'Active Playbacks'.
+
+
+-	<Keys.HardKey>Open/View</Keys.HardKey> + <Keys.HardKey>Macro</Keys.HardKey> öffnet das Fenster 'Macros'.
 
 ### Schaltflächen für die Einrichtung der Fenster
 
@@ -80,8 +92,7 @@ und Größe der Buttons](../titan-basics/workspace-windows.md#anzahl-und-grösse
 ![Appearance Menu](/docs/images/Window-Appearance-Options.png)
 
 Die Fenster lassen sich sowohl in Standard-Größen und Positionen
-anordnen als auch sehr frei verändern. Dazu dient der Button **Größe
-ändern**.
+anordnen als auch sehr frei verändern. Dazu dient der Button <Keys.ContextKey>Resize Window</Keys.ContextKey>.
 
 ![Resize](/docs/images/Resize.png)
 
@@ -106,7 +117,7 @@ verändert, und alle anderen bleiben unverändert.
 Schaltet man <Keys.SoftKey>Edit All Windows</Keys.SoftKey> (Alle Fenster editieren) auf On, so
 werden bei allen Fenstern Ecken angezeigt, und man kann ein beliebiges
 Fenster verändern. Zum Abschluss drücken Sie dann wieder <Keys.HardKey>EXIT</Keys.HardKey>,
-<Keys.HardKey>ENTER</Keys.HardKey> oder <Keys.SoftKey>OK</Keys.SoftKey>.
+&nbsp;<Keys.HardKey>ENTER</Keys.HardKey> oder <Keys.SoftKey>OK</Keys.SoftKey>.
 
 ![Resize](/docs/images/Resize-2.png)
 
@@ -114,9 +125,9 @@ Fenster verändern. Zum Abschluss drücken Sie dann wieder <Keys.HardKey>EXIT</K
 
 Zum Verschieben des aktiven Fensters zwischen externem Monitor und
 Bildschirm klicken Sie in den Fenster-Optionen auf das gewünschte
-Display, oder Sie drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, dann <Keys.SoftKey>Window Options</Keys.SoftKey>, und
-schließlich <Keys.SoftKey>Move Screen</Keys.SoftKey>, oder Sie nutzen die Tastenkombination
-<Keys.HardKey>AVO</Keys.HardKey>+<Keys.HardKey>Size/Position</Keys.HardKey>.
+Display, oder Sie drücken <Keys.HardKey>Open/View</Keys.HardKey>, dann <Keys.SoftKey>Window Options</Keys.SoftKey>, und
+schließlich <Keys.SoftKey>Move Screen</Keys.SoftKey>, oder Sie nutzen die 
+Tastenkombination <Keys.HardKey>AVO</Keys.HardKey>+<Keys.HardKey>Size/Position</Keys.HardKey>.
 
 Aktive Fenster lassen sich mit der Taste <Keys.HardKey>Close</Keys.HardKey> schließen. Zum
 gleichzeitigen Schließen aller Fenster drücken Sie <Keys.HardKey>AVO</Keys.HardKey>+<Keys.HardKey>Close</Keys.HardKey>,
@@ -125,15 +136,16 @@ oder Sie nutzen die Menütaste <Keys.SoftKey>Close All</Keys.SoftKey>.
 ### Die Kontext-Schaltflächen/Buttons
 
 Auf allen Pulten außer dem Sapphire Touch und Titan Go werden je nach aktivem
-Fenster verschiedene Funktionsbuttons im Kontext-Bereich (rechts oben) angezeigt. 
-Die dort angezeigten Funktionen wechseln je nachdem welches Fenster gerade aktiv ist. \
+Fenster verschiedene Funktionsbuttons im Kontext-Bereich angezeigt. 
+Auf dem Diamond 9 befindet sich der Kontext-Bereich links oben auf dem rechten Display,
+auf allen anderen Pulten rechts unterhalb des Info-Bereichs.<br/>
+Die angezeigten Funktionen wechseln je nachdem welches Fenster gerade aktiv ist. 
 Im folgenden Bild wird die Anzeige bei aktivem Patch-View-Fenster dargestellt:
 
 ![Context Menu](/docs/images/Context-Menu.png)
 
-Beim Sapphire Touch und beim Titan Go gibt es extra eine Schaltfläche 
-in der Titelleiste jedes Fensters, mit der das **Kontext-Menü** eingeblendet 
-werden kann.
+Beim Sapphire Touch und beim Titan Go gibt es extra eine Schaltfläche <Keys.ContextKey>Context Menu</Keys.ContextKey>
+in der Titelleiste jedes Fensters, mit der das **Kontext-Menü** eingeblendet werden kann.
 
 ![Patch View](/docs/images/Patch-View-2.png)
 
@@ -145,8 +157,7 @@ unterschiedlichen Bildschirmgrößen die Anzahl der Buttons pro
 Zeile/Spalte - und damit ggf. die ganze Anordnung - ändert. Um dies zu
 verhindern (z.B. wenn im Geräte-Fenster die Anordnung an den
 tatsächlichen Aufbau angepasst wurde), kann man alternativ in den
-Fenster-Optionen (dazu auf das <Keys.ContextKey>Zahnrad</Keys.ContextKey> klicken) mit \&#123;Button Size Set Rows
-& Columns\&#125; die gewünschte Anzahl der angezeigten Zeilen <Keys.ContextKey>Columns</Keys.ContextKey> 
+Fenster-Optionen (dazu auf das <Keys.ContextKey>Zahnrad</Keys.ContextKey> klicken) mit <Keys.ContextKey>Button Size Set Rows & Columns</Keys.ContextKey>; die gewünschte Anzahl der angezeigten Zeilen <Keys.ContextKey>Columns</Keys.ContextKey> 
 und Spalten <Keys.ContextKey>Rows</Keys.ContextKey> fest vorgeben. Damit wird immer die gewünschte 
 Anzahl an Schaltflächen angezeigt, wobei sich deren Größe entsprechend ändert.
 
@@ -163,14 +174,14 @@ gesamten Displays durch nur einen Klick ändern/wiederherstellen.
 
 Sie können verschiedene Arbeitsumgebungen (Workspaces) zum schnellen
 Abruf auf den 'Workspace'-Schaltflächen (links vom Hauptmenü, bzw.
-linker Bildschirmrand beim Sapphire Touch und Titan Go) abspeichern.
+linker Bildschirmrand beim Diamond 9, Sapphire Touch und Titan Go) abspeichern.
 
 ![Workspaces](/docs/images/Recoding-a-Workspace-Layout.png)
 
 Auf externen Bildschirmen gibt es ebenfalls jeweils einen
 Workspace-Bereich (kann per [Benutzereinstellung](../system-settings/user-settings.md#display) deaktiviert werden).
 
-Um einen Workspace zu speichern, drücken Sie die Taste <Keys.HardKey>View / Open</Keys.HardKey>,
+Um einen Workspace zu speichern, drücken Sie die Taste <Keys.HardKey>Open/View</Keys.HardKey>,
 dann <Keys.SoftKey>Record Workspace</Keys.SoftKey>, und schließlich eine der
 'Workspace'-Schaltflächen, oder führen Sie einen Doppelklick auf einer
 solchen Schaltfläche aus. Arbeitsumgebungen/Workspaces lassen sich auch
@@ -183,7 +194,7 @@ spezifisch für bestimmte Displays festgelegt werden.
 -   <Keys.SoftKey>Record Visible/All Windows</Keys.SoftKey> (sichtbare/alle Fenster speichern)
     bestimmt, ob nur die aktiven (sichtbaren), oder aber alle (auch die
     verborgenen) Fenster in der Arbeitsumgebung gespeichert werden
-    sollen.
+    sollen (diese Option steht beim Schnellspeichern per Doppelklick nicht zur Verfügung).
 
 -   <Keys.SoftKey>Remove/Leave other windows on recall</Keys.SoftKey> (beim Aufruf andere Fenster
     schließen/behalten) definiert, ob beim Aufruf der Arbeitsumgebung
@@ -200,38 +211,35 @@ spezifisch für bestimmte Displays festgelegt werden.
     einzelne Displays gespeichert werden. ‚as Recorded' wird dann mit
     einem S und einer Nummer angezeigt und bedeutet, dass die Fenster
     auf diesem Screen gespeichert sind bzw. geöffnet werden. ‚where
-    selected' dagegen wird mit einem stilisierten Fadenkreuz angezeigt,
+    selected' dagegen wird mit einem stilisierten Fadenkreuz in der rechten oberen Ecke angezeigt,
     und die Fenster werden auf dem Display geöffnet, auf dem dieser
     Workspace aufgerufen wurde.
 	
 ![Workspaces](/docs/images/Workspace-Layout-Button-Letters.png)
 
--   Zum Löschen einer Arbeitsumgebung drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>,
-    <Keys.HardKey>Delete</Keys.HardKey>, und dann die Schaltfläche der Arbeitsumgebung.
+-   Zum Löschen einer Arbeitsumgebung drücken Sie <Keys.HardKey>Open/View</Keys.HardKey>, <Keys.HardKey>Delete</Keys.HardKey>, und dann die Schaltfläche der Arbeitsumgebung.
 
--   Drückt man beim Aufrufen eines Workspace zuerst auf <Keys.HardKey>View / Open</Keys.HardKey>
+-   Drückt man beim Aufrufen eines Workspace zuerst auf <Keys.HardKey>Open/View</Keys.HardKey>
     und dann auf den Workspace-Button, so kann man mit den Menütasten
     bestimmen, ob die Fenster <Keys.SoftKey>As Recorded</Keys.SoftKey> (wie gespeichert) oder
     aber auf einem bestimmten Display aufgehen sollen. Damit kann man
     auch Workspaces, die für einen anderen Bildschirm gespeichert
     wurden, auf dem aktuellen Display verwenden.
 	
+Die Bildschirme werden dabei wie folgt nummeriert:
 
->	Die Bildschirme werden dabei wie folgt nummeriert:\
-\
-Bei Pulten mit einem internen Screen ist dieser Screen 1 und ein eventuell vorhandenes externes Display Screen 2.\
-\
-Beim Arena ist das große interne Display Screen 1, das kleine interne ist Screen 2, und ein eventuell vorhandenes externes ist Screen 3.\
-\
-Beim Sapphire Touch ist das rechte Display Screen 1, das linke Screen 2, und eventuell vorhandene externe Displays sind Screen 3 und 4.    
+>  - Bei Pulten mit einem internen Screen ist dieser Screen 1 und ein eventuell vorhandenes externes Display Screen 2.<br/>
+  - Beim Diamond 9 ist der rechte Touchscreen Screen 1, der mittlere ist Screen 2, der linke ist Screen 3 (D9-330), der Editor-Touchscreen ist Screen 4, die Video-Previews sind 7, 6, 5, und extrne Displays sind 9 (links) und 8 (rechts).<br/>
+  - Beim Arena ist das große interne Display Screen 1, das kleine interne ist Screen 2, und ein eventuell vorhandenes externes ist Screen 3.<br/>
+  - Beim Sapphire Touch ist das rechte Display Screen 1, das linke Screen 2, und eventuell vorhandene externe Displays sind Screen 3 und 4.    
 
 Als Beispiel sei einmal angenommen, zum Programmieren seien die Fenster
 'Fixtures' (Geräte), 'Position Palettes' (Positionspaletten), 'Fixture
 Attributes' (Geräteattribute) und 'Shapes' benötigt:
 
-1.  Drücken Sie zweimal auf <Keys.HardKey>View / Open</Keys.HardKey>, oder drücken Sie ggf.
-<Keys.HardKey>Exit</Keys.HardKey>, um ins Hauptmenü zu gelangen, und dann die Funktionstaste
-<Keys.SoftKey>Open Workspace Window</Keys.SoftKey>.
+1.  Drücken Sie zweimal auf <Keys.HardKey>Open/View</Keys.HardKey>, oder drücken Sie 
+ggf. <Keys.HardKey>Exit</Keys.HardKey>, um ins Hauptmenü zu gelangen, und dann die 
+Funktionstaste <Keys.SoftKey>Open Workspace Window</Keys.SoftKey>.
 
 2.  Klicken Sie auf dem eingeblendeten Overlay den Button <Keys.ContextKey>Fixtures</Keys.ContextKey>.
 
@@ -240,15 +248,16 @@ Touchscreens, so drücken Sie die Taste <Keys.HardKey>Size/Position</Keys.HardKe
 dort platziert ist. Oder klicken Sie in der Titelleiste des Fensters auf
 das kleine <Keys.ContextKey>Zahnrad</Keys.ContextKey> und platzieren Sie damit das Fenster entsprechend.
 
-4.  Betätigen Sie wieder zweimal <Keys.HardKey>View / Open</Keys.HardKey> und wählen den Eintrag
-<Keys.ContextKey>Positions</Keys.ContextKey>. Bewegen Sie dieses Fenster mit <Keys.HardKey>Size/Position</Keys.HardKey> an die
-gewünschte Stelle.
+4.  Betätigen Sie wieder zweimal <Keys.HardKey>Open/View</Keys.HardKey> und wählen den 
+Eintrag <Keys.ContextKey>Positions</Keys.ContextKey>. Bewegen Sie dieses Fenster 
+mit <Keys.HardKey>Size/Position</Keys.HardKey> an die gewünschte Stelle.
 
-5.  Aktivieren Sie auf die gleiche Weise die Fenster \&#123;Attribute
-Editor\&#125; und <Keys.ContextKey>Effects</Keys.ContextKey>.
+5.  Aktivieren Sie auf die gleiche Weise die Fenster <Keys.ContextKey>Attribute
+Editor</Keys.ContextKey> und <Keys.ContextKey>Effects</Keys.ContextKey>.
 
-6.  Drücken Sie <Keys.HardKey>View / Open</Keys.HardKey>, dann <Keys.SoftKey>Record Workspace</Keys.SoftKey>, oder
-<Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>View / Open</Keys.HardKey>. Geben Sie einen Namen für diese Arbeitsumgebung
+6.  Drücken Sie <Keys.HardKey>Open/View</Keys.HardKey>, dann <Keys.SoftKey>Record Workspace</Keys.SoftKey>, 
+oder <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>Open/View</Keys.HardKey>. 
+Geben Sie einen Namen für diese Arbeitsumgebung
 ein, und klicken Sie auf die 'Workspace'-Schaltfläche, auf die die
 aktuelle Arbeits­umgebung gespeichert werden soll. Alternativ nutzen Sie
 die ‚Quick Record' (Schnellspeicher)-Funktion: klicken Sie einfach auf
@@ -259,6 +268,7 @@ klicken Sie erneut auf diese Schaltfläche.
 ## Schnellspeichern
 
 ![Quick Record](/docs/images/Recoding-a-Workspace-Layout.png)
+
 Einige Fenster - für Gruppen, Workspaces sowie die Paletten-Fenster - besitzen eine
 Schnellspeicher-Funktion. Nehmen Sie Ihre Einstellungen vor, und klicken
 Sie einmal auf eine freie Schaltfläche. Diese wird nun rot und mit einem
@@ -269,7 +279,9 @@ abzuschließen.
 Die Schnellspeicher-Funktion lässt sich in den [Tastenprofilen/Key Profiles](../system-settings/key-profiles.md) deaktivieren.
 
 Bei Paletten ist zu beachten, dass die Schnellspeicherfunktion etwas
-anders arbeitet als das Speichern mit der <Keys.HardKey>Record</Keys.HardKey>-Taste, siehe [Speichern von Paletten](../palettes/creating-palettes.md#speichern-einer-palette).
+anders arbeitet als das Speichern mit der <Keys.HardKey>Record</Keys.HardKey>-Taste, 
+siehe [Speichern von Paletten](../palettes/creating-palettes.md#speichern-einer-palette): beim Schnellspeichern 
+wird automatisch eine Speichermaske angewandt abhängig davon, in welches Palettenfenster gespeichert wird.
 
 ## Legenden und Bezeichnungen
 
@@ -301,6 +313,8 @@ so wird dessen Farbe auch in anderen Fenstern verwendet. Außerdem können
 automatisch unterschiedliche Halos pro Gerätetyp vergeben werden, die
 dann auch in der Patch-Ansicht verwendet werden.
 
+Auf dem Diamond 9 wird die Halo-Farbe auch zur Anzeige des Faderwerts und für die Playback-Auswahltaste verwendet.
+
 ## Bildschirmtastatur
 
 Am Ende der Werkzeugleiste (am Mittelsteg zwischen den Bildschirmen beim
@@ -324,7 +338,7 @@ einige weniger gebräuchliche Tasten.
 
 ![Keyboard](/docs/images/Keyboard.png)
 
-## Trackball (nur beim Sapphire Touch)
+## Trackball (nur beim Diamond 9 und Sapphire Touch)
 
 Mit dem Trackball rechts auf dem Pult lässt sich entweder die Maus
 steuern, oder die selektierten Geräte.
@@ -335,11 +349,27 @@ Maustaste). Nun steuert der Trackball die Position des Mauszeigers auf
 den Bildschirmen; mit dem Ring um den Trackball kann in den Fenstern
 gescrollt werden.
 
-Um in den Modus zur Gerätesteuerung zu schalten, drücken Sie
-<Keys.HardKey>Assign</Keys.HardKey> + <Keys.HardKey>Right</Keys.HardKey>: nun steuert der Trackball Pan und Tilt, und mit
-dem Ring kann Tilt sehr fein geregelt werden.
+Um in den Modus zur Gerätesteuerung zu schalten, drücken Sie <Keys.HardKey>Assign</Keys.HardKey> + <Keys.HardKey>Right</Keys.HardKey>: nun steuert der Trackball Pan und Tilt, und mit
+dem Ring kann Tilt sehr fein geregelt werden. Siehe [Verwenden des Trackballs](../controlling-fixtures/changing-fixture-attributes.md#der-trackball-diamond-9-und-sapphire-touch).
+
+## Video-Vorschau (nur beim Diamond 9)
+
+In den drei kleinen Displays oben rechts auf dem Pult lassen sich sowohl NDI-Videostreams als auch weitere 
+Arbeitsfenster anzeigen.
+
+![Diamond Media Preview](/docs/images/Diamond-Media-Preview.png)
+
+Um ein Display einzurichten, doppelklicken Sie <Keys.HardKey>Open/View</Keys.HardKey>, woraufhin auf allen Displays 
+Buttons der verfügbaren Fenster eingeblendet werden. Zur Anzeige der Videovorschau wählen Sie 
+**Video Preview** (1, 2 oder 3 je nach dem gewünschten Display). Zur Auswahl des anzuzeigenden NDI-Streams 
+klicken Sie auf das Display, darauf werden Miniaturansichten der verfügbaren Streams angezeigt. Klicken Sie nun den gewünschten an. Für weitere Details dazu siehe [Media Viewer](../synergy/operating-synergy.md#media-viewer).
 
 ## Mini-Display (Nur beim Arena)
+
+Das Mini-Display kann genau wie der große Touchscreen zur Anzeige verschiedener Fenster dienen. Um dies einzurichten,
+ doppelklicken Sie <Keys.HardKey>Open/View</Keys.HardKey>, woraufhin auf allen Displays 
+Buttons der verfügbaren Fenster eingeblendet werden. Klicken Sie nun auf dem Mini-Display auf den 
+Icon des gewünschten Fensters.
 
 Mit der Taste <Keys.HardKey>Display</Keys.HardKey> unterhalb der Encoder rechts oben kann man 
 zwischen vier Ansichten auf dem Mini-Display umschalten:
