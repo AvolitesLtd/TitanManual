@@ -9,20 +9,14 @@ import Keys from '@site/src/components/key.ts';
 The previous section [Setting up the Remote](setting-up-the-remote.md) takes you
 through the steps for getting a mobile device connected to the console.
 
-Once you have a network set up, open the Titan Remote app and a list of
-connected consoles should be shown.
 
-![Titan Remote App connection screen](/docs/images/Remote-Connection-Screen.png)
+![Titan Remote Android App status bar](/docs/images/Remote-Topbar.png)
 
-There is also a local emulator which can be used to test or demonstrate
-the remote when no real console is connected. If your console does not show
-up in the list, you can enter its IP address manually by clicking the + button 
-in the top right hand corner of the screen.
-
-![Titan Remote Android App with wheels](/docs/images/Remote-Colour-Attributes.png)
-
-The app title bar should be green showing good connection. If the title bar turns
-red then you do not have connection to the console.
+The app title bar shows the network connection status: 
+- green: good connection. The response time from the
+console is shown on the top right. 
+- red: you have lost connection to the console. Move closer or reposition your WiFi point.
+- orange: you have a slow connection to the console (response time more than 250ms).
 
 Choose what you want to control using the **Keypad / Fixture / Group / Palette / Cue** buttons near the
 top of the app. The Keypad button enables or disables the numeric pad
@@ -35,10 +29,13 @@ will give additional options.
 The layout of the screen may vary depending on the screen size of your device. On tablets
 and devices with larger screens, you can see multiple windows at the same time.
 
+Phones are locked to portrait mode. Android tablets will lock to the current orientation of the device when the app
+is opened. iPads can be rotated while in the app. The app will follow the dark/light display mode of the device.
+
 ## Keypad
 
 The keypad screen lets you do most common tasks in the way a
-programmer\'s remote normally works. You can turn on/Locate fixtures and
+programmer's remote normally works. You can turn on/Locate fixtures and
 dimmers either individually or together.
 
 ![Titan Remote Android App with keypad](/docs/images/Remote-Keypad.png)
@@ -63,30 +60,33 @@ button, for example:
 
 **`1 Thro 10 And 20 Thro 30 @ 6`**.
 
-## Controlling Fixtures
+## Selecting Fixtures
 
-The fixture screen allows you to select fixtures exactly as you would on
-the console.
+The **Fixture** or **Group** screen allows you to select fixtures exactly as you would on
+the console. If you have a lot of fixtures, it is much easier to use Groups and step through
+the fixtures using the **Highlight**, **Prev** and **Next** buttons. Press the **All** button to reselect all fixtures. Hold down the **All** button to
+step through various selection patterns (odd, even etc).
 
 ![Fixture View in Titan Remote Android App](/docs/images/Remote-Fixtures.png)
 
-You can scroll the fixture screen up and down by dragging the window. To
-view the fixture pages, drag the title bar of the fixture window downwards.
+You can scroll the screen up and down by dragging the window. To
+view the fixture or group pages, drag the title bar of the window downwards.
 
-Use the **Highlight**, **Prev** and **Next** buttons to step through a set of selected fixtures
-one at a time. Press the **All** button to reselect all fixtures in the set. Hold down the **All** button to
-step through various selection patterns (odd, even etc).
+## Controlling Attributes with wheels
 
 Use the **IPCGBES** buttons at the top to select the group of attributes you want
 to control, and scroll wheels will be shown for the available functions.
 
 ![Colour Control in Titan Remote Android App](/docs/images/Remote-Colour-Attributes.png)
 
-The wheels show function values (such as colours or gobo names). To go
-to the next function if the attribute has ranges, just touch the arrows at the top or bottom of the
-wheel. To manually scroll the value, spin the wheel with your fingers.
-If there are more than three functions, touch the **IPCGBES** button again
-to change to the other functions.
+For continuous attributes like Pan and Tilt or Colour mix, you can adjust the wheels by dragging up and down, or the arrows on the wheels will 
+go to 0% or 100%. You can "pinch zoom" the wheel to fan the attribute across selected fixtures (always uses Line curve for the fan).
+
+For attributes with ranges like colour wheels or gobo wheels, the wheel will show the colour or gobo name. The up/down arrows
+will move to the previous or next range.
+
+If there are more than three attributes to adjust, touch the appropriate **IPCGBES** button again
+to step through the other attributes.
 
 Press the **Clear** button to clear the selection and all changes in the
 remote programmer. Hold down the **Clear** button to clear all programmers
@@ -94,9 +94,9 @@ remote programmer. Hold down the **Clear** button to clear all programmers
 same time, this will clear the console's programmer too).
 
 - When you have finished using the remote, press **Clear** to remove changes from the remote
-programmer, or your changes will continue to show on stage and confuse everyone. 
-You can also clear the remote programmer by holding <Keys.HardKey>Clear</Keys.HardKey> on
-the main console and selecting <Keys.SoftKey>Clear all programmers</Keys.SoftKey>.
+programmer, or your changes will continue to show on stage, overriding the console. 
+You can clear remote programmers from the console by holding <Keys.HardKey>Clear</Keys.HardKey> on
+the console and selecting <Keys.SoftKey>Clear all programmers</Keys.SoftKey>.
 When another programmer is controlling fixtures, the attribute displays show a cyan dot.
 
 From the remote's **Cue** screen you can play back cues from the touch buttons 
@@ -121,4 +121,6 @@ or a picture legend. You can hold down a button to edit its legend.
 
 If you record to a used palette button, you
 are given options on whether to merge or replace the palette. 
+
+When recording cues, the Record Mode (Record By Fixture, Record By Channel etc.) currently set on the console will be used.
 

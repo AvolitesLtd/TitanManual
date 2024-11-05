@@ -7,60 +7,44 @@ sidebar_label: Setting up the Remote
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-All you need to do is make sure that the console is on the same network
-as your mobile device. The app will automatically detect all the
-consoles on the network.
+The console needs to be connected to a network with WiFi. As with all
+networks used for lighting we would recommend that you use an isolated
+network which is not connected to the internet or other IT equipment.
 
-> Ensure that WiFi security is enabled on the network you are using, as anyone who can connect to the WiFi and has the app will be able to control the console. You don't want someone in the audience taking over the show.
+At its simplest this can just be a WiFi Access Point plugged into the console.
 
-You may experience problems with the remote if you have an internet
-router on the network, as this may route show traffic to the
-internet rather than between the remote and the console. If the
-remote does not work properly, disconnect your router from the
-network.
+You should position your Access Point so that you have line of sight to it
+when you are using the remote.
 
-## Using an Existing Network
+You will need to set suitable IP addresses on the console and on the Access Point -
+read more about [Networking the Console](../networking.md).
 
-If you are connecting to an existing network, DHCP will probably be
-enabled which will automatically set suitable IP addresses on the
-console and mobile device. All you should need to do is to plug the
-console's Ethernet connection into the network.
+## Connecting the mobile device
 
-If the console is set to have a fixed IP address you will need to
-manually set a suitable IP address for the network - *consult the person
-who manages the network*, or read more about [Networking the Console](../networking.md).
+Both Android and Apple devices will show warnings when you connect to 
+a network which does not have an internet connection. Apple devices will show a 
+continuous spinning icon next to the network name which can be ignored. Android devices 
+will ask you if you really want to connect - select "Always Connect".
 
-## Network Setup using a Dedicated Access Point
+If your network does not have DHCP enabled (which automatically gives addresses to
+network devices) you will need to manually set an IP address on the mobile 
+device which needs to be in the same IP range as the console (see [Networking the Console](../networking.md)).
+For Android devices you need to set a Network Prefix Length instead of the subnet mask -
+255.0.0.0 is 8, 255.255.0.0 is 16 or 255.255.255.0 is 24.
 
-This is a basic setup assuming that the console is connected directly to
-an access point. For information on setting up your Wireless Access
-Point please refer to the documentation provided with it.
+## Selecting the console connection
 
-> We advise using a dedicated wireless access point rather than a
-wireless router (ADSL router). Although routers are cheaper, the
-WiFi connection through to the Ethernet can be flaky. Some routers
-can be switched to an *"access point"* mode to avoid this problem.
+Once you have your mobile device connected to the network, open the Titan Remote app and a list of
+connected consoles should be shown. At the bottom of the screen, details
+of your network connection are shown which can be useful when troubleshooting.
 
-You need to set up the network settings on the Wireless Access Point,
-the mobile device and the console so that they can communicate with each
-other. In this example we use an Android smartphone but other devices
-are similar.
+![Titan Remote App connection screen](/docs/images/Remote-Connection-Screen.png)
 
-1. In the access point's admin screen, give the access point an IP
-address such as `10.0.0.1`, make sure wireless is switched on and enable
-the DHCP server. Take note of the name of the wireless network (SSID).
-2. Connect an Ethernet cable from the back of the console to the access
-point.
-3. Set the IP address of the console: from the **System** menu (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), select <Keys.SoftKey>Network Settings</Keys.SoftKey>, press <Keys.SoftKey>Local Area Connection</Keys.SoftKey>, then press <Keys.SoftKey>Set
-IP 10.\*.\*.\*</Keys.SoftKey>.
-4. On the mobile device, go to WiFi settings or Network Settings and
-ensure WiFi is set to on.
-5. Select the wireless network from the list, the name you took note of
-earlier. The mobile device should automatically get an IP address from
-the access point.
-6. Run the Titan Remote app on the mobile device. You should see the console listed.
+The Titan Emulator can be used to test or demonstrate
+the remote when no real console is connected. 
 
-> If you are using the remote at show time, on the Access Point you 
-should select the option to hide the SSID. If you do not do this, 
-every smartphone in the audience will find your WiFi and try to 
-connect to your Access Point which will make the remote operation very sluggish.
+In some network situations your console might not be found by the discovery messages. 
+If your console does not show
+up in the list, you can enter its IP address manually by clicking the + button 
+in the top right hand corner of the screen. The console will then be shown in the list.
+To remove manually added consoles from the list, swipe left then select the Delete button.
