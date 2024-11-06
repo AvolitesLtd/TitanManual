@@ -38,7 +38,7 @@ können, werden **Playbacks** genannt. Dafür kommen in Frage:
 -   **Macro/Exekutor-Tasten** - auch deren Verhalten lässt sich per
     [Tastenprofil (Key Profile)](system-settings/key-profiles.md) definieren.  
 
-Sollten einmal die Fader nicht ausreichen, so gibt es optionale [Faderwings](about-the-consoles.md), 
+Sollten einmal die Fader nicht ausreichen, so gibt es optionale [Faderwings](about-the-consoles/fader-wings), 
 mit denen sich weitere Fader nachrüsten lassen.
 
 Die Cue-Funktionen der Titan-Pulte sind äußerst mächtig; der erste Teil

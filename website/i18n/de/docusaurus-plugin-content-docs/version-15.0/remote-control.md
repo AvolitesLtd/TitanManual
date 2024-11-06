@@ -17,9 +17,7 @@ Für die Remote ist auf dem Mobilgerät die entsprechende App (Avolites
 Titan Remote) zu installieren; diese ist über den [Google Play Store](https://play.google.com/store/apps/developer?id=Avolites+Ltd) bzw. [Apple App
 Store](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps) erhältlich.
 
->   Stellen Sie sicher, die richtige Version der App zu installieren. **Die
-	App muss die gleiche Version wie die Pult-Software haben**. Entsprechend 
-	gibt es verschiedene Versionen der App.
+> Stellen Sie sicher, die richtige Version der App zu installieren. **Die App muss die gleiche Version wie die Pult-Software haben**. Entsprechend gibt es verschiedene Versionen der App.
 
 ![Titan Remote - Android App Screenshot](/docs/images/Fixture-View-in-Titan-Remote-Android-App.png)
 

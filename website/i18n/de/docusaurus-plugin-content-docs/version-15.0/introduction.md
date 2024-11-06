@@ -24,7 +24,8 @@ verschiedene [Geräte gepatcht](./patching.md), um diese danach auf
 verwendete Einstellungen werden dabei in [Paletten](./palettes.md) 
 gespeichert. Ferner verfügt Titan über verschiedene mächtige 
 [Effekt-Engines](./effects.md). Aus dem Zusammenspiel werden die 
-[Cues](./cues.md), [Chaser](./chases.md) und [Cuelisten](./cue-lists.md) 
+[Cues](./cues.md), [Chaser](./chases.md), [Cuelisten](./cue-lists.md) 
+und [Timelines](./timelines.md) 
 erstellt, die letztlich die Lichtshow ausmachen. Weitere Kapitel widmen sich dem
 [Capture Visualiser](./capture-visualiser.md) zur Visualisierung, 
 [Synergy](./synergy.md) zur Steuerung der Ai-Medienserver, weiteren 
@@ -45,18 +46,16 @@ Wo es möglich ist, wird zu anderen Kapitel mit genaueren Beschreibungen
 
 Um die Unterscheidung zwischen den fixen, fest beschrifteten Tasten und
 den variablen Menütasten zu erleichtern, werden verschiedene Symbole benutzt:
--	'Richtige' Tasten werden <Keys.HardKey>so</Keys.HardKey> dargestellt, z.B. <Keys.HardKey>Avo</Keys.HardKey>.
-- 	Menütasten/Buttons werden <Keys.SoftKey>so</Keys.SoftKey> gezeigt , etwa <Keys.SoftKey>Edit Times</Keys.SoftKey>. 
--	Kontext-Buttons werden schließlich <Keys.ContextKey>so</Keys.ContextKey> dargestellt, z.B. <Keys.ContextKey>Open Settings</Keys.ContextKey>.
+- 'Richtige' Tasten werden <Keys.HardKey>so</Keys.HardKey> dargestellt, z.B. <Keys.HardKey>Avo</Keys.HardKey>.
+- Menütasten/Buttons werden <Keys.SoftKey>so</Keys.SoftKey> gezeigt , etwa <Keys.SoftKey>Edit Times</Keys.SoftKey>. 
+- Kontext-Buttons sowie Schaltflächen auf dem Display werden schließlich <Keys.ContextKey>so</Keys.ContextKey> dargestellt, z.B. <Keys.ContextKey>Open Settings</Keys.ContextKey>.
 
 Schrittweise Anleitungen werden Punkt für Punkt aufgeführt, etwa so:
 
 1.  Zuerst machen Sie dies.
-
 2.  Danach machen Sie jenes.
-
 3.  Schließlich machen Sie das.
 
 Besondere Hinweise werden so hervorgehoben:
 
->	Dies ist ein besonderer Hinweis.
+> Dies ist ein besonderer Hinweis.

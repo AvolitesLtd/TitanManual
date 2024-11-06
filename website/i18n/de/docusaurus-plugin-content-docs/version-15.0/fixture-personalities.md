@@ -59,55 +59,46 @@ Es gibt verschiedene Download-Pakete, abhängig von der jeweiligen
 &nbsp;**Titan-Version**. Diese unterscheiden sich hinsichtlich der enthaltenen 
 Capture-Library; die Titan-Personalities sind jedoch identisch.
 
->	Beim Updaten gehen sämtliche von Ihnen in der Library vorgenommenen Änderungen 
-	verloren. Um dies zu vermeiden, speichern Sie Ihre persönlichen Personalities im 
-	Ordner für Benutzer-Personalities, siehe nächster Abschnitt.
-## 
+> Beim Updaten gehen sämtliche von Ihnen in der Library vorgenommenen Änderungen 
+  verloren. Um dies zu vermeiden, speichern Sie Ihre persönlichen Personalities im 
+  Ordner für Benutzer-Personalities, siehe nächster Abschnitt.
 
 ### Updaten der Personalities eines Pultes
 
-1.	Kopieren Sie die heruntergeladene Datei **TitanFixtureLibrary.exe** 
-	auf einen USB-Stick, und verbinden Sie diesen mit dem Pult
-
-2.	Klicken Sie auf **Tools** oben links auf dem Bildschirm, dann auf
-	**Control Panel** und schließlich auf **Titan Installers**.
-
-3.	Nun werden die auf dem USB-Stick gefundenen Installer angezeigt 
-	*(im Hauptverzeichnis des USB-Sticks, Dateinamen nicht verändert)*,
-	darunter auch die **TitanFixtureLibrary.exe**. Klicken Sie diese an, und
-	bestätigen Sie den Dialog mit <Keys.HardKey>OK</Keys.HardKey>.\
-	\
-	Sollte die Datei nicht in diesem Menü zu finden sein, so öffnen
-	Sie mit **Tools** > **Folders** den Explorer, navigieren zum 
-	richtigen Laufwerk und Verzeichnis und starten die Datei per
-	Doppelklick.
-
-4.	Starten Sie das Pult neu (Aus- und Einschalten, oder mit dem Befehl
-	**Restart Software** aus dem Tools-Menü).
+1. Kopieren Sie die heruntergeladene Datei **TitanFixtureLibrary.exe** 
+   auf einen USB-Stick, und verbinden Sie diesen mit dem Pult
+2. Klicken Sie auf **Tools** oben links auf dem Bildschirm, dann auf
+   **Control Panel** und schließlich auf **Titan Installers**.
+3. Nun werden die auf dem USB-Stick gefundenen Installer angezeigt 
+   *(im Hauptverzeichnis des USB-Sticks, Dateinamen nicht verändert)*,
+   darunter auch die **TitanFixtureLibrary.exe**. Klicken Sie diese an, und
+   bestätigen Sie den Dialog mit <Keys.HardKey>OK</Keys.HardKey>.<br/>
+   Sollte die Datei nicht in diesem Menü zu finden sein, so öffnen
+   Sie mit **Tools** > **Folders** den Explorer, navigieren zum 
+   richtigen Laufwerk und Verzeichnis und starten die Datei per
+   Doppelklick.
+4. Starten Sie das Pult neu (Aus- und Einschalten, oder mit dem Befehl
+   **Restart Software** aus dem Tools-Menü).
 
 ### Updaten der Personalities der Titan PC Suite
 
-1.	Starten Sie die heruntergeladene Datei **TitanFixtureLibrary.exe** per
-	Doppelklick und bestätigen Sie den Dialog mit <Keys.SoftKey>OK</Keys.SoftKey>. Möglicherweise 
-	wird eine Windows-Warnung ausgegeben.
+1. Starten Sie die heruntergeladene Datei **TitanFixtureLibrary.exe** per
+   Doppelklick und bestätigen Sie den Dialog mit <Keys.SoftKey>OK</Keys.SoftKey>. Möglicherweise 
+   wird eine Windows-Warnung ausgegeben.
+2. Bestätigen Sie die Warnung der Window-Benutzerkontensteuerung mit <Keys.SoftKey>OK</Keys.SoftKey>.
+3. Sobald die Installation der Library erfolgt ist, schließen und starten Sie die Titan-Software erneut.
 
-2.	Bestätigen Sie die Warnung der Window-Benutzerkontensteuerung mit
-	<Keys.SoftKey>OK</Keys.SoftKey>.
+> Das Pult speichert den Inhalt des Personality-Verzeichnisses
+(FixtureLibrary) zwischen, sobald das Patch-Menü aufgerufen wird.
+Daher muss die Software neu gestartet werden, sobald neue
+Personalities eingespielt wurden (Tools -> Restart Software. Ein
+kompletter Neustart des gesamten Pultes ist nicht erforderlich).
 
-3.	Sobald die Installation der Library erfolgt ist, schließen und
-	starten Sie die Titan-Software erneut.
-
->	Das Pult speichert den Inhalt des Personality-Verzeichnisses
-    (FixtureLibrary) zwischen, sobald das Patch-Menü aufgerufen wird.
-    Daher muss die Software neu gestartet werden, sobald neue
-    Personalities eingespielt wurden (Tools -> Restart Software. Ein
-    kompletter Neustart des gesamten Pultes ist nicht erforderlich).
-
->	Sobald ein Gerät gepatcht wurde, wird die zugehörige Personality in
-    die Show-Datei integriert. Deshalb werden bereits gepatchte Geräte
-    durch Änderungen in der Library nicht beeinflusst. Wählen Sie ggf.
-    <Keys.SoftKey>Update Personality</Keys.SoftKey> aus dem Menü <Keys.HardKey>Patch</Keys.HardKey> <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>, um
-    auch bereits gepatchte Geräte zu aktualisieren.
+> Sobald ein Gerät gepatcht wurde, wird die zugehörige Personality in
+die Show-Datei integriert. Deshalb werden bereits gepatchte Geräte
+durch Änderungen in der Library nicht beeinflusst. Wählen Sie ggf. <Keys.SoftKey>Update Personality</Keys.SoftKey> 
+aus dem Menü <Keys.HardKey>Patch</Keys.HardKey> <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>, um
+auch bereits gepatchte Geräte zu aktualisieren.
 
 ## Selbsterstellte Gerätedateien
 
@@ -115,9 +106,9 @@ Mit dem Programm 'Personality Builder', welches mit auf dem Pult
 installiert ist, lassen sich bestehende Personalities anpassen sowie
 neue erstellen.
 
->	Das Pult lädt neue Personalities, sobald die Software neu gestartet 
-	wird. Haben Sie eine neue Personality eingefügt, so müssen Sie die 
-	Software neu starten, um die neue Personality verwenden zu können.
+> Das Pult lädt neue Personalities, sobald die Software neu gestartet 
+wird. Haben Sie eine neue Personality eingefügt, so müssen Sie die 
+**Software neu starten**, um die neue Personality verwenden zu können.
 
 Sie können Ihre selbsterstellten Personalities in die normale
 Personality-Bibliothek des Pultes integrieren. Allerdings werden in 
@@ -169,11 +160,11 @@ Funktionstasten, um die einzelnen Kanäle auszuwählen.
 Generic RGB: Zum Steuern von RGB-Geräten, etwa LED-Leuchten. Dabei kann
 man zwischen fünf Modi wählen:
 - 1: **Dim**,  2: **R**,  3: **G**, 4: **B**
-- **<em>VDim</em>**, 1: **R**, 2: **G**, 3: **B**
+- ***VDim***, 1: **R**, 2: **G**, 3: **B**
 - 1: **R**, 2: **G**, 3: **B**, 4: **Dim**
-- **<em>VDim</em>** + 4x **RGB**
+- ***VDim*** + 4x **RGB**
 - 4x **RGB**
 
->	**<em>VDim</em>** ist ein vom Pult emulierter 'virtueller' Dimmer für Geräte, die
-	über keinen solchen Gesamtkanal verfügen. Bei Verwendung dieses Kanals
-	werden automatisch die RGB-Werte entsprechend beeinflusst.
+> ***VDim*** ist ein vom Pult emulierter 'virtueller' Dimmer für Geräte, die
+über keinen solchen Gesamtkanal verfügen. Bei Verwendung dieses Kanals
+werden automatisch die RGB-Werte entsprechend beeinflusst.

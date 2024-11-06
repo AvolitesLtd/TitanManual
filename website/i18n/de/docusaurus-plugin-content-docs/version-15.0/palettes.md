@@ -28,13 +28,14 @@ so ändern sich die verknüpften Paletten entsprechend.
 
 Paletten werden auf die Schaltflächen in den Fenstern **'Colours'
 (Farben)**, **'Positions'** sowie **'Gobos and Beams'** gespeichert. 
-Ebenso können sie auf grauen Playback-Tasten sowie auf Macro/
-Exekutor-Tasten abgelegt werden. Jede Schaltfläche lässt sich 
+Ebenso können sie auf Macro/Exekutor-Tasten abgelegt oder numerisch 
+gespeichert und abgerufen werden. 
+
+Jede Schaltfläche lässt sich 
 [beschriften oder bemalen](palettes/creating-palettes.md#paletten-beschriften-und-bemalen), 
 so dass man die gesuchte Palette schnell wiederfindet.
 
 ![Gobos and Beams Window and Colours Window](/docs/images/Gobos-and-Beams-Window-and-Colours-Window.png)
 
 Werden die Fenster **'Colours'**, **'Positions'** und **'Gobos and 
-Beams'** nicht angezeigt, so ruft man sie mit dem Workspace \[Groups 
-and Palettes\] auf.
+Beams'** nicht angezeigt, so ruft man sie mit dem Workspace <Keys.SoftKey>Groups and Palettes</Keys.SoftKey> auf.

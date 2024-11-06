@@ -32,6 +32,7 @@ Tiger Touch II, sowie optional andere Modelle), so wird bei
 Unterbrechung der Stromversorgung dies im Bildschirm angezeigt sowie die
 Zeit, die zum Herunterfahren des Pultes noch verbleibt. Außerdem wird
 eine Warnung angezeigt, sowie der aktuelle Stand der Show gespeichert.
+Auf dem D9 wird angezeigt, wie lange das Pult noch bis zum automatischen Herunterfahren läuft.
 
 ![UPS Toolbar](/docs/images/UPS-Toolbar.png)
 
@@ -40,10 +41,10 @@ eine Warnung angezeigt, sowie der aktuelle Stand der Show gespeichert.
 -   Wenn ein Pult oder TNP in der Session auf USV läuft, wird das in den
 	Logs vermerkt.
 
-&nbsp;**Nur beim Arena:** Der Netzwerk-Switch im Arena verfügt über eine
-eigene USV, so dass das Pult auch abgeschaltet werden kann, ohne den
+&nbsp;**Nur beim Diamond 9 und Arena:** Der Netzwerk-Switch im Arena verfügt über eine
+eigene USV, so dass das Pult auch kurz abgeschaltet werden kann, ohne den
 Betrieb des Switches zu beeinträchtigen. Nach kompletter Trennung vom
-Netz läuft der Switch noch für etwa 5 Minuten weiter. Dies ist wichtig,
+Netz oder Ausschalten des Pultes läuft der Switch noch für etwa 5 Minuten weiter. Dies ist wichtig,
 wenn dieser Switch auch andere Geräte mit Signal versorgt, das Arena 
 selbst jedoch abgeschaltet oder neu gestartet werden muss. 
 
@@ -77,9 +78,9 @@ abgezogenem Netzstecker den Schalter "Battery Disconnect", um auch die
 USV zu unterbrechen (beim Arena: Rückseite; beim Tiger Touch 2/Sapphire
 Touch: unter der linken Seitenwange).
 
-&nbsp;**Achtung beim Arena**: dabei wird auch der integrierte Switch
+&nbsp;**Achtung beim Diamond 9 und beim Arena**: dabei wird auch der integrierte Switch
 abgeschaltet. Das ist besonders wichtig, wenn über diesen Switch ein
-Backup-Pult angeschlossen ist! Wird das Arena normal heruntergefahren,
+Backup-Pult angeschlossen ist! Wird das Pult normal heruntergefahren,
 so bleibt der Switch aufgrund seiner USV noch etwa 5 Minuten
 eingeschaltet.
 
@@ -90,9 +91,9 @@ wenn Sie die **Titan PC-Suite** installiert haben. Zur Installation führen Sie
 einfach das Installationsprogramm aus; damit werden auch alle
 erforderlichen Treiber installiert.
 
-> Ab Titan v13 wird Windows 10 64 Bit vorausgesetzt. Ältere Versionen 
-	sowie virtuelle Maschinen werden nicht unterstützt. Empfohlen wird 
-	mindestens ein i5 der 5. Generation mit 4 GB RAM. Auf [https://avolites.com/titan-pc-system-requirements](https://avolites.com/titan-pc-system-requirements/) gibt es weitere Angaben zu den Systemvoraussetzungen.
+> Ab Titan v14 wird Windows 10 64 Bit vorausgesetzt. Ältere Versionen 
+sowie virtuelle Maschinen werden nicht unterstützt. Empfohlen wird 
+mindestens ein i5 der 5. Generation mit 4 GB RAM. Auf [https://avolites.com/titan-pc-system-requirements](https://avolites.com/titan-pc-system-requirements/) gibt es weitere Angaben zu den Systemvoraussetzungen.
 
 Es empfiehlt sich die Verwendung eines Touchscreens. Ist ein solcher
 nicht vorhanden, klicken Sie mit der Maus auf die entsprechenden
@@ -168,7 +169,8 @@ auf welchem der verfügbaren DMX-Universen sich das Gerät befindet. Jedes
 einzelne der Universen kann einem oder mehreren der DMX-Anschlüsse auf
 der Rückseite des Pultes zugeordnet, oder aber per [Ethernet (Art-Net, sACN)](networking/controlling-fixtures-over-a-network.md) gesendet werden.
 
-Das [Arena enthält zusätzlich einen internen Netzwerkswitch](networking/connecting-the-arena-to-a-network.md) mit optischen
+Das Diamond 9 und das Arena enthält zusätzlich einen 
+internen [Netzwerkswitch](networking/connecting-the-arena-to-a-network.md) mit optischen
 Ausgängen (Glasfaser/OpticalCon).
 
 > Beim Starten einer neuen Show werden die DMX-Linien ab 1 aufsteigend den 5-poligen XLR-Buchsen auf der Rückseite des Pultes zugewiesen; wird dagegen eine bestehende Show von einem anderen System geladen, so wird die dort vorgenommene Zuordnung der Linien übernommen, und sollte ggf. überprüft werden.
@@ -192,20 +194,19 @@ führen und sollte vermieden werden.
 
 ## Einen Monitor anschliessen
 
-Es läßt sich ein externer Monitor anschliessen (beim Tiger Touch II und
+Es läßt sich ein (Diamond 9 und Sapphire Touch: zwei) externer Monitor anschliessen (beim Tiger Touch II und
 Pearl Expert: VGA; beim Quartz, Arena, Sapphire Touch: DVI). Damit erhält
 man mehr Oberfläche zur Anzeige weiterer Fenster (etwa für den
 Visualiser oder das Channel-Grid) sowie - im Falle eines Touchscreens - 
 weiterer Steuerelemente. Bei Touchscreens empfehlen sich Modelle, die
 zu Windows Touch kompatibel sind, um Probleme durch separate Treiber zu
-vermeiden. Beim Titan Mobile und Titan One/T1/T2 ist ein zweiter Bildschirm
+vermeiden. Beim Titan Mobile und Titan One/T1/T2 ist ein zweiter und dritter Bildschirm
 davon abhängig, dass der verwendete Computer dies unterstützt.
 
 Der externe Bildschirm ist standardmäßig deaktiviert, und zeigt das mit
 'Disabled' an. Um ihn zu aktivieren, öffnen Sie das System-Menü
-(<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), wählen <Keys.SoftKey>Display Setup</Keys.SoftKey>, und drücken \[External
-Display Disconnected\]. Damit ändert sich die Anzeige auf \[External
-Display Connected\], und der Bildschirm wird aktiviert.
+(<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>), 
+wählen <Keys.SoftKey>Display Setup</Keys.SoftKey>, und drücken <Keys.SoftKey>External Display Disconnected</Keys.SoftKey>. Damit ändert sich die Anzeige auf <Keys.SoftKey>External Display Connected</Keys.SoftKey>, und der Bildschirm wird aktiviert.
 
 Zum Ändern der Bildschirmauflösung oder anderer Monitoreinstellungen
 bei den Pulten (nicht bei der PC-Suite) klicken Sie oben auf 'Tools', 
@@ -232,21 +233,19 @@ sowie per MIDI-Timecode Cuelisten steuern. Neuere Pult-Modelle verfügen
 auch über einen Eingang für SMPTE-LTC-Timecode. Der T1 kann nicht über
 MIDI gesteuert werden, der T2 ausschließlich über USB-MIDI.
 
-Mittels der Netzwerkbuchse(n) (RJ-45) lässt sich das Pult in ein
+Mittels der Netzwerkbuchse(n) (EtherCON oder RJ-45) lässt sich das Pult in ein
 Netzwerk (LAN) integrieren, womit sich viele weitere interessante
 Möglichkeiten ergeben, etwa die Ausgabe weitere Universen über
 Art-Net/sACN, das Betreiben mehrerer Pulte im Verbund (Backup,
-Multiuser) oder die Steuerung des Pultes per App. Das Arena hat außerdem
-einen integrierten Switch und Glasfaser-Anschlüsse zum Anschluss an
-geeignete Peripherie.
+Multiuser) oder die Steuerung des Pultes per App.
 
 Eine oder zwei 3-polige XLR-Buchse ist als Anschluss für eine
 Pultleuchte vorgesehen. Die Belegung ist 1-Minus, 2-Plus (12V
 Gleichspannung). Ggf. muss die Belegung der verwendeten Pultleuchte
 angepasst werden, da es dafür verschiedene Systeme gibt. 
 
--	Bei neueren Pulten lässt sich die Helligkeit der Pultleuchte im 
-	System-Menü (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) einstellen.
+- Bei neueren Pulten lässt sich die Helligkeit der Pultleuchte im 
+System-Menü (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) einstellen.
 
 ## Verwenden von Faderwings
 
