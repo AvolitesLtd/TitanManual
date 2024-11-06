@@ -1,7 +1,7 @@
 ---
 id: alpha-index
-title: Alphabetic Index
-sidebar_label: Alphabetic Index
+title: Alphabetic Index - English
+sidebar_label: Alphabetic Index - English
 ---
 
 ## A

@@ -31,7 +31,7 @@ Cueliste lässt sich detailliert steuern; dazu gehören - pro Cue - die
 Optionen Block, This Cue Only und Solo (Siehe auch [Abrufen einer Cueliste](cue-lists/cue-list-playback.md)).
 
 Zur Anzeige des Inhalts einer Cueliste berühren Sie den Touchscreen im
-'Playback'-Bereich oberhalb des jeweiligen Reglers oder drücken \<View /
- Open\> und die zugehörige **Swop**-Taste.
+'Playback'-Bereich oberhalb des jeweiligen Reglers oder drücken <Keys.HardKey>Open/View</Keys.HardKey>
+und die zugehörige **Auswahltaste**.
 
 ![Playback View of Cue List](/docs/images/Cue-List-Window-with-Autoload-playback.png)

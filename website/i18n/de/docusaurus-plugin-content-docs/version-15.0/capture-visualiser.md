@@ -20,6 +20,6 @@ Performance-Gründen etwas limitiert ist.
 ![Capture Visualiser Workspace Window](/docs/images/Capture-Visualiser-Workspace-Window.png)
 
 Zum Aufrufen des Visualisers wählen Sie <Keys.SoftKey>Capture Visualiser</Keys.SoftKey> aus dem
-Menü [<Keys.SoftKey>Open Workspace Window</Keys.SoftKey>](titan-basics/workspace-windows.md).
+Menü <Keys.SoftKey>Open Workspace Window</Keys.SoftKey> (siehe [Arbeitsfenster](titan-basics/workspace-windows.md)).
 
 > Beim Vorprogrammieren ist die **Verwendung von Paletten** unbedingt zu empfehlen: in der Realität wird es immer Abweichungen vom Modell geben, und mit Paletten sind die Änderungen deutlich schneller gemacht, als wenn man erst viele Cues einzeln ändern müsste.
