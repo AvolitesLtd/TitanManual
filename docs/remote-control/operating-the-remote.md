@@ -15,8 +15,11 @@ through the steps for getting a mobile device connected to the console.
 The app title bar shows the network connection status: 
 - green: good connection. The response time from the
 console is shown on the top right. 
-- red: you have lost connection to the console. Move closer or reposition your WiFi point.
+- red: you have a very slow connection to the console or have lost connection (response time more than 1 second). 
 - orange: you have a slow connection to the console (response time more than 250ms).
+
+> If you are seeing a red or orange bar, move closer or reposition your WiFi point so
+that you have a clear line of sight to it.
 
 Choose what you want to control using the **Keypad / Fixture / Group / Palette / Cue** buttons near the
 top of the app. The Keypad button enables or disables the numeric pad
