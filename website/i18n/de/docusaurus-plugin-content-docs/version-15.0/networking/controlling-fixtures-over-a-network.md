@@ -65,7 +65,7 @@ Im nachstehenden Schema ist exemplarisch ein Art-Net-fähiges Pult (wie
 etwa ein Titan-Pult) über einen Netzwerk-Switch mit einem Art-Net-fähigen
 Dimmer und einem Konverter verbunden.
 
-![Art Net Explanation general](/docs/images/Art-Net-Explanation-general.jpeg)
+![Art Net Explanation general](/docs/images/Art-Net-Explanation-General.png)
 
 Sobald das System entsprechend verkabelt ist, müssen die
 Geräte (Knoten, Nodes) konfiguriert werden.
@@ -97,7 +97,7 @@ Im Beispiel erfolgt die Zuordnung daher wie folgt:
 	auf Linie 3.
 
 
-![Art Net Explanation Nodes to DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.jpeg)
+![Art Net Explanation Nodes to DMX](/docs/images/Art-Net-Explanation-Nodes-to-DMX.png)
 
 Beim Patchen in Titan geben Sie nun dem Dimmer die Adresse 1.001 - 1.024. Geräten
 auf der ersten Linie des Nodes geben Sie die Adresse 2.001 - 2.512, Geräten

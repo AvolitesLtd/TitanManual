@@ -37,7 +37,7 @@ Verzögerungszeiten sowie die Verknüpfung aufeinanderfolgender Schritte
 ein; diese Einstellungen gelten dann für alle neu gespeicherten
 Schritte.
 5. Stellen Sie das Bild für den ersten Schritt zusammen, entweder
-manuell oder unter Verwendung von <Keys.HardKey>Include</Keys.HardKey> ( $$$ siehe  [Include-Funktion](../titan-commands.md#include-----in-den-speicher-laden) bestehender Cues.
+manuell oder unter Verwendung von <Keys.HardKey>Include</Keys.HardKey> (siehe  [Cues wiederverwenden - die 'Include'-Funktion](../cues/editing-cues#cues-wiederverwenden---die-include-funktion).
 Nutzen Sie wenn gewünscht auch den [Shape Generator](../effects/shape-generator.md) oder den [Pixelmapper](../effects/pixel-mapper.md).
 6. Wollen Sie für den Schritt eine **Bezeichnung/Legende** vergeben, so drücken Sie
 dazu <Keys.SoftKey>Cue Legend</Keys.SoftKey>. Das lässt sich auch später nachholen oder ändern,
@@ -105,16 +105,12 @@ Navigation.
 1.  Drücken Sie <Keys.SoftKey>Set Legend</Keys.SoftKey> im Hauptmenü. Wollen Sie mehrere
     Bezeichnungen vergeben, so rasten Sie das Menü mit der Taste <Keys.HardKey>Menu
     Latch</Keys.HardKey> ein.
-
 2.  Drücken Sie die **Select-Taste** der entsprechenden Cueliste.
-
 3.  Die Schritte der Cueliste werden nun auf dem Bildschirm angezeigt.
     Klicken Sie auf den gewünschten Cue oder nutzen Sie das Rad A, um den zu
     ändernden Schritt auszuwählen.
-
 4.  Klicken Sie <Keys.SoftKey>Cue Legend</Keys.SoftKey> und geben Sie die Bezeichnung mit der
     Tastatur ein, gefolgt von <Keys.HardKey>Enter</Keys.HardKey>.
-
 5.  Setzen Sie den Vorgang ggf. für weitere Schritte fort, oder drücken
     Sie <Keys.HardKey>Exit</Keys.HardKey>, um den Vorgang abzuschließen.
 

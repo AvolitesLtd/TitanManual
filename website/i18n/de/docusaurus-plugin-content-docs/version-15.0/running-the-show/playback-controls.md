@@ -246,8 +246,7 @@ Legende (Bezeichnung) der Gruppe geändert werden.
 
 Für jede Gruppe lässt sich einstellen, wie genau die enthaltenen
 Playbacks sich verhalten. Dazu wählt man im Fenster Playback Groups
-links die gewünschte Gruppe und klickt rechts unten auf den Reiter
-<Keys.SoftKey>Options</Keys.SoftKey>.
+links die gewünschte Gruppe und klickt rechts unten auf den Reiter <Keys.SoftKey>Options</Keys.SoftKey>.
 
 ![Playback groups options workspace](/docs/images/Playback-groups-options-workspace.png)
 

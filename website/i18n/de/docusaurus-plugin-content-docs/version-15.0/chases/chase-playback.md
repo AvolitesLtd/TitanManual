@@ -43,8 +43,8 @@ zugeordnet: dies nennt sich **Connect** (Verbinden) des Playbacks. Ist mehr
 als ein Playback aktiv, so lässt sich mit der <Keys.HardKey>Connect / Cue</Keys.HardKey>-Taste wählen,
 welches davon mit den Rädern/Tasten beeinflusst werden soll.
 
--   Zum Verbinden eines anderen Chasers drücken Sie die Taste
-    <Keys.HardKey>Connect / Cue</Keys.HardKey>, und dann die Auswahltaste des gewünschten Chasers.
+-   Zum Verbinden eines anderen Chasers drücken Sie die Taste <Keys.HardKey>Connect / Cue</Keys.HardKey>, 
+    und dann die Auswahltaste des gewünschten Chasers.
 
 -   Zum Lösen der Zuordnung drücken Sie die <Keys.HardKey>Connect / Cue</Keys.HardKey>-Taste zweimal.
 
@@ -90,11 +90,9 @@ andere Hälfte auf die neuen Werte über.
 
 1. Wählen Sie <Keys.SoftKey>Edit Times</Keys.SoftKey> aus dem Hauptmenü, und drücken dann die
 &nbsp;**Swop**-Taste des Chasers.
-
 2. Zum Einstellen der **Überblendung** drücken Sie <Keys.SoftKey>Xfade</Keys.SoftKey> und geben mit
 den Zifferntasten einen Wert von **0 ... 100** ein *(0 = hartes
 Umschalten, 100 = komplettes Überblenden etc., s.o.)*.
-
 3. Zum Eingeben der **Geschwindigkeit** drücken Sie <Keys.SoftKey>Speed</Keys.SoftKey>, geben die
 gewünschte Geschwindigkeit ein, und drücken <Keys.HardKey>Enter</Keys.HardKey>. *Abhängig von den
 [Benutzereinstellungen](../system-settings/user-settings.md) kann die Geschwindigkeit in 'Beats Per Minute'
@@ -111,10 +109,10 @@ oder mittels der [<Keys.HardKey>Unfold</Keys.HardKey>](editing-a-chase.md#änder
 [Editieren eines Chasers](editing-a-chase.md).
 
 Die Anzeige der Geschwindigkeit lässt sich zwischen Sekunden und Beats
-Per Minute (BPM) umschalten. Dazu drücken Sie <Keys.HardKey>AVO</Keys.HardKey> + \[User
-Settings\], und wählen dann mit der Option <Keys.SoftKey>Tempo Units</Keys.SoftKey> zwischen
-<Keys.SoftKey>Tempo Units Seconds</Keys.SoftKey>(Sekunden) und <Keys.SoftKey>Tempo Units Beats Per Minute
-(BPM)</Keys.SoftKey>.
+Per Minute (BPM) umschalten. Dazu drücken 
+Sie <Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>User Settings</Keys.HardKey>, und wählen dann mit der 
+Option <Keys.SoftKey>Tempo Units</Keys.SoftKey> zwischen <Keys.SoftKey>Tempo Units Seconds</Keys.SoftKey>
+(Sekunden) und <Keys.SoftKey>Tempo Units Beats Per Minute (BPM)</Keys.SoftKey>.
 
 Ferner lässt sich der Chaser einem [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master) zuordnen; 
 dies erlaubt es, direkt während der Show die Geschwindigkeit zu steuern. 
@@ -136,17 +134,13 @@ Funktionen 'Stop' und 'Go' belegen; dazu dient die Funktion [Key
 Profiles (Tastenbelegungen)](../system-settings/key-profiles.md).
 
 1. Halten Sie <Keys.HardKey>AVO</Keys.HardKey> gedrückt und drücken Sie <Keys.SoftKey>Edit Current Key Profile</Keys.SoftKey>.
-
 2. Verwenden Sie momentan eines der nicht editierbaren Vorgabeprofile,
 so werden Sie zum Anlegen eines neuen aufgefordert.
-
 3. Drücken Sie <Keys.SoftKey>Chases</Keys.SoftKey>, und wählen dann entweder die blaue oder die
 graue Taste.
-
 4. Wählen Sie aus dem Funktionen-Menü entweder <Keys.SoftKey>Go</Keys.SoftKey> oder <Keys.SoftKey>Stop</Keys.SoftKey>.
 Danach drücken Sie <Keys.HardKey>Exit</Keys.HardKey> und ändern ggf. noch die Funktion der
 anderen Taste.
-
 5. Drücken Sie <Keys.HardKey>Exit</Keys.HardKey>, um zum normalen Programmiermenü
 zurückzukehren.
 

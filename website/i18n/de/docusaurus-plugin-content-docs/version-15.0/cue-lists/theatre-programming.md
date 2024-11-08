@@ -145,18 +145,13 @@ Tasten | Ergebnis
 
 ## Shapes und Effekte
 
-You can't select Effects/Shapes from the keypad on Titan, but it's still
-easy:
+Shapes und Effekte lassen sich zwar nicht mit dem Ziffernblock auswählen, es ist aber trotzdem nicht schwer:
 
 1. Zu steuernde Geräte wählen
-
 2. Im Hauptmenü drückt man <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>
   , <Keys.SoftKey>Shape Generator</Keys.SoftKey>, <Keys.SoftKey>Create</Keys.SoftKey>
-
 3. Den gewünschten Shape-Typ wählen, z.B. <Keys.SoftKey>Dimmer</Keys.SoftKey>, <Keys.SoftKey>Pan/Tilt</Keys.SoftKey> etc.
-
 4. Den gewünschten Shape wählen (Menütasten oder Shapes-Fenster)
-
 5. Speed, Size, Spread mit den Wheels einstellen
 
 Shapes können ganz normal in Cues gespeichert werden und tracken in

@@ -25,7 +25,7 @@ Die gleichen Optionen wie bei Cues, siehe [Options](../cues/playback-options.md#
 ![Timeline Options: Times](/docs/images/Timeline-Options-Times.png)
 
 Hier wird die Startzeit und die Dauer der Timeline eingestellt. Daraus ergeben sich die Punkte, 
-an denen mit 'Loop' die Timeline wiederholt wird, siehe [$$$ Loop function](../timelines/timeline-options.md#timecode-tab), oder wann die Timeline bei externem Timecode automatisch startet.
+an denen mit 'Loop' die Timeline wiederholt wird, siehe [Loop (Tab "Timeline")](../timelines/timeline-options.md#tab-timeline), oder wann die Timeline bei externem Timecode automatisch startet.
 Hiermit kann auch die Timeline begrenzt werden, so dass nichts passiert, wenn der Timecode mal völlig aus dem Ruder läuft.
 
 ---
@@ -85,7 +85,7 @@ Loop | **Off**: Der interne Timecode wird nicht auf den Startwert zurückgesetzt
 Option | Wirkung
 -------|--------
 Timecode Source | Bestimmt die Timecode-Quelle der Timeline (Timecode 1-4). Siehe [Steuern einer Cueliste per Timecode](../cue-lists/cue-list-timing#steuern-einer-cueliste-per-timecode).
-Timecode Source Unlinked | Gleiche Funktion wie der Link-Button in der Timeline-Ansicht, siehe  [$$$Local timecode controls](../timelines.md#local-timecode-controls)
+Timecode Source Unlinked | Gleiche Funktion wie der Link-Button in der Timeline-Ansicht, siehe  [Timecode verbinden und steuern](../timelines.md#timecode-verbinden-und-steuern)
 
 
 ---

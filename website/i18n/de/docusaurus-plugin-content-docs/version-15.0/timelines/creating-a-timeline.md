@@ -51,7 +51,7 @@ von <Keys.ContextKey>Play</Keys.ContextKey> automatisch die Live-Aufzeichnung ge
 auf <Keys.ContextKey>Record</Keys.ContextKey> und dann auf den gewünschten Track in der Timeline-Ansicht.
 
 - Während der Aufzeichnung im Live-Betrieb gelten die Release-Einstellungen der 
-Timeline [$$$ Timeline Options - Release tab](../timelines/timeline-options.md#release-tab). 
+Timeline [Timeline-Optionen, Tab "Release"](../timelines/timeline-options.md#tab-release). 
 Ggf. reagieren manche Playbacks damit anders als gewohnt. Im System-Bereich wird eine entsprechende Meldung angezeigt.
 Das kommt daher, weil die globalen Release-Einstellungen benutzerabhängig sind und die Timeline für Titan als 
 separater Benutzer gilt, also über eigene Einstellungen verfügt.
@@ -106,7 +106,7 @@ so wird automatisch **Existing Playback** angenommen und das Playback für 2 Sek
 
 - Bestehende Playbacks werden dabei als Verknüpfung (Link) eingefügt. Will man dagegen ein playback getrennt editieren können, so klickt man nach dem Wählen des Playbacks auf <Keys.SoftKey>Create New Playbacks</Keys.SoftKey>.
 
-- Die [$$$Tabellenansicht](../timelines/running-and-editing-timelines.md#table-view) bietet eine alternative Möglichkeit zum Editieren und ist ggf. für das Eingeben einzelner Timecode-Marken besser geeignet.
+- Die [Tabellen-Ansicht](../timelines/running-and-editing-timelines.md#tabellen-ansicht) bietet eine alternative Möglichkeit zum Editieren und ist ggf. für das Eingeben einzelner Timecode-Marken besser geeignet.
 
 ### Importieren von Markern
 

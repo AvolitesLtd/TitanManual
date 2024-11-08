@@ -16,13 +16,13 @@ Die Menütasten zeigen die gerade laufenden Shapes an sowie, aus welchem
 Cue oder ob sie aus dem Programmer kommen.
 
 >   Verfügt das Pult nicht über eine <Keys.HardKey>Shape</Keys.HardKey>-Taste, so erreichen Sie
-    diese Funktion über <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, <Keys.SoftKey>Shape Generator</Keys.SoftKey>, 
-    <Keys.SoftKey>Edit</Keys.SoftKey>.
+    diese Funktion über <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>
+    , <Keys.SoftKey>Shape Generator</Keys.SoftKey>, <Keys.SoftKey>Edit</Keys.SoftKey>.
 
 ![Shape Generator - Selecting a Shape to Edit](/docs/images/Shape-Generator-Selecting-a-Shape-to-Edit.png)
 
 Zunächst sind alle aktiven Shapes angewählt. Ändern Sie dies ggf. und
-drücken Sie <Keys.HardKey>Enter\| oder nochmals \<Shape</Keys.HardKey>, um die Shapes mit der
+drücken Sie <Keys.HardKey>Enter</Keys.HardKey> oder nochmals <Keys.HardKey>Shape</Keys.HardKey>, um die Shapes mit der
 Steuerung per Rad zu verbinden. Sind mehr als drei Parameter zu steuern,
 so können Sie mit Menütaste G umschalten.
 

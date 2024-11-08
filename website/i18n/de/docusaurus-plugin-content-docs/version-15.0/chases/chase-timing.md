@@ -58,16 +58,10 @@ versehen. Dazu können Sie entweder das ‚Playback View'-Fenster oder die
 
 ### Unter Verwendung des 'Playback View'-Fensters:
 
-1. Berühren Sie das Display oberhalb des betreffenden Reglers, oder
-drücken Sie <Keys.HardKey>Open/View</Keys.HardKey> und die **Swop**-Taste des
-Speicherplatzes. Darauf öffnet sich das ‚Playback View'-Fenster.
-
-![Playback View for chase](/docs/images/Playback-View-for-chase.png)
-
-2. Im Fenster können Sie durch Anklicken die zu ändernden Zeiten
-auswählen.
-3. Zum Ändern der Zeiten und Einstellungen nutzen Sie die
-entsprechenden Funktionstasten.
+1. Berühren Sie das Display oberhalb des betreffenden Reglers, oder drücken Sie <Keys.HardKey>Open/View</Keys.HardKey> und die **Swop**-Taste des Speicherplatzes. Darauf öffnet sich das ‚Playback View'-Fenster.<br/>
+   ![Playback View for chase](/docs/images/Playback-View-for-chase.png)
+2. Im Fenster können Sie durch Anklicken die zu ändernden Zeiten auswählen.
+3. Zum Ändern der Zeiten und Einstellungen nutzen Sie die entsprechenden Funktionstasten.
 4. Wiederholen Sie ab Schritt 2, um weitere Änderungen vorzunehmen.
 
 > Zum gleichzeitigen Ändern mehrerer Schritte lassen sich durch

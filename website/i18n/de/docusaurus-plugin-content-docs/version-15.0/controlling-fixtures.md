@@ -1,7 +1,7 @@
 ---
 id: controlling-fixtures
-title: Steuern von Dimmern und Geräten
-sidebar_label: Steuern von Dimmern und Geräten
+title: Anwählen von Geräten und Dimmern
+sidebar_label: Anwählen von Geräten und Dimmern
 ---
 
 import Keys from '@site/src/components/key.ts';

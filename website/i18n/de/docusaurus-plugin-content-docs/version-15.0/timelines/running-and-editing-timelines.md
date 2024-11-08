@@ -11,7 +11,7 @@ import Video from '@site/src/components/video.tsx';
 
 HTP-Werte (der Dimmer) von Geräten werden durch den Faderwert der Timeline gesteuert. Die Timeline wird dabei automatisch auf 100% gestartet, sobald der entsprechende Timecode erreicht wird.
 
-Diese automatische Wiedergabe kann deaktiviert werden, ebenso kann zwar automatisch gestartet werden, aber ohne den Faderwert 100%. Dazu dient die Einstellung [$$$Activate in Range](../timelines/timeline-options.md#timecode-tab) in den Optionen der Timeline. Wird die automatische Aktivierung ausgeschaltet, so muss die Timeline manuell durch Betätigen des Faders aktiviert werden, damit die Trigger funktonieren.
+Diese automatische Wiedergabe kann deaktiviert werden, ebenso kann zwar automatisch gestartet werden, aber ohne den Faderwert 100%. Dazu dient die Einstellung [Activate in Range](../timelines/timeline-options.md#tab-timeline) in den Optionen der Timeline. Wird die automatische Aktivierung ausgeschaltet, so muss die Timeline manuell durch Betätigen des Faders aktiviert werden, damit die Trigger funktonieren.
 
 
 1.  Stellen Sie den Button **timecode link** (links unten in der Timeline-Ansicht) auf **Linked** (geschlossene Kettenglieder).
@@ -20,9 +20,9 @@ Diese automatische Wiedergabe kann deaktiviert werden, ebenso kann zwar automati
 
 - Motorfader und die virtuellen Fader bewegen sich automatisch auf die programmierten Werte.
 
-- Verwendet man den internen Timecode, so kann dieser automatisch starten, wenn der Fader aktiviert wird, sowie auch wieder stoppen, wenn dieser deaktiviert wird, siehe [$$$ Timeline Options - Fader](../timelines/timeline-options.md#fader-tab).
+- Verwendet man den internen Timecode, so kann dieser automatisch starten, wenn der Fader aktiviert wird, sowie auch wieder stoppen, wenn dieser deaktiviert wird, siehe [Timeline-Optionen Tab "Fader"](../timelines/timeline-options.md#tab-fader).
 
-- Damit die Timeline (nur mit internem Timecode) ständig wiederholt wird, aktivieren Sie die Option Loop [$$$ Timeline Options - Timecode](../timelines/timeline-options.md#timecode-tab).
+- Damit die Timeline (nur mit internem Timecode) ständig wiederholt wird, aktivieren Sie die Option Loop im [Tab "Timeline"](../timelines/timeline-options.md#tab-timeline).
 
 - Wird der Timecode mitten in der Timeline gestartet, so starten alle aktiven Trigger, aber da die vorangegangenen Trigger eventuell nicht oder nicht in der richtigen Reihenfolge gestartet wurden, ist das Ergebnis möglicherweise nicht wie gewünscht. Mit den [Release-Optionen der Timeline](../timelines/timeline-options.md#release-tab) lässt sich das verbessern.
 

@@ -64,12 +64,9 @@ so können diese später im Pult mit Hilfe der Active Fixture-Funktion
 gepatcht werden:
 
 1. Drücken Sie <Keys.HardKey>Patch</Keys.HardKey>, <Keys.SoftKey>Active Fixtures</Keys.SoftKey>
-
 2. Wählen Sie <Keys.SoftKey>CITP Visualisers</Keys.SoftKey>.
-
 3. Der Capture-Computer wird nun als eine Option auf den Menütasten
 angezeigt. Klicken Sie die entsprechende Taste an.
-
 4. Wählen Sie eine freie Geräte-Schaltfläche, um die Geräte ab da zu
 patchen, oder wählen Sie die Option <Keys.SoftKey>Patch Capture @...</Keys.SoftKey>, um
 automatisch auf den nächsten freien Platz zu patchen.
