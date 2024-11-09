@@ -58,7 +58,7 @@ KEY PROFILE (Tastenprofil) 	| Benutzereinstellung, die die Funktion der einzelne
 LED			| Leuchtdiode. Heutzutage die Lichtquelle in vielen Geräten. Kann aber auch die kleinen Leuchten in den Tasten meinen.
 LEGEND		| Text, Bild oder Zeichnung, um zu markieren, was wo gespeichert ist.
 LINK (Verknüpfen)  	| Abfolge der einzelnen Cues in einer Cueliste oder einem Chaser. Oder Verweis auf ein anderes Playback unter Verwendung individueller Zeiten.
-LOCATE	(Home) 	| Taste, mit der die angewählten Geräte in eine definerte Startposition gebracht werden (normalerweise 100% Pegel, 50% Pan/Tilt, kein Gobo, keine Farbe, kein Shutter).                 
+LOCATE	(Home) 	| Taste, mit der die angewählten Geräte in eine definierte Startposition gebracht werden (normalerweise 100% Pegel, 50% Pan/Tilt, kein Gobo, keine Farbe, kein Shutter).                 
 LOCK	<br/>(Sperren, Verriegeln) 	| Speicherplätze können gegen die Seitenumschaltung gesperrt werden, so dass sie nicht mit umgeschaltet werden.Wählt man dabei ‚Transparent Lock', so wirkt die Sperre nur, soweit auf den anderen Seiten nicht bereits etwas auf diesem Platz programmiert ist. <br/><br/> Kann auch die Sperre des Pultes gegen unbefugte Benutzung bedeuten.
 LTP			| Latest Takes Precedence, ein Mechanismus, der beschreibt, wie der Ausgangspegel durch mehrere Playbacks gesteuert wird. Insbesondere bei allen Attributen, die nicht Dimmer (Helligkeit) sind, hat der zuletzt aufgerufene Wert Vorrang. Siehe hingegen HTP.
 MACRO		| Hat bei Titan mehrere Bedeutungen: <br/><br/>Entweder eine programmierte Sequenz von Tastendrücken, die häufig verwendet wird und durch einen Klick aufgerufen werden kann. <br/><br/> Oder Abfolge von verschiedenen Attributwerten, mit der Movinglights z.B. gezündet oder resettet werden können (abhängig vom Movinglight).
@@ -80,7 +80,7 @@ PIXEL MAPPER	| Erlaubt das Positionieren von Fixtures analog zu ihrer tatsächli
 PLAYBACK 	| Handle mit programmiertem Cue, Chaser oder Cueliste. Kann Fader, Button oder Taste sein.
 PRELOAD	(Vorladen)   	| Tastenfunktion, mit der die LTP-Kanäle eines Playbacks bereits aktiviert werden (etwa Farbe oder Position), aber kein HTP-Dimmer. Damit werden die Geräte ‚vorbereitet' und können später eingefadet werden.
 PRESET FOCUS	|  Andere Bezeichnung für Paletten (bei älteren Avolites-Pulten). Siehe PALETTE.
-PROGRAMMER (Programmierspeicher)	| Speicherbereich im Pult, der dievorgenommenen Änderungen beinhaltet, die im Anschluss gespeichert werden sollen.
+PROGRAMMER (Programmierspeicher)	| Speicherbereich im Pult, der die vorgenommenen Änderungen beinhaltet, die im Anschluss gespeichert werden sollen.
 QUICK PALETTE	| Wird eine Palette abgerufen, ohne dass Geräte ausgewählt sind, so wird die Palette auf sämtliche Geräte angewendet, sofern dies möglich ist. Diese Funktion kann in den Benutzereinstellungen deaktiviert werden.
 RANGE		| Wenn ein ganzer Bereich von DMX-Werten ein bestimmtes Ergebnis erzeugt, z.B. 128-191 = Gobo Rotation, dann spricht man von einer Range (Bereich).
 RDM			| Remote Device Management, Signalprotokoll, mit dem Geräte vom Pult aus konfiguriert werden und Rückmeldung geben können. Nicht von allen Movinglights unterstützt.
@@ -110,5 +110,5 @@ VIRTUAL DIMMER (virtuelle Dimmer) | Insbesondere einfache RGB-Lampen haben mitun
 VISUALISER	| Software zur Darstellung der Bühnen- und Beleuchtungssituation in 3D, um das Vorprogrammieren zu erleichtern. 
 WING		| Separates Gerät mit weiteren Fadern und Tasten, um einem Pult weitere Bedienelemente hinzuzufügen.
 WIPEALL		| Komplettes Löschen des Pultes, um ganz neu zu beginnen. Bereits gespeicherte Shows bleiben erhalten.
-WHEELS (Räder, Encoder)  | Mit den Wheels (Räder, Encoder) lassensich Werte eingeben sowie in Chasern und Cuelisten navigieren.
+WHEELS (Räder, Encoder)  | Mit den Wheels (Räder, Encoder) lassen sich Werte eingeben sowie in Chasern und Cuelisten navigieren.
 YOKE		| Die drehbare Aufhängung des Kopfes bei kopfbewegten Movinglights.

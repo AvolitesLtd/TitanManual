@@ -144,7 +144,7 @@ mit niedrigerer Priorität verworfen.
 **Block RDM:** Damit wird RDM für dieses Modul deaktiviert.
 
 **Synchronization Address:** Steht dies auf einem anderen Wert als 0, so
-wird das damit bezeichnete sACN-Univerum zum Synchronisieren verwendet:
+wird das damit bezeichnete sACN-Universum zum Synchronisieren verwendet:
 alle Geräte empfangen zwar DMX-Daten, speichern die aber zwischen und
 geben sie erst aus, wenn auf dem Sync-Universum ein Paket gesendet wird.
 Damit lassen sich Tearing-Effekte vermeiden (versetzte Ausgabe). Mit 0
@@ -188,7 +188,7 @@ wird das identische Signal parallel gesendet.
 
 > Über die Registry lässt sich ArtPoll deaktivieren. Das kann gelegentlich notwendig sein,
 wenn inkompatible Geräte verwendet werden. Wenn das erforderlich sein sollte, oder wenn 
-umgekehrt ArtPoll ncht funktioniert, obwohl es sollte, dann wenden Sie sich an Avolites,
+umgekehrt ArtPoll nicht funktioniert, obwohl es sollte, dann wenden Sie sich an Avolites,
 um nähere Informationen zu erhalten.
 
 ## DMX-Overview

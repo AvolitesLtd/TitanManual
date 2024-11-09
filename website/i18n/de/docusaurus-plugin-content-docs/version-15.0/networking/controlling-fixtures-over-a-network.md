@@ -73,7 +73,7 @@ Geräte (Knoten, Nodes) konfiguriert werden.
 -   Am Dimmer stellen Sie die Startadresse 1.001 ein (Universum 1, Adresse 1).
 
 -   Den Konverter/Node stellen Sie so ein, dass er ab Universum 2 arbeitet;
-	handelt es sich z.B. um einen Koverter mit 12 Universen, so wandelt er
+	handelt es sich z.B. um einen Konverter mit 12 Universen, so wandelt er
 	die Universen 2 bis 13 von Art-Net zu DMX.
 
 Im Menü [DMX Settings](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs)

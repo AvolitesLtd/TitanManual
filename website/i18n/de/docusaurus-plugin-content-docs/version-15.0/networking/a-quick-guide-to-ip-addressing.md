@@ -34,7 +34,7 @@ da hierbei zu berücksichtigen ist, welche Geräte und Protokolle im
 Netzwerk verwendet werden, und welche IP-Adressen frei vergeben werden
 oder bereits festgelegt sind. manche ältere Art-Net-Geräte sind z.B. auf Adressen im Bereich `2.x.y.z` oder `10.x.y.z` 
 festgelegt, so dass auch alle anderen Geräte in diesem Netzwerk so eingestellt werden müssen. Ist das nicht der Fall, 
-so verwendet man oft den Adressebereich `192.168.1.x`. 
+so verwendet man oft den Adressbereich `192.168.1.x`. 
 
 Im Folgenden sind einige beispielhafte
 Szenarien aufgeführt. *Für das Funktionieren kann keine Garantie
@@ -98,4 +98,4 @@ Startadresse  | Letzte Adresse   | Subnetzmaske
 `172.16.0.0`  | `172.31.255.255` | `255.255.0.0` (/12)
 `192.168.0.0` | `192.168.255.255`| `255.255.255.0` (/16)
 
-> Für Art-Net muss eventuell der Bereich 10.x.x.x verwendet werden, wenn die vorhandenen Geräte das erfordern.
+> Für Art-Net muss eventuell der Bereich 10.x.y.z verwendet werden, wenn die vorhandenen Geräte das erfordern.

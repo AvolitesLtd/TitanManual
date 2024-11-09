@@ -136,8 +136,8 @@ umgeschaltet werden:
 
 -   Für jede Playbackseite lässt sich eine Bezeichnung vergeben. Die
  Bezeichnung wird auf der auf der virtuellen Walze angezeigt. Zum Vergeben
- der Bezeichnung nutzen Sie im Hauptmenü <Keys.SoftKey>Set Legends</Keys.SoftKey>, dann \[Page
- Legends\]. Solange man sich in diesem Menü befindet, lassen sich für
+ der Bezeichnung nutzen Sie im Hauptmenü <Keys.SoftKey>Set Legends</Keys.SoftKey>, 
+ dann <Keys.SoftKey>Page Legends</Keys.SoftKey>. Solange man sich in diesem Menü befindet, lassen sich für
  mehrere Seiten Bezeichnungen vergeben.
 
 -   Die festen Playbacks bzw. Executor-Tasten (sofern jeweils vorhanden)

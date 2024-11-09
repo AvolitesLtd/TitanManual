@@ -32,7 +32,7 @@ machen.
 
 1. Drücken Sie die <Keys.HardKey>Unfold</Keys.HardKey>-Taste, und dann die **Swop**-Taste 
 des zu bearbeitenden Chasers.
-2. Die ersten zehn oder 15 Chaserschritte (ja nachdem wieviel Playbackfader das Pult hat)
+2. Die ersten zehn oder 15 Chaserschritte (ja nachdem wie viel Playbackfader das Pult hat)
 werden daraufhin auf die Regler abgebildet.
 3. Aktivieren Sie einen Regler, um den jeweiligen Schritt zu sehen
 *(dabei werden die Überblendzeiten wie programmiert abgerufen)*.

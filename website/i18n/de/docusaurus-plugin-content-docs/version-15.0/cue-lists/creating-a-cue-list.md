@@ -18,8 +18,8 @@ Sie erstellen jeweils das gewünschte Bild und fügen dies als Schritt zu
 der Cueliste hinzu. Zeiten lassen sich entweder sofort oder [später
 hinzufügen](cue-list-timing.md).
 
-1. Drücken Sie die Taste <Keys.HardKey>Record</Keys.HardKey> und wählen die Option \[Create Cue
-List\] (auf dem Tiger Touch I drücken Sie <Keys.HardKey>Record Chase or List</Keys.HardKey>
+1. Drücken Sie die Taste <Keys.HardKey>Record</Keys.HardKey> und wählen die Option <Keys.SoftKey>Create Cue List</Keys.SoftKey> 
+(auf dem Tiger Touch I drücken Sie <Keys.HardKey>Record Chase or List</Keys.HardKey>
 zweimal, oder drücken Sie die Taste einmal und wählen die Option
 <Keys.SoftKey>Create Cue List</Keys.SoftKey>).
 2. Drücken Sie die blaue **Select**-Taste des gewünschten
@@ -60,8 +60,7 @@ sind.
     wiederholen Sie obiges Vorgehen; bereits vorhandene Schritte werden
     davon nicht beeinflusst. 
 
--   Zum Anfügen von Schritten an das Ende der Liste wählen Sie \[Append
-    Cue\].
+-   Zum Anfügen von Schritten an das Ende der Liste wählen Sie <Keys.SoftKey>Append Cue</Keys.SoftKey>.
 
 -   Um einen bestehenden Schritt zu ändern, drücken Sie <Keys.SoftKey>Cue Number=</Keys.SoftKey>
     und geben die Nummer des Schrittes mit den Zifferntasten ein. Nehmen

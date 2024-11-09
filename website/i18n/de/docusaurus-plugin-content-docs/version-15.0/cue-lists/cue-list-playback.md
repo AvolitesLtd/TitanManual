@@ -22,8 +22,8 @@ Das Display direkt oberhalb des jeweiligen Reglers zeigt Informationen
 zur aktuellen Cueliste: der aktuellen Cue wird oben hellblau
 dargestellt, darunter der nächste dunkelblau.
 
-Die Überblendung wird durch einen Forschrittsbalken angezeigt. Zeiten
-werden durch Pfeile nach oben (Fade-In) bzw, unten (Fade-Out), mit
+Die Überblendung wird durch einen Fortschrittsbalken angezeigt. Zeiten
+werden durch Pfeile nach oben (Fade-In) bzw. unten (Fade-Out), mit
 Buchstaben (d = Delay, f = Fade) sowie mit einem M (bei manuellem
 Crossfade) dargestellt.
 

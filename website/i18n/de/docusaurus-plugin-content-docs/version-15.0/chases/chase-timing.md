@@ -136,7 +136,7 @@ Die Zuordnung erfolgt in den [Optionen](../cues/playback-options.md) des Chasers
 
 ## Speed-Faktoren
 
-Mittels Speed-Faktoren kann das Geschwindigkeits-Verhältnis zwischen
+Mittels Speed-Faktoren kann das Geschwindigkeitsverhältnis zwischen
 mehreren Chasern und Effekten festgelegt werden (etwa x4 oder /2).
 
 Wählen Sie <Keys.SoftKey>Speed Multiplier</Keys.SoftKey> im ‚Edit Times'-Menü des Chasers oder in

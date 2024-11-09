@@ -27,7 +27,7 @@ auf <Keys.SoftKey>External Display Connected</Keys.SoftKey>, und das externe Dis
 
 >   Ist kein externes Display vorhanden, empfiehlt es sich aus Performance-Gründen, den Anschluss zu deaktivieren.
 
-Es empfiehlt sich, alle Displays in ihrer hardwaremässigen Auflösung zu
+Es empfiehlt sich, alle Displays in ihrer hardwaremäßigen Auflösung zu
 betreiben. Normalerweise wird das von Titan korrekt erkannt. Sollte dies
 (bei einem Pult, nicht bei der PC-Suite) nicht der Fall sein, so klicken Sie 
 auf <Keys.SoftKey>Tools</Keys.SoftKey> in der Werkzeugleiste am oberen Bildschirmrand, 

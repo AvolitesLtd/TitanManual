@@ -18,7 +18,7 @@ aktuelle Belegung der Encoder sowie der 15 Macrotasten angezeigt. Am oberen und 
 Touchscreens werden die Belegungen der Playbackfader und -tasten angezeigt.
 
 &nbsp;<Keys.Annotation>B</Keys.Annotation> Die **Playbackfader** und **Playback-Drehregler** dienen zur Auswahl und 
-Steuerung von Cues, Cuelisten und Chaser und anderen kofigurierbaren Funktionen. (Das D9-215 verfügt nur über 
+Steuerung von Cues, Cuelisten und Chaser und anderen konfigurierbaren Funktionen. (Das D9-215 verfügt nur über 
 den rechten Teil der Fader).
 
 &nbsp;<Keys.Annotation>C</Keys.Annotation> Der **System Prompt und Menü-Tasten** verfügen über einen eigenen Touchscreen.

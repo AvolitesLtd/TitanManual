@@ -170,8 +170,8 @@ anderweitig gespeicherte Shows im Show-Browser auswählen und aufrufen.
 
 Wurde Titan nicht richtig beendet, etwa durch einen Stromausfall, und
 wird dann neu gestartet, so kann der letzte Stand meist nicht direkt
-wiederhergestellt werden. In diesem Fall gibt es die Option \[Recover
-Show\], womit versucht wird, die frühere Show aus einem temporären
+wiederhergestellt werden. In diesem Fall gibt es die Option <Keys.SoftKey>Recover Show</Keys.SoftKey>, 
+womit versucht wird, die frühere Show aus einem temporären
 Verzeichnis zu rekonstruieren. Außerdem werden auch Funktionen zum
 Starten einer neuen Show oder dem Laden einer anderen Show angeboten.
 

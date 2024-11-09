@@ -201,7 +201,7 @@ auch die einzelnen Pegel anzeigt.
 
 ![Audio Window](/docs/images/Audio-Window.png)
 
-Ist die erforderliche Hrdware nicht vorhanden, so wird eine entsprechende
+Ist die erforderliche Hardware nicht vorhanden, so wird eine entsprechende
 Warnung angezeigt, [siehe oben](./midi-dmx-or-audio-triggering.md#).
 
 -   Mit dem Schalter 'Enable' unter dem Gain-Regler lassen sich alle

@@ -39,8 +39,8 @@ schaltet den Wert ein oder aus).
     tatsächlichen Werte oder aber die Legende der verknüpften Palette
     angezeigt wird.
 
--   Enthält die Palette Shapes, so öffnet die Schaltfläche \[View
-    Shapes\] die Shape-Anzeige mit allen enthaltenen Shapes und ihren
+-   Enthält die Palette Shapes, so öffnet die Schaltfläche <Keys.SoftKey>View Shapes</Keys.SoftKey> 
+    die Shape-Anzeige mit allen enthaltenen Shapes und ihren
     Parametern. Klickt man dort wiederum auf <Keys.SoftKey>View</Keys.SoftKey> ('Anzeigen'), so
     öffnet sich die Shape-Geräteansicht **Shape Fixture View**, in der 
 	man die Parameter für einzelne Geräte ändern sowie mit **Add 
@@ -106,6 +106,6 @@ sich das einfach per <Keys.HardKey>Update</Keys.HardKey> realisieren.
     aus und stellen den gewünschten Wert ein.
 2.  Drücken Sie <Keys.HardKey>Update</Keys.HardKey> (Pearl Expert: <Keys.HardKey>Record Cue</Keys.HardKey>, <Keys.SoftKey>Update</Keys.SoftKey>)
 3.  Im Bildschirm werden die Paletten und Cues, die zum gestarteten Cue
-    gehören und upgedated werden können, angezeigt.
+    gehören und upgedatet werden können, angezeigt.
 4.  Wählen Sie mit den Menütasten, was upgedatet werden soll, und drücken 
 	Sie nochmals <Keys.HardKey>Update</Keys.HardKey>.

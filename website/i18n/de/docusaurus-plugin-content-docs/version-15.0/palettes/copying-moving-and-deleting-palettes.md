@@ -32,7 +32,7 @@ Paletten hinzufügen.
     erneut betätigen muss. Zum Freigeben des Menüs drücken Sie
     nochmals <Keys.HardKey>Latch Menu</Keys.HardKey>, zum Verlassen drücken Sie <Keys.HardKey>Exit</Keys.HardKey>.
 
--   <Keys.SoftKey>Retain Layout</Keys.SoftKey>(Darstellung beibehalten) und <Keys.SoftKey>Bunch Up</Keys.SoftKey>\
+-   <Keys.SoftKey>Retain Layout</Keys.SoftKey>(Darstellung beibehalten) und <Keys.SoftKey>Bunch Up</Keys.SoftKey>
     (zusammenfassen) sind von Bedeutung beim Kopieren von mehreren
     Paletten mit eingeschlossenen freien Speicherplätzen: man kann
     wählen, die Verteilung (mit freien Plätzen) beizubehalten oder nur
@@ -42,8 +42,8 @@ Paletten hinzufügen.
     (Bezeichnungen kopieren) umschalten zu <Keys.SoftKey>Don't copy legends</Keys.SoftKey>,
     womit den kopierten Paletten Standard-Bezeichnungen gegeben werden.
 
--   Im Move-(Verschieben)-Modus bietet sich ferner die Option \[Swap
-    Items if Required\]. Damit werden soweit möglich andere Paletten
+-   Im Move-(Verschieben)-Modus bietet sich ferner die Option <Keys.SoftKey>Swap Items if Required</Keys.SoftKey>. 
+    Damit werden soweit möglich andere Paletten
     umplatziert, sofern sie beim Verschieben im Weg sind. Diese Option
     ist hilfreich beim Umgruppieren in sehr vollen Seiten.
 
@@ -63,8 +63,7 @@ Weitere Möglichkeiten zum Löschen:
     wählen aus dem Menü <Keys.SoftKey>Delete</Keys.SoftKey>.
 
 -   Drücken Sie die Taste <Keys.HardKey>Palette</Keys.HardKey> oberhalb des Ziffernblocks, und
-    benutzen Sie die Option <Keys.SoftKey>Delete</Keys.SoftKey> aus dem Menü \[Palette
-    Utilities\].
+    benutzen Sie die Option <Keys.SoftKey>Delete</Keys.SoftKey> aus dem Menü <Keys.SoftKey>Palette Utilities</Keys.SoftKey>.
 
 -   Drücken Sie <Keys.HardKey>Delete</Keys.HardKey>, dann <Keys.SoftKey>Palette</Keys.SoftKey>, tippen die Nummer mit den
     Zifferntasten ein, und drücken <Keys.HardKey>Enter</Keys.HardKey>.

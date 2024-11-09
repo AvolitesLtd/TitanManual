@@ -291,8 +291,8 @@ Betätigen von <Keys.HardKey>Enter</Keys.HardKey> wählt Merge).
 
 Einzelne Cues können vorübergehend deaktiviert werden. Klicken Sie dazu
 auf die Zelle 'Disabled' ganz rechts beim jeweiligen Cue in der
-Playback-Ansicht. Mit den Funktionstasten wählen Sie nun \[Cue
-Disabled Yes\]. Ist ein Cue deaktiviert (disabled), so wird er übersprungen,
+Playback-Ansicht. Mit den Funktionstasten wählen Sie nun <Keys.SoftKey>Cue Disabled Yes</Keys.SoftKey>. 
+Ist ein Cue deaktiviert (disabled), so wird er übersprungen,
 als wäre er nicht vorhanden, kann aber später wieder aktiviert werden
 
 ## Einzelne Cues mit Include in den Programmer laden

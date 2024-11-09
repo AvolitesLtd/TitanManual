@@ -165,7 +165,7 @@ Anpassungen vornehmen sowie etwa während der Show per Blind-Modus letzte
 
 Im Konsolenbereich des Bildschirms (links neben der Leiste mit den
 Menütasten) wird eine Liste der zuletzt ausgeführten
-Programmier-Aktionen angezeigt.
+Programmieraktionen angezeigt.
 
 ![System Area](/docs/images/System-Area.png)
 

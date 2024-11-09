@@ -140,8 +140,8 @@ und wählen die Option <Keys.SoftKey>Blind</Keys.SoftKey>; damit können Sie zwi
 und <Keys.SoftKey>Inactive</Keys.SoftKey> umschalten)*.
 
 Sollen nur einzelne Speicherplätze z.B. im Visualiser kontrolliert
-werden, ohne auf die Bühne 'rauszugehen', so können sie per \[Playback
-Options\] in den Blind-Modus geschaltet werden, oder man hält <Keys.HardKey>Blind</Keys.HardKey>
+werden, ohne auf die Bühne 'rauszugehen', so können sie per <Keys.SoftKey>Playback Options</Keys.SoftKey> 
+in den Blind-Modus geschaltet werden, oder man hält <Keys.HardKey>Blind</Keys.HardKey>
 gedrückt und drückt/klickt auf das jeweilige Playback. Wiederholt man
 das, so wird das Playback wieder ‚Live'.
 

@@ -37,7 +37,7 @@ Einmal lizenziert, kann man die Software entweder als Titan Go oder als Titan Si
 
 -   Gestartet als Titan Go lässt sich nur mit dem Editor AvoKey ein
     DMX-Universum über Artnet/sACN ausgeben (mit einem T1/T2 geht auch
-    eine bzw. zwei linien als DMX)
+    eine bzw. zwei Linien als DMX)
 
 -   Gestartet als Simulator (zu erkennen an der Anzeige 'Offline' rechts
     oberhalb der Arbeitsfenster) können sämtliche Pulte dargestellt

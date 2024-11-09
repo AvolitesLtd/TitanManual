@@ -22,7 +22,7 @@ Das Aufzeichnen einer Timeline im Live-Betrieb entspricht dem Aufzeichnen einer 
 
 Zum Aufzeichnen einer Timeline im Live-Betrieb geht man wie folgt vor:
 
-1. Ist ein externer Timecode verbunden, möchste man aber die Timeline von diesem unabhängig aufzeichnen, so 
+1. Ist ein externer Timecode verbunden, möchte man aber die Timeline von diesem unabhängig aufzeichnen, so 
 klickt man auf "Timecode Disconnect" <Keys.ContextKey>Link</Keys.ContextKey>, so dass eine unterbrochene 
 Verbindung angezeigt wird.
 2. Drücken Sie <Keys.HardKey>Record</Keys.HardKey>, <Keys.SoftKey>Timeline</Keys.SoftKey>, dann 
@@ -97,7 +97,7 @@ die **Auswahltaste** des gewünschten Speicherplatzes. Darauf öffnet sich die T
 4. Existierende Playbacks werden mit ihrer jeweiligen **Auswahltaste** angewählt. Wenn man vorher Schritt 3 überspringt, 
 so wird automatisch **Existing Playback** angenommen und das Playback für 2 Sekunden auf 100% aktiviert.
 5. Geben Sie nun die Timecode-Zeit für den Trigger ein. Dafür gibt es mehrere Möglichkeiten:
-    - Geben Sie die Zeit mit <Keys.SoftKey>Reference at hh:mm:ss.fff </Keys.SoftKey> einund drücken Sie <Keys.HardKey>Enter</Keys.HardKey>. Verwenden Sie dabei den Punkt <Keys.HardKey>.</Keys.HardKey> als Trenner. Tippt man z.B. "1 . 05", so ergibt dies 00:01:05:000, und "2 . 2 . 20" ergibt 02:02:20.00. Mit den Pfeiltasten kann man zwischen den einzelnen Feldern (Stunden/Minuten/Sekunden) navigieren.
+    - Geben Sie die Zeit mit <Keys.SoftKey>Reference at hh:mm:ss.fff </Keys.SoftKey> ein und drücken Sie <Keys.HardKey>Enter</Keys.HardKey>. Verwenden Sie dabei den Punkt <Keys.HardKey>.</Keys.HardKey> als Trenner. Tippt man z.B. "1 . 05", so ergibt dies 00:01:05:000, und "2 . 2 . 20" ergibt 02:02:20.00. Mit den Pfeiltasten kann man zwischen den einzelnen Feldern (Stunden/Minuten/Sekunden) navigieren.
     - Mit <Keys.SoftKey>Reference at Live Time</Keys.SoftKey> kann die aktuelle (blau angezeigte) Timecode-Zeit eingegeben werden.
     - Klicken Sie nun in der Timeline-Ansicht dorthin, wo Sie den Trigger haben möchten. Die genaue Zeit lässt sich auch später noch korrigieren.
 6. Wiederholen Sie den Vorgang ab Schritt 2 zum Hinzufügen weiterer Trigger.

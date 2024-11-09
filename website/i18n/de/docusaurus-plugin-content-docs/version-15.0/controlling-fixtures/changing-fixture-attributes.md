@@ -28,8 +28,7 @@ zwischen verschiedenen Werten umgeschaltet wird (z.B. feste Farben oder Gobos).
 
 Die Attribute können auch im [Attribute Editor Fenster](../controlling-fixtures/using-the-select-buttons-and-wheels.md#das-fenster-attribut-editor) eingestellt werden.
 
->	Auf dem Pearl Expert dienen je nach Benutzereinstellung die Encoder des
-	Touchwings zum Einstellen der Attribute.
+> Auf dem Pearl Expert dienen je nach Benutzereinstellung die Encoder des Touchwings zum Einstellen der Attribute.
 
 Jede einzelne Attribut-Taste kann mehrere Attribute steuern, von denen
 jedes einem Rad zugeordnet ist. Beim Diamond 9 und beim Sapphire Touch werden 
@@ -88,7 +87,7 @@ Weitere wissenswerte Dinge zu Attributen:
 
 ## Der Trackball (Diamond 9 und Sapphire Touch)
 
-Der Trackball steueert normalerweise Pan und Tilt der Geräte, und der äußere Ring den Dimmer. 
+Der Trackball steuert normalerweise Pan und Tilt der Geräte, und der äußere Ring den Dimmer. 
 Man kann den Trackball aber auch anderen Attributen zuweisen:
 
 1. Wählen Sie ein paar Geräte aus, die das zu steuernde Attribut haben (nur damit 
@@ -99,10 +98,10 @@ Encoder gesteuert werden kann.
 4. Wählen Sie im Menü die gewünschte Funktion <Keys.SoftKey>Track Ball X</Keys.SoftKey>, <Keys.SoftKey>Track Ball Y</Keys.SoftKey> oder <Keys.SoftKey>Wheel Z</Keys.SoftKey>.
 5. Drücken Sie die <Keys.HardKey>@</Keys.HardKey>-Taste des Rades, mit dem gerade das betreffende Attribut gesteuert wird.
 
-Damit ist das attribut entsprecheend zugewiesen, und das Menü wird geschlossen. 
+Damit ist das Attribut entsprechend zugewiesen, und das Menü wird geschlossen. 
 Um die Zuweisung zu überprüfen, drücken Sie wieder auf <Keys.HardKey>Assign</Keys.HardKey>. Daraufhin wird im Menü die aktuelle Zuweisung angezeigt.
 
-- Mit dem Trackball kann auch der Mousepointer gesteuert werden, siehe [Trackball (Mouse-Steuerung)](../titan-basics/workspace-windows.md#trackball-diamond-9-and-sapphire-touch-only).
+- Mit dem Trackball kann auch der Mauszeiger gesteuert werden, siehe [Trackball (Maus-Steuerung)](../titan-basics/workspace-windows.md#trackball-diamond-9-and-sapphire-touch-only).
 
 
 ## Dimmer-Handrad (Nur beim Diamond 9)
@@ -114,12 +113,12 @@ mit den Attributbänken umgeschaltet. (Es kann aber wie nachstehend beschrieben
 anderen Attributen zugewiesen werden).
 
 Unterhalb des Handrades befindet sich eine <Keys.HardKey>Level @</Keys.HardKey> Taste, mit 
-der das Menü zum Einstellen des Dimmerwertes aufgerufen werden kann (siehe [Einstellen von Attributwerden per @-Taste](../controlling-fixtures/changing-fixture-attributes.md#adjusting-attributes-with-the--buttons)). 
+der das Menü zum Einstellen des Dimmerwertes aufgerufen werden kann (siehe [Einstellen von Attributwerten per @-Taste](../controlling-fixtures/changing-fixture-attributes.md#adjusting-attributes-with-the--buttons)). 
 
 - Das Handrad kann zur Steuerung eines anderen Attributs zugewiesen werden. Gehen 
 Sie dazu wie beim Ändern der Zuordnung des Trackballs vor (s.o.), wählen aber bei Schritt 
 4 die Funktion <Keys.SoftKey>Level Wheel</Keys.SoftKey>. 
-Das Display oberhalb des Handrades zeigt nun den Wert des neu zugewiesenen Attrbuts an.
+Das Display oberhalb des Handrades zeigt nun den Wert des neu zugewiesenen Attributs an.
 
 ## Das Fenster 'Attribut-Editor'
 
@@ -184,7 +183,7 @@ Locate (nur Dimmer).
 
 Pan/Tilt-Steuerung per X/Y-Raster. Dabei werden die angewählten Geräte
 durch Kreis angezeigt, was die Steuerung vereinfacht. Weitere
-Steuerungmöglichkeiten:
+Steuerungsmöglichkeiten:
 
 -   Mit <Keys.SoftKey>Locate</Keys.SoftKey> wird die Position auf 50% Pan/50% Tilt 
     gesetzt, ohne andere Attribute zu verändern.

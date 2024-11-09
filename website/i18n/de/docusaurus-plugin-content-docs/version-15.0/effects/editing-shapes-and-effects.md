@@ -64,8 +64,8 @@ Wurde ein Cue mittels Include geladen und sind mehrere Shapes
 gleichzeitig im Programmierspeicher, so lässt sich der mit den Encodern zu
 steuernde mit Taste <Keys.SoftKey>Edit</Keys.SoftKey> auswählen.
 
-1. Wenn das Shape-Menü noch nicht aktiv ist, so öffnen Sie es mit \[Shapes and
-Effects\], dann <Keys.SoftKey>Shape Generator</Keys.SoftKey> aus dem Hauptmenü.
+1. Wenn das Shape-Menü noch nicht aktiv ist, so öffnen Sie es 
+mit <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, dann <Keys.SoftKey>Shape Generator</Keys.SoftKey> aus dem Hauptmenü.
 2. Drücken Sie <Keys.SoftKey>Edit</Keys.SoftKey>.
 3. Drücken Sie <Keys.SoftKey>Select shape</Keys.SoftKey>.
 4. Bei den Menütasten erscheint eine Liste der laufenden Shapes.
@@ -129,8 +129,7 @@ angewählt werden.
 
 Ist ein Shape mit einer Gruppe verknüpft (s.o.), so wird durch das
 Entfernen von Fixtures aus dem Shape die Verknüpfung gelöst.
-Entsprechend wird eine Meldung ausgegeben, und man muss das mit \[Remove
-Fixtures\] bestätigen.
+Entsprechend wird eine Meldung ausgegeben, und man muss das mit <Keys.SoftKey>Remove Fixtures</Keys.SoftKey> bestätigen.
 
 ## Einen Shape umkehren
 

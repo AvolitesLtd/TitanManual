@@ -11,7 +11,7 @@ import Video from '@site/src/components/video.tsx';
 
 HTP-Werte (der Dimmer) von Geräten werden durch den Faderwert der Timeline gesteuert. Die Timeline wird dabei automatisch auf 100% gestartet, sobald der entsprechende Timecode erreicht wird.
 
-Diese automatische Wiedergabe kann deaktiviert werden, ebenso kann zwar automatisch gestartet werden, aber ohne den Faderwert 100%. Dazu dient die Einstellung [Activate in Range](../timelines/timeline-options.md#tab-timeline) in den Optionen der Timeline. Wird die automatische Aktivierung ausgeschaltet, so muss die Timeline manuell durch Betätigen des Faders aktiviert werden, damit die Trigger funktonieren.
+Diese automatische Wiedergabe kann deaktiviert werden, ebenso kann zwar automatisch gestartet werden, aber ohne den Faderwert 100%. Dazu dient die Einstellung [Activate in Range](../timelines/timeline-options.md#tab-timeline) in den Optionen der Timeline. Wird die automatische Aktivierung ausgeschaltet, so muss die Timeline manuell durch Betätigen des Faders aktiviert werden, damit die Trigger funktionieren.
 
 
 1.  Stellen Sie den Button **timecode link** (links unten in der Timeline-Ansicht) auf **Linked** (geschlossene Kettenglieder).
@@ -63,17 +63,17 @@ Wurden ein oder mehrere Trigger angewählt, so kann man mit den Encodern die Zei
 
 Sind mehrere Trigger ausgewählt, so werden sie alle mit den Encodern beeinflusst.
 
-### Die Übersichts-Leiste
+### Die Übersichtsleiste
 
-Die **Übersichts-Leiste** unten im Timeline-Fenster bietet einen Überblick über alle Elemente eine Tracks.
+Die **Übersichtsleiste** unten im Timeline-Fenster bietet einen Überblick über alle Elemente eine Tracks.
 
 ![Timeline overview bar](/docs/images/Timeline-Overview-Bar.png)
 
 - Die Reiter links und rechts entsprechen Start und Ende der Detailansicht darüber. Damit kann man rasch in einen bestimmten Bereich der Timeline springen.
 
-- Wurde in die Timeline hineingezoomt, so kann man den Bereich in der Übersichts-Leiste einfach anklicken und verschieben (so, als ob man mit der 'Hand' im Detailbereich navigieren würde).
+- Wurde in die Timeline hineingezoomt, so kann man den Bereich in der Übersichtsleiste einfach anklicken und verschieben (so, als ob man mit der 'Hand' im Detailbereich navigieren würde).
 
-- Der Editier-Cursor wird grau dargestellt.
+- Der Editiercursor wird grau dargestellt.
 
 - Die Position der aktuellen Zeit erscheint blau.
 
@@ -150,7 +150,7 @@ Es gibt mehrere Möglichkeiten:
 Die Timeline kann auch in einer Tabellenansicht angezeigt werden, klicken Sie dazu im Kontext-Menü 
 auf <Keys.ContextKey>Open Table View</Keys.ContextKey>. Damit werden alle Trigger mit ihren Details in einer 
 Tabelle angezeigt, so wie z.B. von Cuelisten gewohnt. Mit den Buttons auf der linken Seite lässt sich die Liste filtern.
-Timeline-Fester und die Timeline-Tabelle können gleichzeitg geöffnet sein.
+Timeline-Fester und die Timeline-Tabelle können gleichzeitig geöffnet sein.
 
 ![Timeline table view](/docs/images/Timeline-Table-View.png)
 

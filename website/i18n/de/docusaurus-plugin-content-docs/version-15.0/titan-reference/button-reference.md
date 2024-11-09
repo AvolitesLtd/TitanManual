@@ -10,7 +10,7 @@ import Video from '@site/src/components/video.tsx';
 In diesem Abschnitt sind alle HHardware-Tasten mit ihrer Funktion aufgeführt. **Links** führen jeweils zum Abschnitt 
 des Manuals mit weiterführenden Informationen. Manche Tasten stehen nicht auf allen Pulten zur Verfügung.
 
-&nbsp;``<n>`` -- geben Sie einen Wert mit den Zfferntasten ein.
+&nbsp;``<n>`` -- geben Sie einen Wert mit den Zifferntasten ein.
 
 &nbsp;<Keys.HardKey>View</Keys.HardKey> <Keys.HardKey>Colour</Keys.HardKey> -- drücken Sie die genannten Tasten nacheinander.
 
@@ -98,7 +98,7 @@ Tasten | Aktion
  <Keys.HardKey>Avo</Keys.HardKey> + {Master} | Release eines Masters auf seinen Default-Wert (100%), siehe [Einen Master releasen](../cues/cue-playback.md#einen-master-releasen).
  <Keys.HardKey>Avo</Keys.HardKey> + {Playback} | Playback deaktivieren (killen), siehe [Release](../cues/cue-playback.md#release).
  <Keys.HardKey>Avo</Keys.HardKey> + Encoder drehen | Beschleunigung. Eine Umdrehung deckt den ganzen Bereich von 0 bis 100% ab.
- <Keys.HardKey>Avo</Keys.HardKey> + 2/4/6/8 | Cursor/Pfeilasten nach oben/links/rechts/unten
+ <Keys.HardKey>Avo</Keys.HardKey> + 2/4/6/8 | Cursor/Pfeiltasten nach oben/links/rechts/unten
 
 
 
@@ -119,7 +119,7 @@ Aktivieren des Blind-Modus: es können Änderungen programmiert werden, ohne das
 
 
 ## <Keys.HardKey>Block</Keys.HardKey> 
-(Nur beim D9) Z. Zt. nicht verwendet.
+(Nur beim D9) Z.Zt. nicht verwendet.
 
 
 
@@ -157,7 +157,7 @@ Auswahl der Attributgruppe Colour zum Steuern von RGB, CMY etc. mit den Encodern
 
 
 ## <Keys.HardKey>Commit</Keys.HardKey> 
-(Nur beim D9) Committen des Scene Masters, gleiches ergebnis wie Stellen des Reglers auf 100%, siehe [Scene Master](../running-the-show/playback-controls.md/#scene-master).
+(Nur beim D9) Committen des Scene Masters, gleiches Ergebnis wie Stellen des Reglers auf 100%, siehe [Scene Master](../running-the-show/playback-controls.md/#scene-master).
 
 
 
@@ -546,7 +546,7 @@ Tasten | Ergebnis
 
 
 ## <Keys.HardKey>Record Step</Keys.HardKey> 
-Speichert den Inhalt des Programmers in den aktuellen Cue der aktuell gesteuerten Cueliste. Siehee [Editieren einer Cueliste während des Programmierens](../cue-lists/editing-cue-lists.md/#editieren-einer-cueliste-während-des-programmierens)
+Speichert den Inhalt des Programmers in den aktuellen Cue der aktuell gesteuerten Cueliste. Siehe [Editieren einer Cueliste während des Programmierens](../cue-lists/editing-cue-lists.md/#editieren-einer-cueliste-während-des-programmierens)
 
 
 
@@ -662,7 +662,7 @@ gefolgt von der **Auswahltaste** eines Chasers oder einer Cueliste, blendet die 
 
 
 ## <Keys.HardKey>Update</Keys.HardKey> 
-Aktualisieren des aktuellen Cues. Dabei wird der inhalt des Programmers für bereits vorhandene Fixtures und Attribute in den Cue verschmolzen. Siehe [Aktualisieren gespeicherter Werte und Paletten](../cues/editing-cues.md/#aktualisieren-gespeicherter-werte-und-paletten).
+Aktualisieren des aktuellen Cues. Dabei wird der Inhalt des Programmers für bereits vorhandene Fixtures und Attribute in den Cue verschmolzen. Siehe [Aktualisieren gespeicherter Werte und Paletten](../cues/editing-cues.md/#aktualisieren-gespeicherter-werte-und-paletten).
 
 
 

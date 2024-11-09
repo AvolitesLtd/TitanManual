@@ -68,20 +68,17 @@ setzen. Damit kann etwa die Pan/Tilt-Bewegung begrenzt werden, oder bei
 Geräten mit Dimmer und Shutter auf einem Kanal kann der Shutterbereich
 gesperrt werden.
 
-Limits für Attribute können entweder über das Menü <Keys.HardKey>Patch</Keys.HardKey>, \[Edit
-Fixtures\], oder über den Reiter 'Attribute Behaviour' im Patch View
-gesetzt werden.
+Limits für Attribute können entweder über das Menü <Keys.HardKey>Patch</Keys.HardKey>, <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>, 
+oder über den Reiter 'Attribute Behaviour' im Patch View gesetzt werden.
 
 1.  Drücken Sie die Taste <Keys.HardKey>Patch</Keys.HardKey>.
 2.  Drücken Sie <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
 3.  Wählen Sie <Keys.SoftKey>Set Limits</Keys.SoftKey>.
 4.  Wählen Sie das/die gewünschte(n) Gerät(e) aus.
 5.  Wählen Sie über die Menütasten die zu ändernden Attribute sowie,
-	ob das obere (upper) oder das untere (lower) Limit gesetzt werden
-	soll.
-6.  Geben Sie den gewünschten Wert in Prozent ein, oder wählen Sie \[Set
-	To Current Value\], um den momentanen Wert zu übernehmen. Mit \[Remove
-	Limit\] wird das Limit gelöscht.
+    ob das obere (upper) oder das untere (lower) Limit gesetzt werden soll.
+6.  Geben Sie den gewünschten Wert in Prozent ein, oder wählen Sie <Keys.SoftKey>Set To Current Value</Keys.SoftKey>, 
+    um den momentanen Wert zu übernehmen. Mit <Keys.SoftKey>Remove Limit</Keys.SoftKey> wird das Limit gelöscht.
 7.  Beenden Sie den Vorgang mit <Keys.HardKey>Exit</Keys.HardKey>.
 
 Im Reiter 'Attribute Behaviour' der Patch-Ansicht setzen Sie Limits mit
@@ -105,8 +102,8 @@ Das Offset kann auf vier Arten eingestellt werden:
 
 -   Gerät(e) auswählen, <Keys.HardKey>Locate</Keys.HardKey>, dann die Attribute so einstellen,
     dass die ursprünglich vorgesehenen Locate-Positionen erreicht
-    werden. Nun drücken Sie <Keys.HardKey>Record</Keys.HardKey>, <Keys.HardKey>Locate</Keys.HardKey> und wählen \[Update
-    Offset\]. Damit werden nicht die Locate-Werde verändert, sondern die
+    werden. Nun drücken Sie <Keys.HardKey>Record</Keys.HardKey>, <Keys.HardKey>Locate</Keys.HardKey> 
+    und wählen <Keys.SoftKey>Update Offset</Keys.SoftKey>. Damit werden nicht die Locate-Werde verändert, sondern die
     eingestellte Abweichung wird als Offset gespeichert. Das ist ein
     schneller visueller Weg, das Offset einzurichten.
 

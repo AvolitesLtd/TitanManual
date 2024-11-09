@@ -6,12 +6,12 @@ sidebar_label: Netzwerke mit D9 oder Arena
 
 Das Diamon 9 und das Arena verfügen anders als die anderen Titan-Pulte über einen
 integrierten Netzwerkswitch und einen optischen Netzwerkschluss
-(optional: zwei). **Dieser Abschnitt gilt nur für Diamon 9 und Arena-Pulte!**
+(optional: zwei). **Dieser Abschnitt gilt nur für Diamond 9 und Arena-Pulte!**
 
 ## Optische Anschlüsse
 
 Der optische Netzwerkanschluss ist ein Neutrik opticalCon mit
-Multimode Glasfaser. Das Arena ist mit einem einzelnern opticalCon DUO ausgestattet, auf Nachfrage 
+Multimode Glasfaser. Das Arena ist mit einem einzelnen opticalCon DUO ausgestattet, auf Nachfrage 
 kann ein zweiter Anschluss eingebaut werden. Das Diamond 9 kommt mit einem opticalCon QUAD, bei dem 
 normalerweise ein Fasernpaar belegt ist. Mit der Zusatzoption 10GbE wird das zweite Paar Fasern belegt.
 
@@ -22,7 +22,7 @@ Avolites Rücksprache.
 
 ## RJ45-Netzwerk-Anschlüsse
 
-Beim Diamon 9 ist ein 1Gb Luminex Netzwerkswitch integriert, das Arena verfügt über einen 
+Beim Diamond 9 ist ein 1Gb Luminex Netzwerkswitch integriert, das Arena verfügt über einen 
 integrierten 1Gb TitanNet Switch (TNS). Dieser ist jeweils direkt mit
 Netzwerkanschluss 1 des Motherboards verbunden. Der Switch stellt
 vier Ethernet-Ports auf der Rückseite des Pultes bereit.

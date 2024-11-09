@@ -78,11 +78,10 @@ gewünschten auswählen.
 ![Video Multi View Window adding a stream](/docs/images/Video-Multi-View-Window-adding-a-stream.png)
 
 Mit der Kontext-Option <Keys.SoftKey>Change Layout</Keys.SoftKey> kann man die Anzahl und
-Anordnung der gezeigten Vorschaufenster wählen. \[Titles
-Shown\]/<Keys.SoftKey>Titles Hidden</Keys.SoftKey> bestimmt, ob die Namen der Streams als Titel
+Anordnung der gezeigten Vorschaufenster wählen. <Keys.SoftKey>Titles Shown</Keys.SoftKey>/<Keys.SoftKey>Titles Hidden</Keys.SoftKey> bestimmt, ob die Namen der Streams als Titel
 der Vorschauen angezeigt werden.
 
-![Video Multi View Window laout options](/docs/images/Video-Multi-View-Window-laout-options.png)
+![Video Multi View Window layout options](/docs/images/Video-Multi-View-Window-laout-options.png)
 
 Dabei muss die Option **"Automatic NDI preview"** in den [Synergy Settings](setting-up.md#einrichten-von-synergy)
 aktiv sein, damit die Vorschauen angezeigt werden.
@@ -126,7 +125,7 @@ Server angewählt ist. Dies ist auch bei Plugins für generativen
 Content der Fall, deren Namen man selbst bestimmt.
 
 > Wird ein Layer ausgewählt und <Keys.HardKey>Locate</Keys.HardKey> gedrückt, so wird die Helligkeit
-auf 100% gesetzt, aber sämtlche Medien und Effekte werden gecleared. Damit 
+auf 100% gesetzt, aber sämtliche Medien und Effekte werden gecleart. Damit 
 wird der Layer wieder in einen neutralen Ausgangszustand versetzt. **Um
 etwas am Output zu sehen, muss nur noch ein Clip gewählt werden.**
 
@@ -180,8 +179,7 @@ die Wiedergabe auf den Lampen.
 Die grundsätzliche Funktionsweise des Layout-Editors ist im Abschnitt
 [Gerätereihenfolge und -anordnung in den Gruppen](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) beschrieben.
 
-Bei der Verwendung mit Synergy gibt es mit dem Kontext-Menü \[Media
-Options\] einige sinnvolle Zusatzfunktionen zur Erstellung des Layouts.
+Bei der Verwendung mit Synergy gibt es mit dem Kontext-Menü <Keys.SoftKey>Media Options</Keys.SoftKey> einige sinnvolle Zusatzfunktionen zur Erstellung des Layouts.
 
 ### Show Video Overlay
 Hier lässt sich jeder beliebige Layer und jedes
@@ -221,8 +219,8 @@ bleibt.
 
 Im Layout-Editor lassen sich Geräte auch skalieren, um die relative
 Größe an die tatsächlichen Größenverhältnisse anzupassen. Dazu klickt
-man auf den Kontext-Button <Keys.SoftKey>Position and Angle</Keys.SoftKey>, bis dieser \[Fixture
-Scale\] zeigt. Skaliert man Geräte mit Zellen sehr klein, so
+man auf den Kontext-Button <Keys.SoftKey>Position and Angle</Keys.SoftKey>, bis 
+dieser <Keys.SoftKey>Fixture Scale</Keys.SoftKey> zeigt. Skaliert man Geräte mit Zellen sehr klein, so
 verschwinden die einzelnen Zellen, und alle Zellen arbeiten synchron.
 
 ## Phasensteuerung von Keyframe-Shapes durch Ai

@@ -52,7 +52,7 @@ vor und drücken zweimal <Keys.HardKey>Update</Keys.HardKey>.
 
 ---
 
-Alternativ werden die [Paletten](../palettes.md) und Cues, die upgedated werden
+Alternativ werden die [Paletten](../palettes.md) und Cues, die upgedatet werden
 können, im Bildschirm angezeigt; wählen Sie die gewünschten aus.
 
 In diesem Fall bestätigen Sie die Auswahl mit <Keys.HardKey>Enter</Keys.HardKey>.
@@ -238,8 +238,8 @@ Abschnitt](#cues-wiederverwenden---die-include-funktion)), um den Cue in den Pro
 3. Alle Geräte in dem Cue werden ausgewählt. Wollen Sie nicht alle
 verändern, so entfernen Sie die Geräte einzeln aus der Auswahl.
 4. Wählen Sie mit den Attributbank-Buttons die Off zu schaltenden
-Attributebänke und drücken Sie <Keys.SoftKey>Attributes Off</Keys.SoftKey>. Außerdem kann man mit
-den Menütasten auch einzelne Attribute Off schalten, z.B. \[Dimmer Off\].
+Attributbänke und drücken Sie <Keys.SoftKey>Attributes Off</Keys.SoftKey>. Außerdem kann man mit
+den Menütasten auch einzelne Attribute Off schalten, z.B. <Keys.SoftKey>Dimmer Off</Keys.SoftKey>.
 5. Drücken Sie <Keys.HardKey>Record</Keys.HardKey>, dann die **Auswahltaste** des Cues, und schließlich 
 <Keys.SoftKey>Replace</Keys.SoftKey> zum Speichern der Änderungen.
 

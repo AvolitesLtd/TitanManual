@@ -35,7 +35,7 @@ Chase Snap | *On*: mit den Tasten <Keys.HardKey>Next Step</Keys.HardKey>/<Keys.H
 Cue List Snap | *On*: mit den Tasten <Keys.HardKey>Next Step</Keys.HardKey>/<Keys.HardKey>Prev Step</Keys.HardKey> wird bei Cuelisten hart auf den nächsten Schritt umgeschaltet.<br/>***Off***: programmierte Fadezeiten werden berücksichtigt.
 Clear Record Mask | ***On***: die Speichermaske (Record Mask) wird nach jedem Speichervorgang auf 'Alle Attribute' zurückgesetzt<br/>*Off*: die eingestellte Maske wird beibehalten.
 Copy Cues | ***Copy Tracked Values:*** beim Kopieren von Cues aus Cuelisten werden getrackte Werte kopiert<br/> *Don't Copy Tracked Values:* getrackte Werte werden nicht kopiert, nur die Werte, die direkt in diesem Cue gespeichert sind, werden kopiert.
-Run Startup Playbacks   | ***On:*** Playbacks, die in den Optonen auf 'Run on Startup' gestellt sind, werden beim Laden der Show/Systemstart automatisch gestartet.<br/> *Off*: Beim Laden der Show/Systemstart werden keine Playbacks automatisch gestartet.
+Run Startup Playbacks   | ***On:*** Playbacks, die in den Optionen auf 'Run on Startup' gestellt sind, werden beim Laden der Show/Systemstart automatisch gestartet.<br/> *Off*: Beim Laden der Show/Systemstart werden keine Playbacks automatisch gestartet.
 System Render Rate (Hz) | ***40 Hz*** Dient zum Einstellen der generellen Systemgeschwindigkeit. Der Wert kann je nach Bedarf auf Werte von 1 bis 44Hz gestellt werden. Mit kleineren Werten wird der Prozessor bei Shows mit sehr vielen gesteuerten Geräten ggf. entlastet.
 
 ## Display
@@ -54,8 +54,8 @@ Option | Wirkung
 -------|--------
 Grand Master Fader | *On:* Grand Master aktiviert (nicht bei allen Pulten vorhanden).<br/>***Off:*** Grand Master deaktiviert. Hilfreich insbesondere, wenn der Fader nicht korrekt funktionieren sollte. oder um unbeabsichtigtes Betätigen zu vermeiden
 Delete Default | ***Delete:*** Elemente werden mit <Keys.HardKey>Delete</Keys.HardKey> + Doppelklick gelöscht.<br/>*Unassign:* Elemente werden nicht gelöscht, sondern nur von der Taste/Schaltfläche entfernt, und sind über die Show Library weiterhin verfügbar.
-Prompt Replace | Bestimmt, wie sich das Pult verhält, wenn man etwas auf einen bereits belegten Speicherplatz speichern will.<br/>***Always Ask:*** Es erscheint jedes Mal eine Rückfrage.<br/>*Always Merge:* Es erscheint nie eine Rückfrage, es wird immer gemerged.<br/>*Palettes Always Merge:* Die Rückfrage erscheint nur, wenn es sich nicht um das Speichern von Paletten handelt.
-Display Halo | ***On:*** Die Buttons werden mit farbigen Halos dargestellr.<br/>*Off:* Es werden keine farbigen Halos angezeigt.
+Prompt Replace | Bestimmt, wie sich das Pult verhält, wenn man etwas auf einen bereits belegten Speicherplatz speichern will.<br/>***Always Ask:*** Es erscheint jedes Mal eine Rückfrage.<br/>*Always Merge:* Es erscheint nie eine Rückfrage, es wird immer gemergt.<br/>*Palettes Always Merge:* Die Rückfrage erscheint nur, wenn es sich nicht um das Speichern von Paletten handelt.
+Display Halo | ***On:*** Die Buttons werden mit farbigen Halos dargestellt.<br/>*Off:* Es werden keine farbigen Halos angezeigt.
 Fixture Halos | *Custom:* Bei Geräte-Buttons werden nur benutzerdefinierte Halos angezeigt. <br/>***Auto:*** Es werden automatisch farbige Halos für alle Fixtures angezeigt siehe [Halo](../patching/changing-the-patch.md#fixture-button-halo)
 Handle Buttons | Erlaubt das Ändern der Größe der Schaltflächen auf dem Touchscreen: *Small* (klein), ***Normal*** (normal), *Large* (groß) oder *Super Size* (sehr groß). <br/>Kann jeweils pro Fenster abgeändert werden.
 Text Size | Bestimmt die Schriftgröße auf den Schaltflächen. *Small* (klein), ***Normal*** (normal), *Large* (groß) oder *Super Size* (sehr groß). <br/>Kann jeweils pro Fenster abgeändert werden.
@@ -113,7 +113,7 @@ Option | Wirkung
 -------|--------
 Release To Home | ***On:*** das Release erfolgt nach und nach bis zum Einschaltzustand des Pultes.<br/>*Off:* LTP-Werte des letzten Playbacks bleiben aktiv.
 Master Release Time | Vorgabewert für die Release-Zeit.
-Release Priority | Die Playback-Priorität, die per Default im Release-Menü sowie bei Release-Macros herangezogen wird. - *Low* (neidrig), *Normal* (normal), *High* (hoch), ***Programmer*** (Programmer), *Very High* (sehr hoch). Playbacks mit geringerer Priorität werden per *Release All* (Doppelklick auf <Keys.HardKey>Release</Keys.HardKey>) released.
+Release Priority | Die Playback-Priorität, die per Default im Release-Menü sowie bei Release-Macros herangezogen wird. - *Low* (niedrig), *Normal* (normal), *High* (hoch), ***Programmer*** (Programmer), *Very High* (sehr hoch). Playbacks mit geringerer Priorität werden per *Release All* (Doppelklick auf <Keys.HardKey>Release</Keys.HardKey>) released.
 
 - Stellt man die Release Priority auf **Low**, so kann man nicht versehentlich alle Playbacks mit <Keys.HardKey>Release</Keys.HardKey><Keys.HardKey>Release</Keys.HardKey> deaktivieren, denn so würden nur die mit Priorität *Low* released.
 
@@ -126,7 +126,7 @@ Option | Wirkung
 Auto Reset Mask | ***On:*** Setzt die Maskierung bei jedem Betätigen der 'Clear'-Taste automatisch zurück.<br/>*Off:* Die Clear-Maske wird nicht zurückgesetzt.
 Zero Preset Fader Levels   | ***On:***  Faderwerte von Geräten, die direkt auf Fader gepatcht sind, werden mit <Keys.HardKey>Clear</Keys.HardKey> auf 0 gesetzt.<br/> *Off:*  Die Werte werden aus dem Programmer gelöscht, bleiben aber aktiv.
 Release to Playback Values | *On:* LTP-Kanäle releasen auf das zuletzt aktive Playback.<br/>***Off:*** LTP-Kanäle releasen bei Clear nicht.
-Clear Cue Times | ***On:*** Zeiten im Prrogrammer werden bei Clear gelöscht.<br/>*Off:* Zeiten im Programmer werden bei Clear beibehalten.
+Clear Cue Times | ***On:*** Zeiten im Programmer werden bei Clear gelöscht.<br/>*Off:* Zeiten im Programmer werden bei Clear beibehalten.
 Clear Rate Settings | ***On:*** Speed-Einstellungen im Programmer werden bei Clear zurückgesetzt. <br/>*Off:* Speed-Einstellungen im Programmer bleiben bei Clear erhalten.
 Clear Direction | ***On:*** Direction-Einstellungen im Programmer werden bei Clear zurückgesetzt. <br/>*Off:* Direction-Einstellungen im Programmer bleiben bei Clear erhalten.
 Clear Selected Fixtures | *On:* bei Betätigen der Clear-Taste werden nur die gerade angewählten Geräte aus dem Programmer gelöscht, während die anderen im Programmer verbleiben. Sind keine Geräte angewählt, so wird der Programmer komplett gelöscht.<br/> ***Off:*** der Programmer wird immer komplett gelöscht.

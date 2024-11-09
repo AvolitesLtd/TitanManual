@@ -181,4 +181,4 @@ Tasteneinstellungen verwendet.
 
 Das Tastenprofil für einzelne Playbacks lässt sich wie folgt schnell ändern:
 halten Sie die Taste <Keys.HardKey>Options</Keys.HardKey> gedrückt und wählen Sie das Playback. Sie 
-können nun das gewüschte Profil wählen, und die Auswahl wird sofort wirksam.
+können nun das gewünschte Profil wählen, und die Auswahl wird sofort wirksam.

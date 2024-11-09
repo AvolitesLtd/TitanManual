@@ -39,8 +39,8 @@ diese ab dort auf die folgenden freien Plätze eingefügt.
     erneut betätigen muss. Zum Freigeben des Menüs drücken Sie
     nochmals <Keys.HardKey>Menu Latch</Keys.HardKey>, zum Verlassen drücken Sie <Keys.HardKey>Exit</Keys.HardKey>.
 
--   <Keys.SoftKey>Retain Layout</Keys.SoftKey>(Layout erhalten) oder \[Bunch
-    Up\](Zusammen­fassen) werden verwendet beim Kopieren einer Gruppe
+-   <Keys.SoftKey>Retain Layout</Keys.SoftKey>(Layout erhalten) oder <Keys.SoftKey>Bunch Up</Keys.SoftKey>
+    (Zusammen­fassen) werden verwendet beim Kopieren einer Gruppe
     von Cues, die auch unbelegte Speicherplätze enthält: diese lassen
     sich entweder weiter als unbelegt behalten, oder die belegten
     Speicherplätze werden aufeinanderfolgend zusammengefasst.
@@ -65,8 +65,8 @@ auf einmal aus. Und mit <Keys.HardKey>Menu Latch</Keys.HardKey> kann auch das **
 	Sie die Taste <Keys.HardKey>Avo</Keys.HardKey> gedrückt und drücken dazu <Keys.HardKey>Copy</Keys.HardKey>, um die **Move**-Funktion 
 	zu aktivieren.
 
--   Im Modus 'Move' (Verschieben) dient die Option \[Swap Items if
-    Required\] (Tausch wenn erforderlich) dazu, bestehende Cues, die dem
+-   Im Modus 'Move' (Verschieben) dient die Option <Keys.SoftKey>Swap Items if Required</Keys.SoftKey> 
+    (Tausch wenn erforderlich) dazu, bestehende Cues, die dem
     Verschiebe-Vorgang im Wege wären, automatisch zu verschieben. Dies
     bietet sich insbesondere beim ‚Aufräumen' nahezu voller Seiten an.
 

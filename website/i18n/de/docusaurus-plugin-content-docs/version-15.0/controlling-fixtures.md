@@ -92,8 +92,7 @@ kurz drückt, sondern gedrückt hält.
 
 -   Die Option <Keys.SoftKey>Auto Reset Mask</Keys.SoftKey> löscht die Maskierung automatisch, so
     dass bei jedem 'Locate'-Vorgang wieder sämtliche Attribute
-    beeinflusst werden. Alternativ bestimmt die Option \[Remember
-    Mask\], dass die Maskierung erhalten bleibt.
+    beeinflusst werden. Alternativ bestimmt die Option <Keys.SoftKey>Remember Mask</Keys.SoftKey>, dass die Maskierung erhalten bleibt.
 
 -   Die Option <Keys.SoftKey>Clear/Don't Clear Located Attributes</Keys.SoftKey> bestimmt, ob die
     durch <Keys.HardKey>Locate</Keys.HardKey> gesendeten Werte beim Speichern mit übernommen

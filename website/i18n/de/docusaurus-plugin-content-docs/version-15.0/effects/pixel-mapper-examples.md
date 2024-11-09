@@ -16,8 +16,7 @@ anderweitig für die Dimmer eingestellte Pegel.
 1. Zunächst müssen die betreffenden Dimmer in einer Gruppe
 zusammengefasst werden, wenn das nicht schon der Fall ist.
 2. Als nächstes muss das Layout der Geräte in dieser Gruppe
-entsprechend eingestellt werden (mit <Keys.SoftKey>Shapes And Effects</Keys.SoftKey>, \[Pixel
-Mapper\], <Keys.SoftKey>Edit Group Layout</Keys.SoftKey>, Gruppe auswählen).
+entsprechend eingestellt werden (mit <Keys.SoftKey>Shapes And Effects</Keys.SoftKey>, <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Edit Group Layout</Keys.SoftKey>, Gruppe auswählen).
 3. Erstellen Sie nun einen Effekt: wählen Sie die Gruppe aus und
 klicken Sie <Keys.SoftKey>Shapes And Effects</Keys.SoftKey>, <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Create Effect</Keys.SoftKey>.
 4. Im Effekt-Editor schalten Sie die Option <Keys.SoftKey>Fixture Overlay</Keys.SoftKey> auf <Keys.SoftKey>Fixture Overlay 50/50</Keys.SoftKey>. 
@@ -59,8 +58,7 @@ rotierenden roten 'Propeller' erstellt.
 
 1.  Erstellen Sie ein Gruppe von Geräten und legen Sie das Layout wie im
 [vorigen Beispiel](#zufallseffekte) beschrieben fest.
-2.  Starten Sie den Effekt-Editor mit <Keys.SoftKey>Shapes And Effects</Keys.SoftKey>, \[Pixel
-Mapper\], <Keys.SoftKey>Create Effect</Keys.SoftKey>.
+2.  Starten Sie den Effekt-Editor mit <Keys.SoftKey>Shapes And Effects</Keys.SoftKey>, <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>, <Keys.SoftKey>Create Effect</Keys.SoftKey>.
 3.  Wählen Sie <Keys.SoftKey>Layer 1</Keys.SoftKey>, klicken auf das <Keys.ContextKey>+</Keys.ContextKey> unten links und wählen den Block als grafisches Element.
 
  Stellen Sie die **Rotation** auf ca. 25° nach rechts ein.
@@ -306,7 +304,7 @@ stellen Sie **Background Opacity** auf 0. *(Damit kann dieser Effekt zum Überla
 
 6.  Klicken Sie wieder auf <Keys.SoftKey>Effect</Keys.SoftKey> und stellen **Master Speed** nach
   Belieben ein. (Durch Verwenden der globalen Geschwindigkeit werden beide
-  Animationen gleichermaßen beeinflusst, so dass man sie nicht manuellsynchronisieren muss).
+  Animationen gleichermaßen beeinflusst, so dass man sie nicht manuell synchronisieren muss).
   
   ![Effect Editor - Pixel Mapper - Effect Master Speed](/docs/images/Effect-Editor-Pixel-Mapper-Effect-Master-Speed.png)
 

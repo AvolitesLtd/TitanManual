@@ -26,24 +26,23 @@ Playbacks können zum Aktivieren ganz einfach angeklickt werden.
 ## Die Anzeige wählen
 
 Im Stand-Alone-Modus lässt sich die Anzeige auf dem Homescreen wählen:
-<Keys.SoftKey>Network Adapters</Keys.SoftKey> ist die normale Anzeige im Slave-Modus, \[Playbacks
-Grid\] zeigt die Playbacks (s.o.), und <Keys.SoftKey>Session View</Keys.SoftKey> blendet die
-derzeitige TitanNet-Session ein.
+<Keys.SoftKey>Network Adapters</Keys.SoftKey> ist die normale Anzeige im 
+Slave-Modus, <Keys.SoftKey>Playbacks Grid</Keys.SoftKey> zeigt die Playbacks (s.o.), 
+und <Keys.SoftKey>Session View</Keys.SoftKey> blendet die derzeitige TitanNet-Session ein.
 
 ![TNP View Screen](/docs/images/TNP-View-Screen.png)
 
 In der <Keys.SoftKey>Session View</Keys.SoftKey>-Anzeige wird gezeigt, wie der TNP gerade mit
 anderen Titan-Pulten in einer Session verbunden ist.
 
-![TNP Sessions View Screem](/docs/images/TNP-Sessions-View-Screem.png)
+![TNP Sessions View Screen](/docs/images/TNP-Sessions-View-Screem.png)
 
 ## Die Anzeige sperren
 
 Die gewählte Anzeige wird auch gezeigt, wenn der TNP mittels <Keys.SoftKey>Lock</Keys.SoftKey>
 gesperrt ist. Werden gerade die Playbacks angezeigt, so lassen sich
-diese auch bei gesperrtem Bildschirm aktivieren. Der Button \[Show
-Keypad\] blendet die Zifferntasten ein, mit denen der TNP wieder
-entsperrt werden kann.
+diese auch bei gesperrtem Bildschirm aktivieren. Der Button <Keys.SoftKey>Show Keypad</Keys.SoftKey> 
+blendet die Zifferntasten ein, mit denen der TNP wieder entsperrt werden kann.
 
 ![TNP Locked Playback View Screen](/docs/images/TNP-Locked-Playback-View-Screen.png)
 

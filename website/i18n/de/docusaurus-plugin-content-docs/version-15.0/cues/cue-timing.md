@@ -45,8 +45,7 @@ Gespeicherte Zeiten lassen sich wie folgt ändern:
 3. Drücken Sie <Keys.SoftKey>Fade Mode x</Keys.SoftKey>, um den 'Fade Mode' (Überblendmodus)
 einzustellen. &nbsp;*Das bestimmt, wie die Zeiten verwendet werden, [siehe unten](#fade-modes).*
 4. Drücken Sie <Keys.SoftKey>Delay time</Keys.SoftKey>, um die Verzögerungszeit vor Beginn des
-Cues einzugeben, <Keys.SoftKey>Fade time</Keys.SoftKey> für die Einblendzeit, sowie \[Fade out
-time\] für die Eingabe der Ausblendzeit.
+Cues einzugeben, <Keys.SoftKey>Fade time</Keys.SoftKey> für die Einblendzeit, sowie <Keys.SoftKey>Fade out time</Keys.SoftKey> für die Eingabe der Ausblendzeit.
 5. Geben Sie die jeweilige Zeit mit den Zifferntasten (in Sekunden)
 ein, und schließen Sie die Eingabe mit <Keys.HardKey>Enter</Keys.HardKey> ab.
 6. Drücken Sie <Keys.SoftKey>Fixture Overlap</Keys.SoftKey> zur Einstellung des Geräteversatzes,

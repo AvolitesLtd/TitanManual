@@ -98,7 +98,7 @@ die Tracknummer. Der aktuell als Master verwendete Track wird durch ein
 rotes M angezeigt; dieser kann zum Steuern der BPM-Master verwendet
 werden.
 
-Mittel Kontextfunktinen lässt sich die Anzeige der einzelnen Elemente
+Mittels Kontextfunktionen lässt sich die Anzeige der einzelnen Elemente
 jeweils aktivieren oder abschalten (große und kleine Signalanzeige,
 Track-Details und Statusleiste).
 

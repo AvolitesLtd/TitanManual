@@ -24,8 +24,7 @@ betätigen Sie eine Schaltfläche im ‚Playbacks'-Fenster (siehe [Erstellen ein
 
 ## Chaser
 
-Drücken Sie zweimal <Keys.HardKey>Record</Keys.HardKey> (oder <Keys.HardKey>Record</Keys.HardKey> und dann \[Create
-Chase\]).
+Drücken Sie zweimal <Keys.HardKey>Record</Keys.HardKey> (oder <Keys.HardKey>Record</Keys.HardKey> und dann <Keys.SoftKey>Create Chase</Keys.SoftKey>).
 
 Drücken Sie die **Auswahltaste** eines Faders, eine Macro-/Executor-Taste, oder betätigen Sie eine
 Schaltfläche im ‚Playbacks'-Fenster.

@@ -69,8 +69,8 @@ Timeline-Global Release Time | Globale Release-Zeit für Playbacks, die durch di
 
 Option | Wirkung
 -------|--------
-Activate In Range | **Activate at 100%**: Die Timeline wird automatisch mit 100% gestartet, sobald der anliegende Timecode im Bereich der Timeline liegt (also zwischen angegebenem Start und Ende).<br/>Activate at 0%: Die Timeline wird bei passendem Timecode automatisch gestartet, aber mit 0% Faderwert.<br/>Off: Die Timeline wird nicht automatisch gestartet, sondern muss manuell aktiviert werdern.
-Kill Out Of Range | Off: Die Timeline bleibt aktiviert, wenn der Timecode außerhalb des gültigen Bereichs ist (Start/Ende).<br/>**On:** Die Timeline wird deaktiviert, sobald der Timecode außerhallb des gültigen Bereichs ist.
+Activate In Range | **Activate at 100%**: Die Timeline wird automatisch mit 100% gestartet, sobald der anliegende Timecode im Bereich der Timeline liegt (also zwischen angegebenem Start und Ende).<br/>Activate at 0%: Die Timeline wird bei passendem Timecode automatisch gestartet, aber mit 0% Faderwert.<br/>Off: Die Timeline wird nicht automatisch gestartet, sondern muss manuell aktiviert werden.
+Kill Out Of Range | Off: Die Timeline bleibt aktiviert, wenn der Timecode außerhalb des gültigen Bereichs ist (Start/Ende).<br/>**On:** Die Timeline wird deaktiviert, sobald der Timecode außerhalb des gültigen Bereichs ist.
 Loop | **Off**: Der interne Timecode wird nicht auf den Startwert zurückgesetzt, sobald das festgelegte Ende der Timeline erreicht ist.<br/>On: Der interne Timecode wird auf den Startwert zurückgesetzt, sobald das festgelegte Ende der Timeline erreicht ist.
 
 - Die Option Loop funktioniert nur mit dem internen Timecode.

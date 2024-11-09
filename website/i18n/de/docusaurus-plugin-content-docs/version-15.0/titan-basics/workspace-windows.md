@@ -17,7 +17,7 @@ Die Fenster können frei angeordnet werden, und es können mehrere
 Monitore verwendet werden. Die Zusammenstellung der Fenster kann als
 Workspace (Arbeitsumgebung) gespeichert werden. Arbeitsumgebungen können
 für einzelne Fenster, einzelne Bildschirme oder alles gemeinsam gelten.
-So kann man die oberfläche des Pultes durch einen Klick verändern.
+So kann man die Oberfläche des Pultes durch einen Klick verändern.
 
 Das folgende Bild zeigt eine typische Kombination mehrerer Fenster.
 
@@ -388,7 +388,7 @@ darunter.
 - Arbeitsfenster, ohne Legenden für Encoder oder Macrotasten.
 
 
-## Compatibility windows -- die 'Kompatibilitäts-Fenster'
+## Compatibility windows -- die 'Kompatibilitätsfenster'
 
 Die Fenster "Fixtures and Playbacks" (Geräte und Speicherplätze) und
 "Groups and Palettes" (Gruppen und Paletten) ermöglichen Zugriff auf die
@@ -396,8 +396,7 @@ Speicherplätze/Tasten, die zwar auf einem Pearl Expert, nicht aber auf
 anderen Pulten vorhanden sind. Damit lassen sich also auch auf dem
 Expert erstellte Shows laden.
 
-Ist eins dieser Fenster geöffnet, gibt es die Schaltfläche \&#123;Move to
-workspace\&#125; im Kontextbereich. Damit lassen sich die betreffenden
+Ist eins dieser Fenster geöffnet, gibt es die Schaltfläche <Keys.SoftKey>Move to workspace</Keys.SoftKey> im Kontextbereich. Damit lassen sich die betreffenden
 Schaltflächen in die richtigen Arbeitsfenster der anderen Titan-Pulte
 verschieben. Diesen Vorgang muss man zweimal ausführen: einmal mit
 ausgewähltem Fenster "Fixtures and Playbacks", und einmal mit "Palettes

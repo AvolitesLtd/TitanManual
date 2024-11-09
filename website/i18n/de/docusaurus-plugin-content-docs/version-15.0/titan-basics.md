@@ -1,7 +1,7 @@
 ---
 id: titan-basics
-title: Anschliessen des Pultes, erste Schritte
-sidebar_label: Anschliessen des Pultes, erste Schritte
+title: Anschließen des Pultes, erste Schritte
+sidebar_label: Anschließen des Pultes, erste Schritte
 ---
 
 import Keys from '@site/src/components/key.ts';
@@ -41,11 +41,11 @@ Auf dem D9 wird angezeigt, wie lange das Pult noch bis zum automatischen Herunte
 -   Wenn ein Pult oder TNP in der Session auf USV läuft, wird das in den
 	Logs vermerkt.
 
-&nbsp;**Nur beim Diamond 9 und Arena:** Der Netzwerk-Switch im Arena verfügt über eine
+&nbsp;**Nur beim Diamond 9 und Arena:** Der Netzwerk-Switch im Pult verfügt über eine
 eigene USV, so dass das Pult auch kurz abgeschaltet werden kann, ohne den
 Betrieb des Switches zu beeinträchtigen. Nach kompletter Trennung vom
 Netz oder Ausschalten des Pultes läuft der Switch noch für etwa 5 Minuten weiter. Dies ist wichtig,
-wenn dieser Switch auch andere Geräte mit Signal versorgt, das Arena 
+wenn dieser Switch auch andere Geräte mit Signal versorgt, das Pult 
 selbst jedoch abgeschaltet oder neu gestartet werden muss. 
 
 ## Einschalten und Ausschalten
@@ -192,9 +192,9 @@ Abschlusswiderstand (120 Ohm zwischen Pin 2 und 3) abgeschlossen werden.
 Die Verwendung von passiven Splittern (Y-Splittern) kann zu Datenverlust
 führen und sollte vermieden werden.
 
-## Einen Monitor anschliessen
+## Einen Monitor anschließen
 
-Es läßt sich ein (Diamond 9 und Sapphire Touch: zwei) externer Monitor anschliessen (beim Tiger Touch II und
+Es lässt sich ein (Diamond 9 und Sapphire Touch: zwei) externer Monitor anschließen (beim Tiger Touch II und
 Pearl Expert: VGA; beim Quartz, Arena, Sapphire Touch: DVI). Damit erhält
 man mehr Oberfläche zur Anzeige weiterer Fenster (etwa für den
 Visualiser oder das Channel-Grid) sowie - im Falle eines Touchscreens - 
@@ -219,8 +219,8 @@ Weitere Details dazu sowie eine Anleitung zur Suche möglicher Fehler
 
 ## Weitere Anschlussmöglichkeiten
 
-Es lassen sich eine USB-Tastatur sowie eine Maus anschliessen.
-Insbesondere bei der Verwendung eines externen Dispalys ohne
+Es lassen sich eine USB-Tastatur sowie eine Maus anschließen.
+Insbesondere bei der Verwendung eines externen Displays ohne
 Touch-Funktion ist eine Maus dringend zu empfehlen, um die Fenster und
 Funktionen darauf nutzen zu können (beim Sapphire Touch lässt sich der
 Trackball als Maus verwenden).

@@ -203,9 +203,8 @@ Patch-Fenster verwendet wird.
 Um den Halo manuell einzustellen, drücken Sie die Taste <Keys.HardKey>Legend</Keys.HardKey> (nur 
 auf dem D9) bzw. klicken Sie auf <Keys.SoftKey>Set Legend</Keys.SoftKey>, wählen
 das/die Fixture(s) aus und klicken auf die Option <Keys.SoftKey>Halo</Keys.SoftKey>. Darauf
-öffnet sich ein Colourpicker, um die Farbe auszuwählen. Mittels \[System
-Colours\] hat man Zugriff auf vordefinierte Farben, und mit \[Remove
-Halo\] lässt sich der farbige Rand wieder entfernen.
+öffnet sich ein Colourpicker, um die Farbe auszuwählen. Mittels <Keys.SoftKey>System Colours</Keys.SoftKey> 
+hat man Zugriff auf vordefinierte Farben, und mit <Keys.SoftKey>Remove Halo</Keys.SoftKey> lässt sich der farbige Rand wieder entfernen.
 
 ![Fixture Halo](/docs/images/Fixture-Halo.png)
 

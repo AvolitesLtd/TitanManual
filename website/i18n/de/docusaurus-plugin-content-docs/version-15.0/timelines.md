@@ -9,7 +9,7 @@ import Video from '@site/src/components/video.tsx';
 
 Mit Timelines lassen sich zeitlich exakt gesteuerte Abläufe programmieren, die synchron zu einem 
 externen Timecode oder mit dem internen Timecode ablaufen. Das könnte z.B. die Eröffnungs-Sequenz
-einer Veranstaltung sein, die Lichtshow zu einem Song, oder etwa eie Multimedia-Show mit Video-Zuspieler. 
+einer Veranstaltung sein, die Lichtshow zu einem Song, oder etwa eine Multimedia-Show mit Video-Zuspieler. 
 Genauso kann man [aufwändige Lichteffekte](./timelines/timeline-options.md#fader-tab) programmieren und 
 diese später beim Busking verwenden.
 
@@ -100,13 +100,13 @@ Ist der Timecode aktiv und auch in dem gültigen Zeitraum (siehe [Start und Dura
 
 ## Die Übersichtsleiste
 
-Die Balkenanzeige unten in der Timeline-Ansicht bietet einen Überblick über die Timeline von Anfang bis Ende. Trigger und Marker sind verkleinert dargestellt. Indem die Enden der Leiste angeklickt und verschoben werden, kann man im hauptbereich der Tracks passend zoomen, um einen kleinen Bereich genau angezeigt zu bekommen. Auf diese Weise lässt sich schnell in der Timeline navigieren. Siehe [Die Übersichts-Leiste](./timelines/running-and-editing-timelines.md#die-übersichts-leiste).
+Die Balkenanzeige unten in der Timeline-Ansicht bietet einen Überblick über die Timeline von Anfang bis Ende. Trigger und Marker sind verkleinert dargestellt. Indem die Enden der Leiste angeklickt und verschoben werden, kann man im Hauptbereich der Tracks passend zoomen, um einen kleinen Bereich genau angezeigt zu bekommen. Auf diese Weise lässt sich schnell in der Timeline navigieren. Siehe [Die Übersichts-Leiste](./timelines/running-and-editing-timelines.md#die-übersichts-leiste).
 
 ![Timeline overview bar](/docs/images/Timeline-Overview-Bar-Cropped.png)
 
 ## Navigieren in der Timeline mit den Encodern
 
-Aktiviert man die Kontaxt-Option <Keys.ContextKey>Timeline Wheels</Keys.ContextKey>so kann man mit den Encodern in der Timeline navigieren, solange keine Trigger angewählt sind. Die Encoder funktionieren dann wie folgt:
+Aktiviert man die Kontext-Option <Keys.ContextKey>Timeline Wheels</Keys.ContextKey>so kann man mit den Encodern in der Timeline navigieren, solange keine Trigger angewählt sind. Die Encoder funktionieren dann wie folgt:
 - Encoder A: Horizontal
 - Encoder B: Vertikal
 - Encoder C: Zoom
@@ -116,7 +116,7 @@ Sind dagegen Trigger angewählt, so Steuern die Encoder Zeit, Pegel und Fade der
 ## Cursor
 
 Neue Trigger werden an der Stelle eingefügt, an der sich gerade die graue Zeitmarke - der Cursor - befindet. Dies dient 
-auch als "Play Head", um zum Testen die aktuelle Position frei zu verschieben. Zum Verschieben klickt man ober in der Timeline-Ansicht auf die Zeilt emit den Zeiten.
+auch als "Play Head", um zum Testen die aktuelle Position frei zu verschieben. Zum Verschieben klickt man ober in der Timeline-Ansicht auf die Zeile mit den Zeiten.
 
 Klickt man auf das Dreieck oben am Cursor oder aktiviert man die Kontext-Option <Keys.ContextKey>Select Cursor</Keys.ContextKey>, so kann man die Cursorposition mit **Encoder A** genau einstellen.
 
@@ -135,4 +135,4 @@ Mit dem Kontextbutton <Keys.ContextKey>Open Table View</Keys.ContextKey> kann ma
 
 ![Timeline table view](/docs/images/Timeline-Table-View.png)
 
-- Timelines können auch gleichzeitg grafisch und als Tabelle angezeigt werden.
+- Timelines können auch gleichzeitig grafisch und als Tabelle angezeigt werden.

@@ -38,10 +38,9 @@ Wird ein Shape ausgewählt, so wird dieser auf die zuvor angewählten
 Geräte angewendet.
 
 1. [Wählen Sie die Geräte](../controlling-fixtures.md#dimmer-und-geräte-zum-steuern-auswählen), auf die der Shape angewendet werden soll.
-2. Im Hauptmenü drücken Sie <Keys.SoftKey>Shape and Effects</Keys.SoftKey>, dann \[Shape
-Generator\].
-3. Klicken Sie <Keys.SoftKey>Create</Keys.SoftKey>, um einen neuen Shape zu starten.
-![Shape Generator selecting a category of new shape](/docs/images/Shape-Generator-selecting-a-category-of-new-shape.png)
+2. Im Hauptmenü drücken Sie <Keys.SoftKey>Shape and Effects</Keys.SoftKey>, dann <Keys.SoftKey>Shape Generator</Keys.SoftKey>.
+3. Klicken Sie <Keys.SoftKey>Create</Keys.SoftKey>, um einen neuen Shape zu starten.<br/>
+  ![Shape Generator selecting a category of new shape](/docs/images/Shape-Generator-selecting-a-category-of-new-shape.png)
 4. Betätigen Sie eine <Keys.SoftKey>Menütaste</Keys.SoftKey>, um den Shape nach Attribut
 auszuwählen, oder drücken Sie <Keys.SoftKey>All Shapes</Keys.SoftKey> für eine Gesamtliste.
 5. Klicken Sie im **Shapes-Fenster** auf den gewünschten Shape, oder
@@ -76,8 +75,8 @@ die Suche einzugrenzen.
     gleiche Gerät anwenden, womit weitere interessante Effekte erzielt
     werden können.
 
--   Zur Anzeige der momentan laufenden Shapes drücken Sie \[Shapes and
-    Effects\], dann <Keys.SoftKey>Shape Generator</Keys.SoftKey> und dann <Keys.SoftKey>Edit</Keys.SoftKey>.
+-   Zur Anzeige der momentan laufenden Shapes drücken Sie <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, 
+    dann <Keys.SoftKey>Shape Generator</Keys.SoftKey> und dann <Keys.SoftKey>Edit</Keys.SoftKey>.
 
 -   Wird der gleiche Shape auf zwei verschiedene Gruppen von Geräten
     angewendet, so erscheint er doppelt in der Liste. Damit lassen sich
@@ -108,8 +107,7 @@ die Suche einzugrenzen.
 
 Nachdem ein Shape gestartet ist, lassen sich schnell und einfach Größe
 und Geschwindigkeit ändern. Wenn im Display oberhalb der Encoder 'Spread'
-und 'Offset' steht, so drücken Sie Taste E \[Adjust Speed, Size and
-Spread\].
+und 'Offset' steht, so drücken Sie Taste E <Keys.SoftKey>Adjust Speed, Size and Spread</Keys.SoftKey>.
 
 ![Shape Wheel Attribute Controls for Speed, Size & Spread](/docs/images/Shape-Wheel-Attribute-Controls-for-Speed-Size-Spread.png)
 

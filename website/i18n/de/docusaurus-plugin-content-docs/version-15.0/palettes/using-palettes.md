@@ -52,8 +52,8 @@ abzurufenden Palette.
 
 >   Sollen mehrere Paletten gleichzeitig abgerufen werden, so bietet
 sich die ‚Blind-To-Live' Funktion an: schalten Sie das Pult in den
-Blind-Modus (mit der <Keys.HardKey>Blind</Keys.HardKey>-Taste, oder mit <Keys.HardKey>Avo</Keys.HardKey> \[Blind
-Inactive\], wählen die gewünschten Paletten, geben die Fadezeit 
+Blind-Modus (mit der <Keys.HardKey>Blind</Keys.HardKey>-Taste, oder mit <Keys.HardKey>Avo</Keys.HardKey> <Keys.SoftKey>Blind Inactive</Keys.SoftKey>, 
+wählen die gewünschten Paletten, geben die Fadezeit 
 (in Sekunden) ein (wenn geschaltet werden soll: 0 eingeben), und 
 schalten durch nochmaliges Drücken der <Keys.HardKey>Blind</Keys.HardKey>-Taste das Pult 
 in den Live-Modus. Damit wird auf die gewählten Paletten live 

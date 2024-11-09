@@ -80,7 +80,7 @@ enthaltenen Shapes und Effekten zentral steuern, oder - im Fall von
 Chasern - direkt das Chase-Tempo beeinflussen.
 
 Zur Verfügung stehen zwölf unterschiedliche Speedmaster (4 x Speed, 8 x
-BPM) sowie vier Size-Master. So kann man z.B. eined Ratemaster für
+BPM) sowie vier Size-Master. So kann man z.B. einen Ratemaster für
 Positions-Shapes und einen anderen für Dimmershapes verwenden.
 
 Zum Zuweisen eines Playbacks zu einem Speed- oder Size-Master drücken
@@ -406,7 +406,7 @@ oder <Keys.SoftKey>Options</Keys.SoftKey> und wählt den Scene Master. Es gibt f
     der grauen Taste verknüpft sein muss (über Tastenprofile, s.u.).
 
 Auf dem Diamond 9 gibt es weitere Buttons für den Scene Master: <Keys.HardKey>Reset</Keys.HardKey> löscht alle Preset-Änderungen und kehrt zum aktuellen Live-Status zurück, und <Keys.HardKey>Preload</Keys.HardKey> arbeitet 
-wie von Preload gewphnt, lädt also alle LTP-Werte vorab.
+wie von Preload gewohnt, lädt also alle LTP-Werte vorab.
 
 Der Scene Master kann auch auf einer Taste oder einem Button im Display
 liegen. In diesem Fall dient die Kombination <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Scene Master</Keys.SoftKey>
@@ -539,7 +539,7 @@ Fenster/auf welchem Fader) das Playback zu finden ist. Die zweite
 Zeile zeigt die Bezeichnung des Playbacks, die dritte schließlich 
 die gesteuerten Attribute.
 
-![Active Playbacks Windown](/docs/images/Active-Playbacks-Window.png)
+![Active Playbacks Window](/docs/images/Active-Playbacks-Window.png)
 
 Klickt man eine der Schaltflächen an, so wird das betreffende Playback
 sofort deaktiviert. Betätigt man <Keys.SoftKey>Playback Options</Keys.SoftKey>, gefolgt von einer
@@ -591,9 +591,8 @@ man gibt beim Palettenabruf eine Zeit vor.
 
 Enthält eine Palette Zeitvorgaben, so kann man mittels Tastenprofil der
 Palettenschaltflächen bestimmen, ob diese Zeiten beim Improvisieren
-berücksichtigt werden sollen oder nicht. Dazu drücken Sie <Keys.HardKey>Avo</Keys.HardKey>+\[Key
-Profiles\], dann <Keys.SoftKey>Palettes</Keys.SoftKey>. Die möglichen Optionen sind \[Palette is
-fired ignoring its times\] und <Keys.SoftKey>Palette is fired with its times</Keys.SoftKey>.
+berücksichtigt werden sollen oder nicht. Dazu drücken Sie <Keys.HardKey>Avo</Keys.HardKey>+<Keys.SoftKey>Key Profiles</Keys.SoftKey>, 
+dann <Keys.SoftKey>Palettes</Keys.SoftKey>. Die möglichen Optionen sind <Keys.SoftKey>Palette is fired ignoring its times</Keys.SoftKey> und <Keys.SoftKey>Palette is fired with its times</Keys.SoftKey>.
 Manuell eingegebene Zeiten überschreiben stets in der Palette 
 gespeicherte Zeiten.
 

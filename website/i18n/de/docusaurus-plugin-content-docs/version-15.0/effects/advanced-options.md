@@ -17,8 +17,9 @@ Um die Größe/Geschwindigkeit abhängig vom Fader zu machen, drücken Sie
 im Hauptmenü <Keys.HardKey>Options</Keys.HardKey> (oder die Menütaste <Keys.SoftKey>Options</Keys.SoftKey>) und wählen dann 
 den Speicherplatz (Cue) aus, in dem der Shape enthalten ist.
 
-Mit den Funktionstasten <Keys.SoftKey>Fader</Keys.SoftKey> <Keys.SoftKey>Shape Size</Keys.SoftKey> und <Keys.SoftKey>Fader</Keys.SoftKey> \[Shape
-Speed\] können Sie Größe bzw. Geschwindigkeit auf 'fixed' (fest) oder
+Mit den Funktionstasten <Keys.SoftKey>Fader</Keys.SoftKey> <Keys.SoftKey>Shape Size</Keys.SoftKey> 
+und <Keys.SoftKey>Fader</Keys.SoftKey> <Keys.SoftKey>Shape Speed</Keys.SoftKey> 
+können Sie Größe bzw. Geschwindigkeit auf 'fixed' (fest) oder
 'on fader' (faderabhängig) stellen. Ebenso lässt sich ein Speed Master
 oder Size Master zuweisen, siehe
 [Speed- und Size-Master](../running-the-show/playback-controls.md#speed--und-size-master).

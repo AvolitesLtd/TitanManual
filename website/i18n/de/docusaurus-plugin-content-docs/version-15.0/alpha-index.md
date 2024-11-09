@@ -1,7 +1,7 @@
 ---
 id: alpha-index
-title: Inhaltsverzeichnis
-sidebar_label: Inhaltsverzeichnis
+title: Index (alphabetisch)
+sidebar_label: Index (alphabetisch)
 ---
 
 import Keys from '@site/src/components/key.ts';
@@ -59,7 +59,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Ändern des Inhalts einer Palette *(in "Editieren von Paletten")*](./palettes/editing-palettes.md#ändern-des-inhalts-einer-palette)
 
-[Ändern des Locate-Wertes *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#ändern-des-locate-wertes)
+[Ändern des Locate-Wertes *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#ändern-des-locate-wertes)
 
 [Ändern eines Chasers mit der Unfold-Funktion *(in "Editieren eines Chasers")*](./chases/editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion)
 
@@ -92,7 +92,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Anschlussfeld auf der Rückseite *(in "Pearl Expert und Touch Wing")*](./about-the-consoles/pearl-expert-and-touch-wing.md#anschlussfeld-auf-der-rückseite)
 
-[Anwählen von Dimmern/Geräten nach (Kanal-)Nummer *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#anwählen-von-dimmerngeräten-nach-kanal-nummer)
+[Anwählen von Dimmern/Geräten nach (Kanal-)Nummer *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#anwählen-von-dimmerngeräten-nach-kanal-nummer)
 
 [Anzahl und Grösse der Schaltflächen/Raster *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#anzahl-und-grösse-der-schaltflächenraster)
 
@@ -140,7 +140,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Auswahl und Positionierung der Arbeitsfenster *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster)
 
-[Auswahl von Geräten in einem Cue *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#auswahl-von-geräten-in-einem-cue)
+[Auswahl von Geräten in einem Cue *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#auswahl-von-geräten-in-einem-cue)
 
 [Auswählen der Trigger *(in "Wiedergeben und Editieren von Timelines")*](./timelines/running-and-editing-timelines.md#auswählen-der-trigger)
 
@@ -196,13 +196,13 @@ import Video from '@site/src/components/video.tsx';
 
 [Chases *(in "Key Profiles - Tastenbelegungen")*](./system-settings/key-profiles.md#chases)
 
-[Clear -- Löschen des Programmers und der Geräteauswahl *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#clear----löschen-des-programmers-und-der-geräteauswahl)
+[Clear -- Löschen des Programmers und der Geräteauswahl *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#clear----löschen-des-programmers-und-der-geräteauswahl)
 
 [Clear *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#clear)
 
-[Clear-Optionen *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#clear-optionen)
+[Clear-Optionen *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#clear-optionen)
 
-[Compatibility windows -- die 'Kompatibilitäts-Fenster' *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#compatibility-windows----die-'kompatibilitäts-fenster')
+[Compatibility windows -- die 'Kompatibilitätsfenster' *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#compatibility-windows----die-'kompatibilitätsfenster')
 
 [Console Legend *(in "Das System-Menü")*](./system-settings/the-system-menu.md#console-legend)
 
@@ -253,9 +253,9 @@ import Video from '@site/src/components/video.tsx';
 [Cycles *(in "Der Shape-Generator")*](./effects/shape-generator.md#cycles)
   
 ## D
-[Das ausgewählte Gerät bei Fix+1/Fix-1 hervorheben *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#das-ausgewählte-gerät-bei-fix+1fix-1-hervorheben)
+[Das ausgewählte Gerät bei Fix+1/Fix-1 hervorheben *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#das-ausgewählte-gerät-bei-fix+1fix-1-hervorheben)
 
-[Das Clear-Menü *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#das-clear-menü)
+[Das Clear-Menü *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#das-clear-menü)
 
 [Das Fenster "Intensity View" *(in "Anzeigen/Verändern von Attribut-Werten")*](./controlling-fixtures/viewing-and-editing-fixture-values.md#das-fenster-intensity-view)
 
@@ -337,11 +337,11 @@ import Video from '@site/src/components/video.tsx';
 
 [Die Übersichtsleiste *(in "Einführung in Timelines")*](./timelines.md#die-übersichtsleiste)
 
-[Die Übersichts-Leiste *(in "Wiedergeben und Editieren von Timelines")*](./timelines/running-and-editing-timelines.md#die-übersichts-leiste)
+[Die Übersichtsleiste *(in "Wiedergeben und Editieren von Timelines")*](./timelines/running-and-editing-timelines.md#die-übersichtsleiste)
 
 [Die Werkzeugleiste *(in "Andere Bereiche der Anzeige")*](./titan-basics/other-parts-of-the-touch-screen.md#die-werkzeugleiste)
 
-[Dimmer und Geräte zum Steuern auswählen *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#dimmer-und-geräte-zum-steuern-auswählen)
+[Dimmer und Geräte zum Steuern auswählen *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#dimmer-und-geräte-zum-steuern-auswählen)
 
 [Dimmer/Shutter *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#dimmershutter)
 
@@ -353,13 +353,13 @@ import Video from '@site/src/components/video.tsx';
 
 [Direkte Eingabe für Attributwerte *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#direkte-eingabe-für-attributwerte)
 
-[Direktes Clearen einzelner Attribute *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#direktes-clearen-einzelner-attribute)
+[Direktes Clearen einzelner Attribute *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#direktes-clearen-einzelner-attribute)
 
 [Display *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#display)
 
 [Display Setup - Bildschirmeinrichtung *(in "Das System-Menü")*](./system-settings/the-system-menu.md#display-setup---bildschirmeinrichtung)
 
-[DMX anschliessen *(in "Anschliessen des Pultes, erste Schritte")*](./titan-basics.md#dmx-anschliessen)
+[DMX anschliessen *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#dmx-anschliessen)
 
 [DMX Merge *(in "DMX-Ausgänge einrichten")*](./system-settings/dmx-output-mapping.md#dmx-merge)
 
@@ -426,7 +426,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Einen Master releasen *(in "Einen Cue verwenden")*](./cues/cue-playback.md#einen-master-releasen)
 
-[Einen Monitor anschliessen *(in "Anschliessen des Pultes, erste Schritte")*](./titan-basics.md#einen-monitor-anschliessen)
+[Einen Monitor anschließen *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#einen-monitor-anschließen)
 
 [Einen Shape erstellen *(in "Der Shape-Generator")*](./effects/shape-generator.md#einen-shape-erstellen)
 
@@ -448,7 +448,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Einrichten von Synergy *(in "Einrichtung")*](./synergy/setting-up.md#einrichten-von-synergy)
 
-[Einschalten und Ausschalten *(in "Anschliessen des Pultes, erste Schritte")*](./titan-basics.md#einschalten-und-ausschalten)
+[Einschalten und Ausschalten *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#einschalten-und-ausschalten)
 
 [Einstellen der IP-Adresse des Pultes *(in "Steuern von Geräten über Netzwerk")*](./networking/controlling-fixtures-over-a-network.md#einstellen-der-ip-adresse-des-pultes)
 
@@ -456,7 +456,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Einstellen von Überblendzeiten und Geräteversatz *(in "Zeiten für Cues")*](./cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz)
 
-[Einzeln durch die Geräte einer Auswahl durchschalten *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#einzeln-durch-die-geräte-einer-auswahl-durchschalten)
+[Einzeln durch die Geräte einer Auswahl durchschalten *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#einzeln-durch-die-geräte-einer-auswahl-durchschalten)
 
 [Einzelne Cues mit Include in den Programmer laden *(in "Editieren")*](./cue-lists/editing-cue-lists.md#einzelne-cues-mit-include-in-den-programmer-laden)
 
@@ -536,7 +536,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Geräte anwählen *(in "Mit Capture visualisieren")*](./capture-visualiser/visualising-using-capture.md#geräte-anwählen)
 
-[Geräte auf Startposition setzen (Locate) *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#geräte-auf-startposition-setzen-locate)
+[Geräte auf Startposition setzen (Locate) *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#geräte-auf-startposition-setzen-locate)
 
 [Geräte aus einer Gruppe entfernen *(in "Geräte-Gruppen")*](./controlling-fixtures/fixture-groups.md#geräte-aus-einer-gruppe-entfernen)
 
@@ -546,7 +546,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Geräte mit mehreren Zellen (Sub-Fixtures) *(in "Geräte und Dimmer patchen")*](./patching/patching-new-fixtures-or-dimmers.md#geräte-mit-mehreren-zellen-sub-fixtures)
 
-[Geräte mit mehreren Zellen/Subfixtures *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#geräte-mit-mehreren-zellensubfixtures)
+[Geräte mit mehreren Zellen/Subfixtures *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#geräte-mit-mehreren-zellensubfixtures)
 
 [Geräte mit Zellen (Sub Fixtures) *(in "Titan Befehlsreferenz")*](./titan-reference.md#geräte-mit-zellen-sub-fixtures)
 
@@ -560,7 +560,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Geräteanordnung *(in "Geräte-Gruppen")*](./controlling-fixtures/fixture-groups.md#geräteanordnung)
 
-[Geräteauswahl nach Muster *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#geräteauswahl-nach-muster)
+[Geräteauswahl nach Muster *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#geräteauswahl-nach-muster)
 
 [Gerätereihenfolge *(in "Geräte-Gruppen")*](./controlling-fixtures/fixture-groups.md#gerätereihenfolge)
 
@@ -587,7 +587,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Handles *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#handles)
 
-[Herunterfahren erzwingen *(in "Anschliessen des Pultes, erste Schritte")*](./titan-basics.md#herunterfahren-erzwingen)
+[Herunterfahren erzwingen *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#herunterfahren-erzwingen)
 
 [Herunterladen der Personalities bei Avolites *(in "Die Personalities (Gerätedateien)")*](./fixture-personalities.md#herunterladen-der-personalities-bei-avolites)
 
@@ -602,7 +602,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Improvisieren (Busking) mit Paletten *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#improvisieren-busking-mit-paletten)
 
-[Inbetriebnahme von Titan Mobile und T1/T2 *(in "Anschliessen des Pultes, erste Schritte")*](./titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2)
+[Inbetriebnahme von Titan Mobile und T1/T2 *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2)
 
 [Include --  in den Speicher laden *(in "Titan Befehlsreferenz")*](./titan-reference.md#include-----in-den-speicher-laden)
 
@@ -736,13 +736,13 @@ import Video from '@site/src/components/video.tsx';
 
 [Network Settings - Netzwerkeinstellungen *(in "Das System-Menü")*](./system-settings/the-system-menu.md#network-settings---netzwerkeinstellungen)
 
-[Netzanschluss *(in "Anschliessen des Pultes, erste Schritte")*](./titan-basics.md#netzanschluss)
+[Netzanschluss *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#netzanschluss)
 
 [Netzwerkeinrichtung mit einem Access Point *(in "Einrichten der Fernsteuerung")*](./remote-control/setting-up-the-remote.md#netzwerkeinrichtung-mit-einem-access-point)
 
 [Netzwerkeinstellungen *(in "TNP im Slave-Betrieb")*](./titan-net/tnp-slave-mode.md#netzwerkeinstellungen)
 
-[Nicht ausgewählte Geräte ausblenden (Remainder Dim) *(in "Steuern von Dimmern und Geräten")*](./controlling-fixtures.md#nicht-ausgewählte-geräte-ausblenden-remainder-dim)
+[Nicht ausgewählte Geräte ausblenden (Remainder Dim) *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#nicht-ausgewählte-geräte-ausblenden-remainder-dim)
 
 [Node-Einstellungen *(in "TNP im Slave-Betrieb")*](./titan-net/tnp-slave-mode.md#node-einstellungen)
   
@@ -1024,7 +1024,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Times (Zeiten) *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#times-zeiten)
 
-[Titan Healthcheck -- die Eigendiagnose *(in "Anschliessen des Pultes, erste Schritte")*](./titan-basics.md#titan-healthcheck----die-eigendiagnose)
+[Titan Healthcheck -- die Eigendiagnose *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#titan-healthcheck----die-eigendiagnose)
 
 [Titan Mobile Anschlussfeld *(in "Das Titan Mobile")*](./about-the-consoles/titan-mobile.md#titan-mobile-anschlussfeld)
 
@@ -1113,7 +1113,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Verwenden eines vorhandenen Netzwerks *(in "Einrichten der Fernsteuerung")*](./remote-control/setting-up-the-remote.md#verwenden-eines-vorhandenen-netzwerks)
 
-[Verwenden von Faderwings *(in "Anschliessen des Pultes, erste Schritte")*](./titan-basics.md#verwenden-von-faderwings)
+[Verwenden von Faderwings *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#verwenden-von-faderwings)
 
 [Verwenden von Geräte-Gruppen *(in "Geräte-Gruppen")*](./controlling-fixtures/fixture-groups.md#verwenden-von-geräte-gruppen)
 
@@ -1136,7 +1136,7 @@ import Video from '@site/src/components/video.tsx';
 ## W
 [Wechsel der Playback-Seiten *(in "Einen Cue verwenden")*](./cues/cue-playback.md#wechsel-der-playback-seiten)
 
-[Weitere Anschlussmöglichkeiten *(in "Anschliessen des Pultes, erste Schritte")*](./titan-basics.md#weitere-anschlussmöglichkeiten)
+[Weitere Anschlussmöglichkeiten *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#weitere-anschlussmöglichkeiten)
 
 [Weitere Release-Optionen *(in "Einen Cue verwenden")*](./cues/cue-playback.md#weitere-release-optionen)
 

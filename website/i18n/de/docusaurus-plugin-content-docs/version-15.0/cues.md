@@ -25,7 +25,7 @@ Speicherplätze, auf die Cues, Cuelisten und Chaser abgelegt werden
 können, werden **Playbacks** genannt. Dafür kommen in Frage:
 
 -   Playbacks mit **Fadern** (und zugehörigen Tasten). Dabei steuert der
-    Fader normalerwiese die Helligkeit, kann aber auch andere Parameter
+    Fader normalerweise die Helligkeit, kann aber auch andere Parameter
     steuern (umzustellen in den [Options](cues/playback-options.md)).
 	
 -   **Virtuelle Fader** im [Fenster 'Virtual Faders'](running-the-show/playback-controls.md#virtuelle-fader). 

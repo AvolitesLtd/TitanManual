@@ -61,7 +61,7 @@ Sobald die gewünschten Geräte angewählt sind:
   Gobo2, jeweils mit Rotation etc., dann kann man mit wiederholtem
   Drücken der Attributbank-Taste durchschalten (hier also mehrfach 
   auf <Keys.HardKey>Gobo</Keys.HardKey>)*.
-- Mit den Encoderrädern stellen Sie die gewünschten Werte ein. Alternativ drückt
+- Mit den Encodern stellen Sie die gewünschten Werte ein. Alternativ drückt
   man die blaue <Keys.HardKey>@</Keys.HardKey>-Taste bei einem Wheel und kann den Wert 
   mit den Zifferntasten eingeben.
 
@@ -133,7 +133,7 @@ Tasten | Ergebnis
 
 ## Cues live editieren
 
-Oft müssen Änderugnen an bereits programmierten Cues vorgenommen werden,
+Oft müssen Änderungen an bereits programmierten Cues vorgenommen werden,
 während diese gerade live sind. Es empfiehlt sich, <Keys.HardKey>Clear</Keys.HardKey> zu drücken,
 um nicht versehentlich unerwünschte Werte mit zu speichern.
 

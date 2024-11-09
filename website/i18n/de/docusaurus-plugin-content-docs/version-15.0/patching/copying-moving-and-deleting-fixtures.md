@@ -38,8 +38,8 @@ zu erhalten.
 	die Taste <Keys.HardKey>Copy</Keys.HardKey> bzw. <Keys.HardKey>Move</Keys.HardKey> betätigen zu müssen. Zum Freigeben 
 	des Menüs einfach die Taste <Keys.HardKey>Menu Latch</Keys.HardKey> nochmal betätigen.
 
--   Die Optionen <Keys.SoftKey>Retain Layout</Keys.SoftKey>(Darstellung erhalten) bzw. \[Bunch
-    Up\](Zusammenfassen) sind sinnvoll beim Kopieren einer Gruppe von
+-   Die Optionen <Keys.SoftKey>Retain Layout</Keys.SoftKey>(Darstellung erhalten) 
+    bzw. <Keys.SoftKey>Bunch Up</Keys.SoftKey>(Zusammenfassen) sind sinnvoll beim Kopieren einer Gruppe von
     Geräten mit darin enthaltenen freien Auswahltasten: diese werden
     entweder (zur Erhaltung der Darstellung) mit übernommen, oder aber
     entfernt (und alle Geräte ohne Lücke zusammengefügt). Falls Sie nur
@@ -47,9 +47,8 @@ zu erhalten.
     aktualisierende Personality aus.
 
 -   Während des Kopierens lässt sich einstellen, ob mit <Keys.SoftKey>Copy Legends</Keys.SoftKey>
-    die Bezeichnungen mit kopiert werden sollen, oder aber mit \[Don't
-    copy legends\] den Geräten automatisch Standard-Bezeichner
-    zugewiesen werden sollen.
+    die Bezeichnungen mit kopiert werden sollen, oder aber mit <Keys.SoftKey>Don't copy legends</Keys.SoftKey> 
+    den Geräten automatisch Standard-Bezeichner zugewiesen werden sollen.
 
 -   Im Verschieben-Modus dient die Option <Keys.SoftKey>Swap Items if Required</Keys.SoftKey> zum
     automatischen Verlagern der Geräte, die beim Verschieben im Weg

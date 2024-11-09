@@ -10,8 +10,7 @@ import Video from '@site/src/components/video.tsx';
 Titan bietet eine Vielzahl von Optionen, um es den jeweiligen
 Anforderungen entsprechend konfigurieren zu können. Auf häufig benötigte
 Optionen kann man mit der Menütaste 'User Settings'
-(Benutzereinstellungen) zugreifen -- drücken Sie dazu <Keys.HardKey>AVO</Keys.HardKey> + \[User
-Settings\].
+(Benutzereinstellungen) zugreifen -- drücken Sie dazu <Keys.HardKey>AVO</Keys.HardKey> + <Keys.SoftKey>User Settings</Keys.SoftKey>.
 
 Das System-Menü erlaubt es, grundsätzliche Parameter des Pultes zu ändern,
 etwa die Einrichtung der DMX-Anschlüsse, Netzwerkadressen und externe Displays.

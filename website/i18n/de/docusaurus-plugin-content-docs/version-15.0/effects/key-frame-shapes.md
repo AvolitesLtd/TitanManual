@@ -35,8 +35,7 @@ so werden diese auch hier als Referenz gespeichert: ändert man später
 die Palette, so ändert sich auch der Shape.
 
 
-1. Im Hauptmenü drücken Sie <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, dann \[Key Frame
-Shapes\].
+1. Im Hauptmenü drücken Sie <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, dann <Keys.SoftKey>Key Frame Shapes</Keys.SoftKey>.
 2. Klicken Sie auf <Keys.SoftKey>Create</Keys.SoftKey>, um einen neuen Keyframe-Shape zu
 beginnen.
 3. [Wählen Sie die gewünschten Geräte](../controlling-fixtures.md#dimmer-und-geräte-zum-steuern-auswählen) und stellen Sie die Farben für den ersten
@@ -46,8 +45,8 @@ eine entsprechende Legende angezeigt *(schalten Sie dies mit <Keys.SoftKey>Playb
 Display Visible/Hidden</Keys.SoftKey> ab, falls Sie das nicht wünschen oder z.B. im
 Quick Build-Modus ein Playback auswählen möchten)*.<br/>
 ![Key Frame Shape - creating an effect with colour key frames](/docs/images/Key-Frame-Shape-creating-an-effect-with-colour-key-frames.png)
-5. Fügen Sie Schritte mit anderen Farben hinzu (jeweils mit \[Add
-Frame\], bis alle gewünschten Schritte erstellt wurden.
+5. Fügen Sie Schritte mit anderen Farben hinzu (jeweils mit <Keys.SoftKey>Add Frame</Keys.SoftKey>, 
+bis alle gewünschten Schritte erstellt wurden.
 6. Wenn Sie fertig sind, klicken Sie auf <Keys.SoftKey>Finish Recording Frames</Keys.SoftKey>.
 7. Im Effekt-Editor können Sie die Übergänge, die Überlappung und die
 Verteilung auf mehrere Geräte (Spread) einstellen, siehe nachfolgendes

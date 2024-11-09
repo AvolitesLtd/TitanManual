@@ -15,7 +15,7 @@ sich verschiedene feste Elemente hinzufügen.
 Öffnen Sie das Fenster <Keys.SoftKey>Capture Visualiser Settings</Keys.SoftKey> per Doppelklick auf
 [<Keys.HardKey>Open/View</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen Capture 
 Visualiser Settings, oder durch einen Klick auf den Kontext-Button <Keys.ContextKey>Open Settings</Keys.ContextKey> 
-im Capture Visualiser-Fenste). Klicken Sie nun oben auf den Reiter **Stage**.
+im Capture Visualiser-Fenster). Klicken Sie nun oben auf den Reiter **Stage**.
 
 ![Capture Visualiser Settings Window](/docs/images/Capture-Visualiser-Settings-Window.png)
 
@@ -38,8 +38,9 @@ Capture-Bühne hinzugefügt.
 
 Wird eine Show aus einer früheren Titan-Version [geladen](../titan-basics/loading-and-saving-shows.md#laden-einer-show), so werden die
 Geräte/Fixtures **nicht** automatisch zu Capture hinzugefügt. Dazu ist
-zunächst ein [Updaten der Personalities](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren) erforderlich: <Keys.HardKey>Patch</Keys.HardKey> \[Edit
-Fixtures\] <Keys.SoftKey>Update Personality</Keys.SoftKey> <Keys.SoftKey>Update All</Keys.SoftKey>. Auch ein Gerätetausch ([Exchange Fixtures](../patching/changing-the-patch.md#geräte-austauschen)) kann helfen.
+zunächst ein [Updaten der Personalities](../patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren) 
+erforderlich: <Keys.HardKey>Patch</Keys.HardKey> <Keys.SoftKey>Edit Fixtures</Keys.SoftKey> <Keys.SoftKey>Update Personality</Keys.SoftKey> <Keys.SoftKey>Update All</Keys.SoftKey>. 
+Auch ein Gerätetausch ([Exchange Fixtures](../patching/changing-the-patch.md#geräte-austauschen)) kann helfen.
 
 Geräte werden, sobald sie in Capture vorhanden sind, mit den Rädern
 (Encodern) positioniert. Wählen Sie dazu [ein oder mehrere Geräte oder

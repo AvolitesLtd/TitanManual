@@ -106,7 +106,7 @@ Der erste Button steuert, welche Geräte überhaupt angezeigt werden:
 - <Keys.SoftKey>Stage</Keys.SoftKey> zeigt alle Geräte mit Intensität >0%
 - <Keys.SoftKey>Programmer</Keys.SoftKey> zeigt nur die im Programmer befindlichen Geräte
 - <Keys.SoftKey>Selected</Keys.SoftKey> zeigt nur die aktuell ausgewählten Geräte
-- <Keys.SoftKey>Live Cues</Keys.SoftKey>: Anzeige der Geräte, die gerade von aktvierten Cues 
+- <Keys.SoftKey>Live Cues</Keys.SoftKey>: Anzeige der Geräte, die gerade von aktivierten Cues 
 gesteuert werden
 - <Keys.SoftKey>Connected Cue</Keys.SoftKey>: Geräte im gerade connected (verbundenen) Cue (bei Cuelisten und Chasern)
 - <Keys.SoftKey>Frozen</Keys.SoftKey> zeigt nur aktuell fixierte Geräte an
