@@ -112,7 +112,7 @@ werden.
 
 **Merge Priority:** Wert von 0-200, Vorgabe 100, höherer Wert = höhere Priorität. 
 Bestimmt die Priorität des direkt von Titan zum DMX-Ausgang
-gesendeten Signals beim Verwenden von sACN/DMX-Merge.
+gesendeten Signals beim Verwenden von sACN/DMX-Merge. Dies muss separat eingerichtet werden, siehe [DMX Merge](dmx-output-mapping.md#dmx-merge).
 
 **Break Length:** Zeitlicher Abstand zwischen den DMX-Paketen. Manche 
 Dimmer und Movinglights benötigen ein künstlich verlangsamtes Signal,
@@ -235,6 +235,6 @@ Um eine Zuweisung zu löschen, klicken Sie auf <Keys.SoftKey>Clear sACN Merge</K
 dann auf den gewünschten Port.
 
 -   Für das DMX-Signal des lokalen Pultes kann man die Priorität gegenüber den externen sACN-Quellen
-    einstellen, siehe [DMX-Eigenschaften](#dmx-eigenschaften)
+    einstellen, siehe [DMX-Eigenschaften](dmx-output-mapping.md#dmx-eigenschaften)
 
 -   Mit dem Schalter 'DMX Output' oben rechts können sämtliche DMX-Ausgänge deaktiviert werden.

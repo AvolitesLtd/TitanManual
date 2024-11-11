@@ -387,6 +387,17 @@ darunter.
 
 - Arbeitsfenster, ohne Legenden für Encoder oder Macrotasten.
 
+## Lock und Venue Mode -- das Pult ganz oder teilweise sperren
+
+Das Pult lässt sich ganz oder teilweise sperren, um unbeabsichtigte oder unbefugte Eingriffe
+zu verhindern. Halten Sie dazu <Keys.HardKey>AVO</Keys.HardKey> gedrückt, und
+klicken Sie auf <Keys.SoftKey>Lock</Keys.SoftKey>, siehe [Das Pult sperren](../running-the-show.md#das-pult-sperren).
+
+Man kann einen bestimmten Workspace auswählen, der im 'Venue-Mode' angezeigt wird, dies ist der Venue Mode workspace. Damit kann man z.B. bestimmte Playbacks zur Bedienung freigeben, so dass das Personal zwar das Licht einschalten oder eine einfache Show starten, aber nichts weiter verändern kann.
+
+In den [Benutzereinstellungen](../system-settings/user-settings.md#lock) lässt sich festlegen, in welchem Modus das Pult bzw. die Software startet, so dass auch nach einem Neustart der richtige Modus aktiv ist.
+
+Siehe [Venue Mode Workspace](../running-the-show.md#eingeschränkter-zugriff-mit-dem-venue-mode).
 
 ## Compatibility windows -- die 'Kompatibilitätsfenster'
 

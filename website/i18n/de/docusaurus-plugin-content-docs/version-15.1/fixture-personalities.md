@@ -59,6 +59,18 @@ Es gibt verschiedene Download-Pakete, abhängig von der jeweiligen
 &nbsp;**Titan-Version**. Diese unterscheiden sich hinsichtlich der enthaltenen 
 Capture-Library; die Titan-Personalities sind jedoch identisch.
 
+- Das Pult speichert den Inhalt des Personality-Verzeichnisses
+(FixtureLibrary) zwischen, sobald das Patch-Menü aufgerufen wird.
+Daher muss die Software neu gestartet werden, sobald neue
+Personalities eingespielt wurden (Tools -> Restart Software. Ein
+kompletter Neustart des gesamten Pultes ist nicht erforderlich).
+
+- Sobald ein Gerät gepatcht wurde, wird die zugehörige Personality in
+die Show-Datei integriert. Deshalb werden bereits gepatchte Geräte
+durch Änderungen in der Library nicht beeinflusst. Wählen Sie ggf. <Keys.SoftKey>Update Personality</Keys.SoftKey> 
+aus dem Menü <Keys.HardKey>Patch</Keys.HardKey> <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>, um
+auch bereits gepatchte Geräte zu aktualisieren, siehe [Bereits gepatchte Personalities aktualisieren](./patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren).
+
 > Beim Updaten gehen sämtliche von Ihnen in der Library vorgenommenen Änderungen 
   verloren. Um dies zu vermeiden, speichern Sie Ihre persönlichen Personalities im 
   Ordner für Benutzer-Personalities, siehe nächster Abschnitt.
@@ -87,18 +99,6 @@ Capture-Library; die Titan-Personalities sind jedoch identisch.
    wird eine Windows-Warnung ausgegeben.
 2. Bestätigen Sie die Warnung der Window-Benutzerkontensteuerung mit <Keys.SoftKey>OK</Keys.SoftKey>.
 3. Sobald die Installation der Library erfolgt ist, schließen und starten Sie die Titan-Software erneut.
-
-> Das Pult speichert den Inhalt des Personality-Verzeichnisses
-(FixtureLibrary) zwischen, sobald das Patch-Menü aufgerufen wird.
-Daher muss die Software neu gestartet werden, sobald neue
-Personalities eingespielt wurden (Tools -> Restart Software. Ein
-kompletter Neustart des gesamten Pultes ist nicht erforderlich).
-
-> Sobald ein Gerät gepatcht wurde, wird die zugehörige Personality in
-die Show-Datei integriert. Deshalb werden bereits gepatchte Geräte
-durch Änderungen in der Library nicht beeinflusst. Wählen Sie ggf. <Keys.SoftKey>Update Personality</Keys.SoftKey> 
-aus dem Menü <Keys.HardKey>Patch</Keys.HardKey> <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>, um
-auch bereits gepatchte Geräte zu aktualisieren.
 
 ## Selbsterstellte Gerätedateien
 

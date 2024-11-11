@@ -106,7 +106,7 @@ GPIO, MIDI oder Streaming ACN - mit <Keys.SoftKey>Trigger Type</Keys.SoftKey>.
     den verwendeten DMX-Anschluss ein. Sobald ein DMX-Anschluss zum
     Triggern verwendet wird, wechselt er in die Betriebsart Rx 
     (Empfangen). Soll er wieder als Ausgang benutzt	werden, so 
-    weisen sie ihn in den [DMX-Einstellungen](../system-settings/dmx-output-mapping) wieder entsprechend zu.
+    weisen sie ihn in den [DMX-Einstellungen](../system-settings/dmx-output-mapping.md) wieder entsprechend zu.
     Auch die DMX-Adresse kann auch manuell eingestellt werden.
     - Für GPIO kann mit <Keys.SoftKey>Invert</Keys.SoftKey> zwischen Öffnern und Schließern
     umgeschaltet werden.

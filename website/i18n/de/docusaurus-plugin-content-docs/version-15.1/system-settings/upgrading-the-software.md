@@ -17,8 +17,6 @@ https://www.avolites.com zum Download erhältlich.
     in der Version laden kann, mit der sie programmiert wurden. Der Wechsel 
     zwischen den Versionen erfolgt im Tools-Menü per <Keys.SoftKey>Switch Software</Keys.SoftKey>.
 
----
-
 -   Die Software für das Titan Mobile, Titan Go und Simulator ist die
     Titan PC Suite und wird wie ein gewöhnliches Windows-Programm
     installiert, indem Sie das Installationsprogramm herunterladen und
@@ -29,9 +27,6 @@ https://www.avolites.com zum Download erhältlich.
     ist ab v12 ein AvoKey genannter USB-Lizenzdongle erforderlich und
     muss entsprechend lizenziert werden. Dies ist im Abschnitt [Software Licensing](recovering-reinstalling-the-console.md#software-licensing) 
     näher erläutert.
-
-
----
 
 Zur Softwareaktualisierung muss die neue Version über einen USB-Stick
 installiert werden.

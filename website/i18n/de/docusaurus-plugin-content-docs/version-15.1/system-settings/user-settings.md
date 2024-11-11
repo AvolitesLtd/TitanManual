@@ -44,9 +44,22 @@ Option | Wirkung
 -------|--------
 External Display | ***On:*** Externes Display ist aktiviert. <br/> *Off:* Externes Display ist deaktiviert.
 External Screen Workspace Shortcuts | ***On:*** Auf jedem Display wird ein separater Workspaces-Bereich angezeigt. Damit lassen sich auf einfache Weise für jeden Bildschirm getrennte Einstellungen vornehmen. <br/>*Off:* Die Workspace-Buttons auf dem Hauptdisplay steuern die Anzeige aller Bildschirme.
-Lock Screen Background | Einstellen eines Hintergrundbildes bei gesperrtem Pult.
+Virtual Hardware | Die Anzeige mit den kompakten Bedienelementen für T1 und T2.<br/>***Auto:*** Titan Go verbirgt die Kompaktanzeige automatisch, wenn ein Titan Mobile verbunden ist. <br/> *Enabled:* Die Bedienelemente werden immer angezeigt.<br/> *Disabled:* Die Kompaktanzeige wird nie verwendet..
+Fullscreen Mode                     | *On:* Titan Go wird im Vollbild-Modus angezeigt. <br/> ***Off:*** Titan Go wird als normales Programmfenster angezeigt.
 
-Diese Optionen stehen auch im System-Menü per <Keys.SoftKey>Display Setup</Keys.SoftKey> zur Verfügung.
+-  Die beiden letzten Optionen stehen nur bei Titan Go zur Verfügung.
+-  Diese Optionen stehen auch im **System**-Menü bei **Display Setup** zur Verfügung.
+-  Der Vollbild-Modus kann auch durch Drücken der Taste F11 aktiviert/deaktiviert werden.
+
+## Lock
+
+Option | Wirkung
+-------|--------
+Lock Screen Background | Einstellen eines Hintergrundbildes bei gesperrtem Pult.
+Venue Mode Workspace | Auswahl des Workspaces (mit den Menütasten), der im Venue-Mode angezeigt wird.
+Venue Mode Password | Passwort zum Entsperren des Pultes in den Venue-Mode.
+Programmer Password | Passwort zum kompletten Entsperren des Pultes. Das Passwort "68340" entsperrt das Pult ebenfalls komplett.
+Lock on Startup | ***Shutdown state:*** Pult bzw. Software startet gesperrt oder ungesperrt, so wie es/sie heruntergefahren wurde.<br/> *Locked:* Pult bzw. Software startet gesperrt. <br/> *Venue Mode Workspace:* Pult bzw. Software startet im Venue-Mode.
 
 ## Handles
 
@@ -85,13 +98,6 @@ Preload Time | Bestimmt die Überblendzeit der 'Preload'(Vorlade-) Funktion, der
 Times Format | Wahl des Anzeige- und Eingabeformats von Zeiten. Mögliche Optionen: ***HH:MM:SS*** und Sekunden. Bei Wahl von *HH:MM:SS* wird automatisch jede Eingabe entsprechend umgewandelt.
 Compensate for Rate Grand Master | ***On:*** ein getapptes Tempo wird von einem unter 100% gesetzten Rate Grand Master nicht beeinflusst.<br/>*Off:* Das Tempo wird immer vom Rate Grand Master beeinflusst.
 
-## Formatting (Formate)
-
-Option | Wirkung
--------|--------
-Channel Levels | Definiert, wie die gewünschten Pegel über die Zifferntasten eingegeben werden.<br/> *Set In Tens:*  ('Eingabe in Zehnern') - man gibt nur eine Ziffer ein, z.B. *5 = 50%*<br/>***Set in Units:*** die Eingabe erfolgt zweistellig, z.B.*50 = 50%*.
-Number Style   | Stellt die Darstellung von Zahlen in der Cue- und Palettenansicht ein. <br/> *Precise:* zeigt alle Dezimalstellen.<br/>*Rounded:* rundet auf die nächste Ganzzahl.<br/>***Dynamic:*** zeigt Dezimalstellen wenn erforderlich und unterdrückt Nullen.
-
 ## Palettes
 
 Option | Wirkung
@@ -106,6 +112,23 @@ Master Palette Time | Die Vorgabe-Überblendzeit beim Live-Aufruf von Paletten, 
 Master Palette Overlap | Der Vorgabewert für die Überlappung beim Live-Aufruf von Paletten.
 Record Nested Palettes | ***On:*** Updaten von verknüpften Paletten, wenn die eingebetteten Paletten verändert werden.<br/>*Off:* Verknüpfte Paletten werden nicht aktualisiert.<br/>Siehe [Nested Palettes](../palettes/creating-palettes.md#nested-palettes----verknüpfte-paletten).
 Preset Palettes | Gleiche Funktion wie im Abschnitt Patching, [siehe oben](#patching-patch-optionen).
+
+## Timeline
+
+Option | Wirkung
+-------|--------
+Default Playback Length | Vorgabewert für die Dauer eines Playbacks, wenn es zu einer Timeline hinzugefügt wird.
+Timeline Skip Length | Vorgabewert, wie weit mit "skip forward" und "skip back" gesprungen wird.
+Display Frame Rate | Framerate für den angezeigten Timecode. Mit ***"Follow Source"*** folgt die Anzeige der Framerate des am Eingang anliegenden Timecodes.
+Auto-Simplify | ***On:*** Trigger für Faderpegel werden automatisch vereinfacht (geglättet).<br/>*Off:* Triggers werden nicht vereinfacht/geglättet. <br/>Siehe [Auto Simplify](../timelines/creating-a-timeline.md#auto-simplify).
+Auto-Open View | *None:* Beim Anlegen einer neuen Timeline wird kein Fenster geöffnet.<br/> ***Timeline:*** Beim Anlegen einer neuen Timeline wird die grafische Timeline-Anzeige geöffnet. <br/>*Timeline and Table:* Sowohl die grafische als auch die Tabellenanzeige werden geöffnet.
+
+## Formatting (Formate)
+
+Option | Wirkung
+-------|--------
+Channel Levels | Definiert, wie die gewünschten Pegel über die Zifferntasten eingegeben werden.<br/> *Set In Tens:*  ('Eingabe in Zehnern') - man gibt nur eine Ziffer ein, z.B. *5 = 50%*<br/>***Set in Units:*** die Eingabe erfolgt zweistellig, z.B.*50 = 50%*.
+Number Style   | Stellt die Darstellung von Zahlen in der Cue- und Palettenansicht ein. <br/> *Precise:* zeigt alle Dezimalstellen.<br/>*Rounded:* rundet auf die nächste Ganzzahl.<br/>***Dynamic:*** zeigt Dezimalstellen wenn erforderlich und unterdrückt Nullen.
 
 ## Release
 
@@ -134,13 +157,6 @@ Clear Action Precedence | Einstellungen zum mehrstufigen Clear:<br/>***Selection
 
 - Diese Einstellungen können auch im Clear-Menü vorgenommen werden.
 
-## Effects (Effekte)
-
-Option | Wirkung
--------|--------
-Swop Shapes | Verhalten von Shapes bei Swop.<br/>***All Shapes:*** Alle laufenden Shapes von anderen Playbacks werden unterbrochen.<br/>*Intensity Shapes:* Nur Intensity-Shapes von anderen Playbacks werden unterbrochen, andere Shapes laufen weiter.
-Shape Behaviour | Steuert, ob Keyframe-Shapes eher LTP wirken (und von anderen Playbacks überschrieben werden können) oder nicht. Siehe [Speichern eines Keyframe-Shapes in einem Cue](../effects/key-frame-shapes.md#einen-keyframe-shape-in-einen-cue-speichern).
-
 ## LEDs
 
 Option | Wirkung
@@ -150,6 +166,13 @@ LED Empty Level      | Helligkeit freier Tasten.
 LED Occupied Level   | Helligkeit belegter, aber nicht ausgewählter Gerätetasten.
 LED Programmer Level | Helligkeit, wenn das Gerät im Programmer ist.
 LED Selected Level   | Helligkeit für ausgewählte Geräte (nicht im Programmer).
+
+## Effects (Effekte)
+
+Option | Wirkung
+-------|--------
+Swop Shapes | Verhalten von Shapes bei Swop.<br/>***All Shapes:*** Alle laufenden Shapes von anderen Playbacks werden unterbrochen.<br/>*Intensity Shapes:* Nur Intensity-Shapes von anderen Playbacks werden unterbrochen, andere Shapes laufen weiter.
+Shape Behaviour | Steuert, ob Keyframe-Shapes eher LTP wirken (und von anderen Playbacks überschrieben werden können) oder nicht. Siehe [Speichern eines Keyframe-Shapes in einem Cue](../effects/key-frame-shapes.md#einen-keyframe-shape-in-einen-cue-speichern).
 
 ## Timecode
 

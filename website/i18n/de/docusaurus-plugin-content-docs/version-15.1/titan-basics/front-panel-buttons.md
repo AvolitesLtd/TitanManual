@@ -70,11 +70,10 @@ aktuellen Funktion zwischen den Faderbänken.
 Ein Macro aufzeichnen
 
 1.  Drücken Sie die blaue Taste <Keys.HardKey>Macro</Keys.HardKey> (oberhalb des Ziffernblocks)
-2.  Wählen Sie <Keys.SoftKey>Full Speed</Keys.SoftKey> oder <Keys.SoftKey>Real Time</Keys.SoftKey>.
-3.  Drücken Sie <Keys.SoftKey>Record</Keys.SoftKey>.
-4.  Betätigen Sie eine freie graue Taste oder Schaltfläche auf dem 
-Touchscreen. Damit beginnt die Aufzeichnung. Währenddessen blinkt die 
-Taste <Keys.HardKey>Macro</Keys.HardKey>.
+2.  Drücken Sie <Keys.SoftKey>Record</Keys.SoftKey>.
+3.  Wählen Sie <Keys.SoftKey>Full Speed</Keys.SoftKey> oder <Keys.SoftKey>Real Time</Keys.SoftKey>.
+4.  Betätigen Sie eine freie Taste oder Schaltfläche auf dem 
+Touchscreen, oder drücken Sie auf <Keys.SoftKey>Record</Keys.SoftKey>, um das Macro nur in die Show Library zu speichern. Damit beginnt die Aufzeichnung. Währenddessen blinkt die Taste <Keys.HardKey>Macro</Keys.HardKey>.
 5.  Führen Sie nun die aufzuzeichnende Tastenfolge aus.
 6.  Klicken Sie <Keys.HardKey>Macro</Keys.HardKey> zum Beenden der Aufzeichnung.
 
@@ -137,36 +136,3 @@ Taste | Aktion | | Taste | Aktion
 ⇑ = Shift/Umschalt
 
 (Num) = auf dem Ziffernblock
-
-## Das Pult sperren
-
-Das Pult lässt sich sperren, um unbeabsichtigte oder unbefugte Eingriffe
-zu verhindern. Halten Sie dazu <Keys.HardKey>AVO</Keys.HardKey> gedrückt, 
-klicken Sie auf <Keys.SoftKey>Lock</Keys.SoftKey>, und geben Sie nun ein 
-Passwort ein (Buchstaben oder Ziffern). Zum Entsperren muss das gleiche 
-Passwort wieder eingegeben werden; die Eingabeaufforderung für das Passwort 
-wird nach einigen Sekunden der Inaktivität ausgeblendet, erscheint aber 
-sofort wieder, sobald eine Taste betätigt oder der Bildschirm angetippt 
-wird. Dies ist ausdrücklich nur eine einfache Sperre, *just to prevent 
-passing idiots messing with it.*
-
-Es lässt sich eine Grafik einstellen, die bei gesperrtem Pult angezeigt
-wird. Drücken Sie dazu <Keys.HardKey>Avo</Keys.HardKey> und wählen das Menü <Keys.SoftKey>User Settings</Keys.SoftKey>
-(Benutzereinstellungen). Auf der Seite <Keys.SoftKey>Display</Keys.SoftKey> (Version 13:  <Keys.SoftKey>General</Keys.SoftKey>)
-kann man bei <Keys.SoftKey>Lock Screen Background</Keys.SoftKey> ein Bild laden oder eine Grafik zeichnen.
-
-If you load a picture file, the menu option <Keys.SoftKey>Scaling Mode</Keys.SoftKey> sets how
-the picture will be scaled to fill the screen.
-
--   None: keine Skalierung, das Bild wird in Originalgröße angezeigt
--   Letterbox: skaliert, bis entweder Breite oder Höhe formatfüllend
-    dargestellt werden, und lässt ansonsten schwarze Ränder
--   Fill: skaliert, bis das Bild in voller Breite oder Höhe dargestellt
-    wird.
--   Stretch: Das Bild wird auf den gesamten Bildschirm aufgezogen und
-    ggf. verzerrt dargestellt
-
-Mit dem Button <Keys.SoftKey>Clear</Keys.SoftKey> wird ein eingestelltes Bild wieder gelöscht.
-
-Bei gesperrtem Pult sind sämtliche Funktionen deaktiviert, abgesehen vom
-DMX-Ausgang und den aktuell laufenden Playbacks.

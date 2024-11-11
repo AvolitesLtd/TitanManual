@@ -33,7 +33,7 @@ Ein paar weitere wissenswerte Dinge:
 
 -   Die Taste <Keys.HardKey>Locate</Keys.HardKey> aktiviert die angewählten Geräte weiß (ohne
     Farbe) und in Grundstellung (Pan und Tilt jeweils 50%). Weitere
-    Optionen dazu sind im [nächsten Abschnitt](./controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate) erläutert.
+    Optionen dazu sind im [nächsten Abschnitt](./controlling-fixtures.md#geräte-auf-startposition-setzen-locate) erläutert.
 
 -   Um ein Gerät aus der Auswahl zu entfernen, einfach die betreffende
     Auswahltaste erneut betätigen.
@@ -44,7 +44,7 @@ Ein paar weitere wissenswerte Dinge:
 -   Drücken Sie <Keys.HardKey>Clear</Keys.HardKey> (rechts vom Zifferntastenblock), um sämtliche
     Geräte aus der Auswahl zu entfernen und sämtliche Änderungen aus dem
     Programmierspeicher zu löschen. Weitere Optionen dazu sind im
-    [nächsten Abschnitt](./controlling-fixtures/using-the-select-buttons-and-wheels.md#clear----löschen-der-auswahl) erläutert. 
+    [nächsten Abschnitt](./controlling-fixtures.md#clear----löschen-des-programmers-und-der-geräteauswahl) erläutert. 
 
 -   Sobald ein Attribut verändert und wieder eine Auswahltaste betätigt
     wurde, werden sämtliche Geräte aus der Auswahl entfernt, und der

@@ -12,13 +12,9 @@ Drücken Sie <Keys.HardKey>Options</Keys.HardKey> (oder die Menütaste <Keys.Sof
 Hauptmenü), dann die **Auswahltaste** der jeweiligen Timeline.
 Die Vorgabewert sind hier **fett** dargestellt.
 
----
-
 ## Tab "Handle"
 
 Die gleichen Optionen wie bei Cues, siehe [Options](../cues/playback-options.md#handle-tab).
-
----
 
 ## Tab "Times"
 
@@ -27,8 +23,6 @@ Die gleichen Optionen wie bei Cues, siehe [Options](../cues/playback-options.md#
 Hier wird die Startzeit und die Dauer der Timeline eingestellt. Daraus ergeben sich die Punkte, 
 an denen mit 'Loop' die Timeline wiederholt wird, siehe [Loop (Tab "Timeline")](../timelines/timeline-options.md#tab-timeline), oder wann die Timeline bei externem Timecode automatisch startet.
 Hiermit kann auch die Timeline begrenzt werden, so dass nichts passiert, wenn der Timecode mal völlig aus dem Ruder läuft.
-
----
 
 ## Tab "Fader"
 
@@ -43,8 +37,6 @@ Fader Zero Action   | **No Action**: Der interne Timecode bleibt unverändert, w
 Kill At Zero | **Off:** Die Timeline bleibt aktiv, wenn der Fader auf 0 gesetzt wird. <br/>On: Die Timeline wird deaktiviert, wenn der Fader auf 0 gesetzt wird.
 
 > Mit diesen Optionen lässt sich ein aufwendiger Effekt als Ablauf programmieren. Programmieren Sie diesen als Timeline mit den Einstellungen **Play** und **Stop**. So kann der Ablauf einfach per Fader abgerufen werden. Beachten Sie, dass dazu der Timecode entkoppelt sein muss, damit der Effekt wirklich nur 1x läuft.
-
----
 
 ## Tab "Release"
 
@@ -61,8 +53,6 @@ Release Playbacks to Home | Off: LTP-Werte der Playbacks bleiben erhalten, wenn 
 Timeline-Global Release Mask | Globale Release-Maske für Playbacks, die durch diese Timeline getriggert werden. Voreinstellung: **keine Attribute werden released**. Damit wird die sonstige Globale Release-Maske für Playbacks, die in dieser Timeline enthalten sind, überschrieben. Im Infobereich wird eine entsprechende Warnung angezeigt.
 Timeline-Global Release Time | Globale Release-Zeit für Playbacks, die durch diese Timeline getriggert werden. Voreinstellung: **2 Sekunden**. Damit wird die sonstige Globale Release-Zeit für Playbacks, die in dieser Timeline enthalten sind, überschrieben.
 
----
-
 ## Tab "Timeline"
 
 ![Timeline Options: Timeline](/docs/images/Timeline-Options-Timeline.png)
@@ -75,20 +65,14 @@ Loop | **Off**: Der interne Timecode wird nicht auf den Startwert zurückgesetzt
 
 - Die Option Loop funktioniert nur mit dem internen Timecode.
 
----
-
-
 ## Tab "Timecode"
 
 ![Timeline Options: Timecode](/docs/images/Timeline-Options-Timecode.png)
 
 Option | Wirkung
 -------|--------
-Timecode Source | Bestimmt die Timecode-Quelle der Timeline (Timecode 1-4). Siehe [Steuern einer Cueliste per Timecode](../cue-lists/cue-list-timing#steuern-einer-cueliste-per-timecode).
+Timecode Source | Bestimmt die Timecode-Quelle der Timeline (Timecode 1-4). Siehe [Steuern einer Cueliste per Timecode](../cue-lists/cue-list-timing.md#steuern-einer-cueliste-per-timecode).
 Timecode Source Unlinked | Gleiche Funktion wie der Link-Button in der Timeline-Ansicht, siehe  [Timecode verbinden und steuern](../timelines.md#timecode-verbinden-und-steuern)
-
-
----
 
 ## Time -- Optionen für Zeiten
 

@@ -103,7 +103,7 @@ Für den Betrieb von Titan Mobile, Titan One und dem Titan Simulator gibt
 es ein einheitliches Software-Paket: die **Avolites Titan PC-Suite**.
 Diese enthält alle genannten Programme.
 
-&nbsp;**Titan Mobile:** Sobald die Software installiert ist, können Sie das
+&nbsp;**Titan Mobile:** Sobald die Titan PC-Suite installiert ist, können Sie das
 Titan Mobile per USB-Kabel mit Ihrem PC verbinden (sollte das Pult über
 zwei USB-Buchsen verfügen, so ist nur die obere zu verwenden). Der PC
 erkennt daraufhin neue Hardware; bei den entsprechenden Rückfragen
@@ -128,14 +128,28 @@ Lizenzierung auch an anderen Computern betrieben werden.
 &nbsp;**T1/T2:** Diese bieten volle Titan-Funktionalität, sind aber auf ein 
 bzw. zwei Universen beschränkt (der T1 kann zudem nicht per MIDI und 
 WebAPI gesteuert werden). Zum Betrieb ist die Software Titan Go zu 
-starten. Auch der T1/T2 ist beim ersten Start zu lizenzieren und kann 
+starten. Auch der T1/T2 ist ggf. beim ersten Start noch zu lizenzieren (ältere Geräte) und kann 
 danach mit jedem Computer betrieben werden. 
 
-Soll der **Titan One** mit Titan ab Version 12 verwendet werden, so muss 
+Soll der **Titan One** (ältere Version mit Kabel) mit Titan ab Version 12 verwendet werden, so muss 
 ein AvoKey parallel dazu per USB angeschlossen sein.
 
 &nbsp;**Titan Simulator:** auch der Titan Simulator benötigt einen AvoKey (den
 Editor AvoKey) und muss einmalig lizenziert werden.
+
+- Titan Go erkennt automatisch beim Start, ob ein Titan Mobile angeschlossen ist. In diesem Fall wird die kompakte Ansicht der Bedienelemente, die für den T1 und T2 gedacht ist, verborgen. Dies lässt sich manuell überschreiben, siehe [Benutzereinstellungen/Display](system-settings/user-settings.md#display).
+
+Um unerwünschte Unterbrechungen während der Show zu vermeiden, empfehlen sich bei der Verwendung eines T1/T2 oder Titan mobile auf einem normalen PC folgende **Windows Systemeinstellungen**:
+
+- USB Power Saving für das T1/T2/Titan Mobile deaktivieren (im Gerätemanager, Eigenschaften des Geräts)
+
+- Bildschirm/PC/Festplatte nie deaktivieren (normalerweise einen entsprechenden Energiesparplan wählen oder erstellen)
+
+- automatische Windows-Updates deaktivieren
+
+- Indizierung der Festplatte deaktivieren
+
+- die Firewall deaktivieren
 
 ## Titan Healthcheck -- die Eigendiagnose
 

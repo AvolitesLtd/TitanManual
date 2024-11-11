@@ -85,8 +85,6 @@ auf der ausziehbaren Tastatur.
 
 ![D9 Tools button](/docs/images/Tools-Button-D9.png)
 
----
-
 Beim Betätigen der Schaltfläche 'Tools' öffnet sich ein Menü mit Zugriff
 auf verschiedene weitere Konfigurationsmöglichkeiten (abhängig vom
 Pult):

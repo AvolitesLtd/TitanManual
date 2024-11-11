@@ -16,8 +16,6 @@ getrennt, da sie entweder nur selten benötigt werden, oder aber große
 Auswirkungen auf die Funktion des Pultes haben, so dass ein versehentliches 
 Verstellen tunlichst vermieden werden sollte.
 
----
-
 ## Network Settings - Netzwerkeinstellungen
 
 Hier werden die Parameter der Netzwerk(Ethernet)- Anschlüsse eingestellt, 

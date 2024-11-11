@@ -141,8 +141,6 @@ Fenstern), auf die die importierten Teile gespeichert werden sollen.
 10.  Ist alles Gewünschte importiert, so beenden Sie den Vorgang 
 mit <Keys.HardKey>Exit</Keys.HardKey>.
 
----
-
 -   Rechts und links im Show-Browser lassen sich Filter für die
     anzuzeigenden Gerätetypen setzen, um die Suche zu vereinfachen.
 
@@ -150,8 +148,6 @@ mit <Keys.HardKey>Exit</Keys.HardKey>.
     direkt über einen Klick auf das <Keys.SoftKey>+</Keys.SoftKey> (Pluszeichen) aufrufen.
 
 -   Weitere Informationen zum Show-Verzeichnis siehe [Show Library](./show-library.md).
-
----
 
 ## Autosave -- Automatisches Speichern
 

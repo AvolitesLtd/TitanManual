@@ -44,17 +44,17 @@ Für die <Keys.HardKey>@</Keys.HardKey> Tasten bei den Encodern dagegen siehe [W
 
 
 ## <Keys.HardKey>Align</Keys.HardKey> 
-(Nur beim D9) Kopieren von Attributwerten von einem auf andere Geräte. Auf anderen Pulten als dem D9 ist diese Funktion über die Taste <Keys.HardKey>ML Menu</Keys.HardKey> zu erreichen, siehe [Geräte miteinander abgleichen](../controlling-fixtures/changing-fixture-attributes.md/#geräte-miteinander-abgleichen).
+(Nur beim D9) Kopieren von Attributwerten von einem auf andere Geräte. Auf anderen Pulten als dem D9 ist diese Funktion über die Taste <Keys.HardKey>ML Menu</Keys.HardKey> zu erreichen, siehe [Geräte miteinander abgleichen](../controlling-fixtures/changing-fixture-attributes.md#geräte-miteinander-abgleichen).
 
 
 
 ## <Keys.HardKey>All</Keys.HardKey> 
-Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte beginnen oder beenden. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md/#geräteauswahl-nach-muster). (Auf dem D9 heißt die Taste <Keys.HardKey>Pattern/All</Keys.HardKey>)
+Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte beginnen oder beenden. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md#geräteauswahl-nach-muster). (Auf dem D9 heißt die Taste <Keys.HardKey>Pattern/All</Keys.HardKey>)
 
 
 
 ## <Keys.HardKey>And</Keys.HardKey> 
-Verwendet bei der Auswahl mehrerer Elemente mit dem Ziffernblock, kann mit den Tasten <Keys.HardKey>Through</Keys.HardKey> und <Keys.HardKey>Not</Keys.HardKey> kombiniert werden. Siehe [Anwählen von Dimmern/Geräten nach (Kanal-)Nummer](../controlling-fixtures.md/#anwählen-von-dimmerngeräten-nach-kanal-nummer). Diese Taste ist nicht auf allen Pulten vorhanden, es gibt aber bei numerischer Eingabe die Menütaste <Keys.SoftKey>And</Keys.SoftKey>.
+Verwendet bei der Auswahl mehrerer Elemente mit dem Ziffernblock, kann mit den Tasten <Keys.HardKey>Through</Keys.HardKey> und <Keys.HardKey>Not</Keys.HardKey> kombiniert werden. Siehe [Anwählen von Dimmern/Geräten nach (Kanal-)Nummer](../controlling-fixtures.md#anwählen-von-dimmerngeräten-nach-kanal-nummer). Diese Taste ist nicht auf allen Pulten vorhanden, es gibt aber bei numerischer Eingabe die Menütaste <Keys.SoftKey>And</Keys.SoftKey>.
 
 Beispiel:  <Keys.HardKey>Fixture</Keys.HardKey> 1 <Keys.HardKey>And</Keys.HardKey> 5 <Keys.HardKey>And</Keys.HardKey> 7
 
@@ -73,7 +73,7 @@ Wird eine Zeit oder ein Timecode eingegeben, so kann man mit den Tasten <Keys.Ha
 Tasten | Aktion
 --------|--------
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>All</Keys.HardKey> | Setzt im Programmer 0% für die nicht angewählten Geräte, gleiche Funktion wie <Keys.HardKey>Rem Dim</Keys.HardKey>, siehe [Nicht ausgewählte Geräte ausblenden (Remainder Dim)](../controlling-fixtures.md#nicht-ausgewählte-geräte-ausblenden-remainder-dim). Beim Einstellen von Attributzeiten werden damit alle Geräte deselektiert, siehe [Individuelle Einblendzeiten für Attribute](../cue-lists/cue-list-timing.md#individuelle-einblendzeiten-für-attribute).
- <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Back</Keys.HardKey> | Undo/Rückgängig, siehe [Undo/Redo -- Rückgängig machen/Wiederholen](../titan-basics/other-parts-of-the-touch-screen.md/#undoredo----rückgängig-machenwiederholen).
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Back</Keys.HardKey> | Undo/Rückgängig, siehe [Undo/Redo -- Rückgängig machen/Wiederholen](../titan-basics/other-parts-of-the-touch-screen.md#undoredo----rückgängig-machenwiederholen).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Close</Keys.HardKey> | Alle Fenster schließen, siehe [Auswahl und Positionierung der Arbeitsfenster](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Copy</Keys.HardKey> | Wie <Keys.HardKey>Move</Keys.HardKey> (wenn keine Move-Taste vorhanden ist; funktioniert auf allen Pulten)
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey> | Aufruf des **System-Menüs**, siehe [System-Menü](../system-settings/the-system-menu.md).
@@ -81,7 +81,7 @@ Tasten | Aktion
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Fix +</Keys.HardKey> | Springt um eine Länge des Musters nach vorn (oder mit <Keys.HardKey>Fix -</Keys.HardKey> zurück) bei der Auswahl nach Muster/Schema.
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Flash On</Keys.HardKey> | Blendet die ausgewählten Geräte vorübergehend aus.
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Group</Keys.HardKey> {Select} | Speichern einer Gruppe auf einen Button/Fader, siehe [Eine Gruppe speichern](../controlling-fixtures/fixture-groups.md#eine-gruppe-speichern).
- <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Highlight</Keys.HardKey> | Speichern des Highlight-Status, siehe [Das ausgewählte Gerät bei Fix+1/Fix-1 hervorheben](../controlling-fixtures.md/#das-ausgewählte-gerät-bei-fix1fix-1-hervorheben)
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Highlight</Keys.HardKey> | Speichern des Highlight-Status, siehe [Das ausgewählte Gerät bei Fix+1/Fix-1 hervorheben](../controlling-fixtures.md#das-ausgewählte-gerät-bei-fix1fix-1-hervorheben)
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Macro</Keys.HardKey> {Select} | Ein Macro auf eine Taste speichern, siehe [Macros -- Tastenfolgen](../titan-basics/front-panel-buttons.md/#macros----tastenfolgen).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Min/Max</Keys.HardKey> | Aktivieren eines anderen bereits geöffneten Fensters, siehe [Arbeitsfenster](../titan-basics/workspace-windows.md).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Open/View</Keys.HardKey> {Workspace-Button} | Speichern der aktuellen Arbeitsumgebung (Workspace), siehe [Speichern der Arbeitsumgebung](../titan-basics/workspace-windows.md#speichern-der-arbeitsumgebung).
@@ -89,7 +89,7 @@ Tasten | Aktion
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Shape</Keys.HardKey> | 
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Size/Position</Keys.HardKey> | Verschiebt das aktive Fenster auf den nächsten/anderen Bildschirm, siehe [Arbeitsfenster](../titan-basics/workspace-windows.md).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Time</Keys.HardKey> | Vorschau der Attribut-Fadezeiten, siehe [Attribute Times](../controlling-fixtures/changing-fixture-attributes.md#speichern-von-zeiten-für-attribute-und-geräte).
- <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Undo</Keys.HardKey> oder <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>@</Keys.HardKey> | Wiederholen, siehe [Undo/Redo -- Rückgängig machen/Wiederholen](../titan-basics/other-parts-of-the-touch-screen.md/#undoredo----rückgängig-machenwiederholen).
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Undo</Keys.HardKey> oder <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>@</Keys.HardKey> | Wiederholen, siehe [Undo/Redo -- Rückgängig machen/Wiederholen](../titan-basics/other-parts-of-the-touch-screen.md#undoredo----rückgängig-machenwiederholen).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Blind</Keys.SoftKey> | Blind-Modus aktivieren/deaktivieren, wie <Keys.HardKey>Blind</Keys.HardKey>.
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Edit current key profile</Keys.SoftKey> | einstellen der Funktion der Flash- und Auswahltasten, siehe [Tastenprofile/Key Profiles](../system-settings/key-profiles.md).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Lock</Keys.SoftKey> | Vorübergehendes Sperren des Pultes, siehe [Das Pult sperren](../titan-basics/front-panel-buttons.md#das-pult-sperren).
@@ -109,7 +109,7 @@ Backspace (Rücktaste) bei numerischer Eingabe und Syntax.
 
 
 ## <Keys.HardKey>Beam</Keys.HardKey> 
-Auswahl der Attributgruppe Beam zum Steuern von Zoom, Focus etc. mit den Encodern. Auch verwendet zum Einstellen von Masken. Siehe [Einstellen von Attributen mit den Encodern](../controlling-fixtures/changing-fixture-attributes.md/#einstellen-von-attributen-mit-den-encodern). 
+Auswahl der Attributgruppe Beam zum Steuern von Zoom, Focus etc. mit den Encodern. Auch verwendet zum Einstellen von Masken. Siehe [Einstellen von Attributen mit den Encodern](../controlling-fixtures/changing-fixture-attributes.md#einstellen-von-attributen-mit-den-encodern). 
 
 
 
@@ -124,7 +124,7 @@ Aktivieren des Blind-Modus: es können Änderungen programmiert werden, ohne das
 
 
 ## <Keys.HardKey>Chan Grid</Keys.HardKey> 
-(Nur auf dem Arena) Öffnet das Channel Grid (Kanalübersicht), siehe [Übersicht über die Kanäle: Das 'Channel Grid'-Fenster](../controlling-fixtures/viewing-and-editing-fixture-values.md/#übersicht-über-die-kanäle-das-channel-grid-fenster).
+(Nur auf dem Arena) Öffnet das Channel Grid (Kanalübersicht), siehe [Übersicht über die Kanäle: Das 'Channel Grid'-Fenster](../controlling-fixtures/viewing-and-editing-fixture-values.md#übersicht-über-die-kanäle-das-channel-grid-fenster).
 
 
 
@@ -152,19 +152,19 @@ Beispiel: (Ein Fenster durch Anklicken der Titelleiste aktivieren) <Keys.HardKey
 
 
 ## <Keys.HardKey>Colour</Keys.HardKey> 
-Auswahl der Attributgruppe Colour zum Steuern von RGB, CMY etc. mit den Encodern. Auch verwendet zum Einstellen von Masken. Siehe [Einstellen von Attributen mit den Encodern](../controlling-fixtures/changing-fixture-attributes.md/#einstellen-von-attributen-mit-den-encodern). 
+Auswahl der Attributgruppe Colour zum Steuern von RGB, CMY etc. mit den Encodern. Auch verwendet zum Einstellen von Masken. Siehe [Einstellen von Attributen mit den Encodern](../controlling-fixtures/changing-fixture-attributes.md#einstellen-von-attributen-mit-den-encodern). 
 
 
 
 ## <Keys.HardKey>Commit</Keys.HardKey> 
-(Nur beim D9) Committen des Scene Masters, gleiches Ergebnis wie Stellen des Reglers auf 100%, siehe [Scene Master](../running-the-show/playback-controls.md/#scene-master).
+(Nur beim D9) Committen des Scene Masters, gleiches Ergebnis wie Stellen des Reglers auf 100%, siehe [Scene Master](../running-the-show/playback-controls.md#scene-master).
 
 
 
 ## <Keys.HardKey>Connect</Keys.HardKey> 
 (Auf manchen Pulten Connect/Cue.) Verbindet die Ablaufsteuerung (Go-Taste etc.) mit einem Playback. Dient auch zur Auswahl einzelner Cues beim Programmieren und Abrufen von Cuelisten.
 
-Siehe [Verbinden eines Playbacks mit der Steuerung](../chases/chase-playback.md/#verbinden-eines-playbacks-mit-der-steuerung), [Abrufen einer Cueliste](../cue-lists/cue-list-playback.md#abrufen-einer-cueliste), [Tipps für Theater-Programmierer](../cue-lists/theatre-programming.md)
+Siehe [Verbinden eines Playbacks mit der Steuerung](../chases/chase-playback.md#verbinden-eines-playbacks-mit-der-steuerung), [Abrufen einer Cueliste](../cue-lists/cue-list-playback.md#abrufen-einer-cueliste), [Tipps für Theater-Programmierer](../cue-lists/theatre-programming.md)
 
 
 
@@ -208,7 +208,7 @@ Beispiel: <Keys.HardKey>Delete</Keys.HardKey> {Playback} {Playback}
 
 
 ## <Keys.HardKey>Direction</Keys.HardKey> 
-(Nur beim D9) Einstellen der Richtung von Shapes, siehe [Shape-Richtung](../effects/shape-generator.md/#shape-richtung)
+(Nur beim D9) Einstellen der Richtung von Shapes, siehe [Shape-Richtung](../effects/shape-generator.md#shape-richtung)
 
 
 
@@ -224,12 +224,12 @@ Tasten | Ergebnis
 
 
 ## <Keys.HardKey>Edit</Keys.HardKey> 
-Editieren von Paletten, siehe [Ändern des Inhalts einer Palette](../palettes/editing-palettes.md/#ändern-des-inhalts-einer-palette).
+Editieren von Paletten, siehe [Ändern des Inhalts einer Palette](../palettes/editing-palettes.md#ändern-des-inhalts-einer-palette).
 
 
 
 ## <Keys.HardKey>Effect</Keys.HardKey> 
-Auswahl der Attributgruppe Effect zum Steuern von Prism etc. mit den Encodern. Auch verwendet zum Einstellen von Masken. Siehe [Einstellen von Attributen mit den Encodern](../controlling-fixtures/changing-fixture-attributes.md/#einstellen-von-attributen-mit-den-encodern). 
+Auswahl der Attributgruppe Effect zum Steuern von Prism etc. mit den Encodern. Auch verwendet zum Einstellen von Masken. Siehe [Einstellen von Attributen mit den Encodern](../controlling-fixtures/changing-fixture-attributes.md#einstellen-von-attributen-mit-den-encodern). 
 
 
 
@@ -239,7 +239,7 @@ Abschließen einer Eingabe, Bestätigen eines Befehls.
 
 
 ## <Keys.HardKey>Enter/B</Keys.HardKey> 
-(Nur beim D9) Aktivieren des Preset-Modus des Scene Masters. Siehe [Scene Master](../running-the-show/playback-controls.md/#scene-master).
+(Nur beim D9) Aktivieren des Preset-Modus des Scene Masters. Siehe [Scene Master](../running-the-show/playback-controls.md#scene-master).
 
 
 
@@ -253,7 +253,7 @@ Tasten | Ergebnis
 
 
 ## <Keys.HardKey>Exit/A</Keys.HardKey> 
-(Nur beim D9) Verlassen des Preset-Modus des Scene Masters. Siehe [Scene Master](../running-the-show/playback-controls.md/#scene-master).
+(Nur beim D9) Verlassen des Preset-Modus des Scene Masters. Siehe [Scene Master](../running-the-show/playback-controls.md#scene-master).
 
 
 
@@ -275,22 +275,22 @@ Mehrfaches Drücken gefolgt von <Keys.HardKey>Enter</Keys.HardKey> ruft die Opti
 
 
 ## <Keys.HardKey>Fan</Keys.HardKey> 
-Startet den Fan-Modus zum Auffächern der Attribute. Siehe [Fan-Modus](../controlling-fixtures/changing-fixture-attributes.md/#fan-modus).
+Startet den Fan-Modus zum Auffächern der Attribute. Siehe [Fan-Modus](../controlling-fixtures/changing-fixture-attributes.md#fan-modus).
 
 
 
 ## <Keys.HardKey>Fix +1</Keys.HardKey> 
-Wählt auf das nächste Fixture innerhalb einer angewählten Anzahl von Geräten. Verwendet, um bei mehreren ausgewählten Geräten auf das folgende zu wechseln. Siehe [Einzeln durch die Geräte einer Auswahl durchschalten](../controlling-fixtures.md/#einzeln-durch-die-geräte-einer-auswahl-durchschalten).
+Wählt auf das nächste Fixture innerhalb einer angewählten Anzahl von Geräten. Verwendet, um bei mehreren ausgewählten Geräten auf das folgende zu wechseln. Siehe [Einzeln durch die Geräte einer Auswahl durchschalten](../controlling-fixtures.md#einzeln-durch-die-geräte-einer-auswahl-durchschalten).
 
 
 
 ## <Keys.HardKey>Fix -1</Keys.HardKey> 
-Wählt auf das vorige Fixture innerhalb einer angewählten Anzahl von Geräten. Verwendet, um bei mehreren ausgewählten Geräten auf das vorige zu wechseln. Siehe [Einzeln durch die Geräte einer Auswahl durchschalten](../controlling-fixtures.md/#einzeln-durch-die-geräte-einer-auswahl-durchschalten).
+Wählt auf das vorige Fixture innerhalb einer angewählten Anzahl von Geräten. Verwendet, um bei mehreren ausgewählten Geräten auf das vorige zu wechseln. Siehe [Einzeln durch die Geräte einer Auswahl durchschalten](../controlling-fixtures.md#einzeln-durch-die-geräte-einer-auswahl-durchschalten).
 
 
 
 ## <Keys.HardKey>Fixture</Keys.HardKey> 
-Öffnet das Fixture/Channel-Menü, um Geräte numerisch - mit dem Ziffernblock - anzuwählen. Siehe [Anwählen von Dimmern/Geräten nach (Kanal-)Nummer](../controlling-fixtures.md/#anwählen-von-dimmerngeräten-nach-kanal-nummer)
+Öffnet das Fixture/Channel-Menü, um Geräte numerisch - mit dem Ziffernblock - anzuwählen. Siehe [Anwählen von Dimmern/Geräten nach (Kanal-)Nummer](../controlling-fixtures.md#anwählen-von-dimmerngeräten-nach-kanal-nummer)
 
 
 
@@ -300,12 +300,12 @@ Flasht die momentan gewählten Fixtures auf 100%.
 
 
 ## <Keys.HardKey>Go</Keys.HardKey> 
-Startet den nächsten Cue des gerade ausgewählten Playbacks, normalerweise verwendet mit Cuelisten. Siehe [Abrufen einer Cueliste](../cue-lists/cue-list-playback.md/#abrufen-einer-cueliste).
+Startet den nächsten Cue des gerade ausgewählten Playbacks, normalerweise verwendet mit Cuelisten. Siehe [Abrufen einer Cueliste](../cue-lists/cue-list-playback.md#abrufen-einer-cueliste).
 
 
 
 ## <Keys.HardKey>Go page</Keys.HardKey> 
-Geben Sie die Seitennummer ``<n>`` der betreffenden Faderbank ein, um auf diese zu wechseln. Pulte mit mehreren Faderbänken haben mehrere solche Tasten. Ebenso gibt es die Tasten <Keys.HardKey>Page +</Keys.HardKey> und <Keys.HardKey>Page -</Keys.HardKey> zum Wechseln auf die nächste/vorige Seite. Siehe [Wechsel der Playback-Seiten](../cues/cue-playback.md/#wechsel-der-playback-seiten).
+Geben Sie die Seitennummer ``<n>`` der betreffenden Faderbank ein, um auf diese zu wechseln. Pulte mit mehreren Faderbänken haben mehrere solche Tasten. Ebenso gibt es die Tasten <Keys.HardKey>Page +</Keys.HardKey> und <Keys.HardKey>Page -</Keys.HardKey> zum Wechseln auf die nächste/vorige Seite. Siehe [Wechsel der Playback-Seiten](../cues/cue-playback.md#wechsel-der-playback-seiten).
   
 Tasten | Ergebnis
 --------|--------
@@ -325,12 +325,12 @@ Auswahl der Attributgruppe Gobo zum Steuern von Goboauswahl, Rotation etc. mit d
 
 
 ## <Keys.HardKey>Hi light</Keys.HardKey> 
-Aktiviert oder beendet den Highlight-Modus, bei dem das gerade ausgewählte Gerät durch eine andere Farbe oder Helligkeit extra hervorgehoben wird. Oft verwendet im Zusammenhang mit den Tasten <Keys.HardKey>Fix +1</Keys.HardKey> und <Keys.HardKey>Fix -1</Keys.HardKey>. Siehe [Einzeln durch die Geräte einer Auswahl durchschalten](../controlling-fixtures.md/#einzeln-durch-die-geräte-einer-auswahl-durchschalten).
+Aktiviert oder beendet den Highlight-Modus, bei dem das gerade ausgewählte Gerät durch eine andere Farbe oder Helligkeit extra hervorgehoben wird. Oft verwendet im Zusammenhang mit den Tasten <Keys.HardKey>Fix +1</Keys.HardKey> und <Keys.HardKey>Fix -1</Keys.HardKey>. Siehe [Einzeln durch die Geräte einer Auswahl durchschalten](../controlling-fixtures.md#einzeln-durch-die-geräte-einer-auswahl-durchschalten).
 
 
 
 ## <Keys.HardKey>Include</Keys.HardKey> 
-(gefogt von der Auswahltaste eines Playbacks) lädt den Inhalt eines Playbacks in den Programmierspeicher zur weiteren Bearbeitung/zum Speichern. Siehe [Cues wiederverwenden - die 'Include'-Funktion](../cues/editing-cues.md/#cues-wiederverwenden---die-include-funktion).
+(gefolgt von der Auswahltaste eines Playbacks) lädt den Inhalt eines Playbacks in den Programmierspeicher zur weiteren Bearbeitung/zum Speichern. Siehe [Cues wiederverwenden - die 'Include'-Funktion](../cues/editing-cues.md#cues-wiederverwenden---die-include-funktion).
 
 
 
@@ -340,7 +340,7 @@ Auswahl der Attributgruppe Intensity zum Steuern von Dimmer, Shutter etc. mit de
 
 
 ## <Keys.HardKey>Keyboard</Keys.HardKey> 
-(Nur beim D9) Blendet die Bildschirm-Tastatur ein. Auf anderen Pulten geht das über einen Button in der Titelleiste der Pultsoftware. Siehe [Bildschirmtastatur](../titan-basics/workspace-windows.md/#bildschirmtastatur).
+(Nur beim D9) Blendet die Bildschirm-Tastatur ein. Auf anderen Pulten geht das über einen Button in der Titelleiste der Pultsoftware. Siehe [Bildschirmtastatur](../titan-basics/workspace-windows.md#bildschirmtastatur).
 
 
 
@@ -350,7 +350,7 @@ Auswahl der Attributgruppe Intensity zum Steuern von Dimmer, Shutter etc. mit de
 
 
 ## <Keys.HardKey>Latch Menu</Keys.HardKey> 
-Rastet das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl aktiv bleibt. Hilfreich z.B. beim Kopieren, Verschieben, Löschen etc. Siehe [Die Menütasten](../titan-basics/other-parts-of-the-touch-screen.md/#die-menütasten).
+Rastet das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl aktiv bleibt. Hilfreich z.B. beim Kopieren, Verschieben, Löschen etc. Siehe [Die Menütasten](../titan-basics/other-parts-of-the-touch-screen.md#die-menütasten).
 
 
 
@@ -360,7 +360,7 @@ Rastet das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl akt
 
 
 ## <Keys.HardKey>Legend</Keys.HardKey> 
-(Nur beim D9) (gefolgt von der Auswahl eines Elementes) Eingabe der Legende eines Elements (Playback, Gruppe, Palette etc.). Auf anderen Pulten ist diese Funktion über den Punkt <Keys.SoftKey>Set Legend</Keys.SoftKey> im Hauptmenü erreichbar. Siehe [Legenden und Bezeichnungen](../titan-basics/workspace-windows.md/#legenden-und-bezeichnungen).
+(Nur beim D9) (gefolgt von der Auswahl eines Elementes) Eingabe der Legende eines Elements (Playback, Gruppe, Palette etc.). Auf anderen Pulten ist diese Funktion über den Punkt <Keys.SoftKey>Set Legend</Keys.SoftKey> im Hauptmenü erreichbar. Siehe [Legenden und Bezeichnungen](../titan-basics/workspace-windows.md#legenden-und-bezeichnungen).
 
 
 
@@ -380,7 +380,7 @@ Rastet das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl akt
 
 
 ## <Keys.HardKey>Live Time</Keys.HardKey> 
-Zur Eingabe von Zeiten für den gerade aktuellen Cue einer Cueliste. Siehe [Ändern der Zeiten einer laufenden Cueliste](../cue-lists/editing-cue-lists.md/#ändern-der-zeiten-einer-laufenden-cueliste).
+Zur Eingabe von Zeiten für den gerade aktuellen Cue einer Cueliste. Siehe [Ändern der Zeiten einer laufenden Cueliste](../cue-lists/editing-cue-lists.md#ändern-der-zeiten-einer-laufenden-cueliste).
 
 
 
@@ -395,14 +395,14 @@ Versetzt die angewählten Geräte in eine definierte Ausgangsposition mit 'Licht
 
 
 ## <Keys.HardKey>Macro</Keys.HardKey> 
-Öffnet das Macro-Menü zur Aufzeichnung und zum Abrufen von Folgen von Tastendrücken. Siehe [Macros -- Tastenfolgen](../titan-basics/front-panel-buttons.md/#macros----tastenfolgen). 
+Öffnet das Macro-Menü zur Aufzeichnung und zum Abrufen von Folgen von Tastendrücken. Siehe [Macros -- Tastenfolgen](../titan-basics/front-panel-buttons.md#macros----tastenfolgen). 
  
 Macros können auch numerisch aufgerufen werden, Beispiel: <Keys.HardKey>Macro</Keys.HardKey> 5 <Keys.HardKey>Enter</Keys.HardKey>
 
 
 
 ## <Keys.HardKey>Mask FX</Keys.HardKey> 
-(Nur beim D9) Öffnet das Mask FX-Menü zum Erstellen von Masken zum Blocken von Shapes. Auch als Funktion im Menü Shapes&Effekte verfügbar. Siehe [Shapes stoppen mit Mask FX](../effects/shape-generator.md/#shapes-stoppen-mit-mask-fx).
+(Nur beim D9) Öffnet das Mask FX-Menü zum Erstellen von Masken zum Blocken von Shapes. Auch als Funktion im Menü Shapes&Effekte verfügbar. Siehe [Shapes stoppen mit Mask FX](../effects/shape-generator.md#shapes-stoppen-mit-mask-fx).
 
 Tasten | Ergebnis
 --------|--------
@@ -412,18 +412,18 @@ Tasten | Ergebnis
 
 
 ## <Keys.HardKey>Menu Latch</Keys.HardKey> 
-Rastet das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl aktiv bleibt. Hilfreich z.B. beim Kopieren, Verschieben, Löschen etc. Siehe [Die Menütasten](../titan-basics/other-parts-of-the-touch-screen.md/#die-menütasten).
+Rastet das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl aktiv bleibt. Hilfreich z.B. beim Kopieren, Verschieben, Löschen etc. Siehe [Die Menütasten](../titan-basics/other-parts-of-the-touch-screen.md#die-menütasten).
 
 
 
 ## <Keys.HardKey>Min/Max</Keys.HardKey> 
-Wechselt die Größe des aktuellen Fensters zwischen klein (ein Viertel des Bildschirms) und Vollbild. Siehe [Auswahl und Positionierung der Arbeitsfenster](../titan-basics/workspace-windows.md/#auswahl-und-positionierung-der-arbeitsfenster).
+Wechselt die Größe des aktuellen Fensters zwischen klein (ein Viertel des Bildschirms) und Vollbild. Siehe [Auswahl und Positionierung der Arbeitsfenster](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster).
 
 
 
 ## <Keys.HardKey>ML Menu</Keys.HardKey> 
 
-Im Hauptmenü öffnet diese Taste das Moving Light-Menü, mit dem man Geräte-Macros abrufen sowie die Align-Funktion nutzen kann. In einem Untermenü rastet diese Taste das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl aktiv bleibt. Hilfreich z.B. beim Kopieren, Verschieben, Löschen etc. Siehe [Die ML-Menü-Taste](../titan-basics/other-parts-of-the-touch-screen.md/#die-ml-menü-taste). Auf dem D9 gibt es diese Taste nicht. Geräte-Macros können mit der Taste <Keys.HardKey>Macro</Keys.HardKey> aufgerufen werden, für die Align-Funktion gibt es die Taste <Keys.HardKey>Align</Keys.HardKey>.
+Im Hauptmenü öffnet diese Taste das Moving Light-Menü, mit dem man Geräte-Macros abrufen sowie die Align-Funktion nutzen kann. In einem Untermenü rastet diese Taste das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl aktiv bleibt. Hilfreich z.B. beim Kopieren, Verschieben, Löschen etc. Siehe [Die ML-Menü-Taste](../titan-basics/other-parts-of-the-touch-screen.md#die-ml-menü-taste). Auf dem D9 gibt es diese Taste nicht. Geräte-Macros können mit der Taste <Keys.HardKey>Macro</Keys.HardKey> aufgerufen werden, für die Align-Funktion gibt es die Taste <Keys.HardKey>Align</Keys.HardKey>.
 
 
 
@@ -435,29 +435,29 @@ Beispiel: <Keys.HardKey>Move</Keys.HardKey> {zu verschiebendes Playback} {Ziel z
 
 
 ## <Keys.HardKey>Next Step</Keys.HardKey> 
-Auswahl des nächsten Cues in der aktuell gesteuerten Cueliste. Auf manchen Pulten <Keys.HardKey>Next Cue</Keys.HardKey> oder <Keys.HardKey>Cue +</Keys.HardKey>. Siehe [Abrufen einer Cueliste](../cue-lists/cue-list-playback.md/#abrufen-einer-cueliste).
+Auswahl des nächsten Cues in der aktuell gesteuerten Cueliste. Auf manchen Pulten <Keys.HardKey>Next Cue</Keys.HardKey> oder <Keys.HardKey>Cue +</Keys.HardKey>. Siehe [Abrufen einer Cueliste](../cue-lists/cue-list-playback.md#abrufen-einer-cueliste).
 
 
 
 ## <Keys.HardKey>Next Time</Keys.HardKey> 
-Editieren von Zeiten für nächsten Cue in der aktuell gesteuerten Cueliste. Siehe [Ändern der Zeiten einer laufenden Cueliste](../cue-lists/editing-cue-lists.md/#ändern-der-zeiten-einer-laufenden-cueliste).
+Editieren von Zeiten für nächsten Cue in der aktuell gesteuerten Cueliste. Siehe [Ändern der Zeiten einer laufenden Cueliste](../cue-lists/editing-cue-lists.md#ändern-der-zeiten-einer-laufenden-cueliste).
 
 
 
 ## <Keys.HardKey>Not</Keys.HardKey> 
-Auslassen einzelner Geräte bei der Auswahl einer Serie von Geräten, siehe [Anwählen von Dimmern/Geräten nach (Kanal-)Nummer](../controlling-fixtures.md/#anwählen-von-dimmerngeräten-nach-kanal-nummer).
+Auslassen einzelner Geräte bei der Auswahl einer Serie von Geräten, siehe [Anwählen von Dimmern/Geräten nach (Kanal-)Nummer](../controlling-fixtures.md#anwählen-von-dimmerngeräten-nach-kanal-nummer).
 
 Beispiel: <Keys.HardKey>Fixture</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 5 <Keys.HardKey>not</Keys.HardKey> 3 selektiert die Geräte  1, 2, 4, 5
 
 
 
 ## <Keys.HardKey>Odd/Even</Keys.HardKey> 
-Ersetzt durch <Keys.HardKey>All</Keys.HardKey>. Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md/#geräteauswahl-nach-muster).
+Ersetzt durch <Keys.HardKey>All</Keys.HardKey>. Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md#geräteauswahl-nach-muster).
 
 
 
 ## <Keys.HardKey>Off</Keys.HardKey> 
-Zum Deaktivieren einzelner Attribute von Fixtures bzw. in Playbacks. Auf Off gesetzte Werte können später wieder aktiviert werden. Siehe [Deaktivieren von Attributen in Cues mit "Off"](../cues/editing-cues.md/#deaktivieren-von-attributen-in-cues-mit-off).
+Zum Deaktivieren einzelner Attribute von Fixtures bzw. in Playbacks. Auf Off gesetzte Werte können später wieder aktiviert werden. Siehe [Deaktivieren von Attributen in Cues mit "Off"](../cues/editing-cues.md#deaktivieren-von-attributen-in-cues-mit-off).
 
 
 
@@ -476,32 +476,32 @@ Anzeige von Details eines Elementes, oder Öffnen eines Fenster per Doppelklick,
 
 
 ## <Keys.HardKey>Options</Keys.HardKey> 
-Gefolgt von der **Auswahltaste** eines Elementes, zeigt dessen Optionen. Meist bei Playbacks genutzt, aber auch bei anderen Elementen anwendbar. Siehe [Playback-Optionen](../cues/playback-options.md/)
+Gefolgt von der **Auswahltaste** eines Elementes, zeigt dessen Optionen. Meist bei Playbacks genutzt, aber auch bei anderen Elementen anwendbar. Siehe [Playback-Optionen](../cues/playback-options.md)
 
 
 
 ## <Keys.HardKey>Page +</Keys.HardKey> 
-Wechselt auf die nächste Seite der betreffenden Faderbank. Pulte mit mehreren Faderbänken haben mehrere solche Tasten. Ebenso gibt es die Taste <Keys.HardKey>Go Page</Keys.HardKey> zum Wechseln auf eine andere, nicht unmittelbar folgende Seite. Siehe [Wechsel der Playback-Seiten](../cues/cue-playback.md/#wechsel-der-playback-seiten).
+Wechselt auf die nächste Seite der betreffenden Faderbank. Pulte mit mehreren Faderbänken haben mehrere solche Tasten. Ebenso gibt es die Taste <Keys.HardKey>Go Page</Keys.HardKey> zum Wechseln auf eine andere, nicht unmittelbar folgende Seite. Siehe [Wechsel der Playback-Seiten](../cues/cue-playback.md#wechsel-der-playback-seiten).
 
 
 
 ## <Keys.HardKey>Page -</Keys.HardKey> 
-Wechselt auf die vorige Seite der betreffenden Faderbank. Pulte mit mehreren Faderbänken haben mehrere solche Tasten. Ebenso gibt es die Taste <Keys.HardKey>Go Page</Keys.HardKey> zum Wechseln auf eine andere, nicht unmittelbar vorausgehende Seite. Siehe [Wechsel der Playback-Seiten](../cues/cue-playback.md/#wechsel-der-playback-seiten).
+Wechselt auf die vorige Seite der betreffenden Faderbank. Pulte mit mehreren Faderbänken haben mehrere solche Tasten. Ebenso gibt es die Taste <Keys.HardKey>Go Page</Keys.HardKey> zum Wechseln auf eine andere, nicht unmittelbar vorausgehende Seite. Siehe [Wechsel der Playback-Seiten](../cues/cue-playback.md#wechsel-der-playback-seiten).
 
 
 
 ## <Keys.HardKey>Palette</Keys.HardKey> 
-Aufruf des Paletten-Menüs zum numerischen Aufrufen von Paletten. Siehe [Recalling palettes](../palettes/using-palettes.md/#abrufen-per-nummersyntax).
+Aufruf des Paletten-Menüs zum numerischen Aufrufen von Paletten. Siehe [Recalling palettes](../palettes/using-palettes.md#abrufen-per-nummersyntax).
 
 
 
 ## <Keys.HardKey>Patch</Keys.HardKey> 
-Öffnet das Patch-Menü, siehe [Geräte und Dimmer patchen](../patching/patching-new-fixtures-or-dimmers.md/).
+Öffnet das Patch-Menü, siehe [Geräte und Dimmer patchen](../patching/patching-new-fixtures-or-dimmers.md).
 
  
 
 ## <Keys.HardKey>Pattern/All</Keys.HardKey> 
-(Nur beim D9) Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte beginnen oder beenden. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md/#geräteauswahl-nach-muster). Auf anderen Pulten ist das die Taste <Keys.HardKey>All</Keys.HardKey>, siehe [All](#All).
+(Nur beim D9) Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte beginnen oder beenden. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md#geräteauswahl-nach-muster). Auf anderen Pulten ist das die Taste <Keys.HardKey>All</Keys.HardKey>, siehe [All](#All).
 
 
 
@@ -518,40 +518,40 @@ Aufruf des Paletten-Menüs zum numerischen Aufrufen von Paletten. Siehe [Recalli
 
 
 ## <Keys.HardKey>Position</Keys.HardKey> 
-Auswahl der Attributgruppe Position zum Steuern von Pan, Tilt etc. mit den Encodern. Auch verwendet zum Einstellen von Masken. Siehe [Einstellen von Attributen mit den Encodern](../controlling-fixtures/changing-fixture-attributes.md/#einstellen-von-attributen-mit-den-encodern). 
+Auswahl der Attributgruppe Position zum Steuern von Pan, Tilt etc. mit den Encodern. Auch verwendet zum Einstellen von Masken. Siehe [Einstellen von Attributen mit den Encodern](../controlling-fixtures/changing-fixture-attributes.md#einstellen-von-attributen-mit-den-encodern). 
 
 
 
 ## <Keys.HardKey>Preload/Auto</Keys.HardKey> 
-(Nur beim D9) Vorladen der im Scene Master vorbereiteten Szene (LTP-Werte von aktuell nicht aktiven Fixtures werden bereits geladen, so dass beim Aktivieren der Szene keine 'Fahrten im On' sichtbar sind). Siehe [Scene Master](../running-the-show/playback-controls.md/#scene-master).
+(Nur beim D9) Vorladen der im Scene Master vorbereiteten Szene (LTP-Werte von aktuell nicht aktiven Fixtures werden bereits geladen, so dass beim Aktivieren der Szene keine 'Fahrten im On' sichtbar sind). Siehe [Scene Master](../running-the-show/playback-controls.md#scene-master).
 
 
 
 ## <Keys.HardKey>Prev Step</Keys.HardKey> 
-Auswahl des vorigen Cues in der aktuell gesteuerten Cueliste. Auf manchen Pulten <Keys.HardKey>Prev Cue</Keys.HardKey> oder <Keys.HardKey>Cue -</Keys.HardKey>. Siehe [Abrufen einer Cueliste](../cue-lists/cue-list-playback.md/#abrufen-einer-cueliste).
+Auswahl des vorigen Cues in der aktuell gesteuerten Cueliste. Auf manchen Pulten <Keys.HardKey>Prev Cue</Keys.HardKey> oder <Keys.HardKey>Cue -</Keys.HardKey>. Siehe [Abrufen einer Cueliste](../cue-lists/cue-list-playback.md#abrufen-einer-cueliste).
 
 
 
 ## <Keys.HardKey>Record</Keys.HardKey> 
-Speichern von Playbacks, Paletten und anderen Elementen. Siehe [Anlegen eines Cues](../cues/creating-a-cue.md/#anlegen-eines-cues) und [Speichern einer Palette](../palettes/creating-palettes.md/#speichern-einer-palette). Mehrfaches Betätigen von <Keys.HardKey>Record</Keys.HardKey> schaltet durch die Optionen Record Cue / Record Chase / Record Cue List / Record Timeline.
+Speichern von Playbacks, Paletten und anderen Elementen. Siehe [Anlegen eines Cues](../cues/creating-a-cue.md#anlegen-eines-cues) und [Speichern einer Palette](../palettes/creating-palettes.md#speichern-einer-palette). Mehrfaches Betätigen von <Keys.HardKey>Record</Keys.HardKey> schaltet durch die Optionen Record Cue / Record Chase / Record Cue List / Record Timeline.
 
 Tasten | Ergebnis
 --------|--------
 <Keys.HardKey>Record</Keys.HardKey> {Playback-Auswahltaste} | Speichert den Inhalt des Programmers als Cue
 <Keys.HardKey>Record</Keys.HardKey> {Palettenbutton} | Speichert den Inhalt des Programmers als Palette
 <Keys.HardKey>Record</Keys.HardKey> {Workspace-Button} | Speichert die aktuelle Arbeitsumgebung (Fensterauswahl und -anordnung)
-<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Highlight</Keys.HardKey> | Speichert den Inhalt des Programmers als Highlight-Status, siehe [Das ausgewählte Gerät bei Fix+1/Fix-1 hervorheben](../controlling-fixtures.md/#das-ausgewählte-gerät-bei-fix1fix-1-hervorheben)
+<Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Highlight</Keys.HardKey> | Speichert den Inhalt des Programmers als Highlight-Status, siehe [Das ausgewählte Gerät bei Fix+1/Fix-1 hervorheben](../controlling-fixtures.md#das-ausgewählte-gerät-bei-fix1fix-1-hervorheben)
 <Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Locate</Keys.HardKey> | Speichert den Inhalt des Programmers als Locate-Status, siehe [Ändern des Locate-Wertes](../controlling-fixtures.md#ändern-des-locate-wertes).
 
 
 
 ## <Keys.HardKey>Record Step</Keys.HardKey> 
-Speichert den Inhalt des Programmers in den aktuellen Cue der aktuell gesteuerten Cueliste. Siehe [Editieren einer Cueliste während des Programmierens](../cue-lists/editing-cue-lists.md/#editieren-einer-cueliste-während-des-programmierens)
+Speichert den Inhalt des Programmers in den aktuellen Cue der aktuell gesteuerten Cueliste. Siehe [Editieren einer Cueliste während des Programmierens](../cue-lists/editing-cue-lists.md#editieren-einer-cueliste-während-des-programmierens)
 
 
 
 ## <Keys.HardKey>Release</Keys.HardKey> 
-Deaktivieren von Playbacks und Releasen von LTP-Werten auf den jeweils vorigen Wert. Siehe [Release](../cues/cue-playback.md/#release). 
+Deaktivieren von Playbacks und Releasen von LTP-Werten auf den jeweils vorigen Wert. Siehe [Release](../cues/cue-playback.md#release). 
 
 Kann auch mit anderen Elementen verwendet werden.
 
@@ -560,24 +560,24 @@ Tasten | Ergebnis
 <Keys.HardKey>Release</Keys.HardKey> {Master} | Setzt einen Master auf seinen Vorgabewert zurück (so dass die gesteuerten Playbacks unverändert sind), siehe [Einen Master releasen](../cues/cue-playback.md#einen-master-releasen).
 <Keys.HardKey>Release</Keys.HardKey> {Playback} | Ein Playback releasen. Siehe [Release](../cues/cue-playback.md#release).
 <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Clear</Keys.HardKey> | Die Attribute im Programmer releasen. Siehe [Den Programmer releasen](../cues/cue-playback.md#den-programmer-releasen).
-<Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Go Page</Keys.HardKey> | Die Playbacks einer Seite nach Priorität releasen. Siehe [Playbacks seitenweise releasen](../cues/cue-playback.md/#playbacks-seitenweise-releasen).
+<Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Go Page</Keys.HardKey> | Die Playbacks einer Seite nach Priorität releasen. Siehe [Playbacks seitenweise releasen](../cues/cue-playback.md#playbacks-seitenweise-releasen).
 <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Release</Keys.HardKey> | Alle aktiven Playbacks nach Priorität releasen. Siehe [Release](../cues/cue-playback.md#release).
 <Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Release</Keys.HardKey> | Den Release-Status (= Power On) speichern. Siehe [Werte für Release / Power On programmieren](../cues/cue-playback#werte-für-release--power-on-programmieren).
 
 
 
 ## <Keys.HardKey>Rem Dim</Keys.HardKey> 
-Stell alle nicht selektierten Fixtures auf 0% im Programmer. Nicht auf allen Pulten vorhanden. Auch erreichbar über <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>All</Keys.HardKey>. Siehe [Nicht ausgewählte Geräte ausblenden (Remainder Dim)](../controlling-fixtures.md/#nicht-ausgewählte-geräte-ausblenden-remainder-dim)
+Stell alle nicht selektierten Fixtures auf 0% im Programmer. Nicht auf allen Pulten vorhanden. Auch erreichbar über <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>All</Keys.HardKey>. Siehe [Nicht ausgewählte Geräte ausblenden (Remainder Dim)](../controlling-fixtures.md#nicht-ausgewählte-geräte-ausblenden-remainder-dim)
 
 
 
 ## <Keys.HardKey>Reset</Keys.HardKey> 
-(Nur auf dem D9) Löscht die Preset-Szene des Scene Master. Siehe [Scene Master](../running-the-show/playback-controls.md/#scene-master).
+(Nur auf dem D9) Löscht die Preset-Szene des Scene Master. Siehe [Scene Master](../running-the-show/playback-controls.md#scene-master).
 
 
 
 ## <Keys.HardKey>Review</Keys.HardKey> 
-Startet den aktuellen Cue erneut mit Fadezeiten, zur Überprüfung und Anpassung der Zeiten. Siehe [Ändern der Zeiten einer laufenden Cueliste](../cue-lists/editing-cue-lists.md/#ändern-der-zeiten-einer-laufenden-cueliste)
+Startet den aktuellen Cue erneut mit Fadezeiten, zur Überprüfung und Anpassung der Zeiten. Siehe [Ändern der Zeiten einer laufenden Cueliste](../cue-lists/editing-cue-lists.md#ändern-der-zeiten-einer-laufenden-cueliste)
 
 
 
@@ -592,7 +592,7 @@ Aktivieren der Scroll-Funktion mit den Encodern.
 
 
 ## <Keys.HardKey>Select If</Keys.HardKey> 
-Bedingte Auswahl. Z.B. per Doppelklick Auswahl der Geräte im zuletzt gestarteten Playback. Siehe [Auswahl von Geräten in einem Cue](../controlling-fixtures.md/#auswahl-von-geräten-in-einem-cue).
+Bedingte Auswahl. Z.B. per Doppelklick Auswahl der Geräte im zuletzt gestarteten Playback. Siehe [Auswahl von Geräten in einem Cue](../controlling-fixtures.md#auswahl-von-geräten-in-einem-cue).
 
 
 
@@ -612,22 +612,22 @@ Verschiebt das aktuelle Fenster auf verschiedene Größen und Positionen. Wird d
 
 
 ## <Keys.HardKey>Snap</Keys.HardKey> 
-Aktiviert den Snap-Modus, so dass mit den Tasten <Keys.HardKey>Prev Step</Keys.HardKey> / <Keys.HardKey>Next Step</Keys.HardKey> ohne Fadezeiten durch die Cues einer Cueliste oder eines Chasers geschaltet werden kann. Siehe [Abrufen einer Cueliste](../cue-lists/cue-list-playback.md/#abrufen-einer-cueliste). Schaltet die Benutzereinstellungen Chase Snap (bei verbundenem Chaser) oder Cue List Snap (bei verbundener Cueliste) um, siehe [General (Allgemein)](../system-settings/user-settings.md/#general-allgemein).
+Aktiviert den Snap-Modus, so dass mit den Tasten <Keys.HardKey>Prev Step</Keys.HardKey> / <Keys.HardKey>Next Step</Keys.HardKey> ohne Fadezeiten durch die Cues einer Cueliste oder eines Chasers geschaltet werden kann. Siehe [Abrufen einer Cueliste](../cue-lists/cue-list-playback.md#abrufen-einer-cueliste). Schaltet die Benutzereinstellungen Chase Snap (bei verbundenem Chaser) oder Cue List Snap (bei verbundener Cueliste) um, siehe [General (Allgemein)](../system-settings/user-settings.md#general-allgemein).
 
 
 
 ## <Keys.HardKey>Special</Keys.HardKey> 
-Auswahl der Attributgruppe Special zum Steuern von Speed, Macros etc. mit den Encodern. Auch verwendet zum Einstellen von Masken. Siehe [Einstellen von Attributen mit den Encodern](../controlling-fixtures/changing-fixture-attributes.md/#einstellen-von-attributen-mit-den-encodern). 
+Auswahl der Attributgruppe Special zum Steuern von Speed, Macros etc. mit den Encodern. Auch verwendet zum Einstellen von Masken. Siehe [Einstellen von Attributen mit den Encodern](../controlling-fixtures/changing-fixture-attributes.md#einstellen-von-attributen-mit-den-encodern). 
 
 
 
 ## <Keys.HardKey>Stop</Keys.HardKey> 
-Stoppt aktuell laufende Fades/Überblendungen. Siehe [Abrufen einer Cueliste](../cue-lists/cue-list-playback.md/#abrufen-einer-cueliste). Ist der Fade bereits gestoppt, so geht es einen Cue rückwärts.
+Stoppt aktuell laufende Fades/Überblendungen. Siehe [Abrufen einer Cueliste](../cue-lists/cue-list-playback.md#abrufen-einer-cueliste). Ist der Fade bereits gestoppt, so geht es einen Cue rückwärts.
 
 
 
 ## <Keys.HardKey>Through</Keys.HardKey> 
-von... **"bis"** bei der Auswahl eines Bereiches von Fixtures, siehe [Anwählen von Dimmern/Geräten nach (Kanal-)Nummer](../controlling-fixtures.md/#anwählen-von-dimmerngeräten-nach-kanal-nummer).
+von... **"bis"** bei der Auswahl eines Bereiches von Fixtures, siehe [Anwählen von Dimmern/Geräten nach (Kanal-)Nummer](../controlling-fixtures.md#anwählen-von-dimmerngeräten-nach-kanal-nummer).
 
 Beispiel: <Keys.HardKey>Fixture</Keys.HardKey> 1 <Keys.HardKey>Through</Keys.HardKey> 5 <Keys.HardKey>not</Keys.HardKey> 3 selektiert die Fixtures 1, 2, 4, 5
 
@@ -636,8 +636,8 @@ Wird eine Zeit oder ein Timecode eingegeben, so kann man mit den Tasten <Keys.Ha
 
 
 ## <Keys.HardKey>Time</Keys.HardKey> 
-Öffnet das Times-Menü zur Eingabe von Zeiten für Cues, siehe [Einstellen von Überblendzeiten und Geräteversatz](../cues/cue-timing.md/#einstellen-von-überblendzeiten-und-geräteversatz).
-Auch zur direkten Eingabe von Zeiten beim Programmieren. Siehe [Times -- Zeiten](../titan-reference.md/#times).
+Öffnet das Times-Menü zur Eingabe von Zeiten für Cues, siehe [Einstellen von Überblendzeiten und Geräteversatz](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz).
+Auch zur direkten Eingabe von Zeiten beim Programmieren. Siehe [Times -- Zeiten](../titan-reference.md#times).
 
 Tasten | Ergebnis
 --------|--------
@@ -648,7 +648,7 @@ Tasten | Ergebnis
 
 
 ## <Keys.HardKey>Undo</Keys.HardKey> 
-Macht die letzte Änderung rückgängig. Eine Liste der letzten Vorgänge wird im Infobereich angezeigt. Siehe [Undo/Redo -- Rückgängig machen/Wiederholen](../titan-basics/other-parts-of-the-touch-screen.md/#undoredo----rückgängig-machenwiederholen).
+Macht die letzte Änderung rückgängig. Eine Liste der letzten Vorgänge wird im Infobereich angezeigt. Siehe [Undo/Redo -- Rückgängig machen/Wiederholen](../titan-basics/other-parts-of-the-touch-screen.md#undoredo----rückgängig-machenwiederholen).
 
 Tasten | Ergebnis
 --------|--------
@@ -657,19 +657,19 @@ Tasten | Ergebnis
 
 
 ## <Keys.HardKey>Unfold</Keys.HardKey> 
-gefolgt von der **Auswahltaste** eines Chasers oder einer Cueliste, blendet die einzelnen Cues auf Playback-Fader ein, so dass jeder Cue einzeln bearbeitet werden kann. Siehe [Ändern eines Chasers mit der Unfold-Funktion](../chases/editing-a-chase.md/#ändern-eines-chasers-mit-der-unfold-funktion).
+gefolgt von der **Auswahltaste** eines Chasers oder einer Cueliste, blendet die einzelnen Cues auf Playback-Fader ein, so dass jeder Cue einzeln bearbeitet werden kann. Siehe [Ändern eines Chasers mit der Unfold-Funktion](../chases/editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion).
 
 
 
 ## <Keys.HardKey>Update</Keys.HardKey> 
-Aktualisieren des aktuellen Cues. Dabei wird der Inhalt des Programmers für bereits vorhandene Fixtures und Attribute in den Cue verschmolzen. Siehe [Aktualisieren gespeicherter Werte und Paletten](../cues/editing-cues.md/#aktualisieren-gespeicherter-werte-und-paletten).
+Aktualisieren des aktuellen Cues. Dabei wird der Inhalt des Programmers für bereits vorhandene Fixtures und Attribute in den Cue verschmolzen. Siehe [Aktualisieren gespeicherter Werte und Paletten](../cues/editing-cues.md#aktualisieren-gespeicherter-werte-und-paletten).
 
 
 
 ## <Keys.HardKey>View</Keys.HardKey> 
 (D9, Titan Go, Pearl Expert, Tiger Touch 1) 
 
-Gefolgt von der **Auswahltaste** eines Elements werden Details über dieses angezeigt. Per Doppelklick können dagegen weitere Fenster geöffnet werden. Siehe [Anzeigen und Ändern einer Palette](../palettes/editing-palettes.md/#anzeigen-und-ändern-einer-palette) und [Anzeige der Cues: Playback View und Cue View](../cues/editing-cues.md/#anzeige-der-cues-playback-view-und-cue-view), oder [Auswahl und Positionierung der Arbeitsfenster](../titan-basics.md/workspace-windows/#auswahl-und-positionierung-der-arbeitsfenster).
+Gefolgt von der **Auswahltaste** eines Elements werden Details über dieses angezeigt. Per Doppelklick können dagegen weitere Fenster geöffnet werden. Siehe [Anzeigen und Ändern einer Palette](../palettes/editing-palettes.md#anzeigen-und-ändern-einer-palette) und [Anzeige der Cues: Playback View und Cue View](../cues/editing-cues.md#anzeige-der-cues-playback-view-und-cue-view), oder [Auswahl und Positionierung der Arbeitsfenster](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster).
 
 Mit vielen Tastenkombinationen können weitere Fenster geöffnet werden:
 

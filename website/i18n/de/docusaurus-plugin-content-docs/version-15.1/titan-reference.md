@@ -95,6 +95,8 @@ Mergen des Programmers (nur Position) in den gerade aktiven Cue.
 
 Mergen des Programmers (nur Position) in den gerade aktiven Cue.
 
+- Siehe [Updaten von Cues](./cue-lists/theatre-programming#updaten-von-cues) im Abschnitt Tipps für Theater-Programmierer für mehr Informationen zum Editieren von Cuelisten und zum Speichern von Cues.
+
 ## Copy, Move -- Kopieren, Verschieben in Cuelisten
 
 **<Keys.HardKey>Copy</Keys.HardKey> &#123;Cueliste&#125; n <Keys.HardKey>Enter</Keys.HardKey>**

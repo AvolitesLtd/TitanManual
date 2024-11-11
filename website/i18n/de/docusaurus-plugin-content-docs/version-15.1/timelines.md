@@ -92,7 +92,7 @@ ist ein externer Timecode verbunden (also keine interner Timecode oder Winamp), 
 
 Ist der Timecode im **Timecode-Menü** deaktiviert, so wird die Zeit rot angezeigt.
 
-Ist der Timecode aktiv und auch in dem gültigen Zeitraum (siehe [Start und Duration](./timelines/timeline-options#tab-times)), so wird die Zeit orange angezeigt.
+Ist der Timecode aktiv und auch in dem gültigen Zeitraum (siehe [Start und Duration](./timelines/timeline-options.md#tab-times)), so wird die Zeit orange angezeigt.
 
 ![Timeline disabled](/docs/images/Timeline-Timecode-Disabled.png)
 

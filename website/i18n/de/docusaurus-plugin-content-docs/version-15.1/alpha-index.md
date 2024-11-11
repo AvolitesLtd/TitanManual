@@ -1,7 +1,7 @@
 ---
 id: alpha-index
-title: Index (alphabetisch)
-sidebar_label: Index (alphabetisch)
+title: Index (Alphabetisch)
+sidebar_label: Index (Alphabetisch)
 ---
 
 import Keys from '@site/src/components/key.ts';
@@ -106,6 +106,8 @@ import Video from '@site/src/components/video.tsx';
 
 [Anzeigen der aktuell laufenden Playbacks *(in "Einen Cue verwenden")*](./cues/cue-playback.md#anzeigen-der-aktuell-laufenden-playbacks)
 
+[Anzeigen der Playbacks, die die Palette verwenden *(in "Editieren von Paletten")*](./palettes/editing-palettes.md#anzeigen-der-playbacks,-die-die-palette-verwenden)
+
 [Anzeigen und Ändern einer Palette *(in "Editieren von Paletten")*](./palettes/editing-palettes.md#anzeigen-und-ändern-einer-palette)
 
 [Anzeigeoptionen für das Playback Groups-Fenster *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#anzeigeoptionen-für-das-playback-groups-fenster)
@@ -185,7 +187,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Blind-Modus *(in "Erstellen eines Cues")*](./cues/creating-a-cue.md#blind-modus)
 
-[Blind-Modus *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#blind-modus)
+[Blind-Modus *(in "Steuern der Show")*](./running-the-show.md#blind-modus)
 
 [BPM-Master per Pioneer DJ triggern *(in "Pioneer ProDJ-Decks mit Titan verknüpfen")*](./running-the-show/linking-pioneerdj-system-to-titan.md#bpm-master-per-pioneer-dj-triggern)
 
@@ -213,18 +215,6 @@ import Video from '@site/src/components/video.tsx';
 [Cue Links Disabled *(in "Chaser-Optionen")*](./chases/chase-options.md#cue-links-disabled)
 
 [Cue Links Disabled: *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#cue-links-disabled)
-
-[Cue List Options -- Tab "Effects" *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#cue-list-options----tab-effects)
-
-[Cue List Options -- Tab "Fader" *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#cue-list-options----tab-fader)
-
-[Cue List Options -- Tab "Handle" *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#cue-list-options----tab-handle)
-
-[Cue List Options -- Tab "Playback" *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#cue-list-options----tab-playback)
-
-[Cue List Options -- Tab "Release" *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#cue-list-options----tab-release)
-
-[Cue List Options -- Tab "Times" *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#cue-list-options----tab-times)
 
 [Cue Lists -- Cuelisten *(in "Titan Befehlsreferenz")*](./titan-reference.md#cue-lists----cuelisten)
 
@@ -271,15 +261,13 @@ import Video from '@site/src/components/video.tsx';
 
 [Das Heads-Up Display (HUD) *(in "Andere Bereiche der Anzeige")*](./titan-basics/other-parts-of-the-touch-screen.md#das-heads-up-display-hud)
 
-[Das Menü View *(in "Workspaces - Arbeitsumgebungen")*](./running-the-show/using-multiple-on-screen-workspaces.md#das-menü-view)
-
 [Das Pearl Expert Touch Wing *(in "Pearl Expert und Touch Wing")*](./about-the-consoles/pearl-expert-and-touch-wing.md#das-pearl-expert-touch-wing)
 
 [Das PioneerDJ-Fenster *(in "Pioneer ProDJ-Decks mit Titan verknüpfen")*](./running-the-show/linking-pioneerdj-system-to-titan.md#das-pioneerdj-fenster)
 
-[Das Pult beschriften *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#das-pult-beschriften)
+[Das Pult beschriften *(in "Steuern der Show")*](./running-the-show.md#das-pult-beschriften)
 
-[Das Pult sperren *(in "Die Tasten der Konsole")*](./titan-basics/front-panel-buttons.md#das-pult-sperren)
+[Das Pult sperren *(in "Steuern der Show")*](./running-the-show.md#das-pult-sperren)
 
 [Deaktivieren eines Cues *(in "Editieren")*](./cue-lists/editing-cue-lists.md#deaktivieren-eines-cues)
 
@@ -359,6 +347,8 @@ import Video from '@site/src/components/video.tsx';
 
 [Display Setup - Bildschirmeinrichtung *(in "Das System-Menü")*](./system-settings/the-system-menu.md#display-setup---bildschirmeinrichtung)
 
+[Display-Ansicht speichern *(in "Steuern der Show")*](./running-the-show.md#display-ansicht-speichern)
+
 [DMX anschliessen *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#dmx-anschliessen)
 
 [DMX Merge *(in "DMX-Ausgänge einrichten")*](./system-settings/dmx-output-mapping.md#dmx-merge)
@@ -435,6 +425,8 @@ import Video from '@site/src/components/video.tsx';
 [Eingeben von Attributwerten mit den @-Tasten *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#eingeben-von-attributwerten-mit-den--tasten)
 
 [Eingeben von Überblendzeiten für einzelne Attribute *(in "Zeiten für Cues")*](./cues/cue-timing.md#eingeben-von-überblendzeiten-für-einzelne-attribute)
+
+[Eingeschränkter Zugriff mit dem Venue Mode *(in "Steuern der Show")*](./running-the-show.md#eingeschränkter-zugriff-mit-dem-venue-mode)
 
 [Einrichten der DMX-Ausgänge *(in "DMX-Ausgänge einrichten")*](./system-settings/dmx-output-mapping.md#einrichten-der-dmx-ausgänge)
 
@@ -591,6 +583,8 @@ import Video from '@site/src/components/video.tsx';
 
 [Herunterladen der Personalities bei Avolites *(in "Die Personalities (Gerätedateien)")*](./fixture-personalities.md#herunterladen-der-personalities-bei-avolites)
 
+[Hintergrundbild für den Sperrbildschirm *(in "Steuern der Show")*](./running-the-show.md#hintergrundbild-für-den-sperrbildschirm)
+
 [Hochladen von Content mit dem Media Browser *(in "Arbeiten mit Synergy")*](./synergy/operating-synergy.md#hochladen-von-content-mit-dem-media-browser)
 
 [HTP und LTP *(in "Einen Cue verwenden")*](./cues/cue-playback.md#htp-und-ltp)
@@ -611,6 +605,8 @@ import Video from '@site/src/components/video.tsx';
 [Individuelle Zeiten pro Schritt *(in "Zeiten bei Chasern")*](./chases/chase-timing.md#individuelle-zeiten-pro-schritt)
 
 [Installationshinweise *(in "Wiederherstellen/Neuinstallation")*](./system-settings/recovering-reinstalling-the-console.md#installationshinweise)
+
+[Installieren der Titan-Software *(in "T1 und T2")*](./about-the-consoles/t1-and-t2.md#installieren-der-titan-software)
   
 ## K
 [Kameras einrichten (Ansichten) *(in "Das Rig einrichten")*](./capture-visualiser/setting-up-the-rig.md#kameras-einrichten-ansichten)
@@ -658,15 +654,21 @@ import Video from '@site/src/components/video.tsx';
 
 [LEDs *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#leds)
 
+[Legenden aus Capture-Screenshots erzeugen *(in "Mit einer externen Capture-Vollversion verbinden")*](./capture-visualiser/linking-the-console-to-stand-alone-capture.md#legenden-aus-capture-screenshots-erzeugen)
+
 [Legenden und Bezeichnungen *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#legenden-und-bezeichnungen)
 
 [Legenden/Bezeichnungen eingeben *(in "Das Patch ändern")*](./patching/changing-the-patch.md#legendenbezeichnungen-eingeben)
 
-[Lightmap: Pixelmapping mit Ai *(in "Arbeiten mit Synergy")*](./synergy/operating-synergy.md#lightmap-pixelmapping-mit-ai)
+[Lightmap: Pixelmapping mit Video-Content *(in "Arbeiten mit Synergy")*](./synergy/operating-synergy.md#lightmap-pixelmapping-mit-video-content)
 
 [Linking *(in "Chaser-Optionen")*](./chases/chase-options.md#linking)
 
 [Lock -- den TNP sperren *(in "TNP im Slave-Betrieb")*](./titan-net/tnp-slave-mode.md#lock----den-tnp-sperren)
+
+[Lock *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#lock)
+
+[Lock und Venue Mode -- das Pult ganz oder teilweise sperren *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#lock-und-venue-mode----das-pult-ganz-oder-teilweise-sperren)
 
 [Lokale (individuelle) Release-Maske *(in "Einen Cue verwenden")*](./cues/cue-playback.md#lokale-individuelle-release-maske)
 
@@ -790,18 +792,6 @@ import Video from '@site/src/components/video.tsx';
 
 [Play Order *(in "Chaser-Optionen")*](./chases/chase-options.md#play-order)
 
-[Playback Options -- Tab "Effects" *(in "Playback-Optionen")*](./cues/playback-options.md#playback-options----tab-effects)
-
-[Playback Options -- Tab "Fader" *(in "Playback-Optionen")*](./cues/playback-options.md#playback-options----tab-fader)
-
-[Playback Options -- Tab "Handle" *(in "Playback-Optionen")*](./cues/playback-options.md#playback-options----tab-handle)
-
-[Playback Options -- Tab "Playback" *(in "Playback-Optionen")*](./cues/playback-options.md#playback-options----tab-playback)
-
-[Playback Options -- Tab "Release" *(in "Playback-Optionen")*](./cues/playback-options.md#playback-options----tab-release)
-
-[Playback Options -- Tab "Times" *(in "Playback-Optionen")*](./cues/playback-options.md#playback-options----tab-times)
-
 [Playback-Gruppen *(in "Einen Cue verwenden")*](./cues/cue-playback.md#playback-gruppen)
 
 [Playback-Gruppen *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#playback-gruppen)
@@ -919,7 +909,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Shutterblenden/Keystone *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#shutterblendenkeystone)
 
-[Sichern der Show *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#sichern-der-show)
+[Sichern der Show *(in "Steuern der Show")*](./running-the-show.md#sichern-der-show)
 
 [Sichern existierender Shows auf USB-Sticks *(in "Laden und Sichern von Shows")*](./titan-basics/loading-and-saving-shows.md#sichern-existierender-shows-auf-usb-sticks)
 
@@ -947,7 +937,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Speichern einer Palette *(in "Erstellen von Paletten")*](./palettes/creating-palettes.md#speichern-einer-palette)
 
-[Speichern von Gruppen und Paletten *(in "Verwenden der Titan Remote-App")*](./remote-control/operating-the-remote.md#speichern-von-gruppen-und-paletten)
+[Speichern von Paletten *(in "Verwenden der Titan Remote-App")*](./remote-control/operating-the-remote.md#speichern-von-paletten)
 
 [Speichern von Shapes in Paletten *(in "Der Shape-Generator")*](./effects/shape-generator.md#speichern-von-shapes-in-paletten)
 
@@ -968,15 +958,35 @@ import Video from '@site/src/components/video.tsx';
 ## T
 [Tab "Effects *(in "Chaser-Optionen")*](./chases/chase-options.md#tab-effects)
 
+[Tab "Effects" *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#tab-effects)
+
+[Tab "Effects" *(in "Playback-Optionen")*](./cues/playback-options.md#tab-effects)
+
+[Tab "Fader" *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#tab-fader)
+
+[Tab "Fader" *(in "Playback-Optionen")*](./cues/playback-options.md#tab-fader)
+
 [Tab "Fader" *(in "Timeline-Optionen")*](./timelines/timeline-options.md#tab-fader)
 
 [Tab "Handle" *(in "Chaser-Optionen")*](./chases/chase-options.md#tab-handle)
+
+[Tab "Handle" *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#tab-handle)
+
+[Tab "Handle" *(in "Playback-Optionen")*](./cues/playback-options.md#tab-handle)
 
 [Tab "Handle" *(in "Timeline-Optionen")*](./timelines/timeline-options.md#tab-handle)
 
 [Tab "Playback" *(in "Chaser-Optionen")*](./chases/chase-options.md#tab-playback)
 
+[Tab "Playback" *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#tab-playback)
+
+[Tab "Playback" *(in "Playback-Optionen")*](./cues/playback-options.md#tab-playback)
+
 [Tab "Release" *(in "Chaser-Optionen")*](./chases/chase-options.md#tab-release)
+
+[Tab "Release" *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#tab-release)
+
+[Tab "Release" *(in "Playback-Optionen")*](./cues/playback-options.md#tab-release)
 
 [Tab "Release" *(in "Timeline-Optionen")*](./timelines/timeline-options.md#tab-release)
 
@@ -985,6 +995,10 @@ import Video from '@site/src/components/video.tsx';
 [Tab "Timeline" *(in "Timeline-Optionen")*](./timelines/timeline-options.md#tab-timeline)
 
 [Tab "Times" *(in "Chaser-Optionen")*](./chases/chase-options.md#tab-times)
+
+[Tab "Times" *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#tab-times)
+
+[Tab "Times" *(in "Playback-Optionen")*](./cues/playback-options.md#tab-times)
 
 [Tab "Times" *(in "Timeline-Optionen")*](./timelines/timeline-options.md#tab-times)
 
@@ -1019,6 +1033,8 @@ import Video from '@site/src/components/video.tsx';
 [Timecode verbinden und steuern *(in "Einführung in Timelines")*](./timelines.md#timecode-verbinden-und-steuern)
 
 [Timecode-Quelle wählen *(in "Einführung in Timelines")*](./timelines.md#timecode-quelle-wählen)
+
+[Timeline *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#timeline)
 
 [Times -- Zeiten *(in "Titan Befehlsreferenz")*](./titan-reference.md#times----zeiten)
 
@@ -1082,16 +1098,20 @@ import Video from '@site/src/components/video.tsx';
 
 [Updaten der Personalities eines Pultes *(in "Die Personalities (Gerätedateien)")*](./fixture-personalities.md#updaten-der-personalities-eines-pultes)
 
+[Updaten von Cues *(in "Tipps für Theater-Programmierer")*](./cue-lists/theatre-programming.md#updaten-von-cues)
+
 [User Settings - Benutzereinstellungen *(in "Das System-Menü")*](./system-settings/the-system-menu.md#user-settings---benutzereinstellungen)
 
 [Users -- Benutzer *(in "Mehrbenutzer-Betrieb")*](./titan-basics/multi-user-operation.md#users----benutzer)
   
 ## V
-[Verbinden *(in "Einrichtung")*](./synergy/setting-up.md#verbinden)
-
 [Verbinden eines Playbacks mit der Steuerung *(in "Abrufen")*](./chases/chase-playback.md#verbinden-eines-playbacks-mit-der-steuerung)
 
 [Verbinden mit anderen TitanNet-Sessions *(in "Mehrbenutzer-Betrieb")*](./titan-basics/multi-user-operation.md#verbinden-mit-anderen-titannet-sessions)
+
+[Verbinden mit einem Ai-Server *(in "Einrichtung")*](./synergy/setting-up.md#verbinden-mit-einem-ai-server)
+
+[Verbinden mit Prism Zero *(in "Einrichtung")*](./synergy/setting-up.md#verbinden-mit-prism-zero)
 
 [Vergeben von Attribut-Zeiten für einzelne Schritte *(in "Zeiten bei Chasern")*](./chases/chase-timing.md#vergeben-von-attribut-zeiten-für-einzelne-schritte)
 
@@ -1105,7 +1125,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Verschieben eines Cues *(in "Kopieren, verschieben, verlinken, löschen")*](./cues/copying-moving-linking-and-deleting.md#verschieben-eines-cues)
 
-[Verwenden der 'Move'-Funktion *(in "Das Pult organisieren")*](./running-the-show/organising-the-console.md#verwenden-der-'move'-funktion)
+[Verwenden der 'Move'-Funktion *(in "Steuern der Show")*](./running-the-show.md#verwenden-der-'move'-funktion)
 
 [Verwenden des Titan Simulator *(in "Der Titan Simulator")*](./titan-basics/titan-simulator.md#verwenden-des-titan-simulator)
 
@@ -1121,7 +1141,7 @@ import Video from '@site/src/components/video.tsx';
 
 [Verwenden von Shapes und Effekten in Cues *(in "Erstellen eines Cues")*](./cues/creating-a-cue.md#verwenden-von-shapes-und-effekten-in-cues)
 
-[Verwendung des Layout-Editors mit Ai *(in "Arbeiten mit Synergy")*](./synergy/operating-synergy.md#verwendung-des-layout-editors-mit-ai)
+[Verwendung des Layout-Editors mit Synergy *(in "Arbeiten mit Synergy")*](./synergy/operating-synergy.md#verwendung-des-layout-editors-mit-synergy)
 
 [Video-Vorschau (nur beim Diamond 9) *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#video-vorschau-nur-beim-diamond-9)
 

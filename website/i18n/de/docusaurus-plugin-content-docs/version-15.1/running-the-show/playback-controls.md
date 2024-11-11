@@ -7,21 +7,6 @@ sidebar_label: Steuern der Wiedergabe
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-## Sichern der Show
-
-Das Wichtigste während des Programmierens, am Ende des Programmierens,
-und beim Beginn der Show, ist das [Sichern der Daten](../titan-basics/loading-and-saving-shows.md#die-show-speichern). 
-Ein Backup kann sowohl auf der internen Festplatte als auch auf einem 
-USB-Stick gespeichert werden. Der USB-Stick empfiehlt sich
-insbesondere, um die Show auch auf ein anderes Pult transferieren zu
-können.
-
-## Das Pult beschriften
-
-Während der Show ist es wichtig zu wissen, was denn nun wo programmiert
-ist. Beschriften Sie Ihr Pult, entweder mit der elektronischen
-Beschriftung/Bemalung, oder mit Klebeband und Stift.
-
 ## Master-Fader
 
 Auf den größeren Pulten gibt es einen eigenen Master-Fader, der
@@ -132,7 +117,7 @@ und wählen den Masterregler aus, den Sie ändern möchten.
 
 Normalerweise liegt die BPM-Rate auf dem Fader, eine der Tasten dient
 als Tap-Taste, und man kann die BPM-Rate numerisch eingeben und per
-blauer Select-Taste anwenden.
+Select-Taste anwenden.
 
 BPM-Master, Fader steuert BPM:<br/>
 ![BPM Master on playback](/docs/images/BPM-Master-on-playback.png)   
@@ -303,12 +288,8 @@ werden, der dann die Helligkeit aller Geräte in der Gruppe beeinflusst.
 Dazu ist ganz einfach die Gruppe auf einen Speicherplatz mit Fader zu
 speichern (oder mit <Keys.HardKey>Move</Keys.HardKey> dorthin zu verschieben).
 
-Die **Auswahltaste** des Faders dient dann als Auswahltaste für die Gruppe;
-hält man sie gedrückt, kann man mittels der Menütasten Geräte nach
-verschiedenen Mustern auswählen.
-
 Mittels <Keys.HardKey>Options</Keys.HardKey> oder <Keys.SoftKey>Options</Keys.SoftKey>, gefolgt von der entsprechenden
-Playback-Auswahltaste, kann man die genaue Arbeitsweise des
+Auswahltaste, kann man die genaue Arbeitsweise des
 Gruppenmasters wählen:
 -   **Scale master** (proportionale Steuerung). Dabei kann der Bereich auf
     100%, 200%, 400%, 600% oder 1000% eingestellt werden. Damit lassen
@@ -403,7 +384,7 @@ oder <Keys.SoftKey>Options</Keys.SoftKey> und wählt den Scene Master. Es gibt f
 
 -   Bei <Keys.SoftKey>Manual Commit</Keys.SoftKey> schließlich wird die Szene gar nicht per Fader
     aktiviert, sondern muss per Taste aktiviert werden, wozu eine entsprechende Funktion etwa mit 
-    der grauen Taste verknüpft sein muss (über Tastenprofile, s.u.).
+    der Flash-Taste verknüpft sein muss (über Tastenprofile, s.u.).
 
 Auf dem Diamond 9 gibt es weitere Buttons für den Scene Master: <Keys.HardKey>Reset</Keys.HardKey> löscht alle Preset-Änderungen und kehrt zum aktuellen Live-Status zurück, und <Keys.HardKey>Preload</Keys.HardKey> arbeitet 
 wie von Preload gewohnt, lädt also alle LTP-Werte vorab.
@@ -451,7 +432,7 @@ Fader können schwarze Tasten haben.
 ![Playback Faders with key profiles applied](/docs/images/Playback-Faders-with-key-profiles-applied.png)
 
 Im Touchscreen direkt oberhalb der Regler wird die aktuelle
-Tastenfunktion angezeigt.
+Funktion der Tasten angezeigt.
 
 ## Priorität der Playbacks
 
@@ -545,33 +526,6 @@ Klickt man eine der Schaltflächen an, so wird das betreffende Playback
 sofort deaktiviert. Betätigt man <Keys.SoftKey>Playback Options</Keys.SoftKey>, gefolgt von einer
 der Playback-Schaltflächen, so kann man die jeweiligen Parameter ändern.
 
-## Blind-Modus
-
-Sollen noch schnell ein paar kleine Änderungen an Cues oder Paletten mit
-Hilfe des Visualisers vorgenommen werden, ohne den Live-Betrieb zu
-stören, lässt sich das Pult auch in den Blind-Modus schalten. Dazu
-drückt man die Taste <Keys.HardKey>Blind</Keys.HardKey> (ältere Pulte verfügen nicht über diese
--- in diesem Fall hält man <Keys.HardKey>Avo</Keys.HardKey> gedrückt und wählt den Menüpunkt
-&nbsp;<Keys.SoftKey>Blind</Keys.SoftKey>).
-
-Um ein Playback zu überprüfen, muss man das Playback selbst Blind
-schalten. Dazu hält man die <Keys.HardKey>Blind</Keys.HardKey>-Taste und drückt die blaue
-Playback-Taste. Um das Playback wieder Live zu schalten, geht man
-genauso vor. Playbacks können auch über die Playback-Optionen Blind
-geschaltet werden.
-
-Dabei kann von der eingestellten Blind-Stimmung sanft in den
-Live-Betrieb übergeblendet werden, ohne dass man erst ein Playback
-speichern muss. Ebenso kann man im Blind die nächste Stimmung aus
-mehreren Paletten kombinieren und dann in diese einfaden. (Noch
-einfacher geht das mit dem Szenenmaster).
-
-Um überzublenden, tippen Sie mit den Zifferntasten die gewünschte Zeit
-in Sekunden ein und drücken die <Keys.HardKey>Blind</Keys.HardKey>-Taste.
-
-Sind im Programmer Attribut-Zeiten gesetzt worden, so haben diese
-Vorrang vor der manuell eingegebenen Zeit.
-
 ## Improvisieren (Busking) mit Paletten
 
 Hatten Sie nicht genügend Zeit zum Programmieren, werden Sie vermutlich
@@ -612,7 +566,7 @@ für den unmittelbar nächsten Palettenabruf. Sollen bis zur nächsten
 die gewünschten Werte mit den Menütasten <Keys.SoftKey>Master Time</Keys.SoftKey> 
 und <Keys.SoftKey>Master Overlap</Keys.SoftKey> ein. Es gibt ferner etliche Macros für die häufig genutzten
 Werte, um Master Time und Master Overlap mit nur einem Tastendruck zu
-ändern, siehe [Master-Zeit für Paletten](../palettes/timing-with-palettes#master-zeit-für-paletten).
+ändern, siehe [Master-Zeit für Paletten](../palettes/timing-with-palettes.md#master-zeit-und-overlap-für-paletten).
 
 Wird eine Palette als 'Quick Palette', also ohne Auswahl von Fixtures
 oder Gruppen, aufgerufen, so wird sie wiederum durch den nächsten Cue

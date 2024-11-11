@@ -9,11 +9,11 @@ import Video from '@site/src/components/video.tsx';
 
 <Video videoId="twfDqjNFasA" title="Synergy" />
 
-Ab Version 12 enthält Titan das Modul Synergy, mit dem sich einzelne
-oder mehrere Ai-Medienserver komfortabel mit dem Pult steuern lassen.
+Titan enthält das Modul Synergy, mit dem sich einzelne
+oder mehrere Ai-Medienserver sowie Prism Zero komfortabel mit dem Pult steuern lassen.
 Das beschränkt sich nicht auf das Aufrufen von Clips oder Effekten.
 Vielmehr können Clips auch vom Pult aus hochgeladen und gleich
-umgerendert werden, es lassen sich neue Screen Fixtures und Layer
+umgerendert werden, es lassen sich auf dem Ai-Server neue Screen Fixtures und Layer
 anlegen, und sämtliche Outputs lassen sich bequem im Vorschaufenster
 überwachen.
 

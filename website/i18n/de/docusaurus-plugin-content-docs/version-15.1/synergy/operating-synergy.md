@@ -7,13 +7,13 @@ sidebar_label: Arbeiten mit Synergy
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Sind Titan und Ai-Server einmal [verbunden](setting-up.md), so lässt 
+Sind Titan und Ai-Server oder Prism Zero einmal [verbunden](setting-up.md), so lässt 
 sich Ai sehr einfach von Titan aus steuern.
 
 ## Hochladen von Content mit dem Media Browser
 
 Mit dem Media Browser lassen sich direkt von Titan aus Clips auf den
-Ai-Server laden. Ebenso lassen sich neue Media-Bänke auf dem Server
+Ai-Server bzw. Prism Zero laden. Ebenso lassen sich neue Media-Bänke auf dem Server
 anlegen. Neuer Content wird dabei automatisch in den von Ai bevorzugten
 AiM-Codec gewandelt. Das vereinfacht das Verwenden von Medien, die erst
 im letzten Moment angeliefert werden, sehr.
@@ -38,7 +38,7 @@ man auf das <Keys.ContextKey>+</Keys.ContextKey> neben der Liste der Bänke, so 
 angelegt. Ganz oben in der rechten Spalte wird der auf dem Server 
 verfügbare Speicherplatz sowie der Pfad zum Medienverzeichnis angezeigt.
 
-Um Medien auf den Ai-Server zu laden, wählt man in der mittleren Spalte
+Um Medien auf den Ai-Server bzw. Prism Zero zu laden, wählt man in der mittleren Spalte
 die gewünschten Dateien aus und klickt danach rechts auf die Bank, auf
 die der Upload erfolgen soll.
 
@@ -98,12 +98,12 @@ Format | Datenrate
 Sobald ein oder mehrere Layer ausgewählt sind (im Fenster [Synergy
 Fixtures](setting-up.md#das-fenster-synergy-fixtures)), lassen sich die darauf abzuspielenden Medien im
 Attribut-Editor wählen und manipulieren (das geht auch wie gewohnt mit
-den [Encodern](../controlling-fixtures/changing-fixture-attributes.md) und [Attributbänken](../controlling-fixtures/changing-fixture-attributes.md#einstellen-von-attributen-mit-den-encodern)).
+den Encodern und Attributbänken).
 
 > Die wichtigsten Attribute dabei sind **Intensity** zur Einstellung der
 Helligkeit sowie die **Media Selection** (Medienauswahl), um Bank und Clip
 zu wählen. Aber es lassen sich auch viele weitere Attribute einstellen,
-Effekte hinzufügen etc.
+Effekte hinzufügen etc. Prism Zero hat dabei einen deutlich kleineren Funktionsumfang als Ai.
 
 ![Clip tab of Attribute Editor for Synergy layer](/docs/images/Clip-tab-of-Attribute-Editor-for-Synergy-layer.png)
 
@@ -140,12 +140,12 @@ Farbe, Position und vieles mehr in Paletten speichern, schnell aufrufen
 und verändern. Auch [Fadezeiten](../palettes/timing-with-palettes.md)
 funktionieren wie gewohnt.
 
-## Lightmap: Pixelmapping mit Ai
+## Lightmap: Pixelmapping mit Video-Content
 
 Mitunter will man auf Lampen, die im Pult gepatcht sind, auch
 Video-Content wiedergeben, etwa wenn eine Wand aus vielen LED-Lampen
-zusammengesetzt ist. Der Titan-Pixelmapper kann direkt den Output von Ai
-verwenden - sowohl eines einzelnen Layers als auch eines ganzen
+zusammengesetzt ist. Der Titan-Pixelmapper kann direkt den Output von Ai bzw. Prism Zero
+verwenden - sowohl eines einzelnen Layers (nur bei Ai) als auch eines ganzen
 Surfaces. Dabei ist es nicht erforderlich, das Titan-Surface mit einem
 Output des Servers zu verbinden.
 
@@ -161,20 +161,20 @@ Videoausschnitt angezeigt wird, siehe [nächster Abschnitt](#verwendung-des-layo
     das Video laufen soll. Daraufhin öffnet sich der Effekt-Editor.
 4.  Klicken Sie unten links auf das <Keys.ContextKey>+</Keys.ContextKey>, um einen Pixelmapper-Effekt
     hinzuzufügen.
-5.  Klicken Sie oben rechts auf den <Keys.SoftKey>Ai</Keys.SoftKey> - Button.<br/>
-  ![Adding an element in the Pixel Mapper Window](/docs/images/Adding-an-element-in-the-Pixel-Mapper-Window.png)
+5.  Klicken Sie oben rechts auf den <Keys.SoftKey>Synergy</Keys.SoftKey> - Button.<br/>
+  ![Effect Editor - Pixel Mapper - Adding an Element](/docs/images/Effect-Editor-Pixel-Mapper-Adding-an-Element.png)
 6.  Mit <Keys.SoftKey>Source Surface</Keys.SoftKey> kann die zu verwendende Quelle (Layer oder
     Surface) gewählt werden; auch kann man mit den Red/Green/Blue-Reglern die Farbe einstellen.<br/>
   ![Ai layer video overlay in Pixel Mapper Window](/docs/images/Ai-layer-video-overlay-in-Pixel-Mapper-Window.png)
 
 Der gewählte Clip wird nun auf den Lampen der gewählten Gruppe
-wiedergegeben. Dabei ist der Pixelmapper-Effekt mit dem Ai-Surface
+wiedergegeben. Dabei ist der Pixelmapper-Effekt mit dem Synergy-Surface
 verknüpft, und Änderungen in diesem haben unmittelbare Auswirkung auf
 die Wiedergabe auf den Lampen.
 
 ![Pixel Mapped fixtures with Ai screen shown in Capture Visualiser](/docs/images/Pixel-Mapped-fixtures-with-Ai-screen-shown-in-Capture-Visualiser.png)
 
-## Verwendung des Layout-Editors mit Ai
+## Verwendung des Layout-Editors mit Synergy
 
 Die grundsätzliche Funktionsweise des Layout-Editors ist im Abschnitt
 [Gerätereihenfolge und -anordnung in den Gruppen](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) beschrieben.
@@ -197,7 +197,7 @@ Regionen eingeblendet.
 
 ### Position Overlay
 Ist diese Option aktiviert, so wird, sobald ein
-Gerät in Titan ausgewählt ist, dessen Position auf dem Ai-Output durch
+Gerät in Titan ausgewählt ist, dessen Position auf dem Output durch
 dünne Linien angezeigt, womit eine noch genauere Positionierung möglich
 ist.
 
