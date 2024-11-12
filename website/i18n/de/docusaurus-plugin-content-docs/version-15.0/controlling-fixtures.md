@@ -33,7 +33,7 @@ Ein paar weitere wissenswerte Dinge:
 
 -   Die Taste <Keys.HardKey>Locate</Keys.HardKey> aktiviert die angewählten Geräte weiß (ohne
     Farbe) und in Grundstellung (Pan und Tilt jeweils 50%). Weitere
-    Optionen dazu sind im [nächsten Abschnitt](./controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-auf-startposition-setzen-locate) erläutert.
+    Optionen dazu sind im [nächsten Abschnitt](./controlling-fixtures.md#geräte-auf-startposition-setzen-locate) erläutert.
 
 -   Um ein Gerät aus der Auswahl zu entfernen, einfach die betreffende
     Auswahltaste erneut betätigen.
@@ -44,7 +44,7 @@ Ein paar weitere wissenswerte Dinge:
 -   Drücken Sie <Keys.HardKey>Clear</Keys.HardKey> (rechts vom Zifferntastenblock), um sämtliche
     Geräte aus der Auswahl zu entfernen und sämtliche Änderungen aus dem
     Programmierspeicher zu löschen. Weitere Optionen dazu sind im
-    [nächsten Abschnitt](./controlling-fixtures/using-the-select-buttons-and-wheels.md#clear----löschen-der-auswahl) erläutert. 
+    [nächsten Abschnitt](./controlling-fixtures.md#clear----löschen-des-programmers-und-der-geräteauswahl) erläutert. 
 
 -   Sobald ein Attribut verändert und wieder eine Auswahltaste betätigt
     wurde, werden sämtliche Geräte aus der Auswahl entfernt, und der
@@ -336,7 +336,7 @@ fixieren (Taste <Keys.HardKey>Menu Latch</Keys.HardKey>).
     etwa: 1 <Keys.SoftKey>Through</Keys.SoftKey> 8 <Keys.SoftKey>@</Keys.SoftKey> 
     5 <Keys.HardKey>Enter</Keys.HardKey> setzt Gerät 1-8 auf 50% (in den
     Benutzereinstellungen lässt sich einstellen, ob 50% durch "5" oder
-    "50" eingegeben wird, siehe [Benutzereinstellungen](../system-settings/user-settings.md)). Beim Betätigen
+    "50" eingegeben wird, siehe [Benutzereinstellungen](./system-settings/user-settings.md)). Beim Betätigen
     der Taste <Keys.SoftKey>@</Keys.SoftKey> erscheinen außerdem Optionen auf den Funktionstasten
     für 'Full' (100%), 'Off' (0) und +/- (schrittweise
     erhöhen/vermindern).
@@ -381,7 +381,7 @@ Schritt im gewählten Muster anzuwählen (auf manchen Pulten <Keys.HardKey>Next<
     Geräte-Reihenfolge einer bestimmten Richtung folgt; dabei wird das
     Layout der Geräte herangezogen. Damit lassen sich z.B. sehr einfach
     symmetrische Paare von Geräten wählen. Auch beim Verwenden von 
-	[Fixture Overlap](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) 
+	[Fixture Overlap](./cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) 
 	ist die Richtung von Bedeutung.
 
 -   Drückt man <Keys.HardKey>Clear</Keys.HardKey>, so wird die Richtung (Direction) wieder auf

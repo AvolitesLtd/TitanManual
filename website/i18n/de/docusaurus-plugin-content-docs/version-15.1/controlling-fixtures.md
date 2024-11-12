@@ -336,7 +336,7 @@ fixieren (Taste <Keys.HardKey>Menu Latch</Keys.HardKey>).
     etwa: 1 <Keys.SoftKey>Through</Keys.SoftKey> 8 <Keys.SoftKey>@</Keys.SoftKey> 
     5 <Keys.HardKey>Enter</Keys.HardKey> setzt Gerät 1-8 auf 50% (in den
     Benutzereinstellungen lässt sich einstellen, ob 50% durch "5" oder
-    "50" eingegeben wird, siehe [Benutzereinstellungen](../system-settings/user-settings.md)). Beim Betätigen
+    "50" eingegeben wird, siehe [Benutzereinstellungen](./system-settings/user-settings.md)). Beim Betätigen
     der Taste <Keys.SoftKey>@</Keys.SoftKey> erscheinen außerdem Optionen auf den Funktionstasten
     für 'Full' (100%), 'Off' (0) und +/- (schrittweise
     erhöhen/vermindern).
@@ -381,7 +381,7 @@ Schritt im gewählten Muster anzuwählen (auf manchen Pulten <Keys.HardKey>Next<
     Geräte-Reihenfolge einer bestimmten Richtung folgt; dabei wird das
     Layout der Geräte herangezogen. Damit lassen sich z.B. sehr einfach
     symmetrische Paare von Geräten wählen. Auch beim Verwenden von 
-	[Fixture Overlap](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) 
+	[Fixture Overlap](./cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) 
 	ist die Richtung von Bedeutung.
 
 -   Drückt man <Keys.HardKey>Clear</Keys.HardKey>, so wird die Richtung (Direction) wieder auf
@@ -425,7 +425,7 @@ verwenden, um alle Geräte mit einer bestimmten Helligkeit anzuwählen.
 &nbsp;<Keys.HardKey>Select If</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey>: Geräte mit der Helligkeit \> 0.
 
 Pegelangaben können entweder in der Schreibweise 0-9 oder 00-99 gemacht
-werden, abhängig von der [Benutzereinstellung](../system-settings/user-settings.md) <Keys.SoftKey>Channel Levels Set In</Keys.SoftKey>.
+werden, abhängig von der [Benutzereinstellung](./system-settings/user-settings.md) <Keys.SoftKey>Channel Levels Set In</Keys.SoftKey>.
 
 ## Einzeln durch die Geräte einer Auswahl durchschalten
 

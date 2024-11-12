@@ -26,7 +26,7 @@ zwischen verschiedenen Werten umgeschaltet wird (z.B. feste Farben oder Gobos).
 
 ![Wheels](/docs/images/Wheels.png)
 
-Die Attribute können auch im [Attribute Editor Fenster](../controlling-fixtures/using-the-select-buttons-and-wheels.md#das-fenster-attribut-editor) eingestellt werden.
+Die Attribute können auch im [Attribute Editor Fenster](./changing-fixture-attributes.md#das-fenster-attribut-editor) eingestellt werden.
 
 > Auf dem Pearl Expert dienen je nach Benutzereinstellung die Encoder des Touchwings zum Einstellen der Attribute.
 

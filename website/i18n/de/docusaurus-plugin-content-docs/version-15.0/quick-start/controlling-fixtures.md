@@ -27,7 +27,7 @@ Ebenso können Sie den Attribut-Editor öffnen (<Keys.HardKey>View/Open</Keys.Ha
 Options</Keys.HardKey>), um Einstellungen mit den Schaltflächen auszuwählen und um
 einzelne Zellen/Subfixtures von Geräten mit mehreren Zellen zu
 beeinflussen.
-(Siehe [Geräte mit mehreren Zellen/Subfixtures](../controlling-fixtures/using-the-select-buttons-and-wheels.md#geräte-mit-mehreren-zellensubfixtures)).
+(Siehe [Geräte mit mehreren Zellen/Subfixtures](../controlling-fixtures.md#geräte-mit-mehreren-zellensubfixtures)).
 
 Verwenden Sie Paletten, um häufig benutzte Farben, Positionen etc. zu
 speichern, siehe nächste Seite.
