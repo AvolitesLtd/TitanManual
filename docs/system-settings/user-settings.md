@@ -52,10 +52,10 @@ Fullscreen Mode                     | *On:* The Titan Go application will be dis
  Option            | Action  
 ---|------
 Lock Screen Background              | Sets a picture to be displayed when the console is locked.
-Venue Mode Workspace                | Selects workspace (from softkeys) to be used when console is locked.
+Venue Mode Workspace                | Selects workspace (from softkeys) to be shown when console is locked.
 Venue Mode Password                 | If set, allows staff to unlock the console into Venue Mode from fully locked
 Programmer Password                 | If set, fully unlocks the console. "68340" will also always unlock the console.
-Lock on Startup                     | ***Shutdown state:*** Console will start up in the lock state it was in when shut down. <br/> *Locked:* Console will always start up fully locked <br/> *Venue Mode Workspace:* Console will start up showing Venue Mode workspace.
+Lock on Startup                     | ***Shutdown state:*** Console will start up in the lock state it was in when shut down. <br/> *Locked:* Console will always start up fully locked <br/> *Venue Mode Workspace:* Console will start up showing Venue Mode workspace.<br/>(Programmer Password must be set for Lock on Startup to work)
 
 
 

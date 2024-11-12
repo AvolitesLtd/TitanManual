@@ -101,9 +101,12 @@ assigned a time at which it will run.
 
 The console can have up to 4 separate timecode sources. For each, the
 timecode can be read from the system clock, from an internal timecode
-source, from MIDI, SMPTE or from Winamp. Internal timecode is useful for
+source, from MIDI, SMPTE or from the Winamp player which is installed on the console. Internal timecode is useful for
 programming a sequence which will later be triggered by an external
 timecode source.
+
+> For Winamp timecode, use WAV tracks rather than MP3 tracks as Winamp sometimes generates incorrect or offset timecode when playing MP3. If you pre-program
+    a show using Winamp MP3 then switch to external timecode for the show, your trigger points may end up out of place.
 
 1. **Connect** the cue list for which you want to set timecode.
 2. Press <Keys.SoftKey>Timecode</Keys.SoftKey> on the top-level menu.

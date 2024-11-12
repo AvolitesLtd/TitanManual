@@ -93,13 +93,14 @@ TNP | 800 x 480
 
 ### Setting a Venue Mode workspace for basic controls while locked
 
-You can designate a workspace to be displayed on the screen when the console is locked, this is called a **Venue Mode** workspace. This lets you provide a selection of playbacks or other controls on the lock screen, allowing basic controls for non-technical staff when the lighting operator is not present. 
+You can designate a workspace to be displayed on the screen when the console is locked, this is called a **Venue Mode** workspace. This lets you provide a selection of playbacks or other controls on the lock screen, allowing basic controls for non-technical staff when the lighting operator is not present. You can set the console to boot into venue mode when switched on (see below).
 
 1.  Save a workspace to be used for Venue Mode showing only the controls you want to be accessible (for example use the Playbacks window to provide buttons to turn on a basic lighting state, or the Virtual Faders window to give more control.)
 2.  Go to **Venue Mode Workspace** in the **Lock** tab of User Settings (hold <Keys.HardKey>Avo</Keys.HardKey>,
 press <Keys.SoftKey>User Settings</Keys.SoftKey>) and select your workspace from the list on the softkeys.
-3.  Lock the console as described above. The workspace you selected should be shown.
-4.  To unlock the console into normal mode, click the <Keys.SoftKey>Programmer Mode</Keys.SoftKey> button at the top right of the screen and enter the password you used.
+3.  If you want the console to power up in venue mode, ensure a **Programmer Password** is set, and set **Lock on Startup** to **Venue mode** (see below).
+4.  Lock the console as described above. The workspace you selected should be shown.
+5.  To unlock the console into normal mode, click the <Keys.SoftKey>Programmer Mode</Keys.SoftKey> button at the top right of the screen and enter the password you used.
 
 ![Venue Mode example](/docs/images/venue-mode.png)
 
@@ -125,9 +126,15 @@ Fixture selection is disabled, but quick palettes will still function.
     to a particular menu won't work in Venue mode, because when you record a menu softkey the macro also 
     automatically records a command to open the correct menu (in case you run the macro when you are in a different menu). This also means that double-press button functions won't work in Venue mode since these operate by opening a menu with the first press then activating a menu option with the second press (for example double pressing <Keys.HardKey>Release</Keys.HardKey> for Release All wouldn't work in Venue mode.)
 
-Using the **Lock on Startup** setting in the **Lock** tab of [User Settings](./system-settings/user-settings.md#lock) you can configure what lock mode the console will power up into, so you can ensure that staff can gain an appropriate level of control even if the console was not powered on, or was not turned off in a locked state. If you set the console to start up in a Locked state, you need to also set a Programmer Password to be used.
+
+### Setting the console to power up in Venue Mode
+
+Using the **Lock on Startup** setting in the **Lock** tab of [User Settings](./system-settings/user-settings.md#lock) you can set the console to power up into Locked mode or Venue Mode. This lets you ensure that staff can gain an appropriate level of control even if the console was not turned off in a locked state. 
+- If you want the console to start up in Locked mode or Venue Mode, you must set a **Programmer Password** to be used.
 
 If the console is in a publicly accessible location you can also lock the venue mode screen using the **Venue Mode Password** on the **Lock** tab of User Settings. To lock the screen press <Keys.SoftKey>Lock</Keys.SoftKey> in the top right hand corner. This will show the normal lock screen. When you unlock using the Venue Mode Password, the console will go back to showing the Venue Mode workspace. This allows venue staff to be able to secure the console without having full programming access.
+
+You may also want to load a default/standard show on power up in case a previous user has loaded another show. You can do this using the **Start Up Show** option on the Disk menu, see [Setting a show to load on start up](../titan-basics/loading-and-saving-shows.md#setting-a-show-to-load-on-start-up).
 
 ## Tidying the console with the Move function
 

@@ -115,7 +115,7 @@
       }
     }
   },
-  "PrismKey": {
+  "prism": {
     "prism-custom icon-menu-dots": {
       "lang": {
         "en": "sub menu"
@@ -168,7 +168,72 @@
     },
     "prism-custom icon-folder": {
       "lang": {
-        "en": "folder"
+        "en": "change folder"
+      }
+    },
+    "prism-custom icon-refresh": {
+      "lang": {
+        "en": "refresh"
+      }
+    },
+    "prism-custom icon-shape-square": {
+      "lang": {
+        "en": "crop"
+      }
+    },
+    "prism-custom icon-archive": {
+      "lang": {
+        "en": "change folder"
+      }
+    },
+    "prism-custom icon-check": {
+      "lang": {
+        "en": "confirm"
+      }
+    },
+    "prism-custom icon-system": {
+      "lang": {
+        "en": "preview"
+      }
+    },
+    "prism-custom icon-playonce": {
+      "lang": {
+        "en": "play list"
+      }
+    },
+    "prism-custom icon-loop": {
+      "lang": {
+        "en": "loop"
+      }
+    },
+    "prism-custom icon-shuffle": {
+      "lang": {
+        "en": "shuffle"
+      }
+    },
+    "prism-custom icon-playoncehold": {
+      "lang": {
+        "en": "play once"
+      }
+    },
+    "prism-custom icon-inframe": {
+      "lang": {
+        "en": "in frame"
+      }
+    },
+    "prism-custom icon-outframe": {
+      "lang": {
+        "en": "out frame"
+      }
+    },
+    "prism-custom icon-solo": {
+      "lang": {
+        "en": "solo"
+      }
+    },
+    "prism-custom icon-e-remove-2": {
+      "lang": {
+        "en": "cancel"
       }
     }
   }

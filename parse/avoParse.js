@@ -21,7 +21,7 @@ class avoParse {
       transDocsDir: path.resolve(__dirname,'../website/i18n'),
       i18nDir: path.resolve(__dirname,'../website/i18n'),
     }
-
+  
     this.regex = {
       // matches Yaml block with title
       yamlBlockTitle: /^---(?:[\n]|.)*title: *([\w ]*)(?:[\n]|.(?!--))*---/mgi,

@@ -52,8 +52,9 @@ module.exports={
         // language: ["en", "zh"],
         // ```
         // When applying `zh` in language, please install `nodejieba` in your project.
-        docsDir: "../docs",
-
+        docsDir: ["../docs", "../prismdocs"],
+        docsRouteBasePath: ["docs", "prism"],
+        
         highlightSearchTermsOnTargetPage: true,        
       },
     ],
@@ -61,11 +62,15 @@ module.exports={
       "@docusaurus/plugin-content-docs",
       {
           id: 'prism',
-          "path": "../prismdocs",
+          path: "../prismdocs",
           routeBasePath: 'prism',
-          "showLastUpdateAuthor": false,
-          "showLastUpdateTime": true,
-          "sidebarPath": require.resolve('./sidebarsPrism.json'),
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: true,
+          sidebarPath: require.resolve('../prismdocs/prism_sidebars.json'),
+          sidebarCollapsible: true,
+          exclude: [
+            '**/shared',
+          ],
         },
     ],
     [
@@ -104,16 +109,24 @@ module.exports={
           position: 'left',
           items: [
             {
-              label: 'Player',
-              to: 'prism/player/about',
+              label: 'Prism',
+              to: 'prism/prism/introduction'
             },
             {
-              label: 'Zero',
-              to: 'prism/zero/about'
+              label: 'Prism Zero',
+              to: 'prism/zero/introduction'
+            },
+            {
+              label: 'Prism Player',
+              to: 'prism/player/introduction',
             },
             {
               label: 'Licensing',
               to: 'prism/licensing'
+            },
+            {
+              label: 'All Versions',
+              to: 'prism/versions'
             }
           ]
         },
@@ -194,8 +207,8 @@ module.exports={
               to: "https://www.facebook.com/groups/Avolites/"
             },
             {
-              label: 'Avolites.de Wiki',
-              to: "https://www.avolites.de/wiki"
+              label: 'AvoSupport.de Wiki',
+              to: "https://www.avosupport.de/wiki"
             },
           ]
         }

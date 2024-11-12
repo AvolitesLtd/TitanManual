@@ -109,6 +109,7 @@ run on startup.
 
 ![Power On Playback](/docs/images/Power-On-Playback.png)
 
+To be sure that your Power On Playbacks always run successfully, you may also want to load a default/standard show on power up in case a previous user has loaded another show. You can do this using the **Start Up Show** option on the Disk menu, see [Setting a show to load on start up](../titan-basics/loading-and-saving-shows.md#setting-a-show-to-load-on-start-up).
 
 
 ## Times tab
