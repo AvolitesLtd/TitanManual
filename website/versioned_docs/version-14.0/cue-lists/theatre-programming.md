@@ -114,7 +114,7 @@ such as Go will operate on this cue list.
 &nbsp;<strong>n</strong> <Keys.HardKey>Cue</Keys.HardKey> <strong>t</strong> <Keys.HardKey>Go</Keys.HardKey> | Jump to cue <strong>n</strong> with fade time <strong>t</strong>
 
 - If you want moving fixtures to automatically position themselves ready
-	for the next cue, enable the <Keys.SoftKey>Move In Dark</Keys.SoftKey> option, see [Move In Dark](../docs/next/cue-lists/cue-list-options#move-in-dark).
+	for the next cue, enable the <Keys.SoftKey>Move In Dark</Keys.SoftKey> option, see [Move In Dark](./cue-list-options#move-in-dark).
 	This option is Off by default.
 
 ## Editing Cues While Running
