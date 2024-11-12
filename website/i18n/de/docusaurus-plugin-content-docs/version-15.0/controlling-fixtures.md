@@ -425,7 +425,7 @@ verwenden, um alle Geräte mit einer bestimmten Helligkeit anzuwählen.
 &nbsp;<Keys.HardKey>Select If</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey>: Geräte mit der Helligkeit \> 0.
 
 Pegelangaben können entweder in der Schreibweise 0-9 oder 00-99 gemacht
-werden, abhängig von der [Benutzereinstellung](../system-settings/user-settings.md) <Keys.SoftKey>Channel Levels Set In</Keys.SoftKey>.
+werden, abhängig von der [Benutzereinstellung](./system-settings/user-settings.md) <Keys.SoftKey>Channel Levels Set In</Keys.SoftKey>.
 
 ## Einzeln durch die Geräte einer Auswahl durchschalten
 
