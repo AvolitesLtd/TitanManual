@@ -12,7 +12,7 @@ import Video from '@site/src/components/video.tsx';
 <Video videoId="UchvGw2vvU8" title="Pixel Mapping" />
 
 Der Pixelmapper funktioniert mit Gruppen von Geräten, die mit dem
-[Layout-Editor](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) angeordnet wurden. Damit wird dem Pult mitgeteilt, wo sich
+[Gruppenlayout-Editor](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) angeordnet wurden. Damit wird dem Pult mitgeteilt, wo sich
 die einzelnen Geräte tatsächlich auf der Bühne befinden. Daraufhin
 werden die einzelnen Pixel der Effekte passend auf die Geräte
 abgebildet, so dass der 2D-Effekt sichtbar wird. 

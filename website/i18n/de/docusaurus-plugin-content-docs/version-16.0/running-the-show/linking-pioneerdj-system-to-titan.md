@@ -12,11 +12,12 @@ von Titan durch geeignete Pioneer DJ-Systeme gesteuert werden. Die
 Bridge-Software kann dabei direkt auf dem Titan-Pult oder einem externen
 Laptop laufen.
 
->   Diese System ist aktuell mit folgenden Geräten verfügbar:<br/>
+>   Dieses System ist aktuell mit folgenden Geräten verfügbar:<br/>
     CDJ-TOUR1<br/>
     DJM-TOUR1<br/>
     CDJ-2000NXS2<br/>
     DJM-900NXS2<br/>
+    CDJ-3000 (seit Titan v15.1) 
 
 <Video videoId="vwr1DBJjBbw" title="PioneerDJ Integration" />
 

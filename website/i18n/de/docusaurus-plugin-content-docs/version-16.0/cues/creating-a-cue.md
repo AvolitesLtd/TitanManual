@@ -101,19 +101,21 @@ Schaltflächen im Fenster 'Playbacks' gespeichert werden.
 
 ## Quick Build -- Cues schnellspeichern
 
-Stellt man <Keys.SoftKey>Record Mode</Keys.SoftKey> auf **Quick Build**, so lassen sich Cues aus
+Stellt man <Keys.SoftKey>Record Mode</Keys.SoftKey> auf **Quick Build**, so lassen sich Cues, Chaser und Cuelisten aus
 bereits programmierten Cues und Paletten erstellen (wie auch per
 [Include](editing-cues.md#cues-wiederverwenden---die-include-funktion)).
 
-Nach dem Aktivieren von Quick Build wartet das Pult auf die Auswahl von
-Speicherplätzen und Paletten.
+1.  Drücken Sie <Keys.HardKey>Record</Keys.HardKey>.
+2.  Drücken Sie <Keys.SoftKey>Record Mode</Keys.SoftKey> und stellen den Record Mode auf "Quick Build".
+3.  Wählen Sie mit den Menütasten, ob ein Cue, ein Chaser oder eine Cueliste gespeichert werden soll.
+4.  Drücken Sie die **Select**-Taste oder den Button eines freien Speicherplatzes.
+5.  Starten Sie die playbacks und wählen Sie die Paletten aus, die Sie in dem Cue verwenden wollen.
+6.  Wenn Sie einen einfachen Cue/Memory speichern, drücken Sie <Keys.SoftKey>OK</Keys.SoftKey>, sobald alle gewünschten Playbacks und Paletten ausgewählt wurden. Speichern Sie dagegen einen Chaser oder eine Cueliste, so drücken Sie auf die Menütaste <Keys.SoftKey>Append</Keys.SoftKey>, um mit dem nächsten Cue/Step zu beginnen. Drücken Sie zum Abschluss auf <Keys.HardKey>Exit</Keys.HardKey>.
 
-Sollen nur einige der Lampen aus einem Speicherplatz/einer Palette
-verwendet werden, wählen Sie zuerst die Geräte aus, und klicken dann auf
-das Playback/die Palette.
-
-Drücken Sie <Keys.SoftKey>OK</Keys.SoftKey>, wenn alle erforderlichen Playbacks/Paletten
-aufgerufen wurden.
+-   Sollen nur einige der Lampen aus einem Speicherplatz/einer Palette verwendet werden, 
+    wählen Sie zuerst die Geräte aus, und klicken dann auf das Playback/die Palette.
+-   Ist das Speichern des Cues, Chasers oder der Cueliste abgeschlossen, so wird der Record Mode 
+    automatisch auf "Record By Fixture" zurückgesetzt.
 
 ## Verwenden von Shapes und Effekten in Cues
 

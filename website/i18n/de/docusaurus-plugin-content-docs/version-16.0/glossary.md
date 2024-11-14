@@ -40,7 +40,7 @@ EXCHANGE (Auswechseln) 	| Tauschen eines bereits gepatchten und programmierten G
 FADE	(Überblenden)  	| Stetiger/allmählicher Wechsel von einem Pegel zu einem anderen Pegel.
 FAN			| Auffächern von Attributwerten ausgehend von einem Mittelwert, um das Programmieren zu erleichtern.
 FIXTURE	(Gerät)   	| Jedes Beleuchtungsgerät, das mit seinerPersonality gepatcht wird. Kann Moving Lights, Farbwechsler und anderes umfassen, jedoch normalerweise keine einzelnen Dimmerkanäle. Auch bekannt als Intelligent Fixture, Device, positionierbarer Scheinwerfer etc. 
-FIXTURE LAYOUT	| 2D-Anordnung der gepatchten Geräte im  Pult, zur Verwendung mit Shapes und dem Pixelmapper.
+FIXTURE GROUP LAYOUT	| 2D-Anordnung der gepatchten Geräte im  Pult, zur Verwendung mit Shapes und dem Pixelmapper.
 FLASH		| Taste, mit der eine Lichtstimmung dem sonstigen Output hinzugefügt wird. Früher auch ‚ADD' genannt. Siehe hingegen SWOP.                        
 FLIP		| Funktion bei kopfbewegten Scheinwerfern, um mit einer anderen Kombination aus Pan und Tilt auf die gleiche Position zu fahren.
 FOCUS		| Frühere Bezeichnung von Paletten (einzelnen Positionen, Farben oder Gobos etc.).<br/><br/>Beschreibt auch den Fokus (Schärfe) von Moving Lights, etwa mit Gobos.

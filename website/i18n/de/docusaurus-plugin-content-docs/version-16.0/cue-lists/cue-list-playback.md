@@ -130,7 +130,6 @@ Tracking lässt sich sowohl für die komplette Cueliste aktivieren/
 deaktivieren, als auch für die einzelnen Cues der Cueliste genau
 einstellen (entweder in der Playback-Ansicht oder unter <Keys.SoftKey>Options</Keys.SoftKey><Keys.SoftKey>Cue Options</Keys.SoftKey>).
 
-
 Mögliche Einstellungen:
 
 Einstellung | Wirkung
@@ -142,6 +141,8 @@ Einstellung | Wirkung
 <Keys.SoftKey>Cue Only</Keys.SoftKey> | Änderungen in diesem Cue werden nicht auf die nachfolgenden Cues weitergegeben; getrackte Werte von vorherigen Cues tracken aber in die folgenden Cues weiter.
 <Keys.SoftKey>Solo</Keys.SoftKey> | Dieser Cue unterliegt überhaupt nicht dem Tracking und verändert auch nicht nachfolgende Cues; Informationen aus vorherigen Cues werden unverändert an nachfolgende weitergegeben.
 <Keys.SoftKey>Block Shapes</Keys.SoftKey> | Sämtliche Shapes von vorherigen Cues werden geblockt, alle anderen Attribute werden normal getrackt. Damit wird sichergestellt, dass alle Shapes stoppen.
+
+Das Tracking von Werten von einem Cue zum anderen lässt sich im [Tracking View](../cue-lists/editing-cue-lists.md#editieren-getrackter-cues-mit-dem-tracking-view) genauer anzeigen und editieren.
 
 ## Move In Dark (MID) - Funktionen
 

@@ -9,17 +9,6 @@ import Video from '@site/src/components/video.tsx';
 
 ## Master-Fader
 
-Auf den größeren Pulten gibt es einen eigenen Master-Fader, der
-insgesamt den Ausgang des Pultes (für Dimmerkanäle) regelt.
-Normalerweise wird man diesen auf 100% stellen und nur zum
-gelegentlichen Ausfaden sämtlicher Geräte verwenden.
-
-In der Vorgabeeinstellung ist der Grandmaster deaktiviert und kann über
-die Benutzereinstellungen aktiviert werden.
-
-Das Pearl Expert hat darüber hinaus getrennte Masterfader für Playbacks,
-Presets, Swop- und Flashtasten.
-
 Jeder Fader auf dem Pult kann auch als Masterfader für verschiedene
 Funktionsbereiche verwendet werden:
 
@@ -36,15 +25,21 @@ Funktionsbereiche verwendet werden:
 -   Der **Playback-Master** steuert die Gesamthelligkeit von
     vorprogrammierten Playbacks.
 
-Um einzelne Regler mit einer Master-Funktion zu belegen, öffnen
-Sie das **System**-Menü und wählen <Keys.SoftKey>Assign Masters</Keys.SoftKey>. Ebenso geht
-dies per <Keys.HardKey>Record</Keys.HardKey> <Keys.SoftKey>Create Master</Keys.SoftKey>.
+Um einzelne Regler mit einer Master-Funktion zu belegen, gehe Sie wie folgt vor:
+
+1. Drücken Sie die Taste <Keys.HardKey>Record</Keys.HardKey>.
+2. Drücken Sie im Menü <Keys.SoftKey>Create Master</Keys.SoftKey>. 
+3. Drücken Sie die **Select**-Taste des gewünschten Faders..
 
 > Normalerweise werden Master nur auf der Playback-Seite angezeigt, auf der sie angelegt wurden,
 nicht aber auf den anderen Seiten. Um das zu ändern, kann man einen Lock oder Transparent Lock setzen (siehe 
 [Handle Paging](../cues/playback-options.md#handle-paging)).
 
-Auf dem Diamond 9 bieten sich zudem die Dreh-Encoder neben den Displays (beim Arena neben dem kleinen Display)
+Sie können Master auch im **System**-Menü anlegen: wählen Sie dazu <Keys.SoftKey>Assign Masters</Keys.SoftKey>. 
+
+- Wird eine Gerätegruppe auf einem Fader gespeichert, so wird der Fader der Gruppenmaster (Masterregler der Gruppe).
+
+- Auf dem Diamond 9 bieten sich zudem die Dreh-Encoder neben den Displays (beim Arena neben dem kleinen Display)
 z.B. als Speed- oder Gruppen-Master an. Um diese Fader anzuwählen,
 werden drücken sie gedrückt. Mit der Taste <Keys.HardKey>Display</Keys.HardKey> unterhalb der
 Encoder kann man die Anzeige so einstellen, dass die Belegung der
@@ -54,6 +49,15 @@ durchgeschaltet).
 ![Arena Miniscreen](/docs/images/Arena-Miniscreen.png)
 
 >  Wird ein Master auf eine Taste mit LED gelegt, so blinkt diese, wenn der Master auf 0 steht -- als kleine Erinnerung, wenn man auf der Suche danach ist, warum gerade wieder alle Lampen aus sind...
+
+- Auf manchen Pulten gibt es einen eigenen Master-Fader, der
+insgesamt den Ausgang des Pultes (für Dimmerkanäle) regelt.
+In der Vorgabeeinstellung ist der Grandmaster deaktiviert und kann über
+die [Benutzereinstellungen](../system-settings.md/user-settings#handles) aktiviert werden.
+
+- Das Pearl Expert hat darüber hinaus getrennte Masterfader für Playbacks,
+Presets (die Fader oben), und für die Swop- und Flashtasten.
+
 
 ## Speed- und Size-Master
 
@@ -97,8 +101,6 @@ jeweils auf einen Fader gelegt werden:
 3.  Wählen Sie mit den Menütasten den gewünschten Master.
 4.  Drücken Sie die **Auswahltaste** des Faders, auf den Sie die Masterfunktion legen wollen.
 
--    Beim Pearl Expert und beim Tiger Touch 1 drücken Sie <Keys.HardKey>Avo</Keys.HardKey> und <Keys.HardKey>Disk</Keys.HardKey>,
-um das System-Menü zu öffnen, und wählen dort <Keys.SoftKey> Assign Masters</Keys.SoftKey>.
 -    Für Speedmaster stehen auch gesonderte Tastenprofile zur Verfügung; 
 BPM-Master haben als Vorgabewert die Takt-Taste (Tap Tempo).
 

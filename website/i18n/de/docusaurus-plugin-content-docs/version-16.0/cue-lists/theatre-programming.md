@@ -61,9 +61,13 @@ Sobald die gewünschten Geräte angewählt sind:
   Gobo2, jeweils mit Rotation etc., dann kann man mit wiederholtem
   Drücken der Attributbank-Taste durchschalten (hier also mehrfach 
   auf <Keys.HardKey>Gobo</Keys.HardKey>)*.
+  
 - Mit den Encodern stellen Sie die gewünschten Werte ein. Alternativ drückt
   man die blaue <Keys.HardKey>@</Keys.HardKey>-Taste bei einem Wheel und kann den Wert 
   mit den Zifferntasten eingeben.
+
+- Die angewählten Geräte kann man direkt mit einer bestimmten Farbe versehen (Farbfoliennummer), siehe [Farbmischung: Filters](../controlling-fixtures/changing-fixture-attributes.md#farbmischung-filters). 
+
 
 ## Programmieren von Cues
 

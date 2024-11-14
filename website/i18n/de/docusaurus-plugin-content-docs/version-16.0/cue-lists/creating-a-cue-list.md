@@ -217,8 +217,8 @@ Tastenfolge ausführen. Damit lassen sich spezielle Aktionen ausführen,
 sobald ein Cue gestartet wird. So lassen sich z.B. mit dem ersten Cue
 alle Geräte zünden.
 
-1.  Drücken Sie <Keys.SoftKey>Options</Keys.SoftKey>, gefolgt von 
-	der **Select**-Taste der Cueliste.
+1.  Drücken Sie <Keys.SoftKey>Open/View</Keys.SoftKey>, gefolgt von 
+	der **Select**-Taste der Cueliste, um diese im Playback View zu öffnen.
 2.  Im Übersichtsfenster der Cueliste (Playback View) wählen Sie den
     Schritt, dem ein Makro hinzugefügt werden soll.
 3.  Scrollen Sie nach rechts bis zur Spalte **Macros** und klicken Sie auf die 

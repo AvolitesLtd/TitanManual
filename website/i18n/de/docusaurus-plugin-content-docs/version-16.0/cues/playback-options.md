@@ -174,7 +174,7 @@ Geschwindigkeiten erzielen.
 > Haben Sie einen Cue, der nur Shapes enthält, um diese zu anderen Cues dazuzumischen, so empfiehlt es sich, für diesen die Einstellung <Keys.SoftKey>Size on Fader</Keys.SoftKey> vorzunehmen sowie einen [Speed Master](../running-the-show/playback-controls.md#speed--und-size-master) zu verwenden. Damit lässt sich dann flexibel und unabhängig die Größe und die Geschwindigkeit des Shapes live verändern.
 
 ### Shape Behaviour
-Steuert das Verhalten von Keyframe-Shapes in diesem Playback:
+Steuert das Verhalten von Shapes und Keyframe-Shapes in diesem Playback:
 
 Einstellung | Ergebnis
 ------: | ------

@@ -12,15 +12,16 @@ ein Pult zu verwenden? Kein Problem, genau dazu dient der Titan
 Simulator. Damit lassen sich auf jedem normalen PC alle Typen von
 Titan-Pulten simulieren und Shows erstellen und verändern.
 
+> Zum Starten des Titan Simulators ist ein Editor AvoKey oder andere Avolites-Hardware erforderlich (T1, T2 oder Titan Mobile). Editor AvoKeys sind bei Ihrem lokalen Avolites-Vertrieb oder im Avolites-Webshop erhältlich.
+
 ![titansimulator](/docs/images/Titan-Simulator.jpeg)
 
 ## Den Titan Simulator installieren
 
 Sie müssen Administrator-Berechtigungen auf dem Computer haben, um den
 Titan Simulator zu installieren oder auszuführen. Ab Titan v12 ist für
-den Simulator ein Editor AvoKey oder ein angeschlossener T1 oder T2
+den Simulator ein Editor AvoKey oder ein angeschlossener T1, T2 oder Titan Mobile
 erforderlich.
-
 
 > Zu den Systemanforderungen siehe [Inbetriebnahme von Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2).                 
 
@@ -35,12 +36,12 @@ Anweisungen des Authenticator-Hilfsprogramms, das automatisch startet.
 
 Einmal lizenziert, kann man die Software entweder als Titan Go oder als Titan Simulator starten:
 
--   Gestartet als Titan Go lässt sich nur mit dem Editor AvoKey ein
-    DMX-Universum über Artnet/sACN ausgeben (mit einem T1/T2 geht auch
-    eine bzw. zwei Linien als DMX)
+-   Wird die Software als Titan Go mit dem Editor AvoKey gestartet, so lässt sich nur ein
+    DMX-Universum über Artnet/sACN ausgeben. Mit einem T1/T2 werden
+    eine bzw. zwei Linien als DMX und über Netzwerk ausgegeben.
 
--   Gestartet als Simulator (zu erkennen an der Anzeige 'Offline' rechts
-    oberhalb der Arbeitsfenster) können sämtliche Pulte dargestellt
+-   Wird die Software als Titan Simulator gestartet (zu erkennen an der Anzeige 'Offline' rechts
+    oberhalb der Arbeitsfenster), so können sämtliche Pulte dargestellt
     werden, auch lassen sich der Visualiser oder Art-Net-Knoten
     verwenden. Allerdings werden in unregelmäßigen Abständen Störsignale
     an die Ausgänge geschickt (der sog. Spoiler). Dann einfach ein paar

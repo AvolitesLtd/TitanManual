@@ -9,47 +9,20 @@ import Video from '@site/src/components/video.tsx';
 
 ## Zeit- und Überblendoptionen für Cuelisten
 
-Zeiteinstellungen erfolgen stets für jeden Schritt einer Cueliste
-einzeln. Im Display wird angezeigt, welcher Schritt aktuell bearbeitet
-wird. Zum Auswählen des Schrittes dient **Encoder A** oder <Keys.SoftKey>Select Cue Number</Keys.SoftKey> aus
-dem Menü **Edit Times**.
+Zeiten für Cuelisten lassen sich am einfachsten im Playback View (tabellarische Anzeige der Cues einer Cueliste) einstellen. Drücken Sie <Keys.HardKey>Open/View</Keys.HardKey> gefolgt von der **Select**-Taste der Cueliste. Klicken Sie nun auf den Wert, den Sie ändern möchten, oder markieren Sie mehrere Werte auf einmal. Ebenso lässt sich der zu bearbeitende *aktive* Cue mit **Encoder A** wählen, oder Sie drücken <Keys.SoftKey>Select Cue Number</Keys.SoftKey> im Menü **Edit Times** der Cueliste. Mehrere Cues gleichzeitig kann man auch mit **Encoder B** auswählen.
 
-*Weitere Details zu Überblendungen und Geräteversatz sind den [unten aufgeführten Diagrammen](cue-list-timing.md#schrittfolge-und-versatz) zu entnehmen.*
+Ist der zu ändernde Wert ausgewählt, dann werden verschiedene Optionen mit den Menütasten angeboten.
 
-1.  Drücken Sie <Keys.SoftKey>Edit Times</Keys.SoftKey> aus dem Hauptmenü, dann 
-	die **Select-Taste** der Cueliste.
-2.  Zum Wechseln des zu bearbeitenden Schritts blättern Sie mit **Encoder A**
-	durch die Liste der Schritte, oder drücken <Keys.SoftKey>Select Cue Number</Keys.SoftKey>,
-	geben mit den Zifferntasten die gewünschte Schrittnummer ein und bestätigen das 
-	mit <Keys.HardKey>Enter</Keys.HardKey>. 
-	- Mit den Pfeiltasten zur Chaser-Steuerung (‚Chase Control')
-      rechts neben der <Keys.HardKey>Connect</Keys.HardKey>-Taste lässt sich ebenfalls 
-	  der aktive Schritt umschalten.
-	- Man kann auch eine ganze Reihe von Schritten auswählen, um deren
-      Zeiten gleichzeitig zu ändern: nutzen Sie dazu **Encoder B**, 
-	  oder markieren Sie diese im Fenster [Playback
-      View](editing-cue-lists.md#das-fenster-playback-view).
-3. **Stellen Sie die Zeiten wie gewünscht ein.**
-    - Um die **Verzögerung** zwischen dem Betätigen der <Keys.HardKey>Go</Keys.HardKey>-
-	Taste und dem tatsächlichen Start des Schrittes einzustellen, drücken 
-	Sie <Keys.SoftKey>Delay In</Keys.SoftKey>, geben die gewünschte Zeit in Sekunden ein, 
-	und drücken <Keys.HardKey>Enter</Keys.HardKey>.
-    - Zum Einstellen der **Einblendzeit** betätigen Sie <Keys.SoftKey>Fade In</Keys.SoftKey>,
-	geben die Zeit in Sekunden ein, und drücken <Keys.HardKey>Enter</Keys.HardKey>. *Diese
-	Zeit gilt sowohl für HTP- als auch für LTP-Kanäle.*
-    - Die **Ausblendzeit** des Schrittes ist zunächst gleich der Einblendzeit.
-    Zum Ändern der Ausblendzeit drücken Sie <Keys.SoftKey>Fade Out</Keys.SoftKey>, geben 
-	die Zeit in Sekunden ein, und drücken <Keys.HardKey>Enter</Keys.HardKey>. Um wieder 
-	den gleichen Wert wie die Einblendzeit zu erhalten, löschen Sie die Ausblendzeit und
-    lassen das Eingabefeld leer. *Die Ausblendzeit beginnt, sobald der
-    nächste Cue gestartet ist. Wird sie z.B. auf 1 Sek. gestellt, so
-    wird mit dem Start des nächsten Cues dieser ein- und der alte in 1
-    Sek. ausgeblendet*.
-    - Die **Ausschaltverzögerung** (<Keys.SoftKey>Delay Out</Keys.SoftKey>) wird üblicherweise
-    verwendet, wenn der nächste Schritt automatisch nach diesem folgen
-    soll, und bestimmt die Zeit bis zum Start/Einblenden des folgenden
-    Schritts. Damit würde der vorherige Cue zunächst ausblenden, und der
-    nächste Cue erst nach der Verzögerung einblenden.
+![Cue List Timings](/docs/images/Cue-View-Timings.png)
+
+Für jeden Cue kann man einzeln die Einfadezeit (für Geräte, die einfaden, also heller werden) und die Ausfadezeit (für Geräte, die ausfaden/dunkler werden) einstellen. Die Ausfadezeit steht per Default auf 'As In', so dass Aus- und Einfadezeit gleich sind.
+
+LTP-Kanäle (alle Attribute außer Dimmern) folgen der 'Fade In'-Zeit.
+
+-   <Keys.SoftKey>Fade In</Keys.SoftKey> bestimmt die Fadezeit für Geräte, die heller werden, also auf einen höheren Dimmerpegel als vorher wechseln. Außerdem ist das auch die Fadezeit für LTP-Attribute. Steht Fade out auf "As In", so ist dies auch die Fadezeit für ausfadende (dunkler werdende) Geräte. Geben Sie die Zeit in Sekunden ein und drücken Sie <Keys.HardKey>Enter</Keys.HardKey>.
+-   <Keys.SoftKey>Delay In</Keys.SoftKey> bestimmt das Delay (Verzögerung) zwischen dem Drücken der <Keys.HardKey>Go</Keys.HardKey>-Taste (oder anderem Starten des Cues) und dem Beginn des Einfadens. 
+-   <Keys.SoftKey>Fade Out</Keys.SoftKey> bestimmt die Fadezeit für Geräte, die dunkler werden, also auf einen niedrigeren Dimmerpegel als vorher wechseln. Per Default ist das "As In", übernimmt also die Einfadezeit. War eine Zeit eingegeben und will man auf "As In" zurück, so muss die Zeit gelöscht werden. 
+-   <Keys.SoftKey>Delay Out</Keys.SoftKey> bestimmt das Delay (Verzögerung) zwischen dem Drücken der <Keys.HardKey>Go</Keys.HardKey>-Taste (oder anderem Starten des Cues) und dem Beginn des Ausfadens. Per Default ist das "As In", übernimmt also die Delay-In-Zeit. War eine Zeit eingegeben und will man auf "As In" zurück, so muss die Zeit gelöscht werden. 
 
 ## Schrittfolge und Versatz
 
@@ -154,7 +127,9 @@ gewünschten Zeitpunkt zu starten.
 Zur Wiedergabe einer Timecode-gesteuerten Cueliste drücken Sie im
 Timecode-Menü <Keys.SoftKey>Connected Cue Lists</Keys.SoftKey> und wählen die gewünschte Cueliste
 aus. Dann drücken Sie <Keys.SoftKey>Timer Disabled/Enabled</Keys.SoftKey>, um den jeweiligen
-Timecode-Eingang zu aktivieren.
+Timecode-Eingang zu aktivieren. **Timer Disabled/Enabled** ist ein globaler Schalter und 
+aktiviert/deaktiviert alle Timecode-Quellen. Soll nur ein bestimmter Timecode 
+deaktiviert werden, so wählen Sie dagegen für diesen in Schritt 3 (s.o.) als Quelle **No Timecode**.
 
 Sobald nun der Timecode läuft (bei internem Timecode drücken Sie dazu
 auf <Keys.SoftKey>Play</Keys.SoftKey>), wird jeder Schritt der Cueliste zur programmierten
@@ -164,7 +139,7 @@ Zum Ändern einzelner Timecode-Zeiten klicken Sie entweder in der
 Playback-Ansicht in die entsprechende Zelle und geben die korrekte Zeit 
 mit den Zifferntasten ein, oder Sie drücken <Keys.SoftKey>Edit Times</Keys.SoftKey>, wählen den 
 zu ändernden Cue aus, wechseln mit <Keys.SoftKey>Next</Keys.SoftKey> auf die dritte Menüseite und 
-ändern dort den Wert bei <Keys.SoftKey>Timecode = </Keys.SoftKey>.
+ändern dort den Wert bei <Keys.SoftKey>Timecode = </Keys.SoftKey>. 
 
 ![Playback View Window showing timecoded cues](/docs/images/Playback-View-Window-showing-timecoded-cues.png)
 

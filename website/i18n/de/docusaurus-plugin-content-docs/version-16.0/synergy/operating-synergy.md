@@ -21,7 +21,7 @@ im letzten Moment angeliefert werden, sehr.
 Zum Öffnen des Media Browsers drücken Sie zweimal <Keys.HardKey>Open/View</Keys.HardKey>
 und wählen den <Keys.SoftKey>Media Browser</Keys.SoftKey>.
 
-![Ai Media Browser Window](/docs/images/Ai-Media-Browser-Window.png)
+![Ai Media Browser Window](/docs/images/Ai-Media-Browser-Window.jpg)
 
 Links werden die am Pult/Titan-PC gefundenen Laufwerke angezeigt. Steckt
 man ein USB-Laufwerk an, erscheint dies ebenfalls. Es gibt auch
@@ -45,7 +45,7 @@ die der Upload erfolgen soll.
 Existieren bereits Dateien gleichen Namens auf dieser Bank, so werden
 die betreffenden Dateien rot angezeigt.
 
-![Ai Media Browser uploading content](/docs/images/Ai-Media-Browser-uploading-content.png)
+![Ai Media Browser uploading content](/docs/images/Ai-Media-Browser-uploading-content.jpg)
 
 Die Dateien werden schnellstmöglich übertragen, und der
 Übertragungsfort­schritt wird angezeigt. Dabei kann das Netzwerk stark
@@ -179,7 +179,7 @@ die Wiedergabe auf den Lampen.
 Die grundsätzliche Funktionsweise des Layout-Editors ist im Abschnitt
 [Gerätereihenfolge und -anordnung in den Gruppen](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) beschrieben.
 
-Bei der Verwendung mit Synergy gibt es mit dem Kontext-Menü <Keys.SoftKey>Media Options</Keys.SoftKey> einige sinnvolle Zusatzfunktionen zur Erstellung des Layouts.
+Bei der Verwendung mit Synergy gibt es mit dem Kontext-Menü <Keys.SoftKey>Media Options</Keys.SoftKey> einige sinnvolle Zusatzfunktionen zur Erstellung des Gruppenlayouts.
 
 ### Show Video Overlay
 Hier lässt sich jeder beliebige Layer und jedes

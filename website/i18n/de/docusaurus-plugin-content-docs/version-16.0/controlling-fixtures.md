@@ -13,8 +13,8 @@ werden, um deren Attribute - Dimmer, Position, Farbe etc. - einzustellen.
 ## Dimmer und Geräte zum Steuern auswählen
 
 Um die zu steuernden Geräte und Dimmer auszuwählen, betätigen Sie die
-entsprechenden Geräte-Buttons, womit die Geräte in den Editor geladen
-werden. Es lassen sich einzelne oder mehrere verschiedene Geräte auf
+entsprechenden Geräte-Buttons im Fenster **Fixtures**, womit die Geräte in den Editor geladen
+werden. Geräte können auch in einer Layout-Anzeige ausgewählt werden, siehe [Layouts](./controlling-fixtures/layouts.md). Es lassen sich einzelne oder mehrere verschiedene Geräte auf
 einmal anwählen. Ebenso lassen sich Gruppen verwenden, um mehrere Geräte
 auf einmal anzuwählen, siehe [Gruppen](./controlling-fixtures/fixture-groups.md).
 

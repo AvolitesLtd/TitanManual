@@ -123,9 +123,9 @@ rotierenden roten 'Propeller' erstellt.
 >    
 >   ![Pixel Mapper Preview Window - Overlayed Layers](/docs/images/Pixel-Mapper-Preview-Window-Overlayed-Layers.png)
 
-## Kreative Geräte-Layouts
+## Kreative Gruppenlayouts
 
-Da jede Gerätegruppe ein anderes Layout haben kann, ist es auch sehr
+Da jede Gerätegruppe ein anderes Geräte-Layout haben kann, ist es auch sehr
 einfach möglich, die gleichen Geräte in mehreren Gruppen mit
 unterschiedlicher Anordnung zu arrangieren.
 
@@ -381,7 +381,7 @@ In diesem Beispiel erstellen wir zufällig blinkende Streifen und nutzen
 die globale Steuerung, um Einstellungen für den gesamten Effekt
 vorzunehmen.
 
-1.  Erstellen Sie eine Gruppe und passen Sie das Layout wie vorstehend
+1.  Erstellen Sie eine Gruppe und passen Sie das Gruppenlayout der Geräte wie vorstehend
 	beschrieben an.
 	
 2.  Wählen Sie die Gruppe, und beginnen Sie einen Effekt zu erstellen.

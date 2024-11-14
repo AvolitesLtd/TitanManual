@@ -67,7 +67,7 @@ man ein, wie Titan Prism Zero bzw. die einzelnen Outputs von Ai ansteuert. Ebens
 man hier für Ai Layer hinzufügen oder löschen sowie komplett neue Surfaces
 anlegen (müssen ggf. in Ai noch genauer eingestellt werden).
 
-![Synergy Settings Window](/docs/images/Synergy-Settings-Window.png)
+![Synergy Settings Window](/docs/images/Synergy-Settings-Window-v15.jpg)
 
 Links sind die verfügbaren Ai-Server und Prism-Instanzen mit ihren Outputs aufgeführt. In
 der Mitte sind die in Titan angelegten Surfaces und Layer aufgeführt.
@@ -81,7 +81,7 @@ Klickt man auf das <Keys.ContextKey>+</Keys.ContextKey> unten und wählt aus der
 der mittleren Spalte oben. Neue Ai-Surfaces haben zunächst immer zwei
 Layer, Prism Zero hat nur einen Layer.
 
-![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-screen-settings.png)
+![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-screen-settings-v15.jpg)
 
 Klickt man in der mittleren Spalte oben auf die Titelleiste eines
 Surfaces, so werden rechts die entsprechenden Optionen angezeigt. Damit
@@ -107,12 +107,12 @@ des nicht zugewiesenen Ai-Surfaces unten und danach auf das
 Titan-Surface oben. Wählt man dagegen **Link to new Surface**, so wird ein
 neues Titan-Surface angelegt und verknüpft.
 
-![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-linking-a-screen.png)
+![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-linking-a-screen-v15.jpg)
 
 Sind die Surfaces verknüpft, so wird dies über eine farbige Linie zum
 Server angezeigt, und das nicht verknüpfte Surface unten verschwindet.
 
-![Synergy Settings Window with a linked screen](/docs/images/Synergy-Settings-Window-with-a-linked-screen.png)
+![Synergy Settings Window with a linked screen](/docs/images/Synergy-Settings-Window-with-a-linked-screen-v15.jpg)
 
 Das Surface lässt sich auch mit mehreren Ai-Outputs verknüpfen, wenn man
 z.B. den gleichen Content auf mehreren Outputs verwenden will. Dazu

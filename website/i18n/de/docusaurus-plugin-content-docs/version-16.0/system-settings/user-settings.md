@@ -172,7 +172,7 @@ LED Selected Level   | Helligkeit für ausgewählte Geräte (nicht im Programmer
 Option | Wirkung
 -------|--------
 Swop Shapes | Verhalten von Shapes bei Swop.<br/>***All Shapes:*** Alle laufenden Shapes von anderen Playbacks werden unterbrochen.<br/>*Intensity Shapes:* Nur Intensity-Shapes von anderen Playbacks werden unterbrochen, andere Shapes laufen weiter.
-Shape Behaviour | Steuert, ob Keyframe-Shapes eher LTP wirken (und von anderen Playbacks überschrieben werden können) oder nicht. Siehe [Speichern eines Keyframe-Shapes in einem Cue](../effects/key-frame-shapes.md#einen-keyframe-shape-in-einen-cue-speichern).
+Shape Behaviour | Steuert, ob Shapes und Keyframe-Shapes eher LTP wirken (und von anderen Playbacks überschrieben werden können) oder nicht. Siehe [Speichern eines Keyframe-Shapes in einem Cue](../effects/key-frame-shapes.md#einen-keyframe-shape-in-einen-cue-speichern).
 
 ## Timecode
 

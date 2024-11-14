@@ -228,11 +228,44 @@ Wird ein Shape in einen Cue (auf ein Playback) gespeichert, so lässt
 sich mit den [Options](../cues/playback-options.md) des Playbacks einstellen, 
 dass der Fader z.B. die Größe und/oder Geschwindigkeit
 des Shapes steuert; ebenso lassen sich [Master (Size, Speed, BPM)](../running-the-show/playback-controls.md#speed--und-size-master) für die
-Steuerung verwenden. 
+Steuerung verwenden.
+Bei Dimmershapes wird per default die Größe des Shapes mit dem Fader gesteuert.
 
 Shapes lassen sich auch in Cuelisten verwenden - in [Tracking von Shapes in Cuelisten](../cue-lists/creating-a-cue-list.md#tracking-von-shapes-in-cuelisten) ist beschrieben, wie sich die Shapes in diesem Fall verhalten.
 
 Zum Editieren aktuell laufender Shapes siehe [Ändern eines gerade laufenden Shapes](../effects/editing-shapes-and-effects#ändern-eines-gerade-laufenden-shapes).
+
+### Shape-Verhalten: Overlay oder LTP
+
+Shapes und Keyframe-Shapes, die in Playbacks gespeichert sind, können entweder als **Overlay** arbeiten (per default), also andere programmierte Attribute überlagern, oder wie gewohnt als **LTP**-Werte, werden also ihrerseits von später gestarteten Playbacks überlagert/überschrieben. Dafür gibt es die Einstellung **Shape Behavior**.
+
+Die globale Einstellung des Shape-Verhaltens erfolgt in den [Benutzereinstellungen](../system-settings/user-settings.md#shape-behaviour). Dies kann individuell für einzelne Playbacks in deren [Optionen](../cues/playback-options.md#shape-behaviour) anders eingestellt werden.
+
+-   &nbsp;<Keys.SoftKey>Overlay</Keys.SoftKey> (Voreinstellung) ist das von Shapes gewohnte 
+    Verhalten. Ein aktiver Shape oder Keyframe-Shape hat Priorität über die
+    betreffenden Geräte/Attribute und läuft, bis er beendet wird. Läuft
+    z.B. ein Keyframe-Shape, der die Farbe der Geräte verändert, und
+    startet man einen weiteren Colour-Cue, so ist dies zunächst nicht
+    sichtbar. Ebenso ist zunächst keine Änderung zu sehen, wenn man etwa
+    Paletten aufruft oder die Farbe anderweitig verändert. Erst wenn der
+    Shape beendet wird, werden die im Hintergrund vorgenommenen
+    Änderungen aktiv. Auf diesem Wege lässt sich einfach bei laufendem
+    Keyframe-Shape ein neues Bild einstellen, auf das dann nahtlos
+    übergeblendet werden kann.
+
+-   &nbsp;<Keys.SoftKey>LTP</Keys.SoftKey> funktioniert dagegen eher wie ein Chaser. Nachträglich
+    gestartete Änderungen auf der gleichen Priorität überschreiben den
+    Keyframe-Shape. Startet man also z.B. bei laufendem Colour-Keyframe-Shape
+    (Priorität normal) ein anderes Colour-Playback (ebenfalls Priorität normal), 
+    so blockiert dieses den Keyframe-Shape. Deaktiviert man das Playback, so ist 
+    wieder der Keyframe-Shape aktiv. Gleiches gilt beim Aufruf von Paletten, wobei in diesem
+    Fall der Keyframe-Shape neu gestartet werden muss. Zu beachten ist,
+    dass Quick Palettes mit 'Priority=High' funktionieren. Stellt man
+    also wiederum das Playback mit dem Keyframe-Shape auf
+    'Priority=High' oder höher, verhindert man das Überschreiben durch
+    Quick Palettes. Ebenso kann man 'Priority=Very High' wählen und
+    damit verhindern, dass der Inhalt des Programmers den Keyframe-Shape
+    überschreibt. Details zur Priorität siehe [Priority](../cues/playback-options.md#priority).
 
 ## Shapes stoppen mit Mask FX
 

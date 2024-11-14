@@ -121,6 +121,8 @@ Die Hardware-Tasten des Pultes sind im gesperrten Zustand deaktiviert. Nur die f
 
 Die Auswahl von Fixtures ist deaktiviert. Quick Palettes können aber verwendet werden.
 
+>   Menüs sind im Venue Mode deaktiviert. Damit gehen auch Macros nicht, die Menüs oder damit verknüpfte Funktionen aufrufen. Auch Funktionen, bei denen eine Taste mehrfach gedrückt werden muss, gehen im Venue Mode nicht, denn auch diese benötigen das Menüsystem (Beispiel: Doppelklick auf <Keys.HardKey>Release</Keys.HardKey> zum Aufruf der Funktion *Release All*). 
+
 Mit der Einstellung **Lock on Startup** auf der Seite **Lock** der [Benutzereinstellungen](./system-settings/user-settings.md#lock) kann man einstellen, in welchen Status das Pult bzw. die Software nach dem Neustart startet. Damit das Pult im gesperrten Zustand startet, muss ein Passwort vergeben werden.
 
 Ggf. ist es sinnvoll, in den Benutzereinstellungen auf dem Reiter **Lock** ein **Venue Mode Password** einzustellen. Um das Pult zu sperren, klicken Sie rechts oben auf <Keys.SoftKey>Lock</Keys.SoftKey>. Damit wird der normale Sperrbildschirm angezeigt. Gibt man nun zum Entsperren das 'Venue Mode Passwort' ein, so öffnet sich der 'Venue Mode workspace', und man hat eingeschränkten Zugriff.

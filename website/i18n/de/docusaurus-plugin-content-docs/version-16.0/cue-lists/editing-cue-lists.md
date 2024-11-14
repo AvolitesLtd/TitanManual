@@ -44,12 +44,20 @@ Werte direkt zu ändern.
 -   Über das Kontextmenü kann man die Anzeige von Pegeln, Shapes,
     Effekten und Zeiten aktivieren.
 
--   Wenn Werte von einer Palette stammen, so schaltet **View Palettes**
-    zwischen der Anzeige der Werte und der Anzeige der Palette um.
+-   Einzelne Werte können deaktiviert werden, indem man sie anklickt und aus dem Menü die Funktion <Keys.SoftKey>Off</Keys.SoftKey> wählt. Auf **Off** gesetzte Werte können später mit <Keys.SoftKey>On</Keys.SoftKey> wieder aktiviert werden.
 
--   Ist die Option **View Tracking Levels** angewählt, so werden
-    getrackte, also aus vorherigen Cues übernommene Werte hellgrau
-    hervorgehoben.
+-   Um ganze Fixtures aus einem Cue zu entfernen, wählt man die Geräte in der linken Spalte aus und drückt im Menü auf  <Keys.SoftKey>Remove Fixtures</Keys.SoftKey>.
+
+-   Wenn Werte von einer Palette stammen, so schaltet die Kontext-Option <Keys.ContextKey>View Palettes</Keys.ContextKey> zwischen der Anzeige der Werte und der Anzeige der Palette um.
+
+-   Je nach Tracking-Verhalten werden die Werte in verschiedenen Farben angezeigt. Im Fenster [Tracking View](./editing-cue-lists.md#editieren-getrackter-cues-mit-dem-tracking-view) lässt sich das Tracking genauer einstellen.
+    -  **Weiß** sind unveränderte harte (fest programmierte) ungetrackte Werte.
+    -  **Grün** sind fest programmierte Werte, die gegenüber dem vorigen Cue kleiner sind.
+    -  **Cyan** sind fest programmierte Werte, die gegenüber dem vorigen Cue größer sind, oder die erstmalig gesetzt werden.
+    -  **Magenta** sind getrackte Werte (In der Spalte *Tracking* steht dazu *Tracked*).
+    -  **Rot** sind geblockte Werte.
+
+-   Die Anzeige getrackter Werte lässt sich im Kontextmenü mit <Keys.ContextKey>Show/Hide Tracked Values</Keys.ContextKey> aktivieren/deaktivieren.
 
 ## Kopieren, Verschieben und Löschen einzelner Cues
 
@@ -103,8 +111,8 @@ Cueliste zu kopieren, drücken Sie in diesem Fall <Keys.HardKey>Copy</Keys.HardK
 
 ## Editieren einer Cueliste mit 'Unfold'
 
-Mit der Taste <Keys.HardKey>Unfold</Keys.HardKey> ('Aufklappen') wird jeder Schritt einer
-Cueliste auf einen einzelnen Regler abgebildet. Damit lässt sich jeder
+Alternativ kann man Cuelisten bearbeiten, indem mit der Taste <Keys.HardKey>Unfold</Keys.HardKey> 
+('Aufklappen') jeder Schritt einer Cueliste auf einen einzelnen Regler abgebildet wird. Damit lässt sich jeder
 Schritt einzeln aufrufen und editieren, als wäre er ein eigener Cue.
 
 1. Drücken Sie die <Keys.HardKey>Unfold</Keys.HardKey>-Taste, gefolgt von der **Auswahltaste**
@@ -112,7 +120,7 @@ der zu ändernden Cueliste.
 2. Die ersten zehn Schritte werden auf die **Playback-Fader** gelegt. Im
 Display wird die jeweilige Schrittnummer und Bezeichnung angezeigt. 
 *(Sind mehr Cues als Fader vorhanden, so kann man mit den Menütasten 
-F und G weiterschalten)*.
+F und G auf die vorige/nächste Seite Fader umschalten)*.
 3. **Betätigen Sie einen Fader**, um den jeweiligen Schritt aufzurufen
 *(dabei werden die programmierten Überblendzeiten mit berücksichtigt)*.
 4. *Es gibt diverse Optionen bei der 'Unfold'-Funktion, die Details dazu
@@ -151,6 +159,77 @@ sind unten aufgeführt*.
 
 -   Enthält die Cueliste mehr Schritte als Fader vorhanden sind, so
     lässt sich mit den Funktionstasten F und G die Seite umschalten
+
+
+## Editieren getrackter Cues mit dem Tracking View
+
+Im Fenster **Tracking View** wird eine gute Übersicht über die aktuellen Werte von Dimmer- und anderen Kanälen angezeigt, und man sieht, ob diese in diesem Cue gespeichert oder aber aus vorigen Cues getrackt sind. Das ist sehr nützlich, um eine Cueliste nach hektischem Programmieren aufzuräumen, wenn versehentlich Werte hart einprogrammiert wurden, oder um rauszubekommen, aus welchem Cue denn ein falscher getrackter Wert stammt.
+
+Das Fenster 'Tracking View' öffnet man durch einen Klick auf den Kontext-Button <Keys.ContextKey>View Tracking</Keys.ContextKey> im Playback View der Cueliste.
+
+- Sie können auch zweimal auf <Keys.HardKey>Open/View</Keys.HardKey> drücken und das Fenster 'Tracking View' auswählen, müssen aber in diesem Fall die Cueliste, die angezeigt werden soll, mit den Menütasten wählen.
+- Um eine andere Cueliste anzuzeigen, verwenden Sie <Keys.ContextKey>Select Cue List</Keys.ContextKey> aus dem Kontextmenü.
+
+![Tracking View Window](/docs/images/Tracking-View.png)
+
+Die Cues der Cueliste werden tabellarisch angezeigt. Je nach Tracking-Verhalten werden die Werte der einzelnen Attribute in verschiedenen Farben angezeigt
+-  **Weiß** sind unveränderte harte (fest programmierte) ungetrackte Werte.
+-  **Grün** sind fest programmierte Werte, die gegenüber dem vorigen Cue kleiner sind.
+-  **Cyan** sind fest programmierte Werte, die gegenüber dem vorigen Cue größer sind, oder die erstmalig gesetzt werden.
+-  **Magenta** sind getrackte Werte (In der Spalte *Tracking* steht dazu *Tracked*).
+-  **Rot** sind geblockte Werte.
+
+Auf der linken Seite des Fensters sind verschiedene Filter verfügbar. So kann man
+- die Attribute nur einer oder aller Attributbänke anzeigen
+- die Werte der Attributbank anzeigen, die mit den normalen Tasten des Pultes angewählt ist
+- die Werte der aktuell angewählten Geräte anzeigen
+- die Werte der Geräte eines bestimmten Typs anzeigen.
+
+Klickt man einzelne oder mehrere der Werte im Display an, so werden auf den Menütasten verschiedene Funktionen verfügbar; mit <Keys.HardKey>Exit</Keys.HardKey> wird die Auswahl beendet.
+
+- &nbsp;<Keys.SoftKey>Select Function</Keys.SoftKey> öffnet ein Untermenü zur Eingabe von Werten oder Auswahl einer bestimmten Funktion. 
+- &nbsp;<Keys.SoftKey>Tracking</Keys.SoftKey> öffnet ein Untermenü zur Auswahl des Trackingmodus.
+- &nbsp;<Keys.SoftKey>Set Hard Value</Keys.SoftKey> speichert die angewählten Werte als harte Werte in die betreffenden Cues.
+- &nbsp;<Keys.SoftKey>Delete</Keys.SoftKey> löscht harte (in die Cues programmierte) Werte aus den betreffenden Cues. Getrackte Werte bleiben unverändert.
+- &nbsp;<Keys.SoftKey>Delete Redundant</Keys.SoftKey> löscht harte Werte, soweit die gleichen Werte ohnehin getrackt sind. Damit können versehentlich gespeicherte harte Werte auch in mehreren Cues und Attributen auf einmal gelöscht werden, so dass die Cueliste wieder sauber trackt. man kann auch ganze Spalten und Zeilen auswählen.
+- &nbsp;<Keys.SoftKey>Off</Keys.SoftKey> deaktiviert die angewählten Werte.
+- &nbsp;<Keys.SoftKey>On</Keys.SoftKey> aktiviert die angewählten Werte, soweit sie vorher deaktiviert wurden.
+Weitere Informationen zu On/Off siehe [Off](../cues/editing-cues.md#deaktivieren-von-attributen-in-cues-mit-off).
+
+Wurden für Fixtures oder Attribute spezielle Tracking-Anweisungen programmiert, so wird dies durch T (Track), B (Block), C (Cue Only) or S (Solo) angezeigt.
+
+### Anzeigeoptionen für den Tracking View
+
+Mit dem Button <Keys.ContextKey>Cog</Keys.ContextKey> werden die Anzeigeoptionen aufgerufen, und es lässt sich folgendes einstellen:
+
+- &nbsp;<Keys.ContextKey>Column Size</Keys.ContextKey> (Spaltenbreite), Small (schmal), Normal, Large (breit), Super Size (sehr breit).
+- &nbsp;<Keys.ContextKey>Window Scroll</Keys.ContextKey> Bildlauf, entweder automatisch mit <Keys.ContextKey>Next Cue</Keys.ContextKey>, oder manuell mit <Keys.ContextKey>Manual</Keys.ContextKey>.
+- &nbsp;<Keys.ContextKey>Scroll offset from top</Keys.ContextKey> bestimmt, wie viele Cues vorher angezeigt werden.
+- &nbsp;<Keys.ContextKey>Palettes</Keys.ContextKey> legt die Anzeige bei Verwendung von Paletten fest:<br/>
+  -  &nbsp;<Keys.ContextKey>Hidden</Keys.ContextKey> nur der Wert wird gezeigt <br/>
+  -  &nbsp;<Keys.ContextKey>Legend Only</Keys.ContextKey> nur die Legende der Palette wird gezeigt.<br/>
+  -  &nbsp;<Keys.ContextKey>Legend and Value</Keys.ContextKey> Legende wird gezeigt, dazu der Wert, sofern der Platz dafür ausreicht.
+
+Für eine bessere Übersicht können auch verschiedene Bereiche ausgeblendet werden:
+- <Keys.ContextKey>Attribute Filters</Keys.ContextKey>
+- <Keys.ContextKey>Selection Filters</Keys.ContextKey>
+- <Keys.ContextKey>Fixture Filters</Keys.ContextKey>
+- <Keys.ContextKey>Tracking Column</Keys.ContextKey>
+- <Keys.ContextKey>Legend Column</Keys.ContextKey>
+- <Keys.ContextKey>Fixture Legends</Keys.ContextKey>
+- <Keys.ContextKey>Scroll Bars</Keys.ContextKey>
+
+Im Kontextmenü für den Tracking View gibt es verschiedene Filter und Sortierungen. 
+
+Sortierungen:
+- <Keys.ContextKey>Attributes</Keys.ContextKey> können entweder in der normalen IPCGBES Reihenfolge angezeigt werden, oder mit der der gerade ausgewählten Attributbank als erstes, und die anderen Attributbänke folgen.
+- <Keys.ContextKey>Fixtures</Keys.ContextKey> können sortiert werden nach User Number, Last Selected (zuletzt angewählt) und DMX-Adresse.
+- <Keys.ContextKey>Columns</Keys.ContextKey> (Spalten) können sortiert werden als "Fixture then Attribute" (Geräte zuerst; jedes Fixture wird mit allen Attributen angezeigt) oder als "Attribute then Fixture" (gleiche Attribute werden zusammen aufgelistet).
+
+Filter:
+- <Keys.ContextKey>Bank Selection</Keys.ContextKey> wenn aktiviert, werden nur die Attribute der aktuell angewählten Attributbank angezeigt (damit folgt die Attributauswahl umgekehrt auch dem Filter im Fenster Tracking View).
+- <Keys.ContextKey>Fixture Selection</Keys.ContextKey> wenn aktiviert, werden nur aktuell angewählte Geräte angezeigt.
+
 
 ## Update und Cue-Tracking
 
