@@ -1,0 +1,102 @@
+{
+  "version.label": {
+    "message": "17.0",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Introduction": {
+    "message": "Einführung",
+    "description": "The label for category Introduction in sidebar docs"
+  },
+  "sidebar.docs.category.Quick Start": {
+    "message": "Schnellstartanleitung",
+    "description": "The label for category Quick Start in sidebar docs"
+  },
+  "sidebar.docs.category.About The Consoles": {
+    "message": "Die Titan-Pulte",
+    "description": "The label for category About The Consoles in sidebar docs"
+  },
+  "sidebar.docs.category.Titan Basics": {
+    "message": "Titan-Grundlagen",
+    "description": "The label for category Titan Basics in sidebar docs"
+  },
+  "sidebar.docs.category.Patching": {
+    "message": "Patchen",
+    "description": "The label for category Patching in sidebar docs"
+  },
+  "sidebar.docs.category.Controlling Fixtures": {
+    "message": "Steuern von Dimmern und Geräten",
+    "description": "The label for category Controlling Fixtures in sidebar docs"
+  },
+  "sidebar.docs.category.Palettes": {
+    "message": "Paletten",
+    "description": "The label for category Palettes in sidebar docs"
+  },
+  "sidebar.docs.category.Shapes and Effects": {
+    "message": "Shapes und Effekte",
+    "description": "The label for category Shapes and Effects in sidebar docs"
+  },
+  "sidebar.docs.category.Cues": {
+    "message": "Cues",
+    "description": "The label for category Cues in sidebar docs"
+  },
+  "sidebar.docs.category.Chases": {
+    "message": "Chaser",
+    "description": "The label for category Chases in sidebar docs"
+  },
+  "sidebar.docs.category.Cue Lists": {
+    "message": "Cuelisten",
+    "description": "The label for category Cue Lists in sidebar docs"
+  },
+  "sidebar.docs.category.Timelines": {
+    "message": "Timelines",
+    "description": "The label for category Timelines in sidebar docs"
+  },
+  "sidebar.docs.category.Capture Visualiser": {
+    "message": "Der Capture Visualiser",
+    "description": "The label for category Capture Visualiser in sidebar docs"
+  },
+  "sidebar.docs.category.Synergy": {
+    "message": "Synergy",
+    "description": "The label for category Synergy in sidebar docs"
+  },
+  "sidebar.docs.category.Running The Show": {
+    "message": "Steuern der Show",
+    "description": "The label for category Running The Show in sidebar docs"
+  },
+  "sidebar.docs.category.Remote Control": {
+    "message": "Fernsteuerung",
+    "description": "The label for category Remote Control in sidebar docs"
+  },
+  "sidebar.docs.category.Titan Net": {
+    "message": "Titan Net",
+    "description": "The label for category Titan Net in sidebar docs"
+  },
+  "sidebar.docs.category.System Settings": {
+    "message": "System und Benutzereinstellungen",
+    "description": "The label for category System Settings in sidebar docs"
+  },
+  "sidebar.docs.category.Fixture Personalities": {
+    "message": "Personalities (Gerätedateien)",
+    "description": "The label for category Fixture Personalities in sidebar docs"
+  },
+  "sidebar.docs.category.Networking Consoles": {
+    "message": "Netzwerkeinstellungen",
+    "description": "The label for category Networking Consoles in sidebar docs"
+  },
+  "sidebar.docs.category.Titan Commands": {
+    "message": "Titan Befehlsreferenz",
+    "description": "The label for category Titan Reference in sidebar docs"
+  },
+  "sidebar.docs.category.Titan Reference": {
+    "message": "Titan Referenz",
+    "description": "The label for category Titan Reference in sidebar docs"
+  },
+  "sidebar.docs.category.Glossary": {
+    "message": "Glossar/ Stichwortverzeichnis",
+    "description": "The label for category Glossary in sidebar docs"
+  },
+  "sidebar.docs.category.Index": {
+    "message": "Index",
+    "description": "The label for category Index in sidebar docs"
+  }
+}
