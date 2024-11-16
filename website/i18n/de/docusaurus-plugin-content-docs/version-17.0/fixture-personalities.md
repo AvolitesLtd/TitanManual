@@ -92,7 +92,7 @@ auch bereits gepatchte Geräte zu aktualisieren, siehe [Bereits gepatchte Person
 4. Starten Sie das Pult neu (Aus- und Einschalten, oder mit dem Befehl
    **Restart Software** aus dem Tools-Menü).
 
-### Updaten der Personalities der Titan PC Suite
+### Updaten der Personalities der Titan PC Suite (T1, T2, T3, Titan Mobile und Titan Simulator)
 
 1. Starten Sie die heruntergeladene Datei **TitanFixtureLibrary.exe** per
    Doppelklick und bestätigen Sie den Dialog mit <Keys.SoftKey>OK</Keys.SoftKey>. Möglicherweise 

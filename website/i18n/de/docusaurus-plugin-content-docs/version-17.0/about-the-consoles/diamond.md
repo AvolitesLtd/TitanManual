@@ -56,7 +56,7 @@ z.B. <Keys.SoftKey>Edit Times</Keys.SoftKey>
 
 ![Diamond-H](/docs/images/Diamond-H.png)
 
-&nbsp;<Keys.Annotation>H</Keys.Annotation> auf den **Drehreglern** oben lassen sich 
+&nbsp;<Keys.Annotation>H</Keys.Annotation> auf den **Drehreglern** und Tasten oben lassen sich 
 z.B. Cues, Chaser, Cuelisten, aber auch z.B. Gruppen speichern. Der aktuelle Pegel 
 wird durch den Ring um den Regler angezeigt; dessen Farbe wiederum lässt sich als 
 Halo frei definieren. Im Touchscreen direkt unter den Drehreglern wird direkt die 
@@ -68,7 +68,7 @@ und links neben den Touchscreens.
 &nbsp;<Keys.Annotation>J</Keys.Annotation> Zwei weitere Sets von **Drehreglern** 
 befinden sich oberhalb der Playbackfader.
 
-&nbsp;<Keys.Annotation>K</Keys.Annotation> Die motorisierten **Playbackfader** 
+&nbsp;<Keys.Annotation>K</Keys.Annotation> Die motorisierten **Playbackfader** und Tasten dazu 
 sind der wichtigste Platz, um Cues, Chaser und Cuelisten zu speichern, können aber auch 
 andere Funktionen erhalten. Auch an diesen Fadern wird der momentane Stand mit farbigen 
 LEDs angezeigt, und die Farbe selbst kann als Halo frei definiert werden. Auf dem 

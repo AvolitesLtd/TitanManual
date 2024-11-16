@@ -61,10 +61,11 @@ anderweitig verwendet wird).
 -   Ist alles richtig eingerichtet und verbunden, so zeigt die
     Bridge-Software grüne Symbole sowohl für das Pult als auch das/die
     Pioneer-Geräte.
-
 -   Manche Art-Net/sACN-Geräte können auch im Adressbereich
     169.254.\*.\* betrieben werden. In diesem Fall funktioniert auch
     Art-Net/sACN und Pioneer DJ über das gleiche Netzwerk.
+-   Eventuell muss 'Node Mode' in den 'TCNet'-Einstellungen von 'Client' auf 'Auto' geändert werden.
+    Für weitere Informationen siehe das [PRO DJ LINK Bridge Manual](https://support.pioneerdj.com/hc/en-us/articles/4404665824153) (externer Link).
 
 ### Pioneer Bridge auf einem separaten Computer
 

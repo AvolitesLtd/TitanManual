@@ -26,10 +26,10 @@ siehe [Steuern von Geräten über Netzwerk](../networking/controlling-fixtures-o
 Hier wird die DMX-Ausgabe des Pultes eingerichtet. Details zu diesem
 Menü finden sich in Abschnitt [Einrichten der DMX-Ausgänge](dmx-output-mapping.md#einrichten-der-dmx-ausgänge).
 
-## DMX Merge Settings
+## Network DMX Node Settings
 
 Hier stellt man ein, wie DMX über mehrere Pulte bzw. Netzwerk-Knoten
-hinweg ausgegeben werden soll. Siehe [DMX Merge](dmx-output-mapping.md#dmx-merge).
+hinweg ausgegeben werden soll. Siehe [DMX Merge -- Network DMX Node Settings](dmx-output-mapping.md#dmx-merge----network-dmx-node-settings).
 
 ## Synergy Settings
 

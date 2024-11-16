@@ -87,15 +87,44 @@ erreicht werden können.
 *Illustration by MathsPoetry*
 
 Betätigen Sie <Keys.HardKey>Position</Keys.HardKey> ein drittes Mal, 
-so können Sie die Rotation verändern. Sind nur einzelne Geräte ausgewählt, 
-hat das die gleiche Wirkung wie Orientation. Sind dagegen mehrere Geräte angewählt, so
-rotiert die Gruppe als Ganzes um ihren Mittelpunkt.
+so können Sie die Rotation verändern. Rotation funktioniert nur, wenn mehrere Geräte ausgewählt sind: 
+die Gruppe rotiert als Ganzes um ihren Mittelpunkt.
+
+- Um einzelne Geräte zu drehen, müssen Sie den Punkt **Orientation** verwenden. **Rotation** funktioniert nur bei mehreren ausgewählten Geräten, nicht bei einzelnen.
 
 >Es empfiehlt sich, zunächst die Geräte im Tilt etwas aus der Mitte zu fahren, 
 so dass man beim Ändern der Orientierung sieht, wohin man gerade dreht. 
 Außerdem empfiehlt es sich, zumindest ein richtiges Gerät zum Vergleich 
 anzuschließen, um zu überprüfen, dass alle Richtungen und Positionierungen
 im richtigen Sinn erfolgen. 
+
+### Geräte-Optionen im Visualiser
+
+es lassen sich verschiedene Optionen einstellen, wie genau die einzelnen Geräte im Visualiser angezeigt werden. je nach Gerätetyp können das unterschiedliche Optionen sein.
+
+Um diese Optionen einzustellen, drücken Sie im Hauptmenü die unterste Menütaste so oft, bis dort <Keys.SoftKey>Wheels=Visualiser</Keys.SoftKey> steht, oder Sie klicken auf den Kontextbutton <Keys.ContextKey>Position-Orientation</Keys.ContextKey>. Wählen Sie dann die zu editierenden Geräte aus und stellen Sie die Optionen wie folgt mit den Encodern ein:
+
+**Dimmer (einfach Leuchten)**
+
+Attributbank | Encoder | Funktion
+----------|-------|---------
+Colour | A/B/C | RGB-Lichtfarbe. Damit lassen sich Leuchten einfärben, also auffiltern.
+Beam | A | Zoom - Einstellen des Abstrahlwinkels von 5 bis 90°.
+" | B | Focus - Fokussierung
+" | C | Throws Light (siehe unten)
+Effect | A | Horizontal Frost - horizontaler Streufilter
+" | B | Vertical Frost - vertikaler Streufilter
+
+**Andere Geräte**
+
+Attributbank | Encoder | Funktion
+----------|-------|---------
+Beam | A | Throws Light
+" | B | Invert Pan
+" | C | Invert Tilt
+
+- Die Option *Throws Light* kann verwendet werden, um das Rendern des Lichtstrahls von unwichtigen Leuchten im Visualiser zu deaktivieren, um Ressourcen zu sparen. Dann wird zwar die Leuchte angezeigt, nicht aber der Lichtstrahl.
+- Mit den Optionen *Invert Pan / Tilt* kann Pan bzw. Tilt im Visualiser invertiert werden, um entsprechende Einstellungen der wirklichen Geräte nachzubilden.
 
 ## Kameras einrichten (Ansichten)
 

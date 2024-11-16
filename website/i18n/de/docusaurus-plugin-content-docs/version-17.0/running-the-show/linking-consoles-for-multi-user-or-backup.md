@@ -30,7 +30,7 @@ werden, Details siehe [Mehrbenutzer-Betrieb](../titan-basics/multi-user-operatio
 
 Jedes Titan-Pult kann als Backup für jedes andere Titan-Pult fungieren,
 es muss sich also nicht um das gleiche Modell handeln. So kann z.B. auch
-ein Titan Mobile als Backup für ein größeres Pult verwendet werden.
+ein Laptop und T3 als Backup für ein größeres Pult verwendet werden.
 
 Dabei gilt es natürlich zu bedenken, auf welche Teile der Programmierung
 man im Zweifel Zugriff braucht, da manche Pulte weniger Fader/Knöpfe als

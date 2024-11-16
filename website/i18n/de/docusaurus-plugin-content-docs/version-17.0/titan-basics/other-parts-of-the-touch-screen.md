@@ -134,18 +134,7 @@ Programm-Update.
 In der Werkzeugleiste befindet sich auch jeweils ein Button zum Aufrufen
 der Bildschirmtastatur. Auf dem Diamond 9 gibt es dafür die Taste <Keys.HardKey>Keyboard</Keys.HardKey>.
 
-> Bei der Titan PC Suite (Titan Mobile, Titan Go, Simulator) gibt es keine Toolbar, da alle diese Funktionen über Windows bzw. die Systemsteuerung zur Verfügung stehen.
-
-## Das Heads-Up Display (HUD)
-
-Das HUD-Fenster zeigt Details der Belegung der verschiedenen Fader und
-Tasten.
-
-Einzelne Geräte sind dunkelblau hervorgehoben, wenn sie im
-Programmierspeicher sind, sowie hellblau, wenn sie aktuell zum
-Bearbeiten ausgewählt sind.
-
-![HUD](/docs/images/HUD.png)
+> Bei der Titan PC Suite (Titan Go, Titan Simulator) gibt es keine Toolbar, da alle diese Funktionen über Windows bzw. die Systemsteuerung zur Verfügung stehen.
 
 ## Visualiser
 

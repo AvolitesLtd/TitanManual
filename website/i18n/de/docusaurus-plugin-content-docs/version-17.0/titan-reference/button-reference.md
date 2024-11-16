@@ -119,7 +119,7 @@ Aktivieren des Blind-Modus: es können Änderungen programmiert werden, ohne das
 
 
 ## <Keys.HardKey>Block</Keys.HardKey> 
-(Nur beim D9) Z.Zt. nicht verwendet.
+(Nur beim D9 und T3) Z.Zt. nicht verwendet.
 
 
 
@@ -186,7 +186,7 @@ Zur Auswahl von Cues in Cuelisten. Auf manchen Pulten auch "Connect", siehe [Con
 
 
 ## <Keys.HardKey>Cue +</Keys.HardKey> 
-(Nur beim D9) Wählt in der aktuell gesteuerten Cueliste den nächsten Schritt; gleiche Funktion wie <Keys.HardKey>Next Step</Keys.HardKey>.
+(Nur beim D9 und T3) Wählt in der aktuell gesteuerten Cueliste den nächsten Schritt; gleiche Funktion wie <Keys.HardKey>Next Step</Keys.HardKey>.
 
 
 
@@ -208,7 +208,7 @@ Beispiel: <Keys.HardKey>Delete</Keys.HardKey> {Playback} {Playback}
 
 
 ## <Keys.HardKey>Direction</Keys.HardKey> 
-(Nur beim D9) Einstellen der Richtung von Shapes, siehe [Shape-Richtung](../effects/shape-generator.md#shape-richtung)
+(Nur beim D9 und T3) Einstellen der Richtung von Shapes, siehe [Shape-Richtung](../effects/shape-generator.md#shape-richtung)
 
 
 
@@ -258,7 +258,7 @@ Tasten | Ergebnis
 
 
 ## <Keys.HardKey>FX</Keys.HardKey> 
-(Nur beim D9) Aufruf des Shape/FX-Menüs, um Shapes, Keyframe-Shapes und Pixelmapper-Effekte zu erstellen. Ebenso verwendet zur An-/Abwahl der FX Attributgruppe beim Erstellen von Masken. Siehe [Shape menu](#Shape).
+(Nur beim D9 und T3) Aufruf des Shape/FX-Menüs, um Shapes, Keyframe-Shapes und Pixelmapper-Effekte zu erstellen. Ebenso verwendet zur An-/Abwahl der FX Attributgruppe beim Erstellen von Masken. Siehe [Shape menu](#Shape).
 
 Mehrfaches Drücken gefolgt von <Keys.HardKey>Enter</Keys.HardKey> ruft die Optionen des Shape/FX-Menüs auf: 2 x <Keys.HardKey>FX</Keys.HardKey> dann <Keys.HardKey>Enter</Keys.HardKey> für Keyframe-Shapes, 3 x <Keys.HardKey>FX</Keys.HardKey> dann <Keys.HardKey>Enter</Keys.HardKey> für den Pixelmapper.
 
@@ -345,7 +345,7 @@ Auswahl der Attributgruppe Intensity zum Steuern von Dimmer, Shutter etc. mit de
 
 
 ## <Keys.HardKey>Latch</Keys.HardKey> 
-(Nur beim D9) Rastet das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl aktiv bleibt. Auf anderen Pulten <Keys.HardKey>Latch Menu</Keys.HardKey>, siehe unten.
+(Nur beim D9 und T3) Rastet das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl aktiv bleibt. Auf anderen Pulten <Keys.HardKey>Latch Menu</Keys.HardKey>, siehe unten.
 
 
 
@@ -360,7 +360,7 @@ Rastet das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl akt
 
 
 ## <Keys.HardKey>Legend</Keys.HardKey> 
-(Nur beim D9) (gefolgt von der Auswahl eines Elementes) Eingabe der Legende eines Elements (Playback, Gruppe, Palette etc.). Auf anderen Pulten ist diese Funktion über den Punkt <Keys.SoftKey>Set Legend</Keys.SoftKey> im Hauptmenü erreichbar. Siehe [Legenden und Bezeichnungen](../titan-basics/workspace-windows.md#legenden-und-bezeichnungen).
+(Nur beim D9 und T3) (gefolgt von der Auswahl eines Elementes) Eingabe der Legende eines Elements (Playback, Gruppe, Palette etc.). Auf anderen Pulten ist diese Funktion über den Punkt <Keys.SoftKey>Set Legend</Keys.SoftKey> im Hauptmenü erreichbar. Siehe [Legenden und Bezeichnungen](../titan-basics/workspace-windows.md#legenden-und-bezeichnungen).
 
 
 
@@ -402,7 +402,7 @@ Macros können auch numerisch aufgerufen werden, Beispiel: <Keys.HardKey>Macro</
 
 
 ## <Keys.HardKey>Mask FX</Keys.HardKey> 
-(Nur beim D9) Öffnet das Mask FX-Menü zum Erstellen von Masken zum Blocken von Shapes. Auch als Funktion im Menü Shapes&Effekte verfügbar. Siehe [Shapes stoppen mit Mask FX](../effects/shape-generator.md#shapes-stoppen-mit-mask-fx).
+(Nur beim D9 und T3) Öffnet das Mask FX-Menü zum Erstellen von Masken zum Blocken von Shapes. Auch als Funktion im Menü Shapes&Effekte verfügbar. Siehe [Shapes stoppen mit Mask FX](../effects/shape-generator.md#shapes-stoppen-mit-mask-fx).
 
 Tasten | Ergebnis
 --------|--------
@@ -501,14 +501,14 @@ Aufruf des Paletten-Menüs zum numerischen Aufrufen von Paletten. Siehe [Recalli
  
 
 ## <Keys.HardKey>Pattern/All</Keys.HardKey> 
-(Nur beim D9) Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte beginnen oder beenden. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md#geräteauswahl-nach-muster). Auf anderen Pulten ist das die Taste <Keys.HardKey>All</Keys.HardKey>, siehe [All](#All).
+(Nur beim D9 und T3) Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte beginnen oder beenden. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md#geräteauswahl-nach-muster). Auf anderen Pulten ist das die Taste <Keys.HardKey>All</Keys.HardKey>, siehe [All](#All).
 
 
 
 ## <Keys.HardKey>Playback</Keys.HardKey> 
 (Arena) Öffnet das Playbacks-Fenster auf dem kleinen Display.
 
-(D9) Die Tastenfolge <Keys.HardKey>View</Keys.HardKey> <Keys.HardKey>Playback</Keys.HardKey> öffnet das Playbacks-Fenster.
+(D9 und T3) Die Tastenfolge <Keys.HardKey>View</Keys.HardKey> <Keys.HardKey>Playback</Keys.HardKey> öffnet das Playbacks-Fenster.
 
 
 
@@ -667,7 +667,7 @@ Aktualisieren des aktuellen Cues. Dabei wird der Inhalt des Programmers für ber
 
 
 ## <Keys.HardKey>View</Keys.HardKey> 
-(D9, Titan Go, Pearl Expert, Tiger Touch 1) 
+(D9, T3, Titan Go, Pearl Expert, Tiger Touch 1) 
 
 Gefolgt von der **Auswahltaste** eines Elements werden Details über dieses angezeigt. Per Doppelklick können dagegen weitere Fenster geöffnet werden. Siehe [Anzeigen und Ändern einer Palette](../palettes/editing-palettes.md#anzeigen-und-ändern-einer-palette) und [Anzeige der Cues: Playback View und Cue View](../cues/editing-cues.md#anzeige-der-cues-playback-view-und-cue-view), oder [Auswahl und Positionierung der Arbeitsfenster](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster).
 

@@ -149,6 +149,6 @@ aktiviert. Die DMX-Ausgabe des vorherigen Masters wird deaktiviert.
 > Für Mehrbenutzerbetrieb und Session-Backup müssen alle beteiligten 
   Pulte exakt den gleichen Versionsstand haben.
 
-&nbsp;**Für die PC-Suite (Titan Mobile, Titan One, Simulator):**
+### PC-Suite (Titan Go, Titan Simulator)
 
-> Damit sich die verschiedenen Pulte gegenseitig im Netzwerk finden, muss auf Windows-Ebene die 'Network Discovery' aktiviert sein (Netzwerk-Einstellungen bzw. Freigabecenter).
+Damit sich die verschiedenen Pulte gegenseitig im Netzwerk finden, muss auf Windows-Ebene die **Network Discovery** aktiviert sein (Netzwerk-Einstellungen bzw. Freigabecenter).

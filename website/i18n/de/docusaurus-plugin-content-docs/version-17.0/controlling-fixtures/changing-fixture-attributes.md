@@ -244,14 +244,14 @@ während der Fader rechts daneben die Helligkeit (Intensity, I) regelt.
 
 ![Attribute Editor - Colour Filters](/docs/images/Attribute-Editor-Filters.png)
 
-Auswahl der Farbe nach Farbfilter-Nummer; dabei stehen die Systeme von
-Lee, Roscolux und GamColor zur Verfügung. Mit der Suchleiste oben im
+Auswahl der Farbe nach Farbfilter-Nummer; dabei sind verschiedene gebräuchliche 
+Systeme implementiert. Mit der Suchleiste oben im
 Fenster kann nach einer bestimmten Nummer gesucht werden. Per
 Kontext-Button kann zwischen <Keys.SoftKey>Order Filters by Number</Keys.SoftKey> (nach Nummer
 sortieren) und <Keys.SoftKey>Order Filters by Hue</Keys.SoftKey> (nach Farbton sortieren)
 umgeschaltet werden.
 
-- Mit den Zifferntasten kann man Farben direkt nach Nummer anwählen. Die Syntax dafür ist <Keys.HardKey>@</Keys.HardKey> *Marke/Hersteller* <Keys.HardKey>/</Keys.HardKey> *Farbnummer*. Um z.B. Lee 106 auszuwählen, tippt man <Keys.HardKey>@</Keys.HardKey> *1* <Keys.HardKey>/</Keys.HardKey> *106*. Man kann auch direkt Fixtures anwählen und diese mit einer Farbe versehen, z.B. 10 <Keys.HardKey>@</Keys.HardKey> 1 <Keys.HardKey>/</Keys.HardKey> 106 (stellt das Fixture 10 auf Lee 106). Die Marken/Hersteller sind 1=Lee, 2=Roscolux, 3=GamColor. Verfügt das Pult nicht über eine <Keys.HardKey>/</Keys.HardKey>-Taste, so muss eine externe Tastatur angeschlossen oder die Bildschirmtastatur verwendet werden.
+- Mit den Zifferntasten kann man Farben direkt nach Nummer anwählen. Die Syntax dafür ist <Keys.HardKey>@</Keys.HardKey> *Marke* <Keys.HardKey>/</Keys.HardKey> *Farbnummer*. Um z.B. L 106 auszuwählen, tippt man <Keys.HardKey>@</Keys.HardKey> *1* <Keys.HardKey>/</Keys.HardKey> *106*. Man kann auch direkt Fixtures anwählen und diese mit einer Farbe versehen, z.B. 10 <Keys.HardKey>@</Keys.HardKey> 1 <Keys.HardKey>/</Keys.HardKey> 106 (stellt das Fixture 10 auf L 106). Die Marken sind 1=L, 2=R, 3=G. Verfügt das Pult nicht über eine <Keys.HardKey>/</Keys.HardKey>-Taste, so muss eine externe Tastatur angeschlossen oder die Bildschirmtastatur verwendet werden.
 
 
 > Für Geräte mit RGBW, RGBA oder WW/CW-Steuerung steuert der Colourpicker auch die Kanäle für Weiß und Amber. Dies ist seit Titan Version 9 implementiert; in älteren Versionen müssen diese Attribute manuell eingestellt werden.
@@ -299,11 +299,17 @@ Beschriftung der Taste zeigt, wie der Wert vom Gerät dargestellt wird
 
 Für Attribute, deren Wert in Prozent dargestellt wird, wie etwa Dimmer
 oder Farbmischung, geben Sie einen Wert zwischen 0 und 100 ein, um den
-entsprechenden Prozentwert einzustellen. Für Attribute mit mehreren
+entsprechenden Prozentwert einzustellen (kann für den Dimmer auch auf 
+einstellige Eingabe geändert werden, siehe [Benutzereinstellungen](../system-settings/user-settings.md#formatting-formate)). Für Attribute mit mehreren
 Festwerten, wie z.B. feste Farbräder, geben Sie den Index des
 gewünschten Wertes ein; um etwa die dritte Farbe des Farbrades
 anzuwählen (wie in der Liste über dem Rad angegeben), geben Sie eine 3
 ein.
+
+Mit der <Keys.HardKey>@</Keys.HardKey>-Taste bei den Zifferntasten können Dimmerpegel 
+wie am Theater gewohnt eingegeben werden, so stellt z.B. <Keys.HardKey>@</Keys.HardKey>
+50 <Keys.HardKey>Enter</Keys.HardKey> die aktuell angewählten Geräte auf 50% Helligkeit.
+
 
 ## Eingeben von Attributwerten mit den @-Tasten
 

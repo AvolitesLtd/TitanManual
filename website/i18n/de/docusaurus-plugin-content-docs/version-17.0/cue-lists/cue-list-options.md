@@ -98,6 +98,8 @@ Ist diese Option aktiviert, so wird mit Bedienen des
 Faders direkt Cue 1 der Cueliste gestartet. Als Vorgabewert ist diese
 Option deaktiviert. Ansonsten muss immer erst <Keys.HardKey>Go</Keys.HardKey> gedrückt werden.
 
+Wurde mit Next Cue/Prev. Cue oder per Tastatur ein bestimmter Cue angewählt, dann wird beim Aktivieren der Cueliste dieser - und nicht der erste Cue - aufgerufen, sobald der Fader bedient wird, wenn 'Fire First Cue' aktiv ist.
+
 ## Tab "Effects"
 
 Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Effekte](../cues/playback-options.md#playback-options----tab-effects) beschrieben.

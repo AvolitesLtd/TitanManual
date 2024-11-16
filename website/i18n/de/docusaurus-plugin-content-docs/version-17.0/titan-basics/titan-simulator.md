@@ -23,7 +23,7 @@ Titan Simulator zu installieren oder auszuführen. Ab Titan v12 ist für
 den Simulator ein Editor AvoKey oder ein angeschlossener T1, T2 oder Titan Mobile
 erforderlich.
 
-> Zu den Systemanforderungen siehe [Inbetriebnahme von Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2).                 
+> Zu den Systemanforderungen siehe [Inbetriebnahme von T3/Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-t3titan-mobile-und-t1t2).                 
 
 - Capture verlangt dabei eine leistungsstarke Grafikkarte. Sollten dabei 
 Probleme auftreten, stellen Sie bitte sicher, die aktuellsten Treiber

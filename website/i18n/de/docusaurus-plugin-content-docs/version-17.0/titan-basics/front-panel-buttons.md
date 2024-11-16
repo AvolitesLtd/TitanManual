@@ -12,19 +12,19 @@ Macro/Executor-Tasten sind weitgehend frei zu konfigurieren.
 
 ## Auswahl- und Flashtaste
 
-Zu jedem  Fader auf dem Pult gibt es verschiedene Tasten.
+Zu jedem  Fader auf dem Pult gibt es verschiedene Tasten. Diese werden hier **Select/Auswahltaste** und **Flash**-Taste genant, auch wenn die jeweilige Funktion per Key Profile geändert werden kann (s.u.).
 
 
-&nbsp;<Keys.Annotation>A</Keys.Annotation> **Auswahltaste**
+&nbsp;<Keys.Annotation>A</Keys.Annotation> **Select/Auswahltaste**
 
 &nbsp;<Keys.Annotation>B</Keys.Annotation> **Flashtaste**
 
 
-Auf dem **Diamond 9** sind die Tasten für die Drehregler und Fader wie folgt angeordnet::
+Auf dem **Diamond 9** und dem **T3** sind die Tasten für die Drehregler (nur bei D9) und Fader wie folgt angeordnet::
 
 ![Diamond Select and Flash](/docs/images/Diamond-Select-Flash.png)
 
-Auf dem **Sapphire Touch** sind die Tasten für die oberen sowie die unteren Fader wie auf den nachfolgenden Bildern angeordnet. Dabei hat das Sapphire Touch jeweils auch noch eine schwarze Taste, die per Key Profile belegt werden kann.
+Auf dem **Sapphire Touch** sind die Tasten für die oberen sowie die unteren Fader wie auf den nachfolgenden Bildern angeordnet. Dabei hat das Sapphire Touch jeweils auch noch eine schwarze Taste, die per Key Profile belegt werden kann (s.u.).
 
 ![Sapphire Select and Flash](/docs/images/Sapphire-Select-Flash.png)
 
@@ -82,11 +82,17 @@ auf der das Macro gespeichert wurde. Daraufhin werden sämtliche Schritte
 der Tastenfolge automatisch ausgeführt (wahlweise mit den
 aufgezeichneten Pausen oder in schneller Folge).
 
+- In Macros werden nur 'richtige' Tasten aufgezeichnet, sowie einige spezielle Klicks auf dem Touchscreen, z.B. das Auswählen von Geräten oder das Wechseln von Menüs. Änderungen anderer Eigenschaften per Klick im Display werden nicht aufgezeichnet
+
+- 
+Macros können auch als **Script** programmiert werden. Eine Einführung findet sich auf [Avolites WebAPI](https://www.avolites.com/webapi), eine Dokumentation der Funktionen gibt es auf [Avolites API documents](https://api.avolites.com/16.0/#scripts), und praktische Beispiele finden Sie im [Avolites-Wiki](https://www.avosupport.de/wiki/macros/start) (external website).
+
+
 ## Tastenkombinationen
 
 Viele Funktionen des Pultes lassen sich durch Tastenkombinationen
-aufrufen; dies ist insbesondere mit dem Titan Mobile oder dem Titan
-Simulator sinnvoll.
+aufrufen; dies ist insbesondere mit der Titan PC-Suite (Titan Go oder Titan
+Simulator).
 
 Dabei 'fängt' Titan (das Pult-System) die Tastendrücke ab; soll ein
 anderes Programm Zugriff auf die Tastatur haben, so muss die

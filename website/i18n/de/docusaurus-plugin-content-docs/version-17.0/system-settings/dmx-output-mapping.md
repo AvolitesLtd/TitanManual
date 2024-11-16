@@ -7,20 +7,18 @@ sidebar_label: DMX-Ausgänge einrichten
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Geräte lassen sich auf verschiedene Weise mit dem Pult verbinden. Neben
-den vorhandenen DMX-Buchsen können die Geräte auch [per Netzwerk (Art-Net
-sowie sACN)](../networking/controlling-fixtures-over-a-network.md) 
-angesteuert werden.
+Das Ausgangssignal kann per DMX über die XLR-Buchsen sowie per Art-Net und sACN über die Netzwerkanschlüsse ausgegeben werden.
 
-Alle Pulte können bis zu 16 DMX-Universen über DMX und Netzwerk (Art-Net
+Alle Pulte können bis zu 64 DMX-Universen über DMX und Netzwerk (Art-Net
 oder sACN) ausgeben (der **T1** ist auf ein Universum, der **T2** auf zwei
-Universen beschränkt).
+Universen und das **T3** auf 16 Universen beschränkt; für das T3 sind optional Lizenzerweiterungen erhältlich).
 
-Mit [Avolites TitanNet-Prozessoren (TNP)](../titan-net.md) lässt sich die
-Gesamtzahl bis auf 64 erhöhen.
+Pulte selbst können bis 16 DMX-Universen ausgeben, ist mehr erforderlich, so lässt sich 
+mit [Avolites TitanNet-Prozessoren (TNPs)](../titan-net.md) durch Verteilen der Rechenlast die 
+Gesamtzahl an Universen bis auf 64 erhöhen. (Für T1, T2 und T3 kann die Beschränkung nicht durch TNPs aufgehoben werden).
 
->   Es ist möglich, in der Pult-Software mehr als 16 Universen
-    zuzuweisen. Dies wirkt sich aber negativ auf die Performance aus. In
+>   Außer beim T1, T2 und T3 ist es möglich, in der Pult-Software mehr als 16 Universen
+    zuzuweisen. Abhängig von der Programmierung und vom Patch wirkt sich das aber negativ auf die Performance aus. In
     der TitanNet-Übersicht wird daher bei der Anzeige der Rechenleistung
     eine Warnung angezeigt.
 
@@ -93,13 +91,12 @@ z.B. Art-Net oder sACN - jedes Modul kann mehrere Nodes haben.
 
 Zum genauen Einstellen der DMX-Ausgängen sowie der Art-Net- und 
 sACN-Optionen öffnen Sie die DMX-Einstellungen (also <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey> 
-zum Öffnen des [System-Menüs](the-system-menu.md), dann <Keys.SoftKey>DMX Settings</Keys.SoftKey>), 
-und klicken links auf das kleine <Keys.ContextKey>Zahnrad</Keys.ContextKey> neben dem betreffenden Modulnamen.
+zum Öffnen des [System-Menüs](the-system-menu.md), dann <Keys.SoftKey>DMX Settings</Keys.SoftKey>). Links werden nun die verschiedenen Ausgabewege und Anschlüsse angezeigt. Zum Ändern der Einstellungen klicken Sie links auf das kleine <Keys.ContextKey>Zahnrad</Keys.ContextKey> neben dem betreffenden Modulnamen.
 
 Damit lassen sich pro Modul spezifische Einstellungen vornehmen und auch
 bestimmen, über welchen Netzwerkanschluss welches Protokoll ausgegeben
 wird. Aktuelle Pulte haben zwei Netzwerkanschlüsse, das Quartz hat einen, 
-und bei der PC-Suite hängt es von der Ausstattung des jeweiligen Computers 
+und bei der PC-Suite (Titan Go/Simulator) hängt es von der Ausstattung des jeweiligen Computers 
 ab - viele Laptops verfügen z.B. auch über einen WLAN-Adapter, der, sofern 
 aktiviert, ebenfalls angezeigt wird.
 
@@ -112,7 +109,7 @@ werden.
 
 **Merge Priority:** Wert von 0-200, Vorgabe 100, höherer Wert = höhere Priorität. 
 Bestimmt die Priorität des direkt von Titan zum DMX-Ausgang
-gesendeten Signals beim Verwenden von sACN/DMX-Merge. Dies muss separat eingerichtet werden, siehe [DMX Merge](dmx-output-mapping.md#dmx-merge).
+gesendeten Signals beim Verwenden von sACN/DMX-Merge. Dies muss separat eingerichtet werden, siehe [DMX Merge -- Network DMX Node Settings](dmx-output-mapping.md#dmx-merge----network-dmx-node-settings).
 
 **Break Length:** Zeitlicher Abstand zwischen den DMX-Paketen. Manche 
 Dimmer und Movinglights benötigen ein künstlich verlangsamtes Signal,
@@ -219,13 +216,13 @@ enthält, die momentan nicht verbunden sind, so erscheint eine Meldung
 mit der genauen Aufstellung sowie der Möglichkeit, die einzelnen Linien
 anderen Ausgabeports zuzuordnen.
 
-## DMX Merge
+## DMX Merge -- Network DMX Node Settings
 
-Im Fenster "DMX Merge" kann man das Mergen des DMX-Outputs des lokalen Pults mit sACN-Universen
+Im Fenster "Network DMX Node Settings" kann man das Mergen des DMX-Outputs des lokalen Pults mit sACN-Universen
 von anderen Pulten oder Nodes einrichten.
-Im **System**-Menü (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) wählen Sie <Keys.SoftKey>DMX Merge Settings</Keys.SoftKey>.
+Im **System**-Menü (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) wählen Sie <Keys.SoftKey>Network DMX Node Settings</Keys.SoftKey>.
 
-![DMX Merge Window](/docs/images/DMX-Merge-Window.png)
+![Network DMX Node Settings Window](/docs/images/DMX-Merge-Window.png)
 
 Um ein Universum auf einen Ausgang zuzuweisen, klicken Sie auf **Patch Titan Lines** oder auf 
 **Patch External sACN Merge**, stellen <Keys.SoftKey>Universe</Keys.SoftKey>

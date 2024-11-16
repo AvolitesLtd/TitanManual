@@ -44,7 +44,7 @@ Option | Wirkung
 -------|--------
 External Display | ***On:*** Externes Display ist aktiviert. <br/> *Off:* Externes Display ist deaktiviert.
 External Screen Workspace Shortcuts | ***On:*** Auf jedem Display wird ein separater Workspaces-Bereich angezeigt. Damit lassen sich auf einfache Weise für jeden Bildschirm getrennte Einstellungen vornehmen. <br/>*Off:* Die Workspace-Buttons auf dem Hauptdisplay steuern die Anzeige aller Bildschirme.
-Virtual Hardware | Die Anzeige mit den kompakten Bedienelementen für T1 und T2.<br/>***Auto:*** Titan Go verbirgt die Kompaktanzeige automatisch, wenn ein Titan Mobile verbunden ist. <br/> *Enabled:* Die Bedienelemente werden immer angezeigt.<br/> *Disabled:* Die Kompaktanzeige wird nie verwendet..
+Virtual Hardware | Die Anzeige mit den kompakten Bedienelementen für T1 und T2.<br/>***Auto:*** Titan Go verbirgt die Kompaktanzeige automatisch, wenn ein T3 oder Titan Mobile verbunden ist. <br/> *Enabled:* Die Bedienelemente werden immer angezeigt.<br/> *Disabled:* Die Kompaktanzeige wird nie verwendet..
 Fullscreen Mode                     | *On:* Titan Go wird im Vollbild-Modus angezeigt. <br/> ***Off:*** Titan Go wird als normales Programmfenster angezeigt.
 
 -  Die beiden letzten Optionen stehen nur bei Titan Go zur Verfügung.

@@ -35,12 +35,9 @@ auf <Keys.SoftKey>IP Address = ... </Keys.SoftKey> und geben die Adresse mit den
 
 ## Einrichten der DMX-Ausgänge
 
-Das Pult arbeitet intern mit max. 64 DMX-Universen (16 direkt im Pult,
-bis zu 64 mit TitanNet), die einzeln auf die DMX-Buchsen sowie über
-Netzwerk-Knoten geroutet werden können. Der T1 ist auf ein, der T2 auf
-zwei Universen beschränkt. Die einzelnen Linien können sowohl über die
-DMX-Anschlüsse als auch [über Netzwerk](../networking/controlling-fixtures-over-a-network.md) ausgegeben werden.
+Das Pult arbeitet intern mit max. 64 DMX-Universen (siehe [DMX-Ausgänge einrichten](../system-settings/dmx-output-mapping.md) for details); beim T1 / T2 / T3 ist die Anzahl der Universen auf 1 / 2 / 16 begrenzt. Titan Go (mit einem Editor AvoKey) kann ein Universum über Art-Net oder sACN ausgeben. Der Titan Simulator (mit einem Editor AvoKey) gibt alle 64 Universen per Art-Net oder sACN aus, allerdings mit gelegentlichen Störungen (dem "Spoiler").
 
+Die einzelnen Dimmer/Geräte werden in Titan auf eine der 64 DMX-Linien gepatcht.
 Die Zuordnung interner DMX-Linien zu Netzwerklinien erfolgt im Menü
 [DMX Settings](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs).
 Oft wird man einfach Linie 1 auf Netzwerk-Universum 1, Linie 2 auf Universum 2 etc.

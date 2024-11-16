@@ -10,6 +10,22 @@ import Video from '@site/src/components/video.tsx';
 "Wings" bieten zusätzliche Bedienelemente wie Fader und Tasten, und sind
 je nach Einsatzzweck eine sinnvolle Ergänzung.
 
+## T3 Wing
+
+Das T3 Wing ergänzt das Pult um 20 zusätzliche Playbackfadern und 30
+Macro/Executor-Tasten. Es wird einfach mit einem USB-Kabel an das Pult bzw. den PC, auf dem die Titan-Software läuft, angeschlossen.
+
+Von der Größe und Form her ist es die ideale Ergänzung zum T3, kann aber auch als Erweiterung 
+mit jedem anderen Titan-Pult (ab Version 16) verwendet werden. Ebenso kann es als Faderboard für das T2 dienen.
+
+![T3 Wing](/docs/images/T3-Wing.png)
+
+Zur Anzeige der Belegung der Fader und Tasten auf dem Wing gibt es das Fenster
+"Mobile Wing". Um dieses zu öffnen, drücken Sie zweimal 
+auf <Keys.HardKey>View/Open</Keys.HardKey> und wählen "Mobile Wing". Mit den 
+Kontext-Buttons kann man verschiedene Anzeigearten dieses Fensters wählen, z.B. 
+alles zusammen, nur die Fader, nur die Tasten etc.
+
 ## Tiger Touch Wing
 
 Der Tiger Touch Wing bietet 30 zusätzliche Fader/Tasten, die über ein
@@ -47,7 +63,7 @@ diesem, kann aber auch mit allen anderen Titan-Pulten sowie dem T2 betrieben wer
 
 ![Titan Mobile Wing](/docs/images/Titan-Mobile-Wing.png)
 
-Zur Anzeige der Belegung der Fader und Tasten gibt es das Fenster
+Zur Anzeige der Belegung der Fader und Tasten auf dem Wing gibt es das Fenster
 "Mobile Wing". Um dieses zu öffnen, drücken Sie zweimal 
 auf <Keys.HardKey>View/Open</Keys.HardKey> und wählen "Mobile Wing". Mit den 
 Kontext-Buttons kann man verschiedene Anzeigearten dieses Fensters wählen, z.B. 

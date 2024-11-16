@@ -33,7 +33,7 @@ Erstellen eines Reports:
 
 Reports werden in folgenden Verzeichnissen gespeichert:
 
-- bei der Titan PC Suite (Titan Mobile, Titan Go, Titan
+- bei der Titan PC Suite (Titan Go, Titan
 Simulator) im Verzeichnis `Eigene Dokumente\Titan\Reports`
 - bei allen Pulten im Verzeichnis `D:\Data\Reports`
 

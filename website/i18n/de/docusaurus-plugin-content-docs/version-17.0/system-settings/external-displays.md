@@ -14,7 +14,7 @@ können zwei externe Bildschirme angeschlossen werden, bei allen anderen Konsole
 sich jeweils Touchscreens verwenden, wobei empfohlen wird, 'Windows Touch'-kompatible
 Modelle zu verwenden.
 
-Titan Go, Titan Simulator und das Titan Mobile unterstützen bis zu drei 
+Titan PC-Suite (Titan Go, Titan Simulator) unterstützt bis zu drei 
 Bildschirme, wobei die konkrete Anschlussmöglichkeit vom verwendeten 
 Computer abhängt.
 

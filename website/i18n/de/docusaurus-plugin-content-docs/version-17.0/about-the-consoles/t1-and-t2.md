@@ -7,26 +7,22 @@ sidebar_label: T1 und T2
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-T1 und T2 sind USB-Dongles zum Betrieb an einem Windows-Computer (PC oder
-Laptop). Zu den Systemanforderungen siehe [Inbetriebnahme von Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2). 
+T1 und T2 sind USB-Geräte zum Betrieb an einem Windows-Computer (PC oder
+Laptop). Zu den Systemanforderungen siehe [Inbetriebnahme von T3/Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-t3titan-mobile-und-t1t2). 
 T1 und T2 enthalten jeweils den AvoKey.
 
-Der T1 stellt einen DMX-Anschluss (5pol XLR) zur Ausgabe eines
-DMX-Universums zur Verfügung. USB-MIDI ist mit dem T1 nicht möglich.
+Der **T1** gibt ein DMX-Universum per 5pol XLR und über sACN/ArtNet aus (Netzwerkanschluss des Computers). USB-MIDI ist mit dem T1 nicht möglich.
 
 ![T1 USB DMX Dongle](/docs/images/T1.png)
 
-Der T2 kann zwei Universen auf 5-poligen XLR-Buchsen ausgeben und hat
-einen Audio/LTC-Eingang. Außerdem erlaubt er die Verwendung von
-USB-MIDI-Geräten, etwa von Faderboards, und kann mit dem Titan Mobile
-Faderwing betrieben werden.
+Der **T2** kann zwei DMX-Universen auf 5-poligen XLR-Buchsen sowie per sACN/ArtNet über den Netzwerkanschluss des Computers ausgeben und hat einen Audio/LTC-Eingang. Außerdem erlaubt er die Verwendung von USB-MIDI-Geräten, etwa von Faderboards, und kann mit dem T3 Wing oder dem Titan Mobile Faderwing betrieben werden.
 
 ![T2 USB DMX Dongle](/docs/images/T2.png)
 
 <Video videoId="wO94RvG6agI" title="T2 USB Interface"></Video>
 
 Der ältere Titan One (nicht mehr angeboten) stellt ebenfalls ein DMX-Universum als 
-5-pol Anschluss zur Verfügung. USB-MIDI wird nicht unterstützt.
+5-pol Anschluss sowie als sACN/ArtNet über Netzwerk zur Verfügung. USB-MIDI wird nicht unterstützt.
 
 ![Titan One Dongle](/docs/images/titan-one-cabled.png)
 
@@ -36,7 +32,7 @@ Der ältere Titan One (nicht mehr angeboten) stellt ebenfalls ein DMX-Universum 
 
 ## Installieren der Titan-Software
 
-Installieren Sie die Titan PC-Suite (siehe [Inbetriebnahme von Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2)), bevor das
+Installieren Sie die Titan PC-Suite (siehe [Inbetriebnahme von T3/Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-t3titan-mobile-und-t1t2)), bevor das
 Gerät angeschlossen wird, damit die richtigen Treiber installiert und
 verwendet werden. Dort sind auch einige Windows-Einstellungen aufgeführt, die überprüft
 werden sollten, um einen reibungslosen Betrieb zu gewährleisten.

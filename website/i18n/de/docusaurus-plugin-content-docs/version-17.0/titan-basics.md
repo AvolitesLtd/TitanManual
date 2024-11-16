@@ -84,9 +84,9 @@ Backup-Pult angeschlossen ist! Wird das Pult normal heruntergefahren,
 so bleibt der Switch aufgrund seiner USV noch etwa 5 Minuten
 eingeschaltet.
 
-## Inbetriebnahme von Titan Mobile und T1/T2
+## Inbetriebnahme von T3/Titan Mobile und T1/T2
 
-Verbinden Sie das Titan Mobile bzw. den T1/T2 erst mit Ihrem Computer,
+Verbinden Sie das T3/Titan Mobile bzw. den T1/T2 erst mit Ihrem Computer,
 wenn Sie die **Titan PC-Suite** installiert haben. Zur Installation führen Sie
 einfach das Installationsprogramm aus; damit werden auch alle
 erforderlichen Treiber installiert.
@@ -103,8 +103,10 @@ Für den Betrieb von Titan Mobile, Titan One und dem Titan Simulator gibt
 es ein einheitliches Software-Paket: die **Avolites Titan PC-Suite**.
 Diese enthält alle genannten Programme.
 
-&nbsp;**Titan Mobile:** Sobald die Titan PC-Suite installiert ist, können Sie das
-Titan Mobile per USB-Kabel mit Ihrem PC verbinden (sollte das Pult über
+### T3/Titan Mobile
+
+Sobald die Titan PC-Suite installiert ist, können Sie das
+T3 bzw. Titan Mobile per USB-Kabel mit Ihrem PC verbinden (sollte das Pult über
 zwei USB-Buchsen verfügen, so ist nur die obere zu verwenden). Der PC
 erkennt daraufhin neue Hardware; bei den entsprechenden Rückfragen
 wählen Sie ‚Software automatisch installieren'. Bei älteren Titan
@@ -112,7 +114,11 @@ Mobiles, die keinen AvoKey enthalten, ist ein separater AvoKey
 erforderlich und muss parallel zum Titan Mobile an einer weiteren
 USB-Buchse angeschlossen sein.
 
-Die Stromversorgung erfolgt über den USB-Anschluss. Optional kann ein
+Beim T3, sowie bei neueren Titan Mobiles, ist ein AvoKey bereits eingebaut und auch bereits lizenziert. Damit können diese ohne weitere Lizenzierung an jedem Computer mit der Titan PC-Suite betrieben werden, wobei die Software unbedingt einen AvoKey - oder eben ein T3 oder Titan Mobile - benötigt, um zu starten. Siehe [Software-Lizenzierung](./system-settings/recovering-reinstalling-the-console.md#software-lizenzierung) für weitere Details.
+
+- Titan Go erkennt automatisch, ob ein T3 oder ein Titan Mobile verbunden ist, und blendet die kompakte Anzeige der Bedienelemente, wie sie für den T1 und T2 vorgesehen ist, aus. Möchte man diese trotzdem verwenden, so lässt sich das per Benutzereinstellung [Virtual Hardware](system-settings/user-settings.md#display) auf der Seite **Display** umstellen.
+
+**Stromversorgung beim Titan Mobile**: Die Stromversorgung erfolgt über den USB-Anschluss. Optional kann ein
 separates Netzteil (9 V Gleichspannung) angeschlossen werden. Für dieses
 gelten folgende Spezifikationen: 9-12V Gleichspannung, 800mA;
 Steckverbinder, außen 5,5mm, innen 2,5mm, 9,5mm lang; Pluspol auf dem
@@ -125,31 +131,30 @@ AvoKey fest gespeichert und bezieht sich auf das jeweilige Titan Mobile.
 Dieses kann also - mit dem entsprechenden AvoKey - ohne weitere
 Lizenzierung auch an anderen Computern betrieben werden.
 
-&nbsp;**T1/T2:** Diese bieten volle Titan-Funktionalität, sind aber auf ein 
+### T1/T2
+
+Der T1 und T2 bieten volle Titan-Funktionalität, sind aber auf ein 
 bzw. zwei Universen beschränkt (der T1 kann zudem nicht per MIDI und 
 WebAPI gesteuert werden). Zum Betrieb ist die Software Titan Go zu 
-starten. Auch der T1/T2 ist ggf. beim ersten Start noch zu lizenzieren (ältere Geräte) und kann 
-danach mit jedem Computer betrieben werden. 
+starten. Auch der T1/T2 ist bereits ab Werk lizenziert und kann 
+mit jedem Computer betrieben werden. 
 
-Soll der **Titan One** (ältere Version mit Kabel) mit Titan ab Version 12 verwendet werden, so muss 
+- Soll der **Titan One** (ältere Version mit Kabel) mit Titan ab Version 12 verwendet werden, so muss 
 ein AvoKey parallel dazu per USB angeschlossen sein.
 
-&nbsp;**Titan Simulator:** auch der Titan Simulator benötigt einen AvoKey (den
-Editor AvoKey) und muss einmalig lizenziert werden.
+### Windows-Einstellungen für die Titan PC-Suite
 
-- Titan Go erkennt automatisch beim Start, ob ein Titan Mobile angeschlossen ist. In diesem Fall wird die kompakte Ansicht der Bedienelemente, die für den T1 und T2 gedacht ist, verborgen. Dies lässt sich manuell überschreiben, siehe [Benutzereinstellungen/Display](system-settings/user-settings.md#display).
+Oft haben Windows-PCs ab Werk ein paar Voreinstellungen, die z.B. die USB-Hardware trennen, den Computer in den Ruhezustand versetzen, oder andere Dinge tun, die man während der Show nicht gebrauchen kann. Um unerwünschte Unterbrechungen während der Show zu vermeiden, empfehlen sich bei der Verwendung eines T1/T2/T3 oder Titan Mobile auf einem normalen PC folgende **Windows Systemeinstellungen**:
 
-Um unerwünschte Unterbrechungen während der Show zu vermeiden, empfehlen sich bei der Verwendung eines T1/T2 oder Titan mobile auf einem normalen PC folgende **Windows Systemeinstellungen**:
+1. USB Power Saving für das T1/T2/T3/Titan Mobile deaktivieren (im Gerätemanager, Eigenschaften des Geräts)
 
-- USB Power Saving für das T1/T2/Titan Mobile deaktivieren (im Gerätemanager, Eigenschaften des Geräts)
+2. Bildschirm/PC/Festplatte nie deaktivieren (normalerweise einen entsprechenden Energiesparplan wählen oder erstellen)
 
-- Bildschirm/PC/Festplatte nie deaktivieren (normalerweise einen entsprechenden Energiesparplan wählen oder erstellen)
+3. automatische Windows-Updates deaktivieren
 
-- automatische Windows-Updates deaktivieren
+4. Indizierung der Festplatte deaktivieren
 
-- Indizierung der Festplatte deaktivieren
-
-- die Firewall deaktivieren
+5. die Firewall deaktivieren
 
 ## Titan Healthcheck -- die Eigendiagnose
 
@@ -167,14 +172,7 @@ können.
 
 ## DMX anschliessen
 
-Die Kommunikation mit den Dimmern und Moving Lights erfolgt per DMX512.
-Die aktuellen Titan-Pulte können jeweils bis zu 16 Universen (à 512
-Kanäle) verwalten. Werden mehr Universen benötigt, so empfiehlt sich die
-Verwendung eines oder mehrerer TNPs (Titan Network Processor), um die
-erforderliche Rechenleistung bereitzustellen. Damit können bis zu 64
-DMX-Universen gesteuert werden. Mehr dazu im Abschnitt [Einrichten der DMX-Ausgänge](system-settings/dmx-output-mapping.md#einrichten-der-dmx-ausgänge).
-
-DMX kann sowohl über XLR-Buchsen (5-polig) als auch über verschiedene
+DMX kann sowohl über die XLR-Buchsen (5-polig) als auch über verschiedene
 Netzwerkprotokolle (Art-Net, sACN) ausgegeben werden, um andere
 DMX-Ethernet-Nodes, Medienserver und anderes zu steuern,
 
@@ -214,7 +212,7 @@ man mehr Oberfläche zur Anzeige weiterer Fenster (etwa für den
 Visualiser oder das Channel-Grid) sowie - im Falle eines Touchscreens - 
 weiterer Steuerelemente. Bei Touchscreens empfehlen sich Modelle, die
 zu Windows Touch kompatibel sind, um Probleme durch separate Treiber zu
-vermeiden. Beim Titan Mobile und Titan One/T1/T2 ist ein zweiter und dritter Bildschirm
+vermeiden. Bei der Titan PC-Suite (Titan Go/Titan Simulator) ist ein zweiter und dritter Bildschirm
 davon abhängig, dass der verwendete Computer dies unterstützt.
 
 Der externe Bildschirm ist standardmäßig deaktiviert, und zeigt das mit

@@ -11,6 +11,8 @@ Dieses Kapitel beschreibt, wie Cues in Cuelisten editiert werden.
 Geht es hingegen darum, die ganze Cueliste zu verschieben, zu kopieren oder 
 zu löschen, sei auf das Kapitel [Kopieren, verschieben, verlinken, löschen](../cue-lists/copying-moving-linking-and-deleting.md) verwiesen.
 
+- Zum Editieren von Cues per Tastatursyntax siehe [Tipps für Theater-Programmierer](./theatre-programming.md).
+
 ## Das Fenster Playback View
 
 Am einfachsten lässt sich eine Cueliste in der Playback-Ansicht
@@ -235,8 +237,8 @@ Filter:
 
 Da in einer Cueliste die einzelnen Werte für die einzelnen Cues
 nachverfolgt werden [Tracking](cue-list-playback.md#tracking), muss 
-beim Ändern eines bestimmten Schritts ermittelt werden, aus welchem 
-Schritt die zu ändernden Werte stammen. 
+beim Ändern eines bestimmten Schritts ermittelt werden, in welchem 
+Cue die zu ändernden Werte ursprünglich programmiert wurden. 
 
 Die **Update**-Funktion geht die vorherigen Schritte durch und ermittelt,
 welcher Schritt genau geändert werden muss.
@@ -384,3 +386,14 @@ wählen <Keys.SoftKey>Include Cue</Keys.SoftKey>.
 Auf diese Weise kann man Cues aus Cuelisten auch anderweitig
 weiterverwenden sowie Shapes/Effekte in diesem Cue editieren (geht auch
 per [Playback View](#das-fenster-playback-view)).
+
+## Mergen/verschmelzen einzelner Werte
+
+Beim Mergen/Verschmelzen von Werten in Cuelisten auf **die gleichen Geräte** wird das immer "by channel" 
+gespeichert unabhängig vom Recordmode. Ansonsten würden sämtliche Werte überschrieben werden. Daher werden 
+für die bereits vorhandenen Geräte nur die Kanäle im Programmer gespeichert. Man kann also beruhigt den 
+Recordmode auf 'by Fixture' belassen.
+
+Geräte, die in diesem Cue noch gar nicht vorhanden sind, werden hingegen "by fixture" gespeichert, also 
+mit allen Attributen. Das ist für die Theaterprogrammierung normalerweise der beste Weg, einen definierten 
+Ausgangszustand zu haben. Erforderlichenfalls können die WErte später geändert oder gelöscht werden.

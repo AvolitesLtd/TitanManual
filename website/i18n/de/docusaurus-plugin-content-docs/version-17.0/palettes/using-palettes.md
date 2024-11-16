@@ -96,3 +96,5 @@ Sie können ebenso Paletten auf alle Geräte in einem bestimmten Cue
 anwenden. Dazu drücken und halten Sie die entsprechende
 Paletten-Schaltfläche, und betätigen dazu die Auswahltaste des Cues, auf
 den die Palette angewendet werden soll.
+
+Alternativ kann man die **Flash**-Taste des Playbacks gedrückt halten und klickt dazu auf die gewünschte Palette.

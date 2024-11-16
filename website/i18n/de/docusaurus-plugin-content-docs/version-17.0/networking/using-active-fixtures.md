@@ -24,7 +24,7 @@ In diesem Beispiel wird ein Hippotizer mit einem Titan-Pult verbunden.
 oder ggf. mittels eines Crossover-Kabels).
 2. Stellen Sie die IP-Adressen so ein, dass beide nicht identisch, aber
 in einem Bereich sind, also z.B. `192.168.0.1` und `192.168.0.2`.
-3. Bei der Verwendung des Titan Mobiles oder des Simulator ist ggf. die
+3. Bei der Verwendung der Titan PC-Suite (Titan Mobiles oder Titan Simulator) ist ggf. die
 Firewall zu deaktivieren; gleiches gilt für den Hippotizer.
 4. Starten Sie den Hippotizer. Überprüfen Sie, dass die CITP
 Component geladen ist.

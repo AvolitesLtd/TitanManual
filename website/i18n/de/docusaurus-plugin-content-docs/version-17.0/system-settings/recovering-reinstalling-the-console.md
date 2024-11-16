@@ -92,7 +92,7 @@ USB-Lizenzdongle.
 Beim ersten Start öffnet sich der Authenticator, ein Hilfsprogramm, das
 Schritt für Schritt durch den Lizenzierungsprozess führt. Sobald die
 Lizenz auf dem AvoKey gespeichert ist, ist keine neue Lizenzierung mehr
-erforderlich. Für das Titan Mobile sowie den T1 und T2 bedeutet dies,
+erforderlich. Für die Titan PC-Suite (Titan Mobile, T1, T2, T3) bedeutet dies,
 dass diese an beliebigen Computern ohne neue Lizenzierung verwendet
 werden können, solange sich an der Avolites-Hardware nichts ändert.
 

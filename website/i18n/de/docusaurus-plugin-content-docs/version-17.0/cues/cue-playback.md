@@ -211,6 +211,8 @@ Benutzereinstellung [Release Priority](../system-settings/user-settings.md#relea
 welcher Priorität released werden sollen. Stellt man diese Einstellung auf 'Low', so kann man nicht versehentlich 
 alles releasen, außer es wurden gezielt einzelne Playbacks auf Priorität Low gesetzt.
 
+-   Während des Releasens werden die betreffenden Playbacks gelb angezeigt, um zu zeigen, dass diese noch aktiv sind.
+
 ## Release Mask (Release einzelner Attribute)
 
 Mit der **Release-Maske** kann man einstellen, welche Attribute released werden. Es gibt eine **globale** 

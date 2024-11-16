@@ -9,7 +9,7 @@ import Video from '@site/src/components/video.tsx';
 
 Das Titan Mobile ist ein PC-Wing, der mittels USB an einen Computer
 angeschlossen wird, auf dem Titan Go läuft. Zu den 
-Systemanforderungen siehe [Inbetriebnahme von Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-titan-mobile-und-t1t2).
+Systemanforderungen siehe [Inbetriebnahme von T3/Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-t3titan-mobile-und-t1t2).
 
 ![Titan Mobile](/docs/images/Titan-Mobile.png)
 
@@ -55,7 +55,7 @@ z.B. <Keys.SoftKey>Edit Times</Keys.SoftKey>
 ## Der Bildschirm
 
 Das System lässt sich am komfortabelsten mit einem Touchscreen bedienen. 
-Verwenden Sie hingegen eine Maus, so0 klicken Sie mit der Maus einfach auf 
+Verwenden Sie hingegen eine Maus, so klicken Sie mit der Maus einfach auf 
 die betreffenden Stelle, wenn im Handbuch ‚berühren' steht.
 
 ![Titan Mobile Screen](/docs/images/Titan-Mobile-Screen.png)

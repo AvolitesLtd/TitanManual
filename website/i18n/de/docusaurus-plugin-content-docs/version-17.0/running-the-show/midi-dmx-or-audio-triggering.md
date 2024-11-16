@@ -21,12 +21,13 @@ Die folgenden Triggerarten (Signale) sind möglich:
 - Streaming ACN
 
 > Audiotrigger (Sound to Light) erfordern spezielle Hardware und sind 
-derzeit nur beim Quartz und beim Arena verfügbar. Eine bei anderen Pulten
+auf dem Sapphire Touch, Tiger Touch, Titan Mobile, T1, T3 und dem Pearl 
+Expert **nicht** verfügbar. Eine bei anderen Pulten
 eventuell verfügbare Line-In-Buchse kann nicht als Sound-to-Light-Eingang 
-verwendet werden. Dagegen kann der T2 als Sound-Eingang für andere Pult 
-dienen.<br/>
-  &nbsp;<br/>
-  GPIO steht nur auf dem Diamond 9, dem Arena, dem Tiger Touch II und dem Sapphire Touch zur Verfügung.
+verwendet werden. Dagegen kann der T2 als Sound-Eingang für andere Pulte 
+dienen.
+
+GPIO steht nur auf dem Diamond 9, dem Arena, dem Tiger Touch II und dem Sapphire Touch zur Verfügung.
 
 ## Anschließen externer Steuerungen
 

@@ -50,7 +50,6 @@ GROUP  (Gruppe)     | Zusammenstellung von gepatchten Geräten, die mit einem Kl
 HALO		| Farbiger Rand um eine Schaltfläche zur besseren Übersicht.
 HANDLE		| Speicherplatz, auf dem irgendetwas gespeichert werden kann. Kann eine Schaltfläche, ein Fader oder eine Taste sein.
 HTP			| Highest Takes Precedence, ein Mechanismus, der beschreibt, wie der Ausgangspegel durch mehrere Playbacks gesteuert wird. Üblich für Dimmer (Helligkeitswerte): der höchste Wert hat Vorrang. Siehe dagegen LTP.
-HUD			| Heads-up-display, ein Informationsfenster insbesondere für ältere Pulte.
 INCLUDE		| Laden eines Cues oder Chase-Schritts in den Programmer.
 IPCGBESFX	| Attributgruppen, wobei die Kanäle zusammengefasst werden, die systematisch zusammengehören. Die Buchstaben stehe für Intensity, Position, Colour, Gobo, Beam, Effect, Special, FX (Shapes). So enthält etwa die Gruppe P (Position) Pan und Tilt. 
 KEY FRAME SHAPE	| Effekt, bei dem verschiedene Status programmiert werden, zwischen denen jeweils die Geräte wechseln.

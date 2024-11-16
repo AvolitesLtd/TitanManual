@@ -402,6 +402,8 @@ Schritt im gewählten Muster anzuwählen (auf manchen Pulten <Keys.HardKey>Next<
 -   Diese Funktionen stehen ebenfalls auf den Menütasten zur Verfügung,
     wenn man einen Gruppen-Button gedrückt hält.
 
+-   Bei der Verwendung der Geräteauswahl nach Muster kann man um eine komplette 'Musterbreite' (also einen kompletten Block) springen, indem man die <Keys.HardKey>Avo</Keys.HardKey>-Taste gedrückt hält und dazu <Keys.HardKey>Fix +1</Keys.HardKey> oder <Keys.HardKey>Fix -1</Keys.HardKey> drückt.
+
 ## Auswahl von Geräten in einem Cue
 
 Zur Auswahl der Geräte, die in einem bestimmten Cue enthalten sind,

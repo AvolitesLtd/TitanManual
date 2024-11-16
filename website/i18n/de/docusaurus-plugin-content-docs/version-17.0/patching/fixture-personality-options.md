@@ -183,8 +183,8 @@ im Pult editiert werden.
 	Änderungen direkt in die Show übernommen werden sollen.
 
 -   Von Ihnen erstellte/geänderte Personalities werden in das dafür
-    vorgesehene Verzeichnis D:\\Personalities (beim Simulator, Titan
-    Mobile und Titan One ist dies \\Eigene
+    vorgesehene Verzeichnis D:\\Personalities (beim Titan Simulator, Titan
+    Mobile und Titan Go ist dies \\Eigene
     Dokumente\\Titan\\Personalities) gespeichert. Dieses Verzeichnis
     wird beim Patchen zuerst durchsucht, und beim Updaten der
     allgemeinen Personalities nicht verändert.
