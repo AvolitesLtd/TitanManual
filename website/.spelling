@@ -16,6 +16,7 @@ gimbal
 glitching
 gobo
 gobos
+gooseneck
 keystoning
 nd
 num
@@ -101,6 +102,7 @@ D9-330
 D9-215
 D7-330
 D7-215
+DisplayPort
 DMX-in
 Esc
 Ethernet
@@ -109,6 +111,7 @@ EtherCON
 ExpertDMX
 FixtureLibrary
 GamColor
+Gooseneck
 Goto
 Healthcheck
 HiLight
