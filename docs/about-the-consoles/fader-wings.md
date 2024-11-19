@@ -44,10 +44,10 @@ position, allowing you to attach two of the wings to a console. The switch posit
 is only read on power-up.
 
 The Tiger Touch Wing is designed to fit next to the Tiger Touch console
-but can also be used with the D9, D7, the Sapphire Touch, the Arena and the
+but can also be used with the D9, the Sapphire Touch, the Arena and the
 Pearl Expert.
 
-> If you connect the Tiger Touch wing to a D9-330 or D7-330, the left hand faders on the console are the same handle group as the
+> If you connect the Tiger Touch wing to a D9-330, the left hand faders on the console are the same handle group as the
 faders on the wing, so the same playbacks will appear in both places.
 
 

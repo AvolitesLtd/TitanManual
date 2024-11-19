@@ -65,7 +65,7 @@ available:
 
 ## The Toolbar
 
-On all consoles except Diamond 9 and Sapphire Touch, across the very top of the screen
+On all consoles except Diamond 9, Diamond 7 and Sapphire Touch, across the very top of the screen
 is the toolbar.
 
 ![Tools Menu](/docs/images/Tools-Menu.png)
@@ -75,8 +75,10 @@ meet in the middle.
 
 ![Sapphire Tools Menu](/docs/images/Sapphire-Tools-Menu.png)
 
-On Diamond 9 / Diamond 7 the toolbar is replaced by a small <Keys.ContextKey>Tools</Keys.ContextKey> button at the top
-left of the right hand touchscreen. There is also a <Keys.HardKey>Tools</Keys.HardKey> button on the
+On Diamond 9 / Diamond 7 the toolbar is replaced by a small <Keys.ContextKey>Tools</Keys.ContextKey> button. On D9 this is at the top
+left of the right hand screen. On D7-215 (2 screens) it is at the top left of the left hand screen, on D7-330 (3 screens) it is at the 
+top left of the centre screen.
+There is also a <Keys.HardKey>Tools</Keys.HardKey> button on the
 pull-out keyboard.
 
 ![D9 Tools button](/docs/images/Tools-Button-D9.png)

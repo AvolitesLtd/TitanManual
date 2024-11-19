@@ -46,7 +46,7 @@ For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](
 
 
 ## <Keys.HardKey>All</Keys.HardKey> 
- Used to start and end pattern selection (such as odd/even) within a range of selected fixtures. See [Selecting fixtures using a pattern](../controlling-fixtures.md#selecting-fixtures-using-a-pattern). (On D9/D7 labelled <Keys.HardKey>Pattern/All</Keys.HardKey>)
+ Used to start and end pattern selection (such as odd/even) within a range of selected fixtures. See [Selecting fixtures using a pattern](../controlling-fixtures.md#selecting-fixtures-using-a-pattern). (On D9/D7/T3 labelled <Keys.HardKey>Pattern/All</Keys.HardKey>)
 
 
 

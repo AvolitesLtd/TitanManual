@@ -157,9 +157,8 @@ between auto and fixed button size modes.
 You can save workspace layouts, allowing you to reconfigure either all the windows on one
 screen, or all the windows on all the screens, at the touch of a button.
 
-Workspace layouts are saved to the Workspaces touch buttons to the left
-of the A-G menu buttons and above the wheel displays (except on Diamond 9, Diamond 7,  Sapphire Touch and Titan Go where
-they are on the left side of the screen).
+Workspace layouts are saved to the Workspaces touch buttons. Depending on the console these are either
+above the Wheel displays or in a bar down the side of the screen.
 
 ![Workspaces](/docs/images/Recoding-a-Workspace-Layout.png)
 

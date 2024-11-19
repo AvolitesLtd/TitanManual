@@ -232,10 +232,12 @@ console does not have enough USB sockets itself.
 
 All consoles provide MIDI connections which can be used to trigger
 playbacks or connect MIDI timecode to the console for
-timecode-controlled cue lists. Except for Pearl Expert, a SMPTE input is
-provided on the rear panel to allow the console to be linked to a
-timecode source. MIDI cannot be used with the T1 dongle, but can be used
-with T2 if you attach a USB-MIDI device.
+timecode-controlled cue lists. USB-MIDI devices may also be used. MIDI cannot be used with the T1, but can be used
+with T2 and T3 if you attach a USB-MIDI device.
+
+Some consoles provide a SMPTE input 
+to allow the console to be linked to a
+timecode source. 
 
 You can connect the console to a LAN (local area network) using the EtherCON or RJ45
 network socket(s) on the rear. This allows you to operate many more
@@ -248,7 +250,7 @@ the console. Suitable lamps are available from Avolites. The lamps are
 (not all desk lamps are wired like this and may require rewiring to
 work). 
 
-- You can set the brightness of the desk lamps from the **System** menu 
+- You can set the brightness of the desk lamps on the wheels when in the **System** menu 
 	(press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>).
 
 ## Connecting Console Wings
