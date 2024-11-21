@@ -25,6 +25,8 @@ used with any of the Avolites Titan console range and also the T2 USB device.
 If you want to see the legends and function information for the controls on the wing, there is a **Mobile Wing** workspace window - double click <Keys.HardKey>View/Open</Keys.HardKey> and select "Mobile Wing". Using the Context Menu buttons you can select different views for this workspace which combine the playbacks and macro/executor buttons into one screen, or you can display them in separate
 pages.
 
+The T3 Wing can be used with consoles running Titan v16 or newer.
+
 
 ## Tiger Touch Wing
 

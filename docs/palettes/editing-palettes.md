@@ -89,7 +89,7 @@ When double clicking a palette button to update, the default option is
 ## Identifying Playbacks Which Use a Palette
 
 If you are going to edit a palette it can be useful to check which playbacks reference that palette. You can 
-do this by viewing the palette as described above, then select the context menu option <Keys.SoftKey>View Playbacks Using Palette</Keys.SoftKey>. This will highlight all the playbacks which include the current palette.
+do this by viewing the palette as described above, then select the context menu option <Keys.SoftKey>View Playbacks Using Palette</Keys.SoftKey>. This will open the **Referencing Playbacks** window showing all the playbacks which include the current palette.
 
 ## Updating Palettes Used in a Playback
 

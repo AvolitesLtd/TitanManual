@@ -237,7 +237,7 @@ the same fader group from another page
 &nbsp;<Keys.SoftKey>Release All Playbacks In This Group</Keys.SoftKey> - releases any active playback in
 the fader group.
 
-The release will use the [Temporary Release Mask](./playback-options.md#temporary-release-mask) as described above. 
+The release will use the [Temporary Release Mask](./cue-playback.md#temporary-release-mask) as described above. 
 
 > **"Fader Group"** refers to a particular area of the console, for example
 the main faders below the screen on a Tiger Touch or the top row on the
