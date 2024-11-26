@@ -198,12 +198,12 @@ You can also show or hide various parts of the display to make more space in the
 
 In the Context menu for the Tracking View screen there are Sort and Filter options:
 - <Keys.ContextKey>Attributes</Keys.ContextKey> can be sorted in IPCGBES Bank Order or by Current Bank First where the selected attribute bank shows first, followed by the others.
-- <Keys.ContextKey>Window Scroll</Keys.ContextKey> can be sorted by User Number, Last Selected and DMX Address.
-- <Keys.ContextKey>Columns</Keys.ContextKey> can be sorted as Fixture then Attribute (each fixture listed with all its attributes) or Attribute then Fixture (same attributes listed together).
+- <Keys.ContextKey>Fixtures</Keys.ContextKey> can be sorted by User Number, Last Selected and DMX Address.
+- The sort order can be set as <Keys.ContextKey>Fixtures then Attributes</Keys.ContextKey> (each fixture listed with all its attributes) or <Keys.ContextKey>Attributes then Fixtures</Keys.ContextKey> (same attributes listed together).
 
 For the Filter options
-- <Keys.ContextKey>By Current Wheels</Keys.ContextKey> links the Attribute filters to the currently selected attribute bank (also changing the attribute bank filter in the Tracking View window will change the attribute bank for the wheels when this option is enabled).
-- <Keys.ContextKey>By Fixture Selection</Keys.ContextKey> links the window to currently selected fixtures when enabled.
+- <Keys.ContextKey>Bank Selection</Keys.ContextKey> links the Attribute filters to the currently selected attribute bank (also changing the attribute bank filter in the Tracking View window will change the attribute bank for the wheels when this option is enabled).
+- <Keys.ContextKey>Fixture Selection</Keys.ContextKey> links the window to currently selected fixtures when enabled.
 
 
 ## Using Update to Change Tracked Cues

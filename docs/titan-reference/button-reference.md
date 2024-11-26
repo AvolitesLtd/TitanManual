@@ -554,7 +554,7 @@ Buttons | Action
  Buttons | Action
  --------|--------
   <Keys.HardKey>Release</Keys.HardKey> {Master} | Releases the master to its default state (no effect on output), see [Releasing a Master](../cues/cue-playback.md#releasing-a-master).
-  <Keys.HardKey>Release</Keys.HardKey> {Playback} | Release the playbacks by priority. See [Release](../cues/cue-playback.md#release).
+  <Keys.HardKey>Release</Keys.HardKey> {Playback} | Release the playback (ignoring its priority). See [Release](../cues/cue-playback.md#release).
   <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Clear</Keys.HardKey> | Release attributes in the programmer. See [Release](../cues/cue-playback.md#releasing-the-programmer-contents).
   <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Go Page</Keys.HardKey> | Release whole page of playbacks. See [Release Page](../cues/cue-playback.md#releasing-a-whole-page-of-playbacks).
   <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Release</Keys.HardKey> | Release all active playbacks by priority. See [Release](../cues/cue-playback.md#release).
@@ -588,7 +588,7 @@ Buttons | Action
 
 
 ## <Keys.HardKey>Select If</Keys.HardKey> 
- Selects all fixtures which have intensity above zero. See [Select If](../controlling-fixtures.md#selecting-fixtures-which-are-in-a-playback).
+ Selects all fixtures which are in a playback or have a particular intensity level, see [Select If](../controlling-fixtures.md#selecting-fixtures-which-are-in-a-playback).
 
 
 
@@ -598,7 +598,7 @@ Buttons | Action
 
 
 ## <Keys.HardKey>Shape</Keys.HardKey> 
- Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects. See [Shapes and Effects](../effects.md).
+ Selects attribute bank Shapes, and sets wheels to shape parameters (Speed, Size, Spread, etc.) See [Shapes and Effects](../effects.md).
 
 
 
