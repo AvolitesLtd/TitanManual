@@ -290,8 +290,6 @@ To create a mask:
 - This function replaces the **Block Shapes** function of previous versions. Shows containing Block Shapes from previous versions
   will load and work as expected, but the block shapes will be renamed "Mask".
 
-- The personality library may need updating for this to work. 
-
 ## Storing Shapes in Palettes
 
 You can create palettes containing shapes. This is really useful to
