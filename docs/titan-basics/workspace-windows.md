@@ -117,15 +117,15 @@ On all consoles apart from Sapphire Touch and Titan Go, **context menu
 buttons** appear which contain useful functions for the current
 active window and change depending on the window. 
 
-On Diamond 9 and Diamond 7 the context menu buttons are in the top left hand corner of the right
-hand screen - on all other consoles they are below the prompt area on the top right 
+On Diamond 9 the context menu buttons are in the top left hand corner of the right
+hand screen; on Arena, Quartz and Tiger Touch they are below the prompt area on the top right 
 of the main screen. 
 The picture below gives an example of
 how the context buttons appear when Patch View window is active.
 
 ![Context Menu](/docs/images/Context-Menu.png)
 
-On Sapphire Touch and Titan Go the context menu buttons are not shown on the main screen,
+On D7, Sapphire Touch and Titan Go the context menu buttons are not shown on the main screen,
 each window has a <Keys.ContextKey>Context Menu</Keys.ContextKey> button 
 in the top window bar, which gives a drop down menu showing the
 context menu buttons for the current window.
@@ -275,7 +275,7 @@ button at a glance. Select the <Keys.SoftKey>Halo</Keys.SoftKey> option on the S
 
 If you set a [halo on fixture buttons](../patching/changing-the-patch.md#fixture-button-halo), the halo colour is also used in other windows; fixture buttons can also have an automatic halo to help identify different types of fixture, which is also used in the patch window.
 
-On the Diamond 9 and Diamond 7, the halo colour set on playbacks is used in the level bargraph lighting and the playback indicator.
+On the Diamond 9 and Diamond 7, the halo colour set on playbacks is used in the LED lighting for the faders/rotary controls.
 
 
 ## Touch Keyboard

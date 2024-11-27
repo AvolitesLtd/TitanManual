@@ -18,8 +18,7 @@ or more [Avolites TitanNet Processing (TNP) nodes](../titan-net.md). This off-lo
 processing, allowing the console to control up to 64 universes of DMX in
 total (a TNP will not increase the number of universes available from T1 / T2 / T3).
 
-> Apart from T1/T2/T3, the software does not actually limit the number of universes from a
-single console, but performance of the console may be
+> Apart from T1/T2/T3, the software does not enforce the console limit, but performance of the console may be
 degraded depending on the complexity of the content and the number of fixtures patched. A warning will be shown in the processing load section of
 the TitanNet overview.
 

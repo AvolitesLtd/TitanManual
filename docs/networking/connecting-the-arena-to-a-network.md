@@ -39,8 +39,8 @@ The network switch has 4 ports available on the back of the console.
 The mainboard Network Connection 2 is available on a separate etherCON
 connector at the back of the console and marked as "secondary Ethernet"
 on the back. We recommend that this should only be used if you need to
-connect to two different networks, for example the show network and an
-office network for documentation. Make sure that this port is not set to the same
+connect to two different networks, for example the show network and a
+media network or wifi for the remote. Make sure that this port is not set to the same
 IP range as the switch, because this will cause problems.
 
 The Diamond 9 can be fitted with a 10GbE port as an optional extra.
