@@ -1,14 +1,23 @@
 ---
 id: connecting-the-arena-to-a-network
-title: Connecting the Diamond 9 or Arena to a network
-sidebar_label: Connecting the Diamond 9 or Arena to a network
+title: Connecting consoles to a network
+sidebar_label: Connecting consoles to a network
 ---
 
-The Diamond 9 and Arena consoles are different to the other Titan consoles because they
-have a built-in network switch and an optical network connection.  **This section applies only to the Diamond 9 and 
+All Avolites consoles may be connected to an Ethernet network to allow control of fixtures by Art-Net or sACN, for multi-user setups and remote control, or to connect to a visualisation system.
+
+For T1, T2 and T3 which are used with a laptop or PC, the network connection of the laptop or PC is used. (WiFi connections should not be used for control
+of fixtures as you will not get reliable and smooth operation.)
+
+Consoles other than D9, D7 and Arena have one or two direct Ethernet connections which may be used for network setup.
+
+The D9, D7 and Arena consoles are different to the other Titan consoles because they
+have a built-in network switch and (for D9 and Arena) an optical network connection.  **The rest of this section applies only to the Diamond 9, Diamond 7 and 
 Arena consoles.**
 
-## Optical Connections
+> See the next section for details of how to configure the console for network operation, including how to set up IP addresses and how to patch network-connected fixtures.
+
+## Optical Connections (D9 and Arena)
 
 The optical network connector is a Neutrik opticalCON which uses
 multimode fibre. On the Arena the connector is a Duo, a single connector is fitted as standard, but a second
@@ -23,31 +32,45 @@ different optical switch you should contact Avolites for advice.
 ## Wired Ethernet Outputs
 
 The Diamond 9 console has an in-built 1Gb Luminex network switch; the 
-Arena console has an in-built 1Gb TitanNet switch (TNS). These are
+Diamond 7 and Arena consoles have an in-built 1Gb TitanNet switch (TNS). These are
 directly connected to the console Main board on network connection 1.
 The network switch has 4 ports available on the back of the console.
 
 The mainboard Network Connection 2 is available on a separate etherCON
 connector at the back of the console and marked as "secondary Ethernet"
 on the back. We recommend that this should only be used if you need to
-connect to two different networks, for example the show network and an
-office network for documentation.
+connect to two different networks, for example the show network and a
+media network or WiFi for the remote. Make sure that this port is not set to the same
+IP range as the switch, because this will cause problems.
 
 The Diamond 9 can be fitted with a 10GbE port as an optional extra.
 
-The network switch and the controller for the switch both use an IP
+## Changing settings on the D9 Luminex switch
+
+In normal use you will not need to change the settings on the Luminex switch, but if you have a complex network
+setup you can use Luminex's Araneo software to connect to the switch and configure it. 
+(External link)
+[https://luminex.be/products/software/araneo/](https://luminex.be/products/software/araneo/)
+
+>  On the D9 you can reset the Luminex switch to its default settings by holding the Reset button next
+to the four etherCON sockets for 5 seconds. The lights will flash red and the switch will be
+reset to its default IP address (which is printed on a sticker on the switch inside the console).
+
+## Changing the IP address of the D7 or Arena's Titan Network Switch (TNS)
+
+For Arena the network switch and the controller for the switch both use an IP
 address. When the controller IP address is set, the network switch will
 use the next one (for example controller `10.19.0.50`, network switch
-becomes `10.19.0.51`)
+becomes `10.19.0.51`). 
 
-## Changing the IP address of the Titan Network Switch (TNS)
+For D7 the network switch has a single IP address.
 
-The controller and network switch IP address do not need to be changed
-unless they overlap other devices on the network. The factory default is
+In normal use you will not need to change these IP addresses 
+unless they are already used by other devices on the network. The factory default is
 `10.19.aa.bb` where `aa.bb` is the serial number of the console *(e.g. `10.19.01.124` is
 serial number **379** or **255+124**)*.
 
-To change the IP address of the TNS in the console:
+To change the IP address of the network switch in the console:
 
 1. Open **USB Expert Console** from the **Tools** menu.
 2. Select the TNS panel<br/>
