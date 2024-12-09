@@ -134,7 +134,7 @@ Using the **Lock on Startup** setting in the **Lock** tab of [User Settings](./s
 
 If the console is in a publicly accessible location you can also lock the venue mode screen using the **Venue Mode Password** on the **Lock** tab of User Settings. To lock the screen press <Keys.SoftKey>Lock</Keys.SoftKey> in the top right hand corner. This will show the normal lock screen. When you unlock using the Venue Mode Password, the console will go back to showing the Venue Mode workspace. This allows venue staff to be able to secure the console without having full programming access.
 
-You may also want to load a default/standard show on power up in case a previous user has loaded another show. You can do this using the **Start Up Show** option on the Disk menu, see [Setting a show to load on start up](../titan-basics/loading-and-saving-shows.md#setting-a-show-to-load-on-start-up).
+You may also want to load a default/standard show on power up in case a previous user has loaded another show. You can do this using the **Start Up Show** option on the Disk menu, see [Setting a show to load on start up](./titan-basics/loading-and-saving-shows.md#setting-a-show-to-load-on-start-up).
 
 ## Tidying the console with the Move function
 

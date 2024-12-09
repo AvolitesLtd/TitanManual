@@ -10,6 +10,7 @@ const versions = require(avoParse.paths.versions);
 const legalPath = path.join(__dirname,"PDF/legal-en.md");
 const templatePath = path.join(__dirname,"PDF/eisvogel_avo.latex");
 const sectionNumberFilter = path.join(__dirname,"PDF/lua-section-number-filter.lua");
+const sectionNumberFilterDe = path.join(__dirname,"PDF/lua-section-number-filter-de.lua");
 const headerPath = path.join(__dirname,"PDF/header.yaml");
 const logoPath = path.join(__dirname,"PDF/avo.png");
 
@@ -23,20 +24,20 @@ program
 
 program.outputDir = setOutputDir(program.outputDir);
 
-let version = program.manversion ? program.manversion.toLowerCase() : "all";
+let manversion = program.manversion ? program.manversion.toLowerCase() : "all";
 const section = program.section ? program.section.toLowerCase() : null;
+
+// the link text 'Section' is set in the lua-section-number-filter.lua
+// in order to translate this copy the lua file, translate this word, add the file as constant above, 
+// and select it based on the language in generatePDF() below
+let secfilter = sectionNumberFilter;
 
 const options = {
   legal: program.legal,
   outputDir: program.outputDir,
 }
 
-if(version == 'all') {
-  for(let version of getVersions()) {
-    createPDF(version, section, options);
-  }
-}
-else {
+for(let version of avoParse.getVersions(manversion)) {
   createPDF(version, section, options);
 }
 
@@ -128,7 +129,7 @@ function replaceYaml(filename,content,sectionHeading) {
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} The content with the images fixed
  */
-function replaceLinks(filename,content,docsPath,version) {
+function replaceLinks(filename,content,docsPath,version,lang) {
   // matches all links which are to local .md files
   return content.replace(avoParse.regex.linksLocalMd, function (match,text,link,anchor) {
     let filePath = filename.split("/");
@@ -145,7 +146,7 @@ function replaceLinks(filename,content,docsPath,version) {
 
     let fullFilePath = path.resolve(docsPath, filePath, link);
 
-    let resolvedPath = resolvePageVersion(path.join(filePath, link),version)
+    let resolvedPath = resolvePageVersion(path.join(filePath, link),version,lang)
 
     if (!resolvedPath) {
       // check file exists
@@ -223,6 +224,7 @@ function replaceBr(content) {
  * Replace key tags with normal tags
  * @param {string} content Contents of the .md file with the tags in
  * @return {string} The content with the breaks replaced
+ * the additional \r for /import makes it work for files with windows-style line endings
  */
  function replaceJSX(content) {
   content = content.replace(/<Keys\.ContextKey>(.*?)<\/Keys\.ContextKey>/gmis,"{$1}");
@@ -231,7 +233,8 @@ function replaceBr(content) {
   content = content.replace(/<Keys\.Annotation>(.*?)<\/Keys\.Annotation>/gmis,"($1)");
   content = content.replace(/<strong>(.*?)<\/strong>/gmis,"**$1**");
   content = content.replace(/<em>(.*?)<\/em>/gmis,"*$1*");
-  content = content.replace(/import .*? from '.*?';\n/gmi,"");
+  content = content.replace(/import .*? from '.*?';\r?\n/gmi,""); 
+
   return content;
 }
 
@@ -259,12 +262,15 @@ function sidebarPath(version) {
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} Absolute path to the docs folder without the trailing slash, e.g. `/Users/user/AvoDocs/docs`
  */
-function docsVersionPath(version) {
+function docsVersionPath(version,lang) {
   if(version == "next") {
     return path.resolve("../docs/");
   }
   else {
     let filePath = path.join(avoParse.paths.versionedDocsDir,`version-${version}/`);
+    if (lang != avoParse.lang){
+      filePath = path.join(avoParse.paths.transDocsDir,lang,avoParse.paths.docusaurusFolder,`version-${version}/`);
+    }
     if (!fs.existsSync(filePath)) {
       throw(`Could not find versioned docs: ${filePath}`)
     };
@@ -279,7 +285,7 @@ function docsVersionPath(version) {
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} The concatenated formatted files
  */
-function formatMdFiles(docsPath, sidebar, version) {
+function formatMdFiles(docsPath, sidebar, version, lang) {
   let output = "";
   if(version == 'next') {
     docs = sidebar.docs;
@@ -295,7 +301,7 @@ function formatMdFiles(docsPath, sidebar, version) {
       sectionFound = true;
       for(let page of docs[index].items) {
         page = page.id.replace(`version-${version}/`,"")
-      output += formatMd(docsPath,page+'.md',version,sec);
+        output += formatMd(docsPath,page+'.md',version,sec,lang);
       }
     }
   }
@@ -315,9 +321,8 @@ function formatMdFiles(docsPath, sidebar, version) {
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} Absolute file path to the latest version (null if not found)
  */
-function resolvePageVersion(filename,version) {
-  let filepath = path.resolve(docsVersionPath(version), filename);
-
+function resolvePageVersion(filename,version,lang) {
+  let filepath = path.resolve(docsVersionPath(version,lang), filename);
   if (fs.existsSync(filepath)) {
     return filepath;
   }
@@ -329,7 +334,7 @@ function resolvePageVersion(filename,version) {
       return null;
     }
 
-    return resolvePageVersion(filename,versions[++currentIndex])
+    return resolvePageVersion(filename,versions[++currentIndex],lang)
   }
 }
 
@@ -340,9 +345,8 @@ function resolvePageVersion(filename,version) {
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} The formatted MarkDown
  */
-function formatMd(docsPath,filename,version,sectionHeading) {
-  let filepath = resolvePageVersion(filename,version);
-
+function formatMd(docsPath,filename,version,sectionHeading,lang) {
+  let filepath = resolvePageVersion(filename,version,lang);
   if (!filepath) {
     process.emitWarning(`[${version}] ${filename}: File referenced in sidebar not found`);
     return '';
@@ -357,7 +361,7 @@ function formatMd(docsPath,filename,version,sectionHeading) {
   content = replaceYaml(filename,content,sectionHeading);
 
   // replace links to md files with the title links created above
-  content = replaceLinks(filename,content,docsPath,version);
+  content = replaceLinks(filename,content,docsPath,version,lang);
 
   // fix the absolute image path
   content = replaceImagepath(filename,content);
@@ -382,7 +386,7 @@ function formatMd(docsPath,filename,version,sectionHeading) {
  * @param {string} version (Optional) Which section is being exported
  * @return {string} The filename of the produced PDF
  */
-function generatePDF(filePath,version,section=null,options={}) {
+function generatePDF(filePath,version,section=null,options={},lang) {
   // format version name, e.g. "Titan 13.0"
   if(version == "next") {
     version = "Pre-Release";
@@ -396,7 +400,7 @@ function generatePDF(filePath,version,section=null,options={}) {
   const ISODate = new Date().toISOString().slice(0,19).replace(/[T:]/g,"-");
 
   // format & sanitize the filename
-  let filename = `${version}${section}-${ISODate}`;
+  let filename = `${version}-${lang}${section}-${ISODate}`;
   filename = filename.replace(/[^\w]/g,"-");
   filename += '.pdf';
   filename = path.join(options.outputDir, filename);
@@ -405,6 +409,17 @@ function generatePDF(filePath,version,section=null,options={}) {
   options.templatePath = options.templatePath ? options.templatePath : templatePath;
   options.headerPath = options.headerPath ? options.headerPath : headerPath;
   options.logoPath = options.logoPath ? options.logoPath : logoPath;
+
+  // default toc title
+  // toc-title is a variable used by Pandoc. If not set then it is defined by the pdf engine
+  // see https://stackoverflow.com/questions/20472957/how-to-change-header-contents-of-automatic-toc-when-using-pandoc
+  // to make it more predictable we set it here (and a few lines down for translated languages)
+  let toctitle = "Contents";
+  
+  if(lang == "de") {
+    secfilter = sectionNumberFilterDe;
+    toctitle = "Inhalt";
+  }
 
   console.log(`Producing PDF: ${filename}`)
 
@@ -420,7 +435,7 @@ pandoc --template "${options.templatePath}" \
   --number-sections \
   -fmarkdown-implicit_figures \
   --self-contained \
-  --lua-filter="${sectionNumberFilter}" \
+  --lua-filter="${secfilter}" \
   -V fontsize=8pt \
   -M date="$DATE" \
   -M footer-center="$DATE" \
@@ -430,6 +445,7 @@ pandoc --template "${options.templatePath}" \
   -M logo="${options.logoPath}" \
   -V colorlinks=true \
   -V block-headings \
+  -V toc-title="${toctitle}" \
   "${filePath}"`;
 
   var hrstart = process.hrtime();
@@ -464,14 +480,14 @@ pandoc --template "${options.templatePath}" \
  * @return {string} The filename of the produced PDF
  */
 function createPDF(version,section=null, options={}) {
-  console.log(`Formatting version '${version}'`)
+  console.log(`Formatting version ${version.number} - ${version.lang}`)
 
   // get the path of the sidebar file
-  let sidebarFile = fs.readFileSync(sidebarPath(version));
-  let sidebar = JSON.parse(sidebarFile);
+//  let sidebarFile = fs.readFileSync(sidebarPath(version));
+//  let sidebar = JSON.parse(sidebarFile);
 
   // get the path for docs of the version
-  docsPath = docsVersionPath(version);
+//  docsPath = docsVersionPath(version);
 
   let output = '';
   if (options.legal) {
@@ -479,11 +495,13 @@ function createPDF(version,section=null, options={}) {
     output += "\n\n";
   }
 
-  // format the files
-  output += formatMdFiles(docsPath, sidebar, version);
+let sidebar = JSON.parse(fs.readFileSync(version.sidebar));
 
+  // format the files
+  output += formatMdFiles(version.dir, sidebar, version.number, version.lang);
+  let name = "pdf" + version.number + "-" + version.lang + ".md"
   // create formatted MD file
-  let formattedMdPath = path.join(options.outputDir, "pdf.md");
+  let formattedMdPath = path.join(options.outputDir, name);
   try {
     fs.writeFileSync(formattedMdPath, output);
   }
@@ -493,5 +511,5 @@ function createPDF(version,section=null, options={}) {
   }
 
   // generate the PDF
-  return generatePDF(formattedMdPath,version,section,options);
+  return generatePDF(formattedMdPath,version.number,section,options,version.lang);
 }
