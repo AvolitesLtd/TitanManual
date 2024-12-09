@@ -157,7 +157,8 @@ jobs:
         yarn run build
         yarn run test
     - name: Deploy
-      uses: Pendect/action-rsyncer@v1.1.0
+      if: ${{ false }}
+      uses: Pendect/action-rsyncer@v2.0.0
       env:
         DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
       with:
@@ -167,7 +168,8 @@ jobs:
         src: 'website/build/'
         dest: 'root@176.58.122.97:/var/www/sites/avodocs/'
     - name: AvoDeploy
-      uses: Pendect/action-rsyncer@v1.1.0
+      if: ${{ false }}
+      uses: Pendect/action-rsyncer@v2.0.0
       env:
         DEPLOY_KEY: ${{secrets.AVO_DEPLOY_KEY}}
       with:
@@ -176,6 +178,16 @@ jobs:
         ssh_options: ''
         src: 'website/build/'
         dest: 'web@51.104.240.248:/var/www/html/manuals/titan/'
+    - name: SbDeploy
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: 85.215.130.134
+        protocol: ftps
+        security: loose
+        username: avosupport.de_uif9inez29
+        password: ${{secrets.SB_DEPLOY_KEY}}
+        local-dir: 'website/build/'
+        server-dir: '/manual.avosupport.de/'
 
   download:
     name: Versions Page
@@ -212,7 +224,8 @@ jobs:
           yarn run build
 
       - name: Deploy
-        uses: Pendect/action-rsyncer@v1.1.0
+        if: ${{ false }}
+        uses: Pendect/action-rsyncer@v2.0.0
         env:
           DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
         with:
@@ -223,7 +236,8 @@ jobs:
           dest: 'root@176.58.122.97:/var/www/sites/avodocs/'
 
       - name: AvoDeploy
-        uses: Pendect/action-rsyncer@v1.1.0
+        if: ${{ false }}
+        uses: Pendect/action-rsyncer@v2.0.0
         env:
           DEPLOY_KEY: ${{secrets.AVO_DEPLOY_KEY}}
         with:
@@ -232,3 +246,14 @@ jobs:
           ssh_options: ''
           src: 'website/build/'
           dest: 'web@51.104.240.248:/var/www/html/manuals/titan/'
+          
+      - name: SbDeploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: 85.215.130.134
+          protocol: ftps
+          security: loose
+          username: avosupport.de_uif9inez29
+          password: ${{secrets.SB_DEPLOY_KEY}}
+          local-dir: 'website/build/'
+          server-dir: '/manual.avosupport.de/'
