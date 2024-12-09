@@ -53,7 +53,7 @@ class Download {
   }
 
   set filesize(size) {
-    size = size / 1000000
+    size = size / 1048576
     this.size = size.toFixed(1) + "MB"
   }
 }
@@ -96,14 +96,15 @@ function parseAssets(assets) {
         let version = ''
 
         if (name.includes('Pre-Release') || name.includes('Latest')) {
-          version = 'Pre-Release'
+          version = 'Pre-Release.en'
         }
         else if (name.includes('Prism')) {
           // "Prism-Player-v1-2.pdf" -> "Prism Player v1.2"
           version = parsePrismAsset(name);
         }
         else {
-          let pdfParts = name.split("-",3)
+          let pdfParts = name.split("-",4)
+          if (pdfParts[3] != 'de') pdfParts[3] = 'en'  //for old releases which don't have en or de in their name
           pdfParts.shift() // remove Titan
           version = pdfParts.join(".")
         }

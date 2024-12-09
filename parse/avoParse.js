@@ -11,6 +11,7 @@ class avoParse {
     this.paths = {
       sidebar: path.resolve(__dirname,"../website/sidebars.json"),
       versionedSideberDir: path.resolve(__dirname,"../website/versioned_sidebars"),
+      translatedSidebarDir: path.resolve(__dirname,"../website/translated_sidebars"),
       versions: path.resolve(__dirname,"../website/versions.json"),
       versionedDocsDir: path.resolve(__dirname,"../website/versioned_docs"),
       outputDir: path.resolve(__dirname,"./output"),
@@ -20,11 +21,15 @@ class avoParse {
       buildDir: path.resolve(__dirname,'../website/build'),
       transDocsDir: path.resolve(__dirname,'../website/i18n'),
       i18nDir: path.resolve(__dirname,'../website/i18n'),
+      docusaurusFolder: '/docusaurus-plugin-content-docs',
     }
   
     this.regex = {
       // matches Yaml block with title
-      yamlBlockTitle: /^---(?:[\n]|.)*title: *([\w ]*)(?:[\n]|.(?!--))*---/mgi,
+      // the old version which filtered for *title: *([\w ]*) truncated titles with unicode characters (e.g. German umlauts
+      // thus this was changed to \S
+      // the additional \r? makes it work for files with windows-style line endings
+      yamlBlockTitle: /^---(?:[\r?\n]|.)*title: *([\S ]*)(?:[\r?\n]|.(?!--))*---/mgi,
 
       // matches all links which are to local .md files
       linksLocalMd: /(?<![\\!])\[(?<text>[^\]]*)(?<!\\)\]\((?!https?:\/\/)(?!\/\/)(?!#)(?<link>[a-zA-Z0-9-\.\/]*\.md)(?<anchor>[^)]*)\)/mgi,
@@ -70,43 +75,53 @@ class avoParse {
   /**
    * Returns current versions as an array of this.Version objects
    */
-  getVersions() {
-    let versions = [
-      new this.Version({
-        number: 'next',
-        dir: this.paths.docsDir,
-        sidebar: this.paths.sidebar,
-        sidebarObj: 'docs',
-        sidebarPrefix: '',
-      })
-    ]
+  getVersions(manversion) {
+
+    let versions = [];
+
+    if(manversion == 'all'){
+      versions.push(
+        new this.Version({
+          number: 'next',
+          dir: this.paths.docsDir,
+          sidebar: this.paths.sidebar,
+          sidebarObj: 'docs',
+          sidebarPrefix: '',
+        })
+      )
+    }
 
     const versionsFile = JSON.parse(fs.readFileSync(this.paths.versions))
-    const trans = [this.lang, ...fs.readdirSync(this.paths.transDocsDir)].filter(dir => dir != ".DS_Store")
-    
+    const trans = [...fs.readdirSync(this.paths.transDocsDir)].filter(dir => dir != ".DS_Store")
+    if (!trans.includes(this.lang)) trans.push(this.lang)  //only to catch if old english versions are in the translated docs folder
+
     trans.forEach(tran => {
       const mainLang = tran == this.lang
 
-      const tranDir = path.join(this.paths.transDocsDir,tran)
+      const tranDir = path.join(this.paths.transDocsDir,tran,this.paths.docusaurusFolder)
       const tranVers = !mainLang ? fs.readdirSync(tranDir) : null
 
       versionsFile.forEach(version => {
         if(mainLang || tranVers.includes(`version-${version}`)) {
           let dir = path.join(this.paths.versionedDocsDir, `version-${version}`)
+          let sidebar = path.join(this.paths.versionedSideberDir, `version-${version}-sidebars.json`)
 
           if(!mainLang)
             dir = path.join(tranDir, `version-${version}`)
+            sidebar = path.join(this.paths.translatedSidebarDir, tran, `version-${version}-sidebars.json`)
 
-          versions.push(
-            new this.Version({
-              number: version,
-              dir: dir,
-              sidebar: path.join(this.paths.versionedSideberDir, `version-${version}-sidebars.json`),
-              sidebarObj: `version-${version}-docs`,
-              sidebarPrefix: `version-${version}-`,
-              lang: tran,
-            })
-          )
+          if((version == manversion) || (manversion == 'all')){
+            versions.push(
+              new this.Version({
+                number: version,
+                dir: dir,
+                sidebar: sidebar,
+                sidebarObj: `version-${version}-docs`,
+                sidebarPrefix: `version-${version}-`,
+                lang: tran,
+              })
+            )
+          }
         }
       })
     })
