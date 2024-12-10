@@ -1,0 +1,69 @@
+Changes associated with making PDFs in foreign languages.
+December 2024, Sebastian Beutel
+
+- there needs to be a subfolder per language in /website/translated_sidebars. This contains one version-xy.z-sidebars.json per version. 
+  The English original is to be copied from /website/versioned_sidebars. The translator is to translate all the 'label' elements,
+  leaving everything else unchanged. These files will be used to compile the sidebars/table of contents for the generated pdf files.
+
+- there needs to be a file lua-section-number-filter-xy.lua in parse/PDF (xy denotes the language, e.g. de or en). In this, you'll find
+  a line like 
+      link_text = link_text .. " (Section " .. section_number .. ")"
+  The translator is to translate the noun Section to the very language. This is used in all crosslinks in the resulting PDF files.
+  Additionally, in parse/pdf.js, this file needs to be set as const (on top), and further down in the function generatePDF() a switch 
+  similar to the one for German need to be inserted, with 'Inhalt' being the translated title of the Table Of Contents:
+        if(lang == "de") {
+          secfilter = sectionNumberFilterDe;
+          toctitle = "Inhalt";
+        }
+
+- the translated pdf files will be compiled in Github, and are stored there as artifacts. From now on the language will be part of the 
+  filename like this:
+      Titan-12-0-en-2024-12-02-21-24-09.pdf
+      Titan-13-0-de-2024-12-02-21-03-54.pdf
+  The language shorthands (en, de) are used to separate and show the individual links on the versions page, e.g. https://manual.avolites.com/versions/
+  When adding a new language an appropriate if condition and hive needs to be added to website/src/pages/versions.js in function PDF()
+
+- The workflow to compile the html files and to upload them is defined in .github/deploy.yml.
+  It is run automatically when a new version is made in Github. The two important jobs are 'Web Build and Deploy', and 'Versions Page'.
+  Currently it is being deployed to https://manual.avolites.com via SSH (I guess the key is set as AVO_DEPLOY_KEY in Github secrets).
+  In order to deploy it to another site via FTP you can use a section like this (insert this twice, with different names, in deploy.yml, 
+  watch proper indentation as this matters for yml):
+        - name: MyDeploy
+          uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+          with:
+            server: 111.222.333.444                 // your server's ip address
+            protocol: ftps                          // depends from your server
+            security: loose                         // depends from your server
+            username: ftp_username                  // your ftp username
+            password: ${{secrets.YOUR_DEPLOY_KEY}}  // your ftp password. set this as secret in your github repository
+            local-dir: 'website/build/'             // this is the folder where the 
+            server-dir: '/manual.yourdomain.com/'   // the manuals need to be in the root folder of a domain or subdomain
+
+- If you want to test the workflows with your own repository, you need to define it as path in /parse/download.js (and don't forget to 
+  reset it to path: '/repos/AvolitesLtd/TitanManual/releases' when committing)
+
+- In order to setup and use your personal environment, I'd strongly recommend the website/README.md and much more so the parse/readme.js
+  - you'll need Node JS, Docusaurus and some other ingredients, in order to test-run files like parse/pdf.js, like this:
+      cd parse
+      node pdf.js
+  - maybe you are lucky to create the pdf files without docker - I wasn't (looks like Pandoc is a diva)
+  - also, I couldn't make the local search module run on my local (Windows) computer. I had to disable this module by removing this section 
+    from docusaurus.config.js:
+          [
+            require.resolve("./docusaurus-search-local/docusaurus-search-local"),
+            {
+                    // ... Your options.
+              // `hashed` is recommended as long-term-cache of index file is possible.
+              hashed: true,
+              // For Docs using Chinese, The `language` is recommended to set to:
+              // ```
+              // language: ["en", "zh"],
+              // ```
+              // When applying `zh` in language, please install `nodejieba` in your project.
+              docsDir: ["../docs", "../prismdocs"],
+              docsRouteBasePath: ["docs", "prism"],
+        
+              highlightSearchTermsOnTargetPage: true,        
+            },
+          ],
+    However you need to put this back in when submitting changes to the main AvolitesLtd repo, else the build would fail.
