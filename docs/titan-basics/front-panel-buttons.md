@@ -22,7 +22,7 @@ actions can be reassigned using Key Profiles (see below).
 &nbsp;<Keys.Annotation>B</Keys.Annotation> **Flash** button
 
 
-On the **Diamond 9** and **T3** the buttons are arranged like this for the rotary faders (D9 only) and the linear faders:
+On the **Diamond 9**, **Diamond 7** and **T3** the buttons are arranged like this for the rotary faders (D9/D7 only) and the linear faders:
 
 ![Diamond Select and Flash](/docs/images/Diamond-Select-Flash.png)
 

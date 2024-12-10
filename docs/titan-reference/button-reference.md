@@ -41,12 +41,12 @@ For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](
 
 
 ## <Keys.HardKey>Align</Keys.HardKey> 
- (D9 and T3 only) Allows copying of attributes between fixtures. On other consoles this function is accessed using <Keys.HardKey>ML Menu</Keys.HardKey>. See [Align Fixtures](../controlling-fixtures/changing-fixture-attributes.md#align-fixtures).
+ (D9/D7 and T3 only) Allows copying of attributes between fixtures. On other consoles this function is accessed using <Keys.HardKey>ML Menu</Keys.HardKey>. See [Align Fixtures](../controlling-fixtures/changing-fixture-attributes.md#align-fixtures).
 
 
 
 ## <Keys.HardKey>All</Keys.HardKey> 
- Used to start and end pattern selection (such as odd/even) within a range of selected fixtures. See [Selecting fixtures using a pattern](../controlling-fixtures.md#selecting-fixtures-using-a-pattern). (On D9 labelled <Keys.HardKey>Pattern/All</Keys.HardKey>)
+ Used to start and end pattern selection (such as odd/even) within a range of selected fixtures. See [Selecting fixtures using a pattern](../controlling-fixtures.md#selecting-fixtures-using-a-pattern). (On D9/D7/T3 labelled <Keys.HardKey>Pattern/All</Keys.HardKey>)
 
 
 
@@ -116,7 +116,7 @@ Backspace key for numeric entry or command line inputs.
 
 
 ## <Keys.HardKey>Block</Keys.HardKey> 
- (D9 and T3 only) Not used yet.
+ (D9/D7 and T3 only) Not used yet.
 
 
 
@@ -183,12 +183,12 @@ See [Connecting a Chase for control](../chases/chase-playback.md#connecting-a-ch
 
 
 ## <Keys.HardKey>Cue +</Keys.HardKey> 
- (D9 and T3 only) Moves the next cue in the connected cue list on by one - same as <Keys.HardKey>Next Step</Keys.HardKey>.
+ (D9/D7 and T3 only) Moves the next cue in the connected cue list on by one - same as <Keys.HardKey>Next Step</Keys.HardKey>.
 
 
 
 ## <Keys.HardKey>Cue -</Keys.HardKey> 
- (D9 and T3 only) Moves the next cue in the connected cue list back by one - same as <Keys.HardKey>Prev Step</Keys.HardKey>.
+ (D9/D7 and T3 only) Moves the next cue in the connected cue list back by one - same as <Keys.HardKey>Prev Step</Keys.HardKey>.
 
 
 
@@ -205,7 +205,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md#connecting-a-ch
 
 
 ## <Keys.HardKey>Direction</Keys.HardKey> 
- (D9 and T3 only) Used when setting direction of shapes. See [Shape Direction](../effects/shape-generator.md#shape-direction)
+ (D9/D7 and T3 only) Used when setting direction of shapes. See [Shape Direction](../effects/shape-generator.md#shape-direction)
 
 
 
@@ -255,7 +255,7 @@ Buttons | Action
 
 
 ## <Keys.HardKey>FX</Keys.HardKey> 
- (D9 and T3 only) Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects. Also used to enable/disable FX attribute group when setting masks. See [Shape menu](#Shape).
+ (D9/D7 and T3 only) Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects. Also used to enable/disable FX attribute group when setting masks. See [Shape menu](#Shape).
 
  Multiple presses followed by <Keys.HardKey>Enter</Keys.HardKey> will select the options in the Shape/FX menu - press twice then <Keys.HardKey>Enter</Keys.HardKey> to select Key Frame Shapes or three times then <Keys.HardKey>Enter</Keys.HardKey> to select Pixel Mapper.
 
@@ -342,7 +342,7 @@ Buttons | Action
 
 
 ## <Keys.HardKey>Latch</Keys.HardKey> 
- (D9 and T3 only) Latches the current menu so that it remains active when you complete the action. <Keys.HardKey>Latch Menu</Keys.HardKey> on other consoles, see below.
+ (D9/D7 and T3 only) Latches the current menu so that it remains active when you complete the action. <Keys.HardKey>Latch Menu</Keys.HardKey> on other consoles, see below.
 
 
 
@@ -357,7 +357,7 @@ Buttons | Action
 
 
 ## <Keys.HardKey>Legend</Keys.HardKey> 
- (D9 and T3 only) (followed by a Select button) Set legend on an item. On other consoles use the <Keys.SoftKey>Set Legend</Keys.SoftKey> softkey at the top level menu. See [Legends and picture legends](../titan-basics/workspace-windows.md#legends-and-picture-legends).
+ (D9/D7 and T3 only) (followed by a Select button) Set legend on an item. On other consoles use the <Keys.SoftKey>Set Legend</Keys.SoftKey> softkey at the top level menu. See [Legends and picture legends](../titan-basics/workspace-windows.md#legends-and-picture-legends).
 
 
 
@@ -367,7 +367,7 @@ Buttons | Action
 
 
 ## <Keys.HardKey>Level @</Keys.HardKey> 
- (D9 only) Opens the @ menu for the Intensity wheel.
+ (D9/D7 only) Opens the @ menu for the Intensity wheel.
 
 
 
@@ -399,7 +399,7 @@ Buttons | Action
 
 
 ## <Keys.HardKey>Mask FX</Keys.HardKey> 
- (D9 and T3 only) Opens the Mask FX menu which allows you to create masks to block running shapes. Also available as a softkey on the Shapes and Effects menu. See [Mask Fx](../effects/shape-generator.md#masking-shapes-using-mask-fx).
+ (D9/D7 and T3 only) Opens the Mask FX menu which allows you to create masks to block running shapes. Also available as a softkey on the Shapes and Effects menu. See [Mask Fx](../effects/shape-generator.md#masking-shapes-using-mask-fx).
 
    Buttons | Action
  --------|--------
@@ -419,7 +419,7 @@ Buttons | Action
 
 
 ## <Keys.HardKey>ML Menu</Keys.HardKey> 
- At top level menu, opens the Moving Light menu where you can run fixture macros and access the <Keys.SoftKey>Align</Keys.SoftKey> function. Also acts as Menu Latch if pressed while in a submenu. See [The ML Menu button](../controlling-fixtures/advanced-options.md#the-ml-menu-button). Not on D9, use <Keys.HardKey>Macro</Keys.HardKey> to run fixture macros and <Keys.HardKey>Align</Keys.HardKey> to access Align function.
+ At top level menu, opens the Moving Light menu where you can run fixture macros and access the <Keys.SoftKey>Align</Keys.SoftKey> function. Also acts as Menu Latch if pressed while in a submenu. See [The ML Menu button](../controlling-fixtures/advanced-options.md#the-ml-menu-button). Not on D9/D7, use <Keys.HardKey>Macro</Keys.HardKey> to run fixture macros and <Keys.HardKey>Align</Keys.HardKey> to access Align function.
 
 
 
@@ -458,7 +458,7 @@ Buttons | Action
 
 
 ## <Keys.HardKey>Open</Keys.HardKey> 
- (D9 only) Open workspace window, like double pressing View. 
+ (D9/D7 only) Open workspace window, like double pressing View. 
 
  (Quartz, Titan Mobile) Show details about item, or double press to open workspace window, see [View](#view).
 
@@ -497,14 +497,14 @@ Buttons | Action
  
 
  ## <Keys.HardKey>Pattern/All</Keys.HardKey> 
- (D9 and T3 only) Used to start and end pattern selection (such as odd/even) within a range of selected fixtures. Same as <Keys.HardKey>All</Keys.HardKey> on other consoles, see [All](#All).
+ (D9/D7 and T3 only) Used to start and end pattern selection (such as odd/even) within a range of selected fixtures. Same as <Keys.HardKey>All</Keys.HardKey> on other consoles, see [All](#All).
 
 
 
 ## <Keys.HardKey>Playback</Keys.HardKey> 
  (Arena) Opens the Playbacks workspace window showing touch buttons for additional playback storage. 
 
- (D9 and T3) If pressed after <Keys.HardKey>View</Keys.HardKey>, opens the Playbacks workspace window.
+ (D9/D7 and T3) If pressed after <Keys.HardKey>View</Keys.HardKey>, opens the Playbacks workspace window.
 
 
 
@@ -663,7 +663,7 @@ Buttons | Action
 
 
 ## <Keys.HardKey>View</Keys.HardKey> 
-(D9, T3, Titan Go, Pearl Expert, Tiger Touch 1) 
+(D9/D7, T3, Titan Go, Pearl Expert, Tiger Touch 1) 
 
  Followed by **Select** button to show details about item, or double press to open workspace window. See [Palettes](../palettes/editing-palettes.md#viewing-and-editing-the-content-of-palettes) and [Cues](../cues/editing-cues.md#playback-and-cue-view), or [Opening Workspace Windows](../titan-basics.md/workspace-windows/#opening-and-positioning-workspace-windows).
 

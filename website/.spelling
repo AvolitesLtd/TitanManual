@@ -16,6 +16,7 @@ gimbal
 glitching
 gobo
 gobos
+gooseneck
 keystoning
 nd
 num
@@ -85,6 +86,8 @@ o
 # case sensitive words
 Acw
 Ai
+Araneo
+araneo
 Art-Net
 ArtPoll
 AutoGroups
@@ -97,6 +100,9 @@ Avolites.de
 BMFLs
 D9-330
 D9-215
+D7-330
+D7-215
+DisplayPort
 DMX-in
 Esc
 Ethernet
@@ -105,6 +111,7 @@ EtherCON
 ExpertDMX
 FixtureLibrary
 GamColor
+Gooseneck
 Goto
 Healthcheck
 HiLight
@@ -113,6 +120,7 @@ IPCGBES-FX
 Quicksave
 Lightmap
 Luminex
+luminex.be
 LiveDMX
 LocalClock
 Lustr
