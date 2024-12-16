@@ -12,7 +12,7 @@ import downloads from "@site/static/download/download.json"
 /**
 * Returns the index of downloads which holds the latest PDF for that version
 * @param {array} downloads 
-* @param {string} version 
+* @param {string} version, e.g. '15.1.en'
 */
 function latestPDF(downloads, version) {
  for (let i in downloads)
@@ -25,22 +25,50 @@ function latestPDF(downloads, version) {
 * 
 * @param {array} downloads 
 * @param {string} version 
+* supposed to return the string with german and english links
 */
 function PDF(downloads,version) {
- if(latestPDF(downloads,version) > -1) {
-   let download = downloads[latestPDF(downloads,version)]
-   let pdf = download.downloads.PDF[version]
-
-   return (
-     <div>
-       <a
-         href={pdf.url} download>
-         PDF
-       </a>
-       &nbsp;&nbsp;
-       <em>{`${pdf.size} (${formatDate(download.date)})`}</em>
-     </div>
-   )
+ let version_en = version + ".en";
+ let version_de = version + ".de";
+ if(latestPDF(downloads,version_en) > -1) {
+   let download = downloads[latestPDF(downloads,version_en)]
+   let pdf_en = download.downloads.PDF[version_en]
+   let pdf_de = {
+     name: "",
+     size: "",
+     url: ""
+   }
+   if(latestPDF(downloads,version_de) > -1) {
+     pdf_de = download.downloads.PDF[version_de]
+     return (
+       <div>
+         <a
+           href={pdf_en.url} download>
+           PDF
+         </a>
+         &nbsp;&nbsp;
+         <em>{`${pdf_en.size} (${formatDate(download.date)})`}</em>
+         &nbsp;&nbsp;
+         <a
+           href={pdf_de.url} download>
+           PDF (german)
+         </a>
+         &nbsp;&nbsp;
+         <em>{`${pdf_de.size} (${formatDate(download.date)})`}</em>
+       </div>
+     )
+   } else {
+     return (
+       <div>
+         <a
+           href={pdf_en.url} download>
+           PDF
+         </a>
+         &nbsp;&nbsp;
+         <em>{`${pdf_en.size} (${formatDate(download.date)})`}</em>
+       </div>
+     )
+   }
  }
 }
 
@@ -125,7 +153,7 @@ function Versions(props) {
                <td>
                  <a href={repoUrl}>Source Code</a>
                </td>
-               {downloads && latestPDF(downloads,'Pre-Release') > -1 && (
+               {downloads && latestPDF(downloads,'Pre-Release.en') > -1 && (
                  <td>
                    { PDF(downloads,'Pre-Release') }
                  </td>
