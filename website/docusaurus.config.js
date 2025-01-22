@@ -179,7 +179,7 @@ module.exports={
             },
             {
               label: 'Titan API Documentation',
-              to: 'https://api.avolites.com/"',
+              to: 'https://api.avolites.com/',
             },
             {
               label: 'Privacy Policy',
