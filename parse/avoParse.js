@@ -107,8 +107,10 @@ class avoParse {
           let sidebar = path.join(this.paths.versionedSideberDir, `version-${version}-sidebars.json`)
 
           if(!mainLang)
+          {
             dir = path.join(tranDir, `version-${version}`)
             sidebar = path.join(this.paths.translatedSidebarDir, tran, `version-${version}-sidebars.json`)
+          }
 
           if((version == manversion) || (manversion == 'all')){
             versions.push(
