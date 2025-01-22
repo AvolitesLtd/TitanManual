@@ -175,7 +175,7 @@ module.exports={
             },
             {
               label: 'Support',
-              to: 'https://www.avolites.com/support/"',
+              to: 'https://www.avolites.com/support/',
             },
             {
               label: 'Titan API Documentation',
