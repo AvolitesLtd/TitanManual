@@ -9,15 +9,15 @@
   },
   "link.item.label.Getting Started": {
     "message": "Getting Started",
-    "description": "The label of footer link with label=Getting Started linking to docs/"
+    "description": "The label of footer link with label=Getting Started linking to docs"
   },
   "link.item.label.Support": {
     "message": "Support",
-    "description": "The label of footer link with label=Support linking to https://www.avolites.com/support/\""
+    "description": "The label of footer link with label=Support linking to https://www.avolites.com/support/"
   },
   "link.item.label.Titan API Documentation": {
     "message": "Titan API Documentation",
-    "description": "The label of footer link with label=Titan API Documentation linking to https://api.avolites.com/\""
+    "description": "The label of footer link with label=Titan API Documentation linking to https://api.avolites.com/"
   },
   "link.item.label.Privacy Policy": {
     "message": "Privacy Policy",
