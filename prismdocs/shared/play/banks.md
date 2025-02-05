@@ -30,10 +30,6 @@ Each Bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 *Note: Only 1 Bank is allowed to be used on **{{PRISM-APP}}**.
 {{PLAYER-END-COMMENT}}
 
-{{ZERO-START-COMMENT}}
-*Note: Only 1 Bank is allowed to be used on **{{PRISM-APP}}**.
-{{ZERO-END-COMMENT}}
-
 ## Bank
 
 To add new media to a Bank, select the Bank you wish to add to, and simply drag and drop your files or press the <Keys.PrismKey>+</Keys.PrismKey> button.
@@ -87,19 +83,9 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button
 Playing an element will playback on the [media player](./mediaplayer.md).
 {{PLAYER-END-COMMENT}}
 
-{{ZERO-START-COMMENT}}
-A layer must be selected in order to play elements
-{{ZERO-END-COMMENT}}
-
 {{PRISM-START-COMMENT}}
 A layer must be selected in order to play elements
 {{PRISM-END-COMMENT}}
-
-{{ZERO-START-COMMENT}}
-#### Preview
-
-When previewing an element, adjustments can be made to its properties, please see [Preview](../quick-start/preview.md) for more details on how this works.
-{{ZERO-END-COMMENT}}
 
 {{PRISM-START-COMMENT}}
 #### Preview
@@ -116,14 +102,7 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements
 - **Show In Folder** - Open file explorer and navigate to the element's media file
 
 {{PLAYER-END-COMMENT}}
-{{ZERO-START-COMMENT}}
-Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
 
-- **Remove** - Deletes the element from the Bank | 
-- **Preview** - Preview and adjust properties of the Bank element
-- **Duplicate** - Add a new copy of the Bank element, including all settings
-- **Show In Folder** - Open file explorer and navigate to the element's media file
-{{ZERO-END-COMMENT}}
 {{PRISM-START-COMMENT}}
 Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
 

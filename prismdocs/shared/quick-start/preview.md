@@ -15,7 +15,7 @@ The **Preview** window allows for adjustments to be made to the properties of in
 
 **Preview** can be accessed by the [Bank](../../{{PRISM-APP-LOWER}}/play/banks.md) view or the [Main Menu](./navigation.md/#view).
 
-![Prism Zero Preview Window](/prismdocs/images/{{PRISM-APP-LOWER}}-preview.png)
+![Prism Preview Window](/prismdocs/images/{{PRISM-APP-LOWER}}-preview.png)
 
 The resolution of the Preview Window can be adjusted to easily preview media playback at a specific target resolution.
 

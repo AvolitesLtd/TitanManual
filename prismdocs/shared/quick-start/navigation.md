@@ -57,20 +57,12 @@ More information found at [Import/Export](./import-export.md)
 ### View
 
 {{PRISM-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prismdocs/images/navigation/zero-prism-header-view.png)
+![{{PRISM-APP}} Header Video Menu](/prismdocs/images/navigation/prism-header-view.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
 | Preview | Open the [Preview](./preview.md) window for editing bank elements.|
 {{PRISM-END-COMMENT}}
-
-{{ZERO-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prismdocs/images/navigation/zero-prism-header-view.png)
-
-|  Menu Item  |   Description   |
-|-------------|-----------------|
-| Preview | Open the [Preview](./preview.md) window for editing bank elements.|
-{{ZERO-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
 ![{{PRISM-APP}} Header Video Menu](/prismdocs/images/navigation/player-header-view.png)
@@ -91,22 +83,13 @@ More information found at [Import/Export](./import-export.md)
 ### Video
 
 {{PRISM-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prismdocs/images/navigation/zero-prism-header-video.png)
+![{{PRISM-APP}} Header Video Menu](/prismdocs/images/navigation/prism-header-video.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
 | Show Grid   |   Displays a reference grid over the media player / layer preview. |
 | Transparency Preview |  Toggles on the alpha channel showing a checkerboard in the transparent areas. |
 {{PRISM-END-COMMENT}}
-
-{{ZERO-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prismdocs/images/navigation/zero-prism-header-video.png)
-
-|  Menu Item  |   Description   |
-|-------------|-----------------|
-| Show Grid   |   Displays a reference grid over the media player / layer preview. |
-| Transparency Preview |  Toggles on the alpha channel showing a checkerboard in the transparent areas. |
-{{ZERO-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
 ![{{PRISM-APP}} Header Video Menu](/prismdocs/images/navigation/player-header-video.png)
@@ -139,13 +122,6 @@ In this section it is possible to navigate the following app **Views**:
 - [Encoder](../encoder/encoder.md)
 - [Settings](../settings/settings.md)
 {{PRISM-END-COMMENT}}
-
-{{ZERO-START-COMMENT}}
-- [Play](../play/play.md)
-- [Stage](../stage/stage.md)
-- [Encoder](../encoder/encoder.md)
-- [Settings](../settings/settings.md)
-{{ZERO-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
 - [Play](../play/play.md)

@@ -55,7 +55,7 @@ More information found at [Import/Export](./import-export.md)
 |    Redo   |  Redo the previous action. *Note: Not all features have Redo actions*. |
 
 ### View
-![Prism Header Video Menu](/prismdocs/images/navigation/zero-prism-header-view.png)
+![Prism Header Video Menu](/prismdocs/images/navigation/prism-header-view.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
@@ -69,7 +69,7 @@ More information found at [Import/Export](./import-export.md)
 | Audio Device | Set the audio device for **Prism** to output to, the same setting can configured on the [settings](../settings/settings-general.md#audio). |
 
 ### Video
-![Prism Header Video Menu](/prismdocs/images/navigation/zero-prism-header-video.png)
+![Prism Header Video Menu](/prismdocs/images/navigation/prism-header-video.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|

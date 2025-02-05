@@ -12,7 +12,6 @@ const pages = [
       "preview" //Preview
     ]
   },
-  { id: 'prism-zero', app: 'Prism Zero', path: 'Zero', excludes: ["mediaplayer", "settings-inputs"] },
   { id: 'prism', app: 'Prism', path: 'Prism', excludes: ["mediaplayer"] },
   // Add more pages as needed
 ]
@@ -63,7 +62,6 @@ function replaceComments(content, page) {
   const commentMappings = {
     prism: { start: 'PRISM-START-COMMENT', end: 'PRISM-END-COMMENT' },
     player: { start: 'PLAYER-START-COMMENT', end: 'PLAYER-END-COMMENT' },
-    zero: { start: 'ZERO-START-COMMENT', end: 'ZERO-END-COMMENT' }
   };
 
   // Iterate over the mappings and apply the transformations

@@ -27,10 +27,6 @@ When a project is saved in **{{PRISM-APP}}**, it will contain all application se
 This includes all **Bank**, **Surface** and **Layers** settings.
 {{PLAYER-END-COMMENT}}
 
-{{ZERO-START-COMMENT}}
-This includes all **Bank**, **Surface**, **Layers**, **Outputs** and the Output's **Regions** settings.
-{{ZERO-END-COMMENT}}
-
 {{PRISM-START-COMMENT}}
 This includes all **Banks**, **Surfaces**, **Layers**, **Outputs** and Output's **Regions** settings.
 {{PRISM-END-COMMENT}}

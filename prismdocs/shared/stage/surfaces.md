@@ -12,12 +12,6 @@ This is the page where surfaces and layers can be setup.
 
 To rename a surface, double click on it.
 
-{{ZERO-START-COMMENT}}
-Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
-- **Rename** - Rename the layer. *Note: double clicking on the layer tag will allow to rename it.*
-{{ZERO-END-COMMENT}}
-
-{{PRISM-START-COMMENT}}
 Layers can be added, removed or duplicated by using the correspondent buttons or the layer's <Keys.PrismKey>Sub Menu</Keys.PrismKey>.  
 To remove or duplicate a layer, it needs to be selected first.  
 To select a layer, click on a layer element or tick its tick box.  
@@ -28,7 +22,6 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements
 - **Rename** - Rename the layer. *Note: double clicking on the layer tag will allow to rename it.*
 - **Remove** - Delete the layer from the surface. *Note: selecting the layer and pressing BACKSPACE or DELETE buttons will delete the layer.*
 - **Duplicate** - Add a new copy of the layer. *Note: selecting the layer and pressing CTRL+D shortcut will duplicate the layer.*
-{{PRISM-END-COMMENT}}
 
 ### Surface Controls
 

@@ -5,7 +5,7 @@ sidebar_label: Introduction
 ---
 **Prism Player** is a free standalone auxiliary application developed by **Avolites** and part of the **Prism Suite** of applications.
 
-It allows for easy previewing of media files as well as for preparing and converting them using the **AiM codec**, ready for use in **Ai**, [Prism](../prism/introduction) or [Prism Zero](../zero/introduction.md). Not only does **Prism Player** playback your favourite codecs such as *H264*, *HAP* and *Prores*, but it also supports playback of **NotchLC**.
+It allows for easy previewing of media files as well as for preparing and converting them using the **AiM codec**, ready for use in **Ai**, [Prism](../prism/introduction). Not only does **Prism Player** playback your favourite codecs such as *H264*, *HAP* and *Prores*, but it also supports playback of **NotchLC**.
 
 **Prism Player** requires a license to run. Please refer to the [licensing page](/prism/licensing#prism-player) in this manual.
 

@@ -13,10 +13,6 @@ Banks and Encode Lists can be saved to an external file (Export), and loaded fro
 To export a **Prism** Bank, first select a Bank and then click on `File > Export > Bank`.  
 {{PRISM-END-COMMENT}}
 
-{{ZERO-START-COMMENT}}
-To export a **Prism Zero** Bank, click on `File > Export > Bank`.  
-{{ZERO-END-COMMENT}}
-
 {{PLAYER-START-COMMENT}}
 To export a **Prism Player** Bank, click on `File > Export > Bank`.  
 {{PLAYER-END-COMMENT}}
@@ -34,10 +30,6 @@ The default source folder of Bank files is in the **Documents** folder under `Av
 {{PLAYER-START-COMMENT}}
 The imported Bank will replace the existing one.
 {{PLAYER-END-COMMENT}}
-
-{{ZERO-START-COMMENT}}
-The imported Bank will replace the existing one.
-{{ZERO-END-COMMENT}}
 
 {{PRISM-START-COMMENT}}
 The imported Bank will be added to the **Banks** if there is no selected Bank, otherwise it will replace the selected Bank. 

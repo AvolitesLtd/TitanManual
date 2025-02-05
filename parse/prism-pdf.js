@@ -14,7 +14,6 @@ let previousHeading = ""; //use to help determine when a page break should happe
 
 const docs = [
     { sidebar: 'player', appName: 'Prism Player', version: "v1.3", path: 'Player' },
-    { sidebar: 'zero',  appName: 'Prism Zero', version: "v1.3", path: 'Zero' },
     { sidebar: 'prism', appName: 'Prism', version: "v1.3", path: 'Prism' },
     // Add more pages as needed
 ]

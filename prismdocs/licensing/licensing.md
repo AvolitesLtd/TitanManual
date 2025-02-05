@@ -16,16 +16,6 @@ sidebar_label: Prism Licensing
 
 **Prism** provides 1 physical output and 1 NDI output.
 
-## Prism Zero
-
-**Prism Zero** is **"Free with a Key"**, this means that once a key is purchased you will be able to get the license on request for free.
-
-**Prism Zero** runs with any valid **AvoKey** or **Editor Keys** with an **Ai** (_Demo_, _Anjuna_, _Bondi_, _Miami_) or **Prism**  (_Zero_, _One_) license. Both keys can also be purchased from any of our distributors.
-
-**Prism Zero** is limited to 1 Surface, 1 Layer, and 1 Bank. Each bank can hold up to 256 elements.
-
-**Prism Zero** provides 1 physical output and 1 NDI output.
-
 ## Prism Player
 
 **Prism Player** runs with any valid **AvoKey** or **Editor Keys** with an **Ai** (_Demo_, _Anjuna_, _Bondi_, _Miami_) or **Prism** (_Player_, _Zero_, _One_) license.
@@ -38,12 +28,10 @@ If you have no internet connection, and no **AvoKey** or **Editor Keys**, you wi
 
 The below table shows which app can be use against Avolites current set of **Ai** / **Prism** Licenses.
 
-|             | Ai Demo  | Ai Anjuna | Ai Bondi | Ai Miami | Prism Player  | Prism Zero | Prism One | 
+| App / License Level | Ai Demo  | Ai Anjuna | Ai Bondi | Ai Miami | Prism Player | Prism Zero | Prism One | 
 |-----------------|:--------:|:---------:|:--------:|:--------:|:-------------:|:----------:|:---------:|
 | **Prism**       |    x     |     x     |    x     |    x     |               |     x      |    x      |
-| **Prism Zero**  |    x     |     x     |    x     |    x     |               |     x      |    x      |
 | **Prism Player**|    x     |     x     |    x     |    x     |       x       |     x      |    x      |
-
 
 ## CodeMeter
 
