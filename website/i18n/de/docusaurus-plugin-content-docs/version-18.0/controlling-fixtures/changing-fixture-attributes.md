@@ -102,9 +102,9 @@ Um die Zuweisung zu überprüfen, drücken Sie wieder auf <Keys.HardKey>Assign</
 - Mit dem Trackball kann auch der Mauszeiger gesteuert werden, siehe [Trackball (Maus-Steuerung)](../titan-basics/workspace-windows.md#trackball-diamond-9-and-sapphire-touch-only).
 
 
-## Dimmer-Handrad (Nur beim Diamond 9)
+## Dimmer-Handrad (Nur beim Diamond 9 und Diamond 7)
 
-Auf dem Diamond 9 gibt es ein gesondertes Handrad zur Steuerung des Dimmers der 
+Auf dem D9 und D7 gibt es ein gesondertes Handrad zur Steuerung des Dimmers der 
 ausgewählten Geräte. Oberhalb dessen wird der aktuelle Wert in einem separaten 
 Display angezeigt. Dieses Handrad steuert immer den Dimmerwert und wird nicht 
 mit den Attributbänken umgeschaltet. (Es kann aber wie nachstehend beschrieben 
@@ -124,7 +124,7 @@ Für Attribute mit festen Werten wie Gobos oder Farbräder ist das Fenster
 'Attribut-Editor' ggf. besser geeignet als die Encoder. Es bietet darüber
 hinaus einen Farbwähler für Geräte mit RGB- oder CMY-Farbmischung.
 
-Das Diamond 9 hat einen separaten Touchscreen nur für den Attribut-Editor. 
+Das Diamond 9 und das Diamond 7 hat einen separaten Touchscreen nur für den Attribut-Editor. 
 Auf allen anderen Pulten gibt es diesen als normales Arbeitsfenster. 
 Drücken Sie zweimal auf [<Keys.HardKey>Open/View</Keys.HardKey>](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster) und wählen <Keys.SoftKey>Attribute Editor</Keys.SoftKey>, um den
 Attribut-Editor einzublenden. Oder klicken Sie auf den Attribut-Namen
@@ -399,7 +399,7 @@ wird.
 
 1. Wählen Sie die anzugleichenden Geräte, entweder einzeln, oder unter
 Verwendung von Gruppen.
-2. Im Hauptmenü drücken Sie <Keys.HardKey>ML Menu</Keys.HardKey>, dann <Keys.SoftKey>Align Fixtures</Keys.SoftKey> (auf dem Diamond 9 drücken Sie <Keys.HardKey>Align</Keys.HardKey>).
+2. Im Hauptmenü drücken Sie <Keys.HardKey>ML Menu</Keys.HardKey>, dann <Keys.SoftKey>Align Fixtures</Keys.SoftKey> (auf dem D9 oder D7 drücken Sie <Keys.HardKey>Align</Keys.HardKey>).
 3. Wählen (maskieren) Sie die zu kopierenden Attribute (mittels der
 Attribut-Tasten rechts, oder mit den Funktionstasten, um alle Attribute
 ein- oder auszuschließen)

@@ -74,11 +74,12 @@ Tasten | Ergebnis
 
 Tasten | Ergebnis
 ---- | ----
-<Keys.HardKey>Clear</Keys.HardKey> | Sofortiges Release der editierten Kanäle auf den programmierten Status (*wie Cheat auf ETC-Pulten*)
+<Keys.HardKey>Clear</Keys.HardKey> | Sofortiges Clearen des Programmers - der Programmer wird geleert, editierte HTP-Werte (Dimmerkanäle) auf die vorigen Werte zurückgesetzt und die Geräteauswahl gelöscht *(ähnlich wie Sneak bei ETC-Pulten, jedoch nur für Intensity)*
+<Keys.HardKey>Release</Keys.HardKey> + <Keys.HardKey>Clear</Keys.HardKey> | Clearen des Programmers - der Programmer wird geleert, editierte HTP- **und LTP-**Werte auf die vorigen Werte zurückgesetzt und die Geräteauswahl gelöscht *(wie Sneak bei ETC-Pulten)*
 **t** <Keys.HardKey>Clear</Keys.HardKey> | Release der editierten Kanäle in **t** Sekunden
 <Keys.HardKey>Clear</Keys.HardKey> + <Keys.HardKey>All</Keys.HardKey> | Geräteauswahl löschen, aber Werte im Programmer behalten
 
-- De Funktion der Clear-Taste lässt sich auf zweistufiges Clear ändern, so dass entweder zuerst die Geräteauswahl und mit dem zweiten Tastendruck der Programmer gelöscht wird oder umgekehrt. Siehe [Action Precedence](../system-settings/user-settings.md#clear) in den Benutzereinstellungen/Clear.
+- Die Funktion der Clear-Taste lässt sich auf zweistufiges Clear ändern, so dass entweder zuerst die Geräteauswahl und mit dem zweiten Tastendruck der Programmer gelöscht wird oder umgekehrt. Siehe [Action Precedence](../system-settings/user-settings.md#clear) in den Benutzereinstellungen/Clear.
 
 Hält man <Keys.HardKey>Clear</Keys.HardKey> gedrückt, so stehen auf den Menütasten weitere Funktionen zur Verfügung. So kann man z.B. die Werte nur der gerade angewählten Geräte löschen oder eine bestimmte Maske zum Löschen ausgewählter Attribute verwenden. Siehe [Das Clear-Menü](../controlling-fixtures.md#das-clear-menü)
 

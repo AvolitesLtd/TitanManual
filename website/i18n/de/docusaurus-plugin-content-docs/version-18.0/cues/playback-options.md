@@ -98,6 +98,10 @@ gibt es einen Kontext-Button, um die automatisch aktivierten Playbacks anzuzeige
 
 ![Power On Playback](/docs/images/Power-On-Playback.png)
 
+Außerdem kann es sinnvoll sein, eine Standard-Show zu festzulegen, die immer beim Start geladen wird. 
+Damit wird vermieden, versehentlich eine falsche Show zu starten. Dafür gibt es im Disk-Menü den Punkt 
+**Start Up Show**, siehe $$$[Setting a show to load on start up](../titan-basics/loading-and-saving-shows.md#setting-a-show-to-load-on-start-up).
+
 ## Tab "Times"
 
 ![Playback Options showing times tab](/docs/images/Playback-Options-Times-Tab.png)

@@ -275,7 +275,8 @@ stoppen.
 
 Um einen Mask Effekt zu erzeugen, gehen Sie wie folgt vor:
 
-1.  Drücken Sie <Keys.SoftKey>Shapes und Effekte</Keys.SoftKey>, dann <Keys.SoftKey>Mask Fx</Keys.SoftKey>.
+1.  Drücken Sie <Keys.SoftKey>Shapes und Effekte</Keys.SoftKey>, dann <Keys.SoftKey>Mask Fx</Keys.SoftKey>
+    (Diamond 9 und Diamond 7 haben eigens eine Taste <Keys.HardKey>Mask FX</Keys.HardKey> - drücken Sie diese zweimal, um alle Attribute in der Maske zu aktivieren).
 2.  Die Attributbank-Buttons flashen (P, C etc.). Wählen Sie die
     Attribute, für die Shapes maskiert werden sollen.
 3.  Sind keine Geräte angewählt, so wirkt sich dies auf alle Geräte aus.

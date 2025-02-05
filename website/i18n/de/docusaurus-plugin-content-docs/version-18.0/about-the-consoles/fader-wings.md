@@ -26,6 +26,8 @@ auf <Keys.HardKey>View/Open</Keys.HardKey> und wählen "Mobile Wing". Mit den
 Kontext-Buttons kann man verschiedene Anzeigearten dieses Fensters wählen, z.B. 
 alles zusammen, nur die Fader, nur die Tasten etc.
 
+Das T3-Wing kann mit Titan-Pulten ab Version 16 verwendet werden.
+
 ## Tiger Touch Wing
 
 Der Tiger Touch Wing bietet 30 zusätzliche Fader/Tasten, die über ein

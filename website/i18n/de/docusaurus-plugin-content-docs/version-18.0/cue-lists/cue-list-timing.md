@@ -71,7 +71,7 @@ Menü <Keys.SoftKey>Edit Times</Keys.SoftKey>, gehen zu dem Schritt, den Sie bea
 möchten [wie oben beschrieben](#zeit--und-überblendoptionen-für-cuelisten), und
 drücken <Keys.SoftKey>Next</Keys.SoftKey>, um auf die nächste Optionsseite umzuschalten. 
 
-1.  Drücken Sie <Keys.SoftKey>Attribute times</Keys.SoftKey>.
+1.  Drücken Sie <Keys.SoftKey>Attribute Group Times</Keys.SoftKey>.
 2.  Damit werden sämtliche Geräte in dem Schritt angewählt. *Wollen Sie
 	die Zeiten nicht für alle Geräte einstellen, so ändern Sie jetzt die
 	Selektion*. Dazu können Sie die Taste <Keys.HardKey>All</Keys.HardKey> 
@@ -81,7 +81,9 @@ drücken <Keys.SoftKey>Next</Keys.SoftKey>, um auf die nächste Optionsseite umz
 3.  Drücken Sie die Auswahltaste der gewünschten Attributgruppe.
 4.  Drücken Sie <Keys.SoftKey>Delay</Keys.SoftKey> zum Einstellen 
 	der **Verzögerung**	oder <Keys.SoftKey>Fade</Keys.SoftKey> zum Einstellen 
-	der **Überblendzeit**. Mit <Keys.SoftKey>Use Global</Keys.SoftKey>	entfernen Sie die individuellen Zeiten wieder und kehren zu den normalen/allgemeinen Zeiten für den Schritt zurück.
+	der **Überblendzeit**. Mit <Keys.SoftKey>Use Global</Keys.SoftKey> oder der Taste 
+	<Keys.HardKey>Back</Keys.HardKey> entfernen Sie die individuellen Zeiten wieder und 
+	kehren zu den normalen/allgemeinen Zeiten für den Schritt zurück.
 
 >  Nutzen Sie <Keys.SoftKey>Individual Attributes</Keys.SoftKey> zur Vergabe von Zeiten für
     einzelne Attribute aus einer Gruppe, etwa für ‚Pan' aus der Gruppe
@@ -109,9 +111,13 @@ er beginnen soll.
 
 Es können vier getrennte Timecode-Quellen definiert werden. Für jede
 kann der Timecode selbst aus der Systemuhr stammen, intern generiert
-oder per MIDI, je nach Pult SMPTE oder Winamp eingespeist werden. Der
-interne Timecode ist besonders hilfreich beim Programmieren einer Show,
-die später von einem externen Timecode gesteuert werden soll.
+oder per MIDI, je nach Pult SMPTE oder Winamp (auf dem Pult oder dem Titan-Computer 
+installiert) eingespeist werden. Der interne Timecode ist besonders hilfreich beim 
+Programmieren einer Show, die später von einem externen Timecode gesteuert werden soll.
+
+> Bei der Verwendung von Winamp empfiehlt sich der Einsatz von WAV-Dateien und nicht von MP3,
+da ansonsten mitunter der generierte Timecode falsch ist. Wenn man dann auf Winamp programmiert 
+und die Show später von einer anderen Timecode-Quelle steuert, dann ist das sonst nicht mehr synchron.
 
 1. **Connecten** Sie die Cueliste, für die Sie den Timecode aktivieren möchten.
 2. Wählen Sie <Keys.SoftKey>Timecode</Keys.SoftKey> aus dem Hauptmenü.

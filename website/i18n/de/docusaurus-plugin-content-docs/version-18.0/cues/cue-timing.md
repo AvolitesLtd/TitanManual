@@ -157,7 +157,7 @@ rechts auf dem Pult bei älteren Pulten) des Attributes, das Sie ändern möchte
 4. Drücken Sie <Keys.SoftKey>Delay = </Keys.SoftKey> zur Eingabe einer Verzögerung oder <Keys.SoftKey>Fade = </Keys.SoftKey> 
 zur Eingabe einer Überblendzeit.
 5. Geben Sie die gewünschte Zeit mit den Zifferntasten, gefolgt von
-<Keys.HardKey>Enter</Keys.HardKey>, ein, oder drücken Sie <Keys.SoftKey>Use Global</Keys.SoftKey>, um die gesonderten
+<Keys.HardKey>Enter</Keys.HardKey>, ein, oder drücken Sie <Keys.HardKey>Back</Keys.HardKey>, um die eingegebenen
 Attributzeiten zu löschen und die allgemeinen Zeiten des Cues zu
 verwenden.
 6. Drücken Sie <Keys.HardKey>Enter</Keys.HardKey> zum Speichern der Änderungen.
@@ -184,7 +184,8 @@ Die Zeiten im Programmierspeicher lassen sich vor dem Speichern eines
 Cues überprüfen und ändern. Ebenso lassen sich Zeiten einstellen und in
 bestehende Cues verschmelzen ([mergen](editing-cues.md#editieren-eines-cues-durch-verschmelzen-merge)), genau wie man Attribut-Werte verschmilzt.
 
-Drücken Sie die Taste <Keys.HardKey>TIME</Keys.HardKey>, um in dieses Menü zu gelangen.
+Drücken Sie die Taste <Keys.HardKey>TIME</Keys.HardKey>, um in dieses Menü zu gelangen,
+oder die Menütaste <Keys.SoftKey>Edit Times</Keys.SoftKey> im Hauptmenü.
 
 >   Auf dem Titan Mobile und dem Sapphire Touch liegt diese Funktion auf
     der Taste oberhalb der <Keys.HardKey>Clear</Keys.HardKey>-Taste (Taste <Keys.HardKey>SET</Keys.HardKey>). Auf dem Tiger

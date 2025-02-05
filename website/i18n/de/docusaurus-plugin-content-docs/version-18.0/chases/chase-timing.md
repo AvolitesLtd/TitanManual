@@ -81,7 +81,7 @@ Optionen sind unten beschrieben.
 Im Ausgangszustand sind sämtliche Zeitvorgaben auf die globalen Werte
 voreingestellt. Vorgenommene individuelle Einstellungen lassen sich
 rückgängig machen, indem man die Funktionstaste der entsprechenden
-Zeiteinstellung betätigt und dann <Keys.SoftKey>Use Global</Keys.SoftKey> wählt.
+Zeiteinstellung betätigt und den Wert mit <Keys.HardKey>Back</Keys.HardKey> (oder der Backspace-Taste einer angeschlossenen Tastatur) löscht.
 
 The timing options for the cue are:
 
@@ -122,8 +122,8 @@ Sie bearbeiten möchten.
 4. Drücken Sie <Keys.SoftKey>Delay</Keys.SoftKey>, um die Verzögerung einzustellen, oder <Keys.SoftKey>Set
 fade</Keys.SoftKey> zum Einstellen der Überblendzeit.
 5. Geben Sie die gewünschte Zeit mit den Zifferntasten, gefolgt von
-<Keys.HardKey>Enter</Keys.HardKey>, ein, oder drücken sie <Keys.SoftKey>Use Global</Keys.SoftKey>, um die individuellen
-Einstellungen zu verwerfen und die globalen Zeiten zu verwenden.
+<Keys.HardKey>Enter</Keys.HardKey>, ein, oder drücken sie <Keys.HardKey>Back</Keys.HardKey>, um die individuellen
+Einstellungen zu löschen und die globalen Zeiten zu verwenden.
 6. Drücken Sie <Keys.HardKey>Enter</Keys.HardKey> zum Übernehmen der Werte.
 
 ## Rate- und BPM-Master

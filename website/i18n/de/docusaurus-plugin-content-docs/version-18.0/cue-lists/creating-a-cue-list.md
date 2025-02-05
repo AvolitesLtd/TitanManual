@@ -81,7 +81,7 @@ sind.
 
 ### Speichermodus/Record Mode
 
-Mit <Keys.SoftKey>Record Mode</Keys.SoftKey> (Speichermodus) wählt man zwischen **Record By
+Mit der Menütaste <Keys.SoftKey>Record Mode</Keys.SoftKey> (Speichermodus) wählt man zwischen **Record By
 Fixture** (‚Speichern pro Gerät', alle Attribute aller veränderten/
 ausgewählten Geräte werden gespeichert), **Record By Channel**
 ('Speichern pro Kanal', nur die geänderten Attribute werden

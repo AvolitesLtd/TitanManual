@@ -95,6 +95,9 @@ Schaltflächen im Fenster 'Playbacks' gespeichert werden.
 
 ![Playbacks stored on playback faders](/docs/images/Playbacks-stored-on-playback-faders.png)
 
+Auf dem Diamond 9 und Diamond 7 kann mit <Keys.SoftKey>Halo</Keys.SoftKey> im Menü **Set Legend** die 
+Farbe der Beleuchtung des Playback-Faders eingestellt werden.
+
 -   Das Fenster 'Static Playbacks' zeigt die Belegung der
     Macro-/Exekutor-Tasten sowie - auf dem Tiger Touch - der 10 festen
     Fader.

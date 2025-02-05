@@ -15,7 +15,7 @@ Der **T1** gibt ein DMX-Universum per 5pol XLR und über sACN/ArtNet aus (Netzwe
 
 ![T1 USB DMX Dongle](/docs/images/T1.png)
 
-Der **T2** kann zwei DMX-Universen auf 5-poligen XLR-Buchsen sowie per sACN/ArtNet über den Netzwerkanschluss des Computers ausgeben und hat einen Audio/LTC-Eingang. Außerdem erlaubt er die Verwendung von USB-MIDI-Geräten, etwa von Faderboards, und kann mit dem T3 Wing oder dem Titan Mobile Faderwing betrieben werden.
+Der **T2** kann zwei DMX-Universen auf 5-poligen XLR-Buchsen sowie per sACN/ArtNet über den Netzwerkanschluss des Computers ausgeben und hat eine 3-polige XLR-Buchse als Audio/LTC-Eingang (symmetrisch, 600 Ohm Übertrager zwischen Pan 2 und 3, Pin 1 nicht verbunden). Außerdem erlaubt er die Verwendung von USB-MIDI-Geräten (per USB an den Computer angeschlossen, auf dem Titan läuft), etwa von Faderboards, und kann mit dem T3 Wing oder dem Titan Mobile Faderwing betrieben werden.
 
 ![T2 USB DMX Dongle](/docs/images/T2.png)
 

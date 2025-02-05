@@ -226,7 +226,7 @@ Im Kontextmenü für den Tracking View gibt es verschiedene Filter und Sortierun
 Sortierungen:
 - <Keys.ContextKey>Attributes</Keys.ContextKey> können entweder in der normalen IPCGBES Reihenfolge angezeigt werden, oder mit der der gerade ausgewählten Attributbank als erstes, und die anderen Attributbänke folgen.
 - <Keys.ContextKey>Fixtures</Keys.ContextKey> können sortiert werden nach User Number, Last Selected (zuletzt angewählt) und DMX-Adresse.
-- <Keys.ContextKey>Columns</Keys.ContextKey> (Spalten) können sortiert werden als "Fixture then Attribute" (Geräte zuerst; jedes Fixture wird mit allen Attributen angezeigt) oder als "Attribute then Fixture" (gleiche Attribute werden zusammen aufgelistet).
+- Die Spalten können sortiert werden als <Keys.ContextKey>Fixture then Attribute</Keys.ContextKey> (Geräte zuerst; jedes Fixture wird mit allen Attributen angezeigt) oder als <Keys.ContextKey>Attribute then Fixture</Keys.ContextKey> (gleiche Attribute werden zusammen aufgelistet).
 
 Filter:
 - <Keys.ContextKey>Bank Selection</Keys.ContextKey> wenn aktiviert, werden nur die Attribute der aktuell angewählten Attributbank angezeigt (damit folgt die Attributauswahl umgekehrt auch dem Filter im Fenster Tracking View).
