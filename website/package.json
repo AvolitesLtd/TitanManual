@@ -69,6 +69,7 @@
     "selenium-webdriver": "^4.0.0-beta.4"
   },
   "dependencies": {
+    "docusaurus": "^1.14.7",
     "minimist": "^1.2.5",
     "node-static": "^0.7.11"
   },
