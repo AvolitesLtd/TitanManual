@@ -49,12 +49,14 @@ das aktuelle Profil eines der schreibgeschützten, so erscheint die
 Aufforderung zur Anlage eines neuen bzw. Auswahl eines anderen
 bestehenden Profiles.
 
-Die aktuellen Einstellungen für die verschiedenen Tastentypen
-(<Keys.SoftKey>schwarz</Keys.SoftKey>, <Keys.SoftKey>blau</Keys.SoftKey>, <Keys.SoftKey>grau</Keys.SoftKey>, 
+In Anlehnung an die Tastenlayouts der früheren Pulte werden die verschiedenen Tasten 
+als <Keys.SoftKey>schwarz</Keys.SoftKey>, <Keys.SoftKey>blau</Keys.SoftKey>, <Keys.SoftKey>grau</Keys.SoftKey>, 
 und - soweit zutreffend - <Keys.SoftKey>touch</Keys.SoftKey> (die Touchscreen-Schaltflächen 
-und Executor-Tasten)) werden links im Bildschirm angezeigt. Beim Diamond 9 sind die 'blauen' Tasten die 
-Auswahltasten und die 'grauen' Tasten die Flash-Tasten. Über schwarze Tasten verfügt 
-nur das Sapphire Touch, außerdem können bei den virtuellen Fadern schwarze Tasten aktiviert werden.
+und Executor-Tasten) bezeichnet. Auf dem D7 und dem D9 sind die 'blauen' Tasten die Auswahltasten und 
+die 'grauen' Tasten die Flashtasten. Die aktuellen Funktionen der verschiedenen Tasten werden links 
+im Bildschirm angezeigt. Sobald ein Tastentyp angewählt wurde, werden die verschiedenen möglichen Aktionen 
+angezeigt. Über schwarze Tasten verfügt nur das Sapphire Touch, außerdem können bei den virtuellen Fadern 
+schwarze Tasten aktiviert werden.
 
 ![Editing a Key Profile](/docs/images/Editing-a-Key-Profile.png)
 

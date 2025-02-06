@@ -56,10 +56,10 @@ Fullscreen Mode                     | *On:* Titan Go wird im Vollbild-Modus ange
 Option | Wirkung
 -------|--------
 Lock Screen Background | Einstellen eines Hintergrundbildes bei gesperrtem Pult.
-Venue Mode Workspace | Auswahl des Workspaces (mit den Menütasten), der im Venue-Mode angezeigt wird.
+Venue Mode Workspace | Auswahl des Workspaces (mit den Menütasten), der im Venue-Mode verwendet wird.
 Venue Mode Password | Passwort zum Entsperren des Pultes in den Venue-Mode.
 Programmer Password | Passwort zum kompletten Entsperren des Pultes. Das Passwort "68340" entsperrt das Pult ebenfalls komplett.
-Lock on Startup | ***Shutdown state:*** Pult bzw. Software startet gesperrt oder ungesperrt, so wie es/sie heruntergefahren wurde.<br/> *Locked:* Pult bzw. Software startet gesperrt. <br/> *Venue Mode Workspace:* Pult bzw. Software startet im Venue-Mode.
+Lock on Startup | ***Shutdown state:*** Pult bzw. Software startet gesperrt oder ungesperrt, so wie es/sie heruntergefahren wurde.<br/> *Locked:* Pult bzw. Software startet gesperrt. <br/> *Venue Mode Workspace:* Pult bzw. Software startet im Venue-Mode.<br/>(Um 'Lock on Startup' zu verwenden, muss ein Programmer Passwort gesetzt sein)
 
 ## Handles
 

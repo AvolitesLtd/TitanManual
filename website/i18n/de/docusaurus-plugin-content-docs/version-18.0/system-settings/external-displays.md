@@ -8,11 +8,11 @@ import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
 Für mehr Platz auf dem Bildschirm (für mehr Fenster und Buttons) lassen
-sich externe Bildschirme anschließen: HDMI beim Diamond 9, DVI beim Sapphire Touch, 
-Arena und Quartz, VGA beim Tiger Touch und Pearl Expert. Beim Diamond 9 und beim Sapphire Touch 
-können zwei externe Bildschirme angeschlossen werden, bei allen anderen Konsolen einer. Es lassen 
-sich jeweils Touchscreens verwenden, wobei empfohlen wird, 'Windows Touch'-kompatible
-Modelle zu verwenden.
+sich externe Bildschirme anschließen: per HDMI beim Diamond 9, per DisplayPort beim Diamond 7, 
+per DVI beim Sapphire Touch, Arena und Quartz, sowie per VGA beim Tiger Touch und Pearl Expert. 
+Beim Diamond 9, Diamond 7 und beim Sapphire Touch können zwei externe Bildschirme angeschlossen 
+werden, bei allen anderen Konsolen einer. Es lassen sich jeweils Touchscreens verwenden, wobei 
+empfohlen wird, 'Windows Touch'-kompatible Modelle zu verwenden.
 
 Titan PC-Suite (Titan Go, Titan Simulator) unterstützt bis zu drei 
 Bildschirme, wobei die konkrete Anschlussmöglichkeit vom verwendeten 

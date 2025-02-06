@@ -27,7 +27,7 @@ eventuell verfügbare Line-In-Buchse kann nicht als Sound-to-Light-Eingang
 verwendet werden. Dagegen kann der T2 als Sound-Eingang für andere Pulte 
 dienen.
 
-GPIO steht nur auf dem Diamond 9, dem Arena, dem Tiger Touch II und dem Sapphire Touch zur Verfügung.
+GPIO steht nur auf dem Diamond 9, Diamond 7, dem Arena, dem Tiger Touch II und dem Sapphire Touch zur Verfügung.
 
 ## Anschließen externer Steuerungen
 
@@ -41,8 +41,8 @@ werden; dazu benötigt man einen simplen Stecker-Stecker-Adapter ('gender
 changer', alle Pins 1:1 belegt, also 1-1, 2-2, 3-3 etc.).
 
 GPIO nutzt einen simplen Schließkontakt, der per Klinkenbuchse 
-angeschlossen wird (nur beim Diamond 9, beim Arena, dem Tiger Touch II und dem Sapphire 
-Touch verfügbar). Beim Diamond 9 stehen die GPIO-Kontakte auch auf dem 15-poligen SubD-Stecker zur Verfügung. 
+angeschlossen wird (nur beim Diamond 9, Diamond 7, beim Arena, dem Tiger Touch II und dem Sapphire 
+Touch verfügbar). Beim Diamond 9 und Diamond 7 stehen die GPIO-Kontakte auch auf dem 15-poligen SubD-Stecker zur Verfügung. 
 Für den TNP kann GPIO als Option nachgerüstet werden; wenden Sie sich dazu an Avolites oder Ihren Avolites-Vertrieb.
 
 MIDI-Geräte werden einfach mit der MIDI-In-Buchse verbunden.

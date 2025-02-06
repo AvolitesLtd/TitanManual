@@ -13,7 +13,7 @@ Alle Pulte können bis zu 64 DMX-Universen über DMX und Netzwerk (Art-Net
 oder sACN) ausgeben (der **T1** ist auf ein Universum, der **T2** auf zwei
 Universen und das **T3** auf 16 Universen beschränkt; für das T3 sind optional Lizenzerweiterungen erhältlich).
 
-Pulte selbst können bis 16 DMX-Universen ausgeben, ist mehr erforderlich, so lässt sich 
+Pulte selbst können bis 16 DMX-Universen ausgeben (32 beim D9 und D7), ist mehr erforderlich, so lässt sich 
 mit [Avolites TitanNet-Prozessoren (TNPs)](../titan-net.md) durch Verteilen der Rechenlast die 
 Gesamtzahl an Universen bis auf 64 erhöhen. (Für T1, T2 und T3 kann die Beschränkung nicht durch TNPs aufgehoben werden).
 
