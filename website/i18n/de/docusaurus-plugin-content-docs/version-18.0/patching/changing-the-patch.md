@@ -159,7 +159,7 @@ Jedes gepatchte Gerät lässt sich mit einer Bezeichnung versehen, die auf
 der entsprechenden Geräte-Auswahltaste angezeigt wird, um das Gerät
 später identifizieren zu können.
 
-1.  Drücken Sie die Taste <Keys.HardKey>Legend</Keys.HardKey> (nur auf dem D9) oder klicken 
+1.  Drücken Sie die Taste <Keys.HardKey>Legend</Keys.HardKey> (nur auf dem D9/D7) oder klicken 
 Sie im Hauptmenü <Keys.SoftKey>Set Legend</Keys.SoftKey>.
 2.  Betätigen Sie die Auswahltaste des Gerätes, für das Sie eine
 Legende vergeben wollen.

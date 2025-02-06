@@ -33,6 +33,10 @@ in diesem Fall muss auch die Adresse des Pultes in diesem Bereich liegen.
 - Benötigen Sie eine Adresse aus einem anderen Adressbereich, so drücken Sie 
 auf <Keys.SoftKey>IP Address = ... </Keys.SoftKey> und geben die Adresse mit den Zifferntasten ein.
 
+> Verfügt das Pult über mehr als einen Netzwerkanschluss, so stellen Sie sicher, dass nicht beide im gleichen 
+Adressbereich liegen (sondern z.B. ein Anschluss im Bereich `2.*.*.*` und der andere bei `10.*.*.*`). Sollten 
+beide Anschlüsse im gleichen Bereich adressiert sein, so kann das bei Art-Net und sACN zu Problemen führen.
+
 ## Einrichten der DMX-Ausgänge
 
 Das Pult arbeitet intern mit max. 64 DMX-Universen (siehe [DMX-Ausgänge einrichten](../system-settings/dmx-output-mapping.md) for details); beim T1 / T2 / T3 ist die Anzahl der Universen auf 1 / 2 / 16 begrenzt. Titan Go (mit einem Editor AvoKey) kann ein Universum über Art-Net oder sACN ausgeben. Der Titan Simulator (mit einem Editor AvoKey) gibt alle 64 Universen per Art-Net oder sACN aus, allerdings mit gelegentlichen Störungen (dem "Spoiler").

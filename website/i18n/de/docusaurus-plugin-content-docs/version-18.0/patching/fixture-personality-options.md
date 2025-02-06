@@ -164,6 +164,27 @@ programmierten Cues/Cuelisten beeinflusst.
 
 -   Fixierte Attribute werden durch das Symbol "Frozen" bei den
     Attributwerten oberhalb der Encoder angezeigt.
+    ![Frozen attribute display](/docs/images/Wheel-Frozen.png)
+
+## Zurücksetzen der Geräteoptionen auf Vorgabewerte
+
+Die Menütaste <Keys.SoftKey>Reset Behaviour</Keys.SoftKey> setzt die folgenden Geräteoptionen auf die jeweiligen Vorgabewerte zurück:
+
+- Oberes Limit
+- Unteres Limit
+- Offset
+- Fixierung (Freeze) 
+- Kennlinien/Kurven
+- Invertierung
+
+Reagiert ein Gerät nicht wie erwartet, so empfiehlt es sich, alle Optionen auf ihre Vorgabewerte zurückzusetzen.
+
+1. Drücken Sie <Keys.HardKey>Patch</Keys.HardKey>.
+2. Drücken Sie <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
+3. Drücken Sie <Keys.SoftKey>Next</Keys.SoftKey>.
+4. Drücken Sie <Keys.SoftKey>Reset Behaviour</Keys.SoftKey>.
+5. Wählen Sie das/die Gerät(e) aus, das zurückgesetzt werden soll.
+6. Drücken Sie zur Bestätigung <Keys.SoftKey>Confirm</Keys.SoftKey>.
 
 ## Die Personality editieren
 
