@@ -581,6 +581,9 @@ Buttons | Action
  (D9 / ST only) Right mouse button when trackball in mouse mode.
 
 
+## <Keys.HardKey>Screen Mode</Keys.HardKey> 
+ (D7 only) Switches the editor touchscreen between Attribute Editor display and Macro Legend display.
+
 
 ## <Keys.HardKey>Scroll</Keys.HardKey> 
  Makes the wheels scroll the focussed zone up/down.
