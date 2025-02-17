@@ -8,7 +8,7 @@ import Keys from '@site/src/components/key.ts';
 
 This is the page where surfaces and layers can be setup.
 
-![Prism Stage Page](/prism-images/stage/{{PRISM-APP-LOWER}}-stage-surfaces.png)
+![Prism Stage Page](/prism-images/stage/surfaces/{{PRISM-APP-LOWER}}-stage-surfaces.png)
 
 To rename a surface, double click on it.
 
