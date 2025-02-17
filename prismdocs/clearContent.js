@@ -3,7 +3,7 @@ const path = require('path');
 
 // Define the main folders and subfolders
 const mainFolders = ['prism', 'player'];
-const subFolders = ['encoder', 'play', 'quick-start', 'settings', 'stage'];
+const subFolders = ['encoder', 'play', 'quick-start', 'settings'];
 
 // Loop through each main folder
 mainFolders.forEach(mainFolder => {
