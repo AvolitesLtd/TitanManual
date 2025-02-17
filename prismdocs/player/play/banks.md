@@ -53,7 +53,7 @@ To enhance playback performance, consider transcoding media into **Avolites AiM*
 
 *Table View* gives more information about video / audio codecs, resolution, whether hardware acceleration is available on the media and much more.
 
-![Prism Player Banks](/prismdocs/images/player-table-banks.png)
+![Prism Player Banks](/prism-images/play/banks/player-table-banks.png)
 
 Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button and preview elements with the <Keys.PrismKey>Preview</Keys.PrismKey> button.
 
@@ -72,7 +72,7 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements
 
 *Grid View* allows for easier triggering of clips due to the larger trigger area, thumbnails are shown here and are also stored on the **Prism Media Cache**.
 
-![Prism Player Banks](/prismdocs/images/player-grid-banks.png)
+![Prism Player Banks](/prism-images/play/banks/player-grid-banks.png)
 
 ## Import/Export
 

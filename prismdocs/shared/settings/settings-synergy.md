@@ -9,8 +9,7 @@ import Keys from '@site/src/components/key.ts';
 
 More information on how to setup a **Synergy** connection can be found on this [guide](/docs/synergy).
 
-
-![Settings Synergy](/prismdocs/images/{{PRISM-APP-LOWER}}-settings-synergy.png)
+![Settings Synergy](/prism-images/settings/{{PRISM-APP-LOWER}}-settings-synergy.png)
 
 | <p style={{width: '250px', margin: '0'}}>Feature</p> |  Description      |
 |------------------------------------------------------|------------|

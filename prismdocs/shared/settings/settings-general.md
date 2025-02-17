@@ -6,7 +6,7 @@ sidebar_label: General
 
 This page shows {{PRISM-APP-LOWER}} general settings.
 
-![Settings General](/prismdocs/images/{{PRISM-APP-LOWER}}-settings-general.png)
+![Settings General](/prism-images/settings/{{PRISM-APP-LOWER}}-settings-general.png)
 
 There are four sections:
 - **Application** - These options will give control over the application UI

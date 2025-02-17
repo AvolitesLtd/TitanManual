@@ -12,4 +12,4 @@ A Region of Interest (RoI) can be set on both outputs.
 
 *Note: visiting this page for the first time will present a rendering warning. Any changes here may cause the output to pause whilst changes are being applied.*
 
-![{{PRISM-APP}}](/prismdocs/images/{{PRISM-APP-LOWER}}-stage-view.png)
+![{{PRISM-APP}}](/prism-images/stage/{{PRISM-APP-LOWER}}-stage-view.png)

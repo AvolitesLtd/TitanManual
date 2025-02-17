@@ -14,7 +14,7 @@ Both *SDR* and *HDR* colour spaces are supported for playback, with *HDR* requir
 
 **AiM** decoding is hardware accelerated so it is advisable to make sure the most suitable GPU is selected in the **General Section** on the **Settings** page.
 
-![Prism Player Media Player](/prismdocs/images/player-mediaplayer.png)
+![Prism Player Media Player](/prism-images/play/player-mediaplayer.png)
 
 ## Play Bar
 This area allows control of the media currently being played, it consists of the following components:

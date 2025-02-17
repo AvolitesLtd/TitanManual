@@ -10,7 +10,7 @@ This section let users specify the settings to be applied on an Encode List item
 It is accessible by selecting an element or by left clicking the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon next to the Encode List item name and then clicking on **Settings**.  
 The results of these settings will be applied once the item is encoded.
 
-![Encode Options](/prismdocs/images/prism-encode-options.png)
+![Encode Options](/prism-images/encoder/encoder-controls/prism-encoder-controls.png)
 
 | <p style={{width: '150px'}}>Feature</p> | Description |
 |-|-|
@@ -34,7 +34,7 @@ The results of these settings will be applied once the item is encoded.
 
 To adjust trim points press the <Keys.PrismKey>Trim</Keys.PrismKey> button at the bottom of the panel.
 
-![Encode Options Trim](/prismdocs/images/encode-options-trim.png)
+![Encode Options Trim](/prism-images/encoder/encoder-controls/trim.png)
 
 Trim values can be manually entered into both the Trim IN Point and Trim OUT Point boxes either by typing the value or using the arrow keys in the current fields.
 
@@ -46,7 +46,7 @@ The total duration of the exported clip will be calculated as the difference bet
 
 To set a crop area press the the <Keys.PrismKey>Crop</Keys.PrismKey> button at the bottom of the panel.
 
-![Encode Options Crop](/prismdocs/images/encode-options-crop.png)
+![Encode Options Crop](/prism-images/encoder/encoder-controls/crop.png)
 
 - **X** and **Y** specifies the starting pixel for the top left corner of the cropping area to be drawn from.
 - **Width** and **Height** sets the size of the area to be cropped, starting from the specified **X** and **Y** values.

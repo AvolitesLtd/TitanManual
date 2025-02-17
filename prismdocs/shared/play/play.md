@@ -13,4 +13,4 @@ Media can be adjusted in the **Preview** window before loading it on a **Layer**
 This view shows media content organized in a **Bank** and gives control over media playback.
 {{PLAYER-END-COMMENT}}
 
-![{{PRISM-APP}}](/prismdocs/images/{{PRISM-APP-LOWER}}-play-view.png)
+![{{PRISM-APP}}](/prism-images/play/{{PRISM-APP-LOWER}}-play-view.png)

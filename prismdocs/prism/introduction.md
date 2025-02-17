@@ -15,7 +15,7 @@ The bank also allows for input sources to be added including, **NDI input**, **L
 
 **Prism** requires a license to run. Please refer to the [licensing page](/prism/licensing#prism) in this manual.
 
-![Prism UI](/prismdocs/images/prism-ui.png)
+![Prism UI](/prism-images/prism-ui.png)
 
 **Prism** is composed of two parts - the **Server** and the **UI**. The **Server** runs in the [system tray](./quick-start/system-tray.md) and the **UI** will run separately and show the interface.  
 

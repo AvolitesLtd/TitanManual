@@ -7,7 +7,7 @@ import Keys from '@site/src/components/key.ts';
 
 This page shows the settings for the encoding of media files.
 
-![Settings System Info](/prismdocs/images/player-settings-encoder.png)
+![Settings System Info](/prism-images/settings/player-settings-encoder.png)
 
 ### Encoder Options
 |  Feature  |   Description   |

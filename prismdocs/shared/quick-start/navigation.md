@@ -13,7 +13,7 @@ import Keys from '@site/src/components/key.ts';
 - [Status Bar](#status-bar)
 
 ## Main Menu
-![{{PRISM-APP}} File Menu Open Recent](/prismdocs/images/navigation/{{PRISM-APP-LOWER}}-header-menu.png)
+![{{PRISM-APP}} File Menu Open Recent](/prism-images/navigation/{{PRISM-APP-LOWER}}-header-menu.png)
 
 In this section it is possible to navigate the application menu, see the Project name and minimize, maximize or close the user interface.
 
@@ -22,7 +22,7 @@ Clicking on {{PRISM-APP}} logo will hide all [View Tabs](#view-tabs) showing the
 
 ### File
 
-![{{PRISM-APP}} File Menu Open Recent](/prismdocs/images/navigation/header-file-recent.png)
+![{{PRISM-APP}} File Menu Open Recent](/prism-images/navigation/header-file-recent.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
@@ -47,7 +47,7 @@ More information found at [Import/Export](./import-export.md)
 
 ### Edit
 
-![{{PRISM-APP}} Edit Menu](/prismdocs/images/navigation/header-edit.png)
+![{{PRISM-APP}} Edit Menu](/prism-images/navigation/header-edit.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
@@ -57,7 +57,7 @@ More information found at [Import/Export](./import-export.md)
 ### View
 
 {{PRISM-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prismdocs/images/navigation/prism-header-view.png)
+![{{PRISM-APP}} Header Video Menu](/prism-images/navigation/prism-header-view.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
@@ -65,7 +65,7 @@ More information found at [Import/Export](./import-export.md)
 {{PRISM-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prismdocs/images/navigation/player-header-view.png)
+![{{PRISM-APP}} Header Video Menu](/prism-images/navigation/player-header-view.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
@@ -74,7 +74,7 @@ More information found at [Import/Export](./import-export.md)
 
 ### Audio
 
-![{{PRISM-APP}} Audio Menu](/prismdocs/images/navigation/header-audio.png)
+![{{PRISM-APP}} Audio Menu](/prism-images/navigation/header-audio.png)
 
 |  Menu Item   |   Description   |
 |--------------|-----------------|
@@ -83,7 +83,7 @@ More information found at [Import/Export](./import-export.md)
 ### Video
 
 {{PRISM-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prismdocs/images/navigation/prism-header-video.png)
+![{{PRISM-APP}} Header Video Menu](/prism-images/navigation/prism-header-video.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
@@ -92,7 +92,7 @@ More information found at [Import/Export](./import-export.md)
 {{PRISM-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prismdocs/images/navigation/player-header-video.png)
+![{{PRISM-APP}} Header Video Menu](/prism-images/navigation/player-header-video.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
@@ -103,7 +103,7 @@ More information found at [Import/Export](./import-export.md)
 
 ### Help
 
-![{{PRISM-APP}} Header Help Menu](/prismdocs/images/navigation/header-help.png)
+![{{PRISM-APP}} Header Help Menu](/prism-images/navigation/header-help.png)
 
 | Menu Item | Description |
 |-----------|-------------|
@@ -112,7 +112,7 @@ More information found at [Import/Export](./import-export.md)
 | About   | About **{{PRISM-APP}}**
 
 ## View Tabs
-![{{PRISM-APP}} File Menu Open Recent](/prismdocs/images/navigation/view-tabs.png)
+![{{PRISM-APP}} File Menu Open Recent](/prism-images/navigation/view-tabs.png)
 
 In this section it is possible to navigate the following app **Views**:
 
@@ -135,7 +135,7 @@ An underline will give visual feedback of the selected **View**.
 
 This bar shows the following app informations at a glance.
 
-![{{PRISM-APP}} Status Bar Left](/prismdocs/images/navigation/{{PRISM-APP-LOWER}}-status-bar.png)
+![{{PRISM-APP}} Status Bar Left](/prism-images/navigation/{{PRISM-APP-LOWER}}-status-bar.png)
 
 - App performance metrics - The full performance metrics are shown in [Settings System Info](../settings/settings-system-info.md)
 - {{PRISM-APP}} release version

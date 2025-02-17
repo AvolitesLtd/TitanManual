@@ -6,7 +6,7 @@ sidebar_label: General
 
 This page shows player general settings.
 
-![Settings General](/prismdocs/images/player-settings-general.png)
+![Settings General](/prism-images/settings/player-settings-general.png)
 
 There are four sections:
 - **Application** - These options will give control over the application UI

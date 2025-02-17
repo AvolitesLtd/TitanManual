@@ -12,7 +12,7 @@ This is the page, where the video outputs can be setup. **{{PRISM-APP}}** provid
 
 Physical output allows for surface frames to be sent to an external output device.
 
-![{{PRISM-APP}}](/prismdocs/images/{{PRISM-APP-LOWER}}-stage-outputs-physical.png)
+![{{PRISM-APP}}](/prism-images/stage/{{PRISM-APP-LOWER}}-stage-outputs-physical.png)
 
 ### Physical Output Controls
 
@@ -40,7 +40,7 @@ regardless of the resulting aspect ratio.
 
 NDI output allows for other applications to receive surface frames.
 
-![{{PRISM-APP}}](/prismdocs/images/{{PRISM-APP-LOWER}}-stage-outputs-ndi.png)
+![{{PRISM-APP}}](/prism-images/stage/{{PRISM-APP-LOWER}}-stage-outputs-ndi.png)
 
 ### NDI Output Controls
 

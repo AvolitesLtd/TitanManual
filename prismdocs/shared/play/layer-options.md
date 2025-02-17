@@ -15,7 +15,7 @@ Similar to the [Preview](../quick-start/preview.md#adjustments) adjustments, the
 
 **Layer Options** allows adjustments to be made to the layer properties and can be controlled either directly from the UI or remotely by connecting with **Synergy**.
 
-![{{PRISM-APP}} Layer Options](/prismdocs/images/{{PRISM-APP-LOWER}}-layer-options.png)
+![{{PRISM-APP}} Layer Controls](/prism-images/play/layer-controls/{{PRISM-APP-LOWER}}-layer-controls.png)
 
 ### Reset to Default
 
@@ -37,7 +37,7 @@ Any adjustment made will directly change the layer properties, triggering a bank
 
 This area control the **Playback** options, which are set on the bank element.
 
-![Layer Options Playback Area](/prismdocs/images/layer-options-playback.png)
+![Layer Options Playback Area](/prism-images/play/layer-controls/playback.png)
 
 The below table describes what each of the options do:
 
@@ -54,7 +54,7 @@ This area controls the **Player Controls** options, which are set on the layer.
 
 The **Player Controls** has check boxes against its properties so that users can define whether to use the bank element value or the one that is currently on the layer that it will play on.
 
-![Layer Options Player Controls Area](/prismdocs/images/layer-options-player-controls.png)
+![Layer Options Player Controls Area](/prism-images/play/layer-controls/player-controls.png)
 
 The below table describes what each of the options do:
 
@@ -71,7 +71,7 @@ The below table describes what each of the options do:
 
 This area controls the **Colour Correction** options, which are set on the layer
 
-![Layer Options Playback Area](/prismdocs/images/layer-options-colour-correction.png)
+![Layer Options Playback Area](/prism-images/play/layer-controls/colour-correction.png)
 
 The below table describes what each of the options do:
 
@@ -89,7 +89,7 @@ The below table describes what each of the options do:
 
 This area controls the **Transformation** options, which are set on the layer
 
-![Layer Options Playback Area](/prismdocs/images/layer-options-transformation.png)
+![Layer Options Playback Area](/prism-images/play/layer-controls/transformation.png)
 
 The below table describes what each of the options do:
 

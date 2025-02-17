@@ -13,7 +13,7 @@ import Keys from '@site/src/components/key.ts';
 - [Status Bar](#status-bar)
 
 ## Main Menu
-![Prism File Menu Open Recent](/prismdocs/images/navigation/prism-header-menu.png)
+![Prism File Menu Open Recent](/prism-images/navigation/prism-header-menu.png)
 
 In this section it is possible to navigate the application menu, see the Project name and minimize, maximize or close the user interface.
 
@@ -22,7 +22,7 @@ Clicking on Prism logo will hide all [View Tabs](#view-tabs) showing the selecte
 
 ### File
 
-![Prism File Menu Open Recent](/prismdocs/images/navigation/header-file-recent.png)
+![Prism File Menu Open Recent](/prism-images/navigation/header-file-recent.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
@@ -47,7 +47,7 @@ More information found at [Import/Export](./import-export.md)
 
 ### Edit
 
-![Prism Edit Menu](/prismdocs/images/navigation/header-edit.png)
+![Prism Edit Menu](/prism-images/navigation/header-edit.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
@@ -55,21 +55,21 @@ More information found at [Import/Export](./import-export.md)
 |    Redo   |  Redo the previous action. *Note: Not all features have Redo actions*. |
 
 ### View
-![Prism Header Video Menu](/prismdocs/images/navigation/prism-header-view.png)
+![Prism Header Video Menu](/prism-images/navigation/prism-header-view.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
 | Preview | Open the [Preview](./preview.md) window for editing bank elements.|
 ### Audio
 
-![Prism Audio Menu](/prismdocs/images/navigation/header-audio.png)
+![Prism Audio Menu](/prism-images/navigation/header-audio.png)
 
 |  Menu Item   |   Description   |
 |--------------|-----------------|
 | Audio Device | Set the audio device for **Prism** to output to, the same setting can configured on the [settings](../settings/settings-general.md#audio). |
 
 ### Video
-![Prism Header Video Menu](/prismdocs/images/navigation/prism-header-video.png)
+![Prism Header Video Menu](/prism-images/navigation/prism-header-video.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
@@ -77,7 +77,7 @@ More information found at [Import/Export](./import-export.md)
 | Transparency Preview |  Toggles on the alpha channel showing a checkerboard in the transparent areas. |
 ### Help
 
-![Prism Header Help Menu](/prismdocs/images/navigation/header-help.png)
+![Prism Header Help Menu](/prism-images/navigation/header-help.png)
 
 | Menu Item | Description |
 |-----------|-------------|
@@ -86,7 +86,7 @@ More information found at [Import/Export](./import-export.md)
 | About   | About **Prism**
 
 ## View Tabs
-![Prism File Menu Open Recent](/prismdocs/images/navigation/view-tabs.png)
+![Prism File Menu Open Recent](/prism-images/navigation/view-tabs.png)
 
 In this section it is possible to navigate the following app **Views**:
 - [Play](../play/play.md)
@@ -99,7 +99,7 @@ An underline will give visual feedback of the selected **View**.
 
 This bar shows the following app informations at a glance.
 
-![Prism Status Bar Left](/prismdocs/images/navigation/prism-status-bar.png)
+![Prism Status Bar Left](/prism-images/navigation/prism-status-bar.png)
 
 - App performance metrics - The full performance metrics are shown in [Settings System Info](../settings/settings-system-info.md)
 - Prism release version

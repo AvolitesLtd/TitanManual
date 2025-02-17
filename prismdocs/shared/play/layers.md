@@ -6,7 +6,7 @@ sidebar_label: Layers
 
 import Keys from '@site/src/components/key.ts';
 
-![{{PRISM-APP}} Layers](/prismdocs/images/{{PRISM-APP-LOWER}}-layers.png)
+![{{PRISM-APP}} Layers](/prism-images/play/layers/{{PRISM-APP-LOWER}}-layers.png)
 
 This section is made up of:
 
@@ -26,7 +26,7 @@ Surfaces and their layers, can all be managed in the [Stage](../stage) view wher
 A surface refers to the virtual canvas or area where visual content is projected or displayed.  
 It can represent screens, LED walls, projection surfaces, or any other output device.
 
-![Prism Layers](/prismdocs/images/surfaces-layers/{{PRISM-APP-LOWER}}-surface.png)
+![Prism Layers](/prism-images/play/layers/{{PRISM-APP-LOWER}}-surface.png)
 
 The surface is crucial as it defines the spatial parameters and resolution of the visual content. Users can map their media to the surface, adjusting the placement, scaling, and transformation to fit the physical display precisely.
 
@@ -42,7 +42,7 @@ It is possible to minimise and maximise the information card in order to hide or
 
 A layer is a canvas that contains visual content, such as videos or images. Multiple layers can be stacked and manipulated independently, allowing for complex compositions.
 
-![Prism Layers](/prismdocs/images/surfaces-layers/{{PRISM-APP-LOWER}}-layer.png)
+![Prism Layers](/prism-images/play/layers/{{PRISM-APP-LOWER}}-layer.png)
 
 The layer information card shows the following informations:
 - The layer preview. This comprises of an overlay showing media bank location, filename, duration and remaining time
@@ -81,11 +81,11 @@ Both methods affect the layer properties directly, but also can be overridden by
 
 This area will show the surface mix of all the layers together. 
 
-![{{PRISM-APP}} Layer controls](/prismdocs/images/{{PRISM-APP-LOWER}}-surface-mix.png)
+![{{PRISM-APP}} Layer controls](/prism-images/play/{{PRISM-APP-LOWER}}-surface-mix.png)
 
 ### Play Bar
 
-![{{PRISM-APP}} Play Bar](/prismdocs/images/prism-playbar.png)
+![{{PRISM-APP}} Play Bar](/prism-images/play/prism-playbar.png)
 
 Similar to **Prism Player**'s media player [play bar](../../player/play/mediaplayer.md#play-bar), the standard play controls are available.   
 In {{PRISM-APP}} the playbar will activate once a layer is selected, as this serve a purpose of controlling the layer playback.
@@ -96,7 +96,7 @@ Toggling the <Keys.PrismKey>Trim</Keys.PrismKey> icon reveals the trim feature.
 
 ### Trim Bar
 
-![{{PRISM-APP}} Trim Bar](/prismdocs/images/prism-trimbar.png)
+![{{PRISM-APP}} Trim Bar](/prism-images/play/prism-trimbar.png)
 
 The trim is set on the layer properties, but can also be override by the bank element via the [Preview](../quick-start/preview.md) Window.  
 Moving the sliders will set the Trim In and Trim Out points.  

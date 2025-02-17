@@ -15,7 +15,7 @@ The **Preview** window allows for adjustments to be made to the properties of in
 
 **Preview** can be accessed by the [Bank](../../{{PRISM-APP-LOWER}}/play/banks.md) view or the [Main Menu](./navigation.md/#view).
 
-![Prism Preview Window](/prismdocs/images/{{PRISM-APP-LOWER}}-preview.png)
+![Prism Preview Window](/prism-images/preview/{{PRISM-APP-LOWER}}-preview.png)
 
 The resolution of the Preview Window can be adjusted to easily preview media playback at a specific target resolution.
 
@@ -29,7 +29,7 @@ Any adjustment made will directly change the bank element properties and then ca
 
 This area control the **Playback** options, which are set on the bank element.
 
-![Preview Playback Area](/prismdocs/images/preview-playback.png)
+![Preview Playback Area](/prism-images/preview/preview-playback.png)
 
 The below table describes what each of the options do:
 
@@ -44,7 +44,7 @@ The below table describes what each of the options do:
 
 This area controls the **Player Controls** options, which are set on the bank element.
 
-![Preview Player Controls Area](/prismdocs/images/preview-player-controls.png)
+![Preview Player Controls Area](/prism-images/preview/preview-player-controls.png)
 
 The **Player Controls** have check boxes against their properties, so that users can define whether to use the bank element value or the one that is currently on the layer that it will play on.
 
@@ -62,7 +62,7 @@ The below table describes what each of the options do:
 {{PRISM-START-COMMENT}}
 ### NDI Input Settings
 
-![Preview NDI Input Settings](/prismdocs/images/preview-ndi-settings.png)
+![Preview NDI Input Settings](/prism-images/preview/preview-ndi-settings.png)
 
 |   Feature      |  Note   |
 |----------------|---------|
@@ -72,7 +72,7 @@ The below table describes what each of the options do:
 
 ### Live Input Settings
 
-![Preview Live Input Settings](/prismdocs/images/preview-live-settings.png)
+![Preview Live Input Settings](/prism-images/preview/preview-live-settings.png)
 
 |   Feature  |  Note   |
 |------------|---------|
@@ -81,7 +81,7 @@ The below table describes what each of the options do:
 
 ### Virtual Return Settings
 
-![Preview Virtual Return Settings](/prismdocs/images/preview-virtual-return-settings.png)
+![Preview Virtual Return Settings](/prism-images/preview/preview-virtual-return-settings.png)
 
 |   Feature      |  Note   |
 |----------------|---------|
@@ -94,7 +94,7 @@ The below table describes what each of the options do:
 
 This area controls the **Colour Correction** options, which are set on the bank element
 
-![Preview Playback Area](/prismdocs/images/preview-colour-correction.png)
+![Preview Playback Area](/prism-images/preview/preview-colour-correction.png)
 
 The below table describes what each of the options do:
 
@@ -112,7 +112,7 @@ The below table describes what each of the options do:
 
 This area controls the **Transformation** options, which are set on the bank element
 
-![Preview Playback Area](/prismdocs/images/preview-transformation.png)
+![Preview Playback Area](/prism-images/preview/preview-transformation.png)
 
 The below table describes what each of the options do:
 
