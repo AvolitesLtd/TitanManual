@@ -28,6 +28,10 @@
           "collapsed": true,
           "type": "category",
           "label": "Quick Start",
+          "link": {
+            "type": "doc",
+            "id": "player/quick-start/quick-start"
+          },
           "items": [
             {
               "type": "doc",
@@ -130,6 +134,10 @@
           "collapsed": true,
           "type": "category",
           "label": "Quick Start",
+          "link": {
+            "type": "doc",
+            "id": "prism/quick-start/quick-start"
+          },
           "items": [
             {
               "type": "doc",
