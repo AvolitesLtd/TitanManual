@@ -55,11 +55,13 @@ More information found at [Import/Export](./import-export.md)
 |    Redo   |  Redo the previous action. *Note: Not all features have Redo actions*. |
 
 ### View
+
 ![Prism Header Video Menu](/prism-images/navigation/prism-header-view.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
 | Preview | Open the [Preview](./preview.md) window for editing bank elements.|
+
 ### Audio
 
 ![Prism Audio Menu](/prism-images/navigation/header-audio.png)
@@ -69,12 +71,14 @@ More information found at [Import/Export](./import-export.md)
 | Audio Device | Set the audio device for **Prism** to output to, the same setting can configured on the [settings](../settings/settings-general.md#audio). |
 
 ### Video
+
 ![Prism Header Video Menu](/prism-images/navigation/prism-header-video.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
 | Show Grid   |   Displays a reference grid over the media player / layer preview. |
 | Transparency Preview |  Toggles on the alpha channel showing a checkerboard in the transparent areas. |
+
 ### Help
 
 ![Prism Header Help Menu](/prism-images/navigation/header-help.png)
@@ -89,10 +93,12 @@ More information found at [Import/Export](./import-export.md)
 ![Prism File Menu Open Recent](/prism-images/navigation/view-tabs.png)
 
 In this section it is possible to navigate the following app **Views**:
+
 - [Play](../play/play.md)
 - [Stage](../stage/stage.md)
 - [Encoder](../encoder/encoder.md)
 - [Settings](../settings/settings.md)
+
 An underline will give visual feedback of the selected **View**.
 
 ## Status Bar

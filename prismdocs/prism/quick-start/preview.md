@@ -58,6 +58,7 @@ The below table describes what each of the options do:
 | **Trim In**                  | Sets the Trim In of the bank element     |
 | **Trim Out**                 | Sets the Trim Out of the bank element    |
 | **Speed**                    | Sets the Speed of the bank element       | 
+
 ### NDI Input Settings
 
 ![Preview NDI Input Settings](/prism-images/preview/preview-ndi-settings.png)
@@ -85,6 +86,7 @@ The below table describes what each of the options do:
 |----------------|---------|
 | **Surface** | A drop-down list of all surfaces on  **Prism**|
 | **Layer**   | Which layer to receive from|
+
 ### Colour Correction
 
 This area controls the **Colour Correction** options, which are set on the bank element

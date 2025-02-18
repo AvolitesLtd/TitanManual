@@ -55,11 +55,13 @@ More information found at [Import/Export](./import-export.md)
 |    Redo   |  Redo the previous action. *Note: Not all features have Redo actions*. |
 
 ### View
+
 ![Prism Player Header Video Menu](/prism-images/navigation/player-header-view.png)
 
 |  Menu Item  |   Description   |
 |-------------|-----------------|
 | Enter Fullscreen  | Toggle fullscreen mode on to fill the video display also toggle by pressing <Keys.PrismKey>Fullscreen</Keys.PrismKey>. Fullscreen mode can be exited either by pressing <Keys.PrismKey>Minimise</Keys.PrismKey> at the top right of the screen or by using the <Keys.PrismKey>Esc</Keys.PrismKey> button on your keyboard.|
+
 ### Audio
 
 ![Prism Player Audio Menu](/prism-images/navigation/header-audio.png)
@@ -69,6 +71,7 @@ More information found at [Import/Export](./import-export.md)
 | Audio Device | Set the audio device for **Prism Player** to output to, the same setting can configured on the [settings](../settings/settings-general.md#audio). |
 
 ### Video
+
 ![Prism Player Header Video Menu](/prism-images/navigation/player-header-video.png)
 
 |  Menu Item  |   Description   |
@@ -76,6 +79,7 @@ More information found at [Import/Export](./import-export.md)
 | Aspect Mode |  Changes the way the media fills the media player canvas. |
 | Show Grid   | Displays a reference grid over the media player / layer preview. |
 | Transparency Preview | Toggles on the alpha channel showing a checkerboard in the transparent areas. |
+
 ### Help
 
 ![Prism Player Header Help Menu](/prism-images/navigation/header-help.png)
@@ -90,9 +94,11 @@ More information found at [Import/Export](./import-export.md)
 ![Prism Player File Menu Open Recent](/prism-images/navigation/view-tabs.png)
 
 In this section it is possible to navigate the following app **Views**:
+
 - [Play](../play/play.md)
 - [Encoder](../encoder/encoder.md)
 - [Settings](../settings/settings.md)
+
 An underline will give visual feedback of the selected **View**.
 
 ## Status Bar

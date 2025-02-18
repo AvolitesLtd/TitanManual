@@ -25,7 +25,9 @@ Each Bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 | **Duplicate**| Duplicates the Bank and its contents, including any Bank element property changes | 
 | **Import** | Replaces the Bank with the saved Bank. See [Import & Export](../quick-start/import-export.md) for more details. | 
 | **Export** | Saves the Bank to a file. See [Import & Export](../quick-start/import-export.md) for more details. | 
+
 *Note: Only 1 Bank is allowed to be used on **Prism Player**.
+
 ## Bank
 
 To add new media to a Bank, select the Bank you wish to add to, and simply drag and drop your files or press the <Keys.PrismKey>+</Keys.PrismKey> button.
@@ -49,6 +51,7 @@ Supports natively **Avolites AiM**, **NotchLC**, and **HAP**.
 Additionally, other standard video codecs such as **H264**, **H265**, **ProRes**, etc., are also supported.
 
 To enhance playback performance, consider transcoding media into **Avolites AiM** codec. Media can be added to the [encoder](../encoder/encoder.md) list by the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button. 
+
 ## Table View
 
 *Table View* gives more information about video / audio codecs, resolution, whether hardware acceleration is available on the media and much more.
@@ -60,7 +63,9 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button
 ### Actions
 
 #### Play
+
 Playing an element will playback on the [media player](./mediaplayer.md).
+
 #### Sub Menu
 
 Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
@@ -68,6 +73,7 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements
 - **Remove** - Deletes the element from the Bank
 - **Duplicate** - Add a new copy of the Bank element, including all settings
 - **Show In Folder** - Open file explorer and navigate to the element's media file
+
 ## Grid View
 
 *Grid View* allows for easier triggering of clips due to the larger trigger area, thumbnails are shown here and are also stored on the **Prism Media Cache**.

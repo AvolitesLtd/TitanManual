@@ -36,6 +36,7 @@ The surface information card shows the following informations:
 - The number of layers
 
 It is possible to minimise and maximise the information card in order to hide or show the contained layers. 
+
 ### Layer
 
 A layer is a canvas that contains visual content, such as videos or images. Multiple layers can be stacked and manipulated independently, allowing for complex compositions.

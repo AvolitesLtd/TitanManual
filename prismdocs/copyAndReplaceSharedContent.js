@@ -88,7 +88,7 @@ function replaceComments(content, page) {
   result = result.replace(/<!--[\s\S]*?-->/g, '');
 
   // Replace multiple consecutive newlines with just one newline
-  result = result.replace(/(\r?\n){3,}/g, '\n');
+  result = result.replace(/(\r?\n){3,}/g, '\n\n');
 
   return result;
 }

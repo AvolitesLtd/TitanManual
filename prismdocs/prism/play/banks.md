@@ -25,6 +25,7 @@ Each Bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 | **Duplicate**| Duplicates the Bank and its contents, including any Bank element property changes | 
 | **Import** | Replaces the Bank with the saved Bank. See [Import & Export](../quick-start/import-export.md) for more details. | 
 | **Export** | Saves the Bank to a file. See [Import & Export](../quick-start/import-export.md) for more details. | 
+
 ## Bank
 
 To add new media to a Bank, select the Bank you wish to add to, and simply drag and drop your files or press the <Keys.PrismKey>+</Keys.PrismKey> button.
@@ -48,6 +49,7 @@ Supports natively **Avolites AiM**, **NotchLC**, and **HAP**.
 Additionally, other standard video codecs such as **H264**, **H265**, **ProRes**, etc., are also supported.
 
 To enhance playback performance, consider transcoding media into **Avolites AiM** codec. Media can be added to the [encoder](../encoder/encoder.md) list by the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button. 
+
 #### NDI Input
 Any active NDI sources on the network.
 Please see both [Settings](../settings/settings-inputs.md) and [Preview](../quick-start/preview.md) pages in order to setup and select NDI Sources.
@@ -58,6 +60,7 @@ Please see both [Settings](../settings/settings-inputs.md) and [Preview](../quic
 
 #### Virtual Return
 The virtual return element enables one layer in the project to receive the rendered output of another layer.
+
 ## Table View
 
 *Table View* gives more information about video / audio codecs, resolution, whether hardware acceleration is available on the media and much more.
@@ -69,17 +72,22 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button
 ### Actions
 
 #### Play
+
 A layer must be selected in order to play elements
+
 #### Preview
 
 When previewing an element, adjustments can be made to its properties, please see [Preview](../quick-start/preview.md) for more details on how this works.
+
 #### Sub Menu
+
 Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
 
 - **Remove** - Deletes the element from the Bank
 - **Preview** - Preview and adjust properties of the Bank element
 - **Duplicate** - Add a new copy of the Bank element, including all settings
 - **Show In Folder** - Open file explorer and navigate to the element's media file
+
 ## Grid View
 
 *Grid View* allows for easier triggering of clips due to the larger trigger area, thumbnails are shown here and are also stored on the **Prism Media Cache**.
