@@ -3,13 +3,17 @@ id: introduction
 title: Introduction
 sidebar_label: Introduction
 ---
-**Prism** is specialized software developed by **Avolites**, tailored for media playback and designed specifically for the live events and entertainment industry.
+**Prism** is specialized software developed by **Avolites**, tailored for media playback and designed specifically for the live events and entertainment industry. 
 
-**Prism** allows for the use of multiple banks and layers to be controlled right inside **Prism's** UI or via [Synergy](./settings/settings-synergy.md) layer control. 
+**Prism** can playback and control video files, virtual returns and live inputs, such as USB capture devices, webcams or NDI feeds. These media types can be stored across multiple banks and can be viewed in the [Preview](./quick-start/preview.md) window or applied to any of the layers within a [Surface](./stage/surfaces.md) to create a mix.
 
-The bank also allows for input sources to be added including, **NDI input**, **Live input** *e.g. usb capture / webcams*, and **Virtual Returns**, to mix layers together. These can all be setup via the [Input Settings](./settings/settings-inputs.md) page and adjusting via the [Preview](./play/banks.md#preview) window.
+Individual layers or the full mix can then be sent to a video or NDI output and by using regions, complex mappings can be made. Alternatively, this mix can be sent directly into Titan’s Pixel Mapper using Synergy to allow tight integration between video and lighting.
 
-**Prism** is limited to 1 Surface, 16 Layers, and 256 Banks. Each bank can hold up to 256 elements.
+The software can be controlled in realtime via **Prism's** dedicated UI or through Titan's layer control as part of the Synergy toolset, which includes project setup, media transfer and video previewing directly within Titan.
+
+**Prism's** built in encoder engine, media manager and asset consolidation tools provide a streamlined approach to media import and export between projects and playback systems.
+
+**Prism** is limited to 16 Surfaces per project, 16 Layers per surface, and 256 Banks. Each bank can hold up to 256 elements. 
 
 **Prism** provides 1 physical output and 1 NDI output.
 
