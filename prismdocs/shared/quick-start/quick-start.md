@@ -9,6 +9,10 @@ Start by creating a new project via the file menu
 
 **File** > **New Project**
 
+{{PLAYER-START-COMMENT}}
+
+{{PLAYER-END-COMMENT}}
+
 {{PRISM-START-COMMENT}}
 Next, set the surface resolution which defines our working area in pixels. 
 
@@ -44,33 +48,37 @@ To determine which part of the **Surface** is being sent to the **Output**, a **
 
 ![Region Source / Output controls](/prism-images/quick-start/region-source-output.png)
 
-The default behaviour of a new region is to sample the entire **Surface** and to fill the **Output** with this region. This can be adjusted using the X, Y, Width, Height boxes for the source and output. 
+The default behaviour of a new region is to sample the entire **Surface** and to fill the **Output** with this region. This can be adjusted using the *X, Y, Width, Height* boxes for the source and output. 
 
 The project is now setup, all that is left is to import media and trigger it to display on the output. 
 
-{{PRISM-END-COMMENT}}
-
 ### Bank Setup
 
-A media bank must first be created in order to import media into the project 
+A bank must first be created in order to import media into the project 
 
 **Play** > **Banks** 
 
-– press the Add Button 
+– Press the *Add* Button 
 
 ![Banks](/prism-images/quick-start/banks.png)
 
-Select the new bank from the list and then press the *Select Files* button within the Bank. Locate and load the required media files. Further media can be added by using the Add Button on the right or by dragging files into the Bank area. 
- 
-### Trigger Media
+Select the new bank from the list and then press the *Select Files* button within the Bank. Locate and load the required media files. Further media can be added by using the *Add* Button on the right or by dragging files into the Bank area.
+
+{{PRISM-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
+### Play Media
 
+Press the *Select Files* button within the Bank. Locate and load the required media files. Further media can be added by using the *Add* Button on the right or by dragging files into the Bank area.
+
+To trigger media, click the *Play* button next to the media in the Bank.
 {{PLAYER-END-COMMENT}}
 
 {{PRISM-START-COMMENT}}
 
-Finally, to trigger the imported media, select one of the layers within your surface and then click the Play button next to the media in the Bank. 
+### Trigger Media
+
+Finally, to trigger the imported media, select one of the layers within your surface and then click the *Play* button next to the media in the Bank. 
 
 ![Banks](/prism-images/quick-start/Layer.png)
 
