@@ -177,6 +177,10 @@
             {
               "type": "doc",
               "id": "prism/play/banks"
+            },
+            {
+              "type": "doc",
+              "id": "prism/play/media-manager"
             }
           ]
         },
