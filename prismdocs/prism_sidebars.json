@@ -172,7 +172,11 @@
             },
             {
               "type": "doc",
-              "id": "prism/play/layer-options"
+              "id": "prism/play/layer-controls"
+            },
+            {
+              "type": "doc",
+              "id": "prism/play/surface-controls"
             },
             {
               "type": "doc",

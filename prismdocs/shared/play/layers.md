@@ -60,7 +60,7 @@ It is possible to minimize and maximize the information card in order to have a 
 
 The layer has some controls, which can adjust the layers in real-time.
 
-| Feature | Description |
+| Property | Description |
 |---------|-------------|
 |  **Visibility** | Toggle the visibility icon to hide and show the layer |
 |  **Intensity** | Click on the % value to open a slider, this sets the opacity of the layer |
@@ -71,7 +71,7 @@ The layer has some controls, which can adjust the layers in real-time.
 |  **Clear Layer** | Click on the <Keys.PrismKey>Clear Layer</Keys.PrismKey> button to reset the layer |
 |  **Solo** | Click on the <Keys.PrismKey>Solo</Keys.PrismKey> button to solo this layer. This will be the only layer present in the surface mix |
 
-Users can also control each [layer's options](./layer-options.md) via the UI or [Synergy](../settings/settings-synergy.md) control.
+Users can also control each [layer controls](./layer-controls.md) via the UI or [Synergy](../settings/settings-synergy.md) control.
 
 Both methods affect the layer properties directly, but also can be overridden by the bank element, depending on your preferred result, as discussed on the [Preview](../quick-start/preview.md) page.
 
