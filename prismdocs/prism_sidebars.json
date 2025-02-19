@@ -168,15 +168,15 @@
           "items": [
             {
               "type": "doc",
+              "id": "prism/play/surfaces"
+            },
+            {
+              "type": "doc",
               "id": "prism/play/layers"
             },
             {
               "type": "doc",
               "id": "prism/play/layer-controls"
-            },
-            {
-              "type": "doc",
-              "id": "prism/play/surface-controls"
             },
             {
               "type": "doc",

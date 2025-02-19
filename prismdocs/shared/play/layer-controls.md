@@ -22,7 +22,7 @@ Similar to the [Preview](../quick-start/preview.md#adjustments) adjustments, the
 Any adjustment made will directly change the layer properties, triggering a bank element may override this, if any changes were made in the [Preview](../quick-start/preview.md).
 
 ### Component
-By selecting the *Surface* or *Layer* as a **Component**, you can view the corresponding controls. Each **Surface** and **Layer** has its own set of controls. [Surface Controls](./surface-controls.md) can be found here.
+By selecting the *Surface* or *Layer* as a **Component**, you can view the corresponding controls. Each **Surface** and **Layer** has its own set of controls. [Surfaces](./surfaces.md) can be found here.
 
 ### Bank / Element
 
