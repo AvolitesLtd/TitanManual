@@ -6,17 +6,25 @@ sidebar_label: Banks
 
 import Keys from '@site/src/components/key.ts';
 
-Banks within **Prism** provide a versatile space for managing media. 
+**Banks** provide a versatile space for managing media. They can be reordered, renamed, and imported or exported to use in other projects.
 
-Banks can be reordered, be renamed, and imported or exported for use in another project. 
+The **Banks** area can be displayed in two views: *Table* or *Grid*. 
 
-Additionally, Banks can display thumbnails of the added elements via the [grid view](./banks.md#grid-view).
+## Table View
 
-Pressing the <Keys.PrismKey>+</Keys.PrismKey> button will add a new Bank, the area will split into two sections:
-- Left side - Bank Manager
-- Right side - Selected Bank
+*Table View* gives more information about video / audio codecs, resolution, whether hardware acceleration is available on the media and much more.
 
-Each Bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
+![Prism Banks](/prism-images/play/banks/prism-table-banks.png)
+
+Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button and preview elements with the <Keys.PrismKey>Preview</Keys.PrismKey> button.
+
+## Grid View
+
+*Grid View* allows for easier triggering of clips due to the larger trigger area, thumbnails are shown here and are also stored on the **Prism Media Cache**.
+
+![Prism Banks](/prism-images/play/banks/prism-grid-banks.png)
+
+Pressing the <Keys.PrismKey>+</Keys.PrismKey> button will add a new **Bank**, each with its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 
 | Feature | Description |
 |--------|--------------|
@@ -30,12 +38,10 @@ Each Bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 
 To add new media to a Bank, select the Bank you wish to add to, and simply drag and drop your files or press the <Keys.PrismKey>+</Keys.PrismKey> button.
 
-The Bank can be displayed in two views: Table or Grid. Both views feature a header at the top, which includes options to duplicate or remove selected Bank elements, and a toggle button to switch between views. There is also a button for adding new media.
-
 ## Bank Element
 Bank elements can be rearranged by dragging them around in both table view and grid view.
 
-### Types
+### Element Types
 
 #### Image 
 
@@ -61,14 +67,6 @@ Please see both [Settings](../settings/settings-inputs.md) and [Preview](../quic
 #### Virtual Return
 The virtual return element enables one layer in the project to receive the rendered output of another layer.
 
-## Table View
-
-*Table View* gives more information about video / audio codecs, resolution, whether hardware acceleration is available on the media and much more.
-
-![Prism Banks](/prism-images/play/banks/prism-table-banks.png)
-
-Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button and preview elements with the <Keys.PrismKey>Preview</Keys.PrismKey> button.
-
 ### Actions
 
 #### Play
@@ -87,12 +85,6 @@ Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements
 - **Preview** - Preview and adjust properties of the Bank element
 - **Duplicate** - Add a new copy of the Bank element, including all settings
 - **Show In Folder** - Open file explorer and navigate to the element's media file
-
-## Grid View
-
-*Grid View* allows for easier triggering of clips due to the larger trigger area, thumbnails are shown here and are also stored on the **Prism Media Cache**.
-
-![Prism Banks](/prism-images/play/banks/prism-grid-banks.png)
 
 ## Import/Export
 
