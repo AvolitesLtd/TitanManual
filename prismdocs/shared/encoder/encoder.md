@@ -6,7 +6,7 @@ sidebar_label: Encoder
 
 import Keys from '@site/src/components/key.ts';
 
-The **Encoder** section allows for files to be converted from common video codecs into the **AiM** codec in preparation for use on a live production.
+The **Encoder** allows for files to be converted from common video codecs into the **AiM** codec in preparation for use on a live production.
 
 ![Encoder](/prism-images/encoder/{{PRISM-APP-LOWER}}-encoder.png)
 
@@ -22,15 +22,17 @@ When a piece of media is loaded into the **Encoder**, several details about the 
 - The destination folder of the encoded media.
 - The current status of the job - _Ready_, _In Progress_ or _Done_.
 
-Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual **Encode List** elements allows access to the following actions:
+Opening the <Keys.PrismKey>Sub Menu</Keys.PrismKey> on individual elements allows access to the following actions:
 
-- **Collapse/Expand** to collapse or expand the element details.
-- **Hide Source/Show Source** to hide or show the details of the source media file and help compare changes made in the **Encode Options**.
-- **Rename** to set the file's tag name, to be used as the destination file name.
-- **Remove** to delete the file from the **Encode List**.
-- **Settings** to open [Encode Options](./encode-options.md) relative to this element.
-- **Duplicate** to create a copy of the element, ready for encoding.
-- **Show In Folder** to open the location of the encoded media that has been set in the **Output Folder** setting.
+| Item | Description |
+|---------|-------------|
+| **Collapse/Expand**  | to collapse or expand the element details.  |
+| **Hide Source/Show Source**  | to hide or show the details of the source media file and help compare changes made in the **Encode Options**. |
+| **Rename**  | to set the file's tag name, to be used as the destination file name. |
+| **Remove**  | to open [Encode Options](./encode-options.md) relative to this element. |
+| **Settings**  | to collapse or expand the element details.  |
+| **Duplicate**  | to create a copy of the element, ready for encoding. |
+| **Show In Folder**  | to open the location of the encoded media that has been set in the **Output Folder** setting. |
 
 The order in which the elements are arranged will be the order of the encoding queue this can be changed by dragging and dropping the element to another position in the queue.
 
