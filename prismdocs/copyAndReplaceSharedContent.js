@@ -6,7 +6,7 @@ const pages = [
   {
     id: 'prism-player', app: 'Prism Player', path: 'Player',
     excludes: [
-      "layers", "layer-options", //Play
+      "layers", "layer-controls", "surfaces", "media-manager", //Play
       "settings-synergy", "settings-inputs",//Settings
       "preview" //Preview
     ]
