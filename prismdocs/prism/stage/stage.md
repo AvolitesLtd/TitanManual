@@ -4,12 +4,9 @@ title: Stage
 sidebar_label: Stage
 ---
 
-This view shows surfaces and layers. It is possible to add, remove, duplicate or rename **Layers** and change **Surface** resolution.  
-Currently Prism is limited to just **1 Surface** and can have up to **16 layers**, dependent on your specific hardware.  
+*Note: any changes on this page may cause the output to pause whilst changes are being applied.*
 
-Furthermore it is possible to control Physical and NDI outputs. In the latter case, resolution and frame rate can be changed.
-A Region of Interest (RoI) can be set on both outputs. 
-
-*Note: visiting this page for the first time will present a rendering warning. Any changes here may cause the output to pause whilst changes are being applied.*
+The **Stage** view is where you can setup **Surfaces**. It acts as a canvas for the content, and can be organised and displayed using **Layers**, **Outputs** and **Regions**. 
 
 ![Prism](/prism-images/stage/prism-stage-view.png)
+

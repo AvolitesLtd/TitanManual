@@ -208,6 +208,10 @@
             {
               "type": "doc",
               "id": "prism/stage/outputs"
+            },
+            {
+              "type": "doc",
+              "id": "prism/stage/regions"
             }
           ]
         },
