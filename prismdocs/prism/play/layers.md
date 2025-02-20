@@ -6,27 +6,27 @@ sidebar_label: Layers
 
 import Keys from '@site/src/components/key.ts';
 
-A layer is a canvas that contains visual content, such as videos or images. 
+A **Layer** is a canvas that contains visual content, such as videos or images. 
 
-Multiple layers can be stacked and manipulated independently, enabling intricate compositions. Media can be played on one or multiple layers, blended using intensity sliders, and can create simple mixes adjusting their volumes.
+Multiple **Layers** can be stacked and manipulated independently to make compositions. Media can be played on one or multiple layers, blended using blend modes, intensity sliders, and can create simple mixes adjusting their volumes.
+
+*Note: When using multiple layers, performance may vary on different systems*
 
 ![Prism Layers](/prism-images/play/layers/prism-layers.png)
 
-Surfaces and their layers, can all be managed in the [Stage](../stage) view where layers can be added, removed, reordered and renamed.
-
-*Note: when using multiple layers, performance may vary on different systems*
+**Surfaces** and their **Layers**, can all be managed in the [Stage](../stage) view where layers can be added, removed, reordered and renamed.
 
 The layer preview comprises of an overlay showing:
 
 ![Prism Layers](/prism-images/play/layers/prism-layer.png)
 
-- bank name
-- bank element name
-- duration of the clip
-- remaining time of the clip.
+- Bank name
+- Bank element name
+- Duration of the clip
+- Remaining time of the clip.
 
-It is possible to minimize and maximize the information card in order to have a more compact view of all the layers.  
-*Note: when minimized the speed slider and the play modes will be hidden.*
+It is possible to minimise and maximise the information card in order to have a more compact view of all the layers.  
+*Note: When minimised the speed slider and the play modes will be hidden.*
 
 #### Controlling the Layer
 
