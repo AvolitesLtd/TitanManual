@@ -30,3 +30,4 @@ Clicking on `File > Open Recent` will show the list of recently opened projects,
 Selecting one of the projects form the list will open it.
 
 Opening a previously saved project greatly reduces the setup time for a show and allows the recall of an earlier setup render queue without the need to rebuild it. When a project is opened, all settings across the application will be updated to those in the saved file.
+
