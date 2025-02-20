@@ -27,7 +27,7 @@ This area allows control of the media currently being played, it consists of the
 
 ## Shortcuts
 
-| **Feature**   | **Shortcut**              |
+| **Shortcut**        | **Description**           |
 | ------------------- | ------------------------- |
 | Play / Pause        | `spacebar`                |
 | Seek Forward / Back | `left & right arrows`     |

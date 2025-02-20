@@ -6,61 +6,33 @@ sidebar_label: Layers
 
 import Keys from '@site/src/components/key.ts';
 
-![{{PRISM-APP}} Layers](/prism-images/play/layers/{{PRISM-APP-LOWER}}-layers.png)
+A **Layer** is a canvas that contains visual content, such as videos or images. 
 
-This section is made up of:
+Multiple **Layers** can be stacked and manipulated independently to make compositions. Media can be played on one or multiple layers, blended using blend modes, intensity sliders, and can create simple mixes adjusting their volumes.
 
-- The surfaces and their layers, with their layer previews
-- The selected layer / surface mix playback
+*Note: When using multiple layers, performance may vary on different systems*
 
-Media can be played on specific / multiple layers, blended together using the intensity sliders and can create simple mixes adjusting their volumes. 
+![{{PRISM-APP}} Layers](/prism-images/play/layers/prism-layers.png)
 
-*Note: when using multiple layers, performance may vary on different systems*
+**Surfaces** and their **Layers**, can all be managed in the [Stage](../stage) view where layers can be added, removed, reordered and renamed.
 
-## Surfaces & Layers
+The layer preview comprises of an overlay showing:
 
-Surfaces and their layers, can all be managed in the [Stage](../stage) view where layers can be added, removed, reordered and renamed.
+![{{PRISM-APP}} Layers](/prism-images/play/layers/prism-layer.png)
 
-### Surface
+- Bank name
+- Bank element name
+- Duration of the clip
+- Remaining time of the clip.
 
-A surface refers to the virtual canvas or area where visual content is projected or displayed.  
-It can represent screens, LED walls, projection surfaces, or any other output device.
-
-![Prism Layers](/prism-images/play/layers/{{PRISM-APP-LOWER}}-surface.png)
-
-The surface is crucial as it defines the spatial parameters and resolution of the visual content. Users can map their media to the surface, adjusting the placement, scaling, and transformation to fit the physical display precisely.
-
-The surface information card shows the following informations:
-- The surface mix preview
-- The surface resolution
-- The number of layers
-
-It is possible to minimise and maximise the information card in order to hide or show the contained layers. 
-
-
-### Layer
-
-A layer is a canvas that contains visual content, such as videos or images. Multiple layers can be stacked and manipulated independently, allowing for complex compositions.
-
-![Prism Layers](/prism-images/play/layers/{{PRISM-APP-LOWER}}-layer.png)
-
-The layer information card shows the following informations:
-- The layer preview. This comprises of an overlay showing media bank location, filename, duration and remaining time
-- Visibility button and intensity slider
-- Mute button and volume slider
-- Speed slider
-- Play modes
-- Clear layer button
-- Solo button
-
-It is possible to minimize and maximize the information card in order to have a more compact view of all the layers.  
-*Note: when minimized the speed slider and the play modes will be hidden.*
+It is possible to minimise and maximise the information card in order to have a more compact view of all the layers.  
+*Note: When minimised the speed slider and the play modes will be hidden.*
 
 #### Controlling the Layer
 
 The layer has some controls, which can adjust the layers in real-time.
 
-| Feature | Description |
+| Item | Description |
 |---------|-------------|
 |  **Visibility** | Toggle the visibility icon to hide and show the layer |
 |  **Intensity** | Click on the % value to open a slider, this sets the opacity of the layer |
@@ -71,7 +43,7 @@ The layer has some controls, which can adjust the layers in real-time.
 |  **Clear Layer** | Click on the <Keys.PrismKey>Clear Layer</Keys.PrismKey> button to reset the layer |
 |  **Solo** | Click on the <Keys.PrismKey>Solo</Keys.PrismKey> button to solo this layer. This will be the only layer present in the surface mix |
 
-Users can also control each [layer's options](./layer-options.md) via the UI or [Synergy](../settings/settings-synergy.md) control.
+Users can also control each [Layer Controls](./layer-controls.md) via the UI or [Synergy](../settings/settings-synergy.md) control.
 
 Both methods affect the layer properties directly, but also can be overridden by the bank element, depending on your preferred result, as discussed on the [Preview](../quick-start/preview.md) page.
 
