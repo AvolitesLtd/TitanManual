@@ -35,7 +35,7 @@ Clicking on the **Surface** should open the **Controls** panel to the right. The
 
 ![Synergy Enabled Surface](/prism-images/play/layers/surface-pixel-map-adjustments.png)
 
-| <p style={{width: '100px', margin: '0'}}>Properties</p> |  Description |
+| <p style={{width: '100px', margin: '0'}}>Item</p> |  Description |
 |------------------|------------|
 | **Saturation**   | Sets the Saturation of the Pixel Map frame sent to Titan |
 | **Contrast**     | Sets the Contrast of the Pixel Map frame sent to Titan |

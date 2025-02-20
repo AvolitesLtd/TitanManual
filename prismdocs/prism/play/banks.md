@@ -18,7 +18,7 @@ Pressing the <Keys.PrismKey>+</Keys.PrismKey> button will add a new Bank, the ar
 
 Each Bank has its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 
-| Feature | Description |
+| Item | Description |
 |--------|--------------|
 | **Rename** | Renames the Bank | 
 | **Remove**| Deletes the Bank and its contents | 

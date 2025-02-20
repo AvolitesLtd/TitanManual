@@ -32,7 +32,7 @@ It is possible to minimize and maximize the information card in order to have a 
 
 The layer has some controls, which can adjust the layers in real-time.
 
-| Property | Description |
+| Item | Description |
 |---------|-------------|
 |  **Visibility** | Toggle the visibility icon to hide and show the layer |
 |  **Intensity** | Click on the % value to open a slider, this sets the opacity of the layer |

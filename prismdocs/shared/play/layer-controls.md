@@ -28,7 +28,7 @@ By selecting the *Surface* or *Layer* as a **Component**, you can view the corre
 
 Media stored in a bank can be played on a layer.
 
-|   Property    |  Description  |
+|   Item    |  Description  |
 |---------------|------------|
 | **Bank**      | Select a bank to then select a bank element to play elements on a layer |
 | **Element**   | Selecting a bank element will play that element on the layer |
@@ -52,7 +52,7 @@ The **Playback** controls, which are set on the bank element.
 ![Layer Controls Playback Area](/prism-images/play/layer-controls/playback.png)
 
 
-|   Property    |  Description  |
+|   Item    |  Description  |
 |---------------|------------|
 | **Intensity** | Adjusting this will set the opacity of the layer |
 | **Volume/Mute** | Adjusting this will set the volume of the layer  |
@@ -65,7 +65,7 @@ The **Player Controls** has check boxes against its properties so that users can
 
 ![Layer Controls Player Controls Area](/prism-images/play/layer-controls/player-controls.png)
 
-|   Property                   |  Description  |
+|   Item                   |  Description  |
 |------------------------------|---------- |
 | **Cross Fade Duration**      | Sets the Cross Fade Duration of the layer  |
 | **Play Mode**                | Sets the Play Mode of the layer, they are: <br/><br/> - **Play List** - Play through all the media in the bank that the current element belongs to. <br/> - **Loop** - Continuously play the same media element <br/> - **Shuffle** - Randomly select and play media from the bank that the element belongs to. <br/> - **Play Once** - Play the media once and then display the last frame. <br/> - **Pause** - Stay on the current frame <br/> - **In Frame** - Display the first frame <br/> - **Out Frame** - Display the last frame |
@@ -81,7 +81,7 @@ This area controls the **Crop** of the selected layer
 ![Layer Controls Crop Area](/prism-images/play/layer-controls/crop-controls.png)
 
 
-|  Property  |  Description |
+|  Item  |  Description |
 |------------|--------------|
 | **Left**   | Sets the percentage of cropping on the left side of the layer |
 | **Right**  | Sets the percentage of cropping on the right side of the layer |
@@ -94,7 +94,7 @@ This area controls the **Colour Correction** of the selected layer.
 
 ![Layer Controls Playback Area](/prism-images/play/layer-controls/colour-correction.png)
 
-|   Property      |  Description        |
+|   Item      |  Description        |
 |----------------|------------|
 | **Red**        | Sets the Red Channel of the layer |
 | **Green**      | Sets the Green Channel of the layer|
@@ -110,7 +110,7 @@ This area controls the **Transformation** of the selected layer.
 
 ![Layer Controls Playback Area](/prism-images/play/layer-controls/transformation.png)
 
-| <p style={{width: '100px', margin: '0'}}>Property</p> |  Description |
+| <p style={{width: '100px', margin: '0'}}>Item</p> |  Description |
 |-----------------|------------|
 | **Scale X**     | Sets the Scale X (horizontal scale) of the layer, in relation to the surface size. <br/> When pressing the <Keys.PrismKey>Lock</Keys.PrismKey> icon this will be aspect ratio locked with *Scale Y* . <br/> When pressing the <Keys.PrismKey>Unlock</Keys.PrismKey> icon this will be set independently from *Scale Y* |
 | **Scale Y**     | Sets the Scale Y (vertical scale) of the layer, in relation to the surface size. <br/> When pressing the <Keys.PrismKey>Lock</Keys.PrismKey> icon this will be aspect ratio locked with *Scale X* . <br/> When pressing the <Keys.PrismKey>Unlock</Keys.PrismKey> icon this will be set independently from *Scale X*|
@@ -126,7 +126,7 @@ This area controls the **Rendering** of Synergy Pixel Map texture.
 
 ![Layer Controls Crop Area](/prism-images/play/layer-controls/rendering-controls.png)
 
-| <p style={{width: '120px', margin: '0'}}>Property</p> |  Description |
+| <p style={{width: '120px', margin: '0'}}>Item</p> |  Description |
 |-----------------|------------|
 | **Render Layer** | Toggle the visibility of the layer. |
 | **Blend Modes**  | Blend mode is used to determine how multiple layers are combined to create a final visual result on a Surface. It controls how the pixel colours of one layer interact with the pixels of layers beneath it.<br/><br/><ul><li>**Additive** - Combines the values of the pixels, creating a blended image.</li><li>**Alpha (Default)** - Allows the use of transparent areas which need to be specified when created.</li><li>**Darken** - Keeps the darkest colour from the blended Layers</li><li>**Difference** - Subtracts one colour value from the other and uses the result as the pixel colour to display.</li><li>**Exclude** - Similar to Difference mode but with lower contrast.</li><li>**Intensity Mix** - Blends Layers based on their intensity.</li><li>**Inverse Luma** - Excludes areas of the image based on the luminosity of the pixels and the specified threshold.</li><li>**Inverse Mask** - Uses the layer as a mask for the layer below showing the image in the dark areas.</li><li>**Lighten** - Shows the highest of each colour component used across layers.</li><li>**Luma** – Excludes areas of the image based on the luminosity of the pixels and the specified threshold.</li><li>**Mask** – Uses the layer as a mask for the layer below showing the image in the light areas.</li><li>**Multiply** – Takes the values of the images, multiplys them together and returns the resulting value.</li><li>**Not Additive Mixing** - Non Additive Mixing shows the brightest pixel of the layers.</li><li>**Opaque** – Fully solid with no transparency.</li><li>**Screen** –  takes the values of the pixels in the two layers inverts, multiplys, and then inverts them again.</li><li>**Subtract** – The value of one layer is taken from the other layer. The resulting number is then used for the colour value.</li><li>**Tom Mask** –  When fully applied, it completely masks the layer below, functioning similarly to Multiply. Can fix issues when multiplying by 0.</li></ul><br/>*Note: Final result will depend on the [render order](../settings/settings-playback#renderer)*|
@@ -136,7 +136,7 @@ This area controls the **Rendering** of Synergy Pixel Map texture.
 
 Will only affect [Virtual Return](./banks#virtual-return) bank elements.
 
-| Property | Description |
+| Item | Description |
 |-----------------|------------|
 | **Send Only**  | When enabled, the layer will be ignored in the final Surface mix but will remain accessible for Virtual Return. This can improve performance when a layer is only needed for Virtual Return access and does not need to be included in the final Surface composition.  |
 | **Use Pre Adjustments**  | Specify whether Virtual Return should access the layer before or after layer adjustments are applied.  |
