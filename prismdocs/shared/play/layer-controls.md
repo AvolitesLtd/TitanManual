@@ -47,7 +47,7 @@ The **Sync to DMX** is used to allow the Prism UI controls to immediately adjust
 
 ## Playback
 
-The **Playback** controls, which are set on the bank element.
+The **Playback** controls the intensity / volume of a bank element playing on a layer.
 
 ![Layer Controls Playback Area](/prism-images/play/layer-controls/playback.png)
 
