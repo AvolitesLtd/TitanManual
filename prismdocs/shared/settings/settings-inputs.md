@@ -29,7 +29,7 @@ On the right side it is then possible to change the following settings:
 
 ![Source Settings](/prism-images/settings/source-settings.png)
 
-|   Feature            |  Description        |
+|  Item  |  Description  |
 |----------------------|------------|
 | **Video Format** | List of available video formats. Each format is composed of resolution, color space and frame rate (physical inputs only).|
 | **Audio Source** | List of available audio sources. The selected source will act as the audio input (physical inputs only).|
