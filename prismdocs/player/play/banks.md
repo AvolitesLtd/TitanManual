@@ -24,7 +24,9 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button
 
 ![Prism Player Banks](/prism-images/play/banks/player-grid-banks.png)
 
-Pressing the <Keys.PrismKey>+</Keys.PrismKey> button will add a new **Bank**, each with its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
+Pressing the <Keys.PrismKey>+</Keys.PrismKey> button will add a new **Bank**, each with its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>
+
+#### Sub Menu
 
 | Item | Description |
 |--------|--------------|
