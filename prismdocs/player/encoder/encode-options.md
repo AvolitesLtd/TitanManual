@@ -12,7 +12,7 @@ The results of these settings will be applied once the item is encoded.
 
 ![Encode Options](/prism-images/encoder/encoder-controls/player-encoder-controls.png)
 
-| <p style={{width: '150px'}}>Feature</p> | Description |
+|  Item  |  Description  |
 |-|-|
 | **Reset to Default** | This button will reset all settings to default value. |
 | **Match Source** | This button will set the following settings to match those of the source media file: <br/><br/> - Resolution Preset <br/> - Output Width <br/> - Output Height <br/> - Frame Rate <br/> - Sample Rate <br/> - Bit Depth <br/><br/> Any user changes to the audio and video settings will be discarded when pressing this button. |
