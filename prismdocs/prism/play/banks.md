@@ -26,7 +26,7 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button
 
 Pressing the <Keys.PrismKey>+</Keys.PrismKey> button will add a new **Bank**, each with its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 
-| Feature | Description |
+| Item | Description |
 |--------|--------------|
 | **Rename** | Renames the Bank | 
 | **Remove**| Deletes the Bank and its contents | 
