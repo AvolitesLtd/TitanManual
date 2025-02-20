@@ -39,7 +39,7 @@ Adjustments made here will be applied to all **Layers**, which play this **Bank 
 
 ## Playback
 
-The **Playback** controls, which are set on the bank element.
+The **Playback** controls the intensity / volume of a bank element playing on a layer.
 
 ![Preview Playback Area](/prism-images/preview/preview-playback.png)
 
