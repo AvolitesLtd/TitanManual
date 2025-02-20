@@ -38,4 +38,4 @@ There are four sections:
 
 | <p style={{width: '250px', margin: '0'}}>Feature</p> |  Description        |
 |----------------------|------------|
-| **Clear Cache** |  Clears the [Prism Media Cache](../quick-start/media-management.md#prism-media-cache), thumbnails and Undo/Redo History.  |
+| **Clear Cache** |  Clears bank elements informations and thumbnails, resets NDI and Live Inputs settings and clears Undo/Redo history. |
