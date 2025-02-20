@@ -26,7 +26,7 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button
 
 Pressing the <Keys.PrismKey>+</Keys.PrismKey> button will add a new **Bank**, each with its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 
-| Feature | Description |
+| Item | Description |
 |--------|--------------|
 | **Rename** | Renames the Bank | 
 | **Remove**| Deletes the Bank and its contents | 
@@ -93,23 +93,30 @@ When previewing an element, adjustments can be made to its properties, please se
 
 #### Sub Menu
 {{PLAYER-START-COMMENT}}
-Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
+Opening the <Keys.PrismKey>Sub Menu</Keys.PrismKey> on individual elements allows access to the following actions:
 
-- **Remove** - Deletes the element from the Bank
-- **Duplicate** - Add a new copy of the Bank element, including all settings
-- **Show In Folder** - Open file explorer and navigate to the element's media file
+| Item | Description |
+|--------|--------------|
+| **Remove** | Deletes the element from the Bank | 
+| **Replace** | Replaces the element from the Bank with new media | 
+| **Duplicate**| Add a new copy of the Bank element, including all settings | 
+| **Show In Folder** | Open file explorer and navigate to the element's media file | 
 
 {{PLAYER-END-COMMENT}}
 
 {{PRISM-START-COMMENT}}
-Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
+Opening the <Keys.PrismKey>Sub Menu</Keys.PrismKey> on individual elements allows access to the following actions:
 
-- **Remove** - Deletes the element from the Bank
-- **Preview** - Preview and adjust properties of the Bank element
-- **Duplicate** - Add a new copy of the Bank element, including all settings
-- **Show In Folder** - Open file explorer and navigate to the element's media file
+| Item | Description |
+|--------|--------------|
+| **Remove** | Deletes the element from the Bank | 
+| **Replace** | Replaces the element from the Bank with new media | 
+| **Preview** | Preview and adjust properties of the Bank element | 
+| **Duplicate**| Add a new copy of the Bank element, including all settings | 
+| **Show In Folder** | Open file explorer and navigate to the element's media file |
+| **Copy** | Copy the clip controls set within Preview |
+| **Paste** | Paste the clip controls from one bank element to another |
 {{PRISM-END-COMMENT}}
-
 
 ## Import/Export
 

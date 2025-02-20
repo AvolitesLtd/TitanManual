@@ -79,12 +79,17 @@ When previewing an element, adjustments can be made to its properties, please se
 
 #### Sub Menu
 
-Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
+Opening the <Keys.PrismKey>Sub Menu</Keys.PrismKey> on individual elements allows access to the following actions:
 
-- **Remove** - Deletes the element from the Bank
-- **Preview** - Preview and adjust properties of the Bank element
-- **Duplicate** - Add a new copy of the Bank element, including all settings
-- **Show In Folder** - Open file explorer and navigate to the element's media file
+| Item | Description |
+|--------|--------------|
+| **Remove** | Deletes the element from the Bank | 
+| **Replace** | Replaces the element from the Bank with new media | 
+| **Preview** | Preview and adjust properties of the Bank element | 
+| **Duplicate**| Add a new copy of the Bank element, including all settings | 
+| **Show In Folder** | Open file explorer and navigate to the element's media file |
+| **Copy** | Copy the clip controls set within Preview |
+| **Paste** | Paste the clip controls from one bank element to another |
 
 ## Import/Export
 

@@ -26,7 +26,7 @@ Users can playback elements using the <Keys.PrismKey>Play</Keys.PrismKey> button
 
 Pressing the <Keys.PrismKey>+</Keys.PrismKey> button will add a new **Bank**, each with its own <Keys.PrismKey>Sub Menu</Keys.PrismKey>:
 
-| Feature | Description |
+| Item | Description |
 |--------|--------------|
 | **Rename** | Renames the Bank | 
 | **Remove**| Deletes the Bank and its contents | 
@@ -66,11 +66,14 @@ Playing an element will playback on the [media player](./mediaplayer.md).
 
 #### Sub Menu
 
-Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
+Opening the <Keys.PrismKey>Sub Menu</Keys.PrismKey> on individual elements allows access to the following actions:
 
-- **Remove** - Deletes the element from the Bank
-- **Duplicate** - Add a new copy of the Bank element, including all settings
-- **Show In Folder** - Open file explorer and navigate to the element's media file
+| Item | Description |
+|--------|--------------|
+| **Remove** | Deletes the element from the Bank | 
+| **Replace** | Replaces the element from the Bank with new media | 
+| **Duplicate**| Add a new copy of the Bank element, including all settings | 
+| **Show In Folder** | Open file explorer and navigate to the element's media file | 
 
 ## Import/Export
 
