@@ -29,7 +29,33 @@ var template = [{
 
 Menu.setApplicationMenu(Menu.buildFromTemplate(template));
 
+const checkSingleInstance = (fullAppName) => {
+  const additionalData = { uuid: fullAppName }
+  const gotTheLock = app.requestSingleInstanceLock(additionalData)
+
+  //  quit the second instance
+  if (!gotTheLock) {
+    app.quit();
+    return false;
+  }
+
+  app.on('second-instance', () => {
+    // Someone tried to run a second instance, we should focus our window.
+    if (win) {
+      if (win.isMinimized()) win.restore()
+        win.focus()
+    }
+  });
+
+  return true;
+}
+
 const createWindow = () => {
+
+  // Activating the window of primary instance when a second instance starts
+  if (!checkSingleInstance("Avolites Manual"))
+    return false;
+
   // Create the browser window.
   win = new BrowserWindow({
     width: 1200,
