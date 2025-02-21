@@ -9,10 +9,10 @@ To create a **{{PRISM-APP}}** project, click on `File > New Project` or use the 
 Creating a new project will reset all application settings.
 
 {{PRISM-START-COMMENT}}
-All **Banks** and **Layers** will be removed and 2 default **Layers** will be created.
+By default, a new Prism project will contain 1 **Surface** containing 2 **Layers**, and 2 **Regions**.
 {{PRISM-END-COMMENT}}
 
-**Encode list** media files and **Settings** are kept as they are not saved on project files but on separate files.
+**Encode list** media files and **Settings** will remain unchanged as they are stored separately.
 
 ### Save Project
 
@@ -44,19 +44,19 @@ Opening a previously saved project greatly reduces the setup time for a show and
 {{PRISM-START-COMMENT}}
 ### Collect All and Save 
 
-Collect and save all media used in the project to a specific destination. This can be used to back up the project's state along with its media or to easily transfer it to another machine.<br/>
-To save a Prism project with a collection, click on `File > Collect All and Save`. The default destination folder of project files is in the **Documents** folder under `Avolites > Prism > {{PRISM-PATH}} > Projects`. On collecting all and saving the *Save Project with Collection* dialog box will prompt where the project file name and the default destination folder can be changed. 
+Collect and save all media used in the project to a specific destination folder. This can be used to backup a project along with its media, or easily transfer it to another machine.<br/>
+To save a Prism project with a collection, click on `File > Collect All and Save`. The default destination folder of project files is in the **Documents** folder under `Avolites > Prism > {{PRISM-PATH}} > Projects`. On collecting all and saving the **Save Project with Collection** dialog box will prompt where the project file name and the default destination folder can be changed. 
 
 A pop-up will then show the following information: 
 
-- Number of media files being collected 
-- Destination folder of the collection 
-- Required disk space of the collection 
-- Available space on the destination folder
+- Number of media files being collected. 
+- Destination folder of the collection. 
+- Required disk space of the collection. 
+- Available disk space at the destination.
 
 ![Collecting Media Start](/prism-images/project-management/collecting-media-popup-start.png)
 
-If there is not enough available space, the collection process cannot proceed, and the only option is to press the *Cancel* button.
+If there is not enough available space, the collection process cannot proceed and the only option is to press the *Cancel* button.
 
 ![Collecting Media Error Size](/prism-images/project-management/collecting-media-popup-error-size.png)
 
@@ -75,6 +75,6 @@ If an error occurs during the process (e.g., the destination folder is on an ext
 
 ### Open Project with Collection 
 
-To open a Prism project with collection, click on `File > Open Project with Collection`.  When opening a project with collection Prism will look for the *Media* folder that was created when saving with a collection (*Collect All and Save*).<br/>
-If the *Media* folder is found the media files will be loaded to the **Banks** and the media file paths under *Source* will be relative to this folder. If the *Media* folder is not found the loading will fail and an error will be notified.
+To open a Prism project with collection, click on `File > Open Project with Collection`.  When opening a project with collection, Prism will look for the *Media* folder that was created when saving with a collection (*Collect All and Save*).<br/>
+If the *Media* folder is found, the media files will be loaded to the **Banks** and the media file paths under *Source* will be relative to this folder. If the *Media* folder is not found the loading will fail and an error will be notified.
 {{PRISM-END-COMMENT}}
