@@ -15,10 +15,10 @@ import Keys from '@site/src/components/key.ts';
 ## Main Menu
 ![Prism File Menu Open Recent](/prism-images/navigation/prism-header-menu.png)
 
-In this section it is possible to navigate the application menu, see the Project name and minimize, maximize or close the user interface.
+In this section it is possible to navigate the application menu, see the Project name, minimize, maximize or close the user interface.
 
 ### App Logo
-Clicking on Prism logo will hide all [View Tabs](#view-tabs) showing the selected **Surface** in fullscreen.
+Clicking on Prism logo will hide all [View Tabs](#view-tabs), showing the selected **Surface** in fullscreen.
 
 ### File
 
@@ -70,7 +70,7 @@ More information found at [Import/Export](./import-export.md)
 
 |  Item   |   Description   |
 |--------------|-----------------|
-| Audio Device | Sets the audio device for **Prism** to output to, the same setting can configured on the [settings](../settings/settings-general.md#audio). |
+| Audio Device | Sets the audio device output for **Prism**. This can also be configured via [Settings](../settings/settings-general.md#audio). |
 
 ### Video
 
@@ -79,7 +79,7 @@ More information found at [Import/Export](./import-export.md)
 |  Item  |   Description   |
 |-------------|-----------------|
 | Show Grid   |   Displays a reference grid over the media player / layer preview. |
-| Transparency Preview |  Toggles on the alpha channel showing a checkerboard in the transparent areas. |
+| Transparency Preview |  Toggles on the alpha channel, showing a checkerboard in transparent areas. |
 
 ### Help
 
@@ -89,17 +89,17 @@ More information found at [Import/Export](./import-export.md)
 |-----------|-------------|
 | Manual  | Opens the Desktop Manual app. |
 | Support | Shows a pop-up with company details. |
-| About   | Shows a pop-up with informations about **Prism**. |
+| About   | Shows a pop-up with information about **Prism**. |
 
 ## View Tabs
 ![Prism File Menu Open Recent](/prism-images/navigation/prism-view-tabs.png)
 
 In this section it is possible to navigate the following app **Views**:
 
-- [Play](../play/play.md)
-- [Stage](../stage/stage.md)
-- [Encoder](../encoder/encoder.md)
-- [Settings](../settings/settings.md)
+- [Play](../play/play.md).
+- [Stage](../stage/stage.md).
+- [Encoder](../encoder/encoder.md).
+- [Settings](../settings/settings.md).
 
 An underline will give visual feedback of the selected **View**.
 
@@ -109,17 +109,20 @@ This bar shows the following app informations at a glance.
 
 ![Prism Status Bar Left](/prism-images/navigation/prism-status-bar.png)
 
-- App performance metrics - The full performance metrics are shown in [Settings System Info](../settings/settings-system-info.md)
-- Prism release version
-- User interface connection status led - red when disconnected, green when connected to the server.
+- App performance metrics - The full performance metrics are shown in the [System Info](../settings/settings-system-info.md) page in **Settings**.
+- Prism release version.
+- User interface connection status LED - red when disconnected, green when connected to the Server.
 
 ## Multi Selection
 
 It is possible to select multiple elements by:
-- Ticking the elements' selection boxes
-- Holding *Ctrl* button and clicking on the elements
-- Clicking on an element, then holding *Shift* button and then click on another element. This will select a range of elements where the start is set on the first clicked elements and the end on the last clicked element.
+- Ticking element selection boxes.
+- Holding *Ctrl* button and clicking on elements.
+- Clicking on an element then *Shift* clicking another element to range select.
+- Pressing *Ctrl-A* to select all elements in a list.
 
-When multiple elements selection is active on  **Bank Elements**, **Layers** (in Play View), **Regions** or **Encode List**,   in the *Controls* panel a *Multiple elements selected* orange label is shown and any change to a value will be applied to every selected element.<br/>
-The displayed values in the *Controls* panel are initially those of the first selected element.<br/>
-If undo action is present in the panel where the value has been changed, upon undo action triggering all previous values are restored and the value of the first selected element is displayed.
+When multiple  **Bank Elements**, **Layers** (in Play View), **Regions** or **Encode List** entries   have been selected, a *Multiple elements selected* orange label is shown in the *Controls* panel and changes will be applied to every selected element.<br/>
+
+Any unchanged values in the *Controls* panel will initially display those of the first selected element.<br/>
+
+If [Undo and Redo](#edit) are permitted, all selected elements will be affected.
