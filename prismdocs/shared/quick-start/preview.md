@@ -26,8 +26,8 @@ Media stored in a bank can be previewed.
 
 |   Item    |  Description  |
 |---------------|------------|
-| **Bank**      | Select a bank to then select a bank element to play elements on the preview |
-| **Element**   | Selecting a bank element will play that element on the the preview |
+| **Bank**      | Select a Bank. |
+| **Element**   | Select a Bank Element to Preview. |
 
 ### Reset to Default
 
@@ -39,45 +39,44 @@ Adjustments made here will be applied to all **Layers**, which play this **Bank 
 
 ## Playback
 
-The **Playback** controls the intensity / volume of a bank element playing on a layer.
+The **Playback** controls the intensity / volume of a Bank Element playing on a layer.
 
 ![Preview Playback Area](/prism-images/preview/preview-playback.png)
 
 |   Item     |  Description      |
 |---------------|------------|
-| **Intensity** | Adjusting this will set the opacity of the bank element |
-| **Volume/Mute** | Adjusting this will set the volume of the bank element  |
-
+| **Intensity (%)** | Intensity sets the opacity of the Bank Element. |
+| **Volume (%) / Mute** | Volume of the Bank Element. Whether Bank Element is muted. |
 
 ## Player Controls
 
-This area controls the **Player Controls** options, which are set on the bank element.
+This area controls the **Player Controls** options, which are set on the Bank Element.
 
 ![Preview Player Controls Area](/prism-images/preview/preview-player-controls.png)
 
-The **Player Controls** have check boxes against their properties, so that users can define whether to use the bank element value or the one that is currently on the layer that it will play on.
+The **Player Controls** have check boxes against their properties, so that users can define whether to use the Bank Element value or the one that is currently on the layer that it will play on.
 
 |   Item                   |  Description     |
 |--------------------------|----------|
-| **Cross Fade Duration**  | Sets the Cross Fade Duration of the bank element  |
-| **Play Mode**            | Sets the Play Mode of the bank element, they are: <br/><br/> - **Play List** - Play through all the media in the bank that the current element belongs to. <br/> - **Loop** - Continuously play the same media element <br/> - **Shuffle** - Randomly select and play media from the bank that the element belongs to. <br/> - **Play Once** - Play the media once and then display the last frame. <br/> - **Pause** - Stay on the current frame <br/> - **In Frame** - Display the first frame <br/> - **Out Frame** - Display the last frame |
-| **Aspect Mode** | Sets the Aspect Mode of the bank element, ready to override the layer, if checked. <br/><br/> - **Fit** - Adjust the media to fit within the surface while maintaining its original aspect ratio <br/> - **Box** - Display the media in a box format, adding black bars to maintain the original aspect ratio - <br/> - **Center** - Center the media on the surface without scaling it, showing it at its original size . <br/> - **Window** - Adjust the video to fit the entire screen, potentially altering the aspect ratio |
-| **Trim In**   | Sets the Trim In of the bank element     |
-| **Trim Out**  | Sets the Trim Out of the bank element    |
-| **Speed**     | Sets the Speed of the bank element       | 
+| **Cross Fade Duration**  | Cross Fade Duration of the Bank Element. |
+|  **Play Modes** | <Keys.PrismKey>Play List</Keys.PrismKey> - Play through all the media in the bank that the current element belongs to. <br/> <Keys.PrismKey>Loop</Keys.PrismKey> - Continuously play the same media element<br/><Keys.PrismKey>Shuffle</Keys.PrismKey> - Randomly select and play media from the bank that the element belongs to.<br/><Keys.PrismKey>Play Once</Keys.PrismKey> - Play the media once and then display the last frame.<br/><Keys.PrismKey>Pause</Keys.PrismKey> - Stay on the current frame.<br/> <Keys.PrismKey>In Frame</Keys.PrismKey> - Display the first frame.<br/> <Keys.PrismKey>Out Frame</Keys.PrismKey> - Display the last frame.|
+| **Aspect Mode** | Aspect Mode of the bank element, ready to override the layer, if checked. <br/><br/> - **Fit** - Adjust the media to fit within the surface while maintaining its original aspect ratio <br/> - **Box** - Display the media in a box format, adding black bars to maintain the original aspect ratio - <br/> - **Center** - Center the media on the surface without scaling it, showing it at its original size . <br/> - **Window** - Adjust the video to fit the entire screen, potentially altering the aspect ratio |
+| **Trim In (%)**   | Trim In of the Bank Element.     |
+| **Trim Out (%)**  | Trim Out of the Bank Element.    |
+| **Speed (%)**     | Speed of the Bank Element.       | 
 
 ## Crop
 
-This area controls the **Crop** of the bank element.
+This area controls the **Crop** of the Bank Element.
 
 ![Layer Controls Crop Area](/prism-images/play/layer-controls/crop-controls.png)
 
 |  Item  |  Description |
 |------------|--------------|
-| **Left**   | Sets the percentage of cropping on the left side of the preview |
-| **Right**  | Sets the percentage of cropping on the right side of the preview |
-| **Top**    | Sets the percentage of cropping on the top side of the preview  |
-| **Bottom** | Sets the percentage of cropping on the bottom side of the preview |
+| **Left (%)**   | Crop on the left side of the Bank Element. |
+| **Right (%)**  | Crop on the right side of the Bank Element. |
+| **Top (%)**    | Crop on the top side of the Bank Element.  |
+| **Bottom (%)** | Crop on the bottom side of the Bank Element. |
 
 ## NDI Input
 
@@ -85,9 +84,9 @@ This area controls the **Crop** of the bank element.
 
 |   Item      |  Description   |
 |----------------|---------|
-| **NDI Source** | A drop-down list of all active NDI sources on your network |
-| **Refresh**    | Click to check for newly available NDI sources |
-| **Status**     | Shows the connection status to the NDI source, stream will only display frames when active |
+| **NDI Source** | List of all active NDI sources on your network. |
+| **Refresh**    | Click to check for newly available NDI sources. |
+| **Status**     | Shows the connection status to the NDI source, stream will only display frames when active. |
 
 ## Live Input
 
@@ -95,8 +94,8 @@ This area controls the **Crop** of the bank element.
 
 |   Item  |  Description   |
 |------------|---------|
-| **Source** | A drop-down list of valid capture devices for video streaming, if they are compatible with DirectShow |
-| **Status** | Shows the connection status to the capture device, will only display frames when active|
+| **Source** | List of valid capture devices for video streaming, if they are compatible with DirectShow. |
+| **Status** | Shows the connection status to the capture device, will only display frames when active. |
 
 ## Virtual Return
 
@@ -104,11 +103,11 @@ This area controls the **Crop** of the bank element.
 
 |   Item      |  Description   |
 |----------------|---------|
-| **Source** | A drop-down list of all Surfaces and Layers on  **Prism**|
+| **Source** | List of all Surfaces and Layers on  **Prism**.|
 
 ## Colour Correction
 
-This area controls the **Colour Correction** options, which are set on the bank element
+This area controls the **Colour Correction** options, which are set on the Bank Element
 
 ![Preview Playback Area](/prism-images/preview/preview-colour-correction.png)
 
@@ -116,26 +115,26 @@ The below table describes what each of the options do:
 
 |   Item      |  Description      |
 |----------------|------------|
-| **Red**        | Sets the Red Channel of the bank element |
-| **Green**      | Sets the Green Channel of the bank element|
-| **Blue**       | Sets the Blue Channel of the bank element |
-| **Hue Offset** | Sets the Hue Offset of the bank element |
-| **Saturation** | Sets the Saturation of the bank element |
-| **Contrast**   | Sets the Contrast of the bank element |
-| **Gamma**      | Sets the Gamma of the bank element |
+| **Red (%)**        | Red Channel of the Bank Element. |
+| **Green (%)**      | Green Channel of the Bank Element.|
+| **Blue (%)**       | Blue Channel of the Bank Element. |
+| **Hue Offset (&deg;)** | Hue Offset of the Bank Element. |
+| **Saturation (%)** | Saturation of the Bank Element. |
+| **Contrast (%)**   | Contrast of the Bank Element. |
+| **Gamma (%)**      | Gamma of the Bank Element. |
 
 ## Transformation
 
-This area controls the **Transformation** options, which are set on the bank element
+This area controls the **Transformation** options, which are set on the Bank Element
 
 ![Preview Playback Area](/prism-images/preview/preview-transformation.png)
 
 | <p style={{width: '100px', margin: '0'}}>Item</p> |  Description |
 |-----------------|------------|
-| **Scale X**     | Sets the Scale X (horizontal scale) of the bank element, in relation to the surface size. <br/> <Keys.PrismKey>Lock</Keys.PrismKey> will set either X or Y to the current aspect ratio. <br/> <Keys.PrismKey>Unlock</Keys.PrismKey> will set *Scale X* independently from *Scale Y* |
-| **Scale Y**     | Sets the Scale Y (vertical scale) of the bank element, in relation to the surface size. <br/> <Keys.PrismKey>Lock</Keys.PrismKey> will set either X or Y to the current aspect ratio. <br/> <Keys.PrismKey>Unlock</Keys.PrismKey> will set *Scale X* independently from *Scale Y*|
-| **Translate X** | Sets the Translate X (horizontal position) of the bank element, in relation to the surface size |
-| **Translate Y** | Sets the Translate Y (vertical position) of the bank element, in relation to the surface size |
-| **Rotate X**    | Sets the Rotate X (x axis) of the bank element, in relation to the surface |
-| **Rotate Y**    | Sets the Rotate Y (y axis) of the bank element, in relation to the surface |
-| **Rotate Z**    | Sets the Rotate Z (z axis) of the bank element, in relation to the surface |
+| **Scale X (%)**     | Scale X (horizontal scale) of the Bank Element, in relation to the surface size. <br/> <Keys.PrismKey>Lock</Keys.PrismKey> will set either X or Y to the current aspect ratio. <br/> <Keys.PrismKey>Unlock</Keys.PrismKey> will set *Scale X* independently from *Scale Y* |
+| **Scale Y (%)**     | Scale Y (vertical scale) of the Bank Element, in relation to the surface size. <br/> <Keys.PrismKey>Lock</Keys.PrismKey> will set either X or Y to the current aspect ratio. <br/> <Keys.PrismKey>Unlock</Keys.PrismKey> will set *Scale X* independently from *Scale Y*|
+| **Translate X (%)** | Translate X (horizontal position) of the Bank Element, in relation to the surface size |
+| **Translate Y (%)** | Translate Y (vertical position) of the Bank Element, in relation to the surface size |
+| **Rotate X (&deg;)**    | Rotate X (x axis) of the Bank Element, in relation to the Surface. |
+| **Rotate Y (&deg;)**    | Rotate Y (y axis) of the Bank Element, in relation to the Surface. |
+| **Rotate Z (&deg;)**    | Rotate Z (z axis) of the Bank Element, in relation to the Surface. |

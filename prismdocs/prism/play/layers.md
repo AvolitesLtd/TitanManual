@@ -34,13 +34,13 @@ The layer has some controls, which can adjust the layers in real-time.
 
 | Item | Description |
 |---------|-------------|
-|  **Visibility** | Toggle the visibility icon to hide and show the layer |
-|  **Intensity** | Click on the % value to open a slider, this sets the opacity of the layer |
-|  **Mute** | Toggle mute will mute / unmute the audio from the layer |
-|  **Volume** | Click on the % value to open a slider, this sets the volume of the layer |
-|  **Speed** | Click on the % value to open a slider, this sets the speed adjustment of the layer |
-|  **Play Modes** | Click on the <Keys.PrismKey>Play List</Keys.PrismKey>, <Keys.PrismKey>Loop</Keys.PrismKey>, <Keys.PrismKey>Shuffle</Keys.PrismKey>, <Keys.PrismKey>Play Once</Keys.PrismKey>, <Keys.PrismKey>Pause</Keys.PrismKey>, <Keys.PrismKey>In Frame</Keys.PrismKey>, <Keys.PrismKey>Out Frame</Keys.PrismKey>, button to open the play mode selection. Clicking on a play mode icon will select that play mode and update the button icon |
-|  **Clear Layer** | Click on the <Keys.PrismKey>Clear Layer</Keys.PrismKey> button to reset the layer |
+|  **Visibility** | Hide / show the layer |
+|  **Intensity** | Opacity of the layer |
+|  **Mute** | Mute / unmute the audio from the layer |
+|  **Volume** | Volume adjustment of the layer |
+|  **Speed** | Speed adjustment of the layer |
+|  **Play Modes** | <Keys.PrismKey>Play List</Keys.PrismKey> - Play through all the media in the bank that the current element belongs to. <br/> <Keys.PrismKey>Loop</Keys.PrismKey> - Continuously play the same media element<br/><Keys.PrismKey>Shuffle</Keys.PrismKey> - Randomly select and play media from the bank that the element belongs to.<br/><Keys.PrismKey>Play Once</Keys.PrismKey> - Play the media once and then display the last frame.<br/><Keys.PrismKey>Pause</Keys.PrismKey> - Stay on the current frame.<br/> <Keys.PrismKey>In Frame</Keys.PrismKey> - Display the first frame.<br/> <Keys.PrismKey>Out Frame</Keys.PrismKey> - Display the last frame.|
+|  **Clear Layer** | <Keys.PrismKey>Clear Layer</Keys.PrismKey> Reset the layer |
 |  **Solo** | Click on the <Keys.PrismKey>Solo</Keys.PrismKey> button to solo this layer. This will be the only layer present in the surface mix |
 
 Users can also control each [Layer Controls](./layer-controls.md) via the UI or [Synergy](../settings/settings-synergy.md) control.
