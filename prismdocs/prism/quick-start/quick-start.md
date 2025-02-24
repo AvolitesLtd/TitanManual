@@ -5,34 +5,34 @@ sidebar_label: Quick Start
 ---
 
 ### Setting up a Project
-Start by creating a new project via the file menu   
+Start by creating a [new project](./projects-management.md/#new-project) via the [file menu](./navigation.md/#file).   
 
 **File** > **New Project**
 
-Next, set the surface resolution which defines our working area in pixels. 
+Next, set the [surface resolution](../../prism/stage/surfaces.md/#surface-controls) to define our working area in pixels. 
 
 **Stage** > **Surfaces** > **Surface** 
 
-- Select a Surface
-- Set the resolution 
+- Select a Surface.
+- Set the resolution. 
 
 ![Surface Resolution](/prism-images/quick-start/surface-resolution.png)
 
 ### Connect to an External Display
 
-To connect the surface to an external display,  the output needs to be enabled in Prism. 
+To connect the surface to an external display, the output needs to be [enabled](../../prism/stage/outputs.md/#physical-output-controls) in Prism. 
 
 **Stage** > **Outputs**
 
-- Select Physical Output 
-- Select the Output Device
+- Select Physical Output. 
+- Select the Output Device.
 - Enable the Output. 
 
 ![Physical Output](/prism-images/quick-start/display.png)
 
 ### Region Setup
 
-To determine which part of the **Surface** is being sent to the **Output**, a **Region** is used. The region will define the area to be sampled from the specified **Surface** and then where and what size this sample needs to be drawn on the output. 
+To determine which part of the **Surface** is being sent to the **Output**, a [Region](../../prism/stage/regions.md) is used. The region will define the area to be sampled from the specified **Surface** and then where and what size this sample needs to be drawn on the output. 
 
 **Stage** > **Regions** 
 
@@ -49,11 +49,11 @@ The project is now setup, all that is left is to import media and trigger it to 
 
 ### Bank Setup
 
-A bank must first be created in order to import media into the project 
+A [bank](../../prism/play/banks.md) must first be created in order to import media into the project. 
 
 **Play** > **Banks** 
 
-– Press the *Add* Button 
+– Press the *Add* Button. 
 
 ![Banks](/prism-images/quick-start/banks.png)
 

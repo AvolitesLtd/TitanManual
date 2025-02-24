@@ -8,7 +8,7 @@ sidebar_label: Projects Management
 To create a **Prism Player** project, click on `File > New Project` or use the `Ctrl+N` shortcut.  
 Creating a new project will reset all application settings.
 
-**Encode list** media files and **Settings** are kept as they are not saved on project files but on separate files.
+**Encode list** media files and **Settings** will remain unchanged as they are stored separately.
 
 ### Save Project
 
