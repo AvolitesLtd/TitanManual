@@ -9,7 +9,7 @@ export default function DocVersionBadgeWrapper(props) {
   return (
     isPrism ?
         <span className='theme-doc-version-badge badge badge--secondary'>
-          Version: 1.4
+          Version: 2.0
         </span>
       : 
     <DocVersionBadge {...props} />
