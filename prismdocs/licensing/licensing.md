@@ -15,17 +15,17 @@ sidebar_label: Prism Licensing
 **Prism** provides 1 physical output and 1 NDI output.
 
 ### Features
-|Feature / License Level | Prism Zero | Prism One |
+| Feature / License Level | Prism Zero | Prism One |
 |-|-|-|
 | **Surface**                   | 1 (1920x1080 max) | Up to 16 |
 | **Layers**                    | 1                 | Up to 16 per Surface |
 | **Blend modes**               | Yes               | Yes|
 | **2D Mapping (Regions)**      | Yes               | Yes|
 | **Physical Output**           | 1                 | 1 |
-| **NDI output**                | 1                 | 1 |
+| **NDI Output**                | 1                 | 1 |
 | **Media Management**          | Yes               | Yes | 
 | **Crossfade on single layer** | Yes               | Yes |
-| **Pixel Map Adj**             | Yes               | Yes |
+| **Pixel Map Adjustments**     | Yes               | Yes |
 
 ## Prism Player
 
