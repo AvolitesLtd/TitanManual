@@ -175,11 +175,11 @@ module.exports={
             },
             {
               label: 'Support',
-              to: 'https://www.avolites.com/support/"',
+              to: 'https://www.avolites.com/support/',
             },
             {
               label: 'Titan API Documentation',
-              to: 'https://api.avolites.com/"',
+              to: 'https://api.avolites.com/',
             },
             {
               label: 'Privacy Policy',
