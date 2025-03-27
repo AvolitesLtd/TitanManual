@@ -20,7 +20,7 @@ Zu jedem  Fader auf dem Pult gibt es verschiedene Tasten. Diese werden hier **Se
 &nbsp;<Keys.Annotation>B</Keys.Annotation> **Flashtaste**
 
 
-Auf dem **Diamond 9** und dem **T3** sind die Tasten für die Drehregler (nur bei D9) und Fader wie folgt angeordnet::
+Auf dem **Diamond 9** , dem **Diamond 7** und dem **T3** sind die Tasten für die Drehregler (nur bei D9/D7) und Fader wie folgt angeordnet::
 
 ![Diamond Select and Flash](/docs/images/Diamond-Select-Flash.png)
 
@@ -85,7 +85,7 @@ aufgezeichneten Pausen oder in schneller Folge).
 - In Macros werden nur 'richtige' Tasten aufgezeichnet, sowie einige spezielle Klicks auf dem Touchscreen, z.B. das Auswählen von Geräten oder das Wechseln von Menüs. Änderungen anderer Eigenschaften per Klick im Display werden nicht aufgezeichnet
 
 - 
-Macros können auch als **Script** programmiert werden. Eine Einführung findet sich auf [Avolites WebAPI](https://www.avolites.com/webapi), eine Dokumentation der Funktionen gibt es auf [Avolites API documents](https://api.avolites.com/16.0/#scripts), und praktische Beispiele finden Sie im [Avolites-Wiki](https://www.avosupport.de/wiki/macros/start) (external website).
+Macros können auch als **Script** programmiert werden. Eine Einführung findet sich auf [Avolites WebAPI](https://www.avolites.com/webapi), eine Dokumentation der Funktionen gibt es auf [Avolites API documents](https://api.avolites.com/16.0/#scripts), und praktische Beispiele finden Sie im [Avolites-Wiki](https://www.avosupport.de/wiki/macros/start) (externe Website).
 
 
 ## Tastenkombinationen
