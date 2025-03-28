@@ -182,3 +182,21 @@ zu kopieren, stellen Sie zunächst sicher, dass die aktuelle Show
 gesichert ist. Dann laden Sie die zu kopierende Show von der Festplatte
 und speichern sie auf USB-Stick. Alternativ lässt sich das auch per
 'Folders' aus dem Tools-Menü realisieren.
+
+## Eine Show zum automatischen Starten festlegen
+
+Normalerweise wird beim Starten der Software die zuletzt verwendete Show geladen. Mitunter 
+(z.B. beim unbeaufsichtigten Betrieb oder bei Verwendung mit dem [Venue Mode](../running-the-show.md#setting-a-venue-mode-workspace-for-basic-controls-while-locked)) ist es erwünscht, 
+beim Start immer eine bestimmte Show zu laden. dafür dient die Funktion **Start Up Show**.
+
+1. Laden Sie die Show, die Sie als Start Up Show festlegen möchten.
+2. Drücken Sie die Taste <Keys.HardKey>Disk</Keys.HardKey>.
+3. Drücken Sie <Keys.SoftKey>Next</Keys.SoftKey>, bis die Option **Start Up Show** im Menü erscheint.
+4. Drücken Sie <Keys.SoftKey>Start Up Show</Keys.SoftKey>. Ist keine Start Up Show festgelegt, so wird **Unlocked** angezeigt.
+5. Drücken Sie <Keys.SoftKey>Create and Lock Show</Keys.SoftKey>. Damit wird die aktuelle Show als Start Up Show festgelegt, und in der Anzeige steht nun **Start Up Show Locked**.
+6. Ist bereits eine Start Up Show eingerichtet, so lässt sich diese Zuordnung mit <Keys.SoftKey>Update Show</Keys.SoftKey> auf die gerade geladene Show ändern oder aber mit <Keys.SoftKey>Unlock</Keys.SoftKey> wieder löschen.
+
+Ebenso können Playbacks so eingerichtet werden, dass diese beim Programmstart aktiviert werden. Damit 
+kann die Bühne gleich in eine Einlas-Stimmung versetzt oder das Saallicht aktiviert werden. Siehe [Run On Startup](../cues/playback-options.md#run-on-startup).
+
+> Ist eine Start Up Show eingerichtet, so werden beim Herunterfahren der Software ungespeicherte Änderungen verworfen.

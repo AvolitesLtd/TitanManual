@@ -44,12 +44,12 @@ Für die <Keys.HardKey>@</Keys.HardKey> Tasten bei den Encodern dagegen siehe [W
 
 
 ## <Keys.HardKey>Align</Keys.HardKey> 
-(Nur beim D9) Kopieren von Attributwerten von einem auf andere Geräte. Auf anderen Pulten als dem D9 ist diese Funktion über die Taste <Keys.HardKey>ML Menu</Keys.HardKey> zu erreichen, siehe [Geräte miteinander abgleichen](../controlling-fixtures/changing-fixture-attributes.md#geräte-miteinander-abgleichen).
+(Nur beim D9/D7) Kopieren von Attributwerten von einem auf andere Geräte. Auf anderen Pulten ist diese Funktion über die Taste <Keys.HardKey>ML Menu</Keys.HardKey> zu erreichen, siehe [Geräte miteinander abgleichen](../controlling-fixtures/changing-fixture-attributes.md#geräte-miteinander-abgleichen).
 
 
 
 ## <Keys.HardKey>All</Keys.HardKey> 
-Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte beginnen oder beenden. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md#geräteauswahl-nach-muster). (Auf dem D9 heißt die Taste <Keys.HardKey>Pattern/All</Keys.HardKey>)
+Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte beginnen oder beenden. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md#geräteauswahl-nach-muster). (Auf dem D9/D7/T3 heißt die Taste <Keys.HardKey>Pattern/All</Keys.HardKey>)
 
 
 
@@ -119,7 +119,7 @@ Aktivieren des Blind-Modus: es können Änderungen programmiert werden, ohne das
 
 
 ## <Keys.HardKey>Block</Keys.HardKey> 
-(Nur beim D9 und T3) Z.Zt. nicht verwendet.
+(Nur beim D9/D7 und T3) Z.Zt. nicht verwendet.
 
 
 
@@ -186,12 +186,12 @@ Zur Auswahl von Cues in Cuelisten. Auf manchen Pulten auch "Connect", siehe [Con
 
 
 ## <Keys.HardKey>Cue +</Keys.HardKey> 
-(Nur beim D9 und T3) Wählt in der aktuell gesteuerten Cueliste den nächsten Schritt; gleiche Funktion wie <Keys.HardKey>Next Step</Keys.HardKey>.
+(Nur beim D9/D7 und T3) Wählt in der aktuell gesteuerten Cueliste den nächsten Schritt; gleiche Funktion wie <Keys.HardKey>Next Step</Keys.HardKey>.
 
 
 
 ## <Keys.HardKey>Cue -</Keys.HardKey> 
-(D9 only) Wählt in der aktuell gesteuerten Cueliste den vorigen Schritt; gleiche Funktion wie <Keys.HardKey>Prev Step</Keys.HardKey>.
+(D9/D7 only) Wählt in der aktuell gesteuerten Cueliste den vorigen Schritt; gleiche Funktion wie <Keys.HardKey>Prev Step</Keys.HardKey>.
 
 
 
@@ -208,7 +208,7 @@ Beispiel: <Keys.HardKey>Delete</Keys.HardKey> {Playback} {Playback}
 
 
 ## <Keys.HardKey>Direction</Keys.HardKey> 
-(Nur beim D9 und T3) Einstellen der Richtung von Shapes, siehe [Shape-Richtung](../effects/shape-generator.md#shape-richtung)
+(Nur beim D9/D7 und T3) Einstellen der Richtung von Shapes, siehe [Shape-Richtung](../effects/shape-generator.md#shape-richtung)
 
 
 
@@ -258,7 +258,7 @@ Tasten | Ergebnis
 
 
 ## <Keys.HardKey>FX</Keys.HardKey> 
-(Nur beim D9 und T3) Aufruf des Shape/FX-Menüs, um Shapes, Keyframe-Shapes und Pixelmapper-Effekte zu erstellen. Ebenso verwendet zur An-/Abwahl der FX Attributgruppe beim Erstellen von Masken. Siehe [Shape menu](#Shape).
+(Nur beim D9/D7 und T3) Aufruf des Shape/FX-Menüs, um Shapes, Keyframe-Shapes und Pixelmapper-Effekte zu erstellen. Ebenso verwendet zur An-/Abwahl der FX Attributgruppe beim Erstellen von Masken. Siehe [Shape menu](#Shape).
 
 Mehrfaches Drücken gefolgt von <Keys.HardKey>Enter</Keys.HardKey> ruft die Optionen des Shape/FX-Menüs auf: 2 x <Keys.HardKey>FX</Keys.HardKey> dann <Keys.HardKey>Enter</Keys.HardKey> für Keyframe-Shapes, 3 x <Keys.HardKey>FX</Keys.HardKey> dann <Keys.HardKey>Enter</Keys.HardKey> für den Pixelmapper.
 
@@ -360,7 +360,7 @@ Rastet das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl akt
 
 
 ## <Keys.HardKey>Legend</Keys.HardKey> 
-(Nur beim D9 und T3) (gefolgt von der Auswahl eines Elementes) Eingabe der Legende eines Elements (Playback, Gruppe, Palette etc.). Auf anderen Pulten ist diese Funktion über den Punkt <Keys.SoftKey>Set Legend</Keys.SoftKey> im Hauptmenü erreichbar. Siehe [Legenden und Bezeichnungen](../titan-basics/workspace-windows.md#legenden-und-bezeichnungen).
+(Nur beim D9/D7 und T3) (gefolgt von der Auswahl eines Elementes) Eingabe der Legende eines Elements (Playback, Gruppe, Palette etc.). Auf anderen Pulten ist diese Funktion über den Punkt <Keys.SoftKey>Set Legend</Keys.SoftKey> im Hauptmenü erreichbar. Siehe [Legenden und Bezeichnungen](../titan-basics/workspace-windows.md#legenden-und-bezeichnungen).
 
 
 
@@ -370,7 +370,7 @@ Rastet das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl akt
 
 
 ## <Keys.HardKey>Level @</Keys.HardKey> 
-(Nur beim D9) Öffnet das @-Menü für das Dimmer-Handrad.
+(Nur beim D9/D7) Öffnet das @-Menü für das Dimmer-Handrad.
 
 
 
@@ -402,7 +402,7 @@ Macros können auch numerisch aufgerufen werden, Beispiel: <Keys.HardKey>Macro</
 
 
 ## <Keys.HardKey>Mask FX</Keys.HardKey> 
-(Nur beim D9 und T3) Öffnet das Mask FX-Menü zum Erstellen von Masken zum Blocken von Shapes. Auch als Funktion im Menü Shapes&Effekte verfügbar. Siehe [Shapes stoppen mit Mask FX](../effects/shape-generator.md#shapes-stoppen-mit-mask-fx).
+(Nur beim D9/D7 und T3) Öffnet das Mask FX-Menü zum Erstellen von Masken zum Blocken von Shapes. Auch als Funktion im Menü Shapes&Effekte verfügbar. Siehe [Shapes stoppen mit Mask FX](../effects/shape-generator.md#shapes-stoppen-mit-mask-fx).
 
 Tasten | Ergebnis
 --------|--------
@@ -423,7 +423,7 @@ Wechselt die Größe des aktuellen Fensters zwischen klein (ein Viertel des Bild
 
 ## <Keys.HardKey>ML Menu</Keys.HardKey> 
 
-Im Hauptmenü öffnet diese Taste das Moving Light-Menü, mit dem man Geräte-Macros abrufen sowie die Align-Funktion nutzen kann. In einem Untermenü rastet diese Taste das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl aktiv bleibt. Hilfreich z.B. beim Kopieren, Verschieben, Löschen etc. Siehe [Die ML-Menü-Taste](../titan-basics/other-parts-of-the-touch-screen.md#die-ml-menü-taste). Auf dem D9 gibt es diese Taste nicht. Geräte-Macros können mit der Taste <Keys.HardKey>Macro</Keys.HardKey> aufgerufen werden, für die Align-Funktion gibt es die Taste <Keys.HardKey>Align</Keys.HardKey>.
+Im Hauptmenü öffnet diese Taste das Moving Light-Menü, mit dem man Geräte-Macros abrufen sowie die Align-Funktion nutzen kann. In einem Untermenü rastet diese Taste das aktuelle Menü ein, so dass es auch nach dem ausgeführten Befehl aktiv bleibt. Hilfreich z.B. beim Kopieren, Verschieben, Löschen etc. Siehe [Die ML-Menü-Taste](../titan-basics/other-parts-of-the-touch-screen.md#die-ml-menü-taste). Auf dem D9/D7 gibt es diese Taste nicht. Geräte-Macros können mit der Taste <Keys.HardKey>Macro</Keys.HardKey> aufgerufen werden, für die Align-Funktion gibt es die Taste <Keys.HardKey>Align</Keys.HardKey>.
 
 
 
@@ -462,7 +462,7 @@ Zum Deaktivieren einzelner Attribute von Fixtures bzw. in Playbacks. Auf Off ges
 
 
 ## <Keys.HardKey>Open</Keys.HardKey> 
-(Nur beim D9) Fenster öffnen. Gleiche Funktion wie 2 x View. 
+(Nur beim D9/D7) Fenster öffnen. Gleiche Funktion wie 2 x View. 
 
 (Quartz, Titan Mobile) Anzeige von Details eines Elementes, oder Öffnen eines Fenster per Doppelklick, siehe [View](#view).
 
@@ -501,14 +501,14 @@ Aufruf des Paletten-Menüs zum numerischen Aufrufen von Paletten. Siehe [Recalli
  
 
 ## <Keys.HardKey>Pattern/All</Keys.HardKey> 
-(Nur beim D9 und T3) Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte beginnen oder beenden. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md#geräteauswahl-nach-muster). Auf anderen Pulten ist das die Taste <Keys.HardKey>All</Keys.HardKey>, siehe [All](#All).
+(Nur beim D9/D7 und T3) Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte beginnen oder beenden. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md#geräteauswahl-nach-muster). Auf anderen Pulten ist das die Taste <Keys.HardKey>All</Keys.HardKey>, siehe [All](#All).
 
 
 
 ## <Keys.HardKey>Playback</Keys.HardKey> 
 (Arena) Öffnet das Playbacks-Fenster auf dem kleinen Display.
 
-(D9 und T3) Die Tastenfolge <Keys.HardKey>View</Keys.HardKey> <Keys.HardKey>Playback</Keys.HardKey> öffnet das Playbacks-Fenster.
+(D9/D7 und T3) Die Tastenfolge <Keys.HardKey>View</Keys.HardKey> <Keys.HardKey>Playback</Keys.HardKey> öffnet das Playbacks-Fenster.
 
 
 
@@ -592,7 +592,7 @@ Aktivieren der Scroll-Funktion mit den Encodern.
 
 
 ## <Keys.HardKey>Select If</Keys.HardKey> 
-Bedingte Auswahl. Z.B. per Doppelklick Auswahl der Geräte im zuletzt gestarteten Playback. Siehe [Auswahl von Geräten in einem Cue](../controlling-fixtures.md#auswahl-von-geräten-in-einem-cue).
+Bedingte Auswahl. Z.B. per Doppelklick Auswahl der Geräte im zuletzt gestarteten Playback, oder Geräte mit einem bestimmten Dimmerwert. Siehe [Auswahl von Geräten in einem Cue](../controlling-fixtures.md#auswahl-von-geräten-in-einem-cue).
 
 
 
@@ -602,7 +602,7 @@ Nur auf älteren Pulten. Dies ist nun die Taste <Keys.HardKey>Time</Keys.HardKey
 
 
 ## <Keys.HardKey>Shape</Keys.HardKey> 
-Zur Steuerung von Shape-Parametern. Siehe [Shapes und Effekte](../effects.md).
+Wählt die Attributbank Shapes und legt die Shape-Parameter auf die Wheels, siehe  [Shapes und Effekte](../effects.md).
 
 
 
@@ -667,7 +667,7 @@ Aktualisieren des aktuellen Cues. Dabei wird der Inhalt des Programmers für ber
 
 
 ## <Keys.HardKey>View</Keys.HardKey> 
-(D9, T3, Titan Go, Pearl Expert, Tiger Touch 1) 
+(D9/D7, T3, Titan Go, Pearl Expert, Tiger Touch 1) 
 
 Gefolgt von der **Auswahltaste** eines Elements werden Details über dieses angezeigt. Per Doppelklick können dagegen weitere Fenster geöffnet werden. Siehe [Anzeigen und Ändern einer Palette](../palettes/editing-palettes.md#anzeigen-und-ändern-einer-palette) und [Anzeige der Cues: Playback View und Cue View](../cues/editing-cues.md#anzeige-der-cues-playback-view-und-cue-view), oder [Auswahl und Positionierung der Arbeitsfenster](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster).
 

@@ -31,7 +31,7 @@ in diesem Handbuch heißt die Taste daher <Keys.HardKey>Open/View</Keys.HardKey>
 wird auf allen Displays ein Overlay mit Buttons für die einzelnen Fenster angezeigt. Klicken 
 Sie auf den Button des gewünschten Fensters auf dem Display, auf dem es gezeigt werden soll.
 
-- Diamond 9: <Keys.HardKey>View</Keys.HardKey>. Außerdem gibt es die Taste <Keys.HardKey>Open</Keys.HardKey>, 
+- Diamond 9/Diamond 7: <Keys.HardKey>View</Keys.HardKey>. Außerdem gibt es die Taste <Keys.HardKey>Open</Keys.HardKey>, 
 mit der gleichen Funktion wie ein Doppelklick auf <Keys.HardKey>View</Keys.HardKey>.
 
 - Quartz, Titan Mobile: <Keys.HardKey>Open</Keys.HardKey>
@@ -138,18 +138,18 @@ oder Sie nutzen die Menütaste <Keys.SoftKey>Close All</Keys.SoftKey>.
 Auf allen Pulten außer dem Sapphire Touch und Titan Go werden je nach aktivem
 Fenster verschiedene Funktionsbuttons im Kontext-Bereich angezeigt. 
 Auf dem Diamond 9 befindet sich der Kontext-Bereich links oben auf dem rechten Display,
-auf allen anderen Pulten rechts unterhalb des Info-Bereichs.<br/>
+beim Quartz, Arena und Tiger Touch rechts unterhalb des Info-Bereichs.<br/>
 Die angezeigten Funktionen wechseln je nachdem welches Fenster gerade aktiv ist. 
 Im folgenden Bild wird die Anzeige bei aktivem Patch-View-Fenster dargestellt:
 
 ![Context Menu](/docs/images/Context-Menu.png)
 
-Beim Sapphire Touch und beim Titan Go gibt es extra eine Schaltfläche <Keys.ContextKey>Context Menu</Keys.ContextKey>
+Beim D7, Sapphire Touch und Titan Go gibt es extra eine Schaltfläche <Keys.ContextKey>Context Menu</Keys.ContextKey>
 in der Titelleiste jedes Fensters, mit der das **Kontext-Menü** eingeblendet werden kann.
 
 ![Patch View](/docs/images/Patch-View-2.png)
 
-### Anzahl und Grösse der Schaltflächen/Raster
+### Anzahl und Größe der Schaltflächen/Raster
 
 Normalerweise wird die Größe der Buttons automatisch an die
 Bildschirmgröße angepasst, was z.B. dazu führt, dass sich bei
@@ -174,7 +174,7 @@ gesamten Displays durch nur einen Klick ändern/wiederherstellen.
 
 Sie können verschiedene Arbeitsumgebungen (Workspaces) zum schnellen
 Abruf auf den 'Workspace'-Schaltflächen (links vom Hauptmenü, bzw.
-linker Bildschirmrand beim Diamond 9, Sapphire Touch und Titan Go) abspeichern.
+am Bildschirmrand, abhängig vom Pult) abspeichern.
 
 ![Workspaces](/docs/images/Recoding-a-Workspace-Layout.png)
 
@@ -230,6 +230,7 @@ Die Bildschirme werden dabei wie folgt nummeriert:
 
 >  - Bei Pulten mit einem internen Screen ist dieser Screen 1 und ein eventuell vorhandenes externes Display Screen 2.<br/>
   - Beim Diamond 9 ist der rechte Touchscreen Screen 1, der mittlere ist Screen 2, der linke ist Screen 3 (D9-330), der Editor-Touchscreen ist Screen 4, die Video-Previews sind 7, 6, 5, und extrne Displays sind 9 (links) und 8 (rechts).<br/>
+  - Beim Diamond 7 ist der rechte Touchscreen Screen 1, der mittlere ist Screen 2, der linke ist Screen 3 (nicht beim D7-215).
   - Beim Arena ist das große interne Display Screen 1, das kleine interne ist Screen 2, und ein eventuell vorhandenes externes ist Screen 3.<br/>
   - Beim Sapphire Touch ist das rechte Display Screen 1, das linke Screen 2, und eventuell vorhandene externe Displays sind Screen 3 und 4.    
 
@@ -313,7 +314,7 @@ so wird dessen Farbe auch in anderen Fenstern verwendet. Außerdem können
 automatisch unterschiedliche Halos pro Gerätetyp vergeben werden, die
 dann auch in der Patch-Ansicht verwendet werden.
 
-Auf dem Diamond 9 wird die Halo-Farbe auch zur Anzeige des Faderwerts und für die Playback-Auswahltaste verwendet.
+Auf dem Diamond 9 und Diamond 7 wird die Halo-Farbe auch zur Anzeige des Faderwerts und für die Playback-Auswahltaste verwendet.
 
 ## Bildschirmtastatur
 

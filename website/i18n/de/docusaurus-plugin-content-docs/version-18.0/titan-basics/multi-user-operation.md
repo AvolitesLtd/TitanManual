@@ -152,3 +152,18 @@ aktiviert. Die DMX-Ausgabe des vorherigen Masters wird deaktiviert.
 ### PC-Suite (Titan Go, Titan Simulator)
 
 Damit sich die verschiedenen Pulte gegenseitig im Netzwerk finden, muss auf Windows-Ebene die **Network Discovery** aktiviert sein (Netzwerk-Einstellungen bzw. Freigabecenter).
+
+## Programmieren mit mehreren Benutzern
+
+Jeder Benutzer (und jede Remote) verfügt über einen eigenen Programmierspeicher,
+so dass Fixtures unabhängig voneinander programmiert werden können. Werden durch einen Benutzer 
+Änderungen vorgenommen, aber danach nicht <Keys.HardKey>Clear</Keys.HardKey> gedrückt, so bleiben 
+die eingestellten Werte in dessen Programmer. Das mag für andere User irritierend sein, da diese die Werte nicht 
+einfach mit <Keys.HardKey>Clear</Keys.HardKey> löschen können. 
+
+Zur Abhilfe lassen sich alle Programmer aller User löschen: halten Sie dazu <Keys.HardKey>Clear</Keys.HardKey> gedrückt 
+und wählen <Keys.SoftKey>Clear all programmers</Keys.SoftKey> aus dem Menü..
+ 
+Attribute, deren Werte gerade durch einen anderen Programmer beeinflusst werden, werden durch einen Punkt in Cyan angezeigt.
+
+![Blue dot showing multi-user control of attribute](/docs/images/Wheel-Other-Programmer.png)

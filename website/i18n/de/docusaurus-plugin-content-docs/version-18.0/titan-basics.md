@@ -27,12 +27,13 @@ Eine USV hingegen bietet Schutz gegen die meisten mit dem Strom
 verbundenen Probleme, und gibt einem die Zeit, um das Pult geordnet
 herunterzufahren.
 
-Ist Ihr Pult mit einer internen USV ausgestattet (Sapphire Touch, Arena, 
-Tiger Touch II, sowie optional andere Modelle), so wird bei
+Ist Ihr Pult mit einer internen USV ausgestattet (Diamond 9, Diamond 7, Sapphire 
+Touch, Arena, Tiger Touch II, sowie optional andere Modelle), so wird bei
 Unterbrechung der Stromversorgung dies im Bildschirm angezeigt sowie die
 Zeit, die zum Herunterfahren des Pultes noch verbleibt. Außerdem wird
 eine Warnung angezeigt, sowie der aktuelle Stand der Show gespeichert.
-Auf dem D9 wird angezeigt, wie lange das Pult noch bis zum automatischen Herunterfahren läuft.
+Dazu wird die Toolbar orange und es wird angezeigt (nicht auf dem D9 und D7), 
+wie lange das Pult noch bis zum automatischen Herunterfahren läuft.
 
 ![UPS Toolbar](/docs/images/UPS-Toolbar.png)
 
@@ -41,7 +42,7 @@ Auf dem D9 wird angezeigt, wie lange das Pult noch bis zum automatischen Herunte
 -   Wenn ein Pult oder TNP in der Session auf USV läuft, wird das in den
 	Logs vermerkt.
 
-&nbsp;**Nur beim Diamond 9 und Arena:** Der Netzwerk-Switch im Pult verfügt über eine
+&nbsp;**Nur beim Diamond 9, Diamond 7 und Arena:** Der Netzwerk-Switch im Pult verfügt über eine
 eigene USV, so dass das Pult auch kurz abgeschaltet werden kann, ohne den
 Betrieb des Switches zu beeinträchtigen. Nach kompletter Trennung vom
 Netz oder Ausschalten des Pultes läuft der Switch noch für etwa 5 Minuten weiter. Dies ist wichtig,
@@ -78,7 +79,7 @@ abgezogenem Netzstecker den Schalter "Battery Disconnect", um auch die
 USV zu unterbrechen (beim Arena: Rückseite; beim Tiger Touch 2/Sapphire
 Touch: unter der linken Seitenwange).
 
-&nbsp;**Achtung beim Diamond 9 und beim Arena**: dabei wird auch der integrierte Switch
+&nbsp;**Achtung beim Diamond 9, Diamond 7 und beim Arena**: dabei wird auch der integrierte Switch
 abgeschaltet. Das ist besonders wichtig, wenn über diesen Switch ein
 Backup-Pult angeschlossen ist! Wird das Pult normal heruntergefahren,
 so bleibt der Switch aufgrund seiner USV noch etwa 5 Minuten
@@ -170,7 +171,7 @@ Die Fehlerbehebung sollte nur ausgeführt werden, wenn ausreichend Zeit
 zur Verfügung steht, da manche Module bis zu einer Stunde benötigen
 können.
 
-## DMX anschliessen
+## DMX anschließen
 
 DMX kann sowohl über die XLR-Buchsen (5-polig) als auch über verschiedene
 Netzwerkprotokolle (Art-Net, sACN) ausgegeben werden, um andere
@@ -181,7 +182,7 @@ auf welchem der verfügbaren DMX-Universen sich das Gerät befindet. Jedes
 einzelne der Universen kann einem oder mehreren der DMX-Anschlüsse auf
 der Rückseite des Pultes zugeordnet, oder aber per [Ethernet (Art-Net, sACN)](networking/controlling-fixtures-over-a-network.md) gesendet werden.
 
-Das Diamond 9 und das Arena enthält zusätzlich einen 
+Das D9, D7 und das Arena enthält zusätzlich einen 
 internen [Netzwerkswitch](networking/connecting-the-arena-to-a-network.md) mit optischen
 Ausgängen (Glasfaser/OpticalCon).
 
@@ -206,7 +207,7 @@ führen und sollte vermieden werden.
 
 ## Einen Monitor anschließen
 
-Es lässt sich ein (Diamond 9 und Sapphire Touch: zwei) externer Monitor anschließen (beim Tiger Touch II und
+Es lässt sich ein (D9, D7 und Sapphire Touch: zwei) externer Monitor anschließen (beim Tiger Touch II und
 Pearl Expert: VGA; beim Quartz, Arena, Sapphire Touch: DVI). Damit erhält
 man mehr Oberfläche zur Anzeige weiterer Fenster (etwa für den
 Visualiser oder das Channel-Grid) sowie - im Falle eines Touchscreens - 
@@ -241,9 +242,11 @@ Stehen nicht genügend USB-Anschlüsse zur Verfügung, so lassen sich diese
 durch einen normalen USB-Hub erweitern.
 
 Mittels MIDI (alle Pulte außer Titan One/T1) lassen sich Playbacks triggern
-sowie per MIDI-Timecode Cuelisten steuern. Neuere Pult-Modelle verfügen
-auch über einen Eingang für SMPTE-LTC-Timecode. Der T1 kann nicht über
-MIDI gesteuert werden, der T2 ausschließlich über USB-MIDI.
+sowie per MIDI-Timecode Cuelisten steuern. Auch USB-MIDI-Geräte können
+an das Pult angeschlossen werden. Der T1 kann nicht über MIDI gesteuert werden, 
+der T2 ausschließlich über USB-MIDI.
+
+Neuere Pult-Modelle verfügen auch über einen Eingang für SMPTE-LTC-Timecode.
 
 Mittels der Netzwerkbuchse(n) (EtherCON oder RJ-45) lässt sich das Pult in ein
 Netzwerk (LAN) integrieren, womit sich viele weitere interessante
@@ -257,7 +260,7 @@ Gleichspannung). Ggf. muss die Belegung der verwendeten Pultleuchte
 angepasst werden, da es dafür verschiedene Systeme gibt. 
 
 - Bei neueren Pulten lässt sich die Helligkeit der Pultleuchte im 
-System-Menü (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) einstellen.
+System-Menü (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) mit den Encodern einstellen.
 
 ## Verwenden von Faderwings
 

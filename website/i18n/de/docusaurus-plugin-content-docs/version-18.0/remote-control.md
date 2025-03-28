@@ -7,22 +7,25 @@ sidebar_label: Fernsteuerung
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Verwendet man einen **WLAN** Access Point (Drahtlosnetzwerk-Zugangspunkt),
-so lässt sich das Pult mit einem Mobilgerät ([Android](https://play.google.com/store/apps/developer?id=Avolites+Ltd) oder [iOS](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps)) drahtlos
-fernsteuern. Dies ist insbesondere hilfreich beim Installieren und
-Testen der Geräte und beim Einleuchten. Ebenso lassen sich mit der
-Fernsteuerung Cues und Paletten abrufen.
+Verbindet man die Software/das Pult mit einem WLAN, so kann man auf einem Android- oder iOS-Gerät 
+(Smartphone oder Tablett) die **Titan Remote** App verwenden, um Titan drahtlos zu steuern.
+Dies ist insbesondere hilfreich beim Installieren und Testen der Geräte und beim Einleuchten. 
+Ebenso lassen sich mit der Fernsteuerung Cues und Paletten abrufen und speichern.
 
-Für die Remote ist auf dem Mobilgerät die entsprechende App (Avolites
-Titan Remote) zu installieren; diese ist über den [Google Play Store](https://play.google.com/store/apps/developer?id=Avolites+Ltd) bzw. [Apple App
-Store](https://apps.apple.com/us/developer/avolites-ltd/id688791177#see-all/i-phone-apps) erhältlich.
+Die **Titan Remote** App steht im [Google Play Store](https://play.google.com/store/apps/details?id=com.avolites.titanremote) und im [Apple App
+Store](https://apps.apple.com/ky/app/titan-remote/id688791174) zum Download bereit.
 
-> Stellen Sie sicher, die richtige Version der App zu installieren. **Die App muss die gleiche Version wie die Pult-Software haben**. Entsprechend gibt es verschiedene Versionen der App.
+> Ältere Versionen der App liefen immer nur mit der passenden Softwareversion auf dem Pult zusammen,
+  entsprechend lagen auch die Apps in unterschiedlichen Versionen vor. Dies ist nun nicht mehr der Fall,
+  und die Titan Remote App hat auch keine Versionsnummer mehr im Namen.
+  
+![Titan Remote - Android App Screenshot](/docs/images/Remote-Tablet-View.png)
 
-![Titan Remote - Android App Screenshot](/docs/images/Fixture-View-in-Titan-Remote-Android-App.png)
+Es lassen sich auch mehrere Fernsteuerungen gleichzeitig mit einem Pult verbinden, wobei das Pult voll 
+funktionsfähig bleibt. Jede Remote arbeitet wie ein eigener Benutzer in einem Mehrbenutzersystem und
+verfügt über einen **eigenen Programmierspeicher**, so dass z.B. ein Programmierer mit der Remote und 
+ein anderer unabhängig davon mit dem Pult arbeiten kann.
 
-Es lassen sich auch mehrere Fernsteuerungen gleichzeitig mit einem Pult
-verbinden, wobei das Pult voll funktionsfähig bleibt. Jede Remote
-verfügt über einen **eigenen Programmierspeicher**, so dass z.B. ein
-Programmierer mit der Remote und ein anderer unabhängig davon mit dem
-Pult arbeiten kann.
+- Um am Pult den Programmer der Remote zu löschen (womit alle auf der Remote vorgenommenen Änderungen 
+verlorengehen), halten Sie <Keys.HardKey>Clear</Keys.HardKey> gedrückt und wählen aus dem 
+Menü <Keys.SoftKey>Clear all programmers</Keys.SoftKey>.

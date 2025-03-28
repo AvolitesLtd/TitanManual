@@ -69,7 +69,7 @@ Bedienungsoption:
 
 ## Die Werkzeugleiste
 
-Auf allen Konsolen außer dem Diamond 9 und dem Sapphire Touch befindet sich am oberen
+Auf allen Konsolen außer dem Diamond 9, Diamond 7 und dem Sapphire Touch befindet sich am oberen
 Bildschirmrand die Werkzeugleiste.
 
 ![Tools Menu](/docs/images/Tools-Menu.png)
@@ -79,9 +79,10 @@ links im rechten sowie rechts im linken Display.
 
 ![Sapphire Tools Menu](/docs/images/Sapphire-Tools-Menu.png)
 
-Auf dem Diamond 9 gibt es statt der Werkzeugleiste einen Button <Keys.ContextKey>Tools</Keys.ContextKey> 
-links oben auf dem rechten Touchscreen. Außerdem gibt es die Taste <Keys.HardKey>Tools</Keys.HardKey> 
-auf der ausziehbaren Tastatur.
+Auf dem Diamond 9/Diamond 7 gibt es statt der Werkzeugleiste einen Button <Keys.ContextKey>Tools</Keys.ContextKey>.
+Auf dem D9 ist dieser links oben auf dem rechten Touchscreen. Beim D7-215 (2 Displays) ist dieser oben links auf dem 
+linken Touchscreen, beim D7-330 (3 Displays) oben links auf dem mittleren Touchscreen. 
+Außerdem gibt es die Taste <Keys.HardKey>Tools</Keys.HardKey> auf der ausziehbaren Tastatur.
 
 ![D9 Tools button](/docs/images/Tools-Button-D9.png)
 

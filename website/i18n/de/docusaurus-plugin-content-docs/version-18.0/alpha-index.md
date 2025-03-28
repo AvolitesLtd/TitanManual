@@ -28,8 +28,9 @@ import Video from '@site/src/components/video.tsx';
 ## Ä
 [Ändern der DMX-Adresse im Patch-Menü *(in "Das Patch ändern")*](./patching/changing-the-patch.md#ändern-der-dmx-adresse-im-patch-menü)<br/>
 [Ändern der DMX-Adresse in der Patch-Ansicht *(in "Das Patch ändern")*](./patching/changing-the-patch.md#ändern-der-dmx-adresse-in-der-patch-ansicht)<br/>
+[Ändern der Einstellungen des Luminex-Switches im D9 *(in "Pulte im Netzwerk betreiben")*](./networking/connecting-the-arena-to-a-network.md#ändern-der-einstellungen-des-luminex-switches-im-d9)<br/>
 [Ändern der Gerätereihenfolge eines Shapes *(in "Ändern von Shapes und Effekten")*](./effects/editing-shapes-and-effects.md#ändern-der-gerätereihenfolge-eines-shapes)<br/>
-[Ändern der IP-Adresse des Netzwerk-Switchs *(in "Netzwerke mit D9 oder Arena")*](./networking/connecting-the-arena-to-a-network.md#ändern-der-ip-adresse-des-netzwerk-switchs)<br/>
+[Ändern der IP-Adresse des Titan Network Switch (TNS) beim D7 oder Arena *(in "Pulte im Netzwerk betreiben")*](./networking/connecting-the-arena-to-a-network.md#ändern-der-ip-adresse-des-titan-network-switch-tns-beim-d7-oder-arena)<br/>
 [Ändern der Reihenfolge der Geräte *(in "Zeiten für Cues")*](./cues/cue-timing.md#ändern-der-reihenfolge-der-geräte)<br/>
 [Ändern der Richtung eines Chasers *(in "Abrufen")*](./chases/chase-playback.md#ändern-der-richtung-eines-chasers)<br/>
 [Ändern der Verteilung eines Shapes (mehrere Geräte) *(in "Der Shape-Generator")*](./effects/shape-generator.md#ändern-der-verteilung-eines-shapes-mehrere-geräte)<br/>
@@ -58,7 +59,7 @@ import Video from '@site/src/components/video.tsx';
 [Anschlussfeld auf der Rückseite *(in "Das Tiger Touch")*](./about-the-consoles/tiger-touch.md#anschlussfeld-auf-der-rückseite)<br/>
 [Anschlussfeld auf der Rückseite *(in "Pearl Expert und Touch Wing")*](./about-the-consoles/pearl-expert-and-touch-wing.md#anschlussfeld-auf-der-rückseite)<br/>
 [Anwählen von Dimmern/Geräten nach (Kanal-)Nummer *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#anwählen-von-dimmerngeräten-nach-kanal-nummer)<br/>
-[Anzahl und Grösse der Schaltflächen/Raster *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#anzahl-und-grösse-der-schaltflächenraster)<br/>
+[Anzahl und Größe der Schaltflächen/Raster *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#anzahl-und-größe-der-schaltflächenraster)<br/>
 [Anzeige der Cues: Playback View und Cue View *(in "Editieren von Cues")*](./cues/editing-cues.md#anzeige-der-cues-playback-view-und-cue-view)<br/>
 [Anzeige nur der relevanten Paletten *(in "Abrufen von Paletten")*](./palettes/using-palettes.md#anzeige-nur-der-relevanten-paletten)<br/>
 [Anzeige weiterer Patch-Details *(in "Das Patch ändern")*](./patching/changing-the-patch.md#anzeige-weiterer-patch-details)<br/>
@@ -80,11 +81,13 @@ import Video from '@site/src/components/video.tsx';
 [Audio-Trigger (Sound to Light) *(in "Externe Trigger")*](./running-the-show/midi-dmx-or-audio-triggering.md#audio-trigger-sound-to-light)<br/>
 [Aufzeichnen eine Timeline im Live-Betrieb *(in "Eine Timeline speichern")*](./timelines/creating-a-timeline.md#aufzeichnen-eine-timeline-im-live-betrieb)<br/>
 [Auswahl der IP-Adresse und Subnetzmaske *(in "Grundlagen der IP-Adressierung")*](./networking/a-quick-guide-to-ip-addressing.md#auswahl-der-ip-adresse-und-subnetzmaske)<br/>
+[Auswahl des Pultes in der App *(in "Einrichten der Fernsteuerung")*](./remote-control/setting-up-the-remote.md#auswahl-des-pultes-in-der-app)<br/>
 [Auswahl mit den Pfeiltasten *(in "Wiedergeben und Editieren von Timelines")*](./timelines/running-and-editing-timelines.md#auswahl-mit-den-pfeiltasten)<br/>
 [Auswahl- und Flashtaste *(in "Die Tasten der Konsole")*](./titan-basics/front-panel-buttons.md#auswahl--und-flashtaste)<br/>
 [Auswahl und Positionierung der Arbeitsfenster *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster)<br/>
 [Auswahl von Geräten in einem Cue *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#auswahl-von-geräten-in-einem-cue)<br/>
 [Auswählen der Trigger *(in "Wiedergeben und Editieren von Timelines")*](./timelines/running-and-editing-timelines.md#auswählen-der-trigger)<br/>
+[Auswählen von Geräten *(in "Verwenden der Titan Remote-App")*](./remote-control/operating-the-remote.md#auswählen-von-geräten)<br/>
 [Auto-Gruppen *(in "Geräte-Gruppen")*](./controlling-fixtures/fixture-groups.md#auto-gruppen)<br/>
 [Autoloading: Laden eines externen Cues *(in "Anlegen einer Cueliste")*](./cue-lists/creating-a-cue-list.md#autoloading-laden-eines-externen-cues)<br/>
 [Automatisches Patchen in Capture *(in "Geräte und Dimmer patchen")*](./patching/patching-new-fixtures-or-dimmers.md#automatisches-patchen-in-capture)<br/>
@@ -174,6 +177,7 @@ import Video from '@site/src/components/video.tsx';
 [Die ML-Menü-Taste *(in "Weitere Optionen")*](./controlling-fixtures/advanced-options.md#die-ml-menü-taste)<br/>
 [Die Patch-Ansicht (Patch View) *(in "Das Patch ändern")*](./patching/changing-the-patch.md#die-patch-ansicht-patch-view)<br/>
 [Die Personality editieren *(in "Erweiterte Funktionen")*](./patching/fixture-personality-options.md#die-personality-editieren)<br/>
+[Die Programmiersektion *(in "Diamond 7")*](./about-the-consoles/d7.md#die-programmiersektion)<br/>
 [Die Programmiersektion *(in "Diamond 9")*](./about-the-consoles/diamond.md#die-programmiersektion)<br/>
 [Die Show speichern *(in "Laden und Sichern von Shows")*](./titan-basics/loading-and-saving-shows.md#die-show-speichern)<br/>
 [Die Tastenbelegung wechseln *(in "Key Profiles - Tastenbelegungen")*](./system-settings/key-profiles.md#die-tastenbelegung-wechseln)<br/>
@@ -184,15 +188,16 @@ import Video from '@site/src/components/video.tsx';
 [Die Werkzeugleiste *(in "Andere Bereiche der Anzeige")*](./titan-basics/other-parts-of-the-touch-screen.md#die-werkzeugleiste)<br/>
 [Dimmer und Geräte zum Steuern auswählen *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#dimmer-und-geräte-zum-steuern-auswählen)<br/>
 [Dimmer/Shutter *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#dimmershutter)<br/>
-[Dimmer-Handrad (Nur beim Diamond 9) *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#dimmer-handrad-nur-beim-diamond-9)<br/>
+[Dimmer-Handrad (Nur beim Diamond 9 und Diamond 7) *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#dimmer-handrad-nur-beim-diamond-9-und-diamond-7)<br/>
 [Dimmerwerte setzen *(in "Tipps für Theater-Programmierer")*](./cue-lists/theatre-programming.md#dimmerwerte-setzen)<br/>
+[Direkt in den Venue Mode starten *(in "Steuern der Show")*](./running-the-show.md#direkt-in-den-venue-mode-starten)<br/>
 [Direktanwahl eines Schrittes *(in "Abrufen")*](./chases/chase-playback.md#direktanwahl-eines-schrittes)<br/>
 [Direkte Eingabe für Attributwerte *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#direkte-eingabe-für-attributwerte)<br/>
 [Direktes Clearen einzelner Attribute *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#direktes-clearen-einzelner-attribute)<br/>
 [Display *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#display)<br/>
 [Display Setup - Bildschirmeinrichtung *(in "Das System-Menü")*](./system-settings/the-system-menu.md#display-setup---bildschirmeinrichtung)<br/>
 [Display-Ansicht speichern *(in "Steuern der Show")*](./running-the-show.md#display-ansicht-speichern)<br/>
-[DMX anschliessen *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#dmx-anschliessen)<br/>
+[DMX anschließen *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#dmx-anschließen)<br/>
 [DMX Merge -- Network DMX Node Settings *(in "DMX-Ausgänge einrichten")*](./system-settings/dmx-output-mapping.md#dmx-merge----network-dmx-node-settings)<br/>
 [DMX Settings *(in "Das System-Menü")*](./system-settings/the-system-menu.md#dmx-settings)<br/>
 [DMX-Eigenschaften *(in "DMX-Ausgänge einrichten")*](./system-settings/dmx-output-mapping.md#dmx-eigenschaften)<br/>
@@ -217,6 +222,7 @@ import Video from '@site/src/components/video.tsx';
 [Eine Cueliste deaktivieren *(in "Abrufen")*](./cue-lists/cue-list-playback.md#eine-cueliste-deaktivieren)<br/>
 [Eine Cueliste verschieben oder kopieren *(in "Kopieren, verschieben, verlinken, löschen")*](./cue-lists/copying-moving-linking-and-deleting.md#eine-cueliste-verschieben-oder-kopieren)<br/>
 [Eine Gruppe speichern *(in "Geräte-Gruppen")*](./controlling-fixtures/fixture-groups.md#eine-gruppe-speichern)<br/>
+[Eine Show zum automatischen Starten festlegen *(in "Laden und Sichern von Shows")*](./titan-basics/loading-and-saving-shows.md#eine-show-zum-automatischen-starten-festlegen)<br/>
 [Eine Timeline per Timecode steuern *(in "Wiedergeben und Editieren von Timelines")*](./timelines/running-and-editing-timelines.md#eine-timeline-per-timecode-steuern)<br/>
 [Eine Timeline testen *(in "Wiedergeben und Editieren von Timelines")*](./timelines/running-and-editing-timelines.md#eine-timeline-testen)<br/>
 [Einen Chaser mit Quick Build erstellen *(in "Erstellen eines Chasers")*](./chases/creating-a-chase.md#einen-chaser-mit-quick-build-erstellen)<br/>
@@ -347,7 +353,7 @@ import Video from '@site/src/components/video.tsx';
 [Key Profiles - Tastenprofile *(in "Das System-Menü")*](./system-settings/the-system-menu.md#key-profiles---tastenprofile)<br/>
 [Key Profiles -- Tastenprofile *(in "Die Tasten der Konsole")*](./titan-basics/front-panel-buttons.md#key-profiles----tastenprofile)<br/>
 [Key Profiles (Tastenprofile) *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#key-profiles-tastenprofile)<br/>
-[Keypad -- die Tastatursteuerung *(in "Verwenden der Titan Remote-App")*](./remote-control/operating-the-remote.md#keypad----die-tastatursteuerung)<br/>
+[Keypad -- Tastatur *(in "Verwenden der Titan Remote-App")*](./remote-control/operating-the-remote.md#keypad----tastatur)<br/>
 [Kill Point *(in "Playback-Optionen")*](./cues/playback-options.md#kill-point)<br/>
 [Kompakte Track-Ansicht *(in "Wiedergeben und Editieren von Timelines")*](./timelines/running-and-editing-timelines.md#kompakte-track-ansicht)<br/>
 [Komplexe Effekte *(in "Keyframe-Shapes")*](./effects/key-frame-shapes.md#komplexe-effekte)<br/>
@@ -414,7 +420,6 @@ import Video from '@site/src/components/video.tsx';
 [Network DMX Node Settings *(in "Das System-Menü")*](./system-settings/the-system-menu.md#network-dmx-node-settings)<br/>
 [Network Settings - Netzwerkeinstellungen *(in "Das System-Menü")*](./system-settings/the-system-menu.md#network-settings---netzwerkeinstellungen)<br/>
 [Netzanschluss *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#netzanschluss)<br/>
-[Netzwerkeinrichtung mit einem Access Point *(in "Einrichten der Fernsteuerung")*](./remote-control/setting-up-the-remote.md#netzwerkeinrichtung-mit-einem-access-point)<br/>
 [Netzwerkeinstellungen *(in "TNP im Slave-Betrieb")*](./titan-net/tnp-slave-mode.md#netzwerkeinstellungen)<br/>
 [Nicht ausgewählte Geräte ausblenden (Remainder Dim) *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#nicht-ausgewählte-geräte-ausblenden-remainder-dim)<br/>
 [Node-Einstellungen *(in "TNP im Slave-Betrieb")*](./titan-net/tnp-slave-mode.md#node-einstellungen)
@@ -424,7 +429,7 @@ import Video from '@site/src/components/video.tsx';
 [Optionen für BPM-Master *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#optionen-für-bpm-master)<br/>
 [Optionen für Playback-Gruppen *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#optionen-für-playback-gruppen)<br/>
 [Options *(in "Key Profiles - Tastenbelegungen")*](./system-settings/key-profiles.md#options)<br/>
-[Optische Anschlüsse *(in "Netzwerke mit D9 oder Arena")*](./networking/connecting-the-arena-to-a-network.md#optische-anschlüsse)
+[Optische Anschlüsse (D9 und Arena) *(in "Pulte im Netzwerk betreiben")*](./networking/connecting-the-arena-to-a-network.md#optische-anschlüsse-d9-und-arena)
   
 ## P
 [Paletten beschriften und bemalen *(in "Erstellen von Paletten")*](./palettes/creating-palettes.md#paletten-beschriften-und-bemalen)<br/>
@@ -447,6 +452,7 @@ import Video from '@site/src/components/video.tsx';
 [Play Order *(in "Chaser-Optionen")*](./chases/chase-options.md#play-order)<br/>
 [Playback-Gruppen *(in "Einen Cue verwenden")*](./cues/cue-playback.md#playback-gruppen)<br/>
 [Playback-Gruppen *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#playback-gruppen)<br/>
+[Playbacks *(in "Diamond 7")*](./about-the-consoles/d7.md#playbacks)<br/>
 [Playbacks *(in "Diamond 9")*](./about-the-consoles/diamond.md#playbacks)<br/>
 [Playbacks seitenweise releasen *(in "Einen Cue verwenden")*](./cues/cue-playback.md#playbacks-seitenweise-releasen)<br/>
 [Playbacks steuern *(in "TNP im Stand-Alone-Pultbetrieb")*](./titan-net/tnp-console-mode.md#playbacks-steuern)<br/>
@@ -456,6 +462,7 @@ import Video from '@site/src/components/video.tsx';
 [Priorität der Playbacks *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#priorität-der-playbacks)<br/>
 [Priority *(in "Playback-Optionen")*](./cues/playback-options.md#priority)<br/>
 [Programmieren einer Cueliste *(in "Anlegen einer Cueliste")*](./cue-lists/creating-a-cue-list.md#programmieren-einer-cueliste)<br/>
+[Programmieren mit mehreren Benutzern *(in "Mehrbenutzer-Betrieb")*](./titan-basics/multi-user-operation.md#programmieren-mit-mehreren-benutzern)<br/>
 [Programmieren von Cues *(in "Tipps für Theater-Programmierer")*](./cue-lists/theatre-programming.md#programmieren-von-cues)<br/>
 [Pulte für den Backup-Betrieb einrichten *(in "Backup und Mehrbenutzerbetrieb")*](./running-the-show/linking-consoles-for-multi-user-or-backup.md#pulte-für-den-backup-betrieb-einrichten)<br/>
 [Pulte für den Mehrbenutzerbetrieb einrichten *(in "Backup und Mehrbenutzerbetrieb")*](./running-the-show/linking-consoles-for-multi-user-or-backup.md#pulte-für-den-mehrbenutzerbetrieb-einrichten)<br/>
@@ -479,7 +486,8 @@ import Video from '@site/src/components/video.tsx';
 [Release Mask (Release einzelner Attribute) *(in "Einen Cue verwenden")*](./cues/cue-playback.md#release-mask-release-einzelner-attribute)<br/>
 [Release Mask *(in "Playback-Optionen")*](./cues/playback-options.md#release-mask)<br/>
 [Release Time *(in "Playback-Optionen")*](./cues/playback-options.md#release-time)<br/>
-[RJ45-Netzwerk-Anschlüsse *(in "Netzwerke mit D9 oder Arena")*](./networking/connecting-the-arena-to-a-network.md#rj45-netzwerk-anschlüsse)<br/>
+[RJ45-Netzwerk-Anschlüsse *(in "Pulte im Netzwerk betreiben")*](./networking/connecting-the-arena-to-a-network.md#rj45-netzwerk-anschlüsse)<br/>
+[Rückseite des Pultes, Anschlüsse *(in "Diamond 7")*](./about-the-consoles/d7.md#rückseite-des-pultes,-anschlüsse)<br/>
 [Rückseite des Pultes, Anschlüsse *(in "Diamond 9")*](./about-the-consoles/diamond.md#rückseite-des-pultes,-anschlüsse)<br/>
 [Run On Startup *(in "Playback-Optionen")*](./cues/playback-options.md#run-on-startup)
   
@@ -525,14 +533,14 @@ import Video from '@site/src/components/video.tsx';
 [Speichermodus/Record Mode *(in "Anlegen einer Cueliste")*](./cue-lists/creating-a-cue-list.md#speichermodusrecord-mode)<br/>
 [Speichern der Arbeitsumgebung *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#speichern-der-arbeitsumgebung)<br/>
 [Speichern einer Palette *(in "Erstellen von Paletten")*](./palettes/creating-palettes.md#speichern-einer-palette)<br/>
-[Speichern von Paletten *(in "Verwenden der Titan Remote-App")*](./remote-control/operating-the-remote.md#speichern-von-paletten)<br/>
+[Speichern von Paletten, Gruppen und Cues *(in "Verwenden der Titan Remote-App")*](./remote-control/operating-the-remote.md#speichern-von-paletten,-gruppen-und-cues)<br/>
 [Speichern von Shapes in Paletten *(in "Der Shape-Generator")*](./effects/shape-generator.md#speichern-von-shapes-in-paletten)<br/>
 [Speichern von Zeiten für Attribute und Geräte *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#speichern-von-zeiten-für-attribute-und-geräte)<br/>
 [Start Time & Duration (Startzeit und Dauer) *(in "Timeline-Optionen")*](./timelines/timeline-options.md#start-time-&-duration-startzeit-und-dauer)<br/>
 [Steuerelemente für Shape und Layer *(in "Keyframe-Shapes")*](./effects/key-frame-shapes.md#steuerelemente-für-shape-und-layer)<br/>
 [Steuern einer Cueliste per Timecode *(in "Zeiten für Cuelisten")*](./cue-lists/cue-list-timing.md#steuern-einer-cueliste-per-timecode)<br/>
-[Steuern von Geräten *(in "Verwenden der Titan Remote-App")*](./remote-control/operating-the-remote.md#steuern-von-geräten)<br/>
-[Stromversorgung und USV *(in "Netzwerke mit D9 oder Arena")*](./networking/connecting-the-arena-to-a-network.md#stromversorgung-und-usv)<br/>
+[Steuern von Attributen *(in "Verwenden der Titan Remote-App")*](./remote-control/operating-the-remote.md#steuern-von-attributen)<br/>
+[Stromversorgung und USV *(in "Pulte im Netzwerk betreiben")*](./networking/connecting-the-arena-to-a-network.md#stromversorgung-und-usv)<br/>
 [Synergy Settings *(in "Das System-Menü")*](./system-settings/the-system-menu.md#synergy-settings)
   
 ## T
@@ -624,6 +632,7 @@ import Video from '@site/src/components/video.tsx';
 [Users -- Benutzer *(in "Mehrbenutzer-Betrieb")*](./titan-basics/multi-user-operation.md#users----benutzer)
   
 ## V
+[Verbinden des Mobilgeräts *(in "Einrichten der Fernsteuerung")*](./remote-control/setting-up-the-remote.md#verbinden-des-mobilgeräts)<br/>
 [Verbinden eines Playbacks mit der Steuerung *(in "Abrufen")*](./chases/chase-playback.md#verbinden-eines-playbacks-mit-der-steuerung)<br/>
 [Verbinden mit anderen TitanNet-Sessions *(in "Mehrbenutzer-Betrieb")*](./titan-basics/multi-user-operation.md#verbinden-mit-anderen-titannet-sessions)<br/>
 [Verbinden mit einem Ai-Server *(in "Einrichtung")*](./synergy/setting-up.md#verbinden-mit-einem-ai-server)<br/>
@@ -637,7 +646,6 @@ import Video from '@site/src/components/video.tsx';
 [Verwenden der 'Move'-Funktion *(in "Steuern der Show")*](./running-the-show.md#verwenden-der-'move'-funktion)<br/>
 [Verwenden des Titan Simulator *(in "Der Titan Simulator")*](./titan-basics/titan-simulator.md#verwenden-des-titan-simulator)<br/>
 [Verwenden des Virtuellen Panels mit dem Pult *(in "Der Titan Simulator")*](./titan-basics/titan-simulator.md#verwenden-des-virtuellen-panels-mit-dem-pult)<br/>
-[Verwenden eines vorhandenen Netzwerks *(in "Einrichten der Fernsteuerung")*](./remote-control/setting-up-the-remote.md#verwenden-eines-vorhandenen-netzwerks)<br/>
 [Verwenden von Faderwings *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#verwenden-von-faderwings)<br/>
 [Verwenden von Geräte-Gruppen *(in "Geräte-Gruppen")*](./controlling-fixtures/fixture-groups.md#verwenden-von-geräte-gruppen)<br/>
 [Verwenden von Shapes in Cues *(in "Der Shape-Generator")*](./effects/shape-generator.md#verwenden-von-shapes-in-cues)<br/>
@@ -646,6 +654,7 @@ import Video from '@site/src/components/video.tsx';
 [Video-Vorschau (nur beim Diamond 9) *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#video-vorschau-nur-beim-diamond-9)<br/>
 [Virtuelle Fader *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#virtuelle-fader)<br/>
 [Visualiser *(in "Andere Bereiche der Anzeige")*](./titan-basics/other-parts-of-the-touch-screen.md#visualiser)<br/>
+[Vorderseite des Pultes *(in "Diamond 7")*](./about-the-consoles/d7.md#vorderseite-des-pultes)<br/>
 [Vorderseite des Pultes *(in "Diamond 9")*](./about-the-consoles/diamond.md#vorderseite-des-pultes)<br/>
 [Vorschau mit dem Media Viewer *(in "Arbeiten mit Synergy")*](./synergy/operating-synergy.md#vorschau-mit-dem-media-viewer)
   
@@ -671,4 +680,5 @@ import Video from '@site/src/components/video.tsx';
 [Zeit- und Überblendoptionen für Cuelisten *(in "Zeiten für Cuelisten")*](./cue-lists/cue-list-timing.md#zeit--und-überblendoptionen-für-cuelisten)<br/>
 [Zeit-Optionen *(in "Zeiten bei Chasern")*](./chases/chase-timing.md#zeit-optionen)<br/>
 [Zu steuernde Geräte auswählen *(in "Tipps für Theater-Programmierer")*](./cue-lists/theatre-programming.md#zu-steuernde-geräte-auswählen)<br/>
-[Zufallseffekte *(in "Pixelmapper - Beispiele")*](./effects/pixel-mapper-examples.md#zufallseffekte)
+[Zufallseffekte *(in "Pixelmapper - Beispiele")*](./effects/pixel-mapper-examples.md#zufallseffekte)<br/>
+[Zurücksetzen der Geräteoptionen auf Vorgabewerte *(in "Erweiterte Funktionen")*](./patching/fixture-personality-options.md#zurücksetzen-der-geräteoptionen-auf-vorgabewerte)

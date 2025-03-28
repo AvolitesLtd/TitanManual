@@ -29,7 +29,7 @@ Beschriftung/Bemalung (siehe [Legenden und Bezeichnungen](./titan-basics/workspa
 Es lassen sich diverse **Workspaces** (Arbeitsumgebungen) einrichten, die
 ihrerseits die Anordnung und Anzeige der verschiedenen Fenster
 speichern. Diese Arbeitsumgebungen lassen sich auf den Schaltflächen
-links der Menütasten (linker Bildschirmrand beim Diamond 9, Sapphire Touch und Titan 
+links der Menütasten (linker Bildschirmrand beim Diamond 9, Diamond 7, Sapphire Touch und Titan 
 Go sowie bei externen Displays) speichern und abrufen. Workspaces lassen 
 sich auch auf Executor-Tasten speichern.
 
@@ -85,6 +85,7 @@ Um ohne Skalierung den ganzen Bildschirm auszufüllen, müssen Bilder in diesem 
 Konsole | Auflösung
 -- | --
 D9 (-330 / -215) | 1920 x 1080
+D7 (-330 / -215) | 1920 x 1200
 Sapphire Touch | 1366 x 786
 Arena | 1366 x 786
 Tiger Touch II | 1366 x 786
@@ -93,12 +94,13 @@ TNP | 800 x 480
 
 ### Eingeschränkter Zugriff mit dem Venue Mode
 
-Man kann einen Workspace definieren, der bei gesperrtem Pult aktiv ist und damit eingeschränkte Bedienung bietet. Dies ist der **Venue Mode** workspace. Damit kann man z.B. dem Personal Zugriff auf das Saallicht gestatten, ohne selbst am Pult zu sein.
+Man kann einen Workspace definieren, der bei gesperrtem Pult aktiv ist und damit eingeschränkte Bedienung bietet. Dies ist der **Venue Mode** workspace. Damit kann man z.B. dem Personal Zugriff auf das Saallicht gestatten, ohne selbst am Pult zu sein. Das Pult kann so eingerichtet werden, dass es direkt in den Venue Mode startet (s.u.).
 
 1.  Speichern Sie einen Workspace mit den gewünschten Fenstern, z.B. dem Playbacks-Fenster oder mit virtuellen Fadern, auf die die gewünschten Lichtstimmungen gespeichert sind.
 2.  Rufen Sie die Einstellung **Venue Mode Workspace** auf der Seite **Lock** der Benutzereinstellungen auf (<Keys.HardKey>Avo</Keys.HardKey> gedrückt halten und <Keys.SoftKey>User Settings</Keys.SoftKey> drücken), und wählen Sie den gewünschten Workspace mit den Menütasten.
-3.  Sperren Sie das Pult wie oben beschrieben. Darauf erscheint der angegebene Workspace.
-4.  Um das Pult zu entsperren, klicken Sie auf <Keys.SoftKey>Programmer Mode</Keys.SoftKey> rechts oben und geben das gesetzte Passwort ein.
+3.  Soll der Venue Mode direkt beim Starten des Pultes aktiv sein, setzen Sie ein **Programmer Password** und stellen Sie  **Lock on Startup** auf **Venue mode** (s.u.).
+4.  Sperren Sie das Pult wie oben beschrieben. Darauf erscheint der angegebene Workspace.
+5.  Um das Pult zu entsperren, klicken Sie auf <Keys.SoftKey>Programmer Mode</Keys.SoftKey> rechts oben und geben das gesetzte Passwort ein.
 
 ![Venue Mode example](/docs/images/venue-mode.png)
 
@@ -123,9 +125,19 @@ Die Auswahl von Fixtures ist deaktiviert. Quick Palettes können aber verwendet 
 
 >   Menüs sind im Venue Mode deaktiviert. Damit gehen auch Macros nicht, die Menüs oder damit verknüpfte Funktionen aufrufen. Auch Funktionen, bei denen eine Taste mehrfach gedrückt werden muss, gehen im Venue Mode nicht, denn auch diese benötigen das Menüsystem (Beispiel: Doppelklick auf <Keys.HardKey>Release</Keys.HardKey> zum Aufruf der Funktion *Release All*). 
 
-Mit der Einstellung **Lock on Startup** auf der Seite **Lock** der [Benutzereinstellungen](./system-settings/user-settings.md#lock) kann man einstellen, in welchen Status das Pult bzw. die Software nach dem Neustart startet. Damit das Pult im gesperrten Zustand startet, muss ein Passwort vergeben werden.
+### Direkt in den Venue Mode starten
 
-Ggf. ist es sinnvoll, in den Benutzereinstellungen auf dem Reiter **Lock** ein **Venue Mode Password** einzustellen. Um das Pult zu sperren, klicken Sie rechts oben auf <Keys.SoftKey>Lock</Keys.SoftKey>. Damit wird der normale Sperrbildschirm angezeigt. Gibt man nun zum Entsperren das 'Venue Mode Passwort' ein, so öffnet sich der 'Venue Mode workspace', und man hat eingeschränkten Zugriff.
+Mit der Einstellung **Lock on Startup** auf der Seite **Lock** der [Benutzereinstellungen](./system-settings/user-settings.md#lock) kann man einstellen, in welchen Status das Pult bzw. die Software nach dem Neustart startet unabhängig davon, wie es vorher heruntergefahren wurde. 
+
+- Damit das Pult im Venue Mode oder im gesperrten Zustand startet, muss ein **Programmer Password** vergeben werden.
+
+Ggf. ist es sinnvoll, in den Benutzereinstellungen auf dem Reiter **Lock** ein **Venue Mode Password** einzustellen. 
+Um das Pult zu sperren, klicken Sie rechts oben auf <Keys.SoftKey>Lock</Keys.SoftKey>. Damit wird der normale 
+Sperrbildschirm angezeigt. Gibt man nun zum Entsperren das 'Venue Mode Passwort' ein, so öffnet sich der 
+'Venue Mode workspace', und man hat eingeschränkten Zugriff.
+
+Ebenso lässt sich einstellen, dass immer die gleiche Show beim Programmstart geladen wird, auch wenn vor dem 
+Herunterfahren eine andere Show aktiv war. Dazu dient die Option **Start Up Show** im Disk-Menü, siehe [Eine Show zum automatischen Starten festlegen](./titan-basics/loading-and-saving-shows.md#eine-show-zum-automatischen-starten-festlegen).
 
 ## Verwenden der 'Move'-Funktion
 

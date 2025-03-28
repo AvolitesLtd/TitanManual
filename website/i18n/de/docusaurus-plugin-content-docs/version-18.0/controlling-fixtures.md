@@ -78,9 +78,13 @@ um den Start des Programmierens zu vereinfachen.
 Ein einfaches Betätigen der Taste bewegt alle Geräte auf 'Mitte' (50%
 Pan/Tilt) und setzt sämtliche Attribute zurück, resultierend in einfach
 weißem Licht. Dennoch ist es zuweilen wünschenswert, etwa die Geräte
-dabei nicht zu bewegen oder andere Attribute unverändert zu lassen. Dazu
-erscheinen sinnvolle Optionen, wenn man die <Keys.HardKey>Locate</Keys.HardKey>-Taste nicht einfach
-kurz drückt, sondern gedrückt hält.
+dabei nicht zu bewegen oder andere Attribute unverändert zu lassen. 
+
+-  Per **Locate** werden keine Werte im Programmer gesetzt. Entsprechend wird im 
+Speichermodus **Record by Channel** nichts gespeichert, wenn nicht Attribute manuell verändert wurden. 
+(Siehe [Speichermodus/Record Mode](./cue-lists/creating-a-cue-list.md#speichermodusrecord-mode)).
+
+Hält man die <Keys.HardKey>Locate</Keys.HardKey>-Taste gedrückt, so erscheinen im Menü weitere  Funktionen:
 
 -   Sie können einige der 'Locate'-Funktionen maskieren (z.B. nur 'das
     Licht einschalten', ohne Position oder Farbe zu verändern), indem
@@ -94,16 +98,14 @@ kurz drückt, sondern gedrückt hält.
     dass bei jedem 'Locate'-Vorgang wieder sämtliche Attribute
     beeinflusst werden. Alternativ bestimmt die Option <Keys.SoftKey>Remember Mask</Keys.SoftKey>, dass die Maskierung erhalten bleibt.
 
--   Die Option <Keys.SoftKey>Clear/Don't Clear Located Attributes</Keys.SoftKey> bestimmt, ob die
-    durch <Keys.HardKey>Locate</Keys.HardKey> gesendeten Werte beim Speichern mit übernommen
-    werden sollen. Steht die Option auf 'Clear', so werden die Werte
-    nicht mit übernommen, sofern sie nicht manuell (etwa mit den Rädern)
-    verändert wurden. Das ist zweckmäßig etwa, wenn Sie einen Cue nur
-    mit einer Position erstellen möchten. Die Taste <Keys.HardKey>Locate</Keys.HardKey> wird dann
-    zwar die Geräte zum Programmieren 'anschalten', aber die Information
-    'Licht an' wird nicht mit abgespeichert.
-
-> Um schnell zu 'Locaten', **ohne Pan/Tilt zu verändern**, drücken und halten Sie <Keys.HardKey>Locate</Keys.HardKey>, drücken dazu <Keys.HardKey>Pan/Tilt</Keys.HardKey> und lassen nun <Keys.HardKey>Locate</Keys.HardKey> los.<br/><br/> 
+-   Die Option <Keys.SoftKey>Don't Clear/Clear Located Attributes</Keys.SoftKey> hilft dabei zu verhindern, 
+	versehentlich Locate-Werte zu speichern, wenn ein Cue im Modus **Record by Channel** gespeichert werden soll. 
+	Steht die Option auf **Don't clear** (Vorgabewert), so werden beim Betätigen von <Keys.HardKey>Locate</Keys.HardKey> 
+	bereits im Programmer vorhandene Werte auf Locate-Werte geändert und später mit in den Cue gespeichert.
+	Steht die Option dagegen auf **Clear**, so werden bereits im Programmer befindliche Werte beim Betätigen 
+	von <Keys.HardKey>Locate</Keys.HardKey> gelöscht und nicht mit in den Cue gespeichert.
+	
+> Um schnell zu 'Locaten', **ohne Pan/Tilt zu verändern**, drücken und halten Sie <Keys.HardKey>Locate</Keys.HardKey>, drücken dazu <Keys.HardKey>Pan/Tilt</Keys.HardKey> und lassen nun <Keys.HardKey>Locate</Keys.HardKey> los.<br/> 
 Um **nur Pan/Tilt zu locaten**, drücken und halten Sie <Keys.HardKey>Locate</Keys.HardKey>, drücken 
 dazu <Keys.HardKey>Options</Keys.HardKey> (bzw. <Keys.HardKey>Attribute Options</Keys.HardKey> auf älteren Pulten), drücken dann <Keys.HardKey>Pan/Tilt</Keys.HardKey>, und lassen nun <Keys.HardKey>Locate</Keys.HardKey> los.
 
