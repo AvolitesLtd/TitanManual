@@ -7,6 +7,8 @@ import Keys from '@site/src/components/key.ts';
 
 **{{PRISM-APP}}** includes **Synergy** compatibility with **Avolites Titan**, providing easier setup as well as advanced features such as previewing of **{{PRISM-APP}}** within **Titan**, using the output from **{{PRISM-APP}}** within **Titan's Pixelmapper** and allowing media transfer directly from the console to **{{PRISM-APP}}**.
 
+*Note: Prism 2.0 requires the `Avolites_synergy_Prism.d4` personality from 21/02/2025, any older personality is not supported. Personalities can be downloaded [here](https://personalities.avolites.com/) searching for "Synergy".*
+
 More information on how to setup a **Synergy** connection can be found on this [guide](/docs/synergy).
 
 ![Settings Synergy](/prism-images/settings/settings-synergy.png)

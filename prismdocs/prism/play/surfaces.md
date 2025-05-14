@@ -25,6 +25,7 @@ A `Synergy` label will appear on the surface once a Synergy connection has been 
 All management of **Surfaces** or **Layers** will be locked on the Stage page. Adding or removing **Layers** from the Prism UI will be restricted, as Titan will now have primary control of Prism. **Surfaces** & **Layers** can only be added or removed through the Titan interface. 
 
 More information on setting up Synergy can be found [here](/docs/synergy).
+
 ## Synergy Pixel Map Adjustments
 
 When a **Surface** is connected to **Synergy**, and a [Pixel Map](docs/synergy/operating-synergy#lightmap-pixel-mapping-media-content) has been setup, a `Pixel Map` label will also be shown on the **Surface**. This indicates that the Pixel Map is working correctly and Pixel Map Adjustments can be controled on the [Surfaces](./surfaces.md).

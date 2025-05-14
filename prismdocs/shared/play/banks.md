@@ -64,8 +64,9 @@ To enhance playback performance, consider transcoding media into **Avolites AiM*
 
 {{PRISM-START-COMMENT}}
 #### NDI Input
-Any active NDI sources on the network.
-Please see both [Settings](../settings/settings-inputs.md) and [Preview](../quick-start/preview.md) pages in order to setup and select NDI Sources.
+A list of active NDI sources on the network. Please see both [Settings](../settings/settings-inputs.md) and [Preview](../quick-start/preview.md) pages in order to setup and select NDI Sources.
+
+Prism NDI sources use the **NDI SDK**, a list of all features can be found [here](https://ndi.video/for-developers/#sdk-comparison).
 
 #### Live Input
 Any connected capture devices on the system.
