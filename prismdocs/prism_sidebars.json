@@ -154,6 +154,10 @@
             {
               "type": "doc",
               "id": "prism/quick-start/system-tray"
+            },
+            {
+              "type": "doc",
+              "id": "prism/quick-start/live-input-setup"
             }
           ]
         },
