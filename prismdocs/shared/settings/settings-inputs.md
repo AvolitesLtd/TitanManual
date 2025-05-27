@@ -18,9 +18,7 @@ The **Live Inputs** list will automatically update when plugging/unplugging a ph
 
 ![Source Selection](/prism-images/settings/source-selection-live.png)
 
-The **NDI Inputs** list is updated when the <Keys.PrismKey>Refresh</Keys.PrismKey> button is pressed.  
-If a new NDI source is present in the local network it will be added to the list.
-If a new NDI source is removed from the network it will be removed from the list, but only after the button is pressed.
+If a new NDI source is added or removed in the local network the **NDI Inputs** list is updated.
 
 ![Source Selection](/prism-images/settings/source-selection-ndi.png)
 
