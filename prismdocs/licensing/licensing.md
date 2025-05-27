@@ -10,22 +10,20 @@ sidebar_label: Prism Licensing
 
 **Prism** runs with any valid **AvoKey** or **Editor Keys** with an **Ai** (_Demo_, _Anjuna_, _Bondi_, _Miami_) or **Prism**  (_Zero_, _One_) license. Both keys can also be purchased from any of our distributors.
 
-**Prism** is limited to 1 Surface, 16 Layers, and 256 Banks. Each bank can hold up to 256 elements.
-
-**Prism** provides 1 physical output and 1 NDI output.
-
-### Features
-| Feature / License Level | Prism Zero | Prism One |
+### Prism Features
+| Feature / License Level | Zero Outputs | One Output |
 |-|-|-|
-| **Surface**                   | 1 (1920x1080 max) | Up to 16 |
-| **Layers**                    | 1                 | Up to 16 per Surface |
-| **Blend modes**               | Yes               | Yes|
-| **2D Mapping (Regions)**      | Yes               | Yes|
-| **Physical Output**           | 1                 | 1 |
-| **NDI Output**                | 1                 | 1 |
-| **Media Management**          | Yes               | Yes | 
-| **Crossfade on single layer** | Yes               | Yes |
-| **Pixel Map Adjustments**     | Yes               | Yes |
+| **Physical Outputs**       | 0   | 1 |
+| **Virtual Outputs (NDI)**  | 0   | 1 |
+| **Live Inputs**            | 0   | 4 |
+| **NDI Inputs**             | 0   | 4 |
+| **Surface**                | Up to 16 | Up to 16 |
+| **Layers**                 | Up to 16 per **Surface** | Up to 16 per **Surface** |
+| **Banks**                  | Up to 256 | Up to 256 |
+| **Bank Elements**          | Up to 256 per **Bank** | Up to 256 per **Bank** |
+| **Outputs Max Resolution (px)** | 3840 x 3840 | 3840 x 3840 |
+| **Surface Max Resolution (px)** | 7680 x 7680 | 7680 x 7680 |
+| **Inputs Max Resolution (px)**  | 3840 x 3840 | 3840 x 3840 |
 
 ## Prism Player
 
@@ -39,7 +37,7 @@ If you have no internet connection, and no **AvoKey** or **Editor Keys**, you wi
 
 The below table shows which app can be use against Avolites current set of **Ai** / **Prism** Licenses.
 
-| App / License Level | Ai Demo  | Ai Anjuna | Ai Bondi | Ai Miami | Prism Player | Prism Zero | Prism One | 
+| App / License Level | Ai Demo  | Ai Anjuna | Ai Bondi | Ai Miami | Prism Player | Zero Outputs | One Output | 
 |-----------------|:--------:|:---------:|:--------:|:--------:|:-------------:|:----------:|:---------:|
 | **Prism**       |    x     |     x     |    x     |    x     |               |     x      |    x      |
 | **Prism Player**|    x     |     x     |    x     |    x     |       x       |     x      |    x      |
