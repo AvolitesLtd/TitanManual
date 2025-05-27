@@ -6,41 +6,70 @@ sidebar_label: Prism Licensing
 
 ## Prism
 
-**Prism** is **"Free with a Key"**, this means that once a key is purchased you will be able to get the license on request for free.
+**Prism** is available in two license levels:
 
-**Prism** runs with any valid **AvoKey** or **Editor Keys** with an **Ai** (_Demo_, _Anjuna_, _Bondi_, _Miami_) or **Prism**  (_Zero_, _One_) license. Both keys can also be purchased from any of our distributors.
+- **Zero Outputs** – For evaluation and previsualization. Includes Synergy support and no video outputs.
+- **One Output** – Includes 1 physical output and 1 virtual output (NDI) for live deployment.
+
+Refer to the feature table below for a detailed comparison of capabilities unlocked at each level.
+
+**Prism** runs with any valid **AvoKey** or **Editor Key** licensed for either:
+- **Ai** (Demo, Anjuna, Bondi, Miami), or
+- **Prism** (One)
+
+Keys can be purchased from any of our authorized distributors.
+
+All Prism licenses include:
+- Up to **1 Surface**
+- Up to **16 Layers per Surface**
+- Up to **256 Banks**
+- Up to **256 Elements per Bank**
+- **Synergy** support
 
 ### Prism Features
 | Feature / License Level | Zero Outputs | One Output |
 |-|-|-|
 | **Physical Outputs**       | 0   | 1 |
 | **Virtual Outputs (NDI)**  | 0   | 1 |
-| **Live Inputs**            | 0   | 4 |
-| **NDI Inputs**             | 0   | 4 |
-| **Surface**                | Up to 16 | Up to 16 |
+| **Outputs Max Resolution (px)** | 3840 x 3840 | 3840 x 3840 |
+| **Live Inputs**            | 0   | Up to 4 |
+| **NDI Inputs**             | 0   | Up to 4 |
+| **Inputs Max Resolution (px)**  | 3840 x 3840 | 3840 x 3840 |
+| **Surfaces**                | Up to 16 | Up to 16 |
+| **Surface Max Resolution (px)** | 7680 x 7680 | 7680 x 7680 |
 | **Layers**                 | Up to 16 per **Surface** | Up to 16 per **Surface** |
 | **Banks**                  | Up to 256 | Up to 256 |
 | **Bank Elements**          | Up to 256 per **Bank** | Up to 256 per **Bank** |
-| **Outputs Max Resolution (px)** | 3840 x 3840 | 3840 x 3840 |
-| **Surface Max Resolution (px)** | 7680 x 7680 | 7680 x 7680 |
-| **Inputs Max Resolution (px)**  | 3840 x 3840 | 3840 x 3840 |
+| **Synergy Support** |x| x|
+
+### License Unlock Table
+
+The table below shows which license types unlock each **Prism v2.0** license level:
+
+| Unlocks Prism License | Supported License Types                                      |
+|------------------------|-------------------------------------------------------------|
+| **Zero Outputs**        | Ai Demo                                                     |
+| **One Output**         | Ai Anjuna, Ai Bondi, Ai Miami, Prism One                   |
+
+
 
 ## Prism Player
 
-**Prism Player** runs with any valid **AvoKey** or **Editor Keys** with an **Ai** (_Demo_, _Anjuna_, _Bondi_, _Miami_) or **Prism** (_Player_, _Zero_, _One_) license.
+**Prism Player** runs with any valid **AvoKey** or **Editor Keys** with an **Ai** (_Demo_, _Anjuna_, _Bondi_, _Miami_) or **Prism** (_Player_, _One_) license.
 
 **Prism Player** can be installed without an **AvoKey** or **Editor Keys**, in this case an internet connection to download the free software license is required. The license is automatically installed as **Prism Player Component** or **3501 Avolites Prism Player**. The specific name of this license will appear in codemeter webadmin page, instructions are below.
 
 If you have no internet connection, and no **AvoKey** or **Editor Keys**, you will need to purchase an AvoKey requesting our free *Prism Player Component License*. If you require an AvoKey please speak to any of our distributors found [here](https://www.avolites.com/official-distributors).
 
-## All Licenses
+<!-- ## All Licenses
 
 The below table shows which app can be use against Avolites current set of **Ai** / **Prism** Licenses.
 
-| App / License Level | Ai Demo  | Ai Anjuna | Ai Bondi | Ai Miami | Prism Player | Zero Outputs | One Output | 
-|-----------------|:--------:|:---------:|:--------:|:--------:|:-------------:|:----------:|:---------:|
-| **Prism**       |    x     |     x     |    x     |    x     |               |     x      |    x      |
-| **Prism Player**|    x     |     x     |    x     |    x     |       x       |     x      |    x      |
+| | Ai Demo  | Ai Anjuna | Ai Bondi | Ai Miami | Prism One| Prism Player |
+|-----------------|:--------:|:---------:|:--------:|:--------:|:-------------:| :-------------:|
+| **Prism Zero Outputs**       |   x    |        |        |       |               | |
+| **Prism One Output**|        |     x     |    x     |    x     |       x       | |
+| **Prism Player**|    x    |     x     |    x     |    x     |       x       | x| -->
 
 ## CodeMeter
 

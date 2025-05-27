@@ -16,7 +16,7 @@ More information on how to setup a **Synergy** connection can be found on this [
 |  Item  |  Description  |
 |------------------------------------------------------|------------|
 | **Titan Media Node Version** | List of available **Titan Media Node**. The version in use must match the **Titan** version. <br/><br/> If a mismatch is identified within Titan's **Synergy** Settings, a different version can be selected via this dropdown.|
-| **Port** | Apecifies which port is used to allow **Prism** and **Titan** to communicate.|
+| **Port** | Specifies which port is used to allow **Prism** and **Titan** to communicate.|
 | **Enable Synergy** | This toggle enable/disable **Synergy** connection between **Prism** and the controlling device.|
 | **Connection Status** | Indicates the current status of the **Synergy** connection between **Prism** and **Titan**.|
 | **Default Upload Folder** | This path is the default storage location used by all media transfered to **Prism** from **Titan** via a **Synergy** connection. <br/><br/> By pressing the <Keys.PrismKey>Change Folder</Keys.PrismKey> button it is possible to update the default destination folder that will be displayed in the box.|

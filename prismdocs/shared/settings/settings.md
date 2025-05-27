@@ -4,4 +4,4 @@ title: Settings
 sidebar_label: Settings
 ---
 
-The settings window contains several sections of user adjustable parameters as well as giving feedback on the machine currently in use.
+The settings window includes multiple sections for user-adjustable parameters and also provides feedback about the machine currently in use.

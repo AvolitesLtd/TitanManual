@@ -6,8 +6,6 @@ sidebar_label: Surfaces
 
 import Keys from '@site/src/components/key.ts';
 
-*Note: any changes on this page may cause the output to pause whilst changes are being applied.*
-
 The **Surfaces** view is where **Surfaces** and **Layers** are setup and managed.
 
 A **Surface** is the virtual canvas where visual content is displayed, such as screens, LED walls, or projections. It defines the resolution for media to be mapped, scaled, and adjusted for precise display.
@@ -17,6 +15,8 @@ Up to 16 **Layers** per surface can be added, removed or duplicated by using the
 To remove or duplicate a layer, it needs to be selected first.  
 To select a layer, click on a layer element or tick its tick box.  
 To rename a surface, double click on it.
+
+*Note: any changes on this page may cause the output to pause whilst changes are being applied.*
 
 ![Prism Stage Page](/prism-images/stage/prism-stage-view.png)
 

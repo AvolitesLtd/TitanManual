@@ -4,23 +4,23 @@ title: General Settings
 sidebar_label: General
 ---
 
-This page shows player general settings.
+This page displays the general settings for **Prism Player**.
 
 ![Settings General](/prism-images/settings/player-settings-general.png)
 
 There are four sections:
-- **Application** - These options will give control over the application UI
-- **Graphics** - These options will give control over the application graphics.
-- **Audio** - These options will give control over the application audio.
-- **Cache** - These options will give control over the application caching system.
+- **Application** - Controls settings related to the application’s user interface (UI).
+- **Graphics** - Controls settings for the application’s graphics performance and quality.
+- **Audio** - Controls settings for the application’s audio output.
+- **Cache** - Controls settings for the application’s caching system.
 
 ### Application
 
-|  Item  |  Description  |
-|----------------------|------------|
-| **Keep Server Running On Close** | This toggle will shutdown or keep the application running when closing the UI. <br/> <br/> When enabled the application will keep running in the system tray and continue with any assigned tasks after closing the UI. <br/> <br/> When disabled closing the UI will exit the application fully regardless of its current state.|
-| **Disable UI Notifications** | This toggle will enable/disable UI notifications. When enabled messages from the application are displayed at the top of the UI.|
-| **UI Warnings** | This button will reset the status of UI warnings when pressed. As an example, when selecting Stage tab, a Render Warning popup is shown. This warning can be disabled by checking the 'Don't show this message again' checkbox. After pressing the UI warnings button this warning will be prompted again.|
+| Item                         | Description                                                                                                                                |
+|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| **Keep Server Running On Close** | Choose whether the application continues running after closing the UI. <br/><br/>When enabled, the application stays active in the system tray and continues assigned tasks even after the UI is closed. <br/><br/>When disabled, closing the UI will fully exit the application regardless of its current state. |
+| **Disable UI Notifications** | Toggle UI notifications on or off. When enabled, messages from the application appear at the top of the UI.                                |
+| **UI Warnings**               | Resets the status of UI warnings. For example, if a "Render Warning" popup is disabled by selecting "Don't show this message again," pressing this button will re-enable that warning so it appears again when relevant. |
 
 ### Graphics
 

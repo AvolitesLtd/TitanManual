@@ -31,6 +31,6 @@ On the right side it is then possible to change the following settings:
 |----------------------|------------|
 | **Video Format** | List of available video formats. Each format is composed of resolution, color space and frame rate (physical inputs only).|
 | **Audio Source** | List of available audio sources. The selected source will act as the audio input (physical inputs only).|
-| **Enable Audio** | This toggle will enable/disable audio input.|
-| **Run In Background** | This toggle will create an instance of the specified source which will run in the background. <br/> <br/> This allows to speed-up loading times of when the input is loaded in Preview Window or on a Layer, as the input will be immediately ready.|
-| **Status** | Connection status of the capture device.|
+| **Enable Audio** | Enable audio input.|
+| **Run In Background** | Create an instance of the specified source which will run in the background. <br/> <br/> This allows to speed-up loading times of when the input is launched on a Layer, as the input will be immediately ready.|
+| **Status** | Indicates the connection status of the capture device. *The device will fail to connect if either the video or audio source is invalid*. |

@@ -4,7 +4,7 @@ title: Quick Start
 sidebar_label: Quick Start
 ---
 
-### Setting up a Project
+### 1. Setting up a Project
 Start by creating a [new project](./projects-management.md/#new-project) via the [file menu](./navigation.md/#file).   
 
 **File** > **New Project**
@@ -18,7 +18,7 @@ Next, set the [surface resolution](../../prism/stage/surfaces.md/#surface-contro
 
 ![Surface Resolution](/prism-images/quick-start/surface-resolution.png)
 
-### Connect to an External Display
+### 2. Connect to an External Display
 
 To connect the surface to an external display, the output needs to be [enabled](../../prism/stage/outputs.md/#physical-output-controls) in Prism. 
 
@@ -30,7 +30,7 @@ To connect the surface to an external display, the output needs to be [enabled](
 
 ![Physical Output](/prism-images/quick-start/display.png)
 
-### Region Setup
+### 3. Region Setup
 
 To determine which part of the **Surface** is being sent to the **Output**, a [Region](../../prism/stage/regions.md) is used. The region will define the area to be sampled from the specified **Surface** and then where and what size this sample needs to be drawn on the output. 
 
@@ -47,7 +47,7 @@ The default behaviour of a new region is to sample the entire **Surface** and to
 
 The project is now setup, all that is left is to import media and trigger it to display on the output. 
 
-### Bank Setup
+### 4. Bank Setup
 
 A [bank](../../prism/play/banks.md) must first be created in order to import media into the project. 
 
@@ -59,7 +59,7 @@ A [bank](../../prism/play/banks.md) must first be created in order to import med
 
 Select the new bank from the list and then press the *Select Files* button within the Bank. Locate and load the required media files. Further media can be added by using the *Add* Button on the right or by dragging files into the Bank area.
 
-### Trigger Media
+### 5. Trigger Media
 
 Finally, to trigger the imported media, select one of the layers within your surface and then click the *Play* button next to the media in the Bank. 
 

@@ -6,9 +6,9 @@ sidebar_label: Outputs
 
 import Keys from '@site/src/components/key.ts';
 
-*Note: any changes on this page may cause the output to pause whilst changes are being applied.*
-
 The **Outputs** view is where the outputs are configured. Currently **Prism** supports one physical output and one NDI output.
+
+*Note: any changes on this page may cause the output to pause whilst changes are being applied.*
 
 ## Physical Output
 

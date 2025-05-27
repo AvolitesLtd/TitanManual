@@ -4,11 +4,13 @@ title: Live Input Setup
 sidebar_label: Live Input Setup
 ---
 
-When adding a **live input** to **Prism**, the available signal options will vary according to the device in use, but the setup process is the same for all capture devices. 
+When adding a **Live Input** to **Prism**, the available signal options will vary according to the device in use, but the setup process is the same for all capture devices.
 
-*Note: Number of inputs avaiable vary, dependant on [the license](/prism/licensing) you have.*
+Multiple bank elements can share the same **Live Input** device (e.g., a USB camera). Each bank element can have its own settings—such as color adjustments or transformations—but **Prism** creates a single unique instance for each input device. This means all bank elements using the same device access the same video buffer resource, which helps improve performance.
 
-## Setup
+*Note: The number of available inputs varies based on [licensing](/prism/licensing).*
+
+## 1. Setup
 
 Go to the **Inputs** section of the **Settings** page to set the parameters for the video capture device. 
 
@@ -30,7 +32,7 @@ Enabling the run in background will make the source faster to load on a **Layer*
 
 ![Video Format](/prism-images/quick-start/live-input-setup/source-settings.png)
 
-## Playback
+## 2. Playback
 
 ### Playing a Live Input
 

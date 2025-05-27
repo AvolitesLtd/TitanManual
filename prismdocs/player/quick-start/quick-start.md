@@ -4,12 +4,12 @@ title: Quick Start
 sidebar_label: Quick Start
 ---
 
-### Setting up a Project
+### 1. Setting up a Project
 Start by creating a [new project](./projects-management.md/#new-project) via the [file menu](./navigation.md/#file).   
 
 **File** > **New Project**
 
-### Play Media
+### 2. Play Media
 
 Press the *Select Files* button within the Bank. Locate and load the required media files. Further media can be added by using the *Add* Button on the right or by dragging files into the Bank area.
 

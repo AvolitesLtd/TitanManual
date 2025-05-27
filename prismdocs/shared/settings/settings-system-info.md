@@ -14,8 +14,7 @@ App specific performance metrics are also displayed in the [status bar](../quick
 | **Connected Hard Drive** | This section shows the hard drives connected to the system. For each hard drive the total storage space, the used space and the available space are displayed. |
 | **Frame Rate** | This section shows the rate at which the app is displaying video frames.|
 | **CPU** | This section shows the overall system CPU load and the app CPU load. Furthermore, it shows the engine process CPU load and the AiM Transcoder process CPU load. The app CPU load is the sum of these two values.
-| **Memory** | This section shows the total amount of system memory available, the amount in use by the app and the amount the system is using overall. Furthermore, it shows the amount of memory in use by the engine process and the AiM Transcoder process. 
-The amount in use by the app is the sum is the sum of these two values.|
+| **Memory** | This section displays the total system memory available, the memory used by the app, and the overall system memory usage. It also breaks down memory usage by the engine process and the AiM Transcoder process. <br/><br/> The app’s total memory usage is the sum of the memory used by these two processes. |
 | **Video RAM** | This section shows the total amount of Dedicated and Shared VRAM available for the selected GPU and the amount in use by the app.|
 
 #### CPU
