@@ -6,19 +6,35 @@ sidebar_label: Live Input Setup
 
 When adding a **live input** to **Prism**, the available signal options will vary according to the device in use, but the setup process is the same for all capture devices. 
 
+*Note: Number of inputs avaiable vary, dependant on [the license](/prism/licensing) you have.*
+
+## Setup
+
 Go to the **Inputs** section of the **Settings** page to set the parameters for the video capture device. 
 
 ![Settings Page](/prism-images/quick-start/live-input-setup/settings-tab.png)
+
+### Source Selection
 
 Select the input from the **Source** dropdown. 
 
 ![Source Selection](/prism-images/quick-start/live-input-setup/source-selection.png)
 
-The **Video Format** dropdown will display all available resolution, framerate and colour space variants that the selected device supports. Choose one that fits the project requirements. Any instances of the input will use the chosen settings. 
+### Source Settings
 
-![Video Format](/prism-images/quick-start/live-input-setup/video-format.png)
+Then **Video Format** dropdown will display all available resolution, framerate and colour space variants that the selected device supports. Choose one that fits the project requirements. Any instances of the input will use the chosen settings. 
 
-Go to the **Play** page, select a bank and then add a **Live Input** by pressing the `Add Element` button. 
+An audio source can also be enabled from the chosen source device.
+
+Enabling the run in background will make the source faster to load on a **Layer**.
+
+![Video Format](/prism-images/quick-start/live-input-setup/source-settings.png)
+
+## Playback
+
+### Playing a Live Input
+
+Go to the **Play** page, select a bank and then add a **Live Input** by pressing the `Add Element` button.
 
 ![Add Input](/prism-images/quick-start/live-input-setup/add-input.png)
 
@@ -30,14 +46,4 @@ In the **Live Input** section of the **Preview Window**, select the input from t
 
 ![Settings Page](/prism-images/quick-start/live-input-setup/select-live-input.png)
 
-After the video signal has been confirmed, close the **Preview Window**. The **Live Input** is ready to be used. 
- 
------- 
-
-Notes: 
-
-Adding links to this page on Prism UI?? 
-
-Add link to licensing page 
-
-Add note about notifications 
+After the video signal has been confirmed, close the **Preview Window**. The **Live Input** is ready to be used.

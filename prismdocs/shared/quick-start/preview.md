@@ -85,8 +85,8 @@ This area controls the **Crop** of the Bank Element.
 |   Item      |  Description   |
 |----------------|---------|
 | **NDI Source** | List of all active NDI sources on your network. |
-| **Refresh**    | Click to check for newly available NDI sources. |
 | **Status**     | Shows the connection status to the NDI source, stream will only display frames when active. |
+| **Enable Audio** | Shows if an audio source is also playing from the stream, controllable via the [Settings](../settings/settings-inputs.md) page. |
 
 ## Live Input
 
@@ -96,6 +96,9 @@ This area controls the **Crop** of the Bank Element.
 |------------|---------|
 | **Source** | List of valid capture devices for video streaming, if they are compatible with DirectShow. |
 | **Status** | Shows the connection status to the capture device, will only display frames when active. |
+| **Video Format** | Shows the resolution, colour format and frame rate set on the capture device. |
+| **Audio Source** | Shows the audio source set on the capture device. |
+| **Enable Audio** | Shows the enabled status of the audio source on the capture device. |
 
 ## Virtual Return
 
