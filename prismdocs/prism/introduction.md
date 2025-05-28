@@ -7,15 +7,20 @@ sidebar_label: Introduction
 
 **Prism** can playback and control video files, virtual returns and live inputs, such as USB capture devices, webcams or NDI feeds. These media types can be stored across multiple banks and can be viewed in the [Preview](./quick-start/preview.md) window or applied to any of the layers within a [Surface](./stage/surfaces.md) to create a mix.
 
-Individual layers or the full mix can then be sent to a video or NDI output and by using regions, complex mappings can be made. Alternatively, this mix can be sent directly into Titan’s Pixel Mapper using Synergy to allow tight integration between video and lighting.
+Individual layers or the full mix can then be sent to a video or NDI output and by using regions, complex mappings can be made. Alternatively, this mix can be sent directly into Titan’s Pixel Mapper using [Synergy](/docs/synergy) to allow tight integration between video and lighting.
 
-The software can be controlled in realtime via **Prism's** dedicated UI or through Titan's layer control as part of the Synergy toolset, which includes project setup, media transfer and video previewing directly within Titan.
+The software can be controlled in realtime via **Prism's** dedicated UI or through Titan's layer control as part of the **Synergy** toolset, which includes project setup, media transfer and video previewing directly within [Titan](/docs).
 
 **Prism's** built in encoder engine, media manager and asset consolidation tools provide a streamlined approach to media import and export between projects and playback systems.
 
-**Prism** is limited to 16 Surfaces per project, 16 Layers per surface, and 256 Banks. Each bank can hold up to 256 elements. 
-
-**Prism** provides 1 physical output and 1 NDI output.
+**Prism** provides:
+- Up to **16 Surfaces**
+- Up to **16 Layers per Surface**
+- Up to **256 Banks**
+- Up to **256 Elements per Bank**
+- Up to **4 video inputs**
+- **1 video output**
+- **Synergy** support
 
 **Prism** requires a license to run. Please refer to the [licensing page](/prism/licensing#prism) in this manual.
 

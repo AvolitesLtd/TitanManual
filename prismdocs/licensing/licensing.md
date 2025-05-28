@@ -8,19 +8,19 @@ sidebar_label: Prism Licensing
 
 **Prism** is available in two license levels:
 
-- **Zero Outputs** – For evaluation and previsualization. Includes Synergy support and no video outputs.
-- **One Output** – Includes 1 physical output and 1 virtual output (NDI) for live deployment.
+- **Zero Outputs** – For evaluation and previsualization. Includes **Synergy** support and no video inputs/outputs.
+- **One Output** – Includes up to 4 video inputs and 1 video output for live deployment.
 
 Refer to the feature table below for a detailed comparison of capabilities unlocked at each level.
 
 **Prism** runs with any valid **AvoKey** or **Editor Key** licensed for either:
-- **Ai** (Demo, Anjuna, Bondi, Miami), or
-- **Prism** (One)
+- **Prism** (One) or
+- **Ai** (Demo, Anjuna, Bondi, Miami)
 
 Keys can be purchased from any of our authorized distributors.
 
-All Prism licenses include:
-- Up to **1 Surface**
+All **Prism** licenses include:
+- Up to **16 Surfaces**
 - Up to **16 Layers per Surface**
 - Up to **256 Banks**
 - Up to **256 Elements per Bank**
@@ -29,8 +29,7 @@ All Prism licenses include:
 ### Prism Features
 | Feature / License Level | Zero Outputs | One Output |
 |-|-|-|
-| **Physical Outputs**       | 0   | 1 |
-| **Virtual Outputs (NDI)**  | 0   | 1 |
+| **Outputs (Physical/Virtual)**       | 0   | 1 |
 | **Outputs Max Resolution (px)** | 3840 x 3840 | 3840 x 3840 |
 | **Live Inputs**            | 0   | Up to 4 |
 | **NDI Inputs**             | 0   | Up to 4 |
@@ -49,13 +48,13 @@ The table below shows which license types unlock each **Prism v2.0** license lev
 | Unlocks Prism License | Supported License Types                                      |
 |------------------------|-------------------------------------------------------------|
 | **Zero Outputs**        | Ai Demo                                                     |
-| **One Output**         | Ai Anjuna, Ai Bondi, Ai Miami, Prism One                   |
+| **One Output**         | Prism One, Ai Anjuna, Ai Bondi, Ai Miami                 |
 
 
 
 ## Prism Player
 
-**Prism Player** runs with any valid **AvoKey** or **Editor Keys** with an **Ai** (_Demo_, _Anjuna_, _Bondi_, _Miami_) or **Prism** (_Player_, _One_) license.
+**Prism Player** runs with any valid **AvoKey** or **Editor Keys** with a **Prism** (_Player_, _One_) or an **Ai** (_Demo_, _Anjuna_, _Bondi_, _Miami_) license.
 
 **Prism Player** can be installed without an **AvoKey** or **Editor Keys**, in this case an internet connection to download the free software license is required. The license is automatically installed as **Prism Player Component** or **3501 Avolites Prism Player**. The specific name of this license will appear in codemeter webadmin page, instructions are below.
 
