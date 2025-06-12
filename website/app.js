@@ -51,14 +51,13 @@ const checkSingleInstance = (fullAppName) => {
 }
 
 const createWindow = () => {
+  // Activating the window of primary instance when a second instance starts
+  if (!checkSingleInstance("Avolites Manual"))
+    return false;
 
   session?.defaultSession?.clearCache().then( e => console.log(e, "cleared cache"));
 
   session?.defaultSession?.clearStorageData().then( e => console.log(e, "cleared storage data"));
-
-  // Activating the window of primary instance when a second instance starts
-  if (!checkSingleInstance("Avolites Manual"))
-    return false;
 
   // Create the browser window.
   win = new BrowserWindow({
