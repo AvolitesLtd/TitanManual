@@ -2,6 +2,8 @@ const { app, BrowserWindow, session, BrowserView, ipcMain, Menu, shell } = requi
 const fs = require('fs');
 const appServer = require('./app/server.js')
 const { fork } = require('child_process')
+const path = require('path');
+
 const localJs = fork(`${__dirname}/app/local.js`)
 process.on('exit', () => {
   localJs.kill()
@@ -50,8 +52,46 @@ const checkSingleInstance = (fullAppName) => {
   return true;
 }
 
-const createWindow = () => {
+const userDataPath = app.getPath('userData');
+const versionFile = path.join(userDataPath, 'version.json');
 
+function isAppUpdated() {
+  const currentVersion = app.getVersion();
+  try {
+    const saved = JSON.parse(fs.readFileSync(versionFile));
+    if (saved.version !== currentVersion) {
+      return true;
+    }
+  } catch (err) {
+    // If the file doesn't exist or can't be parsed, treat it as an update
+    return true;
+  }
+  return false;
+}
+
+function saveCurrentVersion() {
+  const currentVersion = app.getVersion();
+  fs.writeFileSync(versionFile, JSON.stringify({ version: currentVersion }));
+}
+
+async function clearCache() {
+  try {
+    await session.defaultSession.clearCache();
+    console.log('Cache cleared');
+  } catch (error) {
+    console.error('Error clearing cache:', error);
+  }
+ 
+  // Optionally, also clear other folders like:
+  const cacheDir = path.join(app.getPath('userData'), 'Cache');
+  if (fs.existsSync(cacheDir)) {
+    fs.rmSync(cacheDir, { recursive: true, force: true });
+    console.log('Cache directory removed');
+  }
+}
+
+
+const createWindow = () => {
   // Activating the window of primary instance when a second instance starts
   if (!checkSingleInstance("Avolites Manual"))
     return false;
@@ -158,7 +198,12 @@ const createWindow = () => {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
-app.whenReady().then(() => {
+app.whenReady().then(async() => {
+  if (isAppUpdated()) {
+    await clearCache();
+    saveCurrentVersion();
+  }
+
   createWindow()
   urlFilter()
 })
