@@ -65,6 +65,18 @@
         },
         {
           "type": "doc",
+          "id": "about-the-consoles/d3"
+        },
+        {
+          "type": "doc",
+          "id": "about-the-consoles/t3"
+        },
+        {
+          "type": "doc",
+          "id": "about-the-consoles/t1-and-t2"
+        },
+        {
+          "type": "doc",
           "id": "about-the-consoles/sapphire-touch"
         },
         {
@@ -78,14 +90,6 @@
         {
           "type": "doc",
           "id": "about-the-consoles/quartz"
-        },
-        {
-          "type": "doc",
-          "id": "about-the-consoles/t3"
-        },
-        {
-          "type": "doc",
-          "id": "about-the-consoles/t1-and-t2"
         },
         {
           "type": "doc",

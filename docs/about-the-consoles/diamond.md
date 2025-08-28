@@ -1,7 +1,7 @@
 ---
 id: diamond
 title: Diamond 9
-sidebar_label: Diamond 9
+sidebar_label: D9
 description: Diamond 9 - console design and features
 ---
 

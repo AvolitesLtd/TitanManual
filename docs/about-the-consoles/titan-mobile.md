@@ -81,7 +81,7 @@ with a mouse.
 
 
 
-&nbsp;<Keys.Annotation>K</Keys.Annotation> Four **Workspace Windows** may be shown on the screen. These contain
+&nbsp;<Keys.Annotation>K</Keys.Annotation> A user-defined selection of **Workspace Windows** may be shown on the screen. These contain
 touch buttons to control fixture selection, palette selection, groups,
 shapes, attributes, and so on. Visualiser may also be shown in a window.
 

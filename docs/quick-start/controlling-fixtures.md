@@ -10,8 +10,7 @@ import Video from '@site/src/components/video.tsx';
 Select fixtures for control by pressing select buttons. Fixture buttons
 turn blue when selected.
 
-Press <Keys.HardKey>Locate</Keys.HardKey> to "home" selected fixtures with lamp on. If fixture is
-patched on a fader, the fader controls the dimmer. Hold <Keys.HardKey>Locate</Keys.HardKey> and press attribute button to remove that
+Press <Keys.HardKey>Locate</Keys.HardKey> to "home" selected fixtures with lamp on. Hold <Keys.HardKey>Locate</Keys.HardKey> and press attribute button to remove that
 attribute from the locate (e.g. to locate without changing pan/tilt,
 hold <Keys.HardKey>Locate</Keys.HardKey> and press <Keys.HardKey>Position</Keys.HardKey>). See the [Locate](../controlling-fixtures.md#setting-fixtures-to-a-start-position-locate) section for more information.
 
@@ -22,7 +21,7 @@ fixture. Display shows which attribute each wheel is controlling.
 
 [Open Attribute window](../controlling-fixtures/changing-fixture-attributes.md#attribute-editor-window) on-screen (<Keys.HardKey>Open/View</Keys.HardKey> then one of the attribute
 bank buttons such as <Keys.HardKey>Position</Keys.HardKey> or <Keys.HardKey>Intensity</Keys.HardKey>) to select attributes
-from buttons and to control sub-fixtures of battens/arrays.
+from buttons and to control sub-fixtures/cells/pixels of multicelled fixtures.
 (See [Fixtures with Multiple Cells](../controlling-fixtures.md#fixtures-with-multiple-cellssub-fixtures)).
 
 Use Palettes to store often-used colours, positions etc. for instant
@@ -31,20 +30,23 @@ recall, see next page.
 ## Fixture Groups
 
 Fixtures may be [grouped](../controlling-fixtures/fixture-groups.md) for quick selection
-of different arrangements of fixtures, press <Keys.HardKey>Group</Keys.HardKey>, <Keys.SoftKey>Record
-Group</Keys.SoftKey>, select fixtures for group, set legend using <Keys.SoftKey>Provide a
-legend</Keys.SoftKey>, press a handle to store. If the handle has a fader it becomes
-a master fader for the group. Order of fixture selection is remembered
+of different arrangements of fixtures. To store a group, select fixtures, touch a key in the Groups workspace (a red + appears), set legend (if needed)
+then touch the key again. 
+
+To store on a fader handle select fixtures, press <Keys.HardKey>Group</Keys.HardKey>, <Keys.SoftKey>Record
+Group</Keys.SoftKey>, press handle select button to store. The fader becomes
+a master fader for the group. 
+
+Order of fixture selection is remembered
 for use with shapes. Physical layout of fixtures
-in group can also be set for use with pixel mapper or shapes.
+in group can also be set for use with pixel mapper or shapes, see [Group layout](../controlling-fixtures/fixture-groups.md#group-layout).
 
 ## Shapes & Effects
 
 Titan can use preset shapes from its [Shape Generator](../effects/shape-generator.md), patterns you create yourself ([key frame
 shapes](../effects/key-frame-shapes.md)) or [pixel mapped patterns](../effects/pixel-mapper.md).
 
-Select some fixtures. The order in which you select the fixtures is used by
-shapes.
+Select some fixtures (individually or using a group). The order in which you select the fixtures, or layout stored in the group, is used by shapes.
 
 At top menu press <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, <Keys.SoftKey>Shape Generator</Keys.SoftKey>, <Keys.SoftKey>Create</Keys.SoftKey>. Select attribute of shape then select a shape to run.
 

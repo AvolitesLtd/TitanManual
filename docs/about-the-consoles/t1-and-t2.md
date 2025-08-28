@@ -8,20 +8,28 @@ import Video from '@site/src/components/video.tsx';
 
 T1 and T2 are USB devices which plug into a Windows PC or laptop. See [minimum PC specifications](../titan-basics.md#connecting-up-t3--titan-mobile-and-t1t2) for details of the PC requirements. Both devices include an AvoKey.
 
-**T1** will control a single universe of DMX, from its 5-pin XLR output or over Ethernet from the host computer (fixed to Universe 1). USB-MIDI devices are not supported.
+## T1
+
+**T1** will output a single universe of DMX using the Titan Go software, from its 5-pin XLR output or over Ethernet from the host computer. USB-MIDI devices are not supported. If you have fixtures patched on more than one universe, the lowest numbered universe will be output.
+
+You can also run Titan Simulator with T1 connected, this will output all universes over Ethernet but every few minutes a random "spoiler" will disrupt the outputs. However this is still very useful for off-site programming.
 
 ![T1 USB DMX Dongle](/docs/images/T1.png)
 
-**T2** will control two universes of DMX, output on two 5-pin XLRs or over Ethernet from the host computer (fixed to Universes 1 and 2). It has a 3-pin XLR input to connect
+## T2
+
+**T2** will output two universes of DMX using the Titan Go software, on its two 5-pin XLRs or over Ethernet from the host computer. It has a 3-pin XLR input to connect
 Audio for external triggering, or LTC timecode (this is a balanced input with a 600 ohm transformer across pins 2 and 3, pin 1 not connected). T2 also enables the use of a USB MIDI device plugged into the host computer for MIDI
 triggering of Titan, which for example would allow you to use a MIDI fader surface. You can also connect 
-the T3 or Titan Mobile fader wing to provide physical faders.
+the T3 fader wing or Titan Mobile fader wing to provide physical faders.
+
+You can also run Titan Simulator with T2 connected, this will output all universes over Ethernet but every few minutes a random "spoiler" will disrupt the outputs. However this is still very useful for off-site programming.
 
 ![T2 USB DMX Dongle](/docs/images/T2.png)
 
-
-
 <Video videoId="wO94RvG6agI" title="T2 USB Interface"></Video>
+
+## Titan One dongle
 
 The older Titan One dongle (now discontinued) also provided a single universe of DMX output on a 5-pin XLR or over Ethernet. USB-MIDI devices are not supported.
 
@@ -43,3 +51,6 @@ to the Titan software used on consoles, but the operating screen layout is sligh
 display as it provides virtual touch buttons and faders to replace the physical controls on the consoles.
 
 ![Titan Go User Interface](/docs/images/Titan-Go-User-Interface.png)
+
+> Titan Go can show either the above screen layout or a console-type screen layout without the programming touch buttons, for use with T3
+  panel. This is automatic but can be overridden using the [Virtual Hardware](../system-settings/user-settings.md#display) option in the Display tab of User Settings.

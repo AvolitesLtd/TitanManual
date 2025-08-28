@@ -7,12 +7,20 @@ sidebar_label: DMX  network setup
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-The console will control up to 64 universes of DMX. You patch fixtures onto
+Titan will control up to 64 universes of DMX (depending on licence). You patch fixtures onto
 one of 64 **DMX Lines** which may be routed to the XLR sockets on the console or to Art-Net or sACN universes 
-over Ethernet (see [DMX Output Mapping](../system-settings/dmx-output-mapping.md) for details).
+over Ethernet (see [DMX Output Mapping](../system-settings/dmx-output-mapping.md) for details). The output
+universes/lines may have any universe number to match your rig but you can only have 64 universes in total.
 
-- If using the T1 / T2 / T3 hardware the output is limited to the first one, two or sixteen universes respectively.
-A console would normally output up to 16 universes itself (32 for D9 and D7), further Titan Network Processors (TNP) units would be connected to the network using TitanNet to control up to 64 universes. For simple programming or rigs with lots of space in the patch you may be able to output more than 16 universes (32 for D9 and D7) from a console but operating speed may be affected.
+Some consoles/devices have limited outputs. All universes are still patchable and programmable but only the lowest numbered will be output:
+- T1: 1 universe
+- T2: 2 universes
+- T3: 16 universes (expandable by add on licence purchase)
+- D3-010: 8 universes
+- D3-110: 24 universes
+- D3-Core: 16 universes
+
+The console itself can't process and output all 64 universes. It's recommended to limit D9 and D7 to 32 universes, D3-110 to 24, others to 16. Titan Network Processor (TNP) units are connected to the network using TitanNet to process more universes. For simple programming or rigs with lots of space in the patch you may be able to output more universes directly from the console but operating speed may be affected.
 
 Multiple consoles can be linked by Ethernet to provide a [multi-user](../titan-basics/multi-user-operation.md)
 system, or to provide automatic [backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup).
