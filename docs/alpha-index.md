@@ -543,7 +543,7 @@ import Video from '@site/src/components/video.tsx';
 [The Screen *(in "Titan Mobile")*](./about-the-consoles/titan-mobile.md#the-screen)<br/>
 [The Toolbar *(in "Other Parts of the Touch Screen")*](./titan-basics/other-parts-of-the-touch-screen.md#the-toolbar)<br/>
 [Tidying the console with the Move function *(in "Useful functions")*](./running-the-show.md#tidying-the-console-with-the-move-function)<br/>
-[Tiger Touch Wing *(in "Fader Wings")*](./about-the-consoles/fader-wings.md#tiger-touch-wing)<br/>
+[Tiger Touch Wing *(in "Fader Wings")*](./about-the-consoles/tiger-touch.md#tiger-touch-wing)<br/>
 [Time and Fade Options for Cue Lists *(in "Cue List Timing")*](./cue-lists/cue-list-timing.md#time-and-fade-options-for-cue-lists)<br/>
 [Time options *(in "Timeline Options")*](./timelines/timeline-options.md#time-options)<br/>
 [Timecode *(in "User Settings")*](./system-settings/user-settings.md#timecode)<br/>
@@ -565,7 +565,7 @@ import Video from '@site/src/components/video.tsx';
 [Titan Healthcheck *(in "Connecting up and Titan basics")*](./titan-basics.md#titan-healthcheck)<br/>
 [Titan Mobile *(in "Multi⁃User Operation")*](./titan-basics/multi-user-operation.md#titan-mobile)<br/>
 [Titan Mobile Connections panel *(in "Titan Mobile")*](./about-the-consoles/titan-mobile.md#titan-mobile-connections-panel)<br/>
-[Titan Mobile Wing *(in "Fader Wings")*](./about-the-consoles/fader-wings.md#titan-mobile-wing)<br/>
+[Titan Mobile Wing *(in "Fader Wings")*](./about-the-consoles/titan-mobile.md#titan-mobile-wing)<br/>
 [Titan Mobile, Titan Go or Titan Simulator Procedure *(in "Fixture Personalities")*](./fixture-personalities.md#titan-mobile,-titan-go-or-titan-simulator-procedure)<br/>
 [Titan outputting over Art-Net Fixtures (and DMX) *(in "A quick guide to IP addressing")*](./networking/a-quick-guide-to-ip-addressing.md#titan-outputting-over-art-net-fixtures-and-dmx)<br/>
 [Titan Telemetry *(in "The System Menu")*](./system-settings/the-system-menu.md#titan-telemetry)<br/>

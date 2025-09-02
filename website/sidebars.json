@@ -102,10 +102,6 @@
         {
           "type": "doc",
           "id": "about-the-consoles/pearl-expert-and-touch-wing"
-        },
-        {
-          "type": "doc",
-          "id": "about-the-consoles/fader-wings"
         }
       ]
     },
@@ -505,6 +501,10 @@
         {
           "type": "doc",
           "id": "remote-control/operating-the-remote"
+        },
+        {
+          "type": "doc",
+          "id": "remote-control/programming-touch-panels"
         }
       ]
     },

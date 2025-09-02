@@ -253,12 +253,4 @@ work).
 - You can set the brightness of the desk lamps on the wheels when in the **System** menu 
 	(press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>).
 
-## Connecting Console Wings
-
-"[Wings](./about-the-consoles/fader-wings.md)" are additional control surfaces which can be connected to the
-console to provide more faders and buttons. They connect to the console
-by USB.
-
-The Pearl Expert Touch Wing can only be used with the [Pearl Expert](about-the-consoles/pearl-expert-and-touch-wing.md)
-console and should be connected before the console is powered up.
 

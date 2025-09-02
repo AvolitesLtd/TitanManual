@@ -21,7 +21,7 @@ You can also run Titan Simulator with T1 connected, this will output all univers
 **T2** will output two universes of DMX using the Titan Go software, on its two 5-pin XLRs or over Ethernet from the host computer. It has a 3-pin XLR input to connect
 Audio for external triggering, or LTC timecode (this is a balanced input with a 600 ohm transformer across pins 2 and 3, pin 1 not connected). T2 also enables the use of a USB MIDI device plugged into the host computer for MIDI
 triggering of Titan, which for example would allow you to use a MIDI fader surface. You can also connect 
-the T3 fader wing or Titan Mobile fader wing to provide physical faders.
+the T3 fader wing or Titan Mobile fader wing to provide physical faders (double press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.SoftKey>Mobile Wing</Keys.SoftKey>).
 
 You can also run Titan Simulator with T2 connected, this will output all universes over Ethernet but every few minutes a random "spoiler" will disrupt the outputs. However this is still very useful for off-site programming.
 
@@ -33,11 +33,11 @@ You can also run Titan Simulator with T2 connected, this will output all univers
 
 The older Titan One dongle (now discontinued) also provided a single universe of DMX output on a 5-pin XLR or over Ethernet. USB-MIDI devices are not supported.
 
-![Titan One Dongle](/docs/images/titan-one-cabled.png)
-
 > This version of the Titan One dongle with the fixed USB cable does not include an 
   AvoKey; a separate AvoKey must be purchased and attached to another USB port on your
   computer to allow use of Titan v12 and later.
+
+![Titan One Dongle](/docs/images/titan-one-cabled.png)
 
 ## Installing the Titan software
 
