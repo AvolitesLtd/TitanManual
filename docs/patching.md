@@ -11,10 +11,7 @@ Patching is the process where you tell the console
 
 -   What type of lighting units you have connected to it
 -   What DMX addresses they are operating at
--   Which DMX line (universe) each unit is connected to (there are 64
-    lines, but the console itself can only output 16 lines; further
-    lines can be controlled using networked DMX processors over
-    TitanNet)
+-   Which DMX line / universe each unit is connected to 
 -   Which buttons on the console you want to use to access them (either
     physical buttons or touch buttons)
 -   Particular option settings for each fixture.

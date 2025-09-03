@@ -30,10 +30,10 @@ For Titan to list your Capture show files for import, you need to have them in e
 - Titan show file folder (normally `Documents\Titan\Shows`).
 - The root directory of a USB drive.
 
-> The internal Capture engine uses the Capture 2020 version *(in Titan v13 
-and v12, Capture 2018 was used; in Titan v11 and below, Capture Atlas was used)*. 
+> The internal Capture engine uses the Capture 2024 version *(in Titan v18-v14, Capture 2020 was used; v13 
+-v12, Capture 2018; v11 and below, Capture Atlas)*. 
 You will not be able to import files from newer versions of Capture - use the 
-**"Export for Capture 2020"** function in the File menu of the full version of 
+**"Export for Capture 2024"** function in the File menu of the full version of 
 Capture to save the file as a version which can then be imported.
 
 When importing shows from full Capture you need to ensure that 

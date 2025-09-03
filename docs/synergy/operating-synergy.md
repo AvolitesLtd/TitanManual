@@ -97,6 +97,8 @@ Format | Data Rate
 3840x2160p30 | 280Mbps
 3840x2160p60 | 480Mbps
 
+- NDI® is a registered trademark of Vizrt NDI AB. https://ndi.video/
+
 ## Attribute Editor for Controlling Synergy Layers
 
 Once you have selected one or more media layers to control from the [Synergy

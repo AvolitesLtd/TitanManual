@@ -14,5 +14,3 @@ how they differ between consoles, and the various connections available on the
 back panel.
 
 The [TNP network processing unit](about-the-consoles/tnp.md) is also described.
-
-In addition, the different console extension [fader wings](about-the-consoles/fader-wings.md) are covered.

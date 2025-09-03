@@ -81,7 +81,6 @@ import Video from '@site/src/components/video.tsx';
 [Configuring Tracks *(in "Set List Window")*](./running-the-show/set-list-window.md#configuring-tracks)<br/>
 [Connecting a Monitor *(in "Connecting up and Titan basics")*](./titan-basics.md#connecting-a-monitor)<br/>
 [Connecting a Playback for Control *(in "Chase Playback")*](./chases/chase-playback.md#connecting-a-playback-for-control)<br/>
-[Connecting Console Wings *(in "Connecting up and Titan basics")*](./titan-basics.md#connecting-console-wings)<br/>
 [Connecting DMX Lines *(in "Connecting up and Titan basics")*](./titan-basics.md#connecting-dmx-lines)<br/>
 [Connecting External Trigger Sources *(in "External triggering")*](./running-the-show/midi-dmx-or-audio-triggering.md#connecting-external-trigger-sources)<br/>
 [Connecting mains power *(in "Connecting up and Titan basics")*](./titan-basics.md#connecting-mains-power)<br/>

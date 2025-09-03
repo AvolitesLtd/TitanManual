@@ -11,8 +11,9 @@ You can save any number of different shows on a USB drive or the
 console's internal hard disk. The console will also autosave the show
 periodically.
 
-> Shows created on a Titan console can be loaded into any other model of Avolites Titan console, but not to older non-Titan consoles as the showfile format is different. <br/>
-Showfiles from newer versions of Titan may not load correctly (or at all) into consoles with older versions of Titan.
+> Shows created on a Titan console can be loaded into any other model of Avolites Titan console. <br/>
+You can load show files from an older version of Titan into a newer version (e.g. v16 show into v18 console). <br/>
+Loading show files into an older version console is not supported and will not work correctly.
 
 
 Although your show is safe on the hard disk, it's a good idea to also

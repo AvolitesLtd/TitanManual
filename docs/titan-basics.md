@@ -167,8 +167,8 @@ an hour to complete.
 Consoles have a number of DMX outputs on 5-pin XLR for direct connection to
 fixtures and dimmers, and can send Art-Net or sACN over Ethernet.
 
-When you patch a dimmer or fixture you tell Titan which of the 64 DMX
-lines it is on. Each line can be configured to come out of one
+When you patch a dimmer or fixture you tell Titan which DMX
+line / universe it is on. Each line can be configured to come out of one
 or more of the XLR outputs on the back of the console, and/or to Art-Net or sACN universes
 over Ethernet. Some hardware has limitations on the number of lines you can output - see the [DMX output section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
 
@@ -238,6 +238,9 @@ with T2 and T3 if you attach a USB-MIDI device.
 Some consoles provide a SMPTE input 
 to allow the console to be linked to a
 timecode source. 
+
+- See [External Triggering](../running-the-show.md/midi-dmx-or-audio-triggering) for details of
+how to connect and use external control information.
 
 You can connect the console to a LAN (local area network) using the EtherCON or RJ45
 network socket(s) on the rear. This allows you to operate many more

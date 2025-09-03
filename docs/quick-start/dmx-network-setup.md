@@ -12,7 +12,7 @@ one of 64 **DMX Lines** which may be routed to the XLR sockets on the console or
 over Ethernet (see [DMX Output Mapping](../system-settings/dmx-output-mapping.md) for details). The output
 universes/lines may have any universe number to match your rig but you can only have 64 universes in total.
 
-Some consoles/devices have limited outputs. All universes are still patchable and programmable but only the lowest numbered will be output:
+Some consoles/devices have limited outputs. All universes are still patchable and programmable but only the lowest numbered will be output. You cannot increase the number of universes by connecting multiple devices (e.g. 2x T1 will still output one universe).
 - T1: 1 universe
 - T2: 2 universes
 - T3: 16 universes (expandable by add on licence purchase)

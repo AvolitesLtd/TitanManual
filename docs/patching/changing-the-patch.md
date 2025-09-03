@@ -29,7 +29,8 @@ the view so it only shows one fixture type.
 **Line:** lists the available DMX output lines/universes. The blue
 bar graph in the button shows how much of the line is used by patched
 fixtures and how much is free. Click a button to show the details of
-that line in the right hand side of the window.
+that line in the right hand side of the window. (Only lines which are in
+use with patched fixtures are shown).
 
 The **coloured bar** at the top shows how fixtures are patched on the
 selected output line, using the unique colour code for each type of
@@ -125,7 +126,8 @@ output line number.
 -   You can "Park" the fixture using <Keys.SoftKey>Park</Keys.SoftKey>. This removes the fixture
     from the DMX output map, but all programming is retained. The
     original DMX line and address is remembered and you can restore it
-    using the <Keys.SoftKey>Unpark</Keys.SoftKey> option.
+    using the <Keys.SoftKey>Unpark</Keys.SoftKey> option. (To freeze the fixture/dimmer at a certain
+    output setting see [Freeze Attribute](fixture-personality-options.md?#freeze-fixtures-or-attributes)).
 
 -   If the new DMX address already has another fixture or dimmer patched
     on it, the console will warn you (unless this is disabled in
@@ -165,8 +167,8 @@ identify the fixture.
     selected fixtures will be given a number increasing by 1 for each
     fixture.
 
--   You can set a legend for the current page of fixtures using the
-    <Keys.SoftKey>Set Legend</Keys.SoftKey> function from the main Program menu, then <Keys.SoftKey>Page Legends</Keys.SoftKey>,
+-   You can set a legend for the current page of fixtures using the <Keys.SoftKey>Set Legend</Keys.SoftKey>
+     function from the main Program menu, then <Keys.SoftKey>Page Legends</Keys.SoftKey>,
     then the page tab which you like to change (if pages are not shown you
     can enable this in the context menu). The legend is
     shown on the touch button for the page.
