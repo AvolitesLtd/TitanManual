@@ -10,7 +10,8 @@ import Video from '@site/src/components/video.tsx';
 Control data from the console may be output from the XLR sockets on the console, and by Art-Net or sACN universes
 over Ethernet.
 
-The Titan system can control up to 64 lines/universes, but some consoles are limited to lower numbers of outputs.
+The Titan system can control up to 64 lines/universes, but some consoles are limited to lower numbers of output lines. The universes
+can be set to any universe number but there can't be more than 64 in total.
 
 Console | Number of lines
 --------|----------------
@@ -43,6 +44,12 @@ degraded depending on the complexity of the content and the number of fixtures p
 the TitanNet overview.
 
 If a show file is loaded into a console with a lower number of licenced outputs, the lowest-numbered lines will be output. All patch and programming information will be retained for other lines but no control data will be output.
+
+## Default output settings
+
+When you start a new show, 16 DMX lines are created. These are connected to the XLR outputs on the console (as many as exist), to Art-Net broadcast universes 1-16 and to sACN universes 1-16. Art-Net output is disabled by default.
+
+If you patch a fixture on a line above 16, Titan will automatically create the new line and allocate the correct sACN and Art-Net universes to it (you can disable this in the sACN or Art-Net node options).
 
 ## Configuring DMX Outputs
 
@@ -86,7 +93,11 @@ When patching Art-Net and sACN nodes you can patch a number of universes
 in one go: select the first node you want to assign (i.e. sACN: Universe 1) on the left 
 hand side enter values for <Keys.SoftKey>Universe</Keys.SoftKey> and <Keys.SoftKey>Quantity</Keys.SoftKey> with the softkeys, and then
 click on the line from which on you want to assign this. Titan will then patch 
-the number of universes on consecutive lines.
+the number of universes on consecutive lines. 
+
+You can automatically assign Art-Net and sACN universes to the output lines by selecting 
+an Art-Net or sACN node on the left, then click <Keys.SoftKey>Assign All By Line Number</Keys.SoftKey>.
+This will assign an Art-Net or sACN universe output with a matching universe number to every vacant line.
 
 You can show information about the DMX nodes once they are assigned, or the DMX output
 modules, by clicking the <Keys.ContextKey>Cog</Keys.ContextKey> button. For Ethernet/network type nodes, this allows you
@@ -115,11 +126,15 @@ has one, and on Titan PC Suite (Titan Go / Simulator) this depends on your compu
 many laptops will have a wired network adapter and also a WiFi (wireless) 
 adapter, both of which will be shown.
 
-### DMX Output Properties
+### Physical DMX Output Properties
 
-![DMX512 Module Properties](/docs/images/Dmx-Module-Properties.png)
+This changes settings for all the physical 5-pin XLR outputs on the console.
 
-**DMX output:** Allows you to temporarily disable the output
+![DMX512 Module Properties](/docs/images/Dmx-Module-Properties-v19.png)
+
+**DMX output:** Allows you to disable all the physical outputs (this is the same as the on/off button in the main Physical DMX Output bar. When outputs are disabled, they are greyed out in the line assignments).
+
+**Auto Assign:** Sets whether Titan will automatically assign a physical DMX output on a new output line if you patch to a line that doesn't already exist.
 
 **Merge Priority:** A value between 0 and 200 where higher numbers have 
 priority, 100 is default. For this DMX output, sets the priority of the DMX from this 
@@ -141,9 +156,13 @@ This option can sometimes solve issues where fixtures can be seen regularly glit
 
 ### sACN Properties
 
-![sACN DMX Module Properties](/docs/images/sACN-DMX-Module-Properties.png)
+This changes settings for all the sACN output from the console.
 
-**DMX output:** Allows you to temporarily disable the output
+![sACN DMX Module Properties](/docs/images/sACN-module-properties-v19.png)
+
+**DMX output:** Allows you to disable all sACN output (this is the same as the on/off button in the main Streaming ACN bar. When outputs are disabled, they are greyed out in the line assignments).
+
+**Auto Assign:** Sets whether Titan will automatically assign sACN output on a new output line if you patch to a line that doesn't already exist.
 
 **Merge Priority:** A value between 0 and 200 where higher numbers have 
 priority, 100 is default. Sets the sACN priority parameter of this sACN universe being 
@@ -162,26 +181,31 @@ universe before using or retransmitting the DMX frames. Synchronous sACN
 reduces tearing effects which can result from non-synchronised
 universes. If set to zero, synchronisation is disabled.
 
-**Ethernet xxx:** Selects whether you want this protocol outputting on
-this Ethernet adapter. If there are multiple adaptors in the system you
+**Ethernet xxx:** Selects which network adapter(s) you want sACN protocol outputting on
+(multiple adapters may be listed here depending
+on the setup of your system). If there are multiple adapters in the system you
 can select more than one, and identical information will be sent out on
 each one.
 
 ### Art-Net Properties
 
-![Art-Net DMX Module Properties](/docs/images/ArtNet-DMX-Module-Properties.png)
+This changes settings for all the Art-Net output from the console.
 
-**DMX output:** Allows you to temporarily disable the output
+![Art-Net DMX Module Properties](/docs/images/ArtNet-module-properties-v19.png)
+
+**DMX output:** Allows you to disable all Art-Net output (this is the same as the on/off button in the main Art-Net bar. When outputs are disabled, they are greyed out in the line assignments).
+
+**Auto Assign:** Sets whether Titan will automatically assign Art-Net output on a new output line if you patch to a line that doesn't already exist.
 
 **Continuous Art-Net DMX:** The Art-Net specification allows the console
 to only send out changes in the DMX. This setting makes the console send
 the Art-Net packets continuously even if there is no change.
 
-**Always Broadcast Art-Net DMX:** Sets all Art-Net packets to Broadcast
-mode, meaning they are sent to all nodes. Otherwise the packets are
+**Always Broadcast Art-Net DMX:** Changes unicast Art-Net packets to Broadcast
+mode, meaning they are sent to all nodes. Unicast packets are
 addressed to the specific node they are intended for, which reduces
 network traffic but requires more careful setting up of network
-addresses.
+addresses (you can still assign Broadcast universes which are sent as Broadcast regardless of this setting).
 
 **Block RDM:** If enabled, RDM traffic is blocked on this module.
 
@@ -192,12 +216,23 @@ sent for every change
 **Legacy Mode:** If enabled, Art-Net is broadcast continuously from the
 console at a high rate. May affect console performance.
 
-**Ethernet xxx:** Selects whether you want this protocol outputting on
-this Ethernet adapter. If there are multiple adaptors in the system you
+**Ethernet xxx:** Selects which network adapter(s) you want Art-Net protocol outputting on
+(multiple adapters may be listed here depending
+on the setup of your system). If there are multiple adapters in the system you
 can select more than one, and identical information will be sent out on
 each one.
 
 > ArtPoll messages can be disabled via a registry setting. This is occasionally needed for Art-Net fixtures which don't support ArtPoll. If you need to do this or if ArtPoll messages aren't being sent when they should be, contact Avolites Support for instructions on how to change this.
+
+### Visualiser DMX
+
+This changes settings for output to the onboard visualiser.
+
+![Visualiser DMX Module Properties](/docs/images/Visualiser-module-properties-v19.png)
+
+**DMX output:** Allows you to disable all output to the onboard Visualiser (this is the same as the on/off button in the main Visualiser bar).
+
+**Auto Assign:** Sets whether Titan will automatically assign Visualiser output on a new output line if you patch to a line that doesn't already exist.
 
 ## DMX Overview
 
