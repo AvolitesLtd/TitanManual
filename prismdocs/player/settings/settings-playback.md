@@ -28,9 +28,9 @@ There are three sections:
 | **Hardware Accelerated Decoding** | Enable hardware accelerated decoding for media using H.264 and H/265 codecs. When value is changed, media needs to be re-loaded in order for the update to take place. |
 | **Hardware Adapter** | List of available GPUs on the system. GPUs which are not supporting H.264/H.265 hardware accelerated decoding are greyed-out. |
 
-### Renderer
+### Renderer (Prism Only)
 |  Item  |  Description  |
 |---------|-------------|
 | **Use VSync** | Enable VSync. When enabled the renderer frame rate will be synced to the screen frame rate. |
-| **Render Layers Bottom to Top** (Prism Only) | Set the order of layers rendering inside a surface. When enabled the rendering will start from the bottom layer, when disabled it will start from the top layer. |
-| **Use Pre Adjustments Previews** | Set if layer adjustments are used on Layer Previews. When enabled layer adjustment will not be applied on Layer Previews, when disabled layer adjusments will be applied on Layer Previews. This setting will be applied on the NDI previews on **Synergy** too.|
+| **Render Layers Bottom to Top** | Set the order of layers rendering inside a surface. When enabled the rendering will start from the bottom layer, when disabled it will start from the top layer. |
+| **Use Pre Adjustments Previews** | Set if layer adjustments are used on Layer Previews. When enabled layer adjustment will not be applied on Layer Previews, when disabled layer adjusments will be applied on Layer Previews. This setting will be applied on the NDI® previews on **Synergy** too.|

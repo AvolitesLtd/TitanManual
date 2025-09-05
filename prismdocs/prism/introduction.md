@@ -5,9 +5,9 @@ sidebar_label: Introduction
 ---
 **Prism** is specialized software developed by **Avolites**, tailored for media playback and designed specifically for the live events and entertainment industry. 
 
-**Prism** can playback and control video files, virtual returns and live inputs, such as USB capture devices, webcams or NDI feeds. These media types can be stored across multiple banks and can be viewed in the [Preview](./quick-start/preview.md) window or applied to any of the layers within a [Surface](./stage/surfaces.md) to create a mix.
+**Prism** can playback and control video files, virtual returns and live inputs, such as USB capture devices, webcams or NDI® feeds. These media types can be stored across multiple banks and can be viewed in the [Preview](./quick-start/preview.md) window or applied to any of the layers within a [Surface](./stage/surfaces.md) to create a mix.
 
-Individual layers or the full mix can then be sent to a video or NDI output and by using regions, complex mappings can be made. Alternatively, this mix can be sent directly into Titan’s Pixel Mapper using [Synergy](/docs/synergy) to allow tight integration between video and lighting.
+Individual layers or the full mix can then be sent to a video or NDI® output and by using regions, complex mappings can be made. Alternatively, this mix can be sent directly into Titan’s Pixel Mapper using [Synergy](/docs/synergy) to allow tight integration between video and lighting.
 
 The software can be controlled in realtime via **Prism's** dedicated UI or through Titan's layer control as part of the **Synergy** toolset, which includes project setup, media transfer and video previewing directly within [Titan](/docs).
 
@@ -35,3 +35,5 @@ The **Server** and the **UI** communicate using **port 9030**, no other applicat
 When starting **Prism** you may be prompted to add a firewall exception. If you have this experience please add this port to your firewall / anti-virus lists.
 
 Please contact <a href="mailto:support@avolites.com?subject=Prism:">support@avolites.com</a> if you require any support.
+
+[NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.

@@ -32,7 +32,7 @@ All **Prism** licenses include:
 | **Outputs (Physical/Virtual)**       | 0   | 1 |
 | **Outputs Max Resolution (px)** | 3840 x 3840 | 3840 x 3840 |
 | **Live Inputs**            | 0   | Up to 4 |
-| **NDI Inputs**             | 0   | Up to 4 |
+| **NDI® Inputs (*)**             | 0   | Up to 4 |
 | **Inputs Max Resolution (px)**  | 3840 x 3840 | 3840 x 3840 |
 | **Surfaces**                | Up to 16 | Up to 16 |
 | **Surface Max Resolution (px)** | 7680 x 7680 | 7680 x 7680 |
@@ -40,6 +40,8 @@ All **Prism** licenses include:
 | **Banks**                  | Up to 256 | Up to 256 |
 | **Bank Elements**          | Up to 256 per **Bank** | Up to 256 per **Bank** |
 | **Synergy Support** |x| x|
+
+**(*)** [NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.
 
 ### License Unlock Table
 

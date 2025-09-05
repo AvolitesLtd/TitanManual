@@ -13,4 +13,4 @@ Everything else will be copied over and replaced.
 To run the scripts:
 - open terminal and move to "TitanManual\prismdocs"
 - run 'node clearContent.js'
-- run 'node copyAndReplaceSharedContent.js'cd
+- run 'node copyAndReplaceSharedContent.js'

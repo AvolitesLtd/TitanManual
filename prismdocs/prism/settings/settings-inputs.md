@@ -9,7 +9,7 @@ This page shows the list of physical inputs and virtual inputs available on the 
 
 ![Settings Inputs](/prism-images/settings/settings-inputs.png)
 
-Physical and virtual inputs list and their settings are shown on two separate sections respectively called **Live Inputs** and **NDI Inputs**.
+Physical and virtual inputs list and their settings are shown on two separate sections respectively called **Live Inputs** and **NDI® Inputs**.
 
 ## Source Selection
 In order to change settings for a given input, first select an input from the dropdown on the left side.
@@ -18,9 +18,11 @@ The **Live Inputs** list will automatically update when plugging/unplugging a ph
 
 ![Source Selection](/prism-images/settings/source-selection-live.png)
 
-If a new NDI source is added or removed in the local network the **NDI Inputs** list is updated.
+If a new NDI® source is added or removed in the local network the **NDI® Inputs** list is updated.
 
-![Source Selection](/prism-images/settings/source-selection-ndi.png)
+![Source Selection](/prism-images/settings/source-selection-NDI.png)
+
+[NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.
 
 ## Source Settings
 On the right side it is then possible to change the following settings:

@@ -63,10 +63,12 @@ Additionally, other standard video codecs such as **H264**, **H265**, **ProRes**
 To enhance playback performance, consider transcoding media into **Avolites AiM** codec. Media can be added to the [encoder](../encoder/encoder.md) list by the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button. 
 
 {{PRISM-START-COMMENT}}
-#### NDI Input
-A list of active NDI sources on the network. Please see both [Settings](../settings/settings-inputs.md) and [Preview](../quick-start/preview.md) pages in order to setup and select NDI Sources.
+#### NDI® Input
+A list of active NDI® sources on the network. Please see both [Settings](../settings/settings-inputs.md) and [Preview](../quick-start/preview.md) pages in order to setup and select NDI® Sources.
 
-Prism NDI sources use the **NDI SDK**, a list of all features can be found [here](https://ndi.video/for-developers/#sdk-comparison).
+Prism NDI® sources use the **NDI® SDK**, a list of all features can be found [here](https://NDI.video/for-developers/#sdk-comparison).
+
+[NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.
 
 #### Live Input
 Any connected capture devices on the system.
