@@ -27,6 +27,17 @@ var template = [{
   ]}
 ];
 
+const focusWindow = () => { 
+  // Nudge Z-order on Windows: briefly set always-on-top, then revert
+  win.setAlwaysOnTop(true)
+  
+  win.focus()
+
+  setTimeout(() => {
+    if (win && !win.isDestroyed()) win.setAlwaysOnTop(false)
+  }, 300)
+}
+
 Menu.setApplicationMenu(Menu.buildFromTemplate(template));
 
 const checkSingleInstance = (fullAppName) => {
@@ -43,8 +54,8 @@ const checkSingleInstance = (fullAppName) => {
     // Someone tried to run a second instance, we should focus our window.
     if (win) {
       if (win.isMinimized()) win.restore()
-        win.focus();
-        win.moveTop();
+      if (!win.isVisible()) win.show()
+      focusWindow();
     }
   });
 
@@ -117,7 +128,7 @@ const createWindow = () => {
 
   browserViewContent.webContents.on('dom-ready', () => {
     win.show()
-    win.moveTop();
+    focusWindow()
     canNavigate()
   });
 
