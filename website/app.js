@@ -116,6 +116,7 @@ const createWindow = () => {
 
   browserViewContent.webContents.on('dom-ready', () => {
     win.show()
+    win.moveTop();
     canNavigate()
   });
 
