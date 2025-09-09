@@ -56,12 +56,25 @@ const checkSingleInstance = (fullAppName) => {
       if (win.isMinimized()) win.restore()
       if (!win.isVisible()) win.show()
       focusWindow();
+      navigateToProcessURL();
     }
   });
 
   return true;
 }
 
+const navigateToProcessURL = () => {
+  let url = "/docs";
+  const args = require('minimist')(process.argv.slice(1))
+  if (args['startUrl']) {
+    url = args['startUrl'];
+  }
+  
+  if (appServer.url && browserViewContent) {
+    console.info(`${appServer.url}${url}`)
+    browserViewContent.webContents.loadURL(`${appServer.url}${url}`)
+  }
+}
 const createWindow = () => {
 
   // Activating the window of primary instance when a second instance starts
@@ -114,13 +127,7 @@ const createWindow = () => {
 
   // and load the homepage of the app.
   appServer.ready().then(() => {
-    let url = "/docs";
-    const args = require('minimist')(process.argv.slice(1))
-    if (args['startUrl']) {
-      url = args['startUrl'];
-    }
-    console.info(`${appServer.url}${url}`)
-    browserViewContent.webContents.loadURL(`${appServer.url}${url}`)
+    navigateToProcessURL()
     win.loadURL(`${appServer.url}/nav.html`)
   })
 
