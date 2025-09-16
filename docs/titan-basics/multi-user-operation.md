@@ -9,7 +9,8 @@ import Video from '@site/src/components/video.tsx';
 
 You can connect multiple consoles together to work together on a show.
 You can also have multiple user setups on a show on a single console to
-allow different layouts, for example for a support band LD.
+allow different layouts, for example for a support band LD. A second console can
+act as a running backup to allow seamless switchover of control during a show (see [Backup](../running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup)).
 
 ## Users
 
@@ -84,7 +85,7 @@ choose to connect them as multi-user,
 or both. 
 
 > All consoles to be linked must be running the same version of Titan
-for networking to work correctly.
+for networking to work correctly. Consoles used for Backup cannot have fewer licensed lines than the main console.
 
 For details of how to connect Titan consoles together on a network, see
 [Networking the Console](../networking.md).
@@ -147,7 +148,7 @@ with the chosen user and handle worlds selected. The console which
 was master will go into a dormant state with DMX disabled.
 
 > Consoles must be running the same version of Titan to join a multi-user or
-backup session.
+backup session. Consoles used for backup cannot have fewer licensed lines than the main console.
 
 ### Titan PC Suite (Titan Go / Titan Simulator)
 
