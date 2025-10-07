@@ -64,6 +64,13 @@ function replaceComments(content, page) {
     player: { start: 'PLAYER-START-COMMENT', end: 'PLAYER-END-COMMENT' },
   };
 
+  // ENABLE NDI code
+  // result = result
+  //   .replace(new RegExp(`{{NDI-START-COMMENT}}`, 'g'), '')
+  //   .replace(new RegExp(`{{NDI-END-COMMENT}}`, 'g'), '');
+  // remove all the NDI code
+  result = result.replace(/{{NDI-START-COMMENT}}[\s\S]*?{{NDI-END-COMMENT}}/g, '');
+
   // Iterate over the mappings and apply the transformations
   for (const key in commentMappings) {
     if (commentMappings.hasOwnProperty(key)) {

@@ -39,4 +39,4 @@ There are four sections:
 
 |  Item  |  Description  |
 |----------------------|------------|
-| **Clear Cache** |  Clears bank elements informations and thumbnails, resets NDI® and Live Inputs settings and clears Undo/Redo history. |
+| **Clear Cache** |  Clears bank elements informations and thumbnails, resets Inputs settings and clears Undo/Redo history. |

@@ -78,6 +78,7 @@ This area controls the **Crop** of the Bank Element.
 | **Top (%)**    | Crop on the top side of the Bank Element.  |
 | **Bottom (%)** | Crop on the bottom side of the Bank Element. |
 
+{{NDI-START-COMMENT}}
 ## NDI® Input
 
 ![Preview NDI® Input](/prism-images/preview/preview-NDI-settings.png)
@@ -89,6 +90,7 @@ This area controls the **Crop** of the Bank Element.
 | **Enable Audio** | Shows if an audio source is also playing from the stream, controllable via the [Settings](../settings/settings-inputs.md) page. |
 
 **(*)** [NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.
+{{NDI-END-COMMENT}}
 
 ## Live Input
 

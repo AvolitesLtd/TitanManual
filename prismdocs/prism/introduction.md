@@ -36,4 +36,4 @@ When starting **Prism** you may be prompted to add a firewall exception. If you 
 
 Please contact <a href="mailto:support@avolites.com?subject=Prism:">support@avolites.com</a> if you require any support.
 
-[NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.
+<!-- [NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB. -->
