@@ -4,7 +4,7 @@ title: General Settings
 sidebar_label: General
 ---
 
-This page displays the general settings for **{{PRISM-APP}}**.
+The **General Settings** page provides global configuration options for **{{PRISM-APP}}**,
 
 ![Settings General](/prism-images/settings/{{PRISM-APP-LOWER}}-settings-general.png)
 
