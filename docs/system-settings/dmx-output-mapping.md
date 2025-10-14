@@ -199,7 +199,7 @@ each one.
 
 This changes settings for all the Art-Net output from the console.
 
-![Art-Net DMX Module Properties](/docs/images/ArtNet-module-properties-v19.png)
+![Art-Net DMX Module Properties](/docs/images/ArtNet-Module-Properties-v19.png)
 
 **DMX output:** Allows you to disable all Art-Net output (this is the same as the on/off button in the main Art-Net bar. When outputs are disabled, they are greyed out in the line assignments).
 
