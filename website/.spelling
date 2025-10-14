@@ -35,8 +35,10 @@ strobing
 st
 softkey
 softkeys
+standalone
 starcloths
 subfixtures
+switchover
 swop
 th
 thru
@@ -102,10 +104,14 @@ D9-330
 D9-215
 D7-330
 D7-215
+D3-010
+D3-110
+D3-Core
 DisplayPort
 DMX-in
 Esc
 Ethernet
+ethernet
 etherCON
 EtherCON
 ExpertDMX
@@ -132,6 +138,7 @@ Neutrik
 Ok
 opticalCON
 PioneerDJ
+PoE
 PowerCON
 Prev
 ProDJ
@@ -223,6 +230,7 @@ alcohol
 15-pin
 2-digit
 2-step
+64-line
 
 
 4xRGB
@@ -230,6 +238,7 @@ alcohol
 2.5mm
 5.5mm
 6mm
+6.35mm
 9.5mm
 
 t1
@@ -254,7 +263,10 @@ v15.1
 v16
 v17
 v17.1
+v18
+v19
 
+2x
 2-press
 3-axis
 800mA

@@ -45,7 +45,7 @@ of universes by connecting multiple devices).
 degraded depending on the complexity of the content and the number of fixtures patched. A warning will be shown in the processing load section of
 the TitanNet overview.
 
-If a show file is loaded into a console with a lower number of licenced outputs, the lowest-numbered lines will be output. All patch and programming information will be retained for other lines but no control data will be output.
+If a show file is loaded into a console with a lower number of licensed outputs, the lowest-numbered lines will be output. All patch and programming information will be retained for other lines but no control data will be output.
 
 ## Default output settings
 
