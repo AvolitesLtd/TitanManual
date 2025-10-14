@@ -212,6 +212,8 @@ The buttons on the left let you filter by attribute and by fixture type
 and select the different output lines from the console. Scrolling the window 
 to the right shows more information about each DMX channel.
 
+The **Input** column shows values coming in from a DMX Input source (see [Using DMX/sACN Input](/controlling-fixtures/changing-fixture-attributes.md#using-dmxsacn-input)). This column can be hidden using the <Keys.ContextKey>Input Data</Keys.ContextKey> context button.
+
 ## Fixture Exchange
 
 <Video videoId="a_ES6UYQRJ4" title="Advanced Patching" />

@@ -136,6 +136,7 @@ Number Style   | Sets how channel values are displayed in Cue View and Palette V
  Option             | Action  
 ---|------
 Release To Home     | ***On:*** when the last active playback is released fixtures will return to home values.<br/>*Off:* LTP channels will remain set.
+Release To Quick Palette    | ***On:*** release will return to Quick Palette values if there are any.<br/>*Off:* LTP channels will remain set.
 Master Release Time | Sets the default release time.
 Release Priority    | The playback priority used with the Release menu or when running Release macros - *Low*, *Normal*, *High*, ***Programmer***, *Very High*. Playbacks with priority below this level will be released by the *Release All* function (double press <Keys.HardKey>Release</Keys.HardKey>).
 

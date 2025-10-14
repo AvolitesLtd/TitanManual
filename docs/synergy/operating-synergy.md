@@ -59,45 +59,6 @@ are uploaded, any requiring transcoding are added to a queue in Ai or Prism Zero
 can see the progress of the transcoding by viewing the clips in the
 [Attribute Editor](#attribute-editor-for-controlling-ai-layers), see below.
 
-## Media Viewer
-
-The Video Multi View window allows you to view any of the layers being
-produced by the Synergy layers, or any of the combined surface outputs on an Ai server. In
-addition you can view any other NDI streams available on the network, so
-for example at a broadcast event the broadcaster could feed you the
-program output or individual cameras to check lighting levels.
-
-![Video Multi View Window](/docs/images/Video-Multi-View-Window.png)
-
-To add a stream, click on a view in the window (blank views show a plus
-symbol). A dialog will pop up showing you all available streams on the
-network - either direct views of the layers, or a view of the output
-screen with the layers combined.
-
-![Video Multi View Window adding a stream](/docs/images/Video-Multi-View-Window-adding-a-stream.png)
-
-The context button <Keys.SoftKey>Change Layout</Keys.SoftKey> gives you various possible layouts
-of multiple screens. The <Keys.SoftKey>Titles Shown</Keys.SoftKey> button toggles to show or hide
-the stream titles at the bottom of the views.
-
-![Video Multi View Window laout options](/docs/images/Video-Multi-View-Window-laout-options.png)
-
-You must have the **"Automatic NDI preview"** option enabled for the Ai
-server in the [Synergy Settings](setting-up.md#synergy-setup) window for this to work.
-
-The NDI streams used for video preview can use a lot of network
-bandwidth which limits how many streams you can receive at one time. The
-data rate varies depending on the detail/movement in the video but a
-rough guide is:
-
-Format | Data Rate
----|---
-1920x1080p30 | 120Mbps
-1920x1080p60 | 200Mbps
-3840x2160p30 | 280Mbps
-3840x2160p60 | 480Mbps
-
-- NDI® is a registered trademark of Vizrt NDI AB. https://ndi.video/
 
 ## Attribute Editor for Controlling Synergy Layers
 

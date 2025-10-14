@@ -10,7 +10,9 @@ import Video from '@site/src/components/video.tsx';
 Control data from the console may be output from the XLR sockets on the console, and by Art-Net or sACN universes
 over Ethernet.
 
-The Titan system can control up to 64 lines/universes, but some consoles are limited to lower numbers of output lines. The universes
+You can also assign sACN inputs to lines which can be used to record cues and palettes from other consoles. Input lines are shown in purple.
+
+The Titan system can control up to 64 lines/universes, but some consoles are limited by licence to lower numbers of output lines. The universes
 can be set to any universe number but there can't be more than 64 in total.
 
 Console | Number of lines
@@ -47,9 +49,15 @@ If a show file is loaded into a console with a lower number of licenced outputs,
 
 ## Default output settings
 
-When you start a new show, 16 DMX lines are created. These are connected to the XLR outputs on the console (as many as exist), to Art-Net broadcast universes 1-16 and to sACN universes 1-16. Art-Net output is disabled by default.
+When you start a new show, 16 DMX lines are created. These are connected to the XLR outputs on the console (as many as exist), to Art-Net broadcast universes 1-16 and to sACN universes 1-16. 
+
+- Art-Net output is disabled by default on a new show. To enable
+Art-Net output, toggle the "power" switch on the Art-Net node in
+the left window.
 
 If you patch a fixture on a line above 16, Titan will automatically create the new line and allocate the correct sACN and Art-Net universes to it (you can disable this in the sACN or Art-Net node options).
+
+
 
 ## Configuring DMX Outputs
 
@@ -233,6 +241,14 @@ This changes settings for output to the onboard visualiser.
 **DMX output:** Allows you to disable all output to the onboard Visualiser (this is the same as the on/off button in the main Visualiser bar).
 
 **Auto Assign:** Sets whether Titan will automatically assign Visualiser output on a new output line if you patch to a line that doesn't already exist.
+
+### DMX /sACN Input
+
+An sACN Input Universe can be assigned to a DMX line to read values from another console for programming. Inputs are shown in purple.
+
+When an input has been assigned to a line, the line header shows details of the input including universe number and a status indicator (green=receiving data, amber=holding data, grey=no data). Held data can be cleared using the   <Keys.ContextKey>Clear DMX Input Cache</Keys.ContextKey> context menu option.
+
+Details of how to use the sACN input for programming are given in the [Using DMX/sACN Input](/controlling-fixtures/changing-fixture-attributes.md#using-dmxsacn-input) section.
 
 ## DMX Overview
 

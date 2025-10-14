@@ -20,5 +20,3 @@ RDMNet		|UDP 5569	|								| |
 ProDJ Tap   |UDP 60000-60002, 65023-65535				| | Protocol for getting data from Pioneer DJ equipment by software now known as TC-Supply
 LiveDMX		|UDP 5584	| Multicast 239.184.0.0-239.184.249.255 | Used for internal Visualiser DMX data	
 NTP			|UDP 1234	| Between TitanNet hosts		| Non-standard NTP port
-NDI			|UDP 5353	| Multicast between NDI sources and Panel	| mDNS for NDI source discovery
-NDI			|UDP 49152-65535	| Between NDI sources and the Panel | NDI video streams

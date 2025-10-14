@@ -10,7 +10,7 @@ import Video from '@site/src/components/video.tsx';
 ## Connecting up an Ai server
 
 The Ai server(s) need to be connected by Ethernet to the Titan console.
-[Media previews](operating-synergy.md#media-viewer) use NDI streams which along with copying of large media
+Large media
 files can place a heavy demand on the network, so you should follow
 these tips for setting up a suitable network:
 
@@ -92,10 +92,7 @@ This allows you to allocate a Rate or BPM master to the layer for speed
 control.
 
 When no Surfaces or Layers are selected, the right side of the window
-shows general information about the system. There is a switchable option
-"Automatic NDI Previews" to enable or disable NDI streams - if you are
-using the media preview window, you will need to turn this on. If not
-leave it turned off, as it causes a lot of network traffic.
+shows general information about the system. 
 
 Once you have created a surface in Titan, you need to match it to the desired Ai
 surface or Prism Zero. Click on the <Keys.ContextKey>Link</Keys.ContextKey> button on the unmatched surface at the

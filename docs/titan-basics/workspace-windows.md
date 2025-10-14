@@ -316,19 +316,12 @@ fixtures - see [Trackball control](../controlling-fixtures/changing-fixture-attr
 
 ## Video preview screens (Diamond 9 only)
 
-The three preview screens on the top right of the console can be configured to show 
-NDI video streams, or can also be used as extra workspace windows.
+The three preview screens on the top right of the console can be used as extra workspace windows.
 
 ![Diamond Media Preview](/docs/images/Diamond-Media-Preview.png)
 
 To configure a screen, double press <Keys.HardKey>Open/View</Keys.HardKey> and window selection buttons will pop up
-on each screen, touch the type of window you want to configure the view. For NDI Preview select
-**Video Preview** (1 2 or 3 depending which screen you are setting). To select an NDI stream,
-tap on the screen and you will then see
-thumbnails of the available NDI streams to select. See [Media Viewer](../synergy/operating-synergy.md#media-viewer)
-in the Ai section for more details.
-
-- NDI® is a registered trademark of Vizrt NDI AB. https://ndi.video/
+on each screen, touch the type of window you want to configure the view. 
 
 ## Mini Screen (Arena only)
 
