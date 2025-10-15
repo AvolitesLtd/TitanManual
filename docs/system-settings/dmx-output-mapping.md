@@ -77,24 +77,21 @@ nodes are linked to that line. The default setting on a new show is for
 the physical DMX outputs on the console to be linked to the first DMX
 lines.
 
-![DMX Settings Window](/docs/images/DMX-Settings-Window.png)
+![DMX Settings Window](/docs/images/DMX-Settings-Window-v19.png)
 
 To assign a node to a line, click on the node on the left hand side (e.g.
-on **Expert DMX A**) and then on the line (right hand side) you want this 
-node to be assigned to. The node will be removed from the pane on the left hand side as it is 
-not unassigned any more, and will appear on the right hand side under 
+on **New Multicast Universe** under Streaming ACN) and then on the line (right hand side) you want this 
+node to be assigned to. The node will appear on the right hand side under 
 the line it is assigned to.
 
-![Node in DMX Settings Window](/docs/images/Node-in-DMX-Settings-Window.png)
-
-To delete a node from the DMX lines, click on the <Keys.ContextKey>X</Keys.ContextKey> button. To delete
+To unassign a node from a DMX line, click on the <Keys.ContextKey>X</Keys.ContextKey> button at the right hand side of the node. To delete
 all nodes from a line, click on the **Group delete button** (the <Keys.ContextKey>X</Keys.ContextKey> button 
-on the DMX line). To delete all nodes from all lines, click on the <Keys.ContextKey>X</Keys.ContextKey> 
-button close to the header DMX lines.
+on the DMX line header). To delete all nodes from all lines, click on the <Keys.ContextKey>X</Keys.ContextKey> 
+button to the right of the "DMX Assignments" text.
 
 In order to change the assignment, i.e. to assign a node to a different line,
 you need to delete it from the line it is assigned to (by clicking on the <Keys.ContextKey>X</Keys.ContextKey>)
-first - the node now appears as unassigned on the left hand side - and can now
+first - the node now appears as unassigned on the left hand side - and you can now
 assign it to a different line.
 
 When patching Art-Net and sACN nodes you can patch a number of universes
@@ -107,16 +104,13 @@ You can automatically assign Art-Net and sACN universes to the output lines by s
 an Art-Net or sACN node on the left, then click <Keys.SoftKey>Assign All By Line Number</Keys.SoftKey>.
 This will assign an Art-Net or sACN universe output with a matching universe number to every vacant line.
 
-You can show information about the DMX nodes once they are assigned, or the DMX output
-modules, by clicking the <Keys.ContextKey>Cog</Keys.ContextKey> button. For Ethernet/network type nodes, this allows you
-to set detailed properties such as IP address ranges and net masks.
-
-![DMX Output in DMX Settings Window](/docs/images/DMX-Output-in-DMX-Settings-Window.png)
+You can show information about the DMX nodes once they are assigned by clicking the <Keys.ContextKey>Cog</Keys.ContextKey> button. For Ethernet/network type nodes, this allows you
+to set detailed properties such as IP address ranges and net masks. The <Keys.ContextKey>Cog</Keys.ContextKey> button on the module in the left side pane sets the properties for all outputs of that type (see next section).
 
 If you have [TNPs](../titan-net.md) connected, these can be individually configured using
 the tabs across the top of the screen.
 
- > When transferring shows between different console types, and especially when you have used the simulator, it's a good idea to check the DMX output settings to make sure the settings are what you expected. If you created a new show on the simulator, no outputs will be connected.
+ > When transferring shows between different console types, and especially when you have used the simulator, it's a good idea to check the DMX output settings to make sure the settings are what you expected. If you created a new show on the simulator, no physical outputs will be connected.
 
 
 ## Module Properties
@@ -245,6 +239,8 @@ This changes settings for output to the onboard visualiser.
 ### DMX /sACN Input
 
 An sACN Input Universe can be assigned to a DMX line to read values from another console for programming. Inputs are shown in purple.
+
+![sACN input](/docs/images/DMX-Settings-sACN-in.png)
 
 When an input has been assigned to a line, the line header shows details of the input including universe number and a status indicator (green=receiving data, amber=holding data, grey=no data). Held data can be cleared using the   <Keys.ContextKey>Clear DMX Input Cache</Keys.ContextKey> context menu option.
 
