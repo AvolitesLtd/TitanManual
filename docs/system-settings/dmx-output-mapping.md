@@ -1,7 +1,7 @@
 ---
 id: dmx-output-mapping
-title: DMX Output Mapping
-sidebar_label: DMX Output Mapping
+title: DMX Settings
+sidebar_label: DMX Settings
 ---
 
 import Keys from '@site/src/components/key.ts';
