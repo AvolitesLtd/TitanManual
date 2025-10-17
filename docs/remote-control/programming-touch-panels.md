@@ -7,7 +7,7 @@ sidebar_label: Using Touch Panels
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Multiple D3-Touch control panels can be connected to a Titan control system by ethernet. The touch panels provide
+Multiple D3-Touch control panels can be connected to a Titan control system by Ethernet. The touch panels provide
 simple control of 8 playbacks in 4 playback groups. This is useful for venue staff to control working lights, house lights or simple show states.
 
 Users can also trigger up to 8 macros and lock/unlock the panel.
@@ -18,7 +18,7 @@ Users can also trigger up to 8 macros and lock/unlock the panel.
 
 ## Connecting the touch panel
 
-Touch panels are connected into the Titan system by wired ethernet. You will need a PoE-equipped network switch
+Touch panels are connected into the Titan system by wired Ethernet. You will need a PoE-equipped network switch
 to power the panel.
 
 You will need to set suitable IP addresses on the console and on the touch panel or configure DHCP on your network to automatically provide suitable addresses -

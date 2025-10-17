@@ -228,13 +228,13 @@ each one.
 
 ### Visualiser DMX
 
-This changes settings for output to the onboard visualiser.
+This changes settings for the onboard Capture visualiser window and doesn't affect output to an external Visualiser.
 
 ![Visualiser DMX Module Properties](/docs/images/Visualiser-module-properties-v19.png)
 
 **DMX output:** Allows you to disable all output to the onboard Visualiser (this is the same as the on/off button in the main Visualiser bar).
 
-**Auto Assign:** Sets whether Titan will automatically assign Visualiser output on a new output line if you patch to a line that doesn't already exist.
+**Auto Assign:** Option is not used for this module.
 
 ### DMX /sACN Input
 

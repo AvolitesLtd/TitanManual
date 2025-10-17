@@ -24,7 +24,7 @@ Not all types of trigger are available on all consoles or hardware, see the tabl
 
 Console | Audio | DMX | GPIO | MIDI 5-pin | MIDI USB | sACN | WebAPI | SMPTE/LTC
 ---|---|---|---|---|---|---|---|---
-Simulator      |   |   |   |   | x | x | x |  
+Simulator      |   |   |   |   |   | x | x |  
 T1             |   | x |   |   |   | x |   |  
 T2             | x | x |   |   | x | x | x | x
 T3             |   | x |   |   | x | x | x | x 

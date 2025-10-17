@@ -168,9 +168,13 @@ Consoles have a number of DMX outputs on 5-pin XLR for direct connection to
 fixtures and dimmers, and can send Art-Net or sACN over Ethernet.
 
 When you patch a dimmer or fixture you tell Titan which DMX
-line / universe it is on. Each line can be configured to come out of one
-or more of the XLR outputs on the back of the console, and/or to Art-Net or sACN universes
-over Ethernet. Some hardware has limitations on the number of lines you can output - see the [DMX Settings section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
+line / universe it is on. By default Titan will assign the physical outputs on the back of the console
+to the lines starting at 1 (as many outputs as are available), and also will assign an sACN output to each
+line / universe corresponding to the line number.
+You can also assign Art-Net outputs and reconfigure the sACN and physical outputs
+from [DMX Settings](system-settings/dmx-output-mapping.md).
+
+Some hardware has licence limitations on the number of lines you can output - see the [DMX Settings section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
 
 The D9, D7 and Arena include a built-in [Ethernet switch](networking/connecting-the-arena-to-a-network.md) and have an optical network
 connection.
