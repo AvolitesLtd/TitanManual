@@ -10,13 +10,13 @@ includes firewalls you might need to know these so you can set up rules for them
 Application	        | Port	 	| Address						| Notes
 ------------        |--------	|----------						|---------
 All (pre v19 only)	|TCP 808	| All available adapters		| Titan Remote, TNPs, multi-user and backup.
-Synergy (pre v19 only)  |TCP 50052  | All available adapters    | Synergy, TitanNet
-Synergy*  |TCP 50051  | All available adapters    | Synergy, TitanNet
+TitanNet (pre v19 only)  |TCP 50052  | All available adapters    | Synergy, TitanNet
+Synergy  |TCP 50051  | All available adapters    | Synergy, TitanNet, Titan Media Node, Prism
+TitanNet*    |TCP 4442   | All available adapters        | Connections from console engine
 Console Engine*      |TCP 4440   | All available adapters        | Connections from UI, Titan Remote, multi-user and backup.
-TitanNet Processor Engine* |TCP 4441 | All available adapters    | Connections from UI and console engine
-Titan Media Node*    |TCP 4442   | All available adapters        | Connections from console engine
+TitanNet Processor Engine |TCP 4441 | All available adapters    | Connections from UI and console engine
 CITP Active Fixture Service* |TCP 4444 | All available adapters  | Connections from UI and console engine
-CITP (pre v19 only)	|UDP 4809/TCP	| Multicast 224.0.0.180		| Used for communication with Capture Visualiser and media servers. Discovery done by multicast UDP then negotiates TCP connection
+CITP    	|UDP 4809/TCP	| Multicast 224.0.0.180		| Used for communication with Capture Visualiser and media servers. Discovery done by multicast UDP then negotiates TCP connection
 WebAPI		        |TCP 4430	| All available adapters		| WebApi
 SLP			|UDP 427	| Multicast 239.255.255.253		| Used to discover TitanNet devices on the network.
 Ping		|ICMP echo	| Any adapters that are in use	| Monitors connection to TitanNet devices.
