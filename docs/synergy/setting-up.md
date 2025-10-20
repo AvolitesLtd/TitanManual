@@ -24,7 +24,7 @@ these tips for setting up a suitable network:
 > The Ai server(s) must have the correct version of Titan Media Node installed to match your Titan version. Titan Media Node versions can be downloaded from the Avolites website 
 [Avolites Download page](https://www.avolites.com/software/latest-version). You don't need to do anything extra on the console as the Titan installer will automatically install the correct version on the console. 
 
-In the Ai System Settings screen, go to the ArtNet / CITP options and select the **Titan Media Node Version** drop down box to match the version of Titan you have installed (the first number should match). Then turn on the **Enable Synergy** switch. Ai will start the Titan Media Node. When the Titan Media Node is running, the top status bar will show "TitanNet Enabled".  (Ai v12.2 onwards - in previous versions of Ai, Synergy Upgrades are used).
+In the Ai System Settings screen, go to the Art-Net / CITP options and select the **Titan Media Node Version** drop down box to match the version of Titan you have installed (the first number should match). Then turn on the **Enable Synergy** switch. Ai will start the Titan Media Node. When the Titan Media Node is running, the top status bar will show "TitanNet Enabled".  (Ai v12.2 onwards - in previous versions of Ai, Synergy Upgrades are used).
 
 ![Ai Settings Window](/docs/images/Ai-Titan-Media-Node.png)
 
