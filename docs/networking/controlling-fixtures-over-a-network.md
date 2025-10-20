@@ -37,14 +37,13 @@ details of how IP addressing works.
 
 ## Setting up DMX outputs
 
-Titan can control 64 DMX universes (see [DMX Settings](../system-settings/dmx-output-mapping.md) for details), except when used with T1 / T2 / T3 hardware when it limited to one, two, and sixteen universes respectively. The Titan Go software (with AvoKey) will output one universe over Art-Net or sACN. The Titan Simulator software (with AvoKey) will output all universes over Art-Net or sACN, but periodically random DMX values will be sent down all DMX outputs as a "spoiler".
+The Titan system can control up to 64 DMX lines/universes (though some consoles are licensed for fewer lines - see [DMX Settings](../system-settings/dmx-output-mapping.md) for details). The Titan Go software (with AvoKey) will output one universe over Art-Net or sACN. The Titan Simulator software (with AvoKey) will output all universes over Art-Net or sACN, but periodically random DMX values will be sent down all DMX outputs as a "spoiler".
 
-Within the console, you patch fixtures to one of 64 output lines. 
+Within the console, you patch fixtures to one of the output lines. 
 You connect console output lines to network universes using the
 [DMX Settings menu](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs).
-Often you will simply allocate console line 1 to network universe 1, line 2 to
-universe 2 and so on, but there are times (for example if using a house rig
-with a touring show) when you might need to allocate the lines differently.
+Often you will start at line 1 / universe 1, but there are times (for example if using a house rig
+with a touring show) when you will need to number the lines differently. Lines/universes may be numbered from 1-9999.
 
 
 ## Example of a simple Art-Net system

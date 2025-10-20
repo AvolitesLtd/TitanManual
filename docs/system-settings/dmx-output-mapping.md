@@ -12,36 +12,36 @@ over Ethernet.
 
 You can also assign sACN inputs to lines which can be used to record cues and palettes from other consoles. Input lines are shown in purple.
 
-The Titan system can control up to 64 lines/universes, but some consoles are limited by licence to lower numbers of output lines. The universes
-can be set to any universe number but there can't be more than 64 in total.
+The Titan system can control up to 64 lines/universes, but some consoles are limited by licence to lower numbers of output lines. The lines/universes
+can be set to any number from 1 - 9999 but there can't be more than 64 of them in total.
 
-Console | Number of lines
---------|----------------
-Simulator      | 64*
-T1             | 1
-T2             | 2
-T3             | 16^
-D3-010         | 8
-D3-110         | 24
-D3-Core        | 16
-D7             | 64
-D9             | 64
-Titan Mobile   | 64
-Quartz         | 64
-Tiger Touch 2  | 64
-Arena          | 64
-Sapphire       | 64
+Console | Licensed lines | Recommended processing lines
+--------|----------------|-------
+Simulator      | 64* | 1
+T1             | 1   | 1
+T2             | 2   | 2
+T3             | 16^ | 16
+D3-010         | 8   | 8
+D3-110         | 24  | 24
+D3-Core        | 16  | 16
+D7             | 64  | 32
+D9             | 64  | 32
+Titan Mobile   | 64  | 16
+Quartz         | 64  | 16
+Tiger Touch 2  | 64  | 16
+Arena          | 64  | 16
+Sapphire       | 64  | 16
 
 *Simulator outputs DMX spoiler every few minutes <br/>
-^T3 can be expanded to 64 universes with optional licence pack
+^T3 licence can be expanded to 64 universes with optional licence pack, recommended processing remains 16 lines.
 
-The console itself will generate DMX output for up to 16 universes (32 for D9 and D7), above that you can network the console to one
+The console itself will process DMX output for a number of lines as shown above, for larger systems above that you can network the console to one
 or more [Avolites TitanNet Processing (TNP) nodes](../titan-net.md). This off-loads the DMX
-processing, allowing the console to control up to 64 universes of DMX in
-total (a TNP will not increase the number of universes available from licence-limited consoles, nor can you increase the number
-of universes by connecting multiple devices).
+processing, allowing the console to control up to its maximum licensed number of DMX universes
+ (a TNP will not increase the number of licensed universes available from a system, nor can you increase the number
+of licensed universes by connecting multiple devices).
 
-> For 64-line consoles, the software does not enforce the 16/32 output limit, but performance of the console may be
+> For 64-line consoles, the software does not enforce the processing line limit, but performance of the console may be
 degraded depending on the complexity of the content and the number of fixtures patched. A warning will be shown in the processing load section of
 the TitanNet overview.
 
@@ -100,9 +100,12 @@ hand side enter values for <Keys.SoftKey>Universe</Keys.SoftKey> and <Keys.SoftK
 click on the line from which on you want to assign this. Titan will then patch 
 the number of universes on consecutive lines. 
 
-You can automatically assign Art-Net and sACN universes to the output lines by selecting 
+You can automatically assign Art-Net and sACN universes to the existing output lines by selecting 
 an Art-Net or sACN node on the left, then click <Keys.SoftKey>Assign All By Line Number</Keys.SoftKey>.
 This will assign an Art-Net or sACN universe output with a matching universe number to every vacant line.
+
+Titan will automatically create a new output line when you patch a fixture to a line that
+doesn't exist yet. You can tell it to assign an Art-Net or sACN universe output to the new line using the **Auto Assign** option in the Art-Net or sACN node settings (see below).
 
 You can show information about the DMX nodes once they are assigned by clicking the <Keys.ContextKey>Cog</Keys.ContextKey> button. For Ethernet/network type nodes, this allows you
 to set detailed properties such as IP address ranges and net masks. The <Keys.ContextKey>Cog</Keys.ContextKey> button on the module in the left side pane sets the properties for all outputs of that type (see next section).
@@ -136,7 +139,8 @@ This changes settings for all the physical 5-pin XLR outputs on the console.
 
 **DMX output:** Allows you to disable all the physical outputs (this is the same as the on/off button in the main Physical DMX Output bar. When outputs are disabled, they are greyed out in the line assignments).
 
-**Auto Assign:** Sets whether Titan will automatically assign a physical DMX output on a new output line if you patch to a line that doesn't already exist.
+**Auto Assign:** Sets whether Titan will automatically assign a physical DMX output on a new output line if you patch to a line that doesn't already exist (and unassigned
+physical outputs are available).
 
 **Merge Priority:** A value between 0 and 200 where higher numbers have 
 priority, 100 is default. For this DMX output, sets the priority of the DMX from this 
