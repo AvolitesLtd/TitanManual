@@ -18,8 +18,8 @@ Users can also trigger up to 8 macros and lock/unlock the panel.
 
 ## Connecting the touch panel
 
-Touch panels are connected into the Titan system by wired Ethernet. You will need a PoE-equipped network switch
-to power the panel.
+Touch panels are connected into the Titan system by wired Ethernet. You can use a Power-over-Ethernet (PoE) equipped network switch, a PoE injector
+or a DC adaptor to power the panel.
 
 You will need to set suitable IP addresses on the console and on the touch panel or configure DHCP on your network to automatically provide suitable addresses -
 read more about [Networking the Console](../networking.md).

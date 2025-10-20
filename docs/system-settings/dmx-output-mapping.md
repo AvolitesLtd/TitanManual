@@ -15,37 +15,34 @@ You can also assign sACN inputs to lines which can be used to record cues and pa
 The Titan system can control up to 64 lines/universes, but some consoles are limited by licence to lower numbers of output lines. The lines/universes
 can be set to any number from 1 - 9999 but there can't be more than 64 of them in total.
 
-Console | Licensed lines | Recommended processing lines
+Console | Licensed lines | Onboard processing limit
 --------|----------------|-------
-Simulator      | 64* | 1
+Simulator      | 64 (note 1) | 
 T1             | 1   | 1
 T2             | 2   | 2
-T3             | 16^ | 16
+T3             | 16 (note 2) | 16 (note 3)
 D3-010         | 8   | 8
 D3-110         | 24  | 24
 D3-Core        | 16  | 16
-D7             | 64  | 32
-D9             | 64  | 32
-Titan Mobile   | 64  | 16
-Quartz         | 64  | 16
-Tiger Touch 2  | 64  | 16
-Arena          | 64  | 16
-Sapphire       | 64  | 16
+D7             | 64  | 32 (note 3)
+D9             | 64  | 32 (note 3)
+Titan Mobile   | 64  | 16 (note 3)
+Quartz         | 64  | 16 (note 3)
+Tiger Touch 2  | 64  | 16 (note 3)
+Arena          | 64  | 16 (note 3)
+Sapphire       | 64  | 16 (note 3)
 
-*Simulator outputs DMX spoiler every few minutes <br/>
-^T3 licence can be expanded to 64 universes with optional licence pack, recommended processing remains 16 lines.
+Note 1: Simulator outputs DMX spoiler every few minutes <br/>
+Note 2: T3 licence can be expanded to 64 universes with optional licence pack, onboard processing remains 16 lines. <br/>
+Note 3: Processing for extra lines can be added using TNP (TitanNet Processing)
 
-The console itself will process DMX output for a number of lines as shown above, for larger systems above that you can network the console to one
+The console itself will process DMX output for a number of lines as shown above, for larger systems above that you need to network the console to one
 or more [Avolites TitanNet Processing (TNP) nodes](../titan-net.md). This off-loads the DMX
 processing, allowing the console to control up to its maximum licensed number of DMX universes
  (a TNP will not increase the number of licensed universes available from a system, nor can you increase the number
 of licensed universes by connecting multiple devices).
 
-> For 64-line consoles, the software does not enforce the processing line limit, but performance of the console may be
-degraded depending on the complexity of the content and the number of fixtures patched. A warning will be shown in the processing load section of
-the TitanNet overview.
-
-If a show file is loaded into a console with a lower number of licensed outputs, the lowest-numbered lines will be output. All patch and programming information will be retained for other lines but no control data will be output.
+>  If a show file is loaded into a console with a lower number of licensed outputs, the lowest-numbered lines will be output. All patch and programming information will be retained for other lines but no control data will be output.
 
 ## Default output settings
 
