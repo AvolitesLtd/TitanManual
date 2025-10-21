@@ -85,7 +85,9 @@ choose to connect them as multi-user,
 or both. 
 
 > All consoles to be linked must be running the same version of Titan
-for networking to work correctly. Consoles used for Backup cannot have fewer licensed lines than the main console. See 
+for networking to work correctly. Consoles used for Backup cannot have a lower system limit (fewer output lines) than the main console. 
+See [DMX Settings](../system-settings/dmx-output-mapping.md) for details of system limits for each console type.
+
 
 For details of how to connect Titan consoles together on a network, see
 [Networking the Console](../networking.md).
