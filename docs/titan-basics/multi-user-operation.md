@@ -85,7 +85,7 @@ choose to connect them as multi-user,
 or both. 
 
 > All consoles to be linked must be running the same version of Titan
-for networking to work correctly. Consoles used for Backup cannot have fewer licensed lines than the main console.
+for networking to work correctly. Consoles used for Backup cannot have fewer licensed lines than the main console. See 
 
 For details of how to connect Titan consoles together on a network, see
 [Networking the Console](../networking.md).

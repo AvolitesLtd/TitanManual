@@ -174,7 +174,7 @@ line / universe corresponding to the line number.
 You can also assign Art-Net outputs and reconfigure the sACN and physical outputs
 from [DMX Settings](system-settings/dmx-output-mapping.md).
 
-Some hardware has licence limitations on the number of lines you can output - see the [DMX Settings section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
+Some hardware has system limitations on the number of lines you can output - see the [DMX Settings section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
 
 The D9, D7 and Arena include a built-in [Ethernet switch](networking/connecting-the-arena-to-a-network.md) and have an optical network
 connection.
