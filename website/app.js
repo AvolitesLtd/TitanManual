@@ -27,6 +27,17 @@ var template = [{
   ]}
 ];
 
+const focusWindow = () => { 
+  // Nudge Z-order on Windows: briefly set always-on-top, then revert
+  win.setAlwaysOnTop(true)
+  
+  win.focus()
+
+  setTimeout(() => {
+    if (win && !win.isDestroyed()) win.setAlwaysOnTop(false)
+  }, 300)
+}
+
 Menu.setApplicationMenu(Menu.buildFromTemplate(template));
 
 const checkSingleInstance = (fullAppName) => {
@@ -43,13 +54,27 @@ const checkSingleInstance = (fullAppName) => {
     // Someone tried to run a second instance, we should focus our window.
     if (win) {
       if (win.isMinimized()) win.restore()
-        win.focus()
+      if (!win.isVisible()) win.show()
+      focusWindow();
+      navigateToProcessURL();
     }
   });
 
   return true;
 }
 
+const navigateToProcessURL = () => {
+  let url = "/docs";
+  const args = require('minimist')(process.argv.slice(1))
+  if (args['startUrl']) {
+    url = args['startUrl'];
+  }
+  
+  if (appServer.url && browserViewContent) {
+    console.info(`${appServer.url}${url}`)
+    browserViewContent.webContents.loadURL(`${appServer.url}${url}`)
+  }
+}
 const createWindow = () => {
 
   // Activating the window of primary instance when a second instance starts
@@ -102,13 +127,7 @@ const createWindow = () => {
 
   // and load the homepage of the app.
   appServer.ready().then(() => {
-    let url = "/docs";
-    const args = require('minimist')(process.argv.slice(1))
-    if (args['startUrl']) {
-      url = args['startUrl'];
-    }
-    console.info(`${appServer.url}${url}`)
-    browserViewContent.webContents.loadURL(`${appServer.url}${url}`)
+    navigateToProcessURL()
     win.loadURL(`${appServer.url}/nav.html`)
   })
 
@@ -116,6 +135,7 @@ const createWindow = () => {
 
   browserViewContent.webContents.on('dom-ready', () => {
     win.show()
+    focusWindow()
     canNavigate()
   });
 
