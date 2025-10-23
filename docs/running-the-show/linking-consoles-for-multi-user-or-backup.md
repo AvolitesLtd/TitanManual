@@ -20,7 +20,8 @@ transfer control to the backup console.
 
 >   Linked consoles must be running the same version of Titan. If using 
     PC Suite (Titan Go or Simulator) you may need to disable 
-    any firewalls on the PC.
+    any firewalls on the PC. Consoles used for Backup cannot have a lower system limit (fewer output lines) than the main console.
+    See [DMX Settings](../system-settings/dmx-output-mapping.md) for details of system limits for each console type.
 
 ## Setting Up Consoles for Multi-User
 
@@ -29,11 +30,11 @@ programming or show operation. See the [Multi-User Operation](../titan-basics/mu
 
 ## Setting Up Consoles for Backup
 
-Any Titan console can act as backup for any other console, they do not
-have to be the same model. For example you could run a laptop with T3 as
-backup. You can also in an emergency use the screen on a TNP to operate.
+You can use a different model of Titan console to act as a backup for your
+main console, however the backup console cannot have a lower system limit (fewer output lines) than
+the main console. You can also in an emergency use the screen on a TNP to operate.
 
-However do plan ahead and think about what parts of your show will
+Do plan ahead and think about what parts of your show will
 become inaccessible if the backup device has less faders/handles than
 the main console.
 

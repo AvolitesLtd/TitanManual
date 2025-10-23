@@ -609,3 +609,23 @@ such as <Keys.SoftKey>Dimmer Off</Keys.SoftKey>.
 
 -   To remove complete fixtures, select the fixtures, press <Keys.HardKey>Off</Keys.HardKey> then
     <Keys.SoftKey>Selected Fixtures Off</Keys.SoftKey>.
+
+## Using DMX/sACN input
+
+In the DMX Settings window you can [assign a DMX line](/system-settings/dmx-output-mapping.md#dmx-sacn-input) to an input sACN universe to allow control of fixtures from another console. Fixtures patched on the input line can be set to follow the input levels on their associated channels, these levels can then be used in programming. 
+
+You can set whole fixtures to be controlled by the input sACN or just individual attributes of fixtures.
+
+There are three ways to set a fixture or attribute to follow the input level:
+
+- Select the fixture(s) and press <Keys.HardKey>Include</Keys.HardKey>, then <Keys.SoftKey>Live DMX Input</Keys.SoftKey>. Press <Keys.HardKey>Enter</Keys.HardKey> or <Keys.SoftKey>Include Live Input</Keys.SoftKey> to enable the fixtures for input control (you can change the attribute mask to exclude attribute types).
+
+- Select the fixture(s) then the @ button of the attribute to be controlled, to show the **Adjust Attribute Value** menu. Press the <Keys.SoftKey>Live DMX Input</Keys.SoftKey> softkey to set the attribute for input control.
+
+- In the Channel Grid window, select cells for the channels to be controlled by the DMX input, then press the <Keys.SoftKey>Live DMX Input</Keys.SoftKey> softkey.
+
+When fixtures or attributes are under control by a DMX input, the wheel display for the controlled attributes will have a "DMX input" watermark. An "Input" icon will also appear in the Channel Grid view and the Intensity View windows.
+
+You can now save playbacks or palettes using the incoming values from the DMX input.
+
+Setting a new value on the console, for example by adjusting a wheel or recalling a palette, will disable live DMX input for the attribute. Pressing <Keys.HardKey>Clear</Keys.HardKey> will disable live DMX input for all fixtures.

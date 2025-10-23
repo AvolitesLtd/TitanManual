@@ -14,7 +14,7 @@ import Video from '@site/src/components/video.tsx';
 
 The TitanNet Processor is the insides of a console without the control
 surface. It allows you to expand the number of DMX lines in a show
-beyond the 16 which a console can produce by offloading the processing
+beyond the internal processing limit of the console by offloading the processing
 into a separate unit.
 
 

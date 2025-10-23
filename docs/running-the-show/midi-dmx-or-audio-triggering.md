@@ -13,38 +13,54 @@ an automated setup.
 
 The following types of trigger are available:
 
-- Audio (not on all console hardware)
-- DMX
-- GPIO (not on all console hardware)
-- MIDI (except T1)
-- Streaming ACN
+- Audio 
+- DMX In
+- GPIO 
+- MIDI 
+- Streaming ACN In
+- HTTP GET (using WebAPI)
 
-> Audio trigger (sound to light) requires special hardware which is not fitted on Sapphire Touch,
-Tiger Touch, Titan Mobile, T1, T3 and Pearl Expert. You can plug a T2 into these consoles to provide
-audio triggering. The motherboard "line in" socket can't be used for audio trigger.
+Not all types of trigger are available on all consoles or hardware, see the table below.
 
-GPIO trigger is available on Diamond 9, Diamond 7, Arena, Tiger Touch II and Sapphire Touch.
+Console | Audio | DMX | GPIO | MIDI 5-pin | MIDI USB | sACN | WebAPI | SMPTE/LTC
+---|---|---|---|---|---|---|---|---
+Simulator      |   |   |   |   |   | x | x |  
+T1             |   | x |   |   |   | x |   |  
+T2             | x | x |   |   | x | x | x | x
+T3             |   | x |   |   | x | x | x | x 
+D3-010         |   | x |   |   | x | x | x | x 
+D3-110         | x | x |   |   | x | x | x | x 
+D3-Core        | x | x |   |   | x | x | x | x 
+D7             | x |   | x | x | x | x | x | x 
+D9             | x | x | x | x | x | x | x | x 
+Titan Mobile   |   | x |   |   | x | x | x |  
+Quartz         |   | x |   |   | x | x | x |  
+Tiger Touch 2  |   | x | x | x | x | x | x | x 
+Arena          | x | x | x | x | x | x | x | x 
+Sapphire       |   | x | x | x | x | x | x | x
+
+- Audio trigger can be enabled on non-equipped consoles by plugging a T2 into the console. The motherboard "line in" socket can't be used for audio trigger.
 
 ## Connecting External Trigger Sources
 
 Audio input is connected to the dedicated audio in jack (not the line in
-jack on the motherboard) -- see information box above for consoles which provide this.
+jack on the motherboard) - see information box above for consoles which provide this.
 
 DMX inputs are connected to one of the DMX output connectors using a DMX
 male to male gender changer cable. (This is a simple plug to plug cable
 with all pins wired straight through, i.e. 1-1, 2-2 and 3-3).  
 
 GPIO uses a contact closure for trigger which is connected using a dedicated jack socket, 
-currently only on the Diamond 9, Diamond 7, Arena, Tiger Touch II and Sapphire Touch consoles. The Diamond 9 and Diamond 7
-additionally have a 15-pin D connector for GPIO trigger.
+currently only on the D9, D7, Arena, Tiger Touch II and Sapphire Touch consoles. The D9 and D7
+additionally have a 15-pin D connector for multiple GPIO trigger inputs.
 The TNP can optionally have a GPIO input fitted, contact Avolites.
 
-Most console hardware has a standard 5-pin MIDI connector, 
+MIDI may be connected using the standard 5-pin MIDI connector where this is provided, 
 also USB-MIDI devices supporting the DirectX MIDI driver may be
 used on all consoles except T1. For the T2 this allows you to
-connect a MIDI fader controller to give you real playback faders.
+connect a MIDI fader controller to give you real playback faders. 
 
-sACN is connected using the normal Ethernet connection on the console.
+sACN and HTTP/WebAPI are connected using the normal Ethernet connection on the console.
 
 
 -	You can link a networked PioneerDJ system to Titan to automate BPM masters; this is described 
@@ -230,3 +246,7 @@ On the Arena and Quartz consoles, the Audio LED (just above the power switch) wi
 flash when audio is received. Note that the headphone socket on these
 consoles is linked to the motherboard audio output and can't be used for
 monitoring the audio trigger input.
+
+## WebAPI
+
+Every aspect of the Titan system can be automated over a network using the Titan WebAPI. See https://api.avolites.com/ for documentation.

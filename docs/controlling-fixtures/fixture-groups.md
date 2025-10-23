@@ -142,17 +142,13 @@ To change the 2D fixture layout for the group:
 
 Initially fixtures will be all in a row. You can reposition the fixtures
 anywhere on the screen by dragging them. Or press a fixture to select
-then use the wheels to move it around the grid. You can resize the grid
+then use the wheels (**Position X**, **Position Y**, **Angle**) to move it around the grid or to rotate it. You can resize the grid
 by dragging the bottom or right sides.
 
 Multi-celled fixtures appear showing all the cells but when moved or
 rotated, move as a block. Depending on the fixture personality,
 sometimes the cells may not match the actual physical layout of the
 cells on the fixture.
-
-The <Keys.SoftKey>Arrange Fixtures</Keys.SoftKey> context command will automatically place the
-fixtures in a rectangular block, you specify the number of rows (Height)
-and columns (Width).
 
 ![Group Layout Editor](/docs/images/Layout-Editor.png)
 
@@ -169,13 +165,29 @@ and columns (Width).
     off the fixture which is hiding it, or select the hidden fixture and
     use the wheels to move it somewhere visible.
 
--   You can use the Fan button to evenly spread fixtures in the layout.
+-   The <Keys.SoftKey>Arrange Fixtures</Keys.SoftKey> context button will automatically place the
+    fixtures in a rectangular block, you specify the number of rows (Height)
+    and columns (Width).
 
--   To move or rotate fixtures, select and drag, or use the wheels. You
+-   You can use the Fan button with the X / Y wheels to evenly spread fixtures in the layout.
+
+-   To move or rotate fixtures, select and drag, or select and use the wheels. You
     can click on the "up" and "down" areas in the wheel display to nudge
-    the values up and down - 1 pixel for position and 45 degrees for
+    the values up and down - 1 grid square for position and 45 degrees for
     rotate. If you press the @ button for the wheel, a window opens
     allowing you to type in the values numerically.
+
+-   If you select multiple fixtures, when you set **Angle** using Wheel C the fixtures themselves will rotate. 
+    If you want to rotate the whole fixture selection as a group, press the context button <Keys.SoftKey>Wheels 
+    Rotate Individual Fixtures</Keys.SoftKey> to change it to <Keys.SoftKey>Wheels Rotate Selection</Keys.SoftKey>.
+
+-   Normally the fixture positions will snap to the grid squares, and Angle snaps to 45 degrees, however you can change
+    to sub-pixel accuracy on the wheels by 
+    pressing the context button <Keys.SoftKey>Wheels Move Full Pixel</Keys.SoftKey> to change it to <Keys.SoftKey>Wheels Move Sub Pixel</Keys.SoftKey>.
+
+-   If you create a group by selecting individual fixture cells (see [Fixtures with multiple cells](../controlling-fixtures.md#fixtures-with-multiple-cellssub-fixtures)) then in the fixture editor you can position the individual cells. This may 
+    be useful if the fixture personality does not have the cells positioned correctly, though it may be better to fix
+    the personality or reporting a personality bug.
 
 -   If you click the context menu button <Keys.SoftKey>Position and Angle</Keys.SoftKey> it will
     change to <Keys.SoftKey>Scale</Keys.SoftKey> which allows you to spread out or compress the

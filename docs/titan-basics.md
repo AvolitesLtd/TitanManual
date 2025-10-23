@@ -167,10 +167,14 @@ an hour to complete.
 Consoles have a number of DMX outputs on 5-pin XLR for direct connection to
 fixtures and dimmers, and can send Art-Net or sACN over Ethernet.
 
-When you patch a dimmer or fixture you tell Titan which of the 64 DMX
-lines it is on. Each line can be configured to come out of one
-or more of the XLR outputs on the back of the console, and/or to Art-Net or sACN universes
-over Ethernet. Some hardware has limitations on the number of lines you can output - see the [DMX output section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
+When you patch a dimmer or fixture you tell Titan which DMX
+line / universe it is on. By default Titan will assign the physical outputs on the back of the console
+to the lines starting at 1 (as many outputs as are available), and also will assign an sACN output to each
+line / universe corresponding to the line number.
+You can also assign Art-Net outputs and reconfigure the sACN and physical outputs
+from [DMX Settings](system-settings/dmx-output-mapping.md).
+
+Some hardware has system limitations on the number of lines you can output - see the [DMX Settings section](system-settings/dmx-output-mapping.md#configuring-dmx-outputs) for more information.
 
 The D9, D7 and Arena include a built-in [Ethernet switch](networking/connecting-the-arena-to-a-network.md) and have an optical network
 connection.
@@ -239,6 +243,9 @@ Some consoles provide a SMPTE input
 to allow the console to be linked to a
 timecode source. 
 
+- See [External Triggering](/running-the-show.md/midi-dmx-or-audio-triggering) for details of
+how to connect and use external control information.
+
 You can connect the console to a LAN (local area network) using the EtherCON or RJ45
 network socket(s) on the rear. This allows you to operate many more
 universes of DMX using DMX network protocols, and also allows backup and
@@ -253,12 +260,4 @@ work).
 - You can set the brightness of the desk lamps on the wheels when in the **System** menu 
 	(press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>).
 
-## Connecting Console Wings
-
-"[Wings](./about-the-consoles/fader-wings.md)" are additional control surfaces which can be connected to the
-console to provide more faders and buttons. They connect to the console
-by USB.
-
-The Pearl Expert Touch Wing can only be used with the [Pearl Expert](about-the-consoles/pearl-expert-and-touch-wing.md)
-console and should be connected before the console is powered up.
 

@@ -19,6 +19,10 @@ Store](https://apps.apple.com/ky/app/titan-remote/id688791174).
 
 ![Titan Remote - Android App Screenshot](/docs/images/Remote-Tablet-View.png)
 
+The layout of the remote screen varies depending on the screen size of the device you are using. The
+windows are not user-configurable.
+
+
 You can connect multiple remotes to the console and the console itself
 remains functional while the remote is connected. Each remote runs like a multi-user
 system with a **separate programmer** so an operator can continue to work on the console

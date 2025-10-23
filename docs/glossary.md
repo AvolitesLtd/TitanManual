@@ -98,7 +98,7 @@ TIMES		| Many elements of programming can be timed to create effects, these toge
 TNP			| Titan Network Processor, a rack mount unit to handle the processing of additional DMX Universes or to operate automatic shows.
 TRACKING	| Describes the operation of Cue Lists where attribute states follow through from previous cues unless changed by the user.
 UNFOLD		| A function that allows Chase steps to be laid out onto the playback faders for easy editing.
-UNIVERSE	| A full set of 512 DMX control channels/slots. Titan consoles can create up to 64 universes, 16 on the console and the rest remotely using network processing.
+UNIVERSE	| A full set of 512 DMX control channels/slots. 
 UPS			| Uninterruptible Power Supply, fitted internally in some consoles, to keep the console running in case of power failure.
 USER NUMBER	| Each fixture / dimmer has a User Number which allows you to select them using the numeric keypad and <Keys.HardKey>Through</Keys.HardKey> button, as commonly used on other types of console.
 USER SETTINGS	| User definable desk settings. To change them, hold down the Avo button and select [User Settings].
