@@ -17,7 +17,7 @@ import Video from '@site/src/components/video.tsx';
 [Adjusting masters using the wheels *(in "Playback controls")*](./running-the-show/playback-controls.md#adjusting-masters-using-the-wheels)<br/>
 [Align Fixtures *(in "Changing Fixture Attributes")*](./controlling-fixtures/changing-fixture-attributes.md#align-fixtures)<br/>
 [Animations *(in "Pixel Mapper")*](./effects/pixel-mapper.md#animations)<br/>
-[Art-Net Properties *(in "DMX Output Mapping")*](./system-settings/dmx-output-mapping.md#art-net-properties)<br/>
+[Art-Net Properties *(in "DMX Settings")*](./system-settings/dmx-output-mapping.md#art-net-properties)<br/>
 [Assign Masters *(in "The System Menu")*](./system-settings/the-system-menu.md#assign-masters)<br/>
 [Attribute Editor for Controlling Ai Layers *(in "Operating Synergy")*](./synergy/operating-synergy.md#attribute-editor-for-controlling-ai-layers)<br/>
 [Attribute Editor Window *(in "Changing Fixture Attributes")*](./controlling-fixtures/changing-fixture-attributes.md#attribute-editor-window)<br/>
@@ -77,11 +77,10 @@ import Video from '@site/src/components/video.tsx';
 [Colour Mix: Picker *(in "Changing Fixture Attributes")*](./controlling-fixtures/changing-fixture-attributes.md#colour-mix-picker)<br/>
 [Combining Cues with HTP and LTP *(in "Cue Playback")*](./cues/cue-playback.md#combining-cues-with-htp-and-ltp)<br/>
 [Compatibility Windows for Pearl Expert Shows *(in "Workspace Windows")*](./titan-basics/workspace-windows.md#compatibility-windows-for-pearl-expert-shows)<br/>
-[Configuring DMX Outputs *(in "DMX Output Mapping")*](./system-settings/dmx-output-mapping.md#configuring-dmx-outputs)<br/>
+[Configuring DMX Outputs *(in "DMX Settings")*](./system-settings/dmx-output-mapping.md#configuring-dmx-outputs)<br/>
 [Configuring Tracks *(in "Set List Window")*](./running-the-show/set-list-window.md#configuring-tracks)<br/>
 [Connecting a Monitor *(in "Connecting up and Titan basics")*](./titan-basics.md#connecting-a-monitor)<br/>
 [Connecting a Playback for Control *(in "Chase Playback")*](./chases/chase-playback.md#connecting-a-playback-for-control)<br/>
-[Connecting Console Wings *(in "Connecting up and Titan basics")*](./titan-basics.md#connecting-console-wings)<br/>
 [Connecting DMX Lines *(in "Connecting up and Titan basics")*](./titan-basics.md#connecting-dmx-lines)<br/>
 [Connecting External Trigger Sources *(in "External triggering")*](./running-the-show/midi-dmx-or-audio-triggering.md#connecting-external-trigger-sources)<br/>
 [Connecting mains power *(in "Connecting up and Titan basics")*](./titan-basics.md#connecting-mains-power)<br/>
@@ -152,8 +151,8 @@ import Video from '@site/src/components/video.tsx';
 [Displacement and Layer Properties *(in "Pixel Mapper Examples")*](./effects/pixel-mapper-examples.md#displacement-and-layer-properties)<br/>
 [Display *(in "User Settings")*](./system-settings/user-settings.md#display)<br/>
 [Display Setup *(in "The System Menu")*](./system-settings/the-system-menu.md#display-setup)<br/>
-[DMX Output Properties *(in "DMX Output Mapping")*](./system-settings/dmx-output-mapping.md#dmx-output-properties)<br/>
-[DMX Overview *(in "DMX Output Mapping")*](./system-settings/dmx-output-mapping.md#dmx-overview)<br/>
+[DMX Output Properties *(in "DMX Settings")*](./system-settings/dmx-output-mapping.md#dmx-output-properties)<br/>
+[DMX Overview *(in "DMX Settings")*](./system-settings/dmx-output-mapping.md#dmx-overview)<br/>
 [DMX Settings *(in "The System Menu")*](./system-settings/the-system-menu.md#dmx-settings)<br/>
 [DMX View Window *(in "Changing the Patch")*](./patching/changing-the-patch.md#dmx-view-window)<br/>
 [Downloading fixture personalities from Avolites *(in "Fixture Personalities")*](./fixture-personalities.md#downloading-fixture-personalities-from-avolites)
@@ -318,7 +317,7 @@ import Video from '@site/src/components/video.tsx';
 [Media Viewer *(in "Operating Synergy")*](./synergy/operating-synergy.md#media-viewer)<br/>
 [MIDI Show Control *(in "External triggering")*](./running-the-show/midi-dmx-or-audio-triggering.md#midi-show-control)<br/>
 [Mini Screen (Arena only) *(in "Workspace Windows")*](./titan-basics/workspace-windows.md#mini-screen-arena-only)<br/>
-[Module Properties *(in "DMX Output Mapping")*](./system-settings/dmx-output-mapping.md#module-properties)<br/>
+[Module Properties *(in "DMX Settings")*](./system-settings/dmx-output-mapping.md#module-properties)<br/>
 [Move In Dark (MID) Functions *(in "Cue List Playback")*](./cue-lists/cue-list-playback.md#move-in-dark-mid-functions)<br/>
 [Move In Dark *(in "Cue List Options")*](./cue-lists/cue-list-options.md#move-in-dark)<br/>
 [Moving a Cue *(in "Copying٬ Moving٬ Linking and Deleting a Cue")*](./cues/copying-moving-linking-and-deleting.md#moving-a-cue)<br/>
@@ -328,7 +327,7 @@ import Video from '@site/src/components/video.tsx';
   
 ## N
 [Nested Palettes *(in "Creating Palettes")*](./palettes/creating-palettes.md#nested-palettes)<br/>
-[Network DMX Node Settings *(in "DMX Output Mapping")*](./system-settings/dmx-output-mapping.md#network-dmx-node-settings)<br/>
+[Network DMX Node Settings *(in "DMX Settings")*](./system-settings/dmx-output-mapping.md#network-dmx-node-settings)<br/>
 [Network DMX Node Settings *(in "The System Menu")*](./system-settings/the-system-menu.md#network-dmx-node-settings)<br/>
 [Network Settings *(in "The System Menu")*](./system-settings/the-system-menu.md#network-settings)<br/>
 [Network Settings *(in "TNP Slave Mode")*](./titan-net/tnp-slave-mode.md#network-settings)<br/>
@@ -442,7 +441,7 @@ import Video from '@site/src/components/video.tsx';
 [Running Titan Simulator *(in "Titan Simulator")*](./titan-basics/titan-simulator.md#running-titan-simulator)
   
 ## S
-[sACN Properties *(in "DMX Output Mapping")*](./system-settings/dmx-output-mapping.md#sacn-properties)<br/>
+[sACN Properties *(in "DMX Settings")*](./system-settings/dmx-output-mapping.md#sacn-properties)<br/>
 [Sample Region Overlay *(in "Operating Synergy")*](./synergy/operating-synergy.md#sample-region-overlay)<br/>
 [Saving a Key Frame Shape to a Cue *(in "Key Frame Shapes")*](./effects/key-frame-shapes.md#saving-a-key-frame-shape-to-a-cue)<br/>
 [Saving screen layouts using Workspaces *(in "Useful functions")*](./running-the-show.md#saving-screen-layouts-using-workspaces)<br/>
@@ -543,7 +542,7 @@ import Video from '@site/src/components/video.tsx';
 [The Screen *(in "Titan Mobile")*](./about-the-consoles/titan-mobile.md#the-screen)<br/>
 [The Toolbar *(in "Other Parts of the Touch Screen")*](./titan-basics/other-parts-of-the-touch-screen.md#the-toolbar)<br/>
 [Tidying the console with the Move function *(in "Useful functions")*](./running-the-show.md#tidying-the-console-with-the-move-function)<br/>
-[Tiger Touch Wing *(in "Fader Wings")*](./about-the-consoles/fader-wings.md#tiger-touch-wing)<br/>
+[Tiger Touch Wing *(in "Fader Wings")*](./about-the-consoles/tiger-touch.md#tiger-touch-wing)<br/>
 [Time and Fade Options for Cue Lists *(in "Cue List Timing")*](./cue-lists/cue-list-timing.md#time-and-fade-options-for-cue-lists)<br/>
 [Time options *(in "Timeline Options")*](./timelines/timeline-options.md#time-options)<br/>
 [Timecode *(in "User Settings")*](./system-settings/user-settings.md#timecode)<br/>
@@ -565,7 +564,7 @@ import Video from '@site/src/components/video.tsx';
 [Titan Healthcheck *(in "Connecting up and Titan basics")*](./titan-basics.md#titan-healthcheck)<br/>
 [Titan Mobile *(in "Multi⁃User Operation")*](./titan-basics/multi-user-operation.md#titan-mobile)<br/>
 [Titan Mobile Connections panel *(in "Titan Mobile")*](./about-the-consoles/titan-mobile.md#titan-mobile-connections-panel)<br/>
-[Titan Mobile Wing *(in "Fader Wings")*](./about-the-consoles/fader-wings.md#titan-mobile-wing)<br/>
+[Titan Mobile Wing *(in "Fader Wings")*](./about-the-consoles/titan-mobile.md#titan-mobile-wing)<br/>
 [Titan Mobile, Titan Go or Titan Simulator Procedure *(in "Fixture Personalities")*](./fixture-personalities.md#titan-mobile,-titan-go-or-titan-simulator-procedure)<br/>
 [Titan outputting over Art-Net Fixtures (and DMX) *(in "A quick guide to IP addressing")*](./networking/a-quick-guide-to-ip-addressing.md#titan-outputting-over-art-net-fixtures-and-dmx)<br/>
 [Titan Telemetry *(in "The System Menu")*](./system-settings/the-system-menu.md#titan-telemetry)<br/>

@@ -84,6 +84,7 @@ Console | Screen
 -- | --
 D9 (-330 / -215) | 1920 x 1080
 D7 (-330 / -215) | 1920 x 1200
+D3 | 1280 x 800
 Sapphire Touch | 1366 x 786
 Arena | 1366 x 786
 Tiger Touch II | 1366 x 786
@@ -189,5 +190,4 @@ fade to them all at once - though [Scene Master](./running-the-show/playback-con
 
 To convert blind to live, type a number to set fade time then press the <Keys.HardKey>Blind</Keys.HardKey> button.
 
--  If any attribute fade times have been set in the programmer, these will
-be used instead of the fade time you type.
+

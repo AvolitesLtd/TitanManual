@@ -29,11 +29,11 @@ want the workspace, press the appropriate button and the window will open on tha
 
 The <Keys.HardKey>Open/View</Keys.HardKey> button is labelled differently on some consoles: 
 
-- Diamond 9 / Diamond 7: <Keys.HardKey>View</Keys.HardKey>. There's an additional <Keys.HardKey>Open</Keys.HardKey> button which is the same as double pressing <Keys.HardKey>View</Keys.HardKey>.
+- D9 / D7: <Keys.HardKey>View</Keys.HardKey>. There's an additional <Keys.HardKey>Open</Keys.HardKey> button which is the same as double pressing <Keys.HardKey>View</Keys.HardKey>.
 
-- Quartz, Titan Mobile: <Keys.HardKey>Open</Keys.HardKey>
+- Quartz, Tiger Touch 2, Titan Mobile: <Keys.HardKey>Open</Keys.HardKey>
 
-- T3, Titan Go, Tiger Touch 1, Pearl Expert: <Keys.HardKey>View</Keys.HardKey>
+- D3, T3, Titan Go, Tiger Touch 1, Pearl Expert: <Keys.HardKey>View</Keys.HardKey>
 
 ![Workspace Window Selection](/docs/images/Workspace-Windows-Icons.png)
 
@@ -117,8 +117,8 @@ On all consoles apart from Sapphire Touch and Titan Go, **context menu
 buttons** appear which contain useful functions for the current
 active window and change depending on the window. 
 
-On Diamond 9 the context menu buttons are in the top left hand corner of the right
-hand screen; on Arena, Quartz and Tiger Touch they are below the prompt area on the top right 
+On D9 the context menu buttons are in the top left hand corner of the right
+hand screen; on D3, Arena, Quartz and Tiger Touch they are below the prompt area on the top right 
 of the main screen. 
 The picture below gives an example of
 how the context buttons appear when Patch View window is active.
@@ -316,17 +316,12 @@ fixtures - see [Trackball control](../controlling-fixtures/changing-fixture-attr
 
 ## Video preview screens (Diamond 9 only)
 
-The three preview screens on the top right of the console can be configured to show 
-NDI video streams, or can also be used as extra workspace windows.
+The three preview screens on the top right of the console can be used as extra workspace windows.
 
 ![Diamond Media Preview](/docs/images/Diamond-Media-Preview.png)
 
 To configure a screen, double press <Keys.HardKey>Open/View</Keys.HardKey> and window selection buttons will pop up
-on each screen, touch the type of window you want to configure the view. For NDI Preview select
-**Video Preview** (1 2 or 3 depending which screen you are setting). To select an NDI stream,
-tap on the screen and you will then see
-thumbnails of the available NDI streams to select. See [Media Viewer](../synergy/operating-synergy.md#media-viewer)
-in the Ai section for more details.
+on each screen, touch the type of window you want to configure the view. 
 
 ## Mini Screen (Arena only)
 

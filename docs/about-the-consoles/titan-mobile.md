@@ -7,7 +7,7 @@ sidebar_label: Titan Mobile
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Titan Mobile is a USB wing which plugs into a Windows PC or laptop running the Titan Go software.
+Titan Mobile is a USB-connected control panel which plugs into a Windows PC or laptop running the Titan Go software.
 See [minimum PC specifications](../titan-basics.md#connecting-up-t3--titan-mobile-and-t1t2) for details of the PC requirements.
 
 ![Titan Mobile](/docs/images/Titan-Mobile.png)
@@ -81,7 +81,7 @@ with a mouse.
 
 
 
-&nbsp;<Keys.Annotation>K</Keys.Annotation> Four **Workspace Windows** may be shown on the screen. These contain
+&nbsp;<Keys.Annotation>K</Keys.Annotation> A user-defined selection of **Workspace Windows** may be shown on the screen. These contain
 touch buttons to control fixture selection, palette selection, groups,
 shapes, attributes, and so on. Visualiser may also be shown in a window.
 
@@ -137,3 +137,20 @@ Normally the panel is powered via the USB connection. Some laptop
 
 &nbsp;<Keys.Annotation>T</Keys.Annotation> The PE socket / stud is to allow you to ground/earth the panel, which can
     help resolve DMX problems if your laptop is not earthed.
+    
+
+## Titan Mobile Wing
+
+The Titan Mobile Wing adds 20 additional playback faders and 30
+macro/executor buttons to the main console. It connects by a single USB
+cable to the console or the PC running the Titan software.
+
+It is designed to fit next to the Titan Mobile panel, but it can be
+used with any of the Avolites Titan console range and also the T2 USB device.
+
+![Titan Mobile Wing](/docs/images/Titan-Mobile-Wing.png)
+
+If you want to see the legends and function information for the controls on the wing, there is a **Mobile Wing** workspace window - double click <Keys.HardKey>Open</Keys.HardKey> and select "Mobile Wing". Using the Context Menu buttons you can select different views for this workspace which combine the playbacks and macro/executor buttons into one screen, or you can display them in separate
+pages.
+
+> The toggle switch on the rear of the console next to the USB does not have any function.

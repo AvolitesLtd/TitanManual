@@ -50,13 +50,12 @@ next section.
 ## Updating the Personality Library on the Console
 
 Download the current Titan personality library by clicking on **Titan
-Fixture Library** at the [personality website](https://personalities.avolites.com) 
-home screen. Alternatively you can get this file by clicking on the **Download** 
+Fixture Library** at [https://personalities.avolites.com](https://personalities.avolites.com) . Alternatively you can get this file by clicking on the **Download** 
 link at the top of the screen, then clicking on **Titan Fixture Library**.
 
 There are different library installers depending on the **version of Titan 
-you are running**. This is to ensure you get the right version of the Capture
-library, the actual personality library is identical in each version.
+you are running**. This is to ensure you get the right version of the Capture visualiser
+library, the actual Titan personality library is identical in each version.
 
 - The console caches the FixtureLibrary folder into memory when the
  Patch option is first used, so after updating you need to restart the console

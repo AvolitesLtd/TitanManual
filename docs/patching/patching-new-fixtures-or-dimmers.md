@@ -39,7 +39,7 @@ Each fixture button can control single or multiple dimmer channels. You
 allocate a button using the Patch menu (described below) or the [Patch View](./changing-the-patch.md#patch-view) window.
 
 1. Press <Keys.HardKey>Patch</Keys.HardKey>, then <Keys.SoftKey>Dimmers</Keys.SoftKey>.
-2. &nbsp;<Keys.SoftKey>DMX Line=</Keys.SoftKey> shows you which of the DMX output lines you are
+2. &nbsp;<Keys.SoftKey>DMX Line=</Keys.SoftKey> sets which line/universe you are
 patching onto. Enter a new number to change the line. <Keys.SoftKey>Address = </Keys.SoftKey>
 shows the DMX address about to be patched. You can change this by typing
 in the new address on the numeric keypad and pressing <Keys.HardKey>Enter</Keys.HardKey>. <br/>
@@ -58,7 +58,7 @@ up dimly.
 5. Repeat from step 2 for other dimmers.
 
 -   When setting the DMX address using <Keys.SoftKey>Address=</Keys.SoftKey>, you can set the DMX
-    line (universe) as well by entering \{line\}.\{DMX\}, for example 2.56
+    line / universe as well by entering \{line\}.\{DMX\}, for example 2.56
     will set DMX address 56 on DMX line 2.
 -   To see how DMX channels are patched, press <Keys.HardKey>Open/View</Keys.HardKey> then <Keys.HardKey>Patch</Keys.HardKey>
     to show the [Patch View](./changing-the-patch.md#patch-view) window.
@@ -97,16 +97,16 @@ You can patch either using the Patch menu (described below) or the [Patch View](
 1. Press <Keys.HardKey>Patch</Keys.HardKey>.
 2. Press <Keys.SoftKey>Fixtures</Keys.SoftKey>.<br/>
   ![Patch Menu](/docs/images/Patch-Menu.png)
-3. Select the correct fixture manufacturer from the softkeys
+3. Select the fixture manufacturer from the softkeys
 (<Keys.SoftKey>Previous</Keys.SoftKey> and <Keys.SoftKey>Next</Keys.SoftKey> page through the list of manufacturers). Or
 use Quick Search and type the first few letters of the manufacturer's
 name on the keyboard to find the one you want.
-4. Select correct fixture from the softkeys (F and G show other pages).
+4. Select fixture type from the softkeys (F and G show other pages).
 You can use Quick Search here as well.
-5. Select the correct fixture operating mode from the softkeys.
+5. Select the fixture operating mode from the softkeys to match the mode set on the fixture itself.
 6. &nbsp;<Keys.SoftKey>Address =</Keys.SoftKey> shows the first free DMX address. Type the new address
 on the numeric keypad if you want a different one. <Keys.SoftKey>DMX line=xx</Keys.SoftKey> lets
-you patch to a different DMX line, or you can enter the address as <Keys.SoftKey>line</Keys.SoftKey>.<Keys.SoftKey>address</Keys.SoftKey>, e.g. 2.45 would set address 45 on line 2.<br/>
+you patch to a different DMX line / universe, or you can enter the address as <Keys.SoftKey>line</Keys.SoftKey>.<Keys.SoftKey>address</Keys.SoftKey>, e.g. 2.45 would set address 45 on line 2.<br/>
   ![Address Input](/docs/images/Address-Input.png)
 7. Patch the fixture by pressing a Fixture touch button, a
 Macro/Executor button or the **Select** button of a fader handle (not
@@ -189,12 +189,12 @@ fixtures if you wish.
 -   If you are using the [console linked to the full version of Capture](../capture-visualiser/linking-the-console-to-stand-alone-capture.md)
     (Nexum or above) on an external computer, then changes to the patch
     on the console will automatically sync to the Capture show. Also
-    changes you make in Capture will sync back to the console.
+    changes you make in Capture will sync back to the console. 
 
 ## Patching Fixtures with Multiple Cells (sub-fixtures)
 
 Some fixtures have multiple cells of control within a single fixture
-(for example an RGB LED batten). To avoid having to patch every cell as
+(for example an LED batten). To avoid having to patch every cell as
 a single fixture, you can patch the whole fixture as one "super fixture"
 and each cell will then appear as a "sub-fixture". This is very useful
 when laying out fixtures for use with the Pixel Mapper as it allows you
@@ -270,6 +270,9 @@ fixtures retain all their programming but do not output to the DMX outputs.
 You can re-enable a Parked fixture by giving it a new DMX address using the
 [Patch View](../patching/changing-the-patch.md#patch-view) window which has
 a button to display all parked fixtures.
+
+> On some other manufacturers' consoles, **Park** means locking a channel at full output. To do
+this on Titan, see the [Freeze Attribute](fixture-personality-options.md?#freeze-fixtures-or-attributes) function.
 
 ## Finding a Lost Fixture
 
