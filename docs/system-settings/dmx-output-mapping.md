@@ -252,13 +252,15 @@ If you select the DMX Overview tab at the top of the window, you can see
 all the [TNPs](../titan-net.md) which are connected and which output lines they are
 allocated to.
 
-![DMX Overview in DMX Settings](/docs/images/DMX-Overview-in-DMX-Settings.png)
+![DMX Overview in DMX Settings](/docs/images/DMX-Overview-in-DMX-Settings-v19.png)
 
-The left side of the window shows the 64 possible DMX output lines on
+The left side of the window shows the DMX output lines which are currently setup on
 the console. To the right of this are the processing nodes which are
 connected, the top one being the console itself. Each node shows how the
 lines are allocated to the physical outputs on the device. Clicking this
 area will open the detail tab for the node.
+
+You can add additional DMX output lines (up to the system limit) by clicking the "plus" button below the list of lines.
 
 Clicking any one of the nodes will show detailed information about that
 node on the right, including the IP address, number of available
