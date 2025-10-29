@@ -4,6 +4,8 @@ title: Connecting consoles to a network
 sidebar_label: Connecting consoles to a network
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 All Avolites consoles may be connected to an Ethernet network to allow control of fixtures by Art-Net or sACN, for multi-user setups and remote control, or to connect to a visualisation system.
 
 For T1, T2 and T3 which are used with a laptop or PC, the network connection of the laptop or PC is used. (WiFi connections should not be used for control
