@@ -77,13 +77,13 @@ The times you enter are affected by the cue mode which is set using the <Keys.So
     cue). If times are set to zero, the HTP levels will fade in and out
     with the fader and the LTP channels will snap when the cue is fired.
 
--   <Keys.SoftKey>Mode 2</Keys.SoftKey> - Channels will fade in as set by the fade time. The Fade
-    Out time is ignored. However, the fade will stop when the fader
-    position is reached, so if the fader is set to 50%, the attributes
-    will stop half way to their programmed position. You can reverse the
-    fade back to the original position by moving the fader back. If
-    times are set to zero, both HTP and LTP channels are controlled by
-    the fader position.
+-   <Keys.SoftKey>Mode 2</Keys.SoftKey> - Channels will fade in as set by the fade time.
+    However, the fade will stop when the fader position is reached, so
+    if the fader is set to 50%, the attributes will stop half way
+    to their programmed position. You can reverse the fade back to
+    the original position by moving the fader back. If times are
+    set to zero, both HTP and LTP channels are controlled by the
+    fader position.
 
     In this mode LTP channels revert to their previous settings when the
     cue is deactivated.
