@@ -4,6 +4,8 @@ title: Connecting consoles to a network
 sidebar_label: Connecting consoles to a network
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 All Avolites consoles may be connected to an Ethernet network to allow control of fixtures by Art-Net or sACN, for multi-user setups and remote control, or to connect to a visualisation system.
 
 For T1, T2 and T3 which are used with a laptop or PC, the network connection of the laptop or PC is used. (WiFi connections should not be used for control
@@ -31,8 +33,8 @@ different optical switch you should contact Avolites for advice.
 
 ## Wired Ethernet Outputs
 
-The Diamond 9 console has an in-built 1Gb Luminex network switch; the 
-Diamond 7 and Arena consoles have an in-built 1Gb TitanNet switch (TNS). These are
+The early Diamond 9 console has an in-built 1Gb Luminex network switch; the 
+Diamond 9 (2025 and onwards), Diamond 7 and Arena consoles have an in-built 1Gb TitanNet switch (TNS). These are
 directly connected to the console Main board on network connection 1.
 The network switch has 4 ports available on the back of the console.
 
@@ -45,7 +47,7 @@ IP range as the switch, because this will cause problems.
 
 The Diamond 9 can be fitted with a 10GbE port as an optional extra.
 
-## Changing settings on the D9 Luminex switch
+## Changing settings on the D9 with the Luminex switch
 
 In normal use you will not need to change the settings on the Luminex switch, but if you have a complex network
 setup you can use Luminex's Araneo software to connect to the switch and configure it. 
@@ -56,7 +58,7 @@ setup you can use Luminex's Araneo software to connect to the switch and configu
 to the four etherCON sockets for 5 seconds. The lights will flash red and the switch will be
 reset to its default IP address (which is printed on a sticker on the switch inside the console).
 
-## Changing the IP address of the D7 or Arena's Titan Network Switch (TNS)
+## Changing the IP address of the D9, D7 or Arena's Titan Network Switch (TNS)
 
 For Arena the network switch and the controller for the switch both use an IP
 address. When the controller IP address is set, the network switch will
@@ -72,11 +74,13 @@ serial number **379** or **255+124**)*.
 
 To change the IP address of the network switch in the console:
 
-1. Open **USB Expert Console** from the **Tools** menu.
-2. Select the TNS panel<br/>
-  ![USB Expert Tools - TNS Panel](/docs/images/USB-Expert-Tools-TNS-Panel.png)
-3. In the **IP Address Dialog**, set the new IP address.<br/>
-  ![USB Expert Tools - TNS Panel - IP Address Dialog](/docs/images/USB-Expert-Tools-TNS-Panel-IP-Address-Dialog.png)
+1. Enter the system menu (<Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>DISK</Keys.HardKey>).
+2. Select the <Keys.SoftKey>Network Switch</Keys.SoftKey>.
+3. On a D9 with a TNS or D7 you will be presented with a field to enter a single IP address. On an Arena choose <Keys.SoftKey>TitanNet Switch Panel 1</Keys.SoftKey>.
+4. Change the IP Address and click <Keys.SoftKey>Save Settings</Keys.SoftKey>.
+
+The switches management interface can be accessed by clicking on <Keys.SoftKey>Open Web Interface</Keys.SoftKey>. On an Arena the management interface is associated with <Keys.SoftKey>TitanNet Switch Panel 2</Keys.SoftKey>. This will open up a web browser showing the switches management interface. This is password protected. On the Arena the default password is password. On the D7 and D9 the default username is root, and the default password is password.
+
 
 ## Power and UPS behaviour 
 
