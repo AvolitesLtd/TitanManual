@@ -5,14 +5,6 @@
 lib/core/metadata.js
 lib/core/MetadataBlog.js
 website/.docusaurus
+website/package-lock.json
 website/build/
 website/dist/
-
-replace.txt
-v14_v15_de.txt
-website/docusaurus.config.js
-website/output.txt
-website/output_build.txt
-website/versioned_docs/version-14.0.temp/
-website/versioned_sidebars/version-14.0-sidebars.temp.json
-website/versioned_sidebars/version-14.0-sidebars.temp.replaced.json
