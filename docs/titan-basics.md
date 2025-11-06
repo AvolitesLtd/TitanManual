@@ -61,7 +61,7 @@ takes up to 1 min 30 seconds to start up.
 **Shut down** the console by pressing and releasing the Power switch
 again. The console will perform a controlled shutdown. Wait until the
 Power light has gone off (about 30 seconds) before you disconnect power
-from the console.
+from the console.The system shut down can also be triggered by pressing **Turn Off Console** in the Tools menu.
 
 > If the console has a switch on the power module on the back, do not use this to turn off the console as this does not close down the software properly and you will lose any changes to your show.
 
