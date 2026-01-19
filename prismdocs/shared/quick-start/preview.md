@@ -116,7 +116,7 @@ This area controls the **Crop** of the Bank Element.
 
 |   Item      |  Description   |
 |----------------|---------|
-| **URL** | Full RTSP address of the stream (for example:rtsp://address:port/path)..|
+| **URL** | Full RTSP address of the stream (for example: `rtsp://address:port/path`)..|
 
 ## Colour Correction
 

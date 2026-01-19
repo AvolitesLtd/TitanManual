@@ -189,6 +189,10 @@
             {
               "type": "doc",
               "id": "prism/play/media-manager"
+            },            
+            {
+              "type": "doc",
+              "id": "prism/play/timecode-triggers"
             }
           ]
         },

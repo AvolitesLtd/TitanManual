@@ -30,6 +30,10 @@ The results of these settings will be applied once the item is encoded.
 | **Channels** | The following channel configurations are supported: <br/><br/> - Mono <br/> - Stereo <br/> - 5.1 <br/> - 7.1 <br/><br/> Prism can only convert existing audio channels, it cannot alter the amount of channels in the source file. |
 | **Bit Depth** | Bit depth can be set between: <br/><br/> - 8 bits <br/> - 16 bits <br/> - 24 bits <br/> - 32 bits <br/><br/> The higher the bit rate, the greater the detail and dynamic range of the audio. |
 
+### Encode Presets
+
+**Encode Presets** allow to create and save presets for encoding settings. Presets can be recalled to quickly apply consistent encoding configurations without manually adjusting individual parameters.
+
 ### Trim Media
 
 To adjust trim points press the <Keys.PrismKey>Trim</Keys.PrismKey> button at the bottom of the panel.

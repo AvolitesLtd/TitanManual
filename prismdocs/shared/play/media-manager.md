@@ -4,7 +4,7 @@ title: Media Manager
 sidebar_label: Media Manager
 ---
 
-This table shows all media files in use in the *Banks*, where every row corresponds to a unique physical location on the file system. In addition to the media file properties (the same that are displayed in *Banks* [table view](./banks.md#table-view).) the number of *Banks* and *Bank Elements*, which are currently using the media file at the **Source** location, are displayed in the **Uses** column.
+**Media Manager** shows all media files currently used by the *Project*. It provides an overview of each media file’s properties and indicates how many *Banks* and *Bank Elements* are referencing the file at its source location.
 
 ![Table All](/prism-images/play/media-manager/table-all.png)
 
@@ -37,4 +37,4 @@ It is possible to filter the table rows by:
 ![Table Missing](/prism-images/play/media-manager/table-missing.png)
 
 ### Scan Media
-Clicking this button will automatically relocate any missing media files if they are found in their original location on the file system.
+Relocates missing media files by checking their original file system locations. This is useful for refreshing the **Media Manager** after media files have been removed and then added back to the same location.

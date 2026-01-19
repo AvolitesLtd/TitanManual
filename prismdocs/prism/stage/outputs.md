@@ -35,8 +35,6 @@ Selecting an output device will show its properties, automatically populated:
 - Refresh rate
 - HDR support
 
-After enabling the output, and playing a bank element on a layer, the surface will display on the output device.
-
 ## RTSP Output
 
 The RTSP Output allows the software to broadcast its video output as a live network stream using the RTSP (Real-Time Streaming Protocol). This makes the output available to other devices or applications on the network, such as media players, hardware decoders, streaming servers, or monitoring systems.
@@ -55,3 +53,5 @@ The RTSP Output acts as a live source, continuously sending video in real time.
 | **IP Address** | The network address on which the RTSP stream is hosted. Clients must use this address to connect to the stream. |
 | **Port**| RTSP typically uses port 554 by default, but any available TCP port can be configured.|
 | **Stream Name** | Identifies the stream path used in the RTSP URL. This name is appended to the address to form the complete stream URL. |
+
+> **Note:** The RTSP output URL (for example, `rtsp://address:port/path`) must be unique. Multiple RTSP outputs cannot share the same URL; otherwise, starting the output will fail.

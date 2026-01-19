@@ -14,6 +14,16 @@ The **Regions**  page is used to map a surface or layer to an output. It defines
 
 ![Prism](/prism-images/stage/regions/regions-page.png)
 
+### Region Types
+
+**Regions** can be created in two different types, depending on the mapping requirements:
+
+- **Rectangular Regions**  
+  Rectangular regions define a simple, rectangular sampling area from a surface or layer. They are ideal for standard displays, projectors, and basic output mappings.
+
+- **3D Model Regions**  
+  3D Model regions use a **3DS** model to define more complex mapping configurations. This allows content to be mapped onto irregular or non-rectangular surfaces, such as LED sculptures or architectural installations.
+
 ### Canvas Area
 
 The Source/Output dropdowns in the center of the application allow to preview both the selected input surface and the corresponding output composition.

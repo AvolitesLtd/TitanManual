@@ -19,7 +19,7 @@ The software can be controlled in realtime via **Prism's** dedicated UI or throu
 - Up to **256 Banks**
 - Up to **256 Elements per Bank**
 - Up to **4 video inputs**
-- **1 video output**
+- Up to **4 video outputs**
 - **Synergy** support
 
 **Prism** requires a license to run. Please refer to the [licensing page](/prism/licensing#prism) in this manual.
