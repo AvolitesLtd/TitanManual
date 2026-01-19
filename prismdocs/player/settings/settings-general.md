@@ -4,7 +4,7 @@ title: General Settings
 sidebar_label: General
 ---
 
-This page displays the general settings for **Prism Player**.
+The **General Settings** page provides global configuration options for **Prism Player**,
 
 ![Settings General](/prism-images/settings/player-settings-general.png)
 

@@ -68,7 +68,7 @@ function replaceComments(content, page) {
   // result = result
   //   .replace(new RegExp(`{{NDI-START-COMMENT}}`, 'g'), '')
   //   .replace(new RegExp(`{{NDI-END-COMMENT}}`, 'g'), '');
-  // remove all the NDI code
+  // REMOVE NDI code
   result = result.replace(/{{NDI-START-COMMENT}}[\s\S]*?{{NDI-END-COMMENT}}/g, '');
 
   // Iterate over the mappings and apply the transformations
