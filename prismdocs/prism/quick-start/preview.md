@@ -59,7 +59,7 @@ The **Player Controls** have check boxes against their properties, so that users
 |   Item                   |  Description  |
 |------------------------------|---------- |
 | **Cross Fade Duration**      | Cross Fade Duration of the layer.  |
-|  **Play Modes** | <Keys.PrismKey>Play List</Keys.PrismKey> - Play through all the media in the bank that the current element belongs to. <br/> <Keys.PrismKey>Loop</Keys.PrismKey> - Continuously play the same media element.<br/><Keys.PrismKey>Shuffle</Keys.PrismKey> - Randomly select and play media from the bank that the element belongs to.<br/><Keys.PrismKey>Play Once</Keys.PrismKey> - Play the media once and then display the last frame.<br/><Keys.PrismKey>Pause</Keys.PrismKey> - Stay on the current frame.<br/> <Keys.PrismKey>In Frame</Keys.PrismKey> - Display the first frame.<br/> <Keys.PrismKey>Out Frame</Keys.PrismKey> - Display the last frame.|
+|  **Play Modes** | <Keys.PrismKey>Play List</Keys.PrismKey> - Play through all the media in the bank that the current element belongs to. <br/> <Keys.PrismKey>Loop</Keys.PrismKey> - Continuously play the same media element.<br/><Keys.PrismKey>Shuffle</Keys.PrismKey> - Randomly select and play media from the bank that the element belongs to.<br/><Keys.PrismKey>Play Once</Keys.PrismKey> - Play the media once and then display the last frame.<br/><Keys.PrismKey>Pause</Keys.PrismKey> - Stay on the current frame.<br/> <Keys.PrismKey>In Frame</Keys.PrismKey> - Display the first frame.<br/> <Keys.PrismKey>Out Frame</Keys.PrismKey> - Display the last frame. <br/> <Keys.PrismKey>Timecode</Keys.PrismKey> - Allows playback to be synchronized to an external or internal timecode signal.|
 | **Aspect Modes**              | - **Fit**: Adjusts the content to **cover the entire surface, distorting** it if necessary. It does **not preserve the aspect ratio**, but ensures **no cropping** and **no black bars**. <br/> - **Box**: Adjusts the content to **fit entirely within the surface** while **preserving aspect ratio**. This ensures the whole content is visible, without cropping or distortion, but may introduce **black bars** (letterboxing or pillarboxing) to fill unused space.<br/> - **Center**: Adjusts the content to **fill the surface** while **preserving its original aspect ratio**. This may result in **cropping** around the edges. The content remains **centered** and is **not distorted**.<br/> - **Window**: Displays the content at its **original resolution and aspect ratio**, without any scaling. If the content is larger than the surface, parts of it may be **cropped**. There is **no distortion** and **no scaling** applied.|
 | **Trim In (%)** | Trim In of the layer. |
 | **Trim Out (%)** | Trim Out of the layer. |
@@ -97,6 +97,12 @@ This area controls the **Crop** of the Bank Element.
 |   Item      |  Description   |
 |----------------|---------|
 | **Source** | List of all Surfaces and Layers on  **Prism**.|
+
+## Network Stream
+
+|   Item      |  Description   |
+|----------------|---------|
+| **URL** | Full RTSP address of the stream (for example:rtsp://address:port/path)..|
 
 ## Colour Correction
 

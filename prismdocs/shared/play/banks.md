@@ -78,7 +78,11 @@ Any connected capture devices on the system.
 Please see both [Settings](../settings/settings-inputs.md) and [Preview](../quick-start/preview.md) pages in order to setup and select Webcam / Capture Devices.
 
 #### Virtual Return
-The virtual return element enables one layer in the project to receive the rendered output of another layer.
+The Virtual Return element enables one layer in the project to receive the rendered output of another layer.
+
+#### Network Stream
+The Network Stream element allows to receive and display live video streams transmitted over a network. It is typically used to connect to IP cameras, media servers, or other streaming devices that provide real-time video via standard streaming protocols such as RTSP.
+
 {{PRISM-END-COMMENT}}
 
 ### Actions

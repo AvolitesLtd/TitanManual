@@ -253,6 +253,10 @@
             },
             {
               "type": "doc",
+              "id": "prism/settings/settings-timecode"
+            },
+            {
+              "type": "doc",
               "id": "prism/settings/settings-encoder"
             },
             {

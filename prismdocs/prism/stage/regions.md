@@ -6,9 +6,9 @@ sidebar_label: Regions
 
 import Keys from '@site/src/components/key.ts';
 
-The **Regions** view is where a surface / layer can be mapped to an **Output**. Currently **Prism** supports one physical output.
+The **Regions**  page is used to map a surface or layer to an output. It defines how content from a selected source is sampled, positioned, and displayed on the chosen **Output**.
 
-**Regions** area way to sample from a selected *Source* (**Surface/Layer**) and map it to the selected *Output*.
+**Regions** allow to select a source (surface or layer) and map it to an **Output**, controlling how the content appears on the target display or stream.
 
 *Note: any changes on this page may cause the output to pause whilst changes are being applied.*
 
@@ -16,10 +16,8 @@ The **Regions** view is where a surface / layer can be mapped to an **Output**. 
 
 ### Canvas Area
 
-The Source/Output dropdowns in the center of the app allows for switching 
+The Source/Output dropdowns in the center of the application allow to preview both the selected input surface and the corresponding output composition.
 
 ### Region Controls
 
 Selecting a **Region** to show its controls to the right. Here is where a *Source* can be selected to sample from, and an *Output* can be selected to display the **Region** onto.
-
-Each **Region** has its own *x, y , width and height*.

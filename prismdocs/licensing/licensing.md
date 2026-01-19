@@ -6,10 +6,12 @@ sidebar_label: Prism Licensing
 
 ## Prism
 
-**Prism** is available in two license levels:
+**Prism** is available in three license levels:
 
 - **Zero Outputs** – For evaluation and previsualization. Includes **Synergy** support and no video inputs/outputs.
 - **One Output** – Includes up to 4 video inputs and 1 video output for live deployment.
+- **Two Outputs** – Includes up to 4 video inputs and 2 video outputs for live deployment.
+- **Four Outputs** – Includes up to 4 video inputs and 4 video outputs for live deployment.
 
 Refer to the feature table below for a detailed comparison of capabilities unlocked at each level.
 
@@ -27,35 +29,36 @@ All **Prism** licenses include:
 - **Synergy** support
 
 ### Prism Features
-| Feature / License Level | Zero Outputs | One Output |
-|-|-|-|
-| **Outputs (Physical/Virtual)**       | 0   | 1 |
-| **Outputs Max Resolution (px)** | 3840 x 3840 | 3840 x 3840 |
-| **Live Inputs**            | 0   | Up to 4 |
-| **Inputs Max Resolution (px)**  | 3840 x 3840 | 3840 x 3840 |
-| **Surfaces**                | Up to 16 | Up to 16 |
-| **Surface Max Resolution (px)** | 7680 x 7680 | 7680 x 7680 |
-| **Layers**                 | Up to 16 per **Surface** | Up to 16 per **Surface** |
-| **Banks**                  | Up to 256 | Up to 256 |
-| **Bank Elements**          | Up to 256 per **Bank** | Up to 256 per **Bank** |
-| **Synergy Support** |x| x|
+| Feature / License Level           | Zero Outputs              | One Output                | Two Outputs               | Four Outputs              |
+|-                                  |-                          |-                          |-                          |-                          |
+| **Outputs (Physical/Virtual)**    | 0                         | 1                         | 2                         | 4                         |
+| **Outputs Max Resolution (px)**   | 3840 x 3840               | 3840 x 3840               | 3840 x 3840               | 3840 x 3840               |
+| **Live Inputs**                   | 0                         | Up to 4                   | Up to 4                   | Up to 4                   |
+| **Inputs Max Resolution (px)**    | 3840 x 3840               | 3840 x 3840               | 3840 x 3840               | 3840 x 3840               |
+| **Surfaces**                      | Up to 16                  | Up to 16                  | Up to 16                  | Up to 16                  |
+| **Surface Max Resolution (px)**   | 7680 x 7680               | 7680 x 7680               |7680 x 7680                |7680 x 7680                |
+| **Layers**                        | Up to 16 per **Surface**  | Up to 16 per **Surface**  | Up to 16 per **Surface**  | Up to 16 per **Surface**  |
+| **Banks**                         | Up to 256                 | Up to 256                 | Up to 256                 | Up to 256                 |
+| **Bank Elements**                 | Up to 256 per **Bank**    | Up to 256 per **Bank**    | Up to 256 per **Bank**    | Up to 256 per **Bank**    |
+| **Synergy Support**               |x                          | x                         | x                         | x                         |
 
 <!-- **(*)** [NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB. -->
 
 ### License Unlock Table
 
-The table below shows which license types unlock each **Prism v2.0** license level:
+The table below shows which license types unlock each **Prism v2.1** license level:
 
-| Unlocks Prism License | Supported License Types                                      |
-|------------------------|-------------------------------------------------------------|
-| **Zero Outputs**        | Ai Demo                                                     |
-| **One Output**         | Prism One, Ai Anjuna, Ai Bondi, Ai Miami                 |
-
+| Unlocks Prism License | Supported License Types       |
+|-----------------------|-------------------------------|
+| **Zero Outputs**      | Ai Demo                       |
+| **One Output**        | Prism One                     |
+| **Two Outputs**       | Prism Two                     |
+| **Four Outputs**      | Ai Anjuna, Ai Bondi, Ai Miami |
 
 
 ## Prism Player
 
-**Prism Player** runs with any valid **AvoKey** or **Editor Keys** with a **Prism** (_Player_, _One_) or an **Ai** (_Demo_, _Anjuna_, _Bondi_, _Miami_) license.
+**Prism Player** runs with any valid **AvoKey** or **Editor Keys** with a **Prism** (_Player_, _One_, _Two_) or an **Ai** (_Demo_, _Anjuna_, _Bondi_, _Miami_) license.
 
 **Prism Player** can be installed without an **AvoKey** or **Editor Keys**, in this case an internet connection to download the free software license is required. The license is automatically installed as **Prism Player Component** or **3501 Avolites Prism Player**. The specific name of this license will appear in codemeter webadmin page, instructions are below.
 
