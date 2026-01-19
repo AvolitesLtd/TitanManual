@@ -6,7 +6,7 @@ sidebar_label: Regions
 
 import Keys from '@site/src/components/key.ts';
 
-The **Regions** view is where a surface / layer can be mapped to an **Output**. Currently **Prism** supports one physical output and one NDI output.
+The **Regions** view is where a surface / layer can be mapped to an **Output**. Currently **Prism** supports one physical output<!--  and one NDI output -->.
 
 **Regions** area way to sample from a selected *Source* (**Surface/Layer**) and map it to the selected *Output*.
 

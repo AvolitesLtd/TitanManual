@@ -5,11 +5,9 @@ sidebar_label: Inputs
 ---
 import Keys from '@site/src/components/key.ts';
 
-This page shows the list of physical inputs and virtual inputs available on the system. It also shows the settings for each **Source**, which are kept across all instances used within the app (either when loading the input in [Preview](../quick-start/preview.md) window or on a [Layer](../play/layers.md)).
+This page shows the list of physical inputs and virtual inputs available on the system. It also shows the settings for each **Source**, which are kept across all instances used within the app (either when loading the input on the [Preview](../quick-start/preview.md) window or on a [Layer](../play/layers.md)).
 
 ![Settings Inputs](/prism-images/settings/settings-inputs.png)
-
-Physical and virtual inputs list and their settings are shown on two separate sections respectively called **Live Inputs** and **NDI® Inputs**.
 
 ## Source Selection
 In order to change settings for a given input, first select an input from the dropdown on the left side.
@@ -18,11 +16,13 @@ The **Live Inputs** list will automatically update when plugging/unplugging a ph
 
 ![Source Selection](/prism-images/settings/source-selection-live.png)
 
+{{NDI-START-COMMENT}}
 If a new NDI® source is added or removed in the local network the **NDI® Inputs** list is updated.
 
 ![Source Selection](/prism-images/settings/source-selection-NDI.png)
 
 [NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.
+{{NDI-END-COMMENT}}
 
 ## Source Settings
 On the right side it is then possible to change the following settings:
