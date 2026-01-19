@@ -193,6 +193,10 @@
             {
               "type": "doc",
               "id": "prism/play/timecode-triggers"
+            },
+            {
+              "type": "doc",
+              "id": "prism/play/timecode"
             }
           ]
         },

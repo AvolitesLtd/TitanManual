@@ -17,5 +17,5 @@ Select the source used to generate the timecode:
 
 |   Item    |  Description  |
 |---------------|------------|
-| **Internal**      | Uses the system clock as the timecode reference. |
+| **Internal** | Uses an internally generated timecode that can be started, paused, and stopped within the application. Once enabled, the timecode can be controlled from the [Play](../play) page.|
 | **LTC**   | Uses an external LTC (Linear Timecode) module for timecode input. This is useful for synchronizing with external devices or live events. Requires Usb Expert to be enabled.|
