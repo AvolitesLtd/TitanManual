@@ -137,9 +137,10 @@ available.
 ## Freeze Fixtures or Attributes
 
 This option allows you to freeze individual attributes of a fixture, or
-to freeze the whole fixture. Attributes or fixtures which are frozen are
+to freeze the whole fixture, at a certain output setting. Attributes or fixtures which are frozen are
 not affected by playbacks or by the programmer.
 
+1. Set the Fixture or Dimmer to the desired output state.
 1. Press <Keys.HardKey>Patch</Keys.HardKey>.
 2. Press <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
 3. Press <Keys.SoftKey>Freeze Fixture or Attribute</Keys.SoftKey>.
@@ -148,7 +149,7 @@ not affected by playbacks or by the programmer.
 the whole fixture. Frozen attributes are indicated on the softkey.
 6. Press <Keys.HardKey>Exit</Keys.HardKey> when finished.
 
--   Freeze can also be set from the Attribute Behaviour tab of the Patch
+-   A dimmer or entire fixture can be Frozen using the **Frozen** checkbox in the Patch
     View window.
 
 -   A "Frozen" watermark is shown on the wheel display when an attribute

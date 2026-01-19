@@ -15,16 +15,16 @@ keyboard to filter the list) then fixture type, then fixture mode.
 Set <Keys.SoftKey>DMX Line</Keys.SoftKey> and <Keys.SoftKey>Address</Keys.SoftKey>. Console will automatically set these
 if you don't change them.
 
-Press buttons in the Fixtures window to patch the fixture, or patch
-fixtures on faders (except the main playback faders) by pressing the
-blue select button (See [Patching Fixtures or Dimmers](../patching/patching-new-fixtures-or-dimmers.md)).
+Press buttons in the Fixtures window to patch the fixtures (See [Patching Fixtures or Dimmers](../patching/patching-new-fixtures-or-dimmers.md)).
 
 To patch a number of dimmers or fixtures at once, draw a selection box
-over buttons on the screen, or on physical buttons hold down first
-select button and press last in range. Or, set <Keys.SoftKey>Quantity</Keys.SoftKey> in the patch
+over buttons on the screen. Or, set <Keys.SoftKey>Quantity</Keys.SoftKey> in the patch
 menu.
 
-To change DMX address or line, use <Keys.SoftKey>Repatch Fixtures</Keys.SoftKey> (see [Repatch Fixtures](../patching/changing-the-patch.md#fixture-exchange)).
+To change DMX address or line once patched, use <Keys.SoftKey>Repatch Fixtures</Keys.SoftKey> or the Patch View screen as described below.
+
+To replace/exchange/morph fixtures with similar fixtures, patch new fixture onto same button(s) as old fixture
+and select <Keys.SoftKey>Exchange Fixture</Keys.SoftKey>  (see [Exchange Fixture](../patching/changing-the-patch.md#fixture-exchange)). Titan will try to map similar attributes or you can do this yourself.
 
 ## View fixture patch
 

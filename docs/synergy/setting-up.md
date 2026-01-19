@@ -10,7 +10,7 @@ import Video from '@site/src/components/video.tsx';
 ## Connecting up an Ai server
 
 The Ai server(s) need to be connected by Ethernet to the Titan console.
-[Media previews](operating-synergy.md#media-viewer) use NDI streams which along with copying of large media
+Large media
 files can place a heavy demand on the network, so you should follow
 these tips for setting up a suitable network:
 
@@ -21,8 +21,12 @@ these tips for setting up a suitable network:
 -   If you are using Titan PC Suite (Titan Go / Simulator), make sure Windows Firewall is turned
     off
 
-> The Ai server(s) must have the correct version of Synergy installed  to match your Titan version. To upgrade Synergy on the Ai server, download the Synergy Upgrade Installer from the 
-[Avolites Download page](https://www.avolites.com/software/latest-version) and run it on the Ai server. You don't need to do anything extra on the console as the Titan installer will automatically install the latest version of Synergy on the console. 
+> The Ai server(s) must have the correct version of Titan Media Node installed to match your Titan version. Titan Media Node versions can be downloaded from the Avolites website 
+[Avolites Download page](https://www.avolites.com/software/latest-version). You don't need to do anything extra on the console as the Titan installer will automatically install the correct version on the console. 
+
+In the Ai System Settings screen, go to the Art-Net / CITP options and select the **Titan Media Node Version** drop down box to match the version of Titan you have installed (the first number should match). Then turn on the **Enable Synergy** switch. Ai will start the Titan Media Node. When the Titan Media Node is running, the top status bar will show "TitanNet Enabled".  (Ai v12.2 onwards - in previous versions of Ai, Synergy Upgrades are used).
+
+![Ai Settings Window](/docs/images/Ai-Titan-Media-Node.png)
 
 If you have problems getting Titan and Ai to recognise each other, make
 sure they are on matching software versions, and both in the same IP
@@ -44,13 +48,13 @@ you have created in Ai will then become available as Surfaces in Titan.
 
 You can connect to Prism Zero software running on any device connected to the same network as the console. 
 
-In the Prism Zero settings screen (File - Settings or click the menu icon in the top left corner), go to the Synergy option and turn on the **Enable Synergy** switch. Ensure the **Synergy Version** drop down box is set to match the version of Titan you have installed. Prism Zero will start the Titan Media node which is a Titan node designed to interface with Prism. When the Titan Media node is running, the Connection Status will change to "Connected". These settings are remembered next time you start Prism Zero.
+In the Prism Zero settings screen (File - Settings or click the menu icon in the top left corner), go to the Synergy option and turn on the **Enable Synergy** switch. Ensure the **Synergy Version** drop down box is set to match the version of Titan you have installed. Prism Zero will start the Titan Media Node which is a Titan node designed to interface with Prism. When the Titan Media Node is running, the Connection Status will change to "Connected". These settings are remembered next time you start Prism Zero.
 
 ![Prism Zero Settings Window](/docs/images/prism-zero.png)
 
-Once connected, the Titan Media node will be discoverable by TitanNet and you can use the Prism Zero output as a media surface in Titan by following the next section.
+Once connected, the Titan Media Node will be discoverable by TitanNet and you can use the Prism Zero output as a media surface in Titan by following the next section.
 
--   If the version box does not show a matching version, you need to install the correct version of Titan Media node from the Avolites website.
+-   If the version box does not show a matching version, you need to install the correct version of Titan Media Node from the Avolites website.
 
 ## Synergy Setup
 
@@ -64,7 +68,7 @@ server(s) or to Prism Zero. Also, for Ai servers it lets you add or remove layer
 and add complete new surfaces to the server (though you may need to
 configure these further on the Ai server itself).
 
-![Synergy Settings Window](/docs/images/Synergy-Settings-Window-v15.jpg)
+![Synergy Settings Window](/docs/images/Synergy-Settings-Window-v19.png)
 
 On the left of the window the available Ai
 servers or Prism Zero instances are shown. In the centre of the window, the Surfaces and Layers
@@ -77,7 +81,7 @@ Click on the <Keys.ContextKey>+</Keys.ContextKey> at the bottom and select a Scr
 new surface. This will appear at the top; an Ai surface by default has two layers
 but you can change this later. A Prism Zero surface only has a single layer.
 
-![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-screen-settings-v15.jpg)
+![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-Screen-Settings-v19.png)
 
 Clicking on the top part of a Surface will
 show options on the right for the surface. These options allow you to
@@ -92,10 +96,7 @@ This allows you to allocate a Rate or BPM master to the layer for speed
 control.
 
 When no Surfaces or Layers are selected, the right side of the window
-shows general information about the system. There is a switchable option
-"Automatic NDI Previews" to enable or disable NDI streams - if you are
-using the media preview window, you will need to turn this on. If not
-leave it turned off, as it causes a lot of network traffic.
+shows general information about the system. 
 
 Once you have created a surface in Titan, you need to match it to the desired Ai
 surface or Prism Zero. Click on the <Keys.ContextKey>Link</Keys.ContextKey> button on the unmatched surface at the
@@ -103,11 +104,11 @@ bottom, then click on the Screen 1 surface at the top (or you can click
 **"Link to new Surface"** to automatically create a new surface and link to
 it).
 
-![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-linking-a-screen-v15.jpg)
+![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-Linking-A-Screen-v19.png)
 
 The Screen 1 Surface will now show that it is linked to the Ai server or Prism Zero and the unmatched server at the bottom disappears.
 
-![Synergy Settings Window with a linked screen](/docs/images/Synergy-Settings-Window-with-a-linked-screen-v15.jpg)
+![Synergy Settings Window with a linked screen](/docs/images/Synergy-Settings-Window-With-A-Linked-Screen-v19.png)
 
 On an Ai server you can link the Screen 1 Surface to one or more different physical
 outputs by clicking the screen, then clicking the
