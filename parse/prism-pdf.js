@@ -13,8 +13,8 @@ const logoPath = path.join(__dirname,"PDF/avo.png");
 let previousHeading = ""; //use to help determine when a page break should happen
 
 const docs = [
-    { sidebar: 'player', appName: 'Prism Player', version: "v2.0", path: 'Player' },
-    { sidebar: 'prism', appName: 'Prism', version: "v2.0", path: 'Prism' },
+    { sidebar: 'player', appName: 'Prism Player', version: "v2.1", path: 'Player' },
+    { sidebar: 'prism', appName: 'Prism', version: "v2.1", path: 'Prism' },
     // Add more pages as needed
 ]
 
