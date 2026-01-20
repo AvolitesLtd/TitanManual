@@ -95,9 +95,9 @@ More information found at [Import/Export](./import-export.md)
 
 In this section it is possible to navigate the following app **Views**:
 
-- [Play](../play/play.md).
-- [Encoder](../encoder/encoder.md).
-- [Settings](../settings/settings.md).
+- [Play](../play/play.md)
+- [Encoder](../encoder/encoder.md)
+- [Settings](../settings/settings.md)
 
 An underline will give visual feedback of the selected **View**.
 

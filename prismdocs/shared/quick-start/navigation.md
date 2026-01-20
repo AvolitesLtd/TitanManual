@@ -141,16 +141,16 @@ More information found at [Import/Export](./import-export.md)
 In this section it is possible to navigate the following app **Views**:
 
 {{PRISM-START-COMMENT}}
-- [Play](../play/play.md).
-- [Stage](../stage/stage.md).
-- [Encoder](../encoder/encoder.md).
-- [Settings](../settings/settings.md).
+- [Play](../play/play.md)
+- [Stage](../stage/stage.md)
+- [Encoder](../encoder/encoder.md)
+- [Settings](../settings/settings.md)
 {{PRISM-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
-- [Play](../play/play.md).
-- [Encoder](../encoder/encoder.md).
-- [Settings](../settings/settings.md).
+- [Play](../play/play.md)
+- [Encoder](../encoder/encoder.md)
+- [Settings](../settings/settings.md)
 {{PLAYER-END-COMMENT}}
 
 An underline will give visual feedback of the selected **View**.

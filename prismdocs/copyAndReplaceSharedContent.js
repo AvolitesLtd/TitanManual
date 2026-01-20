@@ -7,8 +7,8 @@ const pages = [
     id: 'prism-player', app: 'Prism Player', path: 'Player',
     excludes: [
       "live-input-setup", //Quick Start
-      "layers", "layer-controls", "surfaces", "media-manager", //Play
-      "settings-synergy", "settings-inputs",//Settings
+      "layers", "layer-controls", "surfaces", "media-manager", "timecode-triggers", "timecode", //Play
+      "settings-synergy", "settings-inputs", "settings-timecode",//Settings
       "preview" //Preview
     ]
   },
