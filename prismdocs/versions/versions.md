@@ -8,7 +8,7 @@ sidebar_label: Prism Versions
 
 | Version | Documentation | PDF | Release Notes |
 |-|-|-|-|
-| **2.1** | [Documentation](../prism/introduction.md)| PDF (v2.1) | Release Notes (v2.1) |
+| **2.1** | [Documentation](../prism/introduction.md)| PDF (v2.1) | [Release Notes (v2.1)](https://web3.avolites.com/Portals/0/Downloads/ReleaseNotes/PrismSuite/Prism_Suite_v2_1_Release%20Notes.pdf) |
 | **2.0** | | [PDF (v2.0)](https://web3.avolites.com/Portals/0/Downloads/Manuals/PrismSuite/Prism-v2-0.pdf) | [Release Notes (v2.0)](https://web3.avolites.com/Portals/0/Downloads/ReleaseNotes/PrismSuite/Prism_Suite_v2_0_Release%20Notes.pdf) |
 | **1.3** | | [PDF (v1.3)](https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.54/Prism-v1-3.pdf) | [Release Notes (v1.3)](https://web3.avolites.com/Portals/0/Downloads/ReleaseNotes/PrismSuite/Prism_Suite_v1_3_Release%20Notes.pdf) |
 
@@ -16,7 +16,7 @@ sidebar_label: Prism Versions
 
 | Version | Documentation | PDF | Release Notes |
 |-|-|-|-|
-| **2.1** | [Documentation](../prism/introduction.md)| PDF (v2.1) | Release Notes (v2.1) |
+| **2.1** | [Documentation](../player/introduction.md)| PDF (v2.1) | [Release Notes (v2.1)](https://web3.avolites.com/Portals/0/Downloads/ReleaseNotes/PrismSuite/Prism_Suite_v2_1_Release%20Notes.pdf) |
 | **2.0** | | [PDF (v2.0)](https://web3.avolites.com/Portals/0/Downloads/Manuals/PrismSuite/Prism-Player-v2-0.pdf) | [Release Notes (v2.0)](https://web3.avolites.com/Portals/0/Downloads/ReleaseNotes/PrismSuite/Prism_Suite_v2_0_Release%20Notes.pdf) |
 | **1.3** | | [PDF (v1.3)](https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.54/Prism-Player-v1-3.pdf) | [Release Notes (v1.3)](https://web3.avolites.com/Portals/0/Downloads/ReleaseNotes/PrismSuite/Prism_Suite_v1_3_Release%20Notes.pdf) |
 | **1.2** | | [PDF (v1.2)](https://github.com/AvolitesLtd/TitanManual/releases/download/1.0.49/Prism-Player-v1-2.pdf) | [Release Notes (v1.2)](https://web3.avolites.com/Portals/0/Downloads/ReleaseNotes/PrismZero/Prism_Zero_v1_2_Release%20Notes.pdf) |
