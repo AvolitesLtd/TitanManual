@@ -5,7 +5,6 @@ sidebar_label: Play
 ---
 
 {{PRISM-START-COMMENT}}
-## Play Page
 
 The **Play page** is the main workspace for managing and playing media. It allows you to organize media into **Banks**, control playback on **Layers**, and preview content before it is loaded live.
 

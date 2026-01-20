@@ -4,8 +4,6 @@ title: Play
 sidebar_label: Play
 ---
 
-## Play Page
-
 The **Play page** is the main workspace for managing and playing media. It allows you to organize media into **Banks**, control playback on **Layers**, and preview content before it is loaded live.
 
 Media can be adjusted in the **Preview** before being launched on a layer, and layer-specific parameters can be modified using the **Layer Controls** panel.
