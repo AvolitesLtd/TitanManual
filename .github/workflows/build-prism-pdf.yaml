@@ -1,0 +1,30 @@
+name: Build Prism PDF
+
+on:
+  workflow_dispatch
+
+env:
+  NODE_VERSION: '16.x'
+
+jobs:     
+  prismpdf:
+    name: Prism PDF
+    if: ${{ github.event.inputs.build_type == 'all' || github.event.inputs.build_type == 'prismpdf' }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Prism PDF Docker Build
+        run: |
+          docker compose run prismpdf
+          mkdir downloads
+          mv parse/output/*.pdf downloads
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: 'Prism PDF'
+          path: downloads
