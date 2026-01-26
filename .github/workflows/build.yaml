@@ -1,7 +1,18 @@
 name: Build
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
+    inputs:
+      build_type:
+        description: 'Select Build Type'
+        required: true
+        default: 'All'
+        type: choice
+        options:
+          - All
+          - App Only
+          - Titan PDF Only
+          - Prism PDF Only
 
 env:
   NODE_VERSION: '16.x'
@@ -9,6 +20,7 @@ env:
 jobs:  
   app:
     name: App Build
+    if: ${{ github.event.inputs.build_type == 'All' || github.event.inputs.build_type == 'App Only' }}
 
     runs-on: ${{ matrix.os }}
 
@@ -67,6 +79,7 @@ jobs:
           
   pdf:
     name: PDF
+    if: ${{ github.event.inputs.build_type == 'All' || github.event.inputs.build_type == 'Titan PDF Only' }}
 
     runs-on: ubuntu-latest
 
@@ -89,6 +102,7 @@ jobs:
           
   prismpdf:
     name: Prism PDF
+    if: ${{ github.event.inputs.build_type == 'All' || github.event.inputs.build_type == 'Prism PDF Only' }}
 
     runs-on: ubuntu-latest
 
