@@ -9,7 +9,6 @@ env:
 jobs:     
   prismpdf:
     name: Prism PDF
-    if: ${{ github.event.inputs.build_type == 'all' || github.event.inputs.build_type == 'prismpdf' }}
 
     runs-on: ubuntu-latest
 
