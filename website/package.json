@@ -25,7 +25,7 @@
     "pdf": "node ../parse/pdf.js",
     "prism-pdf": "node ../parse/prism-pdf.js",
     "docker-pdf": "cd .. && docker-compose up --build pdf",
-    "docker-prism-pdf": "cd .. && docker-compose up --build prism-pdf",
+    "docker-prism-pdf": "cd .. && docker-compose up --build prismpdf",
     "app": "electron .",
     "app-sass": "node-sass app/scss/ -o app/sources/local/ --output-style compressed && node-sass --watch app/scss/ -o app/sources/local/ --output-style compressed",
     "app-pre-build": "npm run build",

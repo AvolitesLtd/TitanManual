@@ -13,4 +13,13 @@ Everything else will be copied over and replaced.
 To run the scripts:
 - open terminal and move to "TitanManual\prismdocs"
 - run 'node clearContent.js'
-- run 'node copyAndReplaceSharedContent.js'cd
+- run 'node copyAndReplaceSharedContent.js'
+
+
+## Building PDF locally
+
+- Install Docker Desktop - https://www.docker.com/
+- Open PowerShell as admin - run `wsl --update`
+- Open Docker Desktop make sure it is running from system tray
+- run command from `website` folder `yarn docker-prism-pdf`
+- check output at `TitanManual\parse\output`
