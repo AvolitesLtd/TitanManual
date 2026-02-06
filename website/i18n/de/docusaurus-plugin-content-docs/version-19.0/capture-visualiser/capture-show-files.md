@@ -30,10 +30,10 @@ Zum Importieren müssen die Dateien im richtigen Verzeichnis sein:
 - Im Titan-Showverzeichnis (normalerweise `Documents\Titan\Shows`).
 - Im Stammverzeichnis eines USB-Sticks.
 
-> Der interne Capture-Visualiser in v14 und v15 verwendet Capture 2020 *(Titan v12 und v13 
+> Der interne Capture-Visualiser verwendet Capture 2024 *(in Titan v14-v18 wurde Capture 2020 verwendet, Titan v12 und v13 
   verwendete Capture 2018, frühere Titan-Versionen verwendeten Capture Atlas)*. Capture-Setups 
   aus neueren Versionen können nicht importiert werden. Exportieren Sie also die richtige 
-  Version mit **Export for Capture 2020** in der Capture-Vollversion.
+  Version mit **Export for Capture 2024** in der Capture-Vollversion.
 
 Beim Importieren kompletter Shows aus der Capture-Vollversion
 muss sichergestellt sein, dass das Patch stimmt. Das Patch aus

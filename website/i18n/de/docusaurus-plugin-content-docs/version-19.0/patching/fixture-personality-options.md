@@ -147,19 +147,20 @@ Die verschiedenen Kennlinien sind im Abschnitt [Curves -- Kennlinien/Kurven](../
 ## Geräte oder Attribute fixieren (Freeze)
 
 Mit dieser Funktion lassen sich einzelne Attribute oder komplette Geräte
-fixieren. Diese werden dann weder vom Programmierspeicher noch von
+auf einen bestimmten Wert fixieren. Fixierte Geräte/Attribute werden dann weder vom Programmierspeicher noch von
 programmierten Cues/Cuelisten beeinflusst.
 
-1.  Drücken Sie <Keys.HardKey>Patch</Keys.HardKey>.
-2.  Drücken Sie <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
-3.  Drücken Sie <Keys.SoftKey>Freeze Fixture or Attribute</Keys.SoftKey>
-4.  Wählen Sie die zu fixierenden Geräte.
-5.  Wählen mit den Menütasten, welches Attribut oder ob das gesamte
+1.  Stellen Sie das Attribut bzw. Gerät wie gewünscht ein.
+2.  Drücken Sie <Keys.HardKey>Patch</Keys.HardKey>.
+3.  Drücken Sie <Keys.SoftKey>Edit Fixtures</Keys.SoftKey>.
+4.  Drücken Sie <Keys.SoftKey>Freeze Fixture or Attribute</Keys.SoftKey>
+5.  Wählen Sie die zu fixierenden Geräte.
+6.  Wählen mit den Menütasten, welches Attribut oder ob das gesamte
 	Gerät fixiert werden soll. Im Display wird die gewählte Einstellung
 	angezeigt.
-6.  Klicken Sie <Keys.HardKey>Exit</Keys.HardKey>, um den Vorgang abzuschließen.
+7.  Klicken Sie <Keys.HardKey>Exit</Keys.HardKey>, um den Vorgang abzuschließen.
 
--   Das Fixieren kann auch im Attribute Behaviour-Reiter der
+-   Das Fixieren kann auch mittels der Checkbox **Frozen** in der
     Patch-Ansicht erfolgen.
 
 -   Fixierte Attribute werden durch das Symbol "Frozen" bei den

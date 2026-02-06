@@ -7,7 +7,7 @@ sidebar_label: Das Titan Mobile
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Das Titan Mobile ist ein PC-Wing, der mittels USB an einen Computer
+Das Titan Mobile ist ein USB-Panel, das an einen Computer
 angeschlossen wird, auf dem Titan Go läuft. Zu den 
 Systemanforderungen siehe [Inbetriebnahme von T3/Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-t3titan-mobile-und-t1t2).
 
@@ -107,3 +107,23 @@ Avolites-Händler.
 &nbsp;<Keys.Annotation>T</Keys.Annotation> Die Erdungsbuchse (unterhalb des 
 optionalen Netzteilanschlusses) erlaubt es, das Pult separat zu erden, um 
 eventuelle DMX-Probleme zu beheben.
+
+## Titan Mobile Wing
+
+Das Titan Mobile Fader Wing stellt zusätzlich zum Pult 20 Fader sowie 30
+Macro-/Exekutor-Tasten zur Verfügung. Es wird einfach durch ein
+USB-Kabel mit dem Pult (bei Verwendung des Titan Mobile: mit dem
+Computer, auf dem die Software läuft) verbunden.
+
+Es hat die gleiche Form wie das Titan Mobile und passt perfekt zu
+diesem, kann aber auch mit allen anderen Titan-Pulten sowie dem T2 betrieben werden.
+
+![Titan Mobile Wing](/docs/images/Titan-Mobile-Wing.png)
+
+Zur Anzeige der Belegung der Fader und Tasten auf dem Wing gibt es das Fenster
+"Mobile Wing". Um dieses zu öffnen, drücken Sie zweimal 
+auf <Keys.HardKey>View/Open</Keys.HardKey> und wählen "Mobile Wing". Mit den 
+Kontext-Buttons kann man verschiedene Anzeigearten dieses Fensters wählen, z.B. 
+alles zusammen, nur die Fader, nur die Tasten etc.
+
+> Der Umschalter neben dem USB-Anschluss hat keine Funktion.

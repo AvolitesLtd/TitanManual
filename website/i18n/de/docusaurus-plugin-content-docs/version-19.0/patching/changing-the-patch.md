@@ -25,7 +25,8 @@ Buttons werden nur Geräte dieses Typs angezeigt.
 
 &nbsp;**Line:** die verfügbaren DMX-Linien. Die Balkenanzeige zeigt die
 Auslastung der einzelnen Linien an. Klickt man auf die jeweilige
-Schaltfläche, werden Details der Linien angezeigt.
+Schaltfläche, werden Details der Linien angezeigt. (Es werden nur Linien angezeigt, 
+auf denen tatsächlich Geräte gepatcht sind).
 
 Der **farbige Balken** oben zeigt, wie die einzelnen Gerätetypen auf der
 aktuell ausgewählten Linie verteilt sind. Klickt man auf einen Bereich,
@@ -133,7 +134,8 @@ bestätigen.
 -   Sie können auch Geräte 'parken' (mit der Funktion <Keys.SoftKey>Park</Keys.SoftKey>). Damit
     wird das Gerät aus dem Patch entfernt, aber die Programmierung
     bleibt erhalten. Die ursprüngliche DMX-Linie und --Adresse werden
-    gespeichert und können mit <Keys.SoftKey>Unpark</Keys.SoftKey> wiederhergestellt werden.
+    gespeichert und können mit <Keys.SoftKey>Unpark</Keys.SoftKey> wiederhergestellt werden. (Um 
+	dagegen Geräte auf einem bestimmten Wert zu fixieren, nutzen Sie [Freeze](fixture-personality-options.md?#geräte-oder-attribute-fixieren-freeze)).
 
 -   Wenn die neue DMX-Adresse bereits anderweitig in Verwendung ist,
     gibt das Pult eine Warnung aus (sofern das nicht in den
@@ -238,6 +240,9 @@ Mit den Schaltflächen in der linken Spalte lässt sich die Anzeige nach
 Attributen und Gerätetypen filtern sowie das anzuzeigende
 DMX-Universum wählen. Durch Scrollen nach rechts lassen sich weitere
 Informationen pro Kanal anzeigen.
+
+in der Spalte **Input** werden Werte angezeigt, die am Eingang anliegen (siehe [$$$Using DMX/sACN Input](/controlling-fixtures/changing-fixture-attributes.md#using-dmxsacn-input)). 
+Diese Spalte kann mit dem Button <Keys.ContextKey>Input Data</Keys.ContextKey> im Kontextmenü ein- und ausgeblendet werden.
 
 ## Geräte austauschen
 

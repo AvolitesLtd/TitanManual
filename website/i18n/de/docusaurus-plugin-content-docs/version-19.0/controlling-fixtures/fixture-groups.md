@@ -160,17 +160,13 @@ sich.
 Zunächst sind alle Geräte in einer Zeile nebeneinander angeordnet. Die
 Anordnung ändert man einfach, indem man ein Gerät auf seine neue
 Position zieht. Ebenso kann man einzelne Geräte durch Anklicken
-markieren und die Position mit den Rädern verändern. Zum Ändern der
+markieren und die Position mit den Encodern verändern (Verschieben mit **Position X** und **Position Y**, Rotieren mit **Angle**). Zum Ändern der
 Gesamtgröße der Anordnung dient die rechte und untere Seite des Rasters
 (ebenfalls klicken und ziehen).
 
 Geräte mit mehreren Zellen werden mit allen Zellen dargestellt, können
 im Layout jedoch nur als ganzes verschoben und rotiert werden. Das
 Layout der Zellen wird in der jeweiligen Personality festgelegt.
-
-Mit <Keys.SoftKey>Arrange Fixtures</Keys.SoftKey> werden die Geräte automatisch in einem Rechteck
-entsprechend den Vorgaben für Rows (Zeilen, Höhe) und Columns (Spalten,
-Breite) angeordnet.
 
 ![Group Layout Editor](/docs/images/Layout-Editor.png)
 
@@ -186,7 +182,10 @@ Breite) angeordnet.
     oder man wählt das verdeckte z.B. über die Zifferntasten oder mit
     <Keys.HardKey>Fix+1</Keys.HardKey> aus und verschiebt es mithilfe der Räder.
 
--   Mit der <Keys.HardKey>Fan</Keys.HardKey>-Funktion können Geräte 
+-   Mit <Keys.SoftKey>Arrange Fixtures</Keys.SoftKey> werden die Geräte automatisch in einem Rechteck
+    entsprechend den Vorgaben für Rows (Zeilen, Höhe) und Columns (Spalten, Breite) angeordnet.
+
+-   Mit der <Keys.HardKey>Fan</Keys.HardKey>-Funktion zusammen mit den X/Y-Encodern können Geräte 
     gleichmäßig verteilt werden.
 
 -   Um Geräte zu verschieben oder zu rotieren, klicken und ziehen Sie
@@ -194,6 +193,18 @@ Breite) angeordnet.
     betreffenden Up/Down-Flächen der Räder im Display klicken, um die
     Werte zu ändern (+/- 1 px oder +/- 45°). Mit der @-Taste des
     jeweiligen Rades lässt sich auch der Wert numerisch eingeben.
+
+-   Sind mehrere Geräte ausgewählt, so wird mit **Angle** (Encoder C) jedes einzeln um seine Achse gedreht.
+    Will man statt dessen die komplette Geräteauswahl um ihr Zentrum drehen, so wechselt man im 
+	Kontextmenü <Keys.SoftKey>Wheels Rotate Individual Fixtures</Keys.SoftKey> zu <Keys.SoftKey>Wheels Rotate Selection</Keys.SoftKey>.
+
+-   Normalerweise springen Positionen immer zu ganzen Pixeln (Kästchen), und der Winkel springt in 45°-Schritten. Um auch Zwischenwerte zu ermöglichen,
+    schaltet man im Kontextmenü <Keys.SoftKey>Wheels Move Full Pixel</Keys.SoftKey> zu <Keys.SoftKey>Wheels Move Sub Pixel</Keys.SoftKey> um.
+
+-   Wird eine Gruppe aus einzelnen Zellen von Geräten gebildet (siehe [Geräte mit mehreren Zellen/Subfixtures](../controlling-fixtures.md#fixtures-with-multiple-cellssub-fixtures)), so
+	kann man im Editor die Position der einzelnen Zellen einstellen. Damit lassen sich auch Geräte korrekt verwenden, bei denen in der Personality
+	das Layout nicht korrekt hinterlegt ist. Es empfiehlt sich aber, entweder die Personality zu korrigieren oder den Bug in der Personality 
+	zu melden und von Avolites beheben zu lassen.
 
 -   Klickt man im Kontextbereich auf <Keys.SoftKey>Position and Angle</Keys.SoftKey>, 
     so wechselt die Funktion zu <Keys.SoftKey>Scale</Keys.SoftKey>, und 

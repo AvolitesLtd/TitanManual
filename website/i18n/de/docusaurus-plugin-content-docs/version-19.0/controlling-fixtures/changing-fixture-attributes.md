@@ -637,3 +637,22 @@ z.B. mit <Keys.SoftKey>Dimmer Off</Keys.SoftKey>.
 -   Um komplette Geräte im Programmer zu deaktivieren, wählen Sie diese
     an, drücken <Keys.HardKey>Off</Keys.HardKey> und dann <Keys.SoftKey>Selected Fixtures Off</Keys.SoftKey>.
 
+## Verwenden von DMX/sACN-Eingang
+
+In den DMX-Einstellungen lässt sich eine [DMX-Linie als Input einem sACN-Universum hinzufügen](/system-settings/dmx-output-mapping.md#dmx-sacn-input), um die auf dieser Linie gepatchten Geräte direkt durch ein externes Pult steuern zu können. Die Fixtures auf dieser Linie können mit dem externen Signal kontrolliert werden, und das Ergebnis kann in Titan mit abgespeichert werden.
+
+Es können sowohl ganze Fixtures als auch nur einzelne Attribute extern gesteuert werden.
+
+Es gibt drei Wege, ein Gerät oder Attribut extern zu steuern:
+
+- Wählen Sie ein oder mehrere Geräte aus, drücken Sie <Keys.HardKey>Include</Keys.HardKey>, dann <Keys.SoftKey>Live DMX Input</Keys.SoftKey>. Drücken Sie <Keys.HardKey>Enter</Keys.HardKey> oder <Keys.SoftKey>Include Live Input</Keys.SoftKey>, um die externe Steuerung der Geräte zu ermöglichen (per Attributmaske lässt sich bestimmen, welche Attribute extern gesteuert werden können).
+
+- Wählen Sie ein oder mehrere Geräte aus und drücken Sie die @-Taste des zu steuernden Attributs, um das Menü **Adjust Attribute Value** zu öffnen. Drücken Sie nun die Menütaste <Keys.SoftKey>Live DMX Input</Keys.SoftKey>, um die externe Steuerung dieses Attributs zu aktivieren.
+
+- Wählen Sie im Channel Grid (Kanalübersicht) die extern zu steuernden Kanäle und drücken Sie auf die Menütaste <Keys.SoftKey>Live DMX Input</Keys.SoftKey>.
+
+Werden Geräte bzw. Attribute extern gesteuert, so wird dies mit dem Wasserzeichen "DMX Input" angezeigt. Im Channel Grid und im Intensity View wird ein "Input"-Icon dargestellt.
+
+Das extern anliegende Signal kann nun in Playbacks und Paletten gespeichert werden.
+
+Wird im Pult selbst ein anderer Wert eingestellt, z.B. mit den Encodern oder durch Aufrufen eine Palette, so wird für das betreffende Attribut der DMX-Eingang deaktiviert. Betätigen von <Keys.HardKey>Clear</Keys.HardKey> deaktiviert den DMX-Eingang für sämtliche Geräte.

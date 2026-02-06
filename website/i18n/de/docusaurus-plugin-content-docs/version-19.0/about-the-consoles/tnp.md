@@ -12,7 +12,7 @@ import Video from '@site/src/components/video.tsx';
 
 Der TitanNet Prozessor ist nichts anderes als die Elektronik eines
 Pultes ohne die Fader und Tasten. Er erlaubt es, die Anzahl der
-verwendeten DMX-Linien in einer Show über die 16 Linien hinaus zu
+verwendeten DMX-Linien in einer Show über die Anzahl an Linien hinaus zu
 erweitern, die von einem Pult allein zur Verfügung gestellt werden,
 indem die Rechenarbeit über mehrere Einheiten verteilt wird.
 

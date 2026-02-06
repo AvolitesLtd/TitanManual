@@ -1,7 +1,7 @@
 ---
 id: diamond
 title: Diamond 9
-sidebar_label: Das Diamond 9
+sidebar_label: D9
 description: Diamond 9 - console design and features
 ---
 
@@ -29,8 +29,7 @@ angezeigt und verändert, während auf den **Macro/Executor-Tasten** Playbacks, 
 Arbeitsumgebungen (Layouts der Displays) oder z.B. Gruppen gespeichert werden können. Links davon befindet sich die 
 Ablaufsteuerung für Cuelisten sowie der T-Griff des Scene Masters.
 
-&nbsp;<Keys.Annotation>E</Keys.Annotation> Drei kleine **Layer-Screens** dienen etwa der Anzeige von NDI-Video-Feeds 
-oder für weitere Arbeitsfenster.
+&nbsp;<Keys.Annotation>E</Keys.Annotation> Drei kleine **Layer-Screens** dienen der Anzeige von weiteren Arbeitsfenstern.
 
 
 

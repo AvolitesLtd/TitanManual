@@ -120,7 +120,7 @@ oder über das Fenster [Patch View](./changing-the-patch.md#patch-view).
   des Herstellers, um die Suche zu vereinfachen.
 4. Wählen Sie das entsprechende Gerät (auch hier kann man mit F und G
   blättern, oder die ersten Buchstaben des Gerätes auf der Tastatur tippen).
-5. Wählen Sie ggf. die korrekte Betriebsart (Modus) des Gerätes mit den Funktionstasten aus.
+5. Wählen Sie die Betriebsart (Modus) des Gerätes mit den Funktionstasten aus (muss mit dem am Gerät eingestellten Modus übereinstimmen).
 6. <Keys.SoftKey>Address = </Keys.SoftKey> zeigt die erste freie DMX-Adresse. Ändern Sie diese
   ggf. mit dem Ziffernblock. Betätigen Sie <Keys.SoftKey>DMX line=xx</Keys.SoftKey>, um auf eine
   andere DMX-Linie zu wechseln, oder geben Sie die Adresse als <Keys.SoftKey>Linie</Keys.SoftKey>.<Keys.SoftKey>Adresse</Keys.SoftKey> ein (z.B. 2.45 für Kanal 45 auf Linie 2).
@@ -298,6 +298,9 @@ zu **Parken**. Geparkte Geräte behalten alle ihre Programmierung, erzeugen aber
 Geparkte Geräte können in der [Patch-Ansicht](../patching/changing-the-patch.md#die-patch-ansicht-patch-view)
 durch Zuweisen einer passenden DMX-Adresse aktiviert werden. In diesem Fenster gibt es extra einen Filter 
 zur Anzeige aller geparkten Geräte.
+
+> Auf den Pulten mancher anderer Hersteller bedeutet 'Parken' das Fixieren der Geräte auf einem bestimmten Wert. In
+Titan dient dazu [Freeze](fixture-personality-options.md?#geräte-oder-attribute-fixieren-freeze).
 
 ## Geräte suchen und finden
 

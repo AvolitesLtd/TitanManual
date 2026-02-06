@@ -39,14 +39,14 @@ beide Anschlüsse im gleichen Bereich adressiert sein, so kann das bei Art-Net u
 
 ## Einrichten der DMX-Ausgänge
 
-Das Pult arbeitet intern mit max. 64 DMX-Universen (siehe [DMX-Ausgänge einrichten](../system-settings/dmx-output-mapping.md) for details); beim T1 / T2 / T3 ist die Anzahl der Universen auf 1 / 2 / 16 begrenzt. Titan Go (mit einem Editor AvoKey) kann ein Universum über Art-Net oder sACN ausgeben. Der Titan Simulator (mit einem Editor AvoKey) gibt alle 64 Universen per Art-Net oder sACN aus, allerdings mit gelegentlichen Störungen (dem "Spoiler").
+Titan arbeitet intern mit max. 64 DMX-Universen (siehe [DMX-Ausgänge einrichten](../system-settings/dmx-output-mapping.md) for details); bei manchen Pulten ist die Anzahl der Universen auf weniger begrenzt. Titan Go (mit einem Editor AvoKey) kann ein Universum über Art-Net oder sACN ausgeben. Der Titan Simulator (mit einem Editor AvoKey) gibt alle 64 Universen per Art-Net oder sACN aus, allerdings mit gelegentlichen Störungen (dem "Spoiler").
 
-Die einzelnen Dimmer/Geräte werden in Titan auf eine der 64 DMX-Linien gepatcht.
+Die einzelnen Dimmer/Geräte werden in Titan auf eine der DMX-Linien gepatcht.
 Die Zuordnung interner DMX-Linien zu Netzwerklinien erfolgt im Menü
 [DMX Settings](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs).
 Oft wird man einfach Linie 1 auf Netzwerk-Universum 1, Linie 2 auf Universum 2 etc.
 zuweisen, aber mitunter - etwa auf Tour zur Anpassung an das vorhandene
-Netzwerk - sieht das auch ganz anders aus.
+Netzwerk - sieht das auch ganz anders aus. Linien/Universen können von 1 bis 9999 nummeriert sein.
 
 ## Beispiel für ein einfaches Art-Net-System
 

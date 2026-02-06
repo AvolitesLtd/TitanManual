@@ -108,3 +108,20 @@ Zu beachten ist, dass dabei auch die DMX-Ausgabe unterbrochen wird.
 
 &nbsp;<Keys.Annotation>S</Keys.Annotation> Es gibt vier XLR-DMX-Ausgänge, 
 einen SMPTE-Eingang sowie MIDI Ein- und Ausgang.
+
+![Tiger Touch Wing](/docs/images/Tiger-Touch-Wing.png)
+
+Das Tiger Touch Wing wird über ein USB-Kabel mit dem jeweiligen Pult 
+verbunden, außerdem ist ein separater Netzanschluss erforderlich. Das
+Wing verfügt über einen integrierten USB-Hub, so dass weitere 2
+USB-Anschlüsse z.B. für eine Tastatur und Mouse zur Verfügung stehen.
+
+Auf der Rückseite kann man mit einem Schalter einstellen, ob das Wing 
+rechts oder links steht. Damit können zwei Wings an eine Konsole angeschlossen werden. 
+Die Schalterstellung wird nur beim Einschalten ausgewertet, damit während der Show keine Störungen auftreten.
+
+Das Tiger Touch Wing ist optisch und mechanisch passend zum Tiger Touch
+designt worden, kann aber auch mit dem D9, Sapphire Touch, Arena und dem Pearl Expert verwendet werden.
+
+> Wird das Tiger Touch Wing mit dem D9-330 verwendet, so werden die Fader und Tasten 
+ganz links auf dem D9 auf das Tiger Touch Wing gespiegelt, haben also die identische Funktion. 

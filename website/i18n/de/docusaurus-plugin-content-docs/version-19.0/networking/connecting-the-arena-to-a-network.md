@@ -4,6 +4,8 @@ title: Pulte im Netzwerk betreiben
 sidebar_label: Pulte im Netzwerk betreiben
 ---
 
+import Keys from '@site/src/components/key.ts';
+
 Alle Lichtpulte von Avolites können per Ethernet vernetzt werden, um Geräte per Art-Net oder sACN zu steuern, für den Mehrbenutzerbetrieb und Fernsteuerung, und zum Anschluss an Visualisierungslösungen. 
 
 Das T1, T2 und T3 werden jeweils mit einem PC betrieben. Zum Vernetzen muss dieser in das jeweilige Netzwerk eingebunden werden. (WLAN ist für die Steuerung von Geräten nicht zu empfehlen, da es zu Aussetzern und Verzögerungen kommen kann).
@@ -29,7 +31,7 @@ Avolites Rücksprache.
 
 ## RJ45-Netzwerk-Anschlüsse
 
-Beim Diamond 9 ist ein 1Gb Luminex Netzwerkswitch integriert, das Diamond 7 und das Arena verfügt über einen 
+Beim den Diamond 9 der ersten Serie ist ein 1Gb Luminex Netzwerkswitch integriert, das Diamond 9 (ab 2025), das Diamond 7 und das Arena verfügt über einen 
 integrierten 1Gb TitanNet Switch (TNS). Dieser ist jeweils direkt mit
 Netzwerkanschluss 1 des Motherboards verbunden. Der Switch stellt
 vier Ethernet-Ports auf der Rückseite des Pultes bereit.
@@ -43,7 +45,7 @@ Ports nicht im Adressbereich des Switches liegt, da dies sonst zu Problemen füh
 
 Das Diamond 9 kann optional für die Verwendung von 10GbE ausgestattet werden.
 
-## Ändern der Einstellungen des Luminex-Switches im D9
+## Ändern der Einstellungen des Luminex-Switches im D9 (erste Serie)
 
 Normalerweise müssen die Einstellungen des Luminex-Switches nicht geändert werden. Sollte dies wegen eines komplexen Netzwerks doch einmal nötig sein, so dient dazu die Araneo-Software von Luminex (externer Link):
 [https://luminex.be/products/software/araneo/](https://luminex.be/products/software/araneo/)
@@ -52,7 +54,7 @@ Normalerweise müssen die Einstellungen des Luminex-Switches nicht geändert wer
 vier etherCON-Anschlüssen für 5 Sekunden gedrückt wird. Die LEDs blinken daraufhin rot, und der Switch wird auf 
 seine ursprüngliche IP-Adresse zurückgesetzt (siehe Aufkleber innen im Pult).
 
-## Ändern der IP-Adresse des Titan Network Switch (TNS) beim D7 oder Arena
+## Ändern der IP-Adresse des Titan Network Switch (TNS) beim D9 (ab 2025), D7 oder Arena
 
 Beim Arena haben Netzwerkswitch und dessen Controller zwei aufeinander folgende
 IP-Adressen: Wird der Controller auf eine Adresse gesetzt (z.B.
@@ -76,6 +78,13 @@ Um die IP-Adresse des Switchs zu ändern:
 
 3. Im angezeigten **IP Address Dialog** geben Sie die neue IP-Adresse ein.
 ![USB Expert Tools - TNS Panel - IP Address Dialog](/docs/images/USB-Expert-Tools-TNS-Panel-IP-Address-Dialog.png)
+
+1. Rufen Sie das System-Menü auf (<Keys.HardKey>AVO</Keys.HardKey> + <Keys.HardKey>DISK</Keys.HardKey>).
+2. Wählen Sie nun <Keys.SoftKey>Network Switch</Keys.SoftKey>.
+3. Auf dem D9 mit TNS sowie dem D7 können Sie nun die IP-Adresse eingeben. Auf dem Arena wählen Sie dazu <Keys.SoftKey>TitanNet Switch Panel 1</Keys.SoftKey>.
+4. Geben Sie die IP-Adresse ein und klicken Sie auf <Keys.SoftKey>Save Settings</Keys.SoftKey>.
+
+Die Management-Oberfläche des Switchs erreicht man durch Klick auf <Keys.SoftKey>Open Web Interface</Keys.SoftKey>. Auf dem Arena erreicht man sie über <Keys.SoftKey>TitanNet Switch Panel 2</Keys.SoftKey>. Damit öffnet sich ein Webbrowser mit dem Management-Interface. Dieses ist passwortgeschützt. Auf dem Arena lautet das voreingestellte Passwort 'password', auf dem D7 und D9 ist es der User 'root' und das Passwort 'password'.
 
 ## Stromversorgung und USV 
 
