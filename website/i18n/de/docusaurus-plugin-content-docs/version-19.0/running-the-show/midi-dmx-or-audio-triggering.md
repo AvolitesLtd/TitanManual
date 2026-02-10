@@ -14,25 +14,46 @@ automatisiert ablaufen muss.
 
 Die folgenden Triggerarten (Signale) sind möglich:
 
-- Audio (nicht bei allen Pulten)
-- DMX
-- GPIO (nicht bei allen Pulten)
+- Audio 
+- DMX In
+- GPIO 
 - MIDI (außer T1)
-- Streaming ACN
+- Streaming ACN In
+- HTTP (mittels WebAPI)
 
-> Audiotrigger (Sound to Light) erfordern spezielle Hardware und sind 
-auf dem Sapphire Touch, Tiger Touch, Titan Mobile, T1, T3 und dem Pearl 
-Expert **nicht** verfügbar. Eine bei anderen Pulten
-eventuell verfügbare Line-In-Buchse kann nicht als Sound-to-Light-Eingang 
-verwendet werden. Dagegen kann der T2 als Sound-Eingang für andere Pulte 
-dienen.
+Nicht alle Arten von Triggern stehen auf allen Pulten zur Verfügung, siehe nachstehende Tabelle.
 
-GPIO steht nur auf dem Diamond 9, Diamond 7, dem Arena, dem Tiger Touch II und dem Sapphire Touch zur Verfügung.
+Not all types of trigger are available on all consoles or hardware, see the table below.
+
+Pult | Audio | DMX | GPIO | MIDI 5-pin | MIDI USB | sACN | WebAPI | SMPTE/LTC
+---|---|---|---|---|---|---|---|---
+Simulator      |   |   |   |   |   | x | x |  
+T1             |   | x |   |   |   | x |   |  
+T2             | x | x |   |   | x | x | x | x
+T3             |   | x |   |   | x | x | x | x 
+D3-010         |   | x |   |   | x | x | x | x 
+D3-110         | x | x |   |   | x | x | x | x 
+D3-Core        | x | x |   |   | x | x | x | x 
+D7             | x |   | x | x | x | x | x | x 
+D9             | x | x | x | x | x | x | x | x 
+Titan Mobile   |   | x |   |   | x | x | x |  
+Quartz         |   | x |   |   | x | x | x |  
+Tiger Touch 2  |   | x | x | x | x | x | x | x 
+Arena          | x | x | x | x | x | x | x | x 
+Sapphire       |   | x | x | x | x | x | x | x
+
+
+
+> Audiotrigger (Sound to Light) erfordern spezielle Hardware und können mit dem T2 als Sound-Eingang
+realisiert werden, wenn das Pult nicht von Hause aus einen entsprechenden Eingang hat. 
+Eine bei manchen Pulten eventuell verfügbare Line-In-Buchse kann nicht als Sound-to-Light-Eingang 
+verwendet werden.
+
 
 ## Anschließen externer Steuerungen
 
 Der Audio-Eingang funktioniert nur über die eigens dafür vorhandene
-Klinkenbuchse beim Quartz und beim Arena. Der Audio-Eingang des
+Klinkenbuchse. Der Audio-Eingang des
 Motherboards ist dafür nicht geeignet Andere Konsolen können mit dem T2
 als Audio-Eingang verwendet werden, siehe oben.
 
@@ -41,16 +62,16 @@ werden; dazu benötigt man einen simplen Stecker-Stecker-Adapter ('gender
 changer', alle Pins 1:1 belegt, also 1-1, 2-2, 3-3 etc.).
 
 GPIO nutzt einen simplen Schließkontakt, der per Klinkenbuchse 
-angeschlossen wird (nur beim Diamond 9, Diamond 7, beim Arena, dem Tiger Touch II und dem Sapphire 
-Touch verfügbar). Beim Diamond 9 und Diamond 7 stehen die GPIO-Kontakte auch auf dem 15-poligen SubD-Stecker zur Verfügung. 
+angeschlossen wird (nur beim D9, D7, beim Arena, dem Tiger Touch II und dem Sapphire 
+Touch verfügbar). Beim D9 und D7 stehen die GPIO-Kontakte auch auf dem 15-poligen SubD-Stecker zur Verfügung. 
 Für den TNP kann GPIO als Option nachgerüstet werden; wenden Sie sich dazu an Avolites oder Ihren Avolites-Vertrieb.
 
-MIDI-Geräte werden einfach mit der MIDI-In-Buchse verbunden.
+MIDI-Geräte werden einfach mit der MIDI-In-Buchse verbunden soweit vorhanden.
 USB-MIDI-Geräte, die den DirectX MIDI-Treiber unterstützen, können
 ebenfalls verwendet werden (nicht am T1/Titan One). Damit kann z.B. ein
 T2 mit einem MIDI-Faderboard gesteuert werden.
 
-sACN wird ganz einfach per Netzwerk (Ethercon) angeschlossen.
+sACN und die WebAPI erfolgt einfach über Netzwerk (Ethercon).
 
 PioneerDJ-Decks können per Netzwerk als Taktgeber für BPM-Master
 verwendet werden, siehe [folgender Abschnitt](./linking-pioneerdj-system-to-titan.md). Dies ersetzt die frühere
@@ -231,3 +252,9 @@ Auf dem Arena und Quartz zeigt die Audio-LED beim Netzschalter etwa
 anliegendes Audio-Signal durch Blinken an. Die Kopfhörer-Buchse ist 
 dagegen mit dem Kopfhörerausgang des Motherboards und nicht mit dem 
 Eingang verbunden, kann also nicht zur Kontrolle genutzt werden.
+
+
+## WebAPI
+
+Nahezu jeder Aspekt von Titan lässt sich auch über Netzwerk per WebAPI steuern. Eine Dokumentation
+der Requests steht auf https://api.avolites.com zur Verfügung.

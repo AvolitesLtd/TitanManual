@@ -10,7 +10,7 @@ import Video from '@site/src/components/video.tsx';
 ## Verbinden mit einem Ai-Server
 
 Der/die Ai-Server und das Pult müssen per Ethernet miteinander verbunden
-sein. Vor allem für die [NDI-Vorschauen](operating-synergy.md#vorschau-mit-dem-media-viewer) und beim Hochladen von Clips
+sein. Vor allem beim Hochladen großer Clips
 kommt es zu einem erheblichen Datenaufkommen. Daher sollten möglichst
 folgende Hinweise beachtet werden, um ein zuverlässiges Arbeiten zu
 ermöglichen:
@@ -20,11 +20,14 @@ ermöglichen:
 -   Bei der Verwendung der PC-Suite sollte die Windows Firewall
     deaktiviert sein.
 
->   Beim Installieren und Upgraden ist darauf zu achten, dass Ai/Synergy 
+>   Beim Installieren und Upgraden ist darauf zu achten, dass der Titan Media Node in Ai bzw. Prism
     die gleiche Version haben muss wie die Titan-Software des 
     Pultes. Die Software steht auf der [Avolites Download-Seite](https://www.avolites.com/software/latest-version)
-    zum Download bereit. Für Synergy werden ggf. kleinere Update-Pakete 
-    zur Verfügung gestellt, um Ai auf die gleiche Version wie Titan zu bringen.
+    zum Download bereit. 
+
+Im Fenster 'System Settings' von Ai findet sich in den Art-Net/CITP-Optionen die Auswahlliste **Titan Media Node Version**. Dort ist die zur Titan-Version des Pultes passende Version auszuwählen und anschließend **Enable Synergy** zu aktivieren. Daraufhin startet Ai den Titan Media Node. Sobald dieser läuft, wird in der oberen Statusleiste von Ai "TitanNet Enabled" angezeigt. (In Ai-Versionen vor 12.2. ist stattdessen eine separates Synergy-Upgrade erforderlich).	
+
+![Ai Settings Window](/docs/images/Ai-Titan-Media-Node.png)
 
 Sollte es zu Problemen kommen, Titan und die Ai-Software miteinander zu
 verbinden, so ist insbesondere die Softwareversion (müssen identisch
@@ -67,7 +70,7 @@ man ein, wie Titan Prism Zero bzw. die einzelnen Outputs von Ai ansteuert. Ebens
 man hier für Ai Layer hinzufügen oder löschen sowie komplett neue Surfaces
 anlegen (müssen ggf. in Ai noch genauer eingestellt werden).
 
-![Synergy Settings Window](/docs/images/Synergy-Settings-Window-v15.jpg)
+![Synergy Settings Window](/docs/images/Synergy-Settings-Window-v19.png)
 
 Links sind die verfügbaren Ai-Server und Prism-Instanzen mit ihren Outputs aufgeführt. In
 der Mitte sind die in Titan angelegten Surfaces und Layer aufgeführt.
@@ -81,7 +84,7 @@ Klickt man auf das <Keys.ContextKey>+</Keys.ContextKey> unten und wählt aus der
 der mittleren Spalte oben. Neue Ai-Surfaces haben zunächst immer zwei
 Layer, Prism Zero hat nur einen Layer.
 
-![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-screen-settings-v15.jpg)
+![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-Screen-Settings-v19.png)
 
 Klickt man in der mittleren Spalte oben auf die Titelleiste eines
 Surfaces, so werden rechts die entsprechenden Optionen angezeigt. Damit
@@ -95,11 +98,7 @@ die Optionen des Layers angezeigt. Damit kann man einen Speed- oder
 BPM-Master für den Layer zuweisen.
 
 Sind weder Surfaces noch Layer angewählt, so werden rechts allgemeine
-Informationen über das System angezeigt. Es gibt die Option 'Automatic
-NDI Previews', mit der NDI-Streams ein- bzw. ausgeschaltet werden.
-Verwendet man das Vorschaufenster (Media Preview), so müssen NDI
-Previews aktiviert sein - verwendet man das nicht, so empfiehlt es
-sich, die Option zu deaktivieren, um das Netzwerk zu entlasten.
+Informationen über das System angezeigt. 
 
 Ist in Titan ein Surface angelegt, so muss dies einem Ai-Surface (Ai 
 Screen Fixture, oder Prism Zero) zugewiesen werden. Dazu klickt man auf den Button <Keys.ContextKey>Link</Keys.ContextKey>
@@ -107,12 +106,12 @@ des nicht zugewiesenen Ai-Surfaces unten und danach auf das
 Titan-Surface oben. Wählt man dagegen **Link to new Surface**, so wird ein
 neues Titan-Surface angelegt und verknüpft.
 
-![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-linking-a-screen-v15.jpg)
+![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-Linking-A-Screen-v19.png)
 
 Sind die Surfaces verknüpft, so wird dies über eine farbige Linie zum
 Server angezeigt, und das nicht verknüpfte Surface unten verschwindet.
 
-![Synergy Settings Window with a linked screen](/docs/images/Synergy-Settings-Window-with-a-linked-screen-v15.jpg)
+![Synergy Settings Window with a linked screen](/docs/images/Synergy-Settings-Window-With-A-Linked-Screen-v19.png)
 
 Das Surface lässt sich auch mit mehreren Ai-Outputs verknüpfen, wenn man
 z.B. den gleichen Content auf mehreren Outputs verwenden will. Dazu

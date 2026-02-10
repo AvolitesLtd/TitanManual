@@ -171,6 +171,8 @@ soll; wird ein anderes Playback in dieser Gruppe gestartet, werden alle
 anderen deaktiviert. Damit wird vor allem das spontane Showfahren mit
 den Executor-Buttons deutlich vereinfacht.
 
+Playback-Gruppen bestimmen auch die zu steuernden Playbacks beim D3 Touch, siehe [Verwenden von Touch-Panels](../remote-control/programming-touch-panels).
+
 Auf Pulten mit Motorfadern fahren dabei auch die entsprechenden Fader
 auf 0; ansonsten gehen einfach die LEDs der Playbacks aus, und
 Schaltflächen erscheinen als inaktiv.

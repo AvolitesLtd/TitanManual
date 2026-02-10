@@ -34,22 +34,24 @@ speichern, siehe nächste Seite.
 
 ## Geräte-Gruppen
 
-Geräte können zur schnelleren Auswahl [zu Gruppen zusammengefasst](../controlling-fixtures/fixture-groups.md) werden:
-drücken Sie <Keys.HardKey>Group</Keys.HardKey>, <Keys.SoftKey>Record Group</Keys.SoftKey>, wählen die zu gruppierenden
-Geräte aus, geben ggf. eine Legende ein (mit <Keys.SoftKey>Provide a legend</Keys.SoftKey>), und
-klicken auf eine Gruppen-Schaltfläche oder Taste (wenn es eine
-Playback-Taste mit Fader ist, wird daraus ein Gruppen-Masterfader). Die
-Reihenfolge der Geräteauswahl etwa zur Verwendung innerhalb von
-Effekten/Shapes wird mit den Gruppen gespeichert.  Ebenso wird das Layout der Geräte pro Gruppe gespeichert und
-etwa für Pixelmapper-Effekte sowie Shapes verwendet.
+Geräte können zur schnelleren Auswahl [zu Gruppen zusammengefasst](../controlling-fixtures/fixture-groups.md) werden. 
+Um eine Gruppe zu speichern, wählen Sie die zu gruppierenden Geräte aus, klicken auf einen freien Button im 
+Groups-Fenster (daraufhin erscheint ein rotes +), geben ggf. eine Legende ein, und klicken nochmal auf den vorher gewählten Button.
+
+Zum Speichern einer Gruppe auf einem Fader wählen Sie die gewünschten Fixtures aus, drücken <Keys.HardKey>Group</Keys.HardKey>, <Keys.SoftKey>Record
+Group</Keys.SoftKey>, und betätigen die Auswahltaste des Faders. Dieser wird der Masterfader der Gruppe. 
+
+Die Reihenfolge der Geräteauswahl etwa zur Verwendung innerhalb von
+Effekten/Shapes wird mit den Gruppen gespeichert. Ebenso wird das Layout der Geräte pro Gruppe gespeichert und
+etwa für Pixelmapper-Effekte sowie Shapes verwendet, siehe [Gruppenlayout](../controlling-fixtures/fixture-groups.md#gruppenlayout).
 
 ## Shapes & Effekte
 
 Titan verfügt über drei Arten von Effekten: vorprogrammierte Effekte
 ([Shapes](../effects/shape-generator.md)), Muster, die man selbst erstellt ([Keyframe-Shapes](../effects/key-frame-shapes.md)), sowie ([Pixelmapper-Effekte](../effects/pixel-mapper.md)).
 
-Wählen Sie mehrere Geräte aus; dabei bestimmt die Reihenfolge der
-Auswahl die Reihenfolge innerhalb des Shapes.
+Wählen Sie mehrere Geräte aus (individuell oder als Gruppe); dabei bestimmt die Reihenfolge der
+Auswahl bzw. das Layout in der Gruppe die Reihenfolge innerhalb des Shapes.
 
 Im Hauptmenü drücken Sie <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, <Keys.SoftKey>Shape Generator</Keys.SoftKey>,
 <Keys.SoftKey>Create</Keys.SoftKey>. 

@@ -72,7 +72,7 @@ Display Halo | ***On:*** Die Buttons werden mit farbigen Halos dargestellt.<br/>
 Fixture Halos | *Custom:* Bei Geräte-Buttons werden nur benutzerdefinierte Halos angezeigt. <br/>***Auto:*** Es werden automatisch farbige Halos für alle Fixtures angezeigt siehe [Halo](../patching/changing-the-patch.md#fixture-button-halo)
 Handle Buttons | Erlaubt das Ändern der Größe der Schaltflächen auf dem Touchscreen: *Small* (klein), ***Normal*** (normal), *Large* (groß) oder *Super Size* (sehr groß). <br/>Kann jeweils pro Fenster abgeändert werden.
 Text Size | Bestimmt die Schriftgröße auf den Schaltflächen. *Small* (klein), ***Normal*** (normal), *Large* (groß) oder *Super Size* (sehr groß). <br/>Kann jeweils pro Fenster abgeändert werden.
-Playback Paging | Das Verhalten aktiver Playbacks beim Seitenwechsel.<br/> *Always Hold:* - ist die traditionelle Funktionsweise, bei der das Playback aktiv und mit dem Regler verbunden bleibt, bis dieser - und damit das Playback - auf 0 gebracht wird.<br/> *Never Hold:* - ist die Funktionsweise bei Pulten mit Motorfadern: beim Seitenwechsel bleiben aktive Playbacks aktiv, aber die Fader sind auf der neuen Seite. Um aktive Playbacks von einer anderen Seite wieder zu steuern, muss man erst auf diese Seite wechseln und den Fader auf den passenden Wert bringen. <br/> ***Normal:*** ist die für das jeweilige Pult normale Arbeitsweise. <br/>Ist ein Playback von einer anderen Seite aktiv, so wird dies violett dargestellt; die Seitenzahl wird in hellblau angezeigt.
+Playback Paging | Das Verhalten aktiver Playbacks beim Seitenwechsel.<br/> *Always Hold:* - ist die traditionelle Funktionsweise, bei der das Playback aktiv und mit dem Regler verbunden bleibt, bis dieser - und damit das Playback - auf 0 gebracht wird (diese Einstellung betrifft auch die Playbacks im Playbacks-Fenster/Speicherplätze: aktive Playbacks von anderen Seiten bleiben aktiv und müssen erst deaktiviert werden, um nach dem Seitenwechsel Playbacks der neuen Seite anzuzeigen).<br/> *Never Hold:* - ist die Funktionsweise bei Pulten mit Motorfadern: beim Seitenwechsel bleiben aktive Playbacks aktiv, aber die Fader sind auf der neuen Seite. Um aktive Playbacks von einer anderen Seite wieder zu steuern, muss man erst auf diese Seite wechseln und den Fader auf den passenden Wert bringen. <br/> ***Normal:*** ist die für das jeweilige Pult normale Arbeitsweise. <br/>Ist ein Playback von einer anderen Seite aktiv, so wird dies violett dargestellt; die Seitenzahl wird in hellblau angezeigt.
 Current Handle World | Wahl der aktuellen Handle World. Siehe Abschnitt [Handle Worlds](../titan-basics/multi-user-operation.md#handle-worlds).
 
 ## Key Profiles (Tastenprofile)
@@ -134,7 +134,8 @@ Number Style   | Stellt die Darstellung von Zahlen in der Cue- und Palettenansic
 
 Option | Wirkung
 -------|--------
-Release To Home | ***On:*** das Release erfolgt nach und nach bis zum Einschaltzustand des Pultes.<br/>*Off:* LTP-Werte des letzten Playbacks bleiben aktiv.
+Release To Home | ***On:*** Das Release erfolgt nach und nach bis zum Einschaltzustand des Pultes.<br/>*Off:* LTP-Werte des letzten Playbacks bleiben aktiv.
+Release To Quick Palette    | ***On:*** Das Release erfolgt auf vorher gestartete Quick Palettes (soweit vorhanden).<br/>*Off:* LTP-Werte des letzten Playbacks bleiben aktiv.
 Master Release Time | Vorgabewert für die Release-Zeit.
 Release Priority | Die Playback-Priorität, die per Default im Release-Menü sowie bei Release-Macros herangezogen wird. - *Low* (niedrig), *Normal* (normal), *High* (hoch), ***Programmer*** (Programmer), *Very High* (sehr hoch). Playbacks mit geringerer Priorität werden per *Release All* (Doppelklick auf <Keys.HardKey>Release</Keys.HardKey>) released.
 

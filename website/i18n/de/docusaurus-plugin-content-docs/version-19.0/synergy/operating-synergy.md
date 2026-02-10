@@ -60,39 +60,6 @@ Server geladen sind, erfolgt ggf. das Umrendern. Dessen Fortschritt
 zeigt sich in der Anzeige der Clips im [Attribut-Editor](#layer-steuern-mit-dem-attribut-editor), siehe folgender
 Abschnitt.
 
-## Vorschau mit dem Media Viewer
-
-Das Fenster **Video Multi View** kann alle Layer einzeln sowie jedes
-Surface (Screen) als Ergebnis der kombinierten Layer als Vorschau
-anzeigen. Ebenso lassen sich damit beliebige im Netzwerk vorhandene
-NDI-Streams anzeigen, etwa einzelne Kameras oder der Live-Output bei
-Fernsehaufzeichnungen.
-
-![Video Multi View Window](/docs/images/Video-Multi-View-Window.png)
-
-Zur Auswahl eines Streams für die Anzeige klickt man auf eine Vorschau
-im Media Viewer (leere Vorschauen zeigen ein großes +). Darauf öffnet
-sich eine Liste mit allen vorhandenen Streams, und man kann den
-gewünschten auswählen.
-
-![Video Multi View Window adding a stream](/docs/images/Video-Multi-View-Window-adding-a-stream.png)
-
-Mit der Kontext-Option <Keys.SoftKey>Change Layout</Keys.SoftKey> kann man die Anzahl und
-Anordnung der gezeigten Vorschaufenster wählen. <Keys.SoftKey>Titles Shown</Keys.SoftKey>/<Keys.SoftKey>Titles Hidden</Keys.SoftKey> bestimmt, ob die Namen der Streams als Titel
-der Vorschauen angezeigt werden.
-
-![Video Multi View Window layout options](/docs/images/Video-Multi-View-Window-laout-options.png)
-
-Dabei muss die Option **"Automatic NDI preview"** in den [Synergy Settings](setting-up.md#einrichten-von-synergy)
-aktiv sein, damit die Vorschauen angezeigt werden.
-
-Format | Datenrate
----|---
-1920x1080p30 | 120Mbps
-1920x1080p60 | 200Mbps
-3840x2160p30 | 280Mbps
-3840x2160p60 | 480Mbps
-
 ## Layer steuern mit dem Attribut-Editor
 
 Sobald ein oder mehrere Layer ausgewählt sind (im Fenster [Synergy

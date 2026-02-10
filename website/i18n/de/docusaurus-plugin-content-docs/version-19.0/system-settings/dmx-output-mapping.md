@@ -1,7 +1,7 @@
 ---
 id: dmx-output-mapping
-title: DMX-Ausgänge einrichten
-sidebar_label: DMX-Ausgänge einrichten
+title: DMX-Einstellungen
+sidebar_label: DMX-Einstellungen
 ---
 
 import Keys from '@site/src/components/key.ts';
@@ -9,23 +9,53 @@ import Video from '@site/src/components/video.tsx';
 
 Das Ausgangssignal kann per DMX über die XLR-Buchsen sowie per Art-Net und sACN über die Netzwerkanschlüsse ausgegeben werden.
 
-Alle Pulte können bis zu 64 DMX-Universen über DMX und Netzwerk (Art-Net
-oder sACN) ausgeben (der **T1** ist auf ein Universum, der **T2** auf zwei
-Universen und das **T3** auf 16 Universen beschränkt; für das T3 sind optional Lizenzerweiterungen erhältlich).
+Ebenso lassen sich sACN-Linien als Input definieren, um von anderen Pulten Cues und Paletten zu kopieren. Input-Linien werden purpur dargestellt.
 
-Pulte selbst können bis 16 DMX-Universen ausgeben (32 beim D9 und D7), ist mehr erforderlich, so lässt sich 
+Titan kann generell bis zu 64 DMX-Universen über DMX und Netzwerk (Art-Net
+oder sACN) ausgeben, aber verschiedene Pulte sind intern auf unterschiedliche Anzahlen von Linien beschränkt. Dabei können die Universen von 1-9999 nummeriert sein, 
+mehr als 64 sind insgesamt aber nicht möglich.
+
+Pult | Systemlimit | Maximum pro Pult
+--------|----------------|-------
+Simulator      | 64 (Anm. 1) | 
+T1             | 1   | 1
+T2             | 2   | 2
+T3             | 16 (Anm. 2) | 16 (Anm. 3)
+D3-010         | 8   | 8
+D3-110         | 24  | 24
+D3-Core        | 16  | 16
+D7             | 64  | 32 (Anm. 3)
+D9             | 64  | 32 (Anm. 3)
+Titan Mobile   | 64  | 16 (Anm. 3)
+Quartz         | 64  | 16 (Anm. 3)
+Tiger Touch 2  | 64  | 16 (Anm. 3)
+Arena          | 64  | 16 (Anm. 3)
+Sapphire       | 64  | 16 (Anm. 3)
+
+Anm. 1: Der Simulator gibt in unregelmäßigen Abständen ein DMX-Störsignal aus (DMX-Spoiler) <br/>
+Anm. 2: Das Systemlimit des T3 kann mit optionalen Lizenzen bis auf 64 Linien erweitert werden. Das Maximum pro Pult bleibt aber bei 16 Linien.<br/>
+Anm. 3: Die Rechenleistung für weitere Linien kann durch zusätzliche TNPs erweitert werden.
+
+Pulte selbst können die oben angegebene Anzahl von DMX-Universen ausgeben, ist mehr erforderlich, so lässt sich 
 mit [Avolites TitanNet-Prozessoren (TNPs)](../titan-net.md) durch Verteilen der Rechenlast die 
-Gesamtzahl an Universen bis auf 64 erhöhen. (Für T1, T2 und T3 kann die Beschränkung nicht durch TNPs aufgehoben werden).
+Gesamtzahl an Universen bis auf 64 erhöhen. (Das Systemlimit wird dadurch nicht erhöht. Eine Erweiterung durch mehrere einzelne kleinere Geräte - etwa T1 oder T2 - ist nicht möglich.)
 
->   Außer beim T1, T2 und T3 ist es möglich, in der Pult-Software mehr als 16 Universen
-    zuzuweisen. Abhängig von der Programmierung und vom Patch wirkt sich das aber negativ auf die Performance aus. In
-    der TitanNet-Übersicht wird daher bei der Anzeige der Rechenleistung
-    eine Warnung angezeigt.
+>  Wird eine Show geladen, in der mehr Linien verwendet wurden als auf dem Pult möglich sind, so werden nur die verfügbaren Linien von der 
+kleinsten Nummer aufwärts ausgegeben. Sämtliche Programmierung bleibt erhalten, auf den nicht verfügbaren Linien erfolgt aber keine Ausgabe.
+
+
+## Default-Ausgangskonfiguration
+
+Wird eine neue Show gestartet, so werden 16 Linien eingerichtet. Diese werden auf die vorhandenen DMX-Anschlüsse, auf Art-Net und auf sACN (jeweils Universum 1-16) geroutet.
+
+- Die Ausgabe per Art-Net ist in einer neuen Show deaktiviert. Zum Aktivieren klicken Sie auf das Icon mit dem 'Einschalter' des Art-Net-Nodes auf der linken Seite der DMX-Einstellungen.
+
+Sobald Fixtures auf Linien gepatcht werden, die noch nicht eingerichtet sind, wird die Linie automatisch angelegt und auf sACN und Art-Net geroutet (diese Automatik kann in den Optionen der Nodes deaktiviert werden).
+
 
 ## Einrichten der DMX-Ausgänge
 
-Öffnen Sie das [System-Menü](the-system-menu.md) (normalerweise mit
-<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) 
+Öffnen Sie das [System-Menü](the-system-menu.md) (normalerweise mit <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) 
 und wählen <Keys.SoftKey>DMX Settings</Keys.SoftKey>.
 
 Das DMX-Fenster öffnet sich nun zunächst auf dem Tab mit dem Node
@@ -36,23 +66,21 @@ DMX-Linie kann an einen oder mehrere Empfänger gesendet werden. Wird
 einer Linie mehr als ein Empfänger zugeordnet, so erhalten alle diese
 Knoten das identische Signal. Wenn Geräte per Art-Net oder sACN verbunden
 sind oder TNPs im Netzwerk gefunden wurden, so erscheinen diese
-ebenfalls auf der linken Seite.
+ebenfalls auf der linken Seite. (Bei sACN gibt es keine automatische Erkennung,
+daher werden im Netzwerk verfügbare sACN-Nodes nicht automatisch dargestellt).
 
 Rechts werden für jede interne DMX-Linie die zugeordneten Knoten
 aufgeführt. In der Grundeinstellung sind die Linien von 1 aufsteigend
 auf die XLR-Buchsen des Pultes geroutet.
 
-![DMX Settings Window](/docs/images/DMX-Settings-Window.png)
+![DMX Settings Window](/docs/images/DMX-Settings-Window-v19.png)
 
-Um einen Node einer DMX-Linie zuzuordnen klicken Sie links auf den Node 
-(z.B. auf **Expert DMX A**) und danach rechts auf die gewünschte Linie, z.B. 
+Um einen Node einer DMX-Linie zuzuordnen, klicken Sie links auf den Node 
+(z.B. auf **New Multicast Universe**) und danach rechts auf die gewünschte Linie, z.B. 
 &nbsp;**Line 1**. Der Node verschwindet daraufhin links und erscheint rechts bei der 
 zugewiesenen DMX-Linie.
 
-![Node in DMX Settings Window](/docs/images/Node-in-DMX-Settings-Window.png)
-
-Zum Löschen einer Zuordnung dienen die individuellen oder gruppenweisen
-<Keys.ContextKey>X</Keys.ContextKey>-Schaltflächen: pro Node, pro Linie, sowie ganz oben bei **Dmx Lines** für
+Zum Löschen einer Zuordnung dienen die individuellen oder gruppenweisen <Keys.ContextKey>X</Keys.ContextKey>-Schaltflächen: pro Node, pro Linie, sowie ganz oben bei **DMX Assignments** für
 sämtliche DMX-Ausgänge.
 
 Um die Zuordnung zu ändern, also etwa einen Node einer anderen Linie 
@@ -60,15 +88,14 @@ zuzuweisen, muss dieser zunächst mit dem <Keys.ContextKey>X</Keys.ContextKey> v
 gelöscht werden, erscheint daraufhin wieder links als nicht zugewiesen, und
 kann nun einer anderen Linie zugeordnet werden.
 
-Beim Patchen von Art-Net- und sACN-Nodes können mehrere Universen/Linien
-auf einmal zugeordnet werden. Wählen Sie dazu links den ersten Node, der 
-verwendet werden soll, geben dann mit den Menütasten <Keys.SoftKey>Universe</Keys.SoftKey> (das 
-erste Universum) sowie <Keys.SoftKey>Quantity</Keys.SoftKey> (Anzahl) ein, und klicken auf die 
-gewünschte erste Linie. Daraufhin wird die gewünschte Anzahl von Universen
-auf fortlaufende Linien zugewiesen.
+Art-Net- und sACN-Universen können automatisch zugewiesen werden, indem man links den gewünschten sACN- oder Art-Net-Node wählt
+und dann auf <Keys.SoftKey>Assign All By Line Number</Keys.SoftKey> klickt. Damit werden passende sACN- bzw. Art-Net-Universen angelegt und dem Ausgang zugewiesen.
+
+Wird ein Fixture auf eine noch nicht angelegte Linie gepatcht, so wird diese automatisch vom System angelegt. Mit der Einstellung **Auto Assign** bei 
+den sACN- und Art-Net-Nodes lässt sich bestimmen, ob automatisch die entsprechenden Universen ausgegeben werden sollen.
 
 Mit dem kleinen <Keys.ContextKey>Zahnrad</Keys.ContextKey> können weitere Details und Einstellungen pro
-Knoten (sobald er zugewiesen ist) sowie pro DMX-Modul aufgerufen werden. 
+Knoten (sobald er zugewiesen ist) sowie pro DMX-Modul (<Keys.ContextKey>Zahnrad</Keys.ContextKey> bei Art-Net bzw. sACN) aufgerufen werden. 
 Hiermit lassen sich auch für Netzwerk-Knoten die Adresse und Subnetz-Maske
 eingeben.
 
@@ -81,7 +108,7 @@ konfiguriert werden.
 >   Beim Übertragen von Shows zwischen verschiedenen Pulten sowie bei der 
     Verwendung des Titan Simulators ist es wichtig, die DMX-Einstellungen 
     jeweils zu überprüfen. Bei Shows, die im Simulator erstellt wurden, 
-    sind die DMX-Ausgänge nicht zugewiesen.
+    sind die physischen DMX-Ausgänge nicht zugewiesen.
 
 
 ## Modul-Eigenschaften der DMX-Ausgabe
@@ -100,12 +127,16 @@ und bei der PC-Suite (Titan Go/Simulator) hängt es von der Ausstattung des jewe
 ab - viele Laptops verfügen z.B. auch über einen WLAN-Adapter, der, sofern 
 aktiviert, ebenfalls angezeigt wird.
 
-### DMX-Eigenschaften
+### Physische DMX-Eigenschaften
 
-![DMX512 Module Properties](/docs/images/Dmx-Module-Properties.png)
+Diese Einstellungen betreffen alle 5pol-DMX-Anschlüsse des Pultes.
+
+![DMX512 Module Properties](/docs/images/Dmx-Module-Properties-v19.png)
 
 **DMX output:** Damit kann die Ausgabe für dieses Modul deaktiviert
-werden.
+werden. Gleiche Einstellung wie der 'Power'-Button des 'Physical DMX Output' Moduls. Sind die DMX-Buchsen deaktiviert, so erscheinen sie auf der rechten Seite ausgegraut.
+
+**Auto Assign** bestimmt, ob beim Patchen von Fixtures auf nicht eingerichtete Linien diese automatisch für die DMX-Ausgabe geroutet werden sollen, soweit noch unbelegte DMX-Anschlüsse vorhanden sind.
 
 **Merge Priority:** Wert von 0-200, Vorgabe 100, höherer Wert = höhere Priorität. 
 Bestimmt die Priorität des direkt von Titan zum DMX-Ausgang
@@ -126,10 +157,14 @@ verlangsamen und problematische Geräte sicherer zu betreiben.
 
 ### sACN-Eigenschaften
 
-![sACN DMX Module Properties](/docs/images/sACN-DMX-Module-Properties.png)
+Diese Einstellungen betreffen sämtliche per sACN ausgegebenen Universen.
+
+![sACN DMX Module Properties](/docs/images/sACN-module-properties-v19.png)
 
 **DMX output:** Damit kann die Ausgabe für dieses Modul deaktiviert
-werden.
+werden. Gleiche Einstellung wie der 'Power'-Button des 'Streaming ACN' Moduls. Ist sACN deaktiviert, so erscheinen die entsprechenden Universen auf der rechten Seite ausgegraut.
+
+**Auto Assign** bestimmt, ob beim Patchen von Fixtures auf nicht eingerichtete Linien diese automatisch für die Ausgabe per sACN geroutet werden sollen.
 
 **Merge Priority:** (0-200) Die sACN-Spezifikation erlaubt es, dass
 mehrere Pulte parallel an die gleichen Geräte DMX senden. Dabei wird das
@@ -148,15 +183,19 @@ Damit lassen sich Tearing-Effekte vermeiden (versetzte Ausgabe). Mit 0
 wird die Synchronisation deaktiviert.
 
 **Ethernet xxx:** Damit lässt sich pro Netzwerkanschluss bestimmen, ob
-sACN über diesen gesendet werden soll. Werden mehrere aktiviert, so wird
+sACN über diesen gesendet werden soll (Anzahl abhängig vom Pult). Werden mehrere aktiviert, so wird
 das identische Signal parallel gesendet.
 
 ### Art-Net-Eigenschaften
 
-![ArtNet DMX Module Properties](/docs/images/ArtNet-DMX-Module-Properties.png)
+Diese Einstellungen betreffen sämtliche per Art-Net ausgegebenen Universen.
+
+![ArtNet DMX Module Properties](/docs/images/ArtNet-Module-Properties-v19.png)
 
 **DMX output:** Damit kann die Ausgabe für dieses Modul deaktiviert
-werden.
+werden. Gleiche Einstellung wie der 'Power'-Button des 'Art-Net' Moduls. Ist Art-Net deaktiviert, so erscheinen die entsprechenden Universen auf der rechten Seite ausgegraut.
+
+**Auto Assign** bestimmt, ob beim Patchen von Fixtures auf nicht eingerichtete Linien diese automatisch für die Ausgabe per Art-Net geroutet werden sollen.
 
 **Continuous Art-Net DMX:** Die Art-Net-Spezifikation sieht vor, dass das
 Pult Art-Net-Pakete nur sendet, wenn sich Werte/Kanäle geändert haben.
@@ -167,7 +206,8 @@ erzwingen, auch wenn sich keine Werte geändert haben.
 gesendet, also an sämtliche Geräte im jeweiligen Netzwerkbereich.
 Ansonsten werden die Informationen Unicast gesendet, also nur an das
 jeweilige Gerät. Damit lässt sich die Netzwerkauslastung verringern,
-aber die Netzwerkeinrichtung ist ggf. aufwändiger.
+aber die Netzwerkeinrichtung ist ggf. aufwändiger. (Unabhängig von dieser 
+Einstellung können einzelne Universen zum Senden per Broadcast eingerichtet werden).
 
 **Block RDM:** Damit wird RDM für dieses Modul deaktiviert.
 
@@ -180,13 +220,34 @@ gesendet, was ebenfalls manche nicht-Art-Net-konforme Geräte erfordern.
 Dies kann die Performance von Netzwerk und Pult negativ beeinflussen.
 
 **Ethernet xxx:** Damit lässt sich pro Netzwerkanschluss bestimmen, ob
-Art-Net über diesen gesendet werden soll. Werden mehrere aktiviert, so
+Art-Net über diesen gesendet werden soll (Anzahl abhängig vom Pult). Werden mehrere aktiviert, so
 wird das identische Signal parallel gesendet.
 
 > Über die Registry lässt sich ArtPoll deaktivieren. Das kann gelegentlich notwendig sein,
 wenn inkompatible Geräte verwendet werden. Wenn das erforderlich sein sollte, oder wenn 
 umgekehrt ArtPoll nicht funktioniert, obwohl es sollte, dann wenden Sie sich an Avolites,
 um nähere Informationen zu erhalten.
+
+### Visualiser DMX
+
+Diese Einstellungen betreffen den integrierten Capture Visualiser. Extern angeschlossene Visualiser werden davon nicht beeinflusst.
+
+![Visualiser DMX Module Properties](/docs/images/Visualiser-module-properties-v19.png)
+
+**DMX output:** Damit kann die Ausgabe an den internen Visualiser deaktiviert
+werden. Gleiche Einstellung wie der 'Power'-Button des 'Visualiser' Moduls. 
+
+**Auto Assign:** Diese Option ist für den Visualiser ohne Funktion.
+
+### DMX /sACN Input
+
+Ein sACN-Input-Universum kann einer DMX-Linie zugeordnet werden, um das Signal eines externen Pultes zu verwenden. Solche Inputs werden purpur dargestellt.
+
+![sACN input](/docs/images/DMX-Settings-sACN-in.png)
+
+Ist einer Linie ein Input zugewiesen, so wird dies in der Zeile der Linie mit der sACN-Universe-Nummer und weiteren Details angezeigt; als Status wird grün (Daten werden empfangen), orange (Daten werden gehalten) und grau (keine Daten) verwendet. Gehaltene Daten können mit <Keys.ContextKey>Clear DMX Input Cache</Keys.ContextKey> im Kontextmenü gelöscht werden.
+
+Zu Details zur Verwendung von sACN-Input beim Programmieren siehe [Verwenden von DMX/sACN-Eingang](/controlling-fixtures/changing-fixture-attributes.md#verwenden-von-dmxsacn-eingang).
 
 ## DMX-Overview
 
@@ -195,14 +256,16 @@ sämtliche [TNPs](../titan-net.md) angezeigt, die momentan im Netzwerk verbunden
 Dabei wird auch angezeigt, welche Linie auf welchem Knoten und Anschluss
 ausgegeben wird.
 
-![DMX Overview in DMX Settings](/docs/images/DMX-Overview-in-DMX-Settings.png)
+![DMX Overview in DMX Settings](/docs/images/DMX-Overview-in-DMX-Settings-v19.png)
 
-Links werden die max. 64 möglichen 'internen' Linien gezeigt. Rechts
+Links werden die maximal möglichen 'internen' Linien gezeigt. Rechts
 davon erscheinen die verbundenen Knoten/Nodes, wobei das Pult selbst
 ganz oben -- als erster Knoten -- erscheint. Für jeden Knoten wird
 angezeigt, welche Linie auf welchem Anschluss ausgegeben wird. Ein Klick
 auf den Ausgangsbereich des jeweiligen Knoten öffnet dessen
 Detailansicht.
+
+Weitere Ausgangslinien (bis zum Limit des Pultes) können durch Klicken des Pluszeichens unter der Liste der Linien hinzugefügt werden.
 
 Ein Klick auf den Eingangsbereich eines Knotens zeigt hingegen dessen
 Details im rechten Bereich. Gezeigt wird u.a. die IP-Adresse, die Anzahl

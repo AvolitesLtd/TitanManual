@@ -19,7 +19,9 @@ einem Tastendruck am Backup-Pult die Kontrolle übernehmen.
 
 >  Alle Pulte in einer Session müssen auf der gleichen Titan-Version 
    laufen. Für die Titan PC-Suite (Simulator, Titan Go, Titan Mobile) 
-   kann es erforderlich sein, die Firewall zu deaktivieren.
+   kann es erforderlich sein, die Firewall zu deaktivieren. Pulte mit weniger
+   DMX-Linien als das Hauptpult können nicht als Backup-Pult verwendet werden. 
+   Siehe [DMX-Ausgänge einrichten](../system-settings/dmx-output-mapping.md) mit Details zu den Limits der einzelnen Pulte.
 
 ## Pulte für den Mehrbenutzerbetrieb einrichten
 
@@ -28,9 +30,9 @@ werden, Details siehe [Mehrbenutzer-Betrieb](../titan-basics/multi-user-operatio
 
 ## Pulte für den Backup-Betrieb einrichten
 
-Jedes Titan-Pult kann als Backup für jedes andere Titan-Pult fungieren,
-es muss sich also nicht um das gleiche Modell handeln. So kann z.B. auch
-ein Laptop und T3 als Backup für ein größeres Pult verwendet werden.
+Unterschiedliche Titan-Pulte können gegenseitig als Backup verwendet werden. Dabei ist jedoch zu beachten,
+dass das Backup-Pult mindestens genauso viele DMX-Linien ermöglichen muss wie das Hauptpult. Notfalls kann auch ein 
+TNP verwendet und über das Frontdisplay bedient werden.
 
 Dabei gilt es natürlich zu bedenken, auf welche Teile der Programmierung
 man im Zweifel Zugriff braucht, da manche Pulte weniger Fader/Knöpfe als

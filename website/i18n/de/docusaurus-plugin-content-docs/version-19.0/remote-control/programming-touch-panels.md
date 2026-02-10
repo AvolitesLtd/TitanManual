@@ -1,64 +1,61 @@
 ---
 id: programming-touch-panels
-title: Using touch panels
-sidebar_label: Using Touch Panels
+title: Verwenden von Touch-Panels
+sidebar_label: Verwenden von Touch-Panels
 ---
 
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Multiple D3-Touch control panels can be connected to a Titan control system by Ethernet. The touch panels provide
-simple control of 8 playbacks in 4 playback groups. This is useful for venue staff to control working lights, house lights or simple show states.
+Durch Verbinden mehrerer D3-Touch-Panels per Ethernet kann ein größeres Titan-Steuerungssystem aufgebaut werden. Dabei ermöglichen 
+die Panels einen einfachen Weg der Steuerung, für bis zu 8 Playbacks in vier Playback-Gruppen. Damit kann dem Hauspersonal die Steuerung 
+z.B. des Arbeitslichts, des Hauslichts oder auch einfacher Lichtstimmungen für die Show ermöglicht werden.
 
-Users can also trigger up to 8 macros and lock/unlock the panel.
+Ebenso können bis zu acht Macros verwendet sowie das Panel ge- und entsperrt werden.
 
 ![D3-Touch](/docs/images/D3-touch-front.png)
 
 
 
-## Connecting the touch panel
+## Ein Touch-Panel verbinden
 
-Touch panels are connected into the Titan system by wired Ethernet. You can use a Power-over-Ethernet (PoE) equipped network switch, a PoE injector
-or a DC adaptor to power the panel.
+Touch-Panels werden per kabelgebundenem Ethernet mit dem Titan-System verbunden. Die Stromversorgung erfolgt per Power-over-Ethernet (PoE)
+durch einen entsprechenden Switch, mit einem PoE-Injektor, oder über ein Steckernetzteil.
 
-You will need to set suitable IP addresses on the console and on the touch panel or configure DHCP on your network to automatically provide suitable addresses -
-read more about [Networking the Console](../networking.md).
+Auf dem Pult und auf dem Panel müssen passende IP-Adressen eingestellt werden, oder man aktiviert DHCP. Mehr dazu siehe [Netzwerkeinrichtung](../networking.md).
 
-## Programming playbacks for the touch panel
+## Programmieren von Playbacks für das Touch-Panel
 
-The touch panel allows the user to select one of four Playback Groups. Within a playback group only one playback can be active, the others automatically turn off (see [Playback Groups](../running-the-show/playback-controls.md#playback-groups)). The touch panel shows playback groups with the user numbers 1001-1004.
+Auf dem Touch-Panel kann jeweils eine von vier Playback-Gruppen ausgewählt werden. Innerhalb einer solchen Gruppe kann immer nur ein Playback aktiv sein, d.h. die Playbacks deaktivieren sich gegenseitig (siehe [Playback-Gruppen](../running-the-show/playback-controls.md#playback-gruppen)). Auf dem Touch-Panel werden die Playback-Gruppen mit den Nummern 1001-1004 verwendet.
 
-The legend on the touch screen buttons is taken from the playback legend set on the console. The colour of the button is set by the halo colour of the playback.
+Die auf dem Touch-Panel angezeigten Legenden kommen von den in Titan eingestellten Legenden, die Farbe der Buttons ist die Halo-Farbe der Playbacks in Titan.
 
-To configure a Playback Group to appear on the touch panel, do this:
+Um eine Playbackgruppe zu erstellen, die auf dem Touch-Panel verwendet werden kann, gehen Sie wie folgt vor:
 
-1. Create a Playback Group containing the playbacks you want to be shown (see [Playback Groups](../running-the-show/playback-controls.md#playback-groups)).
-2. At the top level menu press <Keys.SoftKey>Set Legend</Keys.SoftKey> then the select button for the Playback Group.
-3. Press <Keys.SoftKey>User Number=</Keys.SoftKey> and set a number between 1001-1004.
-4. Press <Keys.SoftKey>Legend=</Keys.SoftKey> or <Keys.SoftKey>Picture</Keys.SoftKey> and provide a legend for the button.
-5. If you wish, set the button colour by pressing <Keys.SoftKey>Halo</Keys.SoftKey> and selecting a colour.
-6. Repeat steps 2-5 to set the Legend/Colour for each playback in the Playback Group.
+1. Erstellen Sie in Titan eine Playback-Gruppe aus den zu verwendenden Playbacks, siehe [Playback-Gruppen](../running-the-show/playback-controls.md#playback-gruppen).
+2. Drücken Sie im Hauptmenü auf <Keys.SoftKey>Set Legend</Keys.SoftKey> und wählen die Auswahltaste der gewünschten Playback-Gruppe.
+3. Drücken Sie auf <Keys.SoftKey>User Number=</Keys.SoftKey> und vergeben eine Nummer zwischen 1001 und 1004.
+4. Drücken Sie auf <Keys.SoftKey>Legend=</Keys.SoftKey> oder <Keys.SoftKey>Picture</Keys.SoftKey> und geben eine Legende ein (Name oder Skizze/Bild).
+5. Falls gewünscht, können Sie <Keys.SoftKey>Halo</Keys.SoftKey> drücken und eine Farbe für den Button wählen.
+6. Wiederholen Sie die Schritte 2-5 für die anderen Playbacks der Gruppe.
 
-- Each Playback Group to be displayed on the touch panel must have a unique number between 1001-1004. The Playback Groups are displayed in numerical order.
+- Jede Playback-Gruppe, die auf dem Touch-Panel angezeigt werden soll, muss eine eindeutige Nummer zwischen 1001 und 1004 erhalten. Die Playback-Gruppen werden in der Reihenfolge der Nummern angezeigt.
 
-## Programming macros for the touch panel
+## Programmieren von Macros für das Touch-Panel
 
-By touching the Macro button (bottom left), the touch panel shows eight user macros, with the user numbers 1001-1008.
-To configure a macro to be shown on the touch panel, do this:
+Klickt man auf dem Touch-Panel auf den Button 'Macros' (unten links), so werden auf dem Panel die Macros mit den Nummern 1001-1008 angezeigt.
+Zum Erstellen eines Macros für das Touch-Panel gehen Sie wie folgt vor:
 
-1. Record a macro (see [Macros](../titan-basics/front-panel-buttons.md#key-macro-buttons))
-2. At the top level menu press <Keys.SoftKey>Set Legend</Keys.SoftKey> then the select button for the macro.
-3. Press <Keys.SoftKey>User Number=</Keys.SoftKey> and set a number between 1001-1008.
-4. Press <Keys.SoftKey>Legend=</Keys.SoftKey> or <Keys.SoftKey>Picture</Keys.SoftKey> and provide a legend for the button.
-5. If you wish, set the button colour by pressing <Keys.SoftKey>Halo</Keys.SoftKey> and selecting a colour.
+1. Speichern Sie ein Macro (siehe [Macros -- Tastnfolgen](../titan-basics/front-panel-buttons.md#macros----tastenfolgen))
+2. Drücken Sie im Hauptmenü auf <Keys.SoftKey>Set Legend</Keys.SoftKey> und wählen den Button des gewünschten Macros.
+3. Drücken Sie auf <Keys.SoftKey>User Number=</Keys.SoftKey> und vergeben eine Nummer zwischen 1001 und 1008.
+4. Drücken Sie auf <Keys.SoftKey>Legend=</Keys.SoftKey> oder <Keys.SoftKey>Picture</Keys.SoftKey> und geben eine Legende ein (Name oder Skizze/Bild).
+5. Falls gewünscht, können Sie <Keys.SoftKey>Halo</Keys.SoftKey> drücken und eine Farbe für den Button wählen.
 
-- Each macro to be displayed on the touch panel must have a unique number between 1001-1008. The macros are displayed in numerical order.
-
-
-## Locking / unlocking the touch panel
-
-The touch panel can be locked by pressing the Lock icon in the bottom right of the screen.
-The Passcode to unlock is set in the **Lock** tab of [User Settings](../system-settings/user-settings.md#lock). 
-(Numeric codes only).
+- Jedes Macro, das auf dem Touch-Panel angezeigt werden soll, muss eine eindeutige Nummer zwischen 1001 und 1008 erhalten. Die Macros werden in der Reihenfolge der Nummern angezeigt.
 
 
+## Sperren/Entsperren des Touch-Panels
+
+Mit dem Button mit dem Schloss-Symbol unten rechts kann das Panel gesperrt werden.
+Der Code zum Entsperren kann in den Benutzereinstellungen des Pultes gesetzt werden (siehe [Benutzereinstellungen - Lock](../system-settings/user-settings.md#lock)). Es sind nur Ziffern als Passcode möglich.
