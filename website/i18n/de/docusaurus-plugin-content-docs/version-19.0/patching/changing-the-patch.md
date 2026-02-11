@@ -241,7 +241,7 @@ Attributen und Gerätetypen filtern sowie das anzuzeigende
 DMX-Universum wählen. Durch Scrollen nach rechts lassen sich weitere
 Informationen pro Kanal anzeigen.
 
-in der Spalte **Input** werden Werte angezeigt, die am Eingang anliegen (siehe [$$$Using DMX/sACN Input](/controlling-fixtures/changing-fixture-attributes.md#using-dmxsacn-input)). 
+in der Spalte **Input** werden Werte angezeigt, die am Eingang anliegen (siehe [Verwenden von DMX/sACN-Eingang](/controlling-fixtures/changing-fixture-attributes.md#verwenden-von-dmxsacn-eingang)). 
 Diese Spalte kann mit dem Button <Keys.ContextKey>Input Data</Keys.ContextKey> im Kontextmenü ein- und ausgeblendet werden.
 
 ## Geräte austauschen
