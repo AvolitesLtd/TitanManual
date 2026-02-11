@@ -31,12 +31,12 @@ in diesem Handbuch heißt die Taste daher <Keys.HardKey>Open/View</Keys.HardKey>
 wird auf allen Displays ein Overlay mit Buttons für die einzelnen Fenster angezeigt. Klicken 
 Sie auf den Button des gewünschten Fensters auf dem Display, auf dem es gezeigt werden soll.
 
-- Diamond 9/Diamond 7: <Keys.HardKey>View</Keys.HardKey>. Außerdem gibt es die Taste <Keys.HardKey>Open</Keys.HardKey>, 
+- D9/D7: <Keys.HardKey>View</Keys.HardKey>. Außerdem gibt es die Taste <Keys.HardKey>Open</Keys.HardKey>, 
 mit der gleichen Funktion wie ein Doppelklick auf <Keys.HardKey>View</Keys.HardKey>.
 
-- Quartz, Titan Mobile: <Keys.HardKey>Open</Keys.HardKey>
+- Quartz, Tiger Touch 2, Titan Mobile: <Keys.HardKey>Open</Keys.HardKey>
 
-- T3, Titan Go, Tiger Touch 1, Pearl Expert: <Keys.HardKey>View</Keys.HardKey>
+- D3, T3, Titan Go, Tiger Touch 1, Pearl Expert: <Keys.HardKey>View</Keys.HardKey>
 
 
 ![Workspace Window Selection](/docs/images/Workspace-Windows-Icons.png)
@@ -137,8 +137,8 @@ oder Sie nutzen die Menütaste <Keys.SoftKey>Close All</Keys.SoftKey>.
 
 Auf allen Pulten außer dem Sapphire Touch und Titan Go werden je nach aktivem
 Fenster verschiedene Funktionsbuttons im Kontext-Bereich angezeigt. 
-Auf dem Diamond 9 befindet sich der Kontext-Bereich links oben auf dem rechten Display,
-beim Quartz, Arena und Tiger Touch rechts unterhalb des Info-Bereichs.<br/>
+Auf dem D9 befindet sich der Kontext-Bereich links oben auf dem rechten Display,
+beim D3, Quartz, Arena und Tiger Touch rechts unterhalb des Info-Bereichs.<br/>
 Die angezeigten Funktionen wechseln je nachdem welches Fenster gerade aktiv ist. 
 Im folgenden Bild wird die Anzeige bei aktivem Patch-View-Fenster dargestellt:
 
@@ -355,15 +355,12 @@ dem Ring kann Tilt sehr fein geregelt werden. Siehe [Verwenden des Trackballs](.
 
 ## Video-Vorschau (nur beim Diamond 9)
 
-In den drei kleinen Displays oben rechts auf dem Pult lassen sich sowohl NDI-Videostreams als auch weitere 
-Arbeitsfenster anzeigen.
+In den drei kleinen Displays oben rechts auf dem Pult lassen sich weitere Arbeitsfenster anzeigen.
 
 ![Diamond Media Preview](/docs/images/Diamond-Media-Preview.png)
 
 Um ein Display einzurichten, doppelklicken Sie <Keys.HardKey>Open/View</Keys.HardKey>, woraufhin auf allen Displays 
-Buttons der verfügbaren Fenster eingeblendet werden. Zur Anzeige der Videovorschau wählen Sie 
-**Video Preview** (1, 2 oder 3 je nach dem gewünschten Display). Zur Auswahl des anzuzeigenden NDI-Streams 
-klicken Sie auf das Display, darauf werden Miniaturansichten der verfügbaren Streams angezeigt. Klicken Sie nun den gewünschten an. Für weitere Details dazu siehe [Media Viewer](../synergy/operating-synergy.md#media-viewer).
+Buttons der verfügbaren Fenster eingeblendet werden.
 
 ## Mini-Display (Nur beim Arena)
 

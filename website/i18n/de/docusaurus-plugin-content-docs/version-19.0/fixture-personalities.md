@@ -50,8 +50,8 @@ Gerätebibliothek herunter und speichern Sie sie auf einem USB-Stick.
 ## Aktualisieren des Personality-Speichers des Pultes
 
 Laden Sie wie oben beschrieben die aktuelle Personality-Library herunter
-(durch Klick auf **Titan Fixture Library** auf der Startseite der
-[Personalities-Seite](https://personalities.avolites.com), 
+(durch Klick auf **Titan Fixture Library** auf
+[https://personalities.avolites.com](https://personalities.avolites.com), 
 oder über den **Download**-Link oben auf der Seite, und
 wählen danach **Titan Fixture Library**).
 

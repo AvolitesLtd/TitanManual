@@ -63,7 +63,7 @@ etwa 1:30 min für das Starten.
 Das **Ausschalten** des Pultes erfolgt ebenso durch kurzes Betätigen
 (und wieder Loslassen) des Hauptschalters. Daraufhin erfolgt ein
 ordnungsgemäßes Herunterfahren. Bitte mit dem Trennen vom Netz warten,
-bis die Anzeige 'Power' erloschen ist (etwa 30 sec.)
+bis die Anzeige 'Power' erloschen ist (etwa 30 sec.). Das Herunterfahren lässt sich auch mit dem Befehl **Turn Off Console** aus dem Tools-Menü erreichen.
 
 > Benutzen Sie nicht den Netzschalter auf der Rückseite des Pultes. Beim Betätigen dieses Schalters würde das Pult nicht geordnet heruntergefahren werden, und sämtliche Änderungen der Show gingen verloren.
 
@@ -178,9 +178,14 @@ Netzwerkprotokolle (Art-Net, sACN) ausgegeben werden, um andere
 DMX-Ethernet-Nodes, Medienserver und anderes zu steuern,
 
 Beim Patchen eines Dimmers oder Gerätes muss dem Pult mitgeteilt werden,
-auf welchem der verfügbaren DMX-Universen sich das Gerät befindet. Jedes
-einzelne der Universen kann einem oder mehreren der DMX-Anschlüsse auf
-der Rückseite des Pultes zugeordnet, oder aber per [Ethernet (Art-Net, sACN)](networking/controlling-fixtures-over-a-network.md) gesendet werden.
+auf welchem der verfügbaren DMX-Universen sich das Gerät befindet. 
+Als Vorgabe werden normalerweise alle vorhandenen DMX-Buchsen jeweils einer Linie zugewiesen,
+und die Linien werden auch per sACN ausgegeben.
+
+Die Ausgabe kann auch per Art-Net erfolgen, und die Zuordnung zu den DMX-Buchsen und zu sACN kann 
+verändert werden, siehe [DMX-Einstellungen](system-settings/dmx-output-mapping.md).
+
+Je nach Pult gibt es ein Limit bei der Anzahl möglicher Linien, siehe [DMX-Einstellungen](system-settings/dmx-output-mapping.md).
 
 Das D9, D7 und das Arena enthält zusätzlich einen 
 internen [Netzwerkswitch](networking/connecting-the-arena-to-a-network.md) mit optischen
@@ -248,6 +253,8 @@ der T2 ausschließlich über USB-MIDI.
 
 Neuere Pult-Modelle verfügen auch über einen Eingang für SMPTE-LTC-Timecode.
 
+- Weitere Informationen zum Einrichten externer Trigger siehe [Externe Trigger](/running-the-show.md/midi-dmx-or-audio-triggering).
+
 Mittels der Netzwerkbuchse(n) (EtherCON oder RJ-45) lässt sich das Pult in ein
 Netzwerk (LAN) integrieren, womit sich viele weitere interessante
 Möglichkeiten ergeben, etwa die Ausgabe weitere Universen über
@@ -261,14 +268,4 @@ angepasst werden, da es dafür verschiedene Systeme gibt.
 
 - Bei neueren Pulten lässt sich die Helligkeit der Pultleuchte im 
 System-Menü (<Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) mit den Encodern einstellen.
-
-## Verwenden von Faderwings
-
-"[Wings](./about-the-consoles/fader-wings.md)" bieten zusätzliche 
-Bedienelemente wie Fader und Tasten, und sind je nach Einsatzzweck eine 
-sinnvolle Ergänzung. Verbunden werden sie mit dem Pult bzw. Computer über USB.
-
-Das Pearl Expert Touch Wing funktioniert ausschließlich mit dem [Pearl Expert](about-the-consoles/pearl-expert-and-touch-wing.md). 
-Es ist mit dem Pult zu verbinden, bevor dieses gestartet wird.
-
 

@@ -21,6 +21,8 @@ Store](https://apps.apple.com/ky/app/titan-remote/id688791174) zum Download bere
   
 ![Titan Remote - Android App Screenshot](/docs/images/Remote-Tablet-View.png)
 
+Das Layout der Anzeige der Remote hängt von der Displaygröße ab und kann nicht verändert werden.
+
 Es lassen sich auch mehrere Fernsteuerungen gleichzeitig mit einem Pult verbinden, wobei das Pult voll 
 funktionsfähig bleibt. Jede Remote arbeitet wie ein eigener Benutzer in einem Mehrbenutzersystem und
 verfügt über einen **eigenen Programmierspeicher**, so dass z.B. ein Programmierer mit der Remote und 

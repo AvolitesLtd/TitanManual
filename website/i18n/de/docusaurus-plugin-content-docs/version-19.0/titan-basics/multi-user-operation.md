@@ -11,6 +11,8 @@ Es lassen sich mehrere Pulte zum gemeinsamen Steuern einer Show
 verbinden. Ebenso lassen sich mehrere Benutzer - auch auf ein und
 demselben Pult - anlegen, etwa mit verschiedenen Tastenanordnungen oder
 Speicherplatz-Belegungen. Das kann z.B. für Support-Bands sinnvoll sein.
+Ein zweites Pult kann aber auch als Backup-Konsole verbunden werden, 
+siehe [Pulte für den Backup-Betrieb einrichten](../running-the-show/linking-consoles-for-multi-user-or-backup.md#pulte-für-den-backup-betrieb-einrichten).
 
 ## Users -- Benutzer
 
@@ -84,6 +86,9 @@ verbunden, so können diese als Multi-User, [Backup](../running-the-show/linking
 gleichzeitig arbeiten.
 
 > Alle Pulte in einer Titan-Session müssen auf der gleichen Software-Version laufen.
+Als Backup verwendete Pulte müssen mindestens ebenso viele Linien ermöglichen wie die Hauptkonsole,
+siehe [DMX-Einstellungen](../system-settings/dmx-output-mapping.md) zu den Limits pro Pult.
+
 
 Details zur Einrichtung des Netzwerkbetriebs mehrerer Pult siehe
 [Netzwerk einrichten](../networking.md).
@@ -147,7 +152,8 @@ aktive Benutzer und die Handle World werden nun an diesem neuen Master
 aktiviert. Die DMX-Ausgabe des vorherigen Masters wird deaktiviert.
 
 > Für Mehrbenutzerbetrieb und Session-Backup müssen alle beteiligten 
-  Pulte exakt den gleichen Versionsstand haben.
+  Pulte exakt den gleichen Versionsstand haben. Als Backup verwendete Pulte müssen mindestens 
+  ebenso viele Linien ermöglichen wie die Hauptkonsole.
 
 ### PC-Suite (Titan Go, Titan Simulator)
 

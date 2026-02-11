@@ -15,6 +15,4 @@ unterscheiden können.
 In diesem Abschnitt werden die wichtigsten Unterschiede und
 Ausstattungsmerkmale erläutert.
 
-Auch die per USB angeschlossenen Modelle [T1, T2](about-the-consoles/t1-and-t2.md), 
-das Titan Mobile, die [TNPs (Netzwerk-Prozessoren)](about-the-consoles/tnp.md) und die 
-[verschiedenen Wings](about-the-consoles/fader-wings.md) sind hier berücksichtigt.
+Auch der [TNP (TitanNet-Prozessor)](about-the-consoles/tnp.md) ist hier berücksichtigt.

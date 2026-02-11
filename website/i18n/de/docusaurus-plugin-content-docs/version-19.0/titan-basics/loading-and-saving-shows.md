@@ -11,8 +11,9 @@ Eine beliebige Anzahl von Shows lässt sich sowohl auf einem externen
 USB-Speicher als auch auf der internen Festplatte abspeichern. Außerdem
 führt das Pult regelmäßig eine automatische Sicherung durch (Autosave).
 
-> Shows vom Tiger Touch können auf andere Avolites TITAN-Pulte übertragen werden, nicht jedoch auf ältere Avolites-Pulte, da das Format der Dateien unterschiedlich ist.<br/>
-Shows, die mit einer neueren Version der Titan-Software erstellt wurden, laufen in älteren Versionen möglicherweise überhaupt nicht oder nicht korrekt.  
+> Shows vom Tiger Touch können auf andere Avolites TITAN-Pulte übertragen werden.<br/>
+Shows aus älteren Titan-Versionen können in neuere Versionen geladen werden (z.B. kann eine Show aus Titan v16 in ein Pult mit Titan v18 geladen werden).<br/>
+Shows aus neueren Titan-Versionen in älteren Versionen zu öffnen ist nicht möglich und wird zu Fehlern führen.
 
 Obwohl die Show auf dem internen Laufwerk sicher aufgehoben ist,
 empfiehlt es sich sehr, die Daten auch auf externen USB-Speicher

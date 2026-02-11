@@ -20,7 +20,7 @@ Zu jedem  Fader auf dem Pult gibt es verschiedene Tasten. Diese werden hier **Se
 &nbsp;<Keys.Annotation>B</Keys.Annotation> **Flashtaste**
 
 
-Auf dem **Diamond 9** , dem **Diamond 7** und dem **T3** sind die Tasten für die Drehregler (nur bei D9/D7) und Fader wie folgt angeordnet::
+Auf dem **D9** , dem **D7**, dem **D3** und dem **T3** sind die Tasten für die Drehregler (nur bei D9/D7) und Fader wie folgt angeordnet::
 
 ![Diamond Select and Flash](/docs/images/Diamond-Select-Flash.png)
 

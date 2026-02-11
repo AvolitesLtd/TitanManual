@@ -86,6 +86,7 @@ Konsole | Auflösung
 -- | --
 D9 (-330 / -215) | 1920 x 1080
 D7 (-330 / -215) | 1920 x 1200
+D3 | 1280 x 800
 Sapphire Touch | 1366 x 786
 Arena | 1366 x 786
 Tiger Touch II | 1366 x 786
@@ -200,6 +201,3 @@ einfacher geht das mit dem [Scene Master](./running-the-show/playback-controls.m
 
 Um nach Live überzublenden, tippen Sie mit den Zifferntasten die gewünschte Zeit
 in Sekunden ein und drücken die <Keys.HardKey>Blind</Keys.HardKey>-Taste.
-
--  Sind im Programmer Attribut-Zeiten gesetzt worden, so haben diese
-Vorrang vor der manuell eingegebenen Zeit.

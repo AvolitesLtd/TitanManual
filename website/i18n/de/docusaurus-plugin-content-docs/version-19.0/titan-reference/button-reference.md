@@ -586,6 +586,11 @@ Startet den aktuellen Cue erneut mit Fadezeiten, zur Überprüfung und Anpassung
 
 
 
+## <Keys.HardKey>Screen Mode</Keys.HardKey> 
+(nur beim D7) Umschalten des kleinen Bildschirms zwischen Attribut Editor und Anzeige der Macros.
+
+
+
 ## <Keys.HardKey>Scroll</Keys.HardKey> 
 Aktivieren der Scroll-Funktion mit den Encodern.
 

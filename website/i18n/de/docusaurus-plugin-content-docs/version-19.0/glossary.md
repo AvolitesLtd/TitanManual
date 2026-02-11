@@ -101,7 +101,7 @@ TIMES	(Zeiten) | Viele Aspekte der Programmierung können über einen bestimmten
 TNP			|  Titan Network Processor, Zusatzgerät im Rackformat, mit dem Rechenleistung für weitere DMX-Universen realisiert werden kann. Kann auch als eigenständiges Pult verwendet werden.                      
 TRACKING	| Arbeitsweise von Cuelisten, bei der nur Änderungen gespeichert werden.
 UNFOLD	(Ausklappen)  | Funktion, bei der die einzelnen Schritte eines Chasers oder eine Cueliste auf einzelne Fader eingeblendet werden, um das Programmieren zu vereinfachen.   
-UNIVERSE (Universum)  | Gruppe von 512 DMX-Kanälen, die über ein Kabel übertragen werden. Titan-Pulte können 64 Universen steuern (16 direkt pro Pult, weitere mit TNPs).
+UNIVERSE (Universum)  | Gruppe von 512 DMX-Kanälen, die über ein Kabel übertragen werden.
 UPS	(USV) 	| Uninterruptible Power Supply, Unterbrechungsfreie Stromversorgung. Bei manchen Pulten als Schutz vor Stromausfall integriert.
 USER NUMBER	| Jeder Dimmer/jedes Movinglight hat eine Nummer, mittels der man auch mit den Zifferntasten Geräte auswählen kann.
 USER SETTINGS (Benutzereinstellungen)	| Einstellungen, mit denen man Titan an die eigene Arbeitsweise anpassen kann. Um sie zu ändern, drücken Sie die <Keys.HardKey>Avo</Keys.HardKey>-Taste und wählen <Keys.SoftKey>User Settings</Keys.SoftKey>.

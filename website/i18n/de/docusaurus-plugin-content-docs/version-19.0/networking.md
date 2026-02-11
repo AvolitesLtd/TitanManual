@@ -11,13 +11,13 @@ Titan unterstützt über die üblichen DMX-Buchsen hinaus etliche
 weitere Wege der Kommunikation mit Beleuchtungs- und anderen Geräten;
 diese werden im Folgenden beschrieben.
 
-Verfügt das Pult bzw. Der Computer über mehrere Netzwerkanschlüsse, so [kann
+Verfügt das Pult bzw. der Computer über mehrere Netzwerkanschlüsse, so [kann
 DMX über jeden davon ausgegeben werden](system-settings/dmx-output-mapping.md#einrichten-der-dmx-ausgänge). 
 Ganz exakt lässt sich in den DMX-Einstellungen festlegen: für jeden 
 Netzwerkport lässt sich die DMX-Ausgabe explizit aktivieren oder deaktivieren.
 
-Ebenso lassen sich Prozessor-Knoten einbinden (TitanNet), womit die
-Gesamtzahl möglicher Universen bis auf 64 gesteigert werden kann. 
+Ebenso lassen sich [TNP (TitanNet Processor)](titan-net.md) einbinden, womit die
+Gesamtzahl möglicher Universen bis zum Limit des jeweiligen Pultes gesteigert werden kann. 
 
 Außerdem können mehrere Pulte per Netzwerk im Mehrbenutzerbetrieb sowie im
 Backup-Modus betrieben werden.

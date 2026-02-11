@@ -12,7 +12,7 @@ ein Pult zu verwenden? Kein Problem, genau dazu dient der Titan
 Simulator. Damit lassen sich auf jedem normalen PC alle Typen von
 Titan-Pulten simulieren und Shows erstellen und verändern.
 
-> Zum Starten des Titan Simulators ist ein Editor AvoKey oder andere Avolites-Hardware erforderlich (T1, T2 oder Titan Mobile). Editor AvoKeys sind bei Ihrem lokalen Avolites-Vertrieb oder im Avolites-Webshop erhältlich.
+> Zum Starten des Titan Simulators ist ein Editor AvoKey oder andere Avolites-Hardware erforderlich (T1, T2, T3 oder Titan Mobile). Editor AvoKeys sind bei Ihrem lokalen Avolites-Vertrieb oder im Avolites-Webshop erhältlich.
 
 ![titansimulator](/docs/images/Titan-Simulator.jpeg)
 
@@ -20,7 +20,7 @@ Titan-Pulten simulieren und Shows erstellen und verändern.
 
 Sie müssen Administrator-Berechtigungen auf dem Computer haben, um den
 Titan Simulator zu installieren oder auszuführen. Ab Titan v12 ist für
-den Simulator ein Editor AvoKey oder ein angeschlossener T1, T2 oder Titan Mobile
+den Simulator ein Editor AvoKey oder ein angeschlossener T1, T2, T3 oder Titan Mobile
 erforderlich.
 
 > Zu den Systemanforderungen siehe [Inbetriebnahme von T3/Titan Mobile und T1/T2](../titan-basics.md#inbetriebnahme-von-t3titan-mobile-und-t1t2).                 
