@@ -65,11 +65,11 @@ function replaceComments(content, page) {
   };
 
   // ENABLE NDI code
-  // result = result
-  //   .replace(new RegExp(`{{NDI-START-COMMENT}}`, 'g'), '')
-  //   .replace(new RegExp(`{{NDI-END-COMMENT}}`, 'g'), '');
+  result = result
+    .replace(new RegExp(`{{NDI-START-COMMENT}}`, 'g'), '')
+    .replace(new RegExp(`{{NDI-END-COMMENT}}`, 'g'), '');
   // REMOVE NDI code
-  result = result.replace(/{{NDI-START-COMMENT}}[\s\S]*?{{NDI-END-COMMENT}}/g, '');
+  // result = result.replace(/{{NDI-START-COMMENT}}[\s\S]*?{{NDI-END-COMMENT}}/g, '');
 
   // Iterate over the mappings and apply the transformations
   for (const key in commentMappings) {
