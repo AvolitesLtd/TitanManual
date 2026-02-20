@@ -35,8 +35,8 @@ There are three sections:
 ### Renderer
 |  Item  |  Description  |
 |---------|-------------|
-| **Use VSync** | Enable VSync. When enabled the renderer frame rate will be synced to the screen frame rate. |
-| **Render Layers Bottom to Top** | Set the order of layers rendering inside a surface. When enabled the rendering will start from the bottom layer, when disabled it will start from the top layer. |
-| **Use Pre Adjustments Previews** | Set if layer adjustments are used on Layer Previews. When enabled layer adjustment will not be applied on Layer Previews, when disabled layer adjusments will be applied on Layer Previews. {{NDI-START-COMMENT}} This setting will be applied on the NDI® previews on **Synergy** too. {{NDI-END-COMMENT}}|
+| **Use VSync** | Enable VSync. When enabled the renderer frame rate will be synced to the screen frame rate. This can make playback look smoother and prevent visual issues like screen tearing. |
+| **Render Layers Bottom to Top** | Controls the order in which layers are drawn within a surface. When enabled the rendering starts with the bottom layer and works upward, when disabled rendering starts with the top layer and works downward. |
+| **Use Pre Adjustments Previews** | Controls whether layer adjustments are shown in layer previews. When enabled layer previews are shown without adjustments applied, when disabled layer previews are shown with adjustments applied. This setting also affects the previews shown in **Synergy**.|
 
 {{PRISM-END-COMMENT}}
