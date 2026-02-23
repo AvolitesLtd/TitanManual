@@ -10,7 +10,11 @@ The **Preview** window allows for adjustments to be made to the properties of in
 
 - [Playback](#playback)
 - [Player Controls](#player-controls)
-- [Crop Controls](#crop)
+- [Crop](#crop)
+- [NDI® Input](#ndi-input)
+- [Live Input](#live-input)
+- [Virtual Return](#virtual-return)
+- [Network Stream](#network-stream)
 - [Colour Correction](#colour-correction)
 - [Transformation](#transformation)
 
@@ -85,11 +89,11 @@ This area controls the **Crop** of the Bank Element.
 
 |   Item      |  Description   |
 |----------------|---------|
-| **NDI® Source (*)** | List of all active NDI® sources on your network. |
+| **NDI® Source \*** | List of all active NDI® sources on your network. |
 | **Status**     | Shows the connection status to the NDI® source, stream will only display frames when active. |
 | **Enable Audio** | Shows if an audio source is also playing from the stream, controllable via the [Settings](../settings/settings-inputs.md) page. |
 
-**(*)** [NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.
+**\*** [NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.
 {{NDI-END-COMMENT}}
 
 ## Live Input

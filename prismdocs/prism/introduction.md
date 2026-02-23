@@ -14,6 +14,7 @@ The software can be controlled in realtime via **Prism's** dedicated UI or throu
 **Prism's** built in encoder engine, media manager and asset consolidation tools provide a streamlined approach to media import and export between projects and playback systems.
 
 **Prism** provides:
+
 - Up to **16 Surfaces**
 - Up to **16 Layers per Surface**
 - Up to **256 Banks**
