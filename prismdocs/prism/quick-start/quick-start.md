@@ -13,8 +13,8 @@ Next, set the [surface resolution](../../prism/stage/surfaces.md/#surface-contro
 
 **Stage** > **Surfaces** > **Surface** 
 
-- Select a Surface.
-- Set the resolution. 
+1. Select a Surface.
+2. Set the resolution. 
 
 ![Surface Resolution](/prism-images/quick-start/surface-resolution.png)
 
@@ -24,9 +24,9 @@ To connect the surface to an external display, the output needs to be [enabled](
 
 **Stage** > **Outputs**
 
-- Select Physical Output. 
-- Select the Output Device.
-- Enable the Output. 
+1. Select Physical Output. 
+2. Select the Output Device.
+3. Enable the Output. 
 
 ![Physical Output](/prism-images/quick-start/display.png)
 
@@ -36,10 +36,10 @@ To determine which part of the **Surface** is being sent to the **Output**, a [R
 
 **Stage** > **Regions** 
 
-- Create a new region by pressing the *Add* Button. 
-- Select the newly created region in the list. 
-- Select *Surface 1* in the *Source* dropdown. 
-- Select *Physical Output* in the *Output* dropdown. 
+1. Create a new region by pressing the *Add* Button. 
+2. Select the newly created region in the list. 
+3. Select *Surface 1* in the *Source* dropdown. 
+4. Select *Physical Output* in the *Output* dropdown. 
 
 ![Region Source / Output controls](/prism-images/quick-start/region-source-output.png)
 
@@ -53,11 +53,10 @@ A [bank](../../prism/play/banks.md) must first be created in order to import med
 
 **Play** > **Banks** 
 
-– Press the *Add* Button. 
+1. Press the *Add* Button. 
+2. Select the new bank from the list and then locate and load the required media files. Media can be added by using the *Add* Button on the right or by dragging files into the Bank area.
 
 ![Banks](/prism-images/quick-start/banks.png)
-
-Select the new bank from the list and then press the *Select Files* button within the Bank. Locate and load the required media files. Further media can be added by using the *Add* Button on the right or by dragging files into the Bank area.
 
 ### 5. Trigger Media
 
