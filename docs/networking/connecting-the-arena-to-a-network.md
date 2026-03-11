@@ -21,10 +21,7 @@ Arena consoles.**
 
 ## Optical Connections (D9 and Arena)
 
-The optical network connector is a Neutrik opticalCON which uses
-multimode fibre. On the Arena the connector is a Duo, a single connector is fitted as standard, but a second
-can be fitted on request. On the Diamond 9 the connector is a Quad with one of the two pairs populated as standard - if the
-optional 10GbE Ethernet is fitted then the second pair is populated with a 10GbE fibre.
+On the Arena and D9, there is an OpticalCON Duo connector supporting the 1000BASE-SX standard (850nm multimode SFP). An OM3 or OM4 fibre is recommended.
 
 The stage end of the connection normally plugs
 into the Avolites TitanNet Switch (TNS) rack unit which provides
@@ -44,8 +41,6 @@ on the back. We recommend that this should only be used if you need to
 connect to two different networks, for example the show network and a
 media network or WiFi for the remote. Make sure that this port is not set to the same
 IP range as the switch, because this will cause problems.
-
-The Diamond 9 can be fitted with a 10GbE port as an optional extra.
 
 ## Changing settings on the D9 with the Luminex switch
 
