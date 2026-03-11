@@ -57,7 +57,7 @@ a range of program functions including cues, chases, and fixture groups.
 The rotary faders have a level indicator around them which is shown in
 a user-configurable colour (halo colour).
 The touch screen below the faders shows legends indicating their function.
-There are additional rotary faders down the sides of the left and right touchscreens.
+There are additional rotary faders down the sides of the left and right touchscreens with associated display areas to show their function. The bottom right rotary control can be assigned to control output volume.
 
 &nbsp;<Keys.Annotation>I</Keys.Annotation> The **Page Select buttons** in the
 centre of the faders let you change the left or right fader banks to a different page.
@@ -84,6 +84,7 @@ their own legend screen.
 lists and include a T-bar with display for the Scene Master function and 
 a motorised fader pair in the Sequence Control Section to control the 
 connected playback/master.
+
 
 ## Programming controls
 
