@@ -103,6 +103,10 @@ wheel opens a softkey menu where you can input a numerical value or <Keys.SoftKe
 
 > Using [Key Profiles](../system-settings/key-profiles.md) you can set one of the buttons of the master to act as the "Connect" button.
 
+### Adjusting BPM masters from the numeric keypad
+
+You can set a BPM master from the numeric keypad by typing a BPM value then pressing the **Select** button of the master or touching the master info area on the screen. This is useful to quickly enter an exact BPM.
+
 ## Playback Groups
 
 Playbacks can be assigned to groups. This allows you to create a set of playbacks which automatically switch off other playbacks in the same group. This can be useful when you have playbacks setting colours on executor buttons so only the most recent playback stays active, or to make life easier when busking so you don’t end up with lots of playbacks fired which have superseded each other.
