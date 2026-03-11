@@ -68,7 +68,7 @@ available:
 On all consoles except Diamond 9, Diamond 7 and Sapphire Touch, across the very top of the screen
 is the toolbar.
 
-![Tools Menu](/docs/images/Tools-Menu.png)
+![Tools Menu](/docs/images/Tools-Menu-v19.png)
 
 On Sapphire Touch the toolbars are shown vertically where the 2 screens
 meet in the middle.
@@ -123,9 +123,11 @@ shows from older versions.
 **Additional Programs** allows you to run some diagnostic programs which
 might help Avolites Support find problems you're having.
 
-**Restart** and **Shutdown Software** restarts and closes the Titan
+**Restart** and **Shutdown Software** restarts or closes the Titan
 software. You would normally only need to use these when upgrading the
-software.
+software or the personality library.
+
+**Turn Off Console** powers down the console, same as pressing the Power button.
 
 The toolbar also has a keyboard button allowing you to pop up the touch
 keyboard. On Diamond 9 there is a button <Keys.HardKey>Keyboard</Keys.HardKey> for this.
