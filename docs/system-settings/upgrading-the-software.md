@@ -54,7 +54,10 @@ Software upgrades for consoles are installed from a USB drive. Depending on the 
 
 ## Upgrading panel firmware with USB Expert
 
-After upgrading the software it is sometimes necessary to upgrade the firmware in the various panels which make up the console control surfaces. You can do this using the Avolites USB Expert application which is installed on the console.
+After upgrading the software it is sometimes necessary to upgrade the firmware in the various panels which make up the console control surfaces. Please refer to the next section [Upgrading Firmware (USB Expert Console)](/docs/images/Tools-Menu-Control-Panel.png)
+
+
+
 
 > Sometimes the USB Expert application might be opened automatically after completion of a software upgrade, to prompt you to upgrade panel firmware.
 
