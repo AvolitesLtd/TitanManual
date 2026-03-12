@@ -21,7 +21,7 @@ Arena consoles.**
 
 ## Optical Connections (D9 and Arena)
 
-On the Arena and D9, there is an OpticalCON Duo connector supporting the 1000BASE-SX standard (850nm multimode SFP). An OM3 or OM4 fibre is recommended.
+On the Arena and D9, there is an opticalCON Duo connector supporting the 1000BASE-SX standard (850nm multimode SFP). An OM3 or OM4 fibre is recommended.
 
 The stage end of the connection normally plugs
 into the Avolites TitanNet Switch (TNS) rack unit which provides
