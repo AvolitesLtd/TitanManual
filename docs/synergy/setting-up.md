@@ -79,7 +79,7 @@ linked to Titan, these are called unmatched surfaces.
 
 Click on the <Keys.ContextKey>+</Keys.ContextKey> at the bottom and select a Screen or Prism surface from the pop up to add a
 new surface. This will appear at the top; an Ai surface by default has two layers
-but you can change this later. A Prism surface can have up to 2 layers.
+but you can change this later. A Prism surface has two layers by default but this can be increased up to 16.
 
 ![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-Screen-Settings-v19.png)
 
