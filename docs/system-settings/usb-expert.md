@@ -88,6 +88,8 @@ Pressing any button on the panel should show up as ```KeyState:0``` followed by 
 
 ## Firmware file reference
 
+Panel | Filename
+---|----
 **T1 / TitanOne** |
 Titan One DMX Panel 1 |	titan_one.bin
 **T2** |
@@ -141,7 +143,7 @@ Master Panel 1	| xp_mas.hex
 Touch Wing Panel 1	| ew_sb.hex
 DMX Panel 1	| xp_dmx.hex
 DMX Panel 2	| xp_dmx.hex
-**Pearl Expert Pro	
+**Pearl Expert Pro** |
 Preset Fader Panel 1	| xp_fas.hex
 Preset Fader Panel 2	| xp_fas.hex
 Preset Fader Panel 3	| xp_fas.hex
