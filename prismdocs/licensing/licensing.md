@@ -11,12 +11,12 @@ sidebar_label: Prism Licensing
 - **Zero Outputs** – For evaluation and previsualization. Includes **Synergy** support and no video inputs/outputs.
 - **One Output** – Includes up to 4 video inputs and 1 video output for live deployment.
 - **Two Outputs** – Includes up to 4 video inputs and 2 video outputs for live deployment.
-- **Four Outputs** – Includes up to 4 video inputs and 4 video outputs for live deployment.
+- **Three Outputs** – Includes up to 4 video inputs and 3 video outputs for live deployment.
 
 Refer to the feature table below for a detailed comparison of capabilities unlocked at each level.
 
 **Prism** runs with any valid **AvoKey** or **Editor Key** licensed for either:
-- **Prism** (One) or
+- **Prism** (One or Two)
 - **Ai** (Demo, Anjuna, Bondi, Miami)
 
 Keys can be purchased from any of our authorized distributors.
@@ -29,9 +29,9 @@ All **Prism** licenses include:
 - **Synergy** support
 
 ### Prism Features
-| Feature / License Level           | Zero Outputs              | One Output                | Two Outputs               | Four Outputs              |
+| Feature / License Level           | Zero Outputs              | One Output                | Two Outputs               | Three Outputs             |
 |-                                  |-                          |-                          |-                          |-                          |
-| **Outputs (Physical/Virtual)**    | 0                         | 1                         | 2                         | 4                         |
+| **Outputs (Physical/Virtual)**    | 0                         | 1                         | 2                         | 3                         |
 | **Outputs Max Resolution (px)**   | 3840 x 3840               | 3840 x 3840               | 3840 x 3840               | 3840 x 3840               |
 | **Live Inputs**                   | 0                         | Up to 4                   | Up to 4                   | Up to 4                   |
 | **Inputs Max Resolution (px)**    | 3840 x 3840               | 3840 x 3840               | 3840 x 3840               | 3840 x 3840               |
@@ -53,7 +53,7 @@ The table below shows which license types unlock each **Prism v2.1** license lev
 | **Zero Outputs**      | Ai Demo                       |
 | **One Output**        | Prism One                     |
 | **Two Outputs**       | Prism Two                     |
-| **Four Outputs**      | Ai Anjuna, Ai Bondi, Ai Miami |
+| **Three Outputs**     | Ai Anjuna, Ai Bondi, Ai Miami |
 
 
 ## Prism Player

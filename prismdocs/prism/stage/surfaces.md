@@ -6,15 +6,13 @@ sidebar_label: Surfaces
 
 import Keys from '@site/src/components/key.ts';
 
-The **Surfaces** view is where **Surfaces** and **Layers** are setup and managed.
+The **Surfaces** page is where **Surfaces** and **Layers** are setup and managed.
 
 A **Surface** is the virtual canvas where visual content is displayed, such as screens, LED walls, or projections. It defines the resolution for media to be mapped, scaled, and adjusted for precise display.
 
-Up to 16 **Layers** per surface can be added, removed or duplicated by using the corresponding buttons or the layer's <Keys.PrismKey>Sub Menu</Keys.PrismKey>. 
+Each **Surface** can hold up to 16 **Layers**.
 
-To remove or duplicate a layer, it needs to be selected first.  
-To select a layer, click on a layer element or tick its tick box.  
-To rename a surface, double click on it.
+Use the [Regions](./regions) page to map a **Surface** or **Layer** to an **Output**.
 
 *Note: any changes on this page may cause the output to pause whilst changes are being applied.*
 

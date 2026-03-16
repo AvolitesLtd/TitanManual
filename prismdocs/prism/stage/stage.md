@@ -4,9 +4,15 @@ title: Stage
 sidebar_label: Stage
 ---
 
-The **Stage** view is where you can setup **Surfaces**. It acts as a canvas for the content, and can be organised and displayed using **Layers**, **Outputs** and **Regions**. 
+The **Stage** page is the main workspace for setting up the resources for the rendering pipeline. 
 
-*Note: any changes on this page may cause the output to pause whilst changes are being applied.*
+It is composed of three pages:
+
+- [Surfaces](./surfaces.md) set up and manage **Surfaces** and **Layers**.
+- [Outputs](./outputs.md) set up and enable **Outputs**.
+- [Regions](./regions.md) map **Surfaces** and **Layers** to **Outputs**.
+
 
 ![Prism](/prism-images/stage/prism-stage-view.png)
 
+> **Note:** Any changes on these pages may cause the outputs to pause whilst changes are being applied.

@@ -12,18 +12,20 @@ Each output operates independently and reflects the current program output, incl
 
 **Prism** supports multiple output types, including:
 
-- [Physical Outputs](#physical-output): Send the video signal to a connected monitor, projector, or video wall.
-- [RTSP Outputs](#rtsp-output): Broadcast the video output as a live RTSP stream to other devices or applications on the network.
+- [Physical Outputs](#physical-output): Send the video output to a connected monitor, projector, or video wall.
+- [NDI® Outputs](#ndi-output): Send the video output over the network.
+- [RTSP Outputs](#rtsp-output): Send the video output as a live RTSP stream to other devices or applications on the network.
 
-*Note: any changes on this page may cause the outputs to pause whilst changes are being applied.*
+Use the [Regions](./regions) page to map a **Surface** or **Layer** to an **Output**.
+
+> **Note:** Any changes on this page may cause the outputs to pause whilst changes are being applied.
 
 ## Physical Output
 
 A Physical Output is used to send video to a physical display device, including projectors, monitors, and LED walls. It defines the connection between the software and an external output device.
 
-Use the [Regions](./regions) page to map and configure how content is displayed on the physical surface.
-
 ![Prism](/prism-images/stage/outputs/physical.png)
+
 
 ### Physical Output Controls
 
@@ -35,9 +37,33 @@ Selecting an output device will show its properties, automatically populated:
 - Refresh rate
 - HDR support
 
+## NDI® Output
+
+The NDI® Output allows the software to send its video output over the network.
+
+### NDI® Output Controls
+
+The following output properties can be set:
+
+- Name
+- Width
+- Height
+- Frame rate
+
+To confirm any change to these properties click on the <Keys.PrismKey>Confirm</Keys.PrismKey> button.
+
+Resolution width and height values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon.  
+When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, width and height will always maintain relative size according to the aspect ratio of the width and height set as the lock is pressed - if one value is adjusted, the other will change accordingly.  
+When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, width and Height can be individually set 
+regardless of the resulting aspect ratio.
+
+> **Note:** Width will always adjust to nearest 64 pixels multiple.
+
+[NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.
+
 ## RTSP Output
 
-The RTSP Output allows the software to broadcast its video output as a live network stream using the RTSP (Real-Time Streaming Protocol). This makes the output available to other devices or applications on the network, such as media players, hardware decoders, streaming servers, or monitoring systems.
+The RTSP Output allows the software to send its video output as a live network stream using the RTSP (Real-Time Streaming Protocol). This makes the output available to other devices or applications on the network, such as media players, hardware decoders, streaming servers, or monitoring systems.
 
 The RTSP Output acts as a live source, continuously sending video in real time.
 
