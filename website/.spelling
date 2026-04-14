@@ -64,6 +64,7 @@ crossfades
 keypress
 keypresses
 multimode
+onscreen
 plugins
 popup
 setups
@@ -101,6 +102,7 @@ AvoKeys
 Avolites
 Avolites.de
 BMFLs
+Chemie
 D9-330
 D9-215
 D7-330
@@ -111,6 +113,7 @@ D3-Core
 D3-Touch
 D3-Wing
 D3
+Deoxit
 DisplayPort
 DMX-in
 Esc
@@ -125,8 +128,10 @@ Goto
 Healthcheck
 HiLight
 Hippotizer
+Kontakt
 IPCGBES-FX
 Quicksave
+Leds
 Lightmap
 Luminex
 luminex.be
@@ -138,6 +143,7 @@ mDNS
 Multi-DMX
 Nexum
 Neutrik
+NoLoad
 Ok
 opticalCON
 PioneerDJ
@@ -151,8 +157,10 @@ Rec
 Roscolux
 Rx
 sACN
+Servisol
 Sharpie
 TitanNet
+TitanOne
 TitanFixtureLibrary.exe
 Thro
 TNPs
@@ -220,6 +228,10 @@ alcohol
 16GB
 1000BASE-SX
 
+0.02A
+0.05A.
+2A
+3A
 
 1920x1080p30
 1920x1080p60
@@ -314,3 +326,51 @@ png
 jpg
 bmp
 PDF
+
+# update filenames
+titan_one.bin 
+titan_two.bin 
+T3_MB.bin 
+m_mb.bin 
+st_dmx.bin 
+dc_ups.bin	 
+qz_mb.bin 
+qz_qab.bin 
+pt_fas.hex 
+pt_mf.hex 
+pt_pp.hex 
+xp_dmx.hex 
+ups.bin 
+tt_pp.bin 
+xp_mf.hex 
+xp_pp.hex 
+xp_scb.hex 
+xp_mas.hex 
+ew_sb.hex 
+xp_fas.hex 
+ar_asb.bin 
+tns_mb.bin 
+tt_fw.bin 
+st_mb.bin 
+st_pp.bin 
+D7_MOT.bin 
+D7_DMX.bin 
+D7_SIO.bin 
+D7_UDH.bin 
+D7_PPC.bin 
+D7_ECB.bin 
+BB_MOT.bin 
+BB_PP.bin 
+BB_SKB.bin 
+BB_RGB2P2.bin 
+BB_UPS.bin 
+BB_IO.bin 
+BB_MEB.bin 
+BB_SKBLR.bin 
+BB_DMX.bin 
+BB_KBD.bin 
+BB_MST4P3.bin 
+T3-Wing
+T3_WING.bin 
+TT2-Wing
+tt_fw.bin 
