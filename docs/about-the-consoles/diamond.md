@@ -57,7 +57,7 @@ a range of program functions including cues, chases, and fixture groups.
 The rotary faders have a level indicator around them which is shown in
 a user-configurable colour (halo colour).
 The touch screen below the faders shows legends indicating their function.
-There are additional rotary faders down the sides of the left and right touchscreens.
+There are additional rotary faders down the sides of the left and right touchscreens with associated display areas to show their function. The bottom right rotary control sets the output volume on the front audio output jack.
 
 &nbsp;<Keys.Annotation>I</Keys.Annotation> The **Page Select buttons** in the
 centre of the faders let you change the left or right fader banks to a different page.
@@ -84,6 +84,7 @@ their own legend screen.
 lists and include a T-bar with display for the Scene Master function and 
 a motorised fader pair in the Sequence Control Section to control the 
 connected playback/master.
+
 
 ## Programming controls
 
@@ -119,7 +120,7 @@ used to control a mouse pointer for the screens.
 
 Under the armrest at the front of the console is the **Power Switch**, a
 **USB socket** for connecting USB drives, and a pull-out drawer with an 
-illuminated **Keyboard** for entering legends.
+illuminated **Keyboard** for entering legends. There is also an **audio output** linked to the motherboard audio out.
 
 The front edge of the console has built-in LED illumination, useful for reading a script or notes. Press the reading light switch next to the keyboard drawer to turn this light on or off. If you hold down this button for 2-5 seconds it will turn on or off the red backlighting behind the screens.
 

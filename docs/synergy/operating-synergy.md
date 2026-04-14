@@ -7,13 +7,13 @@ sidebar_label: Operating Synergy
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Once Titan and the Ai server(s) or Prism Zero applications are [linked up](setting-up.md), you can start controlling
+Once Titan and the Ai server(s) or Prism applications are [linked up](setting-up.md), you can start controlling
 them from the console.
 
 ## Uploading Content with the Media browser
 
 The Media Browser allows you to upload media content directly to the Ai
-server or the machine running Prism Zero from the Titan console. You can also create new media banks on
+server or the machine running Prism from the Titan console. You can also create new media banks on
 an Ai server. Media content will be automatically transcoded to the AiM
 codec as required by the Ai system. This is very handy when you are
 handed a last-minute media file at the front of house position.
@@ -37,7 +37,7 @@ in the bank. Click the <Keys.ContextKey>+</Keys.ContextKey> button at the side o
 new bank. At the top of this column, the available disk space and the
 path on the Ai server where the media is being stored is shown.
 
-To copy media files to the Ai server or Prism Zero, select the files you want to
+To copy media files to the Ai server or Prism, select the files you want to
 transfer in the middle window, then click on the bank you want to
 transfer them to on the server.
 
@@ -55,7 +55,7 @@ transfer).
 
 You can also turn off the automatic transcoding to AiM codec, but
 normally we would recommend that this option is left on. Once the files
-are uploaded, any requiring transcoding are added to a queue in Ai or Prism Zero. You
+are uploaded, any requiring transcoding are added to a queue in Ai or Prism. You
 can see the progress of the transcoding by viewing the clips in the
 [Attribute Editor](#attribute-editor-for-controlling-ai-layers), see below.
 
@@ -70,7 +70,7 @@ buttons.
 > The most important attributes are **Intensity**, which set the output level
 of each layer, and **Media Selection** which lets you choose the Bank and
 Clip to play. But you can also control all other functions of Ai server such as
-adding FX and colour, or the smaller range of functions on Prism Zero layers.
+adding FX and colour, or the smaller range of functions on Prism layers.
 
 ![Clip tab of Attribute Editor for Synergy layer](/docs/images/Clip-tab-of-Attribute-Editor-for-Synergy-layer.png)
 
@@ -112,7 +112,7 @@ palette and used to quickly modify the appearance of the media.
 Often you might want to output video content to lighting fixtures
 patched on the console (for example if you have LED screens with
 fixtures around or in between them). The pixel mapper can directly play
-back media clips from the Ai server or Prism Zero. On an Ai server these can be sourced from
+back media clips from the Ai server or Prism. On an Ai server these can be sourced from
 individual layers or from surfaces (combined layer outputs). The surface
 outputs do not need to be connected to a physical output on the media server.
 
