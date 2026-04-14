@@ -329,7 +329,7 @@ Sapphire SMPTE Panel 1	| N/A
 Sapphire SMPTE Panel 2	| N/A
 Sapphire DMX Panel 1	| st_dmx.bin
 Sapphire DMX Panel 2	| st_dmx.bin
-**Diamond 7 (D72-215)**	| 	
+**Diamond 7 (D7-215)**	| 	
 D7 SMPTE Panel 1 | N/A
 D7 UPS & Network Switch | N/A
 D7 Fader Panel 1	| D7_MOT.bin
@@ -340,7 +340,7 @@ D7 IO 1	| D7_SIO.bin
 D7 Display Hub 1	| D7_UDH.bin
 D7 Program Panel 1	| D7_PPC.bin
 D7 Encoder Panel 1	| D7_ECB.bin
-**Diamond 7 (D72-330)**	| 	
+**Diamond 7 (D7-330)**	| 	
 D7 SMPTE Panel 1	| N/A
 D7 UPS & Network Switch	| N/A
 D7 Fader Panel 1	| D7_MOT.bin
@@ -356,7 +356,7 @@ D7 Display Hub 1	| D7_UDH.bin
 D7 Program Panel 1	| D7_PPC.bin
 D7 Encoder Panel 1	| D7_ECB.bin
 D7 Encoder Panel 2	| D7_ECB.bin
-**Diamond 9 (D92-215)**	| 	
+**Diamond 9 (D9-215)**	| 	
 Diamond Fader Panel 1	| BB_MOT.bin
 Diamond Fader Panel 2	| BB_MOT.bin
 Diamond Fader Panel 3	| BB_MOT.bin
@@ -378,7 +378,7 @@ Keyboard Panel 1	| BB_KBD.bin
 Diamond Layer Screen 1	| BB_MST4P3.bin
 Diamond Layer Screen 2	| BB_MST4P3.bin
 Diamond Layer Screen 3	| BB_MST4P3.bin
-**Diamond 9 (D93-330)**	| 	
+**Diamond 9 (D9-330)**	| 	
 Diamond Fader Panel 1	| BB_MOT.bin
 Diamond Fader Panel 2	| BB_MOT.bin
 Diamond Fader Panel 3	| BB_MOT.bin
