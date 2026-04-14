@@ -26,10 +26,10 @@ If no panels are listed, go to the Tools menu, click ACW Service, click Start.
 
 In the top left hand window **Connected Panels**, an icon to the left of each panel shows its status.
 
-- Panels in normal operation has a green USB icon (1).
-- Panels with an update available or which are in Boot Mode show a download/clock icon (2).
-- Panels which are not responding show a yellow exclamation icon (3).
-- Panels which are in Boot Mode show a spanner icon (4).
+- Panels in normal operation show a green USB icon (1).
+- Panels with an update available or which are in Boot Mode awaiting update show a download/clock icon (2). Carry out the update procedure in the next section.
+- Panels which are not responding show a yellow exclamation icon (3). Try performing a panel reset, if this does not help then contact Avolites support.
+- Panels which have been manually put into Boot Mode show a spanner icon (4). If this is not intentional you can select the panel and click **Exit Boot** on the right.
 
 ![USB Expert panel status](/docs/images/USB-Expert-Panel-Status.png)
 
@@ -51,6 +51,8 @@ Use the following steps to upgrade panel firmware:
 6. When the Auto Update box is empty, close USB Expert, shut down the console using the power button, then restart it.
 
 - If the panel update has not completed after 10 minutes, press **Exit Boot** regardless and wait for all panels to reappear in the **Connected Panels** window. Then repeat from step 3 to check whether all panels have in fact been updated. 
+
+- If **Update Now** remains greyed out, or the process fails, try and carry out a panel reset. If this does not work, you may need to manually update the panel.
 
 ## Manual firmware update
 
@@ -78,13 +80,158 @@ The central part of the USB Expert window shows a log of hardware events. You ca
 
 ### Testing Buttons / switches
 
-Pressing any button on the panel should show up as ```KeyState:0``` followed by ```KeyState:1``` when the button is released. If you can see double entries, missed responses or no response at all then the switch may be faulty and should be replaced.
+Pressing any button on the panel should show up in the central window as ```KeyState:0``` followed by ```KeyState:1``` when the button is released. If you can see double entries, missed responses or no response at all then the switch may be faulty and should be replaced.
 
-![USB Expert Panel Update](/docs/images/USB-Expert-Key-Test.png)
+![USB Expert Key Test](/docs/images/USB-Expert-Key-Test.png)
 
 ### Testing Faders
 
-Pressing any button on the panel should show up as ```KeyState:0``` followed by ```KeyState:1``` when the button 
+In the **Connected Panels** window on the left, select the fader panel you want to test. On the right hand side click on the **Faders** tab.
+
+![USB Expert Fader Test](/docs/images/USB-Expert-Fader-Test.png)
+
+- Slowly raise the fader at a steady, moderate pace. In the central window you should see a value increasing gradually from 0 to 255.
+- The green progress bar on the right should move smoothly upward as the fader is raised. There should be no flickering or erratic movement.
+- The value should not jump back and forth — consistent movement is expected.
+- Once the fader reaches the top, the value should remain stable at 255 without any drops of flickering.
+- Finally, slowly bring the fader back down and check for smooth, consistent behaviour.
+
+If flickering or unstable values are seen, try cleaning the problematic fader with Deoxit F5 Fader Cleaner (alternatives: Servisol Super 10; Kontakt Chemie Cleaner 601). If cleaning the fader does not resolve the problem it may need to be replaced.
+
+### Testing Motorised Faders
+
+In the **Connected Panels** window on the left, select the motor fader panel you want to test. On the right hand side click on the **Motors** tab.
+
+Tick the checkbox for **Link Faders** and reduce **Speed** to 30 for testing.
+
+![USB Expert Motor Test](/docs/images/USB-Expert-Motor-Test.png)
+
+- Move one of the onscreen slider bars to the right. 
+- All faders should move smoothly and in unison without any stuttering. If you see any jerky or inconsistent movement it may indicate a fault with the fader's motor - please contact your local Avolites support team.
+
+### Calibrating Motorised Faders
+
+If the faders recall to an incorrect position then they may need calibration. In the **Connected Panels** window on the left, select the motor fader panel you want to test. On the right hand side click on the **Motors** tab, then press the **Start Calibration** button on the bottom right of the screen and follow the on-screen prompts.
+
+![USB Expert Motor Test](/docs/images/USB-Expert-Motor-Calibration.png)
+
+- Put all faders on the console to full
+- Put all faders on the console to zero
+- Store the calibration values
+
+### Testing DMX panels
+
+This test will require a DMX tester. You will need to shut down the Titan software using the shutdown option in the Tools menu.
+
+In the **Connected Panels** window on the left, select the DMX panel you want to test. On the right hand side click on the **DMX** tab, then move the **Channel Level** slider up and down to change the DMX output level. Check with the DMX tester that the correct levels are being output.
+
+- For consoles with 8 DMX outputs, select DMX 1 to test outputs 1-4 and DMX 2 to test outputs 5-8.
+
+![USB Expert DMX Test](/docs/images/USB-Expert-DMX-Test.png)
+
+### Testing panel LEDs
+
+The process for testing the panel LEDs varies slightly depending on the console type.
+
+**T3 and D3**
+- Under **Connected Panels** select T3/D3 Main Board.
+- On the right select **Leds** tab.
+- Change **End LED value** to 64.
+- Under **Binary State** press On.
+- Press **LED echo**.
+- Raise all faders on console
+- All LEDs should be illuminated on the front panel.
+
+**Quartz and Titan Mobile**
+- Under **Connected Panels** select Mobile Main Board.
+- On the right select **Leds** tab.
+- Change **End LED value** to 56.
+- Under **Binary State** press On.
+- Press **LED echo**.
+- Raise all faders on console
+- All LEDs should be illuminated on the front panel.
+
+**Quartz**
+- Under **Connected Panels** select Mobile Main Board.
+- On the right select **Leds** tab.
+- Change **End LED value** to 56.
+- Under **Binary State** press On.
+- Press **LED echo**.
+- Raise all faders on console
+- All LEDs should be illuminated on the front panel.
+
+**Tiger Touch II**
+- Under **Connected Panels** select Touch Playback Panel 1.
+- On the right select **Leds** tab.
+- Change **End LED value** to 20.
+- Raise level bar to the top.
+- Change **End LED value** to 56.
+- Under **Binary State** press On.
+- All LEDs should be illuminated on the front panel.
+
+**Arena**
+- Under **Connected Panels** select Touch Playback Panel 1.
+- On the right select **Leds** tab.
+- Change **End LED value** to 20.
+- Raise level bar to the top.
+- Under **Connected Panels** select Fader Wing Panel 5.
+- Change **End LED value** to 18.
+- Raise level bar to the top (you may need to lower it slightly first then raise it again).
+- Under **Connected Panels** select Arena Auxiliary Panel 1.
+- Change **End LED value** to 4.
+- Raise level bar to the top (you may need to lower it slightly first then raise it again).
+- Under **Connected Panels** check Arena Auxiliary Panel 1 is still selected.
+- Change **End LED value** to 30.
+- Under **Binary State** press On.
+- Under **Connected Panels** select Touch II Program Panel 1.
+- Change **End LED value** to 56.
+- Under **Binary State** press On.
+- All LEDs should be illuminated on the front panel.
+
+**Sapphire Touch**
+- Under **Connected Panels** select Sapphire Program Panel 1.
+- On the right select **Leds** tab.
+- Change **End LED value** to 56.
+- Under **Binary State** press On.
+- Under **Connected Panels** check Sapphire Program Panel 1 is still selected.
+- Change **End LED value** to 4.
+- Press **Led Colour**, set the colour to red and press OK.
+- Raise level bar to the top.
+- Under **Connected Panels** select Sapphire Motor Panel 1.
+- Change **End LED value** to 5.
+- Raise level bar to the top.
+- All LEDs should be illuminated on the front panel.
+
+**D9**
+- Under **Connected Panels** select Diamond Encoder Panel 2.
+- On the right select **Leds** tab.
+- Press **Led Colour**, set the colour to red and press OK.
+- Under **Binary State** press Off then On.
+- All LEDs should be illuminated on the console.
+- Use the horizontal bar to adjust the encoder LEDs (step up/down).
+- Use the vertical bar to adjust the intensity of the LEDs.
+- Repeat the above steps for colours Green, Blue and White.
+
+### Testing UPS battery
+
+In the **Connected Panels** window on the left, select the UPS panel. On the right hand side click on the **UPS** tab. 
+
+- Make sure that the battery status is set to **charging**. A fully charged battery will show a current between 0.02A – 0.05A. A charging battery may show a current of 2A-3A.
+- When power is removed the **Charging** status should switch to a green bar with **NoLoad**, indicating that the console is on UPS battery. 
+
+![USB Expert UPS Test](/docs/images/USB-Expert-UPS-Test.png)
+
+### Testing timecode
+
+In the **Connected Panels** window on the left, select the SMPTE panel. On the right hand side click on the **Timecode** tab. Connect a timecode source to the console and you should see the timecode updating in the **In Timecode** panel.
+
+![USB Expert Timecode Test](/docs/images/USB-Expert-Timecode-Test.png)
+
+### Testing MIDI
+
+In the **Connected Panels** window on the left, select the IO panel (or DMX panel on some consoles). On the right hand side click on the **MIDI** tab and click **Watch MIDI**. Connect a MIDI device to the console and send some MIDI commands, you should see the commands appear in the MIDI Watcher window.
+
+![USB Expert MIDI Test](/docs/images/USB-Expert-MIDI-Test.png)
 
 ## Firmware file reference
 
