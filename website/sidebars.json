@@ -566,6 +566,10 @@
         },
         {
           "type": "doc",
+          "id": "system-settings/usb-expert"
+        },
+        {
+          "type": "doc",
           "id": "system-settings/recovering-reinstalling-the-console"
         },
         {
