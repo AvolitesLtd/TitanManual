@@ -42,23 +42,6 @@ module.exports={
   "plugins": [
     'docusaurus-plugin-sass',
     [
-      require.resolve("./docusaurus-search-local/docusaurus-search-local"),
-      {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
-        hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        // language: ["en", "zh"],
-        // ```
-        // When applying `zh` in language, please install `nodejieba` in your project.
-        docsDir: ["../docs", "../prismdocs"],
-        docsRouteBasePath: ["docs", "prism"],
-        
-        highlightSearchTermsOnTargetPage: true,        
-      },
-    ],
-    [
       "@docusaurus/plugin-content-docs",
       {
           id: 'prism',

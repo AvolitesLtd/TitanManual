@@ -19,10 +19,8 @@ integrierten Netzwerkswitch und (nur D9 und Arena) einen optischen Netzwerkschlu
 
 ## Optische Anschlüsse (D9 und Arena)
 
-Der optische Netzwerkanschluss ist ein Neutrik opticalCon mit
-Multimode Glasfaser. Das Arena ist mit einem einzelnen opticalCon DUO ausgestattet, auf Nachfrage 
-kann ein zweiter Anschluss eingebaut werden. Das Diamond 9 kommt mit einem opticalCon QUAD, bei dem 
-normalerweise ein Fasernpaar belegt ist. Mit der Zusatzoption 10GbE wird das zweite Paar Fasern belegt.
+Das Arena und das D9 sind jeweils mit einem opticalCON Duo ausgestattet gemaß 1000BASE-SX (850nm Multimode SFP). 
+Empfohlene Glasfaserkabel sind OM3 oder OM4.
 
 Bühnenseitig empfiehlt sich ein Avolites TitanNet Switch (TNS),
 welcher wiederum RJ45, also gewohnter Netzwerkanschlüsse, bereitstellt.

@@ -68,7 +68,7 @@ einer oder zwischen mehreren Cuelisten kopieren oder verschieben:
 
 Man kann die **Unfold-Funktion** ([siehe nächster Abschnitt](#editieren-einer-cueliste-mit-unfold)) nutzen.
 
-Um einen Cue zu verschieben, kann man diesen im Fenster [Playback View](#das-fenster-playback-view) anklicken und verschieben, oder man klickt 
+Um einen Cue zu verschieben, klickt man im Fenster [Playback View](#das-fenster-playback-view) 
 auf die Nummer des Cues und ändert diese mit der Menütaste <Keys.SoftKey>Change To</Keys.SoftKey>
 (sobald die Nummer geändert wurde, ändert sich auch die Reihenfolge der Cues).
 

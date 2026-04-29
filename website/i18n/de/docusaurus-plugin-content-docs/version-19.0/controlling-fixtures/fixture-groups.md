@@ -201,8 +201,7 @@ Layout der Zellen wird in der jeweiligen Personality festgelegt.
 -   Normalerweise springen Positionen immer zu ganzen Pixeln (Kästchen), und der Winkel springt in 45°-Schritten. Um auch Zwischenwerte zu ermöglichen,
     schaltet man im Kontextmenü <Keys.SoftKey>Wheels Move Full Pixel</Keys.SoftKey> zu <Keys.SoftKey>Wheels Move Sub Pixel</Keys.SoftKey> um.
 
--   Wird eine Gruppe aus einzelnen Zellen von Geräten gebildet (siehe [Geräte mit mehreren Zellen/Subfixtures](../controlling-fixtures.md#fixtures-with-multiple-cellssub-fixtures)), so
-	kann man im Editor die Position der einzelnen Zellen einstellen. Damit lassen sich auch Geräte korrekt verwenden, bei denen in der Personality
+-   Um einzelne Zellen eines Geräts zu positionieren, wählt man die Zellen aus (siehe [Geräte mit mehreren Zellen/Subfixtures](../controlling-fixtures.md#fixtures-with-multiple-cellssub-fixtures)) und fasst diese in einer neuen Gruppe zusammen. Das Layout dieser Gruppe - und damit die Positionierung der Zellen - lässt sich wieder im Editor einstellen. Damit lassen sich auch Geräte korrekt verwenden, bei denen in der Personality
 	das Layout nicht korrekt hinterlegt ist. Es empfiehlt sich aber, entweder die Personality zu korrigieren oder den Bug in der Personality 
 	zu melden und von Avolites beheben zu lassen.
 

@@ -163,6 +163,12 @@ zurücksetzen kann.
 >   Mittels [Tastenprofilen (Key Profiles)](../system-settings/key-profiles.md)
     kann man eine der Tasten als 'Connect' zum Verbinden mit der Steuerung definieren.
 
+### BPM-Master numerisch steuern
+
+Der Wert eines BPM-Masters lässt sich auch numerisch exakt steuern. Dazu gibt man den gewünschten Wert mit den 
+Zifferntasten ein und drückt die **Auswahltaste** des Masters oder klickt in dessen Bereich auf den Bildschirm.
+Damit kann das Tempo exakt auf einen bestimmten BPM-Wert gesetzt werden.
+
 ## Playback-Gruppen
 
 Playbacks können in Gruppen zusammengefasst werden. Dies ist sinnvoll,

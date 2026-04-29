@@ -72,7 +72,7 @@ Bedienungsoption:
 Auf allen Konsolen außer dem Diamond 9, Diamond 7 und dem Sapphire Touch befindet sich am oberen
 Bildschirmrand die Werkzeugleiste.
 
-![Tools Menu](/docs/images/Tools-Menu.png)
+![Tools Menu](/docs/images/Tools-Menu-v19.png)
 
 Beim Sapphire Touch befindet sich die Werkzeugleiste am Mittelsteg, also
 links im rechten sowie rechts im linken Display.
@@ -130,7 +130,9 @@ dem Avolites-Support die Fehlersuche ermöglichen.
 
 **Restart** und **Shutdown Software** startet die Titan-Software neu
 bzw. schließt sie. Normalerweise benötigt man das nur beim
-Programm-Update.
+Programm-Update oder nach dem Aktualisieren der Personality-Library.
+
+**Turn Off Console** fährt das Pult herunter, genauso als wenn der Einschalter betätigt wird.
 
 In der Werkzeugleiste befindet sich auch jeweils ein Button zum Aufrufen
 der Bildschirmtastatur. Auf dem Diamond 9 gibt es dafür die Taste <Keys.HardKey>Keyboard</Keys.HardKey>.

@@ -7,13 +7,13 @@ sidebar_label: Arbeiten mit Synergy
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-Sind Titan und Ai-Server oder Prism Zero einmal [verbunden](setting-up.md), so lässt 
+Sind Titan und Ai-Server oder Prism einmal [verbunden](setting-up.md), so lässt 
 sich Ai sehr einfach von Titan aus steuern.
 
 ## Hochladen von Content mit dem Media Browser
 
 Mit dem Media Browser lassen sich direkt von Titan aus Clips auf den
-Ai-Server bzw. Prism Zero laden. Ebenso lassen sich neue Media-Bänke auf dem Server
+Ai-Server bzw. Prism laden. Ebenso lassen sich neue Media-Bänke auf dem Server
 anlegen. Neuer Content wird dabei automatisch in den von Ai bevorzugten
 AiM-Codec gewandelt. Das vereinfacht das Verwenden von Medien, die erst
 im letzten Moment angeliefert werden, sehr.
@@ -38,7 +38,7 @@ man auf das <Keys.ContextKey>+</Keys.ContextKey> neben der Liste der Bänke, so 
 angelegt. Ganz oben in der rechten Spalte wird der auf dem Server 
 verfügbare Speicherplatz sowie der Pfad zum Medienverzeichnis angezeigt.
 
-Um Medien auf den Ai-Server bzw. Prism Zero zu laden, wählt man in der mittleren Spalte
+Um Medien auf den Ai-Server bzw. Prism zu laden, wählt man in der mittleren Spalte
 die gewünschten Dateien aus und klickt danach rechts auf die Bank, auf
 die der Upload erfolgen soll.
 
@@ -70,7 +70,7 @@ den Encodern und Attributbänken).
 > Die wichtigsten Attribute dabei sind **Intensity** zur Einstellung der
 Helligkeit sowie die **Media Selection** (Medienauswahl), um Bank und Clip
 zu wählen. Aber es lassen sich auch viele weitere Attribute einstellen,
-Effekte hinzufügen etc. Prism Zero hat dabei einen deutlich kleineren Funktionsumfang als Ai.
+Effekte hinzufügen etc. Prism hat dabei einen deutlich kleineren Funktionsumfang als Ai.
 
 ![Clip tab of Attribute Editor for Synergy layer](/docs/images/Clip-tab-of-Attribute-Editor-for-Synergy-layer.png)
 
@@ -111,7 +111,7 @@ funktionieren wie gewohnt.
 
 Mitunter will man auf Lampen, die im Pult gepatcht sind, auch
 Video-Content wiedergeben, etwa wenn eine Wand aus vielen LED-Lampen
-zusammengesetzt ist. Der Titan-Pixelmapper kann direkt den Output von Ai bzw. Prism Zero
+zusammengesetzt ist. Der Titan-Pixelmapper kann direkt den Output von Ai bzw. Prism 
 verwenden - sowohl eines einzelnen Layers (nur bei Ai) als auch eines ganzen
 Surfaces. Dabei ist es nicht erforderlich, das Titan-Surface mit einem
 Output des Servers zu verbinden.
