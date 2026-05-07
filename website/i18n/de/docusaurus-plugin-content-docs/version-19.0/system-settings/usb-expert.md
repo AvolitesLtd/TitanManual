@@ -7,16 +7,37 @@ sidebar_label: Upgraden der Firmware (USB Expert)
 import Keys from '@site/src/components/key.ts';
 import Video from '@site/src/components/video.tsx';
 
-## Upgraden der Panel-Firmware per USB Expert
+Von Zeit zu Zeit - anlassbezogen - veröffentlicht Avolites neue Firmware für die verschiedenen Module im Pult. Solche Updates werden normalerweise zusammen mit Software-Updates angeboten, können aber auch separat verfügbar sein.
 
-Mach dem Updaten der Software ist es mitunter erforderlich, die Firmware der verschiedenen Panels zu aktualisieren. Dazu ist die Software 'Avolites USB Expert Console' auf allen Pulten und auch mit der PC-Suite mitgeliefert und installiert.
+Dafür gibt es die Software **USB Expert Console** - damit kann man sowohl die Firmware der Panels aktualisieren als auch die Funktion überprüfen sowie ggf. Fehler der Hardware bzw. in der angeschlossenen Peripherie verfolgen.
+
+## Öffnen der USB Expert Console
+
+Öffnen Sie das **Tools-Menü** von der Werkzeugleiste aus, klicken Sie auf **Control Panel** und wählen **USB Expert Console**. Mit der PC-Suite wird die USB Expert Console ebenfalls installiert (für das T1, T2, T3 oder Titan Mobile): rufen Sie die **USB Expert Console** ganz normal aus dem Startmenü auf.
+
+![Start USB Expert from Tools Menu](/docs/images/USB-Expert-Start.png)
+
+Links unter **Connected Panels** wird eine Liste der vorhandenen Panels angezeigt (die vorhandenen Panels sind je nach Pult andere).
+Falls diese Liste leer ist, klicken Sie im Menü auf 'Tools', dann auf 'Acw Service', dann auf 'Start'.
 
 > Es kann sein, dass nach dem Softwareupdate automatisch die USB Expert Console geöffnet wird, wenn das Upgrade der Firmware erforderlich ist.
 
-Zum Upgrade der Panel-Firmware gehen Sie wie folgt vor:
+## Anzeige der Panels in USB Expert
 
-1. Bei Pulten öffnen Sie das **Tools**-Menü in der Werkzeugleiste, klicken auf **Control Panel** und dann auf  **USB Expert Console**. Auf einem Computer für das Titan Mobile, T1, T2 oder T3 öffnen Sie die **USB Expert Console** über das Startmenü.<br/>
-![Tools Menu](/docs/images/Tools-Menu-Control-Panel.png)
+Im Bereich **Connected Panels** wird mit einem kleinen Icon neben jedem einzelnen Panel dessen Status angezeigt:
+
+- Ein grüner USB-Icon bedeutet, dass das Panel ordnungsgemäß funktioniert und keine Fehler oder Updates vorliegen (1).
+- Liegt für das Panel ein Firmware-Update vor oder ist das Panel zum Programmieren im Boot-Modus, so wird dies durch ein Download-Icon mit einer Uhr angezeigt (2). Führen Sie für dieses Panel ein Update wie im nächsten Kapitel beschrieben aus.
+- Panels, bei denen ein Problem erkannt wurde, werden mit einem Ausrufungszeichen auf gelbem Dreieck markiert (3). Führen Sie einen Panel Reset aus. Sollte das nicht helfen, setzen Sie sich mit dem Avolites-Support in Verbindung.
+- Wurde ein Panel manuell in den Boot-Modus versetzt, so wird dies durch ein Icon mit Zahnrad und Schraubenschlüssel dargestellt (4). Zum Verlassen des Boot-Modus wählt man das Panel aus und klickt rechts im Reiter 'Service' auf **Exit Boot**.
+
+![USB Expert panel status](/docs/images/USB-Expert-Panel-Status.png)
+
+## Automatisches Updaten der Firmware
+
+Üblicherweise kann die Firmware wie folgt automatisch aktualisiert werden:
+
+1. Öffnen Sie wie oben beschrieben die USB Expert Console.
 
 2. Links unter **Connected Panels** wird eine Liste der vorhandenen Panels angezeigt (die vorhandenen Panels sind je nach Pult andere).
 ![USB Expert Panel Update](/docs/images/USB-Expert-Panel-Update.png)
@@ -27,246 +48,187 @@ Zum Upgrade der Panel-Firmware gehen Sie wie folgt vor:
 
 5. Sind Updates erforderlich, so klicken Sie auf **Update Now**. Daraufhin werden nacheinander die einzelnen Panels mit neuer Firmware versehen. Im rechten unteren Teil wird der Fortschritt des Updatevorgangs mit einem grünen Balken angezeigt.
 
-6. Sobald die Auto Update-Box leer ist und also alle Panels aktualisiert wurden, schließen Sie die USB Expert-Console und starten Sie das Pult neu.
+6. Sobald die Auto Update-Box leer ist und alle Panels aktualisiert wurden, schließen Sie die USB Expert-Console und starten Sie das Pult neu.
 
-- In der Box **Connected Panels** wird der Status der Panels angezeigt. 
+- Sollte das Updaten eines Panels länger als 10 Minuten dauern, so klicken Sie auf **Exit Boot**, woraufhin alle Panels wieder unter **Connected Panels** erscheinen. Wiederholen Sie nun den Vorgang ab Schritt 3, bis alle Panels auf dem neuesten Stand sind.
 
-- Wenn auf PC-Systemen (Titan Mobile, T1, T2) die Box leer ist, klicken Sie im Menü auf 'Tools', dann auf 'Acw Service', dann auf 'Start'.
+- Sollte **Update Now** ausgegraut sein oder das Updaten fehlschlagen, so führen Sie einen Panel Reset aus. Sollte auch das nicht helfen, müssen die betreffenden Panels manuell geupdatet werden
 
-- Die mittlere Box ('**Item Events**') dient zur Überprüfung der Funktion der verschiedenen Panels. Sobald ein Fader bewegt oder eine Taste gedrückt wird, wird dies hier angezeigt.
+## Manuelles Updaten der Firmware
 
-- Sollte der Updateprozess der Firmware nach 10 Minuten noch immer nicht abgeschlossen sein, drücken Sie auf **Exit Boot** und warten, bis wieder alle Panels bei **Connected Panels** angezeigt werden. Wiederholen Sie nun den Vorgang ab Schritt 3. (Es kann sein, dass die Panels erfolgreich ugedatet wurden, und nur die USB Expert Console das nicht mitbekommen hat. Das wird auf diese Weise überprüft).
+Wird im Bereich 'Auto Update' nichts angezeigt, Sie haben aber eine Firmware-Datei (.bin oder .hex), so können einzelne Panels manuell geupdatet werden.
 
+1. Öffnen Sie wie oben beschrieben die USB Expert Console.
 
-From time to time Avolites will issue updated firmware for the various modules inside the console. These may be included as part of a software version update, or can be applied separately.
+2. Wählen Sie im Bereich **Connected Panels** (links) das Panel aus, das Sie updaten möchten.
 
-Avolites also provides a software utility called **USB Expert Console** which is used to update firmware. It is also useful for fault finding if you have problems with the console hardware. 
+3. Klicken Sie rechts auf den Reiter **Service** und dort auf den Button **Enter Boot**.
 
-## Opening USB Expert Console
+4. Überprüfen Sie unter **Connected Panels**, dass das Panel in den Boot-Modus gewechselt ist.
 
-Open the **Tools menu** from the system toolbar, click on **Control Panel** and select the **USB Expert Console** option. For a PC-based device or panel such as T1, T2, T3 or Titan Mobile, run **USB Expert Console** from the start menu.
+5. Klicken Sie rechts auf den Button **Program**.
 
-![Start USB Expert from Tools Menu](/docs/images/USB-Expert-Start.png)
+6. Es öffnet sich ein Fenster zur Auswahl der Datei. Navigieren Sie nach ```C:\Program Files (x86)\Avolites\USB Expert\Panel Software``` (oder zum Verzeichnis der von Ihnen beabsichtigten Datei).
 
-In the top left hand window **Connected Panels** you should see a list of the hardware panels in the system.
-If no panels are listed, go to the Tools menu, click ACW Service, click Start.
+7. Wählen Sie die passende Firmware-Datei aus (siehe [Liste der Firmware-Dateien](#liste-der-firmware-dateien) am Ende dieses Abschnitts).
 
-> The USB Expert Console might be opened automatically after completion of a software upgrade, to prompt you to upgrade panel firmware.
+8. Nach erfolgtem Firmware-Update wechselt das Panel automatisch wieder in den normalen Betriebsmodus. Wollen Sie wechseln, ohne die Firmware upzudaten, klicken Sie auf **Exit Boot**.
 
-## Panel indications in USB Expert
+## Funktionstest der Panel
 
-In the top left hand window **Connected Panels**, an icon to the left of each panel shows its status.
+In der Mitte zeigt die USB Expert Console die einzelnen Hardware-Ereignisse an. Damit lässt die die korrekte Funktion der einzelnen Bedienelemente überprüfen.
 
-- Panels in normal operation show a green USB icon (1).
-- Panels with an update available or which are in Boot Mode awaiting update show a download/clock icon (2). Carry out the update procedure in the next section.
-- Panels which are not responding show a yellow exclamation icon (3). Try performing a panel reset, if this does not help then contact Avolites support.
-- Panels which have been manually put into Boot Mode show a spanner icon (4). If this is not intentional you can select the panel and click **Exit Boot** on the right.
+### Testen von Tastern/Schaltern
 
-![USB Expert panel status](/docs/images/USB-Expert-Panel-Status.png)
-
-## Automatic firmware update
-
-Use the following steps to upgrade panel firmware:
-
-1. Open USB Expert Console as described above.
-
-2. You should see a list of the panels on the console in the left hand **Connected Panels** window (the list will vary depending on the console). Select the panels which have an update available (see image above).
-![USB Expert Panel Update](/docs/images/USB-Expert-Panel-Update.png)
-
-3. On the right hand side of the window select the **Service** tab and click **Enter Boot**.
-
-4. In the **Auto Update** box on the right hand side, the firmware updates will be listed. The list may vary depending on the console type and the updates available. If updates are not shown, see next section.
-
-5. Click **Update Now** to start the process and the system will update the panels one by one. A green progress bar will be shown in the bottom part of the window.
-
-6. When the Auto Update box is empty, close USB Expert, shut down the console using the power button, then restart it.
-
-- If the panel update has not completed after 10 minutes, press **Exit Boot** regardless and wait for all panels to reappear in the **Connected Panels** window. Then repeat from step 3 to check whether all panels have in fact been updated. 
-
-- If **Update Now** remains greyed out, or the process fails, try and carry out a panel reset. If this does not work, you may need to manually update the panel.
-
-## Manual firmware update
-
-If firmware updates are not listed in the Auto Update window, but you have .bin or .hex files to update from, you can manually update individual panels.
-
-1. Open USB Expert Console as described above.
-
-2. In the left hand **Connected Panels** window select the panel that you want to update.
-
-3. Click on the **Service** tab and click **Enter Boot**.
-
-4. Make sure the panel has gone into Boot Mode in the Connected Panels window.
-
-5. Click on **Program** in the Service Operations window.
-
-6. A file selection dialog will open. Navigate to ```C:\Program Files (x86)\Avolites\USB Expert\Panel Software```
-
-7. Select the firmware file appropriate for the panel (see [Firmware file reference](#firmware-file-reference) at the end of this section).
-
-8. On completion, press **Exit Boot**.
-
-## Testing panel operation
-
-The central part of the USB Expert window shows a log of hardware events. You can use this to test whether the panel controls are working correctly.
-
-### Testing Buttons / switches
-
-Pressing any button on the panel should show up in the central window as ```KeyState:0``` followed by ```KeyState:1``` when the button is released. If you can see double entries, missed responses or no response at all then the switch may be faulty and should be replaced.
+Wird eine Taste gedrückt/ein Schalter betätigt, so wird dies im mittleren Bereich **Item Events** als ```KeyState: 1``` angezeigt, gefolgt von ```KeyState: 0```, sobald die Taste losgelassen wird. Werden fälschlicherweise Mehrfachbetätigungen angezeigt oder wird die Taste nicht registriert, so liegt wahrscheinlich ein Hardware-Problem vor, und die Taste muss ausgewechselt werden.
 
 ![USB Expert Key Test](/docs/images/USB-Expert-Key-Test.png)
 
-### Testing Faders
+### Testen der Fader
 
-In the **Connected Panels** window on the left, select the fader panel you want to test. On the right hand side click on the **Faders** tab.
+Wählen Sie im Bereich **Connected Panels** links das zu überprüfende Faderpanel, und wechseln Sie rechts oben auf den Reiter **Faders**.
 
 ![USB Expert Fader Test](/docs/images/USB-Expert-Fader-Test.png)
 
-- Slowly raise the fader at a steady, moderate pace. In the central window you should see a value increasing gradually from 0 to 255.
-- The green progress bar on the right should move smoothly upward as the fader is raised. There should be no flickering or erratic movement.
-- The value should not jump back and forth — consistent movement is expected.
-- Once the fader reaches the top, the value should remain stable at 255 without any drops of flickering.
-- Finally, slowly bring the fader back down and check for smooth, consistent behaviour.
+- Bewegen Sie nacheinander jeden Fader langsam und gleichmäßig. Im mittleren Bereich **Item Events** werden Einträge mit Werten (Value) zwischen 0 und 255 angezeigt.
+- Der grüne Balken rechts ändert sich ebenfalls je nach Faderstellung. Die Anzeige sollte nicht flickern oder springen.
+- Weder die numerische Anzeige in der Mitte noch der grüne Balken rechts dürfen plötzlich andere Werte annehmen.
+- Steht der Fader auf 100%, so muss als Wert 255 angezeigt werden; steht der Fader auf 0%, muss der Wert 0 sein.
+- Bewegen Sie jeden einzelnen Fader mehrfach gleichmäßig von 0 auf 100% und wieder auf 0, und beobachten Sie das Verhalten.
 
-If flickering or unstable values are seen, try cleaning the problematic fader with Deoxit F5 Fader Cleaner (alternatives: Servisol Super 10; Kontakt Chemie Cleaner 601). If cleaning the fader does not resolve the problem it may need to be replaced.
+Treten Unregelmäßigkeiten auf (springende Werte o.ä.), versuchen Sie, den betreffenden Fader mit Deoxit F5 Fader Cleaner zu reinigen (alternativ: Servisol Super 10; Kontakt Chemie Cleaner 601). Ist das Reinigen des Faders nicht erfolgreich, so muss der Fader getauscht werden.
 
-### Testing Motorised Faders
+### Testen der Motorfader
 
-In the **Connected Panels** window on the left, select the motor fader panel you want to test. On the right hand side click on the **Motors** tab.
+Wählen Sie im Bereich **Connected Panels** links das zu überprüfende Motorfaderpanel, und wechseln Sie rechts oben auf den Reiter **Motors**.
 
-Tick the checkbox for **Link Faders** and reduce **Speed** to 30 for testing.
+Aktivieren Sie die Checkbox für **Link Faders** und reduzieren Sie für den Test **Speed** auf 30.
 
 ![USB Expert Motor Test](/docs/images/USB-Expert-Motor-Test.png)
 
-- Move one of the onscreen slider bars to the right. 
-- All faders should move smoothly and in unison without any stuttering. If you see any jerky or inconsistent movement it may indicate a fault with the fader's motor - please contact your local Avolites support team.
+- Schieben Sie jeden einzelnen **Fader auf dem Bildschirm** (rechts) nach rechts. 
+- Alle (Hardware-)Fader müssen gleichmäßig und ruckelfrei den Bildschirmfadern folgen. Sollte die Bewegung ungleichmäßig oder stotternd sein, so könnte der jeweilige Fadermotor defekt sein. Wenden Sie sich in diesem Fall an den Avolites-Support.
 
-### Calibrating Motorised Faders
+### Kalibrieren der Motorfader
 
-If the faders recall to an incorrect position then they may need calibration. In the **Connected Panels** window on the left, select the motor fader panel you want to test. On the right hand side click on the **Motors** tab, then press the **Start Calibration** button on the bottom right of the screen and follow the on-screen prompts.
+Fahren die Fader (z.B. beim Wechseln der Playback-Seiten) auf falsche Werte, so müssen sie kalibriert werden. Wählen Sie im Bereich **Connected Panels** links das zu überprüfende Motorfaderpanel, und wechseln Sie rechts oben auf den Reiter **Motors**. Klicken Sie nun rechts unten auf den Button **Start Calibration** und folgen Sie den Anweisungen auf dem Bildschirm.
 
 ![USB Expert Motor Test](/docs/images/USB-Expert-Motor-Calibration.png)
 
-- Put all faders on the console to full
-- Put all faders on the console to zero
-- Store the calibration values
+- Stellen sie alle Fader auf 100%
+- Klicken Sie auf Next
+- Stellen Sie alle Fader auf 0
+- Speichern Sie die Kalibrierungsdaten
 
-### Testing DMX panels
+### Testen der DMX-Panels
 
-This test will require a DMX tester. You will need to shut down the Titan software using the shutdown option in the Tools menu.
+Hierzu ist ein DMX-Tester erforderlich, außerdem muss die Titan-Software mit **Shutdown Software** aus dem Tools-Menü beendet werden.
 
-In the **Connected Panels** window on the left, select the DMX panel you want to test. On the right hand side click on the **DMX** tab, then move the **Channel Level** slider up and down to change the DMX output level. Check with the DMX tester that the correct levels are being output.
+Wählen Sie im Bereich **Connected Panels** links das zu überprüfende DMX-Panel, und wechseln Sie rechts oben auf den Reiter **DMX**.
+Schieben Sie nun den Bildschirmfader **Channel Level** nach oben und unten, und überprüfen Sie mit dem DMX-Tester die ausgegebenen Werte.
 
-- For consoles with 8 DMX outputs, select DMX 1 to test outputs 1-4 and DMX 2 to test outputs 5-8.
+- Bei Pulten mit 8 DMX-Ausgängen steuert das Panel 'DMX 1' die Ausgänge 1-4, und das Panel 'DMX 2' steuert die Ausgänge 5-8.
 
 ![USB Expert DMX Test](/docs/images/USB-Expert-DMX-Test.png)
 
-### Testing panel LEDs
+### Testen der LEDs
 
-The process for testing the panel LEDs varies slightly depending on the console type.
+Das Testen der LEDs unterscheidet sich etwas je nach jeweiligem Pult.
 
-**T3 and D3**
-- Under **Connected Panels** select T3/D3 Main Board.
-- On the right select **Leds** tab.
-- Change **End LED value** to 64.
-- Under **Binary State** press On.
-- Press **LED echo**.
-- Raise all faders on console
-- All LEDs should be illuminated on the front panel.
+**T3 und D3**
+- Unter **Connected Panels** wählen Sie das T3/D3 Main Board.
+- Gehen Sie rechts oben auf den Reiter **Leds**.
+- Stellen Sie **End LED value** auf 64.
+- Stellen Sie **Binary State** auf On.
+- Klicken Sie auf **LED echo**.
+- Schieben Sie alle Fader nach oben
+- Nun müssen alle Playback-LEDs auf dem Pult aufleuchten.
 
-**Quartz and Titan Mobile**
-- Under **Connected Panels** select Mobile Main Board.
-- On the right select **Leds** tab.
-- Change **End LED value** to 56.
-- Under **Binary State** press On.
-- Press **LED echo**.
-- Raise all faders on console
-- All LEDs should be illuminated on the front panel.
-
-**Quartz**
-- Under **Connected Panels** select Mobile Main Board.
-- On the right select **Leds** tab.
-- Change **End LED value** to 56.
-- Under **Binary State** press On.
-- Press **LED echo**.
-- Raise all faders on console
-- All LEDs should be illuminated on the front panel.
+**Quartz und Titan Mobile**
+- Unter **Connected Panels** wählen Sie das Quartz Main Board bzw. Mobile Main Board.
+- Gehen Sie rechts oben auf den Reiter **Leds**.
+- Stellen Sie **End LED value** auf 56.
+- Stellen Sie **Binary State** auf On.
+- Klicken Sie auf **LED echo**.
+- Schieben Sie alle Fader nach oben
+- Nun müssen alle Playback-LEDs auf dem Pult aufleuchten.
 
 **Tiger Touch II**
-- Under **Connected Panels** select Touch Playback Panel 1.
-- On the right select **Leds** tab.
-- Change **End LED value** to 20.
-- Raise level bar to the top.
-- Change **End LED value** to 56.
-- Under **Binary State** press On.
-- All LEDs should be illuminated on the front panel.
+- Unter **Connected Panels** wählen Sie das Touch Playback Panel 1.
+- Gehen Sie rechts oben auf den Reiter **Leds**.
+- Stellen Sie **End LED value** auf 20.
+- Stellen Sie den Level auf 100%.
+- Stellen Sie **End LED value** auf 56.
+- Stellen Sie **Binary State** auf On.
+- Nun müssen alle Playback-LEDs auf dem Pult aufleuchten.
 
 **Arena**
-- Under **Connected Panels** select Touch Playback Panel 1.
-- On the right select **Leds** tab.
-- Change **End LED value** to 20.
-- Raise level bar to the top.
-- Under **Connected Panels** select Fader Wing Panel 5.
-- Change **End LED value** to 18.
-- Raise level bar to the top (you may need to lower it slightly first then raise it again).
-- Under **Connected Panels** select Arena Auxiliary Panel 1.
-- Change **End LED value** to 4.
-- Raise level bar to the top (you may need to lower it slightly first then raise it again).
-- Under **Connected Panels** check Arena Auxiliary Panel 1 is still selected.
-- Change **End LED value** to 30.
-- Under **Binary State** press On.
-- Under **Connected Panels** select Touch II Program Panel 1.
-- Change **End LED value** to 56.
-- Under **Binary State** press On.
-- All LEDs should be illuminated on the front panel.
+- Unter **Connected Panels** wählen Sie das Touch Playback Panel 1.
+- Gehen Sie rechts oben auf den Reiter **Leds**.
+- Stellen Sie **End LED value** auf 20.
+- Stellen Sie den Level auf 100%.
+- Unter **Connected Panels** wählen Sie das Fader Wing Panel 5.
+- Stellen Sie **End LED value** auf 18.
+- Stellen Sie den Pegel auf 100% (ggf. muss erst etwas zurückgeregelt werden, bevor der Pegel erhöht wird).
+- Unter **Connected Panels** wählen Sie das Arena Auxiliary Panel 1.
+- Stellen Sie **End LED value** auf 4.
+- Stellen Sie den Pegel auf 100% (ggf. muss erst etwas zurückgeregelt werden, bevor der Pegel erhöht wird).
+- Unter **Connected Panels** soll noch immer das Arena Auxiliary Panel 1 angewählt sein.
+- Stellen Sie **End LED value** auf 30.
+- Stellen Sie **Binary State** auf On.
+- Unter **Connected Panels** wählen Sie das Touch II Program Panel 1.
+- Stellen Sie **End LED value** auf 56.
+- Stellen Sie **Binary State** auf On.
+- Nun müssen alle Playback-LEDs auf dem Pult aufleuchten.
 
 **Sapphire Touch**
-- Under **Connected Panels** select Sapphire Program Panel 1.
-- On the right select **Leds** tab.
-- Change **End LED value** to 56.
-- Under **Binary State** press On.
-- Under **Connected Panels** check Sapphire Program Panel 1 is still selected.
-- Change **End LED value** to 4.
-- Press **Led Colour**, set the colour to red and press OK.
-- Raise level bar to the top.
-- Under **Connected Panels** select Sapphire Motor Panel 1.
-- Change **End LED value** to 5.
-- Raise level bar to the top.
-- All LEDs should be illuminated on the front panel.
+- Unter **Connected Panels** wählen Sie das Sapphire Program Panel 1.
+- Gehen Sie rechts oben auf den Reiter **Leds**.
+- Stellen Sie **End LED value** auf 56.
+- Stellen Sie **Binary State** auf On.
+- Unter **Connected Panels** muss noch immer das Sapphire Program Panel 1 ausgewählt sein.
+- Stellen Sie **End LED value** auf 4.
+- Klicken Sie auf **Led Colour**, stellen die Farbe auf Rot, und klicken auf OK.
+- Stellen Sie den Level auf 100%.
+- Unter **Connected Panels** wählen Sie das Sapphire Motor Panel 1.
+- Stellen Sie **End LED value** auf 5.
+- Stellen Sie den Level auf 100%.
+- Nun müssen alle Playback-LEDs auf dem Pult aufleuchten.
 
 **D9**
-- Under **Connected Panels** select Diamond Encoder Panel 2.
-- On the right select **Leds** tab.
-- Press **Led Colour**, set the colour to red and press OK.
-- Under **Binary State** press Off then On.
-- All LEDs should be illuminated on the console.
-- Use the horizontal bar to adjust the encoder LEDs (step up/down).
-- Use the vertical bar to adjust the intensity of the LEDs.
-- Repeat the above steps for colours Green, Blue and White.
+- Unter **Connected Panels** wählen Sie das Diamond Encoder Panel 2.
+- Gehen Sie rechts oben auf den Reiter **Leds**.
+- Klicken Sie auf **Led Colour**, stellen die Farbe auf Rot, und klicken auf OK.
+- Stellen Sie **Binary State** auf On.
+- Nun müssen alle Playback-LEDs auf dem Pult aufleuchten.
+- Stellen Sie die Encoder-LEDs mit den horizontalen Reglern ein (step up/down).
+- Verändern Sie die Helligkeit der LEDs mit den vertikalen Reglern.
+- Wiederholen Sie die Schritte für die Farben Grün, Blau und Weiß.
 
-### Testing UPS battery
+### Testen der USV-Batterie
 
-In the **Connected Panels** window on the left, select the UPS panel. On the right hand side click on the **UPS** tab. 
+Wählen Sie im Bereich **Connected Panels** links das UPS-Panel, und wechseln Sie rechts oben auf den Reiter **UPS**.
 
-- Make sure that the battery status is set to **charging**. A fully charged battery will show a current between 0.02A – 0.05A. A charging battery may show a current of 2A-3A.
-- When power is removed the **Charging** status should switch to a green bar with **NoLoad**, indicating that the console is on UPS battery. 
+- Als Batterie-Status muss **Charging** angezeigt werden. Ist die Batterie voll geladen, so wird ein Strom (current) von 0,02 - 0,05 A angezeigt. Wird die Batterie gerade geladen, so beträgt der Wert 2 - 3 A.
+- Wird die Stromversorgung unterbrochen, so wechselt der Status von **Charging** auf einen grünen Balken mit **NoLoad**, um anzuzeigen, dass das Pult gerade auf USV läuft. 
 
 ![USB Expert UPS Test](/docs/images/USB-Expert-UPS-Test.png)
 
-### Testing timecode
+### Testen von Timecode
 
-In the **Connected Panels** window on the left, select the SMPTE panel. On the right hand side click on the **Timecode** tab. Connect a timecode source to the console and you should see the timecode updating in the **In Timecode** panel.
+Wählen Sie im Bereich **Connected Panels** links das SMPTE-Panel, und wechseln Sie rechts oben auf den Reiter **Timecode**. Schließen Sie ein Timecode-Signal an. Bei **In Timecode** muss der laufende Wert angezeigt werden.
 
 ![USB Expert Timecode Test](/docs/images/USB-Expert-Timecode-Test.png)
 
-### Testing MIDI
+### Testen von MIDI
 
-In the **Connected Panels** window on the left, select the IO panel (or DMX panel on some consoles). On the right hand side click on the **MIDI** tab and click **Watch MIDI**. Connect a MIDI device to the console and send some MIDI commands, you should see the commands appear in the MIDI Watcher window.
+Wählen Sie im Bereich **Connected Panels** links das IO-Panel (bei manchen Pulten das DMX-Panel), wechseln Sie rechts oben auf den Reiter **MIDI**, und klicken Sie auf **Watch MIDI**. Schließen Sie ein MIDI-Gerät an und senden Sie MIDI-Signale. Diese werden im Fenster 'MIDI Watcher' angezeigt.
 
 ![USB Expert MIDI Test](/docs/images/USB-Expert-MIDI-Test.png)
 
-## Firmware file reference
+## Liste der Firmware-Dateien
 
-Panel | Filename
+Panel | Datei
 ---|----
 **T1 / TitanOne** |
 Titan One DMX Panel 1 |	titan_one.bin
