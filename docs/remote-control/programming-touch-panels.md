@@ -57,7 +57,7 @@ To configure the available scenes on the touch panel, do this:
 
 ### User numbers for zones and scenes
 
-The zones (Playback Groups) and scenes (Playbacks) must have these user numbers to make them appear on the D3 Touch.
+The zones (Playback Groups) and scenes (Playbacks) must have these User Numbers to make them appear on the D3 Touch.
 
  Zone | zone button | scene 1 | scene 2 | scene 3 | scene 4 | scene 5 | scene 6 | scene 7 | scene 8
 ---|---|---|---|---|---|---|---|---|---
