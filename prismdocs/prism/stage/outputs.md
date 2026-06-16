@@ -26,7 +26,6 @@ A Physical Output is used to send video to a physical display device, including 
 
 ![Prism](/prism-images/stage/outputs/physical.png)
 
-
 ### Physical Output Controls
 
 A list of all connected video output devices, will appear in the *Output Device* drop-down.  

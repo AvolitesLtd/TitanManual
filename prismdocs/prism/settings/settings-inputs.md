@@ -18,7 +18,7 @@ The **Live Inputs** list will automatically update when plugging/unplugging a ph
 
 If a new NDI® source is added or removed in the local network the **NDI® Inputs** list is updated.
 
-![Source Selection](/prism-images/settings/source-selection-NDI.png)
+![Source Selection](/prism-images/settings/source-selection-ndi.png)
 
 [NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.
 

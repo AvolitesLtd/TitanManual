@@ -12,7 +12,6 @@ It is composed of three pages:
 - [Outputs](./outputs.md) set up and enable **Outputs**.
 - [Regions](./regions.md) map **Surfaces** and **Layers** to **Outputs**.
 
-
 ![Prism](/prism-images/stage/prism-stage-view.png)
 
 > **Note:** Any changes on these pages may cause the outputs to pause whilst changes are being applied.

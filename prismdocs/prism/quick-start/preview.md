@@ -84,7 +84,7 @@ This area controls the **Crop** of the Bank Element.
 
 ## NDI® Input
 
-![Preview NDI® Input](/prism-images/preview/preview-NDI-settings.png)
+![Preview NDI® Input](/prism-images/preview/preview-ndi-settings.png)
 
 |   Item      |  Description   |
 |----------------|---------|
