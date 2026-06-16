@@ -44,15 +44,15 @@ the Ai show - see the Ai manual for more details on how to do this. You
 can create and rename Layers from the Titan console. The screen fixtures
 you have created in Ai will then become available as Surfaces in Titan.
 
-## Connecting up Prism Zero 
+## Connecting up Prism 
 
-You can connect to Prism Zero software running on any device connected to the same network as the console. 
+You can connect to Prism software running on any device connected to the same network as the console. 
 
-In the Prism Zero settings screen (File - Settings or click the menu icon in the top left corner), go to the Synergy option and turn on the **Enable Synergy** switch. Ensure the **Synergy Version** drop down box is set to match the version of Titan you have installed. Prism Zero will start the Titan Media Node which is a Titan node designed to interface with Prism. When the Titan Media Node is running, the Connection Status will change to "Connected". These settings are remembered next time you start Prism Zero.
+In the Prism settings screen (File - Settings or click the menu icon in the top left corner), go to the Synergy option and turn on the **Enable Synergy** switch. Ensure the **Titan Media Node Version** drop down box is set to match the version of Titan you have installed. Prism will start the Titan Media Node which is a Titan node designed to interface with Prism. When the Titan Media Node is running, the Connection Status will change to "Connected". These settings are remembered next time you start Prism.
 
-![Prism Zero Settings Window](/docs/images/prism-zero.png)
+![Prism Settings Window](/docs/images/prism-v19.png)
 
-Once connected, the Titan Media Node will be discoverable by TitanNet and you can use the Prism Zero output as a media surface in Titan by following the next section.
+Once connected, the Titan Media Node will be discoverable by TitanNet and you can use the Prism output as a media surface in Titan by following the next section.
 
 -   If the version box does not show a matching version, you need to install the correct version of Titan Media Node from the Avolites website.
 
@@ -64,14 +64,14 @@ menu.
 
 This window is a little like the [DMX settings screen](../system-settings/the-system-menu.md#dmx-settings): it lets you set up
 how the Titan console is linked to the various outputs on the Ai
-server(s) or to Prism Zero. Also, for Ai servers it lets you add or remove layers from each Ai surface
+server(s) or to Prism. Also, for Ai servers it lets you add or remove layers from each Ai surface
 and add complete new surfaces to the server (though you may need to
 configure these further on the Ai server itself).
 
 ![Synergy Settings Window](/docs/images/Synergy-Settings-Window-v19.png)
 
 On the left of the window the available Ai
-servers or Prism Zero instances are shown. In the centre of the window, the Surfaces and Layers
+servers or Prism instances are shown. In the centre of the window, the Surfaces and Layers
 configured in Titan are shown. Connection lines show how the Titan
 Surfaces will control the different outputs of the media servers. At the
 bottom are Surfaces which are already configured on the connected media servers but are not yet
@@ -79,7 +79,7 @@ linked to Titan, these are called unmatched surfaces.
 
 Click on the <Keys.ContextKey>+</Keys.ContextKey> at the bottom and select a Screen or Prism surface from the pop up to add a
 new surface. This will appear at the top; an Ai surface by default has two layers
-but you can change this later. A Prism Zero surface only has a single layer.
+but you can change this later. A Prism surface has two layers by default but this can be increased up to 16.
 
 ![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-Screen-Settings-v19.png)
 
@@ -99,14 +99,14 @@ When no Surfaces or Layers are selected, the right side of the window
 shows general information about the system. 
 
 Once you have created a surface in Titan, you need to match it to the desired Ai
-surface or Prism Zero. Click on the <Keys.ContextKey>Link</Keys.ContextKey> button on the unmatched surface at the
+surface or Prism. Click on the <Keys.ContextKey>Link</Keys.ContextKey> button on the unmatched surface at the
 bottom, then click on the Screen 1 surface at the top (or you can click
 **"Link to new Surface"** to automatically create a new surface and link to
 it).
 
 ![Synergy Settings Window linking a screen](/docs/images/Synergy-Settings-Window-Linking-A-Screen-v19.png)
 
-The Screen 1 Surface will now show that it is linked to the Ai server or Prism Zero and the unmatched server at the bottom disappears.
+The Screen 1 Surface will now show that it is linked to the Ai server or Prism and the unmatched server at the bottom disappears.
 
 ![Synergy Settings Window with a linked screen](/docs/images/Synergy-Settings-Window-With-A-Linked-Screen-v19.png)
 
@@ -130,7 +130,7 @@ linked to Ai, this will also delete the layer/surface in Ai.
 
 ## Synergy Fixtures Window
 
-Every Prism Zero layer or Ai server layer appears as a button in the Synergy Fixtures
+Every Prism layer or Ai server layer appears as a button in the Synergy Fixtures
 window. You can display this using the button at the bottom of the
 [Synergy Settings window](#synergy-setup) or by double tapping <Keys.HardKey>Open/View</Keys.HardKey>
 and then selecting it from the window select buttons.

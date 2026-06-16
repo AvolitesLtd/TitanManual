@@ -66,8 +66,8 @@ There are several ways to copy or move cues within a cue list. You can also move
 You can use **Unfold** ([as described in the next
 section](#editing-a-cue-list-using-unfold)).
 
-To move a cue you can either click and drag the cue in the [Playback
-View window](#playback-view-window), or click on the cue number and use the <Keys.SoftKey>Change To</Keys.SoftKey> softkey
+To move a cue, click on the cue number in the [Playback
+View window](#playback-view-window) and use the <Keys.SoftKey>Change To</Keys.SoftKey> softkey
 to enter the new cue number - once you have changed the number the cue will move to
 its correct position in the list.
 

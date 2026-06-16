@@ -1,0 +1,218 @@
+---
+id: key-frame-shapes
+title: Keyframe-Shapes
+sidebar_label: Keyframe-Shapes
+---
+
+import Keys from '@site/src/components/key.ts';
+import Video from '@site/src/components/video.tsx';
+
+Keyframe-Shapes gestatten es, eigene Sequenzen als Effekte zu nutzen.
+Dazu werden mehrere Attribut-Einstellungen gespeichert, zwischen denen
+dann gewechselt und übergeblendet wird.
+
+## Einen Keyframe-Shape erzeugen
+
+<Video videoId="1nvLaipivhM" title="Key Frame Shapes" />
+
+Ein Keyframe-Shape wird so ähnlich wie ein [Chaser](../chases.md) erstellt, ist aber
+wesentlich flexibler, den es lässt sich sowohl der Überblend-Verlauf
+bestimmen als auch die Art der Aufteilung auf mehrere Geräte. Ferner
+lassen sich Keyframe-Shapes auch sehr einfach z.B. in [Cuelisten](../cue-lists/creating-a-cue-list.md#tracking-von-shapes-in-cuelisten)
+einbinden.
+
+Die einzelnen Keyframes baut man entweder im **Channel (Kanal-) Modus**, indem man die
+Geräte entsprechend einstellt und auf <Keys.SoftKey>Add Frame</Keys.SoftKey> klickt, oder im
+&nbsp;**Quick Build**-Modus, bei dem automatisch ein neuer Frame angefügt wird,
+sobald man eine [Palette](../palettes.md) oder einen
+[Cue](../cues.md) anklickt. Mit der Schaltfläche <Keys.SoftKey>Record Mode</Keys.SoftKey>
+kann man zwischen beiden Modi umschalten.
+
+In diesem Beispiel bauen wir einen Keyframe-Shape für Farben. Man kann
+aber Keyframe-Shapes für andere und auch für mehrere verschiedene
+Attribute programmieren. Verwendet man dabei [Paletten](../palettes.md), 
+so werden diese auch hier als Referenz gespeichert: ändert man später 
+die Palette, so ändert sich auch der Shape.
+
+
+1. Im Hauptmenü drücken Sie <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, dann <Keys.SoftKey>Key Frame Shapes</Keys.SoftKey>.
+2. Klicken Sie auf <Keys.SoftKey>Create</Keys.SoftKey>, um einen neuen Keyframe-Shape zu
+beginnen.
+3. [Wählen Sie die gewünschten Geräte](../controlling-fixtures.md#dimmer-und-geräte-zum-steuern-auswählen) und stellen Sie die Farben für den ersten
+Keyframe ein.
+4. Klicken Sie auf <Keys.SoftKey>Add Frame</Keys.SoftKey>. Über dem ersten Playback-Fader wird
+eine entsprechende Legende angezeigt *(schalten Sie dies mit <Keys.SoftKey>Playbacks
+Display Visible/Hidden</Keys.SoftKey> ab, falls Sie das nicht wünschen oder z.B. im
+Quick Build-Modus ein Playback auswählen möchten)*.<br/>
+![Key Frame Shape - creating an effect with colour key frames](/docs/images/Key-Frame-Shape-creating-an-effect-with-colour-key-frames.png)
+5. Fügen Sie Schritte mit anderen Farben hinzu (jeweils mit <Keys.SoftKey>Add Frame</Keys.SoftKey>, 
+bis alle gewünschten Schritte erstellt wurden.
+6. Wenn Sie fertig sind, klicken Sie auf <Keys.SoftKey>Finish Recording Frames</Keys.SoftKey>.
+7. Im Effekt-Editor können Sie die Übergänge, die Überlappung und die
+Verteilung auf mehrere Geräte (Spread) einstellen, siehe nachfolgendes
+Bild.
+8. [Speichern Sie den Shape in einen Cue](#einen-keyframe-shape-in-einen-cue-speichern), um ihn später zu verwenden.
+
+-   Auch mit der <Keys.HardKey>Unfold</Keys.HardKey>-Taste können die Playbacks zwischen normaler
+    Anzeige und Anzeige der Keyframes umgeschaltet werden.
+
+-   Gibt man mit <Keys.SoftKey>Frame Number</Keys.SoftKey> die Nummer eines bereits bestehenden
+    Frames ein, oder wählt man diesen über die Auswahltaste des
+    Playbacks, so lässt sich der Frame mit <Keys.SoftKey>Replace</Keys.SoftKey> ersetzen sowie
+    mit <Keys.SoftKey>Delete</Keys.SoftKey> löschen.
+
+-   Ist der Shape nicht erkennbar, weil die Geräte dunkel sind, so
+    lassen sich die Dimmerkanäle der verwendeten Geräte mit der
+    Schaltfläche <Keys.ContextKey>Sonne</Keys.ContextKey> locaten.
+	
+## Ändern von Shape-Parametern im Effekt-Editor
+Siegen
+Ist ein Keyframe-Shape komplett erstellt, so wird er im Effekt-Editor
+angezeigt.
+
+![Effect Editor Window with colour key frame shape](/docs/images/Effect-Editor-Window-with-colour-key-frame-shape.png)
+
+Die Steuerelemente oben im linken Bereich beeinflussen den gesamten
+Shape: Speed (Geschwindigkeit), Direction (Richtung unter Verwendung des [Gruppen-Layouts](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen)), [Phase/Spread](shape-generator.md#ändern-der-verteilung-eines-shapes-mehrere-geräte)
+(Verteilung auf mehrere Geräte) und [Overlap](../cues/cue-timing.md#setting-fade-times-and-overlap-for-a-cue) (Überlappen benachbarter
+Geräte).
+
+Mit dem **Auge** oben links werden alle gerade angezeigten Shapes
+*eingeklappt*, so dass man sich nur einzelne Shapes zum Bearbeiten
+ausklappen kann, wenn mehrere Shapes laufen. Mit dem **Button mit dem
+Movinglight** lässt sich die Auswahl der Geräte, auf denen der 
+Keyframe-Shape läuft, verändern.
+
+Im Hauptbereich rechts werden die Übergänge zwischen den einzelnen
+Schritten dargestellt. Dies kann man einfach anklicken und ziehen, um
+den Verlauf zu ändern. Der gelbe Pfeil ist der Phasenversatz
+(Startposition) des gesamten Layers, den man ebenfalls einfach anklicken
+und ziehen kann, um den Start relativ zu anderen Layern zu verschieben 
+*(gleiches Ergebnis wie der Fader 'Phase Offset' unten)*.
+
+### Steuerelemente für Shape und Layer
+
+Zu Beginn *(oder sobald man links auf einen Layer klickt)* steuern die
+Fader rechts unten jeweils einen einzelnen Layer.
+
+![Effect Editor key frame controls for layer/effect](/docs/images/Effect-Editor-key-frame-controls-for-layer-effect.png)
+
+Man kann auf die Schaltflächen rechts neben den Fadern klicken, um
+direkt einen bestimmten Wert einzugeben oder den Wert mit den Wheels des
+Pultes einzustellen. Zum Zurücksetzen dient jeweils ein Doppelklick auf
+den Button oder die Funktion <Keys.SoftKey>Reset to default value</Keys.SoftKey> (erscheint,
+sobald ein Button angeklickt wird).
+
+Die Einstellung **Beats Per Cycle**, die genauso wie für normale Shapes
+arbeitet (s.o.), stellt das Verhältnis von Beats (BPM) und der
+Geschwindigkeit des Keyframe-Shapes ein. Vorgabewert ist auch hier 1:
+jeder Beat entspricht einem kompletten Durchlauf des Effektes. Stellt 
+man das z.B. auf 4, so dauert jeder Durchlauf vier Beats, der Shape 
+läuft also langsamer. Damit lassen sich z.B. mehrere Shapes im passenden 
+Verhältnis zueinander steuern. 
+
+<Keys.SoftKey>Custom</Keys.SoftKey> erlaubt es, beliebige Werte einzugeben. Klickt man auf 
+den numerischen Wert, so kann man entweder einen anderen 
+Wert eingeben oder mit <Keys.SoftKey>Reset to default value</Keys.SoftKey> auf den Vorgabewert 
+zurückschalten. Außerdem wird dabei der 'Beats per Cycle'-Wert mit dem
+Encoder A verknüpft, so dass man diesen schnell ändern kann.
+
+Wählt man die Option <Keys.SoftKey>Spread</Keys.SoftKey>, so wird der Beats-per-Cycle-Wert
+an den Spread gebunden. Das ist oft bei Dimmer- und Bewegungs-Shapes 
+gewünscht.<br/>
+Mit <Keys.SoftKey>Keyframes</Keys.SoftKey> schließlich wird pro Beat ein Keyframe weitergeschaltet.
+Jeder einzelne Keyframe-Shape und jeder einzelne Layer hat seine 
+individuellen **Beats per Cycle**-Einstellungen. 
+
+Mit **Cycles** (Durchläufe) stellt man ein, wie oft der Shape laufen soll.
+Vorgabewert ist 0, womit der Shape läuft, bis er wieder gestoppt wird.
+Ändert man dies auf eine andere Zahl (entweder für einen einzelnen Layer
+oder für den ganzen Keyframe-Shape bzw. alle Layer in diesem), so läuft
+der Shape nur die vorgegebene Anzahl von Zyklen und hält dann an. *So
+kann man also für jeden Layer einzeln einstellen, wie oft der Effekt
+laufen soll*.
+
+Keyframe-Shape können auf **Subfixtures** (Zellen) laufen. Dies ist normalerweise <Keys.SoftKey>Off</Keys.SoftKey>
+(abgeschaltet), man kann es aktivieren mit <Keys.SoftKey>On (Group)</Keys.SoftKey>, wobei das [Layout der Gruppe](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) berücksichtigt wird, oder mit <Keys.SoftKey>On (Linear)</Keys.SoftKey>, wobei das Layout ignoriert wird und die Zellen einfach in numerischer Reihenfolge angesteuert werden.
+
+
+Mit der Einstellung <Keys.SoftKey>Phase Master</Keys.SoftKey> kann die Phase eines Shapes durch
+die Intensität eines Videolayers (eines Ai-Servers) gesteuert werden,
+siehe [Synchronisieren eines Keyframe-Shapes zu Ai](../synergy/operating-synergy.md#phasensteuerung-von-keyframe-shapes-durch-ai).
+
+### Parameter für einzelne Frames
+
+Klickt man links auf einen einzelnen Keyframe, so lassen sich dessen
+Parameter einstellen.
+
+![Effect Editor key frame controls for individual key frame step](/docs/images/Effect-Editor-key-frame-controls-for-individual-key-frame-step.png)
+
+-   Mit dem Regler „Start Time" lässt sich das **Timing** verändern (genauso
+    wie durch Ziehen in der oberen Ablauf-Darstellung).
+
+-   **Frame A Min** / **Frame B Max**: Limitierung des Effektes. *Hat man z.B.
+    einen 100% Flash programmiert, lässt sich dieser etwa auf 80% reduzieren.*
+
+-   **Mid point**: wo ist die Mitte des Überblend-Weges
+
+-   **Width**: ähnlich der Einstellung Crossfade bei Chasern. Stellt man
+    Width auf 20%, so wird in nur 20% der Zeit übergeblendet, und bei
+    80% der Zeit ändert sich nichts.
+
+Der Kurvenverlauf des Überblendens lässt sich mit der
+Kurven-Schaltfläche rechts neben jedem einzelnen Schritt einstellen. Die
+neue Kurve wird entsprechend grafisch dargestellt.
+
+![Effect Editor key frame shape changing curves for individual key frame steps](/docs/images/Effect-Editor-key-frame-shape-changing-curves-for-individual-key-frame-steps.png)
+
+### Editieren von Frames
+
+Auch die Reihenfolge der Keyframes lässt sich im Effekt-Editor ändern:
+
+![Effect Editor key frame shape layer with colour steps](/docs/images/Effect-Editor-key-frame-shape-layer-with-colour-steps.png)
+
+-   Um Frames **hinzuzufügen**, klicken Sie auf den <Keys.ContextKey>Stift</Keys.ContextKey> rechts neben dem
+    **Namen des Layers**.
+
+-   Um einen Frame zu **editieren**, klicken Sie auf den <Keys.ContextKey>Stift</Keys.ContextKey> rechts neben
+    dem **Namen des Frames**.
+
+-   Um einen Frame zu **löschen**, wählen Sie diesen aus und klicken unten
+    auf den <Keys.ContextKey>Papierkorb</Keys.ContextKey>.
+
+-   Um die **Reihenfolge zu ändern**, wählen Sie einen Frame aus und
+    verschieben ihn mit den **Pfeiltasten**.
+
+-   Um **mehrere Frames** gleichzeitig zu **ändern**, klicken Sie unten auf die
+    **Mehrfachauswahl**-Schaltfläche, oder sie ziehen um die gewünschten
+    Frames im Display einen Rahmen.
+
+### Komplexe Effekte
+
+Keyframe-Shapes können jeweils mehrere Layer (Ebenen) enthalten, so dass
+verschiedene Effekte gleichzeitig laufen können. Um einen neuen Layer
+hinzuzufügen, klicken Sie unten auf das <Keys.ContextKey>+</Keys.ContextKey> und wählen nun
+&nbsp;**Layers**. Damit erscheint der neue Layer in der Liste auf der linken
+Seite.
+
+![Effect Editor adding an extra effect](/docs/images/Effect-Editor-adding-an-extra-effect.png)
+
+Ebenso können Sie einen komplett anderen Keyframe-Shape oder
+[Pixelmapper-Effekt](pixel-mapper.md) hinzufügen. Pixelmapper-Effekte 
+werden immer ganz oben in der Liste angezeigt und lassen sich mit dem **Auge**
+ausblenden, wenn man nur mit den Keyframe-Shapes arbeiten will.
+
+## Einen Keyframe-Shape in einen Cue speichern
+
+Normalerweise wird Keyframe-Shapes, die in einem Cue gespeichert sind,
+durch den zugehörigen Fader die Größe (Size) gesteuert; ist in den jeweiligen
+Playback-Optionen die Option [Speed on Fader](../cues/playback-options.md#shape--effect-speed)
+gewählt, so wird die Geschwindigkeit des Effekts mit dem Fader geregelt.
+
+Zum Verhalten von Keyframe-Shapes in Cuelisten siehe
+[Shape-Tracking in Cuelisten](../cue-lists/creating-a-cue-list.md#tracking-von-shapes-in-cuelisten).
+
+-   Wird mittels [Mask FX](shape-generator.md#masking-shapes-using-mask-fx)
+    ein Mask Shape erzeugt, so stoppt dieser auch Keyframe-Shapes.
+
+-   Shapes und Keyframe-Shapes, die in Playbacks gespeichert sind, können entweder als Overlay arbeiten, also andere programmierte Attribute überlagern, oder wie gewohnt als LTP-Werte, werden also ihrerseits von später gestarteten Playbacks überlagert/überschrieben. Siehe [Shape-Verhalten: Overlay oder LTP](./shape-generator.md#shape-verhalten-overlay-oder-ltp).
