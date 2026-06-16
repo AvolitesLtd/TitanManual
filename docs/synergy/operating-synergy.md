@@ -68,7 +68,7 @@ for example at a broadcast event the broadcaster could feed you the
 program output or individual cameras to check lighting levels.
 
 To open this window, double press <Keys.HardKey>Open/View</Keys.HardKey> and select **Video Multi View** from
-the view selection buttons.
+the view selection buttons on the screen you want to use.
 
 ![Video Multi View Window](/docs/images/Video-Multi-View-Window-v19-2.png)
 

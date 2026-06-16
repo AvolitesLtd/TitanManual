@@ -324,6 +324,8 @@ To configure a screen, double press <Keys.HardKey>Open/View</Keys.HardKey> and w
 on each screen, touch the type of window you want to configure the view. Select **Video Multi View** to show
 video feeds - you can then select which streams you want to view ([see Synergy section for more details](../synergy/operating-synergy.md#media-viewer)).
 
+Video Multi View is also available as a window on other consoles.
+
 ## Mini Screen (Arena only)
 
 The mini-screen can be used as a configurable workspace display just like the main monitor.
