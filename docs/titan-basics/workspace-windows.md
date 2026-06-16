@@ -316,12 +316,13 @@ fixtures - see [Trackball control](../controlling-fixtures/changing-fixture-attr
 
 ## Video preview screens (Diamond 9 only)
 
-The three preview screens on the top right of the console can be used as extra workspace windows.
+The three preview screens on the top right of the console can be used as video preview screens to show RTSP streams, or can also be used as extra workspace windows.
 
 ![Diamond Media Preview](/docs/images/Diamond-Media-Preview.png)
 
 To configure a screen, double press <Keys.HardKey>Open/View</Keys.HardKey> and window selection buttons will pop up
-on each screen, touch the type of window you want to configure the view. 
+on each screen, touch the type of window you want to configure the view. Select **Video Multi View** to show
+video feeds - you can then select which streams you want to view ([see Synergy section for more details](../synergy/operating-synergy.md#media-viewer)).
 
 ## Mini Screen (Arena only)
 

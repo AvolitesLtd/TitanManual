@@ -59,13 +59,44 @@ are uploaded, any requiring transcoding are added to a queue in Ai or Prism. You
 can see the progress of the transcoding by viewing the clips in the
 [Attribute Editor](#attribute-editor-for-controlling-ai-layers), see below.
 
+## Media Viewer
+
+The Video Multi View window allows you to view any of the layers being
+produced by the Synergy layers, or any of the combined surface outputs on an Ai server. In
+addition you can view any other RTSP video streams available on the network, so
+for example at a broadcast event the broadcaster could feed you the
+program output or individual cameras to check lighting levels.
+
+To open this window, double press <Keys.HardKey>Open/View</Keys.HardKey> and select **Video Multi View** from
+the view selection buttons.
+
+![Video Multi View Window](/docs/images/Video-Multi-View-Window-v19-2.png)
+
+To add or change a stream, click on a view in the window (blank views show a plus
+symbol). A dialog will pop up showing you available streams, click on the stream to add it
+to the viewer.
+
+![Video Multi View Window adding a stream](/docs/images/Video-Multi-View-Window-adding-a-stream-v19-2.png)
+
+To make a network stream available for viewing, you need to manually add the stream URL.
+Click the plus button in the top left corner of the dialog and a new dialog will appear which
+will allow you to enter the RTSP details for the stream you want to view.
+
+![Video Multi View Window adding a stream](/docs/images/Video-Multi-View-Window-adding-a-stream-rtsp-v19-2.png)
+
+The context button <Keys.SoftKey>Change Layout</Keys.SoftKey> gives you various possible layouts
+of multiple screens. The <Keys.SoftKey>Titles Shown</Keys.SoftKey> button toggles to show or hide
+the stream titles at the bottom of the views.
+
+![Video Multi View Window layout options](/docs/images/Video-Multi-View-Window-laout-options.png)
+
 
 ## Attribute Editor for Controlling Synergy Layers
 
 Once you have selected one or more media layers to control from the [Synergy
 Fixtures window](setting-up.md#synergy-fixtures-window), the Attribute Editor lets you play back and manipulate
 media on those layers (you can also use the wheels and Attribute Bank
-buttons.
+buttons).
 
 > The most important attributes are **Intensity**, which set the output level
 of each layer, and **Media Selection** which lets you choose the Bank and
