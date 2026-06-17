@@ -6,7 +6,7 @@ sidebar_label: Playback
 
 This page shows the settings for the playback of media files.
 
-![Settings Playback](/prismdocs/images/prism-settings-playback.png)
+![Settings Playback](/prism-images/settings/prism-settings-playback.png)
 
 There are three sections:
 - **[Playback](#playback)** - These options will give control over the media player.
@@ -15,22 +15,24 @@ There are three sections:
 
 ### Playback
 
-| Feature | Description |
+|  Item  |  Description  |
 |---------|-------------|
 | **Step Amount** | This value will set the step forward or backward on the player timeline, expressed in seconds. To step forwards it is possible to use the right arrow key shortcut. To step backwards it is possible to use the the left arrow key shortcut. |
-| **Resume Playback At Start** | This toggle will enable/disable resuming playback. When enabled, if the app has been previously closed with playing media, once re-opened the media will resume playing. |
+| **Resume Playback At Start** | Enable resuming playback. When enabled, if the app has been previously closed with playing media, once re-opened the media will resume playing. |
+
 | **Cross Fade Duration** (Prism Only)| This value will set the default duration in seconds of the cross fade. When loading a media on a Layer or in Preview Window, this duration indicates the time that it will take to fade out the current playing media and to fade in the newly selected media. |
 
 ### Hardware Accelerated Decoding (H.264/H.265)
 
-| Feature | Description |
+|  Item  |  Description  |
 |---------|-------------|
-| **Hardware Accelerated Decoding** | This toggle will enable/disable hardware accelerated decoding for media using H.264 and H/265 codecs. When value is changed, media needs to be re-loaded in order for the update to take place. |
+| **Hardware Accelerated Decoding** | Enable hardware accelerated decoding for media using H.264 and H/265 codecs. When value is changed, media needs to be re-loaded in order for the update to take place. |
 | **Hardware Adapter** | List of available GPUs on the system. GPUs which are not supporting H.264/H.265 hardware accelerated decoding are greyed-out. |
 
 ### Renderer
-| Feature | Description |
+|  Item  |  Description  |
 |---------|-------------|
-| **Use VSync** | This toggle will enable/disable VSync. When enabled the renderer frame rate will be synced to the screen frame rate. |
-| **Render Layers Bottom to Top** (Prism Only) | This toggle will set the order of layers rendering inside a surface. When enabled the rendering will start from the bottom layer, when disabled it will start from the top layer. |
-| **Use Pre Adjustments Previews** | This toggle will set if layer adjustments are used on Layer Previews. When enabled layer adjustment will not be applied on Layer Previews, when disabled layer adjusments will be applied on Layer Previews. This setting will be applied on the NDI previews on **Synergy** too.|
+| **Use VSync** | Enable VSync. When enabled the renderer frame rate will be synced to the screen frame rate. This can make playback look smoother and prevent visual issues like screen tearing. |
+| **Render Layers Bottom to Top** | Controls the order in which layers are drawn within a surface. When enabled the rendering starts with the bottom layer and works upward, when disabled rendering starts with the top layer and works downward. |
+| **Use Pre Adjustments Previews** | Controls whether layer adjustments are shown in layer previews. When enabled layer previews are shown without adjustments applied, when disabled layer previews are shown with adjustments applied. This setting also affects the previews shown in **Synergy**.|
+

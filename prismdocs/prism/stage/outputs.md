@@ -6,13 +6,25 @@ sidebar_label: Outputs
 
 import Keys from '@site/src/components/key.ts';
 
-This is the page, where the video outputs can be setup. **Prism** provides one physical output and one NDI output.
+The **Outputs** page is used to create, configure, and manage all output destinations of the software. **Outputs** define where the final video signal is sent, such as local displays, network streams, or other supported output types.
+
+Each output operates independently and reflects the current program output, including video sources, transitions, overlays, and effects.
+
+**Prism** supports multiple output types, including:
+
+- [Physical Outputs](#physical-output): Send the video output to a connected monitor, projector, or video wall.
+- [NDI® Outputs](#ndi-output): Send the video output over the network.
+- [RTSP Outputs](#rtsp-output): Send the video output as a live RTSP stream to other devices or applications on the network.
+
+Use the [Regions](./regions) page to map a **Surface** or **Layer** to an **Output**.
+
+> **Note:** Any changes on this page may cause the outputs to pause whilst changes are being applied.
 
 ## Physical Output
 
-Physical output allows for surface frames to be sent to an external output device.
+A Physical Output is used to send video to a physical display device, including projectors, monitors, and LED walls. It defines the connection between the software and an external output device.
 
-![Prism](/prismdocs/images/prism-stage-outputs-physical.png)
+![Prism](/prism-images/stage/outputs/physical.png)
 
 ### Physical Output Controls
 
@@ -24,27 +36,13 @@ Selecting an output device will show its properties, automatically populated:
 - Refresh rate
 - HDR support
 
-After enabling the output, and playing a bank element on a layer, the surface mix frames will display on the output device.
+## NDI® Output
 
-#### Region of Interest
+The NDI® Output allows the software to send its video output over the network.
 
-A blue overlay shows the selected Region of Interest (RoI) that will be sent to the output.  
-To change the *X* and *Y* coordinates, the *Width* and *Height* of the region, change the values in the input boxes.
+### NDI® Output Controls
 
-Resolution width and height values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon.  
-When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, width and height will always maintain relative size according to the aspect ratio of the width and height set as the lock is pressed - if one value is adjusted, the other will change accordingly.  
-When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, width and Height can be individually set 
-regardless of the resulting aspect ratio.
-
-## NDI Output
-
-NDI output allows for other applications to receive surface frames.
-
-![Prism](/prismdocs/images/prism-stage-outputs-ndi.png)
-
-### NDI Output Controls
-
-The following NDI output properties can be set:
+The following output properties can be set:
 
 - Name
 - Width
@@ -58,14 +56,27 @@ When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, width and height will al
 When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, width and Height can be individually set 
 regardless of the resulting aspect ratio.
 
-*Note: width will always adjust to nearest 64 pixels multiple*
+> **Note:** Width will always adjust to nearest 64 pixels multiple.
 
-#### Region of Interest
+[NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.
 
-A blue overlay shows the selected Region of Interest (RoI) that will be sent to the output.  
-To change the *X* and *Y* coordinates, the *Width* and *Height* of the region, change the values in the input boxes.
+## RTSP Output
 
-Resolution width and height values can be linked / unlinked by clicking on the <Keys.PrismKey>Lock</Keys.PrismKey> / <Keys.PrismKey>Unlock</Keys.PrismKey> icon.  
-When <Keys.PrismKey>Lock</Keys.PrismKey> icon is shown, width and height will always maintain relative size according to the aspect ratio of the width and height set as the lock is pressed - if one value is adjusted, the other will change accordingly.  
-When <Keys.PrismKey>Unlock</Keys.PrismKey> icon is shown, width and Height can be individually set 
-regardless of the resulting aspect ratio.
+The RTSP Output allows the software to send its video output as a live network stream using the RTSP (Real-Time Streaming Protocol). This makes the output available to other devices or applications on the network, such as media players, hardware decoders, streaming servers, or monitoring systems.
+
+The RTSP Output acts as a live source, continuously sending video in real time.
+
+### RTSP Output Controls
+
+| **Item** | **Description** |
+|----------|-----------------|
+| **Width / Height** | Sets the output resolution of the RTSP stream in pixels. This determines the size and detail of the transmitted video. |
+| **Frame Rate** | Defines the number of frames per second (FPS) sent in the stream. Higher values produce smoother motion but require more processing power and bandwidth. |
+| **Encoder** | Selects the video encoder used to compress the stream. Available options may include CPU-based encoders and hardware-accelerated GPU encoders, depending on system capabilities. |
+|**GOP**| The GOP (Group of Pictures) sets the interval between keyframes. Lower values reduce latency and improve stream recovery, while higher values improve compression efficiency.|
+| **Bit Rate** | Specifies the target data rate of the stream. Higher bit rates improve image quality but increase network usage. |
+| **IP Address** | The network address on which the RTSP stream is hosted. Clients must use this address to connect to the stream. |
+| **Port**| RTSP typically uses port 554 by default, but any available TCP port can be configured.|
+| **Stream Name** | Identifies the stream path used in the RTSP URL. This name is appended to the address to form the complete stream URL. |
+
+> **Note:** The RTSP output URL (for example, `rtsp://address:port/path`) must be unique. Multiple RTSP outputs cannot share the same URL; otherwise, starting the output will fail.

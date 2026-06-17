@@ -6,13 +6,12 @@ const pages = [
   {
     id: 'prism-player', app: 'Prism Player', path: 'Player',
     excludes: [
-      "layers", "layer-options", //Play
-      "stage", "outputs", "surfaces", //Stage
-      "settings-synergy", "settings-inputs",//Settings
+      "live-input-setup", //Quick Start
+      "layers", "layer-controls", "surfaces", "media-manager", "timecode-triggers", "timecode", //Play
+      "settings-synergy", "settings-inputs", "settings-timecode",//Settings
       "preview" //Preview
     ]
   },
-  { id: 'prism-zero', app: 'Prism Zero', path: 'Zero', excludes: ["mediaplayer", "settings-inputs"] },
   { id: 'prism', app: 'Prism', path: 'Prism', excludes: ["mediaplayer"] },
   // Add more pages as needed
 ]
@@ -63,8 +62,14 @@ function replaceComments(content, page) {
   const commentMappings = {
     prism: { start: 'PRISM-START-COMMENT', end: 'PRISM-END-COMMENT' },
     player: { start: 'PLAYER-START-COMMENT', end: 'PLAYER-END-COMMENT' },
-    zero: { start: 'ZERO-START-COMMENT', end: 'ZERO-END-COMMENT' }
   };
+
+  // ENABLE NDI code
+  result = result
+    .replace(new RegExp(`{{NDI-START-COMMENT}}`, 'g'), '')
+    .replace(new RegExp(`{{NDI-END-COMMENT}}`, 'g'), '');
+  // REMOVE NDI code
+  // result = result.replace(/{{NDI-START-COMMENT}}[\s\S]*?{{NDI-END-COMMENT}}/g, '');
 
   // Iterate over the mappings and apply the transformations
   for (const key in commentMappings) {
@@ -90,7 +95,7 @@ function replaceComments(content, page) {
   result = result.replace(/<!--[\s\S]*?-->/g, '');
 
   // Replace multiple consecutive newlines with just one newline
-  result = result.replace(/(\r?\n){3,}/g, '\n');
+  result = result.replace(/(\r?\n){3,}/g, '\n\n');
 
   return result;
 }

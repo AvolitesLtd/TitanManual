@@ -10,9 +10,9 @@ This section let users specify the settings to be applied on an Encode List item
 It is accessible by selecting an element or by left clicking the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon next to the Encode List item name and then clicking on **Settings**.  
 The results of these settings will be applied once the item is encoded.
 
-![Encode Options](/prismdocs/images/player-encode-options.png)
+![Encode Options](/prism-images/encoder/encoder-controls/player-encoder-controls.png)
 
-| <p style={{width: '150px'}}>Feature</p> | Description |
+|  Item  |  Description  |
 |-|-|
 | **Reset to Default** | This button will reset all settings to default value. |
 | **Match Source** | This button will set the following settings to match those of the source media file: <br/><br/> - Resolution Preset <br/> - Output Width <br/> - Output Height <br/> - Frame Rate <br/> - Sample Rate <br/> - Bit Depth <br/><br/> Any user changes to the audio and video settings will be discarded when pressing this button. |
@@ -30,11 +30,15 @@ The results of these settings will be applied once the item is encoded.
 | **Channels** | The following channel configurations are supported: <br/><br/> - Mono <br/> - Stereo <br/> - 5.1 <br/> - 7.1 <br/><br/> Prism can only convert existing audio channels, it cannot alter the amount of channels in the source file. |
 | **Bit Depth** | Bit depth can be set between: <br/><br/> - 8 bits <br/> - 16 bits <br/> - 24 bits <br/> - 32 bits <br/><br/> The higher the bit rate, the greater the detail and dynamic range of the audio. |
 
+### Encode Presets
+
+**Encode Presets** allow to create and save presets for encoding settings. Presets can be recalled to quickly apply consistent encoding configurations without manually adjusting individual parameters.
+
 ### Trim Media
 
 To adjust trim points press the <Keys.PrismKey>Trim</Keys.PrismKey> button at the bottom of the panel.
 
-![Encode Options Trim](/prismdocs/images/encode-options-trim.png)
+![Encode Options Trim](/prism-images/encoder/encoder-controls/trim.png)
 
 Trim values can be manually entered into both the Trim IN Point and Trim OUT Point boxes either by typing the value or using the arrow keys in the current fields.
 
@@ -46,7 +50,7 @@ The total duration of the exported clip will be calculated as the difference bet
 
 To set a crop area press the the <Keys.PrismKey>Crop</Keys.PrismKey> button at the bottom of the panel.
 
-![Encode Options Crop](/prismdocs/images/encode-options-crop.png)
+![Encode Options Crop](/prism-images/encoder/encoder-controls/crop.png)
 
 - **X** and **Y** specifies the starting pixel for the top left corner of the cropping area to be drawn from.
 - **Width** and **Height** sets the size of the area to be cropped, starting from the specified **X** and **Y** values.
