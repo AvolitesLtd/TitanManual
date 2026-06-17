@@ -29,7 +29,7 @@ the **macro/executor buttons** are playback buttons allowing storage of cues or
 chases, frequent key sequences, screen layouts or groups. To the left of these
 controls are the cue list playback controls and the Scene Master T-bar.
 
-&nbsp;<Keys.Annotation>E</Keys.Annotation> Three **Layer screens** are provided for additional workspace window touch screens.
+&nbsp;<Keys.Annotation>E</Keys.Annotation> Three **Layer screens** are provided for additional workspace window touch screens, or for monitoring video feeds via RTSP [see Media Viewer](../synergy/operating-synergy.md#media-viewer).
 
 
 
