@@ -316,7 +316,7 @@ fixtures - see [Trackball control](../controlling-fixtures/changing-fixture-attr
 
 ## Video preview screens (Diamond 9 only)
 
-The three preview screens on the top right of the console can be used as video preview screens to show RTSP streams, or can also be used as extra workspace windows.
+The three preview screens on the top right of the console can be used to display Synergy and RTSP video stream previews, or can also be used as extra workspace windows.
 
 ![Diamond Media Preview](/docs/images/Diamond-Media-Preview.png)
 

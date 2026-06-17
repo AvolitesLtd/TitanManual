@@ -80,7 +80,9 @@ to the viewer.
 
 To make a network stream available for viewing, you need to manually add the stream URL.
 Click the plus button in the top left corner of the dialog and a new dialog will appear which
-will allow you to enter the RTSP details for the stream you want to view.
+will allow you to enter the RTSP details for the stream you want to view. 
+
+- If you don't enter a port number (:554 in the picture) then port 554 is assumed.
 
 ![Video Multi View Window adding a stream](/docs/images/Video-Multi-View-Window-adding-a-stream-rtsp-v19-2.png)
 

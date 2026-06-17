@@ -28,7 +28,7 @@ read more about [Networking the Console](../networking.md). Then you need to con
 2. By default the D3 Touch will get an IP address for itself by DHCP, however if your network isn't set up for DHCP you will need to assign an IP address in the same range as the console using the **Network Setup** menu.
 2. Navigate to **Other Settings**, **Device IP Addresses**
 4. Set **Device 1 IP address** to the address of the Titan console that you are controlling.
-5. Set **Port** to **5530**
+5. Set **Port** to **4430**
 6. Click **Save and Back**
 7. Click **Save and Load**
 
@@ -39,7 +39,9 @@ The touch panel has 4 zone buttons across the top of the screen. Selecting a zon
 The zones and scene buttons are configured by programming 4 Playback Groups with specific User Numbers (1010, 1020, 1030, 1040) on the Titan console. 
 Each Playback Group can contain up to 8 playbacks which are displayed as the scene buttons for that zone. The playbacks also need to have specific
 User Numbers (1011-1018 for zone 1, 1021-1028 for zone 2 and so on).
-Within a playback group only one playback can be active, the others automatically turn off (see [Playback Groups](../running-the-show/playback-controls.md#playback-groups)). 
+
+Within a playback group only one playback can be active, the others will automatically turn off (see [Playback Groups](../running-the-show/playback-controls.md#playback-groups)). You can change this behaviour in the Options setting for the Playback Group.
+
 - Each zone must have at least two scenes programmed.
 
 The legend on the touch screen buttons is taken from the playback or playback group legend set on the console. 
@@ -54,6 +56,7 @@ To configure the available scenes on the touch panel, do this:
 6. Repeat steps 3-5 to set the scene buttons for each of the 4 zone buttons.
 
 - You need to touch one of the zone buttons to refresh the display after making changes.
+- You need to set a legend for each Playback Group, or the top zone buttons will appear as empty buttons.
 
 ### User numbers for zones and scenes
 
@@ -66,6 +69,8 @@ Zone 2 | 1020 | 1021 | 1022 | 1023 | 1024 | 1025 | 1026 | 1027 | 1028
 Zone 3 | 1030 | 1031 | 1032 | 1033 | 1034 | 1035 | 1036 | 1037 | 1038
 Zone 4 | 1040 | 1041 | 1042 | 1043 | 1044 | 1045 | 1046 | 1047 | 1048
 
+- Scenes appear in the order you add the Playbacks to the Playback Group, not the numerical order of the User Numbers. So you need to ensure that you add the Playbacks in the order you want them to be shown.
+
 
 ## Programming macros for the touch panel
 
@@ -74,10 +79,12 @@ To configure a macro to be shown on the touch panel, do this:
 
 1. Record a macro (see [Macros](../titan-basics/front-panel-buttons.md#key-macro-buttons))
 2. Set the User Number for each macro to 1001-1008 using <Keys.SoftKey>Set Legend</Keys.SoftKey>.
-4. Press <Keys.SoftKey>Legend=</Keys.SoftKey> to provide a legend for each button (text only).
+3. Press <Keys.SoftKey>Legend=</Keys.SoftKey> to provide a legend for each button (text only).
 
 - Each macro to be displayed on the touch panel must have a unique number between 1001-1008. The macros are displayed in numerical order.
 - You need to touch the Macro button on the screen to refresh the display after making changes.
+- In order to use factory macros they need to be copied from the show library to one of the workspace windows, need to be given a User Number 1001-1008, and need to be given a legend using <Keys.SoftKey>Set Legend</Keys.SoftKey>. Factory macros without an individual legend are displayed as an empty button.
+- Macros called from the D3 Touch run in a different context than the normal UI. This might make some macros work differently to what you expected. Contact Avolites Support to get help with this.
 
 ## Locking / unlocking the touch panel
 
