@@ -48,7 +48,7 @@ RUN tlmgr install \
     xurl \
     zref \
     newunicodechar \
-	texlive-latex-extra
+    texlive-latex-extra
 
 COPY ./website /app/website
 WORKDIR /app/website
