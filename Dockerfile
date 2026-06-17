@@ -18,6 +18,8 @@ RUN apk add --update \
 # get font files
 RUN fmtutil-sys --all
 
+RUN apt-get update && apt-get install -y texlive-latex-extra
+
 RUN tlmgr install \
     adjustbox \
     babel-german \
@@ -48,8 +50,6 @@ RUN tlmgr install \
     xurl \
     zref \
     newunicodechar \
-    adjustbox \
-    ucs
 
 COPY ./website /app/website
 WORKDIR /app/website
