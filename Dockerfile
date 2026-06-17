@@ -48,8 +48,8 @@ RUN tlmgr install \
     xurl \
     zref \
     newunicodechar \
-    latex \
-    latex-bin
+    adjustbox \
+    ucs
 
 COPY ./website /app/website
 WORKDIR /app/website
