@@ -44,19 +44,19 @@ The table below shows which license types unlock each **Prism v2.1** license lev
 
 | Unlocks Prism License | Supported License Types       |
 |-----------------------|-------------------------------|
-| **Zero Outputs**      | Ai Demo                       |
-| **One Output**        | A1                            |
-| **Two Outputs**       | A2                               |
-| **Three Outputs**     | A3, Ai Anjuna, Ai Bondi, Ai Miami |
+| **Zero Outputs**      | Editor Key, Titan Mobile, T1, T2 or T3 |
+| **One Output**        | A1+                            |
+| **Two Outputs**       | A2+                               |
+| **Three Outputs**     | A3+, Ai Anjuna, Ai Bondi, Ai Miami |
 
 
 ## Prism Player
 
-**Prism Player** runs with any valid **AvoKey** or **Editor Keys**.
+**Prism Player** runs with any valid **AvoKey**.
 
-**Prism Player** can be installed without an **AvoKey** or **Editor Keys**, in this case an internet connection to download the free software license is required. The license is automatically installed as **Prism Player Component** or **3501 Avolites Prism Player**. The specific name of this license will appear in codemeter webadmin page, instructions are below.
+**Prism Player** can be installed without an **AvoKey**, in this case an internet connection to download the free software license is required. The license is automatically installed as **Prism Player Component** or **3501 Avolites Prism Player**. The specific name of this license will appear in codemeter webadmin page, instructions are below.
 
-If you have no internet connection, and no **AvoKey** or **Editor Keys**, you will need to purchase an AvoKey requesting our free *Prism Player Component License*. If you require an AvoKey please speak to any of our distributors found [here](https://www.avolites.com/official-distributors).
+If you have no internet connection, and no **AvoKey**, you will need to purchase an AvoKey requesting our free *Prism Player Component License*. If you require an AvoKey please speak to any of our distributors found [here](https://www.avolites.com/official-distributors).
 
 <!-- ## All Licenses
 
