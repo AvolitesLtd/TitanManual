@@ -13,12 +13,12 @@ RUN apk add --update \
     automake \
     nodejs \
     npm \
+    texlive-latex-extra \
   && rm -rf /var/cache/apk/*
 
 # get font files
 RUN fmtutil-sys --all
 
-RUN apt-get update && apt-get install -y texlive-latex-extra
 
 RUN tlmgr install \
     adjustbox \
