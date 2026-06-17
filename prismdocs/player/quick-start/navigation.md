@@ -6,11 +6,19 @@ sidebar_label: Navigation
 
 import Keys from '@site/src/components/key.ts';
 
-**Prism Player**'s user interface is organized into three main sections:
+**Prism Player**'s user interface is organised into three main sections:
 
-- [Main Menu](#header-menu)
+- [Main Menu](#main-menu)
+  - [App Logo](#app-logo)
+  - [File](#file)
+  - [Edit](#edit)
+  - [View](#view)
+  - [Audio](#audio)
+  - [Video](#video)
+  - [Help](#help)
 - [View Tabs](#view-tabs)
 - [Status Bar](#status-bar)
+- [Multi Selection](#multi-selection)
 
 ## Main Menu
 ![Prism Player File Menu Open Recent](/prism-images/navigation/player-header-menu.png)
@@ -109,7 +117,7 @@ This bar shows the following app informations at a glance.
 
 - App performance metrics - The full performance metrics are shown in the [System Info](../settings/settings-system-info.md) page in **Settings**.
 - Prism Player release version.
-- User interface connection status LED - red when disconnected, green when connected to the Server.
+- User interface connection status indicator - red when disconnected, green when connected to the Server.
 
 ## Multi Selection
 

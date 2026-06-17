@@ -3,7 +3,7 @@ id: introduction
 title: Introduction
 sidebar_label: Introduction
 ---
-**Prism** is specialized software developed by **Avolites**, tailored for media playback and designed specifically for the live events and entertainment industry. 
+**Prism** is specialised software developed by **Avolites**, tailored for media playback and designed specifically for the live events and entertainment industry. 
 
 **Prism** can playback and control video files, virtual returns and live inputs, such as USB capture devices or webcams. These media types can be stored across multiple banks and can be viewed in the [Preview](./quick-start/preview.md) window or applied to any of the layers within a [Surface](./stage/surfaces.md) to create a mix.
 

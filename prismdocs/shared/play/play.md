@@ -6,13 +6,13 @@ sidebar_label: Play
 
 {{PRISM-START-COMMENT}}
 
-The **Play page** is the main workspace for managing and playing media. It allows you to organize media into **Banks**, control playback on **Layers**, and preview content before it is loaded live.
+The **Play page** is the main workspace for managing and playing media. It allows you to organise media into **Banks**, control playback on **Layers**, and preview content before it is loaded live.
 
 Media can be adjusted in the **Preview** before being launched on a layer, and layer-specific parameters can be modified using the **Layer Controls** panel.
 {{PRISM-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
-This view shows media content organized in a **Bank** and gives control over media playback.
+This view shows media content organised in a **Bank** and gives control over media playback.
 {{PLAYER-END-COMMENT}}
 
 ![{{PRISM-APP}}](/prism-images/play/{{PRISM-APP-LOWER}}-play-view.png)
