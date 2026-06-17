@@ -66,10 +66,12 @@ There are several ways to copy or move cues within a cue list. You can also move
 You can use **Unfold** ([as described in the next
 section](#editing-a-cue-list-using-unfold)).
 
-To move a cue you can either click and drag the cue in the [Playback
-View window](#playback-view-window), or click on the cue number and use the <Keys.SoftKey>Change To</Keys.SoftKey> softkey
+To move a cue (renumber it), click on the cue number in the [Playback
+View window](#playback-view-window) and use the <Keys.SoftKey>Change To</Keys.SoftKey> softkey
 to enter the new cue number - once you have changed the number the cue will move to
-its correct position in the list.
+its correct position in the list. You can renumber multiple cues by selecting a block of cues on the screen.
+
+You can copy or move cues by pressing <Keys.HardKey>Copy</Keys.HardKey> or <Keys.HardKey>Move</Keys.HardKey> then clicking on the screen to select a cue or a block of cues.
 
 To delete a cue press <Keys.HardKey>Delete</Keys.HardKey>, select the cue in the window, and tap the cue again, or press <Keys.HardKey>Enter</Keys.HardKey> or <Keys.SoftKey>Confirm</Keys.SoftKey> to confirm.
 

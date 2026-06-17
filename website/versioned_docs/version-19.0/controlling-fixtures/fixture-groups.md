@@ -185,9 +185,10 @@ cells on the fixture.
     to sub-pixel accuracy on the wheels by 
     pressing the context button <Keys.SoftKey>Wheels Move Full Pixel</Keys.SoftKey> to change it to <Keys.SoftKey>Wheels Move Sub Pixel</Keys.SoftKey>.
 
--   If you create a group by selecting individual fixture cells (see [Fixtures with multiple cells](../controlling-fixtures.md#fixtures-with-multiple-cellssub-fixtures)) then in the fixture editor you can position the individual cells. This may 
+-   To move individual cells of a fixture, select the fixture cells (see
+    [Fixtures with multiple cells](../controlling-fixtures.md#fixtures-with-multiple-cellssub-fixtures)) and record a group of the selected cells. Then by using the group in the fixture editor you can position the individual cells. This may 
     be useful if the fixture personality does not have the cells positioned correctly, though it may be better to fix
-    the personality or reporting a personality bug.
+    the personality or report a personality bug.
 
 -   If you click the context menu button <Keys.SoftKey>Position and Angle</Keys.SoftKey> it will
     change to <Keys.SoftKey>Scale</Keys.SoftKey> which allows you to spread out or compress the
