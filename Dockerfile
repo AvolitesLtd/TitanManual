@@ -18,6 +18,10 @@ RUN apk add --update \
 # get font files
 RUN fmtutil-sys --all
 
+# Fix the repository verison for the Latex packages
+RUN tlmgr option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2019/tlnet-final
+
+# Install the LaTeX packages based on fixed archive above
 RUN tlmgr install \
     adjustbox \
     babel-german \
