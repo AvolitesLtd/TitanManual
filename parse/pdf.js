@@ -272,6 +272,12 @@ function docsVersionPath(version,lang) {
       filePath = path.join(avoParse.paths.transDocsDir,lang,avoParse.paths.docusaurusFolder,`version-${version}/`);
     }
     if (!fs.existsSync(filePath)) {
+      // A translated language may not have every version. Return null so callers
+      // (e.g. resolvePageVersion) can treat it as "not found" rather than crashing.
+      // A missing folder for the main language indicates a real error, so still throw.
+      if (lang != avoParse.lang) {
+        return "";
+      }
       throw(`Could not find versioned docs: ${filePath}`)
     };
     return filePath;
@@ -322,8 +328,9 @@ function formatMdFiles(docsPath, sidebar, version, lang) {
  * @return {string} Absolute file path to the latest version (null if not found)
  */
 function resolvePageVersion(filename,version,lang) {
-  let filepath = path.resolve(docsVersionPath(version,lang), filename);
-  if (fs.existsSync(filepath)) {
+  let docsDir = docsVersionPath(version,lang);
+  let filepath = docsDir ? path.resolve(docsDir, filename) : null;
+  if (filepath && fs.existsSync(filepath)) {
     return filepath;
   }
   else {
