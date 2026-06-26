@@ -30,7 +30,7 @@ T2             | x | x |   |   | x | x | x | x
 T3             |   | x |   |   | x | x | x | x 
 D3-010         |   | x |   |   | x | x | x | x 
 D3-110         | x | x |   |   | x | x | x | x 
-D3-Core        | x | x |   |   | x | x | x | x 
+D3 Core        |   | x | x |   | x | x | x | x 
 D7             | x |   | x | x | x | x | x | x 
 D9             | x | x | x | x | x | x | x | x 
 Titan Mobile   |   | x |   |   | x | x | x |  

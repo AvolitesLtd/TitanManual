@@ -6,70 +6,44 @@ sidebar_label: Layers
 
 import Keys from '@site/src/components/key.ts';
 
-![Prism Layers](/prismdocs/images/prism-layers.png)
+A **Layer** is a canvas that contains visual content, such as videos or images. 
 
-This section is made up of:
+Multiple **Layers** can be stacked and manipulated independently to make compositions. Media can be played on one or multiple layers, blended using blend modes, intensity sliders, and can create simple mixes adjusting their volumes.
 
-- The surfaces and their layers, with their layer previews
-- The selected layer / surface mix playback
+*Note: When using multiple layers, performance may vary on different systems*
 
-Media can be played on specific / multiple layers, blended together using the intensity sliders and can create simple mixes adjusting their volumes. 
+![Prism Layers](/prism-images/play/layers/prism-layers.png)
 
-*Note: when using multiple layers, performance may vary on different systems*
+**Surfaces** and their **Layers**, can all be managed in the [Stage](../stage) view where layers can be added, removed, reordered and renamed.
 
-## Surfaces & Layers
+The layer preview comprises of an overlay showing:
 
-Surfaces and their layers, can all be managed in the [Stage](../stage) view where layers can be added, removed, reordered and renamed.
+![Prism Layers](/prism-images/play/layers/prism-layer.png)
 
-### Surface
+- Bank name
+- Bank element name
+- Duration of the clip
+- Remaining time of the clip.
 
-A surface refers to the virtual canvas or area where visual content is projected or displayed.  
-It can represent screens, LED walls, projection surfaces, or any other output device.
-
-![Prism Layers](/prismdocs/images/surfaces-layers/prism-surface.png)
-
-The surface is crucial as it defines the spatial parameters and resolution of the visual content. Users can map their media to the surface, adjusting the placement, scaling, and transformation to fit the physical display precisely.
-
-The surface information card shows the following informations:
-- The surface mix preview
-- The surface resolution
-- The number of layers
-
-It is possible to minimise and maximise the information card in order to hide or show the contained layers. 
-### Layer
-
-A layer is a canvas that contains visual content, such as videos or images. Multiple layers can be stacked and manipulated independently, allowing for complex compositions.
-
-![Prism Layers](/prismdocs/images/surfaces-layers/prism-layer.png)
-
-The layer information card shows the following informations:
-- The layer preview. This comprises of an overlay showing media bank location, filename, duration and remaining time
-- Visibility button and intensity slider
-- Mute button and volume slider
-- Speed slider
-- Play modes
-- Clear layer button
-- Solo button
-
-It is possible to minimize and maximize the information card in order to have a more compact view of all the layers.  
-*Note: when minimized the speed slider and the play modes will be hidden.*
+It is possible to minimise and maximise the information card in order to have a more compact view of all the layers.  
+*Note: When minimised the speed slider and the play modes will be hidden.*
 
 #### Controlling the Layer
 
 The layer has some controls, which can adjust the layers in real-time.
 
-| Feature | Description |
+| Item | Description |
 |---------|-------------|
-|  **Visibility** | Toggle the visibility icon to hide and show the layer |
-|  **Intensity** | Click on the % value to open a slider, this sets the opacity of the layer |
-|  **Mute** | Toggle mute will mute / unmute the audio from the layer |
-|  **Volume** | Click on the % value to open a slider, this sets the volume of the layer |
-|  **Speed** | Click on the % value to open a slider, this sets the speed adjustment of the layer |
-|  **Play Modes** | Click on the <Keys.PrismKey>Play List</Keys.PrismKey>, <Keys.PrismKey>Loop</Keys.PrismKey>, <Keys.PrismKey>Shuffle</Keys.PrismKey>, <Keys.PrismKey>Play Once</Keys.PrismKey>, <Keys.PrismKey>Pause</Keys.PrismKey>, <Keys.PrismKey>In Frame</Keys.PrismKey>, <Keys.PrismKey>Out Frame</Keys.PrismKey>, button to open the play mode selection. Clicking on a play mode icon will select that play mode and update the button icon |
-|  **Clear Layer** | Click on the <Keys.PrismKey>Clear Layer</Keys.PrismKey> button to reset the layer |
+|  **Visibility** | Hide / show the layer |
+|  **Intensity** | Opacity of the layer |
+|  **Mute** | Mute / unmute the audio from the layer |
+|  **Volume** | Volume adjustment of the layer |
+|  **Speed** | Speed adjustment of the layer |
+|  **Play Modes** | <Keys.PrismKey>Play List</Keys.PrismKey> - Play through all the media in the bank that the current element belongs to. <br/> <Keys.PrismKey>Loop</Keys.PrismKey> - Continuously play the same media element<br/><Keys.PrismKey>Shuffle</Keys.PrismKey> - Randomly select and play media from the bank that the element belongs to.<br/><Keys.PrismKey>Play Once</Keys.PrismKey> - Play the media once and then display the last frame.<br/><Keys.PrismKey>Pause</Keys.PrismKey> - Stay on the current frame.<br/> <Keys.PrismKey>In Frame</Keys.PrismKey> - Display the first frame.<br/> <Keys.PrismKey>Out Frame</Keys.PrismKey> - Display the last frame. <br/> <Keys.PrismKey>Timecode</Keys.PrismKey> - Allows playback to be synchronised to an external or internal timecode signal.|
+|  **Clear Layer** | <Keys.PrismKey>Clear Layer</Keys.PrismKey> Reset the layer |
 |  **Solo** | Click on the <Keys.PrismKey>Solo</Keys.PrismKey> button to solo this layer. This will be the only layer present in the surface mix |
 
-Users can also control each [layer's options](./layer-options.md) via the UI or [Synergy](../settings/settings-synergy.md) control.
+Users can also control each [Layer Controls](./layer-controls.md) via the UI or [Synergy](../settings/settings-synergy.md) control.
 
 Both methods affect the layer properties directly, but also can be overridden by the bank element, depending on your preferred result, as discussed on the [Preview](../quick-start/preview.md) page.
 
@@ -79,11 +53,11 @@ Both methods affect the layer properties directly, but also can be overridden by
 
 This area will show the surface mix of all the layers together. 
 
-![Prism Layer controls](/prismdocs/images/prism-surface-mix.png)
+![Prism Layer controls](/prism-images/play/prism-surface-mix.png)
 
 ### Play Bar
 
-![Prism Play Bar](/prismdocs/images/zero-prism-playbar.png)
+![Prism Play Bar](/prism-images/play/prism-playbar.png)
 
 Similar to **Prism Player**'s media player [play bar](../../player/play/mediaplayer.md#play-bar), the standard play controls are available.   
 In Prism the playbar will activate once a layer is selected, as this serve a purpose of controlling the layer playback.
@@ -94,7 +68,7 @@ Toggling the <Keys.PrismKey>Trim</Keys.PrismKey> icon reveals the trim feature.
 
 ### Trim Bar
 
-![Prism Trim Bar](/prismdocs/images/zero-prism-trimbar.png)
+![Prism Trim Bar](/prism-images/play/prism-trimbar.png)
 
 The trim is set on the layer properties, but can also be override by the bank element via the [Preview](../quick-start/preview.md) Window.  
 Moving the sliders will set the Trim In and Trim Out points.  

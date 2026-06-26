@@ -28,14 +28,14 @@
           "collapsed": true,
           "type": "category",
           "label": "Quick Start",
+          "link": {
+            "type": "doc",
+            "id": "player/quick-start/quick-start"
+          },
           "items": [
             {
               "type": "doc",
               "id": "player/quick-start/navigation"
-            },
-            {
-              "type": "doc",
-              "id": "player/quick-start/media-management"
             },
             {
               "type": "doc",
@@ -115,139 +115,6 @@
       ]
     } 
   ],
-  "zero": [
-    {
-      "type": "category",
-      "label": "Prism Zero",
-      "collapsed": false,
-      "items": [
-        {
-          "type": "doc",
-          "label": "Introduction",
-          "id": "zero/introduction"
-        },
-        {
-          "collapsed": true,
-          "type": "category",
-          "label": "Quick Start",
-          "items": [
-            {
-              "type": "doc",
-              "id": "zero/quick-start/navigation"
-            },
-            {
-              "type": "doc",
-              "id": "zero/quick-start/media-management"
-            },  
-            {
-              "type": "doc",
-              "id": "zero/quick-start/preview"
-            },          
-            {
-              "type": "doc",
-              "id": "zero/quick-start/projects-management"
-            },
-            {
-              "type": "doc",
-              "id": "zero/quick-start/import-export"
-            },
-            {
-              "type": "doc",
-              "id": "zero/quick-start/system-tray"
-            }
-          ]
-        },
-        {
-          "collapsed": true,
-          "type": "category",
-          "label": "Play",
-          "link": {
-            "type": "doc",
-            "id": "zero/play/play"
-          },
-          "items": [
-            {
-              "type": "doc",
-              "id": "zero/play/layers"
-            },
-            {
-              "type": "doc",
-              "id": "zero/play/layer-options"
-            },
-            {
-              "type": "doc",
-              "id": "zero/play/banks"
-            }
-          ]
-        },
-        {
-          "collapsed": true,
-          "type": "category",
-          "label": "Stage",
-          "link": {
-            "type": "doc",
-            "id": "zero/stage/stage"
-          },
-          "items": [
-            {
-              "type": "doc",
-              "id": "zero/stage/surfaces"
-            },
-            {
-              "type": "doc",
-              "id": "zero/stage/outputs"
-            }
-          ]
-        },
-        {
-          "collapsed": true,
-          "type": "category",
-          "label": "Encoder",
-          "link": {
-            "type": "doc",
-            "id": "zero/encoder/encoder"
-          },
-          "items": [
-            {
-              "type": "doc",
-              "id": "zero/encoder/encode-options"
-            }
-          ]
-        },
-        {
-          "collapsed": true,
-          "type": "category",
-          "label": "Settings",
-          "link": {
-            "type": "doc",
-            "id": "zero/settings/settings"
-          },
-          "items": [
-            {
-              "type": "doc",
-              "id": "zero/settings/settings-general"
-            },
-            {
-              "type": "doc",
-              "id": "zero/settings/settings-system-info"
-            },
-            {
-              "type": "doc",
-              "id": "zero/settings/settings-playback"
-            },
-            {
-              "type": "doc",
-              "id": "zero/settings/settings-encoder"
-            },
-            {
-              "type": "doc",
-              "id": "zero/settings/settings-synergy"
-            }
-          ]
-        }
-      ]
-    }
-  ],
   "prism": [
     {
       "type": "category",
@@ -263,14 +130,14 @@
           "collapsed": true,
           "type": "category",
           "label": "Quick Start",
+          "link": {
+            "type": "doc",
+            "id": "prism/quick-start/quick-start"
+          },
           "items": [
             {
               "type": "doc",
               "id": "prism/quick-start/navigation"
-            },
-            {
-              "type": "doc",
-              "id": "prism/quick-start/media-management"
             },
             {
               "type": "doc",
@@ -287,6 +154,10 @@
             {
               "type": "doc",
               "id": "prism/quick-start/system-tray"
+            },
+            {
+              "type": "doc",
+              "id": "prism/quick-start/live-input-setup"
             }
           ]
         },
@@ -301,15 +172,31 @@
           "items": [
             {
               "type": "doc",
+              "id": "prism/play/surfaces"
+            },
+            {
+              "type": "doc",
               "id": "prism/play/layers"
             },
             {
               "type": "doc",
-              "id": "prism/play/layer-options"
+              "id": "prism/play/layer-controls"
             },
             {
               "type": "doc",
               "id": "prism/play/banks"
+            },
+            {
+              "type": "doc",
+              "id": "prism/play/media-manager"
+            },            
+            {
+              "type": "doc",
+              "id": "prism/play/timecode-triggers"
+            },
+            {
+              "type": "doc",
+              "id": "prism/play/timecode"
             }
           ]
         },
@@ -329,6 +216,10 @@
             {
               "type": "doc",
               "id": "prism/stage/outputs"
+            },
+            {
+              "type": "doc",
+              "id": "prism/stage/regions"
             }
           ]
         },
@@ -367,6 +258,10 @@
             {
               "type": "doc",
               "id": "prism/settings/settings-playback"
+            },
+            {
+              "type": "doc",
+              "id": "prism/settings/settings-timecode"
             },
             {
               "type": "doc",

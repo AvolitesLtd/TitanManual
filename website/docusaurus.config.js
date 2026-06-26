@@ -96,10 +96,6 @@ module.exports={
               to: 'prism/prism/introduction'
             },
             {
-              label: 'Prism Zero',
-              to: 'prism/zero/introduction'
-            },
-            {
               label: 'Prism Player',
               to: 'prism/player/introduction',
             },

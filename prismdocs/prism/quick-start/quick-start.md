@@ -1,0 +1,66 @@
+---
+id: quick-start
+title: Quick Start
+sidebar_label: Quick Start
+---
+
+### 1. Setting up a Project
+Start by creating a [new project](./projects-management.md/#new-project) via the [file menu](./navigation.md/#file).   
+
+**File** > **New Project**
+
+Next, set the [surface resolution](../../prism/stage/surfaces.md/#surface-controls) to define our working area in pixels. 
+
+**Stage** > **Surfaces** > **Surface** 
+
+1. Select a Surface.
+2. Set the resolution. 
+
+![Surface Resolution](/prism-images/quick-start/surface-resolution.png)
+
+### 2. Connect to an External Display
+
+To connect the surface to an external display, the output needs to be [enabled](../../prism/stage/outputs.md/#physical-output-controls) in Prism. 
+
+**Stage** > **Outputs**
+
+1. Select Physical Output. 
+2. Select the Output Device.
+3. Enable the Output. 
+
+![Physical Output](/prism-images/quick-start/display.png)
+
+### 3. Region Setup
+
+To determine which part of the **Surface** is being sent to the **Output**, a [Region](../../prism/stage/regions.md) is used. The region will define the area to be sampled from the specified **Surface** and then where and what size this sample needs to be drawn on the output. 
+
+**Stage** > **Regions** 
+
+1. Create a new region by pressing the *Add* Button. 
+2. Select the newly created region in the list. 
+3. Select *Surface 1* in the *Source* dropdown. 
+4. Select *Physical Output* in the *Output* dropdown. 
+
+![Region Source / Output controls](/prism-images/quick-start/region-source-output.png)
+
+The default behaviour of a new region is to sample the entire **Surface** and to fill the **Output** with this region. This can be adjusted using the *X, Y, Width, Height* boxes for the source and output. 
+
+The project is now setup, all that is left is to import media and trigger it to display on the output. 
+
+### 4. Bank Setup
+
+A [bank](../../prism/play/banks.md) must first be created in order to import media into the project. 
+
+**Play** > **Banks** 
+
+1. Press the *Add* Button. 
+2. Select the new bank from the list and then locate and load the required media files. Media can be added by using the *Add* Button on the right or by dragging files into the Bank area.
+
+![Banks](/prism-images/quick-start/banks.png)
+
+### 5. Trigger Media
+
+Finally, to trigger the imported media, select one of the layers within your surface and then click the *Play* button next to the media in the Bank. 
+
+![Banks](/prism-images/quick-start/Layer.png)
+
