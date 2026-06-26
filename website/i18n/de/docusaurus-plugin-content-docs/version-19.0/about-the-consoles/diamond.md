@@ -29,7 +29,7 @@ angezeigt und verändert, während auf den **Macro/Executor-Tasten** Playbacks, 
 Arbeitsumgebungen (Layouts der Displays) oder z.B. Gruppen gespeichert werden können. Links davon befindet sich die 
 Ablaufsteuerung für Cuelisten sowie der T-Griff des Scene Masters.
 
-&nbsp;<Keys.Annotation>E</Keys.Annotation> Drei kleine **Layer-Screens** dienen der Anzeige von weiteren Arbeitsfenstern.
+&nbsp;<Keys.Annotation>E</Keys.Annotation> Drei kleine **Layer-Screens** dienen der Anzeige von weiteren Arbeitsfenstern. Sie können z.B. zur Anzeige von Video-Streams via RTSP genutzt werden, siehe $$$[Media Viewer](../synergy/operating-synergy.md#media-viewer).
 
 
 
