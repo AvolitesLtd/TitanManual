@@ -355,12 +355,16 @@ dem Ring kann Tilt sehr fein geregelt werden. Siehe [Verwenden des Trackballs](.
 
 ## Video-Vorschau (nur beim Diamond 9)
 
-In den drei kleinen Displays oben rechts auf dem Pult lassen sich weitere Arbeitsfenster anzeigen.
+In den drei kleinen Displays oben rechts auf dem Pult lassen sich weitere Arbeitsfenster anzeigen, z.B. für Synergy-Layer oder RTSP-Videostreams.
 
 ![Diamond Media Preview](/docs/images/Diamond-Media-Preview.png)
 
 Um ein Display einzurichten, doppelklicken Sie <Keys.HardKey>Open/View</Keys.HardKey>, woraufhin auf allen Displays 
-Buttons der verfügbaren Fenster eingeblendet werden.
+Buttons der verfügbaren Fenster eingeblendet werden. Um Videostreams anzuzeigen, wählen Sie das Fenster **Video Multi View**. 
+Im Anschluss kann der jeweils anzuzeigende Feed gewählt werden, siehe [Synergy](../synergy/operating-synergy.md#media-viewer).
+
+Video Multi View steht als normales Arbeitsfenster auch auf den anderen Pulten zur Verfügung.
+
 
 ## Mini-Display (Nur beim Arena)
 

@@ -23,7 +23,7 @@ Das Arena und das D9 sind jeweils mit einem opticalCON Duo ausgestattet gemaß 1
 Empfohlene Glasfaserkabel sind OM3 oder OM4.
 
 Bühnenseitig empfiehlt sich ein Avolites TitanNet Switch (TNS),
-welcher wiederum RJ45, also gewohnter Netzwerkanschlüsse, bereitstellt.
+welcher wiederum RJ45, also gewohnte Netzwerkanschlüsse, bereitstellt.
 Sollen andere Glasfaserkonverter verwendet werden, halten Sie bitte mit
 Avolites Rücksprache.
 
@@ -40,8 +40,6 @@ immer über die Switch-Ports zu arbeiten, und den zweiten Port nur zu
 verwenden, wenn man parallel in verschiedenen Netzwerken arbeitet, etwa
 eins für die Show, ein anderes zur Datensicherung oder die Remote. Stellen Sie sicher, dass die IP-Adresse dieses 
 Ports nicht im Adressbereich des Switches liegt, da dies sonst zu Problemen führen kann.
-
-Das Diamond 9 kann optional für die Verwendung von 10GbE ausgestattet werden.
 
 ## Ändern der Einstellungen des Luminex-Switches im D9 (erste Serie)
 

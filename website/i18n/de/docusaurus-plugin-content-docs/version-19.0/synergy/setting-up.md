@@ -82,7 +82,7 @@ Surfaces.
 Klickt man auf das <Keys.ContextKey>+</Keys.ContextKey> unten und wählt aus der aufklappenden Liste
 'Surface', so wird ein neues Surface hinzugefügt. Dieses erscheint in
 der mittleren Spalte oben. Neue Ai-Surfaces haben zunächst immer zwei
-Layer, Prism Zero hat nur einen Layer.
+Layer, und weitere können hinzugefügt werden; Prism hat zunächst zwei Layer und kann bis auf 16 erweitert werden.
 
 ![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-Screen-Settings-v19.png)
 

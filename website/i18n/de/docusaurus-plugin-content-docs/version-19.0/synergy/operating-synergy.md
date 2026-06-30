@@ -48,7 +48,7 @@ die betreffenden Dateien rot angezeigt.
 ![Ai Media Browser uploading content](/docs/images/Ai-Media-Browser-uploading-content.jpg)
 
 Die Dateien werden schnellstmöglich übertragen, und der
-Übertragungsfort­schritt wird angezeigt. Dabei kann das Netzwerk stark
+Übertragungsfortschritt wird angezeigt. Dabei kann das Netzwerk stark
 ausgelastet und damit verlangsamt werden. Um dies zu vermeiden, kann
 unten der Schalter **Bandwidth Saver** (Bandbreite sparen) aktiviert
 werden. Damit wird der Upload verlangsamt, und das Netzwerk wird weniger
@@ -59,6 +59,38 @@ werden, was aber nicht zu empfehlen ist. Sobald die Dateien auf den
 Server geladen sind, erfolgt ggf. das Umrendern. Dessen Fortschritt
 zeigt sich in der Anzeige der Clips im [Attribut-Editor](#layer-steuern-mit-dem-attribut-editor), siehe folgender
 Abschnitt.
+
+## Media Viewer
+
+Das Fenster **Video Multi View** kann jeden einzelnen Synergy-Layer sowie alle kombinierten Outputs/Surface 
+von Prism und Ai anzeigen. Außerdem kann jeder externe RTSP-Videostream angezeigt werden. So lassen sich z.B. 
+externe Kameras anzeigen, um die Helligkeit abgleichen zu können oder den Programmablauf zu verfolgen.
+
+Um dieses Fenster zu öffnen, drücken Sie zweimal auf <Keys.HardKey>Open/View</Keys.HardKey> und wählen **Video Multi View** 
+auf dem Bildschirm, auf dem das Fenster angezeigt werden soll.
+
+![Video Multi View Window](/docs/images/Video-Multi-View-Window-v19-2.png)
+
+Zur Auswahl eines Streams für die Anzeige klickt man auf eine Vorschau
+im Media Viewer (leere Vorschauen zeigen ein großes +). Darauf öffnet
+sich eine Liste mit allen vorhandenen Streams, und man kann den
+gewünschten auswählen.
+
+![Video Multi View Window adding a stream](/docs/images/Video-Multi-View-Window-adding-a-stream-v19-2.png)
+
+Um einen Videostream aus dem Netzwerk verfügbar zu machen, muss dessen URL manuell eingegeben werden.
+Klicken Sie auf das + links oben im Auswahlbereich, und geben Sie im sich nun öffnenden Dialog die URL
+des gewünschten RTSP-Streams ein.
+
+- Wird kein Port angegeben (:554 im Bild), so wird Port 554 verwendet.
+
+![Video Multi View Window adding a stream](/docs/images/Video-Multi-View-Window-adding-a-stream-rtsp-v19-2.png)
+
+Mit dem Button <Keys.SoftKey>Change Layout</Keys.SoftKey> im Kontextmenü kann zwischen verschiedenen 
+Anordnungen mehrerer anzuzeigender Streams gewählt werden. Mit dem Button <Keys.SoftKey>Titles Shown</Keys.SoftKey> 
+können die Namen der Streams ein- bzw. ausgeblendet werden.
+
+![Video Multi View Window layout options](/docs/images/Video-Multi-View-Window-laout-options.png)
 
 ## Layer steuern mit dem Attribut-Editor
 

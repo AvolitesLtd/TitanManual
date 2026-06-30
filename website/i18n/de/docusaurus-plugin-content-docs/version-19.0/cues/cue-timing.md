@@ -82,7 +82,7 @@ Die eingegebenen Zeiten werden abhängig vom 'Fade Mode' (Überblendmodus) wie f
     ihre Werte). Stehen die Zeiten auf '0', so werden HTP-Kanäle direkt
     mit dem Fader eingeblendet, während LTP-Kanäle 'hart' umschalten.
 
--   <Keys.SoftKey>Mode 2</Keys.SoftKey> - die Kanäle blenden in der vorgegebenen Zeit ein. 
+-   <Keys.SoftKey>Mode 2</Keys.SoftKey> - die Kanäle blenden in der vorgegebenen Zeit ein, eine Fade-Out-Zeit wird nicht berücksichtigt. 
     Das Überblenden stoppt, sobald die Position des Fader erreicht ist; steht dieser etwa 
 	auf 50%, so erfolgt das Überblenden nur zur Hälfte. Bringt man den Fader wieder
     auf '0', so kehren die Kanäle zu den vorherigen Werten zurück. Stehen die Zeiten 
