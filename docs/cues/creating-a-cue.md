@@ -90,8 +90,7 @@ Other useful things to know about recording cues:
 
    ![Playbacks stored on playback faders](/docs/images/Playbacks-stored-on-playback-faders.png)
 
-    On the Diamond 9 and Diamond 7, setting <Keys.SoftKey>Halo</Keys.SoftKey> in the Legend menu will set the illumination colour 
-    of the playback fader.
+-   On the Diamond 9 and Diamond 7, setting <Keys.SoftKey>Halo</Keys.SoftKey> in  the Legend menu will set the illumination colour of the playback fader.
 
 
 -   A **Static Playbacks** workspace is available to show the contents of
@@ -127,8 +126,7 @@ You can create a cue which contains a shape with no base reference
 values; a shape cue like this can then be fired with other cues to
 overlay the shape on the cue and give you instant effects based around
 the settings in that cue. When recording the cue, use **Record by Channel**
-mode or use the ["Off" function](editing-cues.md#deactivate-attributes-from-cues-using-off)
-
+mode or use the ["Off" function](editing-cues.md#deactivate-attributes-from-cues-using-off) 
 to remove the other attributes from the programmer.
 
 ## Blind Mode

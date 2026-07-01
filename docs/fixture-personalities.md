@@ -26,9 +26,10 @@ personalities and new features which may be added such as sub-fixtures.
 The [Avolites website](https://personalities.avolites.com/) lists all fixtures for which personalities have
 been created. You should look here first if the console does not contain
 a personality for your fixture. The address is
-http://personalities.avolites.com
+[https://personalities.avolites.com](https://personalities.avolites.com/)
 
-[![Avolites Personalities Website](/docs/images/Avolites-Personalities-Website.png)](https://personalities.avolites.com/)
+
+[Avolites Personalities Website](/docs/images/Avolites-Personalities-Website.png)
 
 All available fixture personalities are listed down the left side of the
 screen. You can use the boxes on the top left to filter the list to show
