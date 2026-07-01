@@ -29,7 +29,7 @@ a personality for your fixture. The address is
 [https://personalities.avolites.com](https://personalities.avolites.com/)
 
 
-[Avolites Personalities Website](/docs/images/Avolites-Personalities-Website.png)
+![Avolites Personalities Website](/docs/images/Avolites-Personalities-Website.png)
 
 All available fixture personalities are listed down the left side of the
 screen. You can use the boxes on the top left to filter the list to show
