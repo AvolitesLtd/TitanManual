@@ -1,6 +1,6 @@
 ---
 id: copying-moving-linking-and-deleting
-title: Copying٬ Moving٬ Linking and Deleting a Chase
+title: Copying, Moving, Linking and Deleting a Chase
 sidebar_label: Copying٬ Moving٬ Linking and Deleting
 ---
 

@@ -66,6 +66,7 @@ There are several ways to add items to the layout. Items can be deleted by press
 ### Adding fixtures using Copy
 
 Press <Keys.HardKey>Copy</Keys.HardKey>, select fixtures, then touch in the Layout View where you want the selected fixtures to be placed. 
+
 -   The fixtures will be placed in a row starting at the position you touched - you can rearrange them later.
 
 ### Adding fixtures from group layouts using Record
@@ -73,6 +74,7 @@ Press <Keys.HardKey>Copy</Keys.HardKey>, select fixtures, then touch in the Layo
 If you select fixtures using groups, and you have set up a layout for the group (see [Group Layout](../controlling-fixtures/fixture-groups.md#fixture-layout)), then the group layout will be used to position the fixtures.
 
 Select fixtures using groups, press <Keys.HardKey>Record</Keys.HardKey>, then press a Layout handle. Pick one of the options from the softkeys:
+
 -   <Keys.SoftKey>Replace</Keys.SoftKey> will remove all items from the layout and replace them with the selected fixtures.
 -   <Keys.SoftKey>Merge</Keys.SoftKey> will add the selected fixtures to the layout.
 -   <Keys.SoftKey>Update Fixture Positions from Programmer</Keys.SoftKey> will reposition selected fixtures using the layout information stored in the group.
@@ -148,6 +150,7 @@ You can import a lighting plan image to show behind the fixtures.
 4. Select the image you want to use.
 
 Click on Background Image and Use the softkey <Keys.SoftKey>Scaling Mode</Keys.SoftKey> to select 
+
 - None (image displayed full size, overflow will be lost)
 - Letterbox (Fit the largest of height or width, fill other side with black bars )
 - Fill (Fit the smallest of height or width, the other side will overflow and be lost)
