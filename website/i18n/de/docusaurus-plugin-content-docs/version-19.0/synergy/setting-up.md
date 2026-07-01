@@ -47,13 +47,13 @@ vorzunehmen (siehe Ai-Handbuch). Diese werden dann in Synergy in Titan
 angezeigt, und man kann wie beschrieben Layer hinzufügen oder
 umbenennen.
 
-## Verbinden mit Prism Zero 
+## Verbinden mit Prism 
 
-Prism Zero muss auf einem Computer im gleichen Netzwerk laufen.
+Prism muss auf einem Computer im gleichen Netzwerk laufen.
 
-In den Einstellungen von Prism (File, Settings - oder per Klick auf das Menü oben links), navigiert man in den Bereich Synergy und aktiviert den Schalter **Enable Synergy**. Bei **Synergy Version** muss die gleiche Version ausgewählt werden wie Titan (Pult ode PC-Suite). Prism Zero startet den Titan Media Node, welcher die Verbindung zwischen Titan und Prism herstellt. Sobald der Titan Media Node läuft, wechselt der 'Connection Status' auf "Connected". Diese Einstellungen werden beim nächsten Programmstart automatisch geladen.
+In den Einstellungen von Prism (File, Settings - oder per Klick auf das Menü oben links), navigiert man in den Bereich Synergy und aktiviert den Schalter **Enable Synergy**. Bei **Titan Media Node** muss die gleiche Version ausgewählt werden wie Titan (Pult ode PC-Suite). Prism startet den Titan Media Node, welcher die Verbindung zwischen Titan und Prism herstellt. Sobald der Titan Media Node läuft, wechselt der 'Connection Status' auf "Connected". Diese Einstellungen werden beim nächsten Programmstart automatisch geladen.
 
-![Prism Zero Settings Window](/docs/images/prism-zero.png)
+![Prism Settings Window](/docs/images/prism-v19.png)
 
 Sobald die Verbindung zwischen Prism und dem Titan Media Node hergestellt ist, kann der Node per TitanNet von Pulten im Netzwerk gefunden, verwendet und gesteuert werden, siehe nächster Abschnitt.
 
@@ -66,7 +66,7 @@ entsprechenden Workspace bei neuen Shows, oder über das Menü 'Open
 Workspace Window'.
 
 Dieses Fenster ähnelt entfernt dem der [DMX-Einstellungen](../system-settings/dmx-output-mapping.md#dmx-eigenschaften): hier stellt
-man ein, wie Titan Prism Zero bzw. die einzelnen Outputs von Ai ansteuert. Ebenso kann
+man ein, wie Titan Prism bzw. die einzelnen Outputs von Ai ansteuert. Ebenso kann
 man hier für Ai Layer hinzufügen oder löschen sowie komplett neue Surfaces
 anlegen (müssen ggf. in Ai noch genauer eingestellt werden).
 
@@ -75,14 +75,14 @@ anlegen (müssen ggf. in Ai noch genauer eingestellt werden).
 Links sind die verfügbaren Ai-Server und Prism-Instanzen mit ihren Outputs aufgeführt. In
 der Mitte sind die in Titan angelegten Surfaces und Layer aufgeführt.
 Linien zwischen den Outputs und Surfaces zeigen die Zuordnung an. Unten
-tauchen die Surfaces auf, die zwar in Ai oder Prism Zero schon angelegt sind, aber noch
+tauchen die Surfaces auf, die zwar in Ai oder Prism schon angelegt sind, aber noch
 nicht in Titan. Dieses sind die ‚unmatched' (nicht zugewiesenen)
 Surfaces.
 
 Klickt man auf das <Keys.ContextKey>+</Keys.ContextKey> unten und wählt aus der aufklappenden Liste
 'Surface', so wird ein neues Surface hinzugefügt. Dieses erscheint in
 der mittleren Spalte oben. Neue Ai-Surfaces haben zunächst immer zwei
-Layer, Prism Zero hat nur einen Layer.
+Layer, und weitere können hinzugefügt werden; Prism hat zunächst zwei Layer und kann bis auf 16 erweitert werden.
 
 ![Synergy Settings Window screen settings](/docs/images/Synergy-Settings-Window-Screen-Settings-v19.png)
 
@@ -101,7 +101,7 @@ Sind weder Surfaces noch Layer angewählt, so werden rechts allgemeine
 Informationen über das System angezeigt. 
 
 Ist in Titan ein Surface angelegt, so muss dies einem Ai-Surface (Ai 
-Screen Fixture, oder Prism Zero) zugewiesen werden. Dazu klickt man auf den Button <Keys.ContextKey>Link</Keys.ContextKey>
+Screen Fixture, oder Prism) zugewiesen werden. Dazu klickt man auf den Button <Keys.ContextKey>Link</Keys.ContextKey>
 des nicht zugewiesenen Ai-Surfaces unten und danach auf das
 Titan-Surface oben. Wählt man dagegen **Link to new Surface**, so wird ein
 neues Titan-Surface angelegt und verknüpft.

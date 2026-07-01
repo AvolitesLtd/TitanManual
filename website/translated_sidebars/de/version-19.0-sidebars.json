@@ -564,6 +564,10 @@
           "type": "doc",
           "id": "version-19.0/system-settings/upgrading-the-software"
         },
+		{
+          "type": "doc",
+          "id": "version-19.0/system-settings/usb-expert"
+        },
         {
           "type": "doc",
           "id": "version-19.0/system-settings/recovering-reinstalling-the-console"

@@ -422,6 +422,7 @@ function generatePDF(filePath,version,section=null,options={},lang) {
   // see https://stackoverflow.com/questions/20472957/how-to-change-header-contents-of-automatic-toc-when-using-pandoc
   // to make it more predictable we set it here (and a few lines down for translated languages)
   let toctitle = "Contents";
+  let secfilter = sectionNumberFilter;
   
   if(lang == "de") {
     secfilter = sectionNumberFilterDe;

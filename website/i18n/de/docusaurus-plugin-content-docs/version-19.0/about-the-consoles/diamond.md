@@ -29,7 +29,7 @@ angezeigt und verändert, während auf den **Macro/Executor-Tasten** Playbacks, 
 Arbeitsumgebungen (Layouts der Displays) oder z.B. Gruppen gespeichert werden können. Links davon befindet sich die 
 Ablaufsteuerung für Cuelisten sowie der T-Griff des Scene Masters.
 
-&nbsp;<Keys.Annotation>E</Keys.Annotation> Drei kleine **Layer-Screens** dienen der Anzeige von weiteren Arbeitsfenstern.
+&nbsp;<Keys.Annotation>E</Keys.Annotation> Drei kleine **Layer-Screens** dienen der Anzeige von weiteren Arbeitsfenstern. Sie können z.B. zur Anzeige von Video-Streams via RTSP genutzt werden, siehe [Media Viewer](../synergy/operating-synergy.md#media-viewer).
 
 
 
@@ -60,7 +60,8 @@ z.B. Cues, Chaser, Cuelisten, aber auch z.B. Gruppen speichern. Der aktuelle Peg
 wird durch den Ring um den Regler angezeigt; dessen Farbe wiederum lässt sich als 
 Halo frei definieren. Im Touchscreen direkt unter den Drehreglern wird direkt die 
 aktuelle Belegung und Funktion angezeigt. Weitere solche Drehregler gibt es rechts 
-und links neben den Touchscreens.
+und links neben den Touchscreens; die Belegung der Regler wird jeweils im Display angezeigt.
+Der untere rechte Drehregler steuert die Lautstärke des Ausgangs auf der frontseitigen Klinkenbuchse.
 
 &nbsp;<Keys.Annotation>I</Keys.Annotation> Mit den **Seitenwechseltasten** kann man zu verschiedenen Seiten der Playbacks wechseln.
 
@@ -88,6 +89,7 @@ sowie extra für diese ein kleines Display.
 &nbsp;<Keys.Annotation>N</Keys.Annotation> Die **Ablaufsteuerung** steuert die 
 Wiedergabe von Cuelisten. Dazu gehört auch der T-Griff für den Scene Master und ein 
 Paar von Motorfadern zur Steuerung des aktuell verbundenen Playbacks oder Masters.
+
 
 ## Die Programmiersektion
 
@@ -124,7 +126,8 @@ angewählten Geräte, kann aber auch zur Steuerung des Mauszeigers verwendet wer
 
 Unter der Handballenauflage an der Vorderseite des Pultes befindet sich der 
 **Einschalter**, ein **USB-Anschluss** z.B. für USB-Sticks, sowie eine ausziehbare 
-beleuchtete **Tastatur** z.B. für Legenden oder zum Eingeben von Suchbegriffen.
+beleuchtete **Tastatur** z.B. für Legenden oder zum Eingeben von Suchbegriffen. Außerdem gibt es einen 
+**Audio-Ausgang**, der mit dem entsprechenden Ausgang des Motherboards verbunden ist.
 
 Unter der Vorderseite des Pultes sind LEDs als Leselicht, z.B. für Pläne und Notizen, angebracht.
 Zum Ein- und Ausschalten ist der Schalter neben der ausziehbaren Tastatur. Hält man diesen für 

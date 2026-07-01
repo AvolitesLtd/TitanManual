@@ -135,6 +135,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
   web:
+    if: ${{ github.repository == 'AvolitesLtd/TitanManual' }}
     name: Web Build and Deploy
     runs-on: ubuntu-latest
     steps:
@@ -168,6 +169,7 @@ jobs:
         dest: 'web@51.104.240.248:/var/www/html/manuals/titan/'
 
   download:
+    if: ${{ github.repository == 'AvolitesLtd/TitanManual' }}
     name: Versions Page
     runs-on: ubuntu-latest
 
