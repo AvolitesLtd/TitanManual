@@ -1,6 +1,6 @@
 ---
 id: multi-user-operation
-title: Multi⁃User Operation
+title: Multi-User Operation
 sidebar_label: Multi⁃User Operation
 ---
 

@@ -134,6 +134,7 @@ In the **Connected Panels** window on the left, select the DMX panel you want to
 The process for testing the panel LEDs varies slightly depending on the console type.
 
 **T3 and D3**
+
 - Under **Connected Panels** select T3/D3 Main Board.
 - On the right select **Leds** tab.
 - Change **End LED value** to 64.
@@ -143,6 +144,7 @@ The process for testing the panel LEDs varies slightly depending on the console 
 - All LEDs should be illuminated on the front panel.
 
 **Quartz and Titan Mobile**
+
 - Under **Connected Panels** select Mobile Main Board.
 - On the right select **Leds** tab.
 - Change **End LED value** to 56.
@@ -152,6 +154,7 @@ The process for testing the panel LEDs varies slightly depending on the console 
 - All LEDs should be illuminated on the front panel.
 
 **Quartz**
+
 - Under **Connected Panels** select Mobile Main Board.
 - On the right select **Leds** tab.
 - Change **End LED value** to 56.
@@ -161,6 +164,7 @@ The process for testing the panel LEDs varies slightly depending on the console 
 - All LEDs should be illuminated on the front panel.
 
 **Tiger Touch II**
+
 - Under **Connected Panels** select Touch Playback Panel 1.
 - On the right select **Leds** tab.
 - Change **End LED value** to 20.
@@ -170,6 +174,7 @@ The process for testing the panel LEDs varies slightly depending on the console 
 - All LEDs should be illuminated on the front panel.
 
 **Arena**
+
 - Under **Connected Panels** select Touch Playback Panel 1.
 - On the right select **Leds** tab.
 - Change **End LED value** to 20.
@@ -189,6 +194,7 @@ The process for testing the panel LEDs varies slightly depending on the console 
 - All LEDs should be illuminated on the front panel.
 
 **Sapphire Touch**
+
 - Under **Connected Panels** select Sapphire Program Panel 1.
 - On the right select **Leds** tab.
 - Change **End LED value** to 56.
@@ -203,6 +209,7 @@ The process for testing the panel LEDs varies slightly depending on the console 
 - All LEDs should be illuminated on the front panel.
 
 **D9**
+
 - Under **Connected Panels** select Diamond Encoder Panel 2.
 - On the right select **Leds** tab.
 - Press **Led Colour**, set the colour to red and press OK.
