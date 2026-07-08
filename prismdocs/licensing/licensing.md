@@ -45,8 +45,8 @@ The table below shows which license types unlock each **Prism v2.1** license lev
 | Unlocks Prism License | Supported License Types       |
 |-----------------------|-------------------------------|
 | **Zero Outputs**      | Editor Key, Titan Mobile, T1, T2 or T3 |
-| **One Output**        | A1+                            |
-| **Two Outputs**       | A2+                               |
+| **One Output**        | A1+, T1+                           |
+| **Two Outputs**       | A2+, T2+                              |
 | **Three Outputs**     | A3+, Ai Anjuna, Ai Bondi, Ai Miami |
 
 
