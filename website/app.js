@@ -151,7 +151,9 @@ const createWindow = () => {
   browserViewContent.webContents.on('did-fail-load', (e, errCode, errDesc, vUrl, isMainFrame) => {
     if(isMainFrame) {
       let activeIndex = browserViewContent.webContents.getActiveIndex()
-      browserViewContent.webContents.history[activeIndex] = browserViewContent.webContents.history[activeIndex-1]
+      let history = browserViewContent.webContents.history
+      if(activeIndex > 0 && history[activeIndex-1] !== undefined)
+        history[activeIndex] = history[activeIndex-1]
       if(errDesc == 'ERR_INTERNET_DISCONNECTED')
         browserViewContent.webContents.loadURL(`${appServer.url}/offline.html`)
       else
