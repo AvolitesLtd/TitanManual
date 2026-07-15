@@ -152,7 +152,7 @@ const createWindow = () => {
     if(isMainFrame) {
       let activeIndex = browserViewContent.webContents.getActiveIndex()
       let history = browserViewContent.webContents.history
-      if(activeIndex > 0 && history[activeIndex-1] !== undefined)
+      if(Array.isArray(history) && activeIndex > 0 && history[activeIndex-1] !== undefined)
         history[activeIndex] = history[activeIndex-1]
       if(errDesc == 'ERR_INTERNET_DISCONNECTED')
         browserViewContent.webContents.loadURL(`${appServer.url}/offline.html`)
