@@ -52,7 +52,7 @@
     "docusaurus-plugin-sass": "^0.2.2",
     "electron": "^43.0.0",
     "electron-builder": "^26.0.0",
-    "fantasticon": "^1.0.27",
+    "fantasticon": "^4.1.0",
     "fuse.js": "^3.6.1",
     "js-search": "^1.4.3",
     "lunr": "^2.3.9",
@@ -67,7 +67,14 @@
   },
   "dependencies": {
     "minimist": "^1.2.8",
-    "node-static": "^0.7.11"
+    "sirv": "^3.0.2"
+  },
+  "resolutions": {
+    "loader-utils": "^2.0.4",
+    "shell-quote": "^1.8.4",
+    "websocket-driver": "^0.7.5",
+    "handlebars": "^4.7.9",
+    "@xmldom/xmldom": "0.8.14"
   },
   "build": {
     "appId": "com.avolites.titan.manual",
