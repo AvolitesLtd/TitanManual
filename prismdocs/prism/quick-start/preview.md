@@ -15,6 +15,9 @@ The **Preview** window allows for adjustments to be made to the properties of in
 - [Live Input](#live-input)
 - [Virtual Return](#virtual-return)
 - [Network Stream](#network-stream)
+- [Image Sequence](#image-sequence)
+- [Test Pattern](#test-pattern)
+- [Gradient](#gradient)
 - [Colour Correction](#colour-correction)
 - [Transformation](#transformation)
 
@@ -118,7 +121,29 @@ This area controls the **Crop** of the Bank Element.
 
 |   Item      |  Description   |
 |----------------|---------|
-| **URL** | Full RTSP address of the stream (for example: `rtsp://address:port/path`)..|
+| **URL** | Full address of the stream. Use an RTSP URL (for example: `rtsp://address:port/path`) or an HLS URL (for example: `https://address/path.m3u8`).|
+
+## Image Sequence
+
+Load an image sequence by entering the path to any image in the sequence, or by selecting one of the images from the dialog box. See [Image Sequence](../play/banks.md#image-sequence) for filename patterns and limitations.
+
+|   Item      |  Description   |
+|----------------|---------|
+| **Source** | Path to an image in the sequence, or the folder and filename pattern detected from that file. |
+| **Frame Rate** | Playback rate of the sequence, in frames per second. Changing the frame rate also updates the duration of the sequence. |
+
+## Test Pattern
+
+|   Item      |  Description   |
+|----------------|---------|
+| **Pattern** | Selects the generated test pattern used for alignment, colour, or geometry checks. |
+
+## Gradient
+
+|   Item      |  Description   |
+|----------------|---------|
+| **Type** | Selects the gradient style, such as a linear or radial wash. |
+| **Colours** | Sets the colours used in the gradient. |
 
 ## Colour Correction
 

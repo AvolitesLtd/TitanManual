@@ -8,6 +8,8 @@ The **Play page** is the main workspace for managing and playing media. It allow
 
 Media can be adjusted in the **Preview** before being launched on a layer, and layer-specific parameters can be modified using the **Layer Controls** panel.
 
+The Play page panels can be resized to give more space to the canvas, layer list, controls, or banks.
+
 ![Prism](/prism-images/play/prism-play-view.png)
 
 ### Layout Overview

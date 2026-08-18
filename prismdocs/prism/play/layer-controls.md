@@ -17,6 +17,7 @@ Similar to the [Preview](../quick-start/preview.md#adjustments) adjustments, the
 - [Crop](#crop)
 - [Colour Correction](#colour-correction)
 - [Transformation](#transformation)
+- [Effects](#effects)
 - [Rendering](#rendering)
   - [Virtual Return Properties](#virtual-return-properties)
 
@@ -118,6 +119,17 @@ This area controls the **Transformation** of the selected layer.
 | **Rotate X  (&deg;)**    | Rotate X (x axis) of the layer, in relation to the surface. |
 | **Rotate Y  (&deg;)**    | Rotate Y (y axis) of the layer, in relation to the surface. |
 | **Rotate Z  (&deg;)**    | Rotate Z (z axis) of the layer, in relation to the surface. |
+
+## Effects
+
+This area controls **Effects** applied to the selected layer. Effects are generated on the layer and can be mixed with the current media using the layer [blend modes](#rendering).
+
+Two generator types are available:
+
+- **Linear and Radial Particle** - Generates 2D particle systems on the layer.
+- **Shape** - Generates shapes on the layer.
+
+Each generator has its own parameters. Use **Reset to Default** to restore the selected effect controls.
 
 ## Rendering
 

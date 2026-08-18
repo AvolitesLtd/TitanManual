@@ -7,7 +7,7 @@ import Keys from '@site/src/components/key.ts';
 
 **Prism** includes **Synergy** compatibility with **Avolites Titan**, providing easier setup as well as advanced features such as previewing of **Prism** within **Titan**, using the output from **Prism** within **Titan's Pixelmapper** and allowing media transfer directly from the console to **Prism**.
 
-*Note: To control Prism 2.1 using Synergy from a Titan console the console must have its personality library updated. Please download the correct installer for your Titan software version from [personalities.avolites.com](https://personalities.avolites.com/).*
+*Note: To control Prism 2.2 using Synergy from a Titan console the console must have its personality library updated. Please download the correct installer for your Titan software version from [personalities.avolites.com](https://personalities.avolites.com/). The updated Prism personality includes **Sync to DMX** and **Reset to Default**.*
 
 More information on how to setup a **Synergy** connection can be found on this [guide](/docs/synergy).
 

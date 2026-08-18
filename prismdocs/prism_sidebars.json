@@ -127,6 +127,11 @@
           "id": "prism/introduction"
         },
         {
+          "type": "doc",
+          "label": "What's New",
+          "id": "prism/whats-new"
+        },
+        {
           "collapsed": true,
           "type": "category",
           "label": "Quick Start",

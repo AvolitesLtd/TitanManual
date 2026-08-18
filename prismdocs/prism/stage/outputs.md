@@ -15,6 +15,7 @@ Each output operates independently and reflects the current program output, incl
 - [Physical Outputs](#physical-output): Send the video output to a connected monitor, projector, or video wall.
 - [NDI® Outputs](#ndi-output): Send the video output over the network.
 - [RTSP Outputs](#rtsp-output): Send the video output as a live RTSP stream to other devices or applications on the network.
+- [DMX Outputs](#dmx-output): Send DMX over sACN, Art-Net, or USB Expert, or use a Synergy Pixel Map.
 
 Use the [Regions](./regions) page to map a **Surface** or **Layer** to an **Output**.
 
@@ -35,6 +36,21 @@ Selecting an output device will show its properties, automatically populated:
 - Height
 - Refresh rate
 - HDR support
+- Colour space
+
+Colour space can be set in the output display settings so that the physical output matches the connected display.
+
+### Edge Blend
+
+**Edge Blend** is applied on a physical output. Use it when multiple projectors or displays overlap, so that the overlapping edges fade together.
+
+Edge blend properties can be copied and pasted between physical outputs.
+
+### Keystone
+
+**Keystone** is applied on a physical output. Use it to correct geometry when the display is not square-on to the surface, by adjusting the output corners.
+
+Keystone properties can be copied and pasted between physical outputs.
 
 ## NDI® Output
 
@@ -80,3 +96,36 @@ The RTSP Output acts as a live source, continuously sending video in real time.
 | **Stream Name** | Identifies the stream path used in the RTSP URL. This name is appended to the address to form the complete stream URL. |
 
 > **Note:** The RTSP output URL (for example, `rtsp://address:port/path`) must be unique. Multiple RTSP outputs cannot share the same URL; otherwise, starting the output will fail.
+
+## DMX Output
+
+A **DMX Output** sends pixel or control data from Prism as DMX. Use it with LED fixtures, nodes, or other DMX-controlled devices.
+
+Supported output types:
+
+- **sACN** (streaming ACN / E1.31)
+- **Art-Net**
+- **USB Expert**
+- **Synergy Pixel Map** - Created from Titan only. When a Pixel Map is set up in Titan over a [Synergy](../settings/settings-synergy.md) connection, the output appears in Prism as a DMX output.
+
+sACN, Art-Net, and USB Expert outputs are created in Prism. Configure the protocol, network interface or USB Expert device, and universe addressing for each of these DMX outputs. Map content onto the DMX output using [DMX Regions](./regions.md#dmx-regions) on the Regions page.
+
+Each DMX output has [Pixel Map Adjustment](#pixel-map-adjustment) controls.
+
+### Pixel Map Adjustment
+
+**Pixel Map Adjustment** is available on each DMX output (sACN, Art-Net, USB Expert, and Synergy Pixel Map). The controls affect the pixel-mapped frames for that output and are set on the DMX output, not on the [Surface](../play/surfaces.md).
+
+| <p style={{width: '100px', margin: '0'}}>Item</p> |  Description |
+|------------------|------------|
+| **Saturation**   | Sets the Saturation of the Pixel Map output |
+| **Contrast**     | Sets the Contrast of the Pixel Map output |
+| **Gamma**        | Sets the Gamma of the Pixel Map output  |
+| **Luma Keying**  | A filter that removes parts of an image based on brightness (luminance) rather than colour. |
+| **Blur**         | Blurs pixels for smoother pixel map effects |
+| **Frame Blend**  | Smoothly interpolates frames over time for smoother pixel map transitions |
+| **Show Preview** | Preview the effect via the Preview window / make clip adjustments. <br/> <br/> *Note: You can preview effects in the Prism UI canvas, but this will not affect your output.* |
+
+### Live DMX Channel Data
+
+When a DMX output is active, Prism can display **live DMX channel data** for the output. Use this to confirm that the expected values are being sent while pixel mapping or testing fixtures.

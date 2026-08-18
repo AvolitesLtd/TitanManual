@@ -20,7 +20,16 @@ Use the [Regions](./regions) page to map a **Surface** or **Layer** to an **Outp
 
 *Note: clicking on the header tick box or using the `CTRL+A` shortcut will select all layers.*
 
-Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual elements allows access to the following actions:
+### Surface Sub Menu
+
+Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on a **Surface** allows access to the following actions:
+- **Rename** - Rename the surface. *Note: double clicking on the surface tag will allow to rename it.*
+- **Remove** - Delete the surface.
+- **Duplicate** - Add a new copy of the surface and its layers. *Note: selecting the surface and pressing `CTRL+D` will duplicate the surface.* Newly added or duplicated surfaces are selected automatically.
+
+### Layer Sub Menu
+
+Pressing the <Keys.PrismKey>Sub Menu</Keys.PrismKey> icon on individual **Layers** allows access to the following actions:
 - **Rename** - Rename the layer. *Note: double clicking on the surface / layer tag will allow to rename it.*
 - **Remove** - Delete the layer from the surface. *Note: selecting the layer and pressing `BACKSPACE` or `DELETE` buttons will delete the layer.*
 - **Duplicate** - Add a new copy of the layer. *Note: selecting the layer and pressing `CTRL+D` shortcut will duplicate the layer.*

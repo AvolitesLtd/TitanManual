@@ -49,12 +49,63 @@ Bank elements can be rearranged by dragging them around in both table view and g
 
 Supports standard image types, such as **PNG**, **JPG**, **GIF**, etc.
 
+#### Image Sequence
+
+An **Image Sequence** plays a folder of sequentially numbered still images as a clip. Supported still-image types follow those of a standard [Image](#image) element.
+
+To load an image sequence:
+
+- Enter the path to any of the images in the sequence.
+- Or select one of the images in the sequence from the dialog box.
+
+The Image Sequence pop-up checks the format of the sequence, with or without trailing zeros:
+
+| Selected file | Folder | Filename pattern |
+|---------------|--------|------------------|
+| `D:\Videos\Wildlife_seq\Wildlife-001.png` | `D:\Videos\Wildlife_seq` | `Wildlife-%03d.png` |
+| `D:\Videos\Wildlife_seq\Wildlife-1.png` | `D:\Videos\Wildlife_seq` | `Wildlife-%d.png` |
+
+**Frame rate** sets how fast the sequence plays and also updates the duration of the sequence.
+
+##### Sequence pattern
+
+The sequence pattern uses `%0#d`, where `#` is the number of digits in the frame number:
+
+- `%d` is an unpadded frame number, for example `Wildlife-1.png`.
+- `%03d` is a frame number padded to 3 digits, for example `Wildlife-001.png`.
+- `%04d` is a frame number padded to 4 digits, for example `Wildlife-0001.png`.
+
+The starting frame number must be **0** or **1**.
+
+These filenames are supported:
+
+- `20250718_153946_0000.png`
+- `20250718_1539460000.png`, detected as `20250718_153946%04d.png` (not `20250718_%010d.png`)
+
+##### Limitations
+
+- Sequences with missing frames are not supported.
+- Sequences with frames of different resolutions are not supported.
+
 #### Audio
 Supports standard audio types, such as **MP3**, **WAV**, etc.
 
 #### Video
 Supports natively **Avolites AiM**, **NotchLC**, and **HAP**.
-Additionally, other standard video codecs such as **H264**, **H265**, **ProRes**, etc., are also supported.
+Additionally, other standard video codecs such as **H264**, **H265**, and **ProRes** are also supported.
+
+The following **ProRes** profiles are supported:
+
+| Profile | ID | Pixel format |
+|---------|----|--------------|
+| **Proxy** | `0` | `yuv422p10le` |
+| **LT** | `1` | `yuv422p10le` |
+| **Standard** | `2` | `yuv422p10le` |
+| **HQ** | `3` | `yuv422p10le` |
+| **4444** | `4` | `yuva444p10le` |
+| **4444 XQ** | `5` | `yuva444p12le` |
+
+Support is also included for the `yuv444p12le` pixel format.
 
 To enhance playback performance, consider transcoding media into **Avolites AiM** codec. Media can be added to the [encoder](../encoder/encoder.md) list by the <Keys.PrismKey>Send To Encoder</Keys.PrismKey> button. 
 
@@ -73,7 +124,13 @@ Please see both [Settings](../settings/settings-inputs.md) and [Preview](../quic
 The Virtual Return element enables one layer in the project to receive the rendered output of surface or another layer.
 
 #### Network Stream
-The Network Stream element allows to receive and display live video streams transmitted over a network. It is typically used to connect to IP cameras, media servers, or other streaming devices that provide real-time video via standard streaming protocols such as RTSP.
+The Network Stream element receives live video transmitted over a network. Use it to connect to IP cameras, media servers, or other streaming devices that provide real-time video via **RTSP** or **HLS**.
+
+#### Test Pattern
+A generated **Test Pattern** bank element, used to align outputs, check colour and geometry, and verify mapping without importing media.
+
+#### Gradient
+A generated **Gradient** bank element, used as a colour wash or blend source on a layer. Gradient colours and direction can be adjusted in [Preview](../quick-start/preview.md).
 
 ### Actions
 

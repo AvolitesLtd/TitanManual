@@ -40,7 +40,7 @@ All **Prism** licenses include:
 
 ### License Unlock Table
 
-The table below shows which license types unlock each **Prism v2.1** license level:
+The table below shows which license types unlock each **Prism v2.2** license level:
 
 | Unlocks Prism License | Supported License Types       |
 |-----------------------|-------------------------------|

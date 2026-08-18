@@ -28,6 +28,8 @@ The layer preview comprises of an overlay showing:
 It is possible to minimise and maximise the information card in order to have a more compact view of all the layers.  
 *Note: When minimised the speed slider and the play modes will be hidden.*
 
+Speed and other numeric text fields can be adjusted with finer precision, which is useful when matching playback speed or setting exact values.
+
 #### Controlling the Layer
 
 The layer has some controls, which can adjust the layers in real-time.

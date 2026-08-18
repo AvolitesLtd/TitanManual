@@ -107,7 +107,7 @@ In this section it is possible to navigate the following app **Views**:
 - [Encoder](../encoder/encoder.md)
 - [Settings](../settings/settings.md)
 
-An underline will give visual feedback of the selected **View**.
+An underline will give visual feedback of the selected **View**. The current view is also highlighted in the navigation so it is clear which page is active.
 
 ## Status Bar
 
@@ -132,3 +132,5 @@ When multiple   **Bank Elements** or **Encode List** entries  have been selected
 Any unchanged values in the *Controls* panel will initially display those of the first selected element.<br/>
 
 If [Undo and Redo](#edit) are permitted, all selected elements will be affected.
+
+Newly added or duplicated elements are selected automatically, so their controls are ready to edit.

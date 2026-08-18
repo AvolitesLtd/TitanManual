@@ -10,3 +10,5 @@ By right-clicking on it it is possible to access several features:
 - The port which is being used for **Prism** - this is a read-only value, set to 9030.
 - The **Open UI** function allows to focus the UI if it's running, or to open a new instance otherwise.
 - The **Exit** function allows to fully close **Prism**.
+
+When **Prism** starts, a **health check** runs automatically to verify that the application is ready to run.

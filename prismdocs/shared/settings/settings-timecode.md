@@ -18,4 +18,6 @@ Select the source used to generate the timecode:
 |   Item    |  Description  |
 |---------------|------------|
 | **Internal** | Uses an internally generated timecode that can be started, paused, and stopped within the application. Once enabled, the timecode can be controlled from the [Play](../play) page.|
-| **LTC**   | Uses an external LTC (Linear Timecode) module for timecode input. This is useful for synchronizing with external devices or live events. Requires Usb Expert to be enabled.|
+| **System Time** | Uses the computer's system clock as the timecode value. This is useful when playback or [Timecode Triggers](../play/timecode-triggers.md) need to follow wall-clock time.|
+| **LTC**   | Uses an external LTC (Linear Timecode) module for timecode input. This is useful for synchronizing with external devices or live events. Requires USB Expert to be enabled.|
+| **MTC**   | Uses MIDI Timecode (MTC) from a connected MIDI source. This is useful for synchronizing playback and [Timecode Triggers](../play/timecode-triggers.md) with external MIDI devices or show control systems.|
