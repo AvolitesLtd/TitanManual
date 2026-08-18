@@ -115,7 +115,7 @@ function replaceYaml(filename, content, sectionHeading) {
  * @param {string} version Version of the manual, e.g. `12.0` or `next`
  * @return {string} The content with the images fixed
  */
-function replaceLinks(filename,content,docsPath,version) {
+function replaceLinks(filename,content,docsPath,version,appName) {
   // matches all links which are to local .md files
   return content.replace(avoParse.regex.linksLocalMd, function (match,text,link,anchor) {
     let filePath = filename.split("/");
@@ -132,7 +132,7 @@ function replaceLinks(filename,content,docsPath,version) {
 
     let fullFilePath = path.resolve(docsPath, filePath, link);
 
-    let resolvedPath = resolvePageVersion(path.join(filePath, link),version)
+    let resolvedPath = resolvePageVersion(path.join(filePath, link),version,appName)
 
     if (!resolvedPath) {
       // check file exists
@@ -379,7 +379,7 @@ function formatMd(docsPath,filename,version,sectionHeading, appName) {
   content = replaceYaml(filename,content,sectionHeading);
 
   // replace links to md files with the title links created above
-  content = replaceLinks(filename,content,docsPath,version);
+  content = replaceLinks(filename,content,docsPath,version,appName);
 
   // fix the absolute image path
   content = replaceImagepath(filename,content);
@@ -487,7 +487,7 @@ function createPDF(doc, section=null, options={}) {
   let sidebarFile = fs.readFileSync(sidebarPath(version));
   let sidebar = JSON.parse(sidebarFile)[doc.sidebar];
   // get the path for docs of the version
-  docsPath = docsVersionPath(version, sidebar)+ "/" + doc.path;
+  docsPath = docsVersionPath(version, doc.sidebar);
 
   let output = '';
   output += fs.readFileSync(legalPath);
