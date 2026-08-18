@@ -39,6 +39,10 @@
             },
             {
               "type": "doc",
+              "id": "player/quick-start/shortcuts"
+            },
+            {
+              "type": "doc",
               "id": "player/quick-start/projects-management"
             },
             {
@@ -143,6 +147,10 @@
             {
               "type": "doc",
               "id": "prism/quick-start/navigation"
+            },
+            {
+              "type": "doc",
+              "id": "prism/quick-start/shortcuts"
             },
             {
               "type": "doc",

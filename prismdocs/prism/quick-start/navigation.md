@@ -20,6 +20,8 @@ import Keys from '@site/src/components/key.ts';
 - [Status Bar](#status-bar)
 - [Multi Selection](#multi-selection)
 
+A full list of keyboard shortcuts is on the [Shortcuts](./shortcuts.md) page.
+
 ## Main Menu
 ![Prism File Menu Open Recent](/prism-images/navigation/prism-header-menu.png)
 
@@ -95,7 +97,7 @@ More information found at [Import/Export](./import-export.md)
 
 |  Item  |  Description  |
 |-----------|-------------|
-| Manual  | Opens the Desktop Manual app. |
+| Manual  | Opens the Desktop Manual app (`F1`). |
 | Support | Shows a pop-up with company details. |
 | About   | Shows a pop-up with information about **Prism**. |
 

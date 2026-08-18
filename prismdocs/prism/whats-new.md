@@ -27,7 +27,7 @@ The full list of changes, including bug fixes, is in the [Prism Suite v2.2 Relea
 - **[USB Expert](./settings/settings-timecode.md#timecode-source)** - Updated USB Expert for LTC and MTC DMX.
 - **[System Time](./settings/settings-timecode.md#timecode-source)** - Use the computer's system clock as a timecode source.
 - **[ProRes and YUV](./play/banks.md#video)** - Improved support for ProRes profiles and YUV formats.
-- **[Region tools](./stage/regions.md#region-tools)** - Zoom, pan, crosshair, magnifiers, sequential copy/paste, and create-region tools.
+- **[Region tools](./stage/regions.md#canvas-controls)** - Zoom, pan, snap, multi-select, and create-region tools.
 - **[Resizable pages](./play/play.md#layout-overview)** - The Play and Regions pages can be resized.
 - **[Navigation highlighting](./quick-start/navigation.md#view-tabs)** - Clearer highlighting of the current view.
 - **[Media Manager bank filter](./play/media-manager.md#filter-by)** - Filter media by bank.
