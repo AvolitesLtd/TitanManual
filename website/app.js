@@ -110,8 +110,12 @@ async function clearCache() {
   // Optionally, also clear other folders like:
   const cacheDir = path.join(app.getPath('userData'), 'Cache');
   if (fs.existsSync(cacheDir)) {
-    fs.rmSync(cacheDir, { recursive: true, force: true });
-    console.log('Cache directory removed');
+    try {
+      fs.rmSync(cacheDir, { recursive: true, force: true });
+      console.log('Cache directory removed');
+    } catch (error) {
+      console.error('Error removing cache directory:', error);
+    }
   }
 }
 
@@ -150,8 +154,6 @@ const createWindow = () => {
 
   browserViewContent.webContents.on('did-fail-load', (e, errCode, errDesc, vUrl, isMainFrame) => {
     if(isMainFrame) {
-      let activeIndex = browserViewContent.webContents.getActiveIndex()
-      browserViewContent.webContents.history[activeIndex] = browserViewContent.webContents.history[activeIndex-1]
       if(errDesc == 'ERR_INTERNET_DISCONNECTED')
         browserViewContent.webContents.loadURL(`${appServer.url}/offline.html`)
       else
@@ -160,7 +162,14 @@ const createWindow = () => {
   })
 
   browserViewContent.webContents.on('will-navigate', handleExternal)
-  browserViewContent.webContents.on('new-window', handleExternal)
+  browserViewContent.webContents.setWindowOpenHandler(({ url }) => {
+    if (!url.startsWith(appServer.url)) {
+      shell.openExternal(url)
+      return { action: 'deny' }
+    }
+    browserViewContent.webContents.loadURL(url)
+    return { action: 'deny' }
+  })
 
   browserViewContent.webContents.on('did-navigate', canNavigate)
   browserViewContent.webContents.on('did-finish-load', canNavigate)
@@ -228,8 +237,6 @@ app.whenReady().then(async() => {
   urlFilter()
 })
 
-app.allowRendererProcessReuse = true
-
 // Quit when all windows are closed.
 app.on('window-all-closed', () => {
   app.quit()
@@ -277,7 +284,7 @@ function urlFilter() {
       file: 'remote/buttons.js'
     },
     jquery: {
-      url: '//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js',
+      url: '//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js',
       file: 'remote/jquery.js?v=5'
     }
   }
@@ -306,18 +313,21 @@ function urlFilter() {
 
 // window controls
 const canNavigate = () => {
-  win.webContents.send('cntrl-can-back', browserViewContent.webContents.canGoBack())
-  win.webContents.send('cntrl-can-forward', browserViewContent.webContents.canGoForward())
+  const history = browserViewContent.webContents.navigationHistory
+  win.webContents.send('cntrl-can-back', history.canGoBack())
+  win.webContents.send('cntrl-can-forward', history.canGoForward())
 }
 
 function goBack() {
-  if(browserViewContent.webContents.canGoBack())
-    browserViewContent.webContents.goBack()
+  const history = browserViewContent.webContents.navigationHistory
+  if(history.canGoBack())
+    history.goBack()
 }
 
 function goForward() {
-  if(browserViewContent.webContents.canGoForward())
-    browserViewContent.webContents.goForward()
+  const history = browserViewContent.webContents.navigationHistory
+  if(history.canGoForward())
+    history.goForward()
 }
 
 ipcMain.on("cntrl-back",(e, arg) => {

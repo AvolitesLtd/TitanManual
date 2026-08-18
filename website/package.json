@@ -11,13 +11,10 @@
   "main": "app.js",
   "author": "Avolites Ltd. <support@avolites.com> (https://www.avolites.com)",
   "scripts": {
-    "examples": "docusaurus-examples",
     "start": "docusaurus start",
     "build": "docusaurus build",
-    "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus write-translations",
     "version": "docusaurus docs:version",
-    "rename-version": "docusaurus-rename-version",
     "sass": "npm run sass-build && node-sass --watch scss/custom.scss static/custom.css --output-style compressed",
     "sass-build": "node-sass scss/custom.scss static/custom.css --output-style compressed",
     "icon-font": "fantasticon custom_icons -o static/avolites-icons --normalize 1",
@@ -43,9 +40,9 @@
     "docusaurus": "docusaurus"
   },
   "devDependencies": {
-    "@docusaurus/core": "^2.0.0",
-    "@docusaurus/plugin-google-gtag": "^2.0.1",
-    "@docusaurus/preset-classic": "^2.0.0",
+    "@docusaurus/core": "2.4.3",
+    "@docusaurus/plugin-google-gtag": "2.4.3",
+    "@docusaurus/preset-classic": "2.4.3",
     "@easyops-cn/docusaurus-search-local": "^0.31.0",
     "@noticeable/remarkable-iframify": "^2.1.1",
     "chromedriver": "^91.0.0",
@@ -53,8 +50,8 @@
     "commander": "^5.1.0",
     "concurrently": "^5.3.0",
     "docusaurus-plugin-sass": "^0.2.2",
-    "electron": "^17.0",
-    "electron-builder": "^23.0",
+    "electron": "^43.0.0",
+    "electron-builder": "^26.0.0",
     "fantasticon": "^1.0.27",
     "fuse.js": "^3.6.1",
     "js-search": "^1.4.3",
@@ -69,8 +66,7 @@
     "selenium-webdriver": "^4.0.0-beta.4"
   },
   "dependencies": {
-    "docusaurus": "^1.14.7",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.8",
     "node-static": "^0.7.11"
   },
   "build": {

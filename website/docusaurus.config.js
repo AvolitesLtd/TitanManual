@@ -7,7 +7,7 @@ module.exports={
   "projectName": "TitanManual",
   "scripts": [
     "https://buttons.github.io/buttons.js",
-    "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js",
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js",
     "/js/fuse.js",
     "/js/search.js"
   ],
@@ -40,6 +40,24 @@ module.exports={
     ]
   ],
   "plugins": [
+    function dedupeReact() {
+      const path = require('path');
+      return {
+        name: 'dedupe-react',
+        configureWebpack() {
+          return {
+            resolve: {
+              alias: {
+                react: path.resolve(__dirname, 'node_modules/react'),
+                'react-dom': path.resolve(__dirname, 'node_modules/react-dom'),
+                'react-router': path.resolve(__dirname, 'node_modules/react-router'),
+                'react-router-dom': path.resolve(__dirname, 'node_modules/react-router-dom'),
+              },
+            },
+          };
+        },
+      };
+    },
     'docusaurus-plugin-sass',
     [
       require.resolve("./docusaurus-search-local/docusaurus-search-local"),
