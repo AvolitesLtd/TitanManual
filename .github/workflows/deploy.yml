@@ -36,10 +36,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          cd website/docusaurus-search-local
-          yarn install --frozen-lockfile
-          yarn build
-          cd ../
+          cd website
           mkdir download
           yarn install --frozen-lockfile
 
@@ -149,10 +146,7 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
     - name: yarn install, build, and test
       run: |
-        cd website/docusaurus-search-local
-        yarn install --frozen-lockfile
-        yarn build
-        cd ../
+        cd website
         yarn install --frozen-lockfile
         yarn run download
         yarn run build
@@ -195,10 +189,7 @@ jobs:
 
       - name: npm install & build
         run: |
-          cd website/docusaurus-search-local
-          yarn install --frozen-lockfile
-          yarn build
-          cd ../
+          cd website
           yarn install --frozen-lockfile
           yarn run download
           yarn run build

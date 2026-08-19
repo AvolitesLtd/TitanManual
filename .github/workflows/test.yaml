@@ -27,10 +27,7 @@ jobs:
     
     - name: Install & Build
       run: |
-        cd website/docusaurus-search-local
-        yarn install  --frozen-lockfile
-        yarn build
-        cd ../
+        cd website
         yarn install --frozen-lockfile
         yarn run build
     

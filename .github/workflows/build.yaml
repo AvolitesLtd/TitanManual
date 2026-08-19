@@ -34,10 +34,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          cd website/docusaurus-search-local
-          yarn install --frozen-lockfile
-          yarn build
-          cd ../
+          cd website
           mkdir download
           yarn install --frozen-lockfile
 

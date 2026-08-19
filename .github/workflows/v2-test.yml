@@ -34,10 +34,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          cd website/docusaurus-search-local
-          yarn install
-          yarn build
-          cd ../
+          cd website
           yarn install
           mkdir downloads
 
@@ -97,10 +94,7 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
     - name: yarn install, build, and test
       run: |
-        cd website/docusaurus-search-local
-        yarn install
-        yarn build
-        cd ../
+        cd website
         yarn install
         yarn run download
         yarn run build

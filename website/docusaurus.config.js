@@ -21,7 +21,19 @@ module.exports={
     "repoUrl": "https://github.com/AvolitesLtd/TitanManual"
   },
   "onBrokenLinks": "log",
-  "onBrokenMarkdownLinks": "log",
+  "markdown": {
+    "hooks": {
+      "onBrokenMarkdownLinks": "log"
+    },
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    },
+    // MDX 3 treats `{Select}` as JS. Escape Titan handle labels, but leave
+    // JSX objects like style={{width: '100px'}} and import lines alone.
+    preprocessor: require('./mdxPreprocessor'),
+  },
   "presets": [
     [
       "@docusaurus/preset-classic",
@@ -32,7 +44,7 @@ module.exports={
           "path": "../docs",
           "sidebarPath": require.resolve('./sidebars.json'),
         },
-        "blog": {},
+        "blog": false,
         "theme": {
           "customCss": ["./static/avolites-icons/icons.css", "./src/css/customTheme.scss"]
         }
@@ -60,23 +72,6 @@ module.exports={
     },
     'docusaurus-plugin-sass',
     [
-      require.resolve("./docusaurus-search-local/docusaurus-search-local"),
-      {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
-        hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        // language: ["en", "zh"],
-        // ```
-        // When applying `zh` in language, please install `nodejieba` in your project.
-        docsDir: ["../docs", "../prismdocs"],
-        docsRouteBasePath: ["docs", "prism"],
-        
-        highlightSearchTermsOnTargetPage: true,        
-      },
-    ],
-    [
       "@docusaurus/plugin-content-docs",
       {
           id: 'prism',
@@ -97,6 +92,20 @@ module.exports={
         "trackingID": "GTM-TZMDJV5"
       }
     ]
+  ],
+  "themes": [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        docsDir: ["../docs", "../prismdocs"],
+        docsRouteBasePath: ["docs", "prism"],
+        highlightSearchTermsOnTargetPage: true,
+        indexBlog: false,
+        // AvolitesLtd/docusaurus-search-local: keep hyphenated tokens (Titan-Go).
+        fuzzyMatchingDistance: 1,
+      },
+    ],
   ],
   "i18n": {
     defaultLocale: 'en',
