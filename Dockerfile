@@ -1,4 +1,5 @@
-FROM pandoc/latex:2.9.1.1 as builder
+FROM pandoc/latex:3.8 as builder
+# FROM pandoc/latex:2.9.1.1 as builder
 
 ENTRYPOINT ["/bin/sh", "-c"]
 
@@ -13,15 +14,20 @@ RUN apk add --update \
     automake \
     nodejs \
     npm \
+	texmf-dist-latexrecommended \
   && rm -rf /var/cache/apk/*
 
 # get font files
 RUN fmtutil-sys --all
 
 # Fix the repository verison for the Latex packages
-RUN tlmgr option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2019/tlnet-final
+# RUN tlmgr option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2019/tlnet-final
+# RUN tlmgr option repository ctan
+# RUN tlmgr option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2024/tlnet-final
+RUN tlmgr option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2025/tlnet-final
 
 # Install the LaTeX packages based on fixed archive above
+RUN tlmgr update --self
 RUN tlmgr install \
     adjustbox \
     babel-german \
@@ -37,10 +43,13 @@ RUN tlmgr install \
     fvextra \
     letltxmacro \
     ly1 \
+	lineno \
+    koma-script \
     mdframed \
     mweights \
     needspace \
     pagecolor \
+	polyglossia \
     sourcecodepro \
     sourcesanspro \
     titling \
@@ -52,10 +61,16 @@ RUN tlmgr install \
     xurl \
     zref \
     newunicodechar
+	
+RUN tlmgr update --all
+
+RUN texhash
 
 COPY ./website /app/website
 WORKDIR /app/website
 RUN npm install --unsafe-perm=true
+
+RUN node -v
 
 COPY ./docs /app/docs
 COPY ./parse /app/parse
