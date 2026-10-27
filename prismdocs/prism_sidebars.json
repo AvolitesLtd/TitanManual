@@ -33,6 +33,10 @@
             "id": "player/quick-start/quick-start"
           },
           "items": [
+              {
+              "type": "doc",
+              "id": "player/quick-start/navigation"
+            },
             {
               "type": "doc",
               "id": "player/quick-start/navigation"
@@ -144,6 +148,10 @@
             "id": "prism/quick-start/quick-start"
           },
           "items": [
+            {
+              "type": "doc",
+              "id": "prism/quick-start/best-practices"
+            },
             {
               "type": "doc",
               "id": "prism/quick-start/navigation"
