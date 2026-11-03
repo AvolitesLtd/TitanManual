@@ -20,10 +20,11 @@ module.exports={
     ],
     "repoUrl": "https://github.com/AvolitesLtd/TitanManual"
   },
-  "onBrokenLinks": "log",
+  "onBrokenLinks": "ignore",
+  "onBrokenAnchors": "ignore",
   "markdown": {
     "hooks": {
-      "onBrokenMarkdownLinks": "log"
+      "onBrokenMarkdownLinks": "ignore"
     },
     "mdx1Compat": {
       "comments": true,
