@@ -30,10 +30,6 @@ There are four sections:
 |  Item  |  Description  |
 |----------------------|------------|
 | **Graphics Card** | List of available GPUs on the system. The selected device will be used by the application to output video frames.|
-| **UI Rendering Quality** | Controls the rendering quality of the user interface. Higher quality can improve the appearance of previews and UI elements, at the cost of more GPU use. |
-{{PRISM-START-COMMENT}}
-| **Preview Settings** | Controls how previews are rendered in the UI, including the [Preview](../quick-start/preview.md) window and layer previews. |
-{{PRISM-END-COMMENT}}
 
 ### Audio
 

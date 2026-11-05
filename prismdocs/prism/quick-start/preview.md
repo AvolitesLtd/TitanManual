@@ -87,8 +87,6 @@ This area controls the **Crop** of the Bank Element.
 
 ## NDI® Input
 
-![Preview NDI® Input](/prism-images/preview/preview-ndi-settings.png)
-
 |   Item      |  Description   |
 |----------------|---------|
 | **NDI® Source \*** | List of all active NDI® sources on your network. |
@@ -99,8 +97,6 @@ This area controls the **Crop** of the Bank Element.
 
 ## Live Input
 
-![Preview Live Input](/prism-images/preview/preview-live-settings.png)
-
 |   Item  |  Description   |
 |------------|---------|
 | **Source** | List of valid capture devices for video streaming, if they are compatible with DirectShow. |
@@ -110,8 +106,6 @@ This area controls the **Crop** of the Bank Element.
 | **Enable Audio** | Shows the enabled status of the audio source on the capture device. |
 
 ## Virtual Return
-
-![Preview Virtual Return](/prism-images/preview/preview-virtual-return-settings.png)
 
 |   Item      |  Description   |
 |----------------|---------|

@@ -150,6 +150,7 @@
           "items": [
             {
               "type": "doc",
+              "label": "Best Practices",
               "id": "prism/quick-start/best-practices"
             },
             {

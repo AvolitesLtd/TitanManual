@@ -32,7 +32,7 @@ The full list of changes, including bug fixes, is in the [Prism Suite v2.2 Relea
 - **[Navigation highlighting](./quick-start/navigation.md#view-tabs)** - Clearer highlighting of the current view.
 - **[Media Manager bank filter](./play/media-manager.md#filter-by)** - Filter media by bank.
 - **[Copy and paste](./stage/outputs.md#edge-blend)** - Copy and paste edge blend, keystone, and DMX regions.
-- **[UI rendering quality and preview](./settings/settings-general.md#graphics)** - Settings for UI rendering quality and previews.
+- **[UI rendering quality and preview](./settings/settings-playback.md#renderer)** - Settings for UI rendering quality and previews.
 - **[Delete confirmation](./settings/settings-general.md#application)** - Option to disable delete confirmation pop-ups.
 - **[Automatic selection](./quick-start/navigation.md#multi-selection)** - Newly added or duplicated elements are selected automatically.
 - **[Default lock status](./settings/settings-general.md#application)** - Default lock status for linked numeric fields.
