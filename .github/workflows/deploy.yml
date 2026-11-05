@@ -7,9 +7,6 @@ on:
 
 env:
   NODE_VERSION: '24.x'
-  
-permissions:
-  contents: write
 
 jobs:
   app:
