@@ -24,7 +24,7 @@ The **AiM** codec provides high quality colour reproduction which can include an
 
 PNG files can be a good option when using still images and can be exported from image software such as Photoshop with support for Alpha transparency.
 
-Commonly these export with a "Premultiplied" Alpha channel. Improved image quality and performance can be given to these files by setting the Alpha to "Straight" via the Media section in Prism's [Preview](./preview.md) window.
+Commonly these export with a "Premultiplied" Alpha channel. Improved image quality and performance can be given to these files by setting the Alpha to "Straight" via the Media section in Prism's [Preview](./preview.md#media) window.
 
 ### Store Media Locally
 

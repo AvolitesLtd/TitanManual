@@ -25,8 +25,6 @@ Use the [Regions](./regions) page to map a **Surface** or **Layer** to an **Outp
 
 A Physical Output is used to send video to a physical display device, including projectors, monitors, and LED walls. It defines the connection between the software and an external output device.
 
-![Prism](/prism-images/stage/outputs/physical.png)
-
 ### Physical Output Controls
 
 A list of all connected video output devices, will appear in the *Output Device* drop-down.  

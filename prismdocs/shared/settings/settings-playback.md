@@ -6,8 +6,6 @@ sidebar_label: Playback
 
 This page shows the settings for the playback of media files.
 
-![Settings Playback](/prism-images/settings/{{PRISM-APP-LOWER}}-settings-playback.png)
-
 {{PRISM-START-COMMENT}}
 There are three sections:
 - **[Playback](#playback)** - These options will give control over the media player.

@@ -33,10 +33,6 @@
             "id": "player/quick-start/quick-start"
           },
           "items": [
-              {
-              "type": "doc",
-              "id": "player/quick-start/navigation"
-            },
             {
               "type": "doc",
               "id": "player/quick-start/navigation"

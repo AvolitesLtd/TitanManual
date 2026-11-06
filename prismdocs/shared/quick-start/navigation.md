@@ -32,8 +32,6 @@ Clicking on {{PRISM-APP}} logo will hide all [View Tabs](#view-tabs), showing th
 
 ### File
 {{PRISM-START-COMMENT}}
-![{{PRISM-APP}} File Menu](/prism-images/navigation/{{PRISM-APP-LOWER}}-file-menu.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | New Project |  Resets application state and starts a new project. |
@@ -46,8 +44,6 @@ Clicking on {{PRISM-APP}} logo will hide all [View Tabs](#view-tabs), showing th
 {{PRISM-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
-![{{PRISM-APP}} File Menu](/prism-images/navigation/{{PRISM-APP-LOWER}}-file-menu.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | New Project |  Resets application state and starts a new project. |
@@ -78,10 +74,9 @@ More information found at [Import/Export](./import-export.md)
 |  Item  |   Description   |
 |-------------|-----------------|
 | Settings |  Navigates to the [Settings](../settings/settings.md) View.|
+| Exit | Closes the application. |
 
 ### Edit
-
-![{{PRISM-APP}} Edit Menu](/prism-images/navigation/header-edit.png)
 
 |  Item  |   Description   |
 |-------------|-----------------|
@@ -91,24 +86,18 @@ More information found at [Import/Export](./import-export.md)
 ### View
 
 {{PRISM-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prism-images/navigation/{{PRISM-APP-LOWER}}-header-view.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | Preview | Open the [Preview](./preview.md) window for editing bank elements.|
 {{PRISM-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prism-images/navigation/{{PRISM-APP-LOWER}}-header-view.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | Enter Fullscreen  | Toggle fullscreen mode on to fill the video display also toggle by pressing <Keys.PrismKey>Fullscreen</Keys.PrismKey>. Fullscreen mode can be exited either by pressing <Keys.PrismKey>Minimise</Keys.PrismKey> at the top right of the screen or by using the <Keys.PrismKey>Esc</Keys.PrismKey> button on your keyboard.|
 {{PLAYER-END-COMMENT}}
 
 ### Audio
-
-![{{PRISM-APP}} Audio Menu](/prism-images/navigation/header-audio.png)
 
 |  Item   |   Description   |
 |--------------|-----------------|
@@ -117,8 +106,6 @@ More information found at [Import/Export](./import-export.md)
 ### Video
 
 {{PRISM-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prism-images/navigation/{{PRISM-APP-LOWER}}-header-video.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | Show Grid   |   Displays a reference grid over the media player / layer preview. |
@@ -126,8 +113,6 @@ More information found at [Import/Export](./import-export.md)
 {{PRISM-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prism-images/navigation/{{PRISM-APP-LOWER}}-header-video.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | Aspect Mode |  Changes the way the media fills the media player canvas. |
@@ -136,8 +121,6 @@ More information found at [Import/Export](./import-export.md)
 {{PLAYER-END-COMMENT}}
 
 ### Help
-
-![{{PRISM-APP}} Header Help Menu](/prism-images/navigation/header-help.png)
 
 |  Item  |  Description  |
 |-----------|-------------|

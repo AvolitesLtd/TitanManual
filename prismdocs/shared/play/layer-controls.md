@@ -51,9 +51,6 @@ The **Sync to DMX** is used to allow the Prism UI controls to immediately adjust
 
 The **Playback** controls the intensity / volume of a bank element playing on a layer.
 
-![Layer Controls Playback Area](/prism-images/play/layer-controls/playback.png)
-
-
 |   Item    |  Description  |
 |---------------|------------|
 | **Intensity (%)** | Opacity of the layer. |
@@ -64,8 +61,6 @@ The **Playback** controls the intensity / volume of a bank element playing on a 
 This area controls the **Player Controls** of the selected layer.
 
 The **Player Controls** has check boxes against its properties so that users can define whether to use the bank element value or the one that is currently on the layer that it will play on.
-
-![Layer Controls Player Controls Area](/prism-images/play/layer-controls/player-controls.png)
 
 |   Item                   |  Description  |
 |------------------------------|---------- |
@@ -80,9 +75,6 @@ The **Player Controls** has check boxes against its properties so that users can
 
 This area controls the **Crop** of the selected layer
 
-![Layer Controls Crop Area](/prism-images/play/layer-controls/crop-controls.png)
-
-
 |  Item  |  Description |
 |------------|--------------|
 | **Left (%)**   | Crop on the left side of the layer. |
@@ -93,8 +85,6 @@ This area controls the **Crop** of the selected layer
 ## Colour Correction
 
 This area controls the **Colour Correction** of the selected layer.
-
-![Layer Controls Playback Area](/prism-images/play/layer-controls/colour-correction.png)
 
 |   Item      |  Description        |
 |----------------|------------|
@@ -109,8 +99,6 @@ This area controls the **Colour Correction** of the selected layer.
 ## Transformation
 
 This area controls the **Transformation** of the selected layer.
-
-![Layer Controls Playback Area](/prism-images/play/layer-controls/transformation.png)
 
 | <p style={{width: '100px', margin: '0'}}>Item</p> |  Description |
 |-----------------|------------|
@@ -136,8 +124,6 @@ Each generator has its own parameters. Use **Reset to Default** to restore the s
 ## Rendering
 
 This area controls the **Rendering** of Synergy Pixel Map texture.
-
-![Layer Controls Crop Area](/prism-images/play/layer-controls/rendering-controls.png)
 
 | <p style={{width: '150px', margin: '0'}}>Item</p> |  Description |
 |-----------------|------------|

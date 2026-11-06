@@ -6,8 +6,6 @@ sidebar_label: General
 
 The **General Settings** page provides global configuration options for **Prism**,
 
-![Settings General](/prism-images/settings/prism-settings-general.png)
-
 There are four sections:
 - **Application** - Controls settings related to the application’s user interface (UI).
 - **Graphics** - Controls settings for the application’s graphics performance and quality.

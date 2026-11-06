@@ -32,8 +32,6 @@ Clicking on Prism Player logo will hide all [View Tabs](#view-tabs), showing the
 
 ### File
 
-![Prism Player File Menu](/prism-images/navigation/player-file-menu.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | New Project |  Resets application state and starts a new project. |
@@ -54,10 +52,9 @@ More information found at [Import/Export](./import-export.md)
 |  Item  |   Description   |
 |-------------|-----------------|
 | Settings |  Navigates to the [Settings](../settings/settings.md) View.|
+| Exit | Closes the application. |
 
 ### Edit
-
-![Prism Player Edit Menu](/prism-images/navigation/header-edit.png)
 
 |  Item  |   Description   |
 |-------------|-----------------|
@@ -66,23 +63,17 @@ More information found at [Import/Export](./import-export.md)
 
 ### View
 
-![Prism Player Header Video Menu](/prism-images/navigation/player-header-view.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | Enter Fullscreen  | Toggle fullscreen mode on to fill the video display also toggle by pressing <Keys.PrismKey>Fullscreen</Keys.PrismKey>. Fullscreen mode can be exited either by pressing <Keys.PrismKey>Minimise</Keys.PrismKey> at the top right of the screen or by using the <Keys.PrismKey>Esc</Keys.PrismKey> button on your keyboard.|
 
 ### Audio
 
-![Prism Player Audio Menu](/prism-images/navigation/header-audio.png)
-
 |  Item   |   Description   |
 |--------------|-----------------|
 | Audio Device | Sets the audio device output for **Prism Player**. This can also be configured via [Settings](../settings/settings-general.md#audio). |
 
 ### Video
-
-![Prism Player Header Video Menu](/prism-images/navigation/player-header-video.png)
 
 |  Item  |   Description   |
 |-------------|-----------------|
@@ -91,8 +82,6 @@ More information found at [Import/Export](./import-export.md)
 | Transparency Preview | Toggles on the alpha channel showing a checkerboard in the transparent areas. |
 
 ### Help
-
-![Prism Player Header Help Menu](/prism-images/navigation/header-help.png)
 
 |  Item  |  Description  |
 |-----------|-------------|

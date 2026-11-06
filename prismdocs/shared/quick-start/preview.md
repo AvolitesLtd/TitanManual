@@ -11,6 +11,7 @@ The **Preview** window allows for adjustments to be made to the properties of in
 - [Playback](#playback)
 - [Player Controls](#player-controls)
 - [Crop](#crop)
+- [Media](#media)
 - [NDI® Input](#ndi-input)
 - [Live Input](#live-input)
 - [Virtual Return](#virtual-return)
@@ -48,8 +49,6 @@ Adjustments made here will be applied to all **Layers**, which play this **Bank 
 
 The **Playback** controls the intensity / volume of a Bank Element playing on a layer.
 
-![Preview Playback Area](/prism-images/preview/preview-playback.png)
-
 |   Item     |  Description      |
 |---------------|------------|
 | **Intensity (%)** | Intensity sets the opacity of the Bank Element. |
@@ -58,8 +57,6 @@ The **Playback** controls the intensity / volume of a Bank Element playing on a 
 ## Player Controls
 
 This area controls the **Player Controls** options, which are set on the Bank Element.
-
-![Preview Player Controls Area](/prism-images/preview/preview-player-controls.png)
 
 The **Player Controls** have check boxes against their properties, so that users can define whether to use the Bank Element value or the one that is currently on the layer that it will play on.
 
@@ -76,8 +73,6 @@ The **Player Controls** have check boxes against their properties, so that users
 
 This area controls the **Crop** of the Bank Element.
 
-![Layer Controls Crop Area](/prism-images/play/layer-controls/crop-controls.png)
-
 |  Item  |  Description |
 |------------|--------------|
 | **Left (%)**   | Crop on the left side of the Bank Element. |
@@ -85,23 +80,28 @@ This area controls the **Crop** of the Bank Element.
 | **Top (%)**    | Crop on the top side of the Bank Element.  |
 | **Bottom (%)** | Crop on the bottom side of the Bank Element. |
 
+## Media
+
+This area shows properties of a media file Bank Element, such as an image or video.
+
+|   Item      |  Description   |
+|----------------|---------|
+| **Alpha Type** | Selects how the alpha channel is interpreted. <br/> - **Premultiplied**: Colour values are already multiplied by the alpha channel. Common for PNG files exported from applications such as Photoshop. <br/> - **Straight**: Colour and alpha are stored independently. Setting PNG files to Straight can improve image quality and performance. |
+
 {{NDI-START-COMMENT}}
 ## NDI® Input
-
-![Preview NDI® Input](/prism-images/preview/preview-ndi-settings.png)
 
 |   Item      |  Description   |
 |----------------|---------|
 | **NDI® Source \*** | List of all active NDI® sources on your network. |
 | **Status**     | Shows the connection status to the NDI® source, stream will only display frames when active. |
 | **Enable Audio** | Shows if an audio source is also playing from the stream, controllable via the [Settings](../settings/settings-inputs.md) page. |
+| **Alpha Type** | Selects how the alpha channel is interpreted. <br/> - **Premultiplied**: Colour values are already multiplied by the alpha channel. <br/> - **Straight**: Colour and alpha are stored independently. |
 
 **\*** [NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.
 {{NDI-END-COMMENT}}
 
 ## Live Input
-
-![Preview Live Input](/prism-images/preview/preview-live-settings.png)
 
 |   Item  |  Description   |
 |------------|---------|
@@ -112,8 +112,6 @@ This area controls the **Crop** of the Bank Element.
 | **Enable Audio** | Shows the enabled status of the audio source on the capture device. |
 
 ## Virtual Return
-
-![Preview Virtual Return](/prism-images/preview/preview-virtual-return-settings.png)
 
 |   Item      |  Description   |
 |----------------|---------|
@@ -133,6 +131,7 @@ Load an image sequence by entering the path to any image in the sequence, or by 
 |----------------|---------|
 | **Source** | Path to an image in the sequence, or the folder and filename pattern detected from that file. |
 | **Frame Rate** | Playback rate of the sequence, in frames per second. Changing the frame rate also updates the duration of the sequence. |
+| **Alpha Type** | Selects how the alpha channel is interpreted. <br/> - **Premultiplied**: Colour values are already multiplied by the alpha channel. Common for PNG sequences exported from applications such as Photoshop. <br/> - **Straight**: Colour and alpha are stored independently. Setting PNG sequences to Straight can improve image quality and performance. |
 
 ## Test Pattern
 
@@ -151,8 +150,6 @@ Load an image sequence by entering the path to any image in the sequence, or by 
 
 This area controls the **Colour Correction** options, which are set on the Bank Element
 
-![Preview Playback Area](/prism-images/preview/preview-colour-correction.png)
-
 The below table describes what each of the options do:
 
 |   Item      |  Description      |
@@ -168,8 +165,6 @@ The below table describes what each of the options do:
 ## Transformation
 
 This area controls the **Transformation** options, which are set on the Bank Element
-
-![Preview Playback Area](/prism-images/preview/preview-transformation.png)
 
 | <p style={{width: '100px', margin: '0'}}>Item</p> |  Description |
 |-----------------|------------|

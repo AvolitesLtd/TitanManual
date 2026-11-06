@@ -32,8 +32,6 @@ Clicking on Prism logo will hide all [View Tabs](#view-tabs), showing the select
 
 ### File
 
-![Prism File Menu](/prism-images/navigation/prism-file-menu.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | New Project |  Resets application state and starts a new project. |
@@ -56,10 +54,9 @@ More information found at [Import/Export](./import-export.md)
 |  Item  |   Description   |
 |-------------|-----------------|
 | Settings |  Navigates to the [Settings](../settings/settings.md) View.|
+| Exit | Closes the application. |
 
 ### Edit
-
-![Prism Edit Menu](/prism-images/navigation/header-edit.png)
 
 |  Item  |   Description   |
 |-------------|-----------------|
@@ -68,15 +65,11 @@ More information found at [Import/Export](./import-export.md)
 
 ### View
 
-![Prism Header Video Menu](/prism-images/navigation/prism-header-view.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | Preview | Open the [Preview](./preview.md) window for editing bank elements.|
 
 ### Audio
-
-![Prism Audio Menu](/prism-images/navigation/header-audio.png)
 
 |  Item   |   Description   |
 |--------------|-----------------|
@@ -84,16 +77,12 @@ More information found at [Import/Export](./import-export.md)
 
 ### Video
 
-![Prism Header Video Menu](/prism-images/navigation/prism-header-video.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | Show Grid   |   Displays a reference grid over the media player / layer preview. |
 | Transparency Preview |  Toggles on the alpha channel, showing a checkerboard in transparent areas. |
 
 ### Help
-
-![Prism Header Help Menu](/prism-images/navigation/header-help.png)
 
 |  Item  |  Description  |
 |-----------|-------------|

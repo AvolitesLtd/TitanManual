@@ -16,8 +16,6 @@ Use the [Regions](./regions) page to map a **Surface** or **Layer** to an **Outp
 
 *Note: any changes on this page may cause the output to pause whilst changes are being applied.*
 
-![Prism Stage Page](/prism-images/stage/prism-stage-view.png)
-
 *Note: clicking on the header tick box or using the `CTRL+A` shortcut will select all layers.*
 
 ### Surface Sub Menu

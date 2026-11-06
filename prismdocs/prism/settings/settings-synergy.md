@@ -11,8 +11,6 @@ import Keys from '@site/src/components/key.ts';
 
 More information on how to setup a **Synergy** connection can be found on this [guide](/docs/synergy).
 
-![Settings Synergy](/prism-images/settings/settings-synergy.png)
-
 |  Item  |  Description  |
 |------------------------------------------------------|------------|
 | **Titan Media Node Version** | List of available **Titan Media Node**. The version in use must match the **Titan** version. <br/><br/> If a mismatch is identified within Titan's **Synergy** Settings, a different version can be selected via this dropdown.|
