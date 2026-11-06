@@ -12,6 +12,8 @@ The **Regions**  page is used to map a surface or layer to an output. It defines
 
 The Regions page can be resized to give more space to the canvas or the region list.
 
+![Prism](/prism-images/stage/regions/regions-page.png)
+
 ### Region Types
 
 **Regions** can be created in different types, depending on the mapping requirements:

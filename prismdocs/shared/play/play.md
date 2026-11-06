@@ -17,7 +17,13 @@ The Play page panels can be resized to give more space to the canvas, layer list
 This view shows media content organised in a **Bank** and gives control over media playback.
 {{PLAYER-END-COMMENT}}
 
+{{PRISM-START-COMMENT}}
+![Prism](/prism-images/prism-ui.png)
+{{PRISM-END-COMMENT}}
+
+{{PLAYER-START-COMMENT}}
 ![{{PRISM-APP}}](/prism-images/play/{{PRISM-APP-LOWER}}-play-view.png)
+{{PLAYER-END-COMMENT}}
 
 {{PRISM-START-COMMENT}}
 ### Layout Overview
