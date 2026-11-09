@@ -20,6 +20,8 @@ import Keys from '@site/src/components/key.ts';
 - [Status Bar](#status-bar)
 - [Multi Selection](#multi-selection)
 
+A full list of keyboard shortcuts is on the [Shortcuts](./shortcuts.md) page.
+
 ## Main Menu
 ![{{PRISM-APP}} File Menu Open Recent](/prism-images/navigation/{{PRISM-APP-LOWER}}-header-menu.png)
 
@@ -30,8 +32,6 @@ Clicking on {{PRISM-APP}} logo will hide all [View Tabs](#view-tabs), showing th
 
 ### File
 {{PRISM-START-COMMENT}}
-![{{PRISM-APP}} File Menu](/prism-images/navigation/{{PRISM-APP-LOWER}}-file-menu.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | New Project |  Resets application state and starts a new project. |
@@ -44,8 +44,6 @@ Clicking on {{PRISM-APP}} logo will hide all [View Tabs](#view-tabs), showing th
 {{PRISM-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
-![{{PRISM-APP}} File Menu](/prism-images/navigation/{{PRISM-APP-LOWER}}-file-menu.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | New Project |  Resets application state and starts a new project. |
@@ -76,10 +74,9 @@ More information found at [Import/Export](./import-export.md)
 |  Item  |   Description   |
 |-------------|-----------------|
 | Settings |  Navigates to the [Settings](../settings/settings.md) View.|
+| Exit | Closes the application. |
 
 ### Edit
-
-![{{PRISM-APP}} Edit Menu](/prism-images/navigation/header-edit.png)
 
 |  Item  |   Description   |
 |-------------|-----------------|
@@ -89,24 +86,18 @@ More information found at [Import/Export](./import-export.md)
 ### View
 
 {{PRISM-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prism-images/navigation/{{PRISM-APP-LOWER}}-header-view.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | Preview | Open the [Preview](./preview.md) window for editing bank elements.|
 {{PRISM-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prism-images/navigation/{{PRISM-APP-LOWER}}-header-view.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | Enter Fullscreen  | Toggle fullscreen mode on to fill the video display also toggle by pressing <Keys.PrismKey>Fullscreen</Keys.PrismKey>. Fullscreen mode can be exited either by pressing <Keys.PrismKey>Minimise</Keys.PrismKey> at the top right of the screen or by using the <Keys.PrismKey>Esc</Keys.PrismKey> button on your keyboard.|
 {{PLAYER-END-COMMENT}}
 
 ### Audio
-
-![{{PRISM-APP}} Audio Menu](/prism-images/navigation/header-audio.png)
 
 |  Item   |   Description   |
 |--------------|-----------------|
@@ -115,8 +106,6 @@ More information found at [Import/Export](./import-export.md)
 ### Video
 
 {{PRISM-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prism-images/navigation/{{PRISM-APP-LOWER}}-header-video.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | Show Grid   |   Displays a reference grid over the media player / layer preview. |
@@ -124,8 +113,6 @@ More information found at [Import/Export](./import-export.md)
 {{PRISM-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
-![{{PRISM-APP}} Header Video Menu](/prism-images/navigation/{{PRISM-APP-LOWER}}-header-video.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | Aspect Mode |  Changes the way the media fills the media player canvas. |
@@ -135,13 +122,23 @@ More information found at [Import/Export](./import-export.md)
 
 ### Help
 
-![{{PRISM-APP}} Header Help Menu](/prism-images/navigation/header-help.png)
-
+{{PRISM-START-COMMENT}}
 |  Item  |  Description  |
 |-----------|-------------|
-| Manual  | Opens the Desktop Manual app. |
+| Manual  | Opens the Desktop Manual app (`F1`). |
+| Support | Opens a submenu with contact details and log collection. |
+| Contact Support | Shows a pop-up with company details. |
+| Collect Logs | Shows a pop-up. Confirming closes **Prism** so **Log Collector** can gather log files. If the project has unsaved changes, you will be asked to save first. |
+| About   | Shows a pop-up with information about **Prism**. |
+{{PRISM-END-COMMENT}}
+
+{{PLAYER-START-COMMENT}}
+|  Item  |  Description  |
+|-----------|-------------|
+| Manual  | Opens the Desktop Manual app (`F1`). |
 | Support | Shows a pop-up with company details. |
-| About   | Shows a pop-up with information about **{{PRISM-APP}}**. |
+| About   | Shows a pop-up with information about **Prism Player**. |
+{{PLAYER-END-COMMENT}}
 
 ## View Tabs
 ![{{PRISM-APP}} File Menu Open Recent](/prism-images/navigation/{{PRISM-APP-LOWER}}-view-tabs.png)
@@ -161,7 +158,7 @@ In this section it is possible to navigate the following app **Views**:
 - [Settings](../settings/settings.md)
 {{PLAYER-END-COMMENT}}
 
-An underline will give visual feedback of the selected **View**.
+An underline will give visual feedback of the selected **View**. The current view is also highlighted in the navigation so it is clear which page is active.
 
 ## Status Bar
 
@@ -186,3 +183,5 @@ When multiple {{PRISM-START-COMMENT}} **Bank Elements**, **Layers** (in Play Vie
 Any unchanged values in the *Controls* panel will initially display those of the first selected element.<br/>
 
 If [Undo and Redo](#edit) are permitted, all selected elements will be affected.
+
+Newly added or duplicated elements are selected automatically, so their controls are ready to edit.

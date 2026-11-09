@@ -6,8 +6,6 @@ sidebar_label: General
 
 The **General Settings** page provides global configuration options for **Prism**,
 
-![Settings General](/prism-images/settings/prism-settings-general.png)
-
 There are four sections:
 - **Application** - Controls settings related to the application’s user interface (UI).
 - **Graphics** - Controls settings for the application’s graphics performance and quality.
@@ -19,8 +17,10 @@ There are four sections:
 | Item                         | Description                                                                                                                                |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | **Keep Server Running On Close** | Choose whether the application continues running after closing the UI. <br/><br/>When enabled, the application stays active in the system tray and continues assigned tasks even after the UI is closed. <br/><br/>When disabled, closing the UI will fully exit the application regardless of its current state. |
-| **Disable UI Notifications** | Toggle UI notifications on or off. When enabled, messages from the application appear at the top of the UI.                                |
+| **Show UI Notifications** | Toggle UI notifications on or off. When enabled, messages from the application appear at the top of the UI.                                |
 | **UI Warnings**               | Resets the status of UI warnings. For example, if a "Render Warning" popup is disabled by selecting "Don't show this message again," pressing this button will re-enable that warning so it appears again when relevant. |
+| **Ask Before Deleting** | When enabled, delete actions show a confirmation pop-up. When disabled, items are deleted without confirmation. |
+| **Default Lock Status** | Sets the default lock state for linked numeric fields, such as width and height. When locked, linked values keep their aspect ratio. |
 
 ### Graphics
 

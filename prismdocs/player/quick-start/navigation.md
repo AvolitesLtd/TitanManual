@@ -20,6 +20,8 @@ import Keys from '@site/src/components/key.ts';
 - [Status Bar](#status-bar)
 - [Multi Selection](#multi-selection)
 
+A full list of keyboard shortcuts is on the [Shortcuts](./shortcuts.md) page.
+
 ## Main Menu
 ![Prism Player File Menu Open Recent](/prism-images/navigation/player-header-menu.png)
 
@@ -29,8 +31,6 @@ In this section it is possible to navigate the application menu, see the Project
 Clicking on Prism Player logo will hide all [View Tabs](#view-tabs), showing the selected **Surface** in fullscreen.
 
 ### File
-
-![Prism Player File Menu](/prism-images/navigation/player-file-menu.png)
 
 |  Item  |   Description   |
 |-------------|-----------------|
@@ -52,10 +52,9 @@ More information found at [Import/Export](./import-export.md)
 |  Item  |   Description   |
 |-------------|-----------------|
 | Settings |  Navigates to the [Settings](../settings/settings.md) View.|
+| Exit | Closes the application. |
 
 ### Edit
-
-![Prism Player Edit Menu](/prism-images/navigation/header-edit.png)
 
 |  Item  |   Description   |
 |-------------|-----------------|
@@ -64,23 +63,17 @@ More information found at [Import/Export](./import-export.md)
 
 ### View
 
-![Prism Player Header Video Menu](/prism-images/navigation/player-header-view.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | Enter Fullscreen  | Toggle fullscreen mode on to fill the video display also toggle by pressing <Keys.PrismKey>Fullscreen</Keys.PrismKey>. Fullscreen mode can be exited either by pressing <Keys.PrismKey>Minimise</Keys.PrismKey> at the top right of the screen or by using the <Keys.PrismKey>Esc</Keys.PrismKey> button on your keyboard.|
 
 ### Audio
 
-![Prism Player Audio Menu](/prism-images/navigation/header-audio.png)
-
 |  Item   |   Description   |
 |--------------|-----------------|
 | Audio Device | Sets the audio device output for **Prism Player**. This can also be configured via [Settings](../settings/settings-general.md#audio). |
 
 ### Video
-
-![Prism Player Header Video Menu](/prism-images/navigation/player-header-video.png)
 
 |  Item  |   Description   |
 |-------------|-----------------|
@@ -90,11 +83,9 @@ More information found at [Import/Export](./import-export.md)
 
 ### Help
 
-![Prism Player Header Help Menu](/prism-images/navigation/header-help.png)
-
 |  Item  |  Description  |
 |-----------|-------------|
-| Manual  | Opens the Desktop Manual app. |
+| Manual  | Opens the Desktop Manual app (`F1`). |
 | Support | Shows a pop-up with company details. |
 | About   | Shows a pop-up with information about **Prism Player**. |
 
@@ -107,7 +98,7 @@ In this section it is possible to navigate the following app **Views**:
 - [Encoder](../encoder/encoder.md)
 - [Settings](../settings/settings.md)
 
-An underline will give visual feedback of the selected **View**.
+An underline will give visual feedback of the selected **View**. The current view is also highlighted in the navigation so it is clear which page is active.
 
 ## Status Bar
 
@@ -132,3 +123,5 @@ When multiple   **Bank Elements** or **Encode List** entries  have been selected
 Any unchanged values in the *Controls* panel will initially display those of the first selected element.<br/>
 
 If [Undo and Redo](#edit) are permitted, all selected elements will be affected.
+
+Newly added or duplicated elements are selected automatically, so their controls are ready to edit.

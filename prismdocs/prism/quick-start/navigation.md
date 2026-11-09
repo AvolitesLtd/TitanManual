@@ -20,6 +20,8 @@ import Keys from '@site/src/components/key.ts';
 - [Status Bar](#status-bar)
 - [Multi Selection](#multi-selection)
 
+A full list of keyboard shortcuts is on the [Shortcuts](./shortcuts.md) page.
+
 ## Main Menu
 ![Prism File Menu Open Recent](/prism-images/navigation/prism-header-menu.png)
 
@@ -29,8 +31,6 @@ In this section it is possible to navigate the application menu, see the Project
 Clicking on Prism logo will hide all [View Tabs](#view-tabs), showing the selected **Surface** in fullscreen.
 
 ### File
-
-![Prism File Menu](/prism-images/navigation/prism-file-menu.png)
 
 |  Item  |   Description   |
 |-------------|-----------------|
@@ -54,10 +54,9 @@ More information found at [Import/Export](./import-export.md)
 |  Item  |   Description   |
 |-------------|-----------------|
 | Settings |  Navigates to the [Settings](../settings/settings.md) View.|
+| Exit | Closes the application. |
 
 ### Edit
-
-![Prism Edit Menu](/prism-images/navigation/header-edit.png)
 
 |  Item  |   Description   |
 |-------------|-----------------|
@@ -66,23 +65,17 @@ More information found at [Import/Export](./import-export.md)
 
 ### View
 
-![Prism Header Video Menu](/prism-images/navigation/prism-header-view.png)
-
 |  Item  |   Description   |
 |-------------|-----------------|
 | Preview | Open the [Preview](./preview.md) window for editing bank elements.|
 
 ### Audio
 
-![Prism Audio Menu](/prism-images/navigation/header-audio.png)
-
 |  Item   |   Description   |
 |--------------|-----------------|
 | Audio Device | Sets the audio device output for **Prism**. This can also be configured via [Settings](../settings/settings-general.md#audio). |
 
 ### Video
-
-![Prism Header Video Menu](/prism-images/navigation/prism-header-video.png)
 
 |  Item  |   Description   |
 |-------------|-----------------|
@@ -91,12 +84,12 @@ More information found at [Import/Export](./import-export.md)
 
 ### Help
 
-![Prism Header Help Menu](/prism-images/navigation/header-help.png)
-
 |  Item  |  Description  |
 |-----------|-------------|
-| Manual  | Opens the Desktop Manual app. |
-| Support | Shows a pop-up with company details. |
+| Manual  | Opens the Desktop Manual app (`F1`). |
+| Support | Opens a submenu with contact details and log collection. |
+| Contact Support | Shows a pop-up with company details. |
+| Collect Logs | Shows a pop-up. Confirming closes **Prism** so **Log Collector** can gather log files. If the project has unsaved changes, you will be asked to save first. |
 | About   | Shows a pop-up with information about **Prism**. |
 
 ## View Tabs
@@ -109,7 +102,7 @@ In this section it is possible to navigate the following app **Views**:
 - [Encoder](../encoder/encoder.md)
 - [Settings](../settings/settings.md)
 
-An underline will give visual feedback of the selected **View**.
+An underline will give visual feedback of the selected **View**. The current view is also highlighted in the navigation so it is clear which page is active.
 
 ## Status Bar
 
@@ -134,3 +127,5 @@ When multiple  **Bank Elements**, **Layers** (in Play View), **Regions** or **En
 Any unchanged values in the *Controls* panel will initially display those of the first selected element.<br/>
 
 If [Undo and Redo](#edit) are permitted, all selected elements will be affected.
+
+Newly added or duplicated elements are selected automatically, so their controls are ready to edit.

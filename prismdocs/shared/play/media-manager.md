@@ -31,6 +31,7 @@ It is possible to filter the table rows by:
 
 - **All media** - Shows all media files in use in *Banks*. 
 - **Missing media** - Shows only the media files which are missing, i.e. are not present anymore in the original location on the file system.  
+- **Banks** - Shows only the media files used in the selected bank or banks.
 
 **Source** location of **Missing media** are highlighted in orange and the navigation to the source location is disabled. 
 
