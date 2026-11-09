@@ -13,7 +13,7 @@ The full list of changes, including bug fixes, is in the [Prism Suite v2.2 Relea
 ## Features
 
 - **[Layer effects](./play/layer-controls.md#effects)** - Apply layer effects, including 2D particle and shape generators.
-- **[DMX outputs](./stage/outputs.md#dmx-output)** - Send DMX over sACN, Art-Net, or USB Expert.
+- **[DMX outputs](./stage/outputs.md#dmx-output)** - Send DMX over sACN, Art-Net, or DMX.
 - **[DMX regions and pixel mapping](./stage/regions.md#dmx-regions)** - Map surface or layer content to DMX fixtures.
 - **[Edge blend and keystone](./stage/outputs.md#edge-blend)** - Apply edge blend and keystone on a physical output.
 - **[MIDI Timecode (MTC)](./settings/settings-timecode.md#timecode-source)** - Use MIDI Timecode as a timecode source.
@@ -33,7 +33,7 @@ The full list of changes, including bug fixes, is in the [Prism Suite v2.2 Relea
 - **[Media Manager bank filter](./play/media-manager.md#filter-by)** - Filter media by bank.
 - **[Copy and paste](./stage/outputs.md#edge-blend)** - Copy and paste edge blend, keystone, and DMX regions.
 - **[UI rendering quality and preview](./settings/settings-playback.md#renderer)** - Settings for UI rendering quality and previews.
-- **[Delete confirmation](./settings/settings-general.md#application)** - Option to disable delete confirmation pop-ups.
+- **[Ask before deleting](./settings/settings-general.md#application)** - Option to ask for confirmation before deleting.
 - **[Automatic selection](./quick-start/navigation.md#multi-selection)** - Newly added or duplicated elements are selected automatically.
 - **[Default lock status](./settings/settings-general.md#application)** - Default lock status for linked numeric fields.
 - **[Output colour space](./stage/outputs.md#physical-output-controls)** - Colour space on output display settings.

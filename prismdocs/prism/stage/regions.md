@@ -85,7 +85,7 @@ Selecting a **Region** to show its controls to the right. Here is where a *Sourc
 
 **DMX Regions** map a sampled area of a surface or layer onto fixtures through a [DMX Output](./outputs.md#dmx-output). Each DMX region defines the source area, the target DMX output, and how pixels in that area are translated into DMX channels.
 
-Use DMX regions together with sACN, Art-Net, or USB Expert. A [Synergy Pixel Map](./outputs.md#dmx-output) DMX output is created from Titan only.
+Use DMX regions together with sACN, Art-Net, or DMX. A [Synergy Pixel Map](./outputs.md#dmx-output) DMX output is created from Titan only.
 
 The DMX Regions source canvas uses the same [canvas controls](#canvas-controls) as the Regions page.
 

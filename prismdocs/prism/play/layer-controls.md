@@ -112,14 +112,58 @@ This area controls the **Transformation** of the selected layer.
 
 ## Effects
 
-This area controls **Effects** applied to the selected layer. Effects are generated on the layer and can be mixed with the current media using the layer [blend modes](#rendering).
+This area controls **Effects** applied to the selected layer. Each layer has two effect slots. Effects process the layer image and can be mixed with other layers using [blend modes](#rendering).
 
-Two generator types are available:
+|  Item  |  Description  |
+|-----------|-------------|
+| **Effect** | Selects the effect for this slot, or **None**. |
+| **Enable** | Turns the selected effect on or off. Shown when an effect other than **None** is selected. |
+| **Parameters** | Each effect has its own parameters. Values are shown as sliders or toggles, depending on the effect. |
 
-- **Linear and Radial Particle** - Generates 2D particle systems on the layer.
-- **Shape** - Generates shapes on the layer.
+Use **Reset to Default** to restore the selected effect controls. When **[Synergy](../settings/settings-synergy.md)** is connected, **Sync to DMX** sends the current values to Titan.
 
-Each generator has its own parameters. Use **Reset to Default** to restore the selected effect controls.
+Whether effects are applied before or after crop, colour correction, and transformation is set by **Effects** in [Rendering](#rendering).
+
+### Available Effects
+
+- Array
+- Blur
+- Border
+- Channel Desaturation
+- Chroma Key
+- Chromatic Abberation
+- Colour Isolation
+- Crop
+- CRT
+- Data Mosh
+- Edge
+- Emboss
+- Feedback
+- Fisheye
+- Gradient
+- Greyscale
+- Halftone
+- Invert
+- Kaleidoscope
+- Levels
+- Linear Particle
+- Mirror
+- Motion Grid
+- Multi Wave
+- Pixel Sort
+- Radial Particle
+- Shape
+- Sharpen
+- Sobel
+- Stretch
+- Strobe
+- Threshold
+- Tile
+- Toon
+- Turbulent Distortion
+- UV Grid
+- Vignette
+- Voronoi
 
 ## Rendering
 
@@ -130,6 +174,7 @@ This area controls the **Rendering** of Synergy Pixel Map texture.
 | **Render Layer** | Toggle the visibility of the layer. |
 | **Blend Modes**  | Blend mode is used to determine how multiple layers are combined to create a final visual result on a Surface. It controls how the pixel colours of one layer interact with the pixels of layers beneath it.<br/><br/> - **Additive**: Combines the values of the pixels, creating a blended image. <br/> - **Alpha (Default)**: Allows the use of transparent areas which need to be specified when created. <br/> - **Darken**: Keeps the darkest colour from the blended Layers.<br/> -  **Difference**: Subtracts one colour value from the other and uses the result as the pixel colour to display. <br/> - **Exclude**: Similar to Difference mode but with lower contrast.<br/> - **Intensity Mix**: Blends Layers based on their intensity<br/> - **Inverse Luma**: Excludes areas of the image based on the luminosity of the pixels and the specified threshold.<br/> - **Inverse Mask**: Uses the layer as a mask for the layer below showing the image in the dark areas.<br/> - **Lighten**: Shows the highest of each colour component used across layers.<br/> - **Luma**: Excludes areas of the image based on the luminosity of the pixels and the specified threshold.<br/> - **Mask**: Uses the layer as a mask for the layer below showing the image in the light areas.<br/> - **Multiply**: Takes the values of the images, multiplies them together and returns the resulting value.<br/> - **Not Additive Mixing**: Non Additive Mixing shows the brightest pixel of the layers.<br/> - **Opaque**: Fully solid with no transparency.<br/> - **Screen** : Takes the values of the pixels in the two layers inverts, multiplies, and then inverts them again.<br/> - **Subtract**: The value of one layer is taken from the other layer. The resulting number is then used for the colour value.<br/> - **Tom Mask**: When fully applied, it completely masks the layer below, functioning similarly to Multiply. Can fix issues when multiplying by 0.<br/><br/>*Note: Final result will depend on the [render order](../settings/settings-playback#renderer)*|
 | **Blend Amount (%)** | The blend amount controls the transition between the source (blended layer) and the destination (background layer) when applying a blend mode. It determines how much influence the blended source has over the final output, effectively interpolating between the two. When the blend amount is set to zero, the operation acts as a pass-through, meaning the destination remains unchanged, as no blending is applied.  |
+| **Effects** | Sets whether effects are applied **Pre Adjustments** or **Post Adjustments**. |
 | **Enable Adjustments** | Enable / disable Layer adjustments e.g crop, colour correction, transformations.|
 
 ### Virtual Return Properties

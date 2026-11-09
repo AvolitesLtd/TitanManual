@@ -36,8 +36,11 @@ All **Timecode Triggers** are stored as part of the current project and are rest
 
 This ordering reflects the sequence in which triggers will be activated during playback.
 
-### Launch from Start
+### From Start
 
-When **Launch from start** is enabled, the assigned bank element is started from the beginning of the clip when the trigger fires. When it is disabled, playback follows the current play mode and trim points on the target layer.
+**From Start** only applies when the target layer play mode is [Timecode](./layer-controls.md#player-controls).
+
+- When **From Start** is enabled, the assigned bank element starts at its in-point and stays in sync with the timecode.
+- When **From Start** is disabled, the assigned bank element locks to the absolute timecode value.
 
 > **Note:**  Timecode-based features require that **Timecode** is enabled in the [Timecode Settings](../settings/settings-timecode.md).

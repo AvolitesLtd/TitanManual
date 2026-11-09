@@ -87,7 +87,9 @@ More information found at [Import/Export](./import-export.md)
 |  Item  |  Description  |
 |-----------|-------------|
 | Manual  | Opens the Desktop Manual app (`F1`). |
-| Support | Shows a pop-up with company details. |
+| Support | Opens a submenu with contact details and log collection. |
+| Contact Support | Shows a pop-up with company details. |
+| Collect Logs | Shows a pop-up. Confirming closes **Prism** so **Log Collector** can gather log files. If the project has unsaved changes, you will be asked to save first. |
 | About   | Shows a pop-up with information about **Prism**. |
 
 ## View Tabs

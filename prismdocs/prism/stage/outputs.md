@@ -15,7 +15,7 @@ Each output operates independently and reflects the current program output, incl
 - [Physical Outputs](#physical-output): Send the video output to a connected monitor, projector, or video wall.
 - [NDI® Outputs](#ndi-output): Send the video output over the network.
 - [RTSP Outputs](#rtsp-output): Send the video output as a live RTSP stream to other devices or applications on the network.
-- [DMX Outputs](#dmx-output): Send DMX over sACN, Art-Net, or USB Expert, or use a Synergy Pixel Map.
+- [DMX Outputs](#dmx-output): Send DMX over sACN, Art-Net, or DMX, or use a Synergy Pixel Map.
 
 Use the [Regions](./regions) page to map a **Surface** or **Layer** to an **Output**.
 
@@ -105,16 +105,16 @@ Supported output types:
 
 - **sACN** (streaming ACN / E1.31)
 - **Art-Net**
-- **USB Expert**
+- **DMX**
 - **Synergy Pixel Map** - Created from Titan only. When a Pixel Map is set up in Titan over a [Synergy](../settings/settings-synergy.md) connection, the output appears in Prism as a DMX output.
 
-sACN, Art-Net, and USB Expert outputs are created in Prism. Configure the protocol, network interface or USB Expert device, and universe addressing for each of these DMX outputs. Map content onto the DMX output using [DMX Regions](./regions.md#dmx-regions) on the Regions page.
+sACN, Art-Net, and DMX outputs are created in Prism. Configure the protocol, network interface or DMX device, and universe addressing for each of these DMX outputs. Map content onto the DMX output using [DMX Regions](./regions.md#dmx-regions) on the Regions page.
 
 Each DMX output has [Pixel Map Adjustment](#pixel-map-adjustment) controls.
 
 ### Pixel Map Adjustment
 
-**Pixel Map Adjustment** is available on each DMX output (sACN, Art-Net, USB Expert, and Synergy Pixel Map). The controls affect the pixel-mapped frames for that output and are set on the DMX output, not on the [Surface](../play/surfaces.md).
+**Pixel Map Adjustment** is available on each DMX output (sACN, Art-Net, DMX, and Synergy Pixel Map). The controls affect the pixel-mapped frames for that output and are set on the DMX output, not on the [Surface](../play/surfaces.md).
 
 | <p style={{width: '100px', margin: '0'}}>Item</p> |  Description |
 |------------------|------------|
