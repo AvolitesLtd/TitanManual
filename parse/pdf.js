@@ -454,12 +454,12 @@ DATE=$(date "+%d %B %Y")
 pandoc --template "${options.templatePath}" \
   -o "${filename}" \
   --pdf-engine=xelatex \
-  --highlight-style kate \
+  --syntax-highlighting kate \
   --metadata-file "${options.headerPath}" \
   --toc \
   --number-sections \
   -fmarkdown-implicit_figures \
-  --self-contained \
+  --embed-resources --standalone \
   --lua-filter="${secfilter}" \
   -V fontsize=8pt \
   -M date="$DATE" \
@@ -467,7 +467,7 @@ pandoc --template "${options.templatePath}" \
   -M footer-left="${version} Manual" \
   -M title="Avolites Titan Manual" \
   -M subtitle="${version}" \
-  -M logo="${options.logoPath}" \
+  -M titlepage-logo="${options.logoPath}" \
   -V colorlinks=true \
   -V block-headings \
   -V toc-title="${toctitle}" \

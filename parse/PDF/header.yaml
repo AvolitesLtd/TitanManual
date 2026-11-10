@@ -22,7 +22,7 @@ titlepage-color: d80029
 titlepage-text-color: ffffff
 titlepage-rule-height: 0
 # logo: PDF/avo.png
-logo-width: 150
+logo-width: 120pt
 
 # more details:
 # https://github.com/Wandmalfarbe/pandoc-latex-template
