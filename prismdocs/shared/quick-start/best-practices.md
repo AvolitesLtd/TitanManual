@@ -57,7 +57,7 @@ When using a laptop which has both a shared and dedicated GPU, it is important t
 
 Open NVIDIA Control Panel and select Manage 3D Settings.
 
-1. In the Program Settings tab, press the Add button and then press Browse to locate **Prism.exe** which is found in *C:\Program Files\Avolites\Prism\Prism*.
+1. In the Program Settings tab, press the Add button and then press Browse to locate **Prism.exe** which is found in *`C:\Program Files\Avolites\Prism\Prism`*.
 2. Select the *High-performance NVIDIA* processor from the drop down.
 3. Find the *Vertical sync* setting in the options list and set it to Use the 3D application setting
 4. Press *Apply* to save the changes.
