@@ -52,24 +52,25 @@ const checkSingleInstance = (fullAppName) => {
     return false;
   }
 
-  app.on('second-instance', () => {
+  app.on('second-instance', (event, argv) => {
     // Someone tried to run a second instance, we should focus our window.
     if (win) {
       if (win.isMinimized()) win.restore()
       if (!win.isVisible()) win.show()
       focusWindow();
-      navigateToProcessURL();
+      navigateToProcessURL(argv);
     }
   });
 
   return true;
 }
 
-const navigateToProcessURL = () => {
+const navigateToProcessURL = (argv = process.argv) => {
   let url = "/docs";
-  const args = require('minimist')(process.argv.slice(1))
-  if (args['startUrl']) {
-    url = args['startUrl'];
+  const args = require('minimist')(argv.slice(1))
+  const startUrl = args.startUrl || args.starturl
+  if (startUrl) {
+    url = startUrl
   }
   
   if (appServer.url && browserViewContent) {
