@@ -36,11 +36,9 @@ All **Prism** licenses include:
 | **Bank Elements**                 | Up to 256 per **Bank**    | Up to 256 per **Bank**    | Up to 256 per **Bank**    | Up to 256 per **Bank**    |
 | **Synergy Support**               |x                          | x                         | x                         | x                         |
 
-**\*** [NDI®](https://ndi.video/) is a registered trademark of Vizrt NDI AB.
-
 ### License Unlock Table
 
-The table below shows which license types unlock each **Prism v2.1** license level:
+The table below shows which license types unlock each **Prism v2.2** license level:
 
 | Unlocks Prism License | Supported License Types       |
 |-----------------------|-------------------------------|

@@ -6,8 +6,6 @@ sidebar_label: Playback
 
 This page shows the settings for the playback of media files.
 
-![Settings Playback](/prism-images/settings/prism-settings-playback.png)
-
 There are three sections:
 - **[Playback](#playback)** - These options will give control over the media player.
 - **[Hardware Accelerated Decoding (H.264/H.265)](#hardware-accelerated-decoding-h264h265)** - These options will give control over the media files decoding using H.264 and H.265 codecs.
@@ -19,8 +17,7 @@ There are three sections:
 |---------|-------------|
 | **Step Amount** | This value will set the step forward or backward on the player timeline, expressed in seconds. To step forwards it is possible to use the right arrow key shortcut. To step backwards it is possible to use the the left arrow key shortcut. |
 | **Resume Playback At Start** | Enable resuming playback. When enabled, if the app has been previously closed with playing media, once re-opened the media will resume playing. |
-
-| **Cross Fade Duration** (Prism Only)| This value will set the default duration in seconds of the cross fade. When loading a media on a Layer or in Preview Window, this duration indicates the time that it will take to fade out the current playing media and to fade in the newly selected media. |
+| **Cross Fade Duration** | The default duration, in seconds, of the cross fade when loading media onto a [Layer](../play/layers.md) or in the [Preview](../quick-start/preview.md) window. This is the time taken to fade out the current media and fade in the newly selected media. Individual layers can override this value in [Layer Controls](../play/layer-controls.md). |
 
 ### Hardware Accelerated Decoding (H.264/H.265)
 
@@ -34,5 +31,7 @@ There are three sections:
 |---------|-------------|
 | **Use VSync** | Enable VSync. When enabled the renderer frame rate will be synced to the screen frame rate. This can make playback look smoother and prevent visual issues like screen tearing. |
 | **Render Layers Bottom to Top** | Controls the order in which layers are drawn within a surface. When enabled the rendering starts with the bottom layer and works upward, when disabled rendering starts with the top layer and works downward. |
+| **Render UI Previews** | Enable rendering of UI and preview buffers, including the [Preview](../quick-start/preview.md) window and layer previews. Disable to improve performance by skipping that rendering. |
+| **UI Rendering Quality** | Sets the resolution of UI canvases to High, Mid, or Low. Lower quality reduces UI canvas resolution to improve performance. This option is available when **Render UI Previews** is enabled. |
 | **Use Pre Adjustments Previews** | Controls whether layer adjustments are shown in layer previews. When enabled layer previews are shown without adjustments applied, when disabled layer previews are shown with adjustments applied. This setting also affects the previews shown in **Synergy**.|
 

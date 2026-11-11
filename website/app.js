@@ -52,24 +52,25 @@ const checkSingleInstance = (fullAppName) => {
     return false;
   }
 
-  app.on('second-instance', () => {
+  app.on('second-instance', (event, argv) => {
     // Someone tried to run a second instance, we should focus our window.
     if (win) {
       if (win.isMinimized()) win.restore()
       if (!win.isVisible()) win.show()
       focusWindow();
-      navigateToProcessURL();
+      navigateToProcessURL(argv);
     }
   });
 
   return true;
 }
 
-const navigateToProcessURL = () => {
+const navigateToProcessURL = (argv = process.argv) => {
   let url = "/docs";
-  const args = require('minimist')(process.argv.slice(1))
-  if (args['startUrl']) {
-    url = args['startUrl'];
+  const args = require('minimist')(argv.slice(1))
+  const startUrl = args.startUrl || args.starturl
+  if (startUrl) {
+    url = startUrl
   }
   
   if (appServer.url && browserViewContent) {
@@ -110,12 +111,8 @@ async function clearCache() {
   // Optionally, also clear other folders like:
   const cacheDir = path.join(app.getPath('userData'), 'Cache');
   if (fs.existsSync(cacheDir)) {
-    try {
-      fs.rmSync(cacheDir, { recursive: true, force: true });
-      console.log('Cache directory removed');
-    } catch (error) {
-      console.error('Error removing cache directory:', error);
-    }
+    fs.rmSync(cacheDir, { recursive: true, force: true });
+    console.log('Cache directory removed');
   }
 }
 
@@ -153,7 +150,10 @@ const createWindow = () => {
   defaultWindowSize();
 
   browserViewContent.webContents.on('did-fail-load', (e, errCode, errDesc, vUrl, isMainFrame) => {
-    if(isMainFrame) {
+    if(isMainFrame && errCode !== -3) {
+      let activeIndex = browserViewContent.webContents.getActiveIndex()
+      if (browserViewContent.webContents.history && activeIndex > 0)
+        browserViewContent.webContents.history[activeIndex] = browserViewContent.webContents.history[activeIndex-1]
       if(errDesc == 'ERR_INTERNET_DISCONNECTED')
         browserViewContent.webContents.loadURL(`${appServer.url}/offline.html`)
       else
@@ -162,14 +162,7 @@ const createWindow = () => {
   })
 
   browserViewContent.webContents.on('will-navigate', handleExternal)
-  browserViewContent.webContents.setWindowOpenHandler(({ url }) => {
-    if (!url.startsWith(appServer.url)) {
-      shell.openExternal(url)
-      return { action: 'deny' }
-    }
-    browserViewContent.webContents.loadURL(url)
-    return { action: 'deny' }
-  })
+  browserViewContent.webContents.on('new-window', handleExternal)
 
   browserViewContent.webContents.on('did-navigate', canNavigate)
   browserViewContent.webContents.on('did-finish-load', canNavigate)
@@ -237,6 +230,8 @@ app.whenReady().then(async() => {
   urlFilter()
 })
 
+app.allowRendererProcessReuse = true
+
 // Quit when all windows are closed.
 app.on('window-all-closed', () => {
   app.quit()
@@ -284,7 +279,7 @@ function urlFilter() {
       file: 'remote/buttons.js'
     },
     jquery: {
-      url: '//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js',
+      url: '//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js',
       file: 'remote/jquery.js?v=5'
     }
   }
@@ -313,21 +308,18 @@ function urlFilter() {
 
 // window controls
 const canNavigate = () => {
-  const history = browserViewContent.webContents.navigationHistory
-  win.webContents.send('cntrl-can-back', history.canGoBack())
-  win.webContents.send('cntrl-can-forward', history.canGoForward())
+  win.webContents.send('cntrl-can-back', browserViewContent.webContents.canGoBack())
+  win.webContents.send('cntrl-can-forward', browserViewContent.webContents.canGoForward())
 }
 
 function goBack() {
-  const history = browserViewContent.webContents.navigationHistory
-  if(history.canGoBack())
-    history.goBack()
+  if(browserViewContent.webContents.canGoBack())
+    browserViewContent.webContents.goBack()
 }
 
 function goForward() {
-  const history = browserViewContent.webContents.navigationHistory
-  if(history.canGoForward())
-    history.goForward()
+  if(browserViewContent.webContents.canGoForward())
+    browserViewContent.webContents.goForward()
 }
 
 ipcMain.on("cntrl-back",(e, arg) => {
