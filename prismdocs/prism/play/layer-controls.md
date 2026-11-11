@@ -17,6 +17,7 @@ Similar to the [Preview](../quick-start/preview.md#adjustments) adjustments, the
 - [Crop](#crop)
 - [Colour Correction](#colour-correction)
 - [Transformation](#transformation)
+- [Effects](#effects)
 - [Rendering](#rendering)
   - [Virtual Return Properties](#virtual-return-properties)
 
@@ -50,8 +51,6 @@ The **Sync to DMX** is used to allow the Prism UI controls to immediately adjust
 
 The **Playback** controls the intensity / volume of a bank element playing on a layer.
 
-![Layer Controls Playback Area](/prism-images/play/layer-controls/playback.png)
-
 |   Item    |  Description  |
 |---------------|------------|
 | **Intensity (%)** | Opacity of the layer. |
@@ -62,8 +61,6 @@ The **Playback** controls the intensity / volume of a bank element playing on a 
 This area controls the **Player Controls** of the selected layer.
 
 The **Player Controls** has check boxes against its properties so that users can define whether to use the bank element value or the one that is currently on the layer that it will play on.
-
-![Layer Controls Player Controls Area](/prism-images/play/layer-controls/player-controls.png)
 
 |   Item                   |  Description  |
 |------------------------------|---------- |
@@ -78,8 +75,6 @@ The **Player Controls** has check boxes against its properties so that users can
 
 This area controls the **Crop** of the selected layer
 
-![Layer Controls Crop Area](/prism-images/play/layer-controls/crop-controls.png)
-
 |  Item  |  Description |
 |------------|--------------|
 | **Left (%)**   | Crop on the left side of the layer. |
@@ -90,8 +85,6 @@ This area controls the **Crop** of the selected layer
 ## Colour Correction
 
 This area controls the **Colour Correction** of the selected layer.
-
-![Layer Controls Playback Area](/prism-images/play/layer-controls/colour-correction.png)
 
 |   Item      |  Description        |
 |----------------|------------|
@@ -107,8 +100,6 @@ This area controls the **Colour Correction** of the selected layer.
 
 This area controls the **Transformation** of the selected layer.
 
-![Layer Controls Playback Area](/prism-images/play/layer-controls/transformation.png)
-
 | <p style={{width: '100px', margin: '0'}}>Item</p> |  Description |
 |-----------------|------------|
 | **Scale X (%)**     | Scale X (horizontal scale) of the layer, in relation to the surface size. <br/> When pressing the <Keys.PrismKey>Lock</Keys.PrismKey> icon this will be aspect ratio locked with *Scale Y* . <br/> When pressing the <Keys.PrismKey>Unlock</Keys.PrismKey> icon this will be set independently from *Scale Y* |
@@ -119,17 +110,71 @@ This area controls the **Transformation** of the selected layer.
 | **Rotate Y  (&deg;)**    | Rotate Y (y axis) of the layer, in relation to the surface. |
 | **Rotate Z  (&deg;)**    | Rotate Z (z axis) of the layer, in relation to the surface. |
 
+## Effects
+
+This area controls **Effects** applied to the selected layer. Each layer has two effect slots. Effects process the layer image and can be mixed with other layers using [blend modes](#rendering).
+
+|  Item  |  Description  |
+|-----------|-------------|
+| **Effect** | Selects the effect for this slot, or **None**. |
+| **Enable** | Turns the selected effect on or off. Shown when an effect other than **None** is selected. |
+| **Parameters** | Each effect has its own parameters. Values are shown as sliders or toggles, depending on the effect. |
+
+Use **Reset to Default** to restore the selected effect controls. When **[Synergy](../settings/settings-synergy.md)** is connected, **Sync to DMX** sends the current values to Titan.
+
+Whether effects are applied before or after crop, colour correction, and transformation is set by **Effects** in [Rendering](#rendering).
+
+### Available Effects
+
+- Array
+- Blur
+- Border
+- Channel Desaturation
+- Chroma Key
+- Chromatic Abberation
+- Colour Isolation
+- Crop
+- CRT
+- Data Mosh
+- Edge
+- Emboss
+- Feedback
+- Fisheye
+- Gradient
+- Greyscale
+- Halftone
+- Invert
+- Kaleidoscope
+- Levels
+- Linear Particle
+- Mirror
+- Motion Grid
+- Multi Wave
+- Pixel Sort
+- Radial Particle
+- Shape
+- Sharpen
+- Sobel
+- Stretch
+- Strobe
+- Threshold
+- Tile
+- Toon
+- Turbulent Distortion
+- UV Grid
+- Vignette
+- Voronoi
+
 ## Rendering
 
 This area controls the **Rendering** of Synergy Pixel Map texture.
-
-![Layer Controls Crop Area](/prism-images/play/layer-controls/rendering-controls.png)
 
 | <p style={{width: '150px', margin: '0'}}>Item</p> |  Description |
 |-----------------|------------|
 | **Render Layer** | Toggle the visibility of the layer. |
 | **Blend Modes**  | Blend mode is used to determine how multiple layers are combined to create a final visual result on a Surface. It controls how the pixel colours of one layer interact with the pixels of layers beneath it.<br/><br/> - **Additive**: Combines the values of the pixels, creating a blended image. <br/> - **Alpha (Default)**: Allows the use of transparent areas which need to be specified when created. <br/> - **Darken**: Keeps the darkest colour from the blended Layers.<br/> -  **Difference**: Subtracts one colour value from the other and uses the result as the pixel colour to display. <br/> - **Exclude**: Similar to Difference mode but with lower contrast.<br/> - **Intensity Mix**: Blends Layers based on their intensity<br/> - **Inverse Luma**: Excludes areas of the image based on the luminosity of the pixels and the specified threshold.<br/> - **Inverse Mask**: Uses the layer as a mask for the layer below showing the image in the dark areas.<br/> - **Lighten**: Shows the highest of each colour component used across layers.<br/> - **Luma**: Excludes areas of the image based on the luminosity of the pixels and the specified threshold.<br/> - **Mask**: Uses the layer as a mask for the layer below showing the image in the light areas.<br/> - **Multiply**: Takes the values of the images, multiplies them together and returns the resulting value.<br/> - **Not Additive Mixing**: Non Additive Mixing shows the brightest pixel of the layers.<br/> - **Opaque**: Fully solid with no transparency.<br/> - **Screen** : Takes the values of the pixels in the two layers inverts, multiplies, and then inverts them again.<br/> - **Subtract**: The value of one layer is taken from the other layer. The resulting number is then used for the colour value.<br/> - **Tom Mask**: When fully applied, it completely masks the layer below, functioning similarly to Multiply. Can fix issues when multiplying by 0.<br/><br/>*Note: Final result will depend on the [render order](../settings/settings-playback#renderer)*|
 | **Blend Amount (%)** | The blend amount controls the transition between the source (blended layer) and the destination (background layer) when applying a blend mode. It determines how much influence the blended source has over the final output, effectively interpolating between the two. When the blend amount is set to zero, the operation acts as a pass-through, meaning the destination remains unchanged, as no blending is applied.  |
+| **Effects** | Sets whether effects are applied **Pre Adjustments** or **Post Adjustments**. |
 | **Enable Adjustments** | Enable / disable Layer adjustments e.g crop, colour correction, transformations.|
 
 ### Virtual Return Properties

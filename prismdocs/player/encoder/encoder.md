@@ -8,13 +8,9 @@ import Keys from '@site/src/components/key.ts';
 
 The **Encoder** allows for files to be converted from common video codecs into the **AiM** codec in preparation for use on a live production.
 
-![Encoder](/prism-images/encoder/player-encoder.png)
-
 ### Encode Element
 
 When a piece of media is loaded into the **Encoder**, several details about the file can be viewed:
-
-![Encodelist Details](/prism-images/encoder/encoder-details.png)
 
 - The length of of the encoded media.
 - The video codec, sub-codec, resolution and frame rate of the encoded media.

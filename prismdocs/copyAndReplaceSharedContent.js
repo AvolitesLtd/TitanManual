@@ -6,10 +6,9 @@ const pages = [
   {
     id: 'prism-player', app: 'Prism Player', path: 'Player',
     excludes: [
-      "live-input-setup", //Quick Start
+      "best-practices", "live-input-setup", "preview", //Quick Start
       "layers", "layer-controls", "surfaces", "media-manager", "timecode-triggers", "timecode", //Play
       "settings-synergy", "settings-inputs", "settings-timecode",//Settings
-      "preview" //Preview
     ]
   },
   { id: 'prism', app: 'Prism', path: 'Prism', excludes: ["mediaplayer"] },

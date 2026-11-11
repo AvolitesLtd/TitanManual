@@ -39,6 +39,10 @@
             },
             {
               "type": "doc",
+              "id": "player/quick-start/shortcuts"
+            },
+            {
+              "type": "doc",
               "id": "player/quick-start/projects-management"
             },
             {
@@ -127,6 +131,11 @@
           "id": "prism/introduction"
         },
         {
+          "type": "doc",
+          "label": "What's New",
+          "id": "prism/whats-new"
+        },
+        {
           "collapsed": true,
           "type": "category",
           "label": "Quick Start",
@@ -137,7 +146,16 @@
           "items": [
             {
               "type": "doc",
+              "label": "Best Practices",
+              "id": "prism/quick-start/best-practices"
+            },
+            {
+              "type": "doc",
               "id": "prism/quick-start/navigation"
+            },
+            {
+              "type": "doc",
+              "id": "prism/quick-start/shortcuts"
             },
             {
               "type": "doc",
