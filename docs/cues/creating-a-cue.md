@@ -101,7 +101,7 @@ Other useful things to know about recording cues:
 
 Setting <Keys.SoftKey>Record Mode</Keys.SoftKey> to **Quick Build** allows you to build a cue, chase or cue list from
 existing playbacks or palettes (you can also use the
-[Include function](editing-cues.md#using-parts-of-existing-cues-the-include-function) to
+[Include function](editing-cues.md#using-parts-of-existing-cues---the-include-function) to
 do this).
 
 1.  Press Record.

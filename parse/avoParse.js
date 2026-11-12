@@ -10,7 +10,7 @@ class avoParse {
 
     this.paths = {
       sidebar: path.resolve(__dirname,"../website/sidebars.json"),
-      versionedSideberDir: path.resolve(__dirname,"../website/versioned_sidebars"),
+      versionedSidebarDir: path.resolve(__dirname,"../website/versioned_sidebars"),
       translatedSidebarDir: path.resolve(__dirname,"../website/translated_sidebars"),
       versions: path.resolve(__dirname,"../website/versions.json"),
       versionedDocsDir: path.resolve(__dirname,"../website/versioned_docs"),
@@ -104,7 +104,7 @@ class avoParse {
       versionsFile.forEach(version => {
         if(mainLang || tranVers.includes(`version-${version}`)) {
           let dir = path.join(this.paths.versionedDocsDir, `version-${version}`)
-          let sidebar = path.join(this.paths.versionedSideberDir, `version-${version}-sidebars.json`)
+          let sidebar = path.join(this.paths.versionedSidebarDir, `version-${version}-sidebars.json`)
 
           if(!mainLang)
           {
@@ -127,6 +127,8 @@ class avoParse {
         }
       })
     })
+
+//	console.log("\n\nVersions from avoParse: " + JSON.stringify(versions) + "\n\n");
 
     return versions
   }

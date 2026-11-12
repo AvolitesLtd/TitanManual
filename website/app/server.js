@@ -1,8 +1,14 @@
-const nodeStatic = require('node-static');
+const sirv = require('sirv');
+const fs = require('fs');
 const path = require('path');
-const fileServer = new nodeStatic.Server(path.resolve(__dirname,'../build/'))
-const sourceServer = new nodeStatic.Server(path.resolve(__dirname,'sources'))
-const { createServer } = require('http')
+const { createServer } = require('http');
+
+const buildDir = path.resolve(__dirname, '../build');
+const sourcesDir = path.resolve(__dirname, 'sources');
+const notFoundPage = path.join(sourcesDir, '404.html');
+
+const serveBuild = sirv(buildDir, { dev: true, etag: true });
+const serveSources = sirv(sourcesDir, { dev: true, etag: true });
 
 class appServer {
   /**
@@ -57,19 +63,12 @@ class appServer {
     this.port = await this.getAvailablePort(startingPort)
 
     createServer((request, response) => {
-      request.addListener('end', () => {
-        fileServer.serve(request, response, (fe, fres) => {
-          if (fe && (fe.status === 404)) {
-            // not found on file server
-            sourceServer.serve(request, response, (se, sres) => {
-              // look on sources folder
-              if (se && (se.status === 404)) { // file wasn't found anywhere
-                sourceServer.serveFile('/404.html', 404, {}, request, response)
-              }
-            })
-          }
-        });
-      }).resume();
+      serveBuild(request, response, () => {
+        serveSources(request, response, () => {
+          response.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' })
+          fs.createReadStream(notFoundPage).pipe(response)
+        })
+      })
     }).listen(this.port)
   }
 

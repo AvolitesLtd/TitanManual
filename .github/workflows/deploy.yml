@@ -6,7 +6,10 @@ on:
       - created
 
 env:
-  NODE_VERSION: '16.x'
+  NODE_VERSION: '24.x'
+  
+permissions:
+  contents: write
 
 jobs:
   app:
@@ -25,21 +28,18 @@ jobs:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: echo "$GITHUB_CONTEXT"
       
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
         with:
           submodules: recursive
 
       - name: Use Node.js ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v7
         with:
           node-version: ${{ env.NODE_VERSION }}
 
       - name: Install Dependencies
         run: |
-          cd website/docusaurus-search-local
-          yarn install --frozen-lockfile
-          yarn build
-          cd ../
+          cd website
           mkdir download
           yarn install --frozen-lockfile
 
@@ -61,13 +61,13 @@ jobs:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{matrix.os}}
           path: website/download
           
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: "website/download/**"
@@ -80,7 +80,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
         with:
           submodules: recursive
 
@@ -91,13 +91,13 @@ jobs:
           mv parse/output/*.pdf website/download
 
       - name: Upload artifacts to GitHub
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: 'PDF'
           path: website/download
             
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: "website/download/**"
@@ -110,7 +110,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
         with:
           submodules: recursive
 
@@ -121,13 +121,13 @@ jobs:
           mv parse/output/*.pdf website/download
 
       - name: Upload artifacts to GitHub
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: 'Prism PDF'
           path: website/download
             
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: "website/download/**"
@@ -139,20 +139,17 @@ jobs:
     name: Web Build and Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v7
       with:
         submodules: recursive
 
     - name: Use Node.js ${{ env.NODE_VERSION }}
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v7
       with:
         node-version: ${{ env.NODE_VERSION }}
     - name: yarn install, build, and test
       run: |
-        cd website/docusaurus-search-local
-        yarn install --frozen-lockfile
-        yarn build
-        cd ../
+        cd website
         yarn install --frozen-lockfile
         yarn run download
         yarn run build
@@ -175,12 +172,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7
         with:
           submodules: recursive
 
       - name: Use Node.js ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v7
         with:
           node-version: ${{ env.NODE_VERSION }}
 
@@ -195,10 +192,7 @@ jobs:
 
       - name: npm install & build
         run: |
-          cd website/docusaurus-search-local
-          yarn install --frozen-lockfile
-          yarn build
-          cd ../
+          cd website
           yarn install --frozen-lockfile
           yarn run download
           yarn run build

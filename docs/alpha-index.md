@@ -19,7 +19,7 @@ import Video from '@site/src/components/video.tsx';
 [Animations *(in "Pixel Mapper")*](./effects/pixel-mapper.md#animations)<br/>
 [Art-Net Properties *(in "DMX Settings")*](./system-settings/dmx-output-mapping.md#art-net-properties)<br/>
 [Assign Masters *(in "The System Menu")*](./system-settings/the-system-menu.md#assign-masters)<br/>
-[Attribute Editor for Controlling Ai Layers *(in "Operating Synergy")*](./synergy/operating-synergy.md#attribute-editor-for-controlling-ai-layers)<br/>
+[Attribute Editor for Controlling Synergy Layers *(in "Operating Synergy")*](./synergy/operating-synergy.md#attribute-editor-for-controlling-synergy-layers)<br/>
 [Attribute Editor Window *(in "Changing Fixture Attributes")*](./controlling-fixtures/changing-fixture-attributes.md#attribute-editor-window)<br/>
 [Attribute Groups - IPCGBES-FX *(in "Changing Fixture Attributes")*](./controlling-fixtures/changing-fixture-attributes.md#attribute-groups---ipcgbes-fx)<br/>
 [Attribute Limits *(in "Fixture Personality Options")*](./patching/fixture-personality-options.md#attribute-limits)<br/>
@@ -57,7 +57,7 @@ import Video from '@site/src/components/video.tsx';
 [Changing Shape Parameters in the Effect Editor *(in "Key Frame Shapes")*](./effects/key-frame-shapes.md#changing-shape-parameters-in-the-effect-editor)<br/>
 [Changing Size and Speed of a Shape *(in "Shape Generator")*](./effects/shape-generator.md#changing-size-and-speed-of-a-shape)<br/>
 [Changing the Content of Palettes *(in "Editing Palettes")*](./palettes/editing-palettes.md#changing-the-content-of-palettes)<br/>
-[Changing the IP address of the Titan Network Switch (TNS) *(in "Connecting consoles to a network")*](./networking/connecting-the-arena-to-a-network.md#changing-the-ip-address-of-the-titan-network-switch-tns)<br/>
+[Changing the IP address of the Titan Network Switch (TNS) *(in "Connecting consoles to a network")*](./networking/connecting-the-arena-to-a-network.md#changing-the-ip-address-of-the-d9-d7-or-arenas-titan-network-switch-tns)<br/>
 [Changing the Key Profile *(in "Key Profiles")*](./system-settings/key-profiles.md#changing-the-key-profile)<br/>
 [Changing the Locate State *(in "Selecting Fixtures")*](./controlling-fixtures.md#changing-the-locate-state)<br/>
 [Changing the Spread of a Shape Across Multiple Fixtures *(in "Shape Generator")*](./effects/shape-generator.md#changing-the-spread-of-a-shape-across-multiple-fixtures)<br/>
@@ -85,7 +85,7 @@ import Video from '@site/src/components/video.tsx';
 [Connecting External Trigger Sources *(in "External triggering")*](./running-the-show/midi-dmx-or-audio-triggering.md#connecting-external-trigger-sources)<br/>
 [Connecting mains power *(in "Connecting up and Titan basics")*](./titan-basics.md#connecting-mains-power)<br/>
 [Connecting Titan to the Pioneer System *(in "Linking PioneerDJ System to Titan")*](./running-the-show/linking-pioneerdj-system-to-titan.md#connecting-titan-to-the-pioneer-system)<br/>
-[Connecting up *(in "Setting up Synergy")*](./synergy/setting-up.md#connecting-up)<br/>
+[Connecting up *(in "Setting up Synergy")*](./synergy/setting-up.md)<br/>
 [Connecting up T3/Titan Mobile and T1/T2 *(in "Connecting up and Titan basics")*](./titan-basics.md#connecting-up-t3--titan-mobile-and-t1t2)<br/>
 [Connections panel *(in "Quartz")*](./about-the-consoles/quartz.md#connections-panel)<br/>
 [Console Legend *(in "The System Menu")*](./system-settings/the-system-menu.md#console-legend)<br/>
@@ -98,13 +98,13 @@ import Video from '@site/src/components/video.tsx';
 [Controlling Fixtures *(in "Operating the Remote")*](./remote-control/operating-the-remote.md#controlling-fixtures)<br/>
 [Conventions used in the manual *(in "Introduction to Avolites Titan")*](./introduction.md#conventions-used-in-the-manual)<br/>
 [Convert Cue to Chase or Cue List *(in "Creating a Cue")*](./cues/creating-a-cue.md#convert-cue-to-chase-or-cue-list)<br/>
-[Copy, Move in cue list *(in "Titan Commands Quick Reference")*](./titan-reference.md#copy,-move-in-cue-list)<br/>
-[Copying a Cue *(in "Copying٬ Moving٬ Linking and Deleting a Cue")*](./cues/copying-moving-linking-and-deleting.md#copying-a-cue)<br/>
+[Copy, Move in cue list *(in "Titan Commands Quick Reference")*](./titan-reference.md#copy-move-in-cue-list)<br/>
+[Copying a Cue *(in "Copying, Moving, Linking and Deleting a Cue")*](./cues/copying-moving-linking-and-deleting.md#copying-a-cue)<br/>
 [Copying and moving playbacks in a Timeline *(in "Running and Editing Timelines")*](./timelines/running-and-editing-timelines.md#copying-and-moving-playbacks-in-a-timeline)<br/>
-[Copying or moving a chase *(in "Copying٬ Moving٬ Linking and Deleting a Chase")*](./chases/copying-moving-linking-and-deleting.md#copying-or-moving-a-chase)<br/>
-[Copying or Moving a Cue List *(in "Copying٬ Moving٬ Linking and Deleting Cue Lists")*](./cue-lists/copying-moving-linking-and-deleting.md#copying-or-moving-a-cue-list)<br/>
-[Copying or Moving a Palette *(in "Copying٬ Moving and Deleting Palettes")*](./palettes/copying-moving-and-deleting-palettes.md#copying-or-moving-a-palette)<br/>
-[Copying or moving a patched fixture *(in "Copying٬ moving and deleting fixtures")*](./patching/copying-moving-and-deleting-fixtures.md#copying-or-moving-a-patched-fixture)<br/>
+[Copying or moving a chase *(in "Copying, Moving, Linking and Deleting a Chase")*](./chases/copying-moving-linking-and-deleting.md#copying-or-moving-a-chase)<br/>
+[Copying or Moving a Cue List *(in "Copying, Moving, Linking and Deleting Cue Lists")*](./cue-lists/copying-moving-linking-and-deleting.md#copying-or-moving-a-cue-list)<br/>
+[Copying or Moving a Palette *(in "Copying, Moving and Deleting Palettes")*](./palettes/copying-moving-and-deleting-palettes.md#copying-or-moving-a-palette)<br/>
+[Copying or moving a patched fixture *(in "Copying, moving and deleting fixtures")*](./patching/copying-moving-and-deleting-fixtures.md#copying-or-moving-a-patched-fixture)<br/>
 [Creating a Chase with Quick Build *(in "Creating a Chase")*](./chases/creating-a-chase.md#creating-a-chase-with-quick-build)<br/>
 [Creating a Cue *(in "Creating a Cue")*](./cues/creating-a-cue.md#creating-a-cue)<br/>
 [Creating a Key Frame Shape *(in "Key Frame Shapes")*](./effects/key-frame-shapes.md#creating-a-key-frame-shape)<br/>
@@ -115,11 +115,11 @@ import Video from '@site/src/components/video.tsx';
 [Creating an Effects Palette (Shape or Pixel Mapper) *(in "Creating Palettes")*](./palettes/creating-palettes.md#creating-an-effects-palette-shape-or-pixel-mapper)<br/>
 [Creating and editing key profiles *(in "Key Profiles")*](./system-settings/key-profiles.md#creating-and-editing-key-profiles)<br/>
 [Creating Pixel Mapper effects *(in "Pixel Mapper")*](./effects/pixel-mapper.md#creating-pixel-mapper-effects)<br/>
-[Creating playback legends from Capture screenshots *(in "Linking the Console to Stand⁃Alone Capture")*](./capture-visualiser/linking-the-console-to-stand-alone-capture.md#creating-playback-legends-from-capture-screenshots)<br/>
-[Creative Use of Fixture Layouts *(in "Pixel Mapper Examples")*](./effects/pixel-mapper-examples.md#creative-use-of-fixture-layouts)<br/>
+[Creating playback legends from Capture screenshots *(in "Linking the Console to Stand-Alone Capture")*](./capture-visualiser/linking-the-console-to-stand-alone-capture.md#creating-playback-legends-from-capture-screenshots)<br/>
+[Creative Use of Fixture Layouts *(in "Pixel Mapper Examples")*](./effects/pixel-mapper-examples.md#creative-use-of-group-fixture-layouts)<br/>
 [Cross Fade HTP *(in "Playback Options")*](./cues/playback-options.md#cross-fade-htp)<br/>
 [Cue Fader Mode *(in "Playback Options")*](./cues/playback-options.md#cue-fader-mode)<br/>
-[Cue Linking & Link Offset *(in "Cue List Timing")*](./cue-lists/cue-list-timing.md#cue-linking-&-link-offset)<br/>
+[Cue Linking & Link Offset *(in "Cue List Timing")*](./cue-lists/cue-list-timing.md#cue-linking--link-offset)<br/>
 [Cue Links Disabled *(in "Chase Options")*](./chases/chase-options.md#cue-links-disabled)<br/>
 [Cue Links Disabled *(in "Cue List Options")*](./cue-lists/cue-list-options.md#cue-links-disabled)<br/>
 [Cue List Fader Mode *(in "Cue List Options")*](./cue-lists/cue-list-options.md#cue-list-fader-mode)<br/>
@@ -137,13 +137,13 @@ import Video from '@site/src/components/video.tsx';
 [Deactivate Attributes from Cues Using "Off" *(in "Editing Cues")*](./cues/editing-cues.md#deactivate-attributes-from-cues-using-off)<br/>
 [Delay In / Fade In / Fade Out *(in "Playback Options")*](./cues/playback-options.md#delay-in--fade-in--fade-out)<br/>
 [Delete *(in "Titan Commands Quick Reference")*](./titan-reference.md#delete)<br/>
-[Deleting a chase *(in "Copying٬ Moving٬ Linking and Deleting a Chase")*](./chases/copying-moving-linking-and-deleting.md#deleting-a-chase)<br/>
-[Deleting a Cue *(in "Copying٬ Moving٬ Linking and Deleting a Cue")*](./cues/copying-moving-linking-and-deleting.md#deleting-a-cue)<br/>
-[Deleting a Cue List *(in "Copying٬ Moving٬ Linking and Deleting Cue Lists")*](./cue-lists/copying-moving-linking-and-deleting.md#deleting-a-cue-list)<br/>
-[Deleting a Patched Fixture *(in "Copying٬ moving and deleting fixtures")*](./patching/copying-moving-and-deleting-fixtures.md#deleting-a-patched-fixture)<br/>
-[Deleting a step from a chase *(in "Copying٬ Moving٬ Linking and Deleting a Chase")*](./chases/copying-moving-linking-and-deleting.md#deleting-a-step-from-a-chase)<br/>
+[Deleting a chase *(in "Copying, Moving, Linking and Deleting a Chase")*](./chases/copying-moving-linking-and-deleting.md#deleting-a-chase)<br/>
+[Deleting a Cue *(in "Copying, Moving, Linking and Deleting a Cue")*](./cues/copying-moving-linking-and-deleting.md#deleting-a-cue)<br/>
+[Deleting a Cue List *(in "Copying, Moving, Linking and Deleting Cue Lists")*](./cue-lists/copying-moving-linking-and-deleting.md#deleting-a-cue-list)<br/>
+[Deleting a Patched Fixture *(in "Copying, moving and deleting fixtures")*](./patching/copying-moving-and-deleting-fixtures.md#deleting-a-patched-fixture)<br/>
+[Deleting a step from a chase *(in "Copying, Moving, Linking and Deleting a Chase")*](./chases/copying-moving-linking-and-deleting.md#deleting-a-step-from-a-chase)<br/>
 [Deleting Fixtures from Groups *(in "Fixture Groups")*](./controlling-fixtures/fixture-groups.md#deleting-fixtures-from-groups)<br/>
-[Deleting Palettes *(in "Copying٬ Moving and Deleting Palettes")*](./palettes/copying-moving-and-deleting-palettes.md#deleting-palettes)<br/>
+[Deleting Palettes *(in "Copying, Moving and Deleting Palettes")*](./palettes/copying-moving-and-deleting-palettes.md#deleting-palettes)<br/>
 [Deleting playbacks in a Timeline *(in "Running and Editing Timelines")*](./timelines/running-and-editing-timelines.md#deleting-playbacks-in-a-timeline)<br/>
 [Deleting Shapes *(in "Editing Shapes and Effects")*](./effects/editing-shapes-and-effects.md#deleting-shapes)<br/>
 [Directly removing attributes from fixtures *(in "Selecting Fixtures")*](./controlling-fixtures.md#directly-removing-attributes-from-fixtures)<br/>
@@ -151,7 +151,7 @@ import Video from '@site/src/components/video.tsx';
 [Displacement and Layer Properties *(in "Pixel Mapper Examples")*](./effects/pixel-mapper-examples.md#displacement-and-layer-properties)<br/>
 [Display *(in "User Settings")*](./system-settings/user-settings.md#display)<br/>
 [Display Setup *(in "The System Menu")*](./system-settings/the-system-menu.md#display-setup)<br/>
-[DMX Output Properties *(in "DMX Settings")*](./system-settings/dmx-output-mapping.md#dmx-output-properties)<br/>
+[DMX Output Properties *(in "DMX Settings")*](./system-settings/dmx-output-mapping.md#configuring-dmx-outputs)<br/>
 [DMX Overview *(in "DMX Settings")*](./system-settings/dmx-output-mapping.md#dmx-overview)<br/>
 [DMX Settings *(in "The System Menu")*](./system-settings/the-system-menu.md#dmx-settings)<br/>
 [DMX View Window *(in "Changing the Patch")*](./patching/changing-the-patch.md#dmx-view-window)<br/>
@@ -167,7 +167,6 @@ import Video from '@site/src/components/video.tsx';
 [Editing a Cue List While Recording *(in "Editing Cue Lists")*](./cue-lists/editing-cue-lists.md#editing-a-cue-list-while-recording)<br/>
 [Editing a Live Running Shape *(in "Editing Shapes and Effects")*](./effects/editing-shapes-and-effects.md#editing-a-live-running-shape)<br/>
 [Editing a Shape in a Cue Using Include *(in "Editing Shapes and Effects")*](./effects/editing-shapes-and-effects.md#editing-a-shape-in-a-cue-using-include)<br/>
-[Editing Cues While Running *(in "Theatre Programming Quick Guide")*](./cue-lists/theatre-programming.md#editing-cues-while-running)<br/>
 [Editing Frames *(in "Key Frame Shapes")*](./effects/key-frame-shapes.md#editing-frames)<br/>
 [Editing Shapes and Effects in Cues *(in "Editing Shapes and Effects")*](./effects/editing-shapes-and-effects.md#editing-shapes-and-effects-in-cues)<br/>
 [Editing the Personality *(in "Fixture Personality Options")*](./patching/fixture-personality-options.md#editing-the-personality)<br/>
@@ -184,7 +183,7 @@ import Video from '@site/src/components/video.tsx';
 [Elements *(in "Pixel Mapper")*](./effects/pixel-mapper.md#elements)<br/>
 [Example 1: Odd/Even *(in "Pixel Mapper Examples")*](./effects/pixel-mapper-examples.md#example-1-oddeven)<br/>
 [Example 2 - Pseudo Random *(in "Pixel Mapper Examples")*](./effects/pixel-mapper-examples.md#example-2---pseudo-random)<br/>
-[Example 3 - Angles (or "when straight just isn't good enough...") *(in "Pixel Mapper Examples")*](./effects/pixel-mapper-examples.md#example-3---angles-or-when-straight-just-isn't-good-enough...)<br/>
+[Example 3 - Angles (or "when straight just isn't good enough...") *(in "Pixel Mapper Examples")*](./effects/pixel-mapper-examples.md#example-3---angles-or-when-straight-just-isnt-good-enough)<br/>
 [Example CITP setup *(in "Using Active Fixtures with CITP")*](./networking/using-active-fixtures.md#example-citp-setup)<br/>
 [Example of a simple Art-Net system *(in "Controlling Fixtures over a Network")*](./networking/controlling-fixtures-over-a-network.md#example-of-a-simple-art-net-system)<br/>
 [Exchange Mapping *(in "Changing the Patch")*](./patching/changing-the-patch.md#exchange-mapping)<br/>
@@ -210,7 +209,7 @@ import Video from '@site/src/components/video.tsx';
 [Fixture Button Halo *(in "Changing the Patch")*](./patching/changing-the-patch.md#fixture-button-halo)<br/>
 [Fixture Exchange *(in "Changing the Patch")*](./patching/changing-the-patch.md#fixture-exchange)<br/>
 [Fixture Group Masters *(in "Playback controls")*](./running-the-show/playback-controls.md#fixture-group-masters)<br/>
-[Fixture Layout *(in "Fixture Groups")*](./controlling-fixtures/fixture-groups.md#fixture-layout)<br/>
+[Fixture Layout *(in "Fixture Groups")*](./controlling-fixtures/fixture-groups.md#group-layout)<br/>
 [Fixture macros and Lamping fixtures on and off *(in "Fixture Advanced Options")*](./controlling-fixtures/advanced-options.md#fixture-macros-and-lamping-fixtures-on-and-off)<br/>
 [Fixture Offset *(in "Fixture Personality Options")*](./patching/fixture-personality-options.md#fixture-offset)<br/>
 [Fixture Order *(in "Fixture Groups")*](./controlling-fixtures/fixture-groups.md#fixture-order)<br/>
@@ -245,7 +244,7 @@ import Video from '@site/src/components/video.tsx';
 [Handle Tab *(in "Cue List Options")*](./cue-lists/cue-list-options.md#handle-tab)<br/>
 [Handle Tab *(in "Playback Options")*](./cues/playback-options.md#handle-tab)<br/>
 [Handle Tab *(in "Timeline Options")*](./timelines/timeline-options.md#handle-tab)<br/>
-[Handle Worlds *(in "Multi⁃User Operation")*](./titan-basics/multi-user-operation.md#handle-worlds)<br/>
+[Handle Worlds *(in "Multi-User Operation")*](./titan-basics/multi-user-operation.md#handle-worlds)<br/>
 [Handles *(in "User Settings")*](./system-settings/user-settings.md#handles)<br/>
 [Highlighting the Selected Fixture with Prev/Next *(in "Selecting Fixtures")*](./controlling-fixtures.md#highlighting-the-selected-fixture-with-prevnext)<br/>
 [How Titan Works When Programming *(in "Creating a Cue")*](./cues/creating-a-cue.md#how-titan-works-when-programming)
@@ -263,7 +262,7 @@ import Video from '@site/src/components/video.tsx';
 [Installation Instructions *(in "Recovering and Reinstalling the Console")*](./system-settings/recovering-reinstalling-the-console.md#installation-instructions)<br/>
 [Installing the Titan software *(in "T1 and T2")*](./about-the-consoles/t1-and-t2.md#installing-the-titan-software)<br/>
 [Installing Titan Simulator *(in "Titan Simulator")*](./titan-basics/titan-simulator.md#installing-titan-simulator)<br/>
-[Intensity wheel (Diamond 9 only) *(in "Changing Fixture Attributes")*](./controlling-fixtures/changing-fixture-attributes.md#intensity-wheel-diamond-9-only)<br/>
+[Intensity wheel (Diamond 9 only) *(in "Changing Fixture Attributes")*](./controlling-fixtures/changing-fixture-attributes.md#intensity-wheel-diamond-9-and-diamond-7-only)<br/>
 [Intensity/Shutter *(in "Changing Fixture Attributes")*](./controlling-fixtures/changing-fixture-attributes.md#intensityshutter)<br/>
 [Invert Attributes *(in "Fixture Personality Options")*](./patching/fixture-personality-options.md#invert-attributes)
   
@@ -286,14 +285,14 @@ import Video from '@site/src/components/video.tsx';
   
 ## L
 [Label the console *(in "Useful functions")*](./running-the-show.md#label-the-console)<br/>
-[Layout editor with Ai server *(in "Operating Synergy")*](./synergy/operating-synergy.md#layout-editor-with-ai-server)<br/>
+[Layout editor with Ai server *(in "Operating Synergy")*](./synergy/operating-synergy.md#layout-editor-with-synergy)<br/>
 [LEDs *(in "User Settings")*](./system-settings/user-settings.md#leds)<br/>
 [Legends and Picture Legends *(in "Workspace Windows")*](./titan-basics/workspace-windows.md#legends-and-picture-legends)<br/>
-[Lightmap: Pixel Mapping Ai Media Content *(in "Operating Synergy")*](./synergy/operating-synergy.md#lightmap-pixel-mapping-ai-media-content)<br/>
+[Lightmap: Pixel Mapping Ai Media Content *(in "Operating Synergy")*](./synergy/operating-synergy.md#lightmap-pixel-mapping-media-content)<br/>
 [Linking *(in "Chase Options")*](./chases/chase-options.md#linking)<br/>
-[Linking to other TitanNet Sessions *(in "Multi⁃User Operation")*](./titan-basics/multi-user-operation.md#linking-to-other-titannet-sessions)<br/>
+[Linking to other TitanNet Sessions *(in "Multi-User Operation")*](./titan-basics/multi-user-operation.md#linking-to-other-titannet-sessions)<br/>
 [Loading a show *(in "Loading and saving shows")*](./titan-basics/loading-and-saving-shows.md#loading-a-show)<br/>
-[Loading and saving shows, and other Setup *(in "TNP Console Mode")*](./titan-net/tnp-console-mode.md#loading-and-saving-shows,-and-other-setup)<br/>
+[Loading and saving shows, and other Setup *(in "TNP Console Mode")*](./titan-net/tnp-console-mode.md#loading-and-saving-shows-and-other-setup)<br/>
 [Local Release Mask *(in "Cue Playback")*](./cues/cue-playback.md#local-release-mask)<br/>
 [Lock *(in "User Settings")*](./system-settings/user-settings.md#lock)<br/>
 [Locking a playback onto the same handle on every page *(in "Playback controls")*](./running-the-show/playback-controls.md#locking-a-playback-onto-the-same-handle-on-every-page)<br/>
@@ -320,9 +319,9 @@ import Video from '@site/src/components/video.tsx';
 [Module Properties *(in "DMX Settings")*](./system-settings/dmx-output-mapping.md#module-properties)<br/>
 [Move In Dark (MID) Functions *(in "Cue List Playback")*](./cue-lists/cue-list-playback.md#move-in-dark-mid-functions)<br/>
 [Move In Dark *(in "Cue List Options")*](./cue-lists/cue-list-options.md#move-in-dark)<br/>
-[Moving a Cue *(in "Copying٬ Moving٬ Linking and Deleting a Cue")*](./cues/copying-moving-linking-and-deleting.md#moving-a-cue)<br/>
+[Moving a Cue *(in "Copying, Moving, Linking and Deleting a Cue")*](./cues/copying-moving-linking-and-deleting.md#moving-a-cue)<br/>
 [Moving around the timeline view with the wheels *(in "Timelines introduction")*](./timelines.md#moving-around-the-timeline-view-with-the-wheels)<br/>
-[Moving, Copying and Deleting Individual Cues *(in "Editing Cue Lists")*](./cue-lists/editing-cue-lists.md#moving,-copying-and-deleting-individual-cues)<br/>
+[Moving, Copying and Deleting Individual Cues *(in "Editing Cue Lists")*](./cue-lists/editing-cue-lists.md#moving-copying-and-deleting-individual-cues)<br/>
 [Multiple Effects *(in "Key Frame Shapes")*](./effects/key-frame-shapes.md#multiple-effects)
   
 ## N
@@ -331,14 +330,13 @@ import Video from '@site/src/components/video.tsx';
 [Network DMX Node Settings *(in "The System Menu")*](./system-settings/the-system-menu.md#network-dmx-node-settings)<br/>
 [Network Settings *(in "The System Menu")*](./system-settings/the-system-menu.md#network-settings)<br/>
 [Network Settings *(in "TNP Slave Mode")*](./titan-net/tnp-slave-mode.md#network-settings)<br/>
-[Network Setup using a Dedicated Access Point *(in "Setting up the Remote")*](./remote-control/setting-up-the-remote.md#network-setup-using-a-dedicated-access-point)<br/>
 [Node Settings *(in "TNP Slave Mode")*](./titan-net/tnp-slave-mode.md#node-settings)
   
 ## O
 [Only Showing Relevant Palettes *(in "Using Palettes")*](./palettes/using-palettes.md#only-showing-relevant-palettes)<br/>
 [Opening a Chase for Editing *(in "Editing a Chase")*](./chases/editing-a-chase.md#opening-a-chase-for-editing)<br/>
 [Opening and Positioning Workspace Windows *(in "Workspace Windows")*](./titan-basics/workspace-windows.md#opening-and-positioning-workspace-windows)<br/>
-[Optical Connections *(in "Connecting consoles to a network")*](./networking/connecting-the-arena-to-a-network.md#optical-connections)<br/>
+[Optical Connections *(in "Connecting consoles to a network")*](./networking/connecting-the-arena-to-a-network.md#optical-connections-d9-and-arena)<br/>
 [Options *(in "Key Profiles")*](./system-settings/key-profiles.md#options)<br/>
 [Other Connections *(in "Connecting up and Titan basics")*](./titan-basics.md#other-connections)<br/>
 [Other Layout Editor Tools *(in "Pixel Mapper Examples")*](./effects/pixel-mapper-examples.md#other-layout-editor-tools)<br/>
@@ -356,8 +354,8 @@ import Video from '@site/src/components/video.tsx';
 [Patching *(in "User Settings")*](./system-settings/user-settings.md#patching)<br/>
 [Patching Active Fixtures / Media Servers *(in "Patching New Fixtures or Dimmers")*](./patching/patching-new-fixtures-or-dimmers.md#patching-active-fixtures--media-servers)<br/>
 [Patching by RDM *(in "Patching New Fixtures or Dimmers")*](./patching/patching-new-fixtures-or-dimmers.md#patching-by-rdm)<br/>
-[Patching Capture Fixtures onto the Console *(in "Linking the Console to Stand⁃Alone Capture")*](./capture-visualiser/linking-the-console-to-stand-alone-capture.md#patching-capture-fixtures-onto-the-console)<br/>
-[Patching Console Fixtures into Capture *(in "Linking the Console to Stand⁃Alone Capture")*](./capture-visualiser/linking-the-console-to-stand-alone-capture.md#patching-console-fixtures-into-capture)<br/>
+[Patching Capture Fixtures onto the Console *(in "Linking the Console to Stand-Alone Capture")*](./capture-visualiser/linking-the-console-to-stand-alone-capture.md#patching-capture-fixtures-onto-the-console)<br/>
+[Patching Console Fixtures into Capture *(in "Linking the Console to Stand-Alone Capture")*](./capture-visualiser/linking-the-console-to-stand-alone-capture.md#patching-console-fixtures-into-capture)<br/>
 [Patching Dimmers *(in "Patching New Fixtures or Dimmers")*](./patching/patching-new-fixtures-or-dimmers.md#patching-dimmers)<br/>
 [Patching Fixtures with Multiple Cells (sub-fixtures) *(in "Patching New Fixtures or Dimmers")*](./patching/patching-new-fixtures-or-dimmers.md#patching-fixtures-with-multiple-cells-sub-fixtures)<br/>
 [Patching Moving Light Fixtures *(in "Patching New Fixtures or Dimmers")*](./patching/patching-new-fixtures-or-dimmers.md#patching-moving-light-fixtures)<br/>
@@ -412,7 +410,7 @@ import Video from '@site/src/components/video.tsx';
 [Record a Group *(in "Fixture Groups")*](./controlling-fixtures/fixture-groups.md#record-a-group)<br/>
 [Record Mode *(in "Creating a Cue List")*](./cue-lists/creating-a-cue-list.md#record-mode)<br/>
 [Recording Cue with a Mask *(in "Creating a Cue")*](./cues/creating-a-cue.md#recording-cue-with-a-mask)<br/>
-[Recording Palettes *(in "Operating the Remote")*](./remote-control/operating-the-remote.md#recording-palettes)<br/>
+[Recording Palettes *(in "Operating the Remote")*](./remote-control/operating-the-remote.md#recording-palettes-groups-and-cues)<br/>
 [Recover show *(in "Loading and saving shows")*](./titan-basics/loading-and-saving-shows.md#recover-show)<br/>
 [Release *(in "Cue Playback")*](./cues/cue-playback.md#release)<br/>
 [Release *(in "User Settings")*](./system-settings/user-settings.md#release)<br/>
@@ -463,7 +461,7 @@ import Video from '@site/src/components/video.tsx';
 [Setting Attribute Fade Times for a Cue *(in "Cue Timing")*](./cues/cue-timing.md#setting-attribute-fade-times-for-a-cue)<br/>
 [Setting Attribute Fade Times for a Cue in a Chase *(in "Chase Timing")*](./chases/chase-timing.md#setting-attribute-fade-times-for-a-cue-in-a-chase)<br/>
 [Setting Attributes from the Softkeys *(in "Changing Fixture Attributes")*](./controlling-fixtures/changing-fixture-attributes.md#setting-attributes-from-the-softkeys)<br/>
-[Setting Dimmer/Fixture Levels *(in "Theatre Programming Quick Guide")*](./cue-lists/theatre-programming.md#setting-dimmerfixture-levels)<br/>
+[Setting Dimmer/Fixture Levels *(in "Theatre Programming Quick Guide")*](./cue-lists/theatre-programming.md#setting-fixture-intensity-levels)<br/>
 [Setting Fixture/Attribute Times *(in "Changing Fixture Attributes")*](./controlling-fixtures/changing-fixture-attributes.md#setting-fixtureattribute-times)<br/>
 [Setting Fixtures to a Start Position (Locate) *(in "Selecting Fixtures")*](./controlling-fixtures.md#setting-fixtures-to-a-start-position-locate)<br/>
 [Setting Legends *(in "Changing the Patch")*](./patching/changing-the-patch.md#setting-legends)<br/>
@@ -471,21 +469,21 @@ import Video from '@site/src/components/video.tsx';
 [Setting Other Attributes of Intelligent Fixtures *(in "Theatre Programming Quick Guide")*](./cue-lists/theatre-programming.md#setting-other-attributes-of-intelligent-fixtures)<br/>
 [Setting Palettes to All Fixtures in a Playback *(in "Using Palettes")*](./palettes/using-palettes.md#setting-palettes-to-all-fixtures-in-a-playback)<br/>
 [Setting Speed and Crossfade for a Chase *(in "Chase Playback")*](./chases/chase-playback.md#setting-speed-and-crossfade-for-a-chase)<br/>
-[Setting the console's IP address *(in "Controlling Fixtures over a Network")*](./networking/controlling-fixtures-over-a-network.md#setting-the-console's-ip-address)<br/>
+[Setting the console's IP address *(in "Controlling Fixtures over a Network")*](./networking/controlling-fixtures-over-a-network.md#setting-the-consoles-ip-address)<br/>
 [Setting the View *(in "TNP Console Mode")*](./titan-net/tnp-console-mode.md#setting-the-view)<br/>
 [Setting track legends and halo colours on tracks *(in "Running and Editing Timelines")*](./timelines/running-and-editing-timelines.md#setting-track-legends-and-halo-colours-on-tracks)<br/>
 [Setting up a MIDI fader controller with T2 *(in "External triggering")*](./running-the-show/midi-dmx-or-audio-triggering.md#setting-up-a-midi-fader-controller-with-t2)<br/>
 [Setting up BPM triggers from Pioneer *(in "Linking PioneerDJ System to Titan")*](./running-the-show/linking-pioneerdj-system-to-titan.md#setting-up-bpm-triggers-from-pioneer)<br/>
 [Setting up Cameras (Views) *(in "Setting up the Rig")*](./capture-visualiser/setting-up-the-rig.md#setting-up-cameras-views)<br/>
-[Setting Up Consoles for Backup *(in "Linking Consoles for Multi⁃User or Backup")*](./running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup)<br/>
-[Setting Up Consoles for Multi-User *(in "Linking Consoles for Multi⁃User or Backup")*](./running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-multi-user)<br/>
+[Setting Up Consoles for Backup *(in "Linking Consoles for Multi-User or Backup")*](./running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-backup)<br/>
+[Setting Up Consoles for Multi-User *(in "Linking Consoles for Multi-User or Backup")*](./running-the-show/linking-consoles-for-multi-user-or-backup.md#setting-up-consoles-for-multi-user)<br/>
 [Setting up DMX outputs *(in "Controlling Fixtures over a Network")*](./networking/controlling-fixtures-over-a-network.md#setting-up-dmx-outputs)<br/>
 [Setting up External Triggering *(in "External triggering")*](./running-the-show/midi-dmx-or-audio-triggering.md#setting-up-external-triggering)<br/>
 [Setting up Fixtures *(in "Setting up the Rig")*](./capture-visualiser/setting-up-the-rig.md#setting-up-fixtures)<br/>
 [Setting up the Ai Show *(in "Setting up Synergy")*](./synergy/setting-up.md#setting-up-the-ai-show)<br/>
 [Setting up the Stage and Rigging *(in "Setting up the Rig")*](./capture-visualiser/setting-up-the-rig.md#setting-up-the-stage-and-rigging)<br/>
 [Setup *(in "TNP Slave Mode")*](./titan-net/tnp-slave-mode.md#setup)<br/>
-[Shape & Effect Speed *(in "Playback Options")*](./cues/playback-options.md#shape-&-effect-speed)<br/>
+[Shape & Effect Speed *(in "Playback Options")*](./cues/playback-options.md#shape--effect-speed)<br/>
 [Shape Behaviour *(in "Playback Options")*](./cues/playback-options.md#shape-behaviour)<br/>
 [Shape Direction *(in "Shape Generator")*](./effects/shape-generator.md#shape-direction)<br/>
 [Shape Size *(in "Playback Options")*](./cues/playback-options.md#shape-size)<br/>
@@ -508,7 +506,7 @@ import Video from '@site/src/components/video.tsx';
 [Speed multiplier *(in "Chase Options")*](./chases/chase-options.md#speed-multiplier)<br/>
 [Speed Multipliers *(in "Chase Timing")*](./chases/chase-timing.md#speed-multipliers)<br/>
 [Speed Source *(in "Playback Options")*](./cues/playback-options.md#speed-source)<br/>
-[Start Time & Duration *(in "Timeline Options")*](./timelines/timeline-options.md#start-time-&-duration)<br/>
+[Start Time & Duration *(in "Timeline Options")*](./timelines/timeline-options.md#start-time--duration)<br/>
 [Starting up and shutting down *(in "Connecting up and Titan basics")*](./titan-basics.md#starting-up-and-shutting-down)<br/>
 [Stepping through selected fixtures one at a time *(in "Selecting Fixtures")*](./controlling-fixtures.md#stepping-through-selected-fixtures-one-at-a-time)<br/>
 [Stopping pixel map effects with Mask FX *(in "Pixel Mapper")*](./effects/pixel-mapper.md#stopping-pixel-map-effects-with-mask-fx)<br/>
@@ -562,10 +560,9 @@ import Video from '@site/src/components/video.tsx';
 [Titan and TNP outputting over Art-Net (and DMX) *(in "A quick guide to IP addressing")*](./networking/a-quick-guide-to-ip-addressing.md#titan-and-tnp-outputting-over-art-net-and-dmx)<br/>
 [Titan and TNP with all output operating as standard DMX *(in "A quick guide to IP addressing")*](./networking/a-quick-guide-to-ip-addressing.md#titan-and-tnp-with-all-output-operating-as-standard-dmx)<br/>
 [Titan Healthcheck *(in "Connecting up and Titan basics")*](./titan-basics.md#titan-healthcheck)<br/>
-[Titan Mobile *(in "Multi⁃User Operation")*](./titan-basics/multi-user-operation.md#titan-mobile)<br/>
 [Titan Mobile Connections panel *(in "Titan Mobile")*](./about-the-consoles/titan-mobile.md#titan-mobile-connections-panel)<br/>
 [Titan Mobile Wing *(in "Fader Wings")*](./about-the-consoles/titan-mobile.md#titan-mobile-wing)<br/>
-[Titan Mobile, Titan Go or Titan Simulator Procedure *(in "Fixture Personalities")*](./fixture-personalities.md#titan-mobile,-titan-go-or-titan-simulator-procedure)<br/>
+[Titan Mobile, Titan Go or Titan Simulator Procedure *(in "Fixture Personalities")*](./fixture-personalities.md#titan-pc-suite-procedure-t1t2t3titan-mobiletitan-simulator)<br/>
 [Titan outputting over Art-Net Fixtures (and DMX) *(in "A quick guide to IP addressing")*](./networking/a-quick-guide-to-ip-addressing.md#titan-outputting-over-art-net-fixtures-and-dmx)<br/>
 [Titan Telemetry *(in "The System Menu")*](./system-settings/the-system-menu.md#titan-telemetry)<br/>
 [TitanNet Security *(in "The System Menu")*](./system-settings/the-system-menu.md#titannet-security)<br/>
@@ -594,9 +591,8 @@ import Video from '@site/src/components/video.tsx';
 [Uploading Content with the Media browser *(in "Operating Synergy")*](./synergy/operating-synergy.md#uploading-content-with-the-media-browser)<br/>
 [User Settings *(in "The System Menu")*](./system-settings/the-system-menu.md#user-settings)<br/>
 [User/Custom Personalities *(in "Fixture Personalities")*](./fixture-personalities.md#usercustom-personalities)<br/>
-[Users *(in "Multi⁃User Operation")*](./titan-basics/multi-user-operation.md#users)<br/>
+[Users *(in "Multi-User Operation")*](./titan-basics/multi-user-operation.md#users)<br/>
 [Users tab *(in "Show Library")*](./titan-basics/show-library.md#users-tab)<br/>
-[Using an Existing Network *(in "Setting up the Remote")*](./remote-control/setting-up-the-remote.md#using-an-existing-network)<br/>
 [Using arrow buttons to move trigger selection *(in "Running and Editing Timelines")*](./timelines/running-and-editing-timelines.md#using-arrow-buttons-to-move-trigger-selection)<br/>
 [Using Fixture Groups *(in "Fixture Groups")*](./controlling-fixtures/fixture-groups.md#using-fixture-groups)<br/>
 [Using Parts of Existing Cues - the Include Function *(in "Editing Cues")*](./cues/editing-cues.md#using-parts-of-existing-cues---the-include-function)<br/>
