@@ -71,7 +71,7 @@ Press <Keys.HardKey>Copy</Keys.HardKey>, select fixtures, then touch in the Layo
 
 ### Adding fixtures from group layouts using Record
 
-If you select fixtures using groups, and you have set up a layout for the group (see [Group Layout](../controlling-fixtures/fixture-groups.md#fixture-layout)), then the group layout will be used to position the fixtures.
+If you select fixtures using groups, and you have set up a layout for the group (see [Group Layout](../controlling-fixtures/fixture-groups.md#group-layout)), then the group layout will be used to position the fixtures.
 
 Select fixtures using groups, press <Keys.HardKey>Record</Keys.HardKey>, then press a Layout handle. Pick one of the options from the softkeys:
 

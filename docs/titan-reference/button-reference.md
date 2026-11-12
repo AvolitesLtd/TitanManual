@@ -161,7 +161,7 @@ Backspace key for numeric entry or command line inputs.
 ## <Keys.HardKey>Connect</Keys.HardKey> 
 (Labelled Cue or Connect/Cue on some consoles) Connects the sequence controls (Go button etc) to a playback. Also used to select cues when recording or playing cue lists.
 
-See [Connecting a Chase for control](../chases/chase-playback.md#connecting-a-chase-for-control), [Running a Cue List](../cue-lists/cue-list-playback.md#running-a-cue-list), [Theatre programming](../cue-lists/theatre-programming.md)
+See [Connecting a Playback for control](../chases/chase-playback.md#connecting-a-playback-for-control), [Running a Cue List](../cue-lists/cue-list-playback.md#running-a-cue-list), [Theatre programming](../cue-lists/theatre-programming.md)
 
 
 
@@ -178,7 +178,7 @@ See [Connecting a Chase for control](../chases/chase-playback.md#connecting-a-ch
 
 
 ## <Keys.HardKey>Cue</Keys.HardKey> 
- Used when selecting cues in Cue Lists. Labelled Connect on some consoles, see [Connect](#Connect).
+ Used when selecting cues in Cue Lists. Labelled Connect on some consoles, see [Connect](#connect).
 
 
 
@@ -255,7 +255,7 @@ Buttons | Action
 
 
 ## <Keys.HardKey>FX</Keys.HardKey> 
- (D9/D7 and T3 only) Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects. Also used to enable/disable FX attribute group when setting masks. See [Shape menu](#Shape).
+ (D9/D7 and T3 only) Selects the Shape/FX menu to run shapes, key frame shapes or pixel map effects. Also used to enable/disable FX attribute group when setting masks. See [Shape menu](#shape).
 
  Multiple presses followed by <Keys.HardKey>Enter</Keys.HardKey> will select the options in the Shape/FX menu - press twice then <Keys.HardKey>Enter</Keys.HardKey> to select Key Frame Shapes or three times then <Keys.HardKey>Enter</Keys.HardKey> to select Pixel Mapper.
 
@@ -307,7 +307,7 @@ Buttons | Action
   Buttons | Action
  --------|--------
   <Keys.HardKey>Go page</Keys.HardKey> ``<n>`` | Switch fader bank to page n
-  <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Go page</Keys.HardKey> | Release whole page of playbacks. See [Release Page](../cues/cue-playback.md#releasing-a-whole-page-of-playbacks).
+  <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Go page</Keys.HardKey> | Release whole page of playbacks. See [Release Page](../cues/cue-playback.md#releasing-a-page-of-playbacks).
 
 
 
@@ -497,7 +497,7 @@ Buttons | Action
  
 
  ## <Keys.HardKey>Pattern/All</Keys.HardKey> 
- (D9/D7 and T3 only) Used to start and end pattern selection (such as odd/even) within a range of selected fixtures. Same as <Keys.HardKey>All</Keys.HardKey> on other consoles, see [All](#All).
+ (D9/D7 and T3 only) Used to start and end pattern selection (such as odd/even) within a range of selected fixtures. Same as <Keys.HardKey>All</Keys.HardKey> on other consoles, see [All](#all).
 
 
 
@@ -556,7 +556,7 @@ Buttons | Action
   <Keys.HardKey>Release</Keys.HardKey> {Master} | Releases the master to its default state (no effect on output), see [Releasing a Master](../cues/cue-playback.md#releasing-a-master).
   <Keys.HardKey>Release</Keys.HardKey> {Playback} | Release the playback (ignoring its priority). See [Release](../cues/cue-playback.md#release).
   <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Clear</Keys.HardKey> | Release attributes in the programmer. See [Release](../cues/cue-playback.md#releasing-the-programmer-contents).
-  <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Go Page</Keys.HardKey> | Release whole page of playbacks. See [Release Page](../cues/cue-playback.md#releasing-a-whole-page-of-playbacks).
+  <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Go Page</Keys.HardKey> | Release whole page of playbacks. See [Release Page](../cues/cue-playback.md#releasing-a-page-of-playbacks).
   <Keys.HardKey>Release</Keys.HardKey> <Keys.HardKey>Release</Keys.HardKey> | Release all active playbacks by priority. See [Release](../cues/cue-playback.md#release).
   <Keys.HardKey>Record</Keys.HardKey> <Keys.HardKey>Release</Keys.HardKey> | Record the release or power on state. See [Power On State](../cues/cue-playback#programming-the-release--power-on-state).
 
@@ -611,7 +611,7 @@ Buttons | Action
 
 
 ## <Keys.HardKey>Snap</Keys.HardKey> 
- Enables Snap mode which makes <Keys.HardKey>Prev Step</Keys.HardKey> / <Keys.HardKey>Next Step</Keys.HardKey> buttons snap through cues without using the programmed fade times in cue lists or chases. See [Running a cue list](../cue-lists/cue-list-playback.md#running-a-cue-list). Sets the Chase Snap (if a chase is connected) or Cue List Snap (if a cue list is connected) user setting in [General user settings](../system-settings/user-settings.md#chase-snap).
+ Enables Snap mode which makes <Keys.HardKey>Prev Step</Keys.HardKey> / <Keys.HardKey>Next Step</Keys.HardKey> buttons snap through cues without using the programmed fade times in cue lists or chases. See [Running a cue list](../cue-lists/cue-list-playback.md#running-a-cue-list). Sets the Chase Snap (if a chase is connected) or Cue List Snap (if a cue list is connected) user setting in [General user settings](../system-settings/user-settings.md#general).
 
 
 

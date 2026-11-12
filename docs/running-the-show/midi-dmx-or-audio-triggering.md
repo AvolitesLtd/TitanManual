@@ -219,7 +219,7 @@ shows the levels in the different bands of incoming audio.
 ![Audio Window](/docs/images/Audio-Window.png)
 
 If the console does not have suitable hardware a warning message is
-displayed (see [top of page](./midi-dmx-or-audio-triggering.md#) for list of 
+displayed (see [top of page](./midi-dmx-or-audio-triggering.md) for list of 
 audio-enabled consoles).
 
 -   The Enable switch below the gain slider disables all audio triggers

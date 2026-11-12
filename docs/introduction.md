@@ -33,7 +33,7 @@ Happy programming!
 
 ## Conventions used in the manual
 
-Links or cross-references to a more detailed description are shown [like this](#).
+Links or cross-references to a more detailed description are shown [like this](./#).
 
 To help you find buttons and controls:
 - <Keys.HardKey>This</Keys.HardKey> indicates a physical button on the console
