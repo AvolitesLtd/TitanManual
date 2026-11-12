@@ -20,7 +20,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
 
  ## <Keys.HardKey>@</Keys.HardKey> 
- (by numeric keypad) Allows numeric entry of attribute values on selected fixtures. Can also be used with <Keys.HardKey>Fixture</Keys.HardKey> or <Keys.HardKey>Group</Keys.HardKey> buttons to change selection state. For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](#wheel-).
+ (by numeric keypad) Allows numeric entry of attribute values on selected fixtures. Can also be used with <Keys.HardKey>Fixture</Keys.HardKey> or <Keys.HardKey>Group</Keys.HardKey> buttons to change selection state. For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](#wheel-at).
 
  Examples: 
 
@@ -36,7 +36,7 @@ This section lists all the physical buttons and tells you what they do. The **li
 
 
 ## <Keys.HardKey>@A</Keys.HardKey> <Keys.HardKey>@B</Keys.HardKey> <Keys.HardKey>@C</Keys.HardKey>
-For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](#wheel-).
+For the <Keys.HardKey>@</Keys.HardKey> buttons next to the wheels see [Wheel @](#wheel-at).
 
 
 
@@ -702,7 +702,7 @@ Buttons | Action
 
 
 
-## <Keys.HardKey>Wheel @</Keys.HardKey> 
+## <Keys.HardKey>Wheel @</Keys.HardKey>{#wheel-at}
 (The @ buttons next to the wheels) - Open the Wheel @ menu which lets you control the attribute which is currently allocated to the wheel.
 
 

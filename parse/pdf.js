@@ -145,6 +145,11 @@ function replaceLinks(filename,content,docsPath,version,lang) {
     }
 
     let fullFilePath = path.resolve(docsPath, filePath, link);
+	
+	if(anchor) {
+	  // replace double dashes which were created by deleting illegal characters with single dashes
+	  anchor = anchor.replace(/(?<!-)--(?!-)/g, "-");	
+	}
 
     let resolvedPath = resolvePageVersion(path.join(filePath, link),version,lang)
 
