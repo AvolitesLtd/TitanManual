@@ -10,7 +10,7 @@ The **Regions**  page is used to map a surface or layer to an output. It defines
 
 *Note: any changes on this page may cause the output to pause whilst changes are being applied.*
 
-The Regions page can be resized to give more space to the canvas or the region list.
+Drag the border between the region list, the canvas, and the controls to give more space to the canvas or the region list.
 
 ![Prism](/prism-images/stage/regions/regions-page.png)
 

@@ -24,19 +24,14 @@ The full list of changes, including bug fixes, is in the [Prism Suite v2.2 Relea
 
 ## Updates
 
-- **[USB Expert](./settings/settings-timecode.md#timecode-source)** - Updated USB Expert for LTC and MTC DMX.
 - **[System Time](./settings/settings-timecode.md#timecode-source)** - Use the computer's system clock as a timecode source.
 - **[ProRes and YUV](./play/banks.md#video)** - Improved support for ProRes profiles and YUV formats.
-- **[Region tools](./stage/regions.md#canvas-controls)** - Zoom, pan, snap, multi-select, and create-region tools.
-- **[Resizable pages](./play/play.md#layout-overview)** - The Play and Regions pages can be resized.
-- **[Navigation highlighting](./quick-start/navigation.md#view-tabs)** - Clearer highlighting of the current view.
+- **[Canvas Controls for Regions](./stage/regions.md#canvas-controls)** - Zoom, pan, snap, multi-select, and create-region tools.
 - **[Media Manager bank filter](./play/media-manager.md#filter-by)** - Filter media by bank.
 - **[UI rendering quality and preview](./settings/settings-playback.md#renderer)** - Settings for UI rendering quality and previews.
 - **[Ask before deleting](./settings/settings-general.md#application)** - Option to ask for confirmation before deleting.
 - **[Automatic selection](./quick-start/navigation.md#multi-selection)** - Newly added or duplicated elements are selected automatically.
 - **[Default lock status](./settings/settings-general.md#application)** - Default lock status for linked numeric fields.
-- **[Output colour space](./stage/outputs.md#physical-output-controls)** - Colour space on output display settings.
-- **[Numeric fields](./play/layers.md#controlling-the-layer)** - Finer control for speed and numeric text fields.
 - **[Launch from start](./play/timecode-triggers.md#launch-from-start)** - Timecode triggers can launch media from the start of the clip.
 - **[Synergy personality](./settings/settings-synergy.md)** - Updated Prism personality, including Sync to DMX and Reset to Default.
 - **[Health check](./quick-start/system-tray.md)** - A health check runs when Prism starts.
