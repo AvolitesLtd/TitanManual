@@ -42,7 +42,7 @@ Clicking on Prism logo will hide all [View Tabs](#view-tabs), showing the select
 | Collect All and Save | Saves the current project and collects all media files in use to a folder. |
 | Open Project with Collection | Opens a project file and loads all media files saved with it. |
 
-More information found at [Projects Management](./projects-management.md) 
+More information found at [Project Management](./project-management.md) 
 
 |  Item  |   Description   |
 |-------------|-----------------|

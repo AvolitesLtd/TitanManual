@@ -42,13 +42,13 @@ Colour space can be set in the output display settings so that the physical outp
 
 ### Edge Blend
 
-**Edge Blend** is applied on a physical output. Use it when multiple projectors or displays overlap, so that the overlapping edges fade together.
+An **Edge Blend** is applied on a physical output. Use it when multiple projectors or displays overlap, so that the overlapping edges fade together.
 
-Edge blend properties can be copied and pasted between physical outputs.
+Edge Blend properties can be copied and pasted between physical outputs.
 
 ### Keystone
 
-**Keystone** is applied on a physical output. Use it to correct geometry when the display is not square-on to the surface, by adjusting the output corners.
+A **Keystone** is applied on a physical output. Use it to correct geometry when the projector is not perpendicular to the surface, by adjusting the output corners.
 
 Keystone properties can be copied and pasted between physical outputs.
 
@@ -99,7 +99,7 @@ The RTSP Output acts as a live source, continuously sending video in real time.
 
 ## DMX Output
 
-A **DMX Output** sends pixel or control data from Prism as DMX. Use it with LED fixtures, nodes, or other DMX-controlled devices.
+A **DMX Output** sends pixel data from Prism as DMX. Use it with LED fixtures, nodes, or other DMX-controlled devices.
 
 Supported output types:
 

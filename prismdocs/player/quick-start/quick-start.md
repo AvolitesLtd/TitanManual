@@ -5,7 +5,7 @@ sidebar_label: Quick Start
 ---
 
 ### 1. Setting up a Project
-Start by creating a [new project](./projects-management.md/#new-project) via the [file menu](./navigation.md/#file).   
+Start by creating a [new project](./project-management.md/#new-project) via the [file menu](./navigation.md/#file).   
 
 **File** > **New Project**
 

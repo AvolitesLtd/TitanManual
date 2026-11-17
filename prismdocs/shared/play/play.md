@@ -9,8 +9,6 @@ sidebar_label: Play
 The **Play page** is the main workspace for managing and playing media. It allows you to organise media into **Banks**, control playback on **Layers**, and preview content before it is loaded live.
 
 Media can be adjusted in the **Preview** before being launched on a layer, and layer-specific parameters can be modified using the **Layer Controls** panel.
-
-The Play page panels can be resized to give more space to the canvas, layer list, controls, or banks.
 {{PRISM-END-COMMENT}}
 
 {{PLAYER-START-COMMENT}}
@@ -28,7 +26,7 @@ This view shows media content organised in a **Bank** and gives control over med
 {{PRISM-START-COMMENT}}
 ### Layout Overview
 
-The Play page is divided into several functional areas:
+The Play page is divided into several functional areas. Drag the border between two areas to give more space to the canvas, layer list, controls, or banks.
 
 #### Left Panel
 - Displays **Surfaces and Layers previews**.
