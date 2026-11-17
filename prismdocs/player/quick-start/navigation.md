@@ -40,7 +40,7 @@ Clicking on Prism Player logo will hide all [View Tabs](#view-tabs), showing the
 | Open | Open a project file. |
 | Open Recent | Select to open from a list of previous projects. |
 
-More information found at [Projects Management](./projects-management.md) 
+More information found at [Project Management](./project-management.md) 
 
 |  Item  |   Description   |
 |-------------|-----------------|

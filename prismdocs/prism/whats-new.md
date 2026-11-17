@@ -31,7 +31,6 @@ The full list of changes, including bug fixes, is in the [Prism Suite v2.2 Relea
 - **[Resizable pages](./play/play.md#layout-overview)** - The Play and Regions pages can be resized.
 - **[Navigation highlighting](./quick-start/navigation.md#view-tabs)** - Clearer highlighting of the current view.
 - **[Media Manager bank filter](./play/media-manager.md#filter-by)** - Filter media by bank.
-- **[Copy and paste](./stage/outputs.md#edge-blend)** - Copy and paste edge blend, keystone, and DMX regions.
 - **[UI rendering quality and preview](./settings/settings-playback.md#renderer)** - Settings for UI rendering quality and previews.
 - **[Ask before deleting](./settings/settings-general.md#application)** - Option to ask for confirmation before deleting.
 - **[Automatic selection](./quick-start/navigation.md#multi-selection)** - Newly added or duplicated elements are selected automatically.

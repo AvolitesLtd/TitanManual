@@ -53,7 +53,7 @@ Clicking on {{PRISM-APP}} logo will hide all [View Tabs](#view-tabs), showing th
 | Open Recent | Select to open from a list of previous projects. |
 {{PLAYER-END-COMMENT}}
 
-More information found at [Projects Management](./projects-management.md) 
+More information found at [Project Management](./project-management.md) 
 
 {{PRISM-START-COMMENT}}
 |  Item  |   Description   |

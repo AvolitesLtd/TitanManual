@@ -1,7 +1,7 @@
 ---
-id: projects-management
-title: Projects Management
-sidebar_label: Projects Management
+id: project-management
+title: Project Management
+sidebar_label: Project Management
 ---
 
 ### New Project
