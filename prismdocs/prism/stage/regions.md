@@ -85,8 +85,23 @@ Selecting a **Region** to show its controls to the right. Here is where a *Sourc
 
 **DMX Regions** map a sampled area of a surface or layer onto fixtures through a [DMX Output](./outputs.md#dmx-output). Each DMX region defines the source area, the target DMX output, and how pixels in that area are translated into DMX channels.
 
+*Note: Pixels sampled by DMX regions count as DMX Pixels. The number available depends on the [Prism licence](/prism/licensing#prism-features).*
+
 Use DMX regions together with sACN, Art-Net, or DMX. A [Synergy Pixel Map](./outputs.md#dmx-output) DMX output is created from Titan only.
 
 The DMX Regions source canvas uses the same [canvas controls](#canvas-controls) as the Regions page.
 
 DMX region properties can be copied and pasted between regions.
+
+#### DMX Region Controls
+
+DMX region controls set how the sampled pixels are written to the [DMX Output](./outputs.md#dmx-output).
+
+| Item | Description |
+|------|-------------|
+| **Colour Mode** | Sets the channels used for each DMX Pixel. **Mono** uses 1 channel, **Mono 16bit** uses 2, **RGB** and **CMY** use 3, and **RGBA**, **RGBW**, and **CMYK** use 4. |
+| **Pixel Format** | Sets the channel order for each pixel, such as RGB or GRB. The options follow the selected Colour Mode. **Mono** and **Mono 16bit** have a fixed channel layout, so Pixel Format is unavailable. |
+| **Universe** | The universe where the region starts. Art-Net universes start at 0. sACN universes start at 1. When the region needs more than the remaining channels in that universe, it continues on the following universes. |
+| **Start Channel** | The channel, from 1 to 512, of the first pixel. |
+| **Pixel Offset** | The number of DMX channels reserved for each pixel. The minimum matches the Colour Mode. A higher value leaves unused channels after each pixel so the spacing matches the fixture. |
+| **Split Pixels** | Turn this on to let a pixel continue across a universe boundary. Turn it off to keep each pixel inside one universe. A pixel that does not fit in the remaining channels starts at channel 1 of the next universe. |
