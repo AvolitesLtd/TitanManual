@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation } from "react-router";
+import { useLocation } from '@docusaurus/router';
 
 function Root({children}) {
   const pathName = useLocation().pathname;

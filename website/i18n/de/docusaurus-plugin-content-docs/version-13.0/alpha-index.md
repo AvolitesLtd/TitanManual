@@ -9,24 +9,13 @@ import Video from '@site/src/components/video.tsx';
 
 
 
-## A
+## *
 [ *(in "Fixture Personalities")*](./fixture-personalities.md#)
 [ *(in "Loading and saving shows")*](./titan-basics/loading-and-saving-shows.md#)
 [ *(in "Loading and saving shows")*](./titan-basics/loading-and-saving-shows.md#)
 [&nbsp;<strong>Bildschirmtastatur</strong> *(in "Workspace Windows")*](./titan-basics/workspace-windows.md#&nbsp;<strong>bildschirmtastatur<strong>)
 [&nbsp;<strong>Trackball (nur beim Sapphire Touch)</strong> *(in "Workspace Windows")*](./titan-basics/workspace-windows.md#&nbsp;<strong>trackball-nur-beim-sapphire-touch<strong>)
-  
-## [
-[[Assign Masters](../running-the-show/playback-controls.md#grand-master-fader-and-assignable-masters) *(in "The System Menu")*](./system-settings/the-system-menu.md#[assign-masters]..running-the-showplayback-controls.md#grand-master-fader-and-assignable-masters)<br/>
-[[Display Setup](external-displays.md) - Bildschirmeinrichtung *(in "The System Menu")*](./system-settings/the-system-menu.md#[display-setup]external-displays.md---bildschirmeinrichtung)<br/>
-[[DMX Merge Settings](dmx-output-mapping.md#dmx-merge) *(in "The System Menu")*](./system-settings/the-system-menu.md#[dmx-merge-settings]dmx-output-mapping.md#dmx-merge)<br/>
-[[DMX Settings](dmx-output-mapping.md) *(in "The System Menu")*](./system-settings/the-system-menu.md#[dmx-settings]dmx-output-mapping.md)<br/>
-[[Key Profiles](key-profiles.md) - Tastenprofile *(in "The System Menu")*](./system-settings/the-system-menu.md#[key-profiles]key-profiles.md---tastenprofile)<br/>
-[[Network Settings - Netzwerkeinstellungen](../networking.md) *(in "The System Menu")*](./system-settings/the-system-menu.md#[network-settings---netzwerkeinstellungen]..networking.md)<br/>
-[[Synergy Settings](../synergy/setting-up.md) *(in "The System Menu")*](./system-settings/the-system-menu.md#[synergy-settings]..synergysetting-up.md)<br/>
-[[Triggers](../running-the-show/midi-dmx-or-audio-triggering.md) *(in "The System Menu")*](./system-settings/the-system-menu.md#[triggers]..running-the-showmidi-dmx-or-audio-triggering.md)<br/>
-[[User Settings](user-settings.md) - Benutzereinstellungen *(in "The System Menu")*](./system-settings/the-system-menu.md#[user-settings]user-settings.md---benutzereinstellungen)
-  
+
 ## A
 [Abruf einer Palette für alle Geräte in einem Cue *(in "Using Palettes")*](./palettes/using-palettes.md#abruf-einer-palette-für-alle-geräte-in-einem-cue)<br/>
 [Abrufen einer Cueliste *(in "Cue List Playback")*](./cue-lists/cue-list-playback.md#abrufen-einer-cueliste)<br/>

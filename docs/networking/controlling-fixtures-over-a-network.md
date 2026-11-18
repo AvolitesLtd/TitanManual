@@ -13,7 +13,7 @@ to be given a unique network address. This is called its "IP address".
 ## Setting the console's IP address
 
 We recommend that you use the console's automatic IP setting function.
-However, if you need to you can also set a manual IP address. See [Setting your IP address](a-quick-guide-to-ip-addressing.md#setting-your-ip-address) for
+However, if you need to you can also set a manual IP address. See [Choosing an IP address and Subnet Mask](a-quick-guide-to-ip-addressing.md#choosing-an-ip-address-and-subnet-mask) for
 details of how IP addressing works.
 
 1. Go to the **System** menu (press <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>) and press <Keys.SoftKey>Network Settings</Keys.SoftKey>

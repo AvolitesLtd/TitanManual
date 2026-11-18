@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLocation } from "react-router";
+import { useLocation } from '@docusaurus/router';
 import DocVersionBadge from '@theme-original/DocVersionBadge';
 
 export default function DocVersionBadgeWrapper(props) {

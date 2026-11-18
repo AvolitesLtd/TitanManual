@@ -31,7 +31,7 @@ class Video extends React.Component<VideoProps, IState> {
     }));
   }
 
-  handleReady(event) {
+  handleReady(event: { target: unknown }) {
     this.setState({ player: event.target });
   }
 
