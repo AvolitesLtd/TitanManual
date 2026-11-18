@@ -9,9 +9,9 @@ sidebar_label: Prism Licensing
 **Prism** supports four licence levels. The available features are unlocked at startup based on the detected licence:
 
 - **Zero Outputs** – For evaluation and previsualization. Includes **Synergy** support and no video inputs/outputs.
-- **One Output** – Includes up to 4 video inputs, 1 video output, and up to **1024** DMX sample points for live deployment.
-- **Two Outputs** – Includes up to 4 video inputs, 2 video outputs, and up to **2048** DMX sample points for live deployment.
-- **Three Outputs** – Includes up to 4 video inputs, 3 video outputs, and up to **4096** DMX sample points for live deployment.
+- **One Output** – Includes up to 4 video inputs, 1 video output, and up to **1024** DMX Pixels for live deployment.
+- **Two Outputs** – Includes up to 4 video inputs, 2 video outputs, and up to **2048** DMX Pixels for live deployment.
+- **Three Outputs** – Includes up to 4 video inputs, 3 video outputs, and up to **4096** DMX Pixels for live deployment.
 
 Refer to the feature table below for a detailed comparison of capabilities unlocked at each level.
 
@@ -27,7 +27,7 @@ All **Prism** licenses include:
 |-                                  |-                          |-                          |-                          |-                          |
 | **Outputs (Physical/Virtual)**    | 0                         | 1                         | 2                         | 3                         |
 | **Outputs Max Resolution (px)**   | 3840 x 3840               | 3840 x 3840               | 3840 x 3840               | 3840 x 3840               |
-| **DMX Sample Points**             | 0                         | Up to 1024                | Up to 2048                | Up to 4096                |
+| **DMX Pixels**                    | 0                         | Up to 1024                | Up to 2048                | Up to 4096                |
 | **Live Inputs**                   | 0                         | Up to 4                   | Up to 4                   | Up to 4                   |
 | **Inputs Max Resolution (px)**    | 3840 x 3840               | 3840 x 3840               | 3840 x 3840               | 3840 x 3840               |
 | **Surfaces**                      | Up to 16                  | Up to 16                  | Up to 16                  | Up to 16                  |
@@ -37,7 +37,7 @@ All **Prism** licenses include:
 | **Bank Elements**                 | Up to 256 per **Bank**    | Up to 256 per **Bank**    | Up to 256 per **Bank**    | Up to 256 per **Bank**    |
 | **Synergy Support**               |x                          | x                         | x                         | x                         |
 
-DMX sample points can be **Mono**, **Mono 16bit**, **RGB**, **RGBA**, **RGBW**, **RGBL**, **CM**, or **CMYK**.
+DMX Pixels can be **Mono**, **Mono 16bit**, **RGB**, **RGBA**, **RGBW**, **RGBL**, **CM**, or **CMYK**.
 
 ### License Unlock Table
 
