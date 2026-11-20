@@ -151,7 +151,7 @@ jeweiligen Beleuchtungssituation. So lässt sich vorprogrammieren,
 Anpassungen vornehmen sowie etwa während der Show per Blind-Modus letzte
 Änderungen machen.
 
-## Undo/Redo -- Rückgängig machen/Wiederholen
+## Undo/Redo - Rückgängig machen/Wiederholen
 
 Im Konsolenbereich des Bildschirms (links neben der Leiste mit den
 Menütasten) wird eine Liste der zuletzt ausgeführten

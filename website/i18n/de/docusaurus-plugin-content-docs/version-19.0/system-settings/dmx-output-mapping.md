@@ -140,7 +140,7 @@ werden. Gleiche Einstellung wie der 'Power'-Button des 'Physical DMX Output' Mod
 
 **Merge Priority:** Wert von 0-200, Vorgabe 100, höherer Wert = höhere Priorität. 
 Bestimmt die Priorität des direkt von Titan zum DMX-Ausgang
-gesendeten Signals beim Verwenden von sACN/DMX-Merge. Dies muss separat eingerichtet werden, siehe [DMX Merge -- Network DMX Node Settings](dmx-output-mapping.md#dmx-merge----network-dmx-node-settings).
+gesendeten Signals beim Verwenden von sACN/DMX-Merge. Dies muss separat eingerichtet werden, siehe [DMX Merge -- Network DMX Node Settings](dmx-output-mapping.md#dmx-merge---network-dmx-node-settings).
 
 **Break Length:** Zeitlicher Abstand zwischen den DMX-Paketen. Manche 
 Dimmer und Movinglights benötigen ein künstlich verlangsamtes Signal,
@@ -279,7 +279,7 @@ enthält, die momentan nicht verbunden sind, so erscheint eine Meldung
 mit der genauen Aufstellung sowie der Möglichkeit, die einzelnen Linien
 anderen Ausgabeports zuzuordnen.
 
-## DMX Merge -- Network DMX Node Settings
+## DMX Merge - Network DMX Node Settings
 
 Im Fenster "Network DMX Node Settings" kann man das Mergen des DMX-Outputs des lokalen Pults mit sACN-Universen
 von anderen Pulten oder Nodes einrichten.
@@ -295,6 +295,6 @@ Um eine Zuweisung zu löschen, klicken Sie auf <Keys.SoftKey>Clear sACN Merge</K
 dann auf den gewünschten Port.
 
 -   Für das DMX-Signal des lokalen Pultes kann man die Priorität gegenüber den externen sACN-Quellen
-    einstellen, siehe [DMX-Eigenschaften](dmx-output-mapping.md#dmx-eigenschaften)
+    einstellen, siehe [DMX-Eigenschaften](dmx-output-mapping.md#physische-dmx-eigenschaften)
 
 -   Mit dem Schalter 'DMX Output' oben rechts können sämtliche DMX-Ausgänge deaktiviert werden.

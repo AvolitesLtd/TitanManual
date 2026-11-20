@@ -19,7 +19,7 @@ Normalerweise erfolgt dies bereits vollautomatisch, aber befinden sich
 mehrere Titan-Pulte im Netzwerk, so ist eine manuelle Auswahl nötig.
 
 Für die Universen, die in Capture angezeigt werden sollen, muss Art-Net oder 
-sACN aktiviert sein, siehe [Einrichten der DMX-Ausgänge](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs).
+sACN aktiviert sein, siehe [Einrichten der DMX-Ausgänge](../system-settings/dmx-output-mapping.md#einrichten-der-dmx-ausgänge).
 
 > Damit die Verbindung und das Synchronisieren funktioniert, muss Capture 
   mindestens in der Version Nexum, 2018 oder 2020 vorliegen. Mit älteren 

@@ -99,7 +99,7 @@ Encoder gesteuert werden kann.
 Damit ist das Attribut entsprechend zugewiesen, und das Menü wird geschlossen. 
 Um die Zuweisung zu überprüfen, drücken Sie wieder auf <Keys.HardKey>Assign</Keys.HardKey>. Daraufhin wird im Menü die aktuelle Zuweisung angezeigt.
 
-- Mit dem Trackball kann auch der Mauszeiger gesteuert werden, siehe [Trackball (Maus-Steuerung)](../titan-basics/workspace-windows.md#trackball-diamond-9-and-sapphire-touch-only).
+- Mit dem Trackball kann auch der Mauszeiger gesteuert werden, siehe [Trackball (Maus-Steuerung)](../titan-basics/workspace-windows.md#der-trackball-diamond-9-und-sapphire-touch).
 
 
 ## Dimmer-Handrad (Nur beim Diamond 9 und Diamond 7)
@@ -111,7 +111,7 @@ mit den Attributbänken umgeschaltet. (Es kann aber wie nachstehend beschrieben
 anderen Attributen zugewiesen werden).
 
 Unterhalb des Handrades befindet sich eine <Keys.HardKey>Level @</Keys.HardKey> Taste, mit 
-der das Menü zum Einstellen des Dimmerwertes aufgerufen werden kann (siehe [Einstellen von Attributwerten per @-Taste](../controlling-fixtures/changing-fixture-attributes.md#adjusting-attributes-with-the--buttons)). 
+der das Menü zum Einstellen des Dimmerwertes aufgerufen werden kann (siehe [Einstellen von Attributwerten per @-Taste](../controlling-fixtures/changing-fixture-attributes.md#eingeben-von-attributwerten-mit-den--tasten)). 
 
 - Das Handrad kann zur Steuerung eines anderen Attributs zugewiesen werden. Gehen 
 Sie dazu wie beim Ändern der Zuordnung des Trackballs vor (s.o.), wählen aber bei Schritt 
@@ -348,7 +348,7 @@ Folgende Funktionen stehen auf den Menütasten zur Verfügung:
 
 -   Freeze/Unfreeze: Fixieren des Attributes bzw. Fixierung aufheben
 
-## Attributgruppen -- IPCGBES-FX
+## Attributgruppen - IPCGBES-FX
 
 Zur Vereinfachung sind die Attribute nach ihrer grundlegenden Funktion
 gruppiert und mit den Buchstaben IPCGBESFX versehen:

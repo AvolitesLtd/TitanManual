@@ -21,7 +21,7 @@ zusätzliche für Chaser, die hier beschrieben werden.
 
 ## Tab "Handle"
 
-Alle Optionen dieser Rubrik funktionieren genauso wie im [Kapitel Cues](../cues/playback-options.md#playback-options----tab-handle) beschrieben.
+Alle Optionen dieser Rubrik funktionieren genauso wie im [Kapitel Cues](../cues/playback-options.md#tab-handle) beschrieben.
 
 ## Tab "Playback"
 
@@ -36,8 +36,8 @@ drücken.
 bestimmt das Verhalten aufeinanderfolgender Schritte:
 
 &nbsp;<Keys.SoftKey>Link according to individual steps</Keys.SoftKey> - (Schrittfolge nach Vorgabe):
-jeder Schritt verhält sich gemäß der spezifischen Vorgaben, die im [Playback View Fenster ](editing-a-chase.md#opening-a-chase-for-editing) 
-oder per [Unfold-Funktion](editing-a-chase.md#editing-a-chase-using-unfold) ) eingestellt wurden.
+jeder Schritt verhält sich gemäß der spezifischen Vorgaben, die im [Playback View Fenster](editing-a-chase.md#einen-chaser-zum-editieren-öffnen) 
+oder per [Unfold-Funktion](editing-a-chase.md#ändern-eines-chasers-mit-der-unfold-funktion) eingestellt wurden.
 
 
 &nbsp;<Keys.SoftKey>Always Link Steps</Keys.SoftKey> - (Schritte stets folgen lassen): der Chaser
@@ -78,13 +78,13 @@ einzustellen.
 
 ## Tab "Effects
 
-Alle Optionen dieser Rubrik funktionieren genauso wie im [Kapitel Cues](../cues/playback-options.md#playback-options----tab-effects) beschrieben.
+Alle Optionen dieser Rubrik funktionieren genauso wie im [Kapitel Cues](../cues/playback-options.md#tab-effects) beschrieben.
 
 ## Tab "Release"
 
 [Release Mask](../cues/playback-options.md#release-mask) und 
 [Release Time](../cues/playback-options.md#release-time) funktionieren genauso wie im
-[Kapitel Cues](../cues/playback-options.md#playback-options----tab-release) beschrieben.
+[Kapitel Cues](../cues/playback-options.md#tab-release) beschrieben.
 
 ### Cue Release
 Cue Release: erlaubt es, Chaser zu erstellen, bei denen zwischen den

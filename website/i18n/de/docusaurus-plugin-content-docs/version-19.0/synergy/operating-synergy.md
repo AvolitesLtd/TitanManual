@@ -150,7 +150,7 @@ Output des Servers zu verbinden.
 
 > Im [Layout-Editor](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) werden die Lampen/Zellen so positioniert, wie sie auch
 tatsächlich angeordnet sind, so dass jeweils der passende
-Videoausschnitt angezeigt wird, siehe [nächster Abschnitt](#verwendung-des-layout-editors-mit-ai).
+Videoausschnitt angezeigt wird, siehe [nächster Abschnitt](#verwendung-des-layout-editors-mit-synergy).
 
 1.  **Starten Sie einen Clip** auf dem gewünschten Surface, etwa mit 
     dem [Attribut-Editor](#layer-steuern-mit-dem-attribut-editor).

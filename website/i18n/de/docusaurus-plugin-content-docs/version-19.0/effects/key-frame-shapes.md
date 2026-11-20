@@ -74,7 +74,7 @@ angezeigt.
 
 Die Steuerelemente oben im linken Bereich beeinflussen den gesamten
 Shape: Speed (Geschwindigkeit), Direction (Richtung unter Verwendung des [Gruppen-Layouts](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen)), [Phase/Spread](shape-generator.md#ändern-der-verteilung-eines-shapes-mehrere-geräte)
-(Verteilung auf mehrere Geräte) und [Overlap](../cues/cue-timing.md#setting-fade-times-and-overlap-for-a-cue) (Überlappen benachbarter
+(Verteilung auf mehrere Geräte) und [Overlap](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz) (Überlappen benachbarter
 Geräte).
 
 Mit dem **Auge** oben links werden alle gerade angezeigten Shapes
@@ -133,7 +133,7 @@ kann man also für jeden Layer einzeln einstellen, wie oft der Effekt
 laufen soll*.
 
 Keyframe-Shape können auf **Subfixtures** (Zellen) laufen. Dies ist normalerweise <Keys.SoftKey>Off</Keys.SoftKey>
-(abgeschaltet), man kann es aktivieren mit <Keys.SoftKey>On (Group)</Keys.SoftKey>, wobei das [Layout der Gruppe](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) berücksichtigt wird, oder mit <Keys.SoftKey>On (Linear)</Keys.SoftKey>, wobei das Layout ignoriert wird und die Zellen einfach in numerischer Reihenfolge angesteuert werden.
+(abgeschaltet), man kann es aktivieren mit <Keys.SoftKey>On (Group)</Keys.SoftKey>, wobei das [Layout der Gruppe](../controlling-fixtures/fixture-groups.md#gerätereihenfolge-und--anordnung-in-den-gruppen) berücksichtigt wird, oder mit <Keys.SoftKey>On (Linear)</Keys.SoftKey>, wobei das Layout ignoriert wird und die Zellen einfach in numerischer Reihenfolge angesteuert werden.
 
 
 Mit der Einstellung <Keys.SoftKey>Phase Master</Keys.SoftKey> kann die Phase eines Shapes durch
@@ -212,7 +212,7 @@ gewählt, so wird die Geschwindigkeit des Effekts mit dem Fader geregelt.
 Zum Verhalten von Keyframe-Shapes in Cuelisten siehe
 [Shape-Tracking in Cuelisten](../cue-lists/creating-a-cue-list.md#tracking-von-shapes-in-cuelisten).
 
--   Wird mittels [Mask FX](shape-generator.md#masking-shapes-using-mask-fx)
+-   Wird mittels [Mask FX](shape-generator.md#shapes-stoppen-mit-mask-fx)
     ein Mask Shape erzeugt, so stoppt dieser auch Keyframe-Shapes.
 
 -   Shapes und Keyframe-Shapes, die in Playbacks gespeichert sind, können entweder als Overlay arbeiten, also andere programmierte Attribute überlagern, oder wie gewohnt als LTP-Werte, werden also ihrerseits von später gestarteten Playbacks überlagert/überschrieben. Siehe [Shape-Verhalten: Overlay oder LTP](./shape-generator.md#shape-verhalten-overlay-oder-ltp).

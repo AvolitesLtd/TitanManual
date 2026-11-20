@@ -14,7 +14,7 @@ Die Vorgabewert sind hier **fett** dargestellt.
 
 ## Tab "Handle"
 
-Die gleichen Optionen wie bei Cues, siehe [Options](../cues/playback-options.md#handle-tab).
+Die gleichen Optionen wie bei Cues, siehe [Options](../cues/playback-options.md#tab-handle).
 
 ## Tab "Times"
 
@@ -74,7 +74,7 @@ Option | Wirkung
 Timecode Source | Bestimmt die Timecode-Quelle der Timeline (Timecode 1-4). Siehe [Steuern einer Cueliste per Timecode](../cue-lists/cue-list-timing.md#steuern-einer-cueliste-per-timecode).
 Timecode Source Unlinked | Gleiche Funktion wie der Link-Button in der Timeline-Ansicht, siehe  [Timecode verbinden und steuern](../timelines.md#timecode-verbinden-und-steuern)
 
-## Time -- Optionen für Zeiten
+## Time - Optionen für Zeiten
 
 Einige Optionen können auch im Menü **Edit Times** eingestellt werden. Drücken Sie dazu die 
 Taste <Keys.HardKey>Time</Keys.HardKey> (oder die Menütaste <Keys.SoftKey>Edit Times</Keys.SoftKey> 

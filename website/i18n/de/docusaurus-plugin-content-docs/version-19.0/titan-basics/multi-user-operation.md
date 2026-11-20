@@ -14,7 +14,7 @@ Speicherplatz-Belegungen. Das kann z.B. für Support-Bands sinnvoll sein.
 Ein zweites Pult kann aber auch als Backup-Konsole verbunden werden, 
 siehe [Pulte für den Backup-Betrieb einrichten](../running-the-show/linking-consoles-for-multi-user-or-backup.md#pulte-für-den-backup-betrieb-einrichten).
 
-## Users -- Benutzer
+## Users - Benutzer
 
 In jeder Show kann es mehrere Benutzer geben, von denen jeder seine
 eigenen Einstellungen, Tastenprofile und Handle Worlds verwalten kann.

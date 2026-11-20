@@ -41,7 +41,7 @@ die Identifizierung deutlich vereinfacht.
 
 ![TNP - Setup - Node Settings - Node Line Colour Screen](/docs/images/TNP-Setup-Node-Settings-Node-Line-Colour-Screen.png)
 
-## Lock -- den TNP sperren
+## Lock - den TNP sperren
 
 Klickt man auf <Keys.SoftKey>Lock</Keys.SoftKey>, so kann auf einem Ziffernblock ein Code
 eingegeben werden, mit dem das Gerät gesperrt wird. Zum Entsperren muss

@@ -24,7 +24,7 @@ Diese automatische Wiedergabe kann deaktiviert werden, ebenso kann zwar automati
 
 - Damit die Timeline (nur mit internem Timecode) ständig wiederholt wird, aktivieren Sie die Option Loop im [Tab "Timeline"](../timelines/timeline-options.md#tab-timeline).
 
-- Wird der Timecode mitten in der Timeline gestartet, so starten alle aktiven Trigger, aber da die vorangegangenen Trigger eventuell nicht oder nicht in der richtigen Reihenfolge gestartet wurden, ist das Ergebnis möglicherweise nicht wie gewünscht. Mit den [Release-Optionen der Timeline](../timelines/timeline-options.md#release-tab) lässt sich das verbessern.
+- Wird der Timecode mitten in der Timeline gestartet, so starten alle aktiven Trigger, aber da die vorangegangenen Trigger eventuell nicht oder nicht in der richtigen Reihenfolge gestartet wurden, ist das Ergebnis möglicherweise nicht wie gewünscht. Mit den [Release-Optionen der Timeline](../timelines/timeline-options.md#tab-release) lässt sich das verbessern.
 
 ### Eine Timeline testen
 
@@ -124,7 +124,7 @@ wie bei Track 2 im nachfolgenden Bild. Um das Halo des Playbacks zu ändern, kli
 - Mit <Keys.SoftKey>Set Legend</Keys.SoftKey> können auch für Marker legenden vergeben werden.
 - Für einen **Wait for Go**-Trigger kann man die Farbe einstellen, indem man diesen bei Schritt 2 anklickt.
 
-### Snap -- Fangptionen
+### Snap - Fangptionen
 
 Mit der Kontext-Option <Keys.ContextKey>Snap Options</Keys.ContextKey> lässt sich einstellen, ob neu hinzugefügte 
 Objekte beim Klicken in der Timeline-Ansicht von bereits existierenden Objekten 'gefangen' werden.

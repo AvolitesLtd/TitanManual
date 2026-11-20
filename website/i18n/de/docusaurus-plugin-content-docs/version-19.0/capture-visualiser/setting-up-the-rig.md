@@ -136,7 +136,7 @@ Verfügung.
 
 ![Capture Visualiser Workspace Window Context Menu](/docs/images/Capture-Visualiser-Workspace-Window-Context-Menu.png)
 
-Die Steuerung der Kameras erfolgt im Fenster [Capture Visualiser Settings](#setting-up-the-stage-and-rigging): zum Öffnen drücken Sie zweimal auf 
+Die Steuerung der Kameras erfolgt im Fenster Capture Visualiser Settings: zum Öffnen drücken Sie zweimal auf 
 <Keys.HardKey>View / Open</Keys.HardKey> und wählen <Keys.SoftKey>Capture Settings</Keys.SoftKey> von den Buttons,
 oder Sie verwenden den Kontext-Button <Keys.ContextKey>Open Settings</Keys.ContextKey> des Capture-Fensters.
 

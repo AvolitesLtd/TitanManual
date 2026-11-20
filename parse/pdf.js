@@ -3,8 +3,8 @@ const fs = require('fs');
 const avoParse = require('./avoParse')
 const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
-//const console = require('node:console');
-//const console = require('node:console');
+const console = require('node:console');
+var anchorCorrections = require('./anchorCorrections.json');
 const versions = require(avoParse.paths.versions);
 
 const legalPath = path.join(__dirname,"PDF/legal-en.md");
@@ -147,8 +147,20 @@ function replaceLinks(filename,content,docsPath,version,lang) {
     let fullFilePath = path.resolve(docsPath, filePath, link);
 	
 	if(anchor) {
+			
 	  // replace double dashes which were created by deleting illegal characters with single dashes
+	  // Pandoc's auto_identifiers work differently from docusaurus
+	  // e.g. the subsection header ### Shape & Effect Speed is the anchor #shape--effect-speed in docusaurus but pandoc translates it to \label{shape-effect-speed} in tex
+	  // try a converter like https://cloudconvert.com/md-to-tex for details, or simply run pandoc on the console (pandoc inputfile.md -o outputfile.tex)
+	  
 	  anchor = anchor.replace(/(?<!-)--(?!-)/g, "-");	
+
+	  // specific corrections. 
+	  // E.g. german grammar has trailing and leading dashes which would not be recognized as links, thus the entire anchor needs to be replaced specifically
+
+	  anchorCorrections.forEach(row => {
+		anchor = anchor.replaceAll(row[0], row[1]);
+	  })	
 	}
 
     let resolvedPath = resolvePageVersion(path.join(filePath, link),version,lang)
@@ -298,7 +310,7 @@ function docsVersionPath(version,lang) {
  */
 function formatMdFiles(docsPath, sidebar, version, lang) {
   //  console.log("formatMdFiles called with");
-  //..console.log("  docsPath: " + docsPath);
+  //  console.log("  docsPath: " + docsPath);
   //  console.log("  sidebar: " + JSON.stringify(sidebar, null, 2));
   //  console.log("  version: " + version);
   //  console.log("  lang: " + lang + "\n");

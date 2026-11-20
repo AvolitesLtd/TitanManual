@@ -22,7 +22,7 @@ Positionen einzeln nachregeln zu müssen. Eine Anwendung dafür wäre etwa
 eine Tour, bei der man täglich andere Bühnengrößen oder Traversenhöhen
 zu berücksichtigen hat.
 
-Paletten können miteinander **[verknüpft (nested)](palettes/creating-palettes.md#nested-palettes----verknüpfte-paletten)** sein, so 
+Paletten können miteinander **[verknüpft (nested)](palettes/creating-palettes.md#nested-palettes---verknüpfte-paletten)** sein, so 
 dass sie aufeinander verweisen. Ändert man nun die Master-Palette, 
 so ändern sich die verknüpften Paletten entsprechend.
 
