@@ -15,7 +15,7 @@ muss es eine eindeutige Netzwerkadresse bekommen; diese wird
 
 Es wird empfohlen, die integrierte Adressvergabe des Pultes zu
 verwenden. Alternativ kann aber auch manuell eine Adresse vergeben werden.
-Siehe [Einstellen der IP-Adresse](a-quick-guide-to-ip-addressing.md#einstellen-der-ip-adresse) mit
+Siehe [Einstellen der IP-Adresse](a-quick-guide-to-ip-addressing.md) mit
 Details zur IP-Adressierung.
 
 1. Öffnen Sie das **System**-Menü (mittels <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey>)
@@ -43,7 +43,7 @@ Titan arbeitet intern mit max. 64 DMX-Universen (siehe [DMX-Ausgänge einrichten
 
 Die einzelnen Dimmer/Geräte werden in Titan auf eine der DMX-Linien gepatcht.
 Die Zuordnung interner DMX-Linien zu Netzwerklinien erfolgt im Menü
-[DMX Settings](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs).
+[DMX Settings](../system-settings/dmx-output-mapping.md#einrichten-der-dmx-ausgänge).
 Oft wird man einfach Linie 1 auf Netzwerk-Universum 1, Linie 2 auf Universum 2 etc.
 zuweisen, aber mitunter - etwa auf Tour zur Anpassung an das vorhandene
 Netzwerk - sieht das auch ganz anders aus. Linien/Universen können von 1 bis 9999 nummeriert sein.
@@ -77,7 +77,7 @@ Geräte (Knoten, Nodes) konfiguriert werden.
 	handelt es sich z.B. um einen Konverter mit 12 Universen, so wandelt er
 	die Universen 2 bis 13 von Art-Net zu DMX.
 
-Im Menü [DMX Settings](../system-settings/dmx-output-mapping.md#configuring-dmx-outputs)
+Im Menü [DMX Settings](../system-settings/dmx-output-mapping.md#einrichten-der-dmx-ausgänge)
 ordnen Sie die internen Linien den verschiedenen Art-Net-Universen (1-256) zu.
 Dabei kann jede interne Linie auf mehrere Art-Net-Universen sowie auch parallel
 auf die DMX-Ausgänge des Pultes geroutet werden.

@@ -90,7 +90,7 @@ jeweiligen Rades mit dem Symbol "limited" angezeigt.
 
 ![limited](/docs/images/Limited-Dimmer.png)
 
-## Fixture Offset -- Geräte-Offset
+## Fixture Offset - Geräte-Offset
 
 Für jedes Attribut jedes Gerätes lässt sich ein Offset einstellen.
 Insbesondere ist das sinnvoll, um Positionen (Pan/Tilt) anzupassen, wenn

@@ -198,7 +198,7 @@ Playbacks/Cues werden durch die Benutzernummer identifiziert, diese wird
 
 Geräte mit MIDI Show Control werden durch eine Geräte-ID (device id)
 identifiziert. Zum Einstellen der Geräte-ID des Titan-Pultes dient die
-[Benutzereinstellung <Keys.SoftKey>Timecode</Keys.SoftKey><Keys.SoftKey>MIDI Device Id</Keys.SoftKey>](../system-settings/user-settings.md#midi-device-id). Vorgabewert ist 0.
+[Benutzereinstellung <Keys.SoftKey>Timecode</Keys.SoftKey><Keys.SoftKey>MIDI Device Id</Keys.SoftKey>](../system-settings/user-settings.md#timecode). Vorgabewert ist 0.
 
 ## Audio-Trigger (Sound to Light)
 
@@ -224,7 +224,7 @@ auch die einzelnen Pegel anzeigt.
 ![Audio Window](/docs/images/Audio-Window.png)
 
 Ist die erforderliche Hardware nicht vorhanden, so wird eine entsprechende
-Warnung angezeigt, [siehe oben](./midi-dmx-or-audio-triggering.md#).
+Warnung angezeigt, [siehe oben](./midi-dmx-or-audio-triggering.md).
 
 -   Mit dem Schalter 'Enable' unter dem Gain-Regler lassen sich alle
     Audio-Trigger abschalten.

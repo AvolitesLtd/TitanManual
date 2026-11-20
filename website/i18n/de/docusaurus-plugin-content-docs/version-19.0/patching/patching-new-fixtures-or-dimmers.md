@@ -35,13 +35,13 @@ zusammenzufassen, um schnell auf eine bestimmte Zusammenstellung von
 Geräten Zugriff zu haben. Gruppen werden im nächsten Kapitel
 beschrieben.
 
-Sobald Geräte gepatcht wurden, können die Details in der [Patch-Übersicht](./changing-the-patch.md#patch-view) angezeigt und geändert werden.
+Sobald Geräte gepatcht wurden, können die Details in der [Patch-Übersicht](./changing-the-patch.md#die-patch-ansicht-patch-view) angezeigt und geändert werden.
 
 ## Patchen von Dimmern
 
 Jede Gerätetaste kann einen oder mehrere Dimmer steuern. Die Zuordnung
 (das Patchen) erfolgt entweder über das Patch-Menü (s.u.) oder über das
-Fenster [Patch View](./changing-the-patch.md#patch-view).
+Fenster [Patch View](./changing-the-patch.md#die-patch-ansicht-patch-view).
 
 1. Drücken Sie die Taste <Keys.HardKey>Patch</Keys.HardKey>, dann <Keys.SoftKey>Dimmer</Keys.SoftKey>.
 2. <Keys.SoftKey>DMX Line=</Keys.SoftKey> zeigt die aktuell zum Patchen ausgewählte DMX-Linie.
@@ -108,7 +108,7 @@ generieren. im Abschnitt [Personalities](../fixture-personalities.md)
 gibt es weitere Informationen dazu.
 
 Die Zuordnung (das Patchen) erfolgt entweder über das Patch-Menü (s.u.)
-oder über das Fenster [Patch View](./changing-the-patch.md#patch-view).
+oder über das Fenster [Patch View](./changing-the-patch.md#die-patch-ansicht-patch-view).
 
 1. Drücken Sie die Taste <Keys.HardKey>Patch</Keys.HardKey>.
 2. Drücken Sie <Keys.SoftKey>Fixtures</Keys.SoftKey>.
@@ -159,7 +159,7 @@ patchen. Die DMX-Adresse wird dabei automatisch hochgezählt.
     (wie etwa ein VL5), können Sie den Dimmerkanal auf die gleiche
     Auswahltaste wie das eigentliche Gerät patchen, so dass man alles
     gemeinsam steuern kann. Diese Funktion nennt sich 'Pending Dimmer'
-    (abhängiger Dimmer). In der [Patch-Ansicht (Patch View)](./changing-the-patch.md#patch-view) 
+    (abhängiger Dimmer). In der [Patch-Ansicht (Patch View)](./changing-the-patch.md#die-patch-ansicht-patch-view) 
     werden solche Geräte mit einem Blitz-Symbol hinter der Gerätenummer angezeigt.
 
 -   <Keys.SoftKey>Options</Keys.SoftKey>, <Keys.SoftKey>Preset Palettes</Keys.SoftKey> bestimmt, ob das Pult beim Patchen
@@ -270,7 +270,7 @@ geändert werden.
 >  RDM funktioniert bei Titan-Pulten nur über Art-Net und RDM-fähige Nodes, nicht über die normalen DMX-Buchsen. RDM muss in den verwendeten Geräten eingebaut sein, was leider noch längst nicht bei allen Geräten der Fall ist. Ebenso muss die gesamte verwendete DMX-Peripherie (Splitter etc.) RDM-kompatibel sein.             
 
 Drücken Sie die Taste <Keys.HardKey>Open/View</Keys.HardKey>, dann <Keys.HardKey>Patch</Keys.HardKey>. In der
-sich öffnenden [Patch-Anzeige (Patch View)](./changing-the-patch.md#patch-view) wählen Sie den Reiter RDM. Nun
+sich öffnenden [Patch-Anzeige (Patch View)](./changing-the-patch.md#die-patch-ansicht-patch-view) wählen Sie den Reiter RDM. Nun
 werden alle vom Pult per RDM gefundenen Geräte angezeigt; mit dem Befehl
 &nbsp;<Keys.SoftKey>Full Discover</Keys.SoftKey> aus dem Kontextmenü lässt sich die Liste
 aktualisieren.

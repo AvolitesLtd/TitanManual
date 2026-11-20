@@ -84,7 +84,7 @@ ausgeblendet, so dass man nur noch die Timing-Werte angezeigt bekommt.
 
 ![Playback View for cue](/docs/images/Playback-View-for-cue.png)
 
-### Filtern -- Nur einzelne Spalten anzeigen
+### Filtern - Nur einzelne Spalten anzeigen
 
 Mittels der Kontext-Funktion <Keys.SoftKey>Edit Columns</Keys.SoftKey> lässt sich noch genauer
 einstellen, welche Spalten in der Playback-Ansicht angezeigt werden. Hat man seine Auswahl getroffen, lässt 

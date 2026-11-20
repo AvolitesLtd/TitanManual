@@ -19,7 +19,7 @@ auf <Keys.SoftKey>Options</Keys.SoftKey>.
 
 ## Tab "Handle"
 
-Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#playback-options----tab-handle) beschrieben.
+Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Playback Options](../cues/playback-options.md#tab-handle) beschrieben.
 
 ## Tab "Playback"
 
@@ -68,7 +68,7 @@ Nachverfolgung unveränderter Werte)  *Vorgabewert: aktiviert*.
 
 ## Tab "Times"
 
-Die Times-Optionen sind die gleichen wie für [einzelne Cues](../cues/playback-options.md#playback-options----tab-times).
+Die Times-Optionen sind die gleichen wie für [einzelne Cues](../cues/playback-options.md#tab-times).
 
 ## Tab "Fader"
 
@@ -102,11 +102,11 @@ Wurde mit Next Cue/Prev. Cue oder per Tastatur ein bestimmter Cue angewählt, da
 
 ## Tab "Effects"
 
-Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Effekte](../cues/playback-options.md#playback-options----tab-effects) beschrieben.
+Alle Optionen dieser Rubrik funktionieren genauso wie im Kapitel [Effekte](../cues/playback-options.md#tab-effects) beschrieben.
 
 ## Tab "Release"
 
-Release Mask und Release Time funktionieren genauso wie im Kapitel [Release](../cues/playback-options.md#playback-options----tab-release) beschrieben.
+Release Mask und Release Time funktionieren genauso wie im Kapitel [Release](../cues/playback-options.md#tab-release) beschrieben.
 
 ### Cue Release
 

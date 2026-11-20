@@ -73,7 +73,7 @@ Zone 4 | 1040 | 1041 | 1042 | 1043 | 1044 | 1045 | 1046 | 1047 | 1048
 Klickt man auf dem Touch-Panel auf den Button 'Macros' (unten links), so werden auf dem Panel die Macros mit den Nummern 1001-1008 angezeigt.
 Zum Erstellen eines Macros für das Touch-Panel gehen Sie wie folgt vor:
 
-1. Speichern Sie ein Macro (siehe [Macros -- Tastenfolgen](../titan-basics/front-panel-buttons.md#macros----tastenfolgen))
+1. Speichern Sie ein Macro (siehe [Macros -- Tastenfolgen](../titan-basics/front-panel-buttons.md#macros---tastenfolgen))
 2. Stellen Sie mit <Keys.SoftKey>Set Legend</Keys.SoftKey> die Benutzernummern der Macros im Bereich 1001-1008 ein.
 3. Mit <Keys.SoftKey>Legend=</Keys.SoftKey> können Sie eine Bezeichnung vergeben (nur Text).
 

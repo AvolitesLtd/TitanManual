@@ -150,7 +150,7 @@ mit <Keys.HardKey>Exit</Keys.HardKey>.
 
 -   Weitere Informationen zum Show-Verzeichnis siehe [Show Library](./show-library.md).
 
-## Autosave -- Automatisches Speichern
+## Autosave - Automatisches Speichern
 
 Die aktuelle Show wird durch das Pult beim Herunterfahren automatisch
 gespeichert. Ebenso erfolgt alle 30 Minuten eine automatische
@@ -163,7 +163,7 @@ anderweitig gespeicherte Shows im Show-Browser auswählen und aufrufen.
 
 > Früher gab es bei langsamer Hardware die Empfehlung, während der Show Autosave zu deaktivieren, damit es nicht zu Performance-Einbußen kam. Auf aktuellen Pulten und guter Hardware gilt dies nicht mehr: lassen Sie Autosave daher aus Sicherheitsgründen aktiviert.
 
-## Recover -- Show Wiederherstellen
+## Recover - Show Wiederherstellen
 
 Wurde Titan nicht richtig beendet, etwa durch einen Stromausfall, und
 wird dann neu gestartet, so kann der letzte Stand meist nicht direkt
@@ -187,7 +187,7 @@ und speichern sie auf USB-Stick. Alternativ lässt sich das auch per
 ## Eine Show zum automatischen Starten festlegen
 
 Normalerweise wird beim Starten der Software die zuletzt verwendete Show geladen. Mitunter 
-(z.B. beim unbeaufsichtigten Betrieb oder bei Verwendung mit dem [Venue Mode](../running-the-show.md#setting-a-venue-mode-workspace-for-basic-controls-while-locked)) ist es erwünscht, 
+(z.B. beim unbeaufsichtigten Betrieb oder bei Verwendung mit dem [Venue Mode](../running-the-show.md#eingeschränkter-zugriff-mit-dem-venue-mode) ist es erwünscht, 
 beim Start immer eine bestimmte Show zu laden. dafür dient die Funktion **Start Up Show**.
 
 1. Laden Sie die Show, die Sie als Start Up Show festlegen möchten.

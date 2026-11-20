@@ -47,7 +47,7 @@ Es stehen folgende Elemente zur Verfügung:
 -   Text
 -   Zeichnen *(man kann auf dem Touchscreen zeichnen)*
 -   Bild aus Datei *(von der Festplatte oder einem USB-Stick)*
--   [Synergy-Content](../synergy/operating-synergy.md#lightmap-pixelmapping-mit-ai) von einem Ai-Medienserver oder von Prism Zero
+-   [Synergy-Content](../synergy/operating-synergy.md#lightmap-pixelmapping-mit-video-content) von einem Ai-Medienserver oder von Prism Zero
 
 ![Effect Editor - Pixel Mapper - Adding an Element](/docs/images/Effect-Editor-Pixel-Mapper-Adding-an-Element.png)
 

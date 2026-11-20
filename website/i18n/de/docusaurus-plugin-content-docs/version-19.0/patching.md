@@ -27,4 +27,4 @@ auf 'Program' stehen.
 Zu Beginn jede interne Linie einer DMX-Buchse zugewiesen (soviele verfügbar sind), ebenso wird jede Linie per sACN ausgegeben. Um die Zuordnung zu ändern, nehmen Sie die entsprechenden
 Einstellungen in den [DMX-Einstellungen](./system-settings/dmx-output-mapping.md) im System-Menü vor.
 
-> Wenn Ihre angeschlossenen Geräte in keiner Weise auf irgendwelche Pult-Aktionen reagieren, überprüfen Sie, ob die DMX-Ausgänge in den [DMX-Einstellungen](./system-settings/dmx-output-mapping.md#configuring-dmx-outputs) korrekt zugewiesen und aktiviert sind.
+> Wenn Ihre angeschlossenen Geräte in keiner Weise auf irgendwelche Pult-Aktionen reagieren, überprüfen Sie, ob die DMX-Ausgänge in den [DMX-Einstellungen](./system-settings/dmx-output-mapping.md#einrichten-der-dmx-ausgänge) korrekt zugewiesen und aktiviert sind.

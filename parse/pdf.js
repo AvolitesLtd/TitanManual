@@ -47,7 +47,7 @@ for(let version of avoParse.getVersions(manversion)) {
  */
 function getVersions() {
   let allVersions = versions;
-  allVersions.push('next');
+  // allVersions.push('next');
   return allVersions;
 }
 
@@ -147,10 +147,41 @@ function replaceLinks(filename,content,docsPath,version,lang) {
     let fullFilePath = path.resolve(docsPath, filePath, link);
 	
 	if(anchor) {
+			
 	  // replace double dashes which were created by deleting illegal characters with single dashes
+	  // Pandoc's auto_identifiers work differently from docusaurus
+	  // e.g. the subsection header ### Shape & Effect Speed is the anchor #shape--effect-speed in docusaurus but pandoc translates it to \label{shape-effect-speed} in tex
+	  // try a converter like https://cloudconvert.com/md-to-tex for details
+	  
 	  anchor = anchor.replace(/(?<!-)--(?!-)/g, "-");	
+
+	
+	  // ## Gerätereihenfolge und -anordnung in den Gruppen (fixture-groups.de)
+	  // is #gerätereihenfolge-und--anordnung-in-den-gruppen in docusaurus
+	  // is \subsection{Gerätereihenfolge und -anordnung in den Gruppen}\label{geruxe4tereihenfolge-und--anordnung-in-den-gruppen} in latex
+	  // is #gerätereihenfolge-und--anordnung-in-den-gruppen in concatenated md file if not fixed
+	  
+	  anchor = anchor.replace("gerätereihenfolge-und-anordnung", "gerätereihenfolge-und--anordnung");
+	  anchor = anchor.replace("eingeben-von-attributwerten-mit-den-tasten", "eingeben-von-attributwerten-mit-den--tasten");
+	  anchor = anchor.replace("speed-und-size-master", "speed--und-size-master");
+	  anchor = anchor.replace("rate-und-bpm-master", "rate--und-bpm-master");
+	  anchor = anchor.replace("flash-und-swop-tasten", "flash--und-swop-tasten");
+	  anchor = anchor.replace("auswahl-und-flashtaste", "auswahl--und-flashtaste");
+	  anchor = anchor.replace(",", "");
 	}
 
+/*
+	if(anchor) {
+	  // remove commas from anchors (the alpha indexer lets them in but pdf build doesn't like them)
+	    
+	  anchor = anchor.replace(/\,/g, "");	
+	  anchor = anchor.replace(/\//g, "");	
+	  anchor = anchor.replace(/\'/g, "");	
+	  anchor = anchor.replace(/\&/g, "");	
+	  anchor = anchor.replace(/\@/g, "");	
+	}
+*/	
+	
     let resolvedPath = resolvePageVersion(path.join(filePath, link),version,lang)
 
     if (!resolvedPath) {

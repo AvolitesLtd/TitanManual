@@ -28,7 +28,7 @@ Shapes stoppen lassen. Läuft etwa auf einigen Geräten ein Kreis-Shape,
 und wird dann ein Cue aufgerufen, in dem auf ein paar der Geräte ein
 'Position Mask-Shape' abgespeichert ist, so beenden diese Geräte ihre
 Kreisbewegung. Das ist hilfreich etwa beim Verändern von Cues während
-des Showablaufs. Details dazu siehe [Mask FX](shape-generator.md#masking-shapes-using-mask-fx).
+des Showablaufs. Details dazu siehe [Mask FX](shape-generator.md#shapes-stoppen-mit-mask-fx).
 
 ![Capture Visualiser with a shape running across fixtures](/docs/images/Capture-Visualiser-with-a-shape-running-across-fixtures.png)
 

@@ -170,7 +170,7 @@ gemeinsam zu steuern*.
 
 Fader können aber auch Größe und Tempo der 'eigenen', also in diesem Cue
 gespeicherten Effekte steuern. Dies wird über die Playback-Optionen
-eingestellt, siehe [Tab "Fader"](playback-options.md#playback-options----tab-fader)
+eingestellt, siehe [Tab "Fader"](playback-options.md#tab-fader)
 
 Speed- und Size-Master sind detailliert beschrieben in [Speed and Size Masters](../running-the-show/playback-controls.md#speed--und-size-master).
 
@@ -183,7 +183,7 @@ Deaktivieren auf den vorigen Status zurückkehren.
 
 Mittels einer Maske kann man festlegen, ob einzelne oder alle Attribute eines Cues nach dem Deaktivieren auf die vorigen 
 Werte zurückkehren, siehe [Release Mask](./playback-options.md#release-mask). Für einzelne Cues erfolgt das, sobald alle Fadezeiten abgelaufen 
-sind, außer dies wurde mit [Kill Point](./playback-options.md#fader-tab) in den Cue-Optionen anders gesetzt.
+sind, außer dies wurde mit [Kill Point](./playback-options.md#tab-fader) in den Cue-Optionen anders gesetzt.
 
 Attribute releasen auf den Wert, der mit dem vorher gestarteten Playback vorgegeben wurde. Ist die 
 Einstellung <Keys.SoftKey>Release to Home</Keys.SoftKey> im Release-Menü aktiviert, so kehren die Attribute auf die 
@@ -203,7 +203,7 @@ Fade-Out-Zeit berücksichtigt und der Cue released, sobald er ausgefadet ist. Da
 je nach gewählter Option auf dem letzten Cue aktiv bleiben, auch wenn der Fader auf 0 steht.
 
 -   Ein aktuell laufendes Playback lässt sich releasen, indem man die Taste <Keys.HardKey>Release</Keys.HardKey> drückt,
-gefolgt von der **Auswahltaste** des Playbacks. Dabei wird eine [Temporäre Release-Maske](./playback-options.md#temporary-release-mask) 
+gefolgt von der **Auswahltaste** des Playbacks. Dabei wird eine [Temporäre Release-Maske](./playback-options.md#release-mask) 
 angewendet. Fadezeiten des Playbacks bleiben unberücksichtigt, nur die eingegebene Release-Zeit wird eingehalten.
 
 -   Um alle laufenden Playbacks zu releasen, drücken Sie zweimal <Keys.HardKey>Release</Keys.HardKey>. Mit der 

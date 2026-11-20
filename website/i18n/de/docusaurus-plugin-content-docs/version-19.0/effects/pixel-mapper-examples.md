@@ -165,7 +165,7 @@ Erstellt man nun ein Block-Element, welches senkrecht von oben nach
 unten läuft, so wird dieses vertikal erst auf die ungeraden und danach
 auf die geraden Geräte abgebildet.
 
-### Beispiel 2 -- Pseudo-Zufallsfolge
+### Beispiel 2 - Pseudo-Zufallsfolge
 
 1.  Wählen Sie die betreffenden Geräte aus und erstellen Sie eine Gruppe.
 2.  Öffnen Sie den Layout-Editor.
@@ -184,7 +184,7 @@ auf die geraden Geräte abgebildet.
 Ergebnis zufällig. Dabei lassen sich Details jederzeit durch Ändern des
 Layouts anpassen.*
 
-### Beispiel 3 -- Winkel (oder 'wenn einfach grade einfach langweilig ist')
+### Beispiel 3 - Winkel (oder 'wenn einfach grade einfach langweilig ist')
 
 Mitunter werden Geräte absichtlich schräg oder aufgehängt. Die Software
 startet zwar mit der Annahme einer rechtwinkligen Anordnung, kann aber
@@ -259,7 +259,7 @@ gewählte Gerät einzeln um sein Zentrum.
 
 **Media options:** Öffnet ein Untermenü für verschiedene Einstellungen
 bei Verwendung eines Ai-Servers/Synergy. Das ist ausführlich beschrieben 
-im Abschnitt [Verwendung des Layout-Editors mit Ai](../synergy/operating-synergy.md#verwendung-des-layout-editors-mit-ai).
+im Abschnitt [Verwendung des Layout-Editors mit Ai](../synergy/operating-synergy.md#verwendung-des-layout-editors-mit-synergy).
 
 ## Reihenfolge und Priorität beim Abruf
 
