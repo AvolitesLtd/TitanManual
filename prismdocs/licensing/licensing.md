@@ -37,7 +37,8 @@ All **Prism** licenses include:
 | **Bank Elements**                 | Up to 256 per **Bank**    | Up to 256 per **Bank**    | Up to 256 per **Bank**    | Up to 256 per **Bank**    |
 | **Synergy Support**               |x                          | x                         | x                         | x                         |
 
-DMX Pixels can be **Mono**, **Mono 16bit**, **RGB**, **RGBA**, **RGBW**, **RGBL**, **CM**, or **CMYK**.
+
+DMX Pixels can be **Mono**, **Mono 16bit**, **RGB**, **RGBA**, **RGBW**, **RGBL**, **CMY**, or **CMYK**.
 
 ### License Unlock Table
 
