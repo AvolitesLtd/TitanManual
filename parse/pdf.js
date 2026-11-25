@@ -3,6 +3,7 @@ const fs = require('fs');
 const avoParse = require('./avoParse')
 const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
+
 const console = require('node:console');
 var anchorCorrections = require('./anchorCorrections.json');
 const versions = require(avoParse.paths.versions);
