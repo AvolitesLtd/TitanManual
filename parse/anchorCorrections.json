@@ -1,0 +1,16 @@
+[
+  ["/(?<!-)--(?!-)/g", "-"],
+  ["-&-", "-"],
+  ["gerätereihenfolge-und-anordnung", "gerätereihenfolge-und--anordnung"],
+  ["eingeben-von-attributwerten-mit-den-tasten", "eingeben-von-attributwerten-mit-den--tasten"],
+  ["speed-und-size-master", "speed--und-size-master"],
+  ["rate-und-bpm-master", "rate--und-bpm-master"],
+  ["flash-und-swop-tasten", "flash--und-swop-tasten"],
+  ["auswahl-und-flashtaste", "auswahl--und-flashtaste"],
+  ["geräte-ein-und-ausschalten", "geräte-ein--und-ausschalten"],
+  ["gerätetasten-und-buttons", "gerätetasten-und--buttons"],
+  ["zeit-und-überblendoptionen-für-cuelisten", "zeit--und-überblendoptionen-für-cuelisten"],
+  ["das-ausgewählte-gerät-bei-fix+1fix-1-hervorheben", "das-ausgewählte-gerät-bei-fix1fix-1-hervorheben"],
+  [",", ""],
+  ["'", ""]
+]
