@@ -3,8 +3,9 @@ const fs = require('fs');
 const avoParse = require('./avoParse')
 const { execSync } = require("child_process");
 const { program } = require("../website/node_modules/commander");
-//const console = require('node:console');
-//const console = require('node:console');
+
+const console = require('node:console');
+var anchorCorrections = require('./anchorCorrections.json');
 const versions = require(avoParse.paths.versions);
 
 const legalPath = path.join(__dirname,"PDF/legal-en.md");
@@ -145,6 +146,23 @@ function replaceLinks(filename,content,docsPath,version,lang) {
     }
 
     let fullFilePath = path.resolve(docsPath, filePath, link);
+	
+	if(anchor) {
+			
+	  // replace double dashes which were created by deleting illegal characters with single dashes
+	  // Pandoc's auto_identifiers work differently from docusaurus
+	  // e.g. the subsection header ### Shape & Effect Speed is the anchor #shape--effect-speed in docusaurus but pandoc translates it to \label{shape-effect-speed} in tex
+	  // try a converter like https://cloudconvert.com/md-to-tex for details, or simply run pandoc on the console (pandoc inputfile.md -o outputfile.tex)
+	  
+	  anchor = anchor.replace(/(?<!-)--(?!-)/g, "-");	
+
+	  // specific corrections. 
+	  // E.g. german grammar has trailing and leading dashes which would not be recognized as links, thus the entire anchor needs to be replaced specifically
+
+	  anchorCorrections.forEach(row => {
+		anchor = anchor.replaceAll(row[0], row[1]);
+	  })	
+	}
 
     let resolvedPath = resolvePageVersion(path.join(filePath, link),version,lang)
 
@@ -292,17 +310,26 @@ function docsVersionPath(version,lang) {
  * @return {string} The concatenated formatted files
  */
 function formatMdFiles(docsPath, sidebar, version, lang) {
+  //  console.log("formatMdFiles called with");
+  //  console.log("  docsPath: " + docsPath);
+  //  console.log("  sidebar: " + JSON.stringify(sidebar, null, 2));
+  //  console.log("  version: " + version);
+  //  console.log("  lang: " + lang + "\n");
   let output = "";
   if(version == 'next') {
     docs = sidebar.docs;
   }
   else {
-    docs = sidebar[`version-${version}\/docs`];
+	// console.log("Version: " + version);
+	docs = sidebar['docs'];
+	if (lang != 'en') docs = sidebar[`version-${version}\/docs`];
+	// console.log("sidebar version: " + sidebar[`version-${version}\/docs`]);
   }
 
   let sectionFound = false;
   for(let index in docs) {
     let sec = docs[index].label;
+	// console.log("  sec: " + sec);
     if(!section || section == sec.toLowerCase()) {
       sectionFound = true;
       for(let page of docs[index].items) {
@@ -311,7 +338,15 @@ function formatMdFiles(docsPath, sidebar, version, lang) {
       }
     }
   }
-
+/*  
+  if(sectionFound){
+	  console.log("section " + section + " found")
+  } else {
+	  console.log("section " + section + " not found")
+  }
+  
+  console.log("Output: " . output);
+*/  
   if(!sectionFound || !output) {
     // we didn't get anything
     process.exitCode = 2;
@@ -437,12 +472,12 @@ DATE=$(date "+%d %B %Y")
 pandoc --template "${options.templatePath}" \
   -o "${filename}" \
   --pdf-engine=xelatex \
-  --highlight-style kate \
+  --syntax-highlighting kate \
   --metadata-file "${options.headerPath}" \
   --toc \
   --number-sections \
   -fmarkdown-implicit_figures \
-  --self-contained \
+  --embed-resources --standalone \
   --lua-filter="${secfilter}" \
   -V fontsize=8pt \
   -M date="$DATE" \
@@ -450,7 +485,7 @@ pandoc --template "${options.templatePath}" \
   -M footer-left="${version} Manual" \
   -M title="Avolites Titan Manual" \
   -M subtitle="${version}" \
-  -M logo="${options.logoPath}" \
+  -M titlepage-logo="${options.logoPath}" \
   -V colorlinks=true \
   -V block-headings \
   -V toc-title="${toctitle}" \
@@ -491,11 +526,11 @@ function createPDF(version,section=null, options={}) {
   console.log(`Formatting version ${version.number} - ${version.lang}`)
 
   // get the path of the sidebar file
-//  let sidebarFile = fs.readFileSync(sidebarPath(version));
-//  let sidebar = JSON.parse(sidebarFile);
+  // let sidebarFile = fs.readFileSync(sidebarPath(version));
+  // let sidebar = JSON.parse(sidebarFile);
 
   // get the path for docs of the version
-//  docsPath = docsVersionPath(version);
+  // docsPath = docsVersionPath(version);
 
   let output = '';
   if (options.legal) {
@@ -503,7 +538,7 @@ function createPDF(version,section=null, options={}) {
     output += "\n\n";
   }
 
-let sidebar = JSON.parse(fs.readFileSync(version.sidebar));
+  let sidebar = JSON.parse(fs.readFileSync(version.sidebar));
 
   // format the files
   output += formatMdFiles(version.dir, sidebar, version.number, version.lang);

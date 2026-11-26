@@ -294,7 +294,7 @@ fixtures rotate, or whether the whole selection rotates.
 
 **Media options:** Shows a sub menu with useful options when you're
 using Synergy/Ai to play back media on the fixture. These options are
-described in [Layout Editor with Ai Server](../synergy/operating-synergy.md#layout-editor-with-ai-server).
+described in [Layout Editor with Synergy](../synergy/operating-synergy.md#layout-editor-with-synergy).
 
 ## Playback Order and Priorities
 

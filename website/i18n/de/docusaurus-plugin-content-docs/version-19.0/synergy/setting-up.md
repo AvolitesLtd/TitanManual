@@ -65,7 +65,7 @@ In Titan öffnen Sie das Fenster **Synergy Settings**, entweder mit dem
 entsprechenden Workspace bei neuen Shows, oder über das Menü 'Open
 Workspace Window'.
 
-Dieses Fenster ähnelt entfernt dem der [DMX-Einstellungen](../system-settings/dmx-output-mapping.md#dmx-eigenschaften): hier stellt
+Dieses Fenster ähnelt entfernt dem der [DMX-Einstellungen](../system-settings/dmx-output-mapping.md#einrichten-der-dmx-ausgänge): hier stellt
 man ein, wie Titan Prism bzw. die einzelnen Outputs von Ai ansteuert. Ebenso kann
 man hier für Ai Layer hinzufügen oder löschen sowie komplett neue Surfaces
 anlegen (müssen ggf. in Ai noch genauer eingestellt werden).

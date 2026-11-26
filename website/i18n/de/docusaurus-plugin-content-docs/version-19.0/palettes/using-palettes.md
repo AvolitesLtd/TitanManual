@@ -77,7 +77,7 @@ Ist die [Benutzereinstellung](../system-settings/user-settings.md#palettes)
 diese Geräte nicht anwendbar sind, ausgegraut. So sieht man auf einen 
 Blick, welche Paletten für die angewählten Geräte zur Verfügung stehen.
 
-## Quick Palettes -- Schnelle Paletten ohne ausgewählte Geräte
+## Quick Palettes - Schnelle Paletten ohne ausgewählte Geräte
 
 Beim Aufruf einer Palette, ohne dass Geräte ausgewählt sind, wird die
 Palette auf alle in der Palette vorhandenen Geräte angewendet; diese

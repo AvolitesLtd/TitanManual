@@ -31,7 +31,7 @@ Bildschirmen lassen sich mehr Fenster gleichzeitig anzeigen.
 
 Auf Mobiltelefonen ist die Anzeige immer hochkant (Portrait); auf Tabletts wird die Anzeige durch die Orientierung beim Starten der App bestimmt. iPads können auch bei laufender App die Anzeige an die Orientierung anpassen. Die App berücksichtigt die Systemeinstellungen für den Dark Mode (Hell/Dunkel-Umschaltung).
 
-## Keypad -- Tastatur
+## Keypad - Tastatur
 
 Mit der Tastatur lassen sich die häufigsten Aufgaben genauso wie auf dem Pult erledigen. Fixtures 
 und Dimmer können einzeln oder zu mehreren ausgewählt, locatet und aktiviert werden.

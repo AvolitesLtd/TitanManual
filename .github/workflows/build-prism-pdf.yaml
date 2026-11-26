@@ -4,7 +4,7 @@ on:
   workflow_dispatch
 
 env:
-  NODE_VERSION: '16.x'
+  NODE_VERSION: '24.x'
 
 jobs:     
   prismpdf:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
         with:
           submodules: recursive
 
@@ -23,7 +23,7 @@ jobs:
           mkdir downloads
           mv parse/output/*.pdf downloads
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: 'Prism PDF'
           path: downloads

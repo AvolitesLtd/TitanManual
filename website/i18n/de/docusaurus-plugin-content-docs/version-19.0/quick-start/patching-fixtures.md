@@ -32,7 +32,7 @@ wählen <Keys.SoftKey>Exchange Fixture</Keys.SoftKey>  (siehe [Geräte austausch
 ## Patch anzeigen
 
 Zum Anzeigen der gepatchten Geräte drücken Sie
-&nbsp;<Keys.HardKey>Open/View</Keys.HardKey>, dann <Keys.HardKey>Patch</Keys.HardKey> zum Öffnen der [Patch-Ansicht](../patching/changing-the-patch.md#patch-view).
+&nbsp;<Keys.HardKey>Open/View</Keys.HardKey>, dann <Keys.HardKey>Patch</Keys.HardKey> zum Öffnen der [Patch-Ansicht](../patching/changing-the-patch.md#die-patch-ansicht-patch-view).
 
 ## Geräteoptionen einstellen
 

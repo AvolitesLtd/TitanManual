@@ -289,7 +289,7 @@ number then click on a port to assign.
 To remove an assignment, click on **Clear sACN Merge** then select a port.
 
 - For local DMX outputs, you can set the priority of the Titan output vs. the sACN stream using the
-  Merge Priority option on each node, see [DMX Output Properties](dmx-output-mapping.md#DMX-output-properties)
+  Merge Priority option on each node, see [Physical DMX Output Properties](dmx-output-mapping.md#physical-dmx-output-properties)
   .
 
 - The DMX Output switch can be used to disable all DMX output.

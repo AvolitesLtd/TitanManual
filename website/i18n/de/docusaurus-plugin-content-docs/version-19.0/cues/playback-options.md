@@ -222,7 +222,7 @@ Klicken Sie auf den <Keys.ContextKey>Global</Keys.ContextKey> Button, um auf <Ke
 umzuschalten, und wählen Sie dann die gewünschten Attribute aus (mit den Menütasten oder den Buttons der 
 Attributgruppen).
 
-'Global' verwendet die [Globale Release-Maske](../cues/cue-playback.md#global-release-mask).
+'Global' verwendet die [Globale Release-Maske](../cues/cue-playback.md#globale-release-maske).
 
 > Mit der Release-Maske lässt sich z.B. ein temporärer ('flashbarer') Strobe-Effekt programmieren. Stellen Sie **Mask** auf **Local** und **Intensity** auf **Include**. Wird nun das Playback deaktiviert, kehrt der Shutter zum vorigen Wert zurück, und das Strobe stoppt. 
 
@@ -232,5 +232,5 @@ Per [Tastenprofil/Key Profile](../system-settings/key-profiles.md) lässt sich e
 Zum Einstellen der Zeit für das Releasen; in dieser
 Zeit werden die Attribute zum vorherigen Wert übergeblendet. Wird die
 Zeit komplett gelöscht, so wechselt der Eintrag auf *Global* (die in den
-[Benutzereinstellungen](../system-settings/user-settings.md) eingestellte [globale Release-Zeit](../system-settings/user-settings.md#master-release-time)).
+[Benutzereinstellungen](../system-settings/user-settings.md) eingestellte [globale Release-Zeit](../system-settings/user-settings.md#release)).
 

@@ -69,7 +69,7 @@ Grand Master Fader | *On:* Grand Master aktiviert (nicht bei allen Pulten vorhan
 Delete Default | ***Delete:*** Elemente werden mit <Keys.HardKey>Delete</Keys.HardKey> + Doppelklick gelöscht.<br/>*Unassign:* Elemente werden nicht gelöscht, sondern nur von der Taste/Schaltfläche entfernt, und sind über die Show Library weiterhin verfügbar.
 Prompt Replace | Bestimmt, wie sich das Pult verhält, wenn man etwas auf einen bereits belegten Speicherplatz speichern will.<br/>***Always Ask:*** Es erscheint jedes Mal eine Rückfrage.<br/>*Always Merge:* Es erscheint nie eine Rückfrage, es wird immer gemergt.<br/>*Palettes Always Merge:* Die Rückfrage erscheint nur, wenn es sich nicht um das Speichern von Paletten handelt.
 Display Halo | ***On:*** Die Buttons werden mit farbigen Halos dargestellt.<br/>*Off:* Es werden keine farbigen Halos angezeigt.
-Fixture Halos | *Custom:* Bei Geräte-Buttons werden nur benutzerdefinierte Halos angezeigt. <br/>***Auto:*** Es werden automatisch farbige Halos für alle Fixtures angezeigt siehe [Halo](../patching/changing-the-patch.md#fixture-button-halo)
+Fixture Halos | *Custom:* Bei Geräte-Buttons werden nur benutzerdefinierte Halos angezeigt. <br/>***Auto:*** Es werden automatisch farbige Halos für alle Fixtures angezeigt siehe [Halo](../patching/changing-the-patch.md#halo-für-fixture-buttons)
 Handle Buttons | Erlaubt das Ändern der Größe der Schaltflächen auf dem Touchscreen: *Small* (klein), ***Normal*** (normal), *Large* (groß) oder *Super Size* (sehr groß). <br/>Kann jeweils pro Fenster abgeändert werden.
 Text Size | Bestimmt die Schriftgröße auf den Schaltflächen. *Small* (klein), ***Normal*** (normal), *Large* (groß) oder *Super Size* (sehr groß). <br/>Kann jeweils pro Fenster abgeändert werden.
 Playback Paging | Das Verhalten aktiver Playbacks beim Seitenwechsel.<br/> *Always Hold:* - ist die traditionelle Funktionsweise, bei der das Playback aktiv und mit dem Regler verbunden bleibt, bis dieser - und damit das Playback - auf 0 gebracht wird (diese Einstellung betrifft auch die Playbacks im Playbacks-Fenster/Speicherplätze: aktive Playbacks von anderen Seiten bleiben aktiv und müssen erst deaktiviert werden, um nach dem Seitenwechsel Playbacks der neuen Seite anzuzeigen).<br/> *Never Hold:* - ist die Funktionsweise bei Pulten mit Motorfadern: beim Seitenwechsel bleiben aktive Playbacks aktiv, aber die Fader sind auf der neuen Seite. Um aktive Playbacks von einer anderen Seite wieder zu steuern, muss man erst auf diese Seite wechseln und den Fader auf den passenden Wert bringen. <br/> ***Normal:*** ist die für das jeweilige Pult normale Arbeitsweise. <br/>Ist ein Playback von einer anderen Seite aktiv, so wird dies violett dargestellt; die Seitenzahl wird in hellblau angezeigt.
@@ -85,7 +85,7 @@ Option | Wirkung
 -------|--------
 Warn Before Parking Fixtures | Bestimmt das Verhalten beim Patchen von Geräten mit sich überschneidenden DMX-Adressen; dabei werden die anderen Geräte jeweils 'geparkt'.<br/> ***Always:*** es erscheint stets eine Warnmeldung.<br/>*Never:* keine Warnung beim Parken von Geräten. Siehe [Parked fixtures](../patching/patching-new-fixtures-or-dimmers.md#geparkte-geräte)
 DMX Address | Anzeige der DMX-Adresse auf den Fixture-Buttons aktivieren oder deaktivieren.
-Auto Groups | Bestimmt, ob beim Patchen von Geräten automatisch Gruppen angelegt werden sollen. Siehe [Auto Groups](../controlling-fixtures/fixture-groups.md#auto-groups).
+Auto Groups | Bestimmt, ob beim Patchen von Geräten automatisch Gruppen angelegt werden sollen. Siehe [Auto Groups](../controlling-fixtures/fixture-groups.md#auto-gruppen).
 Preset Palettes | Bestimmt, ob beim Patchen von Geräten automatisch Paletten angelegt werden sollen. Kann auch beim Patchen im Patch-Optionsmenü mit <Keys.SoftKey>Preset Palettes on Workspaces</Keys.SoftKey> aktiviert werden.<br/>***Do Not Create:*** es werden keine Paletten angelegt.<br/>*Create On Workspaces:* es werden Paletten in den jeweiligen Paletten-Fenstern angelegt.<br/>*Create On Presets:* es werden Paletten auf den Preset-Tasten (Pearl Expert) angelegt.
 
 ## Times (Zeiten)
@@ -108,9 +108,9 @@ Add New Palette Channels | ***On:*** Kanäle, die bereits verwendeten Paletten h
 Auto Legend | ***On:*** neue Elemente erhalten automatisch Legenden.<br/>*Off:* Keine automatischen Legenden.
 Highlight Active Palettes | ***On:*** Gerade im Programmer aktive Paletten werden markiert.<br/>*Off:* Aktive Paletten werden nicht markiert.
 Filter Relevant Palettes  | ***On:*** Paletten, die auf die gerade angewählten Geräte nicht anwendbar sind, werden ausgegraut.<br/>*Off:* Nicht anwendbare Paletten werden nicht ausgegraut.
-Master Palette Time | Die Vorgabe-Überblendzeit beim Live-Aufruf von Paletten, siehe [Master-Zeit für Paletten](../palettes/timing-with-palettes.md#master-zeit-für-paletten).
+Master Palette Time | Die Vorgabe-Überblendzeit beim Live-Aufruf von Paletten, siehe [Master-Zeit für Paletten](../palettes/timing-with-palettes.md#master-zeit-und-overlap-für-paletten).
 Master Palette Overlap | Der Vorgabewert für die Überlappung beim Live-Aufruf von Paletten.
-Record Nested Palettes | ***On:*** Updaten von verknüpften Paletten, wenn die eingebetteten Paletten verändert werden.<br/>*Off:* Verknüpfte Paletten werden nicht aktualisiert.<br/>Siehe [Nested Palettes](../palettes/creating-palettes.md#nested-palettes----verknüpfte-paletten).
+Record Nested Palettes | ***On:*** Updaten von verknüpften Paletten, wenn die eingebetteten Paletten verändert werden.<br/>*Off:* Verknüpfte Paletten werden nicht aktualisiert.<br/>Siehe [Nested Palettes](../palettes/creating-palettes.md#nested-palettes---verknüpfte-paletten).
 Preset Palettes | Gleiche Funktion wie im Abschnitt Patching, [siehe oben](#patching-patch-optionen).
 
 ## Timeline
@@ -120,7 +120,7 @@ Option | Wirkung
 Default Playback Length | Vorgabewert für die Dauer eines Playbacks, wenn es zu einer Timeline hinzugefügt wird.
 Timeline Skip Length | Vorgabewert, wie weit mit "skip forward" und "skip back" gesprungen wird.
 Display Frame Rate | Framerate für den angezeigten Timecode. Mit ***"Follow Source"*** folgt die Anzeige der Framerate des am Eingang anliegenden Timecodes.
-Auto-Simplify | ***On:*** Trigger für Faderpegel werden automatisch vereinfacht (geglättet).<br/>*Off:* Triggers werden nicht vereinfacht/geglättet. <br/>Siehe [Auto Simplify](../timelines/creating-a-timeline.md#auto-simplify).
+Auto-Simplify | ***On:*** Trigger für Faderpegel werden automatisch vereinfacht (geglättet).<br/>*Off:* Triggers werden nicht vereinfacht/geglättet. <br/>Siehe [Automatisches Vereinfachen](../timelines/creating-a-timeline.md#automatisches-vereinfachen).
 Auto-Open View | *None:* Beim Anlegen einer neuen Timeline wird kein Fenster geöffnet.<br/> ***Timeline:*** Beim Anlegen einer neuen Timeline wird die grafische Timeline-Anzeige geöffnet. <br/>*Timeline and Table:* Sowohl die grafische als auch die Tabellenanzeige werden geöffnet.
 
 ## Formatting (Formate)

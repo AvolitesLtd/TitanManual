@@ -74,7 +74,7 @@ Schaltflächen im Fenster 'Playbacks' gespeichert werden.
 	Attribute werden gespeichert
     -   <Keys.SoftKey>Record Stage</Keys.SoftKey> - gesamtes Bild speichern: sämtliche
     Geräte mit nicht geschlossenem Dimmer werden gespeichert
-    -   &nbsp;<Keys.SoftKey>Quick Build</Keys.SoftKey> - siehe [nächster Abschnitt](#quick-build----cues-schnellspeichern)
+    -   &nbsp;<Keys.SoftKey>Quick Build</Keys.SoftKey> - siehe [nächster Abschnitt](#quick-build---cues-schnellspeichern)
 
 -   <Keys.SoftKey>Record By Channel</Keys.SoftKey> ist empfehlenswert, wenn mehrere Cues
     übereinandergelegt werden sollen, um einen bestimmten Effekt zu
@@ -102,7 +102,7 @@ Farbe der Beleuchtung des Playback-Faders eingestellt werden.
     Macro-/Exekutor-Tasten sowie - auf dem Tiger Touch - der 10 festen
     Fader.
 
-## Quick Build -- Cues schnellspeichern
+## Quick Build - Cues schnellspeichern
 
 Stellt man <Keys.SoftKey>Record Mode</Keys.SoftKey> auf **Quick Build**, so lassen sich Cues, Chaser und Cuelisten aus
 bereits programmierten Cues und Paletten erstellen (wie auch per

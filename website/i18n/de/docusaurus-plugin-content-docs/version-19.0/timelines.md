@@ -10,7 +10,7 @@ import Video from '@site/src/components/video.tsx';
 Mit Timelines lassen sich zeitlich exakt gesteuerte Abläufe programmieren, die synchron zu einem 
 externen Timecode oder mit dem internen Timecode ablaufen. Das könnte z.B. die Eröffnungs-Sequenz
 einer Veranstaltung sein, die Lichtshow zu einem Song, oder etwa eine Multimedia-Show mit Video-Zuspieler. 
-Genauso kann man [aufwändige Lichteffekte](./timelines/timeline-options.md#fader-tab) programmieren und 
+Genauso kann man [aufwändige Lichteffekte](./timelines/timeline-options.md#tab-fader) programmieren und 
 diese später beim Busking verwenden.
 
 > Timecode-gesteuerte Shows können auch mit [Cuelisten](./cue-lists/cue-list-timing.md#steuern-einer-cueliste-per-timecode)
@@ -100,7 +100,7 @@ Ist der Timecode aktiv und auch in dem gültigen Zeitraum (siehe [Start und Dura
 
 ## Die Übersichtsleiste
 
-Die Balkenanzeige unten in der Timeline-Ansicht bietet einen Überblick über die Timeline von Anfang bis Ende. Trigger und Marker sind verkleinert dargestellt. Indem die Enden der Leiste angeklickt und verschoben werden, kann man im Hauptbereich der Tracks passend zoomen, um einen kleinen Bereich genau angezeigt zu bekommen. Auf diese Weise lässt sich schnell in der Timeline navigieren. Siehe [Die Übersichts-Leiste](./timelines/running-and-editing-timelines.md#die-übersichts-leiste).
+Die Balkenanzeige unten in der Timeline-Ansicht bietet einen Überblick über die Timeline von Anfang bis Ende. Trigger und Marker sind verkleinert dargestellt. Indem die Enden der Leiste angeklickt und verschoben werden, kann man im Hauptbereich der Tracks passend zoomen, um einen kleinen Bereich genau angezeigt zu bekommen. Auf diese Weise lässt sich schnell in der Timeline navigieren. Siehe [Die Übersichts-Leiste](./timelines/running-and-editing-timelines.md#die-übersichtsleiste).
 
 ![Timeline overview bar](/docs/images/Timeline-Overview-Bar-Cropped.png)
 

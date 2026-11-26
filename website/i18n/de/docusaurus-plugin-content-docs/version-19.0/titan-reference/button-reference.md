@@ -73,7 +73,7 @@ Wird eine Zeit oder ein Timecode eingegeben, so kann man mit den Tasten <Keys.Ha
 Tasten | Aktion
 --------|--------
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>All</Keys.HardKey> | Setzt im Programmer 0% für die nicht angewählten Geräte, gleiche Funktion wie <Keys.HardKey>Rem Dim</Keys.HardKey>, siehe [Nicht ausgewählte Geräte ausblenden (Remainder Dim)](../controlling-fixtures.md#nicht-ausgewählte-geräte-ausblenden-remainder-dim). Beim Einstellen von Attributzeiten werden damit alle Geräte deselektiert, siehe [Individuelle Einblendzeiten für Attribute](../cue-lists/cue-list-timing.md#individuelle-einblendzeiten-für-attribute).
- <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Back</Keys.HardKey> | Undo/Rückgängig, siehe [Undo/Redo -- Rückgängig machen/Wiederholen](../titan-basics/other-parts-of-the-touch-screen.md#undoredo----rückgängig-machenwiederholen).
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Back</Keys.HardKey> | Undo/Rückgängig, siehe [Undo/Redo -- Rückgängig machen/Wiederholen](../titan-basics/other-parts-of-the-touch-screen.md#undoredo---rückgängig-machenwiederholen).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Close</Keys.HardKey> | Alle Fenster schließen, siehe [Auswahl und Positionierung der Arbeitsfenster](../titan-basics/workspace-windows.md#auswahl-und-positionierung-der-arbeitsfenster).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Copy</Keys.HardKey> | Wie <Keys.HardKey>Move</Keys.HardKey> (wenn keine Move-Taste vorhanden ist; funktioniert auf allen Pulten)
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Disk</Keys.HardKey> | Aufruf des **System-Menüs**, siehe [System-Menü](../system-settings/the-system-menu.md).
@@ -82,14 +82,14 @@ Tasten | Aktion
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Flash On</Keys.HardKey> | Blendet die ausgewählten Geräte vorübergehend aus.
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Group</Keys.HardKey> {Select} | Speichern einer Gruppe auf einen Button/Fader, siehe [Eine Gruppe speichern](../controlling-fixtures/fixture-groups.md#eine-gruppe-speichern).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Highlight</Keys.HardKey> | Speichern des Highlight-Status, siehe [Das ausgewählte Gerät bei Fix+1/Fix-1 hervorheben](../controlling-fixtures.md#das-ausgewählte-gerät-bei-fix1fix-1-hervorheben)
- <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Macro</Keys.HardKey> {Select} | Ein Macro auf eine Taste speichern, siehe [Macros -- Tastenfolgen](../titan-basics/front-panel-buttons.md/#macros----tastenfolgen).
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Macro</Keys.HardKey> {Select} | Ein Macro auf eine Taste speichern, siehe [Macros -- Tastenfolgen](../titan-basics/front-panel-buttons.md/#macros---tastenfolgen).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Min/Max</Keys.HardKey> | Aktivieren eines anderen bereits geöffneten Fensters, siehe [Arbeitsfenster](../titan-basics/workspace-windows.md).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Open/View</Keys.HardKey> {Workspace-Button} | Speichern der aktuellen Arbeitsumgebung (Workspace), siehe [Speichern der Arbeitsumgebung](../titan-basics/workspace-windows.md#speichern-der-arbeitsumgebung).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Release</Keys.HardKey> | Releasen aller Playbacks nach Priorität (genau wie 2 x <Keys.HardKey>Release</Keys.HardKey>). Siehe [Release](../cues/cue-playback.md#release).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Shape</Keys.HardKey> | 
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Size/Position</Keys.HardKey> | Verschiebt das aktive Fenster auf den nächsten/anderen Bildschirm, siehe [Arbeitsfenster](../titan-basics/workspace-windows.md).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Time</Keys.HardKey> | Vorschau der Attribut-Fadezeiten, siehe [Attribute Times](../controlling-fixtures/changing-fixture-attributes.md#speichern-von-zeiten-für-attribute-und-geräte).
- <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Undo</Keys.HardKey> oder <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>@</Keys.HardKey> | Wiederholen, siehe [Undo/Redo -- Rückgängig machen/Wiederholen](../titan-basics/other-parts-of-the-touch-screen.md#undoredo----rückgängig-machenwiederholen).
+ <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>Undo</Keys.HardKey> oder <Keys.HardKey>Avo</Keys.HardKey> + <Keys.HardKey>@</Keys.HardKey> | Wiederholen, siehe [Undo/Redo -- Rückgängig machen/Wiederholen](../titan-basics/other-parts-of-the-touch-screen.md#undoredo---rückgängig-machenwiederholen).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Blind</Keys.SoftKey> | Blind-Modus aktivieren/deaktivieren, wie <Keys.HardKey>Blind</Keys.HardKey>.
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Edit current key profile</Keys.SoftKey> | einstellen der Funktion der Flash- und Auswahltasten, siehe [Tastenprofile/Key Profiles](../system-settings/key-profiles.md).
  <Keys.HardKey>Avo</Keys.HardKey> + <Keys.SoftKey>Lock</Keys.SoftKey> | Vorübergehendes Sperren des Pultes, siehe [Das Pult sperren](../titan-basics/front-panel-buttons.md#das-pult-sperren).
@@ -129,7 +129,7 @@ Aktivieren des Blind-Modus: es können Änderungen programmiert werden, ohne das
 
 
 ## <Keys.HardKey>Clear</Keys.HardKey> 
-Löschen des Inhalts des Programmierspeichers und der Geräteauswahl, siehe [Clear -- Löschen der Auswahl](../controlling-fixtures.md#clear----löschen-der-auswahl).
+Löschen des Inhalts des Programmierspeichers und der Geräteauswahl, siehe [Clear -- Löschen der Auswahl](../controlling-fixtures.md#clear---löschen-des-programmers-und-der-geräteauswahl).
 
 Tasten | Ergebnis
 --------|--------
@@ -181,7 +181,7 @@ Tasten | Ergebnis
 
 
 ## <Keys.HardKey>Cue</Keys.HardKey> 
-Zur Auswahl von Cues in Cuelisten. Auf manchen Pulten auch "Connect", siehe [Connect](#Connect).
+Zur Auswahl von Cues in Cuelisten. Auf manchen Pulten auch "Connect", siehe [Connect](#connect).
 
 
 
@@ -258,7 +258,7 @@ Tasten | Ergebnis
 
 
 ## <Keys.HardKey>FX</Keys.HardKey> 
-(Nur beim D9/D7 und T3) Aufruf des Shape/FX-Menüs, um Shapes, Keyframe-Shapes und Pixelmapper-Effekte zu erstellen. Ebenso verwendet zur An-/Abwahl der FX Attributgruppe beim Erstellen von Masken. Siehe [Shape menu](#Shape).
+(Nur beim D9/D7 und T3) Aufruf des Shape/FX-Menüs, um Shapes, Keyframe-Shapes und Pixelmapper-Effekte zu erstellen. Ebenso verwendet zur An-/Abwahl der FX Attributgruppe beim Erstellen von Masken. Siehe [Shape menu](#shape).
 
 Mehrfaches Drücken gefolgt von <Keys.HardKey>Enter</Keys.HardKey> ruft die Optionen des Shape/FX-Menüs auf: 2 x <Keys.HardKey>FX</Keys.HardKey> dann <Keys.HardKey>Enter</Keys.HardKey> für Keyframe-Shapes, 3 x <Keys.HardKey>FX</Keys.HardKey> dann <Keys.HardKey>Enter</Keys.HardKey> für den Pixelmapper.
 
@@ -395,7 +395,7 @@ Versetzt die angewählten Geräte in eine definierte Ausgangsposition mit 'Licht
 
 
 ## <Keys.HardKey>Macro</Keys.HardKey> 
-Öffnet das Macro-Menü zur Aufzeichnung und zum Abrufen von Folgen von Tastendrücken. Siehe [Macros -- Tastenfolgen](../titan-basics/front-panel-buttons.md#macros----tastenfolgen). 
+Öffnet das Macro-Menü zur Aufzeichnung und zum Abrufen von Folgen von Tastendrücken. Siehe [Macros -- Tastenfolgen](../titan-basics/front-panel-buttons.md#macros---tastenfolgen). 
  
 Macros können auch numerisch aufgerufen werden, Beispiel: <Keys.HardKey>Macro</Keys.HardKey> 5 <Keys.HardKey>Enter</Keys.HardKey>
 
@@ -501,7 +501,7 @@ Aufruf des Paletten-Menüs zum numerischen Aufrufen von Paletten. Siehe [Recalli
  
 
 ## <Keys.HardKey>Pattern/All</Keys.HardKey> 
-(Nur beim D9/D7 und T3) Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte beginnen oder beenden. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md#geräteauswahl-nach-muster). Auf anderen Pulten ist das die Taste <Keys.HardKey>All</Keys.HardKey>, siehe [All](#All).
+(Nur beim D9/D7 und T3) Auswahl nach Schema (z.B. gerade/ungerade) innerhalb der bereits angewählten Geräte beginnen oder beenden. Siehe [Geräteauswahl nach Muster](../controlling-fixtures.md#geräteauswahl-nach-muster). Auf anderen Pulten ist das die Taste <Keys.HardKey>All</Keys.HardKey>, siehe [All](#all).
 
 
 
@@ -642,7 +642,7 @@ Wird eine Zeit oder ein Timecode eingegeben, so kann man mit den Tasten <Keys.Ha
 
 ## <Keys.HardKey>Time</Keys.HardKey> 
 Öffnet das Times-Menü zur Eingabe von Zeiten für Cues, siehe [Einstellen von Überblendzeiten und Geräteversatz](../cues/cue-timing.md#einstellen-von-überblendzeiten-und-geräteversatz).
-Auch zur direkten Eingabe von Zeiten beim Programmieren. Siehe [Times -- Zeiten](../titan-reference.md#times).
+Auch zur direkten Eingabe von Zeiten beim Programmieren. Siehe [Times -- Zeiten](../titan-reference.md#time).
 
 Tasten | Ergebnis
 --------|--------
@@ -653,7 +653,7 @@ Tasten | Ergebnis
 
 
 ## <Keys.HardKey>Undo</Keys.HardKey> 
-Macht die letzte Änderung rückgängig. Eine Liste der letzten Vorgänge wird im Infobereich angezeigt. Siehe [Undo/Redo -- Rückgängig machen/Wiederholen](../titan-basics/other-parts-of-the-touch-screen.md#undoredo----rückgängig-machenwiederholen).
+Macht die letzte Änderung rückgängig. Eine Liste der letzten Vorgänge wird im Infobereich angezeigt. Siehe [Undo/Redo -- Rückgängig machen/Wiederholen](../titan-basics/other-parts-of-the-touch-screen.md#undoredo---rückgängig-machenwiederholen).
 
 Tasten | Ergebnis
 --------|--------
@@ -708,7 +708,7 @@ Tasten | Ergebnis
 
 
 
-## <Keys.HardKey>Wheel @</Keys.HardKey> 
+## <Keys.HardKey>Wheel-@</Keys.HardKey> 
 (Die @-Tasten neben den Encodern) - Öffnet das jeweilige @-Menü zur genauen Steuerung des Attributes, das gerade auf dem Encoder liegt.
 
 

@@ -205,6 +205,6 @@ cells on the fixture.
 
 -   The Group Layout Editor is described in more detail with examples in the
     [Pixel Mapper section](../effects/pixel-mapper.md). There are also some features
-    to help with [Synergy/Ai mapping](../synergy/operating-synergy.md#layout-editor-with-ai-server).
+    to help with [Synergy/Ai mapping](../synergy/operating-synergy.md#layout-editor-with-synergy).
 
 > You can temporarily randomize the fixture order when selecting fixtures using a group by holding down the group button and pressing <Keys.SoftKey>Random Order</Keys.SoftKey> which appears as a softkey option while the button is held.

@@ -107,7 +107,7 @@ Add New Palette Channels  | ***On:*** new channels added into palettes will outp
 Auto Legend               | ***On:*** New items will automatically have legends generated for them (colour scribbles for colours or descriptive legends for other functions).<br/>*Off:* New items are given numeric legends.
 Highlight Active Palettes | ***On:*** Active palettes are shown as highlighted in the workspace windows.<br/>*Off:* Active palettes are not highlighted.
 Filter Relevant Palettes  | ***On:*** Palettes which do not contain settings for the currently selected fixtures will be greyed out.<br/>*Off:* Palette buttons are not greyed out.
-Master Palette Time       | Sets the default fade time to be used when recalling palettes live. See [Master Time for Palettes](../palettes/timing-with-palettes.md#master-time-for-palettes) for more information.
+Master Palette Time       | Sets the default fade time to be used when recalling palettes live. See [Master Time for Palettes](../palettes/timing-with-palettes.md#master-time-and-overlap-for-palettes) for more information.
 Master Palette Overlap    | Sets the default overlap to be used when fading palettes.
 Record Nested Palettes    | ***On:*** Palettes containing other source palettes will be updated when you change the source palette.<br/>*Off:* Nested palettes are not updated.<br/>See [Nested Palettes](../palettes/creating-palettes.md#nested-palettes) for more detail.
 Preset Palettes           | This is the same as the option in the Patching section, [see above](#patching).

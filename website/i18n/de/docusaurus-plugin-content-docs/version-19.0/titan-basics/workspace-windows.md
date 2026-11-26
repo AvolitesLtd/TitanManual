@@ -87,7 +87,7 @@ Elemente hängen vom jeweiligen Fenster sowie der Einrichtung des Pultes
 ab, etwa davon, ob ein externer Bildschirm angeschlossen ist. Mit den
 Buttons für Rows (Zeilen) und Columns (Spalten) kann man einstellen, wie
 die Tasten in dem Fenster angezeigt werden, siehe [Einstellen von Anzahl 
-und Größe der Buttons](../titan-basics/workspace-windows.md#anzahl-und-grösse-der-schaltflächenraster).
+und Größe der Buttons](../titan-basics/workspace-windows.md#anzahl-und-größe-der-schaltflächenraster).
 
 ![Appearance Menu](/docs/images/Window-Appearance-Options.png)
 
@@ -389,7 +389,7 @@ darunter.
 
 - Arbeitsfenster, ohne Legenden für Encoder oder Macrotasten.
 
-## Lock und Venue Mode -- das Pult ganz oder teilweise sperren
+## Lock und Venue Mode - das Pult ganz oder teilweise sperren
 
 Das Pult lässt sich ganz oder teilweise sperren, um unbeabsichtigte oder unbefugte Eingriffe
 zu verhindern. Halten Sie dazu <Keys.HardKey>AVO</Keys.HardKey> gedrückt, und
@@ -401,7 +401,7 @@ In den [Benutzereinstellungen](../system-settings/user-settings.md#lock) lässt 
 
 Siehe [Venue Mode Workspace](../running-the-show.md#eingeschränkter-zugriff-mit-dem-venue-mode).
 
-## Compatibility windows -- die 'Kompatibilitätsfenster'
+## Compatibility windows - die Kompatibilitätsfenster
 
 Die Fenster "Fixtures and Playbacks" (Geräte und Speicherplätze) und
 "Groups and Palettes" (Gruppen und Paletten) ermöglichen Zugriff auf die

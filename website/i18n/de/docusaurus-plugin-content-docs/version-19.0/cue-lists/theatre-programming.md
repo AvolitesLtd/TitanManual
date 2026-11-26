@@ -224,6 +224,6 @@ folgende Cues, bis das Tracken gestoppt wird. Zum Stoppen klicken Sie in der Pla
 
 ## Macros
 
-Folgen von Tastendrücken können als *Macro* gespeichert werden, so dass die ganze Folge durch nur einen Klick ausgeführt wird, siehe [Macros](../titan-basics/front-panel-buttons.md#macros----tastenfolgen).
+Folgen von Tastendrücken können als *Macro* gespeichert werden, so dass die ganze Folge durch nur einen Klick ausgeführt wird, siehe [Macros](../titan-basics/front-panel-buttons.md#macros---tastenfolgen).
 
 Macros können in Cuelisten eingefügt werden, indem man ind der Spalte 'Macros' in der Playback-Ansicht in die betreffende Zelle klickt.

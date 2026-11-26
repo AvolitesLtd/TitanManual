@@ -44,7 +44,7 @@ Ein paar weitere wissenswerte Dinge:
 -   Drücken Sie <Keys.HardKey>Clear</Keys.HardKey> (rechts vom Zifferntastenblock), um sämtliche
     Geräte aus der Auswahl zu entfernen und sämtliche Änderungen aus dem
     Programmierspeicher zu löschen. Weitere Optionen dazu sind im
-    [nächsten Abschnitt](./controlling-fixtures.md#clear----löschen-des-programmers-und-der-geräteauswahl) erläutert. 
+    [nächsten Abschnitt](./controlling-fixtures.md#clear---löschen-des-programmers-und-der-geräteauswahl) erläutert. 
 
 -   Sobald ein Attribut verändert und wieder eine Auswahltaste betätigt
     wurde, werden sämtliche Geräte aus der Auswahl entfernt, und der
@@ -120,7 +120,7 @@ Wählen Sie nun <Keys.SoftKey>Shared</Keys.SoftKey> (gemeinsam = alle Lampen die
 oder <Keys.SoftKey>Individual</Keys.SoftKey> (nur einzelne Geräte). Drücken Sie schließlich 
 nochmals <Keys.HardKey>Record</Keys.HardKey> oder <Keys.HardKey>Locate</Keys.HardKey>.
 
-## Clear -- Löschen des Programmers und der Geräteauswahl
+## Clear - Löschen des Programmers und der Geräteauswahl
 
 Die Taste <Keys.HardKey>Clear</Keys.HardKey> (rechts vom Zifferntastenblock) löscht sämtliche
 Änderungen aus dem Programmierspeicher sowie die aktuelle Geräteauswahl.

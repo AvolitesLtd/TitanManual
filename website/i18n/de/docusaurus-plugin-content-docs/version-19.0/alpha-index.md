@@ -1,7 +1,7 @@
 ---
 id: alpha-index
-title: Index (Alphabetisch)
-sidebar_label: Index (Alphabetisch)
+title: Alphabetic Index
+sidebar_label: Alphabetic Index
 ---
 
 import Keys from '@site/src/components/key.ts';
@@ -61,6 +61,8 @@ import Video from '@site/src/components/video.tsx';
 [Anwählen von Dimmern/Geräten nach (Kanal-)Nummer *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#anwählen-von-dimmerngeräten-nach-kanal-nummer)<br/>
 [Anzahl und Größe der Schaltflächen/Raster *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#anzahl-und-größe-der-schaltflächenraster)<br/>
 [Anzeige der Cues: Playback View und Cue View *(in "Editieren von Cues")*](./cues/editing-cues.md#anzeige-der-cues-playback-view-und-cue-view)<br/>
+[Anzeige der Firmware-Version *(in "Verwenden von Touch-Panels")*](./remote-control/programming-touch-panels.md#anzeige-der-firmware-version)<br/>
+[Anzeige der Panels in USB Expert *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#anzeige-der-panels-in-usb-expert)<br/>
 [Anzeige nur der relevanten Paletten *(in "Abrufen von Paletten")*](./palettes/using-palettes.md#anzeige-nur-der-relevanten-paletten)<br/>
 [Anzeige weiterer Patch-Details *(in "Das Patch ändern")*](./patching/changing-the-patch.md#anzeige-weiterer-patch-details)<br/>
 [Anzeigen der aktiven Playbacks *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#anzeigen-der-aktiven-playbacks)<br/>
@@ -76,7 +78,7 @@ import Video from '@site/src/components/video.tsx';
 [Attribute limitieren *(in "Erweiterte Funktionen")*](./patching/fixture-personality-options.md#attribute-limitieren)<br/>
 [Attribute mit "Off" deaktivieren *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#attribute-mit-off-deaktivieren)<br/>
 [Attribute zum Speichern in Paletten *(in "Erstellen von Paletten")*](./palettes/creating-palettes.md#attribute-zum-speichern-in-paletten)<br/>
-[Attributgruppen -- IPCGBES-FX *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#attributgruppen----ipcgbes-fx)<br/>
+[Attributgruppen - IPCGBES-FX *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#attributgruppen---ipcgbes-fx)<br/>
 [Attribut-Speichermaske bei Cues *(in "Erstellen eines Cues")*](./cues/creating-a-cue.md#attribut-speichermaske-bei-cues)<br/>
 [Audio-Trigger (Sound to Light) *(in "Externe Trigger")*](./running-the-show/midi-dmx-or-audio-triggering.md#audio-trigger-sound-to-light)<br/>
 [Aufzeichnen eine Timeline im Live-Betrieb *(in "Eine Timeline speichern")*](./timelines/creating-a-timeline.md#aufzeichnen-eine-timeline-im-live-betrieb)<br/>
@@ -91,8 +93,9 @@ import Video from '@site/src/components/video.tsx';
 [Auto-Gruppen *(in "Geräte-Gruppen")*](./controlling-fixtures/fixture-groups.md#auto-gruppen)<br/>
 [Autoloading: Laden eines externen Cues *(in "Anlegen einer Cueliste")*](./cue-lists/creating-a-cue-list.md#autoloading-laden-eines-externen-cues)<br/>
 [Automatisches Patchen in Capture *(in "Geräte und Dimmer patchen")*](./patching/patching-new-fixtures-or-dimmers.md#automatisches-patchen-in-capture)<br/>
+[Automatisches Updaten der Firmware *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#automatisches-updaten-der-firmware)<br/>
 [Automatisches Vereinfachen *(in "Eine Timeline speichern")*](./timelines/creating-a-timeline.md#automatisches-vereinfachen)<br/>
-[Autosave -- Automatisches Speichern *(in "Laden und Sichern von Shows")*](./titan-basics/loading-and-saving-shows.md#autosave----automatisches-speichern)
+[Autosave - Automatisches Speichern *(in "Laden und Sichern von Shows")*](./titan-basics/loading-and-saving-shows.md#autosave---automatisches-speichern)
   
 ## B
 [Bänke und Clips mit speziellen Funktionen *(in "Arbeiten mit Synergy")*](./synergy/operating-synergy.md#bänke-und-clips-mit-speziellen-funktionen)<br/>
@@ -103,8 +106,8 @@ import Video from '@site/src/components/video.tsx';
 [Bedienoberfläche *(in "Das Tiger Touch")*](./about-the-consoles/tiger-touch.md#bedienoberfläche)<br/>
 [Bedienoberfläche *(in "Pearl Expert und Touch Wing")*](./about-the-consoles/pearl-expert-and-touch-wing.md#bedienoberfläche)<br/>
 [Beispiel 1: Gerade/ungerade *(in "Pixelmapper - Beispiele")*](./effects/pixel-mapper-examples.md#beispiel-1-geradeungerade)<br/>
-[Beispiel 2 -- Pseudo-Zufallsfolge *(in "Pixelmapper - Beispiele")*](./effects/pixel-mapper-examples.md#beispiel-2----pseudo-zufallsfolge)<br/>
-[Beispiel 3 -- Winkel (oder 'wenn einfach grade einfach langweilig ist') *(in "Pixelmapper - Beispiele")*](./effects/pixel-mapper-examples.md#beispiel-3----winkel-oder-'wenn-einfach-grade-einfach-langweilig-ist')<br/>
+[Beispiel 2 - Pseudo-Zufallsfolge *(in "Pixelmapper - Beispiele")*](./effects/pixel-mapper-examples.md#beispiel-2---pseudo-zufallsfolge)<br/>
+[Beispiel 3 - Winkel (oder 'wenn einfach grade einfach langweilig ist') *(in "Pixelmapper - Beispiele")*](./effects/pixel-mapper-examples.md#beispiel-3---winkel-oder-'wenn-einfach-grade-einfach-langweilig-ist')<br/>
 [Beispiel für ein einfaches Art-Net-System *(in "Steuern von Geräten über Netzwerk")*](./networking/controlling-fixtures-over-a-network.md#beispiel-für-ein-einfaches-art-net-system)<br/>
 [Bereits gepatchte Personalities aktualisieren *(in "Das Patch ändern")*](./patching/changing-the-patch.md#bereits-gepatchte-personalities-aktualisieren)<br/>
 [Bildschirmtastatur *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#bildschirmtastatur)<br/>
@@ -112,23 +115,24 @@ import Video from '@site/src/components/video.tsx';
 [Blind-Modus *(in "Erstellen eines Cues")*](./cues/creating-a-cue.md#blind-modus)<br/>
 [Blind-Modus *(in "Steuern der Show")*](./running-the-show.md#blind-modus)<br/>
 [Block-Cues und Follow-On-Cues *(in "Tipps für Theater-Programmierer")*](./cue-lists/theatre-programming.md#block-cues-und-follow-on-cues)<br/>
+[BPM-Master numerisch steuern *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#bpm-master-numerisch-steuern)<br/>
 [BPM-Master per Pioneer DJ triggern *(in "Pioneer ProDJ-Decks mit Titan verknüpfen")*](./running-the-show/linking-pioneerdj-system-to-titan.md#bpm-master-per-pioneer-dj-triggern)<br/>
 [Button-Halo *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#button-halo)
   
 ## C
 [Capture Darstellungs-Optionen *(in "Das Rig einrichten")*](./capture-visualiser/setting-up-the-rig.md#capture-darstellungs-optionen)<br/>
 [Chases *(in "Key Profiles - Tastenbelegungen")*](./system-settings/key-profiles.md#chases)<br/>
-[Clear -- Löschen des Programmers und der Geräteauswahl *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#clear----löschen-des-programmers-und-der-geräteauswahl)<br/>
+[Clear - Löschen des Programmers und der Geräteauswahl *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#clear---löschen-des-programmers-und-der-geräteauswahl)<br/>
 [Clear *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#clear)<br/>
 [Clear-Funktionen *(in "Tipps für Theater-Programmierer")*](./cue-lists/theatre-programming.md#clear-funktionen)<br/>
 [Clear-Optionen *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#clear-optionen)<br/>
-[Compatibility windows -- die 'Kompatibilitätsfenster' *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#compatibility-windows----die-'kompatibilitätsfenster')<br/>
+[Compatibility windows - die Kompatibilitätsfenster *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#compatibility-windows---die-kompatibilitätsfenster)<br/>
 [Console Legend *(in "Das System-Menü")*](./system-settings/the-system-menu.md#console-legend)<br/>
-[Copy, Move -- Kopieren, Verschieben in Cuelisten *(in "Titan Befehlsreferenz")*](./titan-reference.md#copy,-move----kopieren,-verschieben-in-cuelisten)<br/>
+[Copy, Move - Kopieren, Verschieben in Cuelisten *(in "Titan Befehlsreferenz")*](./titan-reference.md#copy,-move---kopieren,-verschieben-in-cuelisten)<br/>
 [Cross Fade HTP *(in "Playback-Optionen")*](./cues/playback-options.md#cross-fade-htp)<br/>
 [Cue Links Disabled *(in "Chaser-Optionen")*](./chases/chase-options.md#cue-links-disabled)<br/>
 [Cue Links Disabled: *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#cue-links-disabled)<br/>
-[Cue Lists -- Cuelisten *(in "Titan Befehlsreferenz")*](./titan-reference.md#cue-lists----cuelisten)<br/>
+[Cue Lists - Cuelisten *(in "Titan Befehlsreferenz")*](./titan-reference.md#cue-lists---cuelisten)<br/>
 [Cue Lists *(in "Key Profiles - Tastenbelegungen")*](./system-settings/key-profiles.md#cue-lists)<br/>
 [Cue Release *(in "Chaser-Optionen")*](./chases/chase-options.md#cue-release)<br/>
 [Cue Release *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#cue-release)<br/>
@@ -143,11 +147,11 @@ import Video from '@site/src/components/video.tsx';
 [Cycles *(in "Der Shape-Generator")*](./effects/shape-generator.md#cycles)
   
 ## D
+[D3 Core *(in "D3")*](./about-the-consoles/d3.md#d3-core)<br/>
 [D3 Touch *(in "D3")*](./about-the-consoles/d3.md#d3-touch)<br/>
 [D3 Wing *(in "D3")*](./about-the-consoles/d3.md#d3-wing)<br/>
 [D3-010 *(in "D3")*](./about-the-consoles/d3.md#d3-010)<br/>
 [D3-110 *(in "D3")*](./about-the-consoles/d3.md#d3-110)<br/>
-[D3-Core *(in "D3")*](./about-the-consoles/d3.md#d3-core)<br/>
 [Das ausgewählte Gerät bei Fix+1/Fix-1 hervorheben *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#das-ausgewählte-gerät-bei-fix+1fix-1-hervorheben)<br/>
 [Das Clear-Menü *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#das-clear-menü)<br/>
 [Das Fenster "Intensity View" *(in "Anzeigen/Verändern von Attribut-Werten")*](./controlling-fixtures/viewing-and-editing-fixture-values.md#das-fenster-intensity-view)<br/>
@@ -165,7 +169,7 @@ import Video from '@site/src/components/video.tsx';
 [Deaktivieren von Attributen in Cues mit "Off" *(in "Editieren von Cues")*](./cues/editing-cues.md#deaktivieren-von-attributen-in-cues-mit-off)<br/>
 [Default-Ausgangskonfiguration *(in "DMX-Einstellungen")*](./system-settings/dmx-output-mapping.md#default-ausgangskonfiguration)<br/>
 [Delay In/Fade In/Fade Out *(in "Playback-Optionen")*](./cues/playback-options.md#delay-infade-infade-out)<br/>
-[Delete -- Löschen *(in "Titan Befehlsreferenz")*](./titan-reference.md#delete----löschen)<br/>
+[Delete - Löschen *(in "Titan Befehlsreferenz")*](./titan-reference.md#delete---löschen)<br/>
 [Den Patch vom Pult nach Capture übertragen *(in "Mit einer externen Capture-Vollversion verbinden")*](./capture-visualiser/linking-the-console-to-stand-alone-capture.md#den-patch-vom-pult-nach-capture-übertragen)<br/>
 [Den Patch von Capture ins Pult übertragen *(in "Mit einer externen Capture-Vollversion verbinden")*](./capture-visualiser/linking-the-console-to-stand-alone-capture.md#den-patch-von-capture-ins-pult-übertragen)<br/>
 [Den Programmer releasen *(in "Einen Cue verwenden")*](./cues/cue-playback.md#den-programmer-releasen)<br/>
@@ -205,7 +209,7 @@ import Video from '@site/src/components/video.tsx';
 [Display-Ansicht speichern *(in "Steuern der Show")*](./running-the-show.md#display-ansicht-speichern)<br/>
 [DMX /sACN Input *(in "DMX-Einstellungen")*](./system-settings/dmx-output-mapping.md#dmx-sacn-input)<br/>
 [DMX anschließen *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#dmx-anschließen)<br/>
-[DMX Merge -- Network DMX Node Settings *(in "DMX-Einstellungen")*](./system-settings/dmx-output-mapping.md#dmx-merge----network-dmx-node-settings)<br/>
+[DMX Merge - Network DMX Node Settings *(in "DMX-Einstellungen")*](./system-settings/dmx-output-mapping.md#dmx-merge---network-dmx-node-settings)<br/>
 [DMX Settings *(in "Das System-Menü")*](./system-settings/the-system-menu.md#dmx-settings)<br/>
 [DMX-Overview *(in "DMX-Einstellungen")*](./system-settings/dmx-output-mapping.md#dmx-overview)
   
@@ -285,10 +289,10 @@ import Video from '@site/src/components/video.tsx';
 [Fehler der Personalities an Avolites berichten *(in "Die Personalities (Gerätedateien)")*](./fixture-personalities.md#fehler-der-personalities-an-avolites-berichten)<br/>
 [Fenster-Einstellungen *(in "Anzeigen/Verändern von Attribut-Werten")*](./controlling-fixtures/viewing-and-editing-fixture-values.md#fenster-einstellungen)<br/>
 [Feste Playbacks (Nur Tiger Touch) *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#feste-playbacks-nur-tiger-touch)<br/>
-[Filtern -- Nur einzelne Spalten anzeigen *(in "Editieren von Cues")*](./cues/editing-cues.md#filtern----nur-einzelne-spalten-anzeigen)<br/>
+[Filtern - Nur einzelne Spalten anzeigen *(in "Editieren von Cues")*](./cues/editing-cues.md#filtern---nur-einzelne-spalten-anzeigen)<br/>
 [Filtern der angezeigten Geräte *(in "Anzeigen/Verändern von Attribut-Werten")*](./controlling-fixtures/viewing-and-editing-fixture-values.md#filtern-der-angezeigten-geräte)<br/>
 [Fire First Cue *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#fire-first-cue)<br/>
-[Fixture Offset -- Geräte-Offset *(in "Erweiterte Funktionen")*](./patching/fixture-personality-options.md#fixture-offset----geräte-offset)<br/>
+[Fixture Offset - Geräte-Offset *(in "Erweiterte Funktionen")*](./patching/fixture-personality-options.md#fixture-offset---geräte-offset)<br/>
 [Fixture Overlap - Geräte-Überlappung *(in "Zeiten bei Chasern")*](./chases/chase-timing.md#fixture-overlap---geräte-überlappung)<br/>
 [Fixture Overlap - Geräteversatz *(in "Zeiten für Cuelisten")*](./cue-lists/cue-list-timing.md#fixture-overlap---geräteversatz)<br/>
 [Fixture Overlap *(in "Playback-Optionen")*](./cues/playback-options.md#fixture-overlap)<br/>
@@ -300,7 +304,8 @@ import Video from '@site/src/components/video.tsx';
 [Flash- und Swop-Tasten *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#flash--und-swop-tasten)<br/>
 [Flip *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#flip)<br/>
 [Formatting (Formate) *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#formatting-formate)<br/>
-[Funktionen der Layout-Anzeige *(in "Layouts")*](./controlling-fixtures/layouts.md#funktionen-der-layout-anzeige)
+[Funktionen der Layout-Anzeige *(in "Layouts")*](./controlling-fixtures/layouts.md#funktionen-der-layout-anzeige)<br/>
+[Funktionstest der Panel *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#funktionstest-der-panel)
   
 ## G
 [General (Allgemein) *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#general-allgemein)<br/>
@@ -346,21 +351,22 @@ import Video from '@site/src/components/video.tsx';
 [Importieren von Markern *(in "Eine Timeline speichern")*](./timelines/creating-a-timeline.md#importieren-von-markern)<br/>
 [Improvisieren (Busking) mit Paletten *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#improvisieren-busking-mit-paletten)<br/>
 [Inbetriebnahme von T3/Titan Mobile und T1/T2 *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#inbetriebnahme-von-t3titan-mobile-und-t1t2)<br/>
-[Include --  in den Speicher laden *(in "Titan Befehlsreferenz")*](./titan-reference.md#include-----in-den-speicher-laden)<br/>
+[Include - in den Speicher laden *(in "Titan Befehlsreferenz")*](./titan-reference.md#include---in-den-speicher-laden)<br/>
 [Individuelle Einblendzeiten für Attribute *(in "Zeiten für Cuelisten")*](./cue-lists/cue-list-timing.md#individuelle-einblendzeiten-für-attribute)<br/>
 [Individuelle Zeiten pro Schritt *(in "Zeiten bei Chasern")*](./chases/chase-timing.md#individuelle-zeiten-pro-schritt)<br/>
 [Installationshinweise *(in "Wiederherstellen/Neuinstallation")*](./system-settings/recovering-reinstalling-the-console.md#installationshinweise)<br/>
 [Installieren der Titan-Software *(in "T1 und T2")*](./about-the-consoles/t1-and-t2.md#installieren-der-titan-software)
   
 ## K
+[Kalibrieren der Motorfader *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#kalibrieren-der-motorfader)<br/>
 [Kameras einrichten (Ansichten) *(in "Das Rig einrichten")*](./capture-visualiser/setting-up-the-rig.md#kameras-einrichten-ansichten)<br/>
 [Kameras/Ansichten *(in "Mit Capture visualisieren")*](./capture-visualiser/visualising-using-capture.md#kamerasansichten)<br/>
 [Kennlinien für Geräte und Attribute *(in "Erweiterte Funktionen")*](./patching/fixture-personality-options.md#kennlinien-für-geräte-und-attribute)<br/>
 [Key Profile *(in "Playback-Optionen")*](./cues/playback-options.md#key-profile)<br/>
 [Key Profiles - Tastenprofile *(in "Das System-Menü")*](./system-settings/the-system-menu.md#key-profiles---tastenprofile)<br/>
-[Key Profiles -- Tastenprofile *(in "Die Tasten der Konsole")*](./titan-basics/front-panel-buttons.md#key-profiles----tastenprofile)<br/>
+[Key Profiles - Tastenprofile *(in "Die Tasten der Konsole")*](./titan-basics/front-panel-buttons.md#key-profiles---tastenprofile)<br/>
 [Key Profiles (Tastenprofile) *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#key-profiles-tastenprofile)<br/>
-[Keypad -- Tastatur *(in "Verwenden der Titan Remote-App")*](./remote-control/operating-the-remote.md#keypad----tastatur)<br/>
+[Keypad - Tastatur *(in "Verwenden der Titan Remote-App")*](./remote-control/operating-the-remote.md#keypad---tastatur)<br/>
 [Kill Point *(in "Playback-Optionen")*](./cues/playback-options.md#kill-point)<br/>
 [Kompakte Track-Ansicht *(in "Wiedergeben und Editieren von Timelines")*](./timelines/running-and-editing-timelines.md#kompakte-track-ansicht)<br/>
 [Komplexe Effekte *(in "Keyframe-Shapes")*](./effects/key-frame-shapes.md#komplexe-effekte)<br/>
@@ -383,9 +389,10 @@ import Video from '@site/src/components/video.tsx';
 [Legenden/Bezeichnungen eingeben *(in "Das Patch ändern")*](./patching/changing-the-patch.md#legendenbezeichnungen-eingeben)<br/>
 [Lightmap: Pixelmapping mit Video-Content *(in "Arbeiten mit Synergy")*](./synergy/operating-synergy.md#lightmap-pixelmapping-mit-video-content)<br/>
 [Linking *(in "Chaser-Optionen")*](./chases/chase-options.md#linking)<br/>
-[Lock -- den TNP sperren *(in "TNP im Slave-Betrieb")*](./titan-net/tnp-slave-mode.md#lock----den-tnp-sperren)<br/>
+[Liste der Firmware-Dateien *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#liste-der-firmware-dateien)<br/>
+[Lock - den TNP sperren *(in "TNP im Slave-Betrieb")*](./titan-net/tnp-slave-mode.md#lock---den-tnp-sperren)<br/>
 [Lock *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#lock)<br/>
-[Lock und Venue Mode -- das Pult ganz oder teilweise sperren *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#lock-und-venue-mode----das-pult-ganz-oder-teilweise-sperren)<br/>
+[Lock und Venue Mode - das Pult ganz oder teilweise sperren *(in "Arbeitsfenster")*](./titan-basics/workspace-windows.md#lock-und-venue-mode---das-pult-ganz-oder-teilweise-sperren)<br/>
 [Lokale (individuelle) Release-Maske *(in "Einen Cue verwenden")*](./cues/cue-playback.md#lokale-individuelle-release-maske)<br/>
 [Loop Action *(in "Chaser-Optionen")*](./chases/chase-options.md#loop-action)<br/>
 [Loop Action *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#loop-action)<br/>
@@ -398,12 +405,13 @@ import Video from '@site/src/components/video.tsx';
 [Löschen von Shapes *(in "Ändern von Shapes und Effekten")*](./effects/editing-shapes-and-effects.md#löschen-von-shapes)
   
 ## M
-[Macros -- Tastenfolgen *(in "Die Tasten der Konsole")*](./titan-basics/front-panel-buttons.md#macros----tastenfolgen)<br/>
+[Macros - Tastenfolgen *(in "Die Tasten der Konsole")*](./titan-basics/front-panel-buttons.md#macros---tastenfolgen)<br/>
 [Macros *(in "Key Profiles - Tastenbelegungen")*](./system-settings/key-profiles.md#macros)<br/>
 [Macros *(in "Tipps für Theater-Programmierer")*](./cue-lists/theatre-programming.md#macros)<br/>
 [Macros zur Playback-Steuerung *(in "Das Fenster Set-Liste")*](./running-the-show/set-list-window.md#macros-zur-playback-steuerung)<br/>
 [Manuelle Geräteüberlappung beim Palettenabruf *(in "Arbeiten mit Zeiten in Paletten")*](./palettes/timing-with-palettes.md#manuelle-geräteüberlappung-beim-palettenabruf)<br/>
 [Manuelle Steuerung der Schritte *(in "Abrufen")*](./chases/chase-playback.md#manuelle-steuerung-der-schritte)<br/>
+[Manuelles Updaten der Firmware *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#manuelles-updaten-der-firmware)<br/>
 [Master für Speed (Geschwindigkeit) und Size (Größe) *(in "Einen Cue verwenden")*](./cues/cue-playback.md#master-für-speed-geschwindigkeit-und-size-größe)<br/>
 [Master mit den Encodern steuern *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#master-mit-den-encodern-steuern)<br/>
 [Master-Fader *(in "Steuern der Wiedergabe")*](./running-the-show/playback-controls.md#master-fader)<br/>
@@ -413,6 +421,7 @@ import Video from '@site/src/components/video.tsx';
 [Master-Zeit und Overlap für Paletten *(in "Arbeiten mit Zeiten in Paletten")*](./palettes/timing-with-palettes.md#master-zeit-und-overlap-für-paletten)<br/>
 [Match Surface Resolution *(in "Arbeiten mit Synergy")*](./synergy/operating-synergy.md#match-surface-resolution)<br/>
 [Matrix-Effekte mit dem Pixelmapper erstellen *(in "Der Pixelmapper")*](./effects/pixel-mapper.md#matrix-effekte-mit-dem-pixelmapper-erstellen)<br/>
+[Media Viewer *(in "Arbeiten mit Synergy")*](./synergy/operating-synergy.md#media-viewer)<br/>
 [Medienserver/Active Fixtures *(in "Attributwerte ändern")*](./controlling-fixtures/changing-fixture-attributes.md#medienserveractive-fixtures)<br/>
 [Mergen/verschmelzen einzelner Werte *(in "Editieren")*](./cue-lists/editing-cue-lists.md#mergenverschmelzen-einzelner-werte)<br/>
 [MIDI Show Control *(in "Externe Trigger")*](./running-the-show/midi-dmx-or-audio-triggering.md#midi-show-control)<br/>
@@ -423,13 +432,16 @@ import Video from '@site/src/components/video.tsx';
   
 ## N
 [Navigieren in der Timeline mit den Encodern *(in "Einführung in Timelines")*](./timelines.md#navigieren-in-der-timeline-mit-den-encodern)<br/>
-[Nested palettes -- Verknüpfte Paletten *(in "Erstellen von Paletten")*](./palettes/creating-palettes.md#nested-palettes----verknüpfte-paletten)<br/>
+[Nested palettes - Verknüpfte Paletten *(in "Erstellen von Paletten")*](./palettes/creating-palettes.md#nested-palettes---verknüpfte-paletten)<br/>
 [Network DMX Node Settings *(in "Das System-Menü")*](./system-settings/the-system-menu.md#network-dmx-node-settings)<br/>
 [Network Settings - Netzwerkeinstellungen *(in "Das System-Menü")*](./system-settings/the-system-menu.md#network-settings---netzwerkeinstellungen)<br/>
 [Netzanschluss *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#netzanschluss)<br/>
 [Netzwerkeinstellungen *(in "TNP im Slave-Betrieb")*](./titan-net/tnp-slave-mode.md#netzwerkeinstellungen)<br/>
 [Nicht ausgewählte Geräte ausblenden (Remainder Dim) *(in "Anwählen von Geräten und Dimmern")*](./controlling-fixtures.md#nicht-ausgewählte-geräte-ausblenden-remainder-dim)<br/>
 [Node-Einstellungen *(in "TNP im Slave-Betrieb")*](./titan-net/tnp-slave-mode.md#node-einstellungen)
+  
+## Ö
+[Öffnen der USB Expert Console *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#öffnen-der-usb-expert-console)
   
 ## O
 [Offset einstellen *(in "Timeline-Optionen")*](./timelines/timeline-options.md#offset-einstellen)<br/>
@@ -480,16 +492,16 @@ import Video from '@site/src/components/video.tsx';
 [Pulte ohne Motorfader *(in "Einen Cue verwenden")*](./cues/cue-playback.md#pulte-ohne-motorfader)
   
 ## Q
-[Quick Build -- Cues schnellspeichern *(in "Erstellen eines Cues")*](./cues/creating-a-cue.md#quick-build----cues-schnellspeichern)<br/>
-[Quick Palettes -- Schnelle Paletten ohne ausgewählte Geräte *(in "Abrufen von Paletten")*](./palettes/using-palettes.md#quick-palettes----schnelle-paletten-ohne-ausgewählte-geräte)
+[Quick Build - Cues schnellspeichern *(in "Erstellen eines Cues")*](./cues/creating-a-cue.md#quick-build---cues-schnellspeichern)<br/>
+[Quick Palettes - Schnelle Paletten ohne ausgewählte Geräte *(in "Abrufen von Paletten")*](./palettes/using-palettes.md#quick-palettes---schnelle-paletten-ohne-ausgewählte-geräte)
   
 ## R
-[Range mapping -- Zuweisen von Bereichen *(in "Das Patch ändern")*](./patching/changing-the-patch.md#range-mapping----zuweisen-von-bereichen)<br/>
+[Range mapping - Zuweisen von Bereichen *(in "Das Patch ändern")*](./patching/changing-the-patch.md#range-mapping---zuweisen-von-bereichen)<br/>
 [Rasteroptionen *(in "Layouts")*](./controlling-fixtures/layouts.md#rasteroptionen)<br/>
 [Rate- und BPM-Master *(in "Zeiten bei Chasern")*](./chases/chase-timing.md#rate--und-bpm-master)<br/>
 [Raum und Bühne *(in "Das Rig einrichten")*](./capture-visualiser/setting-up-the-rig.md#raum-und-bühne)<br/>
-[Record -- Speichern *(in "Titan Befehlsreferenz")*](./titan-reference.md#record----speichern)<br/>
-[Recover -- Show Wiederherstellen *(in "Laden und Sichern von Shows")*](./titan-basics/loading-and-saving-shows.md#recover----show-wiederherstellen)<br/>
+[Record - Speichern *(in "Titan Befehlsreferenz")*](./titan-reference.md#record---speichern)<br/>
+[Recover - Show Wiederherstellen *(in "Laden und Sichern von Shows")*](./titan-basics/loading-and-saving-shows.md#recover---show-wiederherstellen)<br/>
 [Reihenfolge und Priorität beim Abruf *(in "Pixelmapper - Beispiele")*](./effects/pixel-mapper-examples.md#reihenfolge-und-priorität-beim-abruf)<br/>
 [Release *(in "Einen Cue verwenden")*](./cues/cue-playback.md#release)<br/>
 [Release *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#release)<br/>
@@ -510,7 +522,7 @@ import Video from '@site/src/components/video.tsx';
 [Schnellspeichern *(in "Erstellen von Paletten")*](./palettes/creating-palettes.md#schnellspeichern)<br/>
 [Schrittfolge und Versatz *(in "Zeiten für Cuelisten")*](./cue-lists/cue-list-timing.md#schrittfolge-und-versatz)<br/>
 [Selbsterstellte Gerätedateien *(in "Die Personalities (Gerätedateien)")*](./fixture-personalities.md#selbsterstellte-gerätedateien)<br/>
-[Select If -- Bedingte Auswahl *(in "Titan Befehlsreferenz")*](./titan-reference.md#select-if----bedingte-auswahl)<br/>
+[Select If - Bedingte Auswahl *(in "Titan Befehlsreferenz")*](./titan-reference.md#select-if---bedingte-auswahl)<br/>
 [Setup *(in "TNP im Slave-Betrieb")*](./titan-net/tnp-slave-mode.md#setup)<br/>
 [Shape & Effect Speed *(in "Playback-Optionen")*](./cues/playback-options.md#shape-&-effect-speed)<br/>
 [Shape Behaviour *(in "Playback-Optionen")*](./cues/playback-options.md#shape-behaviour)<br/>
@@ -532,9 +544,9 @@ import Video from '@site/src/components/video.tsx';
 [Sichern der Show *(in "Steuern der Show")*](./running-the-show.md#sichern-der-show)<br/>
 [Sichern existierender Shows auf USB-Sticks *(in "Laden und Sichern von Shows")*](./titan-basics/loading-and-saving-shows.md#sichern-existierender-shows-auf-usb-sticks)<br/>
 [Size Source *(in "Playback-Optionen")*](./cues/playback-options.md#size-source)<br/>
-[Snap -- Fangptionen *(in "Wiedergeben und Editieren von Timelines")*](./timelines/running-and-editing-timelines.md#snap----fangptionen)<br/>
+[Snap - Fangptionen *(in "Wiedergeben und Editieren von Timelines")*](./timelines/running-and-editing-timelines.md#snap---fangptionen)<br/>
 [Software-Lizenzierung *(in "Wiederherstellen/Neuinstallation")*](./system-settings/recovering-reinstalling-the-console.md#software-lizenzierung)<br/>
-[Spawn und Pre-Spool -- 'Aufspreizen' und 'Vorspulen' *(in "Pixelmapper - Beispiele")*](./effects/pixel-mapper-examples.md#spawn-und-pre-spool----'aufspreizen'-und-'vorspulen')<br/>
+[Spawn und Pre-Spool - 'Aufspreizen' und 'Vorspulen' *(in "Pixelmapper - Beispiele")*](./effects/pixel-mapper-examples.md#spawn-und-pre-spool---'aufspreizen'-und-'vorspulen')<br/>
 [Speed *(in "Playback-Optionen")*](./cues/playback-options.md#speed)<br/>
 [Speed Multiplier *(in "Chaser-Optionen")*](./chases/chase-options.md#speed-multiplier)<br/>
 [Speed Source *(in "Playback-Optionen")*](./cues/playback-options.md#speed-source)<br/>
@@ -594,15 +606,23 @@ import Video from '@site/src/components/video.tsx';
 [Tastenprofile für Cuelisten *(in "Abrufen")*](./cue-lists/cue-list-playback.md#tastenprofile-für-cuelisten)<br/>
 [Teile aus anderen Shows importieren *(in "Laden und Sichern von Shows")*](./titan-basics/loading-and-saving-shows.md#teile-aus-anderen-shows-importieren)<br/>
 [Temporäre Release-Maske *(in "Einen Cue verwenden")*](./cues/cue-playback.md#temporäre-release-maske)<br/>
-[Time -- Optionen für Zeiten *(in "Timeline-Optionen")*](./timelines/timeline-options.md#time----optionen-für-zeiten)<br/>
+[Testen der DMX-Panels *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#testen-der-dmx-panels)<br/>
+[Testen der Fader *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#testen-der-fader)<br/>
+[Testen der LEDs *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#testen-der-leds)<br/>
+[Testen der Motorfader *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#testen-der-motorfader)<br/>
+[Testen der USV-Batterie *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#testen-der-usv-batterie)<br/>
+[Testen von MIDI *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#testen-von-midi)<br/>
+[Testen von Tastern/Schaltern *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#testen-von-tasternschaltern)<br/>
+[Testen von Timecode *(in "Upgraden der Firmware und Testen der Hardware (USB Expert Console)")*](./system-settings/usb-expert.md#testen-von-timecode)<br/>
+[Time - Optionen für Zeiten *(in "Timeline-Optionen")*](./timelines/timeline-options.md#time---optionen-für-zeiten)<br/>
 [Timecode *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#timecode)<br/>
 [Timecode Source *(in "Cuelisten-Optionen")*](./cue-lists/cue-list-options.md#timecode-source)<br/>
 [Timecode verbinden und steuern *(in "Einführung in Timelines")*](./timelines.md#timecode-verbinden-und-steuern)<br/>
 [Timecode-Quelle wählen *(in "Einführung in Timelines")*](./timelines.md#timecode-quelle-wählen)<br/>
 [Timeline *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#timeline)<br/>
-[Times -- Zeiten *(in "Titan Befehlsreferenz")*](./titan-reference.md#times----zeiten)<br/>
+[Times - Zeiten *(in "Titan Befehlsreferenz")*](./titan-reference.md#times---zeiten)<br/>
 [Times (Zeiten) *(in "User Settings - Benutzereinstellungen")*](./system-settings/user-settings.md#times-zeiten)<br/>
-[Titan Healthcheck -- die Eigendiagnose *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#titan-healthcheck----die-eigendiagnose)<br/>
+[Titan Healthcheck - die Eigendiagnose *(in "Anschließen des Pultes, erste Schritte")*](./titan-basics.md#titan-healthcheck---die-eigendiagnose)<br/>
 [Titan Mobile Anschlussfeld *(in "Das Titan Mobile")*](./about-the-consoles/titan-mobile.md#titan-mobile-anschlussfeld)<br/>
 [Titan Mobile Wing *(in "Das Titan Mobile")*](./about-the-consoles/titan-mobile.md#titan-mobile-wing)<br/>
 [Titan One dongle *(in "T1 und T2")*](./about-the-consoles/t1-and-t2.md#titan-one-dongle)<br/>
@@ -629,11 +649,12 @@ import Video from '@site/src/components/video.tsx';
   
 ## U
 [Umschalten zwischen Layouts *(in "Layouts")*](./controlling-fixtures/layouts.md#umschalten-zwischen-layouts)<br/>
-[Undo/Redo -- Rückgängig machen/Wiederholen *(in "Andere Bereiche der Anzeige")*](./titan-basics/other-parts-of-the-touch-screen.md#undoredo----rückgängig-machenwiederholen)<br/>
+[Undo/Redo - Rückgängig machen/Wiederholen *(in "Andere Bereiche der Anzeige")*](./titan-basics/other-parts-of-the-touch-screen.md#undoredo---rückgängig-machenwiederholen)<br/>
 [Unter Verwendung der 'Unfold'-Funktion *(in "Zeiten bei Chasern")*](./chases/chase-timing.md#unter-verwendung-der-'unfold'-funktion)<br/>
 [Unter Verwendung des 'Playback View'-Fensters: *(in "Zeiten bei Chasern")*](./chases/chase-timing.md#unter-verwendung-des-'playback-view'-fensters)<br/>
 [Update und Cue-Tracking *(in "Editieren")*](./cue-lists/editing-cue-lists.md#update-und-cue-tracking)<br/>
 [Update-Modus *(in "Editieren")*](./cue-lists/editing-cue-lists.md#update-modus)<br/>
+[Updaten der Firmware *(in "Verwenden von Touch-Panels")*](./remote-control/programming-touch-panels.md#updaten-der-firmware)<br/>
 [Updaten der Personalities der Titan PC Suite (T1, T2, T3, Titan Mobile und Titan Simulator) *(in "Die Personalities (Gerätedateien)")*](./fixture-personalities.md#updaten-der-personalities-der-titan-pc-suite-t1,-t2,-t3,-titan-mobile-und-titan-simulator)<br/>
 [Updaten der Personalities eines Pultes *(in "Die Personalities (Gerätedateien)")*](./fixture-personalities.md#updaten-der-personalities-eines-pultes)<br/>
 [Updaten der Titan PC-Suite (Titan Go und Titan Simulator) *(in "Aktualisieren der Software")*](./system-settings/upgrading-the-software.md#updaten-der-titan-pc-suite-titan-go-und-titan-simulator)<br/>
@@ -642,14 +663,15 @@ import Video from '@site/src/components/video.tsx';
 [Updaten von Cues *(in "Tipps für Theater-Programmierer")*](./cue-lists/theatre-programming.md#updaten-von-cues)<br/>
 [Upgraden der Panel-Firmware per USB Expert *(in "Aktualisieren der Software")*](./system-settings/upgrading-the-software.md#upgraden-der-panel-firmware-per-usb-expert)<br/>
 [User Settings - Benutzereinstellungen *(in "Das System-Menü")*](./system-settings/the-system-menu.md#user-settings---benutzereinstellungen)<br/>
-[Users -- Benutzer *(in "Mehrbenutzer-Betrieb")*](./titan-basics/multi-user-operation.md#users----benutzer)
+[Usernummern (Benutzernummern) für Zonen und Szenen *(in "Verwenden von Touch-Panels")*](./remote-control/programming-touch-panels.md#usernummern-benutzernummern-für-zonen-und-szenen)<br/>
+[Users - Benutzer *(in "Mehrbenutzer-Betrieb")*](./titan-basics/multi-user-operation.md#users---benutzer)
   
 ## V
 [Verbinden des Mobilgeräts *(in "Einrichten der Fernsteuerung")*](./remote-control/setting-up-the-remote.md#verbinden-des-mobilgeräts)<br/>
 [Verbinden eines Playbacks mit der Steuerung *(in "Abrufen")*](./chases/chase-playback.md#verbinden-eines-playbacks-mit-der-steuerung)<br/>
 [Verbinden mit anderen TitanNet-Sessions *(in "Mehrbenutzer-Betrieb")*](./titan-basics/multi-user-operation.md#verbinden-mit-anderen-titannet-sessions)<br/>
 [Verbinden mit einem Ai-Server *(in "Einrichtung")*](./synergy/setting-up.md#verbinden-mit-einem-ai-server)<br/>
-[Verbinden mit Prism Zero *(in "Einrichtung")*](./synergy/setting-up.md#verbinden-mit-prism-zero)<br/>
+[Verbinden mit Prism *(in "Einrichtung")*](./synergy/setting-up.md#verbinden-mit-prism)<br/>
 [Vergeben von Attribut-Zeiten für einzelne Schritte *(in "Zeiten bei Chasern")*](./chases/chase-timing.md#vergeben-von-attribut-zeiten-für-einzelne-schritte)<br/>
 [Vergeben von Bezeichnern für einzelne Schritte *(in "Anlegen einer Cueliste")*](./cue-lists/creating-a-cue-list.md#vergeben-von-bezeichnern-für-einzelne-schritte)<br/>
 [Vergeben von Legenden und Halos für Tracks *(in "Wiedergeben und Editieren von Timelines")*](./timelines/running-and-editing-timelines.md#vergeben-von-legenden-und-halos-für-tracks)<br/>

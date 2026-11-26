@@ -57,7 +57,7 @@ You can also turn off the automatic transcoding to AiM codec, but
 normally we would recommend that this option is left on. Once the files
 are uploaded, any requiring transcoding are added to a queue in Ai or Prism. You
 can see the progress of the transcoding by viewing the clips in the
-[Attribute Editor](#attribute-editor-for-controlling-ai-layers), see below.
+[Attribute Editor](#attribute-editor-for-controlling-synergy-layers), see below.
 
 ## Media Viewer
 
@@ -151,9 +151,9 @@ outputs do not need to be connected to a physical output on the media server.
 
 > Use the [Layout Editor](../controlling-fixtures/fixture-groups.md#fixture-order-and-fixture-layout-in-groups) to tell the console where the fixtures
 are positioned in the physical space so it can map the correct part of the video
-to each fixture, which is described in the [next section](#layout-editor-with-ai-server).
+to each fixture, which is described in the [next section](#layout-editor-with-synergy).
 
-1. Using [Attribute Editor](#attribute-editor-for-controlling-ai-layers), **start a media clip playing** on the surface you
+1. Using [Attribute Editor](#attribute-editor-for-controlling-synergy-layers), **start a media clip playing** on the surface you
 want to use.
 2. Select <Keys.SoftKey>Shapes and Effects</Keys.SoftKey>, then <Keys.SoftKey>Pixel Mapper</Keys.SoftKey>.
 3. Select a **[group of fixtures](../controlling-fixtures/fixture-groups.md)** to play back on.

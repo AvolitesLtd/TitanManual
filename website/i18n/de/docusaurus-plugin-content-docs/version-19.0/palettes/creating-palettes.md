@@ -166,7 +166,7 @@ durch die neue ersetzt.
 	Diese Automatik lässt sich mit der [Benutzereinstellung](../system-settings/user-settings.md#palettes) **Minimum Palette Mode**
 	überschreiben bzw. deaktivieren.
 
-## Nested palettes -- Verknüpfte Paletten
+## Nested palettes - Verknüpfte Paletten
 
 Paletten können Bezüge auf andere Paletten enthalten. So kann z.B. eine
 Palette 'odd/even' erstellt werden, bei der die ungeraden Geräte eine
@@ -214,7 +214,7 @@ Schnellspeichern funktioniert auch bei Gruppen und Arbeitsumgebungen
 (Workspaces).
 
 > Wird eine Show geladen, die auf einem **Pearl Expert** programmiert wurde, so lassen sich die dort auf die Tasten programmierten Paletten über das Fenster **Groups and Palettes** erreichen, siehe
-[Compatibility windows -- Die Kompatibilitäts-Fenster](../titan-basics/workspace-windows.md#compatibility-windows----die-kompatibilitäts-fenster).
+[Compatibility windows -- Die Kompatibilitäts-Fenster](../titan-basics/workspace-windows.md#compatibility-windows---die-kompatibilitätsfenster).
 
 ## Paletten beschriften und bemalen
 
@@ -286,7 +286,7 @@ keine anderen Attributwerte in den Programmierspeicher zu schreiben.
 6.  Klicken Sie auf eine Palettenschaltfläche, um die Palette zu
 	speichern.
 
-Effekt-Paletten lassen sich nicht als **[Quick Palette](using-palettes.md#quick-palettes----schnelle-paletten-ohne-ausgewählte-geräte)** verwenden. Es müssen immer Fixtures angewählt sein, um eine 
+Effekt-Paletten lassen sich nicht als **[Quick Palette](using-palettes.md#quick-palettes---schnelle-paletten-ohne-ausgewählte-geräte)** verwenden. Es müssen immer Fixtures angewählt sein, um eine 
 Effekt-Palette anzuwenden.
 
 ## Erstellen einer Palette mit Zeiten

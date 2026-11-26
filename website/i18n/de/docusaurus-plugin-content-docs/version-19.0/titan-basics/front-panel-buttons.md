@@ -33,7 +33,7 @@ Bei **allen anderen Pulten** sind die Tasten folgendermaßen angeordnet:
 ![Arena Select and Flash](/docs/images/Arena-Select-Flash.png)
 
 
-## Key Profiles -- Tastenprofile
+## Key Profiles - Tastenprofile
 
 Es ist möglich, die Funktionsweise der Flash- und der
 Auswahltasten (sowie der schwarzen Tasten beim Sapphire Touch) zu
@@ -42,7 +42,7 @@ Diese Einstellungen lassen sich als [Key Profile (Tastenprofil)](../system-setti
 abspeichern. Einzelne Tastenprofile lassen sich einzelnen Benutzern zuordnen oder für die 
 vereinfachte Bedienung des Pultes bei bestimmten Anwendungsfällen verwenden.
 
-## Macros -- Tastenfolgen
+## Macros - Tastenfolgen
 
 Während des Programmierens sind zuweilen bestimmte Abfolgen von
 Tastendrücken sehr oft auszuführen. Zur Vereinfachung lassen sich solche

@@ -157,7 +157,7 @@ Oft haben Windows-PCs ab Werk ein paar Voreinstellungen, die z.B. die USB-Hardwa
 
 5. die Firewall deaktivieren
 
-## Titan Healthcheck -- die Eigendiagnose
+## Titan Healthcheck - die Eigendiagnose
 
 Bei Start der Titan-Software wird ein Selbsttest ausgeführt, der Titan
 Healthcheck. Dieser überprüft das Dateisystem, die Firmware

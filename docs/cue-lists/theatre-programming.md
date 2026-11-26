@@ -134,7 +134,7 @@ Use the Cue List window to set Block or Follow-On cues (using <Keys.HardKey>View
 	in the Tracking column click the cell for the cue you want to change and
 	select <Keys.SoftKey>Block</Keys.SoftKey> from the softkeys.
 
-- To make a Follow-On or [linked cue](cue-list-timing.md#cue-linking--link-offset) so they automatically run after each other,
+- To make a Follow-On or [linked cue](./cue-list-timing.md#cue-linking--link-offset) so they automatically run after each other,
 	click on the "Link" cell
 	(which normally shows "Wait For Go". Then select from the softkeys <Keys.SoftKey>Link After Previous Cue</Keys.SoftKey> or <Keys.SoftKey>Link With Previous Cue</Keys.SoftKey>. For Link After, set the "Delay Out" time to set how long the cue will remain before the next cue starts.
 

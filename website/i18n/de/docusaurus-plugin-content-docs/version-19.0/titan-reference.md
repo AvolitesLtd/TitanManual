@@ -62,7 +62,7 @@ n <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>Through</Keys.HardKey>									| 
 n <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>Through</Keys.HardKey> i								| Zellen 1 bis i des Geräts n
 n <Keys.HardKey>.</Keys.HardKey> <Keys.HardKey>Through</Keys.HardKey> i<Keys.HardKey>.</Keys.HardKey>j							| Zellen 1 bis j der Geräte n bis i
 
-## Select If -- Bedingte Auswahl
+## Select If - Bedingte Auswahl
 
 Tastenfolge 										| Resultat
 ---													| --- 
@@ -70,7 +70,7 @@ Tastenfolge 										| Resultat
 <Keys.HardKey>Select If</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> <Keys.HardKey>Through</Keys.HardKey> 50					| Alle Geräte mit Dimmer >50%.
 <Keys.HardKey>Select If</Keys.HardKey> <Keys.HardKey>@</Keys.HardKey> 50 <Keys.HardKey>Through</Keys.HardKey>					| Alle Geräte mit Dimmer <50%.
 
-## Record -- Speichern
+## Record - Speichern
 
 **<Keys.HardKey>Record</Keys.HardKey> &#123;Cueliste&#125; &#123;Cueliste&#125;**
 Anhängen an das Ende der Cueliste
@@ -97,7 +97,7 @@ Mergen des Programmers (nur Position) in den gerade aktiven Cue.
 
 - Siehe [Updaten von Cues](./cue-lists/theatre-programming#updaten-von-cues) im Abschnitt Tipps für Theater-Programmierer für mehr Informationen zum Editieren von Cuelisten und zum Speichern von Cues.
 
-## Copy, Move -- Kopieren, Verschieben in Cuelisten
+## Copy, Move - Kopieren, Verschieben in Cuelisten
 
 **<Keys.HardKey>Copy</Keys.HardKey> &#123;Cueliste&#125; n <Keys.HardKey>Enter</Keys.HardKey>**
 
@@ -128,19 +128,19 @@ Kopieren/Verschieben der Cues 1,2,3,4,6,7,8,9,10,20 der Liste auf
 &#123;Cueliste&#125; und Einfügen nach Cue n der Cueliste auf &#123;target
 playback&#125;.
 
-## Delete -- Löschen
+## Delete - Löschen
 
 **<Keys.HardKey>Delete</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> n**
 
 Cue n der gerade verbundenen Cueliste löschen.
 
-## Include --  in den Speicher laden
+## Include - in den Speicher laden
 
 **<Keys.HardKey>Include</Keys.HardKey> <Keys.HardKey>Cue</Keys.HardKey> n**
 
 Cue n der gerade verbundenen Cueliste in den Programmierspeicher laden.
 
-## Times -- Zeiten
+## Times - Zeiten
 
 **<Keys.HardKey>Time</Keys.HardKey> 5**
 
@@ -174,7 +174,7 @@ Cue n der gerade verbundenen Cueliste in den Programmierspeicher laden.
 
 Fadezeit nach Geräteauswahl aufgeteilt.
 
-## Cue Lists -- Cuelisten
+## Cue Lists - Cuelisten
 
 **<Keys.HardKey>Cue</Keys.HardKey> n <Keys.HardKey>Go</Keys.HardKey>**
 
