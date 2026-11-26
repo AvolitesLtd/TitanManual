@@ -6,7 +6,7 @@
   "homepage": "https://manual.avolites.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/icke-siegen/TitanManual"
+    "url": "https://github.com/AvolitesLtd/TitanManual"
   },
   "main": "app.js",
   "author": "Avolites Ltd. <support@avolites.com> (https://www.avolites.com)",
